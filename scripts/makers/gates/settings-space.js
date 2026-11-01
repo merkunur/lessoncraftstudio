@@ -31,6 +31,50 @@ const GM = require('./lib/guess-maker.js');
 const screen = require('../screen.js');
 
 const A = MP.args();
+
+/*
+ * EXEMPT — a strategy that IS the skill the page teaches is not a tell (main session, 2026-11-01, each checked against the
+ * template's own instruction). Only the named strategy of the named template is dropped; every other strategy of that
+ * template still counts, and the verdict is recomputed from the rest. Never add an entry to make a run pass: an entry
+ * names WHY the pattern is the lesson.
+ */
+const EXEMPT = {
+  'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
+  'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
+  'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],
+  'G2-228': [/^alternate-/, 'colour ONE HALF: any half of the parts is right (graded "any N"), so every other part is a right answer, not a guess'],
+  'G3-316': [/^alternate-/, 'colour n of d parts: any n parts are right (graded "any N")'],
+  'G1-137': [/^slot-[02]$/, 'the symbols stand in their fixed order < = >; without equal pairs two outcomes remain — the child still compares'],
+  'G2-219': [/^slot-[02]$/, 'the symbols stand in their fixed order < = >; the child still compares'],
+  'G1-434': [/^prev+1$/, 'missing numbers on a 120 chart: the next number IS the answer — the counting sequence is the lesson'],
+  'G1-436': [/^prev+1$/, 'fill in the number chart in order, box by box: counting on is the lesson'],
+  'G2-394': [/^prev+1$/, 'missing numbers on a number chart: the counting sequence is the lesson'],
+  'G1-449': [/^(const-1|echo|same-as-prev)$/, 'near doubles: write the double of the printed number (echo / a repeated part) and the "+ 1" box is always 1 — the strategy is the lesson'],
+  'G2-409': [/^(const-1|same-as-prev)$/, 'level 1 shows unit fractions (numerator 1); the shaded and the unshaded fraction share their denominator'],
+  'G1-351': [/^const-/, 'sorting numbers into the odd and even house: the bins are read as set placeholders, not typed answers'],
+  'G1-456': [/^const-/, 'cut and sort into the odd and even house: set placeholders'],
+  'G3-387': [/^const-/, 'sorting into round-up / round-down bins: set placeholders'],
+  'G1-113': [/^echo$/, 'fact families: the four sentences use the numbers printed by the two groups'],
+  'G1-369': [/^same-as-prev$/, 'a fair share: each friend gets the same number'],
+  'G2-351': [/^same-as-prev$/, 'two EQUAL addends: the two boxes hold the same number'],
+  'G3-409': [/^same-as-prev$/, 'fact of the day: one fact, written every way'],
+  'K-445': [/^same-as-prev$/, 'same number? both groups are counted; on the "yes" rows the two counts are equal'],
+  'K-452': [/^same-as-prev$/, 'three ways to show ONE number: the number repeats'],
+  'K-448': [/^echo$/, 'teen numbers: write the number, then 10 + ones = that number (it is printed back)'],
+  'K-456': [/^index-rev$/, 'a number house lists every split in order, so the missing part counts down floor by floor — the pattern is the lesson'],
+  'G1-451': [/^echo$/, 'double and half machines: the half of a double is the number printed at the start'],
+  'G2-206': [/^const-1$/, 'make A ten: 11–19 ones bundle into one ten — the tens box is 1 by the task'],
+};
+function exemptFor(id, r) {
+  const ex = EXEMPT[id];
+  if (!ex || !r.strategies) return r;
+  const kept = r.strategies.filter((st) => !ex[0].test(st.name));
+  if (kept.length === r.strategies.length) return r;
+  const rank = { FAIL: 2, WARN: 1, PASS: 0 };
+  let worst = null;
+  for (const st of kept) if (!worst || rank[st.v] > rank[worst.v] || (rank[st.v] === rank[worst.v] && st.score > worst.score)) worst = st;
+  return { ...r, strategies: kept, worst, verdict: worst ? worst.v : 'PASS', exempted: ex[1] };
+}
 const QUICK = !!A.quick;
 const LOCS = String(A.locales || (QUICK ? 'en' : 'en,fi')).split(',');
 const COPIES = Number(A.copies || (QUICK ? 3 : 6));
@@ -55,9 +99,9 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     return { bundles: b };
   }
 
-  /** measure one pool and report */
+  /** measure one pool and report (an exempt strategy of that template is dropped before the verdict — EXEMPT) */
   function judge(tag, pools, extra) {
-    const res = GM.measure(pools);
+    const res = GM.measure(pools).map((r) => exemptFor((extra && extra.id) || tag.split(' ')[1], r));
     const out = [];
     for (const r of res) {
       groups++; questions += r.questions;

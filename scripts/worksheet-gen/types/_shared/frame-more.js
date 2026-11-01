@@ -133,10 +133,15 @@ function makeFrameMoreType(cfg) {
       }
 
       if (mode === 'frame-minus') {
-        const ns = counts(rng, d.cards, d.lo, d.hi);
-        const takes = balanced(rng, ns.length, 3).map((x) => x + 1);   // take away 1, 2 or 3 in equal shares (review: five of six took 1)
+        // what is LEFT (the answer) is drawn first, spread over 1 … hi − 1, then what is taken away (1, 2 or 3 in equal
+        // shares, review: five of six took 1), then the start = left + taken, kept in lo … hi. Drawing the start first
+        // made "1 left" the answer on 56 % of the level-1 cards (task 4 settings-space, 2026-11-01).
+        const lefts = counts(rng, d.cards, 1, d.hi - 1);
+        const takes = balanced(rng, lefts.length, 3).map((x) => x + 1);
+        // the take, raised if the start would fall below lo, lowered if it would pass hi (left ≤ hi − 1, so it stays ≥ 1)
+        const ns = lefts.map((left, i) => left + Math.min(Math.max(takes[i], d.lo - left), d.hi - left));
         ns.forEach((v, i) => {
-          const k = Math.min(v - 1, takes[i]);   // something is always left (never 0)
+          const k = v - lefts[i];   // something is always left (never 0)
           const frame = tenFrame({ a: v, cell: d.cards <= 4 ? 58 : 40, crossed: k }).svg;   // four big cards at level 1: a big frame
           const sentence = d.sentence
             ? `${answerBox({ w: 46, h: 46, answer: v })}${T('−', 26)}${answerBox({ w: 46, h: 46, answer: k })}${T('=', 26)}${answerBox({ w: 46, h: 46, answer: v - k })}`

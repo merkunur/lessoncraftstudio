@@ -129,7 +129,13 @@ button { font: inherit; cursor: pointer; }
 /* the screen version preview (screen-from-marks, 2026-11-01): the student's page inside the dialog */
 .mk-screen-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
 .mk-screen-host { min-height: 120px; }
+/* the screen version gets (almost) the whole window: the student page fills it and scrolls in ONE place — inside the
+   small picker dialog it was a box with two scrollbars (operator 2026-11-01) */
+.mk-picker.mk-screen-dialog { width: min(1180px, calc(100vw - 24px)); height: calc(100vh - 24px); max-height: none; padding: 14px 18px; display: flex; flex-direction: column; }
+.mk-screen-dialog .mk-screen-host { flex: 1; min-height: 0; display: flex; }
 .mk-screen-frame { width: 100%; height: min(72vh, 900px); border: 0; border-radius: 12px; background: #FBF3E4; }
+.mk-screen-dialog .mk-screen-frame { height: 100%; flex: 1; }
+.mk-screen-dialog .mk-pick-note:empty { display: none; }
 /* the share sheet (student link + QR, embed code, the maker's page, the colleague link) */
 .mk-share { display: grid; gap: 16px; overflow: auto; max-height: calc(min(80vh, 760px) - 80px); padding-right: 4px; }
 .mk-share-sec { display: grid; gap: 8px; padding: 12px 14px; border: 2px solid var(--line); border-radius: 12px; }

@@ -77,8 +77,12 @@ function makePictureEquationType(cfg) {
         const noun = nouns[i].noun;
         let stage;
         if (mode === 'add' || mode === 'compare') {
-          const a = rng.int(1, d.maxTotal - 1);
-          const b = mode === 'add' ? rng.int(1, d.maxTotal - a) : rng.int(1, d.maxTotal - 1);
+          // add: the SUM is drawn first, evenly over 2 … maxTotal, then how it splits. Drawing a first and then b made the
+          // biggest sum the most likely (within 5: the sum was 5 on 52 % of rows), so "write 5 in every box" scored
+          // (task 4 settings-space, 2026-11-01). compare: two numbers, independently, as before.
+          let a, b;
+          if (mode === 'add') { const sum = rng.int(2, d.maxTotal); a = rng.int(1, sum - 1); b = sum - a; }
+          else { a = rng.int(1, d.maxTotal - 1); b = rng.int(1, d.maxTotal - 1); }   // compare: the same draws as it shipped
           if (mode === 'add') {
             stage = group(theme, noun, a, rng) + OP('+') + group(theme, noun, b, rng) + OP('=') +
               answerBox({ w: 70, h: 58, answer: a + b });
@@ -101,15 +105,20 @@ function makePictureEquationType(cfg) {
             OP('+') + group(theme, noun, c, rng, { w: 120 }) + OP('=') + answerBox({ w: 64, h: 56, answer: a + b + c });
           truth.push({ a, b, c, ans: a + b + c });
         } else if (mode === 'crossout') {
-          const n = rng.int(2, d.maxTotal);
-          const k = rng.int(1, n - 1);
+          // the ANSWER (how many are left) is drawn first, evenly over 1 … maxTotal − 1, then the start: drawing the start
+          // and then what is crossed out made "1 left" the commonest answer (52–60 %) — same fix as add
+          const left = rng.int(1, d.maxTotal - 1);
+          const n = rng.int(left + 1, d.maxTotal);
+          const k = n - left;
           stage = crossoutGroup(theme, noun, n, k, rng) + OP('') +
             `<span style="display:inline-flex;align-items:center;gap:8px;flex:0 0 auto">` +
             NUM(n) + OP('−') + NUM(k) + OP('=') + answerBox({ w: 64, h: 56, answer: n - k }) + `</span>`;
           truth.push({ n, k, ans: n - k });
         } else if (mode === 'missing') {
-          const total = rng.int(3, d.maxTotal);
-          const a = rng.int(1, total - 1);
+          // the missing part (the answer) first, evenly over 1 … maxTotal − 1; the whole is at least 3 as before
+          const miss = rng.int(1, d.maxTotal - 1);
+          const a = rng.int(Math.max(1, 3 - miss), d.maxTotal - miss);
+          const total = a + miss;
           stage = group(theme, noun, a, rng) + OP('+') +
             answerBox({ w: 70, h: 58, answer: total - a }) + OP('=') + NUM(total);
           truth.push({ a, total, ans: total - a });

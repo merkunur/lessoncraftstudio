@@ -87,11 +87,12 @@ function rainbowSvg({ N, order, arcs, rings, given, pairs }) {
   let s = `<circle cx="40" cy="${yNum - 10}" r="30" fill="${CREAM}" stroke="${TEAL}" stroke-width="3.5"/>` +
     `<text x="40" y="${yNum - 10}" text-anchor="middle" dominant-baseline="central" font-family="'Baloo 2'" font-weight="700" font-size="30" fill="${INK}" data-lcs-target="${N}">${N}</text>`;
   // the screen's pair marks (pairs = the arcs the child draws): a hit box the width of the number's lane around the numeral
+  // (painted at opacity 0, never fill="none": an unpainted svg box takes no tap, so beside a digit a tap did nothing)
   const partner = (v) => { for (const [a, b] of pairs || []) { if (a === v) return b; if (b === v) return a; } return null; };
   order.forEach((v) => {
     const t = `<text x="${xOf(v)}" y="${yNum}" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="${fs}" fill="${INK}" data-lcs-num="${v}">${v}</text>`;
     const w = partner(v);
-    s += w != null && w !== v ? `<g data-lcs-key-badge="${N}:${w}" data-lcs-pair="${N}:${v}"><rect x="${(xOf(v) - sp / 2).toFixed(1)}" y="${yNum - fs - 2}" width="${sp.toFixed(1)}" height="${fs + 12}" fill="none"/>${t}</g>` : t;
+    s += w != null && w !== v ? `<g data-lcs-key-badge="${N}:${w}" data-lcs-pair="${N}:${v}"><rect x="${(xOf(v) - sp / 2).toFixed(1)}" y="${yNum - fs - 2}" width="${sp.toFixed(1)}" height="${fs + 12}" fill="#FFFFFF" fill-opacity="0"/>${t}</g>` : t;
   });
   const maxH = yNum - fs - top - 6;
   const arc = (a, b, stroke, extra) => {

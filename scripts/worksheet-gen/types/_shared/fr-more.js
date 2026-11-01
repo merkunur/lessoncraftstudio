@@ -162,8 +162,13 @@ function makeFrMoreType(cfg) {
       const letterOf = Object.fromEntries(pics.map((p) => [p.k, p.letter]));
       // the screen's tap-pair marks (scripts/makers/screen.js): the word carries its picture's letter, the picture its own
       const mark = key || !!(ctx && ctx.screen);
-      const wordRows = keys.map((k) => `<div data-lcs-fword="${k}"${mark ? ` data-lcs-key-badge="${letterOf[k]}"` : ''} style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px ${key ? 52 : 16}px 10px 16px;border-radius:14px;background:#FFFFFF;border:2px solid #F0E4CB;min-height:${d.big ? 96 : 64}px;box-sizing:border-box">` +
-        `<span style="font-family:'Nunito';font-weight:800;font-size:22px;color:${INK}">${FW.words[k]}</span>` +
+      // with the write-the-fraction boxes (level 3) the tap-to-match mark sits on the WORD, stretched to the row's height —
+      // on the whole row it covered the boxes, so a tap meant for a box also hit the match target (screen-geometry
+      // — its layout is the same on the printed page, so the screen differs from the page by its marks only)
+      // G2-410 L3, 2026-11-01); without the boxes the whole row stays the target, as it was
+      const onWord = mark && d.symbol;
+      const wordRows = keys.map((k) => `<div data-lcs-fword="${k}"${mark && !onWord ? ` data-lcs-key-badge="${letterOf[k]}"` : ''} style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px ${key ? 52 : 16}px 10px 16px;border-radius:14px;background:#FFFFFF;border:2px solid #F0E4CB;min-height:${d.big ? 96 : 64}px;box-sizing:border-box">` +
+        `<span${onWord ? ` data-lcs-key-badge="${letterOf[k]}"` : ''} style="font-family:'Nunito';font-weight:800;font-size:22px;color:${INK}${d.symbol ? ';align-self:stretch;display:flex;align-items:center;min-width:120px' : ''}">${FW.words[k]}</span>` +
         `<span style="display:flex;align-items:center;gap:10px">${d.symbol ? FRACBOX(+k.split('/')[0], +k.split('/')[1]) : ''}<span style="width:16px;height:16px;border-radius:50%;background:${TEAL}"></span></span></div>`).join('');
       const picRows = pics.map((p) => {
         const [a, b] = p.k.split('/').map(Number);

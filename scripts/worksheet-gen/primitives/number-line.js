@@ -70,7 +70,10 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
     const n = Math.round((max - min) / tickStep), sp = width / n;
     for (let k = 0; k <= n; k++) {
       const v = min + k * tickStep, hit = (tickBoxes.rings || []).some((r) => Math.abs(r - v) < tickStep / 100);
-      parts.push(roundedRect({ x: ticks.xFor(v) - sp / 2, y: y - 20, w: sp, h: 40, r: 4, fill: 'none', data: { 'data-lcs-tickbox': k, 'data-lcs-pick': 1, ...(hit ? { 'data-lcs-key-ring': 1 } : {}) } }));
+      // at most 72 px wide, centred on the tick: a lane-wide box at the end of a line cut in halves (240 px) reached
+      // 120 px past the line, outside the page (screen-geometry G3-406 L1, 2026-11-01)
+      const bw = Math.min(sp, 72);
+      parts.push(roundedRect({ x: ticks.xFor(v) - bw / 2, y: y - 20, w: bw, h: 40, r: 4, fill: 'none', data: { 'data-lcs-tickbox': k, 'data-lcs-pick': 1, ...(hit ? { 'data-lcs-key-ring': 1 } : {}) } }));
     }
   }
 

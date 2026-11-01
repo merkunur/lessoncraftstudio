@@ -107,19 +107,29 @@ function answerBox({ w, h, answer, label }) {
     `data-lcs-answer="${answer}">${label || ''}</span>`;
 }
 
-/** Distinct distractor set around a correct value, clamped to [min,max]. */
+/**
+ * Wrong numbers near the right one (± the deltas, inside [min, max]). The RANK of the right number among all the choices
+ * is drawn first, evenly over the ranks the range allows, then the wrong numbers that give it: picking ± deltas at random
+ * made the right number the middle one about half the time, so "pick the middle number" scored (task 4 settings-space,
+ * 2026-11-01: K-002 level 3 67 %, K-027 level 2 81 %). Only at the edge of the range (the right number is min or max) is
+ * the rank forced.
+ */
 function distractorsFor({ correct, count, min, max, rng, deltas }) {
-  const ds = new Set();
   const pool = deltas || [-3, -2, -1, 1, 2, 3];
-  let guard = 0;
-  while (ds.size < count && guard++ < 200) {
-    const v = correct + rng.pick(pool);
-    if (v >= min && v <= max && v !== correct) ds.add(v);
+  const ok = (v) => v >= min && v <= max && v !== correct;
+  const below = [...new Set(pool.filter((d) => d < 0).map((d) => correct + d))].filter(ok);
+  const above = [...new Set(pool.filter((d) => d > 0).map((d) => correct + d))].filter(ok);
+  const ranks = [];
+  for (let r = 0; r <= count; r++) if (below.length >= r && above.length >= count - r) ranks.push(r);
+  if (ranks.length) {
+    const r = rng.pick(ranks);
+    return [...rng.shuffle(below).slice(0, r), ...rng.shuffle(above).slice(0, count - r)];
   }
+  const ds = new Set([...below, ...above].slice(0, count));
   if (ds.size < count) { // degenerate range fallback: walk outward
     for (let step = 1; ds.size < count; step++) {
       for (const v of [correct - step, correct + step]) {
-        if (v >= min && v <= max && v !== correct && ds.size < count) ds.add(v);
+        if (ok(v) && ds.size < count) ds.add(v);
       }
       if (step > (max - min)) break;
     }

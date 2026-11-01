@@ -60,6 +60,8 @@ function makeBaseTenType(cfg) {
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const cards = [];
+      const rankBag = [];
+      const hubBag = [];    // expanded: is the right form the one sharing the most pieces? true on a third of the rows   // digit-value: the rank of the right value among the chips, balanced over the page
       const used = new Set();
       // more than six hundred-flats (only the makers' level 3 draws them) would run past the page: the unit shrinks so
       // the row fits 600 px; six or fewer keep the published size (the catalogue is unchanged)
@@ -127,11 +129,31 @@ function makeBaseTenType(cfg) {
             OP('+') + answerBox({ w: 54, h: 50, answer: o - bundles * 10 }) + `</span></div>`;
         } else if (mode === 'expanded') {
           const { h, t, o, v } = pick();
+          // The wrong forms are place-value mistakes (a digit in the wrong place, two digits swapped, a digit read at face
+          // value). Each used to be the right form with ONE piece changed, so the right form was always the one sharing the
+          // most pieces with the other two — a child scored 76–89 % by picking the "typical" one (task 4 settings-space,
+          // 2026-11-01). Now the two wrong forms are chosen so that the option sharing the most pieces is the right one on
+          // only a third of the rows (a shuffled bag per page; the pair is drawn until it gives the wanted outcome).
           const correct = h ? `${h * 100} + ${t * 10} + ${o}` : `${t * 10} + ${o}`;
-          const wrongs = h
-            ? [`${h * 100} + ${o * 10} + ${t}`, `${h * 10} + ${t * 10} + ${o}`]
-            : [`${o * 10} + ${t}`, `${t * 10} + ${o + 1 > 9 ? 1 : o + 1}`];
-          const chips = rng.shuffle([correct, ...wrongs.filter((w) => w !== correct)]).map((s) =>
+          const value = h * 100 + t * 10 + o;
+          const forms = h
+            ? [[h * 10, t * 10, o], [h * 100, o * 10, t], [h * 100, t * 100, o], [h * 100, t * 10, o * 10], [h * 10, o * 10, t],
+              [h * 10, t * 10, o * 10], [h, t * 10, o], [h * 100, t, o], [h * 1000, t * 10, o]]
+            : [[o * 10, t], [t * 10, o * 10], [t, o], [t * 100, o], [t, o * 10]];
+          const cands = [...new Set(forms.filter((p) => p.every((x) => x > 0) && p.reduce((x, y) => x + y, 0) !== value)
+            .map((p) => p.join(' + ')))].filter((w) => w !== correct);
+          const pieces = (str) => str.split(' + ');
+          const shared = (x, y) => pieces(x).filter((p) => pieces(y).includes(p)).length;
+          // the option(s) sharing the most pieces with the other two
+          const hubs = (opts) => { const sc = opts.map((x) => opts.reduce((acc, y) => acc + (x === y ? 0 : shared(x, y)), 0)); const mx = Math.max(...sc); return opts.filter((_, k) => sc[k] === mx); };
+          if (!hubBag.length) hubBag.push(...rng.shuffle([true, false, false]));
+          const wantRightHub = hubBag.shift();
+          const pairs = [];
+          for (let i = 0; i < cands.length; i++) for (let j = i + 1; j < cands.length; j++) pairs.push([cands[i], cands[j]]);
+          const fits = (pr) => { const hb = hubs([correct, ...pr]); return hb.length === 1 && (hb[0] === correct) === wantRightHub; };
+          const good = pairs.filter(fits);
+          const wrongs = good.length ? rng.pick(good) : rng.pick(pairs.filter((pr) => !hubs([correct, ...pr]).every((x) => x === correct)).concat(pairs.length ? [] : [cands.slice(0, 2)]));
+          const chips = rng.shuffle([correct, ...wrongs]).map((s) =>
             `<span class="ws-chip" style="width:auto;height:46px;font-size:20px;padding:0 14px;border-radius:23px" ` +
             `data-lcs-exp="${s}"${s === correct ? ' data-lcs-correct="1"' : ''}>${s}</span>`).join('');
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-value="${v}" data-lcs-h="${h}" data-lcs-t="${t}" data-lcs-o="${o}">` +
@@ -148,23 +170,32 @@ function makeBaseTenType(cfg) {
             `<span style="display:inline-flex;gap:12px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px 14px">` +
             (d.maxH ? col(PH[0], h) : '') + col(PH[1], t) + col(PH[2], o) + `</span></div>`;
         } else if (mode === 'digit-value') {
-          const { v } = pick();
-          const s = String(v);
-          const idx = rng.int(0, s.length - 1);
-          const digit = +s[idx];
-          const value = digit * Math.pow(10, s.length - 1 - idx);
+          // The wrong values are the place-value mistakes: the digit itself (face value), the value one or two places
+          // too far left (×10, ×100), one place too far right (÷10), another digit of the number read as the answer.
+          // They used to be the digit and ×10, so the right value was ALWAYS the middle number — a child scored by
+          // picking it (task 4 settings-space, 2026-11-01). Now the rank of the right value among the three (smallest /
+          // middle / largest) comes from a shuffled bag per page, and the number + underlined digit are drawn until that
+          // rank can be made (a ones digit has nothing smaller, so it is drawn for "smallest" or "middle" only).
+          if (!rankBag.length) rankBag.push(...rng.shuffle([0, 1, 2]));
+          const want = rankBag.shift();
+          let v, s, idx, digit, value, below, above, ranks;
+          for (let tries = 0; tries < 40; tries++) {
+            ({ v } = pick());
+            s = String(v);
+            idx = rng.int(0, s.length - 1);
+            digit = +s[idx];
+            value = digit * Math.pow(10, s.length - 1 - idx);
+            below = [...new Set([digit, value / 10, ...s.split('').map(Number).filter((x, k) => k !== idx)])]
+              .filter((w) => Number.isInteger(w) && w > 0 && w < value);
+            above = [value * 10, value * 100];
+            ranks = [0, 1, 2].filter((r) => below.length >= r && above.length >= 2 - r);
+            if (ranks.includes(want)) break;
+          }
+          const rank = ranks.includes(want) ? want : rng.pick(ranks);
           const shown = s.split('').map((ch, k) =>
             `<span style="${k === idx ? 'text-decoration:underline;text-decoration-color:#F2784B;text-decoration-thickness:4px;color:#F2784B' : ''}">${ch}</span>`).join('');
-          const wrongs = new Set([digit, value * 10].filter((w) => w !== value && w > 0));
-          // Fallback distractor must not equal the correct value or repeat an
-          // existing wrong (units-place value 1 made floor(value/10)→1 === value,
-          // emitting two identical chips; surfaced at wave-001 verify).
-          let extra = Math.max(1, Math.floor(value / 10));
-          while (wrongs.size < 2) {
-            if (extra !== value && !wrongs.has(extra)) wrongs.add(extra);
-            else extra++;
-          }
-          const chips = rng.shuffle([value, ...[...wrongs].slice(0, 2)]).map((c) =>
+          const wrongs = [...rng.shuffle(below).slice(0, rank), ...above.slice(0, 2 - rank)];
+          const chips = rng.shuffle([value, ...wrongs]).map((c) =>
             `<span class="ws-chip" style="width:auto;min-width:70px;height:48px;font-size:22px;padding:0 12px;border-radius:24px" ` +
             `data-lcs-choice="${c}"${c === value ? ' data-lcs-correct="1"' : ''}>${c}</span>`).join('');
           stage = `<div class="ws-card-stage" style="gap:26px;justify-content:space-between;padding:8px 20px" data-lcs-digitvalue="${value}">` +

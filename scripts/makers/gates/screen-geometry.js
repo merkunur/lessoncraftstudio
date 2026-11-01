@@ -37,24 +37,34 @@ function measure() {
   const page = document.querySelector('[data-lcs-page]');
   const pr = page.getBoundingClientRect();
   const vw = document.documentElement.clientWidth;
-  const items = Array.prototype.slice.call(document.querySelectorAll('#lcs-overlay button')).map((b) => { const r = b.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height, q: b.getAttribute('data-lcs-q') || b.getAttribute('data-lcs-t') || b.getAttribute('data-lcs-b') || '' }; });
+  const items = Array.prototype.slice.call(document.querySelectorAll('#lcs-overlay button')).map((b) => { const r = b.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height, q: b.getAttribute('data-lcs-q') || b.getAttribute('data-lcs-t') || b.getAttribute('data-lcs-b') || '', role: b.hasAttribute('data-lcs-t') ? 'target' : 'item' }; });
   const controls = Array.prototype.slice.call(document.querySelectorAll('.lcs-btn, .lcs-key')).filter((b) => !b.hidden && b.offsetParent).map((b) => { const r = b.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height, txt: (b.textContent || '').trim().slice(0, 12) }; });
   // 4. on content: the element under each target's centre, with the overlay out of the way
   const ov = document.getElementById('lcs-overlay');
   const prevPE = ov.style.pointerEvents; ov.style.pointerEvents = 'none';
-  const onContent = items.map((it) => {
-    const x = (it.l + it.r) / 2, y = (it.t + it.b) / 2;
+  // each target is scrolled into the window first: elementFromPoint sees only the visible window, so a target lower on a
+  // tall phone screen read as "nothing" (the 504-px window at 360) — the page was never looked at there
+  const buttons = Array.prototype.slice.call(document.querySelectorAll('#lcs-overlay button'));
+  const onContent = buttons.map((btn) => {
+    btn.scrollIntoView({ block: 'center', inline: 'center' });
+    const rr = btn.getBoundingClientRect();
+    const x = (rr.left + rr.right) / 2, y = (rr.top + rr.bottom) / 2;
     const el = document.elementFromPoint(x, y);
     if (!el) return 'nothing';
-    if (el === page || el.matches('.ws-body, .ws-cardgrid, .ws-card, .ws-card-stage, html, body')) return 'bare:' + el.tagName.toLowerCase() + '.' + (el.className.baseVal || el.className || '').split(' ')[0];
+    // the footer (attribution, page number) is not page content either: a target there taps nothing the child sees
+    if (el === page || el.matches('.ws-body, .ws-cardgrid, .ws-card, .ws-card-stage, html, body') || el.closest('.ws-foot')) return 'bare:' + el.tagName.toLowerCase() + '.' + (el.className.baseVal || el.className || '').split(' ')[0];
     return 'content';
   });
   ov.style.pointerEvents = prevPE;
+  window.scrollTo(0, 0);
   const inPage = items.map((it) => it.l >= pr.left - 1 && it.r <= pr.right + 1 && it.t >= pr.top - 1 && it.b <= pr.bottom + 1);
   const inView = (r) => r.l >= -0.5 && r.r <= vw + 0.5;
   const overlaps = [];
   for (let i = 0; i < items.length; i++) for (let j = i + 1; j < items.length; j++) {
     const a = items[i], b = items[j];
+    // one element with two roles (a rainbow number is tapped first OR second: an item button and a target button on
+    // exactly the same box) is one control, not an ambiguous tap — only DIFFERENT boxes that overlap are counted
+    if (a.role !== b.role && Math.abs(a.l - b.l) < 1 && Math.abs(a.t - b.t) < 1 && Math.abs(a.r - b.r) < 1 && Math.abs(a.b - b.b) < 1) continue;
     const ix = Math.min(a.r, b.r) - Math.max(a.l, b.l), iy = Math.min(a.b, b.b) - Math.max(a.t, b.t);
     if (ix > 2 && iy > 2) overlaps.push([i, j, Math.round(ix), Math.round(iy)]);
   }

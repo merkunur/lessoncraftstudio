@@ -104,7 +104,9 @@ const bot = (mode) => {
 };
 
 /** the visible ink of a page: invisible hit boxes (fill="none", no stroke) and bare <g> wrappers removed */
-const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)[^>]*\sfill="none"[^>]*\/?>/g, '').replace(/<g>|<\/g>/g, '');
+// an invisible hit box: a <rect> with no stroke, unpainted (fill="none") or painted at opacity 0 — the form that takes a
+// tap (an unpainted svg box takes none; K-458, 2026-11-01). A visible fill or any stroke is ink and stays.
+const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill="none"|fill-opacity="0"))[^>]*\/?>/g, '').replace(/<g>|<\/g>/g, '');
 
 (async () => {
   const versions = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', 'versions.json'), 'utf8'));

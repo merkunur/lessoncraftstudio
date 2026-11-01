@@ -38,8 +38,11 @@ module.exports = {
       let a, b;
       let guard = 0;
       do {
-        a = rng.int(1, d.maxTotal - 1);
-        b = rng.int(1, Math.max(1, d.maxTotal - a));
+        // the SUM first, evenly over 2 … maxTotal, then how it splits (a first, then b, made the biggest sum the commonest
+        // answer: "write 5" scored 48 % at level 1 — task 4 settings-space, 2026-11-01)
+        const sum = rng.int(2, d.maxTotal);
+        a = rng.int(1, sum - 1);
+        b = sum - a;
         guard++;
       } while (used.has(a + '+' + b) && guard < 30);
       used.add(a + '+' + b);

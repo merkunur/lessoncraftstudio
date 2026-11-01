@@ -58,8 +58,10 @@ module.exports = {
       });
       const stageHtml = iconRows({ theme, noun: noun.noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng });
 
-      // choices: correct + 2 distractors clamped to the difficulty's range
-      const choices = rng.shuffle([n, ...distractorsFor({ correct: n, count: 2, min: 1, max: d.max, rng })]);
+      // choices: correct + 2 distractors. They may go as far past the level's top count as below its lowest
+      // (L1 1-5: none; L2 2-10: 1; L3 5-20: 4) — clamped AT the top, a top count
+      // could only be the largest choice, so "the biggest number" scored (task 4 settings-space, 2026-11-01)
+      const choices = rng.shuffle([n, ...distractorsFor({ correct: n, count: 2, min: 1, max: d.max + (d.min - 1), rng })]);
 
       cards.push(
         `<div class="ws-card-stage" data-lcs-count="${n}" data-lcs-noun="${noun.vocabKey}"${slot.attr(ctx, 'pic', i)}>${stageHtml}</div>` +

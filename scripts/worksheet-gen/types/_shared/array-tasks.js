@@ -111,6 +111,7 @@ function makeArrayType(cfg) {
     build({ theme, difficulty, locale }, ctx) {
       // the published page (level 2, copy 1) builds exactly as it shipped; a new page may also be its screen / key
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      const arrBag = [];   // build-array: the rank of the right array's size among the three, balanced over the page
       if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
         return SCREEN().screenOrKey(mode, built, ctx, String(locale || 'en').slice(0, 2));
@@ -173,19 +174,28 @@ function makeArrayType(cfg) {
           do { r = rng.int(2, d.maxR); c = rng.int(2, d.maxC); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
           used.add(r + 'x' + c);
           const px = 16;
-          const r2 = r > 2 ? r - 1 : r + 1, c2 = c > 2 ? c - 1 : c + 1;
-          // 2026-10-06 (guessability audit): "one row off + one column off" made the right array the only one sharing a
-          // side with BOTH decoys — tap the array in the middle of the family, never count. A new page chains the three
-          // arrays instead (A–B–C, each one side off the next) with the right array at either end or in the middle,
-          // equally often; the published page builds exactly as it shipped (same rng draws either way).
-          let decoys = [{ r: r2, c, ok: false }, { r, c: c2, ok: false }];
-          if (!published) {
-            const shape = require('../../lib/answer-slots.js').slotFor(`${r}x${c}|${i}|chain`, 3);
-            if (shape === 1) decoys = [{ r: r2, c, ok: false }, { r: r2, c: c2, ok: false }];       // right at an end (rows)
-            else if (shape === 2) decoys = [{ r, c: c2, ok: false }, { r: r2, c: c2, ok: false }];  // right at an end (columns)
-            // the turned right array is the same product — never a decoy (2026-10-04)
-            if (decoys.some((o) => (o.r === c && o.c === r) || (o.r === r && o.c === c))) decoys = [{ r: r2, c, ok: false }, { r, c: c2, ok: false }];
+          // The decoys are one row and/or one column off, chained (A–B–C, each one side off the next) so the right array is
+          // at either end or in the middle (2026-10-06). They used to be one row/column SMALLER whenever the side allowed,
+          // so the right array was the biggest — "tap the one with the most pictures" scored 57–69 % (task 4
+          // settings-space, 2026-11-01; the published page had it too). Now the rank of the right array's size among the
+          // three (smallest / middle / biggest) comes from a shuffled bag per page, and the chain shape and the direction
+          // of each side (one less or one more) are drawn to give it. A decoy with the SAME product (the turned array, or
+          // 2 × 6 beside 3 × 4) would be a second right answer and is never drawn.
+          if (!arrBag.length) arrBag.push(...rng.shuffle([0, 1, 2]));
+          const wantRank = arrBag.shift();
+          // a side may go down to 1 (one row is still an array): with 2 as the floor a side of 2 could only grow, so the right
+          // array could never be the biggest on most level-1 rows
+          const sides = (n) => [n - 1, n + 1].filter((x) => x >= 1);
+          const combos = [];
+          for (const shape of [0, 1, 2]) for (const r2 of sides(r)) for (const c2 of sides(c)) {
+            const ds = shape === 0 ? [{ r: r2, c, ok: false }, { r, c: c2, ok: false }]
+              : shape === 1 ? [{ r: r2, c, ok: false }, { r: r2, c: c2, ok: false }]
+                : [{ r, c: c2, ok: false }, { r: r2, c: c2, ok: false }];
+            if (ds.some((o) => o.r * o.c === r * c)) continue;
+            combos.push({ ds, rank: ds.filter((o) => o.r * o.c < r * c).length });
           }
+          const fitting = combos.filter((x) => x.rank === wantRank);
+          const decoys = rng.pick(fitting.length ? fitting : combos).ds;
           const opts = rng.shuffle([
             { r, c, ok: true },
             // 2026-10-04 (native + pedagogy review): the TURNED array (c rows of r) was a decoy, but it shows the same

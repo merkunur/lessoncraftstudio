@@ -47,7 +47,10 @@ function bondLevels(face, pub) {
       3: lv({ wholes: [20], given: [1, 9], cards: 8, blanks: ['a', 'b'], unordered: true }),
     };
     case 'whole': return {  // K-276 — the whole is missing
-      1: lv({ wholes: [3, 4, 5, 6], parts: [1, 5], cards: 4, partDots: true, blanks: ['whole'], unordered: true }),
+      // L1 wholes 4–7 from parts ≥ 2 (was 3–6 from parts ≥ 1): a whole of 3 = 1 + 2 has no believable smaller wrong
+      // number (it may never be smaller than its bigger part), so on the screen the right whole was the SMALLEST choice
+      // 54–63 % of the time (task 4 settings-space, 2026-11-01)
+      1: lv({ wholes: [4, 5, 6, 7], parts: [2, 5], cards: 4, partDots: true, blanks: ['whole'], unordered: true }),
       2: pub,
       // review 2026-10-13: sums up to 17 were too big a step from level 2 (wholes ≤ 10) — just past ten, 10 to 13
       3: lv({ wholes: [10, 11, 12, 13], parts: [2, 9], cards: 6, blanks: ['whole'], unordered: true }),
@@ -144,8 +147,9 @@ module.exports = {
     let picks;
     let plan = null;
     if (d.mode === 'all') {
-      plan = d.plans[sv - 1];
-      if (!plan) throw new Error(`K-243: level ${difficulty} has ${d.plans.length} copies (no plan for copy ${sv})`);
+      // copy 1 = in order, copy 2 = mixed (the published Level Set pair); a maker's New version asks for copy 3, 4, … —
+      // each is another mixed page (its own shuffle from its own seed), never an error (task 4 settings-space, 2026-11-01)
+      plan = d.plans[Math.min(sv, d.plans.length) - 1];
       const N = d.wholes[0];
       picks = Array.from({ length: N + 1 }, (_, a) => ({ whole: N, a, b: N - a, blank: 'b' }));
       if (plan === 'mixed') {

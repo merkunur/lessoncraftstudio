@@ -3,9 +3,59 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P5 release wiring (prepared, not run: website routes + Prisma tables for saving, the old-landing smart links, nginx); owed: the iPad test (S1), the student play page + deck preset (with the first maker that has a screen version). Then build ALL 60 makers locally.
+**NEXT:** finish the settings-space triage (the remaining write-in tells + the gate exemptions with reasons, below); republish the published pages changed this round (list below — a server step); then task 3 (P5 release wiring) — 🛑 NO new agent until the operator says so (2026-11-01). Then the B1 screen retrofit and B2.
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
+
+## Tasks 2, 4, 5 (Fable 5.1, run in parallel) + the defects their gates found (2026-11-01)
+
+- **Task 2 — student play page + sharing** (`8bf516cd5`, handoff `handoff/02-student-play-and-sharing.md`): `/s/<id>`
+  (per-link card, noindex, site chrome), the play shell from a recipe (marks screens played; other pages printable with one
+  honest sentence), embed code with two backlinks outside the iframe, the subscriber play-meter bypass, deck → maker
+  presets. Website side unbacked until task 3 (`frontend/lib/makers/link-store.ts` contract). Verified: play-shell 83
+  checks + poisons, play-ssr 12. Strings `i18n/play-strings.json` 26 × 11: native + pedagogy read by the main session
+  (no agent — operator hold): sv "plan" → "abonnemang", it "piano" → "abbonamento". Operator decisions open: a lapsed
+  subscriber's links metered (not paused); the student page shows the teacher's typed title.
+- **Task 4 — the five missing gates** (`06424af01`, handoff 04): settings-space, collision, screen-geometry, own-input,
+  pdf-parity. Measurement fixes by the main session: screen-geometry scrolls each target into the window before reading
+  what is under it (a 504-px phone window read every lower target as "nothing"), counts the footer as bare page, and
+  does not count one element's two roles (a rainbow number is tapped first OR second) as an overlap — poison 5 fires
+  again; screen-from-marks treats a box painted at opacity 0 as invisible (poisoned both ways).
+- **Task 5 — picture engines in the browser** (`e8a5ad724`, handoff 05 + `spikes/S6-picture-engines.md`): every engine
+  off sharp through `platform.picture`; pt-verify / htd laws / hm-verify (8 of 9 faces) identical in the browser;
+  cbn outlines, fd layers, pt traces, silhouettes NOT identical → precompute; catalogue 56/56 hashes unchanged.
+- **⚠ Lesson (operator anger):** the agents were told to run the full build + every gate under one shared lock — 70+
+  minutes each, so three agents queued for 1.5 h and none finished. Agents now run only their own checks; the main
+  session runs the full suite (handoff README rule 8, `e405654cd`). A finished agent can keep running in the background:
+  check the task list, not only the agent list.
+
+### Defects found by the new gates, fixed at the source (all levels, all locales)
+
+- **Guessable answers (settings-space, replicated en + fi):** G2-225 the right value was ALWAYS the middle number →
+  rank drawn from a per-page bag, the number + digit drawn to make it (33/33/33). Shared `distractorsFor` (K-002,
+  K-017, K-018 …) drew ± at random → the rank is drawn first; K-002 offers wrong numbers as far above its top count as
+  below its lowest. G1-133 / G2-223 the right expanded form was always the one sharing most pieces with the others →
+  wider place-value mistakes, pair chosen so it is "most typical" a third of the time (28–34 %). G2-212 the right array was
+  always the biggest → chain shape + side directions drawn for a balanced size rank, a side may go to 1. K-276 L1 sums
+  3–6 → 4–7 (a whole of 3 had no believable smaller wrong number). Picture equations (G1-101…104, G1-115), K-451, G1-105
+  drew the answer last, so the top sum / "1 left" filled half the boxes → the answer is drawn first (even spread).
+- **K-243 family L3:** "New version" past copy 2 threw → every further copy is another mixed page.
+- **Screen geometry:** K-458 hit boxes `fill="none"` took no tap → painted at opacity 0; G3-406 L1 tick boxes reached
+  120 px past the line → ≤ 72 px; G2-410 L3 the match target covered the write boxes → it sits on the word.
+- **Print order:** the preview now shows the keys after all pages, as Print and the PDF do.
+- **Screen version dialog:** its own near-full-window dialog (was the 720-px picker box with two scrollbars).
+- **NOT fixed, recorded:** collision hairlines ≤ 3 px (the 30-px card badge over thin card padding — a global padding
+  change reflows every page; to decide with a measured plan); own-input's lint reads `/makers-assets/` pictures over
+  file:// (361 false fails — serve through serve.js).
+- **Exemptions to add to settings-space (the skill itself, not a tell):** K-008/K-009 more/fewer pictures; G1-455 and
+  G2-351/G1-369 odd-even stripes and repeats; "any N parts" shading groups (G2-228, G3-316); G1-137/G2-219 the symbols
+  in their fixed order < = > (two real outcomes without =); count-on / sequence pages where the answer IS previous + 1;
+  the "+1" box of near doubles; unit fractions at G2-409 L1; set placeholders (G1-351, G1-456, G3-387).
+
+### 🛑 Published pages changed by these fixes — need an in-place republish (server step, not done)
+G2-225, G1-133, G2-223, G2-212, K-002, K-017, K-018 (and every other published user of `distractorsFor`), K-276 (L1
+Level Set decks), G1-101, G1-102, G1-103, G1-104, G1-115, G1-105 — plus G2-224 from B1 #8. Interactive decks of these
+types must be rebuilt by the publish pipeline, not by hand.
 
 ## Every page has its own template (2026-11-01, operator: "When the user adds pages he cannot add different templates")
 

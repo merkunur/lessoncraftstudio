@@ -250,6 +250,8 @@ async function openScreenPreview(i) {
   const tabs = el('div', { class: 'mk-screen-tabs', role: 'tablist' });
   if (state.pages.length > 1) for (let k = 0; k < state.pages.length; k++) tabs.append(el('button', { type: 'button', class: 'mk-chip', role: 'tab', 'aria-pressed': String(k === i), text: `${UI.page} ${k + 1}`, on: { click: () => openScreenPreview(k) } }));
   dlg.replaceChildren(head, note, tabs, host);
+  // the screen version's own size (the dialog is shared with the pickers, which keep theirs)
+  if (!dlg.classList.contains('mk-screen-dialog')) { dlg.classList.add('mk-screen-dialog'); dlg.addEventListener('close', () => dlg.classList.remove('mk-screen-dialog'), { once: true }); }
   if (!dlg.open) dlg.showModal();
   if (!screenAt(t, state.lvls[i])) { note.textContent = t.screen ? screenUi('screenLevelNone') : screenUi('screenNone'); return; }
   note.textContent = UI.loading;
@@ -611,6 +613,9 @@ async function render(scrollToSelected) {
   const multi = state.pages.length > 1;
   host.classList.toggle('mk-multi', multi);
   const out = [];
+  // answer keys come after ALL the worksheet pages, in page order — the order Print and the PDF use (pdf-parity:
+  // the preview showed each key after its page while the print put them all at the end)
+  const keys = [];
   let refused = 0;
   $('mk-print').disabled = true;
   for (let i = 0; i < state.pages.length; i++) {
@@ -655,7 +660,7 @@ async function render(scrollToSelected) {
       out.push(el('div', { class: 'mk-page', 'data-page': String(i), 'aria-current': String(i === state.active), on: { pointerdown: () => { if (state.active !== i) selectPage(i); } } }, [head, ...(inkBar ? [inkBar] : []), sheet(html, canEdit() ? i : null, onInk)]));
       if (keyOn(pt, state.lvls[i])) {
         const key = await makeHtml(i, true);
-        if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
+        if (key) keys.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
       }
     } catch (e) {
       // the gate's reasons are for us, not the teacher (they are English): the page says it could not be made
@@ -668,7 +673,7 @@ async function render(scrollToSelected) {
   // say why a page cannot be added, once, under the pages (a hidden or greyed button explains nothing)
   if (addable && canAddPages() && pagesFull()) out.push(el('p', { class: 'mk-note', 'data-note': 'max-pages', text: UI.maxPages.replace('{n}', MAX_PAGES) }));
   if (addable && !canAddPages() && access.kind !== 'anon') out.push(el('p', { class: 'mk-note', 'data-note': 'pages-plan' }, [UI.morePagesPlan + ' ', el('a', { href: `/${LANG}/pricing`, text: UI.seePlans, on: { click: (e) => { e.preventDefault(); goTo(`/${LANG}/pricing`); } } })]));
-  host.replaceChildren(...out);
+  host.replaceChildren(...out, ...keys);
   if (scrollToSelected && multi) { const p = host.querySelector(`.mk-page[data-page="${state.active}"]`); if (p) p.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
   // never ship a page that failed a gate: no printing while any page is refused
   $('mk-print').disabled = refused > 0;

@@ -1,4 +1,4 @@
-# The 10 toughest maker tasks — handed to Fable 5.1, one agent at a time
+# The 10 toughest maker tasks — handed to Fable 5.1
 
 Operator, 2026-11-01: *"Analyze thoroughly and find out the 10 toughest tasks waiting for you in building the new
 worksheet makers. Launch Fable 5.1 agents to get those 10 tasks done. Launch one agent at a time."*
@@ -26,7 +26,8 @@ Every agent reads this file first. Its brief names its task number.
 1. Read `CLAUDE.md` (the #1 and #2 rules, §A.14.12, the pedagogical-mistakes amendment), `docs/makers/ARCHITECTURE.md`,
    `docs/makers/BUILD-LOG.md` (what is built and the traps paid for), and your design source. **Verify every claim against
    the code; a doc is not a fact.**
-2. **Do not launch sub-agents.** One agent at a time is the operator's rule.
+2. **Do not launch sub-agents.** The operator runs THREE agents at a time (2026-11-01: "launch 3 Fable 5.1 agents at a
+   time"); the rules in "Three at once" below are binding.
 3. **Local only.** No `deploy.sh`, no ssh, no live server, no production database, no `prisma migrate deploy`. A migration
    is a file, applied to nothing.
 4. **Do not edit these files — the main session edits them concurrently:** `scripts/worksheet-gen/i18n/strings.*.json`,
@@ -51,3 +52,19 @@ Every agent reads this file first. Its brief names its task number.
 10. **Handoff:** write `docs/makers/handoff/<NN>-<slug>.md` (≤ 1 page): what is built and committed (hashes), how it was
    measured, what is NOT done, strings needing the native review, decisions only the operator can make, traps paid for.
    The main session folds it into BUILD-LOG.
+
+## Three at once (operator 2026-11-01) — binding while agents run in parallel
+
+Agents share ONE working tree. Two things collide: builds/gates and files.
+
+- **One build or gate run at a time.** `build-bundles.js` rewrites the shared `out/makers` data folder and the gates read it,
+  so a run in one agent breaks another's mid-run. Wrap EVERY build or gate run (also the main session's) in the lock:
+  `until mkdir out/.makers-lock 2>/dev/null; do sleep 30; done; <your command>; rmdir out/.makers-lock`
+  Keep the lock as short as you can (one maker `--makers=<id>` while developing; the full loop once at the end). If a
+  lock is older than 90 minutes its owner died: remove it and say so in your handoff.
+- **Own your files.** Edit only files your task owns (listed in your brief) plus NEW files. A shared file another task
+  owns: do not edit it — write what you need into your handoff, or add a separate new module and import it.
+- **Commit only your own hunks.** Before `git add`, run `git diff <file>`; if a file holds another agent's change, commit
+  only yours (`git add -p` is unavailable — use `git diff <file> > p.patch`, cut it to your hunks, `git apply --cached p.patch`).
+- **A gate failing because of another agent's unfinished work** is reported in your handoff, not "fixed" by editing their
+  files.

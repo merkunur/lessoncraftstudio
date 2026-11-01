@@ -43,7 +43,8 @@
     "addition-subtraction": "Addition & Subtraction",
     "doubles-halves": "Doubles & Halves",
     "compare-numbers": "Compare Numbers & Groups",
-    "odd-even": "Odd & Even"
+    "odd-even": "Odd & Even",
+    "place-value": "Place Value & Rounding"
   },
   "editTitle": "Edit the title",
   "editInstruction": "Edit the instruction",

@@ -3585,5 +3585,25 @@
   "G1-457": {
     "title": "Partall eller oddetall? Les tallordet",
     "instruction": "Les hvert tallord. Er tallet et partall eller et oddetall? Sett ring rundt svaret."
+  },
+  "G2-401": {
+    "title": "Del opp og sett sammen tall",
+    "instruction": "Sett sammen delene, eller del opp hvert tall i hundrere, tiere og enere. Skriv tallene i rutene."
+  },
+  "G2-402": {
+    "title": "Plassverditabell med sifferkort",
+    "instruction": "Klipp ut sifferkortene. Lytt til et tall og bygg det i tabellen."
+  },
+  "G2-403": {
+    "title": "Hvor mange tiere?",
+    "instruction": "Skriv hvor mange tiere det er, eller skriv tallet."
+  },
+  "G2-404": {
+    "title": "Flere enn ni av samme sort",
+    "instruction": "Tell klossene. Ti enere blir en tier, og ti tiere blir en hundrer. Skriv tallet."
+  },
+  "G2-405": {
+    "title": "Hvem er jeg? Tallgåter",
+    "instruction": "Les ledetrådene. Skriv det ene tallet som passer til alle."
   }
 }

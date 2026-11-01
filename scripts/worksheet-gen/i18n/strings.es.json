@@ -3581,5 +3581,25 @@
   "G1-457": {
     "title": "¿Par o impar? Lee el número en palabras",
     "instruction": "Lee cada número escrito con letras. ¿Es par o impar? Encierra la respuesta correcta."
+  },
+  "G2-401": {
+    "title": "Descomponer y componer números",
+    "instruction": "Junta las partes o descompón cada número en centenas, decenas y unidades. Escribe los números en los recuadros."
+  },
+  "G2-402": {
+    "title": "Tabla de valor posicional y tarjetas de dígitos",
+    "instruction": "Recorta las tarjetas de dígitos. Escucha un número y fórmalo en la tabla."
+  },
+  "G2-403": {
+    "title": "¿Cuántas decenas?",
+    "instruction": "Escribe cuántas decenas hay o escribe el número."
+  },
+  "G2-404": {
+    "title": "Más de nueve del mismo tipo",
+    "instruction": "Cuenta los bloques. Diez unidades forman una decena y diez decenas forman una centena. Escribe el número."
+  },
+  "G2-405": {
+    "title": "¿Quién soy? Adivinanzas de números",
+    "instruction": "Lee las pistas. Escribe el único número que cumple con todas."
   }
 }

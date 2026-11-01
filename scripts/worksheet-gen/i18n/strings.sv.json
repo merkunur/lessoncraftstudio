@@ -3557,5 +3557,25 @@
   "G1-457": {
     "title": "Udda eller jämnt? Läs räkneordet",
     "instruction": "Läs varje räkneord. Är talet udda eller jämnt? Ringa in svaret."
+  },
+  "G2-401": {
+    "title": "Dela upp och bygg ihop tal",
+    "instruction": "Sätt ihop delarna eller dela upp varje tal i hundratal, tiotal och ental. Skriv talen i rutorna."
+  },
+  "G2-402": {
+    "title": "Platsvärdestabell med sifferkort",
+    "instruction": "Klipp ut sifferkorten. Lyssna på ett tal och bygg det i tabellen."
+  },
+  "G2-403": {
+    "title": "Hur många tiotal?",
+    "instruction": "Skriv hur många tiotal det är, eller skriv talet."
+  },
+  "G2-404": {
+    "title": "Fler än nio av samma sort",
+    "instruction": "Räkna blocken. Tio ental blir ett tiotal och tio tiotal blir ett hundratal. Skriv talet."
+  },
+  "G2-405": {
+    "title": "Vem är jag? Talgåtor",
+    "instruction": "Läs ledtrådarna. Skriv det enda tal som passar alla."
   }
 }

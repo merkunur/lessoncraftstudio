@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 891,
+ "count": 896,
  "failures": [],
  "rows": [
   {
@@ -15493,7 +15493,8 @@
     "lib/b2-common.js",
     "data/b2/sentences.js",
     "templates/layouts/card-grid.js",
-    "lib/picture-refusals.js"
+    "lib/picture-refusals.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "1:odd-even-pairs",
    "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
@@ -25545,6 +25546,132 @@
    "teachingPoint": "2:odd-even",
    "skill": "Decide odd/even by pairing objects, as two equal addends (n + n or n + n + 1), and by the ones digit for numbers under 100",
    "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G2-401",
+   "file": "scripts/worksheet-gen/types/g2/G2-401-expanded-form-both-ways.js",
+   "grade": "G2",
+   "slug": "expanded-form-both-ways",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "Expanded Form Both Ways",
+   "instruction": "Put the parts together, or break the number into hundreds, tens and ones. Write the numbers in the boxes.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "digits"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "2:expanded-form-digit-value",
+   "skill": "Expanded form of a 3-digit number and the value of a digit",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-402",
+   "file": "scripts/worksheet-gen/types/g2/G2-402-place-value-chart-digit-cards.js",
+   "grade": "G2",
+   "slug": "place-value-chart-digit-cards",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "Place-Value Chart and Digit Cards",
+   "instruction": "Cut out the digit cards. Listen to a number and build it in the chart.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "places"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "2:read-build-3-digit",
+   "skill": "Read and build a 3-digit number from hundreds/tens/ones blocks and a place-value chart",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-403",
+   "file": "scripts/worksheet-gen/types/g2/G2-403-how-many-tens.js",
+   "grade": "G2",
+   "slug": "how-many-tens",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "How Many Tens?",
+   "instruction": "Write how many tens, or write the number.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "units"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "2:read-build-3-digit",
+   "skill": "Read and build a 3-digit number from hundreds/tens/ones blocks and a place-value chart",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-404",
+   "file": "scripts/worksheet-gen/types/g2/G2-404-more-than-nine-blocks.js",
+   "grade": "G2",
+   "slug": "more-than-nine-blocks",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "More Than Nine of a Kind",
+   "instruction": "Count the blocks. Ten ones make a ten. Write the number.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "over"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "2:bundle-ten-ones",
+   "skill": "Bundle 10 ones into a ten and read tens and ones",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-405",
+   "file": "scripts/worksheet-gen/types/g2/G2-405-who-am-i-number-riddles.js",
+   "grade": "G2",
+   "slug": "who-am-i-number-riddles",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "Who Am I? Number Riddles",
+   "instruction": "Read the clues. Write the one number that fits them all.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "digits",
+    "clues"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "2:expanded-form-digit-value",
+   "skill": "Expanded form of a 3-digit number and the value of a digit",
+   "strand": "Number & Operations in Base Ten",
    "science": false
   },
   {

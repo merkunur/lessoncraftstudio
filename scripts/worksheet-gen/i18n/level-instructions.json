@@ -4100,5 +4100,91 @@
       "no": "Regn ut hvert stykke og sett ring rundt partall eller oddetall. Sett så ring rundt regelen som alltid stemmer. Det første stykket i hver boks er allerede regnet ut.",
       "fi": "Laske jokainen summa ja ympyröi parillinen tai pariton. Ympyröi sitten sääntö, joka on aina totta. Jokaisen laatikon ensimmäinen lasku on jo valmiina."
     }
+  },
+  "G2-401": {
+    "1": {
+      "en": "Put the parts together, or break each number into tens and ones. Write the numbers in the boxes.",
+      "de": "Setze die Teile zusammen oder zerlege jede Zahl in Zehner und Einer. Schreibe die Zahlen in die Kästchen.",
+      "fr": "Assemble les parties ou décompose chaque nombre en dizaines et unités. Écris les nombres dans les cases.",
+      "es": "Junta las partes o descompón cada número en decenas y unidades. Escribe los números en los recuadros.",
+      "pt": "Junte as partes ou decomponha cada número em dezenas e unidades. Escreva os números nos quadradinhos.",
+      "it": "Metti insieme le parti o scomponi ogni numero in decine e unità. Scrivi i numeri nei riquadri.",
+      "nl": "Zet de delen samen of splits elk getal in tientallen en eenheden. Schrijf de getallen in de vakjes.",
+      "sv": "Sätt ihop delarna eller dela upp varje tal i tiotal och ental. Skriv talen i rutorna.",
+      "da": "Sæt delene sammen, eller del hvert tal op i tiere og enere. Skriv tallene i felterne.",
+      "no": "Sett sammen delene, eller del opp hvert tall i tiere og enere. Skriv tallene i rutene.",
+      "fi": "Kokoa osat yhteen tai jaa jokainen luku kymmeniin ja ykkösiin. Kirjoita luvut laatikoihin."
+    }
+  },
+  "G2-402": {
+    "3": {
+      "en": "Cut out the digit cards. Listen to a number and build it in the chart. Then write the number on a line.",
+      "de": "Schneide die Ziffernkarten aus. Hör dir eine Zahl an und lege sie in die Stellenwerttafel. Schreibe die Zahl dann auf eine Linie.",
+      "fr": "Découpe les cartes chiffres. Écoute un nombre et forme-le dans le tableau. Puis écris le nombre sur une ligne.",
+      "es": "Recorta las tarjetas de dígitos. Escucha un número y fórmalo en la tabla. Luego escribe el número en una línea.",
+      "pt": "Recorte as fichas de algarismos. Ouça um número e forme-o no quadro. Depois escreva o número em uma linha.",
+      "it": "Ritaglia i cartellini delle cifre. Ascolta un numero e componilo nella tabella. Poi scrivi il numero su una riga.",
+      "nl": "Knip de cijferkaartjes uit. Luister naar een getal en leg het in de tabel. Schrijf het getal dan op een lijn.",
+      "sv": "Klipp ut sifferkorten. Lyssna på ett tal och bygg det i tabellen. Skriv sedan talet på en rad.",
+      "da": "Klip cifferkortene ud. Lyt til et tal, og byg det i skemaet. Skriv så tallet på en linje.",
+      "no": "Klipp ut sifferkortene. Lytt til et tall og bygg det i tabellen. Skriv så tallet på en linje.",
+      "fi": "Leikkaa numerokortit irti. Kuuntele luku ja muodosta se taulukkoon. Kirjoita sitten luku viivalle."
+    }
+  },
+  "G2-403": {
+    "3": {
+      "en": "Write how many tens or hundreds, or write the number.",
+      "de": "Schreibe auf, wie viele Zehner oder Hunderter es sind, oder schreibe die Zahl.",
+      "fr": "Écris combien il y a de dizaines ou de centaines, ou écris le nombre.",
+      "es": "Escribe cuántas decenas o centenas hay o escribe el número.",
+      "pt": "Escreva quantas dezenas ou centenas há ou escreva o número.",
+      "it": "Scrivi quante decine o centinaia ci sono oppure scrivi il numero.",
+      "nl": "Schrijf op hoeveel tientallen of honderdtallen het zijn, of schrijf het getal.",
+      "sv": "Skriv hur många tiotal eller hundratal det är, eller skriv talet.",
+      "da": "Skriv, hvor mange tiere eller hundreder der er, eller skriv tallet.",
+      "no": "Skriv hvor mange tiere eller hundrere det er, eller skriv tallet.",
+      "fi": "Kirjoita, montako kymppiä tai satasta luvussa on, tai kirjoita luku."
+    }
+  },
+  "G2-405": {
+    "1": {
+      "en": "Read the clues. Write the one number that fits them all. The number has two digits.",
+      "de": "Lies die Hinweise. Schreibe die eine Zahl auf, die zu allen passt. Die Zahl ist zweistellig.",
+      "fr": "Lis les indices. Écris le seul nombre qui les respecte tous. Le nombre a deux chiffres.",
+      "es": "Lee las pistas. Escribe el único número que cumple con todas. El número tiene dos cifras.",
+      "pt": "Leia as pistas. Escreva o único número que combina com todas. O número tem dois algarismos.",
+      "it": "Leggi gli indizi. Scrivi l'unico numero che li rispetta tutti. Il numero ha due cifre.",
+      "nl": "Lees de aanwijzingen. Schrijf het ene getal op dat bij alle aanwijzingen past. Het getal heeft twee cijfers.",
+      "sv": "Läs ledtrådarna. Skriv det enda tal som passar alla. Talet är tvåsiffrigt.",
+      "da": "Læs ledetrådene. Skriv det eneste tal, der passer til dem alle. Tallet er tocifret.",
+      "no": "Les ledetrådene. Skriv det ene tallet som passer til alle. Tallet er tosifret.",
+      "fi": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin. Luku on kaksinumeroinen."
+    },
+    "2": {
+      "en": "Read the clues. Write the one number that fits them all. The number has two digits.",
+      "de": "Lies die Hinweise. Schreibe die eine Zahl auf, die zu allen passt. Die Zahl ist zweistellig.",
+      "fr": "Lis les indices. Écris le seul nombre qui les respecte tous. Le nombre a deux chiffres.",
+      "es": "Lee las pistas. Escribe el único número que cumple con todas. El número tiene dos cifras.",
+      "pt": "Leia as pistas. Escreva o único número que combina com todas. O número tem dois algarismos.",
+      "it": "Leggi gli indizi. Scrivi l'unico numero che li rispetta tutti. Il numero ha due cifre.",
+      "nl": "Lees de aanwijzingen. Schrijf het ene getal op dat bij alle aanwijzingen past. Het getal heeft twee cijfers.",
+      "sv": "Läs ledtrådarna. Skriv det enda tal som passar alla. Talet är tvåsiffrigt.",
+      "da": "Læs ledetrådene. Skriv det eneste tal, der passer til dem alle. Tallet er tocifret.",
+      "no": "Les ledetrådene. Skriv det ene tallet som passer til alle. Tallet er tosifret.",
+      "fi": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin. Luku on kaksinumeroinen."
+    },
+    "3": {
+      "en": "Read the clues. Write the one number that fits them all. The number has three digits.",
+      "de": "Lies die Hinweise. Schreibe die eine Zahl auf, die zu allen passt. Die Zahl ist dreistellig.",
+      "fr": "Lis les indices. Écris le seul nombre qui les respecte tous. Le nombre a trois chiffres.",
+      "es": "Lee las pistas. Escribe el único número que cumple con todas. El número tiene tres cifras.",
+      "pt": "Leia as pistas. Escreva o único número que combina com todas. O número tem três algarismos.",
+      "it": "Leggi gli indizi. Scrivi l'unico numero che li rispetta tutti. Il numero ha tre cifre.",
+      "nl": "Lees de aanwijzingen. Schrijf het ene getal op dat bij alle aanwijzingen past. Het getal heeft drie cijfers.",
+      "sv": "Läs ledtrådarna. Skriv det enda tal som passar alla. Talet är tresiffrigt.",
+      "da": "Læs ledetrådene. Skriv det eneste tal, der passer til dem alle. Tallet er trecifret.",
+      "no": "Les ledetrådene. Skriv det ene tallet som passer til alle. Tallet er tresifret.",
+      "fi": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin. Luku on kolminumeroinen."
+    }
   }
 }

@@ -22,7 +22,7 @@
 
 // Settings every maker shares, never repeated below.
 const COMMON_SETTINGS = [
-  'language (one of our 11)', 'template (gallery by sub-topic)', 'level 1-3', 'picture theme / own pictures where pictures appear',
+  'language (one of our 11)', 'template (gallery by sub-topic)', 'level 1-3', 'picture theme where pictures appear (no own-image upload: operator 2026-11-01)',
   'number of problems / page fill', 'title + instruction text (editable)', 'answer key on/off', 'pages: add / duplicate / delete',
   'regenerate (new seed, same settings)', 'paper: Letter for en-US, A4 elsewhere (switchable)',
 ];
@@ -120,7 +120,13 @@ const MAKERS = [
   },
   { id: 'place-value', name: 'Place Value & Rounding', group: 'math', families: ['base-ten', 'rounding'], oldApps: [], lang: 'little',
     settings: ['digits (2, 3, 4)', 'blocks / chart / expanded form', 'round to 10 / 100'],
-    newTemplates: [['Place-value chart with digit cards to cut', 'build-a-number hands-on'], ['Expanded form both ways (write the number from 300+40+5)', 'reverse direction is missing']],
+    newTemplates: [
+      ['Place-value chart with digit cards to cut', 'build-a-number hands-on'],
+      ['Expanded form both ways (write the number from 300+40+5)', 'reverse direction is missing'],
+      ['How many tens? (340 = 34 tens)', 'renaming, the ground of ×10'],
+      ['More than nine of a kind (12 tens and 5 ones)', 'regrouping when reading'],
+      ['Who am I? place-value riddles', 'place-value reasoning, one proven answer'],
+    ],
     fable: [],
   },
   { id: 'multiplication-division', name: 'Multiplication & Division', group: 'math', families: ['arrays-multiplication', 'multiplication-tables', 'division-with-remainder'], oldApps: [], lang: 'little',
@@ -218,7 +224,7 @@ const MAKERS = [
     fable: ['Colour-by-number line art is precomputed (data/cbn, 47 MB, regions + keys). Can any library picture become a colour-by-code page in the browser (region detection, label placement in small regions, the fully-painted rule)?'],
   },
   { id: 'coloring-pages', name: 'Coloring Pages', group: 'art', families: [], oldApps: ['coloring'], lang: 'little',
-    settings: ['picture(s) from the B&W library or own upload', 'one big / 2 / 4 per page', 'caption word in the language on/off', 'trace the word under it'],
+    settings: ['picture(s) from the B&W library', 'one big / 2 / 4 per page', 'caption word in the language on/off', 'trace the word under it'],
     newTemplates: [['Colour and name the picture (word to trace)', 'literacy link'], ['Colour the scene (several pictures composed)', 'scene page'], ['Colour by your own key (teacher writes the key)', 'flexible']],
     fable: ['A colouring page of a teacher\'s own photo needs line art: is a browser edge-to-line-art conversion good enough for K-3, or do own uploads stay "as is" only?'],
   },
@@ -245,7 +251,7 @@ const MAKERS = [
   },
   { id: 'find-the-differences', name: 'Find the Differences', group: 'visual', families: ['find-the-differences'], oldApps: [], lang: 'little',
     settings: ['scene', 'number of differences (3, 5, 7, 10)', 'colour / black-and-white', 'kinds of changes'],
-    newTemplates: [['Differences between two of the teacher\'s own photos', 'personal; may be impossible — see question']],
+    newTemplates: [], // dropped 2026-11-01 (no own-image upload): differences between two of the teacher's own photos
     fable: ['FD scenes are 427 MB precomputed and every difference passes a raster diff gate. In the browser: ship which scenes, how big, and can the diff gate run client-side (lib/fd-browser-diff.js suggests yes)?'],
   },
   { id: 'how-to-draw', name: 'How to Draw', group: 'art', families: ['how-to-draw'], oldApps: [], lang: 'little',
@@ -345,7 +351,7 @@ const MAKERS = [
   },
   { id: 'stories-writing', name: 'Stories & Writing', group: 'literacy', families: ['story-sequencing', 'picture-writing', 'animal-fact-file'], oldApps: [], lang: 'bound',
     settings: ['story / picture / animal', 'task: order / next / middle / sentences / retell / write about / fact file'],
-    newTemplates: [['Story map (beginning, middle, end) blank', 'open writing frame'], ['Comic strip frames with own pictures', 'creative writing']],
+    newTemplates: [['Story map (beginning, middle, end) blank', 'open writing frame'], ['Comic strip frames (library pictures only)', 'creative writing']],
     fable: [],
   },
   { id: 'me-family-feelings', name: 'Me, My Family & Feelings', group: 'social', families: ['feelings', 'all-about-me', 'family'], oldApps: [], lang: 'bound',

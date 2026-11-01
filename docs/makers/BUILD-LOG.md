@@ -7,6 +7,29 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 8: Place Value & Rounding (`place-value`) — 18 templates + 5 new (2026-11-01)
+
+- ⚠ **Published G2-224 printed the English column letters H T O in every language** (German pages "H T O" instead of
+  "H Z E"). Fixed at the source: `lib/place-heads.js` (the school letters ×11, shared with the compare maker's
+  which-place-decides page), `base-ten-tasks.js` pv-chart reads it. en pages unchanged; the other ten change on
+  purpose. **The published G2-224 decks still need an in-place republish** (server step, not done locally).
+- G2-223 level 3 (up to nine hundred-flats) ran past the page: the block unit shrinks only when a card has more than six
+  flats (the published level 2 never does — catalogue unchanged).
+- New templates (NEW-TEMPLATES §11), `types/_shared/pv-more.js` + the per-locale words in
+  `data/place-value/words.js` (unit words, the "I am" line, 11 riddle frames ×11):
+  - G2-401 expanded form both ways (L1 two-digit with its own line, L3 zero places + parts out of order; no box asks 0).
+  - G2-402 place-value chart with the school letters + digit cards to cut (material; three card sets on the
+    three-place levels — review: 333 needs three 3s).
+  - G2-403 how many tens (L3 hundreds too, and 600 = 60 tens).
+  - G2-404 more than nine of a kind (12 rods and 5 cubes …).
+  - G2-405 who am I? riddles: the solver checks EVERY number of the range (review: it skipped round numbers, so 70 also
+    fit), rejects a riddle an inclusive reading of "between" would break, requires every clue; three-digit riddles name
+    the DIGIT ("my tens digit is 5" — 952 has 95 tens, G2-403); the level line says two- or three-digit.
+- One native + pedagogy reviewer: 7 errors applied (the riddle solver ×2, the digit frames, three card sets, de "in die",
+  pt "charadas", fi school words kymppiä / satasta) + most optional points (pt "quadro valor de lugar", es/nl titles and
+  frames, it/fr frames, no "ledetrådene", fi "muodosta"). The English "Answer key" heading is my preview script only.
+- Coverage: G2-401/405 → 2:expanded-form-digit-value, G2-402/403 → 2:read-build-3-digit, G2-404 → 2:bundle-ten-ones.
+
 ## B1 maker 7: Odd & Even (`odd-even`) — 6 templates + 4 new (2026-11-01)
 
 - The 6 existing (b4) templates could not run in a browser, for two reasons: `lib/b4-common.js` read its banks with

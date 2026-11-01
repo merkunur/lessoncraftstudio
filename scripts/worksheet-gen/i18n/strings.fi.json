@@ -3567,5 +3567,25 @@
   "G1-457": {
     "title": "Parillinen vai pariton? Lue lukusana",
     "instruction": "Lue jokainen lukusana. Onko luku parillinen vai pariton? Ympyröi vastaus."
+  },
+  "G2-401": {
+    "title": "Jaa ja kokoa luvut",
+    "instruction": "Kokoa osat yhteen tai jaa jokainen luku satoihin, kymmeniin ja ykkösiin. Kirjoita luvut laatikoihin."
+  },
+  "G2-402": {
+    "title": "Paikka-arvotaulukko ja numerokortit",
+    "instruction": "Leikkaa numerokortit irti. Kuuntele luku ja muodosta se taulukkoon."
+  },
+  "G2-403": {
+    "title": "Montako kymppiä?",
+    "instruction": "Kirjoita, montako kymppiä luvussa on, tai kirjoita luku."
+  },
+  "G2-404": {
+    "title": "Enemmän kuin yhdeksän samaa",
+    "instruction": "Laske palikat. Kymmenen ykköstä on yksi kymppi ja kymmenen kymppiä on yksi satanen. Kirjoita luku."
+  },
+  "G2-405": {
+    "title": "Kuka olen? Lukuarvoituksia",
+    "instruction": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin."
   }
 }

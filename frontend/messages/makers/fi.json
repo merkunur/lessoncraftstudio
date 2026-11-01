@@ -43,7 +43,8 @@
     "addition-subtraction": "Yhteen- ja vähennyslasku",
     "doubles-halves": "Tuplaa ja puolita",
     "compare-numbers": "Lukujen ja määrien vertailu",
-    "odd-even": "Parilliset ja parittomat luvut"
+    "odd-even": "Parilliset ja parittomat luvut",
+    "place-value": "Paikka-arvo ja pyöristäminen"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

@@ -3606,5 +3606,25 @@
   "G1-457": {
     "title": "Odd or Even? Read the Number Word",
     "instruction": "Read each number word. Is the number odd or even? Circle the right word."
+  },
+  "G2-401": {
+    "title": "Expanded Form Both Ways",
+    "instruction": "Put the parts together, or break each number into hundreds, tens and ones. Write the numbers in the boxes."
+  },
+  "G2-402": {
+    "title": "Place-Value Chart and Digit Cards",
+    "instruction": "Cut out the digit cards. Listen to a number and build it in the chart."
+  },
+  "G2-403": {
+    "title": "How Many Tens?",
+    "instruction": "Write how many tens, or write the number."
+  },
+  "G2-404": {
+    "title": "More Than Nine of a Kind",
+    "instruction": "Count the blocks. Ten ones make a ten, and ten tens make a hundred. Write the number."
+  },
+  "G2-405": {
+    "title": "Who Am I? Number Riddles",
+    "instruction": "Read the clues. Write the one number that fits them all."
   }
 }

@@ -37,6 +37,10 @@ Nothing below needs to be decided before the five measuring spikes (S1–S5) and
 
 ---
 
+## ✅ OPERATOR RULING 2026-11-01: no own-image upload
+
+> 🛑 **Operator ruling 2026-11-01: users cannot upload their own images.** No own-photo upload in any maker (the I-spy, comic strip, family tree, photo maze, colouring-frame and photo-differences ideas below are dropped; OPEN-DECISIONS #4 and #25 are closed by it). Pictures come only from the reviewed library.
+
 ## To decide — in the order they block the build
 
 ### 1. How big a programme are you funding? (blocks planning)

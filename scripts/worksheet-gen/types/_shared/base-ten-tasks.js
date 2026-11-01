@@ -10,6 +10,7 @@
  *  - 'digit-value':   underlined digit → circle its value (G2-225)
  */
 'use strict';
+const { placeHeads } = require('../../lib/place-heads.js');
 const { mulGlyph } = require('./notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const baseTenBlocks = require('../../primitives/base-ten.js');
@@ -60,7 +61,10 @@ function makeBaseTenType(cfg) {
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const cards = [];
       const used = new Set();
-      const draw = (h, t, o, unit) => baseTenBlocks({ h, t, o, unit: unit || d.unit }).svg;
+      // more than six hundred-flats (only the makers' level 3 draws them) would run past the page: the unit shrinks so
+      // the row fits 600 px; six or fewer keep the published size (the catalogue is unchanged)
+      const fitUnit = (h, t, o, u) => (h <= 6 ? u : Math.min(u, Math.floor((600 - 8 - Math.ceil(o / 5) * 6) / (h * 11.2 + t * 2.2 + Math.ceil(o / 5)))));
+      const draw = (h, t, o, unit) => baseTenBlocks({ h, t, o, unit: fitUnit(h, t, o, unit || d.unit) }).svg;
       const pick = () => {
         let h, t, o, guard = 0;
         do {
@@ -134,6 +138,7 @@ function makeBaseTenType(cfg) {
             draw(h, t, o, d.unit) + `<div class="ws-choices">${chips}</div></div>`;
         } else if (mode === 'pv-chart') {
           const { h, t, o, v } = pick();
+          const PH = placeHeads(locale);   // 2026-11-01: the school's own letters (was H T O in every locale)
           const col = (lab, ans) =>
             `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:6px">` +
             `<span style="font-family:'Baloo 2';font-weight:700;font-size:17px;color:#146B5E">${lab}</span>` +
@@ -141,7 +146,7 @@ function makeBaseTenType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:8px 14px" data-lcs-value="${v}">` +
             draw(h, t, o) +
             `<span style="display:inline-flex;gap:12px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px 14px">` +
-            (d.maxH ? col('H', h) : '') + col('T', t) + col('O', o) + `</span></div>`;
+            (d.maxH ? col(PH[0], h) : '') + col(PH[1], t) + col(PH[2], o) + `</span></div>`;
         } else if (mode === 'digit-value') {
           const { v } = pick();
           const s = String(v);

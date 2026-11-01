@@ -3601,5 +3601,25 @@
   "G1-457": {
     "title": "Gerade oder ungerade? Lies das Zahlwort",
     "instruction": "Lies jedes Zahlwort. Ist die Zahl gerade oder ungerade? Kreise die richtige Antwort ein."
+  },
+  "G2-401": {
+    "title": "Zahlen zerlegen und zusammensetzen",
+    "instruction": "Setze die Teile zusammen oder zerlege jede Zahl in Hunderter, Zehner und Einer. Schreibe die Zahlen in die Kästchen."
+  },
+  "G2-402": {
+    "title": "Stellenwerttafel mit Ziffernkarten",
+    "instruction": "Schneide die Ziffernkarten aus. Hör dir eine Zahl an und lege sie in die Stellenwerttafel."
+  },
+  "G2-403": {
+    "title": "Wie viele Zehner?",
+    "instruction": "Schreibe auf, wie viele Zehner es sind, oder schreibe die Zahl."
+  },
+  "G2-404": {
+    "title": "Mehr als neun von einer Sorte",
+    "instruction": "Zähle die Blöcke. Zehn Einer sind ein Zehner, zehn Zehner sind ein Hunderter. Schreibe die Zahl."
+  },
+  "G2-405": {
+    "title": "Wer bin ich? Zahlenrätsel",
+    "instruction": "Lies die Hinweise. Schreibe die eine Zahl auf, die zu allen passt."
   }
 }

@@ -37,11 +37,8 @@ const DIGIT_LABELS = {
   nl: ['grootste', 'kleinste'], sv: ['största', 'minsta'], da: ['største', 'mindste'], no: ['største', 'minste'], fi: ['suurin', 'pienin'],
 };
 
-// the place headings over the columns of the which-place-decides page (hundreds, tens, ones) in each school's letters
-const PLACE_HEADS = {
-  en: ['H', 'T', 'O'], de: ['H', 'Z', 'E'], fr: ['c', 'd', 'u'], es: ['C', 'D', 'U'], pt: ['C', 'D', 'U'], it: ['h', 'da', 'u'],
-  nl: ['H', 'T', 'E'], sv: ['H', 'T', 'E'], da: ['H', 'T', 'E'], no: ['H', 'T', 'E'], fi: ['S', 'K', 'Y'],
-};
+// the place headings over the columns of the which-place-decides page: lib/place-heads.js (shared with G2-224)
+const { PLACE_HEADS } = require('../../lib/place-heads.js');
 
 const LEVELS = {
   croc: {
@@ -222,7 +219,9 @@ function makeCompareMoreType(cfg) {
         const bw = d.max >= 1000 ? 150 : 128;
         const LT = NUM('&lt;', 32, TEAL), GT = NUM('&gt;', 32, TEAL);
         const cards = ps.map((p) => {
-          const box = answerBox({ w: bw, h: 54, answer: p.ans });
+          const range = p.kind === 'two' ? `${p.lo + 1}-${p.hi - 1}` : p.kind === 'above' ? `${p.lo + 1}-` : `0-${p.hi - 1}`;
+          // the screen accepts every whole number of the set the key prints (data-lcs-range, operator ruling D.4-1)
+          const box = ctx.screen ? answerBox({ w: bw, h: 54, answer: p.ans }).replace('data-lcs-answer=', `data-lcs-range="${range}" data-lcs-answer=`) : answerBox({ w: bw, h: 54, answer: p.ans });
           // a one-bound card is written both ways round (59 < □ or □ > 58) so a child reads the symbol, not the position
           const flip = ps.indexOf(p) % 2 === 1;
           const body = p.kind === 'two' ? `${NUM(p.lo, 32)}${LT}${box}${LT}${NUM(p.hi, 32)}`

@@ -3572,5 +3572,25 @@
   "G1-457": {
     "title": "Pari o dispari? Leggi il numero in lettere",
     "instruction": "Leggi ogni numero scritto in lettere. È pari o dispari? Cerchia la risposta."
+  },
+  "G2-401": {
+    "title": "Scomporre e comporre i numeri",
+    "instruction": "Metti insieme le parti o scomponi ogni numero in centinaia, decine e unità. Scrivi i numeri nei riquadri."
+  },
+  "G2-402": {
+    "title": "Tabella del valore posizionale e cartellini delle cifre",
+    "instruction": "Ritaglia i cartellini delle cifre. Ascolta un numero e componilo nella tabella."
+  },
+  "G2-403": {
+    "title": "Quante decine?",
+    "instruction": "Scrivi quante decine ci sono oppure scrivi il numero."
+  },
+  "G2-404": {
+    "title": "Più di nove dello stesso tipo",
+    "instruction": "Conta i blocchi. Dieci unità formano una decina e dieci decine formano un centinaio. Scrivi il numero."
+  },
+  "G2-405": {
+    "title": "Chi sono? Indovinelli con i numeri",
+    "instruction": "Leggi gli indizi. Scrivi l'unico numero che li rispetta tutti."
   }
 }

@@ -3259,7 +3259,8 @@
       "code": "1.NBT.B.2.a",
       "strand": "Number & Operations in Base Ten",
       "worksheets": [
-        "G2-206"
+        "G2-206",
+        "G2-404"
       ],
       "verdict": "covered",
       "activities": [
@@ -3267,7 +3268,7 @@
         "bos-berry-pantry.slingshot-tens.1-nbt-b-2"
       ],
       "planned": [],
-      "note": "Bundle Bot is exactly circle-ten-ones-make-a-ten."
+      "note": "Bundle Bot is exactly circle-ten-ones-make-a-ten. Place Value maker 2026-11-01: more than nine of a kind G2-404 (NEW-TEMPLATES 11-T4)."
     },
     {
       "tp": "2:skip-count-5-10-100",
@@ -3427,14 +3428,16 @@
       "worksheets": [
         "G2-222",
         "G2-224",
-        "G2-227"
+        "G2-227",
+        "G2-402",
+        "G2-403"
       ],
       "verdict": "covered",
       "activities": [
         "place-value.hundreds-tens-and-ones.2-nbt-a-1"
       ],
       "planned": [],
-      "note": "Same model; the chart is a readout the activity already shows."
+      "note": "Same model; the chart is a readout the activity already shows. Place Value maker 2026-11-01: chart + digit cards G2-402, how many tens G2-403 (NEW-TEMPLATES 11-T2, T3)."
     },
     {
       "tp": "2:chart-within-1000",
@@ -3458,7 +3461,9 @@
       "strand": "Number & Operations in Base Ten",
       "worksheets": [
         "G2-223",
-        "G2-225"
+        "G2-225",
+        "G2-401",
+        "G2-405"
       ],
       "verdict": "covered",
       "activities": [
@@ -3466,7 +3471,7 @@
         "match-pairs.three-ways-to-show-a-number.2-nbt-a-3"
       ],
       "planned": [],
-      "note": "Expanded form shows each digit as its place value."
+      "note": "Expanded form shows each digit as its place value. Place Value maker 2026-11-01: expanded form both ways G2-401, who-am-I riddles G2-405 (NEW-TEMPLATES 11-T1, T5)."
     },
     {
       "tp": "2:hundred-more-less",

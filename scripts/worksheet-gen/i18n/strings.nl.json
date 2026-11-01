@@ -3590,5 +3590,25 @@
   "G1-457": {
     "title": "Even of oneven? Lees het getal in woorden",
     "instruction": "Lees elk getal in woorden. Is het even of oneven? Omcirkel het goede antwoord."
+  },
+  "G2-401": {
+    "title": "Getallen splitsen en samenstellen",
+    "instruction": "Zet de delen samen of splits elk getal in honderdtallen, tientallen en eenheden. Schrijf de getallen in de vakjes."
+  },
+  "G2-402": {
+    "title": "Plaatswaardetabel met cijferkaartjes",
+    "instruction": "Knip de cijferkaartjes uit. Luister naar een getal en leg het in de tabel."
+  },
+  "G2-403": {
+    "title": "Hoeveel tientallen?",
+    "instruction": "Schrijf op hoeveel tientallen het zijn, of schrijf het getal."
+  },
+  "G2-404": {
+    "title": "Meer dan negen van dezelfde soort",
+    "instruction": "Tel de blokken. Tien eenheden zijn een tiental en tien tientallen zijn een honderdtal. Schrijf het getal."
+  },
+  "G2-405": {
+    "title": "Wie ben ik? Getallenraadsels",
+    "instruction": "Lees de aanwijzingen. Schrijf het ene getal op dat bij alle aanwijzingen past."
   }
 }

@@ -3596,5 +3596,25 @@
   "G1-457": {
     "title": "Par ou ímpar? Leia o número por extenso",
     "instruction": "Leia cada número escrito por extenso. Ele é par ou ímpar? Circule a resposta."
+  },
+  "G2-401": {
+    "title": "Decompor e compor números",
+    "instruction": "Junte as partes ou decomponha cada número em centenas, dezenas e unidades. Escreva os números nos quadradinhos."
+  },
+  "G2-402": {
+    "title": "Quadro valor de lugar e fichas de algarismos",
+    "instruction": "Recorte as fichas de algarismos. Ouça um número e forme-o no quadro."
+  },
+  "G2-403": {
+    "title": "Quantas dezenas?",
+    "instruction": "Escreva quantas dezenas há ou escreva o número."
+  },
+  "G2-404": {
+    "title": "Mais de nove do mesmo tipo",
+    "instruction": "Conte os blocos. Dez unidades formam uma dezena e dez dezenas formam uma centena. Escreva o número."
+  },
+  "G2-405": {
+    "title": "Quem sou eu? Charadas com números",
+    "instruction": "Leia as pistas. Escreva o único número que combina com todas."
   }
 }

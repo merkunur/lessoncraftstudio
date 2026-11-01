@@ -3576,5 +3576,25 @@
   "G1-457": {
     "title": "Lige eller ulige? Læs talordet",
     "instruction": "Læs hvert talord. Er tallet lige eller ulige? Sæt ring om svaret."
+  },
+  "G2-401": {
+    "title": "Del tal op og sæt dem sammen",
+    "instruction": "Sæt delene sammen, eller del hvert tal op i hundreder, tiere og enere. Skriv tallene i felterne."
+  },
+  "G2-402": {
+    "title": "Positionsskema med cifferkort",
+    "instruction": "Klip cifferkortene ud. Lyt til et tal, og byg det i skemaet."
+  },
+  "G2-403": {
+    "title": "Hvor mange tiere?",
+    "instruction": "Skriv, hvor mange tiere der er, eller skriv tallet."
+  },
+  "G2-404": {
+    "title": "Flere end ni af samme slags",
+    "instruction": "Tæl klodserne. Ti enere er en tier, og ti tiere er et hundrede. Skriv tallet."
+  },
+  "G2-405": {
+    "title": "Hvem er jeg? Talgåder",
+    "instruction": "Læs ledetrådene. Skriv det eneste tal, der passer til dem alle."
   }
 }

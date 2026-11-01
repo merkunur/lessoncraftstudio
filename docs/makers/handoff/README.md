@@ -46,6 +46,8 @@ Every agent reads this file first. Its brief names its task number.
 8. Run, before you finish: the full `node scripts/makers/build-bundles.js`, then every gate in `scripts/makers/gates/`
    (the loop in BUILD-LOG), and `scripts/makers/tests/*.test.js`. Report failures honestly; a failing gate you did not
    cause is reported, not hidden.
-9. **Handoff:** write `docs/makers/handoff/<NN>-<slug>.md` (≤ 1 page): what is built and committed (hashes), how it was
+9. **No own-image upload, anywhere** (operator ruling 2026-11-01): pictures come only from the reviewed library; do not
+   build, plan or keep any upload / own-photo path.
+10. **Handoff:** write `docs/makers/handoff/<NN>-<slug>.md` (≤ 1 page): what is built and committed (hashes), how it was
    measured, what is NOT done, strings needing the native review, decisions only the operator can make, traps paid for.
    The main session folds it into BUILD-LOG.

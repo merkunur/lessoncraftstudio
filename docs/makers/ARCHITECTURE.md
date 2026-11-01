@@ -311,6 +311,9 @@ Gate time budget: ≤ 150 ms per page on a 2019 iPad (spike S5: run lints + veri
 
 ## 7. G6 — Own words and own pictures
 
+> 🛑 **Operator ruling 2026-11-01: users cannot upload their own images.** No own-photo upload in any maker (the I-spy, comic strip, family tree, photo maze, colouring-frame and photo-differences ideas below are dropped; OPEN-DECISIONS #4 and #25 are closed by it). Pictures come only from the reviewed library.
+
+
 ### 7.1 Own words
 
 | rule | mechanism |

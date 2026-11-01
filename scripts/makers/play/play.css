@@ -1,0 +1,44 @@
+/* The student play page (/s/<id>) — Direction A, the site's design language: cream, deep teal, coral; Baloo 2 + Nunito. */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap');
+:root { --bg: #FBF3E4; --paper: #FFFFFF; --teal: #146B5E; --teal-2: #1A7E70; --coral: #F2784B; --ink: #2E2A24; --muted: #6E665B; --line: #E8DCC6; --soft: #F5EBD8; --radius: 14px; --shadow: 0 1px 2px rgba(46,42,36,.08), 0 6px 18px rgba(46,42,36,.08); }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Nunito', system-ui, sans-serif; }
+button { font: inherit; cursor: pointer; }
+.pl-main { max-width: 760px; margin: 0 auto; padding: 12px 16px 40px; }
+/* the bar: the worksheet's title, "Make your own" → the maker's page, "Made with" → the site (both indexable) */
+.pl-bar { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin: 4px 0 12px; }
+.pl-title { margin: 0; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 24px; line-height: 1.15; color: var(--teal); overflow-wrap: anywhere; }
+.pl-links { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 14px; font-weight: 700; color: var(--muted); }
+.pl-links a { color: var(--teal); font-weight: 800; text-decoration: none; }
+.pl-links a:hover, .pl-links a:focus-visible { text-decoration: underline; }
+.pl-make { padding: 8px 0; display: inline-block; }
+/* page tabs (several pages): chips, never under 44 px */
+.pl-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.pl-tab { min-height: 44px; min-width: 44px; padding: 8px 16px; border-radius: 999px; border: 2px solid var(--line); background: var(--paper); font-weight: 800; color: var(--ink); }
+.pl-tab[aria-pressed="true"] { border-color: var(--teal); background: var(--teal); color: #fff; }
+.pl-tab:focus-visible, .pl-btn:focus-visible, .pl-links a:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; }
+/* a page: the screen (its own document, sized to its content) or the printable sheet with a note and Print */
+.pl-page[hidden] { display: none; }
+.pl-screen { display: block; width: 100%; height: 600px; border: 0; border-radius: 12px; background: var(--bg); }
+.pl-sheet { position: relative; width: 100%; aspect-ratio: 703 / 945; background: #fff; box-shadow: var(--shadow); border-radius: 6px; overflow: hidden; }
+.pl-sheet iframe { position: absolute; left: 0; top: 0; width: 703px; height: 945px; border: 0; transform-origin: 0 0; }
+.pl-note { margin: 0 0 12px; padding: 14px 16px; border-radius: var(--radius); background: var(--paper); box-shadow: var(--shadow); font-weight: 700; line-height: 1.4; }
+.pl-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 12px 0 0; }
+.pl-btn { min-height: 48px; padding: 10px 22px; border-radius: 999px; border: 2px solid var(--teal); background: var(--teal); color: #fff; font-weight: 800; font-size: 17px; }
+.pl-btn:hover { background: var(--teal-2); }
+.pl-btn:disabled { opacity: .45; cursor: not-allowed; }
+.pl-ask { margin: 0; font-weight: 700; color: var(--coral); }
+/* the one-card pages: loading, the daily wall, a link that does not exist */
+.pl-card { max-width: 480px; margin: 40px auto; padding: 24px; text-align: center; background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow); }
+.pl-card h2 { margin: 0 0 10px; font-family: 'Baloo 2', sans-serif; font-size: 26px; color: var(--teal); }
+.pl-card p { margin: 0; font-size: 17px; line-height: 1.5; font-weight: 700; }
+.pl-card p.t { margin-top: 24px; font-size: 14px; font-weight: 600; color: var(--muted); }
+/* the gate frame (the catalogue's 703 × 945 viewport, never seen) and the print frame */
+#pl-gate-host { position: fixed; left: -10000px; top: 0; width: 703px; height: 945px; overflow: hidden; }
+#pl-gate-host iframe { width: 703px; height: 945px; border: 0; }
+#pl-print-host { position: fixed; width: 0; height: 0; overflow: hidden; left: -10px; top: -10px; }
+/* embedded in another site (?embed=1): no chrome, no bar — the caption outside the iframe names the maker and the site */
+body.lcs-embedded #lcs-site-chrome, body.lcs-embedded #lcs-site-footer, body.lcs-embedded #pl-bar { display: none !important; }
+body.lcs-embedded .pl-main { padding: 8px 8px 16px; }
+@media print { #lcs-site-chrome, #lcs-site-footer, .pl-tabs, .pl-links, .pl-actions { display: none !important; } }
+@media (max-width: 600px) { .pl-title { font-size: 21px; } }

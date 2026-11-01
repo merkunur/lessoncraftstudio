@@ -40,6 +40,8 @@ let offeredCount = 0;
 let makerVersion = null, dataVersion = null;
 const saved = { id: null, rev: 0, json: null };
 let shared = null;
+/** the published deck this worksheet was opened from (?preset=), informational */
+let presetFrom = null;
 /** may the teacher change this worksheet / see all of it */
 const canEdit = () => isOpen(state.id) && !shared;
 const canView = () => isOpen(state.id) || !!shared;
@@ -121,7 +123,7 @@ async function boot() {
   $('mk-pages').append(el('p', { class: 'mk-note', text: UI.loading }));
   gateFrame = el('iframe', { title: 'gate', tabindex: '-1' });
   $('mk-gate-host').append(gateFrame);
-  const opening = await openingRecipe();
+  let opening = await openingRecipe();
   if (opening === false) return;
   const vj = await fetch(`${BASE}/versions.json`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
   const pin = await pinnedVersion(opening && opening.recipe, vj[MAKER]);
@@ -141,12 +143,24 @@ async function boot() {
   offeredCount = offered.length;
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor,
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
     // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
     sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); return r.ok ? r.html : null; } };
   await loadAccess();
   document.body.setAttribute('data-print-hint', UI.printHint);
-  const want = params.get('t');
+  let want = params.get('t');
+  if (opening && opening.preset) {
+    // the deck's settings become the first page of a NEW worksheet (unsaved; the access rules apply as to any template)
+    const p = opening.preset, t = offered.find((x) => x.id === p.template);
+    if (t) {
+      want = t.id;
+      state.tpls = [t.id]; state.lvls = [levelIn(t, p.level)]; state.pages = [p.variant || 1]; state.units = [unitIn(t, p.unit)];
+      state.pickedTheme = p.theme && t.themes.includes(p.theme) ? p.theme : null;
+      variantCounter = Math.max(variantCounter, p.variant || 1) + 1;
+      presetFrom = p;
+    }
+    opening = null;
+  }
   if (opening) {
     Object.assign(state, fromRecipe(opening.recipe));
     variantCounter = Math.max(variantCounter, ...state.pages) + 1;
@@ -922,9 +936,25 @@ async function printAll() {
 
 /* ---------- saving: recipes, My worksheets, colleague links (ARCHITECTURE §5, §8) ---------- */
 
-/** ?r=<id> (the teacher's own saved worksheet) or ?m=<linkId> (a colleague's link); null = a new worksheet, false = stop. */
+/**
+ * ?r=<id> (the teacher's own saved worksheet), ?m=<linkId> (a colleague's link) or ?preset=<deckId> ("Make your own"
+ * from a published deck: the deck's template, level, pictures, word and copy — ARCHITECTURE §13 step 3, play/preset.js);
+ * null = a new worksheet, false = stop.
+ */
 async function openingRecipe() {
-  const rid = params.get('r'), mid = params.get('m');
+  const rid = params.get('r'), mid = params.get('m'), pid = params.get('preset');
+  if (pid && !rid && !mid) {
+    const r = await fetch(`/api/makers/preset/${encodeURIComponent(pid)}`, { cache: 'no-store' }).catch(() => null);
+    // a deck the maker cannot open (unknown, or a template the maker has no more) opens the maker as it is
+    if (!r || !r.ok) { console.warn('preset not found', pid); return null; }
+    const p = await r.json();
+    if (p.maker !== MAKER || p.lang !== LANG) {
+      const q = new URLSearchParams(location.search); q.set('maker', p.maker); q.set('lang', p.lang);
+      location.replace(`${location.pathname}?${q}`);
+      return false;
+    }
+    return { preset: p };
+  }
   if (!rid && !mid) return null;
   const r = await fetch(rid ? `/api/makers/recipes/${encodeURIComponent(rid)}` : `/api/makers/links/${encodeURIComponent(mid)}`, { credentials: 'same-origin', cache: 'no-store' }).catch(() => null);
   if (r && r.status === 401) { goTo(signInUrl()); return false; }
@@ -1004,23 +1034,82 @@ async function saveNow() {
 }
 
 /** Share with a colleague: a read-only link from which she can save her own copy (saves first). */
-async function shareLink() {
-  if (!saved.id || JSON.stringify(currentRecipe()) !== saved.json) { if (!(await saveNow())) return; }
-  const r = await fetch('/api/makers/links', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ recipeId: saved.id, kind: 'colleague' }) }).catch(() => null);
-  if (!r || !r.ok) { showNote(UI.saveFailed, 'save'); return; }
-  const { linkId } = await r.json();
-  const url = `${location.origin}${location.pathname}?maker=${encodeURIComponent(MAKER)}&lang=${LANG}&m=${linkId}`;
-  let dlg = $('mk-picker');
-  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
-  const input = el('input', { class: 'mk-text-input', type: 'text', readonly: true, value: url, 'aria-label': UI.shareTitle });
-  const copy = el('button', { type: 'button', class: 'mk-btn mk-primary', 'data-act': 'copy', text: UI.copyLink, on: { click: async () => {
-    try { await navigator.clipboard.writeText(url); } catch (e) { input.select(); document.execCommand('copy'); }
+/*
+ * Sharing (INTERACTIVE-AND-SHARING §C.4–C.5, task 2 of the ten). The sheet shows, in this order: the STUDENT link
+ * (/s/<id> — the only thing that points at the play page; + QR + copy), the EMBED code (an iframe of the student link
+ * with a visible caption OUTSIDE it whose two anchors — the maker's page in this language, the site — are the backlinks,
+ * CLAUDE.md §1), the link to this worksheet MAKER (the indexable landing, for colleagues) and the COLLEAGUE link (opens
+ * the maker read-only). Every copyable text but the student link targets an indexable page. Its words live in
+ * scripts/worksheet-gen/i18n/play-strings.json (`share`), served with the play tree.
+ */
+const PLAY = '/makers/play';
+let playStrings = null, landings = null;
+async function shareAssets() {
+  if (!playStrings) playStrings = await fetch(`${PLAY}/strings.json`).then((r) => r.json()).catch(() => ({ share: {} }));
+  if (!landings) landings = await fetch(`${PLAY}/landings.json`).then((r) => r.json()).catch(() => ({}));
+}
+const SH = (k) => { const by = playStrings && playStrings.share && playStrings.share[k]; return (by && (by[LANG] || by.en)) || k; };
+const escHtml = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+/** `{token}` → html, everything else escaped (the caption's {landing} / {brand} become links) */
+const fillHtml = (tpl, parts) => String(tpl).split(/(\{[a-z]+\})/i).map((seg) => { const m = /^\{([a-z]+)\}$/i.exec(seg); return m ? (parts[m[1]] || '') : escHtml(seg); }).join('');
+const anyScreen = () => state.pages.some((_, i) => screenAt(tplOf(i), state.lvls[i]));
+/** the indexable page this maker's links point back to, in this language (play/makers-index.js → landings.json) */
+const landingHere = () => (landings && landings[MAKER] && landings[MAKER][LANG]) || { url: `/${LANG}/tools`, name: (UI.makers && UI.makers[MAKER]) || MAKER };
+
+async function mintLink(kind) {
+  const r = await fetch('/api/makers/links', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ recipeId: saved.id, kind }) }).catch(() => null);
+  return r && r.ok ? (await r.json()).linkId : null;
+}
+
+/** The embed code: the iframe (the student link, ?embed=1) + the caption outside it with the two backlinks + the deck snippet's resize listener. */
+function embedSnippet({ studentUrl, linkId, title, landing }) {
+  const origin = location.origin;
+  const caption = fillHtml(SH('embedCaption'), {
+    landing: `<a href="${escHtml(origin + landing.url)}">${escHtml(landing.name)}</a>`,
+    brand: `<a href="${escHtml(origin + '/' + LANG + '/')}">LessonCraftStudio</a>`,
+  });
+  const fid = 'lcs-s-' + linkId;
+  return [
+    '<div class="lcs-embed" style="max-width:720px;margin:0 auto">',
+    `  <iframe id="${fid}" src="${escHtml(studentUrl)}?embed=1" title="${escHtml(title)}" width="100%" height="900" loading="lazy" style="border:0;border-radius:12px"></iframe>`,
+    `  <p style="font:14px/1.4 Nunito,sans-serif;margin:8px 0 0">${caption}</p>`,
+    `  <script>(function(){var f=document.getElementById("${fid}");if(!f)return;window.addEventListener("message",function(e){if(!e.data||e.data.type!=="lcs-embed-resize")return;if(e.data.url&&f.src&&e.data.url.split("?")[0]!==f.src.split("?")[0])return;f.style.height=e.data.height+"px";});})();</script>`,
+    '</div>',
+  ].join('\n');
+}
+
+/** a read-only field with its Copy button (the button says "Copied" afterwards) */
+function copyRow(value, label, act, multiline) {
+  const input = el(multiline ? 'textarea' : 'input', { class: 'mk-text-input mk-share-field', readonly: true, 'aria-label': label, rows: multiline ? '5' : null, ...(multiline ? {} : { type: 'text', value }) });
+  if (multiline) input.value = value;
+  const copy = el('button', { type: 'button', class: 'mk-btn mk-primary', 'data-act': act, text: multiline ? SH('embedCopy') : UI.copyLink, on: { click: async () => {
+    try { await navigator.clipboard.writeText(value); } catch (e) { input.select(); document.execCommand('copy'); }
     copy.textContent = UI.copied;
   } } });
+  return el('div', { class: 'mk-share-row' }, [input, copy]);
+}
+
+async function shareLink() {
+  if (!saved.id || JSON.stringify(currentRecipe()) !== saved.json) { if (!(await saveNow())) return; }
+  const [student, colleague] = await Promise.all([mintLink('student'), mintLink('colleague'), shareAssets()]);
+  if (!student || !colleague) { showNote(UI.saveFailed, 'save'); return; }
+  const origin = location.origin;
+  const studentUrl = `${origin}/s/${student}`;
+  const colleagueUrl = `${origin}${location.pathname}?maker=${encodeURIComponent(MAKER)}&lang=${LANG}&m=${colleague}`;
+  const landing = landingHere();
+  const title = pageStrings(0).title;
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const section = (h, note, ...kids) => el('section', { class: 'mk-share-sec' }, [el('h3', { text: h }), note ? el('p', { class: 'mk-share-note', text: note }) : null, ...kids]);
+  const qr = el('img', { class: 'mk-share-qr', src: `/api/qr?u=${encodeURIComponent(studentUrl)}`, alt: SH('qrAlt'), width: '160', height: '160', loading: 'lazy' });
   dlg.replaceChildren(
-    el('div', { class: 'mk-pick-head' }, [el('h2', { text: UI.shareTitle }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
-    el('p', { class: 'mk-pick-note', text: UI.shareText }),
-    el('div', { class: 'mk-text-actions' }, [input, copy]),
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: UI.share }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    el('div', { class: 'mk-share' }, [
+      section(SH('studentLink'), SH('studentLinkNote') + (anyScreen() ? '' : ' ' + SH('noScreenShare')), el('div', { class: 'mk-share-student' }, [copyRow(studentUrl, SH('studentLink'), 'copy-student'), qr])),
+      section(SH('embedTitle'), SH('embedNote'), copyRow(embedSnippet({ studentUrl, linkId: student, title, landing }), SH('embedTitle'), 'copy-embed', true)),
+      section(SH('makerLink'), SH('makerLinkNote'), copyRow(origin + landing.url, SH('makerLink'), 'copy-maker')),
+      section(SH('colleagueLink'), UI.shareText, copyRow(colleagueUrl, UI.shareTitle, 'copy')),
+    ]),
   );
   dlg.showModal();
 }

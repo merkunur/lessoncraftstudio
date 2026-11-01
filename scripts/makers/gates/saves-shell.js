@@ -104,7 +104,8 @@ const { FILE } = require('../local-store.js');
 
     // ---- share with a colleague
     await p.click('#mk-share'); await settle(800);
-    const link = await p.evaluate(() => document.querySelector('#mk-picker .mk-text-input').value);
+    // the share sheet (2026-11-01) lists the student link first; the colleague link is the field before its Copy button
+    const link = await p.evaluate(() => document.querySelector('#mk-picker [data-act=copy]').previousElementSibling.value);
     check('Share opens a colleague link', /[?&]m=[a-z2-9]{12}$/.test(link), link);
     const ownPages = await pages(p);
     await p.close();

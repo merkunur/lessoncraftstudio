@@ -130,6 +130,17 @@ button { font: inherit; cursor: pointer; }
 .mk-screen-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
 .mk-screen-host { min-height: 120px; }
 .mk-screen-frame { width: 100%; height: min(72vh, 900px); border: 0; border-radius: 12px; background: #FBF3E4; }
+/* the share sheet (student link + QR, embed code, the maker's page, the colleague link) */
+.mk-share { display: grid; gap: 16px; overflow: auto; max-height: calc(min(80vh, 760px) - 80px); padding-right: 4px; }
+.mk-share-sec { display: grid; gap: 8px; padding: 12px 14px; border: 2px solid var(--line); border-radius: 12px; }
+.mk-share-sec h3 { margin: 0; font-family: 'Baloo 2', sans-serif; font-size: 19px; color: var(--teal); }
+.mk-share-note { margin: 0; color: var(--muted); font-weight: 700; font-size: 14px; line-height: 1.4; }
+.mk-share-row { display: flex; gap: 10px; align-items: flex-start; flex-wrap: wrap; }
+.mk-share-row .mk-share-field { flex: 1 1 240px; min-width: 0; font-size: 15px; }
+.mk-share-row textarea.mk-share-field { font-family: ui-monospace, Consolas, monospace; font-size: 12px; font-weight: 500; white-space: pre; }
+.mk-share-student { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+.mk-share-student .mk-share-row { flex: 1 1 260px; }
+.mk-share-qr { width: 160px; height: 160px; border: 2px solid var(--line); border-radius: 12px; background: #fff; }
 /* several pages: each page names its template; the selected page (the one the gallery and the settings change) is outlined */
 .mk-page-tpl { margin-right: auto; color: var(--ink); font-weight: 700; font-size: 13px; overflow-wrap: anywhere; }
 .mk-pages.mk-multi .mk-page { cursor: pointer; }

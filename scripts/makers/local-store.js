@@ -10,7 +10,15 @@
  *   PUT    /api/makers/recipes/<id>       { recipe, rev }   → { rev } · 409 { rev } when it changed elsewhere
  *   DELETE /api/makers/recipes/<id>                         → { ok }                 (kept, marked deleted)
  *   POST   /api/makers/links              { recipeId, kind }→ { linkId }            one link per recipe and kind
- *   GET    /api/makers/links/<linkId>                       → { recipe, kind }       public: the link is the key
+ *                                          kind: 'colleague' (opens the maker read-only) | 'student' (opens /s/<linkId>)
+ *   GET    /api/makers/links/<linkId>                       → { recipe, kind, meter }  public: the link is the key
+ *                                          meter: false when the teacher who minted it is a subscriber (operator ruling
+ *                                          2026-11-01 D.4-4: her student links skip the per-device play meter); the
+ *                                          website computes it at read time from the teacher's subscription
+ *   DELETE /api/makers/links/<linkId>                       → { ok }                 the owner takes a link back (404 from then on)
+ *   GET    /api/makers/preset/<deckId>                      → { maker, lang, template, level, theme, unit, variant, deckId, title }
+ *                                          public: a published deck's settings for "Make your own" (play/preset.js); the
+ *                                          local stand-in reads the deck's manifest from out/makers/_local/decks/<deckId>.json
  *
  * Refusals: 401 not signed in · 404 not found / not yours · 413 recipe over the size cap · 400 malformed.
  * The file lives in out/makers/_local/store.json (never committed; one local teacher, "you").
@@ -19,8 +27,11 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const { presetFromManifest } = require('./play/preset.js');
+const { makerOf } = require('./play/makers-index.js');
 
 const FILE = path.join(__dirname, '..', '..', 'out', 'makers', '_local', 'store.json');
+const DECKS = path.join(__dirname, '..', '..', 'out', 'makers', '_local', 'decks');
 const MAX_RECIPE_BYTES = 256 * 1024;                     // = shell/recipe.js MAX_RECIPE_BYTES
 const LINK_ALPHABET = 'abcdefghijkmnpqrstuvwxyz23456789'; // = frontend/lib/hosted-worksheets/core.ts generateHostedLinkId
 const TEACHER = 'local-teacher';
@@ -45,23 +56,57 @@ function validRecipe(r) {
   return null;
 }
 
-/** Handle /api/makers/*; `signedIn` says whether the caller is a signed-in account. Returns false if not a store route. */
-function handle(req, res, url, query, signedIn) {
+/** A public link's record (the play page and the preview server's /s/<id> read it): null when unknown, revoked or deleted. */
+function readLink(id) {
+  const db = load();
+  const link = db.links[id];
+  const r = link && !link.revokedAt && db.recipes[link.recipeId];
+  if (!r || r.deletedAt) return null;
+  // the meter follows the TEACHER (the website reads her subscription at request time); locally, who minted the link
+  return { linkId: id, recipe: r.recipe, kind: link.kind, meter: link.minter !== 'sub', title: r.title, maker: r.maker, lang: r.lang };
+}
+
+/** A published deck's preset (locally: out/makers/_local/decks/<deckId>.json holds the deck's manifest). */
+function readPreset(deckId) {
+  if (!/^[A-Za-z0-9_-]{1,80}$/.test(deckId)) return null;
+  let m;
+  try { m = JSON.parse(fs.readFileSync(path.join(DECKS, deckId + '.json'), 'utf8')); } catch (e) { return null; }
+  return presetFromManifest(m, makerOf);
+}
+
+/**
+ * Handle /api/makers/*; `who` says who the caller is: 'anon' | 'free' | 'sub' (a boolean is accepted as before:
+ * true = a signed-in subscriber, false = anonymous). Returns false if not a store route.
+ */
+function handle(req, res, url, query, who) {
   if (!url.startsWith('/api/makers/')) return false;
+  const me = typeof who === 'boolean' ? (who ? 'sub' : 'anon') : (who || 'anon');
+  const signedIn = me !== 'anon';
   const send = (status, body) => { res.writeHead(status, { 'content-type': 'application/json', 'cache-control': 'no-store' }); res.end(JSON.stringify(body)); };
   const body = () => new Promise((resolve) => { let b = ''; req.on('data', (c) => { b += c; }); req.on('end', () => { try { resolve(JSON.parse(b || '{}')); } catch (e) { resolve(null); } }); });
-  const parts = url.split('/').filter(Boolean); // api, makers, recipes|links, id?
+  const parts = url.split('/').filter(Boolean); // api, makers, recipes|links|preset, id?
   const kind = parts[2], id = parts[3];
 
   // a shared link is public: the twelve-character id is the key (32^12)
   if (kind === 'links' && req.method === 'GET' && id) {
+    const l = readLink(id);
+    if (!l) return send(404, { error: 'not_found' }), true;
+    return send(200, { recipe: l.recipe, kind: l.kind, meter: l.meter }), true;
+  }
+  // a deck's preset is public too (the deck is)
+  if (kind === 'preset' && req.method === 'GET' && id) {
+    const p = readPreset(id);
+    return (p ? send(200, p) : send(404, { error: 'not_found' })), true;
+  }
+  if (!signedIn) return send(401, { error: 'signin_required' }), true;
+  if (kind === 'links' && req.method === 'DELETE' && id) {
     const db = load();
     const link = db.links[id];
     const r = link && !link.revokedAt && db.recipes[link.recipeId];
-    if (!r || r.deletedAt) return send(404, { error: 'not_found' }), true;
-    return send(200, { recipe: r.recipe, kind: link.kind }), true;
+    if (!r || r.teacher !== TEACHER) return send(404, { error: 'not_found' }), true;
+    link.revokedAt = new Date().toISOString(); save(db);
+    return send(200, { ok: true }), true;
   }
-  if (!signedIn) return send(401, { error: 'signin_required' }), true;
 
   if (kind === 'recipes') {
     const db = load();
@@ -105,7 +150,7 @@ function handle(req, res, url, query, signedIn) {
       const have = Object.entries(db.links).find(([, l]) => l.recipeId === r.id && l.kind === b.kind && !l.revokedAt);
       if (have) return send(200, { linkId: have[0] });
       const linkId = newId(12, LINK_ALPHABET);
-      db.links[linkId] = { recipeId: r.id, kind: b.kind, createdAt: new Date().toISOString() };
+      db.links[linkId] = { recipeId: r.id, kind: b.kind, minter: me, createdAt: new Date().toISOString() };
       save(db);
       return send(201, { linkId });
     });
@@ -114,4 +159,4 @@ function handle(req, res, url, query, signedIn) {
   return send(404, { error: 'no_route' }), true;
 }
 
-module.exports = { handle, FILE, MAX_RECIPE_BYTES };
+module.exports = { handle, readLink, readPreset, FILE, DECKS, MAX_RECIPE_BYTES };

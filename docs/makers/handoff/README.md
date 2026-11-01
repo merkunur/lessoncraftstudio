@@ -1,4 +1,7 @@
-# The 10 toughest maker tasks — handed to Fable 5.1
+# The 10 toughest maker tasks — handed to Fable 5.1 (STOPPED after task 6)
+
+> **Operator 2026-11-01: "Don't launch any more Fable 5.1 agents."** Tasks 1–6 were done by agents (handoffs 01–06). Tasks 7–10 are
+> the main session's own work, built in the maker order; no agent is launched for them.
 
 Operator, 2026-11-01: *"Analyze thoroughly and find out the 10 toughest tasks waiting for you in building the new
 worksheet makers. Launch Fable 5.1 agents to get those 10 tasks done. Launch one agent at a time."*

@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 882,
+ "count": 887,
  "failures": [],
  "rows": [
   {
@@ -218,7 +218,8 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
-    "templates/components.js"
+    "templates/components.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:compare-groups",
    "skill": "Compare two groups: more, fewer, equal (incl. comparing the letter counts of two names)",
@@ -9423,6 +9424,35 @@
    "science": false
   },
   {
+   "id": "K-460",
+   "file": "scripts/worksheet-gen/types/k/K-460-crocodile-compare.js",
+   "grade": "K",
+   "slug": "crocodile-compare",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Hungry Crocodile",
+   "instruction": "The crocodile always eats the bigger number. Circle the mouth that opens to the bigger number, or = if they are the same.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi",
+    "equal",
+    "sameLead",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/compare-more.js"
+   ],
+   "teachingPoint": "K:compare-groups",
+   "skill": "Compare two groups: more, fewer, equal (incl. comparing the letter counts of two names)",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -12002,6 +12032,7 @@
     "image-cache/resolve.js",
     "lib/b2-common.js",
     "data/b2/labels.js",
+    "lib/slot.js",
     "lib/doubles-halves-screen.js",
     "lib/doubles-halves-screen.js"
    ],
@@ -19053,6 +19084,59 @@
    "science": false
   },
   {
+   "id": "G1-453",
+   "file": "scripts/worksheet-gen/types/g1/G1-453-compare-sums.js",
+   "grade": "G1",
+   "slug": "compare-sums",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Compare the Sums",
+   "instruction": "Work out both sides. Write <, > or = in the box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "ops"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/compare-more.js"
+   ],
+   "teachingPoint": "1:true-false-equations",
+   "skill": "The equal sign means \"the same as\": decide whether an equation is true or false (incl. 8 = 5 + 3 and 9 − 2 = 3 + 4)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-454",
+   "file": "scripts/worksheet-gen/types/g1/G1-454-make-it-true.js",
+   "grade": "G1",
+   "slug": "make-it-true",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Make It True",
+   "instruction": "Write a number in the box that makes it true. Many numbers can be right.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "gap",
+    "one"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/compare-more.js"
+   ],
+   "teachingPoint": "1:compare-order-two-digit",
+   "skill": "Compare two-digit numbers (and picture groups) with > < =, and order three numbers least-to-greatest / greatest-to-least",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -25306,6 +25390,57 @@
    ],
    "teachingPoint": "2:column-method",
    "skill": "Add and subtract 2- and 3-digit numbers in columns, ones first, writing the carried/borrowed digit",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-398",
+   "file": "scripts/worksheet-gen/types/g2/G2-398-biggest-and-smallest-number.js",
+   "grade": "G2",
+   "slug": "biggest-and-smallest-number",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Biggest and Smallest Number",
+   "instruction": "Use the digit cards to make the biggest and the smallest number. Use each card once.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/compare-more.js"
+   ],
+   "teachingPoint": "2:compare-order-3-digit",
+   "skill": "Compare two 3-digit numbers with < > = and order four from smallest to greatest",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-399",
+   "file": "scripts/worksheet-gen/types/g2/G2-399-which-place-decides.js",
+   "grade": "G2",
+   "slug": "which-place-decides",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Which Place Decides?",
+   "instruction": "Start on the left. Circle the first two digits that are different. Then write <, > or = in the box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "n",
+    "sameLead"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/compare-more.js"
+   ],
+   "teachingPoint": "2:compare-order-3-digit",
+   "skill": "Compare two 3-digit numbers with < > = and order four from smallest to greatest",
    "strand": "Number & Operations in Base Ten",
    "science": false
   },

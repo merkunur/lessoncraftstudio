@@ -3521,5 +3521,25 @@
   "G1-452": {
     "title": "Memory med dubbelt",
     "instruction": "Klipp ut korten. Hitta paren: ett tal och dubbelt så mycket."
+  },
+  "K-460": {
+    "title": "Den hungriga krokodilen",
+    "instruction": "Krokodilen äter alltid det större talet. Ringa in gapet som öppnar sig mot det större talet, eller = om de är lika stora."
+  },
+  "G1-453": {
+    "title": "Jämför uträkningarna",
+    "instruction": "Räkna ut båda sidorna. Skriv <, > eller = i rutan."
+  },
+  "G1-454": {
+    "title": "Gör det sant",
+    "instruction": "Skriv ett tal i rutan så att det stämmer. Många tal kan vara rätt."
+  },
+  "G2-398": {
+    "title": "Största och minsta talet",
+    "instruction": "Använd sifferkorten och gör det största och det minsta talet. Skriv dem i rutorna. Använd varje kort en gång."
+  },
+  "G2-399": {
+    "title": "Vilken position avgör?",
+    "instruction": "Börja till vänster. Jämför siffrorna kolumn för kolumn. Ringa in det första paret som är olika. Skriv sedan < eller > i rutan."
   }
 }

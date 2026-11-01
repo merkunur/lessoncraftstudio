@@ -41,7 +41,8 @@
     "number-lines": "Droites graduées",
     "number-bonds": "Compléments et familles d'opérations",
     "addition-subtraction": "Addition et soustraction",
-    "doubles-halves": "Doubles et moitiés"
+    "doubles-halves": "Doubles et moitiés",
+    "compare-numbers": "Comparer des nombres et des quantités"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

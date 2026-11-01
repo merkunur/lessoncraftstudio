@@ -41,7 +41,8 @@
     "number-lines": "Tallinjer",
     "number-bonds": "Talkompisar och räknefamiljer",
     "addition-subtraction": "Addition och subtraktion",
-    "doubles-halves": "Dubbelt och hälften"
+    "doubles-halves": "Dubbelt och hälften",
+    "compare-numbers": "Jämföra tal och mängder"
   },
   "editTitle": "Ändra rubriken",
   "editInstruction": "Ändra instruktionen",

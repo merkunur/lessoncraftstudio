@@ -3540,5 +3540,25 @@
   "G1-452": {
     "title": "Vendespil med det dobbelte",
     "instruction": "Klip kortene ud. Find parrene: et tal og det dobbelte af tallet."
+  },
+  "K-460": {
+    "title": "Den sultne krokodille",
+    "instruction": "Krokodillen æder altid det største tal. Sæt ring om munden, der åbner sig mod det største tal, eller om =, hvis de er lige store."
+  },
+  "G1-453": {
+    "title": "Sammenlign regnestykkerne",
+    "instruction": "Regn begge sider ud. Skriv <, > eller = i feltet."
+  },
+  "G1-454": {
+    "title": "Gør det sandt",
+    "instruction": "Skriv et tal i feltet, så det passer. Mange tal kan være rigtige."
+  },
+  "G2-398": {
+    "title": "Det største og mindste tal",
+    "instruction": "Brug cifferkortene til at lave det største og det mindste tal. Skriv dem i felterne. Brug hvert kort én gang."
+  },
+  "G2-399": {
+    "title": "Hvilken plads afgør det?",
+    "instruction": "Start fra venstre. Sammenlign cifrene kolonne for kolonne. Sæt ring om det første par, der er forskelligt. Skriv så < eller > i feltet."
   }
 }

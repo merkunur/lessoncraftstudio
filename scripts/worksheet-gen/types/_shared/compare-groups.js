@@ -7,6 +7,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { iconRows, fitIcons } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 
 function makeCompareGroupsType({ id, slug, mode, i18n }) {
   return {
@@ -26,7 +27,9 @@ function makeCompareGroupsType({ id, slug, mode, i18n }) {
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
-      const nouns = rng.sample(labelSafeNouns(theme), d.rows);
+      // in a maker the teacher may swap a row's picture (lib/slot.js: the random stream and the catalogue page are untouched)
+      const pool = labelSafeNouns(theme);
+      const nouns = slot.pictures(ctx, rng.sample(pool, d.rows), pool, theme);
       const cards = [];
       const truth = [];
       for (let i = 0; i < d.rows; i++) {
@@ -38,11 +41,12 @@ function makeCompareGroupsType({ id, slug, mode, i18n }) {
         const target = mode === 'more' ? Math.max(a, b) : Math.min(a, b);
         const boxes = [a, b].map((n) => {
           const fit = fitIcons({ n, stageW: 250, stageH: 150, maxPx: 60, gapX: 8, gapY: 6 });
-          return `<div class="ws-subgroup" data-lcs-group="${n}"${n === target ? ' data-lcs-target="1"' : ''}>` +
+          // the maker's key rings it (catalogue unchanged)
+          return `<div class="ws-subgroup" data-lcs-group="${n}"${n === target ? ' data-lcs-target="1"' + (ctx && ctx.answerKey ? ' data-lcs-correct="1"' : '') : ''}>` +
             iconRows({ theme, noun: nouns[i].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 8, gapY: 6 }) +
             `</div>`;
         });
-        cards.push(`<div class="ws-card-stage" style="gap:18px">${boxes.join('')}</div>`);
+        cards.push(`<div class="ws-card-stage"${slot.attr(ctx, 'pic', i)} style="gap:18px">${boxes.join('')}</div>`);
         truth.push({ row: i + 1, a, b, target });
       }
       return {

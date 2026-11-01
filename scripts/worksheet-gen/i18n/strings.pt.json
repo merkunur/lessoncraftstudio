@@ -3560,5 +3560,25 @@
   "G1-452": {
     "title": "Jogo da memória do dobro",
     "instruction": "Recorte as cartas. Encontre os pares: um número e o seu dobro."
+  },
+  "K-460": {
+    "title": "O jacaré comilão",
+    "instruction": "O jacaré sempre come o número maior. Circule a boca que se abre para o número maior, ou = se forem iguais."
+  },
+  "G1-453": {
+    "title": "Compare as contas",
+    "instruction": "Resolva as duas contas. Escreva <, > ou = no quadradinho."
+  },
+  "G1-454": {
+    "title": "Complete a sentença",
+    "instruction": "Escreva no quadradinho um número que torne a sentença verdadeira. Vários números podem estar certos."
+  },
+  "G2-398": {
+    "title": "O maior e o menor número",
+    "instruction": "Use as fichas de algarismos para formar o maior e o menor número. Escreva-os nos quadradinhos. Use cada ficha uma vez."
+  },
+  "G2-399": {
+    "title": "Qual ordem decide?",
+    "instruction": "Comece pela esquerda. Compare os algarismos de cada ordem. Circule o primeiro par diferente. Depois escreva < ou > no quadradinho."
   }
 }

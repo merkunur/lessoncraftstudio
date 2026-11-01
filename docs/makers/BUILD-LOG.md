@@ -7,6 +7,43 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 6: Compare Numbers & Groups (`compare-numbers`) — 10 templates + 5 new (2026-11-01)
+
+- The 10 existing templates bundle with no engine change. Replaces the old app `more-less` (oldAppTemplates
+  `more-less` → G1-114, the picture-group comparison with < > =).
+- Picture swap: K-008 / K-009 (compare-groups.js, one picture per row) and K-010 (three pictures per row: one slot role
+  per row, `row1`…`row3`). The six numeral templates are on the slots gate's no-slot list.
+- Existing numeral templates, levels 1 and 3 only (level 2 = the published page, unchanged):
+  - G1-137 / G2-219 / G3-325 level 1 ran 10 px into the footer (three symbol chips stacked in six single-column rows);
+    the chips now sit side by side when there are six rows.
+  - G1-137 and G2-219 had the same numbers at every level (docs/worksheet-gen/level-ladder: "SAME-CONFIG"). Now real:
+    G1-137 L1 to 20 without equal pairs, L3 the same tens or the digits swapped (38 vs 83); G2-219 L1 two-digit, L3
+    the same hundreds. G3-325 keeps its numbers (its 4-digit published page is above Grade 3 — level-ladder records
+    the ceiling risk; not changed here).
+  - ⚠ The slots gate compares the catalogue output with HEAD, so these intentional level 1/3 changes fail it until the
+    commit; it is re-run after the commit.
+- New templates (NEW-TEMPLATES §9), `types/_shared/compare-more.js`, print-only with the shared key layer:
+  - K-460 hungry crocodile: a drawn mouth (teeth, an eye) that opens toward the bigger number; circle the mouth or =
+    (L1 numbers to 10 with dots, L2 two-digit, half sharing the tens); L3 three-digit, write the symbol, the mouths
+    shown once above as the reminder (level line). The mouth faces each way equally often.
+  - G1-453 compare both sides (3 + 4 ○ 5 + 1): a quarter equal; on at least 40 % of the cards the first numbers point
+    the wrong way (the generator plans it, the verify measures it).
+  - G1-454 make it true (24 < □ < 30, or one bound written both ways round): the key prints the whole accepted set
+    (25–29, 59, 60, …).
+  - G2-398 biggest and smallest number from digit cards: the printed row never contains an answer (review: with two
+    cards every order IS an answer, so L1 makes two-digit numbers from three cards, its own level line); L3 has a 0
+    and says the number cannot start with it.
+  - G2-399 which place decides: two numbers in coloured place columns with each school's place letters (H T O, H Z E,
+    c d u, C D U, h da u, H T E, S K Y); the key rings the first differing pair.
+- One native + pedagogy reviewer: 7 errors, all applied — the digit-card tell, "write them in the boxes" in every
+  locale, "Compare Both Sides" (half the cards subtract), it "lati" (the sides of a shape), G2-399 "the first two
+  different digits" misreadable as two digits inside one number (now "the first pair, column by column", and "< or >"
+  since = never occurs), the missing place headings, five calqued "make it true" titles. Optional points applied:
+  sv "gapet", no "kjeften", de/it level-3 wording, fr/es/pt/it "the two calculations", de titles, it "cartellini",
+  fi "muodosta", da "begynder".
+- Coverage: K-460 → K:compare-groups, G1-453 → 1:true-false-equations, G1-454 → 1:compare-order-two-digit,
+  G2-398 / G2-399 → 2:compare-order-3-digit.
+
 ## B1 maker 5: Doubles & Halves (`doubles-halves`) — 10 templates + 5 new (2026-11-01)
 
 - The 10 existing templates (G1-247 and its nine faces) could not be bundled at first: `lib/b2-common.js` read the

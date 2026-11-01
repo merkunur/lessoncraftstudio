@@ -3570,5 +3570,25 @@
   "G1-452": {
     "title": "Doubles Memory Cards",
     "instruction": "Cut out the cards. Find the pairs: a number and its double."
+  },
+  "K-460": {
+    "title": "Hungry Crocodile",
+    "instruction": "The crocodile always eats the bigger number. Circle the mouth that opens to the bigger number, or = if they are the same."
+  },
+  "G1-453": {
+    "title": "Compare Both Sides",
+    "instruction": "Work out both sides. Write <, > or = in the box."
+  },
+  "G1-454": {
+    "title": "Make It True",
+    "instruction": "Write a number in the box that makes it true. Many numbers can be right."
+  },
+  "G2-398": {
+    "title": "Biggest and Smallest Number",
+    "instruction": "Use the digit cards to make the biggest and the smallest number. Write them in the boxes. Use each card once."
+  },
+  "G2-399": {
+    "title": "Which Place Decides?",
+    "instruction": "Start on the left. Compare the digits in each column. Circle the first pair that is different. Then write < or > in the box."
   }
 }

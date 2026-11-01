@@ -41,7 +41,8 @@
     "number-lines": "Lukusuorat",
     "number-bonds": "Lukujen hajotelmat ja laskuperheet",
     "addition-subtraction": "Yhteen- ja vähennyslasku",
-    "doubles-halves": "Tuplaa ja puolita"
+    "doubles-halves": "Tuplaa ja puolita",
+    "compare-numbers": "Lukujen ja määrien vertailu"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

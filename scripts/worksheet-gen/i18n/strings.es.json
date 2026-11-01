@@ -3545,5 +3545,25 @@
   "G1-452": {
     "title": "Memoria de dobles",
     "instruction": "Recorta las tarjetas. Encuentra las parejas: un número y su doble."
+  },
+  "K-460": {
+    "title": "El cocodrilo hambriento",
+    "instruction": "El cocodrilo siempre se come el número mayor. Encierra la boca que se abre hacia el número mayor, o = si son iguales."
+  },
+  "G1-453": {
+    "title": "Compara las operaciones",
+    "instruction": "Resuelve las dos operaciones. Escribe <, > o = en el recuadro."
+  },
+  "G1-454": {
+    "title": "Completa para que sea verdad",
+    "instruction": "Escribe en el recuadro un número que lo haga verdadero. Muchos números pueden ser correctos."
+  },
+  "G2-398": {
+    "title": "El número mayor y el menor",
+    "instruction": "Usa las tarjetas de dígitos para formar el número mayor y el menor. Escríbelos en los recuadros. Usa cada tarjeta una vez."
+  },
+  "G2-399": {
+    "title": "¿Qué posición decide?",
+    "instruction": "Empieza por la izquierda. Compara los dígitos de cada columna. Encierra la primera pareja que es diferente. Luego escribe < o > en el recuadro."
   }
 }

@@ -4027,5 +4027,48 @@
       "no": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene. Noen ganger mangler tallet som går inn: Tenk baklengs.",
       "fi": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
     }
+  },
+  "K-460": {
+    "3": {
+      "en": "The crocodile always eats the bigger number: its mouth opens to it. Write <, > or = in each box.",
+      "de": "Das Krokodil frisst immer die größere Zahl: Es öffnet sein Maul zur größeren Zahl hin. Schreibe <, > oder = in jedes Kästchen.",
+      "fr": "Le crocodile mange toujours le plus grand nombre : sa bouche s'ouvre vers lui. Écris <, > ou = dans chaque case.",
+      "es": "El cocodrilo siempre se come el número mayor: su boca se abre hacia él. Escribe <, > o = en cada recuadro.",
+      "pt": "O jacaré sempre come o número maior: a boca se abre para ele. Escreva <, > ou = em cada quadradinho.",
+      "it": "Il coccodrillo mangia sempre il numero più grande: apre la bocca verso quel numero. Scrivi <, > o = in ogni riquadro.",
+      "nl": "De krokodil eet altijd het grootste getal op: zijn bek staat ernaar open. Schrijf <, > of = in elk vakje.",
+      "sv": "Krokodilen äter alltid det större talet: gapet öppnar sig mot det. Skriv <, > eller = i varje ruta.",
+      "da": "Krokodillen æder altid det største tal: Munden åbner sig mod det. Skriv <, > eller = i hvert felt.",
+      "no": "Krokodillen spiser alltid det største tallet: Kjeften åpner seg mot det. Skriv <, > eller = i hver rute.",
+      "fi": "Krokotiili syö aina suuremman luvun: sen suu aukeaa sitä kohti. Kirjoita jokaiseen laatikkoon <, > tai =."
+    }
+  },
+  "G2-398": {
+    "1": {
+      "en": "Use two of the three digit cards to make the biggest and the smallest two-digit number. Write them in the boxes.",
+      "de": "Bilde mit zwei der drei Ziffernkarten die größte und die kleinste zweistellige Zahl und schreibe sie in die Kästchen.",
+      "fr": "Avec deux des trois cartes chiffres, forme le plus grand et le plus petit nombre à deux chiffres. Écris-les dans les cases.",
+      "es": "Usa dos de las tres tarjetas de dígitos para formar el mayor y el menor número de dos cifras. Escríbelos en los recuadros.",
+      "pt": "Use duas das três fichas de algarismos para formar o maior e o menor número de dois algarismos. Escreva-os nos quadradinhos.",
+      "it": "Con due dei tre cartellini delle cifre forma il numero di due cifre più grande e quello più piccolo. Scrivili nei riquadri.",
+      "nl": "Maak met twee van de drie cijferkaartjes het grootste en het kleinste getal van twee cijfers. Schrijf ze in de vakjes.",
+      "sv": "Använd två av de tre sifferkorten och gör det största och det minsta tvåsiffriga talet. Skriv dem i rutorna.",
+      "da": "Brug to af de tre cifferkort til at lave det største og det mindste tocifrede tal. Skriv dem i felterne.",
+      "no": "Bruk to av de tre sifferkortene til å lage det største og det minste tosifrede tallet. Skriv dem i rutene.",
+      "fi": "Muodosta kolmesta numerokortista kahdella kortilla suurin ja pienin kaksinumeroinen luku. Kirjoita ne laatikoihin."
+    },
+    "3": {
+      "en": "Use the digit cards to make the biggest and the smallest number. Write them in the boxes. Use each card once. Your number cannot start with 0.",
+      "de": "Bilde mit den Ziffernkarten die größte und die kleinste Zahl und schreibe sie in die Kästchen. Nimm jede Karte genau einmal. Eine Zahl fängt nie mit 0 an.",
+      "fr": "Avec les cartes chiffres, forme le plus grand et le plus petit nombre. Écris-les dans les cases. Utilise chaque carte une fois. Un nombre ne commence jamais par 0.",
+      "es": "Usa las tarjetas de dígitos para formar el número mayor y el menor. Escríbelos en los recuadros. Usa cada tarjeta una vez. Un número nunca empieza con 0.",
+      "pt": "Use as fichas de algarismos para formar o maior e o menor número. Escreva-os nos quadradinhos. Use cada ficha uma vez. Um número nunca começa com 0.",
+      "it": "Con i cartellini delle cifre forma il numero più grande e il più piccolo. Scrivili nei riquadri. Usa ogni cartellino una volta. Un numero non comincia mai con 0.",
+      "nl": "Maak met de cijferkaartjes het grootste en het kleinste getal. Schrijf ze in de vakjes. Gebruik elk kaartje één keer. Een getal begint nooit met 0.",
+      "sv": "Använd sifferkorten och gör det största och det minsta talet. Skriv dem i rutorna. Använd varje kort en gång. Ett tal börjar aldrig med 0.",
+      "da": "Brug cifferkortene til at lave det største og det mindste tal. Skriv dem i felterne. Brug hvert kort én gang. Et tal begynder aldrig med 0.",
+      "no": "Bruk sifferkortene til å lage det største og det minste tallet. Skriv dem i rutene. Bruk hvert kort én gang. Et tall starter aldri med 0.",
+      "fi": "Muodosta numerokorteista suurin ja pienin luku. Kirjoita ne laatikoihin. Käytä jokaista korttia kerran. Luku ei koskaan ala nollalla."
+    }
   }
 }

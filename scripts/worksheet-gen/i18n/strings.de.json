@@ -3565,5 +3565,25 @@
   "G1-452": {
     "title": "Verdoppeln-Memory",
     "instruction": "Schneide die Karten aus. Finde die Paare: eine Zahl und ihr Doppeltes."
+  },
+  "K-460": {
+    "title": "Das hungrige Krokodil",
+    "instruction": "Das Krokodil frisst immer die größere Zahl. Kreise das Maul ein, das sich zur größeren Zahl öffnet, oder =, wenn beide gleich sind."
+  },
+  "G1-453": {
+    "title": "Aufgaben vergleichen",
+    "instruction": "Rechne beide Seiten aus. Schreibe <, > oder = in das Kästchen."
+  },
+  "G1-454": {
+    "title": "Welche Zahl passt?",
+    "instruction": "Schreibe eine Zahl in das Kästchen, damit es stimmt. Viele Zahlen können richtig sein."
+  },
+  "G2-398": {
+    "title": "Größte und kleinste Zahl",
+    "instruction": "Bilde mit den Ziffernkarten die größte und die kleinste Zahl und schreibe sie in die Kästchen. Nimm jede Karte genau einmal."
+  },
+  "G2-399": {
+    "title": "Welche Stelle entscheidet?",
+    "instruction": "Fang links an. Vergleiche die Ziffern Stelle für Stelle. Kreise das erste Paar ein, das verschieden ist. Schreibe dann < oder > in das Kästchen."
   }
 }

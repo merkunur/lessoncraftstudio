@@ -3536,5 +3536,25 @@
   "G1-452": {
     "title": "Memory dei doppi",
     "instruction": "Ritaglia le carte. Trova le coppie: un numero e il suo doppio."
+  },
+  "K-460": {
+    "title": "Il coccodrillo affamato",
+    "instruction": "Il coccodrillo mangia sempre il numero più grande. Cerchia la bocca che si apre verso il numero più grande, o = se sono uguali."
+  },
+  "G1-453": {
+    "title": "Confronta le operazioni",
+    "instruction": "Esegui le due operazioni. Scrivi <, > o = nel riquadro."
+  },
+  "G1-454": {
+    "title": "Completa perché sia vero",
+    "instruction": "Scrivi nel riquadro un numero che lo renda vero. Molti numeri possono andare bene."
+  },
+  "G2-398": {
+    "title": "Il numero più grande e il più piccolo",
+    "instruction": "Con i cartellini delle cifre forma il numero più grande e il più piccolo. Scrivili nei riquadri. Usa ogni cartellino una volta."
+  },
+  "G2-399": {
+    "title": "Quale posizione decide?",
+    "instruction": "Parti da sinistra. Confronta le cifre colonna per colonna. Cerchia la prima coppia di cifre diverse. Poi scrivi < o > nel riquadro."
   }
 }

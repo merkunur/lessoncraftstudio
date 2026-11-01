@@ -3554,5 +3554,25 @@
   "G1-452": {
     "title": "Memory met dubbelen",
     "instruction": "Knip de kaartjes uit. Zoek de paren: een getal en het dubbele ervan."
+  },
+  "K-460": {
+    "title": "De hongerige krokodil",
+    "instruction": "De krokodil eet altijd het grootste getal op. Omcirkel de bek die openstaat naar het grootste getal, of = als ze gelijk zijn."
+  },
+  "G1-453": {
+    "title": "Sommen vergelijken",
+    "instruction": "Reken beide kanten uit. Schrijf <, > of = in het vakje."
+  },
+  "G1-454": {
+    "title": "Maak het waar",
+    "instruction": "Schrijf een getal in het vakje zodat het klopt. Er kunnen veel goede getallen zijn."
+  },
+  "G2-398": {
+    "title": "Het grootste en kleinste getal",
+    "instruction": "Maak met de cijferkaartjes het grootste en het kleinste getal. Schrijf ze in de vakjes. Gebruik elk kaartje één keer."
+  },
+  "G2-399": {
+    "title": "Welke plaats beslist?",
+    "instruction": "Begin links. Vergelijk de cijfers kolom voor kolom. Omcirkel het eerste paar dat verschilt. Schrijf dan < of > in het vakje."
   }
 }

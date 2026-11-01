@@ -3555,5 +3555,25 @@
   "G1-452": {
     "title": "Mémory des doubles",
     "instruction": "Découpe les cartes. Trouve les paires : un nombre et son double."
+  },
+  "K-460": {
+    "title": "Le crocodile affamé",
+    "instruction": "Le crocodile mange toujours le plus grand nombre. Entoure la bouche qui s'ouvre vers le plus grand nombre, ou = s'ils sont égaux."
+  },
+  "G1-453": {
+    "title": "Compare les calculs",
+    "instruction": "Fais les deux calculs. Écris <, > ou = dans la case."
+  },
+  "G1-454": {
+    "title": "Complète pour que ce soit vrai",
+    "instruction": "Écris dans la case un nombre qui convient. Plusieurs nombres sont possibles."
+  },
+  "G2-398": {
+    "title": "Le plus grand et le plus petit nombre",
+    "instruction": "Avec les cartes chiffres, forme le plus grand et le plus petit nombre. Écris-les dans les cases. Utilise chaque carte une fois."
+  },
+  "G2-399": {
+    "title": "Quel rang décide ?",
+    "instruction": "Commence à gauche. Compare les chiffres rang par rang. Entoure la première paire de chiffres différents. Puis écris < ou > dans la case."
   }
 }

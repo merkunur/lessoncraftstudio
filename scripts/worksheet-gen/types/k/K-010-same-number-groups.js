@@ -6,6 +6,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { iconRows, fitIcons } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-010',
@@ -31,14 +32,17 @@ module.exports = {
     const rng = ctx.rng;
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
-      const nouns = rng.sample(labelSafeNouns(theme), 3);
+      // in a maker the teacher may swap each group's picture, one slot role per row (lib/slot.js: stream and catalogue untouched)
+      const pool = labelSafeNouns(theme);
+      const nouns = slot.pictures(ctx, rng.sample(pool, 3), pool, theme, `row${i + 1}`);
       const same = rng.int(d.min, d.max);
       let other;
       do { other = rng.int(d.min, d.max); } while (other === same);
       const counts = rng.shuffle([same, same, other]);
       const boxes = counts.map((n, k) => {
         const fit = fitIcons({ n, stageW: 160, stageH: 130, maxPx: 48, gapX: 5, gapY: 4 });
-        return `<div class="ws-subgroup" data-lcs-group="${n}"${n === same ? ' data-lcs-equal="1"' : ''}>` +
+        // the maker's key rings both (catalogue unchanged)
+        return `<div class="ws-subgroup"${slot.attr(ctx, `row${i + 1}`, k)} data-lcs-group="${n}"${n === same ? ' data-lcs-equal="1"' + (ctx && ctx.answerKey ? ' data-lcs-correct="1"' : '') : ''}>` +
           iconRows({ theme, noun: nouns[k].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 5, gapY: 4 }) +
           `</div>`;
       });

@@ -3549,5 +3549,25 @@
   "G1-452": {
     "title": "Memory med det dobbelte",
     "instruction": "Klipp ut kortene. Finn parene: et tall og det dobbelte av tallet."
+  },
+  "K-460": {
+    "title": "Den sultne krokodillen",
+    "instruction": "Krokodillen spiser alltid det største tallet. Sett ring rundt kjeften som åpner seg mot det største tallet, eller rundt = hvis de er like store."
+  },
+  "G1-453": {
+    "title": "Sammenlign regnestykkene",
+    "instruction": "Regn ut begge sidene. Skriv <, > eller = i ruten."
+  },
+  "G1-454": {
+    "title": "Gjør det sant",
+    "instruction": "Skriv et tall i ruten slik at det stemmer. Mange tall kan være riktige."
+  },
+  "G2-398": {
+    "title": "Det største og minste tallet",
+    "instruction": "Bruk sifferkortene til å lage det største og det minste tallet. Skriv dem i rutene. Bruk hvert kort én gang."
+  },
+  "G2-399": {
+    "title": "Hvilken plass avgjør?",
+    "instruction": "Start fra venstre. Sammenlign sifrene kolonne for kolonne. Sett ring rundt det første paret som er forskjellig. Skriv så < eller > i ruten."
   }
 }

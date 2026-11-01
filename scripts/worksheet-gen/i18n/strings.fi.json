@@ -3531,5 +3531,25 @@
   "G1-452": {
     "title": "Tuplamuistipeli",
     "instruction": "Leikkaa kortit irti. Etsi parit: luku ja sen tupla."
+  },
+  "K-460": {
+    "title": "Nälkäinen krokotiili",
+    "instruction": "Krokotiili syö aina suuremman luvun. Ympyröi suu, joka aukeaa suurempaa lukua kohti, tai =, jos luvut ovat yhtä suuret."
+  },
+  "G1-453": {
+    "title": "Vertaa laskuja",
+    "instruction": "Laske molemmat puolet. Kirjoita laatikkoon <, > tai =."
+  },
+  "G1-454": {
+    "title": "Mikä luku sopii?",
+    "instruction": "Kirjoita laatikkoon luku, niin että väite on totta. Moni luku voi olla oikein."
+  },
+  "G2-398": {
+    "title": "Suurin ja pienin luku",
+    "instruction": "Muodosta numerokorteista suurin ja pienin luku. Kirjoita ne laatikoihin. Käytä jokaista korttia kerran."
+  },
+  "G2-399": {
+    "title": "Mikä paikka ratkaisee?",
+    "instruction": "Aloita vasemmalta. Vertaa numeroita sarake kerrallaan. Ympyröi ensimmäinen pari, jossa numerot eroavat. Kirjoita sitten laatikkoon < tai >."
   }
 }

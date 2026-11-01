@@ -119,7 +119,8 @@
         "K-008",
         "K-009",
         "K-010",
-        "K-346"
+        "K-346",
+        "K-460"
       ],
       "verdict": "covered",
       "activities": [
@@ -127,7 +128,7 @@
         "friendship-bridge.compare-balance.k-cc-c-6"
       ],
       "planned": [],
-      "note": "Partner Bows (#17) and Friendship Bridge (#18) cover more / fewer / same. K-346 (letters in my name vs a friend’s, from all-about-me) is the same comparison on personal content."
+      "note": "Partner Bows (#17) and Friendship Bridge (#18) cover more / fewer / same. K-346 (letters in my name vs a friend’s, from all-about-me) is the same comparison on personal content. Compare Numbers & Groups maker 2026-11-01: the crocodile mouth K-460 (NEW-TEMPLATES 9-T1; L2-3 reach 1.NBT.B.3 / 2.NBT.A.4)."
     },
     {
       "tp": "K:tally-marks",
@@ -1785,9 +1786,10 @@
       "code": "1.OA.D.7",
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
-        "G1-443"
+        "G1-443",
+        "G1-453"
       ],
-      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T2). Activities gap: none yet."
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T2). Activities gap: none yet. Compare Numbers & Groups maker 2026-11-01: compare two sums G1-453 (NEW-TEMPLATES 9-T2)."
     },
     {
       "verdict": "covered",
@@ -2168,7 +2170,8 @@
         "G1-114",
         "G1-135",
         "G1-136",
-        "G1-137"
+        "G1-137",
+        "G1-454"
       ],
       "verdict": "covered",
       "activities": [
@@ -2177,7 +2180,7 @@
         "friendship-bridge.compare-balance.k-cc-c-6"
       ],
       "planned": [],
-      "note": "The existing two-digit compare is a symbol quiz and the Nesting Pots order only 1-10. Missing: ordering two-digit numbers and the TENS-FIRST rule made visible (the 29 > 41 misconception). Fully covered when ORDER row 95 (choice-board.compare-two-digit.1-nbt-b-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/95-ten-rod-drawers.md."
+      "note": "The existing two-digit compare is a symbol quiz and the Nesting Pots order only 1-10. Missing: ordering two-digit numbers and the TENS-FIRST rule made visible (the 29 > 41 misconception). Fully covered when ORDER row 95 (choice-board.compare-two-digit.1-nbt-b-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/95-ten-rod-drawers.md. Compare Numbers & Groups maker 2026-11-01: make it true, many right answers, G1-454 (NEW-TEMPLATES 9-T3)."
     },
     {
       "tp": "1:number-words",
@@ -3383,14 +3386,16 @@
       "strand": "Number & Operations in Base Ten",
       "worksheets": [
         "G2-219",
-        "G2-220"
+        "G2-220",
+        "G2-398",
+        "G2-399"
       ],
       "verdict": "covered",
       "activities": [
         "match-pairs.compare-three-digit-numbers.2-nbt-a-4"
       ],
       "planned": [],
-      "note": "Only a match-pairs card game for comparing two; nothing makes \"compare the hundreds first\" physical and nothing orders four. Fully covered when ORDER row 151 (match-pairs.compare-three-digit-numbers.2-nbt-a-4) is rebuilt to docs/activities-rebuild/rebuild-inputs/151-three-door-tunnel.md."
+      "note": "Only a match-pairs card game for comparing two; nothing makes \"compare the hundreds first\" physical and nothing orders four. Fully covered when ORDER row 151 (match-pairs.compare-three-digit-numbers.2-nbt-a-4) is rebuilt to docs/activities-rebuild/rebuild-inputs/151-three-door-tunnel.md. Compare Numbers & Groups maker 2026-11-01: biggest/smallest from digit cards G2-398 and which place decides G2-399 (NEW-TEMPLATES 9-T4, T5)."
     },
     {
       "tp": "2:round-to-ten",

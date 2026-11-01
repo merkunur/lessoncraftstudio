@@ -42,15 +42,30 @@ function makeCompareOrderType(cfg) {
       for (let i = 0; i < d.rows; i++) {
         if (mode === 'compare') {
           // mostly distinct pairs; occasionally equal (the = case must exist in the wild)
-          let a = rng.int(lo, hi);
-          let b = rng.next() < 0.15 ? a : rng.int(lo, hi);
+          // Level 1 and 3 (2026-11-01, Compare Numbers maker; docs/worksheet-gen/level-ladder): real levels — L1 a
+          // smaller range without equal pairs, L3 the leading digit shared (the next place decides) and digit swaps
+          // (38 vs 83). Level 2 is the published page: it takes the original path, so its numbers are unchanged.
+          let a, b;
+          if (d.lo || d.sameLead) {
+            const lo2 = d.lo || lo, hi2 = d.hi || hi;
+            a = rng.int(lo2, hi2);
+            if (d.sameLead) {
+              const p = Math.pow(10, String(a).length - 1);
+              if (d.swaps && rng.int(0, 2) === 0 && a % 10 && Math.floor(a / 10) % 10 !== a % 10 && String(a).length === 2) b = Number(String(a).split('').reverse().join(''));
+              else if (rng.next() < 0.15) b = a;
+              else { do { b = Math.floor(a / p) * p + rng.int(0, p - 1); } while (b === a || b < lo2); }
+            } else { do { b = rng.int(lo2, hi2); } while (d.noEq && b === a); }
+          } else {
+            a = rng.int(lo, hi);
+            b = rng.next() < 0.15 ? a : rng.int(lo, hi);
+          }
           const sym = a < b ? '&lt;' : (a > b ? '&gt;' : '=');
           const chips = ['&lt;', '=', '&gt;'].map((s) =>
             `<span class="ws-chip" style="width:44px;height:44px;font-size:22px" data-lcs-sym="${s}"` +
             `${s === sym ? ' data-lcs-correct="1"' : ''}>${s}</span>`).join('');
           cards.push(
             `<div class="ws-card-stage" style="justify-content:center;gap:18px" data-lcs-mode="compare">` +
-            NUMBOX(a) + `<span style="display:inline-flex;flex-direction:column;gap:6px">${chips}</span>` + NUMBOX(b) +
+            NUMBOX(a) + `<span style="display:inline-flex;flex-direction:${d.rows > 6 ? 'column' : 'row'};gap:${d.rows > 6 ? 6 : 10}px">${chips}</span>` + NUMBOX(b) +
             `</div>`);
         } else {
           const ns = distinctNumbers(rng, count || 3, lo, hi);

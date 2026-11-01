@@ -157,6 +157,19 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   await p.click('#mk-print'); await settle(900);
   const mixedPrint = await p.evaluate(() => (document.querySelector('#mk-print-host iframe').getAttribute('srcdoc').match(/class="mk-break[ "]/g) || []).length);
   check('a mixed worksheet prints every page', mixedPrint >= 2, mixedPrint);
+  // New version renews the SELECTED page only (operator 2026-11-01: "it creates new version of all the pages")
+  await p.goto(`http://localhost:${port}/makers/app/?maker=counting&lang=en&t=K-002`, { waitUntil: 'networkidle0' }); await settle();
+  await p.click('#mk-add'); await settle(1500);
+  const n0 = await pageHtml();
+  await pickPage(0);
+  check('New version is offered for a page whose copies differ', await p.$eval('#mk-new', (x) => !x.hidden));
+  await p.click('#mk-new'); await settle(1500);
+  const n1 = await pageHtml();
+  check('New version with page 1 selected changes page 1 only', n1.length === 2 && n1[0] !== n0[0] && n1[1] === n0[1], { n: n1.length, p1: n1[0] !== n0[0], p2same: n1[1] === n0[1] });
+  await pickPage(1);
+  await p.click('#mk-new'); await settle(1500);
+  const n2 = await pageHtml();
+  check('New version with page 2 selected changes page 2 only', n2[0] === n1[0] && n2[1] !== n1[1], { p1same: n2[0] === n1[0], p2: n2[1] !== n1[1] });
   console.log('errors:', errs.length ? errs.slice(0, 3).join(' | ') : 'none');
   if (fails || errs.length) process.exitCode = 1;
   await b.close(); srv.close();

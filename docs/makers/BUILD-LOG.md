@@ -20,6 +20,9 @@ records what is BUILT, measured and committed, step by step, so any session can 
 - Recipe: each page stores its template, level and theme (the schema always had them per page); `fromRecipe` no longer
   refuses a mixed worksheet, it refuses a page without a template or level. A reopened saved worksheet counts every
   template on it as opened (a free account's saved copy stays editable on every page).
+- **New version renews the SELECTED page only** (operator, the same day: "it creates new version of all the pages"): that
+  page gets a new copy and loses its swaps and drawing; the other pages stay byte-identical. The button shows only where the
+  selected page's copies differ at its level, and follows the selection. click-shell +3 checks (page 1 only, then page 2 only).
 - Gates: click-shell +7 checks (select page 2, gallery changes page 2 only, labels, gallery mark follows the selection,
   Add page copies the selected template, remove keeps the selection, a mixed worksheet prints); saves-shell saves and
   reopens a K-002 + other-template worksheet byte for byte; recipe test round-trips a mixed recipe.

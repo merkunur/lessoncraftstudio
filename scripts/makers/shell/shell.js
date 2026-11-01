@@ -164,7 +164,16 @@ async function boot() {
   $('mk-save').addEventListener('click', () => saveNow());
   $('mk-share').addEventListener('click', shareLink);
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
-  $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; render(); });
+  // New version is new content for the SELECTED page only (operator 2026-11-01: it renewed every page); that page's
+  // picture/word choices and drawing belong to the old content and are dropped — the other pages stay exactly as they are
+  $('mk-new').addEventListener('click', () => {
+    const a = state.active;
+    if (!copiesDifferAt(a)) return;
+    padPages();
+    state.pages[a] = nextVariant(); state.edits[a] = {}; state.ink[a] = undefined;
+    if (drawingPage === a) drawingPage = null;
+    render();
+  });
   // Add page: a new page of the selected page's template and level, selected at once — the gallery then changes it to
   // any template of this maker (a worksheet may mix them)
   $('mk-add').addEventListener('click', () => {
@@ -270,10 +279,15 @@ function syncActive() {
 }
 const markGallery = () => document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === state.id)));
 
+/** does a new copy change page i? (where copies at its level are all the same page there is no New version) */
+const copiesDifferAt = (i) => tplOf(i).copiesDiffer.includes(state.lvls[i]);
+/** New version renews the selected page: shown only where that page's copies differ (a button that changes nothing is a defect) */
+const showNewButton = () => { $('mk-new').hidden = !canEdit() || !copiesDifferAt(state.active); };
+
 /** Select page i: the gallery and the settings now change it. */
 function selectPage(i, rerender) {
   state.active = Math.max(0, Math.min(i, state.pages.length - 1));
-  syncActive(); markGallery(); buildControls(tplOf(state.active));
+  syncActive(); markGallery(); buildControls(tplOf(state.active)); showNewButton();
   document.querySelectorAll('.mk-page[data-page]').forEach((p) => p.setAttribute('aria-current', String(Number(p.dataset.page) === state.active)));
   if (rerender) render(true);
 }
@@ -573,12 +587,11 @@ async function render(scrollToSelected) {
   // a sample (template not opened) is one page: the selected one
   if (!canView()) { padPages(); const a = state.active; for (const k of PAGE_ARRAYS) state[k] = [state[k][a]]; state.pages[0] = state.pages[0] || 1; state.edits = [{}]; state.ink = []; state.active = 0; drawingPage = null; }
   const t = tplOf(state.active);
-  // a button that changes nothing is a defect: "New version" only where some page's copies differ at its level, and
+  // a button that changes nothing is a defect: "New version" only where the selected page's copies differ, and
   // "Add page" only where the new page can differ (another copy, the next word) or be switched to another template
-  const differAt = (i) => tplOf(i).copiesDiffer.includes(state.lvls[i]);
   const open = canEdit();
-  $('mk-new').hidden = !open || !state.pages.some((_, i) => differAt(i));
-  const addable = open && (offeredCount > 1 || differAt(state.active) || ((t.units && t.units[LANG]) || []).length > 0);
+  showNewButton();
+  const addable = open && (offeredCount > 1 || copiesDifferAt(state.active) || ((t.units && t.units[LANG]) || []).length > 0);
   $('mk-add').hidden = !addable || !canAddPages();
   $('mk-add').disabled = pagesFull();
   const multi = state.pages.length > 1;

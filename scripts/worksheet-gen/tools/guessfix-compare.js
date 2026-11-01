@@ -23,6 +23,7 @@ const { pdfpics } = require('./pdf-pictures.js');
 const WG = path.resolve(__dirname, '..');
 const [LIVE, LIVEDIR] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const APPLY = process.argv.includes('--apply');
+const TAG = (process.argv.find((a) => a.startsWith('--tag=')) || '--tag=guess').slice(6);   // as guessfix-regen.js --tag
 if (!LIVE || !LIVEDIR) throw new Error('usage: guessfix-compare.js <live.jsonl> <liveDir> [--apply]');
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'guessfix-'));
 const text = (pdf) => execFileSync('pdftotext', ['-layout', pdf, '-'], { encoding: 'utf8', maxBuffer: 64 << 20 })
@@ -35,7 +36,7 @@ let retitled = 0;
 (async () => {
 for (const d of live) {
   const kind = d.indexable === false ? 'noidx' : 'idx';
-  const dir = path.join(WG, 'out', 'staging', '_guessfix', d.loc + '-' + kind);
+  const dir = path.join(WG, 'out', 'staging', '_' + TAG + 'fix', d.loc + '-' + kind);
   const zf = path.join(dir, d.deck_id + '.zip');
   const k = d.type + (kind === 'noidx' ? ' (set)' : '');
   const s = (stats[k] = stats[k] || { changed: 0, same: 0, missing: 0 });

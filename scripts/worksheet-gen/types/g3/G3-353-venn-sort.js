@@ -18,9 +18,12 @@ function vennSvg(w, h, leftHref) {
   return svgRoot({ width: w, height: h, label: 'venn diagram' }, [
     circle({ cx: cx1, cy, r, fill: 'none', strokeColor: t.color.teal, strokeWidth: 4 }),
     circle({ cx: cx2, cy, r, fill: 'none', strokeColor: t.color.coral, strokeWidth: 4 }),
-    // region labels: left = the kind icon; right = a size dot (big)
+    // region labels: left = the kind icon; right = BIG, NOT small: a big dot beside a small dot that is crossed out
+    // (2026-11-01: a single dot said nothing about size — a child could not tell what the right circle wanted)
     el('image', { href: leftHref, x: cx1 - r + 8, y: cy - r - 2, width: 40, height: 40 }),
-    circle({ cx: cx2 + r - 26, cy: cy - r + 16, r: 13, fill: t.color.coral }),
+    circle({ cx: cx2 + r - 46, cy: cy - r + 16, r: 7, fill: 'none', strokeColor: t.color.coral, strokeWidth: 3 }),
+    el('line', { x1: cx2 + r - 56, y1: cy - r + 26, x2: cx2 + r - 36, y2: cy - r + 6, stroke: t.color.ink, 'stroke-width': 3, 'stroke-linecap': 'round' }),
+    circle({ cx: cx2 + r - 12, cy: cy - r + 16, r: 16, fill: t.color.coral }),
   ].join(''));
 }
 
@@ -39,7 +42,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Two-Circle Sort',
-      instruction: 'Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place.',
+      instruction: 'Left circle: this kind. Right circle: BIG ones. Middle: both! Neither: outside. Draw a line from each picture to its place.',
     },
   },
 
@@ -64,7 +67,8 @@ module.exports = {
 
     return {
       bodyHtml:
-        `<div style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly" data-lcs-kindkey="${kind.vocabKey}">` +
+        // data-ws-content: a full-page layout (no card stage) — without it the blank-page lint refused every page in the maker
+        `<div data-ws-content style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly" data-lcs-kindkey="${kind.vocabKey}">` +
         vennSvg(560, 360, fileUri(theme, kind.noun)) +
         `<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:620px">${strip}</div>` +
         `</div>`,

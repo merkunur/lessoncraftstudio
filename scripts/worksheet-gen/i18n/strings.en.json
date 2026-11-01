@@ -3157,7 +3157,7 @@
   },
   "G3-353": {
     "title": "Two-Circle Sort",
-    "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place."
+    "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Neither: outside. Draw a line from each picture to its place."
   },
   "G3-354": {
     "title": "To the Minute",

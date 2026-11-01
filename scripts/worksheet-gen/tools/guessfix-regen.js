@@ -26,6 +26,8 @@ const LIVE = argv.find((a) => !a.startsWith('--'));
 if (!LIVE) throw new Error('usage: guessfix-regen.js <live.jsonl> [--locales=..] [--dry-run]');
 const arg = (n, d) => { const h = argv.find((a) => a.startsWith('--' + n + '=')); return h ? h.slice(n.length + 3) : d; };
 const DRY = argv.includes('--dry-run');
+const TAG = arg('tag', 'guess');   // batch name: waves/_fix-<tag>-*, out/staging/_<tag>fix/ (default = the 2026-11-01 guessability batch)
+const NOTE = arg('note', '2026-11-01 guessability fix');
 const ONLY = arg('locales', '') ? new Set(arg('locales').split(',')) : null;
 const WAVES = arg('waves', '');   // e.g. --waves=warr: only the source waves whose short id starts with it
 
@@ -62,7 +64,7 @@ for (const key of Object.keys(groups).sort()) {
     const levels = {};
     for (const t of types) if (base.levels[t]) levels[t] = base.levels[t];
     plans.push(Object.assign({}, base, { locales: [loc], types, levels,
-      _note: '2026-11-01 guessability fix: pinned re-generation of the live ' + types.join('/') + ' pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' }));
+      _note: NOTE + ': pinned re-generation of the live ' + types.join('/') + ' pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' }));
   } else {
     // two themes per type in the numbered waves: pin each theme (the round-robin index has shifted since June)
     const byType = {};
@@ -77,11 +79,11 @@ for (const key of Object.keys(groups).sort()) {
       }
       if (ts.length) plans.push({ id: base.id, seedEpoch: base.seedEpoch || 1, locales: [loc], themes: base.themes, themesPerType: 1,
         difficulties: base.difficulties, types: ts, themeOverrides: over,
-        _note: '2026-11-01 guessability fix: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' });
+        _note: NOTE + ': pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' });
     }
   }
   const files = plans.map((p, i) => {
-    const rel = 'waves/_fix-guess-' + loc + '-' + ws + (plans.length > 1 ? '-' + 'ab'[i] : '') + '.json';
+    const rel = 'waves/_fix-' + TAG + '-' + loc + '-' + ws + (plans.length > 1 ? '-' + 'ab'[i] : '') + '.json';
     fs.writeFileSync(path.join(WG, rel), JSON.stringify(p, null, 1) + '\n');
     return rel;
   });
@@ -92,7 +94,7 @@ for (const key of Object.keys(groups).sort()) {
   if (DRY) continue;
 
   const stagingDir = path.join(WG, 'out', 'staging', base.id);
-  const origDir = path.join(WG, 'out', 'staging', '_guessfix', 'orig', base.id);
+  const origDir = path.join(WG, 'out', 'staging', '_' + TAG + 'fix', 'orig', base.id);
   fs.mkdirSync(origDir, { recursive: true });
   for (const d of decks) {
     const z = path.join(stagingDir, d.deck_id + '.zip');
@@ -106,7 +108,7 @@ for (const key of Object.keys(groups).sort()) {
   }
   for (const d of decks) {
     const kind = d.indexable === false ? 'noidx' : 'idx';
-    const dir = path.join(WG, 'out', 'staging', '_guessfix', loc + '-' + kind);
+    const dir = path.join(WG, 'out', 'staging', '_' + TAG + 'fix', loc + '-' + kind);
     fs.mkdirSync(dir, { recursive: true });
     const z = path.join(stagingDir, d.deck_id + '.zip');
     if (!fs.existsSync(z)) { failures.push(d.deck_id + ': no fresh ZIP'); continue; }

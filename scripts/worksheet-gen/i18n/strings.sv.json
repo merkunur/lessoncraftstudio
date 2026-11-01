@@ -826,7 +826,7 @@
   },
   "G3-353": {
     "title": "Sortera i två cirklar",
-    "instruction": "Vänster cirkel: denna sort. Höger: STORA. Mitten: båda! Dra ett streck till rätt plats."
+    "instruction": "Vänster cirkel: denna sort. Höger: STORA. Mitten: båda! Varken eller: utanför. Dra ett streck till rätt plats."
   },
   "K-201": {
     "title": "Levande och icke levande",

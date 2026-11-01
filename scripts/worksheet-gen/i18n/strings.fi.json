@@ -3587,5 +3587,25 @@
   "G2-405": {
     "title": "Kuka olen? Lukuarvoituksia",
     "instruction": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin."
+  },
+  "G2-406": {
+    "title": "Leikattavat murtolukunauhat",
+    "instruction": "Leikkaa nauhat irti ulkoreunoja pitkin. Aseta ne allekkain ja vertaa osia."
+  },
+  "G2-407": {
+    "title": "Jaa yhtä suuriin osiin",
+    "instruction": "Piirrä viivat, jotka jakavat jokaisen kuvion yhtä suuriin osiin. Kuvion alla lukee, montako osaa."
+  },
+  "G2-408": {
+    "title": "Väritä osa joukosta",
+    "instruction": "Väritä murtoluvun osoittama osa ympyröistä. Kirjoita sitten, montako ympyrää väritit."
+  },
+  "G2-409": {
+    "title": "Väritetty ja värittämätön",
+    "instruction": "Kirjoita väritetyn ruudun viereen väritetyn osan murtoluku ja valkoisen ruudun viereen värittämättömän osan murtoluku."
+  },
+  "G2-410": {
+    "title": "Murtoluvut sanoina ja kuvina",
+    "instruction": "Lue jokainen sanoin kirjoitettu murtoluku. Yhdistä se oikeaan kuvaan."
   }
 }

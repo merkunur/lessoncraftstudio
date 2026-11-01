@@ -3610,5 +3610,25 @@
   "G2-405": {
     "title": "Wie ben ik? Getallenraadsels",
     "instruction": "Lees de aanwijzingen. Schrijf het ene getal op dat bij alle aanwijzingen past."
+  },
+  "G2-406": {
+    "title": "Breukenstroken om uit te knippen",
+    "instruction": "Knip de stroken uit langs de buitenste lijnen. Leg ze onder elkaar en vergelijk de stukken."
+  },
+  "G2-407": {
+    "title": "Verdeel in gelijke delen",
+    "instruction": "Teken lijnen die elke vorm in gelijke delen verdelen. Onder de vorm staat hoeveel."
+  },
+  "G2-408": {
+    "title": "Kleur een breukdeel van de groep",
+    "instruction": "Kleur het aangegeven breukdeel van de rondjes. Schrijf dan op hoeveel rondjes je hebt gekleurd."
+  },
+  "G2-409": {
+    "title": "Gekleurd en niet gekleurd",
+    "instruction": "Schrijf naast het gekleurde vierkantje het gekleurde breukdeel en naast het witte vierkantje het niet gekleurde."
+  },
+  "G2-410": {
+    "title": "Breuken in woorden en plaatjes",
+    "instruction": "Lees elke breuk in woorden. Verbind hem met het juiste plaatje."
   }
 }

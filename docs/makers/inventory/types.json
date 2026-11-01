@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 896,
+ "count": 901,
  "failures": [],
  "rows": [
   {
@@ -25672,6 +25672,126 @@
    "teachingPoint": "2:expanded-form-digit-value",
    "skill": "Expanded form of a 3-digit number and the value of a digit",
    "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-406",
+   "file": "scripts/worksheet-gen/types/g2/G2-406-fraction-strips-to-cut.js",
+   "grade": "G2",
+   "slug": "fraction-strips-to-cut",
+   "family": "fractions",
+   "variationOf": null,
+   "title": "Fraction Strips to Cut Out",
+   "instruction": "Cut out the strips along the dashed lines. Lay them under each other and compare the pieces.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ds"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/fr-more.js"
+   ],
+   "teachingPoint": "3:equivalent-fractions",
+   "skill": "Recognise equivalent fractions as the same amount",
+   "strand": "Fractions",
+   "science": false
+  },
+  {
+   "id": "G2-407",
+   "file": "scripts/worksheet-gen/types/g2/G2-407-cut-into-equal-parts.js",
+   "grade": "G2",
+   "slug": "cut-into-equal-parts",
+   "family": "fractions",
+   "variationOf": null,
+   "title": "Cut It into Equal Parts",
+   "instruction": "Draw lines to cut each shape into equal parts. The number under the shape tells how many.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "jobs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/fr-more.js"
+   ],
+   "teachingPoint": "2:equal-shares-shapes",
+   "skill": "Partition shapes into halves, thirds and fourths; recognise equal vs unequal parts; match a picture to its fraction",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "G2-408",
+   "file": "scripts/worksheet-gen/types/g2/G2-408-color-a-fraction-of-a-set.js",
+   "grade": "G2",
+   "slug": "color-a-fraction-of-a-set",
+   "family": "fractions",
+   "variationOf": null,
+   "title": "Color a Fraction of the Set",
+   "instruction": "Color the fraction of the circles. Then write how many circles you colored.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "fr"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/fr-more.js"
+   ],
+   "teachingPoint": "2:fraction-of-a-set",
+   "skill": "Find a fraction (1/2, 1/3, 1/4) of a set of pictures and say how many that is",
+   "strand": "Fractions",
+   "science": false
+  },
+  {
+   "id": "G2-409",
+   "file": "scripts/worksheet-gen/types/g2/G2-409-shaded-and-not-shaded.js",
+   "grade": "G2",
+   "slug": "shaded-and-not-shaded",
+   "family": "fractions",
+   "variationOf": null,
+   "title": "Shaded and Not Shaded",
+   "instruction": "Write the fraction that is shaded and the fraction that is not shaded.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ds"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/fr-more.js"
+   ],
+   "teachingPoint": "3:fraction-unit-build",
+   "skill": "Name and shade a/b as a copies of the unit piece 1/b",
+   "strand": "Fractions",
+   "science": false
+  },
+  {
+   "id": "G2-410",
+   "file": "scripts/worksheet-gen/types/g2/G2-410-fraction-words-and-pictures.js",
+   "grade": "G2",
+   "slug": "fraction-words-and-pictures",
+   "family": "fractions",
+   "variationOf": null,
+   "title": "Fraction Words and Pictures",
+   "instruction": "Read each fraction word. Draw a line to its picture.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "keys"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/fr-more.js"
+   ],
+   "teachingPoint": "2:equal-shares-shapes",
+   "skill": "Partition shapes into halves, thirds and fourths; recognise equal vs unequal parts; match a picture to its fraction",
+   "strand": "Geometry",
    "science": false
   },
   {

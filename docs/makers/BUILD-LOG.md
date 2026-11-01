@@ -7,6 +7,28 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 9: Fractions (`fractions`) — 16 templates + 5 new (2026-11-01)
+
+- The 16 existing templates bundle with no engine change (all already interactive).
+- New templates (NEW-TEMPLATES §12), `types/_shared/fr-more.js` + `data/fractions/words.js` (the "{n} equal parts"
+  label and the words for 1/2, 1/3, 2/3, 1/4, 3/4 ×11; never 2/4, which is also one half):
+  - G2-406 fraction strips to cut (material): every row exactly the same width; solid outline, thin solid inner lines
+    (review: dashed inner lines read as "cut here").
+  - G2-407 cut it into equal parts (drawing; the key draws one correct cut): only exact equal-area cuts; no triangle
+    thirds (review: the centroid cut is not Grade 2 — a square into thirds instead).
+  - G2-408 colour a fraction of the set (any circles of the right count); sizes 4-16, divisible by construction.
+  - G2-409 shaded and not shaded (drawn swatches, no words); L3 also d/d = 1; levels 2-3 never a reducible fraction
+    (review: a right "1/2" for 2/4 would be marked wrong).
+  - G2-410 fraction words ↔ pictures (draw a line; L3 also writes the fraction); tap-pair marks for the screen engine
+    (`data-lcs-key-badge` on the word, `data-lcs-pair` on the picture, key and screen builds only).
+- One native + pedagogy reviewer: 9 findings applied except the English "Answer key" heading (preview script only):
+  strips, triangle thirds, reducible fractions, "the fraction shown in each row" ×10, fr/fi/da/no/sv wording, the word
+  page filling its body; optional: de "gleich große Teile" / "Brüche in Worten", no "tredjedel", en/fi wording.
+- The screen engine (agent 1, in progress) derives screens for G2-408/409/410; G2-406 (material) and G2-407 (writing)
+  need their verdicts in its `screen-verdicts.json` (asked).
+- Coverage: G2-407/410 → 2:equal-shares-shapes, G2-408 → 2:fraction-of-a-set, G2-406 → 3:equivalent-fractions,
+  G2-409 → 3:fraction-unit-build.
+
 ## B1 maker 8: Place Value & Rounding (`place-value`) — 18 templates + 5 new (2026-11-01)
 
 - ⚠ **Published G2-224 printed the English column letters H T O in every language** (German pages "H T O" instead of

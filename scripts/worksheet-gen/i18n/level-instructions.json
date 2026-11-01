@@ -4186,5 +4186,35 @@
       "no": "Les ledetrådene. Skriv det ene tallet som passer til alle. Tallet er tresifret.",
       "fi": "Lue vihjeet. Kirjoita se ainoa luku, joka sopii niihin kaikkiin. Luku on kolminumeroinen."
     }
+  },
+  "G2-409": {
+    "3": {
+      "en": "Next to the colored square, write the fraction that is shaded. Next to the white square, write the fraction that is not shaded. Then add them: the whole is 1.",
+      "de": "Schreibe neben das farbige Quadrat den angemalten Bruchteil und neben das weiße Quadrat den nicht angemalten. Rechne sie dann zusammen: Das Ganze ist 1.",
+      "fr": "À côté du carré coloré, écris la fraction coloriée ; à côté du carré blanc, la fraction qui n'est pas coloriée. Puis additionne-les : le tout vaut 1.",
+      "es": "Junto al cuadrito de color, escribe la fracción sombreada; junto al cuadrito blanco, la fracción sin sombrear. Luego súmalas: el entero es 1.",
+      "pt": "Ao lado do quadradinho colorido, escreva a fração pintada; ao lado do quadradinho branco, a fração não pintada. Depois some as duas: o inteiro é 1.",
+      "it": "Accanto al quadratino colorato scrivi la frazione colorata, accanto a quello bianco la frazione non colorata. Poi sommale: l'intero è 1.",
+      "nl": "Schrijf naast het gekleurde vierkantje het gekleurde breukdeel en naast het witte vierkantje het niet gekleurde. Tel ze dan bij elkaar op: het geheel is 1.",
+      "sv": "Skriv bråket som är färglagt bredvid den färgade rutan och bråket som inte är färglagt bredvid den vita. Lägg sedan ihop dem: tillsammans blir det 1 hel.",
+      "da": "Skriv brøken, der er farvet, ved det farvede felt, og brøken, der ikke er farvet, ved det hvide. Læg dem så sammen: tilsammen giver det 1 hel.",
+      "no": "Skriv brøken som er fargelagt, ved den fargede ruten, og brøken som ikke er fargelagt, ved den hvite. Legg dem så sammen: til sammen blir det 1 hel.",
+      "fi": "Kirjoita väritetyn ruudun viereen väritetyn osan murtoluku ja valkoisen ruudun viereen värittämättömän osan murtoluku. Laske ne sitten yhteen: saat yhden kokonaisen."
+    }
+  },
+  "G2-410": {
+    "3": {
+      "en": "Read each fraction word. Draw a line to its picture. Then write the fraction in the boxes.",
+      "de": "Lies jeden Bruch in Worten. Verbinde ihn mit seinem Bild. Schreibe dann den Bruch in die Kästchen.",
+      "fr": "Lis chaque fraction écrite en lettres. Relie-la à son image. Puis écris la fraction dans les cases.",
+      "es": "Lee cada fracción escrita con letras. Únela con su dibujo. Luego escribe la fracción en los recuadros.",
+      "pt": "Leia cada fração escrita por extenso. Ligue-a à sua figura. Depois escreva a fração nos quadradinhos.",
+      "it": "Leggi ogni frazione scritta in lettere. Collegala alla sua figura. Poi scrivi la frazione nei riquadri.",
+      "nl": "Lees elke breuk in woorden. Verbind hem met het juiste plaatje. Schrijf dan de breuk in de vakjes.",
+      "sv": "Läs varje bråk i ord. Dra ett streck till rätt bild. Skriv sedan bråket i rutorna.",
+      "da": "Læs hver brøk i ord. Tegn en streg til det rigtige billede. Skriv så brøken i felterne.",
+      "no": "Les hver brøk i ord. Trekk en strek til riktig bilde. Skriv så brøken i rutene.",
+      "fi": "Lue jokainen sanoin kirjoitettu murtoluku. Yhdistä se oikeaan kuvaan. Kirjoita sitten murtoluku laatikoihin."
+    }
   }
 }

@@ -3621,5 +3621,25 @@
   "G2-405": {
     "title": "Wer bin ich? Zahlenrätsel",
     "instruction": "Lies die Hinweise. Schreibe die eine Zahl auf, die zu allen passt."
+  },
+  "G2-406": {
+    "title": "Bruchstreifen zum Ausschneiden",
+    "instruction": "Schneide die Streifen an den äußeren Linien aus. Lege sie untereinander und vergleiche die Teile."
+  },
+  "G2-407": {
+    "title": "Teile in gleich große Stücke",
+    "instruction": "Zeichne Linien, sodass jede Form in gleich große Teile geteilt wird. Unter der Form steht, wie viele."
+  },
+  "G2-408": {
+    "title": "Male einen Bruchteil der Menge an",
+    "instruction": "Male den angegebenen Bruchteil der Kreise an. Schreibe dann auf, wie viele Kreise du angemalt hast."
+  },
+  "G2-409": {
+    "title": "Angemalt und nicht angemalt",
+    "instruction": "Schreibe neben das farbige Quadrat den angemalten Bruchteil und neben das weiße Quadrat den nicht angemalten."
+  },
+  "G2-410": {
+    "title": "Brüche in Worten und Bildern",
+    "instruction": "Lies jeden Bruch in Worten. Verbinde ihn mit seinem Bild."
   }
 }

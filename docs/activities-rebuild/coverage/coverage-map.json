@@ -3501,7 +3501,9 @@
         "G2-230",
         "G2-231",
         "G2-232",
-        "G2-234"
+        "G2-234",
+        "G2-407",
+        "G2-410"
       ],
       "verdict": "covered",
       "activities": [
@@ -3511,7 +3513,7 @@
         "choice-board.fraction-equal-shares.1-g-a-3"
       ],
       "planned": [],
-      "note": "G2-231 prints 1/2-style notation (3.NF.A.1); the shape-partition skill is covered, the symbol is reached by fox-forge at grade 3."
+      "note": "G2-231 prints 1/2-style notation (3.NF.A.1); the shape-partition skill is covered, the symbol is reached by fox-forge at grade 3. Fractions maker 2026-11-01: cut it into equal parts G2-407, fraction words and pictures G2-410 (NEW-TEMPLATES 12-T2, T5)."
     },
     {
       "tp": "2:fraction-of-a-set",
@@ -3520,7 +3522,8 @@
       "code": "3.NF.A.1 readiness (2.G.A.3 extension)",
       "strand": "Fractions",
       "worksheets": [
-        "G2-233"
+        "G2-233",
+        "G2-408"
       ],
       "verdict": "gap",
       "activities": [
@@ -3529,7 +3532,7 @@
       "planned": [
         268
       ],
-      "note": "Sharing is covered, but \"one third of 12 is 4\" (one share of an equal split of a SET, not a shape) is not."
+      "note": "Sharing is covered, but \"one third of 12 is 4\" (one share of an equal split of a SET, not a shape) is not. Fractions maker 2026-11-01: colour a fraction of the set G2-408 (NEW-TEMPLATES 12-T3)."
     },
     {
       "tp": "2:measure-with-ruler",
@@ -4758,7 +4761,8 @@
       "strand": "Fractions",
       "worksheets": [
         "G3-315",
-        "G3-316"
+        "G3-316",
+        "G2-409"
       ],
       "verdict": "covered",
       "activities": [
@@ -4766,7 +4770,7 @@
         "fractions.partition-equal-shares.1-g-a-3"
       ],
       "planned": [],
-      "note": "Pip's Chocolate Forge builds a/b from a chosen unit piece; naming (315) and shading (316) are the two directions of that same act."
+      "note": "Pip's Chocolate Forge builds a/b from a chosen unit piece; naming (315) and shading (316) are the two directions of that same act. Fractions maker 2026-11-01: shaded and not shaded G2-409 (NEW-TEMPLATES 12-T4)."
     },
     {
       "tp": "3:fraction-number-line",
@@ -4793,14 +4797,15 @@
       "strand": "Fractions",
       "worksheets": [
         "G3-318",
-        "G3-322"
+        "G3-322",
+        "G2-406"
       ],
       "verdict": "covered",
       "activities": [
         "fraction-equiv.same-amount.3-nf-a-3"
       ],
       "planned": [],
-      "note": "Crumb's Same-Amount Bakery picks the piece showing the same amount cut a different way."
+      "note": "Crumb's Same-Amount Bakery picks the piece showing the same amount cut a different way. Fractions maker 2026-11-01: fraction strips to cut G2-406 (NEW-TEMPLATES 12-T1)."
     },
     {
       "tp": "3:compare-fractions",

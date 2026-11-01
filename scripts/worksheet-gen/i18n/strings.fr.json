@@ -3611,5 +3611,25 @@
   "G2-405": {
     "title": "Qui suis-je ? Devinettes de nombres",
     "instruction": "Lis les indices. Écris le seul nombre qui les respecte tous."
+  },
+  "G2-406": {
+    "title": "Bandes de fractions à découper",
+    "instruction": "Découpe les bandes le long des traits extérieurs. Place-les les unes sous les autres et compare les parts."
+  },
+  "G2-407": {
+    "title": "Partage en parts égales",
+    "instruction": "Trace des traits pour partager chaque forme en parts égales. Le nombre de parts est écrit sous la forme."
+  },
+  "G2-408": {
+    "title": "Colorie une fraction de la collection",
+    "instruction": "Colorie la fraction indiquée des ronds. Puis écris combien de ronds tu as coloriés."
+  },
+  "G2-409": {
+    "title": "Colorié et pas colorié",
+    "instruction": "À côté du carré coloré, écris la fraction coloriée ; à côté du carré blanc, la fraction qui n'est pas coloriée."
+  },
+  "G2-410": {
+    "title": "Les fractions en lettres et en images",
+    "instruction": "Lis chaque fraction écrite en lettres. Relie-la à son image."
   }
 }

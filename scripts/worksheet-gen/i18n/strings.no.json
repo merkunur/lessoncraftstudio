@@ -3605,5 +3605,25 @@
   "G2-405": {
     "title": "Hvem er jeg? Tallgåter",
     "instruction": "Les ledetrådene. Skriv det ene tallet som passer til alle."
+  },
+  "G2-406": {
+    "title": "Brøkstrimler å klippe ut",
+    "instruction": "Klipp ut strimlene langs de ytre linjene. Legg dem under hverandre og sammenlign delene."
+  },
+  "G2-407": {
+    "title": "Del i like store deler",
+    "instruction": "Tegn streker som deler hver figur i like store deler. Under figuren står det hvor mange."
+  },
+  "G2-408": {
+    "title": "Fargelegg en brøkdel av gruppen",
+    "instruction": "Fargelegg så stor del av sirklene som brøken viser. Skriv så hvor mange sirkler du fargela."
+  },
+  "G2-409": {
+    "title": "Fargelagt og ikke fargelagt",
+    "instruction": "Skriv brøken som er fargelagt, ved den fargede ruten, og brøken som ikke er fargelagt, ved den hvite."
+  },
+  "G2-410": {
+    "title": "Brøker i ord og bilder",
+    "instruction": "Les hver brøk i ord. Trekk en strek til riktig bilde."
   }
 }

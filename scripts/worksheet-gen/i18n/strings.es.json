@@ -3601,5 +3601,25 @@
   "G2-405": {
     "title": "¿Quién soy? Adivinanzas de números",
     "instruction": "Lee las pistas. Escribe el único número que cumple con todas."
+  },
+  "G2-406": {
+    "title": "Tiras de fracciones para recortar",
+    "instruction": "Recorta las tiras por las líneas de afuera. Ponlas una debajo de otra y compara las partes."
+  },
+  "G2-407": {
+    "title": "Divide en partes iguales",
+    "instruction": "Dibuja líneas para dividir cada figura en partes iguales. Debajo de la figura dice cuántas."
+  },
+  "G2-408": {
+    "title": "Colorea una fracción del grupo",
+    "instruction": "Colorea la fracción indicada de los círculos. Luego escribe cuántos círculos coloreaste."
+  },
+  "G2-409": {
+    "title": "Sombreado y sin sombrear",
+    "instruction": "Junto al cuadrito de color, escribe la fracción sombreada; junto al cuadrito blanco, la fracción sin sombrear."
+  },
+  "G2-410": {
+    "title": "Fracciones en palabras y en dibujos",
+    "instruction": "Lee cada fracción escrita con letras. Únela con su dibujo."
   }
 }

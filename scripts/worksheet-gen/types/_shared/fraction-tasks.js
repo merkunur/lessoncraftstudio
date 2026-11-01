@@ -25,6 +25,7 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const fractionShape = require('../../primitives/fraction.js');
 const numberLine = require('../../primitives/number-line.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const pictureSlot = require('../../lib/slot.js');
 const { answerBox } = require('../../templates/components.js');
 
 const FRAC = (n, d, size) =>
@@ -354,7 +355,9 @@ function makeFractionType(cfg) {
             // a new page never asks the same question twice (the published page is drawn exactly as it shipped)
           } while (!published && used.has(`${num}/${den}of${total}`) && tries < 40);
           used.add(`${num}/${den}of${total}`);
-          const noun = rng.pick(labelSafeNouns(theme));
+          // makers: the teacher may swap a card's picture, one slot role per card (lib/slot.js — stream and catalogue untouched)
+          const nounPool = labelSafeNouns(theme);
+          const noun = pictureSlot.pictures(ctx, [rng.pick(nounPool)], nounPool, theme, `row${i + 1}`)[0];
           const px = Math.min(54, Math.floor(420 / total));
           const icon = () => `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" style="width:${px}px;height:${px}px">`;
           // a new page wraps its pictures in EVEN rows (a 12-picture set wrapped 11 + 1)
@@ -364,7 +367,7 @@ function makeFractionType(cfg) {
               [0, 1].map((r) => `<span style="display:flex;gap:8px">${Array.from({ length: Math.min(perRow, total - r * perRow) }, icon).join('')}</span>`).join('') + `</span>`
             : Array.from({ length: total }, icon).join('');
           const wrap = perRow ? 'display:flex;justify-content:center' : 'display:flex;flex-wrap:wrap;gap:8px;justify-content:center';
-          stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:6px 14px" data-lcs-settotal="${total}" data-lcs-setden="${den}"${num > 1 ? ` data-lcs-setnum="${num}"` : ''}>` +
+          stage = `<div class="ws-card-stage"${pictureSlot.attr(ctx, `row${i + 1}`, 0)} style="gap:22px;justify-content:space-between;padding:6px 14px" data-lcs-settotal="${total}" data-lcs-setden="${den}"${num > 1 ? ` data-lcs-setnum="${num}"` : ''}>` +
             FRAC(num, den, 28) +
             `<span style="flex:1 1 auto;${wrap}">${icons}</span>` +
             answerBox({ w: 60, h: 50, answer: total / den * num }) + `</div>`;

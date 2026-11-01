@@ -3592,5 +3592,25 @@
   "G2-405": {
     "title": "Chi sono? Indovinelli con i numeri",
     "instruction": "Leggi gli indizi. Scrivi l'unico numero che li rispetta tutti."
+  },
+  "G2-406": {
+    "title": "Strisce delle frazioni da ritagliare",
+    "instruction": "Ritaglia le strisce lungo le linee esterne. Mettile una sotto l'altra e confronta le parti."
+  },
+  "G2-407": {
+    "title": "Dividi in parti uguali",
+    "instruction": "Disegna delle linee per dividere ogni figura in parti uguali. Sotto la figura c'è scritto quante."
+  },
+  "G2-408": {
+    "title": "Colora una frazione dell'insieme",
+    "instruction": "Colora la frazione indicata dei cerchi. Poi scrivi quanti cerchi hai colorato."
+  },
+  "G2-409": {
+    "title": "Colorato e non colorato",
+    "instruction": "Accanto al quadratino colorato scrivi la frazione colorata, accanto a quello bianco la frazione non colorata."
+  },
+  "G2-410": {
+    "title": "Frazioni in lettere e in figure",
+    "instruction": "Leggi ogni frazione scritta in lettere. Collegala alla sua figura."
   }
 }

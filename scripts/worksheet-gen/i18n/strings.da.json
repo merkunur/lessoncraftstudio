@@ -3596,5 +3596,25 @@
   "G2-405": {
     "title": "Hvem er jeg? Talgåder",
     "instruction": "Læs ledetrådene. Skriv det eneste tal, der passer til dem alle."
+  },
+  "G2-406": {
+    "title": "Brøkstrimler til at klippe ud",
+    "instruction": "Klip strimlerne ud langs de yderste linjer. Læg dem under hinanden, og sammenlign delene."
+  },
+  "G2-407": {
+    "title": "Del i lige store dele",
+    "instruction": "Tegn streger, der deler hver figur i lige store dele. Under figuren står der, hvor mange."
+  },
+  "G2-408": {
+    "title": "Farvelæg en brøkdel af gruppen",
+    "instruction": "Farvelæg så stor en del af cirklerne, som brøken viser. Skriv så, hvor mange cirkler du farvelagde."
+  },
+  "G2-409": {
+    "title": "Farvet og ikke farvet",
+    "instruction": "Skriv brøken, der er farvet, ved det farvede felt, og brøken, der ikke er farvet, ved det hvide."
+  },
+  "G2-410": {
+    "title": "Brøker i ord og billeder",
+    "instruction": "Læs hver brøk i ord. Tegn en streg til det rigtige billede."
   }
 }

@@ -3577,5 +3577,25 @@
   "G2-405": {
     "title": "Vem är jag? Talgåtor",
     "instruction": "Läs ledtrådarna. Skriv det enda tal som passar alla."
+  },
+  "G2-406": {
+    "title": "Bråkremsor att klippa ut",
+    "instruction": "Klipp ut remsorna längs de yttre linjerna. Lägg dem under varandra och jämför delarna."
+  },
+  "G2-407": {
+    "title": "Dela i lika stora delar",
+    "instruction": "Rita linjer som delar varje form i lika stora delar. Under formen står det hur många."
+  },
+  "G2-408": {
+    "title": "Färglägg en bråkdel av gruppen",
+    "instruction": "Färglägg så stor del av cirklarna som bråket visar. Skriv sedan hur många cirklar du färglade."
+  },
+  "G2-409": {
+    "title": "Färglagt och inte färglagt",
+    "instruction": "Skriv bråket som är färglagt bredvid den färgade rutan och bråket som inte är färglagt bredvid den vita."
+  },
+  "G2-410": {
+    "title": "Bråk i ord och bild",
+    "instruction": "Läs varje bråk i ord. Dra ett streck till rätt bild."
   }
 }

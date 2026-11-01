@@ -3616,5 +3616,25 @@
   "G2-405": {
     "title": "Quem sou eu? Charadas com números",
     "instruction": "Leia as pistas. Escreva o único número que combina com todas."
+  },
+  "G2-406": {
+    "title": "Tiras de frações para recortar",
+    "instruction": "Recorte as tiras pelas linhas de fora. Coloque uma embaixo da outra e compare as partes."
+  },
+  "G2-407": {
+    "title": "Divida em partes iguais",
+    "instruction": "Desenhe linhas para dividir cada figura em partes iguais. Embaixo da figura está escrito quantas."
+  },
+  "G2-408": {
+    "title": "Pinte uma fração do grupo",
+    "instruction": "Pinte a fração indicada dos círculos. Depois escreva quantos círculos você pintou."
+  },
+  "G2-409": {
+    "title": "Pintado e não pintado",
+    "instruction": "Ao lado do quadradinho colorido, escreva a fração pintada; ao lado do quadradinho branco, a fração não pintada."
+  },
+  "G2-410": {
+    "title": "Frações por extenso e em figuras",
+    "instruction": "Leia cada fração escrita por extenso. Ligue-a à sua figura."
   }
 }

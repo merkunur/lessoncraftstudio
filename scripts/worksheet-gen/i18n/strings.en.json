@@ -3626,5 +3626,25 @@
   "G2-405": {
     "title": "Who Am I? Number Riddles",
     "instruction": "Read the clues. Write the one number that fits them all."
+  },
+  "G2-406": {
+    "title": "Fraction Strips to Cut Out",
+    "instruction": "Cut out the strips along the outside lines. Lay them under each other and compare the pieces."
+  },
+  "G2-407": {
+    "title": "Cut It into Equal Parts",
+    "instruction": "Draw lines to cut each shape into equal parts. The words under the shape say how many."
+  },
+  "G2-408": {
+    "title": "Color a Fraction of the Set",
+    "instruction": "Color the fraction of the circles shown in each row. Then write how many circles you colored."
+  },
+  "G2-409": {
+    "title": "Shaded and Not Shaded",
+    "instruction": "Next to the colored square, write the fraction that is shaded. Next to the white square, write the fraction that is not shaded."
+  },
+  "G2-410": {
+    "title": "Fraction Words and Pictures",
+    "instruction": "Read each fraction word. Draw a line to its picture."
   }
 }

@@ -544,17 +544,21 @@ async function openPicker(i, role, idx) {
   const current = slotInfo.values[idx];
   let dlg = $('mk-picker');
   if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
-  const grid = el('div', { class: role === 'pic' ? 'mk-pick-grid' : 'mk-pick-words' });
-  const nouns = (picManifest.themes[state.theme] || {}).nouns || {};
+  // a picture slot is one that carries its theme (lib/slot.js pictures() records it) — whatever the role is called
+  // (pic, pic2, row1 …: a page with a picture per card has a role per card); words slots carry none
+  const isPic = !!slotInfo.theme;
+  const picTheme = slotInfo.theme || state.theme;
+  const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
+  const nouns = (picManifest.themes[picTheme] || {}).nouns || {};
   for (const key of slotInfo.pool) {
     const used = slotInfo.values.includes(key) && key !== current;
-    const kids = role === 'pic' && nouns[key]
-      ? [el('img', { src: `/makers-assets/themes-512/${encodeURIComponent(state.theme)}/${encodeURIComponent(nouns[key].files[0])}`, alt: key, loading: 'lazy' })]
+    const kids = isPic && nouns[key]
+      ? [el('img', { src: `/makers-assets/themes-512/${encodeURIComponent(picTheme)}/${encodeURIComponent(nouns[key].files[0])}`, alt: key, loading: 'lazy' })]
       : [el('span', { text: key })];
     grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: key, on: { click: () => choosePick(i, role, idx, key) } }, kids));
   }
   dlg.replaceChildren(
-    el('div', { class: 'mk-pick-head' }, [el('h2', { text: role === 'pic' ? UI.choosePicture : UI.chooseWord }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: isPic ? UI.choosePicture : UI.chooseWord }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
     el('p', { class: 'mk-pick-note', id: 'mk-pick-note' }),
     grid,
   );

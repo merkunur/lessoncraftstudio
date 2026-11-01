@@ -78,6 +78,17 @@ const { handler } = require('../serve.js');
   }, chosen);
   check('K-002: every picture in card 1 is the chosen one', srcOk, chosen);
 
+  // a picture slot whose role is not "pic" (one role per card: fractions G2-233 row1…row4, K-010 row1…) opens the
+  // PICTURE picker, not the word list (operator report 2026-11-01: "I get words instead of images")
+  const pg2 = await browser.newPage();
+  await pg2.setViewport({ width: 1366, height: 900 });
+  await pg2.goto(`${base}/makers/app/?maker=fractions&lang=en&t=G2-233`, { waitUntil: 'networkidle0' }); await settle(1200);
+  const rowSlot = await pg2.evaluate(() => { const d = document.querySelector('.mk-sheet iframe').contentDocument; const n = d.querySelector('[data-lcs-slot^="row"]'); return n && n.getAttribute('data-lcs-slot'); });
+  if (rowSlot) { await clickSlot(pg2, rowSlot); await settle(500); }
+  const rowPicker = await pg2.evaluate(() => { const dlg = document.getElementById('mk-picker'); return dlg ? { open: dlg.open, title: dlg.querySelector('h2').textContent, imgs: dlg.querySelectorAll('.mk-pick img').length } : null; });
+  check('G2-233: a per-card picture slot (row1) opens the PICTURE picker with images', !!rowSlot && rowPicker && rowPicker.open && rowPicker.title === 'Choose a picture' && rowPicker.imgs > 10, { rowSlot, rowPicker });
+  await pg2.close();
+
   // (answer keys: no pilot template has one; the runtime builds a key with the same overrides and throws if its content
   // differs from the page — runtime.js makePage meta check — so a key can never show another picture)
 

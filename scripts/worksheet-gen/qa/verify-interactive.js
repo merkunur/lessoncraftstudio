@@ -909,6 +909,25 @@ async function playSetClock(page, html, oracle) {
   return fails;
 }
 
+/** a deck whose every answer is moved to a DIFFERENT valid value (the poison map: a robot that still celebrates is broken) */
+const shiftAnswers = (html) => html.replace(/window\.DECK_BUNDLE=(\{.*?\});<\/script>/, (m0, j) => {
+  const B = JSON.parse(j);
+  B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
+    : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
+    : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
+    : B.kind === 'tap-select' ? B.answers.map((a) => !a)
+    : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
+    : B.kind === 'mark-grid' ? B.answers.map((a) => (a + 1) % B.ctx.grid.cases[0].n)
+    : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
+    : B.kind === 'type-number' && B.ctx && (B.ctx.sortSets || B.ctx.picks) ? (() => { const S = B.ctx.sortSets; if (S) { const k = Object.keys(S); const t = S[k[0]]; S[k[0]] = S[k[1]]; S[k[1]] = t; } (B.ctx.picks || []).forEach((p) => { p.answer = (p.answer + 1) % p.options.length; }); return B.answers.map((a) => a + 1); })()
+    : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
+    : B.kind === 'type-word' ? B.answers.map((a) => a + [...a].pop())
+    : B.kind === 'set-clock' ? B.answers.map((a) => { const p = String(a).split(':'); return ((+p[0] % 12) + 1) + ':' + p[1]; })
+    : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
+    : B.answers.map((a) => (a % B.answers.length) + 1);
+  return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
+});
+
 async function main() {
   const folder = process.argv[2];
   const poison = process.argv.includes('--poison');
@@ -939,23 +958,6 @@ async function main() {
     if (!d) throw new Error('verify-interactive: no deck of kind ' + kindArg);
     console.log('poisoning ' + d.f + ' (' + d.kind + ')');
     // wrong answer map: every answer moved to a DIFFERENT valid value (a reversal can leave a map unchanged)
-    const shiftAnswers = (html) => html.replace(/window\.DECK_BUNDLE=(\{.*?\});<\/script>/, (m0, j) => {
-      const B = JSON.parse(j);
-      B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
-        : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
-        : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
-        : B.kind === 'tap-select' ? B.answers.map((a) => !a)
-        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
-        : B.kind === 'mark-grid' ? B.answers.map((a) => (a + 1) % B.ctx.grid.cases[0].n)
-        : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
-        : B.kind === 'type-number' && B.ctx && (B.ctx.sortSets || B.ctx.picks) ? (() => { const S = B.ctx.sortSets; if (S) { const k = Object.keys(S); const t = S[k[0]]; S[k[0]] = S[k[1]]; S[k[1]] = t; } (B.ctx.picks || []).forEach((p) => { p.answer = (p.answer + 1) % p.options.length; }); return B.answers.map((a) => a + 1); })()
-        : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
-        : B.kind === 'type-word' ? B.answers.map((a) => a + [...a].pop())
-        : B.kind === 'set-clock' ? B.answers.map((a) => { const p = String(a).split(':'); return ((+p[0] % 12) + 1) + ':' + p[1]; })
-        : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
-        : B.answers.map((a) => (a % B.answers.length) + 1);
-      return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
-    });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace("el.addEventListener('click', function () { sel(i); });", '').replace("place(el, o); el.addEventListener('click', function () { tapPick(j, k); });", 'place(el, o);').replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
@@ -983,4 +985,10 @@ async function main() {
   console.log(`${checked} interactive decks played, ${bad} failed`);
   process.exit(bad ? 1 : 0);
 }
-main().catch((e) => { console.error(e.message); process.exit(1); });
+/** play one screen document with the robot of its kind (the makers' declared-screens gate plays the maker's screens too) */
+function playScreen(page, html, oracle, locale, kind) {
+  return (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock, 'mark-grid': playGrid }[kind] || play))(page, html, oracle, locale);
+}
+
+if (require.main === module) main().catch((e) => { console.error(e.message); process.exit(1); });
+module.exports = { playScreen, shiftAnswers };

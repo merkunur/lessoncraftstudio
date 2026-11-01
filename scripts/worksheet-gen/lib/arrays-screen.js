@@ -53,7 +53,10 @@ function screenOrKey(mode, built, ctx, loc) {
     const items = A.map((x, i) => {
       const at = slotFor(x.a + '|' + i, 3);   // never i % 3 (a diagonal tell, 2026-10-06)
       if (x.choose) {
-        const opts = x.opts.map((o, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${o.label}"${o.ok ? ' data-lcs-correct="1"' : ''} style="height:auto;min-height:${OPT_H}px;padding:14px;box-sizing:border-box">${o.html}</span>`).join('');
+        const opts = x.opts.map((o, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${o.label}"${o.ok ? ' data-lcs-correct="1"' : ''} style="height:auto;min-height:${OPT_H}px;min-width:150px;padding:14px;box-sizing:border-box">${o.html}</span>`).join('');
+        // min-width (2026-11-01): a decoy may be ONE column wide (the guessability fix lets a side go down to 1), and a
+        // one-column array chip was 29 px wide on a 360 px phone — under the 44 px tap floor. Every chip is at least 150 px
+        // (≈ 72 px on a phone), the array centred in it; the printed page is not this build.
         return item(`data-lcs-word="${i + 1}" data-lcs-q="${x.q}"`, row(`<span style="display:inline-flex;align-items:center;gap:10px;zoom:1.6">${x.eq}</span>`), row(opts, 12));
       }
       // the right number is smallest / middle / largest equally often (2026-10-06: "one too few, one too many" put it

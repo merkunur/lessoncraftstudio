@@ -118,6 +118,7 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 
 const KEY = 'odd-and-even';
 const { refusedPicture } = require('../../lib/picture-refusals.js');
+const pictureSlot = require('../../lib/slot.js');   // makers: the teacher may swap a lane's picture (catalogue untouched)
 /*
  * Pictures a NEW page never uses (Level Set 2026-10-14; every picture of the allowed themes opened on contact sheets):
  * `all` — one picture that shows SEVERAL things (three eggs, three crayons, two dominoes, two cards, a pair of boots, a
@@ -1090,7 +1091,7 @@ module.exports = {
     const fn = FACE_BUILD[d.mode];
     if (!fn) throw new Error(`${ID}: unknown mode "${d.mode}" (proof | share | ones | sums | count)`);
     if (!ctx || !ctx.rng) throw new Error(`${ID}: no rng in ctx`);
-    return this[fn](bank, d, { theme, locale, published }, ctx.rng, viewOf(ctx));
+    return this[fn](bank, d, { theme, locale, published, ctx }, ctx.rng, viewOf(ctx));
   },
   _faceRoot(mode, stamps, style, inner) {
     const attrs = Object.entries(stamps).map(([k, v]) => `data-lcs-${k}="${v}"`).join(' ');
@@ -1147,7 +1148,7 @@ module.exports = {
     if (pool.length < 2) throw new Error(`${ID}: fewer than 2 names of <= ${max} graphemes in SENTENCES.${locale}`);
     return pool;
   },
-  _pics(bank, d, { theme, locale, published = true }, rng, kind, view = 'page') {
+  _pics(bank, d, { theme, locale, published = true, ctx: mctx = null }, rng, kind, view = 'page') {
     const cfg = resolvePics(d, kind);
     const capKey = kind === 'share' ? 'leftover' : 'pairs';
     if (typeof bank[capKey] !== 'string' || !bank[capKey].trim()) throw new Error(`${ID}: the ${locale} bank has no ${capKey} caption`);
@@ -1156,6 +1157,8 @@ module.exports = {
     const names = kind === 'share' ? this._names(bank, locale) : null;
     const deal = composePics(rng, cfg, pool, names);
     if (!deal) throw new Error(`${ID}: no ${kind} deal for ${cfg.lanes} lanes in [${cfg.range}] — REFUSED`);
+    // makers: a teacher's picture choice replaces lane i's noun AFTER the draw (lib/slot.js — the random stream is untouched)
+    deal.nouns = pictureSlot.pictures(mctx, deal.nouns, pool, theme);
     // vary (2026-10-14): every lane its own row width (3..perRow, at most two rows), the last-row tell balanced per parity
     const widths = cfg.vary ? balanceWidths(rng, deal.order, (n) => widthsFrom(Math.max(3, Math.ceil(n / 2)), cfg.perRow)) : deal.order.map(() => cfg.perRow);
     if (!widths) throw new Error(`${ID}: no row widths for [${deal.order}] — REFUSED`);
@@ -1175,7 +1178,7 @@ module.exports = {
     const slot = cfg.vary ? cfg.perRow : null;
     const lanes = deal.order.map((n, i) => (kind === 'share'
       ? shareLane({ n, src: srcs[i], names: deal.names[i], leftoverLabel: bank.leftover, pills: pills(n), iconPx: cfg.iconPx, perRow: widths[i], slotPerRow: slot, key: key ? { each: pairsOf(n), r: n % 2 } : null })
-      : countLane({ n, src: srcs[i], pairsLabel: bank.pairs, pills: pills(n), iconPx: cfg.iconPx, perRow: widths[i], slotPerRow: slot, key: key ? { pairs: pairsOf(n) } : null })));
+      : countLane({ n, src: srcs[i], pairsLabel: bank.pairs, pills: pills(n), iconPx: cfg.iconPx, perRow: widths[i], slotPerRow: slot, key: key ? { pairs: pairsOf(n) } : null }))).map((h, i) => pictureSlot.stamp(mctx, 'pic', i, h));
     const bodyHtml = this._faceRoot(kind,
       { lanes: cfg.lanes, range: cfg.range.join(','), split: cfg.split.join(','), 'icon-px': cfg.iconPx, 'per-row': cfg.perRow, pills: cfg.pills ? 1 : 0, theme, stack: cfg.stack },
       `flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.lanes},minmax(${cfg.laneH}px,1fr));row-gap:${PICS.rowGap}px;align-content:stretch;min-height:0`, lanes.join(''));

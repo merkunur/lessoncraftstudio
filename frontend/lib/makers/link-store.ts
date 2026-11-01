@@ -1,28 +1,31 @@
 /**
  * The worksheet makers' link store — the website side of what scripts/makers/local-store.js stands in for locally
- * (ARCHITECTURE §8; INTERACTIVE-AND-SHARING §C; task 2 of the ten, 2026-11-01).
+ * (ARCHITECTURE §8; INTERACTIVE-AND-SHARING §C; task 2 wrote the contract, task 3 backs it, 2026-11-01).
  *
- * This module is the CONTRACT the student play route (frontend/app/s/[id]/route.ts) and the deck-preset route
- * (frontend/app/api/makers/preset/[deckId]/route.ts) read through. It ships UNBACKED: every function answers "not
- * found" until task 3 (release wiring) implements it over the Prisma models of ARCHITECTURE §8.1 — MakerShareLink →
- * MakerRecipe → User.subscription. Nothing here touches Prisma on purpose (README rule 3: a migration is a file,
- * applied to nothing; the models do not exist yet).
+ * The student play route (frontend/app/s/[id]/route.ts) and the deck-preset route
+ * (frontend/app/api/makers/preset/[deckId]/route.ts) read through here:
  *
- * What task 3 implements, exactly:
  *   getLink(linkId)
- *     SELECT the MakerShareLink by linkId (12 chars, the generateHostedLinkId alphabet) with its recipe and the
- *     recipe's teacher (isAdmin + subscription). Return null when the link is missing, revokedAt is set, the recipe is
- *     soft-deleted, or the recipe's maker folder is unknown. `meter` = !isSubscriptionUsable(teacher) — computed at
- *     READ time, so a lapsed teacher's links become metered and a renewed one's skip the meter again (operator ruling
- *     2026-11-01 D.4-4: a subscribing teacher's student links skip the per-device play meter; free accounts' keep it).
- *     Cache: the route sets `public, s-maxage=300` — a revoke propagates within 5 minutes (CLAUDE.md §15.8).
+ *     MakerShareLink by linkId (12 chars, the generateHostedLinkId alphabet) with its recipe and the recipe's teacher
+ *     (isAdmin + subscription), through store.ts linkRecord over the Prisma db. Null when the link is missing,
+ *     revokedAt is set, the recipe is soft-deleted, or the recipe's maker is not released on this server.
+ *     `meter` = !isSubscriptionUsable(teacher), computed at READ time (operator ruling 2026-11-01 D.4-4: a subscribing
+ *     teacher's student links skip the per-device play meter; a lapsed teacher's links become metered, a renewed
+ *     one's skip it again). Cache: the route sets `public, s-maxage=300` — a revoke propagates within 5 minutes.
  *   presetForDeck(deckId)
- *     SELECT the published Deck by id (status 'published'), read its manifest.json from
- *     /var/www/lcs-media/decks/<language>/<slug>/manifest.json and return
- *     presetFromManifest(manifest, makerOf) from scripts/makers/play/preset.js (makerOf = play/makers-index.js);
- *     null for a deck that is not a worksheet-gen printable (no settings.worksheet_type) or whose template no maker owns.
- *     Cache: the route sets `public, s-maxage=3600` (ARCHITECTURE §13 step 3: edge-cached 1 h).
+ *     the published Deck by id, its manifest.json from DECKS_DIR/<language>/<slug>/manifest.json (the slug symlink →
+ *     the current version folder, CLAUDE.md §15.7), then presetFromManifest(manifest, makerOf) from
+ *     scripts/makers/play/preset.js — makerOf over the RELEASED makers (released.ts), so a deck opens a preset only in
+ *     a maker this server serves. Null for a deck that is not a worksheet-gen printable (no settings.worksheet_type)
+ *     or whose template no released maker offers. Cache: the route sets `public, s-maxage=3600`.
  */
+import fs from 'fs';
+import path from 'path';
+import { prisma } from '@/lib/prisma';
+import { prismaMakerDb } from './db';
+import { linkRecord } from './store';
+import { isReleased, makerOf } from './released';
+import * as preset from '../../../scripts/makers/play/preset.js';
 
 export type MakerLinkKind = 'student' | 'colleague';
 
@@ -63,14 +66,24 @@ export interface MakerPreset {
   title: string | null;
 }
 
-/** A student / colleague link by its id — null when unknown, taken back or deleted. UNBACKED until task 3. */
-export async function getLink(_linkId: string): Promise<MakerLinkRecord | null> {
-  return null;
+export const DECKS_DIR = process.env.DECKS_DIR || '/var/www/lcs-media/decks';
+
+/** A student / colleague link by its id — null when unknown, taken back, deleted, or its maker is not released here. */
+export async function getLink(linkId: string): Promise<MakerLinkRecord | null> {
+  const r = await linkRecord(prismaMakerDb, linkId);
+  if (!r || !isReleased(r.maker)) return null;
+  return { linkId: r.linkId, kind: r.kind, recipe: r.recipe as unknown as MakerRecipeJson, meter: r.meter, title: r.title, maker: r.maker, lang: r.lang };
 }
 
-/** A published deck's maker preset ("Make your own"). UNBACKED until task 3. */
-export async function presetForDeck(_deckId: string): Promise<MakerPreset | null> {
-  return null;
+/** A published deck's maker preset ("Make your own"). */
+export async function presetForDeck(deckId: string): Promise<MakerPreset | null> {
+  if (!/^[A-Za-z0-9_-]{1,80}$/.test(deckId)) return null;
+  const deck = await prisma.deck.findFirst({ where: { id: deckId, status: 'published' }, select: { language: true, slug: true } });
+  if (!deck || !/^[a-z]{2}$/.test(deck.language) || !/^[a-z0-9-]+$/.test(deck.slug)) return null;
+  const file = path.join(DECKS_DIR, deck.language, deck.slug, 'manifest.json');
+  let manifest: unknown;
+  try { manifest = JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return null; }
+  return preset.presetFromManifest(manifest, makerOf) as MakerPreset | null;
 }
 
 /** the link-id shape every route validates before touching the store */

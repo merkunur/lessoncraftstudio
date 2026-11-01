@@ -196,6 +196,19 @@ node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landing
   && echo "   ✅ static landings regenerated" \
   || echo "   ⚠️  landing regeneration failed (existing static landings keep serving)"
 
+# 1c. WORKSHEET MAKERS (2026-11-01, docs/makers/ARCHITECTURE.md §5.2 / §13, handoff 03-release-wiring):
+# the makers are built + gated on the PC and uploaded as ONE release to /var/www/lcs-media/_staging/makers-release/
+# (scripts/makers/release-pack.js); the server never builds a maker. install-release.js verifies every sha256,
+# copies version folders only where absent (immutable per version), writes the pointers last, removes the stage.
+# A no-op while nothing is staged — the makers stay unreleased until all 60 are built (operator 2026-10-31).
+# Runs BEFORE the Next build (§20.4). Then gate 13 `registration` over the SERVED tree, HARD once a tree exists.
+echo "🧩 Worksheet makers release..."
+node scripts/makers/install-release.js || { echo "ERROR: the staged worksheet-makers release did not install — see scripts/makers/install-release.js"; exit 1; }
+if [ -f /var/www/lcs-media/makers/versions.json ]; then
+    echo "🔎 Worksheet makers registration check..."
+    node scripts/makers/gates/registration.js --served=/var/www/lcs-media/makers || { echo "ERROR: a released worksheet maker is incompletely registered — see scripts/makers/gates/registration.js"; exit 1; }
+fi
+
 # 2. Navigate to frontend
 cd frontend
 

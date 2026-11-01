@@ -13,6 +13,7 @@ import {
   MakerKey,
 } from '@/lib/seo/maker-content';
 import { fetchMakerSamples } from '@/lib/seo/maker-samples';
+import { smartLaunchUrl } from '@/lib/makers/smart-link';
 import MakerSamples, { makerScreenshots } from './MakerSamples';
 
 /**
@@ -72,7 +73,11 @@ export default async function MakerLanding({
   const content = await getMakerContent(locale, makerKey);
   if (!content) return null;
 
-  const launchUrl = makerGeneratorUrl(makerKey, locale);
+  // The smart link (ARCHITECTURE §13, operator 2026-10-31): once this app's NEW maker is released on this server, the
+  // launch button opens it on the template that does what the old app did, in this language; until then (and for an
+  // old app whose maker is not released) the old generator launches exactly as before. Nothing else on the landing
+  // changes — its text, title, meta, canonical, hreflang and JSON-LD keep their SEO (gate: scripts/makers/gates/old-landings.js).
+  const launchUrl = smartLaunchUrl(makerKey, locale) ?? makerGeneratorUrl(makerKey, locale);
   const launchLabel = content.labels.launchCta.replace('{name}', content.name);
   // Sample-modal action buttons (Download PDF / Answer key / Make your own). The deck's
   // own baked strip is hidden inside an iframe, so the modal renders them host-side.

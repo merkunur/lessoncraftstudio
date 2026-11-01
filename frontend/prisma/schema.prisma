@@ -83,6 +83,9 @@ model User {
   activityPlayLinks  ActivityPlayLink[]
   // Usage metering (2026-07-12 metered paywall). Prisma virtual; emit no SQL.
   usageQuotas        UsageQuota[]
+  // Worksheet makers (2026-11, ARCHITECTURE §8.1): saved recipes + student / colleague links. Prisma virtual; emit no SQL.
+  makerRecipes       MakerRecipe[]
+  makerShareLinks    MakerShareLink[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1511,4 +1514,48 @@ model StudioStoryRevision {
 
   @@unique([storyId, rev])
   @@map("studio_story_revisions")
+}
+
+// ---------------------------------------------------------------------------
+// Worksheet makers (docs/makers/ARCHITECTURE.md §5, §8.1; task 3 of the ten, 2026-11-01).
+// A saved worksheet is a RECIPE (a few KB of JSON: maker, templates, levels, seed, settings, edits, ink); the page is
+// rebuilt from it in the browser every time — nothing rendered is stored. The contract of every field is the one
+// scripts/makers/local-store.js implements locally and frontend/lib/makers/store.ts implements here.
+// ---------------------------------------------------------------------------
+
+model MakerRecipe {
+  id        String    @id @default(cuid())
+  teacherId String    @map("teacher_id")
+  maker     String    @db.VarChar(40) // the maker id (scripts/makers/topic-map.js), e.g. "counting"
+  lang      String    @db.VarChar(5) // the recipe's content language (ISO 639-1)
+  title     String    @db.VarChar(200) // the first page's title as saved (the "My worksheets" list)
+  template  String    @db.VarChar(12) // the first page's template id, e.g. "K-002" (the list's thumbnail)
+  recipe    Json // the recipe itself (shell/recipe.js), ≤ MAX_RECIPE_BYTES enforced in the API
+  rev       Int       @default(1) // optimistic concurrency: PUT carries the rev it loaded; 409 when it changed elsewhere
+  deletedAt DateTime? @map("deleted_at") // soft delete: kept, invisible, its links are gone
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  teacher User             @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  links   MakerShareLink[]
+
+  @@index([teacherId, updatedAt])
+  @@map("maker_recipes")
+}
+
+model MakerShareLink {
+  id        String    @id @default(cuid())
+  linkId    String    @unique @map("link_id") @db.VarChar(12) // the capability: 12 chars of the hosted-link alphabet (32^12)
+  recipeId  String    @map("recipe_id")
+  teacherId String    @map("teacher_id") // who minted it (= the recipe's owner); the owner alone takes it back
+  kind      String    @db.VarChar(10) // "student" (opens /s/<linkId>) | "colleague" (opens the maker read-only)
+  revokedAt DateTime? @map("revoked_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  recipe  MakerRecipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  teacher User        @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@index([recipeId])
+  @@index([teacherId])
+  @@map("maker_share_links")
 }

@@ -3,7 +3,7 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** finish the settings-space triage (the remaining write-in tells + the gate exemptions with reasons, below); republish the published pages changed this round (list below — a server step); then task 3 (P5 release wiring) — 🛑 NO new agent until the operator says so (2026-11-01). Then the B1 screen retrofit and B2.
+**NEXT:** the B1 screen retrofit (every B1 maker's templates get their screen version from the marks, per INTERACTIVE-AND-SHARING §F), then B2 in ARCHITECTURE §14 order; tasks 7–10 of the handoff list (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents (operator), my own Opus 5.5 agent only when needed, one at a time. Owed (server, operator): the in-place republish of the published pages changed by the guessability fixes (list below) + G2-224; the release steps of task 3.
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 

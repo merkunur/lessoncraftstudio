@@ -3,7 +3,7 @@
 Design: `docs/makers/INTERACTIVE-AND-SHARING.md` §A, §B, §F. Built locally, nothing deployed; the catalogue is byte-identical
 (slots gate against HEAD; the screen build is a THIRD build, `ctx.screen`, next to the page and the key).
 
-## What is built (commits listed at the end)
+## What is built — commit 8cb6e9dae (+ the G1-454 range hunk inside the main session's 8e6663e4b)
 
 - **Engine** `scripts/makers/screen.js` (browser-safe, in every maker bundle as `mod.screen`): `derive()` runs inside the
   page document and reads the marks → `plan()` turns them into runtime parts (validated by every kind's own rules) →

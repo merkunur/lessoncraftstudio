@@ -42,7 +42,8 @@
     "number-bonds": "Zahlzerlegung und Aufgabenfamilien",
     "addition-subtraction": "Addition und Subtraktion",
     "doubles-halves": "Verdoppeln und Halbieren",
-    "compare-numbers": "Zahlen und Mengen vergleichen"
+    "compare-numbers": "Zahlen und Mengen vergleichen",
+    "odd-even": "Gerade und ungerade Zahlen"
   },
   "editTitle": "Überschrift ändern",
   "editInstruction": "Arbeitsanweisung ändern",

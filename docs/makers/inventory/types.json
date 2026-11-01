@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 887,
+ "count": 891,
  "failures": [],
  "rows": [
   {
@@ -19137,6 +19137,84 @@
    "science": false
   },
   {
+   "id": "G1-455",
+   "file": "scripts/worksheet-gen/types/g1/G1-455-odd-even-stripes-number-chart.js",
+   "grade": "G1",
+   "slug": "odd-even-stripes-number-chart",
+   "family": "odd-and-even",
+   "variationOf": null,
+   "title": "Even Number Stripes",
+   "instruction": "Colour every even number on the chart. What pattern do you see?",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "end",
+    "colour",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/odd-more.js"
+   ],
+   "teachingPoint": "1:odd-even-pairs",
+   "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-456",
+   "file": "scripts/worksheet-gen/types/g1/G1-456-odd-even-cut-and-sort.js",
+   "grade": "G1",
+   "slug": "odd-even-cut-and-sort",
+   "family": "odd-and-even",
+   "variationOf": null,
+   "title": "Cut and Sort: Odd or Even",
+   "instruction": "Cut out the number cards. Glue each card into the odd house or the even house.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/odd-more.js"
+   ],
+   "teachingPoint": "1:odd-even-pairs",
+   "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-457",
+   "file": "scripts/worksheet-gen/types/g1/G1-457-odd-even-number-words.js",
+   "grade": "G1",
+   "slug": "odd-even-number-words",
+   "family": "odd-and-even",
+   "variationOf": null,
+   "title": "Odd or Even? Read the Number Word",
+   "instruction": "Read each number word. Is the number odd or even? Circle it.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/odd-more.js"
+   ],
+   "teachingPoint": "1:odd-even-pairs",
+   "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -25442,6 +25520,31 @@
    "teachingPoint": "2:compare-order-3-digit",
    "skill": "Compare two 3-digit numbers with < > = and order four from smallest to greatest",
    "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-400",
+   "file": "scripts/worksheet-gen/types/g2/G2-400-odd-even-discover-the-rule.js",
+   "grade": "G2",
+   "slug": "odd-even-discover-the-rule",
+   "family": "odd-and-even",
+   "variationOf": null,
+   "title": "Odd and Even: Find the Rule",
+   "instruction": "Add each pair and circle odd or even. Then circle the rule that is always true.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "kinds",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/odd-more.js"
+   ],
+   "teachingPoint": "2:odd-even",
+   "skill": "Decide odd/even by pairing objects, as two equal addends (n + n or n + n + 1), and by the ones digit for numbers under 100",
+   "strand": "Operations & Algebraic Thinking",
    "science": false
   },
   {

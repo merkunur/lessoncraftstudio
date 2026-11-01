@@ -3565,5 +3565,21 @@
   "G2-399": {
     "title": "¿Qué posición decide?",
     "instruction": "Empieza por la izquierda. Compara los dígitos de cada columna. Encierra la primera pareja que es diferente. Luego escribe < o > en el recuadro."
+  },
+  "G1-455": {
+    "title": "Números pares e impares en el tablero del 100",
+    "instruction": "Colorea cada número par del tablero del 100. ¿Qué patrón ves?"
+  },
+  "G2-400": {
+    "title": "Pares e impares: descubre la regla",
+    "instruction": "Suma cada pareja y encierra par o impar. Luego encierra la regla que siempre se cumple."
+  },
+  "G1-456": {
+    "title": "Recorta y clasifica: par o impar",
+    "instruction": "Recorta las tarjetas con números. Pega cada tarjeta en la casa de los pares o en la de los impares."
+  },
+  "G1-457": {
+    "title": "¿Par o impar? Lee el número en palabras",
+    "instruction": "Lee cada número escrito con letras. ¿Es par o impar? Encierra la respuesta correcta."
   }
 }

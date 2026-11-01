@@ -288,6 +288,6 @@ const WORD_TRACING_REVIEW = [
   "zoo animals bw|panda",
   "christmas|mistletoe",
 ];
-if (!process.env.LCS_OLD_REFUSALS) for (const r of WORD_TRACING_REVIEW) PICTURE_REFUSALS.add(r);
+if (typeof process === 'undefined' || !process.env || !process.env.LCS_OLD_REFUSALS) for (const r of WORD_TRACING_REVIEW) PICTURE_REFUSALS.add(r);
 const refusedPicture = (theme, noun) => PICTURE_REFUSALS.has(theme + '|' + noun);
 module.exports = { PICTURE_REFUSALS, refusedPicture };

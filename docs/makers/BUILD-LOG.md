@@ -7,6 +7,28 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 7: Odd & Even (`odd-even`) — 6 templates + 4 new (2026-11-01)
+
+- The 6 existing (b4) templates could not run in a browser, for two reasons: `lib/b4-common.js` read its banks with
+  `fs` (now through `lib/platform/index.js`, the b3-common pattern; the 11 locale files are checked in the order the
+  folder listing gave, so the merge order is unchanged), and `lib/picture-refusals.js:291` read `process.env` unguarded
+  ("process is not defined"; the second failure, "reading '2'", was a knock-on). Every b4 family and every type that
+  uses the picture refusals can now be bundled.
+- New templates (NEW-TEMPLATES §10; the odd/even maze stays in the mazes maker), `types/_shared/odd-more.js`. The
+  parity words are the published bank words (`data/b4/odd-and-even.js` chips) in the locale's order:
+  - G1-455 odd and even number stripes on the number chart (L1 1-50, L2 1-100, L3 odd + the five ones digits).
+  - G2-400 find the rule: three sums of one kind, then circle the rule (review: L1 had odd+odd and even+even, so both
+    rules ended in "even" — now odd+odd and odd+even; the right rule chip's place is drawn per page). Every number
+    from 2 up.
+  - G1-456 cut and sort into the odd and even houses: the split varies 3…n-3, each house has n-2 spaces.
+  - G1-457 read the number word, circle odd or even (nl 1 = "één"); one font size per page fitted to the longest
+    word (fi/de compounds cannot wrap).
+- One native + pedagogy reviewer: 6 errors applied (the stripes title said "even" over an odd page — now neutral
+  titles; "Circle it" read as "circle the word"; nl honderdveld / eindigen op; sv i hundrarutan; da hundredetavlen) and
+  most optional points (es tablero del 100, fi satataulusta, pt/fr/en L3 wording, nl houses). Not applied: fi plural
+  house names (the house names are the published chip words).
+- Coverage: G1-455/456/457 → 1:odd-even-pairs, G2-400 → 2:odd-even.
+
 ## B1 maker 6: Compare Numbers & Groups (`compare-numbers`) — 10 templates + 5 new (2026-11-01)
 
 - The 10 existing templates bundle with no engine change. Replaces the old app `more-less` (oldAppTemplates

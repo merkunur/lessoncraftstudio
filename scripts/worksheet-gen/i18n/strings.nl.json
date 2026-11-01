@@ -3574,5 +3574,21 @@
   "G2-399": {
     "title": "Welke plaats beslist?",
     "instruction": "Begin links. Vergelijk de cijfers kolom voor kolom. Omcirkel het eerste paar dat verschilt. Schrijf dan < of > in het vakje."
+  },
+  "G1-455": {
+    "title": "Even en oneven getallen op het honderdveld",
+    "instruction": "Kleur elk even getal in het honderdveld. Welk patroon zie je?"
+  },
+  "G2-400": {
+    "title": "Even en oneven: ontdek de regel",
+    "instruction": "Reken elke som uit en omcirkel even of oneven. Omcirkel dan de regel die altijd klopt."
+  },
+  "G1-456": {
+    "title": "Knippen en sorteren: even of oneven",
+    "instruction": "Knip de getalkaartjes uit. Plak elk kaartje in het huis van de even getallen of in het huis van de oneven getallen."
+  },
+  "G1-457": {
+    "title": "Even of oneven? Lees het getal in woorden",
+    "instruction": "Lees elk getal in woorden. Is het even of oneven? Omcirkel het goede antwoord."
   }
 }

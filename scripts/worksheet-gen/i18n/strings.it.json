@@ -3556,5 +3556,21 @@
   "G2-399": {
     "title": "Quale posizione decide?",
     "instruction": "Parti da sinistra. Confronta le cifre colonna per colonna. Cerchia la prima coppia di cifre diverse. Poi scrivi < o > nel riquadro."
+  },
+  "G1-455": {
+    "title": "Numeri pari e dispari nella tabella",
+    "instruction": "Colora ogni numero pari della tabella. Che cosa noti?"
+  },
+  "G2-400": {
+    "title": "Pari e dispari: scopri la regola",
+    "instruction": "Calcola ogni somma e cerchia pari o dispari. Poi cerchia la regola che è sempre vera."
+  },
+  "G1-456": {
+    "title": "Ritaglia e classifica: pari o dispari",
+    "instruction": "Ritaglia i cartellini con i numeri. Incolla ogni cartellino nella casa dei pari o in quella dei dispari."
+  },
+  "G1-457": {
+    "title": "Pari o dispari? Leggi il numero in lettere",
+    "instruction": "Leggi ogni numero scritto in lettere. È pari o dispari? Cerchia la risposta."
   }
 }

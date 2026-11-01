@@ -3585,5 +3585,21 @@
   "G2-399": {
     "title": "Welche Stelle entscheidet?",
     "instruction": "Fang links an. Vergleiche die Ziffern Stelle für Stelle. Kreise das erste Paar ein, das verschieden ist. Schreibe dann < oder > in das Kästchen."
+  },
+  "G1-455": {
+    "title": "Gerade und ungerade Zahlen in der Hundertertafel",
+    "instruction": "Male jede gerade Zahl in der Tafel an. Welches Muster siehst du?"
+  },
+  "G2-400": {
+    "title": "Gerade und ungerade: Finde die Regel",
+    "instruction": "Rechne jede Aufgabe und kreise gerade oder ungerade ein. Kreise dann die Regel ein, die immer stimmt."
+  },
+  "G1-456": {
+    "title": "Ausschneiden und sortieren: gerade oder ungerade",
+    "instruction": "Schneide die Zahlenkarten aus. Klebe jede Karte in das Haus der geraden oder der ungeraden Zahlen."
+  },
+  "G1-457": {
+    "title": "Gerade oder ungerade? Lies das Zahlwort",
+    "instruction": "Lies jedes Zahlwort. Ist die Zahl gerade oder ungerade? Kreise die richtige Antwort ein."
   }
 }

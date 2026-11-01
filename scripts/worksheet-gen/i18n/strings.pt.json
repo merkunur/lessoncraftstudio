@@ -3580,5 +3580,21 @@
   "G2-399": {
     "title": "Qual ordem decide?",
     "instruction": "Comece pela esquerda. Compare os algarismos de cada ordem. Circule o primeiro par diferente. Depois escreva < ou > no quadradinho."
+  },
+  "G1-455": {
+    "title": "Números pares e ímpares no quadro",
+    "instruction": "Pinte cada número par do quadro. Que padrão você vê?"
+  },
+  "G2-400": {
+    "title": "Par e ímpar: descubra a regra",
+    "instruction": "Faça cada adição e circule par ou ímpar. Depois circule a regra que sempre vale."
+  },
+  "G1-456": {
+    "title": "Recorte e classifique: par ou ímpar",
+    "instruction": "Recorte as fichas com números. Cole cada ficha na casa dos pares ou na casa dos ímpares."
+  },
+  "G1-457": {
+    "title": "Par ou ímpar? Leia o número por extenso",
+    "instruction": "Leia cada número escrito por extenso. Ele é par ou ímpar? Circule a resposta."
   }
 }

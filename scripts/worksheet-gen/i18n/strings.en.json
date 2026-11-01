@@ -3590,5 +3590,21 @@
   "G2-399": {
     "title": "Which Place Decides?",
     "instruction": "Start on the left. Compare the digits in each column. Circle the first pair that is different. Then write < or > in the box."
+  },
+  "G1-455": {
+    "title": "Odd and Even Number Stripes",
+    "instruction": "Color every even number on the chart. What pattern do you see?"
+  },
+  "G2-400": {
+    "title": "Odd and Even: Find the Rule",
+    "instruction": "Add each pair and circle odd or even. Then circle the rule that is always true."
+  },
+  "G1-456": {
+    "title": "Cut and Sort: Odd or Even",
+    "instruction": "Cut out the number cards. Glue each card into the odd house or the even house."
+  },
+  "G1-457": {
+    "title": "Odd or Even? Read the Number Word",
+    "instruction": "Read each number word. Is the number odd or even? Circle the right word."
   }
 }

@@ -28,8 +28,10 @@
  *                               the "foil is free of the base letter" rule
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('./platform/index.js');   // disk reads go through the platform (the makers run this in a browser)
+// the 11 bank locales in the order a folder listing gives (alphabetical), so the merge order is what it was with readdirSync
+const BANK_LOCALES = ['da', 'de', 'en', 'es', 'fi', 'fr', 'it', 'nl', 'no', 'pt', 'sv'];
 
 const OUT = path.resolve(__dirname, '..', '..', 'v2-data', 'verify-syllable-boundaries', 'output');
 const _approved = new Map();
@@ -38,8 +40,8 @@ const CHUNK_LAYER = new Set(['de', 'nl', 'sv', 'no']);
 function approvedWords(loc) {
   if (!_approved.has(loc)) {
     const f = path.join(OUT, 'approved-words-' + loc + '.json');
-    if (!fs.existsSync(f)) throw new Error('b4-common: no approved-words file for ' + loc + ' (' + f + ')');
-    const j = JSON.parse(fs.readFileSync(f, 'utf8'));
+    if (!platform.exists(f)) throw new Error('b4-common: no approved-words file for ' + loc + ' (' + f + ')');
+    const j = platform.readJson(f);
     if (!Array.isArray(j.entries) || !j.entries.length) throw new Error('b4-common: approved-words-' + loc + '.json has no entries');
     _approved.set(loc, j.entries);
   }
@@ -65,23 +67,29 @@ const _banks = new Map();
  * overridable (B4_LOCALES_DIR) so validate-b4-draft.js can probe a draft in a temp
  * dir without touching the tree.
  */
-const LOCALES_DIR = () => process.env.B4_LOCALES_DIR || path.join(__dirname, '..', 'data', 'b4', 'locales');
+const LOCALES_DIR = () => (typeof process !== 'undefined' && process.env && process.env.B4_LOCALES_DIR) || path.join(__dirname, '..', 'data', 'b4', 'locales');
+const MERGED = Symbol.for('lcs.bank.mergedLocales');
 function bankModule(name) {
   if (!_banks.has(name)) {
     const f = path.join(__dirname, '..', 'data', 'b4', name + '.js');
-    if (!fs.existsSync(f)) throw new Error('b4-common: data/b4/' + name + '.js is absent (author the EN block / run apply-b4-locale.js)');
-    const mod = require(f);
+    if (!platform.exists(f)) throw new Error('b4-common: data/b4/' + name + '.js is absent (author the EN block / run apply-b4-locale.js)');
+    const mod = platform.requireData(f);
     const exportName = Object.keys(mod)[0];
     const all = mod[exportName];
     const dir = LOCALES_DIR();
-    if (fs.existsSync(dir)) {
-      for (const file of fs.readdirSync(dir)) {
-        const m = new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\.([a-z]{2})\\.json$').exec(file);
-        if (!m) continue;
-        const loc = m[1];
+    const merged = all[MERGED] || (all[MERGED] = new Set());
+    // one look per locale (a browser cannot list a folder; the locale files are only ever written for these 11)
+    {
+      for (const loc of BANK_LOCALES) {
+        const file = name + '.' + loc + '.json';
+        if (!platform.exists(path.join(dir, file))) continue;
         if (loc === 'en') throw new Error('b4-common: data/b4/locales/' + file + ' — the en block is authored in the module, never generated');
+        // a block this loader (or another copy of it: the slots gate loads HEAD beside the working tree, both sharing the
+        // cached data module) already merged is not a second source
+        if (merged.has(loc)) continue;
         if (all[loc]) throw new Error('b4-common: data/b4/' + name + '.js already has a ' + loc + ' block AND data/b4/locales/' + file + ' exists — two sources, refuse');
-        all[loc] = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+        all[loc] = platform.readJson(path.join(dir, file));
+        merged.add(loc);
       }
     }
     _banks.set(name, all);

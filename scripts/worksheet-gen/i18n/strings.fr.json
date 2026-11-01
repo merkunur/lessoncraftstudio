@@ -3575,5 +3575,21 @@
   "G2-399": {
     "title": "Quel rang décide ?",
     "instruction": "Commence à gauche. Compare les chiffres rang par rang. Entoure la première paire de chiffres différents. Puis écris < ou > dans la case."
+  },
+  "G1-455": {
+    "title": "Nombres pairs et impairs en couleur",
+    "instruction": "Colorie chaque nombre pair du tableau. Quelle régularité vois-tu ?"
+  },
+  "G2-400": {
+    "title": "Pair ou impair : trouve la règle",
+    "instruction": "Calcule chaque somme et entoure pair ou impair. Puis entoure la règle qui est toujours vraie."
+  },
+  "G1-456": {
+    "title": "Découpe et trie : pair ou impair",
+    "instruction": "Découpe les cartes nombres. Colle chaque carte dans la maison des pairs ou dans celle des impairs."
+  },
+  "G1-457": {
+    "title": "Pair ou impair ? Lis le nombre en lettres",
+    "instruction": "Lis chaque nombre écrit en lettres. Est-il pair ou impair ? Entoure la bonne réponse."
   }
 }

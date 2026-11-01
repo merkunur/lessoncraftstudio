@@ -42,7 +42,8 @@
     "number-bonds": "Lukujen hajotelmat ja laskuperheet",
     "addition-subtraction": "Yhteen- ja vähennyslasku",
     "doubles-halves": "Tuplaa ja puolita",
-    "compare-numbers": "Lukujen ja määrien vertailu"
+    "compare-numbers": "Lukujen ja määrien vertailu",
+    "odd-even": "Parilliset ja parittomat luvut"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

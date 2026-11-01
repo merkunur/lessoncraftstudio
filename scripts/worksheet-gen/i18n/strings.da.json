@@ -3560,5 +3560,21 @@
   "G2-399": {
     "title": "Hvilken plads afgør det?",
     "instruction": "Start fra venstre. Sammenlign cifrene kolonne for kolonne. Sæt ring om det første par, der er forskelligt. Skriv så < eller > i feltet."
+  },
+  "G1-455": {
+    "title": "Lige og ulige tal på hundredetavlen",
+    "instruction": "Farvelæg hvert lige tal på tavlen. Hvilket mønster ser du?"
+  },
+  "G2-400": {
+    "title": "Lige og ulige: find reglen",
+    "instruction": "Regn hvert stykke ud, og sæt ring om lige eller ulige. Sæt så ring om reglen, der altid passer."
+  },
+  "G1-456": {
+    "title": "Klip og sortér: lige eller ulige",
+    "instruction": "Klip talkortene ud. Lim hvert kort ind i det lige hus eller i det ulige hus."
+  },
+  "G1-457": {
+    "title": "Lige eller ulige? Læs talordet",
+    "instruction": "Læs hvert talord. Er tallet lige eller ulige? Sæt ring om svaret."
   }
 }

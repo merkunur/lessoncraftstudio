@@ -42,7 +42,8 @@
     "number-bonds": "Compléments et familles d'opérations",
     "addition-subtraction": "Addition et soustraction",
     "doubles-halves": "Doubles et moitiés",
-    "compare-numbers": "Comparer des nombres et des quantités"
+    "compare-numbers": "Comparer des nombres et des quantités",
+    "odd-even": "Pair et impair"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

@@ -4070,5 +4070,35 @@
       "no": "Bruk sifferkortene til å lage det største og det minste tallet. Skriv dem i rutene. Bruk hvert kort én gang. Et tall starter aldri med 0.",
       "fi": "Muodosta numerokorteista suurin ja pienin luku. Kirjoita ne laatikoihin. Käytä jokaista korttia kerran. Luku ei koskaan ala nollalla."
     }
+  },
+  "G1-455": {
+    "3": {
+      "en": "Color every odd number on the chart. Then write the five ones digits that the colored numbers end with.",
+      "de": "Male jede ungerade Zahl in der Tafel an. Schreibe dann die Einerziffern auf, mit denen jede angemalte Zahl endet.",
+      "fr": "Colorie chaque nombre impair du tableau. Puis écris les chiffres des unités par lesquels se terminent les nombres coloriés.",
+      "es": "Colorea cada número impar del tablero del 100. Luego escribe las cifras de las unidades con las que termina cada número coloreado.",
+      "pt": "Pinte cada número ímpar do quadro. Depois escreva os algarismos das unidades em que terminam os números pintados.",
+      "it": "Colora ogni numero dispari della tabella. Poi scrivi le cifre delle unità con cui finisce ogni numero colorato.",
+      "nl": "Kleur elk oneven getal in het honderdveld. Schrijf dan de cijfers van de eenheden op waarop de gekleurde getallen eindigen.",
+      "sv": "Färglägg varje udda tal i hundrarutan. Skriv sedan entalssiffrorna som de färglagda talen slutar på.",
+      "da": "Farvelæg hvert ulige tal på tavlen. Skriv så de enercifre, som hvert farvelagt tal ender på.",
+      "no": "Fargelegg hvert oddetall på tavla. Skriv så enersifrene som hvert fargelagte tall slutter på.",
+      "fi": "Väritä satataulusta jokainen pariton luku. Kirjoita sitten ykkösten numerot, joihin jokainen väritetty luku päättyy."
+    }
+  },
+  "G2-400": {
+    "1": {
+      "en": "Add each pair and circle odd or even. Then circle the rule that is always true. The first sum in each box is done for you.",
+      "de": "Rechne jede Aufgabe und kreise gerade oder ungerade ein. Kreise dann die Regel ein, die immer stimmt. Die erste Aufgabe in jedem Kasten ist schon gelöst.",
+      "fr": "Calcule chaque somme et entoure pair ou impair. Puis entoure la règle qui est toujours vraie. Le premier calcul de chaque cadre est déjà fait.",
+      "es": "Suma cada pareja y encierra par o impar. Luego encierra la regla que siempre se cumple. La primera suma de cada recuadro ya está resuelta.",
+      "pt": "Faça cada adição e circule par ou ímpar. Depois circule a regra que sempre vale. A primeira conta de cada quadro já está feita.",
+      "it": "Calcola ogni somma e cerchia pari o dispari. Poi cerchia la regola che è sempre vera. La prima somma di ogni riquadro è già fatta.",
+      "nl": "Reken elke som uit en omcirkel even of oneven. Omcirkel dan de regel die altijd klopt. De eerste som in elk vak is al gemaakt.",
+      "sv": "Räkna ut varje summa och ringa in udda eller jämnt. Ringa sedan in regeln som alltid stämmer. Den första summan i varje ruta är redan uträknad.",
+      "da": "Regn hvert stykke ud, og sæt ring om lige eller ulige. Sæt så ring om reglen, der altid passer. Det første stykke i hver kasse er allerede regnet ud.",
+      "no": "Regn ut hvert stykke og sett ring rundt partall eller oddetall. Sett så ring rundt regelen som alltid stemmer. Det første stykket i hver boks er allerede regnet ut.",
+      "fi": "Laske jokainen summa ja ympyröi parillinen tai pariton. Ympyröi sitten sääntö, joka on aina totta. Jokaisen laatikon ensimmäinen lasku on jo valmiina."
+    }
   }
 }

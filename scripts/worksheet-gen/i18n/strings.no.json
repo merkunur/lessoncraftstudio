@@ -3569,5 +3569,21 @@
   "G2-399": {
     "title": "Hvilken plass avgjør?",
     "instruction": "Start fra venstre. Sammenlign sifrene kolonne for kolonne. Sett ring rundt det første paret som er forskjellig. Skriv så < eller > i ruten."
+  },
+  "G1-455": {
+    "title": "Partall og oddetall på hundretavla",
+    "instruction": "Fargelegg hvert partall på tavla. Hvilket mønster ser du?"
+  },
+  "G2-400": {
+    "title": "Partall og oddetall: finn regelen",
+    "instruction": "Regn ut hvert stykke og sett ring rundt partall eller oddetall. Sett så ring rundt regelen som alltid stemmer."
+  },
+  "G1-456": {
+    "title": "Klipp og sorter: partall eller oddetall",
+    "instruction": "Klipp ut tallkortene. Lim hvert kort inn i partallshuset eller i oddetallshuset."
+  },
+  "G1-457": {
+    "title": "Partall eller oddetall? Les tallordet",
+    "instruction": "Les hvert tallord. Er tallet et partall eller et oddetall? Sett ring rundt svaret."
   }
 }

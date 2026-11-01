@@ -3551,5 +3551,21 @@
   "G2-399": {
     "title": "Mikä paikka ratkaisee?",
     "instruction": "Aloita vasemmalta. Vertaa numeroita sarake kerrallaan. Ympyröi ensimmäinen pari, jossa numerot eroavat. Kirjoita sitten laatikkoon < tai >."
+  },
+  "G1-455": {
+    "title": "Parilliset ja parittomat luvut satataululla",
+    "instruction": "Väritä satataulusta jokainen parillinen luku. Millaisen kuvion näet?"
+  },
+  "G2-400": {
+    "title": "Parillinen ja pariton: keksi sääntö",
+    "instruction": "Laske jokainen summa ja ympyröi parillinen tai pariton. Ympyröi sitten sääntö, joka on aina totta."
+  },
+  "G1-456": {
+    "title": "Leikkaa ja lajittele: parillinen vai pariton",
+    "instruction": "Leikkaa numerokortit irti. Liimaa jokainen kortti parillisten tai parittomien taloon."
+  },
+  "G1-457": {
+    "title": "Parillinen vai pariton? Lue lukusana",
+    "instruction": "Lue jokainen lukusana. Onko luku parillinen vai pariton? Ympyröi vastaus."
   }
 }

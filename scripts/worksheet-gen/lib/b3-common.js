@@ -67,6 +67,7 @@ const BANK_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no'
  * dir without touching the tree.
  */
 const LOCALES_DIR = () => (typeof process !== 'undefined' && process.env && process.env.B3_LOCALES_DIR) || path.join(__dirname, '..', 'data', 'b3', 'locales');
+const MERGED = Symbol.for('lcs.bank.mergedLocales');
 function bankModule(name) {
   if (!_banks.has(name)) {
     const f = path.join(__dirname, '..', 'data', 'b3', name + '.js');
@@ -75,14 +76,19 @@ function bankModule(name) {
     const exportName = Object.keys(mod)[0];
     const all = mod[exportName];
     const dir = LOCALES_DIR();
+    const merged = all[MERGED] || (all[MERGED] = new Set());
     // one look per locale (a browser cannot list a folder; the locale files are only ever written for these 11)
     {
       for (const loc of BANK_LOCALES) {
         const file = name + '.' + loc + '.json';
         if (!platform.exists(path.join(dir, file))) continue;
         if (loc === 'en') throw new Error('b3-common: data/b3/locales/' + file + ' — the en block is authored in the module, never generated');
+        // a block this loader (or another copy of it: the slots gate loads HEAD beside the working tree, both sharing the
+        // cached data module) already merged is not a second source
+        if (merged.has(loc)) continue;
         if (all[loc]) throw new Error('b3-common: data/b3/' + name + '.js already has a ' + loc + ' block AND data/b3/locales/' + file + ' exists — two sources, refuse');
         all[loc] = platform.readJson(path.join(dir, file));
+        merged.add(loc);
       }
     }
     _banks.set(name, all);

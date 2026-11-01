@@ -3541,5 +3541,21 @@
   "G2-399": {
     "title": "Vilken position avgör?",
     "instruction": "Börja till vänster. Jämför siffrorna kolumn för kolumn. Ringa in det första paret som är olika. Skriv sedan < eller > i rutan."
+  },
+  "G1-455": {
+    "title": "Udda och jämna tal i hundrarutan",
+    "instruction": "Färglägg varje jämnt tal i hundrarutan. Vilket mönster ser du?"
+  },
+  "G2-400": {
+    "title": "Udda och jämnt: hitta regeln",
+    "instruction": "Räkna ut varje summa och ringa in udda eller jämnt. Ringa sedan in regeln som alltid stämmer."
+  },
+  "G1-456": {
+    "title": "Klipp och sortera: udda eller jämnt",
+    "instruction": "Klipp ut talkorten. Klistra in varje kort i det udda huset eller i det jämna huset."
+  },
+  "G1-457": {
+    "title": "Udda eller jämnt? Läs räkneordet",
+    "instruction": "Läs varje räkneord. Är talet udda eller jämnt? Ringa in svaret."
   }
 }

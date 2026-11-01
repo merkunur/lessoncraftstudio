@@ -1988,14 +1988,17 @@
       "worksheets": [
         "G1-351",
         "G1-369",
-        "G1-370"
+        "G1-370",
+        "G1-455",
+        "G1-456",
+        "G1-457"
       ],
       "verdict": "covered",
       "activities": [
         "choice-board.even-odd.2-oa-c-3"
       ],
       "planned": [],
-      "note": "The existing activity is a numeral quiz (tap even/odd); the grade-1 faces teach WHY: pairing / sharing a set and seeing the one left over. New instrument. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md."
+      "note": "The existing activity is a numeral quiz (tap even/odd); the grade-1 faces teach WHY: pairing / sharing a set and seeing the one left over. New instrument. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md. Odd & Even maker 2026-11-01: even/odd stripes on the number chart G1-455, cut-and-sort G1-456, number words G1-457 (NEW-TEMPLATES 10-T1, T3, T4)."
     },
     {
       "tp": "1:tens-and-ones",
@@ -3369,14 +3372,15 @@
       "worksheets": [
         "G2-218",
         "G2-351",
-        "G2-352"
+        "G2-352",
+        "G2-400"
       ],
       "verdict": "covered",
       "activities": [
         "choice-board.even-odd.2-oa-c-3"
       ],
       "planned": [],
-      "note": "The existing board taps an even/odd label for a numeral; the standard's core (pair the objects, write as two equal addends, and WHY only the ones digit decides) is missing. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md."
+      "note": "The existing board taps an even/odd label for a numeral; the standard's core (pair the objects, write as two equal addends, and WHY only the ones digit decides) is missing. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md. Odd & Even maker 2026-11-01: discover the sum rules G2-400 (NEW-TEMPLATES 10-T2)."
     },
     {
       "tp": "2:compare-order-3-digit",

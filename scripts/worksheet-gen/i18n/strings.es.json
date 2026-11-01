@@ -3525,5 +3525,25 @@
   "G2-397": {
     "title": "Dígitos que faltan",
     "instruction": "Encuentra los dígitos que faltan. Escribe cada uno en un recuadro punteado para que la operación sea correcta."
+  },
+  "G1-449": {
+    "title": "Casi dobles",
+    "instruction": "Usa un doble que conoces. Escribe el doble y suma uno para encontrar el resultado."
+  },
+  "K-459": {
+    "title": "Dibuja el doble",
+    "instruction": "Dibuja el mismo grupo otra vez en el recuadro vacío. Luego escribe cuántos hay en total."
+  },
+  "G1-450": {
+    "title": "¿Es un doble?",
+    "instruction": "Encierra cada número que es un doble: se puede partir en dos grupos iguales."
+  },
+  "G1-451": {
+    "title": "Máquinas del doble y la mitad",
+    "instruction": "La máquina \"el doble\" duplica cada número. La máquina \"la mitad\" lo parte a la mitad. Completa los recuadros vacíos."
+  },
+  "G1-452": {
+    "title": "Memoria de dobles",
+    "instruction": "Recorta las tarjetas. Encuentra las parejas: un número y su doble."
   }
 }

@@ -3540,5 +3540,25 @@
   "G2-397": {
     "title": "Algarismos que faltam",
     "instruction": "Descubra os algarismos que faltam. Escreva cada um em um quadradinho tracejado para que a continha fique certa."
+  },
+  "G1-449": {
+    "title": "Quase dobros",
+    "instruction": "Use um dobro que você já sabe. Escreva o dobro e depois some um para achar o resultado."
+  },
+  "K-459": {
+    "title": "Desenhe o dobro",
+    "instruction": "Desenhe o mesmo grupo de novo no quadro vazio. Depois escreva quantos são ao todo."
+  },
+  "G1-450": {
+    "title": "É um dobro?",
+    "instruction": "Circule cada número que é um dobro: ele se divide em dois grupos iguais."
+  },
+  "G1-451": {
+    "title": "Máquinas do dobro e da metade",
+    "instruction": "A máquina do dobro dobra cada número. A máquina da metade divide o número ao meio. Complete os quadradinhos vazios."
+  },
+  "G1-452": {
+    "title": "Jogo da memória do dobro",
+    "instruction": "Recorte as cartas. Encontre os pares: um número e o seu dobro."
   }
 }

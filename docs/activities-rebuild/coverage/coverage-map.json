@@ -1950,14 +1950,32 @@
         "G1-296",
         "G1-297",
         "G1-298",
-        "G1-299"
+        "G1-299",
+        "K-459",
+        "G1-450",
+        "G1-451",
+        "G1-452"
       ],
       "verdict": "gap",
       "activities": [],
       "planned": [
         249
       ],
-      "note": "Doubles are the named grade-1 fact strategy and no activity doubles or halves a set; fractions.partition-equal-shares halves SHAPES, not quantities."
+      "note": "Doubles are the named grade-1 fact strategy and no activity doubles or halves a set; fractions.partition-equal-shares halves SHAPES, not quantities. Doubles & Halves maker 2026-11-01 added draw the double (K-459), is it a double (G1-450), double and half machines (G1-451) and doubles memory cards (G1-452) (NEW-TEMPLATES 8-T2..T5)."
+    },
+    {
+      "tp": "1:near-doubles",
+      "grade": "1",
+      "skill": "Near doubles: solve 6 + 7 as a double plus one (or 8 + 8 minus one)",
+      "code": "1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-449"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Doubles & Halves maker 2026-11-01 (NEW-TEMPLATES 8-T1). Activities gap: none yet."
     },
     {
       "tp": "1:odd-even-pairs",

@@ -40,7 +40,8 @@
     "number-sequences": "Tableaux de nombres et suites numériques",
     "number-lines": "Droites graduées",
     "number-bonds": "Compléments et familles d'opérations",
-    "addition-subtraction": "Addition et soustraction"
+    "addition-subtraction": "Addition et soustraction",
+    "doubles-halves": "Doubles et moitiés"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

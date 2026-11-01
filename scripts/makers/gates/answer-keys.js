@@ -40,6 +40,7 @@ const NO_KEY = {
   'K-453': 'flash cards to cut',
   'K-455': 'desk number lines to cut out (material)',
   'G1-441': 'fact triangle cards to cut out (material)',
+  'G1-452': 'doubles memory cards to cut out (material)',
 };
 
 (async () => {

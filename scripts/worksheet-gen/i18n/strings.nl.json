@@ -3534,5 +3534,25 @@
   "G2-397": {
     "title": "Ontbrekende cijfers",
     "instruction": "Zoek de cijfers die missen. Schrijf elk cijfer in een gestippeld vakje, zodat de som klopt."
+  },
+  "G1-449": {
+    "title": "Bijna-dubbelsommen",
+    "instruction": "Gebruik een dubbelsom die je kent. Schrijf de dubbelsom op en tel er dan één bij."
+  },
+  "K-459": {
+    "title": "Teken het dubbele",
+    "instruction": "Teken dezelfde groep nog een keer in het lege vak. Schrijf dan op hoeveel het er samen zijn."
+  },
+  "G1-450": {
+    "title": "Is het het dubbele van een getal?",
+    "instruction": "Omcirkel elk getal dat het dubbele van een getal is: je kunt het in twee gelijke groepen splitsen."
+  },
+  "G1-451": {
+    "title": "Verdubbel- en halveermachines",
+    "instruction": "De machine „verdubbelen” verdubbelt elk getal. De machine „halveren” halveert het. Vul de lege vakjes in."
+  },
+  "G1-452": {
+    "title": "Memory met dubbelen",
+    "instruction": "Knip de kaartjes uit. Zoek de paren: een getal en het dubbele ervan."
   }
 }

@@ -3516,5 +3516,25 @@
   "G2-397": {
     "title": "Cifre mancanti",
     "instruction": "Trova le cifre che mancano. Scrivi ognuna in un riquadro tratteggiato in modo che l'operazione sia giusta."
+  },
+  "G1-449": {
+    "title": "Quasi doppi",
+    "instruction": "Usa un doppio che conosci. Scrivi il doppio, poi aggiungi uno per trovare il risultato."
+  },
+  "K-459": {
+    "title": "Disegna il doppio",
+    "instruction": "Disegna di nuovo lo stesso gruppo nel riquadro vuoto. Poi scrivi quanti sono in tutto."
+  },
+  "G1-450": {
+    "title": "È un doppio?",
+    "instruction": "Cerchia ogni numero che è un doppio: si divide in due gruppi uguali."
+  },
+  "G1-451": {
+    "title": "Le macchine del doppio e della metà",
+    "instruction": "La macchina «il doppio» raddoppia ogni numero. La macchina «la metà» lo dimezza. Completa i riquadri vuoti."
+  },
+  "G1-452": {
+    "title": "Memory dei doppi",
+    "instruction": "Ritaglia le carte. Trova le coppie: un numero e il suo doppio."
   }
 }

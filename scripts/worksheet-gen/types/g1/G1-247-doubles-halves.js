@@ -14,6 +14,7 @@ const { mirrorGroups, dotPanel } = require('../../templates/components-b2.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { safeNouns } = require('../../lib/b2-common.js');
 const { LABELS } = require('../../data/b2/labels.js');
+const slot = require('../../lib/slot.js');
 
 const NUM = (s) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#3A3530">${s}</span>`;
 const OP = (s) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E">${s}</span>`;
@@ -60,7 +61,10 @@ module.exports = {
     // theme to resolve. Guarded on `theme` rather than on `d.numeric` so the
     // themed path consumes the RNG in exactly the same order as before and the
     // published coordinates stay byte-identical (b2-baseline: 0 drift).
-    const noun = theme ? rng.pick(safeNouns(theme, loc)) : null;
+    // in a maker the teacher may swap the page's picture (lib/slot.js: the random stream and the catalogue page are untouched)
+    const pool = theme ? safeNouns(theme, loc) : null;
+    const noun = !theme ? null : d.numeric ? rng.pick(pool) : slot.pictures(ctx, [rng.pick(pool)], pool, theme)[0];   // a numbers-only page draws (same stream) but shows no picture: no slot
+    const picSlot = src0 => (src0 ? slot.attr(ctx, 'pic', 0) : '');
     const src = theme ? fileUri(theme, noun.noun) : null;
     if (!theme && !d.numeric) {
       throw new Error('G1-247: a themeless face must be numeric — the picture path has no image source');
@@ -97,7 +101,7 @@ module.exports = {
       const dStrip = d.inverse
         ? `${answerBox({ w: 64, h: 48, answer: n })}${OP('+')}${answerBox({ w: 64, h: 48, answer: n })}${OP('=')}${NUM(2 * n)}`
         : `${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}`;
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}>${pill('double')}${stage}` +
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}${picSlot(!d.numeric && noun)}>${pill('double')}${stage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${dStrip}</div></div>`);
       }
       if (i >= nH) continue;
@@ -125,7 +129,7 @@ module.exports = {
       const hStrip = d.inverse
         ? `${answerBox({ w: 64, h: 48, answer: 2 * m })}${OP('=')}${NUM(m)}${OP('+')}${NUM(m)}`
         : `${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}`;
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}>${pill('half')}${hstage}` +
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}${picSlot(!d.numeric && noun)}>${pill('half')}${hstage}` +
         `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${hStrip}</div></div>`);
     }
     return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { doubles, halves } };

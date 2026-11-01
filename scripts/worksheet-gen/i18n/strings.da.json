@@ -3520,5 +3520,25 @@
   "G2-397": {
     "title": "Manglende cifre",
     "instruction": "Find de cifre, der mangler. Skriv hvert ciffer i en stiplet kasse, så regnestykket passer."
+  },
+  "G1-449": {
+    "title": "Næsten det dobbelte",
+    "instruction": "Brug en dobbelt-opgave, du kender. Skriv den, og læg så én til for at finde summen."
+  },
+  "K-459": {
+    "title": "Tegn det dobbelte",
+    "instruction": "Tegn den samme gruppe én gang til i den tomme kasse. Skriv så, hvor mange der er i alt."
+  },
+  "G1-450": {
+    "title": "Er tallet det dobbelte af et tal?",
+    "instruction": "Sæt ring om hvert tal, der er det dobbelte af et tal: Det kan deles i to lige store grupper."
+  },
+  "G1-451": {
+    "title": "Fordoblings- og halveringsmaskiner",
+    "instruction": "Maskinen ”det dobbelte” fordobler hvert tal. Maskinen ”det halve” halverer det. Udfyld de tomme felter."
+  },
+  "G1-452": {
+    "title": "Vendespil med det dobbelte",
+    "instruction": "Klip kortene ud. Find parrene: et tal og det dobbelte af tallet."
   }
 }

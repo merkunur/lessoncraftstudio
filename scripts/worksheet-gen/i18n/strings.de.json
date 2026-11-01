@@ -3545,5 +3545,25 @@
   "G2-397": {
     "title": "Fehlende Ziffern",
     "instruction": "Finde die fehlenden Ziffern. Schreibe jede in ein gestricheltes Kästchen, sodass die Aufgabe stimmt."
+  },
+  "G1-449": {
+    "title": "Nachbaraufgaben zum Verdoppeln",
+    "instruction": "Nutze eine Verdopplungsaufgabe, die du kennst. Schreibe sie auf, rechne eins dazu und schreibe das Ergebnis."
+  },
+  "K-459": {
+    "title": "Male das Doppelte",
+    "instruction": "Male die gleiche Menge noch einmal in das leere Kästchen. Schreibe dann auf, wie viele es zusammen sind."
+  },
+  "G1-450": {
+    "title": "Ist die Zahl ein Doppeltes?",
+    "instruction": "Kreise jede Zahl ein, die das Doppelte einer Zahl ist: Sie lässt sich in zwei gleich große Gruppen zerlegen."
+  },
+  "G1-451": {
+    "title": "Verdoppel- und Halbiermaschinen",
+    "instruction": "Die Maschine „Verdoppeln“ verdoppelt jede Zahl. Die Maschine „Halbieren“ halbiert sie. Fülle die leeren Kästchen aus."
+  },
+  "G1-452": {
+    "title": "Verdoppeln-Memory",
+    "instruction": "Schneide die Karten aus. Finde die Paare: eine Zahl und ihr Doppeltes."
   }
 }

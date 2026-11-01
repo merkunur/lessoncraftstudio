@@ -3501,5 +3501,25 @@
   "G2-397": {
     "title": "Siffror som saknas",
     "instruction": "Hitta siffrorna som saknas. Skriv varje siffra i en streckad ruta så att uppgiften stämmer."
+  },
+  "G1-449": {
+    "title": "Nästan dubblor",
+    "instruction": "Använd en dubbel du kan. Skriv dubbeln och lägg sedan till ett för att få summan."
+  },
+  "K-459": {
+    "title": "Rita dubbelt så många",
+    "instruction": "Rita samma grupp en gång till i den tomma rutan. Skriv sedan hur många det blir tillsammans."
+  },
+  "G1-450": {
+    "title": "Är talet dubbelt så stort som ett tal?",
+    "instruction": "Ringa in varje tal som är dubbelt så stort som ett annat tal: det går att dela i två lika stora grupper."
+  },
+  "G1-451": {
+    "title": "Maskiner för dubbelt och hälften",
+    "instruction": "Maskinen ”dubbelt” dubblar varje tal. Maskinen ”hälften” halverar det. Fyll i de tomma rutorna."
+  },
+  "G1-452": {
+    "title": "Memory med dubbelt",
+    "instruction": "Klipp ut korten. Hitta paren: ett tal och dubbelt så mycket."
   }
 }

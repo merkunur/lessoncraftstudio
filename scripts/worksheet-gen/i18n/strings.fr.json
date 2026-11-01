@@ -3535,5 +3535,25 @@
   "G2-397": {
     "title": "Les chiffres manquants",
     "instruction": "Trouve les chiffres qui manquent. Écris chacun dans une case en pointillés pour que l'opération soit juste."
+  },
+  "G1-449": {
+    "title": "Les presque-doubles",
+    "instruction": "Utilise un double que tu connais. Écris le double, puis ajoute un pour trouver la somme."
+  },
+  "K-459": {
+    "title": "Dessine le double",
+    "instruction": "Dessine encore une fois le même groupe dans la case vide. Puis écris combien il y en a en tout."
+  },
+  "G1-450": {
+    "title": "Est-ce un double ?",
+    "instruction": "Entoure chaque nombre qui est un double : il se partage en deux groupes égaux."
+  },
+  "G1-451": {
+    "title": "Les machines à doubles et à moitiés",
+    "instruction": "La machine « le double » double chaque nombre. La machine « la moitié » donne la moitié de chaque nombre. Complète les cases vides."
+  },
+  "G1-452": {
+    "title": "Mémory des doubles",
+    "instruction": "Découpe les cartes. Trouve les paires : un nombre et son double."
   }
 }

@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 877,
+ "count": 882,
  "failures": [],
  "rows": [
   {
@@ -9396,6 +9396,33 @@
    "science": false
   },
   {
+   "id": "K-459",
+   "file": "scripts/worksheet-gen/types/k/K-459-draw-the-double.js",
+   "grade": "K",
+   "slug": "draw-the-double",
+   "family": "doubles-halves",
+   "variationOf": null,
+   "title": "Draw the Double",
+   "instruction": "Draw the same group again in the empty box. Then write how many there are in all.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/doubles-more.js"
+   ],
+   "teachingPoint": "1:doubles-halves",
+   "skill": "Doubles and halves of a group / number to 20",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -9645,7 +9672,8 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
-    "templates/components.js"
+    "templates/components.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "1:fact-families",
    "skill": "Use three related numbers to write the four facts of a fact family (addition and subtraction are inverse)",
@@ -18914,6 +18942,113 @@
    ],
    "teachingPoint": "1:bar-model",
    "skill": "Read a part-part-whole bar model and find the missing part or whole; compare two bars (how many more)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-449",
+   "file": "scripts/worksheet-gen/types/g1/G1-449-near-doubles.js",
+   "grade": "G1",
+   "slug": "near-doubles",
+   "family": "doubles-halves",
+   "variationOf": null,
+   "title": "Near Doubles",
+   "instruction": "Use a double you know. Write the double, then add one to find the sum.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi",
+    "given",
+    "flip"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/doubles-more.js"
+   ],
+   "teachingPoint": "1:near-doubles",
+   "skill": "Near doubles: solve 6 + 7 as a double plus one (or 8 + 8 minus one)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-450",
+   "file": "scripts/worksheet-gen/types/g1/G1-450-is-it-a-double.js",
+   "grade": "G1",
+   "slug": "is-it-a-double",
+   "family": "doubles-halves",
+   "variationOf": null,
+   "title": "Is It a Double?",
+   "instruction": "Circle each number that is a double: it splits into two equal parts.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "per",
+    "lo",
+    "hi",
+    "halves"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/doubles-more.js"
+   ],
+   "teachingPoint": "1:doubles-halves",
+   "skill": "Doubles and halves of a group / number to 20",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-451",
+   "file": "scripts/worksheet-gen/types/g1/G1-451-double-and-half-machines.js",
+   "grade": "G1",
+   "slug": "double-and-half-machines",
+   "family": "doubles-halves",
+   "variationOf": null,
+   "title": "Double and Half Machines",
+   "instruction": "The double machine doubles every number. The half machine halves it. Fill in the empty boxes.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "max",
+    "missIn"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/doubles-more.js"
+   ],
+   "teachingPoint": "1:doubles-halves",
+   "skill": "Doubles and halves of a group / number to 20",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-452",
+   "file": "scripts/worksheet-gen/types/g1/G1-452-doubles-memory-cards.js",
+   "grade": "G1",
+   "slug": "doubles-memory-cards",
+   "family": "doubles-halves",
+   "variationOf": null,
+   "title": "Doubles Memory Cards",
+   "instruction": "Cut out the cards. Find the pairs: a number and its double.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/doubles-more.js"
+   ],
+   "teachingPoint": "1:doubles-halves",
+   "skill": "Doubles and halves of a group / number to 20",
    "strand": "Operations & Algebraic Thinking",
    "science": false
   },

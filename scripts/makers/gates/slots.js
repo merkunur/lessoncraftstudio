@@ -31,7 +31,7 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'K-433', 'K-434', 'K-435', 'K-436', 'K-438', 'K-439',
   // numerals, dots, frames, beads, tallies — no picture or word on the page (Counting, Ten Frames, Number Charts makers)
   'K-446', 'K-449', 'K-450', 'K-451', 'K-452', 'K-453', 'K-454', 'K-021', 'K-022', 'G1-130', 'G1-131', 'G1-132', 'G1-310',
-  'G1-347', 'G1-348', 'G1-434', 'G1-435', 'G1-436', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328']);
+  'G1-347', 'G1-348', 'G1-434', 'G1-435', 'G1-436', 'G1-271', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328']);
 // a template whose theme pictures are DECORATION only (themeAxis.decorative: a corner flourish on a numeral page) has
 // nothing a teacher would swap — no slot is required
 

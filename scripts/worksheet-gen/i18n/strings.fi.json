@@ -3511,5 +3511,25 @@
   "G2-397": {
     "title": "Puuttuvat numerot",
     "instruction": "Etsi puuttuvat numerot. Kirjoita jokainen katkoviivaruutuun niin, että lasku on oikein."
+  },
+  "G1-449": {
+    "title": "Melkein tuplat",
+    "instruction": "Käytä tuplaa, jonka osaat. Kirjoita tupla ja lisää sitten yksi, niin saat summan."
+  },
+  "K-459": {
+    "title": "Piirrä tupla",
+    "instruction": "Piirrä sama ryhmä uudelleen tyhjään laatikkoon. Kirjoita sitten, montako niitä on yhteensä."
+  },
+  "G1-450": {
+    "title": "Onko se tupla?",
+    "instruction": "Ympyröi jokainen luku, joka on tupla: sen voi jakaa kahteen yhtä suureen ryhmään."
+  },
+  "G1-451": {
+    "title": "Tupla-kone ja puolet-kone",
+    "instruction": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot."
+  },
+  "G1-452": {
+    "title": "Tuplamuistipeli",
+    "instruction": "Leikkaa kortit irti. Etsi parit: luku ja sen tupla."
   }
 }

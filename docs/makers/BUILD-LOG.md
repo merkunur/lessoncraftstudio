@@ -7,6 +7,38 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 5: Doubles & Halves (`doubles-halves`) — 10 templates + 5 new (2026-11-01)
+
+- The 10 existing templates (G1-247 and its nine faces) could not be bundled at first: `lib/b2-common.js` read the
+  vocabulary through `publish-cli/deck-rich-alt.js` (Node `fs`). It now goes through `lib/platform/index.js`
+  (`platform.vocab()`, the same loader in Node, so the catalogue is unchanged; the browser build swaps it). Every b2
+  type that uses `safeNouns` benefits. ⚠ The bundler swaps the platform only for the explicit `./platform/index.js`
+  path; a bare `./platform` is not swapped.
+- New templates (NEW-TEMPLATES §8), `types/_shared/doubles-more.js`, print-only with the shared key layer:
+  - G1-449 near doubles: 6 + 7 = 6 + 6 + [1] = [13] (L1, the double printed, its own level line), the child writes
+    the double (L2, either order), half the cards "double minus one" (L3, its own level line). Within 20.
+  - K-459 draw the double: the group, a dashed mirror line, an empty box; n + n. Within 10 at every level (review:
+    it reached 20, which is Grade 1); L3 dots. The groups of up to 3 stay on one row.
+  - G1-450 is it a double? Circle the doubles (40-60 % per page, drawn per page); L2/L3 write the half. "two equal
+    GROUPS", not parts (review: 1 splits into two halves too).
+  - G1-451 double and half machines: in → out, L2/L3 some inputs missing (level line), L3 to 100. The pills reuse the
+    published G1-247 labels.
+  - G1-452 doubles memory cards (material, NO_KEY): every number in one pair, and no number the double of another
+    (review: 1 2 4 8 also pairs 2 with 4 — the generator and the verify now refuse a chain). L1 dots in two rows on
+    every card (review: a different rule for the double cards told which card was which). No position badges.
+- One native + pedagogy reviewer: 10 errors + 11 optional points. Applied: the chain, the K range, Danish/Norwegian
+  compound stems and "en dobbelt/dobbel" (not a noun there), nl/sv wording, fi "puolet" (not "puolikas"), de plural
+  machines and the result box, es-MX straight quotes, fr "donne la moitié", sv "Nästan dubblor", fi title = the pills.
+  Not applied: de L1 naming the 1 (the box is always 1 at that level).
+- My own containment check found the K-459 L3 de row 7 px wide and the 20-dot memory card 3 px wide; fixed.
+- The published picture family (G1-247 and its picture faces) now lets a teacher swap the page's one picture
+  (`lib/slot.js`; the tap target sits at the END of the card tag, because `lib/doubles-halves-screen.js` splits cards
+  on the tag's exact opening). A numbers-only page still draws its noun (same random stream) but offers no slot;
+  G1-271 (numbers at every level) is on the slots gate's no-slot list. The catalogue output is unchanged (slots gate).
+- ⚠ Rebuilding ONE maker (`--makers=`) rewrites the shared data folder with that maker's files only; the parity gate
+  then fails other makers with "data 404". Always end with the full build.
+- Coverage: K-459, G1-450, G1-451, G1-452 → 1:doubles-halves; new point 1:near-doubles (G1-449).
+
 ## B1 maker 4: Addition & Subtraction (`addition-subtraction`) — 25 templates + 8 new (2026-11-01)
 
 - The 25 existing templates bundled with no engine change (parity 150/150, live 1,650 pages). Replaces the old apps

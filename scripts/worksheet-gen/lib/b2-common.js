@@ -5,7 +5,8 @@
  */
 'use strict';
 const { labelSafeNouns, labels, fileUri } = require('../image-cache/resolve.js');
-const { loadVocab } = require('../../publish-cli/deck-rich-alt.js');
+const platform = require('./platform/index.js');   // makers: the browser build swaps in its own vocab (was publish-cli/deck-rich-alt, Node-only)
+const loadVocab = () => platform.vocab();
 const letterStrokes = require('../data/tracing/letter-strokes.js');
 
 let _vocab = null;

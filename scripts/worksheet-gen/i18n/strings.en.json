@@ -3550,5 +3550,25 @@
   "G2-397": {
     "title": "Missing Digits",
     "instruction": "Find the missing digits. Write each one in a dashed box so that the problem is right."
+  },
+  "G1-449": {
+    "title": "Near Doubles",
+    "instruction": "Use a double you know. Write the double, add one, and write the sum."
+  },
+  "K-459": {
+    "title": "Draw the Double",
+    "instruction": "Draw the same group again in the empty box. Then write how many there are in all."
+  },
+  "G1-450": {
+    "title": "Is It a Double?",
+    "instruction": "Circle each number that is a double: it splits into two equal groups."
+  },
+  "G1-451": {
+    "title": "Double and Half Machines",
+    "instruction": "The double machine doubles every number. The half machine halves it. Fill in the empty boxes."
+  },
+  "G1-452": {
+    "title": "Doubles Memory Cards",
+    "instruction": "Cut out the cards. Find the pairs: a number and its double."
   }
 }

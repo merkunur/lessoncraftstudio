@@ -40,7 +40,8 @@
     "number-sequences": "Lukutaulut ja lukujonot",
     "number-lines": "Lukusuorat",
     "number-bonds": "Lukujen hajotelmat ja laskuperheet",
-    "addition-subtraction": "Yhteen- ja vähennyslasku"
+    "addition-subtraction": "Yhteen- ja vähennyslasku",
+    "doubles-halves": "Tuplaa ja puolita"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

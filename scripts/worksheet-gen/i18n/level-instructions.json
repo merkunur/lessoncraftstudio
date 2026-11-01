@@ -3928,5 +3928,104 @@
       "no": "Sammenlign de to stavene. Hvor mye mer er den lange staven enn den korte? Skriv det i ruten.",
       "fi": "Vertaa kahta janaa. Kuinka paljon enemmän pitkä jana on kuin lyhyt? Kirjoita se laatikkoon."
     }
+  },
+  "G1-449": {
+    "1": {
+      "en": "Use a double you know. The double is already written: write the one you add, then the sum.",
+      "de": "Nutze eine Verdopplungsaufgabe, die du kennst. Sie steht schon da: Schreibe die Eins, die du dazurechnest, und dann das Ergebnis.",
+      "fr": "Utilise un double que tu connais. Le double est déjà écrit : écris le nombre que tu ajoutes, puis la somme.",
+      "es": "Usa un doble que conoces. El doble ya está escrito: escribe lo que sumas y luego el resultado.",
+      "pt": "Use um dobro que você já sabe. O dobro já está escrito: escreva quanto você soma e depois o resultado.",
+      "it": "Usa un doppio che conosci. Il doppio è già scritto: scrivi quanto aggiungi, poi il risultato.",
+      "nl": "Gebruik een dubbelsom die je kent. De dubbelsom staat er al: schrijf op wat je erbij telt en dan de uitkomst.",
+      "sv": "Använd en dubbel du kan. Dubbeln står redan där: skriv det du lägger till och sedan summan.",
+      "da": "Brug en dobbelt-opgave, du kender. Den står der allerede: Skriv det, du lægger til, og så summen.",
+      "no": "Bruk en dobbel du kan. Dobbelen står der allerede: Skriv det du legger til, og så summen.",
+      "fi": "Käytä tuplaa, jonka osaat. Tupla on jo valmiina: kirjoita, paljonko lisäät, ja sitten summa."
+    },
+    "3": {
+      "en": "Use a double you know. Some cards add one to the double, some take one away. Write the double, then the sum.",
+      "de": "Nutze eine Verdopplungsaufgabe, die du kennst. Manchmal rechnest du eins dazu, manchmal eins weg. Schreibe sie auf und dann das Ergebnis.",
+      "fr": "Utilise un double que tu connais. Parfois tu ajoutes un, parfois tu enlèves un. Écris le double, puis la somme.",
+      "es": "Usa un doble que conoces. A veces sumas uno y a veces restas uno. Escribe el doble y luego el resultado.",
+      "pt": "Use um dobro que você já sabe. Às vezes você soma um, às vezes tira um. Escreva o dobro e depois o resultado.",
+      "it": "Usa un doppio che conosci. A volte aggiungi uno, a volte togli uno. Scrivi il doppio, poi il risultato.",
+      "nl": "Gebruik een dubbelsom die je kent. Soms tel je er één bij, soms haal je er één af. Schrijf de dubbelsom op en dan de uitkomst.",
+      "sv": "Använd en dubbel du kan. Ibland lägger du till ett, ibland tar du bort ett. Skriv dubbeln och sedan summan.",
+      "da": "Brug en dobbelt-opgave, du kender. Nogle gange lægger du én til, andre gange trækker du én fra. Skriv den, og så summen.",
+      "no": "Bruk en dobbel du kan. Noen ganger legger du til én, andre ganger trekker du fra én. Skriv dobbelen, og så summen.",
+      "fi": "Käytä tuplaa, jonka osaat. Joskus lisäät yhden, joskus otat yhden pois. Kirjoita tupla ja sitten summa."
+    }
+  },
+  "K-459": {
+    "3": {
+      "en": "Draw the same dots again in the empty box. Then write how many there are in all.",
+      "de": "Male die gleichen Punkte noch einmal in das leere Kästchen. Schreibe dann auf, wie viele es zusammen sind.",
+      "fr": "Dessine encore une fois les mêmes points dans la case vide. Puis écris combien il y en a en tout.",
+      "es": "Dibuja los mismos puntos otra vez en el recuadro vacío. Luego escribe cuántos hay en total.",
+      "pt": "Desenhe as mesmas bolinhas de novo no quadro vazio. Depois escreva quantas são ao todo.",
+      "it": "Disegna di nuovo gli stessi punti nel riquadro vuoto. Poi scrivi quanti sono in tutto.",
+      "nl": "Teken dezelfde stippen nog een keer in het lege vak. Schrijf dan op hoeveel het er samen zijn.",
+      "sv": "Rita samma prickar en gång till i den tomma rutan. Skriv sedan hur många det blir tillsammans.",
+      "da": "Tegn de samme prikker én gang til i den tomme kasse. Skriv så, hvor mange der er i alt.",
+      "no": "Tegn de samme prikkene én gang til i den tomme ruten. Skriv så hvor mange det er til sammen.",
+      "fi": "Piirrä samat pisteet uudelleen tyhjään laatikkoon. Kirjoita sitten, montako niitä on yhteensä."
+    }
+  },
+  "G1-450": {
+    "2": {
+      "en": "Circle each number that is a double: it splits into two equal groups. Under each number you circle, write its half.",
+      "de": "Kreise jede Zahl ein, die das Doppelte einer Zahl ist: Sie lässt sich in zwei gleich große Gruppen zerlegen. Schreibe unter jede eingekreiste Zahl ihre Hälfte.",
+      "fr": "Entoure chaque nombre qui est un double : il se partage en deux groupes égaux. Sous chaque nombre entouré, écris sa moitié.",
+      "es": "Encierra cada número que es un doble: se puede partir en dos grupos iguales. Debajo de cada número que encierres, escribe su mitad.",
+      "pt": "Circule cada número que é um dobro: ele se divide em dois grupos iguais. Embaixo de cada número que você circular, escreva a metade dele.",
+      "it": "Cerchia ogni numero che è un doppio: si divide in due gruppi uguali. Sotto ogni numero cerchiato, scrivi la sua metà.",
+      "nl": "Omcirkel elk getal dat het dubbele van een getal is: je kunt het in twee gelijke groepen splitsen. Schrijf onder elk omcirkeld getal de helft ervan.",
+      "sv": "Ringa in varje tal som är dubbelt så stort som ett annat tal: det går att dela i två lika stora grupper. Skriv hälften under varje tal du ringar in.",
+      "da": "Sæt ring om hvert tal, der er det dobbelte af et tal: Det kan deles i to lige store grupper. Skriv halvdelen under hvert tal, du sætter ring om.",
+      "no": "Sett ring rundt hvert tall som er det dobbelte av et tall: Det kan deles i to like store grupper. Skriv halvparten under hvert tall du setter ring rundt.",
+      "fi": "Ympyröi jokainen luku, joka on tupla: sen voi jakaa kahteen yhtä suureen ryhmään. Kirjoita jokaisen ympyröimäsi luvun alle puolet siitä."
+    },
+    "3": {
+      "en": "Circle each number that is a double: it splits into two equal groups. Under each number you circle, write its half.",
+      "de": "Kreise jede Zahl ein, die das Doppelte einer Zahl ist: Sie lässt sich in zwei gleich große Gruppen zerlegen. Schreibe unter jede eingekreiste Zahl ihre Hälfte.",
+      "fr": "Entoure chaque nombre qui est un double : il se partage en deux groupes égaux. Sous chaque nombre entouré, écris sa moitié.",
+      "es": "Encierra cada número que es un doble: se puede partir en dos grupos iguales. Debajo de cada número que encierres, escribe su mitad.",
+      "pt": "Circule cada número que é um dobro: ele se divide em dois grupos iguais. Embaixo de cada número que você circular, escreva a metade dele.",
+      "it": "Cerchia ogni numero che è un doppio: si divide in due gruppi uguali. Sotto ogni numero cerchiato, scrivi la sua metà.",
+      "nl": "Omcirkel elk getal dat het dubbele van een getal is: je kunt het in twee gelijke groepen splitsen. Schrijf onder elk omcirkeld getal de helft ervan.",
+      "sv": "Ringa in varje tal som är dubbelt så stort som ett annat tal: det går att dela i två lika stora grupper. Skriv hälften under varje tal du ringar in.",
+      "da": "Sæt ring om hvert tal, der er det dobbelte af et tal: Det kan deles i to lige store grupper. Skriv halvdelen under hvert tal, du sætter ring om.",
+      "no": "Sett ring rundt hvert tall som er det dobbelte av et tall: Det kan deles i to like store grupper. Skriv halvparten under hvert tall du setter ring rundt.",
+      "fi": "Ympyröi jokainen luku, joka on tupla: sen voi jakaa kahteen yhtä suureen ryhmään. Kirjoita jokaisen ympyröimäsi luvun alle puolet siitä."
+    }
+  },
+  "G1-451": {
+    "2": {
+      "en": "The double machine doubles every number. The half machine halves it. Fill in the empty boxes. Some numbers going in are missing too: think backwards.",
+      "de": "Die Maschine „Verdoppeln“ verdoppelt jede Zahl. Die Maschine „Halbieren“ halbiert sie. Fülle die leeren Kästchen aus. Manchmal fehlt auch die Zahl, die hineingeht: Denke rückwärts.",
+      "fr": "La machine « le double » double chaque nombre. La machine « la moitié » donne la moitié de chaque nombre. Complète les cases vides. Parfois, c'est le nombre qui entre qui manque : réfléchis à l'envers.",
+      "es": "La máquina \"el doble\" duplica cada número. La máquina \"la mitad\" lo parte a la mitad. Completa los recuadros vacíos. A veces falta el número que entra: piensa al revés.",
+      "pt": "A máquina do dobro dobra cada número. A máquina da metade divide o número ao meio. Complete os quadradinhos vazios. Às vezes falta o número que entra: pense de trás para a frente.",
+      "it": "La macchina «il doppio» raddoppia ogni numero. La macchina «la metà» lo dimezza. Completa i riquadri vuoti. A volte manca il numero che entra: ragiona al contrario.",
+      "nl": "De machine „verdubbelen” verdubbelt elk getal. De machine „halveren” halveert het. Vul de lege vakjes in. Soms ontbreekt het getal dat erin gaat: denk achteruit.",
+      "sv": "Maskinen ”dubbelt” dubblar varje tal. Maskinen ”hälften” halverar det. Fyll i de tomma rutorna. Ibland saknas talet som går in: tänk baklänges.",
+      "da": "Maskinen ”det dobbelte” fordobler hvert tal. Maskinen ”det halve” halverer det. Udfyld de tomme felter. Nogle gange mangler tallet, der går ind: Tænk baglæns.",
+      "no": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene. Noen ganger mangler tallet som går inn: Tenk baklengs.",
+      "fi": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
+    },
+    "3": {
+      "en": "The double machine doubles every number. The half machine halves it. Fill in the empty boxes. Some numbers going in are missing too: think backwards.",
+      "de": "Die Maschine „Verdoppeln“ verdoppelt jede Zahl. Die Maschine „Halbieren“ halbiert sie. Fülle die leeren Kästchen aus. Manchmal fehlt auch die Zahl, die hineingeht: Denke rückwärts.",
+      "fr": "La machine « le double » double chaque nombre. La machine « la moitié » donne la moitié de chaque nombre. Complète les cases vides. Parfois, c'est le nombre qui entre qui manque : réfléchis à l'envers.",
+      "es": "La máquina \"el doble\" duplica cada número. La máquina \"la mitad\" lo parte a la mitad. Completa los recuadros vacíos. A veces falta el número que entra: piensa al revés.",
+      "pt": "A máquina do dobro dobra cada número. A máquina da metade divide o número ao meio. Complete os quadradinhos vazios. Às vezes falta o número que entra: pense de trás para a frente.",
+      "it": "La macchina «il doppio» raddoppia ogni numero. La macchina «la metà» lo dimezza. Completa i riquadri vuoti. A volte manca il numero che entra: ragiona al contrario.",
+      "nl": "De machine „verdubbelen” verdubbelt elk getal. De machine „halveren” halveert het. Vul de lege vakjes in. Soms ontbreekt het getal dat erin gaat: denk achteruit.",
+      "sv": "Maskinen ”dubbelt” dubblar varje tal. Maskinen ”hälften” halverar det. Fyll i de tomma rutorna. Ibland saknas talet som går in: tänk baklänges.",
+      "da": "Maskinen ”det dobbelte” fordobler hvert tal. Maskinen ”det halve” halverer det. Udfyld de tomme felter. Nogle gange mangler tallet, der går ind: Tænk baglæns.",
+      "no": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene. Noen ganger mangler tallet som går inn: Tenk baklengs.",
+      "fi": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
+    }
   }
 }

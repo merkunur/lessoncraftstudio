@@ -3529,5 +3529,25 @@
   "G2-397": {
     "title": "Sifre som mangler",
     "instruction": "Finn sifrene som mangler. Skriv hvert siffer i en stiplet rute, slik at regnestykket stemmer."
+  },
+  "G1-449": {
+    "title": "Nesten dobbelt",
+    "instruction": "Bruk en dobbel du kan. Skriv dobbelen, og legg så til én for å finne summen."
+  },
+  "K-459": {
+    "title": "Tegn det dobbelte",
+    "instruction": "Tegn den samme gruppen én gang til i den tomme ruten. Skriv så hvor mange det er til sammen."
+  },
+  "G1-450": {
+    "title": "Er tallet det dobbelte av et tall?",
+    "instruction": "Sett ring rundt hvert tall som er det dobbelte av et tall: Det kan deles i to like store grupper."
+  },
+  "G1-451": {
+    "title": "Doblings- og halveringsmaskiner",
+    "instruction": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene."
+  },
+  "G1-452": {
+    "title": "Memory med det dobbelte",
+    "instruction": "Klipp ut kortene. Finn parene: et tall og det dobbelte av tallet."
   }
 }

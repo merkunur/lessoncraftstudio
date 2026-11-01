@@ -42,16 +42,17 @@ module.exports = {
     const bw = bwSibling(theme);
     const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(bw), d.rows), labelSafeNouns(bw), bw);
     const iconPx = Math.min(56, Math.floor((470 - (d.rowLen - 1) * 8) / d.rowLen));
+    const marks = !!(ctx.answerKey || ctx.screen);   // the screen: any n of the row's icons (data-lcs-want); the key rings the first n
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
       const n = rng.int(1, Math.min(d.maxN, d.rowLen - 1));
       const icons = Array.from({ length: d.rowLen }, (_, k) =>
-        `<img class="ws-icon" src="${fileUri(bw, nouns[i].noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"${ctx.answerKey && k < n ? ' data-lcs-key-ring="1"' : ''}>`).join('');
+        `<img class="ws-icon" src="${fileUri(bw, nouns[i].noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"${marks ? ' data-lcs-pick="1"' : ''}${ctx.answerKey && k < n ? ' data-lcs-key-ring="1"' : ''}>`).join('');
       cards.push(
         `<div class="ws-card-stage" style="gap:16px;padding:6px 10px" data-lcs-colorn="${n}" data-lcs-rowlen="${d.rowLen}">` +
         `<span style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;` +
         `background:#F2784B;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:24px">${n}</span>` +
-        `<span style="flex:1 1 auto;display:flex;justify-content:space-evenly;align-items:center;min-width:0">${icons}</span>` +
+        `<span style="flex:1 1 auto;display:flex;justify-content:space-evenly;align-items:center;min-width:0"${marks ? ` data-lcs-want="${n}"` : ''}>${icons}</span>` +
         `</div>`
       );
     }

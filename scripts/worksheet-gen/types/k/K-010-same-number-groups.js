@@ -42,7 +42,7 @@ module.exports = {
       const boxes = counts.map((n, k) => {
         const fit = fitIcons({ n, stageW: 160, stageH: 130, maxPx: 48, gapX: 5, gapY: 4 });
         // the maker's key rings both (catalogue unchanged)
-        return `<div class="ws-subgroup"${slot.attr(ctx, `row${i + 1}`, k)} data-lcs-group="${n}"${n === same ? ' data-lcs-equal="1"' + (ctx && ctx.answerKey ? ' data-lcs-correct="1"' : '') : ''}>` +
+        return `<div class="ws-subgroup"${slot.attr(ctx, `row${i + 1}`, k)} data-lcs-group="${n}"${n === same ? ' data-lcs-equal="1"' + (ctx && (ctx.answerKey || ctx.screen) ? ' data-lcs-correct="1"' : '') : ''}>` +
           iconRows({ theme, noun: nouns[k].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 5, gapY: 4 }) +
           `</div>`;
       });

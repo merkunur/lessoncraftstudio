@@ -83,7 +83,15 @@ function makePage(o) {
     keyHtml = buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize });
     if (!type.interactive) keyHtml = keyMarks(keyHtml) ? keyHtml.replace('</head>', KEY_CSS + '</head>').replace(/<body([^>]*)>/, (m, at) => (/class="/.test(at) ? m.replace('class="', 'class="lcs-keypage ') : `<body${at} class="lcs-keypage">`)) : null;
   }
-  return { html, keyHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
+  // the SCREEN build (screen-from-marks, 2026-11-01): the page with every answer mark its key build stamps, without the
+  // key's drawn samples — what scripts/makers/screen.js reads the tap targets and answers from; same content (meta)
+  let screenHtml = null;
+  if (o.screen) {
+    const scBuilt = type.build({ theme, difficulty, locale, unit }, ctx({ screen: true }));
+    if (JSON.stringify(scBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the screen build drew different content than the page (' + type.id + ')');
+    screenHtml = buildPage({ title: head, instruction: strings.instruction, bodyHtml: scBuilt.bodyHtml, locale, pageSize });
+  }
+  return { html, keyHtml, screenHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
 }
 
 /**
@@ -136,4 +144,4 @@ async function generate(o, mount) {
   return { ok: false, fails };
 }
 
-module.exports = { makePage, gatePage, generate, mountHtml, platform, keyMarks };
+module.exports = { makePage, gatePage, generate, mountHtml, platform, keyMarks, screen: require('./screen.js') };

@@ -42,11 +42,11 @@ module.exports = {
     const items = rng.shuffle([...Array(d.targets).fill(null), ...foilSeq]);
     const html = items.map((f) => {
       const w = f == null ? word : f;
-      return `<div data-lcs-cell data-lcs-target="${f == null ? 1 : 0}"${ctx.answerKey && f == null ? ' data-lcs-key-ring="1"' : ''} style="border:2px solid #3B3632;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Nunito',sans-serif;font-weight:800;font-size:${d.fontPx}px;min-height:0">${SW.esc(w)}</div>`;
+      return `<div data-lcs-cell data-lcs-target="${f == null ? 1 : 0}"${(ctx.answerKey || ctx.screen) && f == null ? ' data-lcs-key-ring="1"' : ''} style="border:2px solid #3B3632;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Nunito',sans-serif;font-weight:800;font-size:${d.fontPx}px;min-height:0">${SW.esc(w)}</div>`;
     });
     const grid = `<div data-lcs-grid style="flex:1;display:grid;grid-template-columns:repeat(${d.cols},1fr);grid-template-rows:repeat(${d.rows},1fr);gap:10px">${html.join('')}</div>`;
     const head = `<div style="display:flex;justify-content:center">${SW.wordBox(word, 58)}</div>`;
-    const count = `<div style="display:flex;align-items:center;gap:14px;justify-content:flex-end">${SW.sectionLabel(SW.label('count', loc))}<div data-lcs-countbox style="width:78px;height:62px;border:3px solid #3B3632;border-radius:10px${ctx.answerKey ? `;display:flex;align-items:center;justify-content:center;font:700 34px 'Baloo 2',cursive;color:#146B5E" data-lcs-key-sample="1">${d.targets}` : '">'}</div></div>`;
+    const count = `<div style="display:flex;align-items:center;gap:14px;justify-content:flex-end">${SW.sectionLabel(SW.label('count', loc))}<div data-lcs-countbox${ctx.screen ? ` data-lcs-answer="${d.targets}"` : ''} style="width:78px;height:62px;border:3px solid #3B3632;border-radius:10px${ctx.answerKey ? `;display:flex;align-items:center;justify-content:center;font:700 34px 'Baloo 2',cursive;color:#146B5E" data-lcs-key-sample="1">${d.targets}` : '">'}</div></div>`;
     return {
       bodyHtml: `<div data-ws-content data-lcs-sightword="${SW.esc(word)}" data-lcs-targets="${d.targets}" style="flex:1;display:flex;flex-direction:column;gap:14px">${head}${grid}${count}</div>`,
       meta: { word, foils: [...new Set(foilSeq)] },

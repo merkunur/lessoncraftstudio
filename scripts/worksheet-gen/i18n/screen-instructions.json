@@ -1,0 +1,76 @@
+{
+  "_note": "Screen-from-marks (worksheet makers, 2026-11-01; INTERACTIVE-AND-SHARING §B.3): ONE on-screen sentence per screen kind, shown above the page of a template whose screen is derived from its answer marks (a page keeps its own printed instruction — the task; this line says how to answer it on a screen). 'type' covers number and word boxes. Authored by the build session; NATIVE REVIEW PENDING (docs/makers/handoff/01-screen-from-marks.md). _ui = the maker screen's own words for the screen preview (to be folded into frontend/messages/makers/<loc>.json by the main session). The Check button is named exactly as REFERENCE TRANSLATIONS/translations-shared.js runtimeCheckAnswers names it in each language.",
+  "_generic": {
+    "type": {
+      "en": "Tap a box and type your answer. Then tap Check Answers.",
+      "de": "Tippe auf ein Kästchen und gib deine Antwort ein. Tippe danach auf „Antworten prüfen“.",
+      "fr": "Touche une case et écris ta réponse. Ensuite, touche « Vérifier les réponses ».",
+      "es": "Toca un cuadro y escribe tu respuesta. Luego toca «Comprobar respuestas».",
+      "pt": "Toque em um quadro e digite sua resposta. Depois, toque em “Verificar respostas”.",
+      "it": "Tocca una casella e scrivi la risposta. Poi tocca «Controlla risposte».",
+      "nl": "Tik op een vakje en typ je antwoord. Tik daarna op ‘Antwoorden controleren’.",
+      "sv": "Tryck på en ruta och skriv ditt svar. Tryck sedan på ”Kontrollera svar”.",
+      "da": "Tryk på et felt, og skriv dit svar. Tryk derefter på ”Kontroller svar”.",
+      "no": "Trykk på en rute og skriv svaret ditt. Trykk deretter på «Sjekk svar».",
+      "fi": "Napauta ruutua ja kirjoita vastauksesi. Napauta sitten ”Tarkista vastaukset”."
+    },
+    "tap-choice": {
+      "en": "Tap the answer you would circle. Then tap Check Answers.",
+      "de": "Tippe auf die Antwort, die du einkreisen würdest. Tippe danach auf „Antworten prüfen“.",
+      "fr": "Touche la réponse que tu entourerais. Ensuite, touche « Vérifier les réponses ».",
+      "es": "Toca la respuesta que encerrarías en un círculo. Luego toca «Comprobar respuestas».",
+      "pt": "Toque na resposta que você circularia. Depois, toque em “Verificar respostas”.",
+      "it": "Tocca la risposta che cerchieresti. Poi tocca «Controlla risposte».",
+      "nl": "Tik op het antwoord dat je zou omcirkelen. Tik daarna op ‘Antwoorden controleren’.",
+      "sv": "Tryck på svaret du skulle ringa in. Tryck sedan på ”Kontrollera svar”.",
+      "da": "Tryk på det svar, du ville sætte ring om. Tryk derefter på ”Kontroller svar”.",
+      "no": "Trykk på svaret du ville satt ring rundt. Trykk deretter på «Sjekk svar».",
+      "fi": "Napauta vastausta, jonka ympyröisit. Napauta sitten ”Tarkista vastaukset”."
+    },
+    "tap-select": {
+      "en": "Tap everything you would circle or color. Tap again to undo. Then tap Check Answers.",
+      "de": "Tippe auf alles, was du einkreisen oder ausmalen würdest. Tippe noch einmal, um es rückgängig zu machen. Tippe danach auf „Antworten prüfen“.",
+      "fr": "Touche tout ce que tu entourerais ou colorierais. Touche encore pour annuler. Ensuite, touche « Vérifier les réponses ».",
+      "es": "Toca todo lo que encerrarías en un círculo o colorearías. Toca otra vez para deshacer. Luego toca «Comprobar respuestas».",
+      "pt": "Toque em tudo o que você circularia ou pintaria. Toque de novo para desfazer. Depois, toque em “Verificar respostas”.",
+      "it": "Tocca tutto ciò che cerchieresti o coloreresti. Tocca di nuovo per annullare. Poi tocca «Controlla risposte».",
+      "nl": "Tik op alles wat je zou omcirkelen of kleuren. Tik nog een keer om het ongedaan te maken. Tik daarna op ‘Antwoorden controleren’.",
+      "sv": "Tryck på allt du skulle ringa in eller färglägga. Tryck igen för att ångra. Tryck sedan på ”Kontrollera svar”.",
+      "da": "Tryk på alt det, du ville sætte ring om eller farve. Tryk igen for at fortryde. Tryk derefter på ”Kontroller svar”.",
+      "no": "Trykk på alt du ville satt ring rundt eller fargelagt. Trykk igjen for å angre. Trykk deretter på «Sjekk svar».",
+      "fi": "Napauta kaikkea, minkä ympyröisit tai värittäisit. Napauta uudelleen, jos haluat perua. Napauta sitten ”Tarkista vastaukset”."
+    },
+    "tap-pair": {
+      "en": "Tap a picture, then tap what it goes with. Then tap Check Answers.",
+      "de": "Tippe auf ein Bild und dann auf das, was dazugehört. Tippe danach auf „Antworten prüfen“.",
+      "fr": "Touche une image, puis touche ce qui va avec. Ensuite, touche « Vérifier les réponses ».",
+      "es": "Toca una imagen y luego toca lo que va con ella. Luego toca «Comprobar respuestas».",
+      "pt": "Toque em uma figura e depois no que combina com ela. Depois, toque em “Verificar respostas”.",
+      "it": "Tocca un'immagine, poi tocca ciò che va insieme a lei. Poi tocca «Controlla risposte».",
+      "nl": "Tik op een plaatje en tik daarna op wat erbij hoort. Tik daarna op ‘Antwoorden controleren’.",
+      "sv": "Tryck på en bild och sedan på det som hör ihop med den. Tryck sedan på ”Kontrollera svar”.",
+      "da": "Tryk på et billede, og tryk derefter på det, der hører til. Tryk derefter på ”Kontroller svar”.",
+      "no": "Trykk på et bilde, og trykk så på det som hører sammen med det. Trykk deretter på «Sjekk svar».",
+      "fi": "Napauta kuvaa ja sitten sitä, mikä kuuluu sen pariksi. Napauta sitten ”Tarkista vastaukset”."
+    },
+    "tap-place": {
+      "en": "Tap a choice at the top, then tap where it belongs. Then tap Check Answers.",
+      "de": "Tippe oben auf eine Auswahl und dann dorthin, wo sie hingehört. Tippe danach auf „Antworten prüfen“.",
+      "fr": "Touche un choix en haut, puis touche l'endroit où il va. Ensuite, touche « Vérifier les réponses ».",
+      "es": "Toca una opción de arriba y luego toca el lugar donde va. Luego toca «Comprobar respuestas».",
+      "pt": "Toque em uma opção no alto e depois no lugar onde ela fica. Depois, toque em “Verificar respostas”.",
+      "it": "Tocca una scelta in alto, poi tocca il posto in cui va. Poi tocca «Controlla risposte».",
+      "nl": "Tik bovenaan op een keuze en tik daarna op de plek waar die hoort. Tik daarna op ‘Antwoorden controleren’.",
+      "sv": "Tryck på ett alternativ högst upp och sedan där det hör hemma. Tryck sedan på ”Kontrollera svar”.",
+      "da": "Tryk på et valg øverst, og tryk derefter der, hvor det hører til. Tryk derefter på ”Kontroller svar”.",
+      "no": "Trykk på et valg øverst, og trykk så der det hører hjemme. Trykk deretter på «Sjekk svar».",
+      "fi": "Napauta vaihtoehtoa ylhäältä ja sitten paikkaa, johon se kuuluu. Napauta sitten ”Tarkista vastaukset”."
+    }
+  },
+  "_ui": {
+    "screenVersion": { "en": "Screen version", "de": "Bildschirmversion", "fr": "Version écran", "es": "Versión en pantalla", "pt": "Versão na tela", "it": "Versione su schermo", "nl": "Schermversie", "sv": "Skärmversion", "da": "Skærmversion", "no": "Skjermversjon", "fi": "Näyttöversio" },
+    "screenTitle": { "en": "Screen version — what a student sees", "de": "Bildschirmversion – so sieht es ein Kind", "fr": "Version écran – ce que voit l'élève", "es": "Versión en pantalla: lo que ve el alumno", "pt": "Versão na tela: o que o aluno vê", "it": "Versione su schermo: ciò che vede l'alunno", "nl": "Schermversie – wat een leerling ziet", "sv": "Skärmversion – så ser eleven det", "da": "Skærmversion – det, eleven ser", "no": "Skjermversjon – slik ser eleven det", "fi": "Näyttöversio – näin oppilas näkee sen" },
+    "screenNone": { "en": "This worksheet has no screen version: it is for paper.", "de": "Dieses Arbeitsblatt hat keine Bildschirmversion: Es ist zum Ausdrucken.", "fr": "Cette fiche n'a pas de version écran : elle est faite pour le papier.", "es": "Esta hoja no tiene versión en pantalla: es para papel.", "pt": "Esta folha não tem versão na tela: ela é para papel.", "it": "Questa scheda non ha una versione su schermo: è per la carta.", "nl": "Dit werkblad heeft geen schermversie: het is voor papier.", "sv": "Det här arbetsbladet har ingen skärmversion: det är gjort för papper.", "da": "Dette ark har ingen skærmversion: det er til papir.", "no": "Dette arket har ingen skjermversjon: det er laget for papir.", "fi": "Tällä tehtäväsivulla ei ole näyttöversiota: se on paperille." },
+    "screenLevelNone": { "en": "This level has no screen version.", "de": "Diese Stufe hat keine Bildschirmversion.", "fr": "Ce niveau n'a pas de version écran.", "es": "Este nivel no tiene versión en pantalla.", "pt": "Este nível não tem versão na tela.", "it": "Questo livello non ha una versione su schermo.", "nl": "Dit niveau heeft geen schermversie.", "sv": "Den här nivån har ingen skärmversion.", "da": "Dette niveau har ingen skærmversion.", "no": "Dette nivået har ingen skjermversjon.", "fi": "Tällä tasolla ei ole näyttöversiota." }
+  }
+}

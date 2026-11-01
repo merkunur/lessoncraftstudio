@@ -84,7 +84,7 @@ function makeOddMoreType(cfg) {
       if (mode === 'stripes') {
         const want = [];
         for (let v = 1; v <= d.end; v++) if (par(v) === d.colour) want.push(v);
-        const chart = hundredsChart({ start: 1, end: d.end, cell: d.cell, highlights: key ? want : [] }, ctx);
+        const chart = hundredsChart({ start: 1, end: d.end, cell: d.cell, highlights: key ? want : [], ...(ctx.screen ? { cellBoxes: { rings: want } } : {}) }, ctx);
         const svg = typeof chart === 'string' ? chart : chart.svg;
         let follow = '';
         if (d.ones) {
@@ -139,7 +139,9 @@ function makeOddMoreType(cfg) {
         const SLOTS = d.cards - 2;   // more spaces than any page fills, so the box count tells nothing
         const house = (p) => {
           const mine = nums.filter((v) => par(v) === p).sort((a, b) => a - b);
-          const slots = Array.from({ length: SLOTS }, (_, k) => answerBox({ w: 92, h: 80, answer: key && k < mine.length ? mine[k] : '' })).join('');
+          const slots = Array.from({ length: SLOTS }, (_, k) => (ctx.screen
+            ? answerBox({ w: 92, h: 80, answer: k < mine.length ? mine[k] : '-' }).replace('data-lcs-answer=', `data-lcs-set="${p}" data-lcs-answer=`)
+            : answerBox({ w: 92, h: 80, answer: key && k < mine.length ? mine[k] : '' }))).join('');
           return `<div class="ws-subgroup" data-lcs-house="${p}" style="flex:1 1 0;display:flex;flex-direction:column;align-items:center;gap:10px;padding:10px;border-radius:14px;background:${p === 'even' ? '#DDEBE8' : '#FBE3D8'}">` +
             `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:${INK}">${words[p]}</span>` +
             `<span style="display:grid;grid-template-columns:repeat(3,92px);gap:8px;justify-content:center">${slots}</span></div>`;

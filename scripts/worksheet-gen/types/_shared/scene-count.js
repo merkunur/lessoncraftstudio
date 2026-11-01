@@ -40,7 +40,7 @@ function makeSceneCountType(cfg) {
       const iconPx = Math.min(96, Math.max(58, Math.floor(Math.sqrt((600 * (sceneH - 20)) / total) * 0.55)));
       const scene =
         `<div class="ws-scene" data-lcs-scene data-ws-content>` +
-        mixedScatter({ theme, items, w: 600, h: sceneH - 20, iconPx, rng, ...(ctx.answerKey && mode === 'find' ? { mark: (it) => (it === items[0] ? ' data-lcs-key-ring="1"' : '') } : {}) }) +
+        mixedScatter({ theme, items, w: 600, h: sceneH - 20, iconPx, rng, ...((ctx.answerKey || ctx.screen) && mode === 'find' ? { mark: (it) => (it === items[0] ? ' data-lcs-key-ring="1"' : '') } : {}) }) +
         `</div>`;
 
       let below;

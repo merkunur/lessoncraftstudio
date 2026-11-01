@@ -269,7 +269,7 @@ function makeLineMoreType(cfg) {
         if (fr.length < d.lines) throw new Error('number-line-more: not enough fractions for ' + d.lines + ' lines');
         const cards = fr.map((f) => {
           const labelText = { 0: '0', 1: '1', 2: '2' };
-          const nl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 480, labelText, rings: key ? [f.p / f.b] : [] });
+          const nl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 480, labelText, rings: key ? [f.p / f.b] : [], ...(ctx.screen ? { tickBoxes: { rings: [f.p / f.b] } } : {}) });
           return `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:26px" data-lcs-fraction="${f.p}/${f.b}">${stacked(f.p, f.b)}${key ? sample(nl.svg) : nl.svg}</div>`;
         });
         return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: d.lines })), meta: { items: fr.map((f) => f.p + '/' + f.b) } };

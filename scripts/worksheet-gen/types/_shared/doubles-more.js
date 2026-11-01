@@ -142,7 +142,7 @@ function makeDoublesMoreType(cfg) {
         for (let r = 0; r < d.rows; r++) {
           const chips = nums.slice(r * d.per, (r + 1) * d.per).map((v) => {
             const dbl = v % 2 === 0;
-            const c = `<span data-lcs-chip="${v}"${dbl ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;display:inline-flex;width:84px;height:84px;border-radius:50%;border:2.5px solid ${GRID};background:#FFFFFF;align-items:center;justify-content:center">${NUM(v, 40)}</span>`;
+            const c = `<span data-lcs-chip="${v}"${ctx.answerKey || ctx.screen ? ' data-lcs-pick="1"' : ''}${dbl ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;display:inline-flex;width:84px;height:84px;border-radius:50%;border:2.5px solid ${GRID};background:#FFFFFF;align-items:center;justify-content:center">${NUM(v, 40)}</span>`;
             return d.halves ? `<span style="display:flex;flex-direction:column;align-items:center;gap:8px">${c}${answerBox({ w: 68, h: 52, answer: dbl ? v / 2 : '' })}</span>` : c;
           });
           cards.push(`<div class="ws-card-stage" data-lcs-row="${r}" style="justify-content:space-evenly;align-items:center">${chips.join('')}</div>`);

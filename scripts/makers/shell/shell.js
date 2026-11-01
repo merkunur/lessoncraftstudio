@@ -170,6 +170,63 @@ async function boot() {
   });
   $('mk-print').addEventListener('click', printAll);
   $('mk-pdf').addEventListener('click', downloadPdf);
+  $('mk-screen').textContent = screenUi('screenVersion');
+  $('mk-screen').addEventListener('click', () => openScreenPreview(0));
+}
+
+/* ---------- the screen version (screen-from-marks, INTERACTIVE-AND-SHARING §B; the student page itself is P4) ---------- */
+
+/** the preview's own words (templates.json screenUi, built from i18n/screen-instructions.json) */
+const screenUi = (k) => ((tj.screenUi && (tj.screenUi[LANG] || tj.screenUi.en)) || {})[k] || k;
+/** does this template's current level have a screen built from its marks? */
+const screenAt = (t) => t.screen === 'marks' && (t.screenLevels || []).includes(state.level);
+
+/**
+ * The screen version of page i, built in this browser from the page's own answer marks: the SCREEN build of the page
+ * (the same seed and settings the gated page used — its attempt is replayed — with the marks its key carries), read by
+ * the engine (scripts/makers/screen.js) inside the gate frame, served with the marks stripped. The teacher's drawing
+ * rides on the page; border and page numbers do not (they are paper).
+ */
+async function screenHtmlFor(i) {
+  const r = await pageResult(i);
+  if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
+  const t = tj.templates.find((x) => x.id === state.id);
+  const type = await loadType(state.id);
+  const made = mod.makePage({ ...pageOptions(i), ...(r.attempt || {}), type, screen: true });
+  const html = withInk(made.screenHtml, i, false);
+  const strings = tj.runtimeStrings && tj.runtimeStrings[LANG];
+  const instructions = (tj.screenInstructions && tj.screenInstructions[LANG]) || {};
+  if (!strings) throw new Error('no runtime strings for ' + LANG);
+  // one gate frame: the screen is read after any page still being gated
+  gateQueue = gateQueue.then(() => mod.screen.buildScreen({ html, locale: LANG, strings, instruction: (pl) => instructions[mod.screen.instructionKey(pl)] || '', mount: (h) => mod.mountHtml(gateFrame, h) }));
+  const sc = await gateQueue;
+  if (!t.screenLevels.includes(state.level)) throw new Error('no screen at this level');
+  return sc.html;
+}
+
+async function openScreenPreview(i) {
+  const t = tj.templates.find((x) => x.id === state.id);
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const head = el('div', { class: 'mk-pick-head' }, [el('h2', { text: screenUi('screenTitle') }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]);
+  const note = el('p', { class: 'mk-pick-note', id: 'mk-pick-note' });
+  const host = el('div', { class: 'mk-screen-host' });
+  const tabs = el('div', { class: 'mk-screen-tabs', role: 'tablist' });
+  if (state.pages.length > 1) for (let k = 0; k < state.pages.length; k++) tabs.append(el('button', { type: 'button', class: 'mk-chip', role: 'tab', 'aria-pressed': String(k === i), text: `${UI.page} ${k + 1}`, on: { click: () => openScreenPreview(k) } }));
+  dlg.replaceChildren(head, note, tabs, host);
+  if (!dlg.open) dlg.showModal();
+  if (!screenAt(t)) { note.textContent = t.screen ? screenUi('screenLevelNone') : screenUi('screenNone'); return; }
+  note.textContent = UI.loading;
+  try {
+    const html = await screenHtmlFor(i);
+    const f = el('iframe', { class: 'mk-screen-frame', title: screenUi('screenVersion'), srcdoc: html });
+    guardFrame(f);
+    host.replaceChildren(f);
+    note.textContent = '';
+  } catch (e) {
+    console.warn('screen refused', e.fails || e);
+    note.textContent = UI.failed;
+  }
 }
 
 let variantCounter = 1;
@@ -277,12 +334,17 @@ function sampleOptions(t) {
   return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
 }
 
-function pageResult(i) {
+/** The makePage options of page i (a colleague's shared worksheet is built from its recipe, not the sample). */
+function pageOptions(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
-  const o = canView()   // a colleague's shared worksheet is built from its recipe, not the sample
+  return canView()
     ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : sampleOptions(t);
+}
+
+function pageResult(i) {
+  const o = pageOptions(i);
   const id = state.id;
   const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null, o.strings.title, o.strings.instruction]);
   if (!results.has(cacheKey)) {
@@ -527,6 +589,8 @@ async function render() {
   $('mk-print').disabled = refused > 0;
   // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
   $('mk-print').hidden = !canView();
+  // the screen version: only where this template's level derives one from its marks (templates.json screen / screenLevels)
+  $('mk-screen').hidden = !canView() || !screenAt(t);
   $('mk-pdf').hidden = !canView() || !showRasterPdf();
   updateSaveButtons();
   $('mk-pdf').disabled = refused > 0;

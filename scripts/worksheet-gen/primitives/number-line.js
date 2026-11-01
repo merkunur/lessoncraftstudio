@@ -7,9 +7,9 @@
  */
 'use strict';
 const tokens = require('./_tokens.js');
-const { svgRoot, line, circle, el, tickRow } = require('./_svg.js');
+const { svgRoot, line, circle, el, tickRow, roundedRect } = require('./_svg.js');
 
-function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null, rings = [] }, ctx) {
+function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null, rings = [], tickBoxes = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const padX = 26;
   // nt20-B `pointers` (G1-248): a coral arrow from a dashed answer box down to
@@ -63,6 +63,16 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
   marks.forEach((v) => {
     parts.push(circle({ cx: ticks.xFor(v), cy: y, r: 7, fill: t.color.teal, data: { 'data-lcs-mark': v } }));
   });
+
+  // screen-from-marks 2026-11-01 (additive, screen builds only): a transparent hit box per tick, a candidate to tap;
+  // tickBoxes.rings = the ticks the task marks (the right ones; matched within a hundredth of a tick)
+  if (tickBoxes) {
+    const n = Math.round((max - min) / tickStep), sp = width / n;
+    for (let k = 0; k <= n; k++) {
+      const v = min + k * tickStep, hit = (tickBoxes.rings || []).some((r) => Math.abs(r - v) < tickStep / 100);
+      parts.push(roundedRect({ x: ticks.xFor(v) - sp / 2, y: y - 20, w: sp, h: 40, r: 4, fill: 'none', data: { 'data-lcs-tickbox': k, 'data-lcs-pick': 1, ...(hit ? { 'data-lcs-key-ring': 1 } : {}) } }));
+    }
+  }
 
   // Number Lines Level Set 2026-10-13 (screen + key only; additive): a pointer may be `ask` (a coral ? in its box) or
   // `show` (its answer written in the box); `rings` circles marks (the key of "circle its dot").

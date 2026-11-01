@@ -80,14 +80,18 @@ function cupSvg(w = 92) {
 }
 
 /** one rainbow row: the target N in a circle, the numbers 1 … N−1 (in order or mixed), arcs above (example / key) */
-function rainbowSvg({ N, order, arcs, rings, given }) {
+function rainbowSvg({ N, order, arcs, rings, given, pairs }) {
   const W = 690, x0 = 84, n = order.length, sp = (W - x0 - 16) / n;
   const yNum = 158, fs = n > 14 ? 27 : 30, top = 10;   // review: the long rows read too small at 22
   const xOf = (v) => x0 + (order.indexOf(v) + 0.5) * sp;
   let s = `<circle cx="40" cy="${yNum - 10}" r="30" fill="${CREAM}" stroke="${TEAL}" stroke-width="3.5"/>` +
     `<text x="40" y="${yNum - 10}" text-anchor="middle" dominant-baseline="central" font-family="'Baloo 2'" font-weight="700" font-size="30" fill="${INK}" data-lcs-target="${N}">${N}</text>`;
+  // the screen's pair marks (pairs = the arcs the child draws): a hit box the width of the number's lane around the numeral
+  const partner = (v) => { for (const [a, b] of pairs || []) { if (a === v) return b; if (b === v) return a; } return null; };
   order.forEach((v) => {
-    s += `<text x="${xOf(v)}" y="${yNum}" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="${fs}" fill="${INK}" data-lcs-num="${v}">${v}</text>`;
+    const t = `<text x="${xOf(v)}" y="${yNum}" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="${fs}" fill="${INK}" data-lcs-num="${v}">${v}</text>`;
+    const w = partner(v);
+    s += w != null && w !== v ? `<g data-lcs-key-badge="${N}:${w}" data-lcs-pair="${N}:${v}"><rect x="${(xOf(v) - sp / 2).toFixed(1)}" y="${yNum - fs - 2}" width="${sp.toFixed(1)}" height="${fs + 12}" fill="none"/>${t}</g>` : t;
   });
   const maxH = yNum - fs - top - 6;
   const arc = (a, b, stroke, extra) => {
@@ -233,7 +237,7 @@ function makeBondMoreType(cfg) {
           const given = d.example ? [pairs[0]] : [];
           const rest = pairs.filter((p) => !given.includes(p));
           return `<div class="ws-card-stage" style="justify-content:center;align-items:center">` +
-            rainbowSvg({ N, order, given, arcs: key ? rest : [], rings: key ? self : [] }) + `</div>`;
+            rainbowSvg({ N, order, given, arcs: key ? rest : [], rings: key ? self : [], pairs: ctx.screen ? rest : null }) + `</div>`;
         });
         return { bodyHtml: content(cardGrid({ cards: rows, cols: 1, rows: rows.length })), meta: { items: d.rows.map(String) } };
       }

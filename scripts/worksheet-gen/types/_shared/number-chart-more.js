@@ -129,7 +129,7 @@ function makeChartMoreType(cfg) {
         }));
         colour.sort((a, b) => a - b);
         const list = d.order === 'sorted' ? colour.slice() : rng.shuffle(colour.slice());
-        const chart = hundredsChart({ start: d.start, end: d.end, cell: d.compact ? 46 : 50, ...(key ? { fills } : {}) });
+        const chart = hundredsChart({ start: d.start, end: d.end, cell: d.compact ? 46 : 50, ...(key ? { fills } : {}), ...(ctx.screen ? { cellBoxes: { rings: colour } } : {}) });
         const chip = d.compact || list.length > 28 ? { w: 44, h: 31, fs: 18, gap: 5 } : { w: 46, h: 36, fs: 21, gap: 7 };
         const chips = list.map((v) => `<span data-lcs-colour-n="${v}" style="display:inline-flex;align-items:center;justify-content:center;min-width:${chip.w}px;height:${chip.h}px;padding:0 4px;box-sizing:border-box;border:2px solid #C8BFAE;border-radius:9px;background:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:${chip.fs}px;color:#3A3530">${v}</span>`).join('');
         const listBox = `<div data-lcs-colour-list style="display:flex;flex-wrap:wrap;justify-content:center;gap:${chip.gap}px;width:${Math.max(chart.width, 560)}px;box-sizing:border-box;padding:12px 10px;border:2.5px solid #146B5E;border-radius:14px;background:#FFFDF8">` +

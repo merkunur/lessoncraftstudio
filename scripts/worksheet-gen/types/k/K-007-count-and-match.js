@@ -40,19 +40,20 @@ module.exports = {
     while (order.some((v, i) => v === i));
 
     const itemH = Math.floor((760 - (d.pairs - 1) * 14) / d.pairs);
+    const marks = !!(ctx.answerKey || ctx.screen);   // the key's badges; the screen pairs each group with its numeral
     const left = [];
     const right = [];
     for (let i = 0; i < d.pairs; i++) {
       const n = counts[i];
       const fit = fitIcons({ n, stageW: 200, stageH: itemH - 20, maxPx: 56 });
       left.push(
-        `<div class="ws-match-item" style="width:240px;height:${itemH}px" data-lcs-left="${n}"${ctx.answerKey ? ` data-lcs-key-badge="${n}"` : ''}>` +
+        `<div class="ws-match-item" style="width:240px;height:${itemH}px" data-lcs-left="${n}"${marks ? ` data-lcs-key-badge="${n}"` : ''}>` +
         iconRows({ theme, noun: nouns[i].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 6, gapY: 5 }) +
         `<span class="ws-match-dot ws-match-dot--right"></span></div>`
       );
       const rn = counts[order[i]];
       right.push(
-        `<div class="ws-match-item ws-match-item--plain" style="width:130px;height:${itemH}px" data-lcs-right="${rn}">` +
+        `<div class="ws-match-item ws-match-item--plain" style="width:130px;height:${itemH}px" data-lcs-right="${rn}"${marks ? ` data-lcs-pair="${rn}"` : ''}>` +
         `<span style="font-family:'Baloo 2';font-weight:700;font-size:44px;color:#3A3530">${rn}</span>` +
         `<span class="ws-match-dot ws-match-dot--left"></span></div>`
       );

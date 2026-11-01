@@ -42,7 +42,7 @@ function makeCompareGroupsType({ id, slug, mode, i18n }) {
         const boxes = [a, b].map((n) => {
           const fit = fitIcons({ n, stageW: 250, stageH: 150, maxPx: 60, gapX: 8, gapY: 6 });
           // the maker's key rings it (catalogue unchanged)
-          return `<div class="ws-subgroup" data-lcs-group="${n}"${n === target ? ' data-lcs-target="1"' + (ctx && ctx.answerKey ? ' data-lcs-correct="1"' : '') : ''}>` +
+          return `<div class="ws-subgroup" data-lcs-group="${n}"${n === target ? ' data-lcs-target="1"' + (ctx && (ctx.answerKey || ctx.screen) ? ' data-lcs-correct="1"' : '') : ''}>` +
             iconRows({ theme, noun: nouns[i].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 8, gapY: 6 }) +
             `</div>`;
         });

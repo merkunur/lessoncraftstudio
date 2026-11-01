@@ -12,7 +12,7 @@
 const tokens = require('./_tokens.js');
 const { el, svgRoot, roundedRect, label } = require('./_svg.js');
 
-function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56, keyText = false, ask = null, blank = 'dashed', fills = null }, ctx) {
+function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56, keyText = false, ask = null, blank = 'dashed', fills = null, cellBoxes = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const cols = 10;
   const count = end - start + 1;
@@ -56,6 +56,9 @@ function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], ce
         size: Math.round(cell * 0.36), color: t.color.ink, fontFamily: t.font.display, weight: 600,
         data: { 'data-lcs-cell': v },
       }));
+      // screen-from-marks 2026-11-01 (additive, screen builds only): a transparent hit box per cell, a candidate to tap;
+      // cellBoxes.rings = the cells the task colours (the right ones)
+      if (cellBoxes) parts.push(roundedRect({ x: cx + 2, y: cy + 2, w: cell - 4, h: cell - 4, r: 5, fill: 'none', data: { 'data-lcs-cellbox': v, 'data-lcs-pick': 1, ...(cellBoxes.rings && cellBoxes.rings.includes(v) ? { 'data-lcs-key-ring': 1 } : {}) } }));
     }
     // light interior grid lines (right + bottom edges of each cell)
     if (i % cols !== cols - 1) parts.push(el('line', { x1: cx + cell, y1: cy + 4, x2: cx + cell, y2: cy + cell - 4, stroke: t.color.grid, 'stroke-width': 1 }));

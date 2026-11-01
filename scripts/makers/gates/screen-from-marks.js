@@ -1,0 +1,257 @@
+#!/usr/bin/env node
+/**
+ * Gate: screen from the answer marks (INTERACTIVE-AND-SHARING §B.5, 2026-11-01) — every eligible template of every built
+ * maker yields a WORKING screen, and every template has exactly one verdict.
+ *
+ * Per built maker × template with screen 'marks' × its screenLevels × en + fi (the long-word locale) × 2 copies:
+ *   1. derivation — the page's screen build derives a plan that passes buildInteractive (every part its kind's rules)
+ *   2. parity with the key — what the key marks is what the screen grades: the key's written answers, its ringed
+ *      choices, its rings and badges, counted against the plan's type / choice / select / pair questions
+ *   3. solvable — in a real browser, a bot fills every RIGHT answer by real clicks (pad keys, options, candidates,
+ *      targets, bins) → Check → every question right, the celebration opens; then Try again and every WRONG candidate
+ *      → every question wrong; then all but one → Check stays disabled
+ *   4. no tell — the plan's items follow DOM order; the served page carries no data-lcs-* outside the structural
+ *      allow-list and no key layer; its CSS keys nothing on a stripped attribute
+ *   5. tap floor — at 768 and 1024 (a tablet, the page 1:1) every page item ≥ 34 px, every control ≥ 44 px; items inside
+ *      the page; at 360 the smallest item is reported (the page scales to the phone; the child may pinch — reported, not failed)
+ *   6. strings — the screen instruction resolves in every locale the template ships in; the runtime strings ×11
+ *   7. classification — every template: exactly one of interactive / screen / writing / many-answers / material / later,
+ *      with a reason for the paper-only ones; a template that derives a screen but is listed paper-only, or neither, fails
+ * Poisoned on every run, both directions: a card with two right answers → (1) fails; a ring the engine ignores → (2);
+ * a runtime whose judge marks everything right → (3); an answer attribute left on the served page → (4); a chip shrunk
+ * to 20 px → (5); a correct template passes all of it.
+ *
+ *   node scripts/makers/gates/screen-from-marks.js [--makers=counting,ten-frames] [--quick]   (quick: en, copy 1)
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
+const REPO = path.join(__dirname, '..', '..', '..');
+const puppeteer = require(path.join(REPO, 'node_modules', 'puppeteer'));
+const runtime = require('../runtime.js');
+const screen = require('../screen.js');
+const { runtimeStrings } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'emit', 'interactive-runtime.js'));
+const { resolveStrings, withLevelInstruction } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.js'));
+const VERDICTS = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'screen-verdicts.json'), 'utf8'));
+const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+const args = Object.fromEntries(process.argv.slice(2).map((a) => { const m = a.match(/^--([^=]+)=(.*)$/); return m ? [m[1], m[2]] : [a.replace(/^--/, ''), true]; }));
+const QUICK = !!args.quick;
+
+/** what the key page marks (its audit, as answer-keys.js reads it) */
+const keyMarks = () => {
+  const out = { written: [], ringedChoices: 0, rings: 0, badges: [], samples: document.querySelectorAll('[data-lcs-key-sample]').length };
+  for (const el of document.querySelectorAll('[data-lcs-answer]')) { const w = el.getAttribute('data-lcs-answer'); if (w && !el.children.length && !el.textContent.trim()) out.written.push(w); }
+  out.ringedChoices = document.querySelectorAll('[data-lcs-correct]').length;
+  out.rings = document.querySelectorAll('[data-lcs-key-ring]').length;
+  for (const el of document.querySelectorAll('[data-lcs-key-badge]')) out.badges.push(el.getAttribute('data-lcs-key-badge'));
+  return out;
+};
+
+/**
+ * The bot (runs in the served screen page): fills every question RIGHT (mode 'right'), every candidate WRONG ('wrong')
+ * or all but one right ('short'), by real clicks on the overlay buttons and the pad keys; returns the states after Check.
+ */
+const bot = (mode) => {
+  const M = window.__lcsMarks; if (!M) return { err: 'no runtime hook' };
+  const Q = M.Q(), C = window.DECK_BUNDLE.ctx || {};
+  const keyFor = (c) => Array.from(document.querySelectorAll('.lcs-key')).find((k) => k.textContent === (c === ' ' ? '␣' : c));
+  const typeText = (q, right) => {
+    const m = q.meta, set = m['data-lcs-set'], rg = m['data-lcs-range'];
+    if (set) { const nums = C.sets[set]; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); const k = mine.indexOf(q); if (k >= nums.length) return null; return right ? String(nums[k]) : String(nums[k] + 1); }   // wrong: the next number (the other parity / another set), within the digit cap
+    if (rg) { const lo = String(rg).split('-')[0] || '0', hi = String(rg).split('-')[1]; return right ? lo : (hi ? String(+hi + 1) : String(Math.max(0, +lo - 1))); }
+    const a = String(q.p.answers[q.i]);
+    if (right) return a;
+    if (q.num) return String(+a + 1);
+    // a wrong word from the pad's own keys: the letters rotated, else another key of the pad
+    const rot = Array.from(a).slice(1).concat(Array.from(a)[0]).join('');
+    if (rot !== a) return rot;
+    const other = (C.keys || []).find((k) => k !== ' ' && a.indexOf(k) < 0);
+    return other ? a + other : a;
+  };
+  const click = (el) => el.click();
+  // 'short': the LAST question that must be answered (a select candidate left untapped is an answer, so a select-only
+  // page needs nothing left — Check enables on the first tap, as the key's own rings do)
+  const spare = (q) => { const set = q.cls === 'type' && q.meta['data-lcs-set']; if (!set) return false; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); return mine.indexOf(q) >= C.sets[set].length; };
+  const need = Q.filter((q) => q.cls !== 'select' && !spare(q));
+  const skip = mode === 'short' ? need[need.length - 1] : null;
+  if (mode === 'short' && !skip) return { disabled: true, selectOnly: true };
+  const groups = {};
+  Q.forEach((q) => {
+    const right = mode !== 'wrong';
+    if (q === skip) return;
+    if (skip && skip.cls === 'pair' && skip.p.mutual && String(skip.p.answers[skip.i]) === q.id) return;   // its partner would pair it back
+    if (q.cls === 'type') { const txt = typeText(q, right); if (txt === null) return; click(q.el); for (const c of txt) { const k = keyFor(c); if (!k) throw new Error('no pad key for ' + c); click(k); } }
+    else if (q.cls === 'choice') { const a = q.p.answers[q.i]; click(q.opts[right ? a : (a + 1) % q.opts.length]); }
+    else if (q.cls === 'select' && q.p.countGroups) { const g = q.meta['data-lcs-group'], want = +q.meta['data-lcs-want']; groups[g] = groups[g] || 0; const n = right ? want : want + 1; if (groups[g] < n && !q.on) { click(q.el); groups[g]++; } }
+    else if (q.cls === 'select') { const a = q.p.answers[q.i]; if (right ? a : !a) click(q.el); }
+    else if (q.cls === 'pair') {
+      if (q.to != null) return;   // paired already (a mutual pair links both ways)
+      const a = String(q.p.answers[q.i]); const ts = Array.from(document.querySelectorAll('[data-lcs-t]'));
+      let t = ts.find((x) => x.getAttribute('data-lcs-t') === a);
+      // wrong: another target — of a still unpaired item when the pairs are mutual, so no earlier link is undone
+      if (!right) t = ts.find((x) => { const id = x.getAttribute('data-lcs-t'); if (id === a || id === q.id) return false; const other = q.p.qs.find((o) => o.id === id); return !(q.p.mutual && other && other.to != null); }) || t;
+      click(q.el); click(t);
+    }
+    else if (q.cls === 'place') { const a = String(q.p.answers[q.i]); const bs = Array.from(document.querySelectorAll('[data-lcs-b]')); let b = bs.find((x) => x.getAttribute('data-lcs-b') === a); if (!right) b = bs.find((x) => x.getAttribute('data-lcs-b') !== a) || b; click(b); click(q.el); }
+  });
+  const chk = document.getElementById('lcs-check');
+  if (mode === 'short') return { disabled: chk.disabled };
+  if (chk.disabled) return { err: 'Check disabled after answering everything' };
+  click(chk);
+  const states = Q.map((q) => (q.cls === 'choice' ? (q.pick >= 0 ? q.opts[q.pick].getAttribute('data-state') : null) : q.el.getAttribute('data-state')));
+  return { states, progress: document.getElementById('lcs-progress').textContent };
+};
+
+/** the visible ink of a page: invisible hit boxes (fill="none", no stroke) and bare <g> wrappers removed */
+const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)[^>]*\sfill="none"[^>]*\/?>/g, '').replace(/<g>|<\/g>/g, '');
+
+(async () => {
+  const versions = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', 'versions.json'), 'utf8'));
+  const makers = String(args.makers || Object.keys(versions).join(',')).split(',');
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-sfm-'));
+  const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'] });
+  const page = await browser.newPage();
+  const errs = [];
+  page.on('pageerror', (e) => errs.push(e.message));
+  let fails = 0, screens = 0, classified = 0;
+  const fail = (s) => { fails++; if (fails <= 40) console.log('FAIL ' + s); };
+  const mountAt = async (html, w) => { if (w) await page.setViewport({ width: w, height: Math.round(w * 1.4) }); const f = path.join(tmp, 's.html'); fs.writeFileSync(f, html); await page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' }); await page.evaluate(async () => { await document.fonts.ready; }); return page; };
+  const mount = (html) => mountAt(html, 703);
+
+  /** run the whole check list on one served screen; returns the failures */
+  async function checkScreen(tag, sc, keyHtml) {
+    const out = [];
+    const pl = sc.plan;
+    // 2. parity with the key
+    if (keyHtml) {
+      await mount(keyHtml);
+      const km = await page.evaluate(keyMarks);
+      // a set's spare spaces are not answers: the set's numbers count
+      const plType = pl.parts.filter((p) => p.cls === 'type').flatMap((p) => p.items).filter((it) => !it.meta['data-lcs-set']).concat(Object.values(pl.ctx.sets || {}).flat());
+      const plChoice = pl.parts.filter((p) => p.cls === 'choice').flatMap((p) => p.items).length;
+      const plSelTrue = pl.parts.filter((p) => p.cls === 'select').flatMap((p) => p.items).filter((it) => it.answer).length;
+      const plPair = pl.parts.filter((p) => p.cls === 'pair').flatMap((p) => p.items).length;
+      const plSelGroups = pl.parts.some((p) => p.cls === 'select' && p.countGroups);
+      // the key marks (written answers, ringed choices, ring marks, badges) are what the screen grades; a key that
+      // draws a SAMPLE instead of marks (a painted chart, drawn arcs) may mark less, never more
+      const marked = km.ringedChoices + km.rings, graded = plChoice + plSelTrue;
+      if (km.written.length > plType.length) out.push('key parity: the key writes ' + km.written.length + ' answers, the screen types ' + plType.length);
+      if (km.written.length < plType.length && !km.samples) out.push('key parity: the screen types ' + plType.length + ' answers, the key writes ' + km.written.length + ' and draws no sample');
+      if (marked > graded) out.push('key parity: the key rings ' + marked + ' things, the screen grades ' + graded + ' (' + plChoice + ' choices + ' + plSelTrue + ' selected rights)');
+      if (marked < graded && !km.samples) out.push('key parity: the screen grades ' + graded + ' ringed things, the key rings ' + marked + ' and draws no sample');
+      if (km.badges.length && km.badges.length !== plPair) out.push('key parity: the key badges ' + km.badges.length + ' items, the screen pairs ' + plPair);
+      if (!km.badges.length && plPair && !km.samples) out.push('key parity: the screen pairs ' + plPair + ' items, the key badges none and draws no sample');
+      if (plSelGroups && km.rings && km.rings !== plSelTrue) out.push('key parity (any N): the key rings ' + km.rings + ', the groups want ' + plSelTrue);
+    }
+    // 4. no tell
+    for (const p of sc.model.parts) { const dom = p.items.map((it) => it.dom); for (let i = 1; i < dom.length; i++) if (!(dom[i] > dom[i - 1])) { out.push('items of a ' + p.cls + ' part not in DOM order'); break; } }
+    const left = (sc.html.match(/\sdata-lcs-([a-z0-9-]+)(?=[\s=>/])/g) || []).map((m) => m.trim().slice(9)).filter((n) => !screen.ALLOW.has(n));
+    if (left.length) out.push('served page keeps answer attributes: ' + [...new Set(left)].slice(0, 5).join(', '));
+    if (/data-lcs-key>/.test(sc.html)) out.push('served page carries the key layer');
+    const cssKeyed = (sc.html.match(/<style[^>]*>[\s\S]*?<\/style>/g) || []).join('').match(/\[data-lcs-([a-z0-9-]+)/g) || [];
+    if (cssKeyed.some((m) => !screen.ALLOW.has(m.slice(10)))) out.push('page CSS keys on a stripped attribute');
+    // 3. solvable (the served page, real clicks)
+    await mount(sc.html);
+    const right = await page.evaluate(bot, 'right');
+    if (right.err) out.push('solvable: ' + right.err);
+    else if (right.states.some((s) => s !== 'right' && s !== null)) out.push('solvable: the right answers were not all marked right (' + right.states.filter((s) => s && s !== 'right').length + ' not right)');
+    await new Promise((r) => setTimeout(r, 600));
+    if (!right.err && !(await page.evaluate(() => !document.getElementById('lcs-celebration').hidden))) out.push('solvable: no celebration on all right');
+    await page.evaluate(() => window.__lcsMarks.reset());
+    const wrong = await page.evaluate(bot, 'wrong');
+    if (wrong.err) out.push('wrong bot: ' + wrong.err);
+    else if (wrong.states.some((s) => s === 'right')) out.push('a wrong answer was marked right (' + wrong.states.filter((s) => s === 'right').length + ')');
+    await page.evaluate(() => window.__lcsMarks.reset());
+    const short = await page.evaluate(bot, 'short');
+    if (!short.disabled) out.push('Check enabled with one question unanswered');
+    // 5. tap floor, MEASURED on the rendered overlay buttons and controls at each width (the page scales with the
+    //    viewport: k = min(1, (w − 16) / 703); the runtime grows a tap target under 34 px to 34 px around its box)
+    const items = pl.parts.flatMap((p) => p.cls === 'choice' ? p.items.flatMap((it) => it.options) : p.cls === 'pair' ? p.items.concat(p.targets) : p.cls === 'place' ? p.items.concat(p.bins) : p.items);
+    for (const it of items) if (it.x < -5 || it.y < -5 || it.x + it.w > 105 || it.y + it.h > 105) { out.push('an item outside the page'); break; }
+    const measure = () => ({
+      items: Array.from(document.querySelectorAll('#lcs-overlay button')).map((b) => { const r = b.getBoundingClientRect(); return Math.min(r.width, r.height); }),
+      controls: Array.from(document.querySelectorAll('.lcs-btn, .lcs-key')).filter((b) => !b.hidden && b.offsetParent).map((b) => { const r = b.getBoundingClientRect(); return Math.min(r.width, r.height); }),
+    });
+    let min360 = Infinity;
+    for (const [w, floor] of [[768, 34], [1024, 34], [360, null]]) {
+      await mountAt(sc.html, w);
+      const m = await page.evaluate(measure);
+      if (!m.items.length) out.push(`tap floor at ${w}: no tap targets rendered`);
+      if (m.controls.some((h) => h < 44)) out.push(`a control under 44 px at ${w}`);
+      if (floor) { const small = m.items.filter((h) => h < floor); if (small.length) out.push(`tap floor at ${w}: ${small.length} items under ${floor} px (smallest ${Math.min(...small).toFixed(1)})`); }
+      else min360 = Math.min(...m.items);
+    }
+    return { fails: out, min360 };
+  }
+
+  // ---- the templates
+  const phoneReport = [];
+  for (const maker of makers) {
+    const v = versions[maker];
+    const tj = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', maker, v.current, 'templates.json'), 'utf8'));
+    if (!tj.runtimeStrings || !tj.screenInstructions) { fail(`${maker}: templates.json has no runtimeStrings / screenInstructions — run build-screens.js`); continue; }
+    // 6. strings ×11
+    for (const loc of LOCALES) { if (!tj.runtimeStrings[loc] || !tj.runtimeStrings[loc].check) fail(`${maker}: no runtime strings for ${loc}`); for (const k of ['type', 'tap-choice', 'tap-select', 'tap-pair', 'tap-place']) if (!(tj.screenInstructions[loc] || {})[k]) fail(`${maker}: no ${k} screen instruction for ${loc}`); }
+    for (const t of tj.templates) {
+      // 7. classification
+      classified++;
+      const paper = ['writing', 'many-answers', 'material'].filter((k) => VERDICTS[k].ids.includes(t.id)).concat(VERDICTS.later.ids[t.id] ? ['later'] : []);
+      const verdicts = (t.interactive ? ['interactive'] : []).concat(t.screen === 'marks' ? ['screen'] : []).concat(paper);
+      if (verdicts.length !== 1) fail(`${t.id}: ${verdicts.length ? verdicts.join(' + ') : 'NO'} verdict (${t.verdict || '-'}${t.screenReason ? ': ' + String(t.screenReason).slice(0, 120) : ''})`);
+      if (t.screen !== 'marks') continue;
+      const type = require(path.join(REPO, t.file));
+      const locs = (QUICK ? ['en'] : ['en', 'fi']).filter((l) => t.locales.includes(l));
+      for (const loc of locs) for (const d of t.screenLevels) for (const variant of QUICK ? [1] : [1, 2]) {
+        const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
+        const theme = t.themed ? t.themes[(variant - 1) % t.themes.length] : null;
+        const unit = t.units && t.units[loc] && t.units[loc][0] ? t.units[loc][variant % t.units[loc].length].id : null;
+        const tag = `${t.id} ${loc} L${d} v${variant}`;
+        let r, sc;
+        try {
+          r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc], screen: true });
+          sc = await screen.buildScreen({ html: r.screenHtml, locale: loc, strings: tj.runtimeStrings[loc], instruction: (pl) => tj.screenInstructions[loc][screen.instructionKey(pl)], mount });
+        } catch (e) { fail(`${tag}: derivation — ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }
+        if (!sc.instruction) fail(`${tag}: no screen instruction`);
+        // the screen build adds marks only — attributes, and invisible hit boxes (a <rect fill="none"> without a stroke,
+        // a <g> wrapper) over svg cells and ticks: with those removed, it is the printed page
+        if (sameInk(screen.stripMarks(r.screenHtml)) !== sameInk(screen.stripMarks(r.html))) fail(`${tag}: the screen build changed the page beyond its marks`);
+        screens++;
+        const res = await checkScreen(tag, sc, r.keyHtml);
+        res.fails.forEach((f) => fail(`${tag}: ${f}`));
+        if (loc === 'en' && variant === 1) phoneReport.push([t.id, d, res.min360]);
+      }
+    }
+  }
+
+  // ---- poisons, both directions (a correct page: counting K-002 / K-006 en L2)
+  const en = runtimeStrings('en');
+  const K002 = require(path.join(REPO, 'scripts/worksheet-gen/types/k/K-002-count-and-circle.js'));
+  const K006 = require(path.join(REPO, 'scripts/worksheet-gen/types/k/K-006-count-scattered-write.js'));
+  const base2 = runtime.makePage({ type: K002, strings: resolveStrings('K-002', 'en', K002), locale: 'en', difficulty: 2, theme: 'animals', variant: 1, answerKey: true, screen: true });
+  const base6 = runtime.makePage({ type: K006, strings: resolveStrings('K-006', 'en', K006), locale: 'en', difficulty: 2, theme: 'animals', variant: 1, answerKey: true, screen: true });
+  const mk = (html, loc = 'en') => screen.buildScreen({ html, locale: loc, strings: en, instruction: 'x', mount });
+  // control: the correct pages pass everything
+  for (const [name, b] of [['K-002', base2], ['K-006', base6]]) { const sc = await mk(b.screenHtml); const res = await checkScreen(name, sc, b.keyHtml); if (res.fails.length) fail(`poison control: a correct ${name} fails: ${res.fails.join('; ')}`); }
+  // (1) two right answers in one chip row must fail derivation
+  const two = base2.screenHtml.replace(/<span class="ws-chip"(?![^>]*data-lcs-correct)[^>]*>/, (m) => m.replace(/>$/, ' data-lcs-correct="1">'));
+  try { await mk(two); fail('poison 1: a chip row with two right answers derived a screen'); } catch (e) { /* right */ }
+  // (2) a ring the engine ignores: a key that rings one more thing than the screen grades must fail parity
+  { const sc = await mk(base2.screenHtml); const k2 = base2.keyHtml.replace('<img class="ws-icon"', '<img class="ws-icon" data-lcs-key-ring="1"'); const res = await checkScreen('K-002', sc, k2); if (!res.fails.some((f) => /key parity/.test(f))) fail('poison 2: a key ring the screen ignores passed parity'); }
+  // (3) a runtime whose judge marks everything right must fail the wrong bot
+  { const sc = await mk(base6.screenHtml); sc.html = sc.html.replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };'); if (!/return true; };/.test(sc.html)) fail('poison 3: the judge seam was not found'); const res = await checkScreen('K-006', sc, null); if (!res.fails.some((f) => /marked right/.test(f))) fail('poison 3: a runtime that marks everything right passed'); }
+  // (4) an answer attribute left on the served page must fail
+  { const sc = await mk(base6.screenHtml); sc.html = sc.html.replace('<span class="ws-answerbox"', '<span class="ws-answerbox" data-lcs-answer="7"'); const res = await checkScreen('K-006', sc, null); if (!res.fails.some((f) => /answer attributes/.test(f))) fail('poison 4: a served page with data-lcs-answer passed'); }
+  // (5) a chip shrunk to 20 px must fail the tap floor
+  { const sc = await mk(base2.screenHtml); sc.html = sc.html.replace('</head>', '<style>#lcs-overlay button[data-lcs-q="0"]{width:20px!important;height:20px!important}</style></head>'); const res = await checkScreen('K-002', sc, null); if (!res.fails.some((f) => /tap floor/.test(f))) fail('poison 5: a 20 px chip passed the tap floor'); }
+  // (7) classification: a template with two verdicts, and one with none, must fail (the same rule, on synthetic entries)
+  { const vs = (t) => (t.interactive ? ['interactive'] : []).concat(t.screen === 'marks' ? ['screen'] : []).concat(VERDICTS.writing.ids.includes(t.id) ? ['writing'] : []); if (vs({ id: 'K-005', screen: 'marks' }).length === 1) fail('poison 7: a writing template with a screen counted as one verdict'); if (vs({ id: 'K-002', screen: null }).length !== 0) fail('poison 7: a template with nothing counted as a verdict'); }
+
+  await browser.close();
+  fs.rmSync(tmp, { recursive: true, force: true });
+  if (errs.length) fail('page errors: ' + errs.slice(0, 3).join(' | '));
+  const smallest = phoneReport.filter((r) => Number.isFinite(r[2])).sort((a, b) => a[2] - b[2]).slice(0, 5).map((r) => `${r[0]} L${r[1]} ${r[2].toFixed(0)} px`);
+  console.log(`phone (360 px, the page scaled 0.49): smallest page items ${smallest.join(', ')} — reported, not failed (the child pinches; a tablet shows the page 1:1)`);
+  console.log(fails ? `screen from marks: ${screens} screens, ${classified} templates classified, ${fails} failing` : `screen from marks: ${screens} screens pass, ${classified} templates classified, poisons fire both ways`);
+  if (fails) process.exitCode = 1;
+})().catch((e) => { console.error('screen from marks: error — ' + e.stack); process.exit(1); });

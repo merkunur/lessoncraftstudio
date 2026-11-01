@@ -54,8 +54,9 @@ function makeFrameCountingType(cfg) {
         do { order = rng.shuffle(counts.map((_, i) => i)); }
         while (order.some((v, i) => v === i));
         const itemH = Math.floor((760 - (d.items - 1) * 14) / d.items);
+        const marks = !!(ctx.answerKey || ctx.screen);   // the key's badges; the screen pairs each frame with its numeral
         const left = counts.map((n) =>
-          `<div class="ws-match-item ws-match-item--plain" style="width:120px;height:${itemH}px" data-lcs-left="${n}">` +
+          `<div class="ws-match-item ws-match-item--plain" style="width:120px;height:${itemH}px" data-lcs-left="${n}"${marks ? ` data-lcs-pair="${n}"` : ''}>` +
           `<span style="font-family:'Baloo 2';font-weight:700;font-size:42px;color:#3A3530">${n}</span>` +
           `<span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
         const right = order.map((idx) => {
@@ -63,7 +64,7 @@ function makeFrameCountingType(cfg) {
           const inner = mode === 'match-frame'
             ? tenFrame({ a: n, cell: Math.min(34, Math.floor((itemH - 24) / 2)) }).svg
             : tally({ n, strokeH: Math.min(46, itemH - 36) }).svg;
-          return `<div class="ws-match-item" style="width:280px;height:${itemH}px" data-lcs-right="${n}"${ctx.answerKey ? ` data-lcs-key-badge="${n}"` : ''}>` +
+          return `<div class="ws-match-item" style="width:280px;height:${itemH}px" data-lcs-right="${n}"${marks ? ` data-lcs-key-badge="${n}"` : ''}>` +
             inner + `<span class="ws-match-dot ws-match-dot--left"></span></div>`;
         }).join('');
         return {

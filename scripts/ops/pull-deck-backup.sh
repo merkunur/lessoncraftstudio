@@ -16,13 +16,16 @@
 #      dot-snapshot dirs) → <BACKUP_DIR>/decks_<UTC>.tar.gz.part   (~37 GB, ~66 min at 9.6 MB/s)
 #   2. verify: gzip -t (truncation/corruption) + full tar listing + deck.html count vs the server's
 #      live count (tolerates a small delta from publishes that ran during the pull)
-#   3. rename .part → .tar.gz; keep the newest KEEP full copies; a failed pull leaves the previous
-#      good copies untouched and the .part removed
-#   4. copy the newest db_*.sql.gz + studio_*.tar.gz (small) next to it
+#   3. rename .part → .tar.gz; keep the newest KEEP full copies (default 1: the old copy is removed only AFTER the
+#      new one passed every check, so there is always one good copy); a failed pull leaves the previous good copy
+#      untouched and the .part removed
+#   4. copy the db_*.sql.gz / studio_*.tar.gz dumps the PC does not have yet, then prune them: the newest studio
+#      archive, the newest 7 db dumps and the first db dump of each month (2026-11-01, operator: "You shouldn't keep
+#      unnecessary stuff neither on the server nor on my computer" — 4 full deck copies had grown to 524 GB)
 #
 # Restore: see docs/ops/server-access.md ("Deck backup — restore").
 #
-# Usage: pull-deck-backup.sh [--dry-run]   env: LCS_BACKUP_DIR (default /c/Users/rkgen/lcs-backups), LCS_KEEP (4)
+# Usage: pull-deck-backup.sh [--dry-run]   env: LCS_BACKUP_DIR (default /c/Users/rkgen/lcs-backups), LCS_KEEP (1)
 #
 set -u
 DRY=0; [ "${1:-}" = "--dry-run" ] && DRY=1
@@ -30,7 +33,7 @@ HOST="root@65.108.5.250"
 KEY="$HOME/.ssh/id_ed25519"
 SSH="ssh -o BatchMode=yes -o ServerAliveInterval=30 -o ServerAliveCountMax=10 -i $KEY $HOST"
 BACKUP_DIR="${LCS_BACKUP_DIR:-/c/Users/rkgen/lcs-backups}"
-KEEP="${LCS_KEEP:-4}"
+KEEP="${LCS_KEEP:-1}"
 STAMP=$(date -u +%Y%m%d_%H%M%S)
 OUT="$BACKUP_DIR/decks_$STAMP.tar.gz"
 LOG="$BACKUP_DIR/pull.log"
@@ -38,6 +41,15 @@ mkdir -p "$BACKUP_DIR"
 exec > >(tee -a "$LOG") 2>&1
 say() { printf '[%s] %s\n' "$(date -u '+%Y-%m-%d %H:%M:%S')" "$*"; }
 fail() { say "FAIL: $*"; rm -f "$OUT.part"; exit 1; }
+# keep: the newest studio archive; the newest 7 db dumps; the first db dump of every month (db_YYYYMMDD.sql.gz)
+prune_dumps() {
+  ls -1 "$BACKUP_DIR"/studio_*.tar.gz 2>/dev/null | sort | head -n -1 | while read -r f; do say "prune: rm $(basename "$f")"; rm -f "$f"; done
+  local all keep
+  all=$(ls -1 "$BACKUP_DIR"/db_*.sql.gz 2>/dev/null | sort)
+  keep=$( { echo "$all" | tail -n 7; echo "$all" | awk -F'db_' '{m=substr($2,1,6)} !(m in s){s[m]=1; print}'; } | sort -u)
+  for f in $all; do echo "$keep" | grep -qxF "$f" || { say "prune: rm $(basename "$f")"; rm -f "$f"; }; done
+}
+[ "${1:-}" = "--prune-only" ] && { prune_dumps; exit 0; }
 
 say "=== deck backup pull start (dry-run=$DRY) → $OUT"
 $SSH 'true' || fail "cannot reach $HOST with $KEY"
@@ -82,9 +94,9 @@ say "OK: $OUT ($((SIZE/1048576)) MB)"
 ls -1t "$BACKUP_DIR"/decks_*.tar.gz 2>/dev/null | tail -n +$((KEEP+1)) | while read -r old; do say "rotate: rm $old"; rm -f "$old"; done
 
 # Small companions. The server keeps only 7 days of daily DB dumps (operator rule: the server hosts
-# only what it serves — CLAUDE.md §A.14.12 rule 6); the PC keeps the whole history. So copy EVERY
-# db_*.sql.gz / studio_*.tar.gz the PC does not have yet (22 MB / 1 MB each — cheap), never delete
-# them locally.
+# only what it serves — CLAUDE.md §A.14.12 rule 6). Copy every db_*.sql.gz / studio_*.tar.gz the PC does not have
+# yet, then prune (prune_dumps below): weekly studio archives are byte-identical most weeks, and 74 daily DB dumps
+# were 2.3 GB of near-copies.
 for pat in 'db_*.sql.gz' 'studio_*.tar.gz'; do
   for f in $($SSH "ls /opt/lessoncraftstudio/backups/$pat 2>/dev/null"); do
     [ -f "$BACKUP_DIR/$(basename "$f")" ] && continue
@@ -92,4 +104,5 @@ for pat in 'db_*.sql.gz' 'studio_*.tar.gz'; do
   done
 done
 
+prune_dumps
 say "=== done. copies on disk:"; ls -lh "$BACKUP_DIR"/decks_*.tar.gz | awk '{print "   " $5 "  " $9}'

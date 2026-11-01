@@ -93,7 +93,9 @@ const bot = (mode) => {
       if (!right) t = ts.find((x) => { const id = x.getAttribute('data-lcs-t'); if (id === a || id === q.id) return false; const other = q.p.qs.find((o) => o.id === id); return !(q.p.mutual && other && other.to != null); }) || t;
       click(q.el); click(t);
     }
-    else if (q.cls === 'place') { const a = String(q.p.answers[q.i]); const bs = Array.from(document.querySelectorAll('[data-lcs-b]')); let b = bs.find((x) => x.getAttribute('data-lcs-b') === a); if (!right) b = bs.find((x) => x.getAttribute('data-lcs-b') !== a) || b; click(b); click(q.el); }
+    // a bin tap is a TOGGLE in the runtime (tap the selected bin again = put it down): tap it only when it is not the
+    // selected one, or two consecutive targets of the same bin leave the second empty (picture sudoku, task 6 2026-11-01)
+    else if (q.cls === 'place') { const a = String(q.p.answers[q.i]); const bs = Array.from(document.querySelectorAll('[data-lcs-b]')); let b = bs.find((x) => x.getAttribute('data-lcs-b') === a); if (!right) b = bs.find((x) => x.getAttribute('data-lcs-b') !== a) || b; if (b.getAttribute('aria-pressed') !== 'true') click(b); click(q.el); }
   });
   const chk = document.getElementById('lcs-check');
   if (mode === 'short') return { disabled: chk.disabled };

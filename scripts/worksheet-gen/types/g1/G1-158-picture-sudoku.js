@@ -86,16 +86,20 @@ module.exports = {
         c === 3 ? thick('right') : '',
       ].filter(Boolean).join(';');
       if (v === -1) {
+        // maker key / screen builds only (2026-11-01, INTERACTIVE-AND-SHARING §E tap-place): the key shows the solution
+        // picture faint; the screen gets a drop target whose answer is the legend index. The plain build is byte-identical.
+        const marks = ctx && ctx.screen ? ` data-lcs-drop="1" data-lcs-answer="${solution[i]}"` : '';
+        const sample = ctx && ctx.answerKey ? `<img class="ws-icon" src="${fileUri(theme, nouns[solution[i]].noun)}" alt="" data-lcs-key-sample="1" style="width:${cellPx - 28}px;height:${cellPx - 28}px;opacity:.6">` : '';
         return `<span style="width:${cellPx}px;height:${cellPx}px;${borders};background:#FFFFFF;display:flex;align-items:center;justify-content:center" ` +
-          `data-lcs-cell="${i}" data-lcs-solution="${solution[i]}"></span>`;
+          `data-lcs-cell="${i}" data-lcs-solution="${solution[i]}"${marks}>${sample}</span>`;
       }
       return `<span style="width:${cellPx}px;height:${cellPx}px;${borders};background:#FBF3E4;display:flex;align-items:center;justify-content:center" ` +
         `data-lcs-cell="${i}" data-lcs-clue="${v}">` +
         `<img class="ws-icon" src="${fileUri(theme, nouns[v].noun)}" alt="" style="width:${cellPx - 28}px;height:${cellPx - 28}px"></span>`;
     }).join('');
 
-    const key = nouns.map((n) =>
-      `<span class="ws-pattern-slot" style="width:74px;height:74px">` +
+    const key = nouns.map((n, v) =>
+      `<span class="ws-pattern-slot" style="width:74px;height:74px"${ctx && ctx.screen ? ` data-lcs-bin="${v}"` : ''}>` +
       `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:52px;height:52px"></span>`).join('');
 
     return {

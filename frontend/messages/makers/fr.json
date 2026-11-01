@@ -39,7 +39,8 @@
     "sight-words": "Mots-outils",
     "number-sequences": "Tableaux de nombres et suites numériques",
     "number-lines": "Droites graduées",
-    "number-bonds": "Compléments et familles d'opérations"
+    "number-bonds": "Compléments et familles d'opérations",
+    "addition-subtraction": "Addition et soustraction"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

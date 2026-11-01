@@ -3488,5 +3488,37 @@
   "G1-441": {
     "title": "Regnetrekanter til at klippe ud",
     "instruction": "Klip kortene ud langs de stiplede linjer. Dæk et hjørne: hvilket tal gemmer sig?"
+  },
+  "G1-442": {
+    "title": "Hurtigregning",
+    "instruction": "Regn hvert stykke. Skriv resultatet under stregen."
+  },
+  "G1-443": {
+    "title": "Sandt eller falsk?",
+    "instruction": "Passer regnestykket? Sæt ring om fluebenet, hvis det passer, og om krydset, hvis det ikke passer."
+  },
+  "G1-444": {
+    "title": "Skriv regnestykket til billedet",
+    "instruction": "Se på billederne. Skriv det regnestykke, der passer."
+  },
+  "G1-445": {
+    "title": "Læg tre tal sammen",
+    "instruction": "Læg de tre tal sammen. Find to tal, der giver 10 tilsammen, og læg dem sammen først."
+  },
+  "G1-446": {
+    "title": "Hovedregning op til 100",
+    "instruction": "Regn hvert stykke i hovedet. Tænk på tierne og enerne. Skriv resultatet i kassen."
+  },
+  "G1-447": {
+    "title": "Find fejlene",
+    "instruction": "Tjek hvert resultat. Er det forkert, så sæt et kryds i den lille kasse, og skriv det rigtige resultat i den store kasse. Er det rigtigt, så lad begge kasser være tomme."
+  },
+  "G1-448": {
+    "title": "Bjælkemodeller",
+    "instruction": "Se på hver bjælke. Skriv det manglende tal i kassen."
+  },
+  "G2-397": {
+    "title": "Manglende cifre",
+    "instruction": "Find de cifre, der mangler. Skriv hvert ciffer i en stiplet kasse, så regnestykket passer."
   }
 }

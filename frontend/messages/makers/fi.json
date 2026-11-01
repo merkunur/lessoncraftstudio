@@ -39,7 +39,8 @@
     "sight-words": "Yleisimmät sanat",
     "number-sequences": "Lukutaulut ja lukujonot",
     "number-lines": "Lukusuorat",
-    "number-bonds": "Lukujen hajotelmat ja laskuperheet"
+    "number-bonds": "Lukujen hajotelmat ja laskuperheet",
+    "addition-subtraction": "Yhteen- ja vähennyslasku"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

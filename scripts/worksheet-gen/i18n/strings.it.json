@@ -3484,5 +3484,37 @@
   "G1-441": {
     "title": "Triangoli delle famiglie di operazioni",
     "instruction": "Ritaglia le carte lungo le linee tratteggiate. Copri un angolo: quale numero si nasconde?"
+  },
+  "G1-442": {
+    "title": "Calcoli veloci",
+    "instruction": "Esegui ogni operazione. Scrivi il risultato sotto la riga."
+  },
+  "G1-443": {
+    "title": "Vero o falso?",
+    "instruction": "L'uguaglianza è vera? Cerchia il segno di spunta se è vera e la croce se è falsa."
+  },
+  "G1-444": {
+    "title": "Scrivi l'operazione",
+    "instruction": "Guarda le figure. Scrivi l'operazione giusta."
+  },
+  "G1-445": {
+    "title": "Addiziona tre numeri",
+    "instruction": "Addiziona i tre numeri. Cerca due numeri che fanno 10 e sommali per primi."
+  },
+  "G1-446": {
+    "title": "Calcolo mentale fino a 100",
+    "instruction": "Risolvi ogni operazione a mente. Pensa alle decine e alle unità. Scrivi il risultato nel riquadro."
+  },
+  "G1-447": {
+    "title": "Trova gli errori",
+    "instruction": "Controlla ogni risultato. Se è sbagliato, fai una X nella casella piccola e scrivi il risultato giusto nella casella grande. Se è giusto, lascia vuote le due caselle."
+  },
+  "G1-448": {
+    "title": "Modelli a barre",
+    "instruction": "Guarda ogni barra. Scrivi il numero che manca nel riquadro."
+  },
+  "G2-397": {
+    "title": "Cifre mancanti",
+    "instruction": "Trova le cifre che mancano. Scrivi ognuna in un riquadro tratteggiato in modo che l'operazione sia giusta."
   }
 }

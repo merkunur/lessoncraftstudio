@@ -7,6 +7,49 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 4: Addition & Subtraction (`addition-subtraction`) — 25 templates + 8 new (2026-11-01)
+
+- The 25 existing templates bundled with no engine change (parity 150/150, live 1,650 pages). Replaces the old apps
+  `addition`, `subtraction`, `math-worksheet` (the swap happens at release).
+- New templates (NEW-TEMPLATES §7), `types/_shared/addsub-more.js`, print-only with the shared key layer:
+  - G1-442 facts drill: 30 / 48 / 60 vertical facts, each in its own small card (at 10 columns a sign read as the
+    neighbour's). L3 is within 20 with a teen in every fact.
+  - G1-443 true or false: exactly half true, a false one never shows one of its own numbers (5 = 5 + 2 is false at a
+    glance); L2 has the sum on the left, L3 has a sum on both sides. The tick and the cross are drawn.
+  - G1-444 write the whole number sentence from a picture (two groups / crossed out; L3 the sign too, its own level
+    instruction). `picture-equation.js` exports `group` / `crossoutGroup`; the latter takes an optional size (defaults
+    = the published size).
+  - G1-445 three addends within 20; L1 underlines the ten pair (level instruction), L3 has a pair on half.
+  - G1-446 mental math to 100: L1 tens or ones, L2 the rest of Grade 1 (47 + 6 across a ten, tens on and off), L3
+    Grade 2 two-digit ± two-digit.
+  - G1-447 find the mistakes: X in the small box, the right answer in the big one, both empty when right. Wrong answers
+    off by 1-2; L3 (Grade 2 work, within 100) also the forgotten carry, off by 10.
+  - G1-448 bar models, each card at its own scale; L3 compares two bars (level instruction).
+  - G2-397 missing digits in a column sum: every page's blanks are proven to have exactly one solution by trying every
+    digit; L3 has two blanks in varying places. No pre-printed carry / borrow row (national methods differ;
+    `data/column-method/methods.js` from ENGINES Q1 was never built).
+- One native + pedagogy reviewer: 17 findings. The pedagogy ones are applied:
+  - three addends past 20;
+  - true/false items that were false at a glance;
+  - mental-math levels 2–3 above Grade 1, now re-levelled;
+  - find-the-mistakes never said what to do when an answer is right, in all 11 languages;
+  - taking away only 1;
+  - trivial facts on the to-20 drill;
+  - the same blank places on every card.
+  Also applied: wording fixes in 5 languages, fr "schémas en barres", and a clearer English L3 bar sentence.
+  Not applied:
+  - the English "Answer key" heading (from my preview script only);
+  - the key showing a picture sum in picture order (8 + 1 is also right; the teacher reads the key);
+  - find-the-mistakes L3 stays Grade 2 work, now said in the code.
+- My own "nothing runs out of its card" check (in each template's verify) found three real overflows before the
+  reviewer. The live gate then found two more on A4 with the longer de/pt instructions (I had checked Letter only). All
+  are fixed; find-the-mistakes now has 8 rows.
+- The published picture templates G1-101/102/103/104/112/114/115 (picture-equation.js) and G1-113 now let a teacher swap
+  each row's picture (`lib/slot.js`). The catalogue output is unchanged (the slots gate compares against HEAD).
+- Old apps: oldAppTemplates `addition` → G1-102, `subtraction` → G1-104, `math-worksheet` → G1-442.
+- Coverage: G1-442 → 1:fluency-within-20, G1-445 → 1:add-three-addends, G2-397 → 2:column-method; new points
+  1:true-false-equations, 1:check-answers, 1:write-the-equation, 1:bar-model, 1:mental-math-to-100.
+
 ## B1 maker 3: Number Bonds & Fact Families (`number-bonds`) — 16 templates + 5 new (2026-11-01)
 
 - The 16 existing templates bundled with no engine change (parity 96/96, live 1,056 pages).

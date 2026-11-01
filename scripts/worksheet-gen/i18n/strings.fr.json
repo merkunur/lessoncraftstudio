@@ -3503,5 +3503,37 @@
   "G1-441": {
     "title": "Cartes triangles de calcul",
     "instruction": "Découpe les cartes en suivant les pointillés. Cache un coin : quel nombre est caché ?"
+  },
+  "G1-442": {
+    "title": "Calcul rapide",
+    "instruction": "Calcule chaque opération. Écris le résultat sous le trait."
+  },
+  "G1-443": {
+    "title": "Vrai ou faux ?",
+    "instruction": "L'égalité est-elle vraie ? Entoure la coche si elle est vraie et la croix si elle est fausse."
+  },
+  "G1-444": {
+    "title": "Écris l'opération",
+    "instruction": "Observe les images. Écris l'opération qui correspond."
+  },
+  "G1-445": {
+    "title": "Additionner trois nombres",
+    "instruction": "Additionne les trois nombres. Cherche deux nombres qui font 10 et additionne-les d'abord."
+  },
+  "G1-446": {
+    "title": "Calcul mental jusqu'à 100",
+    "instruction": "Calcule chaque opération dans ta tête. Pense aux dizaines et aux unités. Écris le résultat dans la case."
+  },
+  "G1-447": {
+    "title": "Trouve les erreurs",
+    "instruction": "Vérifie chaque résultat. S'il est faux, fais une croix dans la petite case et écris le bon résultat dans la grande case. S'il est juste, laisse les deux cases vides."
+  },
+  "G1-448": {
+    "title": "Schémas en barres",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans la case."
+  },
+  "G2-397": {
+    "title": "Les chiffres manquants",
+    "instruction": "Trouve les chiffres qui manquent. Écris chacun dans une case en pointillés pour que l'opération soit juste."
   }
 }

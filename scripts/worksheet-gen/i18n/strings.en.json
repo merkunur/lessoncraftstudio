@@ -3518,5 +3518,37 @@
   "G1-441": {
     "title": "Fact Triangle Cards",
     "instruction": "Cut out the cards along the dashed lines. Cover one corner: which number is hiding?"
+  },
+  "G1-442": {
+    "title": "Math Facts Drill",
+    "instruction": "Solve each problem. Write the answer under the line."
+  },
+  "G1-443": {
+    "title": "True or False?",
+    "instruction": "Is each equation true? Circle the check mark if it is true and the cross if it is false."
+  },
+  "G1-444": {
+    "title": "Write the Number Sentence",
+    "instruction": "Look at the pictures. Write the number sentence that tells what happens."
+  },
+  "G1-445": {
+    "title": "Add Three Numbers",
+    "instruction": "Add the three numbers. Look for two numbers that make ten and add them first."
+  },
+  "G1-446": {
+    "title": "Mental Math to 100",
+    "instruction": "Solve each problem in your head. Think of the tens and the ones. Write the answer in the box."
+  },
+  "G1-447": {
+    "title": "Find the Mistakes",
+    "instruction": "Check each answer. If it is wrong, put an X in the small box and write the right answer in the big box. If it is right, leave both boxes empty."
+  },
+  "G1-448": {
+    "title": "Bar Models",
+    "instruction": "Look at each bar. Write the missing number in the box."
+  },
+  "G2-397": {
+    "title": "Missing Digits",
+    "instruction": "Find the missing digits. Write each one in a dashed box so that the problem is right."
   }
 }

@@ -3469,5 +3469,37 @@
   "G1-441": {
     "title": "Räknetrianglar att klippa ut",
     "instruction": "Klipp ut korten längs de streckade linjerna. Täck över ett hörn: vilket tal gömmer sig?"
+  },
+  "G1-442": {
+    "title": "Snabbräkning",
+    "instruction": "Räkna ut varje uppgift. Skriv svaret under strecket."
+  },
+  "G1-443": {
+    "title": "Sant eller falskt?",
+    "instruction": "Stämmer likheten? Ringa in bocken om den stämmer och krysset om den inte stämmer."
+  },
+  "G1-444": {
+    "title": "Skriv uppgiften till bilden",
+    "instruction": "Titta på bilderna. Skriv uppgiften som passar bilden."
+  },
+  "G1-445": {
+    "title": "Addera tre tal",
+    "instruction": "Addera de tre talen. Leta efter två tal som blir 10 tillsammans och addera dem först."
+  },
+  "G1-446": {
+    "title": "Huvudräkning till 100",
+    "instruction": "Räkna ut varje uppgift i huvudet. Tänk på tiotalen och entalen. Skriv svaret i rutan."
+  },
+  "G1-447": {
+    "title": "Hitta felen",
+    "instruction": "Kontrollera varje svar. Är det fel, sätt ett kryss i den lilla rutan och skriv rätt svar i den stora rutan. Stämmer det, lämna båda rutorna tomma."
+  },
+  "G1-448": {
+    "title": "Stapelmodeller",
+    "instruction": "Titta på varje stapel. Skriv talet som saknas i rutan."
+  },
+  "G2-397": {
+    "title": "Siffror som saknas",
+    "instruction": "Hitta siffrorna som saknas. Skriv varje siffra i en streckad ruta så att uppgiften stämmer."
   }
 }

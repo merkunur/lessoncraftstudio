@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 869,
+ "count": 877,
  "failures": [],
  "rows": [
   {
@@ -18732,6 +18732,192 @@
    "science": false
   },
   {
+   "id": "G1-442",
+   "file": "scripts/worksheet-gen/types/g1/G1-442-facts-drill-page.js",
+   "grade": "G1",
+   "slug": "facts-drill-page",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Math Facts Drill",
+   "instruction": "Solve each problem. Write the answer under the line.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ops",
+    "max",
+    "cols",
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-443",
+   "file": "scripts/worksheet-gen/types/g1/G1-443-true-or-false-equations.js",
+   "grade": "G1",
+   "slug": "true-or-false-equations",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "True or False?",
+   "instruction": "Is each equation true? Circle the check mark if it is true and the cross if it is false.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "forms",
+    "off"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:true-false-equations",
+   "skill": "The equal sign means \"the same as\": decide whether an equation is true or false (incl. 8 = 5 + 3 and 9 − 2 = 3 + 4)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-444",
+   "file": "scripts/worksheet-gen/types/g1/G1-444-write-the-number-sentence.js",
+   "grade": "G1",
+   "slug": "write-the-number-sentence",
+   "family": "picture-arithmetic",
+   "variationOf": null,
+   "title": "Write the Number Sentence",
+   "instruction": "Look at the pictures. Write the number sentence that tells what happens.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cards",
+    "ops",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:write-the-equation",
+   "skill": "Represent a picture of putting together / taking away with the whole equation (all three numbers, the sign)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-445",
+   "file": "scripts/worksheet-gen/types/g1/G1-445-three-addends.js",
+   "grade": "G1",
+   "slug": "three-addends",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Add Three Numbers",
+   "instruction": "Add the three numbers. Look for two numbers that make ten and add them first.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "ten",
+    "apart"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:add-three-addends",
+   "skill": "Add three groups / three numbers",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-446",
+   "file": "scripts/worksheet-gen/types/g1/G1-446-mental-math-to-100.js",
+   "grade": "G1",
+   "slug": "mental-math-to-100",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Mental Math to 100",
+   "instruction": "Solve each problem in your head. Think of the tens and the ones. Write the answer in the box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "kind"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:mental-math-to-100",
+   "skill": "Add and subtract tens and ones in the head, without columns (34 + 20, 56 − 4; crossing a ten at the top level)",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G1-447",
+   "file": "scripts/worksheet-gen/types/g1/G1-447-find-the-mistakes.js",
+   "grade": "G1",
+   "slug": "find-the-mistakes",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Find the Mistakes",
+   "instruction": "Check each answer. If it is wrong, put an X in the small box and write the right answer in the big box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "ops",
+    "wrong",
+    "offs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:check-answers",
+   "skill": "Check worked addition and subtraction, mark the wrong answers and correct them",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-448",
+   "file": "scripts/worksheet-gen/types/g1/G1-448-bar-models.js",
+   "grade": "G1",
+   "slug": "bar-models",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Bar Models",
+   "instruction": "Look at each bar. Write the missing number in the box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "max",
+    "missing",
+    "tens"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "1:bar-model",
+   "skill": "Read a part-part-whole bar model and find the missing part or whole; compare two bars (how many more)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -24958,6 +25144,34 @@
    "teachingPoint": "2:number-line-not-from-zero",
    "skill": "Locate a number on a number line that starts at 40 or 60 and labels only some ticks",
    "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-397",
+   "file": "scripts/worksheet-gen/types/g2/G2-397-missing-digits-in-columns.js",
+   "grade": "G2",
+   "slug": "missing-digits-in-columns",
+   "family": "column-arithmetic",
+   "variationOf": null,
+   "title": "Missing Digits",
+   "instruction": "Find the missing digit. Write it in the dashed box so the sum is right.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "digits",
+    "ops",
+    "blanks",
+    "regroup"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/addsub-more.js"
+   ],
+   "teachingPoint": "2:column-method",
+   "skill": "Add and subtract 2- and 3-digit numbers in columns, ones first, writing the carried/borrowed digit",
+   "strand": "Number & Operations in Base Ten",
    "science": false
   },
   {

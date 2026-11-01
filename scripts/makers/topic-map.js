@@ -74,7 +74,7 @@ const MAKERS = [
     ],
     fable: [],
   },
-  { id: 'addition-subtraction', name: 'Addition & Subtraction', group: 'math', families: ['picture-arithmetic', 'mental-math', 'column-arithmetic'], oldApps: ['addition', 'subtraction', 'math-worksheet'], lang: 'none',
+  { id: 'addition-subtraction', name: 'Addition & Subtraction', group: 'math', families: ['picture-arithmetic', 'mental-math', 'column-arithmetic'], oldApps: ['addition', 'subtraction', 'math-worksheet'], oldAppTemplates: { addition: 'G1-102', subtraction: 'G1-104', 'math-worksheet': 'G1-442' }, lang: 'none',
     settings: ['operation: + / − / mixed', 'range (to 5, 10, 20, 100, 1000)', 'missing number position', 'regrouping: none / allowed / always', 'layout: horizontal / vertical (column)', 'pictures or numbers only', 'problems per page'],
     newTemplates: [
       ['Vertical facts to 20 (the screenshot sheet)', 'teachers expect the classic 60-fact drill page'],

@@ -3508,5 +3508,37 @@
   "G1-441": {
     "title": "Triângulos das famílias de operações",
     "instruction": "Recorte os cartões pelas linhas tracejadas. Cubra um canto: qual número está escondido?"
+  },
+  "G1-442": {
+    "title": "Continhas básicas",
+    "instruction": "Resolva cada continha. Escreva a resposta embaixo do traço."
+  },
+  "G1-443": {
+    "title": "Verdadeiro ou falso?",
+    "instruction": "A conta está certa? Circule o sinal de certo se estiver certa e o X se estiver errada."
+  },
+  "G1-444": {
+    "title": "Escreva a continha",
+    "instruction": "Observe as figuras. Escreva a continha que combina com elas."
+  },
+  "G1-445": {
+    "title": "Some três números",
+    "instruction": "Some os três números. Procure dois números que formam 10 e some esses primeiro."
+  },
+  "G1-446": {
+    "title": "Cálculo mental até 100",
+    "instruction": "Resolva cada continha de cabeça. Pense nas dezenas e nas unidades. Escreva a resposta no quadradinho."
+  },
+  "G1-447": {
+    "title": "Encontre os erros",
+    "instruction": "Confira cada resposta. Se estiver errada, faça um X no quadradinho pequeno e escreva a resposta certa no quadrado grande. Se estiver certa, deixe os dois quadradinhos em branco."
+  },
+  "G1-448": {
+    "title": "Modelos de barras",
+    "instruction": "Observe cada barra. Escreva o número que falta no quadradinho."
+  },
+  "G2-397": {
+    "title": "Algarismos que faltam",
+    "instruction": "Descubra os algarismos que faltam. Escreva cada um em um quadradinho tracejado para que a continha fique certa."
   }
 }

@@ -3513,5 +3513,37 @@
   "G1-441": {
     "title": "Dreieckskarten zu Aufgabenfamilien",
     "instruction": "Schneide die Karten an den gestrichelten Linien aus. Decke eine Ecke zu: Welche Zahl versteckt sich?"
+  },
+  "G1-442": {
+    "title": "Blitzrechnen",
+    "instruction": "Rechne jede Aufgabe. Schreibe das Ergebnis unter den Strich."
+  },
+  "G1-443": {
+    "title": "Richtig oder falsch?",
+    "instruction": "Stimmt die Aufgabe? Kreise den Haken ein, wenn sie stimmt, und das Kreuz, wenn sie nicht stimmt."
+  },
+  "G1-444": {
+    "title": "Schreibe die Rechnung zum Bild",
+    "instruction": "Schau dir die Bilder an. Schreibe die passende Rechnung."
+  },
+  "G1-445": {
+    "title": "Drei Zahlen addieren",
+    "instruction": "Addiere die drei Zahlen. Suche zwei Zahlen, die zusammen 10 ergeben, und rechne sie zuerst."
+  },
+  "G1-446": {
+    "title": "Kopfrechnen bis 100",
+    "instruction": "Rechne jede Aufgabe im Kopf. Denke an die Zehner und die Einer. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G1-447": {
+    "title": "Finde die Fehler",
+    "instruction": "Prüfe jedes Ergebnis. Ist es falsch, mache ein Kreuz in das kleine Kästchen und schreibe das richtige Ergebnis in das große Kästchen. Stimmt es, lass beide Kästchen leer."
+  },
+  "G1-448": {
+    "title": "Streifenmodelle",
+    "instruction": "Schau dir jeden Streifen an. Schreibe die fehlende Zahl in das Kästchen."
+  },
+  "G2-397": {
+    "title": "Fehlende Ziffern",
+    "instruction": "Finde die fehlenden Ziffern. Schreibe jede in ein gestricheltes Kästchen, sodass die Aufgabe stimmt."
   }
 }

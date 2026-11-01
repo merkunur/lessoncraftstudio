@@ -8,6 +8,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { iconRows, answerBox } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 
 const NUM = (n) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#3A3530" data-lcs-num="${n}">${n}</span>`;
 const OPS = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#146B5E">${ch}</span>`;
@@ -34,7 +35,9 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), d.cards);
+    // in a maker the teacher may swap a card's picture (lib/slot.js — the random stream and the catalogue page are untouched)
+    const pool = labelSafeNouns(theme);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.cards), pool, theme);
     const cards = [];
     for (let i = 0; i < d.cards; i++) {
       let a = rng.int(1, d.maxTotal - 1);
@@ -54,7 +57,7 @@ module.exports = {
         `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-fact="${x}${op === '−' ? '-' : '+'}${y}=${ans}">` +
         NUM(x) + OPS(op) + NUM(y) + OPS('=') + answerBox({ w: 52, h: 42, answer: ans }) + `</span>`;
       cards.push(
-        `<div class="ws-card-stage" style="gap:20px" data-lcs-a="${a}" data-lcs-b="${b}">` +
+        `<div class="ws-card-stage"${slot.attr(ctx, 'pic', i)} style="gap:20px" data-lcs-a="${a}" data-lcs-b="${b}">` +
         `<div class="ws-subgroup" style="max-width:170px" data-lcs-part="a">` +
         iconRows({ theme, noun: nouns[i].noun, n: a, iconPx: fitA.iconPx, perRow: fitA.perRow, rng, gapX: 4, gapY: 4 }) + `</div>` +
         `<div class="ws-subgroup" style="max-width:170px" data-lcs-part="b">` +

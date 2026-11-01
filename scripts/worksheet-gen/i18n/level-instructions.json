@@ -3870,5 +3870,63 @@
       "no": "Tegn en bue mellom to tall som til sammen blir tallet i sirkelen. Er et tall venn med seg selv, så sett ring rundt det. Ett par er allerede koblet sammen.",
       "fi": "Yhdistä kaarella kaksi lukua, joista tulee yhteensä ympyrässä oleva luku. Jos luku on itsensä kaveri, ympyröi se. Yksi pari on jo yhdistetty."
     }
+  },
+  "G1-444": {
+    "3": {
+      "en": "Look at the pictures. Write the number sentence. Write + or − in the middle box too.",
+      "de": "Schau dir die Bilder an. Schreibe die passende Rechnung. Schreibe auch + oder − in das mittlere Kästchen.",
+      "fr": "Observe les images. Écris l'opération qui correspond. Écris aussi + ou − dans la case du milieu.",
+      "es": "Mira los dibujos. Escribe la operación que corresponde. Escribe también + o − en el recuadro de en medio.",
+      "pt": "Observe as figuras. Escreva a continha que combina com elas. Escreva também + ou − no quadradinho do meio.",
+      "it": "Guarda le figure. Scrivi l'operazione giusta. Scrivi anche + o − nel riquadro centrale.",
+      "nl": "Kijk naar de plaatjes. Schrijf de som die erbij hoort. Schrijf ook + of − in het middelste vakje.",
+      "sv": "Titta på bilderna. Skriv uppgiften som passar bilden. Skriv också + eller − i rutan i mitten.",
+      "da": "Se på billederne. Skriv det regnestykke, der passer. Skriv også + eller − i den midterste kasse.",
+      "no": "Se på bildene. Skriv regnestykket som passer. Skriv også + eller − i ruten i midten.",
+      "fi": "Katso kuvia. Kirjoita lasku, joka sopii kuvaan. Kirjoita myös + tai − keskimmäiseen laatikkoon."
+    }
+  },
+  "G1-445": {
+    "1": {
+      "en": "Add the three numbers. Look for two numbers that make ten and add them first. They are underlined.",
+      "de": "Addiere die drei Zahlen. Suche zwei Zahlen, die zusammen 10 ergeben, und rechne sie zuerst. Sie sind unterstrichen.",
+      "fr": "Additionne les trois nombres. Cherche deux nombres qui font 10 et additionne-les d'abord. Ils sont soulignés.",
+      "es": "Suma los tres números. Busca dos números que formen 10 y súmalos primero. Están subrayados.",
+      "pt": "Some os três números. Procure dois números que formam 10 e some esses primeiro. Eles estão sublinhados.",
+      "it": "Addiziona i tre numeri. Cerca due numeri che fanno 10 e sommali per primi. Sono sottolineati.",
+      "nl": "Tel de drie getallen op. Zoek twee getallen die samen 10 maken en tel die eerst op. Ze zijn onderstreept.",
+      "sv": "Addera de tre talen. Leta efter två tal som blir 10 tillsammans och addera dem först. De är understrukna.",
+      "da": "Læg de tre tal sammen. Find to tal, der giver 10 tilsammen, og læg dem sammen først. De er understreget.",
+      "no": "Legg sammen de tre tallene. Finn to tall som blir 10 til sammen, og legg dem sammen først. De er understreket.",
+      "fi": "Laske kolme lukua yhteen. Etsi kaksi lukua, joista tulee yhteensä 10, ja laske ne ensin. Ne on alleviivattu."
+    },
+    "3": {
+      "en": "Add the three numbers. If two of them make ten, add those first.",
+      "de": "Addiere die drei Zahlen. Ergeben zwei davon zusammen 10, rechne sie zuerst.",
+      "fr": "Additionne les trois nombres. Si deux d'entre eux font 10, additionne-les d'abord.",
+      "es": "Suma los tres números. Si dos de ellos forman 10, súmalos primero.",
+      "pt": "Some os três números. Se dois deles formam 10, some esses primeiro.",
+      "it": "Addiziona i tre numeri. Se due di loro fanno 10, sommali per primi.",
+      "nl": "Tel de drie getallen op. Maken twee ervan samen 10? Tel die dan eerst op.",
+      "sv": "Addera de tre talen. Blir två av dem 10 tillsammans, addera dem först.",
+      "da": "Læg de tre tal sammen. Giver to af dem 10 tilsammen, så læg dem sammen først.",
+      "no": "Legg sammen de tre tallene. Hvis to av dem blir 10 til sammen, legg dem sammen først.",
+      "fi": "Laske kolme lukua yhteen. Jos kahdesta luvusta tulee yhteensä 10, laske ne ensin."
+    }
+  },
+  "G1-448": {
+    "3": {
+      "en": "Compare the two bars. How much more is the long bar than the short bar? Write it in the box.",
+      "de": "Vergleiche die beiden Streifen. Um wie viel ist der lange Streifen größer als der kurze? Schreibe es in das Kästchen.",
+      "fr": "Compare les deux barres. De combien la longue barre est-elle plus grande que la courte ? Écris-le dans la case.",
+      "es": "Compara las dos barras. ¿Cuánto más es la barra larga que la corta? Escríbelo en el recuadro.",
+      "pt": "Compare as duas barras. Quanto a barra comprida tem a mais que a curta? Escreva no quadradinho.",
+      "it": "Confronta le due barre. Di quanto la barra lunga è più grande di quella corta? Scrivilo nel riquadro.",
+      "nl": "Vergelijk de twee stroken. Hoeveel meer is de lange strook dan de korte? Schrijf het in het vakje.",
+      "sv": "Jämför de två staplarna. Hur mycket mer är den långa stapeln än den korta? Skriv det i rutan.",
+      "da": "Sammenlign de to bjælker. Hvor meget mere er den lange bjælke end den korte? Skriv det i kassen.",
+      "no": "Sammenlign de to stavene. Hvor mye mer er den lange staven enn den korte? Skriv det i ruten.",
+      "fi": "Vertaa kahta janaa. Kuinka paljon enemmän pitkä jana on kuin lyhyt? Kirjoita se laatikkoon."
+    }
   }
 }

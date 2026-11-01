@@ -3479,5 +3479,37 @@
   "G1-441": {
     "title": "Laskukolmiot leikattaviksi",
     "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Peitä yksi kulma: mikä luku on piilossa?"
+  },
+  "G1-442": {
+    "title": "Laskuharjoitus: plus ja miinus",
+    "instruction": "Laske jokainen lasku. Kirjoita vastaus viivan alle."
+  },
+  "G1-443": {
+    "title": "Totta vai tarua?",
+    "instruction": "Pitääkö lasku paikkansa? Ympyröi väkänen, jos lasku on oikein, ja rasti, jos se on väärin."
+  },
+  "G1-444": {
+    "title": "Kirjoita kuvan lasku",
+    "instruction": "Katso kuvia. Kirjoita lasku, joka sopii kuvaan."
+  },
+  "G1-445": {
+    "title": "Laske kolme lukua yhteen",
+    "instruction": "Laske kolme lukua yhteen. Etsi kaksi lukua, joista tulee yhteensä 10, ja laske ne ensin."
+  },
+  "G1-446": {
+    "title": "Päässälaskut 100:aan asti",
+    "instruction": "Laske jokainen tehtävä päässäsi. Ajattele kymmeniä ja ykkösiä. Kirjoita vastaus laatikkoon."
+  },
+  "G1-447": {
+    "title": "Etsi virheet",
+    "instruction": "Tarkista jokainen vastaus. Jos se on väärin, merkitse rasti pieneen ruutuun ja kirjoita oikea vastaus isoon ruutuun. Jos vastaus on oikein, jätä molemmat ruudut tyhjiksi."
+  },
+  "G1-448": {
+    "title": "Janamallit",
+    "instruction": "Katso jokaista janaa. Kirjoita puuttuva luku laatikkoon."
+  },
+  "G2-397": {
+    "title": "Puuttuvat numerot",
+    "instruction": "Etsi puuttuvat numerot. Kirjoita jokainen katkoviivaruutuun niin, että lasku on oikein."
   }
 }

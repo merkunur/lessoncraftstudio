@@ -3493,5 +3493,37 @@
   "G1-441": {
     "title": "Triángulos de familias de operaciones",
     "instruction": "Recorta las tarjetas por las líneas punteadas. Tapa una esquina: ¿qué número está escondido?"
+  },
+  "G1-442": {
+    "title": "Operaciones básicas",
+    "instruction": "Resuelve cada operación. Escribe el resultado debajo de la raya."
+  },
+  "G1-443": {
+    "title": "¿Verdadero o falso?",
+    "instruction": "¿La igualdad es verdadera? Encierra la palomita si es verdadera y el tache si es falsa."
+  },
+  "G1-444": {
+    "title": "Escribe la operación",
+    "instruction": "Mira los dibujos. Escribe la operación que corresponde."
+  },
+  "G1-445": {
+    "title": "Suma tres números",
+    "instruction": "Suma los tres números. Busca dos números que formen 10 y súmalos primero."
+  },
+  "G1-446": {
+    "title": "Cálculo mental hasta 100",
+    "instruction": "Resuelve cada operación mentalmente. Piensa en las decenas y las unidades. Escribe el resultado en el recuadro."
+  },
+  "G1-447": {
+    "title": "Encuentra los errores",
+    "instruction": "Revisa cada resultado. Si está mal, pon una X en el cuadrito y escribe el resultado correcto en el recuadro grande. Si está bien, deja los dos recuadros vacíos."
+  },
+  "G1-448": {
+    "title": "Modelos de barras",
+    "instruction": "Observa cada barra. Escribe el número que falta en el recuadro."
+  },
+  "G2-397": {
+    "title": "Dígitos que faltan",
+    "instruction": "Encuentra los dígitos que faltan. Escribe cada uno en un recuadro punteado para que la operación sea correcta."
   }
 }

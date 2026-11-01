@@ -3502,5 +3502,37 @@
   "G1-441": {
     "title": "Rekendriehoeken om te knippen",
     "instruction": "Knip de kaartjes uit langs de stippellijnen. Dek een hoek af: welk getal is verstopt?"
+  },
+  "G1-442": {
+    "title": "Automatiseren: plus en min",
+    "instruction": "Reken elke som uit. Schrijf het antwoord onder de streep."
+  },
+  "G1-443": {
+    "title": "Waar of niet waar?",
+    "instruction": "Klopt de som? Omcirkel het vinkje als hij klopt en het kruisje als hij niet klopt."
+  },
+  "G1-444": {
+    "title": "Schrijf de som bij de plaatjes",
+    "instruction": "Kijk naar de plaatjes. Schrijf de som die erbij hoort."
+  },
+  "G1-445": {
+    "title": "Drie getallen optellen",
+    "instruction": "Tel de drie getallen op. Zoek twee getallen die samen 10 maken en tel die eerst op."
+  },
+  "G1-446": {
+    "title": "Hoofdrekenen tot 100",
+    "instruction": "Reken elke som uit je hoofd uit. Denk aan de tientallen en de eenheden. Schrijf het antwoord in het vakje."
+  },
+  "G1-447": {
+    "title": "Zoek de fouten",
+    "instruction": "Controleer elk antwoord. Is het fout? Zet dan een kruisje in het kleine vakje en schrijf het goede antwoord in het grote vakje. Klopt het? Laat dan beide vakjes leeg."
+  },
+  "G1-448": {
+    "title": "Strokenmodellen",
+    "instruction": "Kijk naar elke strook. Schrijf het getal dat mist in het vakje."
+  },
+  "G2-397": {
+    "title": "Ontbrekende cijfers",
+    "instruction": "Zoek de cijfers die missen. Schrijf elk cijfer in een gestippeld vakje, zodat de som klopt."
   }
 }

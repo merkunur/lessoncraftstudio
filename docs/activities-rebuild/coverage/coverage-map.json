@@ -1717,7 +1717,8 @@
       "code": "1.OA.A.2",
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
-        "G1-112"
+        "G1-112",
+        "G1-445"
       ],
       "verdict": "covered",
       "activities": [
@@ -1775,6 +1776,34 @@
       "note": ""
     },
     {
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "tp": "1:true-false-equations",
+      "grade": "1",
+      "skill": "The equal sign means \"the same as\": decide whether an equation is true or false (incl. 8 = 5 + 3 and 9 − 2 = 3 + 4)",
+      "code": "1.OA.D.7",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-443"
+      ],
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T2). Activities gap: none yet."
+    },
+    {
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "tp": "1:check-answers",
+      "grade": "1",
+      "skill": "Check worked addition and subtraction, mark the wrong answers and correct them",
+      "code": "1.OA.D.7 / 2.NBT.B.9",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-447"
+      ],
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T6). Activities gap: none yet."
+    },
+    {
       "tp": "1:fluency-within-20",
       "grade": "1",
       "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
@@ -1786,7 +1815,8 @@
         "G1-216",
         "G1-217",
         "G1-428",
-        "G1-439"
+        "G1-439",
+        "G1-442"
       ],
       "verdict": "covered",
       "activities": [
@@ -1855,6 +1885,34 @@
       ],
       "planned": [],
       "note": ""
+    },
+    {
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "tp": "1:write-the-equation",
+      "grade": "1",
+      "skill": "Represent a picture of putting together / taking away with the whole equation (all three numbers, the sign)",
+      "code": "K.OA.A.1 / 1.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-444"
+      ],
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T3). Activities gap: none yet."
+    },
+    {
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "tp": "1:bar-model",
+      "grade": "1",
+      "skill": "Read a part-part-whole bar model and find the missing part or whole; compare two bars (how many more)",
+      "code": "1.OA.A.1 / 2.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-448"
+      ],
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T7). Activities gap: none yet."
     },
     {
       "tp": "1:number-walls",
@@ -1994,6 +2052,20 @@
       "activities": [],
       "planned": [],
       "note": "Number Bonds maker 2026-11-01 (NEW-TEMPLATES 6-T3). Activities gap: none yet."
+    },
+    {
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "tp": "1:mental-math-to-100",
+      "grade": "1",
+      "skill": "Add and subtract tens and ones in the head, without columns (34 + 20, 56 − 4; crossing a ten at the top level)",
+      "code": "1.NBT.C.4 / 1.NBT.C.6 / 2.NBT.B.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-446"
+      ],
+      "note": "Addition & Subtraction maker 2026-11-01 (NEW-TEMPLATES 7-T5). Activities gap: none yet."
     },
     {
       "tp": "1:skip-counting",
@@ -3652,7 +3724,8 @@
         "G2-256",
         "G2-257",
         "G2-258",
-        "G2-259"
+        "G2-259",
+        "G2-397"
       ],
       "verdict": "partial",
       "activities": [

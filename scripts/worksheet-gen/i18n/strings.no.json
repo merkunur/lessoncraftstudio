@@ -3497,5 +3497,37 @@
   "G1-441": {
     "title": "Regnetrekanter til å klippe ut",
     "instruction": "Klipp ut kortene langs de stiplede linjene. Dekk til et hjørne: hvilket tall gjemmer seg?"
+  },
+  "G1-442": {
+    "title": "Hurtigregning",
+    "instruction": "Regn ut hvert stykke. Skriv svaret under streken."
+  },
+  "G1-443": {
+    "title": "Sant eller usant?",
+    "instruction": "Stemmer regnestykket? Sett ring rundt haken hvis det stemmer, og rundt krysset hvis det ikke stemmer."
+  },
+  "G1-444": {
+    "title": "Skriv regnestykket til bildet",
+    "instruction": "Se på bildene. Skriv regnestykket som passer."
+  },
+  "G1-445": {
+    "title": "Legg sammen tre tall",
+    "instruction": "Legg sammen de tre tallene. Finn to tall som blir 10 til sammen, og legg dem sammen først."
+  },
+  "G1-446": {
+    "title": "Hoderegning til 100",
+    "instruction": "Regn ut hvert stykke i hodet. Tenk på tierne og enerne. Skriv svaret i ruten."
+  },
+  "G1-447": {
+    "title": "Finn feilene",
+    "instruction": "Sjekk hvert svar. Hvis det er feil, sett et kryss i den lille ruten og skriv riktig svar i den store ruten. Hvis det er riktig, la begge rutene stå tomme."
+  },
+  "G1-448": {
+    "title": "Stavmodeller",
+    "instruction": "Se på hver stav. Skriv tallet som mangler i ruten."
+  },
+  "G2-397": {
+    "title": "Sifre som mangler",
+    "instruction": "Finn sifrene som mangler. Skriv hvert siffer i en stiplet rute, slik at regnestykket stemmer."
   }
 }

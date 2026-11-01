@@ -11,6 +11,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { iconRows, fitIcons, answerBox } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 
 const OP = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:32px;color:#146B5E;flex:0 0 auto">${ch}</span>`;
 const NUM = (n) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:34px;color:#3A3530;flex:0 0 auto" data-lcs-num="${n}">${n}</span>`;
@@ -24,8 +25,9 @@ function group(theme, noun, n, rng, opts) {
 }
 
 /** n icons in rows; the LAST k get a coral cross-out X overlay. */
-function crossoutGroup(theme, noun, n, k, rng) {
-  const fit = fitIcons({ n, stageW: 360, stageH: 110, maxPx: 50, gapX: 6, gapY: 5 });
+function crossoutGroup(theme, noun, n, k, rng, opts) {
+  const o = opts || {};   // additive (2026-11-01, addsub-more.js): a shorter stage; the defaults are the published size
+  const fit = fitIcons({ n, stageW: o.w || 360, stageH: o.h || 110, maxPx: o.maxPx || 50, gapX: 6, gapY: 5 });
   const imgs = [];
   for (let i = 0; i < n; i++) {
     const crossed = i >= n - k;
@@ -66,7 +68,9 @@ function makePictureEquationType(cfg) {
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
-      const nouns = rng.sample(labelSafeNouns(theme), d.rows);
+      // in a maker the teacher may swap a row's picture (lib/slot.js — the random stream and the catalogue page are untouched)
+      const pool = labelSafeNouns(theme);
+      const nouns = slot.pictures(ctx, rng.sample(pool, d.rows), pool, theme);
       const cards = [];
       const truth = [];
       for (let i = 0; i < d.rows; i++) {
@@ -110,7 +114,7 @@ function makePictureEquationType(cfg) {
             answerBox({ w: 70, h: 58, answer: total - a }) + OP('=') + NUM(total);
           truth.push({ a, total, ans: total - a });
         }
-        cards.push(`<div class="ws-card-stage" style="gap:12px" data-lcs-mode="${mode}">${stage}</div>`);
+        cards.push(`<div class="ws-card-stage"${slot.attr(ctx, 'pic', i)} style="gap:12px" data-lcs-mode="${mode}">${stage}</div>`);
       }
       return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: { rows: truth } };
     },
@@ -160,4 +164,4 @@ function makePictureEquationType(cfg) {
   };
 }
 
-module.exports = { makePictureEquationType };
+module.exports = { makePictureEquationType, group, crossoutGroup };   // group + crossoutGroup: reused by addsub-more.js (2026-11-01)

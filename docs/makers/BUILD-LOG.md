@@ -44,9 +44,15 @@ records what is BUILT, measured and committed, step by step, so any session can 
   K-028, K-444 L3 (10 on 50–56 %) → the total first; K-450 quick look → the shared balanced-rank helper, as much room
   above the top value as below, ±3 for four choices. 11 more exemptions with reasons (bins, fact families, shared
   denominators, the count-on trail, the facts drill, the make-ten bridge, fact of the day, the ×1 row, rounding within 50).
-  **Still open, recorded (mild, 13–23 %):** G2-397 L1 (digit 1 answers 23 %), G2-224 L2 (digits 1–4), K-031 (marked
-  positions often adjacent → previous + 1).
+  **Still open, recorded (mild, 14–25 %, not the lesson):** G2-397 L1 (digit 1 answers 23 %), G2-224 L2 (digits
+  1–4), K-031 (marked positions often adjacent → previous + 1), G1-439 L3, G2-400 L2, G1-449 L3, K-437 (vowels are the
+  commonest missing letters). The gate's EXEMPT table (30 entries, each tested to match its strategy and no neighbour)
+  and its non-vacuity skip of the published level-2 copy-1 page of a declared-screen template (no screen build by design)
+  are in settings-space.js.
 - **K-243 family L3:** "New version" past copy 2 threw → every further copy is another mixed page.
+- **G3-358 times-table faces (G3-364 …) L1/L2:** the same fault (copies planned up / down / turned; copy 3+ threw — found
+  by settings-space build errors) → every further copy is 'mixed' (the same facts shuffled from its own seed); planned
+  copies byte-identical, copies 3–6 all distinct.
 - **Screen geometry:** K-458 hit boxes `fill="none"` took no tap → painted at opacity 0; G3-406 L1 tick boxes reached
   120 px past the line → ≤ 72 px; G2-410 L3 the match target covered the write boxes → it sits on the word.
 - **Print order:** the preview now shows the keys after all pages, as Print and the PDF do.

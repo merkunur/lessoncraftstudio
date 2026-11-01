@@ -46,23 +46,28 @@ const EXEMPT = {
   'G3-316': [/^alternate-/, 'colour n of d parts: any n parts are right (graded "any N")'],
   'G1-137': [/^slot-[02]$/, 'the symbols stand in their fixed order < = >; without equal pairs two outcomes remain — the child still compares'],
   'G2-219': [/^slot-[02]$/, 'the symbols stand in their fixed order < = >; the child still compares'],
-  'G1-434': [/^prev+1$/, 'missing numbers on a 120 chart: the next number IS the answer — the counting sequence is the lesson'],
-  'G1-436': [/^prev+1$/, 'fill in the number chart in order, box by box: counting on is the lesson'],
-  'G2-394': [/^prev+1$/, 'missing numbers on a number chart: the counting sequence is the lesson'],
+  'G1-434': [/^prev\+1$/,'missing numbers on a 120 chart: the next number IS the answer — the counting sequence is the lesson'],
+  'G1-436': [/^prev\+1$/,'fill in the number chart in order, box by box: counting on is the lesson'],
+  'G2-394': [/^prev\+1$/,'missing numbers on a number chart: the counting sequence is the lesson'],
   'G1-449': [/^(const-1|echo|same-as-prev)$/, 'near doubles: write the double of the printed number (echo / a repeated part) and the "+ 1" box is always 1 — the strategy is the lesson'],
-  'G2-409': [/^(const-1|same-as-prev)$/, 'level 1 shows unit fractions (numerator 1); the shaded and the unshaded fraction share their denominator'],
-  'G1-351': [/^const-/, 'sorting numbers into the odd and even house: the bins are read as set placeholders, not typed answers'],
-  'G1-456': [/^const-/, 'cut and sort into the odd and even house: set placeholders'],
-  'G3-387': [/^const-/, 'sorting into round-up / round-down bins: set placeholders'],
-  'G1-113': [/^echo$/, 'fact families: the four sentences use the numbers printed by the two groups'],
-  'G1-369': [/^same-as-prev$/, 'a fair share: each friend gets the same number'],
-  'G2-351': [/^same-as-prev$/, 'two EQUAL addends: the two boxes hold the same number'],
-  'G3-409': [/^same-as-prev$/, 'fact of the day: one fact, written every way'],
+  'G2-409': [/^(const-\d+|same-as-prev|prev\+1)$/, 'the two numerators make the whole (1/3 shaded, 2/3 not), level 1 shows unit fractions (numerator 1); the shaded and the unshaded fraction share their denominator, which the level draws from one or two part counts'],
+  'G1-351': [/^(const-|same-as-prev$)/,'sorting numbers into the odd and even house: the bins are read as set placeholders, not typed answers'],
+  'G1-456': [/^(const-|same-as-prev$)/, 'cut and sort into the odd and even house: set placeholders (the house repeats)'],
+  'G3-387': [/^(const-|same-as-prev$)/, 'sorting into round-up / round-down bins: set placeholders (the bin repeats)'],
+  'G1-113': [/^(echo|same-as-prev|const-\d+)$/, 'fact families: the four sentences use the same three numbers, printed by the two groups'],
+  'G1-369': [/^(same-as-prev|const-[01])$/, 'a fair share: each friend gets the same number, and what is left over is 0 or 1 — that IS odd or even'],
+  'G2-351': [/^(same-as-prev|const-[01])$/, 'two EQUAL addends: the two boxes hold the same number, and the left-over box is 0 or 1 — that IS odd or even'],
+  'K-444': [/^same-as-prev$/, 'count on: the worked trail writes each number counted on, so the total repeats the last trail box'],
   'K-445': [/^same-as-prev$/, 'same number? both groups are counted; on the "yes" rows the two counts are equal'],
   'K-452': [/^same-as-prev$/, 'three ways to show ONE number: the number repeats'],
   'K-448': [/^echo$/, 'teen numbers: write the number, then 10 + ones = that number (it is printed back)'],
   'K-456': [/^index-rev$/, 'a number house lists every split in order, so the missing part counts down floor by floor — the pattern is the lesson'],
   'G1-451': [/^echo$/, 'double and half machines: the half of a double is the number printed at the start'],
+  'G1-442': [/^const-10$/, 'a facts drill samples the facts within 10 evenly, and more facts make 10 than any other sum'],
+  'G1-439': [/^const-\d$/, 'the make-ten bridge starts just below ten (6–9), so the jump to the ten is always 1–4 — the strategy is the lesson'],
+  'G3-409': [/^(same-as-prev|const-\d+)$/, 'fact of the day: one fact per page, written every way — its numbers and its product fill several boxes'],
+  'G3-407': [/^index$/, 'a multiplication square: the row of 1 repeats the column numbers'],
+  'G3-389': [/^const-\d+$/, 'level 1 numbers stay within 50, so they round to the four tens 20–50'],
   'G2-206': [/^const-1$/, 'make A ten: 11–19 ones bundle into one ten — the tens box is 1 by the task'],
 };
 function exemptFor(id, r) {
@@ -143,7 +148,11 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
             if (r.skip) { skip = r.skip; break; }
             if (r.err) { fail(`${maker} ${t.id} ${loc} L${d} v${o.variant} ${o.theme || ''}: ${r.err}`); continue; }
             pagesN++;
-            if (!r.bundles.length || !r.bundles.some((b) => b.items.length)) empty++;
+            // the PUBLISHED page (level 2, copy 1) of a declared-screen template is rebuilt exactly as it shipped, with no
+            // screen build (its interactive version is the catalogue's own deck): no graded answer there is by design.
+            // Every other page must yield one. (main session 2026-11-01: 45 "measured nothing" lines were all this page)
+            const publishedDeclared = mode !== 'marks' && Number(o.difficulty) === 2 && Number(o.variant || 1) === 1;
+            if ((!r.bundles.length || !r.bundles.some((b) => b.items.length)) && !publishedDeclared) empty++;
             pools.push(r.bundles);
           }
           if (skip) { noInstrument++; console.log(`note ${maker} ${t.id} ${loc} L${d}: ${skip} — reported, not measured`); continue; }

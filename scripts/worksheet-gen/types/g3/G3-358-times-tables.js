@@ -88,8 +88,10 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const glyph = DOT_LOCALES.has((locale || 'en').slice(0, 2)) ? '·' : '×';
-    const plan = (d.plans || ['up'])[(Number((ctx && (ctx.seedVariant || ctx.variant)) || 1)) - 1];
-    if (d.plans && !plan) throw new Error(`G3-358: level ${difficulty} has ${d.plans.length} copies (no plan for copy ${ctx.seedVariant || ctx.variant})`);
+    // the planned copies (up, down, turned around) come first, unchanged; a maker's New version asks for copy 3, 4, … —
+    // each further copy is 'mixed' (the same facts in a shuffled order, from its own seed), never an error and never a
+    // repeat of an earlier copy (settings-space build errors, 2026-11-01; the K-243 family had the same fault)
+    const plan = (d.plans || ['up'])[(Number((ctx && (ctx.seedVariant || ctx.variant)) || 1)) - 1] || (d.plans ? 'mixed' : 'up');
     const cards = [];
     const sz = SIZES[d.cards] || SIZES[12];
     const { BOX, NUM, OPX, EQ, GIVEN } = pen(sz.fs, sz.box);
@@ -117,6 +119,7 @@ module.exports = {
       const N = d.table || rng.int(2, 9);
       const ks = Array.from({ length: 10 }, (_, i) => i + 1);
       if (plan === 'down') ks.reverse();
+      if (plan === 'mixed') { for (let i = ks.length - 1; i > 0; i--) { const j = rng.int(0, i); [ks[i], ks[j]] = [ks[j], ks[i]]; } }
       for (const k of ks) {
         const pos = d.anchors && d.anchors.includes(k) ? 'given' : 'res';
         if (plan === 'turn') card(N, k, pos, { n: N, k, order: plan });

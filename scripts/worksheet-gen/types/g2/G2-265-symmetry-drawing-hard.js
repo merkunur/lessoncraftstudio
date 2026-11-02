@@ -5,6 +5,6 @@ module.exports = {
   ...base,
   id: 'G2-265',
   slug: 'symmetry-drawing-hard',
-  difficulty: { 1: {"cards":4,"cols":2,"rows":2,"cell":26,"figures":["ladybug","owl","sailboat","cactus"]}, 2: {"cards":4,"cols":2,"rows":2,"cell":26,"figures":["ladybug","owl","sailboat","cactus"]}, 3: {"cards":4,"cols":2,"rows":2,"cell":26,"figures":["ladybug","owl","sailboat","cactus"]} },
+  difficulty: { 1: {"cards":4,"cols":2,"rows":2,"cell":24,"figures":["ladybug","owl","sailboat","cactus"]}, 2: {"cards":4,"cols":2,"rows":2,"cell":24,"figures":["ladybug","owl","sailboat","cactus"]}, 3: {"cards":4,"cols":2,"rows":2,"cell":24,"figures":["ladybug","owl","sailboat","cactus"]} },
   i18n: { en: { title: "Hard Symmetry Drawing", instruction: "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical." } },
 };

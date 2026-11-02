@@ -134,14 +134,15 @@ function makePatternType(cfg) {
         }
 
         // G1-155 (two blanks, a line from each picture): the key and the screen mark each pair — the blank carries
-        // data-lcs-pair, the picture that belongs there data-lcs-key-badge (makers 2026-11-02; the catalogue page is unchanged)
+        // data-lcs-pair, the picture that belongs there data-lcs-key-badge, both "r<row>-<symbol>" (a pair id is unique on
+        // the page: rows 1 and 3 may both miss an A) — makers 2026-11-02; the catalogue page is unchanged
         const pairMarks = variant === 'missing2' && !!(ctx && (ctx.answerKey || ctx.screen));
         const slots = [];
         for (let k = 0; k < seqLen; k++) {
           if (k === blankIdx) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}"${pairMarks ? ` data-lcs-pair="${answerSym}"` : ''}>?</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}"${pairMarks ? ` data-lcs-pair="r${i}-${answerSym}"` : ''}>?</span>`);
           } else if (k === blankIdx2) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}"${pairMarks ? ` data-lcs-pair="${answerSym2}"` : ''}>?</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}"${pairMarks ? ` data-lcs-pair="r${i}-${answerSym2}"` : ''}>?</span>`);
           } else {
             slots.push(render(attribute === 'count' ? null : seq[k], k));
           }
@@ -182,7 +183,7 @@ function makePatternType(cfg) {
           });
         }
         const chipHtml = choices.map((c) =>
-          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${pairMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym}"` : ''}>${c.html}</span>`).join('');
+          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${pairMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="r${i}-${c.sym}"` : ''}>${c.html}</span>`).join('');
 
         // stack: the choices under the sequence — at its right end for "what comes next", centred for the missing ones
         cards.push(stack

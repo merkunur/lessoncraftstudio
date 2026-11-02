@@ -1350,7 +1350,7 @@
   },
   "G2-268": {
     "title": "Peilikuva viivan alle",
-    "instruction": "Kuvasta on valmiina vain puolet. Väritä ruudut viivan alapuolelle niin, että kuvasta tulee symmetrinen."
+    "instruction": "Kuvat ovat kyljellään. Jokaisesta on valmiina vain puolet: väritä ruudut viivan alapuolelle niin, että kuvasta tulee symmetrinen."
   },
   "G2-269": {
     "title": "Luetun ymmärtäminen: Ensilumi",
@@ -1546,7 +1546,7 @@
   },
   "K-298": {
     "title": "Piirrä ruudukkoon: helppo aloitus",
-    "instruction": "Ruudukossa ei ole kirjaimia. Väritä samat ruudut viereen."
+    "instruction": "Ruudukossa ei ole kirjaimia eikä numeroita. Väritä samat ruudut viereiseen tyhjään ruudukkoon."
   },
   "K-299": {
     "title": "Piirrä ruudukkoon: A–F ja 1–6",
@@ -1554,7 +1554,7 @@
   },
   "K-300": {
     "title": "Piirrä ruudukkoon: 8×8-ruudukko",
-    "instruction": "Isompi ruudukko: etsi ruudut kirjaimen ja numeron avulla."
+    "instruction": "Isompi ruudukko: etsi ruudut kirjaimen ja numeron avulla ja väritä samat ruudut tyhjään ruudukkoon."
   },
   "K-302": {
     "title": "Yksikkö ja monikko: lyhyet sanat",
@@ -3779,5 +3779,13 @@
   "K-468": {
     "title": "Jäljennä lukusanat",
     "instruction": "Katso lukua. Kirjoita sen lukusana ensin katkoviivoja pitkin ja sitten itse tyhjille riveille."
+  },
+  "G2-479": {
+    "title": "Kaksi symmetria-akselia",
+    "instruction": "Jokaisessa kuvassa on kaksi symmetria-akselia. Neljännes on jo väritetty. Väritä kolme muuta neljännestä niin, että kuva on symmetrinen kummankin akselin suhteen."
+  },
+  "G1-484": {
+    "title": "Piirrä toinen puoli",
+    "instruction": "Kuvasta on piirretty vain puolet. Piirrä toinen puoli peilikuvana viivan toiselle puolelle ruutu ruudulta."
   }
 }

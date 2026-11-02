@@ -1034,7 +1034,7 @@
   },
   "G2-253": {
     "title": "Tegn spejlbilledet færdigt",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+    "instruction": "Hvert billede er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
   },
   "G2-254": {
     "title": "Læs og svar",
@@ -1334,23 +1334,23 @@
   },
   "G2-264": {
     "title": "Nem symmetritegning",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+    "instruction": "Hvert billede er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
   },
   "G2-265": {
     "title": "Svær symmetritegning",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+    "instruction": "Hvert billede er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
   },
   "G2-266": {
     "title": "Spejlbilleder: hjerte og sommerfugl",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+    "instruction": "Hvert billede er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
   },
   "G2-267": {
     "title": "Spejlbilleder: hus og krone",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+    "instruction": "Hvert billede er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
   },
   "G2-268": {
     "title": "Spejling under stregen",
-    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne under stregen, så billedet bliver symmetrisk."
+    "instruction": "Billederne ligger på siden. Hvert billede er kun halvt færdigt: farvelæg felterne under linjen, så billedet bliver symmetrisk."
   },
   "G2-269": {
     "title": "Læseforståelse: Elias på stranden",
@@ -1450,7 +1450,7 @@
   },
   "K-286": {
     "title": "Tegn efter i kvadratnet",
-    "instruction": "Se godt på billedet til venstre. Farvelæg de samme felter i det tomme kvadratnet, så billedet bliver magen til."
+    "instruction": "Se godt på billedet til venstre. Farvelæg de samme felter i det tomme kvadratnet, så billedet bliver magen til det til venstre."
   },
   "K-287": {
     "title": "Ental og flertal",
@@ -1554,7 +1554,7 @@
   },
   "K-300": {
     "title": "Tegn efter i et 8x8-kvadratnet",
-    "instruction": "Et større kvadratnet: find hvert felt, og farvelæg det ens."
+    "instruction": "Et større kvadratnet: find hvert felt med bogstav og tal, og farvelæg det samme felt til højre."
   },
   "K-302": {
     "title": "Ental og flertal: de første ord",
@@ -3788,5 +3788,13 @@
   "K-468": {
     "title": "Skriv talordene efter",
     "instruction": "Se på tallet. Skriv oven i talordet, og skriv det derefter selv på de tomme linjer."
+  },
+  "G2-479": {
+    "title": "Symmetri med to spejlingsakser",
+    "instruction": "Hvert billede har to spejlingsakser. En fjerdedel er allerede farvelagt. Farvelæg de andre tre fjerdedele, så billedet bliver symmetrisk om begge akser."
+  },
+  "G1-484": {
+    "title": "Tegn den anden halvdel",
+    "instruction": "Kun halvdelen af billedet er tegnet. Tegn den anden halvdel spejlvendt på den anden side af linjen, felt for felt."
   }
 }

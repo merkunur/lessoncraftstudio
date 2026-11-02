@@ -1039,7 +1039,7 @@
   },
   "G2-253": {
     "title": "Simetría en cuadrícula",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+    "instruction": "Cada dibujo está a medias. Colorea los cuadritos del otro lado de la línea para que quede simétrico, como en un espejo."
   },
   "G2-254": {
     "title": "Comprensión lectora",
@@ -1344,23 +1344,23 @@
   },
   "G2-264": {
     "title": "Simetría fácil",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+    "instruction": "Cada dibujo está a medias. Colorea los cuadritos del otro lado de la línea para que quede simétrico, como en un espejo."
   },
   "G2-265": {
     "title": "Simetría difícil",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+    "instruction": "Cada dibujo está a medias. Colorea los cuadritos del otro lado de la línea para que quede simétrico, como en un espejo."
   },
   "G2-266": {
     "title": "Simetría: corazón y mariposa",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+    "instruction": "Cada dibujo está a medias. Colorea los cuadritos del otro lado de la línea para que quede simétrico, como en un espejo."
   },
   "G2-267": {
     "title": "Simetría: casa y corona",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+    "instruction": "Cada dibujo está a medias. Colorea los cuadritos del otro lado de la línea para que quede simétrico, como en un espejo."
   },
   "G2-268": {
     "title": "Simetría con espejo horizontal",
-    "instruction": "Cada dibujo está a medias. Colorea los cuadrados debajo de la línea para completarlo igual."
+    "instruction": "Los dibujos están acostados de lado. Cada uno está a medias: colorea los cuadritos debajo de la línea para que quede simétrico, como en un espejo."
   },
   "G2-269": {
     "title": "Comprensión lectora: La caracola",
@@ -1556,15 +1556,15 @@
   },
   "K-298": {
     "title": "Copia el dibujo en una cuadrícula de 6x6",
-    "instruction": "Cuadrícula de 6x6, sin letras ni números."
+    "instruction": "Colorea los mismos cuadritos en la cuadrícula vacía de 6x6."
   },
   "K-299": {
     "title": "Copia el dibujo con letras y números",
-    "instruction": "Cada recuadro tiene una letra y un número: B2."
+    "instruction": "Busca cada cuadrito por su letra y su número (como B2) y coloréalo igual en la cuadrícula vacía."
   },
   "K-300": {
     "title": "Copia el dibujo en una cuadrícula de 8x8",
-    "instruction": "Cuadrícula más grande: 8x8, con letras."
+    "instruction": "Cuadrícula más grande de 8x8: busca cada cuadrito por su letra y su número y coloréalo igual."
   },
   "K-302": {
     "title": "Singular y plural: palabras cortas",
@@ -3793,5 +3793,13 @@
   "K-468": {
     "title": "Repasa los números con letra",
     "instruction": "Mira el número. Repásalo escrito con letra y después escríbelo tú en los renglones vacíos."
+  },
+  "G2-479": {
+    "title": "Simetría con dos ejes",
+    "instruction": "Cada dibujo tiene dos ejes de simetría. Una cuarta parte ya está coloreada. Colorea las otras tres partes para que el dibujo quede simétrico respecto a los dos ejes."
+  },
+  "G1-484": {
+    "title": "Dibuja la otra mitad",
+    "instruction": "Solo está dibujada la mitad. Dibuja la otra mitad del otro lado de la línea, como en un espejo, cuadrito por cuadrito."
   }
 }

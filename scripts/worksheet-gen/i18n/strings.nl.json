@@ -1031,7 +1031,7 @@
   },
   "G2-253": {
     "title": "Maak de spiegeltekening af",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    "instruction": "Elk plaatje is half af. Kleur de hokjes aan de andere kant van de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-254": {
     "title": "Begrijpend lezen",
@@ -1331,23 +1331,23 @@
   },
   "G2-264": {
     "title": "Makkelijke spiegeltekeningen",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    "instruction": "Elk plaatje is half af. Kleur de hokjes aan de andere kant van de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-265": {
     "title": "Moeilijke spiegeltekeningen",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    "instruction": "Elk plaatje is half af. Kleur de hokjes aan de andere kant van de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-266": {
     "title": "Spiegelen: hart en vlinder",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    "instruction": "Elk plaatje is half af. Kleur de hokjes aan de andere kant van de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-267": {
     "title": "Spiegelen: huis en kroon",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    "instruction": "Elk plaatje is half af. Kleur de hokjes aan de andere kant van de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-268": {
     "title": "Spiegelen onder de lijn",
-    "instruction": "Elk plaatje is half af. Kleur de vakjes onder de spiegellijn precies na."
+    "instruction": "De plaatjes liggen op hun kant. Elk plaatje is half af: kleur de hokjes onder de spiegellijn, zodat het plaatje gespiegeld wordt."
   },
   "G2-269": {
     "title": "Begrijpend lezen: de rode vlieger",
@@ -1551,7 +1551,7 @@
   },
   "K-300": {
     "title": "Natekenen op ruitjes: 8 bij 8",
-    "instruction": "Dit rooster is groter: 8 bij 8. Zoek elk hokje met letter en cijfer."
+    "instruction": "Dit rooster is groter: 8 bij 8. Zoek elk hokje met letter en cijfer en kleur het in het lege rooster."
   },
   "K-302": {
     "title": "Enkelvoud en meervoud: eerste woordjes",
@@ -3802,5 +3802,13 @@
   "K-468": {
     "title": "Telwoorden natrekken",
     "instruction": "Kijk naar het getal. Trek het telwoord na en schrijf het daarna zelf op de lege regels."
+  },
+  "G2-479": {
+    "title": "Spiegelen met twee spiegellijnen",
+    "instruction": "Elk plaatje heeft twee spiegellijnen. Een kwart is al gekleurd. Kleur de andere drie kwarten zodat het plaatje bij elke spiegellijn gespiegeld wordt."
+  },
+  "G1-484": {
+    "title": "Teken de andere helft",
+    "instruction": "Maar de helft van het plaatje is getekend. Teken de andere helft gespiegeld aan de andere kant van de spiegellijn, hokje voor hokje."
   }
 }

@@ -221,6 +221,9 @@ const MAKERS = [
     fable: [],
   },
   { id: 'symmetry-grids', name: 'Symmetry & Grid Copy', group: 'math', families: ['symmetry', 'grid-copy'], oldApps: ['draw-and-color'], lang: 'none',
+    // built 2026-11-02: G2-479 Symmetry with Two Mirror Lines and G1-484 Draw the Other Half (types/_shared/symmetry-more.js:
+    // hand-drawn quarters; how-to-draw line art whose left half mirrored is the whole). The faces got real levels; sym-grid
+    // mirrors EXACTLY across its drawn line (the published pages asked for a column the grid did not have).
     settings: ['grid size', 'picture', 'axis: vertical / horizontal', 'coordinates labels on/off'],
     newTemplates: [['Mirror drawing of a library picture on a grid (the rooster screenshot)', 'grid drawing of real art, not only pixel figures'], ['Symmetry with two axes', 'harder level']],
     fable: ['Grid drawing from LIBRARY art (screenshot 6): how to turn a line-art picture into a gridded copy task that a child can actually copy square by square (simplify the art? choose grid density from the art\'s detail?).'],

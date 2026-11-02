@@ -52,6 +52,13 @@ const LS_PIXEL_FIGURES = [
   { key: 'bus',        cls: 'f7', rows: ['.......', 'yyyyyyy', 'ybybyby', 'yyyyyyy', 'yyyyyyr', '.n..n..', '.......'] },
   { key: 'pear',       cls: 'f7', rows: ['....g..', '...n...', '...yy..', '..yyy..', '.yyyyy.', '.yyyyy.', '..yyy..'] },
   { key: 'popsicle',   cls: 'f7', rows: ['...rrr.', '...rrr.', '...ooo.', '...ooo.', '...yyy.', '....n..', '....n..'] },
+  // Symmetry & Grid Copy maker (2026-11-02): the 7×7 copy page had 8 pictures fit to copy (≥ 40 % filled, K-286) —
+  // these five make 13, so "New version" does not repeat within a few presses
+  { key: 'teapot',     cls: 'f7', rows: ['...n...', '..bbb..', 'b.bbbbb', 'bbbbbb.', 'b.bbbb.', '..bbbb.', '.......'] },
+  { key: 'snail',      cls: 'f7', rows: ['.....n.', '.ooo.n.', 'oooo.gg', 'oo.oogg', 'ooooogg', 'gggggg.', '.......'] },
+  { key: 'mug',        cls: 'f7', rows: ['...n...', '.rrrr..', '.rrrrrr', '.rrrr.r', '.rrrrrr', '.rrrr..', '.rrrr..'] },
+  { key: 'sneaker',    cls: 'f7', rows: ['.......', '.......', '.bb....', '.bbb...', '.bbbbb.', 'bbbbbbb', 'nnnnnnn'] },
+  { key: 'cactus',     cls: 'f7', rows: ['...g...', '...g..g', 'g..g..g', 'g..gggg', 'gggg...', '..ggg..', '..nnn..'] },
 
   // ---- f8: the 10×10 grid ----
   { key: 'dog',       cls: 'f8', rows: ['.n......', 'nnn....n', 'nbnnnnnn', '.nnnnnnn', '..nnnnn.', '..n.n.n.', '..n.n.n.', '........'] },

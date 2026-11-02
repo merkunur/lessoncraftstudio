@@ -14,7 +14,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Mirror Below the Line',
-      instruction: 'Each picture is only half done. Color the squares below the line to make it symmetrical.',
+      instruction: 'The pictures lie on their side. Each one is only half done: color the squares below the line to make it symmetrical.',
     },
   },
 };

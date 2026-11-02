@@ -8,7 +8,10 @@
  * Optional coordinate labels (A… top, 1… left) on BOTH grids at d3 — the
  * bridge to grid-coordinates.
  *
- * { figure, cell, labels=false } → { modelSvg, targetSvg, filled, width, height }
+ * reveal (maker level 1, 2026-11-02): the first `reveal` rows of the picture are already coloured on the target grid
+ * (teal, data-lcs-given-target) — the child copies the rest. key: the cells to colour are drawn coral (the answer key).
+ *
+ * { figure, cell, labels=false, reveal=0, key=false } → { modelSvg, targetSvg, filled, width, height }
  */
 'use strict';
 const tokens = require('./_tokens.js');
@@ -17,7 +20,7 @@ const { monoRows } = require('../data/b2/figures.js');
 
 const LETTERS = 'ABCDEFGHIJ';
 
-function grid({ n, cell, labels, filledCells, mode, key }) {
+function grid({ n, cell, labels, filledCells, mode, key, reveal = 0, answerKey = false }) {
   const t = tokens;
   const g = labels ? 20 : 0;
   const W = g + n * cell + 4, H = g + n * cell + 4;
@@ -31,8 +34,10 @@ function grid({ n, cell, labels, filledCells, mode, key }) {
   for (const [c, r] of filledCells) {
     if (mode === 'model') {
       parts.push(el('rect', { x: x0 + c * cell + 1, y: y0 + r * cell + 1, width: cell - 2, height: cell - 2, fill: t.color.teal, 'data-lcs-given': `${c},${r}` }));
+    } else if (r < reveal) {
+      parts.push(el('rect', { x: x0 + c * cell + 1, y: y0 + r * cell + 1, width: cell - 2, height: cell - 2, fill: t.color.teal, 'data-lcs-given-target': `${c},${r}` }));
     } else {
-      parts.push(el('rect', { x: x0 + c * cell + 1, y: y0 + r * cell + 1, width: cell - 2, height: cell - 2, fill: 'none', 'data-lcs-answer-cell': `${c},${r}` }));
+      parts.push(el('rect', { x: x0 + c * cell + 1, y: y0 + r * cell + 1, width: cell - 2, height: cell - 2, fill: answerKey ? t.color.coral : 'none', 'data-lcs-answer-cell': `${c},${r}`, ...(answerKey ? { 'data-lcs-key-sample': '1' } : {}) }));
     }
   }
   for (let i = 0; i <= n; i++) {
@@ -50,13 +55,13 @@ function grid({ n, cell, labels, filledCells, mode, key }) {
   };
 }
 
-function gridCopy({ figure, cell, labels = false }) {
+function gridCopy({ figure, cell, labels = false, reveal = 0, key = false }) {
   const mono = monoRows(figure);
   const n = mono.length;
   const filledCells = [];
   for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) if (mono[r][c] === '#') filledCells.push([c, r]);
   const model = grid({ n, cell, labels, filledCells, mode: 'model', key: figure.key });
-  const target = grid({ n, cell, labels, filledCells, mode: 'target', key: figure.key });
+  const target = grid({ n, cell, labels, filledCells, mode: 'target', key: figure.key, reveal, answerKey: key });
   return { modelSvg: model.svg, targetSvg: target.svg, filled: filledCells.length, width: model.width, height: model.height };
 }
 

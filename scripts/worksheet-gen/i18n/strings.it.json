@@ -1351,7 +1351,7 @@
   },
   "G2-268": {
     "title": "Simmetria sotto la linea",
-    "instruction": "Ogni disegno è fatto solo a metà. Colora i quadretti sotto la linea per renderlo simmetrico."
+    "instruction": "I disegni sono girati su un fianco. Ognuno è fatto solo a metà: colora i quadretti sotto la linea per renderlo simmetrico."
   },
   "G2-269": {
     "title": "Leggi e rispondi: il riccio nel giardino",
@@ -1451,7 +1451,7 @@
   },
   "K-286": {
     "title": "Copia il disegno sui quadretti",
-    "instruction": "Guarda il disegno a sinistra. Colora gli stessi quadretti nella griglia vuota per riprodurlo uguale."
+    "instruction": "Guarda il disegno a sinistra. Colora gli stessi quadretti nella griglia vuota per riprodurre il disegno."
   },
   "K-287": {
     "title": "Singolare e plurale",
@@ -1551,11 +1551,11 @@
   },
   "K-299": {
     "title": "Copia sui quadretti con lettere e numeri",
-    "instruction": "Usa la lettera e il numero di ogni casella."
+    "instruction": "Usa la lettera e il numero di ogni quadretto per colorare gli stessi quadretti nella griglia vuota."
   },
   "K-300": {
     "title": "Copia sui quadretti: griglia 8x8",
-    "instruction": "Griglia più grande: trova ogni casella e copiala."
+    "instruction": "Griglia più grande: trova ogni quadretto con la lettera e il numero e coloralo nella griglia vuota."
   },
   "K-302": {
     "title": "Singolare e plurale: le prime parole",
@@ -3784,5 +3784,13 @@
   "K-468": {
     "title": "Ripassa i numeri in lettere",
     "instruction": "Guarda il numero. Ripassa il numero scritto in lettere, poi scrivilo tu sulle righe vuote."
+  },
+  "G2-479": {
+    "title": "Simmetria con due assi",
+    "instruction": "Ogni disegno ha due assi di simmetria. Un quarto è già colorato. Colora gli altri tre quarti perché il disegno sia simmetrico rispetto a tutti e due gli assi."
+  },
+  "G1-484": {
+    "title": "Disegna l'altra metà",
+    "instruction": "È disegnata solo metà del disegno. Disegna l'altra metà a specchio dall'altra parte della linea, quadretto per quadretto."
   }
 }

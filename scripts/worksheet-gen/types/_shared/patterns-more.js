@@ -41,11 +41,18 @@ const pic = (theme, n, px, extra = '') => `<img class="ws-icon" src="${fileUri(t
 /** the train in rows of four wagons (the engine leads the first), read like lines of text: left-aligned, an arrow at the
  *  end of a row and at the start of the next says the train goes on (the reviewer: a centred wrap read as two trains) */
 const goesOn = `<svg width="22" height="22" viewBox="0 0 22 22" data-lcs-goes-on style="flex:0 0 auto;align-self:center;margin-top:-20px"><path d="M2 11 H15 M10 5 L17 11 L10 17" fill="none" stroke="${tokens.color.coral}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-function trainRows(wagons) {
+function trainRows(wagons, more = false) {
   const rows = [[engineSvg()].concat(wagons.slice(0, 4))];
   for (let i = 4; i < wagons.length; i += 4) rows.push(wagons.slice(i, i + 4));
   return rows.map((r, k) => `<div style="display:flex;align-items:flex-start;justify-content:flex-start;padding-left:${k ? 0 : 32}px" data-lcs-train-row>` +
-    (k ? goesOn + coupling : '') + r.join(coupling) + (k < rows.length - 1 ? coupling + goesOn : '') + `</div>`).join('');
+    (k ? goesOn + coupling : '') + r.join(coupling) + (k < rows.length - 1 || more ? coupling + goesOn : '') + `</div>`).join('');
+}
+/** the screen's train: the clue wagons as on paper, then the empty wagons two to a row, each with its big picture choices
+ *  (92 px on the page = 46 px on a 360 px phone: the declared-screens gate's 44 px tap floor; 46 px chips were 23 px) */
+function screenTrainRows(wagons, clue) {
+  const q = wagons.slice(clue), rows = [];
+  for (let i = 0; i < q.length; i += 2) rows.push(`<div style="display:flex;align-items:flex-start;justify-content:flex-start;gap:24px" data-lcs-train-row>${(i ? goesOn : '') + q.slice(i, i + 2).join('')}${i + 2 < q.length ? goesOn : ''}</div>`);
+  return trainRows(wagons.slice(0, clue), true) + rows.join('');
 }
 /** the cut-out cards (dashed: cut on the line) */
 const cutCards = (cards) => `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0;border-top:2px dashed ${tokens.color.grid};padding-top:10px" data-lcs-cutouts>` +
@@ -148,14 +155,14 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
             // each wagon's own order, from a stream of its own (a fixed A-B-C order would put the answer where the pattern does)
             const opts = makeRng(rng.seed + '|opts' + k).shuffle(syms.slice());
             const q = `${unit.join('')}:${k}:${syms.map((x) => of[x].noun).join('|')}`;
-            return `<div style="display:flex;flex-direction:column;align-items:center;gap:4px" data-lcs-blank="${s}" data-lcs-train-q data-lcs-q="${q}">${wagon(glueBox, k)}<span style="display:flex;gap:4px">${opts.map((o) => `<span class="ws-pattern-chip" style="width:46px;height:46px" data-lcs-opt data-lcs-label="${of[o].noun}"${o === s ? ' data-lcs-correct="1"' : ''} data-lcs-sym="${o}">${pic(theme, of[o], 36)}</span>`).join('')}</span></div>`;
+            return `<div style="display:flex;flex-direction:column;align-items:center;gap:6px" data-lcs-blank="${s}" data-lcs-train-q data-lcs-q="${q}">${wagon(glueBox, k)}<span style="display:flex;gap:6px">${opts.map((o) => `<span class="ws-pattern-chip" style="width:92px;height:92px" data-lcs-opt data-lcs-label="${of[o].noun}"${o === s ? ' data-lcs-correct="1"' : ''} data-lcs-sym="${o}">${pic(theme, of[o], 72)}</span>`).join('')}</span></div>`;
           }
           return wagon(glueBox, k, ` data-lcs-blank="${s}"`);
         });
         const cards = rng.shuffle(seq.slice(clue).map((s) => ({ sym: s, html: pic(theme, of[s], 70) })));
         return {
-          bodyHtml: `<div data-ws-content data-lcs-train="${unit.join('')}" data-lcs-clue="${clue}" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:12px;min-height:0">` +
-            `<div style="display:flex;flex-direction:column;gap:${screen ? 6 : 14}px">${trainRows(wagons)}</div>` + (screen || key ? '' : cutCards(cards)) + `</div>`,
+          bodyHtml: `<div data-ws-content data-lcs-train="${unit.join('')}" data-lcs-clue="${clue}" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:${screen ? 'flex-start' : 'space-evenly'};gap:12px;min-height:0">` +
+            `<div style="display:flex;flex-direction:column;gap:${screen ? 10 : 14}px">${screen ? screenTrainRows(wagons, clue) : trainRows(wagons)}</div>` + (screen || key ? '' : cutCards(cards)) + `</div>`,
           meta: { items: [unit.join('') + ':' + nouns.map((x) => x.noun).join('|')] },
         };
       }

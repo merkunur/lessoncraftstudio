@@ -51,6 +51,10 @@ const NO_KEY = {
   'G2-478': 'a net to cut out, fold and glue into a die, a box or a pyramid (material)',
   'K-372': 'draw the named shapes on dot paper: any triangle, square or rectangle drawn on the dots is right (drawing)',
   'K-468': 'trace the number words: the word to trace is printed on the page (handwriting)',
+  // number tracing (2026-11-02): every number to trace or write is printed on its own row — the page is its own key
+  'K-237': 'number tracing: each row prints the number it traces', 'K-249': 'number tracing 0-4: the numbers are printed on the page',
+  'K-250': 'number tracing 5-9: the numbers are printed on the page', 'K-251': 'trace and write: each row prints the number the child writes',
+  'K-252': 'number tracing 1-10: the numbers are printed on the page', 'K-253': 'teen numbers: the numbers are printed on the page',
   'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',
 };
 

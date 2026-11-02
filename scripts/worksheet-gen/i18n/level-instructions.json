@@ -4571,5 +4571,96 @@
         "instruction": "Laske jokaisen rivin kuvat. Kirjoita luku, joka kertoo, montako kuvaa on."
       }
     }
+  },
+  "K-298": {
+    "1": {
+      "en": "On the right grid, the top of the picture is already colored. Color the squares that are still missing.",
+      "de": "Im rechten Gitter ist der obere Teil schon angemalt. Male die fehlenden Kästchen an.",
+      "fr": "Sur le quadrillage de droite, le haut du dessin est déjà colorié. Colorie les cases qui manquent.",
+      "es": "En la cuadrícula de la derecha, la parte de arriba ya está coloreada. Colorea los cuadritos que faltan.",
+      "pt": "Na malha da direita, a parte de cima já está pintada. Pinte os quadradinhos que faltam.",
+      "it": "Nella griglia a destra la parte in alto è già colorata. Colora i quadretti che mancano.",
+      "nl": "In het rechter rooster is het bovenste stuk al gekleurd. Kleur de hokjes die nog ontbreken.",
+      "sv": "I rutnätet till höger är den övre delen redan färglagd. Färglägg rutorna som fattas.",
+      "da": "I kvadratnettet til højre er den øverste del allerede farvelagt. Farvelæg de felter, der mangler.",
+      "no": "I rutenettet til høyre er den øverste delen allerede fargelagt. Fargelegg rutene som mangler.",
+      "fi": "Oikeanpuoleisessa ruudukossa kuvan yläosa on jo väritetty. Väritä puuttuvat ruudut."
+    }
+  },
+  "K-299": {
+    "1": {
+      "en": "On the right grid, the top of the picture is already colored. Color the squares that are still missing.",
+      "de": "Im rechten Gitter ist der obere Teil schon angemalt. Male die fehlenden Kästchen an.",
+      "fr": "Sur le quadrillage de droite, le haut du dessin est déjà colorié. Colorie les cases qui manquent.",
+      "es": "En la cuadrícula de la derecha, la parte de arriba ya está coloreada. Colorea los cuadritos que faltan.",
+      "pt": "Na malha da direita, a parte de cima já está pintada. Pinte os quadradinhos que faltam.",
+      "it": "Nella griglia a destra la parte in alto è già colorata. Colora i quadretti che mancano.",
+      "nl": "In het rechter rooster is het bovenste stuk al gekleurd. Kleur de hokjes die nog ontbreken.",
+      "sv": "I rutnätet till höger är den övre delen redan färglagd. Färglägg rutorna som fattas.",
+      "da": "I kvadratnettet til højre er den øverste del allerede farvelagt. Farvelæg de felter, der mangler.",
+      "no": "I rutenettet til høyre er den øverste delen allerede fargelagt. Fargelegg rutene som mangler.",
+      "fi": "Oikeanpuoleisessa ruudukossa kuvan yläosa on jo väritetty. Väritä puuttuvat ruudut."
+    },
+    "3": {
+      "en": {
+        "title": "Copy the Picture Using Letters and Numbers",
+        "instruction": "Use the letter and number of each square to copy the picture."
+      },
+      "de": {
+        "title": "Gitterbilder mit Buchstabe und Zahl",
+        "instruction": "Finde jedes Kästchen mit Buchstabe und Zahl und male es im leeren Gitter an."
+      },
+      "fr": {
+        "title": "Reproduction sur quadrillage codé",
+        "instruction": "Repère chaque case par sa lettre et son nombre (comme B2), puis colorie la même case dans le quadrillage vide."
+      },
+      "es": {
+        "title": "Copia el dibujo con letras y números",
+        "instruction": "Busca cada cuadrito por su letra y su número (como B2) y coloréalo igual en la cuadrícula vacía."
+      },
+      "pt": {
+        "title": "Copie o desenho com letras e números",
+        "instruction": "Ache cada quadradinho pela letra e pelo número (como B2) e pinte o mesmo quadradinho na malha vazia."
+      },
+      "it": {
+        "title": "Copia sui quadretti con lettere e numeri",
+        "instruction": "Usa la lettera e il numero di ogni quadretto per colorare gli stessi quadretti nella griglia vuota."
+      },
+      "nl": {
+        "title": "Natekenen met letters en cijfers",
+        "instruction": "Elk hokje heeft een letter en een cijfer. Kleur dezelfde hokjes na."
+      },
+      "sv": {
+        "title": "Rita av med bokstäver och siffror",
+        "instruction": "Hitta varje ruta med bokstaven och siffran. Färglägg samma rutor till höger."
+      },
+      "da": {
+        "title": "Tegn efter i kvadratnet med bogstav og tal",
+        "instruction": "Brug bogstav og tal på hvert felt, og tegn billedet efter."
+      },
+      "no": {
+        "title": "Tegn etter i rutenett med bokstaver og tall",
+        "instruction": "Bruk bokstaven og tallet til hver rute når du tegner."
+      },
+      "fi": {
+        "title": "Piirrä ruudukkoon kirjainten ja numeroiden avulla",
+        "instruction": "Etsi ruutu kirjaimen ja numeron avulla. Väritä samat ruudut."
+      }
+    }
+  },
+  "K-300": {
+    "1": {
+      "en": "On the right grid, the top of the picture is already colored. Color the squares that are still missing.",
+      "de": "Im rechten Gitter ist der obere Teil schon angemalt. Male die fehlenden Kästchen an.",
+      "fr": "Sur le quadrillage de droite, le haut du dessin est déjà colorié. Colorie les cases qui manquent.",
+      "es": "En la cuadrícula de la derecha, la parte de arriba ya está coloreada. Colorea los cuadritos que faltan.",
+      "pt": "Na malha da direita, a parte de cima já está pintada. Pinte os quadradinhos que faltam.",
+      "it": "Nella griglia a destra la parte in alto è già colorata. Colora i quadretti che mancano.",
+      "nl": "In het rechter rooster is het bovenste stuk al gekleurd. Kleur de hokjes die nog ontbreken.",
+      "sv": "I rutnätet till höger är den övre delen redan färglagd. Färglägg rutorna som fattas.",
+      "da": "I kvadratnettet til højre er den øverste del allerede farvelagt. Farvelæg de felter, der mangler.",
+      "no": "I rutenettet til høyre er den øverste delen allerede fargelagt. Fargelegg rutene som mangler.",
+      "fi": "Oikeanpuoleisessa ruudukossa kuvan yläosa on jo väritetty. Väritä puuttuvat ruudut."
+    }
   }
 }

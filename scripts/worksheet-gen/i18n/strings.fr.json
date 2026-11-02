@@ -1349,7 +1349,7 @@
   },
   "G2-268": {
     "title": "Symétrie : axe horizontal",
-    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases sous la ligne pour le rendre symétrique."
+    "instruction": "Les dessins sont couchés sur le côté. Chacun est à moitié terminé : colorie les cases sous l'axe pour le rendre symétrique."
   },
   "G2-269": {
     "title": "Lecture : le crabe de la plage",
@@ -1545,15 +1545,15 @@
   },
   "K-298": {
     "title": "Reproduction sur quadrillage 6 x 6",
-    "instruction": "Quadrillage de 6 sur 6 : reproduis-le."
+    "instruction": "Colorie les mêmes cases dans le quadrillage vide de 6 sur 6."
   },
   "K-299": {
     "title": "Reproduction sur quadrillage codé",
-    "instruction": "Chaque case a un code, comme B2."
+    "instruction": "Repère chaque case par sa lettre et son nombre (comme B2), puis colorie la même case dans le quadrillage vide."
   },
   "K-300": {
     "title": "Reproduction sur quadrillage 8 x 8",
-    "instruction": "Repère les cases par leur code, 8 sur 8."
+    "instruction": "Quadrillage de 8 sur 8 : repère chaque case par sa lettre et son nombre, puis colorie la même case dans le quadrillage vide."
   },
   "K-302": {
     "title": "Singulier et pluriel : mots courts",
@@ -3803,5 +3803,13 @@
   "K-468": {
     "title": "Repasser les nombres en lettres",
     "instruction": "Regarde le nombre. Repasse-le en lettres, puis écris-le tout seul sur les lignes vides."
+  },
+  "G2-479": {
+    "title": "Symétrie avec deux axes",
+    "instruction": "Chaque dessin a deux axes de symétrie. Un quart est déjà colorié. Colorie les trois autres quarts pour que le dessin soit symétrique par rapport aux deux axes."
+  },
+  "G1-484": {
+    "title": "Dessine l'autre moitié",
+    "instruction": "Seule la moitié du dessin est faite. Dessine l'autre moitié en miroir de l'autre côté de l'axe, case par case."
   }
 }

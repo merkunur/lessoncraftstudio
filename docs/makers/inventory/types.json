@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 946,
+ "count": 948,
  "failures": [],
  "rows": [
   {
@@ -3940,7 +3940,8 @@
    "uses": [
     "primitives/grid-copy.js",
     "templates/components-b2.js",
-    "data/b2/figures.js"
+    "data/b2/figures.js",
+    "data/b2/figures-levelset.js"
    ],
    "teachingPoint": "K:grid-copy",
    "skill": "Copy a picture square by square onto an empty grid (with and without letter–number labels)",
@@ -9568,7 +9569,7 @@
    "params": [
     "level"
    ],
-   "interactive": false,
+   "interactive": true,
    "uses": [
     "_shared/patterns-more.js"
    ],
@@ -9608,7 +9609,7 @@
    "slug": "trace-and-count",
    "family": "number-tracing",
    "variationOf": null,
-   "title": "Trace and Count",
+   "title": "Count and Trace",
    "instruction": "Count the pictures in each row. Trace the number that tells how many.",
    "assetClass": "icon-placement",
    "themed": true,
@@ -9635,7 +9636,7 @@
    "family": "number-tracing",
    "variationOf": null,
    "title": "Trace the Number Words",
-   "instruction": "Look at the number. Trace its word, then write the word yourself on the empty lines.",
+   "instruction": "Look at the number. Trace the number word, then write it yourself on the empty lines.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -19793,6 +19794,31 @@
    "science": false
   },
   {
+   "id": "G1-484",
+   "file": "scripts/worksheet-gen/types/g1/G1-484-draw-the-other-half.js",
+   "grade": "G1",
+   "slug": "draw-the-other-half",
+   "family": "symmetry",
+   "variationOf": null,
+   "title": "Draw the Other Half",
+   "instruction": "Only half of the picture is drawn. Draw the other half on the other side of the line, square by square.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level",
+    "cells"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/symmetry-more.js"
+   ],
+   "teachingPoint": "2:symmetry-complete",
+   "skill": "Complete a half-drawn grid picture so it is symmetrical (vertical and horizontal mirror lines)",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -26627,6 +26653,34 @@
    ],
    "teachingPoint": "2:3d-faces-edges-vertices",
    "skill": "Count the faces, edges and vertices of cubes, prisms, pyramids, cylinders and cones",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "G2-479",
+   "file": "scripts/worksheet-gen/types/g2/G2-479-symmetry-two-mirror-lines.js",
+   "grade": "G2",
+   "slug": "symmetry-two-mirror-lines",
+   "family": "symmetry",
+   "variationOf": null,
+   "title": "Symmetry with Two Mirror Lines",
+   "instruction": "Each picture has two mirror lines. One quarter is colored. Color the other three quarters so the picture matches across both lines.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "set",
+    "cards",
+    "cols",
+    "rows",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/symmetry-more.js"
+   ],
+   "teachingPoint": "2:symmetry-complete",
+   "skill": "Complete a half-drawn grid picture so it is symmetrical (vertical and horizontal mirror lines)",
    "strand": "Geometry",
    "science": false
   },

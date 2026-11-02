@@ -1027,7 +1027,7 @@
   },
   "G2-253": {
     "title": "Spiegelbilder vervollständigen",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+    "instruction": "Jedes Bild ist nur halb fertig. Male auf der anderen Seite der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-254": {
     "title": "Lesetext mit Fragen",
@@ -1327,23 +1327,23 @@
   },
   "G2-264": {
     "title": "Leichte Spiegelbilder",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+    "instruction": "Jedes Bild ist nur halb fertig. Male auf der anderen Seite der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-265": {
     "title": "Schwere Spiegelbilder",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+    "instruction": "Jedes Bild ist nur halb fertig. Male auf der anderen Seite der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-266": {
     "title": "Spiegelbilder: Herz und Schmetterling",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+    "instruction": "Jedes Bild ist nur halb fertig. Male auf der anderen Seite der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-267": {
     "title": "Spiegelbilder: Haus und Krone",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+    "instruction": "Jedes Bild ist nur halb fertig. Male auf der anderen Seite der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-268": {
     "title": "Spiegeln an der waagerechten Achse",
-    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen unter der Spiegelachse an."
+    "instruction": "Die Bilder liegen auf der Seite. Jedes ist nur halb fertig: Male unter der Spiegelachse die passenden Kästchen spiegelbildlich an."
   },
   "G2-269": {
     "title": "Lesen und verstehen: Der kleine Igel",
@@ -1543,11 +1543,11 @@
   },
   "K-299": {
     "title": "Gitterbilder mit Buchstabe und Zahl",
-    "instruction": "Finde jedes Kästchen über Buchstabe und Zahl."
+    "instruction": "Finde jedes Kästchen mit Buchstabe und Zahl und male es im leeren Gitter an."
   },
   "K-300": {
     "title": "Gitterbilder abzeichnen: 8x8",
-    "instruction": "Im 8x8-Gitter ist mehr zu tun: arbeite Reihe für Reihe."
+    "instruction": "Im 8x8-Gitter ist mehr zu tun: Finde jedes Kästchen mit Buchstabe und Zahl und male es im leeren Gitter an."
   },
   "K-302": {
     "title": "Einzahl und Mehrzahl: kurze Wörter",
@@ -3813,5 +3813,13 @@
   "K-468": {
     "title": "Zahlwörter nachspuren",
     "instruction": "Schau dir die Zahl an. Spure ihr Zahlwort nach und schreibe es dann selbst auf die leeren Linien."
+  },
+  "G2-479": {
+    "title": "Spiegeln an zwei Achsen",
+    "instruction": "Jedes Bild hat zwei Spiegelachsen. Ein Viertel ist schon angemalt. Male die anderen drei Viertel so an, dass das Bild an beiden Achsen gespiegelt ist."
+  },
+  "G1-484": {
+    "title": "Zeichne die andere Hälfte",
+    "instruction": "Nur die Hälfte des Bildes ist gezeichnet. Zeichne die andere Hälfte spiegelbildlich auf der anderen Seite der Spiegelachse – Kästchen für Kästchen."
   }
 }

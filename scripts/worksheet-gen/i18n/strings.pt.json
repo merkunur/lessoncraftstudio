@@ -1034,7 +1034,7 @@
   },
   "G2-253": {
     "title": "Complete a figura simétrica",
-    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    "instruction": "Pinte os quadradinhos do outro lado da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-254": {
     "title": "Interpretação de texto",
@@ -1334,23 +1334,23 @@
   },
   "G2-264": {
     "title": "Simetria fácil no quadriculado",
-    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    "instruction": "Pinte os quadradinhos do outro lado da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-265": {
     "title": "Simetria difícil no quadriculado",
-    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    "instruction": "Pinte os quadradinhos do outro lado da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-266": {
     "title": "Simetria: coração e borboleta",
-    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    "instruction": "Pinte os quadradinhos do outro lado da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-267": {
     "title": "Simetria: casa e coroa",
-    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    "instruction": "Pinte os quadradinhos do outro lado da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-268": {
     "title": "Simetria com linha deitada",
-    "instruction": "Pinte os quadradinhos abaixo da linha para deixar a figura igual em cima e embaixo."
+    "instruction": "As figuras estão deitadas de lado. Pinte os quadradinhos abaixo da linha para a figura ficar simétrica, como num espelho."
   },
   "G2-269": {
     "title": "Interpretação: O castelo de areia",
@@ -1546,15 +1546,15 @@
   },
   "K-298": {
     "title": "Copie o desenho: malha 6 por 6",
-    "instruction": "Conte os quadradinhos: não há letras nem números."
+    "instruction": "Pinte os mesmos quadradinhos na malha vazia. Não há letras nem números: conte os quadradinhos."
   },
   "K-299": {
     "title": "Copie o desenho com letras e números",
-    "instruction": "Use as coordenadas, como B2, e pinte igual."
+    "instruction": "Ache cada quadradinho pela letra e pelo número (como B2) e pinte o mesmo quadradinho na malha vazia."
   },
   "K-300": {
     "title": "Copie o desenho: malha 8 por 8",
-    "instruction": "Nesta malha maior, ache o quadradinho pela letra."
+    "instruction": "Nesta malha maior, ache cada quadradinho pela letra e pelo número e pinte o mesmo na malha vazia."
   },
   "K-302": {
     "title": "Singular e plural: uma e duas",
@@ -3808,5 +3808,13 @@
   "K-468": {
     "title": "Cubra os números por extenso",
     "instruction": "Olhe o número. Cubra o número escrito por extenso e depois escreva-o sozinho nas linhas vazias."
+  },
+  "G2-479": {
+    "title": "Simetria com dois eixos",
+    "instruction": "Cada figura tem dois eixos de simetria. Um quarto já está pintado. Pinte os outros três quartos para a figura ficar simétrica em relação aos dois eixos."
+  },
+  "G1-484": {
+    "title": "Desenhe a outra metade",
+    "instruction": "Só metade do desenho está pronta. Desenhe a outra metade do outro lado da linha, como num espelho, quadradinho por quadradinho."
   }
 }

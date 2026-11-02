@@ -1038,7 +1038,7 @@
   },
   "G2-253": {
     "title": "Rita färdigt spegelbilden",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+    "instruction": "Varje bild är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
   },
   "G2-254": {
     "title": "Läs och svara",
@@ -1338,23 +1338,23 @@
   },
   "G2-264": {
     "title": "Lätt symmetri i rutnät",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+    "instruction": "Varje bild är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
   },
   "G2-265": {
     "title": "Svår symmetri i rutnät",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+    "instruction": "Varje bild är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
   },
   "G2-266": {
     "title": "Spegelbilder: hjärta och fjäril",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+    "instruction": "Varje bild är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
   },
   "G2-267": {
     "title": "Spegelbilder: hus och krona",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+    "instruction": "Varje bild är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
   },
   "G2-268": {
     "title": "Spegla under linjen",
-    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna under linjen så att bilden blir symmetrisk."
+    "instruction": "Bilderna ligger på sidan. Varje bild är bara till hälften klar: färglägg rutorna under linjen så att bilden blir symmetrisk."
   },
   "G2-269": {
     "title": "Läsförståelse: Alma på simskolan",
@@ -1454,7 +1454,7 @@
   },
   "K-286": {
     "title": "Rita av i rutnätet",
-    "instruction": "Titta noga på bilden till vänster. Färglägg samma rutor i det tomma rutnätet så att bilden blir likadan."
+    "instruction": "Titta noga på bilden till vänster. Färglägg samma rutor i det tomma rutnätet så att bilden blir likadan som den till vänster."
   },
   "K-287": {
     "title": "Singular och plural",
@@ -1554,11 +1554,11 @@
   },
   "K-299": {
     "title": "Rita av med bokstäver och siffror",
-    "instruction": "Varje ruta har en bokstav och en siffra att följa."
+    "instruction": "Hitta varje ruta med bokstaven och siffran. Färglägg samma rutor till höger."
   },
   "K-300": {
     "title": "Rita av i ett större rutnät",
-    "instruction": "Rutnätet är större. Sök varje ruta med bokstav och siffra."
+    "instruction": "Rutnätet är större. Hitta varje ruta med bokstav och siffra och färglägg samma ruta till höger."
   },
   "K-302": {
     "title": "Singular och plural: korta ord",
@@ -3769,5 +3769,13 @@
   "K-468": {
     "title": "Spåra räkneorden",
     "instruction": "Titta på talet. Spåra ordet och skriv det sedan själv på de tomma linjerna."
+  },
+  "G2-479": {
+    "title": "Symmetri med två symmetrilinjer",
+    "instruction": "Varje bild har två symmetrilinjer. En fjärdedel är redan färglagd. Färglägg de andra tre fjärdedelarna så att bilden blir symmetrisk kring båda linjerna."
+  },
+  "G1-484": {
+    "title": "Rita andra halvan",
+    "instruction": "Bara halva bilden är ritad. Rita den andra halvan spegelvänd på andra sidan linjen, ruta för ruta."
   }
 }

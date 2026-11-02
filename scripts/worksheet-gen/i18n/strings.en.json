@@ -2513,7 +2513,7 @@
   },
   "G2-268": {
     "title": "Mirror Below the Line",
-    "instruction": "Each picture is only half done. Color the squares below the line to make it symmetrical."
+    "instruction": "The pictures lie on their side. Each one is only half done: color the squares below the line to make it symmetrical."
   },
   "G2-269": {
     "title": "Reading Comprehension: Story 2",
@@ -3826,5 +3826,13 @@
   "K-468": {
     "title": "Trace the Number Words",
     "instruction": "Look at the number. Trace the number word, then write it yourself on the empty lines."
+  },
+  "G2-479": {
+    "title": "Symmetry with Two Mirror Lines",
+    "instruction": "Each picture has two mirror lines. One quarter is colored. Color the other three quarters so the picture matches across both lines."
+  },
+  "G1-484": {
+    "title": "Draw the Other Half",
+    "instruction": "Only half of the picture is drawn. Draw the other half on the other side of the line so it mirrors the first half, square by square."
   }
 }

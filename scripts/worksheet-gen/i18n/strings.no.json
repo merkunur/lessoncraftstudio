@@ -1351,7 +1351,7 @@
   },
   "G2-268": {
     "title": "Speiling under streken",
-    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene under streken, slik at bildet blir symmetrisk."
+    "instruction": "Bildene ligger på siden. Hvert bilde er bare halvferdig: fargelegg rutene under streken, slik at bildet blir symmetrisk."
   },
   "G2-269": {
     "title": "Leseforståelse: Mia mater fuglene",
@@ -1547,7 +1547,7 @@
   },
   "K-298": {
     "title": "Tegn etter i rutenett uten bokstaver og tall",
-    "instruction": "Ingen bokstaver og tall her. Fargelegg de samme rutene."
+    "instruction": "Her er verken bokstaver eller tall. Fargelegg de samme rutene i det tomme rutenettet."
   },
   "K-299": {
     "title": "Tegn etter i rutenett med bokstaver og tall",
@@ -1555,7 +1555,7 @@
   },
   "K-300": {
     "title": "Tegn etter i rutenett med 8 x 8 ruter",
-    "instruction": "Et større rutenett. Finn hver rute med bokstav og tall."
+    "instruction": "Et større rutenett. Finn hver rute med bokstav og tall, og fargelegg den samme ruten til høyre."
   },
   "K-302": {
     "title": "Entall og flertall: de første ordene",
@@ -3797,5 +3797,13 @@
   "K-468": {
     "title": "Spor tallordene",
     "instruction": "Se på tallet. Spor tallordet, og skriv det så selv på de tomme linjene."
+  },
+  "G2-479": {
+    "title": "Symmetri med to symmetrilinjer",
+    "instruction": "Hvert bilde har to symmetrilinjer. En firedel er allerede fargelagt. Fargelegg de andre tre firedelene slik at bildet blir symmetrisk om begge linjene."
+  },
+  "G1-484": {
+    "title": "Tegn den andre halvdelen",
+    "instruction": "Bare halve bildet er tegnet. Tegn den andre halvdelen speilvendt på den andre siden av streken, rute for rute."
   }
 }

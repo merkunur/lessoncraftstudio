@@ -192,7 +192,13 @@ function makeClockMoreType(cfg) {
         // spans of a page all different; the line runs from the hour at or before the start to the hour at or after the end
         const cards = [], items = [], spans = new Set();
         const [uh, um] = UNITS[L] || UNITS.en;
-        const hoursDeal = d.spanHours ? rng.shuffle(Array.from({ length: d.spanHours }, (_, k) => k + 1)).slice(0, d.cards) : null;
+        // level 3 deals the hours so no card's hours equal its own number: card k held k hours on a fifth of the cards
+        // (settings-space card-index, 2026-11-02)
+        let hoursDeal = null;
+        if (d.spanHours) {
+          do hoursDeal = rng.shuffle(Array.from({ length: d.spanHours }, (_, k) => k + 1)).slice(0, d.cards);
+          while (hoursDeal.some((h, k) => h === k + 1));
+        }
         for (let i = 0; i < d.cards; i++) {
           let s = null;
           for (let t = 0; t < 400 && !s; t++) {

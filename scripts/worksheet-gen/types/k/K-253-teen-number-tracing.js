@@ -60,7 +60,7 @@ module.exports = {
 
   async verify(page) {
     // Level Set fading pages: K-237's mode-aware check, plus the full range in order
-    if (await page.$('[data-lcs-prim="trace-number"]')) {
+    if (await page.evaluate(() => !!document.querySelector('[data-lcs-prim="trace-number"]'))) {   // evaluate, not page.$: the maker runtime's page has no $
       const fails = await require('./K-237-number-tracing.js').verify(page);
       const got = await page.evaluate(() => [...document.querySelectorAll('[data-lcs-digit-lane]')].map((l) => +l.dataset.lcsDigitLane).join(','));
       if (got !== Array.from({ length: 10 }, (_, k) => k + 11).join(',')) fails.push(`lanes ${got}, want 11-20 in order`);

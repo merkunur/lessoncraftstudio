@@ -107,11 +107,13 @@ const SCENES = {
     p.push(R(185, 245, 66, 40)); if (wins === 2) p.push(R(349, 245, 66, 40));
     if (o.hex) p.push(Hx(300, 172, 22, o.turned ? 30 : 0)); else if (rng.next() < 0.6) p.push(C(300, 172, 20));
     p.push(C(70, 72, 38));
-    const trees = o.level === 1 ? pick(rng, [0, 1]) : pick(rng, [1, 2]);
+    if (o.hex) [[300, 418], [254, 418], [346, 418], [208, 418]].slice(0, pick(rng, [1, 2, 3, 4])).forEach(([x, y]) => p.push(Hx(x, y, 20)));   // stepping stones to the door
+    [[120, 416], [420, 416]].slice(0, pick(rng, [0, 1, 2])).forEach(([x, y]) => p.push(C(x, y, 16)));   // balls on the grass
+    const trees = pick(rng, [1, 2]);
     if (trees >= 1) p.push(R(61, 330, 28, 60), T([30, 330], [120, 330], [75, 240]));
     if (trees === 2) p.push(R(511, 330, 28, 60), T([480, 330], [570, 330], [525, 240]));
     else if (o.turned) p.push(R(510, 150, 70, 40, 25), T([520, 210], [570, 210], [545, 250]));   // a turned sign, a bunting flag
-    if (o.level > 1 && rng.next() < 0.5) p.push(C(470, 60, 22));
+    [[470, 60], [540, 100]].slice(0, pick(rng, [1, 2])).forEach(([x, y]) => p.push(C(x, y, 20)));   // balloons
     return p;
   } },
   train: { quad: 'square', hex: true, turned: true, build(rng, o) {
@@ -122,28 +124,34 @@ const SCENES = {
       const x = x0 + c * 110;
       p.push(S(x, 180, 100));
       if (o.turned && c === 0) p.push(S(x + 22, 202, 56, 45));
-      else if (rng.next() < 0.5) p.push(S(x + 30, 205, 40)); else p.push(S(x + 12, 200, 32), S(x + 56, 200, 32));
+      else if (o.level === 1 || rng.next() < 0.5) p.push(S(x + 30, 205, 40)); else p.push(S(x + 12, 200, 32), S(x + 56, 200, 32));
       p.push(C(x + 25, 302, 20), C(x + 75, 302, 20));
     }
     const e = x0 + cars * 110;                                       // the engine
     p.push(S(e, 170, 110), S(e + 25, 190, 45), S(e + 110, 215, 65), S(e + 125, 180, 35), T([e + 175, 280], [e + 175, 240], [e + 215, 280]));
     p.push(C(e + 30, 302, 22), C(e + 85, 302, 22), C(e + 142, 302, 22));
-    const smoke = o.level === 1 ? pick(rng, [1, 2]) : pick(rng, [2, 3]);
+    const smoke = o.level === 1 ? 1 : pick(rng, [2, 3]);
     [[e + 142, 152, 15], [e + 162, 115, 18], [e + 192, 78, 21]].slice(0, smoke).forEach(([x, y, r]) => p.push(C(x, y, r)));
     if (o.hex) p.push(Hx(e + 142.5, 247.5, 20, o.turned ? 30 : 0));
     if (o.level > 1 && rng.next() < 0.5) p.push(C(60, 70, 34));
+    // the ground in front: pine trees, and with hexagons stepping stones, each in its own place
+    const spots = rng.shuffle([60, 180, 300, 420, 540]);
+    spots.splice(0, pick(rng, o.hex ? [1, 2, 3] : [1, 2, 3, 4])).forEach((x) => p.push(T([x - 30, 430], [x + 30, 430], [x, 362])));
+    if (o.hex) spots.splice(0, Math.min(spots.length, pick(rng, [1, 2, 3]))).forEach((x) => p.push(Hx(x, 412, 20)));
     return p;
   } },
-  robot: { quad: 'square', hex: true, turned: true, build(rng, o) {
+  robot: { quad: 'square', hex: true, turned: true, minLevel: 2, build(rng, o) {
     const p = [S(240, 60, 120), C(300, 42, 18), S(285, 180, 30), S(210, 210, 180)];
     if (o.turned) p.push(S(260, 95, 26, 45), S(314, 95, 26, 45)); else p.push(C(275, 105, 15), C(325, 105, 15));
     p.push(T([278, 138], [322, 138], [300, 166]));
     const buttons = o.level === 1 ? pick(rng, [2, 3]) : pick(rng, [1, 2, 3]);
     [250, 290, 330].slice(0, buttons).forEach((y) => p.push(C(300, y, 13)));
     if (rng.next() < 0.6) p.push(o.turned ? S(232, 250, 36, 45) : S(234, 250, 36));
-    p.push(S(170, 230, 40), S(130, 230, 40), C(112, 250, 18), S(390, 230, 40), S(430, 230, 40), C(488, 250, 18));
+    p.push(S(160, 230, 50), C(140, 255, 20), S(390, 230, 50), C(460, 255, 20));   // the arms and hands
     p.push(S(235, 390, 45), S(320, 390, 45));
-    if (o.hex) { p.push(Hx(220, 120, 20), Hx(380, 120, 20)); if (o.level === 3) p.push(Hx(360, 362, 20, 30)); }
+    if (o.hex) { p.push(Hx(220, 120, 20), Hx(380, 120, 20)); [Hx(360, 362, 20, o.turned ? 30 : 0), Hx(240, 362, 20)].slice(0, pick(rng, o.level === 3 ? [1, 2] : [0, 1, 2])).forEach((h) => p.push(h)); }   // ears, badges
+    // pine trees beside the robot
+    rng.shuffle([50, 140, 460, 550]).slice(0, pick(rng, [1, 2, 3, 4])).forEach((x) => p.push(T([x - 35, 430], [x + 35, 430], [x, 350])));
     return p;
   } },
   rocket: { quad: 'rectangle', hex: true, turned: true, build(rng, o) {
@@ -155,31 +163,36 @@ const SCENES = {
     p.push(C(500, 90, 45));
     if (rng.next() < 0.6) p.push(C(95, 330, 28));
     if (o.turned) p.push(C(110, 110, 18), R(40, 97, 44, 26, 30), R(136, 97, 44, 26, 30));   // a satellite with turned panels
-    if (o.hex && o.level === 3) p.push(Hx(520, 330, 22, 15));
+    if (o.hex) p.push(Hx(520, 330, 22, o.level === 3 ? 15 : 0));    // a planet far away
+    p.push(R(220, 386, 160, 30));                                    // the launch pad
+    if (rng.next() < 0.6) p.push(R(430, 160, 30, 256));              // the launch tower
+    [30, 90].slice(0, pick(rng, [0, 1, 2])).forEach((x) => p.push(R(x, 384, 50, 30)));   // fuel crates
+    if (o.hex) [[400, 40], [180, 40]].slice(0, pick(rng, [0, 1, 2])).forEach(([x, y]) => p.push(Hx(x, y, 20)));   // stars
     return p;
   } },
-  castle: { quad: 'square', hex: true, turned: true, build(rng, o) {
+  castle: { quad: 'square', hex: true, turned: true, minLevel: 2, build(rng, o) {
     const p = [S(200, 180, 200), S(270, 320, 60)];
     if (o.hex) p.push(Hx(300, 270, 22));
-    p.push(S(225, 205, 40), S(335, 205, 40));
     for (const x of [120, 400]) {
       p.push(S(x, 300, 80), S(x, 220, 80), T([x, 220], [x + 80, 220], [x + 40, 150]));
-      if (o.turned) p.push(S(x + 22, 242, 36, 45)); else if (rng.next() < 0.7) p.push(S(x + 24, 244, 32));
+      if (o.turned) p.push(S(x + 22, 242, 36, 45));
     }
-    const merlons = o.level === 1 ? 2 : pick(rng, [2, 3]);
+    const merlons = pick(rng, [2, 3]);
     (merlons === 3 ? [200, 286, 372] : [220, 352]).forEach((x) => p.push(S(x, 152, 28)));
     p.push(C(60, 70, 36));
-    if (o.level > 1 && rng.next() < 0.5) p.push(T([150, 150], [150, 120], [185, 135]));   // a flag on a tower
+    [T([150, 150], [150, 120], [185, 135]), T([450, 150], [450, 120], [485, 135])].slice(0, pick(rng, [0, 1, 2])).forEach((f) => p.push(f));   // flags on the towers
+    rng.shuffle([50, 550, 470]).slice(0, pick(rng, [1, 2, 3])).forEach((x) => p.push(C(x, 410, 24)));   // round bushes
+    if (o.hex) [[300, 412], [346, 412], [254, 412]].slice(0, pick(rng, [1, 2, 3])).forEach(([x, y]) => p.push(Hx(x, y, 20)));   // stepping stones to the gate
     return p;
   } },
-  snowman: { quad: 'rectangle', hex: true, turned: true, build(rng, o) {
+  snowman: { quad: 'rectangle', hex: true, turned: true, minLevel: 2, build(rng, o) {
     const p = [C(300, 344, 62), C(300, 232, 50), C(300, 142, 40), R(250, 76, 100, 26), R(282, 0, 36, 76)];
     p.push(C(285, 126, 13), C(315, 126, 13), T([297, 136], [297, 162], [332, 149]));
     const buttons = o.level === 1 ? pick(rng, [2, 3]) : pick(rng, [1, 2, 3]);
     [200, 232, 264].slice(0, buttons).forEach((y) => p.push(C(300, y, 13)));
     p.push(T([60, 370], [160, 370], [110, 250]), R(96, 370, 28, 55));
-    if (o.level > 1 || rng.next() < 0.5) p.push(T([450, 370], [550, 370], [500, 260]), R(486, 370, 28, 55));
-    if (o.hex) { const n = o.level === 3 ? 3 : 2; [[80, 80], [520, 110], [470, 40]].slice(0, n).forEach(([x, y], i) => p.push(Hx(x, y, 20, o.turned && i === 1 ? 30 : 0))); }
+    if (rng.next() < 0.5) p.push(T([450, 370], [550, 370], [500, 260]), R(486, 370, 28, 55));
+    if (o.hex) { const n = pick(rng, o.level === 3 ? [3, 4] : [2, 3, 4]); [[80, 80], [520, 110], [470, 40], [160, 170]].slice(0, n).forEach(([x, y], i) => p.push(Hx(x, y, 20, o.turned && i === 1 ? 30 : 0))); }
     else if (rng.next() < 0.5) p.push(C(500, 70, 30));
     return p;
   } },
@@ -189,7 +202,7 @@ const SCENES = {
     const ports = o.level === 1 ? pick(rng, [1, 2]) : pick(rng, [2, 3, 4]);
     [215, 255, 345, 385].slice(0, ports).forEach((x) => p.push(C(x, 325, 14)));
     p.push(C(510, 80, 40));
-    if (o.hex) p.push(Hx(520, 330, 22));
+    if (o.hex) [[520, 330], [450, 405], [540, 410], [380, 410]].slice(0, pick(rng, [2, 3, 4])).forEach(([x, y]) => p.push(Hx(x, y, 22)));   // buoys
     if (o.level > 1 && rng.next() < 0.6) p.push(R(60, 360, 70, 28));   // a floating plank
     return p;
   } },
@@ -199,7 +212,9 @@ const SCENES = {
     [65, 155, 245, 335].slice(0, wins).forEach((x) => p.push(R(x, 195, 70, 46)));
     if (o.hex) p.push(Hx(130, 370, 20), Hx(410, 370, 20));          // a hub on both wheels
     p.push(C(70, 80, 40));
+    [250, 330].slice(0, pick(rng, [0, 1, 2])).forEach((x) => p.push(C(x, 420, 18)));   // bushes by the road
     p.push(T([505, 320], [600, 320], [552, 200]), R(539, 320, 26, 80));   // a tree by the road (a wide crown on a short trunk: never a sign post)
+    [[150, 270], [270, 390], [390, 500]].slice(0, pick(rng, [1, 2, 3])).forEach(([a, b]) => p.push(T([a, 165], [b, 165], [(a + b) / 2, 80])));   // mountains behind
     return p;
   } },
 };
@@ -210,20 +225,28 @@ const LEVELS = {
   3: { kinds: 4, hex: true, turned: true, max: 10 },
 };
 
-/** a scene at a level: its pieces, its kinds and their counts (counts all different where the scene can do it) */
+/**
+ * A scene at a level: its pieces, its kinds and their counts. Every kind is DEALT a target count, uniform over the counts
+ * the scene can draw for it, and the build nearest the targets is kept (counts all different where the scene can do it).
+ * Without the deal the small kinds sat on 1-3 (a lone hexagon, a lone sun): writing "1" in every box scored a third of the
+ * answers (settings-space 2026-11-02); a level never asks a count above its max.
+ */
 function makeScene(name, level, rng) {
   const sc = SCENES[name], L = LEVELS[level];
   const o = { level, hex: L.hex && sc.hex, turned: L.turned && sc.turned };
-  let best = null;
-  for (let t = 0; t < 12; t++) {
+  const builds = [];
+  for (let t = 0; t < 40; t++) {
     const pieces = sc.build(rng, o);
     const counts = {};
     pieces.forEach((p) => { counts[p.kind] = (counts[p.kind] || 0) + 1; });
-    const vals = Object.values(counts);
-    const score = new Set(vals).size - (Math.max(...vals) > L.max ? 10 : 0);
-    if (!best || score > best.score) best = { pieces, counts, score };
-    if (new Set(vals).size === vals.length && Math.max(...vals) <= L.max) break;
+    if (Math.max(...Object.values(counts)) <= L.max) builds.push({ pieces, counts });
   }
+  if (!builds.length) throw new Error(`shape-pictures ${name} L${level}: a count above the level's ${L.max}`);
+  const all = KINDS.filter((k) => builds.some((b) => b.counts[k]));
+  const target = Object.fromEntries(all.map((k) => { const v = [...new Set(builds.map((b) => b.counts[k] || 0))].sort((a, b) => a - b); return [k, v[rng.int(0, v.length - 1)]]; }));
+  const cost = (b) => { const vals = Object.values(b.counts); return all.reduce((t, k) => t + Math.abs((b.counts[k] || 0) - target[k]), 0) + 2 * (vals.length - new Set(vals).size); };
+  let best = builds[0];
+  for (const b of builds) if (cost(b) < cost(best)) best = b;
   const fails = checkPieces(best.pieces);
   if (fails.length) throw new Error(`shape-pictures ${name} L${level}: ${fails.slice(0, 3).join('; ')}`);
   const kinds = KINDS.filter((k) => best.counts[k]);
@@ -260,7 +283,7 @@ function makeShapePicturesType({ id, slug, i18n }) {
     build({ difficulty }, ctx) {
       const lv = Number(difficulty) || 2, rng = ctx.rng;
       // level 3 promises turned shapes: only the scenes that show them
-      const names = Object.keys(SCENES).filter((n) => (LEVELS[lv].hex ? SCENES[n].hex : true) && (LEVELS[lv].turned ? SCENES[n].turned : true));
+      const names = Object.keys(SCENES).filter((n) => (LEVELS[lv].hex ? SCENES[n].hex : true) && (LEVELS[lv].turned ? SCENES[n].turned : true) && lv >= (SCENES[n].minLevel || 1));
       const name = pick(rng, names);
       const sc = makeScene(name, lv, rng);
       const colors = rng.shuffle(CRAYONS.slice()).slice(0, sc.kinds.length);
@@ -269,12 +292,15 @@ function makeShapePicturesType({ id, slug, i18n }) {
       const PW = 640, PH = Math.round(H * PW / W);
       const pic = `<svg width="${PW}" height="${PH}" viewBox="-6 -6 ${W + 12} ${H + 12}" data-lcs-prim="shape-picture" data-lcs-scene="${name}" style="flex:0 0 auto">` +
         sc.pieces.map((p, i) => pieceSvg(p, key ? colorOf[p.kind] : tokens.color.white, i)).join('') + `</svg>`;
-      const legend = sc.kinds.map((k) => `<div style="display:flex;align-items:center;gap:12px" data-lcs-legend="${k}" data-lcs-color="${colorOf[k]}">${legendIcon(k, colorOf[k], 60)}${answerBox({ w: 64, h: 56, answer: sc.counts[k] })}</div>`).join('');
+      // the key lists the kinds in a dealt order: in a fixed order (circle, triangle, …) box 2 held 2 and box 4 held 4 on a fifth
+      // of the pages, the small kinds standing where their counts are (settings-space 2026-11-02)
+      const order = rng.shuffle(sc.kinds.slice());
+      const legend = order.map((k) => `<div style="display:flex;align-items:center;gap:12px" data-lcs-legend="${k}" data-lcs-color="${colorOf[k]}">${legendIcon(k, colorOf[k], 60)}${answerBox({ w: 64, h: 56, answer: sc.counts[k] })}</div>`).join('');
       return {
         bodyHtml: `<div data-ws-content data-lcs-shape-pictures="${lv}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:14px;min-height:0">` +
           `<div style="background:#FFFFFF;border:2.5px solid #F0E4CB;border-radius:18px;padding:8px">${pic}</div>` +
           `<div style="display:flex;justify-content:space-evenly;align-items:center;width:100%;padding:12px 8px;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:16px;box-sizing:border-box" data-lcs-shape-key>${legend}</div></div>`,
-        meta: { scene: name, counts: sc.kinds.map((k) => sc.counts[k]), kinds: sc.kinds },
+        meta: { scene: name, counts: order.map((k) => sc.counts[k]), kinds: order },
       };
     },
 

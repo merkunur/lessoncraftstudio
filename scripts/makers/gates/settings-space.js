@@ -42,7 +42,7 @@ const EXEMPT = {
   'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
   'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
   'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],
-  'G3-356': [/^const-(0|30)$/, 'add and subtract whole hours (level 1) or half hours (level 2): the minutes of every answer are :00 (and :30) by the level — keeping the minutes is part of the skill; the screen grades them in their own box, pooled here with the hours 1-12'],
+  'G3-356': [/^const-(0|15|30|45)$/, 'add and subtract whole hours (level 1), half hours (level 2) or quarter hours (level 3): the minutes of every answer are :00, :30 or a quarter by the level — keeping the minutes is part of the skill; the screen grades them in their own box, pooled here with the hours 1-12'],
   'G1-479': [/^(first-half|second-half|alternate-[01])$/, 'shade the quarters the minute hand has passed: they always start at 12 and run clockwise (quarter past = the top right, half past = the right half) — where the shaded quarters sit IS the lesson'],
   'G2-228': [/^alternate-/, 'colour ONE HALF: any half of the parts is right (graded "any N"), so every other part is a right answer, not a guess'],
   'G3-316': [/^alternate-/, 'colour n of d parts: any n parts are right (graded "any N")'],

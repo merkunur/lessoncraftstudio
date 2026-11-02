@@ -1,5 +1,5 @@
 {
-  "_note": "LITERACY sort-by-beginning-sound (science-category-sort): pictures into initial-letter bins. en here.",
+  "_note": "LITERACY sort-by-beginning-sound (science-category-sort): pictures into initial-letter bins. en here. 2026-11-02 review: every picture STARTS WITH ITS BIN'S SOUND (ship/shoe, Speck, chou/chat/cerf, sjö/kök, no sky were the letter but not the sound) — replaced in place, so a page that never held one is unchanged. Second pass: a picture a child names with another first letter (an ox that reads as a cow, a sauce bottle as ketchup, a knee as a leg, a face for chin, a landscape for lake / trail) replaced the same way. Third pass (native + pedagogy review): no word twice in a bin; blocks, neck, bread, sofa, pig, head, cap, cabbage, lock, bacon replaced where a child names them with another letter.",
   "bins": [
     {
       "key": "B",
@@ -337,8 +337,8 @@
         "bin": "K"
       },
       {
-        "theme": "vegetables",
-        "noun": "cabbage",
+        "theme": "around the house",
+        "noun": "comb",
         "bin": "K"
       },
       {
@@ -347,13 +347,13 @@
         "bin": "K"
       },
       {
-        "theme": "body parts",
-        "noun": "chin",
+        "theme": "animals",
+        "noun": "cat",
         "bin": "K"
       },
       {
-        "theme": "camping",
-        "noun": "lake",
+        "theme": "At the Supermarket",
+        "noun": "lettuce",
         "bin": "S"
       },
       {
@@ -367,8 +367,8 @@
         "bin": "S"
       },
       {
-        "theme": "camping",
-        "noun": "rope",
+        "theme": "accessories",
+        "noun": "sock",
         "bin": "S"
       },
       {
@@ -377,15 +377,15 @@
         "bin": "S"
       },
       {
-        "theme": "At the Supermarket",
-        "noun": "bacon",
+        "theme": "beach",
+        "noun": "sun",
         "bin": "S"
       }
     ],
     "es": [
       {
-        "theme": "vegetables",
-        "noun": "cabbage",
+        "theme": "animals",
+        "noun": "rabbit",
         "bin": "C"
       },
       {
@@ -434,8 +434,8 @@
         "bin": "P"
       },
       {
-        "theme": "clothing",
-        "noun": "sweatpants",
+        "theme": "animals",
+        "noun": "dog",
         "bin": "P"
       },
       {
@@ -449,8 +449,8 @@
         "bin": "T"
       },
       {
-        "theme": "farm animals",
-        "noun": "bull",
+        "theme": "animals",
+        "noun": "tiger",
         "bin": "T"
       },
       {
@@ -459,18 +459,18 @@
         "bin": "T"
       },
       {
-        "theme": "forest creatures",
-        "noun": "gopher",
+        "theme": "animals",
+        "noun": "turtle",
         "bin": "T"
       },
       {
-        "theme": "kitchen tools",
-        "noun": "lid",
+        "theme": "around the house",
+        "noun": "scissors",
         "bin": "T"
       },
       {
-        "theme": "kitchen tools",
-        "noun": "mug",
+        "theme": "ocean life",
+        "noun": "shark",
         "bin": "T"
       }
     ],
@@ -496,13 +496,13 @@
         "bin": "B"
       },
       {
-        "theme": "farm animals",
-        "noun": "ox",
+        "theme": "toys",
+        "noun": "ball",
         "bin": "B"
       },
       {
-        "theme": "toys",
-        "noun": "blocks",
+        "theme": "vehicles",
+        "noun": "boat",
         "bin": "B"
       },
       {
@@ -511,8 +511,8 @@
         "bin": "C"
       },
       {
-        "theme": "body parts",
-        "noun": "neck",
+        "theme": "vehicles",
+        "noun": "truck",
         "bin": "C"
       },
       {
@@ -522,27 +522,27 @@
       },
       {
         "theme": "vegetables",
-        "noun": "cabbage",
+        "noun": "carrot",
         "bin": "C"
       },
       {
         "theme": "animals",
-        "noun": "cat",
-        "bin": "C"
-      },
-      {
-        "theme": "camping",
-        "noun": "deer",
+        "noun": "pig",
         "bin": "C"
       },
       {
         "theme": "animals",
-        "noun": "woodpecker",
+        "noun": "duck",
+        "bin": "C"
+      },
+      {
+        "theme": "animals",
+        "noun": "fish",
         "bin": "P"
       },
       {
-        "theme": "At the Supermarket",
-        "noun": "bread",
+        "theme": "fruits",
+        "noun": "pear",
         "bin": "P"
       },
       {
@@ -623,8 +623,8 @@
         "bin": "P"
       },
       {
-        "theme": "farm animals",
-        "noun": "chicken",
+        "theme": "animals",
+        "noun": "fish",
         "bin": "P"
       },
       {
@@ -633,8 +633,8 @@
         "bin": "S"
       },
       {
-        "theme": "around the house",
-        "noun": "sofa",
+        "theme": "shapes",
+        "noun": "star",
         "bin": "S"
       },
       {
@@ -660,8 +660,8 @@
     ],
     "pt": [
       {
-        "theme": "farm animals",
-        "noun": "ox",
+        "theme": "fruits",
+        "noun": "banana",
         "bin": "B"
       },
       {
@@ -715,8 +715,8 @@
         "bin": "C"
       },
       {
-        "theme": "around the house",
-        "noun": "glass",
+        "theme": "animals",
+        "noun": "dog",
         "bin": "C"
       },
       {
@@ -797,8 +797,8 @@
         "bin": "K"
       },
       {
-        "theme": "body parts",
-        "noun": "chin",
+        "theme": "animals",
+        "noun": "rabbit",
         "bin": "K"
       },
       {
@@ -827,18 +827,18 @@
         "bin": "S"
       },
       {
-        "theme": "At the Supermarket",
-        "noun": "bacon",
+        "theme": "shapes",
+        "noun": "star",
+        "bin": "S"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "snail",
         "bin": "S"
       },
       {
         "theme": "around the house",
-        "noun": "lock",
-        "bin": "S"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "sauce",
+        "noun": "chair",
         "bin": "S"
       }
     ],
@@ -874,13 +874,13 @@
         "bin": "B"
       },
       {
-        "theme": "breakfast",
-        "noun": "biscuit",
+        "theme": "around the house",
+        "noun": "cup",
         "bin": "K"
       },
       {
-        "theme": "vegetables",
-        "noun": "cabbage",
+        "theme": "animals",
+        "noun": "rabbit",
         "bin": "K"
       },
       {
@@ -889,8 +889,8 @@
         "bin": "K"
       },
       {
-        "theme": "shapes",
-        "noun": "cone",
+        "theme": "farm animals",
+        "noun": "cow",
         "bin": "K"
       },
       {
@@ -899,18 +899,18 @@
         "bin": "K"
       },
       {
-        "theme": "around the house",
-        "noun": "kitchen",
+        "theme": "animals",
+        "noun": "cat",
         "bin": "K"
       },
       {
-        "theme": "camping",
-        "noun": "lake",
+        "theme": "around the house",
+        "noun": "couch",
         "bin": "S"
       },
       {
-        "theme": "At the Supermarket",
-        "noun": "sauce",
+        "theme": "around the house",
+        "noun": "bed",
         "bin": "S"
       },
       {
@@ -971,8 +971,8 @@
         "bin": "K"
       },
       {
-        "theme": "vegetables",
-        "noun": "cabbage",
+        "theme": "animals",
+        "noun": "rabbit",
         "bin": "K"
       },
       {
@@ -991,8 +991,8 @@
         "bin": "K"
       },
       {
-        "theme": "body parts",
-        "noun": "knee",
+        "theme": "At the Supermarket",
+        "noun": "cake",
         "bin": "K"
       },
       {
@@ -1063,8 +1063,8 @@
         "bin": "K"
       },
       {
-        "theme": "vegetables",
-        "noun": "cabbage",
+        "theme": "animals",
+        "noun": "rabbit",
         "bin": "K"
       },
       {
@@ -1073,8 +1073,8 @@
         "bin": "K"
       },
       {
-        "theme": "body parts",
-        "noun": "knee",
+        "theme": "animals",
+        "noun": "cat",
         "bin": "K"
       },
       {
@@ -1088,8 +1088,8 @@
         "bin": "K"
       },
       {
-        "theme": "beach",
-        "noun": "cloud",
+        "theme": "accessories",
+        "noun": "sock",
         "bin": "S"
       },
       {
@@ -1113,8 +1113,8 @@
         "bin": "S"
       },
       {
-        "theme": "camping",
-        "noun": "trail",
+        "theme": "around the house",
+        "noun": "bed",
         "bin": "S"
       }
     ],
@@ -1145,13 +1145,13 @@
         "bin": "K"
       },
       {
-        "theme": "farm animals",
-        "noun": "hen",
+        "theme": "animals",
+        "noun": "cat",
         "bin": "K"
       },
       {
-        "theme": "body parts",
-        "noun": "head",
+        "theme": "clothing",
+        "noun": "shirt",
         "bin": "P"
       },
       {
@@ -1165,8 +1165,8 @@
         "bin": "P"
       },
       {
-        "theme": "vegetables",
-        "noun": "asparagus",
+        "theme": "animals",
+        "noun": "penguin",
         "bin": "P"
       },
       {
@@ -1185,8 +1185,8 @@
         "bin": "S"
       },
       {
-        "theme": "animals",
-        "noun": "pig",
+        "theme": "accessories",
+        "noun": "sock",
         "bin": "S"
       },
       {
@@ -1247,8 +1247,8 @@
         "bin": "C"
       },
       {
-        "theme": "accessories",
-        "noun": "cap",
+        "theme": "At the Supermarket",
+        "noun": "cake",
         "bin": "C"
       },
       {
@@ -1287,13 +1287,13 @@
         "bin": "S"
       },
       {
-        "theme": "vehicles",
-        "noun": "ship",
+        "theme": "accessories",
+        "noun": "sock",
         "bin": "S"
       },
       {
-        "theme": "clothing",
-        "noun": "shoe",
+        "theme": "around the house",
+        "noun": "spoon",
         "bin": "S"
       },
       {

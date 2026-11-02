@@ -3,7 +3,39 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** B2 in ARCHITECTURE §14 order — Telling Time next (`lib/time-words.js` draft in the session scratchpad: 9 differences from the activity fixtures — es-MX "para" vs the activities' "menos", noon words pt/fr/it — need the native read; if es-MX "para" is confirmed, `mini tools/clock-core.js` es strings are fixed too), then measurement, graphs-data, shapes-geometry, patterns, number-tracing, symmetry-grids; S6; B3–B7. Tasks 7–10 (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents, my own Opus 5.5 agent only when needed, one at a time. Owed at the release only: the five release steps of task 3.
+**NEXT:** B2 in ARCHITECTURE §14 order — Patterns: build + gate (code, text and review done, see below), then number-tracing, symmetry-grids; S6; B3–B7 (health-safety is NOT built: operator 2026-11-02). Live republish fix1102 (K-035/036/037, K-040, G2-236, G1-140, G1-149, G2-250, G3-355) is regenerated → compare, apply, upload, run, restore injections, clean. Tasks 7–10 (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents, my own Opus 5.5 agent only when needed, one at a time. Owed at the release only: the five release steps of task 3.
+
+## B2: Telling Time, Measurement, Graphs & Data, Shapes & Geometry, Patterns (2026-11-02; commits `cd8434375`, `f16580560`)
+
+**Telling Time** (G1-477 time in words, G1-478 my day, G1-479 quarter hours, G2-474 a.m./p.m., G3-475 elapsed time on a
+time line, K-462 make your own clock). G3-475: level 2 quarter hours, level 3 five minutes with three DIFFERENT hours per
+page and lines from 5 o'clock (writing "2" everywhere and the printed hour labels were tells). Answer position: G1-149,
+G2-250, G3-355 (central deal, `bothq` foils) — republished in fix1102.
+
+**Measurement** (K-463 order by size in boxes, G1-480 paper clips, G2-475 rulers to cut out, G2-476 inches, G2-477 which
+unit, G3-476 °F); K-035/036/037 draw only tall/long pictures; Short to Long and Paper Clips clear the card badge.
+
+**Graphs & Data** (G1-481 our class graph — survey; G1-482 count, then graph). Native + pedagogy review: the survey names
+each choice (vocabulary word), offers only everyday choices of 11 themes, asks as many classmates as a row has boxes
+(8/10/12); G1-482's key colours boxes (pictograph `shade`); G2-239's key graph is 40 px shorter (fi key title wraps).
+
+**Shapes & Geometry** (25 templates ×11): K-464 Shape Pictures (8 scenes of exact shapes, outline + colour key + count;
+pieces only touch or nest — checked on the geometry —, never squares beside rectangles, pieces ≥ ~7 mm, hexagons ≥ ~10 mm;
+level 3 turned shapes), G3-477 Draw Rectangles by Area (level 3: area + perimeter → one rectangle; key "Example" on 1-2),
+G2-478 Nets (die / box / pyramid, one grey tab per seam). G2-247/248 picture slots inside their reviewed symmetry class.
+`lib/b5-common.js` and `primitives/family-figure.js` read through the platform layer (the bundle refused `fs`).
+
+**Patterns** (12 templates): K-465 Pattern Train (cut and glue; the pattern-train app), K-466 Make Your Own Pattern
+(material), G1-483 Number Patterns (levels: repeating; +2/5/10; ±2/5/10). Review: K-466 says the pattern repeats and gives
+6 of each picture; trains read left to right with "goes on" arrows; the train's screen has its own sentence
+(`interactive-instructions.json <type>["marks:<id>"]`, new in build-screens/runtime). Every picture row is a slot.
+
+**Runtime + gates.** A page with teacher edits keeps its unedited page's attempt (runtime.generate) — a swap on a retried
+page was refused before. Picker greys pictures used in any slot. Gates: parity reads each maker's own data version;
+declared-screens replays the seed retry; collision clips ink to overflow-hidden ancestors, exempts a balance object in its
+pan and a 2 px object/row contact (poisons both ways); guessability reads by item centres; lints fail undefined / NaN;
+own-input compares the swapped name as a whole word. Picture cache: 3 pictures had opaque backgrounds
+(`image-cache/clear-background.js`, called by derive.js).
 
 ## B1 screen retrofit + Money maker + Two-Circle Sort rebuild + coins at their real sizes (2026-11-01)
 
@@ -88,7 +120,9 @@ clean).
 
 **Live republish** (pinned waves, `guessfix-compare.js`; new `--keep-all` for fixes drawn in strokes or opacity; word
 positions via PyMuPDF `tools/pdf-word-boxes.py`): batch 1 coins (2,276 decks), batch 2 G1-230 / G1-232 (352), batch 3
-number walls + doubles + the vehicles crane (3,486), batch 4 G1-349 (176). RESULT: (filled in below when done)
+number walls + doubles + the vehicles crane (3,486), batch 4 G1-349 (176). RESULT: batches 1, 2, 4 republished; batch 3
+(fix1101, 2026-11-02) 1,702 changed pages republished, 1,784 unchanged dropped, audits clean apart from pre-existing
+title notes, injections restored (lostTB 0, lostMeter 0); fix1103 (G1-150 screen order, keep-all, 176) followed.
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 

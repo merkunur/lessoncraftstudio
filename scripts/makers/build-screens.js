@@ -132,6 +132,16 @@ async function main() {
           } catch (e) { const lv = VERDICTS.levels && VERDICTS.levels[t.id] && VERDICTS.levels[t.id][d]; reasons.push('L' + d + ': ' + (lv || (e.reasons ? e.reasons.join('; ') : e.message))); }
         }
         Object.assign(t, { screen: levels.length ? 'marks' : null, screenLevels: levels, screenReason: levels.length === t.levels.length ? null : reasons.join(' | '), verdict: levels.length ? 'screen' : 'none' });
+        // a marks screen whose generic sentence ("tap the answer you would circle") does not fit its page carries its own
+        // (interactive-instructions.json <exerciseType>["marks:<id>"], 2026-11-02: the pattern train has nothing to circle)
+        const own = (INTERACTIVE[type.exerciseType] || {})['marks:' + t.id];
+        if (own && levels.length) {
+          t.screenInstructions = {};
+          for (const loc of t.locales) {
+            if (!own[loc]) throw new Error(t.id + ': interactive-instructions.json ' + type.exerciseType + '.marks:' + t.id + ' has no ' + loc);
+            t.screenInstructions[loc] = Object.fromEntries(levels.map((d) => [d, own[loc]]));
+          }
+        }
         if (!levels.length) report.push(`   ${t.id}: no screen — ${reasons.join(' | ').slice(0, 220)}`);
         else if (levels.length < t.levels.length) report.push(`   ${t.id}: screen on levels ${levels.join(',')} only — ${reasons.join(' | ').slice(0, 160)}`);
       }

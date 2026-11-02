@@ -3400,5 +3400,20 @@
       "no": "Trykk på haken hvis setningen er sann, eller på krysset hvis den er usann.",
       "fi": "Napauta väkästä, jos lause on totta, tai ruksia, jos se ei ole totta."
     }
+  },
+  "patterns": {
+    "marks:K-465": {
+      "en": "Look at the pattern on the train. Under each empty train car, tap the picture that goes there.",
+      "de": "Schau dir das Muster auf dem Zug an. Tippe unter jedem leeren Wagen das Bild an, das hineingehört.",
+      "fr": "Regarde la suite sur le train. Sous chaque wagon vide, touche l’image qui va dedans.",
+      "es": "Mira el patrón del tren. Debajo de cada vagón vacío, toca el dibujo que va ahí.",
+      "pt": "Olhe o padrão do trem. Embaixo de cada vagão vazio, toque na figura que vai nele.",
+      "it": "Guarda la sequenza sul treno. Sotto ogni vagone vuoto, tocca la figura che ci va.",
+      "nl": "Kijk naar de reeks op de trein. Tik onder elke lege wagon het plaatje aan dat erin hoort.",
+      "sv": "Titta på mönstret på tåget. Tryck under varje tom vagn på bilden som ska vara där.",
+      "da": "Se på mønstret på toget. Tryk under hver tom vogn på det billede, der skal være i den.",
+      "no": "Se på mønsteret på toget. Trykk under hver tom vogn på bildet som skal være i den.",
+      "fi": "Katso junan jonoa. Napauta jokaisen tyhjän vaunun alta kuva, joka kuuluu siihen vaunuun."
+    }
   }
 }

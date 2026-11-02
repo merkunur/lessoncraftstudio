@@ -3752,11 +3752,11 @@
   },
   "K-465": {
     "title": "Mönstertåget",
-    "instruction": "Titta på mönstret på tåget. Klipp ut bilderna längst ner och klistra varje bild i rätt tom vagn."
+    "instruction": "Titta på mönstret på tåget. Klipp ut bilderna längst ner och klistra in varje bild i rätt tom vagn."
   },
   "K-466": {
     "title": "Gör ditt eget mönster",
-    "instruction": "Klipp ut bilderna. Gör ditt eget mönster på tåget och klistra in det i vagnarna."
+    "instruction": "Klipp ut bilderna. Lägg dem på tåget och gör ditt eget mönster som upprepas. Klistra sedan in en bild i varje vagn."
   },
   "G1-483": {
     "title": "Talmönster",

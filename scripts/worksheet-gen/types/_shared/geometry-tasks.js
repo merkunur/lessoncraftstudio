@@ -48,7 +48,8 @@ function angleSvg(deg, size) {
   const t = tokens;
   const c = 14, len = size - 22;
   const a = (-deg) * Math.PI / 180;
-  const x2 = c + len * Math.cos(a), y2 = (size - 14) + len * Math.sin(a);
+  // to a hundredth of a pixel: Node and the browser differ in the last digit of Math.cos / Math.sin (makers parity gate)
+  const x2 = Math.round((c + len * Math.cos(a)) * 100) / 100, y2 = Math.round(((size - 14) + len * Math.sin(a)) * 100) / 100;
   const parts = [
     line({ x1: c, y1: size - 14, x2: c + len, y2: size - 14, strokeColor: t.color.ink, strokeWidth: 3.5 }),
     line({ x1: c, y1: size - 14, x2, y2, strokeColor: t.color.ink, strokeWidth: 3.5 }),

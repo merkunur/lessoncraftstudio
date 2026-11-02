@@ -3762,11 +3762,11 @@
   },
   "K-465": {
     "title": "Jonojuna",
-    "instruction": "Katso junan jonoa. Leikkaa alareunan kuvat ja liimaa jokainen oikeaan tyhjään vaunuun."
+    "instruction": "Katso junan jonoa. Leikkaa alareunan kuvat irti ja liimaa jokainen oikeaan tyhjään vaunuun."
   },
   "K-466": {
     "title": "Tee oma jono",
-    "instruction": "Leikkaa kuvat. Tee junaan oma jonosi ja liimaa se vaunuihin."
+    "instruction": "Leikkaa kuvat irti. Asettele ne junaan ja tee oma toistuva jono. Liimaa sitten yksi kuva jokaiseen vaunuun."
   },
   "G1-483": {
     "title": "Lukujonot",

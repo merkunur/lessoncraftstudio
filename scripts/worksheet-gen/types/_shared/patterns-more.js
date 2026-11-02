@@ -20,8 +20,9 @@ const TEAL = tokens.color.teal, INK = tokens.color.ink, CREAM = tokens.color.cre
 const UNITS = { 1: [['A', 'B']], 2: [['A', 'A', 'B'], ['A', 'B', 'B']], 3: [['A', 'B', 'C'], ['A', 'A', 'B', 'B']] };
 const WAGONS = { 1: 8, 2: 9, 3: 12 };
 
-const WW = 120, WH = 104;   // a wagon's body (the page fills its body: 108 × 92 left a third of it empty)
-const engineSvg = () => `<svg width="128" height="${WH + 26}" viewBox="0 0 128 ${WH + 26}" data-lcs-engine style="flex:0 0 auto">` +
+const WW = 116, WH = 100;   // a wagon's body (the page fills its body: 108 × 92 left a third of it empty; a row of four plus
+                            // the arrows that say the train goes on must fit the 675-px body)
+const engineSvg = () => `<svg width="120" height="${WH + 26}" viewBox="0 0 128 ${WH + 26}" preserveAspectRatio="none" data-lcs-engine style="flex:0 0 auto">` +
   `<rect x="14" y="36" width="72" height="${WH - 36}" rx="8" fill="${tokens.color.coralSoft}" stroke="${TEAL}" stroke-width="3"/>` +
   `<rect x="74" y="8" width="46" height="${WH - 8}" rx="8" fill="${tokens.color.coralSoft}" stroke="${TEAL}" stroke-width="3"/>` +
   `<rect x="84" y="18" width="26" height="24" rx="4" fill="#FFFFFF" stroke="${TEAL}" stroke-width="2.5"/>` +
@@ -34,30 +35,37 @@ function wagon(inner, k, extra = '') {
     `<span style="position:absolute;left:14px;top:${WH - 4}px;width:24px;height:24px;box-sizing:border-box;border:3px solid ${INK};border-radius:50%;background:#FFFFFF"></span>` +
     `<span style="position:absolute;right:14px;top:${WH - 4}px;width:24px;height:24px;box-sizing:border-box;border:3px solid ${INK};border-radius:50%;background:#FFFFFF"></span></div>`;
 }
-const glueBox = `<span style="width:88px;height:82px;box-sizing:border-box;border:2.5px dashed ${tokens.color.grid};border-radius:8px;background:#FFFFFF" data-lcs-glue></span>`;
+const glueBox = `<span style="width:86px;height:78px;box-sizing:border-box;border:2.5px dashed ${tokens.color.grid};border-radius:8px;background:#FFFFFF" data-lcs-glue></span>`;
 const pic = (theme, n, px, extra = '') => `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt=""${extra} style="width:${px}px;height:${px}px">`;
-/** the train in rows: the engine and four wagons, then rows of five */
+/** the train in rows of four wagons (the engine leads the first), read like lines of text: left-aligned, an arrow at the
+ *  end of a row and at the start of the next says the train goes on (the reviewer: a centred wrap read as two trains) */
+const goesOn = `<svg width="22" height="22" viewBox="0 0 22 22" data-lcs-goes-on style="flex:0 0 auto;align-self:center;margin-top:-20px"><path d="M2 11 H15 M10 5 L17 11 L10 17" fill="none" stroke="${tokens.color.coral}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 function trainRows(wagons) {
   const rows = [[engineSvg()].concat(wagons.slice(0, 4))];
-  for (let i = 4; i < wagons.length; i += 5) rows.push(wagons.slice(i, i + 5));
-  return rows.map((r) => `<div style="display:flex;align-items:flex-start;justify-content:center" data-lcs-train-row>${r.join(coupling)}</div>`).join('');
+  for (let i = 4; i < wagons.length; i += 4) rows.push(wagons.slice(i, i + 4));
+  return rows.map((r, k) => `<div style="display:flex;align-items:flex-start;justify-content:flex-start;padding-left:${k ? 0 : 32}px" data-lcs-train-row>` +
+    (k ? goesOn + coupling : '') + r.join(coupling) + (k < rows.length - 1 ? coupling + goesOn : '') + `</div>`).join('');
 }
 /** the cut-out cards (dashed: cut on the line) */
 const cutCards = (cards) => `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0;border-top:2px dashed ${tokens.color.grid};padding-top:10px" data-lcs-cutouts>` +
-  cards.map((c) => `<span style="width:108px;height:100px;box-sizing:border-box;border:2px dashed ${INK};display:flex;align-items:center;justify-content:center;background:#FFFFFF" data-lcs-cutout="${c.sym}">${c.html}</span>`).join('') + `</div>`;
+  cards.map((c) => `<span style="width:92px;height:84px;box-sizing:border-box;border:2px dashed ${INK};display:flex;align-items:center;justify-content:center;background:#FFFFFF" data-lcs-cutout="${c.sym}">${c.html}</span>`).join('') + `</div>`;
 
 // ---------- number patterns ----------
 const NUM_LEVELS = {
   1: { rows: 6, len: 8, blanks: 2 },
   2: { rows: 6, len: 7, blanks: 2, steps: [2, 5, 10], dir: [1] },
-  3: { rows: 6, len: 7, blanks: 2, steps: [2, 3, 4, 5, 10], dir: [1, -1] },
+  // counting on AND back by 2, 5 or 10 from any number (the reviewer: steps of 3 and 4 are grade 2-3, not grade 1)
+  3: { rows: 6, len: 7, blanks: 2, steps: [2, 5, 10], dir: [1, -1] },
 };
 const REPEATS = [['a', 'b'], ['a', 'b', 'c'], ['a', 'a', 'b'], ['a', 'b', 'b']];
 function numberRow(lv, rng) {
   const d = NUM_LEVELS[lv];
   let seq;
   if (lv === 1) {
-    const unit = rng.pick(REPEATS), vals = rng.sample([1, 2, 3, 4, 5, 6, 7, 8, 9], 3), map = { a: vals[0], b: vals[1], c: vals[2] };
+    const unit = rng.pick(REPEATS);
+    // an ABC unit is never a counting run (2 4 6 tempts "8" next): its three numbers are not evenly spaced
+    let vals; do { vals = rng.sample([1, 2, 3, 4, 5, 6, 7, 8, 9], 3); } while (unit.length === 3 && new Set(unit).size === 3 && vals[1] - vals[0] === vals[2] - vals[1]);
+    const map = { a: vals[0], b: vals[1], c: vals[2] };
     seq = Array.from({ length: d.len }, (_, k) => map[unit[k % unit.length]]);
     // the rule must be seen: two whole units before the first box
     const first = Math.max(2 * unit.length, 4);
@@ -94,8 +102,8 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
           let r; for (let t = 0; t < 30; t++) { r = numberRow(lv, rng); if (!seen.has(r.seq.join(','))) break; }
           seen.add(r.seq.join(','));
           items.push(r.rule + ':' + r.seq.join(','));
-          const cells = r.seq.map((v, k) => (r.blanks.includes(k) ? answerBox({ w: 66, h: 56, answer: v })
-            : `<span style="display:inline-flex;align-items:center;justify-content:center;width:66px;height:56px;border-radius:28px;background:${tokens.color.tealSoft};font-family:'Baloo 2';font-weight:700;font-size:28px;color:${INK}" data-lcs-num="${v}">${v}</span>`));
+          const cells = r.seq.map((v, k) => (r.blanks.includes(k) ? answerBox({ w: 78, h: 60, answer: v })
+            : `<span style="display:inline-flex;align-items:center;justify-content:center;width:66px;height:60px;border-radius:28px;background:${tokens.color.tealSoft};font-family:'Baloo 2';font-weight:700;font-size:28px;color:${INK}" data-lcs-num="${v}">${v}</span>`));
           rows.push(`<div class="ws-card-stage" style="justify-content:center;gap:10px;padding:4px 8px 4px 34px" data-lcs-numpattern="${r.seq.join(',')}" data-lcs-blanks="${r.blanks.join(',')}">${cells.join('')}</div>`);
         }
         const { cardGrid } = require('../../templates/layouts/card-grid.js');
@@ -113,8 +121,8 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
         const n = WAGONS[lv], clue = 2 * unit.length;
         const seq = Array.from({ length: n }, (_, k) => unit[k % unit.length]);
         const wagons = seq.map((s, k) => {
-          if (k < clue) return wagon(pic(theme, of[s], 80, tap[s]), k, ` data-lcs-sym="${s}"`);
-          if (key) return wagon(pic(theme, of[s], 80), k, ` data-lcs-sym="${s}" data-lcs-blank="${s}" data-lcs-key-sample="1"`);
+          if (k < clue) return wagon(pic(theme, of[s], 76, tap[s]), k, ` data-lcs-sym="${s}"`);
+          if (key) return wagon(pic(theme, of[s], 76), k, ` data-lcs-sym="${s}" data-lcs-blank="${s}" data-lcs-key-sample="1"`);
           if (screen) {
             // the screen: under the empty wagon, the unit's pictures to choose from (the right one marked)
             const opts = rng.shuffle(syms.slice());
@@ -122,19 +130,21 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
           }
           return wagon(glueBox, k, ` data-lcs-blank="${s}"`);
         });
-        const cards = rng.shuffle(seq.slice(clue).map((s) => ({ sym: s, html: pic(theme, of[s], 80) })));
+        const cards = rng.shuffle(seq.slice(clue).map((s) => ({ sym: s, html: pic(theme, of[s], 70) })));
         return {
           bodyHtml: `<div data-ws-content data-lcs-train="${unit.join('')}" data-lcs-clue="${clue}" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:12px;min-height:0">` +
-            `<div style="display:flex;flex-direction:column;gap:${screen ? 6 : 14}px">${trainRows(wagons)}</div>` + (screen ? '' : cutCards(cards)) + `</div>`,
+            `<div style="display:flex;flex-direction:column;gap:${screen ? 6 : 14}px">${trainRows(wagons)}</div>` + (screen || key ? '' : cutCards(cards)) + `</div>`,
           meta: { items: [unit.join('') + ':' + nouns.map((x) => x.noun).join('|')] },
         };
       }
       // train-own: an empty train and the pictures to make a pattern with
       const kinds = lv === 3 ? 3 : 2, n = WAGONS[lv];
       const nouns = slot.pictures(ctx, rng.sample(pool, kinds), pool, theme, 'unit');
-      const per = Math.ceil(n / kinds) + (lv === 1 ? 0 : 1);   // enough of each for any pattern the child chooses
+      // six of each kind: enough for AB, AABB and ABC on any train, and AAB / ABB on 8 or 9 wagons (the reviewer: 4 + 4 for 8
+      // wagons ran out on an AAB train)
+      const per = 6;
       const cards = [];
-      nouns.forEach((x, k) => { for (let j = 0; j < per; j++) cards.push({ sym: 'ABC'[k], html: pic(theme, x, 66, j === 0 ? slot.attr(ctx, 'unit', k) : '') }); });
+      nouns.forEach((x, k) => { for (let j = 0; j < per; j++) cards.push({ sym: 'ABC'[k], html: pic(theme, x, 64, j === 0 ? slot.attr(ctx, 'unit', k) : '') }); });
       const wagons = Array.from({ length: n }, (_, k) => wagon(glueBox, k, ' data-lcs-blank="own"'));
       return {
         bodyHtml: `<div data-ws-content data-lcs-train="own" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:12px;min-height:0">` +

@@ -207,7 +207,9 @@ async function screenFor(o, mount) {
   try {
     const made = makePage({ ...o, screen: true });
     const html = o.decorate ? o.decorate(made.screenHtml) : made.screenHtml;
-    const sc = await screen.buildScreen({ html, locale: o.locale, strings: o.runtimeStrings, instruction: (pl) => (o.marksInstructions || {})[screen.instructionKey(pl)] || '', mount });
+    // the template's own screen sentence when it has one (build-screens.js), else the generic one for the kind of answers
+    const own = tpl && tpl.screen === 'marks' && tpl.screenInstructions && tpl.screenInstructions[o.locale] && tpl.screenInstructions[o.locale][lv];
+    const sc = await screen.buildScreen({ html, locale: o.locale, strings: o.runtimeStrings, instruction: (pl) => own || (o.marksInstructions || {})[screen.instructionKey(pl)] || '', mount });
     return { html: sc.html, path: 'marks' };
   } catch (e) {
     if (!declaredErr) throw e;

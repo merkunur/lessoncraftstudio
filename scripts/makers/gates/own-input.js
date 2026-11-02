@@ -164,12 +164,14 @@ const lineCount = () => {
             if (!b.ok) { out.push({ id: t.id, d, role: '-', base: false }); continue; }
             for (const role of Object.keys(b.slots || {})) {
               const s = b.slots[role];
-              const pool = s.pool.filter((k) => !s.values.includes(k));
+              // keys on the page in no slot of the same kind (the picker greys every picture already on the page)
+              const onPage = new Set(Object.values(b.slots).filter((x) => (x.theme || null) === (s.theme || null)).flatMap((x) => x.values));
+              const pool = s.pool.filter((k) => !onPage.has(k));
               const keys = pool.filter((_, i) => i % Math.max(1, Math.round(pool.length / PER)) === 0).slice(0, PER);
               const rows = [];
               for (const key of keys) {
                 const r = await M.mod.generate({ ...o, overrides: { [role]: { 0: key } } }, M.mount);
-                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0]) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? !!(r.attempt && r.attempt.seedVariant) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
+                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0]) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
               }
               const dup = s.values.length > 1 ? await M.mod.generate({ ...o, overrides: { [role]: { 0: s.values[1] } } }, M.mount) : null;
               const outside = await M.mod.generate({ ...o, overrides: { [role]: { 0: '__not_in_pool__' } } }, M.mount);

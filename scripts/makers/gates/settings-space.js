@@ -42,6 +42,8 @@ const EXEMPT = {
   'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
   'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
   'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],
+  'G3-356': [/^const-(0|30)$/, 'add and subtract whole hours (level 1) or half hours (level 2): the minutes of every answer are :00 (and :30) by the level — keeping the minutes is part of the skill; the screen grades them in their own box, pooled here with the hours 1-12'],
+  'G1-479': [/^(first-half|second-half|alternate-[01])$/, 'shade the quarters the minute hand has passed: they always start at 12 and run clockwise (quarter past = the top right, half past = the right half) — where the shaded quarters sit IS the lesson'],
   'G2-228': [/^alternate-/, 'colour ONE HALF: any half of the parts is right (graded "any N"), so every other part is a right answer, not a guess'],
   'G3-316': [/^alternate-/, 'colour n of d parts: any n parts are right (graded "any N")'],
   'G1-137': [/^slot-[02]$/, 'the symbols stand in their fixed order < = >; without equal pairs two outcomes remain — the child still compares'],
@@ -61,22 +63,35 @@ const EXEMPT = {
   'K-031': [/^prev\+1$/, 'write the position counting from the arrow: two marked pictures side by side ARE n and n + 1 — counting on is the lesson'],
   'K-389': [/^(same-as-prev|const-.+)$/, 'one sight word per page: the title names the word and every gap takes it — writing it again IS the practice'],
   'K-437': [/^const-\p{L}$/u, "the missing letter is the word's own: vowels are the most frequent letters of any sight-word list, and 'always a' fills one gap in six, never a word"],
-  'G1-439': [/^card-index$/, 'the two jump boxes hold the steps to and past the ten (1-9), so a card number (1-4) is sometimes a step by chance; the third box (the result, 20-100) never is — the strategy solves no card'],
+  // one entry per template: a second 'G1-439' key further down silently replaced this one, so card-index counted again (2026-11-02)
+  'G1-439': [/^(card-index|const-\d)$/, 'the two jump boxes hold the steps to and past the ten (1-9), so a card number (1-4) is sometimes a step by chance; the third box (the result, 20-100) never is — the strategy solves no card; and the make-ten bridge starts just below ten (6–9), so the jump to the ten is always 1–4 — the strategy is the lesson'],
   'G1-266': [/^const-\d+$/, 'number walls to 10 with bases 1-3: the sums of small numbers cluster on 3 and 4 (the level range is 2-8) — every new page caps one number at an eighth of its bricks where the range allows, and one number never completes a wall'],
-  'G1-267': [/^(const-\d+|prev\+1)$/, 'four-course walls of small numbers: the sums cluster on 3-5, and two neighbouring sums differ by the difference of the outer bricks ("one more than the brick before" is arithmetic) — the generator spreads every new page; one number never completes a wall'],
+  'G1-267': [/^(const-\d+|prev\+1|same-as-prev)$/, 'four-course walls of small numbers: the sums cluster on 3-5, and two neighbouring sums differ by the difference of the outer bricks ("one more than the brick before" is arithmetic; two bricks over mirrored bases — 1 2 1 → 3 3 — are equal) — the generator spreads every new page; one number never completes a wall'],
   'K-444': [/^same-as-prev$/, 'count on: the worked trail writes each number counted on, so the total repeats the last trail box'],
+  // the size pages: the child circles the biggest / tallest / longest picture — "pick the biggest" IS the skill
+  'K-032': [/^area-max$/, 'circle the BIGGEST picture in each row: picking the biggest is the task'],
+  'K-035': [/^area-max$/, 'circle the TALLEST picture in each row: the tallest of one picture drawn at several sizes is its biggest'],
+  'K-037': [/^area-max$/, 'circle the LONGEST picture in each row: the longest of one picture drawn at several sizes is its biggest'],
+  'K-079': [/^area-max$/, 'circle the BIGGEST shape in each row: picking the biggest is the task'],
   'K-445': [/^same-as-prev$/, 'same number? both groups are counted; on the "yes" rows the two counts are equal'],
   'K-452': [/^same-as-prev$/, 'three ways to show ONE number: the number repeats'],
   'K-448': [/^echo$/, 'teen numbers: write the number, then 10 + ones = that number (it is printed back)'],
   'K-456': [/^index-rev$/, 'a number house lists every split in order, so the missing part counts down floor by floor — the pattern is the lesson'],
   'G1-451': [/^echo$/, 'double and half machines: the half of a double is the number printed at the start'],
   'G1-442': [/^const-10$/, 'a facts drill samples the facts within 10 evenly, and more facts make 10 than any other sum'],
-  'G1-439': [/^const-\d$/, 'the make-ten bridge starts just below ten (6–9), so the jump to the ten is always 1–4 — the strategy is the lesson'],
   'G3-409': [/^(same-as-prev|const-\d+)$/, 'fact of the day: one fact per page, written every way — its numbers and its product fill several boxes'],
   'G3-407': [/^index$/, 'a multiplication square: the row of 1 repeats the column numbers'],
   'G3-389': [/^const-\d+$/, 'level 1 numbers stay within 50, so they round to the four tens 20–50'],
   'G2-206': [/^const-1$/, 'make A ten: 11–19 ones bundle into one ten — the tens box is 1 by the task'],
 };
+// EXEMPT is an object literal: a template written twice keeps only its LAST entry (2026-11-02: G1-439 lost card-index that
+// way) — the gate refuses to run with a duplicate key
+{
+  const src = fs.readFileSync(__filename, 'utf8'), at = src.indexOf('const EXEMPT = {');
+  const keys = [...src.slice(at, src.indexOf('\n};', at)).matchAll(/^\s*'([A-Z0-9-]+)':/gm)].map((m) => m[1]);
+  const dup = keys.filter((k, i) => keys.indexOf(k) !== i);
+  if (dup.length || keys.length !== Object.keys(EXEMPT).length) { console.log('FAIL EXEMPT lists ' + (dup.join(', ') || 'a template') + ' twice — merge the entries'); process.exit(1); }
+}
 function exemptFor(id, r, locale) {
   const ex = EXEMPT[id];
   if (!ex || !r.strategies) return r;
@@ -121,10 +136,14 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     let skip = null, empty = 0;
     for (const o of opts) {
       let html;
-      try {
-        if (mode === 'marks') html = MP.buildPage(t, type, tj, loc, o, { screen: true }).screenHtml;
-        else html = MP.buildDeclaredScreen(t, type, tj, loc, o).html;
-      } catch (e) { fail(`${maker} ${t.id} ${loc} L${d} ${JSON.stringify(o)}: build — ${e.message}`); continue; }
+      // the page the maker shows: this seed, or one of runtime.generate's fresh-seed retries (a seed that cannot be built
+      // is never shown — 2026-11-02: the money G2-292 / G2-293 seeds that ran out of distinct questions failed here)
+      let err = null;
+      for (const sv of [null, '.1', '.2', '.3', '.4']) {
+        const oo = sv ? { ...o, seedVariant: o.variant + sv } : o;
+        try { html = mode === 'marks' ? MP.buildPage(t, type, tj, loc, oo, { screen: true }).screenHtml : MP.buildDeclaredScreen(t, type, tj, loc, oo).html; break; } catch (e) { err = err || e; }
+      }
+      if (!html) { fail(`${maker} ${t.id} ${loc} L${d} ${JSON.stringify(o)}: build — ${err.message}`); continue; }
       const r = await readPage(html, mode, type.interactive);
       if (r.skip) { skip = r.skip; break; }
       if (r.err) { fail(`${maker} ${t.id} ${loc} L${d} v${o.variant} ${o.theme || ''}: ${r.err}`); continue; }

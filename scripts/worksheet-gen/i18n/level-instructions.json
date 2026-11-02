@@ -4345,5 +4345,84 @@
       "no": "Tegn en strek fra hver mynt til verdien.",
       "fi": "Yhdistä viivalla jokainen kolikko oikeaan arvoon."
     }
+  },
+  "G3-475": {
+    "1": {
+      "en": "Find the start and the end on the time line. Write how many hours passed.",
+      "de": "Finde Anfang und Ende auf dem Zeitstrahl. Schreibe auf, wie viele Stunden vergangen sind.",
+      "fr": "Repère le début et la fin sur la ligne du temps. Écris combien d’heures se sont écoulées.",
+      "es": "Encuentra el inicio y el final en la línea del tiempo. Escribe cuántas horas pasaron.",
+      "pt": "Encontre o início e o fim na linha do tempo. Escreva quantas horas se passaram.",
+      "it": "Trova l’inizio e la fine sulla linea del tempo. Scrivi quante ore sono passate.",
+      "nl": "Zoek het begin en het einde op de tijdlijn. Schrijf op hoeveel uur er voorbij is.",
+      "sv": "Hitta början och slutet på tidslinjen. Skriv hur många timmar som har gått.",
+      "da": "Find start og slut på tidslinjen. Skriv, hvor mange timer der er gået.",
+      "no": "Finn start og slutt på tidslinjen. Skriv hvor mange timer som har gått.",
+      "fi": "Etsi alku ja loppu aikajanalta. Kirjoita, montako tuntia kului."
+    }
+  },
+  "K-463": {
+    "2": {
+      "en": "Start with the biggest. Number the pictures in each box from 1 (biggest) to 3 (smallest).",
+      "de": "Beginne mit dem größten Bild. Nummeriere die Bilder in jedem Kasten von 1 (am größten) bis 3 (am kleinsten).",
+      "fr": "Commence par la plus grande. Numérote les images de chaque case de 1 (la plus grande) à 3 (la plus petite).",
+      "es": "Empieza por el más grande. Numera los dibujos de cada recuadro del 1 (el más grande) al 3 (el más pequeño).",
+      "pt": "Comece pela maior. Numere as figuras de cada quadro de 1 (a maior) a 3 (a menor).",
+      "it": "Comincia dalla più grande. Numera le figure di ogni riquadro da 1 (la più grande) a 3 (la più piccola).",
+      "nl": "Begin bij de grootste. Nummer de plaatjes in elk vak van 1 (de grootste) tot en met 3 (de kleinste).",
+      "sv": "Börja med den största. Numrera bilderna i varje ruta från 1 (störst) till 3 (minst).",
+      "da": "Begynd med den største. Nummerér billederne i hver kasse fra 1 (størst) til 3 (mindst).",
+      "no": "Begynn med den største. Nummerer bildene i hver rute fra 1 (størst) til 3 (minst).",
+      "fi": "Aloita suurimmasta. Numeroi jokaisen laatikon kuvat: 1 on suurin ja 3 on pienin."
+    },
+    "3": {
+      "en": "Number the pictures in each box from 1 (smallest) to 4 (biggest).",
+      "de": "Nummeriere die Bilder in jedem Kasten von 1 (am kleinsten) bis 4 (am größten).",
+      "fr": "Numérote les images de chaque case de 1 (la plus petite) à 4 (la plus grande).",
+      "es": "Numera los dibujos de cada recuadro del 1 (el más pequeño) al 4 (el más grande).",
+      "pt": "Numere as figuras de cada quadro de 1 (a menor) a 4 (a maior).",
+      "it": "Numera le figure di ogni riquadro da 1 (la più piccola) a 4 (la più grande).",
+      "nl": "Nummer de plaatjes in elk vak van 1 (de kleinste) tot en met 4 (de grootste).",
+      "sv": "Numrera bilderna i varje ruta från 1 (minst) till 4 (störst).",
+      "da": "Nummerér billederne i hver kasse fra 1 (mindst) til 4 (størst).",
+      "no": "Nummerer bildene i hver rute fra 1 (minst) til 4 (størst).",
+      "fi": "Numeroi jokaisen laatikon kuvat: 1 on pienin ja 4 on suurin."
+    }
+  },
+  "G1-480": {
+    "2": {
+      "en": "Count the paper clips from one dashed line to the other. Write how many paper clips long each object is.",
+      "de": "Zähle die Büroklammern von einer gestrichelten Linie bis zur anderen. Schreibe auf, wie viele Büroklammern lang jeder Gegenstand ist.",
+      "fr": "Compte les trombones d’un trait pointillé à l’autre. Écris combien de trombones mesure chaque objet.",
+      "es": "Cuenta los clips de una línea punteada a la otra. Escribe cuántos clips mide cada objeto.",
+      "pt": "Conte os clipes de uma linha tracejada até a outra. Escreva quantos clipes de comprimento tem cada objeto.",
+      "it": "Conta le graffette da una linea tratteggiata all’altra. Scrivi quante graffette misura ogni oggetto.",
+      "nl": "Tel de paperclips van de ene stippellijn tot de andere. Schrijf op hoeveel paperclips lang elk voorwerp is.",
+      "sv": "Räkna gemen från den ena streckade linjen till den andra. Skriv hur många gem långt varje föremål är.",
+      "da": "Tæl clipsene fra den ene stiplede linje til den anden. Skriv, hvor mange clips lang hver ting er.",
+      "no": "Tell bindersene fra den ene stiplede linjen til den andre. Skriv hvor mange binders lang hver ting er.",
+      "fi": "Laske paperiliittimet katkoviivasta toiseen. Kirjoita, kuinka monta paperiliitintä pitkä kukin esine on."
+    },
+    "3": {
+      "en": "Count the paper clips from one dashed line to the other. Write how many paper clips long each object is.",
+      "de": "Zähle die Büroklammern von einer gestrichelten Linie bis zur anderen. Schreibe auf, wie viele Büroklammern lang jeder Gegenstand ist.",
+      "fr": "Compte les trombones d’un trait pointillé à l’autre. Écris combien de trombones mesure chaque objet.",
+      "es": "Cuenta los clips de una línea punteada a la otra. Escribe cuántos clips mide cada objeto.",
+      "pt": "Conte os clipes de uma linha tracejada até a outra. Escreva quantos clipes de comprimento tem cada objeto.",
+      "it": "Conta le graffette da una linea tratteggiata all’altra. Scrivi quante graffette misura ogni oggetto.",
+      "nl": "Tel de paperclips van de ene stippellijn tot de andere. Schrijf op hoeveel paperclips lang elk voorwerp is.",
+      "sv": "Räkna gemen från den ena streckade linjen till den andra. Skriv hur många gem långt varje föremål är.",
+      "da": "Tæl clipsene fra den ene stiplede linje til den anden. Skriv, hvor mange clips lang hver ting er.",
+      "no": "Tell bindersene fra den ene stiplede linjen til den andre. Skriv hvor mange binders lang hver ting er.",
+      "fi": "Laske paperiliittimet katkoviivasta toiseen. Kirjoita, kuinka monta paperiliitintä pitkä kukin esine on."
+    }
+  },
+  "G2-476": {
+    "2": {
+      "en": "Look where each object starts and where it ends. Write how many inches long it is."
+    },
+    "3": {
+      "en": "Measure each object to the nearest inch. Write the number of inches."
+    }
   }
 }

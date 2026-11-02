@@ -3733,5 +3733,53 @@
   "G1-476": {
     "title": "Zahlendetektiv",
     "instruction": "Die Lösungen sind Zahlen von 1 bis {MAX}. Lies die Hinweise und schreibe die Zahl auf, die zu allen passt."
+  },
+  "G1-477": {
+    "title": "Uhrzeiten in Worten",
+    "instruction": "Lies die Uhrzeit in Worten. Verbinde jede Uhr mit der Uhrzeit, die sie zeigt."
+  },
+  "G1-478": {
+    "title": "Mein Tag auf der Uhr",
+    "instruction": "Lies, was wann passiert. Zeichne in jede Uhr den Stundenzeiger und den Minutenzeiger ein."
+  },
+  "G1-479": {
+    "title": "Viertelstunden auf der Uhr",
+    "instruction": "Der Minutenzeiger ist bei der 12 losgelaufen. Male den Teil der Uhr aus, über den er schon gelaufen ist."
+  },
+  "G2-474": {
+    "title": "Welche Uhrzeit passt?",
+    "instruction": "Schau dir das Bild an: Wann passiert das? Kreise die richtige Uhrzeit ein."
+  },
+  "G3-475": {
+    "title": "Zeitspannen am Zeitstrahl",
+    "instruction": "Finde Anfang und Ende auf dem Zeitstrahl. Schreibe auf, wie viele Stunden und Minuten vergangen sind."
+  },
+  "K-462": {
+    "title": "Bastle deine eigene Uhr",
+    "instruction": "Schneide die Uhr und die beiden Zeiger aus. Befestige die Zeiger in der Mitte mit einer Musterklammer."
+  },
+  "K-463": {
+    "title": "Nach Größe ordnen",
+    "instruction": "Nummeriere die Bilder in jedem Kasten von 1 (am kleinsten) bis 3 (am größten)."
+  },
+  "G1-480": {
+    "title": "Messen mit Büroklammern",
+    "instruction": "Wie viele Büroklammern lang ist jeder Gegenstand? Schreibe die Zahl auf."
+  },
+  "G2-475": {
+    "title": "Lineale zum Ausschneiden",
+    "instruction": "In tatsächlicher Größe (100 %) drucken. Schneide die Lineale an den gestrichelten Linien aus."
+  },
+  "G2-477": {
+    "title": "Welche Einheit?",
+    "instruction": "Mit welcher Einheit würdest du das messen? Kreise sie ein."
+  },
+  "G1-481": {
+    "title": "Unser Klassendiagramm",
+    "instruction": "Frage deine Mitschüler, was sie am liebsten mögen. Mache für jede Antwort einen Strich. Male dann für jeden Strich ein Kästchen an."
+  },
+  "G1-482": {
+    "title": "Erst zählen, dann eintragen",
+    "instruction": "Zähle jede Sorte Bilder. Male im Diagramm für jedes gezählte Bild ein Kästchen an."
   }
 }

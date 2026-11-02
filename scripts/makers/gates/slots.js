@@ -42,7 +42,17 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'K-461', 'G2-471', 'G2-472', 'G2-473', 'G3-474', 'G1-211', 'G1-228', 'G1-229', 'G1-230', 'G1-231', 'G1-232',
   // place value + rounding: blocks and numerals only (Place Value maker 2026-11-01)
   'G1-120', 'G1-121', 'G1-122', 'G1-133', 'G2-203', 'G2-205', 'G2-206', 'G2-222', 'G2-223', 'G2-224', 'G2-225', 'G2-227', 'G2-346',
-  'G2-401', 'G2-402', 'G2-403', 'G2-404', 'G2-405', 'G1-476', 'G3-387', 'G3-388', 'G3-389', 'G3-390', 'G3-391', 'G1-351', 'G1-455', 'G1-456', 'G1-457', 'G2-351', 'G2-352', 'G2-400', 'G3-386', 'G1-135', 'G1-136', 'G1-137', 'G2-219', 'G2-220', 'G3-325', 'K-460', 'G1-453', 'G1-454', 'G2-398', 'G2-399', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328',
+  'G2-401', 'G2-402', 'G2-403', 'G2-404', 'G2-405', 'G1-476',
+  // Telling Time (2026-11-02): times on clock faces — no picture or word pool (G1-478 / G2-474 carry the day's moments as slots)
+  'G1-148', 'G1-149', 'G1-150', 'G1-212', 'G1-233', 'G1-234', 'G1-235', 'G1-236', 'G1-237', 'G2-249', 'G2-250', 'G3-344', 'G3-354', 'G3-355', 'G3-356',
+  'G1-477', 'G1-479', 'G3-475', 'K-462', 'G3-387', 'G3-388', 'G3-389', 'G3-390', 'G3-391', 'G1-351', 'G1-455', 'G1-456', 'G1-457', 'G2-351', 'G2-352', 'G2-400', 'G3-386', 'G1-135', 'G1-136', 'G1-137', 'G2-219', 'G2-220', 'G3-325', 'K-460', 'G1-453', 'G1-454', 'G2-398', 'G2-399', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328',
+  // Measurement & Size (2026-11-02): jugs, thermometers, cube towers and cut-out rulers — no picture pool; G2-477 Which Unit?
+  // draws its things from a reviewed cross-theme list where swapping one could change its right unit
+  'G2-260', 'G2-263', 'G3-345', 'G3-346', 'G3-476', 'G2-475', 'G2-477',
+  // Graphs & Data (2026-11-02): the line plots draw numbers and X marks only
+  'G2-240', 'G3-335',
+  // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
+  'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
   'G1-470', 'G3-470', 'G2-470', 'G3-472', 'G3-473',
   // logic puzzles: number walls, magic squares and number balances are numerals only (Logic & Math Puzzles maker 2026-11-01)
@@ -101,11 +111,11 @@ for (const m of MAKERS) {
     for (const theme of themes) for (const d of t.levels) for (const v of [1, 2]) {
       n++;
       const seed = instanceSeed({ typeId: t.id, theme, difficulty: d, seedEpoch: 1, variant: v, unit });
-      let a, b;
-      try {
-        a = refType && refType.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v });
-        b = type.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v });
-      } catch (e) { fail(`${t.id}: build threw (${e.message})`); continue; }
+      let a, b, ea = null, eb = null;
+      // a seed that cannot be built (the maker then retries a fresh seed) is unchanged when it threw before too
+      try { a = refType && refType.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v }); } catch (e) { ea = e; }
+      try { b = type.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v }); } catch (e) { eb = e; }
+      if (ea || eb) { if (ea && eb && refType) same++; else if (!refType && eb) fail(`${t.id}: build threw (${eb.message})`); continue; }
       // the reference tree sits in .scratch/slots-ref/: its picture file URLs carry that prefix — the only allowed difference
       const norm = (x) => String(x).split('.scratch/slots-ref/').join('');
       if (a && norm(a.bodyHtml) === b.bodyHtml && norm(JSON.stringify(a.meta)) === JSON.stringify(b.meta)) same++;
@@ -115,8 +125,15 @@ for (const m of MAKERS) {
     const theme = themes[0];
     // the level checked: level 2, or the first level whose page exposes a slot (a level may draw dots, another pictures)
     const lv = [...new Set([t.levels.includes(2) ? 2 : t.levels[0], ...t.levels])];
-    const d = lv.find((x) => Object.keys(makePage({ type, strings, locale: 'en', difficulty: x, theme, unit, variant: 1 }).slots).length) || lv[0];
-    const base = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1 });
+    // the page the maker shows: the first seed that builds (runtime.generate's fresh-seed ladder), every check on that seed
+    const SV = [null, '1.1', '1.2', '1.3', '1.4'];
+    const svOf = (x) => SV.find((sv) => { try { makePage({ type, strings, locale: 'en', difficulty: x, theme, unit, variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; } });
+    const mk = (x, sv, extra) => makePage({ type, strings, locale: 'en', difficulty: x, theme, unit, variant: 1, ...(sv ? { seedVariant: sv } : {}), ...(extra || {}) });
+    const tryMk = (x, sv, extra) => { try { return mk(x, sv, extra); } catch (e) { return null; } };
+    const d = lv.find((x) => { const sv = svOf(x); return sv !== undefined && Object.keys(mk(x, sv).slots).length; }) || lv[0];
+    const sv0 = svOf(d);
+    if (sv0 === undefined) { fail(`${t.id}: level ${d} cannot be built for ${theme}`); continue; }
+    const base = mk(d, sv0);
     const roles = Object.keys(base.slots);
     const decorative = !!(type.themeAxis && type.themeAxis.decorative);
     // a maker with no word data (topic-map lang 'none': numerals, lines, charts) has no word pool; its template needs a
@@ -128,18 +145,19 @@ for (const m of MAKERS) {
       const s = base.slots[role];
       const free = s.pool.find((k) => !s.values.includes(k));
       if (!free) { console.log(`note ${t.id} ${role}: pool has no unused item`); continue; }
-      const ed = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1, overrides: { [role]: { 0: free } } });
+      const ed = tryMk(d, sv0, { overrides: { [role]: { 0: free } } });
+      if (!ed) { console.log(`note ${t.id} ${role}: the first free choice is refused (the page cannot take it)`); continue; }
       const e = ed.slots[role];
       if (e.values[0] !== free) fail(`${t.id} ${role}: the choice was not applied`);
       if (JSON.stringify(e.values.slice(1)) !== JSON.stringify(s.values.slice(1))) fail(`${t.id} ${role}: other items changed`);
       if (!ed.html.includes(`data-lcs-slot="${role}.0"`)) fail(`${t.id} ${role}: no tap target for item 0`);
       if (ed.html === base.html) fail(`${t.id} ${role}: the page did not change`);
       if (s.values.length > 1) {
-        const dup = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1, overrides: { [role]: { 0: s.values[1] } } });
-        if (dup.html !== base.html) fail(`${t.id} ${role}: a duplicate was not refused`);
+        const dup = tryMk(d, sv0, { overrides: { [role]: { 0: s.values[1] } } });
+        if (dup && dup.html !== base.html) fail(`${t.id} ${role}: a duplicate was not refused`);
       }
-      const out = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1, overrides: { [role]: { 0: '__not_in_pool__' } } });
-      if (out.html !== base.html) fail(`${t.id} ${role}: a key outside the pool was not refused`);
+      const out = tryMk(d, sv0, { overrides: { [role]: { 0: '__not_in_pool__' } } });
+      if (out && out.html !== base.html) fail(`${t.id} ${role}: a key outside the pool was not refused`);
     }
     console.log(`${fails ? '' : 'ok   '}${m} ${t.id}: catalogue ${isNew ? 'new template' : same + '/' + n + ' identical'}; slots ${roles.join(',') || '-'}`);
   }

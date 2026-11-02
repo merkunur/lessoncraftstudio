@@ -48,7 +48,10 @@
     "fractions": "Bråk",
     "multiplication-division": "Multiplikation och division",
     "logic-puzzles": "Logikpussel",
-    "money": "Pengar"
+    "money": "Pengar",
+    "telling-time": "Klockan",
+    "measurement": "Mätning och storlek",
+    "graphs-data": "Diagram och data"
   },
   "editTitle": "Ändra rubriken",
   "editInstruction": "Ändra instruktionen",

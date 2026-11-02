@@ -242,7 +242,7 @@ function stripMarks(html) {
 const SCREEN_CSS = [
   'html,body{margin:0;background:#FBF3E4}body{padding:0 0 24px}',
   '.lcs-hint{font-family:Nunito,system-ui,sans-serif;font-weight:800;font-size:1.05rem;color:#3A3530;text-align:center;margin:12px 16px 8px}',
-  '.lcs-fit-box{position:relative;margin:0 auto;width:703px;height:945px;overflow:hidden}',
+  '.lcs-fit-box{position:relative;margin:0 auto;width:703px;height:945px;overflow:hidden;overflow:clip}',
   '.lcs-fit{position:absolute;left:0;top:0;width:703px;transform-origin:0 0}',
   '.lcs-fit .ws-page{margin:0;box-shadow:0 2px 14px rgba(58,53,48,.12)}',
   '@media print{.lcs-hint{display:none}}',
@@ -406,7 +406,7 @@ function declaredDocument({ html, rt, crop, width }) {
   let out = stripMarks(html);
   const open = '<div class="ws-page" data-lcs-page>';
   if (!out.includes(open) || !out.includes('\n</body>')) throw new Error('screen: the page html has no [data-lcs-page] / body end');
-  const css = SCREEN_CSS.replace(/703px/g, W + 'px').replace('height:945px', 'height:' + H + 'px') + '\n#lcs-stage.lcs-crop{height:' + H + 'px;overflow:hidden}';
+  const css = SCREEN_CSS.replace(/703px/g, W + 'px').replace('height:945px', 'height:' + H + 'px') + '\n#lcs-stage.lcs-crop{height:' + H + 'px;overflow:hidden;overflow:clip}';
   out = out.replace('</head>', '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + css + '</style>\n</head>');
   out = out.replace(open, '<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('class="lcs-stage" id="lcs-stage"', 'class="lcs-stage lcs-crop" id="lcs-stage"') + open);
   out = out.replace('\n</body>', '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS.replace(/703/g, String(W)).replace('945*k', H + '*k') + '</script>\n</body>');

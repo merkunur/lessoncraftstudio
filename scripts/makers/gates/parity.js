@@ -50,10 +50,13 @@ async function main() {
   const page = await browser.newPage();
   page.on('pageerror', (e) => console.log('pageerror', e.message));
   await page.goto(`http://localhost:${port}/`);
-  const dv = fs.readFileSync(path.join(OUT, 'data', 'current.txt'), 'utf8').trim();
+  // each maker's OWN data version (versions.json currentData), as the screen loads it — never the shared data/current.txt,
+  // which is the LAST build's (2026-11-02: two makers built one after the other; the first one's pages were fetched from
+  // the second one's data and 404'd)
+  const VERS = JSON.parse(fs.readFileSync(path.join(OUT, 'versions.json'), 'utf8'));
   let cases = 0; const fails = [];
   for (const id of makers) {
-    const ver = fs.readFileSync(path.join(OUT, id, 'current.txt'), 'utf8').trim();
+    const ver = VERS[id].current, dv = VERS[id].currentData;
     const tj = JSON.parse(fs.readFileSync(path.join(OUT, id, ver, 'templates.json'), 'utf8'));
     const dm = JSON.parse(fs.readFileSync(path.join(OUT, id, ver, 'data-manifest.json'), 'utf8'));
     for (const t of tj.templates) {

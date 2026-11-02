@@ -297,12 +297,15 @@ function makeMoneyMoreType(cfg) {
       if (mode === 'same') {
         const kinds = vals.slice().reverse();
         const top = Math.floor(cur.subMax * d.top);
+        const k0 = kinds[0];   // the smallest coin in use: every amount is a multiple of it (the same draws where it is 1)
         // a purse: a multiset of coins (largest first), drawn for an amount
         const purseFor = (amount, notCount) => {
           for (let t = 0; t < 300; t++) {
             const coins = []; let left = amount;
-            while (left > 0) { const ok = kinds.filter((v) => v <= left); const v = rng.pick(ok); coins.push(v); left -= v; }
-            if (coins.length < 2 || coins.length > 7 || coins.length === notCount) continue;
+            while (left > 0) { const ok = kinds.filter((v) => v <= left); if (!ok.length) break; const v = rng.pick(ok); coins.push(v); left -= v; }
+            // an amount the coins cannot make is never padded (2026-11-02: Finnish purses drew an "undefined" coin — fi
+            // has no 1 c or 2 c in use, so an amount like 23 c left 3 c no coin could pay)
+            if (left !== 0 || coins.length < 2 || coins.length > 7 || coins.length === notCount) continue;
             return coins.sort((a, b) => b - a);
           }
           return null;
@@ -315,7 +318,7 @@ function makeMoneyMoreType(cfg) {
           for (let r = 0; r < d.rows; r++) {
             let done = null;
             for (let t = 0; t < 400 && !done; t++) {
-              const a = rng.int(kinds[1] * 2, top), A = purseFor(a, -1);
+              const a = k0 * rng.int(Math.ceil(kinds[1] * 2 / k0), Math.floor(top / k0)), A = purseFor(a, -1);
               if (!A || seen.has(a)) continue;
               const b = bag[r] ? a : a + rng.pick([-1, 1]) * rng.pick(kinds.filter((v) => v < a));
               if (b < 2 || b > top) continue;
@@ -337,7 +340,7 @@ function makeMoneyMoreType(cfg) {
         for (let p = 0; p < d.pairs; p++) {
           let done = null;
           for (let t = 0; t < 400 && !done; t++) {
-            const a = rng.int(Math.max(kinds[1] * 2, 4), top);
+            const a = k0 * rng.int(Math.ceil(Math.max(kinds[1] * 2, 4) / k0), Math.floor(top / k0));
             if (amounts.some((x) => Math.abs(x - a) < 2)) continue;
             const A = purseFor(a, -1); if (!A) continue;
             const B = purseFor(a, A.length); if (!B) continue;
@@ -417,13 +420,15 @@ function makeMoneyMoreType(cfg) {
           const label = f.cents && d.upTo ? formatMoney(p, locale) : subAmount(p, cur);
           return `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border:2px dashed ${GRID};border-radius:10px;padding:8px" data-lcs-tag="${p}"${require('../../lib/slot.js').attr(ctx, 'pic', ti)}>` +
             `<img class="ws-icon" src="${fileUri(args.theme, n.noun)}" alt="" style="width:96px;height:96px;object-fit:contain">` +
-            `<span style="padding:4px 12px;border:2.5px solid ${CORAL};border-radius:10px;background:#FFFFFF">${BIG(label, 24)}</span></div>`;
+            // a long label ("95 centavos", "95 senttiä") is set smaller: four tags share the page's width (2026-11-02: pt level 1
+            // ran the fourth column off the page)
+            `<span style="padding:4px 10px;max-width:100%;box-sizing:border-box;border:2.5px solid ${CORAL};border-radius:10px;background:#FFFFFF">${BIG(label, label.length <= 6 ? 24 : label.length <= 9 ? 20 : 17)}</span></div>`;
         });
         const coinsStrip = (d.upTo ? notesCoins(vals, L) : vals).slice().reverse().map((v) => (d.upTo ? anyCoin(v, cur, L, 46, 66) : coinSvg(v, cur, 46, 66))).join('');
         const notesStrip = d.upTo ? (NOTES[L] || []).slice(0, 2).map((v) => note(v, locale, { w: 110, h: 56 })).join('') : '';
         const strip = `<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;padding:10px;border:2px dashed ${GRID};border-radius:10px" data-lcs-play-money>${coinsStrip}${coinsStrip}${notesStrip}</div>`;
         // three rows of four tags that stretch to the page (a page fills its body), the play money below
-        return { bodyHtml: content(`<div style="flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:12px;margin-bottom:14px">${tags.join('')}</div>${strip}`), meta: { items: nouns.map((n) => n.vocabKey || n.noun) } };
+        return { bodyHtml: content(`<div style="flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(3,1fr);gap:12px;margin-bottom:14px">${tags.join('')}</div>${strip}`), meta: { items: nouns.map((n) => n.vocabKey || n.noun) } };
       }
       throw new Error(`${id}: unknown mode ${mode}`);
     },
@@ -452,10 +457,15 @@ function makeMoneyMoreType(cfg) {
           const got = sumv([...c.querySelectorAll('[data-lcs-prim="coin"], [data-lcs-prim="note"]')]);
           if (got !== +c.dataset.lcsTotal) fails.push(`card ${i + 1}: notes and coins make ${got}, not ${c.dataset.lcsTotal}`);
         });
+        // every coin on a page is a real coin of the locale (2026-11-02: an "undefined" coin was drawn on fi pages)
+        document.querySelectorAll('[data-lcs-prim="coin"]').forEach((c, i) => { if (!/^\d+$/.test(c.dataset.lcsValue || '')) fails.push(`coin ${i + 1} has no value`); });
+        const sumOf = (el) => [...el.querySelectorAll('[data-lcs-prim="coin"]')].reduce((s, c) => s + +c.dataset.lcsValue, 0);
         if (mode === 'same') document.querySelectorAll('[data-lcs-a]').forEach((c, i) => {
-          const ps = [...c.querySelectorAll('[data-lcs-prim="coin"]')];
-          if (!ps.length) fails.push(`row ${i + 1}: empty purses`);
+          const ps = [...c.querySelectorAll('.ws-card-stage > span:not(.ws-choices)')].filter((x) => x.querySelector('[data-lcs-prim="coin"]'));
+          if (ps.length !== 2) { fails.push(`row ${i + 1}: ${ps.length} purses`); return; }
+          if (sumOf(ps[0]) !== +c.dataset.lcsA || sumOf(ps[1]) !== +c.dataset.lcsB) fails.push(`row ${i + 1}: a purse does not hold its amount`);
         });
+        if (mode === 'same') document.querySelectorAll('[data-lcs-purse]').forEach((p, i) => { if (sumOf(p) !== +p.dataset.lcsPurse) fails.push(`purse ${i + 1} holds ${sumOf(p)}, not ${p.dataset.lcsPurse}`); });
         return fails;
       }, mode);
     },

@@ -3699,5 +3699,53 @@
   "G1-476": {
     "title": "Lukuetsivä",
     "instruction": "Salainen luku on jokin luvuista 1–{MAX}. Lue vihjeet ja kirjoita luku, joka sopii niihin kaikkiin."
+  },
+  "G1-477": {
+    "title": "Kellonajat sanoina",
+    "instruction": "Lue kellonaika sanoina. Yhdistä jokainen kello aikaan, jonka se näyttää."
+  },
+  "G1-478": {
+    "title": "Minun päiväni kellossa",
+    "instruction": "Lue, mitä tapahtuu ja milloin. Piirrä jokaiseen kelloon tuntiviisari ja minuuttiviisari."
+  },
+  "G1-479": {
+    "title": "Vartit kellossa",
+    "instruction": "Minuuttiviisari lähti numerosta 12. Väritä se osa kellosta, jonka yli se on jo kulkenut."
+  },
+  "G2-474": {
+    "title": "Mikä kellonaika sopii?",
+    "instruction": "Katso kuvaa: mihin aikaan se tapahtuu? Ympyröi oikea kellonaika."
+  },
+  "G3-475": {
+    "title": "Kulunut aika aikajanalla",
+    "instruction": "Etsi alku ja loppu aikajanalta. Kirjoita, montako tuntia ja minuuttia kului."
+  },
+  "K-462": {
+    "title": "Tee oma kello",
+    "instruction": "Leikkaa kello ja molemmat viisarit irti. Kiinnitä viisarit keskelle jalkakiinnikkeellä."
+  },
+  "K-463": {
+    "title": "Järjestä koon mukaan",
+    "instruction": "Numeroi jokaisen laatikon kuvat: 1 on pienin ja 3 on suurin."
+  },
+  "G1-480": {
+    "title": "Mittaa paperiliittimillä",
+    "instruction": "Kuinka monta paperiliitintä pitkä kukin esine on? Kirjoita luku."
+  },
+  "G2-475": {
+    "title": "Leikattavat viivaimet",
+    "instruction": "Tulosta todellisessa koossa (100 %). Leikkaa viivaimet irti katkoviivoja pitkin."
+  },
+  "G2-477": {
+    "title": "Mikä yksikkö?",
+    "instruction": "Millä yksiköllä mittaisit sen? Ympyröi se."
+  },
+  "G1-481": {
+    "title": "Luokkamme kaavio",
+    "instruction": "Kysy luokkatovereiltasi, mistä he pitävät eniten. Tee jokaisesta vastauksesta yksi viiva. Väritä sitten yksi ruutu jokaista viivaa kohti."
+  },
+  "G1-482": {
+    "title": "Laske ja tee kaavio",
+    "instruction": "Laske jokainen kuvalaji. Väritä kaaviosta yksi ruutu jokaista laskemaasi kuvaa kohti."
   }
 }

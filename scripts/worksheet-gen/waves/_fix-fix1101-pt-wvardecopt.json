@@ -1,0 +1,24 @@
+{
+ "id": "wave-var-deco-pt",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "vehicles",
+  "toys"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-271"
+ ],
+ "themeOverrides": {
+  "K-271": "vehicles"
+ },
+ "_note": "2026-11-01 number walls: answers spread on new copies; doubles: the mirror line kept, pictures inside the panel; vehicles crane is the machine: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

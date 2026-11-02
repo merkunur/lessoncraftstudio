@@ -17,6 +17,9 @@
  * (the 5 generic sentences ×11) and screenUi (the preview's words ×11) from i18n/screen-instructions.json.
  */
 'use strict';
+// the page the maker would show: the page or one of its fresh-seed retries (runtime.generate's ladder, 2026-11-02 — a
+// level whose first seed cannot be built is not a level without a screen)
+const ladder = async (variant, fn) => { let err; for (const sv of [null, '.1', '.2', '.3', '.4']) { try { return await fn(sv); } catch (e) { err = err || e; } } throw err; };
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
@@ -106,7 +109,7 @@ async function main() {
           const unit = t.units && t.units[loc0] && t.units[loc0][0] ? t.units[loc0][0].id : null;
           try {
             const got = [];
-            for (const variant of [1, 2]) got.push((await runtime.screenFor({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant, tpl: { ...t, screenInstructions: instr }, runtimeStrings: shared.runtimeStrings[loc0], marksInstructions: shared.screenInstructions[loc0] }, mount)).path);
+            for (const variant of [1, 2]) got.push((await ladder(variant, (sv) => runtime.screenFor({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant, ...(sv ? { seedVariant: variant + sv } : {}), tpl: { ...t, screenInstructions: instr }, runtimeStrings: shared.runtimeStrings[loc0], marksInstructions: shared.screenInstructions[loc0] }, mount))).path);
             levels.push(d); paths[d] = got;
           } catch (e) { reasons.push('L' + d + ': ' + (e.reasons ? e.reasons.join('; ') : e.message)); }
         }

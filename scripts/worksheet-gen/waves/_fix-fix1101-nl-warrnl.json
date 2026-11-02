@@ -1,0 +1,90 @@
+{
+ "id": "wave-arr-nl",
+ "_note": "2026-11-01 number walls: answers spread on new copies; doubles: the mirror line kept, pictures inside the panel; vehicles crane is the machine: pinned re-generation of the live G2-209 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G2-209"
+ ],
+ "levels": {
+  "G2-209": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "reptiles and Amphibians"
+    },
+    {
+     "copy": 2,
+     "theme": "birds bw 2"
+    },
+    {
+     "copy": 3,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 4,
+     "theme": "food bw"
+    },
+    {
+     "copy": 5,
+     "theme": "bakery"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "home and nature bw"
+    },
+    {
+     "copy": 3,
+     "theme": "birds"
+    },
+    {
+     "copy": 4,
+     "theme": "sea life bw 2"
+    },
+    {
+     "copy": 5,
+     "theme": "desserts and sweets"
+    },
+    {
+     "copy": 6,
+     "theme": "valentine bw"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "camping"
+    },
+    {
+     "copy": 2,
+     "theme": "toys bw"
+    },
+    {
+     "copy": 3,
+     "theme": "flowers"
+    },
+    {
+     "copy": 4,
+     "theme": "Christmas bw"
+    },
+    {
+     "copy": 5,
+     "theme": "music"
+    }
+   ]
+  }
+ }
+}

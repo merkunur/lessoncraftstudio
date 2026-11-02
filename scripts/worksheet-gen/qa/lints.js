@@ -46,6 +46,17 @@ async function runLints(page, { gradeBand }) {
       fails.push('blank worksheet: no content elements rendered');
     }
 
+    // 0b. a value that never existed reached the page — "coin undefined", "NaN cm" (2026-11-02: Finnish money purses drew
+    // an undefined coin; it passed every gate). Text nodes and the attributes a reader or a screen reader meets.
+    {
+      const MISSING = /(^|[^\p{L}])(undefined|NaN)(?![\p{L}])/u;
+      const tw = document.createTreeWalker(document.querySelector('.ws-page') || document.body, NodeFilter.SHOW_TEXT);
+      let bad = null;
+      while (!bad && tw.nextNode()) if (MISSING.test(tw.currentNode.nodeValue)) bad = tw.currentNode.nodeValue.trim().slice(0, 40);
+      if (!bad) document.querySelectorAll('.ws-page *').forEach((el) => { if (bad) return; for (const a of el.attributes) if (/^(aria-label|alt|title|data-lcs-[a-z0-9-]+)$/.test(a.name) && MISSING.test(a.value)) { bad = a.name + '="' + a.value.slice(0, 40) + '"'; break; } });
+      if (bad) fails.push('a missing value printed on the page: ' + bad);
+    }
+
     // 1. overflow/clip: every visible element inside the page box
     document.querySelectorAll('.ws-page *').forEach((el) => {
       if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;

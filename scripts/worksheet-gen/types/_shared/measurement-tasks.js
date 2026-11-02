@@ -20,6 +20,7 @@ const { answerBox } = require('../../templates/components.js');
 const { MASS_RANK, NEW_PAGE_EXCLUDE } = require('../../lib/mass-rank.js');
 const { svgRoot, roundedRect } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
+const slot = require('../../lib/slot.js');
 
 const U = 44, BAND = 110;
 // 2026-10-09: the drawings were small in big cards. Order and compare keep their June FACTS (the noun pick and the
@@ -78,7 +79,7 @@ function cubeRow(n, max, u) {
 }
 
 /** object art registered over its cube row, starting at 0 (ruler-exemplar math) */
-function measuredObject(theme, item, lengthU, maxU, band, u) {
+function measuredObject(theme, item, lengthU, maxU, band, u, attr = '') {
   const uu = u || U;
   const targetPx = lengthU * uu;
   const boxW = targetPx / item.ext.widthFrac;
@@ -86,11 +87,29 @@ function measuredObject(theme, item, lengthU, maxU, band, u) {
   const artH = item.ext.heightFrac * boxW;
   const topShift = item.ext.topFrac * boxW;
   const bandH = Math.min(artH, band || BAND);
-  return `<span style="display:inline-flex;flex-direction:column;align-items:flex-start" data-lcs-objlen="${lengthU}">` +
+  return `<span style="display:inline-flex;flex-direction:column;align-items:flex-start" data-lcs-objlen="${lengthU}"${attr}>` +
     `<span data-lcs-art="1" style="position:relative;display:block;width:${maxU * uu + 2}px;height:${bandH.toFixed(1)}px;overflow:hidden">` +
     `<img class="ws-icon" src="${fileUri(theme, item.noun, 0, { full: true })}" alt="" ` +
     `style="position:absolute;left:${(1 - leftShift).toFixed(1)}px;top:${(-topShift).toFixed(1)}px;width:${boxW.toFixed(1)}px;height:${boxW.toFixed(1)}px">` +
     `</span>` + cubeRow(lengthU, maxU, uu) + `</span>`;
+}
+
+/** the theme's pictures that can be drawn maxLen units long in `band` (flatNouns' rule, no random order: a slot's pool) */
+function flatPool(theme, maxLenU, minMaxLen, band, u) {
+  return labelSafeNouns(theme).map((n) => {
+    const ext = artExtentSync(theme, n.noun);
+    return { ...n, ext, maxLen: Math.min(Math.floor((band || BAND) * ext.widthFrac / ((u || U) * ext.heightFrac)), maxLenU) };
+  }).filter((x) => x.maxLen >= (minMaxLen || 3));
+}
+/**
+ * Maker (2026-11-02): each measured object is a picture slot of its own (role row<i>), its pool the theme's pictures that
+ * can be drawn as long as that row asks; a picture a teacher puts where it is already on the page is refused. Without
+ * overrides every item comes back as it was (the catalogue's pages byte-identical).
+ */
+function pickRows(ctx, rows, theme) {
+  const out = rows.map((r, i) => slot.pictures(ctx, [r.item], r.pool.filter((x) => x.maxLen >= r.len), theme, 'row' + i)[0]);
+  out.forEach((it, i) => { if (it !== rows[i].item && out.some((o, j) => j !== i && o.noun === it.noun)) throw new Error(`measurement: "${it.noun}" is already on the page (the swap is refused)`); });
+  return out;
 }
 
 function flatNouns(theme, rng, count, maxLenU, minMaxLen, band, u) {
@@ -159,20 +178,22 @@ function makeMeasurementType(cfg) {
         const pool = flatNouns(theme, rng, Infinity, lenMax, lenMin, band, u);
         const pick = distinctLengths(pool, d.rows, lenMin, rng);
         if (!pick) throw new Error(`cubes-measure: theme ${theme} cannot give ${d.rows} different lengths ${lenMin}..${lenMax}`);
-        for (const { item, len } of pick) {
+        const rowItems = pickRows(ctx, pick.map((p) => ({ ...p, pool })), theme);
+        for (const [i, { len }] of pick.entries()) {
+          const item = rowItems[i];
           S.push({ kind: 'num', q: `len:${len}`, ask: len, ans: len, slips: [len + 1, len - 1, lenMax + 2], prompt: measuredObject(theme, item, len, lenMax + 2, band, u) });
           cards.push(`<div class="ws-card-stage" style="gap:44px;justify-content:center;padding:4px 8px">` +
-            measuredObject(theme, item, len, lenMax + 2, band, u) +
+            measuredObject(theme, item, len, lenMax + 2, band, u, slot.attr(ctx, 'row' + i, 0)) +
             answerBox({ w: 72, h: 52, answer: len }) + `</div>`);
         }
         return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: {} };
       }
 
       if (mode === 'order-units') {
-        let items, lens;
+        let items, lens, pool;
         if (d.gapMin || d.consecutive) {
           // L1 lengths at least 2 squares apart · L3 three lengths 1 square apart; each on a picture that can be that long
-          const pool = flatNouns(theme, rng, Infinity, 8, 2, 150);
+          pool = flatNouns(theme, rng, Infinity, 8, 2, 150);
           const triples = [];
           for (let a = 2; a <= 8; a++) for (let b = a + 1; b <= 8; b++) for (let c = b + 1; c <= 8; c++) {
             if (d.consecutive ? (b === a + 1 && c === b + 1) : (b - a >= d.gapMin && c - b >= d.gapMin)) triples.push([a, b, c]);
@@ -188,15 +209,17 @@ function makeMeasurementType(cfg) {
           items = got.map((x) => x[0]); lens = got.map((x) => x[1]);
         } else {
           items = flatNouns(theme, rng, 3, 8, 5, 150);   // taller band: 3 cards have room
+          pool = flatPool(theme, 8, 5, 150);
           lens = rng.sample([3, 4, 5, 6, 7, 8].filter((v) => v <= Math.min(...items.map((x) => x.maxLen))), 3);
           if (lens.length < 3) throw new Error('order-units: not enough distinct lengths');
           if (!published) lens = anyOrder(lens, (x) => x, rng);
         }
         const rank = lens.map((v) => [...lens].sort((a, b) => a - b).indexOf(v) + 1);
+        items = pickRows(ctx, items.map((item, i) => ({ item, len: lens[i], pool })), theme);
         items.forEach((item, i) => {
           S.push({ kind: 'rank', q: `rank:${lens.join(',')}:${i}`, ask: rank[i], ans: rank[i], prompt: measuredObject(theme, item, lens[i], 9, 150, U) });
-          cards.push(`<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:4px 8px" data-lcs-rank="${rank[i]}"${d.gapMin ? ` data-lcs-lengap="${d.gapMin}"` : d.consecutive ? ' data-lcs-lengap="1"' : ''}>` +
-            measuredObject(theme, item, lens[i], 9, 150 * K_ORDER, U * K_ORDER) +
+          cards.push(`<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:4px 8px 4px 28px" data-lcs-rank="${rank[i]}"${d.gapMin ? ` data-lcs-lengap="${d.gapMin}"` : d.consecutive ? ' data-lcs-lengap="1"' : ''}>` +
+            measuredObject(theme, item, lens[i], 9, 150 * K_ORDER, U * K_ORDER, slot.attr(ctx, 'row' + i, 0)) +
             answerBox({ w: 56, h: 48, answer: rank[i] }) + `</div>`);
         });
         return { bodyHtml: cardGrid({ cards, cols: 1, rows: 3 }), meta: {} };
@@ -222,13 +245,20 @@ function makeMeasurementType(cfg) {
             if (tries > 60) throw new Error(`compare-length: theme ${theme} gives the same difference twice`);
           }
           prevDiff = Math.abs(a - b);
+          // maker: each of the card's two objects is a slot (rows 2i and 2i + 1); no override → the very same items
+          {
+            const pool = flatPool(theme, 8, 4), both = [{ item: items[0], len: a, pool }, { item: items[1], len: b, pool }];
+            const got = slot.pictures(ctx, [items[0]], pool.filter((x) => x.maxLen >= a), theme, 'row' + (2 * i)).concat(slot.pictures(ctx, [items[1]], pool.filter((x) => x.maxLen >= b), theme, 'row' + (2 * i + 1)));
+            if (got.some((it, k) => it !== both[k].item) && got[0].noun === got[1].noun) throw new Error('measurement: the two objects of a card would be the same picture (the swap is refused)');
+            items = got;
+          }
           S.push({ kind: 'num', q: `diff:${a}:${b}`, ask: Math.abs(a - b), ans: Math.abs(a - b), slips: [a, b, a + b, Math.abs(a - b) + 1, Math.abs(a - b) - 1],
             prompt: `<div style="display:flex;flex-direction:column;gap:8px">${measuredObject(theme, items[0], a, 9)}${measuredObject(theme, items[1], b, 9)}</div>` });
           cards.push(`<div class="ws-card-stage" style="position:relative;flex-direction:column;gap:10px;align-items:flex-start;padding:4px 14px" data-lcs-a="${a}" data-lcs-b="${b}">` +
-            measuredObject(theme, items[0], a, 9, BAND * K_COMPARE, U * K_COMPARE) +
-            measuredObject(theme, items[1], b, 9, BAND * K_COMPARE, U * K_COMPARE) +
+            measuredObject(theme, items[0], a, 9, BAND * K_COMPARE, U * K_COMPARE, slot.attr(ctx, 'row' + (2 * i), 0)) +
+            measuredObject(theme, items[1], b, 9, BAND * K_COMPARE, U * K_COMPARE, slot.attr(ctx, 'row' + (2 * i + 1), 0)) +
+            // 2026-11-02: the box alone — a Greek "Δ" before it (printed since June) is a symbol no 7-year-old reads
             `<span style="position:absolute;right:16px;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;gap:8px">` +
-            `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#146B5E">Δ</span>` +
             answerBox({ w: 64, h: 48, answer: Math.abs(a - b) }) + `</span></div>`);
         }
         return { bodyHtml: cardGrid({ cards, cols: 1, rows: 2 }), meta: {} };
@@ -403,4 +433,4 @@ function makeMeasurementType(cfg) {
   };
 }
 
-module.exports = { makeMeasurementType, distinctLengths };
+module.exports = { makeMeasurementType, distinctLengths, flatPool, pickRows };

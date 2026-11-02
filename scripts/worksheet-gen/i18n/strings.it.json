@@ -3704,5 +3704,53 @@
   "G1-476": {
     "title": "Detective dei numeri",
     "instruction": "I numeri misteriosi vanno da 1 a {MAX}. Leggi gli indizi e scrivi il numero che li rispetta tutti."
+  },
+  "G1-477": {
+    "title": "L’ora in parole",
+    "instruction": "Leggi l’ora scritta in parole. Collega ogni orologio all’ora che segna."
+  },
+  "G1-478": {
+    "title": "La mia giornata sull’orologio",
+    "instruction": "Leggi che cosa succede e a che ora. Disegna la lancetta delle ore e quella dei minuti su ogni orologio."
+  },
+  "G1-479": {
+    "title": "I quarti d’ora",
+    "instruction": "La lancetta dei minuti è partita dal 12. Colora la parte dell’orologio che ha già percorso."
+  },
+  "G2-474": {
+    "title": "Qual è l’ora giusta?",
+    "instruction": "Guarda l’immagine: a che ora succede? Cerchia l’ora giusta."
+  },
+  "G3-475": {
+    "title": "Il tempo trascorso sulla linea del tempo",
+    "instruction": "Trova l’inizio e la fine sulla linea del tempo. Scrivi quante ore e quanti minuti sono passati."
+  },
+  "K-462": {
+    "title": "Costruisci il tuo orologio",
+    "instruction": "Ritaglia l’orologio e le due lancette. Fissa le lancette al centro con un fermacampione."
+  },
+  "K-463": {
+    "title": "Metti in ordine di grandezza",
+    "instruction": "Numera le figure di ogni riquadro da 1 (la più piccola) a 3 (la più grande)."
+  },
+  "G1-480": {
+    "title": "Misurare con le graffette",
+    "instruction": "Quante graffette misura ogni oggetto? Scrivi il numero."
+  },
+  "G2-475": {
+    "title": "Righelli da ritagliare",
+    "instruction": "Stampare in dimensioni effettive (100%). Ritaglia i righelli lungo le linee tratteggiate."
+  },
+  "G2-477": {
+    "title": "Quale unità di misura?",
+    "instruction": "Quale unità di misura useresti in ogni riquadro? Cerchiala."
+  },
+  "G1-481": {
+    "title": "Il grafico della nostra classe",
+    "instruction": "Chiedi ai compagni quale preferiscono. Fai una stanghetta per ogni risposta. Poi colora un quadretto per ogni stanghetta."
+  },
+  "G1-482": {
+    "title": "Conta e completa il grafico",
+    "instruction": "Conta ogni tipo di figura. Colora un quadretto del grafico per ogni figura che conti."
   }
 }

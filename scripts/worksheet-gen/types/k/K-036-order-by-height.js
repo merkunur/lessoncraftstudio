@@ -6,6 +6,7 @@ module.exports = makeSizeCompareType({
   id: 'K-036',
   slug: 'order-by-height-1-4',
   mode: 'order',
+  shape: 'tall',
   target: 'largest',
   rows: 3,
   itemsPerRow: [4, 4, 4],

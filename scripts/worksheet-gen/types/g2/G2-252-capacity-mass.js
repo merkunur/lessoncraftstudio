@@ -8,6 +8,7 @@
  * d1: 2 jugs + 2 balances, coarse scales · d2: 3+3 · d3: 3+3 finer scales.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { pageFill, cardFill } = require('../../lib/page-fill.js');
 const CARD_FLOOR = 0.25;
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
@@ -103,6 +104,7 @@ module.exports = {
     }
 
     const usedW = new Set(), usedLight = new Set();
+    const pans = [];   // the objects on the pans after a teacher's swaps (two pans never show one object)
     for (let i = 0; i < d.balances; i++) {
       let ws, sum, guard = 0, fits = [];
       do {
@@ -116,11 +118,15 @@ module.exports = {
       if (LIGHT && !fits.length) throw new Error(`G2-252: theme ${theme}: no light object weighs ${sum} g`);
       const lightPick = LIGHT ? rng.pick(fits) : null;
       if (lightPick) usedLight.add(lightPick.noun);
+      // maker (2026-11-02): the object on the pan is a slot — another light object these weights could weigh; none → the
+      // drawn one (catalogue unchanged; the random draws never see the swap)
+      const pan = lightPick ? slot.pictures(ctx, [lightPick], lightNouns.filter((n) => LIGHT[n.noun][0] <= sum && sum <= LIGHT[n.noun][1]), theme, 'pan' + i)[0] : null;
+      if (pan) pans.push(pan.noun);
       usedW.add(ws.slice().sort((a, b) => a - b).join(','));
       // 3-col grid ⇒ card inner width ≈ 200px — the balance must fit inside
       const bal = balance({ tilt: 'level', w: BAL.w, h: BAL.h, rightWeights: ws, unit: 'g' });
       const pr = bal.panRects.left;
-      const noun = lightPick || pickNouns[i % pickNouns.length];
+      const noun = pan || pickNouns[i % pickNouns.length];
       const sm = Math.min(...ws);
       const balHtml = (B, ic) => `<div style="position:relative;width:${B.width}px;height:${B.height}px">${B.svg}` +
         `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" style="position:absolute;left:${(B.panRects.left.x + B.panRects.left.w / 2 - ic / 2).toFixed(1)}px;top:${(B.panRects.left.y + B.panRects.left.h - ic - 2).toFixed(1)}px;width:${ic}px;height:${ic}px"></div>`;
@@ -128,10 +134,10 @@ module.exports = {
         slips: [ws.length > 1 ? sum - sm : sum + 100, sum + sm, Math.max(...ws), sum + 50, sum - 50],
         prompt: balHtml(balance({ tilt: 'level', w: 300, h: 230, rightWeights: ws, unit: 'g' }), 62) });
       cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-kind="balance" data-lcs-weightsum="${sum}"${lightPick ? ` data-lcs-real="${LIGHT[lightPick.noun].join('-')}"` : ''}>` +
+        `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-kind="balance" data-lcs-weightsum="${sum}"${pan ? ` data-lcs-real="${LIGHT[pan.noun].join('-')}"` : ''}>` +
         `<div style="position:relative;width:${bal.width}px;height:${bal.height}px">` +
         bal.svg +
-        `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" data-lcs-noun="${noun.vocabKey}" ` +
+        `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" data-lcs-noun="${noun.vocabKey}"${pan ? slot.attr(ctx, 'pan' + i, 0) : ''} ` +
         `style="position:absolute;left:${(pr.x + pr.w / 2 - iconPx / 2).toFixed(1)}px;top:${(pr.y + pr.h - iconPx - 2).toFixed(1)}px;` +
         `width:${iconPx}px;height:${iconPx}px">` +
         `</div>` +
@@ -142,6 +148,7 @@ module.exports = {
       );
     }
 
+    if (new Set(pans).size !== pans.length) throw new Error('G2-252: two pans would show the same object (the swap is refused)');
     // interleave jug/balance so the page alternates textures
     const mixed = [];
     const a = cards.slice(0, d.jugs), b = cards.slice(d.jugs);

@@ -6,6 +6,7 @@ module.exports = makeSizeCompareType({
   id: 'K-037',
   slug: 'longest-and-shortest',
   mode: 'circle',
+  shape: 'long',
   target: 'largest',
   rows: 3,
   itemsPerRow: [3,4,4],

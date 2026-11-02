@@ -11,7 +11,7 @@
   },
   "big-small": {
    "maker": "measurement",
-   "template": null
+   "template": "K-463"
   },
   "bingo": {
    "maker": "bingo",
@@ -19,7 +19,7 @@
   },
   "chart-count": {
    "maker": "graphs-data",
-   "template": null
+   "template": "G1-482"
   },
   "code-addition": {
    "maker": "logic-puzzles",

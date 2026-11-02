@@ -110,15 +110,16 @@ function buildScreen(C) {
     }).join('');
     return `<div data-ws-content data-lcs-buildrow="${i}" style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${SCR_W}px;padding:12px 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
       `<span style="display:inline-flex;align-items:center;gap:14px">${pic(C.theme, C.nouns[i], 64)}` +
-      (C.mode === 'tally-fill' ? tallyPrim({ n: v, strokeH: 40 }).svg : NUM(v, 44)) + `</span>` +
+      (C.mode === 'tally-fill' ? tallyPrim({ n: v, strokeH: 40 }).svg : C.mode === 'scene-fill' ? '' : NUM(v, 44)) + `</span>` +
       `<div style="display:grid;grid-template-columns:repeat(${PER},${CELL}px);gap:10px;justify-content:center">${cells}</div></div>`;
   });
-  return wrap(rows.join(''));
+  // count the scene (G1-482): the mixed pictures above the rows, the counts never printed — the child counts them
+  return wrap((C.mode === 'scene-fill' ? stripPanel(C) : '') + rows.join(''));
 }
 
 function screen(C, salt) {
   const m = C.mode;
-  if (m === 'pict-fill' || m === 'bar-fill' || m === 'tally-fill') return buildScreen(C);
+  if (m === 'pict-fill' || m === 'bar-fill' || m === 'tally-fill' || m === 'scene-fill') return buildScreen(C);
   const g = graphFor(C);
   const head = g ? panel(g) : '';
   if (m === 'pict-which' || m === 'bar-which') {
@@ -165,7 +166,7 @@ function stripPanel(C) {
 function key(built, C, rebuildFilled) {
   let h = built.bodyHtml;
   const css = [];
-  if (C.mode === 'pict-fill' || C.mode === 'bar-fill' || C.mode === 'tally-fill') {
+  if (C.mode === 'pict-fill' || C.mode === 'bar-fill' || C.mode === 'tally-fill' || C.mode === 'scene-fill') {
     // the build faces: the same page with the graph FILLED in
     h = rebuildFilled().bodyHtml;
     css.push(`[data-lcs-prim="pictograph"] [data-lcs-stamp],[data-lcs-prim="bar-graph"] [data-lcs-bar]{outline:none}`);
@@ -212,12 +213,12 @@ function oracle(items) {
 }
 
 const KEYS = { 'pict-read': 'readPict', 'bar-read': 'readBar', 'pict-which': 'most', 'bar-which': 'tallest', 'bar-2step': 'twoStep', lineplot: 'plot',
-  'table-sort': 'sort', 'pict-fill': 'buildPict', 'bar-fill': 'buildBar', 'tally-fill': 'buildTally' };
+  'table-sort': 'sort', 'pict-fill': 'buildPict', 'bar-fill': 'buildBar', 'tally-fill': 'buildTally', 'scene-fill': 'buildScene' };
 function interactiveFor(mode, which, scale) {
   void which;
   // a scaled graph's screen says what one picture / one step is worth, as its page does
   const instructionKey = KEYS[mode] + (scale > 1 && (mode === 'pict-read' || mode === 'bar-read') ? String(scale) : '');
-  if (mode === 'pict-fill' || mode === 'bar-fill' || mode === 'tally-fill') {
+  if (mode === 'pict-fill' || mode === 'bar-fill' || mode === 'tally-fill' || mode === 'scene-fill') {
     return { kind: 'tap-select', countGroups: true, item: '[data-lcs-item]', answerAttr: 'data-lcs-hit', labelAttr: 'data-lcs-word',
       metaAttrs: ['data-lcs-group', 'data-lcs-want', 'data-lcs-cell'], instructionKey, screenHeight: 6000, oracle: (items) => oracle(items) };
   }

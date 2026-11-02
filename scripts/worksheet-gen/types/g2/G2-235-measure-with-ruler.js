@@ -11,7 +11,8 @@ const rulerPrim = require('../../primitives/ruler.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { artExtentSync } = require('../../image-cache/silhouette.js');
 const { answerBox } = require('../../templates/components.js');
-const { distinctLengths } = require('../_shared/measurement-tasks.js');
+const { distinctLengths, pickRows } = require('../_shared/measurement-tasks.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'G2-235',
@@ -72,11 +73,14 @@ module.exports = {
     }
     const pick = distinctLengths(wide, d.rows, 3, rng);
     if (!pick) throw new Error(`G2-235: theme ${theme} cannot give ${d.rows} different lengths on the ruler`);
+    // maker (2026-11-02): each row's object is a picture slot (pool: the pictures that can be that long); none → the same items
+    const rowItems = pickRows(ctx, pick.map((p) => ({ ...p, pool: wide })), theme);
 
     const pxPerCm = 44;
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
-      const { item, len: lengthCm } = pick[i];
+      const { len: lengthCm } = pick[i];
+      const item = rowItems[i];
       const r = rulerPrim({ cm: d.cmMax, pxPerCm });
       // box sized so the ART spans lengthCm horizontally; the wrapper crops
       // away the image's transparent top/bottom so the page shows only the
@@ -100,7 +104,7 @@ module.exports = {
       cards.push(
         `<div class="ws-card-stage" style="position:relative;flex-direction:column;gap:0;align-items:flex-start;padding:4px 0 4px ${Math.max(0, (640 - r.width) / 2)}px" ` +
         `data-lcs-len="${lengthCm}" data-lcs-dispw="${dispW.toFixed(1)}" data-lcs-dispshift="${dispShift.toFixed(1)}" ` +
-        `data-lcs-widthfrac="${item.ext.widthFrac.toFixed(4)}" data-lcs-scale="${scale.toFixed(4)}">` +
+        `data-lcs-widthfrac="${item.ext.widthFrac.toFixed(4)}" data-lcs-scale="${scale.toFixed(4)}"${slot.attr(ctx, 'row' + i, 0)}>` +
         `<div data-lcs-artband style="position:relative;flex:0 0 auto;width:${r.width}px;height:${bandH.toFixed(1)}px;overflow:hidden">` +
         `<img class="ws-icon" src="${fileUri(theme, item.noun)}" alt="" ` +
         `style="position:absolute;left:${(r.meta.zeroX - dispShift).toFixed(1)}px;top:${(-topShift * scale).toFixed(1)}px;width:${dispW.toFixed(1)}px;height:${dispW.toFixed(1)}px">` +

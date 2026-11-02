@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-01",
- "count": 924,
+ "generated": "2026-11-02",
+ "count": 938,
  "failures": [],
  "rows": [
   {
@@ -970,7 +970,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:compare-size-extremes",
    "skill": "Find the biggest / tallest / longest (and all the big ones) in a row, incl. shapes",
@@ -9479,6 +9480,56 @@
    "science": false
   },
   {
+   "id": "K-462",
+   "file": "scripts/worksheet-gen/types/k/K-462-make-your-own-clock.js",
+   "grade": "K",
+   "slug": "make-your-own-clock",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "Make Your Own Clock",
+   "instruction": "Cut out the clock and the two hands. Attach the hands to the center with a brad (paper fastener).",
+   "assetClass": "clocks",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ring",
+    "quarters"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/clock-more.js"
+   ],
+   "teachingPoint": "1:time-read",
+   "skill": "Tell time to the hour and half hour; match analog to digital",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "K-463",
+   "file": "scripts/worksheet-gen/types/k/K-463-order-by-size-in-boxes.js",
+   "grade": "K",
+   "slug": "order-by-size-in-boxes",
+   "family": "comparing-sizes",
+   "variationOf": null,
+   "title": "Order by Size",
+   "instruction": "Number the pictures in each box from 1 (smallest) to 3 (biggest).",
+   "assetClass": "measurement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "items",
+    "dir"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "K:order-by-size",
+   "skill": "Seriate 3–5 pictures by size or height (smallest → biggest, shortest → tallest)",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -10541,7 +10592,9 @@
    "params": [
     "cards",
     "stepM",
-    "fixedM"
+    "fixedM",
+    "foils",
+    "central"
    ],
    "interactive": true,
    "uses": [
@@ -11592,6 +11645,7 @@
     "data/money/currencies.js",
     "lib/money-screen.js",
     "lib/money-screen.js",
+    "lib/answer-slots.js",
     "lib/answer-slots.js"
    ],
    "teachingPoint": "1:coins",
@@ -19425,6 +19479,165 @@
    "science": false
   },
   {
+   "id": "G1-477",
+   "file": "scripts/worksheet-gen/types/g1/G1-477-time-in-words.js",
+   "grade": "G1",
+   "slug": "time-in-words",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "Time in Words",
+   "instruction": "Read the time in words. Draw a line from each clock to the words that tell its time.",
+   "assetClass": "clocks",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "minutes",
+    "maxH",
+    "extra"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/clock-more.js"
+   ],
+   "teachingPoint": "1:time-read",
+   "skill": "Tell time to the hour and half hour; match analog to digital",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-478",
+   "file": "scripts/worksheet-gen/types/g1/G1-478-my-day-on-the-clock.js",
+   "grade": "G1",
+   "slug": "my-day-on-the-clock",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "My Day on the Clock",
+   "instruction": "Read what happens and when. Draw the hour hand and the minute hand on each clock.",
+   "assetClass": "clocks",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ls",
+    "routine",
+    "cards",
+    "stepM",
+    "routineStep"
+   ],
+   "interactive": true,
+   "uses": [
+    "_shared/clock-tasks.js"
+   ],
+   "teachingPoint": "1:time-set-hands",
+   "skill": "Draw (set) the clock hands for o'clock, half past, quarter hours, five minutes, mixed",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-479",
+   "file": "scripts/worksheet-gen/types/g1/G1-479-quarter-hours-on-the-clock.js",
+   "grade": "G1",
+   "slug": "quarter-hours-on-the-clock",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "Quarter Hours on the Clock",
+   "instruction": "The minute hand started at 12. Shade the part of the clock it has moved past.",
+   "assetClass": "clocks",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "minutes",
+    "words"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/clock-more.js"
+   ],
+   "teachingPoint": "1:time-read",
+   "skill": "Tell time to the hour and half hour; match analog to digital",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-480",
+   "file": "scripts/worksheet-gen/types/g1/G1-480-paper-clip-measuring.js",
+   "grade": "G1",
+   "slug": "paper-clip-measuring",
+   "family": "measurement",
+   "variationOf": null,
+   "title": "Paper Clip Measuring",
+   "instruction": "How many paper clips long is each object? Write the number.",
+   "assetClass": "measurement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "rows",
+    "u",
+    "lenMin",
+    "lenMax",
+    "run"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "1:measure-length-units",
+   "skill": "Measure length with unit cubes/squares and order three objects by length",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-481",
+   "file": "scripts/worksheet-gen/types/g1/G1-481-our-class-graph.js",
+   "grade": "G1",
+   "slug": "our-class-graph",
+   "family": "graphing-data",
+   "variationOf": null,
+   "title": "Our Class Graph",
+   "instruction": "Ask your classmates which one they like best. Make a tally mark for each answer. Then color one box for each mark.",
+   "assetClass": "graphs",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cats",
+    "maxN"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/graph-tasks.js"
+   ],
+   "teachingPoint": "2:bar-graphs",
+   "skill": "Make a bar graph from a tally/data set and answer put-together and compare questions",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-482",
+   "file": "scripts/worksheet-gen/types/g1/G1-482-count-and-graph-the-scene.js",
+   "grade": "G1",
+   "slug": "count-and-graph-the-scene",
+   "family": "graphing-data",
+   "variationOf": null,
+   "title": "Count, Then Graph",
+   "instruction": "Count each kind of picture. Color one box in the graph for each one you count.",
+   "assetClass": "graphs",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cats",
+    "maxN"
+   ],
+   "interactive": true,
+   "uses": [
+    "_shared/graph-tasks.js"
+   ],
+   "teachingPoint": "1:picture-graphs-sort-count",
+   "skill": "Sort a mixed set into a table, read a picture graph (one picture per thing), find the most, how many more",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -20207,6 +20420,7 @@
     "image-cache/silhouette.js",
     "templates/components.js",
     "_shared/measurement-tasks.js",
+    "lib/slot.js",
     "lib/measurement-screen.js",
     "lib/measurement-screen.js"
    ],
@@ -20640,6 +20854,7 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "lib/page-fill.js",
     "templates/layouts/card-grid.js",
     "templates/components.js",
@@ -26137,6 +26352,106 @@
    "science": false
   },
   {
+   "id": "G2-474",
+   "file": "scripts/worksheet-gen/types/g2/G2-474-am-or-pm.js",
+   "grade": "G2",
+   "slug": "am-or-pm",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "A.M. or P.M.?",
+   "instruction": "Look at the picture and the time. Circle a.m. if it happens before noon and p.m. if it happens after noon.",
+   "assetClass": "picture-cards",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "step"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/clock-more.js"
+   ],
+   "teachingPoint": "3:time-12-24",
+   "skill": "Convert between 12-hour and 24-hour time",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-475",
+   "file": "scripts/worksheet-gen/types/g2/G2-475-rulers-to-cut-out.js",
+   "grade": "G2",
+   "slug": "rulers-to-cut-out",
+   "family": "measurement",
+   "variationOf": null,
+   "title": "Rulers to Cut Out",
+   "instruction": "Print at actual size (100%). Cut out the rulers along the dashed lines.",
+   "assetClass": "manipulatives",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "sub"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "2:measure-with-ruler",
+   "skill": "Measure an object with a ruler starting at 0",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-476",
+   "file": "scripts/worksheet-gen/types/g2/G2-476-measure-in-inches.js",
+   "grade": "G2",
+   "slug": "measure-in-inches",
+   "family": "measurement",
+   "variationOf": null,
+   "title": "Measure in Inches",
+   "instruction": "Each object starts at 0. Write how many inches long it is.",
+   "assetClass": "measurement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "rows",
+    "from",
+    "lenMin",
+    "lenMax"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "2:measure-with-ruler",
+   "skill": "Measure an object with a ruler starting at 0",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-477",
+   "file": "scripts/worksheet-gen/types/g2/G2-477-which-unit.js",
+   "grade": "G2",
+   "slug": "which-unit",
+   "family": "measurement",
+   "variationOf": null,
+   "title": "Which Unit?",
+   "instruction": "Which unit would you use to measure each one? Circle that unit.",
+   "assetClass": "measurement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "2:choose-units",
+   "skill": "Choose the unit that fits what is measured (cm or m, in. or ft., g or kg, mL or L)",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G3-301",
    "file": "scripts/worksheet-gen/types/g3/G3-301-arrays-to-10x10.js",
    "grade": "G23",
@@ -27242,7 +27557,8 @@
    "levels": 3,
    "params": [
     "cards",
-    "stepM"
+    "stepM",
+    "central"
    ],
    "interactive": true,
    "uses": [
@@ -29346,6 +29662,57 @@
    ],
    "teachingPoint": "2:shopping-money",
    "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G3-475",
+   "file": "scripts/worksheet-gen/types/g3/G3-475-elapsed-time-on-a-time-line.js",
+   "grade": "G3",
+   "slug": "elapsed-time-on-a-time-line",
+   "family": "telling-time",
+   "variationOf": null,
+   "title": "Elapsed Time on a Time Line",
+   "instruction": "Find the start and the end on the time line. Write how many hours and minutes passed.",
+   "assetClass": "clocks",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "step",
+    "maxSpan"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/clock-more.js"
+   ],
+   "teachingPoint": "3:elapsed-duration",
+   "skill": "Find how much time passed between two clock times",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G3-476",
+   "file": "scripts/worksheet-gen/types/g3/G3-476-degrees-fahrenheit.js",
+   "grade": "G3",
+   "slug": "degrees-fahrenheit",
+   "family": "measurement",
+   "variationOf": null,
+   "title": "Degrees Fahrenheit",
+   "instruction": "Read each thermometer. Write the temperature in degrees Fahrenheit.",
+   "assetClass": "measurement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "step",
+    "labelEvery"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/measurement-more.js"
+   ],
+   "teachingPoint": "3:thermometer",
+   "skill": "Read a thermometer whose scale counts by 2, 5 or 10",
    "strand": "Measurement & Data",
    "science": false
   }

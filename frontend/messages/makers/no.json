@@ -48,7 +48,10 @@
     "fractions": "Brøk",
     "multiplication-division": "Ganging og deling",
     "logic-puzzles": "Logikkoppgaver",
-    "money": "Penger"
+    "money": "Penger",
+    "telling-time": "Klokka",
+    "measurement": "Måling og størrelse",
+    "graphs-data": "Diagrammer og data"
   },
   "editTitle": "Endre overskriften",
   "editInstruction": "Endre instruksjonen",

@@ -13,6 +13,10 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, circle, el, label } = require('./_svg.js');
 
+// every computed coordinate to a hundredth of a pixel (2026-11-02): Node's V8 and the browser's differ in the last digit
+// of Math.sin / Math.cos, so an unrounded face printed different bytes in the maker than in the catalogue (parity gate)
+const r2 = (v) => Math.round(v * 100) / 100;
+
 function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks = true, minuteRing = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (h < 0 || h > 12 || m < 0 || m > 59) throw new Error(`clock: invalid time ${h}:${m}`);
@@ -29,8 +33,8 @@ function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks 
     if (!isHour && !minuteMarks) continue;
     const r1 = rFace - (isHour ? 9 : 5);
     parts.push(el('line', {
-      x1: c + Math.cos(a) * r1, y1: c + Math.sin(a) * r1,
-      x2: c + Math.cos(a) * (rFace - 2), y2: c + Math.sin(a) * (rFace - 2),
+      x1: r2(c + Math.cos(a) * r1), y1: r2(c + Math.sin(a) * r1),
+      x2: r2(c + Math.cos(a) * (rFace - 2)), y2: r2(c + Math.sin(a) * (rFace - 2)),
       stroke: t.color.teal, 'stroke-width': isHour ? 2.5 : 1, 'stroke-linecap': 'round',
     }));
   }
@@ -39,7 +43,7 @@ function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks 
     for (let k = 1; k < 12; k++) {
       const a = (k / 12) * 2 * Math.PI - Math.PI / 2;
       const rr = rFace + size * 0.07;
-      parts.push(label({ x: c + Math.cos(a) * rr, y: c + Math.sin(a) * rr, text: k * 5, size: Math.round(size * 0.085), color: t.color.coral, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-ring': k * 5 } }));
+      parts.push(label({ x: r2(c + Math.cos(a) * rr), y: r2(c + Math.sin(a) * rr), text: k * 5, size: Math.round(size * 0.085), color: t.color.coral, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-ring': k * 5 } }));
     }
   }
   // numerals
@@ -47,7 +51,7 @@ function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks 
     const a = (k / 12) * 2 * Math.PI - Math.PI / 2;
     const rNum = rFace - size * 0.155;
     parts.push(label({
-      x: c + Math.cos(a) * rNum, y: c + Math.sin(a) * rNum, text: k,
+      x: r2(c + Math.cos(a) * rNum), y: r2(c + Math.sin(a) * rNum), text: k,
       size: Math.round(size * 0.115), color: t.color.ink, fontFamily: t.font.display, weight: 700,
     }));
   }
@@ -58,7 +62,7 @@ function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks 
   const hand = (angleDeg, len, w, color, name) => {
     const a = (angleDeg - 90) * Math.PI / 180;
     return el('line', {
-      x1: c, y1: c, x2: c + Math.cos(a) * len, y2: c + Math.sin(a) * len,
+      x1: c, y1: c, x2: r2(c + Math.cos(a) * len), y2: r2(c + Math.sin(a) * len),
       stroke: color, 'stroke-width': w, 'stroke-linecap': 'round',
       [`data-lcs-${name}`]: angleDeg.toFixed(1),
     });

@@ -48,7 +48,10 @@
     "fractions": "Murtoluvut",
     "multiplication-division": "Kerto- ja jakolasku",
     "logic-puzzles": "Logiikkatehtävät",
-    "money": "Raha"
+    "money": "Raha",
+    "telling-time": "Kello",
+    "measurement": "Mittaaminen ja koko",
+    "graphs-data": "Kaaviot ja tiedot"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

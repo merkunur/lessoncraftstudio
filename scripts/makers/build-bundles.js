@@ -88,9 +88,13 @@ function record(types) {
     // manifest — is read only here)
     const themed = !!(spec.themeAxis && spec.themeAxis.applicable);
     current = spec.id + '|themes';
-    const themes = themed ? themesFor(spec).filter((th) => {
-      try { makePage({ type: spec, strings: resolveStrings(spec.id, 'en', spec), locale: 'en', difficulty: Number(Object.keys(spec.difficulty || { 2: 1 })[0]), theme: th, variant: 1 }); return true; } catch (e) { return false; }
-    }) : themesFor(spec);
+    // a theme is offered only if EVERY level builds with it (2026-11-02: a theme checked at level 1 alone was offered at
+    // level 3, where it cannot give the page — G1-140 / G2-261 / G1-480 were then refused in every language)
+    // (a level counts as building when the page or one of the maker's fresh-seed retries builds — runtime.generate's ladder)
+    const builds = (d, th) => [null, '1.1', '1.2', '1.3', '1.4'].some((sv) => {
+      try { makePage({ type: spec, strings: resolveStrings(spec.id, 'en', spec), locale: 'en', difficulty: d, theme: th, variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; }
+    });
+    const themes = themed ? themesFor(spec).filter((th) => Object.keys(spec.difficulty || { 2: 1 }).map(Number).every((d) => builds(d, th))) : themesFor(spec);
     current = null;
     const entry = { id: spec.id, file: t.file, family: t.family, grade: spec.gradeBand, levels: Object.keys(spec.difficulty || { 2: 1 }).map(Number), themed: !!(spec.themeAxis && spec.themeAxis.applicable), interactive: !!spec.interactive, locales: [], refused: {} };
     for (const loc of LOCALES) {
@@ -106,8 +110,12 @@ function record(types) {
         if (!themes.length) { ok = false; entry.refused[loc] = 'no theme builds'; }
         for (const theme of themes.slice(0, 2)) {
           for (const variant of [1, 2]) {
-            try { makePage({ type: spec, strings: sd, locale: loc, difficulty: d, theme, variant, answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); }
-            catch (e) { ok = false; entry.refused[loc] = 'build failed: ' + String(e.message).slice(0, 160); }
+            // the page or one of the maker's fresh-seed retries (runtime.generate) must build
+            let err = null;
+            const okHere = [null, '.1', '.2', '.3', '.4'].some((sv) => {
+              try { makePage({ type: spec, strings: sd, locale: loc, difficulty: d, theme, variant, ...(sv ? { seedVariant: variant + sv } : {}), answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); return true; } catch (e) { err = err || e; return false; }
+            });
+            if (!okHere) { ok = false; entry.refused[loc] = 'build failed: ' + String(err.message).slice(0, 160); }
           }
         }
       }

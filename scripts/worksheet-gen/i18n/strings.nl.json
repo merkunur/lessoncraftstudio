@@ -3722,5 +3722,53 @@
   "G1-476": {
     "title": "Getallendetective",
     "instruction": "Het getal is van 1 tot en met {MAX}. Lees de aanwijzingen en schrijf het getal op dat bij alle aanwijzingen past."
+  },
+  "G1-477": {
+    "title": "De tijd in woorden",
+    "instruction": "Lees de tijd in woorden. Verbind elke klok met de tijd die hij aanwijst."
+  },
+  "G1-478": {
+    "title": "Mijn dag op de klok",
+    "instruction": "Lees wat er gebeurt en hoe laat. Teken op elke klok de kleine en de grote wijzer."
+  },
+  "G1-479": {
+    "title": "Kwartieren op de klok",
+    "instruction": "De grote wijzer is bij de 12 begonnen. Kleur het deel van de klok waar hij al langs is gegaan."
+  },
+  "G2-474": {
+    "title": "Welke tijd past?",
+    "instruction": "Kijk naar het plaatje: hoe laat gebeurt dat? Omcirkel de goede tijd."
+  },
+  "G3-475": {
+    "title": "Tijdsduur op een tijdlijn",
+    "instruction": "Zoek het begin en het einde op de tijdlijn. Schrijf op hoeveel uur en hoeveel minuten er voorbij zijn."
+  },
+  "K-462": {
+    "title": "Maak je eigen klok",
+    "instruction": "Knip de klok en de twee wijzers uit. Maak de wijzers in het midden vast met een splitpen."
+  },
+  "K-463": {
+    "title": "Op volgorde van grootte",
+    "instruction": "Nummer de plaatjes in elk vak van 1 (de kleinste) tot en met 3 (de grootste)."
+  },
+  "G1-480": {
+    "title": "Meten met paperclips",
+    "instruction": "Hoeveel paperclips lang is elk voorwerp? Schrijf het getal op."
+  },
+  "G2-475": {
+    "title": "Linialen om uit te knippen",
+    "instruction": "Afdrukken op ware grootte (100%). Knip de linialen uit langs de stippellijnen."
+  },
+  "G2-477": {
+    "title": "Welke maateenheid?",
+    "instruction": "Met welke maateenheid zou je het meten? Omcirkel die."
+  },
+  "G1-481": {
+    "title": "De grafiek van onze klas",
+    "instruction": "Vraag je klasgenoten wat ze het leukst vinden. Zet een turfje voor elk antwoord. Kleur daarna een vakje voor elk turfje."
+  },
+  "G1-482": {
+    "title": "Tel en maak de grafiek",
+    "instruction": "Tel elke soort plaatje. Kleur in de grafiek een vakje voor elk plaatje dat je telt."
   }
 }

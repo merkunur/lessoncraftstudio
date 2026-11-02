@@ -56,19 +56,33 @@ module.exports = {
     };
     // a page is drawn until every pattern fits one bank word only (short words collide: de im / in, fr sa / se); a word a
     // teacher picked that cannot be made unique is refused (the maker says it does not fit)
-    let drawn, words, bank, gapsOf;
+    let drawn, bank, gaps0;
     for (let attempt = 0; attempt < 12; attempt++) {
       drawn = rng.shuffle(pool.slice()).slice(0, d.words);
-      words = slot.words(ctx, drawn, pool);
       // the bank: the page's words, + decoys of similar length at level 3 (real competitors, not obvious misfits)
       const decoys = d.decoys
-        ? rng.shuffle(pool.filter((w) => !words.includes(w))).sort((a, b) => Math.abs([...a].length - 4) - Math.abs([...b].length - 4)).slice(0, d.decoys)
+        ? rng.shuffle(pool.filter((w) => !drawn.includes(w))).sort((a, b) => Math.abs([...a].length - 4) - Math.abs([...b].length - 4)).slice(0, d.decoys)
         : [];
-      bank = d.look ? [] : rng.shuffle(words.concat(decoys));
-      gapsOf = new Map(words.map((w) => [w, gapsFor(bank, w, drawn.includes(w) ? rngNext : seeded(w))]));
-      if ([...gapsOf.values()].every(Boolean)) break;
-      if (words.some((w, i) => w !== drawn[i] && !gapsOf.get(w))) break;   // a teacher's word: no redraw can help it
+      bank = d.look ? [] : rng.shuffle(drawn.concat(decoys));
+      gaps0 = drawn.map((w) => gapsFor(bank, w, rngNext));
+      if (gaps0.every(Boolean)) break;
     }
+    // a teacher's swap (lib/slot.js) changes its own row only (2026-11-02: drawing the page around the new word shifted
+    // the random draws, so every other row's gaps moved — own-input gate). The page is drawn for its own words as always;
+    // then the new word takes its row and its place in the bank (a decoy it was trades places with the word it replaces),
+    // its gaps come from a generator seeded by the word, and every other row keeps its gaps — refused if one of them would
+    // then fit two bank words
+    const words = slot.words(ctx, drawn, pool);
+    words.forEach((w, i) => {
+      if (w === drawn[i] || d.look) return;
+      const p = bank.indexOf(drawn[i]), q = bank.indexOf(w);
+      if (q >= 0) bank[q] = drawn[i];
+      bank[p] = w;
+    });
+    const gapsOf = new Map(words.map((w, i) => [w, w === drawn[i] ? gaps0[i] : gapsFor(bank, w, seeded(w))]));
+    if (!d.look) words.forEach((w, i) => {
+      if (w === drawn[i] && gaps0[i] && words.some((x, j) => x !== drawn[j]) && !fitsOne(bank, [...w], gaps0[i])) throw new Error(`K-437: with the new word, "${w}" (${loc}) would fit two bank words (the swap is refused)`);
+    });
     const longest = Math.max(...words.map((w) => [...w].length));
     const box = Math.max(40, Math.min(d.maxBox, Math.floor((d.look ? 420 : 560) / longest) - 8));
     const rows = [];

@@ -3,13 +3,15 @@
  * params: { values: [n..], iconHrefs: [..], yMax, w=480, h=360, yStep=1, padL=40, padB=56, fontSize=14, iconSize, barMax=64 }
  * padL / padB / fontSize / iconSize / barMax (2026-10-08, Graphs and Data page redesign): a graph drawn big enough to
  * fill its page; the defaults draw exactly what they drew before.
+ * iconSlots (2026-11-02, makers): ['pic.0', …] — each category picture carries its tap-to-edit slot; absent (the
+ * catalogue), the output is byte-identical.
  * meta: { values, yMax }
  */
 'use strict';
 const tokens = require('./_tokens.js');
 const { svgRoot, el, roundedRect, line, label } = require('./_svg.js');
 
-function barGraph({ values, iconHrefs, yMax, w = 480, h = 360, yStep = 1, padL = 40, padB = 56, fontSize = 14, iconSize, barMax = 64 }, ctx) {
+function barGraph({ values, iconHrefs, yMax, w = 480, h = 360, yStep = 1, padL = 40, padB = 56, fontSize = 14, iconSize, barMax = 64, iconSlots = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const padT = 12, padR = 10;
   const plotW = w - padL - padR, plotH = h - padT - padB;
@@ -38,7 +40,7 @@ function barGraph({ values, iconHrefs, yMax, w = 480, h = 360, yStep = 1, padL =
     }));
     if (iconHrefs && iconHrefs[i]) {
       const s = iconSize || Math.min(40, slot * 0.5);
-      parts.push(el('image', { href: iconHrefs[i], x: padL + i * slot + (slot - s) / 2, y: padT + plotH + 10, width: s, height: s, 'data-lcs-caticon': i }));
+      parts.push(el('image', { href: iconHrefs[i], x: padL + i * slot + (slot - s) / 2, y: padT + plotH + 10, width: s, height: s, 'data-lcs-caticon': i, ...(iconSlots && iconSlots[i] ? { 'data-lcs-slot': iconSlots[i] } : {}) }));
     }
   });
 

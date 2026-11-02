@@ -230,7 +230,7 @@ function rebuildHtml({ page, d, theme, locale, ctx }) {
   const key = !!(ctx && ctx.answerKey), screen = !!(ctx && ctx.screen);
   const n = d.n, S = d.cell, href = fileUri(theme, page.pic.noun);
   const minus = '−';
-  const tag = (num, px) => `<span style="position:absolute;top:3px;left:3px;display:inline-flex;align-items:center;justify-content:center;min-width:${px}px;height:${px}px;padding:0 3px;box-sizing:border-box;border-radius:${px}px;background:${WHITE};border:2px solid ${INK};font-family:'Baloo 2';font-weight:700;font-size:${Math.round(px * 0.62)}px;line-height:1;color:${INK}">${num}</span>`;
+  const tag = (num, px) => `<span data-lcs-piece-tag="1" style="position:absolute;top:3px;left:3px;display:inline-flex;align-items:center;justify-content:center;min-width:${px}px;height:${px}px;padding:0 3px;box-sizing:border-box;border-radius:${px}px;background:${WHITE};border:2px solid ${INK};font-family:'Baloo 2';font-weight:700;font-size:${Math.round(px * 0.62)}px;line-height:1;color:${INK}">${num}</span>`;
   const grid = page.eqs.map((e, i) => {
     const r = Math.floor(i / n), c = i % n;
     const box = `position:relative;width:${S}px;height:${S}px;box-sizing:border-box;border:2px dashed ${GRID};display:flex;align-items:center;justify-content:center;background:${WHITE}`;

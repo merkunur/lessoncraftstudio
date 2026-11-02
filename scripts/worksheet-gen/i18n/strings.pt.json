@@ -3728,5 +3728,53 @@
   "G1-476": {
     "title": "Detetive dos números",
     "instruction": "Os números secretos vão de 1 a {MAX}. Leia as pistas e escreva o número que combina com todas."
+  },
+  "G1-477": {
+    "title": "As horas por extenso",
+    "instruction": "Leia as horas escritas por extenso. Ligue cada relógio à hora que ele marca."
+  },
+  "G1-478": {
+    "title": "Meu dia no relógio",
+    "instruction": "Leia o que acontece e a que horas. Desenhe o ponteiro das horas e o dos minutos em cada relógio."
+  },
+  "G1-479": {
+    "title": "Os quartos de hora",
+    "instruction": "O ponteiro dos minutos saiu do 12. Pinte a parte do relógio que ele já percorreu."
+  },
+  "G2-474": {
+    "title": "Qual é a hora certa?",
+    "instruction": "Olhe a figura: a que horas isso acontece? Circule a hora certa."
+  },
+  "G3-475": {
+    "title": "Tempo decorrido na linha do tempo",
+    "instruction": "Encontre o início e o fim na linha do tempo. Escreva quantas horas e quantos minutos se passaram."
+  },
+  "K-462": {
+    "title": "Monte o seu relógio",
+    "instruction": "Recorte o relógio e os dois ponteiros. Prenda os ponteiros no centro com um colchete bailarina."
+  },
+  "K-463": {
+    "title": "Ordene por tamanho",
+    "instruction": "Numere as figuras de cada quadro de 1 (a menor) a 3 (a maior)."
+  },
+  "G1-480": {
+    "title": "Medir com clipes",
+    "instruction": "Quantos clipes de comprimento tem cada objeto? Escreva o número."
+  },
+  "G2-475": {
+    "title": "Réguas para recortar",
+    "instruction": "Imprimir em tamanho real (100%). Recorte as réguas pelas linhas tracejadas."
+  },
+  "G2-477": {
+    "title": "Qual unidade de medida?",
+    "instruction": "Circule a unidade de medida que você usaria em cada quadro."
+  },
+  "G1-481": {
+    "title": "O gráfico da nossa turma",
+    "instruction": "Pergunte aos colegas de qual eles gostam mais. Faça um tracinho para cada resposta. Depois pinte um quadrinho para cada tracinho."
+  },
+  "G1-482": {
+    "title": "Conte e faça o gráfico",
+    "instruction": "Conte cada tipo de figura. Pinte um quadrinho do gráfico para cada figura que você contar."
   }
 }

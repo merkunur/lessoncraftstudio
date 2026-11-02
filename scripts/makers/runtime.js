@@ -137,15 +137,38 @@ const SEED_RETRIES = 4;
  * ladder is deterministic, so the same settings always land on the same attempt (a saved recipe rebuilds the same page).
  * @param {object} o      makePage options
  * @param {(html: string) => Promise<object>} mount  shows html in a gate frame, returns a Puppeteer-shaped page
+ * A page with the teacher's edits (o.overrides, or its own title / instruction against o.baseStrings) is built with the
+ * attempt its UNEDITED page landed on, and with that one only: a swap changes its own item and nothing else (2026-11-02: a page whose plain build needed a fresh seed refused
+ * every swap — the edited build started the ladder again and moved the whole page). A swap the page cannot take there is
+ * refused (ok: false).
+ * @param {object} o      makePage options
+ * @param {(html: string) => Promise<object>} mount  shows html in a gate frame, returns a Puppeteer-shaped page
  * @returns {Promise<{ok: true, html, keyHtml, meta, seed, attempt} | {ok: false, fails: string[]}>}
  */
+const BASE_ATTEMPTS = new Map();   // the unedited page's attempt per settings (the editor asks again on every swap)
 async function generate(o, mount) {
   const type = o.type;
-  // a maker page is always a NEW page: ask for the retries a new catalogue page gets (qaRetries withholds them from the
-  // published level-2 copy 1 only, to keep live decks byte-unchanged — a teacher's page has no such constraint)
-  const knobs = typeof type.qaRetries === 'function' ? (type.qaRetries({ typeId: type.id, difficulty: Number(o.difficulty || 2), locale: o.locale, variant: 2 }) || []) : [];
-  const attempts = [{}].concat(knobs.map((k) => ({ buildExtra: k })));
-  for (let k = 1; k <= SEED_RETRIES; k++) attempts.push({ seedVariant: (o.variant || 1) + '.' + k });
+  let attempts;
+  // edited = the teacher's swaps (overrides) or own title / instruction (o.baseStrings: the template's own words)
+  const bs = o.baseStrings || null;
+  const textEdited = !!(bs && o.strings && (bs.title !== o.strings.title || bs.instruction !== o.strings.instruction));
+  if ((o.overrides && Object.keys(o.overrides).length) || textEdited) {
+    const plain = { ...o, overrides: null, strings: bs || o.strings, baseStrings: null };
+    const key = JSON.stringify([type.id, o.locale, o.difficulty, o.theme, o.unit, o.variant, o.seedEpoch || 1, o.pageSize || null, !!o.answerKey, o.answerKeySuffix || null, plain.strings && plain.strings.title, plain.strings && plain.strings.instruction]);
+    if (!BASE_ATTEMPTS.has(key)) {
+      const base = await generate(plain, mount);
+      if (!base.ok) return base;
+      if (BASE_ATTEMPTS.size > 400) BASE_ATTEMPTS.clear();
+      BASE_ATTEMPTS.set(key, base.attempt || {});
+    }
+    attempts = [BASE_ATTEMPTS.get(key)];
+  } else {
+    // a maker page is always a NEW page: ask for the retries a new catalogue page gets (qaRetries withholds them from the
+    // published level-2 copy 1 only, to keep live decks byte-unchanged — a teacher's page has no such constraint)
+    const knobs = typeof type.qaRetries === 'function' ? (type.qaRetries({ typeId: type.id, difficulty: Number(o.difficulty || 2), locale: o.locale, variant: 2 }) || []) : [];
+    attempts = [{}].concat(knobs.map((k) => ({ buildExtra: k })));
+    for (let k = 1; k <= SEED_RETRIES; k++) attempts.push({ seedVariant: (o.variant || 1) + '.' + k });
+  }
   let fails = [];
   for (const a of attempts) {
     let r;

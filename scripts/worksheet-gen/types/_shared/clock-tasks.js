@@ -34,6 +34,9 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const clock = require('../../primitives/clock.js');
 const { answerBox } = require('../../templates/components.js');
+const { ROUTINE, windowOf, labelOf } = require('../../data/time/routine.js');
+const { fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const fmt = (h, m) => `${h}:${String(m).padStart(2, '0')}`;
 const pad = (n) => String(n).padStart(2, '0');
@@ -44,17 +47,17 @@ const FACE_LEVELS = {
   // o'clock: 2 options, the wrong one a far-away hour / 6 clocks: the swapped-hands reading (on about half the cards) and the hours around
   'G1-148': { 1: { ls: 1, opts: 2, foils: ['far'] }, 3: { ls: 1, cards: 6, opts: 3, foils: ['swap', 'adj', 'adj2'], must: ['swap'] } },
   // half past: every clock half past, 2 options (an o'clock time) / 6 clocks, 4 options: the hours around, at :30 and :00
-  'G1-149': { 1: { ls: 1, fixedM: 30, opts: 2, foils: ['oclock'] }, 3: { ls: 1, cards: 6, fixedM: 30, opts: 4, foils: ['adj', 'oclock', 'adj2'], must: ['adj'] } },
+  'G1-149': { 1: { ls: 1, fixedM: 30, opts: 2, foils: ['oclock'], central: false }, 3: { ls: 1, cards: 6, fixedM: 30, opts: 4, foils: ['adj', 'oclock', 'adj2'], must: ['adj'], central: true } },
   // match: 3 pairs on the hour / 6 pairs, two hours each shown at :00, :30 and half past the hour before
   'G1-150': { 1: { ls: 1, pairs: 3, stepM: 60 }, 3: { ls: 1, pairs: 6, sameHour: true } },
   // five minutes (G2-249, its own published builder): hours and half hours / 6 clocks, 5-minute times on a face with no numerals
   'G2-249': { 1: { ls: 1, foils: ['adj', 'swap', 'half'], must: ['swap'] }, 3: { ls: 1, numerals: false, foils: ['adj', 'swap', 'min5', 'both'], must: ['swap'] } },
   // quarter hours: o'clock, quarter past and half past / 6 clocks, quarter past and quarter to only, no minute ticks
-  'G2-250': { 1: { ls: 1, minutes: [0, 15, 30], foils: ['adj', 'swap', 'min15'], must: ['swap'] }, 3: { ls: 1, cards: 6, minutes: [15, 45], minuteMarks: false, foils: ['adj', 'mirror', 'swap'], must: ['mirror'] } },
+  'G2-250': { 1: { ls: 1, minutes: [0, 15, 30], foils: ['adj', 'swap', 'min15', 'bothq'], must: ['swap'], central: true }, 3: { ls: 1, cards: 6, minutes: [15, 45], minuteMarks: false, foils: ['adj', 'mirror', 'swap', 'bothq'], must: ['mirror'], central: true } },
   // to the minute: 5-minute times / 6 clocks, 4 options (a minute one five-mark off)
   'G3-354': { 1: { ls: 1, stepM: 5, foils: ['adj', 'swap', 'min5', 'both'], must: ['swap'] }, 3: { ls: 1, cards: 6, opts: 4, foils: ['adj', 'swap', 'min5', 'both'], must: ['swap'] } },
   // 12 / 24 hours: whole hours with the clock beside them / 5-minute times, 5 cards (6 long day-part forms ran into the footer)
-  'G3-355': { 1: { ls: 1, stepM: 60 }, 3: { ls: 1, cards: 5, stepM: 5 } },
+  'G3-355': { 1: { ls: 1, stepM: 60, central: true }, 3: { ls: 1, cards: 5, stepM: 5, central: true } },
   // elapsed: on the hour, up to 3 hours / starts at :00 or :30, up to 5 hours, two cards pass 12 o'clock
   'G3-344': { 1: { ls: 1, stepM: 60, durMax: 3 }, 3: { ls: 1, durMax: 5, cross12: 2 } },
   // add / subtract: whole hours / quarter hours, every card crossing an hour
@@ -88,6 +91,7 @@ const swapOf = (h, m) => fmt(m === 0 ? 12 : Math.max(1, Math.min(12, Math.round(
  *   oclock  the hour without its half (h:00 / next hour :00)                       half  the other half hour (m ± 30)
  *   min5 / min15  the minute hand read one mark (5 / 15 minutes) off               mirror  quarter past ↔ quarter to
  *   both  an hour AND a mark off (so the options sharing the right minutes / hour are not always the right one + one foil)
+ *   bothq  an hour AND a quarter off (quarter-hour pages: without it a wrong option can never be the most shared one)
  * Of every set of (opts − 1) candidates, the builder keeps one where the right time sits at this card's DEALT rank
  * among the options (smallest … largest, as the numbers read — rankDeal spreads the ranks over the page; a fixed
  * "one hour later" foil made the right answer the smallest on every card), and that carries a `must` kind
@@ -105,13 +109,14 @@ function foilCandidates(h, m, d, rng) {
     else if (k === 'oclock') { if (m !== 0) { add(fmt(h, 0), k); add(fmt(hourAdd(h, 1), 0), k); } }
     else if (k === 'half') add(fmt(h, (m + 30) % 60), k);
     else if (k === 'both') { for (const dh of [-1, 1]) for (const x of [m - 5, m + 5]) if (mm(x) !== null) add(fmt(hourAdd(h, dh), x), k); }
+    else if (k === 'bothq') { for (const dh of [-1, 1]) for (const x of [m - 15, m + 15, 60 - m]) if (mm(x) !== null && x !== m) add(fmt(hourAdd(h, dh), x), k); }
     else if (k === 'mirror') { if (m !== 0 && m !== 30) add(fmt(h, 60 - m), k); }
     else if (k === 'min5' || k === 'min15') { const st = k === 'min5' ? 5 : 15; for (const x of [m - st, m + st]) if (mm(x) !== null) add(fmt(h, x), k); }
     else throw new Error('clock-tasks: unknown foil ' + k);
   }
   return out;
 }
-function foilsFor(h, m, d, rng, wantRank) {
+function foilsFor(h, m, d, rng, wantRank, wantCentral) {
   const k = (d.opts || 3) - 1, right = fmt(h, m);
   const C = foilCandidates(h, m, d, rng);
   for (let s = 1; C.length < k && s < 12; s++) if (!C.some((o) => o.v === fmt(hourAdd(h, s), m))) C.push({ v: fmt(hourAdd(h, s), m), kind: 'fill' });
@@ -119,14 +124,37 @@ function foilsFor(h, m, d, rng, wantRank) {
   const walk = (start, pick) => { if (pick.length === k) { sets.push(pick); return; } for (let i = start; i < C.length; i++) walk(i + 1, pick.concat([C[i]])); };
   walk(0, []);
   const mustHere = (d.must || []).length && rng.next() < 0.5;
-  const pass = (set, useRank, useMust) => (!useRank || wantRank == null || rankOf(right, set.map((o) => o.v)) === wantRank)
-    && (!useMust || !mustHere || set.some((o) => d.must.includes(o.kind)));
-  for (const [r, mu] of [[true, true], [true, false], [false, true], [false, false]]) {
-    const ok = sets.filter((set) => pass(set, r, mu));
+  // wantCentral (d.central pages): the right time is the most-shared option on this card exactly when the deal says so;
+  // without it (null) the ladder is the one every published page was built with
+  // the guess is scored only on cards where ONE option is the most shared: off the deal, a WRONG option is that centre
+  // (strict, 2); failing that, no single centre (1); else any set (0)
+  const centralOk = (set, level) => { if (!level || wantCentral == null) return true; const c = centralOf([right].concat(set.map((o) => o.v))); return wantCentral ? c === 0 : level === 2 ? c > 0 : c !== 0; };
+  const pass = (set, useRank, useMust, useCentral) => (!useRank || wantRank == null || rankOf(right, set.map((o) => o.v)) === wantRank)
+    && (!useMust || !mustHere || set.some((o) => d.must.includes(o.kind)))
+    && centralOk(set, useCentral);
+  const ladder = wantCentral == null ? [[true, true, 0], [true, false, 0], [false, true, 0], [false, false, 0]]
+    : [[true, true, 2], [true, false, 2], [false, true, 2], [false, false, 2], [true, true, 1], [true, false, 1], [false, true, 1], [false, false, 1], [true, true, 0], [true, false, 0], [false, true, 0], [false, false, 0]];
+  for (const [r, mu, ce] of ladder) {
+    const ok = sets.filter((set) => pass(set, r, mu, ce));
     if (ok.length) return rng.pick(ok).map((o) => o.v);
   }
   throw new Error('clock-tasks: no foils for ' + right);
 }
+
+/**
+ * The option a child picks by "the one that shares the most with the others" (qa/guessability.js most-shared: its
+ * numbers and words appear in the most other options): its index, or -1 when no single option does. Wrong options made
+ * by changing ONE part of the right time (3:30 → 3:00, 4:30; 7:30 PM → 7:30 AM, 8:30 PM) leave the right one as that
+ * centre on every card (settings-space 2026-11-02: G1-149 level 2 100 %, G3-355 65-74 %).
+ */
+function centralOf(labels) {
+  const T = labels.map((s) => String(s).toLowerCase().normalize('NFC').match(/\d+|\p{L}+/gu) || []);
+  const sh = T.map((t, j) => t.reduce((s, tok) => s + T.filter((u, k) => k !== j && u.includes(tok)).length, 0) / (t.length || 1));
+  const mx = Math.max(...sh);
+  return sh.filter((v) => v === mx).length === 1 ? sh.indexOf(mx) : -1;
+}
+/** d.central pages: on which cards the right option may be that centre — 1 card in n (n options), as chance has it */
+function centralDeal(rng, cards, n) { return rng.shuffle(Array.from({ length: cards }, (_, i) => i < Math.round(cards / n))); }
 
 /** a time as its numbers read (7:45 → 745; 12:15 → 1215; "3:00 PM" → 300 — the child compares the printed numbers) */
 const numValue = (t) => { const p = /(\d+)(?:\s*(?::|\.|h)\s*(\d\d))?/.exec(String(t)); return +p[1] * 100 + (+p[2] || 0); };
@@ -217,6 +245,39 @@ function makeClockType(cfg) {
       const step = stepFor();
       const used = new Set();
       let pairHour = null;
+      // G1-478 daily routine (d.routine, 2026-11-02): d.cards moments of a child's day, each at a time inside its window at
+      // d.routineStep, all different, in the order of the day; level 3 of the 24-hour locales prints the 24-hour time
+      // (19:30) and the child draws it on the 12-hour face. Absent on every other face (no random call spent).
+      const plan = d.routine && mode === 'draw' ? (() => {
+        for (let g = 0; g < 80; g++) {
+          const acts = rng.shuffle(ROUTINE.slice()).slice(0, d.cards), out = [];
+          for (const a of acts) {
+            const [w0, w1] = windowOf(a, loc), slots = [];
+            for (let t = Math.ceil(w0 / d.routineStep) * d.routineStep; t <= w1; t += d.routineStep) slots.push(t);
+            if (!slots.length) break;
+            out.push({ a, t: rng.pick(slots) });
+          }
+          if (out.length < d.cards || new Set(out.map((o) => o.t)).size < out.length) continue;
+          // the order of a day (routine.js rank): the times rise with it — never bed before dinner, school before the bus
+          // (native review 2026-11-02: the windows overlap, so a free draw could print that)
+          const inOrder = (list) => list.slice().sort((x, y) => x.t - y.t).every((o, j, arr) => j === 0 || arr[j - 1].a.rank <= o.a.rank);
+          if (!inOrder(out)) continue;
+          out.sort((x, y) => x.t - y.t);
+          // tap-to-edit (lib/slot.js), one slot per card (role word0, word1 …): its pool is the moments that happen at the
+          // card's time and keep the day in order there — the time and the order of the day never move with a swap
+          const drawn = out.map((o) => o.a.id);   // a pool never offers another card's moment
+          out.forEach((o, k) => {
+            const fits = ROUTINE.filter((a) => { const [w0, w1] = windowOf(a, loc); return (a === o.a || !drawn.includes(a.id)) && o.t >= w0 && o.t <= w1 && inOrder(out.map((x, j) => (j === k ? { a, t: o.t } : x))); });
+            const nm = slot.words(ctx, [labelOf(o.a, loc)], fits.map((a) => labelOf(a, loc)), 'word' + k)[0];
+            const a = fits.find((x) => labelOf(x, loc) === nm) || o.a;
+            if (a !== o.a && out.some((x, j) => j !== k && x.a.id === a.id)) throw new Error(`clock-tasks: "${nm}" is already on the page (the swap is refused)`);
+            out[k] = { a, t: o.t };
+          });
+          return out.map((o, k) => ({ ...o, k })).sort((x, y) => x.t - y.t).map(({ a, t, k }) => { const h24 = Math.floor(t / 60), m = t % 60, h = h24 % 12 || 12; return { h, m, act: a, k, shown: d.h24 && loc !== 'en' ? fmt(h24, m) : fmt(h, m) }; });
+        }
+        throw new Error('clock-tasks: no day of ' + d.cards + ' moments in ' + loc);
+      })() : null;
+      const routineHead = (p, big) => `<div style="display:flex;align-items:center;gap:${big ? 14 : 8}px" data-lcs-act="${p.act.id}"${slot.attr(ctx, 'word' + p.k, 0)}><img class="ws-icon" src="${fileUri(p.act.pic.theme, p.act.pic.noun)}" alt="" style="width:${big ? 64 : 44}px;height:${big ? 64 : 44}px;flex:0 0 auto"><span style="font-family:'Nunito';font-weight:800;font-size:${big ? 30 : 19}px;line-height:1.15;color:#3A3530" data-lcs-act-label>${labelOf(p.act, loc)}</span></div>`;
       const pickTime = () => {
         let h, m, guard = 0;
         do {
@@ -250,9 +311,11 @@ function makeClockType(cfg) {
         while (order.some((v, i) => v === i));
         const meta = { times: times.map((t) => fmt(t.h, t.m)) };
         if (view === 'screen') {
-          const cards = times.map((t, i) => screenCard(i, `data-lcs-tq="${fmt(t.h, t.m)}"`,
+          // each clock lists the times in its OWN order (settings-space 2026-11-02): the printed column is a derangement
+          // (no time straight across from its clock), and reused for every card it made "one to the right" right 54 %
+          const cards = times.map((t, i) => { const own = rng.shuffle(times.map((_, k) => k)); return screenCard(i, `data-lcs-tq="${fmt(t.h, t.m)}"`,
             clock({ h: t.h, m: t.m, size: 240 }).svg +
-            optRow(order.map((idx, j) => optChip(j, fmt(times[idx].h, times[idx].m), idx === i, 36)).join(''))));
+            optRow(own.map((idx, j) => optChip(j, fmt(times[idx].h, times[idx].m), idx === i, 36)).join(''))); });
           return { bodyHtml: screenWrap(cards.join('')), meta };
         }
         const itemH = Math.floor((760 - (n - 1) * 14) / n);
@@ -275,20 +338,26 @@ function makeClockType(cfg) {
       // Level Set elapsed: the cards that must pass 12 o'clock (d.cross12) are chosen first
       // Level Set choice pages: the right time's rank among its options (smallest / middle / largest, as the numbers read)
       // is dealt evenly over the page
-      const wantRank = LS && (mode === 'read-circle' || mode === 'convert-24h') ? rankDeal(rng, d.cards, mode === 'read-circle' ? (d.opts || 3) : 3) : null;
+      const choice = mode === 'read-circle' || mode === 'convert-24h';
+      const wantRank = (LS || d.foils || d.central) && choice ? rankDeal(rng, d.cards, mode === 'read-circle' ? (d.opts || 3) : 3) : null;
       const crossAt = LS && d.cross12 ? new Set(rng.shuffle(Array.from({ length: d.cards }, (_, i) => i)).slice(0, d.cross12)) : new Set();
+      // d.central (settings-space 2026-11-02): the right option is the most-shared one on 1 card in 3 / 4 — a level
+      // without the flag draws exactly what it always drew
+      const wantCentral = d.central && choice ? centralDeal(rng, d.cards, mode === 'read-circle' ? (d.opts || 3) : 3) : null;
       const cards = [];
       const data = [];
       for (let i = 0; i < d.cards; i++) {
         if (mode === 'draw') {
-          const { h, m } = pickTime();
+          const p = plan ? plan[i] : null;
+          const { h, m } = p || pickTime();
           data.push({ h, m });
+          const shown = p ? p.shown : fmt(h, m);
           if (view === 'screen') {
             const size = 340;
             const c0 = clock({ h, m, size, hands: d.preset === 'minute' ? 'minute' : 'none', ...clockOpts(d) });
             const rf = (d.minuteRing ? size / 2 - 4 - size * 0.12 : size / 2 - 4) / size;
             cards.push(screenCard(i, `data-lcs-tq="${fmt(h, m)}" data-lcs-rf="${rf.toFixed(4)}" data-lcs-step="${d.preset === 'minute' ? 0 : 5}"`,
-              c0.svg + `<div style="background:#FFFFFF;border:2.5px solid #146B5E;border-radius:12px;padding:4px 26px;font-family:'Baloo 2';font-weight:700;font-size:40px;color:#3A3530">${fmt(h, m)}</div>`));
+              (p ? routineHead(p, true) : '') + c0.svg + `<div style="background:#FFFFFF;border:2.5px solid #146B5E;border-radius:12px;padding:4px 26px;font-family:'Baloo 2';font-weight:700;font-size:40px;color:#3A3530">${shown}</div>`));
             continue;
           }
           // empty face (hands:'none' keeps the target in data-lcs-h/m + the
@@ -296,16 +365,17 @@ function makeClockType(cfg) {
           // (key: the hands drawn in; Level Set level 1 of 233-235: the minute hand already drawn)
           const hands = view === 'key' ? 'both' : d.preset === 'minute' ? 'minute' : 'none';
           cards.push(
-            `<div class="ws-card-stage" style="flex-direction:column;gap:12px"${LS ? ` data-lcs-tt="${d.preset || ''}"` : ''}>` +
-            clock({ h, m, size: d.cards > 4 ? 156 : 186, hands, ...clockOpts(d) }).svg +
+            `<div class="ws-card-stage" style="flex-direction:column;gap:${p ? 8 : 12}px"${LS ? ` data-lcs-tt="${d.preset || ''}"` : ''}>` +
+            (p ? routineHead(p, false) : '') +
+            clock({ h, m, size: p ? (d.cards > 4 ? 124 : 156) : d.cards > 4 ? 156 : 186, hands, ...clockOpts(d) }).svg +
             `<div style="background:#FFFFFF;border:2.5px solid #146B5E;border-radius:12px;padding:4px 22px;` +
-            `font-family:'Baloo 2';font-weight:700;font-size:30px;color:#3A3530" data-lcs-target="${fmt(h, m)}">${fmt(h, m)}</div></div>`
+            `font-family:'Baloo 2';font-weight:700;font-size:30px;color:#3A3530" data-lcs-target="${fmt(h, m)}"${p && shown !== fmt(h, m) ? ` data-lcs-shown="${shown}"` : ''}>${shown}</div></div>`
           );
         } else if (mode === 'read-circle') {
           const { h, m } = pickTime();
           const opts = new Set([fmt(h, m)]);
-          if (LS && d.foils) {
-            for (const w of foilsFor(h, m, d, rng, wantRank[i])) opts.add(w);
+          if (d.foils && (LS || d.central)) {
+            for (const w of foilsFor(h, m, d, rng, wantRank[i], wantCentral ? wantCentral[i] : null)) opts.add(w);
           } else {
             const wrongs = step >= 30
               ? [fmt((h % 12) + 1, m), fmt(m === 30 ? h : (h % 12) + 1, m === 30 ? 0 : 30), fmt(m === 0 ? 12 : m / 5, (h % 12) * 5)]
@@ -383,21 +453,35 @@ function makeClockType(cfg) {
           const opts = new Set([correct]);
           let wrongs;
           // Level Set: the neighbouring hour goes one up OR down (never "the right one is always the earlier")
-          let dd = LS ? (rng.next() < 0.5 ? -1 : 1) : 1;
+          const LSW = LS || d.central;   // the Level Set's two wrong forms (a d.central level 2 builds them too)
+          let dd = LSW ? (rng.next() < 0.5 ? -1 : 1) : 1;
           if (dir === 'to12') {
             const altAmpm = ampm === 'AM' ? 'PM' : 'AM';
             const adjH = ((h24 + 1) % 12) || 12;
             const adjH2 = ((h24 + 11) % 12) || 12;
-            wrongs = LS ? [W12(h12, true), W12(((h24 + 12 + dd) % 12) || 12, false)] : loc === 'en' ? [`${h12}:${pad(m)} ${altAmpm}`, `${adjH}:${pad(m)} ${ampm}`, `${adjH2}:${pad(m)} ${ampm}`] : [W12(h12, true), W12(adjH, false), W12(adjH2, false)];
+            wrongs = LSW ? [W12(h12, true), W12(((h24 + 12 + dd) % 12) || 12, false)] : loc === 'en' ? [`${h12}:${pad(m)} ${altAmpm}`, `${adjH}:${pad(m)} ${ampm}`, `${adjH2}:${pad(m)} ${ampm}`] : [W12(h12, true), W12(adjH, false), W12(adjH2, false)];
           } else {
             const mirror = h24 >= 12 ? h24 - 12 : h24 + 12;
-            wrongs = LS ? [W24(mirror), W24((h24 + 24 + dd) % 24)] : [W24(mirror), W24((h24 + 1) % 24), W24((h24 + 23) % 24)];
+            wrongs = LSW ? [W24(mirror), W24((h24 + 24 + dd) % 24)] : [W24(mirror), W24((h24 + 1) % 24), W24((h24 + 23) % 24)];
           }
           // Level Set: of the two directions, the one that puts the right form at this card's dealt rank
           // (a rank this card cannot take: the direction that keeps the right form off the middle)
-          if (LS && rankOf(correct, wrongs) !== wantRank[i]) {
+          if (LSW && rankOf(correct, wrongs) !== wantRank[i]) {
             const flip = dir === 'to12' ? [wrongs[0], W12(((h24 + 12 - dd) % 12) || 12, false)] : [wrongs[0], W24((h24 + 24 - dd) % 24)];
             if (rankOf(correct, flip) === wantRank[i] || (rankOf(correct, wrongs) === 1 && rankOf(correct, flip) !== 1)) { wrongs = flip; dd = -dd; }
+          }
+          // d.central, 12-hour answers: "the other half of the day" and "the hour next to it" each change ONE part of the
+          // right form, so it was the most-shared option on every card. The pair is drawn from six (the other half of the
+          // day / the next or previous hour / both at once), the right form the centre only where the deal says so
+          if (d.central && dir === 'to12') {
+            const up = ((h24 + 13) % 12) || 12, dn = ((h24 + 11) % 12) || 12;
+            const sets = [[W12(h12, true), W12(up, false)], [W12(h12, true), W12(dn, false)], [W12(h12, true), W12(up, true)], [W12(h12, true), W12(dn, true)], [W12(up, false), W12(up, true)], [W12(dn, false), W12(dn, true)]]
+              .filter((s) => new Set(s.concat([correct])).size === 3);
+            // off the deal a WRONG form is the most shared (the guess is scored only where one option is)
+            const cen = (s, strict) => { const c = centralOf([correct].concat(s)); return wantCentral[i] ? c === 0 : strict ? c > 0 : c !== 0; };
+            const tiers = [(s) => rankOf(correct, s) === wantRank[i] && cen(s, true), (s) => cen(s, true), (s) => rankOf(correct, s) === wantRank[i] && cen(s, false), (s) => cen(s, false)];
+            const ok = tiers.map((f) => sets.filter(f)).find((x) => x.length) || sets;
+            wrongs = rng.pick(ok);
           }
           for (const w of wrongs) { if (opts.size < 3 && w !== correct) opts.add(w); }
           const order = rng.shuffle([...opts]);
@@ -482,9 +566,10 @@ function makeClockType(cfg) {
 
     async verify(page) {
       const m = mode;
-      return page.evaluate((mode, kitSrc) => {
+      // one source string for the page (the kit's own code passed in as code, not rebuilt from a string inside the page:
+      // the makers' browser-safety lint refuses new Function / eval in a bundled file, 2026-11-02)
+      const inPage = (mode, KIT) => {
         const fails = [];
-        const KIT = new Function('return (' + kitSrc + ')()')();
         const LOC = (document.documentElement.lang || 'en').slice(0, 2);
         const angleOk = (svg) => {
           const h = +svg.dataset.lcsH, mm = +svg.dataset.lcsM;
@@ -530,7 +615,8 @@ function makeClockType(cfg) {
             const chip = card.querySelector('[data-lcs-target]');
             const want = `${svg.dataset.lcsH}:${String(svg.dataset.lcsM).padStart(2, '0')}`;
             if (!chip || chip.dataset.lcsTarget !== want) fails.push(`card ${i + 1}: chip != clock target ${want}`);
-            if (chip && chip.textContent.trim() !== chip.dataset.lcsTarget) fails.push(`card ${i + 1}: chip text != target`);
+            if (chip && chip.textContent.trim() !== (chip.dataset.lcsShown || chip.dataset.lcsTarget)) fails.push(`card ${i + 1}: chip text != target`);
+            if (chip && chip.dataset.lcsShown) { const [sh, sm] = chip.dataset.lcsShown.split(':').map(Number), [th, tm] = chip.dataset.lcsTarget.split(':').map(Number); if (sh % 12 !== th % 12 || sm !== tm || sh < 13) fails.push(`card ${i + 1}: the 24-hour time is not the face's time`); }
           } else if (mode === 'read-circle') {
             const svg = card.querySelector('[data-lcs-prim="clock"]');
             if (!angleOk(svg)) fails.push(`card ${i + 1}: hand angles wrong`);
@@ -594,7 +680,8 @@ function makeClockType(cfg) {
           });
         });
         return fails;
-      }, m, convKit.toString());
+      };
+      return page.evaluate(`(${inPage.toString()})(${JSON.stringify(m)}, (${convKit.toString()})())`);
     },
   };
 }

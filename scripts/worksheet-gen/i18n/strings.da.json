@@ -3708,5 +3708,53 @@
   "G1-476": {
     "title": "Taldetektiven",
     "instruction": "Det hemmelige tal er et tal fra 1 til og med {MAX}. Læs ledetrådene, og skriv det tal, der passer til dem alle."
+  },
+  "G1-477": {
+    "title": "Klokken i ord",
+    "instruction": "Læs tiden i ord. Tegn en streg fra hvert ur til det klokkeslæt, det viser."
+  },
+  "G1-478": {
+    "title": "Min dag på uret",
+    "instruction": "Læs, hvad der sker, og hvornår. Tegn den lille og den store viser på hvert ur."
+  },
+  "G1-479": {
+    "title": "Kvarterer på uret",
+    "instruction": "Den store viser startede ved 12. Farv den del af uret, som den allerede er gået forbi."
+  },
+  "G2-474": {
+    "title": "Hvilket klokkeslæt passer?",
+    "instruction": "Se på billedet: hvornår sker det? Sæt ring om det rigtige klokkeslæt."
+  },
+  "G3-475": {
+    "title": "Tidsforskel på en tidslinje",
+    "instruction": "Find start og slut på tidslinjen. Skriv, hvor mange timer og minutter der er gået."
+  },
+  "K-462": {
+    "title": "Lav dit eget ur",
+    "instruction": "Klip uret og de to visere ud. Sæt viserne fast i midten med en splitklemme."
+  },
+  "K-463": {
+    "title": "Ordn efter størrelse",
+    "instruction": "Nummerér billederne i hver kasse fra 1 (mindst) til 3 (størst)."
+  },
+  "G1-480": {
+    "title": "Mål med clips",
+    "instruction": "Hvor mange clips lang er hver ting? Skriv tallet."
+  },
+  "G2-475": {
+    "title": "Linealer til at klippe ud",
+    "instruction": "Udskriv i faktisk størrelse (100 %). Klip linealerne ud langs de stiplede linjer."
+  },
+  "G2-477": {
+    "title": "Hvilken enhed?",
+    "instruction": "Hvilken enhed ville du måle det med? Sæt ring om den."
+  },
+  "G1-481": {
+    "title": "Klassens diagram",
+    "instruction": "Spørg dine klassekammerater, hvilken de bedst kan lide. Lav en streg for hvert svar. Farv så et felt for hver streg."
+  },
+  "G1-482": {
+    "title": "Tæl og lav diagrammet",
+    "instruction": "Tæl hver slags billede. Farv et felt i diagrammet for hvert billede, du tæller."
   }
 }

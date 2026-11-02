@@ -4,6 +4,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-040',
@@ -27,7 +28,10 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const noun = rng.pick(labelSafeNouns(theme));
+    // maker (2026-11-02): the page's one picture is a slot; in screen / key builds every big one carries the select mark
+    const pool = labelSafeNouns(theme);
+    const noun = slot.pictures(ctx, [rng.pick(pool)], pool, theme)[0];
+    const marks = !!(ctx && (ctx.answerKey || ctx.screen));
     const total = d.big + d.small;
     const W = 620, H = 600;
     const cols = Math.ceil(Math.sqrt(total * (W / H))), rows = Math.ceil(total / cols);
@@ -40,12 +44,12 @@ module.exports = {
       const x = c * (W / cols) + (W / cols - px) / 2 + (rng.next() * 2 - 1) * 8;
       const y = r * (H / rows) + (H / rows - px) / 2 + (rng.next() * 2 - 1) * 6;
       return `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" data-lcs-size="${px === 96 ? 'big' : 'small'}"` +
-        `${px === 96 ? ' data-lcs-target="1"' : ''} ` +
+        `${px === 96 ? ' data-lcs-target="1"' + (marks ? ' data-lcs-correct="1"' : '') : ''} ` +
         `style="position:absolute;left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;width:${px}px;height:${px}px">`;
     });
     return {
       bodyHtml:
-        `<div class="ws-scene" style="justify-content:center">` +
+        `<div class="ws-scene" style="justify-content:center" data-ws-content${slot.attr(ctx, 'pic', 0)}>` +
         `<div style="position:relative;width:${W}px;height:${H}px" data-lcs-big="${d.big}" data-lcs-small="${d.small}">${imgs.join('')}</div>` +
         `</div>`,
       meta: { big: d.big, small: d.small, noun: noun.vocabKey },

@@ -211,8 +211,10 @@ function makePvMoreType(cfg) {
       for (let t = 0; ps.length < d.cards && t < 6000; t++) {
         const n = rng.pick(pool);
         if (used.has(n)) continue;
-        // a one-digit number has no digits to add ("my digits add up to 5" for 5 says nothing a child can use)
-        const ks = shuffle(kinds.filter((k) => (!CLUES[k].when || CLUES[k].when(n)) && !(k === 'digitSum' && n < 10)), rng).slice(0, d.clues);
+        // a one-digit number has no digits to add ("my digits add up to 5" for 5 says nothing a child can use), and its
+        // ones clue names it ("I have 3 ones" for 3: half the level-1 cards printed their answer — settings-space echo
+        // 49 %, 2026-11-02)
+        const ks = shuffle(kinds.filter((k) => (!CLUES[k].when || CLUES[k].when(n)) && !((k === 'digitSum' || k === 'ones') && n < 10)), rng).slice(0, d.clues);
         if (ks.includes('even') && ks.includes('odd')) continue;
         if (ks.includes('onesMore') && ks.includes('onesLess')) continue;
         const cl = ks.map((k) => ({ k, v: CLUES[k].make(n, rng) }));

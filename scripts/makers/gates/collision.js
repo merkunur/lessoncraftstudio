@@ -33,6 +33,7 @@ const TOL = 1.0;   // px of ink overlap in BOTH directions: sub-pixel rounding, 
  * (either order). Keep this list small and each reason true of what the child sees.
  */
 const EXEMPT = [
+  ['svg[data-lcs-prim="lp-piece"]', '[data-lcs-piece-tag], [data-lcs-piece-tag] *', 'each cut-out piece carries its number in its corner: the badge is printed on the piece by design (G1-475)'],
   ['[data-lcs-key-sample], [data-lcs-key-sample] *', '*', 'the answer key draws its sample (a faint extra picture, a tally, a colouring) over the task on purpose'],
   ['[data-lcs-crossed] svg', 'img', 'the taken-away pictures are crossed out: the X is drawn over them (picture-equation crossoutGroup)'],
   ['svg[data-lcs-prim="number-line"]', '.ws-answerbox', 'a label box sits on its tick of the number line by design (G2-395 label the number line)'],
@@ -41,6 +42,8 @@ const EXEMPT = [
   ['svg[data-lcs-prim="logic-grid"], svg[data-lcs-prim="logic-lgrid"]', 'img[data-lcs-col], img[data-lcs-rowpic]', 'the elimination grid frames its column and row pictures: each sits in its header cell by design (G2-319 family; the two-attribute grid of G3-379 too)'],
   ['[data-lcs-ring] > svg, [data-lcs-clue-cross] svg', 'img[data-lcs-pic]', 'a picture clue rings its picture, and crosses out a "does not have" picture, on purpose (G1-349)'],
   ['[data-lcs-clue-cross] svg', '[data-lcs-ring] > svg', 'the cross of a "does not have" clue lies inside its own ring (G1-349)'],
+  ['[data-lcs-kind="balance"] svg', '[data-lcs-kind="balance"] img', 'the object rests in the dish of its balance pan: its bottom sits inside the pan by design (G2-252 / G2-261 / G2-262)'],
+  ['[data-lcs-art] img, [data-lcs-artband] img', 'svg[data-lcs-cuberow], svg[data-lcs-prim="ruler"]', 'a measured object stands ON its row of unit squares / its ruler: the ink meets the row along its edge (registration is the task) — a contact only, 2 px at most', 2],
 ];
 
 /**
@@ -98,6 +101,9 @@ function collide({ tol, exempt }) {
    *  diagram's box reached the card badge while nothing drawn did), the union for a big drawing (> 200 shapes) */
   const svgInks = (svg) => {
     const boxes = [];
+    // an svg viewport clips what it draws (an inline svg's default overflow is hidden): a picture seen through a viewBox
+    // window — the G1-475 puzzle pieces — is measured as the window, not as the whole picture behind it (2026-11-02)
+    const clip = getComputedStyle(svg).overflow === 'visible' ? null : svg.getBoundingClientRect();
     for (const g of svg.querySelectorAll(DRAWN)) {
       const gs = getComputedStyle(g);
       const fill = g.getAttribute('fill') || gs.fill, stroke = g.getAttribute('stroke') || gs.stroke;
@@ -107,11 +113,26 @@ function collide({ tol, exempt }) {
       const r = g.getBoundingClientRect(); if (r.width <= 0 && r.height <= 0) continue;
       const sw = noStroke ? 0 : (parseFloat(g.getAttribute('stroke-width') || gs.strokeWidth) || 1) / 2;
       const b = { l: r.left - sw, t: r.top - sw, r: r.right + sw, b: r.bottom + sw };
+      if (clip) { b.l = Math.max(b.l, clip.left); b.t = Math.max(b.t, clip.top); b.r = Math.min(b.r, clip.right); b.b = Math.min(b.b, clip.bottom); if (b.r <= b.l || b.b <= b.t) continue; }
       boxes.push(b);
     }
     if (boxes.length > 200) return [boxes.reduce((u, b) => ({ l: Math.min(u.l, b.l), t: Math.min(u.t, b.t), r: Math.max(u.r, b.r), b: Math.max(u.b, b.b) }))];
     return boxes;
   };
+  // what an ancestor with overflow hidden / clip cuts off is not on the paper (2026-11-02: a measured object or an Order by
+  // Size picture is cropped to its ink by an overflow:hidden box; the alpha scan of the 512 px file found ink a few px
+  // outside that crop — invisible — and the gate accused it of meeting the squares below)
+  const clipOf = (el) => {
+    let c = null;
+    for (let p = el.parentElement; p && p !== document.body; p = p.parentElement) {
+      const s = getComputedStyle(p);
+      if (s.overflowX === 'visible' && s.overflowY === 'visible') continue;
+      const q = p.getBoundingClientRect();
+      c = c ? { l: Math.max(c.l, q.left), t: Math.max(c.t, q.top), r: Math.min(c.r, q.right), b: Math.min(c.b, q.bottom) } : { l: q.left, t: q.top, r: q.right, b: q.bottom };
+    }
+    return c;
+  };
+  const clipTo = (r, c) => (c ? { l: Math.max(r.l, c.l), t: Math.max(r.t, c.t), r: Math.min(r.r, c.r), b: Math.min(r.b, c.b) } : r);
   const cand = [];
   for (const el of els) {
     const tag = el.tagName.toLowerCase();
@@ -128,9 +149,11 @@ function collide({ tol, exempt }) {
       if (had) el.style.transform = t;
       const ab = alphaBounds(el);
       if (!ab || r.width <= 0) continue;
-      cand.push({ ...base, kind: 'img', r: { l: r.left + ab.l * r.width, t: r.top + ab.t * r.height, r: r.left + ab.r * r.width, b: r.top + ab.b * r.height } });
+      const ri = clipTo({ l: r.left + ab.l * r.width, t: r.top + ab.t * r.height, r: r.left + ab.r * r.width, b: r.top + ab.b * r.height }, clipOf(el));
+      if (ri.r > ri.l && ri.b > ri.t) cand.push({ ...base, kind: 'img', r: ri });
     } else if (tag === 'svg') {
-      for (const u of svgInks(el)) cand.push({ ...base, kind: 'svg', r: u });
+      const c = clipOf(el);
+      for (const u0 of svgInks(el)) { const u = clipTo(u0, c); if (u.r > u.l && u.b > u.t) cand.push({ ...base, kind: 'svg', r: u }); }
     } else if (el.classList.contains('ws-answerbox') || (el.hasAttribute('data-lcs-answer') && !el.children.length) || el.classList.contains('ws-card-badge') || el.classList.contains('ws-chip')) {
       const r = el.getBoundingClientRect(); if (r.width <= 0 || r.height <= 0) continue;
       cand.push({ ...base, kind: el.classList.contains('ws-card-badge') ? 'badge' : el.classList.contains('ws-chip') ? 'chip' : 'box', r: { l: r.left, t: r.top, r: r.right, b: r.bottom } });
@@ -141,7 +164,8 @@ function collide({ tol, exempt }) {
       }
     }
   }
-  const isEx = (a, b) => exempt.some(([sa, sb]) => (a.el.matches(sa) && b.el.matches(sb)) || (a.el.matches(sb) && b.el.matches(sa)));
+  // an entry with a 4th value exempts only a CONTACT that thin (px, the smaller overlap side): a deeper overlap still fails
+  const isEx = (a, b, ix, iy) => exempt.some(([sa, sb, thin]) => ((a.el.matches(sa) && b.el.matches(sb)) || (a.el.matches(sb) && b.el.matches(sa))) && (thin == null || Math.min(ix, iy) <= thin));
   const hits = [];
   const name = (c) => c.kind + ':' + c.tag + (c.cls ? '.' + c.cls.split(/\s+/)[0] : '');
   for (let i = 0; i < cand.length; i++) for (let j = i + 1; j < cand.length; j++) {
@@ -149,7 +173,7 @@ function collide({ tol, exempt }) {
     if (a.el === b.el || a.el.contains(b.el) || b.el.contains(a.el)) continue;
     const ix = Math.min(a.r.r, b.r.r) - Math.max(a.r.l, b.r.l), iy = Math.min(a.r.b, b.r.b) - Math.max(a.r.t, b.r.t);
     if (ix <= tol || iy <= tol) continue;
-    if (isEx(a, b)) continue;
+    if (isEx(a, b, ix, iy)) continue;
     hits.push({ a: name(a), b: name(b), ix: Math.round(ix * 10) / 10, iy: Math.round(iy * 10) / 10, ta: (a.text || a.el.textContent || '').trim().slice(0, 20), tb: (b.text || b.el.textContent || '').trim().slice(0, 20), at: { x: Math.round(Math.max(a.r.l, b.r.l)), y: Math.round(Math.max(a.r.t, b.r.t)) } });
   }
   return { boxes: cand.length, figures: cand.filter((c) => c.kind === 'svg').length, hits };
@@ -163,7 +187,7 @@ if (require.main !== module) { module.exports = { collide, EXEMPT, TOL }; return
   let fails = 0, pages = 0, boxes = 0;
   const report = [];
   const fail = (s) => { fails++; if (fails <= 80) console.log('FAIL ' + s); };
-  const exempt = EXEMPT.map(([a, b]) => [a, b]);
+  const exempt = EXEMPT.map(([a, b, , thin]) => [a, b, thin == null ? null : thin]);
   const run = async (html) => { const page = await m.mount(html, 703); return page.evaluate(collide, { tol: TOL, exempt }); };
 
   for (const { maker, tj } of makers) {
@@ -174,7 +198,7 @@ if (require.main !== module) { module.exports = { collide, EXEMPT, TOL }; return
         for (const o of MP.settingsSpace(t, loc, { themes: QUICK ? 1 : 2, units: 1, copies: COPIES, sample: LOCS.indexOf(loc) })) {
           const tag = `${maker} ${t.id} ${loc} L${o.difficulty} v${o.variant}${o.theme ? ' ' + o.theme : ''}${o.unit ? ' ' + o.unit : ''}`;
           let r;
-          try { r = MP.buildPage(t, type, tj, loc, o, { answerKey: !!A.keys && (t.keyLevels || []).includes(o.difficulty) }); } catch (e) { fail(`${tag}: build — ${e.message}`); continue; }
+          try { r = MP.buildShown(t, type, tj, loc, o, { answerKey: !!A.keys && (t.keyLevels || []).includes(o.difficulty) }); } catch (e) { fail(`${tag}: build — ${e.message}`); continue; }
           for (const [what, html] of [['page', r.html], ['key', r.keyHtml]]) {
             if (!html) continue;
             const c = await run(html);
@@ -215,6 +239,19 @@ if (require.main !== module) { module.exports = { collide, EXEMPT, TOL }; return
     const p3 = base.html.replace('<div class="ws-choices">', '<span data-lcs-key-sample style="position:absolute;left:30px;top:-60px;font-size:20px">sample</span><div class="ws-choices">').replace('<section class="ws-card" data-lcs-card="1">', '<section class="ws-card" data-lcs-card="1" style="position:relative">');
     const r3 = await run(p3);
     if (r3.hits.length) fail('poison 3: an exempt (key sample) overlay FAILED the page');
+    // (4) a cropped picture: ink its overflow:hidden crop cuts off is not on the paper (must NOT fire); the same picture
+    // uncropped meets the drawing below (must fire)
+    const src = (/<img class="ws-icon" src="([^"]+)"/.exec(base.html) || [])[1];
+    if (!src) throw new Error('poison 4: no picture on the K-002 page');
+    const rig = (cropH, overflow, svgTop, cuberow) => base.html.replace(card1, card1 + `<div style="position:relative;width:220px;height:130px">` +
+      `<span data-lcs-art="1" style="position:absolute;left:0;top:0;width:100px;height:${cropH}px;overflow:${overflow}"><img class="ws-poisonimg" src="${src}" alt="" style="position:absolute;left:0;top:0;width:100px;height:100px"></span>` +
+      `<svg class="ws-poisonsvg"${cuberow ? ' data-lcs-cuberow="3"' : ''} style="position:absolute;left:0;top:${svgTop}px" width="100" height="20"><rect x="1" y="1" width="98" height="18" fill="#FFFFFF" stroke="#146B5E" stroke-width="2"/></svg></div>`);
+    const imgSvg = (r) => r.hits.some((h) => [h.a, h.b].some((x) => /ws-poisonimg/.test(x)) && [h.a, h.b].some((x) => /ws-poisonsvg/.test(x)));   // the rig's own pair only
+    if (imgSvg(await run(rig(40, 'hidden', 60, false)))) fail('poison 4: ink hidden by its crop was counted as a collision');
+    if (!imgSvg(await run(rig(40, 'visible', 60, false)))) fail('poison 4: an uncropped picture over a drawing PASSED');
+    // (5) the thin-contact exemption: a measured object meeting its square row by 2 px passes, 9 px into it fails
+    if (imgSvg(await run(rig(60, 'hidden', 58.5, true)))) fail('poison 5: a 2 px contact of an object with its square row FAILED');
+    if (!imgSvg(await run(rig(60, 'hidden', 52, true)))) fail('poison 5: an object drawn 9 px into its square row PASSED');
   }
 
   await m.close();

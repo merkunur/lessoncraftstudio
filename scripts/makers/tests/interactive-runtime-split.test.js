@@ -19,8 +19,12 @@ const REL = 'scripts/worksheet-gen/emit';
 const tmp = path.join(REPO, '.scratch', 'irt-ref');
 fs.rmSync(tmp, { recursive: true, force: true });
 fs.mkdirSync(path.join(tmp, REL), { recursive: true });
-for (const f of ['interactive-runtime.js', 'interactive-type-plus.js', 'interactive-set-clock.js', 'interactive-mark-grid.js']) {
-  fs.writeFileSync(path.join(tmp, REL, f), execSync(`git show ${REF}:${REL}/${f}`, { cwd: REPO, maxBuffer: 64 << 20 }));
+fs.writeFileSync(path.join(tmp, REL, 'interactive-runtime.js'), execSync(`git show ${REF}:${REL}/interactive-runtime.js`, { cwd: REPO, maxBuffer: 64 << 20 }));
+// the three kind modules were not part of the split (unchanged from the reference to the split commit): both sides load
+// the working tree's copy, so a later change to one of them (the 2026-11-02 set-clock handle sizing) is not read as the
+// split changing a deck
+for (const f of ['interactive-type-plus.js', 'interactive-set-clock.js', 'interactive-mark-grid.js']) {
+  fs.copyFileSync(path.join(REPO, REL, f), path.join(tmp, REL, f));
 }
 // the reference reads REFERENCE TRANSLATIONS/translations-shared.js three levels up from emit/
 try { fs.symlinkSync(path.join(REPO, 'REFERENCE TRANSLATIONS'), path.join(tmp, 'REFERENCE TRANSLATIONS'), 'junction'); } catch (e) { /* exists */ }

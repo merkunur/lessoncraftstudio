@@ -48,7 +48,10 @@
     "fractions": "Frações",
     "multiplication-division": "Multiplicação e divisão",
     "logic-puzzles": "Desafios de lógica",
-    "money": "Dinheiro"
+    "money": "Dinheiro",
+    "telling-time": "Ver as horas",
+    "measurement": "Grandezas e medidas",
+    "graphs-data": "Gráficos e dados"
   },
   "editTitle": "Editar o título",
   "editInstruction": "Editar o enunciado",

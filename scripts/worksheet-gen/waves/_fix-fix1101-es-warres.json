@@ -1,0 +1,90 @@
+{
+ "id": "wave-arr-es",
+ "_note": "2026-11-01 number walls: answers spread on new copies; doubles: the mirror line kept, pictures inside the panel; vehicles crane is the machine: pinned re-generation of the live G3-312 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G3-312"
+ ],
+ "levels": {
+  "G3-312": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "Things That Fly"
+    },
+    {
+     "copy": 2,
+     "theme": "household bw"
+    },
+    {
+     "copy": 3,
+     "theme": "kitchen tools"
+    },
+    {
+     "copy": 4,
+     "theme": "vehicles bw"
+    },
+    {
+     "copy": 5,
+     "theme": "At the Supermarket"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "At the Supermarket"
+    },
+    {
+     "copy": 3,
+     "theme": "forest creatures"
+    },
+    {
+     "copy": 4,
+     "theme": "around the house"
+    },
+    {
+     "copy": 5,
+     "theme": "ocean life"
+    },
+    {
+     "copy": 6,
+     "theme": "camping"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "kitchen tools"
+    },
+    {
+     "copy": 2,
+     "theme": "vehicles bw 2"
+    },
+    {
+     "copy": 3,
+     "theme": "thanksgivinng"
+    },
+    {
+     "copy": 4,
+     "theme": "dessert bw"
+    },
+    {
+     "copy": 5,
+     "theme": "weather"
+    }
+   ]
+  }
+ }
+}

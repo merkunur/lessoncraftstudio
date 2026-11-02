@@ -32,6 +32,7 @@ const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
 const { makeRng } = require('../../lib/rng.js');
 const { distinctPick } = require('../../lib/picture-distinct.js');
+const slot = require('../../lib/slot.js');
 
 const FW = 640;   // the widest a graph may be: the 675-px body minus its frame
 const TEAL = '#146B5E', INK = '#3A3530';
@@ -82,13 +83,14 @@ function makeGraphType(cfg) {
     },
     i18n,
     graphMode: mode,
-    interactive: require('../../lib/graph-screen.js').interactiveFor(mode, which, scale || 1),
+    // the class survey is the class's own data: no right answer, no screen, no key (material)
+    interactive: mode === 'survey' ? undefined : require('../../lib/graph-screen.js').interactiveFor(mode, which, scale || 1),
     /** Level Set copies: what a page asks (build-waves compares copies by these) */
     levelSetWords(m) { return (m.asks || []).map(String); },
 
     build({ theme, difficulty, locale }, ctx) {
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-      if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
+      if (mode !== 'survey' && (!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
         // the build faces' key draws the graph FILLED: the same page again from a fresh stream of the same seed
         const rebuildFilled = () => this.build({ theme, difficulty, locale }, { ...ctx, rng: makeRng(ctx.rng.seed), interactive: false, answerKey: false, keyFill: true });
@@ -111,7 +113,18 @@ function makeGraphType(cfg) {
       const C = { mode, which, scale: sc, theme, values, items: [] };
 
       // pictures that LOOK alike never stand for two categories (a separate stream: the page's own draws stay put)
-      const fixNouns = (k) => { nouns = distinctPick(theme, nouns.slice(0, k), pool, makeRng(rng.seed + '|distinct')).concat(nouns.slice(k)); };
+      // tap-to-edit (lib/slot.js, makers 2026-11-02): the categories AS DRAWN (after the look-alike fix) are the slots; a
+      // teacher's picture that would look like another category on the page is refused — the other pictures never move
+      const swapped = !!(ctx && ctx.overrides && ctx.overrides.pic);
+      const slotNouns = (k) => {
+        const shown = slot.pictures(ctx, nouns.slice(0, k), pool, theme);
+        if (swapped && shown.some((x, i) => x !== nouns[i]) && distinctPick(theme, shown, pool, makeRng(rng.seed + '|distinct')).some((x, i) => x.noun !== shown[i].noun)) {
+          throw new Error(`${id}: the chosen picture looks like another category on the page (the swap is refused)`);
+        }
+        nouns = shown.concat(nouns.slice(k));
+      };
+      const fixNouns = (k) => { nouns = distinctPick(theme, nouns.slice(0, k), pool, makeRng(rng.seed + '|distinct')).concat(nouns.slice(k)); slotNouns(k); };
+      const iconSlots = (k) => (ctx && ctx.slotsOut ? Array.from({ length: k }, (_, i) => 'pic.' + i) : null);
 
       let body;
       if (mode === 'pict-read' || mode === 'pict-which' || mode === 'pict-fill') {
@@ -124,7 +137,7 @@ function makeGraphType(cfg) {
         const belowH = mode === 'pict-read' ? (nouns.length === 4 ? 190 : 96) : mode === 'pict-which' ? 110 : 90;
         const targetH = 800 - belowH - 150 - (sc > 1 ? 50 : 0);
         const rowGap = Math.round(Math.max(cell * 0.4, Math.min(cell * 1.1, (targetH - nouns.length * cell) / nouns.length)));
-        const g = pictograph({ rows: nouns.map((n, i) => ({ iconHref: hrefs[i], n: values[i] })), scale: sc, cell, rowGap,
+        const g = pictograph({ rows: nouns.map((n, i) => ({ iconHref: hrefs[i], n: values[i] })), scale: sc, cell, rowGap, iconSlots: iconSlots(nouns.length),
           keyScale: sc > 1 ? 1.7 : 1, ...(fill ? (ctx.keyFill ? { slots: gSlots } : { emptyGrid: true, slots: gSlots }) : {}) });
         if (mode === 'pict-read') {
           const cards = nouns.map((n, i) => ansCard(hrefs[i], values[i], nouns.length === 3, ` data-lcs-row="${i}" data-lcs-rown="${values[i]}"`));
@@ -153,7 +166,7 @@ function makeGraphType(cfg) {
         const three = nouns.length === 3;
         const below = mode === 'bar-read' ? (three ? 100 : 196) : mode === 'bar-which' ? 110 : 190;
         const h = Math.min(560, 800 - below - 120);
-        const g = barGraph({ values, iconHrefs: hrefs, yMax: Math.max(...values) + (mode === 'bar-read' && sc > 1 ? sc : 1), yStep: mode === 'bar-read' ? sc : 1,
+        const g = barGraph({ values, iconHrefs: hrefs, iconSlots: iconSlots(nouns.length), yMax: Math.max(...values) + (mode === 'bar-read' && sc > 1 ? sc : 1), yStep: mode === 'bar-read' ? sc : 1,
           w: FW, h, padL: 58, padB: 78, fontSize: 20, iconSize: 58, barMax: 110 });
         if (mode === 'bar-read') {
           const cards = nouns.map((n, i) => ansCard(hrefs[i], values[i], nouns.length === 3, ` data-lcs-row="${i}" data-lcs-rown="${values[i]}"`));
@@ -179,7 +192,7 @@ function makeGraphType(cfg) {
         const cards = nouns.map((n, i) => card(ICON(hrefs[i], 44) + (tally ? tallyPrim({ n: values[i], strokeH: 40 }).svg : NUMTXT(values[i], 34)),
           tally ? ` data-lcs-tallycat="${i}" data-lcs-catn="${values[i]}"` : ` data-lcs-row="${i}" data-lcs-rown="${values[i]}"`));
         const tableH = tally && nouns.length === 4 ? 170 : 86;
-        const g = barGraph({ values: ctx.keyFill ? values : values.map(() => 0), iconHrefs: hrefs, yMax, w: FW, h: Math.min(580, 800 - tableH - 120),
+        const g = barGraph({ values: ctx.keyFill ? values : values.map(() => 0), iconHrefs: hrefs, iconSlots: iconSlots(nouns.length), yMax, w: FW, h: Math.min(580, 800 - tableH - 120),
           padL: 58, padB: 78, fontSize: 20, iconSize: 58, barMax: 110 });
         body = column(grid(cards, tally ? (nouns.length === 4 ? 2 : 3) : nouns.length, 14) + frame(g.svg), dataAttr());
         C.items = nouns.map((n, i) => ({ noun: n.noun, v: values[i] }));
@@ -207,18 +220,58 @@ function makeGraphType(cfg) {
         C.items = asked.map((v) => ({ v, n: counts[v], label: label(v) }));
         C.counts = counts;
         C.values = asked.map((v) => counts[v]);
+      } else if (mode === 'scene-fill') {
+        // G1-482 Count and Graph the Scene (the old chart-count app, 2026-11-02): the things of a few kinds lie mixed in a
+        // field; count each kind, colour one box per thing in the graph. The graph's top is the level's, never the
+        // largest count (a top that equals the largest count would give it away)
+        fixNouns(nouns.length);
+        const hrefs = nouns.map(hrefOf);
+        const order = rng.shuffle(values.flatMap((v, i) => Array.from({ length: v }, () => i)));
+        const n = order.length, FH = nouns.length > 3 ? 290 : 340, AW = FW - 28;   // a page fills its body
+        const cols = Math.max(1, Math.round(Math.sqrt(n * AW / FH))), rowsN = Math.ceil(n / cols);
+        const cw = AW / cols, ch = FH / rowsN, px = Math.floor(Math.min(cw, ch) * 0.74);
+        const at = rng.shuffle(Array.from({ length: cols * rowsN }, (_, k) => k)).slice(0, n);
+        const field = order.map((cat, k) => {
+          const c = at[k] % cols, r = Math.floor(at[k] / cols);
+          const x = c * cw + (cw - px) / 2 + (rng.next() * 2 - 1) * (cw - px) * 0.4, y = r * ch + (ch - px) / 2 + (rng.next() * 2 - 1) * (ch - px) * 0.4;
+          return `<img class="ws-icon" src="${hrefs[cat]}" alt="" data-lcs-kind="${cat}" style="position:absolute;left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;width:${px}px;height:${px}px">`;
+        }).join('');
+        // the graph: a row of empty boxes per kind (a box to colour per thing), as many boxes on every row — the level's
+        // most and one more, never the largest count (a row that is full would give it away)
+        const yMax = d.maxN + 1;
+        const cell = pictCell(yMax, nouns.length > 3 ? 54 : 72);
+        const g = pictograph({ rows: nouns.map((nn, i) => ({ iconHref: hrefs[i], n: values[i] })), cell, rowGap: Math.round(cell * 0.45), iconSlots: iconSlots(nouns.length),
+          ...(ctx.keyFill ? { slots: yMax } : { emptyGrid: true, slots: yMax }) });
+        body = column(frame(`<div style="position:relative;width:${AW}px;height:${FH}px" data-lcs-field>${field}</div>`, ' data-ws-content') + frame(g.svg), dataAttr(` data-lcs-ymax="${yMax}"`));
+        C.items = nouns.map((nn, i) => ({ noun: nn.noun, v: values[i] }));
+        C.order = order;
+        C.yMax = yMax;
+      } else if (mode === 'survey') {
+        // G1-481 Our Class Graph (material, 2026-11-02): the class's own data — a tally line per picture to fill as the
+        // children answer, then an empty bar graph to colour from the tallies (1.MD.C.4: up to three categories at level 1)
+        fixNouns(nouns.length);
+        const hrefs = nouns.map(hrefOf);
+        const few = nouns.length <= 3;   // three pictures: bigger rows and boxes (a page fills its body)
+        const tallyRows = nouns.map((nn, i) => `<div style="display:flex;align-items:center;gap:16px;padding:${few ? 14 : 6}px 14px;${i ? 'border-top:2px solid #F0E4CB;' : ''}" data-lcs-survey-row="${i}">` +
+          ICON(hrefs[i], few ? 54 : 38) + `<span style="flex:1 1 auto;height:40px;border-bottom:2.5px dashed #C9BBA2"></span></div>`).join('');
+        const table = `<div style="width:${FW - 40}px;box-sizing:border-box;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:14px" data-lcs-survey-table>${tallyRows}</div>`;
+        const cell = pictCell(d.maxN, nouns.length > 4 ? 46 : nouns.length > 3 ? 52 : 66);
+        const g = pictograph({ rows: nouns.map((nn, i) => ({ iconHref: hrefs[i], n: 0 })), cell, rowGap: Math.round(cell * 0.4), iconSlots: iconSlots(nouns.length), emptyGrid: true, slots: d.maxN });
+        body = column(table + frame(g.svg), ` data-lcs-survey="${nouns.length}" data-lcs-ymax="${d.maxN}"`);
+        C.items = nouns.map((nn) => ({ noun: nn.noun }));
       } else if (mode === 'table-sort') {
         // level 3 sorts three kinds; levels 1-2 two (the published page: two)
         const kinds = lv === 3 ? 3 : 2;
         const counts2 = Array.from({ length: kinds }, () => rng.int(3, d.maxN));
         const order = rng.shuffle(counts2.flatMap((c, i) => Array.from({ length: c }, () => i)));
         nouns = distinctPick(theme, nouns.slice(0, kinds), pool, makeRng(rng.seed + '|distinct'));
+        slotNouns(kinds);
         const hrefs = nouns.map(hrefOf);
         const n = order.length, perRow = Math.ceil(n / (n <= 10 ? 2 : 3));   // few pictures: two big rows
         const px = Math.max(48, Math.min(110, Math.floor((FW - 20) / perRow) - 14));
         const strip = order.map((i) => `<img class="ws-icon" src="${hrefs[i]}" alt="" data-lcs-item="${i}" style="width:${px}px;height:${px}px">`).join('');
         const rows = nouns.map((nn, i) =>
-          `<div style="display:flex;align-items:center;justify-content:space-around;gap:40px;padding:16px 34px;${i ? 'border-top:2px solid #F0E4CB;' : ''}" data-lcs-col="${i}" data-lcs-coln="${counts2[i]}">` +
+          `<div style="display:flex;align-items:center;justify-content:space-around;gap:40px;padding:16px 34px;${i ? 'border-top:2px solid #F0E4CB;' : ''}" data-lcs-col="${i}" data-lcs-coln="${counts2[i]}"${slot.attr(ctx, 'pic', i)}>` +
           ICON(hrefs[i], 80) + answerBox({ w: 110, h: 84, answer: counts2[i] }) + `</div>`).join('');
         const table = `<div class="ws-gtable" data-lcs-table style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:14px;min-width:340px">${rows}</div>`;
         body = column(frame(`<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:${FW}px">${strip}</div>`) + table, dataAttr());
@@ -351,6 +404,28 @@ function makeGraphType(cfg) {
             if (items !== n) fails.push(`category ${i}: strip has ${items} != ${n}`);
             if (+col.querySelector('[data-lcs-answer]').dataset.lcsAnswer !== n) fails.push(`category ${i}: answer mismatch`);
           });
+        } else if (mode === 'scene-fill') {
+          const wrap = document.querySelector('[data-lcs-values]');
+          const values = wrap.dataset.lcsValues.split(',').map(Number);
+          const svg = wrap.querySelector('[data-lcs-prim="pictograph"]');
+          if (svg.querySelectorAll('[data-lcs-stamp]').length !== 0) fails.push('graph must start empty');
+          const yMax = +wrap.dataset.lcsYmax;
+          values.forEach((v, i) => {
+            const k = wrap.querySelectorAll(`[data-lcs-field] [data-lcs-kind="${i}"]`).length; if (k !== v) fails.push(`kind ${i}: the field shows ${k}, not ${v}`);
+            if (svg.querySelectorAll(`[data-lcs-emptycell="${i}"]`).length !== yMax) fails.push(`row ${i}: not ${yMax} boxes`);
+          });
+          if (new Set(values).size !== values.length) fails.push('two kinds have the same count');
+          if (+wrap.dataset.lcsYmax <= Math.max(...values)) fails.push('the graph top gives the largest count away');
+          // every picture in the field is whole and apart from the others (a child counts them one by one)
+          const R = [...wrap.querySelectorAll('[data-lcs-field] img')].map((x) => x.getBoundingClientRect()), F = wrap.querySelector('[data-lcs-field]').getBoundingClientRect();
+          R.forEach((a, i) => { if (a.left < F.left - 0.5 || a.right > F.right + 0.5 || a.top < F.top - 0.5 || a.bottom > F.bottom + 0.5) fails.push(`picture ${i + 1} leaves the field`); R.forEach((b, j) => { if (j > i && a.left < b.right - 2 && b.left < a.right - 2 && a.top < b.bottom - 2 && b.top < a.bottom - 2) fails.push(`pictures ${i + 1} and ${j + 1} overlap`); }); });
+        } else if (mode === 'survey') {
+          const wrap = document.querySelector('[data-lcs-survey]');
+          const n = +wrap.dataset.lcsSurvey;
+          if (wrap.querySelectorAll('[data-lcs-survey-row]').length !== n) fails.push('a tally line per picture');
+          const svg = wrap.querySelector('[data-lcs-prim="pictograph"]');
+          if (svg.querySelectorAll('[data-lcs-stamp]').length !== 0) fails.push('the graph must start empty');
+          for (let i = 0; i < n; i++) if (svg.querySelectorAll(`[data-lcs-emptycell="${i}"]`).length !== +wrap.dataset.lcsYmax) fails.push(`row ${i + 1}: not ${wrap.dataset.lcsYmax} boxes`);
         } else if (mode === 'pict-fill') {
           const wrap = document.querySelector('[data-lcs-values]');
           const values = wrap.dataset.lcsValues.split(',').map(Number);

@@ -3689,5 +3689,53 @@
   "G1-476": {
     "title": "Taldetektiven",
     "instruction": "Det hemliga talet är ett tal från 1 till och med {MAX}. Läs ledtrådarna och skriv talet som stämmer med alla ledtrådarna."
+  },
+  "G1-477": {
+    "title": "Klockan i ord",
+    "instruction": "Läs tiden i ord. Dra ett streck från varje klocka till tiden den visar."
+  },
+  "G1-478": {
+    "title": "Min dag på klockan",
+    "instruction": "Läs vad som händer och när. Rita timvisaren och minutvisaren på varje klocka."
+  },
+  "G1-479": {
+    "title": "Kvartar på klockan",
+    "instruction": "Minutvisaren startade vid 12. Färglägg den del av klockan som den redan har gått förbi."
+  },
+  "G2-474": {
+    "title": "Vilken tid passar?",
+    "instruction": "Titta på bilden: när händer det? Ringa in rätt tid."
+  },
+  "G3-475": {
+    "title": "Tidsskillnad på en tidslinje",
+    "instruction": "Hitta början och slutet på tidslinjen. Skriv hur många timmar och minuter som har gått."
+  },
+  "K-462": {
+    "title": "Gör din egen klocka",
+    "instruction": "Klipp ut klockan och de två visarna. Fäst visarna i mitten med en spikklammer."
+  },
+  "K-463": {
+    "title": "Ordna efter storlek",
+    "instruction": "Numrera bilderna i varje ruta från 1 (minst) till 3 (störst)."
+  },
+  "G1-480": {
+    "title": "Mät med gem",
+    "instruction": "Hur många gem långt är varje föremål? Skriv talet."
+  },
+  "G2-475": {
+    "title": "Linjaler att klippa ut",
+    "instruction": "Skriv ut i verklig storlek (100 %). Klipp ut linjalerna längs de streckade linjerna."
+  },
+  "G2-477": {
+    "title": "Vilken enhet?",
+    "instruction": "Vilken enhet skulle du mäta det med? Ringa in den."
+  },
+  "G1-481": {
+    "title": "Vårt klassdiagram",
+    "instruction": "Fråga dina klasskamrater vilken de tycker bäst om. Gör ett streck för varje svar. Färglägg sedan en ruta för varje streck."
+  },
+  "G1-482": {
+    "title": "Räkna och gör diagrammet",
+    "instruction": "Räkna varje sorts bild. Färglägg en ruta i diagrammet för varje bild du räknar."
   }
 }

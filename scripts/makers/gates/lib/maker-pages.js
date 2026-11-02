@@ -80,7 +80,15 @@ function stringsFor(t, type, loc, difficulty) { return withLevelInstruction(reso
  */
 function buildPage(t, type, tj, loc, o, extra = {}) {
   const strings = extra.strings || stringsFor(t, type, loc, o.difficulty);
-  return runtime.makePage({ type, strings, locale: loc, difficulty: o.difficulty, theme: o.theme, unit: o.unit, variant: o.variant, answerKey: !!extra.answerKey, answerKeySuffix: tj.answerKey[loc], screen: !!extra.screen, overrides: extra.overrides || null, pageSize: extra.pageSize });
+  return runtime.makePage({ type, strings, locale: loc, difficulty: o.difficulty, theme: o.theme, unit: o.unit, variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), answerKey: !!extra.answerKey, answerKeySuffix: tj.answerKey[loc], screen: !!extra.screen, overrides: extra.overrides || null, pageSize: extra.pageSize });
+}
+
+/** the page the maker SHOWS for these settings: this seed, or runtime.generate's first fresh-seed retry that builds (a seed
+ *  that cannot be built is never shown to a teacher — 2026-11-02) */
+function buildShown(t, type, tj, loc, o, extra = {}) {
+  let err;
+  for (const sv of [null, '.1', '.2', '.3', '.4']) { try { return buildPage(t, type, tj, loc, sv ? { ...o, seedVariant: o.variant + sv } : o, extra); } catch (e) { err = err || e; } }
+  throw err;
 }
 
 /** the page with the type's `interactive` build (the declared screen's page), same seed, same content asserted */
@@ -88,7 +96,8 @@ function buildDeclaredScreen(t, type, tj, loc, o) {
   const { makeRng, instanceSeed } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'lib', 'rng.js'));
   const { buildPage: shellPage } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'page', 'shell.js'));
   const strings = stringsFor(t, type, loc, o.difficulty);
-  const seed = instanceSeed({ typeId: type.id, theme: o.theme, difficulty: o.difficulty, seedEpoch: 1, variant: o.variant, unit: o.unit });
+  // (a fresh-seed retry replaces the variant in the seed only — runtime.makePage's rule)
+  const seed = instanceSeed({ typeId: type.id, theme: o.theme, difficulty: o.difficulty, seedEpoch: 1, variant: o.seedVariant || o.variant, unit: o.unit });
   const base = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant });
   const sc = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, interactive: true });
   if (JSON.stringify(sc.meta) !== JSON.stringify(base.meta)) throw new Error('the interactive build drew different content than the page');
@@ -127,4 +136,4 @@ class Mounter {
   async close() { try { await this.browser.close(); } catch (e) { /* closed */ } fs.rmSync(this.tmp, { recursive: true, force: true }); }
 }
 
-module.exports = { REPO, LOCALES, isBw, builtMakers, args, settingsSpace, loadType, stringsFor, buildPage, buildDeclaredScreen, Mounter, runtime };
+module.exports = { REPO, LOCALES, isBw, builtMakers, args, settingsSpace, loadType, stringsFor, buildPage, buildShown, buildDeclaredScreen, Mounter, runtime };

@@ -48,7 +48,10 @@
     "fractions": "Breuken",
     "multiplication-division": "Vermenigvuldigen en delen",
     "logic-puzzles": "Logische puzzels",
-    "money": "Geld"
+    "money": "Geld",
+    "telling-time": "Klokkijken",
+    "measurement": "Meten en grootte",
+    "graphs-data": "Grafieken en gegevens"
   },
   "editTitle": "Titel aanpassen",
   "editInstruction": "Opdracht aanpassen",

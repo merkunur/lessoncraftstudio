@@ -417,7 +417,7 @@ function pageOptions(i) {
   const t = tplOf(i);
   const ps = pageSpec(i);
   return canView()
-    ? { strings: pageStrings(i), locale: LANG, difficulty: state.lvls[i], theme: themeFor(t), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t, state.lvls[i]), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
+    ? { strings: pageStrings(i), locale: LANG, difficulty: state.lvls[i], theme: themeFor(t), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t, state.lvls[i]), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null, baseStrings: state.texts[i] && Object.keys(state.texts[i]).length ? stringsFor(state.tpls[i], state.lvls[i]) : null }
     : sampleOptions(t);
 }
 
@@ -702,8 +702,11 @@ async function openPicker(i, role, idx) {
   const picTheme = slotInfo.theme || state.theme;
   const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
   const nouns = (picManifest.themes[picTheme] || {}).nouns || {};
+  // a picture already on the page — in this slot or in another card's (a page with a slot per card: row0, pan1 …) —
+  // is greyed: the page never shows one picture twice
+  const onPage = new Set(Object.values(r.slots).filter((x) => (x.theme || null) === (slotInfo.theme || null)).flatMap((x) => x.values));
   for (const key of slotInfo.pool) {
-    const used = slotInfo.values.includes(key) && key !== current;
+    const used = onPage.has(key) && key !== current;
     const kids = isPic && nouns[key]
       ? [el('img', { src: `/makers-assets/themes-512/${encodeURIComponent(picTheme)}/${encodeURIComponent(nouns[key].files[0])}`, alt: key, loading: 'lazy' })]
       : [el('span', { text: key })];
@@ -734,7 +737,8 @@ function openTextEditor(i, field, current) {
     const tx = state.texts[i] = JSON.parse(before);
     if (value && value.trim()) tx[field] = value.trim().replace(/\s+/g, ' '); else delete tx[field];
     const r = await pageResult(i);
-    if (!r.ok || (r.attempt && r.attempt.seedVariant)) { state.texts[i] = JSON.parse(before); note.textContent = UI.textTooLong; return; }
+    // (an edited page keeps its unedited page's attempt — runtime.generate — so a text that needs another seed is refused there)
+    if (!r.ok) { state.texts[i] = JSON.parse(before); note.textContent = UI.textTooLong; return; }
     dlg.close();
     render();
   };
@@ -755,11 +759,12 @@ async function choosePick(i, role, idx, key) {
   const ed = state.edits[i] = JSON.parse(before);
   (ed[role] = ed[role] || {})[idx] = key;
   const r = await pageResult(i);
-  const applied = r.ok && r.slots && r.slots[role] && r.slots[role].values[idx] === key && !(r.attempt && r.attempt.seedVariant);
+  // (an edited page keeps its unedited page's attempt — runtime.generate — so only this item can have changed)
+  const applied = r.ok && r.slots && r.slots[role] && r.slots[role].values[idx] === key;
   if (!applied) {
     state.edits[i] = JSON.parse(before);
     const note = $('mk-pick-note');
-    if (note) note.textContent = r.ok && r.slots && r.slots[role] && r.slots[role].values.includes(key) ? UI.alreadyUsed : UI.doesNotFit;
+    if (note) note.textContent = r.ok && r.slots && Object.values(r.slots).some((x) => x.values.includes(key)) ? UI.alreadyUsed : UI.doesNotFit;
     return;
   }
   $('mk-picker').close();

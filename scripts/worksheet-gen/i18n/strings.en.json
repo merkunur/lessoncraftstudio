@@ -3738,5 +3738,61 @@
   "G1-476": {
     "title": "Number Detective",
     "instruction": "Each mystery number is from 1 to {MAX}. Read the clues and write the one number that fits them all."
+  },
+  "G1-477": {
+    "title": "Time in Words",
+    "instruction": "Read the time in words. Draw a line from each clock to the words that tell its time."
+  },
+  "G1-478": {
+    "title": "My Day on the Clock",
+    "instruction": "Read what happens and when. Draw the hour hand and the minute hand on each clock."
+  },
+  "G1-479": {
+    "title": "Quarter Hours on the Clock",
+    "instruction": "The minute hand started at 12. Shade the part of the clock it has moved past."
+  },
+  "G2-474": {
+    "title": "A.M. or P.M.?",
+    "instruction": "Look at the picture and the time. Circle a.m. if it happens before noon and p.m. if it happens after noon."
+  },
+  "G3-475": {
+    "title": "Elapsed Time on a Time Line",
+    "instruction": "Find the start and the end on the time line. Write how many hours and minutes passed."
+  },
+  "K-462": {
+    "title": "Make Your Own Clock",
+    "instruction": "Cut out the clock and the two hands. Attach the hands to the center with a brad (paper fastener)."
+  },
+  "K-463": {
+    "title": "Order by Size",
+    "instruction": "Number the pictures in each box from 1 (smallest) to 3 (biggest)."
+  },
+  "G1-480": {
+    "title": "Paper Clip Measuring",
+    "instruction": "How many paper clips long is each object? Write the number."
+  },
+  "G2-475": {
+    "title": "Rulers to Cut Out",
+    "instruction": "Print at actual size (100%). Cut out the rulers along the dashed lines."
+  },
+  "G2-476": {
+    "title": "Measure in Inches",
+    "instruction": "Each object starts at 0. Write how many inches long it is."
+  },
+  "G2-477": {
+    "title": "Which Unit?",
+    "instruction": "Which unit would you use to measure each one? Circle that unit."
+  },
+  "G3-476": {
+    "title": "Degrees Fahrenheit",
+    "instruction": "Read each thermometer. Write the temperature in degrees Fahrenheit."
+  },
+  "G1-481": {
+    "title": "Our Class Graph",
+    "instruction": "Ask your classmates which one they like best. Make a tally mark for each answer. Then color one box for each mark."
+  },
+  "G1-482": {
+    "title": "Count, Then Graph",
+    "instruction": "Count each kind of picture. Color one box in the graph for each one you count."
   }
 }

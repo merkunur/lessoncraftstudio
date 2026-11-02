@@ -1,0 +1,45 @@
+{
+ "id": "wave-b2var-es",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [
+  "animals",
+  "vehicles",
+  "toys",
+  "fruits",
+  "animals bw",
+  "fruits bw",
+  "farm animals bw",
+  "toys bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-313",
+  "G1-297",
+  "G1-296",
+  "G1-266",
+  "G1-267",
+  "G1-286",
+  "G1-289",
+  "G1-288",
+  "G1-268",
+  "G1-287",
+  "G1-271",
+  "G1-270"
+ ],
+ "themeOverrides": {
+  "G1-297": "toys",
+  "G1-296": "vehicles",
+  "G1-286": "toys",
+  "G1-288": "animals",
+  "G1-287": "fruits",
+  "G1-271": "vehicles",
+  "G1-270": "animals"
+ },
+ "_note": "2026-11-01 number walls: answers spread on new copies; doubles: the mirror line kept, pictures inside the panel; vehicles crane is the machine: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

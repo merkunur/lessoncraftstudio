@@ -81,12 +81,17 @@ async function main() {
           let got, sc;
           try {
             const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
+            // the attempt the maker's page used (runtime.generate's seed ladder — the screen replays it, shell.js
+            // screenHtmlFor): the first fresh-seed retry the page builds with (2026-11-02: G2-261 level 3 builds only
+            // on a retry; the gate built the bare seed and reported a screen the maker never shows)
+            const sv = [null, '.1', '.2', '.3', '.4'].find((x) => { try { runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...(x ? { seedVariant: v + x } : {}) }); return true; } catch (e) { return false; } });
+            const att = sv ? { seedVariant: v + sv } : {};
             // the shared decision (runtime.js screenFor): declared, else the page's marks (the published face)
-            got = await runtime.screenFor({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, tpl: t, runtimeStrings: runtimeStrings(loc), marksInstructions: SCREEN_I18N[loc] }, mount);
+            got = await runtime.screenFor({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, tpl: t, runtimeStrings: runtimeStrings(loc), marksInstructions: SCREEN_I18N[loc] }, mount);
             paths[got.path] = (paths[got.path] || 0) + 1;
             if (got.path === 'declared') {
               // the same build again, for its measured items (screenFor returns the document only)
-              const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, declared: true, screenInstruction: t.screenInstructions[loc][d] });
+              const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, declared: true, screenInstruction: t.screenInstructions[loc][d] });
               sc = await screen.buildDeclaredScreen({ html: r.declaredHtml, type, theme, difficulty: d, locale: loc, strings: runtimeStrings(loc), mount });
             }
           } catch (e) { bad++; fails.push(`${tag}: (1) ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }

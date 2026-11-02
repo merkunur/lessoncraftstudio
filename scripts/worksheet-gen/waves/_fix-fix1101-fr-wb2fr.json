@@ -1,0 +1,29 @@
+{
+ "id": "wave-b2-fr",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [
+  "animals",
+  "vehicles",
+  "toys",
+  "fruits",
+  "animals bw",
+  "fruits bw",
+  "farm animals bw",
+  "toys bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-246",
+  "G1-247"
+ ],
+ "themeOverrides": {
+  "G1-247": "fruits"
+ },
+ "_note": "2026-11-01 number walls: answers spread on new copies; doubles: the mirror line kept, pictures inside the panel; vehicles crane is the machine: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

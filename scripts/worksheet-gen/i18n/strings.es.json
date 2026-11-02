@@ -3713,5 +3713,53 @@
   "G1-476": {
     "title": "Detective de números",
     "instruction": "Los números secretos van del 1 al {MAX}. Lee las pistas y escribe el número que cumple con todas."
+  },
+  "G1-477": {
+    "title": "La hora en palabras",
+    "instruction": "Lee la hora escrita con palabras. Une cada reloj con la hora que marca."
+  },
+  "G1-478": {
+    "title": "Mi día en el reloj",
+    "instruction": "Lee qué pasa y a qué hora. Dibuja la manecilla de las horas y la de los minutos en cada reloj."
+  },
+  "G1-479": {
+    "title": "Los cuartos de hora",
+    "instruction": "El minutero salió del 12. Colorea la parte del reloj que ya recorrió."
+  },
+  "G2-474": {
+    "title": "¿Cuál es la hora correcta?",
+    "instruction": "Mira el dibujo: ¿a qué hora pasa? Encierra la hora correcta."
+  },
+  "G3-475": {
+    "title": "Tiempo transcurrido en una recta",
+    "instruction": "Encuentra el inicio y el final en la línea del tiempo. Escribe cuántas horas y cuántos minutos pasaron."
+  },
+  "K-462": {
+    "title": "Haz tu propio reloj",
+    "instruction": "Recorta el reloj y las dos manecillas. Sujeta las manecillas en el centro con un broche latonado."
+  },
+  "K-463": {
+    "title": "Ordena por tamaño",
+    "instruction": "Numera los dibujos de cada recuadro del 1 (el más pequeño) al 3 (el más grande)."
+  },
+  "G1-480": {
+    "title": "Medir con clips",
+    "instruction": "¿Cuántos clips mide cada objeto? Escribe el número."
+  },
+  "G2-475": {
+    "title": "Reglas para recortar",
+    "instruction": "Imprimir en tamaño real (100 %). Recorta las reglas por las líneas punteadas."
+  },
+  "G2-477": {
+    "title": "¿Qué unidad de medida?",
+    "instruction": "En cada tarjeta, ¿qué unidad de medida usarías? Enciérrala en un círculo."
+  },
+  "G1-481": {
+    "title": "La gráfica de nuestro grupo",
+    "instruction": "Pregunta a tus compañeros cuál les gusta más. Haz una marca de conteo por cada respuesta. Después colorea un cuadro por cada marca."
+  },
+  "G1-482": {
+    "title": "Cuenta y haz la gráfica",
+    "instruction": "Cuenta cada tipo de dibujo. Colorea un cuadro de la gráfica por cada uno que cuentes."
   }
 }

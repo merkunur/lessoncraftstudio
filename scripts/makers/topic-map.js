@@ -183,6 +183,8 @@ const MAKERS = [
   },
   { id: 'telling-time', name: 'Telling Time', group: 'math', families: ['telling-time'], oldApps: [], lang: 'little',
     settings: ['to the hour / half / quarter / 5 min / minute', 'analog / digital / both', 'task: read / draw hands / match / elapsed / 12-24h', 'clock style: numbers, ticks, minute numbers'],
+    // built 2026-11-02 (types/_shared/clock-more.js + clock-tasks.js routine, lib/time-words.js, data/time/routine.js): G1-477 Time in
+    // Words, G1-478 My Day on the Clock, G1-479 Quarter Hours, G2-474 A.M. or P.M.?, G3-475 Elapsed Time on a Time Line, K-462 Make Your Own Clock
     newTemplates: [['Clock with written times ("half past three" in the language)', 'reading time words, the hard part in de/nl/sv (halb vier = 3:30)'], ['Daily routine timeline', 'time in context']],
     fable: ['Half-hour idioms invert across locales (de/nl/sv/da/no/fi "half four" = 3:30; en-US "half past three"). The time-words engine must be native per locale — confirm where it lives today (the activities clock-core has it) and reuse it rather than re-author.'],
     locale: ['en-US uses a.m./p.m. and 12-hour; most others teach 24-hour by grade 2'],
@@ -193,13 +195,18 @@ const MAKERS = [
     locale: ['en-US week starts Sunday; all other 10 start Monday', 'day/month capitalisation: en/de capitalised, es/pt/fr/it/nl/Nordic lower-case'],
     fable: [],
   },
-  { id: 'measurement', name: 'Measurement & Size', group: 'math', families: ['measurement', 'comparing-sizes'], oldApps: ['big-small'], lang: 'little',
+  { id: 'measurement', name: 'Measurement & Size', group: 'math', families: ['measurement', 'comparing-sizes'], oldApps: ['big-small'], oldAppTemplates: { 'big-small': 'K-463' }, lang: 'little',
     settings: ['attribute: size / height / length / weight / capacity / temperature', 'task: compare 2 / order 3-5 / measure with units / read scales', 'units: non-standard / customary (en-US) / metric'],
+    // built 2026-11-02 (types/_shared/measurement-more.js): K-463 Number the Sizes (the boxed sheet; big-small's ascending /
+    // descending), G1-480 Paper Clip Measuring, G2-475 Rulers to Cut Out, G2-476 Measure in Inches (en-US), G2-477 Which Unit?,
+    // G3-476 Degrees Fahrenheit (en-US); K-035 / K-036 / K-037 now draw only tall / long pictures (size-compare.js shape)
     newTemplates: [['Order by size (the screenshot sheet, 3 sizes of the same picture)', 'exists for 3-5 pictures; add the boxed 6-row layout'], ['Measure with paper clips / cubes', 'non-standard units, K-1'], ['Ruler to cut out', 'manipulative']],
     locale: ['en-US: inches, feet, pounds, cups, °F alongside metric where the grade uses it; all others metric only'],
     fable: ['en-US needs customary units (inches, pounds, °F) while the existing generator is metric. Decide unit systems per locale and whether rulers/scales/thermometers need a customary variant in the primitives.'],
   },
-  { id: 'graphs-data', name: 'Graphs & Data', group: 'math', families: ['graphing-data'], oldApps: ['chart-count'], lang: 'little',
+  { id: 'graphs-data', name: 'Graphs & Data', group: 'math', families: ['graphing-data'], oldApps: ['chart-count'], oldAppTemplates: { 'chart-count': 'G1-482' }, lang: 'little',
+    // built 2026-11-02 (types/_shared/graph-tasks.js modes survey + scene-fill): G1-481 Our Class Graph (material), G1-482 Count,
+    // Then Graph (the chart-count app: count the mixed pictures, colour a box for each); picture slots on every graph face
     settings: ['graph: pictograph / bar / tally / line plot', 'categories (pictures)', 'scale 1 / 2 / 5', 'task: read / build / answer'],
     newTemplates: [['Class survey blank graph', 'the class makes its own data'], ['Count the scene, then graph it', 'collect → organise → graph in one page']],
     fable: [],
@@ -378,7 +385,9 @@ const MAKERS = [
     newTemplates: [['Feelings check-in chart (week)', 'classroom routine']],
     fable: [],
   },
-  { id: 'health-safety', name: 'Healthy Habits & Road Safety', group: 'social', families: ['healthy-habits', 'road-safety'], oldApps: [], lang: 'bound',
+  // NOT BUILT (operator 2026-11-02: "Healthy Habits & Road Safety worksheet maker shouldn't be built") — kept here so every type
+  // still belongs to one topic; its types stay catalogue printables only
+  { id: 'health-safety', name: 'Healthy Habits & Road Safety', group: 'social', families: ['healthy-habits', 'road-safety'], oldApps: [], lang: 'bound', notBuilt: true,
     settings: ['topic', 'task'],
     locale: ['traffic signs differ: en-US MUTCD signs vs Vienna-convention signs in the other 10 (already handled in road-sign.js)'],
     newTemplates: [['My safe way to school (draw and label)', 'personal application']],

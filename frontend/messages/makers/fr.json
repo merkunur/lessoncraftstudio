@@ -48,7 +48,10 @@
     "fractions": "Les fractions",
     "multiplication-division": "Multiplication et division",
     "logic-puzzles": "Énigmes logiques",
-    "money": "La monnaie"
+    "money": "La monnaie",
+    "telling-time": "Lire l’heure",
+    "measurement": "Grandeurs et mesures",
+    "graphs-data": "Données et graphiques"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

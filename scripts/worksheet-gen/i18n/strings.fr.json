@@ -3723,5 +3723,53 @@
   "G1-476": {
     "title": "Détective des nombres",
     "instruction": "Les nombres mystères vont de 1 à {MAX}. Lis les indices et écris le nombre qui les respecte tous."
+  },
+  "G1-477": {
+    "title": "L’heure en lettres",
+    "instruction": "Lis l’heure écrite en lettres. Relie chaque horloge à l’heure qu’elle indique."
+  },
+  "G1-478": {
+    "title": "Ma journée en heures",
+    "instruction": "Lis ce qui se passe et à quelle heure. Dessine la petite et la grande aiguille sur chaque horloge."
+  },
+  "G1-479": {
+    "title": "Les quarts d’heure",
+    "instruction": "La grande aiguille est partie du 12. Colorie la partie de l’horloge qu’elle a déjà parcourue."
+  },
+  "G2-474": {
+    "title": "Quelle est la bonne heure ?",
+    "instruction": "Regarde l’image : à quelle heure cela se passe-t-il ? Entoure la bonne heure."
+  },
+  "G3-475": {
+    "title": "La durée sur une ligne du temps",
+    "instruction": "Repère le début et la fin sur la ligne du temps. Écris combien d’heures et de minutes se sont écoulées."
+  },
+  "K-462": {
+    "title": "Fabrique ton horloge",
+    "instruction": "Découpe l’horloge et les deux aiguilles. Fixe les aiguilles au centre avec une attache parisienne."
+  },
+  "K-463": {
+    "title": "Range par taille",
+    "instruction": "Numérote les images de chaque case de 1 (la plus petite) à 3 (la plus grande)."
+  },
+  "G1-480": {
+    "title": "Mesurer avec des trombones",
+    "instruction": "Combien de trombones mesure chaque objet ? Écris le nombre."
+  },
+  "G2-475": {
+    "title": "Règles à découper",
+    "instruction": "Imprimer en taille réelle (100 %). Découpe les règles le long des traits pointillés."
+  },
+  "G2-477": {
+    "title": "Quelle unité de mesure ?",
+    "instruction": "Pour chaque dessin, quelle unité de mesure choisirais-tu ? Entoure-la."
+  },
+  "G1-481": {
+    "title": "Le graphique de notre classe",
+    "instruction": "Demande à tes camarades ce qu’ils préfèrent. Fais un bâton pour chaque réponse. Colorie ensuite une case pour chaque bâton."
+  },
+  "G1-482": {
+    "title": "Compte, puis complète le graphique",
+    "instruction": "Compte chaque sorte d’images. Colorie une case du graphique pour chaque image comptée."
   }
 }

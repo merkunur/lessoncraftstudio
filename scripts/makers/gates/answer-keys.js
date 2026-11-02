@@ -45,6 +45,9 @@ const NO_KEY = {
   'G2-406': 'fraction strips to cut out (material)',
   'G3-411': 'times table keyring cards to cut out (material)',
   'G1-473': 'classroom store price tags and play money to cut out (material)',
+  'K-462': 'a clock face and two hands to cut out and fasten (material)',
+  'G2-475': 'four rulers to cut out at their real size (material)',
+  'G1-481': 'the class survey graph: the data come from the class, there is no right answer (material)',
 };
 
 (async () => {

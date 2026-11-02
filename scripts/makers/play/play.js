@@ -110,7 +110,7 @@ function pageOptions(i) {
   const ps = units.length ? { variant: t.copiesDiffer.includes(lvl) ? state.pages[i] : 1, unit: state.units[i] || units[0].id } : { variant: state.pages[i], unit: null };
   const keyAt = t.interactive || (t.keyLevels || []).includes(lvl);
   const ed = state.edits[i];
-  return { strings: pageStrings(i), locale: LANG, difficulty: lvl, theme: themeFor(t, (recipe.pages[i] && recipe.pages[i].theme) || state.pickedTheme), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: !!state.answerKey && keyAt, answerKeySuffix: tj.answerKey[LANG], overrides: ed && Object.keys(ed).length ? ed : null };
+  return { strings: pageStrings(i), locale: LANG, difficulty: lvl, theme: themeFor(t, (recipe.pages[i] && recipe.pages[i].theme) || state.pickedTheme), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: !!state.answerKey && keyAt, answerKeySuffix: tj.answerKey[LANG], overrides: ed && Object.keys(ed).length ? ed : null, baseStrings: state.texts[i] && Object.keys(state.texts[i]).length ? stringsFor(state.tpls[i], lvl) : null };
 }
 /* the teacher's drawing rides on the page (page-box coordinates, shell.js withInk) */
 const INK = { black: '#3A3530', blue: '#2A6FDB', red: '#D9443A', green: '#2E9E5B', orange: '#F28C28' };

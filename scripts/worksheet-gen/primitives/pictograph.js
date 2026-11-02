@@ -6,13 +6,15 @@
  * scale: one stamp = `scale` things; n must be divisible (half stamps NOT used
  * at K-3 except via halfOk which renders a half-clipped stamp).
  * emptyGrid renders the label column + empty cells (the child draws/colors).
+ * iconSlots (2026-11-02, makers): ['pic.0', …] — the row label picture carries the tap-to-edit slot of its category;
+ * absent (the catalogue), the output is byte-identical.
  * meta: { counts, scale }
  */
 'use strict';
 const tokens = require('./_tokens.js');
 const { svgRoot, el, roundedRect, line, label } = require('./_svg.js');
 
-function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowGap = 14, keyScale = 1 }, ctx) {
+function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowGap = 14, keyScale = 1, iconSlots = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const labelW = cell + 26;
   const maxStamps = slots || Math.max(...rows.map((r) => Math.ceil(r.n / scale)), 1);
@@ -26,7 +28,7 @@ function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowG
     const y = 5 + i * rowH;
     // label cell
     parts.push(roundedRect({ x: 2, y, w: labelW - 8, h: cell + 6, r: 8, fill: t.color.cream, strokeColor: t.color.grid, strokeWidth: 1.5 }));
-    parts.push(el('image', { href: r.iconHref, x: 8, y: y + 3, width: cell, height: cell, 'data-lcs-rowlabel': i }));
+    parts.push(el('image', { href: r.iconHref, x: 8, y: y + 3, width: cell, height: cell, 'data-lcs-rowlabel': i, ...(iconSlots && iconSlots[i] ? { 'data-lcs-slot': iconSlots[i] } : {}) }));
     parts.push(line({ x1: labelW, y1: y + cell + rowGap - 4, x2: W - 8, y2: y + cell + rowGap - 4, strokeColor: t.color.grid, strokeWidth: 1 }));
     const stamps = Math.round(r.n / scale);
     for (let k = 0; k < (emptyGrid ? maxStamps : stamps); k++) {

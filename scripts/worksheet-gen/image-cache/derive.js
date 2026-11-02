@@ -37,12 +37,14 @@ async function deriveAll() {
       made++;
     }
   }
-  return { made, skipped };
+  // a picture saved without transparency gets its white background cleared (clear-background.js, 2026-11-02)
+  const cleared = await require('./clear-background.js').clearAll();
+  return { made, skipped, cleared };
 }
 
 if (require.main === module) {
   deriveAll().then((r) => {
-    console.log(`derive: ${r.made} derived, ${r.skipped} up-to-date → ${DST}`);
+    console.log(`derive: ${r.made} derived, ${r.skipped} up-to-date → ${DST}` + (r.cleared.length ? `; backgrounds cleared: ${r.cleared.join(', ')}` : ''));
   }).catch((e) => { console.error(e); process.exit(1); });
 }
 

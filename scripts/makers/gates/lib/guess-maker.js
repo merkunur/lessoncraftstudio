@@ -22,7 +22,8 @@ const G = require(path.join(__dirname, '..', '..', '..', 'worksheet-gen', 'qa', 
 
 const MARGIN = G.MARGIN, PAGE_FRAC = G.PAGE_FRAC, WARN_MARGIN = 0.05, MIN_PAGE_Q = 4, Z_FAIL = 3.5, Z_WARN = 3.0;
 
-/** reading order: top to bottom (rows within 2 % of the page), then left to right */
+/** reading order: top to bottom (rows within 2 % of the page), then left to right — by each item's CENTRE (2026-11-02: by
+ * the top-left corner a big picture sorted before a small one beside it, and "the first half" looked like a tell on K-040) */
 function readingOrder(items) {
   return items.map((it, j) => ({ j, x: +it.x || 0, y: +it.y || 0 })).sort((a, b) => (Math.abs(a.y - b.y) > 2 ? a.y - b.y : a.x - b.x)).map((o) => o.j);
 }
@@ -42,15 +43,15 @@ function enrichMarks(model) {
   const out = [];
   for (const p of model.parts) {
     if (p.cls === 'choice') {
-      out.push({ kind: 'choice', items: p.items.map((it) => ({ options: it.options.map((o) => { const el = all[o.dom]; const r = el.getBoundingClientRect(); return { label: o.label, imgs: el.querySelectorAll('img').length + el.querySelectorAll('svg').length, area: r.width * r.height, x: o.x, y: o.y }; }), answer: it.answer })) });
+      out.push({ kind: 'choice', items: p.items.map((it) => ({ options: it.options.map((o) => { const el = all[o.dom]; const r = el.getBoundingClientRect(); return { label: o.label, imgs: el.querySelectorAll('img').length + el.querySelectorAll('svg').length, area: r.width * r.height, x: o.x + (o.w || 0) / 2, y: o.y + (o.h || 0) / 2 }; }), answer: it.answer })) });
     } else if (p.cls === 'select') {
-      out.push({ kind: 'select', items: p.items.map((it) => ({ x: it.x, y: it.y, answer: !!it.answer, group: it.meta['data-lcs-group'] || null, want: it.meta['data-lcs-want'] != null ? +it.meta['data-lcs-want'] : null })) });
+      out.push({ kind: 'select', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: !!it.answer, group: it.meta['data-lcs-group'] || null, want: it.meta['data-lcs-want'] != null ? +it.meta['data-lcs-want'] : null })) });
     } else if (p.cls === 'type') {
-      out.push({ kind: 'type', items: p.items.map((it, i) => { const el = all[it.dom]; const c = cardOf(el); let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll('[data-lcs-answer]').forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(it.answer), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, optional: el.hasAttribute('data-lcs-optional'), x: it.x, y: it.y }; }) });
+      out.push({ kind: 'type', items: p.items.map((it, i) => { const el = all[it.dom]; const c = cardOf(el); let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll('[data-lcs-answer]').forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(it.answer), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, optional: el.hasAttribute('data-lcs-optional'), x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2 }; }) });
     } else if (p.cls === 'pair') {
-      out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x, y: it.y, answer: String(it.answer) })), targets: p.targets.map((t) => ({ x: t.x, y: t.y, id: String(t.id) })) });
+      out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer) })), targets: p.targets.map((t) => ({ x: t.x + (t.w || 0) / 2, y: t.y + (t.h || 0) / 2, id: String(t.id) })) });
     } else if (p.cls === 'place') {
-      out.push({ kind: 'place', items: p.items.map((it) => ({ x: it.x, y: it.y, answer: String(it.answer) })), bins: p.bins.map((b) => ({ id: String(b.id), x: b.x, y: b.y })) });
+      out.push({ kind: 'place', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer) })), bins: p.bins.map((b) => ({ id: String(b.id), x: b.x + (b.w || 0) / 2, y: b.y + (b.h || 0) / 2 })) });
     }
   }
   return { bundles: out, page: { w: pr.width, h: pr.height } };
@@ -60,7 +61,7 @@ function enrichMarks(model) {
 function readDeclared(sp) {
   const page = document.querySelector('[data-lcs-page]');
   const pr = page.getBoundingClientRect();
-  const box = (el) => { const r = el.getBoundingClientRect(); return { x: ((r.left - pr.left) / pr.width) * 100, y: ((r.top - pr.top) / pr.height) * 100, area: r.width * r.height }; };
+  const box = (el) => { const r = el.getBoundingClientRect(); return { x: ((r.left + r.width / 2 - pr.left) / pr.width) * 100, y: ((r.top + r.height / 2 - pr.top) / pr.height) * 100, area: r.width * r.height }; };
   const items = Array.prototype.slice.call(document.querySelectorAll(sp.item));
   const cards = Array.prototype.slice.call(document.querySelectorAll('[data-lcs-card], .ws-card'));
   const nums = (s) => (String(s).match(/-?\d+/g) || []).map(Number);

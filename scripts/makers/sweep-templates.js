@@ -42,6 +42,8 @@ for (const id of ids) {
   const offered = builtThemes(id);
   const themes = !(type.themeAxis && type.themeAxis.applicable) ? [null] : offered || Object.keys(man).filter((t) => Object.values(man[t].nouns).filter((x) => x.vocabKey).length >= (type.themeAxis.minNouns || 6));
   for (const loc of L) for (const d of Object.keys(type.difficulty || { 2: 1 }).map(Number)) {
+    // a language without native strings is not offered (build-bundles.js refuses it the same way)
+    if (loc !== 'en' && resolveStrings(id, loc, type).source !== 'locale') continue;
     const s = withLevelInstruction(resolveStrings(id, loc, type), id, d, loc);
     for (const theme of themes) for (const v of [1, 2, 3]) {
       n++;

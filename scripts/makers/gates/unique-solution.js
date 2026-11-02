@@ -8,7 +8,8 @@
  * × copies 1-2 × en + fi, the page is built in Node (runtime.js makePage, the catalogue's seed rule) and every
  * `data-lcs-puzzle` stamp on it is read:
  *   1. the stamp carries CLUES ONLY — never a solution / values / weights key (a printed page leaks nothing);
- *   2. the stamp's exhaustive count (lib/logic-sudoku / -cages / -code / -balance countSolutions, limit 3) is exactly 1;
+ *   2. the stamp's exhaustive count (lib/logic-sudoku / -cages / -code / -balance countSolutions, limit 3; the G1-474
+ *      secret code = letters on each row's sum, the G1-475 rebuild = the ways to lay equal-answer pieces) is exactly 1;
  *   3. the answers the page carries for its key (the .ws-answerbox[data-lcs-answer] boxes inside that stamp's root, in
  *      DOM order) are that unique solution — so the key marks the one right answer and nothing else;
  *   4. a template that declares `puzzle: true` but stamps no puzzle, or stamps a kind this gate cannot count, fails.
@@ -51,6 +52,24 @@ function count(p) {
   }
   if (p.kind === 'code') { const n = ENGINES.code.countSolutions(p, 3); return n === 1 ? { n, answers: ENGINES.code.grade(p).values } : { n }; }
   if (p.kind === 'balance') { const n = ENGINES.balance.countSolutions(p, 3); return n === 1 ? { n, answers: ENGINES.balance.grade(p).weights } : { n }; }
+  // G1-474 the secret code: every row's sum is fixed by the printed values; a row has as many answers as the code has
+  // letters on its sum (0 = no letter, 2+ = two letters on one number); the answers are the sums, then the word
+  if (p.kind === 'secret') {
+    let n = 1;
+    const sums = p.rows.map((r) => r.terms.reduce((a, t) => a + p.vals[t], 0));
+    p.rows.forEach((r, i) => { if (sums[i] !== r.sum) n = 0; n *= p.code.filter((c) => c.n === sums[i]).length; });
+    if (n !== 1) return { n };
+    return { n, answers: sums.concat(sums.map((s) => p.code.find((c) => c.n === s).ch)) };
+  }
+  // G1-475 rebuild the picture: a piece fits every cell whose sum has its answer — the ways to lay the pieces are the
+  // product of the factorials of how often each answer repeats (no box on the page: the pieces are glued)
+  if (p.kind === 'rebuild') {
+    const ans = p.eqs.map((e) => (e.op === '-' ? e.a - e.b : e.a + e.b));
+    if (ans.some((a, i) => a !== p.eqs[i].ans)) return { n: 0 };
+    const fact = (k) => (k <= 1 ? 1 : k * fact(k - 1));
+    const n = Object.values(ans.reduce((m, a) => ((m[a] = (m[a] || 0) + 1), m), {})).reduce((x, k) => x * fact(k), 1);
+    return n === 1 ? { n, answers: [] } : { n };
+  }
   return { n: NaN };
 }
 /** a plain backtracking solve for a sudoku stamp (used only if the forced solver would not finish — it always does) */
@@ -72,10 +91,10 @@ function checkHtml(html, where) {
     for (const k of LEAK_KEYS) if (k in p) fails.push(where + ': puzzle ' + (i + 1) + ' stamp leaks "' + k + '"');
     const r = count(p);
     if (r.n !== 1) { fails.push(where + ': puzzle ' + (i + 1) + ' (' + p.kind + ') has ' + r.n + ' solutions'); return; }
-    const boxes = el.querySelectorAll('.ws-answerbox[data-lcs-answer]').map((b) => Number(b.getAttribute('data-lcs-answer')));
+    const boxes = el.querySelectorAll('.ws-answerbox[data-lcs-answer]').map((b) => b.getAttribute('data-lcs-answer'));
     if (boxes.length) {
       if (boxes.length !== r.answers.length) fails.push(where + ': puzzle ' + (i + 1) + ' has ' + boxes.length + ' boxes for ' + r.answers.length + ' answers');
-      else boxes.forEach((v, j) => { if (v !== r.answers[j]) fails.push(where + ': puzzle ' + (i + 1) + ' box ' + (j + 1) + ' holds ' + v + ', the unique solution is ' + r.answers[j]); });
+      else boxes.forEach((v, j) => { if (v !== String(r.answers[j])) fails.push(where + ': puzzle ' + (i + 1) + ' box ' + (j + 1) + ' holds ' + v + ', the unique solution is ' + r.answers[j]); });
     }
   });
   return fails;
@@ -83,6 +102,7 @@ function checkHtml(html, where) {
 
 (async () => {
   let fails = 0, pages = 0, puzzles = 0, templates = 0;
+  const other = {};   // a real secret-code page and a real rebuild page, for their poisons
   const fail = (m) => { fails++; console.log('FAIL ' + m); };
   for (const { maker, tj } of builtMakers(A.makers)) {
     for (const t of tj.templates) {
@@ -102,6 +122,7 @@ function checkHtml(html, where) {
         f.forEach(fail);
         puzzles += parse(r.html).querySelectorAll('[data-lcs-puzzle]').length;
         if (!sample && spec.id === 'G1-470') sample = r.html;
+        if (!other[spec.id] && (spec.id === 'G1-474' || spec.id === 'G1-475')) other[spec.id] = r.html;
       }
       // POISONS on a real number-sudoku page (both directions: the page itself passes above)
       if (sample) {
@@ -127,6 +148,28 @@ function checkHtml(html, where) {
       }
     }
   }
+  // POISONS on the secret code and rebuild the picture (both directions)
+  for (const [id, html] of Object.entries(other)) {
+    const raw = /data-lcs-puzzle="([^"]*)"/.exec(html)[1];
+    const p = JSON.parse(raw.replace(/&quot;/g, '"').replace(/&amp;/g, '&'));
+    const stamped = (o) => html.replace(raw, JSON.stringify(o).replace(/&/g, '&amp;').replace(/"/g, '&quot;'));
+    if (checkHtml(html, 'poison-control').length) fail('poison control: the real ' + id + ' page FAILED');
+    if (id === 'G1-474') {
+      // a second letter on the first row's number: two answers for that row
+      const two = { ...p, code: p.code.concat([{ n: p.rows[0].sum, ch: '#' }]) };
+      if (!checkHtml(stamped(two), 'poison').some((m) => / has 2 solutions/.test(m))) fail('poison (secret): two letters on one number PASSED');
+      // a wrong letter in the word boxes
+      const ch = p.word[0], needle = 'data-lcs-answer="' + ch + '"';
+      if (!html.includes(needle)) fail('poison (secret): no letter box found');
+      else if (!checkHtml(html.replace(needle, 'data-lcs-answer="' + (ch === 'Q' ? 'Z' : 'Q') + '"'), 'poison').some((x) => /unique solution is/.test(x))) fail('poison (secret): a wrong letter box PASSED');
+    } else {
+      // two sums with the same answer: two ways to lay those pieces
+      const eqs = p.eqs.map((e) => ({ ...e }));
+      eqs[1] = { ...eqs[0] };
+      if (!checkHtml(stamped({ ...p, eqs }), 'poison').some((m) => / has 2 solutions/.test(m))) fail('poison (rebuild): two equal answers PASSED');
+    }
+  }
+  if (!other['G1-474'] || !other['G1-475']) fail('the secret-code / rebuild poisons found no sample page');
   if (!templates) fail('no template declares puzzle: true in the makers checked (vacuous run)');
   console.log(`unique-solution: ${templates} puzzle templates, ${pages} pages, ${puzzles} puzzles counted, ${fails} failures`);
   process.exit(fails ? 1 : 0);

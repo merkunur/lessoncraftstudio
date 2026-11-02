@@ -34,7 +34,10 @@ function setClockRuntime() {
   function tip(k, w) { var a = (w === 'h' ? k.H : k.M) * Math.PI / 180, L = (w === 'h' ? 0.5 : 0.76) * k.R; return [k.cx + Math.sin(a) * L, k.cy - Math.cos(a) * L]; }
   function line(k, w, col, sw) { var t = tip(k, w); return '<line x1="' + k.cx.toFixed(1) + '" y1="' + k.cy.toFixed(1) + '" x2="' + t[0].toFixed(1) + '" y2="' + t[1].toFixed(1) + '" stroke="' + col + '" stroke-width="' + sw.toFixed(1) + '" stroke-linecap="round"/>'; }
   function knob(k, w, col, r) { var t = tip(k, w); return '<circle cx="' + t[0].toFixed(1) + '" cy="' + t[1].toFixed(1) + '" r="' + r.toFixed(1) + '" fill="' + col + '" stroke="#FFFFFF" stroke-width="3"/>'; }
-  function place(btn, k, w) { var t = tip(k, w); btn.style.left = (t[0] / VW * 100) + '%'; btn.style.top = (t[1] / VH * 100) + '%'; btn.setAttribute('aria-valuenow', String(Math.round(w === 'h' ? k.H : k.M))); }
+  // a handle stays a 48-px target on the screen: the maker's phone view scales the whole page down (.lcs-fit transform,
+  // ~0.47 at 360 px), so the button is drawn 48 / k px (2026-11-02: 23-px handles failed the declared-screens gate)
+  function fitK() { var r = ov.getBoundingClientRect(); return ov.offsetWidth ? Math.min(1, r.width / ov.offsetWidth) || 1 : 1; }
+  function place(btn, k, w) { var t = tip(k, w), px = Math.ceil(48 / fitK()) + 'px'; btn.style.width = px; btn.style.height = px; btn.style.left = (t[0] / VW * 100) + '%'; btn.style.top = (t[1] / VH * 100) + '%'; btn.setAttribute('aria-valuenow', String(Math.round(w === 'h' ? k.H : k.M))); }
   function draw() {
     var s = '';
     K.forEach(function (k) {
@@ -117,7 +120,8 @@ function setClockRuntime() {
     document.getElementById('lcs-cele-close').textContent = S.tryAgain;
     chk.addEventListener('click', check); rst.addEventListener('click', reset); document.getElementById('lcs-cele-close').addEventListener('click', reset);
     window.__lcsClock = { K: K, VW: VW, VH: VH };
-    draw();
+    window.addEventListener('resize', draw); window.addEventListener('load', draw);
+    draw(); requestAnimationFrame(draw);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 }

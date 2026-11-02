@@ -3717,5 +3717,53 @@
   "G1-476": {
     "title": "Talldetektiven",
     "instruction": "Det hemmelige tallet er et tall fra 1 til og med {MAX}. Les hintene og skriv tallet som passer med alle hintene."
+  },
+  "G1-477": {
+    "title": "Klokka i ord",
+    "instruction": "Les tiden i ord. Trekk en strek fra hver klokke til tiden den viser."
+  },
+  "G1-478": {
+    "title": "Dagen min på klokka",
+    "instruction": "Les hva som skjer og når. Tegn timeviseren og minuttviseren på hver klokke."
+  },
+  "G1-479": {
+    "title": "Kvarter på klokka",
+    "instruction": "Minuttviseren startet på 12. Fargelegg den delen av klokka som den allerede har gått forbi."
+  },
+  "G2-474": {
+    "title": "Hvilket klokkeslett passer?",
+    "instruction": "Se på bildet: når skjer det? Sett ring rundt riktig klokkeslett."
+  },
+  "G3-475": {
+    "title": "Tidsforskjell på en tidslinje",
+    "instruction": "Finn start og slutt på tidslinjen. Skriv hvor mange timer og minutter som har gått."
+  },
+  "K-462": {
+    "title": "Lag din egen klokke",
+    "instruction": "Klipp ut klokka og de to viserne. Fest viserne i midten med en splittbinders."
+  },
+  "K-463": {
+    "title": "Ordne etter størrelse",
+    "instruction": "Nummerer bildene i hver rute fra 1 (minst) til 3 (størst)."
+  },
+  "G1-480": {
+    "title": "Mål med binders",
+    "instruction": "Hvor mange binders lang er hver ting? Skriv tallet."
+  },
+  "G2-475": {
+    "title": "Linjaler til å klippe ut",
+    "instruction": "Skriv ut i faktisk størrelse (100 %). Klipp ut linjalene langs de stiplede linjene."
+  },
+  "G2-477": {
+    "title": "Hvilken enhet?",
+    "instruction": "Hvilken enhet ville du måle det med? Sett ring rundt den."
+  },
+  "G1-481": {
+    "title": "Klassens diagram",
+    "instruction": "Spør klassekameratene dine hvilken de liker best. Sett en strek for hvert svar. Fargelegg så en rute for hver strek."
+  },
+  "G1-482": {
+    "title": "Tell og lag diagrammet",
+    "instruction": "Tell hver sort bilde. Fargelegg en rute i diagrammet for hvert bilde du teller."
   }
 }

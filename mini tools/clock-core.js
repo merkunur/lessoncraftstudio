@@ -73,11 +73,11 @@ window.ClockCore = {
          de "fünf vor halb eins", nl "tien voor half tien") — each native
          author owns + states the mapping. EN authored here. ---- */
       "3:15":  {en:"quarter past 3",de:"Viertel nach 3",es:"las tres y cuarto",pt:"três e quinze",fr:"trois heures et quart",it:"le tre e un quarto",nl:"kwart over 3",sv:"kvart över 3",da:"kvart over 3",no:"kvart over 3",fi:"vartti yli kolme"},
-      "7:45":  {en:"quarter to 8",de:"Viertel vor 8",es:"las ocho menos cuarto",pt:"quinze para as oito",fr:"huit heures moins le quart",it:"le otto meno un quarto",nl:"kwart voor 8",sv:"kvart i 8",da:"kvart i 8",no:"kvart på 8",fi:"varttia vaille kahdeksan"},
+      "7:45":  {en:"quarter to 8",de:"Viertel vor 8",es:"un cuarto para las ocho",pt:"quinze para as oito",fr:"huit heures moins le quart",it:"le otto meno un quarto",nl:"kwart voor 8",sv:"kvart i 8",da:"kvart i 8",no:"kvart på 8",fi:"varttia vaille kahdeksan"},
       "6:10":  {en:"ten past 6",de:"zehn nach 6",es:"las seis y diez",pt:"seis e dez",fr:"six heures dix",it:"le sei e dieci",nl:"tien over 6",sv:"tio över 6",da:"ti minutter over 6",no:"ti over 6",fi:"kymmenen yli kuusi"},
       "9:20":  {en:"twenty past 9",de:"zwanzig nach 9",es:"las nueve y veinte",pt:"nove e vinte",fr:"neuf heures vingt",it:"le nove e venti",nl:"tien voor half tien",sv:"tjugo över 9",da:"ti i halv ti",no:"ti på halv 10",fi:"kymmentä vaille puoli kymmenen"},
-      "4:40":  {en:"twenty to 5",de:"zwanzig vor 5",es:"las cinco menos veinte",pt:"vinte para as cinco",fr:"cinq heures moins vingt",it:"le cinque meno venti",nl:"tien over half vijf",sv:"tjugo i 5",da:"ti over halv fem",no:"ti over halv 5",fi:"kymmenen yli puoli viisi"},
-      "1:50":  {en:"ten to 2",de:"zehn vor 2",es:"las dos menos diez",pt:"dez para as duas",fr:"deux heures moins dix",it:"le due meno dieci",nl:"tien voor 2",sv:"tio i 2",da:"ti i 2",no:"ti på 2",fi:"kymmentä vaille kaksi"},
+      "4:40":  {en:"twenty to 5",de:"zwanzig vor 5",es:"veinte para las cinco",pt:"vinte para as cinco",fr:"cinq heures moins vingt",it:"le cinque meno venti",nl:"tien over half vijf",sv:"tjugo i 5",da:"ti over halv fem",no:"ti over halv 5",fi:"kymmenen yli puoli viisi"},
+      "1:50":  {en:"ten to 2",de:"zehn vor 2",es:"diez para las dos",pt:"dez para as duas",fr:"deux heures moins dix",it:"le due meno dieci",nl:"tien voor 2",sv:"tio i 2",da:"ti i 2",no:"ti på 2",fi:"kymmentä vaille kaksi"},
       "10:05": {en:"five past 10",de:"fünf nach 10",es:"las diez y cinco",pt:"dez e cinco",fr:"dix heures cinq",it:"le dieci e cinque",nl:"vijf over 10",sv:"fem över 10",da:"fem over 10",no:"fem over 10",fi:"viisi yli kymmenen"},
       "12:25": {en:"twenty-five past 12",de:"fünf vor halb 1",es:"las doce y veinticinco",pt:"meio-dia e vinte e cinco",fr:"midi vingt-cinq",it:"mezzogiorno e venticinque",nl:"vijf voor half 1",sv:"fem i halv 1",da:"fem i halv 1",no:"fem på halv 1",fi:"viittä vaille puoli yksi"}
     },

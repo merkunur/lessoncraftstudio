@@ -48,7 +48,10 @@
     "fractions": "Brüche",
     "multiplication-division": "Malnehmen und Teilen",
     "logic-puzzles": "Logikrätsel",
-    "money": "Geld"
+    "money": "Geld",
+    "telling-time": "Uhrzeit lesen",
+    "measurement": "Größen und Messen",
+    "graphs-data": "Daten und Diagramme"
   },
   "editTitle": "Überschrift ändern",
   "editInstruction": "Arbeitsanweisung ändern",

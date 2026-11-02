@@ -42,7 +42,7 @@ const LEVELS = {
   words: { 1: { pairs: 4, minutes: [0, 30], maxH: 10 }, 2: { pairs: 5, minutes: [0, 15, 30, 45], maxH: 10, extra: 1 }, 3: { pairs: 5, minutes: [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55], maxH: 11, extra: 1 } },
   ampm: { 1: { cards: 6, step: 60 }, 2: { cards: 6, step: 30 }, 3: { cards: 6, step: 15 } },
   sector: { 1: { cards: 4, minutes: [15, 30], words: true }, 2: { cards: 4, minutes: [15, 30, 45], words: true }, 3: { cards: 6, minutes: [15, 30, 45], words: false } },
-  timeline: { 1: { cards: 3, step: 60, maxSpan: 300, hoursOnly: true }, 2: { cards: 3, step: 15, maxSpan: 225 }, 3: { cards: 3, step: 5, spanHours: 4, maxLine: 5 } },
+  timeline: { 1: { cards: 3, step: 60, maxSpan: 300, hoursOnly: true }, 2: { cards: 3, step: 15, maxSpan: 225 }, 3: { cards: 3, step: 5, spanHours: 4, maxLine: 5, startHour: 5 } },
   cutout: { 1: { ring: false, quarters: false }, 2: { ring: true, quarters: false }, 3: { ring: true, quarters: true } },
 };
 
@@ -196,7 +196,8 @@ function makeClockMoreType(cfg) {
         for (let i = 0; i < d.cards; i++) {
           let s = null;
           for (let t = 0; t < 400 && !s; t++) {
-            const start = rng.int(1, 10) * 60 + rng.int(0, 59 / d.step | 0) * d.step;
+            // level 3 starts at 5 o'clock or later: an early line printed the hours 1-4 that are its answers (settings-space echo)
+            const start = rng.int(d.startHour || 1, 10) * 60 + rng.int(0, 59 / d.step | 0) * d.step;
             // level 3 deals the hours (three different ones of 1-4, one per card) and draws the minutes apart (5-55): spans
             // drawn as one number were 1 or 2 hours on most cards, and writing "2" in every box beat chance
             // (settings-space const-2, 2026-11-02)

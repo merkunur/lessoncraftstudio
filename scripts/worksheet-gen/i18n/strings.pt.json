@@ -3771,10 +3771,34 @@
   },
   "G1-481": {
     "title": "O gráfico da nossa turma",
-    "instruction": "Pergunte aos colegas de qual eles gostam mais. Faça um tracinho para cada resposta. Depois pinte um quadrinho para cada tracinho."
+    "instruction": "Pergunte a 8 colegas de qual eles gostam mais. Faça um tracinho ao lado da figura escolhida. Depois pinte um quadrinho do gráfico para cada tracinho."
   },
   "G1-482": {
     "title": "Conte e faça o gráfico",
     "instruction": "Conte cada tipo de figura. Pinte um quadrinho do gráfico para cada figura que você contar."
+  },
+  "K-464": {
+    "title": "Desenhos com formas",
+    "instruction": "Pinte cada forma com a cor indicada na legenda. Depois conte cada tipo de forma e escreva quantas são no quadrinho."
+  },
+  "G3-477": {
+    "title": "Desenhe retângulos com a área dada",
+    "instruction": "Em cada malha quadriculada, desenhe um retângulo com a área indicada. Conte os quadradinhos de dentro para conferir."
+  },
+  "G2-478": {
+    "title": "Planificações para recortar e dobrar",
+    "instruction": "Recorte nas linhas contínuas. Dobre nas linhas tracejadas. Cole as abas cinza para montar um dado. Depois confira: as faces opostas somam 7 pontos."
+  },
+  "K-465": {
+    "title": "Trem dos padrões",
+    "instruction": "Olhe o padrão do trem. Recorte as figuras de baixo e cole cada uma no vagão vazio certo."
+  },
+  "K-466": {
+    "title": "Crie seu próprio padrão",
+    "instruction": "Recorte as figuras. Crie seu próprio padrão no trem e cole nos vagões."
+  },
+  "G1-483": {
+    "title": "Padrões numéricos",
+    "instruction": "Descubra a regra de cada linha. Escreva os números que faltam."
   }
 }

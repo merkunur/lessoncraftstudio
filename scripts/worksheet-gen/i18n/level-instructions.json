@@ -4424,5 +4424,104 @@
     "3": {
       "en": "Measure each object to the nearest inch. Write the number of inches."
     }
+  },
+  "G1-481": {
+    "2": {
+      "en": "Ask 10 classmates which one they like best. Make a tally mark next to their choice. Then color one box in the graph for each mark.",
+      "de": "Frage 10 Kinder aus deiner Klasse, was sie davon am liebsten mögen. Mache für jede Antwort einen Strich neben das Bild. Male dann im Diagramm für jeden Strich ein Kästchen an.",
+      "fr": "Demande à 10 camarades ce qu’ils préfèrent parmi ces images. Fais un bâton à côté de l’image choisie. Colorie ensuite une case du graphique pour chaque bâton.",
+      "es": "Pregunta a 10 compañeros cuál les gusta más. Haz una marca de conteo junto a su respuesta. Después colorea un cuadro de la gráfica por cada marca.",
+      "pt": "Pergunte a 10 colegas de qual eles gostam mais. Faça um tracinho ao lado da figura escolhida. Depois pinte um quadrinho do gráfico para cada tracinho.",
+      "it": "Chiedi a 10 compagni quale preferiscono. Fai una stanghetta accanto alla figura scelta. Poi colora un quadretto del grafico per ogni stanghetta.",
+      "nl": "Vraag 10 klasgenoten welke ze het liefst hebben. Zet een turfstreepje naast het plaatje dat ze kiezen. Kleur daarna in de grafiek een vakje voor elk turfstreepje.",
+      "sv": "Fråga 10 klasskamrater vilken de tycker bäst om. Gör ett streck vid bilden de väljer. Färglägg sedan en ruta i diagrammet för varje streck.",
+      "da": "Spørg 10 klassekammerater, hvilken de bedst kan lide. Lav en tællestreg ved det billede, de vælger. Farv så et felt i diagrammet for hver streg.",
+      "no": "Spør 10 klassekamerater hvilken de liker best. Sett en tellestrek ved bildet de velger. Fargelegg så en rute i diagrammet for hver strek.",
+      "fi": "Kysy 10 luokkakaverilta, mistä näistä he pitävät eniten. Merkitse jokainen vastaus viivalla valitun kuvan viereen. Väritä sitten kaaviosta yksi ruutu jokaista viivaa kohti."
+    },
+    "3": {
+      "en": "Ask 12 classmates which one they like best. Make a tally mark next to their choice. Then color one box in the graph for each mark.",
+      "de": "Frage 12 Kinder aus deiner Klasse, was sie davon am liebsten mögen. Mache für jede Antwort einen Strich neben das Bild. Male dann im Diagramm für jeden Strich ein Kästchen an.",
+      "fr": "Demande à 12 camarades ce qu’ils préfèrent parmi ces images. Fais un bâton à côté de l’image choisie. Colorie ensuite une case du graphique pour chaque bâton.",
+      "es": "Pregunta a 12 compañeros cuál les gusta más. Haz una marca de conteo junto a su respuesta. Después colorea un cuadro de la gráfica por cada marca.",
+      "pt": "Pergunte a 12 colegas de qual eles gostam mais. Faça um tracinho ao lado da figura escolhida. Depois pinte um quadrinho do gráfico para cada tracinho.",
+      "it": "Chiedi a 12 compagni quale preferiscono. Fai una stanghetta accanto alla figura scelta. Poi colora un quadretto del grafico per ogni stanghetta.",
+      "nl": "Vraag 12 klasgenoten welke ze het liefst hebben. Zet een turfstreepje naast het plaatje dat ze kiezen. Kleur daarna in de grafiek een vakje voor elk turfstreepje.",
+      "sv": "Fråga 12 klasskamrater vilken de tycker bäst om. Gör ett streck vid bilden de väljer. Färglägg sedan en ruta i diagrammet för varje streck.",
+      "da": "Spørg 12 klassekammerater, hvilken de bedst kan lide. Lav en tællestreg ved det billede, de vælger. Farv så et felt i diagrammet for hver streg.",
+      "no": "Spør 12 klassekamerater hvilken de liker best. Sett en tellestrek ved bildet de velger. Fargelegg så en rute i diagrammet for hver strek.",
+      "fi": "Kysy 12 luokkakaverilta, mistä näistä he pitävät eniten. Merkitse jokainen vastaus viivalla valitun kuvan viereen. Väritä sitten kaaviosta yksi ruutu jokaista viivaa kohti."
+    }
+  },
+  "G3-477": {
+    "2": {
+      "en": "Draw two different rectangles on each grid. Both must have the area shown. A turned rectangle is not a different one.",
+      "de": "Zeichne in jedes Kästchenfeld zwei verschiedene Rechtecke. Beide müssen den angegebenen Flächeninhalt haben. Ein gedrehtes Rechteck zählt nicht als anderes Rechteck.",
+      "fr": "Dans chaque quadrillage, dessine deux rectangles différents qui ont tous les deux l’aire indiquée. Un rectangle tourné n’est pas un rectangle différent.",
+      "es": "En cada cuadrícula dibuja dos rectángulos diferentes. Los dos deben tener el área indicada. Un rectángulo girado no cuenta como diferente.",
+      "pt": "Em cada malha quadriculada, desenhe dois retângulos diferentes. Os dois precisam ter a área indicada. Um retângulo girado não conta como diferente.",
+      "it": "In ogni griglia disegna due rettangoli diversi. Tutti e due devono avere l’area indicata. Un rettangolo girato non conta come diverso.",
+      "nl": "Teken in elk rooster twee verschillende rechthoeken. Ze moeten allebei de gegeven oppervlakte hebben. Een gedraaide rechthoek telt niet als een andere.",
+      "sv": "Rita två olika rektanglar i varje rutnät. Båda ska ha den area som står. En vriden rektangel räknas inte som en annan.",
+      "da": "Tegn to forskellige rektangler i hvert gitter. Begge skal have det viste areal. Et drejet rektangel tæller ikke som et andet.",
+      "no": "Tegn to forskjellige rektangler i hvert rutenett. Begge skal ha arealet som står. Et snudd rektangel teller ikke som et annet.",
+      "fi": "Piirrä jokaiseen ruudukkoon kaksi erilaista suorakulmiota. Kummallakin pitää olla annettu pinta-ala. Käännetty suorakulmio ei ole eri suorakulmio."
+    },
+    "3": {
+      "en": "On each grid, draw the rectangle that has both the area and the perimeter shown.",
+      "de": "Zeichne in jedes Kästchenfeld das Rechteck, das den angegebenen Flächeninhalt und auch den angegebenen Umfang hat.",
+      "fr": "Dans chaque quadrillage, dessine le rectangle qui a à la fois l’aire et le périmètre indiqués.",
+      "es": "En cada cuadrícula dibuja el rectángulo que tiene el área y también el perímetro indicados.",
+      "pt": "Em cada malha quadriculada, desenhe o retângulo que tem a área e também o perímetro indicados.",
+      "it": "In ogni griglia disegna il rettangolo che ha sia l’area sia il perimetro indicati.",
+      "nl": "Teken in elk rooster de rechthoek die de gegeven oppervlakte én de gegeven omtrek heeft.",
+      "sv": "Rita i varje rutnät den rektangel som har både den area och den omkrets som står.",
+      "da": "Tegn i hvert gitter det rektangel, der har både det viste areal og den viste omkreds.",
+      "no": "Tegn i hvert rutenett det rektangelet som har både arealet og omkretsen som står.",
+      "fi": "Piirrä jokaiseen ruudukkoon se suorakulmio, jolla on sekä annettu pinta-ala että annettu piiri."
+    }
+  },
+  "G2-478": {
+    "2": {
+      "en": "Cut on the solid lines. Fold on the dashed lines. Glue the gray tabs to make a box (a rectangular prism).",
+      "de": "Schneide an den durchgezogenen Linien aus. Falte an den gestrichelten Linien. Klebe die grauen Laschen fest, dann hast du einen Quader.",
+      "fr": "Découpe le long des traits pleins. Plie le long des pointillés. Colle les languettes grises pour faire un pavé droit.",
+      "es": "Recorta por las líneas continuas. Dobla por las líneas punteadas. Pega las pestañas grises para armar un prisma rectangular (una caja).",
+      "pt": "Recorte nas linhas contínuas. Dobre nas linhas tracejadas. Cole as abas cinza para montar um bloco retangular.",
+      "it": "Ritaglia lungo le linee continue. Piega lungo le linee tratteggiate. Incolla le alette grigie per fare un parallelepipedo.",
+      "nl": "Knip langs de doorgetrokken lijnen. Vouw langs de stippellijnen. Plak de grijze plakranden vast en je hebt een balk.",
+      "sv": "Klipp längs de heldragna linjerna. Vik längs de streckade linjerna. Limma fast de grå flikarna så får du ett rätblock.",
+      "da": "Klip langs de fuldt optrukne linjer. Fold langs de stiplede linjer. Lim de grå flapper fast, så får du en kasse.",
+      "no": "Klipp langs de heltrukne linjene. Brett langs de stiplede linjene. Lim fast de grå klaffene, så får du et prisme (en eske).",
+      "fi": "Leikkaa yhtenäisiä viivoja pitkin. Taita katkoviivoja pitkin. Liimaa harmaat liimaläpät kiinni, niin saat särmiön."
+    },
+    "3": {
+      "en": "Cut on the solid lines. Fold on the dashed lines. Glue the gray tabs to make a pyramid.",
+      "de": "Schneide an den durchgezogenen Linien aus. Falte an den gestrichelten Linien. Klebe die grauen Laschen fest, dann hast du eine Pyramide.",
+      "fr": "Découpe le long des traits pleins. Plie le long des pointillés. Colle les languettes grises pour faire une pyramide.",
+      "es": "Recorta por las líneas continuas. Dobla por las líneas punteadas. Pega las pestañas grises para armar una pirámide.",
+      "pt": "Recorte nas linhas contínuas. Dobre nas linhas tracejadas. Cole as abas cinza para montar uma pirâmide.",
+      "it": "Ritaglia lungo le linee continue. Piega lungo le linee tratteggiate. Incolla le alette grigie per fare una piramide.",
+      "nl": "Knip langs de doorgetrokken lijnen. Vouw langs de stippellijnen. Plak de grijze plakranden vast en je hebt een piramide.",
+      "sv": "Klipp längs de heldragna linjerna. Vik längs de streckade linjerna. Limma fast de grå flikarna så får du en pyramid.",
+      "da": "Klip langs de fuldt optrukne linjer. Fold langs de stiplede linjer. Lim de grå flapper fast, så får du en pyramide.",
+      "no": "Klipp langs de heltrukne linjene. Brett langs de stiplede linjene. Lim fast de grå klaffene, så får du en pyramide.",
+      "fi": "Leikkaa yhtenäisiä viivoja pitkin. Taita katkoviivoja pitkin. Liimaa harmaat liimaläpät kiinni, niin saat pyramidin."
+    }
+  },
+  "K-464": {
+    "3": {
+      "en": "Color the shapes to match the color key. Then count each kind of shape and write how many in its box. A turned shape is still the same shape.",
+      "de": "Male jede Form in der Farbe an, die sie unten hat. Zähle dann, wie viele es von jeder Form gibt, und schreibe die Zahl ins Kästchen. Eine gedrehte Form bleibt dieselbe Form.",
+      "fr": "Colorie chaque forme de la couleur indiquée en bas. Compte ensuite chaque sorte de forme et écris combien il y en a dans sa case. Une forme tournée reste la même forme.",
+      "es": "Colorea cada figura del color que indica la clave. Después cuenta cada tipo de figura y escribe cuántas hay en su cuadro. Una figura girada sigue siendo la misma figura.",
+      "pt": "Pinte cada forma com a cor indicada na legenda. Depois conte cada tipo de forma e escreva quantas são no quadrinho. Uma forma girada continua sendo a mesma forma.",
+      "it": "Colora ogni forma del colore indicato nella legenda. Poi conta le forme di ogni tipo e scrivi quante sono nel riquadro. Una forma girata resta la stessa forma.",
+      "nl": "Kleur elke vorm in de kleur die onderaan bij die vorm staat. Tel daarna hoeveel er van elke vorm zijn en schrijf het in het vakje. Een gedraaide vorm blijft dezelfde vorm.",
+      "sv": "Färglägg varje form med samma färg som formen längst ner. Räkna sedan hur många det finns av varje form och skriv antalet i rutan. En vriden form är fortfarande samma form.",
+      "da": "Farv hver figur med samme farve som figuren nederst. Tæl så, hvor mange der er af hver figur, og skriv tallet i feltet. En drejet figur er stadig den samme figur.",
+      "no": "Fargelegg hver form med samme farge som formen nederst. Tell så hvor mange det er av hver form, og skriv tallet i ruten. En snudd form er fortsatt den samme formen.",
+      "fi": "Väritä jokainen muoto samalla värillä kuin sama muoto alhaalla. Laske sitten, montako kutakin muotoa on, ja kirjoita luku ruutuun. Käännetty muoto on yhä sama muoto."
+    }
   }
 }

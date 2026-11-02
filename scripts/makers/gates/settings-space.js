@@ -68,6 +68,12 @@ const EXEMPT = {
   'G1-266': [/^const-\d+$/, 'number walls to 10 with bases 1-3: the sums of small numbers cluster on 3 and 4 (the level range is 2-8) — every new page caps one number at an eighth of its bricks where the range allows, and one number never completes a wall'],
   'G1-267': [/^(const-\d+|prev\+1|same-as-prev)$/, 'four-course walls of small numbers: the sums cluster on 3-5, and two neighbouring sums differ by the difference of the outer bricks ("one more than the brick before" is arithmetic; two bricks over mirrored bases — 1 2 1 → 3 3 — are equal) — the generator spreads every new page; one number never completes a wall'],
   'K-444': [/^same-as-prev$/, 'count on: the worked trail writes each number counted on, so the total repeats the last trail box'],
+  // the graph-building screens: a bar starts at the axis, so the boxes to fill are always the first ones of a row (or the
+  // bottom ones of a column) — HOW MANY is the task; where they sit is the graph's own convention
+  'G1-147': [/^(first-half|second-half|alternate-[01])$/, 'fill the picture graph: a row is filled from its label, how many boxes is the task'],
+  'G1-482': [/^(first-half|second-half|alternate-[01])$/, 'count the scene, then fill one box per picture from the row label: how many is the task'],
+  'G2-239': [/^(first-half|second-half|alternate-[01])$/, 'build the bar graph: a bar starts at the axis, its height is the task'],
+  'G3-334': [/^(first-half|second-half|alternate-[01])$/, 'build the scaled bar graph: a bar starts at the axis, its height is the task'],
   // the size pages: the child circles the biggest / tallest / longest picture — "pick the biggest" IS the skill
   'K-032': [/^area-max$/, 'circle the BIGGEST picture in each row: picking the biggest is the task'],
   'K-035': [/^area-max$/, 'circle the TALLEST picture in each row: the tallest of one picture drawn at several sizes is its biggest'],

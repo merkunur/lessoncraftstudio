@@ -12,6 +12,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 function makePatternType(cfg) {
   const { id, slug, unit, attribute, variant, i18n, repeats } = cfg;
@@ -41,19 +42,23 @@ function makePatternType(cfg) {
         const symbols = [...new Set(unit)];
         const elements = {};   // symbol -> {src, px, flip}
         const px = attribute === 'count' ? 34 : 52;
+        // maker (2026-11-02): a row's pictures are its slot (role row<i>: the unit's pictures, then the distractor); a
+        // teacher's picture replaces one of them wherever it stands in the row — no draw moves (catalogue unchanged)
+        const role = 'row' + i;
+        const tap = (k) => slot.attr(ctx, role, k);
         if (attribute === 'noun') {
-          const ns = rng.sample(pool, symbols.length + 1); // +1 distractor noun
-          symbols.forEach((s, k) => { elements[s] = { src: fileUri(theme, ns[k].noun), px }; });
-          elements._distractor = { src: fileUri(theme, ns[symbols.length].noun), px };
+          const ns = slot.pictures(ctx, rng.sample(pool, symbols.length + 1), pool, theme, role); // +1 distractor noun
+          symbols.forEach((s, k) => { elements[s] = { src: fileUri(theme, ns[k].noun), px, tap: tap(k) }; });
+          elements._distractor = { src: fileUri(theme, ns[symbols.length].noun), px, tap: tap(symbols.length) };
         } else {
-          const n = rng.pick(pool);
+          const n = slot.pictures(ctx, [rng.pick(pool)], pool, theme, role)[0];
           const src = fileUri(theme, n.noun);
           if (attribute === 'size') {
-            elements.A = { src, px: 60 }; elements.B = { src, px: 34 };
+            elements.A = { src, px: 60, tap: tap(0) }; elements.B = { src, px: 34, tap: tap(0) };
           } else if (attribute === 'flip') {
-            elements.A = { src, px }; elements.B = { src, px, flip: true };
+            elements.A = { src, px, tap: tap(0) }; elements.B = { src, px, flip: true, tap: tap(0) };
           } else if (attribute === 'count') {
-            elements.A = { src, px }; // counts derived from position below
+            elements.A = { src, px, tap: tap(0) }; // counts derived from position below
           }
         }
 
@@ -77,12 +82,12 @@ function makePatternType(cfg) {
             const count = growStart + slotIdx;
             const cpx = Math.min(px, Math.floor((slotPx - 14) / 2));
             const imgs = Array.from({ length: count }, () =>
-              `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:${cpx}px;height:${cpx}px">`).join('');
+              `<img class="ws-icon" src="${elements.A.src}" alt=""${elements.A.tap} style="width:${cpx}px;height:${cpx}px">`).join('');
             return `<span class="ws-pattern-slot" style="${slotStyle}" data-lcs-el="${count}"><span style="display:flex;flex-wrap:wrap;gap:2px;justify-content:center;max-width:${slotPx - 8}px">${imgs}</span></span>`;
           }
           const e = elements[sym];
           return `<span class="ws-pattern-slot" style="${slotStyle}" data-lcs-el="${sym}">` +
-            `<img class="ws-icon" src="${e.src}" alt="" style="width:${iconFit(e.px)}px;height:${iconFit(e.px)}px${e.flip ? ';transform:scaleY(-1)' : ''}"></span>`;
+            `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${iconFit(e.px)}px;height:${iconFit(e.px)}px${e.flip ? ';transform:scaleY(-1)' : ''}"></span>`;
         };
 
         let seq, answerSym, blankIdx, seqLen, blankIdx2 = -1, answerSym2 = null;
@@ -138,7 +143,7 @@ function makePatternType(cfg) {
           choices = rng.shuffle(opts).map((sym) => {
             const e = elements[sym];
             return {
-              html: `<img class="ws-icon" src="${e.src}" alt="" style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
+              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
               correct: false,
               sym,
             };
@@ -149,7 +154,7 @@ function makePatternType(cfg) {
           choices = rng.shuffle(opts).map((sym) => {
             const e = elements[sym];
             return {
-              html: `<img class="ws-icon" src="${e.src}" alt="" style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
+              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
               correct: sym === answerSym,
             };
           });

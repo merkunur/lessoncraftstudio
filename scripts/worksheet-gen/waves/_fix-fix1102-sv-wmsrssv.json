@@ -1,0 +1,137 @@
+{
+ "id": "wave-msrs-sv",
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live G1-140/G2-236 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "sv"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G1-140",
+  "G2-236"
+ ],
+ "levels": {
+  "G1-140": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "camping"
+    },
+    {
+     "copy": 2,
+     "theme": "dessert bw"
+    },
+    {
+     "copy": 3,
+     "theme": "ocean life"
+    },
+    {
+     "copy": 4,
+     "theme": "furniture bw"
+    },
+    {
+     "copy": 5,
+     "theme": "Things That Fly"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "household bw"
+    },
+    {
+     "copy": 3,
+     "theme": "Things That Fly"
+    },
+    {
+     "copy": 4,
+     "theme": "tools bw"
+    },
+    {
+     "copy": 5,
+     "theme": "clothing"
+    },
+    {
+     "copy": 6,
+     "theme": "animals bw"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "vegetables"
+    },
+    {
+     "copy": 2,
+     "theme": "valentine bw"
+    },
+    {
+     "copy": 3,
+     "theme": "camping"
+    },
+    {
+     "copy": 4,
+     "theme": "Christmas bw"
+    },
+    {
+     "copy": 5,
+     "theme": "ocean life"
+    }
+   ]
+  },
+  "G2-236": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "At the Supermarket"
+    },
+    {
+     "copy": 2,
+     "theme": "travel and holiday bw"
+    },
+    {
+     "copy": 3,
+     "theme": "furniture"
+    },
+    {
+     "copy": 4,
+     "theme": "animals bw 5"
+    },
+    {
+     "copy": 5,
+     "theme": "summer"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "animals bw 5"
+    },
+    {
+     "copy": 3,
+     "theme": "summer"
+    },
+    {
+     "copy": 4,
+     "theme": "classroom bw"
+    },
+    {
+     "copy": 5,
+     "theme": "around the house"
+    },
+    {
+     "copy": 6,
+     "theme": "food bw 2"
+    }
+   ]
+  }
+ }
+}

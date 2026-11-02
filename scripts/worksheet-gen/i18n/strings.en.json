@@ -3789,10 +3789,34 @@
   },
   "G1-481": {
     "title": "Our Class Graph",
-    "instruction": "Ask your classmates which one they like best. Make a tally mark for each answer. Then color one box for each mark."
+    "instruction": "Ask 8 classmates which one they like best. Make a tally mark next to their choice. Then color one box in the graph for each mark."
   },
   "G1-482": {
     "title": "Count, Then Graph",
-    "instruction": "Count each kind of picture. Color one box in the graph for each one you count."
+    "instruction": "Count each kind of picture. In the graph, color one box for each picture you count."
+  },
+  "K-464": {
+    "title": "Shape Pictures",
+    "instruction": "Color the shapes to match the color key. Then count each kind of shape and write how many in its box."
+  },
+  "G3-477": {
+    "title": "Draw Rectangles by Area",
+    "instruction": "Draw a rectangle on each grid with the area shown. Count the squares inside to check."
+  },
+  "G2-478": {
+    "title": "Nets to Cut and Fold",
+    "instruction": "Cut on the solid lines. Fold on the dashed lines. Glue the gray tabs to make a die. Then check: the dots on opposite faces add up to 7."
+  },
+  "K-465": {
+    "title": "Pattern Train",
+    "instruction": "Look at the pattern on the train. Cut out the pictures at the bottom and glue each one in the right empty wagon."
+  },
+  "K-466": {
+    "title": "Make Your Own Pattern",
+    "instruction": "Cut out the pictures. Make your own pattern on the train and glue it in the wagons."
+  },
+  "G1-483": {
+    "title": "Number Patterns",
+    "instruction": "Find the rule in each row. Write the missing numbers."
   }
 }

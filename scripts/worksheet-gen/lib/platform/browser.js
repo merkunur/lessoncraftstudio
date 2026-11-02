@@ -180,6 +180,8 @@ module.exports = {
   setAssetBase(base) { ASSET_BASE = String(base).replace(/\/+$/, ''); },
   readText,
   readJson(p) { const k = key(p); if (!(k in PRELOAD)) throw new PlatformMissing(p); const v = PRELOAD[k]; return typeof v === 'string' ? JSON.parse(v) : v; },
+  // binary files are not preloaded yet: the first maker that draws one (the family portraits) publishes them as assets
+  readBase64(p) { throw new Error('platform: binary files are not available in a maker yet: ' + key(p)); },
   // Picture files are not data: every derived 512 px picture is published, so the image cache "exists" for them.
   exists(p) { const k = key(p); return k in PRELOAD || k in DATA_MODULES || /^scripts\/worksheet-gen\/cache\/themes-512\//.test(k); },
   fileHref,

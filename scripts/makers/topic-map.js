@@ -212,6 +212,8 @@ const MAKERS = [
     fable: [],
   },
   { id: 'shapes-geometry', name: 'Shapes & Geometry', group: 'math', families: ['geometry', '2d-shapes'], oldApps: [], lang: 'little',
+    // built 2026-11-02: K-464 Shape Pictures (types/_shared/shape-pictures.js: a picture drawn from shapes, coloured by a shape
+    // key, each kind counted), G3-477 Draw Rectangles by Area and G2-478 Nets to Cut and Fold (types/_shared/geometry-more.js)
     settings: ['2D / 3D', 'shapes included', 'turned and stretched shapes on/off', 'task: name / count sides / faces / sort / draw on dots / perimeter / area'],
     newTemplates: [['Shape hunt in a picture', 'shapes in everyday objects'], ['Draw on grid paper: rectangles of a given area', 'area construction'], ['3D net to cut and fold', 'manipulative']],
     fable: [],
@@ -226,7 +228,9 @@ const MAKERS = [
     newTemplates: [['Treasure hunt: follow the steps (2 right, 3 up)', 'the old app\'s core, kept'], ['Draw your own map with a key', 'open task']],
     fable: [],
   },
-  { id: 'patterns', name: 'Patterns', group: 'math', families: ['patterns'], oldApps: ['pattern-train', 'pattern-worksheet'], lang: 'none',
+  { id: 'patterns', name: 'Patterns', group: 'math', families: ['patterns'], oldApps: ['pattern-train', 'pattern-worksheet'], oldAppTemplates: { 'pattern-train': 'K-465', 'pattern-worksheet': 'K-046' }, lang: 'none',
+    // built 2026-11-02 (types/_shared/patterns-more.js): K-465 Pattern Train (cut and glue: the pattern-train app), K-466 Make
+    // Your Own Pattern (material), G1-483 Number Patterns; every picture template's rows are picture slots (pattern-next.js)
     settings: ['pattern unit (AB, ABB, ABC, AABB, growing)', 'by picture / colour / size / shape / number', 'task: next / missing / make your own'],
     newTemplates: [['Number patterns (2, 4, 6, …)', 'patterns in numbers'], ['Make your own pattern (blank train)', 'creating, not only extending'], ['Pattern train to cut and glue', 'the old app\'s train format']],
     fable: [],

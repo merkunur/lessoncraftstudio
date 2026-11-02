@@ -1,0 +1,20 @@
+{
+ "id": "wave-time-fr",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "variantsPerType": 10,
+ "types": [
+  "G2-250",
+  "G3-355",
+  "G1-149"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

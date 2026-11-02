@@ -6,5 +6,5 @@ const { makeGraphType } = require('../_shared/graph-tasks.js');
 module.exports = makeGraphType({
   id: 'G1-482', slug: 'count-and-graph-the-scene', mode: 'scene-fill',
   difficulty: { 1: { cats: 3, maxN: 5 }, 2: { cats: 3, maxN: 8 }, 3: { cats: 4, maxN: 9 } },
-  i18n: { en: { title: "Count, Then Graph", instruction: "Count each kind of picture. Color one box in the graph for each one you count." } },
+  i18n: { en: { title: "Count, Then Graph", instruction: "Count each kind of picture. In the graph, color one box for each picture you count." } },
 });

@@ -51,7 +51,9 @@
     "money": "Penger",
     "telling-time": "Klokka",
     "measurement": "Måling og størrelse",
-    "graphs-data": "Diagrammer og data"
+    "graphs-data": "Diagrammer og data",
+    "shapes-geometry": "Former og geometri",
+    "patterns": "Mønstre"
   },
   "editTitle": "Endre overskriften",
   "editInstruction": "Endre instruksjonen",

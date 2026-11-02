@@ -66,24 +66,29 @@ for (const key of Object.keys(groups).sort()) {
     plans.push(Object.assign({}, base, { locales: [loc], types, levels,
       _note: NOTE + ': pinned re-generation of the live ' + types.join('/') + ' pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' }));
   } else {
-    // two themes per type in the numbered waves: pin each theme (the round-robin index has shifted since June)
+    // two themes per type in the numbered waves: pin each theme (the round-robin index has shifted since June). One plan
+    // per distinct THEME of a type (2026-11-02: a wave with two themes × two levels per type pinned its first theme twice
+    // — one plan per deck — and missed the second theme's pages)
     const byType = {};
     for (const d of decks) (byType[d.type] = byType[d.type] || []).push(d);
-    for (const k of [0, 1]) {
+    const themesOf = (t) => [...new Set(byType[t].map((d) => d.theme || null))].sort((a, b) => String(a).localeCompare(String(b)));
+    const K = Math.max(...types.map((t) => themesOf(t).length));
+    for (let k = 0; k < K; k++) {
       const ts = [], over = {};
       for (const t of types) {
-        const ds = byType[t].slice().sort((a, b) => a.deck_id.localeCompare(b.deck_id));
-        if (!ds[k]) continue;
+        const th = themesOf(t)[k];
+        if (th === undefined) continue;
         ts.push(t);
-        if (ds[k].theme) over[t] = ds[k].theme;
+        if (th) over[t] = th;
       }
-      if (ts.length) plans.push({ id: base.id, seedEpoch: base.seedEpoch || 1, locales: [loc], themes: base.themes, themesPerType: 1,
+      // every field of the source wave rides along (variantsPerType: a copies wave pinned without it lost copies 2-10)
+      if (ts.length) plans.push({ ...base, id: base.id, seedEpoch: base.seedEpoch || 1, locales: [loc], themes: base.themes, themesPerType: 1,
         difficulties: base.difficulties, types: ts, themeOverrides: over,
         _note: NOTE + ': pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.' });
     }
   }
   const files = plans.map((p, i) => {
-    const rel = 'waves/_fix-' + TAG + '-' + loc + '-' + ws + (plans.length > 1 ? '-' + 'ab'[i] : '') + '.json';
+    const rel = 'waves/_fix-' + TAG + '-' + loc + '-' + ws + (plans.length > 1 ? '-' + 'abcdefgh'[i] : '') + '.json';
     fs.writeFileSync(path.join(WG, rel), JSON.stringify(p, null, 1) + '\n');
     return rel;
   });

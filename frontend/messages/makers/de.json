@@ -51,7 +51,9 @@
     "money": "Geld",
     "telling-time": "Uhrzeit lesen",
     "measurement": "Größen und Messen",
-    "graphs-data": "Daten und Diagramme"
+    "graphs-data": "Daten und Diagramme",
+    "shapes-geometry": "Formen und Geometrie",
+    "patterns": "Muster"
   },
   "editTitle": "Überschrift ändern",
   "editInstruction": "Arbeitsanweisung ändern",

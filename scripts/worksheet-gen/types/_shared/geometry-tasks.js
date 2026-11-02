@@ -27,6 +27,7 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { themeEntry, fileUri, labelSafeNouns } = require('../../image-cache/resolve.js');
 const { SHAPES_2D, SHAPES_3D, SOLID_REAL_OBJECTS } = require('../../lib/shape-data.js');
 const SYM_REVIEW = require('../../data/symmetry-review.js');
+const slot = require('../../lib/slot.js');
 const { answerBox } = require('../../templates/components.js');
 const { svgRoot, el, roundedRect, line } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
@@ -380,11 +381,19 @@ function makeGeometryType(cfg) {
         if (mode === 'symmetry-yn') {
           const nSym = Math.min(nYn, sym.length);
           const picks = rng.shuffle([...sym.slice(0, nSym).map((n) => ({ n, s: true })), ...asym.slice(0, 2 * nYn - nSym).map((n) => ({ n, s: false }))]);
-          picks.forEach(({ n, s }) => {
+          // maker (2026-11-02): the symmetric pictures are one slot role, the lopsided ones another — a teacher's picture
+          // keeps its card's answer (a swap only takes a picture of the same reviewed class); the draws above stay put
+          const symIdx = [], asymIdx = [];
+          picks.forEach((x, k) => (x.s ? symIdx : asymIdx).push(k));
+          const symShown = slot.pictures(ctx, symIdx.map((k) => picks[k].n), symAll, theme, 'sym');
+          const asymShown = slot.pictures(ctx, asymIdx.map((k) => picks[k].n), asymAll, theme, 'asym');
+          symIdx.forEach((k, j) => { picks[k] = { n: symShown[j], s: true, tap: slot.attr(ctx, 'sym', j) }; });
+          asymIdx.forEach((k, j) => { picks[k] = { n: asymShown[j], s: false, tap: slot.attr(ctx, 'asym', j) }; });
+          picks.forEach(({ n, s, tap }) => {
             cards.push(
               `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-sym="${s ? 1 : 0}" data-lcs-noun="${theme}|${n.noun}">` +
               `<span style="position:relative;display:inline-block">` +
-              `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:120px;height:120px">` +
+              `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt=""${tap} style="width:120px;height:120px">` +
               `<span style="position:absolute;left:50%;top:-6px;bottom:-6px;width:0;border-left:3px dashed #F2784B"></span></span>` +
               `<div class="ws-choices">` +
               yesNoChips(s, (locale || 'en').slice(0, 2)) +
@@ -397,13 +406,17 @@ function makeGeometryType(cfg) {
         // the lopsided pictures are drawn without repeating one on the page while the theme has enough
         let bag = rng.shuffle(asym.slice());
         const drawAsym = (k) => { const outA = []; while (outA.length < k) { if (!bag.length) bag = rng.shuffle(asym.slice()); const n = bag.pop(); if (!outA.includes(n)) outA.push(n); } return outA; };
+        // maker (2026-11-02): each row's mirror picture is a slot of role sym (a symmetric picture only), each row's
+        // lopsided pictures a slot of role row<i> (lopsided only) — the row's answer cannot change; no draw moves
+        const symShown = slot.pictures(ctx, sym.slice(0, Math.min(d.rows, sym.length)), symAll, theme, 'sym');
         for (let i = 0; i < Math.min(d.rows, sym.length); i++) {
-          const opts = rng.shuffle([{ n: sym[i], ok: true }, ...(published ? rng.sample(asym, 2) : drawAsym(difficulty === 1 ? 1 : 2)).map((n) => ({ n, ok: false }))]);
+          const dis = slot.pictures(ctx, published ? rng.sample(asym, 2) : drawAsym(difficulty === 1 ? 1 : 2), asymAll, theme, 'row' + i);
+          const opts = rng.shuffle([{ n: symShown[i], ok: true, tap: slot.attr(ctx, 'sym', i) }, ...dis.map((n, j) => ({ n, ok: false, tap: slot.attr(ctx, 'row' + i, j) }))]);
           const chips = opts.map((o) =>
-            `<span class="ws-pattern-chip" style="width:96px;height:96px"${o.ok ? ' data-lcs-correct="1"' : ''} data-lcs-noun="${theme}|${o.n.noun}">` +
+            `<span class="ws-pattern-chip" style="width:96px;height:96px"${o.ok ? ' data-lcs-correct="1"' : ''} data-lcs-noun="${theme}|${o.n.noun}"${o.tap}>` +
             `<img class="ws-icon" src="${fileUri(theme, o.n.noun)}" alt="" style="width:70px;height:70px"></span>`).join('');
           cards.push(`<div class="ws-card-stage" style="justify-content:center;gap:26px">${chips}</div>`);
-          items.push({ ask: sym[i].noun, opts: opts.map((o) => ({ noun: o.n.noun, ok: o.ok })) });
+          items.push({ ask: symShown[i].noun, opts: opts.map((o) => ({ noun: o.n.noun, ok: o.ok })) });
         }
         return out(cardGrid({ cards, cols: 1, rows: cards.length }));
       }

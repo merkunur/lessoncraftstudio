@@ -48,6 +48,8 @@ const NO_KEY = {
   'K-462': 'a clock face and two hands to cut out and fasten (material)',
   'G2-475': 'four rulers to cut out at their real size (material)',
   'G1-481': 'the class survey graph: the data come from the class, there is no right answer (material)',
+  'G2-478': 'a net to cut out, fold and glue into a die, a box or a pyramid (material)',
+  'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',
 };
 
 (async () => {

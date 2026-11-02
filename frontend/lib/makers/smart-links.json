@@ -83,11 +83,11 @@
   },
   "pattern-train": {
    "maker": "patterns",
-   "template": null
+   "template": "K-465"
   },
   "pattern-worksheet": {
    "maker": "patterns",
-   "template": null
+   "template": "K-046"
   },
   "picture-path": {
    "maker": "mazes",

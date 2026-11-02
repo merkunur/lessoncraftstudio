@@ -3742,10 +3742,34 @@
   },
   "G1-481": {
     "title": "Luokkamme kaavio",
-    "instruction": "Kysy luokkatovereiltasi, mistä he pitävät eniten. Tee jokaisesta vastauksesta yksi viiva. Väritä sitten yksi ruutu jokaista viivaa kohti."
+    "instruction": "Kysy 8 luokkakaverilta, mistä näistä he pitävät eniten. Merkitse jokainen vastaus viivalla valitun kuvan viereen. Väritä sitten kaaviosta yksi ruutu jokaista viivaa kohti."
   },
   "G1-482": {
     "title": "Laske ja tee kaavio",
-    "instruction": "Laske jokainen kuvalaji. Väritä kaaviosta yksi ruutu jokaista laskemaasi kuvaa kohti."
+    "instruction": "Laske, montako kuvaa kutakin lajia on. Väritä kaaviosta yksi ruutu jokaista laskemaasi kuvaa kohti."
+  },
+  "K-464": {
+    "title": "Muodoista tehdyt kuvat",
+    "instruction": "Väritä jokainen muoto samalla värillä kuin sama muoto alhaalla. Laske sitten, montako kutakin muotoa on, ja kirjoita luku ruutuun."
+  },
+  "G3-477": {
+    "title": "Piirrä suorakulmioita pinta-alan mukaan",
+    "instruction": "Piirrä jokaiseen ruudukkoon suorakulmio, jolla on annettu pinta-ala. Tarkista laskemalla ruudut sen sisällä."
+  },
+  "G2-478": {
+    "title": "Kappaleiden verkot leikattaviksi ja taiteltaviksi",
+    "instruction": "Leikkaa yhtenäisiä viivoja pitkin. Taita katkoviivoja pitkin. Liimaa harmaat liimaläpät kiinni, niin saat nopan. Tarkista: vastakkaisten tahkojen pisteitä on yhteensä 7."
+  },
+  "K-465": {
+    "title": "Jonojuna",
+    "instruction": "Katso junan jonoa. Leikkaa alareunan kuvat ja liimaa jokainen oikeaan tyhjään vaunuun."
+  },
+  "K-466": {
+    "title": "Tee oma jono",
+    "instruction": "Leikkaa kuvat. Tee junaan oma jonosi ja liimaa se vaunuihin."
+  },
+  "G1-483": {
+    "title": "Lukujonot",
+    "instruction": "Etsi jokaisen rivin sääntö. Kirjoita puuttuvat luvut."
   }
 }

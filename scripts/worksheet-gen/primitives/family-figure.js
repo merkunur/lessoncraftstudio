@@ -20,7 +20,7 @@
  * px * 100 / 120; THROWS below MIN_PX 72.
  */
 'use strict';
-const fs = require('fs');
+const platform = require('../lib/platform/index.js');   // file reads go through the platform (the makers bundle this module)
 const path = require('path');
 const tokens = require('./_tokens.js');
 const { esc } = require('./_svg.js');
@@ -194,12 +194,12 @@ const PORTRAIT_DIR = path.join(__dirname, '..', 'data', 'b5', 'family-portraits'
 const PORTRAIT_SCALE = { elder: 1, adult: 1, child: 0.9, baby: 0.8 };
 let _portraits = null;
 function portraits() {
-  if (!_portraits) _portraits = JSON.parse(fs.readFileSync(path.join(PORTRAIT_DIR, 'manifest.json'), 'utf8')).portraits;
+  if (!_portraits) _portraits = platform.readJson(path.join(PORTRAIT_DIR, 'manifest.json')).portraits;
   return _portraits;
 }
 const _uri = new Map();
 function portraitUri(file) {
-  if (!_uri.has(file)) _uri.set(file, 'data:image/png;base64,' + fs.readFileSync(path.join(PORTRAIT_DIR, file)).toString('base64'));
+  if (!_uri.has(file)) _uri.set(file, 'data:image/png;base64,' + platform.readBase64(path.join(PORTRAIT_DIR, file)));
   return _uri.get(file);
 }
 const portraitCount = (age, sex) => (portraits()[age] && portraits()[age][sex] || []).length;

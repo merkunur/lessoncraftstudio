@@ -519,7 +519,9 @@
         "K-050",
         "K-052",
         "K-053",
-        "K-077"
+        "K-077",
+        "K-465",
+        "K-466"
       ],
       "verdict": "gap",
       "activities": [],
@@ -662,7 +664,8 @@
         "K-368",
         "K-241",
         "K-265",
-        "K-359"
+        "K-359",
+        "K-464"
       ],
       "verdict": "covered",
       "activities": [
@@ -2386,7 +2389,8 @@
       "code": "READINESS:patterns",
       "strand": "Patterns & Algebraic Readiness",
       "worksheets": [
-        "G1-155"
+        "G1-155",
+        "G1-483"
       ],
       "verdict": "gap",
       "activities": [],
@@ -3677,7 +3681,8 @@
       "worksheets": [
         "G2-242",
         "G2-245",
-        "G2-246"
+        "G2-246",
+        "G2-478"
       ],
       "verdict": "gap",
       "activities": [
@@ -4762,7 +4767,8 @@
       "code": "3.MD.C.7.a",
       "strand": "Measurement & Data",
       "worksheets": [
-        "G3-313"
+        "G3-313",
+        "G3-477"
       ],
       "verdict": "partial",
       "activities": [

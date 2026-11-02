@@ -3747,10 +3747,34 @@
   },
   "G1-481": {
     "title": "Il grafico della nostra classe",
-    "instruction": "Chiedi ai compagni quale preferiscono. Fai una stanghetta per ogni risposta. Poi colora un quadretto per ogni stanghetta."
+    "instruction": "Chiedi a 8 compagni quale preferiscono. Fai una stanghetta accanto alla figura scelta. Poi colora un quadretto del grafico per ogni stanghetta."
   },
   "G1-482": {
     "title": "Conta e completa il grafico",
-    "instruction": "Conta ogni tipo di figura. Colora un quadretto del grafico per ogni figura che conti."
+    "instruction": "Conta le figure di ogni tipo. Colora un quadretto del grafico per ogni figura che conti."
+  },
+  "K-464": {
+    "title": "Disegni con le forme",
+    "instruction": "Colora ogni forma del colore indicato nella legenda. Poi conta le forme di ogni tipo e scrivi quante sono nel riquadro."
+  },
+  "G3-477": {
+    "title": "Disegna rettangoli con l’area data",
+    "instruction": "In ogni griglia disegna un rettangolo con l’area indicata. Conta i quadretti all’interno per controllare."
+  },
+  "G2-478": {
+    "title": "Sviluppi da ritagliare e piegare",
+    "instruction": "Ritaglia lungo le linee continue. Piega lungo le linee tratteggiate. Incolla le alette grigie per fare un dado. Poi controlla: due facce opposte fanno 7 punti in tutto."
+  },
+  "K-465": {
+    "title": "Il treno delle sequenze",
+    "instruction": "Guarda la sequenza sul treno. Ritaglia le figure in basso e incolla ognuna nel vagone vuoto giusto."
+  },
+  "K-466": {
+    "title": "Inventa la tua sequenza",
+    "instruction": "Ritaglia le figure. Inventa la tua sequenza sul treno e incollala nei vagoni."
+  },
+  "G1-483": {
+    "title": "Sequenze di numeri",
+    "instruction": "Trova la regola di ogni riga. Scrivi i numeri che mancano."
   }
 }

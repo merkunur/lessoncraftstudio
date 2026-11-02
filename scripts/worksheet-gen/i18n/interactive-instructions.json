@@ -2130,17 +2130,17 @@
       "fi": "Lue tukkimiehen kirjanpito. Napauta yksi ruutu jokaista merkkiä kohti ja rakenna pylväät."
     },
     "buildScene": {
-      "en": "Count each kind of picture. Tap one box for each one you count.",
-      "de": "Zähle jede Sorte Bilder. Tippe für jedes Bild ein Kästchen an.",
-      "fr": "Compte chaque sorte d’images. Touche une case pour chaque image comptée.",
-      "es": "Cuenta cada tipo de dibujo. Toca un cuadro por cada uno que cuentes.",
-      "pt": "Conte cada tipo de figura. Toque em uma caixa para cada figura que você contar.",
-      "it": "Conta ogni tipo di figura. Tocca un riquadro per ogni figura che conti.",
-      "nl": "Tel elke soort plaatje. Tik voor elk plaatje dat je telt een vakje aan.",
-      "sv": "Räkna varje sorts bild. Tryck på en ruta för varje bild du räknar.",
-      "da": "Tæl hver slags billede. Tryk på et felt for hvert billede, du tæller.",
-      "no": "Tell hver sort bilde. Trykk på en rute for hvert bilde du teller.",
-      "fi": "Laske jokainen kuvalaji. Napauta yhtä ruutua jokaista laskemaasi kuvaa kohti."
+      "en": "Count each kind of picture. Tap one box in the graph for each picture you count.",
+      "de": "Zähle die Bilder jeder Sorte. Tippe im Diagramm für jedes gezählte Bild ein Kästchen an.",
+      "fr": "Compte les images de chaque sorte. Touche une case pour chaque image comptée.",
+      "es": "Cuenta cada tipo de dibujo. Toca un cuadro de la gráfica por cada dibujo que cuentes.",
+      "pt": "Conte cada tipo de figura. Toque em um quadrinho para cada figura que você contar.",
+      "it": "Conta le figure di ogni tipo. Tocca un quadretto per ogni figura che conti.",
+      "nl": "Tel de plaatjes van elke soort. Tik voor elk plaatje dat je telt een vakje aan.",
+      "sv": "Räkna bilderna av varje sort. Tryck på en ruta för varje bild du räknar.",
+      "da": "Tæl billederne af hver slags. Tryk på et felt for hvert billede, du tæller.",
+      "no": "Tell bildene av hver sort. Trykk på en rute for hvert bilde du teller.",
+      "fi": "Laske, montako kuvaa kutakin lajia on. Napauta kaaviosta yhtä ruutua jokaista laskemaasi kuvaa kohti."
     }
   },
   "hundreds-chart-puzzles": {

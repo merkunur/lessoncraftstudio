@@ -51,7 +51,9 @@
     "money": "Geld",
     "telling-time": "Klokkijken",
     "measurement": "Meten en grootte",
-    "graphs-data": "Grafieken en gegevens"
+    "graphs-data": "Grafieken en gegevens",
+    "shapes-geometry": "Vormen en meetkunde",
+    "patterns": "Patronen en reeksen"
   },
   "editTitle": "Titel aanpassen",
   "editInstruction": "Opdracht aanpassen",

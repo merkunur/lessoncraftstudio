@@ -51,7 +51,9 @@
     "money": "Il denaro",
     "telling-time": "Leggere l’orologio",
     "measurement": "Misure e grandezze",
-    "graphs-data": "Dati e grafici"
+    "graphs-data": "Dati e grafici",
+    "shapes-geometry": "Forme e geometria",
+    "patterns": "Sequenze"
   },
   "editTitle": "Modifica il titolo",
   "editInstruction": "Modifica la consegna",

@@ -51,7 +51,9 @@
     "money": "La monnaie",
     "telling-time": "Lire l’heure",
     "measurement": "Grandeurs et mesures",
-    "graphs-data": "Données et graphiques"
+    "graphs-data": "Données et graphiques",
+    "shapes-geometry": "Formes et géométrie",
+    "patterns": "Suites logiques"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

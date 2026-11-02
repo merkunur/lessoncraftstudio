@@ -3760,10 +3760,34 @@
   },
   "G1-481": {
     "title": "Klassens diagram",
-    "instruction": "Spør klassekameratene dine hvilken de liker best. Sett en strek for hvert svar. Fargelegg så en rute for hver strek."
+    "instruction": "Spør 8 klassekamerater hvilken de liker best. Sett en tellestrek ved bildet de velger. Fargelegg så en rute i diagrammet for hver strek."
   },
   "G1-482": {
     "title": "Tell og lag diagrammet",
-    "instruction": "Tell hver sort bilde. Fargelegg en rute i diagrammet for hvert bilde du teller."
+    "instruction": "Tell bildene av hver sort. Fargelegg en rute i diagrammet for hvert bilde du teller."
+  },
+  "K-464": {
+    "title": "Bilder av former",
+    "instruction": "Fargelegg hver form med samme farge som formen nederst. Tell så hvor mange det er av hver form, og skriv tallet i ruten."
+  },
+  "G3-477": {
+    "title": "Tegn rektangler etter areal",
+    "instruction": "Tegn i hvert rutenett et rektangel med arealet som står. Tell rutene inni for å sjekke."
+  },
+  "G2-478": {
+    "title": "Utbrettinger til å klippe og brette",
+    "instruction": "Klipp langs de heltrukne linjene. Brett langs de stiplede linjene. Lim fast de grå klaffene, så får du en terning. Sjekk: To motsatte sider har til sammen 7 prikker."
+  },
+  "K-465": {
+    "title": "Mønstertoget",
+    "instruction": "Se på mønsteret på toget. Klipp ut bildene nederst og lim hvert bilde i riktig tom vogn."
+  },
+  "K-466": {
+    "title": "Lag ditt eget mønster",
+    "instruction": "Klipp ut bildene. Lag ditt eget mønster på toget og lim det i vognene."
+  },
+  "G1-483": {
+    "title": "Tallmønstre",
+    "instruction": "Finn regelen i hver rad. Skriv tallene som mangler."
   }
 }

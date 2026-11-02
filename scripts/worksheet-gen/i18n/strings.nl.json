@@ -3765,10 +3765,34 @@
   },
   "G1-481": {
     "title": "De grafiek van onze klas",
-    "instruction": "Vraag je klasgenoten wat ze het leukst vinden. Zet een turfje voor elk antwoord. Kleur daarna een vakje voor elk turfje."
+    "instruction": "Vraag 8 klasgenoten welke ze het liefst hebben. Zet een turfstreepje naast het plaatje dat ze kiezen. Kleur daarna in de grafiek een vakje voor elk turfstreepje."
   },
   "G1-482": {
     "title": "Tel en maak de grafiek",
-    "instruction": "Tel elke soort plaatje. Kleur in de grafiek een vakje voor elk plaatje dat je telt."
+    "instruction": "Tel de plaatjes van elke soort. Kleur in de grafiek een vakje voor elk plaatje dat je telt."
+  },
+  "K-464": {
+    "title": "Plaatjes van vormen",
+    "instruction": "Kleur elke vorm in de kleur die onderaan bij die vorm staat. Tel daarna hoeveel er van elke vorm zijn en schrijf het in het vakje."
+  },
+  "G3-477": {
+    "title": "Rechthoeken tekenen met een gegeven oppervlakte",
+    "instruction": "Teken in elk rooster een rechthoek met de gegeven oppervlakte. Tel ter controle de hokjes erin."
+  },
+  "G2-478": {
+    "title": "Bouwplaten om te knippen en te vouwen",
+    "instruction": "Knip langs de doorgetrokken lijnen. Vouw langs de stippellijnen. Plak de grijze plakranden vast en je hebt een dobbelsteen. Controleer: twee vlakken tegenover elkaar hebben samen 7 ogen."
+  },
+  "K-465": {
+    "title": "De reekstrein",
+    "instruction": "Kijk naar de reeks op de trein. Knip de plaatjes onderaan uit en plak elk plaatje in de goede lege wagon."
+  },
+  "K-466": {
+    "title": "Maak je eigen reeks",
+    "instruction": "Knip de plaatjes uit. Maak je eigen reeks op de trein en plak hem in de wagons."
+  },
+  "G1-483": {
+    "title": "Getallenreeksen",
+    "instruction": "Zoek de regel in elke rij. Schrijf de getallen op die ontbreken."
   }
 }

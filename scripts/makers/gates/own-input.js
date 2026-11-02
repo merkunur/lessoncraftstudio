@@ -160,7 +160,11 @@ const lineCount = () => {
             const b = await M.mod.generate(o, M.mount);
             // the CONTENT is the same apart from the swapped picture's own name (a card may record its noun: K-002 cards carry
             // {count, noun, choices} — the counts and choices must not move, the noun does by design)
-            const sameBut = (m1, k1, m0, k0) => JSON.stringify(m1).split(JSON.stringify(k1)).join('"§"') === JSON.stringify(m0).split(JSON.stringify(k0)).join('"§"');
+            // (the name may also sit inside a recorded string — a graph's asks "rabbit:5" — so it is replaced wherever it stands
+            // as a whole word, not only as a JSON value of its own; 2026-11-02)
+            const esc = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const blank = (m, k) => JSON.stringify(m).replace(new RegExp('(?<![\\p{L}\\p{N}_])' + esc(k) + '(?![\\p{L}\\p{N}_])', 'gu'), '§');
+            const sameBut = (m1, k1, m0, k0) => blank(m1, k1) === blank(m0, k0);
             if (!b.ok) { out.push({ id: t.id, d, role: '-', base: false }); continue; }
             for (const role of Object.keys(b.slots || {})) {
               const s = b.slots[role];

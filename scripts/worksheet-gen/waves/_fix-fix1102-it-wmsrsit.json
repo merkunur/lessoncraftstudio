@@ -1,0 +1,137 @@
+{
+ "id": "wave-msrs-it",
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live G1-140/G2-236 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "it"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G1-140",
+  "G2-236"
+ ],
+ "levels": {
+  "G1-140": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "Things That Fly"
+    },
+    {
+     "copy": 2,
+     "theme": "animals bw 5"
+    },
+    {
+     "copy": 3,
+     "theme": "furniture"
+    },
+    {
+     "copy": 4,
+     "theme": "dessert bw"
+    },
+    {
+     "copy": 5,
+     "theme": "summer"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "food bw"
+    },
+    {
+     "copy": 3,
+     "theme": "shapes"
+    },
+    {
+     "copy": 4,
+     "theme": "home bw 2"
+    },
+    {
+     "copy": 5,
+     "theme": "beach"
+    },
+    {
+     "copy": 6,
+     "theme": "sports bw"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "pets"
+    },
+    {
+     "copy": 2,
+     "theme": "sea life bw"
+    },
+    {
+     "copy": 3,
+     "theme": "Things That Fly"
+    },
+    {
+     "copy": 4,
+     "theme": "travel and holiday bw"
+    },
+    {
+     "copy": 5,
+     "theme": "furniture"
+    }
+   ]
+  },
+  "G2-236": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "summer"
+    },
+    {
+     "copy": 2,
+     "theme": "objects bw"
+    },
+    {
+     "copy": 3,
+     "theme": "breakfast"
+    },
+    {
+     "copy": 4,
+     "theme": "travel and holiday bw"
+    },
+    {
+     "copy": 5,
+     "theme": "accessories"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "animals bw 5"
+    },
+    {
+     "copy": 3,
+     "theme": "furniture"
+    },
+    {
+     "copy": 4,
+     "theme": "apparel bw"
+    },
+    {
+     "copy": 5,
+     "theme": "At the Supermarket"
+    },
+    {
+     "copy": 6,
+     "theme": "beach bw"
+    }
+   ]
+  }
+ }
+}

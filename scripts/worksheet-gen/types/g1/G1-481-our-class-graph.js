@@ -6,5 +6,5 @@ const { makeGraphType } = require('../_shared/graph-tasks.js');
 module.exports = makeGraphType({
   id: 'G1-481', slug: 'our-class-graph', mode: 'survey',
   difficulty: { 1: { cats: 3, maxN: 8 }, 2: { cats: 4, maxN: 10 }, 3: { cats: 5, maxN: 12 } },
-  i18n: { en: { title: "Our Class Graph", instruction: "Ask your classmates which one they like best. Make a tally mark for each answer. Then color one box for each mark." } },
+  i18n: { en: { title: "Our Class Graph", instruction: "Ask 8 classmates which one they like best. Make a tally mark next to their choice. Then color one box in the graph for each mark." } },
 });

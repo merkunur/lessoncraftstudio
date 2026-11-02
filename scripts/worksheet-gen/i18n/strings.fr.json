@@ -3766,10 +3766,34 @@
   },
   "G1-481": {
     "title": "Le graphique de notre classe",
-    "instruction": "Demande à tes camarades ce qu’ils préfèrent. Fais un bâton pour chaque réponse. Colorie ensuite une case pour chaque bâton."
+    "instruction": "Demande à 8 camarades ce qu’ils préfèrent parmi ces images. Fais un bâton à côté de l’image choisie. Colorie ensuite une case du graphique pour chaque bâton."
   },
   "G1-482": {
     "title": "Compte, puis complète le graphique",
-    "instruction": "Compte chaque sorte d’images. Colorie une case du graphique pour chaque image comptée."
+    "instruction": "Compte les images de chaque sorte. Colorie une case du graphique pour chaque image comptée."
+  },
+  "K-464": {
+    "title": "Images de formes",
+    "instruction": "Colorie chaque forme de la couleur indiquée en bas. Compte ensuite chaque sorte de forme et écris combien il y en a dans sa case."
+  },
+  "G3-477": {
+    "title": "Dessine des rectangles d’aire donnée",
+    "instruction": "Dans chaque quadrillage, dessine un rectangle qui a l’aire indiquée. Compte les carreaux à l’intérieur pour vérifier."
+  },
+  "G2-478": {
+    "title": "Patrons à découper et à plier",
+    "instruction": "Découpe le long des traits pleins. Plie le long des pointillés. Colle les languettes grises pour faire un dé. Vérifie ensuite : deux faces opposées font 7 points en tout."
+  },
+  "K-465": {
+    "title": "Le train des suites",
+    "instruction": "Regarde la suite sur le train. Découpe les images du bas et colle chacune dans le bon wagon vide."
+  },
+  "K-466": {
+    "title": "Invente ta suite",
+    "instruction": "Découpe les images. Invente ta propre suite sur le train et colle-la dans les wagons."
+  },
+  "G1-483": {
+    "title": "Suites de nombres",
+    "instruction": "Trouve la règle de chaque ligne. Écris les nombres qui manquent."
   }
 }

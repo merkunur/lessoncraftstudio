@@ -51,7 +51,9 @@
     "money": "Penge",
     "telling-time": "Klokken",
     "measurement": "Måling og størrelse",
-    "graphs-data": "Diagrammer og data"
+    "graphs-data": "Diagrammer og data",
+    "shapes-geometry": "Figurer og geometri",
+    "patterns": "Mønstre"
   },
   "editTitle": "Ret overskriften",
   "editInstruction": "Ret instruktionen",

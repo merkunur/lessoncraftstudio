@@ -51,7 +51,9 @@
     "money": "Raha",
     "telling-time": "Kello",
     "measurement": "Mittaaminen ja koko",
-    "graphs-data": "Kaaviot ja tiedot"
+    "graphs-data": "Kaaviot ja tiedot",
+    "shapes-geometry": "Muodot ja geometria",
+    "patterns": "Jonot ja säännönmukaisuudet"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

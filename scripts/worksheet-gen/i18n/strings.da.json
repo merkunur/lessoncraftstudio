@@ -3751,10 +3751,34 @@
   },
   "G1-481": {
     "title": "Klassens diagram",
-    "instruction": "Spørg dine klassekammerater, hvilken de bedst kan lide. Lav en streg for hvert svar. Farv så et felt for hver streg."
+    "instruction": "Spørg 8 klassekammerater, hvilken de bedst kan lide. Lav en tællestreg ved det billede, de vælger. Farv så et felt i diagrammet for hver streg."
   },
   "G1-482": {
     "title": "Tæl og lav diagrammet",
-    "instruction": "Tæl hver slags billede. Farv et felt i diagrammet for hvert billede, du tæller."
+    "instruction": "Tæl billederne af hver slags. Farv et felt i diagrammet for hvert billede, du tæller."
+  },
+  "K-464": {
+    "title": "Billeder af figurer",
+    "instruction": "Farv hver figur med samme farve som figuren nederst. Tæl så, hvor mange der er af hver figur, og skriv tallet i feltet."
+  },
+  "G3-477": {
+    "title": "Tegn rektangler ud fra areal",
+    "instruction": "Tegn i hvert gitter et rektangel med det viste areal. Tæl ternene indeni for at tjekke."
+  },
+  "G2-478": {
+    "title": "Udfoldninger til at klippe og folde",
+    "instruction": "Klip langs de fuldt optrukne linjer. Fold langs de stiplede linjer. Lim de grå flapper fast, så får du en terning. Tjek: To modsatte sider har tilsammen 7 øjne."
+  },
+  "K-465": {
+    "title": "Mønstertoget",
+    "instruction": "Se på mønstret på toget. Klip billederne nederst ud, og lim hvert billede i den rigtige tomme vogn."
+  },
+  "K-466": {
+    "title": "Lav dit eget mønster",
+    "instruction": "Klip billederne ud. Lav dit eget mønster på toget, og lim det i vognene."
+  },
+  "G1-483": {
+    "title": "Talmønstre",
+    "instruction": "Find reglen i hver række. Skriv de tal, der mangler."
   }
 }

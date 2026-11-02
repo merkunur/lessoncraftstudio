@@ -3756,10 +3756,34 @@
   },
   "G1-481": {
     "title": "La gráfica de nuestro grupo",
-    "instruction": "Pregunta a tus compañeros cuál les gusta más. Haz una marca de conteo por cada respuesta. Después colorea un cuadro por cada marca."
+    "instruction": "Pregunta a 8 compañeros cuál les gusta más. Haz una marca de conteo junto a su respuesta. Después colorea un cuadro de la gráfica por cada marca."
   },
   "G1-482": {
     "title": "Cuenta y haz la gráfica",
-    "instruction": "Cuenta cada tipo de dibujo. Colorea un cuadro de la gráfica por cada uno que cuentes."
+    "instruction": "Cuenta cada tipo de dibujo. Colorea un cuadro de la gráfica por cada dibujo que cuentes."
+  },
+  "K-464": {
+    "title": "Dibujos con figuras",
+    "instruction": "Colorea cada figura del color que indica la clave. Después cuenta cada tipo de figura y escribe cuántas hay en su cuadro."
+  },
+  "G3-477": {
+    "title": "Dibuja rectángulos según el área",
+    "instruction": "En cada cuadrícula dibuja un rectángulo con el área indicada. Cuenta los cuadritos de adentro para comprobar."
+  },
+  "G2-478": {
+    "title": "Desarrollos para recortar y armar",
+    "instruction": "Recorta por las líneas continuas. Dobla por las líneas punteadas. Pega las pestañas grises para armar un dado. Luego comprueba: las caras opuestas suman 7 puntos."
+  },
+  "K-465": {
+    "title": "El tren de los patrones",
+    "instruction": "Mira el patrón del tren. Recorta los dibujos de abajo y pega cada uno en el vagón vacío correcto."
+  },
+  "K-466": {
+    "title": "Crea tu propio patrón",
+    "instruction": "Recorta los dibujos. Crea tu propio patrón en el tren y pégalo en los vagones."
+  },
+  "G1-483": {
+    "title": "Patrones de números",
+    "instruction": "Encuentra la regla de cada fila. Escribe los números que faltan."
   }
 }

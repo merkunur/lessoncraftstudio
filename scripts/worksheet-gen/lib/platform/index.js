@@ -100,6 +100,8 @@ module.exports = {
   REPO,
   readText: (p) => fs.readFileSync(p, 'utf8'),
   readJson: (p) => JSON.parse(fs.readFileSync(p, 'utf8')),
+  // a binary file as base64 (the family portraits, primitives/family-figure.js — 2026-11-02)
+  readBase64: (p) => fs.readFileSync(p).toString('base64'),
   exists: (p) => fs.existsSync(p),
   fileHref: (p) => url.pathToFileURL(p).href,
   sha1Bytes: (s) => crypto.createHash('sha1').update(s).digest(),

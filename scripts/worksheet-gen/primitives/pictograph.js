@@ -8,13 +8,15 @@
  * emptyGrid renders the label column + empty cells (the child draws/colors).
  * iconSlots (2026-11-02, makers): ['pic.0', …] — the row label picture carries the tap-to-edit slot of its category;
  * absent (the catalogue), the output is byte-identical.
+ * shade (2026-11-02, G1-482's key): with emptyGrid, the first n boxes of a row are drawn COLOURED (the child colours boxes,
+ * so the key shows coloured boxes, not pictures); absent, byte-identical.
  * meta: { counts, scale }
  */
 'use strict';
 const tokens = require('./_tokens.js');
 const { svgRoot, el, roundedRect, line, label } = require('./_svg.js');
 
-function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowGap = 14, keyScale = 1, iconSlots = null }, ctx) {
+function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowGap = 14, keyScale = 1, iconSlots = null, shade = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const labelW = cell + 26;
   const maxStamps = slots || Math.max(...rows.map((r) => Math.ceil(r.n / scale)), 1);
@@ -33,7 +35,9 @@ function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowG
     const stamps = Math.round(r.n / scale);
     for (let k = 0; k < (emptyGrid ? maxStamps : stamps); k++) {
       const x = labelW + k * (cell + 6);
-      if (emptyGrid) {
+      if (emptyGrid && shade && k < stamps) {
+        parts.push(roundedRect({ x, y: y + 3, w: cell, h: cell, r: 6, fill: t.color.tealSoft, strokeColor: t.color.teal, strokeWidth: 2, data: { 'data-lcs-stamp': i, 'data-lcs-shaded': 1 } }));
+      } else if (emptyGrid) {
         parts.push(roundedRect({ x, y: y + 3, w: cell, h: cell, r: 6, fill: t.color.white, strokeColor: t.color.grid, strokeWidth: 1.5, dash: '4 3', data: { 'data-lcs-emptycell': i } }));
       } else {
         parts.push(el('image', { href: r.iconHref, x, y: y + 3, width: cell, height: cell, 'data-lcs-stamp': i }));

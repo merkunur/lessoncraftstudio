@@ -1,0 +1,23 @@
+{
+ "id": "wave-002",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "vehicles",
+  "toys",
+  "shapes"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-150"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

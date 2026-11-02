@@ -51,7 +51,9 @@
     "money": "Pengar",
     "telling-time": "Klockan",
     "measurement": "Mätning och storlek",
-    "graphs-data": "Diagram och data"
+    "graphs-data": "Diagram och data",
+    "shapes-geometry": "Former och geometri",
+    "patterns": "Mönster"
   },
   "editTitle": "Ändra rubriken",
   "editInstruction": "Ändra instruktionen",

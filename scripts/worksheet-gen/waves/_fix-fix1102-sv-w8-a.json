@@ -1,0 +1,36 @@
+{
+ "id": "wave-008",
+ "seedEpoch": 1,
+ "locales": [
+  "sv"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "vehicles",
+  "toys",
+  "shapes"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-037",
+  "K-035",
+  "K-036",
+  "G1-140",
+  "G2-236",
+  "K-040",
+  "G1-149"
+ ],
+ "themeOverrides": {
+  "K-037": "shapes",
+  "K-035": "fruits",
+  "K-036": "toys",
+  "G1-140": "fruits",
+  "G2-236": "shapes",
+  "K-040": "fruits"
+ },
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

@@ -51,6 +51,10 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'G2-260', 'G2-263', 'G3-345', 'G3-346', 'G3-476', 'G2-475', 'G2-477',
   // Graphs & Data (2026-11-02): the line plots draw numbers and X marks only
   'G2-240', 'G3-335',
+  // Shapes & Geometry (2026-11-02): pictures drawn from shapes, grids, nets — no library picture or word pool
+  'K-464', 'G3-477', 'G2-478',
+  // Patterns (2026-11-02): G1-483 numbers only
+  'G1-483',
   // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
   'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots

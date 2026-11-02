@@ -33,8 +33,30 @@ const { answerBox } = require('../../templates/components.js');
 const { makeRng } = require('../../lib/rng.js');
 const { distinctPick } = require('../../lib/picture-distinct.js');
 const slot = require('../../lib/slot.js');
+const B2 = require('../../lib/b2-common.js');
 
 const FW = 640;   // the widest a graph may be: the 675-px body minus its frame
+/**
+ * The class survey's choices per theme (G1-481, native + pedagogy review 2026-11-02): a child can only say which one they
+ * like best of things they know — nectarine, pomegranate, papaya are no vote for a six-year-old. Everyday things only;
+ * a theme without a list is not offered for the survey (its pages cannot build).
+ */
+const SURVEY_CHOICES = {
+  fruits: ['apple', 'banana', 'orange', 'strawberry', 'pear', 'watermelon', 'cherry', 'peach', 'pineapple', 'blueberry', 'raspberry', 'kiwi'],
+  vegetables: ['carrot', 'corn', 'tomato', 'potato', 'broccoli', 'cucumber', 'pumpkin', 'lettuce', 'mushroom'],
+  pets: ['cat', 'dog', 'fish', 'rabbit', 'hamster', 'turtle', 'parrot', 'mouse'],
+  toys: ['ball', 'doll', 'kite', 'blocks', 'car', 'train', 'robot', 'bicycle', 'balloon', 'scooter', 'slide', 'swing'],
+  vehicles: ['car', 'bus', 'bicycle', 'train', 'airplane', 'boat', 'truck', 'helicopter', 'scooter', 'motorcycle', 'tractor', 'rocket'],
+  activities: ['soccer', 'swimming', 'dancing', 'reading', 'painting', 'biking', 'running', 'singing', 'skating', 'basketball', 'playground', 'jumping'],
+  'desserts and sweets': ['cake', 'cookie', 'cupcake', 'donut', 'lollipop', 'pancake', 'muffin', 'pie', 'popsicle', 'waffle'],
+  breakfast: ['cereal', 'toast', 'pancake', 'banana', 'apple', 'milk', 'juice', 'oatmeal', 'strawberry', 'orange'],
+  music: ['drum', 'guitar', 'piano', 'flute', 'trumpet', 'violin', 'xylophone'],
+  'zoo animals': ['lion', 'elephant', 'giraffe', 'monkey', 'zebra', 'tiger', 'bear', 'panda', 'kangaroo', 'hippopotamus'],
+  'farm animals': ['cow', 'pig', 'horse', 'sheep', 'chicken', 'duck', 'goat', 'rabbit', 'dog', 'cat'],
+  colors: ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'black', 'white', 'brown'],
+  'ocean life': ['fish', 'crab', 'dolphin', 'octopus', 'shark', 'whale', 'starfish', 'seal', 'jellyfish'],
+  'insects and bugs': ['butterfly', 'ladybug', 'bee', 'ant', 'snail', 'spider', 'caterpillar', 'dragonfly'],
+};
 const TEAL = '#146B5E', INK = '#3A3530';
 
 function distinctVals(rng, n, lo, hi) {
@@ -89,7 +111,8 @@ function makeGraphType(cfg) {
     levelSetWords(m) { return (m.asks || []).map(String); },
 
     build({ theme, difficulty, locale }, ctx) {
-      const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      // (the maker-only modes have no published catalogue face: their level 2, copy 1 builds its key like every page)
+      const published = mode !== 'scene-fill' && mode !== 'survey' && Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
       if (mode !== 'survey' && (!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
         // the build faces' key draws the graph FILLED: the same page again from a fresh stream of the same seed
@@ -101,7 +124,12 @@ function makeGraphType(cfg) {
       const sc = scale || 1;
       const lv = Number(difficulty);
       // the draws below keep their published order (the published pages keep their numbers)
-      const pool = labelSafeNouns(theme);
+      // the class survey names its choices (a class votes for a WORD it can read aloud, not a picture to guess): only
+      // pictures with a word in the page's language (and not a word the vocabulary has wrong there: lib/b2-common.js)
+      const L2 = (locale || 'en').slice(0, 2);
+      const wordOf = (n) => { const e = !B2.excluded(n.vocabKey, L2) && B2.vocab()[n.vocabKey] && B2.vocab()[n.vocabKey][L2]; return e && e[0] ? B2.displayWord(e[0], L2) : null; };
+      const pool = mode === 'survey' ? labelSafeNouns(theme).filter((n) => (SURVEY_CHOICES[theme] || []).includes(n.vocabKey) && wordOf(n)) : labelSafeNouns(theme);
+      if (mode === 'survey' && pool.length < d.cats + 2) throw new Error(`${id}: theme ${theme} has no class-survey choices (${pool.length} everyday pictures with a word in ${L2})`);
       let nouns = rng.sample(pool, d.cats);
       let values;
       if (mode === 'tally-fill') {
@@ -192,7 +220,9 @@ function makeGraphType(cfg) {
         const cards = nouns.map((n, i) => card(ICON(hrefs[i], 44) + (tally ? tallyPrim({ n: values[i], strokeH: 40 }).svg : NUMTXT(values[i], 34)),
           tally ? ` data-lcs-tallycat="${i}" data-lcs-catn="${values[i]}"` : ` data-lcs-row="${i}" data-lcs-rown="${values[i]}"`));
         const tableH = tally && nouns.length === 4 ? 170 : 86;
-        const g = barGraph({ values: ctx.keyFill ? values : values.map(() => 0), iconHrefs: hrefs, iconSlots: iconSlots(nouns.length), yMax, w: FW, h: Math.min(580, 800 - tableH - 120),
+        // the key's title carries its suffix and may take a second line (fi "— Vastausavain", 2026-11-02: 12 px into the
+        // footer): the filled graph of a key is 40 px shorter; the worksheet page is unchanged
+        const g = barGraph({ values: ctx.keyFill ? values : values.map(() => 0), iconHrefs: hrefs, iconSlots: iconSlots(nouns.length), yMax, w: FW, h: Math.min(580, 800 - tableH - 120) - (ctx.keyFill || ctx.answerKey ? 40 : 0),
           padL: 58, padB: 78, fontSize: 20, iconSize: 58, barMax: 110 });
         body = column(grid(cards, tally ? (nouns.length === 4 ? 2 : 3) : nouns.length, 14) + frame(g.svg), dataAttr());
         C.items = nouns.map((n, i) => ({ noun: n.noun, v: values[i] }));
@@ -240,8 +270,9 @@ function makeGraphType(cfg) {
         // most and one more, never the largest count (a row that is full would give it away)
         const yMax = d.maxN + 1;
         const cell = pictCell(yMax, nouns.length > 3 ? 54 : 72);
+        // the key colours the boxes the child colours (the reviewer: a key of small pictures did not show "colour one box")
         const g = pictograph({ rows: nouns.map((nn, i) => ({ iconHref: hrefs[i], n: values[i] })), cell, rowGap: Math.round(cell * 0.45), iconSlots: iconSlots(nouns.length),
-          ...(ctx.keyFill ? { slots: yMax } : { emptyGrid: true, slots: yMax }) });
+          emptyGrid: true, slots: yMax, ...(ctx.keyFill ? { shade: true } : {}) });
         body = column(frame(`<div style="position:relative;width:${AW}px;height:${FH}px" data-lcs-field>${field}</div>`, ' data-ws-content') + frame(g.svg), dataAttr(` data-lcs-ymax="${yMax}"`));
         C.items = nouns.map((nn, i) => ({ noun: nn.noun, v: values[i] }));
         C.order = order;
@@ -253,7 +284,8 @@ function makeGraphType(cfg) {
         const hrefs = nouns.map(hrefOf);
         const few = nouns.length <= 3;   // three pictures: bigger rows and boxes (a page fills its body)
         const tallyRows = nouns.map((nn, i) => `<div style="display:flex;align-items:center;gap:16px;padding:${few ? 14 : 6}px 14px;${i ? 'border-top:2px solid #F0E4CB;' : ''}" data-lcs-survey-row="${i}">` +
-          ICON(hrefs[i], few ? 54 : 38) + `<span style="flex:1 1 auto;height:40px;border-bottom:2.5px dashed #C9BBA2"></span></div>`).join('');
+          ICON(hrefs[i], few ? 54 : 38) + `<span style="flex:0 0 ${few ? 150 : 140}px;font-family:'Nunito';font-weight:800;font-size:${few ? 24 : 21}px;line-height:1.1;color:${INK};overflow-wrap:anywhere" data-lcs-survey-word>${wordOf(nn)}</span>` +
+          `<span style="flex:1 1 auto;height:40px;border-bottom:2.5px dashed #C9BBA2"></span></div>`).join('');
         const table = `<div style="width:${FW - 40}px;box-sizing:border-box;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:14px" data-lcs-survey-table>${tallyRows}</div>`;
         const cell = pictCell(d.maxN, nouns.length > 4 ? 46 : nouns.length > 3 ? 52 : 66);
         const g = pictograph({ rows: nouns.map((nn, i) => ({ iconHref: hrefs[i], n: 0 })), cell, rowGap: Math.round(cell * 0.4), iconSlots: iconSlots(nouns.length), emptyGrid: true, slots: d.maxN });
@@ -423,6 +455,7 @@ function makeGraphType(cfg) {
           const wrap = document.querySelector('[data-lcs-survey]');
           const n = +wrap.dataset.lcsSurvey;
           if (wrap.querySelectorAll('[data-lcs-survey-row]').length !== n) fails.push('a tally line per picture');
+          wrap.querySelectorAll('[data-lcs-survey-row]').forEach((r, i) => { const w = r.querySelector('[data-lcs-survey-word]'); if (!w || !w.textContent.trim()) fails.push(`survey row ${i + 1}: no word names its picture`); else if (w.scrollWidth > w.clientWidth + 1 || w.getBoundingClientRect().height > 60) fails.push(`survey row ${i + 1}: the word "${w.textContent}" does not fit`); });
           const svg = wrap.querySelector('[data-lcs-prim="pictograph"]');
           if (svg.querySelectorAll('[data-lcs-stamp]').length !== 0) fails.push('the graph must start empty');
           for (let i = 0; i < n; i++) if (svg.querySelectorAll(`[data-lcs-emptycell="${i}"]`).length !== +wrap.dataset.lcsYmax) fails.push(`row ${i + 1}: not ${wrap.dataset.lcsYmax} boxes`);

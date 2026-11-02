@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 938,
+ "count": 944,
  "failures": [],
  "rows": [
   {
@@ -9527,6 +9527,78 @@
    "teachingPoint": "K:order-by-size",
    "skill": "Seriate 3–5 pictures by size or height (smallest → biggest, shortest → tallest)",
    "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "K-464",
+   "file": "scripts/worksheet-gen/types/k/K-464-shape-pictures.js",
+   "grade": "K",
+   "slug": "shape-pictures",
+   "family": "2d-shapes",
+   "variationOf": null,
+   "title": "Shape Pictures",
+   "instruction": "Color the shapes to match the color key. Then count each kind of shape and write how many in its box.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/shape-pictures.js"
+   ],
+   "teachingPoint": "K:shape-naming",
+   "skill": "Name 2D shapes in any orientation or proportion; follow a shape-coded key; count triangles and squares in a figure",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "K-465",
+   "file": "scripts/worksheet-gen/types/k/K-465-pattern-train-cut-and-glue.js",
+   "grade": "K",
+   "slug": "pattern-train-cut-and-glue",
+   "family": "patterns",
+   "variationOf": null,
+   "title": "Pattern Train",
+   "instruction": "Look at the pattern on the train. Cut out the pictures at the bottom and glue each one in the right empty wagon.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/patterns-more.js"
+   ],
+   "teachingPoint": "K:patterns",
+   "skill": "Repeating patterns AB / ABC / AABB by picture, size, position and shape — extend, fill the missing element — and growing patterns",
+   "strand": "Patterning",
+   "science": false
+  },
+  {
+   "id": "K-466",
+   "file": "scripts/worksheet-gen/types/k/K-466-make-your-own-pattern.js",
+   "grade": "K",
+   "slug": "make-your-own-pattern",
+   "family": "patterns",
+   "variationOf": null,
+   "title": "Make Your Own Pattern",
+   "instruction": "Cut out the pictures. Make your own pattern on the train and glue it in the wagons.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/patterns-more.js"
+   ],
+   "teachingPoint": "K:patterns",
+   "skill": "Repeating patterns AB / ABC / AABB by picture, size, position and shape — extend, fill the missing element — and growing patterns",
+   "strand": "Patterning",
    "science": false
   },
   {
@@ -19595,7 +19667,7 @@
    "family": "graphing-data",
    "variationOf": null,
    "title": "Our Class Graph",
-   "instruction": "Ask your classmates which one they like best. Make a tally mark for each answer. Then color one box for each mark.",
+   "instruction": "Ask 8 classmates which one they like best. Make a tally mark next to their choice. Then color one box in the graph for each mark.",
    "assetClass": "graphs",
    "themed": true,
    "levels": 3,
@@ -19620,7 +19692,7 @@
    "family": "graphing-data",
    "variationOf": null,
    "title": "Count, Then Graph",
-   "instruction": "Count each kind of picture. Color one box in the graph for each one you count.",
+   "instruction": "Count each kind of picture. In the graph, color one box for each picture you count.",
    "assetClass": "graphs",
    "themed": true,
    "levels": 3,
@@ -19635,6 +19707,34 @@
    "teachingPoint": "1:picture-graphs-sort-count",
    "skill": "Sort a mixed set into a table, read a picture graph (one picture per thing), find the most, how many more",
    "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-483",
+   "file": "scripts/worksheet-gen/types/g1/G1-483-number-patterns.js",
+   "grade": "G1",
+   "slug": "number-patterns",
+   "family": "patterns",
+   "variationOf": null,
+   "title": "Number Patterns",
+   "instruction": "Find the rule in each row. Write the missing numbers.",
+   "assetClass": "number-sense",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "len",
+    "blanks",
+    "steps",
+    "dir"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/patterns-more.js"
+   ],
+   "teachingPoint": "1:patterns-missing",
+   "skill": "Complete a repeating pattern with two missing items",
+   "strand": "Patterns & Algebraic Readiness",
    "science": false
   },
   {
@@ -26452,6 +26552,30 @@
    "science": false
   },
   {
+   "id": "G2-478",
+   "file": "scripts/worksheet-gen/types/g2/G2-478-nets-to-cut-and-fold.js",
+   "grade": "G2",
+   "slug": "nets-to-cut-and-fold",
+   "family": "geometry",
+   "variationOf": null,
+   "title": "Nets to Cut and Fold",
+   "instruction": "Cut on the solid lines. Fold on the dashed lines. Glue the gray tabs to make a die. Then check: the dots on opposite faces add up to 7.",
+   "assetClass": "manipulatives",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/geometry-more.js"
+   ],
+   "teachingPoint": "2:3d-faces-edges-vertices",
+   "skill": "Count the faces, edges and vertices of cubes, prisms, pyramids, cylinders and cones",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
    "id": "G3-301",
    "file": "scripts/worksheet-gen/types/g3/G3-301-arrays-to-10x10.js",
    "grade": "G23",
@@ -29713,6 +29837,37 @@
    ],
    "teachingPoint": "3:thermometer",
    "skill": "Read a thermometer whose scale counts by 2, 5 or 10",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G3-477",
+   "file": "scripts/worksheet-gen/types/g3/G3-477-rectangles-of-a-given-area.js",
+   "grade": "G3",
+   "slug": "rectangles-of-a-given-area",
+   "family": "geometry",
+   "variationOf": null,
+   "title": "Draw Rectangles by Area",
+   "instruction": "Draw a rectangle on each grid with the area shown. Count the squares inside to check.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "cols",
+    "gw",
+    "gh",
+    "cell",
+    "two",
+    "perim",
+    "areas"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/geometry-more.js"
+   ],
+   "teachingPoint": "3:area-model",
+   "skill": "Area of a rectangle = rows × columns (tiling becomes multiplication)",
    "strand": "Measurement & Data",
    "science": false
   }

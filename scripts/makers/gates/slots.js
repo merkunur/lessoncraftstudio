@@ -95,8 +95,9 @@ function refCopy(rel) {
   fs.mkdirSync(path.dirname(dst), { recursive: true });
   fs.writeFileSync(dst, execSync(`git show ${REF}:${rel}`, { cwd: REPO, maxBuffer: 64 << 20 }));
 }
-// mirror the worksheet-gen code tree at REF (not data/cache: those are read through the platform from the real repo)
-const files = execSync(`git ls-tree -r --name-only ${REF} ${wgRel}/types ${wgRel}/templates ${wgRel}/primitives ${wgRel}/lib ${wgRel}/image-cache ${wgRel}/page`, { cwd: REPO, maxBuffer: 64 << 20 }).toString().split('\n').filter((f) => /\.(js|json)$/.test(f));   // .json too: primitives/font-metrics.json
+// mirror the worksheet-gen code tree at REF (not data/cache: those are read through the platform from the real repo;
+// qa/ too: primitives/dot-figure.js reuses qa/verify-b2-figures.js's geometry, so a dot-to-dot type loads it)
+const files = execSync(`git ls-tree -r --name-only ${REF} ${wgRel}/types ${wgRel}/templates ${wgRel}/primitives ${wgRel}/lib ${wgRel}/image-cache ${wgRel}/page ${wgRel}/qa`, { cwd: REPO, maxBuffer: 64 << 20 }).toString().split('\n').filter((f) => /\.(js|json)$/.test(f));   // .json too: primitives/font-metrics.json
 files.forEach(refCopy);
 // shared non-code inputs the REF code reads relative to itself
 // the publish-cli helpers the platform loads (the vocabulary), read from the real repo

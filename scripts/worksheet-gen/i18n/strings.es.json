@@ -3785,5 +3785,13 @@
   "G1-483": {
     "title": "Patrones de números",
     "instruction": "Encuentra la regla de cada fila. Escribe los números que faltan."
+  },
+  "K-467": {
+    "title": "Cuenta y repasa los números",
+    "instruction": "Cuenta los dibujos de cada fila. Repasa el número que dice cuántos hay."
+  },
+  "K-468": {
+    "title": "Repasa los números con letra",
+    "instruction": "Mira el número. Repásalo escrito con letra y después escríbelo tú en los renglones vacíos."
   }
 }

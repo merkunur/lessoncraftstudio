@@ -3795,5 +3795,13 @@
   "G1-483": {
     "title": "Suites de nombres",
     "instruction": "Trouve la règle de chaque ligne. Écris les nombres qui manquent."
+  },
+  "K-467": {
+    "title": "Compter et repasser les nombres",
+    "instruction": "Compte les images de chaque ligne. Repasse le nombre qui dit combien il y en a."
+  },
+  "K-468": {
+    "title": "Repasser les nombres en lettres",
+    "instruction": "Regarde le nombre. Repasse-le en lettres, puis écris-le tout seul sur les lignes vides."
   }
 }

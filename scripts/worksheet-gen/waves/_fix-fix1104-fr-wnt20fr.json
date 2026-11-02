@@ -1,0 +1,22 @@
+{
+ "id": "wave-nt20-fr",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "toys",
+  "vehicles"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-237"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-02 digit 8 drawn from the top: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

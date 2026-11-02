@@ -50,6 +50,7 @@ const NO_KEY = {
   'G1-481': 'the class survey graph: the data come from the class, there is no right answer (material)',
   'G2-478': 'a net to cut out, fold and glue into a die, a box or a pyramid (material)',
   'K-372': 'draw the named shapes on dot paper: any triangle, square or rectangle drawn on the dots is right (drawing)',
+  'K-468': 'trace the number words: the word to trace is printed on the page (handwriting)',
   'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',
 };
 

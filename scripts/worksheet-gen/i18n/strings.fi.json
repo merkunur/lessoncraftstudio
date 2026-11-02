@@ -3771,5 +3771,13 @@
   "G1-483": {
     "title": "Lukujonot",
     "instruction": "Etsi jokaisen rivin sääntö. Kirjoita puuttuvat luvut."
+  },
+  "K-467": {
+    "title": "Laske ja jäljennä luvut",
+    "instruction": "Laske jokaisen rivin kuvat. Kirjoita katkoviivoja pitkin luku, joka kertoo, montako kuvaa on."
+  },
+  "K-468": {
+    "title": "Jäljennä lukusanat",
+    "instruction": "Katso lukua. Kirjoita sen lukusana ensin katkoviivoja pitkin ja sitten itse tyhjille riveille."
   }
 }

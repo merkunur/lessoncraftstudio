@@ -3776,5 +3776,13 @@
   "G1-483": {
     "title": "Sequenze di numeri",
     "instruction": "Trova la regola di ogni riga. Scrivi i numeri che mancano."
+  },
+  "K-467": {
+    "title": "Conta e ripassa i numeri",
+    "instruction": "Conta le figure di ogni riga. Ripassa il numero che dice quante sono."
+  },
+  "K-468": {
+    "title": "Ripassa i numeri in lettere",
+    "instruction": "Guarda il numero. Ripassa il numero scritto in lettere, poi scrivilo tu sulle righe vuote."
   }
 }

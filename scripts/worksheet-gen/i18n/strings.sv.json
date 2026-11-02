@@ -3761,5 +3761,13 @@
   "G1-483": {
     "title": "Talmönster",
     "instruction": "Hitta regeln i varje rad. Skriv talen som saknas."
+  },
+  "K-467": {
+    "title": "Räkna och spåra talen",
+    "instruction": "Räkna bilderna i varje rad. Spåra talet som visar hur många det är."
+  },
+  "K-468": {
+    "title": "Spåra räkneorden",
+    "instruction": "Titta på talet. Spåra ordet och skriv det sedan själv på de tomma linjerna."
   }
 }

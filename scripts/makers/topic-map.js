@@ -170,6 +170,8 @@ const MAKERS = [
     fable: [],
   },
   { id: 'number-tracing', name: 'Number Tracing', group: 'math', families: ['number-tracing'], oldApps: [], lang: 'none',
+    // built 2026-11-02 (types/_shared/number-tracing-more.js): K-467 Trace and Count (level 3: count, then write), K-468 Trace
+    // the Number Words (lib/number-words.js ×11); the digit forms follow the locale (FORM_BY_LOCALE), never a control
     settings: ['numbers (any set 0-20)', 'trace rows / write rows', 'size', 'start dots and arrows on/off'],
     newTemplates: [['Number tracing with counting pictures beside each number', 'connects symbol to quantity'], ['Trace the number word', 'number word handwriting']],
     fable: ['Numeral formation differs by country (the crossed 7 and the 1 with a flag in de/fr/nl/Nordic; the en-US 1 is a single stroke). Confirm data/tracing/digit-strokes.js has per-locale forms; decide how the maker picks them.'],

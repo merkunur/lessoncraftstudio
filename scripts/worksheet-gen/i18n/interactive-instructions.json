@@ -3402,7 +3402,7 @@
     }
   },
   "patterns": {
-    "marks:K-465": {
+    "trainChoose": {
       "en": "Look at the pattern on the train. Under each empty train car, tap the picture that goes there.",
       "de": "Schau dir das Muster auf dem Zug an. Tippe unter jedem leeren Wagen das Bild an, das hineingehört.",
       "fr": "Regarde la suite sur le train. Sous chaque wagon vide, touche l’image qui va dedans.",

@@ -62,12 +62,31 @@ function makePatternType(cfg) {
           }
         }
 
-        // adaptive slot size: the sequence + choices must share ~640px
+        // adaptive slot size: the sequence + choices must share the stage (627 px inside its padding, the same on A4 and
+        // Letter: both print 186 mm wide). The sizing below assumed 420 px for the sequence while the choices left it 407
+        // (3 chips) or 339 (G1-155's 4), and its 40 px floor let a 13-slot AABB row run 616 px: the choices covered the "?"
+        // and the last pictures (read on the live pages 2026-11-02). A row that fits keeps its size; one that does not takes
+        // smaller slots on the same line, and below 40 px the choices move to their own line under the sequence ('stack').
         const slotCount = attribute === 'count' ? 4 : unit.length * d.repeats + (variant === 'next' ? 1 : 0);
         const availW = 420;
-        const slotPx = attribute === 'count'
+        const nChoices = attribute === 'count' ? 3 : variant === 'missing2' ? symbols.length + (attribute === 'noun' ? 1 : 0) : 2 + (attribute === 'noun' ? 1 : 0);
+        const STAGE_W = 627, CHIP = 58, STACK_CHIP = 50;
+        const rowAvail = STAGE_W - 12 - (nChoices * CHIP + (nChoices - 1) * 10 + 14);
+        const seqW = (px) => slotCount * px + (slotCount - 1) * 8;
+        let slotPx = attribute === 'count'
           ? 84   // growing-pattern slots hold up to 4 icons
           : Math.max(40, Math.min(64, Math.floor((availW - (slotCount - 1) * 8) / slotCount)));
+        let stack = false;
+        if (attribute !== 'count' && seqW(slotPx) > rowAvail) {
+          const one = Math.floor((rowAvail - (slotCount - 1) * 8) / slotCount);
+          if (one >= 40) slotPx = Math.min(64, one);
+          else {
+            // two lines: the sequence across the stage, the choices under it; a 5-row page leaves ~110 px per stage
+            stack = true;
+            slotPx = Math.min(64, d.rows >= 5 ? 42 : 64, Math.floor((STAGE_W - (slotCount - 1) * 8) / slotCount));
+          }
+        }
+        const chipPx = stack ? STACK_CHIP : CHIP, chipIcon = stack ? 40 : 46;
         const slotStyle = `width:${slotPx}px;height:${slotPx}px`;
         const iconFit = (wanted) => Math.min(wanted, slotPx - 12);
 
@@ -114,12 +133,15 @@ function makePatternType(cfg) {
           seqLen = seq.length;
         }
 
+        // G1-155 (two blanks, a line from each picture): the key and the screen mark each pair — the blank carries
+        // data-lcs-pair, the picture that belongs there data-lcs-key-badge (makers 2026-11-02; the catalogue page is unchanged)
+        const pairMarks = variant === 'missing2' && !!(ctx && (ctx.answerKey || ctx.screen));
         const slots = [];
         for (let k = 0; k < seqLen; k++) {
           if (k === blankIdx) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}">?</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}"${pairMarks ? ` data-lcs-pair="${answerSym}"` : ''}>?</span>`);
           } else if (k === blankIdx2) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}">?</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}"${pairMarks ? ` data-lcs-pair="${answerSym2}"` : ''}>?</span>`);
           } else {
             slots.push(render(attribute === 'count' ? null : seq[k], k));
           }
@@ -143,7 +165,7 @@ function makePatternType(cfg) {
           choices = rng.shuffle(opts).map((sym) => {
             const e = elements[sym];
             return {
-              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
+              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, chipIcon)}px;height:${Math.min(e.px, chipIcon)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
               correct: false,
               sym,
             };
@@ -154,19 +176,24 @@ function makePatternType(cfg) {
           choices = rng.shuffle(opts).map((sym) => {
             const e = elements[sym];
             return {
-              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
+              html: `<img class="ws-icon" src="${e.src}" alt=""${e.tap} style="width:${Math.min(e.px, chipIcon)}px;height:${Math.min(e.px, chipIcon)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
               correct: sym === answerSym,
             };
           });
         }
         const chipHtml = choices.map((c) =>
-          `<span class="ws-pattern-chip"${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}>${c.html}</span>`).join('');
+          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${pairMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym}"` : ''}>${c.html}</span>`).join('');
 
-        cards.push(
-          `<div class="ws-card-stage" style="gap:12px;justify-content:space-between;padding:6px 10px">` +
-          `<span class="ws-pattern-seq" data-lcs-unitlen="${unit.length}" data-lcs-attr="${attribute}" data-lcs-variant="${variant}">${slots.join('')}</span>` +
-          `<span class="ws-pattern-choices">${chipHtml}</span>` +
-          `</div>`
+        // stack: the choices under the sequence — at its right end for "what comes next", centred for the missing ones
+        cards.push(stack
+          ? `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;gap:6px;justify-content:center;padding:6px 10px" data-lcs-stack>` +
+            `<span class="ws-pattern-seq" style="flex:0 0 auto;justify-content:center" data-lcs-unitlen="${unit.length}" data-lcs-attr="${attribute}" data-lcs-variant="${variant}">${slots.join('')}</span>` +
+            `<span class="ws-pattern-choices" style="align-self:${variant === 'next' ? 'flex-end' : 'center'};border-left:none;padding-left:0;border-top:2px dashed #C8BFAE;padding-top:4px">${chipHtml}</span>` +
+            `</div>`
+          : `<div class="ws-card-stage" style="gap:12px;justify-content:space-between;padding:6px 10px">` +
+            `<span class="ws-pattern-seq" data-lcs-unitlen="${unit.length}" data-lcs-attr="${attribute}" data-lcs-variant="${variant}">${slots.join('')}</span>` +
+            `<span class="ws-pattern-choices">${chipHtml}</span>` +
+            `</div>`
         );
         truth.push({ row: i + 1, answer: answerSym, blankIdx });
       }

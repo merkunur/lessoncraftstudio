@@ -3800,5 +3800,13 @@
   "G1-483": {
     "title": "Padrões numéricos",
     "instruction": "Descubra a regra de cada linha. Escreva os números que faltam."
+  },
+  "K-467": {
+    "title": "Conte e cubra os números",
+    "instruction": "Conte as figuras de cada linha. Cubra o número que mostra quantas são."
+  },
+  "K-468": {
+    "title": "Cubra os números por extenso",
+    "instruction": "Olhe o número. Cubra o número escrito por extenso e depois escreva-o sozinho nas linhas vazias."
   }
 }

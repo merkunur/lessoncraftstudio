@@ -3794,5 +3794,13 @@
   "G1-483": {
     "title": "Getallenreeksen",
     "instruction": "Zoek de regel in elke rij. Schrijf de getallen op die ontbreken."
+  },
+  "K-467": {
+    "title": "Tellen en getallen natrekken",
+    "instruction": "Tel de plaatjes in elke rij. Trek het getal na dat zegt hoeveel het er zijn."
+  },
+  "K-468": {
+    "title": "Telwoorden natrekken",
+    "instruction": "Kijk naar het getal. Trek het telwoord na en schrijf het daarna zelf op de lege regels."
   }
 }

@@ -15,6 +15,7 @@ const tokens = require('../../primitives/_tokens.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
 const slot = require('../../lib/slot.js');
+const { makeRng } = require('../../lib/rng.js');
 
 const TEAL = tokens.color.teal, INK = tokens.color.ink, CREAM = tokens.color.cream;
 const UNITS = { 1: [['A', 'B']], 2: [['A', 'A', 'B'], ['A', 'B', 'B']], 3: [['A', 'B', 'C'], ['A', 'A', 'B', 'B']] };
@@ -83,9 +84,27 @@ function numberRow(lv, rng) {
   return { seq, blanks, rule: (dir > 0 ? '+' : '-') + step };
 }
 
+/**
+ * The pattern train's screen (declared tap-choice, 2026-11-02): under every empty wagon the unit's pictures; the
+ * ORACLE recomputes the right one from the question stamped on the wagon ("<unit>:<position>:<noun per symbol>"),
+ * never from the page's marks.
+ */
+function trainOracle(items) {
+  return items.map((it) => {
+    const [unit, pos, nouns] = String((it.meta || {})['data-lcs-q'] || '').split(':');
+    const syms = [...new Set(unit.split(''))], want = nouns.split('|')[syms.indexOf(unit[Number(pos) % unit.length])];
+    const hits = it.options.map((o) => (typeof o === 'object' ? o.label : String(o))).map((l, i) => (l === want ? i : -1)).filter((i) => i >= 0);
+    if (hits.length !== 1) throw new Error(`pattern-train oracle: ${hits.length} options right for ${it.meta['data-lcs-q']}`);
+    return hits[0];
+  });
+}
+const TRAIN_SCREEN = { kind: 'tap-choice', item: '[data-lcs-train-q]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-correct', labelAttr: 'data-lcs-word',
+  metaAttrs: ['data-lcs-q'], instructionKey: 'trainChoose', screenHeight: 6000, oracle: (items) => trainOracle(items) };
+
 function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
   const themed = mode !== 'number';
   return {
+    ...(mode === 'train-cut' ? { interactive: TRAIN_SCREEN } : {}),
     id, slug, gradeBand, assetClass: themed ? 'icon-placement' : 'number-sense', exerciseType: 'patterns',
     themeAxis: themed ? { applicable: true, minNouns: 4 } : { applicable: false },
     difficulty: mode === 'number' ? NUM_LEVELS : { 1: { level: 1 }, 2: { level: 2 }, 3: { level: 3 } },
@@ -94,7 +113,7 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
 
     build(args, ctx) {
       const lv = Number(args.difficulty) || 2, rng = ctx.rng, theme = args.theme;
-      const key = !!(ctx && ctx.answerKey), screen = !!(ctx && ctx.screen);
+      const key = !!(ctx && ctx.answerKey), screen = !!(ctx && ctx.interactive);   // screen = the declared build
       if (mode === 'number') {
         const rows = [], items = [];
         const seen = new Set();
@@ -124,9 +143,12 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
           if (k < clue) return wagon(pic(theme, of[s], 76, tap[s]), k, ` data-lcs-sym="${s}"`);
           if (key) return wagon(pic(theme, of[s], 76), k, ` data-lcs-sym="${s}" data-lcs-blank="${s}" data-lcs-key-sample="1"`);
           if (screen) {
-            // the screen: under the empty wagon, the unit's pictures to choose from (the right one marked)
-            const opts = rng.shuffle(syms.slice());
-            return `<div style="display:flex;flex-direction:column;align-items:center;gap:4px" data-lcs-blank="${s}">${wagon(glueBox, k)}<span style="display:flex;gap:4px">${opts.map((o) => `<span class="ws-pattern-chip" style="width:46px;height:46px"${o === s ? ' data-lcs-correct="1"' : ''} data-lcs-sym="${o}">${pic(theme, of[o], 36)}</span>`).join('')}</span></div>`;
+            // the screen: under the empty wagon, the unit's pictures to choose from (the right one marked); the question
+            // the oracle reads: the unit, the wagon's place, the picture of each symbol
+            // each wagon's own order, from a stream of its own (a fixed A-B-C order would put the answer where the pattern does)
+            const opts = makeRng(rng.seed + '|opts' + k).shuffle(syms.slice());
+            const q = `${unit.join('')}:${k}:${syms.map((x) => of[x].noun).join('|')}`;
+            return `<div style="display:flex;flex-direction:column;align-items:center;gap:4px" data-lcs-blank="${s}" data-lcs-train-q data-lcs-q="${q}">${wagon(glueBox, k)}<span style="display:flex;gap:4px">${opts.map((o) => `<span class="ws-pattern-chip" style="width:46px;height:46px" data-lcs-opt data-lcs-label="${of[o].noun}"${o === s ? ' data-lcs-correct="1"' : ''} data-lcs-sym="${o}">${pic(theme, of[o], 36)}</span>`).join('')}</span></div>`;
           }
           return wagon(glueBox, k, ` data-lcs-blank="${s}"`);
         });
@@ -199,4 +221,4 @@ function makePatternsMoreType({ id, slug, mode, gradeBand, i18n }) {
   };
 }
 
-module.exports = { makePatternsMoreType, numberRow, NUM_LEVELS, UNITS, WAGONS };
+module.exports = { makePatternsMoreType, numberRow, NUM_LEVELS, UNITS, WAGONS, trainOracle };

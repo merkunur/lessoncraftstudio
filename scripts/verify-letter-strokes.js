@@ -200,16 +200,29 @@ for (const ch of Object.keys(LS.COMPOSED)) {
  * ------------------------------------------------------------------ */
 F(LS.glyphFor('i').adv < LS.glyphFor('m').adv, 'C: "i" is not narrower than "m"');
 F(LS.glyphFor('l').adv < LS.glyphFor('w').adv, 'C: "l" is not narrower than "w"');
-for (const [loc, words] of Object.entries(SIGHT_WORDS)) {
-  for (const w of words) {
-    const { items } = LS.textGlyphs(w);
-    for (let i = 1; i < items.length; i++) {
-      const prev = items[i - 1], cur = items[i];
-      const gap = (cur.x + cur.ink.x0) - (prev.x + prev.ink.x1);
-      F(gap > 0, `C: ${loc} "${w}" — "${prev.ch}" and "${cur.ch}" ink overlaps (gap ${gap.toFixed(1)})`);
-      F(gap < 40, `C: ${loc} "${w}" — gap of ${gap.toFixed(1)} after "${prev.ch}"`);
-    }
+// Gaps are measured between letter BODIES (the ink on and above the baseline): a j's hook tucks under the letter
+// before it, so measuring whole ink saw a hook-width gap ("vi jf", "nel jä", 47.6 units) as 14 and passed it for
+// months (read 2026-11-02). Below the baseline, two descenders must not touch.
+const BASE = M.base + 1;
+function bodyBox(it) {
+  const xs = [], lows = [];
+  for (const s of it.strokes) for (const q of flatten(s.d)) (q.y <= BASE ? xs : lows).push(it.x + q.x);
+  return { x0: Math.min(...xs), x1: Math.max(...xs), low: lows.length ? { x0: Math.min(...lows), x1: Math.max(...lows) } : null };
+}
+function layoutFails(w, items) {
+  const out = [];
+  for (let i = 1; i < items.length; i++) {
+    const a = bodyBox(items[i - 1]), b = bodyBox(items[i]);
+    const gap = b.x0 - a.x1;
+    if (!(gap > 0)) out.push(`"${w}" — "${items[i - 1].ch}" and "${items[i].ch}" bodies overlap (gap ${gap.toFixed(1)})`);
+    if (!(gap < 32)) out.push(`"${w}" — a gap of ${gap.toFixed(1)} after "${items[i - 1].ch}" (a word break)`);
+    if (a.low && b.low && !(b.low.x0 - a.low.x1 > 0)) out.push(`"${w}" — the descenders of "${items[i - 1].ch}" and "${items[i].ch}" touch`);
   }
+  return out;
+}
+const HOOK_WORDS = { nl: ['vijf', 'tijger', 'zij', 'bijna', 'vrijdag'], fi: ['neljä', 'kirja', 'pojat'], no: ['igjen', 'tjue', 'fjord'], sv: ['möjlig'], en: ['banjo', 'hajj'] };
+for (const [loc, words] of [...Object.entries(SIGHT_WORDS), ...Object.entries(HOOK_WORDS)]) {
+  for (const w of words) for (const f of layoutFails(w, LS.textGlyphs(w).items)) F(false, `C: ${loc} ${f}`);
 }
 
 /* ------------------------------------------------------------------ *
@@ -290,6 +303,14 @@ P('C overlap', (() => {
   const gap = (it[1].x + it[1].ink.x0) - (it[0].x + it[0].ink.x1);
   return gap > 0;   // control: real pair does not overlap
 })() && ((0 - 1) < 0), LS.textGlyphs('mm').items.length === 2);
+
+// C — a j placed by its whole ink (the hook's width before its body) is a word break; the real layout is not
+P('C hook', (() => {
+  const it = LS.textGlyphs('vijf').items.map((x) => ({ ...x }));
+  const pen = it[1].x + it[1].ink.x0 + it[1].adv - LS.SIDEBEARING;   // the old placement of the j: by its whole ink
+  it[2].x = pen + LS.SIDEBEARING - it[2].ink.x0;
+  return layoutFails('vijf', it).length > 0;
+})(), layoutFails('vijf', LS.textGlyphs('vijf').items).length === 0);
 
 // E — a wrong angle is caught by the same comparison the check uses
 P('E angle', (() => {

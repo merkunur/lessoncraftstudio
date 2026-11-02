@@ -3789,5 +3789,13 @@
   "G1-483": {
     "title": "Tallmønstre",
     "instruction": "Finn regelen i hver rad. Skriv tallene som mangler."
+  },
+  "K-467": {
+    "title": "Tell og spor tallene",
+    "instruction": "Tell bildene i hver rad. Spor tallet som viser hvor mange det er."
+  },
+  "K-468": {
+    "title": "Spor tallordene",
+    "instruction": "Se på tallet. Spor tallordet, og skriv det så selv på de tomme linjene."
   }
 }

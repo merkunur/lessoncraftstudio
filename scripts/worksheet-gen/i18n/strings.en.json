@@ -3818,5 +3818,13 @@
   "G1-483": {
     "title": "Number Patterns",
     "instruction": "Find the rule in each row. Write the missing numbers."
+  },
+  "K-467": {
+    "title": "Count and Trace",
+    "instruction": "Count the pictures in each row. Trace the number that tells how many."
+  },
+  "K-468": {
+    "title": "Trace the Number Words",
+    "instruction": "Look at the number. Trace the number word, then write it yourself on the empty lines."
   }
 }

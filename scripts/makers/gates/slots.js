@@ -53,8 +53,14 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'G2-240', 'G3-335',
   // Shapes & Geometry (2026-11-02): pictures drawn from shapes, grids, nets — no library picture or word pool
   'K-464', 'G3-477', 'G2-478',
+  // ... and the shape IS the answer: the 2D-shape family's reviewed objects (data/b5/2d-shapes.js), the shapes theme's
+  // drawings and the reviewed real solids (geometry-tasks) — a swapped picture would change what is right (as K-038)
+  'K-368', 'K-371', 'K-372', 'G1-381', 'G1-382', 'G1-383', 'K-075', 'K-076', 'G2-241', 'G2-242', 'G2-243', 'G2-244', 'G2-245',
+  'G2-246', 'G3-337', 'G3-338', 'G3-339', 'G3-340', 'G3-341', 'G3-342',
   // Patterns (2026-11-02): G1-483 numbers only
   'G1-483',
+  // Number Tracing (2026-11-02): K-468 numerals and number words only
+  'K-468',
   // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
   'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots

@@ -3780,5 +3780,13 @@
   "G1-483": {
     "title": "Talmønstre",
     "instruction": "Find reglen i hver række. Skriv de tal, der mangler."
+  },
+  "K-467": {
+    "title": "Tæl og skriv tallene efter",
+    "instruction": "Tæl billederne i hver række. Skriv oven i det tal, der viser, hvor mange der er."
+  },
+  "K-468": {
+    "title": "Skriv talordene efter",
+    "instruction": "Se på tallet. Skriv oven i talordet, og skriv det derefter selv på de tomme linjer."
   }
 }

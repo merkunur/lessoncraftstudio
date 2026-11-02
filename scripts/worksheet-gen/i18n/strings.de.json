@@ -3805,5 +3805,13 @@
   "G1-483": {
     "title": "Zahlenmuster",
     "instruction": "Finde die Regel in jeder Reihe. Schreibe die fehlenden Zahlen auf."
+  },
+  "K-467": {
+    "title": "Zählen und Zahlen nachspuren",
+    "instruction": "Zähle die Bilder in jeder Reihe. Wie viele sind es? Spure die Zahl nach."
+  },
+  "K-468": {
+    "title": "Zahlwörter nachspuren",
+    "instruction": "Schau dir die Zahl an. Spure ihr Zahlwort nach und schreibe es dann selbst auf die leeren Linien."
   }
 }

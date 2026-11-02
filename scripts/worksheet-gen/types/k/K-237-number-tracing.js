@@ -17,8 +17,8 @@
  *    data/tracing/number-tracing-levelset.json (digit = 0-9, number = 10-20).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('../../lib/platform/index.js');   // file reads go through the platform (the Number Tracing maker runs this in a browser)
 const { strokeGlyphLane, digitFadeLane } = require('../../primitives/trace-path.js');
 const { FORMS, FORM_BY_LOCALE, BOX } = require('../../data/tracing/digit-strokes.js');
 
@@ -26,7 +26,7 @@ let _ls;
 function levelSetData() {
   if (_ls === undefined) {
     const f = path.join(__dirname, '..', '..', 'data', 'tracing', 'number-tracing-levelset.json');
-    _ls = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+    _ls = platform.exists(f) ? platform.readJson(f) : null;
   }
   return _ls;
 }

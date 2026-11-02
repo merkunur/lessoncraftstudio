@@ -4523,5 +4523,53 @@
       "no": "Fargelegg hver form med samme farge som formen nederst. Tell så hvor mange det er av hver form, og skriv tallet i ruten. En snudd form er fortsatt den samme formen.",
       "fi": "Väritä jokainen muoto samalla värillä kuin sama muoto alhaalla. Laske sitten, montako kutakin muotoa on, ja kirjoita luku ruutuun. Käännetty muoto on yhä sama muoto."
     }
+  },
+  "K-467": {
+    "3": {
+      "en": {
+        "title": "Count and Write the Numbers",
+        "instruction": "Count the pictures in each row. Write the number that tells how many."
+      },
+      "de": {
+        "title": "Bilder zählen, Zahlen schreiben",
+        "instruction": "Zähle die Bilder in jeder Reihe. Wie viele sind es? Schreibe die Zahl auf."
+      },
+      "fr": {
+        "title": "Compter et écrire les nombres",
+        "instruction": "Compte les images de chaque ligne. Écris le nombre qui dit combien il y en a."
+      },
+      "es": {
+        "title": "Cuenta y escribe los números",
+        "instruction": "Cuenta los dibujos de cada fila. Escribe el número que dice cuántos hay."
+      },
+      "pt": {
+        "title": "Conte e escreva os números",
+        "instruction": "Conte as figuras de cada linha. Escreva o número que mostra quantas são."
+      },
+      "it": {
+        "title": "Conta e scrivi i numeri",
+        "instruction": "Conta le figure di ogni riga. Scrivi il numero che dice quante sono."
+      },
+      "nl": {
+        "title": "Tellen en getallen schrijven",
+        "instruction": "Tel de plaatjes in elke rij. Schrijf het getal op dat zegt hoeveel het er zijn."
+      },
+      "sv": {
+        "title": "Räkna och skriv talen",
+        "instruction": "Räkna bilderna i varje rad. Skriv talet som visar hur många det är."
+      },
+      "da": {
+        "title": "Tæl og skriv tallene",
+        "instruction": "Tæl billederne i hver række. Skriv det tal, der viser, hvor mange der er."
+      },
+      "no": {
+        "title": "Tell og skriv tallene",
+        "instruction": "Tell bildene i hver rad. Skriv tallet som viser hvor mange det er."
+      },
+      "fi": {
+        "title": "Laske ja kirjoita luvut",
+        "instruction": "Laske jokaisen rivin kuvat. Kirjoita luku, joka kertoo, montako kuvaa on."
+      }
+    }
   }
 }

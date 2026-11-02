@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 944,
+ "count": 946,
  "failures": [],
  "rows": [
   {
@@ -2509,8 +2509,8 @@
    ],
    "interactive": false,
    "uses": [
-    "fs",
     "path",
+    "lib/platform/index.js",
     "primitives/trace-path.js",
     "data/tracing/digit-strokes.js"
    ],
@@ -9561,7 +9561,7 @@
    "family": "patterns",
    "variationOf": null,
    "title": "Pattern Train",
-   "instruction": "Look at the pattern on the train. Cut out the pictures at the bottom and glue each one in the right empty wagon.",
+   "instruction": "Look at the pattern on the train. Cut out the pictures at the bottom and glue each one in the right empty train car.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 3,
@@ -9585,7 +9585,7 @@
    "family": "patterns",
    "variationOf": null,
    "title": "Make Your Own Pattern",
-   "instruction": "Cut out the pictures. Make your own pattern on the train and glue it in the wagons.",
+   "instruction": "Cut out the pictures. Lay them on the train to make your own pattern that repeats. Then glue one picture in each train car.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 3,
@@ -9599,6 +9599,61 @@
    "teachingPoint": "K:patterns",
    "skill": "Repeating patterns AB / ABC / AABB by picture, size, position and shape — extend, fill the missing element — and growing patterns",
    "strand": "Patterning",
+   "science": false
+  },
+  {
+   "id": "K-467",
+   "file": "scripts/worksheet-gen/types/k/K-467-trace-and-count.js",
+   "grade": "K",
+   "slug": "trace-and-count",
+   "family": "number-tracing",
+   "variationOf": null,
+   "title": "Trace and Count",
+   "instruction": "Count the pictures in each row. Trace the number that tells how many.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "nums",
+    "order",
+    "modes"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-tracing-more.js"
+   ],
+   "teachingPoint": "K:numeral-formation",
+   "skill": "Trace and write the numerals 0–9 and 11–20",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-468",
+   "file": "scripts/worksheet-gen/types/k/K-468-trace-the-number-words.js",
+   "grade": "K",
+   "slug": "trace-the-number-words",
+   "family": "number-tracing",
+   "variationOf": null,
+   "title": "Trace the Number Words",
+   "instruction": "Look at the number. Trace its word, then write the word yourself on the empty lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "from",
+    "to",
+    "rows",
+    "glyphH",
+    "laneH",
+    "dots"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-tracing-more.js"
+   ],
+   "teachingPoint": "1:number-words",
+   "skill": "Read and write number words to 20, tens words to 100, words to 50; match numerals to words",
+   "strand": "Number & Operations in Base Ten",
    "science": false
   },
   {

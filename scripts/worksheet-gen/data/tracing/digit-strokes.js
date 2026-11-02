@@ -27,7 +27,9 @@ const SHARED = {
     { d: 'M 32 14 L 80 14', angle: 0 },
   ],
   6: [{ d: 'M 68 14 C 42 30 22 60 21 94 C 20 124 44 134 58 130 C 82 123 84 88 60 84 C 45 81 29 90 23 101', angle: 150 }],
-  8: [{ d: 'M 50 66 C 18 58 18 12 50 12 C 82 12 82 58 50 66 C 16 76 16 131 50 131 C 84 131 84 76 50 66', angle: 200 }],
+  // 8 (2026-11-02, the makers' native + pedagogy review): the school model starts at the TOP — an S down to the bottom,
+  // then back up to close (it started at the crossing, which no school model in our 11 languages teaches)
+  8: [{ d: 'M 68 20 C 58 10 22 10 22 36 C 22 54 40 60 50 66 C 62 72 84 82 84 100 C 84 122 66 131 50 131 C 34 131 16 122 16 100 C 16 82 38 72 50 66 C 62 60 78 54 78 36 C 78 24 74 18 68 20', angle: 225 }],
   9: [
     { d: 'M 79 41 C 79 10 24 8 22 42 C 20 74 77 76 79 41', angle: 265 },
     { d: 'M 79 41 L 78 130', angle: 90 },

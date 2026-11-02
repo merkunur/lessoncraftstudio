@@ -329,33 +329,70 @@ function glyphFor(ch) {
     }),
     ink,
     adv: Math.max(ink.x1 - ink.x0, MIN_INK) + 2 * SIDEBEARING,
+    // the ink below the baseline: a descender that hooks LEFT of the letter's body (j) is laid out by its body (textGlyphs)
+    hook: hookOf(raw),
   };
   _cache.set(ch, g);
   return g;
 }
 
 /**
+ * A glyph's ink on and above the baseline (its BODY) and below it (its descender), or null when the descender does
+ * not reach left of the body by more than HOOK_MIN units (y, ø lean 1-2 units: not a hook).
+ */
+const HOOK_MIN = 4;
+function hookOf(raw) {
+  const pts = [];
+  for (const s of raw) for (const p of s) pts.push(p);
+  const above = pts.filter((p) => p.y <= METRICS.base + 1), below = pts.filter((p) => p.y > METRICS.base + 1);
+  if (!above.length || !below.length) return null;
+  const body = bboxOf(above), low = bboxOf(below);
+  return body.x0 - low.x0 >= HOOK_MIN ? { bodyX0: body.x0, lowX0: low.x0, lowX1: low.x1 } : null;
+}
+
+/**
  * Lay a string out left to right. Each glyph is placed by its INK-LEFT edge,
- * not by its box, so overhanging letters (j's hook starts 26 units left of its
- * stem; f, t) tuck under the previous letter instead of colliding with it.
+ * not by its box (f, t overhang). A letter whose descender hooks LEFT of its
+ * body (j: the hook starts 26 units left of the stem) is placed by its BODY
+ * after the first letter: the hook tucks under the previous letter, as in
+ * handwriting. Placed by its whole ink, the body stood a hook's width away
+ * from the letter before it ("vi jf", "nel jä" — read 2026-11-02). The hook
+ * never comes closer than a sidebearing to the previous letter's own
+ * descender.
  * @returns {{ items: Array<{ch, strokes, x, ink, adv}>, width: number }}
  *   `x` is the translate to apply to that glyph's own coordinates.
  */
 function textGlyphs(text) {
   const items = [];
-  let pen = 0;
+  let pen = 0, prevLowRight = -Infinity;
   for (const ch of String(text)) {
     const g = glyphFor(ch);
+    const tuck = !!(g.hook && items.length);
+    const x = tuck ? Math.max(pen + SIDEBEARING - g.hook.bodyX0, prevLowRight + SIDEBEARING - g.hook.lowX0) : pen + SIDEBEARING - g.ink.x0;
     items.push({
       ch,
       strokes: g.strokes,
-      x: Math.round((pen + SIDEBEARING - g.ink.x0) * 100) / 100,
+      x: Math.round(x * 100) / 100,
       ink: g.ink,
       adv: g.adv,
     });
-    pen += g.adv;
+    // the next letter starts a sidebearing after this one's ink (a tucked letter's advance counts from where it was placed)
+    if (tuck) pen = x + g.ink.x0 + g.adv - SIDEBEARING; else pen += g.adv;
+    const low = g.hook || lowOf(g);
+    prevLowRight = low ? x + low.lowX1 : -Infinity;
   }
   return { items, width: pen };
+}
+
+/** the right edge of a glyph's ink below the baseline (any descender), for the next letter's hook */
+const _low = new Map();
+function lowOf(g) {
+  if (_low.has(g.ch)) return _low.get(g.ch);
+  const pts = [];
+  for (const s of rawStrokes(g.ch)) for (const p of s) if (p.y > METRICS.base + 1) pts.push(p);
+  const r = pts.length ? { lowX1: bboxOf(pts).x1 } : null;
+  _low.set(g.ch, r);
+  return r;
 }
 
 module.exports = {

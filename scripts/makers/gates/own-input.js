@@ -156,15 +156,22 @@ const lineCount = () => {
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
           for (const d of t.levels) {
-            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? t.themes[sample % t.themes.length] : null, unit: units.length ? units[sample % units.length].id : null, variant: 1 + sample, answerKey: false, answerKeySuffix: M.tj.answerKey[M.LANG] };
+            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? t.themes[sample % t.themes.length] : null, unit: (() => { const lu = units.filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return lu.length ? lu[sample % lu.length].id : null; })(), variant: 1 + sample, answerKey: false, answerKeySuffix: M.tj.answerKey[M.LANG] };
             const b = await M.mod.generate(o, M.mount);
             // the CONTENT is the same apart from the swapped picture's own name (a card may record its noun: K-002 cards carry
             // {count, noun, choices} — the counts and choices must not move, the noun does by design)
             // (the name may also sit inside a recorded string — a graph's asks "rabbit:5" — so it is replaced wherever it stands
             // as a whole word, not only as a JSON value of its own; 2026-11-02)
             const esc = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const blank = (m, k) => JSON.stringify(m).replace(new RegExp('(?<![\\p{L}\\p{N}_])' + esc(k) + '(?![\\p{L}\\p{N}_])', 'gu'), '§');
-            const sameBut = (m1, k1, m0, k0) => blank(m1, k1) === blank(m0, k0);
+            // ... and so is its VOCABULARY key (a type may record the picture by its key: K-039 rows carry main / odd keys,
+            // and a picture "bat" may be the key "bat-animal"; 2026-11-02). A multi-theme key "theme/noun" is its noun too
+            const names = (k, theme) => { const s = String(k), j = s.indexOf('/'), th = j > 0 ? s.slice(0, j) : theme, noun = j > 0 ? s.slice(j + 1) : s; return [s, noun, M.vocabOf && th ? M.vocabOf(th, noun) : null].filter(Boolean).sort((x, y) => y.length - x.length); };
+            // both names are blanked in BOTH pages: the old picture may stand in another row too (rows draw independently —
+            // K-039, 2026-11-02), and that row keeps it after the swap; anything else that moved is a content change
+            const blank = (m, ks, theme) => ks.flatMap((k) => names(k, theme)).sort((x, y) => y.length - x.length).reduce((t, n) => t.replace(new RegExp('(?<![\\p{L}\\p{N}_])' + esc(n) + '(?![\\p{L}\\p{N}_])', 'gu'), '§'), JSON.stringify(m));
+            // a slot item that brings a partner (a pair: the doctor and her thermometer) records it in slot.partners — both
+            // items' partners are blanked too
+            const sameBut = (m1, k1, m0, k0, theme, partners) => { const ks = [k1, k0].concat(...[k1, k0].map((k) => (partners && partners[k]) || [])); return blank(m1, ks, theme) === blank(m0, ks, theme); };
             if (!b.ok) { out.push({ id: t.id, d, role: '-', base: false }); continue; }
             for (const role of Object.keys(b.slots || {})) {
               const s = b.slots[role];
@@ -175,8 +182,11 @@ const lineCount = () => {
               const rows = [];
               for (const key of keys) {
                 const r = await M.mod.generate({ ...o, overrides: { [role]: { 0: key } } }, M.mount);
-                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0]) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
+                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, typeRefused: !!(r.ok && r.slots && r.slots[role] && r.slots[role].refused), others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0], s.theme, s.partners) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
               }
+              // a FREE slot (typed text: a group's name, a key line) takes any text by design — the typed-text cases above
+              // test it; the outside-the-pool and duplicate probes are for slots with a pool
+              if (s.free) continue;
               const dup = s.values.length > 1 ? await M.mod.generate({ ...o, overrides: { [role]: { 0: s.values[1] } } }, M.mount) : null;
               const outside = await M.mod.generate({ ...o, overrides: { [role]: { 0: '__not_in_pool__' } } }, M.mount);
               out.push({ id: t.id, d, role, base: true, pool: pool.length, rows, dupApplied: dup ? dup.ok && dup.html !== b.html : false, outsideApplied: outside.ok && outside.html !== b.html, grade: type.gradeBand });
@@ -194,7 +204,8 @@ const lineCount = () => {
         for (const row of r.rows) {
           swaps++;
           if (!row.ok) { refused++; continue; }
-          if (!row.applied) { if (row.retried) { refused++; continue; } fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: generate ok but the slot does not show the key`); continue; }
+          // a type's own refusal (slot.refuse: two shadows alike, a conflicting pair) is a refusal the screen explains
+          if (!row.applied) { if (row.retried || row.typeRefused) { refused++; continue; } fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: generate ok but the slot does not show the key`); continue; }
           if (row.retried) { refused++; continue; }   // the shell counts a seed retry as a refusal of the choice (choosePick)
           acc++; accepted++;
           if (!row.others) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: other items changed`);

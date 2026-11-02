@@ -44,7 +44,8 @@ const sameTile = (a, b) => PM.iou(a, b) >= 0.75 || (inkOf(a) > 0.92 && inkOf(b) 
 
 /** one tile of the picture as an image crop (T px square) */
 function tileView(theme, noun, n, tx, ty, T, attrs = '') {
-  return `<span style="display:block;position:relative;width:${T}px;height:${T}px;overflow:hidden;flex:0 0 auto"${attrs}>` +
+  // data-lcs-art: the lints measure the crop window, not the whole picture behind it (qa/lints.js visRect)
+  return `<span style="display:block;position:relative;width:${T}px;height:${T}px;overflow:hidden;flex:0 0 auto" data-lcs-art="1"${attrs}>` +
     `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" style="position:absolute;left:${-tx * T}px;top:${-ty * T}px;width:${n * T}px;height:${n * T}px;max-width:none;display:block"></span>`;
 }
 
@@ -62,6 +63,7 @@ function makePicturePiecesType({ id, slug, mode, gradeBand, i18n }) {
 
     build({ theme, difficulty }, ctx) {
       const lv = Number(difficulty) || 2, d = LEVELS[mode][lv], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+      const scr = !key && !!(ctx && ctx.screen), pieceId = (k, t) => (k + 1) + '-' + t.tx + '-' + t.ty;
       const pool = cuttable(theme);
 
       if (mode === 'missing') {
@@ -92,13 +94,16 @@ function makePicturePiecesType({ id, slug, mode, gradeBand, i18n }) {
             const pos = `position:absolute;left:${tx * d.T}px;top:${ty * d.T}px`;
             if (!g) return `<span style="${pos}">${tileView(theme, p.noun, d.n, tx, ty, d.T)}</span>`;
             const no = gapNo.get(g);
-            const pair = d.gaps > 1 ? ` data-lcs-pair="${no}"` : '';
+            // two gaps (level 3): the key pairs each gap number with its piece; the SCREEN runs the other way — the gap
+            // is an item that answers a piece, and all the picture's offered pieces are targets (2026-11-02: with only
+            // the two right pieces tappable the screen told the child which pieces fit)
+            const pair = d.gaps > 1 ? (scr ? ` data-lcs-key-badge="${pieceId(k, g)}" data-lcs-pair-group="${k + 1}"` : ` data-lcs-pair="${no}"`) : '';
             return `<span style="${pos};width:${d.T}px;height:${d.T}px;box-sizing:border-box;border:3px dashed ${CORAL};background:#FFFFFF;display:flex;align-items:center;justify-content:center" data-lcs-gap="${tx},${ty}"${pair}>` +
               (key ? tileView(theme, p.noun, d.n, tx, ty, d.T - 6, ' data-lcs-key-sample="1"') : d.gaps > 1 ? `<span style="font-family:'Baloo 2';font-weight:700;font-size:30px;color:${CORAL}">${no}</span>` : '') + `</span>`;
           }).join('');
           const opts = pl.opts.map((o) => {
             const g = pl.gaps.includes(o) ? gapNo.get(o) : 0;
-            const mark = g ? (d.gaps > 1 ? ` data-lcs-key-badge="${g}"` : ' data-lcs-correct="1"') : '';
+            const mark = d.gaps > 1 && scr ? ` data-lcs-pair="${pieceId(k, o)}" data-lcs-label="•" data-lcs-pair-group="${k + 1}"` : g ? (d.gaps > 1 ? ` data-lcs-key-badge="${g}"` : ' data-lcs-correct="1"') : '';
             return `<span class="ws-pattern-chip" style="width:${d.T + 14}px;height:${d.T + 14}px;border-radius:12px" data-lcs-piece="${o.tx},${o.ty}"${mark}>${tileView(theme, p.noun, d.n, o.tx, o.ty, d.T)}</span>`;
           }).join('');
           const optCols = d.opts > 3 ? 2 : d.opts;

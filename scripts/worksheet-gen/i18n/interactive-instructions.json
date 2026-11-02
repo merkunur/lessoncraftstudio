@@ -2723,6 +2723,19 @@
       "da": "Start ved den grønne cirkel. Træk langs vejen hen til sandslottet.",
       "no": "Start ved den grønne sirkelen. Dra langs veien fram til sandslottet.",
       "fi": "Aloita vihreästä ympyrästä. Vedä tietä pitkin hiekkalinnalle asti."
+    },
+    "mz-picture-path": {
+      "en": "Start at the green circle. Drag only over the animals to the tractor.",
+      "de": "Fang beim grünen Kreis an. Zieh nur über die Tiere bis zum Traktor.",
+      "fr": "Commence au rond vert. Glisse seulement sur les animaux jusqu'au tracteur.",
+      "es": "Empieza en el círculo verde. Arrastra solo por los animales hasta el tractor.",
+      "pt": "Comece no círculo verde. Arraste só pelos animais até o trator.",
+      "it": "Parti dal cerchio verde. Trascina solo sugli animali fino al trattore.",
+      "nl": "Begin bij de groene cirkel. Sleep alleen over de dieren naar de tractor.",
+      "sv": "Börja vid den gröna cirkeln. Dra bara över djuren till traktorn.",
+      "da": "Start ved den grønne cirkel. Træk kun hen over dyrene til traktoren.",
+      "no": "Start ved den grønne sirkelen. Dra bare over dyrene fram til traktoren.",
+      "fi": "Aloita vihreästä ympyrästä. Vedä vain eläinkuvien yli traktorin luo."
     }
   },
   "multiplication-tables": {

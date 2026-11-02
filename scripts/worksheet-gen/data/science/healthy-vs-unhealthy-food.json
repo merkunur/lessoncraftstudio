@@ -6,7 +6,7 @@
       "label": {
         "en": "Healthy",
         "de": "Gesund",
-        "es": "Sanos",
+        "es": "Saludables",
         "fr": "Sain",
         "it": "Sano",
         "pt": "Saudável",
@@ -22,7 +22,7 @@
       "label": {
         "en": "Not Healthy",
         "de": "Ungesund",
-        "es": "No sanos",
+        "es": "No saludables",
         "fr": "Moins sain",
         "it": "Poco sano",
         "pt": "Não saudável",
@@ -108,7 +108,8 @@
     {
       "theme": "At the Supermarket",
       "noun": "pizza",
-      "bin": "unhealthy"
+      "bin": "unhealthy",
+      "retired": true
     },
     {
       "theme": "desserts and sweets",

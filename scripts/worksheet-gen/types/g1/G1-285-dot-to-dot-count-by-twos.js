@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-285',
   slug: 'dot-to-dot-count-by-twos',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count by Twos", instruction: "Join the numbered dots in twos; the rest of the outline is already drawn." } },
+  i18n: { en: { title: "Dot-to-Dot: Count by Twos", instruction: "Start at the orange dot. Count by twos from 2 to 20 and join the dots. Part of the picture is already drawn." } },
 };

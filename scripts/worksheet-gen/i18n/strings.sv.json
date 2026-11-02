@@ -841,7 +841,7 @@
   },
   "K-203": {
     "title": "Nyttig och onyttig mat",
-    "instruction": "Dra ett streck från varje mat till gruppen den hör till."
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
   },
   "K-204": {
     "title": "Husdjur och vilda djur",
@@ -849,7 +849,8 @@
   },
   "K-206": {
     "title": "Saker som flyger",
-    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+    "printTitle": "Vad kan flyga?"
   },
   "K-207": {
     "title": "Sommar- och vinterkläder",
@@ -865,7 +866,8 @@
   },
   "K-210": {
     "title": "Transport på land, vatten och i luften",
-    "instruction": "Dra ett streck från varje fordon till platsen där det färdas."
+    "instruction": "Dra ett streck från varje färdmedel till platsen där det färdas.",
+    "printTitle": "Färdmedel på land, på vatten och i luften"
   },
   "K-211": {
     "title": "Varmt och kallt",
@@ -901,7 +903,8 @@
   },
   "G1-207": {
     "title": "De fyra matgrupperna",
-    "instruction": "Dra ett streck från varje mat till dess matgrupp."
+    "instruction": "Dra ett streck från varje bild till rätt matgrupp.",
+    "printTitle": "Matgrupper"
   },
   "G1-203": {
     "title": "Hönans livscykel",
@@ -1785,7 +1788,7 @@
   },
   "K-308": {
     "title": "Prick till prick: räkna baklänges från 10",
-    "instruction": "Börja vid den orangea tian och räkna nedåt."
+    "instruction": "Börja vid den orangea tian. Räkna baklänges till 1 och dra streck från prick till prick."
   },
   "G1-285": {
     "title": "Prick till prick med tvåhopp",
@@ -1793,7 +1796,7 @@
   },
   "G1-294": {
     "title": "Prick till prick: räkna baklänges från 20",
-    "instruction": "Här är varje prick numrerad, hela vägen bakåt."
+    "instruction": "Börja vid den orangea pricken. Räkna baklänges från 20 till 1 och dra streck från prick till prick."
   },
   "G2-304": {
     "title": "Prick till prick med femhopp",
@@ -1865,7 +1868,7 @@
   },
   "K-309": {
     "title": "Prick till prick i bokstavsordning",
-    "instruction": "Följ bokstäverna i ordning, från a och framåt."
+    "instruction": "Följ bokstäverna i ordning, från a till t."
   },
   "G2-307": {
     "title": "Var ska punkten stå? Dela upp meningarna",
@@ -1901,7 +1904,7 @@
   },
   "G2-314": {
     "title": "Prick till prick med tiohopp",
-    "instruction": "Tiohoppen leder dig från prick till prick."
+    "instruction": "Räkna med tiohopp från 10 till 100 och dra streck från prick till prick."
   },
   "K-315": {
     "title": "Skriv av ordet i stora bokstäver",
@@ -3788,5 +3791,54 @@
   "K-470": {
     "title": "Bildpussel",
     "instruction": "Klipp ut bitarna. Klistra varje bit på sin plats i rutnätet så att bilden blir hel igen."
+  },
+  "G1-485": {
+    "title": "Sortera i två cirklar: former och färger",
+    "instruction": "Skriv varje forms nummer på rätt plats. Vänstra cirkeln: formen som står ovanför den. Högra cirkeln: färgen som står ovanför den. Mitten: båda. Rutan utanför cirklarna: ingen av dem."
+  },
+  "K-472": {
+    "title": "Sortera i två grupper",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-473": {
+    "title": "Prick till prick: stora bokstäver",
+    "instruction": "Börja vid den orangea pricken. Dra streck mellan prickarna i bokstavsordning, från A till J."
+  },
+  "G1-486": {
+    "title": "Prick till prick med räkneuppgifter",
+    "instruction": "Räkna ut varje uppgift och skriv svaret. Börja vid den orangea pricken: det är svaret på uppgift 1. Dra streck till svaret på uppgift 2, sedan uppgift 3 och så vidare."
+  },
+  "K-474": {
+    "title": "Måla efter ord",
+    "instruction": "Läs ordet i varje fält. Måla fältet med den färg som ordet har i koden."
+  },
+  "K-475": {
+    "title": "Måla efter första ljudet",
+    "instruction": "Säg vad bilden i varje fält heter. Måla fältet med färgen för bokstaven som ordet börjar med."
+  },
+  "G3-478": {
+    "title": "Måla efter multiplikation",
+    "instruction": "Räkna ut multiplikationen i varje fält. Måla fältet med den färg som svaret har i koden."
+  },
+  "K-476": {
+    "title": "Målarbild",
+    "instruction": "Måla bilden."
+  },
+  "K-477": {
+    "title": "Måla och spåra ordet",
+    "instruction": "Måla bilden. Spåra ordet."
+  },
+  "K-478": {
+    "title": "Måla hela bilden",
+    "instruction": "Måla allt på bilden."
+  },
+  "K-479": {
+    "title": "Måla efter färgkoden",
+    "instruction": "Titta på numret vid varje bild. Leta upp det i koden och måla bilden med den färgen."
+  },
+  "K-480": {
+    "title": "Bildlabyrint: gå bara på djuren",
+    "instruction": "Hjälp bonden till traktorn. Gå bara på djuren.",
+    "printTitle": "Hjälp bonden till traktorn"
   }
 }

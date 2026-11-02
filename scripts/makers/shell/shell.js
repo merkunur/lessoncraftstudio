@@ -138,12 +138,14 @@ async function boot() {
   const files = {};
   await Promise.all(dm.files.map(async (f) => { files[f] = await (await fetch(`${BASE}/data/${dv}/${f.split('/').map(encodeURIComponent).join('/')}`)).text(); }));
   mod.platform.preload(files);
+  // a picture family's files (one per picture) are fetched when a page draws one (runtime.generate)
+  if (mod.platform.setFetcher) mod.platform.setFetcher(async (f) => { const r = await fetch(`${BASE}/data/${dv}/${f.split('/').map(encodeURIComponent).join('/')}`); return r.ok ? r.text() : null; });
   picManifest = JSON.parse(files['scripts/worksheet-gen/cache/manifest.json'] || '{"themes":{}}');
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   offeredCount = offered.length;
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, vocabOf: (theme, noun) => ((((picManifest.themes || {})[theme] || {}).nouns || {})[noun] || {}).vocabKey || null, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
     // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
     sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); return r.ok ? r.html : null; } };
   await loadAccess();
@@ -154,7 +156,7 @@ async function boot() {
     const p = opening.preset, t = offered.find((x) => x.id === p.template);
     if (t) {
       want = t.id;
-      state.tpls = [t.id]; state.lvls = [levelIn(t, p.level)]; state.pages = [p.variant || 1]; state.units = [unitIn(t, p.unit)];
+      state.tpls = [t.id]; state.lvls = [levelIn(t, p.level)]; state.pages = [p.variant || 1]; state.units = [unitIn(t, p.unit, levelIn(t, p.level))];
       state.pickedTheme = p.theme && t.themes.includes(p.theme) ? p.theme : null;
       variantCounter = Math.max(variantCounter, p.variant || 1) + 1;
       presetFrom = p;
@@ -194,7 +196,7 @@ async function boot() {
     if (!canAddPages() || pagesFull()) return;
     padPages();
     const a = state.active, t = tplOf(a);
-    const units = (t.units && t.units[LANG]) || [];
+    const units = unitsOf(t, state.lvls[a]);
     let unit = null;
     if (units.length) {
       const last = units.findIndex((u) => u.id === state.units[a]);
@@ -277,7 +279,10 @@ function themePicture(theme) {
 
 const tplOf = (i) => tj.templates.find((x) => x.id === state.tpls[i]);
 const levelIn = (t, want) => (t.levels.includes(want) ? want : (t.levels.includes(2) ? 2 : t.levels[0]));
-const unitIn = (t, want) => { const u = (t.units && t.units[LANG]) || []; return u.length ? (u.some((x) => x.id === want) ? want : u[0].id) : null; };
+/** the units a page of template t may show at a level (t.unitLevels: a unit that belongs to one level — a Color by Number
+ *  design is drawn for its level; makers 2026-11-02) */
+const unitsOf = (t, level) => { const u = (t.units && t.units[LANG]) || []; return t.unitLevels ? u.filter((x) => t.unitLevels[x.id] === level) : u; };
+const unitIn = (t, want, level) => { const u = level == null ? (t.units && t.units[LANG]) || [] : unitsOf(t, level); return u.length ? (u.some((x) => x.id === want) ? want : u[0].id) : null; };
 const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
 /** the theme a page of template t shows: the teacher's pick, else the same subject in the kind this template offers (a
  *  colouring template offers only black-and-white: animals → animals bw), else the template's first */
@@ -317,7 +322,7 @@ function choose(id, first) {
     if (!state.tpls.length) {
       state.tpls = state.pages.map(() => id);
       state.lvls = state.pages.map(() => levelIn(t, state.level));
-      state.units = state.pages.map((_, i) => unitIn(t, state.units[i] || state.unit));
+      state.units = state.pages.map((_, i) => unitIn(t, state.units[i] || state.unit, state.lvls[i]));
     }
     state.active = 0;
     if (!state.pickedTheme) state.pickedTheme = themeFor(t);
@@ -325,7 +330,7 @@ function choose(id, first) {
     const a = state.active;
     if (state.tpls[a] === id) return;
     padPages();
-    state.tpls[a] = id; state.lvls[a] = levelIn(t, state.lvls[a]); state.units[a] = unitIn(t, null);
+    state.tpls[a] = id; state.lvls[a] = levelIn(t, state.lvls[a]); state.units[a] = unitIn(t, null, state.lvls[a]);
     state.edits[a] = {}; state.texts[a] = {}; state.ink[a] = undefined;
   }
   drawingPage = null;
@@ -387,10 +392,10 @@ function pageStrings(i) {
 
 function pageSpec(i) {
   const t = tplOf(i);
-  const units = (t.units && t.units[LANG]) || [];
+  const units = unitsOf(t, state.lvls[i]);
   if (!units.length) return { variant: state.pages[i], unit: null };
   // every page has its own word (chosen in its header); a new copy changes the page only where the template allows it
-  return { variant: t.copiesDiffer.includes(state.lvls[i]) ? state.pages[i] : 1, unit: state.units[i] || units[0].id };
+  return { variant: t.copiesDiffer.includes(state.lvls[i]) ? state.pages[i] : 1, unit: units.some((u) => u.id === state.units[i]) ? state.units[i] : units[0].id };
 }
 
 /*
@@ -409,7 +414,7 @@ const results = new Map();
  */
 function sampleOptions(t) {
   const level = t.levels.includes(2) ? 2 : t.levels[0];
-  return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
+  return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? t.themes[0] : null, unit: unitsOf(t, level)[0] ? unitsOf(t, level)[0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
 }
 
 /** The makePage options of page i (a colleague's shared worksheet is built from its recipe, not the sample). */
@@ -622,7 +627,7 @@ async function render(scrollToSelected) {
       const pt = tplOf(i);
       // with several pages each header names its page's template (pages may use different ones)
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` }), multi ? el('span', { class: 'mk-page-tpl', text: cardTitle(pt.id) }) : null]);
-      const pageUnits = (pt.units && pt.units[LANG]) || [];
+      const pageUnits = unitsOf(pt, state.lvls[i]);
       if (canEdit() && pageUnits.length) {
         const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === state.active) syncActive(); render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
@@ -689,36 +694,88 @@ async function render(scrollToSelected) {
  * The choice is re-made through the gates; it is kept only if the page applied it AND passed on its own seed — a choice
  * that is already on the page, or that the page cannot carry, is undone with a sentence (ARCHITECTURE §6.2 step 3).
  */
+/** a theme's name in the page language (the controls' own rule) */
+const themeLabel = (th) => (tj.themeNames && tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
+
 async function openPicker(i, role, idx) {
   const r = await pageResult(i);
   const slotInfo = r.ok && r.slots && r.slots[role];
   if (!slotInfo) return;
   const current = slotInfo.values[idx];
+  // a free slot (lib/slot.js text(): a group's name the teacher types) opens a text box, not a picker
+  if (slotInfo.free) return openSlotText(i, role, idx, current, slotInfo.max || 24);
   let dlg = $('mk-picker');
   if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
   // a picture slot is one that carries its theme (lib/slot.js pictures() records it) — whatever the role is called
-  // (pic, pic2, row1 …: a page with a picture per card has a role per card); words slots carry none
-  const isPic = !!slotInfo.theme;
+  // (pic, pic2, row1 …: a page with a picture per card has a role per card); words slots carry none. A MULTI slot
+  // (anyPictures(): keys "theme/noun", a list that spans themes) shows each key's own picture
+  const multi = !!slotInfo.multi;
+  const isPic = !!slotInfo.theme || multi;
   const picTheme = slotInfo.theme || state.theme;
-  const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
-  const nouns = (picManifest.themes[picTheme] || {}).nouns || {};
+  const split = (key) => { const k = String(key), j = k.indexOf('/'); return multi ? [k.slice(0, j), k.slice(j + 1)] : [picTheme, k]; };
+  const imgOf = (key) => { const [th, noun] = split(key); const n = ((picManifest.themes[th] || {}).nouns || {})[noun]; return n ? `/makers-assets/themes-512/${encodeURIComponent(th)}/${encodeURIComponent(n.files[0])}` : null; };
   // a picture already on the page — in this slot or in another card's (a page with a slot per card: row0, pan1 …) —
   // is greyed: the page never shows one picture twice
-  const onPage = new Set(Object.values(r.slots).filter((x) => (x.theme || null) === (slotInfo.theme || null)).flatMap((x) => x.values));
-  for (const key of slotInfo.pool) {
-    const used = onPage.has(key) && key !== current;
-    const kids = isPic && nouns[key]
-      ? [el('img', { src: `/makers-assets/themes-512/${encodeURIComponent(picTheme)}/${encodeURIComponent(nouns[key].files[0])}`, alt: key, loading: 'lazy' })]
-      : [el('span', { text: key })];
-    grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: key, on: { click: () => choosePick(i, role, idx, key) } }, kids));
-  }
+  const onPage = new Set(Object.values(r.slots).filter((x) => !!x.multi === multi && (x.theme || null) === (slotInfo.theme || null)).flatMap((x) => x.values));
+  // a long multi list (any picture of the library) is shown one theme at a time, its themes as chips
+  const themesIn = multi ? [...new Set(slotInfo.pool.map((k) => split(k)[0]))] : [];
+  const paged = multi && slotInfo.pool.length > 60 && themesIn.length > 1;
+  let shown = paged ? (themesIn.includes(split(current)[0]) ? split(current)[0] : themesIn[0]) : null;
+  const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
+  const fill = () => {
+    grid.replaceChildren();
+    for (const key of slotInfo.pool) {
+      if (paged && split(key)[0] !== shown) continue;
+      const used = onPage.has(key) && key !== current;
+      const src = isPic ? imgOf(key) : null;
+      const kids = src ? [el('img', { src, alt: split(key)[1], loading: 'lazy' })] : [el('span', { text: multi ? split(key)[1] : key })];
+      grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: multi ? split(key)[1] : key, on: { click: () => choosePick(i, role, idx, key) } }, kids));
+    }
+    grid.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
+  };
+  const themeChips = paged ? el('div', { class: 'mk-pick-themes', role: 'group', 'aria-label': UI.pictures }, themesIn.map((th) => el('button', { type: 'button', class: 'mk-chip', 'aria-pressed': String(th === shown), text: themeLabel(th), on: { click: (e) => { shown = th; e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); fill(); } } }))) : null;
+  fill();
   dlg.replaceChildren(
     el('div', { class: 'mk-pick-head' }, [el('h2', { text: isPic ? UI.choosePicture : UI.chooseWord }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
     el('p', { class: 'mk-pick-note', id: 'mk-pick-note' }),
+    ...(themeChips ? [themeChips] : []),
     grid,
   );
   dlg.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   dlg.showModal();
+}
+
+/**
+ * Type page i's free slot (a group's name, lib/slot.js text()). Kept only if the page applied it and passed on its own
+ * seed; "Original text" brings back the template's own word.
+ */
+function openSlotText(i, role, idx, current, max) {
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const input = el('input', { class: 'mk-text-input', maxlength: String(max), 'aria-label': UI.editText });
+  input.value = current || '';
+  const note = el('p', { class: 'mk-pick-note', id: 'mk-pick-note' });
+  const save = async (value) => {
+    const before = JSON.stringify(state.edits[i] || {});
+    const ed = state.edits[i] = JSON.parse(before);
+    const v = (value || '').replace(/\s+/g, ' ').trim();
+    if (v) (ed[role] = ed[role] || {})[idx] = v; else if (ed[role]) { delete ed[role][idx]; if (!Object.keys(ed[role]).length) delete ed[role]; }
+    const r = await pageResult(i);
+    const applied = !v || (r.ok && r.slots && r.slots[role] && r.slots[role].values[idx] === v);
+    if (!r.ok || !applied) { state.edits[i] = JSON.parse(before); note.textContent = UI.textTooLong; return; }
+    dlg.close();
+    render();
+  };
+  dlg.replaceChildren(
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: UI.editText }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    note, input,
+    el('div', { class: 'mk-text-actions' }, [
+      el('button', { type: 'button', class: 'mk-link', text: UI.originalText, on: { click: () => save('') } }),
+      el('button', { type: 'button', class: 'mk-btn mk-primary', text: UI.save, on: { click: () => save(input.value) } }),
+    ]),
+  );
+  dlg.showModal();
+  input.focus();
 }
 
 /**
@@ -784,7 +841,7 @@ function buildControls(t) {
   const kids = [];
   // with several pages: which page these settings change (the selected page also carries the coral outline)
   if (state.pages.length > 1) kids.push(el('span', { class: 'mk-editing', 'data-editing': String(state.active + 1), text: `${UI.page} ${state.active + 1}` }));
-  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { const a = state.active; if (v !== state.lvls[a]) state.ink[a] = undefined; drawingPage = null; state.lvls[a] = v; syncActive(); buildControls(t); render(); }));
+  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { const a = state.active; if (v !== state.lvls[a]) state.ink[a] = undefined; drawingPage = null; state.lvls[a] = v; if (t.unitLevels) state.units[a] = unitIn(t, state.units[a], v); syncActive(); buildControls(t); render(); }));
   if (t.themed && t.themes.length > 1) {
     const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': UI.pictures }, [el('span', { class: 'mk-label', text: UI.pictures })]);
     // colour or black-and-white: a switch picks which strip is shown (a page uses one theme, never a mix); inside the

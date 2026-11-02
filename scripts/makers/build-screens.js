@@ -106,7 +106,8 @@ async function main() {
           // copy 1 (at level 2 the published face) AND copy 2 (a teacher's new page): both must yield a screen
           const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
           const theme = t.themed ? t.themes[0] : null;
-          const unit = t.units && t.units[loc0] && t.units[loc0][0] ? t.units[loc0][0].id : null;
+          // a unit drawn for one level (t.unitLevels) is asked for at that level only
+          const unit = ((t.units && t.units[loc0]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
           try {
             const got = [];
             for (const variant of [1, 2]) got.push((await ladder(variant, (sv) => runtime.screenFor({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant, ...(sv ? { seedVariant: variant + sv } : {}), tpl: { ...t, screenInstructions: instr }, runtimeStrings: shared.runtimeStrings[loc0], marksInstructions: shared.screenInstructions[loc0] }, mount))).path);
@@ -124,7 +125,7 @@ async function main() {
         for (const d of t.levels) {
           const s = withLevelInstruction(resolveStrings(t.id, 'en', type), t.id, d, 'en');
           const theme = t.themed ? t.themes[0] : null;
-          const unit = t.units && t.units.en && t.units.en[0] ? t.units.en[0].id : null;
+          const unit = ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
           try {
             const r = runtime.makePage({ type, strings: s, locale: 'en', difficulty: d, theme, unit, variant: 1, screen: true });
             await runtime.screen.buildScreen({ html: r.screenHtml, locale: 'en', strings: shared.runtimeStrings.en, instruction: 'x', mount });

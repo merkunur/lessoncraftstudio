@@ -42,6 +42,7 @@ const EXEMPT = {
   'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
   'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
   'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],
+  'K-044': [/^area-(max|min)$/, 'circle the picture of a different SIZE: the different one is always the biggest or the smallest in its row (half each) — comparing sizes is the task, not a guess'],
   'G3-356': [/^const-(0|15|30|45)$/, 'add and subtract whole hours (level 1), half hours (level 2) or quarter hours (level 3): the minutes of every answer are :00, :30 or a quarter by the level — keeping the minutes is part of the skill; the screen grades them in their own box, pooled here with the hours 1-12'],
   'G1-479': [/^(first-half|second-half|alternate-[01])$/, 'shade the quarters the minute hand has passed: they always start at 12 and run clockwise (quarter past = the top right, half past = the right half) — where the shaded quarters sit IS the lesson'],
   'G2-228': [/^alternate-/, 'colour ONE HALF: any half of the parts is right (graded "any N"), so every other part is a right answer, not a guess'],
@@ -245,6 +246,11 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     const pairPages = (shuffled) => { const r = rngP(7); return Array.from({ length: 12 }, () => { const n = 6; const ids = Array.from({ length: n }, (_, i) => 't' + i); const perm = ids.slice(); if (shuffled) for (let i = n - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [perm[i], perm[j]] = [perm[j], perm[i]]; } return [{ kind: 'pair', items: ids.map((_, i) => ({ x: 10, y: 10 + i * 12, answer: perm[i] })), targets: ids.map((id, i) => ({ x: 70, y: 10 + i * 12, id })) }]; }); };
     if (!v(pairPages(false)).includes('FAIL')) fail('poison 3: a pair page with item k ↔ target k PASSED');
     if (v(pairPages(true)).includes('FAIL')) fail('poison 3 control: a shuffled pair page FAILS');
+    // grouped pair (each row its own task: 2 blanks, 4 pictures of the row): the first blank always ↔ the row's first
+    // picture must fail; a random picture of the row must pass — measured inside the row, not against the whole page
+    const groupPages = (fixed) => { const r = rngP(13); return Array.from({ length: 12 }, () => { const items = [], targets = []; for (let g = 0; g < 4; g++) { const y = 10 + g * 40; for (let c = 0; c < 4; c++) targets.push({ x: 120 + c * 30, y, id: g + '-' + c, group: String(g) }); for (let k = 0; k < 2; k++) items.push({ x: 10 + k * 30, y, answer: g + '-' + (fixed ? k : Math.floor(r() * 4)), group: String(g) }); } return [{ kind: 'pair', items, targets }]; }); };
+    if (!v(groupPages(true)).includes('FAIL')) fail('poison 3b: a grouped pair page with blank k ↔ the row\'s picture k PASSED');
+    if (v(groupPages(false)).includes('FAIL')) fail('poison 3b control: a random grouped pair page FAILS');
     const placePages = (fixed) => { const r = rngP(11); return Array.from({ length: 12 }, () => { const bins = ['a', 'b', 'c'].map((id, i) => ({ id, x: 10 + i * 30, y: 90 })); return [{ kind: 'place', items: Array.from({ length: 8 }, (_, i) => ({ x: 10 + (i % 4) * 20, y: 10 + Math.floor(i / 4) * 20, answer: fixed ? 'a' : bins[Math.floor(r() * 3)].id })), bins }]; }); };
     if (!v(placePages(true)).includes('FAIL')) fail('poison 4: a place page that always answers bin a PASSED');
     if (v(placePages(false)).includes('FAIL')) fail('poison 4 control: a random place page FAILS');

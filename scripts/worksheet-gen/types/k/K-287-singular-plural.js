@@ -122,7 +122,7 @@ module.exports = {
         const rot = ((k - (n - 1) / 2) * 6).toFixed(1);
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
       }).join('');
-      return `<div class="ws-card" style="flex-direction:row;height:${d.rowH}px;padding:8px 10px;gap:12px;align-items:center" ` +
+      return `<div class="ws-card" style="flex-direction:row;flex:0 1 ${d.rowH}px;min-height:0;padding:8px 10px;gap:12px;align-items:center" ` +
         `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}${toSing ? ' data-lcs-direction="toSingular"' : ''}>` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
         `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
@@ -136,7 +136,7 @@ module.exports = {
       `<span class="ws-pill" style="font-size:18px;padding:2px 18px" data-lcs-head="one">1 · ${L.one}</span>` +
       `<span class="ws-pill" style="font-size:18px;padding:2px 18px" data-lcs-head="many">2 · 3 · ${L.many}</span></div>`;
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px">${head}${rows.join('')}</div>`,
+      bodyHtml: `<div style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px">${head}${rows.join('')}</div>`,
       meta: published ? { pairs: picks.map((e) => [e.sing, e.plur]) } : { pairs: picks.map((e) => [e.sing, e.plur]), rows: rowMeta },
     };
   },

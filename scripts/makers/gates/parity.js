@@ -64,8 +64,9 @@ async function main() {
       const units = spec.unitAxis && spec.unitAxis.applicable ? null : [null];
       const list = [];
       t.locales.forEach((loc, i) => {
-        const us = units || (spec.unitAxis.units(loc) || []).slice(0, 2);
         const d = t.levels[i % t.levels.length];
+        // a unit drawn for one level is asked for at that level only
+        const us = units || (spec.unitAxis.units(loc) || []).filter((u) => !spec.unitAxis.levelOf || spec.unitAxis.levelOf(u) === d).slice(0, 2);
         const theme = t.themed ? t.themes[i % t.themes.length] : null;
         list.push({ loc, d, theme, unit: us[i % us.length] || null, variant: 1 + (i % 2) });
       });
@@ -85,9 +86,17 @@ async function main() {
               data[f] = await r.text();
             }
             mod.platform.preload(data);
+            if (mod.platform.setFetcher) mod.platform.setFetcher(async (f) => { const x = await fetch(`/makers/data/${o.dv}/${f.split('/').map(encodeURIComponent).join('/')}`); return x.ok ? x.text() : null; });
             const type = await mod.templates[o.id]();
             const spec = type.default || type;
-            const r = mod.makePage({ type: spec, strings: o.strings, locale: o.loc, difficulty: o.d, theme: o.theme, unit: o.unit, variant: o.variant, answerKey: true, answerKeySuffix: o.suffix });
+            // an art file (one picture of a picture family) is fetched and the page built again, as runtime.generate does
+            let r;
+            for (let k = 0; ; k++) {
+              try { r = mod.makePage({ type: spec, strings: o.strings, locale: o.loc, difficulty: o.d, theme: o.theme, unit: o.unit, variant: o.variant, answerKey: true, answerKeySuffix: o.suffix }); break; } catch (e) {
+                if (e && e.name === 'PlatformMissing' && k < 12 && mod.platform.fetchMissing && await mod.platform.fetchMissing(e.path)) continue;
+                throw e;
+              }
+            }
             return { html: r.html, keyHtml: r.keyHtml };
           } catch (e) { return { err: String(e && e.stack || e).slice(0, 400) }; }
         }, { maker: id, ver, dv, files, id: t.id, strings, loc: c.loc, d: c.d, theme: c.theme, unit: c.unit, variant: c.variant, suffix: tj.answerKey[c.loc] });

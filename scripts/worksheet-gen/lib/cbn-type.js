@@ -75,6 +75,7 @@ function makeCbnType({ id, slug, kind, i18n }) {
       applicable: true,
       units: () => mine().map((d) => d.id),
       exemplar: () => (mine().find((d) => d.level === 2) || mine()[0]).id,
+      levelOf: (u) => byId(u).level,
       tokens: (unit, loc) => { const n = nameOf(byId(unit), (loc || 'en').slice(0, 2)); return { U: n, L: n, UNIT: n }; },
     },
     // the level is the DESIGN's (measured complexity, lib/cbn-render.js LEVEL_CAPS); a design builds only at its level
@@ -92,7 +93,12 @@ function makeCbnType({ id, slug, kind, i18n }) {
     },
     build({ difficulty, locale, unit }, ctx) {
       const loc = String(locale || 'en').slice(0, 2);
-      const d = unit ? byId(unit) : byId(this.unitAxis.exemplar(loc));
+      // a maker page with no design (makers 2026-11-02): the copy picks one of its LEVEL's designs (level 2, copy 1 = the
+      // exemplar, as published); the catalogue always names its design
+      const lvDesigns = () => { const ex = this.unitAxis.exemplar(loc); const l = mine().filter((x) => x.level === Number(difficulty)); return l.some((x) => x.id === ex) ? [byId(ex)].concat(l.filter((x) => x.id !== ex)) : l; };
+      const pickByCopy = () => { const l = lvDesigns(); const v = String((ctx && (ctx.seedVariant || ctx.variant)) || 1); const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0); return l.length ? l[(n - 1) % l.length] : byId(this.unitAxis.exemplar(loc)); };
+      const picked = !unit && ctx && ctx.slotsOut;
+      const d = unit ? byId(unit) : picked ? pickByCopy() : byId(this.unitAxis.exemplar(loc));
       if (d.level !== Number(difficulty)) throw new Error(`${id}: "${d.id}" is a level ${d.level} design, not level ${difficulty}`);
       const art = buildArt(d);
       const L = labelsFor(d.id);
@@ -105,7 +111,7 @@ function makeCbnType({ id, slug, kind, i18n }) {
       const body = `<div data-ws-content data-lcs-type="${id}" data-lcs-design="${d.id}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px">` +
         `<div style="border:3px solid #2E2E2E;border-radius:22px;overflow:hidden;line-height:0;background:#FFF">${svg}</div>` +
         keyRow(L.num, loc, screen) + `</div>`;
-      return { bodyHtml: body, meta: { design: d.id, colours: Object.keys(L.num) } };
+      return { bodyHtml: body, meta: { design: d.id, colours: Object.keys(L.num) }, ...(picked ? { unit: d.id } : {}) };
     },
     async verify(page) {
       return page.evaluate(() => {

@@ -61,6 +61,18 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'G1-483',
   // Number Tracing (2026-11-02): K-468 numerals and number words only
   'K-468',
+  // Same & Different (2026-11-02): K-069 What Is It? draws each row's picture TOGETHER with the two choices its visible
+  // part cannot be read as (masks) — a swapped picture needs new choices and re-draws every later row
+  'K-069',
+  // Sorting (2026-11-02): G1-485 draws its shapes and colours by code — the Level control and "New version" change them
+  'G1-485',
+  // Dot to Dot (2026-11-02): the picture IS the dots — a scene whose outline takes the level's number of dots and whose
+  // numbers all find a free place (the d2d index), or a hand-drawn figure; it is not a library picture, so no picker can
+  // offer it — "New version" moves through the level's pictures. The numbers / letters come from the level
+  'K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486',
+  // Color by Number (2026-11-02): the code faces draw shapes and numerals / sums / facts by code (the Level control and
+  // "New version" change them); the illustrated pictures (K-393 / K-394) are one drawn design each — the design is the page
+  'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'K-394',
   // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
   'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
@@ -115,11 +127,13 @@ for (const m of MAKERS) {
     if (!isNew) { try { refType = require(path.join(tmp, t.file)); } catch (e) { fail(`${t.id}: cannot load ${REF} version (${e.message})`); } }
     const strings = resolveStrings(t.id, 'en', type);
     const themes = t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null];
-    const unit = t.units && t.units.en ? t.units.en[0].id : null;
+    // a unit drawn for one level (t.unitLevels) is asked for at that level only
+    const unitAt = (d) => ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
     // 1. catalogue untouched
     let same = 0, n = 0;
     for (const theme of themes) for (const d of t.levels) for (const v of [1, 2]) {
       n++;
+      const unit = unitAt(d);
       const seed = instanceSeed({ typeId: t.id, theme, difficulty: d, seedEpoch: 1, variant: v, unit });
       let a, b, ea = null, eb = null;
       // a seed that cannot be built (the maker then retries a fresh seed) is unchanged when it threw before too
@@ -137,8 +151,8 @@ for (const m of MAKERS) {
     const lv = [...new Set([t.levels.includes(2) ? 2 : t.levels[0], ...t.levels])];
     // the page the maker shows: the first seed that builds (runtime.generate's fresh-seed ladder), every check on that seed
     const SV = [null, '1.1', '1.2', '1.3', '1.4'];
-    const svOf = (x) => SV.find((sv) => { try { makePage({ type, strings, locale: 'en', difficulty: x, theme, unit, variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; } });
-    const mk = (x, sv, extra) => makePage({ type, strings, locale: 'en', difficulty: x, theme, unit, variant: 1, ...(sv ? { seedVariant: sv } : {}), ...(extra || {}) });
+    const svOf = (x) => SV.find((sv) => { try { makePage({ type, strings, locale: 'en', difficulty: x, theme, unit: unitAt(x), variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; } });
+    const mk = (x, sv, extra) => makePage({ type, strings, locale: 'en', difficulty: x, theme, unit: unitAt(x), variant: 1, ...(sv ? { seedVariant: sv } : {}), ...(extra || {}) });
     const tryMk = (x, sv, extra) => { try { return mk(x, sv, extra); } catch (e) { return null; } };
     const d = lv.find((x) => { const sv = svOf(x); return sv !== undefined && Object.keys(mk(x, sv).slots).length; }) || lv[0];
     const sv0 = svOf(d);

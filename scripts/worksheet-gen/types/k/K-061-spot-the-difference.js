@@ -5,6 +5,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-061',
@@ -29,8 +30,16 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const pool = labelSafeNouns(theme);
-    const base = rng.sample(pool, d.items);
-    const replacements = rng.sample(pool.filter((p) => !base.includes(p)), d.diffs);
+    // makers (2026-11-02): every picture is a slot (pic), and so is each changed picture (diff, from the pictures not in
+    // the left panel); the key rings the changes and the screen asks for them (select) — the catalogue page is unchanged
+    const drawn = rng.sample(pool, d.items);
+    const base = slot.pictures(ctx, drawn, pool, theme, 'pic');
+    // the changes are drawn from the pictures the DRAWN panel left out, so a swapped picture moves nothing else; a picture
+    // the teacher brought in that is one of those changes gives its place to the picture it pushed out
+    const freed = drawn.filter((p) => !base.includes(p));
+    const drawnChanges = rng.sample(pool.filter((p) => !drawn.includes(p)), d.diffs).map((p) => (base.includes(p) ? freed.shift() || p : p));
+    const replacements = slot.pictures(ctx, drawnChanges, pool.filter((p) => !base.includes(p)), theme, 'diff');
+    const marks = !!(ctx && (ctx.answerKey || ctx.screen));
     const diffIdx = rng.sample(base.map((_, i) => i), d.diffs);
 
     // shared positions (panel ~300×620)
@@ -52,7 +61,7 @@ module.exports = {
         const p = positions[i];
         const isDiff = markDiffs && diffIdx.includes(i);
         return `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" data-lcs-pos="${i}"` +
-          `${isDiff ? ' data-lcs-diff="1"' : ''} ` +
+          `${isDiff ? ' data-lcs-diff="1"' : ''}${isDiff && marks ? ' data-lcs-correct="1"' : ''}${markDiffs && isDiff ? slot.attr(ctx, 'diff', diffIdx.indexOf(i)) : slot.attr(ctx, 'pic', i)} ` +
           `style="position:absolute;left:${p.x.toFixed(1)}px;top:${p.y.toFixed(1)}px;` +
           `width:${iconPx}px;height:${iconPx}px;transform:rotate(${p.rot}deg)">`;
       }).join('') + `</div></div>`;
@@ -64,7 +73,7 @@ module.exports = {
 
     return {
       bodyHtml:
-        `<div style="flex:1 1 auto;display:flex;gap:14px;min-height:0" data-lcs-diffcount="${d.diffs}">` +
+        `<div style="flex:1 1 auto;display:flex;gap:14px;min-height:0" data-ws-content data-lcs-diffcount="${d.diffs}">` +
         panel(base, false) + panel(right, true) +
         `</div>`,
       meta: { diffs: diffIdx.map((i, k) => ({ pos: i, was: base[i].vocabKey, now: replacements[k].vocabKey })) },

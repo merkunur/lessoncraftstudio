@@ -144,7 +144,12 @@
       "K-467",
       "K-468",
       "G2-479",
-      "G1-484"
+      "G1-484",
+      "K-473",
+      "K-476",
+      "K-477",
+      "K-478",
+      "K-479"
     ]
   },
   "many-answers": {
@@ -191,7 +196,12 @@
   },
   "later": {
     "reason": "eligible, but the page's marks are not sufficient yet — the needed edit is named per id",
-    "ids": {}
+    "ids": {
+      "K-242": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
+      "K-270": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
+      "K-271": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
+      "K-272": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator"
+    }
   },
   "levels": {
     "_note": "per-LEVEL paper-only verdicts for a template whose other levels have a screen: build-screens.js records the text as that level's screenReason (the level is simply not in screenLevels)",

@@ -779,7 +779,10 @@
         "K-248",
         "K-385",
         "K-386",
-        "K-387"
+        "K-387",
+        "K-476",
+        "K-477",
+        "K-478"
       ],
       "verdict": "gap",
       "activities": [],
@@ -867,7 +870,8 @@
         "K-437",
         "K-438",
         "K-440",
-        "K-441"
+        "K-441",
+        "K-474"
       ],
       "verdict": "covered",
       "activities": [
@@ -887,7 +891,8 @@
         "K-221",
         "K-228",
         "K-317",
-        "K-328"
+        "K-328",
+        "K-475"
       ],
       "verdict": "covered",
       "activities": [
@@ -979,7 +984,8 @@
       "strand": "Foundational Skills",
       "worksheets": [
         "K-223",
-        "K-309"
+        "K-309",
+        "K-473"
       ],
       "verdict": "gap",
       "activities": [],
@@ -1159,7 +1165,8 @@
         "K-042",
         "K-235",
         "K-240",
-        "K-264"
+        "K-264",
+        "K-472"
       ],
       "verdict": "covered",
       "activities": [
@@ -1625,7 +1632,8 @@
       "worksheets": [
         "K-266",
         "K-393",
-        "K-394"
+        "K-394",
+        "K-479"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -1651,7 +1659,8 @@
         "K-410",
         "K-411",
         "K-412",
-        "K-413"
+        "K-413",
+        "K-480"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -1828,7 +1837,8 @@
         "G1-442",
         "G1-472",
         "G1-474",
-        "G1-475"
+        "G1-475",
+        "G1-486"
       ],
       "verdict": "covered",
       "activities": [
@@ -5344,7 +5354,8 @@
       "code": "LOGIC",
       "strand": "Logical reasoning",
       "worksheets": [
-        "G3-353"
+        "G3-353",
+        "G1-485"
       ],
       "verdict": "partial",
       "activities": [
@@ -5401,7 +5412,8 @@
         "G3-405",
         "G3-407",
         "G3-408",
-        "G3-411"
+        "G3-411",
+        "G3-478"
       ],
       "verdict": "partial",
       "activities": [

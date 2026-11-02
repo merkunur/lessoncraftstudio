@@ -27,10 +27,10 @@
         "it": "Frutta",
         "pt": "Frutas",
         "nl": "Fruit",
-        "sv": "Frukt",
-        "da": "Frugt",
-        "no": "Frukt",
-        "fi": "Hedelmät"
+        "sv": "Frukt och bär",
+        "da": "Frugt og bær",
+        "no": "Frukt og bær",
+        "fi": "Hedelmät ja marjat"
       }
     },
     {
@@ -40,13 +40,13 @@
         "de": "Fahrzeuge",
         "es": "Vehículos",
         "fr": "Véhicules",
-        "it": "Veicoli",
+        "it": "Mezzi di trasporto",
         "pt": "Veículos",
-        "nl": "Voertuigen",
-        "sv": "Fordon",
-        "da": "Køretøjer",
-        "no": "Kjøretøy",
-        "fi": "Ajoneuvot"
+        "nl": "Vervoermiddelen",
+        "sv": "Färdmedel",
+        "da": "Transportmidler",
+        "no": "Fremkomstmidler",
+        "fi": "Kulkuvälineet"
       }
     }
   ],
@@ -109,7 +109,8 @@
     {
       "theme": "fruits",
       "noun": "blueberry",
-      "bin": "Fruits"
+      "bin": "Fruits",
+      "retired": true
     },
     {
       "theme": "vehicles",

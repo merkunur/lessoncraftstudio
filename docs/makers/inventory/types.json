@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 948,
+ "count": 962,
  "failures": [],
  "rows": [
   {
@@ -935,7 +935,7 @@
    "family": "visual-discrimination",
    "variationOf": null,
    "title": "Same and Different",
-   "instruction": "Three pictures are the same. Circle the one that is different.",
+   "instruction": "Look at each row. Circle the picture that is different.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 3,
@@ -1245,7 +1245,9 @@
    "interactive": false,
    "uses": [
     "image-cache/resolve.js",
-    "image-cache/silhouette.js"
+    "lib/picture-masks.js",
+    "lib/slot.js",
+    "_shared/key-number.js"
    ],
    "teachingPoint": "K:shadow-closure",
    "skill": "Match a picture to its shadow; recognise a whole picture from a part (visual closure)",
@@ -1260,7 +1262,7 @@
    "family": "visual-matching",
    "variationOf": null,
    "title": "Find the Pairs",
-   "instruction": "Every picture has a twin. Draw a line between each pair.",
+   "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 3,
@@ -1270,7 +1272,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:same-different-visual",
    "skill": "Visual discrimination: find the identical twins, the pairs, and the one that differs (in detail, size or shape)",
@@ -1347,7 +1350,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -1372,7 +1376,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:same-different-visual",
    "skill": "Visual discrimination: find the identical twins, the pairs, and the one that differs (in detail, size or shape)",
@@ -1397,7 +1402,8 @@
    "interactive": false,
    "uses": [
     "image-cache/resolve.js",
-    "image-cache/silhouette.js",
+    "lib/slot.js",
+    "lib/picture-masks.js",
     "templates/layouts/card-grid.js"
    ],
    "teachingPoint": "K:mirror-image",
@@ -1549,7 +1555,9 @@
    "interactive": false,
    "uses": [
     "templates/layouts/card-grid.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "image-cache/silhouette.js",
+    "lib/picture-masks.js"
    ],
    "teachingPoint": "K:shadow-closure",
    "skill": "Match a picture to its shadow; recognise a whole picture from a part (visual closure)",
@@ -1665,7 +1673,7 @@
    "family": "visual-matching",
    "variationOf": null,
    "title": "Shape Twins",
-   "instruction": "Every shape has a twin. Draw a line between each pair.",
+   "instruction": "Every shape has a twin. Draw a line to join the two shapes in each pair.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -1793,7 +1801,7 @@
    "family": "science-sort",
    "variationOf": null,
    "title": "Healthy and Not-Healthy Foods",
-   "instruction": "Draw a line from each food to the group it belongs to.",
+   "instruction": "Draw a line from each picture to the group it belongs to.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -2602,7 +2610,8 @@
    "uses": [
     "image-cache/resolve.js",
     "primitives/_tokens.js",
-    "primitives/_svg.js"
+    "primitives/_svg.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:category-sort",
    "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
@@ -2633,7 +2642,11 @@
    "uses": [
     "primitives/_tokens.js",
     "primitives/_svg.js",
-    "data/color-words.js"
+    "data/color-words.js",
+    "image-cache/resolve.js",
+    "lib/slot.js",
+    "data/literacy/sight-words.js",
+    "data/literacy/sort-by-beginning-sound.json"
    ],
    "teachingPoint": "K:shape-naming",
    "skill": "Name 2D shapes in any orientation or proportion; follow a shape-coded key; count triangles and squares in a figure",
@@ -2660,7 +2673,8 @@
    "interactive": false,
    "uses": [
     "lib/maze.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:mazes",
    "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
@@ -3893,7 +3907,7 @@
    "family": "dot-to-dot",
    "variationOf": null,
    "title": "Dot-to-Dot 1 to 20",
-   "instruction": "Start at the orange dot. Join the dots in number order to find the hidden picture.",
+   "instruction": "Start at the orange dot. Join the dots in number order to finish the picture.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -3910,8 +3924,11 @@
     "data/b2/collation.js",
     "data/b2/figures.js",
     "primitives/scene-dot-figure.js",
+    "lib/platform/index.js",
     "data/d2d/review.js",
-    "fs",
+    "path",
+    "path",
+    "path",
     "path"
    ],
    "teachingPoint": "K:dot-to-dot-sequence",
@@ -4183,7 +4200,7 @@
    "family": "dot-to-dot",
    "variationOf": "K-285",
    "title": "Dot-to-Dot: Count On from 11",
-   "instruction": "Start at the orange dot. Count on from 11 to 30 to find the picture.",
+   "instruction": "Start at the orange dot. Count on from 11 to 30 and join the dots to finish the picture.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -4443,7 +4460,7 @@
    "family": "dot-to-dot",
    "variationOf": "K-285",
    "title": "ABC Dot-to-Dot",
-   "instruction": "Join the dots in alphabet order, from a to t, to find the picture.",
+   "instruction": "Join the dots in alphabet order, from a to t, to finish the picture.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -8000,13 +8017,21 @@
     "lib/hm-maze.js",
     "lib/hm-rules.js",
     "data/b2/collation.js",
+    "lib/rng.js",
+    "lib/platform/index.js",
+    "path",
+    "lib/platform/index.js",
+    "path",
     "data/hmx/sound-pools.json",
     "data/hm/sound-pools.json",
+    "image-cache/resolve.js",
     "lib/hm-rules.js",
     "lib/hm-scene.js",
     "lib/hmx-scenery.js",
     "lib/b8-common.js",
     "lib/hmx.js",
+    "lib/hmx.js",
+    "lib/hm-verify.js",
     "lib/hm-verify.js"
    ],
    "teachingPoint": "K:mazes",
@@ -9655,6 +9680,302 @@
    "teachingPoint": "1:number-words",
    "skill": "Read and write number words to 20, tens words to 100, words to 50; match numerals to words",
    "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "K-469",
+   "file": "scripts/worksheet-gen/types/k/K-469-find-the-missing-piece.js",
+   "grade": "K",
+   "slug": "find-the-missing-piece",
+   "family": "visual-matching",
+   "variationOf": null,
+   "title": "Find the Missing Piece",
+   "instruction": "A piece of each picture is missing. Circle the piece that fits.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "gaps",
+    "opts",
+    "T"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-pieces.js"
+   ],
+   "teachingPoint": "K:shadow-closure",
+   "skill": "Match a picture to its shadow; recognise a whole picture from a part (visual closure)",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-470",
+   "file": "scripts/worksheet-gen/types/k/K-470-picture-puzzle-cut-and-glue.js",
+   "grade": "K",
+   "slug": "picture-puzzle-cut-and-glue",
+   "family": "visual-matching",
+   "variationOf": null,
+   "title": "Picture Puzzle",
+   "instruction": "Cut out the pieces. Glue each piece in its place on the grid so the picture is whole again.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "T"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-pieces.js"
+   ],
+   "teachingPoint": "K:shadow-closure",
+   "skill": "Match a picture to its shadow; recognise a whole picture from a part (visual closure)",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-472",
+   "file": "scripts/worksheet-gen/types/k/K-472-sort-your-own-groups.js",
+   "grade": "K",
+   "slug": "sort-your-own-groups",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Sort Into Two Groups",
+   "instruction": "Draw a line from each picture to the group it belongs to.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "perBin"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/science-category-sort.js",
+    "image-cache/resolve.js",
+    "lib/picture-refusals.js",
+    "data/literacy/category-vocab.json",
+    "data/science/can-fly-vs-cannot.json",
+    "data/science/wants-vs-needs.json",
+    "data/science/transportation-land-water-air.json",
+    "data/science/food-groups.json"
+   ],
+   "teachingPoint": "K:category-sort",
+   "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
+   "strand": "Language / Vocabulary",
+   "science": false
+  },
+  {
+   "id": "K-473",
+   "file": "scripts/worksheet-gen/types/k/K-473-dot-to-dot-capital-letters.js",
+   "grade": "K",
+   "slug": "dot-to-dot-capital-letters",
+   "family": "dot-to-dot",
+   "variationOf": "K-285",
+   "title": "ABC Dot-to-Dot: Capital Letters",
+   "instruction": "Start at the orange dot. Join the dots in alphabet order, from A to J, to find the picture.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "count",
+    "window",
+    "startAt",
+    "chip",
+    "letters",
+    "upper"
+   ],
+   "interactive": false,
+   "uses": [
+    "./K-285-dot-to-dot.js"
+   ],
+   "teachingPoint": "K:alphabet-order",
+   "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-474",
+   "file": "scripts/worksheet-gen/types/k/K-474-color-by-sight-word.js",
+   "grade": "K",
+   "slug": "color-by-sight-word",
+   "family": "color-by-number",
+   "variationOf": "K-241",
+   "title": "Color by Sight Word",
+   "instruction": "Read the word in each shape. Color the shape with the color of that word in the code.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size",
+    "wordPool"
+   ],
+   "interactive": false,
+   "uses": [
+    "./K-241-color-by-code.js"
+   ],
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-475",
+   "file": "scripts/worksheet-gen/types/k/K-475-color-by-first-sound.js",
+   "grade": "K",
+   "slug": "color-by-first-sound",
+   "family": "color-by-number",
+   "variationOf": "K-241",
+   "title": "Color by First Sound",
+   "instruction": "Say the name of each picture. Color the shape with the color of the letter it starts with.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size"
+   ],
+   "interactive": false,
+   "uses": [
+    "./K-241-color-by-code.js"
+   ],
+   "teachingPoint": "K:beginning-sounds",
+   "skill": "Identify and sort by the beginning sound (letter of the week, m or n)",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-476",
+   "file": "scripts/worksheet-gen/types/k/K-476-coloring-page.js",
+   "grade": "K",
+   "slug": "coloring-page",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Coloring Page",
+   "instruction": "Color the picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-477",
+   "file": "scripts/worksheet-gen/types/k/K-477-color-and-trace-the-word.js",
+   "grade": "K",
+   "slug": "color-and-trace-the-word",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color and Trace the Word",
+   "instruction": "Color the picture. Trace its name.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px",
+    "laneH",
+    "glyphH",
+    "maxLetters"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-478",
+   "file": "scripts/worksheet-gen/types/k/K-478-color-the-scene.js",
+   "grade": "K",
+   "slug": "color-the-scene",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color the Scene",
+   "instruction": "Color everything in the picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "cols",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-479",
+   "file": "scripts/worksheet-gen/types/k/K-479-color-by-the-key.js",
+   "grade": "K",
+   "slug": "color-by-the-key",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color by the Key",
+   "instruction": "Look at the number on each picture. Find it in the key and color the picture in that color.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:colour-by-number",
+   "skill": "Colour by number / colour pictures and scenes by a numeral key",
+   "strand": "Fine motor / numeral recognition",
+   "science": false
+  },
+  {
+   "id": "K-480",
+   "file": "scripts/worksheet-gen/types/k/K-480-picture-path-maze.js",
+   "grade": "K",
+   "slug": "picture-path-maze",
+   "family": "maze-puzzles",
+   "variationOf": "K-405",
+   "title": "Picture Path Maze: Step on the Animals",
+   "instruction": "Help the farmer get to the tractor. Step only on the animals.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "scene"
+   ],
+   "interactive": true,
+   "uses": [
+    "./K-405-maze-puzzles.js"
+   ],
+   "teachingPoint": "K:mazes",
+   "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+   "strand": "Visual Perception & Pencil Control",
    "science": false
   },
   {
@@ -13150,7 +13471,7 @@
    "family": "dot-to-dot",
    "variationOf": null,
    "title": "Dot-to-Dot: Count by Twos",
-   "instruction": "Join the numbered dots in twos; the rest of the outline is already drawn.",
+   "instruction": "Start at the orange dot. Count by twos from 2 to 20 and join the dots. Part of the picture is already drawn.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -19801,7 +20122,7 @@
    "family": "symmetry",
    "variationOf": null,
    "title": "Draw the Other Half",
-   "instruction": "Only half of the picture is drawn. Draw the other half on the other side of the line, square by square.",
+   "instruction": "Only half of the picture is drawn. Draw the other half on the other side of the line so it mirrors the first half, square by square.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -19816,6 +20137,59 @@
    "teachingPoint": "2:symmetry-complete",
    "skill": "Complete a half-drawn grid picture so it is symmetrical (vertical and horizontal mirror lines)",
    "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "G1-485",
+   "file": "scripts/worksheet-gen/types/g1/G1-485-two-circle-sort-shapes-colours.js",
+   "grade": "G1",
+   "slug": "two-circle-sort-shapes-colours",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Two-Circle Sort: Shapes and Colors",
+   "instruction": "Write each shape's number in its place. Left circle: the shape named above it. Right circle: the color named above it. Middle: both. The box outside the circles: neither.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "items"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_svg.js",
+    "primitives/_tokens.js",
+    "data/color-words.js",
+    "g3/G3-353-venn-sort.js"
+   ],
+   "teachingPoint": "3:two-attribute-sort",
+   "skill": "Classify by two attributes at once (two-circle Venn, row × column table, the missing cell)",
+   "strand": "Logical reasoning",
+   "science": false
+  },
+  {
+   "id": "G1-486",
+   "file": "scripts/worksheet-gen/types/g1/G1-486-dot-to-dot-with-sums.js",
+   "grade": "G1",
+   "slug": "dot-to-dot-with-sums",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Dot-to-Dot Math",
+   "instruction": "Solve each problem and write the answer. Start at the orange dot: it is the answer to problem 1. Then join it to the answer to problem 2, then problem 3, and so on.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/scene-dot-figure.js",
+    "templates/components.js",
+    "k/K-285-dot-to-dot.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
    "science": false
   },
   {
@@ -21504,7 +21878,7 @@
    "family": "symmetry",
    "variationOf": "G2-253",
    "title": "Mirror Below the Line",
-   "instruction": "Each picture is only half done. Color the squares below the line to make it symmetrical.",
+   "instruction": "The pictures lie on their side. Each one is only half done: color the squares below the line to make it symmetrical.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -22431,7 +22805,7 @@
    "family": "dot-to-dot",
    "variationOf": null,
    "title": "Dot-to-Dot: Count by Fives",
-   "instruction": "Join the numbered dots in fives; the rest of the outline is already drawn.",
+   "instruction": "Start at the orange dot. Count by fives from 5 to 50 and join the dots. Part of the picture is already drawn.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -22672,7 +23046,7 @@
    "family": "dot-to-dot",
    "variationOf": null,
    "title": "Dot-to-Dot: Count by Tens",
-   "instruction": "Join the numbered dots in tens; the rest of the outline is already drawn.",
+   "instruction": "Start at the orange dot. Count by tens from 10 to 100 and join the dots. Part of the picture is already drawn.",
    "assetClass": "geometry",
    "themed": false,
    "levels": 3,
@@ -29978,6 +30352,35 @@
    "teachingPoint": "3:area-model",
    "skill": "Area of a rectangle = rows × columns (tiling becomes multiplication)",
    "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G3-478",
+   "file": "scripts/worksheet-gen/types/g3/G3-478-color-by-multiplication.js",
+   "grade": "G3",
+   "slug": "color-by-multiplication",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Color by Multiplication Fact",
+   "instruction": "Solve the fact in each shape. Color the shape with the color of its product in the code.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size",
+    "factors",
+    "values"
+   ],
+   "interactive": false,
+   "uses": [
+    "k/K-241-color-by-code.js"
+   ],
+   "teachingPoint": "3:times-tables",
+   "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
+   "strand": "Operations & Algebraic Thinking",
    "science": false
   }
  ]

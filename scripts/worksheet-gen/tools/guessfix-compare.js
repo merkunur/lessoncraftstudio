@@ -70,7 +70,7 @@ for (const d of live) {
   const same = sameWords && pics(await pdfpics(fs.readFileSync(old))) === pics(await pdfpics(fs.readFileSync(fresh))) && (!POSITIONS || boxes(old) === boxes(fresh));
   if (same && !KEEP_ALL) { s.same++; drop.push({ dir, d }); continue; }
   if (same) s.same++; else s.changed++;   // --keep-all: kept, but counted as unchanged
-  if (!sameWords) { wordsChanged++; s.words = (s.words || 0) + 1; if (wordsChanged <= 10) console.log('words differ ' + d.loc + ' ' + d.deck_id); }
+  if (!sameWords) { wordsChanged++; s.words = (s.words || 0) + 1; if (wordsChanged <= 10 || process.argv.includes('--list-words')) console.log('words differ ' + d.loc + ' ' + d.deck_id); }
   const m = JSON.parse(zip.readAsText('manifest.json'));
   const liveM = JSON.parse(fs.readFileSync(path.join(LIVEDIR, d.loc, d.slug, 'manifest.json'), 'utf8'));
   if (JSON.stringify(m.title) !== JSON.stringify(liveM.title)) {

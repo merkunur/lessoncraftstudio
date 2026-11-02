@@ -10,7 +10,7 @@
         "fr": "Besoins",
         "it": "Bisogni",
         "pt": "Necessidades",
-        "nl": "Nodig hebben",
+        "nl": "Heb je nodig",
         "sv": "Behov",
         "da": "Behov",
         "no": "Behov",
@@ -26,7 +26,7 @@
         "fr": "Envies",
         "it": "Desideri",
         "pt": "Desejos",
-        "nl": "Willen hebben",
+        "nl": "Wil je graag",
         "sv": "Önskningar",
         "da": "Ønsker",
         "no": "Ønsker",
@@ -58,7 +58,8 @@
     {
       "theme": "furniture",
       "noun": "bed",
-      "bin": "needs"
+      "bin": "needs",
+      "retired": true
     },
     {
       "theme": "miscellaneous",
@@ -93,7 +94,11 @@
     {
       "theme": "vehicles",
       "noun": "bicycle",
-      "bin": "wants"
+      "bin": "wants",
+      "retired": [
+        "nl",
+        "da"
+      ]
     }
   ]
 }

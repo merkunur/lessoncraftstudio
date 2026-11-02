@@ -2420,7 +2420,7 @@
   },
   "K-294": {
     "3": {
-      "en": "Start at the orange dot. Join the dots from 1 to 10 to find the picture.",
+      "en": "Start at the orange dot. Join the dots from 1 to 10 to finish the picture.",
       "de": "Verbinde die Punkte von 1 bis 10, bis das Bild erscheint.",
       "es": "Une los diez puntos en orden, del 1 al 10, y descubre el dibujo.",
       "fr": "Pars du point orange et relie les points jusqu'à 10 pour découvrir le dessin.",
@@ -2435,10 +2435,10 @@
   },
   "K-295": {
     "3": {
-      "en": "Start at the orange dot. Join the dots from 11 to 20 to find the picture.",
+      "en": "Start at the orange dot. Join the dots from 11 to 20 to finish the picture.",
       "de": "Zähle von 11 bis 20 weiter und verbinde die Punkte, bis das Bild erscheint.",
       "es": "No empiezas en el 1: une los puntos del 11 al 20 y descubre el dibujo.",
-      "fr": "Le comptage commence à 11 et finit à 20 : relie les points pour découvrir le dessin.",
+      "fr": "Pars du point orange et relie les points de 11 à 20 pour découvrir le dessin.",
       "it": "Parti dal punto arancione e unisci i numeri dall'11 al 20 per scoprire il disegno.",
       "pt": "Comece no 11 e ligue os dez pontos até chegar ao 20 para descobrir a figura.",
       "nl": "Begin bij de oranje stip. Verbind de stippen 11 tot en met 20 op volgorde. Welk plaatje zie je?",
@@ -2450,7 +2450,7 @@
   },
   "K-308": {
     "3": {
-      "en": "Join the numbered dots backwards from 10 to 1 to find the picture.",
+      "en": "Join the numbered dots backwards from 10 to 1 to finish the picture.",
       "de": "Verbinde die Punkte rückwärts von 10 bis 1, bis das Bild erscheint.",
       "es": "Cuenta hacia atrás del 10 al 1, une los puntos y descubre el dibujo.",
       "fr": "Compte à l'envers de 10 à 1 et relie les points pour découvrir le dessin.",
@@ -2465,7 +2465,7 @@
   },
   "G1-285": {
     "3": {
-      "en": "Join the dots in twos, from 2 to 40, to find the picture.",
+      "en": "Count by twos from 2 to 40 and join the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Zweierschritten, von 2 bis 40.",
       "es": "Cuenta de 2 en 2 hasta el 40 y une todos los puntos.",
       "fr": "Compte de deux en deux, de 2 à 40, et relie tous les points.",
@@ -2475,7 +2475,7 @@
       "sv": "Räkna med tvåhopp från 2 till 40 och dra streck mellan alla prickar.",
       "da": {
         "title": "Prik til prik: tæl med toere til 40",
-        "instruction": "Forbind alle prikkerne to ad gangen: 2, 4, 6 og videre til 40."
+        "instruction": "Forbind alle prikkerne, mens du tæller med toere: 2, 4, 6 og videre til 40."
       },
       "no": "Tell med toere fra 2 til 40, og trekk strek mellom alle prikkene.",
       "fi": {
@@ -2486,7 +2486,7 @@
   },
   "G2-304": {
     "3": {
-      "en": "Join the dots in fives, from 5 to 100, to find the picture.",
+      "en": "Count by fives from 5 to 100 and join the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Fünferschritten, von 5 bis 100.",
       "es": "Cuenta de 5 en 5 hasta el 100 y une todos los puntos.",
       "fr": "Compte de cinq en cinq, de 5 à 100, et relie tous les points.",
@@ -2496,7 +2496,7 @@
       "sv": "Räkna med femhopp från 5 till 100 och dra streck mellan alla prickar.",
       "da": {
         "title": "Prik til prik: tæl med femmere til 100",
-        "instruction": "Forbind alle prikkerne fem ad gangen: 5, 10, 15 og videre til 100."
+        "instruction": "Forbind alle prikkerne, mens du tæller med femmere: 5, 10, 15 og videre til 100."
       },
       "no": "Tell med fem om gangen fra 5 til 100, og trekk strek mellom alle prikkene.",
       "fi": {
@@ -2507,7 +2507,7 @@
   },
   "G2-314": {
     "3": {
-      "en": "Join the dots in tens, from 10 to 200, to find the picture.",
+      "en": "Count by tens from 10 to 200 and join the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Zehnerschritten, von 10 bis 200.",
       "es": "Cuenta de 10 en 10 hasta el 200 y une todos los puntos.",
       "fr": "Compte de dix en dix, de 10 à 200, et relie tous les points.",
@@ -2517,7 +2517,7 @@
       "sv": "Räkna med tiohopp från 10 till 200 och dra streck mellan alla prickar.",
       "da": {
         "title": "Prik til prik: tæl med tiere til 200",
-        "instruction": "Forbind alle prikkerne ti ad gangen: 10, 20, 30 og videre til 200."
+        "instruction": "Forbind alle prikkerne, mens du tæller med tiere: 10, 20, 30 og videre til 200."
       },
       "no": "Tell med ti om gangen fra 10 til 200, og trekk strek mellom alle prikkene.",
       "fi": {
@@ -2528,7 +2528,7 @@
   },
   "K-309": {
     "1": {
-      "en": "Join the dots in alphabet order, from a to j, to find the picture.",
+      "en": "Join the dots in alphabet order, from a to j, to finish the picture.",
       "de": "Statt Zahlen stehen Buchstaben da: Verbinde die Punkte von a bis j.",
       "es": "Aquí no hay números: une los puntos de la a a la j.",
       "fr": {
@@ -2550,7 +2550,7 @@
       }
     },
     "3": {
-      "en": "Join the dots in alphabet order, from a to z, to find the picture.",
+      "en": "Join the dots in alphabet order, from a to z, to finish the picture.",
       "de": "Statt Zahlen stehen Buchstaben da: Verbinde die Punkte von a bis z.",
       "es": "Aquí no hay números: une los puntos de la a a la z.",
       "fr": {
@@ -4676,6 +4676,90 @@
       "da": "Der mangler to brikker i hvert billede. Tegn en streg fra hvert nummer til den brik, der passer.",
       "no": "Det mangler to brikker i hvert bilde. Tegn en strek fra hvert nummer til brikken som passer.",
       "fi": "Jokaisesta kuvasta puuttuu kaksi palaa. Yhdistä jokainen numero palaan, joka sopii kuvaan."
+    }
+  },
+  "K-473": {
+    "2": {
+      "en": "Start at the orange dot. Join the dots in alphabet order, from A to T, to find the picture.",
+      "de": "Beginne am orangen Punkt. Verbinde die Punkte nach dem ABC, von A bis T.",
+      "fr": "Pars du point orange. Relie les points dans l'ordre de l'alphabet, de A à T.",
+      "es": "Empieza en el punto naranja. Une los puntos en orden alfabético, de la A a la S.",
+      "pt": "Comece no ponto laranja. Ligue os pontos na ordem do alfabeto, do A ao T.",
+      "it": "Parti dal punto arancione. Unisci i puntini in ordine alfabetico, dalla A alla V.",
+      "nl": "Begin bij de oranje stip. Verbind de stippen op volgorde van het alfabet, van A tot en met T.",
+      "sv": "Börja vid den orangea pricken. Dra streck mellan prickarna i bokstavsordning, från A till T.",
+      "da": "Start ved den orange prik, og forbind prikkerne i alfabetisk rækkefølge fra A til T.",
+      "no": "Start på den oransje prikken. Trekk strek fra prikk til prikk i alfabetisk rekkefølge, fra A til T.",
+      "fi": "Aloita oranssista pisteestä ja yhdistä pisteet aakkosjärjestyksessä A:sta T:hen."
+    },
+    "3": {
+      "en": "Start at the orange dot. Join the dots in alphabet order, from A to Z, to find the picture.",
+      "de": "Beginne am orangen Punkt. Verbinde die Punkte nach dem ABC, von A bis Z.",
+      "fr": "Pars du point orange. Relie les points dans l'ordre de l'alphabet, de A à Z.",
+      "es": "Empieza en el punto naranja. Une los puntos en orden alfabético, de la A a la Z.",
+      "pt": "Comece no ponto laranja. Ligue os pontos na ordem do alfabeto, do A ao Z.",
+      "it": "Parti dal punto arancione. Unisci i puntini in ordine alfabetico, dalla A alla Z.",
+      "nl": "Begin bij de oranje stip. Verbind de stippen op volgorde van het alfabet, van A tot en met Z.",
+      "sv": "Börja vid den orangea pricken. Dra streck mellan prickarna i bokstavsordning, från A till Ö.",
+      "da": "Start ved den orange prik, og forbind prikkerne i alfabetisk rækkefølge fra A til Å.",
+      "no": "Start på den oransje prikken. Trekk strek fra prikk til prikk i alfabetisk rekkefølge, fra A til Å.",
+      "fi": "Aloita oranssista pisteestä ja yhdistä pisteet aakkosjärjestyksessä A:sta Ö:hön."
+    }
+  },
+  "K-476": {
+    "2": {
+      "en": "Color the pictures.",
+      "de": "Male die Bilder aus.",
+      "fr": "Colorie les dessins.",
+      "es": "Colorea los dibujos.",
+      "pt": "Pinte os desenhos.",
+      "it": "Colora i disegni.",
+      "nl": "Kleur de tekeningen.",
+      "sv": "Måla bilderna.",
+      "da": "Farvelæg tegningerne.",
+      "no": "Fargelegg tegningene.",
+      "fi": "Väritä kuvat."
+    },
+    "3": {
+      "en": "Color the pictures.",
+      "de": "Male die Bilder aus.",
+      "fr": "Colorie les dessins.",
+      "es": "Colorea los dibujos.",
+      "pt": "Pinte os desenhos.",
+      "it": "Colora i disegni.",
+      "nl": "Kleur de tekeningen.",
+      "sv": "Måla bilderna.",
+      "da": "Farvelæg tegningerne.",
+      "no": "Fargelegg tegningene.",
+      "fi": "Väritä kuvat."
+    }
+  },
+  "K-477": {
+    "2": {
+      "en": "Color each picture. Trace its name.",
+      "de": "Male jedes Bild aus. Spure jedes Wort nach.",
+      "fr": "Colorie chaque dessin. Repasse son nom.",
+      "es": "Colorea cada dibujo. Repasa su nombre.",
+      "pt": "Pinte cada desenho. Cubra o tracejado do nome.",
+      "it": "Colora ogni disegno. Ripassa il suo nome.",
+      "nl": "Kleur elke tekening. Trek elk woord over.",
+      "sv": "Måla varje bild. Spåra varje ord.",
+      "da": "Farvelæg hver tegning. Skriv hvert ord efter.",
+      "no": "Fargelegg hver tegning. Spor hvert ord.",
+      "fi": "Väritä jokainen kuva. Kirjoita sen nimi katkoviivoja pitkin."
+    },
+    "3": {
+      "en": "Color each picture. Trace its name, then write it on the empty line.",
+      "de": "Male jedes Bild aus. Spure jedes Wort nach und schreibe es dann auf die leere Linie.",
+      "fr": "Colorie chaque dessin. Repasse son nom, puis écris-le sur la ligne vide.",
+      "es": "Colorea cada dibujo. Repasa su nombre y luego escríbelo en el renglón vacío.",
+      "pt": "Pinte cada desenho. Cubra o tracejado do nome e depois escreva-o na linha em branco.",
+      "it": "Colora ogni disegno. Ripassa il suo nome, poi scrivilo sulla riga vuota.",
+      "nl": "Kleur elke tekening. Trek elk woord over en schrijf het dan op de lege lijn.",
+      "sv": "Måla varje bild. Spåra varje ord och skriv det sedan på den tomma raden.",
+      "da": "Farvelæg hver tegning. Skriv hvert ord efter, og skriv det så selv på den tomme linje.",
+      "no": "Fargelegg hver tegning. Spor hvert ord, og skriv det så på den tomme linjen.",
+      "fi": "Väritä jokainen kuva. Kirjoita sen nimi katkoviivoja pitkin ja sitten itse tyhjälle viivalle."
     }
   }
 }

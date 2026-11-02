@@ -220,7 +220,7 @@ const MAKERS = [
     newTemplates: [['Shape hunt in a picture', 'shapes in everyday objects'], ['Draw on grid paper: rectangles of a given area', 'area construction'], ['3D net to cut and fold', 'manipulative']],
     fable: [],
   },
-  { id: 'symmetry-grids', name: 'Symmetry & Grid Copy', group: 'math', families: ['symmetry', 'grid-copy'], oldApps: ['draw-and-color'], lang: 'none',
+  { id: 'symmetry-grids', name: 'Symmetry & Grid Copy', group: 'math', families: ['symmetry', 'grid-copy'], oldApps: ['draw-and-color'], oldAppTemplates: { 'draw-and-color': 'K-286' }, lang: 'none',
     // built 2026-11-02: G2-479 Symmetry with Two Mirror Lines and G1-484 Draw the Other Half (types/_shared/symmetry-more.js:
     // hand-drawn quarters; how-to-draw line art whose left half mirrored is the whole). The faces got real levels; sym-grid
     // mirrors EXACTLY across its drawn line (the published pages asked for a column the grid did not have).
@@ -248,17 +248,35 @@ const MAKERS = [
     newTemplates: [['Code addition (pictures stand for numbers)', 'the old code-addition app'], ['Number sudoku 4×4 and 6×6 with numerals', 'only picture sudoku exists'], ['KenKen-style cage puzzle (small)', 'arithmetic logic for G2-3']],
     fable: ['Puzzle generators must guarantee ONE solution (sudoku, logic grids, magic squares, code addition) for any teacher setting — confirm each existing engine proves uniqueness and that the browser can do it fast enough.'],
   },
-  { id: 'dot-to-dot', name: 'Dot to Dot', group: 'math', families: ['dot-to-dot'], oldApps: [], lang: 'little',
+  { id: 'dot-to-dot', name: 'Dot to Dot', group: 'math', families: ['dot-to-dot'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/d2d'],
+    // built 2026-11-02: K-473 ABC Dot-to-Dot: Capital Letters (the locale's own capitals; K-309 is the lowercase face, its
+    // level 3 already the whole alphabet) and G1-486 Math Dot-to-Dot (the dots carry the answers of a numbered list of
+    // problems in a scrambled order — the problems give the joining order; write-in answers = the screen). The scenes are
+    // an ART family: data/d2d/index.json (tools/build-d2d-index.js) is preloaded and a page fetches its one scene. Past a
+    // level's scene pool the hand-drawn figures that take that many dots follow (the whole Nordic alphabet: 4 + 7).
     settings: ['sequence: 1-10, 1-20, 11-30, count back, by 2/5/10, letters', 'picture', 'dot count'],
     newTemplates: [['Dot to dot by the alphabet in the chosen language (å ä ö / æ ø å)', 'today\'s letters run a to t'], ['Dot to dot with sums (join the answers in order)', 'arithmetic practice']],
     fable: ['Dot-to-dot figures are precomputed (data/d2d, 30 MB). Can a dot-to-dot be made from ANY library picture (or the teacher\'s photo) in the browser, with numbers placed legibly and no crossing confusion? If not, define the precomputed set and how it grows.'],
   },
-  { id: 'color-by-number', name: 'Color by Number & Code', group: 'math', families: ['color-by-number'], oldApps: [], lang: 'little',
+  { id: 'color-by-number', name: 'Color by Number & Code', group: 'math', families: ['color-by-number'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/cbn/lineart'],
+    // built 2026-11-02: K-474 Color by Sight Word (a sight word in every shape), K-475 Color by First Sound (a picture in
+    // every shape, the code the letter its name starts with — the reviewed first-sound bins) and G3-478 Color by
+    // Multiplication Fact (every product reached by two facts) — K-241's engine, new modes; the five code faces got real
+    // levels 1 and 3 (all three were the published level 2). The answer key paints every shape its code's colour; the
+    // screen makes the code a palette. The illustrated pictures (K-393 / K-394) are an ART family: one data/cbn/lineart
+    // file is fetched per page (the 200 designs are listed in code, data/cbn/lineart-designs.js — no index)
     settings: ['picture', 'key: numbers / sums / differences / shapes / letters / words', 'colours (2-8)', 'range'],
     newTemplates: [['Color by sight word', 'literacy version'], ['Color by multiplication fact', 'G3 practice'], ['Color by letter sound (picture starts with)', 'phonics version']],
     fable: ['Colour-by-number line art is precomputed (data/cbn, 47 MB, regions + keys). Can any library picture become a colour-by-code page in the browser (region detection, label placement in small regions, the fully-painted rule)?'],
   },
-  { id: 'coloring-pages', name: 'Coloring Pages', group: 'art', families: [], oldApps: ['coloring'], lang: 'little',
+  { id: 'coloring-pages', name: 'Coloring Pages', group: 'art', families: ['coloring-page'], oldApps: ['coloring'], oldAppTemplates: { coloring: 'K-476' }, lang: 'little',
+    // built 2026-11-02 (types/_shared/coloring-page.js, ENGINES Part 3 §E): K-476 Coloring Page (1 / 2 / 4 drawings — the
+    // old `coloring` app), K-477 Color and Trace the Word (the drawing's name in dashed school letters; level 3 also
+    // written), K-478 Color the Scene (drawings of one theme standing together, never overlapping), K-479 Color by the Key
+    // (numbered drawings, a key of crayons and colour words the teacher may retype). Black-and-white library themes only
+    // (a colour theme is refused: never a mix); white frames; no answer key, no screen (colouring on paper is the task).
+    // Own photos are NOT offered (operator 2026-11-01: no own-image upload in the makers); the flip of the old app is not
+    // kept (a mirrored drawing is the same colouring task)
     settings: ['picture(s) from the B&W library', 'one big / 2 / 4 per page', 'caption word in the language on/off', 'trace the word under it'],
     newTemplates: [['Colour and name the picture (word to trace)', 'literacy link'], ['Colour the scene (several pictures composed)', 'scene page'], ['Colour by your own key (teacher writes the key)', 'flexible']],
     fable: ['A colouring page of a teacher\'s own photo needs line art: is a browser edge-to-line-art conversion good enough for K-3, or do own uploads stay "as is" only?'],
@@ -278,22 +296,44 @@ const MAKERS = [
     newTemplates: [['Read and draw: put the ball under the table', 'the old prepositions app\'s sentence format (lcs-grammar)'], ['Where is it? write the position word', 'production']],
     fable: ['The prepositions app uses lcs-grammar (indefinite frames, de dative n-declination, fi postposition+genitive). Confirm the maker reuses REFERENCE TRANSLATIONS/lcs-grammar.js unchanged for every sentence it prints.'],
   },
-  { id: 'sorting', name: 'Sorting & Categories', group: 'visual', families: ['sorting-categories', 'science-sort', 'science-match', 'cutting-practice'], extraIds: ['K-235'], oldApps: ['picture-sort'], lang: 'little',
+  { id: 'sorting', name: 'Sorting & Categories', group: 'visual', families: ['sorting-categories', 'science-sort', 'science-match', 'cutting-practice'], extraIds: ['K-235'], oldApps: ['picture-sort'], oldAppTemplates: { 'picture-sort': 'K-472' }, lang: 'little',
+    // built 2026-11-02: G1-485 Two-Circle Sort: Shapes and Colours (G3-353's diagram; shape × colour drawn by code, the colour
+    // WORD under every shape for black-and-white printers) and K-472 Sort Into Two Groups (the teacher's own groups: typed
+    // names, any colour picture of the library per group, her assignment is the answer — the default page is a reviewed
+    // two-group sort). Tier 3 (sort by an attribute) is refused: object-attributes.json has no per-key review flag. The
+    // review fixed the live lists: cheese is dairy (not protein), potato and corn are grains outside the US, a party
+    // balloon is no vehicle, pizza is no clear "not healthy", the farmer (who holds a rake) never meets the gardener.
     settings: ['categories (2-4, from the library\'s category data or own)', 'line / cut and paste / write', 'pictures per bin'],
     newTemplates: [['Sort by the teacher\'s own two labels', 'any classification'], ['Venn sort (two overlapping rings)', 'G1-2 classification']],
     fable: ['Category membership for pictures: today per-sheet JSON lists (data/science/*.json, category-vocab). A general "sort anything" maker needs a reviewed attribute table for library pictures (object-attributes.json is partly reviewed: 456/933). Decide what may be offered before review completes.'],
   },
-  { id: 'mazes', name: 'Mazes', group: 'visual', families: ['mazes', 'maze-puzzles'], oldApps: ['picture-path'], lang: 'little',
+  { id: 'mazes', name: 'Mazes', group: 'visual', families: ['mazes', 'maze-puzzles'], oldApps: ['picture-path'], oldAppTemplates: { 'picture-path': 'K-480' }, lang: 'little',
+    // built 2026-11-02: a handmade maze is a retry search (0.4-30 s a page), so the maker never searches — copy n of a face
+    // at a level is entry n of data/hm/maker-pins.json (tools/build-maze-pins.js): the face's own scene at that level (levels
+    // 1 / 3 = data/hmx/levels.js through hmx.resolveOwn), then its Level Set scenes, each at a seed measured to build fast
+    // (per language for the label faces); a Level Set scene prints its own title, instruction and screen line
+    // (runtime: built.strings, never over a teacher's edit). The raster oracle runs on the scene's own SVG in the maker
+    // (page.live → analyzeSvg; strands close a 1-px canvas seam). New: K-480 Picture Path Maze (step only on the animals —
+    // the old picture-path app's rule) and start / goal picture slots on the grid mazes.
     settings: ['maze: grid / picture scene / rule maze (letters, numbers, sums, sounds)', 'size / difficulty', 'start and goal pictures'],
     newTemplates: [['Grid maze with the teacher\'s start and goal pictures', 'personalised'], ['Picture path: step only on pictures of a kind (old picture-path)', 'keep the old app\'s rule']],
     fable: ['The handmade maze engine (lib/hm-*) verifies solvability with a raster oracle on the rendered page (Puppeteer). Can that oracle run in the browser per generation, and how fast?'],
   },
   { id: 'find-the-differences', name: 'Find the Differences', group: 'visual', families: ['find-the-differences'], oldApps: [], lang: 'little',
+    art: [{ dir: 'scripts/worksheet-gen/data/fd', only: ['scripts/worksheet-gen/data/b7/find-the-differences.js', 'makerScenes'] }],
+    // built 2026-11-02: no scene list — copy n of a face at a level is B.makerUnits (level 2 starts with the published
+    // scene, then the face's Level Set copies of that level: data/fdx/allocation.json); the page reports its unit, so the
+    // title names the scene (a two-pair copy its Level Set title). The scenes are an ART family: only the 277 scenes those
+    // units read ship (data/b7 makerScenes), one fetched per page. The diff gate (lib/fd-browser-diff.js) runs in the page.
     settings: ['scene', 'number of differences (3, 5, 7, 10)', 'colour / black-and-white', 'kinds of changes'],
     newTemplates: [], // dropped 2026-11-01 (no own-image upload): differences between two of the teacher's own photos
     fable: ['FD scenes are 427 MB precomputed and every difference passes a raster diff gate. In the browser: ship which scenes, how big, and can the diff gate run client-side (lib/fd-browser-diff.js suggests yes)?'],
   },
-  { id: 'how-to-draw', name: 'How to Draw', group: 'art', families: ['how-to-draw'], oldApps: [], lang: 'little',
+  { id: 'how-to-draw', art: ['scripts/worksheet-gen/data/htd', { dir: 'scripts/worksheet-gen/data/htdx', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerHtdx'] }, 'scripts/worksheet-gen/data/htdv'],
+    // built 2026-11-02: no picture list — copy n of a face at a level is B.makerUnits (level 2 starts with the published
+    // lesson, then the face's Level Set copies of that level: data/htdx/allocation.json); a Level Set copy prints its own
+    // title and instruction (copyStrings). The lessons are ART files, one fetched per page (htdx: only the allocated ones)
+    name: 'How to Draw', group: 'art', families: ['how-to-draw'], oldApps: [], lang: 'little',
     settings: ['picture', 'steps 4-6', 'task: steps / trace / finish / grid / scene / order / memory / write', 'step layers editable (screenshot 7)'],
     newTemplates: [['Directed drawing with shapes only (circle + triangle animals)', 'the youngest level'], ['Draw it bigger on the grid (enlarge)', 'scaling']],
     fable: ['Screenshot 7 shows library art split into editable step LAYERS. Today lib/htd-steps.js derives steps from the ink automatically (data/htd 53 MB, htdx 127 MB). Decide: precomputed layers per picture + an editor to toggle/reorder them, or live derivation in the browser — and what happens with a teacher\'s own image.'],

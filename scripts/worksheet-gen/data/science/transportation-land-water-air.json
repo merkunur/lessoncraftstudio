@@ -139,7 +139,8 @@
     {
       "theme": "Things That Fly",
       "noun": "balloon",
-      "bin": "air"
+      "bin": "air",
+      "retired": true
     }
   ]
 }

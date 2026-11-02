@@ -277,7 +277,8 @@
   },
   "K-203": {
     "title": "Healthy and Not-Healthy Foods",
-    "instruction": "Draw a line from each food to the group it belongs to."
+    "instruction": "Draw a line from each picture to the group it belongs to.",
+    "printTitle": "Healthy and Not Healthy Foods"
   },
   "K-204": {
     "title": "Pets and Wild Animals",
@@ -581,7 +582,7 @@
   },
   "K-285": {
     "title": "Dot-to-Dot 1 to 20",
-    "instruction": "Start at the orange dot. Join the dots in number order to find the hidden picture."
+    "instruction": "Start at the orange dot. Join the dots in number order to finish the picture."
   },
   "K-286": {
     "title": "Copy the Grid Picture",
@@ -617,7 +618,7 @@
   },
   "K-296": {
     "title": "Dot-to-Dot: Count On from 11",
-    "instruction": "Start at the orange dot. Count on from 11 to 30 to find the picture."
+    "instruction": "Start at the orange dot. Count on from 11 to 30 and join the dots to finish the picture."
   },
   "K-298": {
     "title": "Copy the Grid Picture: First Steps",
@@ -653,7 +654,7 @@
   },
   "K-309": {
     "title": "ABC Dot-to-Dot",
-    "instruction": "Join the dots in alphabet order, from a to t, to find the picture."
+    "instruction": "Join the dots in alphabet order, from a to t, to finish the picture."
   },
   "K-310": {
     "title": "Trace the Words in Capital Letters",
@@ -1382,7 +1383,8 @@
   },
   "G1-207": {
     "title": "The Four Food Groups",
-    "instruction": "Draw a line from each food to its food group."
+    "instruction": "Draw a line from each food to its food group.",
+    "printTitle": "Sort by Food Group"
   },
   "G1-208": {
     "title": "Mental Math to 20",
@@ -1658,7 +1660,7 @@
   },
   "G1-285": {
     "title": "Dot-to-Dot: Count by Twos",
-    "instruction": "Join the numbered dots in twos; the rest of the outline is already drawn."
+    "instruction": "Start at the orange dot. Count by twos from 2 to 20 and join the dots. Part of the picture is already drawn."
   },
   "G1-286": {
     "title": "Doubles and Halves with Pictures to 20",
@@ -2637,7 +2639,7 @@
   },
   "G2-304": {
     "title": "Dot-to-Dot: Count by Fives",
-    "instruction": "Join the numbered dots in fives; the rest of the outline is already drawn."
+    "instruction": "Start at the orange dot. Count by fives from 5 to 50 and join the dots. Part of the picture is already drawn."
   },
   "G2-305": {
     "title": "Where on the Number Line? 40 to 60",
@@ -2669,7 +2671,7 @@
   },
   "G2-314": {
     "title": "Dot-to-Dot: Count by Tens",
-    "instruction": "Join the numbered dots in tens; the rest of the outline is already drawn."
+    "instruction": "Start at the orange dot. Count by tens from 10 to 100 and join the dots. Part of the picture is already drawn."
   },
   "G2-315": {
     "title": "Spelling Rules: {UNIT}",
@@ -3842,5 +3844,54 @@
   "K-470": {
     "title": "Picture Puzzle",
     "instruction": "Cut out the pieces. Glue each piece in its place on the grid so the picture is whole again."
+  },
+  "G1-485": {
+    "title": "Two-Circle Sort: Shapes and Colors",
+    "instruction": "Write each shape's number in its place. Left circle: the shape named above it. Right circle: the color named above it. Middle: both. The box outside the circles: neither."
+  },
+  "K-472": {
+    "title": "Sort Into Two Groups",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-473": {
+    "title": "ABC Dot-to-Dot: Capital Letters",
+    "instruction": "Start at the orange dot. Join the dots in alphabet order, from A to J, to find the picture."
+  },
+  "G1-486": {
+    "title": "Dot-to-Dot Math",
+    "instruction": "Solve each problem and write the answer. Start at the orange dot: it is the answer to problem 1. Then join it to the answer to problem 2, then problem 3, and so on."
+  },
+  "K-474": {
+    "title": "Color by Sight Word",
+    "instruction": "Read the word in each shape. Color the shape with the color of that word in the code."
+  },
+  "K-475": {
+    "title": "Color by First Sound",
+    "instruction": "Say the name of each picture. Color the shape with the color of the letter it starts with."
+  },
+  "G3-478": {
+    "title": "Color by Multiplication Fact",
+    "instruction": "Solve the fact in each shape. Color the shape with the color of its product in the code."
+  },
+  "K-476": {
+    "title": "Coloring Page",
+    "instruction": "Color the picture."
+  },
+  "K-477": {
+    "title": "Color and Trace the Word",
+    "instruction": "Color the picture. Trace its name."
+  },
+  "K-478": {
+    "title": "Color the Scene",
+    "instruction": "Color everything in the picture."
+  },
+  "K-479": {
+    "title": "Color by the Key",
+    "instruction": "Look at the number on each picture. Find it in the key and color the picture in that color."
+  },
+  "K-480": {
+    "title": "Picture Path Maze: Step on the Animals",
+    "instruction": "Help the farmer get to the tractor. Step only on the animals.",
+    "printTitle": "Help the Farmer Reach the Tractor"
   }
 }

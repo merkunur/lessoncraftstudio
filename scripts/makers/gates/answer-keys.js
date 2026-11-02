@@ -56,6 +56,10 @@ const NO_KEY = {
   'K-250': 'number tracing 5-9: the numbers are printed on the page', 'K-251': 'trace and write: each row prints the number the child writes',
   'K-252': 'number tracing 1-10: the numbers are printed on the page', 'K-253': 'teen numbers: the numbers are printed on the page',
   'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',
+  // Coloring Pages (2026-11-02): colouring is open — any colours are right; K-477's word is printed to trace; K-479's key
+  // may be the teacher's own ("your favourite colour"), so no page of it can be marked
+  'K-476': 'a coloring page: any colours are right', 'K-477': 'color and trace: the word to trace is printed on the page',
+  'K-478': 'a scene to color: any colours are right', 'K-479': 'color by the key: an open key the teacher may write herself',
 };
 
 (async () => {
@@ -108,7 +112,8 @@ const NO_KEY = {
       for (const loc of ['en', 'fi'].filter((l) => t.locales.includes(l))) for (const d of t.keyLevels) for (const variant of [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
         const theme = t.themed ? t.themes[(variant - 1) % t.themes.length] : null;
-        const unit = t.units && t.units[loc] && t.units[loc][0] ? t.units[loc][variant % t.units[loc].length].id : null;
+        const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+        const unit = lu.length ? lu[variant % lu.length].id : null;
         let r;
         try { r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc] }); }
         catch (e) { fail(`${t.id} ${loc} L${d} v${variant}: ${e.message}`); continue; }

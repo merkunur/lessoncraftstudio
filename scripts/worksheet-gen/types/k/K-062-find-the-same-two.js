@@ -4,6 +4,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-062',
@@ -27,7 +28,11 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const picked = rng.sample(labelSafeNouns(theme), d.items - 1);
+    const pool = labelSafeNouns(theme);
+    // makers (2026-11-02): each picture a slot (the twin is item 0, both its cards carry it); the key and the screen mark
+    // both twins (data-lcs-correct: select both) — the catalogue page is unchanged
+    const picked = slot.pictures(ctx, rng.sample(pool, d.items - 1), pool, theme, 'pic');
+    const marks = !!(ctx && (ctx.answerKey || ctx.screen));
     const twin = picked[0];
     const order = rng.shuffle([...picked, twin]);
 
@@ -36,7 +41,7 @@ module.exports = {
     const iconPx = cellPx - 28;
     const cells = order.map((n) =>
       `<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" ` +
-      `data-lcs-item="${n.vocabKey}"${n.vocabKey === twin.vocabKey ? ' data-lcs-twin="1"' : ''}>` +
+      `data-lcs-item="${n.vocabKey}"${n.vocabKey === twin.vocabKey ? ' data-lcs-twin="1"' : ''}${marks && n.vocabKey === twin.vocabKey ? ' data-lcs-correct="1"' : ''}${slot.attr(ctx, 'pic', picked.indexOf(n))}>` +
       `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"></span>`).join('');
 
     return {

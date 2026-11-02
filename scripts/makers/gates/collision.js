@@ -181,6 +181,9 @@ function collide({ tol, exempt }) {
 
 if (require.main !== module) { module.exports = { collide, EXEMPT, TOL }; return; }
 
+/** template → the levels whose page is one item by design (exactly one box measured is right there, never zero) */
+const ONE_ITEM = { 'K-476': [1] };
+
 (async () => {
   const makers = MP.builtMakers(A.makers);
   const m = await new MP.Mounter().open();
@@ -203,7 +206,9 @@ if (require.main !== module) { module.exports = { collide, EXEMPT, TOL }; return
             if (!html) continue;
             const c = await run(html);
             pages++; n++; boxes += c.boxes;
-            if (!c.boxes || (c.boxes < 2 && !c.figures)) fail(`${tag} ${what}: measured nothing (${c.boxes} boxes)`);
+            // a level whose page holds ONE thing by design (one big coloring picture) measures one box — nothing can collide
+            const single = (ONE_ITEM[t.id] || []).includes(o.difficulty) && c.boxes === 1;
+            if (!c.boxes || (c.boxes < 2 && !c.figures && !single)) fail(`${tag} ${what}: measured nothing (${c.boxes} boxes)`);
             if (c.hits.length) {
               const seen = new Set();
               const uniq = c.hits.filter((h) => { const k = h.a + '|' + h.b; if (seen.has(k)) return false; seen.add(k); return true; });

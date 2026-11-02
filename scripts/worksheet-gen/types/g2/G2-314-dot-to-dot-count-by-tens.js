@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-314',
   slug: 'dot-to-dot-count-by-tens',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Dot-to-Dot: Count by Tens", instruction: "Join the numbered dots in tens; the rest of the outline is already drawn." } },
+  i18n: { en: { title: "Dot-to-Dot: Count by Tens", instruction: "Start at the orange dot. Count by tens from 10 to 100 and join the dots. Part of the picture is already drawn." } },
 };

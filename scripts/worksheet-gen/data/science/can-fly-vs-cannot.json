@@ -14,7 +14,7 @@
         "sv": "Kan flyga",
         "da": "Kan flyve",
         "no": "Kan fly",
-        "fi": "Osaa lentää"
+        "fi": "Lentää"
       }
     },
     {
@@ -30,7 +30,7 @@
         "sv": "Kan inte flyga",
         "da": "Kan ikke flyve",
         "no": "Kan ikke fly",
-        "fi": "Ei osaa lentää"
+        "fi": "Ei lennä"
       }
     }
   ],

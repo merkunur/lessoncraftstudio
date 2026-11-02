@@ -151,7 +151,8 @@
   },
   "K-042": {
     "title": "Metti in ordine",
-    "instruction": "Traccia una linea da ogni immagine al contenitore giusto."
+    "instruction": "Traccia una linea da ogni immagine al contenitore giusto.",
+    "printTitle": "Ogni cosa al suo posto"
   },
   "K-043": {
     "title": "Quale è diverso?",
@@ -837,7 +838,7 @@
   },
   "K-203": {
     "title": "Cibi sani e cibi poco sani",
-    "instruction": "Collega con una linea ogni alimento al gruppo a cui appartiene."
+    "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
   },
   "K-204": {
     "title": "Animali domestici e animali selvatici",
@@ -861,7 +862,8 @@
   },
   "K-210": {
     "title": "Mezzi di terra, acqua e aria",
-    "instruction": "Collega con una linea ogni mezzo di trasporto al luogo in cui viaggia."
+    "instruction": "Collega con una linea ogni mezzo di trasporto al luogo in cui viaggia.",
+    "printTitle": "Mezzi di terra, d'acqua e d'aria"
   },
   "K-211": {
     "title": "Caldo e freddo",
@@ -897,7 +899,8 @@
   },
   "G1-207": {
     "title": "I quattro gruppi alimentari",
-    "instruction": "Collega con una linea ogni alimento al suo gruppo alimentare."
+    "instruction": "Collega con una linea ogni alimento al suo gruppo alimentare.",
+    "printTitle": "I gruppi alimentari"
   },
   "G1-203": {
     "title": "Il ciclo di vita della gallina",
@@ -909,7 +912,8 @@
   },
   "K-213": {
     "title": "I lavoratori della comunità e i loro strumenti",
-    "instruction": "Collega con una linea ogni lavoratore allo strumento che usa."
+    "instruction": "Collega con una linea ogni persona allo strumento che usa nel suo lavoro.",
+    "printTitle": "I mestieri e i loro strumenti"
   },
   "K-221": {
     "title": "Suoni iniziali",
@@ -969,7 +973,8 @@
   },
   "K-235": {
     "title": "Ordina per categoria",
-    "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
+    "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene.",
+    "printTitle": "Classifica per categoria"
   },
   "K-236": {
     "title": "Percorsi di pregrafismo",
@@ -1449,7 +1454,7 @@
   },
   "K-285": {
     "title": "Unisci i puntini",
-    "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l'ordine dei numeri e scopri il disegno nascosto."
+    "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l'ordine dei numeri e completa il disegno."
   },
   "K-286": {
     "title": "Copia il disegno sui quadretti",
@@ -1781,11 +1786,11 @@
   },
   "K-308": {
     "title": "Unisci i puntini all'indietro da 10",
-    "instruction": "Dal 10 all'1; il resto del disegno è già stampato."
+    "instruction": "Parti dal 10 e unisci i puntini all'indietro fino all'1; il resto del disegno c'è già."
   },
   "G1-285": {
     "title": "Unisci i puntini contando di 2 in 2",
-    "instruction": "Da 2 a 20; il resto è già disegnato."
+    "instruction": "Conta di 2 in 2, da 2 a 20, e unisci i puntini; il resto è già disegnato."
   },
   "G1-294": {
     "title": "Unisci i puntini da 20 a 1",
@@ -1793,7 +1798,7 @@
   },
   "G2-304": {
     "title": "Unisci i puntini contando di 5 in 5",
-    "instruction": "Da 5 a 50; il resto è già disegnato."
+    "instruction": "Conta di 5 in 5, da 5 a 50, e unisci i puntini; il resto è già disegnato."
   },
   "K-311": {
     "title": "Copia la parola dal cartellino",
@@ -1897,7 +1902,7 @@
   },
   "G2-314": {
     "title": "Unisci i puntini contando di 10 in 10",
-    "instruction": "Da 10 a 100; il resto è già disegnato."
+    "instruction": "Conta di 10 in 10, da 10 a 100, e unisci i puntini; il resto è già disegnato."
   },
   "K-315": {
     "title": "Copia lo stampato maiuscolo",
@@ -3802,5 +3807,54 @@
   "K-470": {
     "title": "Puzzle dell'immagine",
     "instruction": "Ritaglia i pezzi. Incolla ogni pezzo al suo posto nella griglia per ricomporre il disegno."
+  },
+  "G1-485": {
+    "title": "Classifica con due cerchi: forme e colori",
+    "instruction": "Scrivi il numero di ogni forma al posto giusto. Cerchio di sinistra: la forma indicata sopra. Cerchio di destra: il colore indicato sopra. Al centro: tutte e due le cose. Nel riquadro fuori dai cerchi: nessuna delle due."
+  },
+  "K-472": {
+    "title": "Dividi in due gruppi",
+    "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-473": {
+    "title": "Unisci i puntini: lettere maiuscole",
+    "instruction": "Parti dal punto arancione. Unisci i puntini in ordine alfabetico, dalla A alla L."
+  },
+  "G1-486": {
+    "title": "Unisci i puntini con le operazioni",
+    "instruction": "Risolvi ogni operazione e scrivi il risultato. Parti dal punto arancione: è il risultato dell'operazione 1. Uniscilo al risultato dell'operazione 2, poi a quello della 3, e così via."
+  },
+  "K-474": {
+    "title": "Colora in base alla parola",
+    "instruction": "Leggi la parola in ogni figura. Colora la figura con il colore di quella parola nella legenda."
+  },
+  "K-475": {
+    "title": "Colora in base al suono iniziale",
+    "instruction": "Di' il nome di ogni immagine. Colora la figura con il colore della lettera con cui comincia."
+  },
+  "G3-478": {
+    "title": "Colora in base alla moltiplicazione",
+    "instruction": "Risolvi la moltiplicazione in ogni figura. Colora la figura con il colore del suo risultato nella legenda."
+  },
+  "K-476": {
+    "title": "Disegno da colorare",
+    "instruction": "Colora il disegno."
+  },
+  "K-477": {
+    "title": "Colora e ripassa la parola",
+    "instruction": "Colora il disegno. Ripassa il suo nome."
+  },
+  "K-478": {
+    "title": "Colora la scena",
+    "instruction": "Colora tutto quello che c'è nel disegno."
+  },
+  "K-479": {
+    "title": "Colora secondo la legenda",
+    "instruction": "Guarda il numero di ogni disegno. Cercalo nella legenda e colora il disegno di quel colore."
+  },
+  "K-480": {
+    "title": "Labirinto di figure: cammina sugli animali",
+    "instruction": "Aiuta il contadino a raggiungere il trattore. Cammina solo sugli animali.",
+    "printTitle": "Aiuta il contadino a raggiungere il trattore"
   }
 }

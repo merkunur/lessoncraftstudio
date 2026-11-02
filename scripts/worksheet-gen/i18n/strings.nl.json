@@ -149,7 +149,7 @@
   },
   "K-042": {
     "title": "Goed sorteren",
-    "instruction": "Trek een lijn van elk plaatje naar de bak waar het hoort."
+    "instruction": "Trek een lijn van elk plaatje naar de bak waar het in hoort."
   },
   "K-043": {
     "title": "Welke hoort er niet bij?",
@@ -456,7 +456,7 @@
   },
   "G1-160": {
     "title": "Drie groepen",
-    "instruction": "Trek een lijn van elk plaatje naar de bak waar het hoort."
+    "instruction": "Trek een lijn van elk plaatje naar de bak waar het in hoort."
   },
   "G2-203": {
     "title": "Blokken optellen",
@@ -834,7 +834,7 @@
   },
   "K-203": {
     "title": "Gezond en ongezond eten",
-    "instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort."
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
   },
   "K-204": {
     "title": "Huisdieren en wilde dieren",
@@ -858,7 +858,7 @@
   },
   "K-210": {
     "title": "Vervoer over land, water en in de lucht",
-    "instruction": "Trek een lijn van elk voertuig naar de plek waar het rijdt, vaart of vliegt."
+    "instruction": "Trek een lijn van elk vervoermiddel naar de plek waar het rijdt, vaart of vliegt."
   },
   "K-211": {
     "title": "Warm en koud",
@@ -894,7 +894,8 @@
   },
   "G1-207": {
     "title": "De vier voedselgroepen",
-    "instruction": "Trek een lijn van elk voedsel naar de voedselgroep."
+    "instruction": "Trek een lijn van elk plaatje naar de goede voedselgroep.",
+    "printTitle": "Voedselgroepen"
   },
   "G1-203": {
     "title": "De levenscyclus van een kip",
@@ -906,7 +907,8 @@
   },
   "K-213": {
     "title": "Beroepen en hun gereedschap",
-    "instruction": "Trek een lijn van elke helper naar het gereedschap dat hij gebruikt."
+    "instruction": "Trek een lijn van elk beroep naar wat erbij hoort.",
+    "printTitle": "Beroepen: wie gebruikt wat?"
   },
   "K-221": {
     "title": "Beginklanken",
@@ -1782,15 +1784,17 @@
   },
   "G1-285": {
     "title": "Van stip naar stip: tellen met tweetallen",
-    "instruction": "Alleen de tweetallen zijn genummerd; de rest is al getekend."
+    "instruction": "Begin bij de oranje stip. Tel met sprongen van 2, van 2 tot en met 20, en verbind de stippen. De rest is al getekend.",
+    "printTitle": "Van stip naar stip: tellen met sprongen van 2"
   },
   "G1-294": {
     "title": "Van stip naar stip: terugtellen vanaf 20",
-    "instruction": "Hier zijn alle stippen genummerd en je telt helemaal terug."
+    "instruction": "Begin bij de oranje stip. Tel terug van 20 naar 1 en verbind de stippen."
   },
   "G2-304": {
     "title": "Van stip naar stip: tellen met vijftallen",
-    "instruction": "Spring van vijf naar vijf langs de genummerde stippen."
+    "instruction": "Spring van vijf naar vijf langs de genummerde stippen.",
+    "printTitle": "Van stip naar stip: tellen met sprongen van 5"
   },
   "K-311": {
     "title": "Woorden overschrijven: kijk en schrijf",
@@ -1858,7 +1862,7 @@
   },
   "K-309": {
     "title": "Van stip naar stip: op alfabetische volgorde",
-    "instruction": "Verbind de letters op volgorde van het alfabet."
+    "instruction": "Verbind de letters op volgorde van het alfabet, van a tot en met t."
   },
   "G2-307": {
     "title": "Hoofdletters: waar stopt de eerste zin?",
@@ -3821,5 +3825,54 @@
   "K-470": {
     "title": "Plaatjespuzzel",
     "instruction": "Knip de stukjes uit. Plak elk stukje op zijn plek in het rooster, zodat het plaatje weer heel is."
+  },
+  "G1-485": {
+    "title": "Sorteren met twee cirkels: vormen en kleuren",
+    "instruction": "Schrijf het nummer van elke vorm op de goede plek. Linkercirkel: de vorm die erboven staat. Rechtercirkel: de kleur die erboven staat. Midden: allebei. Kader buiten de cirkels: geen van beide."
+  },
+  "K-472": {
+    "title": "Sorteer in twee groepen",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-473": {
+    "title": "Van stip naar stip: hoofdletters",
+    "instruction": "Begin bij de oranje stip. Verbind de stippen op volgorde van het alfabet, van A tot en met J."
+  },
+  "G1-486": {
+    "title": "Van stip naar stip met sommen",
+    "instruction": "Reken elke som uit en schrijf het antwoord op. Begin bij de oranje stip: dat is het antwoord op som 1. Verbind die met het antwoord op som 2, dan som 3, enzovoort."
+  },
+  "K-474": {
+    "title": "Kleuren op flitswoord",
+    "instruction": "Lees het woord in elke vorm. Kleur de vorm met de kleur van dat woord in de code."
+  },
+  "K-475": {
+    "title": "Kleuren op beginklank",
+    "instruction": "Zeg het woord bij elk plaatje. Kleur de vorm met de kleur van de letter waarmee het begint."
+  },
+  "G3-478": {
+    "title": "Kleuren op keersom",
+    "instruction": "Reken de keersom in elke vorm uit. Kleur de vorm met de kleur van de uitkomst in de code."
+  },
+  "K-476": {
+    "title": "Kleurplaat",
+    "instruction": "Kleur de tekening."
+  },
+  "K-477": {
+    "title": "Kleuren en woord overtrekken",
+    "instruction": "Kleur de tekening. Trek het woord over."
+  },
+  "K-478": {
+    "title": "Kleur de hele plaat",
+    "instruction": "Kleur alles op de tekening."
+  },
+  "K-479": {
+    "title": "Kleur volgens de code",
+    "instruction": "Kijk naar het nummer bij elke tekening. Zoek het op in de code en kleur de tekening in die kleur."
+  },
+  "K-480": {
+    "title": "Plaatjesdoolhof: stap alleen op de dieren",
+    "instruction": "Help de boer naar de tractor. Stap alleen op de dieren.",
+    "printTitle": "Help de boer naar de tractor"
   }
 }

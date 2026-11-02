@@ -18,6 +18,11 @@ const DATA_MODULES = require('lcs-data-modules');   // virtual module: { 'repo/r
 
 const PRELOAD = Object.create(null);
 let ASSET_BASE = '/makers-assets';
+// ART files (2026-11-02): one file per picture of a picture family (data/d2d/<scene>.json …) is NOT preloaded; a build
+// that reads one throws PlatformMissing, runtime.generate asks fetchMissing() for it and builds again. Only these paths
+// are ever fetched; every other missing file stays an error.
+const LAZY = /^scripts\/worksheet-gen\/data\/(d2d|cbn\/lineart|fd|htd|htdx|htdv)\/[a-z0-9-]+\.json$/;
+let FETCHER = null;
 
 const key = (p) => String(p).replace(/\\/g, '/').replace(/^\/+/, '');
 
@@ -177,13 +182,26 @@ module.exports = {
   PlatformMissing,
   /** The shell's loader: files = { 'repo/relative/path': string | parsed JSON }. */
   preload(files) { for (const [k, v] of Object.entries(files)) PRELOAD[key(k)] = v; },
+  /** The shell's art loader: fetcher(repoRelativePath) → the file's text (or null). */
+  setFetcher(fn) { FETCHER = fn; },
+  /** Fetch one missing ART file into the preload map; false when the path is not an art file or cannot be had. */
+  async fetchMissing(p) {
+    const k = key(p);
+    if (!FETCHER || !LAZY.test(k) || k in PRELOAD) return false;
+    const text = await FETCHER(k);
+    if (text == null) return false;
+    PRELOAD[k] = text;
+    return true;
+  },
+  isLazy(p) { return LAZY.test(key(p)); },
   setAssetBase(base) { ASSET_BASE = String(base).replace(/\/+$/, ''); },
   readText,
   readJson(p) { const k = key(p); if (!(k in PRELOAD)) throw new PlatformMissing(p); const v = PRELOAD[k]; return typeof v === 'string' ? JSON.parse(v) : v; },
   // binary files are not preloaded yet: the first maker that draws one (the family portraits) publishes them as assets
   readBase64(p) { throw new Error('platform: binary files are not available in a maker yet: ' + key(p)); },
   // Picture files are not data: every derived 512 px picture is published, so the image cache "exists" for them.
-  exists(p) { const k = key(p); return k in PRELOAD || k in DATA_MODULES || /^scripts\/worksheet-gen\/cache\/themes-512\//.test(k); },
+  // an ART file exists (it is published with the data, fetched when a page reads it — the index lists only what is built)
+  exists(p) { const k = key(p); return k in PRELOAD || k in DATA_MODULES || LAZY.test(k) || /^scripts\/worksheet-gen\/cache\/themes-512\//.test(k); },
   fileHref,
   sha1Bytes,
   requireData(p) { const k = key(p); if (!(k in DATA_MODULES)) throw new PlatformMissing(p); return DATA_MODULES[k]; },

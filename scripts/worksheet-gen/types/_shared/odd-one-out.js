@@ -4,10 +4,13 @@
  *  - by-size: N same-size + 1 clearly bigger/smaller (K-044)
  *  - different-one: 3 identical + 1 different = same-vs-different (K-039)
  * One row per problem; the child circles the odd item.
+ * Makers (2026-11-02): the key and the screen mark the odd item (data-lcs-correct: the row is a choice); each row is a
+ * slot (role r<i>: its picture, and in the picture modes its odd picture) — the catalogue page is unchanged.
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 function makeOddOneOutType(cfg) {
   const { id, slug, mode, i18n } = cfg;
@@ -32,8 +35,11 @@ function makeOddOneOutType(cfg) {
       const cards = [];
       const truth = [];
       for (let i = 0; i < d.rows; i++) {
-        const [main, odd] = rng.sample(pool, 2);
+        const [main, odd] = mode === 'size'
+          ? [slot.pictures(ctx, rng.sample(pool, 2).slice(0, 1), pool, theme, 'r' + i)[0], null]
+          : slot.pictures(ctx, rng.sample(pool, 2), pool, theme, 'r' + i);
         const oddIdx = rng.int(0, d.items - 1);
+        const marks = !!(ctx && (ctx.answerKey || ctx.screen));
         const px = Math.min(76, Math.floor((600 - (d.items - 1) * 14) / d.items));
         const items = [];
         for (let k = 0; k < d.items; k++) {
@@ -43,7 +49,7 @@ function makeOddOneOutType(cfg) {
           if (mode === 'category' && isOdd) src = fileUri(theme, odd.noun);
           if (mode === 'size' && isOdd) size = Math.round(px * (rng.next() < 0.5 ? 0.55 : 1.45));
           items.push(
-            `<span style="display:flex;align-items:center;justify-content:center;width:${Math.round(px * 1.5)}px;height:${Math.round(px * 1.5)}px">` +
+            `<span style="display:flex;align-items:center;justify-content:center;width:${Math.round(px * 1.5)}px;height:${Math.round(px * 1.5)}px"${marks && isOdd ? ' data-lcs-correct="1"' : ''}${slot.attr(ctx, 'r' + i, mode !== 'size' && isOdd ? 1 : 0)}>` +
             `<img class="ws-icon" src="${src}" alt="" style="width:${size}px;height:${size}px"${isOdd ? ' data-lcs-odd="1"' : ''}></span>`
           );
         }

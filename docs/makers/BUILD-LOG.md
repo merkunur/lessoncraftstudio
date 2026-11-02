@@ -3,7 +3,72 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** B3 in ARCHITECTURE §14 order — Same & Different: build + gate (code, text done; native review running), then sorting, dot-to-dot, color-by-number, coloring-pages, mazes, find-the-differences, how-to-draw, picture-tracing (logic-puzzles is built); then B4–B7 (health-safety is NOT built: operator 2026-11-02). S6 was done 2026-11-01 (task 5). Live republish queue: fix1104 (digit 8, 858) and fix1105 (pattern rows, 121) running on the server; fix1107 (symmetry exact mirror + grid/symmetry text, 110) and fix1108 (K-063 / K-069, 44) uploaded, run after; fix1106 (traced j, 2,214) regenerating locally → compare --keep-all, upload, run. After each: restore injections, clean server + local. Tasks 7–10 are built by the main session when their makers come up — NO Fable agents.
+**NEXT:** B3 in ARCHITECTURE §14 order — mazes, find-the-differences, how-to-draw, picture-tracing (same-different, sorting, dot-to-dot, color-by-number, coloring-pages built 2026-11-02; logic-puzzles is built); then B4–B7 (health-safety is NOT built: operator 2026-11-02). Mazes: K-405 family verify runs analyzeSvg in the maker (page.live), b8-common reads through the platform; still to do — real levels from data/hmx/levels.js, pinned fast seeds per (face, level[, locale]), the strands seam, the picture-path face (category rule on the sound machinery). Live republish queue on the server: fix1115 (dot-to-dot wording, 702) → fix1119 (beginning-sound bank, 49); local: fix1106 (traced j, 2,201) and fix1120 (chicken = hen, 240) → compare, upload, queue. After the queue: restore injections once, clean server + local.
+
+
+## B3: Same & Different gated, Sorting, Dot to Dot; picture files on demand (2026-11-02)
+
+**Same & Different** completed: answer marks for every template (odd one out = a choice, Find the Twins / Spot the
+Difference = select, shadows / pairs = pair keys that number one side and badge the other, mutual pairs for K-058/K-078),
+slots for every picture (K-069 NO_SLOT: its part and choices are drawn together), K-469 / K-470 crop windows marked
+`data-lcs-art` for the lints. K-469 level 3 and G1-155 screens run the other way: the NUMBER (gap) is the item and every
+offered piece / chip of its row is a target — with only the right pieces tappable the screen told the answer. A pair
+part may carry `data-lcs-pair-group` (one row = its own task): settings-space measures chance inside the group (poison
+3b). own-input blanks a swapped picture's file name AND vocabulary key in both pages (a picture may stand in two rows).
+
+**Sorting** (B3, retires picture-sort → K-472). New: G1-485 Two-Circle Sort: Shapes and Colours (G3-353's diagram; shape ×
+colour drawn by code, the colour WORD under each shape for black-and-white printers; es/pt/it/fr region words agree with
+the feminine shapes) and K-472 Sort Into Two Groups (typed group names = free-text slots `slot.text`, any colour picture
+of the library per group = `slot.anyPictures` keyed theme/noun, a picture in both groups refused; default page = a
+reviewed two-group sort). Shell: the picker opens a text box for a free slot and shows multi-theme slots with theme chips.
+Real levels: category sorts level 3 = four a bin (two strip rows), G1-207 level 1 = one food a group, K-264 3/4/5 a group,
+K-213 level 1 four helpers + one left-over tool, level 3 six. Keys draw bin numbers (`types/_shared/key-number.js`, a
+sample, never a badge: key parity). Long bin labels wrap inside their bin. Tier 3 (attributes) refused: no per-key review.
+One review: cheese is dairy, potato / corn are grains outside the US, bacon / sausage, muffin, popcorn-box cereal, rice
+and the party balloon retired, blueberry (a blue ball) retired, bed (needs) retired, bicycle a need in nl/da, farmer
+holds a rake (never meets the gardener), doctor/nurse never share a page, doctor → thermometer, musician → trumpet, the
+pilot pair removed; bin labels (Frukt och bär, Fleisch, Fisch, Eier, Kulkuvälineet …), instructions and printed headings
+×11. Live: fix1114 (336 pages).
+
+**Dot to Dot** (B3). New: K-473 ABC Dot-to-Dot: Capital Letters (the locale's capitals, A–J / A–T / whole alphabet) and
+G1-486 Dot-to-Dot Math (the dots carry the answers of a numbered list of problems in a scrambled order; write-in answers =
+the screen; the key draws the joined path). Past a level's scene pool the hand-drawn figures that take that many dots
+follow (whole Nordic alphabet: 4 scenes + 7 figures). Review: "finish the picture" wherever the picture is partly drawn
+(scene pages), American "count by", actions and ranges in every base text. Live: fix1115.
+
+**Color by Number** (B3). New: K-474 Color by Sight Word (a bank word in every shape; the code's words are slots), K-475
+Color by First Sound (a picture in every shape, the code the letter its name starts with — the reviewed first-sound bank;
+every picture a slot, any picture of the page's letters) and G3-478 Color by Multiplication Fact (each product reached by
+two facts) — K-241's engine, modes `words` / `sounds` / `facts`; the five code faces got real levels 1 and 3. Key = every
+shape painted its code's colour (a drawn sample); screen = the code is a palette, the shapes drop targets. The illustrated
+pictures (K-393 / K-394) are an ART family (data/cbn/lineart fetched per page; no index — the designs are listed in code).
+**The first-sound bank was wrong on live pages** (K-228 Sort by Beginning Sound): letters whose picture starts with another
+sound (en ship/shoe, de Speck, fr chou/chat/cerf, sv sjö/kök, no sky), pictures a child names with another letter (an ox
+that reads as a cow, a sauce bottle = ketchup, a knee = leg, a face for chin, landscapes for lake / trail, blocks = cubes,
+sofà = divano, sika = possu, cap = hat, Kohl / kål = salad, padlock = hangslot) and two duplicate words — all replaced IN
+PLACE (a page that never held one is unchanged); live: fix1119 (49 decks). Review: one native + pedagogy reviewer.
+
+**Coloring Pages** (B3, retires `coloring` → K-476). `types/_shared/coloring-page.js`: K-476 Coloring Page (1 / 2 / 4
+drawings), K-477 Color and Trace the Word (the drawing's name dashed; level 3 also written), K-478 Color the Scene (drawings
+of one theme standing together, never overlapping), K-479 Color by the Key (numbered drawings, a key whose lines the teacher
+may retype — free-text slots). Black-and-white library themes only (`themeAxis.needsBwSibling`: the maker offers only B&W;
+a colour theme is refused), white frames (a cream card prints a tint under the crayons), no key, no screen ("writing").
+Own photos not offered (operator: no own-image upload); the old app's flip not kept. The review found **the chicken
+picture (a grown hen) named with the chick / meat word** in fr / es / it / sv / da / no → image-vocabulary.js and both raw
+copies now carry the hen word (the deploy heal brings the database along), picture indexes rebuilt; live: fix1120.
+
+**Gate changes:** slot.refuse (a type's own refusal: two shadows alike, a conflicting pair) counts as a refusal; a free
+slot skips the outside-the-pool probe; a pair slot publishes each pair's partner (`partners`) so a swap blanks it too;
+K-057 offers only pictures whose shadow is unlike every drawn one; K-061 / K-213 draw their changes / left-over tools from
+the DRAWN page (a swap moves nothing else); collision accepts one box on a one-item level (`ONE_ITEM`).
+
+**Picture files on demand (ART).** A maker may declare `art: ['<dir>']` in topic-map: build-bundles preloads the
+directory's `index.json` and copies every file of it into the data version without preloading it; the browser platform
+fetches an ART path the build reads (`platform.setFetcher` / `fetchMissing`, pattern LAZY in lib/platform/browser.js)
+and runtime.generate builds the same attempt again (also play.js and the parity gate). Dot to Dot: `data/d2d/index.json`
+(tools/build-d2d-index.js; `--check` in scripts/makers/tests/d2d-index.test.js) holds each scene's fit summary and, per
+figure setting, which scenes' numbers fit — so a page downloads only its own scene; Node reads every scene whole, as
+before (216 pages identical in both paths). Extend LAZY and the index for each picture family as its maker is built.
 
 ## B2 (end): Number Tracing, Symmetry & Grid Copy; B3 start: Same & Different (2026-11-02; commits `758df5bed`, `0db8c267f`, `1ab7f8762`, `e937d5a71`, `599cf9f4b`)
 

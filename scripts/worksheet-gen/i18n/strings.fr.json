@@ -833,7 +833,7 @@
   },
   "K-203": {
     "title": "Aliments sains et moins sains",
-    "instruction": "Relie chaque aliment au groupe auquel il appartient."
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
   },
   "K-204": {
     "title": "Animaux domestiques et animaux sauvages",
@@ -893,7 +893,8 @@
   },
   "G1-207": {
     "title": "Les quatre groupes d'aliments",
-    "instruction": "Relie chaque aliment à son groupe."
+    "instruction": "Relie chaque aliment à son groupe.",
+    "printTitle": "Les groupes d'aliments"
   },
   "G1-203": {
     "title": "Le cycle de vie de la poule",
@@ -1445,7 +1446,7 @@
   },
   "K-285": {
     "title": "Points à relier",
-    "instruction": "Pars du point orange. Relie les points dans l'ordre des nombres pour découvrir le dessin caché."
+    "instruction": "Pars du point orange. Relie les points dans l'ordre des nombres pour terminer le dessin."
   },
   "K-286": {
     "title": "Reproduction sur quadrillage",
@@ -1533,15 +1534,15 @@
   },
   "K-294": {
     "title": "Points à relier de 1 à 10",
-    "instruction": "Pars du point orange et compte jusqu'à 10."
+    "instruction": "Pars du point orange et relie les points de 1 à 10."
   },
   "K-295": {
     "title": "Points à relier de 11 à 20",
-    "instruction": "Le comptage commence à 11 et finit à 20."
+    "instruction": "Pars du point orange et relie les points de 11 à 20."
   },
   "K-296": {
     "title": "Points à relier de 11 à 30",
-    "instruction": "Pars de 11 et compte jusqu'à 30 sans t'arrêter."
+    "instruction": "Pars de 11 et relie les points en comptant jusqu'à 30 sans t'arrêter."
   },
   "K-298": {
     "title": "Reproduction sur quadrillage 6 x 6",
@@ -1777,15 +1778,15 @@
   },
   "K-308": {
     "title": "Points à relier de 10 à 1",
-    "instruction": "Compte à l'envers ; le dessin est déjà commencé."
+    "instruction": "Relie les points en comptant à l'envers, de 10 à 1 ; le dessin est déjà commencé."
   },
   "G1-285": {
     "title": "Points à relier de 2 en 2",
-    "instruction": "Tu ne comptes que les nombres pairs ; le reste est tracé."
+    "instruction": "Relie les points de 2 en 2, de 2 à 20 ; le reste du dessin est déjà tracé."
   },
   "G1-294": {
     "title": "Points à relier de 20 à 1",
-    "instruction": "Tous les points sont numérotés, et l'on compte du 20 au 1."
+    "instruction": "Pars du point orange et relie les points en comptant à l'envers, de 20 à 1."
   },
   "G2-304": {
     "title": "Points à relier de 5 en 5",
@@ -1893,7 +1894,7 @@
   },
   "G2-314": {
     "title": "Points à relier de 10 en 10",
-    "instruction": "Les nombres vont de dix en dix ; le reste est déjà tracé."
+    "instruction": "Relie les points de 10 en 10, de 10 à 100 ; le reste du dessin est déjà tracé."
   },
   "K-315": {
     "title": "Copier les mots en capitales",
@@ -3819,5 +3820,54 @@
   "K-470": {
     "title": "Puzzle à découper",
     "instruction": "Découpe les pièces. Colle chaque pièce à sa place sur le quadrillage pour reconstituer l'image."
+  },
+  "G1-485": {
+    "title": "Trier dans deux cercles : formes et couleurs",
+    "instruction": "Écris le numéro de chaque forme à sa place. Cercle de gauche : la forme indiquée au-dessus. Cercle de droite : la couleur indiquée au-dessus. Au milieu : les deux. Dans le cadre, hors des cercles : ni l'une ni l'autre."
+  },
+  "K-472": {
+    "title": "Trie en deux groupes",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-473": {
+    "title": "Points à relier : les majuscules",
+    "instruction": "Pars du point orange. Relie les points dans l'ordre de l'alphabet, de A à J."
+  },
+  "G1-486": {
+    "title": "Points à relier avec des calculs",
+    "instruction": "Fais chaque calcul et écris le résultat. Pars du point orange : c'est le résultat du calcul 1. Relie-le au résultat du calcul 2, puis du calcul 3, et ainsi de suite."
+  },
+  "K-474": {
+    "title": "Coloriage magique : mots-outils",
+    "instruction": "Lis le mot dans chaque forme. Colorie la forme de la couleur de ce mot dans le code."
+  },
+  "K-475": {
+    "title": "Coloriage magique : le son du début",
+    "instruction": "Dis le nom de chaque image. Colorie la forme de la couleur de la lettre par laquelle il commence."
+  },
+  "G3-478": {
+    "title": "Coloriage magique : multiplications",
+    "instruction": "Calcule la multiplication dans chaque forme. Colorie la forme de la couleur de son résultat dans le code."
+  },
+  "K-476": {
+    "title": "Coloriage",
+    "instruction": "Colorie le dessin."
+  },
+  "K-477": {
+    "title": "Colorie et repasse le mot",
+    "instruction": "Colorie le dessin. Repasse son nom."
+  },
+  "K-478": {
+    "title": "Colorie la scène",
+    "instruction": "Colorie tout ce qu'il y a sur l'image."
+  },
+  "K-479": {
+    "title": "Colorie selon le code",
+    "instruction": "Regarde le numéro de chaque dessin. Cherche-le dans le code et colorie le dessin de cette couleur."
+  },
+  "K-480": {
+    "title": "Labyrinthe en images : marche sur les animaux",
+    "instruction": "Aide le fermier à rejoindre le tracteur. Marche seulement sur les animaux.",
+    "printTitle": "Aide le fermier à rejoindre le tracteur"
   }
 }

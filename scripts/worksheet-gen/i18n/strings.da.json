@@ -149,7 +149,8 @@
   },
   "K-042": {
     "title": "Sortér det",
-    "instruction": "Tegn en streg fra hvert billede til kassen, det hører til i."
+    "instruction": "Tegn en streg fra hvert billede til kassen, det hører til i.",
+    "printTitle": "Sortér rigtigt"
   },
   "K-043": {
     "title": "Hvilken passer ikke?",
@@ -834,7 +835,7 @@
   },
   "K-203": {
     "title": "Sund og usund mad",
-    "instruction": "Tegn en streg fra hver madvare til den gruppe, den hører til."
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
   },
   "K-204": {
     "title": "Kæledyr og vilde dyr",
@@ -842,7 +843,8 @@
   },
   "K-206": {
     "title": "Ting der kan flyve",
-    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+    "printTitle": "Hvad kan flyve?"
   },
   "K-207": {
     "title": "Sommer- og vintertøj",
@@ -858,7 +860,7 @@
   },
   "K-210": {
     "title": "Transport på land, vand og i luften",
-    "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det færdes."
+    "instruction": "Tegn en streg fra hvert transportmiddel til det sted, hvor det færdes."
   },
   "K-211": {
     "title": "Varmt og koldt",
@@ -894,7 +896,8 @@
   },
   "G1-207": {
     "title": "De fire madgrupper",
-    "instruction": "Tegn en streg fra hver madvare til dens madgruppe."
+    "instruction": "Tegn en streg fra hver madvare til dens madgruppe.",
+    "printTitle": "Madgrupper"
   },
   "G1-203": {
     "title": "En kyllings livscyklus",
@@ -906,7 +909,8 @@
   },
   "K-213": {
     "title": "Hjælpere i samfundet og deres redskaber",
-    "instruction": "Tegn en streg fra hver hjælper til det redskab, de bruger."
+    "instruction": "Tegn en streg fra hver person til det, personen bruger på arbejdet.",
+    "printTitle": "Hvem bruger hvad?"
   },
   "K-221": {
     "title": "Forlyd",
@@ -986,7 +990,8 @@
   },
   "K-240": {
     "title": "Klip, sortér og klistre",
-    "instruction": "Klip billederne nederst på siden ud. Sortér dem, og lim hvert billede ind i den rigtige kasse."
+    "instruction": "Klip billederne nederst på siden ud. Sortér dem, og lim hvert billede ind i den rigtige kasse.",
+    "printTitle": "Klip, sortér og lim"
   },
   "K-241": {
     "title": "Regn og farvelæg",
@@ -1542,7 +1547,7 @@
   },
   "K-296": {
     "title": "Prik til prik: tæl videre fra 11 til 30",
-    "instruction": "Tæl videre fra 11 til 30, og find det skjulte billede."
+    "instruction": "Tæl videre fra 11 til 30, og forbind prikkerne, så billedet bliver færdigt."
   },
   "K-298": {
     "title": "Tegn efter i kvadratnet: nem start",
@@ -1782,15 +1787,15 @@
   },
   "G1-285": {
     "title": "Prik til prik: tæl med toere til 20",
-    "instruction": "Forbind prikkerne to ad gangen: 2, 4, 6 og videre til 20."
+    "instruction": "Forbind prikkerne, mens du tæller med toere: 2, 4, 6 og videre til 20."
   },
   "G1-294": {
     "title": "Prik til prik: hele vejen baglæns fra 20",
-    "instruction": "Alle prikkerne har et tal, og hele vejen går baglæns fra 20 til 1."
+    "instruction": "Start ved den orange prik, og forbind prikkerne baglæns fra 20 til 1."
   },
   "G2-304": {
     "title": "Prik til prik: tæl med femmere til 50",
-    "instruction": "Forbind prikkerne fem ad gangen: 5, 10, 15 og videre til 50."
+    "instruction": "Forbind prikkerne, mens du tæller med femmere: 5, 10, 15 og videre til 50."
   },
   "K-311": {
     "title": "Skriv ordet af to gange",
@@ -1894,7 +1899,7 @@
   },
   "G2-314": {
     "title": "Prik til prik: tæl med tiere til 100",
-    "instruction": "Forbind prikkerne ti ad gangen: 10, 20, 30 og videre til 100."
+    "instruction": "Forbind prikkerne, mens du tæller med tiere: 10, 20, 30 og videre til 100."
   },
   "K-315": {
     "title": "Skriv de store bogstaver af",
@@ -3804,5 +3809,54 @@
   "K-470": {
     "title": "Billedpuslespil",
     "instruction": "Klip brikkerne ud. Lim hver brik på sin plads i nettet, så billedet bliver helt igen."
+  },
+  "G1-485": {
+    "title": "Sortér i to cirkler: former og farver",
+    "instruction": "Skriv hver forms nummer på det rigtige sted. Venstre cirkel: formen, der står over den. Højre cirkel: farven, der står over den. Midten: begge dele. Rammen uden for cirklerne: ingen af delene."
+  },
+  "K-472": {
+    "title": "Sortér i to grupper",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-473": {
+    "title": "Prik til prik: store bogstaver",
+    "instruction": "Start ved den orange prik, og forbind prikkerne i alfabetisk rækkefølge fra A til J."
+  },
+  "G1-486": {
+    "title": "Prik til prik med regnestykker",
+    "instruction": "Regn hvert stykke ud, og skriv resultatet. Start ved den orange prik: det er resultatet af stykke 1. Tegn en streg til resultatet af stykke 2, så stykke 3 og så videre."
+  },
+  "K-474": {
+    "title": "Farvelæg efter ord",
+    "instruction": "Læs ordet i hver figur. Farvelæg figuren med den farve, ordet har i koden."
+  },
+  "K-475": {
+    "title": "Farvelæg efter forlyd",
+    "instruction": "Sig, hvad billedet i hver figur hedder. Farvelæg figuren med farven for det bogstav, ordet begynder med."
+  },
+  "G3-478": {
+    "title": "Regn og farvelæg: gange",
+    "instruction": "Regn gangestykket ud i hver figur. Farvelæg figuren med den farve, svaret har i koden."
+  },
+  "K-476": {
+    "title": "Tegning til farvelægning",
+    "instruction": "Farvelæg tegningen."
+  },
+  "K-477": {
+    "title": "Farvelæg og skriv ordet efter",
+    "instruction": "Farvelæg tegningen. Skriv ordet efter."
+  },
+  "K-478": {
+    "title": "Farvelæg hele billedet",
+    "instruction": "Farvelæg alt på billedet."
+  },
+  "K-479": {
+    "title": "Farvelæg efter farvekoden",
+    "instruction": "Se på tallet ved hver tegning. Find det i koden, og farvelæg tegningen med den farve."
+  },
+  "K-480": {
+    "title": "Billedlabyrint: gå kun på dyrene",
+    "instruction": "Hjælp landmanden hen til traktoren. Gå kun på dyrene.",
+    "printTitle": "Hjælp landmanden hen til traktoren"
   }
 }

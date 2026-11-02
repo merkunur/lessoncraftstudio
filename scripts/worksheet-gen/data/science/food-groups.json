@@ -11,10 +11,10 @@
         "it": "Frutta",
         "pt": "Frutas",
         "nl": "Fruit",
-        "sv": "Frukt",
-        "da": "Frugt",
-        "no": "Frukt",
-        "fi": "Hedelmät"
+        "sv": "Frukt och bär",
+        "da": "Frugt og bær",
+        "no": "Frukt og bær",
+        "fi": "Hedelmät ja marjat"
       }
     },
     {
@@ -25,12 +25,12 @@
         "es": "Verduras",
         "fr": "Légumes",
         "it": "Verdura",
-        "pt": "Legumes e Verduras",
+        "pt": "Legumes e verduras",
         "nl": "Groenten",
         "sv": "Grönsaker",
         "da": "Grøntsager",
         "no": "Grønnsaker",
-        "fi": "Vihannekset"
+        "fi": "Kasvikset"
       }
     },
     {
@@ -53,16 +53,16 @@
       "key": "protein",
       "label": {
         "en": "Protein",
-        "de": "Eiweiß",
+        "de": "Fleisch, Fisch, Eier",
         "es": "Proteínas",
-        "fr": "Protéines",
+        "fr": "Viandes, poissons, œufs",
         "it": "Proteine",
         "pt": "Proteínas",
-        "nl": "Eiwitten",
-        "sv": "Protein",
-        "da": "Protein",
-        "no": "Protein",
-        "fi": "Proteiini"
+        "nl": "Vlees, vis en ei",
+        "sv": "Kött, fisk och ägg",
+        "da": "Kød, fisk og æg",
+        "no": "Kjøtt, fisk og egg",
+        "fi": "Liha, kala ja muna"
       }
     }
   ],
@@ -95,7 +95,19 @@
     {
       "theme": "vegetables",
       "noun": "corn",
-      "bin": "vegetables"
+      "bin": "vegetables",
+      "retired": [
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "nl",
+        "sv",
+        "da",
+        "no",
+        "fi"
+      ]
     },
     {
       "theme": "At the Supermarket",
@@ -105,12 +117,14 @@
     {
       "theme": "At the Supermarket",
       "noun": "cereal",
-      "bin": "grains"
+      "bin": "grains",
+      "retired": true
     },
     {
       "theme": "At the Supermarket",
       "noun": "rice",
-      "bin": "grains"
+      "bin": "grains",
+      "retired": true
     },
     {
       "theme": "At the Supermarket",
@@ -145,7 +159,19 @@
     {
       "theme": "vegetables",
       "noun": "potato",
-      "bin": "vegetables"
+      "bin": "vegetables",
+      "retired": [
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "nl",
+        "sv",
+        "da",
+        "no",
+        "fi"
+      ]
     },
     {
       "theme": "vegetables",
@@ -165,7 +191,19 @@
     {
       "theme": "bakery",
       "noun": "muffin",
-      "bin": "grains"
+      "bin": "grains",
+      "retired": [
+        "de",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "nl",
+        "sv",
+        "da",
+        "no",
+        "fi"
+      ]
     },
     {
       "theme": "bakery",
@@ -175,17 +213,40 @@
     {
       "theme": "At the Supermarket",
       "noun": "cheese",
-      "bin": "protein"
+      "bin": "protein",
+      "retired": true
     },
     {
       "theme": "At the Supermarket",
       "noun": "bacon",
-      "bin": "protein"
+      "bin": "protein",
+      "retired": true
     },
     {
       "theme": "At the Supermarket",
       "noun": "sausage",
-      "bin": "protein"
+      "bin": "protein",
+      "retired": true
+    },
+    {
+      "theme": "breakfast",
+      "noun": "cereal",
+      "bin": "grains"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "pasta",
+      "bin": "grains"
+    },
+    {
+      "theme": "bakery",
+      "noun": "baguette",
+      "bin": "grains"
+    },
+    {
+      "theme": "breakfast",
+      "noun": "oatmeal",
+      "bin": "grains"
     }
   ]
 }

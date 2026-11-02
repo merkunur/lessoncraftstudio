@@ -152,7 +152,8 @@
   },
   "K-042": {
     "title": "A clasificar",
-    "instruction": "Une con una línea cada dibujo al cesto al que pertenece."
+    "instruction": "Une con una línea cada dibujo a la caja a la que pertenece.",
+    "printTitle": "¡A clasificar!"
   },
   "K-043": {
     "title": "¿Cuál es diferente?",
@@ -463,7 +464,7 @@
   },
   "G1-160": {
     "title": "Tres grupos",
-    "instruction": "Une con una línea cada dibujo al cesto al que pertenece."
+    "instruction": "Une con una línea cada dibujo a la caja a la que pertenece."
   },
   "G2-203": {
     "title": "Suma los bloques",
@@ -842,7 +843,8 @@
   },
   "K-203": {
     "title": "Alimentos sanos y no sanos",
-    "instruction": "Une con una línea cada alimento con el grupo al que pertenece."
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+    "printTitle": "Alimentos saludables y no saludables"
   },
   "K-204": {
     "title": "Mascotas y animales salvajes",
@@ -914,7 +916,8 @@
   },
   "K-213": {
     "title": "Las profesiones y sus herramientas",
-    "instruction": "Une con una línea cada profesión con la herramienta que utiliza."
+    "instruction": "Une con una línea a cada persona con lo que usa en su trabajo.",
+    "printTitle": "Los oficios y sus instrumentos de trabajo"
   },
   "K-221": {
     "title": "Sonidos iniciales",
@@ -1460,7 +1463,7 @@
   },
   "K-285": {
     "title": "Une los puntos del 1 al 20",
-    "instruction": "Empieza en el punto naranja. Une los puntos siguiendo el orden de los números y descubre el dibujo escondido."
+    "instruction": "Empieza en el punto naranja. Une los puntos siguiendo el orden de los números y termina el dibujo."
   },
   "K-286": {
     "title": "Copia el dibujo en la cuadrícula",
@@ -1792,7 +1795,7 @@
   },
   "K-308": {
     "title": "Une los puntos del 10 al 1",
-    "instruction": "Cuenta hacia atrás del 10 al 1; el resto del dibujo ya está."
+    "instruction": "Cuenta hacia atrás del 10 al 1 y une los puntos; el resto del dibujo ya está hecho."
   },
   "G1-285": {
     "title": "Une los puntos contando de 2 en 2",
@@ -3813,5 +3816,54 @@
   "K-470": {
     "title": "Rompecabezas de imagen",
     "instruction": "Recorta las piezas. Pega cada pieza en su lugar en la cuadrícula para armar el dibujo otra vez."
+  },
+  "G1-485": {
+    "title": "Clasifica en dos círculos: figuras y colores",
+    "instruction": "Escribe el número de cada figura en su lugar. Círculo de la izquierda: la figura de arriba. Círculo de la derecha: el color de arriba. En el centro: las dos cosas. En el recuadro, fuera de los círculos: ninguna de las dos."
+  },
+  "K-472": {
+    "title": "Clasifica en dos grupos",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-473": {
+    "title": "Une los puntos con las mayúsculas",
+    "instruction": "Empieza en el punto naranja. Une los puntos en orden alfabético, de la A a la J."
+  },
+  "G1-486": {
+    "title": "Une los puntos resolviendo operaciones",
+    "instruction": "Resuelve cada operación y escribe el resultado. Empieza en el punto naranja: es el resultado de la operación 1. Únelo con el resultado de la operación 2, luego con el de la 3, y así sucesivamente."
+  },
+  "K-474": {
+    "title": "Colorea según la palabra",
+    "instruction": "Lee la palabra de cada figura. Colorea la figura con el color de esa palabra en el código."
+  },
+  "K-475": {
+    "title": "Colorea según el sonido inicial",
+    "instruction": "Di el nombre de cada dibujo. Colorea la figura con el color de la letra con la que empieza."
+  },
+  "G3-478": {
+    "title": "Colorea según la multiplicación",
+    "instruction": "Resuelve la multiplicación de cada figura. Colorea la figura con el color de su resultado en el código."
+  },
+  "K-476": {
+    "title": "Dibujo para colorear",
+    "instruction": "Colorea el dibujo."
+  },
+  "K-477": {
+    "title": "Colorea y repasa la palabra",
+    "instruction": "Colorea el dibujo. Repasa su nombre."
+  },
+  "K-478": {
+    "title": "Colorea la escena",
+    "instruction": "Colorea todo lo que hay en el dibujo."
+  },
+  "K-479": {
+    "title": "Colorea según el código",
+    "instruction": "Mira el número de cada dibujo. Búscalo en el código y colorea el dibujo de ese color."
+  },
+  "K-480": {
+    "title": "Laberinto de dibujos: pisa solo los animales",
+    "instruction": "Ayuda al granjero a llegar al tractor. Pisa solo los animales.",
+    "printTitle": "Ayuda al granjero a llegar al tractor"
   }
 }

@@ -14,6 +14,7 @@ const { numberStrip } = require('../../templates/components-b2.js');
 const { COLLATION } = require('../../data/b2/collation.js');
 const { DOT_FIGURES } = require('../../data/b2/figures.js');
 const sceneDotFigure = require('../../primitives/scene-dot-figure.js');
+const platform = require('../../lib/platform/index.js');
 
 // ---------------------------------------------------------------- Level Set (2026-10-06): the 200 scene pictures
 // The published page of every face (level 2, copy 1) is built exactly as before. Every NEW page takes its picture from
@@ -58,15 +59,44 @@ const LEVEL_SET = {
     3: { ...HARD, count: 'alpha', scene: { n: 'alpha', band: 'all', offset: 0 } },
   },
 };
-let _scenes = null, _review = null;
+let _scenes = null, _review = null, _index = null;
 function d2dReview() { return (_review = _review || require('../../data/d2d/review.js')); }
+// the 200 scenes (data/d2d/<id>.json, ~150 KB each). In Node every scene is read whole, as before. In a maker (the
+// browser) only data/d2d/index.json is preloaded — each scene's fit summary and, per figure setting, which scenes'
+// numbers find room (tools/build-d2d-index.js) — and the ONE picture a page uses is fetched when it is drawn
+// (lib/platform: a missing art file is fetched and the build retried; makers 2026-11-02)
+const D2D_DIR = require('path').join(__dirname, '..', '..', 'data', 'd2d');
+const d2dIndex = () => (_index = _index || platform.readJson(require('path').join(D2D_DIR, 'index.json')));
 function d2dScenes() {
   if (_scenes) return _scenes;
-  const fs = require('fs'), path = require('path');
-  const dir = path.join(__dirname, '..', '..', 'data', 'd2d');
-  _scenes = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))) : [];
+  // the index lists every scene file, sorted by name (the order the folder was read before; tools/build-d2d-index.js
+  // --check keeps it current): Node reads each whole, a maker keeps the light entries
+  const list = d2dIndex().scenes;
+  _scenes = platform.kind === 'browser' ? list.map((e) => ({ ...e, light: true })) : list.map((e) => platform.readJson(require('path').join(D2D_DIR, e.id + '.json')));
   return _scenes;
 }
+/** a scene with its outline and art (a light index entry is read in full only here) */
+const fullScene = (s) => (s.light ? platform.readJson(require('path').join(D2D_DIR, s.id + '.json')) : s);
+/** the copy number that picks a level's picture: a Level Set wave's seedVariant (an integer) or the variant; a maker's
+ *  fresh-seed retry passes "<variant>.<k>" and moves k pictures on (2026-11-02: "1.1" made the index fractional) */
+function copyOf(ctx) {
+  const s = String((ctx && (ctx.seedVariant || ctx.variant)) || 1);
+  if (/^\d+$/.test(s)) return +s;
+  const [v, k] = s.split('.');
+  return (+v || 1) + (+k || 0);
+}
+/** the ANSWER KEY of a dot-to-dot (makers 2026-11-02): the path joined in order, dot 1 to the last numbered dot (and back
+ *  to dot 1 when the outline is closed), drawn over the picture under nothing else — the finished picture a teacher
+ *  checks. The worksheet itself is never touched: `key` is false on every catalogue build. */
+function withPath(fig, closed) {
+  const pts = fig.points.slice(0, fig.labels.length).concat(closed ? [fig.points[0]] : []);
+  const line = `<polyline points="${pts.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ')}" fill="none" stroke="#F2784B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" data-lcs-key-sample="1"/>`;
+  // the key's title carries " — Answer Key" and may take a second line: the picture is drawn 6 % smaller there (its
+  // viewBox unchanged), so the key never reaches the footer
+  return fig.svg.replace(/<\/svg>\s*$/, line + '</svg>').replace(/^(<svg\b[^>]*?)\swidth="([\d.]+)"\sheight="([\d.]+)"/, (m, h, w, hh) => `${h} width="${(+w * 0.94).toFixed(1)}" height="${(+hh * 0.94).toFixed(1)}"`);
+}
+/** the key of a figure setting in the index (a short, stable string hash) */
+function figKey(fig) { const t = JSON.stringify(fig); let h1 = 5381, h2 = 52711; for (let i = 0; i < t.length; i++) { const c = t.charCodeAt(i); h1 = (h1 * 33) ^ c; h2 = (h2 * 33) ^ c; } return (h1 >>> 0).toString(36) + (h2 >>> 0).toString(36); }
 /** the pool of a level: scenes whose outline keeps its shape at n dots AND whose numbers all find a free place with
  *  this level's figure settings (fig = the sceneDotFigure options minus the scene), ordered by complexity, in the band */
 const _placeable = new Map();
@@ -78,7 +108,21 @@ function d2dPool(sc, n, fig, alphaLen) {
   const fits = (s) => {
     if (!fig) return true;
     const key = s.id + '|' + JSON.stringify(fig);
-    if (!_placeable.has(key)) { let ok = true; try { sceneDotFigure({ scene: s, ...fig }); } catch (e) { ok = false; } _placeable.set(key, ok); }
+    if (!_placeable.has(key)) {
+      let ok = true;
+      if (s.light) {   // a maker: the index says (a setting the index does not know is tried — the page is then gated)
+        const set = d2dIndex().placeable[figKey(fig)];
+        ok = !set || set.includes(s.id);
+      } else {
+        // fig.minGap (G1-486): the dots must also keep that many px apart at this width — the type's verify refuses a
+        // page whose dots crowd, and the browser must not pick such a picture either (it reads this test from the index)
+        try {
+          const f = sceneDotFigure({ scene: s, ...fig });
+          if (fig.minGap) for (let i = 0; ok && i < f.points.length; i++) for (let j = i + 1; ok && j < f.points.length; j++) if (Math.hypot(f.points[i][0] - f.points[j][0], f.points[i][1] - f.points[j][1]) < fig.minGap) ok = false;
+        } catch (e) { ok = false; }
+      }
+      _placeable.set(key, ok);
+    }
     return _placeable.get(key);
   };
   const avoid = new Set((sc.avoid || []).flatMap((a) => { const an = a.n === 'alpha' ? alphaLen : a.n; return an ? d2dPool(a, an, null, alphaLen).map((s) => s.id) : []; }));
@@ -107,7 +151,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Dot-to-Dot 1 to 20',
-      instruction: 'Start at the orange dot. Join the dots in number order to find the hidden picture.',
+      instruction: 'Start at the orange dot. Join the dots in number order to finish the picture.',
     },
   },
 
@@ -144,10 +188,11 @@ module.exports = {
     const fig = dotFigure({ figure, count: d.count, step: d.step || 1, startAt: d.startAt, window: d.window, size: 560, values: alpha ? alpha.slice(0, d.count) : null });
     const values = fig.labels;
     const strip = numberStrip({ values, chip: d.chip });
+    const key = !!(ctx && ctx.answerKey);
     return {
       bodyHtml:
         `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:14px" data-ws-content>` +
-        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${fig.svg}</div>` +
+        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${key ? withPath(fig, !d.window) : fig.svg}</div>` +
         `<div class="ws-card" style="width:660px;padding:12px 10px;align-items:center">${strip}</div></div>`,
       meta: { figure: figure.key, labels: values },
     };
@@ -162,19 +207,37 @@ module.exports = {
     const n = sc.n === 'alpha' ? count : sc.n;
     if (n !== count) throw new Error(`${this.id}: level picture has ${n} dots, the level counts ${count}`);
     if (alpha && alpha.length < count) throw new Error(`${this.id}: ${loc} strip has ${alpha.length} letters < ${count}`);
-    const values = alpha ? alpha.slice(0, count) : null;
+    // d.upper (K-473 Capital Letters, 2026-11-02): the same alphabet in capitals (the locale's own: Ñ, ÅÄÖ, ÆØÅ)
+    const values = alpha ? alpha.slice(0, count).map((c) => (d.upper ? c.toLocaleUpperCase(loc) : c)) : null;
     const figOpts = { count, step: d.step || 1, startAt: d.startAt, values, lite: true,   // the picture alone, centred and enlarged on every level (operator 2026-10-07)
       labelPx: d.labelPx || 20 };
     const pool = d2dPool(sc, n, figOpts, alpha ? alpha.length : null);
-    const sv = (ctx && (ctx.seedVariant || ctx.variant)) || 1;
-    if (!pool.length || sv - 1 >= pool.length) throw new Error(`${this.id}: no picture left for copy ${sv} (pool ${pool.length}) — REFUSED`);
-    const scene = pool[((sc.offset || 0) + sv - 1) % pool.length];
+    const sv = copyOf(ctx);
+    // past the scene pool (the whole Nordic alphabet has four scene pictures): the hand-drawn figures, which take any
+    // number of dots, so "New version" never runs dry (ENGINES-ART §4.3: a gallery needs ≥ 20 pictures); every copy inside
+    // the pool — every published one — is drawn as before (makers, 2026-11-02)
+    if (sv - 1 >= pool.length) {
+      // only the figures whose outline takes this many dots (29 letters: 7 of the 16)
+      const takes = DOT_FIGURES.filter((f) => { try { dotFigure({ figure: f, count, size: 560 }); return true; } catch (e) { return false; } });
+      if (!takes.length) throw new Error(`${this.id}: no picture for ${count} dots — REFUSED`);
+      const figure = takes[((sc.offset || 0) + sv - 1 - pool.length) % takes.length];
+      const hand = dotFigure({ figure, count, step: d.step || 1, startAt: d.startAt, window: null, size: 560, values });
+      const hstrip = d.strip === false ? '' : numberStrip({ values: hand.labels, chip: d.chip });
+      return {
+        bodyHtml:
+          `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:14px" data-ws-content${d.strip === false ? ' data-lcs-nostrip="1"' : ''}>` +
+          `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${ctx && ctx.answerKey ? withPath(hand, true) : hand.svg}</div>` +
+          (hstrip ? `<div class="ws-card" style="width:660px;padding:12px 10px;align-items:center">${hstrip}</div>` : '') + `</div>`,
+        meta: { figure: figure.key, labels: hand.labels },
+      };
+    }
+    const scene = fullScene(pool[((sc.offset || 0) + sv - 1) % pool.length]);
     const fig = sceneDotFigure({ scene, ...figOpts });
     const strip = d.strip === false ? '' : numberStrip({ values: fig.labels, chip: d.chip });
     return {
       bodyHtml:
         `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:14px" data-ws-content${d.strip === false ? ' data-lcs-nostrip="1"' : ''}>` +
-        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${fig.svg}</div>` +
+        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${ctx && ctx.answerKey ? withPath(fig, !/data-lcs-open="1"/.test(fig.svg)) : fig.svg}</div>` +
         (strip ? `<div class="ws-card" style="width:660px;padding:12px 10px;align-items:center">${strip}</div>` : '') + `</div>`,
       meta: { figure: scene.id, scene: scene.id, labels: fig.labels },
     };
@@ -285,3 +348,5 @@ module.exports = {
     });
   },
 };
+// the scene pool and its bands, for the other dot-to-dot builders (G1-486 Dot-to-Dot with Sums)
+Object.defineProperty(module.exports, 'd2d', { value: { d2dPool, LS_BANDS, fullScene, figKey, copyOf, withPath, placeable: _placeable } });

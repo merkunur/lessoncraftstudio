@@ -280,3 +280,5 @@ module.exports = {
   },
 };
 Object.defineProperty(module.exports, 'testHooks', { value: testHooks, enumerable: false });
+// the diagram's geometry, regions, key numbers and tap areas, for the other two-circle sorts (G1-485 shapes and colours)
+Object.defineProperty(module.exports, 'venn', { value: { geom, regionOf, keyNumbers, regionTargets, REGION_WORDS, REGIONS } });

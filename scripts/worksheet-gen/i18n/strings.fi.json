@@ -835,7 +835,7 @@
   },
   "K-203": {
     "title": "Terveelliset ja epäterveelliset ruoat",
-    "instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu."
+    "instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
   },
   "K-204": {
     "title": "Lemmikit ja villieläimet",
@@ -895,7 +895,8 @@
   },
   "G1-207": {
     "title": "Neljä ruoka-aineryhmää",
-    "instruction": "Piirrä viiva jokaisesta ruoasta sen ruoka-aineryhmään."
+    "instruction": "Piirrä viiva jokaisesta ruoasta sen ruoka-aineryhmään.",
+    "printTitle": "Ruoka-aineryhmät"
   },
   "G1-203": {
     "title": "Kanan elämänkierto",
@@ -1447,7 +1448,7 @@
   },
   "K-285": {
     "title": "Yhdistä pisteet 1–20",
-    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin piilokuva tulee näkyviin."
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin kuva valmistuu."
   },
   "K-286": {
     "title": "Piirrä mallin mukaan ruudukkoon",
@@ -3796,5 +3797,54 @@
   "K-470": {
     "title": "Kuvapalapeli",
     "instruction": "Leikkaa palat irti. Liimaa jokainen pala oikealle paikalleen ruudukkoon, niin kuva on taas ehjä."
+  },
+  "G1-485": {
+    "title": "Lajittele kahteen ympyrään: muodot ja värit",
+    "instruction": "Kirjoita jokaisen muodon numero oikeaan paikkaan. Vasen ympyrä: sen yläpuolella näkyvä muoto. Oikea ympyrä: sen yläpuolella näkyvä väri. Keskelle: molemmat. Laatikkoon ympyröiden ulkopuolelle: ei kumpikaan."
+  },
+  "K-472": {
+    "title": "Lajittele kahteen ryhmään",
+    "instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
+  },
+  "K-473": {
+    "title": "Yhdistä pisteet: isot kirjaimet",
+    "instruction": "Aloita oranssista pisteestä ja yhdistä pisteet aakkosjärjestyksessä A:sta J:hin."
+  },
+  "G1-486": {
+    "title": "Yhdistä pisteet laskemalla",
+    "instruction": "Laske jokainen lasku ja kirjoita vastaus. Aloita oranssista pisteestä: se on laskun 1 vastaus. Vedä viiva laskun 2 vastaukseen, sitten laskun 3 vastaukseen ja niin edelleen."
+  },
+  "K-474": {
+    "title": "Väritä sanojen mukaan",
+    "instruction": "Lue sana jokaisesta kuviosta. Väritä kuvio sillä värillä, joka sanalla on värikoodissa."
+  },
+  "K-475": {
+    "title": "Väritä alkuäänteen mukaan",
+    "instruction": "Sano, mikä kussakin kuvassa on. Väritä kuvio sen kirjaimen värillä, jolla sana alkaa."
+  },
+  "G3-478": {
+    "title": "Väritä kertolaskujen mukaan",
+    "instruction": "Laske kertolasku jokaisesta kuviosta. Väritä kuvio sillä värillä, joka vastauksella on värikoodissa."
+  },
+  "K-476": {
+    "title": "Värityskuva",
+    "instruction": "Väritä kuva."
+  },
+  "K-477": {
+    "title": "Väritä ja kirjoita sana",
+    "instruction": "Väritä kuva. Kirjoita sen nimi katkoviivoja pitkin."
+  },
+  "K-478": {
+    "title": "Väritä koko kuva",
+    "instruction": "Väritä kaikki kuvassa olevat asiat."
+  },
+  "K-479": {
+    "title": "Väritä värikoodin mukaan",
+    "instruction": "Katso kunkin kuvan numeroa. Etsi se värikoodista ja väritä kuva sillä värillä."
+  },
+  "K-480": {
+    "title": "Kuvalabyrintti: astu vain eläinkuville",
+    "instruction": "Auta maanviljelijä traktorin luo. Astu vain eläinkuville.",
+    "printTitle": "Auta maanviljelijä traktorin luo"
   }
 }

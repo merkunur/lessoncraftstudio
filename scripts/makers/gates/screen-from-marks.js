@@ -145,7 +145,8 @@ const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill
       for (const loc of locs) for (const d of t.screenLevels) for (const variant of QUICK ? [1] : [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
         const theme = t.themed ? t.themes[(variant - 1) % t.themes.length] : null;
-        const unit = t.units && t.units[loc] && t.units[loc][0] ? t.units[loc][variant % t.units[loc].length].id : null;
+        const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+        const unit = lu.length ? lu[variant % lu.length].id : null;
         const tag = `${t.id} ${loc} L${d} v${variant}`;
         let r, sc;
         try {

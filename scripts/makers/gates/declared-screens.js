@@ -75,7 +75,8 @@ async function main() {
         if (!t.locales.includes(loc)) continue;
         for (const d of t.screenLevels) for (const v of COPIES) {
           const theme = t.themed ? (t.themes.find((x) => !/\bbw\b/i.test(x)) || t.themes[0]) : null;
-          const unit = t.units && t.units[loc] && t.units[loc][0] ? t.units[loc][0].id : null;
+          const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+          const unit = lu.length ? lu[0].id : null;
           const tag = `${maker} ${t.id} L${d} ${loc} copy ${v}`;
           checked++;
           let got, sc;
@@ -92,7 +93,7 @@ async function main() {
             if (got.path === 'declared') {
               // the same build again, for its measured items (screenFor returns the document only)
               const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, declared: true, screenInstruction: t.screenInstructions[loc][d] });
-              sc = await screen.buildDeclaredScreen({ html: r.declaredHtml, type, theme, difficulty: d, locale: loc, strings: runtimeStrings(loc), mount });
+              sc = await screen.buildDeclaredScreen({ html: r.declaredHtml, type, theme, difficulty: d, locale: loc, unit: r.unit, design: r.meta && r.meta.design, strings: runtimeStrings(loc), mount });
             }
           } catch (e) { bad++; fails.push(`${tag}: (1) ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }
           const f = [];

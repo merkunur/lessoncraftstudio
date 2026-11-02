@@ -149,7 +149,7 @@
   },
   "K-042": {
     "title": "Separe por grupos",
-    "instruction": "Ligue cada figura ao cesto a que ela pertence."
+    "instruction": "Ligue cada figura à caixa a que ela pertence."
   },
   "K-043": {
     "title": "Qual é diferente?",
@@ -457,7 +457,7 @@
   },
   "G1-160": {
     "title": "Três grupos",
-    "instruction": "Ligue cada figura ao cesto a que ela pertence."
+    "instruction": "Ligue cada figura à caixa a que ela pertence."
   },
   "G2-203": {
     "title": "Some os blocos",
@@ -834,7 +834,8 @@
   },
   "K-203": {
     "title": "Alimentos Saudáveis e Não Saudáveis",
-    "instruction": "Ligue cada alimento ao grupo a que ele pertence."
+    "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+    "printTitle": "Alimentos saudáveis e não saudáveis"
   },
   "K-204": {
     "title": "Animais de Estimação e Animais Selvagens",
@@ -842,7 +843,8 @@
   },
   "K-206": {
     "title": "Coisas Que Voam",
-    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+    "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+    "printTitle": "Coisas que voam"
   },
   "K-207": {
     "title": "Roupas de Verão e de Inverno",
@@ -858,7 +860,8 @@
   },
   "K-210": {
     "title": "Transportes na Terra, na Água e no Ar",
-    "instruction": "Ligue cada veículo ao lugar por onde ele anda."
+    "instruction": "Ligue cada meio de transporte ao lugar por onde ele viaja.",
+    "printTitle": "Meios de transporte terrestres, aquáticos e aéreos"
   },
   "K-211": {
     "title": "Quente e Frio",
@@ -866,7 +869,8 @@
   },
   "K-212": {
     "title": "Desejos e Necessidades",
-    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+    "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+    "printTitle": "Desejos e necessidades"
   },
   "K-214": {
     "title": "Natural e Feito pelo Ser Humano",
@@ -894,7 +898,8 @@
   },
   "G1-207": {
     "title": "Os Quatro Grupos de Alimentos",
-    "instruction": "Ligue cada alimento ao seu grupo alimentar."
+    "instruction": "Ligue cada alimento ao seu grupo alimentar.",
+    "printTitle": "Grupos de alimentos"
   },
   "G1-203": {
     "title": "O Ciclo de Vida da Galinha",
@@ -906,7 +911,8 @@
   },
   "K-213": {
     "title": "Profissionais da Comunidade e Suas Ferramentas",
-    "instruction": "Ligue cada profissional à ferramenta que ele usa."
+    "instruction": "Ligue cada profissional ao objeto que usa no trabalho.",
+    "printTitle": "Profissões e seus instrumentos de trabalho"
   },
   "K-221": {
     "title": "Sons iniciais",
@@ -1446,7 +1452,7 @@
   },
   "K-285": {
     "title": "Ligue os pontos e descubra a figura",
-    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem dos números e descubra a figura escondida."
+    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem dos números e complete a figura."
   },
   "K-286": {
     "title": "Copie o desenho na malha quadriculada",
@@ -1542,7 +1548,7 @@
   },
   "K-296": {
     "title": "Ligue os pontos do 11 ao 30",
-    "instruction": "Agora, conte do 11 até o 30 e ligue os vinte pontos."
+    "instruction": "Comece no 11, conte até o 30 e ligue os vinte pontos."
   },
   "K-298": {
     "title": "Copie o desenho: malha 6 por 6",
@@ -1786,7 +1792,7 @@
   },
   "G1-294": {
     "title": "Ligue os pontos: contagem regressiva do 20",
-    "instruction": "Aqui todos os pontos estão numerados."
+    "instruction": "Comece no 20 e ligue os pontos contando para trás até o 1."
   },
   "G2-304": {
     "title": "Ligue os pontos de 5 em 5",
@@ -1858,7 +1864,7 @@
   },
   "K-309": {
     "title": "Ligue os pontos na ordem do alfabeto",
-    "instruction": "Aqui os pontos têm letras: siga o alfabeto."
+    "instruction": "Aqui os pontos têm letras: siga o alfabeto do a ao t."
   },
   "G2-307": {
     "title": "Onde termina a frase?",
@@ -3824,5 +3830,54 @@
   "K-470": {
     "title": "Quebra-cabeça de figura",
     "instruction": "Recorte as peças. Cole cada peça no lugar certo da malha para montar a figura de novo."
+  },
+  "G1-485": {
+    "title": "Separe em dois círculos: formas e cores",
+    "instruction": "Escreva o número de cada forma no lugar certo. Círculo da esquerda: a forma que aparece acima dele. Círculo da direita: a cor que aparece acima dele. No meio: as duas coisas. No retângulo, fora dos círculos: nenhuma das duas."
+  },
+  "K-472": {
+    "title": "Separe em dois grupos",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-473": {
+    "title": "Ligue os pontos: letras maiúsculas",
+    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem do alfabeto, do A ao J."
+  },
+  "G1-486": {
+    "title": "Ligue os pontos com contas",
+    "instruction": "Resolva cada conta e escreva o resultado. Comece no ponto laranja: ele é o resultado da conta 1. Ligue-o ao resultado da conta 2, depois ao da conta 3, e assim por diante."
+  },
+  "K-474": {
+    "title": "Pinte conforme a palavra",
+    "instruction": "Leia a palavra de cada forma. Pinte a forma com a cor dessa palavra na legenda."
+  },
+  "K-475": {
+    "title": "Pinte conforme o som inicial",
+    "instruction": "Fale o nome de cada figura. Pinte a forma com a cor da letra com que ele começa."
+  },
+  "G3-478": {
+    "title": "Pinte conforme a multiplicação",
+    "instruction": "Resolva a multiplicação de cada forma. Pinte a forma com a cor do resultado na legenda."
+  },
+  "K-476": {
+    "title": "Desenho para colorir",
+    "instruction": "Pinte o desenho."
+  },
+  "K-477": {
+    "title": "Pinte e cubra a palavra",
+    "instruction": "Pinte o desenho. Cubra o tracejado do nome."
+  },
+  "K-478": {
+    "title": "Pinte a cena",
+    "instruction": "Pinte tudo o que tem no desenho."
+  },
+  "K-479": {
+    "title": "Pinte conforme a legenda",
+    "instruction": "Veja o número de cada desenho. Procure-o na legenda e pinte o desenho com essa cor."
+  },
+  "K-480": {
+    "title": "Labirinto de figuras: pise só nos animais",
+    "instruction": "Ajude o fazendeiro a chegar ao trator. Pise só nos animais.",
+    "printTitle": "Ajude o fazendeiro a chegar ao trator"
   }
 }

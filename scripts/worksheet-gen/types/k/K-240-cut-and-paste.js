@@ -7,11 +7,14 @@
  * slightly LARGER than the tiles (glue slop tolerance); scissors glyph at
  * the strip's left end. Single-sided by design (schema has no answer key).
  * d1: 2 bins × 2 · d2: 3 bins × 2 · d3: 2 strips, 2 bins × 4.
+ * Makers (2026-11-02): each bin's picture is a slot (bin); the KEY shows every box with its picture glued in (a drawn
+ * sample). Cut and paste has no screen (screen-verdicts: material). The catalogue page is unchanged.
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, circle } = require('../../primitives/_svg.js');
+const slot = require('../../lib/slot.js');
 
 function scissorsGlyph(size = 26) {
   const s = size;
@@ -50,7 +53,8 @@ module.exports = {
     if (nouns.length < this.themeAxis.minNouns) {
       throw new Error(`K-240: theme ${theme} has ${nouns.length} nouns < min`);
     }
-    const cats = rng.sample(nouns, d.bins);
+    const cats = slot.pictures(ctx, rng.sample(nouns, d.bins), nouns, theme, 'bin');
+    const key = !!(ctx && ctx.answerKey);
     const tiles = rng.shuffle(cats.flatMap((c) => Array.from({ length: d.perBin }, () => c)));
     const ghost = d.tilePx + 8;
 
@@ -58,11 +62,13 @@ module.exports = {
     // single tall column — the 4-per-bin page (K-264) overflows its group box
     // as a column (critic finding). Default column stays byte-identical.
     const ghostSpans = (c) => Array.from({ length: d.perBin }, () =>
-      `<span style="width:${ghost}px;height:${ghost}px;border:2.5px dashed #C8BFAE;border-radius:12px;background:#FFFFFF;flex:0 0 auto" data-lcs-ghost="${c.vocabKey}"></span>`
+      `<span style="width:${ghost}px;height:${ghost}px;border:2.5px dashed #C8BFAE;border-radius:12px;background:#FFFFFF;flex:0 0 auto` +
+      (key ? `;display:flex;align-items:center;justify-content:center` : '') + `" data-lcs-ghost="${c.vocabKey}">` +
+      (key ? `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" data-lcs-key-sample="1" style="width:${Math.round(d.tilePx * 0.78)}px;height:${Math.round(d.tilePx * 0.78)}px">` : '') + `</span>`
     ).join('');
     const binBoxes = cats.map((c) =>
       `<div class="ws-bin" style="max-width:none;flex:1 1 0;height:auto;align-self:stretch;` +
-      `display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:10px;padding:26px 12px 16px" data-lcs-bin="${c.vocabKey}">` +
+      `display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:10px;padding:26px 12px 16px" data-lcs-bin="${c.vocabKey}"${slot.attr(ctx, 'bin', cats.indexOf(c))}>` +
       `<span class="ws-bin-label" style="width:56px;height:56px">` +
       `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:42px;height:42px"></span>` +
       (d.ghostGrid

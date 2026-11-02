@@ -46,10 +46,40 @@ const pictures = (ctx, picked, pool, theme, role = 'pic') => apply(ctx, role, pi
 /** Words: items are strings (or { word }); the key is the word itself. */
 const words = (ctx, picked, pool, role = 'word') => apply(ctx, role, picked, pool, (w) => (typeof w === 'string' ? w : w.word));
 
+/**
+ * Pictures from SEVERAL themes (2026-11-02, Sorting): items are { theme, noun, … } — a reviewed list that spans themes
+ * (the foods of a food group) or any picture a teacher sorts herself; the key is "theme/noun" (one noun may live in two
+ * themes). The picker shows each key's own picture (multi: true).
+ */
+const anyPictures = (ctx, picked, pool, role) => apply(ctx, role, picked, pool, (p) => p.theme + '/' + p.noun, { multi: true });
+
+/**
+ * Free text (2026-11-02, Sorting): one value the teacher TYPES (a group's name). Accepted when it is 1 … max characters
+ * after the spaces are tidied and holds no markup; anything else keeps the drawn value. The type escapes it when it
+ * prints it. Records { pool: [], values: [text], free: true, max }.
+ */
+function text(ctx, value, role, max = 24) {
+  const want = ctx && ctx.overrides && ctx.overrides[role] ? ctx.overrides[role][0] : undefined;
+  let out = value;
+  if (typeof want === 'string') {
+    const t = want.replace(/\s+/g, ' ').trim();
+    if (t && [...t].length <= max && !/[<>]/.test(t)) out = t;
+  }
+  if (ctx && ctx.slotsOut) ctx.slotsOut[role] = { pool: [], values: [out], free: true, max };
+  return out;
+}
+
+/**
+ * A TYPE'S OWN refusal (2026-11-02): the choice is in the pool and free, but the page cannot take it (two shadows alike,
+ * a pair that brings a conflict) — the type draws its own pick again without the override and calls refuse(): the
+ * screen then says "does not fit" and the gates count a refusal, not a slot that ignores its key.
+ */
+function refuse(ctx, role) { if (ctx && ctx.slotsOut && ctx.slotsOut[role]) ctx.slotsOut[role].refused = true; }
+
 /** The tap target: ` data-lcs-slot="<role>.<i>"` in the maker, nothing in the catalogue (its pages stay byte-identical). */
 const attr = (ctx, role, i) => (ctx && ctx.slotsOut ? ` data-lcs-slot="${role}.${i}"` : '');
 
 /** The same tap target put on the FIRST tag of an element's markup (a card, a row) — maker only. */
 const stamp = (ctx, role, i, html) => (ctx && ctx.slotsOut ? String(html).replace(/^(\s*<[a-zA-Z][\w-]*)/, '$1' + attr(ctx, role, i)) : html);
 
-module.exports = { pictures, words, attr, stamp };
+module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp };

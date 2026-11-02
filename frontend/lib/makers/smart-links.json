@@ -27,7 +27,7 @@
   },
   "coloring": {
    "maker": "coloring-pages",
-   "template": null
+   "template": "K-476"
   },
   "crossword": {
    "maker": "crossword",
@@ -39,7 +39,7 @@
   },
   "draw-and-color": {
    "maker": "symmetry-grids",
-   "template": null
+   "template": "K-286"
   },
   "drawing-lines": {
    "maker": "pre-writing",
@@ -55,11 +55,11 @@
   },
   "grid-match": {
    "maker": "same-different",
-   "template": null
+   "template": "K-470"
   },
   "matching": {
    "maker": "same-different",
-   "template": null
+   "template": "K-058"
   },
   "math-puzzle": {
    "maker": "logic-puzzles",
@@ -71,7 +71,7 @@
   },
   "missing-pieces": {
    "maker": "same-different",
-   "template": null
+   "template": "K-469"
   },
   "more-less": {
    "maker": "compare-numbers",
@@ -79,7 +79,7 @@
   },
   "odd-one-out": {
    "maker": "same-different",
-   "template": null
+   "template": "K-039"
   },
   "pattern-train": {
    "maker": "patterns",
@@ -91,11 +91,11 @@
   },
   "picture-path": {
    "maker": "mazes",
-   "template": null
+   "template": "K-480"
   },
   "picture-sort": {
    "maker": "sorting",
-   "template": null
+   "template": "K-472"
   },
   "prepositions": {
    "maker": "position-words",
@@ -103,7 +103,7 @@
   },
   "shadow-match": {
    "maker": "same-different",
-   "template": null
+   "template": "K-057"
   },
   "subtraction": {
    "maker": "addition-subtraction",

@@ -827,7 +827,7 @@
   },
   "K-203": {
     "title": "Gesunde und ungesunde Lebensmittel",
-    "instruction": "Verbinde jedes Lebensmittel mit der Gruppe, zu der es gehört."
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
   },
   "K-204": {
     "title": "Haustiere und Wildtiere",
@@ -887,7 +887,8 @@
   },
   "G1-207": {
     "title": "Die vier Lebensmittelgruppen",
-    "instruction": "Verbinde jedes Lebensmittel mit seiner Lebensmittelgruppe."
+    "instruction": "Verbinde jedes Lebensmittel mit seiner Lebensmittelgruppe.",
+    "printTitle": "Lebensmittelgruppen"
   },
   "G1-203": {
     "title": "Der Lebenszyklus des Huhns",
@@ -899,7 +900,8 @@
   },
   "K-213": {
     "title": "Berufe und ihre Werkzeuge",
-    "instruction": "Verbinde jede helfende Person mit dem Werkzeug, das sie benutzt."
+    "instruction": "Verbinde jede Person mit dem, was sie bei der Arbeit braucht.",
+    "printTitle": "Berufe: Wer braucht was?"
   },
   "K-221": {
     "title": "Anlaute",
@@ -1439,7 +1441,7 @@
   },
   "K-285": {
     "title": "Von Punkt zu Punkt",
-    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis das versteckte Bild erscheint."
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis das Bild fertig ist."
   },
   "K-286": {
     "title": "Gitterbilder abzeichnen",
@@ -1527,7 +1529,7 @@
   },
   "K-294": {
     "title": "Von Punkt zu Punkt: 1 bis 10",
-    "instruction": "Verbinde die Punkte von 1 bis 10, die Zahlenreihe hilft."
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte von 1 bis 10. Die Zahlenreihe unten hilft dir."
   },
   "K-295": {
     "title": "Von Punkt zu Punkt: 11 bis 20",
@@ -1535,7 +1537,7 @@
   },
   "K-296": {
     "title": "Von Punkt zu Punkt: 11 bis 30",
-    "instruction": "Zähle ab 11 weiter, bis du bei 30 angekommen bist."
+    "instruction": "Beginne am orangen Punkt bei 11. Zähle weiter bis 30 und verbinde die Punkte."
   },
   "K-298": {
     "title": "Gitterbilder abzeichnen: 6x6",
@@ -1771,19 +1773,19 @@
   },
   "K-308": {
     "title": "Von Punkt zu Punkt: rückwärts von 10",
-    "instruction": "Nur zehn Punkte tragen eine Zahl, von 10 bis 1."
+    "instruction": "Beginne am orangen Punkt bei 10. Verbinde die Punkte rückwärts bis 1."
   },
   "G1-285": {
     "title": "Von Punkt zu Punkt in Zweierschritten",
-    "instruction": "Zehn Punkte in Zweierschritten: 2 bis 20."
+    "instruction": "Verbinde die Punkte in Zweierschritten von 2 bis 20."
   },
   "G1-294": {
     "title": "Von Punkt zu Punkt: rückwärts von 20",
-    "instruction": "Alle 20 Punkte tragen eine Zahl: von 20 bis 1."
+    "instruction": "Beginne am orangen Punkt bei 20. Verbinde die Punkte rückwärts bis 1."
   },
   "G2-304": {
     "title": "Von Punkt zu Punkt in Fünferschritten",
-    "instruction": "In Fünferschritten von 5 bis 50, zehn Punkte."
+    "instruction": "Verbinde die Punkte in Fünferschritten von 5 bis 50."
   },
   "K-311": {
     "title": "Wörter abschreiben",
@@ -1851,7 +1853,7 @@
   },
   "K-309": {
     "title": "Von Punkt zu Punkt nach dem ABC",
-    "instruction": "Statt Zahlen stehen Buchstaben da: von a bis t."
+    "instruction": "Statt Zahlen stehen hier Buchstaben: Verbinde die Punkte von a bis t."
   },
   "G2-307": {
     "title": "Wo endet der erste Satz?",
@@ -1887,7 +1889,7 @@
   },
   "G2-314": {
     "title": "Von Punkt zu Punkt in Zehnerschritten",
-    "instruction": "Zehn Zahlen in Zehnerschritten, 10 bis 100."
+    "instruction": "Verbinde die Punkte in Zehnerschritten von 10 bis 100."
   },
   "K-315": {
     "title": "Wörter abschreiben: Großbuchstaben",
@@ -3829,5 +3831,54 @@
   "K-470": {
     "title": "Bilderpuzzle",
     "instruction": "Schneide die Teile aus. Klebe jedes Teil in das richtige Feld im Raster, bis das Bild wieder ganz ist."
+  },
+  "G1-485": {
+    "title": "Sortieren mit zwei Kreisen: Formen und Farben",
+    "instruction": "Schreibe die Nummer jeder Form an ihren Platz. Linker Kreis: die Form, die darüber steht. Rechter Kreis: die Farbe, die darüber steht. Mitte: beides. Kasten außerhalb der Kreise: keins von beiden."
+  },
+  "K-472": {
+    "title": "Sortiere in zwei Gruppen",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-473": {
+    "title": "Von Punkt zu Punkt nach dem ABC: Großbuchstaben",
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte nach dem ABC, von A bis J."
+  },
+  "G1-486": {
+    "title": "Von Punkt zu Punkt mit Rechenaufgaben",
+    "instruction": "Rechne jede Aufgabe und schreibe das Ergebnis auf. Beginne am orangen Punkt: Er ist das Ergebnis von Aufgabe 1. Verbinde ihn mit dem Ergebnis von Aufgabe 2, dann Aufgabe 3 und so weiter."
+  },
+  "K-474": {
+    "title": "Lesemalen: häufige Wörter",
+    "instruction": "Lies das Wort in jeder Form. Male die Form in der Farbe aus, die das Wort im Farbcode hat."
+  },
+  "K-475": {
+    "title": "Malen nach Anlaut",
+    "instruction": "Sprich das Wort zu jedem Bild. Male die Form in der Farbe des Buchstabens aus, mit dem es beginnt."
+  },
+  "G3-478": {
+    "title": "Rechnen und Ausmalen: Einmaleins",
+    "instruction": "Rechne die Malaufgabe in jeder Form. Male die Form in der Farbe ihres Ergebnisses im Farbcode aus."
+  },
+  "K-476": {
+    "title": "Ausmalbild",
+    "instruction": "Male das Bild aus."
+  },
+  "K-477": {
+    "title": "Ausmalen und Wort nachspuren",
+    "instruction": "Male das Bild aus. Spure das Wort nach."
+  },
+  "K-478": {
+    "title": "Das ganze Bild ausmalen",
+    "instruction": "Male alles auf dem Bild aus."
+  },
+  "K-479": {
+    "title": "Ausmalen nach Farbcode",
+    "instruction": "Schau auf die Zahl bei jedem Bild. Suche sie im Farbcode und male das Bild in dieser Farbe aus."
+  },
+  "K-480": {
+    "title": "Bilder-Labyrinth: Nur auf Tiere treten",
+    "instruction": "Hilf dem Bauern zum Traktor. Tritt nur auf die Tiere.",
+    "printTitle": "Hilf dem Bauern zum Traktor"
   }
 }

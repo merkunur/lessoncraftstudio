@@ -106,8 +106,8 @@ function pageStrings(i) {
 }
 function pageOptions(i) {
   const t = tplOf(i), lvl = state.lvls[i];
-  const units = (t.units && t.units[LANG]) || [];
-  const ps = units.length ? { variant: t.copiesDiffer.includes(lvl) ? state.pages[i] : 1, unit: state.units[i] || units[0].id } : { variant: state.pages[i], unit: null };
+  const units = ((t.units && t.units[LANG]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === lvl);   // the level's units
+  const ps = units.length ? { variant: t.copiesDiffer.includes(lvl) ? state.pages[i] : 1, unit: units.some((u) => u.id === state.units[i]) ? state.units[i] : units[0].id } : { variant: state.pages[i], unit: null };
   const keyAt = t.interactive || (t.keyLevels || []).includes(lvl);
   const ed = state.edits[i];
   return { strings: pageStrings(i), locale: LANG, difficulty: lvl, theme: themeFor(t, (recipe.pages[i] && recipe.pages[i].theme) || state.pickedTheme), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: !!state.answerKey && keyAt, answerKeySuffix: tj.answerKey[LANG], overrides: ed && Object.keys(ed).length ? ed : null, baseStrings: state.texts[i] && Object.keys(state.texts[i]).length ? stringsFor(state.tpls[i], lvl) : null };
@@ -214,6 +214,8 @@ async function boot() {
   const files = {};
   await Promise.all(dm.files.map(async (f) => { files[f] = await (await fetch(`${BASE}/data/${dataVersion}/${f.split('/').map(encodeURIComponent).join('/')}`)).text(); }));
   mod.platform.preload(files);
+  // a picture family's files (one per picture) are fetched when a page draws one (runtime.generate)
+  if (mod.platform.setFetcher) mod.platform.setFetcher(async (f) => { const r = await fetch(`${BASE}/data/${dataVersion}/${f.split('/').map(encodeURIComponent).join('/')}`); return r.ok ? r.text() : null; });
   state = fromRecipe(recipe);
   hook.state = () => JSON.parse(JSON.stringify(state));
   const stage = $('pl-stage');

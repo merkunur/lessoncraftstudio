@@ -9,6 +9,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const PM = require('../../lib/picture-masks.js');
 
 /** a half turn (180°) of a 24×24 row-major binary mask */
@@ -48,19 +49,22 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     // asymmetry gate: mirror must be visibly different from the original
-    const candidates = [];
-    for (const n of rng.shuffle(labelSafeNouns(theme).filter((x) => PM.has(theme, x.noun)))) {
-      const m = PM.maskA(theme, n.noun);
-      // the half turn must differ from the mirror image as well (a picture symmetric top to bottom would make them one)
-      if (PM.iou(m, flipMask(m)) < 0.82 && PM.iou(flipMask(m), turnMask(m)) < 0.82) candidates.push(n);
+    let candidates = [];
+    // the half turn must differ from the mirror image as well (a picture symmetric top to bottom would make them one)
+    const asym = (n) => { const m = PM.maskA(theme, n.noun); return PM.iou(m, flipMask(m)) < 0.82 && PM.iou(flipMask(m), turnMask(m)) < 0.82; };
+    const all = labelSafeNouns(theme).filter((x) => PM.has(theme, x.noun));
+    for (const n of rng.shuffle(all)) {
+      if (asym(n)) candidates.push(n);
       if (candidates.length >= d.rows) break;
     }
     if (candidates.length < d.rows) {
       throw new Error(`K-063: theme ${theme} has only ${candidates.length} asymmetric nouns (< ${d.rows})`);
     }
 
+    // makers (2026-11-02): each row's picture is a slot, from the theme's pictures that pass the same two gates
+    candidates = slot.pictures(ctx, candidates, all.filter(asym), theme, 'pic');
     const px = 72;
-    const cards = candidates.map((n) => {
+    const cards = candidates.map((n, i) => {
       const src = fileUri(theme, n.noun);
       const variants = rng.shuffle([
         { t: 'scaleX(-1)', correct: true },
@@ -71,7 +75,7 @@ module.exports = {
         `<span class="ws-pattern-chip" style="width:${px + 22}px;height:${px + 22}px"${v.correct ? ' data-lcs-correct="1"' : ''}>` +
         `<img class="ws-icon" src="${src}" alt="" data-lcs-tf="${v.t}" style="width:${px}px;height:${px}px;transform:${v.t}"></span>`).join('');
       return `<div class="ws-card-stage" style="justify-content:space-between;padding:6px 14px" data-lcs-prompt="${n.vocabKey}">` +
-        `<span class="ws-pattern-slot" style="width:${px + 30}px;height:${px + 30}px">` +
+        `<span class="ws-pattern-slot" style="width:${px + 30}px;height:${px + 30}px"${slot.attr(ctx, 'pic', i)}>` +
         `<img class="ws-icon" src="${src}" alt="" style="width:${px}px;height:${px}px"></span>` +
         `<span class="ws-pattern-choices">${chips}</span>` +
         `</div>`;

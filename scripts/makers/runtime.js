@@ -71,6 +71,19 @@ function makePage(o) {
 
   let strings = resolveUnitTokens({ ...o.strings }, type, unit, locale);
   const built = type.build({ theme, difficulty, locale, unit }, ctx());
+  // a page asked for with no unit may draw one itself (a Color by Number copy picks a design of its level): its title
+  // names that unit (makers 2026-11-02)
+  if (built.unit && built.unit !== unit) strings = resolveUnitTokens({ ...o.strings }, type, built.unit, locale);
+  // a copy may bring its own words (makers 2026-11-02, Mazes: copy 2 is a Level Set scene with its own hero, title and
+  // instruction) — never over a field the teacher edited (o.strings differs from o.baseStrings there)
+  if (built.strings) for (const k of ['title', 'printTitle', 'instruction']) {
+    if (built.strings[k] == null) continue;
+    const field = k === 'printTitle' ? 'title' : k;   // an edited title is the page's heading too
+    if (o.baseStrings && (o.baseStrings[field] !== (o.strings || {})[field] || o.baseStrings[k] !== (o.strings || {})[k])) continue;
+    strings = { ...strings, [k]: built.strings[k] };
+  }
+  // a copy's own words may carry the unit's tokens ({L}, {N}: How to Draw's Level Set titles) — filled with its unit
+  if (built.strings) strings = resolveUnitTokens(strings, type, built.unit || unit, locale);
   if (built.tokens) strings = { ...strings, instruction: String(strings.instruction).replace(/{([A-Z]+)}/g, (m, k) => (built.tokens[k] != null ? built.tokens[k] : m)) };
   if (/{[A-Z]+}/.test(strings.instruction || '')) throw new Error('maker: ' + type.id + ' instruction keeps an unfilled token');
   const head = strings.printTitle || strings.title;
@@ -102,9 +115,12 @@ function makePage(o) {
     // path there; the maker asks for that page's screen anyway (built FROM the published page — same content, asserted)
     const dBuilt = type.build({ theme, difficulty, locale, unit }, ctx({ interactive: true, publishedScreen: true }));
     if (JSON.stringify(dBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the screen build drew different content than the page (' + type.id + ')');
-    declaredHtml = buildPage({ title: head, instruction: o.screenInstruction, bodyHtml: dBuilt.bodyHtml, locale, pageSize, pageHeight: type.interactive.screenHeight || null });
+    // a copy that brings its own words brings its own screen line too (a Level Set maze names its own goal)
+    const scrIns = (built.strings && built.strings.screenInstruction) || o.screenInstruction;
+    declaredHtml = buildPage({ title: head, instruction: scrIns, bodyHtml: dBuilt.bodyHtml, locale, pageSize, pageHeight: type.interactive.screenHeight || null });
   }
-  return { html, keyHtml, screenHtml, declaredHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
+  // unit: the one the page was drawn with (a copy may pick its own: a pinned maze scene, a Color by Number design)
+  return { html, keyHtml, screenHtml, declaredHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots, unit: built.unit || unit };
 }
 
 /**
@@ -171,8 +187,16 @@ async function generate(o, mount) {
   }
   let fails = [];
   for (const a of attempts) {
-    let r;
-    try { r = makePage({ ...o, ...a }); } catch (e) { fails = ['build: ' + e.message]; continue; }
+    let r = null;
+    // an art file the build needs and the browser has not loaded yet (one picture of a picture family) is fetched and the
+    // SAME attempt built again — a missing file is never a refusal (platform.fetchMissing; Node has no such files)
+    for (let fetched = 0; ; fetched++) {
+      try { r = makePage({ ...o, ...a }); break; } catch (e) {
+        if (e && e.name === 'PlatformMissing' && fetched < 12 && platform.fetchMissing && await platform.fetchMissing(e.path)) continue;
+        fails = ['build: ' + e.message]; break;
+      }
+    }
+    if (!r) continue;
     fails = await gatePage(type, await mount(r.html));
     if (!fails.length && r.keyHtml) fails = await gatePage(type, await mount(r.keyHtml), { key: true });
     if (!fails.length) return { ok: true, ...r, attempt: a };
@@ -200,7 +224,7 @@ async function screenFor(o, mount) {
     try {
       if (!instr) throw Object.assign(new Error('no screen instruction for ' + o.locale + ' level ' + lv), { reasons: ['no screen instruction'] });
       const made = makePage({ ...o, declared: true, screenInstruction: instr });
-      const sc = await screen.buildDeclaredScreen({ html: made.declaredHtml, type, theme: o.theme, difficulty: lv, locale: o.locale, strings: o.runtimeStrings, mount });
+      const sc = await screen.buildDeclaredScreen({ html: made.declaredHtml, type, theme: o.theme, difficulty: lv, locale: o.locale, unit: made.unit, design: made.meta && made.meta.design, strings: o.runtimeStrings, mount });
       return { html: sc.html, path: 'declared' };
     } catch (e) { declaredErr = e; }
   }

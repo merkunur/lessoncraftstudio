@@ -8,7 +8,7 @@
       },
       "right": {
         "theme": "hospital",
-        "noun": "stethoscope"
+        "noun": "thermometer"
       }
     },
     {
@@ -58,7 +58,7 @@
       },
       "right": {
         "theme": "music",
-        "noun": "guitar"
+        "noun": "trumpet"
       }
     },
     {
@@ -69,16 +69,6 @@
       "right": {
         "theme": "around the house",
         "noun": "rake"
-      }
-    },
-    {
-      "left": {
-        "theme": "occupations",
-        "noun": "pilot"
-      },
-      "right": {
-        "theme": "vehicles",
-        "noun": "airplane"
       }
     },
     {
@@ -121,5 +111,15 @@
         "noun": "spanner"
       }
     }
+  ],
+  "conflicts": [
+    [
+      "farmer",
+      "gardener"
+    ],
+    [
+      "doctor",
+      "nurse"
+    ]
   ]
 }

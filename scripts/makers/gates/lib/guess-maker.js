@@ -13,7 +13,10 @@
  *   blank    an OPTIONAL write box ("leave it empty if …"): leave every one empty, against 1/2
  *   type     the pool's most common answer; the box's own index (box 1 → 1, box 2 → 2…); the index from the end;
  *            the previous answer + 1; a number printed in the box's own card (the echo tell)
- *   pair     item k ↔ target k (reading order); reversed; the target in the same row; the nearest target
+ *   pair     item k ↔ target k (reading order); reversed; the target in the same row; the nearest target. Items and
+ *            targets that carry a pair group (data-lcs-pair-group: one row of a page is its own small task — a blank
+ *            and the pictures of ITS row) are measured inside their group: the chance is one of the group's targets,
+ *            every strategy picks among them (2026-11-02, G1-155 / K-469)
  *   place    always bin k; alternate bins; bins in reading order
  */
 'use strict';
@@ -49,7 +52,7 @@ function enrichMarks(model) {
     } else if (p.cls === 'type') {
       out.push({ kind: 'type', items: p.items.map((it, i) => { const el = all[it.dom]; const c = cardOf(el); let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll('[data-lcs-answer]').forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(it.answer), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, optional: el.hasAttribute('data-lcs-optional'), x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2 }; }) });
     } else if (p.cls === 'pair') {
-      out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer) })), targets: p.targets.map((t) => ({ x: t.x + (t.w || 0) / 2, y: t.y + (t.h || 0) / 2, id: String(t.id) })) });
+      out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer), group: it.group || null })), targets: p.targets.map((t) => ({ x: t.x + (t.w || 0) / 2, y: t.y + (t.h || 0) / 2, id: String(t.id), group: t.group || null })) });
     } else if (p.cls === 'place') {
       out.push({ kind: 'place', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer) })), bins: p.bins.map((b) => ({ id: String(b.id), x: b.x + (b.w || 0) / 2, y: b.y + (b.h || 0) / 2 })) });
     }
@@ -167,18 +170,26 @@ function measure(pages) {
       }
     } else if (kind === 'pair') {
       for (const b of list) {
-        const items = b.items, ts = b.targets; if (items.length < 2 || ts.length < 2) continue;
-        const io = readingOrder(items), to = readingOrder(ts);
-        const posI = new Map(io.map((j, k) => [j, k]));
-        items.forEach((it, j) => {
-          ask(b.pg, 1 / ts.length); const k = posI.get(j);
-          hit('as-shown', ts[to[k % ts.length]].id === it.answer, b.pg);
-          hit('reversed', ts[to[ts.length - 1 - (k % ts.length)]].id === it.answer, b.pg);
-          const row = ts.slice().sort((a, c) => Math.abs(a.y - it.y) - Math.abs(c.y - it.y))[0];
-          hit('same-row', row.id === it.answer, b.pg);
-          const near = ts.slice().sort((a, c) => Math.hypot(a.x - it.x, a.y - it.y) - Math.hypot(c.x - it.x, c.y - it.y))[0];
-          hit('nearest', near.id === it.answer, b.pg);
-        });
+        if (b.items.length < 2 || b.targets.length < 2) continue;
+        // one measured set per pair group (an ungrouped page is one set: every target is a candidate)
+        const gkey = (x) => (x.group == null ? '' : String(x.group));
+        const sets = {};
+        for (const it of b.items) (sets[gkey(it)] = sets[gkey(it)] || { items: [], ts: [] }).items.push(it);
+        for (const t of b.targets) if (sets[gkey(t)]) sets[gkey(t)].ts.push(t);
+        for (const { items, ts } of Object.values(sets)) {
+          if (ts.length < 2) continue;   // a group with one target is no choice
+          const io = readingOrder(items), to = readingOrder(ts);
+          const posI = new Map(io.map((j, k) => [j, k]));
+          items.forEach((it, j) => {
+            ask(b.pg, 1 / ts.length); const k = posI.get(j);
+            hit('as-shown', ts[to[k % ts.length]].id === it.answer, b.pg);
+            hit('reversed', ts[to[ts.length - 1 - (k % ts.length)]].id === it.answer, b.pg);
+            const row = ts.slice().sort((a, c) => Math.abs(a.y - it.y) - Math.abs(c.y - it.y))[0];
+            hit('same-row', row.id === it.answer, b.pg);
+            const near = ts.slice().sort((a, c) => Math.hypot(a.x - it.x, a.y - it.y) - Math.hypot(c.x - it.x, c.y - it.y))[0];
+            hit('nearest', near.id === it.answer, b.pg);
+          });
+        }
       }
     } else if (kind === 'place') {
       for (const b of list) {

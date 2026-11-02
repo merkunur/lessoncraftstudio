@@ -126,6 +126,8 @@ function record(types) {
       if (spec.unitAxis && spec.unitAxis.applicable) {
         const { unitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
+        // a unit drawn for one level (Color by Number's designs): the screen lists a page's level's units only
+        if (spec.unitAxis.levelOf) entry.unitLevels = Object.assign(entry.unitLevels || {}, Object.fromEntries(entry.units[loc].map((u) => [u.id, spec.unitAxis.levelOf(u.id)])));
       }
       (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
@@ -133,7 +135,7 @@ function record(types) {
     // answers — runtime.js keyMarks — or draws an example for the key)
     // per level: a level may have nothing to mark (K-438 level 1 prints the letters) — the switch is offered only there
     entry.keyLevels = entry.levels.filter((d) => {
-      try { return !!makePage({ type: spec, strings: withLevelInstruction(resolveStrings(spec.id, 'en', spec), spec.id, d, 'en'), locale: 'en', difficulty: d, theme: themes[0], unit: entry.units && entry.units.en && entry.units.en[0] ? entry.units.en[0].id : null, variant: 1, answerKey: true, answerKeySuffix: ANSWER_KEY.en }).keyHtml; } catch (e) { return false; }
+      try { return !!makePage({ type: spec, strings: withLevelInstruction(resolveStrings(spec.id, 'en', spec), spec.id, d, 'en'), locale: 'en', difficulty: d, theme: themes[0], unit: entry.units && entry.units.en ? ((entry.units.en.find((u) => !entry.unitLevels || entry.unitLevels[u.id] === d) || {}).id || null) : null, variant: 1, answerKey: true, answerKeySuffix: ANSWER_KEY.en }).keyHtml; } catch (e) { return false; }
     });
     entry.hasKey = entry.keyLevels.length > 0;
     // does a new copy (seed) change the page? Some templates are fixed by their settings (a sight word of the day is
@@ -142,8 +144,10 @@ function record(types) {
     try {
       const enS = resolveStrings(spec.id, 'en', spec);
       const th0 = themes[0];
-      const u0 = spec.unitAxis && spec.unitAxis.applicable ? (spec.unitAxis.units('en') || [])[0] : null;
-      entry.copiesDiffer = entry.levels.filter((d) => new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: enS, locale: 'en', difficulty: d, theme: th0, unit: u0, variant: v }).html)).size > 1);
+      const uAll = spec.unitAxis && spec.unitAxis.applicable ? (spec.unitAxis.units('en') || []) : [];
+      // the first unit of the level (a unit drawn for one level is asked for at that level only)
+      const u0 = (d) => (spec.unitAxis && spec.unitAxis.levelOf ? uAll.find((u) => spec.unitAxis.levelOf(u) === d) : uAll[0]) || null;
+      entry.copiesDiffer = entry.levels.filter((d) => new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: enS, locale: 'en', difficulty: d, theme: th0, unit: u0(d), variant: v }).html)).size > 1);
     } catch (e) { entry.copiesDiffer = entry.levels.slice(); }
     entry.themes = entry.themed ? themes : [];
     templates.push(entry);
@@ -282,9 +286,25 @@ async function main() {
   const allData = new Set();
   const report = [];
   const built = {};
+  const artData = new Set();   // ART files: copied with the data, never preloaded (fetched one picture at a time)
   for (const id of makers) {
-    const { types } = makerTypes(id);
+    const { types, maker: mk } = makerTypes(id);
     const rec = record(types);
+    // a picture family (topic-map `art`, 2026-11-02): its index is preloaded, every picture file is copied for the
+    // browser to fetch when a page draws it (lib/platform/browser.js LAZY + runtime.generate)
+    for (const art of (mk && mk.art) || []) {
+      // an entry may name the files a maker can reach (`{ dir, only: [module, fn] }`: Find the Differences ships the
+      // scenes its faces and Level Set copies use, not every scene in the folder)
+      const dirRel = typeof art === 'string' ? art : art.dir;
+      const abs = path.join(REPO, dirRel);
+      const only = typeof art === 'string' || !art.only ? null : new Set(require(path.join(REPO, art.only[0]))[art.only[1]]().map((id) => id + '.json'));
+      const files = fs.readdirSync(abs).filter((f) => f.endsWith('.json') && (!only || only.has(f) || f === 'index.json')).sort().map((f) => dirRel.replace(/\\/g, '/') + '/' + f);
+      const index = dirRel.replace(/\\/g, '/') + '/index.json';
+      // an index is optional (dot-to-dot has one; colour-by-number's designs are listed in code)
+      const hasIndex = files.includes(index);
+      rec.manifest.files = [...new Set(rec.manifest.files.filter((f) => !files.includes(f) || f === index).concat(hasIndex ? [index] : []))].sort();
+      files.filter((f) => f !== index).forEach((f) => artData.add(f));
+    }
     const tmp = path.join(OUT, id, '.build');
     fs.rmSync(tmp, { recursive: true, force: true });
     const meta = await bundle(id, rec.templates, tmp, rec.modules);
@@ -320,6 +340,7 @@ async function main() {
   }
   // data: vocab as JSON once, every other recorded file as is; versioned by content
   const vocab = require(path.join(REPO, 'scripts', 'publish-cli', 'deck-rich-alt.js')).loadVocab();
+  artData.forEach((f) => allData.add(f));
   const files = [...allData].sort();
   const blobs = files.map((f) => [f, f === 'REFERENCE TRANSLATIONS/image-vocabulary.json' ? JSON.stringify(vocab) : fs.readFileSync(path.join(REPO, f), 'utf8')]);
   const dv = sha(blobs.map(([f, c]) => f + '\0' + c).join('\0'));

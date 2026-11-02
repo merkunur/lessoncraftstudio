@@ -59,9 +59,9 @@ function settingsSpace(t, loc, { themes = 2, units = 2, copies = 4, levels = nul
     for (let k = 1; pick.length < themes && k < colour.length; k++) { const th = colour[(Math.round((k * colour.length) / themes) + sample) % colour.length]; if (!pick.includes(th)) pick.push(th); }
     ths = pick.length ? pick : [null];
   }
-  const all = t.units && t.units[loc] && t.units[loc].length ? t.units[loc] : null;
-  const us = all ? Array.from({ length: Math.min(units, all.length) }, (_, i) => all[(i + sample * units) % all.length].id) : [null];
-  for (const difficulty of lv) for (const theme of ths) for (const unit of us) {
+  // a unit drawn for one level (t.unitLevels: Color by Number's designs) is asked for at that level only (makers 2026-11-02)
+  const usAt = (d) => { const all = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return all.length ? Array.from({ length: Math.min(units, all.length) }, (_, i) => all[(i + sample * units) % all.length].id) : [null]; };
+  for (const difficulty of lv) for (const theme of ths) for (const unit of usAt(difficulty)) {
     const vs = (t.copiesDiffer || []).includes(difficulty) ? Array.from({ length: copies }, (_, i) => i + 1 + sample * copies) : [1];
     for (const variant of vs) out.push({ difficulty, theme, unit, variant });
   }
@@ -98,8 +98,9 @@ function buildDeclaredScreen(t, type, tj, loc, o) {
   const strings = stringsFor(t, type, loc, o.difficulty);
   // (a fresh-seed retry replaces the variant in the seed only — runtime.makePage's rule)
   const seed = instanceSeed({ typeId: type.id, theme: o.theme, difficulty: o.difficulty, seedEpoch: 1, variant: o.seedVariant || o.variant, unit: o.unit });
-  const base = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant });
-  const sc = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, interactive: true });
+  // the maker's builds carry slotsOut (a copy that picks its own unit — a pinned maze, a Level Set scene — picks it there)
+  const base = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), slotsOut: {} });
+  const sc = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), slotsOut: {}, interactive: true });
   if (JSON.stringify(sc.meta) !== JSON.stringify(base.meta)) throw new Error('the interactive build drew different content than the page');
   const pageSize = loc === 'en' ? 'letter' : 'a4';
   return { html: shellPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: sc.bodyHtml, locale: loc, pageSize, pageHeight: (type.interactive && type.interactive.screenHeight) || null }), seed };

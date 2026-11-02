@@ -149,7 +149,8 @@
   },
   "K-042": {
     "title": "Sortér dem",
-    "instruction": "Tegn en strek fra hvert bilde til kurven der det hører hjemme."
+    "instruction": "Trekk en strek fra hvert bilde til boksen der det hører hjemme.",
+    "printTitle": "Sorter riktig"
   },
   "K-043": {
     "title": "Hvilket er ulikt?",
@@ -459,7 +460,7 @@
   },
   "G1-160": {
     "title": "Tre grupper",
-    "instruction": "Tegn en strek fra hvert bilde til kurven der det hører hjemme."
+    "instruction": "Trekk en strek fra hvert bilde til boksen der det hører hjemme."
   },
   "G2-203": {
     "title": "Legg sammen klossene",
@@ -838,7 +839,7 @@
   },
   "K-203": {
     "title": "Sunn og usunn mat",
-    "instruction": "Trekk en strek fra hver matvare til gruppen den hører til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-204": {
     "title": "Kjæledyr og ville dyr",
@@ -846,7 +847,8 @@
   },
   "K-206": {
     "title": "Ting som kan fly",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til.",
+    "printTitle": "Hva kan fly?"
   },
   "K-207": {
     "title": "Sommerklær og vinterklær",
@@ -862,7 +864,8 @@
   },
   "K-210": {
     "title": "Transport på land, vann og i luft",
-    "instruction": "Trekk en strek fra hvert kjøretøy til der det ferdes."
+    "instruction": "Trekk en strek fra hvert fremkomstmiddel til der det ferdes.",
+    "printTitle": "Transport på land, på vann og i lufta"
   },
   "K-211": {
     "title": "Varmt og kaldt",
@@ -898,7 +901,8 @@
   },
   "G1-207": {
     "title": "De fire matvaregruppene",
-    "instruction": "Trekk en strek fra hver matvare til matvaregruppen sin."
+    "instruction": "Trekk en strek fra hver matvare til matvaregruppen sin.",
+    "printTitle": "Matvaregrupper"
   },
   "G1-203": {
     "title": "Livssyklusen til en høne",
@@ -910,7 +914,7 @@
   },
   "K-213": {
     "title": "Yrker og redskapene deres",
-    "instruction": "Trekk en strek fra hver yrkesperson til redskapet de bruker."
+    "instruction": "Trekk en strek fra hver yrkesperson til redskapet som hører til."
   },
   "K-221": {
     "title": "Førstelyd",
@@ -970,7 +974,7 @@
   },
   "K-235": {
     "title": "Sorter etter kategori",
-    "instruction": "Tegn en strek fra hvert bilde til gruppa det hører til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-236": {
     "title": "Blyantløyper",
@@ -3816,5 +3820,54 @@
   "K-470": {
     "title": "Bildepuslespill",
     "instruction": "Klipp ut brikkene. Lim hver brikke på riktig plass i rutenettet, så bildet blir helt igjen."
+  },
+  "G1-485": {
+    "title": "Sorter i to sirkler: former og farger",
+    "instruction": "Skriv nummeret til hver form på riktig plass. Venstre sirkel: formen som står over den. Høyre sirkel: fargen som står over den. Midten: begge deler. Rammen utenfor sirklene: ingen av delene."
+  },
+  "K-472": {
+    "title": "Sorter i to grupper",
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+  },
+  "K-473": {
+    "title": "Prikk til prikk: store bokstaver",
+    "instruction": "Start på den oransje prikken. Trekk strek fra prikk til prikk i alfabetisk rekkefølge, fra A til J."
+  },
+  "G1-486": {
+    "title": "Prikk til prikk med regnestykker",
+    "instruction": "Regn ut hvert regnestykke og skriv svaret. Start på den oransje prikken: det er svaret på regnestykke 1. Trekk strek til svaret på regnestykke 2, så regnestykke 3 og så videre."
+  },
+  "K-474": {
+    "title": "Fargelegg etter ord",
+    "instruction": "Les ordet i hver figur. Fargelegg figuren med fargen ordet har i koden øverst."
+  },
+  "K-475": {
+    "title": "Fargelegg etter førstelyd",
+    "instruction": "Si hva bildet i hver figur heter. Fargelegg figuren med fargen til bokstaven ordet begynner med."
+  },
+  "G3-478": {
+    "title": "Regn og fargelegg: ganging",
+    "instruction": "Regn ut gangestykket i hver figur. Fargelegg figuren med fargen svaret har i koden øverst."
+  },
+  "K-476": {
+    "title": "Fargeleggingsark",
+    "instruction": "Fargelegg tegningen."
+  },
+  "K-477": {
+    "title": "Fargelegg og spor ordet",
+    "instruction": "Fargelegg tegningen. Spor ordet."
+  },
+  "K-478": {
+    "title": "Fargelegg hele bildet",
+    "instruction": "Fargelegg alt på bildet."
+  },
+  "K-479": {
+    "title": "Fargelegg etter fargekoden",
+    "instruction": "Se på tallet ved hver tegning. Finn det i koden, og fargelegg tegningen med den fargen."
+  },
+  "K-480": {
+    "title": "Bildelabyrint: gå bare på dyrene",
+    "instruction": "Hjelp bonden fram til traktoren. Gå bare på dyrene.",
+    "printTitle": "Hjelp bonden fram til traktoren"
   }
 }

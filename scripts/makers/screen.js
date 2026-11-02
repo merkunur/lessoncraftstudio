@@ -144,8 +144,8 @@ function derive() {
     if (!badges.length || targets.length < 2) errors.push('pair: ' + badges.length + ' items with a badge and ' + targets.length + ' targets (need both)');
     else {
       const tIds = targets.map((t) => t.getAttribute('data-lcs-pair'));
-      const items = badges.map((el, i) => ({ ...box(el), id: el.hasAttribute('data-lcs-pair') ? el.getAttribute('data-lcs-pair') : 'i' + i, answer: el.getAttribute('data-lcs-key-badge'), label: label(el, String(i + 1)), meta: {} }));
-      const ts = targets.map((el, i) => ({ ...box(el), id: tIds[i], label: label(el, String(i + 1)) }));
+      const items = badges.map((el, i) => ({ ...box(el), id: el.hasAttribute('data-lcs-pair') ? el.getAttribute('data-lcs-pair') : 'i' + i, answer: el.getAttribute('data-lcs-key-badge'), label: label(el, String(i + 1)), group: el.getAttribute('data-lcs-pair-group'), meta: {} }));
+      const ts = targets.map((el, i) => ({ ...box(el), id: tIds[i], label: label(el, String(i + 1)), group: el.getAttribute('data-lcs-pair-group') }));
       items.forEach((it) => { seen.add(it); });
       parts.push({ cls: 'pair', items, targets: ts, mutual: badges.every((el) => el.hasAttribute('data-lcs-pair')), dom: Math.min(...items.map((it) => it.dom)) });
     }
@@ -284,7 +284,7 @@ async function buildScreen(o) {
 /* ---------- DECLARED screens (2026-11-01): a template whose module declares `interactive` ---------- */
 
 /** the declared kinds the maker builds in the browser (paint / trace / lanes need the catalogue's picture capture: later) */
-const DECLARED_KINDS = new Set(['tap-choice', 'tap-select', 'type-number', 'type-word', 'tap-spell', 'tap-place', 'mark-grid', 'set-clock']);
+const DECLARED_KINDS = new Set(['tap-choice', 'tap-select', 'type-number', 'type-word', 'tap-spell', 'tap-place', 'mark-grid', 'set-clock', 'tap-paint', 'trace-path']);
 
 /**
  * Runs INSIDE the declared screen build of the page (serialised: self-contained). The capture of
@@ -303,6 +303,46 @@ function deriveDeclared(sp) {
     return { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
   };
   const boxIn = (pg) => (r) => ({ x: ((r.left - pg.left) / pg.width) * 100, y: ((r.top - pg.top) / pg.height) * 100, w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
+  // PAINT (tap-paint, Color by Number pictures; makers 2026-11-02 — render-instance.js's capture): the page's own line
+  // drawing laid over the screen, the key's crayons the palette; items = the coloured parts with their colour
+  if (sp.kind === 'tap-paint') {
+    const pct = (r) => ({ x: (r.left - full.left) / full.width * 100, y: (r.top - full.top) / full.height * 100, w: r.width / full.width * 100, h: r.height / full.height * 100 });
+    const svg = D.querySelector('svg[data-lcs-prim="cbn-art"]');
+    if (!svg) return { errors: ['tap-paint: no cbn-art picture'] };
+    const items = [...svg.querySelectorAll('path[data-lcs-region]')].filter((p) => p.getAttribute('data-lcs-colour') !== 'none')
+      .map((p) => ({ region: +p.getAttribute('data-lcs-region'), answer: p.getAttribute('data-lcs-colour'), meta: { 'data-lcs-region': p.getAttribute('data-lcs-region') } }));
+    const crayons = [...D.querySelectorAll('[data-lcs-crayon]')].map((c) => ({ ...pct(c.getBoundingClientRect()), colour: c.getAttribute('data-lcs-crayon'), label: c.getAttribute('data-lcs-label') || '' }));
+    const clone = svg.cloneNode(true);
+    clone.removeAttribute('width'); clone.removeAttribute('height');
+    clone.querySelectorAll('[data-lcs-colour]').forEach((p) => p.removeAttribute('data-lcs-colour'));
+    const sb = svg.getBoundingClientRect(), fs = getComputedStyle(svg.parentElement);
+    const inner = Math.max(0, parseFloat(fs.borderTopLeftRadius) - parseFloat(fs.borderTopWidth));
+    const clip = inner > 0 ? { rx: +(inner / sb.width * 100).toFixed(3), ry: +(inner / sb.height * 100).toFixed(3) } : {};
+    return { errors: [], items, paint: { art: { ...pct(sb), ...clip, svg: clone.outerHTML }, crayons }, crop: full.height, width: full.width };
+  }
+  // TRACE (trace-path, the handmade mazes; render-instance.js's capture): the maze graph the page declares
+  // (data-lcs-hm-graph, body px) in % of the crop; each route's mouths become edges to a virtual start / goal
+  if (sp.kind === 'trace-path') {
+    const svg = D.querySelector('svg[data-lcs-prim="hm-scene"]');
+    if (!svg) return { errors: ['trace-path: no maze scene'] };
+    const r = svg.getBoundingClientRect(), vbw = svg.viewBox.baseVal.width, k = r.width / vbw;
+    const h = Math.min(full.height, r.bottom - full.top + 24);
+    const G = JSON.parse(svg.getAttribute('data-lcs-hm-graph'));
+    const P = (p) => [+(((r.left - full.left) + p[0] * k) / full.width * 100).toFixed(3), +(((r.top - full.top) + p[1] * k) / h * 100).toFixed(3)];
+    const nodes = G.nodes.map(P);
+    const edges = G.edges.map((e) => ({ a: e.a, b: e.b, pts: e.pts.map(P) }));
+    const RTs = G.routes || [{ route: G.route, s: G.s, g: G.g, start: G.mouths.start, goal: G.mouths.goal }];
+    const routes = RTs.map((rt) => {
+      const vS = nodes.length; nodes.push(P(rt.start[rt.start.length - 1])); edges.push({ a: vS, b: rt.s, pts: rt.start.slice().reverse().map(P) });
+      if (!rt.goal) return { start: vS, goal: rt.g, path: [vS].concat(rt.route) };
+      const vG = nodes.length; nodes.push(P(rt.goal[rt.goal.length - 1])); edges.push({ a: rt.g, b: vG, pts: rt.goal.map(P) });
+      return { start: vS, goal: vG, path: [vS].concat(rt.route, [vG]) };
+    });
+    const labels = G.labels ? G.labels.concat(nodes.slice(G.labels.length).map(() => null)) : null;
+    const trace = { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, hint: G.hint || null, ...(labels ? { labels, rule: G.rule } : {}) };
+    const items = routes.map((rt, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: rt.path.join('-') }));
+    return { errors: [], items, trace, crop: h, width: full.width };
+  }
   if (sp.kind === 'mark-grid') {
     const grids = [...D.querySelectorAll('[data-lcs-grid]')];
     if (!grids.length) return { errors: ['mark-grid: no grid on the page'] };
@@ -392,6 +432,8 @@ function declaredCtx(type, { theme, difficulty, locale }, got) {
     ...(got.clock ? { clock: got.clock } : {}),
     ...(got.grid ? { grid: got.grid } : {}),
     ...(got.picks ? { picks: got.picks } : {}),
+    ...(got.paint ? { paint: got.paint } : {}),
+    ...(got.trace ? { trace: got.trace } : {}),
     ...(typeof s.screenCtx === 'function' ? s.screenCtx(got.items) : {}),
   };
 }
@@ -426,7 +468,11 @@ async function buildDeclaredScreen(o) {
   const got = await page.evaluate(deriveDeclared, declaredSpec(o.type));
   if (got.errors && got.errors.length) { const e = new Error('screen: ' + got.errors.join('; ')); e.reasons = got.errors; throw e; }
   if (spec.kind === 'set-clock') got.clock = { aspect: got.aspect, names: spec.clockNames(o.locale) };
-  const ctx = declaredCtx(o.type, { theme: o.theme, difficulty: o.difficulty, locale: o.locale }, got);
+  // the crayons' colours (Color by Number's palette) and a maze's runtime words (Go back, Keep going …, in the page's
+  // language; a Level Set scene names its own item: the unit the page was drawn with)
+  if (got.paint) got.paint.hex = require('../worksheet-gen/lib/cbn-render.js').PALETTE;
+  if (got.trace && spec.chrome) got.trace.chrome = spec.chrome(o.locale, o.unit || null);
+  const ctx = { ...declaredCtx(o.type, { theme: o.theme, difficulty: o.difficulty, locale: o.locale }, got), ...(o.design ? { design: o.design } : {}) };   // a paint screen's oracle reads its design (the page's meta)
   let rt;
   try { rt = core.buildInteractive({ kind: spec.kind, locale: o.locale, strings: o.strings, items: got.items, ctx }); }
   catch (e) { const err = new Error('screen: ' + e.message); err.reasons = [e.message]; throw err; }

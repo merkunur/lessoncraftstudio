@@ -3816,5 +3816,13 @@
   "G1-484": {
     "title": "Desenhe a outra metade",
     "instruction": "Só metade do desenho está pronta. Desenhe a outra metade do outro lado da linha, como num espelho, quadradinho por quadradinho."
+  },
+  "K-469": {
+    "title": "Encontre a peça que falta",
+    "instruction": "Falta uma peça em cada figura. Circule a peça que se encaixa."
+  },
+  "K-470": {
+    "title": "Quebra-cabeça de figura",
+    "instruction": "Recorte as peças. Cole cada peça no lugar certo da malha para montar a figura de novo."
   }
 }

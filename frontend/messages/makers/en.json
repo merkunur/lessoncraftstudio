@@ -55,7 +55,8 @@
     "shapes-geometry": "Shapes & Geometry",
     "patterns": "Patterns",
     "number-tracing": "Number Tracing",
-    "symmetry-grids": "Symmetry & Grid Copy"
+    "symmetry-grids": "Symmetry & Grid Copy",
+    "same-different": "Same & Different"
   },
   "editTitle": "Edit the title",
   "editInstruction": "Edit the instruction",

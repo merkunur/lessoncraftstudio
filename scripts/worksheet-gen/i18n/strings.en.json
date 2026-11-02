@@ -3834,5 +3834,13 @@
   "G1-484": {
     "title": "Draw the Other Half",
     "instruction": "Only half of the picture is drawn. Draw the other half on the other side of the line so it mirrors the first half, square by square."
+  },
+  "K-469": {
+    "title": "Find the Missing Piece",
+    "instruction": "A piece of each picture is missing. Circle the piece that fits."
+  },
+  "K-470": {
+    "title": "Picture Puzzle",
+    "instruction": "Cut out the pieces. Glue each piece in its place on the grid so the picture is whole again."
   }
 }

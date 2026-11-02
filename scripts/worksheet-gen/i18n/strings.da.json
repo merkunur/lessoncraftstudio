@@ -3796,5 +3796,13 @@
   "G1-484": {
     "title": "Tegn den anden halvdel",
     "instruction": "Kun halvdelen af billedet er tegnet. Tegn den anden halvdel spejlvendt på den anden side af linjen, felt for felt."
+  },
+  "K-469": {
+    "title": "Find den manglende brik",
+    "instruction": "Der mangler en brik i hvert billede. Sæt ring om den brik, der passer."
+  },
+  "K-470": {
+    "title": "Billedpuslespil",
+    "instruction": "Klip brikkerne ud. Lim hver brik på sin plads i nettet, så billedet bliver helt igen."
   }
 }

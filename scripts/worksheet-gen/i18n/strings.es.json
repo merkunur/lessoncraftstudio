@@ -3801,5 +3801,13 @@
   "G1-484": {
     "title": "Dibuja la otra mitad",
     "instruction": "Solo está dibujada la mitad. Dibuja la otra mitad del otro lado de la línea, como en un espejo, cuadrito por cuadrito."
+  },
+  "K-469": {
+    "title": "Encuentra la pieza que falta",
+    "instruction": "A cada dibujo le falta una pieza. Encierra la pieza que va en el hueco."
+  },
+  "K-470": {
+    "title": "Rompecabezas de imagen",
+    "instruction": "Recorta las piezas. Pega cada pieza en su lugar en la cuadrícula para armar el dibujo otra vez."
   }
 }

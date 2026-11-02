@@ -3810,5 +3810,13 @@
   "G1-484": {
     "title": "Teken de andere helft",
     "instruction": "Maar de helft van het plaatje is getekend. Teken de andere helft gespiegeld aan de andere kant van de spiegellijn, hokje voor hokje."
+  },
+  "K-469": {
+    "title": "Zoek het ontbrekende stukje",
+    "instruction": "Bij elk plaatje ontbreekt een stukje. Omcirkel het stukje dat past."
+  },
+  "K-470": {
+    "title": "Plaatjespuzzel",
+    "instruction": "Knip de stukjes uit. Plak elk stukje op zijn plek in het rooster, zodat het plaatje weer heel is."
   }
 }

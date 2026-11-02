@@ -3777,5 +3777,13 @@
   "G1-484": {
     "title": "Rita andra halvan",
     "instruction": "Bara halva bilden är ritad. Rita den andra halvan spegelvänd på andra sidan linjen, ruta för ruta."
+  },
+  "K-469": {
+    "title": "Hitta biten som fattas",
+    "instruction": "Det fattas en bit i varje bild. Ringa in biten som passar."
+  },
+  "K-470": {
+    "title": "Bildpussel",
+    "instruction": "Klipp ut bitarna. Klistra varje bit på sin plats i rutnätet så att bilden blir hel igen."
   }
 }

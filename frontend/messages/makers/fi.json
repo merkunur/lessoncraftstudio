@@ -55,7 +55,8 @@
     "shapes-geometry": "Muodot ja geometria",
     "patterns": "Jonot ja säännönmukaisuudet",
     "number-tracing": "Lukujen kirjoittaminen",
-    "symmetry-grids": "Symmetria ja ruudukkopiirustus"
+    "symmetry-grids": "Symmetria ja ruudukkopiirustus",
+    "same-different": "Sama ja eri"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

@@ -55,7 +55,8 @@
     "shapes-geometry": "Forme e geometria",
     "patterns": "Sequenze",
     "number-tracing": "Scrivere i numeri",
-    "symmetry-grids": "Simmetria e copia sui quadretti"
+    "symmetry-grids": "Simmetria e copia sui quadretti",
+    "same-different": "Uguale e diverso"
   },
   "editTitle": "Modifica il titolo",
   "editInstruction": "Modifica la consegna",

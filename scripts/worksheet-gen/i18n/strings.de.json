@@ -3821,5 +3821,13 @@
   "G1-484": {
     "title": "Zeichne die andere Hälfte",
     "instruction": "Nur die Hälfte des Bildes ist gezeichnet. Zeichne die andere Hälfte spiegelbildlich auf der anderen Seite der Spiegelachse – Kästchen für Kästchen."
+  },
+  "K-469": {
+    "title": "Finde das fehlende Teil",
+    "instruction": "Bei jedem Bild fehlt ein Teil. Kreise das Teil ein, das passt."
+  },
+  "K-470": {
+    "title": "Bilderpuzzle",
+    "instruction": "Schneide die Teile aus. Klebe jedes Teil an seinen Platz im Gitter, bis das Bild wieder ganz ist."
   }
 }

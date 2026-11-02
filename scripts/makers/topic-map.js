@@ -264,7 +264,11 @@ const MAKERS = [
     fable: ['A colouring page of a teacher\'s own photo needs line art: is a browser edge-to-line-art conversion good enough for K-3, or do own uploads stay "as is" only?'],
   },
   // ───────────── VISUAL & SPATIAL ─────────────
-  { id: 'same-different', name: 'Same & Different, Shadows & Pairs', group: 'visual', families: ['visual-discrimination', 'visual-matching'], oldApps: ['odd-one-out', 'shadow-match', 'missing-pieces', 'grid-match', 'matching'], lang: 'none',
+  { id: 'same-different', name: 'Same & Different, Shadows & Pairs', group: 'visual', families: ['visual-discrimination', 'visual-matching'], oldApps: ['odd-one-out', 'shadow-match', 'missing-pieces', 'grid-match', 'matching'], oldAppTemplates: { 'odd-one-out': 'K-039', 'shadow-match': 'K-057', 'missing-pieces': 'K-469', 'grid-match': 'K-470', 'matching': 'K-058' }, lang: 'none',
+    // built 2026-11-02 (types/_shared/picture-pieces.js): K-469 Find the Missing Piece and K-470 Picture Puzzle (the cores of
+    // missing-pieces and grid-match). "Match the close-up" was built and WITHDRAWN: a detail's colours and shapes recur
+    // across a theme and the browser-safe data cannot prove one right answer. K-057 / K-063 / K-069 build synchronously
+    // on precomputed masks (lib/picture-masks.js); K-069's part is the drawing's own top, never a look-alike choice.
     settings: ['task: odd one out / twins / shadow / part-whole / mirror / match pairs', 'pictures or shapes', 'how close the distractors are'],
     newTemplates: [['Missing piece of the picture (grid-match / missing-pieces)', 'the two old apps\' core'], ['Match the picture to its close-up', 'detail recognition']],
     fable: ['Shadows/silhouettes and "find the different one" are generated from library art (image-cache/silhouette.js). For teacher photos: can silhouettes be made reliably in the browser (background removal)?'],

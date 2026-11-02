@@ -4662,5 +4662,20 @@
       "no": "I rutenettet til høyre er den øverste delen allerede fargelagt. Fargelegg rutene som mangler.",
       "fi": "Oikeanpuoleisessa ruudukossa kuvan yläosa on jo väritetty. Väritä puuttuvat ruudut."
     }
+  },
+  "K-469": {
+    "3": {
+      "en": "Two pieces of each picture are missing. Draw a line from each piece to its number.",
+      "de": "Bei jedem Bild fehlen zwei Teile. Verbinde jedes Teil mit seiner Nummer.",
+      "fr": "Il manque deux pièces à chaque image. Relie chaque pièce à son numéro.",
+      "es": "A cada dibujo le faltan dos piezas. Une cada pieza con su número.",
+      "pt": "Faltam duas peças em cada figura. Ligue cada peça ao seu número.",
+      "it": "In ogni disegno mancano due pezzi. Collega ogni pezzo al suo numero.",
+      "nl": "Bij elk plaatje ontbreken twee stukjes. Verbind elk stukje met zijn nummer.",
+      "sv": "Det fattas två bitar i varje bild. Dra ett streck från varje bit till dess nummer.",
+      "da": "Der mangler to brikker i hvert billede. Tegn en streg fra hver brik til dens nummer.",
+      "no": "Det mangler to brikker i hvert bilde. Trekk en strek fra hver brikke til nummeret sitt.",
+      "fi": "Jokaisesta kuvasta puuttuu kaksi palaa. Yhdistä jokainen pala oikeaan numeroon."
+    }
   }
 }

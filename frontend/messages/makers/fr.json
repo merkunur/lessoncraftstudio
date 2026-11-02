@@ -55,7 +55,8 @@
     "shapes-geometry": "Formes et géométrie",
     "patterns": "Suites logiques",
     "number-tracing": "Écrire les nombres",
-    "symmetry-grids": "Symétrie et reproduction sur quadrillage"
+    "symmetry-grids": "Symétrie et reproduction sur quadrillage",
+    "same-different": "Pareil et différent"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

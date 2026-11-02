@@ -555,7 +555,9 @@
       "strand": "Visual Perception",
       "worksheets": [
         "K-057",
-        "K-069"
+        "K-069",
+        "K-469",
+        "K-470"
       ],
       "verdict": "gap",
       "activities": [],

@@ -3811,5 +3811,13 @@
   "G1-484": {
     "title": "Dessine l'autre moitié",
     "instruction": "Seule la moitié du dessin est faite. Dessine l'autre moitié en miroir de l'autre côté de l'axe, case par case."
+  },
+  "K-469": {
+    "title": "Trouve la pièce manquante",
+    "instruction": "Il manque une pièce à chaque image. Entoure la pièce qui va dans le trou."
+  },
+  "K-470": {
+    "title": "Puzzle d'image",
+    "instruction": "Découpe les pièces. Colle chaque pièce à sa place sur le quadrillage pour reconstituer l'image."
   }
 }

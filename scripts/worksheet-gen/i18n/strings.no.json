@@ -3805,5 +3805,13 @@
   "G1-484": {
     "title": "Tegn den andre halvdelen",
     "instruction": "Bare halve bildet er tegnet. Tegn den andre halvdelen speilvendt på den andre siden av streken, rute for rute."
+  },
+  "K-469": {
+    "title": "Finn brikken som mangler",
+    "instruction": "Det mangler en brikke i hvert bilde. Ring rundt brikken som passer."
+  },
+  "K-470": {
+    "title": "Bildepuslespill",
+    "instruction": "Klipp ut brikkene. Lim hver brikke på riktig plass i rutenettet, så bildet blir helt igjen."
   }
 }

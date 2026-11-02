@@ -3792,5 +3792,13 @@
   "G1-484": {
     "title": "Disegna l'altra metà",
     "instruction": "È disegnata solo metà del disegno. Disegna l'altra metà a specchio dall'altra parte della linea, quadretto per quadretto."
+  },
+  "K-469": {
+    "title": "Trova il pezzo mancante",
+    "instruction": "In ogni disegno manca un pezzo. Cerchia il pezzo giusto."
+  },
+  "K-470": {
+    "title": "Puzzle dell'immagine",
+    "instruction": "Ritaglia i pezzi. Incolla ogni pezzo al suo posto nella griglia per ricomporre il disegno."
   }
 }

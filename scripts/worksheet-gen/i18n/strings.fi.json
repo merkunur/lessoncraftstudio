@@ -3787,5 +3787,13 @@
   "G1-484": {
     "title": "Piirrä toinen puoli",
     "instruction": "Kuvasta on piirretty vain puolet. Piirrä toinen puoli peilikuvana viivan toiselle puolelle ruutu ruudulta."
+  },
+  "K-469": {
+    "title": "Etsi puuttuva pala",
+    "instruction": "Jokaisesta kuvasta puuttuu pala. Ympyröi pala, joka sopii kuvaan."
+  },
+  "K-470": {
+    "title": "Kuvapalapeli",
+    "instruction": "Leikkaa palat irti. Liimaa jokainen pala oikealle paikalleen ruudukkoon, niin kuva on taas ehjä."
   }
 }

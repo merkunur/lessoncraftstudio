@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Lika och olika",
-    "instruction": "Tre bilder är lika. Ringa in den som är olik."
+    "instruction": "Titta på varje rad. Ringa in bilden som är annorlunda."
   },
   "K-040": {
     "title": "Bara de stora",
@@ -153,11 +153,13 @@
   },
   "K-043": {
     "title": "Vilken är olik?",
-    "instruction": "Titta på varje rad. Ringa in bilden som inte hör hemma."
+    "instruction": "Titta på varje rad. Ringa in bilden som inte hör hit.",
+    "printTitle": "Vilken är annorlunda?"
   },
   "K-044": {
     "title": "Hitta annan storlek",
-    "instruction": "Titta på varje rad. Ringa in den som har annan storlek."
+    "instruction": "Titta på varje rad. Ringa in den som har en annan storlek.",
+    "printTitle": "Vilken har en annan storlek?"
   },
   "K-046": {
     "title": "Vad kommer sen?",
@@ -205,7 +207,7 @@
   },
   "K-061": {
     "title": "Hitta skillnaderna",
-    "instruction": "Jämför de två bilderna. Ringa in vad som ändrats till höger."
+    "instruction": "Jämför de två bilderna. Ringa in det som har ändrats i bilden till höger."
   },
   "K-062": {
     "title": "Hitta tvillingarna",
@@ -265,7 +267,8 @@
   },
   "K-080": {
     "title": "Vilken figur är olik?",
-    "instruction": "Titta på varje rad. Ringa in figuren som inte hör hemma."
+    "instruction": "Titta på varje rad. Ringa in figuren som inte hör hit.",
+    "printTitle": "Vilken figur är annorlunda?"
   },
   "G1-101": {
     "title": "Addera bilderna",

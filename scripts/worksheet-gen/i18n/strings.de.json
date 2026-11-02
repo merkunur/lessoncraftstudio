@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Gleich und anders",
-    "instruction": "Drei Bilder sind gleich. Kreise das Bild ein, das anders ist."
+    "instruction": "Schau dir jede Reihe an. Kreise das Bild ein, das anders ist."
   },
   "K-040": {
     "title": "Nur die Großen",
@@ -3828,6 +3828,6 @@
   },
   "K-470": {
     "title": "Bilderpuzzle",
-    "instruction": "Schneide die Teile aus. Klebe jedes Teil an seinen Platz im Gitter, bis das Bild wieder ganz ist."
+    "instruction": "Schneide die Teile aus. Klebe jedes Teil in das richtige Feld im Raster, bis das Bild wieder ganz ist."
   }
 }

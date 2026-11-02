@@ -20,7 +20,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Find the Pairs',
-      instruction: 'Every picture has a twin. Draw a line between each pair.',
+      instruction: 'Every picture has a twin. Draw a line to join the two pictures in each pair.',
     },
   },
 

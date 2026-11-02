@@ -4665,17 +4665,17 @@
   },
   "K-469": {
     "3": {
-      "en": "Two pieces of each picture are missing. Draw a line from each piece to its number.",
-      "de": "Bei jedem Bild fehlen zwei Teile. Verbinde jedes Teil mit seiner Nummer.",
-      "fr": "Il manque deux pièces à chaque image. Relie chaque pièce à son numéro.",
-      "es": "A cada dibujo le faltan dos piezas. Une cada pieza con su número.",
-      "pt": "Faltam duas peças em cada figura. Ligue cada peça ao seu número.",
-      "it": "In ogni disegno mancano due pezzi. Collega ogni pezzo al suo numero.",
-      "nl": "Bij elk plaatje ontbreken twee stukjes. Verbind elk stukje met zijn nummer.",
-      "sv": "Det fattas två bitar i varje bild. Dra ett streck från varje bit till dess nummer.",
-      "da": "Der mangler to brikker i hvert billede. Tegn en streg fra hver brik til dens nummer.",
-      "no": "Det mangler to brikker i hvert bilde. Trekk en strek fra hver brikke til nummeret sitt.",
-      "fi": "Jokaisesta kuvasta puuttuu kaksi palaa. Yhdistä jokainen pala oikeaan numeroon."
+      "en": "Two pieces of each picture are missing. Draw a line from each number to the piece that fits.",
+      "de": "Bei jedem Bild fehlen zwei Teile. Verbinde jede Nummer mit dem passenden Teil.",
+      "fr": "Il manque deux pièces à chaque image. Relie chaque numéro à la pièce qui va dans le trou.",
+      "es": "A cada dibujo le faltan dos piezas. Une cada número con la pieza que va ahí.",
+      "pt": "Faltam duas peças em cada figura. Ligue cada número à peça que se encaixa.",
+      "it": "In ogni disegno mancano due pezzi. Collega ogni numero al pezzo giusto.",
+      "nl": "Bij elk plaatje ontbreken twee stukjes. Verbind elk nummer met het stukje dat past.",
+      "sv": "Det fattas två bitar i varje bild. Dra ett streck från varje nummer till biten som passar.",
+      "da": "Der mangler to brikker i hvert billede. Tegn en streg fra hvert nummer til den brik, der passer.",
+      "no": "Det mangler to brikker i hvert bilde. Tegn en strek fra hvert nummer til brikken som passer.",
+      "fi": "Jokaisesta kuvasta puuttuu kaksi palaa. Yhdistä jokainen numero palaan, joka sopii kuvaan."
     }
   }
 }

@@ -3,7 +3,35 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** B2 in ARCHITECTURE §14 order — Patterns: build + gate (code, text and review done, see below), then number-tracing, symmetry-grids; S6; B3–B7 (health-safety is NOT built: operator 2026-11-02). Live republish fix1102 (K-035/036/037, K-040, G2-236, G1-140, G1-149, G2-250, G3-355) is regenerated → compare, apply, upload, run, restore injections, clean. Tasks 7–10 (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents, my own Opus 5.5 agent only when needed, one at a time. Owed at the release only: the five release steps of task 3.
+**NEXT:** B3 in ARCHITECTURE §14 order — Same & Different: build + gate (code, text done; native review running), then sorting, dot-to-dot, color-by-number, coloring-pages, mazes, find-the-differences, how-to-draw, picture-tracing (logic-puzzles is built); then B4–B7 (health-safety is NOT built: operator 2026-11-02). S6 was done 2026-11-01 (task 5). Live republish queue: fix1104 (digit 8, 858) and fix1105 (pattern rows, 121) running on the server; fix1107 (symmetry exact mirror + grid/symmetry text, 110) and fix1108 (K-063 / K-069, 44) uploaded, run after; fix1106 (traced j, 2,214) regenerating locally → compare --keep-all, upload, run. After each: restore injections, clean server + local. Tasks 7–10 are built by the main session when their makers come up — NO Fable agents.
+
+## B2 (end): Number Tracing, Symmetry & Grid Copy; B3 start: Same & Different (2026-11-02; commits `758df5bed`, `0db8c267f`, `1ab7f8762`, `e937d5a71`, `599cf9f4b`)
+
+**Number Tracing** (K-467 trace and count, K-468 number words). Review applied ×11. Digit 8 now starts at the top (it
+started at the crossing): 858 live pages regenerated (fix1104). K-237 / K-249–253 are their own key (NO_KEY);
+K-252 / K-253 verify uses `page.evaluate`, not puppeteer's `page.$` (the maker runtime has no `$`).
+
+**Stroke font:** a j's hook tucks under the letter before it ("vi jf", "nel jä" on live pages). verify-letter-strokes
+measures letter BODIES (it measured whole ink and passed the gap). `tools/impact-scan.js` rebuilds each live deck's page
+(no browser) with a probe to find the decks a vector-only change reaches: 2,214 decks with a j inside a word (fix1106).
+
+**Patterns:** rows that overflowed now shrink or stack the choices under the sequence (the choices covered the "?" on
+live K-047/K-048/G1-155 — fix1105); K-465 screen choices 92 px, two wagons a row; G1-155 pair ids = the numbers its key
+prints in the boxes.
+
+**Shapes & Geometry:** K-464 counts spread (a third of the answers were 1): second pieces where a kind is alone, dealt
+targets, the level max enforced (robot/castle/snowman from level 2), the key in a dealt order. G3-475 hours never equal
+their card number. G3-356 quarter-hour minutes exempt with reason.
+
+**Symmetry & Grid Copy** (G2-479 two mirror lines, G1-484 draw the other half on how-to-draw line art). sym-grid
+mirrors EXACTLY across the drawn line (the published pages needed a column the grid did not have — fix1107, with the
+native review's instruction fixes ×11). Faces got real levels; grid-copy arrow fits or is dropped; five new 7×7 pictures.
+
+**Same & Different** (in progress): K-469 Find the Missing Piece, K-470 Picture Puzzle; "match the close-up" WITHDRAWN
+(no browser-safe proof of one answer). K-057 / K-063 / K-069 synchronous on `data/picture-masks.json`
+(`tools/build-picture-masks.js`, `lib/picture-masks.js`); K-069 part = the drawing's own top, look-alike choices refused
+(the shapes theme had two right answers — fix1108); K-063's upside-down choice is a half turn (a vertical flip is a
+mirror image too — fix1108).
 
 ## B2: Telling Time, Measurement, Graphs & Data, Shapes & Geometry, Patterns (2026-11-02; commits `cd8434375`, `f16580560`)
 

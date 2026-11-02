@@ -143,7 +143,7 @@
   },
   "K-039": {
     "title": "Pareil et différent",
-    "instruction": "Trois images sont pareilles. Entoure celle qui est différente."
+    "instruction": "Regarde chaque rangée. Entoure l'image qui est différente."
   },
   "K-040": {
     "title": "Les grands seulement",
@@ -159,7 +159,7 @@
   },
   "K-044": {
     "title": "La taille différente",
-    "instruction": "Regarde chaque rangée. Entoure celui qui a une taille différente."
+    "instruction": "Regarde chaque rangée. Entoure l'image qui n'a pas la même taille."
   },
   "K-046": {
     "title": "Qu'est-ce qui suit ?",
@@ -195,7 +195,7 @@
   },
   "K-058": {
     "title": "Trouver les paires",
-    "instruction": "Chaque image a un jumeau. Trace un trait entre chaque paire."
+    "instruction": "Chaque image a sa jumelle. Relie les deux images de chaque paire."
   },
   "K-059": {
     "title": "Trouver et entourer",
@@ -215,7 +215,7 @@
   },
   "K-063": {
     "title": "Miroir, miroir",
-    "instruction": "Entoure l'image qui montre le reflet du miroir."
+    "instruction": "Entoure l'image qui montre le reflet dans le miroir."
   },
   "K-064": {
     "title": "Sur, sous, à côté",
@@ -260,7 +260,7 @@
   },
   "K-078": {
     "title": "Formes jumelles",
-    "instruction": "Chaque forme a un jumeau. Trace un trait entre chaque paire."
+    "instruction": "Chaque forme a sa jumelle. Relie les deux formes de chaque paire."
   },
   "K-079": {
     "title": "Grandes et petites formes",
@@ -3817,7 +3817,7 @@
     "instruction": "Il manque une pièce à chaque image. Entoure la pièce qui va dans le trou."
   },
   "K-470": {
-    "title": "Puzzle d'image",
+    "title": "Puzzle à découper",
     "instruction": "Découpe les pièces. Colle chaque pièce à sa place sur le quadrillage pour reconstituer l'image."
   }
 }

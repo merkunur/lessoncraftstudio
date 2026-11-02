@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Igual e diferente",
-    "instruction": "Três figuras são iguais. Circule a que é diferente."
+    "instruction": "Olhe cada fileira. Circule a figura que é diferente."
   },
   "K-040": {
     "title": "Só os grandes",
@@ -193,7 +193,7 @@
   },
   "K-058": {
     "title": "Ache os pares",
-    "instruction": "Cada figura tem um par. Ligue um par ao outro."
+    "instruction": "Cada figura tem um par. Ligue as duas figuras de cada par."
   },
   "K-059": {
     "title": "Ache e circule",
@@ -209,7 +209,7 @@
   },
   "K-062": {
     "title": "Ache os gêmeos",
-    "instruction": "Duas figuras são exatamente iguais. Ache as duas e circule."
+    "instruction": "Duas figuras são exatamente iguais. Encontre as duas e circule-as."
   },
   "K-063": {
     "title": "Espelho, espelho meu",
@@ -258,7 +258,7 @@
   },
   "K-078": {
     "title": "Formas gêmeas",
-    "instruction": "Cada forma tem um par. Ligue um par ao outro."
+    "instruction": "Cada forma tem um par. Ligue as duas formas de cada par."
   },
   "K-079": {
     "title": "Formas grandes e pequenas",

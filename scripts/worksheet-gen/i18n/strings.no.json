@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Likt og ulikt",
-    "instruction": "Tre bilder er like. Sett ring rundt det som er ulikt."
+    "instruction": "Se på hver rad. Sett ring rundt bildet som er annerledes."
   },
   "K-040": {
     "title": "Bare de store",
@@ -153,11 +153,13 @@
   },
   "K-043": {
     "title": "Hvilket er ulikt?",
-    "instruction": "Se på hver rad. Sett ring rundt bildet som ikke passer."
+    "instruction": "Se på hver rad. Sett ring rundt bildet som ikke passer.",
+    "printTitle": "Hvilket passer ikke inn?"
   },
   "K-044": {
     "title": "Finn ulik størrelse",
-    "instruction": "Se på hver rad. Sett ring rundt det som har ulik størrelse."
+    "instruction": "Se på hver rad. Sett ring rundt det som har en annen størrelse.",
+    "printTitle": "Hvilket har en annen størrelse?"
   },
   "K-046": {
     "title": "Hva kommer etter?",
@@ -265,7 +267,8 @@
   },
   "K-080": {
     "title": "Hvilken figur er ulik?",
-    "instruction": "Se på hver rad. Sett ring rundt figuren som ikke passer."
+    "instruction": "Se på hver rad. Sett ring rundt figuren som ikke passer.",
+    "printTitle": "Hvilken figur passer ikke inn?"
   },
   "G1-101": {
     "title": "Legg sammen bildene",
@@ -3808,7 +3811,7 @@
   },
   "K-469": {
     "title": "Finn brikken som mangler",
-    "instruction": "Det mangler en brikke i hvert bilde. Ring rundt brikken som passer."
+    "instruction": "Det mangler en brikke i hvert bilde. Sett ring rundt brikken som passer."
   },
   "K-470": {
     "title": "Bildepuslespill",

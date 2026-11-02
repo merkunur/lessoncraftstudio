@@ -144,7 +144,7 @@
   },
   "K-039": {
     "title": "Igual y diferente",
-    "instruction": "Tres dibujos son iguales. Rodea el que es diferente."
+    "instruction": "Mira cada fila. Encierra el dibujo que es diferente."
   },
   "K-040": {
     "title": "Solo los grandes",
@@ -156,11 +156,12 @@
   },
   "K-043": {
     "title": "¿Cuál es diferente?",
-    "instruction": "Mira cada fila. Rodea el dibujo que no pertenece."
+    "instruction": "Mira cada fila. Encierra el dibujo que no va con los demás."
   },
   "K-044": {
     "title": "Halla el tamaño diferente",
-    "instruction": "Mira cada fila. Rodea el que tiene un tamaño diferente."
+    "instruction": "Mira cada fila. Encierra el que tiene un tamaño diferente.",
+    "printTitle": "Encuentra el tamaño diferente"
   },
   "K-046": {
     "title": "¿Qué sigue?",
@@ -196,7 +197,8 @@
   },
   "K-058": {
     "title": "Halla las parejas",
-    "instruction": "Cada dibujo tiene su gemelo. Une cada pareja con una línea."
+    "instruction": "Cada dibujo tiene su gemelo. Une cada pareja con una línea.",
+    "printTitle": "Encuentra las parejas"
   },
   "K-059": {
     "title": "Halla y rodea",
@@ -208,15 +210,17 @@
   },
   "K-061": {
     "title": "Halla las diferencias",
-    "instruction": "Compara los dos dibujos. Rodea lo que cambió a la derecha."
+    "instruction": "Compara los dos dibujos. Encierra lo que cambió a la derecha.",
+    "printTitle": "Encuentra las diferencias"
   },
   "K-062": {
     "title": "Halla los gemelos",
-    "instruction": "Dos dibujos son exactamente iguales. Hállalos y rodea los dos."
+    "instruction": "Dos dibujos son exactamente iguales. Encuéntralos y enciérralos.",
+    "printTitle": "Encuentra los gemelos"
   },
   "K-063": {
     "title": "Espejito, espejito",
-    "instruction": "Rodea el dibujo que muestra la imagen en el espejo."
+    "instruction": "Encierra el dibujo que muestra la imagen en el espejo."
   },
   "K-064": {
     "title": "Encima, debajo, al lado",
@@ -240,7 +244,7 @@
   },
   "K-069": {
     "title": "¿Qué es?",
-    "instruction": "Solo se ve una parte del dibujo. Rodea el dibujo entero al que pertenece."
+    "instruction": "Solo se ve una parte del dibujo. Encierra el dibujo entero al que pertenece."
   },
   "K-070": {
     "title": "Caza de figuras",
@@ -268,7 +272,7 @@
   },
   "K-080": {
     "title": "¿Qué figura es diferente?",
-    "instruction": "Mira cada fila. Rodea la figura que no pertenece."
+    "instruction": "Mira cada fila. Encierra la figura que no va con las demás."
   },
   "G1-101": {
     "title": "Suma los dibujos",

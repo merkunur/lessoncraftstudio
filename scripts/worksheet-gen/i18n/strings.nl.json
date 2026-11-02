@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Gelijk en anders",
-    "instruction": "Drie plaatjes zijn gelijk. Omcirkel het plaatje dat anders is."
+    "instruction": "Kijk naar elke rij. Omcirkel het plaatje dat anders is."
   },
   "K-040": {
     "title": "Alleen de grote",
@@ -157,7 +157,8 @@
   },
   "K-044": {
     "title": "Vind het andere formaat",
-    "instruction": "Kijk naar elke rij. Omcirkel degene met een ander formaat."
+    "instruction": "Kijk naar elke rij. Omcirkel het plaatje met een andere grootte.",
+    "printTitle": "Zoek de andere grootte"
   },
   "K-046": {
     "title": "Wat komt erna?",
@@ -193,7 +194,8 @@
   },
   "K-058": {
     "title": "Vind de paren",
-    "instruction": "Elk plaatje heeft een tweeling. Trek een lijn tussen elk paar."
+    "instruction": "Elk plaatje heeft een tweeling. Verbind de twee plaatjes van elk paar met een lijn.",
+    "printTitle": "Zoek de paren"
   },
   "K-059": {
     "title": "Vinden en omcirkelen",
@@ -209,7 +211,8 @@
   },
   "K-062": {
     "title": "Vind de tweelingen",
-    "instruction": "Twee plaatjes zijn precies gelijk. Vind ze en omcirkel ze allebei."
+    "instruction": "Twee plaatjes zijn precies gelijk. Zoek ze en omcirkel ze allebei.",
+    "printTitle": "Zoek de tweelingen"
   },
   "K-063": {
     "title": "Spiegeltje, spiegeltje",
@@ -257,7 +260,7 @@
   },
   "K-078": {
     "title": "Vormtweelingen",
-    "instruction": "Elke vorm heeft een tweeling. Trek een lijn tussen elk paar."
+    "instruction": "Elke vorm heeft een tweeling. Verbind de twee vormen van elk paar met een lijn."
   },
   "K-079": {
     "title": "Grote en kleine vormen",

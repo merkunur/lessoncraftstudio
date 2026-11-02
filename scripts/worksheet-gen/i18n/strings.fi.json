@@ -142,7 +142,7 @@
   },
   "K-039": {
     "title": "Sama ja erilainen",
-    "instruction": "Kolme kuvaa on samanlaista. Ympyröi se, joka on erilainen."
+    "instruction": "Katso jokaista riviä. Ympyröi kuva, joka on erilainen."
   },
   "K-040": {
     "title": "Vain isot",
@@ -158,7 +158,8 @@
   },
   "K-044": {
     "title": "Etsi eri kokoinen",
-    "instruction": "Katso jokaista riviä. Ympyröi se, joka on eri kokoinen."
+    "instruction": "Katso jokaista riviä. Ympyröi se, joka on erikokoinen.",
+    "printTitle": "Etsi erikokoinen"
   },
   "K-046": {
     "title": "Mikä tulee seuraavaksi?",
@@ -210,7 +211,7 @@
   },
   "K-062": {
     "title": "Etsi kaksoset",
-    "instruction": "Kaksi kuvaa on aivan samanlaista. Etsi ne ja ympyröi molemmat."
+    "instruction": "Kaksi kuvaa on aivan samanlaisia. Etsi ne ja ympyröi molemmat."
   },
   "K-063": {
     "title": "Peili, peili",

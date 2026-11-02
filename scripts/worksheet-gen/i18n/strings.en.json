@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Same and Different",
-    "instruction": "Three pictures are the same. Circle the one that is different."
+    "instruction": "Look at each row. Circle the picture that is different."
   },
   "K-040": {
     "title": "Big Ones Only",
@@ -193,7 +193,7 @@
   },
   "K-058": {
     "title": "Find the Pairs",
-    "instruction": "Every picture has a twin. Draw a line between each pair."
+    "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair."
   },
   "K-059": {
     "title": "Find and Circle",
@@ -257,7 +257,7 @@
   },
   "K-078": {
     "title": "Shape Twins",
-    "instruction": "Every shape has a twin. Draw a line between each pair."
+    "instruction": "Every shape has a twin. Draw a line to join the two shapes in each pair."
   },
   "K-079": {
     "title": "Big Shapes, Small Shapes",

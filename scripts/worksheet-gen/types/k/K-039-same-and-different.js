@@ -9,7 +9,7 @@ module.exports = makeOddOneOutType({
   i18n: {
     en: {
       title: 'Same and Different',
-      instruction: 'Three pictures are the same. Circle the one that is different.',
+      instruction: 'Look at each row. Circle the picture that is different.',
     },
   },
 });

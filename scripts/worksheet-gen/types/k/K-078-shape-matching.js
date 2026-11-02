@@ -4,5 +4,5 @@ const { withFixedTheme } = require('../_shared/fixed-theme.js');
 const pairs = require('./K-058-match-identical-pairs.js');
 module.exports = Object.assign(Object.create(withFixedTheme(pairs, 'shapes')), {
   id: 'K-078', slug: '2d-shapes-matching',
-  i18n: { en: { title: 'Shape Twins', instruction: 'Every shape has a twin. Draw a line between each pair.' } },
+  i18n: { en: { title: 'Shape Twins', instruction: 'Every shape has a twin. Draw a line to join the two shapes in each pair.' } },
 });

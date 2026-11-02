@@ -141,7 +141,7 @@
   },
   "K-039": {
     "title": "Ens og forskellig",
-    "instruction": "Tre billeder er ens. Indkreds det, der er forskelligt."
+    "instruction": "Se på hver række. Sæt ring om billedet, der er anderledes."
   },
   "K-040": {
     "title": "Kun de store",
@@ -153,11 +153,11 @@
   },
   "K-043": {
     "title": "Hvilken passer ikke?",
-    "instruction": "Se på hver række. Indkreds billedet, der ikke hører til."
+    "instruction": "Se på hver række. Sæt ring om billedet, der ikke hører til."
   },
   "K-044": {
     "title": "Find den anden størrelse",
-    "instruction": "Se på hver række. Indkreds den, der har en anden størrelse."
+    "instruction": "Se på hver række. Sæt ring om den, der har en anden størrelse."
   },
   "K-046": {
     "title": "Hvad kommer nu?",
@@ -205,15 +205,15 @@
   },
   "K-061": {
     "title": "Find forskellene",
-    "instruction": "Sammenlign de to billeder. Indkreds, hvad der er ændret til højre."
+    "instruction": "Sammenlign de to billeder. Sæt ring om det, der er ændret til højre."
   },
   "K-062": {
     "title": "Find tvillingerne",
-    "instruction": "To billeder er helt ens. Find dem, og indkreds dem begge."
+    "instruction": "To billeder er helt ens. Find dem, og sæt ring om dem begge."
   },
   "K-063": {
     "title": "Spejl, spejl",
-    "instruction": "Indkreds billedet, der viser spejlbilledet."
+    "instruction": "Sæt ring om billedet, der viser spejlbilledet."
   },
   "K-064": {
     "title": "På, under, ved siden af",
@@ -237,7 +237,7 @@
   },
   "K-069": {
     "title": "Hvad er det?",
-    "instruction": "Kun en del af billedet ses. Indkreds det hele billede, det hører til."
+    "instruction": "Kun en del af billedet ses. Sæt ring om hele billedet, som delen hører til."
   },
   "K-070": {
     "title": "Figurjagt",
@@ -265,7 +265,7 @@
   },
   "K-080": {
     "title": "Hvilken figur passer ikke?",
-    "instruction": "Se på hver række. Indkreds figuren, der ikke hører til."
+    "instruction": "Se på hver række. Sæt ring om figuren, der ikke hører til."
   },
   "G1-101": {
     "title": "Læg billederne sammen",

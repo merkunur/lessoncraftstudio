@@ -143,7 +143,7 @@
   },
   "K-039": {
     "title": "Uguale e diverso",
-    "instruction": "Tre immagini sono uguali. Cerchia quella diversa."
+    "instruction": "Guarda ogni fila. Cerchia l'immagine diversa."
   },
   "K-040": {
     "title": "Solo i grandi",
@@ -155,11 +155,12 @@
   },
   "K-043": {
     "title": "Quale è diverso?",
-    "instruction": "Guarda ogni fila. Cerchia l'immagine che non c'entra."
+    "instruction": "Guarda ogni fila. Cerchia l'immagine che non c'entra.",
+    "printTitle": "Qual è diverso?"
   },
   "K-044": {
     "title": "Trova la grandezza diversa",
-    "instruction": "Guarda ogni fila. Cerchia quello di grandezza diversa."
+    "instruction": "Guarda ogni fila. Cerchia l'immagine di grandezza diversa."
   },
   "K-046": {
     "title": "Cosa viene dopo?",
@@ -195,7 +196,7 @@
   },
   "K-058": {
     "title": "Trova le coppie",
-    "instruction": "Ogni immagine ha un gemello. Collega ogni coppia con una linea."
+    "instruction": "Ogni immagine ha la sua gemella. Collega ogni coppia con una linea."
   },
   "K-059": {
     "title": "Trova e cerchia",
@@ -207,7 +208,7 @@
   },
   "K-061": {
     "title": "Trova le differenze",
-    "instruction": "Confronta le due immagini. Cerchia cosa è cambiato a destra."
+    "instruction": "Confronta le due immagini. Cerchia ciò che è cambiato nell'immagine a destra."
   },
   "K-062": {
     "title": "Trova i gemelli",
@@ -239,7 +240,8 @@
   },
   "K-069": {
     "title": "Cosa è?",
-    "instruction": "Si vede solo una parte. Cerchia l'immagine intera a cui appartiene."
+    "instruction": "Si vede solo una parte. Cerchia l'immagine intera a cui appartiene.",
+    "printTitle": "Cos'è?"
   },
   "K-070": {
     "title": "Caccia alle forme",
@@ -260,7 +262,7 @@
   },
   "K-078": {
     "title": "Forme gemelle",
-    "instruction": "Ogni forma ha un gemello. Collega ogni coppia con una linea."
+    "instruction": "Ogni forma ha la sua gemella. Collega ogni coppia con una linea."
   },
   "K-079": {
     "title": "Forme grandi e piccole",

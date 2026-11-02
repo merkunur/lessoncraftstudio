@@ -4761,5 +4761,35 @@
       "no": "Fargelegg hver tegning. Spor hvert ord, og skriv det så på den tomme linjen.",
       "fi": "Väritä jokainen kuva. Kirjoita sen nimi katkoviivoja pitkin ja sitten itse tyhjälle viivalle."
     }
+  },
+  "K-481": {
+    "3": {
+      "en": "Cut out each shape along the dashed line. Start at the scissors.",
+      "de": "Schneide jede Form an der gestrichelten Linie aus. Fang bei der Schere an.",
+      "fr": "Découpe chaque forme en suivant les pointillés. Pars des ciseaux.",
+      "es": "Recorta cada figura por la línea punteada. Empieza en las tijeras.",
+      "pt": "Recorte cada forma pela linha tracejada. Comece na tesoura.",
+      "it": "Ritaglia ogni forma lungo la linea tratteggiata. Comincia dalle forbici.",
+      "nl": "Knip elke vorm uit langs de stippellijn. Begin bij de schaar.",
+      "sv": "Klipp ut varje form längs den streckade linjen. Börja vid saxen.",
+      "da": "Klip hver figur ud langs den stiplede streg. Begynd ved saksen.",
+      "no": "Klipp ut hver figur langs den stiplede linjen. Begynn ved saksen.",
+      "fi": "Leikkaa jokainen muoto irti katkoviivaa pitkin. Aloita saksista."
+    }
+  },
+  "K-482": {
+    "3": {
+      "en": "Look at the line in each row. On the empty dots beside it, find the dot where it starts, then draw the same line.",
+      "de": "Schau dir in jeder Reihe die Linie an. Suche auf den leeren Punkten daneben den Punkt, an dem sie anfängt, und zeichne dieselbe Linie.",
+      "fr": "Regarde la ligne de chaque rangée. Sur les points à côté, trouve le point où elle commence, puis trace la même ligne.",
+      "es": "Mira la línea de cada fila. En los puntos vacíos de al lado, busca el punto donde empieza y dibuja la misma línea.",
+      "pt": "Observe a linha de cada fileira. Nos pontos vazios ao lado, encontre o ponto onde ela começa e desenhe a mesma linha.",
+      "it": "Guarda la linea in ogni riga. Sui puntini vuoti accanto, trova il puntino da cui comincia, poi disegna la stessa linea.",
+      "nl": "Kijk naar de lijn in elke rij. Zoek op de lege stippen ernaast de stip waar hij begint en teken dezelfde lijn.",
+      "sv": "Titta på linjen i varje rad. Hitta startpricken bland de tomma prickarna bredvid och rita samma linje.",
+      "da": "Se på stregen i hver række. Find startprikken blandt de tomme prikker ved siden af, og tegn den samme streg.",
+      "no": "Se på streken i hver rad. Finn startprikken blant de tomme prikkene ved siden av, og tegn den samme streken.",
+      "fi": "Katso jokaisen rivin viivaa. Etsi viereisistä tyhjistä pisteistä piste, josta viiva alkaa, ja piirrä sama viiva."
+    }
   }
 }

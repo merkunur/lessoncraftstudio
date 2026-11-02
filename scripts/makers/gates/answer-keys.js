@@ -58,6 +58,20 @@ const NO_KEY = {
   'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',
   // Coloring Pages (2026-11-02): colouring is open — any colours are right; K-477's word is printed to trace; K-479's key
   // may be the teacher's own ("your favourite colour"), so no page of it can be marked
+  // How to Draw (2026-11-02): the child's own drawing — nothing to mark (Order the Steps G1-418 has its key: the order)
+  'K-396': 'a drawing page: the child draws the picture', 'K-401': 'a drawing page: the child draws the picture', 'K-402': 'a drawing page: trace, then draw', 'K-403': 'a drawing page: the child finishes the picture',
+  'K-404': 'a drawing page: draw, then copy the printed word', 'G1-416': 'a drawing page: draw with the grid', 'G1-417': 'a drawing page: draw the picture into the scene', 'G1-419': 'a drawing page: copy each step',
+  'G2-390': 'a drawing page: draw, then write freely about it', 'G2-391': 'a drawing page: draw from memory',
+  // Picture Tracing (2026-11-02): tracing pages — nothing to mark (Trace and Count K-427, the shape picture K-430 and the
+  // hidden animals G1-433 have their keys: the count, the circles, the five animals)
+  'K-418': 'a tracing page: trace the dashed lines', 'K-419': 'a tracing page: trace the dashed lines', 'K-420': 'a tracing page: look, then trace',
+  'K-421': 'a tracing page: trace the round lines', 'K-422': 'a tracing page: trace the straight lines', 'K-423': 'a tracing page: trace the zigzags',
+  'K-424': 'a tracing page: trace the curls and spirals', 'K-425': 'trace and colour: any colours are right', 'K-426': 'a tracing page: start at the dot and trace',
+  'K-428': 'a tracing page: the missing parts are dashed to trace', 'K-429': 'a tracing page: trace the dashed lines', 'K-431': 'a tracing page: trace the dashed lines',
+  'K-432': 'a tracing page: trace big, middle, small', 'G1-429': 'a tracing page: trace the dotted lines', 'G1-430': 'a tracing page: the word to trace is printed under the picture',
+  'G1-431': 'trace, then draw freely in the empty space', 'G1-432': 'a tracing page: the other half is dashed to trace',
+  // Pencil Control Lines (2026-11-02): cutting and stroke tracing — nothing to mark (K-482 draws its key: the copied line)
+  'K-481': 'cutting practice: the child cuts along the lines', 'K-483': 'a tracing page: trace the letter strokes',
   'K-476': 'a coloring page: any colours are right', 'K-477': 'color and trace: the word to trace is printed on the page',
   'K-478': 'a scene to color: any colours are right', 'K-479': 'color by the key: an open key the teacher may write herself',
 };

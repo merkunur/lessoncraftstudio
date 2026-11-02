@@ -123,7 +123,9 @@ function record(types) {
       if (!ok) continue;
       entry.locales.push(loc);
       // a template's own axis (the sight word of the page …): the values a teacher may pick, per locale
-      if (spec.unitAxis && spec.unitAxis.applicable) {
+      // (unitAxis.makerCopies: no list — a copy picks its own unit, a published scene first, then the Level Set's:
+      // Find the Differences, How to Draw; a list would offer a drawing the face cannot use)
+      if (spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies) {
         const { unitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
         // a unit drawn for one level (Color by Number's designs): the screen lists a page's level's units only
@@ -144,7 +146,7 @@ function record(types) {
     try {
       const enS = resolveStrings(spec.id, 'en', spec);
       const th0 = themes[0];
-      const uAll = spec.unitAxis && spec.unitAxis.applicable ? (spec.unitAxis.units('en') || []) : [];
+      const uAll = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? (spec.unitAxis.units('en') || []) : [];
       // the first unit of the level (a unit drawn for one level is asked for at that level only)
       const u0 = (d) => (spec.unitAxis && spec.unitAxis.levelOf ? uAll.find((u) => spec.unitAxis.levelOf(u) === d) : uAll[0]) || null;
       entry.copiesDiffer = entry.levels.filter((d) => new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: enS, locale: 'en', difficulty: d, theme: th0, unit: u0(d), variant: v }).html)).size > 1);
@@ -185,7 +187,10 @@ function makerPlugin(modules, offenders) {
       b.onLoad({ filter: /.*/, namespace: 'datamods' }, () => ({
         loader: 'js',
         resolveDir: REPO,
-        contents: 'module.exports = {\n' + modules.map((m) => JSON.stringify(m) + ': require(' + JSON.stringify(path.join(REPO, m).replace(/\\/g, '/')) + ')').join(',\n') + '\n};',
+        // getters: a data module is evaluated when first asked for, never while lib/platform/browser.js (which requires
+        // this table) is still starting — a data module that requires the platform back would otherwise keep the
+        // platform's half-built exports for good ("platform.exists is not a function", the FD maker 2026-11-02)
+        contents: 'module.exports = {\n' + modules.map((m) => 'get ' + JSON.stringify(m) + '() { return require(' + JSON.stringify(path.join(REPO, m).replace(/\\/g, '/')) + '); }').join(',\n') + '\n};',
       }));
       // a component namespace (templates/components-bN.js) merges every file of its folder, found with readdirSync in
       // Node: here the folder is listed at build time and the same merge is generated (a duplicate export is an error)

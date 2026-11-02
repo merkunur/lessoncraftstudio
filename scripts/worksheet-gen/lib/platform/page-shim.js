@@ -18,9 +18,12 @@ function pageShim(iframe) {
   const doc = () => iframe.contentDocument;
   const buildTimeOnly = (what) => () => { throw new Error('page.' + what + ' is build-time only (no live generation for this template)'); };
   return {
+    // a type's verify may ask whether it runs in the maker (no screenshot: a raster oracle works on the page's own SVG)
+    live: true,
     async evaluate(fn, ...args) {
       const W = win();
-      if (typeof fn !== 'function') return roundTrip(W.eval(String(fn)));
+      // a source string's value is awaited too, as Puppeteer does (an async expression: lib/fd-browser-diff.js evalSource)
+      if (typeof fn !== 'function') return roundTrip(await W.eval(String(fn)));
       const F = W.Function;
       const compiled = new F('return (' + fn.toString() + ')')();
       return roundTrip(await compiled.apply(null, args.map(roundTrip)));

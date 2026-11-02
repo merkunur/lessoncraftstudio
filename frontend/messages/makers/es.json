@@ -72,6 +72,7 @@
   "save": "Guardar",
   "originalText": "Texto original",
   "textTooLong": "Este texto no cabe en la página. Hazlo más corto.",
+  "textWrongNumber": "Un número de este texto no coincide con la página. Cámbialo o quítalo.",
   "tapHintText": "Haz clic o toca el título o la instrucción para cambiarlos.",
   "duplicatePage": "Duplicar",
   "moveUp": "Subir",

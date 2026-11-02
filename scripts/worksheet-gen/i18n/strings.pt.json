@@ -3876,8 +3876,16 @@
     "instruction": "Veja o número de cada desenho. Procure-o na legenda e pinte o desenho com essa cor."
   },
   "K-480": {
-    "title": "Labirinto de figuras: pise só nos animais",
-    "instruction": "Ajude o fazendeiro a chegar ao trator. Pise só nos animais.",
+    "title": "Labirinto de figuras: passe só pelos animais",
+    "instruction": "Ajude o fazendeiro a chegar ao trator. Passe só pelos animais.",
     "printTitle": "Ajude o fazendeiro a chegar ao trator"
+  },
+  "K-481": {
+    "title": "Recorte nas linhas",
+    "instruction": "Recorte em cima de cada linha tracejada, da tesoura até o desenho."
+  },
+  "K-482": {
+    "title": "Copie o desenho nos pontos",
+    "instruction": "Observe a linha de cada fileira. Desenhe a mesma linha nos pontos vazios ao lado, a partir do ponto laranja."
   }
 }

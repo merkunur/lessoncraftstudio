@@ -199,6 +199,19 @@ async function generate(o, mount) {
     if (!r) continue;
     fails = await gatePage(type, await mount(r.html));
     if (!fails.length && r.keyHtml) fails = await gatePage(type, await mount(r.keyHtml), { key: true });
+    // a teacher's longer title / instruction on a page that fills its body (type.fitsChrome: Find the Differences, How to
+    // Draw): the page is built again giving back the px the text took past the footer (ctx.chromeExtra), at most 3 times —
+    // the published build never sees chromeExtra, so the catalogue page is unchanged (2026-11-02)
+    for (let k = 0, extra = 0; fails.length && textEdited && type.fitsChrome && k < 3; k++) {
+      const over = Math.max(0, ...fails.map((f) => { const m = String(f).match(/reaches (\d+) against the attribution band at (\d+)/); return m ? +m[1] - +m[2] : -1; }));
+      if (!(over > 0)) break;
+      extra += over + 6;
+      const a2 = { ...a, buildExtra: { ...(a.buildExtra || {}), chromeExtra: extra } };
+      try { r = makePage({ ...o, ...a2 }); } catch (e) { fails = ['build: ' + e.message]; break; }
+      fails = await gatePage(type, await mount(r.html));
+      if (!fails.length && r.keyHtml) fails = await gatePage(type, await mount(r.keyHtml), { key: true });
+      if (!fails.length) return { ok: true, ...r, attempt: a2 };
+    }
     if (!fails.length) return { ok: true, ...r, attempt: a };
   }
   return { ok: false, fails };

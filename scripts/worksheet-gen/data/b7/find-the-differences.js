@@ -13,8 +13,8 @@
  * name their THEME literally in the panel's title (a pair is not one unit).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('../../lib/platform/index.js');   // the scenes are read through the platform (the FD maker fetches one per page)
 const { DESIGNS } = require('../cbn/designs.js');
 
 const MODES = ['base', 'three-big', 'colour', 'seven', 'ten-pairs', 'how-many', 'what-changed', 'mirror-pair', 'missing', 'pairs', 'write'];
@@ -68,8 +68,25 @@ function sceneName(unit, loc) {
 }
 function loadScene(id) {
   const f = path.join(FD_DIR, id + '.json');
-  if (!fs.existsSync(f)) throw new Error(`find-the-differences: data/fd/${id}.json is absent (node tools/fd-build.js ${/-rich$/.test(id) ? '--rich ' : ''}--only=${baseIdOf(id)})`);
-  return JSON.parse(fs.readFileSync(f, 'utf8'));
+  if (!platform.exists(f)) throw new Error(`find-the-differences: data/fd/${id}.json is absent (node tools/fd-build.js ${/-rich$/.test(id) ? '--rich ' : ''}--only=${baseIdOf(id)})`);
+  return platform.readJson(f);
+}
+/**
+ * THE MAKER (2026-11-02): copy n of a face at a level is the n-th unit here — level 2 starts with the face's published
+ * unit (null: the face's own d.unit), then the face's Level Set copies of that level (data/fdx/allocation.json, the
+ * reviewed pages of the expansion). makerScenes() = every scene file those units read (the ART files the maker ships).
+ */
+function makerUnits(faceId, level) {
+  const A = (require('../fdx/allocation.json').faces || {})[faceId] || {};
+  const l = (A[String(level)] || []).map((c) => c.unit);
+  return Number(level) === 2 || !l.length ? [null].concat(l) : l;
+}
+function makerScenes() {
+  const ids = new Set();
+  const add = (u) => { if (u) for (const x of String(u).split('|')) ids.add(x.replace(/@c$/, '')); };
+  for (const f of Object.values(require('../fdx/allocation.json').faces || {})) for (const l of Object.values(f)) for (const c of l) add(c.unit);
+  for (const v of Object.values(UNITS)) (Array.isArray(v) ? v : [v]).forEach(add);
+  return [...ids].sort();
 }
 function review() { try { return require('../fd/review.js'); } catch (e) { return { REFUSED: {}, REFUSED_OPS: {}, REFUSED_WORDS: {}, EXCLUDE_SCENES: {} }; }
 }
@@ -274,4 +291,4 @@ const LS_PAIR_TITLES = {
   seven: { en: 'Find 7 Differences: {UNIT}', de: 'Finde 7 Unterschiede: {UNIT}', fr: 'Jeu des 7 erreurs : {UNIT}', es: 'Busca las 7 diferencias: {UNIT}', pt: 'Jogo dos 7 erros: {UNIT}', it: 'Trova le 7 differenze: {UNIT}', nl: 'Zoek de 7 verschillen: {UNIT}', sv: 'Finn sju fel: {UNIT}', da: 'Find syv fejl: {UNIT}', no: 'Finn sju feil: {UNIT}', fi: 'Etsi seitsemän virhettä: {UNIT}' },
   'ten-pairs': { en: 'Find 10 Differences: {UNIT}', de: 'Finde 10 Unterschiede: {UNIT}', fr: 'Trouve les 10 erreurs : {UNIT}', es: 'Encuentra las 10 diferencias: {UNIT}', pt: 'Jogo dos 10 erros: {UNIT}', it: 'Trova le 10 differenze: {UNIT}', nl: 'Zoek de 10 verschillen: {UNIT}', sv: 'Finn tio fel: {UNIT}', da: 'Find ti fejl: {UNIT}', no: 'Finn ti feil: {UNIT}', fi: 'Etsi kymmenen virhettä: {UNIT}' },
 };
-module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, wordFamilyFor, clashKeysFor, LS_PAIR_TITLES };
+module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, wordFamilyFor, clashKeysFor, LS_PAIR_TITLES, makerUnits, makerScenes };

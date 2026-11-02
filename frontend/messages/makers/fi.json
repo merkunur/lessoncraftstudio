@@ -64,7 +64,7 @@
     "mazes": "Labyrintit",
     "find-the-differences": "Etsi virheet",
     "how-to-draw": "Piirrä vaihe vaiheelta",
-    "picture-tracing": "Jäljennä kuvat"
+    "picture-tracing": "Piirrä katkoviivoja pitkin"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editText": "Muuta tekstiä",
@@ -72,6 +72,7 @@
   "save": "Tallenna",
   "originalText": "Alkuperäinen teksti",
   "textTooLong": "Teksti ei mahdu sivulle. Lyhennä sitä.",
+  "textWrongNumber": "Tekstissä oleva luku ei vastaa sivua. Korjaa se tai jätä se pois.",
   "tapHintText": "Vaihda otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä.",
   "duplicatePage": "Monista",
   "moveUp": "Siirrä ylös",

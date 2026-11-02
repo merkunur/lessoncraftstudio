@@ -3,8 +3,48 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
+**PLANNED TEMPLATES NOT YET BUILT (audit 2026-11-02, NEW-TEMPLATES.md against the type files — build each before its
+maker counts as done; a template withdrawn for a reason stays listed with the reason):**
+- Symmetry & Grid Copy §21: T1 grid copy of library art · T4 enlarge on the grid · T5 turn the picture a quarter.
+- Same & Different §23: T3 match the close-up WITHDRAWN (no browser-safe proof of one answer); T4 twin among
+  look-alikes (turned and flipped) · T5 overlapping outlines (which pictures are hiding?) — not built.
+- Sorting §24: T3 who does not belong in the bin · T4 sort by a reviewed rule (refused so far: "no per-key review" — the
+  review is the work, not a reason) · T5 sorting mats and picture cards to cut.
+- Dot to Dot §25: T3 number-word dot-to-dot · T4 even dots only · T5 capital–small alternating.
+- Color by Number §26: T2 colour by odd / even · T5 colour by number word · T6 colour by your own key (ungraded).
+- Coloring Pages §27: T4 big and small · T5 colour and write a sentence · T6 mini colouring booklet (fold).
+- Mazes §28: T1 the grid maze's trace-path screen (K-242 has the picture slots) · T3 collect the letters · T4 write
+  the directions · T5 three exits · T6 pattern maze.
+- Find the Differences §29: T1–T5 · How to Draw §30: T1–T5 · Picture Tracing §31: T1–T4.
+- Number Tracing §20: T3 dotted numbers to 50 / 100 on a grid · T5 number formation poster (T1 = K-467, T2 = K-468).
+
 **NEXT:** B3 in ARCHITECTURE §14 order — mazes, find-the-differences, how-to-draw, picture-tracing (same-different, sorting, dot-to-dot, color-by-number, coloring-pages built 2026-11-02; logic-puzzles is built); then B4–B7 (health-safety is NOT built: operator 2026-11-02). Mazes: K-405 family verify runs analyzeSvg in the maker (page.live), b8-common reads through the platform; still to do — real levels from data/hmx/levels.js, pinned fast seeds per (face, level[, locale]), the strands seam, the picture-path face (category rule on the sound machinery). Live republish queue on the server: fix1115 (dot-to-dot wording, 702) → fix1119 (beginning-sound bank, 49); local: fix1106 (traced j, 2,201) and fix1120 (chicken = hen, 240) → compare, upload, queue. After the queue: restore injections once, clean server + local.
 
+
+## B3: Find the Differences, How to Draw, Picture Tracing — the makers (2026-11-02; their planned new templates follow)
+
+**Find the Differences** (11 faces) and **How to Draw** (11 faces): no scene / picture list — `unitAxis.makerCopies`
+(build-bundles records no units); copy n of a face at a level is `makerUnits(face, level)` (level 2 starts with the
+published page, then the face's Level Set copies), the copy's title names its own scene. The scenes / lessons are ART
+(data/fd, data/htdx `only` the units the faces reach, data/htd, data/htdv; How to Draw's scene face also ships its data/fd
+scenes via `makerFdScenes`). Order the Steps (G1-418) now has a key and a screen: its key / screen builds stamp each number
+box with its card's step number (the page build is unchanged); the other How to Draw faces are drawing pages (NO_KEY,
+writing). FD alternation in reading order is exempt in settings-space with its reason (differences are kept apart).
+**Picture Tracing** (20 faces): the trace STORE `data/pt/traces/<theme>__<noun>.json` (lib/pt-store.js, built by
+tools/pt-store-build.js, 1,325 drawings, 79 MB, each proven to give the live trace back) — `composeSceneSync` reads it, so
+K-418 builds synchronously; ptx-published-identity PASS (30 bodies) and both family gates pass on it. Copies walk the
+face's Level Set scenes (`ptx.makerUnits`). Keys for the three faces with an answer (K-427 the count, G1-433 the hidden
+animals ringed, K-430 every circle coloured); the rest NO_KEY (tracing).
+**Shared fixes found on the way:** the browser platform loads the recorded data modules LAZILY (getters in
+`lcs-data-modules` — a data module requiring the platform back kept its half-built exports); the page shim awaits a
+string `evaluate` (Puppeteer does); `fdx/scenes.js` and the ptx text loaders use literal JSON requires; a guarded
+`process.env` in the G1-431 scenes + a new lint rule (unguarded `process.` in a bundled file); a teacher's longer title /
+instruction on a page that fills its body is rebuilt with `ctx.chromeExtra` (types declaring `fitsChrome`: FD, How to
+Draw) — 130 of 132 worst-case pages now fit; a number in the teacher's text that the page does not carry is refused with
+its own sentence (`textWrongNumber`, reviewed ×11). Gates: slots builds the reference side in a WORKER (the old and new
+engines shared module state) and takes `--makers`; parity compares an inlined picture by its bytes; collision exempts the
+How to Draw rail and scene ring; run-all-gates takes `GATE_LOGS`. Suite for the three makers: all PASS (unique-solution is
+vacuous for makers without puzzles); live gate 2,772 pages.
 
 ## B3: Same & Different gated, Sorting, Dot to Dot; picture files on demand (2026-11-02)
 

@@ -31,10 +31,10 @@ const LS = {
 };
 // the other ten locales: the native panels' tables data/ptx/i18n/<loc>.json → { ls: { <mode>: { title, printTitle?, instruction } } }
 {
-  const fs = require('fs'), path = require('path');
+  // (literal requires: the Picture Tracing maker bundles the ten tables — makers 2026-11-02)
+  const TABLES = { de: require('./i18n/de.json'), fr: require('./i18n/fr.json'), es: require('./i18n/es.json'), pt: require('./i18n/pt.json'), it: require('./i18n/it.json'), nl: require('./i18n/nl.json'), sv: require('./i18n/sv.json'), da: require('./i18n/da.json'), no: require('./i18n/no.json'), fi: require('./i18n/fi.json') };
   for (const loc of ['de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']) {
-    const f = path.join(__dirname, 'i18n', loc + '.json'); if (!fs.existsSync(f)) continue;
-    const t = JSON.parse(fs.readFileSync(f, 'utf8')).ls || {};
+    const t = (TABLES[loc] || {}).ls || {};
     for (const [mode, v] of Object.entries(t)) {
       if (!LS[mode]) throw new Error('ptx i18n ' + loc + ': unknown face mode ' + mode);
       for (const k of ['title', 'printTitle', 'instruction']) if (v[k] != null) { if (!LS[mode][k]) LS[mode][k] = {}; LS[mode][k][loc] = v[k]; }

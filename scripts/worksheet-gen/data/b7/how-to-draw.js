@@ -92,7 +92,7 @@ const HOW_TO_DRAW = {
 
 /* ---------------------------------------------------------------- helpers (the only data doors of the spec) */
 const path = require('path');
-const fs = require('fs');
+const platform = require('../../lib/platform/index.js');
 const HTD_DIR = path.join(__dirname, '..', 'htd');
 const _steps = new Map();
 /* ---- the LEVEL SET units (2026-10-11): 'lsx-<slug>' = a lesson of data/htdx (the interior engine, read on contact sheets,
@@ -100,7 +100,8 @@ const _steps = new Map();
 const isLs = (slug) => /^lsx-/.test(String(slug || ''));
 let _ls = null;
 function lsData() {
-  if (!_ls) { const D = path.join(__dirname, '..', 'htdx'); _ls = { units: require(path.join(D, 'units.js')).UNITS, names: require(path.join(D, 'names.js')).NAMES }; }
+  // literal requires: the How to Draw maker bundles both tables (makers 2026-11-02)
+  if (!_ls) _ls = { units: require('../htdx/units.js').UNITS, names: require('../htdx/names.js').NAMES };
   return _ls;
 }
 function lsUnits() { return lsData().units; }
@@ -134,13 +135,44 @@ function unitRecord(slug) {
   if (!u) throw new Error(`how-to-draw: "${slug}" is not a unit of the family`);
   return u;
 }
+/**
+ * THE MAKER (2026-11-02): copy n of a face at a level is the n-th unit here — level 2 starts with the face's published
+ * unit (null: the face's own), then the face's Level Set copies of that level (data/htdx/allocation.json).
+ * makerHtdx() = the Level Set lesson files those units read (the htdx ART files the maker ships).
+ */
+function makerUnits(faceId, level) {
+  const A = (require('../htdx/allocation.json').faces || {})[faceId] || {};
+  const l = (A[String(level)] || []).map((c) => c.unit);
+  return Number(level) === 2 || !l.length ? [null].concat(l) : l;
+}
+function makerHtdx() {
+  const ids = new Set();
+  for (const f of Object.values(require('../htdx/allocation.json').faces || {})) for (const l of Object.values(f)) for (const c of l) if (isLs(c.unit)) ids.add(unitRecord(c.unit).htdx);
+  return [...ids].sort();
+}
+/**
+ * makerFdScenes() = the data/fd scenes the scene face draws into (topic-map art: the How to Draw maker ships them,
+ * 2026-11-02): the face's own published scene and, per Level Set unit, its original (fdx) or rich scene — K-396's rule.
+ */
+const SCENE_FACES = { 'G1-417': 'frog' };   // the scene face → its published scene (types/g1/G1-417 difficulty.scene)
+function makerFdScenes() {
+  const ids = new Set(Object.values(SCENE_FACES));
+  const A = require('../htdx/allocation.json').faces || {};
+  for (const f of Object.keys(SCENE_FACES)) for (const l of Object.values(A[f] || {})) for (const c of l) {
+    if (!isLs(c.unit)) continue;
+    const u = unitRecord(c.unit), s = u.fdxScene || u.richScene;
+    if (s) ids.add(s);
+  }
+  return [...ids].sort();
+}
 /** the lesson of a unit: THROWS on a missing build, a refusal, or an inexact union (never a silent fallback) */
 function stepsFor(slug) {
   if (_steps.has(slug)) return _steps.get(slug);
   const rec = unitRecord(slug);
   const f = isLs(slug) ? path.join(__dirname, '..', 'htdx', rec.htdx + '.json') : path.join(HTD_DIR, slug + '.json');
-  if (!fs.existsSync(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htd-build.js${isLs(slug) ? ' --set=htdx' : ''} --only=${isLs(slug) ? rec.htdx : slug})`);
-  const S = JSON.parse(fs.readFileSync(f, 'utf8'));
+  // read through the platform (the How to Draw maker fetches one lesson per page, 2026-11-02)
+  if (!platform.exists(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htd-build.js${isLs(slug) ? ' --set=htdx' : ''} --only=${isLs(slug) ? rec.htdx : slug})`);
+  const S = platform.readJson(f);
   if (S.refused) throw new Error(`how-to-draw: ${slug} is REFUSED in data/htd/review.js: ${S.refused}`);
   if (!S.stats || S.stats.missing || S.stats.extra || S.stats.dup) throw new Error(`how-to-draw: ${slug} steps do not partition the drawing (missing ${S.stats && S.stats.missing}, extra ${S.stats && S.stats.extra})`);
   _steps.set(slug, S);
@@ -162,8 +194,8 @@ function vectorStepsFor(slug) {
   if (!key) throw new Error(`how-to-draw: ${slug} has no drawn lesson (data/htdv) — a dotted-shape page needs one`);
   if (_vsteps.has(key)) return _vsteps.get(key);
   const f = path.join(__dirname, '..', 'htdv', key + '.json');
-  if (!fs.existsSync(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htdv-build.js --only=${key})`);
-  const S = JSON.parse(fs.readFileSync(f, 'utf8'));
+  if (!platform.exists(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htdv-build.js --only=${key})`);
+  const S = platform.readJson(f);
   if (S.lesson !== 'vector' || (S.stats.fails && S.stats.fails.length) || S.stats.missing) throw new Error(`how-to-draw: ${key} breaks a law: ${(S.stats.fails || []).join('; ')}`);
   _vsteps.set(key, S);
   return S;
@@ -223,8 +255,8 @@ function validateBank(block, loc) {
     if (face.needsScene) {
       const u = unitRecord(unit);
       const f = path.join(__dirname, '..', 'fd', (u.fdScene || '') + '.json');
-      if (!u.fdScene || !fs.existsSync(f)) errs.push(`${mode}: ${unit} has no fd scene`);
-      else { const sc = JSON.parse(fs.readFileSync(f, 'utf8')); const hero = sc.items[u.heroItem]; if (!hero || !hero.src.toLowerCase().replace(/[^a-z0-9]+/g, '-').includes(unit.replace(/-\d+$/, '').slice(0, 12))) errs.push(`${mode}: fd scene item ${u.heroItem} is not the unit`); if (sc.items.length - 1 < 2) errs.push(`${mode}: fewer than 2 non-hero items remain`); }
+      if (!u.fdScene || !platform.exists(f)) errs.push(`${mode}: ${unit} has no fd scene`);
+      else { const sc = platform.readJson(f); const hero = sc.items[u.heroItem]; if (!hero || !hero.src.toLowerCase().replace(/[^a-z0-9]+/g, '-').includes(unit.replace(/-\d+$/, '').slice(0, 12))) errs.push(`${mode}: fd scene item ${u.heroItem} is not the unit`); if (sc.items.length - 1 < 2) errs.push(`${mode}: fewer than 2 non-hero items remain`); }
     }
     if (face.needsNoun && !(block.refusals && block.refusals[mode])) {
       const noun = block.nouns && block.nouns[unit];
@@ -266,4 +298,4 @@ function validateBank(block, loc) {
   return errs;
 }
 
-module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, vectorStepsFor, VECTOR, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank };
+module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, vectorStepsFor, VECTOR, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank, makerUnits, makerHtdx, makerFdScenes };

@@ -72,6 +72,7 @@
   "save": "Opslaan",
   "originalText": "Oorspronkelijke tekst",
   "textTooLong": "Deze tekst past niet op de pagina. Maak hem korter.",
+  "textWrongNumber": "Een getal in deze tekst klopt niet met de pagina. Pas het aan of laat het weg.",
   "tapHintText": "Klik of tik op de titel of de opdracht om die te veranderen.",
   "duplicatePage": "Dupliceren",
   "moveUp": "Omhoog",

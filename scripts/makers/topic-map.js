@@ -329,7 +329,8 @@ const MAKERS = [
     newTemplates: [], // dropped 2026-11-01 (no own-image upload): differences between two of the teacher's own photos
     fable: ['FD scenes are 427 MB precomputed and every difference passes a raster diff gate. In the browser: ship which scenes, how big, and can the diff gate run client-side (lib/fd-browser-diff.js suggests yes)?'],
   },
-  { id: 'how-to-draw', art: ['scripts/worksheet-gen/data/htd', { dir: 'scripts/worksheet-gen/data/htdx', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerHtdx'] }, 'scripts/worksheet-gen/data/htdv'],
+  { id: 'how-to-draw', art: ['scripts/worksheet-gen/data/htd', { dir: 'scripts/worksheet-gen/data/htdx', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerHtdx'] }, 'scripts/worksheet-gen/data/htdv',
+    { dir: 'scripts/worksheet-gen/data/fd', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerFdScenes'] }],   // the scene face's scenes
     // built 2026-11-02: no picture list — copy n of a face at a level is B.makerUnits (level 2 starts with the published
     // lesson, then the face's Level Set copies of that level: data/htdx/allocation.json); a Level Set copy prints its own
     // title and instruction (copyStrings). The lessons are ART files, one fetched per page (htdx: only the allocated ones)
@@ -344,11 +345,18 @@ const MAKERS = [
     fable: [],
   },
   { id: 'picture-tracing', name: 'Picture Tracing', group: 'writing', families: ['picture-tracing'], oldApps: [], lang: 'little',
+    // built 2026-11-02: the traces come from the store (data/pt/traces, lib/pt-store.js: one file per library drawing,
+    // fetched when a page places it); copy n of a face at a level = lib/ptx.js makerUnits (level 2 starts with the
+    // published page, then the face's Level Set scenes)
+    art: ['scripts/worksheet-gen/data/pt/traces'],
     settings: ['picture / scene', 'line: dashed / dotted', 'thickness by age', 'task: trace / trace and colour / count / finish / symmetry / hidden'],
     newTemplates: [['Trace a teacher-chosen library picture', 'any picture, not only the 300 scenes']],
     fable: ['Tracing guides come from each drawing\'s own ink skeleton (lib/pt-*), heavy CPU, with measured band rules. Precompute for the whole B&W library (≈1,500 pictures?) or run in the browser? Own uploads?'],
   },
-  { id: 'pre-writing', name: 'Pencil Control Lines', group: 'writing', families: ['pre-writing'], oldApps: ['drawing-lines'], lang: 'none',
+  { id: 'pre-writing', name: 'Pencil Control Lines', group: 'writing', families: ['pre-writing'], oldApps: ['drawing-lines'], oldAppTemplates: { 'drawing-lines': 'K-387' }, lang: 'none',
+    // built 2026-11-02 (NEW-TEMPLATES B4 T1-T3): K-481 Cut Along the Lines (scissor skills, cut-out shapes at level 3),
+    // K-482 Copy the Pattern on the Dots (the key draws the copy), K-483 Letter Strokes (the families computed from the
+    // letter model — en / es, where that print is the school's hand; pt-BR writes capitals then cursive; other languages wait for their own model)
     settings: ['strokes: straight / zigzag / waves / loops / spirals / shapes', 'picture to picture', 'width and fade'],
     newTemplates: [['Cutting lines (scissor skills)', 'cutting practice has only sort pages'], ['Trace the path in a scene', 'motivating context']],
     fable: [],

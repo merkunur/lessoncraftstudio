@@ -39,6 +39,18 @@ const A = MP.args();
  * names WHY the pattern is the lesson.
  */
 const EXEMPT = {
+  // Find the Differences (2026-11-02)
+  'K-395': [/^alternate-[01]$/, 'tap the differences on a picture: the composer keeps every difference apart from the others (each is ringed on its own, minSepPx) so two neighbouring drawings are rarely both differences — and drawings scattered over a scene have no order a child follows'],
+  'K-397': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'K-398': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'K-399': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'K-400': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G1-412': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G1-413': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G1-414': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G1-415': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G2-388': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
+  'G2-389': [/^alternate-[01]$/, 'as K-395: the differences are kept apart on a scattered scene'],
   'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
   'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
   'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],

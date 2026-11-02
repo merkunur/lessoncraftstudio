@@ -3856,7 +3856,15 @@
   },
   "K-480": {
     "title": "Billedlabyrint: gå kun på dyrene",
-    "instruction": "Hjælp landmanden hen til traktoren. Gå kun på dyrene.",
+    "instruction": "Hjælp landmanden hen til traktoren. Gå kun på stenene med dyr.",
     "printTitle": "Hjælp landmanden hen til traktoren"
+  },
+  "K-481": {
+    "title": "Klip langs stregerne",
+    "instruction": "Klip langs hver stiplet streg, fra saksen hen til billedet."
+  },
+  "K-482": {
+    "title": "Tegn mønstret af på prikkerne",
+    "instruction": "Se på stregen i hver række. Tegn den samme streg på de tomme prikker ved siden af, fra den orange prik."
   }
 }

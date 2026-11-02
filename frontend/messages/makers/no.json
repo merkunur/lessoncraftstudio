@@ -64,7 +64,7 @@
     "mazes": "Labyrinter",
     "find-the-differences": "Finn feilene",
     "how-to-draw": "Tegn steg for steg",
-    "picture-tracing": "Følg linjene"
+    "picture-tracing": "Tegn etter strekene"
   },
   "editTitle": "Endre overskriften",
   "editText": "Endre teksten",
@@ -72,6 +72,7 @@
   "save": "Lagre",
   "originalText": "Opprinnelig tekst",
   "textTooLong": "Teksten får ikke plass på siden. Gjør den kortere.",
+  "textWrongNumber": "Et tall i teksten stemmer ikke med siden. Endre det eller ta det bort.",
   "tapHintText": "Klikk eller trykk på overskriften eller instruksjonen for å endre den.",
   "duplicatePage": "Dupliser",
   "moveUp": "Flytt opp",

@@ -72,6 +72,7 @@
   "save": "Spara",
   "originalText": "Ursprunglig text",
   "textTooLong": "Texten får inte plats på sidan. Gör den kortare.",
+  "textWrongNumber": "Ett tal i texten stämmer inte med sidan. Ändra det eller ta bort det.",
   "tapHintText": "Klicka eller tryck på rubriken eller instruktionen för att ändra den.",
   "duplicatePage": "Duplicera",
   "moveUp": "Flytta upp",

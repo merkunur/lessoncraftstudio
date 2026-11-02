@@ -3877,8 +3877,16 @@
     "instruction": "Schau auf die Zahl bei jedem Bild. Suche sie im Farbcode und male das Bild in dieser Farbe aus."
   },
   "K-480": {
-    "title": "Bilder-Labyrinth: Nur auf Tiere treten",
-    "instruction": "Hilf dem Bauern zum Traktor. Tritt nur auf die Tiere.",
+    "title": "Bilder-Labyrinth: Nur auf Steine mit Tieren treten",
+    "instruction": "Hilf dem Bauern, zum Traktor zu kommen. Tritt nur auf die Steine mit Tieren.",
     "printTitle": "Hilf dem Bauern zum Traktor"
+  },
+  "K-481": {
+    "title": "Schneideübungen: Auf den Linien schneiden",
+    "instruction": "Schneide an jeder gestrichelten Linie entlang, von der Schere bis zum Bild."
+  },
+  "K-482": {
+    "title": "Muster auf dem Punktraster nachzeichnen",
+    "instruction": "Schau dir in jeder Reihe die Linie an. Zeichne dieselbe Linie auf die leeren Punkte daneben, vom orangen Punkt aus."
   }
 }

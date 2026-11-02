@@ -17,7 +17,7 @@ const { bank } = require('../../lib/b7-common.js');
 const B = require('../../data/b7/how-to-draw.js');
 const Hd = require('../../lib/htd-steps.js');
 const C7 = require('../../templates/components-b7.js');
-const fs = require('fs');
+const platform = require('../../lib/platform/index.js');   // the scene face's data/fd scene (the maker fetches it, 2026-11-02)
 const path = require('path');
 
 const LANE_PAD_Y = 2;             // the lane's vertical padding (the default 12 px would push a 660 stack past the 677 fi budget)
@@ -95,6 +95,7 @@ module.exports = {
   themeAxis: { applicable: false },
   unitAxis: {
     applicable: true,
+    makerCopies: true,   // the maker shows no picture list: "New version" walks the face's units (B.makerUnits)
     units: () => B.UNITS.map((u) => u.slug).concat(B.lsUnits().map((u) => u.slug)),
     exemplar: (loc, spec) => (spec && spec.difficulty && spec.difficulty[2] && spec.difficulty[2].unit) || B.FACES.base.unit,   // a face spec's pinned unit (the emitted faces inherit this axis)
     tokens: (unit, loc) => { const f = B.formFor(block(loc), unit, loc); return { U: upperFirst(f.t), L: f.t, N: f.n || upperFirst(f.stem), UNIT: unit }; },
@@ -107,6 +108,8 @@ module.exports = {
    * name their own animal and step count ("draw the cat", "the four steps", "write 1 to 5", "at the pond"). A published
    * unit gets its strings back untouched.
    */
+  // a teacher's longer title or instruction: rebuilt with ctx.chromeExtra (runtime.generate, makers 2026-11-02)
+  fitsChrome: true,
   copyStrings(s0, ctx) {
     if (!B.isLs(ctx && ctx.unit)) return s0;
     const d = this.difficulty[ctx.difficulty] || {}, mode = d.mode || 'base';
@@ -119,11 +122,24 @@ module.exports = {
   },
 
   build({ difficulty, locale, unit }, ctx) {
+    // a teacher's longer title / instruction (fitsChrome): the body budgets give back ctx.chromeExtra px — the maker only;
+    // the catalogue never passes it, so its pages keep the measured 724 (makers 2026-11-02)
+    const chromeExtra = (ctx && ctx.chromeExtra) || 0;
+    const bodyLadder = BODY_LADDER - chromeExtra, bodyStrip = BODY_STRIP - chromeExtra;
     let d = this.difficulty[difficulty];
     const loc = String(locale || 'en').slice(0, 2);
     const blk = block(loc);
     const mode = d.mode || 'base';
     if (!B.FACES[mode]) throw new Error(`K-396: unknown mode "${mode}"`);
+    // the maker (no unit): copy n = the n-th unit of this face at this level (null = the face's published lesson)
+    let picked = null;
+    if (!unit && ctx && ctx.slotsOut) {
+      const list = B.makerUnits(this.id, difficulty);
+      const v = String((ctx.seedVariant || ctx.variant) || 1);
+      const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
+      picked = list[(n - 1) % list.length] || null;
+      if (picked) unit = picked;
+    }
     const unitSlug = unit || d.unit || B.unitFor(blk, mode);
     const ls = B.isLs(unitSlug);
     if (ls) d = { ...d, ...((LS_LEVELS[mode === 'copy-steps' ? 'copy' : mode] || {})[difficulty] || {}) };
@@ -141,7 +157,7 @@ module.exports = {
 
     if (mode === 'base' || mode === 'shapes' || mode === 'word' || mode === 'write') {
       // THE LADDER faces: cards down the rail, the paper (+ a lane or ruled rows) in the right column
-      const H = d.bodyH || BODY_LADDER;
+      const H = (d.bodyH ? d.bodyH - chromeExtra : bodyLadder);
       // the cards grow with the lane: 4 steps at 728 = 168 px cards (was 150 at 660); the write face keeps a narrower ladder for its rows
       const cardPx = (ls ? null : d.cardPx) || Math.min(mode === 'write' ? 140 : 172, Math.floor((H - 20 - (n - 1) * 12) / n));
       const outer = cardPx + 6;
@@ -167,7 +183,7 @@ module.exports = {
         const gS = d.guideCount ? { ...S, shapes: S.lesson === 'vector' ? S.shapes.filter((x) => x.major).slice(0, d.guideCount) : S.shapes.filter((x) => x.kind).slice(0, d.guideCount) } : S;   // (Level Set 3: the two biggest shapes only)
         const guides = mode === 'shapes' ? (d.boxGuides === 'none' ? null : { S: gS, outline: d.boxGuides === 'shapes+outline' }) : (d.guideShapes ? { S } : null);
         if (d.box && d.box.count === 2) {
-          const q = paperSize(S, { free: ls, h: Math.floor((H - 10) / 2), maxW: colW });
+          const q = paperSize(S, { free: ls, h: Math.floor((H - 10) / 2), maxW: colW, maxH: bodyStrip });
           right = `<div style="display:flex;flex-direction:column;gap:10px;align-items:center;width:${colW}px">${C7.htdPaper({ w: q.w, h: q.h, role: 'secondary' })}${C7.htdPaper({ w: q.w, h: q.h, role: 'secondary' })}</div>`;   // d3: draw it twice, two secondary-floor papers (FINAL §2)
         } else right = `<div style="width:${colW}px">${C7.htdPaper({ w: p.w, h: p.h, role: 'primary', guides })}</div>`;
       }
@@ -183,14 +199,15 @@ module.exports = {
       const row = d.rail === 'right' ? right + `<div style="width:18px;flex:0 0 18px"></div>` + ladderHtml : ladderHtml + `<div style="width:18px;flex:0 0 18px"></div>` + right;
       body = lane(`<div style="display:flex;align-items:flex-start;width:${LANE_W}px;height:${H}px">${row}</div>`);
     } else if (mode === 'order') {
-      const H = d.bodyH || BODY_LADDER, cardPx = (ls ? null : d.cardPx) || Math.min(140, Math.floor((H - 20 - (n - 1) * 12) / n)), outer = cardPx + 6;
+      const H = (d.bodyH ? d.bodyH - chromeExtra : bodyLadder), cardPx = (ls ? null : d.cardPx) || Math.min(140, Math.floor((H - 20 - (n - 1) * 12) / n)), outer = cardPx + 6;
       const table = n === 5 ? B.COMMON.SCRAMBLE5 : B.COMMON.SCRAMBLE4;
       if (n < 4 || n > 5) throw new Error(`K-396 order: ${unitSlug} has ${n} steps (4 or 5 only)`);
       if (!ls && ((n === 5 && d.scramble !== 'SCRAMBLE5') || (n === 4 && d.scramble !== 'SCRAMBLE4'))) throw new Error(`K-396 order: ${unitSlug} has ${n} steps but the face asks ${d.scramble}`);
       const perm = B.drawScramble(table, rng);              // slot → step number
       if (!B.lawN(perm)) throw new Error('K-396 order: a drawn permutation breaks the scramble law');
       const order = perm.map((v) => v - 1);
-      const ladder = C7.htdLadder({ S, cardPx, badges: false, order, beside: 'numeral', besideW: 64, besideH: 60, height: H, rail: d.rail || 'left' });
+      const marked = ctx && ctx.answerKey ? 'key' : ctx && ctx.screen ? 'screen' : false;   // the key shows the order, the maker's screen grades it
+      const ladder = C7.htdLadder({ S, cardPx, badges: false, order, beside: 'numeral', besideW: 64, besideH: 60, height: H, rail: d.rail || 'left', answers: marked });
       const leftW = 16 + outer + 10 + 64, colW = LANE_W - leftW - 18;
       const p = paperSize(S, { free: ls, w: colW, maxH: H });
       const right = `<div style="width:${colW}px">${C7.htdPaper({ w: p.w, h: p.h, role: 'primary' })}</div>`;
@@ -204,7 +221,7 @@ module.exports = {
       const tw = d.twinW || 300;
       // the twin boxes take the lane's HEIGHT (a box taller than the drawing centres it with air): width-bound at 300 the pair
       // stopped at 84 % of the page
-      const t = { w: tw, h: BODY_STRIP - stripH - 10 - 6 };
+      const t = { w: tw, h: bodyStrip - stripH - 10 - 6 };
       const fill = d.traceFill === 'creamDeep' ? COLOR.creamDeep : TRACE_GREY;   // the instruction says GREY — COLOR.grid (#C8BFAE) printed beige
       // Level Set: level 1 = one big trace card across the lane (no free copy); level 3 = only the OUTLINE is grey (the inside from the steps)
       const without = d.traceOnly === 'outline' ? S.steps.map((_, i) => i).filter((i) => i >= 1) : [];
@@ -230,7 +247,7 @@ module.exports = {
       const vb = Hd.panelBox(S, { viewBox: 'bbox' });
       let ph = Math.round(inner * vb[3] / vb[2]);
       // a Level Set page keeps ≥ 290 px for the child's own drawing below: a tall drawing's pair cards get narrower instead
-      const maxPh = BODY_STRIP - 4 - 16 - 6 - 10 - 12 - 12 - 290;
+      const maxPh = bodyStrip - 4 - 16 - 6 - 10 - 12 - 12 - 290;
       if (ls && ph > maxPh) { ph = maxPh; inner = Math.round(ph * vb[2] / vb[3]); }
       const model = C7.htdFullCard({ S, w: inner, h: ph, frame: 'card', badge: 'dot', attrs: 'data-lcs-htd-model="1"' });
       const copySets = d.copies === 2 ? omits.slice(0, 2).map((k) => [k]) : [omits];
@@ -240,7 +257,7 @@ module.exports = {
       let paper = '';
       // the stack: lane 4 + rail 16 + 6 + the pair (ph + 6) + 12 + the paper ≤ 677 (FINAL §3 F3: the recorded 296 / 283 fallback applies, the card measures 4 px taller than designed)
       // a full card renders ph + 10 tall (measured: frame + badge seat)
-      if (d.paper) { const pp = paperSize(S, { free: ls, h: BODY_STRIP - 4 - 16 - 6 - (ph + 10) - 12 - 12, maxW: LANE_W, maxH: BODY_STRIP }); paper = `<div style="margin-top:12px">${C7.htdPaper({ w: pp.w, h: pp.h, role: 'secondary' })}</div>`; }
+      if (d.paper) { const pp = paperSize(S, { free: ls, h: bodyStrip - 4 - 16 - 6 - (ph + 10) - 12 - 12, maxW: LANE_W, maxH: bodyStrip }); paper = `<div style="margin-top:12px">${C7.htdPaper({ w: pp.w, h: pp.h, role: 'secondary' })}</div>`; }
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:0;width:${LANE_W}px">${stripRail}${pair}${paper}</div>`);
       meta.omit = omits.join(',');
     } else if (mode === 'grid') {
@@ -249,7 +266,7 @@ module.exports = {
       const g2 = C7.htdGrid({ cells, cellPx, frame: 'pencil', model: null, labels: !!d.labels, attrs: 'data-lcs-htd-gridrole="target"' });
       const gsize = cells * cellPx + 4 + (d.labels ? 22 : 0);
       const grids = `<div style="display:flex;gap:${LANE_W - 2 * gsize}px;justify-content:center;width:${LANE_W}px">${g1}${g2}</div>`;
-      const pp = paperSize(S, { free: ls, h: BODY_STRIP - gsize - 12, maxW: LANE_W, maxH: BODY_STRIP - gsize - 12 });
+      const pp = paperSize(S, { free: ls, h: bodyStrip - gsize - 12, maxW: LANE_W, maxH: bodyStrip - gsize - 12 });
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${LANE_W}px">${grids}${C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' })}</div>`);
     } else if (mode === 'scene') {
       const u = B.unitRecord(unitSlug);
@@ -258,13 +275,13 @@ module.exports = {
       const sceneId = ls ? (u.fdxScene || u.richScene) : (d.scene || u.fdScene), heroItem = ls ? (u.fdxScene ? u.fdxHero : u.richHero) : (d.heroItem != null ? d.heroItem : u.heroItem);
       if (ls && !sceneId) throw new Error(`K-396 scene: ${unitSlug} has no rich scene`);
       const f = path.join(__dirname, '..', '..', 'data', 'fd', sceneId + '.json');
-      if (!fs.existsSync(f)) throw new Error(`K-396 scene: data/fd/${sceneId}.json is absent (node tools/fd-build.js --only=${sceneId})`);
-      const scene = JSON.parse(fs.readFileSync(f, 'utf8'));
+      if (!platform.exists(f)) throw new Error(`K-396 scene: data/fd/${sceneId}.json is absent (node tools/fd-build.js --only=${sceneId})`);
+      const scene = platform.readJson(f);
       const FD = require('../../lib/fd-scene.js');
       const cardPx = ls ? Math.min(118, Math.floor((LANE_W - (n - 1) * 12) / n) - 6) : (d.cardPx || 118);
       const strip = d.steps === 'none' ? '' : C7.htdStrip({ S, cardPx, badges: true, gap: 12, width: LANE_W });
       const stripH = d.steps === 'none' ? 0 : 16 + cardPx + 6 + 6 + 10;
-      const sw = Math.min(d.sceneW || LANE_W, Math.floor((BODY_STRIP - stripH - 5) * scene.w / scene.h));
+      const sw = Math.min(d.sceneW || LANE_W, Math.floor((bodyStrip - stripH - 5) * scene.w / scene.h));
       const bankHtml = C7.htdSceneBank({ scene, heroItem, w: sw, ring: !!d.heroRing, renderPanel: FD.renderPanel });
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${LANE_W}px">${strip}${bankHtml}</div>`);
       meta.scene = sceneId; meta.heroItem = heroItem;
@@ -272,11 +289,11 @@ module.exports = {
       const colW = ls ? ({ 3: 190, 4: 150, 5: 120 }[n] || 120) : (d.colW || 150), cardPx = colW - 6, gap = Math.floor((LANE_W - n * colW) / (n - 1));
       const vb = Hd.panelBox(S, { viewBox: 'bbox' });
       const boxH0 = d.boxH === 'ratio' ? Math.round(colW / (vb[2] / vb[3])) : (d.boxH || 136);
-      const boxH = ls ? Math.max(110, Math.min(boxH0, 200, BODY_STRIP - (16 + colW + 6 + 8) - 12 - 300)) : boxH0;   // (and the big box below keeps ≥ 300)   // (Level Set: a wide drawing never gets a sliver of a box)
+      const boxH = ls ? Math.max(110, Math.min(boxH0, 200, bodyStrip - (16 + colW + 6 + 8) - 12 - 300)) : boxH0;   // (and the big box below keeps ≥ 300)   // (Level Set: a wide drawing never gets a sliver of a box)
       const strip = C7.htdStrip({ S, cardPx, badges: true, gap, width: LANE_W, under: () => C7.htdPaper({ w: colW, h: boxH, role: 'stepBox' }) });
       const stripH = 16 + colW + 6 + 8 + boxH;
       let paper = '';
-      if (d.finalBox !== false) { const pp = paperSize(S, { free: ls, h: BODY_STRIP - stripH - 12, maxW: LANE_W, maxH: BODY_STRIP - stripH - 12 }); paper = C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' }); }
+      if (d.finalBox !== false) { const pp = paperSize(S, { free: ls, h: bodyStrip - stripH - 12, maxW: LANE_W, maxH: bodyStrip - stripH - 12 }); paper = C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' }); }
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${LANE_W}px">${strip}${paper}</div>`);
     } else if (mode === 'memory') {
       const mw = ls ? Math.min(440, Math.round((d.modelW || 220) * Math.sqrt(Math.max(1, ratioOf(S))))) : (d.modelW || 220);
@@ -285,7 +302,7 @@ module.exports = {
       const flapH = mh + 6 + 24;
       const flap = C7.htdFlap({ w: LANE_W, h: flapH, inner: model });
       const fold = C7.htdFold({ w: 675, h: 24 });
-      const avail = BODY_STRIP - flapH - 24 - 24;
+      const avail = bodyStrip - flapH - 24 - 24;
       let papers;
       if (d.secondBox) { const q = paperSize(S, { free: ls, w: Math.floor((LANE_W - 20) / 2), maxH: avail }); papers = `<div style="display:flex;gap:20px">${C7.htdPaper({ w: q.w, h: q.h, role: 'primary' })}${C7.htdPaper({ w: q.w, h: q.h, role: 'primary' })}</div>`; }
       else { const p = { w: (d.paper && d.paper.w) || 620, h: avail }; papers = C7.htdPaper({ w: p.w, h: p.h, role: 'primary', guides: d.hintShapes ? { S } : null }); }
@@ -294,7 +311,9 @@ module.exports = {
     } else throw new Error(`K-396: mode "${mode}" is not built`);
 
     // only a drawn-lesson page carries the marker: every other page stays byte-identical to its published build
-    return { bodyHtml: S.lesson === 'vector' ? root(d, unitSlug, body).replace('data-lcs-how-to-draw ', 'data-lcs-how-to-draw data-lcs-htd-lesson="vector" ') : root(d, unitSlug, body), meta };
+    return { bodyHtml: S.lesson === 'vector' ? root(d, unitSlug, body).replace('data-lcs-how-to-draw ', 'data-lcs-how-to-draw data-lcs-htd-lesson="vector" ') : root(d, unitSlug, body), meta,
+      // a maker copy that picked its unit: the unit (the title's tokens) and a Level Set copy's own title and instruction
+      ...(picked ? (() => { const s = this.copyStrings({ title: '\u0000', instruction: '\u0000' }, { unit: picked, locale, difficulty }); return { unit: picked, ...(s.title !== '\u0000' ? { strings: { title: s.title, printTitle: s.title, instruction: s.instruction } } : {}) }; })() : {}) };
   },
 
   async verify(page) {
@@ -362,7 +381,12 @@ module.exports = {
       if (mode === 'order') {
         const nums = [...R.querySelectorAll('[data-lcs-htd-numeral]')];
         if (nums.length !== n) fails.push(`${nums.length} numeral boxes for ${n} cards`);
-        nums.forEach((b) => { if (b.textContent.trim() || b.dataset.lcsAnswer !== '') fails.push('a numeral box is not empty'); });
+        // empty on the page; on a key / screen build each box carries ITS card's step number
+        const slotStep = (i) => { const c = R.querySelector(`[data-lcs-htd-slot="${i + 1}"] svg[data-lcs-prim="htd-step"]`); return c ? stepOf(c) : null; };
+        nums.forEach((b, i) => {
+          if (b.textContent.trim()) fails.push('a numeral box is not empty');
+          if (b.dataset.lcsAnswer !== '' && String(slotStep(i)) !== b.dataset.lcsAnswer) fails.push(`numeral box ${i + 1} carries ${b.dataset.lcsAnswer}, its card is step ${slotStep(i)}`);
+        });
       }
       if (mode === 'finish') {
         const model = R.querySelector('[data-lcs-htd-model] path'), copies = [...R.querySelectorAll('[data-lcs-htd-copy]')];

@@ -3844,7 +3844,15 @@
   },
   "K-480": {
     "title": "Kuvalabyrintti: astu vain eläinkuville",
-    "instruction": "Auta maanviljelijä traktorin luo. Astu vain eläinkuville.",
-    "printTitle": "Auta maanviljelijä traktorin luo"
+    "instruction": "Auta maanviljelijää pääsemään traktorin luo. Astu vain eläinkuville.",
+    "printTitle": "Auta maanviljelijää traktorin luo"
+  },
+  "K-481": {
+    "title": "Leikkaamisharjoitukset: viivoja pitkin",
+    "instruction": "Leikkaa jokaista katkoviivaa pitkin saksista kuvaan asti."
+  },
+  "K-482": {
+    "title": "Piirrä mallin mukaan pisteruudukkoon",
+    "instruction": "Katso jokaisen rivin viivaa. Piirrä sama viiva viereisiin tyhjiin pisteisiin oranssista pisteestä alkaen."
   }
 }

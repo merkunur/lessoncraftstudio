@@ -3853,8 +3853,16 @@
     "instruction": "Guarda il numero di ogni disegno. Cercalo nella legenda e colora il disegno di quel colore."
   },
   "K-480": {
-    "title": "Labirinto di figure: cammina sugli animali",
-    "instruction": "Aiuta il contadino a raggiungere il trattore. Cammina solo sugli animali.",
+    "title": "Labirinto di figure: passa dagli animali",
+    "instruction": "Aiuta il contadino a raggiungere il trattore. Passa solo dagli animali.",
     "printTitle": "Aiuta il contadino a raggiungere il trattore"
+  },
+  "K-481": {
+    "title": "Ritaglio lungo le linee",
+    "instruction": "Taglia lungo ogni linea tratteggiata, dalle forbici fino al disegno."
+  },
+  "K-482": {
+    "title": "Copia il disegno sui puntini",
+    "instruction": "Guarda la linea in ogni riga. Disegna la stessa linea sui puntini vuoti accanto, partendo dal puntino arancione."
   }
 }

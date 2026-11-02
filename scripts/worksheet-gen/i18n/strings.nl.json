@@ -3872,7 +3872,15 @@
   },
   "K-480": {
     "title": "Plaatjesdoolhof: stap alleen op de dieren",
-    "instruction": "Help de boer naar de tractor. Stap alleen op de dieren.",
+    "instruction": "Help de boer naar de tractor. Stap alleen op de stenen met dieren.",
     "printTitle": "Help de boer naar de tractor"
+  },
+  "K-481": {
+    "title": "Knippen langs de lijnen",
+    "instruction": "Knip langs elke stippellijn, van de schaar tot het plaatje."
+  },
+  "K-482": {
+    "title": "Teken het patroon na op de stippen",
+    "instruction": "Kijk naar de lijn in elke rij. Teken dezelfde lijn op de lege stippen ernaast, vanaf de oranje stip."
   }
 }

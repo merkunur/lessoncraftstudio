@@ -62,7 +62,7 @@
     "color-by-number": "Malen nach Zahlen und Farbcode",
     "coloring-pages": "Ausmalbilder",
     "mazes": "Labyrinthe",
-    "find-the-differences": "Unterschiede finden",
+    "find-the-differences": "Fehlersuchbilder",
     "how-to-draw": "Zeichnen lernen",
     "picture-tracing": "Bilder nachspuren"
   },
@@ -72,6 +72,7 @@
   "save": "Speichern",
   "originalText": "Ursprünglicher Text",
   "textTooLong": "Dieser Text passt nicht auf die Seite. Bitte kürzen.",
+  "textWrongNumber": "Eine Zahl in diesem Text stimmt nicht mit der Seite überein. Bitte ändern oder weglassen.",
   "tapHintText": "Klicken oder tippen Sie auf die Überschrift oder die Arbeitsanweisung, um sie zu ändern.",
   "duplicatePage": "Duplizieren",
   "moveUp": "Nach oben",

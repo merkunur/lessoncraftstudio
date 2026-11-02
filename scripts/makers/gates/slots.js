@@ -11,7 +11,11 @@
  *      and a key outside the pool are refused (the page is unchanged)
  *   3. every template that draws pictures or words from a pool exposes a slot (no silent template without tap-to-edit)
  *
- *   node scripts/makers/gates/slots.js [--ref=HEAD]
+ * The reference builds run in a WORKER process that loads only the reference tree (2026-11-02): loaded in this process
+ * beside the current code they shared module state through the linked data folder — an old engine merged its locales
+ * into a data module the current engine then read, and correct templates failed as "cannot be built".
+ *
+ *   node scripts/makers/gates/slots.js [--ref=HEAD] [--makers=a,b]
  */
 'use strict';
 const fs = require('fs');
@@ -20,6 +24,7 @@ const { execSync } = require('child_process');
 
 const REPO = path.resolve(__dirname, '..', '..', '..');
 const REF = (process.argv.find((a) => a.startsWith('--ref=')) || '--ref=HEAD').slice(6);
+const ONLY = ((process.argv.find((a) => a.startsWith('--makers=')) || '').slice(9)).split(',').filter(Boolean);
 const { makePage } = require('../runtime.js');
 const { resolveStrings } = require(path.join(REPO, 'scripts/worksheet-gen/i18n/strings.js'));
 const { makeRng, instanceSeed } = require(path.join(REPO, 'scripts/worksheet-gen/lib/rng.js'));
@@ -73,6 +78,13 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // Color by Number (2026-11-02): the code faces draw shapes and numerals / sums / facts by code (the Level control and
   // "New version" change them); the illustrated pictures (K-393 / K-394) are one drawn design each — the design is the page
   'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'K-394',
+  // the composed-scene makers (2026-11-02): a Find the Differences scene, a How to Draw lesson and a Picture Tracing scene
+  // are each ONE reviewed composition (the differences, the steps, the occlusion depend on every drawing in it) — "New
+  // version" walks the face's published and Level Set copies; a single drawing is never swapped
+  'K-395', 'K-397', 'K-398', 'K-399', 'K-400', 'G1-412', 'G1-413', 'G1-414', 'G1-415', 'G2-388', 'G2-389',
+  'K-396', 'K-401', 'K-402', 'K-403', 'K-404', 'G1-416', 'G1-417', 'G1-418', 'G1-419', 'G2-390', 'G2-391',
+  'K-418', 'K-419', 'K-420', 'K-421', 'K-422', 'K-423', 'K-424', 'K-425', 'K-426', 'K-427', 'K-428', 'K-429', 'K-430', 'K-431', 'K-432',
+  'G1-429', 'G1-430', 'G1-431', 'G1-432', 'G1-433',
   // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
   'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
@@ -81,6 +93,25 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'G1-246', 'G1-266', 'G1-267', 'G1-268', 'G1-289', 'G2-313', 'G3-349', 'G3-350']);
 // a template whose theme pictures are DECORATION only (themeAxis.decorative: a corner flourish on a numeral page) has
 // nothing a teacher would swap — no slot is required
+
+const WORKER = `'use strict';
+const fs = require('fs'), path = require('path'), crypto = require('crypto');
+const { makeRng, instanceSeed } = require('./scripts/worksheet-gen/lib/rng.js');
+const sha = (x) => crypto.createHash('sha1').update(String(x)).digest('hex');
+const norm = (x) => String(x).split('.scratch/slots-ref/').join('');
+(async () => {
+  const jobs = JSON.parse(fs.readFileSync(path.join(__dirname, 'slots-jobs.json'), 'utf8')), out = {}, types = {};
+  for (const j of jobs) {
+    if (!(j.file in types)) { try { types[j.file] = require(path.join(__dirname, j.file)); } catch (e) { types[j.file] = { loadError: e.message }; } }
+    const type = types[j.file];
+    if (type.loadError) { out[j.key] = { loadError: type.loadError }; continue; }
+    const seed = instanceSeed({ typeId: j.id, theme: j.theme, difficulty: j.d, seedEpoch: 1, variant: j.v, unit: j.unit });
+    try { const a = await type.build({ theme: j.theme, difficulty: j.d, locale: 'en', unit: j.unit }, { rng: makeRng(seed), variant: j.v }); out[j.key] = { h: sha(norm(a.bodyHtml)), m: sha(norm(JSON.stringify(a.meta))) }; }
+    catch (e) { out[j.key] = { err: e.message }; }
+  }
+  fs.writeFileSync(path.join(__dirname, 'slots-ref.json'), JSON.stringify(out));
+})().catch((e) => { console.error(e); process.exit(1); });
+`;
 
 let fails = 0;
 const fail = (m) => { fails++; console.log('FAIL ' + m); };
@@ -115,35 +146,52 @@ for (const d of ['data', 'i18n', 'cache', 'assets']) {
   }
 }
 
-// every maker built so far (out/makers/versions.json)
+// every maker built so far (out/makers/versions.json), or the ones asked for
 const MAKER_LANG = Object.fromEntries(require('../topic-map.js').MAKERS.map((x) => [x.id, x.lang]));
-const MAKERS = Object.keys(JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers/versions.json'), 'utf8')));
+const MAKERS = Object.keys(JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers/versions.json'), 'utf8'))).filter((m) => !ONLY.length || ONLY.includes(m));
+const crypto = require('crypto');
+const sha = (x) => crypto.createHash('sha1').update(String(x)).digest('hex');
+const tjOf = (m) => JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers', m, fs.readFileSync(path.join(REPO, 'out/makers', m, 'current.txt'), 'utf8').trim(), 'templates.json'), 'utf8'));
+const themesOf = (t) => (t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null]);
+// a unit drawn for one level (t.unitLevels) is asked for at that level only
+const unitAtOf = (t) => (d) => ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
+const jobKey = (id, theme, d, v) => [id, theme, d, v].join('|');
+// 1 (reference side): the catalogue builds of every template that existed at REF, by the worker in its own process
+const jobs = [];
+for (const m of MAKERS) for (const t of tjOf(m).templates) {
+  if (!fs.existsSync(path.join(tmp, t.file))) continue;
+  const unitAt = unitAtOf(t);
+  for (const theme of themesOf(t)) for (const d of t.levels) for (const v of [1, 2]) jobs.push({ key: jobKey(t.id, theme, d, v), id: t.id, file: t.file, theme, d, v, unit: unitAt(d) });
+}
+fs.writeFileSync(path.join(tmp, 'slots-jobs.json'), JSON.stringify(jobs));
+fs.writeFileSync(path.join(tmp, 'slots-ref-worker.js'), WORKER);
+execSync('node slots-ref-worker.js', { cwd: tmp, stdio: 'inherit', maxBuffer: 64 << 20 });
+const REFOUT = JSON.parse(fs.readFileSync(path.join(tmp, 'slots-ref.json'), 'utf8'));
+
 for (const m of MAKERS) {
   const ver = fs.readFileSync(path.join(REPO, 'out/makers', m, 'current.txt'), 'utf8').trim();
   const tj = JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers', m, ver, 'templates.json'), 'utf8'));
   for (const t of tj.templates) {
     const type = require(path.join(REPO, t.file));
-    let refType = null;
     const isNew = !fs.existsSync(path.join(tmp, t.file));   // a template born after REF has no catalogue output to keep
-    if (!isNew) { try { refType = require(path.join(tmp, t.file)); } catch (e) { fail(`${t.id}: cannot load ${REF} version (${e.message})`); } }
+    const loadErr = !isNew && (REFOUT[jobKey(t.id, themesOf(t)[0], t.levels[0], 1)] || {}).loadError;
+    if (loadErr) fail(`${t.id}: cannot load ${REF} version (${loadErr})`);
     const strings = resolveStrings(t.id, 'en', type);
-    const themes = t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null];
-    // a unit drawn for one level (t.unitLevels) is asked for at that level only
-    const unitAt = (d) => ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
-    // 1. catalogue untouched
+    const themes = themesOf(t);
+    const unitAt = unitAtOf(t);
+    // 1. catalogue untouched (the reference side was built by the worker; the reference tree's picture file URLs carry its
+    // .scratch/slots-ref/ prefix, which the worker removed — the only allowed difference)
     let same = 0, n = 0;
     for (const theme of themes) for (const d of t.levels) for (const v of [1, 2]) {
       n++;
       const unit = unitAt(d);
       const seed = instanceSeed({ typeId: t.id, theme, difficulty: d, seedEpoch: 1, variant: v, unit });
-      let a, b, ea = null, eb = null;
-      // a seed that cannot be built (the maker then retries a fresh seed) is unchanged when it threw before too
-      try { a = refType && refType.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v }); } catch (e) { ea = e; }
+      const r = isNew ? null : REFOUT[jobKey(t.id, theme, d, v)];
+      let b, eb = null;
       try { b = type.build({ theme, difficulty: d, locale: 'en', unit }, { rng: makeRng(seed), variant: v }); } catch (e) { eb = e; }
-      if (ea || eb) { if (ea && eb && refType) same++; else if (!refType && eb) fail(`${t.id}: build threw (${eb.message})`); continue; }
-      // the reference tree sits in .scratch/slots-ref/: its picture file URLs carry that prefix — the only allowed difference
-      const norm = (x) => String(x).split('.scratch/slots-ref/').join('');
-      if (a && norm(a.bodyHtml) === b.bodyHtml && norm(JSON.stringify(a.meta)) === JSON.stringify(b.meta)) same++;
+      // a seed that cannot be built (the maker then retries a fresh seed) is unchanged when it threw before too
+      if ((r && r.err) || eb) { if (r && r.err && eb) same++; else if (!r && eb) fail(`${t.id}: build threw (${eb.message})`); continue; }
+      if (r && !r.loadError && r.h === sha(b.bodyHtml) && r.m === sha(JSON.stringify(b.meta))) same++;
     }
     if (!isNew && same !== n) fail(`${t.id}: catalogue output changed in ${n - same}/${n} builds`);
     // 2 + 3. slots in the maker

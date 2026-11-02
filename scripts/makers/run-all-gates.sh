@@ -4,7 +4,8 @@
 # script exits non-zero when any gate fails. Run it after build-bundles.js (it reads out/makers/).
 cd "$(dirname "$0")/../.." || exit 2
 ARGS="$*"
-LOGS=out/makers-gates; mkdir -p "$LOGS"; rm -f "$LOGS"/*.log
+# GATE_LOGS=<dir>: two suites (two makers) can run side by side without sharing a log folder
+LOGS=${GATE_LOGS:-out/makers-gates}; mkdir -p "$LOGS"; rm -f "$LOGS"/*.log
 GATES=(unit-tests lint-browser-safe parity sha1-parity answer-keys screen-from-marks declared-screens slots unique-solution
        controls-budget collision own-input settings-space screen-geometry pdf-parity thumbs registration old-landings
        click-shell edit-shell access-shell keys-shell themes-shell saves-shell exports-shell play-shell live-gate)

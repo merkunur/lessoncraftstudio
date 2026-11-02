@@ -21,7 +21,8 @@ let ASSET_BASE = '/makers-assets';
 // ART files (2026-11-02): one file per picture of a picture family (data/d2d/<scene>.json …) is NOT preloaded; a build
 // that reads one throws PlatformMissing, runtime.generate asks fetchMissing() for it and builds again. Only these paths
 // are ever fetched; every other missing file stays an error.
-const LAZY = /^scripts\/worksheet-gen\/data\/(d2d|cbn\/lineart|fd|htd|htdx|htdv)\/[a-z0-9-]+\.json$/;
+// (+ the Picture Tracing trace store, one file per library drawing: data/pt/traces/<theme>__<noun>.json — lib/pt-store.js)
+const LAZY = /^scripts\/worksheet-gen\/data\/((d2d|cbn\/lineart|fd|htd|htdx|htdv)\/[a-z0-9-]+|pt\/traces\/[^\/]+__[^\/]+)\.json$/;
 let FETCHER = null;
 
 const key = (p) => String(p).replace(/\\/g, '/').replace(/^\/+/, '');

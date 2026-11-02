@@ -13,10 +13,12 @@ for (const b of ['b1', 'b2', 'b3', 'b4', 'b5', 'b6']) {
   try { SCENES.push(...require('./scenes-' + b + '.js')(Sc)); } catch (e) { if (e.code !== 'MODULE_NOT_FOUND') throw e; }
 }
 // cast swaps (tools/fdx-diversify.js): shared drawings replaced so no two scenes overlap past qa/fdx-distinct.js
-{ let SW = {}; try { SW = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'cast-swaps.json'), 'utf8')); } catch (e) { SW = {}; }
+// (plain JSON requires, so the Find the Differences maker bundles both files — a data module the browser platform
+// preloads must not require the platform back: makers 2026-11-02)
+{ const SW = require('./cast-swaps.json');
   for (const s of SCENES) { const m = SW[s.id]; if (m) s.cast = s.cast.map((c) => { const k = typeof c === 'string' ? c : c.src; return m[k] ? (typeof c === 'string' ? m[k] : { ...c, src: m[k] }) : c; }); } }
 // enrichment (data/fdx/enrich.json): the sparsest scenes gain three drawings that belong in their setting
-{ let EN = {}; try { EN = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'enrich.json'), 'utf8')); } catch (e) { EN = {}; }
+{ const EN = require('./enrich.json');
   for (const s of SCENES) { const add = EN[s.id]; if (Array.isArray(add)) s.cast = [...s.cast, ...add]; } }
 // the level follows the drawing count (cast + hero), never the authored guess: L1 ≤ 6 · L2 7-9 · L3 ≥ 10
 for (const s of SCENES) { const n = s.cast.length + 1; s.level = n <= 6 ? 1 : n >= 10 ? 3 : 2; }

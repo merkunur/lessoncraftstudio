@@ -39,6 +39,8 @@ const EXEMPT = [
   ['svg[data-lcs-prim="number-line"]', '.ws-answerbox', 'a label box sits on its tick of the number line by design (G2-395 label the number line)'],
   ['[data-lcs-house] > svg', '*', 'the odd / even house outline frames its content: the tiles and boxes live inside the house by design (G1-351)'],
   ['svg[data-lcs-ink]', '*', "the teacher's own drawing lies over the page by design"],
+  ['svg[data-lcs-htd-rail]', '[data-lcs-htd-badge], [data-lcs-htd-badge] *', 'the step numbers sit ON the steps rail: the rail runs behind each numbered badge by design (How to Draw)'],
+  ['svg[data-lcs-htd-ring]', 'svg', 'the dashed ring marks the empty place IN the scene where the child draws: it lies over the scene by design (How to Draw, draw in the scene)'],
   ['svg[data-lcs-prim="logic-grid"], svg[data-lcs-prim="logic-lgrid"]', 'img[data-lcs-col], img[data-lcs-rowpic]', 'the elimination grid frames its column and row pictures: each sits in its header cell by design (G2-319 family; the two-attribute grid of G3-379 too)'],
   ['[data-lcs-ring] > svg, [data-lcs-clue-cross] svg', 'img[data-lcs-pic]', 'a picture clue rings its picture, and crosses out a "does not have" picture, on purpose (G1-349)'],
   ['[data-lcs-clue-cross] svg', '[data-lcs-ring] > svg', 'the cross of a "does not have" clue lies inside its own ring (G1-349)'],

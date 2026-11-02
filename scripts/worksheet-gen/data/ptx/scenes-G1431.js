@@ -31,7 +31,7 @@ function checkHole(id, level, hole, items, motifs) {
 const copy = (id, level, name, instr, build) => {
   const s = build(); checkHole(id, level, s.hole, s.items, s.motifs);
   return { id: 'ptx-G1-431-' + id, face: 'G1-431', level, name: { en: name }, instr: { en: instr },
-    skin: () => { const b = build(); return { ...BAND[level], decor: process.env.PTL_SHOW_HOLE ? [{ m: 'roundRect', a: [b.hole.x0, b.hole.y0, b.hole.x1 - b.hole.x0, b.hole.y1 - b.hole.y0, 2], w: 1 }] : [],
+    skin: () => { const b = build(); return { ...BAND[level], decor: (typeof process !== 'undefined' && process.env && process.env.PTL_SHOW_HOLE) ? [{ m: 'roundRect', a: [b.hole.x0, b.hole.y0, b.hole.x1 - b.hole.x0, b.hole.y1 - b.hole.y0, 2], w: 1 }] : [],
       motifs: b.motifs, items: b.items.map(({ container, ...it }) => it), ...(b.budget ? { budget: b.budget } : {}) }; } };
 };
 const D = (what) => `Trace the whole picture. Then draw ${what}.`;

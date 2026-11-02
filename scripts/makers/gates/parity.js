@@ -23,7 +23,14 @@ const PER = Number(args.per || 6);
 // default: every maker built so far (out/makers/versions.json), not just the pilot
 const makers = String(args.makers || Object.keys(JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', '..', '..', 'out', 'makers', 'versions.json'), 'utf8'))).join(',')).split(',');
 
+// a picture Node inlines (Picture Tracing's "look at it" model: base64 in Node, the CDN URL in the browser — spike S6) is
+// compared by its BYTES: the base64 is hashed, the browser's <image href> is read from the same library file and hashed
+const crypto = require('crypto');
+const b64Token = (b) => 'ASSET:b64:' + crypto.createHash('sha1').update(b).digest('hex');
+const fileToken = (p) => { const f = path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512', decodeURIComponent(p)); return fs.existsSync(f) ? b64Token(fs.readFileSync(f).toString('base64')) : 'ASSET:missing:' + p; };
 const norm = (h) => h
+  .replace(/data:image\/webp;base64,([A-Za-z0-9+/=]+)/g, (m, b) => b64Token(b))
+  .replace(/(<image\b[^>]*?\bhref=")\/makers-assets\/themes-512\/([^"]+)"/g, (m, pre, p) => pre + fileToken(p) + '"')
   .replace(/file:\/\/\/[^'")\s]*?\/cache\/themes(?:-512)?\/([^'")\s]+)/g, (m, p) => 'ASSET:themes/' + decodeURIComponent(p))
   .replace(/\/makers-assets\/themes-512\/([^'")\s]+)/g, (m, p) => 'ASSET:themes/' + decodeURIComponent(p))
   .replace(/file:\/\/\/[^'")\s]*?\/assets\/fonts\/([^'")\s]+)/g, 'ASSET:fonts/$1')
@@ -61,7 +68,8 @@ async function main() {
     const dm = JSON.parse(fs.readFileSync(path.join(OUT, id, ver, 'data-manifest.json'), 'utf8'));
     for (const t of tj.templates) {
       const spec = require(path.join(REPO, t.file));
-      const units = spec.unitAxis && spec.unitAxis.applicable ? null : [null];
+      // (unitAxis.makerCopies: the maker offers no list — a copy picks its own unit, as the screen does)
+      const units = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? null : [null];
       const list = [];
       t.locales.forEach((loc, i) => {
         const d = t.levels[i % t.levels.length];

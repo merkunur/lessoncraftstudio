@@ -75,7 +75,7 @@ const lineCount = () => {
   const CASES = [
     { n: 1, field: 'title', sel: '[data-lcs-title]', value: 'Ü' + 'supercalifragilisticexpialidocious'.repeat(3).slice(0, 79), expect: 'either' },
     { n: 2, field: 'title', sel: '[data-lcs-title]', value: 'Free printable worksheet', expect: 'refused', only: 'en' },
-    { n: 3, field: 'title', sel: '[data-lcs-title]', value: '<b>bold</b> <img src=x onerror="window.__pwned=1"> title', expect: 'accepted-text' },
+    { n: 3, field: 'title', sel: '[data-lcs-title]', value: '<b>bold</b> <img src=x onerror="window.__pwned=true"> title', expect: 'accepted-text' },   // (no digit: a page that counts — Find the Differences — rightly refuses a number it does not carry)
     { n: 4, field: 'instruction', sel: '[data-lcs-instruction]', value: 'Count every picture in every box very carefully and then circle the right number. '.repeat(3).slice(0, 220), expect: 'either' },
     { n: 5, field: 'title', sel: '[data-lcs-title]', value: '   ', expect: 'original' },
     { n: 6, field: 'instruction', sel: '[data-lcs-instruction]', value: 'Count the pictures in each box. Then circle the number that tells how many there are.', expect: 'accepted' },

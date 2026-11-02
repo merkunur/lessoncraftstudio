@@ -73,13 +73,18 @@ function htdFullCard({ S, w, h = null, without = [], fill = null, frame = 'card'
  * the ladder: a vertical rail with n cards at `order` (step indices, DOM order = slot order), space-between in `height`;
  * `beside` = 'numeral' (an empty numeral box beside each card) | 'box' (an empty paper beside each card) | null
  */
-function htdLadder({ S, cardPx = 150, order = null, badges = true, beside = null, besideW = 64, besideH = 60, besideRatio = null, height = 660, rail = 'left' }) {
+// answers (makers 2026-11-02): 'key' | 'screen' — the order face's key and screen builds stamp each numeral box with its
+// card's step number (the key shows it, the screen grades it); the page build leaves every box empty, as published
+function htdLadder({ S, cardPx = 150, order = null, badges = true, beside = null, besideW = 64, besideH = 60, besideRatio = null, height = 660, rail = 'left', answers = false }) {
   const n = S.steps.length, seq = order || S.steps.map((_, i) => i);
   const rows = seq.map((k, slot) => {
     const svg = Hd.stepSvg(S, k, { width: cardPx, height: cardPx, viewBox: 'bbox', lastInInk: true, shapes: false });
     const card = htdCard({ svg, size: cardPx, n: badges ? k + 1 : null, badge: badges ? 'digit' : null, badgeAt: 'ladder', attrs: `data-lcs-htd-slot="${slot + 1}"` });
     let side = '';
-    if (beside === 'numeral') side = `<span class="ws-blankbox" data-lcs-answer="" data-lcs-htd-numeral="${slot + 1}" style="width:${besideW}px;height:${besideH}px;flex:0 0 ${besideW}px;display:block"></span>`;
+    // (the key also centres its number big in the box; the screen build changes nothing but the mark)
+    if (beside === 'numeral') side = answers === 'key'
+      ? `<span class="ws-blankbox" data-lcs-answer="${k + 1}" data-lcs-htd-numeral="${slot + 1}" style="width:${besideW}px;height:${besideH}px;flex:0 0 ${besideW}px;display:flex;align-items:center;justify-content:center;font:700 34px/1 'Baloo 2',cursive"></span>`
+      : `<span class="ws-blankbox" data-lcs-answer="${answers ? k + 1 : ''}" data-lcs-htd-numeral="${slot + 1}" style="width:${besideW}px;height:${besideH}px;flex:0 0 ${besideW}px;display:block"></span>`;
     if (beside === 'box') side = htdPaper({ w: besideW, h: besideH, role: 'stepBox', attrs: `data-lcs-htd-col="${slot + 1}"` });
     return `<div style="display:flex;align-items:center;gap:10px;flex-direction:${rail === 'right' ? 'row-reverse' : 'row'}">${card}${side}</div>`;
   }).join('');

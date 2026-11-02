@@ -72,6 +72,7 @@
   "save": "Gem",
   "originalText": "Oprindelig tekst",
   "textTooLong": "Teksten kan ikke være på siden. Gør den kortere.",
+  "textWrongNumber": "Et tal i teksten stemmer ikke med siden. Ret det, eller fjern det.",
   "tapHintText": "Klik eller tryk på overskriften eller instruktionen for at ændre den.",
   "duplicatePage": "Dupliker",
   "moveUp": "Flyt op",

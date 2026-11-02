@@ -795,7 +795,8 @@ function openTextEditor(i, field, current) {
     if (value && value.trim()) tx[field] = value.trim().replace(/\s+/g, ' '); else delete tx[field];
     const r = await pageResult(i);
     // (an edited page keeps its unedited page's attempt — runtime.generate — so a text that needs another seed is refused there)
-    if (!r.ok) { state.texts[i] = JSON.parse(before); note.textContent = UI.textTooLong; return; }
+    // (a number the text names that the page does not carry — Find 4 differences on a page of 5 — is refused for what it is)
+    if (!r.ok) { state.texts[i] = JSON.parse(before); note.textContent = (r.fails || []).some((f) => /\bsays \d|digit in the title/.test(f)) ? UI.textWrongNumber : UI.textTooLong; return; }
     dlg.close();
     render();
   };

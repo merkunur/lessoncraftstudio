@@ -3,6 +3,8 @@
   "writing": {
     "reason": "real writing practice (tracing, copying, cursive, drawing) — typing cannot stand in for the motor act",
     "ids": [
+      "K-482",
+      "K-483",
       "K-372",
       "K-323",
       "K-342",
@@ -164,6 +166,7 @@
   "material": {
     "reason": "classroom material (cards, cut-outs, strips, charts) — nothing to check",
     "ids": [
+      "K-481",
       "K-455",
       "K-453",
       "G1-452",

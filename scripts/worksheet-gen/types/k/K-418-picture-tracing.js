@@ -12,7 +12,7 @@
  * tools/b9var-rows/picture-tracing.js. Nothing is sampled: a face's page is fully determined by its scene.
  */
 'use strict';
-const { composeScene } = require('../../lib/pt-scene.js');
+const { composeSceneSync } = require('../../lib/pt-scene.js');   // synchronous: the traces come from the store (lib/pt-store.js)
 const { sceneFor } = require('../../data/b9/face-scenes.js');
 const { EN_STRINGS } = require('../../data/b9/picture-tracing.js');
 
@@ -34,10 +34,19 @@ module.exports = {
     en: { title: EN_STRINGS.base.title, printTitle: EN_STRINGS.base.printTitle, instruction: EN_STRINGS.base.instruction },
   },
 
-  async build({ difficulty, locale, unit }) {
+  build({ difficulty, locale, unit }, ctx) {
     const d = this.difficulty[difficulty] || this.difficulty[2];
     const loc = String(locale || 'en').slice(0, 2);
     const PTX = require('../../lib/ptx.js');
+    // the maker (no unit): copy n = the n-th unit of this face at this level (null = the published page; makers 2026-11-02)
+    let picked = null;
+    if (!unit && ctx && ctx.slotsOut) {
+      const list = PTX.makerUnits(this.id, difficulty);
+      const v = String((ctx.seedVariant || ctx.variant) || 1);
+      const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
+      picked = list[(n - 1) % list.length] || null;
+      if (picked) unit = picked;
+    }
     // F17 prints the locale's OWN four picture names (the bank's `words`; a locale without them REFUSES, never English)
     let words;
     if (d.mode === 'picture-and-word') {
@@ -58,13 +67,21 @@ module.exports = {
       sc = r.scene;
     } else sc = sceneFor(d.mode, { words });
     if (!sc) throw new Error('K-418: no scene for mode ' + d.mode);
-    const out = await composeScene(sc);
+    const out = composeSceneSync(sc);
     if (out.problems.length) throw new Error('K-418: scene ' + d.mode + ': ' + out.problems.join('; '));
+    // the answer key (makers 2026-11-02): the three faces whose page has an answer draw it over the scene, the page itself
+    // unchanged — the count in its box (K-427), a ring round each hidden animal (G1-433), every circle coloured (K-430)
+    if (ctx && ctx.answerKey) {
+      const k = keyLayer(d.mode, sc, out);
+      if (k) out.svg = out.svg.replace(/<\/svg>\s*$/, k + '</svg>');
+    }
     // a Level Set copy balances its instruction lines (same line count, never a one-word last line — the measured widow gate in
     // tools/level-set/ptl-render.js); the published page keeps its bytes
     const ptxStyle = PTX.isPtx(unit) ? '<style>[data-lcs-instruction]{text-wrap:balance}</style>' : '';
     const bodyHtml = `${ptxStyle}<div data-ws-content data-lcs-pt-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${out.svg}</div>`;
-    return { bodyHtml, meta: { mode: d.mode, pictures: out.placed.filter((p) => !p.motif).map((p) => p.src), metrics: out.metrics } };
+    // a maker copy carries its own unit and the Level Set strings of that copy (title with its scene's name, its instruction)
+    const copy = picked ? { unit: picked, strings: this.copyStrings({}, { unit: picked, locale: loc }) } : {};
+    return { bodyHtml, meta: { mode: d.mode, pictures: out.placed.filter((p) => !p.motif).map((p) => p.src), metrics: out.metrics }, ...copy };
   },
 
   /**
@@ -93,6 +110,34 @@ module.exports = {
     return checkMetrics(info.m, { renderedH: info.h, words: info.words, allowText: info.allowText });
   },
 };
+
+/** the key's marks over a composed scene (scene px = the svg's own units); null when the face has nothing to mark */
+function keyLayer(mode, sc, out) {
+  const TEAL = '#146B5E', CORAL = '#F2784B';
+  if (mode === 'trace-and-count') {
+    // the answer box is the roundRect at 16,16 120×120 with its write line at y 112 (face-scenes.js / ptx scenes-K427.js BOX)
+    const n = sc.count && sc.count.n;
+    if (!(n > 0)) throw new Error('K-427 key: the scene declares no count');
+    return `<text data-lcs-key-sample="count" x="76" y="104" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="72" fill="${TEAL}">${n}</text>`;
+  }
+  if (mode === 'hidden-animals') {
+    const hidden = (sc.items || []).filter((it) => it.hidden);
+    const rings = hidden.map((it) => {
+      const p = out.placed.find((q) => q.item === it && q.box);   // the composer keeps each item's own spec
+      if (!p) throw new Error('K-418 key: hidden ' + it.src + ' was not placed');
+      const b = p.box, m = 8;
+      return `<rect data-lcs-key-sample="ring" x="${(b.x0 - m).toFixed(1)}" y="${(b.y0 - m).toFixed(1)}" width="${(b.x1 - b.x0 + 2 * m).toFixed(1)}" height="${(b.y1 - b.y0 + 2 * m).toFixed(1)}" rx="16" fill="none" stroke="${CORAL}" stroke-width="5"/>`;
+    });
+    if (!rings.length) throw new Error('K-418 key: no hidden animals in the scene');
+    return rings.join('');
+  }
+  if (mode === 'shape-picture') {
+    const circles = (sc.motifs || []).filter((mo) => mo.m === 'circle');
+    if (circles.length < 2) throw new Error('K-430 key: fewer than 2 circles in the scene');
+    return circles.map((mo) => `<circle data-lcs-key-sample="circle" cx="${mo.a[0]}" cy="${mo.a[1]}" r="${mo.a[2]}" fill="${CORAL}" fill-opacity="0.45"/>`).join('');
+  }
+  return null;
+}
 
 /** the band rules on a scene's measurements → failure strings (shared by verify() and the family gate) */
 // + the Level Set bands (ptl-levels.md §0): the budget and floor of the level's band

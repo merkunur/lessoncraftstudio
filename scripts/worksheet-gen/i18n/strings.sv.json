@@ -3838,7 +3838,15 @@
   },
   "K-480": {
     "title": "Bildlabyrint: gå bara på djuren",
-    "instruction": "Hjälp bonden till traktorn. Gå bara på djuren.",
+    "instruction": "Hjälp bonden till traktorn. Gå bara på stenarna med djur.",
     "printTitle": "Hjälp bonden till traktorn"
+  },
+  "K-481": {
+    "title": "Klipp längs linjerna",
+    "instruction": "Klipp längs varje streckad linje, från saxen till bilden."
+  },
+  "K-482": {
+    "title": "Rita av mönstret på prickarna",
+    "instruction": "Titta på linjen i varje rad. Rita samma linje på de tomma prickarna bredvid, från den orangea pricken."
   }
 }

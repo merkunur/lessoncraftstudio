@@ -3862,8 +3862,20 @@
     "instruction": "Mira el número de cada dibujo. Búscalo en el código y colorea el dibujo de ese color."
   },
   "K-480": {
-    "title": "Laberinto de dibujos: pisa solo los animales",
-    "instruction": "Ayuda al granjero a llegar al tractor. Pisa solo los animales.",
+    "title": "Laberinto de dibujos: pasa solo por los animales",
+    "instruction": "Ayuda al granjero a llegar al tractor. Pasa solo por los animales.",
     "printTitle": "Ayuda al granjero a llegar al tractor"
+  },
+  "K-481": {
+    "title": "Recortar por las líneas",
+    "instruction": "Recorta sobre cada línea punteada, desde las tijeras hasta el dibujo."
+  },
+  "K-482": {
+    "title": "Copia el dibujo en los puntos",
+    "instruction": "Mira la línea de cada fila. Dibuja la misma línea en los puntos vacíos de al lado, desde el punto naranja."
+  },
+  "K-483": {
+    "title": "Trazos de las letras: líneas, curvas y arcos",
+    "instruction": "Repasa cada trazo punteado empezando en el punto naranja. Todas las letras al principio del renglón usan este trazo."
   }
 }

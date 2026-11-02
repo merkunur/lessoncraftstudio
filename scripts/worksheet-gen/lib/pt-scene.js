@@ -21,15 +21,29 @@ const { traceDrawing } = require('./pt-trace.js');
 const R = require('./pt-render.js');
 const M = require('./pt-motifs.js');
 
+const platform = require('./platform/index.js');
+const store = require('./pt-store.js');
+
 const LIB = path.join(__dirname, '..', 'cache', 'themes');
 const cache = new Map();
+/** the LIVE trace (sharp decode + the tracer, Node only): the laws need its typed arrays (ink, skeleton) */
 async function traceOf(rel) {
   if (!cache.has(rel)) cache.set(rel, traceDrawing(path.join(LIB, rel + '@3x.webp')));
   return cache.get(rel);
 }
-/** a trace made elsewhere (the precomputed trace store a maker ships, S6 2026-11-01): composeScene then never traces
- *  that drawing itself. Typed arrays the store cannot carry (ink, skeleton, body) are only needed by the laws. */
-function primeTrace(rel, tr) { cache.set(rel, Promise.resolve(tr)); }
+/** the traces a scene is composed from: primed, or read from the trace store (lib/pt-store.js) — the same numbers
+ *  as a live trace, read synchronously (a maker page is built synchronously and never traces: makers 2026-11-02) */
+const ready = new Map();
+function sceneTrace(rel) {
+  if (ready.has(rel)) return ready.get(rel);
+  const f = store.fileOf(rel);
+  if (!platform.exists(f)) return null;
+  const tr = store.unpack(platform.readJson(f));
+  ready.set(rel, tr);
+  return tr;
+}
+/** a trace made elsewhere (S6 2026-11-01): composeScene then never traces that drawing itself */
+function primeTrace(rel, tr) { cache.set(rel, Promise.resolve(tr)); ready.set(rel, tr); }
 
 /** split every polyline by a point predicate; keep the runs where keep(p) is true */
 function clipBy(placed, keep) {
@@ -96,7 +110,8 @@ function clipByMask(lines, occ, W, H) {
   return out;
 }
 
-async function composeScene(scene, opts = {}) {
+/** composeScene, synchronous: every drawing's trace must be primed or in the store (a drawing outside it THROWS) */
+function composeSceneSync(scene, opts = {}) {
   const W = scene.W || 675, H = scene.H || 716;
   const style = scene.style || 'P2';
   const problems = [], placed = [];
@@ -116,7 +131,8 @@ async function composeScene(scene, opts = {}) {
       e.box = bboxOf(e.lines); e.src = 'motif:' + (mo.shape || mo.m);
     } else {
       const it = e.spec;
-      e.tr = await traceOf(it.src);
+      e.tr = sceneTrace(it.src);
+      if (!e.tr) throw new Error('pt-scene: ' + it.src + ' is not in the trace store (node tools/pt-store-build.js)');
       if (it.axisX != null) {
         // F19 "the other half": the drawing's MEASURED symmetry axis (data/pt/symmetry.json, work px) lands on axisX,
         // and the split is that axis — never the ink-box centre (a hand-drawn picture is rarely centred on its box)
@@ -285,4 +301,10 @@ function bboxOf(lines) {
   return { x0, y0, x1, y1 };
 }
 
-module.exports = { composeScene, traceOf, primeTrace, bboxOf, clipHalf, clipBy };
+/** the offline composer (tools, gates): a drawing outside the store is traced live first, then the same synchronous
+ *  composition — so a scene that only reads the store composes exactly as the maker composes it */
+async function composeScene(scene, opts = {}) {
+  for (const it of scene.items || []) if (!sceneTrace(it.src)) ready.set(it.src, await traceOf(it.src));
+  return composeSceneSync(scene, opts);
+}
+module.exports = { composeScene, composeSceneSync, sceneTrace, traceOf, primeTrace, bboxOf, clipHalf, clipBy };

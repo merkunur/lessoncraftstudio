@@ -7,7 +7,6 @@
  * native panels' tables data/ptx/i18n/<loc>.json ({ names: {unit: s}, instr: {unit: s}, words: {unit: [4]} }).
  */
 'use strict';
-const fs = require('fs'); const path = require('path');
 const LOCS = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const NAMES = {}, INSTR = {}, WORDS = {};
 const { catalog } = require('../../lib/ptx.js');
@@ -17,10 +16,11 @@ for (const e of catalog().values()) {
   // a scene may carry every locale's words (G1-430 builds them from image-vocabulary.js); a native table overrides them
   for (const [l, w] of Object.entries(e.words || {})) (WORDS[e.id] = WORDS[e.id] || {})[l] = w;
 }
+// (literal requires: the Picture Tracing maker bundles the ten tables — makers 2026-11-02)
+const TABLES = { de: require('./i18n/de.json'), fr: require('./i18n/fr.json'), es: require('./i18n/es.json'), pt: require('./i18n/pt.json'), it: require('./i18n/it.json'), nl: require('./i18n/nl.json'), sv: require('./i18n/sv.json'), da: require('./i18n/da.json'), no: require('./i18n/no.json'), fi: require('./i18n/fi.json') };
 for (const loc of LOCS.slice(1)) {
-  const f = path.join(__dirname, 'i18n', loc + '.json');
-  if (!fs.existsSync(f)) continue;
-  const t = JSON.parse(fs.readFileSync(f, 'utf8'));
+  const t = TABLES[loc];
+  if (!t) continue;
   for (const [u, v] of Object.entries(t.names || {})) (NAMES[u] = NAMES[u] || {})[loc] = v;
   for (const [u, v] of Object.entries(t.instr || {})) (INSTR[u] = INSTR[u] || {})[loc] = v;
   for (const [u, v] of Object.entries(t.words || {})) (WORDS[u] = WORDS[u] || {})[loc] = v;

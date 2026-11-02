@@ -81,6 +81,14 @@ function clipDecoy(box, diffs) {
  * (the panel's width is fixed, the viewBox scales). Published units keep the published window.
  */
 const winOf = (d, unit) => { const w = d.window || [260, 200]; return /^fdx-/.test(String(unit || '')) ? [Math.round(w[0] * 1.15), Math.round(w[1] * 1.15)] : w; };
+/** a maker copy that picked its unit (makers 2026-11-02): the unit (runtime.makePage names it in the title) and, for the
+ *  two-pair faces, the Level Set copy's own title (copyStrings) */
+function makerCopy(spec, picked, locale) {
+  if (!picked) return {};
+  const probe = '\u0000';
+  const s = spec.copyStrings({ title: probe, printTitle: probe }, { unit: picked, locale });
+  return { unit: picked, ...(s.title !== probe ? { strings: { title: s.title, printTitle: s.printTitle } } : {}) };
+}
 function planFor(d, mode, unitArg) {
   // a Level Set copy may ask for a COLOUR rendering of a line face: its unit carries '@c' (data/fdx scenes, 2026-10-10;
   // the half of the expansion that is painted). Published units never carry it, so their pages are unchanged.
@@ -247,8 +255,14 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'find-the-differences',
   themeAxis: { applicable: false },
+  // a teacher's longer title or instruction: the maker rebuilds the page with ctx.chromeExtra = the px the text took past
+  // the footer, and the pictures give them back (makers 2026-11-02; runtime.generate). The catalogue never passes it.
+  fitsChrome: true,
   unitAxis: {
     applicable: true,
+    // the maker shows no scene list: "New version" walks the face's units of the level (B.makerUnits); the catalogue
+    // names its unit as before
+    makerCopies: true,
     units: () => [...new Set([].concat(...Object.values(B.UNITS).map((u) => (Array.isArray(u) ? [u.join('|'), ...u] : [u]))))],   // the pair faces' unit is 'a|b'
     exemplar: (loc, spec) => { const d = spec && spec.difficulty && spec.difficulty[2]; const u = d && (d.unit || (d.units && d.units[0])); return u || B.UNITS.base; },
     tokens: (unit, loc) => { const name = B.sceneName(String(unit).split('|')[0].replace(/@c$/, ''), String(loc || 'en').slice(0, 2)); return { U: name, L: name, UNIT: name }; },
@@ -291,6 +305,15 @@ module.exports = {
     if (!B.MODES.includes(mode)) throw new Error(`K-395: unknown mode "${mode}"`);
     const rng = ctx.rng;
     const seed = rng.seed;
+    // the maker (no unit): copy n = the n-th unit of this face at this level (null = the face's published unit)
+    let picked = null;
+    if (!unit && ctx && ctx.slotsOut) {
+      const list = B.makerUnits(this.id, difficulty);
+      const v = String((ctx.seedVariant || ctx.variant) || 1);
+      const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
+      picked = list[(n - 1) % list.length] || null;
+      if (picked) unit = picked;
+    }
     const unitArg = unit ? (String(unit).includes('|') ? String(unit).split('|') : unit) : null;
     const plan = planFor(d, mode, unitArg);
     const { comp, wins: pairWins } = composeWithWindows(plan, rng);   // the FIRST rng use: the oracle replays it
@@ -305,7 +328,9 @@ module.exports = {
     const ppu = comp.panels[0].cfg.pxPerUnit;
     // the stack fills the body: 2 × 358 + 12 = 728 of the 733 px the tallest shipped chrome leaves (operator 2026-10-10: 'a big
     // blank area at the bottom'); the side-by-side faces stay width-bound at 300
-    const pw = layout === 'stack' ? (d.panelW || 384) : (d.panelW || 300);
+    const pw0 = layout === 'stack' ? (d.panelW || 384) : (d.panelW || 300);
+    const chromeExtra = (ctx && ctx.chromeExtra) || 0;   // (fitsChrome: the maker only)
+    const pw = chromeExtra ? Math.floor(pw0 * Math.max(0.7, 1 - chromeExtra / 733)) : pw0;
     const ph = Math.round(pw * H / W);
     const ringOpts = key ? { rings: true, ringHalo: true, ringIndex: true } : {};
     const pic = (p, i, n, extra = {}) => panelSvg(p, { width: pw, clipId: `fdclip${i}${n}`, attrs: ` data-lcs-fd-panel="${n}" data-lcs-fd-pair="${i}"`, ops: n === 2, ...(n === 2 && key ? { rings: p.rings, ringHalo: true, ringIndex: true } : {}), ...extra });
@@ -356,7 +381,7 @@ module.exports = {
       // a Level Set scene: every picture is KEPT in the screen image (render-instance crops below the lowest tappable spot;
       // read 2026-10-10: a page whose lowest change sat high showed half a bottom picture — gate qa/fd-screen-crop.js)
       if (comp.panels.some((p) => /^fdx-/.test(String(p.unit)))) body = body.replace(/ data-lcs-fd-panel="/g, ' data-lcs-keep="1" data-lcs-fd-panel="');
-      return { bodyHtml: root(d, mode, units, count, body, 'data-lcs-fd-screen="1"'), meta };
+      return { bodyHtml: root(d, mode, units, count, body, 'data-lcs-fd-screen="1"'), meta, ...makerCopy(this, picked, locale) };
     }
 
     // ---------------------------------------------------------------- the print page (and the key: the same layout, ringed + ticked)
@@ -422,7 +447,8 @@ module.exports = {
       }
     } else if (layout === 'pairs') {
       const p = comp.panels[0];
-      const win = d.window || [260, 200];
+      const win0 = d.window || [260, 200];
+      const win = chromeExtra ? [Math.floor(win0[0] * Math.max(0.7, 1 - chromeExtra / 640)), win0[1]] : win0;   // (fitsChrome: the maker only)
       const rows = wins.map((wn, i) => {
         const w1 = panelSvg(p, { width: win[0], viewBox: [wn.box[0], wn.box[1], wn.box[2] - wn.box[0], wn.box[3] - wn.box[1]], frame: 'window', clipId: `fdw${i}a`, attrs: ` data-lcs-fd-panel="1" data-lcs-fd-pair="${i}"`, ops: false });
         const w2 = panelSvg(p, { width: win[0], viewBox: [wn.box[0], wn.box[1], wn.box[2] - wn.box[0], wn.box[3] - wn.box[1]], frame: 'window', clipId: `fdw${i}b`, attrs: ` data-lcs-fd-panel="2" data-lcs-fd-pair="${i}"`, opsList: [p.ops[wn.op]], ...(key ? { rings: [p.rings[wn.op]], ringHalo: true, ringIndex: true } : {}) });
@@ -431,7 +457,7 @@ module.exports = {
       // the top row's tabs: "1" over window 1 and "2" over window 2 (one tab per column, the first row only)
       body = `<div style="display:flex;flex-direction:column;gap:20px;align-items:center;width:${PAGE_W}px">${rows.join('')}</div>`;
     } else throw new Error(`K-395: layout "${layout}" is not built`);
-    return { bodyHtml: root(d, mode, units, count, body, key ? 'data-lcs-fd-key="1"' : ''), meta };
+    return { bodyHtml: root(d, mode, units, count, body, key ? 'data-lcs-fd-key="1"' : ''), meta, ...makerCopy(this, picked, locale) };
   },
 
   async verify(page) {

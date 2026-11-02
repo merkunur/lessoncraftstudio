@@ -6,7 +6,10 @@
  *   (a) a Node-only import (fs, crypto, vm, sharp, child_process, puppeteer, url, …) — build-bundles also refuses these;
  *   (b) require( with a non-literal argument (it cannot be bundled; it would throw in the browser);
  *   (c) new Function( or eval( (code built from strings);
- *   (d) Math.random( or Date.now( (a page must be a pure function of its recipe: same settings → same page).
+ *   (d) Math.random( or Date.now( (a page must be a pure function of its recipe: same settings → same page);
+ *   (e) `process.` with no `typeof process` guard on its line (there is no process in a browser: G1-431's Level Set
+ *       scenes read process.env and every copy threw, 2026-11-02) — the Node-only tail after `require.main === module`
+ *       never runs in a maker and is not checked.
  *
  *   node scripts/makers/lint-browser-safe.js <metafile.json …>     (build-bundles calls check() directly)
  *   node scripts/makers/lint-browser-safe.js --poison               (each rule must fire on a synthetic offender)
@@ -41,6 +44,9 @@ function check(files, repo) {
       const m = src.match(re);
       if (m) out.push(path.relative(repo, abs).replace(/\\/g, '/') + ': ' + name + ': ' + src.slice(Math.max(0, m.index - 30), m.index + 40).replace(/\s+/g, ' '));
     }
+    const head = src.split(/require\.main\s*===\s*module/)[0];
+    const bad = head.split('\n').find((l) => /(?<![\w.$])process\s*\./.test(l) && !/typeof\s+process/.test(l));
+    if (bad) out.push(path.relative(repo, abs).replace(/\\/g, '/') + ': unguarded process: ' + bad.trim().slice(0, 80));
   }
   return out;
 }
@@ -54,13 +60,15 @@ if (require.main === module) {
     const cases = {
       'a.js': "const fs = require('fs');", 'b.js': 'const m = require(name);', 'c.js': "const f = new Function('x', 'return x');",
       'd.js': 'const r = Math.random();', 'e.js': '// Math.random() in a comment\nconst s = "eval(";\nmodule.exports = 1;',
+      'f.js': 'const x = process.env.FLAG ? 1 : 0;',
+      'g.js': "const x = (typeof process !== 'undefined' && process.env.FLAG) ? 1 : 0;\nif (require.main === module) { process.exit(0); }",
     };
     let ok = true;
     for (const [n, src] of Object.entries(cases)) {
       fs.writeFileSync(path.join(tmp, n), src);
       const hit = check([path.join(tmp, n)], repo).length > 0;
-      const want = n !== 'e.js';
-      console.log((hit === want ? 'ok   ' : 'WRONG') + ' ' + n + (want ? ' must fire' : ' must pass (comment/string only)') + ': ' + (hit ? 'fired' : 'passed'));
+      const want = n !== 'e.js' && n !== 'g.js';
+      console.log((hit === want ? 'ok   ' : 'WRONG') + ' ' + n + (want ? ' must fire' : ' must pass (comment/string only, a guarded process, the CLI tail)') + ': ' + (hit ? 'fired' : 'passed'));
       if (hit !== want) ok = false;
     }
     fs.rmSync(tmp, { recursive: true, force: true });

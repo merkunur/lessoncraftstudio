@@ -3867,7 +3867,15 @@
   },
   "K-480": {
     "title": "Bildelabyrint: gå bare på dyrene",
-    "instruction": "Hjelp bonden fram til traktoren. Gå bare på dyrene.",
+    "instruction": "Hjelp bonden fram til traktoren. Gå bare på steinene med dyr.",
     "printTitle": "Hjelp bonden fram til traktoren"
+  },
+  "K-481": {
+    "title": "Klipp langs linjene",
+    "instruction": "Klipp langs hver stiplet linje, fra saksen til bildet."
+  },
+  "K-482": {
+    "title": "Tegn av mønsteret på prikkene",
+    "instruction": "Se på streken i hver rad. Tegn den samme streken på de tomme prikkene ved siden av, fra den oransje prikken."
   }
 }

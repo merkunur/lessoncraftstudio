@@ -3891,7 +3891,19 @@
   },
   "K-480": {
     "title": "Picture Path Maze: Step on the Animals",
-    "instruction": "Help the farmer get to the tractor. Step only on the animals.",
+    "instruction": "Help the farmer get to the tractor. Step only on the stones with animals.",
     "printTitle": "Help the Farmer Reach the Tractor"
+  },
+  "K-481": {
+    "title": "Cut Along the Lines",
+    "instruction": "Cut along each dashed line, from the scissors to the picture."
+  },
+  "K-482": {
+    "title": "Copy the Pattern on the Dots",
+    "instruction": "Look at the line in each row. Draw the same line on the empty dots beside it, starting at the orange dot."
+  },
+  "K-483": {
+    "title": "Letter Strokes: Lines, Curves and Arches",
+    "instruction": "Trace each dashed stroke, starting at the orange dot. The letters at the start of the row all use this stroke."
   }
 }

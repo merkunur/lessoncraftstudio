@@ -41,11 +41,18 @@ for (const f of fs.readdirSync(path.join(WG, 'waves'))) {
 
 const live = fs.readFileSync(LIVE, 'utf8').trim().split(/\r?\n/).map((l) => JSON.parse(l));
 const groups = {};
+const typesOf = (f) => { const w = JSON.parse(fs.readFileSync(path.join(WG, 'waves', f), 'utf8')); return new Set([...(w.types || []), ...Object.keys(w.levels || {})]); };
 for (const d of live) {
   if (ONLY && !ONLY.has(d.loc)) continue;
   const ws = d.deck_id.split('-')[1];
   if (WAVES && !ws.startsWith(WAVES)) continue;
-  ((groups[d.loc + ' ' + ws] = groups[d.loc + ' ' + ws] || [])).push(d);
+  // two source waves may share an id (Level Set waves keep their published id: Sound Boxes and Sentence Building are both
+  // 'wave-sbl-es', 2026-11-02) — a deck goes with the one that makes its type
+  const all = waveFiles[ws] || [];
+  const srcs = all.length > 1 ? all.filter((f) => typesOf(f).has(d.type)) : all;
+  if (srcs.length !== 1) throw new Error(d.loc + ' ' + ws + ' ' + d.type + ': expected one source wave, found ' + (srcs.join(',') || 'none'));
+  const key = d.loc + ' ' + ws + ' ' + srcs[0];
+  (groups[key] = groups[key] || []).push(d);
 }
 
 function node(args) { return execFileSync(process.execPath, args, { cwd: WG, encoding: 'utf8', maxBuffer: 256 << 20 }); }
@@ -53,11 +60,10 @@ const dryIds = (f) => node(['cli.js', 'generate', '--wave', f, '--dry-run', '--l
 
 const failures = [];
 for (const key of Object.keys(groups).sort()) {
-  const [loc, ws] = key.split(' ');
+  const [loc, ws, src] = key.split(' ');
   const decks = groups[key];
-  const srcs = (waveFiles[ws] || []);
-  if (srcs.length !== 1) throw new Error(key + ': expected one source wave for ' + ws + ', found ' + srcs.join(','));
-  const base = JSON.parse(fs.readFileSync(path.join(WG, 'waves', srcs[0]), 'utf8'));
+  const base = JSON.parse(fs.readFileSync(path.join(WG, 'waves', src), 'utf8'));
+  const shared = (waveFiles[ws] || []).length > 1 ? '-' + src.replace(/^wave-|\.json$/g, '') : '';   // one fix file set per source
   const types = [...new Set(decks.map((d) => d.type))];
   const plans = [];
   if (base.levels) {
@@ -88,7 +94,7 @@ for (const key of Object.keys(groups).sort()) {
     }
   }
   const files = plans.map((p, i) => {
-    const rel = 'waves/_fix-' + TAG + '-' + loc + '-' + ws + (plans.length > 1 ? '-' + 'abcdefgh'[i] : '') + '.json';
+    const rel = 'waves/_fix-' + TAG + '-' + loc + '-' + ws + shared + (plans.length > 1 ? '-' + 'abcdefgh'[i] : '') + '.json';
     fs.writeFileSync(path.join(WG, rel), JSON.stringify(p, null, 1) + '\n');
     return rel;
   });

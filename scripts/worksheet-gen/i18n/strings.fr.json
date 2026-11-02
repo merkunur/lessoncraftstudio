@@ -3866,8 +3866,16 @@
     "instruction": "Regarde le numéro de chaque dessin. Cherche-le dans le code et colorie le dessin de cette couleur."
   },
   "K-480": {
-    "title": "Labyrinthe en images : marche sur les animaux",
-    "instruction": "Aide le fermier à rejoindre le tracteur. Marche seulement sur les animaux.",
+    "title": "Labyrinthe en images : passe par les animaux",
+    "instruction": "Aide le fermier à rejoindre le tracteur. Passe seulement par les animaux.",
     "printTitle": "Aide le fermier à rejoindre le tracteur"
+  },
+  "K-481": {
+    "title": "Découpage : le long des lignes",
+    "instruction": "Découpe le long de chaque ligne en pointillés, des ciseaux jusqu'à l'image."
+  },
+  "K-482": {
+    "title": "Reproduire un motif sur un réseau de points",
+    "instruction": "Regarde la ligne de chaque rangée. Trace la même ligne sur les points à côté, en partant du point orange."
   }
 }

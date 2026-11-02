@@ -1,12 +1,22 @@
 /**
  * K-063 — Mirror match: pick the correct mirror image.
  * Prompt icon left; three choices: true mirror (scaleX), the unflipped
- * original, and an upside-down flip. Only ASYMMETRIC icons qualify —
+ * original, and the picture turned upside down. Only ASYMMETRIC icons qualify —
  * symmetric art would make the options indistinguishable (mask check).
+ * 2026-11-02: the upside-down choice is a HALF TURN (rotate 180°), no longer a flip across a horizontal line — that
+ * flip is a mirror image too (a reflection in water), so the row had two right answers. Masks are the precomputed
+ * ones (lib/picture-masks.js maskA = the old maskSignature): the build is synchronous (makers).
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
-const { maskSignature, maskIoU } = require('../../image-cache/silhouette.js');
+const PM = require('../../lib/picture-masks.js');
+
+/** a half turn (180°) of a 24×24 row-major binary mask */
+function turnMask(m) {
+  const out = new Array(m.length);
+  for (let i = 0; i < m.length; i++) out[i] = m[m.length - 1 - i];
+  return out;
+}
 
 /** horizontal flip of a 24×24 row-major binary mask */
 function flipMask(m) {
@@ -34,14 +44,15 @@ module.exports = {
     },
   },
 
-  async build({ theme, difficulty }, ctx) {
+  build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     // asymmetry gate: mirror must be visibly different from the original
     const candidates = [];
-    for (const n of rng.shuffle(labelSafeNouns(theme))) {
-      const m = await maskSignature(theme, n.noun);
-      if (maskIoU(m, flipMask(m)) < 0.82) candidates.push(n);
+    for (const n of rng.shuffle(labelSafeNouns(theme).filter((x) => PM.has(theme, x.noun)))) {
+      const m = PM.maskA(theme, n.noun);
+      // the half turn must differ from the mirror image as well (a picture symmetric top to bottom would make them one)
+      if (PM.iou(m, flipMask(m)) < 0.82 && PM.iou(flipMask(m), turnMask(m)) < 0.82) candidates.push(n);
       if (candidates.length >= d.rows) break;
     }
     if (candidates.length < d.rows) {
@@ -54,7 +65,7 @@ module.exports = {
       const variants = rng.shuffle([
         { t: 'scaleX(-1)', correct: true },
         { t: 'none', correct: false },
-        { t: 'scaleY(-1)', correct: false },
+        { t: 'rotate(180deg)', correct: false },
       ]);
       const chips = variants.map((v) =>
         `<span class="ws-pattern-chip" style="width:${px + 22}px;height:${px + 22}px"${v.correct ? ' data-lcs-correct="1"' : ''}>` +

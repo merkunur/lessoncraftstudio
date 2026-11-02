@@ -1,6 +1,9 @@
 /**
  * K-057 — Match the shadow (icon ↔ its silhouette).
  * Asset class 1: plain icon placement + Sharp silhouette derivation.
+ * Makers (2026-11-02): synchronous — the shapes are compared on the precomputed masks (lib/picture-masks.js maskA, bit
+ * for bit the old maskSignature, so the same pictures are picked) and the shadow is the picture itself drawn with a CSS
+ * filter (brightness 0: its alpha in dark ink), the same in Node, in the PDF and in a maker in the browser.
  *
  * Left column: theme icons in cream cards. Right column: their silhouettes,
  * shuffled (never the identity permutation). The child draws connecting lines
@@ -8,7 +11,18 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
-const { silhouetteUri, pickDistinctSilhouettes } = require('../../image-cache/silhouette.js');
+const PM = require('../../lib/picture-masks.js');
+
+/** pick `count` nouns whose shadows are pairwise distinct — image-cache/silhouette.js pickDistinctSilhouettes, synchronous */
+function pickDistinctShadows(theme, nouns, count, rng, thr = 0.72) {
+  const picked = [];
+  for (const cand of rng.shuffle(nouns)) {
+    const m = PM.maskA(theme, cand.noun);
+    if (picked.every((p) => PM.iou(m, p.m) < thr)) picked.push({ n: cand, m });
+    if (picked.length === count) return picked.map((p) => p.n);
+  }
+  throw new Error(`K-057: theme ${theme} cannot supply ${count} shape-distinct nouns (got ${picked.length})`);
+}
 
 module.exports = {
   id: 'K-057',
@@ -29,11 +43,11 @@ module.exports = {
     },
   },
 
-  async build({ theme, difficulty }, ctx) {
+  build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     // shape-distinct selection: no two near-identical shadows on one page
-    const nouns = await pickDistinctSilhouettes(theme, labelSafeNouns(theme), d.pairs, rng);
+    const nouns = pickDistinctShadows(theme, labelSafeNouns(theme).filter((n) => PM.has(theme, n.noun)), d.pairs, rng);
 
     // derangement: no silhouette sits straight across from its picture
     let order;
@@ -56,7 +70,7 @@ module.exports = {
       const rn = nouns[order[i]];
       right.push(
         `<div class="ws-match-item ws-match-item--plain" style="width:190px;height:${itemH}px" data-lcs-right="${rn.vocabKey}">` +
-        `<img class="ws-icon" src="${await silhouetteUri(theme, rn.noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px">` +
+        `<img class="ws-icon" src="${fileUri(theme, rn.noun)}" alt="" data-lcs-shadow="1" style="width:${iconPx}px;height:${iconPx}px;filter:brightness(0);opacity:.82">` +
         `<span class="ws-match-dot ws-match-dot--left"></span></div>`
       );
     }

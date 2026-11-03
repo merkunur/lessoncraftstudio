@@ -274,7 +274,10 @@ async function main() {
   }
   // 1-2. data
   const nf = validateNeutral(bankMod.MAPS); nf.forEach((x) => ok(false, 'neutral: ' + x)); ok(true, 'neutral');
-  const banks = bankMod.MAPS_LOC;
+  // EVERY language's bank — the merged one build() reads (the module holds en only; the panels' blocks live in
+  // data/b5/locales/ — 2026-11-03: only en was ever validated)
+  const banks = require('../lib/b5-common.js').bankModule('maps');
+  ok(Object.keys(banks).length >= 2, `bank: only ${Object.keys(banks).join(',')} loaded`);
   for (const loc of Object.keys(banks)) { const bf = validateBank(banks[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(banks.en.strings.base.title === TYPE.i18n.en.title && banks.en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
   { let m = null; try { TYPE.build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('seed-1') }); } catch (e) { m = e.message; } ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `an unauthored ${UNAUTH} REFUSES (got ${m})`); }

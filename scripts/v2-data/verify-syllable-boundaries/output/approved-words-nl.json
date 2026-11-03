@@ -1,6 +1,6 @@
 {
   "locale": "nl",
-  "generated_at": "2026-11-03T06:42:39.822Z",
+  "generated_at": "2026-11-03T08:26:16.322Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -3665,23 +3665,18 @@
     },
     {
       "key": "brush",
-      "word": "borstel",
+      "word": "kwast",
       "split": [
-        "bor",
-        "stel"
+        "kwast"
       ],
-      "count": 2,
+      "count": 1,
       "chunks": [
         [
-          "b",
-          "o",
-          "r"
-        ],
-        [
+          "k",
+          "w",
+          "a",
           "s",
-          "t",
-          "e",
-          "l"
+          "t"
         ]
       ],
       "sources_agreed": [
@@ -3691,7 +3686,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈbɔrstəl/"
+      "wiktionary_ipa": "/kʋɑst/"
     },
     {
       "key": "bucket",

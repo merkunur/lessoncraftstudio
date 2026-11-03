@@ -557,7 +557,10 @@ async function facesSection(page, note, addAssertions, THEME) {
     note(type.difficulty[2].mode === mode, `E ${id}: difficulty[2].mode is ${type.difficulty[2].mode}, want ${mode}`);
     note(type.i18n.en.title === en.strings[key].title && type.i18n.en.instruction === en.strings[key].instruction, `E ${id}: i18n.en != the bank strings.${key} (two sources)`);
     note(type.themeAxis.applicable === (mode === 'share'), `E ${id}: themeAxis.applicable ${type.themeAxis.applicable}`);
-    note(JSON.stringify(type.difficulty[1]) === JSON.stringify(type.difficulty[2]) && JSON.stringify(type.difficulty[2]) === JSON.stringify(type.difficulty[3]), `E ${id}: the three levels differ (a face ships one config)`);
+    // Level Set 2026-10-06: a face has REAL easier / harder levels around its published level 2 (the waves-era rule
+    // "one config for all three levels" ended there); both must differ from level 2, in the face's own mode
+    note(JSON.stringify(type.difficulty[1]) !== JSON.stringify(type.difficulty[2]) && JSON.stringify(type.difficulty[3]) !== JSON.stringify(type.difficulty[2]), `E ${id}: levels 1 / 3 are not real easier / harder levels (identical to level 2)`);
+    note(type.difficulty[1].mode === mode && type.difficulty[3].mode === mode, `E ${id}: a level changes the face's mode`);
     const themed = mode === 'share';
     const jobs = [];
     jobs.push({ difficulty: 2, locale: 'en', theme: themed ? THEME : null, baseName: `${id}-d2-en`, tag: 'level' });

@@ -613,7 +613,8 @@ async function main() {
     const faceHtml = {};
     for (const f of FACES) {
       const spec = loadType(f.id);
-      ok(spec.difficulty[2].mode === f.mode && spec.difficulty[1] === spec.difficulty[2], `${f.id}: d2 is not mode ${f.mode} (or its levels differ)`);
+      // Level Set: a face's levels may differ (real easier / harder pages); each stays in the face's own mode
+      ok([1, 2, 3].every((d) => !spec.difficulty[d] || spec.difficulty[d].mode === f.mode), `${f.id}: a level is not mode ${f.mode}`);
       ok(spec.i18n.en.title === EN.strings[f.id].title && spec.i18n.en.instruction === EN.strings[f.id].instruction, `${f.id}: spec i18n.en ≠ bank strings`);
       ok(!/free|answer key|with answers/i.test(spec.i18n.en.title + spec.i18n.en.instruction), `${f.id}: a free / answer-key promise`);
       const chromes = { default: null, one: CHROME.one, three: CHROME.three, four: CHROME.four };

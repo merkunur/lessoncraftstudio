@@ -23,7 +23,7 @@
   "sortThingForm": "nomArticle",
   "genderFilter": {},
   "excludeThings": [],
-  "avoidThings": ["bear", "nectarine"],
+  "avoidThings": ["bear", "nectarine", "lime"],
   "frames": [
     {
       "id": "see-thing",

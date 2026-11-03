@@ -125,7 +125,7 @@ module.exports = {
       return `<div class="ws-card" style="flex-direction:row;flex:0 1 ${d.rowH}px;min-height:0;padding:8px 10px;gap:12px;align-items:center" ` +
         `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}${toSing ? ' data-lcs-direction="toSingular"' : ''}>` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
-        `<div style="position:relative;margin:10px 0 0 10px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
+        `<div style="position:relative;margin:10px 0 0 10px;padding-left:22px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
         `${single.svg}</div>` +
         `<div style="width:2px;align-self:stretch;border-left:2px dashed #C8BFAE"></div>` +
         `<div style="flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:4px;position:relative" data-lcs-side="many">` +

@@ -5179,7 +5179,7 @@
     },
     "K-326": {
       "title": "Anlaut, Inlaut, Auslaut: Wo hörst du das {U}?",
-      "instruction": "Sprich jedes Bild laut. Male das Kästchen an, das zeigt, wo du {U} hörst: am Anfang, in der Mitte oder am Ende."
+      "instruction": "Sprich jedes Bildwort laut. Male das Kästchen an, das zeigt, wo du {U} hörst: am Anfang, in der Mitte oder am Ende."
     },
     "K-327": {
       "title": "{U} in Wörtern finden und zählen",
@@ -5191,7 +5191,7 @@
     },
     "K-328": {
       "title": "M oder N? Höre genau hin",
-      "instruction": "Sprich jedes Bild laut. Kreise den Buchstaben ein, mit dem es beginnt: m oder n."
+      "instruction": "Sprich jedes Bildwort laut. Kreise den Buchstaben ein, mit dem es beginnt: m oder n."
     }
   }
 }

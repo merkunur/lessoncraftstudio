@@ -966,7 +966,7 @@ async function main() {
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-350-gate-d${d}-en` });
       assertRender(`d${d} en`, r, { rows: TYPE.difficulty[d].rows });
-      const cc = crossCheck(r.m, en, 'en', all);
+      const cc = crossCheck(r.m, d === 2 ? en : TYPE.mergedBank(en, 'en'), 'en', all);   // a new page (L1/L3) draws the merged bank
       ok(cc.length === 0, `d${d} en node cross-check: ${cc.join(' | ')}`);
       ok(r.m.lanes.every((l) => l.picW >= (d === 1 ? 64 : BASE_PIC) - 0.6), `d${d}: pictures ${r.m.lanes.map((l) => l.picW.toFixed(0)).join('/')} >= ${d === 1 ? 64 : BASE_PIC}`);
       ok(r.m.pills.length === TYPE.difficulty[d].rows + (TYPE.difficulty[d].extra || 0), `d${d}: ${r.m.pills.length} pills`);
@@ -1080,8 +1080,10 @@ async function main() {
           const rows = b.meta.rows;
           const keys = rows.map((r) => r[1]);
           ok(new Set(keys).size === keys.length, `sweep d${d} seed ${s}: a key twice`);
-          rows.forEach(([id, key, form, answer]) => { const f = en.frames.find((x) => x.id === id); ok(f && f.noun === key && TYPE.answerFor('en', key, form) === answer, `sweep d${d} seed ${s}: ${id} not re-derived`); });
-          rows.forEach(([id, key]) => { const f = en.frames.find((x) => x.id === id); ok(!f.fits.some((x) => x !== key && keys.includes(x)), `sweep d${d} seed ${s}: ${id} fits another key on the page`); });
+          // a NEW page (level 1) draws the merged bank (published + the Level Set frames, 2026-09-28): look frames up there
+          const FR = TYPE.mergedBank(en, 'en').frames;
+          rows.forEach(([id, key, form, answer]) => { const f = FR.find((x) => x.id === id); ok(f && f.noun === key && TYPE.answerFor('en', key, form) === answer, `sweep d${d} seed ${s}: ${id} not re-derived`); });
+          rows.forEach(([id, key]) => { const f = FR.find((x) => x.id === id); if (!f) return; ok(!f.fits.some((x) => x !== key && keys.includes(x)), `sweep d${d} seed ${s}: ${id} fits another key on the page`); });
           const groups = keys.map((k) => TYPE.twinGroupOf(k, all.twins)).filter((g) => g >= 0);
           ok(new Set(groups).size === groups.length, `sweep d${d} seed ${s}: two keys of one twin group`);
           const themes = {}; rows.forEach(([, , , , t]) => { themes[t] = (themes[t] || 0) + 1; });
@@ -1188,7 +1190,9 @@ async function main() {
       ok(id === FACE_OF[mode], `${mode}: row id ${id} is ${FACE_OF[mode]} (the allocation)`);
       ok(spec.id === id && spec.slug === row[2], `${id}: the emitted spec carries id ${spec.id} / slug ${spec.slug}`);
       const want = { ...TYPE.difficulty[row[4]], ...row[5] };
-      ok(JSON.stringify(spec.difficulty[2]) === JSON.stringify(want) && JSON.stringify(spec.difficulty[1]) === JSON.stringify(want), `${id}: the emitted d2 config === {...base.d${row[4]}, ...overrides}`);
+      // level 2 is the published face; levels 1 and 3 are the Level Set's own (2026-09-28: a bank + first letter at L1,
+      // longer words at L3), so only level 2 is pinned to the row
+      ok(JSON.stringify(spec.difficulty[2]) === JSON.stringify(want), `${id}: the emitted d2 config === {...base.d${row[4]}, ...overrides}`);
       ok(spec.i18n.en.title === en.strings[mode].title && spec.i18n.en.instruction === en.strings[mode].instruction && row[6] === en.strings[mode].title && row[7] === en.strings[mode].instruction, `${id}: the row title / instruction === the bank's strings.${mode} (one source)`);
       ok((row[8] && row[8].gradeBand) === (['plural', 'story'].includes(mode) ? 'G2' : undefined) && spec.gradeBand === (['plural', 'story'].includes(mode) ? 'G2' : 'G1'), `${id}: gradeBand ${spec.gradeBand} (${['plural', 'story'].includes(mode) ? 'G2 via extra' : 'the base G1'})`);
       ok(spec.exerciseType === 'cloze' && spec.themeAxis && spec.themeAxis.applicable === false, `${id}: themeless, exerciseType cloze`);

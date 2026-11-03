@@ -94,7 +94,12 @@ const SRS = require('../../lib/spelling-rules-screen.js');
  * (`reviewFix`) — so only the pages that SHOWED a refused word change, and they are republished in place.
  */
 const REVIEW_EXCLUDE = {
-  en: { 'y-ies-f-ves': ['galaxy'], 'c-k-ck': ['baker'], 'magic-e': ['baker'], 'ee-ea': ['manatee', 'cereal', 'theater', 'earmuffs', 'meerkat'], 'ai-ay': ['armchair', 'stairs', 'wheelchair', 'chair', 'hair', 'eclair'] },
+  // ee-ea 2026-11-03: a word whose other spelling is a real word that sounds the same (beet/beat, heel/heal, deer/dear,
+  // leek/leak, beach/beech, peas/pees) — the child who picks the other team still writes a word — and the r-controlled
+  // ear / reindeer the October review missed beside earmuffs and meerkat; and pictures a child names otherwise (the
+  // round-2 review opened them): oatmeal reads as cereal, frisbee as a plate, the jeep prints its own brand name, the
+  // teacher / weasel / evergreen / peach pictures are on the naming refusals (lady, fox, tree, apple)
+  en: { 'y-ies-f-ves': ['galaxy'], 'c-k-ck': ['baker'], 'magic-e': ['baker'], 'ee-ea': ['manatee', 'cereal', 'theater', 'earmuffs', 'meerkat', 'beet', 'heel', 'deer', 'leek', 'beach', 'peas', 'ear', 'reindeer', 'oatmeal', 'frisbee', 'jeep', 'teacher', 'weasel', 'peach', 'evergreen'], 'ai-ay': ['armchair', 'stairs', 'wheelchair', 'chair', 'hair', 'eclair'] },
   de: { ie: ['dahlie', 'hortensie', 'petunie', 'begonie'], tt: ['nachttisch', 'mütze', 'leuchtturm'], ss: ['hausschuhe'], ll: ['bulldozer', 'medaille', 'schöpfkelle'], ck: ['schöpfkelle'], nn: ['zinnie'] },
   es: { 'g-gu': ['baguette', 'guante', 'paraguas'], 'b-v': ['bolillo', 'bote'] },
   fr: { 's-ou-ss': ['tournesol'] },

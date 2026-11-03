@@ -358,15 +358,25 @@ async function measureLabels(page, labels, baseName) {
   return widths.map((x) => ({ ...labels[x.i], w: x.w, font: x.font }));
 }
 
+// the categories the published page shows (its levels' favourites); the Level Set's extra categories (2026-09-27:
+// fruit, vegetable, pet, hobby …) appear only on NEW copies, where build() skips a label wider than its tile
+const PUBLISHED_CATS = new Set(Object.values(require('../types/k/K-323-all-about-me.js').difficulty).flatMap((d) => d.favourites || []));
 function poolFindings(measured) {
   const f = [];
-  const byCat = {};
+  const byCat = {}, fitByCatLoc = {};
   for (const m of measured) {
     if (!m.text) { f.push(`${m.cat} ${m.key}: no ${m.loc} label`); continue; }
-    if (m.w > POOL_CAP) f.push(`${m.cat} ${m.key}: ${m.loc} "${m.text}" ${m.w.toFixed(1)} px > ${POOL_CAP}`);
+    if (PUBLISHED_CATS.has(m.cat)) { if (m.w > POOL_CAP) f.push(`${m.cat} ${m.key}: ${m.loc} "${m.text}" ${m.w.toFixed(1)} px > ${POOL_CAP}`); }
+    else if (m.w <= POOL_CAP) ((fitByCatLoc[m.cat] = fitByCatLoc[m.cat] || {})[m.loc] = fitByCatLoc[m.cat][m.loc] || new Set()).add(m.key);
     (byCat[m.cat] = byCat[m.cat] || new Set()).add(m.key);
   }
   for (const [cat, keys] of Object.entries(byCat)) if (keys.size < POOL_MIN) f.push(`${cat}: ${keys.size} options < ${POOL_MIN}`);
+  // a NEW-copy category keeps POOL_MIN options that FIT in every language that labels it
+  const locs = new Set(measured.map((m) => m.loc));
+  for (const cat of Object.keys(byCat).filter((c) => !PUBLISHED_CATS.has(c))) for (const loc of locs) {
+    const n = ((fitByCatLoc[cat] || {})[loc] || new Set()).size;
+    if (n < POOL_MIN) f.push(`${cat}: ${loc} keeps ${n} options that fit ${POOL_CAP} px < ${POOL_MIN}`);
+  }
   return f;
 }
 

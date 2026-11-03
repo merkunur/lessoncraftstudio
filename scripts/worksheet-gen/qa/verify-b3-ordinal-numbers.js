@@ -776,7 +776,9 @@ async function main() {
       return once(/(<span data-lcs-idx="0"[^>]*>)/, (m, open) => open + chip[0])(out);
     }, /inside a tile|carries text/);
     poisons.push({ name: 'P9a theme "zoo animals bw" refused at build', run: async () => {
-      try { await renderCheck(page, type, null, { theme: 'zoo animals bw', difficulty: 2, locale: loc, baseName: 'K-320-poison-p9a' }); return 'silent (rendered a BW theme)'; } catch (e) { return /B&W|BW/.test(e.message) ? null : 'wrong error: ' + e.message; }
+      // the base's levels carry allowBw since the Level Set (2026-10-14: an all-B&W page on new copies, never mixed), so
+      // the refusal is proved where it still applies — the same level with allowBw off
+      try { await renderCheck(page, type, { cfg: { ...type.difficulty[2], allowBw: false } }, { theme: 'zoo animals bw', difficulty: 2, locale: loc, baseName: 'K-320-poison-p9a' }); return 'silent (rendered a BW theme)'; } catch (e) { return /B&W|BW/.test(e.message) ? null : 'wrong error: ' + e.message; }
     } });
     htmlPoison('P9b BW-marked theme stamp without data-lcs-bw', (html) => html.replace(`data-lcs-theme="${ex}"`, `data-lcs-theme="${ex} bw"`), /B&W marker/);
     htmlPoison('P10 two chips asking 3 on one page', (html) => {

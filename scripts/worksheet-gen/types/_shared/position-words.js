@@ -94,13 +94,54 @@ function makePositionType(cfg) {
       const cols = 6, rows = 5;
       const cells = [];
       for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) cells.push([c, r]);
+      if (mode !== 'left-right') {
+        // rows / inside-outside (2026-11-03): a picture's side is decided by its whole 64-px box, never its centre — a
+        // centre test put a picture ACROSS a shelf line on 95-100 % of Top-Middle-Bottom pages and across the container's
+        // border on 81-94 % of Inside-Outside pages (two right answers for that picture), and the "two targets" nudge
+        // stacked pictures on one spot. Every cell is jittered once; a cell whose picture touches a line or the border
+        // (within CLEAR px) is never used; two of each side first, then the count at the asked place drawn evenly.
+        const CLEAR = 6;
+        const clearSide = (x, y) => {
+          if (mode === 'rows') {
+            const a = H / 3, b = (2 * H) / 3;
+            if (y + 64 <= a - CLEAR) return 'top';
+            if (y >= a + CLEAR && y + 64 <= b - CLEAR) return 'middle';
+            return y >= b + CLEAR ? 'bottom' : null;
+          }
+          const L0 = W / 2 - 160, T0 = H / 2 + 10 - 145, R0 = L0 + 320, B0 = T0 + 290;   // the container's border box (4-px border)
+          if (x >= L0 + 4 + CLEAR && x + 64 <= R0 - 4 - CLEAR && y >= T0 + 4 + CLEAR && y + 64 <= B0 - 4 - CLEAR) return 'inside';
+          return (x + 64 <= L0 - CLEAR || x >= R0 + CLEAR || y + 64 <= T0 - CLEAR || y >= B0 + CLEAR) ? 'outside' : null;
+        };
+        let spots = rng.shuffle(cells).map(([c, r]) => {
+          const x = c * (W / cols) + (W / cols - 64) / 2 + (rng.next() * 2 - 1) * 8;
+          const y = r * (H / rows) + (H / rows - 64) / 2 + (rng.next() * 2 - 1) * 6;
+          return { x, y, side: clearSide(x, y) };
+        }).filter((p) => p.side);
+        if (mode === 'inside-outside') {
+          // the container holds its own 3 × 3 spots (the outer grid fits only a 2 × 2 patch in it, so nearly every page
+          // had exactly two pictures inside): outer cells keep the outside spots only
+          const L0 = W / 2 - 160, T0 = H / 2 + 10 - 145;
+          const inner = [];
+          for (let r = 0; r < 3; r++) for (let c = 0; c < 3; c++) inner.push({ x: L0 + 16 + c * 115 + (rng.next() * 2 - 1) * 5, y: T0 + 16 + r * 103 + (rng.next() * 2 - 1) * 5 });
+          spots = [...spots.filter((p) => p.side === 'outside'), ...rng.shuffle(inner).map((p) => ({ ...p, side: clearSide(p.x, p.y) })).filter((p) => p.side === 'inside')];
+          spots = rng.shuffle(spots);
+        }
+        const hit = spots.filter((p) => p.side === relation), miss = spots.filter((p) => p.side !== relation);
+        if (hit.length < 2 || miss.length < 2) throw new Error(`${id}: only ${hit.length} clear spots ${relation} / ${miss.length} elsewhere — refuse`);
+        // how many pictures stand at the asked place: 2 … icons − 2, evenly (taking the first spots of the shuffle left
+        // "exactly two" on most pages — a count the child could guess)
+        const k = Math.min(hit.length, rng.int(2, d.icons - 2));
+        const take = [...hit.slice(0, k), ...miss.slice(0, d.icons - k)];
+        for (const p of take) placed.push({ ...p, noun: rng.pick(ns) });
+      } else {
       const chosen = rng.shuffle(cells).slice(0, d.icons);
       chosen.forEach(([c, r]) => {
         const x = c * (W / cols) + (W / cols - 64) / 2 + (rng.next() * 2 - 1) * 8;
         const y = r * (H / rows) + (H / rows - 64) / 2 + (rng.next() * 2 - 1) * 6;
         placed.push({ x, y, side: sideOf(x, y), noun: rng.pick(ns) });
       });
-      // guarantee at least 2 targets and 2 non-targets
+      }
+      // guarantee at least 2 targets and 2 non-targets (left-right only: the other modes chose them above)
       const targets = placed.filter((p) => p.side === relation).length;
       if (targets < 2 || placed.length - targets < 2) {
         // deterministic nudge: flip the first few into/out of the target zone
@@ -161,6 +202,23 @@ function makePositionType(cfg) {
           } else {
             if (targets.length < 2) fails.push(`stage ${i + 1}: only ${targets.length} targets`);
             if (icons.length - targets.length < 2) fails.push(`stage ${i + 1}: too few non-targets`);
+            // the RENDERED place (2026-11-03): every picture's whole box clearly on its stamped side of the line / border,
+            // and no two pictures overlapping — the stamps alone passed pages whose pictures lay across a shelf line
+            const W = 620, H = 560, st = stage.getBoundingClientRect(), sx = st.width / W, sy = st.height / H;
+            const boxes = icons.map((el) => { const r = el.getBoundingClientRect(); return { el, l: (r.left - st.left) / sx, t: (r.top - st.top) / sy, r: (r.right - st.left) / sx, b: (r.bottom - st.top) / sy }; });
+            const L0 = W / 2 - 160, T0 = H / 2 + 10 - 145;
+            const sideOfBox = (b) => {
+              if (mode === 'left-right') return b.r <= W / 2 - 2 ? 'left' : b.l >= W / 2 + 2 ? 'right' : null;
+              if (mode === 'rows') return b.b <= H / 3 - 2 ? 'top' : (b.t >= H / 3 + 2 && b.b <= (2 * H) / 3 - 2) ? 'middle' : b.t >= (2 * H) / 3 + 2 ? 'bottom' : null;
+              if (b.l >= L0 + 6 && b.r <= L0 + 314 && b.t >= T0 + 6 && b.b <= T0 + 284) return 'inside';
+              return (b.r <= L0 - 2 || b.l >= L0 + 322 || b.b <= T0 - 2 || b.t >= T0 + 292) ? 'outside' : null;
+            };
+            boxes.forEach((b, k) => {
+              const s = sideOfBox(b);
+              if (!s) fails.push(`stage ${i + 1}: picture ${k + 1} lies across a line / the border`);
+              else if (s !== b.el.dataset.lcsSide) fails.push(`stage ${i + 1}: picture ${k + 1} drawn ${s}, stamped ${b.el.dataset.lcsSide}`);
+            });
+            boxes.forEach((a, p) => boxes.forEach((c, q) => { if (q > p && Math.min(a.r, c.r) - Math.max(a.l, c.l) > 2 && Math.min(a.b, c.b) - Math.max(a.t, c.t) > 2) fails.push(`stage ${i + 1}: pictures ${p + 1} and ${q + 1} overlap`); }));
           }
         });
         return fails;

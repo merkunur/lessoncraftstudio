@@ -147,7 +147,7 @@ async function boot() {
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
   window.__lcsMaker = { mod, tj, strings, LANG, loadType, vocabOf: (theme, noun) => ((((picManifest.themes || {})[theme] || {}).nouns || {})[noun] || {}).vocabKey || null, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
     // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
-    sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); return r.ok ? r.html : null; } };
+    sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); window.__lcsMaker.lastSampleFails = r.ok ? [] : r.fails; return r.ok ? r.html : null; } };
   await loadAccess();
   document.body.setAttribute('data-print-hint', UI.printHint);
   let want = params.get('t');
@@ -288,7 +288,14 @@ const levelsOf = (t) => (t.localeLevels && t.localeLevels[LANG]) || t.levels;
 const levelIn = (t, want) => { const lv = levelsOf(t); return lv.includes(want) ? want : (lv.includes(2) ? 2 : lv[0]); };
 /** the units a page of template t may show at a level (t.unitLevels: a unit that belongs to one level — a Color by Number
  *  design is drawn for its level; makers 2026-11-02) */
-const unitsOf = (t, level) => { const u = (t.units && t.units[LANG]) || []; return t.unitLevels ? u.filter((x) => t.unitLevels[x.id] === level) : u; };
+// a level's units: its own level (unitLevels: Color by Number) and the levels the unit builds at in this language
+// (localeUnitLevels, build-bundles.js — a rhyme family that cannot carry a level's face is not offered there)
+const unitsOf = (t, level) => {
+  let u = (t.units && t.units[LANG]) || [];
+  if (t.unitLevels) u = u.filter((x) => t.unitLevels[x.id] === level);
+  const lu = t.localeUnitLevels && t.localeUnitLevels[LANG];
+  return lu && level != null ? u.filter((x) => (lu[x.id] || []).includes(level)) : u;
+};
 const unitIn = (t, want, level) => { const u = level == null ? (t.units && t.units[LANG]) || [] : unitsOf(t, level); return u.length ? (u.some((x) => x.id === want) ? want : u[0].id) : null; };
 const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
 /** the theme a page of template t shows: the teacher's pick, else the same subject in the kind this template offers (a

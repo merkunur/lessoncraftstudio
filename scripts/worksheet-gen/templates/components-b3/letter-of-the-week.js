@@ -65,10 +65,10 @@ function letterCard({ text, w = 150, h = 150, glyphH = 64 }) {
   return { html, width: cardW, height: h, laneW, laneH };
 }
 
-function huntCard({ src, vocabKey, word, graphemes, hit, w = 156, h = 140, iconPx = 100, rot = 0 }) {
+function huntCard({ src, vocabKey, word, graphemes, hit, w = 156, h = 140, iconPx = 100, rot = 0, keyMark = false }) {
   const gj = esc(JSON.stringify(graphemes));
   return `<div class="ws-card" style="width:${w}px;height:${h}px;flex:0 0 auto;padding:8px" ` +
-    `data-lcs-word="${esc(word)}" data-lcs-vocab="${esc(vocabKey)}" data-lcs-graphemes="${gj}" data-lcs-hit="${hit ? 1 : 0}">` +
+    `data-lcs-word="${esc(word)}" data-lcs-vocab="${esc(vocabKey)}" data-lcs-graphemes="${gj}" data-lcs-hit="${hit ? 1 : 0}"${keyMark && hit ? ' data-lcs-key-ring="1"' : ''}>` +   // keyMark: the answer key rings every right picture
     `<div class="ws-card-stage" style="padding:0">` +
     `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" ` +
     `style="width:${iconPx}px;height:${iconPx}px;transform:rotate(${Number(rot).toFixed(1)}deg)"></div></div>`;
@@ -87,13 +87,13 @@ function positionKey({ idx, cell = 14 }) {
     'aria-label': `position ${idx + 1} of 3`, 'data-lcs-poskey': idx }, cells.join(''));
 }
 
-function positionCard({ src, vocabKey, word, graphemes, pos, split, w = 323, h = 180, iconPx = 96, boxPx = 44, showWord = false, glyphH = 30, laneH = 42, keyCell = 14 }) {
+function positionCard({ src, vocabKey, word, graphemes, pos, split, w = 323, h = 180, iconPx = 96, boxPx = 44, showWord = false, glyphH = 30, laneH = 42, keyCell = 14, keyMark = false }) {
   const pad = 8, gap = 10;
   const rightW = w - 2 * pad - 4 - iconPx - gap;     // 4 = the .ws-card border
   const boxGap = 8;
   const boxes = [0, 1, 2].map((i) =>
     `<div style="display:flex;flex-direction:column;align-items:center;gap:4px">${positionKey({ idx: i, cell: keyCell })}` +
-    `<span data-lcs-posbox="${i}" style="display:inline-block;width:${boxPx}px;height:${boxPx}px;box-sizing:border-box;` +
+    `<span data-lcs-posbox="${i}"${keyMark && i === pos ? ' data-lcs-key-ring="1"' : ''} style="display:inline-block;width:${boxPx}px;height:${boxPx}px;box-sizing:border-box;` +
     `background:${tokens.color.white};border:2.5px dashed ${tokens.color.coral};border-radius:10px"></span></div>`).join('');
   const lane = showWord ? strokeWordLane({ text: word, w: rightW, h: laneH, glyphH, reps: 1, stack: true, padLeft: 6 }).svg : '';
   const gj = esc(JSON.stringify(graphemes));

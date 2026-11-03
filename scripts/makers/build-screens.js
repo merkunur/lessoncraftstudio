@@ -112,7 +112,7 @@ async function main() {
           const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
           const theme = t.themed ? themesIn(t, loc0)[0] : null;
           // a unit drawn for one level (t.unitLevels) is asked for at that level only
-          const unit = ((t.units && t.units[loc0]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
+          const unit = ((t.units && t.units[loc0]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc0] || (t.localeUnitLevels[loc0][u.id] || []).includes(d))).map((u) => u.id)[0] || null;
           try {
             const got = [];
             for (const variant of [1, 2]) got.push((await ladder(variant, (sv) => runtime.screenFor({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant, ...(sv ? { seedVariant: variant + sv } : {}), tpl: { ...t, screenInstructions: instr }, runtimeStrings: shared.runtimeStrings[loc0], marksInstructions: shared.screenInstructions[loc0] }, mount))).path);
@@ -131,7 +131,7 @@ async function main() {
           const loc0 = probeAt(t, d);
           const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
           const theme = t.themed ? themesIn(t, loc0)[0] : null;
-          const unit = ((t.units && t.units[loc0]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
+          const unit = ((t.units && t.units[loc0]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc0] || (t.localeUnitLevels[loc0][u.id] || []).includes(d))).map((u) => u.id)[0] || null;
           try {
             const r = runtime.makePage({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant: 1, screen: true });
             await runtime.screen.buildScreen({ html: r.screenHtml, locale: loc0, strings: shared.runtimeStrings[loc0], instruction: 'x', mount });

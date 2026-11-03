@@ -307,6 +307,10 @@ const EN = () => bankModule('picture-word-cards').en;
 function typeWith(bank, patch, extra = {}) {
   return Object.assign({}, TYPE, extra, { build(args, ctx) { const out = TYPE._buildWith(bank, args, ctx); return patch ? patch(out) : out; } });
 }
+/** The twin sheet's poison seam: the K-347 face (TWIN_D at every level) over an injected bank. */
+function twinWith(bank, patch) {
+  return Object.assign({}, FACE.twin, { build(args, ctx) { const out = FACE.twin._buildWith(bank, args, ctx); return patch ? patch(out) : out; } });
+}
 const poisonLog = [];
 function judge(name, findings, re, note) {
   const hit = findings.some((x) => re.test(x));
@@ -467,7 +471,14 @@ async function main() {
       pngs.push(r.png);
       console.log(`render d${d} ${EXEMPLAR_THEME}: verify ${r.verify.length} lints ${r.lints.length} icons>=${mi} cards ${r.m.cards.length} block ${Math.round(r.m.sheet.height)} body ${Math.round(r.m.body.height)}`);
     }
-    for (const d of [2, 3]) {
+    // level 3 became a 12-card READING page (cap 10) with the Level Set (2026-09-29): the long dinosaur names are
+    // refused there by the label rule — a refusal, never a filler; the long-word render runs at level 2
+    {
+      let msg = '';
+      try { TYPE.build({ theme: LONG_THEME, difficulty: 3, locale: 'en' }, { rng: makeRng('long-d3') }); } catch (e) { msg = e.message; }
+      ok(/refused by the label rule/.test(msg), `d3 ${LONG_THEME}: the reading page must refuse the long names by the label rule (got "${msg || 'a build'}")`);
+    }
+    for (const d of [2]) {
       const r = await renderWith(page, TYPE, { theme: LONG_THEME, difficulty: d, baseName: `K-324-gate-${LONG_THEME}-d${d}-en` });
       const mi = assertRender(`d${d} ${LONG_THEME}`, r, d);
       pngs.push(r.png);
@@ -488,9 +499,9 @@ async function main() {
     // refusals are throws, never fillers
     {
       let msg = '';
-      try { TYPE._buildWith(en, { theme: 'post office', difficulty: 3, locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
+      try { FACE.twin._buildWith(en, { theme: 'post office', difficulty: 2, locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
       // post office has exactly 8 en labels; the twin's 13-cap keeps them all → must build; a 9-card demand must throw
-      ok(msg === '', `post office d3 must build (8 = 8): ${msg}`);
+      ok(msg === '', `post office twin (K-347 level 2) must build (8 = 8): ${msg}`);
       const nine = Object.assign({}, TYPE, { difficulty: { ...TYPE.difficulty, 9: { ...TYPE.difficulty[2], cards: 9, rows: 4.5 } } });
       try { nine._buildWith(en, { theme: 'post office', difficulty: 9, locale: 'en' }, { rng: makeRng('x') }); msg = ''; } catch (e) { msg = e.message; }
       ok(/only 8 eligible nouns, need 9/.test(msg), `a short pool must REFUSE (throw): ${msg}`);
@@ -510,15 +521,17 @@ async function main() {
         sets.add(b.meta.words.slice().sort().join(','));
       }
       ok(sets.size >= 2, `sweep d2: only ${sets.size} distinct word sets over 20 seeds`);
+      // the twin sheet (word cards shuffled away from their pictures) left the base's level 3 for the K-347 face with the
+      // Level Set (2026-09-29; the base level 3 is now the reading cards): the sweep follows it to the face's level 2
       let identity = 0;
       for (let k = 1; k <= 20; k++) {
-        const rng = makeRng(instanceSeed({ typeId: 'K-324', theme: EXEMPLAR_THEME, difficulty: 3, seedEpoch: k }));
-        const b = TYPE.build({ theme: EXEMPLAR_THEME, difficulty: 3, locale: 'en' }, { rng });
+        const rng = makeRng(instanceSeed({ typeId: 'K-347', theme: EXEMPLAR_THEME, difficulty: 2, seedEpoch: k }));
+        const b = FACE.twin.build({ theme: EXEMPLAR_THEME, difficulty: 2, locale: 'en' }, { rng });
         if (b.meta.order.some((v, i) => v === i)) identity++;
-        ok(b.meta.order.slice().sort((a, c) => a - c).join(',') === '0,1,2,3,4,5,6,7', `sweep d3 seed ${k}: order ${b.meta.order} is not a permutation`);
+        ok(b.meta.order.slice().sort((a, c) => a - c).join(',') === '0,1,2,3,4,5,6,7', `sweep twin seed ${k}: order ${b.meta.order} is not a permutation`);
       }
-      ok(identity === 0, `sweep d3: ${identity} of 20 seeds leave a word at its picture slot`);
-      console.log(`sweep: d2 ${sets.size} distinct word sets, d3 0/20 identity slots`);
+      ok(identity === 0, `sweep twin: ${identity} of 20 seeds leave a word at its picture slot`);
+      console.log(`sweep: d2 ${sets.size} distinct word sets, twin face 0/20 identity slots`);
     }
 
     // 5. FACES — through the real pipeline, per kind, + node re-derivations
@@ -620,13 +633,13 @@ async function main() {
     }
     // P2 — a twin word card from another theme (a word the pictures do not show)
     {
-      const t = typeWith(en, (o) => {
+      const t = twinWith(en, (o) => {
         const secs = o.bodyHtml.match(SECTION_RE);
         const w0 = secs.find((s) => /data-lcs-twin="w0"/.test(s));
         const bad = w0.replace(/data-lcs-vocab="[^"]+"/, 'data-lcs-vocab="apple"').replace(/data-lcs-word="[^"]+"/, 'data-lcs-word="apple"').replace(/<span class="ws-wordplate-line"[^>]*>[^<]*<\/span>/, '<span class="ws-wordplate-line" style="display:block;white-space:nowrap;line-height:30px" data-lcs-line>apple</span>');
         o.bodyHtml = o.bodyHtml.replace(w0, bad); return o;
       });
-      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 3, baseName: 'K-324-gate-poison-P2' });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-324-gate-poison-P2' });
       if (judge('P2', r.verify, /word vocab multiset ≠ picture vocab multiset/)) killed++;
     }
     // P3 — a BW theme: (a) the spec refuses before any render; (b) a BW picture
@@ -689,7 +702,7 @@ async function main() {
     }
     // P12 — the twin in identity order (word slot i names picture slot i)
     {
-      const t = typeWith(en, (o) => {
+      const t = twinWith(en, (o) => {
         const secs = o.bodyHtml.match(SECTION_RE);
         const words = secs.filter((s) => /data-lcs-twin="w\d+"/.test(s));
         const byVocab = new Map(words.map((s) => [s.match(/data-lcs-vocab="([^"]+)"/)[1], s]));
@@ -699,7 +712,7 @@ async function main() {
         inOrder.forEach((s, i) => { html = html.replace(`@@W${i}@@`, s); });
         o.bodyHtml = html; return o;
       });
-      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 3, baseName: 'K-324-gate-poison-P12' });
+      const r = await renderWith(page, t, { theme: EXEMPLAR_THEME, difficulty: 2, baseName: 'K-324-gate-poison-P12' });
       if (judge('P12', r.verify, /word slot 0 names picture slot 0 \(identity\)/)) killed++;
     }
     // P13 — per-card dashed borders instead of the overlay
@@ -733,7 +746,7 @@ async function main() {
     }
     // P17 — a twin word of 12 glyphs at 26 (the tier says 20); the stamp agrees with the CSS so only the gate's re-derivation sees it
     {
-      const t = typeWith(en, (o) => {
+      const t = twinWith(en, (o) => {
         const secs = o.bodyHtml.match(SECTION_RE);
         const w = o.meta.words.find((x) => glyphs(x) >= 11 && glyphs(x) <= 12);
         if (!w) throw new Error('P17: the seed drew no 11-12 glyph word');
@@ -741,8 +754,8 @@ async function main() {
         o.bodyHtml = o.bodyHtml.replace(sec, sec.replace('data-lcs-px="20"', 'data-lcs-px="26"').replace('font-size:20px;line-height:24px', 'font-size:26px;line-height:30px'));
         return o;
       });
-      const r = await renderWith(page, t, { theme: LONG_THEME, difficulty: 3, baseName: 'K-324-gate-poison-P17' });
-      const found = gateFindings('P17', r, 3);
+      const r = await renderWith(page, t, { theme: LONG_THEME, difficulty: 2, baseName: 'K-324-gate-poison-P17' });
+      const found = gateFindings('P17', r, 2, FACE.twin);
       if (judge('P17', found, /at 26 px, the tier rule says 20/, `verify ${r.verify.length} lints ${r.lints.length}`)) killed++;
     }
     // P18 — cream cards

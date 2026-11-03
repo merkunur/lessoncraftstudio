@@ -102,6 +102,9 @@ const ID = 'G2-316';
 const BANK = 'compound-words';
 const WORD_RE = /^\p{L}+$/u;
 const LANE_PAD_X = 14;                                   // inline .ws-lane padding override (design §2)
+// a lane with a number badge pads its left side BADGE_CLEAR more: the 26-px badge (absolute at -8 px) ends at 18 px and
+// touched the first picture by 3 px at the 14-px pad (collision gate 2026-11-03)
+const BADGE_CLEAR = 6;
 const ROW_INNER = 675 - 2 * LANE_PAD_X - 4;              // 643: body column 675 − padding − 2 px border each side
 const OP = 28;                                           // opGlyph box
 const GAP = 10;                                          // flex gap inside a row
@@ -536,7 +539,7 @@ module.exports = {
     let laneW = d.laneW;
     for (const r of rows) {
       const used = colW(r.cueA) + GAP + OP + GAP + colW(r.cueB) + GAP + OP + LANE_LEAD;
-      laneW = Math.min(laneW, Math.floor(ROW_INNER - used));
+      laneW = Math.min(laneW, Math.floor(ROW_INNER - used - (d.badges ? BADGE_CLEAR : 0)));
     }
     const need = Math.max(MIN_WRITABLE, Math.ceil(d.maxLetters * HAND_PER_GLYPH * d.glyphH) + 16);
     if (laneW < need) throw new Error(`${who}: lane shrinks to ${laneW} px < ${need} needed for ${d.maxLetters} glyphs (refuse the set at this difficulty)`);
@@ -583,7 +586,7 @@ module.exports = {
       const cut = [...stem].length + [...(it.link || '')].length;
       const row = compoundRow({
         index: i + 1, cueA: r.cueA, cueB: r.cueB, lane, wordPx: d.wordPx, badge: d.badges,
-        pad: `${d.padY}px ${LANE_PAD_X}px`, gap: GAP,
+        pad: `${d.padY}px ${LANE_PAD_X}px ${d.padY}px ${LANE_PAD_X + (d.badges ? BADGE_CLEAR : 0)}px`, gap: GAP,
         stamps: { a: it.a.vocabKey, aWord: it.a.word, aStem: it.aStem || '', b: it.b.affix != null ? it.b.affix : it.b.vocabKey, bWord: it.b.affix != null ? '' : it.b.word, link: it.link || '', whole: it.whole.word, cut },
       });
       return isKey ? keyInLanes(row, [it.whole.word], lane) : row;

@@ -22492,7 +22492,7 @@
    }
   ],
   "pairTitle": "{U} oder {PU}? Höre genau hin",
-  "pairInstruction": "Sprich jedes Bild laut. Kreise den Buchstaben ein, mit dem es beginnt: {L} oder {P}.",
+  "pairInstruction": "Sprich jedes Bildwort laut. Kreise den Buchstaben ein, mit dem es beginnt: {L} oder {P}.",
   "refused": [
    {
     "L": "q",

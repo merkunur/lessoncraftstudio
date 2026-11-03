@@ -174,7 +174,8 @@ module.exports = {
       // ⚠ On the inverse face a filled grid is the POINT — the picture is printed
       // and the child writes the codes. This assertion guards the normal face,
       // where a filled cell would hand the child the answer.
-      if (!inverse) for (const r of grid.querySelectorAll('rect')) { const f = (r.getAttribute('fill') || '').toUpperCase(); if (f && f !== 'NONE' && f !== '#FFFFFF') fails.push('main grid has a filled cell'); }
+      // the screen's tap targets (data-lcs-pick, one clear rect per cell, 2026-11-03) are not ink: only a painted cell fails
+      if (!inverse) for (const r of grid.querySelectorAll('rect:not([data-lcs-pick])')) { const f = (r.getAttribute('fill') || '').toUpperCase(); if (f && f !== 'NONE' && f !== 'TRANSPARENT' && f !== '#FFFFFF') fails.push('main grid has a filled cell'); }
       if (!document.querySelector('[data-lcs-demo] rect[fill="#146B5E"]')) fails.push('demo cell missing');
       // groups: colour word + swatch + shuffled codes
       const groups = [...document.querySelectorAll('[data-lcs-group]')];

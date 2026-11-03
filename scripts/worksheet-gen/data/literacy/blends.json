@@ -214,6 +214,7 @@
    "tr"
   ],
   "es": [
+   "br",
    "fl",
    "fr",
    "pl",
@@ -868,13 +869,6 @@
     "blend": "br"
    },
    {
-    "theme": "around the house",
-    "noun": "brush",
-    "key": "brush",
-    "word": "brosse",
-    "blend": "br"
-   },
-   {
     "theme": "At the Supermarket",
     "noun": "broccoli",
     "key": "broccoli",
@@ -974,6 +968,34 @@
    }
   ],
   "es": [
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "brazo",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "brush",
+    "key": "brush",
+    "word": "brocha",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "brócoli",
+    "blend": "br"
+   },
+   {
+    "theme": "camping",
+    "noun": "compass",
+    "key": "compass",
+    "word": "brújula",
+    "blend": "br"
+   },
    {
     "theme": "easter",
     "noun": "flower",
@@ -1256,13 +1278,6 @@
     "noun": "beach",
     "key": "beach",
     "word": "spiaggia",
-    "blend": "sp"
-   },
-   {
-    "theme": "around the house",
-    "noun": "brush",
-    "key": "brush",
-    "word": "spazzola",
     "blend": "sp"
    },
    {

@@ -241,7 +241,12 @@ function assertRender(name, r, d, { bodyFloor, cfg: cfgIn, band: bandIn, bodyMax
   ok(r.m.rows.length === cfg.n, `${name}: ${r.m.rows.length} rows ≠ ${cfg.n}`);
   const givens = r.m.rows.filter((x) => x.given !== null);
   ok(givens.length === cfg.given.length, `${name}: ${givens.length} given cells ≠ ${cfg.given.length}`);
-  ok(givens.map((x) => +x.given).sort().join() === [...cfg.given].sort().join(), `${name}: given ranks ${givens.map((x) => x.given)} ≠ ${cfg.given}`);
+  // Level Set 2026-10-06: level 1 prints one of its givenSets (a different set per copy), level 3 ONE middle rank
+  // (anchor 'middle': 2..N-1, the child counts on and back); a config without either prints exactly cfg.given
+  const gotRanks = givens.map((x) => +x.given).sort((a, b) => a - b).join();
+  if (cfg.anchor === 'middle') ok(givens.length === 1 && +givens[0].given >= 2 && +givens[0].given <= cfg.n - 1, `${name}: middle anchor ${givens.map((x) => x.given)} not one rank in 2..${cfg.n - 1}`);
+  else if (cfg.givenSets) ok(cfg.givenSets.some((s) => [...s].sort((a, b) => a - b).join() === gotRanks), `${name}: given ranks ${gotRanks} are none of the givenSets`);
+  else ok(gotRanks === [...cfg.given].sort((a, b) => a - b).join(), `${name}: given ranks ${gotRanks} ≠ ${cfg.given}`);
   let minEl = Infinity;
   for (const x of r.m.rows) {
     minEl = Math.min(minEl, x.cellW, x.cellH, x.tileH);

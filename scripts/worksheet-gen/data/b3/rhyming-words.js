@@ -60,6 +60,8 @@ const RHYMING_WORDS = {
   en: {
     rule: 'stressedVowelCoda',
     orthographyTrusted: false,
+    // 2026-11-03: the vehicles crane / tools nail carry their own vocabulary keys (construction-crane, metal-nail —
+    // the 2026-11-01 split; crane / nail are the bird and the fingernail)
     // 2026-09-30 (native panel audit): un (bun reads as bread) dropped; ee keeps only one same-spelling member once
     // the decorated Christmas tree left the class — ock and oon take their places
     exemplar: ['at', 'og', 'ock', 'ar', 'oon', 'oat'],
@@ -109,11 +111,11 @@ const RHYMING_WORDS = {
         extra: ['band', 'land'],
         nearMiss: [N('hat', 'hat', 'accessories', 'hat')] },
       { id: 'ain', rime: '-ain', sound: 'eɪn', cap: 8,
-        members: [M('train', 'train', 'vehicles', 'train', true), M('brain', 'brain', 'body parts', 'brain', true), M('crane', 'crane', 'vehicles', 'crane', false)],
+        members: [M('train', 'train', 'vehicles', 'train', true), M('brain', 'brain', 'body parts', 'brain', true), M('construction-crane', 'crane', 'vehicles', 'crane', false)],
         extra: ['rain', 'chain', 'plane'],
         nearMiss: [N('crayon', 'crayon', 'classroom', 'crayon')] },
       { id: 'ail', rime: '-ail', sound: 'eɪl', cap: 8,
-        members: [M('nail', 'nail', 'tools', 'nail', true), M('snail', 'snail', 'forest creatures', 'snail', true), M('whale', 'whale', 'ocean life', 'whale', false)],
+        members: [M('metal-nail', 'nail', 'tools', 'nail', true), M('snail', 'snail', 'forest creatures', 'snail', true), M('whale', 'whale', 'ocean life', 'whale', false)],
         extra: ['mail', 'tail', 'pail'],
         nearMiss: [N('wave', 'wave', 'beach', 'wave')] },
       { id: 'ear', rime: '-ear', sound: 'ɛr', cap: 8,

@@ -734,8 +734,11 @@ function placeBadge(x, y, angleDeg, placed, env) {
   const inBox = (bx, by) => bx >= m && bx <= box.w - m && by >= m && by <= box.h - m;
   const R = BADGE_R + 0.75;   // with the 1.5 px ring
   const boxClear = (bx, by) => obstacles.every((o) => !o.box || bx + R + 1 <= o.box.x0 || bx - R - 1 >= o.box.x1 || by + R + 1 <= o.box.y0 || by - R - 1 >= o.box.y1);
+  // two badges: their circles BADGE_GAP apart AND their ringed boxes apart — the rendered-page verify measures boxes, and
+  // a diagonal pair 19 px apart passes the circle test with the boxes overlapping (2026-11-03: E/É/È/Ê at 104, badges
+  // 3 + 4, once the q6 rounding put a candidate exactly on the circle threshold)
   const clearOf = (bx, by) => boxClear(bx, by) && obstacles.every((o) => Math.hypot(o.x - bx, o.y - by) >= o.r + BADGE_R + BADGE_GAP)
-    && placed.every((p) => Math.hypot(p.x - bx, p.y - by) >= BADGE_R * 2 + BADGE_GAP);
+    && placed.every((p) => Math.hypot(p.x - bx, p.y - by) >= BADGE_R * 2 + BADGE_GAP && (Math.abs(p.x - bx) >= 2 * R || Math.abs(p.y - by) >= 2 * R));
   const offInk = (bx, by) => ink.every((p) => Math.hypot(p.x - bx, p.y - by) >= BADGE_R + BADGE_GAP + 1.7);
   // a number must read as ITS stroke's: nearer its own arrow than any other stroke's arrow (coincident starts —
   // A's legs, B/D/E/P/R stem + bar — otherwise put "2" beside stroke 1)

@@ -194,8 +194,8 @@ const OPENED = {
   'furniture/rug': 'rug', 'forest creatures/slug': 'slug', 'insects and bugs/slug': 'slug', 'kitchen tools/jug': 'jug', 'kitchen tools/mug': 'mug',
   'At the Supermarket/can': 'can', 'around the house/fan': 'fan', 'around the house/pan': 'pan', 'vehicles/van': 'van',
   'body parts/hand': 'hand', 'summer/sand': 'sand',
-  'vehicles/train': 'train', 'toys/train': 'train', 'body parts/brain': 'brain', 'vehicles/crane': 'crane',
-  'tools/nail': 'nail', 'forest creatures/snail': 'snail', 'insects and bugs/snail': 'snail', 'spring/snail': 'snail', 'ocean life/whale': 'whale', 'animals/whale': 'whale', 'beach/whale': 'whale',
+  'vehicles/train': 'train', 'toys/train': 'train', 'body parts/brain': 'brain', 'vehicles/crane': 'construction-crane',
+  'tools/nail': 'metal-nail', 'forest creatures/snail': 'snail', 'insects and bugs/snail': 'snail', 'spring/snail': 'snail', 'ocean life/whale': 'whale', 'animals/whale': 'whale', 'beach/whale': 'whale',
   'fruits/pear': 'pear', 'At the Supermarket/pear': 'pear', 'camping/bear': 'bear', 'forest creatures/bear': 'bear', 'zoo animals/bear': 'bear',
   'furniture/chair': 'chair', 'around the house/chair': 'chair', 'classroom/chair': 'chair',
   'bakery/cake': 'cake', '4th of July/cake': 'cake', 'At the Supermarket/cake': 'cake', 'desserts and sweets/cake': 'cake', 'around the house/rake': 'rake',
@@ -233,6 +233,16 @@ function ok(cond, msg) { assertions++; if (!cond) fails.push(msg); return !!cond
 const wordRe = (w) => new RegExp('(?<!\\p{L})' + String(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'u');
 const glyphs = (s) => [...String(s)].length;
 
+/* Rule 1's reviewed exceptions: a rhyme word the 2026-09-30 native panels chose to carry the class's ending, a true
+ * name of its picture that differs from the vocabulary's label (keyed locale|vocabKey|word, each with its reason) —
+ * an auditable list, never a loosened rule. */
+const RHYME_WORD_OK = {
+  'it|ball|pallone': 'the -one class: pallone is the (foot)ball the picture shows; the label is palla',
+  'it|folder|cartellina': 'the -ina class: cartellina is the school folder; the label cartella is also a school bag',
+  'pt|stool|banquinho': 'the -inho class: banquinho is the everyday pt-BR stool; the label is banqueta',
+  'es|truck|camión': 'the -ón class: camión is the truck in es-MX (the label says camión de carga to set it apart from the bus)',
+};
+
 /* ------------------------------------------------------------------ bank */
 function validateBank(bank, loc, opts = {}) {
   const f = [];
@@ -268,7 +278,7 @@ function validateBank(bank, loc, opts = {}) {
     let entry = null;
     try { entry = entriesFor(m.pic.theme, loc).find((e) => e.vocabKey === m.vocabKey) || null; } catch (e) { push(tag(`theme does not resolve: ${e.message}`)); }
     if (!entry) push(tag(`vocabKey is not an entry of ${m.pic.theme} in ${loc} (not pictured / excluded / uncached)`));   // rule 1
-    else if (lower(displayWord(entry.singular, loc)) !== lower(m.word)) push(tag(`word "${m.word}" ≠ displayWord "${displayWord(entry.singular, loc)}"`));
+    else if (lower(displayWord(entry.singular, loc)) !== lower(m.word) && RHYME_WORD_OK[`${loc}|${m.vocabKey}|${lower(m.word)}`] === undefined) push(tag(`word "${m.word}" ≠ displayWord "${displayWord(entry.singular, loc)}"`));
     if (!candidates(m.vocabKey, loc).some((c) => c.theme === m.pic.theme && c.noun === m.pic.noun)) push(tag(`picture ${ref} is not a colour-index candidate`));
     if (m.picOpened !== true) push(tag('picOpened is not true'));
     if (!(ref in OPENED_LOC)) push(tag(`picture ${ref} was never OPENED (the human open is the gate — a locale block records its own opens under "opened")`));
@@ -498,7 +508,11 @@ function assertRender(name, r, cfg, bank, opts = {}) {
     ok(row.left >= r.m.body.left - 0.6 && row.right <= r.m.body.right + 0.6, `${tag}: card outside the body column`);
     ok(cfg.starter ? row.starter !== null : row.starter === null, `${tag}: starter "${row.starter}" (config starter ${cfg.starter})`);
   }
-  const xc = crossCheck(name, r.m, bank, { nearMiss: cfg.nearMiss, unit: opts.unit || null });
+  // a NEW page (any level but the published 2) draws the merged bank — published + the Level Set's classes and added
+  // members (2026-09-30, TYPE.mergedBank) — so its stamps are checked there; the published page against its own bank
+  const published = opts.published !== undefined ? opts.published : cfg === TYPE.difficulty[2];
+  const xbank = !published && TYPE.mergedBank ? TYPE.mergedBank(opts.loc || 'en') : bank;
+  const xc = crossCheck(name, r.m, xbank, { nearMiss: cfg.nearMiss, unit: opts.unit || null });
   ok(xc.length === 0, xc.join('\n    '));
   return { minIcon, slack: r.m.rows.length ? Math.round(Math.min(...r.m.rows.map((row) => row.lane.left - Math.max(...row.rings.map((x) => x.right))))) : null };
 }
@@ -706,7 +720,7 @@ function rowsFrom(en, spec) {
 async function gateFindings(page, type, d, baseName, bank, opts = {}) {
   const r = await renderWith(page, type, Object.assign({ difficulty: d, baseName }, opts.render || {}));
   const before = fails.length, saved = assertions;
-  assertRender(baseName, r, Object.assign({}, TYPE.difficulty[d], opts.cfg || {}), bank, opts);
+  assertRender(baseName, r, Object.assign({}, TYPE.difficulty[d], opts.cfg || {}), bank, { ...opts, published: opts.published !== undefined ? opts.published : d === 2 });
   const own = fails.splice(before);
   assertions = saved;
   return { r, own };
@@ -779,7 +793,7 @@ async function main() {
         const t = Object.assign({}, TYPE, { build(o, ctx) { return TYPE._buildWith(en, { difficulty: o.difficulty, locale: 'en', unit: o.unit, band: 'K' }, ctx); } });
         const r = await renderWith(page, t, { difficulty: d, baseName: `G1-309-gate-d${d}-en-Kshape-fititle`, strings: FOUR });
         const shape = { 1: { rows: 4, choices: 2, laneW: 271, laneH: 88, glyphH: 44, starter: true, nearMiss: false }, 2: { rows: 5, choices: 3, laneW: 233, laneH: 80, glyphH: 40, starter: false, nearMiss: false }, 3: { rows: 6, choices: 4, laneW: 227, laneH: 72, glyphH: 40, starter: false, nearMiss: true } }[d];
-        assertRender(`d${d} K shape fi title`, r, shape, en, { band: 'K' });
+        assertRender(`d${d} K shape fi title`, r, shape, en, { band: 'K', published: true });
         pngs.push(r.png);
         console.log(`render d${d} K shape fi title: body ${Math.round(r.m.body.h)} px card inner ${Math.round(r.m.rows[0].h - 28)} px`);
       }
@@ -793,7 +807,7 @@ async function main() {
         const tK = Object.assign({}, TYPE, { build(o, ctx) { return TYPE._buildWith(en, { difficulty: o.difficulty, locale: 'en', unit: o.unit, band: 'K' }, ctx); } });
         const rK = await renderWith(page, tK, { difficulty: d, baseName: `G1-309-gate-d${d}-en-Kshape-filong`, strings: STRESS });
         const shape = { 1: { rows: 4, choices: 2, laneW: 271, laneH: 88, glyphH: 44, starter: true, nearMiss: false }, 2: { rows: 5, choices: 3, laneW: 233, laneH: 80, glyphH: 40, starter: false, nearMiss: false }, 3: { rows: 6, choices: 4, laneW: 227, laneH: 72, glyphH: 40, starter: false, nearMiss: true } }[d];
-        assertRender(`d${d} K shape fi long-word title`, rK, shape, en, { band: 'K' });
+        assertRender(`d${d} K shape fi long-word title`, rK, shape, en, { band: 'K', published: true });
         console.log(`render d${d} fi long-word title: body ${Math.round(r.m.body.h)} px (head ${Math.round(r.m.titleH)} px) card inner ${Math.round(r.m.rows[0].h - 28)} px; K shape card inner ${Math.round(rK.m.rows[0].h - 28)} px`);
       }
     }
@@ -803,7 +817,7 @@ async function main() {
       const r = await renderWith(page, t, { difficulty: d, baseName: `G1-309-gate-d${d}-en-Kshape` });
       const cfgK = TYPE._buildWith(en, { difficulty: d, locale: 'en', band: 'K' }, { rng: makeRng('cfg') }).meta;
       const shape = { 1: { rows: 4, choices: 2, laneW: 271, laneH: 88, glyphH: 44, starter: true, nearMiss: false }, 2: { rows: 5, choices: 3, laneW: 233, laneH: 80, glyphH: 40, starter: false, nearMiss: false }, 3: { rows: 6, choices: 4, laneW: 227, laneH: 72, glyphH: 40, starter: false, nearMiss: true } }[d];
-      const s = assertRender(`d${d} K shape`, r, shape, en, { band: 'K' });
+      const s = assertRender(`d${d} K shape`, r, shape, en, { band: 'K', published: true });
       pngs.push(r.png);
       console.log(`render d${d} K shape: verify ${r.verify.length} lints ${r.lints.length} rows ${r.m.rows.length} min picture ${s.minIcon} px (K floor 56), slack ${s.slack} px, band ${cfgK.band}`);
     }
@@ -946,9 +960,9 @@ async function main() {
     {
       const rows = rowsFrom(en, [
         { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'bat', 'dog'] },
-        { cls: 'og', anchor: 'frog', partner: 'log', choices: ['sun', 'log', 'car'] },
-        { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'bee', 'jar'] },
-        { cls: 'ee', anchor: 'tree', partner: 'bee', choices: ['bee', 'boat', 'bed'] },
+        { cls: 'og', anchor: 'frog', partner: 'log', choices: ['cake', 'log', 'car'] },
+        { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'bee', 'jar'] },
+        { cls: 'ee', anchor: 'key', partner: 'bee', choices: ['bee', 'boat', 'bed'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] },
         { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
       ]);
@@ -986,12 +1000,12 @@ async function main() {
       const c = judge('P5 build', buildRefusal(b, 2), /pins a B&W directory zoo animals bw/);
       // and a render that carries a BW picture past the build (verify sees the src)
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
-      // row 5 reuses rug (row 4 distractor) → make row 4's distractor 'jug'
-      rows[3].choices[0] = { vocabKey: 'jug', cls: 'ug', word: 'jug', pic: en.classes.find((c) => c.id === 'ug').members.find((m) => m.vocabKey === 'jug').pic, rhyme: false };
+      // row 5 reuses rug (row 4 distractor) → make row 4's distractor 'rug'
+      rows[3].choices[0] = { vocabKey: 'rug', cls: 'ug', word: 'rug', pic: en.classes.find((c) => c.id === 'ug').members.find((m) => m.vocabKey === 'rug').pic, rhyme: false };
       let bwResolves = false;
       try { fileUri('zoo animals bw', 'elephant'); bwResolves = true; } catch (e) { /* not cached */ }
       let v = true;
@@ -1002,13 +1016,15 @@ async function main() {
       } else poisonLog.push('  P5 verify: skipped (zoo animals bw/elephant is not cached)');
       if (a && c && v) killed++;
     }
-    // P6 — bee/tree split across two classes
+    // P6 — a K-232 pair split across two classes (sock/clock: -ock keeps sock + lock, a second class takes clock + rock;
+    // bee/tree left rhyming-pairs.json 2026-11-03, so the poison moved to a pair that is in it)
     {
-      const b = clone(en); const ee = b.classes.find((c) => c.id === 'ee'); const tree = ee.members.splice(1, 1)[0];
-      b.classes.push({ id: 'ree', rime: '-ree', sound: 'riː', cap: 8, members: [tree, clone(en.classes.find((c) => c.id === 'ee').members[0])], extra: [], nearMiss: [] });
-      b.classes[b.classes.length - 1].members[1] = { vocabKey: 'key', word: 'key', pic: { theme: 'around the house', noun: 'key' }, sameSpelling: false, productive: true, picOpened: true };
-      ee.members = ee.members.filter((m) => m.vocabKey !== 'key');
-      if (judge('P6', gate(b), /rhyming-pairs\.json bee\/tree is SPLIT across ee and ree/)) killed++;
+      const b = clone(en); const ock = b.classes.find((c) => c.id === 'ock');
+      if (!ock || ock.members.length < 4) throw new Error('P6: the en -ock class no longer has 4 members — re-pick the split pair');
+      const moved = ock.members.filter((m) => m.vocabKey === 'clock' || m.vocabKey === 'rock');
+      ock.members = ock.members.filter((m) => !moved.includes(m));
+      b.classes.push({ id: 'ock2', rime: '-ock', sound: 'ɒk', cap: 8, members: moved, extra: [], nearMiss: [] });
+      if (judge('P6', gate(b), /rhyming-pairs\.json sock\/clock is SPLIT across ock and ock2/)) killed++;
     }
     // P7 — a fi member whose rime is not on a syllable boundary of the approved split (synthetic fi block)
     {
@@ -1019,9 +1035,9 @@ async function main() {
     // P8 — two distractors of one row from ONE class (they read as a pair; the base analogue of the F1 poison)
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'frog'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'frog'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
       const r = await renderWith(page, pageFrom(rows, 2), { difficulty: 2, baseName: 'G1-309-gate-poison-P8' });
       if (judge('P8', r.verify, /row 1: two distractors share a class \(og,og\)/)) killed++;
@@ -1053,9 +1069,9 @@ async function main() {
     // PP — the rhyme position constant (every rhyme in slot 1): the spec re-rolls; a page built past it fails verify()
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['jar', 'bun', 'bee'] },
-        { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['coat', 'bag', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['bed', 'jug', 'can'] },
-        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['van', 'boat', 'tree'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['jar', 'drum', 'bee'] },
+        { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['coat', 'bag', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['bed', 'rug', 'can'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['van', 'boat', 'nose'] },
       ]);
       const r = await renderWith(page, pageFrom(rows, 2), { difficulty: 2, baseName: 'G1-309-gate-poison-PP' });
       if (judge('PP', r.verify, /rhyme position 1 used 6 times \(want 1\.\.3\)|rhyme position 2 used 0 times/)) killed++;
@@ -1063,9 +1079,9 @@ async function main() {
     // PS — a d1 starter that is not the first glyph of the rhyming word
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog'], starter: 'c' }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar'], starter: 'j' },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog'], starter: 'c' }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar'], starter: 'j' },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['coat', 'bag'], starter: 'c' }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'bed'], starter: 'b' },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen'], starter: 'j' },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp'], starter: 'r' },
       ]);
       const r = await renderWith(page, pageFrom(rows, 1), { difficulty: 1, baseName: 'G1-309-gate-poison-PS' });
       if (judge('PS', r.verify, /row 1: starter "c" ≠ the first glyph of "hat"/)) killed++;
@@ -1073,10 +1089,10 @@ async function main() {
     // PF — a d3 foil outside the anchor's nearMiss (the node cross-check; verify() cannot see the bank)
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun', 'moon'], foils: ['moon'], clsOf: { moon: 'oon' } }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee', 'cart'], foils: ['cart'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake', 'moon'], foils: ['moon'], clsOf: { moon: 'oon' } }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee', 'cart'], foils: ['cart'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock', 'bowl'], foils: ['bowl'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed', 'bell'], foils: ['bell'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'pie', 'muffin'], foils: ['muffin'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree', 'pants'], foils: ['pants'] },
-        { cls: 'og', anchor: 'frog', partner: 'log', choices: ['log', 'nest', 'ham', 'doll'], foils: ['doll'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'pie', 'muffin'], foils: ['muffin'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose', 'pants'], foils: ['pants'] },
+        { cls: 'og', anchor: 'frog', partner: 'log', choices: ['log', 'nest', 'gate', 'doll'], foils: ['doll'] },
       ]);
       const { r, own } = await gateFindings(page, pageFrom(rows, 3), 3, 'G1-309-gate-poison-PF', en);
       if (judge('PF', own, /foil "moon" is not in the nearMiss of at/, `verify ${r.verify.length} (page-side, bank-blind by design)`)) killed++;
@@ -1084,9 +1100,9 @@ async function main() {
     // PN — a plain d2 distractor that is a near-miss of the anchor's class (cap in the cat row)
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'cap', 'sun'], clsOf: { cap: 'ap' } }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'cap', 'cake'], clsOf: { cap: 'ap' } }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
       const { own } = await gateFindings(page, pageFrom(rows, 2), 2, 'G1-309-gate-poison-PN', en);
       if (judge('PN', own, /plain distractor "cap" is a near-miss of at \(nearMiss off\)/)) killed++;
@@ -1094,24 +1110,30 @@ async function main() {
     // PW — the rhyming pair with a sameSpelling:false member on a write face (key written for bee)
     {
       const rows = rowsFrom(en, [
-        { cls: 'ee', anchor: 'bee', partner: 'key', choices: ['key', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'hat'] },
+        { cls: 'ee', anchor: 'bee', partner: 'key', choices: ['key', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'hat'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'cat'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'cat'] },
       ]);
       const { own } = await gateFindings(page, pageFrom(rows, 2), 2, 'G1-309-gate-poison-PW', en);
       const a = judge('PW node', own, /the rhyming word "key" is sameSpelling:false on a WRITE face/);
       // and the spec itself never draws it: 20 seeds × unit ee never pair bee with key
       let drew = false;
-      for (let k = 1; k <= 20; k++) { const m = TYPE._buildWith(en, { difficulty: 2, locale: 'en', unit: 'ee' }, { rng: makeRng('pw' + k) }).meta; if (m.rows.some((r) => r.cls === 'ee' && (r.partner === 'key' || r.anchor === 'key'))) drew = true; }
+      // since the 2026-09-30 review the ee class is bee + key: key is unwritable, so ee cannot anchor a write row at
+      // all — the spec REFUSES the unit, the strongest form of "never drawn"
+      for (let k = 1; k <= 20; k++) {
+        let m;
+        try { m = TYPE._buildWith(en, { difficulty: 2, locale: 'en', unit: 'ee' }, { rng: makeRng('pw' + k) }).meta; } catch (e) { if (/unit "ee" cannot anchor a row/.test(e.message)) break; throw e; }
+        if (m.rows.some((r) => r.cls === 'ee' && (r.partner === 'key' || r.anchor === 'key'))) drew = true;
+      }
       const b = judge('PW spec', drew ? [] : ['key never drawn as anchor or partner over 20 seeds'], /never drawn/, 'the spec draws sameSpelling:true only');
       if (a && b) killed++;
     }
     // PU — a unit render whose class anchors no row
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
       const { own } = await gateFindings(page, pageFrom(rows, 2, { unit: 'ock' }), 2, 'G1-309-gate-poison-PU', en, { unit: 'ock' });
       const a = judge('PU node', own, /unit "ock" anchors no row/);
@@ -1121,9 +1143,9 @@ async function main() {
     // PC — a row wider than its card (the lane pushed past the card box; .ws-card clips it silently)
     {
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
       const t = Object.assign({}, TYPE, { difficulty: { ...TYPE.difficulty, 2: { ...TYPE.difficulty[2], laneW: 320 } } });
       const a = judge('PC guard', buildRefusal(en, 2, t), /row budget 718 px > the 647 px card/);
@@ -1137,9 +1159,9 @@ async function main() {
       const t = Object.assign({}, TYPE, { difficulty: { ...TYPE.difficulty, 2: { ...TYPE.difficulty[2], choicePx: 36 } } });
       const a = judge('PI guard', buildRefusal(en, 2, t), /picture 36 px below the G1 floor 44/);
       const rows = rowsFrom(en, [
-        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'sun'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['bun', 'jar', 'bee'] },
+        { cls: 'at', anchor: 'cat', partner: 'hat', choices: ['hat', 'dog', 'cake'] }, { cls: 'ar', anchor: 'star', partner: 'jar', choices: ['drum', 'jar', 'bee'] },
         { cls: 'oat', anchor: 'goat', partner: 'coat', choices: ['bag', 'coat', 'sock'] }, { cls: 'ed', anchor: 'sled', partner: 'bed', choices: ['rug', 'can', 'bed'] },
-        { cls: 'ug', anchor: 'mug', partner: 'jug', choices: ['jug', 'pen', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'tree'] },
+        { cls: 'ug', anchor: 'mug', partner: 'rug', choices: ['rug', 'lamp', 'moon'] }, { cls: 'an', anchor: 'fan', partner: 'van', choices: ['boat', 'van', 'nose'] },
       ]);
       const { r, own } = await gateFindings(page, pageFrom(rows, 2, { choicePx: 36 }), 2, 'G1-309-gate-poison-PI', en);
       const b = judge('PI verify', r.verify, /picture 36 px < floor 44/);
@@ -1156,9 +1178,11 @@ async function main() {
     }
     // PX — a bank whose exemplar cannot anchor a write row (one writable member) REFUSES at build
     {
-      const b = clone(en); b.classes.find((c) => c.id === 'un').members[1].sameSpelling = false; b.classes.find((c) => c.id === 'un').members[1].word = 'bunn';
-      const a = judge('PX bank', gate(b), /exemplar "un" has 1 writable \(sameSpelling\) members < 2/);
-      const c = judge('PX build', buildRefusal(b, 2), /exemplar class "un" cannot anchor a row at this difficulty \(refuse\)/);
+      // (2026-09-30 bank: no "un" class; every exemplar class has 3+ members) — "at" keeps cat writable only
+      const b = clone(en); const at = b.classes.find((c) => c.id === 'at');
+      at.members.slice(1).forEach((m) => { m.sameSpelling = false; m.word = m.word + m.word.slice(-1); });
+      const a = judge('PX bank', gate(b), /exemplar "at" has 1 writable \(sameSpelling\) members < 2/);
+      const c = judge('PX build', buildRefusal(b, 2), /exemplar class "at" cannot anchor a row at this difficulty \(refuse\)/);
       if (a && c) killed++;
     }
 
@@ -1168,15 +1192,15 @@ async function main() {
       const memberOf = (bank, key) => { for (const c of bank.classes) { const m = c.members.find((x) => x.vocabKey === key); if (m) return { vocabKey: m.vocabKey, word: m.word, cls: c.id, src: fileUri(m.pic.theme, m.pic.noun), pic: m.pic, sameSpelling: m.sameSpelling }; } throw new Error('poison: unknown key ' + key); };
       const E = (key) => memberOf(en, key);
       const jcard = (a, b, rhyme) => ({ a: E(a), b: E(b), rhyme, cls: rhyme ? E(a).cls : null });
-      const goodJ = () => ({ face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('bun', 'star', false), jcard('dog', 'log', true), jcard('nail', 'cake', false), jcard('pen', 'moon', false), jcard('sun', 'bun', true), jcard('map', 'truck', false), jcard('boat', 'goat', true)] });
+      const goodJ = () => ({ face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('drum', 'star', false), jcard('dog', 'log', true), jcard('metal-nail', 'cake', false), jcard('lamp', 'moon', false), jcard('pie', 'tie', true), jcard('map', 'truck', false), jcard('boat', 'goat', true)] });
       // the control: the hand-built good judge plan passes everything
-      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('sun', 'bun', true); const { own, r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'judge control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('pie', 'tie', true); const { own, r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'judge control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
       // FJ1 — a "non-rhyming" pair drawn from ONE class (design P8)
-      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('sun', 'bun', true); g.cards[3] = jcard('pear', 'bear', false); const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ1', en); if (judge('FJ1', r.verify, /card 4: classes === but rhyme="0" \(pear\/bear\)/)) killed++; }
+      { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); g.cards[5] = jcard('pie', 'tie', true); g.cards[3] = jcard('pear', 'bear', false); const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ1', en); if (judge('FJ1', r.verify, /card 4: classes === but rhyme="0" \(pear\/bear\)/)) killed++; }
       // FJ2 — 7 of 8 rhyme
-      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('dog', 'log', true), jcard('sun', 'bun', true), jcard('star', 'car', true), jcard('bee', 'tree', true), jcard('boat', 'goat', true), jcard('bed', 'sled', true), jcard('map', 'truck', false)] }; const { r, own } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ2', en); const a = judge('FJ2 verify', r.verify, /7 yes \/ 1 no — one verdict is \(nearly\) constant|four equal verdicts/); const b = judge('FJ2 gate', own, /7 rhyming cards ≠ the config's 4/); if (a && b) killed++; }
+      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('dog', 'log', true), jcard('pie', 'tie', true), jcard('star', 'car', true), jcard('rose', 'nose', true), jcard('boat', 'goat', true), jcard('bed', 'sled', true), jcard('map', 'truck', false)] }; const { r, own } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ2', en); const a = judge('FJ2 verify', r.verify, /7 yes \/ 1 no — one verdict is \(nearly\) constant|four equal verdicts/); const b = judge('FJ2 gate', own, /7 rhyming cards ≠ the config's 4/); if (a && b) killed++; }
       // FJ3 — every rhyming pair in one column (even indices)
-      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('bread', 'star', false), jcard('dog', 'log', true), jcard('nail', 'cake', false), jcard('sun', 'bun', true), jcard('pen', 'moon', false), jcard('boat', 'goat', true), jcard('map', 'truck', false)] }; const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ3', en); if (judge('FJ3', r.verify, /the rhyming pairs sit in one column/)) killed++; }
+      { const g = { face: 'judge', band: 'K', unit: null, cards: [jcard('cat', 'hat', true), jcard('bread', 'star', false), jcard('dog', 'log', true), jcard('metal-nail', 'cake', false), jcard('pie', 'tie', true), jcard('lamp', 'moon', false), jcard('boat', 'goat', true), jcard('map', 'truck', false)] }; const { r } = await faceFindings(page, J, faceFrom(J, g), 'K-352-gate-poison-FJ3', en); if (judge('FJ3', r.verify, /the rhyming pairs sit in one column/)) killed++; }
       // FJ4 — a chip printing "yes" · FJ5 — a coral cross
       { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); const t = mutated(J, g, (h) => h.replace('data-lcs-chip="yes">', 'data-lcs-chip="yes"><span style="font-size:12px">yes</span>')); const r = await renderFace(page, t, { baseName: 'K-352-gate-poison-FJ4' }); if (judge('FJ4', r.verify, /chip "yes" carries text "yes"/)) killed++; }
       { const g = goodJ(); g.cards[1] = jcard('bread', 'star', false); const t = mutated(J, g, (h) => h.replace(/(data-lcs-chip="no">[\s\S]*?stroke=")#146B5E/, '$1#F2784B')); const r = await renderFace(page, t, { baseName: 'K-352-gate-poison-FJ5' }); if (judge('FJ5', r.verify, /chip "no" mark is #F2784B, not teal/)) killed++; }
@@ -1196,7 +1220,7 @@ async function main() {
       const goodS = () => { const bins = [sbin('at', 'cat', ['hat', 'bat']), sbin('og', 'frog', ['dog', 'log']), sbin('ar', 'star', ['car', 'jar'])]; return { face: 'sort', band: 'G1', unit: null, bins, bankItems: [E('hat'), E('dog'), E('car'), E('bat'), E('log'), E('jar')] }; };
       { const { own, r } = await faceFindings(page, S, faceFrom(S, goodS()), 'G1-343-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'sort control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
       // FS1 — a bank picture whose class is no bin's
-      { const g = goodS(); g.bankItems[1] = E('sun'); const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS1', en); if (judge('FS1', r.verify, /bank 2: class "un" is no bin's class/)) killed++; }
+      { const g = goodS(); g.bankItems[1] = E('cake'); const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS1', en); if (judge('FS1', r.verify, /bank 2: class "ake" is no bin's class/)) killed++; }
       // FS2 — two bins of one class
       { const g = goodS(); g.bins[2] = sbin('at', 'cat', ['hat', 'bat']); g.bins[2].head = E('cap'); g.bins[2].head.cls = 'at'; const { r } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS2', en); if (judge('FS2', r.verify, /two bins share a class/)) killed++; }
       // FS3 — a bin's two members adjacent in the bank
@@ -1206,12 +1230,12 @@ async function main() {
       // FS5 — a lane with printed text
       { const t = mutated(S, goodS(), (h) => h.replace('</svg></div><div data-lcs-bin-lane="2"', '<text x="10" y="40" font-size="20">hat</text></svg></div><div data-lcs-bin-lane="2"')); const r = await renderFace(page, t, { baseName: 'G1-343-gate-poison-FS5' }); if (judge('FS5', r.verify, /lane 1: the writing row is not empty/)) killed++; }
       // FS6 — a unit that cannot head a bin
-      { if (judge('FS6', planRefusal(S, en, { unit: 'un' }), /unit "un" cannot carry this face \(refuse\)/)) killed++; }
+      { if (judge('FS6', planRefusal(S, en, { unit: 'ake' }), /unit "ake" cannot carry this face \(refuse\)/)) killed++; }
       // FS7 — a bank picture stamped with another class (verify passes: the class matches a bin)
       { const g = goodS(); g.bankItems = [E('hat'), E('car'), Object.assign({}, E('dog'), { cls: 'at' }), E('log'), E('jar'), Object.assign({}, E('bat'), { cls: 'og' })]; const { r, own } = await faceFindings(page, S, faceFrom(S, g), 'G1-343-gate-poison-FS7', en); if (judge('FS7', own, /bank picture "dog" stamped class "at" ≠ bank "og" — not verbatim/, `verify ${r.verify.length} (bank-blind by design)`)) killed++; }
 
       const crow = (id) => { const cp = en.couplets.find((c) => c.id === id); const a = E(cp.answer.vocabKey); const [pre, post] = cp.lines[1].split('___'); return { id, line1: cp.lines[0], pre, post: post || '', rhymeWith: cp.rhymeWith, answer: a, cls: a.cls }; };
-      const goodC = () => ({ face: 'couplet', band: 'G1', unit: null, rows: ['cat-hat', 'dog-frog', 'sun-bun', 'star-car', 'boat-goat', 'bed-sled'].map(crow) });
+      const goodC = () => ({ face: 'couplet', band: 'G1', unit: null, rows: ['cat-hat', 'dog-frog', 'bag-flag', 'star-car', 'boat-goat', 'bed-sled'].map(crow) });   // sun-bun left with the 2026-09-30 bank
       { const { own, r } = await faceFindings(page, C, faceFrom(C, goodC()), 'G1-344-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'couplet control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
       // FC1 — line 2 prints the answer
       { const g = goodC(); g.rows[0].pre = 'and put on a big red hat '; const { r } = await faceFindings(page, C, faceFrom(C, g), 'G1-344-gate-poison-FC1', en); if (judge('FC1', r.verify, /couplet 1: the answer "hat" is printed in the verse/)) killed++; }
@@ -1230,14 +1254,14 @@ async function main() {
 
       const tanch = (cls, anchor, answers) => ({ cls, anchor: E(anchor), answers: answers.map(E) });
       const foil = (k) => Object.assign(E(k), { foil: true });
-      const goodT = () => { const anchors = [tanch('at', 'cat', ['hat', 'bat']), tanch('og', 'frog', ['dog', 'log']), tanch('ar', 'star', ['car', 'jar']), tanch('oat', 'boat', ['coat', 'goat'])]; const foils = [foil('sun'), foil('pen'), foil('moon'), foil('map')]; return { face: 'string', band: 'G1', unit: null, anchors, foils, bankItems: [E('hat'), E('dog'), foil('sun'), E('car'), E('bat'), E('coat'), foil('pen'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')] }; };
+      const goodT = () => { const anchors = [tanch('at', 'cat', ['hat', 'bat']), tanch('og', 'frog', ['dog', 'log']), tanch('ar', 'star', ['car', 'jar']), tanch('oat', 'boat', ['coat', 'goat'])]; const foils = [foil('cake'), foil('lamp'), foil('moon'), foil('map')]; return { face: 'string', band: 'G1', unit: null, anchors, foils, bankItems: [E('hat'), E('dog'), foil('cake'), E('car'), E('bat'), E('coat'), foil('lamp'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')] }; };
       { const { own, r } = await faceFindings(page, T, faceFrom(T, goodT()), 'G1-345-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'string control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
       // FT1 — the bank missing an answer
       { const g = goodT(); g.bankItems[0] = foil('bed'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT1', en); if (judge('FT1', r.verify, /anchor 1: answer "hat" is not in the bank/)) killed++; }
       // FT2 — a foil from an anchor's class (guitar is -ar; star anchors -ar on the plan)
       { const g = goodT(); g.bankItems[2] = foil('guitar'); g.foils[0] = foil('guitar'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT2', en); if (judge('FT2', r.verify, /bank 3: foil "guitar" is from an anchor's class "ar" — it rhymes/)) killed++; }
       // FT3 — an anchor's two answers adjacent
-      { const g = goodT(); g.bankItems = [E('hat'), E('bat'), E('dog'), foil('sun'), E('car'), E('coat'), foil('pen'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')]; const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT3', en); if (judge('FT3', r.verify, /anchor 1: its answers "hat" and "bat" are adjacent in the bank/)) killed++; }
+      { const g = goodT(); g.bankItems = [E('hat'), E('bat'), E('dog'), foil('cake'), E('car'), E('coat'), foil('lamp'), E('log'), E('goat'), foil('moon'), E('jar'), foil('map')]; const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT3', en); if (judge('FT3', r.verify, /anchor 1: its answers "hat" and "bat" are adjacent in the bank/)) killed++; }
       // FT4 — the anchor's own word in the bank
       { const g = goodT(); g.bankItems[2] = foil('cat'); g.foils[0] = foil('cat'); const { r } = await faceFindings(page, T, faceFrom(T, g), 'G1-345-gate-poison-FT4', en); if (judge('FT4', r.verify, /the anchor word "cat" is printed in the bank|the anchor's own word "cat"|foil "cat" is from an anchor's class/)) killed++; }
       // FT5 — a bank that needs three rows: the plan guard refuses; a forced render fails verify()
@@ -1246,12 +1270,12 @@ async function main() {
       //       raccoon beside the real -oon (verify() sees a different class id and passes; only the node check hears it)
       { const b3 = clone(en); const oon3 = b3.classes.find((c) => c.id === 'oon'); const rac = oon3.members.splice(3, 1)[0]; b3.classes.push({ id: 'une', rime: '-oon', sound: 'uːn', cap: 8, members: [rac, { vocabKey: 'muffin', word: 'muffin', pic: { theme: 'bakery', noun: 'muffin' }, sameSpelling: false, productive: true, picOpened: true }], extra: [], nearMiss: [] });
         const M3 = (k) => memberOf(b3, k);
-        const g4 = goodT(); g4.anchors[3] = { cls: 'oon', anchor: M3('moon'), answers: [M3('spoon'), M3('balloon')] }; g4.foils = [foil('sun'), foil('pen'), Object.assign(M3('raccoon'), { foil: true }), foil('map')];
-        g4.bankItems = [E('hat'), E('dog'), foil('sun'), E('car'), E('bat'), M3('spoon'), foil('pen'), E('log'), M3('balloon'), Object.assign(M3('raccoon'), { foil: true }), E('jar'), foil('map')];
+        const g4 = goodT(); g4.anchors[3] = { cls: 'oon', anchor: M3('moon'), answers: [M3('spoon'), M3('balloon')] }; g4.foils = [foil('cake'), foil('lamp'), Object.assign(M3('raccoon'), { foil: true }), foil('map')];
+        g4.bankItems = [E('hat'), E('dog'), foil('cake'), E('car'), E('bat'), M3('spoon'), foil('lamp'), E('log'), M3('balloon'), Object.assign(M3('raccoon'), { foil: true }), E('jar'), foil('map')];
         const { r, own } = await faceFindings(page, T, faceFrom(T, g4), 'G1-345-gate-poison-FT6', b3); if (judge('FT6', own, /foil "raccoon" \(class une\) shares an anchor's SOUND "uːn" — it rhymes/, `verify ${r.verify.length} (bank-blind by design)`)) killed++; }
 
       const ocard = (cls, anchor) => { const a = E(anchor); const c = en.classes.find((x) => x.id === cls); return { cls, anchor: a, examples: [...c.members.filter((x) => x.vocabKey !== anchor).map((x) => x.word), ...c.extra] }; };
-      const goodO = () => ({ face: 'open', band: 'G1', unit: null, cards: [ocard('at', 'cat'), ocard('og', 'dog'), ocard('un', 'sun'), ocard('ar', 'star'), ocard('ee', 'bee'), ocard('oat', 'boat')] });
+      const goodO = () => ({ face: 'open', band: 'G1', unit: null, cards: [ocard('at', 'cat'), ocard('og', 'dog'), ocard('ie', 'pie'), ocard('ar', 'star'), ocard('ee', 'bee'), ocard('oat', 'boat')] });
       { const { own, r } = await faceFindings(page, O, faceFrom(O, goodO()), 'G1-346-gate-control', en); ok(own.length === 0 && r.verify.length === 0, 'open control plan: ' + JSON.stringify([...own, ...r.verify].slice(0, 3))); }
       // FO1 — the printed word ≠ the stamp
       { const t = mutated(O, goodO(), (h) => h.replace('data-lcs-word-print="1">cat<', 'data-lcs-word-print="1">hat<')); const r = await renderFace(page, t, { baseName: 'G1-346-gate-poison-FO1' }); if (judge('FO1', r.verify, /card 1: prints "hat" ≠ stamp "cat"/)) killed++; }

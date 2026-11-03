@@ -104,7 +104,7 @@ const QUESTION_WORDS = {
     excludeThings: [],
     // 2026-09-29: the zoo "bear" art is a TEDDY BEAR — a child names it "teddy", not "the bear" (all locales). Skipped
     // at SELECTION (never removed from the pool, whose shuffle order every published page depends on)
-    avoidThings: ['bear', 'nectarine'],   // 2026-09-29: the nectarine art reads as an apple / a peach
+    avoidThings: ['bear', 'nectarine', 'lime'],   // 2026-09-29: the nectarine art reads as an apple / a peach; 2026-11-03: the lime reads as a pear (lib/picture-refusals.js)
     // 2026-09-29: places a frame's verb cannot take — nobody reads in the pool or the garage, or plays in bed
     placeBan: { 'read-place': ['pool', 'garage'], 'play-place': ['bed'] },
     // MEASURED 2026-09-21 (the gate's chip sheet through render/one, the shell woff2 from file://): the rendered width of

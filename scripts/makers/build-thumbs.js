@@ -55,7 +55,13 @@ const arg = (k) => { const a = process.argv.find((x) => x.startsWith(`--${k}=`))
         fs.mkdirSync(dir, { recursive: true });
         for (const id of ids) {
           const html = await page.evaluate((id) => window.__lcsMaker.sample(id), id);
-          if (!html) { refused++; console.log(`FAIL ${maker} ${loc} ${id}: the sample page is refused by its gates`); continue; }
+          if (!html) {
+            refused++;
+            // the gate's own reasons (shell.js keeps them beside the sample), so a refusal is fixable from the log
+            const why = await page.evaluate(() => (window.__lcsMaker.lastSampleFails || []).slice(0, 3).join(' | '));
+            console.log(`FAIL ${maker} ${loc} ${id}: the sample page is refused by its gates — ${String(why).slice(0, 400)}`);
+            continue;
+          }
           const key = crypto.createHash('sha1').update(html).digest('hex');
           const cachedFile = path.join(CACHE, `${key}.webp`);
           if (!fs.existsSync(cachedFile)) {

@@ -232,7 +232,12 @@ function candidates(bankLoc, strip, d) {
   };
   for (const verb of verbs) {
     if (verb.id === 'write') {
-      for (const a of nouns) { const c = occ.get(a).length; if (c >= 2 && c <= 4 && nouns.length >= 2) push(verb, 'count', null, a, null, [], c); }
+      // countMin (level 1): a picture shown once may be counted too, so the NAMED word decides the answer (with 3·1·1·1 only
+      // one noun reached 2-4: a child could count the biggest group unread — native + pedagogy review 2026-11-03)
+      // ...weighted so a group (2-4) is as likely to be asked as all the single pictures together: the answer is no
+      // more often 1 than not (measured: unweighted, 1 was the answer on 57 % of level-1 pages)
+      const ones = nouns.filter((x) => occ.get(x).length === 1).length;
+      for (const a of nouns) { const c = occ.get(a).length; if (c >= (d.countMin || 2) && c <= 4 && nouns.length >= 2) for (let w = 0; w < (d.countMin === 1 && c >= 2 ? Math.max(1, ones) : 1); w++) push(verb, 'count', null, a, null, [], c); }
       continue;
     }
     if (verb.id === 'line') {
@@ -370,7 +375,8 @@ function DERIVE_WANT(occ, n, ordMax, ordWindow, s) {
   let want = null;
   if (s.action === 'write') {
     if (kind !== 'count') fails.push(`write step cue "${s.cue}"`);
-    if (!(c(s.noun) >= 2 && c(s.noun) <= 4)) fails.push(`write noun "${s.noun}" occurs ${c(s.noun)}x (want 2-4: the count frames are plural)`);
+    // 1-4 like the base (2026-11-03): a two-step page may count a single picture, so the answer is not always 2
+    if (!(c(s.noun) >= 1 && c(s.noun) <= 4)) fails.push(`write noun "${s.noun}" occurs ${c(s.noun)}x (want 1-4)`);
     if (nouns.length < 2) fails.push('write over a one-noun strip');
     want = [];
   } else if (s.action === 'line') {
@@ -703,7 +709,10 @@ module.exports = {
   levelSetWords: (meta) => [...new Set(meta.strip || (meta.cards || []).flatMap((c) => (c.length === 5 ? [c[0], c[2]] : [c[0]])))],
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: {
-    1: { pics: 6, tile: 92, pic: 76, gap: 8, rows: 6, rowMin: 82, rowGap: 8, fontPx: 19, verbs: ['circle', 'cross', 'mark', 'write'], minVerbs: 3, maxPerVerb: 2, maxPerCue: 3, cues: ['unique', 'all', 'first', 'last'], ordMax: 0, ordWindow: 6, nounsMin: 5, nounsMax: 5, maxCount: 2 },
+    // 2026-11-03: six pictures over FOUR nouns (counts 3·1·1·1 or 2·2·1·1). Over five nouns one noun showed twice and
+    // the rest once, so every "write how many" (a plural frame, 2-4 pictures) answered 2 — a child could write 2 unread;
+    // countMin 1: the counted picture may be a single one (the reviewed frames read "how many X" for one as for many)
+    1: { pics: 6, tile: 92, pic: 76, gap: 8, rows: 6, rowMin: 82, rowGap: 8, fontPx: 19, verbs: ['circle', 'cross', 'mark', 'write'], minVerbs: 3, maxPerVerb: 2, maxPerCue: 3, cues: ['unique', 'all', 'first', 'last'], ordMax: 0, ordWindow: 6, nounsMin: 4, nounsMax: 4, maxCount: 3, countMin: 1 },
     2: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 6, rowMin: 85, rowGap: 8, fontPx: 18, verbs: VERB_IDS.slice(), minVerbs: 4, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 6, maxCount: 4 },
     3: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 7, rowMin: 73, rowGap: 6, fontPx: 17, verbs: VERB_IDS.slice(), minVerbs: 5, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last', 'between', 'rightof', 'leftof'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 7, maxCount: 4 },
   },
@@ -895,7 +904,9 @@ module.exports = {
     for (let s = 0; s < MAX_STRIPS && !rows; s++) {
       const its = sampleStrip(rng, pool, d);
       strip = its.map((e) => e.vocabKey);
-      const cands = candidates(bankLoc, strip, d);
+      // countMin 1 (2026-11-03): a write step whose noun is a group of 3 never completed a page (the noun cap leaves its
+      // tiles uncovered), so every two-step "write how many" answered 2 — the counted noun may now be a single picture too
+      const cands = candidates(bankLoc, strip, { ...d, countMin: d.countMin || 1 });
       lastCands = cands;
       const verbsSeen = new Set(cands.map((c) => c.action));
       const missing = d.verbs.filter((v) => !verbsSeen.has(v));

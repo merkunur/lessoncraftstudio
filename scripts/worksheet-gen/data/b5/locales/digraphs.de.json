@@ -673,7 +673,7 @@
           "vocabKey": "lights",
           "theme": "christmas",
           "noun": "lights",
-          "word": "Lichterketten",
+          "word": "Lichterkette",
           "seg": [
             "L",
             "i",
@@ -684,8 +684,7 @@
             "k",
             "e",
             "tt",
-            "e",
-            "n"
+            "e"
           ],
           "snd": [
             "l",
@@ -697,8 +696,7 @@
             "k",
             "ɛ",
             "t",
-            "ə",
-            "n"
+            "ə"
           ],
           "silent": [],
           "stem": "lichterkette",

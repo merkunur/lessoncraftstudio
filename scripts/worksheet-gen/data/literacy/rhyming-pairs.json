@@ -1,5 +1,5 @@
 {
-  "_note": "LITERACY rhyming pairs (science-pair-match): each left rhymes with its right. en here.",
+  "_note": "LITERACY rhyming pairs (science-pair-match): each left rhymes with its right. en here. 2026-11-03: sun/bun (the bun reads as bread) and bee/tree (the only tree is a decorated Christmas tree) left with the rhyming bank review of 2026-09-30; sock/clock and moon/spoon take their places.",
   "pairs": [
     {
       "left": {
@@ -23,12 +23,12 @@
     },
     {
       "left": {
-        "theme": "beach",
-        "noun": "sun"
+        "theme": "accessories",
+        "noun": "sock"
       },
       "right": {
-        "theme": "bakery",
-        "noun": "bun"
+        "theme": "around the house",
+        "noun": "clock"
       }
     },
     {
@@ -43,12 +43,12 @@
     },
     {
       "left": {
-        "theme": "farm animals",
-        "noun": "bee"
+        "theme": "shapes",
+        "noun": "moon"
       },
       "right": {
-        "theme": "christmas",
-        "noun": "tree"
+        "theme": "kitchen tools",
+        "noun": "spoon"
       }
     },
     {

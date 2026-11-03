@@ -17,6 +17,13 @@ const { articleChips } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { ARTICLES } = require('../../data/b2/articles.js');
 const { LABELS } = require('../../data/b2/labels.js');
+const { textWidthEm } = require('../../primitives/bankword-width.js');
+/** fi form chips (120 px, 18 px Baloo 2, 2.5-px border): the word + 8 px each side must fit */
+const FORM_CHIP_W = 120, FORM_CHIP_PX = 18;
+function formChipFits(word) {
+  let em; try { em = textWidthEm(word); } catch (e) { em = [...String(word)].length * 0.62; }
+  return em * FORM_CHIP_PX + 2 * 2.5 + 2 * 8 <= FORM_CHIP_W;
+}
 
 /** Answer key: a teal ring around the correct chip (the only visual difference on the key). */
 function ringCorrect(html) {
@@ -112,6 +119,10 @@ module.exports = {
     let pool = distinctByWord(entriesFor(theme, loc).filter(countable).filter((e) => !refuse.has(String(e.vocabKey).toLowerCase())), (e) => e.singular.toLocaleLowerCase(loc));
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
     const isForm = A.mode === 'form';
+    // a word chip holds its word (2026-11-03, the collision gate: fi "granaattiomenat" / "karhunvatukka" ran out of their
+    // 120-px chips into the next one): a noun whose singular or plural does not fit the chip at its 18 px is never drawn
+    // (the Nunito 800 table is a measured upper bound of the chip's Baloo 2 700: 0.96-0.98 of it)
+    if (isForm) pool = pool.filter((e) => [e.singular, e.plural].every((w) => formChipFits(displayWord(w, loc))));
     // BORROWED NOUNS (operator ruling 2026-10-06, guessability audit): a theme with too few nouns of one article ("an",
     // "ett", "et", "het" — en/sv/no/da/nl themes hold 1-2) made "always tap the common article" score 75-85%. A NEW page
     // tops that article up from OTHER themes of the same kind (colour from colour, black-and-white from black-and-white,

@@ -733,7 +733,12 @@ async function runFaces(page, note, addAssertions, loc, themes, seeds) {
     if (kind === 'circle') { note([...seen.verbs].join(',') === 'circle', `F1 sweep: verbs ${[...seen.verbs].join(',')} (want circle only)`); note(seen.cues.has('unique') && seen.cues.has('all'), `F1 sweep: cues ${[...seen.cues].join(',')} (want unique + all)`); }
     if (kind === 'steps') {
       // `line` (two disjoint unique tiles inside the 3-per-cue cap) surfaces on ~1 page in 12 (measured 120-page probe): the full 20-seed sweep asks every verb; --quick asks all but at most one
-      const missing = cfg.verbs.filter((v) => !seen.verbs.has(v));
+      // ...measured again 2026-11-03: since the Level Set's picture exclusions (2026-09-29, familyAvoid) the strips seldom
+      // carry two once-only pictures that no other step targets, and `line` is asked on 0 of 240 two-step pages (4 of 120
+      // with the 09-14 code on the same data). The two-step face asks the other five; the BASE still asks `line` (its
+      // sweep below requires every verb), so the verb is taught in the family
+      const STEPS_UNREACHABLE = ['line'];
+      const missing = cfg.verbs.filter((v) => !seen.verbs.has(v) && !STEPS_UNREACHABLE.includes(v));
       note(QUICK ? missing.length <= 1 && !missing.includes('write') : missing.length === 0, `F2 sweep: verbs never asked: ${missing.join(',')}`);
       note(seen.writes > 0 && seen.answers.size >= 2, `F2 sweep: write steps ${seen.writes}, answers ${[...seen.answers].join(',')}`);
     }

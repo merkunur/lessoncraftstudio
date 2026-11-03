@@ -453,7 +453,7 @@
       "sortThingForm": "nomArticle",
       "genderFilter": {},
       "excludeThings": [],
-      "avoidThings": ["bear", "nectarine"],
+      "avoidThings": ["bear", "nectarine", "lime"],
       "placeBan": { "read-place": ["pool", "garage"], "play-place": ["bed"] },
       "frames": [
         { "id": "see-thing", "kind": "thing", "text": "{name} sieht {thing}.", "q": { "who": "Wer sieht {thing}?", "what": "Was sieht {name}?" }, "signed": true, "objCase": "acc" },

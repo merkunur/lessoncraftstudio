@@ -45,7 +45,7 @@ const COPIES = Number(arg('copies', '2'));
           const M = window.__lcsMaker;
           const t = M.tj.templates.find((x) => x.locales.includes(M.LANG));
           const type = await M.loadType(t.id);
-          const o = { strings: M.stringsFor(t.id, ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0]), locale: M.LANG, difficulty: ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0], theme: t.themed ? ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[0] : null, unit: ((t.units && t.units[M.LANG]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === t.levels[0]).map((u) => u.id)[0] || null, variant: 1 };
+          const o = { strings: M.stringsFor(t.id, ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0]), locale: M.LANG, difficulty: ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0], theme: t.themed ? ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[0] : null, unit: ((t.units && t.units[M.LANG]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0]) && (!t.localeUnitLevels || !t.localeUnitLevels[M.LANG] || (t.localeUnitLevels[M.LANG][u.id] || []).includes(((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)[0]))).map((u) => u.id)[0] || null, variant: 1 };
           const good = await M.mod.generate({ ...o, type }, M.mount);
           const again = await M.mod.generate({ ...o, type }, M.mount);
           // three poisons, each on every attempt so no retry can rescue it: (1) a block wider than the page that cannot shrink
@@ -68,7 +68,7 @@ const COPIES = Number(arg('copies', '2'));
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
           for (const d of ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)) for (let v = 1; v <= COPIES; v++) {
-            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? (v === 2 && ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).find((x) => /bw(\s+\d+)?$/i.test(x))) || ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[(v - 1) % ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).length] : null, unit: (() => { const lu = units.filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return lu.length ? lu[(v - 1) % lu.length].id : null; })(), variant: v, answerKey: !!(t.interactive || (t.keyLevels || []).includes(d)), answerKeySuffix: M.tj.answerKey[M.LANG] };
+            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? (v === 2 && ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).find((x) => /bw(\s+\d+)?$/i.test(x))) || ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[(v - 1) % ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).length] : null, unit: (() => { const lu = units.filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[M.LANG] || (t.localeUnitLevels[M.LANG][u.id] || []).includes(d))); return lu.length ? lu[(v - 1) % lu.length].id : null; })(), variant: v, answerKey: !!(t.interactive || (t.keyLevels || []).includes(d)), answerKeySuffix: M.tj.answerKey[M.LANG] };
             const t0 = performance.now();
             const r = await M.mod.generate(o, M.mount);
             out.push({ id: t.id, d, v, ok: r.ok, attempt: r.ok ? JSON.stringify(r.attempt) : null, fails: r.ok ? null : r.fails.slice(0, 3), ms: performance.now() - t0 });

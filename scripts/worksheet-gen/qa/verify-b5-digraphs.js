@@ -291,7 +291,11 @@ async function main() {
   // 0. primitive gate
   { const before = console.log; const lines = []; console.log = (...a) => lines.push(a.join(' ')); let p = false; try { p = await beadGate.main(); } finally { console.log = before; } ok(p, 'qa/verify-team-bead.js FAILED:\n    ' + lines.slice(-6).join('\n    ')); console.log('team-bead gate: ' + (lines.find((l) => /^(PASS|FAIL)/.test(l)) || '?')); }
   // 1. bank
-  for (const loc of Object.keys(bankMod.DIGRAPHS)) { const bf = validateBank(bankMod.DIGRAPHS[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
+  // EVERY language's bank — the merged one build() reads (data/b5/digraphs.js holds en only; the panels' blocks live in
+  // data/b5/locales/: 2026-11-03 a de item whose seg no longer spelled its word passed because only en was validated)
+  const ALL_BANKS = require('../lib/b5-common.js').bankModule('digraphs');
+  ok(Object.keys(ALL_BANKS).length >= 2, `bank: only ${Object.keys(ALL_BANKS).join(',')} validated (the locale blocks did not load)`);
+  for (const loc of Object.keys(ALL_BANKS)) { const bf = validateBank(ALL_BANKS[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(EN.strings.base.title === TYPE.i18n.en.title && EN.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
   {
     const ex = EN.sets.exemplar;

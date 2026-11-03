@@ -96,7 +96,8 @@ function makeCbnType({ id, slug, kind, i18n }) {
       // a maker page with no design (makers 2026-11-02): the copy picks one of its LEVEL's designs (level 2, copy 1 = the
       // exemplar, as published); the catalogue always names its design
       const lvDesigns = () => { const ex = this.unitAxis.exemplar(loc); const l = mine().filter((x) => x.level === Number(difficulty)); return l.some((x) => x.id === ex) ? [byId(ex)].concat(l.filter((x) => x.id !== ex)) : l; };
-      const pickByCopy = () => { const l = lvDesigns(); const v = String((ctx && (ctx.seedVariant || ctx.variant)) || 1); const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0); return l.length ? l[(n - 1) % l.length] : byId(this.unitAxis.exemplar(loc)); };
+      // a maker retry (ctx.retry "<maker copy>.<k>") moves k designs on from the copy it retries (ctx.variant)
+      const pickByCopy = () => { const l = lvDesigns(); const v = String((ctx && (ctx.seedVariant || ctx.variant)) || 1); const n0 = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0); const n = ctx && ctx.retry ? (Math.max(1, parseInt(ctx.variant || 1, 10) || 1) + (+String(ctx.retry).split('.')[1] || 0)) : n0; return l.length ? l[(n - 1) % l.length] : byId(this.unitAxis.exemplar(loc)); };
       const picked = !unit && ctx && ctx.slotsOut;
       const d = unit ? byId(unit) : picked ? pickByCopy() : byId(this.unitAxis.exemplar(loc));
       if (d.level !== Number(difficulty)) throw new Error(`${id}: "${d.id}" is a level ${d.level} design, not level ${difficulty}`);

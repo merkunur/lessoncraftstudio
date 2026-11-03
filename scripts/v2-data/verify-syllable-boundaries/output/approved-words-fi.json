@@ -1,6 +1,6 @@
 {
   "locale": "fi",
-  "generated_at": "2026-11-03T06:42:40.020Z",
+  "generated_at": "2026-11-03T08:26:16.471Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -3124,15 +3124,17 @@
     },
     {
       "key": "brush",
-      "word": "harja",
+      "word": "pensseli",
       "split": [
-        "har",
-        "ja"
+        "pens",
+        "se",
+        "li"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
-        "har",
-        "ja"
+        "pens",
+        "se",
+        "li"
       ],
       "sources_agreed": [
         "TeX",

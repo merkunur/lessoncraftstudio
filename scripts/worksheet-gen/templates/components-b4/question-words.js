@@ -215,7 +215,8 @@ function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, p
       if (a.picKind === 'person' && !['m', 'f'].includes(a.depicted)) throw new Error(`qaMatch: right item ${j} is a portrait without depicted m|f`);
       const img = `<img class="ws-icon" src="${a.src}" alt="" ${attr('data-lcs-pic', a.pic)}${a.picKind ? ' ' + attr('data-lcs-pickind', a.picKind) : ''}${a.picKind === 'person' ? ' ' + attr('data-lcs-depicted', a.depicted) : ''} style="width:${picPx}px;height:${picPx}px;flex:0 0 auto">`;
       // a count answer: the thing's picture wearing the K-287 count badge (the number word is the literal beside it)
-      picHtml = a.badge != null ? `<span style="position:relative;display:inline-flex;flex:0 0 auto">${img}${countBadge(a.badge)}</span>` : img;
+      // the badge sits in a 22-px band left of the picture (the K-287 "many" side), never on the drawing (collision gate 2026-11-03)
+      picHtml = a.badge != null ? `<span style="position:relative;display:inline-flex;flex:0 0 auto;padding-left:22px">${img}${countBadge(a.badge)}</span>` : img;
     }
     return `<div class="ws-match-item ws-match-item--plain" data-lcs-a="${j}" ${attr('data-lcs-kind', a.kind)} ${attr('data-lcs-literal', a.literal)} ` +
       `style="width:${rightW}px;min-height:${itemH}px;${grow}padding:6px 12px;gap:8px;justify-content:flex-start">${picHtml}` +

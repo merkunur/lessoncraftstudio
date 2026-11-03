@@ -2323,7 +2323,7 @@
     "excavator",
     "jet"
    ],
-   "avoidThings": ["bear", "nectarine", "forklift"],
+   "avoidThings": ["bear", "nectarine", "forklift", "lime"],
    "chipWidths": {
     "Kuka": 72.9,
     "Mitä": 67.8,

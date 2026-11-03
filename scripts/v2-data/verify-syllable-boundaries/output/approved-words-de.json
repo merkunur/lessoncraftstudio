@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "generated_at": "2026-11-03T06:42:39.627Z",
+  "generated_at": "2026-11-03T08:26:15.753Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -3723,22 +3723,22 @@
     },
     {
       "key": "brush",
-      "word": "Bürste",
+      "word": "Pinsel",
       "split": [
-        "bürs",
-        "te"
+        "pin",
+        "sel"
       ],
       "count": 2,
       "chunks": [
         [
-          "b",
-          "ü",
-          "r",
-          "s"
+          "p",
+          "i",
+          "n"
         ],
         [
-          "t",
-          "e"
+          "s",
+          "e",
+          "l"
         ]
       ],
       "sources_agreed": [
@@ -3748,7 +3748,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈbʏʁstə/"
+      "wiktionary_ipa": "/ˈpɪnzl̩/"
     },
     {
       "key": "bucket",
@@ -16631,12 +16631,12 @@
     },
     {
       "key": "lights",
-      "word": "Lichterketten",
+      "word": "Lichterkette",
       "split": [
         "lich",
         "ter",
         "ket",
-        "ten"
+        "te"
       ],
       "count": 4,
       "chunks": [
@@ -16657,8 +16657,7 @@
         ],
         [
           "t",
-          "e",
-          "n"
+          "e"
         ]
       ],
       "sources_agreed": [

@@ -499,7 +499,10 @@ function doctored(fn) { return { ...TYPE, build(o, ctx) { const r = TYPE.build(o
 
 async function main() {
   const quick = process.argv.includes('--quick');
-  const banks = bankMod.WORD_PARTS;
+  // EVERY language's bank — the merged one build() reads (the module holds en only; the panels' blocks live in
+  // data/b5/locales/ — 2026-11-03: only en was ever validated)
+  const banks = require('../lib/b5-common.js').bankModule('word-parts');
+  ok(Object.keys(banks).length >= 2, `bank: only ${Object.keys(banks).join(',')} loaded`);
   freeClaim.selfTest();
   // 0. primitive gate
   { const before = console.log; const lines = []; console.log = (...a) => lines.push(a.join(' ')); let p = false; try { p = await brickGate.main(); } finally { console.log = before; } ok(p, 'qa/verify-word-brick.js FAILED:\n    ' + lines.slice(-6).join('\n    ')); console.log('word-brick gate: ' + (lines.find((l) => /^(PASS|FAIL)/.test(l)) || '?')); }

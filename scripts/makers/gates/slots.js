@@ -172,7 +172,7 @@ const tjOf = (m) => JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers', m, 
 // the slots gate builds the English pages: the themes the template offers in English (templates.json localeThemes)
 const themesOf = (t0) => { const t = { ...t0, themes: (t0.localeThemes && t0.localeThemes.en) || t0.themes }; return (t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null]); };
 // a unit drawn for one level (t.unitLevels) is asked for at that level only
-const unitAtOf = (t) => (d) => ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
+const unitAtOf = (t) => (d) => ((t.units && t.units.en) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels['en'] || (t.localeUnitLevels['en'][u.id] || []).includes(d))).map((u) => u.id)[0] || null;
 const jobKey = (id, theme, d, v) => [id, theme, d, v].join('|');
 // 1 (reference side): the catalogue builds of every template that existed at REF, by the worker in its own process
 const jobs = [];
@@ -237,11 +237,16 @@ for (const m of MAKERS) {
     if (roles.length && NO_SLOT.has(t.id)) fail(`${t.id}: listed as slot-less but exposes ${roles.join(',')}`);
     for (const role of roles) {
       const s = base.slots[role];
-      const free = s.pool.find((k) => !s.values.includes(k));
+      // the probe choice: a pool item on NO slot of the page first (a type refuses a picture another slot already shows —
+      // K-510 keeps its groups apart), else any item outside this slot
+      const onPage = new Set(Object.values(base.slots).flatMap((x) => x.values || []));
+      const frees = s.pool.filter((k) => !s.values.includes(k));
+      const free = frees.find((k) => !onPage.has(k)) || frees[0];
       if (!free) { console.log(`note ${t.id} ${role}: pool has no unused item`); continue; }
       const ed = tryMk(d, sv0, { overrides: { [role]: { 0: free } } });
       if (!ed) { console.log(`note ${t.id} ${role}: the first free choice is refused (the page cannot take it)`); continue; }
       const e = ed.slots[role];
+      if (e.refused) { console.log(`note ${t.id} ${role}: the type refused ${free} (slot.refuse: a conflict it explains)`); continue; }
       if (e.values[0] !== free) fail(`${t.id} ${role}: the choice was not applied`);
       if (JSON.stringify(e.values.slice(1)) !== JSON.stringify(s.values.slice(1))) fail(`${t.id} ${role}: other items changed`);
       if (!ed.html.includes(`data-lcs-slot="${role}.0"`)) fail(`${t.id} ${role}: no tap target for item 0`);

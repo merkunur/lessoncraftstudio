@@ -27,7 +27,7 @@
   "excludeThings": [
     "doll"
   ],
-  "avoidThings": ["bear", "nectarine"],
+  "avoidThings": ["bear", "nectarine", "lime"],
   "frames": [
     {
       "id": "see-thing",
@@ -401,7 +401,7 @@
     },
     "fill": {
       "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco con la que se pregunta por ellas.",
+      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco para preguntar por ellas.",
       "bankWord": "recuadro",
       "boxWord": "recuadro"
     },
@@ -411,11 +411,11 @@
     },
     "write": {
       "title": "Escribe la pregunta",
-      "instruction": "Lee la respuesta. Fíjate en las palabras marcadas. Escribe en la línea una pregunta que tenga como respuesta esas palabras."
+      "instruction": "Lee la respuesta y fíjate en las palabras marcadas. Escribe en la línea una pregunta que se responda con esas palabras."
     },
     "ask": {
       "title": "Preguntas sobre el dibujo: por qué y cómo",
-      "instruction": "Mira el dibujo. Termina cada pregunta a partir de la palabra que ya está en la línea y ciérrala con el signo de interrogación.",
+      "instruction": "Mira el dibujo. Completa la pregunta de cada línea y ciérrala con el signo de interrogación.",
       "pictureWord": "dibujo"
     }
   },

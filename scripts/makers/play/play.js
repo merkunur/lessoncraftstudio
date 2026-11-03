@@ -108,7 +108,8 @@ function pageStrings(i) {
 }
 function pageOptions(i) {
   const t = tplOf(i), lvl = state.lvls[i];
-  const units = ((t.units && t.units[LANG]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === lvl);   // the level's units
+  const lu = t.localeUnitLevels && t.localeUnitLevels[LANG];   // the levels each unit builds at (build-bundles.js)
+  const units = ((t.units && t.units[LANG]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === lvl) && (!lu || (lu[u.id] || []).includes(lvl)));   // the level's units
   const ps = units.length ? { variant: t.copiesDiffer.includes(lvl) ? state.pages[i] : 1, unit: units.some((u) => u.id === state.units[i]) ? state.units[i] : units[0].id } : { variant: state.pages[i], unit: null };
   const keyAt = t.interactive || (t.keyLevels || []).includes(lvl);
   const ed = state.edits[i];

@@ -1,6 +1,6 @@
 {
   "locale": "fr",
-  "generated_at": "2026-11-03T06:42:39.673Z",
+  "generated_at": "2026-11-03T08:26:15.783Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -2624,28 +2624,23 @@
     },
     {
       "key": "brush",
-      "word": "brosse",
+      "word": "pinceau",
       "split": [
-        "bros",
-        "se"
+        "pin",
+        "ceau"
       ],
       "count": 2,
       "chunks": [
-        "bros",
-        "se"
+        "pin",
+        "ceau"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "brosse"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "bucket",

@@ -79,7 +79,7 @@ async function main() {
         if (!t.locales.includes(loc)) continue;
         for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) for (const v of COPIES) {
           const theme = t.themed ? (((t.localeThemes && t.localeThemes[loc]) || t.themes).find((x) => !/\bbw\b/i.test(x)) || ((t.localeThemes && t.localeThemes[loc]) || t.themes)[0]) : null;
-          const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+          const lu = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d)));   // the level's units
           const unit = lu.length ? lu[0].id : null;
           const tag = `${maker} ${t.id} L${d} ${loc} copy ${v}`;
           checked++;

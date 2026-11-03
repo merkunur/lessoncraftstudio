@@ -733,7 +733,9 @@ async function main() {
           const people = cards.flatMap(([, , ks]) => ks.split('+')), nm = cards.flatMap(([, , , ns]) => ns.split('+').filter(Boolean));
           ok(new Set(people).size === people.length, `sweep d${d} seed ${s}: a portrait twice`);
           ok(new Set(nm).size === nm.length, `sweep d${d} seed ${s}: a name twice`);
-          cards.forEach(([key, chip, ks]) => { const refs = ks.split('+').map((k) => ({ key: k, depicted: OPENED[k][1] })); ok(TYPE.keyOf(refs, en) === key && TYPE.answerChip(en, 'base', key) === chip, `sweep d${d} seed ${s}: key ${key} / chip ${chip} not re-derived`); });
+          // a new page (level 1) also draws the Level Set's own opened portraits (LS_OPENED: [theme, noun, depicted, minPx])
+          const LS = require('../tools/level-set/pron-common.js').LS_OPENED;
+          cards.forEach(([key, chip, ks]) => { const refs = ks.split('+').map((k) => ({ key: k, depicted: OPENED[k] ? OPENED[k][1] : (LS[k] ? LS[k][2] : undefined) })); ok(TYPE.keyOf(refs, en) === key && TYPE.answerChip(en, 'base', key) === chip, `sweep d${d} seed ${s}: key ${key} / chip ${chip} not re-derived`); });
           sets.add(people.slice().sort().join(',')); orders.add(people.join(','));
         }
         ok(sets.size >= 2 && orders.size >= 2, `sweep d${d}: ${sets.size} distinct card sets / ${orders.size} orders over 20 seeds`);

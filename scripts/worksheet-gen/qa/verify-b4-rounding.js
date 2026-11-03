@@ -184,7 +184,8 @@ function landingSlugs(loc) {
   if (!_landing.has(loc)) {
     const f = LANDINGS(loc);
     let set = new Set();
-    if (fs.existsSync(f)) { const j = JSON.parse(fs.readFileSync(f, 'utf8')); set = new Set((j.landings || []).map((l) => l.slug)); }
+    // ANOTHER type's landings: the family's own landings (published 2026-09-23 on its own slug) are its slug's owner
+    if (fs.existsSync(f)) { const j = JSON.parse(fs.readFileSync(f, 'utf8')); set = new Set((j.landings || []).filter((l) => !(l.coordinate && l.coordinate.type === 'rounding')).map((l) => l.slug)); }
     _landing.set(loc, set);
   }
   return _landing.get(loc);

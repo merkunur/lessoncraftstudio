@@ -21,7 +21,9 @@ const puppeteer = require('puppeteer');
 
 const WG = path.resolve(__dirname, '..');
 const REPO = path.resolve(WG, '..', '..');
-const PRE_FIX = '93a416b9';
+// the parent of the fix commit ee3cb3a0c (2026-09-21) — 93a416b9 was that parent's hash in another clone and does not
+// exist here
+const PRE_FIX = 'ee3cb3a0c~1';
 const OUT = path.join(WG, 'out', 'dev', 'g2235-poison');
 const fwd = (p) => p.split(path.sep).join('/');
 

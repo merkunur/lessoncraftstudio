@@ -126,7 +126,8 @@ function checkStamps(stamps, loc, cfg, b, approved) {
     if (!a) { out.push(`${tag}: not approved (no approved-words entry)`); continue; }
     if (a.word.toLocaleLowerCase(loc) !== String(s.word).toLocaleLowerCase(loc)) { out.push(`${tag}: not approved (approved word is "${a.word}")`); continue; }
     if (a.split.map((x) => x.toLocaleLowerCase(loc)).join('|') !== s.split.join('|')) out.push(`${tag}: stamped split ${s.split.join('|')} ≠ approved ${a.split.join('|')}`);
-    if (!(s.count >= 2) || s.count !== s.split.length || s.count !== a.count) out.push(`${tag}: count ${s.count} vs approved ${a.count} / ${s.split.length} parts`);
+    // a NEW page holds one-syllable words too (2026-10-06); the level's range is checked on the next line
+    if (!(s.count >= 1) || s.count !== s.split.length || s.count !== a.count) out.push(`${tag}: count ${s.count} vs approved ${a.count} / ${s.split.length} parts`);
     if (s.count < cfg.minCount || s.count > cfg.maxCount) out.push(`${tag}: count ${s.count} outside ${cfg.minCount}-${cfg.maxCount}`);
     if ([...s.word].length > cfg.maxLetters) out.push(`${tag}: ${[...s.word].length} letters > ${cfg.maxLetters}`);
     if (cfg.pool === 'tex' && !texAgreed(a)) out.push(`${tag}: boundary face needs TeX agreement (sources ${(a.sources_agreed || []).join(',')})`);
@@ -139,8 +140,18 @@ function checkStamps(stamps, loc, cfg, b, approved) {
 }
 
 // Level Set 2026-10-01: levels 1 and 3 are only ever built as NEW pages, which draw the TeX-agreed pool and skip refused
-// pictures (G1-305 isFresh); level 2 is the published page (the full pool)
-function cfgFor(d) { const c = spec.difficulty[d]; return { minCount: c.minCount, maxCount: c.maxCount, maxLetters: c.maxLetters, pool: d === 2 ? 'full' : 'tex', dots: c.dots, fresh: d !== 2 }; }
+// pictures (G1-305 isFresh); level 2 is the published page (the full pool). Guessability 2026-10-06: a NEW page counts
+// from ONE syllable (a page of only two-syllable words made "how many?" always 2), and reaches one syllable and two
+// letters further when its range still holds one count only (fi) — the gate mirrors build() exactly
+function cfgFor(d) { const c = spec.difficulty[d], fresh = d !== 2; return { minCount: fresh ? 1 : c.minCount, maxCount: c.maxCount, maxLetters: c.maxLetters, pool: fresh ? 'tex' : 'full', dots: c.dots, fresh }; }
+/** the pool build() draws for (locale, theme, level) and the config it draws it with (the one-count widening included) */
+function poolFor(loc, theme, d, b) {
+  const cfg = cfgFor(d);
+  const pool = spec.eligible(loc, theme, { ...cfg, bank: b });
+  if (!cfg.fresh || new Set(pool.map((e) => e.count)).size >= 2) return { cfg, pool };
+  const wide = { ...cfg, minCount: 1, maxCount: cfg.maxCount + 1, maxLetters: cfg.maxLetters + 2 };
+  return { cfg: wide, pool: spec.eligible(loc, theme, { ...wide, bank: b }) };
+}
 
 // ---------------------------------------------------------------- A. DATA
 function sectionData() {
@@ -154,13 +165,13 @@ function sectionData() {
       const line = [theme.padEnd(20)];
       for (const loc of LOCALES) {
         const b = bankFor(loc);
-        const pool = spec.eligible(loc, theme, { ...cfgFor(d), bank: b });
+        const { cfg: dcfg, pool } = poolFor(loc, theme, d, b);
         const long = pool.filter((e) => e.count >= 3).length;
         const refused = pool.length < floor;
         record[`${theme}|d${d}|${loc}`] = { pool: pool.length, long, refused };
         line.push(`${loc}:${String(pool.length).padStart(2)}${refused ? '✗' : ' '}`);
         // rules 1-6 on every pooled entry (0 checked = FAIL)
-        const bad = checkStamps(pool.map((e) => ({ vocab: e.vocabKey, word: e.word, split: e.split, count: e.count })), loc, cfgFor(d), b);
+        const bad = checkStamps(pool.map((e) => ({ vocab: e.vocabKey, word: e.word, split: e.split, count: e.count })), loc, dcfg, b);
         ok(bad.length === 0 && (refused || pool.length > 0), `${theme}/${loc}/d${d} pool entries (${pool.length} checked): ${bad.slice(0, 3).join('; ')}`);
       }
       console.log(line.join(' '));
@@ -258,8 +269,7 @@ async function checkRender(page, job, out) {
   ok(m.minFont >= 22, `${tag}: letters ${m.minFont} px < 22`);
   ok(m.letters > 0 && m.stamps.length === spec.difficulty[job.d].cards, `${tag}: ${m.stamps.length} stamps / ${m.letters} letters (non-vacuity)`);
   // node-side re-derivation: every stamped word is in eligible() for the resolved config, rules 1-3
-  const cfg = cfgFor(job.d);
-  const pool = spec.eligible('en', job.theme, { ...cfg, bank: bank('syllable-split', 'en') });
+  const { cfg, pool } = poolFor('en', job.theme, job.d, bank('syllable-split', 'en'));
   const byKey = new Map(pool.map((e) => [e.vocabKey, e]));
   for (const s of m.stamps) {
     const e = byKey.get(s.vocab);
@@ -325,8 +335,10 @@ async function sectionPoisons(page) {
     const v = await spec.verify(page);
     poison(name, v.some((x) => re.test(x)), v.find((x) => re.test(x)) || v[0]);
   };
+  // the DOM poisons corrupt the first card with a syllable boundary (a new page counts from one syllable since
+  // 2026-10-06, so card 1 may be "fox" — nothing to separate, no boundary to put a dot on)
   await dom('a separated form of the word printed', () => {
-    const st = document.querySelector('.ws-card-stage[data-lcs-face="base"]');
+    const st = [...document.querySelectorAll('.ws-card-stage[data-lcs-face="base"]')].find((s) => s.dataset.lcsSplit.includes('|'));
     const sp = document.createElement('span'); sp.textContent = st.dataset.lcsSplit.replace('|', '-'); st.appendChild(sp);
   }, /separated form/);
   await dom('a printed arc in the base', () => {
@@ -340,7 +352,7 @@ async function sectionPoisons(page) {
     st[1].querySelector('[data-lcs-arczone]').innerHTML = st[0].querySelector('[data-lcs-arczone]').innerHTML; st[1].dataset.lcsCell = st[0].dataset.lcsCell;
   }, /duplicate/);
   await dom('a d1 dot moved onto the syllable boundary', () => {
-    const st = document.querySelector('.ws-card-stage[data-lcs-face="base"]');
+    const st = [...document.querySelectorAll('.ws-card-stage[data-lcs-face="base"]')].find((s) => s.dataset.lcsSplit.includes('|'));
     const cell = +st.dataset.lcsCell; const first = [...st.dataset.lcsSplit.split('|')[0]].length;
     st.querySelector('[data-lcs-dot="1"]').setAttribute('cx', first * cell);
   }, /boundary/);
@@ -448,7 +460,10 @@ function sectionFaceData() {
   for (const t of WAVE_THEMES) ok(rec[`kings|${t}|fr`].refused && rec[`kings|${t}|fr`].why === 'bank kings:false', `design: kings fr ${t} REFUSED by the bank`);
   // re-measured 2026-09-14 on the panels' TeX-agreed pools: the kings face refuses these cells (pool < 8)
   // and MUST refuse them; every other de/pt/nl/fi cell ships. A moved cell = re-measure, never loosen.
-  const KINGS_REFUSED = { de: [], pt: [], nl: ['body parts'], fi: ['vehicles', 'ocean life', 'pets'] };
+  // re-measured 2026-11-03: fi vehicles SHIPS — the vocabulary split gave the vehicles crane its own key
+  // (construction-crane = nosturi, nos-tu-ri), the 8th TeX-agreed word of the cell (bussi kanootti nosturi trukki
+  // raketti laiva taksi traktori)
+  const KINGS_REFUSED = { de: [], pt: [], nl: ['body parts'], fi: ['ocean life', 'pets'] };
   for (const loc of ['de', 'pt', 'nl', 'fi']) for (const t of WAVE_THEMES) {
     const want = KINGS_REFUSED[loc].includes(t);
     ok(!!rec[`kings|${t}|${loc}`].refused === want, `design: kings ${loc} ${t} ${want ? 'REFUSED' : 'ships'} (${rec[`kings|${t}|${loc}`].why})`);

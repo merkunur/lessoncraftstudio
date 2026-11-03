@@ -66,7 +66,7 @@ function settingsSpace(t, loc, { themes = 2, units = 2, copies = 4, levels = nul
     ths = pick.length ? pick : [null];
   }
   // a unit drawn for one level (t.unitLevels: Color by Number's designs) is asked for at that level only (makers 2026-11-02)
-  const usAt = (d) => { const all = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return all.length ? Array.from({ length: Math.min(units, all.length) }, (_, i) => all[(i + sample * units) % all.length].id) : [null]; };
+  const usAt = (d) => { const all = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d))); return all.length ? Array.from({ length: Math.min(units, all.length) }, (_, i) => all[(i + sample * units) % all.length].id) : [null]; };
   for (const difficulty of lv) for (const theme of ths) for (const unit of usAt(difficulty)) {
     const vs = (t.copiesDiffer || []).includes(difficulty) ? Array.from({ length: copies }, (_, i) => i + 1 + sample * copies) : [1];
     for (const variant of vs) out.push({ difficulty, theme, unit, variant });

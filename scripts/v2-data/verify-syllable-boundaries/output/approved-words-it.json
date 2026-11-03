@@ -1,6 +1,6 @@
 {
   "locale": "it",
-  "generated_at": "2026-11-03T06:42:39.698Z",
+  "generated_at": "2026-11-03T08:26:15.801Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -2923,17 +2923,17 @@
     },
     {
       "key": "brush",
-      "word": "spazzola",
+      "word": "pennello",
       "split": [
-        "spaz",
-        "zo",
-        "la"
+        "pen",
+        "nel",
+        "lo"
       ],
       "count": 3,
       "chunks": [
-        "spaz",
-        "zo",
-        "la"
+        "pen",
+        "nel",
+        "lo"
       ],
       "sources_agreed": [
         "TeX",

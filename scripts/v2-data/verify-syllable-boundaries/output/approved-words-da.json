@@ -1,6 +1,6 @@
 {
   "locale": "da",
-  "generated_at": "2026-11-03T06:42:39.913Z",
+  "generated_at": "2026-11-03T08:26:16.386Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -2165,23 +2165,25 @@
     },
     {
       "key": "brush",
-      "word": "børste",
+      "word": "pensel",
       "split": [
-        "bør",
-        "ste"
+        "pen",
+        "sel"
       ],
       "count": 2,
       "chunks": [
-        "bør",
-        "ste"
+        "pen",
+        "sel"
       ],
       "sources_agreed": [
         "TeX",
         "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "Wiktionary-syl-count",
+        "NST-syl-count"
       ],
-      "total_agreed": 3,
-      "wiktionary_ipa": "/bœrstə/"
+      "total_agreed": 4,
+      "nst_sampa": "\"pEn?$s@l",
+      "wiktionary_ipa": "/pɛnˀsəl/"
     },
     {
       "key": "bucket",

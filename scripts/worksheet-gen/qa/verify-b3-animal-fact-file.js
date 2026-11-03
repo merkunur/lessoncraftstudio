@@ -782,7 +782,9 @@ async function runFaces(page, en) {
   }
   // P3a — an F2 row with a repeated chip key; P3b — data-lcs-correct-index pointing at a distractor
   {
-    const pa = rewiredFace('tick', { fn: (h) => h.replace(/(data-lcs-field="class"[^>]*>[\s\S]*?<span class="ws-pill" data-lcs-opt=")([a-z]+)("[^>]*>)[a-z]+(<\/span><span class="ws-pill" data-lcs-opt=")[a-z]+("[^>]*>)[a-z]+(<\/span>)/, (m0, a1, k1, a2, a3, a4, a5) => a1 + 'mammal' + a2 + 'mammal' + a3 + 'mammal' + a4 + 'mammal' + a5) });
+    // the chips carry the screen's answer marks before data-lcs-opt since 2026-11-03 (data-lcs-choice / -correct):
+    // the needle allows attributes in between, and the poison must CHANGE the page (a stale needle is a survivor)
+    const pa = rewiredFace('tick', { fn: (h) => { const out = h.replace(/(data-lcs-field="class"[^>]*>[\s\S]*?<span class="ws-pill"[^>]*? data-lcs-opt=")([a-z]+)("[^>]*>)[a-z]+(<\/span><span class="ws-pill"[^>]*? data-lcs-opt=")[a-z]+("[^>]*>)[a-z]+(<\/span>)/, (m0, a1, k1, a2, a3, a4, a5) => a1 + 'mammal' + a2 + 'mammal' + a3 + 'mammal' + a4 + 'mammal' + a5); if (out === h) throw new Error('P3a needle matched nothing (stale poison)'); return out; } });
     const ra = await faceFindings(page, 'tick', pa, { baseName: 'G2-339-poison-P3a' }, EXEMPLAR);
     const a = judgeFace('P3a verify', ra.r.verify, /row class: chip keys repeat/);
     const pb = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct-index="(\d)" data-lcs-n="3"/, (m0, i) => `data-lcs-correct-index="${(+i + 1) % 3}" data-lcs-n="3"`) });
@@ -908,7 +910,10 @@ async function runFaces(page, en) {
 }
 
 async function main() {
-  const banks = bankMod.FACT_FILE;
+  // EVERY language's bank — the merged one build() reads (the module holds en only; the panels' blocks live in
+  // data/b3/locales/ — 2026-11-03: only en was ever validated)
+  const banks = require('../lib/b3-common.js').bankModule('animal-fact-file');
+  ok(Object.keys(banks).length >= 2, `bank: only ${Object.keys(banks).join(',')} loaded`);
   for (const loc of Object.keys(banks)) {
     const f = validateBank(banks[loc], loc);
     ok(f.length === 0, `bank ${loc}: ${f.length} findings\n    ` + f.slice(0, 12).join('\n    '));

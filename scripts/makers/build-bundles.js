@@ -123,7 +123,7 @@ function record(types) {
       // type's own build for a themed template (< 1 ms), the full page for one with a unit axis (its build needs the
       // unit the page resolves)
       let lastErr = null;
-      const builds = (theme, d, variant, sv) => { try { spec.build({ theme, difficulty: d, locale: loc, unit: null }, { rng: makeRng(`fits|${spec.id}|${loc}|${theme}|${d}|${variant}|${sv || ''}`), variant, ...(sv ? { seedVariant: variant + sv } : {}) }); return true; } catch (e) { lastErr = e; noteDefect(e, spec.id + ' ' + loc + ' ' + theme); return false; } };
+      const builds = (theme, d, variant, sv) => { try { spec.build({ theme, difficulty: d, locale: loc, unit: null }, { rng: makeRng(`fits|${spec.id}|${loc}|${theme}|${d}|${variant}|${sv || ''}`), variant, ...(sv ? { retry: variant + sv } : {}) }); return true; } catch (e) { lastErr = e; noteDefect(e, spec.id + ' ' + loc + ' ' + theme); return false; } };
       const pageBuilds = (theme, d, variant) => [null, '.1', '.2', '.3', '.4'].some((sv) => { try { makePage({ type: spec, strings: sdOf[d], locale: loc, difficulty: d, theme, variant, ...(sv ? { seedVariant: variant + sv } : {}), answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); return true; } catch (e) { lastErr = e; noteDefect(e, spec.id + ' ' + loc + ' ' + theme); return false; } });
       const fitsAt = (theme, d) => fast ? [1, 2].every((variant) => [null, '.1', '.2', '.3', '.4'].some((sv) => builds(theme, d, variant, sv))) : pageBuilds(theme, d, 1);
       let good = candidates.slice();
@@ -172,6 +172,21 @@ function record(types) {
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
         // a unit drawn for one level (Color by Number's designs): the screen lists a page's level's units only
         if (spec.unitAxis.levelOf) entry.unitLevels = Object.assign(entry.unitLevels || {}, Object.fromEntries(entry.units[loc].map((u) => [u.id, spec.unitAxis.levelOf(u.id)])));
+        // a unit is offered at the levels where a page builds with it (2026-11-03: the level checks above build the
+        // DEFAULT unit only — the sv G1-343 sample drew the rhyme family "att", which cannot carry the sort face, and en
+        // G1-343 refused 54 of its 90 unit × level pages). A unit no level builds is not offered; where some unit builds
+        // at fewer levels than the language offers, localeUnitLevels[loc] lists each unit's levels (the screen and the
+        // gates read it beside unitLevels)
+        const ul = {};
+        for (const u of entry.units[loc]) {
+          ul[u.id] = lvls.filter((d) => (!entry.unitLevels || entry.unitLevels[u.id] === d) && [1, 2].some((variant) => {
+            try { makePage({ type: spec, strings: sdOf[d], locale: loc, difficulty: d, theme: themed ? good[0] : null, unit: u.id, variant }); return true; } catch (e) { noteDefect(e, spec.id + ' ' + loc + ' unit ' + u.id); return false; }
+          }));
+        }
+        entry.units[loc] = entry.units[loc].filter((u) => ul[u.id].length);
+        if (entry.units[loc].some((u) => ul[u.id].length < lvls.filter((d) => !entry.unitLevels || entry.unitLevels[u.id] === d).length)) {
+          (entry.localeUnitLevels = entry.localeUnitLevels || {})[loc] = Object.fromEntries(entry.units[loc].map((u) => [u.id, ul[u.id]]));
+        }
       }
       (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
@@ -183,7 +198,9 @@ function record(types) {
     if (themed) for (const loc of entry.locales) if (goodOf[loc].length !== themes.length) (entry.localeThemes = entry.localeThemes || {})[loc] = goodOf[loc];
     // a level's own checks (answer key, new copies) run in a language that offers it — English first
     const probeAt = (d) => ['en', ...entry.locales].find((loc) => entry.locales.includes(loc) && levelsOf[loc].includes(d));
-    const unitAt = (loc, d) => (entry.units && entry.units[loc] ? ((entry.units[loc].find((u) => !entry.unitLevels || entry.unitLevels[u.id] === d) || {}).id || null) : null);
+    // a unit a page of level d may use in loc: its own level (unitLevels) and the levels it builds at (localeUnitLevels)
+    const unitOk = (loc, u, d) => (!entry.unitLevels || entry.unitLevels[u.id] === d) && !(entry.localeUnitLevels && entry.localeUnitLevels[loc] && !(entry.localeUnitLevels[loc][u.id] || []).includes(d));
+    const unitAt = (loc, d) => (entry.units && entry.units[loc] ? ((entry.units[loc].find((u) => unitOk(loc, u, d)) || {}).id || null) : null);
     // does the template have an answer key? (an interactive one draws its own; a print-only one when its page carries
     // answers — runtime.js keyMarks — or draws an example for the key)
     // per level: a level may have nothing to mark (K-438 level 1 prints the letters) — the switch is offered only there
@@ -201,8 +218,7 @@ function record(types) {
         const loc = probeAt(d);
         if (!loc) return true;
         const sl = resolveStrings(spec.id, loc, spec), th0 = themed ? goodOf[loc][0] : candidates[0];
-        const uAll = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? (spec.unitAxis.units(loc) || []) : [];
-        const u0 = (spec.unitAxis && spec.unitAxis.levelOf ? uAll.find((u) => spec.unitAxis.levelOf(u) === d) : uAll[0]) || null;
+        const u0 = unitAt(loc, d);   // the level's first offered unit (null: the template has no unit list)
         return new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: sl, locale: loc, difficulty: d, theme: th0, unit: u0, variant: v }).html)).size > 1;
       });
     } catch (e) { entry.copiesDiffer = entry.levels.slice(); }

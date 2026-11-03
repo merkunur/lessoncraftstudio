@@ -152,6 +152,9 @@ async function measure(page) {
       rec.anchorEnd = el.getAttribute && el.getAttribute('text-anchor') === 'end';
       const lane = el.closest && el.closest('[data-lcs-syllable-lane]');
       rec.writable = lane ? +lane.dataset.lcsWritable : null;
+      // a WORKED EXAMPLE (a Level Set lane that prints the whole answer, [data-lcs-given]: the child writes nothing on it) is
+      // seated like any starter (A-C, E) but needs no room after it (D)
+      rec.example = !!(el.closest && el.closest("[data-lcs-given]"));
       out.starters.push(rec);
     });
     return out;
@@ -180,7 +183,8 @@ function judge(m, expectN, tag) {
       if (!(s.writable >= 60) || s.rowW - s.width - 12 < 59) fails.push(`${t}: rime ${s.width.toFixed(0)} px leaves ${(s.rowW - s.width - 12).toFixed(0)} px to write on (stamp ${s.writable}) (D)`);
       if (Math.abs(s.left - (s.rowW - 6)) > 1) fails.push(`${t}: rime anchored at x ${s.left.toFixed(1)} (want ${(s.rowW - 6).toFixed(1)}, right end) (E)`);
     } else {
-      if (s.width > 0.5 * s.rowW) fails.push(`${t}: starter ${s.width.toFixed(0)} px takes more than half of the ${s.rowW.toFixed(0)} px row (D)`);
+      if (s.example && s.left + s.width > s.rowW - 4) fails.push(`${t}: worked example ${s.width.toFixed(0)} px from x ${s.left.toFixed(0)} runs past the ${s.rowW.toFixed(0)} px row (D)`);
+      if (!s.example && s.width > 0.5 * s.rowW) fails.push(`${t}: starter ${s.width.toFixed(0)} px takes more than half of the ${s.rowW.toFixed(0)} px row (D)`);
       if (s.kind === 'svg' && Math.abs(s.left - 8) > 1) fails.push(`${t}: starts at x ${s.left.toFixed(1)} (want 8) (E)`);
     }
   }

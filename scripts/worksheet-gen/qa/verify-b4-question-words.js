@@ -185,7 +185,7 @@ const FACES = ['base', 'match', 'fill', 'sort', 'write', 'ask'];
 const NEIGHBOURS = ['capitals-punctuation', 'reading-comprehension', 'sentence-building', 'word-classes'];
 const TABLE_B = { en: 'question-words', de: 'w-fragen', es: 'preguntas-con-quien-que-y-donde', pt: 'palavras-para-perguntar', fr: 'mots-interrogatifs', it: 'le-domande-della-frase', nl: 'vraagwoorden', sv: 'frageord', da: 'hv-ord', no: 'sporreord', fi: 'kysymyssanat' };
 /** The measured genre heads (design §1 table B): the base title IS the head. */
-const HEADS = { en: 'Question Words: Who, What, Where', de: 'W-Fragen: wer, was, wo', es: 'Preguntas con quién, qué y dónde', pt: 'Quem, o que, onde: palavras para perguntar', fr: 'Les mots interrogatifs : qui, que, où', it: 'Le domande della frase: chi, che cosa, dove', nl: 'Vraagwoorden: wie, wat, waar', sv: 'Frågeord: vem, vad, var', da: 'Hv-ord: hvem, hvad, hvor', no: 'Spørreord: hvem, hva, hvor', fi: 'Kysymyssanat: kuka, mikä, missä' };
+const HEADS = { en: 'Question Words: Who, What, Where', de: 'W-Fragen: wer, was, wo', es: 'Preguntas con quién, qué y dónde', pt: 'Quem, o que, onde: palavras para perguntar', fr: 'Les mots interrogatifs : qui, que, où', it: 'Le domande della frase: chi, che cosa, dove', nl: 'Vraagwoorden: wie, wat, waar', sv: 'Frågeord: vem, vad, var', da: 'Hv-ord: hvem, hvad, hvor', no: 'Spørreord: hvem, hva, hvor', fi: 'Kysymyssanat: kuka, mitä, missä' };
 /** The measured write-a-question heads (design §3 F4): the F4 title where one was measured. */
 const MEASURED_F4 = { nl: 'Vraagzinnen maken', sv: 'Ställ en fråga', da: 'Stil et spørgsmål', no: 'Lag et spørsmål', fi: 'Tee kysymys' };
 /** Chip widths MEASURED 2026-09-21 (Baloo 2 700 20 / pad 12, the shell woff2 from file://) — the design §2 table re-measured to the pixel. */
@@ -268,7 +268,9 @@ function validateBank(block, loc, opts = {}) {
   }
   const st = Array.isArray(block.starters) ? block.starters : [];
   if (st.length !== 6) push(`rule 1: ${st.length} starters, want 6`);
-  ['who', 'what', 'where', 'when'].forEach((k, i) => { if (st[i] !== qw[k]) push(`rule 1: starters[${i}] "${st[i]}" != qwords.${k} "${qw[k]}"`); });
+  // es prints the opening "¿" on every starter (2026-09-29 native audit): the literal after it is the qwords entry
+  ['who', 'what', 'where', 'when'].forEach((k, i) => { const bare = isEs ? String(st[i] || '').replace(/^¿/, '') : st[i]; if (bare !== qw[k]) push(`rule 1: starters[${i}] "${st[i]}" != qwords.${k} "${qw[k]}"`); });
+  if (isEs && st.some((x) => !String(x || '').startsWith('¿'))) push('rule 1: an es starter does not open with ¿');
   if (new Set(st.map(nfd)).size !== st.length) push('rule 1: a starter twice');
   if (st.some((s) => nfd(s) === nfd(qw.howmany))) push('rule 1: starters carry the howmany literal (howmany is never a starter)');
   if (st.slice(4).some((s) => !s || QW_KEYS.some((k) => nfd(qw[k]) === nfd(s)))) push('rule 1: starters 5-6 must be why / how (two literals outside qwords)');
@@ -421,7 +423,7 @@ function validateBank(block, loc, opts = {}) {
   const faceKinds = block.faces || {};
   const namedIn = (t) => {
     // the bins literals (minus their "?") alias their kind: fi's title lists the nominative "mikä" while the chip is the partitive "Mitä"
-    const lits = [...QW_KEYS.map((k) => [k, qw[k]]), ...Object.entries(block.bins || {}).map(([k, v]) => [k, String(v || '').replace(/[?¿]/g, '').trim()]), ['why', (block.starters || [])[4]], ['how', (block.starters || [])[5]]].filter(([, l]) => typeof l === 'string' && l);
+    const lits = [...QW_KEYS.map((k) => [k, qw[k]]), ...Object.entries(block.bins || {}).map(([k, v]) => [k, String(v || '').replace(/[?¿]/g, '').trim()]), ['why', String((block.starters || [])[4] || '').replace(/^¿/, '')], ['how', String((block.starters || [])[5] || '').replace(/^¿/, '')]].filter(([, l]) => typeof l === 'string' && l);
     lits.sort((a, b) => glyphs(b[1]) - glyphs(a[1]));   // longer literals first ("How many" before "How")
     let rest = String(t), named = new Set();
     for (const [k, l] of lits) { const re = new RegExp('(?<!\\p{L})' + l.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'iu'); if (re.test(rest)) { named.add(k); rest = rest.replace(re, ' '); } }
@@ -454,7 +456,7 @@ function validateBank(block, loc, opts = {}) {
   }
 
   // rule 10 — sortThingForm + the sv / da / no definite clash
-  if (!['bare', 'unique'].includes(block.sortThingForm)) push(`rule 10: sortThingForm "${block.sortThingForm}"`);
+  if (!['bare', 'unique', 'nomArticle'].includes(block.sortThingForm)) push(`rule 10: sortThingForm "${block.sortThingForm}"`);   // nomArticle: de, 2026-09-29 ("der Roller")
   if (!Array.isArray(block.excludeThings)) push('rule 10: excludeThings must be an array');
   if (block.chipWidths != null) { if (typeof block.chipWidths !== 'object') push('rule 12: chipWidths must be an object'); else for (const [k, v] of Object.entries(block.chipWidths)) { if (!qv.includes(k)) push(`rule 12: chipWidths."${k}" is not a qwords literal`); if (typeof v !== 'number' || v < 40 || v > 260) push(`rule 12: chipWidths."${k}" = ${v} (40..260 px)`); } }
   if (block.bankWidths != null) { if (typeof block.bankWidths !== 'object') push('rule 12: bankWidths must be an object'); else for (const [k, v] of Object.entries(block.bankWidths)) { if (!qv.includes(k)) push(`rule 12: bankWidths."${k}" is not a qwords literal`); if (typeof v !== 'number' || v < 20 || v > 200) push(`rule 12: bankWidths."${k}" = ${v} (20..200 px)`); } }
@@ -668,7 +670,7 @@ function synthetic(loc, en) {
   if (!Q) throw new Error('synthetic: ' + loc);
   const pre = loc === 'es' ? '¿' : '';
   b.qwords = { who: Q.who, what: Q.what, where: Q.where, when: Q.when, howmany: Q.howmany };
-  b.starters = [Q.who, Q.what, Q.where, Q.when, Q.why, Q.how];
+  b.starters = [Q.who, Q.what, Q.where, Q.when, Q.why, Q.how].map((x) => pre + x);   // es prints the opening "¿" on its starters (2026-09-29)
   b.bins = { who: pre + Q.who + '?', what: pre + Q.what + '?', where: pre + Q.where + '?' };
   b.qPrefix = pre;
   b.genderFilter = ['es', 'pt', 'it'].includes(loc) ? { count: 'm' } : {};
@@ -723,7 +725,9 @@ async function main() {
   }
   // the measured pools (design §1): en 133; sv 113 after the cow exclusion
   { const svForms = objFormsOf('sv'); if (Object.keys(svForms).length) { const clash = TYPE.clashKeys('sv', svForms); ok(clash.has('cow'), `sv clash keys ${[...clash].join(',')} (design: cow → "kon" === cone)`); const svPool = TYPE.thingPool('sv', synthetic('sv', en), svForms); ok(!svPool.some((t) => t.key === 'cow'), 'sv pool excludes cow'); console.log(`sv thing pool ${svPool.length} (clash ${[...clash].join(',') || 'none'})`); } }
-  ok(TYPE.thingPool('en', en, objEn).length === 133, `en thing pool ${TYPE.thingPool('en', en, objEn).length} (design 133)`);
+  // design 133 → 131: crane is the BIRD since 2026-11-01 (birds 2, not a thing theme; the vehicle became construction-crane)
+  // and plum is excluded in every locale (2026-09-30: its picture is a red apple)
+  ok(TYPE.thingPool('en', en, objEn).length === 131, `en thing pool ${TYPE.thingPool('en', en, objEn).length} (design 133, 131 after crane + plum)`);
   ok(TYPE.difficulty[2].botMax === 0.35 && TYPE.difficulty[2].kinds.who / TYPE.difficulty[2].rows <= 0.35, 'd2: botMax 0.35 and who rows / rows <= 0.35');
   ok(TYPE.difficulty[2].picOf === 'subject' && TYPE.difficulty[2].picPx === 56, 'd2: the subject portrait at 56 (critic #1)');
 
@@ -786,10 +790,12 @@ async function main() {
         const sp = document.querySelector('[data-m="marked"] [data-lcs-mark]');
         const r = document.createRange(); r.selectNodeContents(sp);
         const box = sp.getBoundingClientRect(), txt = r.getBoundingClientRect();
-        return { plain: g('plain'), marked: g('marked'), paintedPad: box.width - txt.width };
+        return { plain: g('plain'), marked: g('marked'), paintedPad: box.width - txt.width, rightBleed: box.right - txt.right };
       });
-      // the design +8 now applies to the PAINTED highlight, where it was always meant to apply
-      ok(Math.abs(m.paintedPad - 8) <= 0.6, `markedSpan paints ${m.paintedPad.toFixed(1)} px beyond its glyphs (design +8)`);
+      // the PAINTED highlight bleeds 4 px on the LEFT only and ends at the last glyph (2026-09-29 native audit: the right
+      // bleed laid the bar over the full stop, marking the punctuation as part of the answer)
+      ok(Math.abs(m.paintedPad - 4) <= 0.6, `markedSpan paints ${m.paintedPad.toFixed(1)} px beyond its glyphs (want 4, the left bleed)`);
+      ok(Math.abs(m.rightBleed) <= 0.6, `markedSpan ends ${m.rightBleed.toFixed(1)} px past its last glyph (must end AT it: never over the full stop)`);
       // ...and the mark must cost the LINE nothing, or a sentence-final mark pushes its full stop
       // away. This is the assertion the shipped defect violated at exactly 4.00 px.
       ok(Math.abs(m.marked.width - m.plain.width) <= 0.6, `a marked line measures ${(m.marked.width - m.plain.width).toFixed(1)} px wider than the plain one (must be 0: a mark may not displace the text after it)`);
@@ -928,7 +934,8 @@ async function main() {
         const esBlock = synthetic('es', en);
         const pool = TYPE.thingPool('es', esBlock, esForms);
         const genderOf = new Map(pool.map((t) => [t.key, t.gender]));
-        ok(pool.length === 88 && pool.filter((t) => t.gender === 'm').length === 58, `es thing pool ${pool.length} / masculine ${pool.filter((t) => t.gender === 'm').length} (design 88 / 58)`);
+        // masculine 58 → 57 with the es-MX vocabulary (2026-10-18: boat is la lancha, lime el limón)
+        ok(pool.length === 88 && pool.filter((t) => t.gender === 'm').length === 57, `es thing pool ${pool.length} / masculine ${pool.filter((t) => t.gender === 'm').length} (design 88 / 58; es-MX 88 / 57)`);
         const draw = (block) => { const out = []; for (let sd = 1; sd <= 30; sd++) { const rng = makeRng(instanceSeed({ typeId: TYPE.id, theme: null, difficulty: 3, seedEpoch: 1, variant: sd })); const bb = TYPE._buildWith(block, TYPE.difficulty[3], { locale: 'es', pron: pronEn, objForms: esForms }, { rng }); bb.meta.rows.filter((r) => r.kind === 'count').forEach((r) => out.push(genderOf.get(r.thing))); } return out; };
         const withF = draw(esBlock), without = draw({ ...esBlock, genderFilter: {} });
         ok(withF.length >= 30 && withF.every((g) => g === 'm'), `es genderFilter.count: ${withF.filter((g) => g !== 'm').length} of ${withF.length} count rows non-masculine (want 0)`);
@@ -1339,7 +1346,8 @@ async function facesSection(page, { en, pronEn, objEn, ctrlFilter }) {
   cfgPoison('PC1 match a kind twice', () => TYPE.resolveMatch({ ...D.match, kinds: ['who', 'who', 'what', 'where', 'when'] }, en), /a kind twice/);
   cfgPoison('PC2 match picPx 64 with a when answer', () => TYPE.resolveMatch({ ...D.match, picPx: 64 }, en), /clock floor/);
   cfgPoison('PC3 match itemMax 200 (> itemH + 44)', () => TYPE.resolveMatch({ ...D.match, itemMax: 200 }, en), /itemMax 200/);
-  cfgPoison('PC4 fill bank:false (the unbuilt d3)', () => TYPE.resolveFill({ ...D.fill, bank: false }, en), /bank-less d3/);
+  // the bank-less fill is BUILT since the Level Set (level 3, 2026-09-29); the refusal that remains is a kinds bank on it
+  cfgPoison('PC4 fill bankKinds on a bank-less page', () => TYPE.resolveFill({ ...D.fill, bank: false, bankKinds: ['who', 'what', 'where'] }, en), /bankKinds on a bank-less page/);
   cfgPoison('PC5 fill maxRest 60 (the question line guard)', () => TYPE.resolveFill({ ...D.fill, maxRest: 60 }, en), /maxRest 60/);
   cfgPoison('PC6 sort a when bin', () => TYPE.resolveSort({ ...D.sort, bins: ['who', 'what', 'where', 'when'], perBin: 3, tiles: 12 }, en), /when bin/);
   cfgPoison('PC7 sort stack 600 (< 660)', () => TYPE.resolveSort({ ...D.sort, stack: 600 }, en), /stack 600/);

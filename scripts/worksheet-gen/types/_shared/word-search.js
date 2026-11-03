@@ -163,7 +163,8 @@ function makeWordSearch(spec) {
         clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:44px;height:44px;object-fit:contain"><span style="font:700 18px/1 'Nunito',sans-serif;color:${T.ink}" lang="${clueLang}">${esc(other.get(x.e.vocabKey))}</span></span>`).join('');
       } else if (spec.clue === 'numbers') clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;justify-content:center;min-width:54px;height:54px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid};font:700 30px/1 'Baloo 2',cursive;color:${T.teal}">${x.num}</span>`).join('');
       else clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;padding:4px 12px;border-radius:10px;background:#FFFFFF;border:2px solid ${T.grid};font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(x.grid)}</span>`).join('');
-      const clueBox = `<div data-lcs-ws-clues style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;padding:10px 12px;border-radius:14px;background:${T.cream}">${clues}</div>`;
+      // the clue language of a two-language page is ONE choice: the clue box is its tap target (maker)
+      const clueBox = `<div data-lcs-ws-clues${clueLang ? slot.attr(ctx, 'clueLang', 0) : ''} style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;padding:10px 12px;border-radius:14px;background:${T.cream}">${clues}</div>`;
       let msg = '';
       if (message) {
         const ws = message.ph.toLocaleUpperCase(L).split(/\s+/).filter(Boolean);

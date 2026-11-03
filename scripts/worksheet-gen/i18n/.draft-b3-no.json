@@ -21724,7 +21724,8 @@
     "pegasus",
     "dragon",
     "swimming",
-    "weasel"
+    "weasel",
+    "cymbals"
    ],
    "refuse": {
     "finalMuteE": false
@@ -34568,9 +34569,9 @@
      "reviewed": true
     },
     "hedgehog": {
-     "name": "Piggsvin",
-     "title": "Piggsvin",
-     "def": "piggsvinet",
+     "name": "Pinnsvin",
+     "title": "Pinnsvin",
+     "def": "pinnsvinet",
      "nom": null,
      "ade": null,
      "reviewed": true

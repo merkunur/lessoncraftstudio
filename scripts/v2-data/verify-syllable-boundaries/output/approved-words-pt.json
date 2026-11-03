@@ -1,6 +1,6 @@
 {
   "locale": "pt",
-  "generated_at": "2026-11-03T06:42:39.761Z",
+  "generated_at": "2026-11-03T08:26:15.841Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -2673,17 +2673,15 @@
     },
     {
       "key": "brush",
-      "word": "escova",
+      "word": "pincel",
       "split": [
-        "es",
-        "co",
-        "va"
+        "pin",
+        "cel"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
-        "es",
-        "co",
-        "va"
+        "pin",
+        "cel"
       ],
       "sources_agreed": [
         "TeX",

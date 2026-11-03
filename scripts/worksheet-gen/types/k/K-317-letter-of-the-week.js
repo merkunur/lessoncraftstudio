@@ -314,7 +314,7 @@ module.exports = {
       const html = items.map((it) => positionCard({
         src: fileUri(it.theme, it.noun), vocabKey: it.key, word: it.word, graphemes: it.graphemes, pos: it.pos3,
         split: mode === 'syllable' ? it.split : null, w: p.cardW, h: p.cardH, iconPx: p.iconPx, boxPx: p.boxPx,
-        showWord, glyphH: p.glyphH, laneH: p.laneH,
+        showWord, glyphH: p.glyphH, laneH: p.laneH, keyMark: !!(ctx && ctx.answerKey),   // the key rings the box where the letter is heard
       })).join('');
       const rows = Math.ceil(p.cards / p.cols);
       zone2 = `<div data-lcs-zone="positions" style="display:grid;grid-template-columns:repeat(${p.cols},${p.cardW}px);` +
@@ -386,7 +386,7 @@ module.exports = {
       const huntHtml = cards.map((c) => huntCard({
         src: fileUri(c.theme, c.noun), vocabKey: c.key, word: c.word,
         graphemes: c.graphemes || [...c.word.toLocaleLowerCase(loc)], hit: c.hit,
-        w: d.hunt.cardW, h: d.hunt.cardH, iconPx: d.hunt.iconPx, rot: rng.next() * 8 - 4,
+        w: d.hunt.cardW, h: d.hunt.cardH, iconPx: d.hunt.iconPx, rot: rng.next() * 8 - 4, keyMark: !!(ctx && ctx.answerKey),   // the key rings the right pictures
       })).join('');
       const huntRows = Math.ceil(d.hunt.n / d.hunt.cols);
       zone2 = `<div data-lcs-zone="hunt" style="display:grid;grid-template-columns:repeat(${d.hunt.cols},${d.hunt.cardW}px);` +

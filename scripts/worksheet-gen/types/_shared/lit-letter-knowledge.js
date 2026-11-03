@@ -39,7 +39,7 @@ const SCOPED_CSS = `
 .lit-lk-mtile{display:flex;align-items:center;justify-content:center;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:16px}
 .lit-lk-seq{flex:1 1 auto;display:flex;flex-wrap:wrap;align-content:space-evenly;justify-content:center;gap:16px 14px}
 .lit-lk-cell{display:flex;align-items:center;justify-content:center;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:16px}
-.lit-lk-blank{background:#FFFFFF;border:2.5px dashed #F2784B}
+.lit-lk-blank{background:#FFFFFF;border:2.5px dashed #F2784B;font:700 38px/1 'Baloo 2',cursive}
 .lit-lk-target{display:flex;align-items:center;justify-content:center;gap:14px;padding:6px 0 16px}
 .lit-lk-target-chip{display:flex;align-items:center;justify-content:center;width:64px;height:64px;background:#146B5E;color:#FFFFFF;border-radius:16px;font-family:'Baloo 2',cursive;font-weight:700;font-size:38px}
 .lit-lk-grid{flex:1 1 auto;display:grid;gap:14px;justify-content:center;align-content:space-evenly}
@@ -155,7 +155,7 @@ function buildMissingAlphabet(alphabet, d, rng, mk) {
   const fs = 38;
   const cells = alphabet.map((ch, i) => {
     if (blanks.has(i)) {
-      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}"${mk ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px${mk ? `;font:700 ${fs}px/1 'Baloo 2',cursive` : ''}"></span>`;
+      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}"${mk ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px"></span>`;   // the answer font is the .lit-lk-blank rule (the screen build adds marks only)
     }
     return `<span class="lit-lk-cell lit-letter" data-lit-content style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`;
   }).join('');

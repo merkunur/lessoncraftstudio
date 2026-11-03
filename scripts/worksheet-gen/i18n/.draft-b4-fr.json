@@ -2460,7 +2460,7 @@
       "sortThingForm": "unique", "sortWhatObjects": true,
       "genderFilter": {},
       "excludeThings": ["airplane", "ambulance", "antelope", "apricot", "avocado", "bear", "bee", "donkey", "elephant", "excavator", "goose", "helicopter", "hippopotamus", "hyena", "iguana", "lamb", "orange", "orangutan", "pineapple", "plum", "scooter", "cranberry"],
-      "avoidThings": ["nectarine", "woodpecker", "ship"],
+      "avoidThings": ["nectarine", "woodpecker", "ship", "lime"],
       "frames": [
         {
           "id": "see-thing",

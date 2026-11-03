@@ -85,6 +85,13 @@ const NO_ARTICLE_KEYS = {
 const THEME_KEY_ALIAS = {
   tree: (k) => k + '-tree',
 };
+/* One filename, two pictures (2026-11-03: the wall still printed the bird word «Kranich / Trane» under the vehicles
+   crane and the fingernail word «Negl» under the tools nail). Keyed "folder|noun"; the same table as
+   build-activity-picture-index.js KEY_ALIAS and worksheet-gen image-cache/pull-themes.js THEME_NOUN_KEY. */
+const NOUN_KEY_ALIAS = { 'tools|nail': 'metal-nail', 'vehicles|crane': 'construction-crane' };
+/* Cards the wall must not show: the colours violet drop is the purple drop's twin (a child cannot tell them apart) and
+   its vocab key names the FLOWER (Veilchen, Viol, Orvokki — the flowers theme owns that picture). */
+const SKIP_CARDS = new Set(['colors|violet']);
 
 /* PLURAL-PICTURE keys carry NO article — the picture shows SEVERAL, so the
    label IS the plural (curtains → "Gardiner"), yet the row keeps the
@@ -162,8 +169,10 @@ function main() {
     for (const f of files) {
       const fileBase = f.replace(/@2x\.webp$/, '');
       let vkey = normalizeKey(fileBase);
+      if (SKIP_CARDS.has(folder + '|' + vkey)) continue;
       /* LANDMINE 2: the tree theme's files are bare species names */
       if (alias) vkey = alias(vkey);
+      vkey = NOUN_KEY_ALIAS[folder + '|' + vkey] || vkey;
       const entry = vocab[vkey];
       if (!entry) { unresolved.push(`${key}/${fileBase} → ${vkey}`); continue; }
       const noArticle = themeNoArticle || keyNoArticle.indexOf(vkey) >= 0 || PLURAL_PICTURE_KEYS.has(vkey);

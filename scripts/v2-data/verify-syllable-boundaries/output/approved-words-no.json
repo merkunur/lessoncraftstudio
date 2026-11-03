@@ -1,6 +1,6 @@
 {
   "locale": "no",
-  "generated_at": "2026-11-03T06:42:39.998Z",
+  "generated_at": "2026-11-03T08:26:16.454Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -2967,32 +2967,32 @@
     },
     {
       "key": "brush",
-      "word": "børste",
+      "word": "pensel",
       "split": [
-        "børs",
-        "te"
+        "pen",
+        "sel"
       ],
       "count": 2,
       "chunks": [
         [
-          "b",
-          "ø",
-          "r",
-          "s"
+          "p",
+          "e",
+          "n"
         ],
         [
-          "t",
-          "e"
+          "s",
+          "e",
+          "l"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
         "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "NST-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/bœʂtə/"
+      "nst_sampa": "\"pEn$s@l"
     },
     {
       "key": "bucket",
@@ -12790,11 +12790,11 @@
     },
     {
       "key": "lights",
-      "word": "lyslenker",
+      "word": "lyslenke",
       "split": [
         "lys",
         "len",
-        "ker"
+        "ke"
       ],
       "count": 3,
       "chunks": [
@@ -12810,8 +12810,7 @@
         ],
         [
           "k",
-          "e",
-          "r"
+          "e"
         ]
       ],
       "sources_agreed": [

@@ -12153,7 +12153,8 @@
     "accessories/mask": "mask",
     "kitchen tools/bottle": "bottle",
     "At the Supermarket/pie": "pie",
-    "shapes/heart": "heart"
+    "shapes/heart": "heart",
+    "body parts/nail": "nail"
    },
    "classes": [
     {
@@ -13610,18 +13611,6 @@
       "vocabKey": "jacket"
      },
      "rhymeWith": "pakke",
-     "cueFree": false
-    },
-    {
-     "id": "hund-mund",
-     "lines": [
-      "Vores store, glade hund",
-      "har en pind i sin ___."
-     ],
-     "answer": {
-      "vocabKey": "mouth"
-     },
-     "rhymeWith": "hund",
      "cueFree": false
     },
     {

@@ -23,7 +23,7 @@
   "sortThingForm": "unique",
   "genderFilter": {},
   "excludeThings": [],
-  "avoidThings": ["bear", "nectarine"],
+  "avoidThings": ["bear", "nectarine", "lime"],
   "chipWidths": {
     "Hvem": 79.5,
     "Hvad": 74,

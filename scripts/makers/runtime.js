@@ -74,7 +74,7 @@ function makePage(o) {
   // ctx.maker: a type whose copies the publishing tools numbered by seedVariant maps a maker copy onto the same list
   // (G2-254 Reading Comprehension) — the publishing pipeline never sets either, so a published page is unchanged.
   const typeVariant = (o.variant || 1) + (difficulty === 2 ? 1 : 0);
-  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: typeVariant, makerCopy: o.variant || 1, maker: true, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), overrides: o.overrides || null, slotsOut: slots, ...(extra || {}) });
+  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: typeVariant, makerCopy: o.variant || 1, maker: true, ...(o.seedVariant ? (/^\d+$/.test(String(o.seedVariant)) ? { seedVariant: o.seedVariant } : { retry: String(o.seedVariant) }) : {}), ...(o.buildExtra || {}), overrides: o.overrides || null, slotsOut: slots, ...(extra || {}) });
 
   let strings = resolveUnitTokens({ ...o.strings }, type, unit, locale);
   const built = type.build({ theme, difficulty, locale, unit }, ctx());

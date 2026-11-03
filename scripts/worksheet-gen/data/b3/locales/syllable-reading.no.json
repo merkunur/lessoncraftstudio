@@ -969,7 +969,8 @@
     "pegasus",
     "dragon",
     "swimming",
-    "weasel"
+    "weasel",
+    "cymbals"
   ],
   "refuse": {
     "finalMuteE": false
@@ -2392,11 +2393,11 @@
     },
     {
       "key": "lights",
-      "word": "lyslenker",
+      "word": "lyslenke",
       "split": [
         "lys",
         "len",
-        "ker"
+        "ke"
       ]
     },
     {

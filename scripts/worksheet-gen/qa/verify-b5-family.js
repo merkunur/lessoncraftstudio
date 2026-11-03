@@ -306,6 +306,11 @@ async function main() {
   const enErr = validateBank(FAMILY.en, 'en');
   ok(enErr.length === 0, `validateBank(en): ${enErr.join(' | ')}`);
   console.log(`validateBank(en): ${enErr.length ? enErr.length + ' errors' : 'clean'}`);
+  // EVERY language's bank — the merged one build() reads (the module holds en only; the panels' blocks live in
+  // data/b5/locales/ — 2026-11-03: only en was ever validated)
+  const ALL_FAM = require('../lib/b5-common.js').bankModule('family');
+  ok(Object.keys(ALL_FAM).length >= 2, `bank: only ${Object.keys(ALL_FAM).join(',')} loaded`);
+  for (const loc of Object.keys(ALL_FAM).filter((l) => l !== 'en')) { const e = validateBank(ALL_FAM[loc], loc); ok(e.length === 0, `validateBank(${loc}): ${e.slice(0, 6).join(' | ')}`); console.log(`validateBank(${loc}): ${e.length ? e.length + ' errors' : 'clean'}`); }
   const svErr = validateBank(synthetic('sv'), 'sv');
   ok(svErr.length === 0, `validateBank(synthetic sv control): ${svErr.join(' | ')}`);
 

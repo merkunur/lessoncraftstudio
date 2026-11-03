@@ -48,6 +48,18 @@ const EXEMPT = [
   ['[data-lcs-clue-cross] svg', '[data-lcs-ring] > svg', 'the cross of a "does not have" clue lies inside its own ring (G1-349)'],
   ['[data-lcs-kind="balance"] svg', '[data-lcs-kind="balance"] img', 'the object rests in the dish of its balance pan: its bottom sits inside the pan by design (G2-252 / G2-261 / G2-262)'],
   ['[data-lcs-art] img, [data-lcs-artband] img', 'svg[data-lcs-cuberow], svg[data-lcs-prim="ruler"]', 'a measured object stands ON its row of unit squares / its ruler: the ink meets the row along its edge (registration is the task) — a contact only, 2 px at most', 2],
+  // final phase round 3 (2026-11-03), each read on a full-size render:
+  ['svg[data-lcs-stage-svg]', '*', 'the family tree drawing is the stage: the frames, name plates and name boxes sit on it by design (family tree pages)'],
+  ['svg[data-lcs-cord]', '[data-lcs-line-marker] svg', "a story line's mark hangs on its cord by design (story sequencing)"],
+  ['svg[data-lcs-cutlines]', '*', 'the dashed cut lines run along every card edge of the sheet: they meet each card by design (cut-out cards)'],
+  ['.ss-tag svg', '.ss-tag .ws-blankbox', 'the number box is printed on its tag (story sequencing, number the pictures)'],
+  ['[data-lcs-cw-cell] .ws-answerbox', '[data-lcs-cw-cell] span', "a crossword cell prints its clue number in its corner, and neighbouring cells share one border line, by design"],
+  ['svg[data-lcs-brick]', '*', 'a wall brick / stone carries its word or its writing line: printed on the brick by design (word parts, root words)'],
+  ['[data-lcs-scene-prep="in"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on top of"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on"] svg[data-lcs-prim="pos-scene"]', '[data-lcs-scene-prep] img', 'the picture is IN / ON the shape: that overlap is the position word (Where Is It, Read and Draw)'],
+  ['[data-lcs-relation="on"] svg', '[data-lcs-relation="on"] img', 'the picture ON the crate rests on it: their contact is the position word (on / under)'],
+  ['svg[data-lcs-prim="writing-row"], svg[data-lcs-prim="school-ruling"]', '*', 'a letter, word, model or answer box is written ON its lines: the line meets it (the 1.5-px stroke) — a contact only', 2],
+  ['.ws-countbadge', 'img', 'a number badge meets the corner of a picture beside it — a contact only', 2],
+  ['[data-lcs-numbered-bank] .ws-countbadge', '[data-lcs-numbered-bank] img', "a numbered picture bank: each picture wears its number on its top-left corner like a sticker (the bank has no room for a separate number band; at level 3 it already wraps) — a touch of the drawing's corner only", 10],
 ];
 
 /**

@@ -1,6 +1,6 @@
 {
   "locale": "sv",
-  "generated_at": "2026-11-03T06:42:39.881Z",
+  "generated_at": "2026-11-03T08:26:16.363Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-sv"
   ],
-  "count_approved": 996,
-  "count_quarantined": 269,
+  "count_approved": 995,
+  "count_quarantined": 270,
   "entries": [
     {
       "key": "accordion",
@@ -3560,22 +3560,22 @@
     },
     {
       "key": "brush",
-      "word": "borste",
+      "word": "pensel",
       "split": [
-        "bors",
-        "te"
+        "pen",
+        "sel"
       ],
       "count": 2,
       "chunks": [
         [
-          "b",
-          "o",
-          "r",
-          "s"
+          "p",
+          "e",
+          "n"
         ],
         [
-          "t",
-          "e"
+          "s",
+          "e",
+          "l"
         ]
       ],
       "sources_agreed": [
@@ -3585,7 +3585,7 @@
         "NST-syl-count"
       ],
       "total_agreed": 4,
-      "nst_sampa": "\"\"bO$s`t`e"
+      "nst_sampa": "\"\"pEn$sel"
     },
     {
       "key": "bucket",
@@ -15685,42 +15685,6 @@
       "total_agreed": 5,
       "nst_sampa": "\"blIkst",
       "wiktionary_ipa": "/blɪkːst/"
-    },
-    {
-      "key": "lights",
-      "word": "ljusslingor",
-      "split": [
-        "ljus",
-        "sling",
-        "or"
-      ],
-      "count": 3,
-      "chunks": [
-        [
-          "l",
-          "j",
-          "u",
-          "s"
-        ],
-        [
-          "s",
-          "l",
-          "i",
-          "ng"
-        ],
-        [
-          "o",
-          "r"
-        ]
-      ],
-      "sources_agreed": [
-        "rule (school-split)",
-        "TeX (school-divergence-aligned)",
-        "vocab-phonics-syl",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"j}:s$%slIN$Ur"
     },
     {
       "key": "lily",

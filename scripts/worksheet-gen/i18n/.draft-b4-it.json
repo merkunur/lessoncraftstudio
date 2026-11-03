@@ -2451,7 +2451,7 @@
         "nectarine",
         "peach"
       ],
-      "avoidThings": ["bear", "hyena", "papaya", "nectarine", "blackberry"],
+      "avoidThings": ["bear", "hyena", "papaya", "nectarine", "blackberry", "lime"],
       "frames": [
         {
           "id": "see-thing",

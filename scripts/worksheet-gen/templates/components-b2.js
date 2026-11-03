@@ -154,6 +154,10 @@ const classIcons = {
 };
 
 /* ---------- scene stage (G2-278): 3 depth bands + ground ellipses ---------- */
+// a gap between every two figures (2026-11-03, the collision gate): with 8 px of box overlap allowed, a small far animal
+// stood ON a nearer one's head (G2-278: the camel's feet and ground shadow on the elephant); 6 px clears the shadows
+// too (they hang 4-8 px below a back / middle figure's feet). Measured: 19 of 450 builds need a fresh seed (the maker's retry)
+const SCENE_GAP = 6;
 function sceneStage({ theme, nouns, w = 660, h = 270, rng, heroIndex = 0, repeats = 1 }) {
   // objects: nouns[0] is the hero (front band, large); others split over the
   // middle/back bands; `repeats` extra clones of non-hero nouns, mirrored.
@@ -170,7 +174,7 @@ function sceneStage({ theme, nouns, w = 660, h = 270, rng, heroIndex = 0, repeat
   others.forEach((n, i) => list.push({ noun: n, band: i % 2 ? 'back' : 'mid', mirror: false }));
   for (let k = 0; k < repeats && others.length; k++) list.push({ noun: others[k % others.length], band: k % 2 ? 'mid' : 'back', mirror: true });
   // rejection placement: each object tries random spots in its band until its
-  // box overlaps nothing already placed by more than a sliver (8px); after 20
+  // box keeps SCENE_GAP px from everything already placed; after 20
   // misses it shrinks 10 % (never below the band minimum); 80 misses = refuse
   const overlapPx = (a, b) => Math.min(Math.min(a.x + a.size, b.x + b.size) - Math.max(a.x, b.x), Math.min(a.y + a.size, b.y + b.size) - Math.max(a.y, b.y));
   list.forEach((it) => {
@@ -182,7 +186,7 @@ function sceneStage({ theme, nouns, w = 660, h = 270, rng, heroIndex = 0, repeat
       const x = 4 + rng.next() * Math.max(1, w - size - 8);
       const yFoot = Math.min(h - 6, Math.max(b.yMin + size, b.yMin + size + rng.next() * Math.max(1, b.yMax - b.yMin - size)));
       const cand = { ...it, size, x, y: yFoot - size };
-      if (objs.every((o) => overlapPx(o, cand) <= 8)) placed = cand;
+      if (objs.every((o) => overlapPx(o, cand) <= -SCENE_GAP)) placed = cand;
     }
     if (!placed) throw new Error('sceneStage: cannot place ' + it.noun.noun);
     objs.push(placed);

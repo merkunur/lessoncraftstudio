@@ -9009,53 +9009,53 @@
     },
     "de": {
       "syl": 2,
-      "pat": "CVCCV",
+      "pat": "CVCCVC",
       "lc": 6
     },
     "fr": {
       "syl": 2,
+      "pat": "CVCCVVV",
+      "lc": 7
+    },
+    "es": {
+      "syl": 2,
       "pat": "CCVCCV",
       "lc": 6
     },
-    "es": {
-      "syl": 3,
-      "pat": "CVCVCV",
-      "lc": 7
-    },
     "pt": {
-      "syl": 3,
-      "pat": "VCCVCV",
+      "syl": 2,
+      "pat": "CVCCVC",
       "lc": 6
     },
     "it": {
       "syl": 3,
-      "pat": "CCVCCVCV",
+      "pat": "CVCCVCCV",
       "lc": 8
     },
     "nl": {
-      "syl": 2,
-      "pat": "CVCCCVC",
-      "lc": 7
+      "syl": 1,
+      "pat": "CCVCC",
+      "lc": 5
     },
     "sv": {
       "syl": 2,
-      "pat": "CVCCCV",
+      "pat": "CVCCVC",
       "lc": 6
     },
     "da": {
       "syl": 2,
-      "pat": "CVCCCV",
+      "pat": "CVCCVC",
       "lc": 6
     },
     "no": {
       "syl": 2,
-      "pat": "CVCCCV",
+      "pat": "CVCCVC",
       "lc": 6
     },
     "fi": {
-      "syl": 2,
-      "pat": "CVCCV",
-      "lc": 5
+      "syl": 3,
+      "pat": "CVCCCVCV",
+      "lc": 8
     }
   },
   "bucket": {
@@ -39001,8 +39001,8 @@
     },
     "de": {
       "syl": 4,
-      "pat": "CVCCCVCCVCCVC",
-      "lc": 13
+      "pat": "CVCCCVCCVCCV",
+      "lc": 12
     },
     "fr": {
       "syl": 3,
@@ -39031,18 +39031,18 @@
     },
     "sv": {
       "syl": 3,
-      "pat": "CCVCCCVCVC",
-      "lc": 11
+      "pat": "CCVCCCVCCV",
+      "lc": 10
     },
     "da": {
       "syl": 3,
-      "pat": "CVCVCV",
+      "pat": "CVCCVCV",
       "lc": 7
     },
     "no": {
       "syl": 3,
-      "pat": "CVCCVCCVC",
-      "lc": 9
+      "pat": "CVCCVCCV",
+      "lc": 8
     },
     "fi": {
       "syl": 2,

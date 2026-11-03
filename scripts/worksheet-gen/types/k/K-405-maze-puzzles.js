@@ -37,8 +37,11 @@ function pinFor(typeId, difficulty, locale, copy) {
   const list = lv[String(locale || 'en').slice(0, 2)] || lv['*'];
   return list && list.length ? list[(copy - 1) % list.length] : null;
 }
-/** the copy a maker page asks for: its variant, or a fresh-seed retry "<variant>.<k>" k copies on */
+/** the copy a maker page asks for: its variant, or a fresh-seed retry k copies on from the copy it retries (ctx.retry
+ *  "<maker copy>.<k>"; counted from ctx.variant — at level 2 the type's copy is the maker's + 1, so retry 1 counted
+ *  from the maker copy rebuilt the same pin, 2026-11-03) */
 function copyOf(ctx) {
+  if (ctx && ctx.retry) return Math.max(1, parseInt(ctx.variant || 1, 10) || 1) + (+String(ctx.retry).split('.')[1] || 0);
   const v = String((ctx && (ctx.seedVariant || ctx.variant)) || 1);
   if (/^\d+$/.test(v)) return +v;
   const [a, k] = v.split('.');
@@ -301,7 +304,10 @@ module.exports = {
     // platform — a browser cannot screenshot itself. The catalogue keeps the screenshot below
     if (page.live) {
       const { analyzeSvg } = require('../../lib/hm-verify.js');
-      return fails.concat(await analyzeSvg({ svg: info.svg, graph: info.graph, scale: 1, seam: 1 }));
+      // a LINE-ART scene is walked by its ink: at scale 1 a 1-px outline anti-aliases to light grey and reads as paper,
+      // so the flood "leaks" through a closed road (2026-11-03: the pinned colouring scenes, 124,000 px at scale 1, clean
+      // at 2). The catalogue's screenshot is never that coarse; a colour scene is walked by colour and stays at 1
+      return fails.concat(await analyzeSvg({ svg: info.svg, graph: info.graph, scale: info.graph && info.graph.line ? 2 : 1, seam: 1 }));
     }
     const png = await page.screenshot({ clip: info.clip });
     const dpr = await page.evaluate(() => window.devicePixelRatio || 1);

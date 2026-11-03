@@ -59,6 +59,91 @@ these, each fixed at its source:
 Live pages to republish in place (server, operator ssh): every deck that printed one of the replaced bank words (the
 scan list: `docs/makers/republish-2026-11-03-bank-words.json`), the no G3-398 deck, the fr G2-274 level-2 deck.
 
+## Final phase, round 2 — two native + pedagogy reviews, the family gates, the thumbnails (2026-11-03)
+
+- **Native + pedagogy review of round 1's bank words** (ONE reviewer over a dump), then of this round's new words (one
+  more). Fixed at the source:
+  - en ee-ea (G2-315 family): out — the words whose other spelling is a real word that sounds the same (beet, heel,
+    deer, leek, beach, peas), the r-controlled ear / reindeer, and the pictures a child names otherwise (oatmeal =
+    cereal, frisbee = a plate, the jeep prints its brand name, teacher / weasel / evergreen / peach are naming
+    refusals). The published page swaps them (REVIEW_EXCLUDE).
+  - **the around-the-house `brush` is a PAINT brush** — ten languages printed a scrubbing-brush word (Bürste, Brosse,
+    Cepillo, Escova, Spazzola, Borstel, Borste/Børste, Harja). The vocabulary entry now names its picture (Pinsel,
+    Pinceau, Brocha, Pincel, Pennello, Kwast, Pensel ×3, Pensseli; en Brush); the banks that stored the old word drop
+    the item (sound boxes ×6, syllable reading ×4, sv compound tand + borste → ängel + fisk = ängelfisk in set A,
+    fr / it blends); Nordic definite penseln / penslen / penselen; the blend bank rebuilt (es gains a "br" unit:
+    brazo, brocha, brócoli, brújula).
+  - **christmas `lights` is ONE string**: de / no / sv / da carried the plural in the singular slot → Lichterkette,
+    Lyslenke, Ljusslinga, Lyskæde; round 1 had bent the de / no banks to that plural — restored (and removed from
+    the round-1 republish list, which would have regenerated live pages to the wrong word).
+  - no cymbaler and sv pegas left the syllable-reading pools (hard to decode / no child says it).
+  - Kept, on purpose: no dømme → dommer (G3-398 level 3 asks for person words with a spelling change; sv döma →
+    domare, de backen → Bäcker likewise); the letter-of-the-week "ss" / "nn" grapheme splits never print; 9-11-sound
+    words never reach a sound-box page (every level caps at 7).
+  - Every change: vocabulary + both raw copies + phonics rows, the safety pipeline re-run (diff: only lights / brush
+    moved), the picture indexes and the Picture Word Wall index rebuilt.
+- **Picture Word Wall** (`scripts/build-pww-index.js`, a live activity): printed the bird word under the vehicles crane
+  and the fingernail word under the tools nail (it never had the theme splits the other two indexes carry); the
+  colours violet drop (the purple drop's twin, keyed to the flower) is skipped.
+- **Family gates:** G1-305 had never followed the 2026-10-06 guessability change (a NEW page counts from one
+  syllable; fi widens by one) — the gate's pool now mirrors build(), its DOM poisons corrupt the first card WITH a
+  boundary; fi vehicles kings ships (re-measured: nosturi, the crane's own key). Sound boxes, spelling rules,
+  syllable reading, compounds, digraphs green.
+- **sweep-templates.js** builds what the maker OFFERS (templates.json locales / localeLevels / localeThemes): 11,751
+  builds, 0 failing.
+- **Thumbnails (the sample page of every template, gated in the browser):**
+  - a unit list was never checked — build-bundles built the DEFAULT unit only, so a rhyme family / spelling rule /
+    team set that cannot carry a face was offered (en G1-343 refused 54 of its 90 unit × level pages; the sample of
+    sv / no G1-343 / G1-345, pt G2-324 / G2-326, de G1-392 drew one). build-bundles now builds every unit at every
+    offered level: a unit no level builds is not offered, `localeUnitLevels[loc]` lists each unit's levels where they
+    differ; the shell, the play page, build-screens and every gate that walks units read it.
+  - G2-279 / 302 / 303: the verify counted the screen's clear tap targets (`data-lcs-pick`, fill transparent) as
+    painted cells (poison-tested: a real painted cell still fails at every level).
+  - K-413 colouring maze: the maker's raster (scale 1) blurred the line art's 1-px outlines to "paper" and reported a
+    leak on a closed road (the pinned Level Set scenes); line-art scenes are rasterised at 2 (clean; a wall erased
+    still fails, poison-tested on three scenes).
+  - build-thumbs prints the gate's reasons with every refusal (shell `lastSampleFails`).
+
+## Final phase, round 3 — every family gate green, the answer keys, one more native + pedagogy review (2026-11-03)
+
+- **Family qa gates** (`scripts/worksheet-gen/qa/verify-*.js`, 91): the Level Set (09-28 → 10-14) changed many types
+  after their gates were last written, so the gates tested the June contract. Each now tests the type as designed —
+  no threshold moved: rhyming (poisons remapped after the bank review; the K-shape renders checked against the bank
+  they are built on), pronouns (the Level Set portraits in the sweep), cloze (levels 1 / 3 are the Level Set's own; a
+  new page is checked against the merged bank), hundreds chart (target cells 52 px — read off the rect), picture-word
+  cards (level 3 is the 12-card reading page, which refuses the long dinosaur names; the twin sweep follows K-347),
+  ordinal numbers (the base may draw an all-B&W theme on new pages; the refusal is proved with allowBw off), question
+  words (es "¿" starters, fi title "kuka, mitä, missä", de nominative tiles, pt "O quê?" alias, the highlight that stops
+  at the last letter, the pools as the vocabulary now makes them), read-and-do (`line` is asked on 0 of 240 two-step
+  pages since the 09-29 picture exclusions; the base still asks it at every level), ruling starters (a worked-example
+  lane is seated like a starter but needs no room after it), trace badges (below), division, all about me, days and
+  months, feelings, rounding, odd and even, cursive, the G2-235 ruler poison. `verify-interactive` is a staging-folder
+  tool, not a gate; `verify-key-text` ran to its end.
+- **Content fixed at the source:** es rhyme -ón keeps "limón" as a word-only extra (its lime picture reads as a pear),
+  the limón–ratón couplet stays; no cloze "apples-tre" lists no plum (excluded everywhere); Question Words: three es
+  instructions inside the design's 120 characters, the no frame "{name} finner {thing}" (was word for word a Sentence
+  Building frame), the lime picture avoided in all 11 (the 10-01 refusal) — two nl published pages would move but show
+  the lime only as a word, so they are NOT republished.
+- **Trace badges:** after the trig rounding of 11-02 a candidate spot landed exactly on the circle threshold and E / É /
+  È / Ê at 104 px printed badges 3 + 4 with overlapping boxes; placement now also keeps the badge BOXES apart (the page
+  verify measures boxes). Only those four lanes move; published decks predate the rounding.
+- **Answer keys** (`gates/answer-keys.js`): Letter of the Week, Hear It Anywhere and Beginning-Middle-End now have keys
+  (the right pictures / the right box ringed, key build only); 13 open or cut-out templates got their NO_KEY reason;
+  Today's Date and Read and Draw left NO_KEY (both draw a real key); the gate builds through `runtime.generate` (the
+  browser's fresh-seed retries) at the levels each language offers.
+- **Native + pedagogy review (one reviewer, this round's new content):** de "Sprich jedes Bild" → the house form
+  "Sprich jedes Bildwort" (K-326, K-328, G1-343, G1-345 + level instructions); it G1-345 (refused in it, bank only)
+  "in rima con quel nome"; es ask "Completa la pregunta de cada línea"; sv ängelfisk kept (the exhaustive search of
+  pictured Swedish compounds found no unused better pair; hals + band fails on the refused neck picture); Read and Do
+  level 1: the counted noun may be a single picture, weighted (answers 1 / 2 / 3 at 36 / 45 / 19 %), so the named word
+  decides it. Wording-only changes are not republished (the live decks' descriptions quote them); the G1-308 level-1
+  Level Set decks are (`levelRepublish` in the republish list).
+- **Read and Do two steps (G1-339), found by its family gate:** every "write how many" answered 2 — a write step on a
+  group of three never completed a page (the two-mentions noun cap left the group's tiles uncovered), so only pairs
+  were ever counted. Two-step pages may now count a single picture too (answers 1 / 2 about evenly, measured over
+  200 pages in 4 languages); the face's verify accepts 1-4 like the base. The published G1-339 page changes in every
+  locale: republish it and its Level Set copies (`levelRepublish`).
+
 ## B3 extras, B4 writing, B5 + B6 literacy, B7 social + puzzles — the rest of the makers (2026-11-02 / 03)
 
 Uncommitted across several sessions, committed together 2026-11-03 (vocabulary `0bd247d8b`, picture indexes `f7ba6e519`,

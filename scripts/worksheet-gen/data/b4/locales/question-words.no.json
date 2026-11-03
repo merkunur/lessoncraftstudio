@@ -23,7 +23,7 @@
   "sortThingForm": "unique",
   "genderFilter": {},
   "excludeThings": [],
-  "avoidThings": ["bear", "nectarine"],
+  "avoidThings": ["bear", "nectarine", "lime"],
   "chipWidths": {
     "Hvem": 79.5,
     "Hva": 62.5,
@@ -62,10 +62,10 @@
     {
       "id": "like-thing",
       "kind": "thing",
-      "text": "{name} liker {thing}.",
+      "text": "{name} finner {thing}.",
       "q": {
-        "who": "Hvem liker {thing}?",
-        "what": "Hva liker {name}?"
+        "who": "Hvem finner {thing}?",
+        "what": "Hva finner {name}?"
       },
       "signed": true
     },

@@ -22132,17 +22132,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "lime",
-       "word": "limón",
-       "pic": {
-        "theme": "fruits",
-        "noun": "lime"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "bowl",
        "word": "tazón",
        "pic": {
@@ -22158,7 +22147,8 @@
       "balón",
       "botón",
       "melón",
-      "león"
+      "león",
+      "limón"
      ],
      "nearMiss": []
     },

@@ -257,6 +257,13 @@ async function main() {
   ctrl.forEach((x) => ok(false, 'control: ' + x));
   ok(!ctrl.length, 'the EN control validates clean');
   console.log(`validator: EN control ${ctrl.length} findings over ${COMMON.stories.length} stories`);
+  // EVERY language's bank as build() reads it (the merged data/b6/locales blocks — the apply-time probe saw each once;
+  // a later edit to a locale block was never re-validated, 2026-11-03)
+  {
+    const ALL = require('../lib/b6-common.js').bankModule('story-sequencing');
+    ok(Object.keys(ALL).length >= 2, `bank: only ${Object.keys(ALL).join(',')} loaded`);
+    for (const loc of Object.keys(ALL).filter((l) => l !== 'en')) { const f = validateBank(ALL[loc], loc); f.forEach((x) => ok(false, `bank ${loc}: ${x}`)); console.log(`bank ${loc}: ${f.length} findings`); }
+  }
 
   // 2. bank poisons
   const withStory = (id, fn) => { const c = clone(COMMON); fn(c.stories.find((s) => s.id === id), c); return c; };

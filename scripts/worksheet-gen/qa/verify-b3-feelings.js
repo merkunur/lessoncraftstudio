@@ -259,10 +259,13 @@ function assertRender(name, r, d, bank, opts) {
   const cfg = TYPE.difficulty[d];
   const squeezed = !!(opts && opts.squeezed);   // long chrome: rows may shrink evenly down to the shared floor
   const minH = Math.max(cfg.picPx + 16, cfg.wordPx + 24);
-  const rowOk = (h) => squeezed ? (h >= minH - 0.6 && h <= cfg.itemH + 0.6) : Math.abs(h - cfg.itemH) < 1;
+  // floor: a face tile holds its picture (minH); a word tile of the Level Set's own word column (itemHR) holds only
+  // its word (wordPx + 24)
+  const rowOk = (h, H = cfg.itemH, floor = minH) => squeezed ? (h >= Math.min(floor, H) - 0.6 && h <= H + 0.6) : Math.abs(h - H) < 1;
   ok(r.verify.length === 0, `${name}: verify() ${JSON.stringify(r.verify)}`);
   ok(r.lints.length === 0, `${name}: lints ${JSON.stringify(r.lints)}`);
-  ok(r.m.pairs === cfg.pairs && r.m.faces.length === cfg.pairs && r.m.words.length === cfg.pairs, `${name}: ${r.m.faces.length} faces / ${r.m.words.length} words / stamp ${r.m.pairs} ≠ config ${cfg.pairs}`);
+  const extra = cfg.extraWords || 0, itemHR = cfg.itemHR || cfg.itemH;   // Level Set level 3: words with no face on the page
+  ok(r.m.pairs === cfg.pairs && r.m.faces.length === cfg.pairs && r.m.words.length === cfg.pairs + extra, `${name}: ${r.m.faces.length} faces / ${r.m.words.length} words / stamp ${r.m.pairs} ≠ config ${cfg.pairs} (+${extra} extra words)`);
   ok(r.m.icons.length === cfg.pairs, `${name}: ${r.m.icons.length} icons, want ${cfg.pairs}`);
   const minIcon = r.m.icons.length ? Math.min(...r.m.icons) : 0;
   ok(minIcon >= MIN_ICON, `${name}: face icon ${minIcon} px < K floor ${MIN_ICON}`);
@@ -273,13 +276,15 @@ function assertRender(name, r, d, bank, opts) {
     ok(Math.min(t.w, t.h) >= MIN_TILE, `${name}: face tile ${t.id} below ${MIN_TILE}`);
   }
   for (const t of r.m.words) {
-    ok(Math.abs(t.w - cfg.tileR) < 1 && rowOk(t.h), `${name}: word tile ${t.id} ${t.w}×${t.h} ≠ ${cfg.tileR}×${cfg.itemH}${squeezed ? ' (floor ' + minH + ')' : ''}`);
+    const wFloor = cfg.itemHR ? cfg.wordPx + 24 : minH;
+    ok(Math.abs(t.w - cfg.tileR) < 1 && rowOk(t.h, itemHR, wFloor), `${name}: word tile ${t.id} ${t.w}×${t.h} ≠ ${cfg.tileR}×${itemHR}${squeezed ? ' (floor ' + wFloor + ')' : ''}`);
     ok(t.textW <= t.inner + 0.6, `${name}: word "${t.text}" ${t.textW} px wider than its tile ${t.inner}`);
-    const b = (bank.feelings || []).find((x) => x.id === t.id);
-    ok(!!b && b.word === t.text, `${name}: word tile ${t.id} prints "${t.text}" ≠ bank "${b && b.word}"`);
+    // an extra word (id extra-N) prints a bank feeling that no face on the page shows
+    const b = /^extra-\d+$/.test(t.id) ? (bank.feelings || []).find((x) => x.word === t.text && !r.m.faces.some((fc) => fc.id === x.id)) : (bank.feelings || []).find((x) => x.id === t.id);
+    ok(!!b && b.word === t.text, `${name}: word tile ${t.id} prints "${t.text}" ≠ bank "${b && b.word}"${/^extra-/.test(t.id) ? ' (an extra must be a feeling no face shows)' : ''}`);
   }
   // the rows stay aligned: face i and word i share top and bottom (the dots face each other)
-  r.m.faces.forEach((t, i) => {
+  if (!extra) r.m.faces.forEach((t, i) => {
     const w = r.m.words[i];
     ok(!!w && Math.abs(w.top - t.top) < 1 && Math.abs(w.bottom - t.bottom) < 1, `${name}: row ${i + 1} misaligned (face ${Math.round(t.top)}-${Math.round(t.bottom)} vs word ${w && Math.round(w.top)}-${w && Math.round(w.bottom)})`);
   });

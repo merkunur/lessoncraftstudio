@@ -19,6 +19,9 @@
     "what": "O quê?",
     "where": "Onde?"
   },
+  "binAliases": {
+    "what": true
+  },
   "qPrefix": "",
   "sortThingForm": "unique",
   "genderFilter": {
@@ -30,7 +33,7 @@
     "lime",
     "doll"
   ],
-  "avoidThings": ["bear", "nectarine"],
+  "avoidThings": ["bear", "nectarine", "lime"],
   "chipWidths": {
     "Quem": 81.1,
     "O que": 79.9,

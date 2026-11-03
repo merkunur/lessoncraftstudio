@@ -444,7 +444,11 @@ async function main() {
   const TY = TYPE();
   const en = DATA.SYNONYMS.en;
   // 1. bank
-  for (const loc of Object.keys(DATA.SYNONYMS)) { const bf = validateBank(DATA.SYNONYMS[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
+  // EVERY language's bank — the merged one build() reads (the module holds en only; the panels' blocks live in
+  // data/b5/locales/ — 2026-11-03: only en was ever validated)
+  const ALL_SYN = require('../lib/b5-common.js').bankModule('synonyms');
+  ok(Object.keys(ALL_SYN).length >= 2, `bank: only ${Object.keys(ALL_SYN).join(',')} loaded`);
+  for (const loc of Object.keys(ALL_SYN)) { const bf = validateBank(ALL_SYN[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(en.strings.base.title === TY.i18n.en.title && en.strings.base.instruction === TY.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
   ok(DATA.CONCEPTS.length >= 40, `CONCEPTS has ${DATA.CONCEPTS.length} < 40`);
   for (const c of DATA.CONCEPTS) for (const o of c.opp || []) ok(DATA.CONCEPTS.some((x) => x.id === o && (x.opp || []).includes(c.id)), `CONCEPTS: ${c.id} -> ${o} is not symmetric`);

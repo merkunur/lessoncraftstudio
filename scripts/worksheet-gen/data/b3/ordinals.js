@@ -78,7 +78,8 @@ const ORDINALS = {
       dinosaurs: [['argentinosaurus', 'brontosaurus'], ['diplodocus', 'therizinosaurus'], ['maiasaura', 'parasaurolophus'], ['carnotaurus', 'deinonychus', 'mosasaurus']],
       'birds 2': [['chicken', 'hen'], ['crane', 'seagull'], ['goose', 'swan'], ['canary', 'finch'], ['swallow', 'sparrow', 'magpie'], ['robin', 'quail'], ['macaw', 'parrot']],
       'forest creatures': [['chipmunk', 'squirrel'], ['frog', 'toad'], ['hedgehog', 'porcupine'], ['bear', 'beaver'], ['gopher', 'weasel'], ['snail', 'slug'], ['deer', 'moose'], ['eagle', 'hawk'], ['ant', 'spider']],
-      fruits: [['apricot', 'clementine', 'orange', 'persimmon', 'nectarine', 'peach', 'mango'], ['apple', 'cherry', 'cranberry', 'plum', 'pomegranate'], ['lemon', 'lime'], ['blackberry', 'raspberry']],
+      // plum left 2026-09-30 (its pictures are drawn as red apples; excluded in every locale, lib/b2-common.js)
+      fruits: [['apricot', 'clementine', 'orange', 'persimmon', 'nectarine', 'peach', 'mango'], ['apple', 'cherry', 'cranberry', 'pomegranate'], ['lemon', 'lime'], ['blackberry', 'raspberry']],
     },
     racers: ['animals', 'zoo animals', 'farm animals', 'pets', 'vehicles', 'dinosaurs', 'birds 2', 'forest creatures'],
     // 'left' = the art looks LEFT (mirrored on the race lane); 'right' = looks right (drawn as is);
@@ -113,7 +114,7 @@ const ORDINALS = {
         instruction: 'Find each small picture in its line and write which place it stands in, counting from the flag.',
       },
       F4: {
-        title: 'Ordinal Numbers from Either End: Start at the Flag',
+        title: 'Ordinal Numbers from Either End: Find the Flag',   // shortened 2026-09-20 (the deck <title> ≤ 70); the bank follows
         instruction: 'Look for the flag first: it can stand at either end. Start there, count to the number of each chip and make the mark it shows.',
       },
       F5: {

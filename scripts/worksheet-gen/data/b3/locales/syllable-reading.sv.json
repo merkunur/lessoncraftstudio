@@ -1533,14 +1533,6 @@
       ]
     },
     {
-      "key": "brush",
-      "word": "borste",
-      "split": [
-        "bors",
-        "te"
-      ]
-    },
-    {
       "key": "bulldozer",
       "word": "bulldozer",
       "split": [
@@ -4091,7 +4083,8 @@
     "wrist",
     "writing",
     "x-ray",
-    "yellow"
+    "yellow",
+    "pegasus"
   ],
   "refuse": {
     "finalMuteE": false

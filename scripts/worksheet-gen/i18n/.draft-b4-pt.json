@@ -489,12 +489,12 @@
     "question-words": {
       "qwords": { "who": "Quem", "what": "O que", "where": "Onde", "when": "Quando", "howmany": "Quantos" },
       "starters": ["Quem", "O que", "Onde", "Quando", "Por que", "Como"],
-      "bins": { "who": "Quem?", "what": "O quê?", "where": "Onde?" },
+      "bins": { "who": "Quem?", "what": "O quê?", "where": "Onde?" }, "binAliases": { "what": true },
       "qPrefix": "",
       "sortThingForm": "unique",
       "genderFilter": { "count": "m" },
       "excludeThings": ["bulldozer", "cranberry", "lime", "doll"],
-      "avoidThings": ["bear", "nectarine"],
+      "avoidThings": ["bear", "nectarine", "lime"],
       "placeBan": { "read-place": ["pool", "garage"], "play-place": ["bed"] },
       "chipWidths": { "Quem": 81.1, "O que": 79.9, "Onde": 75.9, "Quando": 98.8, "Quantos": 104.5 },
       "frames": [

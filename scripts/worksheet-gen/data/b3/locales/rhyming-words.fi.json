@@ -1348,18 +1348,6 @@
       "cueFree": false
     },
     {
-      "id": "katto-matto",
-      "lines": [
-        "Talon päällä on punainen katto,",
-        "lattialla on pehmeä värikäs ___."
-      ],
-      "answer": {
-        "vocabKey": "carpet"
-      },
-      "rhymeWith": "katto",
-      "cueFree": false
-    },
-    {
       "id": "banaani-tukaani",
       "lines": [
         "Apinan herkkua on keltainen banaani,",

@@ -21482,16 +21482,6 @@
        ]
       },
       {
-       "key": "brush",
-       "word": "spazzola",
-       "unit": "spaz",
-       "split": [
-        "spaz",
-        "zo",
-        "la"
-       ]
-      },
-      {
        "key": "crutches",
        "word": "stampelle",
        "unit": "stam",
@@ -22066,15 +22056,6 @@
      "split": [
       "sco",
       "pa"
-     ]
-    },
-    {
-     "key": "brush",
-     "word": "spazzola",
-     "split": [
-      "spaz",
-      "zo",
-      "la"
      ]
     },
     {
@@ -28057,8 +28038,7 @@
      ],
      "extra": [
       "leone",
-      "bottone",
-      "pallone"
+      "bottone"
      ],
      "nearMiss": [
       {
@@ -29533,18 +29513,6 @@
      },
      "rhymeWith": "colla",
      "cueFree": false
-    },
-    {
-     "id": "dopo-topo",
-     "lines": [
-      "Il gatto arriva subito dopo",
-      "per acchiappare il piccolo ___"
-     ],
-     "answer": {
-      "vocabKey": "mouse"
-     },
-     "rhymeWith": "dopo",
-     "cueFree": false
     }
    ],
    "opened": {
@@ -29661,7 +29629,8 @@
     "hospital/nurse": "nurse",
     "occupations/waitress": "waitress",
     "birds 2/dove": "dove",
-    "music/trumpet": "trumpet"
+    "music/trumpet": "trumpet",
+    "desserts and sweets/tart": "tart"
    },
    "strings": {
     "G1-309": {

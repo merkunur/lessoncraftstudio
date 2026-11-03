@@ -980,7 +980,7 @@
     "1": {
       "es": {
         "title": "Completa la pregunta con quién, qué o dónde",
-        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco con la que se pregunta por ellas."
+        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco para preguntar por ellas."
       },
       "pt": {
         "title": "Complete a pergunta com quem, o que ou onde",
@@ -1101,7 +1101,7 @@
       },
       "es": {
         "title": "Preguntas sobre el dibujo: quién, qué, dónde y cuándo",
-        "instruction": "Mira el dibujo. Termina cada pregunta a partir de la palabra que ya está en la línea y ciérrala con el signo de interrogación."
+        "instruction": "Mira el dibujo. Completa la pregunta de cada línea y ciérrala con el signo de interrogación."
       },
       "fr": {
         "title": "Pose des questions sur l'image : qui, que, où et quand",
@@ -1636,7 +1636,7 @@
         "instruction": "Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture. Two pictures do not rhyme with any big picture. Cross them out."
       },
       "de": {
-        "instruction": "Sprich jedes Bild im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild. Zwei Bilder reimen sich auf kein großes Bild. Streiche sie durch."
+        "instruction": "Sprich jedes Bildwort im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild. Zwei Bilder reimen sich auf kein großes Bild. Streiche sie durch."
       },
       "es": {
         "instruction": "Di el nombre de cada dibujo del banco. Busca el dibujo grande con el que rima y escribe la palabra en una línea debajo de él. Dos dibujos no riman con ningún dibujo grande: táchalos."
@@ -1745,7 +1745,7 @@
         "instruction": "Say each picture. Find the two words in the bank that rhyme with it. Write them on its lines."
       },
       "de": {
-        "instruction": "Sprich jedes Bild. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild."
+        "instruction": "Sprich jedes Bildwort. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild."
       },
       "es": {
         "instruction": "Di el nombre de cada dibujo. Busca en el banco las dos palabras que riman con él y escríbelas en sus líneas."
@@ -1780,7 +1780,7 @@
         "instruction": "Say each picture. Find the three words in the bank that rhyme with it. Write them on its lines. Some words are not used."
       },
       "de": {
-        "instruction": "Sprich jedes Bild. Finde im Kasten die drei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild. Manche Wörter passen nirgends."
+        "instruction": "Sprich jedes Bildwort. Finde im Kasten die drei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild. Manche Wörter passen nirgends."
       },
       "es": {
         "instruction": "Di el nombre de cada dibujo. Busca en el banco las tres palabras que riman con él y escríbelas en sus líneas. Algunas palabras no van con ningún dibujo."

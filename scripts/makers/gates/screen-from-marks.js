@@ -147,12 +147,16 @@ const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill
       for (const loc of locs) for (const d of t.screenLevels.filter((x) => ((t.localeLevels && t.localeLevels[loc]) || t.levels).includes(x))) for (const variant of QUICK ? [1] : [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
         const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[(variant - 1) % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
-        const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+        const lu = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d)));   // the level's units
         const unit = lu.length ? lu[variant % lu.length].id : null;
         const tag = `${t.id} ${loc} L${d} v${variant}`;
         let r, sc;
         try {
-          r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc], screen: true });
+          // the page the browser builds: a seed that misses is retried with fresh seeds (runtime.generate), so a build that
+          // throws takes the same ladder here; a page no retry builds is a FAIL
+          for (let k = 0; k <= 4 && !r; k++) {
+            try { r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc], screen: true, ...(k ? { seedVariant: variant + '.' + k } : {}) }); } catch (e) { if (k === 4) throw e; }
+          }
           sc = await screen.buildScreen({ html: r.screenHtml, locale: loc, strings: tj.runtimeStrings[loc], instruction: (pl) => tj.screenInstructions[loc][screen.instructionKey(pl)], mount });
         } catch (e) { fail(`${tag}: derivation — ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }
         if (!sc.instruction) fail(`${tag}: no screen instruction`);

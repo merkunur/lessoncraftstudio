@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T06:42:40.024Z",
-  "total_quarantined": 3540,
+  "generated_at": "2026-11-03T08:26:16.474Z",
+  "total_quarantined": 3541,
   "summary": {
     "en": {
       "approved": 912,
@@ -31,8 +31,8 @@
       "quarantined": 201
     },
     "sv": {
-      "approved": 996,
-      "quarantined": 269
+      "approved": 995,
+      "quarantined": 270
     },
     "da": {
       "approved": 792,
@@ -88863,6 +88863,45 @@
     },
     {
       "locale": "sv",
+      "key": "lights",
+      "word": "ljusslinga",
+      "verdict": "QUARANTINE",
+      "reason": "split_source_disagreement",
+      "top_split": [
+        "ljusslinga"
+      ],
+      "sources_agreed": [
+        "TeX"
+      ],
+      "disagreeing_sources": [
+        {
+          "label": "rule",
+          "split": [
+            "ljuss",
+            "ling",
+            "a"
+          ]
+        }
+      ],
+      "vocab_phonics_syl": 3,
+      "wiktionary_syl": null,
+      "nst_syl_count": null,
+      "source_outputs": {
+        "T": [
+          "ljusslinga"
+        ],
+        "R": [
+          "ljuss",
+          "ling",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 3
+      }
+    },
+    {
+      "locale": "sv",
       "key": "lilac",
       "word": "syren",
       "verdict": "QUARANTINE",
@@ -102921,17 +102960,21 @@
     {
       "locale": "da",
       "key": "lights",
-      "word": "lyskæder",
+      "word": "lyskæde",
       "verdict": "QUARANTINE",
       "reason": "syl_count_mismatch",
       "top_split": [
         "lyskæ",
-        "der"
+        "de"
       ],
       "top_split_count": 2,
       "mismatches": [
         {
           "source": "vocab-phonics-syl",
+          "value": 3
+        },
+        {
+          "source": "NST-syl-count",
           "value": 3
         }
       ],
@@ -102941,13 +102984,14 @@
       "source_outputs": {
         "T": [
           "lyskæ",
-          "der"
+          "de"
         ],
         "R": null,
-        "N": null,
+        "N": 3,
         "W": null,
         "S": 3
-      }
+      },
+      "nst_sampa": "\"ly:s$%kE:D$@"
     },
     {
       "locale": "da",

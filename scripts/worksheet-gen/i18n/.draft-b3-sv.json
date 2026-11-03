@@ -14641,14 +14641,6 @@
      ]
     },
     {
-     "key": "brush",
-     "word": "borste",
-     "split": [
-      "bors",
-      "te"
-     ]
-    },
-    {
      "key": "bulldozer",
      "word": "bulldozer",
      "split": [
@@ -17208,7 +17200,8 @@
     "wrist",
     "writing",
     "x-ray",
-    "yellow"
+    "yellow",
+    "pegasus"
    ],
    "refuse": {
     "finalMuteE": false
@@ -19426,34 +19419,6 @@
       },
       {
        "a": {
-        "vocabKey": "tooth",
-        "word": "tand",
-        "pic": {
-         "theme": "body parts",
-         "noun": "tooth"
-        }
-       },
-       "aStem": null,
-       "link": "",
-       "b": {
-        "vocabKey": "brush",
-        "word": "borste",
-        "pic": {
-         "theme": "around the house",
-         "noun": "brush"
-        }
-       },
-       "whole": {
-        "word": "tandborste",
-        "vocabKey": "toothbrush",
-        "scale": 1
-       },
-       "hubSide": "b",
-       "opaque": false,
-       "picOpened": true
-      },
-      {
-       "a": {
         "vocabKey": "foot",
         "word": "fot",
         "pic": {
@@ -19586,6 +19551,34 @@
        "whole": {
         "word": "flodhäst",
         "vocabKey": "hippopotamus",
+        "scale": 1
+       },
+       "hubSide": "b",
+       "opaque": false,
+       "picOpened": true
+      },
+      {
+       "a": {
+        "vocabKey": "angel",
+        "word": "ängel",
+        "pic": {
+         "theme": "christmas",
+         "noun": "angel"
+        }
+       },
+       "aStem": null,
+       "link": "",
+       "b": {
+        "vocabKey": "fish",
+        "word": "fisk",
+        "pic": {
+         "theme": "ocean life",
+         "noun": "fish"
+        }
+       },
+       "whole": {
+        "word": "ängelfisk",
+        "vocabKey": "angelfish",
         "scale": 1
        },
        "hubSide": "b",
@@ -20284,30 +20277,6 @@
      "whole": {
       "word": "clownfisk",
       "vocabKey": "clownfish",
-      "scale": 1
-     },
-     "hubSide": "b",
-     "opaque": false,
-     "picOpened": true
-    },
-    {
-     "a": {
-      "vocabKey": "angel",
-      "word": "ängel",
-      "pic": {
-       "theme": "christmas",
-       "noun": "angel"
-      }
-     },
-     "aStem": null,
-     "link": "",
-     "b": {
-      "vocabKey": null,
-      "word": "fisk"
-     },
-     "whole": {
-      "word": "ängelfisk",
-      "vocabKey": "angelfish",
       "scale": 1
      },
      "hubSide": "b",

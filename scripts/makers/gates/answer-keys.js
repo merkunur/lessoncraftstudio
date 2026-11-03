@@ -101,7 +101,7 @@ const NO_KEY = {
   'K-353': 'a materials and model page: cut out the pieces and copy the two figures, their seams already drawn',
   // B7 (2026-11-03): open pages and classroom games — the child's own data, own feelings or own invention, or a game
   // whose every card is right
-  'G1-525': 'the class birthday graph: the data come from the class', 'G1-526': "today's date: the answer is the day the page is used",
+  'G1-525': 'the class birthday graph: the data come from the class',
   'G1-530': 'draw your own map: an open drawing with its own key', 'G2-493': 'coordinate battleship: a game, each player hides own ships',
   'K-564': 'my feelings this week: the child\'s own feelings', 'K-565': 'the feelings thermometer: the child\'s own feeling and what helps',
   'G1-531': 'my friend and me: two children\'s own answers', 'K-566': 'feelings cards to cut out (material)',
@@ -114,7 +114,7 @@ const NO_KEY = {
   'G1-507': 'comic strip: the child writes what the characters say', 'G1-508': 'roll a story: the dice choose, the child writes her own story',
   'G1-509': 'describe the character: the sentences are finished in the child\'s own words', 'G1-510': 'write a postcard: the child\'s own message',
   'G1-513': 'write a story for the number sentence: the child\'s own story', 'G1-519': 'look, cover, write, check: the word is printed on the page and the child checks herself',
-  'G1-342': 'read and draw: the child draws what each sentence says (drawing)', 'K-546': 'read and draw: the child draws the picture in its place (drawing)',
+  'G1-342': 'read and draw: the child draws what each sentence says (drawing)',
   'K-543': 'word wall labels to cut out (material)', 'K-544': 'a picture dictionary to read (material)', 'K-557': 'number word cards to cut out (material)',
   'G1-521': 'ordinal number cards to cut out and match: the parts fit one way (material)', 'G1-496': 'syllable puzzles to cut out: the pieces fit one way (material)',
   'K-552': 'sentence strips to cut and glue: the sentence is printed above (material)',
@@ -123,6 +123,15 @@ const NO_KEY = {
   'G2-278': 'write about the picture: the child\'s own sentences', 'G2-299': 'write about the picture with starters: the child\'s own sentences',
   'G2-300': 'write about the picture: the child\'s own story', 'G2-318': 'animal fact file: the child finds the facts and writes them in her own words',
   'G2-341': 'finish the sentences with facts from the printed file and add one of her own (writing)', 'G2-378': 'retell the story: the child\'s own sentences',
+  // final phase round 2 (2026-11-03): each page read — the child's own feelings, favourites, family and name, or cards to cut
+  'K-335': 'how do I feel today: the child circles her own feeling and draws her own face',
+  'K-342': 'my favorite things: the child circles her own favourite and copies its printed word',
+  'K-343': 'all about my family: the child draws and counts her own family',
+  'K-345': 'I can: the child ticks what she can do and writes what she wants to learn',
+  'K-346': 'my name: the child writes and counts her own name and a friend\'s',
+  'K-375': 'family words: the word is printed to trace and copy on the line beside its number',
+  'G1-387': 'family tree template: the child draws and names her own people',
+  ...Object.fromEntries(['K-324', 'K-347', 'K-348', 'K-349', 'K-350', 'G1-324'].map((id) => [id, 'picture and word cards to cut out: each card carries its own word (material)'])),
 };
 
 (async () => {
@@ -172,14 +181,16 @@ const NO_KEY = {
       if (!t.hasKey) { if (!NO_KEY[t.id]) fail(`${maker} ${t.id}: no answer key and no reason in NO_KEY`); continue; }
       if (NO_KEY[t.id]) fail(`${maker} ${t.id}: listed in NO_KEY but has a key — take it off the list`);
       const type = require(path.join(REPO, t.file));
-      for (const loc of ['en', 'fi'].filter((l) => t.locales.includes(l))) for (const d of t.keyLevels) for (const variant of [1, 2]) {
+      for (const loc of ['en', 'fi'].filter((l) => t.locales.includes(l))) for (const d of t.keyLevels.filter((x) => !t.localeLevels || !t.localeLevels[loc] || t.localeLevels[loc].includes(x))) for (const variant of [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
         const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[(variant - 1) % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
-        const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
+        const lu = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d)));   // the level's units
         const unit = lu.length ? lu[variant % lu.length].id : null;
-        let r;
-        try { r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc] }); }
-        catch (e) { fail(`${t.id} ${loc} L${d} v${variant}: ${e.message}`); continue; }
+        // the page the browser gives the teacher: runtime.generate, with its fresh-seed retries (a first seed that misses
+        // is retried there too); a page no retry builds is a FAIL
+        const g = await runtime.generate({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc] }, async (html) => { await mount(html); return page; });
+        if (!g.ok) { fail(`${t.id} ${loc} L${d} v${variant}: ${(g.fails || []).slice(0, 2).join(' | ')}`); continue; }
+        const r = g;
         if (!r.keyHtml) { fail(`${t.id} ${loc} L${d} v${variant}: no key page (this level has a key)`); continue; }
         keys++;
         await mount(r.keyHtml);

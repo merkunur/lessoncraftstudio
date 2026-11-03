@@ -1209,11 +1209,12 @@
       }
     },
     {
-      "key": "tailor",
-      "base": "sy",
+      "key": "judge",
+      "base": "dømme",
       "answer": {
-        "any": "syer"
-      }
+        "any": "dommer"
+      },
+      "stemSigned": true
     },
     {
       "key": "student",
@@ -1223,10 +1224,10 @@
       }
     },
     {
-      "key": "construction_worker",
-      "base": "bygge",
+      "key": "cashier",
+      "base": "kasse",
       "answer": {
-        "any": "bygger"
+        "any": "kasserer"
       }
     }
   ],

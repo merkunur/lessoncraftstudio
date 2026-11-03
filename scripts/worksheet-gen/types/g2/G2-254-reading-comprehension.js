@@ -119,12 +119,34 @@ module.exports = {
     oracle: (items, l) => RC_SCREEN.oracle(items, l),
   },
 
+  /**
+   * The story-list position a page reads (null = the published page). The Level Set tools pass it as seedVariant (an
+   * integer); the MAKER numbers copies by ctx.variant and passes a seedVariant only to retry a copy ("2.1"), so a maker
+   * copy maps onto the same list (2026-11-03: every maker copy rebuilt the published story — the native panels' stories
+   * were unreachable — and level 1 / 3 printed the published page under the level's own instruction, "the number next to
+   * each question tells you which sentence has the answer", on a page with no sentence numbers). Level 2: copy 1 is the
+   * published page, copies 2… the new stories; levels 1 and 3: copy k is story k, the published story first. Past the
+   * list's end the copies cycle.
+   */
+  _listPosition(difficulty, loc, ctx) {
+    const sv = ctx && ctx.seedVariant;
+    if (!(ctx && ctx.maker)) return sv || null;   // the publishing tools: their own numbering, untouched
+    if (sv && !String(sv).includes('.')) return Number(sv);
+    const v = Math.max(1, parseInt((ctx && ctx.variant) || 1, 10) || 1);
+    if (Number(difficulty) === 2 && v === 1) return null;
+    const len = poolOf(this.id, loc).length;
+    return Number(difficulty) === 2 ? ((v - 2) % (len - 1)) + 1 : ((v - 1) % len) + 1;
+  },
+
   build({ difficulty, locale }, ctx) {
-    if (ctx && ctx.seedVariant) {
+    const pos = this._listPosition(difficulty, (locale || 'en').slice(0, 2), ctx);
+    if (pos) {
       const lloc = (locale || 'en').slice(0, 2);
-      const built = this._buildLevel(difficulty, lloc, ctx.seedVariant, ctx.forceTier);
-      if (this.interactive && (ctx.interactive || ctx.answerKey)) return RC_SCREEN.screenOrKey(built, ctx, lloc, levelData(lloc));
-      return built;
+      const built = this._buildLevel(difficulty, lloc, pos, ctx.forceTier);
+      // a new story on a face prints its own title (copyStrings, for the maker: makePage reads built.strings)
+      const own = this._storyFor(difficulty, lloc, pos).pageTitle;
+      const r = this.interactive && (ctx.interactive || ctx.answerKey) ? RC_SCREEN.screenOrKey(built, ctx, lloc, levelData(lloc)) : built;
+      return own && ctx.maker ? { ...r, strings: { title: own } } : r;
     }
     void ctx;
     const loc = (locale || 'en').slice(0, 2);

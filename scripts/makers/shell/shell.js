@@ -156,9 +156,13 @@ async function boot() {
     const p = opening.preset, t = offered.find((x) => x.id === p.template);
     if (t) {
       want = t.id;
-      state.tpls = [t.id]; state.lvls = [levelIn(t, p.level)]; state.pages = [p.variant || 1]; state.units = [unitIn(t, p.unit, levelIn(t, p.level))];
-      state.pickedTheme = p.theme && t.themes.includes(p.theme) ? p.theme : null;
-      variantCounter = Math.max(variantCounter, p.variant || 1) + 1;
+      // a maker's level-2 copy k is the type's copy k + 1 (runtime.js: copy 1 of level 2 is the catalogue's published
+      // page, never a maker page): a level-2 deck of copy v opens maker copy v - 1 — the same page; the published deck
+      // itself (v 1) opens maker copy 1, its template, level, pictures and word on a new page
+      const lv = levelIn(t, p.level), copy = lv === 2 ? Math.max(1, (p.variant || 1) - 1) : (p.variant || 1);
+      state.tpls = [t.id]; state.lvls = [lv]; state.pages = [copy]; state.units = [unitIn(t, p.unit, lv)];
+      state.pickedTheme = p.theme && themesOf(t).includes(p.theme) ? p.theme : null;
+      variantCounter = Math.max(variantCounter, copy) + 1;
       presetFrom = p;
     }
     opening = null;
@@ -278,7 +282,10 @@ function themePicture(theme) {
 }
 
 const tplOf = (i) => tj.templates.find((x) => x.id === state.tpls[i]);
-const levelIn = (t, want) => (t.levels.includes(want) ? want : (t.levels.includes(2) ? 2 : t.levels[0]));
+// the levels a template offers in this language (build-bundles: t.localeLevels where a language offers fewer — K-288's
+// level 3 is Italian only; 2026-11-03)
+const levelsOf = (t) => (t.localeLevels && t.localeLevels[LANG]) || t.levels;
+const levelIn = (t, want) => { const lv = levelsOf(t); return lv.includes(want) ? want : (lv.includes(2) ? 2 : lv[0]); };
 /** the units a page of template t may show at a level (t.unitLevels: a unit that belongs to one level — a Color by Number
  *  design is drawn for its level; makers 2026-11-02) */
 const unitsOf = (t, level) => { const u = (t.units && t.units[LANG]) || []; return t.unitLevels ? u.filter((x) => t.unitLevels[x.id] === level) : u; };
@@ -286,10 +293,13 @@ const unitIn = (t, want, level) => { const u = level == null ? (t.units && t.uni
 const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
 /** the theme a page of template t shows: the teacher's pick, else the same subject in the kind this template offers (a
  *  colouring template offers only black-and-white: animals → animals bw), else the template's first */
+/** the themes template t offers in this language: the build's per-language list (templates.json localeThemes — fi fruit
+ *  words run too long for word-shape boxes, so fruits is not offered there), else the template's list */
+function themesOf(t) { return (t.localeThemes && t.localeThemes[LANG]) || t.themes; }
 function themeFor(t) {
   if (!t.themed) return null;
-  const want = state.pickedTheme || state.theme;
-  return t.themes.includes(want) ? want : (t.themes.find((x) => baseTheme(x) === baseTheme(want)) || t.themes[0]);
+  const ts = themesOf(t), want = state.pickedTheme || state.theme;
+  return ts.includes(want) ? want : (ts.find((x) => baseTheme(x) === baseTheme(want)) || ts[0]);
 }
 /** id / level / theme / unit mirror the selected page */
 function syncActive() {
@@ -413,8 +423,8 @@ const results = new Map();
  * word, copy 1, the worksheet's own strings.
  */
 function sampleOptions(t) {
-  const level = t.levels.includes(2) ? 2 : t.levels[0];
-  return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? t.themes[0] : null, unit: unitsOf(t, level)[0] ? unitsOf(t, level)[0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
+  const level = levelIn(t, 2);
+  return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? themesOf(t)[0] : null, unit: unitsOf(t, level)[0] ? unitsOf(t, level)[0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
 }
 
 /** The makePage options of page i (a colleague's shared worksheet is built from its recipe, not the sample). */
@@ -842,14 +852,14 @@ function buildControls(t) {
   const kids = [];
   // with several pages: which page these settings change (the selected page also carries the coral outline)
   if (state.pages.length > 1) kids.push(el('span', { class: 'mk-editing', 'data-editing': String(state.active + 1), text: `${UI.page} ${state.active + 1}` }));
-  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { const a = state.active; if (v !== state.lvls[a]) state.ink[a] = undefined; drawingPage = null; state.lvls[a] = v; if (t.unitLevels) state.units[a] = unitIn(t, state.units[a], v); syncActive(); buildControls(t); render(); }));
-  if (t.themed && t.themes.length > 1) {
+  if (levelsOf(t).length > 1) kids.push(chipGroup(UI.level, levelsOf(t), state.level, (v) => { const a = state.active; if (v !== state.lvls[a]) state.ink[a] = undefined; drawingPage = null; state.lvls[a] = v; if (t.unitLevels) state.units[a] = unitIn(t, state.units[a], v); syncActive(); buildControls(t); render(); }));
+  if (t.themed && themesOf(t).length > 1) {
     const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': UI.pictures }, [el('span', { class: 'mk-label', text: UI.pictures })]);
     // colour or black-and-white: a switch picks which strip is shown (a page uses one theme, never a mix); inside the
     // B&W strip the language's own marker ("SW", "MV", …) is dropped from the names — the switch already says it
     const isBw = (th) => /bw(\s+\d+)?$/i.test(th);
     const bwOn = isBw(state.theme);
-    const colorThemes = t.themes.filter((th) => !isBw(th)), bwThemes = t.themes.filter(isBw);
+    const colorThemes = themesOf(t).filter((th) => !isBw(th)), bwThemes = themesOf(t).filter(isBw);
     if (colorThemes.length && bwThemes.length) {
       const sw = el('div', { class: 'mk-switch', role: 'group' });
       for (const [on, label] of [[false, UI.color], [true, UI.blackWhite]]) {

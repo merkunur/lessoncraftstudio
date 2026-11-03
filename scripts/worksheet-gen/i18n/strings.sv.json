@@ -3848,5 +3848,661 @@
   "K-482": {
     "title": "Rita av mönstret på prickarna",
     "instruction": "Titta på linjen i varje rad. Rita samma linje på de tomma prickarna bredvid, från den orangea pricken."
+  },
+  "K-484": {
+    "title": "Vilken utgång? Labyrinter",
+    "instruction": "Börja vid pilen. Följ gångarna med fingret. Du kan bara komma fram till en utgång: ringa in numret vid den."
+  },
+  "K-485": {
+    "title": "Beskriv vägen genom labyrinten",
+    "instruction": "Följ vägen från den gröna pricken till flaggan. Skriv för varje rak sträcka hur många steg (små pilar) den har."
+  },
+  "K-486": {
+    "title": "Labyrint: samla bokstäverna",
+    "instruction": "Rita vägen till bilden. Samla bokstäverna på vägen och skriv ordet i rutorna."
+  },
+  "K-487": {
+    "title": "Mönsterstigen",
+    "instruction": "Titta på mönstret högst upp. Gå från pilen till flaggan och kliv bara på stenar som följer mönstret."
+  },
+  "K-488": {
+    "title": "Vilken bild är annorlunda?",
+    "instruction": "Alla bilderna är likadana utom en. Ringa in bilden som är annorlunda."
+  },
+  "K-489": {
+    "title": "Räkna skillnaderna sort för sort",
+    "instruction": "Hitta alla skillnader i bild 2. Räkna hur många ändringar det finns av varje sort och skriv talet i rutan."
+  },
+  "K-490": {
+    "title": "Titta, vik och hitta",
+    "instruction": "Titta på bild 1 så länge du vill. Vik sedan papperet längs den streckade linjen så att bild 1 göms. Ringa in ändringarna i bild 2 och kryssa i en ruta för varje."
+  },
+  "K-491": {
+    "title": "Rita det som saknas",
+    "instruction": "Några saker från bild 1 saknas i bild 2. Rita dit varje sak på rätt plats i bild 2."
+  },
+  "K-492": {
+    "title": "Vilka två bilder är likadana?",
+    "instruction": "Två av bilderna är precis likadana. Hitta dem och ringa in båda."
+  },
+  "K-493": {
+    "title": "Rita med former",
+    "instruction": "Titta på stegen. I varje steg kommer nya former till i orange. Rita bilden i den stora rutan, ett steg i taget."
+  },
+  "K-494": {
+    "title": "Rita av bilden större i rutnätet",
+    "instruction": "Rita av bilden i det stora rutnätet, en ruta i taget. Varje ruta i det stora rutnätet är dubbelt så stor, så din bild blir också dubbelt så stor."
+  },
+  "K-495": {
+    "title": "Spegelteckning",
+    "instruction": "Halva bilden är redan ritad. Rita den andra halvan så att båda sidorna ser likadana ut, som i en spegel."
+  },
+  "K-496": {
+    "title": "Alla tillsammans i en bild",
+    "instruction": "Följ stegen för varje teckning. Rita sedan alla tillsammans i den stora bilden."
+  },
+  "K-497": {
+    "title": "Stegkort: klipp, ordna och rita",
+    "instruction": "Klipp ut korten. Lägg stegen i rätt ordning på den numrerade raden och klistra fast dem. Rita sedan bilden i rutan."
+  },
+  "K-498": {
+    "title": "Spåra en bild",
+    "instruction": "Spåra alla linjer i bilden. Börja vid den svarta pricken."
+  },
+  "K-499": {
+    "title": "Spåra bilden och skriv ordet",
+    "instruction": "Spåra bilden. Spåra sedan namnet på linjerna och skriv det själv."
+  },
+  "K-500": {
+    "title": "En liten spårbok",
+    "instruction": "Spåra de tre bilderna. Klipp sedan arket i fyra delar längs linjerna i mitten, lägg framsidan överst och häfta ihop sidorna till en liten bok."
+  },
+  "K-501": {
+    "title": "Spåra och måla efter siffror",
+    "instruction": "Spåra bildens linjer. Måla sedan varje del med färgen som hör till dess siffra."
+  },
+  "K-502": {
+    "title": "Rita dubbelt så stort",
+    "instruction": "Titta på bilden i det lilla rutnätet. Färglägg samma rutor i det stora rutnätet, där varje ruta är dubbelt så stor."
+  },
+  "K-503": {
+    "title": "Vrid och spegelvänd bilden",
+    "instruction": "Rita av varje bild i det tomma rutnätet, vriden ett kvarts varv åt höger, så som pilen visar."
+  },
+  "K-504": {
+    "title": "Rita av teckningen i rutnätet",
+    "instruction": "Rita av teckningen i det tomma rutnätet, en ruta i taget: titta på vad som finns i varje ruta och rita samma sak i rutan som hör ihop med den."
+  },
+  "K-505": {
+    "title": "Prick till prick med räkneord",
+    "instruction": "Börja vid den orange pricken. Läs räkneorden och dra streck mellan prickarna i den ordning du räknar."
+  },
+  "K-506": {
+    "title": "Prick till prick: jämna eller udda tal",
+    "instruction": "Börja vid den orange pricken. Dra streck bara mellan de jämna talen i ordning: 2, 4, 6 och så vidare. Hoppa över de udda talen."
+  },
+  "K-507": {
+    "title": "Stora och små bokstäver",
+    "instruction": "Börja vid den orange pricken. Dra streck från en stor bokstav till samma lilla bokstav och sedan till nästa stora: A, a, B, b och så vidare."
+  },
+  "K-508": {
+    "title": "Hitta den exakta tvillingen",
+    "instruction": "Titta på den första bilden i varje rad. Ringa in bilden som är exakt likadan, inte vriden och inte spegelvänd."
+  },
+  "K-509": {
+    "title": "Vilka bilder gömmer sig?",
+    "instruction": "Några bilder gömmer sig i linjetrasslet. Hitta deras konturer och ringa sedan in de bilderna i raden nedanför."
+  },
+  "K-510": {
+    "title": "Vilken passar inte in?",
+    "instruction": "Läs rubriken till varje rad med bilder. Ringa in den bild som inte passar in under rubriken."
+  },
+  "K-511": {
+    "title": "Sortera efter en regel",
+    "instruction": "Läs de två rubrikerna. Dra ett streck från varje bild till den rubrik där den passar in."
+  },
+  "K-512": {
+    "title": "Sorteringsunderlag och bildkort",
+    "instruction": "Klipp ut bildkorten. Lägg varje kort på det underlag där det passar in."
+  },
+  "G1-487": {
+    "title": "Måla efter jämna och udda tal",
+    "instruction": "Är talet i formen jämnt eller udda? Måla formen med den färg som koden visar."
+  },
+  "K-513": {
+    "title": "Måla efter räkneord",
+    "instruction": "Läs räkneordet i varje form. Leta upp talet i koden och måla formen med den färgen."
+  },
+  "K-514": {
+    "title": "Måla med din egen kod",
+    "instruction": "Välj en färg till varje tal. Måla rutan i koden och skriv färgens namn. Måla sedan formerna."
+  },
+  "K-515": {
+    "title": "Måla stor och liten",
+    "instruction": "Titta på koden: varje storlek har sin egen färg. Måla varje bild med färgen för dess storlek."
+  },
+  "K-516": {
+    "title": "Ett litet målarhäfte",
+    "instruction": "Vik den övre halvan bakåt och sedan den vänstra halvan bakåt, så blir det en liten bok. Måla varje sida."
+  },
+  "G1-488": {
+    "title": "Måla och skriv en mening",
+    "instruction": "Måla bilden. Skriv sedan om den. Början på meningarna hjälper dig att komma igång."
+  },
+  "K-517": {
+    "title": "Spåra talen 1 till 100",
+    "instruction": "Spåra de streckade talen. Skriv det tal som ska stå där i varje tom ruta."
+  },
+  "K-518": {
+    "title": "Så skriver vi talen",
+    "instruction": "Börja vid pricken och följ pilarna. De små siffrorna visar vilket streck som kommer först."
+  },
+  "K-519": {
+    "title": "Gör din egen tangramfigur",
+    "instruction": "Färglägg bitarna efter färgrutorna och klipp ut dem. Lägg din egen figur av alla sju bitarna i den stora rutan och rita sedan runt den."
+  },
+  "K-520": {
+    "title": "Första tangrampusslen",
+    "instruction": "Klipp ut bitarna bredvid varje figur. Lägg dem på figuren så att de passar precis."
+  },
+  "G1-489": {
+    "title": "Vilken figur kan du bygga?",
+    "instruction": "Titta på bitarna i varje rad. Ringa in den enda mörka figur som du kan bygga med just de här bitarna."
+  },
+  "K-522": {
+    "title": "Para ihop figuren med namnet",
+    "instruction": "Titta på varje mörk tangramfigur. Dra ett streck från varje figur till rätt namn."
+  },
+  "K-523": {
+    "title": "Spåra ditt namn",
+    "instruction": "Titta på namnet. Spåra det på de streckade linjerna och skriv det sedan själv på de tomma raderna."
+  },
+  "K-524": {
+    "title": "Bokstäver och bilder",
+    "instruction": "Säg vad bilden heter och lyssna på första ljudet. Spåra bokstaven för det ljudet och skriv den sedan själv."
+  },
+  "K-525": {
+    "title": "Stora och små bokstäver tillsammans",
+    "instruction": "Spåra den stora bokstaven och den lilla bredvid varandra och skriv dem sedan själv. Börja vid den orangea pricken."
+  },
+  "K-526": {
+    "title": "Bokstavskort: så skriver du bokstäverna",
+    "instruction": "Varje bokstav börjar vid den orangea pricken. Följ siffrorna och pilarna så ser du hur den skrivs. Klipp ut korten längs de streckade linjerna."
+  },
+  "K-527": {
+    "title": "Spåra en mening",
+    "instruction": "Läs meningen. Spåra de streckade bokstäverna och skriv sedan meningen själv på de tomma raderna."
+  },
+  "G1-490": {
+    "title": "Skriv namnen under bilderna",
+    "instruction": "Skriv vad varje bild heter på raden under den. Orden i rutan kan hjälpa dig."
+  },
+  "K-529": {
+    "title": "Ordens form",
+    "instruction": "Säg vad varje bild heter. Skriv en bokstav i varje ruta: höga bokstäver i de höga rutorna och bokstäver som går ner i rutorna som går ner."
+  },
+  "G1-491": {
+    "title": "Min ordbok",
+    "instruction": "Skriv vad varje bild heter på första raden. Skriv sedan en egen mening om den."
+  },
+  "K-530": {
+    "title": "Alfabetståget",
+    "instruction": "Skriv bokstäverna som fattas på vagnarna så att alfabetståget kommer i rätt ordning. Bilden på en tom vagn börjar på vagnens bokstav."
+  },
+  "K-531": {
+    "title": "Alfabetsplansch",
+    "instruction": "Säg varje bokstav och vad bilden heter. Bilden börjar med bokstavens ljud."
+  },
+  "K-532": {
+    "title": "Bokstavsjakt",
+    "instruction": "Titta på bokstaven i rutan. Leta efter den bokstaven på ballongerna, drakarna och skyltarna och ringa in varenda en."
+  },
+  "G1-492": {
+    "title": "Bokstaven före och efter",
+    "instruction": "Skriv bokstaven som kommer före varje bokstav i alfabetet."
+  },
+  "K-533": {
+    "title": "Färglägg vokalerna",
+    "instruction": "Säg vad varje bild heter. Färglägg alla vokaler i ordet."
+  },
+  "K-534": {
+    "title": "Bokstavskort att lägga i ordning",
+    "instruction": "Klipp ut korten längs de streckade linjerna. Lägg dem i bokstavsordning och läs bokstäverna."
+  },
+  "K-535": {
+    "title": "Samma första ljud?",
+    "instruction": "Säg vad de två bilderna heter. Om de börjar med samma ljud, ringa in bocken. Om inte, ringa in krysset."
+  },
+  "K-536": {
+    "title": "Klämkort: det första ljudet",
+    "instruction": "Klipp ut korten. Säg vad varje bild heter och sätt en klädnypa på bokstaven för det första ljudet."
+  },
+  "G1-493": {
+    "title": "Två konsonanter i början",
+    "instruction": "Säg vad varje bild heter. Skriv de två bokstäverna som ordet börjar med."
+  },
+  "G1-494": {
+    "title": "Bokstäver och ljud",
+    "instruction": "Läs varje ord. Räkna bokstäverna (Aa) och ljuden du hör (örat). Skriv båda talen."
+  },
+  "G1-495": {
+    "title": "Lång eller kort vokal?",
+    "instruction": "Säg varje ord. Är den färgade vokalen lång eller kort? Ringa in strecket om den är lång och pricken om den är kort."
+  },
+  "K-537": {
+    "title": "Rim-memory",
+    "instruction": "Klipp ut korten och lägg dem upp och ner. Vänd på två kort. Om bilderna rimmar får du behålla dem!"
+  },
+  "K-538": {
+    "title": "Vilken rimmar inte?",
+    "instruction": "Säg vad de tre bilderna heter. Två av dem rimmar. Ringa in den som inte rimmar."
+  },
+  "K-539": {
+    "title": "Rimdomino",
+    "instruction": "Klipp ut dominobrickorna. Lägg dem i en ring: bilden till höger på varje bricka rimmar på bilden till vänster på nästa bricka."
+  },
+  "G1-496": {
+    "title": "Stavelsepussel",
+    "instruction": "Klipp ut bitarna längs de streckade linjerna. Blanda dem och pussla ihop varje ord igen, stavelse för stavelse."
+  },
+  "K-541": {
+    "title": "Klappa och räkna",
+    "instruction": "Säg varje ord och klappa stavelserna. Färglägg en ring för varje klapp och skriv hur många klappar det blev."
+  },
+  "K-542": {
+    "title": "Bild-memory",
+    "instruction": "Klipp ut korten och lägg dem upp och ner. Vänd på två kort. Om de hör ihop får du behålla dem!"
+  },
+  "K-543": {
+    "title": "Ordkort till ordväggen",
+    "instruction": "Klipp ut ordkorten längs de streckade linjerna och sätt upp dem på ordväggen."
+  },
+  "K-544": {
+    "title": "Mitt bildlexikon",
+    "instruction": "Läs orden i bokstavsordning. Säg vad varje bild heter."
+  },
+  "K-545": {
+    "title": "Klipp och klistra orden",
+    "instruction": "Klipp ut orden längst ner. Klistra varje ord i rutan under rätt bild."
+  },
+  "K-546": {
+    "title": "Läs och rita",
+    "instruction": "Läs varje mening. Rita bilden på rätt plats."
+  },
+  "K-547": {
+    "title": "Var är den?",
+    "instruction": "Titta på varje bild. Skriv lägesordet som fattas. Orden i rutan kan hjälpa dig."
+  },
+  "K-548": {
+    "title": "Välj rätt ord",
+    "instruction": "Titta på varje bild. Ringa in ordet som passar i meningen."
+  },
+  "K-549": {
+    "title": "Läs och klistra",
+    "instruction": "Klipp ut bilderna längst ner. Läs varje mening och klistra bilden på rätt plats."
+  },
+  "G2-484": {
+    "title": "Komparation av adjektiv",
+    "instruction": "Skriv de två former som saknas för varje adjektiv, som i exemplet."
+  },
+  "G1-497": {
+    "title": "Ordklasser i meningar",
+    "instruction": "Läs varje mening. Ringa in alla substantiv. Namn är också substantiv."
+  },
+  "G1-498": {
+    "title": "Stor bokstav",
+    "instruction": "Läs varje mening. Ringa in varje ord som ska börja med stor bokstav."
+  },
+  "G2-485": {
+    "title": "Verbtabell",
+    "instruction": "Skriv verbet i varje ruta."
+  },
+  "G2-486": {
+    "title": "En stor eller ett stort?",
+    "instruction": "Ringa in rätt form av adjektivet."
+  },
+  "K-550": {
+    "title": "Vad heter gruppen?",
+    "instruction": "Titta på bilderna i varje rad. Vilken grupp hör de till? Skriv ordet från rutan."
+  },
+  "K-551": {
+    "title": "Motsatskort",
+    "instruction": "Klipp ut korten och lägg dem med baksidan upp. Vänd två kort: är de motsatser får du behålla dem!"
+  },
+  "G1-499": {
+    "title": "Små ord",
+    "instruction": "Skriv den lilla formen av varje ord."
+  },
+  "G2-487": {
+    "title": "Pussel med sammansatta ord",
+    "instruction": "Klipp ut bitarna. Lägg ihop två bitar till ett sammansatt ord och skriv ordet på en rad."
+  },
+  "K-552": {
+    "title": "Meningsremsor",
+    "instruction": "Läs meningen. Klipp isär orden, blanda dem och bygg ihop meningen igen. Klistra den på den tomma remsan."
+  },
+  "G1-500": {
+    "title": "Fyll i ordet",
+    "instruction": "Läs varje mening. Titta på bilden och skriv ordet som saknas."
+  },
+  "K-553": {
+    "title": "Bildmeningar",
+    "instruction": "Läs varje mening. Skriv ordet för bilden i rutan."
+  },
+  "G1-501": {
+    "title": "Mening eller inte?",
+    "instruction": "Läs varje ordgrupp. Ringa in bocken om det är en hel mening. Ringa in krysset om det inte är det."
+  },
+  "G1-502": {
+    "title": "Meningshalvor",
+    "instruction": "Dra streck från varje början till slutet som hör ihop med den. Bilderna hjälper dig."
+  },
+  "G1-503": {
+    "title": "Bygg ut meningen",
+    "instruction": "Läs den korta meningen. Svara på frågorna på de korta linjerna. Skriv sedan en längre mening med dina svar."
+  },
+  "G1-504": {
+    "title": "Läs och svara",
+    "instruction": "Läs texten. Svara på varje fråga på linjen."
+  },
+  "G1-505": {
+    "title": "Rätt eller fel?",
+    "instruction": "Läs berättelsen. Läs sedan varje fråga och svaret. Ringa in bocken om svaret är rätt. Ringa in krysset om det är fel."
+  },
+  "G2-488": {
+    "title": "Vilken rubrik passar?",
+    "instruction": "Läs varje berättelse. Ringa in den rubrik som passar bäst."
+  },
+  "K-554": {
+    "title": "Min läslogg",
+    "instruction": "Fyll i sidan om boken du har läst. Färglägg stjärnorna för att visa hur mycket du tyckte om den."
+  },
+  "G1-506": {
+    "title": "Berättelsekarta",
+    "instruction": "Planera din berättelse. Rita och skriv vad som händer i början, i mitten och i slutet."
+  },
+  "G1-507": {
+    "title": "Seriestrip",
+    "instruction": "Titta på varje bild. Skriv i pratbubblorna vad figurerna säger."
+  },
+  "G1-508": {
+    "title": "Tärningsberättelse",
+    "instruction": "Slå tärningen för varje kolumn. Skriv sedan en berättelse med det du fick."
+  },
+  "G1-509": {
+    "title": "Beskriv figuren",
+    "instruction": "Titta på bilden. Skriv klart meningarna om din figur. Orden i rutan kan hjälpa dig."
+  },
+  "G1-510": {
+    "title": "Skriv ett vykort",
+    "instruction": "Skriv ett vykort till någon du tycker om. Skriv personens namn efter hälsningen och ditt namn sist."
+  },
+  "K-555": {
+    "title": "Meningar till bilden",
+    "instruction": "Titta på varje bild. Skriv en mening om den."
+  },
+  "G1-511": {
+    "title": "Jämförande räknehändelser",
+    "instruction": "Läs varje räknehändelse. Jämför de två raderna med bilder. Skriv i rutan hur många fler eller färre det är."
+  },
+  "G1-512": {
+    "title": "Vilken uträkning passar?",
+    "instruction": "Läs varje räknehändelse. Ringa in uträkningen som passar till händelsen."
+  },
+  "G1-513": {
+    "title": "Skriv egna räknehändelser",
+    "instruction": "Titta på varje uträkning. Skriv en räknehändelse som passar till den. Du kan skriva om bilden."
+  },
+  "G2-489": {
+    "title": "Räknehändelser i två steg",
+    "instruction": "Läs varje räknehändelse. Räkna först det första steget och sedan det andra. Skriv talen i rutorna."
+  },
+  "G2-490": {
+    "title": "Dagens tal upp till 1 000",
+    "instruction": "Titta på dagens tal. Fyll i varje ruta på sidan med hjälp av talet."
+  },
+  "G1-514": {
+    "title": "Siffror och bokstäver",
+    "instruction": "Skriv talorden med siffror och talen med bokstäver."
+  },
+  "K-556": {
+    "title": "Tal, talord och bild",
+    "instruction": "Dra ett streck från varje tal till rätt talord. Dra sedan ett streck från varje talord till rätt bild."
+  },
+  "K-557": {
+    "title": "Kort med talord",
+    "instruction": "Klipp ut korten. Sätt upp dem på väggen, eller klipp längs de streckade linjerna och para ihop talet, talordet och bilden."
+  },
+  "G1-515": {
+    "title": "Ordningstal upp till 31",
+    "instruction": "Skriv varje ordningstal med bokstäver. Skriv varje ord med siffror."
+  },
+  "K-558": {
+    "title": "Vilken hylla?",
+    "instruction": "Räkna hyllorna nerifrån. Svara på varje fråga: ringa in rätt bild eller rätt tal."
+  },
+  "G1-516": {
+    "title": "Ordningstal: tal och ord",
+    "instruction": "Dra ett streck från varje ordningstal till rätt ord."
+  },
+  "G2-491": {
+    "title": "Siffror och bokstäver upp till 1 000",
+    "instruction": "Skriv talorden med siffror och talen med bokstäver."
+  },
+  "G1-517": {
+    "title": "Bokstavsröra",
+    "instruction": "Titta på varje bild. Sätt bokstäverna i rätt ordning och skriv ordet."
+  },
+  "G1-518": {
+    "title": "Bokstäver som fattas",
+    "instruction": "Titta på varje bild. Skriv bokstäverna som fattas i rutorna."
+  },
+  "G1-519": {
+    "title": "Titta, täck över, skriv, kontrollera",
+    "instruction": "Läs varje ord. Vik papperet längs den streckade linjen så att ordet täcks. Skriv ordet och skriv det igen. Vik upp och kontrollera."
+  },
+  "G2-492": {
+    "title": "Vilket ord är rätt stavat?",
+    "instruction": "Titta på varje bild. Läs orden. Ringa in ordet som är rätt stavat."
+  },
+  "G1-520": {
+    "title": "Vokaler som fattas",
+    "instruction": "Titta på varje bild. Skriv vokalerna som fattas i rutorna."
+  },
+  "K-560": {
+    "title": "Bokstavsbrickor och ordkort",
+    "instruction": "Klipp ut bokstavsbrickorna. Säg vad bilden heter och bygg ordet i rutorna. Några bokstäver blir över."
+  },
+  "G1-521": {
+    "title": "Kort med ordningstal",
+    "instruction": "Klipp ut korten. Lägg dem i ordning, eller klipp längs de streckade linjerna och lägg ihop delarna som passar ihop."
+  },
+  "G1-522": {
+    "title": "En eller ett, en och flera",
+    "instruction": "Titta på varje bild. Skriv orden som fattas för en och för flera."
+  },
+  "K-561": {
+    "title": "Räkna och skriv i plural",
+    "instruction": "Räkna bilderna i varje ruta. Skriv antalet med bokstäver och ordet i plural."
+  },
+  "K-562": {
+    "title": "En eller flera?",
+    "instruction": "Läs ordet. Ringa in gruppen som passar."
+  },
+  "G1-523": {
+    "title": "En hund eller hunden?",
+    "instruction": "Läs de två meningarna. Ringa in de ord som passar i varje mening."
+  },
+  "G1-524": {
+    "title": "Fyll i kalendern",
+    "instruction": "Skriv de datum som fattas i kalendern."
+  },
+  "G1-525": {
+    "title": "Vårt födelsedagsdiagram",
+    "instruction": "Fråga dina klasskamrater vilken månad de fyller år. Färglägg en ruta ovanför varje barns månad. Räkna de färglagda rutorna i varje månad."
+  },
+  "G1-526": {
+    "title": "Dagens datum",
+    "instruction": "Titta på kalenderbladet. Skriv datumet med siffror."
+  },
+  "G1-527": {
+    "title": "Vårt schema",
+    "instruction": "Läs schemat. Svara på varje fråga."
+  },
+  "G1-528": {
+    "title": "Skattjakt: följ stegen",
+    "instruction": "Börja vid flaggan. Följ stegen. Ringa in bilden där du hamnar."
+  },
+  "G1-529": {
+    "title": "Beskriv vägen",
+    "instruction": "Följ vägen från den första bilden. Ringa in riktningen för varje del och skriv hur många rutor det är."
+  },
+  "K-563": {
+    "title": "Rummet uppifrån",
+    "instruction": "Varje sak är ritad från sidan. Dra ett streck till samma sak i rummet sett uppifrån."
+  },
+  "G1-530": {
+    "title": "Rita en egen karta",
+    "instruction": "Rita en karta. Rita varje tecken du har använt i teckenförklaringen och skriv vad det betyder."
+  },
+  "G2-493": {
+    "title": "Sänka skepp",
+    "instruction": "Färglägg dina skepp i ditt rutnät. Turas om att säga en ruta, till exempel B3. Markera i din kompis rutnät: en prick för miss och ett kryss för träff."
+  },
+  "K-564": {
+    "title": "Mina känslor den här veckan",
+    "instruction": "Färglägg varje dag cirkeln vid den känsla du har."
+  },
+  "K-565": {
+    "title": "Känslotermometern",
+    "instruction": "Hur stark är känslan? Färglägg termometern så högt som känslan är stark."
+  },
+  "G1-531": {
+    "title": "Min kompis och jag",
+    "instruction": "Jobba med en kompis. Rita eller skriv det som bara är ditt, det som bara gäller din kompis och det ni har båda två."
+  },
+  "K-566": {
+    "title": "Känslokort",
+    "instruction": "Klipp ut korten. Använd dem för att prata om känslor."
+  },
+  "G1-532": {
+    "title": "Ordletning",
+    "instruction": "Hitta varje ord från listan i rutnätet och ringa in det."
+  },
+  "K-567": {
+    "title": "Ordletning med bilder",
+    "instruction": "Säg vad bilden heter. Hitta ordet i rutnätet och ringa in det."
+  },
+  "G2-494": {
+    "title": "Ordletning med hemligt meddelande",
+    "instruction": "Hitta och ringa in alla ord. Läs sedan bokstäverna som blir över, rad för rad, och skriv det hemliga meddelandet."
+  },
+  "G1-533": {
+    "title": "Ordletning i en form",
+    "instruction": "Hitta varje ord från listan i formen och ringa in det."
+  },
+  "G1-534": {
+    "title": "Ordletning på två språk",
+    "instruction": "Läs varje ord och titta på bilden. Hitta ordet på svenska i rutnätet och ringa in det."
+  },
+  "K-568": {
+    "title": "Ordletning med räkneord",
+    "instruction": "Läs varje tal. Hitta räkneordet i rutnätet och ringa in det."
+  },
+  "G1-535": {
+    "title": "Bildkorsord",
+    "instruction": "Titta på varje bild med en siffra. Skriv ordet i rutorna med samma siffra."
+  },
+  "G1-536": {
+    "title": "Bildkryss",
+    "instruction": "Varje bild i rutnätet visar ett ord. Skriv ordet i rutorna dit pilen pekar."
+  },
+  "G2-495": {
+    "title": "Ifyllnadskorsord",
+    "instruction": "Placera varje ord från listan i rutnätet. Räkna bokstäverna och använd bokstäverna som korsar varandra."
+  },
+  "G1-537": {
+    "title": "Korsord med ordlista",
+    "instruction": "Titta på varje bild med en siffra. Hitta ordet i ordlistan och skriv det i rutorna."
+  },
+  "G1-538": {
+    "title": "Korsord på två språk",
+    "instruction": "Läs varje ord och titta på bilden. Skriv ordet på svenska i rutorna med samma siffra."
+  },
+  "G1-539": {
+    "title": "Hemlig kod med bilder",
+    "instruction": "Varje bild står för en bokstav. Använd nyckeln och skriv det hemliga meddelandet."
+  },
+  "G1-540": {
+    "title": "Hemlig kod med tal",
+    "instruction": "Varje tal står för en bokstav: A är 1. Använd nyckeln och skriv det hemliga meddelandet."
+  },
+  "G1-541": {
+    "title": "Hemlig kod med uträkningar",
+    "instruction": "Räkna ut varje uppgift. Leta upp svaret i nyckeln och skriv bokstaven."
+  },
+  "G2-496": {
+    "title": "Gör klart nyckeln",
+    "instruction": "Några bokstäver saknas i nyckeln. Ta reda på dem med hjälp av ordet som redan är löst. Skriv sedan det hemliga meddelandet."
+  },
+  "G1-542": {
+    "title": "Hitta på en egen hemlig kod",
+    "instruction": "Rita ett tecken för varje bokstav. Skriv ett meddelande och skriv det sedan igen med din kod till en kompis."
+  },
+  "K-569": {
+    "title": "Bildbingo",
+    "instruction": "Lyssna på varje ord. Finns bilden på din bricka, markera den. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "K-574": {
+    "title": "Bildbingo: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och säg ordet. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "K-570": {
+    "title": "Bingo med ordbilder",
+    "instruction": "Lyssna på varje ord. Finns ordet på din bricka, markera det. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "K-575": {
+    "title": "Bingo med ordbilder: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs ordet högt. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "G1-543": {
+    "title": "Räknebingo",
+    "instruction": "Lyssna på varje uppgift och räkna ut den. Finns svaret på din bricka, markera det. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "G1-545": {
+    "title": "Räknebingo: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs uppgiften högt, inte svaret. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "G1-544": {
+    "title": "Klockbingo",
+    "instruction": "Lyssna på varje klockslag. Visar en klocka på din bricka den tiden, markera klockan. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "G1-546": {
+    "title": "Klockbingo: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs klockslaget högt. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "K-571": {
+    "title": "Bingo med första ljudet",
+    "instruction": "Lyssna på varje ord och det första ljudet. Finns bokstaven för ljudet på din bricka, markera den. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "K-576": {
+    "title": "Bingo med första ljudet: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och säg ordet, inte bokstaven. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "K-572": {
+    "title": "Bingo med talord",
+    "instruction": "Lyssna på varje tal. Finns det på din bricka, markera det. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "K-577": {
+    "title": "Bingo med talord: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs talet högt. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "K-573": {
+    "title": "Bingo med former och färger",
+    "instruction": "Lyssna på varje form och dess färg. Finns den på din bricka, markera den. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”"
+  },
+  "K-578": {
+    "title": "Bingo med former och färger: utropskort",
+    "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs formen och färgen högt. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
   }
 }

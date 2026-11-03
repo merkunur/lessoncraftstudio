@@ -258,15 +258,6 @@
           ]
         },
         {
-          "key": "chicken",
-          "word": "pollo",
-          "unit": "po",
-          "split": [
-            "po",
-            "llo"
-          ]
-        },
-        {
           "key": "foal",
           "word": "potro",
           "unit": "po",
@@ -2356,10 +2347,11 @@
     },
     {
       "key": "chicken",
-      "word": "pollo",
+      "word": "gallina",
       "split": [
-        "po",
-        "llo"
+        "ga",
+        "lli",
+        "na"
       ]
     },
     {

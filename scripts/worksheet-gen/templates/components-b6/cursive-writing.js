@@ -30,14 +30,16 @@
  *   cwBlock({…})                             one letter block: row A (model | margin | chains | open) + empty rows
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('../../lib/platform/index.js');   // file reads go through the platform (the Cursive maker runs this in a browser)
 const { esc } = require('../../primitives/_svg.js');
 const { color } = require('../../primitives/_tokens.js');
 const SR = require('../../primitives/school-ruling.js');
 
 const FONTS_DIR = path.join(__dirname, '..', '..', 'assets', 'fonts');
-const CURSIVE_CSS = fs.readFileSync(path.join(FONTS_DIR, 'cursive-fonts.css'), 'utf8');
+// read on first use (the maker's browser bundle preloads it); Node output is byte-identical to the old module-load read
+let _cursiveCss = null;
+const cursiveCss = () => (_cursiveCss = _cursiveCss || platform.readText(path.join(FONTS_DIR, 'cursive-fonts.css')));
 const ROLE_COLOR = { model: color.ink, trace: color.grid, ribbon: color.ink };
 
 const cwFamily = (unit) => `LCS Cursive ${unit}`;
@@ -51,10 +53,11 @@ const px = (v) => Math.round(v * 100) / 100;
  */
 function cwFontFace(unit) {
   const re = new RegExp(`@font-face\\{font-family:'LCS Cursive ${unit.replace(/[-]/g, '\\-')}';[^}]*\\}`);
-  const m = re.exec(CURSIVE_CSS);
+  const m = re.exec(cursiveCss());
   if (!m) throw new Error(`cursive-writing: assets/fonts/cursive-fonts.css declares no face for unit "${unit}"`);
+  // file:/// in Node (the catalogue's exact form), the makers' font URL in a browser (page/shell.js does the same)
   const rule = m[0].replace(/url\('([^']+\.woff2)'\)/g, (mm, f) =>
-    "url('" + 'file:///' + path.join(FONTS_DIR, f).replace(/\\/g, '/').replace(/^\//, '') + "')");
+    "url('" + (platform.kind === 'node' ? 'file:///' + path.join(FONTS_DIR, f).replace(/\\/g, '/').replace(/^\//, '') : platform.fileHref(path.join(FONTS_DIR, f))) + "')");
   return `<style data-lcs-cursive-face="${esc(unit)}">${rule}</style>`;
 }
 
@@ -272,17 +275,28 @@ function cwFaceBlock({ unit, kind, geom, seyes, w, marginX, writeRows, rowAInner
  * cream picture tiles, coral match dots. The rows grow together (flex 1 1 minH, capped at maxH) so the
  * page fills its body at every chrome; both columns carry the same count, so row k faces row k.
  */
-function cwReadMatch({ unit, fs: fsPx, words, pics, cardW = 300, minH, maxH, tileW = 88, icon = 72, gap = 12 }) {
+/*
+ * marks (makers 2026-11-02, the reading face's key and tap-to-pair screen; the catalogue passes none and its page is
+ * byte-unchanged): 'key' — each word card carries its number, each picture the number of its word; 'screen' — the
+ * word cards are the items, the pictures their targets. A picture's word is found by its key (pics[k].key).
+ */
+function cwReadMatch({ unit, fs: fsPx, words, pics, cardW = 300, minH, maxH, tileW = 88, icon = 72, gap = 12, marks = null }) {
   const m = SR.metricsFor(unit);
   const lb = lineBox(unit, fsPx);
   const inkH = (m.ascender + m.descender) * fsPx;
   const itemStyle = (wpx) => `width:${wpx}px;flex:1 1 ${minH}px;min-height:${minH}px;max-height:${maxH}px;box-sizing:border-box`;
+  const wordNo = (key) => words.findIndex((wd) => wd.key === key) + 1;
   const left = words.map((wd, i) => {
     // the word's ink (ascender..descender) is centred in the card: a baseline stamped relative to the card
     const node = `<span data-lcs-cursive="${esc(unit)}" data-lcs-role="model" data-lcs-fs="${px(fsPx)}" data-lcs-word-node="${esc(wd.key)}" style="position:absolute;left:50%;top:calc(50% - ${px(inkH / 2 + (lb.asc - m.ascender * fsPx))}px);transform:translateX(-50%);${textStyle(unit, fsPx, 'model')}">${esc(wd.text)}</span>`;
-    return `<div class="ws-match-item ws-match-item--plain cw-row cw-card" data-lcs-word="${esc(wd.key)}" data-lcs-row-index="${i}" data-lcs-card-yb="${px(m.ascender * fsPx - inkH / 2)}" style="${itemStyle(cardW)};position:relative">${node}<span class="ws-match-dot ws-match-dot--right"></span></div>`;
+    const mk = marks === 'key' ? ` data-lcs-pair="${i + 1}"` : marks === 'screen' ? ` data-lcs-key-badge="w${i + 1}"` : '';
+    const no = marks === 'key' ? `<span data-lcs-key-sample="1" style="position:absolute;top:6px;left:6px;min-width:32px;height:32px;padding:0 7px;box-sizing:border-box;border-radius:16px;background:#146B5E;color:#FFFFFF;font:700 19px/32px 'Baloo 2',cursive;text-align:center;z-index:1">${i + 1}</span>` : '';
+    return `<div class="ws-match-item ws-match-item--plain cw-row cw-card" data-lcs-word="${esc(wd.key)}" data-lcs-row-index="${i}" data-lcs-card-yb="${px(m.ascender * fsPx - inkH / 2)}"${mk} style="${itemStyle(cardW)};position:relative">${no}${node}<span class="ws-match-dot ws-match-dot--right"></span></div>`;
   }).join('');
-  const right = pics.map((p, i) => `<div class="ws-match-item" data-lcs-pic="${esc(p.key)}" data-lcs-row-index="${i}" style="${itemStyle(tileW)}"><img src="${esc(p.src)}" alt="" style="width:${icon}px;height:${icon}px;object-fit:contain"><span class="ws-match-dot ws-match-dot--left"></span></div>`).join('');
+  const right = pics.map((p, i) => {
+    const mk = marks === 'key' ? ` data-lcs-key-badge="${wordNo(p.key)}"` : marks === 'screen' ? ` data-lcs-pair="w${wordNo(p.key)}"` : '';
+    return `<div class="ws-match-item" data-lcs-pic="${esc(p.key)}" data-lcs-row-index="${i}"${mk} style="${itemStyle(tileW)}"><img src="${esc(p.src)}" alt="" style="width:${icon}px;height:${icon}px;object-fit:contain"><span class="ws-match-dot ws-match-dot--left"></span></div>`;
+  }).join('');
   const col = (html) => `<div class="ws-match-col" style="justify-content:flex-start;gap:${gap}px">${html}</div>`;
   return `<div class="ws-match cw-read" data-lcs-flow="" style="flex:1 1 auto;padding:0 30px;justify-content:space-between;align-items:stretch">${col(left)}${col(right)}</div>`;
 }

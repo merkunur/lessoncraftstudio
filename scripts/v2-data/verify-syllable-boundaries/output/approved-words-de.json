@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "generated_at": "2026-05-24T23:51:17.203Z",
+  "generated_at": "2026-11-03T06:42:39.627Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -9,8 +9,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-de"
   ],
-  "count_approved": 1028,
-  "count_quarantined": 235,
+  "count_approved": 1032,
+  "count_quarantined": 233,
   "entries": [
     {
       "key": "acorn",
@@ -4704,14 +4704,13 @@
     },
     {
       "key": "candy",
-      "word": "Süßigkeiten",
+      "word": "Süßigkeit",
       "split": [
         "sü",
         "ßig",
-        "kei",
-        "ten"
+        "keit"
       ],
-      "count": 4,
+      "count": 3,
       "chunks": [
         [
           "s",
@@ -4724,12 +4723,8 @@
         ],
         [
           "k",
-          "ei"
-        ],
-        [
-          "t",
-          "e",
-          "n"
+          "ei",
+          "t"
         ]
       ],
       "sources_agreed": [
@@ -4739,7 +4734,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈzyːsɪçˌkaɪ̯tn̩/"
+      "wiktionary_ipa": "/ˈzyːsɪçˌkaɪ̯t/"
     },
     {
       "key": "candy-cane",
@@ -7191,6 +7186,30 @@
       "total_agreed": 3
     },
     {
+      "key": "construction-crane",
+      "word": "Kran",
+      "split": [
+        "kran"
+      ],
+      "count": 1,
+      "chunks": [
+        [
+          "k",
+          "r",
+          "a",
+          "n"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/kraːn/"
+    },
+    {
       "key": "content",
       "word": "Zufrieden",
       "split": [
@@ -7247,6 +7266,39 @@
           "l",
           "e",
           "r"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
+      "key": "conversation-heart",
+      "word": "Zuckerherz",
+      "split": [
+        "zu",
+        "cker",
+        "herz"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "z",
+          "u"
+        ],
+        [
+          "ck",
+          "e",
+          "r"
+        ],
+        [
+          "h",
+          "e",
+          "r",
+          "z"
         ]
       ],
       "sources_agreed": [
@@ -8694,12 +8746,12 @@
     },
     {
       "key": "diplodocus",
-      "word": "Diplodocus",
+      "word": "Diplodokus",
       "split": [
         "di",
         "plo",
         "do",
-        "cus"
+        "kus"
       ],
       "count": 4,
       "chunks": [
@@ -8717,7 +8769,7 @@
           "o"
         ],
         [
-          "c",
+          "k",
           "u",
           "s"
         ]
@@ -16579,12 +16631,12 @@
     },
     {
       "key": "lights",
-      "word": "Lichterkette",
+      "word": "Lichterketten",
       "split": [
         "lich",
         "ter",
         "ket",
-        "te"
+        "ten"
       ],
       "count": 4,
       "chunks": [
@@ -16605,7 +16657,8 @@
         ],
         [
           "t",
-          "e"
+          "e",
+          "n"
         ]
       ],
       "sources_agreed": [
@@ -18608,6 +18661,34 @@
     },
     {
       "key": "nail",
+      "word": "Nagel",
+      "split": [
+        "na",
+        "gel"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "n",
+          "a"
+        ],
+        [
+          "g",
+          "e",
+          "l"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/ˈnaːɡl̩/"
+    },
+    {
+      "key": "metal-nail",
       "word": "Nagel",
       "split": [
         "na",
@@ -30555,6 +30636,35 @@
       ],
       "total_agreed": 4,
       "wiktionary_ipa": "/ˈvɛstə/"
+    },
+    {
+      "key": "violet",
+      "word": "Veilchen",
+      "split": [
+        "veil",
+        "chen"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "v",
+          "ei",
+          "l"
+        ],
+        [
+          "ch",
+          "e",
+          "n"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/ˈfaɪ̯lçən/"
     },
     {
       "key": "violin",

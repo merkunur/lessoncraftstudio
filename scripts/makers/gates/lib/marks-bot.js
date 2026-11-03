@@ -19,6 +19,8 @@ const keyMarks = () => {
  */
 const bot = (mode) => {
   const M = window.__lcsMarks; if (!M) return { err: 'no runtime hook' };
+  // a page with a picture to look at first (ctx.cover, K-490): the child taps it away before answering
+  const cover = document.querySelector('.lcs-cover'); if (cover) cover.click();
   const Q = M.Q(), C = window.DECK_BUNDLE.ctx || {};
   const keyFor = (c) => Array.from(document.querySelectorAll('.lcs-key')).find((k) => k.textContent === (c === ' ' ? '␣' : c));
   const typeText = (q, right) => {
@@ -26,6 +28,8 @@ const bot = (mode) => {
     if (m['data-lcs-blank']) return right ? '' : '1';   // right when left empty (an optional box with no answer)
     // a decimal money box: the written amount ("17,36"); wrong = its last digit changed
     if (m['data-lcs-decimal'] != null) { const t = String(m['data-lcs-typed']); return right ? t : t.slice(0, -1) + ((+t.slice(-1) + 1) % 10); }
+    // a WORD set (the coordinate codes of one colour, 2026-11-03): the k-th member; wrong = its letters rotated
+    if (set && C.wsets && C.wsets[set]) { const ws = C.wsets[set]; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); const k = mine.indexOf(q); if (k >= ws.length) return null; const w = ws[k]; if (right) return w; const r = Array.from(w).slice(1).concat(Array.from(w)[0]).join(''); return r !== w && !ws.includes(r) ? r : w + ((C.keys || []).find((c) => c !== ' ' && !w.includes(c)) || 'x'); }
     if (set) { const nums = C.sets[set]; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); const k = mine.indexOf(q); if (k >= nums.length) return null; return right ? String(nums[k]) : String(nums[k] + 1); }   // wrong: the next number (the other parity / another set), within the digit cap
     if (rg) { const lo = String(rg).split('-')[0] || '0', hi = String(rg).split('-')[1]; return right ? lo : (hi ? String(+hi + 1) : String(Math.max(0, +lo - 1))); }
     const a = String(q.p.answers[q.i]);
@@ -40,7 +44,7 @@ const bot = (mode) => {
   const click = (el) => el.click();
   // 'short': the LAST question that must be answered (a select candidate left untapped is an answer, so a select-only
   // page needs nothing left — Check enables on the first tap, as the key's own rings do)
-  const spare = (q) => { const set = q.cls === 'type' && q.meta['data-lcs-set']; if (!set) return false; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); return mine.indexOf(q) >= C.sets[set].length; };
+  const spare = (q) => { const set = q.cls === 'type' && q.meta['data-lcs-set']; if (!set) return false; const mine = Q.filter((x) => x.cls === 'type' && x.meta['data-lcs-set'] === set); return mine.indexOf(q) >= ((C.sets && C.sets[set]) || (C.wsets && C.wsets[set]) || []).length; };
   const need = Q.filter((q) => q.cls !== 'select' && !spare(q) && !(q.cls === 'type' && q.meta['data-lcs-optional'] != null));
   const skip = mode === 'short' ? need[need.length - 1] : null;
   if (mode === 'short' && !skip) return { disabled: true, selectOnly: true };

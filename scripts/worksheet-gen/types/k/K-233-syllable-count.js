@@ -3,6 +3,7 @@
 const { makeLitSoundMatch } = require('../_shared/lit-sound-match.js');
 module.exports = makeLitSoundMatch({
   id: 'K-233', slug: 'count-the-syllables', gradeBand: 'K', exerciseType: 'phonological-awareness', mode: 'syllable-count',
+  spread: true,
   data: require('../../data/literacy/syllable-count.json'),
   i18n: { en: { title: 'Count the Syllables', instruction: 'Write how many syllables you hear in each word.' } },
 });

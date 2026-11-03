@@ -67,8 +67,10 @@ const BANK = 'letter-of-the-week';
 let LS_CACHE;
 function levelSetData() {
   if (LS_CACHE !== undefined) return LS_CACHE;
+  // through the platform layer: the maker bundle reads the same file from its data folder (fs is Node-only)
+  const platform = require('../../lib/platform/index.js');
   const f = require('path').join(__dirname, '..', '..', 'data', 'b3', 'letter-of-the-week-levelset.json');
-  LS_CACHE = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  LS_CACHE = platform.exists(f) ? platform.readJson(f) : null;
   return LS_CACHE;
 }
 function mergedBank(loc) {

@@ -8,6 +8,7 @@
 'use strict';
 const { generateMaze, renderMaze } = require('../../lib/maze.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-242',
@@ -28,12 +29,22 @@ module.exports = {
     },
   },
 
+  // the screen (makers 2026-11-02, NEW-TEMPLATES §28 T1): drag the way through the maze — the scene mazes' trace-path
+  // player over the cell graph the interactive build declares; one way by construction, K-405's oracle proves it
+  interactive: {
+    kind: 'trace-path', instructionKey: 'mz-grid',
+    oracle: (B) => require('./K-405-maze-puzzles.js').interactive.oracle(B),
+    chrome: (locale) => require('../../lib/b8-common.js').bank('maze-puzzles', locale).chrome,
+  },
+
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const nouns = labelSafeNouns(theme);
     if (nouns.length < 2) throw new Error(`K-242: theme ${theme} has ${nouns.length} nouns < 2`);
-    const [startNoun, goalNoun] = rng.sample(nouns, 2);
+    // makers (2026-11-02): the start and the goal picture are slots (the teacher's own pair: her class pet and its bowl);
+    // the maze is drawn after them from the same stream, so a swap changes the pictures and nothing else
+    const [startNoun, goalNoun] = slot.pictures(ctx, rng.sample(nouns, 2), nouns, theme, 'pic');
 
     const { walls, solution } = generateMaze({ cols: d.cols, rows: d.rows, rng });
     const m = renderMaze({ cols: d.cols, rows: d.rows, walls, cell: d.cell });
@@ -41,16 +52,35 @@ module.exports = {
     const start = m.cellRect(0, 0);
     const goal = m.cellRect(d.cols - 1, d.rows - 1);
     const place = (rect, noun, key, role) =>
-      `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" data-lcs-maze-icon="${role}" data-lcs-noun="${key}" ` +
+      `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" data-lcs-maze-icon="${role}" data-lcs-noun="${key}"${slot.attr(ctx, 'pic', role === 'start' ? 0 : 1)} ` +
       `style="position:absolute;left:${(rect.x + (rect.w - iconPx) / 2 + 4).toFixed(1)}px;` +
       `top:${(rect.y + (rect.h - iconPx) / 2 + 4).toFixed(1)}px;width:${iconPx}px;height:${iconPx}px">`;
+
+    // the interactive build declares the maze as a graph (cell centres in the svg's units — its viewBox starts at -4 —,
+    // the open corridors, the one way, the entrance above the first cell and the exit below the last); the page build
+    // is unchanged
+    let svg = m.svg;
+    if (ctx && ctx.interactive) {
+      const c = d.cell, at = (x, y) => [+((x + 0.5) * c + 4).toFixed(1), +((y + 0.5) * c + 4).toFixed(1)], id = (x, y) => y * d.cols + x;
+      const nodes = [], edges = [];
+      for (let y = 0; y < d.rows; y++) for (let x = 0; x < d.cols; x++) nodes.push(at(x, y));
+      for (let y = 0; y < d.rows; y++) for (let x = 0; x < d.cols; x++) {
+        if (x + 1 < d.cols && !walls.has(`${x},${y}|${x + 1},${y}`)) edges.push({ a: id(x, y), b: id(x + 1, y), pts: [at(x, y), at(x + 1, y)] });
+        if (y + 1 < d.rows && !walls.has(`${x},${y}|${x},${y + 1}`)) edges.push({ a: id(x, y), b: id(x, y + 1), pts: [at(x, y), at(x, y + 1)] });
+      }
+      const route = solution.map((k) => { const [x, y] = k.split(',').map(Number); return id(x, y); });
+      const s0 = at(0, 0), g0 = at(d.cols - 1, d.rows - 1);
+      const stamp = { W: Math.round(c * 0.8), nodes, edges, route, s: route[0], g: route[route.length - 1], tree: true,
+        mouths: { start: [s0, [s0[0], 4]], goal: [g0, [g0[0], d.rows * c + 4]] } };
+      svg = svg.replace('<svg ', `<svg data-lcs-hm-graph='${JSON.stringify(stamp)}' `);
+    }
 
     // goal icon repeated beside the exit as the "destination" cue below the maze
     const bodyHtml =
       `<div data-ws-content data-lcs-solution-len="${solution.length}" ` +
       `style="flex:1;display:flex;align-items:center;justify-content:center">` +
       `<div style="position:relative;width:${m.width}px;height:${m.height}px">` +
-      m.svg + place(start, startNoun.noun, startNoun.vocabKey, 'start') + place(goal, goalNoun.noun, goalNoun.vocabKey, 'goal') +
+      svg + place(start, startNoun.noun, startNoun.vocabKey, 'start') + place(goal, goalNoun.noun, goalNoun.vocabKey, 'goal') +
       `</div></div>`;
     return { bodyHtml, meta: { solution: solution.length } };
   },

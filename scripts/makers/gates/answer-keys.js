@@ -72,8 +72,57 @@ const NO_KEY = {
   'G1-431': 'trace, then draw freely in the empty space', 'G1-432': 'a tracing page: the other half is dashed to trace',
   // Pencil Control Lines (2026-11-02): cutting and stroke tracing — nothing to mark (K-482 draws its key: the copied line)
   'K-481': 'cutting practice: the child cuts along the lines', 'K-483': 'a tracing page: trace the letter strokes',
+  'K-236': 'stroke tracing: the child traces the dashed paths', 'K-244': 'stroke tracing: the child traces the dashed lines',
+  'K-245': 'stroke tracing: the child traces the dashed lines', 'K-246': 'stroke tracing: the child traces the dashed lines',
+  'K-247': 'stroke tracing: the child traces the dashed paths', 'K-248': 'stroke tracing: the child traces the dashed paths',
+  'K-385': 'stroke tracing: the child traces the dashed lines', 'K-386': 'stroke tracing: the child traces the dashed shapes',
+  'K-387': 'a line from each picture to the next along the dashed path: the path is printed',
+  'K-493': 'directed drawing: the step cards are the model',
+  'K-514': 'an open key: the teacher or the child chooses the colours, nothing to mark',
+  'K-498': 'a tracing page: trace the picture', 'K-499': 'trace the picture and its word, then write the word',
+  'K-500': 'a tracing booklet: trace, cut and staple',
   'K-476': 'a coloring page: any colours are right', 'K-477': 'color and trace: the word to trace is printed on the page',
   'K-478': 'a scene to color: any colours are right', 'K-479': 'color by the key: an open key the teacher may write herself',
+  'K-515': 'a coloring page by size: the key names the colours, any shade is right', 'G1-488': 'color, then write freely about the picture',
+  'K-516': 'a coloring booklet: color every page',
+  'K-519': 'an open board: the child invents the figure',
+  'K-527': 'a tracing page: trace and copy the sentence', 'G1-491': 'a word book page: the child writes an own sentence',
+  'K-523': 'a tracing page: trace and write the name', 'K-524': 'a tracing page: trace the letter of each first sound',
+  'K-525': 'a tracing page: trace the capital and small letter', 'K-526': 'letter formation cards: nothing to mark',
+  'K-517': 'a tracing page: trace and write the numbers', 'K-518': 'a number formation poster: nothing to mark',
+  'G2-377': 'a cursive copybook page: trace and write the letters', 'G2-384': 'a cursive copybook page: trace and write the capitals and names',
+  'G2-385': 'a cursive copybook page: trace and write the joins', 'G2-386': 'a cursive copybook page: trace and write the words',
+  'G3-401': 'a cursive copybook page: trace and copy the sentences', 'G2-480': 'a cursive copybook page: trace and write the own words',
+  'G2-481': 'a cursive copybook page: trace and write the letter', 'G2-483': 'a cursive alphabet poster / desk strip: nothing to mark',
+  'K-531': 'an alphabet chart: nothing to mark', 'K-534': 'alphabet cards to cut and order: the answer is the alphabet itself',
+  // Letter Tracing / Word Tracing & Writing (2026-11-02): tracing pages — the model is on the page, nothing to mark
+  ...Object.fromEntries(['K-238', 'K-254', 'K-255', 'K-256', 'K-257', 'K-258', 'K-278', 'K-279', 'K-280', 'K-281', 'K-282', 'K-283'].map((id) => [id, 'a letter tracing page: trace and write the letters'])),
+  ...Object.fromEntries(['K-284', 'K-289', 'K-290', 'K-291', 'K-310', 'K-311', 'K-315'].map((id) => [id, 'a word tracing page: trace and write the words'])),
+  'K-353': 'a materials and model page: cut out the pieces and copy the two figures, their seams already drawn',
+  // B7 (2026-11-03): open pages and classroom games — the child's own data, own feelings or own invention, or a game
+  // whose every card is right
+  'G1-525': 'the class birthday graph: the data come from the class', 'G1-526': "today's date: the answer is the day the page is used",
+  'G1-530': 'draw your own map: an open drawing with its own key', 'G2-493': 'coordinate battleship: a game, each player hides own ships',
+  'K-564': 'my feelings this week: the child\'s own feelings', 'K-565': 'the feelings thermometer: the child\'s own feeling and what helps',
+  'G1-531': 'my friend and me: two children\'s own answers', 'K-566': 'feelings cards to cut out (material)',
+  'G1-542': 'make your own secret code: the child invents the code',
+  ...Object.fromEntries(['K-569', 'K-570', 'K-571', 'K-572', 'K-573', 'G1-543', 'G1-544'].map((id) => [id, 'bingo cards: every card is right, the caller decides what is marked'])),
+  ...Object.fromEntries(['K-574', 'K-575', 'K-576', 'K-577', 'K-578', 'G1-545', 'G1-546'].map((id) => [id, 'bingo caller cards to cut out (material)'])),
+  // the open writing / drawing / material pages of the B5-B7 makers (2026-11-03): nothing the sheet can mark
+  'K-554': 'my reading log: the child writes about her own book', 'K-555': 'write about the picture: the child\'s own sentences',
+  'G1-503': 'stretch the sentence: the child\'s own longer sentence', 'G1-506': 'story map: the child plans her own story',
+  'G1-507': 'comic strip: the child writes what the characters say', 'G1-508': 'roll a story: the dice choose, the child writes her own story',
+  'G1-509': 'describe the character: the sentences are finished in the child\'s own words', 'G1-510': 'write a postcard: the child\'s own message',
+  'G1-513': 'write a story for the number sentence: the child\'s own story', 'G1-519': 'look, cover, write, check: the word is printed on the page and the child checks herself',
+  'G1-342': 'read and draw: the child draws what each sentence says (drawing)', 'K-546': 'read and draw: the child draws the picture in its place (drawing)',
+  'K-543': 'word wall labels to cut out (material)', 'K-544': 'a picture dictionary to read (material)', 'K-557': 'number word cards to cut out (material)',
+  'G1-521': 'ordinal number cards to cut out and match: the parts fit one way (material)', 'G1-496': 'syllable puzzles to cut out: the pieces fit one way (material)',
+  'K-552': 'sentence strips to cut and glue: the sentence is printed above (material)',
+  'K-541': 'clap and count: an open clapping sheet — the page makes no syllable claim (a count is a safety-gated claim; the teacher\'s own words)',
+  'K-323': 'all about me: the child\'s own name, age and family', 'K-332': 'draw the feeling face: any face that shows the feeling (drawing)',
+  'G2-278': 'write about the picture: the child\'s own sentences', 'G2-299': 'write about the picture with starters: the child\'s own sentences',
+  'G2-300': 'write about the picture: the child\'s own story', 'G2-318': 'animal fact file: the child finds the facts and writes them in her own words',
+  'G2-341': 'finish the sentences with facts from the printed file and add one of her own (writing)', 'G2-378': 'retell the story: the child\'s own sentences',
 };
 
 (async () => {
@@ -125,7 +174,7 @@ const NO_KEY = {
       const type = require(path.join(REPO, t.file));
       for (const loc of ['en', 'fi'].filter((l) => t.locales.includes(l))) for (const d of t.keyLevels) for (const variant of [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
-        const theme = t.themed ? t.themes[(variant - 1) % t.themes.length] : null;
+        const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[(variant - 1) % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
         const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
         const unit = lu.length ? lu[variant % lu.length].id : null;
         let r;

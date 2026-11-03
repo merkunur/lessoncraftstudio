@@ -1,0 +1,258 @@
+{
+ "Christmas": {
+  "key": "christmas",
+  "names": {
+   "en": "Christmas",
+   "de": "Weihnachten",
+   "es": "Navidad",
+   "nl": "Kerstmis",
+   "it": "Natale",
+   "fr": "Noël",
+   "pt": "Natal",
+   "sv": "Jul",
+   "da": "Jul",
+   "no": "Jul",
+   "fi": "Joulu"
+  }
+ },
+ "Easter": {
+  "key": "easter",
+  "names": {
+   "en": "Easter",
+   "de": "Ostern",
+   "es": "Pascua",
+   "nl": "Pasen",
+   "it": "Pasqua",
+   "fr": "Pâques",
+   "pt": "Páscoa",
+   "sv": "Påsk",
+   "da": "Påske",
+   "no": "Påske",
+   "fi": "Pääsiäinen"
+  }
+ },
+ "animals": {
+  "key": "animals",
+  "names": {
+   "en": "Animals",
+   "de": "Tiere",
+   "es": "Animales",
+   "nl": "Dieren",
+   "it": "Animali",
+   "fr": "Animaux",
+   "pt": "Animais",
+   "sv": "Djur",
+   "da": "Dyr",
+   "no": "Dyr",
+   "fi": "Eläimet"
+  }
+ },
+ "beach": {
+  "key": "beach",
+  "names": {
+   "en": "Beach",
+   "de": "Strand",
+   "es": "Playa",
+   "nl": "Strand",
+   "it": "Spiaggia",
+   "fr": "Plage",
+   "pt": "Praia",
+   "sv": "Strand",
+   "da": "Strand",
+   "no": "Strand",
+   "fi": "Ranta"
+  }
+ },
+ "birds": {
+  "key": "birds",
+  "names": {
+   "en": "Birds",
+   "de": "Vögel",
+   "es": "Aves",
+   "nl": "Vogels",
+   "it": "Uccelli",
+   "fr": "Oiseaux",
+   "pt": "Pássaros",
+   "sv": "Fåglar",
+   "da": "Fugle",
+   "no": "Fugler",
+   "fi": "Linnut"
+  }
+ },
+ "classroom": {
+  "key": "classroom",
+  "names": {
+   "en": "Classroom",
+   "de": "Klassenzimmer",
+   "es": "Salón de clases",
+   "nl": "Klaslokaal",
+   "it": "Aula",
+   "fr": "Salle de classe",
+   "pt": "Sala de aula",
+   "sv": "Klassrum",
+   "da": "Klasseværelse",
+   "no": "Klasserom",
+   "fi": "Luokkahuone"
+  }
+ },
+ "farm animals": {
+  "key": "farm_animals",
+  "names": {
+   "en": "Farm Animals",
+   "de": "Bauernhoftiere",
+   "es": "Animales de granja",
+   "nl": "Boerderijdieren",
+   "it": "Animali della fattoria",
+   "fr": "Animaux de la ferme",
+   "pt": "Animais da fazenda",
+   "sv": "Bondgårdsdjur",
+   "da": "Bondegårdsdyr",
+   "no": "Gårdsdyr",
+   "fi": "Maatilan eläimet"
+  }
+ },
+ "fruits": {
+  "key": "fruits",
+  "names": {
+   "en": "Fruits",
+   "de": "Früchte",
+   "es": "Frutas",
+   "nl": "Fruit",
+   "it": "Frutta",
+   "fr": "Fruits",
+   "pt": "Frutas",
+   "sv": "Frukter",
+   "da": "Frugter",
+   "no": "Frukter",
+   "fi": "Hedelmät"
+  }
+ },
+ "toys": {
+  "key": "toys",
+  "names": {
+   "en": "Toys",
+   "de": "Spielzeug",
+   "es": "Juguetes",
+   "nl": "Speelgoed",
+   "it": "Giocattoli",
+   "fr": "Jouets",
+   "pt": "Brinquedos",
+   "sv": "Leksaker",
+   "da": "Legetøj",
+   "no": "Leker",
+   "fi": "Lelut"
+  }
+ },
+ "vegetables": {
+  "key": "vegetables",
+  "names": {
+   "en": "Vegetables",
+   "de": "Gemüse",
+   "es": "Verduras",
+   "nl": "Groenten",
+   "it": "Verdure",
+   "fr": "Légumes",
+   "pt": "Vegetais",
+   "sv": "Grönsaker",
+   "da": "Grøntsager",
+   "no": "Grønnsaker",
+   "fi": "Vihannekset"
+  }
+ },
+ "vehicles": {
+  "key": "vehicles",
+  "names": {
+   "en": "Vehicles",
+   "de": "Fahrzeuge",
+   "es": "Vehículos",
+   "nl": "Voertuigen",
+   "it": "Veicoli",
+   "fr": "Véhicules",
+   "pt": "Veículos",
+   "sv": "Fordon",
+   "da": "Køretøjer",
+   "no": "Kjøretøy",
+   "fi": "Ajoneuvot"
+  }
+ },
+ "zoo animals": {
+  "key": "zoo_animals",
+  "names": {
+   "en": "Zoo Animals",
+   "de": "Zootiere",
+   "es": "Animales del zoológico",
+   "nl": "Dierentuindieren",
+   "it": "Animali dello zoo",
+   "fr": "Animaux du zoo",
+   "pt": "Animais do zoológico",
+   "sv": "Djurparksdjur",
+   "da": "Zoodyr",
+   "no": "Dyrehagedyr",
+   "fi": "Eläintarhan eläimet"
+  }
+ },
+ "sea life": {
+  "key": "ocean_life",
+  "names": {
+   "en": "Ocean Life",
+   "de": "Meeresleben",
+   "es": "Vida marina",
+   "nl": "Oceaanleven",
+   "it": "Vita oceanica",
+   "fr": "Vie océanique",
+   "pt": "Vida marinha",
+   "sv": "Havsliv",
+   "da": "Havliv",
+   "no": "Havliv",
+   "fi": "Merielämä"
+  }
+ },
+ "dessert": {
+  "key": "desserts_and_sweets",
+  "names": {
+   "en": "Desserts and Sweets",
+   "de": "Desserts und Süßigkeiten",
+   "es": "Postres y dulces",
+   "nl": "Desserts en snoep",
+   "it": "Dolci e dolciumi",
+   "fr": "Desserts et sucreries",
+   "pt": "Sobremesas e doces",
+   "sv": "Efterrätter och godis",
+   "da": "Desserter og slik",
+   "no": "Desserter og godteri",
+   "fi": "Jälkiruoat ja makeiset"
+  }
+ },
+ "apparel": {
+  "key": "clothing",
+  "names": {
+   "en": "Clothing",
+   "de": "Kleidung",
+   "es": "Ropa",
+   "nl": "Kleding",
+   "it": "Abbigliamento",
+   "fr": "Vêtements",
+   "pt": "Roupas",
+   "sv": "Kläder",
+   "da": "Tøj",
+   "no": "Klær",
+   "fi": "Vaatteet"
+  }
+ },
+ "tools": {
+  "key": "tools",
+  "names": {
+   "en": "Tools",
+   "de": "Werkzeuge",
+   "es": "Herramientas",
+   "nl": "Gereedschap",
+   "it": "Attrezzi",
+   "fr": "Outils",
+   "pt": "Ferramentas",
+   "sv": "Verktyg",
+   "da": "Værktøj",
+   "no": "Verktøy",
+   "fi": "Työkalut"
+  }
+ }
+}

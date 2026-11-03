@@ -9,6 +9,13 @@
  *          school hand: once solid, once dashed, then empty lines (K.CC.A.3 reading / writing numbers). Level 1 four of
  *          1-5, level 2 four of 6-10, level 3 four of 11-20 (numeral only: 11-20 dots would not read). Words:
  *          lib/number-words.js (native-verified ×11, every word 1-20 traceable).
+ *   grid   K-517 Trace Numbers to 50 and 100 — the writing side of the hundreds chart: tens rows of ten numbers, each in
+ *          its own boxed cell on school lines, in the locale's school form. Level 1 1-30, every tens row dashed and then an
+ *          empty row to write it again · 2 1-50, every number dashed · 3 51-100 (the second page of "to 100"): every other
+ *          number dashed, the ones between left empty to write (1.NBT.A.1, writing numerals to 120).
+ *   poster K-518 Number Formation Poster — the wall chart: big solid numerals in the school form with their start dots,
+ *          arrows and stroke-order badges (trace-path digitFadeLane mode 'poster'). Level 1 the digits 0-9 (0 is a digit
+ *          here: no quantity is drawn beside it) · 2 1-10, each with its dots (rows of five) · 3 11-20.
  */
 'use strict';
 const { digitFadeLane, strokeWordLane, samplePath, renderPath } = require('../../primitives/trace-path.js');
@@ -38,6 +45,18 @@ const wordOf = (n, L) => (L === 'nl' && n === 1 ? 'één' : numberWord(n, L));
 const formFor = (locale) => FORMS[FORM_BY_LOCALE[(locale || 'en').slice(0, 2)] || 'continental'];
 const glyphsOf = (form, n) => (n < 10 ? [form[n]] : [form[Math.floor(n / 10)], form[n % 10]]);
 const loc2 = (l) => (l || 'en').slice(0, 2);
+// any number's glyphs, digit by digit (100 has three)
+const digitsOf = (form, n) => String(n).split('').map((c) => form[+c]);
+const GRID = {
+  1: { from: 1, to: 30, plan: () => [Array(10).fill('dash'), Array(10).fill('empty')], laneH: 88, glyphH: 48 },
+  2: { from: 1, to: 50, plan: () => [Array(10).fill('dash')], laneH: 104, glyphH: 48 },
+  3: { from: 51, to: 100, plan: () => [Array.from({ length: 10 }, (_, k) => (k % 2 ? 'empty' : 'dash'))], laneH: 104, glyphH: 48 },
+};
+const POSTER = {
+  1: { nums: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], cols: 5, glyphH: 186, dots: false },
+  2: { nums: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], cols: 5, glyphH: 150, dots: true },
+  3: { nums: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], cols: 5, glyphH: 96, dots: false },
+};
 
 const COUNT = {
   1: { nums: [1, 2, 3, 4, 5], order: 'asc', modes: ['model', 'trace', 'trace'] },
@@ -91,7 +110,7 @@ function makeNumberTracingMoreType({ id, slug, mode, i18n }) {
   return {
     id, slug, gradeBand: 'K', assetClass: 'icon-placement', exerciseType: 'number-tracing',
     themeAxis: count ? { applicable: true, minNouns: 5, excludeBw: true } : { applicable: false },
-    difficulty: count ? COUNT : WORDS,
+    difficulty: count ? COUNT : mode === 'grid' ? GRID : mode === 'poster' ? POSTER : WORDS,
     i18n,
     levelSetWords(m) { return (m.numbers || []).map(String); },
 
@@ -117,6 +136,40 @@ function makeNumberTracingMoreType({ id, slug, mode, i18n }) {
         return { bodyHtml: `<div data-ws-content style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-trace-count="${lv}">${lv === 3 ? numeralStrip(form) : ''}${cardGrid({ cards: rows, cols: 1, rows: rows.length })}</div>`,
           meta: { numbers: nums, nouns: nouns.map((x) => x.noun) } };
       }
+      if (mode === 'grid') {
+        // tens rows; every number its own 66-px cell (two digits fit at the level's size in every school form, 100 is
+        // drawn a little smaller); the plan says how each row is written
+        const d = GRID[lv], cellW = 66, rowsHtml = [];
+        for (let r = 0, start = d.from; start <= d.to; r++, start += 10) {
+          d.plan(r).forEach((modes) => {
+            const cells = modes.map((m, k) => {
+              const n = start + k;
+              // an empty cell keeps the row's school lines (it is measured as a two-digit number: nothing of it is drawn)
+              const lane = digitFadeLane({ glyphs: digitsOf(form, m === 'empty' ? 88 : n), box: BOX, w: cellW, h: d.laneH, glyphH: n >= 100 && m !== 'empty' ? 36 : d.glyphH, modes: [m], number: n, label: `number ${n}` });
+              return `<div style="flex:0 0 auto;${k ? `border-left:1.5px solid ${tokens.color.grid};` : ''}" data-lcs-grid-number="${n}" data-lcs-grid-mode="${m}">${lane.svg}</div>`;
+            }).join('');
+            rowsHtml.push(`<div style="display:flex;justify-content:center;align-self:center;border:2px solid ${tokens.color.grid};border-radius:10px;overflow:hidden;background:#FFFFFF" data-lcs-grid-row="${start}">${cells}</div>`);
+          });
+        }
+        return { bodyHtml: `<div data-ws-content style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly" data-lcs-number-grid="${d.from}-${d.to}">${rowsHtml.join('')}</div>`,
+          meta: { numbers: [d.from, d.to] } };
+      }
+      if (mode === 'poster') {
+        // the wall chart: one cell a number, the numeral solid with its guides (and its dots on level 2)
+        const d = POSTER[lv], cellW = Math.floor(660 / d.cols), rows = Math.ceil(d.nums.length / d.cols);
+        const extra = (ctx && ctx.chromeExtra) || 0, cellH = Math.floor((700 - extra - (rows - 1) * 12) / rows);
+        const laneH = Math.min(cellH - (d.dots ? 64 : 16), Math.round(d.glyphH / 0.86) + 20);
+        const cells = d.nums.map((n) => {
+          const glyphs = digitsOf(form, n);
+          let g = d.glyphH, lane = null;
+          for (; g >= 60 && !lane; g -= 6) { try { lane = digitFadeLane({ glyphs, box: BOX, w: cellW - 12, h: laneH, glyphH: Math.min(g, laneH * 0.78), modes: ['poster'], badges: true, number: n, label: `how to write ${n}` }); } catch (e) { lane = null; } }
+          if (!lane) throw new Error(`${id}: ${n} does not fit a poster cell`);
+          return `<div class="ws-card" style="width:${cellW - 8}px;height:${cellH}px;flex:0 0 auto;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:4px;background:#FFFFFF" data-lcs-poster-number="${n}">` +
+            lane.svg + (d.dots && n > 0 ? dotsSvg(n, 8) : '') + `</div>`;
+        });
+        return { bodyHtml: `<div data-ws-content style="flex:1;display:grid;grid-template-columns:repeat(${d.cols},${cellW - 8}px);gap:12px 8px;justify-content:center;align-content:space-evenly" data-lcs-poster="${d.nums[0]}-${d.nums[d.nums.length - 1]}">${cells.join('')}</div>`,
+          meta: { numbers: d.nums } };
+      }
       const d = WORDS[lv], L = loc2(locale);
       const range = []; for (let n = d.from; n <= d.to; n++) range.push(n);
       const nums = rng.sample(range, d.rows).sort((a, b) => a - b);
@@ -135,8 +188,37 @@ function makeNumberTracingMoreType({ id, slug, mode, i18n }) {
     },
 
     async verify(page) {
-      return page.evaluate((isCount) => {
+      return page.evaluate((mode) => {
         const fails = [];
+        const isCount = mode === 'count';
+        if (mode === 'grid') {
+          const g = document.querySelector('[data-lcs-number-grid]');
+          const [from, to] = g.dataset.lcsNumberGrid.split('-').map(Number);
+          const cells = [...document.querySelectorAll('[data-lcs-grid-number]')];
+          const want = new Set(); for (let n = from; n <= to; n++) want.add(n);
+          const got = new Set(cells.map((c) => +c.dataset.lcsGridNumber));
+          want.forEach((n) => { if (!got.has(n)) fails.push(`${n} is missing`); });
+          if (got.has(0)) fails.push('a 0 on the page');
+          cells.forEach((c) => { const lane = c.querySelector('[data-lcs-prim="trace-number"]'); if (!lane || lane.dataset.lcsNumber !== c.dataset.lcsGridNumber) fails.push(`cell ${c.dataset.lcsGridNumber}: the lane is another number`); });
+          // tens rows: every row starts at a multiple of ten plus one and holds ten numbers in order
+          document.querySelectorAll('[data-lcs-grid-row]').forEach((r) => { const ns = [...r.querySelectorAll('[data-lcs-grid-number]')].map((c) => +c.dataset.lcsGridNumber); if (ns.length !== 10 || ns.some((n, i) => n !== ns[0] + i) || ns[0] % 10 !== 1) fails.push('row ' + ns[0] + ' is not a tens row'); });
+          const pg = document.querySelector('[data-lcs-page]').getBoundingClientRect();
+          cells.forEach((c) => { const r = c.getBoundingClientRect(); if (r.right > pg.right + 1 || r.left < pg.left - 1) fails.push(`cell ${c.dataset.lcsGridNumber} leaves the page`); });
+          return fails;
+        }
+        if (mode === 'poster') {
+          const cells = [...document.querySelectorAll('[data-lcs-poster-number]')];
+          if (cells.length !== 10) fails.push(`${cells.length} numbers on the poster`);
+          cells.forEach((c) => {
+            const n = +c.dataset.lcsPosterNumber, lane = c.querySelector('[data-lcs-prim="trace-number"]');
+            if (!lane || +lane.dataset.lcsNumber !== n) fails.push(`${n}: the lane is another number`);
+            if (!lane || !lane.querySelector('circle')) fails.push(`${n}: no start dot`);
+            const dots = c.querySelector('[data-lcs-dots]');
+            if (dots && dots.querySelectorAll('[data-lcs-dot]').length !== n) fails.push(`${n}: ${dots.querySelectorAll('[data-lcs-dot]').length} dots`);
+            if (n === 0 && dots) fails.push('dots beside 0');
+          });
+          return fails;
+        }
         if (isCount) {
           const rows = [...document.querySelectorAll('[data-lcs-count-row]')];
           if (rows.length < 5) fails.push(`${rows.length} rows`);
@@ -171,7 +253,7 @@ function makeNumberTracingMoreType({ id, slug, mode, i18n }) {
           });
         }
         return fails;
-      }, count);
+      }, mode);
     },
   };
 }

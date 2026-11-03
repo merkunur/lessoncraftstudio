@@ -3882,5 +3882,677 @@
   "K-482": {
     "title": "Teken het patroon na op de stippen",
     "instruction": "Kijk naar de lijn in elke rij. Teken dezelfde lijn op de lege stippen ernaast, vanaf de oranje stip."
+  },
+  "K-484": {
+    "title": "Welke uitgang? Doolhofpuzzels",
+    "instruction": "Begin bij de pijl. Volg de paden met je vinger. Je kunt maar bij één uitgang komen: omcirkel het nummer van die uitgang."
+  },
+  "K-485": {
+    "title": "Beschrijf de weg door het doolhof",
+    "instruction": "Volg de weg van de groene stip naar de vlag. Schrijf bij elk recht stuk hoeveel stappen (pijltjes) het heeft."
+  },
+  "K-486": {
+    "title": "Doolhof: verzamel de letters",
+    "instruction": "Teken de weg naar het plaatje. Verzamel onderweg de letters en schrijf het woord in de vakjes."
+  },
+  "K-487": {
+    "title": "Het patroonpad",
+    "instruction": "Kijk naar het patroon bovenaan. Ga van de pijl naar de vlag en stap alleen op stenen die het patroon volgen."
+  },
+  "K-488": {
+    "title": "Welk plaatje is anders?",
+    "instruction": "Alle plaatjes zijn hetzelfde, behalve één. Omcirkel het plaatje dat anders is."
+  },
+  "K-489": {
+    "title": "Tel de verschillen per soort",
+    "instruction": "Zoek alle verschillen in plaatje 2. Tel hoeveel veranderingen er van elke soort zijn en schrijf het getal in het vakje."
+  },
+  "K-490": {
+    "title": "Kijk, vouw en zoek",
+    "instruction": "Kijk zo lang als je wilt naar plaatje 1. Vouw het blad dan op de stippellijn, zodat plaatje 1 verstopt is. Omcirkel de veranderingen in plaatje 2 en zet voor elke verandering een vinkje in een vakje."
+  },
+  "K-491": {
+    "title": "Teken wat er mist",
+    "instruction": "In plaatje 2 missen een paar dingen uit plaatje 1. Teken ze er weer bij, op hun plek in plaatje 2."
+  },
+  "K-492": {
+    "title": "Welke twee plaatjes zijn hetzelfde?",
+    "instruction": "Twee plaatjes zijn precies hetzelfde. Zoek ze en omcirkel ze allebei."
+  },
+  "K-493": {
+    "title": "Tekenen met vormen",
+    "instruction": "Kijk naar de stappen. Bij elke stap komen er nieuwe vormen in het oranje bij. Maak de tekening stap voor stap in het grote vak."
+  },
+  "K-494": {
+    "title": "Teken het groter na in het rooster",
+    "instruction": "Teken het plaatje hokje voor hokje na in het grote rooster. Elk hokje van het grote rooster is twee keer zo groot, dus je tekening wordt ook twee keer zo groot."
+  },
+  "K-495": {
+    "title": "Spiegeltekening",
+    "instruction": "De helft van de tekening is al getekend. Teken de andere helft zo dat beide kanten hetzelfde zijn, net als in een spiegel."
+  },
+  "K-496": {
+    "title": "Allemaal samen in één tekening",
+    "instruction": "Volg de stappen van elke tekening. Teken ze daarna allemaal samen in het grote vak."
+  },
+  "K-497": {
+    "title": "Stappen: knip, leg op volgorde, teken",
+    "instruction": "Knip de kaartjes uit. Leg de stappen op volgorde op de genummerde rij en plak ze vast. Maak daarna de tekening in het vak."
+  },
+  "K-498": {
+    "title": "Een tekening overtrekken",
+    "instruction": "Trek alle lijnen van de tekening over. Begin bij de zwarte stip."
+  },
+  "K-499": {
+    "title": "Overtrekken en het woord schrijven",
+    "instruction": "Trek de tekening over. Trek daarna de naam over op de lijnen en schrijf hem zelf."
+  },
+  "K-500": {
+    "title": "Een overtrekboekje",
+    "instruction": "Trek de drie tekeningen over. Knip het vel daarna langs de lijnen in het midden in vier stukken, leg de voorkant bovenop en maak er met een nietje een boekje van."
+  },
+  "K-501": {
+    "title": "Overtrekken en kleuren op nummer",
+    "instruction": "Trek de lijnen van de tekening over. Kleur daarna elk vlak met de kleur van zijn nummer."
+  },
+  "K-502": {
+    "title": "Twee keer zo groot tekenen",
+    "instruction": "Kijk naar de tekening in het kleine rooster. Kleur dezelfde hokjes in het grote rooster, waar elk hokje twee keer zo groot is."
+  },
+  "K-503": {
+    "title": "Draai en spiegel de tekening",
+    "instruction": "Teken elke tekening na in het lege rooster, een kwartslag naar rechts gedraaid, zoals de pijl laat zien."
+  },
+  "K-504": {
+    "title": "Teken de tekening na in het rooster",
+    "instruction": "Teken de tekening hokje voor hokje na in het lege rooster: kijk wat er in elk hokje staat en teken hetzelfde in het hokje dat erbij hoort."
+  },
+  "K-505": {
+    "title": "Getalwoorden verbinden",
+    "instruction": "Begin bij de oranje stip. Lees de getalwoorden en verbind de stippen in de volgorde van het tellen."
+  },
+  "K-506": {
+    "title": "Verbind de stippen: even of oneven",
+    "instruction": "Begin bij de oranje stip. Verbind alleen de even getallen op volgorde: 2, 4, 6 enzovoort. Sla de oneven getallen over."
+  },
+  "K-507": {
+    "title": "Hoofdletters en kleine letters",
+    "instruction": "Begin bij de oranje stip. Verbind een hoofdletter, dan de kleine letter ervan, dan de volgende hoofdletter: A, a, B, b enzovoort."
+  },
+  "K-508": {
+    "title": "Zoek de echte tweeling",
+    "instruction": "Kijk naar het eerste plaatje in elke rij. Omcirkel het plaatje dat precies hetzelfde is, niet gedraaid en niet gespiegeld."
+  },
+  "K-509": {
+    "title": "Welke plaatjes verstoppen zich?",
+    "instruction": "In de wirwar van lijnen verstoppen zich een paar plaatjes. Zoek hun omtrekken en omcirkel die plaatjes in de rij eronder."
+  },
+  "K-510": {
+    "title": "Wat hoort er niet bij?",
+    "instruction": "Lees de naam van elke groep. Omcirkel het plaatje dat niet bij die groep hoort."
+  },
+  "K-511": {
+    "title": "Sorteer volgens een regel",
+    "instruction": "Lees de namen van de twee groepen. Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-512": {
+    "title": "Sorteermatten en plaatjeskaarten",
+    "instruction": "Knip de plaatjeskaarten uit. Leg elke kaart op de mat waar hij bij hoort."
+  },
+  "G1-487": {
+    "title": "Kleuren op even en oneven",
+    "instruction": "Is het getal in elke vorm even of oneven? Kleur de vorm met de kleur uit de code."
+  },
+  "K-513": {
+    "title": "Kleuren op getalwoorden",
+    "instruction": "Lees het getalwoord in elke vorm. Zoek het getal in de code en kleur de vorm met die kleur."
+  },
+  "K-514": {
+    "title": "Kleuren met je eigen code",
+    "instruction": "Kies een kleur voor elk getal. Kleur het hokje in de code en schrijf de naam van de kleur erbij. Kleur daarna de vormen."
+  },
+  "K-515": {
+    "title": "Groot en klein kleuren",
+    "instruction": "Kijk naar de code: elke grootte heeft een eigen kleur. Kleur elke tekening met de kleur van zijn grootte."
+  },
+  "K-516": {
+    "title": "Een mini-kleurboekje",
+    "instruction": "Vouw de bovenste helft naar achteren en daarna de linkerhelft naar achteren. Zo maak je een klein boekje. Kleur elke bladzijde."
+  },
+  "G1-488": {
+    "title": "Kleuren en een zin schrijven",
+    "instruction": "Kleur de tekening. Schrijf er daarna iets over. Het begin van de zinnen helpt je op weg."
+  },
+  "K-517": {
+    "title": "Getallen 1 tot 100 overtrekken",
+    "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
+  },
+  "K-518": {
+    "title": "Zo schrijven we de getallen",
+    "instruction": "Begin bij de stip en volg de pijlen. De kleine getallen laten zien welke lijn eerst komt."
+  },
+  "K-519": {
+    "title": "Maak je eigen tangramfiguur",
+    "instruction": "Kleur de stukken zoals in de legenda en knip ze uit. Leg met alle zeven stukken je eigen figuur in het grote vak en teken er dan omheen."
+  },
+  "K-520": {
+    "title": "Eerste tangrampuzzels",
+    "instruction": "Knip de stukken naast elke figuur uit. Leg ze zo op de figuur dat ze hem precies bedekken."
+  },
+  "G1-489": {
+    "title": "Welke figuur kun je leggen?",
+    "instruction": "Kijk naar de stukken in elke rij. Omcirkel de enige schaduw die je met precies deze stukken kunt leggen."
+  },
+  "K-522": {
+    "title": "Verbind de schaduw met de naam",
+    "instruction": "Kijk naar elke tangramschaduw. Trek een lijn van elke schaduw naar de goede naam."
+  },
+  "K-523": {
+    "title": "Mijn naam overtrekken",
+    "instruction": "Kijk naar de naam. Trek hem na op de stippellijnen en schrijf hem daarna zelf op de lege regels."
+  },
+  "K-524": {
+    "title": "Letters en plaatjes",
+    "instruction": "Zeg wat je op elk plaatje ziet en luister naar de eerste klank. Trek de letter van die klank na en schrijf hem daarna zelf."
+  },
+  "K-525": {
+    "title": "Hoofdletters en kleine letters samen",
+    "instruction": "Trek de hoofdletter en de kleine letter naast elkaar na en schrijf ze daarna zelf. Begin bij de oranje stip."
+  },
+  "K-526": {
+    "title": "Letterkaarten: zo schrijf je de letters",
+    "instruction": "Elke letter begint bij de oranje stip. Volg de nummers en de pijltjes om te zien hoe je hem schrijft. Knip de kaarten uit langs de stippellijnen."
+  },
+  "K-527": {
+    "title": "Een zin natrekken",
+    "instruction": "Lees de zin. Trek de stippellijnletters na en schrijf de zin daarna zelf op de lege regels."
+  },
+  "G1-490": {
+    "title": "Schrijf de namen bij de plaatjes",
+    "instruction": "Schrijf de naam van elk plaatje op de lijn eronder. De woorden in het kader helpen je."
+  },
+  "K-529": {
+    "title": "Woordvormen: één letter per hokje",
+    "instruction": "Zeg de naam van elk plaatje. Schrijf in elk hokje één letter: hoge letters in de hoge hokjes, letters met een staartje naar beneden in de hokjes die naar beneden uitsteken."
+  },
+  "G1-491": {
+    "title": "Mijn woordenboekje",
+    "instruction": "Schrijf de naam van elk plaatje op de eerste regel. Schrijf er daarna zelf een zin over."
+  },
+  "G2-480": {
+    "title": "Mijn woorden in verbonden schrift",
+    "instruction": "Lees elke zin. Trek de zin over in verbonden schrift en schrijf hem daarna zelf eronder."
+  },
+  "G2-481": {
+    "title": "Letter van de dag in verbonden schrift",
+    "instruction": "Trek de grijze letter, de letterverbindingen en het woord over en schrijf ze daarna zelf op de lege lijnen."
+  },
+  "G2-482": {
+    "title": "Drukletters en verbonden schrift: verbind de woorden",
+    "instruction": "Lees elk woord in verbonden schrift en trek een lijn naar hetzelfde woord in drukletters."
+  },
+  "G2-483": {
+    "title": "Het alfabet in verbonden schrift",
+    "instruction": "Bekijk elke letter in verbonden schrift en in drukletters. Gebruik het alfabet als je aan elkaar schrijft."
+  },
+  "K-530": {
+    "title": "De alfabettrein",
+    "instruction": "Schrijf de letters die ontbreken op de wagons, zodat de alfabettrein op volgorde staat. Het plaatje op een lege wagon begint met de letter van die wagon."
+  },
+  "K-531": {
+    "title": "De alfabetkaart",
+    "instruction": "Zeg elke letter en wat er op het plaatje staat. Het plaatje begint met de klank van de letter."
+  },
+  "K-532": {
+    "title": "Letterjacht",
+    "instruction": "Kijk naar de letter in het vakje. Zoek die letter op de ballonnen, vliegers en bordjes en omcirkel hem elke keer dat je hem ziet."
+  },
+  "G1-492": {
+    "title": "Welke letter komt ervoor en erna?",
+    "instruction": "Schrijf bij elke letter op welke letter ervoor komt in het alfabet."
+  },
+  "K-533": {
+    "title": "Kleur de klinkers",
+    "instruction": "Zeg wat je op elk plaatje ziet. Kleur alle klinkers in het woord."
+  },
+  "K-534": {
+    "title": "Alfabetkaartjes op volgorde",
+    "instruction": "Knip de kaartjes uit langs de stippellijnen. Leg ze in de volgorde van het alfabet en lees de letters."
+  },
+  "K-535": {
+    "title": "Dezelfde beginklank?",
+    "instruction": "Zeg wat je op de twee plaatjes ziet. Beginnen ze met dezelfde klank? Omcirkel dan het vinkje. Zo niet, omcirkel dan het kruisje."
+  },
+  "K-536": {
+    "title": "Knijpkaarten: de beginklank",
+    "instruction": "Knip de kaartjes uit. Zeg wat je op elk plaatje ziet en zet een wasknijper op de letter van de beginklank."
+  },
+  "G1-493": {
+    "title": "Twee medeklinkers vooraan",
+    "instruction": "Zeg wat je op elk plaatje ziet. Schrijf de twee letters op waarmee het woord begint."
+  },
+  "G1-494": {
+    "title": "Letters en klanken",
+    "instruction": "Lees elk woord. Tel de letters (Aa) en de klanken die je hoort (het oor). Schrijf beide getallen op."
+  },
+  "G1-495": {
+    "title": "Lange of korte klank?",
+    "instruction": "Zeg elk woord. Is de gekleurde klinker lang of kort? Omcirkel het streepje als hij lang is en het puntje als hij kort is."
+  },
+  "K-537": {
+    "title": "Rijm-memory",
+    "instruction": "Knip de kaartjes uit en leg ze omgekeerd neer. Draai twee kaartjes om. Rijmen de plaatjes? Dan mag je ze houden!"
+  },
+  "K-538": {
+    "title": "Welke rijmt niet?",
+    "instruction": "Zeg wat je op de drie plaatjes ziet. Twee ervan rijmen. Omcirkel het plaatje dat niet rijmt."
+  },
+  "K-539": {
+    "title": "Rijmdomino",
+    "instruction": "Knip de dominostenen uit. Leg ze in een kring: het rechterplaatje van elke steen rijmt op het linkerplaatje van de volgende steen."
+  },
+  "G1-496": {
+    "title": "Lettergrepenpuzzel",
+    "instruction": "Knip de stukjes uit langs de stippellijnen. Hussel ze door elkaar en zet elk woord weer in elkaar, lettergreep voor lettergreep."
+  },
+  "K-541": {
+    "title": "Klap en tel",
+    "instruction": "Zeg elk woord en klap de lettergrepen. Kleur voor elke klap een rondje en schrijf op hoe vaak je hebt geklapt."
+  },
+  "K-542": {
+    "title": "Plaatjes-memory",
+    "instruction": "Knip de kaartjes uit en leg ze omgekeerd neer. Draai twee kaartjes om. Horen ze bij elkaar? Dan mag je ze houden!"
+  },
+  "K-543": {
+    "title": "Woordkaarten voor de woordmuur",
+    "instruction": "Knip de woordkaarten uit langs de stippellijnen en hang ze aan de woordmuur."
+  },
+  "K-544": {
+    "title": "Mijn plaatjeswoordenboek",
+    "instruction": "Lees de woorden in de volgorde van het alfabet. Zeg wat je op elk plaatje ziet."
+  },
+  "K-545": {
+    "title": "Knip en plak de woorden",
+    "instruction": "Knip de woorden onderaan uit. Plak elk woord in het vakje onder het goede plaatje."
+  },
+  "K-546": {
+    "title": "Lees en teken",
+    "instruction": "Lees elke zin. Teken het plaatje op de goede plek."
+  },
+  "K-547": {
+    "title": "Waar is het?",
+    "instruction": "Kijk naar elk plaatje. Schrijf het woord op dat ontbreekt. De woorden in het kader helpen je."
+  },
+  "K-548": {
+    "title": "Kies het goede woord",
+    "instruction": "Kijk naar elk plaatje. Omcirkel het woord dat in de zin past."
+  },
+  "K-549": {
+    "title": "Lees en plak",
+    "instruction": "Knip de plaatjes onderaan uit. Lees elke zin en plak het plaatje op de goede plek."
+  },
+  "G2-484": {
+    "title": "Trappen van vergelijking",
+    "instruction": "Schrijf de twee vormen op die ontbreken bij elk bijvoeglijk naamwoord, zoals in het voorbeeld."
+  },
+  "G1-497": {
+    "title": "Woordsoorten in zinnen",
+    "instruction": "Lees elke zin. Omcirkel alle zelfstandige naamwoorden. Ook namen zijn zelfstandige naamwoorden."
+  },
+  "G1-498": {
+    "title": "Hoofdletters",
+    "instruction": "Lees elke zin. Omcirkel elk woord dat met een hoofdletter moet beginnen."
+  },
+  "G2-485": {
+    "title": "Werkwoorden vervoegen",
+    "instruction": "Vervoeg het werkwoord: schrijf het in elk vakje zo dat het past bij het woord aan het begin van de rij."
+  },
+  "G2-486": {
+    "title": "Een grote of een groot?",
+    "instruction": "Omcirkel de goede vorm van het bijvoeglijk naamwoord."
+  },
+  "K-550": {
+    "title": "Hoe heet de groep?",
+    "instruction": "Kijk naar de plaatjes in elke rij. Bij welke groep horen ze? Schrijf het woord uit het kader op."
+  },
+  "K-551": {
+    "title": "Kaartjes met tegenstellingen",
+    "instruction": "Knip de kaartjes uit en leg ze omgekeerd neer. Draai twee kaartjes om: zijn het tegenstellingen, dan mag je ze houden!"
+  },
+  "G1-499": {
+    "title": "Verkleinwoorden",
+    "instruction": "Schrijf het verkleinwoord van elk woord in het vakje."
+  },
+  "G2-487": {
+    "title": "Puzzel met samenstellingen",
+    "instruction": "Knip de stukjes uit. Leg steeds twee stukjes tegen elkaar tot één woord en schrijf het op een lijn."
+  },
+  "K-552": {
+    "title": "Zinnenstroken",
+    "instruction": "Lees de zin. Knip de woorden los, hussel ze door elkaar en leg de zin weer goed. Plak hem op de lege strook."
+  },
+  "G1-500": {
+    "title": "Vul het woord in",
+    "instruction": "Lees elke zin. Kijk naar het plaatje en schrijf het woord op dat ontbreekt."
+  },
+  "K-553": {
+    "title": "Plaatjeszinnen",
+    "instruction": "Lees elke zin. Schrijf het woord bij het plaatje in het vakje."
+  },
+  "G1-501": {
+    "title": "Zin of geen zin?",
+    "instruction": "Lees elke woordgroep. Omcirkel het vinkje als het een hele zin is. Omcirkel het kruisje als het geen zin is."
+  },
+  "G1-502": {
+    "title": "Zinnen in twee helften",
+    "instruction": "Verbind elk begin van een zin met het goede einde. De plaatjes helpen je."
+  },
+  "G1-503": {
+    "title": "Maak de zin langer",
+    "instruction": "Lees de korte zin. Beantwoord de vragen op de korte lijnen. Schrijf daarna een langere zin met je antwoorden."
+  },
+  "G1-504": {
+    "title": "Lees en antwoord",
+    "instruction": "Lees de tekst. Schrijf het antwoord op elke vraag op de lijn."
+  },
+  "G1-505": {
+    "title": "Goed of fout?",
+    "instruction": "Lees het verhaal. Lees daarna elke vraag en het antwoord. Omcirkel het vinkje als het antwoord goed is. Omcirkel het kruisje als het fout is."
+  },
+  "G2-488": {
+    "title": "Welke titel past?",
+    "instruction": "Lees elk verhaal. Omcirkel de titel die het best past."
+  },
+  "K-554": {
+    "title": "Mijn leeslogboek",
+    "instruction": "Vul de bladzijde in over het boek dat je hebt gelezen. Kleur de sterren om te laten zien hoe leuk je het vond."
+  },
+  "G1-506": {
+    "title": "Verhaalplan",
+    "instruction": "Bedenk je verhaal. Teken en schrijf wat er gebeurt in het begin, in het midden en aan het eind."
+  },
+  "G1-507": {
+    "title": "Stripverhaal",
+    "instruction": "Kijk naar elk plaatje. Schrijf in de tekstballonnen wat de figuren zeggen."
+  },
+  "G1-508": {
+    "title": "Dobbelverhaal",
+    "instruction": "Gooi voor elke kolom met de dobbelsteen. Schrijf daarna een verhaal met wat je hebt gegooid."
+  },
+  "G1-509": {
+    "title": "Beschrijf het personage",
+    "instruction": "Kijk naar het plaatje. Maak de zinnen over je personage af. De woorden in het kader helpen je."
+  },
+  "G1-510": {
+    "title": "Schrijf een kaartje",
+    "instruction": "Schrijf een kaartje aan iemand van wie je houdt. Schrijf zijn of haar naam na de begroeting en je eigen naam aan het eind."
+  },
+  "K-555": {
+    "title": "Schrijf bij het plaatje",
+    "instruction": "Kijk naar elk plaatje. Schrijf er een zin bij."
+  },
+  "G1-511": {
+    "title": "Verhaaltjessommen: vergelijken",
+    "instruction": "Lees elk verhaal. Vergelijk de twee rijen plaatjes. Schrijf in het vakje hoeveel meer of minder het zijn."
+  },
+  "G1-512": {
+    "title": "Welke som past?",
+    "instruction": "Lees elk verhaaltje. Omcirkel de som die bij het verhaaltje past."
+  },
+  "G1-513": {
+    "title": "Bedenk een verhaaltje bij de som",
+    "instruction": "Kijk naar elke som. Schrijf een verhaaltje dat erbij past. Je mag het over het plaatje laten gaan."
+  },
+  "G2-489": {
+    "title": "Verhaaltjessommen in twee stappen",
+    "instruction": "Lees elk verhaaltje. Reken eerst de eerste stap uit en dan de tweede. Schrijf de getallen in de vakjes."
+  },
+  "G2-490": {
+    "title": "Getal van de dag tot 1000",
+    "instruction": "Kijk naar het grote getal. Vul alle vakken op het blad in bij dat getal."
+  },
+  "G1-514": {
+    "title": "Getal en woord",
+    "instruction": "Schrijf bij elk woord het getal. Schrijf bij elk getal het woord."
+  },
+  "K-556": {
+    "title": "Getal, woord en plaatje",
+    "instruction": "Verbind elk getal met het goede woord. Verbind dan elk woord met het goede plaatje."
+  },
+  "K-557": {
+    "title": "Kaartjes met getallen en woorden",
+    "instruction": "Knip de kaartjes uit. Hang ze aan de muur, of knip langs de stippellijnen en zoek getal, woord en plaatje bij elkaar."
+  },
+  "G1-515": {
+    "title": "Rangtelwoorden tot 31",
+    "instruction": "Schrijf elk rangtelwoord in letters. Schrijf elk woord in cijfers."
+  },
+  "K-558": {
+    "title": "Op welke plank?",
+    "instruction": "Tel de planken van onder naar boven. Beantwoord elke vraag: omcirkel het goede plaatje of het goede getal."
+  },
+  "G1-516": {
+    "title": "Rangtelwoorden: getal en woord",
+    "instruction": "Verbind elk rangtelwoord in cijfers met het woord."
+  },
+  "G2-491": {
+    "title": "Getal en woord tot 1000",
+    "instruction": "Schrijf bij elk woord het getal. Schrijf bij elk getal het woord."
+  },
+  "G1-517": {
+    "title": "Letters door elkaar",
+    "instruction": "Kijk naar elk plaatje. Zet de letters in de goede volgorde en schrijf het woord."
+  },
+  "G1-518": {
+    "title": "Ontbrekende letters",
+    "instruction": "Kijk naar elk plaatje. Schrijf de letters die ontbreken in de vakjes."
+  },
+  "G1-519": {
+    "title": "Kijk, dek af, schrijf, controleer",
+    "instruction": "Lees elk woord. Vouw het blad op de stippellijn zodat het woord bedekt is. Schrijf het woord en schrijf het nog eens. Vouw open en controleer."
+  },
+  "G2-492": {
+    "title": "Welk woord is goed gespeld?",
+    "instruction": "Kijk naar elk plaatje. Lees de woorden. Omcirkel het woord dat goed gespeld is."
+  },
+  "G1-520": {
+    "title": "Ontbrekende klinkers",
+    "instruction": "Kijk naar elk plaatje. Schrijf de klinkers die ontbreken in de vakjes."
+  },
+  "K-560": {
+    "title": "Letterkaartjes en woordkaarten",
+    "instruction": "Knip de letters uit. Zeg wat je op elk plaatje ziet en leg het woord in de vakjes. Er blijven een paar letters over."
+  },
+  "G1-521": {
+    "title": "Kaartjes met rangtelwoorden",
+    "instruction": "Knip de kaartjes uit. Leg ze op volgorde, of knip langs de stippellijnen en leg bij elkaar wat bij elkaar hoort."
+  },
+  "G1-522": {
+    "title": "Lidwoord, enkelvoud en meervoud",
+    "instruction": "Kijk naar elk plaatje. Schrijf de woorden die ontbreken in het enkelvoud en het meervoud."
+  },
+  "K-561": {
+    "title": "Tel en schrijf het meervoud",
+    "instruction": "Tel de plaatjes in elk vak. Schrijf het getal in letters en het woord in het meervoud."
+  },
+  "K-562": {
+    "title": "Eén of meer?",
+    "instruction": "Lees het woord. Omcirkel de groep plaatjes die erbij hoort."
+  },
+  "G1-523": {
+    "title": "Een hond of de hond?",
+    "instruction": "Lees de twee zinnen. Omcirkel in elke zin de woorden die passen."
+  },
+  "G1-524": {
+    "title": "Vul de kalender in",
+    "instruction": "Schrijf de ontbrekende datums in de kalender."
+  },
+  "G1-525": {
+    "title": "Onze verjaardagsgrafiek",
+    "instruction": "Vraag je klasgenoten in welke maand ze jarig zijn. Kleur voor elk kind een hokje boven zijn maand. Tel de gekleurde hokjes van elke maand."
+  },
+  "G1-526": {
+    "title": "De datum van vandaag",
+    "instruction": "Kijk naar het blaadje van de kalender. Schrijf de datum in cijfers."
+  },
+  "G1-527": {
+    "title": "Ons weekrooster",
+    "instruction": "Lees het rooster. Beantwoord elke vraag."
+  },
+  "G1-528": {
+    "title": "Schatzoeken: volg de stappen",
+    "instruction": "Begin bij het vlaggetje. Volg de stappen. Omcirkel het plaatje waar je uitkomt."
+  },
+  "G1-529": {
+    "title": "Beschrijf de route",
+    "instruction": "Volg de route vanaf het eerste plaatje. Omcirkel bij elk stuk de richting en schrijf op hoeveel vakken het zijn."
+  },
+  "K-563": {
+    "title": "De kamer van bovenaf",
+    "instruction": "Elk ding is van opzij getekend. Trek een lijn naar hetzelfde ding in de kamer van bovenaf."
+  },
+  "G1-530": {
+    "title": "Teken je eigen kaart",
+    "instruction": "Teken een kaart. Teken in de legenda elk symbool dat je hebt gebruikt en schrijf op wat het betekent."
+  },
+  "G2-493": {
+    "title": "Zeeslag met coördinaten",
+    "instruction": "Kleur je schepen in je rooster. Noem om de beurt een vakje, bijvoorbeeld B3. Zet in het rooster van je maatje een stip voor mis en een kruis voor raak."
+  },
+  "K-564": {
+    "title": "Mijn gevoelens deze week",
+    "instruction": "Kleur elke dag het rondje bij het gevoel dat je hebt."
+  },
+  "K-565": {
+    "title": "De gevoelensthermometer",
+    "instruction": "Hoe sterk is het gevoel? Kleur de thermometer zo hoog als het gevoel sterk is."
+  },
+  "G1-531": {
+    "title": "Mijn vriend en ik",
+    "instruction": "Werk samen met een vriend of vriendin. Teken of schrijf wat alleen bij jou hoort, wat alleen bij de ander hoort en wat jullie allebei hebben."
+  },
+  "K-566": {
+    "title": "Gevoelenskaartjes",
+    "instruction": "Knip de kaartjes uit en praat met elkaar over gevoelens."
+  },
+  "G1-532": {
+    "title": "Woordzoeker",
+    "instruction": "Zoek elk woord uit de lijst in het rooster en omcirkel het."
+  },
+  "K-567": {
+    "title": "Woordzoeker met plaatjes",
+    "instruction": "Zeg wat je op elk plaatje ziet. Zoek het woord in het rooster en omcirkel het."
+  },
+  "G2-494": {
+    "title": "Woordzoeker met een geheime boodschap",
+    "instruction": "Zoek en omcirkel alle woorden. Lees dan de letters die over zijn, rij voor rij, en schrijf de geheime boodschap op."
+  },
+  "G1-533": {
+    "title": "Woordzoeker in een vorm",
+    "instruction": "Zoek elk woord uit de lijst in de vorm en omcirkel het."
+  },
+  "G1-534": {
+    "title": "Woordzoeker in twee talen",
+    "instruction": "Lees elk woord en kijk naar het plaatje. Zoek het woord in het Nederlands in het rooster en omcirkel het."
+  },
+  "K-568": {
+    "title": "Woordzoeker met getallen",
+    "instruction": "Lees elk getal. Zoek het getal in letters in het rooster en omcirkel het."
+  },
+  "G1-535": {
+    "title": "Kruiswoordpuzzel met plaatjes",
+    "instruction": "Kijk naar elk plaatje met een nummer. Schrijf het woord in de vakjes met hetzelfde nummer."
+  },
+  "G1-536": {
+    "title": "Zweedse puzzel met plaatjes",
+    "instruction": "Elk plaatje in de puzzel laat een woord zien. Schrijf het woord in de vakjes waar de pijl naar wijst."
+  },
+  "G2-495": {
+    "title": "Invulpuzzel",
+    "instruction": "Zet elk woord van de lijst in het rooster. Tel de letters en kijk naar de letters die elkaar kruisen."
+  },
+  "G1-537": {
+    "title": "Kruiswoordpuzzel met woordenlijst",
+    "instruction": "Kijk naar elk plaatje met een nummer. Zoek het woord in de woordenlijst en schrijf het in de vakjes."
+  },
+  "G1-538": {
+    "title": "Kruiswoordpuzzel in twee talen",
+    "instruction": "Lees elk woord en kijk naar het plaatje. Schrijf het woord in het Nederlands in de vakjes met hetzelfde nummer."
+  },
+  "G1-539": {
+    "title": "Geheimschrift met plaatjes",
+    "instruction": "Elk plaatje staat voor een letter. Gebruik de sleutel om de geheime boodschap op te schrijven."
+  },
+  "G1-540": {
+    "title": "Geheimschrift met getallen",
+    "instruction": "Elk getal staat voor een letter: A is 1. Gebruik de sleutel om de geheime boodschap op te schrijven."
+  },
+  "G1-541": {
+    "title": "Geheimschrift met sommen",
+    "instruction": "Reken elke som uit. Zoek de uitkomst in de sleutel en schrijf de letter op."
+  },
+  "G2-496": {
+    "title": "Maak de sleutel af",
+    "instruction": "In de sleutel ontbreken een paar letters. Vind ze met behulp van het woord dat al is opgelost. Schrijf daarna de geheime boodschap op."
+  },
+  "G1-542": {
+    "title": "Bedenk je eigen geheimschrift",
+    "instruction": "Teken voor elke letter een symbool. Schrijf een boodschap en schrijf die daarna nog een keer in jouw geheimschrift voor een vriend of vriendin."
+  },
+  "K-569": {
+    "title": "Plaatjesbingo",
+    "instruction": "Luister naar elk woord. Staat het plaatje op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "K-574": {
+    "title": "Plaatjesbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en zeg het woord. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "K-570": {
+    "title": "Flitswoordenbingo",
+    "instruction": "Luister naar elk woord. Staat het woord op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "K-575": {
+    "title": "Flitswoordenbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees het woord voor. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "G1-543": {
+    "title": "Rekenbingo",
+    "instruction": "Luister naar elke som en reken hem uit. Staat het antwoord op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "G1-545": {
+    "title": "Rekenbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees de som voor, niet het antwoord. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "G1-544": {
+    "title": "Klokbingo",
+    "instruction": "Luister naar elke tijd. Wijst een klok op je kaart die tijd aan, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "G1-546": {
+    "title": "Klokbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees de tijd voor. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "K-571": {
+    "title": "Beginklankbingo",
+    "instruction": "Luister naar elk woord en de eerste klank. Staat de letter van die klank op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "K-576": {
+    "title": "Beginklankbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en zeg het woord, niet de letter. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "K-572": {
+    "title": "Telwoordenbingo",
+    "instruction": "Luister naar elk getal. Staat het op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "K-577": {
+    "title": "Telwoordenbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees het getal voor. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "K-573": {
+    "title": "Vormen- en kleurenbingo",
+    "instruction": "Luister naar elke vorm en de kleur. Staat hij op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’"
+  },
+  "K-578": {
+    "title": "Vormen- en kleurenbingo: voorleeskaartjes",
+    "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees de vorm en de kleur voor. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
   }
 }

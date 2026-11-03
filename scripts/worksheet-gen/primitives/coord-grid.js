@@ -21,7 +21,9 @@ const GUTTER = 28;
 // each answer cell renders FILLED instead of empty — the inverse of the shipped
 // task, where the picture is printed and the child writes the coordinates.
 // Absent by default, so every shipped coordinate renders byte-identically.
-function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 }, fills = null }) {
+// answer marks (2026-11-03): keySample — the answer key's cells drawn filled (a drawn sample); picks — the screen: EVERY
+// cell a candidate (a clear rect), the figure's cells the right ones (tap-select; every cell answers a tap — no tell)
+function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 }, fills = null, keySample = false, picks = false }) {
   const t = tokens;
   const fh = figure.rows.length, fw = figure.rows[0].length;
   if (offset.ox + fw > cols || offset.oy + fh > rows) throw new Error(`coordGrid: figure ${figure.key} does not fit at offset ${offset.ox},${offset.oy}`);
@@ -57,7 +59,15 @@ function coordGrid({ cols, rows, cell, figure, offset = { ox: 0, oy: 0 }, fills 
       x: x0 + gc * cell + 1, y: y0 + gr * cell + 1, width: cell - 2, height: cell - 2,
       fill: (fills && fills[ch]) || 'none',
       'data-lcs-answer-cell': code, 'data-lcs-color': ch,
+      ...(keySample ? { 'data-lcs-key-sample': '' } : {}),
     }));
+  }
+  if (picks) {
+    const inFig = new Set(cells.map((c) => c.code));
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      const code = `${LETTERS[c]}${r + 1}`;
+      parts.push(el('rect', { x: x0 + c * cell, y: y0 + r * cell, width: cell, height: cell, fill: 'transparent', 'data-lcs-pick': '', 'data-lcs-label': code, ...(inFig.has(code) ? { 'data-lcs-key-ring': '' } : {}) }));
+    }
   }
   parts.push(roundedRect({ x: x0, y: y0, w: cols * cell, h: rows * cell, r: 6, fill: 'none', strokeColor: t.color.teal, strokeWidth: 2.5 }));
   return {

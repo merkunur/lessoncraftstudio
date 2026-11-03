@@ -23275,18 +23275,6 @@
       ]
      },
      {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
-      ]
-     },
-     {
       "theme": "Things That Fly",
       "noun": "owl",
       "key": "owl",
@@ -23364,23 +23352,6 @@
       "split": [
        "bo",
        "ca"
-      ]
-     },
-     {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
-      ],
-      "pos": 0,
-      "split": [
-       "bo",
-       "te"
       ]
      },
      {
@@ -23476,18 +23447,18 @@
       "theme": "accessories",
       "noun": "handbag",
       "key": "handbag",
-      "word": "bolso",
+      "word": "bolsa",
       "graphemes": [
        "b",
        "o",
        "l",
        "s",
-       "o"
+       "a"
       ],
       "pos": 0,
       "split": [
        "bol",
-       "so"
+       "sa"
       ]
      },
      {
@@ -24979,10 +24950,10 @@
       "theme": "classroom",
       "noun": "folder",
       "key": "folder",
-      "word": "folder",
+      "word": "fólder",
       "graphemes": [
        "f",
-       "o",
+       "ó",
        "l",
        "d",
        "e",
@@ -24990,7 +24961,7 @@
       ],
       "pos": 3,
       "split": [
-       "fol",
+       "fól",
        "der"
       ]
      },
@@ -25052,18 +25023,6 @@
        "o",
        "c",
        "a"
-      ]
-     },
-     {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
       ]
      },
      {
@@ -25651,23 +25610,6 @@
      },
      {
       "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
-      ],
-      "pos": 3,
-      "split": [
-       "bo",
-       "te"
-      ]
-     },
-     {
-      "theme": "beach",
       "noun": "cloud",
       "key": "cloud",
       "word": "nube",
@@ -26171,10 +26113,10 @@
       "theme": "classroom",
       "noun": "folder",
       "key": "folder",
-      "word": "folder",
+      "word": "fólder",
       "graphemes": [
        "f",
-       "o",
+       "ó",
        "l",
        "d",
        "e",
@@ -26182,7 +26124,7 @@
       ],
       "pos": 0,
       "split": [
-       "fol",
+       "fól",
        "der"
       ]
      },
@@ -29809,26 +29751,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "bathtub",
-      "key": "bathtub",
-      "word": "bañera",
-      "graphemes": [
-       "b",
-       "a",
-       "ñ",
-       "e",
-       "r",
-       "a"
-      ],
-      "pos": 2,
-      "split": [
-       "ba",
-       "ñe",
-       "ra"
-      ]
-     },
-     {
       "theme": "toys",
       "noun": "doll",
       "key": "doll",
@@ -30386,23 +30308,6 @@
       "split": [
        "bo",
        "ca"
-      ]
-     },
-     {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
-      ],
-      "pos": 1,
-      "split": [
-       "bo",
-       "te"
       ]
      },
      {
@@ -31405,18 +31310,6 @@
        "o",
        "c",
        "a"
-      ]
-     },
-     {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
       ]
      },
      {
@@ -32769,18 +32662,18 @@
       "theme": "accessories",
       "noun": "handbag",
       "key": "handbag",
-      "word": "bolso",
+      "word": "bolsa",
       "graphemes": [
        "b",
        "o",
        "l",
        "s",
-       "o"
+       "a"
       ],
       "pos": 3,
       "split": [
        "bol",
-       "so"
+       "sa"
       ]
      },
      {
@@ -33259,23 +33152,6 @@
       "split": [
        "tam",
        "bor"
-      ]
-     },
-     {
-      "theme": "beach",
-      "noun": "boat",
-      "key": "boat",
-      "word": "bote",
-      "graphemes": [
-       "b",
-       "o",
-       "t",
-       "e"
-      ],
-      "pos": 2,
-      "split": [
-       "bo",
-       "te"
       ]
      },
      {
@@ -36752,7 +36628,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "grue"
      },
      {
@@ -39863,7 +39739,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "grue"
      },
      {
@@ -42580,7 +42456,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "grue"
      },
      {
@@ -45762,7 +45638,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -46218,7 +46094,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -47046,7 +46922,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -47636,7 +47512,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -48328,7 +48204,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -49494,7 +49370,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -50124,7 +50000,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -50781,7 +50657,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -51474,7 +51350,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -52209,7 +52085,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -52911,7 +52787,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -54326,7 +54202,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -54975,7 +54851,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -56198,7 +56074,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -56713,7 +56589,7 @@
      {
       "theme": "vehicles",
       "noun": "crane",
-      "key": "crane",
+      "key": "construction-crane",
       "word": "gru",
       "graphemes": [
        "g",
@@ -79381,21 +79257,21 @@
       "theme": "around the house",
       "noun": "sink",
       "key": "sink",
-      "word": "diskbank",
+      "word": "diskbänk",
       "graphemes": [
        "d",
        "i",
        "s",
        "k",
        "b",
-       "a",
+       "ä",
        "n",
        "k"
       ],
       "pos": 0,
       "split": [
        "disk",
-       "bank"
+       "bänk"
       ]
      },
      {
@@ -80818,19 +80694,20 @@
       "theme": "At the Supermarket",
       "noun": "muffin",
       "key": "muffin",
-      "word": "muffin",
+      "word": "muffins",
       "graphemes": [
        "m",
        "u",
        "f",
        "f",
        "i",
-       "n"
+       "n",
+       "s"
       ],
       "pos": 2,
       "split": [
        "muf",
-       "fin"
+       "fins"
       ]
      },
      {
@@ -82734,7 +82611,7 @@
       "theme": "christmas",
       "noun": "santa",
       "key": "santa",
-      "word": "jultomten",
+      "word": "jultomte",
       "graphemes": [
        "j",
        "u",
@@ -82743,8 +82620,7 @@
        "o",
        "m",
        "t",
-       "e",
-       "n"
+       "e"
       ]
      },
      {
@@ -83039,7 +82915,7 @@
       "theme": "christmas",
       "noun": "santa",
       "key": "santa",
-      "word": "jultomten",
+      "word": "jultomte",
       "graphemes": [
        "j",
        "u",
@@ -83048,14 +82924,13 @@
        "o",
        "m",
        "t",
-       "e",
-       "n"
+       "e"
       ],
       "pos": 0,
       "split": [
        "jul",
        "tom",
-       "ten"
+       "te"
       ]
      },
      {
@@ -105113,16 +104988,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "camping",
       "noun": "moon",
       "key": "moon",
@@ -105599,16 +105464,6 @@
        "u",
        "r",
        "a"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -106129,16 +105984,6 @@
        "h",
        "t",
        "i"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -106816,16 +106661,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "ocean life",
       "noun": "shark",
       "key": "shark",
@@ -107234,16 +107069,6 @@
        "a",
        "tt",
        "u"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -107718,16 +107543,6 @@
        "a",
        "nn",
        "u"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -108359,16 +108174,6 @@
        "y",
        "n",
        "ä"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -109006,16 +108811,6 @@
        "s",
        "e",
        "n"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -109697,16 +109492,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "birds",
       "noun": "macaw",
       "key": "macaw",
@@ -110366,16 +110151,6 @@
        "n",
        "h",
        "i"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -111083,16 +110858,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "birds",
       "noun": "macaw",
       "key": "macaw",
@@ -111671,16 +111436,6 @@
        "h",
        "t",
        "i"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -112371,16 +112126,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "ocean life",
       "noun": "shark",
       "key": "shark",
@@ -113056,16 +112801,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "birds",
       "noun": "macaw",
       "key": "macaw",
@@ -113669,16 +113404,6 @@
        "i",
        "j",
        "a"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -114357,16 +114082,6 @@
        "l",
        "k",
        "o"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -115095,16 +114810,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "ocean life",
       "noun": "shark",
       "key": "shark",
@@ -115684,16 +115389,6 @@
        "a",
        "t",
        "o"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -116278,16 +115973,6 @@
        "n",
        "u",
        "t"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {
@@ -116996,16 +116681,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
-      ]
-     },
-     {
       "theme": "ocean life",
       "noun": "shark",
       "key": "shark",
@@ -117576,16 +117251,6 @@
        "ä",
        "rr",
        "y"
-      ]
-     },
-     {
-      "theme": "around the house",
-      "noun": "toilet",
-      "key": "toilet",
-      "word": "wc",
-      "graphemes": [
-       "w",
-       "c"
       ]
      },
      {

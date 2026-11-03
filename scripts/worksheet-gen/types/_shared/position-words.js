@@ -55,8 +55,10 @@ function makePositionType(cfg) {
           const keep = difficulty === 1 ? new Set([relation, PARTNER[relation] || 'under']) : null;
           const imgs = Object.entries(spots).filter(([rel]) => !keep || keep.has(rel)).map(([rel, p]) =>
             [rel, p, Object.keys(spots).indexOf(rel)]).map(([rel, p, k]) =>
-            `<img class="ws-icon" src="${fileUri(theme, ns[k].noun)}" alt="" data-lcs-rel="${rel}"` +
-            `${rel === relation ? ' data-lcs-target="1"' : ''} ` +
+            // generic marks (2026-11-03, INTERACTIVE-AND-SHARING §D): every icon a choice, the asked one correct — the
+            // key rings it and the screen asks to tap it (one card = one question, [data-lcs-card])
+            `<img class="ws-icon" src="${fileUri(theme, ns[k].noun)}" alt="" data-lcs-rel="${rel}" data-lcs-choice` +
+            `${rel === relation ? ' data-lcs-target="1" data-lcs-correct' : ''} ` +
             `style="position:absolute;left:${p.x}px;top:${p.y}px;width:64px;height:64px">`).join('');
           // six cards (level 3) need three rows: shrink the 280×268 scene so it
           // fits the page. Four-card levels keep the exact original markup.
@@ -65,7 +67,7 @@ function makePositionType(cfg) {
             `<div style="position:absolute;left:70px;top:74px">${CRATE(140, 120)}</div>` +
             imgs + `</div>`;
           cards.push(
-            `<div class="ws-card-stage" style="padding:0">` +
+            `<div class="ws-card-stage" style="padding:0" data-lcs-card>` +
             (k === 1 ? scene
               : `<div style="width:${Math.round(280 * k)}px;height:${Math.round(268 * k)}px"><div style="transform:scale(${k});transform-origin:0 0">${scene}</div></div>`) +
             `</div>`
@@ -128,14 +130,15 @@ function makePositionType(cfg) {
       }
 
       const imgs = placed.map((p) =>
-        `<img class="ws-icon" src="${fileUri(theme, p.noun.noun)}" alt="" data-lcs-side="${p.side}"` +
-        `${p.side === relation ? ' data-lcs-target="1"' : ''} ` +
+        // generic marks (2026-11-03): every picture a candidate, the ones at the asked place ringed (key + tap-select screen)
+        `<img class="ws-icon" src="${fileUri(theme, p.noun.noun)}" alt="" data-lcs-side="${p.side}" data-lcs-pick` +
+        `${p.side === relation ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
         `style="position:absolute;left:${p.x.toFixed(1)}px;top:${p.y.toFixed(1)}px;width:64px;height:64px">`).join('');
 
       return {
         bodyHtml:
           `<div class="ws-scene" style="padding:0;justify-content:center;align-items:center">` +
-          `<div style="position:relative;width:${W}px;height:${H}px" data-lcs-relation="${relation}">${decor}${imgs}</div>` +
+          `<div style="position:relative;width:${W}px;height:${H}px" data-ws-content data-lcs-relation="${relation}">${decor}${imgs}</div>` +
           `</div>`,
         meta: { relation, targets: placed.filter((p) => p.side === relation).length },
       };

@@ -66,6 +66,18 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'G1-483',
   // Number Tracing (2026-11-02): K-468 numerals and number words only
   'K-468',
+  // ... K-517 / K-518 (2026-11-02): the numbers to 100 in tens rows and the formation poster — numerals only
+  'K-517', 'K-518',
+  // Letter Tracing (2026-11-02): K-525 / K-526 print the alphabet in order — the copies walk it; no picture or word pool
+  'K-525', 'K-526',
+  // Cursive Handwriting (2026-11-02): the family's faces print the bank's native-reviewed literals in the school script
+  // (lessons, joins, names, pictured words, sentences — each checked for the page's mark classes and look-alikes); a
+  // teacher's own words are G2-480 / G2-481 (typed slots, refused outside the script's coverage); G2-482 keeps its reviewed
+  // look-alike-free word set, G2-483 prints the alphabet in order
+  'G2-377', 'G2-384', 'G2-385', 'G2-386', 'G2-387', 'G3-401', 'G2-482', 'G2-483',
+  // Alphabet & Letters (2026-11-02): the alphabet in its own order (train, chart, cards, before / after) and a letter hunt
+  // built from the alphabet — no picture or word pool to swap from
+  'K-530', 'K-531', 'K-532', 'G1-492', 'K-534',
   // Same & Different (2026-11-02): K-069 What Is It? draws each row's picture TOGETHER with the two choices its visible
   // part cannot be read as (masks) — a swapped picture needs new choices and re-draws every later row
   'K-069',
@@ -75,9 +87,10 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // numbers all find a free place (the d2d index), or a hand-drawn figure; it is not a library picture, so no picker can
   // offer it — "New version" moves through the level's pictures. The numbers / letters come from the level
   'K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486',
+  'K-505', 'K-506', 'K-507',
   // Color by Number (2026-11-02): the code faces draw shapes and numerals / sums / facts by code (the Level control and
   // "New version" change them); the illustrated pictures (K-393 / K-394) are one drawn design each — the design is the page
-  'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'K-394',
+  'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'K-394', 'G1-487', 'K-513',
   // the composed-scene makers (2026-11-02): a Find the Differences scene, a How to Draw lesson and a Picture Tracing scene
   // are each ONE reviewed composition (the differences, the steps, the occlusion depend on every drawing in it) — "New
   // version" walks the face's published and Level Set copies; a single drawing is never swapped
@@ -85,6 +98,10 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   'K-396', 'K-401', 'K-402', 'K-403', 'K-404', 'G1-416', 'G1-417', 'G1-418', 'G1-419', 'G2-390', 'G2-391',
   'K-418', 'K-419', 'K-420', 'K-421', 'K-422', 'K-423', 'K-424', 'K-425', 'K-426', 'K-427', 'K-428', 'K-429', 'K-430', 'K-431', 'K-432',
   'G1-429', 'G1-430', 'G1-431', 'G1-432', 'G1-433',
+  'K-488', 'K-489', 'K-490', 'K-491', 'K-492', 'K-493', 'K-494', 'K-495', 'K-496', 'K-497', 'K-498', 'K-499', 'K-500', 'K-501',
+  // Same & Different (2026-11-02): K-509's pictures are chosen TOGETHER so that no two outlines are alike — a swapped picture
+  // could hide behind another's outline (two right answers)
+  'K-509',
   // K-038 Heavy or Light?: the PAIR is the question (ranked by real weight, a set gap apart) — a swapped picture changes it
   'K-038',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
@@ -152,7 +169,8 @@ const MAKERS = Object.keys(JSON.parse(fs.readFileSync(path.join(REPO, 'out/maker
 const crypto = require('crypto');
 const sha = (x) => crypto.createHash('sha1').update(String(x)).digest('hex');
 const tjOf = (m) => JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers', m, fs.readFileSync(path.join(REPO, 'out/makers', m, 'current.txt'), 'utf8').trim(), 'templates.json'), 'utf8'));
-const themesOf = (t) => (t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null]);
+// the slots gate builds the English pages: the themes the template offers in English (templates.json localeThemes)
+const themesOf = (t0) => { const t = { ...t0, themes: (t0.localeThemes && t0.localeThemes.en) || t0.themes }; return (t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null]); };
 // a unit drawn for one level (t.unitLevels) is asked for at that level only
 const unitAtOf = (t) => (d) => ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
 const jobKey = (id, theme, d, v) => [id, theme, d, v].join('|');
@@ -160,8 +178,9 @@ const jobKey = (id, theme, d, v) => [id, theme, d, v].join('|');
 const jobs = [];
 for (const m of MAKERS) for (const t of tjOf(m).templates) {
   if (!fs.existsSync(path.join(tmp, t.file))) continue;
+  if (!t.locales.includes('en')) continue;   // (English pages only: K-540 is taught in es pt it fr)
   const unitAt = unitAtOf(t);
-  for (const theme of themesOf(t)) for (const d of t.levels) for (const v of [1, 2]) jobs.push({ key: jobKey(t.id, theme, d, v), id: t.id, file: t.file, theme, d, v, unit: unitAt(d) });
+  for (const theme of themesOf(t)) for (const d of ((t.localeLevels && t.localeLevels['en']) || t.levels)) for (const v of [1, 2]) jobs.push({ key: jobKey(t.id, theme, d, v), id: t.id, file: t.file, theme, d, v, unit: unitAt(d) });
 }
 fs.writeFileSync(path.join(tmp, 'slots-jobs.json'), JSON.stringify(jobs));
 fs.writeFileSync(path.join(tmp, 'slots-ref-worker.js'), WORKER);
@@ -172,9 +191,10 @@ for (const m of MAKERS) {
   const ver = fs.readFileSync(path.join(REPO, 'out/makers', m, 'current.txt'), 'utf8').trim();
   const tj = JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers', m, ver, 'templates.json'), 'utf8'));
   for (const t of tj.templates) {
+    if (!t.locales.includes('en')) continue;   // (English pages only)
     const type = require(path.join(REPO, t.file));
     const isNew = !fs.existsSync(path.join(tmp, t.file));   // a template born after REF has no catalogue output to keep
-    const loadErr = !isNew && (REFOUT[jobKey(t.id, themesOf(t)[0], t.levels[0], 1)] || {}).loadError;
+    const loadErr = !isNew && (REFOUT[jobKey(t.id, themesOf(t)[0], ((t.localeLevels && t.localeLevels.en) || t.levels)[0], 1)] || {}).loadError;
     if (loadErr) fail(`${t.id}: cannot load ${REF} version (${loadErr})`);
     const strings = resolveStrings(t.id, 'en', type);
     const themes = themesOf(t);
@@ -182,7 +202,7 @@ for (const m of MAKERS) {
     // 1. catalogue untouched (the reference side was built by the worker; the reference tree's picture file URLs carry its
     // .scratch/slots-ref/ prefix, which the worker removed — the only allowed difference)
     let same = 0, n = 0;
-    for (const theme of themes) for (const d of t.levels) for (const v of [1, 2]) {
+    for (const theme of themes) for (const d of ((t.localeLevels && t.localeLevels['en']) || t.levels)) for (const v of [1, 2]) {
       n++;
       const unit = unitAt(d);
       const seed = instanceSeed({ typeId: t.id, theme, difficulty: d, seedEpoch: 1, variant: v, unit });
@@ -197,7 +217,8 @@ for (const m of MAKERS) {
     // 2 + 3. slots in the maker
     const theme = themes[0];
     // the level checked: level 2, or the first level whose page exposes a slot (a level may draw dots, another pictures)
-    const lv = [...new Set([t.levels.includes(2) ? 2 : t.levels[0], ...t.levels])];
+    const lvEn = ((t.localeLevels && t.localeLevels['en']) || t.levels);
+    const lv = [...new Set([lvEn.includes(2) ? 2 : lvEn[0], ...lvEn])];
     // the page the maker shows: the first seed that builds (runtime.generate's fresh-seed ladder), every check on that seed
     const SV = [null, '1.1', '1.2', '1.3', '1.4'];
     const svOf = (x) => SV.find((sv) => { try { makePage({ type, strings, locale: 'en', difficulty: x, theme, unit: unitAt(x), variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; } });

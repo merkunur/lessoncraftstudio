@@ -528,6 +528,8 @@ function digitBadges(jobs, box, extra = {}) {
  * "dashed > dot-only > blank on the same lanes"). One lane = one number (1 glyph, or 2 for 10-20).
  * `modes` = one entry per slot: 'model' (solid teal), 'trace' (dashed, its OWN start dot + arrow per stroke),
  * 'dash' (dashed, no guides), 'dot' (ONLY the start dots — the child writes the number alone from there) or 'empty' (blank school lines).
+ * 'poster' (makers 2026-11-02, the number formation poster K-518): the solid model WITH its start dots, arrows and stroke-order
+ * badges — a wall chart shows how a number is written, there is nothing to trace.
  * Stroke-order badges (badges:true, big lanes) on the first 'trace' slot only. Guides are drawn in display
  * space outside the rep groups; every rep group stamps data-lcs-rep-mode and every guide data-lcs-rep.
  * Published pages never call this (they use strokeGlyphLane / strokeGlyphPairLane).
@@ -548,20 +550,22 @@ function digitFadeLane({ glyphs, box, w, h, glyphH, modes, badges = false, label
   const yBase = h * 0.86;
   const yTop = yBase - glyphH;
   const big = glyphH >= 80;
-  const dotR = big ? 5 : 4, arrowD = big ? 16 : 12, arrowSz = big ? 9 : 6.5;
+  // a poster's guides grow with its numeral (a wall chart is read from across the room); every other lane as before
+  const P = modes.includes('poster') ? Math.max(1, glyphH / 110) : 1;
+  const dotR = (big ? 5 : 4) * P, arrowD = (big ? 16 : 12) * P, arrowSz = (big ? 9 : 6.5) * P;
   const segW = w / modes.length;
   if (totalW > segW - 8) throw new Error(`digitFadeLane: ${number} does not fit ${modes.length} slots (${totalW.toFixed(0)} > ${(segW - 8).toFixed(0)})`);
   const inv = 1 / scale;
   const parts = [schoolLines({ w, yTop, yBase })];
   const guides = [];
-  const firstTrace = modes.indexOf('trace');
+  const firstTrace = modes.findIndex((m) => m === 'trace' || m === 'poster');
   modes.forEach((mode, i) => {
-    if (!['model', 'trace', 'dash', 'dot', 'empty'].includes(mode)) throw new Error(`digitFadeLane: unknown mode ${mode}`);
+    if (!['model', 'trace', 'dash', 'dot', 'empty', 'poster'].includes(mode)) throw new Error(`digitFadeLane: unknown mode ${mode}`);
     if (mode === 'empty') return;
     const x0 = (i + 0.5) * segW - totalW / 2;
     const inner = glyphs.map((strokes, gi) => {
       const gx = x0 + offs[gi];
-      if (mode === 'trace' || mode === 'dot') {
+      if (mode === 'trace' || mode === 'dot' || mode === 'poster') {
         const seen = [];
         strokes.forEach((s) => {
           const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
@@ -570,12 +574,12 @@ function digitFadeLane({ glyphs, box, w, h, glyphH, modes, badges = false, label
           const shared = seen.filter((p) => Math.hypot(p.x - dx, p.y - dy) < dotR * 2 + 2);
           if (!shared.length) guides.push(el('circle', { cx: dx.toFixed(1), cy: dy.toFixed(1), r: dotR, fill: tokens.color.coral, 'data-lcs-rep': String(i) }));
           seen.push({ x: dx, y: dy });
-          if (mode === 'trace') {
+          if (mode === 'trace' || mode === 'poster') {
             const a = s.angle * Math.PI / 180, d = arrowD + shared.length * (arrowSz + 4);
             guides.push(arrowHead({ x: dx + Math.cos(a) * d, y: dy + Math.sin(a) * d, angleDeg: s.angle, size: arrowSz }).replace('<polygon', `<polygon data-lcs-rep="${i}"`));
           }
         });
-        if (mode === 'trace' && badges && i === firstTrace && strokes.length > 1) {
+        if ((mode === 'trace' || mode === 'poster') && badges && i === firstTrace && strokes.length > 1) {
           // the other glyph(s) of this slot: their ink, start dots and arrows are obstacles too
           const extra = { ink: [], obstacles: [] };
           glyphs.forEach((o, oi) => {
@@ -594,7 +598,7 @@ function digitFadeLane({ glyphs, box, w, h, glyphH, modes, badges = false, label
         }
       }
       if (mode === 'dot') return '';
-      const paths = strokes.map((s) => renderPath({ d: s.d, mode: mode === 'model' ? 'model' : 'trace', strokeW: 3.4 * inv, dot: false, arrow: false, dashScale: inv })).join('');
+      const paths = strokes.map((s) => renderPath({ d: s.d, mode: mode === 'model' || mode === 'poster' ? 'model' : 'trace', strokeW: 3.4 * P * inv, dot: false, arrow: false, dashScale: inv })).join('');
       return el('g', { transform: `translate(${gx.toFixed(1)} ${yTop.toFixed(1)}) scale(${scale.toFixed(4)})` }, paths);
     }).join('');
     parts.push(el('g', { 'data-lcs-rep-mode': mode, 'data-lcs-rep': String(i) }, inner));
@@ -718,6 +722,11 @@ function placeBadgeLegacy(x, y, angleDeg, placed) {   // kept only for qa/verify
  * the nearest spot satisfying (a)+(b) wins — it may never leave the lane.
  */
 const BADGE_GAP = 3;
+/* Math.cos / Math.sin differ in the last bit between Node's V8 and the makers' browser (measured 2026-11-02: 4 % of
+   angles), so a badge spot exactly on a clearance threshold passed in one engine and failed in the other — K-254's badge 2
+   landed 20 px apart (parity gate). Every trig-derived coordinate is rounded to a millionth of a pixel before it is
+   compared: the decisions are then the same in every engine */
+const q6 = (v) => Math.round(v * 1e6) / 1e6;
 function placeBadge(x, y, angleDeg, placed, env) {
   if (!env) return placeBadgeLegacy(x, y, angleDeg, placed);
   const { box, obstacles, ink, centre, own, others = [] } = env;
@@ -737,14 +746,14 @@ function placeBadge(x, y, angleDeg, placed, env) {
   // its own stroke (A: 1 beside the left leg, 2 beside the right) — then fan out alternately from there
   let base = angleDeg - 90;
   if (centre) {
-    const side = (deg) => { const a = deg * Math.PI / 180; return Math.cos(a) * (x - centre.x) + Math.sin(a) * (y - centre.y); };
+    const side = (deg) => { const a = deg * Math.PI / 180; return q6(Math.cos(a) * (x - centre.x) + Math.sin(a) * (y - centre.y)); };
     if (side(angleDeg + 90) > side(angleDeg - 90)) base = angleDeg + 90;
   }
   const order = [0]; for (let k = 1; k <= 12; k++) order.push(k * 15, -k * 15);
   for (const r of [20, 28, 36, 44]) {
     for (const off of order) {
       const a = (base + off) * Math.PI / 180;
-      const bx = x + Math.cos(a) * r, by = y + Math.sin(a) * r;
+      const bx = q6(x + Math.cos(a) * r), by = q6(y + Math.sin(a) * r);
       if (!inBox(bx, by) || !clearOf(bx, by)) continue;
       if (offInk(bx, by) && mine(bx, by)) return { x: bx, y: by };
       if (offInk(bx, by) && !fallbackMine) fallbackMine = { x: bx, y: by };
@@ -892,7 +901,7 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges, b
  * `text` may be a digraph (nl "IJ"); it is laid out by advance width.
  * { text, w, h, glyphH, reps, emptyLast } -> { svg }
  */
-function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, emptyCount, lowercase = false, label: lbl, legacyBadges = false, badges: badgesOpt }) {
+function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, emptyCount, lowercase = false, label: lbl, legacyBadges = false, badges: badgesOpt, poster = false }) {
   // emptyCount (Level Set 2026-09-28): the last N slots stay blank; emptyLast keeps meaning exactly one
   const nEmpty = emptyCount != null ? emptyCount : (emptyLast ? 1 : 0);
   let { items, width } = letterStrokes.textGlyphs(text);
@@ -929,7 +938,8 @@ function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, emp
     if (i >= reps - nEmpty) continue;
     const r = renderTextRep({
       items, x0: (i + 0.5) * segW - gW / 2, yBase, scale,
-      isModel: i === 0, showGuides: i === 1, badges, box: { w, h }, legacyBadges,
+      // poster (makers 2026-11-02, the letter formation poster K-526): every rep is the solid model WITH its guides
+      isModel: poster || i === 0, showGuides: poster || i === 1, badges, box: { w, h }, legacyBadges,
     });
     parts.push(r.rep);
     if (r.guides) guideParts.push(r.guides);

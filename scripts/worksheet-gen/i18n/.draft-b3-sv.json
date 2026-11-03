@@ -18392,42 +18392,6 @@
      ]
     },
     {
-     "id": "år",
-     "rime": "-år",
-     "sound": "oːr",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "sheep",
-       "word": "får",
-       "pic": {
-        "theme": "farm animals",
-        "noun": "sheep"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "stretcher",
-       "word": "bår",
-       "pic": {
-        "theme": "hospital",
-        "noun": "stretcher"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "år",
-      "sår",
-      "mår"
-     ],
-     "nearMiss": []
-    },
-    {
      "id": "åg",
      "rime": "-åg",
      "sound": "oːg",

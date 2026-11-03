@@ -1,0 +1,21 @@
+{
+  "_note": "Live decks to republish in place (2026-11-03, final phase round 1). 'oldWords': a live deck whose printed text holds one of these words (whole word, case-insensitive) was built from a bank row that spelled a picture word the vocabulary reviews replaced; the bank now prints the new word (or drops the item). Scan the live decks of the listed types for the words, regenerate the hits (in-place republish), never touch landings or metadata. 'decks': single published pages changed by a fix.",
+  "types": ["K-317", "K-325", "K-326", "K-327", "K-328", "G1-311", "G1-306", "G1-330", "G1-331", "G1-332", "G1-333", "G1-334", "G2-315", "G2-324", "G2-325", "G2-326", "G2-327", "G2-328", "K-318", "K-329", "K-330", "G1-312", "G1-313", "G1-314", "G1-380", "K-233", "K-234", "G2-316"],
+  "oldWords": {
+    "en": ["beetroot"],
+    "de": ["Lichterkette", "Süßigkeiten", "Diplodocus"],
+    "es": ["bote", "pollo", "bañera", "bolso", "folder"],
+    "fr": ["poulet", "tournesol"],
+    "pt": ["lâmpada", "pêra"],
+    "it": ["pollo", "melograno", "automobile", "violetto", "campo"],
+    "nl": ["kleurpotloden", "dobbelstenen", "lemur", "nagel"],
+    "sv": ["kyckling", "diskbank", "jultomten", "pegasus", "muffin", "mossa", "blackfisk", "tärningar", "skridskor", "clementin"],
+    "da": ["negl", "kylling"],
+    "no": ["kylling", "krake", "cymbal", "piggsvin", "lyslenke"],
+    "fi": ["wc", "värikynät"]
+  },
+  "decks": [
+    { "type": "G3-398", "locale": "no", "level": 2, "variant": 1, "why": "«syer» and «bygger» left the published who-does-it bank (judge, cashier instead)" },
+    { "type": "G2-274", "locale": "fr", "level": 2, "variant": 1, "why": "the published fr page ran 33 px into the footer (52 px lines now)" }
+  ]
+}

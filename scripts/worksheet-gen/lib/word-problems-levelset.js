@@ -106,9 +106,53 @@ function quantWord(loc, gender) {
   if (!g) throw new Error(`word-problems Level Set: no gender for a ${loc} noun ("${gender}")`);
   return t[g];
 }
-/** fr: elide de / que before a vowel (never before h — an aspirated h keeps "de"). */
+/** fr: elide de / que before a vowel and before a silent h (hélicoptères: "Combien d'hélicoptères", review 2026-11-02);
+ *  an aspirated h keeps "de" (de haricots, de hamburgers, de hiboux). */
 function frElide(s) {
-  return s.replace(/(^|[\s(])(de|que) (?=[aeiouyàâäéèêëîïôöûüœæAEIOUYÀÂÉÈÊËÎÏÔÖÛÜŒÆ])/g, (m0, p, w) => p + (w === 'de' ? 'd\'' : 'qu\''));
+  return s.replace(/(^|[\s(])(de|que) (?=[aeiouyàâäéèêëîïôöûüœæAEIOUYÀÂÉÈÊËÎÏÔÖÛÜŒÆ]|[hH](?:élic|ippop|irond|orlog|uîtr|ôpit|ôtel|erbe|iver|eure|istoir|omme|abit|uile))/g, (m0, p, w) => p + (w === 'de' ? 'd\'' : 'qu\''));
+}
+/** it: the euphonic d — "a" before a word in a- ("ad Aurora"), "e" before a word in e- ("ed Elena") (review 2026-11-02) */
+function itEuphony(s) {
+  return s.replace(/(^|[\s(])a (?=[aAàÀ])/g, '$1ad ').replace(/(^|[\s(])e (?=[eEèÈéÉ])/g, '$1ed ');
+}
+
+// ---- noun fit for NEW pages (review 2026-11-02): a big thing never sits in a bag or a basket ("8 pineapples in a bag",
+// "17 buckets in a basket"), and only small things are counted past 20 ("48 trains"). The published pages keep their draw.
+const LARGE = new Set(('pineapple pumpkin cabbage cauliflower watermelon dragonfruit bucket shovel skateboard kite truck train ' +
+  'rocking_horse drum guitar xylophone trumpet backpack lunchbox binder umbrella handbag purse teapot').split(' '));
+const SMALL = new Set(('apple blackberry blueberry cherry clementine fig lemon orange raspberry strawberry carrot potato radish ' +
+  'green_beans tomato onion garlic ball balloon car race_car dinosaur cookie bun cupcake muffin pretzel bagel croissant doughnut ' +
+  'donut cinnamon_roll candy_cane lollipop macaron chocolate_bar candy crayon eraser marker pen pencil ornament star bell candle ' +
+  'ribbon egg feather flower tulip daffodil chocolate badge barrette bracelet ring sock hair_tie medal spoon fork cup').split(' '));
+const CONTAINER = {
+  en: /\b(bag|basket)\b/i, de: /(Tasche|Korb|Tüte)/, fr: /\b(sac|panier)\b/i, es: /\b(bolsa|cesta|canasta)\b/i, pt: /\b(sacola|saco|cesta)\b/i,
+  it: /\b(borsa|cestino|cesto|sacchetto)\b/i, nl: /\b(tas|mand|zak)\b/i, sv: /(påse|korg)/i, da: /(pose|kurv)/i, no: /(pose|kurv)/i,
+  fi: /(^|[^\p{L}])(pussi|kori(?!ste))/iu,
+};
+/** true when a frame suits the noun (a NEW page): no big thing in a bag or a basket */
+function frameFits(tpl, noun, loc) { return !(LARGE.has(noun) && CONTAINER[loc] && CONTAINER[loc].test(tpl)); }
+/** the largest count of a noun on a NEW page: a small thing up to max, anything else up to 20 */
+function maxFor(noun, max) { return SMALL.has(noun) ? max : Math.min(max, 20); }
+// es (review 2026-11-02, NEW pages): the June frames asked "¿Cuál es el total de…?" / "¿Qué cantidad de…?" (no gender then);
+// a Mexican first-grade page asks "¿Cuántos / Cuántas…?" ({Q}), says canasta, and puts "más que" after the verb
+const ES_NEW = {
+  '¿Cuál es el total de {noun} que tiene ahora?': '¿{Q} {noun} tiene ahora?',
+  '¿Cuál es el total de {noun}?': '¿{Q} {noun} hay en total?',
+  '¿Cuál es el total de {noun} en la caja?': '¿{Q} {noun} hay ahora en la caja?',
+  '¿Cuál es el total de {noun} en su dibujo?': '¿{Q} {noun} hay en su dibujo?',
+  '¿Qué cantidad de {noun} le queda?': '¿{Q} {noun} le quedan?',
+  '¿Qué cantidad de {noun} queda en la cesta?': '¿{Q} {noun} quedan en la canasta?',
+  'en una cesta.': 'en una canasta.',
+  '¿{Q} {noun} más que {name2} tiene {name}?': '¿{Q} {noun} más tiene {name} que {name2}?',
+  '¿{Q} {noun} menos que {name} tiene {name2}?': '¿{Q} {noun} menos tiene {name2} que {name}?',
+  '¿{Q} {noun} más que {name2} encuentra {name}?': '¿{Q} {noun} más encuentra {name} que {name2}?',
+};
+/** a frame as a NEW page prints it (es: ES_NEW); the published draw keeps the June text */
+function newFrame(tpl, loc) {
+  if (loc !== 'es') return tpl;
+  let s = tpl;
+  for (const [a, b] of Object.entries(ES_NEW)) s = s.split(a).join(b);
+  return s;
 }
 function fill(tpl, s, loc) {
   let out = tpl;
@@ -120,7 +164,7 @@ function fill(tpl, s, loc) {
   }
   out = out.replace(/\{(name2|name|n1|n2|n3|noun)\}/g, (_, k) => String(s[k]));
   if (/\{[^}]*\}/.test(out)) throw new Error('word-problems Level Set: unfilled slot in "' + out + '"');
-  return loc === 'fr' ? frElide(out) : out;
+  return loc === 'fr' ? frElide(out) : loc === 'it' ? itEuphony(out) : out;
 }
 
 // ---------------------------------------------------------------------------------------------- numbers
@@ -197,7 +241,8 @@ function fillLegacy(tpl, slots, loc, vocabKey) {
   if (/{il}/.test(out)) { const g = ((LS.fr || {}).nameGender || {})[slots.name]; if (!g) throw new Error('word-problems: no gender for fr name ' + slots.name); out = out.replace(/{il}/g, g === 'f' ? 'elle' : 'il'); }
   out = out.replace(/\{(name|n1|n2|noun)\}/g, (_, k) => String(slots[k]));
   // fr: de / que elide before a vowel ("Combien d'oranges" — the live "Combien de oranges" was a defect, fixed 2026-10-14)
-  return loc === 'fr' ? frElide(out) : out;
+  // and before a silent h; it: "ad Aurora" (both 2026-11-02)
+  return loc === 'fr' ? frElide(out) : loc === 'it' ? itEuphony(out) : out;
 }
 
-module.exports = { fillLegacy, ALLOW, THEMES, nounsFor, framesFor, namesFor, fill, frElide, quantWord, drawG1, g1Answer, iconImg, changeStrip, compareStrip, writeBox, fillAnswerBoxes, CORAL, TEAL, INK, LS };
+module.exports = { fillLegacy, ALLOW, THEMES, nounsFor, framesFor, namesFor, fill, frElide, itEuphony, quantWord, drawG1, g1Answer, iconImg, changeStrip, compareStrip, writeBox, fillAnswerBoxes, frameFits, maxFor, newFrame, CORAL, TEAL, INK, LS };

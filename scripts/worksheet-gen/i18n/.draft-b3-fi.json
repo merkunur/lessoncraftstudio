@@ -21344,41 +21344,6 @@
      "nearMiss": []
     },
     {
-     "id": "atto",
-     "rime": "-to",
-     "sound": "atto",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "carpet",
-       "word": "matto",
-       "pic": {
-        "theme": "around the house",
-        "noun": "carpet"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "hammock",
-       "word": "riippumatto",
-       "pic": {
-        "theme": "camping",
-        "noun": "hammock"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "katto",
-      "satto"
-     ],
-     "nearMiss": []
-    },
-    {
      "id": "okki",
      "rime": "-ki",
      "sound": "okki",

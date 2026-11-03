@@ -1,14 +1,14 @@
 {
   "locale": "en",
-  "generated_at": "2026-11-02T19:00:41.260Z",
+  "generated_at": "2026-11-03T06:42:39.516Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 910,
-  "count_quarantined": 355,
+  "count_approved": 912,
+  "count_quarantined": 353,
   "entries": [
     {
       "key": "acorn",
@@ -4703,6 +4703,24 @@
           "fused"
         ]
       }
+    },
+    {
+      "key": "construction-crane",
+      "word": "crane",
+      "split": [
+        "crane"
+      ],
+      "count": 1,
+      "chunks": [
+        "crane"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "content",
@@ -11770,6 +11788,24 @@
     },
     {
       "key": "nail",
+      "word": "nail",
+      "split": [
+        "nail"
+      ],
+      "count": 1,
+      "chunks": [
+        "nail"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "metal-nail",
       "word": "nail",
       "split": [
         "nail"

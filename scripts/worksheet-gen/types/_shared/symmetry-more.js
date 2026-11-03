@@ -135,12 +135,13 @@ function makeSymmetryMoreType({ id, slug, mode, gradeBand, i18n }) {
           const ml = g.querySelector('[data-lcs-mirror]');
           if (!ml || Math.abs(+ml.getAttribute('x1') - (2 + G / 2)) > 0.5) fails.push('the mirror line is not the middle grid line');
           // the printed half is clipped at the drawing's own axis (a bounding box ignores the clip, so the clip is read), and
-          // the drawing fills most of the grid's height
+          // the drawing fills most of the grid — its height, or its width for a wide drawing (a UFO, a car) that the fit
+          // scales to the grid's width (the box ignores the clip: it is the whole drawing)
           const half = g.querySelector('[data-lcs-half="given"]'), id = (half.getAttribute('clip-path') || '').replace(/^url\(#|\)$/g, '');
           const cr = id && g.querySelector(`clipPath[id="${id}"] rect`);
           if (!cr || Math.abs(+cr.getAttribute('x') + +cr.getAttribute('width') - +g.dataset.lcsAxis) > 0.01) fails.push('the printed half is not cut at the mirror line');
           const box = half.getBoundingClientRect(), gb = g.getBoundingClientRect();
-          if (box.height < gb.height * 0.6) fails.push(`the drawing is small: ${Math.round(box.height)} of ${Math.round(gb.height)} px`);
+          if (Math.max(box.height, box.width) < gb.height * 0.6) fails.push(`the drawing is small: ${Math.round(Math.max(box.height, box.width))} of ${Math.round(gb.height)} px`);
         }
         return fails;
       }, two);

@@ -83,7 +83,7 @@ let _lsFrames = null;
 function levelSetFrames() {
   if (!_lsFrames) {
     const f = require('path').join(__dirname, '..', '..', 'data', 'b2', 'fix-frames-levelset.json');
-    _lsFrames = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : {};
+    _lsFrames = require('../../lib/platform/index.js').exists(f) ? require('../../lib/platform/index.js').readJson(f) : {};
   }
   return _lsFrames;
 }
@@ -139,11 +139,11 @@ module.exports = {
     const rng = ctx.rng;
     const screen = !!(ctx && ctx.interactive), isKey = !!(ctx && ctx.answerKey);
     const variant = (ctx && ctx.variant) || 1;
-    // Level Set: fr's three-line title leaves no room for five 60 px writing lines (measured: the page
-    // reached 954 against the footer band at 921 — the published fr level-2 page already does). New
-    // copies with five lanes in fr get 52 px lines; the published page is left exactly as it is.
+    // fr's three-line title leaves no room for five 60 px writing lines (measured: the page reached 954
+    // against the footer band at 921). Every fr page with five lanes gets 52 px lines — the published
+    // level-2 page too (2026-11-03: it was left running into the footer; republished in place).
     const d0 = this.difficulty[difficulty];
-    const d = !(difficulty === 2 && variant === 1) && (locale || 'en').slice(0, 2) === 'fr' && d0.lanes >= 5 && !d0.joinPairs
+    const d = (locale || 'en').slice(0, 2) === 'fr' && d0.lanes >= 5 && !d0.joinPairs
       ? { ...d0, rulH: d0.rulH - 8 } : d0;
     const loc = (locale || 'en').slice(0, 2);
     const bank = SENTENCES[loc];

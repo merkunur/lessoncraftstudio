@@ -7992,19 +7992,19 @@
           "theme": "forest creatures",
           "noun": "hedgehog",
           "key": "hedgehog",
-          "word": "piggsvin",
+          "word": "pinnsvin",
           "graphemes": [
             "p",
             "i",
-            "g",
-            "g",
+            "n",
+            "n",
             "s",
             "v",
             "i",
             "n"
           ],
           "split": [
-            "pigg",
+            "pinn",
             "svin"
           ],
           "pos": 0
@@ -11564,12 +11564,12 @@
           "theme": "forest creatures",
           "noun": "hedgehog",
           "key": "hedgehog",
-          "word": "piggsvin",
+          "word": "pinnsvin",
           "graphemes": [
             "p",
             "i",
-            "g",
-            "g",
+            "n",
+            "n",
             "s",
             "v",
             "i",

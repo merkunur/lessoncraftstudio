@@ -43,6 +43,8 @@ function fileHref(p) {
   if (/^(https?:|data:|blob:)/.test(String(p)) || String(p).startsWith('/makers-assets/')) return String(p);   // already a URL
   const m = k.match(/^scripts\/worksheet-gen\/cache\/(themes-512|themes)\/(.+)$/);
   if (m) return ASSET_BASE + '/themes-512/' + m[2].split('/').map(encodeURIComponent).join('/');
+  const fp = k.match(/^scripts\/worksheet-gen\/data\/b5\/family-portraits\/([a-z0-9-]+\.png)$/);
+  if (fp) return ASSET_BASE + '/family-portraits/' + fp[1];   // the operator's family portraits (primitives/family-figure.js)
   const f = k.match(/^scripts\/worksheet-gen\/assets\/fonts\/(.+)$/);
   if (f) return ASSET_BASE + '/fonts/' + f[1];
   throw new Error('platform: no browser URL for ' + k);
@@ -198,7 +200,17 @@ module.exports = {
   setAssetBase(base) { ASSET_BASE = String(base).replace(/\/+$/, ''); },
   readText,
   readJson(p) { const k = key(p); if (!(k in PRELOAD)) throw new PlatformMissing(p); const v = PRELOAD[k]; return typeof v === 'string' ? JSON.parse(v) : v; },
-  // binary files are not preloaded yet: the first maker that draws one (the family portraits) publishes them as assets
+  // a picture as a small inline PNG (px × px, contained, transparent) — a tap-edit lane's icon in the screen's bundle
+  // (the Node side uses sharp; here the same-origin asset is drawn on a canvas)
+  async iconDataUrl(href, px) {
+    const img = await loadImage(fileHref(href));
+    const k = Math.min(px / img.naturalWidth, px / img.naturalHeight), w = img.naturalWidth * k, h = img.naturalHeight * k;
+    const { c, g } = canvasOf(px, px);
+    g.imageSmoothingEnabled = true; g.imageSmoothingQuality = 'high';
+    g.drawImage(img, (px - w) / 2, (px - h) / 2, w, h);
+    return c.toDataURL('image/png');
+  },
+  // binary files are never preloaded: a maker points at a published asset instead (fileHref — the family portraits)
   readBase64(p) { throw new Error('platform: binary files are not available in a maker yet: ' + key(p)); },
   // Picture files are not data: every derived 512 px picture is published, so the image cache "exists" for them.
   // an ART file exists (it is published with the data, fetched when a page reads it — the index lists only what is built)

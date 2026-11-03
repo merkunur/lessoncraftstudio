@@ -8,11 +8,9 @@
 const fs = require('fs');
 const { READING_PASSAGES } = require('../../data/literacy/reading-passages.js');
 
-const norm = (s, loc) => String(s).normalize('NFC').replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim().toLocaleLowerCase(loc || 'en');
+const { norm, literalIn, reEsc } = require('../../lib/rc-text.js');   // (shared with the reading screen, which a maker bundles)
 // the answer starts at a WORD START (Unicode letters) and may carry an inflection ending: 'modig' is NOT written in
 // 'tålmodig', 'to' not in 'store', but 'Gelb' is written in 'gelbe' and 'Tung' in 'tunge'
-const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const literalIn = (needle, hay, loc) => new RegExp('(?<!\\p{L})' + reEsc(norm(needle, loc)), 'u').test(norm(hay, loc));
 function fitsTwoRows(t) { t = String(t); if ([...t].length <= 45) return true; const w = t.split(' '); let a = ''; while (w.length && [...(a ? a + ' ' + w[0] : w[0])].length <= 45) a = a ? a + ' ' + w.shift() : w.shift(); return !!a && [...w.join(' ')].length <= 45; }
 const words = (s) => String(s).trim().split(/\s+/).length;
 const BAND = { 'G2-254': 1, 'G2-269': 3, 'G2-270': 4, 'G2-271': 5, 'G2-272': 6, 'G2-273': 7 };

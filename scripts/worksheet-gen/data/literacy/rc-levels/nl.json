@@ -787,7 +787,7 @@
       "q": "Waarom rent Anouk meteen naar beneden?",
       "choices": [
        "Ze heeft honger",
-       "Ze moet heel vroeg naar school toe vandaag",
+       "Ze moet vandaag heel vroeg naar school",
        "Ze wil zien wat er in haar schoen zit"
       ],
       "correct": 2
@@ -817,9 +817,9 @@
      {
       "q": "Wat ligt er in haar schoen?",
       "choices": [
-       "chocoladeletter B",
-       "chocoladeletter L",
-       "chocoladeletter A"
+       "Een chocoladeletter B",
+       "Een chocoladeletter L",
+       "Een chocoladeletter A"
       ],
       "correct": 2,
       "sentence": 6
@@ -1120,11 +1120,11 @@
       "sentence": 3
      },
      {
-      "q": "Wat doet de kapper?",
+      "q": "Wat gebeurt er met het haar van Hugo?",
       "choices": [
-       "knipt en knipt",
-       "wast en wast en wast",
-       "kamt en kamt"
+       "Het wordt geknipt",
+       "Het wordt gewassen",
+       "Het wordt gekamd"
       ],
       "correct": 0,
       "sentence": 4
@@ -1190,11 +1190,11 @@
       "correct": 1
      },
      {
-      "q": "Hoe voelt Jip zich als Teun weg is?",
+      "q": "Hoe voelt Jip zich als zijn beer weg is?",
       "choices": [
        "Verdrietig",
        "Blij",
-       "Boos op Teun"
+       "Boos"
       ],
       "correct": 0
      }
@@ -1322,11 +1322,11 @@
       "sentence": 4
      },
      {
-      "q": "Welk bakje is als eerste vol?",
+      "q": "Wie is als eerste klaar?",
       "choices": [
-       "het bakje van oma",
-       "het bakje van de boer",
-       "het bakje van Liv"
+       "oma",
+       "de boer",
+       "Liv"
       ],
       "correct": 2,
       "sentence": 5
@@ -2306,7 +2306,7 @@
       "correct": 0
      },
      {
-      "q": "Wat pakt Olle vast?",
+      "q": "Wat pakt het broertje vast?",
       "choices": [
        "Haar haren",
        "Haar duim",
@@ -2315,7 +2315,7 @@
       "correct": 1
      },
      {
-      "q": "Waarom huilt Olle, denk je?",
+      "q": "Waarom huilt het broertje, denk je?",
       "choices": [
        "Yara knijpt hem",
        "Hij wil naar buiten",
@@ -3283,7 +3283,7 @@
       "sentence": 3
      },
      {
-      "q": "Wat heeft de koolmees in haar snavel?",
+      "q": "Wat heeft de vogel in haar snavel?",
       "choices": [
        "een wormpje",
        "een zaadje",

@@ -49,15 +49,19 @@ function makeLitVocabMatch(cfg) {
       const iconPx = Math.min(96, itemH - 26);
       const wordFs = Math.min(34, Math.round(itemH * 0.34));
 
-      const left = pairs.map((p) =>
-        `<div class="ws-match-item" style="width:230px;height:${itemH}px" data-lit-left="${p.noun}">` +
+      // answer marks (2026-11-03): the key numbers each word and badges its picture with the same number; the screen pairs
+      // them (tap a word, then its picture)
+      const key = !!(ctx && ctx.answerKey), scr = !!(ctx && ctx.screen);
+      const num = (i) => `<span data-lcs-key-sample style="position:absolute;left:4px;top:4px;min-width:28px;height:28px;padding:0 6px;box-sizing:border-box;border-radius:14px;background:#146B5E;color:#FFFFFF;font:700 17px/28px 'Baloo 2',cursive;text-align:center">${i}</span>`;
+      const left = pairs.map((p, i) =>
+        `<div class="ws-match-item" style="${key ? 'position:relative;' : ''}width:230px;height:${itemH}px" data-lit-left="${p.noun}"${key ? ` data-lcs-pair="${i + 1}"` : scr ? ` data-lcs-key-badge="p${i + 1}"` : ''}>` + (key ? num(i + 1) : '') +
         `<span class="lit-vm-word" data-lit-content style="min-width:150px;height:${Math.min(64, itemH - 24)}px;` +
         `padding:0 16px;font-size:${wordFs}px">${p.word}</span>` +
         `<span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
 
       const right = order.map((srcIdx) => {
         const p = pairs[srcIdx];
-        return `<div class="ws-match-item ws-match-item--plain" style="width:200px;height:${itemH}px" data-lit-right="${p.noun}">` +
+        return `<div class="ws-match-item ws-match-item--plain" style="width:200px;height:${itemH}px" data-lit-right="${p.noun}"${key ? ` data-lcs-key-badge="${srcIdx + 1}"` : scr ? ` data-lcs-pair="p${srcIdx + 1}"` : ''}>` +
           `<span class="ws-match-dot ws-match-dot--left"></span>` +
           `<img class="ws-icon" src="${fileUri(p.theme, p.noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"></div>`;
       }).join('');

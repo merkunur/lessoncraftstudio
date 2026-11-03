@@ -233,7 +233,7 @@
      "sentence": 2
     },
     {
-     "q": "Was baut der Igel?",
+     "q": "Was baut das Tier aus den Blättern?",
      "choices": [
       "eine tiefe Höhle",
       "einen Turm",
@@ -1119,7 +1119,7 @@
       "sentence": 2
      },
      {
-      "q": "Wohin springt der Frosch?",
+      "q": "Wohin springt das Tier am Ende?",
       "choices": [
        "ins Gras",
        "in den Eimer",

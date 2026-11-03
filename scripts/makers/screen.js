@@ -18,6 +18,8 @@
  *      correct) / [data-lcs-key-ring] among like siblings           carries data-lcs-want (countGroups)
  *   [data-lcs-key-badge="id"] items + [data-lcs-pair="id"]       → pair (mutual when the items are the targets)
  *   [data-lcs-bin="id"] palette + [data-lcs-drop][data-lcs-answer=id] → place
+ *   [data-lcs-cover] (one picture, never an answer)              → ctx.cover: the child taps it once it is memorised and
+ *                                                                  it stays hidden (Look, Fold and Find, 2026-11-02)
  *
  * The marks are read from the SCREEN BUILD of the page (runtime.js makePage({ screen: true }) → ctx.screen, the build
  * on which a template stamps the marks its key build stamps, without the key's drawn samples); the student is served
@@ -63,7 +65,9 @@ function derive() {
         const g = el.closest('[data-lcs-colour-count]');
         return { ...box(el), answer: a, label: label(el, String(i + 1)), meta: g ? { 'data-lcs-cgroup': String(groups.indexOf(g)), 'data-lcs-colour-count': g.getAttribute('data-lcs-colour-count') } : {} };
       });
-      const bs = bins.map((el, i) => ({ ...box(el), id: el.getAttribute('data-lcs-bin'), label: label(el, String(i + 1)), html: el.querySelector('img,svg') ? el.innerHTML : '', ...(el.hasAttribute('data-lcs-fill') ? { fill: el.getAttribute('data-lcs-fill') } : {}) }));
+      // a bin's picture travels in DECK_BUNDLE: its marks stripped (G1-475's piece number tag, 2026-11-03) — the served
+      // page keeps no data-lcs-* outside ALLOW, the bundle neither
+      const bs = bins.map((el, i) => ({ ...box(el), id: el.getAttribute('data-lcs-bin'), label: label(el, String(i + 1)), html: el.querySelector('img,svg') ? el.innerHTML.replace(/\sdata-lcs-[a-z0-9-]+(?:="[^"]*")?/g, '') : '', ...(el.hasAttribute('data-lcs-fill') ? { fill: el.getAttribute('data-lcs-fill') } : {}) }));
       parts.push({ cls: 'place', items, bins: bs, dom: Math.min(...items.map((it) => it.dom)) });
     }
   }
@@ -152,7 +156,11 @@ function derive() {
   }
   parts.sort((a, b) => a.dom - b.dom);
   if (!parts.length && !errors.length) errors.push('no answer marks on the page');
-  return { errors, parts, page: { w: pr.width, h: pr.height } };
+  // 5. a cover ([data-lcs-cover], 2026-11-02 Look, Fold and Find): a picture the child looks at, then taps to hide
+  const covers = q('[data-lcs-cover]');
+  if (covers.length > 1) errors.push('cover: ' + covers.length + ' pictures to hide (one at most)');
+  const cover = covers.length ? (({ x, y, w, h }) => ({ x, y, w, h }))(box(covers[0])) : null;
+  return { errors, parts, page: { w: pr.width, h: pr.height }, ...(cover ? { cover, coverLabel: covers[0].getAttribute('data-lcs-label') || '' } : {}) };
 }
 
 /**
@@ -168,7 +176,8 @@ function plan(model, { locale }) {
       const isInt = (s) => /^\d+$/.test(String(s));
       const dec = (it) => it.meta['data-lcs-decimal'] != null;
       const decOk = (it) => dec(it) && String(it.answer).split(it.meta['data-lcs-decimal']).length === 2 && /^\d+$/.test(String(it.answer).split(it.meta['data-lcs-decimal']).join(''));
-      const numeric = p.items.every((it) => (isInt(it.answer) && !it.meta['data-lcs-alts']) || it.meta['data-lcs-range'] || it.meta['data-lcs-set'] || it.meta['data-lcs-blank'] || decOk(it)) && p.items.some((it) => !it.meta['data-lcs-blank']);
+      // a set box is numeric when its answer is (a word set — coordinate codes — takes the letter pad, 2026-11-03)
+      const numeric = p.items.every((it) => (isInt(it.answer) && !it.meta['data-lcs-alts']) || it.meta['data-lcs-range'] || (it.meta['data-lcs-set'] && (isInt(it.answer) || it.answer === '-')) || it.meta['data-lcs-blank'] || decOk(it)) && p.items.some((it) => !it.meta['data-lcs-blank']);
       const seps = [...new Set(p.items.filter(dec).map((it) => it.meta['data-lcs-decimal']))];
       if (seps.length > 1) errors.push('type: decimal boxes with two separators (' + seps.join(' ') + ')');
       if (p.items.some((it) => dec(it) && !decOk(it))) errors.push('type: a decimal box whose answer is not digits + one separator');
@@ -192,8 +201,17 @@ function plan(model, { locale }) {
         let keys;
         if (hasLetter) { const lp = letterPad(locale, words); keys = lp.keys; }
         else keys = chars.filter((c) => c !== ' ');
+        // a page that mixes number and word boxes (Write It Both Ways, a number of the day, ordinals "21st"): the pad
+        // carries all ten digits once any answer holds one — only the answers' own digits would spell them out (2026-11-02)
+        if (hasLetter && keys.some((c) => /\d/.test(c))) for (const dgt of '0123456789') if (!keys.includes(dgt)) keys.push(dgt);
         if (keys.length < 2) errors.push('type: the answers use fewer than 2 characters (' + keys.join('') + ')');
         ctx.keys = keys; ctx.pad = 'letters'; ctx.symbolPad = !hasLetter;
+        // a WORD set (data-lcs-set on word boxes, 2026-11-03: the codes of one colour, any order): the runtime takes any
+        // member once (interactive-runtime-core typeRight, C.wsets); folded as the runtime folds
+        const wsets = {};
+        const foldW = (w) => String(w).normalize('NFC').toLocaleLowerCase(locale).replace(/\s+/g, ' ').trim();
+        for (const it of p.items) if (it.meta['data-lcs-set']) (wsets[it.meta['data-lcs-set']] = wsets[it.meta['data-lcs-set']] || []).push(foldW(it.answer));
+        if (Object.keys(wsets).length) ctx.wsets = wsets;
         ctx.maxChars = Math.min(40, Math.max(2, Math.max(...words.map((w) => [...w].length)) + 3));
         parts.push({ cls: 'type', num: false, items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, answer: String(it.answer), label: it.label, meta: it.meta })) });
       }
@@ -224,6 +242,7 @@ function plan(model, { locale }) {
       parts.push({ cls: 'place', items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, answer: it.answer, label: it.label, meta: it.meta || {} })), bins: p.bins.map((b) => ({ x: b.x, y: b.y, w: b.w, h: b.h, id: b.id, label: b.label, ...(b.html ? { html: b.html } : {}), ...(b.fill ? { fill: b.fill } : {}) })) });
     }
   }
+  if (model.cover) { ctx.cover = model.cover; ctx.coverLabel = model.coverLabel || ''; }
   if (errors.length) { const e = new Error('screen: ' + errors.join('; ')); e.reasons = errors; throw e; }
   // the kind validators of the runtime (every part through its own rules), on a throwaway build
   try { core.buildInteractive({ kind: 'marks', locale, strings: { check: 'x', tryAgain: 'x', youDidIt: 'x', allCorrect: 'x', score: '{n}/{total}', print: 'x' }, ctx, parts }); }
@@ -283,8 +302,9 @@ async function buildScreen(o) {
 
 /* ---------- DECLARED screens (2026-11-01): a template whose module declares `interactive` ---------- */
 
-/** the declared kinds the maker builds in the browser (paint / trace / lanes need the catalogue's picture capture: later) */
-const DECLARED_KINDS = new Set(['tap-choice', 'tap-select', 'type-number', 'type-word', 'tap-spell', 'tap-place', 'mark-grid', 'set-clock', 'tap-paint', 'trace-path']);
+/** the declared kinds the maker builds in the browser (tap-order: the generic item + slot capture; tap-edit: the lanes,
+ *  each lane's icon inlined through the platform, 2026-11-03) */
+const DECLARED_KINDS = new Set(['tap-choice', 'tap-select', 'type-number', 'type-word', 'tap-spell', 'tap-place', 'mark-grid', 'set-clock', 'tap-paint', 'trace-path', 'tap-order', 'tap-edit']);
 
 /**
  * Runs INSIDE the declared screen build of the page (serialised: self-contained). The capture of
@@ -323,7 +343,8 @@ function deriveDeclared(sp) {
   // TRACE (trace-path, the handmade mazes; render-instance.js's capture): the maze graph the page declares
   // (data-lcs-hm-graph, body px) in % of the crop; each route's mouths become edges to a virtual start / goal
   if (sp.kind === 'trace-path') {
-    const svg = D.querySelector('svg[data-lcs-prim="hm-scene"]');
+    // a scene maze, or any maze that declares its graph (the grid mazes, K-242 family, 2026-11-02)
+    const svg = D.querySelector('svg[data-lcs-prim="hm-scene"]') || D.querySelector('svg[data-lcs-hm-graph]');
     if (!svg) return { errors: ['trace-path: no maze scene'] };
     const r = svg.getBoundingClientRect(), vbw = svg.viewBox.baseVal.width, k = r.width / vbw;
     const h = Math.min(full.height, r.bottom - full.top + 24);
@@ -342,6 +363,17 @@ function deriveDeclared(sp) {
     const trace = { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, hint: G.hint || null, ...(labels ? { labels, rule: G.rule } : {}) };
     const items = routes.map((rt, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: rt.path.join('-') }));
     return { errors: [], items, trace, crop: h, width: full.width };
+  }
+  // LANES (tap-edit, Fix the Sentence; render-instance.js's capture): the runtime draws the lanes LIVE under the page's
+  // header (title, instruction, checklist), so the crop ends just below the header; each lane travels as data
+  if (sp.kind === 'tap-edit') {
+    const heads = [...D.querySelectorAll('[data-lcs-title], [data-lcs-instruction], [data-lcs-fixchip]')];
+    if (!heads.length) return { errors: ['tap-edit: no page header to keep'] };
+    const bottom = Math.max(...heads.map((h) => h.getBoundingClientRect().bottom));
+    const root = D.querySelector('[data-lcs-marks]');
+    const raw = [...D.querySelectorAll(sp.item)].map((el) => ({ canonical: el.getAttribute('data-lcs-canonical'), broken: el.getAttribute('data-lcs-broken-text'), icon: el.getAttribute('data-lcs-icon'), split: el.hasAttribute('data-lcs-split') }));
+    if (!raw.length) return { errors: ['no item matches ' + sp.item] };
+    return { errors: [], raw, marks: root ? root.getAttribute('data-lcs-marks') : '.', crop: Math.min(full.height, bottom - full.top + 18), width: full.width };
   }
   if (sp.kind === 'mark-grid') {
     const grids = [...D.querySelectorAll('[data-lcs-grid]')];
@@ -472,9 +504,25 @@ async function buildDeclaredScreen(o) {
   // language; a Level Set scene names its own item: the unit the page was drawn with)
   if (got.paint) got.paint.hex = require('../worksheet-gen/lib/cbn-render.js').PALETTE;
   if (got.trace && spec.chrome) got.trace.chrome = spec.chrome(o.locale, o.unit || null);
+  // a tap-edit lane (render-instance.js): its words, the type's own answer (capital + end mark per word), where the two
+  // sentences split, and its picture inlined (the screen's bundle carries it)
+  if (spec.kind === 'tap-edit') {
+    const fail = (m) => { const e = new Error('screen: ' + m); e.reasons = [m]; return e; };
+    if (typeof o.type.fixAnswers !== 'function') throw fail(o.type.id + ' declares tap-edit but has no fixAnswers');
+    const platform = require('../worksheet-gen/lib/platform/index.js');
+    got.items = [];
+    for (const it of got.raw) {
+      const words = String(it.broken || '').split(' ').filter((w) => w && w !== '/');
+      const answer = o.type.fixAnswers(it.canonical);
+      if (!answer || answer.length !== words.length) throw fail(`lane "${it.broken}" has ${words.length} words but its answer has ${answer ? answer.length : 0}`);
+      answer.forEach((a, k) => { if (a.word.toLocaleLowerCase(o.locale) !== words[k]) throw fail(`word ${k + 1} "${words[k]}" ≠ the answer "${a.word}"`); });
+      const splitAfter = it.split ? String(it.broken).split(' ').filter(Boolean).indexOf('/') - 1 : -1;
+      got.items.push({ words, answer: answer.map((a) => ({ cap: a.cap, mark: a.mark })), splitAfter, icon: await platform.iconDataUrl(it.icon, 96), meta: { 'data-lcs-canonical': it.canonical } });
+    }
+  }
   const ctx = { ...declaredCtx(o.type, { theme: o.theme, difficulty: o.difficulty, locale: o.locale }, got), ...(o.design ? { design: o.design } : {}) };   // a paint screen's oracle reads its design (the page's meta)
   let rt;
-  try { rt = core.buildInteractive({ kind: spec.kind, locale: o.locale, strings: o.strings, items: got.items, ctx }); }
+  try { rt = core.buildInteractive({ kind: spec.kind, locale: o.locale, strings: o.strings, items: got.items, ctx, ...(spec.kind === 'tap-edit' ? { marks: got.marks } : {}) }); }
   catch (e) { const err = new Error('screen: ' + e.message); err.reasons = [e.message]; throw err; }
   return { html: declaredDocument({ html: o.html, rt, crop: got.crop, width: got.width }), kind: spec.kind, items: got.items, ctx };
 }

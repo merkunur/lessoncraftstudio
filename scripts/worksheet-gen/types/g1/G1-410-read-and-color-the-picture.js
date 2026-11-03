@@ -50,7 +50,7 @@ module.exports = {
           const s = RC.sentence(C, frames[i % frames.length], e, n, colors[i], rng.pick(C.bank.names), loc);
           lines.push(`<li style="display:flex;gap:10px;align-items:baseline"><span style="font-family:'Baloo 2';font-weight:700;font-size:${d.font + 2}px;color:#146B5E;min-width:22px">${i + 1}.</span>` +
             RC.sentenceP(s.text, d.font, `data-lcs-n="${n}" data-lcs-noun="${e.vocabKey}" data-lcs-color="${colors[i]}" data-lcs-noun-text="${RC.esc(s.nounText)}" data-lcs-color-text="${RC.esc(s.colorText)}"`) + '</li>');
-          for (let j = 0; j < n; j++) pics.push({ e, target: true });
+          for (let j = 0; j < n; j++) pics.push({ e, target: true, color: colors[i] });
         });
       } catch (e) { ok = false; }
       if (!ok) continue;
@@ -61,8 +61,10 @@ module.exports = {
       let best = 0;
       for (let c = 1; c <= pics.length; c++) { const r = Math.ceil(pics.length / c); best = Math.max(best, Math.min((W - GX * (c - 1)) / c, (H - GY * (r - 1)) / r)); }
       const px = Math.max(60, Math.min(d.icon, Math.floor(best * 0.94)));
-      const field = rng.shuffle(pics).map((p) => RC.icon(theme, p.e, px, rng, p.target)).join('');
-      const legend = colorLegend({ entries: colors.map((k) => ({ key: k, word: C.words[k] })) });
+      // the screen paints when every picture is coloured (no other picture: level 1), else it asks which to colour
+      const paint = !!(ctx && ctx.screen) && !pics.some((p) => !p.target);
+      const field = rng.shuffle(pics).map((p) => RC.icon(theme, p.e, px, rng, p.target, paint ? p.color : null, ctx && ctx.answerKey && !pics.some((q) => !q.target) ? p.color : null)).join('');
+      const legend = colorLegend({ entries: colors.map((k) => ({ key: k, word: C.words[k] })), bins: paint });
       return {
         bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:12px;min-height:0">${legend}` +
           `<ol style="list-style:none;margin:0;padding:0 8px;display:flex;flex-direction:column;gap:6px" data-lcs-list data-ws-content>${lines.join('')}</ol>` +

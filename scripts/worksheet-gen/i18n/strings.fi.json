@@ -3854,5 +3854,653 @@
   "K-482": {
     "title": "Piirrä mallin mukaan pisteruudukkoon",
     "instruction": "Katso jokaisen rivin viivaa. Piirrä sama viiva viereisiin tyhjiin pisteisiin oranssista pisteestä alkaen."
+  },
+  "K-484": {
+    "title": "Mikä uloskäynti? Labyrintit",
+    "instruction": "Aloita nuolesta. Seuraa käytäviä sormella. Pääset vain yhteen uloskäyntiin: ympyröi sen numero."
+  },
+  "K-485": {
+    "title": "Kirjoita reitti labyrintin läpi",
+    "instruction": "Seuraa reittiä vihreästä pisteestä lippuun. Kirjoita jokaisen suoran osan kohdalle, montako askelta (pientä nuolta) siinä on."
+  },
+  "K-486": {
+    "title": "Labyrintti: kerää kirjaimet",
+    "instruction": "Piirrä reitti kuvan luo. Kerää kirjaimet matkan varrelta ja kirjoita sana ruutuihin."
+  },
+  "K-487": {
+    "title": "Kuviopolku",
+    "instruction": "Katso kuviota ylhäällä. Kulje nuolesta lippuun ja astu vain kiville, jotka jatkavat kuviota."
+  },
+  "K-488": {
+    "title": "Mikä kuva on erilainen?",
+    "instruction": "Kaikki kuvat ovat samanlaisia paitsi yksi. Ympyröi kuva, joka on erilainen."
+  },
+  "K-489": {
+    "title": "Laske erot lajeittain",
+    "instruction": "Etsi kaikki erot kuvasta 2. Laske, montako muutosta kutakin lajia on, ja kirjoita luku sen ruutuun."
+  },
+  "K-490": {
+    "title": "Katso, taita ja etsi",
+    "instruction": "Katso kuvaa 1 niin kauan kuin haluat. Taita sitten paperi katkoviivaa pitkin niin, että kuva 1 jää piiloon. Ympyröi kuvan 2 muutokset ja merkitse ruksi ruutuun jokaisesta."
+  },
+  "K-491": {
+    "title": "Piirrä, mitä puuttuu",
+    "instruction": "Kuvasta 2 puuttuu joitakin asioita, jotka ovat kuvassa 1. Piirrä jokainen takaisin paikalleen kuvaan 2."
+  },
+  "K-492": {
+    "title": "Mitkä kaksi kuvaa ovat samanlaiset?",
+    "instruction": "Kaksi kuvaa ovat täsmälleen samanlaiset. Etsi ne ja ympyröi molemmat."
+  },
+  "K-493": {
+    "title": "Piirrä muodoista",
+    "instruction": "Katso vaiheita. Jokaisen vaiheen uudet muodot ovat oransseja. Piirrä kuva isoon ruutuun vaihe kerrallaan."
+  },
+  "K-494": {
+    "title": "Piirrä isommaksi ruudukkoon",
+    "instruction": "Piirrä kuva isoon ruudukkoon ruutu kerrallaan. Ison ruudukon ruudut ovat kaksi kertaa niin suuria, joten kuvastasi tulee myös kaksi kertaa niin suuri."
+  },
+  "K-495": {
+    "title": "Peilikuvan piirtäminen",
+    "instruction": "Puolet kuvasta on jo piirretty. Piirrä toinen puoli niin, että molemmat puolet näyttävät samalta, kuin peilissä."
+  },
+  "K-496": {
+    "title": "Kaikki samaan kuvaan",
+    "instruction": "Seuraa jokaisen piirroksen vaiheita. Piirrä sitten ne kaikki yhdessä isoon kuvaan."
+  },
+  "K-497": {
+    "title": "Vaiheet: leikkaa, järjestä ja piirrä",
+    "instruction": "Leikkaa kortit irti. Laita vaiheet järjestykseen numeroidulle riville ja liimaa ne. Piirrä sitten kuva ruutuun."
+  },
+  "K-498": {
+    "title": "Jäljennä kuva",
+    "instruction": "Jäljennä kuvan kaikki katkoviivat. Aloita mustasta pisteestä."
+  },
+  "K-499": {
+    "title": "Jäljennä kuva ja kirjoita sana",
+    "instruction": "Jäljennä kuva. Kirjoita sitten sana katkoviivojen päälle ja lopuksi itse tyhjälle riville."
+  },
+  "K-500": {
+    "title": "Pieni jäljennysvihko",
+    "instruction": "Jäljennä kolme kuvaa. Leikkaa sitten arkki neljään osaan keskellä olevia viivoja pitkin, laita kansi päällimmäiseksi ja nido sivut pieneksi vihkoksi."
+  },
+  "K-501": {
+    "title": "Jäljennä ja väritä numeroiden mukaan",
+    "instruction": "Jäljennä kuvan viivat. Väritä sitten jokainen osa sen numeron värillä."
+  },
+  "K-502": {
+    "title": "Piirrä kaksi kertaa isompana",
+    "instruction": "Katso pienen ruudukon kuvaa. Väritä samat ruudut isossa ruudukossa, jossa jokainen ruutu on kaksi kertaa niin suuri."
+  },
+  "K-503": {
+    "title": "Käännä ja peilaa kuva",
+    "instruction": "Piirrä jokainen kuva tyhjään ruudukkoon neljänneskierroksen oikealle käännettynä, niin kuin nuoli näyttää."
+  },
+  "K-504": {
+    "title": "Piirrä kuva ruudukkoon",
+    "instruction": "Piirrä kuva tyhjään ruudukkoon ruutu kerrallaan: katso, mitä kussakin ruudussa on, ja piirrä sama sitä vastaavaan ruutuun."
+  },
+  "K-505": {
+    "title": "Yhdistä lukusanat",
+    "instruction": "Aloita oranssista pisteestä. Lue lukusanat ja yhdistä pisteet siinä järjestyksessä kuin lasket."
+  },
+  "K-506": {
+    "title": "Yhdistä pisteet: parilliset tai parittomat",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä vain parilliset luvut järjestyksessä: 2, 4, 6 ja niin edelleen. Hyppää parittomien lukujen yli."
+  },
+  "K-507": {
+    "title": "Isot ja pienet kirjaimet",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä iso kirjain, sitten sama pieni kirjain ja sitten seuraava iso: A, a, B, b ja niin edelleen."
+  },
+  "K-508": {
+    "title": "Etsi täsmälleen samanlainen",
+    "instruction": "Katso kunkin rivin ensimmäistä kuvaa. Ympyröi kuva, joka on täsmälleen samanlainen: ei käännetty eikä peilattu."
+  },
+  "K-509": {
+    "title": "Mitkä kuvat piiloutuvat?",
+    "instruction": "Viivasotkuun on piiloutunut kuvia. Etsi niiden ääriviivat ja ympyröi sitten ne kuvat alla olevasta rivistä."
+  },
+  "K-510": {
+    "title": "Mikä ei kuulu joukkoon?",
+    "instruction": "Lue jokaisen ryhmän nimi. Ympyröi kuva, joka ei kuulu siihen ryhmään."
+  },
+  "K-511": {
+    "title": "Lajittele säännön mukaan",
+    "instruction": "Lue kahden ryhmän nimet. Vedä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-512": {
+    "title": "Lajittelualustat ja kuvakortit",
+    "instruction": "Leikkaa kuvakortit irti. Laita jokainen kortti alustalle, jolle se kuuluu."
+  },
+  "G1-487": {
+    "title": "Väritä parilliset ja parittomat",
+    "instruction": "Onko kuvion luku parillinen vai pariton? Väritä kuvio sillä värillä, jonka koodi näyttää."
+  },
+  "K-513": {
+    "title": "Väritä lukusanojen mukaan",
+    "instruction": "Lue lukusana jokaisesta kuviosta. Etsi sen luku koodista ja väritä kuvio sillä värillä."
+  },
+  "K-514": {
+    "title": "Väritä oman koodisi mukaan",
+    "instruction": "Valitse jokaiselle luvulle väri. Väritä sen ruutu koodissa ja kirjoita värin nimi. Väritä sitten kuviot."
+  },
+  "K-515": {
+    "title": "Väritä iso ja pieni",
+    "instruction": "Katso koodia: jokaisella koolla on oma värinsä. Väritä jokainen kuva sen koon värillä."
+  },
+  "K-516": {
+    "title": "Pieni värityskirja",
+    "instruction": "Taita yläpuolisko taakse ja sitten vasen puolisko taakse, niin saat pienen kirjan. Väritä jokainen sivu."
+  },
+  "G1-488": {
+    "title": "Väritä ja kirjoita lause",
+    "instruction": "Väritä kuva. Kirjoita sitten siitä. Lauseiden alut auttavat sinua aloittamaan."
+  },
+  "K-517": {
+    "title": "Lukujen kirjoitusharjoitus 1–100",
+    "instruction": "Kirjoita katkoviivoin piirretyt luvut viivoja pitkin. Kirjoita jokaiseen tyhjään ruutuun luku, joka siihen kuuluu."
+  },
+  "K-518": {
+    "title": "Näin kirjoitamme numerot",
+    "instruction": "Aloita pisteestä ja seuraa nuolia. Pienet numerot näyttävät, mikä viiva tulee ensin."
+  },
+  "K-519": {
+    "title": "Keksi oma tangramkuvio",
+    "instruction": "Väritä jokainen pala mallin mukaan ja leikkaa irti seitsemän palaa. Tee kaikista paloista oma kuvio alustalle ja piirrä sitten sen ympäri."
+  },
+  "K-520": {
+    "title": "Ensimmäiset tangramtehtävät",
+    "instruction": "Leikkaa irti palat jokaisen kuvion vierestä. Aseta ne kuvion päälle niin, että ne peittävät sen tarkasti."
+  },
+  "G1-489": {
+    "title": "Minkä kuvion voit rakentaa?",
+    "instruction": "Katso jokaisen rivin palat. Ympyröi se ainoa tumma kuvio, jonka voit rakentaa juuri näistä paloista."
+  },
+  "K-522": {
+    "title": "Yhdistä kuvio ja nimi",
+    "instruction": "Katso jokaista tummaa tangramkuviota. Vedä viiva kuviosta sen nimeen."
+  },
+  "K-523": {
+    "title": "Nimen kirjoitusharjoitus",
+    "instruction": "Katso nimeä. Kirjoita se katkoviivoja pitkin ja sitten itse tyhjille viivoille."
+  },
+  "K-524": {
+    "title": "Kirjaimet ja kuvat",
+    "instruction": "Sano kuvan nimi ja kuuntele sen ensimmäistä äännettä. Kirjoita sen äänteen kirjain katkoviivoja pitkin ja sitten itse."
+  },
+  "K-525": {
+    "title": "Isot ja pienet kirjaimet yhdessä",
+    "instruction": "Kirjoita iso ja pieni kirjain vierekkäin katkoviivoja pitkin ja sitten itse. Aloita oranssista pisteestä."
+  },
+  "K-526": {
+    "title": "Kirjainkortit: näin kirjoitan kirjaimet",
+    "instruction": "Jokainen kirjain alkaa oranssista pisteestä. Seuraa numeroita ja nuolia, niin näet, miten se kirjoitetaan. Leikkaa kortit irti katkoviivoja pitkin."
+  },
+  "K-527": {
+    "title": "Lauseen kirjoitusharjoitus",
+    "instruction": "Lue lause. Kirjoita se katkoviivoja pitkin ja sitten itse tyhjille viivoille."
+  },
+  "G1-490": {
+    "title": "Kirjoita kuvien nimet",
+    "instruction": "Kirjoita jokaisen kuvan nimi sen alla olevalle viivalle. Laatikon sanat auttavat sinua."
+  },
+  "K-529": {
+    "title": "Sanojen muoto",
+    "instruction": "Sano jokaisen kuvan nimi. Kirjoita jokaiseen ruutuun yksi kirjain: korkeat kirjaimet korkeisiin ruutuihin ja alas ulottuvat kirjaimet alas ulottuviin ruutuihin."
+  },
+  "G1-491": {
+    "title": "Oma sanakirjani",
+    "instruction": "Kirjoita jokaisen kuvan nimi ensimmäiselle viivalle. Kirjoita sitten siitä oma lause."
+  },
+  "K-530": {
+    "title": "Aakkosjuna",
+    "instruction": "Kirjoita puuttuvat kirjaimet vaunuihin niin, että aakkosjuna on oikeassa järjestyksessä. Tyhjän vaunun kuva alkaa vaunun kirjaimella."
+  },
+  "K-531": {
+    "title": "Aakkostaulu",
+    "instruction": "Sano jokainen kirjain ja kuvan nimi. Kuva alkaa kirjaimen äänteellä."
+  },
+  "K-532": {
+    "title": "Kirjainjahti",
+    "instruction": "Katso laatikossa olevaa kirjainta. Etsi sama kirjain ilmapalloista, leijoista ja kylteistä ja ympyröi jokainen."
+  },
+  "G1-492": {
+    "title": "Kirjain ennen ja jälkeen",
+    "instruction": "Kirjoita jokaisen kirjaimen viereen kirjain, joka tulee aakkosissa ennen sitä."
+  },
+  "K-533": {
+    "title": "Väritä vokaalit",
+    "instruction": "Sano, mitä kuvassa on. Väritä sanan kaikki vokaalit."
+  },
+  "K-534": {
+    "title": "Kirjainkortit järjestykseen",
+    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Laita ne aakkosjärjestykseen ja lue kirjaimet."
+  },
+  "K-535": {
+    "title": "Sama alkuäänne?",
+    "instruction": "Sano kahden kuvan nimet. Jos ne alkavat samalla äänteellä, ympyröi väkänen. Jos eivät, ympyröi ruksi."
+  },
+  "K-536": {
+    "title": "Pyykkipoikakortit: alkuäänne",
+    "instruction": "Leikkaa kortit irti. Sano jokaisen kuvan nimi ja kiinnitä pyykkipoika sen alkuäänteen kirjaimeen."
+  },
+  "G1-495": {
+    "title": "Pitkä vai lyhyt vokaali?",
+    "instruction": "Sano jokainen sana. Onko värillinen vokaali pitkä vai lyhyt? Ympyröi viiva, jos se on pitkä, ja piste, jos se on lyhyt."
+  },
+  "K-537": {
+    "title": "Riimimuistipeli",
+    "instruction": "Leikkaa kortit irti ja käännä ne kuvapuoli alaspäin. Käännä kaksi korttia. Jos kuvat rimmaavat, saat pitää ne!"
+  },
+  "K-538": {
+    "title": "Mikä ei rimmaa?",
+    "instruction": "Sano kolmen kuvan nimet. Kaksi niistä rimmaa. Ympyröi se, joka ei rimmaa."
+  },
+  "K-539": {
+    "title": "Riimidomino",
+    "instruction": "Leikkaa dominopalat irti. Aseta ne renkaaksi: jokaisen palan oikeanpuoleinen kuva rimmaa seuraavan palan vasemmanpuoleisen kuvan kanssa."
+  },
+  "G1-496": {
+    "title": "Tavupalapeli",
+    "instruction": "Leikkaa palat irti katkoviivoja pitkin. Sekoita ne ja kokoa jokainen sana uudelleen tavu tavulta."
+  },
+  "K-541": {
+    "title": "Taputa ja laske",
+    "instruction": "Sano jokainen sana ja taputa sen tavut. Väritä yksi ympyrä jokaista taputusta kohden ja kirjoita, montako kertaa taputit."
+  },
+  "K-542": {
+    "title": "Kuvamuistipeli",
+    "instruction": "Leikkaa kortit irti ja käännä ne kuvapuoli alaspäin. Käännä kaksi korttia. Jos ne kuuluvat yhteen, saat pitää ne!"
+  },
+  "K-543": {
+    "title": "Sanakortit sanaseinälle",
+    "instruction": "Leikkaa sanakortit irti katkoviivoja pitkin ja kiinnitä ne sanaseinälle."
+  },
+  "K-544": {
+    "title": "Oma kuvasanakirja",
+    "instruction": "Lue sanat aakkosjärjestyksessä. Sano jokaisen kuvan nimi."
+  },
+  "K-545": {
+    "title": "Leikkaa ja liimaa sanat",
+    "instruction": "Leikkaa sanat irti sivun alareunasta. Liimaa jokainen sana oikean kuvan alla olevaan ruutuun."
+  },
+  "K-546": {
+    "title": "Lue ja piirrä",
+    "instruction": "Lue jokainen lause. Piirrä kuva oikeaan paikkaan."
+  },
+  "K-547": {
+    "title": "Missä se on?",
+    "instruction": "Katso jokaista kuvaa. Kirjoita puuttuva sana. Laatikon sanat auttavat sinua."
+  },
+  "K-548": {
+    "title": "Valitse oikea sana",
+    "instruction": "Katso jokaista kuvaa. Ympyröi sana, joka sopii lauseeseen."
+  },
+  "K-549": {
+    "title": "Lue ja liimaa",
+    "instruction": "Leikkaa kuvat irti sivun alareunasta. Lue jokainen lause ja liimaa kuva oikeaan paikkaan."
+  },
+  "G2-484": {
+    "title": "Adjektiivin vertailumuodot",
+    "instruction": "Kirjoita jokaisen adjektiivin kaksi puuttuvaa muotoa mallin mukaan."
+  },
+  "G1-497": {
+    "title": "Sanaluokat lauseissa",
+    "instruction": "Lue jokainen lause. Ympyröi kaikki substantiivit. Myös nimet ovat substantiiveja."
+  },
+  "G1-498": {
+    "title": "Iso alkukirjain",
+    "instruction": "Lue jokainen lause. Ympyröi jokainen sana, joka kirjoitetaan isolla alkukirjaimella."
+  },
+  "G2-485": {
+    "title": "Verbien taivutus",
+    "instruction": "Taivuta verbi: kirjoita jokaiseen ruutuun muoto, joka sopii rivin alussa olevaan sanaan."
+  },
+  "G2-486": {
+    "title": "Adjektiivin taipuminen",
+    "instruction": "Valitse adjektiivin oikea muoto."
+  },
+  "K-550": {
+    "title": "Mikä on yläkäsite?",
+    "instruction": "Katso jokaisen rivin kuvia. Mikä on kuvien yläkäsite? Kirjoita sana laatikosta."
+  },
+  "K-551": {
+    "title": "Vastakohtakortit",
+    "instruction": "Leikkaa kortit irti ja aseta ne kuvapuoli alaspäin. Käännä kaksi korttia: jos ne ovat vastakohtia, saat pitää ne!"
+  },
+  "G1-499": {
+    "title": "Pienet sanat",
+    "instruction": "Kirjoita jokaisen sanan pieni muoto."
+  },
+  "G2-487": {
+    "title": "Yhdyssanapalapeli",
+    "instruction": "Leikkaa palat irti. Yhdistä kaksi palaa yhdyssanaksi ja kirjoita sana viivalle."
+  },
+  "K-552": {
+    "title": "Lausesuikaleet",
+    "instruction": "Lue lause. Leikkaa sanat irti, sekoita ne ja kokoa lause uudelleen. Liimaa se tyhjälle suikaleelle."
+  },
+  "G1-500": {
+    "title": "Täydennä lause",
+    "instruction": "Lue jokainen lause. Katso kuvaa ja kirjoita puuttuva sana oikeassa muodossa."
+  },
+  "K-553": {
+    "title": "Kuvalauseet",
+    "instruction": "Lue jokainen lause. Kirjoita kuvan sana ruutuun oikeassa muodossa."
+  },
+  "G1-501": {
+    "title": "Lause vai ei?",
+    "instruction": "Lue jokainen sanaryhmä. Ympyröi väkänen, jos se on kokonainen lause. Ympyröi risti, jos se ei ole."
+  },
+  "G1-502": {
+    "title": "Lauseen puolikkaat",
+    "instruction": "Yhdistä viivalla jokainen lauseen alku sen loppuun. Kuvat auttavat sinua."
+  },
+  "G1-503": {
+    "title": "Pidennä lausetta",
+    "instruction": "Lue lyhyt lause. Vastaa kysymyksiin lyhyille viivoille. Kirjoita sitten pidempi lause vastaustesi avulla."
+  },
+  "G1-504": {
+    "title": "Lue ja vastaa",
+    "instruction": "Lue teksti. Vastaa jokaiseen kysymykseen viivalle."
+  },
+  "G1-505": {
+    "title": "Oikein vai väärin?",
+    "instruction": "Lue kertomus. Lue sitten jokainen kysymys ja sen vastaus. Ympyröi väkänen, jos vastaus on oikein. Ympyröi risti, jos se on väärin."
+  },
+  "G2-488": {
+    "title": "Mikä otsikko sopii?",
+    "instruction": "Lue jokainen kertomus. Ympyröi otsikko, joka sopii siihen parhaiten."
+  },
+  "K-554": {
+    "title": "Lukupäiväkirjani",
+    "instruction": "Täytä sivu kirjasta, jonka luit. Väritä tähdet sen mukaan, kuinka paljon pidit kirjasta."
+  },
+  "G1-506": {
+    "title": "Tarinakartta",
+    "instruction": "Suunnittele tarinasi. Piirrä ja kirjoita, mitä tapahtuu alussa, keskellä ja lopussa."
+  },
+  "G1-507": {
+    "title": "Sarjakuva",
+    "instruction": "Katso jokaista kuvaa. Kirjoita puhekupliin, mitä hahmot sanovat."
+  },
+  "G1-508": {
+    "title": "Noppatarina",
+    "instruction": "Heitä noppaa kerran jokaista saraketta varten. Kirjoita sitten tarina siitä, mitä sait."
+  },
+  "G1-509": {
+    "title": "Kuvaile hahmoa",
+    "instruction": "Katso kuvaa. Täydennä lauseet hahmostasi. Laatikon sanat auttavat sinua."
+  },
+  "G1-510": {
+    "title": "Kirjoita postikortti",
+    "instruction": "Kirjoita postikortti jollekulle, josta pidät. Kirjoita hänen nimensä tervehdyksen perään ja oma nimesi loppuun."
+  },
+  "K-555": {
+    "title": "Kirjoita kuvasta",
+    "instruction": "Katso jokaista kuvaa. Kirjoita siitä lause."
+  },
+  "G1-511": {
+    "title": "Vertailutehtävät",
+    "instruction": "Lue jokainen tehtävä. Vertaa kahta kuvariviä. Kirjoita ruutuun, kuinka monta enemmän tai vähemmän on."
+  },
+  "G1-512": {
+    "title": "Mikä lasku sopii?",
+    "instruction": "Lue jokainen tehtävä. Ympyröi lasku, joka sopii tarinaan."
+  },
+  "G1-513": {
+    "title": "Keksi oma laskutarina",
+    "instruction": "Katso jokaista laskua. Kirjoita siihen sopiva tarina. Voit kertoa kuvasta."
+  },
+  "G2-489": {
+    "title": "Kaksivaiheiset sanalliset tehtävät",
+    "instruction": "Lue jokainen tehtävä. Laske ensin ensimmäinen vaihe ja sitten toinen. Kirjoita luvut ruutuihin."
+  },
+  "G2-490": {
+    "title": "Päivän luku 1 000:een asti",
+    "instruction": "Katso päivän lukua. Täytä jokainen laatikko sivulla tämän luvun mukaan."
+  },
+  "G1-514": {
+    "title": "Numeroin ja kirjaimin",
+    "instruction": "Kirjoita lukusanat numeroin ja luvut kirjaimin."
+  },
+  "K-556": {
+    "title": "Luku, lukusana ja kuva",
+    "instruction": "Yhdistä jokainen luku oikeaan lukusanaan. Yhdistä sitten jokainen lukusana oikeaan kuvaan."
+  },
+  "K-557": {
+    "title": "Lukusanakortit",
+    "instruction": "Leikkaa kortit irti. Kiinnitä ne seinälle tai leikkaa katkoviivoja pitkin ja yhdistä luku, lukusana ja kuva."
+  },
+  "G1-515": {
+    "title": "Järjestysluvut 31:een asti",
+    "instruction": "Kirjoita jokainen järjestysluku kirjaimin. Kirjoita jokainen sana numeroin."
+  },
+  "K-558": {
+    "title": "Millä hyllyllä?",
+    "instruction": "Laske hyllyt alhaalta alkaen. Vastaa jokaiseen kysymykseen: ympyröi oikea kuva tai oikea luku."
+  },
+  "G1-516": {
+    "title": "Järjestysluvut: numeroin ja sanoin",
+    "instruction": "Yhdistä jokainen järjestysluku oikeaan sanaan."
+  },
+  "G2-491": {
+    "title": "Numeroin ja kirjaimin 1 000:een asti",
+    "instruction": "Kirjoita lukusanat numeroin ja luvut kirjaimin."
+  },
+  "G1-517": {
+    "title": "Sekaisin menneet kirjaimet",
+    "instruction": "Katso jokaista kuvaa. Laita kirjaimet oikeaan järjestykseen ja kirjoita sana."
+  },
+  "G1-518": {
+    "title": "Puuttuvat kirjaimet",
+    "instruction": "Katso jokaista kuvaa. Kirjoita puuttuvat kirjaimet ruutuihin."
+  },
+  "G1-519": {
+    "title": "Katso, peitä, kirjoita, tarkista",
+    "instruction": "Lue jokainen sana. Taita paperi katkoviivan kohdalta niin, että sana peittyy. Kirjoita sana ja kirjoita se uudelleen. Avaa taitos ja tarkista."
+  },
+  "G2-492": {
+    "title": "Mikä sana on kirjoitettu oikein?",
+    "instruction": "Katso jokaista kuvaa. Lue sanat. Ympyröi sana, joka on kirjoitettu oikein."
+  },
+  "G1-520": {
+    "title": "Puuttuvat vokaalit",
+    "instruction": "Katso jokaista kuvaa. Kirjoita puuttuvat vokaalit ruutuihin."
+  },
+  "K-560": {
+    "title": "Kirjainlaatat ja sanakortit",
+    "instruction": "Leikkaa kirjainlaatat irti. Sano kuvan nimi ja kokoa sana ruutuihin. Osa kirjaimista jää yli."
+  },
+  "G1-521": {
+    "title": "Järjestyslukukortit",
+    "instruction": "Leikkaa kortit irti. Laita ne järjestykseen tai leikkaa katkoviivoja pitkin ja yhdistä palat, jotka kuuluvat yhteen."
+  },
+  "G1-522": {
+    "title": "Yksikkö ja monikko",
+    "instruction": "Katso jokaista kuvaa. Kirjoita puuttuvat sanat yksikössä ja monikossa."
+  },
+  "K-561": {
+    "title": "Laske ja kirjoita monikko",
+    "instruction": "Laske kunkin ruudun kuvat. Kirjoita lukusana ja sana."
+  },
+  "K-562": {
+    "title": "Yksi vai monta?",
+    "instruction": "Lue sana. Ympyröi ryhmä, joka sopii sanaan."
+  },
+  "G1-523": {
+    "title": "Ensimmäinen ja toinen kerta",
+    "instruction": "Lue kaksi lausetta. Ympyröi sopivat sanat."
+  },
+  "G1-524": {
+    "title": "Täytä kalenteri",
+    "instruction": "Kirjoita kalenteriin puuttuvat päivämäärät."
+  },
+  "G1-525": {
+    "title": "Syntymäpäiväpylväikkömme",
+    "instruction": "Kysy luokkatovereiltasi heidän syntymäkuukautensa. Väritä jokaiselle lapselle yksi ruutu hänen kuukautensa yläpuolelle. Laske kunkin kuukauden väritetyt ruudut."
+  },
+  "G1-526": {
+    "title": "Tämän päivän päivämäärä",
+    "instruction": "Katso kalenterin sivua. Kirjoita päivämäärä numeroin."
+  },
+  "G1-527": {
+    "title": "Lukujärjestyksemme",
+    "instruction": "Lue lukujärjestys. Vastaa jokaiseen kysymykseen."
+  },
+  "G1-528": {
+    "title": "Aarrejahti: seuraa ohjeita",
+    "instruction": "Aloita lipun kohdalta. Seuraa ohjeita. Ympyröi kuva, johon päädyt."
+  },
+  "G1-529": {
+    "title": "Kerro reitti",
+    "instruction": "Seuraa reittiä ensimmäisestä kuvasta. Ympyröi jokaisen osan suunta ja kirjoita, montako ruutua se on."
+  },
+  "K-563": {
+    "title": "Huone ylhäältä",
+    "instruction": "Jokainen esine on piirretty sivulta. Yhdistä se samaan esineeseen ylhäältä katsotussa huoneessa."
+  },
+  "G1-530": {
+    "title": "Piirrä oma kartta",
+    "instruction": "Piirrä kartta. Piirrä selitykseen jokainen käyttämäsi karttamerkki ja kirjoita, mitä se tarkoittaa."
+  },
+  "G2-493": {
+    "title": "Laivanupotus",
+    "instruction": "Väritä laivasi omaan ruudukkoosi. Sanokaa vuorotellen ruutu, esimerkiksi B3. Merkitse parisi ruudukkoon piste ohilaukauksesta ja rasti osumasta."
+  },
+  "K-564": {
+    "title": "Tunteeni tällä viikolla",
+    "instruction": "Väritä joka päivä sen tunteen ympyrä, joka sinulla on."
+  },
+  "K-565": {
+    "title": "Tunnemittari",
+    "instruction": "Kuinka voimakas tunne on? Väritä mittari niin korkealle kuin tunne on voimakas."
+  },
+  "G1-531": {
+    "title": "Kaverini ja minä",
+    "instruction": "Tee yhdessä kaverin kanssa. Piirrä tai kirjoita, mikä on vain sinun, mikä vain kaverisi ja mikä teillä molemmilla."
+  },
+  "K-566": {
+    "title": "Tunnekortit",
+    "instruction": "Leikkaa kortit irti. Puhukaa niiden avulla tunteista."
+  },
+  "G1-532": {
+    "title": "Sanaetsintä",
+    "instruction": "Etsi jokainen listan sana ruudukosta ja ympyröi se."
+  },
+  "K-567": {
+    "title": "Kuvien sanat ruudukossa",
+    "instruction": "Sano kuvan nimi. Etsi sana ruudukosta ja ympyröi se."
+  },
+  "G2-494": {
+    "title": "Salainen viesti sanaruudukossa",
+    "instruction": "Etsi ja ympyröi kaikki sanat. Lue sitten jäljelle jääneet kirjaimet rivi riviltä ja kirjoita salainen viesti."
+  },
+  "G1-533": {
+    "title": "Muotoon tehty sanaruudukko",
+    "instruction": "Etsi jokainen listan sana kuviosta ja ympyröi se."
+  },
+  "G1-534": {
+    "title": "Kahden kielen sanaruudukko",
+    "instruction": "Lue jokainen sana ja katso kuvaa. Etsi sana suomeksi ruudukosta ja ympyröi se."
+  },
+  "K-568": {
+    "title": "Lukusanat ruudukossa",
+    "instruction": "Lue jokainen luku. Etsi sen lukusana ruudukosta ja ympyröi se."
+  },
+  "G1-535": {
+    "title": "Kuvaristikko",
+    "instruction": "Katso jokaista numeroitua kuvaa. Kirjoita sen sana ruutuihin, joissa on sama numero."
+  },
+  "G1-536": {
+    "title": "Nuoliristikko",
+    "instruction": "Jokainen ruudukon kuva näyttää sanan. Kirjoita sana ruutuihin, joihin nuoli osoittaa."
+  },
+  "G2-495": {
+    "title": "Täyttöristikko",
+    "instruction": "Sijoita jokainen listan sana ruudukkoon. Laske kirjaimet ja käytä apuna kirjaimia, jotka risteävät."
+  },
+  "G1-537": {
+    "title": "Ristikko ja sanalista",
+    "instruction": "Katso jokaista numeroitua kuvaa. Etsi sen sana sanalistasta ja kirjoita se ruutuihin."
+  },
+  "G1-538": {
+    "title": "Kahden kielen ristikko",
+    "instruction": "Lue jokainen sana ja katso kuvaa. Kirjoita sana suomeksi ruutuihin, joissa on sama numero."
+  },
+  "G1-539": {
+    "title": "Kuvasalakieli",
+    "instruction": "Jokainen kuva tarkoittaa yhtä kirjainta. Kirjoita salainen viesti avaimen avulla."
+  },
+  "G1-540": {
+    "title": "Numerosalakieli",
+    "instruction": "Jokainen numero tarkoittaa yhtä kirjainta: A on 1. Kirjoita salainen viesti avaimen avulla."
+  },
+  "G1-541": {
+    "title": "Laskusalakieli",
+    "instruction": "Laske jokainen lasku. Etsi vastaus avaimesta ja kirjoita sen kirjain."
+  },
+  "G2-496": {
+    "title": "Täydennä avain",
+    "instruction": "Avaimesta puuttuu kirjaimia. Selvitä ne valmiiksi ratkaistun sanan avulla. Kirjoita sitten salainen viesti."
+  },
+  "G1-542": {
+    "title": "Keksi oma salakieli",
+    "instruction": "Piirrä merkki jokaiselle kirjaimelle. Kirjoita viesti ja kirjoita se sitten uudelleen omalla salakielelläsi kaverille."
+  },
+  "K-569": {
+    "title": "Kuvabingo",
+    "instruction": "Kuuntele jokainen sana. Jos sen kuva on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "K-574": {
+    "title": "Kuvabingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja sano sana. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "K-570": {
+    "title": "Yleisten sanojen bingo",
+    "instruction": "Kuuntele jokainen sana. Jos sana on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "K-575": {
+    "title": "Yleisten sanojen bingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue sana ääneen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "G1-543": {
+    "title": "Laskubingo",
+    "instruction": "Kuuntele jokainen lasku ja laske se. Jos vastaus on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "G1-545": {
+    "title": "Laskubingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue lasku ääneen, mutta älä kerro vastausta. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "G1-544": {
+    "title": "Kellobingo",
+    "instruction": "Kuuntele jokainen kellonaika. Jos jokin kortin kello näyttää sen, merkitse se kello. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "G1-546": {
+    "title": "Kellobingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue kellonaika ääneen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "K-571": {
+    "title": "Alkuäännebingo",
+    "instruction": "Kuuntele jokainen sana ja sen ensimmäinen äänne. Jos äänteen kirjain on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "K-576": {
+    "title": "Alkuäännebingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja sano sana, mutta älä sano kirjainta. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "K-572": {
+    "title": "Lukusanabingo",
+    "instruction": "Kuuntele jokainen luku. Jos se on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "K-577": {
+    "title": "Lukusanabingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue luku ääneen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "K-573": {
+    "title": "Muoto- ja väribingo",
+    "instruction": "Kuuntele jokainen muoto ja sen väri. Jos se on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+  },
+  "K-578": {
+    "title": "Muoto- ja väribingo: arvontakortit",
+    "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue muoto ja väri ääneen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
   }
 }

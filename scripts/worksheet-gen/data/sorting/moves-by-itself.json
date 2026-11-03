@@ -1,0 +1,169 @@
+{
+ "_note": "K-511 Sort by a Rule (Sorting maker 2026-11-02): moves by itself / needs a push or a pull. Every picture opened on a contact sheet before it was listed. Nothing with a motor or battery (a motor scooter, a lawn mower, a vacuum cleaner, a toy car, a robot, a train) and nothing moved by the wind (a kite, a balloon): a child could fairly put them in either group. Only animals move by themselves here.",
+ "bins": [
+  {
+   "key": "self",
+   "label": {
+    "en": "Moves by Itself",
+    "de": "Bewegt sich von selbst",
+    "es": "Se mueve solo",
+    "fr": "Bouge tout seul",
+    "it": "Si muove da solo",
+    "pt": "Se mexe sozinho",
+    "nl": "Beweegt vanzelf",
+    "sv": "Rör sig av sig själv",
+    "da": "Bevæger sig af sig selv",
+    "no": "Beveger seg av seg selv",
+    "fi": "Liikkuu itse"
+   }
+  },
+  {
+   "key": "push",
+   "label": {
+    "en": "Needs a Push or a Pull",
+    "de": "Muss man schieben oder ziehen",
+    "es": "Hay que empujarlo o jalarlo",
+    "fr": "Il faut le pousser ou le tirer",
+    "it": "Va spinto o tirato",
+    "pt": "Precisa ser empurrado ou puxado",
+    "nl": "Moet je duwen of trekken",
+    "sv": "Måste puttas eller dras",
+    "da": "Skal skubbes eller trækkes",
+    "no": "Må skyves eller dras",
+    "fi": "Pitää työntää tai vetää"
+   }
+  }
+ ],
+ "items": [
+  {
+   "theme": "pets",
+   "noun": "dog",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "cat",
+   "bin": "self"
+  },
+  {
+   "theme": "farm animals",
+   "noun": "horse",
+   "bin": "self"
+  },
+  {
+   "theme": "farm animals",
+   "noun": "duck",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "rabbit",
+   "bin": "self"
+  },
+  {
+   "theme": "zoo animals",
+   "noun": "elephant",
+   "bin": "self"
+  },
+  {
+   "theme": "zoo animals",
+   "noun": "kangaroo",
+   "bin": "self"
+  },
+  {
+   "theme": "insects and bugs",
+   "noun": "snail",
+   "bin": "self"
+  },
+  {
+   "theme": "insects and bugs",
+   "noun": "ant",
+   "bin": "self"
+  },
+  {
+   "theme": "insects and bugs",
+   "noun": "ladybug",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "goldfish",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "frog",
+   "bin": "self"
+  },
+  {
+   "theme": "farm animals",
+   "noun": "pig",
+   "bin": "self"
+  },
+  {
+   "theme": "zoo animals",
+   "noun": "monkey",
+   "bin": "self"
+  },
+  {
+   "theme": "animals",
+   "noun": "penguin",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "mouse",
+   "bin": "self"
+  },
+  {
+   "theme": "farm animals",
+   "noun": "chick",
+   "bin": "self"
+  },
+  {
+   "theme": "pets",
+   "noun": "turtle",
+   "bin": "self"
+  },
+  {
+   "theme": "toys",
+   "noun": "ball",
+   "bin": "push"
+  },
+  {
+   "theme": "beach",
+   "noun": "beach_ball",
+   "bin": "push"
+  },
+  {
+   "theme": "toys",
+   "noun": "swing",
+   "bin": "push"
+  },
+  {
+   "theme": "winter",
+   "noun": "sled",
+   "bin": "push"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "cart",
+   "bin": "push"
+  },
+  {
+   "theme": "toys",
+   "noun": "skateboard",
+   "bin": "push"
+  },
+  {
+   "theme": "around the house",
+   "noun": "door",
+   "bin": "push"
+  },
+  {
+   "theme": "furniture",
+   "noun": "rocker",
+   "bin": "push"
+  }
+ ]
+}

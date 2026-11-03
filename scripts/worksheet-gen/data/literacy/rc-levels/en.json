@@ -1989,7 +1989,7 @@
       "correct": 1
      },
      {
-      "q": "When does Quinn practice with Scout?",
+      "q": "When does Quinn practice with the puppy?",
       "choices": [
        "every day after school",
        "every morning",
@@ -2602,7 +2602,7 @@
       "correct": 1
      },
      {
-      "q": "What does Ruby save for Theo at lunch?",
+      "q": "What does Theo's new friend save for him at lunch?",
       "choices": [
        "a seat",
        "a cookie",
@@ -2815,7 +2815,7 @@
       "correct": 1
      },
      {
-      "q": "Why does Sofia give Victor water?",
+      "q": "Why does Victor get water in class?",
       "choices": [
        "to help him fix his hair",
        "to water a plant",

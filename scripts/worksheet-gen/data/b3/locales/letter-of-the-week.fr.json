@@ -384,19 +384,18 @@
           "theme": "farm animals",
           "noun": "chicken",
           "key": "chicken",
-          "word": "poulet",
+          "word": "poule",
           "graphemes": [
             "p",
             "o",
             "u",
             "l",
-            "e",
-            "t"
+            "e"
           ],
           "pos": 3,
           "split": [
             "pou",
-            "let"
+            "le"
           ]
         },
         {
@@ -3315,25 +3314,6 @@
           ]
         },
         {
-          "theme": "farm animals",
-          "noun": "chicken",
-          "key": "chicken",
-          "word": "poulet",
-          "graphemes": [
-            "p",
-            "o",
-            "u",
-            "l",
-            "e",
-            "t"
-          ],
-          "pos": 5,
-          "split": [
-            "pou",
-            "let"
-          ]
-        },
-        {
           "theme": "clothing",
           "noun": "beanie",
           "key": "beanie",
@@ -3611,24 +3591,6 @@
           "split": [
             "pous",
             "sin"
-          ]
-        },
-        {
-          "theme": "farm animals",
-          "noun": "chicken",
-          "key": "chicken",
-          "word": "poulet",
-          "graphemes": [
-            "p",
-            "ou",
-            "l",
-            "e",
-            "t"
-          ],
-          "pos": 1,
-          "split": [
-            "pou",
-            "let"
           ]
         },
         {

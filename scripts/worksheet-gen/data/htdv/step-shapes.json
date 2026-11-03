@@ -1,0 +1,530 @@
+{
+ "bear": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "bee": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "triangle",
+    "n": 1
+   }
+  ],
+  [],
+  []
+ ],
+ "bull": [
+  [
+   {
+    "shape": "rectangle",
+    "n": 1
+   },
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 4
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "cat": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "circle",
+    "n": 2
+   },
+   {
+    "shape": "triangle",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "chameleon": [
+  [
+   {
+    "shape": "circle",
+    "n": 2
+   },
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "chick": [
+  [
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [],
+  [
+   {
+    "shape": "triangle",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "cow-spotted": [
+  [
+   {
+    "shape": "oval",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 4
+   }
+  ],
+  [],
+  []
+ ],
+ "cow": [
+  [
+   {
+    "shape": "rectangle",
+    "n": 1
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 4
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "dog": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "half-circle",
+    "n": 1
+   },
+   {
+    "shape": "oval",
+    "n": 4
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "fish": [
+  [
+   {
+    "shape": "triangle",
+    "n": 1
+   },
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  [],
+  [],
+  []
+ ],
+ "goat": [
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 2
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "hippo": [
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 4
+   },
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "kangaroo": [
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "half-circle",
+    "n": 2
+   },
+   {
+    "shape": "oval",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "shape": "half-circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ]
+ ],
+ "koala": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "mushroom": [
+  [
+   {
+    "shape": "rectangle",
+    "n": 1
+   },
+   {
+    "shape": "half-circle",
+    "n": 1
+   }
+  ],
+  [],
+  [],
+  []
+ ],
+ "panda": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [],
+  [],
+  []
+ ],
+ "raccoon": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 3
+   },
+   {
+    "shape": "triangle",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "snowman": [
+  [
+   {
+    "shape": "circle",
+    "n": 3
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "triangle",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "squirrel": [
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "triangle",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "half-circle",
+    "n": 1
+   }
+  ],
+  []
+ ],
+ "teddy-bear": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 4
+   },
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "triangle",
+    "n": 2
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ]
+ ],
+ "tiger": [
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   },
+   {
+    "shape": "circle",
+    "n": 1
+   }
+  ],
+  [
+   {
+    "shape": "half-circle",
+    "n": 1
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   },
+   {
+    "shape": "circle",
+    "n": 2
+   }
+  ],
+  [],
+  []
+ ],
+ "yak": [
+  [
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "rectangle",
+    "n": 2
+   },
+   {
+    "shape": "half-circle",
+    "n": 2
+   },
+   {
+    "shape": "oval",
+    "n": 2
+   }
+  ],
+  [
+   {
+    "shape": "oval",
+    "n": 1
+   }
+  ],
+  []
+ ]
+}

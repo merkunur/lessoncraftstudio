@@ -17,6 +17,7 @@
  */
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
+const { keyNumber } = require('./key-number.js');
 
 const SCOPED_CSS = `
 .sci-sort{flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;min-height:0;padding:6px 0}
@@ -64,12 +65,16 @@ function makeLitSort(cfg) {
 
       const itemPx = Math.min(78, Math.floor(648 / Math.max(1, strip.length)) - 12);
       const pad = Math.round(itemPx * 0.12);
+      // the maker's answer key (each picture and its bin numbered alike) and drag-to-bin screen (2026-11-02, as
+      // science-category-sort); the catalogue page is byte-unchanged
+      const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
       const stripHtml = strip.map((it) =>
-        `<span class="sci-item" style="padding:${pad}px" data-sci-item="${it.bin}">` +
+        `<span class="sci-item" style="padding:${pad}px" data-sci-item="${it.bin}"` + (scr ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : '') + '>' +
+        (key ? keyNumber(binKeys.indexOf(it.bin) + 1) : '') +
         `<img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${itemPx}px;height:${itemPx}px">` +
         `<span class="sci-dot"></span></span>`).join('');
-      const binsHtml = binKeys.map((bk) =>
-        `<div class="ws-bin sci-bin" data-sci-bin="${bk}"><span class="sci-bin-label">${labelFor(bk)}</span></div>`).join('');
+      const binsHtml = binKeys.map((bk, k) =>
+        `<div class="ws-bin sci-bin" data-sci-bin="${bk}"${scr ? ` data-lcs-bin="${bk}"` : ''}>` + (key ? keyNumber(k + 1) : '') + `<span class="sci-bin-label">${labelFor(bk)}</span></div>`).join('');
 
       return {
         bodyHtml:

@@ -18,11 +18,37 @@ const { withSlots } = require('../../lib/hm-slots.js');
 const { generateLooped, generateLayers, generateStreets, generateForest, generateStrands, generateHexHop } = require('../../lib/hm-maze.js');
 const R = require('../../lib/hm-rules.js');
 const { COLLATION } = require('../../data/b2/collation.js');
+const { makeRng, instanceSeed } = require('../../lib/rng.js');
+
+/**
+ * THE MAKER (2026-11-02, ENGINES-ART §8.2): a maze is a retry search (0.4-30 s a page on an unlucky seed), so a maker
+ * page never searches — copy n of a face at a level is the n-th entry of data/hm/maker-pins.json (tools/build-maze-pins.js):
+ * the face's own scene at that level, then its Level Set scenes, each at a seed measured to build fast (per language for
+ * the label faces). The page is built from that seed and scene exactly as the catalogue would build it; a Level Set
+ * scene brings its own title and instruction. The catalogue never reads the pins (no ctx.slotsOut there).
+ */
+let _pins = null;
+function pinFor(typeId, difficulty, locale, copy) {
+  const platform = require('../../lib/platform/index.js');
+  const f = require('path').join(__dirname, '..', '..', 'data', 'hm', 'maker-pins.json');
+  if (!_pins) _pins = platform.exists(f) ? platform.readJson(f) : {};
+  const lv = ((_pins.faces || {})[typeId] || {})[String(difficulty)];
+  if (!lv) return null;
+  const list = lv[String(locale || 'en').slice(0, 2)] || lv['*'];
+  return list && list.length ? list[(copy - 1) % list.length] : null;
+}
+/** the copy a maker page asks for: its variant, or a fresh-seed retry "<variant>.<k>" k copies on */
+function copyOf(ctx) {
+  const v = String((ctx && (ctx.seedVariant || ctx.variant)) || 1);
+  if (/^\d+$/.test(v)) return +v;
+  const [a, k] = v.split('.');
+  return (+a || 1) + (+k || 0);
+}
 
 /** the printed words of a Level Set scene in a locale (data/hmx/text/<loc>.js) — a missing entry REFUSES */
 function hmxText(unit, locale) {
   const loc = String(locale || 'en').slice(0, 2); const id = String(unit).replace(/@.*$/, '');
-  let T; try { T = require('../../data/hmx/text/' + loc + '.js'); } catch (e) { throw new Error('K-405: no Level Set text file for ' + loc); }
+  let T; try { T = require('../../lib/platform/index.js').requireData(require('path').join(__dirname, '..', '..', 'data', 'hmx', 'text', loc + '.js')); } catch (e) { throw new Error('K-405: no Level Set text file for ' + loc); }
   const t = T[id]; if (!t) throw new Error('K-405: no Level Set text for ' + id + ' in ' + loc);
   for (const k of ['title', 'printTitle', 'instruction', 'tap']) if (!t[k]) throw new Error('K-405: Level Set text ' + id + ' / ' + loc + ' has no ' + k);
   return t;
@@ -87,6 +113,17 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
       if (!pool) throw new Error('K-405: no first-sound pool for ' + loc);
       const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 36)]);
       m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignSound(adj, route, pool, rnd, L.laterLMin || 3), rule: R.soundRule({ good: pool.l.map((c) => c.src) }), lgates: { decoys: L.decoyCount } }, rng.next);
+      if (m && !m.fail) m.ruleStamp = { kind: 'sound', good: pool.l.map((c) => c.src) };
+    } else if (sc.labels && sc.labels.rule === 'kind') {
+      // K-480 picture path: step only on pictures of a KIND (the good themes' pictures) among pictures of other kinds —
+      // the sound face's machinery (a card is good or a decoy), its pool built from the themes (pictures only, no words)
+      const L = sc.labels; const { labelSafeNouns } = require('../../image-cache/resolve.js');
+      // labels.exclude: pictures a child may not read as the kind (a bee is an animal, but many five-year-olds say a bug is not)
+      const ex = new Set(L.exclude || []);
+      const cards = (themes) => [...new Map(themes.flatMap((th) => labelSafeNouns(th).filter((n) => !ex.has(n.noun) && !ex.has(n.vocabKey)).map((n) => [n.vocabKey, { src: th + '/' + n.noun }]))).values()];
+      const pool = { l: cards(L.good), decoy: cards(L.decoy) };
+      const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 36)]);
+      m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignSound(adj, route, pool, rnd, L.laterLMin || 0), rule: R.soundRule({ good: pool.l.map((c) => c.src) }), lgates: { decoys: L.decoyCount } }, rng.next);
       if (m && !m.fail) m.ruleStamp = { kind: 'sound', good: pool.l.map((c) => c.src) };
     } else if (sc.labels && (sc.labels.rule === 'collect' || sc.labels.rule === 'avoid')) {
       const L = sc.labels; const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 28)]);
@@ -220,8 +257,13 @@ module.exports = {
 
   build({ difficulty, locale, unit }, ctx) {
     const d = this.difficulty[difficulty];
+    let rng = ctx.rng;
+    // the maker: the pinned scene + seed of this copy (see pinFor); the face's own scene takes the level presets
+    const pin = ctx && ctx.slotsOut && !unit && !ctx.noPin ? pinFor(this.id, difficulty, locale, copyOf(ctx)) : null;
+    if (pin) { unit = pin.u || null; rng = makeRng(instanceSeed({ typeId: this.id, theme: null, difficulty: Number(difficulty), seedEpoch: 1, variant: pin.s, unit })); }
     const hmx = unit && /^hmx-/.test(String(unit));
-    const scene = hmx ? require('../../lib/hmx.js').resolveHmx(unit, difficulty, d.mode) : d.scene;
+    const own = !hmx && ctx && ctx.slotsOut && Number(difficulty) !== 2;
+    const scene = hmx ? require('../../lib/hmx.js').resolveHmx(unit, difficulty, d.mode) : own ? require('../../lib/hmx.js').resolveOwn(d.mode, difficulty, d.scene) : d.scene;
     const sceneName = hmx ? String(unit) : d.scene;
     // a maze the composer cannot dress (no island big enough for a required drawing) is replaced by the next maze from
     // the same rng — print, screen and key replay the identical sequence, so they stay one instance (2026-10-11: a
@@ -229,8 +271,8 @@ module.exports = {
     const key = !!(ctx && ctx.answerKey);
     let sc, m, out, lastMissing = [];
     for (let a = 0; a < 12; a++) {
-      ({ sc, m } = mazeFor(scene, ctx.rng, 12, locale));
-      out = sc.maze.gen === 'strands' ? composeStrands(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : sc.maze.gen === 'hex' ? composeHex(sc, m, { key }) : composeScene(sc, m, { key, rnd: ctx.rng.next, screen: !!(ctx && ctx.interactive) });
+      ({ sc, m } = mazeFor(scene, rng, 12, locale));
+      out = sc.maze.gen === 'strands' ? composeStrands(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : sc.maze.gen === 'hex' ? composeHex(sc, m, { key }) : composeScene(sc, m, { key, rnd: rng.next, screen: !!(ctx && ctx.interactive) });
       if (!out.missing.length) break;
       lastMissing = out.missing;
     }
@@ -240,7 +282,9 @@ module.exports = {
     const strip = sc.strip ? stripSvg(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : '';
     const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px">${out.svg}${strip}</div>`;
     // F13 names the run's last letter in its instruction ({LAST}, filled by render-instance on every page)
-    return { bodyHtml, meta, ...(m.run ? { tokens: { LAST: m.run[m.run.length - 1] } } : {}) };
+    // a pinned Level Set scene prints its own words (the hero is not the face's): runtime.makePage takes them unless edited
+    const own3 = pin && hmx ? (() => { const t = hmxText(unit, locale); return { strings: { title: t.title, printTitle: t.printTitle, instruction: t.instruction, screenInstruction: t.tap } }; })() : {};
+    return { bodyHtml, meta, ...(m.run ? { tokens: { LAST: m.run[m.run.length - 1] } } : {}), ...own3, ...(pin && pin.u ? { unit: pin.u } : {}) };
   },
 
   async verify(page) {
@@ -249,10 +293,16 @@ module.exports = {
       const svg = document.querySelector('svg[data-lcs-prim="hm-scene"]');
       if (!svg) return null;
       const r = svg.getBoundingClientRect();
-      return { graph: JSON.parse(svg.getAttribute('data-lcs-hm-graph')), clip: { x: r.left + window.scrollX, y: r.top + window.scrollY, width: r.width, height: r.height }, w: svg.viewBox.baseVal.width, key: !!svg.querySelector('[data-lcs-hm-key]') };
+      return { graph: JSON.parse(svg.getAttribute('data-lcs-hm-graph')), clip: { x: r.left + window.scrollX, y: r.top + window.scrollY, width: r.width, height: r.height }, w: svg.viewBox.baseVal.width, key: !!svg.querySelector('[data-lcs-hm-key]'), svg: svg.outerHTML };
     });
     if (!info) return ['no maze scene'];
     if (info.key) return fails;   // the key is judged by the key gate, not the walkable-page oracle
+    // in the maker (makers 2026-11-02; spike S6): the same oracle on the scene's own SVG rasterised by the browser
+    // platform — a browser cannot screenshot itself. The catalogue keeps the screenshot below
+    if (page.live) {
+      const { analyzeSvg } = require('../../lib/hm-verify.js');
+      return fails.concat(await analyzeSvg({ svg: info.svg, graph: info.graph, scale: 1, seam: 1 }));
+    }
     const png = await page.screenshot({ clip: info.clip });
     const dpr = await page.evaluate(() => window.devicePixelRatio || 1);
     const { analyzeScene } = require('../../lib/hm-verify.js');

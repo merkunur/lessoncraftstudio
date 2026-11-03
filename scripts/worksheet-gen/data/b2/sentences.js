@@ -627,9 +627,9 @@ const SENTENCES = {
       "Hugo",
       "Chloé",
       "Louis",
-      "Emma",
+      "Manon",
       "Nathan",
-      "Inès",
+      "Camille",
       "Jules"
     ],
     "colorWords": null,
@@ -1068,9 +1068,9 @@ const SENTENCES = {
       "Leonardo",
       "Giulia",
       "Francesco",
-      "Aurora",
+      "Giorgia",
       "Lorenzo",
-      "Alice",
+      "Beatrice",
       "Matteo"
     ],
     "colorWords": null,

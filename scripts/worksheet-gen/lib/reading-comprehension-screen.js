@@ -19,7 +19,7 @@ const { seededShuffle, pageSalt } = require('./answer-slots.js');
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
 const { storyById } = require('../data/literacy/reading-passages-levels.js');
-const { literalIn, norm } = require('../tools/level-set/rc-validate.js');
+const { literalIn, norm } = require('./rc-text.js');
 
 const SCR_W = 660, OPT_H = 104;   // 104 page-px reaches the 44 px tap floor at 360 wide
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

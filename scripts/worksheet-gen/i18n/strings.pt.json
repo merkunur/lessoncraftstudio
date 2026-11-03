@@ -3887,5 +3887,677 @@
   "K-482": {
     "title": "Copie o desenho nos pontos",
     "instruction": "Observe a linha de cada fileira. Desenhe a mesma linha nos pontos vazios ao lado, a partir do ponto laranja."
+  },
+  "K-484": {
+    "title": "Qual é a saída? Labirintos",
+    "instruction": "Comece na seta. Siga os caminhos com o dedo. Você só consegue chegar a uma saída: circule o número dela."
+  },
+  "K-485": {
+    "title": "Escreva o caminho do labirinto",
+    "instruction": "Siga o caminho do ponto verde até a bandeira. Em cada trecho reto, escreva quantos passos (setinhas) ele tem."
+  },
+  "K-486": {
+    "title": "Labirinto: junte as letras",
+    "instruction": "Trace o caminho até a figura. Junte as letras que encontrar no caminho e escreva a palavra nos quadrinhos."
+  },
+  "K-487": {
+    "title": "O caminho do padrão",
+    "instruction": "Olhe o padrão lá em cima. Vá da seta até a bandeira pisando só nas pedras que seguem o padrão."
+  },
+  "K-488": {
+    "title": "Qual figura é diferente?",
+    "instruction": "Todas as figuras são iguais, menos uma. Circule a figura que é diferente."
+  },
+  "K-489": {
+    "title": "Conte cada tipo de diferença",
+    "instruction": "Encontre todas as diferenças na figura 2. Conte as mudanças de cada tipo e escreva o número no quadrinho certo."
+  },
+  "K-490": {
+    "title": "Olhe, dobre e encontre",
+    "instruction": "Olhe a figura 1 pelo tempo que quiser. Depois dobre a folha na linha tracejada para esconder a figura 1. Circule as mudanças na figura 2 e marque um quadrinho para cada uma."
+  },
+  "K-491": {
+    "title": "Desenhe o que está faltando",
+    "instruction": "Algumas coisas da figura 1 estão faltando na figura 2. Desenhe cada uma no lugar certo na figura 2."
+  },
+  "K-492": {
+    "title": "Quais são as duas figuras iguais?",
+    "instruction": "Duas das figuras são exatamente iguais. Encontre-as e circule as duas."
+  },
+  "K-493": {
+    "title": "Desenhe com formas",
+    "instruction": "Olhe os passos. Em cada passo aparecem formas novas em laranja. Faça o desenho no quadro grande, um passo de cada vez."
+  },
+  "K-494": {
+    "title": "Amplie o desenho na malha quadriculada",
+    "instruction": "Copie o desenho na malha grande, quadradinho por quadradinho. Cada quadradinho da malha grande tem o dobro do tamanho, então o seu desenho também vai ficar com o dobro do tamanho."
+  },
+  "K-495": {
+    "title": "Desenho espelhado",
+    "instruction": "Metade do desenho já está pronta. Desenhe a outra metade para que os dois lados fiquem iguais, como num espelho."
+  },
+  "K-496": {
+    "title": "Todos juntos num desenho",
+    "instruction": "Siga os passos de cada desenho. Depois, desenhe todos juntos no quadro grande."
+  },
+  "K-497": {
+    "title": "Passos: recorte, ordene e desenhe",
+    "instruction": "Recorte os cartões. Coloque os passos em ordem na fileira numerada e cole. Depois, faça o desenho no quadro."
+  },
+  "K-498": {
+    "title": "Cubra o desenho",
+    "instruction": "Cubra todas as linhas do desenho. Comece no ponto preto."
+  },
+  "K-499": {
+    "title": "Cubra o desenho e escreva a palavra",
+    "instruction": "Cubra o desenho. Depois cubra a palavra nas linhas e escreva sozinho."
+  },
+  "K-500": {
+    "title": "Um livrinho para cobrir",
+    "instruction": "Cubra os três desenhos. Depois recorte a folha em quatro nas linhas do meio, coloque a capa por cima e grampeie as páginas para fazer um livrinho."
+  },
+  "K-501": {
+    "title": "Cubra e pinte por números",
+    "instruction": "Cubra as linhas do desenho. Depois pinte cada parte com a cor do número dela."
+  },
+  "K-502": {
+    "title": "Desenhe com o dobro do tamanho",
+    "instruction": "Olhe o desenho na malha pequena. Pinte os mesmos quadradinhos na malha grande, onde cada quadradinho tem o dobro do tamanho."
+  },
+  "K-503": {
+    "title": "Gire e espelhe o desenho",
+    "instruction": "Copie cada desenho na malha vazia, girado um quarto de volta para a direita, como mostra a seta."
+  },
+  "K-504": {
+    "title": "Copie o desenho na malha",
+    "instruction": "Copie o desenho na malha vazia, quadradinho por quadradinho: veja o que tem em cada quadradinho e desenhe o mesmo no quadradinho correspondente."
+  },
+  "K-505": {
+    "title": "Ligue os números por extenso",
+    "instruction": "Comece no ponto laranja. Leia os números escritos por extenso e ligue os pontos na ordem da contagem."
+  },
+  "K-506": {
+    "title": "Ligue os pontos: pares ou ímpares",
+    "instruction": "Comece no ponto laranja. Ligue só os números pares em ordem: 2, 4, 6 e assim por diante. Pule os números ímpares."
+  },
+  "K-507": {
+    "title": "Ligue maiúsculas e minúsculas",
+    "instruction": "Comece no ponto laranja. Ligue uma letra maiúscula, depois a minúscula dela e depois a próxima maiúscula: A, a, B, b e assim por diante."
+  },
+  "K-508": {
+    "title": "Encontre o gêmeo exato",
+    "instruction": "Observe a primeira figura de cada fileira. Circule a figura que é exatamente igual: nem girada, nem espelhada."
+  },
+  "K-509": {
+    "title": "Quais figuras estão escondidas?",
+    "instruction": "Algumas figuras estão escondidas no emaranhado de linhas. Encontre os contornos delas e depois circule essas figuras na fileira de baixo."
+  },
+  "K-510": {
+    "title": "Qual não pertence ao grupo?",
+    "instruction": "Leia o nome de cada grupo. Circule a figura que não pertence a esse grupo."
+  },
+  "K-511": {
+    "title": "Classifique por uma regra",
+    "instruction": "Leia os nomes dos dois grupos. Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-512": {
+    "title": "Tapetes de classificação e cartões",
+    "instruction": "Recorte os cartões com figuras. Coloque cada cartão no tapete onde ele vai."
+  },
+  "G1-487": {
+    "title": "Pinte os pares e os ímpares",
+    "instruction": "O número de cada forma é par ou ímpar? Pinte a forma com a cor que a legenda mostra."
+  },
+  "K-513": {
+    "title": "Pinte pelo número por extenso",
+    "instruction": "Leia o número por extenso em cada forma. Encontre o número dele na legenda e pinte a forma com essa cor."
+  },
+  "K-514": {
+    "title": "Pinte com a sua própria legenda",
+    "instruction": "Escolha uma cor para cada número. Pinte o quadradinho dele na legenda e escreva o nome da cor. Depois pinte as formas."
+  },
+  "K-515": {
+    "title": "Pinte o grande e o pequeno",
+    "instruction": "Observe a legenda: cada tamanho tem a sua cor. Pinte cada desenho com a cor do tamanho dele."
+  },
+  "K-516": {
+    "title": "Um livrinho para colorir",
+    "instruction": "Dobre a metade de cima para trás e depois a metade da esquerda para trás para fazer um livrinho. Pinte cada página."
+  },
+  "G1-488": {
+    "title": "Pinte e escreva uma frase",
+    "instruction": "Pinte o desenho. Depois escreva sobre ele. Os inícios de frase ajudam você a começar."
+  },
+  "K-517": {
+    "title": "Números pontilhados de 1 a 100",
+    "instruction": "Cubra os números pontilhados. Em cada quadradinho vazio, escreva o número que vai ali."
+  },
+  "K-518": {
+    "title": "Como escrevemos os números",
+    "instruction": "Comece no ponto e siga as setas. Os números pequenos mostram qual traço vem primeiro."
+  },
+  "K-519": {
+    "title": "Invente sua própria figura de tangram",
+    "instruction": "Pinte cada peça como na legenda e recorte as sete peças. Monte sua própria figura com todas elas no quadro e depois contorne a figura."
+  },
+  "K-520": {
+    "title": "Primeiros quebra-cabeças de tangram",
+    "instruction": "Recorte as peças ao lado de cada figura. Coloque-as sobre a figura para cobri-la exatamente."
+  },
+  "G1-489": {
+    "title": "Qual figura você consegue montar?",
+    "instruction": "Observe as peças de cada fileira. Circule a única figura escura que você consegue montar exatamente com essas peças."
+  },
+  "K-522": {
+    "title": "Ligue cada figura escura ao seu nome",
+    "instruction": "Observe cada figura escura de tangram. Ligue a figura ao nome dela."
+  },
+  "K-523": {
+    "title": "Escreva seu nome",
+    "instruction": "Observe o nome. Cubra o nome pontilhado e depois escreva-o sozinho nas linhas vazias."
+  },
+  "K-524": {
+    "title": "Letras e figuras",
+    "instruction": "Diga o nome de cada figura e ouça o primeiro som. Cubra a letra desse som e depois escreva-a sozinho."
+  },
+  "K-525": {
+    "title": "Maiúsculas e minúsculas juntas",
+    "instruction": "Cubra a letra maiúscula e a minúscula lado a lado e depois escreva as duas sozinho. Comece no ponto laranja."
+  },
+  "K-526": {
+    "title": "Cartões: como escrever as letras",
+    "instruction": "Cada letra começa no ponto laranja. Siga os números e as setas para ver como se escreve. Recorte os cartões pelas linhas tracejadas."
+  },
+  "K-527": {
+    "title": "Frase pontilhada",
+    "instruction": "Leia a frase. Cubra a frase pontilhada e depois escreva-a nas linhas vazias."
+  },
+  "G1-490": {
+    "title": "Legende as figuras",
+    "instruction": "Escreva o nome de cada figura na linha embaixo dela. As palavras do quadro podem ajudar você."
+  },
+  "K-529": {
+    "title": "O formato das palavras",
+    "instruction": "Diga o nome de cada figura. Escreva uma letra em cada quadrinho: as letras altas nos quadrinhos altos e as que descem nos quadrinhos que descem."
+  },
+  "G1-491": {
+    "title": "Meu caderno de palavras",
+    "instruction": "Escreva o nome de cada figura na primeira linha. Depois invente uma frase com essa palavra e escreva embaixo."
+  },
+  "G2-480": {
+    "title": "Minhas palavras em letra cursiva",
+    "instruction": "Leia cada frase. Cubra a frase em letra cursiva, ligando as letras, e depois escreva-a embaixo."
+  },
+  "G2-481": {
+    "title": "A letra do dia em letra cursiva",
+    "instruction": "Cubra a letra cinza, as letras ligadas e a palavra e depois escreva tudo nas linhas vazias."
+  },
+  "G2-482": {
+    "title": "Letra de forma e letra cursiva: ligue as palavras",
+    "instruction": "Leia cada palavra em letra cursiva e ligue-a com um traço à mesma palavra em letra de forma."
+  },
+  "G2-483": {
+    "title": "O alfabeto em letra cursiva",
+    "instruction": "Observe cada letra escrita em cursiva e em letra de forma. Use o alfabeto quando escrever em letra cursiva."
+  },
+  "K-530": {
+    "title": "O trem do alfabeto",
+    "instruction": "Escreva as letras que faltam nos vagões para o trem do alfabeto ficar em ordem. A figura de um vagão vazio começa com a letra dele."
+  },
+  "K-531": {
+    "title": "O alfabeto ilustrado",
+    "instruction": "Diga cada letra e o nome da figura dela. A figura começa com o som da letra."
+  },
+  "K-532": {
+    "title": "Caça às letras",
+    "instruction": "Olhe a letra do quadrinho. Procure essa letra nos balões, nas pipas e nas placas e circule todas."
+  },
+  "G1-492": {
+    "title": "A letra de antes e a de depois",
+    "instruction": "Escreva a letra que vem antes de cada letra no alfabeto."
+  },
+  "K-533": {
+    "title": "Pinte as vogais",
+    "instruction": "Diga o nome de cada figura. Pinte todas as vogais da palavra."
+  },
+  "K-534": {
+    "title": "Cartões do alfabeto para pôr em ordem",
+    "instruction": "Recorte os cartões nas linhas tracejadas. Coloque-os na ordem do alfabeto e leia as letras."
+  },
+  "K-535": {
+    "title": "O mesmo som inicial?",
+    "instruction": "Diga o nome das duas figuras. Se os nomes começarem com o mesmo som, circule o sinal de certo. Se não, circule o X."
+  },
+  "K-536": {
+    "title": "Cartões com prendedor: o som inicial",
+    "instruction": "Recorte os cartões. Diga o nome de cada figura e coloque um prendedor de roupa na letra do primeiro som."
+  },
+  "G1-493": {
+    "title": "Encontros consonantais",
+    "instruction": "Diga o nome de cada figura. Escreva as duas letras com que a palavra começa."
+  },
+  "G1-494": {
+    "title": "Letras e sons",
+    "instruction": "Leia cada palavra. Conte as letras (Aa) e os sons que você ouve (a orelha). Escreva os dois números."
+  },
+  "K-537": {
+    "title": "Jogo da memória das rimas",
+    "instruction": "Recorte as cartas e vire-as para baixo. Desvire duas cartas. Se as figuras rimarem, fique com elas!"
+  },
+  "K-538": {
+    "title": "Qual não rima?",
+    "instruction": "Diga o nome das três figuras. Duas rimam. Circule a que não rima."
+  },
+  "K-539": {
+    "title": "Dominó das rimas",
+    "instruction": "Recorte as peças do dominó. Monte um círculo: a figura da direita de cada peça rima com a figura da esquerda da peça seguinte."
+  },
+  "K-540": {
+    "title": "Família silábica",
+    "instruction": "Leia cada sílaba e a palavra da figura."
+  },
+  "G1-496": {
+    "title": "Quebra-cabeça de sílabas",
+    "instruction": "Recorte as peças nas linhas tracejadas. Misture as peças e monte cada palavra de novo, sílaba por sílaba."
+  },
+  "K-541": {
+    "title": "Bata palmas e conte",
+    "instruction": "Diga cada palavra e bata palmas para cada sílaba. Pinte um círculo para cada palma e escreva quantas palmas você bateu."
+  },
+  "K-542": {
+    "title": "Jogo da memória das figuras",
+    "instruction": "Recorte as cartas e vire-as para baixo. Desvire duas cartas. Se elas formarem um par, fique com elas!"
+  },
+  "K-543": {
+    "title": "Fichas para o mural de palavras",
+    "instruction": "Recorte as fichas nas linhas tracejadas e coloque-as no mural de palavras."
+  },
+  "K-544": {
+    "title": "Meu dicionário ilustrado",
+    "instruction": "Leia as palavras em ordem alfabética. Diga o nome de cada figura."
+  },
+  "K-545": {
+    "title": "Recorte e cole as palavras",
+    "instruction": "Recorte as palavras lá embaixo. Cole cada palavra no quadrinho debaixo da figura."
+  },
+  "K-546": {
+    "title": "Leia e desenhe",
+    "instruction": "Leia cada frase. Desenhe a figura no lugar certo."
+  },
+  "K-547": {
+    "title": "Onde está?",
+    "instruction": "Observe cada figura. Escreva a palavra que falta. As palavras do quadro podem ajudar você."
+  },
+  "K-548": {
+    "title": "Escolha a palavra",
+    "instruction": "Observe cada figura. Circule a palavra que completa a frase."
+  },
+  "K-549": {
+    "title": "Leia e cole",
+    "instruction": "Recorte as figuras lá embaixo. Leia cada frase e cole a figura no lugar certo."
+  },
+  "G2-484": {
+    "title": "Comparativo e superlativo",
+    "instruction": "Escreva as duas formas que faltam de cada adjetivo, como no exemplo."
+  },
+  "G1-497": {
+    "title": "Classes de palavras na frase",
+    "instruction": "Leia cada frase. Circule todos os substantivos. Os nomes de pessoas também são substantivos."
+  },
+  "G1-498": {
+    "title": "Letras maiúsculas",
+    "instruction": "Leia cada frase. Circule cada palavra que deve começar com letra maiúscula."
+  },
+  "G2-485": {
+    "title": "Conjugação no presente",
+    "instruction": "Conjugue o verbo no presente: escreva-o em cada quadrinho de acordo com a pessoa no começo da linha."
+  },
+  "G2-486": {
+    "title": "Concordância do adjetivo",
+    "instruction": "Circule a forma certa do adjetivo."
+  },
+  "K-550": {
+    "title": "Qual é o grupo?",
+    "instruction": "Observe as figuras de cada linha. De que grupo elas são? Escreva a palavra do quadro."
+  },
+  "K-551": {
+    "title": "Cartas dos opostos",
+    "instruction": "Recorte as cartas e vire-as para baixo. Desvire duas cartas: se forem opostas, fique com elas!"
+  },
+  "G1-499": {
+    "title": "Diminutivo e aumentativo",
+    "instruction": "Escreva o diminutivo de cada palavra no quadrinho."
+  },
+  "G2-487": {
+    "title": "Palavras compostas",
+    "instruction": "Recorte as peças. Junte duas peças para formar uma palavra composta e escreva-a em uma linha."
+  },
+  "K-552": {
+    "title": "Tiras de frases",
+    "instruction": "Leia a frase. Recorte as palavras, misture e monte a frase de novo. Cole na tira vazia."
+  },
+  "G1-500": {
+    "title": "Complete a frase",
+    "instruction": "Leia cada frase. Observe a figura e escreva a palavra que falta."
+  },
+  "K-553": {
+    "title": "Frases com figuras",
+    "instruction": "Leia cada frase. Escreva no quadrinho a palavra da figura."
+  },
+  "G1-501": {
+    "title": "É uma frase?",
+    "instruction": "Leia cada grupo de palavras. Circule o sinal de certo se for uma frase completa. Circule o X se não for."
+  },
+  "G1-502": {
+    "title": "Metades de frases",
+    "instruction": "Ligue cada começo de frase ao final certo. As figuras ajudam você."
+  },
+  "G1-503": {
+    "title": "Aumente a frase",
+    "instruction": "Leia a frase curta. Responda às perguntas nas linhas curtas. Depois escreva uma frase mais longa com as suas respostas."
+  },
+  "G1-504": {
+    "title": "Leia e responda",
+    "instruction": "Leia o texto. Responda a cada pergunta na linha."
+  },
+  "G1-505": {
+    "title": "Certo ou errado?",
+    "instruction": "Leia a história. Depois leia cada pergunta e a resposta. Circule o sinal de certo se a resposta estiver certa. Circule o X se estiver errada."
+  },
+  "G2-488": {
+    "title": "Qual é o melhor título?",
+    "instruction": "Leia cada história. Circule o título que combina melhor com ela."
+  },
+  "K-554": {
+    "title": "Meu diário de leitura",
+    "instruction": "Preencha a página sobre o livro que você leu. Pinte as estrelas para mostrar quanto você gostou."
+  },
+  "G1-506": {
+    "title": "Mapa da história",
+    "instruction": "Planeje a sua história. Desenhe e escreva o que acontece no início, no meio e no fim."
+  },
+  "G1-507": {
+    "title": "História em quadrinhos",
+    "instruction": "Observe cada quadrinho. Escreva nos balões o que os personagens falam."
+  },
+  "G1-508": {
+    "title": "Dado das histórias",
+    "instruction": "Jogue o dado para cada coluna. Depois escreva uma história com o que saiu."
+  },
+  "G1-509": {
+    "title": "Descreva o personagem",
+    "instruction": "Observe a figura. Complete as frases sobre o seu personagem. As palavras do quadro podem ajudar você."
+  },
+  "G1-510": {
+    "title": "Escreva um cartão-postal",
+    "instruction": "Escreva um cartão-postal para alguém de quem você gosta. Escreva o nome da pessoa depois da saudação e o seu nome no final."
+  },
+  "K-555": {
+    "title": "Escreva sobre a figura",
+    "instruction": "Observe cada figura. Escreva uma frase sobre ela."
+  },
+  "G1-511": {
+    "title": "Problemas de comparação",
+    "instruction": "Leia cada problema. Compare as duas fileiras de figuras. Escreva no quadrinho quantos a mais ou quantos a menos há."
+  },
+  "G1-512": {
+    "title": "Qual é a conta?",
+    "instruction": "Leia cada problema. Circule a conta que combina com a história."
+  },
+  "G1-513": {
+    "title": "Invente um problema",
+    "instruction": "Observe cada conta. Escreva uma história que combine com ela. Você pode falar da figura."
+  },
+  "G2-489": {
+    "title": "Problemas de duas etapas",
+    "instruction": "Leia cada problema. Faça primeiro a primeira etapa e depois a segunda. Escreva os números nos quadrinhos."
+  },
+  "G2-490": {
+    "title": "O número do dia até 1.000",
+    "instruction": "Observe o número grande. Preencha todos os quadros para esse número."
+  },
+  "G1-514": {
+    "title": "Com algarismos e por extenso",
+    "instruction": "Escreva com algarismos os números escritos por extenso e por extenso os números escritos com algarismos."
+  },
+  "K-556": {
+    "title": "Número, palavra e figura",
+    "instruction": "Ligue cada número à sua palavra. Depois ligue cada palavra à figura certa."
+  },
+  "K-557": {
+    "title": "Fichas de números por extenso",
+    "instruction": "Recorte as fichas. Coloque no mural, ou recorte nas linhas tracejadas e junte o número, a palavra e a figura."
+  },
+  "G1-515": {
+    "title": "Números ordinais até 31",
+    "instruction": "Escreva cada número ordinal por extenso. Escreva com algarismos cada ordinal escrito por extenso."
+  },
+  "K-558": {
+    "title": "Em qual prateleira?",
+    "instruction": "Conte as prateleiras de baixo para cima. Responda a cada pergunta: circule a figura certa ou o número certo."
+  },
+  "G1-516": {
+    "title": "Números ordinais: algarismos e palavras",
+    "instruction": "Ligue cada número ordinal à sua palavra."
+  },
+  "G2-491": {
+    "title": "Com algarismos e por extenso até 1.000",
+    "instruction": "Escreva com algarismos os números escritos por extenso e por extenso os números escritos com algarismos."
+  },
+  "G1-517": {
+    "title": "Letras embaralhadas",
+    "instruction": "Observe cada figura. Coloque as letras na ordem certa e escreva a palavra."
+  },
+  "G1-518": {
+    "title": "Letras que faltam",
+    "instruction": "Observe cada figura. Escreva as letras que faltam para completar a palavra."
+  },
+  "G1-519": {
+    "title": "Olhe, cubra, escreva e confira",
+    "instruction": "Leia cada palavra. Dobre a folha na linha tracejada para cobri-la. Escreva a palavra e escreva de novo. Desdobre a folha e confira."
+  },
+  "G2-492": {
+    "title": "Qual palavra está escrita corretamente?",
+    "instruction": "Observe cada figura. Leia as palavras. Circule a palavra que está escrita corretamente."
+  },
+  "G1-520": {
+    "title": "As vogais que faltam",
+    "instruction": "Observe cada figura. Escreva as vogais que faltam para completar a palavra."
+  },
+  "K-560": {
+    "title": "Alfabeto móvel e palavras",
+    "instruction": "Recorte as letras. Diga o nome de cada figura e monte a palavra nos quadrinhos. Vão sobrar algumas letras."
+  },
+  "G1-521": {
+    "title": "Fichas de números ordinais",
+    "instruction": "Recorte as fichas. Coloque em ordem, ou recorte nas linhas tracejadas e junte as partes que combinam."
+  },
+  "G1-522": {
+    "title": "Artigo, singular e plural",
+    "instruction": "Observe cada figura. Escreva as palavras que faltam no singular e no plural."
+  },
+  "K-561": {
+    "title": "Conte e escreva no plural",
+    "instruction": "Conte as figuras de cada quadro. Escreva o número por extenso e a palavra no plural."
+  },
+  "K-562": {
+    "title": "Um ou muitos?",
+    "instruction": "Leia a palavra. Circule o grupo de figuras que mostra a palavra."
+  },
+  "G1-523": {
+    "title": "Um cachorro ou o cachorro?",
+    "instruction": "Leia as duas frases. Circule as palavras certas em cada uma."
+  },
+  "G1-524": {
+    "title": "Complete o calendário",
+    "instruction": "Escreva no calendário as datas que faltam."
+  },
+  "G1-525": {
+    "title": "O gráfico dos nossos aniversários",
+    "instruction": "Pergunte aos colegas o mês do aniversário deles. Pinte um quadrinho acima do mês de cada criança. Conte os quadrinhos pintados de cada mês."
+  },
+  "G1-526": {
+    "title": "A data de hoje",
+    "instruction": "Observe a folha do calendário. Escreva a data com números."
+  },
+  "G1-527": {
+    "title": "Nossa semana na escola",
+    "instruction": "Leia o horário. Responda a cada pergunta."
+  },
+  "G1-528": {
+    "title": "Caça ao tesouro: siga os passos",
+    "instruction": "Comece na bandeira. Siga os passos. Circule a figura onde você chegar."
+  },
+  "G1-529": {
+    "title": "Descreva o caminho",
+    "instruction": "Siga o caminho a partir da primeira figura. Em cada parte, circule a direção e escreva quantas casas são."
+  },
+  "K-563": {
+    "title": "O quarto visto de cima",
+    "instruction": "Cada objeto está desenhado de lado. Ligue-o ao mesmo objeto no quarto visto de cima."
+  },
+  "G1-530": {
+    "title": "Desenhe seu próprio mapa",
+    "instruction": "Desenhe um mapa. Na legenda, desenhe cada símbolo que você usou e escreva o que ele significa."
+  },
+  "G2-493": {
+    "title": "Batalha naval",
+    "instruction": "Pinte seus barcos na sua malha. Cada um na sua vez diz uma casa, como B3. Marque a malha do seu colega: um ponto para água e um X para acerto."
+  },
+  "K-564": {
+    "title": "Minhas emoções da semana",
+    "instruction": "Todos os dias, pinte o círculo da emoção que você sente."
+  },
+  "K-565": {
+    "title": "O termômetro das emoções",
+    "instruction": "Quão forte é a emoção? Pinte o termômetro até onde a emoção chega."
+  },
+  "G1-531": {
+    "title": "Meu amigo e eu",
+    "instruction": "Trabalhe com um amigo ou uma amiga. Desenhe ou escreva o que é só seu, o que é só dele ou dela e o que vocês dois têm."
+  },
+  "K-566": {
+    "title": "Cartas das emoções",
+    "instruction": "Recorte as cartas. Use-as para conversar sobre as emoções."
+  },
+  "G1-532": {
+    "title": "Caça-palavras",
+    "instruction": "Encontre cada palavra da lista no quadro e circule-a."
+  },
+  "K-567": {
+    "title": "Caça-palavras com figuras",
+    "instruction": "Diga o nome de cada figura. Encontre a palavra no quadro e circule-a."
+  },
+  "G2-494": {
+    "title": "Caça-palavras com mensagem secreta",
+    "instruction": "Encontre e circule todas as palavras. Depois leia as letras que sobraram, linha por linha, e escreva a mensagem secreta."
+  },
+  "G1-533": {
+    "title": "Caça-palavras com forma",
+    "instruction": "Encontre cada palavra da lista na figura e circule-a."
+  },
+  "G1-534": {
+    "title": "Caça-palavras em duas línguas",
+    "instruction": "Leia cada palavra e observe a figura. Encontre a palavra em português no quadro e circule-a."
+  },
+  "K-568": {
+    "title": "Caça-palavras dos números",
+    "instruction": "Leia cada número. Encontre o nome dele no quadro e circule-o."
+  },
+  "G1-535": {
+    "title": "Palavras cruzadas com figuras",
+    "instruction": "Observe cada figura numerada. Escreva a palavra nos quadrinhos com o mesmo número."
+  },
+  "G1-536": {
+    "title": "Palavras cruzadas diretas",
+    "instruction": "Cada figura do quadro mostra uma palavra. Escreva a palavra nos quadrinhos para onde a seta aponta."
+  },
+  "G2-495": {
+    "title": "Cruzadinha de encaixe",
+    "instruction": "Encaixe cada palavra da lista no quadro. Conte as letras e use as letras que se cruzam."
+  },
+  "G1-537": {
+    "title": "Palavras cruzadas com banco de palavras",
+    "instruction": "Observe cada figura numerada. Encontre a palavra no banco de palavras e escreva-a nos quadrinhos."
+  },
+  "G1-538": {
+    "title": "Palavras cruzadas em duas línguas",
+    "instruction": "Leia cada palavra e observe a figura. Escreva a palavra em português nos quadrinhos com o mesmo número."
+  },
+  "G1-539": {
+    "title": "Mensagem secreta com figuras",
+    "instruction": "Cada figura representa uma letra. Use a chave para escrever a mensagem secreta."
+  },
+  "G1-540": {
+    "title": "Mensagem secreta com números",
+    "instruction": "Cada número representa uma letra: A é 1. Use a chave para escrever a mensagem secreta."
+  },
+  "G1-541": {
+    "title": "Mensagem secreta com contas",
+    "instruction": "Resolva cada conta. Procure o resultado na chave e escreva a letra correspondente."
+  },
+  "G2-496": {
+    "title": "Complete a chave",
+    "instruction": "Faltam algumas letras na chave. Descubra quais são com a ajuda da palavra já resolvida. Depois, escreva a mensagem secreta."
+  },
+  "G1-542": {
+    "title": "Invente seu próprio código secreto",
+    "instruction": "Desenhe um símbolo para cada letra. Escreva uma mensagem e depois escreva-a de novo no seu código para um amigo ou uma amiga."
+  },
+  "K-569": {
+    "title": "Bingo de figuras",
+    "instruction": "Ouça cada palavra. Se a figura dela estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "K-574": {
+    "title": "Bingo de figuras: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e diga a palavra. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "K-570": {
+    "title": "Bingo de palavras frequentes",
+    "instruction": "Ouça cada palavra. Se a palavra estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "K-575": {
+    "title": "Bingo de palavras frequentes: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia a palavra em voz alta. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "G1-543": {
+    "title": "Bingo de contas",
+    "instruction": "Ouça cada conta e resolva. Se o resultado estiver na sua cartela, marque-o. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "G1-545": {
+    "title": "Bingo de contas: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia a conta em voz alta, não o resultado. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "G1-544": {
+    "title": "Bingo das horas",
+    "instruction": "Ouça cada horário. Se um relógio da sua cartela mostrar esse horário, marque-o. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "G1-546": {
+    "title": "Bingo das horas: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia o horário em voz alta. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "K-571": {
+    "title": "Bingo dos sons iniciais",
+    "instruction": "Ouça cada palavra e o primeiro som dela. Se a letra desse som estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "K-576": {
+    "title": "Bingo dos sons iniciais: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e diga a palavra, não a letra. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "K-572": {
+    "title": "Bingo dos números por extenso",
+    "instruction": "Ouça cada número. Se ele estiver na sua cartela, marque-o. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "K-577": {
+    "title": "Bingo dos números por extenso: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia o número em voz alta. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "K-573": {
+    "title": "Bingo de formas e cores",
+    "instruction": "Ouça cada forma e a cor dela. Se ela estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”"
+  },
+  "K-578": {
+    "title": "Bingo de formas e cores: cartas para sortear",
+    "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia a forma e a cor em voz alta. Guarde as cartas já sorteadas para conferir cada bingo."
   }
 }

@@ -12563,42 +12563,6 @@
      "nearMiss": []
     },
     {
-     "id": "und",
-     "rime": "-und",
-     "sound": "unˀ",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "dog",
-       "word": "hund",
-       "pic": {
-        "theme": "animals",
-        "noun": "dog"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "mouth",
-       "word": "mund",
-       "pic": {
-        "theme": "body parts",
-        "noun": "mouth"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "rund",
-      "sund",
-      "lund"
-     ],
-     "nearMiss": []
-    },
-    {
      "id": "ib",
      "rime": "-ib",
      "sound": "iːˀb",
@@ -13065,17 +13029,6 @@
        "pic": {
         "theme": "shapes",
         "noun": "triangle"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "pentagon",
-       "word": "femkant",
-       "pic": {
-        "theme": "shapes",
-        "noun": "pentagon"
        },
        "sameSpelling": true,
        "productive": true,

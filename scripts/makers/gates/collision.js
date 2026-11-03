@@ -39,6 +39,8 @@ const EXEMPT = [
   ['svg[data-lcs-prim="number-line"]', '.ws-answerbox', 'a label box sits on its tick of the number line by design (G2-395 label the number line)'],
   ['[data-lcs-house] > svg', '*', 'the odd / even house outline frames its content: the tiles and boxes live inside the house by design (G1-351)'],
   ['svg[data-lcs-ink]', '*', "the teacher's own drawing lies over the page by design"],
+  ['[data-lcs-wagon] > svg', '*', 'a wagon carries its letter box and its picture: they sit on the wagon by design (K-530 alphabet train)'],
+  ['[data-lcs-hunt-obj] > svg', '*', 'the letter is written on its balloon, kite or sign by design (K-532 letter hunt)'],
   ['svg[data-lcs-htd-rail]', '[data-lcs-htd-badge], [data-lcs-htd-badge] *', 'the step numbers sit ON the steps rail: the rail runs behind each numbered badge by design (How to Draw)'],
   ['svg[data-lcs-htd-ring]', 'svg', 'the dashed ring marks the empty place IN the scene where the child draws: it lies over the scene by design (How to Draw, draw in the scene)'],
   ['svg[data-lcs-prim="logic-grid"], svg[data-lcs-prim="logic-lgrid"]', 'img[data-lcs-col], img[data-lcs-rowpic]', 'the elimination grid frames its column and row pictures: each sits in its header cell by design (G2-319 family; the two-attribute grid of G3-379 too)'],
@@ -54,7 +56,10 @@ const EXEMPT = [
  * a picture's transparent margin, a tally beside a frame — nothing a child sees):
  *   text   per text node, per line: the glyph ink from canvas metrics (actualBoundingBox) placed on the line's baseline
  *   img    the picture's opaque bounds (alpha scan, cached per picture), scaled into its layout box (rotation undone)
- *   svg    the union of its drawn children's geometry boxes (a fill="none" stroke-less hit rect draws nothing)
+ *   svg    the union of its drawn children's geometry boxes (a fill="none" stroke-less hit rect draws nothing); a box
+ *          overlap with a drawn SHAPE is then tested against the shape itself (isPointInFill / isPointInStroke on a 2 px
+ *          grid of the overlap): one path's box holds empty corners — a tangram arrow's box reached the card badge while
+ *          the arrow did not (2026-11-02)
  *   box / badge / chip   the element box itself (a border, a filled badge, a filled chip ARE ink)
  */
 function collide({ tol, exempt }) {
@@ -99,6 +104,22 @@ function collide({ tol, exempt }) {
     });
   };
   const DRAWN = 'path, rect, circle, ellipse, line, polyline, polygon, text, image, use';
+  const SHAPES = ['path', 'rect', 'circle', 'ellipse', 'line', 'polyline', 'polygon'];
+  /** is there drawn ink of the shape at client point (x, y) */
+  const inkAt = (sh, x, y) => {
+    const m = sh.g.getScreenCTM(); if (!m) return true;
+    const q = new DOMPoint(x, y).matrixTransform(m.inverse());
+    const pt = sh.g.ownerSVGElement.createSVGPoint(); pt.x = q.x; pt.y = q.y;
+    return (sh.fill && sh.g.isPointInFill(pt)) || (sh.stroke && sh.g.isPointInStroke(pt));
+  };
+  /** does the overlap rect of a and b hold ink of every drawn shape among them (sampled every 2 px inside the overlap) */
+  const shapesMeet = (a, b, o) => {
+    const sh = [a.shape, b.shape].filter(Boolean);
+    if (!sh.length) return true;
+    const step = 2;
+    for (let y = o.t + 0.5; y < o.b; y += step) for (let x = o.l + 0.5; x < o.r; x += step) if (sh.every((h) => inkAt(h, x, y))) return true;
+    return false;
+  };
   /** the ink of a drawing: one box per drawn shape (a union box would accuse its own empty corners — the number-bond
    *  diagram's box reached the card badge while nothing drawn did), the union for a big drawing (> 200 shapes) */
   const svgInks = (svg) => {
@@ -116,6 +137,7 @@ function collide({ tol, exempt }) {
       const sw = noStroke ? 0 : (parseFloat(g.getAttribute('stroke-width') || gs.strokeWidth) || 1) / 2;
       const b = { l: r.left - sw, t: r.top - sw, r: r.right + sw, b: r.bottom + sw };
       if (clip) { b.l = Math.max(b.l, clip.left); b.t = Math.max(b.t, clip.top); b.r = Math.min(b.r, clip.right); b.b = Math.min(b.b, clip.bottom); if (b.r <= b.l || b.b <= b.t) continue; }
+      if (SHAPES.includes(g.tagName.toLowerCase())) b.shape = { g, fill: !noFill, stroke: !noStroke };
       boxes.push(b);
     }
     if (boxes.length > 200) return [boxes.reduce((u, b) => ({ l: Math.min(u.l, b.l), t: Math.min(u.t, b.t), r: Math.max(u.r, b.r), b: Math.max(u.b, b.b) }))];
@@ -155,7 +177,7 @@ function collide({ tol, exempt }) {
       if (ri.r > ri.l && ri.b > ri.t) cand.push({ ...base, kind: 'img', r: ri });
     } else if (tag === 'svg') {
       const c = clipOf(el);
-      for (const u0 of svgInks(el)) { const u = clipTo(u0, c); if (u.r > u.l && u.b > u.t) cand.push({ ...base, kind: 'svg', r: u }); }
+      for (const u0 of svgInks(el)) { const u = clipTo(u0, c); if (u.r > u.l && u.b > u.t) cand.push({ ...base, kind: 'svg', r: u, shape: u0.shape || null }); }
     } else if (el.classList.contains('ws-answerbox') || (el.hasAttribute('data-lcs-answer') && !el.children.length) || el.classList.contains('ws-card-badge') || el.classList.contains('ws-chip')) {
       const r = el.getBoundingClientRect(); if (r.width <= 0 || r.height <= 0) continue;
       cand.push({ ...base, kind: el.classList.contains('ws-card-badge') ? 'badge' : el.classList.contains('ws-chip') ? 'chip' : 'box', r: { l: r.left, t: r.top, r: r.right, b: r.bottom } });
@@ -176,6 +198,7 @@ function collide({ tol, exempt }) {
     const ix = Math.min(a.r.r, b.r.r) - Math.max(a.r.l, b.r.l), iy = Math.min(a.r.b, b.r.b) - Math.max(a.r.t, b.r.t);
     if (ix <= tol || iy <= tol) continue;
     if (isEx(a, b, ix, iy)) continue;
+    if ((a.shape || b.shape) && !shapesMeet(a, b, { l: Math.max(a.r.l, b.r.l), t: Math.max(a.r.t, b.r.t), r: Math.min(a.r.r, b.r.r), b: Math.min(a.r.b, b.r.b) })) continue;
     hits.push({ a: name(a), b: name(b), ix: Math.round(ix * 10) / 10, iy: Math.round(iy * 10) / 10, ta: (a.text || a.el.textContent || '').trim().slice(0, 20), tb: (b.text || b.el.textContent || '').trim().slice(0, 20), at: { x: Math.round(Math.max(a.r.l, b.r.l)), y: Math.round(Math.max(a.r.t, b.r.t)) } });
   }
   return { boxes: cand.length, figures: cand.filter((c) => c.kind === 'svg').length, hits };
@@ -259,6 +282,14 @@ const ONE_ITEM = { 'K-476': [1] };
     // (5) the thin-contact exemption: a measured object meeting its square row by 2 px passes, 9 px into it fails
     if (imgSvg(await run(rig(60, 'hidden', 58.5, true)))) fail('poison 5: a 2 px contact of an object with its square row FAILED');
     if (!imgSvg(await run(rig(60, 'hidden', 52, true)))) fail('poison 5: an object drawn 9 px into its square row PASSED');
+    // (6) a drawn shape is measured as itself, not its box: a badge over the EMPTY corner of a triangle's box passes, the
+    // same badge over its filled corner fails (the tangram arrow, 2026-11-02)
+    const tri = (left, top) => base.html.replace(card1, card1 + `<div style="position:relative;width:120px;height:120px">` +
+      `<svg class="ws-poisontri" style="position:absolute;left:0;top:0" width="100" height="100"><path d="M0 100L100 100L100 0Z" fill="#146B5E" stroke="#146B5E" stroke-width="2"/></svg>` +
+      `<span class="ws-card-badge ws-poisonbadge" style="position:absolute;left:${left}px;top:${top}px;width:20px;height:20px;padding:0">1</span></div>`);
+    const triHit = (r) => r.hits.some((h) => [h.a, h.b].some((x) => /ws-poisontri/.test(x)) && [h.a, h.b].some((x) => /ws-card-badge/.test(x)) && h.ix < 25);
+    if (triHit(await run(tri(2, 2)))) fail("poison 6: a badge over a triangle's EMPTY corner was counted as a collision");
+    if (!triHit(await run(tri(76, 76)))) fail("poison 6: a badge over a triangle's FILLED corner PASSED");
   }
 
   await m.close();

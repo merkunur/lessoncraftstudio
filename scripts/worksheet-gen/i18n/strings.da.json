@@ -3866,5 +3866,669 @@
   "K-482": {
     "title": "Tegn mønstret af på prikkerne",
     "instruction": "Se på stregen i hver række. Tegn den samme streg på de tomme prikker ved siden af, fra den orange prik."
+  },
+  "K-484": {
+    "title": "Hvilken udgang? Labyrinter",
+    "instruction": "Begynd ved pilen. Følg gangene med fingeren. Du kan kun komme hen til én udgang: Sæt ring om dens tal."
+  },
+  "K-485": {
+    "title": "Beskriv vejen gennem labyrinten",
+    "instruction": "Følg vejen fra den grønne prik hen til flaget. Skriv ved hvert lige stykke, hvor mange skridt (små pile) det har."
+  },
+  "K-486": {
+    "title": "Labyrint: saml bogstaverne",
+    "instruction": "Tegn vejen hen til billedet. Saml bogstaverne på vejen, og skriv ordet i felterne."
+  },
+  "K-487": {
+    "title": "Mønsterstien",
+    "instruction": "Se på mønstret øverst. Gå fra pilen hen til flaget, og træd kun på sten, der følger mønstret."
+  },
+  "K-488": {
+    "title": "Hvilket billede er anderledes?",
+    "instruction": "Alle billederne er ens undtagen ét. Sæt ring om det billede, der er anderledes."
+  },
+  "K-489": {
+    "title": "Tæl hver slags forskel",
+    "instruction": "Find alle forskellene i billede 2. Tæl, hvor mange ændringer der er af hver slags, og skriv tallet i feltet."
+  },
+  "K-490": {
+    "title": "Kig, fold og find",
+    "instruction": "Kig på billede 1, så længe du vil. Fold så papiret på den stiplede linje, så billede 1 er skjult. Sæt ring om ændringerne i billede 2, og sæt et flueben i et felt for hver."
+  },
+  "K-491": {
+    "title": "Tegn det, der mangler",
+    "instruction": "Nogle ting fra billede 1 mangler i billede 2. Tegn hver ting ind igen på dens plads i billede 2."
+  },
+  "K-492": {
+    "title": "Hvilke to billeder er ens?",
+    "instruction": "To af billederne er helt ens. Find dem, og sæt ring om dem begge."
+  },
+  "K-493": {
+    "title": "Tegn med figurer",
+    "instruction": "Se på trinene. I hvert trin kommer der nye figurer til i orange. Tegn billedet i den store ramme, ét trin ad gangen."
+  },
+  "K-494": {
+    "title": "Tegn det større i ternene",
+    "instruction": "Tegn billedet af i de store tern, ét tern ad gangen. Hvert af de store tern er dobbelt så stort som de små, så dit billede bliver også dobbelt så stort."
+  },
+  "K-495": {
+    "title": "Spejltegning",
+    "instruction": "Halvdelen af billedet er tegnet. Tegn den anden halvdel, så begge sider ser ens ud, ligesom i et spejl."
+  },
+  "K-496": {
+    "title": "Alle sammen på ét billede",
+    "instruction": "Følg trinene for hver tegning. Tegn dem så alle sammen på det store billede."
+  },
+  "K-497": {
+    "title": "Trinkort: klip, læg i rækkefølge og tegn",
+    "instruction": "Klip kortene ud. Læg trinene i rækkefølge på den nummererede række, og lim dem fast. Tegn så billedet i rammen."
+  },
+  "K-498": {
+    "title": "Tegn efter billedets streger",
+    "instruction": "Tegn efter alle billedets stiplede streger. Begynd ved den sorte prik."
+  },
+  "K-499": {
+    "title": "Tegn efter og skriv ordet",
+    "instruction": "Tegn efter billedets streger. Skriv så ordet efter på linjerne, og skriv det selv."
+  },
+  "K-500": {
+    "title": "Lille bog: tegn efter stregerne",
+    "instruction": "Tegn efter stregerne i de tre billeder. Klip så arket i fire dele langs linjerne på midten, læg forsiden øverst, og hæft siderne sammen til en lille bog."
+  },
+  "K-501": {
+    "title": "Tegn efter og mal efter tal",
+    "instruction": "Tegn efter billedets streger. Farvelæg så hver del med farven, der hører til dens tal."
+  },
+  "K-502": {
+    "title": "Tegn det dobbelt så stort",
+    "instruction": "Se på billedet i det lille kvadratnet. Farvelæg de samme tern i det store kvadratnet, hvor hvert tern er dobbelt så stort."
+  },
+  "K-503": {
+    "title": "Drej og spejlvend billedet",
+    "instruction": "Tegn hvert billede af i det tomme kvadratnet, drejet en kvart omgang til højre, sådan som pilen viser."
+  },
+  "K-504": {
+    "title": "Tegn tegningen af i kvadratnettet",
+    "instruction": "Tegn tegningen af i det tomme kvadratnet, ét tern ad gangen: se, hvad der er i hvert tern, og tegn det samme i det tern, der passer til det."
+  },
+  "K-505": {
+    "title": "Prik til prik med talord",
+    "instruction": "Begynd ved den orange prik. Læs talordene, og forbind prikkerne i den rækkefølge, man tæller."
+  },
+  "K-506": {
+    "title": "Prik til prik: lige eller ulige tal",
+    "instruction": "Begynd ved den orange prik. Forbind kun de lige tal i rækkefølge: 2, 4, 6 og så videre. Spring de ulige tal over."
+  },
+  "K-507": {
+    "title": "Store og små bogstaver",
+    "instruction": "Begynd ved den orange prik. Forbind et stort bogstav, så det samme lille bogstav og så det næste store: A, a, B, b og så videre."
+  },
+  "K-508": {
+    "title": "Find den nøjagtige tvilling",
+    "instruction": "Se på det første billede i hver række. Sæt ring om det billede, der er nøjagtig magen til, hverken drejet eller spejlvendt."
+  },
+  "K-509": {
+    "title": "Hvilke billeder gemmer sig?",
+    "instruction": "Nogle billeder gemmer sig i virvaret af streger. Find deres omrids, og sæt så ring om de billeder i rækken nedenunder."
+  },
+  "K-510": {
+    "title": "Hvad hører ikke til?",
+    "instruction": "Læs navnet på hver gruppe. Sæt ring om det billede, der ikke hører til i gruppen."
+  },
+  "K-511": {
+    "title": "Sortér efter en regel",
+    "instruction": "Læs navnene på de to grupper. Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-512": {
+    "title": "Sorteringsmåtter og billedkort",
+    "instruction": "Klip billedkortene ud. Læg hvert kort på den måtte, hvor det hører til."
+  },
+  "G1-487": {
+    "title": "Farvelæg efter lige og ulige tal",
+    "instruction": "Er tallet i hver figur lige eller ulige? Farvelæg figuren med farven fra koden."
+  },
+  "K-513": {
+    "title": "Farvelæg efter talord",
+    "instruction": "Læs talordet i hver figur. Find tallet i koden, og farvelæg figuren med den farve."
+  },
+  "K-514": {
+    "title": "Farvelæg med din egen kode",
+    "instruction": "Vælg en farve til hvert tal. Farvelæg dets felt i koden, og skriv farvens navn. Farvelæg så figurerne."
+  },
+  "K-515": {
+    "title": "Farvelæg stor og lille",
+    "instruction": "Se på koden: hver størrelse har sin egen farve. Farvelæg hver tegning med farven for dens størrelse."
+  },
+  "K-516": {
+    "title": "Et lille malehæfte",
+    "instruction": "Fold den øverste halvdel bagud, og fold så den venstre halvdel bagud, så får du en lille bog. Farvelæg hver side."
+  },
+  "G1-488": {
+    "title": "Farvelæg og skriv en sætning",
+    "instruction": "Farvelæg tegningen. Skriv så om den. Begyndelsen af sætningerne hjælper dig i gang."
+  },
+  "K-517": {
+    "title": "Spor tallene fra 1 til 100",
+    "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+  },
+  "K-518": {
+    "title": "Sådan skriver vi tallene",
+    "instruction": "Start ved prikken, og følg pilene. De små tal viser, hvilken streg der kommer først."
+  },
+  "K-519": {
+    "title": "Lav din egen tangramfigur",
+    "instruction": "Farvelæg brikkerne som i farveforklaringen, og klip de syv brikker ud. Læg din egen figur på feltet med alle brikkerne, og tegn så rundt om den."
+  },
+  "K-520": {
+    "title": "De første tangramopgaver",
+    "instruction": "Klip brikkerne ved siden af hver figur ud. Læg dem på figuren, så de dækker den præcis."
+  },
+  "G1-489": {
+    "title": "Hvilken figur kan du lægge?",
+    "instruction": "Se på brikkerne i hver række. Sæt ring om det eneste skyggebillede, du kan lægge med præcis disse brikker."
+  },
+  "K-522": {
+    "title": "Forbind skyggebilledet med navnet",
+    "instruction": "Se på hvert tangram-skyggebillede. Tegn en streg fra hvert skyggebillede til det rigtige navn."
+  },
+  "K-523": {
+    "title": "Skriv dit navn",
+    "instruction": "Se på navnet. Skriv oven i det på de stiplede linjer, og skriv det så selv på de tomme linjer."
+  },
+  "K-524": {
+    "title": "Bogstaver og billeder",
+    "instruction": "Sig, hvad billedet hedder, og lyt efter den første lyd. Skriv oven i bogstavet for den lyd, og skriv det så selv."
+  },
+  "K-525": {
+    "title": "Store og små bogstaver sammen",
+    "instruction": "Skriv oven i det store og det lille bogstav ved siden af hinanden, og skriv dem så selv. Start ved den orange prik."
+  },
+  "K-526": {
+    "title": "Bogstavkort: sådan skriver du bogstaverne",
+    "instruction": "Hvert bogstav begynder ved den orange prik. Følg tallene og pilene, så kan du se, hvordan det skrives. Klip kortene ud langs de stiplede linjer."
+  },
+  "K-527": {
+    "title": "Skriv en sætning efter",
+    "instruction": "Læs sætningen. Skriv oven i de stiplede bogstaver, og skriv så sætningen selv på de tomme linjer."
+  },
+  "G1-490": {
+    "title": "Skriv navnene under billederne",
+    "instruction": "Skriv, hvad hvert billede hedder, på linjen under det. Ordene i rammen kan hjælpe dig."
+  },
+  "K-529": {
+    "title": "Ordenes form",
+    "instruction": "Sig, hvad hvert billede hedder. Skriv et bogstav i hver rubrik: høje bogstaver i de høje rubrikker og bogstaver, der går ned, i de rubrikker, der går ned."
+  },
+  "G1-491": {
+    "title": "Min ordbog",
+    "instruction": "Skriv, hvad hvert billede hedder, på den første linje. Skriv så din egen sætning om det."
+  },
+  "G2-480": {
+    "title": "Mine ord i sammenhængende skrift",
+    "instruction": "Læs hver sætning. Skriv oven i den med sammenhængende skrift, og skriv den så selv nedenfor."
+  },
+  "G2-481": {
+    "title": "Dagens bogstav i sammenhængende skrift",
+    "instruction": "Skriv oven i det grå bogstav, bogstavparrene og ordet, og skriv dem så selv på de tomme linjer."
+  },
+  "G2-482": {
+    "title": "Trykte bogstaver og sammenhængende skrift",
+    "instruction": "Læs hvert ord i sammenhængende skrift, og tegn en streg til det samme ord med trykte bogstaver."
+  },
+  "G2-483": {
+    "title": "Alfabetet i sammenhængende skrift",
+    "instruction": "Se på hvert bogstav i sammenhængende skrift og med trykte bogstaver. Brug alfabetet, når du skriver sammenhængende."
+  },
+  "K-530": {
+    "title": "Alfabettoget",
+    "instruction": "Skriv de bogstaver, der mangler, på vognene, så alfabettoget kommer i rigtig rækkefølge. Billedet på en tom vogn begynder med vognens bogstav."
+  },
+  "K-531": {
+    "title": "Alfabetplakat",
+    "instruction": "Sig hvert bogstav, og sig, hvad billedet hedder. Billedet begynder med bogstavets lyd."
+  },
+  "K-532": {
+    "title": "Bogstavjagt",
+    "instruction": "Se på bogstavet i rammen. Find det bogstav på ballonerne, dragerne og skiltene, og sæt ring om hvert eneste af dem."
+  },
+  "G1-492": {
+    "title": "Bogstavet før og efter",
+    "instruction": "Skriv det bogstav, der kommer før hvert bogstav i alfabetet."
+  },
+  "K-533": {
+    "title": "Farvelæg vokalerne",
+    "instruction": "Sig, hvad hvert billede hedder. Farvelæg alle vokaler i ordet."
+  },
+  "K-534": {
+    "title": "Læg bogstavkortene i rækkefølge",
+    "instruction": "Klip kortene ud langs de stiplede linjer. Læg dem i alfabetisk rækkefølge, og læs bogstaverne."
+  },
+  "K-535": {
+    "title": "Samme første lyd?",
+    "instruction": "Sig, hvad de to billeder hedder. Hvis de begynder med den samme lyd, så sæt ring om fluebenet. Hvis ikke, så sæt ring om krydset."
+  },
+  "K-536": {
+    "title": "Klemmekort: den første lyd",
+    "instruction": "Klip kortene ud. Sig, hvad hvert billede hedder, og sæt en tøjklemme på bogstavet for den første lyd."
+  },
+  "G1-493": {
+    "title": "To konsonanter i starten",
+    "instruction": "Sig, hvad hvert billede hedder. Skriv de to bogstaver, ordet begynder med."
+  },
+  "K-537": {
+    "title": "Rimevendespil",
+    "instruction": "Klip kortene ud, og læg dem med bagsiden opad. Vend to kort. Hvis billederne rimer, må du beholde dem!"
+  },
+  "K-538": {
+    "title": "Hvilken rimer ikke?",
+    "instruction": "Sig, hvad de tre billeder hedder. To af dem rimer. Sæt ring om det, der ikke rimer."
+  },
+  "K-539": {
+    "title": "Rimedomino",
+    "instruction": "Klip dominobrikkerne ud. Læg dem i en ring: billedet til højre på hver brik rimer på billedet til venstre på den næste brik."
+  },
+  "G1-496": {
+    "title": "Stavelsespuslespil",
+    "instruction": "Klip brikkerne ud langs de stiplede linjer. Bland dem, og sæt hvert ord sammen igen, stavelse for stavelse."
+  },
+  "K-541": {
+    "title": "Klap og tæl",
+    "instruction": "Sig hvert ord, og klap stavelserne. Farvelæg en cirkel for hvert klap, og skriv, hvor mange klap det blev."
+  },
+  "K-542": {
+    "title": "Billedvendespil",
+    "instruction": "Klip kortene ud, og læg dem med bagsiden opad. Vend to kort. Hvis de passer sammen, må du beholde dem!"
+  },
+  "K-543": {
+    "title": "Ordkort til ordvæggen",
+    "instruction": "Klip ordkortene ud langs de stiplede linjer, og hæng dem op på ordvæggen."
+  },
+  "K-544": {
+    "title": "Min billedordbog",
+    "instruction": "Læs ordene i alfabetisk rækkefølge. Sig, hvad hvert billede hedder."
+  },
+  "K-545": {
+    "title": "Klip og klistr ordene",
+    "instruction": "Klip ordene nederst ud. Klistr hvert ord i feltet under det rigtige billede."
+  },
+  "K-546": {
+    "title": "Læs og tegn",
+    "instruction": "Læs hver sætning. Tegn billedet på det rigtige sted."
+  },
+  "K-547": {
+    "title": "Hvor er den?",
+    "instruction": "Se på hvert billede. Skriv det ord, der mangler. Ordene i rammen kan hjælpe dig."
+  },
+  "K-548": {
+    "title": "Vælg det rigtige ord",
+    "instruction": "Se på hvert billede. Sæt ring om det ord, der passer i sætningen."
+  },
+  "K-549": {
+    "title": "Læs og klistr",
+    "instruction": "Klip billederne nederst ud. Læs hver sætning, og klistr billedet på det rigtige sted."
+  },
+  "G2-484": {
+    "title": "Gradbøjning af tillægsord",
+    "instruction": "Skriv de to former, der mangler, for hvert tillægsord, som i eksemplet."
+  },
+  "G1-497": {
+    "title": "Ordklasser i sætninger",
+    "instruction": "Læs hver sætning. Sæt ring om alle navneord. Navne er også navneord."
+  },
+  "G1-498": {
+    "title": "Stort begyndelsesbogstav",
+    "instruction": "Læs hver sætning. Sæt ring om hvert ord, der skal have stort begyndelsesbogstav."
+  },
+  "G2-485": {
+    "title": "Udsagnsord",
+    "instruction": "Skriv udsagnsordet i hvert felt."
+  },
+  "G2-486": {
+    "title": "En stor eller et stort?",
+    "instruction": "Sæt ring om den rigtige form af tillægsordet."
+  },
+  "K-550": {
+    "title": "Hvad hedder gruppen?",
+    "instruction": "Se på billederne i hver række. Hvilken gruppe hører de til? Skriv ordet fra boksen."
+  },
+  "K-551": {
+    "title": "Modsætningskort",
+    "instruction": "Klip kortene ud, og læg dem med bagsiden opad. Vend to kort: Er de modsætninger, må du beholde dem!"
+  },
+  "G1-499": {
+    "title": "Små ord",
+    "instruction": "Skriv den lille form af hvert ord."
+  },
+  "G2-487": {
+    "title": "Puslespil med sammensatte ord",
+    "instruction": "Klip brikkerne ud. Læg to brikker sammen til et sammensat ord, og skriv ordet på en linje."
+  },
+  "K-552": {
+    "title": "Sætningsstrimler",
+    "instruction": "Læs sætningen. Klip ordene fra hinanden, bland dem, og byg sætningen igen. Lim den på den tomme strimmel."
+  },
+  "G1-500": {
+    "title": "Skriv det manglende ord",
+    "instruction": "Læs hver sætning. Se på billedet, og skriv det ord, der mangler."
+  },
+  "K-553": {
+    "title": "Billedsætninger",
+    "instruction": "Læs hver sætning. Skriv ordet for billedet i feltet."
+  },
+  "G1-501": {
+    "title": "Sætning eller ej?",
+    "instruction": "Læs hver ordgruppe. Sæt ring om fluebenet, hvis det er en hel sætning. Sæt ring om krydset, hvis det ikke er det."
+  },
+  "G1-502": {
+    "title": "Sætningshalvdele",
+    "instruction": "Tegn en streg fra hver begyndelse til den slutning, der passer. Billederne hjælper dig."
+  },
+  "G1-503": {
+    "title": "Gør sætningen længere",
+    "instruction": "Læs den korte sætning. Svar på spørgsmålene på de korte linjer. Skriv så en længere sætning med dine svar."
+  },
+  "G1-504": {
+    "title": "Læs og svar",
+    "instruction": "Læs teksten. Svar på hvert spørgsmål på linjen."
+  },
+  "G1-505": {
+    "title": "Rigtigt eller forkert?",
+    "instruction": "Læs historien. Læs så hvert spørgsmål og svaret. Sæt ring om fluebenet, hvis svaret er rigtigt. Sæt ring om krydset, hvis det er forkert."
+  },
+  "G2-488": {
+    "title": "Hvilken overskrift passer?",
+    "instruction": "Læs hver historie. Sæt ring om den overskrift, der passer bedst."
+  },
+  "K-554": {
+    "title": "Min læselog",
+    "instruction": "Udfyld siden om den bog, du har læst. Farvelæg stjernerne for at vise, hvor godt du kunne lide den."
+  },
+  "G1-506": {
+    "title": "Fortællingskort",
+    "instruction": "Planlæg din historie. Tegn og skriv, hvad der sker i begyndelsen, i midten og til sidst."
+  },
+  "G1-507": {
+    "title": "Tegneserie",
+    "instruction": "Se på hvert billede. Skriv i taleboblerne, hvad figurerne siger."
+  },
+  "G1-508": {
+    "title": "Terningehistorie",
+    "instruction": "Slå med terningen for hver kolonne. Skriv så en historie med det, du slog."
+  },
+  "G1-509": {
+    "title": "Beskriv figuren",
+    "instruction": "Se på billedet. Skriv sætningerne om din figur færdige. Ordene i boksen kan hjælpe dig."
+  },
+  "G1-510": {
+    "title": "Skriv et postkort",
+    "instruction": "Skriv et postkort til en, du holder af. Skriv personens navn efter hilsenen og dit eget navn til sidst."
+  },
+  "K-555": {
+    "title": "Sætninger til billedet",
+    "instruction": "Se på hvert billede. Skriv en sætning om det."
+  },
+  "G1-511": {
+    "title": "Regnehistorier: sammenlign",
+    "instruction": "Læs hver regnehistorie. Sammenlign de to rækker billeder. Skriv i feltet, hvor mange flere eller færre der er."
+  },
+  "G1-512": {
+    "title": "Hvilket regnestykke passer?",
+    "instruction": "Læs hver regnehistorie. Sæt ring om det regnestykke, der passer til historien."
+  },
+  "G1-513": {
+    "title": "Skriv din egen regnehistorie",
+    "instruction": "Se på hvert regnestykke. Skriv en regnehistorie, der passer til det. Du kan skrive om billedet."
+  },
+  "G2-489": {
+    "title": "Regnehistorier i to trin",
+    "instruction": "Læs hver regnehistorie. Regn først det første trin og så det andet. Skriv tallene i felterne."
+  },
+  "G2-490": {
+    "title": "Dagens tal op til 1.000",
+    "instruction": "Se på dagens tal. Udfyld hvert felt på siden ved hjælp af tallet."
+  },
+  "G1-514": {
+    "title": "Tal og talord",
+    "instruction": "Skriv talordene med tal og tallene med bogstaver."
+  },
+  "K-556": {
+    "title": "Tal, talord og billede",
+    "instruction": "Tegn en streg fra hvert tal til det rigtige talord. Tegn så en streg fra hvert talord til det rigtige billede."
+  },
+  "K-557": {
+    "title": "Kort med talord",
+    "instruction": "Klip kortene ud. Sæt dem op på væggen, eller klip langs de stiplede linjer, og sæt tal, talord og billede sammen."
+  },
+  "G1-515": {
+    "title": "Ordenstal op til 31",
+    "instruction": "Skriv hvert ordenstal med bogstaver. Skriv hvert ord med tal."
+  },
+  "K-558": {
+    "title": "Hvilken hylde?",
+    "instruction": "Tæl hylderne nedefra. Svar på hvert spørgsmål: Sæt ring om det rigtige billede eller det rigtige tal."
+  },
+  "G1-516": {
+    "title": "Ordenstal: tal og ord",
+    "instruction": "Tegn en streg fra hvert ordenstal til det rigtige ord."
+  },
+  "G2-491": {
+    "title": "Tal og talord op til 1.000",
+    "instruction": "Skriv talordene med tal og tallene med bogstaver."
+  },
+  "G1-517": {
+    "title": "Rodede bogstaver",
+    "instruction": "Se på hvert billede. Sæt bogstaverne i den rigtige rækkefølge, og skriv ordet."
+  },
+  "G1-518": {
+    "title": "Bogstaver, der mangler",
+    "instruction": "Se på hvert billede. Skriv de bogstaver, der mangler, i felterne."
+  },
+  "G1-519": {
+    "title": "Se, dæk til, skriv, tjek",
+    "instruction": "Læs hvert ord. Fold papiret langs den stiplede linje, så ordet er dækket. Skriv ordet, og skriv det igen. Fold papiret ud, og tjek."
+  },
+  "G2-492": {
+    "title": "Hvilket ord er stavet rigtigt?",
+    "instruction": "Se på hvert billede. Læs ordene. Sæt ring om det ord, der er stavet rigtigt."
+  },
+  "G1-520": {
+    "title": "Vokaler, der mangler",
+    "instruction": "Se på hvert billede. Skriv de vokaler, der mangler, i felterne."
+  },
+  "K-560": {
+    "title": "Bogstavbrikker og ordkort",
+    "instruction": "Klip bogstavbrikkerne ud. Sig, hvad billedet hedder, og byg ordet i felterne. Nogle bogstaver bliver tilovers."
+  },
+  "G1-521": {
+    "title": "Kort med ordenstal",
+    "instruction": "Klip kortene ud. Læg dem i rækkefølge, eller klip langs de stiplede linjer, og sæt de dele sammen, der passer sammen."
+  },
+  "G1-522": {
+    "title": "En eller et, ental og flertal",
+    "instruction": "Se på hvert billede. Skriv de ord, der mangler, i ental og flertal."
+  },
+  "K-561": {
+    "title": "Tæl og skriv i flertal",
+    "instruction": "Tæl billederne i hvert felt. Skriv tallet med bogstaver og ordet i flertal."
+  },
+  "K-562": {
+    "title": "En eller flere?",
+    "instruction": "Læs ordet. Sæt ring om den gruppe, der passer."
+  },
+  "G1-523": {
+    "title": "En hund eller hunden?",
+    "instruction": "Læs de to sætninger. Sæt ring om de ord, der passer i hver sætning."
+  },
+  "G1-524": {
+    "title": "Udfyld kalenderen",
+    "instruction": "Skriv de datoer, der mangler, i kalenderen."
+  },
+  "G1-525": {
+    "title": "Vores fødselsdagsdiagram",
+    "instruction": "Spørg dine klassekammerater, hvilken måned de har fødselsdag. Farvelæg et felt over hvert barns måned. Tæl de farvede felter i hver måned."
+  },
+  "G1-526": {
+    "title": "Dagens dato",
+    "instruction": "Se på kalenderbladet. Skriv datoen med tal."
+  },
+  "G1-527": {
+    "title": "Vores skema",
+    "instruction": "Læs skemaet. Svar på hvert spørgsmål."
+  },
+  "G1-528": {
+    "title": "Skattejagt: følg trinene",
+    "instruction": "Start ved flaget. Følg trinene. Sæt ring om det billede, hvor du ender."
+  },
+  "G1-529": {
+    "title": "Beskriv vejen",
+    "instruction": "Følg vejen fra det første billede. Sæt ring om retningen for hver del, og skriv, hvor mange felter det er."
+  },
+  "K-563": {
+    "title": "Værelset set ovenfra",
+    "instruction": "Hver ting er tegnet fra siden. Tegn en streg til den samme ting i værelset set ovenfra."
+  },
+  "G1-530": {
+    "title": "Tegn dit eget kort",
+    "instruction": "Tegn et kort. Tegn hvert symbol, du har brugt, i signaturforklaringen, og skriv, hvad det betyder."
+  },
+  "G2-493": {
+    "title": "Sænke slagskibe",
+    "instruction": "Farvelæg dine skibe på din spilleplade. Sig skiftevis et felt, fx B3. Sæt en prik for forbi og et kryds for ramt på din makkers spilleplade."
+  },
+  "K-564": {
+    "title": "Mine følelser i denne uge",
+    "instruction": "Farvelæg hver dag cirklen ved den følelse, du har."
+  },
+  "K-565": {
+    "title": "Følelsestermometeret",
+    "instruction": "Hvor stærk er følelsen? Farvelæg termometeret så højt, som følelsen er stærk."
+  },
+  "G1-531": {
+    "title": "Min ven og mig",
+    "instruction": "Arbejd sammen med en ven. Tegn eller skriv det, der kun er dit, det, der kun er din vens, og det, I begge har."
+  },
+  "K-566": {
+    "title": "Følelseskort",
+    "instruction": "Klip kortene ud. Brug dem til at tale om følelser."
+  },
+  "G1-532": {
+    "title": "Find ordene",
+    "instruction": "Find hvert ord fra listen i gitteret, og sæt ring om det."
+  },
+  "K-567": {
+    "title": "Find ordene med billeder",
+    "instruction": "Sig, hvad billedet hedder. Find ordet i gitteret, og sæt ring om det."
+  },
+  "G2-494": {
+    "title": "Find ordene med hemmelig besked",
+    "instruction": "Find og sæt ring om alle ordene. Læs så de bogstaver, der er tilbage, række for række, og skriv den hemmelige besked."
+  },
+  "G1-533": {
+    "title": "Find ordene i figuren",
+    "instruction": "Find hvert ord fra listen i figuren, og sæt ring om det."
+  },
+  "G1-534": {
+    "title": "Find ordene på to sprog",
+    "instruction": "Læs hvert ord, og se på billedet. Find ordet på dansk i gitteret, og sæt ring om det."
+  },
+  "K-568": {
+    "title": "Find talordene",
+    "instruction": "Læs hvert tal. Find talordet i gitteret, og sæt ring om det."
+  },
+  "G1-535": {
+    "title": "Billedkrydsord",
+    "instruction": "Se på hvert billede med et nummer. Skriv ordet i felterne med samme nummer."
+  },
+  "G1-536": {
+    "title": "Billedkrydsord med pile",
+    "instruction": "Hvert billede i gitteret viser et ord. Skriv ordet i felterne, hvor pilen peger hen."
+  },
+  "G2-495": {
+    "title": "Udfyldningskrydsord",
+    "instruction": "Sæt hvert ord fra listen ind i gitteret. Tæl bogstaverne, og brug de bogstaver, der krydser hinanden."
+  },
+  "G1-537": {
+    "title": "Krydsord med ordliste",
+    "instruction": "Se på hvert billede med et nummer. Find ordet i ordlisten, og skriv det i felterne."
+  },
+  "G1-538": {
+    "title": "Krydsord på to sprog",
+    "instruction": "Læs hvert ord, og se på billedet. Skriv ordet på dansk i felterne med samme nummer."
+  },
+  "G1-539": {
+    "title": "Hemmelig kode med billeder",
+    "instruction": "Hvert billede står for et bogstav. Brug nøglen, og skriv den hemmelige besked."
+  },
+  "G1-540": {
+    "title": "Hemmelig kode med tal",
+    "instruction": "Hvert tal står for et bogstav: A er 1. Brug nøglen, og skriv den hemmelige besked."
+  },
+  "G1-541": {
+    "title": "Hemmelig kode med regnestykker",
+    "instruction": "Regn hvert stykke ud. Find resultatet i nøglen, og skriv bogstavet."
+  },
+  "G2-496": {
+    "title": "Gør nøglen færdig",
+    "instruction": "Der mangler nogle bogstaver i nøglen. Find dem ved hjælp af ordet, der allerede er løst. Skriv derefter den hemmelige besked."
+  },
+  "G1-542": {
+    "title": "Lav din egen hemmelige kode",
+    "instruction": "Tegn et symbol for hvert bogstav. Skriv en besked, og skriv den så igen med din kode til en ven."
+  },
+  "K-569": {
+    "title": "Billedbanko",
+    "instruction": "Lyt til hvert ord. Er billedet på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "K-574": {
+    "title": "Billedbanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og sig ordet. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "K-570": {
+    "title": "Banko med hyppige ord",
+    "instruction": "Lyt til hvert ord. Står ordet på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "K-575": {
+    "title": "Banko med hyppige ord: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs ordet højt. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "G1-543": {
+    "title": "Regnebanko",
+    "instruction": "Lyt til hvert regnestykke, og regn det ud. Står resultatet på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "G1-545": {
+    "title": "Regnebanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs regnestykket højt, ikke resultatet. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "G1-544": {
+    "title": "Klokkebanko",
+    "instruction": "Lyt til hvert klokkeslæt. Viser et ur på din plade det klokkeslæt, så markér uret. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "G1-546": {
+    "title": "Klokkebanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs klokkeslættet højt. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "K-571": {
+    "title": "Forlydsbanko",
+    "instruction": "Lyt til hvert ord og den første lyd. Står bogstavet for lyden på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "K-576": {
+    "title": "Forlydsbanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og sig ordet, ikke bogstavet. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "K-572": {
+    "title": "Talordsbanko",
+    "instruction": "Lyt til hvert tal. Står det på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "K-577": {
+    "title": "Talordsbanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs tallet højt. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "K-573": {
+    "title": "Figur- og farvebanko",
+    "instruction": "Lyt til hver figur og dens farve. Står den på din plade, så markér den. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«"
+  },
+  "K-578": {
+    "title": "Figur- og farvebanko: opråbskort",
+    "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs figuren og farven højt. Gem de kort, du har råbt op, så du kan tjekke hver banko."
   }
 }

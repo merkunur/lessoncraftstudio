@@ -53,17 +53,18 @@ module.exports = {
             const n = rng.int(d.nMin, d.nMax);
             const s = RC.sentence(C, frames[(2 * i + k) % frames.length], e, n, colors[2 * i + k], rng.pick(C.bank.names), loc);
             rows.push(RC.sentenceP(s.text, d.font, `data-lcs-n="${n}" data-lcs-noun="${e.vocabKey}" data-lcs-color="${colors[2 * i + k]}" data-lcs-noun-text="${RC.esc(s.nounText)}" data-lcs-color-text="${RC.esc(s.colorText)}"`));
-            for (let j = 0; j < n; j++) pics.push({ e, target: true });
+            for (let j = 0; j < n; j++) pics.push({ e, target: true, color: colors[2 * i + k] });
           });
         } catch (e) { ok = false; break; }
         for (let j = 0; j < d.extra; j++) pics.push({ e: extra[0], target: false });
-        const strip = rng.shuffle(pics).map((p) => RC.icon(theme, p.e, d.icon, rng, p.target)).join('');
+        // the screen paints when every picture is coloured (no extra picture: level 1), else it asks which to colour
+        const strip = rng.shuffle(pics).map((p) => RC.icon(theme, p.e, d.icon, rng, p.target, ctx && ctx.screen && !d.extra ? p.color : null, ctx && ctx.answerKey && !d.extra ? p.color : null)).join('');
         cards.push(`<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:10px 8px 4px" data-lcs-item>` +
           `<div style="display:flex;flex-direction:column;gap:4px;padding-left:22px">${rows.join('')}</div>` +
           `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-content:flex-start" data-lcs-strip>${strip}</div></div>`);
       }
       if (!ok) continue;
-      const legend = colorLegend({ entries: colors.slice(0, d.cards * 2).map((k) => ({ key: k, word: C.words[k] })) });
+      const legend = colorLegend({ entries: colors.slice(0, d.cards * 2).map((k) => ({ key: k, word: C.words[k] })), bins: !!(ctx && ctx.screen && !d.extra) });
       return {
         bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;min-height:0">${legend}${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
         meta: { nouns: targets.map((e) => e.vocabKey) },

@@ -16,6 +16,7 @@ const { writingRow, strokeWordLane } = require('../../primitives/trace-path.js')
 const { wordBank, letterBoxes } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { compare } = require('../../data/b2/collation.js');
+const LS = require('../../data/tracing/letter-strokes.js');   // the starter's advance on the maker's key
 // Level Set 2026-10-03: new pages name only reviewed pictures and words (shared with Word Tracing)
 const { freshKeep, PAGE_SWAP } = require('../../lib/picture-word-review.js');
 
@@ -80,14 +81,28 @@ module.exports = {
     let order = picks.slice(), guard = 0;
     const same = (a, b) => a.map((x) => x.word).join('|') === b.map((x) => x.word).join('|');
     while ((same(order, sorted) || same(order, sorted.slice().reverse())) && guard++ < 50) order = rng.shuffle(order);
+    // the maker's answer key and type-the-word screen (2026-11-02): the word the child writes ON THE LINE, as an empty
+    // answer box over the ruling (level 1: after the printed first letter, so the key reads as the whole word). The box is
+    // an empty span in EVERY build (it draws nothing); key and screen builds only add its data-lcs-answer mark, so the
+    // screen differs from the printed page by marks alone
+    const mark = !!(ctx && (ctx.answerKey || ctx.screen));
+    // where the printed starter's INK ends: its stroke coordinates at the 40 px starter lane's scale (a wide w / m is
+    // shrunk to fit the lane: glyphH / 70 per unit, or what 26 px of lane allow)
+    const starterEnd = (ch) => {
+      const g = LS.textGlyphs(ch), it = g.items[0];
+      const xs = it.strokes.flatMap((st) => (st.d.match(/-?[\d.]+/g) || []).map(Number).filter((_, i) => i % 2 === 0));
+      const sc = Math.min(d.glyphH / 70, (40 - 6 - 8) / g.width);
+      return Math.round(6 + (it.x + Math.max(...xs)) * sc + 5);
+    };
+    const answerOn = (ans, left) => `<span${mark ? ` data-lcs-answer="${ans}"` : ''} style="position:absolute;left:${left}px;right:4px;top:4px;bottom:${Math.round(64 * 0.22)}px;display:flex;align-items:flex-end;font-family:'Baloo 2',cursive;font-weight:700;font-size:${Math.round(d.glyphH * 0.95)}px;line-height:1;white-space:nowrap"></span>`;
     const cards = order.map((e) => {
       let right;
       if (d.starter) {
         const first = strokeWordLane({ text: [...e.word][0], w: 40, h: 64, glyphH: d.glyphH, reps: 1, stack: true, padLeft: 6 });
         right = `<div style="position:relative;width:${d.rulingW}px" data-lcs-hint="${[...e.word][0]}">${writingRow({ w: d.rulingW, h: 64, glyphH: d.glyphH, xHeight: true }).svg}` +
-          `<div style="position:absolute;left:0;top:0">${first.svg}</div></div>`;
+          `<div style="position:absolute;left:0;top:0">${first.svg}</div>${answerOn([...e.word].slice(1).join(''), starterEnd([...e.word][0]))}</div>`;
       } else {
-        right = `<div style="width:${d.rulingW}px">${writingRow({ w: d.rulingW, h: 64, glyphH: d.glyphH, xHeight: true }).svg}</div>`;
+        right = `<div style="position:relative;width:${d.rulingW}px">${writingRow({ w: d.rulingW, h: 64, glyphH: d.glyphH, xHeight: true }).svg}${answerOn(e.word, 8)}</div>`;
       }
       const boxes = d.boxes ? `<div style="display:flex;justify-content:center;padding-top:2px">${letterBoxes({ n: [...e.word.replace(/[ ]/g, '')].length, box: Math.min(24, Math.floor(280 / [...e.word].length) - 4) })}</div>` : '';
       return `<div class="ws-card-stage" style="flex-direction:column;gap:4px;padding:6px 6px 2px" data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}">` +

@@ -161,9 +161,18 @@ function sentence(ctx, frame, e, n, colorKey, name, loc) {
   return { text, nounText, colorText };
 }
 
-function icon(theme, e, px, rng, target) {
-  return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}"${target ? ' data-lcs-target="1"' : ''} ` +
-    `style="width:${px}px;height:${px}px;transform:rotate(${(rng.next() * 12 - 6).toFixed(1)}deg)">`;
+// generic marks (2026-11-03): every picture a candidate (data-lcs-pick), the ones to colour ringed — the key rings them,
+// the screen asks to tap exactly those (a page where ANY n are right adds its own group / want: G1-411)
+// paint (a colour key): the screen of a page where EVERY picture is coloured paints it — the picture is a target whose
+// answer is its colour (tap a colour in the legend, then the picture); a page with pictures to leave is a tap-select.
+// keyColour (a colour key): the answer key of such a page draws each picture's frame in ITS colour (a drawn sample —
+// a ring would not say which colour)
+function icon(theme, e, px, rng, target, paint, keyColour) {
+  const SWATCH = require('../templates/components-b2.js').SWATCH;
+  const marks = paint ? ` data-lcs-drop data-lcs-answer="${paint}"` : keyColour ? ' data-lcs-key-sample' : ` data-lcs-pick${target ? ' data-lcs-key-ring' : ''}`;
+  const frame = keyColour ? `;outline:5px solid ${SWATCH[keyColour]};outline-offset:3px;border-radius:10px` : '';
+  return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}"${marks}${target ? ' data-lcs-target="1"' : ''} ` +
+    `style="width:${px}px;height:${px}px;transform:rotate(${(rng.next() * 12 - 6).toFixed(1)}deg)${frame}">`;
 }
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');

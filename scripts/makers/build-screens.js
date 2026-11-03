@@ -20,6 +20,11 @@
 // the page the maker would show: the page or one of its fresh-seed retries (runtime.generate's ladder, 2026-11-02 — a
 // level whose first seed cannot be built is not a level without a screen)
 const ladder = async (variant, fn) => { let err; for (const sv of [null, '.1', '.2', '.3', '.4']) { try { return await fn(sv); } catch (e) { err = err || e; } } throw err; };
+// a template's levels and themes in a language (build-bundles: localeLevels / localeThemes, 2026-11-03), and the language a
+// level's screen is measured in: English if it offers the level, else the first that does
+const levelsIn = (t, loc) => (t.localeLevels && t.localeLevels[loc]) || t.levels;
+const themesIn = (t, loc) => (t.localeThemes && t.localeThemes[loc]) || t.themes;
+const probeAt = (t, d) => ['en', ...t.locales].find((loc) => t.locales.includes(loc) && levelsIn(t, loc).includes(d));
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
@@ -90,7 +95,7 @@ async function main() {
         }
         for (const loc of t.locales) {
           instr[loc] = {};
-          for (const d of t.levels) {
+          for (const d of levelsIn(t, loc)) {
             const s = resolveStrings(t.id, loc, type);
             const fam = INTERACTIVE[type.exerciseType];
             const key = typeof type.interactive.instructionKey === 'function' ? type.interactive.instructionKey(d, type) : type.interactive.instructionKey;
@@ -100,12 +105,12 @@ async function main() {
           }
         }
         const levels = [], reasons = [], paths = {};
-        const loc0 = t.locales.includes('en') ? 'en' : t.locales[0];
         if (!runtime.screen.DECLARED_KINDS.has(type.interactive.kind)) reasons.push('the ' + type.interactive.kind + ' screen is built with its maker (picture capture)');
         else for (const d of t.levels) {
           // copy 1 (at level 2 the published face) AND copy 2 (a teacher's new page): both must yield a screen
+          const loc0 = probeAt(t, d);
           const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
-          const theme = t.themed ? t.themes[0] : null;
+          const theme = t.themed ? themesIn(t, loc0)[0] : null;
           // a unit drawn for one level (t.unitLevels) is asked for at that level only
           const unit = ((t.units && t.units[loc0]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
           try {
@@ -123,12 +128,13 @@ async function main() {
         const type = require(path.join(REPO, t.file));
         const levels = [], reasons = [];
         for (const d of t.levels) {
-          const s = withLevelInstruction(resolveStrings(t.id, 'en', type), t.id, d, 'en');
-          const theme = t.themed ? t.themes[0] : null;
-          const unit = ((t.units && t.units.en) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
+          const loc0 = probeAt(t, d);
+          const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
+          const theme = t.themed ? themesIn(t, loc0)[0] : null;
+          const unit = ((t.units && t.units[loc0]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d).map((u) => u.id)[0] || null;
           try {
-            const r = runtime.makePage({ type, strings: s, locale: 'en', difficulty: d, theme, unit, variant: 1, screen: true });
-            await runtime.screen.buildScreen({ html: r.screenHtml, locale: 'en', strings: shared.runtimeStrings.en, instruction: 'x', mount });
+            const r = runtime.makePage({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant: 1, screen: true });
+            await runtime.screen.buildScreen({ html: r.screenHtml, locale: loc0, strings: shared.runtimeStrings[loc0], instruction: 'x', mount });
             levels.push(d);
           } catch (e) { const lv = VERDICTS.levels && VERDICTS.levels[t.id] && VERDICTS.levels[t.id][d]; reasons.push('L' + d + ': ' + (lv || (e.reasons ? e.reasons.join('; ') : e.message))); }
         }

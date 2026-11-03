@@ -15,13 +15,15 @@
 const { SCENES } = require('../data/hm/scenes.js');
 const { FACES } = require('../data/b8/maze-puzzles.js');
 const LEVELS = require('../data/hmx/levels.js');
+const platform = require('./platform/index.js');   // the skin files are read through the platform (the mazes maker, 2026-11-02)
+const path = require('path');
 
 let SKINS = null;
 function load() {
   if (SKINS) return SKINS;
   SKINS = new Map();
   for (const f of require('../data/hmx/scenes.js').FILES) {
-    for (const sk of require('../data/hmx/' + f)) {
+    for (const sk of platform.requireData(path.join(__dirname, '..', 'data', 'hmx', f))) {
       if (!/^hmx-[a-z0-9-]+$/.test(sk.id)) throw new Error('hmx: bad scene id ' + sk.id);
       if (SKINS.has(sk.id)) throw new Error('hmx: duplicate scene id ' + sk.id);
       if (!FACES[sk.face]) throw new Error('hmx: ' + sk.id + ' names unknown face ' + sk.face);
@@ -34,10 +36,13 @@ const skinOf = (unit) => { const s = load().get(String(unit).replace(/@.*$/, '')
 const allSkins = () => [...load().values()];
 
 const META = new Set(['id', 'face', 'setting', 'level', 'names', 'note', 'maze', 'labels']);
-function resolveHmx(unit, difficulty, mode) {
-  const sk = skinOf(unit);
+function resolveHmx(unit, difficulty, mode) { return resolveSpec(skinOf(unit), difficulty, mode, false); }
+/** the face's OWN published scene at a level (makers 2026-11-02: level 2 is the published maze; levels 1 and 3 take the
+ *  same presets as the Level Set scenes) — its own band drawings stay, it is no Level Set scene (no hmxId) */
+function resolveOwn(mode, difficulty, scene) { return resolveSpec({ id: 'own-' + mode, face: mode }, difficulty, mode, true, scene); }
+function resolveSpec(sk, difficulty, mode, own, sceneId) {
   if (mode && sk.face !== mode) throw new Error('hmx: scene ' + sk.id + ' belongs to face ' + sk.face + ', not ' + mode);
-  const base = SCENES[FACES[sk.face].scene];
+  const base = SCENES[sceneId || FACES[sk.face].scene];
   const lv = (LEVELS[sk.face] || {})[difficulty] || {};
   const out = { ...base };
   for (const [k, v] of Object.entries(sk)) if (!META.has(k)) out[k] = v;
@@ -66,7 +71,7 @@ function resolveHmx(unit, difficulty, mode) {
   // a Level Set scene places its hero / goal by slots (the published base used hand-set points): 24 attempts by default
   out.tries = Math.max(out.tries || 0, lv.tries || 0, 24);
   // the published scene's own band drawings belong to its picture (a beach boat, a jungle palm), never to a new scene's
-  if (!sk.bandArt) out.bandArt = [];
+  if (!sk.bandArt && !own) out.bandArt = [];
   // an avoid scene never draws, as island decor, anything that looks like one of its obstacles (a decor puddle beside a
   // puddle on the road would read as one more thing to avoid; a water-filled hole reads as a puddle)
   if (sk.face === 'avoid' && out.decor) {
@@ -79,8 +84,8 @@ function resolveHmx(unit, difficulty, mode) {
   if (out.decor && out.goal && /puddle|pond/.test(String(out.goal.src))) out.decor = out.decor.filter((d) => !/^(puddle|pond)$/.test(d.k));
   // likewise a FLOWER goal ("get to the flower") never shares its page with drawn flowerbeds
   if (out.decor && out.goal && /^flowers( bw[ 0-9]*)?\/|\/flower$/i.test(String(out.goal.src))) out.decor = out.decor.filter((d) => d.k !== 'flowerbed');
-  out.hmxId = sk.id;
+  if (!own) out.hmxId = sk.id;
   return out;
 }
 
-module.exports = { resolveHmx, skinOf, allSkins };
+module.exports = { resolveHmx, resolveOwn, skinOf, allSkins };

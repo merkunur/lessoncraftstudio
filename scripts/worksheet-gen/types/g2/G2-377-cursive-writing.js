@@ -44,6 +44,7 @@
  */
 'use strict';
 const { bank: loadBank } = require('../../lib/b6-common.js');
+const platform = require('../../lib/platform/index.js');   // file reads go through the platform (the Cursive maker runs this in a browser)
 const C6 = require('../../templates/components-b6.js');
 const SR = require('../../primitives/school-ruling.js');
 const { color } = require('../../primitives/_tokens.js');
@@ -61,7 +62,7 @@ const TALL_CAPITAL = /[ÄÖÜÅÑ]/u;
 function levelSetData(loc) {
   if (_ls === null) {
     const f = require('path').join(__dirname, '..', '..', 'data', 'b6', 'cursive-writing-levelset.json');
-    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : {};
+    _ls = platform.exists(f) ? platform.readJson(f) : {};
   }
   return _ls[loc] || null;
 }
@@ -412,7 +413,10 @@ function browserVerify(data) {
     if (!(Number(ds.lcsX) >= Number(ds.lcsFloor))) fails.push(`X ${ds.lcsX} < floor ${ds.lcsFloor}`);
     if (!(Number(ds.lcsStack) <= STACK_MAX)) fails.push(`stack ${ds.lcsStack} > ${STACK_MAX}`);
     const flow = [...root.querySelectorAll('[data-lcs-flow]')];
-    if (ds.lcsFace !== 'read') {
+    // a template built on these faces (makers 2026-11-02: own words, letter of the day, print-cursive match) passes its
+    // own layout facts: F.cards (a card page like 'read'), F.freeLines (the free writing lines per block; null = skip)
+    const cardPage = ds.lcsFace === 'read' || !!F.cards;
+    if (!cardPage) {
       const leaves = [...root.querySelectorAll('[data-lcs-leaf], [data-lcs-practice=""]')];
       const measured = tagEl.getBoundingClientRect().height + 8 + [...root.querySelectorAll('[data-lcs-gap]')].reduce((s, g) => s + Number(g.dataset.lcsGap), 0) + leaves.reduce((s, b) => s + b.getBoundingClientRect().height, 0);
       if (Math.abs(measured - Number(ds.lcsStack)) > 1.5) fails.push(`rendered stack ${measured.toFixed(1)} ≠ stamped ${ds.lcsStack}`);
@@ -422,14 +426,14 @@ function browserVerify(data) {
       if (orphans.length) fails.push(`orphan ruled row: ${orphans.length} ruled row(s) belong to no item (a closing practice row the instruction never names)`);
       // ... and every item gets the writing lines its instruction names: ONE free line (capitals / joins / words),
       // TWO under every sentence (copy: "on the two lines below it"; the grey model's own row is not a free line)
-      const wantFree = ds.lcsFace === 'copy' ? 2 : 1;
-      blocks.forEach((b, k) => {
+      const wantFree = F.freeLines !== undefined ? F.freeLines : ds.lcsFace === 'copy' ? 2 : 1;
+      if (wantFree != null) blocks.forEach((b, k) => {
         const free = [...b.querySelectorAll('.cw-row')].filter((r) => !r.querySelector('[data-lcs-cursive]')).length;
         if (free !== wantFree) fails.push(`block ${k}: ${free} free writing line(s), the instruction names ${wantFree}`);
       });
     }
     // the content boxes are the LEAVES (rows, printed strips, Seyès slices, practice rows): a band inside a grown block counts too
-    const content = ds.lcsFace === 'read' ? [...root.querySelectorAll('.cw-card')] : [...root.querySelectorAll('[data-lcs-leaf], [data-lcs-practice=""]')].sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top);
+    const content = cardPage ? [...root.querySelectorAll('.cw-card')] : [...root.querySelectorAll('[data-lcs-leaf], [data-lcs-practice=""]')].sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top);
     const boxes = [tagEl, ...content].map((e) => e.getBoundingClientRect());
     for (let k = 1; k < boxes.length; k++) { const band = boxes[k].top - boxes[k - 1].bottom; if (band > 40.5) fails.push(`SPARSE: a ${Math.round(band)} px blank band between content boxes ${k - 1} and ${k}`); }
     const bodyEl = document.querySelector('.ws-body');
@@ -513,7 +517,8 @@ async function rasterVerify(page, opts = {}) {
   } finally {
     await page.evaluate(() => { const s = document.getElementById('cw-qa-raster'); if (s) s.remove(); });
   }
-  return page.evaluate(rasterAnalyse, { png: shot, clipX: Math.floor(box.x), clipY: Math.floor(box.y), ID, calib: !!opts.expectXCalibration });
+  // opts.ID: a Cursive-maker template built on these faces (G2-480 …) analyses its own root
+  return page.evaluate(rasterAnalyse, { png: shot, clipX: Math.floor(box.x), clipY: Math.floor(box.y), ID: opts.ID || ID, calib: !!opts.expectXCalibration });
 }
 
 /** in-page raster analysis (self-contained) */
@@ -795,7 +800,7 @@ function faceColumn(c, mode, geom, blocks, practice, total, rootAttrs, count) {
   if (practice) throw new Error(`${ID}: a face never carries closing practice rows (fix round 2: an orphan ruled row)`);
   const prac = '';
   return C6.cwFontFace(c.unit) +
-    `<div class="cw-page" data-ws-content="" data-lcs-cw="" data-lcs-type="${ID}" data-lcs-face="${mode}" data-lcs-mode="${mode}" data-lcs-locale="${c.locale}"` +
+    `<div class="cw-page" data-ws-content="" data-lcs-cw="" data-lcs-type="${c.typeId || ID}" data-lcs-face="${mode}" data-lcs-mode="${mode}" data-lcs-locale="${c.locale}"` +
     ` data-lcs-unit="${c.unit}" data-lcs-x="${c.X}" data-lcs-floor="${c.floor}" data-lcs-ruling="${c.kind}" data-lcs-stack="${total}" data-lcs-practice="${practice}"` +
     ` data-lcs-count="${count}" data-lcs-lift="${c.lift}"${rootAttrs || ''} style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
     C6.cwScriptTag({ scriptName: c.scriptName, w: BODY_W }) + spacer(0, GAP_MAX.faceTag) + body + prac + `</div>`;
@@ -1032,7 +1037,9 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
   const B2 = require('../../lib/b2-common.js');
   const pics = order.map((i) => { const [theme, noun] = items[i].key.split('/'); return { key: items[i].key, src: B2.fileUri(theme, noun) }; });
   const maxH = Math.floor((814 - TAG_H - (n - 1) * 12) / n);
-  const match = C6.cwReadMatch({ unit: c.unit, fs, words: items, pics, minH, maxH, gap: 12 });
+  // the maker's answer key / tap-to-pair screen (2026-11-02); the catalogue page passes no marks and is unchanged
+  const marks = ctx && ctx.answerKey ? 'key' : ctx && ctx.screen ? 'screen' : null;
+  const match = C6.cwReadMatch({ unit: c.unit, fs, words: items, pics, minH, maxH, gap: 12, ...(marks ? { marks } : {}) });
   const html = C6.cwFontFace(c.unit) +
     `<div class="cw-page" data-ws-content="" data-lcs-cw="" data-lcs-type="${ID}" data-lcs-face="read" data-lcs-mode="read" data-lcs-locale="${locale}"` +
     ` data-lcs-unit="${c.unit}" data-lcs-x="${c.X}" data-lcs-floor="${c.floor}" data-lcs-ruling="none" data-lcs-stack="${stack}" data-lcs-practice="0" data-lcs-count="${n}" data-lcs-lift="${c.lift}"` +
@@ -1166,6 +1173,9 @@ const TYPE = {
     }
     const fails = await page.evaluate(browserVerify, { ID, STACK_MAX, ink: hexToRgb(color.ink), grid: hexToRgb(color.grid), face });
     if (fails.length && /no cursive root/.test(fails[0])) return fails;
+    // the raster half (ink on its lines ±1 px, one ink piece per join) needs a screenshot: build-time only (ENGINES
+    // cursive-Q1 (1)); in the maker the page runs the DOM half above (stamps, stack, one text node per chain)
+    if (page.live) return fails;
     return fails.concat(await rasterVerify(page));
   },
 };
@@ -1174,6 +1184,14 @@ TYPE._browserVerify = browserVerify;
 TYPE._rasterVerify = rasterVerify;
 /** the G2-386 mark classes of a locale as [source, flags, letters, label] (the bank gate reads the same table) */
 TYPE.ONE_LETTER_DIGRAPHS = ONE_LETTER_DIGRAPHS;
+/**
+ * The face machinery for the Cursive maker's own templates (2026-11-02: own words, letter of the day, print ↔ cursive
+ * match, alphabet poster — G2-480 … G2-483). A template borrows an existing face's size + ruling (faceContext with that
+ * mode), stamps its own type id (c.typeId) and face name, and runs browserVerify with its own ID + face facts.
+ */
+TYPE._cw = { ID, KEY, NEUTRAL, BODY_W, STACK_MAX, TAG_H, ROW_GAP, GAP_MAX, FACE_MARGIN, FACE_HEAD_GAP, DOT_CROSS, ONE_LETTER_DIGRAPHS,
+  loadBank, levelSetData, levelSetBank, faceContext, geomFor, seyesFor, faceBlockH, faceStack, fitCount, faceColumn, spacer, wordText,
+  derangeOrder, readClash, browserVerify, rasterVerify, hexToRgb, letterList };
 TYPE._markClasses = (loc) => (MARK_CLASSES[loc] || []).map(([re, letters, what]) => [re.source, re.flags, letters, what]);
 
 module.exports = TYPE;

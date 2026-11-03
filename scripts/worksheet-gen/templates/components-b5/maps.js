@@ -157,17 +157,20 @@ const DOT = (side) => `<span data-lcs-match-dot="${side}" style="display:block;w
  * One F1 pair row: the side view (cream item, standing on a ground line) at the left, the top
  * view (white map tile) at the right. side = {svg, x0, w} of the primitive (box x box px).
  */
-function viewPair({ leftModel, rightModel, side, top, box, itemW = 124, tileW = 112, rowH = 112, w = 560 }) {
+function viewPair({ leftModel, rightModel, side, top, box, itemW = 124, tileW = 112, rowH = 112, w = 560, sideAttrs = '', topAttrs = '', sideNumber = null }) {
+  // answer marks (2026-11-03): sideAttrs / topAttrs = the key's or the screen's pair marks; sideNumber = the key's number
+  // on a side item (the top tile it belongs with carries the same number as its badge)
+  const num = sideNumber == null ? '' : `<span data-lcs-key-sample style="position:absolute;left:6px;top:6px;min-width:30px;height:30px;padding:0 6px;box-sizing:border-box;border-radius:15px;background:${T.teal};color:${T.white};font:700 18px/30px '${F.display}',cursive;text-align:center">${sideNumber}</span>`;
   const g = box + 8;   // the side svg + its ground line
   const sideSvg = svgRoot({ width: box + 8, height: g, viewBox: `-4 0 ${box + 8} ${g}`, label: '' },
     side.svg + el('line', { x1: +(side.x0 - 4).toFixed(2), y1: box + 3, x2: +(side.x0 + side.w + 4).toFixed(2), y2: box + 3, stroke: T.teal, 'stroke-width': 3, 'stroke-linecap': 'round', 'data-lcs-ground': '' }),
     { style: 'display:block;overflow:visible' });
   return `<div data-lcs-pair-row style="display:flex;align-items:center;justify-content:space-between;width:${w}px;height:${rowH}px;flex:0 0 auto">` +
     `<div style="display:flex;align-items:center;gap:10px">` +
-    `<div data-lcs-item="side" data-lcs-model="${esc(leftModel)}" style="width:${itemW}px;height:${rowH}px;box-sizing:border-box;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;display:flex;align-items:center;justify-content:center">${sideSvg}</div>` +
+    `<div data-lcs-item="side" data-lcs-model="${esc(leftModel)}"${sideAttrs} style="${num ? 'position:relative;' : ''}width:${itemW}px;height:${rowH}px;box-sizing:border-box;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;display:flex;align-items:center;justify-content:center">${sideSvg}${num}</div>` +
     DOT('left') + `</div>` +
     `<div style="display:flex;align-items:center;gap:10px">` + DOT('right') +
-    `<div data-lcs-item="top" data-lcs-model="${esc(rightModel)}" style="width:${tileW}px;height:${rowH}px;box-sizing:border-box;background:${T.white};border:1.5px solid ${T.teal};border-radius:8px;display:flex;align-items:center;justify-content:center">${top}</div>` +
+    `<div data-lcs-item="top" data-lcs-model="${esc(rightModel)}"${topAttrs} style="width:${tileW}px;height:${rowH}px;box-sizing:border-box;background:${T.white};border:1.5px solid ${T.teal};border-radius:8px;display:flex;align-items:center;justify-content:center">${top}</div>` +
     `</div></div>`;
 }
 function viewHeads({ w = 560, itemW = 124, tileW = 112 } = {}) {
@@ -200,14 +203,20 @@ function nameBank({ names, w = 639, px = 17 }) {
     names.map((n) => `<span class="ws-bankword" style="font-size:${px}px" data-lcs-bank-word="${esc(n.id)}"><span>${esc(n.name)}</span></span>`).join('') + `</div>`;
 }
 
-function nameLane({ n, answer, laneW, laneH, glyphH, given }) {
+function nameLane({ n, answer, laneW, laneH, glyphH, given, keyName, typed }) {
   // the ruling is laneW - 3 wide inside a border-box lane of laneW x (laneH + 3): its 1.5 px frame never pushes the svg out (measured: a 3 px spill under the footer)
   let row = writingRow({ w: laneW - 3, h: laneH, glyphH, xHeight: true }).svg;
   // Level Set (2026-10-14): a worked example — the name seated on the row's own base rule (lib/key-on-row.js), in ink
   if (given) row = seatOnRow(row, given, { fill: T.ink, font: 'nunito-700', em: 0.62 });
+  // the answer key (2026-11-03): the name the child writes, seated on the row in teal (a drawn sample: the row is not empty)
+  else if (keyName) row = seatOnRow(row, keyName, { fill: T.teal, font: 'nunito-700', em: 0.62 }).replace('data-lcs-keytext="1"', 'data-lcs-keytext="1" data-lcs-key-sample');
+  // the screen (2026-11-03): an empty write box over the lane carries the name to type (the lane itself holds its
+  // ruling); on every build but the key's (which writes the name on the row), so a screen differs from its page only
+  // by marks
+  const box = !given ? `<span${typed ? ` data-lcs-answer="${esc(typed)}" data-lcs-label="${n}"` : ''} style="position:absolute;left:0;top:0;width:100%;height:100%"></span>` : '';
   return `<div data-lcs-lane="${n}"${given ? ' data-lcs-given' : ''} style="display:flex;align-items:center;gap:10px">` +
     `<span data-lcs-lane-n style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 40px;box-sizing:content-box;border-radius:50%;background:${T.coral};border:2px solid ${T.white};box-shadow:0 0 0 1.5px ${T.coral};font-family:${F.display},cursive;font-weight:700;font-size:21px;color:${T.white}">${n}</span>` +
-    `<span class="ws-blankbox" data-lcs-answer="${esc(answer)}" style="box-sizing:border-box;width:${laneW}px;height:${laneH + 3}px;line-height:0;border:1.5px solid ${T.grid};overflow:hidden">${row}</span></div>`;
+    `<span class="ws-blankbox" data-lcs-answer="${esc(answer)}" style="${box ? 'position:relative;' : ''}box-sizing:border-box;width:${laneW}px;height:${laneH + 3}px;line-height:0;border:1.5px solid ${T.grid};overflow:hidden">${row}${box}</span></div>`;
 }
 function laneRow({ lanes, w = 639, gap = 15 }) {
   return `<div data-lcs-lane-row style="display:flex;justify-content:flex-start;gap:${gap}px;width:${w}px;flex:0 0 auto">${lanes.join('')}</div>`;
@@ -239,7 +248,8 @@ function dirLegend({ title, rows, w = 193, symPx = 36 }) {
 }
 
 function directionRow({ n, start, startSvg, word, dir, chips, answer }) {
-  const chip = (c) => `<span data-lcs-chip="${esc(c.id)}" style="display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;flex:0 0 52px;box-sizing:border-box;border-radius:50%;background:${T.white};border:1.5px solid ${T.teal}">${c.svg}</span>`;
+  // every chip a choice, the one the direction reaches correct (2026-11-03: the key rings it, the screen asks to tap it)
+  const chip = (c) => `<span data-lcs-chip="${esc(c.id)}" data-lcs-choice${c.id === answer ? ' data-lcs-correct' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;flex:0 0 52px;box-sizing:border-box;border-radius:50%;background:${T.white};border:1.5px solid ${T.teal}">${c.svg}</span>`;
   return `<div data-lcs-dir-row="${n}" data-lcs-start="${esc(start)}" data-lcs-dir="${dir}" data-lcs-answer="${esc(answer)}" style="display:flex;align-items:center;height:52px;flex:0 0 auto">` +
     `<span data-lcs-row-badge style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;flex:0 0 28px;border-radius:50%;background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:17px">${n}</span>` +
     `<span data-lcs-start-frame style="position:relative;display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;flex:0 0 48px;margin-left:8px;box-sizing:border-box;border:2px solid ${T.teal};border-radius:8px;background:${T.white}">${startSvg}` +

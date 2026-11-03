@@ -64,7 +64,13 @@
     "mazes": "Labyrintit",
     "find-the-differences": "Etsi virheet",
     "how-to-draw": "Piirrä vaihe vaiheelta",
-    "picture-tracing": "Piirrä katkoviivoja pitkin"
+    "picture-tracing": "Piirrä katkoviivoja pitkin",
+    "pre-writing": "Kynäharjoitukset",
+    "tangram": "Tangram",
+    "letter-tracing": "Kirjainten kirjoitusharjoitus",
+    "word-writing": "Sanojen kirjoitusharjoitus",
+    "cursive": "Kaunokirjoitus",
+    "alphabet": "Aakkoset ja kirjaimet"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editText": "Muuta tekstiä",

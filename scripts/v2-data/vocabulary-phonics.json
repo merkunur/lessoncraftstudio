@@ -4373,9 +4373,9 @@
       "lc": 8
     },
     "fi": {
-      "syl": 4,
-      "pat": "CVCVCVCCV",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCVCVCC",
+      "lc": 8
     }
   },
   "basket": {
@@ -10653,9 +10653,9 @@
       "lc": 11
     },
     "it": {
-      "syl": 2,
-      "pat": "CVCCV",
-      "lc": 5
+      "syl": 5,
+      "pat": "VCCVCCVCVCCV",
+      "lc": 12
     },
     "nl": {
       "syl": 1,
@@ -11121,9 +11121,9 @@
       "vs": "short_a"
     },
     "de": {
-      "syl": 4,
-      "pat": "CVCVCCVCVC",
-      "lc": 11
+      "syl": 3,
+      "pat": "CVCVCCVVC",
+      "lc": 9
     },
     "fr": {
       "syl": 2,
@@ -12949,9 +12949,9 @@
       "lc": 7
     },
     "da": {
-      "syl": 3,
-      "pat": "CVCCVCCVC",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCCCCVCVC",
+      "lc": 10
     },
     "no": {
       "syl": 4,
@@ -14011,13 +14011,13 @@
     },
     "fr": {
       "syl": 2,
-      "pat": "CVCVC",
-      "lc": 6
+      "pat": "CVVCV",
+      "lc": 5
     },
     "es": {
-      "syl": 2,
-      "pat": "CVCV",
-      "lc": 5
+      "syl": 3,
+      "pat": "CVCCVCV",
+      "lc": 7
     },
     "pt": {
       "syl": 3,
@@ -14025,9 +14025,9 @@
       "lc": 7
     },
     "it": {
-      "syl": 2,
-      "pat": "CVCCV",
-      "lc": 5
+      "syl": 3,
+      "pat": "CVCCVCV",
+      "lc": 7
     },
     "nl": {
       "syl": 1,
@@ -14036,18 +14036,18 @@
     },
     "sv": {
       "syl": 2,
-      "pat": "CVCCCVC",
-      "lc": 8
+      "pat": "CVCV",
+      "lc": 4
     },
     "da": {
       "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 7
+      "pat": "CVCV",
+      "lc": 4
     },
     "no": {
       "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 7
+      "pat": "CVCV",
+      "lc": 4
     },
     "fi": {
       "syl": 2,
@@ -17812,9 +17812,9 @@
       "lc": 8
     },
     "nl": {
-      "syl": 4,
-      "pat": "CCVCCVCCVCVC",
-      "lc": 13
+      "syl": 3,
+      "pat": "CVCCCVCCCVC",
+      "lc": 11
     },
     "sv": {
       "syl": 2,
@@ -17833,8 +17833,8 @@
     },
     "fi": {
       "syl": 4,
-      "pat": "CVCVCVCVC",
-      "lc": 9
+      "pat": "CVCVCVVCVC",
+      "lc": 10
     }
   },
   "crib": {
@@ -19222,9 +19222,9 @@
       "lc": 8
     },
     "no": {
-      "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 6
+      "syl": 3,
+      "pat": "CVCCVCVC",
+      "lc": 8
     },
     "fi": {
       "syl": 3,
@@ -20235,14 +20235,14 @@
       "lc": 4
     },
     "nl": {
-      "syl": 4,
-      "pat": "CVCCVCCCVCVC",
-      "lc": 12
+      "syl": 3,
+      "pat": "CVCCVCCCVVC",
+      "lc": 11
     },
     "sv": {
-      "syl": 3,
-      "pat": "CVCCVCVC",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCCVCC",
+      "lc": 7
     },
     "da": {
       "syl": 3,
@@ -23681,9 +23681,9 @@
       "lc": 6
     },
     "fr": {
-      "syl": 5,
-      "pat": "VCCVCVCCVCV",
-      "lc": 11
+      "syl": 4,
+      "pat": "CVCCVCVVCV",
+      "lc": 10
     },
     "es": {
       "syl": 5,
@@ -25767,9 +25767,9 @@
       "lc": 7
     },
     "da": {
-      "syl": 4,
-      "pat": "CCVCCVCVCCVC",
-      "lc": 12
+      "syl": 3,
+      "pat": "CCVCCVCVC",
+      "lc": 9
     },
     "no": {
       "syl": 4,
@@ -33993,8 +33993,8 @@
     },
     "sv": {
       "syl": 2,
-      "pat": "CCVCCVC",
-      "lc": 9
+      "pat": "CCCVCCCV",
+      "lc": 8
     },
     "da": {
       "syl": 2,
@@ -34212,9 +34212,9 @@
       "lc": 9
     },
     "fr": {
-      "syl": 4,
-      "pat": "CCVCVCCVCV",
-      "lc": 10
+      "syl": 2,
+      "pat": "CCVCVC",
+      "lc": 6
     },
     "es": {
       "syl": 4,
@@ -37192,9 +37192,9 @@
       "lc": 7
     },
     "pt": {
-      "syl": 3,
-      "pat": "CVCCVCV",
-      "lc": 7
+      "syl": 4,
+      "pat": "CVCVCVCVV",
+      "lc": 9
     },
     "it": {
       "syl": 3,
@@ -38057,8 +38057,8 @@
     },
     "nl": {
       "syl": 2,
-      "pat": "CVCVC",
-      "lc": 5
+      "pat": "CVCVVC",
+      "lc": 6
     },
     "sv": {
       "syl": 2,
@@ -39001,8 +39001,8 @@
     },
     "de": {
       "syl": 4,
-      "pat": "CVCCVCCVCCV",
-      "lc": 12
+      "pat": "CVCCCVCCVCCVC",
+      "lc": 13
     },
     "fr": {
       "syl": 3,
@@ -39041,8 +39041,8 @@
     },
     "no": {
       "syl": 3,
-      "pat": "CVCCVCV",
-      "lc": 8
+      "pat": "CVCCVCCVC",
+      "lc": 9
     },
     "fi": {
       "syl": 2,
@@ -41615,9 +41615,9 @@
       "lc": 7
     },
     "fi": {
-      "syl": 3,
-      "pat": "CVCVCCV",
-      "lc": 8
+      "syl": 4,
+      "pat": "CVCVCVVCCV",
+      "lc": 10
     }
   },
   "melon": {
@@ -43398,8 +43398,8 @@
     },
     "sv": {
       "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 6
+      "pat": "CVCCVCC",
+      "lc": 7
     },
     "da": {
       "syl": 2,
@@ -45146,7 +45146,7 @@
     },
     "sv": {
       "syl": 2,
-      "pat": "CCVCCCVC",
+      "pat": "CCVCCCVCC",
       "lc": 9
     },
     "da": {
@@ -48776,9 +48776,9 @@
       "lc": 7
     },
     "sv": {
-      "syl": 3,
-      "pat": "CVCVCVC",
-      "lc": 7
+      "syl": 2,
+      "pat": "CVCVC",
+      "lc": 5
     },
     "da": {
       "syl": 3,
@@ -51984,9 +51984,9 @@
       "lc": 8
     },
     "no": {
-      "syl": 2,
-      "pat": "CVCCCCVC",
-      "lc": 8
+      "syl": 4,
+      "pat": "CVCVCVCCCCVC",
+      "lc": 12
     },
     "fi": {
       "syl": 4,
@@ -52599,7 +52599,7 @@
     },
     "fi": {
       "syl": 3,
-      "pat": "CVCVCVC",
+      "pat": "CVCCVCVC",
       "lc": 8
     }
   },
@@ -57120,8 +57120,8 @@
     },
     "sv": {
       "syl": 3,
-      "pat": "CVCCVCCVC",
-      "lc": 9
+      "pat": "CVCCVCCV",
+      "lc": 8
     },
     "da": {
       "syl": 4,
@@ -57186,8 +57186,8 @@
     },
     "sv": {
       "syl": 3,
-      "pat": "CVCCVCCVC",
-      "lc": 9
+      "pat": "CVCCVCCV",
+      "lc": 8
     },
     "da": {
       "syl": 4,
@@ -60487,7 +60487,7 @@
     },
     "sv": {
       "syl": 2,
-      "pat": "CVCCVC",
+      "pat": "CVCCCVCC",
       "lc": 8
     },
     "da": {
@@ -69355,9 +69355,9 @@
       "lc": 7
     },
     "fi": {
-      "syl": 1,
-      "pat": "CC",
-      "lc": 2
+      "syl": 2,
+      "pat": "CVCCV",
+      "lc": 5
     }
   },
   "toilet-paper": {
@@ -72854,9 +72854,9 @@
       "lc": 7
     },
     "it": {
-      "syl": 3,
-      "pat": "CVCVCCV",
-      "lc": 8
+      "syl": 2,
+      "pat": "CVVCV",
+      "lc": 5
     },
     "nl": {
       "syl": 2,
@@ -75794,6 +75794,126 @@
   "family": {
     "sv": {
       "syl": 2
+    }
+  },
+  "construction-crane": {
+    "en": {
+      "syl": 1,
+      "pat": "CCVCV",
+      "lc": 5,
+      "onset": "cr",
+      "rime": "ane",
+      "vs": "long_a"
+    },
+    "de": {
+      "syl": 1,
+      "pat": "CCVC",
+      "lc": 4
+    },
+    "fr": {
+      "syl": 1,
+      "pat": "CCVV",
+      "lc": 4
+    },
+    "es": {
+      "syl": 6,
+      "pat": "CCVVCVCVCCCCVCCVVC",
+      "lc": 18
+    },
+    "pt": {
+      "syl": 3,
+      "pat": "CVVCCVCCV",
+      "lc": 9
+    },
+    "it": {
+      "syl": 1,
+      "pat": "CCV",
+      "lc": 3
+    },
+    "nl": {
+      "syl": 2,
+      "pat": "CVCCCCVVC",
+      "lc": 9
+    },
+    "sv": {
+      "syl": 2,
+      "pat": "CVCCCCVC",
+      "lc": 8
+    },
+    "da": {
+      "syl": 1,
+      "pat": "CCVC",
+      "lc": 4
+    },
+    "no": {
+      "syl": 1,
+      "pat": "CCVC",
+      "lc": 4
+    },
+    "fi": {
+      "syl": 3,
+      "pat": "CVCCVCV",
+      "lc": 7
+    }
+  },
+  "metal-nail": {
+    "en": {
+      "syl": 1,
+      "pat": "CVVC",
+      "lc": 4,
+      "onset": "n",
+      "rime": "ail",
+      "vs": "long_a"
+    },
+    "de": {
+      "syl": 2,
+      "pat": "CVCVC",
+      "lc": 5
+    },
+    "fr": {
+      "syl": 1,
+      "pat": "CCVV",
+      "lc": 4
+    },
+    "es": {
+      "syl": 2,
+      "pat": "CCVCV",
+      "lc": 5
+    },
+    "pt": {
+      "syl": 2,
+      "pat": "CCVCV",
+      "lc": 5
+    },
+    "it": {
+      "syl": 2,
+      "pat": "CCVVCV",
+      "lc": 6
+    },
+    "nl": {
+      "syl": 2,
+      "pat": "CCVCCVC",
+      "lc": 7
+    },
+    "sv": {
+      "syl": 1,
+      "pat": "CCVC",
+      "lc": 4
+    },
+    "da": {
+      "syl": 1,
+      "pat": "CVC",
+      "lc": 3
+    },
+    "no": {
+      "syl": 2,
+      "pat": "CCVCVC",
+      "lc": 6
+    },
+    "fi": {
+      "syl": 2,
+      "pat": "CVVCV",
+      "lc": 5
     }
   }
 }

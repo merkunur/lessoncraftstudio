@@ -162,7 +162,13 @@ function factTable({ rows, w = 675, rowMin = 60, glyphH = 28, labelW = 160, labe
     let lane;
     if (r.lane === 'choice') lane = r.html || '';
     else if (r.lane === 'printed') lane = `<span data-lcs-printed style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:20px;color:${T.ink}">${esc(r.value == null ? '' : r.value)}</span>`;
-    else lane = `<span data-lcs-lane="${esc(r.key)}" style="display:inline-flex;width:${laneW}px;height:${laneH}px">${writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg}</span>`;
+    else {
+      // answer marks (2026-11-03, the bank face): r.keyWord — the answer key's word seated on the row in teal; r.drop — the
+      // screen's target: the bank word id the row takes (tap a word, then its row)
+      let row = writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
+      if (r.keyWord) row = require('../../lib/key-on-row.js').seatOnRow(row, r.keyWord, { fill: T.teal, font: 'nunito-700', em: 0.6 }).replace('data-lcs-keytext="1"', 'data-lcs-keytext="1" data-lcs-key-sample');
+      lane = `<span data-lcs-lane="${esc(r.key)}"${r.drop ? ` data-lcs-drop data-lcs-answer="${esc(r.drop)}" data-lcs-label="${esc(r.label)}"` : ''} style="display:inline-flex;width:${laneW}px;height:${laneH}px">${row}</span>`;
+    }
     const extra = r.attrs ? ' ' + r.attrs : '';
     return `<div data-lcs-row data-lcs-field="${esc(r.key)}"${factAttr}${extra} style="display:contents">` +
       `<div data-lcs-label="${esc(r.key)}" style="${top}border-right:${rule};background:${T.tealSoft};padding:0 8px;display:flex;align-items:center;min-width:0;min-height:0">` +
@@ -224,10 +230,11 @@ function choiceRow({ options, pillPx = 16, h = 40, gap = 8, padX = 20 }) {
 }
 
 /* -------------------------------------------------------- F3: fact bank */
-function factBank({ words, w, h, wordPx = 17 }) {
+// bins (2026-11-03): the screen's palette — each word a bin (tap it, then the row it belongs on)
+function factBank({ words, w, h, wordPx = 17, bins = false }) {
   if (!Array.isArray(words) || !words.length) throw new Error('factBank: no words');
-  const items = words.map((wd) =>
-    `<span class="ws-bankword" style="font-size:${wordPx}px;line-height:1.2" data-lcs-bank-word="${esc(wd.word)}" data-lcs-bank-field="${esc(wd.field)}"><span>${esc(wd.word)}</span></span>`).join('');
+  const items = words.map((wd, i) =>
+    `<span class="ws-bankword" style="font-size:${wordPx}px;line-height:1.2" data-lcs-bank-word="${esc(wd.word)}" data-lcs-bank-field="${esc(wd.field)}"${bins ? ` data-lcs-bin="b${i}" data-lcs-label="${esc(wd.word)}"` : ''}><span>${esc(wd.word)}</span></span>`).join('');
   return `<div data-lcs-bankslot data-lcs-bank-n="${words.length}" style="width:${w}px;height:${h}px;flex:0 0 ${h}px;display:flex;flex-direction:column;justify-content:center;min-width:0">` +
     `<div class="ws-scene-banner ws-bank" data-lcs-bank-banner style="margin:0">${items}</div></div>`;
 }
@@ -251,16 +258,19 @@ function miniFactFile({ rows, w, rowH = 20, labelW = 160, labelPx = 14, valuePx 
 /* ---------------------------------------------------- F5: same / different */
 function sameDiffGrid({ cells, sameLabel, diffLabel, w = 675, cols = 2, cellH = 48, gap = 8, pillPx = 16 }) {
   if (!Array.isArray(cells) || !cells.length) throw new Error('sameDiffGrid: no cells');
-  const chip = (k, text) => `<span class="ws-pill" data-lcs-sd="${k}" style="height:32px;padding:4px 12px;font-size:${pillPx}px;line-height:1;white-space:nowrap;flex:0 0 auto">${esc(text)}</span>`;
+  // generic marks (2026-11-03): both chips choices, the true one correct (the key rings it, the screen asks to tap it)
+  const chip = (k, text, right) => `<span class="ws-pill" data-lcs-sd="${k}" data-lcs-choice${right ? ' data-lcs-correct' : ''} style="height:32px;padding:4px 12px;font-size:${pillPx}px;line-height:1;white-space:nowrap;flex:0 0 auto">${esc(text)}</span>`;
   const items = cells.map((c) =>
     `<div class="ws-lane" data-lcs-sdcell data-lcs-field="${esc(c.key)}" data-lcs-same="${c.same ? 1 : 0}" style="padding:4px 10px;height:${cellH}px;display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0">` +
       `<span data-lcs-label-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:14px;line-height:18px;color:${T.ink};min-width:0">${esc(c.label)}</span>` +
-      `<span data-lcs-sdchips style="display:inline-flex;gap:8px;align-items:center;flex:0 0 auto">${chip('same', sameLabel)}${chip('diff', diffLabel)}</span></div>`).join('');
+      `<span data-lcs-sdchips style="display:inline-flex;gap:8px;align-items:center;flex:0 0 auto">${chip('same', sameLabel, !!c.same)}${chip('diff', diffLabel, !c.same)}</span></div>`).join('');
   return `<div data-lcs-sdgrid data-lcs-n="${cells.length}" style="width:${w}px;display:grid;grid-template-columns:repeat(${cols},1fr);gap:${gap}px;flex:0 0 auto">${items}</div>`;
 }
 
 /* ---------------------------------------------------------- F6: riddle card */
-function riddleCard({ n, clues, answer, prompt, nameLabel, cluesW = 300, laneW = 165, drawW = 146, drawH = 140, minH = 180, glyphH = 26, cluePx = 16 }) {
+// answer marks (2026-11-03): keyName — the answer key's name seated on the lane in teal; drop — the lane a screen target
+// for the bank animal it names (tap the animal, then its card's lane)
+function riddleCard({ n, clues, answer, prompt, nameLabel, cluesW = 300, laneW = 165, drawW = 146, drawH = 140, minH = 180, glyphH = 26, cluePx = 16, keyName = null, drop = false }) {
   if (!Array.isArray(clues) || clues.length < 3) throw new Error('riddleCard: needs >= 3 clues');
   const lines = clues.map((c) =>
     `<span data-lcs-clue="${esc(c.field)}=${esc(String(c.value))}" style="display:block;font-family:${F.body},sans-serif;font-weight:800;font-size:${cluePx}px;line-height:1.35;color:${T.ink}">${esc(c.text)}</span>`).join('');
@@ -270,7 +280,7 @@ function riddleCard({ n, clues, answer, prompt, nameLabel, cluesW = 300, laneW =
       `<span data-lcs-prompt style="font-family:${F.display},cursive;font-weight:700;font-size:18px;line-height:22px;color:${T.teal};margin-bottom:2px">${esc(prompt)}</span>${lines}</div>` +
     `<div data-lcs-namelane style="width:${laneW}px;flex:0 0 ${laneW}px;display:flex;flex-direction:column;gap:2px;min-width:0">` +
       `<span data-lcs-eyebrow style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:20px;color:${T.inkSoft};white-space:nowrap">${esc(nameLabel)}</span>` +
-      `<span data-lcs-lane="name" style="display:inline-flex;width:${laneW}px;height:${laneH}px">${writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg}</span></div>` +
+      `<span data-lcs-lane="name"${drop ? ` data-lcs-drop data-lcs-answer="${esc(answer)}" data-lcs-label="${n}"` : ''} style="display:inline-flex;width:${laneW}px;height:${laneH}px">${keyName ? require('../../lib/key-on-row.js').seatOnRow(writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg, keyName, { fill: T.teal, font: 'nunito-700', em: 0.6 }).replace('data-lcs-keytext="1"', 'data-lcs-keytext="1" data-lcs-key-sample') : writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg}</span></div>` +
     `<span data-lcs-drawbox="riddle" style="display:block;width:${drawW}px;height:${drawH}px;flex:0 0 ${drawW}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px"></span></div>`;
 }
 

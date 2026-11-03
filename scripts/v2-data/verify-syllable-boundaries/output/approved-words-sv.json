@@ -1,6 +1,6 @@
 {
   "locale": "sv",
-  "generated_at": "2026-06-04T15:18:08.498Z",
+  "generated_at": "2026-11-03T06:42:39.881Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-sv"
   ],
-  "count_approved": 993,
-  "count_quarantined": 270,
+  "count_approved": 996,
+  "count_quarantined": 269,
   "entries": [
     {
       "key": "accordion",
@@ -957,6 +957,32 @@
       "wiktionary_ipa": "/hœst/"
     },
     {
+      "key": "baby",
+      "word": "bebis",
+      "split": [
+        "be",
+        "bis"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "b",
+          "e"
+        ],
+        [
+          "b",
+          "i",
+          "s"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
       "key": "baby's-onesie",
       "word": "babybody",
       "split": [
@@ -1836,16 +1862,16 @@
     },
     {
       "key": "beanie",
-      "word": "mossa",
+      "word": "mössa",
       "split": [
-        "mos",
+        "mös",
         "sa"
       ],
       "count": 2,
       "chunks": [
         [
           "m",
-          "o",
+          "ö",
           "s"
         ],
         [
@@ -1860,7 +1886,7 @@
         "NST-syl-count"
       ],
       "total_agreed": 4,
-      "nst_sampa": "\"\"mO$sa"
+      "nst_sampa": "\"\"m9$sa"
     },
     {
       "key": "bear",
@@ -5766,38 +5792,6 @@
       "wiktionary_ipa": "/ˈɕʏkˌlɪŋ/"
     },
     {
-      "key": "chicken",
-      "word": "kyckling",
-      "split": [
-        "kyck",
-        "ling"
-      ],
-      "count": 2,
-      "chunks": [
-        [
-          "k",
-          "y",
-          "c",
-          "k"
-        ],
-        [
-          "l",
-          "i",
-          "ng"
-        ]
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
-      ],
-      "total_agreed": 5,
-      "nst_sampa": "\"\"s'Y$klIN",
-      "wiktionary_ipa": "/ˈɕʏkˌlɪŋ/"
-    },
-    {
       "key": "chimney",
       "word": "skorsten",
       "split": [
@@ -6181,16 +6175,16 @@
     },
     {
       "key": "clementine",
-      "word": "clementin",
+      "word": "klementin",
       "split": [
-        "cle",
+        "kle",
         "men",
         "tin"
       ],
       "count": 3,
       "chunks": [
         [
-          "c",
+          "k",
           "l",
           "e"
         ],
@@ -6208,11 +6202,9 @@
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "kle$men$\"ti:n"
+      "total_agreed": 3
     },
     {
       "key": "clock",
@@ -6776,6 +6768,35 @@
           "r",
           "a",
           "d"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
+      "key": "construction-crane",
+      "word": "lyftkran",
+      "split": [
+        "lyft",
+        "kran"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "l",
+          "y",
+          "f",
+          "t"
+        ],
+        [
+          "k",
+          "r",
+          "a",
+          "n"
         ]
       ],
       "sources_agreed": [
@@ -8285,13 +8306,12 @@
     },
     {
       "key": "dice",
-      "word": "tärningar",
+      "word": "tärning",
       "split": [
         "tär",
-        "ning",
-        "ar"
+        "ning"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         [
           "t",
@@ -8302,20 +8322,14 @@
           "n",
           "i",
           "ng"
-        ],
-        [
-          "a",
-          "r"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"tE:$n`IN$ar"
+      "total_agreed": 3
     },
     {
       "key": "dimetrodon",
@@ -13758,10 +13772,10 @@
     },
     {
       "key": "ice-skate",
-      "word": "skridskor",
+      "word": "skridsko",
       "split": [
         "skrid",
-        "skor"
+        "sko"
       ],
       "count": 2,
       "chunks": [
@@ -13775,18 +13789,17 @@
         [
           "s",
           "k",
-          "o",
-          "r"
+          "o"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
         "vocab-phonics-syl",
-        "NST-syl-count"
+        "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "nst_sampa": "\"skrI$skUr"
+      "wiktionary_ipa": "/¹skrɪskʊ/"
     },
     {
       "key": "ice-skates",
@@ -17299,10 +17312,10 @@
     },
     {
       "key": "muffin",
-      "word": "muffin",
+      "word": "muffins",
       "split": [
         "muf",
-        "fin"
+        "fins"
       ],
       "count": 2,
       "chunks": [
@@ -17314,17 +17327,16 @@
         [
           "f",
           "i",
-          "n"
+          "n",
+          "s"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"mu0$fIn"
+      "total_agreed": 3
     },
     {
       "key": "muffin-tin",
@@ -17536,6 +17548,30 @@
       "wiktionary_ipa": "/ˈnɑːɡɛl/"
     },
     {
+      "key": "metal-nail",
+      "word": "spik",
+      "split": [
+        "spik"
+      ],
+      "count": 1,
+      "chunks": [
+        [
+          "s",
+          "p",
+          "i",
+          "k"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/spiːk/"
+    },
+    {
       "key": "narwhal",
       "word": "narval",
       "split": [
@@ -17563,6 +17599,38 @@
       ],
       "total_agreed": 4,
       "nst_sampa": "\"\"nA:r$%vA:l"
+    },
+    {
+      "key": "native-american",
+      "word": "indian",
+      "split": [
+        "in",
+        "di",
+        "an"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "i",
+          "n"
+        ],
+        [
+          "d",
+          "i"
+        ],
+        [
+          "a",
+          "n"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/ˌɪndɪˈɑːn/"
     },
     {
       "key": "nativity",
@@ -18088,9 +18156,9 @@
     },
     {
       "key": "octopus",
-      "word": "blackfisk",
+      "word": "bläckfisk",
       "split": [
-        "black",
+        "bläck",
         "fisk"
       ],
       "count": 2,
@@ -18098,7 +18166,7 @@
         [
           "b",
           "l",
-          "a",
+          "ä",
           "c",
           "k"
         ],
@@ -18112,9 +18180,11 @@
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl"
+        "vocab-phonics-syl",
+        "NST-syl-count"
       ],
-      "total_agreed": 3
+      "total_agreed": 4,
+      "nst_sampa": "\"\"blEk$%fIsk"
     },
     {
       "key": "office-worker",
@@ -19552,13 +19622,12 @@
     },
     {
       "key": "pegasus",
-      "word": "pegasus",
+      "word": "pegas",
       "split": [
         "pe",
-        "ga",
-        "sus"
+        "gas"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         [
           "p",
@@ -19566,11 +19635,7 @@
         ],
         [
           "g",
-          "a"
-        ],
-        [
-          "s",
-          "u",
+          "a",
           "s"
         ]
       ],
@@ -23131,11 +23196,11 @@
     },
     {
       "key": "santa",
-      "word": "jultomten",
+      "word": "jultomte",
       "split": [
         "jul",
         "tom",
-        "ten"
+        "te"
       ],
       "count": 3,
       "chunks": [
@@ -23151,26 +23216,23 @@
         ],
         [
           "t",
-          "e",
-          "n"
+          "e"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"j}:l$%tOm$ten"
+      "total_agreed": 3
     },
     {
       "key": "santa-claus",
-      "word": "jultomten",
+      "word": "jultomte",
       "split": [
         "jul",
         "tom",
-        "ten"
+        "te"
       ],
       "count": 3,
       "chunks": [
@@ -23186,18 +23248,15 @@
         ],
         [
           "t",
-          "e",
-          "n"
+          "e"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"j}:l$%tOm$ten"
+      "total_agreed": 3
     },
     {
       "key": "santa-hat",
@@ -24620,10 +24679,10 @@
     },
     {
       "key": "sink",
-      "word": "diskbank",
+      "word": "diskbänk",
       "split": [
         "disk",
-        "bank"
+        "bänk"
       ],
       "count": 2,
       "chunks": [
@@ -24635,7 +24694,7 @@
         ],
         [
           "b",
-          "a",
+          "ä",
           "n",
           "k"
         ]

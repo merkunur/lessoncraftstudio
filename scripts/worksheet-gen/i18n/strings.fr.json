@@ -3877,5 +3877,677 @@
   "K-482": {
     "title": "Reproduire un motif sur un réseau de points",
     "instruction": "Regarde la ligne de chaque rangée. Trace la même ligne sur les points à côté, en partant du point orange."
+  },
+  "K-484": {
+    "title": "Quelle sortie ? Labyrinthes",
+    "instruction": "Commence à la flèche. Suis les chemins avec ton doigt. Tu ne peux arriver qu'à une seule sortie : entoure son numéro."
+  },
+  "K-485": {
+    "title": "Écris le chemin du labyrinthe",
+    "instruction": "Suis le chemin du point vert jusqu'au drapeau. Pour chaque ligne droite, écris combien de pas (petites flèches) elle compte."
+  },
+  "K-486": {
+    "title": "Labyrinthe : ramasse les lettres",
+    "instruction": "Trace le chemin jusqu'à l'image. Ramasse les lettres sur ton chemin, puis écris le mot dans les cases."
+  },
+  "K-487": {
+    "title": "Le chemin des motifs",
+    "instruction": "Regarde le motif en haut. Va de la flèche au drapeau en marchant seulement sur les pierres qui suivent le motif."
+  },
+  "K-488": {
+    "title": "Quelle image est différente ?",
+    "instruction": "Toutes les images sont pareilles sauf une. Entoure l’image qui est différente."
+  },
+  "K-489": {
+    "title": "Compte chaque sorte de différence",
+    "instruction": "Trouve toutes les différences dans l’image 2. Compte les changements de chaque sorte et écris le nombre dans sa case."
+  },
+  "K-490": {
+    "title": "Regarde, plie et trouve",
+    "instruction": "Regarde l’image 1 aussi longtemps que tu veux. Puis plie la feuille sur les pointillés pour cacher l’image 1. Entoure les changements dans l’image 2 et coche une case pour chacun."
+  },
+  "K-491": {
+    "title": "Dessine ce qui manque",
+    "instruction": "Dans l’image 2, il manque des choses qui sont dans l’image 1. Redessine chacune à sa place dans l’image 2."
+  },
+  "K-492": {
+    "title": "Quelles sont les deux images identiques ?",
+    "instruction": "Deux images sont exactement pareilles. Trouve-les et entoure-les toutes les deux."
+  },
+  "K-493": {
+    "title": "Dessine avec des formes",
+    "instruction": "Regarde les étapes. À chaque étape, de nouvelles formes apparaissent en orange. Dessine l’image dans le grand cadre, une étape après l’autre."
+  },
+  "K-494": {
+    "title": "Agrandis le dessin sur le quadrillage",
+    "instruction": "Reproduis le dessin sur le grand quadrillage, case par case. Chaque case du grand quadrillage est deux fois plus grande : ton dessin sera donc deux fois plus grand."
+  },
+  "K-495": {
+    "title": "Dessin en miroir",
+    "instruction": "La moitié de l’image est déjà dessinée. Dessine l’autre moitié pour que les deux côtés soient pareils, comme dans un miroir."
+  },
+  "K-496": {
+    "title": "Tous ensemble dans un dessin",
+    "instruction": "Suis les étapes de chaque dessin. Ensuite, dessine-les tous ensemble dans le grand cadre."
+  },
+  "K-497": {
+    "title": "Cartes-étapes : découpe, range, dessine",
+    "instruction": "Découpe les cartes. Range les étapes dans l’ordre sur la ligne numérotée et colle-les. Ensuite, dessine l’image dans le cadre."
+  },
+  "K-498": {
+    "title": "Repasse le dessin",
+    "instruction": "Repasse toutes les lignes du dessin. Commence au point noir."
+  },
+  "K-499": {
+    "title": "Repasse le dessin, écris le mot",
+    "instruction": "Repasse le dessin. Ensuite, repasse le mot sur les lignes et écris-le toi-même."
+  },
+  "K-500": {
+    "title": "Un petit livre à repasser",
+    "instruction": "Repasse les trois dessins. Ensuite, découpe la feuille en quatre le long des lignes du milieu, mets la couverture dessus et agrafe les pages pour faire un petit livre."
+  },
+  "K-501": {
+    "title": "Repasse, puis colorie selon les numéros",
+    "instruction": "Repasse les lignes du dessin. Ensuite, colorie chaque partie avec la couleur de son numéro."
+  },
+  "K-502": {
+    "title": "Agrandis le dessin",
+    "instruction": "Regarde le dessin sur le petit quadrillage. Colorie les mêmes cases sur le grand quadrillage, où chaque case est deux fois plus grande."
+  },
+  "K-503": {
+    "title": "Tourne et retourne le dessin",
+    "instruction": "Recopie chaque dessin sur le quadrillage vide, tourné d’un quart de tour vers la droite, comme le montre la flèche."
+  },
+  "K-504": {
+    "title": "Reproduis le dessin sur le quadrillage",
+    "instruction": "Reproduis le dessin sur le quadrillage vide, case par case : regarde ce qu’il y a dans chaque case et dessine la même chose dans la case qui lui correspond."
+  },
+  "K-505": {
+    "title": "Relie les nombres écrits en lettres",
+    "instruction": "Commence au point orange. Lis les nombres écrits en lettres et relie les points dans l’ordre où l’on compte."
+  },
+  "K-506": {
+    "title": "Relie les points : nombres pairs ou impairs",
+    "instruction": "Commence au point orange. Relie seulement les nombres pairs dans l’ordre : 2, 4, 6 et ainsi de suite. Saute les nombres impairs."
+  },
+  "K-507": {
+    "title": "Majuscules et minuscules à relier",
+    "instruction": "Commence au point orange. Relie une majuscule, puis sa minuscule, puis la majuscule suivante : A, a, B, b et ainsi de suite."
+  },
+  "K-508": {
+    "title": "Trouve le jumeau exact",
+    "instruction": "Regarde la première image de chaque ligne. Entoure l’image qui est exactement pareille, ni tournée ni retournée."
+  },
+  "K-509": {
+    "title": "Quelles images se cachent ?",
+    "instruction": "Des images se cachent dans l’enchevêtrement de lignes. Trouve leurs contours, puis entoure ces images dans la rangée du bas."
+  },
+  "K-510": {
+    "title": "Trouve l’intrus",
+    "instruction": "Lis le nom de chaque groupe. Entoure l’image qui ne fait pas partie de ce groupe."
+  },
+  "K-511": {
+    "title": "Trier selon une règle",
+    "instruction": "Lis le nom des deux groupes. Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-512": {
+    "title": "Tapis de tri et cartes images",
+    "instruction": "Découpe les cartes images. Pose chaque carte sur le tapis où elle va."
+  },
+  "G1-487": {
+    "title": "Coloriage magique : pair ou impair",
+    "instruction": "Le nombre dans chaque forme est-il pair ou impair ? Colorie la forme de la couleur indiquée dans le code."
+  },
+  "K-513": {
+    "title": "Coloriage magique des nombres en lettres",
+    "instruction": "Lis le nombre écrit en lettres dans chaque forme. Trouve ce nombre dans le code et colorie la forme de cette couleur."
+  },
+  "K-514": {
+    "title": "Coloriage avec ton propre code",
+    "instruction": "Choisis une couleur pour chaque nombre. Colorie sa case dans le code et écris le nom de la couleur. Ensuite, colorie les formes."
+  },
+  "K-515": {
+    "title": "Colorie le grand et le petit",
+    "instruction": "Regarde le code : chaque taille a sa couleur. Colorie chaque dessin de la couleur de sa taille."
+  },
+  "K-516": {
+    "title": "Un mini livre de coloriage",
+    "instruction": "Plie la moitié du haut vers l’arrière, puis la moitié de gauche vers l’arrière : voilà un petit livre. Colorie chaque page."
+  },
+  "G1-488": {
+    "title": "Colorie et écris une phrase",
+    "instruction": "Colorie le dessin. Ensuite, écris quelque chose sur ce dessin. Les débuts de phrase t’aident à commencer."
+  },
+  "K-517": {
+    "title": "Repasse les nombres de 1 à 100",
+    "instruction": "Repasse les nombres en pointillés. Dans chaque case vide, écris le nombre qui va à cette place."
+  },
+  "K-518": {
+    "title": "Comment on écrit les nombres",
+    "instruction": "Commence au point et suis les flèches. Les petits nombres montrent quel trait vient en premier."
+  },
+  "K-519": {
+    "title": "Invente ta propre figure de tangram",
+    "instruction": "Colorie chaque pièce comme la légende et découpe les sept pièces. Forme ta propre figure avec toutes les pièces dans le cadre, puis trace son contour."
+  },
+  "K-520": {
+    "title": "Premiers puzzles de tangram",
+    "instruction": "Découpe les pièces à côté de chaque figure. Pose-les sur la figure pour la recouvrir exactement."
+  },
+  "G1-489": {
+    "title": "Quelle figure peux-tu construire ?",
+    "instruction": "Regarde les pièces de chaque ligne. Entoure la seule ombre que tu peux reconstituer avec exactement ces pièces."
+  },
+  "K-522": {
+    "title": "Relie chaque ombre à son nom",
+    "instruction": "Regarde chaque ombre de tangram. Relie l’ombre à son nom par un trait."
+  },
+  "K-523": {
+    "title": "J’écris mon prénom",
+    "instruction": "Regarde le prénom. Repasse-le sur les pointillés, puis écris-le toi-même sur les lignes vides."
+  },
+  "K-524": {
+    "title": "Les lettres et les images",
+    "instruction": "Dis le nom de chaque image et écoute le premier son. Repasse la lettre qui fait ce son, puis écris-la toi-même."
+  },
+  "K-525": {
+    "title": "Majuscules et minuscules ensemble",
+    "instruction": "Repasse la majuscule et sa minuscule côte à côte, puis écris-les toi-même. Pars du point orange."
+  },
+  "K-526": {
+    "title": "Cartes : comment écrire les lettres",
+    "instruction": "Chaque lettre commence au point orange. Suis les numéros et les flèches pour voir comment l’écrire. Découpe les cartes en suivant les pointillés."
+  },
+  "K-527": {
+    "title": "Repasser une phrase",
+    "instruction": "Lis la phrase. Repasse-la sur les pointillés, puis écris-la toi-même sur les lignes vides."
+  },
+  "G1-490": {
+    "title": "Légende les images",
+    "instruction": "Écris le nom de chaque image sur la ligne en dessous. Les mots du cadre peuvent t’aider."
+  },
+  "K-529": {
+    "title": "La silhouette des mots",
+    "instruction": "Dis le nom de chaque image. Écris une lettre dans chaque case : les grandes lettres dans les grandes cases, les lettres qui descendent dans les cases qui descendent sous la ligne."
+  },
+  "G1-491": {
+    "title": "Mon cahier de mots",
+    "instruction": "Écris le nom de chaque image sur la première ligne. Ensuite, invente une phrase avec ce mot et écris-la en dessous."
+  },
+  "G2-480": {
+    "title": "Mes mots en écriture cursive",
+    "instruction": "Lis chaque phrase. Repasse-la en écriture cursive en attachant les lettres, puis écris-la toi-même en dessous."
+  },
+  "G2-481": {
+    "title": "La lettre du jour en écriture cursive",
+    "instruction": "Repasse la lettre grise, les lettres attachées et le mot, puis écris-les toi-même sur les lignes vides."
+  },
+  "G2-482": {
+    "title": "Relier l'écriture script et l'écriture cursive",
+    "instruction": "Lis chaque mot écrit en cursive et relie-le au même mot écrit en script."
+  },
+  "G2-483": {
+    "title": "L'alphabet en écriture cursive",
+    "instruction": "Regarde chaque lettre en cursive et en script. Aide-toi de l'alphabet quand tu écris en cursive."
+  },
+  "K-530": {
+    "title": "Le train de l'alphabet",
+    "instruction": "Écris les lettres qui manquent sur les wagons pour que le train de l'alphabet soit dans l'ordre. Le nom de l'image d'un wagon vide commence par la lettre qui manque."
+  },
+  "K-531": {
+    "title": "L'abécédaire illustré",
+    "instruction": "Dis chaque lettre et le nom de son image. L'image commence par le son de la lettre."
+  },
+  "K-532": {
+    "title": "La chasse aux lettres",
+    "instruction": "Regarde la lettre dans la case. Cherche cette lettre sur les ballons, les cerfs-volants et les panneaux, et entoure-la chaque fois que tu la trouves."
+  },
+  "G1-492": {
+    "title": "La lettre d'avant et la lettre d'après",
+    "instruction": "Écris la lettre qui vient avant chaque lettre dans l'alphabet."
+  },
+  "K-533": {
+    "title": "Colorie les voyelles",
+    "instruction": "Dis le nom de chaque image. Colorie toutes les voyelles du mot."
+  },
+  "K-534": {
+    "title": "Les étiquettes-lettres à ranger dans l'ordre",
+    "instruction": "Découpe les étiquettes en suivant les pointillés. Range-les dans l'ordre de l'alphabet et lis les lettres."
+  },
+  "K-535": {
+    "title": "Le même son au début ?",
+    "instruction": "Dis le nom des deux images. Si leurs noms commencent par le même son, entoure la coche. Sinon, entoure la croix."
+  },
+  "K-536": {
+    "title": "Cartes à pinces : le premier son",
+    "instruction": "Découpe les cartes. Dis le nom de chaque image et accroche une pince à linge sur la lettre du premier son."
+  },
+  "G1-493": {
+    "title": "Deux consonnes au début",
+    "instruction": "Dis le nom de chaque image. Écris les deux lettres par lesquelles le mot commence."
+  },
+  "G1-494": {
+    "title": "Lettres et sons",
+    "instruction": "Lis chaque mot. Compte ses lettres (Aa) et les sons que tu entends (l'oreille). Écris les deux nombres."
+  },
+  "K-537": {
+    "title": "Le mémory des rimes",
+    "instruction": "Découpe les cartes et pose-les face cachée. Retourne deux cartes. Si les images riment, garde-les !"
+  },
+  "K-538": {
+    "title": "Quelle image ne rime pas ?",
+    "instruction": "Dis le nom des trois images. Deux d'entre elles riment. Entoure celle qui ne rime pas."
+  },
+  "K-539": {
+    "title": "Les dominos des rimes",
+    "instruction": "Découpe les dominos. Place-les en rond : l'image de droite de chaque domino rime avec l'image de gauche du domino suivant."
+  },
+  "K-540": {
+    "title": "La famille de syllabes",
+    "instruction": "Lis chaque syllabe et le mot de l'image."
+  },
+  "G1-496": {
+    "title": "Puzzles de syllabes",
+    "instruction": "Découpe les pièces en suivant les pointillés. Mélange-les, puis reconstitue chaque mot, syllabe par syllabe."
+  },
+  "K-541": {
+    "title": "Je frappe et je compte",
+    "instruction": "Dis chaque mot et frappe ses syllabes. Colorie un rond pour chaque syllabe frappée, puis écris combien de fois tu as frappé."
+  },
+  "K-542": {
+    "title": "Le mémory des images",
+    "instruction": "Découpe les cartes et pose-les face cachée. Retourne deux cartes. Si elles vont ensemble, garde-les !"
+  },
+  "K-543": {
+    "title": "Étiquettes pour le mur de mots",
+    "instruction": "Découpe les étiquettes en suivant les pointillés et accroche-les au mur de mots."
+  },
+  "K-544": {
+    "title": "Mon imagier",
+    "instruction": "Lis les mots dans l'ordre alphabétique. Dis le nom de chaque image."
+  },
+  "K-545": {
+    "title": "Découpe et colle les mots",
+    "instruction": "Découpe les mots en bas de la page. Colle chaque mot dans la case sous son image."
+  },
+  "K-546": {
+    "title": "Je lis et je dessine",
+    "instruction": "Lis chaque phrase. Dessine l'image au bon endroit."
+  },
+  "K-547": {
+    "title": "Où est-il ?",
+    "instruction": "Regarde chaque image. Écris le mot qui manque. Les mots de l'encadré peuvent t'aider."
+  },
+  "K-548": {
+    "title": "Choisis le bon mot",
+    "instruction": "Regarde chaque image. Entoure le mot qui va dans la phrase."
+  },
+  "K-549": {
+    "title": "Je lis et je colle",
+    "instruction": "Découpe les images en bas de la page. Lis chaque phrase et colle l'image au bon endroit."
+  },
+  "G2-484": {
+    "title": "Comparatif et superlatif",
+    "instruction": "Écris les deux formes qui manquent pour chaque adjectif, comme dans l'exemple."
+  },
+  "G1-497": {
+    "title": "Les classes de mots dans la phrase",
+    "instruction": "Lis chaque phrase. Entoure tous les noms. Les prénoms sont aussi des noms."
+  },
+  "G1-498": {
+    "title": "Les majuscules",
+    "instruction": "Lis chaque phrase. Entoure chaque mot qui doit commencer par une majuscule."
+  },
+  "G2-485": {
+    "title": "Conjugaison au présent",
+    "instruction": "Conjugue le verbe au présent : dans chaque case, écris la forme qui va avec le pronom au début de la ligne."
+  },
+  "G2-486": {
+    "title": "L'accord de l'adjectif",
+    "instruction": "Entoure la bonne forme de l'adjectif."
+  },
+  "K-550": {
+    "title": "Les mots génériques",
+    "instruction": "Regarde les images de chaque ligne. À quel groupe appartiennent-elles ? Écris le mot de l'encadré."
+  },
+  "K-551": {
+    "title": "Les cartes des contraires",
+    "instruction": "Découpe les cartes et pose-les face cachée. Retourne deux cartes : si ce sont des contraires, garde-les !"
+  },
+  "G1-499": {
+    "title": "Les diminutifs",
+    "instruction": "Écris dans la case le nom du petit (chat → chaton) ou de la petite chose (cloche → clochette)."
+  },
+  "G2-487": {
+    "title": "Les mots composés",
+    "instruction": "Découpe les pièces. Assemble deux pièces pour former un mot composé, puis écris-le sur une ligne."
+  },
+  "K-552": {
+    "title": "Phrases à reconstituer",
+    "instruction": "Lis la phrase. Découpe les mots, mélange-les et reconstitue la phrase. Colle-la sur la bande vide."
+  },
+  "G1-500": {
+    "title": "Phrases à trous",
+    "instruction": "Lis chaque phrase. Regarde l'image et écris le mot qui manque."
+  },
+  "K-553": {
+    "title": "Phrases en images",
+    "instruction": "Lis chaque phrase. Écris dans la case le mot de l'image."
+  },
+  "G1-501": {
+    "title": "Phrase ou pas ?",
+    "instruction": "Lis chaque groupe de mots. Entoure la coche si c'est une phrase complète. Entoure la croix si ce n'en est pas une."
+  },
+  "G1-502": {
+    "title": "Les moitiés de phrases",
+    "instruction": "Relie chaque début de phrase à la fin qui va avec. Les images t'aident."
+  },
+  "G1-503": {
+    "title": "Enrichir la phrase",
+    "instruction": "Lis la phrase courte. Réponds aux questions sur les petites lignes. Puis écris une phrase plus longue avec tes réponses."
+  },
+  "G1-504": {
+    "title": "Je lis et je réponds",
+    "instruction": "Lis le texte. Réponds à chaque question sur la ligne."
+  },
+  "G1-505": {
+    "title": "Vrai ou faux ?",
+    "instruction": "Lis l'histoire. Lis ensuite chaque question et sa réponse. Entoure la coche si la réponse est juste. Entoure la croix si elle est fausse."
+  },
+  "G2-488": {
+    "title": "Quel titre convient ?",
+    "instruction": "Lis chaque histoire. Entoure le titre qui lui convient le mieux."
+  },
+  "K-554": {
+    "title": "Mon carnet de lecture",
+    "instruction": "Remplis la page sur le livre que tu as lu. Colorie les étoiles pour montrer combien tu l'as aimé."
+  },
+  "G1-506": {
+    "title": "Le plan de mon histoire",
+    "instruction": "Prépare ton histoire. Dessine et écris ce qui se passe au début, au milieu et à la fin."
+  },
+  "G1-507": {
+    "title": "Ma bande dessinée",
+    "instruction": "Regarde chaque image. Écris dans les bulles ce que disent les personnages."
+  },
+  "G1-508": {
+    "title": "L'histoire au dé",
+    "instruction": "Lance le dé pour chaque colonne. Puis écris une histoire avec ce que tu as obtenu."
+  },
+  "G1-509": {
+    "title": "Je décris mon personnage",
+    "instruction": "Regarde l'image. Complète les phrases sur ton personnage. Les mots de l'encadré peuvent t'aider."
+  },
+  "G1-510": {
+    "title": "J'écris une carte postale",
+    "instruction": "Écris une carte postale à quelqu'un que tu aimes. Écris son prénom après la salutation et ton prénom à la fin."
+  },
+  "K-555": {
+    "title": "J'écris à partir de l'image",
+    "instruction": "Regarde les images. Écris une phrase pour chaque image."
+  },
+  "G1-511": {
+    "title": "Problèmes de comparaison",
+    "instruction": "Lis chaque histoire. Compare les deux rangées d'images. Écris dans la case combien il y en a de plus ou de moins."
+  },
+  "G1-512": {
+    "title": "Quel calcul correspond ?",
+    "instruction": "Lis chaque problème. Entoure le calcul qui correspond à l'histoire."
+  },
+  "G1-513": {
+    "title": "J'invente un problème",
+    "instruction": "Regarde chaque calcul. Écris une petite histoire qui va avec. Tu peux parler de l'image."
+  },
+  "G2-489": {
+    "title": "Problèmes en deux étapes",
+    "instruction": "Lis chaque problème. Fais d'abord la première étape, puis la deuxième. Écris les nombres dans les cases."
+  },
+  "G2-490": {
+    "title": "Le nombre du jour jusqu'à 1 000",
+    "instruction": "Regarde le grand nombre. Remplis chaque case pour ce nombre."
+  },
+  "G1-514": {
+    "title": "En chiffres et en lettres",
+    "instruction": "Écris en chiffres les nombres écrits en lettres, et en lettres les nombres écrits en chiffres."
+  },
+  "K-556": {
+    "title": "Le nombre, le mot et l'image",
+    "instruction": "Relie chaque nombre à son écriture en lettres. Puis relie chaque mot à la bonne image."
+  },
+  "K-557": {
+    "title": "Cartes des nombres en lettres",
+    "instruction": "Découpe les cartes. Affiche-les au mur, ou découpe sur les pointillés et associe le nombre, le mot et l'image."
+  },
+  "G1-515": {
+    "title": "Les nombres ordinaux jusqu'à 31",
+    "instruction": "Écris chaque nombre ordinal en lettres. Écris chaque mot en chiffres."
+  },
+  "K-558": {
+    "title": "Sur quelle étagère ?",
+    "instruction": "Compte les étagères à partir du bas. Réponds à chaque question : entoure la bonne image ou le bon nombre."
+  },
+  "G1-516": {
+    "title": "Les nombres ordinaux : chiffres et lettres",
+    "instruction": "Relie chaque nombre ordinal écrit en chiffres au même nombre écrit en lettres."
+  },
+  "G2-491": {
+    "title": "En chiffres et en lettres jusqu'à 1 000",
+    "instruction": "Écris en chiffres les nombres écrits en lettres, et en lettres les nombres écrits en chiffres."
+  },
+  "G1-517": {
+    "title": "Les lettres mélangées",
+    "instruction": "Regarde chaque image. Remets les lettres dans le bon ordre et écris le mot."
+  },
+  "G1-518": {
+    "title": "Les lettres manquantes",
+    "instruction": "Regarde chaque image. Écris les lettres qui manquent pour compléter le mot."
+  },
+  "G1-519": {
+    "title": "Je regarde, je cache, j'écris, je vérifie",
+    "instruction": "Lis chaque mot. Plie la feuille sur les pointillés pour le cacher. Écris le mot, puis écris-le encore. Déplie et vérifie."
+  },
+  "G2-492": {
+    "title": "Le mot bien écrit",
+    "instruction": "Regarde chaque image. Lis les mots. Entoure le mot qui est bien écrit."
+  },
+  "G1-520": {
+    "title": "Les voyelles manquantes",
+    "instruction": "Regarde chaque image. Écris les voyelles qui manquent pour compléter le mot."
+  },
+  "K-560": {
+    "title": "Lettres à découper et mots à construire",
+    "instruction": "Découpe les lettres. Dis le nom de chaque image et construis son mot dans les cases. Il restera des lettres."
+  },
+  "G1-521": {
+    "title": "Cartes des nombres ordinaux",
+    "instruction": "Découpe les cartes. Range-les dans l'ordre, ou découpe sur les pointillés et rassemble les morceaux qui vont ensemble."
+  },
+  "G1-522": {
+    "title": "Le déterminant, le singulier et le pluriel",
+    "instruction": "Observe chaque image. Écris les mots qui manquent au singulier et au pluriel."
+  },
+  "K-561": {
+    "title": "Compte et écris au pluriel",
+    "instruction": "Compte les images de chaque case. Écris le nombre en lettres et le mot au pluriel."
+  },
+  "K-562": {
+    "title": "Un ou plusieurs ?",
+    "instruction": "Lis le mot. Entoure le groupe d'images qui lui correspond."
+  },
+  "G1-523": {
+    "title": "Un chien ou le chien ?",
+    "instruction": "Lis les deux phrases. Entoure les mots qui conviennent dans chaque phrase."
+  },
+  "G1-524": {
+    "title": "Complète le calendrier",
+    "instruction": "Écris les dates qui manquent dans le calendrier du mois."
+  },
+  "G1-525": {
+    "title": "Le graphique de nos anniversaires",
+    "instruction": "Demande à tes camarades leur mois d'anniversaire. Colorie une case au-dessus du mois de chaque enfant. Compte les cases coloriées de chaque mois."
+  },
+  "G1-526": {
+    "title": "La date du jour",
+    "instruction": "Regarde la page du calendrier. Écris la date en chiffres."
+  },
+  "G1-527": {
+    "title": "Notre emploi du temps",
+    "instruction": "Lis l'emploi du temps. Réponds à chaque question."
+  },
+  "G1-528": {
+    "title": "Chasse au trésor : suis les étapes",
+    "instruction": "Commence au drapeau. Suis les étapes. Entoure l'image où tu arrives."
+  },
+  "G1-529": {
+    "title": "Décris le chemin",
+    "instruction": "Suis le chemin depuis la première image. Pour chaque partie, entoure la direction et écris le nombre de cases."
+  },
+  "K-563": {
+    "title": "La chambre vue de dessus",
+    "instruction": "Regarde chaque objet vu de côté. Relie-le au même objet sur le plan de la pièce."
+  },
+  "G1-530": {
+    "title": "Dessine ta propre carte",
+    "instruction": "Dessine une carte. Dans la légende, dessine chaque symbole utilisé et écris ce qu'il veut dire."
+  },
+  "G2-493": {
+    "title": "La bataille navale",
+    "instruction": "Colorie tes bateaux sur ta grille. Chacun à son tour, annonce une case, par exemple B3. Sur la grille de ton partenaire, fais un point pour « à l'eau » et une croix pour « touché »."
+  },
+  "K-564": {
+    "title": "Mes émotions de la semaine",
+    "instruction": "Chaque jour, colorie le rond de l'émotion que tu ressens."
+  },
+  "K-565": {
+    "title": "Le thermomètre des émotions",
+    "instruction": "Quelle est la force de ton émotion ? Colorie le thermomètre jusqu'au niveau de ton émotion."
+  },
+  "G1-531": {
+    "title": "Mon ami et moi",
+    "instruction": "Travaille avec un ami ou une amie. Dessine ou écris ce qui est seulement à toi, seulement à lui ou à elle, et ce que vous avez tous les deux."
+  },
+  "K-566": {
+    "title": "Les cartes des émotions",
+    "instruction": "Découpe les cartes. Utilise-les pour parler des émotions."
+  },
+  "G1-532": {
+    "title": "Mots mêlés",
+    "instruction": "Trouve chaque mot de la liste dans la grille et entoure-le."
+  },
+  "K-567": {
+    "title": "Mots mêlés en images",
+    "instruction": "Dis le nom de chaque image. Trouve son mot dans la grille et entoure-le."
+  },
+  "G2-494": {
+    "title": "Mots mêlés avec un message secret",
+    "instruction": "Trouve et entoure tous les mots. Lis ensuite les lettres qui restent, ligne par ligne, et écris le message secret."
+  },
+  "G1-533": {
+    "title": "Mots mêlés dans une forme",
+    "instruction": "Trouve chaque mot de la liste dans la forme et entoure-le."
+  },
+  "G1-534": {
+    "title": "Mots mêlés en deux langues",
+    "instruction": "Lis chaque mot et regarde son image. Trouve le mot en français dans la grille et entoure-le."
+  },
+  "K-568": {
+    "title": "Mots mêlés des nombres",
+    "instruction": "Lis chaque nombre. Trouve son nom en lettres dans la grille et entoure-le."
+  },
+  "G1-535": {
+    "title": "Mots croisés en images",
+    "instruction": "Regarde chaque image numérotée. Écris son mot dans les cases qui ont le même numéro."
+  },
+  "G1-536": {
+    "title": "Mots fléchés en images",
+    "instruction": "Chaque image de la grille montre un mot. Écris le mot dans les cases où pointe la flèche."
+  },
+  "G2-495": {
+    "title": "Mots croisés à placer",
+    "instruction": "Place chaque mot de la liste dans la grille. Compte les lettres et sers-toi des lettres qui se croisent."
+  },
+  "G1-537": {
+    "title": "Mots croisés avec liste de mots",
+    "instruction": "Regarde chaque image numérotée. Trouve son mot dans la liste et écris-le dans les cases."
+  },
+  "G1-538": {
+    "title": "Mots croisés en deux langues",
+    "instruction": "Lis chaque mot et regarde son image. Écris le mot en français dans les cases qui ont le même numéro."
+  },
+  "G1-539": {
+    "title": "Code secret en images",
+    "instruction": "Chaque image correspond à une lettre. Utilise la clé pour écrire le message secret."
+  },
+  "G1-540": {
+    "title": "Code secret avec des nombres",
+    "instruction": "Chaque nombre correspond à une lettre : A vaut 1. Utilise la clé pour écrire le message secret."
+  },
+  "G1-541": {
+    "title": "Code secret avec des calculs",
+    "instruction": "Fais chaque calcul. Cherche le résultat dans la clé et écris sa lettre."
+  },
+  "G2-496": {
+    "title": "Complète la clé",
+    "instruction": "Il manque des lettres dans la clé. Trouve-les grâce au mot déjà décodé. Écris ensuite le message secret."
+  },
+  "G1-542": {
+    "title": "Invente ton code secret",
+    "instruction": "Dessine un symbole pour chaque lettre. Écris un message, puis récris-le dans ton code pour un ami ou une amie."
+  },
+  "K-569": {
+    "title": "Loto des images",
+    "instruction": "Écoute chaque mot. Si son image est sur ta carte, marque-la. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "K-574": {
+    "title": "Loto des images : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et dis le mot. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "K-570": {
+    "title": "Loto des mots-outils",
+    "instruction": "Écoute chaque mot. Si le mot est sur ta carte, marque-le. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "K-575": {
+    "title": "Loto des mots-outils : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis le mot à voix haute. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "G1-543": {
+    "title": "Loto des calculs",
+    "instruction": "Écoute chaque calcul et trouve le résultat. S'il est sur ta carte, marque-le. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "G1-545": {
+    "title": "Loto des calculs : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis le calcul à voix haute, pas le résultat. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "G1-544": {
+    "title": "Loto de l'heure",
+    "instruction": "Écoute chaque heure. Si une horloge de ta carte la montre, marque cette horloge. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "G1-546": {
+    "title": "Loto de l'heure : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis l'heure à voix haute. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "K-571": {
+    "title": "Loto des sons",
+    "instruction": "Écoute chaque mot et son premier son. Si la lettre de ce son est sur ta carte, marque-la. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "K-576": {
+    "title": "Loto des sons : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et dis le mot, pas la lettre. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "K-572": {
+    "title": "Loto des nombres en lettres",
+    "instruction": "Écoute chaque nombre. S'il est sur ta carte, marque-le. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "K-577": {
+    "title": "Loto des nombres en lettres : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis le nombre à voix haute. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "K-573": {
+    "title": "Loto des formes et des couleurs",
+    "instruction": "Écoute chaque forme et sa couleur. Si elle est sur ta carte, marque-la. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »"
+  },
+  "K-578": {
+    "title": "Loto des formes et des couleurs : cartes du meneur",
+    "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis la forme et sa couleur à voix haute. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
   }
 }

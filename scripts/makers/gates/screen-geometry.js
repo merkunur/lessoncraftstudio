@@ -113,7 +113,7 @@ function measure() {
       if (t.screen !== 'marks') continue;
       const type = MP.loadType(t);
       for (const loc of LOCS.filter((l) => t.locales.includes(l))) {
-        for (const d of t.screenLevels) {
+        for (const d of t.screenLevels.filter((x) => ((t.localeLevels && t.localeLevels[loc]) || t.levels).includes(x))) {
           const o = MP.settingsSpace(t, loc, { themes: 1, units: 1, copies: 1, levels: [d], sample: LOCS.indexOf(loc) })[0];
           const tag = `${maker} ${t.id} ${loc} L${d}`;
           let sc;

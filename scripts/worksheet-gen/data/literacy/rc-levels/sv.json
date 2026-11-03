@@ -31,7 +31,7 @@
      "sentence": 2
     },
     {
-     "q": "Vad gör pappa när Hugo stannar?",
+     "q": "Vad gör den vuxne när Hugo stannar?",
      "choices": [
       "Klappar i händerna",
       "Går in i huset",
@@ -880,7 +880,7 @@
       "correct": 1
      },
      {
-      "q": "Hur känner sig farmor nog när Edvin kommer?",
+      "q": "Hur känner sig den som väntar på Edvin nog?",
       "choices": [
        "Glad",
        "Arg",
@@ -1466,7 +1466,7 @@
     ],
     "core": [
      {
-      "q": "Vilket datum är Liv lucia?",
+      "q": "Vilket datum går luciatåget?",
       "choices": [
        "Den trettonde december",
        "Den första december på morgonen",
@@ -2607,7 +2607,7 @@
       "correct": 0
      },
      {
-      "q": "Hur är Stina och Mattias som syskon?",
+      "q": "Hur är de två som syskon?",
       "choices": [
        "De bråkar hela tiden",
        "De leker aldrig ihop",
@@ -3231,7 +3231,7 @@
       "correct": 0
      },
      {
-      "q": "Vad tycker Nils om Stjärna?",
+      "q": "Vad tycker Nils om ponnyn?",
       "choices": [
        "Han är rädd för henne",
        "Han tycker att hon är dum",

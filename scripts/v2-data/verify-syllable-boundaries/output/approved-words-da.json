@@ -1,6 +1,6 @@
 {
   "locale": "da",
-  "generated_at": "2026-05-25T07:27:32.436Z",
+  "generated_at": "2026-11-03T06:42:39.913Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "da-quarantine-regex"
   ],
-  "count_approved": 794,
-  "count_quarantined": 469,
+  "count_approved": 792,
+  "count_quarantined": 473,
   "entries": [
     {
       "key": "alpaca",
@@ -2164,6 +2164,26 @@
       "wiktionary_ipa": "/bʁuːˀn/"
     },
     {
+      "key": "brush",
+      "word": "børste",
+      "split": [
+        "bør",
+        "ste"
+      ],
+      "count": 2,
+      "chunks": [
+        "bør",
+        "ste"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 3,
+      "wiktionary_ipa": "/bœrstə/"
+    },
+    {
       "key": "bucket",
       "word": "spand",
       "split": [
@@ -3232,35 +3252,6 @@
       "nst_sampa": "\"tu:?$sen$%be:?n"
     },
     {
-      "key": "cereal",
-      "word": "morgenmad",
-      "split": [
-        "mor",
-        "gen",
-        "mad"
-      ],
-      "count": 3,
-      "chunks": [
-        "mor",
-        "gen",
-        "mad"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "policy_managed": true,
-      "policy_managed_reasons": [
-        "final_stop_not_realized",
-        "post_vocalic_r_vocalized"
-      ],
-      "nst_sampa": "\"mQ:$6n$%maD",
-      "wiktionary_ipa": "/ˈmɔr.ənˌmað/"
-    },
-    {
       "key": "chainsaw",
       "word": "motorsav",
       "split": [
@@ -3467,32 +3458,6 @@
     },
     {
       "key": "chick",
-      "word": "kylling",
-      "split": [
-        "kyl",
-        "ling"
-      ],
-      "count": 2,
-      "chunks": [
-        "kyl",
-        "ling"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "policy_managed": true,
-      "policy_managed_reasons": [
-        "final_stop_not_realized"
-      ],
-      "nst_sampa": "\"ky$leN",
-      "wiktionary_ipa": "/ˈkyleŋ/"
-    },
-    {
-      "key": "chicken",
       "word": "kylling",
       "split": [
         "kyl",
@@ -6419,34 +6384,6 @@
       ],
       "total_agreed": 3,
       "nst_sampa": "\"l6$m@$%l2g$d@"
-    },
-    {
-      "key": "flipper",
-      "word": "svømmefødder",
-      "split": [
-        "svøm",
-        "me",
-        "fød",
-        "der"
-      ],
-      "count": 4,
-      "chunks": [
-        "svøm",
-        "me",
-        "fød",
-        "der"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "vocab-phonics-syl",
-        "NST-syl-count"
-      ],
-      "total_agreed": 3,
-      "policy_managed": true,
-      "policy_managed_reasons": [
-        "post_vocalic_r_vocalized"
-      ],
-      "nst_sampa": "\"sv9$m@$%f2D?$6"
     },
     {
       "key": "floor-lamp",

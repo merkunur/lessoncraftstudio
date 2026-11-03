@@ -67,7 +67,7 @@
  *    printed cells / starters / files / riddle cards inside their boxes, the
  *    F6 bank on ONE row <= 110 px, nothing under the footer) and the
  *    NODE-SIDE RE-DERIVATION of every answer-key stamp from animal-facts.json
- *    + the EN bank (tick: the chip at data-lcs-correct === the table value
+ *    + the EN bank (tick: the chip at data-lcs-correct-index === the table value
  *    and every chip label === a bank cell; bank: the word set === truths +
  *    distractors from >= 2 fields; frames: printed cells === cellOf(table),
  *    starters === fillSlots(frames, def); compare: data-lcs-same per field
@@ -82,7 +82,7 @@
  *    no legal pair (compare) / bank (mystery).
  *    Face POISONS (design §5 P2 P3 P6 P8 P12 P14 + the faces' own): P2 an F6
  *    bank with two 0-contradiction animals (verify + node), P3a an F2 row
- *    with a repeated chip key, P3b data-lcs-correct pointing at a distractor
+ *    with a repeated chip key, P3b data-lcs-correct-index pointing at a distractor
  *    (verify + node), P6 an F3 bank missing the true covering (verify +
  *    node), P8 an F5 pair printed as 4/4 same (verify + node) + the composer's
  *    refusal on a table with no legal pair, P12 an F6 title naming Hedgehog
@@ -486,7 +486,7 @@ async function measureFace(page) {
       name: q('[data-lcs-banner] [data-lcs-name]') ? q('[data-lcs-banner] [data-lcs-name]').textContent.trim() : null,
       rows: qa('[data-lcs-table] [data-lcs-row]').map((r) => {
         const cell = r.querySelector('[data-lcs-lane-cell]'), cr = cell ? rect(cell) : null;
-        return { field: r.dataset.lcsField, correct: r.dataset.lcsCorrect, n: r.dataset.lcsN, facts: attrsOf(r, 'data-lcs-fact-'),
+        return { field: r.dataset.lcsField, correct: r.dataset.lcsCorrectIndex, n: r.dataset.lcsN, facts: attrsOf(r, 'data-lcs-fact-'),
           label: (r.querySelector('[data-lcs-label-text]') || { textContent: '' }).textContent.trim(),
           cellH: cr ? cr.h : 0,
           chips: [...r.querySelectorAll('[data-lcs-opt]')].map((c) => ({ key: c.dataset.lcsOpt, text: c.textContent.trim(), w: rect(c).w, h: rect(c).h, inside: cr ? rect(c).right <= cr.right + 0.6 && rect(c).bottom <= cr.bottom + 0.6 : false, clipped: c.scrollWidth > c.clientWidth + 0.6 })),
@@ -780,12 +780,12 @@ async function runFaces(page, en) {
     const b = judgeFace('P2 node', own, /profile ≠ table/);
     if (a && b) faceKilled++;
   }
-  // P3a — an F2 row with a repeated chip key; P3b — data-lcs-correct pointing at a distractor
+  // P3a — an F2 row with a repeated chip key; P3b — data-lcs-correct-index pointing at a distractor
   {
     const pa = rewiredFace('tick', { fn: (h) => h.replace(/(data-lcs-field="class"[^>]*>[\s\S]*?<span class="ws-pill" data-lcs-opt=")([a-z]+)("[^>]*>)[a-z]+(<\/span><span class="ws-pill" data-lcs-opt=")[a-z]+("[^>]*>)[a-z]+(<\/span>)/, (m0, a1, k1, a2, a3, a4, a5) => a1 + 'mammal' + a2 + 'mammal' + a3 + 'mammal' + a4 + 'mammal' + a5) });
     const ra = await faceFindings(page, 'tick', pa, { baseName: 'G2-339-poison-P3a' }, EXEMPLAR);
     const a = judgeFace('P3a verify', ra.r.verify, /row class: chip keys repeat/);
-    const pb = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct="(\d)" data-lcs-n="3"/, (m0, i) => `data-lcs-correct="${(+i + 1) % 3}" data-lcs-n="3"`) });
+    const pb = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct-index="(\d)" data-lcs-n="3"/, (m0, i) => `data-lcs-correct-index="${(+i + 1) % 3}" data-lcs-n="3"`) });
     const rb = await faceFindings(page, 'tick', pb, { baseName: 'G2-339-poison-P3b' }, EXEMPLAR);
     const b = judgeFace('P3b verify', rb.r.verify, /≠ the fact stamp/);
     const c = judgeFace('P3b node', rb.own, /chip \d "[a-z0-9]+" ≠ table/);
@@ -830,7 +830,7 @@ async function runFaces(page, en) {
   }
   // PF1 — tick correct index constant at 0 (a position bot wins): every row's chips re-ordered so the truth is first
   {
-    const p = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct="(\d)"/g, 'data-lcs-correct="0"') });
+    const p = rewiredFace('tick', { fn: (h) => h.replace(/data-lcs-correct-index="(\d)"/g, 'data-lcs-correct-index="0"') });
     const { r, own } = await faceFindings(page, 'tick', p, { baseName: 'G2-339-poison-PF1' }, EXEMPLAR);
     const a = judgeFace('PF1 verify', r.verify, /takes only positions 0 over|≠ the fact stamp/);
     const b = judgeFace('PF1 node', own, /takes only positions|≠ table/);

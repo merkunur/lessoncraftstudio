@@ -3,6 +3,7 @@
 const { makeLitSoundMatch } = require('../_shared/lit-sound-match.js');
 module.exports = makeLitSoundMatch({
   id: 'K-227', slug: 'middle-sounds', gradeBand: 'K', exerciseType: 'phonological-awareness', mode: 'middle',
+  spread: true,
   data: require('../../data/literacy/middle-sounds.json'),
   i18n: { en: { title: 'Middle Sounds', instruction: 'Write the vowel you hear in the middle of each word.' } },
 });

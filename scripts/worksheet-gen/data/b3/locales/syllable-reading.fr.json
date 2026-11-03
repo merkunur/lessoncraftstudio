@@ -218,11 +218,11 @@
         },
         {
           "key": "chicken",
-          "word": "poulet",
+          "word": "poule",
           "unit": "pou",
           "split": [
             "pou",
-            "let"
+            "le"
           ]
         },
         {
@@ -1848,10 +1848,10 @@
     },
     {
       "key": "chicken",
-      "word": "poulet",
+      "word": "poule",
       "split": [
         "pou",
-        "let"
+        "le"
       ]
     },
     {

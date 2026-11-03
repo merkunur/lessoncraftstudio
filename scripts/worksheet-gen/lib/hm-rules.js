@@ -219,7 +219,12 @@ function assignAvoid(adj, route, rnd, { kinds, count }) {
     const score = new Map();
     for (const p of open) for (const v of p) if (!onR.has(v)) score.set(v, (score.get(v) || 0) + 1);
     if (!score.size) return null;   // a path made only of route stations: cannot be blocked off the route
-    const best = [...score.entries()].sort((a, b) => b[1] - a[1] || rnd() - 0.5)[0][0];
+    // the most-blocking station, ties broken by a seeded shuffle — never a sort comparator that draws random numbers
+    // (its call order is the engine's: Node and the makers' browser put the walrus and the hole on different stations,
+    // parity gate 2026-11-02)
+    let bestE = null;
+    for (const e of H.shuffle([...score.entries()], rnd)) if (!bestE || e[1] > bestE[1]) bestE = e;
+    const best = bestE[0];
     chosen.add(best); open = open.filter((p) => !p.includes(best));
   }
   for (const v of [...chosen]) { const trial = new Set(chosen); trial.delete(v); if (others.every((p) => p.some((x) => trial.has(x)))) chosen = trial; }

@@ -64,7 +64,13 @@
     "mazes": "Labyrinthe",
     "find-the-differences": "Fehlersuchbilder",
     "how-to-draw": "Zeichnen lernen",
-    "picture-tracing": "Bilder nachspuren"
+    "picture-tracing": "Bilder nachspuren",
+    "pre-writing": "Schwungübungen",
+    "tangram": "Tangram",
+    "letter-tracing": "Buchstaben nachspuren",
+    "word-writing": "Wörter nachspuren und schreiben",
+    "cursive": "Schreibschrift",
+    "alphabet": "Alphabet & Buchstaben"
   },
   "editTitle": "Überschrift ändern",
   "editText": "Text ändern",

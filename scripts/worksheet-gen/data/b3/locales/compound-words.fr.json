@@ -512,26 +512,6 @@
     },
     {
       "a": {
-        "vocabKey": null,
-        "word": "tourne"
-      },
-      "aStem": null,
-      "link": "",
-      "b": {
-        "vocabKey": "sun",
-        "word": "sol"
-      },
-      "whole": {
-        "word": "tournesol",
-        "vocabKey": "sunflower",
-        "scale": 1
-      },
-      "hubSide": "b",
-      "opaque": false,
-      "picOpened": true
-    },
-    {
-      "a": {
         "vocabKey": "rain",
         "word": "pluie"
       },

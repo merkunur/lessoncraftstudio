@@ -87,7 +87,7 @@
      "sentence": 1
     },
     {
-     "q": "Onde Pipoca dorme todo dia?",
+     "q": "Onde o gato dorme todo dia?",
      "choices": [
       "No sofá",
       "Na cama",
@@ -97,7 +97,7 @@
      "sentence": 2
     },
     {
-     "q": "O que Pipoca faz quando Sofia chega da escola?",
+     "q": "O que o gato faz quando Sofia chega da escola?",
      "choices": [
       "Corre para brincar com ela",
       "Se esconde debaixo da cama",
@@ -608,7 +608,7 @@
       "sentence": 5
      },
      {
-      "q": "Para quem ela correu para mostrar a moeda?",
+      "q": "Para quem ela correu para mostrar o que achou?",
       "choices": [
        "Para a mamãe",
        "Para a professora",
@@ -1002,7 +1002,7 @@
       "sentence": 1
      },
      {
-      "q": "O que Isabela usou no banho?",
+      "q": "O que foi usado no banho?",
       "choices": [
        "Um balde de água fria",
        "Uma mangueira",
@@ -1012,7 +1012,7 @@
       "sentence": 2
      },
      {
-      "q": "Quem o Tobi molhou?",
+      "q": "Quem o cachorro molhou?",
       "choices": [
        "O vizinho",
        "A mamãe",

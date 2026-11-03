@@ -121,7 +121,7 @@
   "sentences": {
     "nounCase": "lower",
     "endSpace": false,
-    "names": ["Sofia", "Leonardo", "Giulia", "Francesco", "Aurora", "Lorenzo", "Alice", "Matteo"],
+    "names": ["Sofia", "Leonardo", "Giulia", "Francesco", "Giorgia", "Lorenzo", "Beatrice", "Matteo"],
     "colorWords": null,
     "nounForms": {},
     "fixLabels": {"capital": "Maiuscola", "name": "Nomi propri", "end": "Punteggiatura"},

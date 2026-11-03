@@ -33,7 +33,7 @@
 const path = require('path');
 const { color } = require('./_tokens.js');
 
-const METRICS = require(path.join(__dirname, 'cursive-metrics.json'));
+const METRICS = require('./cursive-metrics.json');   // a literal path: the makers' bundler follows it (identical in Node)
 const KINDS = ['us3', 'lin4', 'doble', 'seyes'];
 const AIR = 6;
 

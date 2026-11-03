@@ -1,13 +1,13 @@
 {
   "locale": "pt",
-  "generated_at": "2026-06-04T11:54:09.404Z",
+  "generated_at": "2026-11-03T06:42:39.761Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 891,
+  "count_approved": 893,
   "count_quarantined": 372,
   "entries": [
     {
@@ -4738,6 +4738,28 @@
         "con",
         "fu",
         "so"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "construction-crane",
+      "word": "guindaste",
+      "split": [
+        "guin",
+        "das",
+        "te"
+      ],
+      "count": 3,
+      "chunks": [
+        "guin",
+        "das",
+        "te"
       ],
       "sources_agreed": [
         "TeX",
@@ -10157,17 +10179,19 @@
     },
     {
       "key": "lamp",
-      "word": "lâmpada",
+      "word": "luminária",
       "split": [
-        "lâm",
-        "pa",
-        "da"
+        "lu",
+        "mi",
+        "ná",
+        "ria"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
-        "lâm",
-        "pa",
-        "da"
+        "lu",
+        "mi",
+        "ná",
+        "ria"
       ],
       "sources_agreed": [
         "TeX",
@@ -11961,6 +11985,26 @@
       }
     },
     {
+      "key": "metal-nail",
+      "word": "prego",
+      "split": [
+        "pre",
+        "go"
+      ],
+      "count": 2,
+      "chunks": [
+        "pre",
+        "go"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "narwhal",
       "word": "narval",
       "split": [
@@ -13258,14 +13302,14 @@
     },
     {
       "key": "pear",
-      "word": "pêra",
+      "word": "pera",
       "split": [
-        "pê",
+        "pe",
         "ra"
       ],
       "count": 2,
       "chunks": [
-        "pê",
+        "pe",
         "ra"
       ],
       "sources_agreed": [
@@ -13277,7 +13321,7 @@
       "notes": {
         "tex_disagreed_with_rule": true,
         "tex_split": [
-          "pêra"
+          "pera"
         ]
       }
     },
@@ -13992,27 +14036,33 @@
     },
     {
       "key": "pinwheel",
-      "word": "catavento",
+      "word": "cata-vento",
       "split": [
         "ca",
-        "ta",
+        "ta-",
         "ven",
         "to"
       ],
       "count": 4,
       "chunks": [
         "ca",
-        "ta",
+        "ta-",
         "ven",
         "to"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "cata-ven",
+          "to"
+        ]
+      }
     },
     {
       "key": "pitcher",

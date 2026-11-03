@@ -104,7 +104,9 @@ module.exports = {
       for (let k = 0; k < n; k++) icons.push({ e, target: true });
       for (let k = 0; k < nd; k++) icons.push({ e: others[k % others.length], target: false });
       const strip = rng.shuffle(icons).map((it) =>
-        `<img class="ws-icon" src="${fileUri(theme, it.e.noun)}" alt="" data-lcs-noun="${it.e.vocabKey}"${it.target ? ' data-lcs-target="1"' : ''} ` +
+        // generic marks (2026-11-03): every picture a candidate, the ones to colour ringed — the key rings them, the screen
+        // asks to tap exactly those
+        `<img class="ws-icon" src="${fileUri(theme, it.e.noun)}" alt="" data-lcs-noun="${it.e.vocabKey}" data-lcs-pick${it.target ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
         `style="width:${d.icon}px;height:${d.icon}px;transform:rotate(${(rng.next() * 12 - 6).toFixed(1)}deg)">`).join('');
       return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:10px 8px 4px" data-lcs-item>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.4;color:#3A3530;margin:0;min-height:${d.font * 2.8}px;padding-left:22px" data-lcs-sentence>${SB.fillFrame('', {}) + sentence}</p>` +

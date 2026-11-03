@@ -70,14 +70,16 @@ function figureRow({ figures, S, seams = true, gap = ROW_GAP, data }) {
 }
 
 /* ---------------- the face components (Phase 2 consumers; built here per design §2) ---------------- */
-function composeCard({ mini, S, Sg = 64, transform }) {
+// key = the maker's answer key (2026-11-02): the figure drawn WITH its seams (where the pieces meet / how the shadow is
+// built), marked as a key sample; without it the catalogue card is byte-unchanged
+function composeCard({ mini, S, Sg = 64, transform, key = false }) {
   const strip = mini.tans.map((t) => TG.clsOf(t.id)).sort((a, b) => TG.CLASSES.indexOf(a) - TG.CLASSES.indexOf(b)).map((cls) => TG.tanGlyph(cls, Sg).html);
-  const outline = TG.tangramFigure({ figure: mini.key, tans: mini.tans, S, mode: 'outline', transform, data: { 'data-lcs-mini': mini.key } });
+  const outline = TG.tangramFigure({ figure: mini.key, tans: mini.tans, S, mode: key ? 'solution' : 'outline', transform, data: key ? { 'data-lcs-mini': mini.key, 'data-lcs-key-sample': '1' } : { 'data-lcs-mini': mini.key } });
   return `<div class="ws-card-stage" data-lcs-compose style="flex-direction:column;gap:12px;padding:0">` +
     `<div data-lcs-glyph-strip style="display:flex;align-items:center;justify-content:center;gap:10px;height:44px;flex:0 0 auto">${strip.join('')}</div>${outline.html}</div>`;
 }
-function shadowCard({ figure, S, transform }) {
-  const sil = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: 'silhouette', transform });
+function shadowCard({ figure, S, transform, key = false }) {
+  const sil = TG.tangramFigure({ figure: figure.key, tans: figure.tans, S, mode: key ? 'solution' : 'silhouette', transform, ...(key ? { data: { 'data-lcs-key-sample': '1' } } : {}) });
   return `<div class="ws-card-stage" data-lcs-shadow style="padding:0">${sil.html}</div>`;
 }
 function missingCard({ figure, missing, S, chips, chipW = 104, transform, pad, chipPad = 12 }) {

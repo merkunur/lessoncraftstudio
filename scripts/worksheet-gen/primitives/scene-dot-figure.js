@@ -7,7 +7,10 @@
  * numbers, each placed by a collision pass (outward first): never on another number or dot, never off the stage, on
  * free paper when there is any near the dot, else over a line on a white backing that hides the line under it. Same data attributes as primitives/dot-figure.js, so K-285 verify() checks it.
  *
- * { scene, count, step=1, startAt=1, values=null, lite=false, labelPx=20, width=640 }
+ * { scene, count, step=1, startAt=1, values=null, lite=false, labelPx=20, width=640, heroOnly=false }
+ *   heroOnly (makers 2026-11-02, Number-Word Dot-to-Dot): the picture is the hero alone — its own lines inside its
+ *   silhouette (scene.body), the background left out — so long labels (number words) find free paper beside their dots;
+ *   off (the default), the output is unchanged
  *   → { svg, points:[[x,y]…] px, labels:[v…], width, height }
  * Throws when a number has no free place (the page is refused; the wave takes the next picture).
  */
@@ -36,7 +39,7 @@ function segHitsBox(p, q, b, pad = 2) {
 }
 const overlaps = (a, b) => !(a.x + a.w < b.x || b.x + b.w < a.x || a.y + a.h < b.y || b.y + b.h < a.y);
 
-function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, lite = false, labelPx = 20, width = 640 }) {
+function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, lite = false, labelPx = 20, width = 640, heroOnly = false }) {
   const t = tokens;
   const fit = scene.fit && scene.fit[count];
   if (!fit || !fit.ok) throw new Error(`sceneDotFigure: ${scene.id} has no ${count}-dot outline`);
@@ -66,7 +69,16 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
   const parts = [];
   // the scene: frame, then the art (picture units, scaled)
   parts.push(el('rect', { x: 1.5, y: 1.5, width: width - 3, height: height - 3, rx: 14, fill: '#FFFFFF', stroke: t.color.ink, 'stroke-width': 3 }));
-  parts.push(el('g', { transform: `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd' })));
+  let heroClip = '';
+  if (heroOnly) {
+    // the hero's silhouette as a clip (its mask cells, run by run, one cell grown so its own lines at the rim stay)
+    if (!scene.body) throw new Error(`sceneDotFigure: ${scene.id} has no hero mask`);
+    const B = scene.body, C = 600 / B.w, on = (x, y) => x >= 0 && y >= 0 && x < B.w && y < B.h && B.s.charCodeAt(y * B.w + x) === 49;
+    const runs = [];
+    for (let y = 0; y < B.h; y++) { let x0 = -1; for (let x = 0; x <= B.w; x++) { const v = x < B.w && (on(x, y) || on(x - 1, y) || on(x + 1, y) || on(x, y - 1) || on(x, y + 1)); if (v && x0 < 0) x0 = x; if (!v && x0 >= 0) { runs.push(`M${x0 * C} ${y * C}h${(x - x0) * C}v${C}h${-(x - x0) * C}z`); x0 = -1; } } }
+    heroClip = `<clipPath id="d2d-hero-${scene.id}"><path d="${runs.join('')}"/></clipPath>`;
+  }
+  parts.push(el('g', { transform: `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, heroClip + el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd', ...(heroOnly ? { 'clip-path': `url(#d2d-hero-${scene.id})` } : {}) })));
 
   // v2: no pre-printed remainder — the rest of the outline is the picture's own line (the operator's review: a grey
   // straight remainder reads as a continuation of the dots, not as the picture)
@@ -97,6 +109,9 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
     const cands = [];
     for (const d of [labelPx * 0.85, labelPx * 1.2, labelPx * 1.6]) cands.push([p[0] + dir[0] * d, p[1] + dir[1] * d]);
     for (const d of [labelPx * 0.75, labelPx * 0.85, labelPx * 1.05, labelPx * 1.2, labelPx * 1.4, labelPx * 1.6, labelPx * 2.1]) for (const c of compass) cands.push([p[0] + c[0] * d, p[1] + c[1] * d]);
+    // heroOnly (a word label): further out too, by the label's own half width — a wide word set close to its dot crosses
+    // the lines the child draws to the neighbours
+    if (heroOnly) for (const d of [bw / 2 + 4, bw / 2 + 12, bw / 2 + 22]) for (const c of [dir].concat(compass)) cands.push([p[0] + c[0] * d, p[1] + c[1] * d]);
     let got = null;
     // pass 1: free paper only; pass 2 (a busy scene): over a line, on a white backing that hides the line under it
     // v2 scenes (the picture keeps its own lines): every number on free paper outside the picture — never a white patch
@@ -113,7 +128,8 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
       // a number belongs to ONE dot: clearly nearer its own dot than any other (a child reads the nearest dot)
       const own = Math.hypot(cx - p[0], cy - p[1]);
       if (pts.some((q, j) => j !== i && Math.hypot(cx - q[0], cy - q[1]) * 0.88 < own)) continue;
-      const onInk = cellHit(g, box);
+      // heroOnly: no background is drawn, so the only ink is the hero's (the body check below keeps numbers off it)
+      const onInk = heroOnly ? false : cellHit(g, box);
       // free paper first: no line, and not inside another drawing (a number in a barn door reads as part of the barn)
       // pass 1 also keeps the number off the hero itself (outside the outline, as on a good printed sheet)
       if (pass === 1 && (onInk || (!lite && scene.obj && cellHit(scene.obj, box)) || (scene.body && cellHit(scene.body, box)))) continue;
@@ -143,6 +159,8 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
       'data-lcs-scene': scene.id, ...(open ? { 'data-lcs-open': '1' } : {}), ...(lite ? { 'data-lcs-lite': '1' } : {}),
     }),
     points: pts, labels: vals, width, height,
+    // (makers 2026-11-02: decoy dots) is a page-px box on the hero or on drawn ink? — the same cell tests the numbers use
+    covers: (box) => !!((scene.body && cellHit(scene.body, box)) || (!heroOnly && cellHit(g, box))),
   };
 }
 

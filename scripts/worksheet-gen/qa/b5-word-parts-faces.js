@@ -111,7 +111,9 @@ async function faceGate({ page, ok, judge, validateBank, quick, OUT }) {
     const t = TYPES[x.id];
     ok(t.i18n.en.title === en.strings[x.mode].title && t.i18n.en.instruction === en.strings[x.mode].instruction, `${x.id}: i18n.en ${JSON.stringify(t.i18n.en)} ≠ the bank strings.${x.mode}`);
     ok(t.gradeBand === x.band, `${x.id}: gradeBand ${t.gradeBand} ≠ ${x.band}`);
-    ok(t.difficulty[2].mode === x.mode && t.difficulty[1] === t.difficulty[2] && t.difficulty[3] === t.difficulty[2], `${x.id}: difficulty is not one ${x.mode} config for all three levels`);
+    // the Level Set (2026-09-29) gave every face real easier / harder levels: each level is the face's OWN mode (a level
+    // that fell back to the base config, or to another face, would print a different worksheet under this title)
+    ok([1, 2, 3].every((lv) => t.difficulty[lv] && t.difficulty[lv].mode === x.mode), `${x.id}: a level is not a ${x.mode} config (${[1, 2, 3].map((lv) => t.difficulty[lv] && t.difficulty[lv].mode).join(' / ')})`);
     ok(!!strEn[x.id] && strEn[x.id].title === t.i18n.en.title, `${x.id}: i18n/strings.en.json ≠ the face title (run node i18n/build-en.js)`);
     for (const v of [t.i18n.en.title, t.i18n.en.instruction, strEn[x.id] && JSON.stringify(strEn[x.id])]) ok(!/word famil/i.test(v || ''), `${x.id}: "${v}" says "word famil…" (owned by another type)`);
   }

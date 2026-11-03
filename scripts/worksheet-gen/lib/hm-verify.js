@@ -77,7 +77,7 @@ function disc(pt, scale, w, h, r) {
 }
 
 /** the oracle on decoded page pixels (RGBA, w × h) — pure apart from the declared-corridor raster it asks the platform for */
-async function analyzeRgba({ data, w, h, graph, scale = 1, tol = 18, minCluster = 20 }) {
+async function analyzeRgba({ data, w, h, graph, scale = 1, tol = 18, minCluster = 20, seam = 0 }) {
   const issues = [];
   const [fr, fg, fb] = hex(graph.fill);
   // HEX (F13 letter hop): cells, not corridors. Every cell must show its own fill on a ring inside it (clear of its
@@ -142,7 +142,10 @@ async function analyzeRgba({ data, w, h, graph, scale = 1, tol = 18, minCluster 
   if (graph.strands) {
     for (const [i, rt] of (graph.routes || []).entries()) {
       const e = graph.edges[i]; const Di = morph(await rasterDeclared({ W: graph.W, edges: [e], mouths: {} }, w, h, scale), w, h, k, true);
-      const walkI = new Uint8Array(M.length); for (let q = 0; q < M.length; q++) walkI[q] = Di[q] && (M[q] || stand[q]) ? 1 : 0;
+      let walkI = new Uint8Array(M.length); for (let q = 0; q < M.length; q++) walkI[q] = Di[q] && (M[q] || stand[q]) ? 1 : 0;
+      // seam (the maker's canvas raster, spike S6): a 1-px anti-aliasing seam where a crossing's redrawn piece abuts the
+      // string is closed inside the string's own stroke — a broken string misses far more than a pixel
+      if (seam) { const c = morph(walkI, w, h, seam, true); for (let q = 0; q < M.length; q++) walkI[q] = c[q] && Di[q] ? 1 : 0; }
       const RR = Math.max(3, Math.round(graph.W * scale * 0.6));
       const fl = flood(walkI, w, disc(e.pts[0], scale, w, h, RR));
       if (!disc(e.pts[e.pts.length - 1], scale, w, h, RR).some((q) => fl[q])) issues.push('string ' + (i + 1) + ' is broken on the page');
@@ -198,7 +201,7 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
  * `scale` px per scene px over a white paper — what the child sees, without a screenshot. `width`/`height` default to
  * the viewBox.
  */
-async function analyzeSvg({ svg, graph, scale = 1, tol = 18, minCluster = 20, width, height }) {
+async function analyzeSvg({ svg, graph, scale = 1, tol = 18, minCluster = 20, width, height, seam = 0 }) {
   const head = (svg.match(/<svg\b[^>]*>/) || [''])[0];
   const vb = head.match(/viewBox="\s*[\d.-]+\s+[\d.-]+\s+([\d.]+)\s+([\d.]+)/);
   const attr = (n) => { const m = head.match(new RegExp('\\s' + n + '="([\\d.]+)')); return m ? +m[1] : null; };
@@ -206,7 +209,7 @@ async function analyzeSvg({ svg, graph, scale = 1, tol = 18, minCluster = 20, wi
   if (!sw || !sh) throw new Error('hm-verify: the scene svg declares neither a viewBox nor a size');
   const w = Math.round(sw * scale), h = Math.round(sh * scale);
   const { data } = await platform.picture.rasterSvg(svg, { width: w, height: h, background: '#fff' });
-  return analyzeRgba({ data, w, h, graph, scale, tol, minCluster });
+  return analyzeRgba({ data, w, h, graph, scale, tol, minCluster, seam });
 }
 
 /** the graph stamp a page carries (scene px): written by the type, read back by verify() */

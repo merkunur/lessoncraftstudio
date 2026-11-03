@@ -85,7 +85,7 @@ function main() {
   const mig = path.join(REPO, 'docs', 'makers', 'migrations');
   if (fs.existsSync(mig)) for (const f of fs.readdirSync(mig)) if (f.endsWith('.json')) put(`makers/migrations/${f}`, path.join(mig, f));
   // the pictures and the fonts (unversioned asset base, scripts/worksheet-gen/lib/platform/browser.js ASSET_BASE)
-  for (const [rel, from] of [['makers-assets/themes-512', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')], ['makers-assets/fonts', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')]]) {
+  for (const [rel, from] of [['makers-assets/themes-512', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')], ['makers-assets/fonts', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')], ['makers-assets/family-portraits', path.join(REPO, 'scripts', 'worksheet-gen', 'data', 'b5', 'family-portraits')]]) {
     if (!fs.existsSync(from)) throw new Error('assets missing: ' + from);
     copyTree(from, path.join(OUT, rel), files, rel);
   }

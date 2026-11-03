@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-10-18T16:31:11.077Z",
+  "generated_at": "2026-11-03T06:42:39.736Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 940,
-  "count_quarantined": 324,
+  "count_approved": 942,
+  "count_quarantined": 323,
   "entries": [
     {
       "key": "acorn",
@@ -2224,15 +2224,12 @@
         "cha"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "vocab_change": "2026-11-02 B5 review",
-        "was": "bote"
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "bolt",
@@ -4267,15 +4264,17 @@
     },
     {
       "key": "chicken",
-      "word": "pollo",
+      "word": "gallina",
       "split": [
-        "po",
-        "llo"
+        "ga",
+        "lli",
+        "na"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
-        "po",
-        "llo"
+        "ga",
+        "lli",
+        "na"
       ],
       "sources_agreed": [
         "TeX",
@@ -4965,6 +4964,41 @@
       ],
       "total_agreed": 3,
       "rule_authoritative": true
+    },
+    {
+      "key": "construction-crane",
+      "word": "grúa de construcción",
+      "split": [
+        "grú",
+        "a",
+        "de",
+        "cons",
+        "truc",
+        "ción"
+      ],
+      "count": 6,
+      "chunks": [
+        "grú",
+        "a",
+        "de",
+        "cons",
+        "truc",
+        "ción"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "grúa de cons",
+          "truc",
+          "ción"
+        ]
+      }
     },
     {
       "key": "content",
@@ -12925,6 +12959,26 @@
           "uña"
         ]
       }
+    },
+    {
+      "key": "metal-nail",
+      "word": "clavo",
+      "split": [
+        "cla",
+        "vo"
+      ],
+      "count": 2,
+      "chunks": [
+        "cla",
+        "vo"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "narwhal",

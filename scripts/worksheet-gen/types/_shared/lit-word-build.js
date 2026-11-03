@@ -70,7 +70,8 @@ function makeLitWordBuild(cfg) {
         const letters = String(it.word).split('');
         const gap = Number.isInteger(it.blank) ? it.blank : Math.max(0, Math.floor(letters.length / 2));
         const tiles = letters.map((ch, i) =>
-          `<span class="lit-wb-tile${i === gap ? ' lit-wb-gap' : ''}" style="width:${tile}px;height:${tile}px;font-size:${fs}px">` +
+          // the blank carries its letter (2026-11-03: the key writes it in teal, the screen types it)
+          `<span class="lit-wb-tile${i === gap ? ' lit-wb-gap' : ''}"${i === gap ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px;font-size:${fs}px">` +
           `${i === gap ? '' : ch}</span>`).join('');
         return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-gap="${gap}">` +
           `<div class="ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
@@ -131,7 +132,8 @@ function buildBuildWord(chosen, n, rng) {
     let bank;
     do { bank = rng.shuffle(letters); }
     while (letters.length > 1 && bank.join('') === letters.join(''));
-    const slots = letters.map(() => `<span class="lit-wb-slot" style="width:${slot}px;height:${slot}px"></span>`).join('');
+    // each slot carries its letter (2026-11-03: the key writes the word in teal, the screen types it letter by letter)
+    const slots = letters.map((ch) => `<span class="lit-wb-slot" data-lcs-answer="${ch}" style="width:${slot}px;height:${slot}px"></span>`).join('');
     const bankHtml = bank.map((ch) =>
       `<span class="lit-wb-tile" style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`).join('');
     return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-mode="build">` +

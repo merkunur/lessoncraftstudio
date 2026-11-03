@@ -54,7 +54,7 @@ function pictureIndex() {
     }
   }
   // a numbered-BW entry takes the place of one of the key's colour pictures (see the header)
-  if (!process.env.LCS_OLD_BW_INDEX) {
+  if (!(typeof process !== 'undefined' && process.env && process.env.LCS_OLD_BW_INDEX)) {   // (a browser has no process: the default)
     for (const [key, list] of idx) {
       const colour = list.filter((x) => !x.bw);
       if (!colour.length) { idx.delete(key); continue; }

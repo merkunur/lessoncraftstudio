@@ -78,14 +78,14 @@ const ACCEPTED = ['happy', 'sad', 'angry', 'scared', 'surprised', 'tired'];
  * New copies read data/b3/feelings-levelset.json (the picture panel's situation scenes, grouped into
  * SETS, and the native panels' per-locale extras); the published page (level 2, copy 1) never does.
  * Scene page copy g: g = 1 → the published scenes, g ≥ 2 → set g-1. */
-const fs = require('fs');
+const platform = require('../../lib/platform/index.js');   // (fs is Node-only: the maker bundle reads through the platform)
 const path = require('path');
 const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 let LS_CACHE;
 function levelSetData() {
   if (LS_CACHE !== undefined) return LS_CACHE;
   const f = path.join(__dirname, '..', '..', 'data', 'b3', 'feelings-levelset.json');
-  LS_CACHE = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+  LS_CACHE = platform.exists(f) ? platform.readJson(f) : null;
   return LS_CACHE;
 }
 /** Feelings a child can easily confuse with each other (the harder scene level offers them as wrong faces; the easier one never does). */

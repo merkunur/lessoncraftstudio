@@ -1,6 +1,6 @@
 {
   "locale": "nl",
-  "generated_at": "2026-06-04T16:06:08.030Z",
+  "generated_at": "2026-11-03T06:42:39.822Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -9,7 +9,7 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-nl"
   ],
-  "count_approved": 1062,
+  "count_approved": 1064,
   "count_quarantined": 201,
   "entries": [
     {
@@ -7087,6 +7087,34 @@
       "total_agreed": 3
     },
     {
+      "key": "construction-crane",
+      "word": "hijskraan",
+      "split": [
+        "hijs",
+        "kraan"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "h",
+          "ij",
+          "s"
+        ],
+        [
+          "k",
+          "r",
+          "aa",
+          "n"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
       "key": "construction-worker",
       "word": "bouwvakker",
       "split": [
@@ -7623,34 +7651,29 @@
     },
     {
       "key": "crayons",
-      "word": "kleurpotloden",
+      "word": "waskrijtjes",
       "split": [
-        "kleur",
-        "pot",
-        "lo",
-        "den"
+        "was",
+        "krijt",
+        "jes"
       ],
-      "count": 4,
+      "count": 3,
       "chunks": [
         [
-          "k",
-          "l",
-          "eu",
-          "r"
+          "w",
+          "a",
+          "s"
         ],
         [
-          "p",
-          "o",
+          "k",
+          "r",
+          "ij",
           "t"
         ],
         [
-          "l",
-          "o"
-        ],
-        [
-          "d",
+          "j",
           "e",
-          "n"
+          "s"
         ]
       ],
       "sources_agreed": [
@@ -8636,14 +8659,13 @@
     },
     {
       "key": "dice",
-      "word": "dobbelstenen",
+      "word": "dobbelsteen",
       "split": [
         "dob",
         "bel",
-        "ste",
-        "nen"
+        "steen"
       ],
-      "count": 4,
+      "count": 3,
       "chunks": [
         [
           "d",
@@ -8658,20 +8680,18 @@
         [
           "s",
           "t",
-          "e"
-        ],
-        [
-          "n",
-          "e",
+          "ee",
           "n"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl"
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 3
+      "total_agreed": 4,
+      "wiktionary_ipa": "/ˈdɔ.bəlˌsteːn/"
     },
     {
       "key": "dimetrodon",
@@ -15996,10 +16016,10 @@
     },
     {
       "key": "lemur",
-      "word": "lemur",
+      "word": "lemuur",
       "split": [
         "le",
-        "mur"
+        "muur"
       ],
       "count": 2,
       "chunks": [
@@ -16009,7 +16029,7 @@
         ],
         [
           "m",
-          "u",
+          "uu",
           "r"
         ]
       ],
@@ -18466,6 +18486,35 @@
       ],
       "total_agreed": 4,
       "wiktionary_ipa": "/ˈnaː.ɣəl/"
+    },
+    {
+      "key": "metal-nail",
+      "word": "spijker",
+      "split": [
+        "spij",
+        "ker"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "s",
+          "p",
+          "ij"
+        ],
+        [
+          "k",
+          "e",
+          "r"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
+      ],
+      "total_agreed": 4,
+      "wiktionary_ipa": "/ˈspɛi̯kər/"
     },
     {
       "key": "narwhal",

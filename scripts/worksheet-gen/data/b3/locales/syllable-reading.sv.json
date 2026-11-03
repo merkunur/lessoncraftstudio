@@ -1739,14 +1739,6 @@
       ]
     },
     {
-      "key": "chicken",
-      "word": "kyckling",
-      "split": [
-        "kyck",
-        "ling"
-      ]
-    },
-    {
       "key": "chimney",
       "word": "skorsten",
       "split": [
@@ -2712,10 +2704,10 @@
     },
     {
       "key": "muffin",
-      "word": "muffin",
+      "word": "muffins",
       "split": [
         "muf",
-        "fin"
+        "fins"
       ]
     },
     {
@@ -2906,11 +2898,10 @@
     },
     {
       "key": "pegasus",
-      "word": "pegasus",
+      "word": "pegas",
       "split": [
         "pe",
-        "ga",
-        "sus"
+        "gas"
       ]
     },
     {
@@ -3296,11 +3287,11 @@
     },
     {
       "key": "santa",
-      "word": "jultomten",
+      "word": "jultomte",
       "split": [
         "jul",
         "tom",
-        "ten"
+        "te"
       ]
     },
     {
@@ -3397,10 +3388,10 @@
     },
     {
       "key": "sink",
-      "word": "diskbank",
+      "word": "diskbänk",
       "split": [
         "disk",
-        "bank"
+        "bänk"
       ]
     },
     {

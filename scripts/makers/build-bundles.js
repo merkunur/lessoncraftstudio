@@ -46,6 +46,12 @@ function makerTypes(id) {
   return { maker: m, types: inv.filter((r) => !r.science && (m.families.includes(r.family) || (m.extraIds || []).includes(r.id)) && !(m.hideIds || []).includes(r.id)) };
 }
 
+// a build that fails because a bank disagrees with the vocabulary is a DATA DEFECT, never an honest refusal: the
+// languages' theme / level checks would otherwise drop that theme silently (2026-11-03: fourteen sound-boxes rows still
+// spelled the picture words the vocabulary reviews had replaced, and those themes vanished from the maker)
+const DATA_DEFECT = /fix data\/|data defect/i;
+const dataDefects = new Set();
+const noteDefect = (e, where) => { if (e && DATA_DEFECT.test(String(e.message))) dataDefects.add(where + ': ' + String(e.message).slice(0, 200)); };
 const isBwTheme = (t) => /bw(\s+\d+)?$/i.test(t);
 function themesFor(spec) {
   if (!spec.themeAxis || !spec.themeAxis.applicable) return [null];
@@ -87,41 +93,77 @@ function record(types) {
     // (recorded like every other build: an engine module caches what it reads, so a file first read here — the picture
     // manifest — is read only here)
     const themed = !!(spec.themeAxis && spec.themeAxis.applicable);
+    const allLevels = Object.keys(spec.difficulty || { 2: 1 }).map(Number);
+    // the candidate themes (never filtered in one language: each language finds its own — the G2-319 logic puzzles
+    // build on seven curated themes, adjective agreement in no gender-less language, …)
     current = spec.id + '|themes';
-    // a theme is offered only if EVERY level builds with it (2026-11-02: a theme checked at level 1 alone was offered at
-    // level 3, where it cannot give the page — G1-140 / G2-261 / G1-480 were then refused in every language)
-    // (a level counts as building when the page or one of the maker's fresh-seed retries builds — runtime.generate's ladder)
-    const builds = (d, th) => [null, '1.1', '1.2', '1.3', '1.4'].some((sv) => {
-      try { makePage({ type: spec, strings: resolveStrings(spec.id, 'en', spec), locale: 'en', difficulty: d, theme: th, variant: 1, ...(sv ? { seedVariant: sv } : {}) }); return true; } catch (e) { return false; }
-    });
-    const themes = themed ? themesFor(spec).filter((th) => Object.keys(spec.difficulty || { 2: 1 }).map(Number).every((d) => builds(d, th))) : themesFor(spec);
+    const candidates = themesFor(spec);
     current = null;
-    const entry = { id: spec.id, file: t.file, family: t.family, grade: spec.gradeBand, levels: Object.keys(spec.difficulty || { 2: 1 }).map(Number), themed: !!(spec.themeAxis && spec.themeAxis.applicable), interactive: !!spec.interactive, locales: [], refused: {} };
+    const entry = { id: spec.id, file: t.file, family: t.family, grade: spec.gradeBand, levels: allLevels.slice(), themed, interactive: !!spec.interactive, locales: [], refused: {} };
+    const { makeRng } = require(path.join(WG, 'lib', 'rng.js'));
+    const fast = themed && !(spec.unitAxis && spec.unitAxis.applicable);
+    const goodOf = {}, levelsOf = {};
     for (const loc of LOCALES) {
+      if (spec.onlyLocales && !spec.onlyLocales.includes(loc)) { entry.refused[loc] = 'not taught in this language'; continue; }
       const s = resolveStrings(spec.id, loc, spec);
       if (loc !== 'en' && s.source !== 'locale') { entry.refused[loc] = 'no native strings'; continue; }
       current = spec.id + '|' + loc;
-      let ok = true;
-      // a level may print its own instruction (and title): i18n/level-instructions.json — the pages are built with it
-      const byLevel = {};
-      for (const d of entry.levels) {
-        const sd = withLevelInstruction(s, spec.id, d, loc);
+      const why = {};
+      // a level may print its own instruction (and title): i18n/level-instructions.json — the pages are built with it;
+      // a level without its instruction in this language is not offered here
+      const byLevel = {}, sdOf = {};
+      let lvls = [];
+      for (const d of allLevels) {
+        let sd;
+        try { sd = withLevelInstruction(s, spec.id, d, loc); } catch (e) { why[d] = e.message; continue; }
+        sdOf[d] = sd; lvls.push(d);
         if (sd !== s) byLevel[d] = { instruction: sd.instruction, ...(sd.title !== s.title ? { title: sd.title } : {}) };
-        if (!themes.length) { ok = false; entry.refused[loc] = 'no theme builds'; }
-        for (const theme of themes.slice(0, 2)) {
-          for (const variant of [1, 2]) {
-            // the page or one of the maker's fresh-seed retries (runtime.generate) must build
-            let err = null;
-            const okHere = [null, '.1', '.2', '.3', '.4'].some((sv) => {
-              try { makePage({ type: spec, strings: sd, locale: loc, difficulty: d, theme, variant, ...(sv ? { seedVariant: variant + sv } : {}), answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); return true; } catch (e) { err = err || e; return false; }
-            });
-            if (!okHere) { ok = false; entry.refused[loc] = 'build failed: ' + String(err.message).slice(0, 160); }
-          }
+      }
+      // the themes that build at each level (copies 1 and 2; the page or one of the maker's fresh-seed retries): the
+      // type's own build for a themed template (< 1 ms), the full page for one with a unit axis (its build needs the
+      // unit the page resolves)
+      let lastErr = null;
+      const builds = (theme, d, variant, sv) => { try { spec.build({ theme, difficulty: d, locale: loc, unit: null }, { rng: makeRng(`fits|${spec.id}|${loc}|${theme}|${d}|${variant}|${sv || ''}`), variant, ...(sv ? { seedVariant: variant + sv } : {}) }); return true; } catch (e) { lastErr = e; noteDefect(e, spec.id + ' ' + loc + ' ' + theme); return false; } };
+      const pageBuilds = (theme, d, variant) => [null, '.1', '.2', '.3', '.4'].some((sv) => { try { makePage({ type: spec, strings: sdOf[d], locale: loc, difficulty: d, theme, variant, ...(sv ? { seedVariant: variant + sv } : {}), answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); return true; } catch (e) { lastErr = e; noteDefect(e, spec.id + ' ' + loc + ' ' + theme); return false; } });
+      const fitsAt = (theme, d) => fast ? [1, 2].every((variant) => [null, '.1', '.2', '.3', '.4'].some((sv) => builds(theme, d, variant, sv))) : pageBuilds(theme, d, 1);
+      let good = candidates.slice();
+      if (themed) {
+        const at = Object.fromEntries(lvls.map((d) => [d, candidates.filter((th) => fitsAt(th, d))]));
+        for (const d of lvls) if (!at[d].length) why[d] = 'no theme builds: ' + String(lastErr && lastErr.message).slice(0, 140);
+        lvls = lvls.filter((d) => at[d].length);
+        // the themes good at every level offered; a level that leaves fewer than three (or than its best level has)
+        // is dropped first — a teacher's theme must give every level she can pick
+        const both = () => candidates.filter((th) => lvls.every((d) => at[d].includes(th)));
+        while (lvls.length > 1 && both().length < Math.min(3, Math.max(...lvls.map((d) => at[d].length)))) {
+          const worst = lvls.reduce((x, d) => (at[d].length < at[x].length ? d : x), lvls[0]);
+          why[worst] = `only ${at[worst].length} themes build at this level`;
+          lvls = lvls.filter((d) => d !== worst);
+        }
+        good = both();
+      }
+      // the full page (makePage), every level, copies 1 and 2, on the first two good themes: a level that fails is not
+      // offered in this language
+      for (const d of lvls.slice()) {
+        for (const theme of good.slice(0, 2)) for (const variant of [1, 2]) {
+          if (!lvls.includes(d)) break;
+          if (!pageBuilds(theme, d, variant)) { why[d] = 'build failed: ' + String(lastErr && lastErr.message).slice(0, 160); lvls = lvls.filter((x) => x !== d); }
         }
       }
+      if (themed && good.length && lvls.length) good = candidates.filter((th) => lvls.every((d) => fitsAt(th, d)));
+      // a page that fails its gates in the browser is retried with fresh seeds (runtime.generate): a retry may read data
+      // the plain build never touches (a Level Set pool), so one retry per level is built here — only to RECORD what it
+      // reads (2026-11-03: G2-272's Danish story pool was never shipped, and its retries failed "no level data")
+      for (const d of lvls) for (const theme of good.slice(0, 1)) {
+        try { makePage({ type: spec, strings: sdOf[d], locale: loc, difficulty: d, theme, variant: 1, seedVariant: '1.1', answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); } catch (e) { noteDefect(e, spec.id + ' ' + loc + ' ' + theme); }
+      }
       current = null;
-      if (!ok) continue;
+      if (!lvls.length || (themed && !good.length)) { entry.refused[loc] = Object.entries(why).map(([d, w]) => 'L' + d + ': ' + w).join(' | ').slice(0, 300) || 'no theme builds'; continue; }
       entry.locales.push(loc);
+      goodOf[loc] = good; levelsOf[loc] = lvls;
+      if (lvls.length < allLevels.length) {
+        (entry.localeLevels = entry.localeLevels || {})[loc] = lvls;
+        (entry.levelRefused = entry.levelRefused || {})[loc] = Object.fromEntries(allLevels.filter((d) => !lvls.includes(d)).map((d) => [d, String(why[d] || '').slice(0, 200)]));
+      }
       // a template's own axis (the sight word of the page …): the values a teacher may pick, per locale
       // (unitAxis.makerCopies: no list — a copy picks its own unit, a published scene first, then the Level Set's:
       // Find the Differences, How to Draw; a list would offer a drawing the face cannot use)
@@ -133,23 +175,36 @@ function record(types) {
       }
       (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
+    // the levels offered in some language (in order); the themes good in some language — a language whose own list
+    // differs gets localeThemes
+    entry.levels = allLevels.filter((d) => entry.locales.some((loc) => levelsOf[loc].includes(d)));
+    if (!entry.levels.length) entry.levels = allLevels.slice();
+    const themes = themed ? candidates.filter((th) => entry.locales.some((loc) => goodOf[loc].includes(th))) : candidates;
+    if (themed) for (const loc of entry.locales) if (goodOf[loc].length !== themes.length) (entry.localeThemes = entry.localeThemes || {})[loc] = goodOf[loc];
+    // a level's own checks (answer key, new copies) run in a language that offers it — English first
+    const probeAt = (d) => ['en', ...entry.locales].find((loc) => entry.locales.includes(loc) && levelsOf[loc].includes(d));
+    const unitAt = (loc, d) => (entry.units && entry.units[loc] ? ((entry.units[loc].find((u) => !entry.unitLevels || entry.unitLevels[u.id] === d) || {}).id || null) : null);
     // does the template have an answer key? (an interactive one draws its own; a print-only one when its page carries
     // answers — runtime.js keyMarks — or draws an example for the key)
     // per level: a level may have nothing to mark (K-438 level 1 prints the letters) — the switch is offered only there
     entry.keyLevels = entry.levels.filter((d) => {
-      try { return !!makePage({ type: spec, strings: withLevelInstruction(resolveStrings(spec.id, 'en', spec), spec.id, d, 'en'), locale: 'en', difficulty: d, theme: themes[0], unit: entry.units && entry.units.en ? ((entry.units.en.find((u) => !entry.unitLevels || entry.unitLevels[u.id] === d) || {}).id || null) : null, variant: 1, answerKey: true, answerKeySuffix: ANSWER_KEY.en }).keyHtml; } catch (e) { return false; }
+      const loc = probeAt(d);
+      if (!loc) return false;
+      try { return !!makePage({ type: spec, strings: withLevelInstruction(resolveStrings(spec.id, loc, spec), spec.id, d, loc), locale: loc, difficulty: d, theme: themed ? goodOf[loc][0] : candidates[0], unit: unitAt(loc, d), variant: 1, answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }).keyHtml; } catch (e) { return false; }
     });
     entry.hasKey = entry.keyLevels.length > 0;
     // does a new copy (seed) change the page? Some templates are fixed by their settings (a sight word of the day is
     // the same page every time) — there "New version" would do nothing, so the screen must not offer it (measured, not
-    // assumed: three copies at every level, in English)
+    // assumed: three copies at every level)
     try {
-      const enS = resolveStrings(spec.id, 'en', spec);
-      const th0 = themes[0];
-      const uAll = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? (spec.unitAxis.units('en') || []) : [];
-      // the first unit of the level (a unit drawn for one level is asked for at that level only)
-      const u0 = (d) => (spec.unitAxis && spec.unitAxis.levelOf ? uAll.find((u) => spec.unitAxis.levelOf(u) === d) : uAll[0]) || null;
-      entry.copiesDiffer = entry.levels.filter((d) => new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: enS, locale: 'en', difficulty: d, theme: th0, unit: u0(d), variant: v }).html)).size > 1);
+      entry.copiesDiffer = entry.levels.filter((d) => {
+        const loc = probeAt(d);
+        if (!loc) return true;
+        const sl = resolveStrings(spec.id, loc, spec), th0 = themed ? goodOf[loc][0] : candidates[0];
+        const uAll = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? (spec.unitAxis.units(loc) || []) : [];
+        const u0 = (spec.unitAxis && spec.unitAxis.levelOf ? uAll.find((u) => spec.unitAxis.levelOf(u) === d) : uAll[0]) || null;
+        return new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: sl, locale: loc, difficulty: d, theme: th0, unit: u0, variant: v }).html)).size > 1;
+      });
     } catch (e) { entry.copiesDiffer = entry.levels.slice(); }
     entry.themes = entry.themed ? themes : [];
     templates.push(entry);
@@ -340,6 +395,9 @@ async function main() {
     const offered = rec.templates.map((t) => t.locales.length).reduce((a, b) => a + b, 0);
     report.push(`${id}@${version}: ${rec.templates.length} templates, ${offered} template×locale offered, JS ${(total / 1024).toFixed(0)} KB raw in ${js.length} files`);
     for (const t of rec.templates) if (Object.keys(t.refused).length) report.push(`   ${t.id} refused: ${Object.entries(t.refused).map(([l, r]) => l + ' (' + r + ')').join(', ')}`);
+    // a level a language cannot build is not offered there (the rest of the template is): named, never silent
+    for (const t of rec.templates) if (t.levelRefused) report.push(`   ${t.id} levels: ${Object.entries(t.levelRefused).map(([l, by]) => l + ' ' + Object.entries(by).map(([d, w]) => 'L' + d + (w ? ' (' + w.slice(0, 90) + ')' : '')).join(' ')).join(', ')}`);
+    if (dataDefects.size) throw new Error(id + ': ' + dataDefects.size + ' data defect(s) — a bank disagrees with the vocabulary, fix the data:\n  ' + [...dataDefects].join('\n  '));
     fs.writeFileSync(path.join(OUT, id, 'current.txt'), version);
     built[id] = version;
   }
@@ -347,12 +405,18 @@ async function main() {
   const vocab = require(path.join(REPO, 'scripts', 'publish-cli', 'deck-rich-alt.js')).loadVocab();
   artData.forEach((f) => allData.add(f));
   const files = [...allData].sort();
-  const blobs = files.map((f) => [f, f === 'REFERENCE TRANSLATIONS/image-vocabulary.json' ? JSON.stringify(vocab) : fs.readFileSync(path.join(REPO, f), 'utf8')]);
-  const dv = sha(blobs.map(([f, c]) => f + '\0' + c).join('\0'));
-  for (const [f, c] of blobs) { const p = path.join(OUT, 'data', dv, f); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, c); }
+  // hashed file by file and copied file by file (2026-11-03: all 59 makers' data joined into one string passed V8's
+  // longest string — "Invalid string length"); the digest is the one the joined string gave
+  const vocabJson = JSON.stringify(vocab);
+  const contentOf = (f) => (f === 'REFERENCE TRANSLATIONS/image-vocabulary.json' ? vocabJson : fs.readFileSync(path.join(REPO, f), 'utf8'));
+  const hash = crypto.createHash('sha256');
+  let bytes = 0;
+  files.forEach((f, i) => { const c = contentOf(f); hash.update((i ? '\0' : '') + f + '\0'); hash.update(c); bytes += Buffer.byteLength(c); });
+  const dv = hash.digest('hex').slice(0, 12);
+  for (const f of files) { const p = path.join(OUT, 'data', dv, f); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, contentOf(f)); }
   fs.writeFileSync(path.join(OUT, 'data', 'current.txt'), dv);
   writeVersions(built, dv, seed);
-  report.push(`data@${dv}: ${files.length} files, ${(blobs.reduce((s, [, c]) => s + Buffer.byteLength(c), 0) / 1024).toFixed(0)} KB`);
+  report.push(`data@${dv}: ${files.length} files, ${(bytes / 1024).toFixed(0)} KB`);
   console.log(report.join('\n'));
   // screen verdicts per template (screen-from-marks, 2026-11-01): which templates get a screen built from their answer
   // marks, on which levels, and the runtime / instruction strings the screen needs — into templates.json. --no-screens skips.

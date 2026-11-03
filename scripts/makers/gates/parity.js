@@ -28,9 +28,16 @@ const makers = String(args.makers || Object.keys(JSON.parse(require('fs').readFi
 const crypto = require('crypto');
 const b64Token = (b) => 'ASSET:b64:' + crypto.createHash('sha1').update(b).digest('hex');
 const fileToken = (p) => { const f = path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512', decodeURIComponent(p)); return fs.existsSync(f) ? b64Token(fs.readFileSync(f).toString('base64')) : 'ASSET:missing:' + p; };
+// the family portraits (2026-11-03): Node embeds the PNG, the browser points at /makers-assets/family-portraits/ — the
+// same file's bytes either way
+const portraitToken = (f) => { const p = path.join(REPO, 'scripts', 'worksheet-gen', 'data', 'b5', 'family-portraits', decodeURIComponent(f)); return fs.existsSync(p) ? b64Token(fs.readFileSync(p).toString('base64')) : 'ASSET:missing:' + f; };
 const norm = (h) => h
+  .replace(/data:image\/png;base64,([A-Za-z0-9+/=]+)/g, (m, b) => b64Token(b))
+  .replace(/\/makers-assets\/family-portraits\/([a-z0-9-]+\.png)/g, (m, f) => portraitToken(f))
   .replace(/data:image\/webp;base64,([A-Za-z0-9+/=]+)/g, (m, b) => b64Token(b))
   .replace(/(<image\b[^>]*?\bhref=")\/makers-assets\/themes-512\/([^"]+)"/g, (m, pre, p) => pre + fileToken(p) + '"')
+  // ... and an <image> Node did NOT inline (a library picture by its file path: K-481, K-475) is the same file's bytes
+  .replace(/(<image\b[^>]*?\bhref=")file:\/\/\/[^"]*?\/cache\/themes(?:-512)?\/([^"]+)"/g, (m, pre, p) => pre + fileToken(p) + '"')
   .replace(/file:\/\/\/[^'")\s]*?\/cache\/themes(?:-512)?\/([^'")\s]+)/g, (m, p) => 'ASSET:themes/' + decodeURIComponent(p))
   .replace(/\/makers-assets\/themes-512\/([^'")\s]+)/g, (m, p) => 'ASSET:themes/' + decodeURIComponent(p))
   .replace(/file:\/\/\/[^'")\s]*?\/assets\/fonts\/([^'")\s]+)/g, 'ASSET:fonts/$1')
@@ -72,10 +79,11 @@ async function main() {
       const units = spec.unitAxis && spec.unitAxis.applicable && !spec.unitAxis.makerCopies ? null : [null];
       const list = [];
       t.locales.forEach((loc, i) => {
-        const d = t.levels[i % t.levels.length];
+        const lvL = ((t.localeLevels && t.localeLevels[loc]) || t.levels);
+        const d = lvL[i % lvL.length];
         // a unit drawn for one level is asked for at that level only
         const us = units || (spec.unitAxis.units(loc) || []).filter((u) => !spec.unitAxis.levelOf || spec.unitAxis.levelOf(u) === d).slice(0, 2);
-        const theme = t.themed ? t.themes[i % t.themes.length] : null;
+        const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[i % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
         list.push({ loc, d, theme, unit: us[i % us.length] || null, variant: 1 + (i % 2) });
       });
       const chosen = list.filter((_, i) => i % Math.max(1, Math.floor(list.length / PER)) === 0).slice(0, PER);

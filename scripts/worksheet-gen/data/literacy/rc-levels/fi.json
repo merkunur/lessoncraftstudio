@@ -87,7 +87,7 @@
      "sentence": 1
     },
     {
-     "q": "Mihin Viiru hyppää aamulla?",
+     "q": "Mihin kissa hyppää aamulla?",
      "choices": [
       "pöydälle",
       "Ainon sängylle",
@@ -3361,9 +3361,9 @@
      {
       "q": "Kenen kanssa Vilja osallistuu talkoisiin?",
       "choices": [
-       "isoveljensä Urhon",
-       "äitinsä",
-       "mummonsa"
+       "isoveljensä Urhon kanssa",
+       "äitinsä kanssa",
+       "mummonsa kanssa"
       ],
       "correct": 0,
       "sentence": 1

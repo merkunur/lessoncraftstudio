@@ -64,7 +64,13 @@
     "mazes": "Labirintos",
     "find-the-differences": "Jogo dos erros",
     "how-to-draw": "Como desenhar",
-    "picture-tracing": "Desenhos pontilhados"
+    "picture-tracing": "Desenhos pontilhados",
+    "pre-writing": "Exercícios de traçado",
+    "tangram": "Tangram",
+    "letter-tracing": "Traçado de letras",
+    "word-writing": "Traçado e escrita de palavras",
+    "cursive": "Letra cursiva",
+    "alphabet": "Alfabeto e letras"
   },
   "editTitle": "Editar o título",
   "editText": "Mudar o texto",

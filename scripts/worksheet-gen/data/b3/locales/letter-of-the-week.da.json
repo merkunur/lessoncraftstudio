@@ -1525,7 +1525,7 @@
           "word": "nisse"
         },
         {
-          "theme": "tools",
+          "theme": "body parts",
           "noun": "nail",
           "key": "nail",
           "word": "negl"
@@ -1791,7 +1791,7 @@
       ],
       "foils": [
         {
-          "theme": "tools",
+          "theme": "body parts",
           "noun": "nail",
           "key": "nail",
           "word": "negl"

@@ -1,0 +1,654 @@
+{
+ "animals-bw-2-dog": {
+  "axis": 315.9,
+  "iou": 0.695
+ },
+ "animals-bw-3-cat-2": {
+  "axis": 249.1,
+  "iou": 0.283
+ },
+ "animals-bw-3-dinosaur": {
+  "axis": 295.9,
+  "iou": 0.419
+ },
+ "animals-bw-3-fish-2": {
+  "axis": 237.6,
+  "iou": 0.357
+ },
+ "animals-bw-3-frog-2": {
+  "axis": 302.9,
+  "iou": 0.687
+ },
+ "animals-bw-4-rabbit-2": {
+  "axis": 289,
+  "iou": 0.335
+ },
+ "animals-bw-5-owl": {
+  "axis": 300.3,
+  "iou": 0.687
+ },
+ "birds-bw-hummingbird": {
+  "axis": 345.9,
+  "iou": 0.314
+ },
+ "easter-bw-butterfly": {
+  "axis": 298.9,
+  "iou": 1
+ },
+ "farm-animals-bw-pony": {
+  "axis": 288.3,
+  "iou": 0.206
+ },
+ "lsx-animals-bw-2-cat": {
+  "axis": 271.6,
+  "iou": 0.386
+ },
+ "lsx-animals-bw-2-dog": {
+  "axis": 315.9,
+  "iou": 0.695
+ },
+ "lsx-animals-bw-2-giraffe": {
+  "axis": 268.1,
+  "iou": 0.393
+ },
+ "lsx-animals-bw-2-raccoon": {
+  "axis": 271.9,
+  "iou": 0.296
+ },
+ "lsx-animals-bw-2-squirrel": {
+  "axis": 263.9,
+  "iou": 0.365
+ },
+ "lsx-animals-bw-3-alligator": {
+  "axis": 244.9,
+  "iou": 0.381
+ },
+ "lsx-animals-bw-3-cat": {
+  "axis": 275.1,
+  "iou": 0.343
+ },
+ "lsx-animals-bw-3-cat-2": {
+  "axis": 249.1,
+  "iou": 0.283
+ },
+ "lsx-animals-bw-3-chicken": {
+  "axis": 281.8,
+  "iou": 0.334
+ },
+ "lsx-animals-bw-3-cow": {
+  "axis": 262.2,
+  "iou": 0.473
+ },
+ "lsx-animals-bw-3-deer": {
+  "axis": 294.6,
+  "iou": 0.594
+ },
+ "lsx-animals-bw-3-dinosaur": {
+  "axis": 295.9,
+  "iou": 0.419
+ },
+ "lsx-animals-bw-3-dinosaur-2": {
+  "axis": 318.9,
+  "iou": 0.317
+ },
+ "lsx-animals-bw-3-dog": {
+  "axis": 290.6,
+  "iou": 0.65
+ },
+ "lsx-animals-bw-3-donkey": {
+  "axis": 330.8,
+  "iou": 0.227
+ },
+ "lsx-animals-bw-3-fish-2": {
+  "axis": 237.6,
+  "iou": 0.357
+ },
+ "lsx-animals-bw-3-frog-2": {
+  "axis": 302.9,
+  "iou": 0.687
+ },
+ "lsx-animals-bw-3-hippopotamus-2": {
+  "axis": 243.9,
+  "iou": 0.223
+ },
+ "lsx-animals-bw-3-lion": {
+  "axis": 280.2,
+  "iou": 0.312
+ },
+ "lsx-animals-bw-3-monkey": {
+  "axis": 282.1,
+  "iou": 0.281
+ },
+ "lsx-animals-bw-3-mouse": {
+  "axis": 332.9,
+  "iou": 0.326
+ },
+ "lsx-animals-bw-4-chick": {
+  "axis": 264.3,
+  "iou": 0.38
+ },
+ "lsx-animals-bw-4-duck": {
+  "axis": 277.7,
+  "iou": 0.355
+ },
+ "lsx-animals-bw-4-duck-2": {
+  "axis": 266.5,
+  "iou": 0.339
+ },
+ "lsx-animals-bw-4-goat": {
+  "axis": 259.8,
+  "iou": 0.329
+ },
+ "lsx-animals-bw-4-kangaroo": {
+  "axis": 265,
+  "iou": 0.354
+ },
+ "lsx-animals-bw-4-koala": {
+  "axis": 301.2,
+  "iou": 0.877
+ },
+ "lsx-animals-bw-4-mouse": {
+  "axis": 254.7,
+  "iou": 0.393
+ },
+ "lsx-animals-bw-4-rabbit": {
+  "axis": 286.5,
+  "iou": 0.325
+ },
+ "lsx-animals-bw-4-rabbit-2": {
+  "axis": 289,
+  "iou": 0.335
+ },
+ "lsx-animals-bw-4-rooster": {
+  "axis": 269.6,
+  "iou": 0.273
+ },
+ "lsx-animals-bw-4-sheep": {
+  "axis": 301.5,
+  "iou": 0.583
+ },
+ "lsx-animals-bw-5-bat": {
+  "axis": 295.6,
+  "iou": 0.818
+ },
+ "lsx-animals-bw-5-bee": {
+  "axis": 283,
+  "iou": 0.361
+ },
+ "lsx-animals-bw-5-bird": {
+  "axis": 322.5,
+  "iou": 0.329
+ },
+ "lsx-animals-bw-5-bull": {
+  "axis": 275.8,
+  "iou": 0.406
+ },
+ "lsx-animals-bw-5-camel": {
+  "axis": 330.8,
+  "iou": 0.255
+ },
+ "lsx-animals-bw-5-chameleon": {
+  "axis": 306.9,
+  "iou": 0.484
+ },
+ "lsx-animals-bw-5-eagle": {
+  "axis": 288.2,
+  "iou": 0.316
+ },
+ "lsx-animals-bw-5-fox": {
+  "axis": 290.9,
+  "iou": 0.288
+ },
+ "lsx-animals-bw-5-fox-2": {
+  "axis": 284.4,
+  "iou": 0.694
+ },
+ "lsx-animals-bw-5-gorilla": {
+  "axis": 279.7,
+  "iou": 0.367
+ },
+ "lsx-animals-bw-5-hippopotamus": {
+  "axis": 289.9,
+  "iou": 0.279
+ },
+ "lsx-animals-bw-5-leopard": {
+  "axis": 270.6,
+  "iou": 0.311
+ },
+ "lsx-animals-bw-5-ostrich": {
+  "axis": 301.3,
+  "iou": 0.388
+ },
+ "lsx-animals-bw-5-panda": {
+  "axis": 299.8,
+  "iou": 0.992
+ },
+ "lsx-animals-bw-5-peacock": {
+  "axis": 301.3,
+  "iou": 0.257
+ },
+ "lsx-animals-bw-5-penguin": {
+  "axis": 297.4,
+  "iou": 0.88
+ },
+ "lsx-animals-bw-5-reindeer": {
+  "axis": 251.8,
+  "iou": 0.309
+ },
+ "lsx-animals-bw-5-rhinoceros": {
+  "axis": 361.7,
+  "iou": 0.266
+ },
+ "lsx-animals-bw-5-sloth": {
+  "axis": 341.8,
+  "iou": 0.342
+ },
+ "lsx-animals-bw-5-snake": {
+  "axis": 294.2,
+  "iou": 0.483
+ },
+ "lsx-animals-bw-5-squirrel": {
+  "axis": 279.3,
+  "iou": 0.285
+ },
+ "lsx-animals-bw-5-squirrel-2": {
+  "axis": 301.8,
+  "iou": 0.317
+ },
+ "lsx-animals-bw-5-tiger": {
+  "axis": 279.3,
+  "iou": 0.548
+ },
+ "lsx-animals-bw-5-turtle": {
+  "axis": 243.7,
+  "iou": 0.332
+ },
+ "lsx-animals-bw-alligator-2": {
+  "axis": 241.7,
+  "iou": 0.286
+ },
+ "lsx-animals-bw-bat": {
+  "axis": 298.6,
+  "iou": 0.938
+ },
+ "lsx-animals-bw-bear-2": {
+  "axis": 297.9,
+  "iou": 0.779
+ },
+ "lsx-animals-bw-beaver": {
+  "axis": 307,
+  "iou": 0.432
+ },
+ "lsx-animals-bw-frog": {
+  "axis": 301.4,
+  "iou": 0.792
+ },
+ "lsx-animals-bw-koala": {
+  "axis": 300.2,
+  "iou": 0.475
+ },
+ "lsx-animals-bw-lion": {
+  "axis": 256.8,
+  "iou": 0.313
+ },
+ "lsx-animals-bw-meerkat": {
+  "axis": 272.3,
+  "iou": 0.354
+ },
+ "lsx-animals-bw-otter": {
+  "axis": 253.3,
+  "iou": 0.327
+ },
+ "lsx-animals-bw-penguin-2": {
+  "axis": 293.6,
+  "iou": 0.692
+ },
+ "lsx-animals-bw-rabbit": {
+  "axis": 258.7,
+  "iou": 0.37
+ },
+ "lsx-animals-bw-raccoon-2": {
+  "axis": 282.9,
+  "iou": 0.43
+ },
+ "lsx-animals-bw-raccoon-3": {
+  "axis": 278.8,
+  "iou": 0.416
+ },
+ "lsx-animals-bw-tyrannosaurus-rex": {
+  "axis": 304.6,
+  "iou": 0.233
+ },
+ "lsx-beach-bw-2-boat": {
+  "axis": 290.9,
+  "iou": 0.55
+ },
+ "lsx-beach-bw-2-bucket": {
+  "axis": 286.1,
+  "iou": 0.612
+ },
+ "lsx-beach-bw-2-crab": {
+  "axis": 300.9,
+  "iou": 0.777
+ },
+ "lsx-beach-bw-2-sandcastle": {
+  "axis": 293.8,
+  "iou": 0.878
+ },
+ "lsx-beach-bw-lighthouse": {
+  "axis": 296.9,
+  "iou": 0.811
+ },
+ "lsx-beach-bw-palm-tree": {
+  "axis": 308,
+  "iou": 0.459
+ },
+ "lsx-beach-bw-sandcastle": {
+  "axis": 297.9,
+  "iou": 0.539
+ },
+ "lsx-birds-bw-2-flamingo": {
+  "axis": 297.1,
+  "iou": 0.296
+ },
+ "lsx-birds-bw-2-goose": {
+  "axis": 322.9,
+  "iou": 0.221
+ },
+ "lsx-birds-bw-2-ostrich": {
+  "axis": 322.6,
+  "iou": 0.326
+ },
+ "lsx-birds-bw-2-owl": {
+  "axis": 301.4,
+  "iou": 0.829
+ },
+ "lsx-birds-bw-2-parrot": {
+  "axis": 335.9,
+  "iou": 0.267
+ },
+ "lsx-birds-bw-2-toucan": {
+  "axis": 268.1,
+  "iou": 0.322
+ },
+ "lsx-birds-bw-2-turkey": {
+  "axis": 286.4,
+  "iou": 0.336
+ },
+ "lsx-birds-bw-hummingbird": {
+  "axis": 345.9,
+  "iou": 0.314
+ },
+ "lsx-birds-bw-pelican": {
+  "axis": 291.7,
+  "iou": 0.236
+ },
+ "lsx-birds-bw-penguin": {
+  "axis": 284.9,
+  "iou": 0.317
+ },
+ "lsx-christmas-bw-2-santa-claus": {
+  "axis": 300.8,
+  "iou": 0.77
+ },
+ "lsx-christmas-bw-2-snowman": {
+  "axis": 293.3,
+  "iou": 0.494
+ },
+ "lsx-christmas-bw-snowman": {
+  "axis": 298.5,
+  "iou": 0.737
+ },
+ "lsx-dessert-bw-cake": {
+  "axis": 299.7,
+  "iou": 0.495
+ },
+ "lsx-dessert-bw-cupcake": {
+  "axis": 303.5,
+  "iou": 0.464
+ },
+ "lsx-dessert-bw-sundae": {
+  "axis": 306.1,
+  "iou": 0.67
+ },
+ "lsx-easter-bw-2-chick": {
+  "axis": 298.2,
+  "iou": 0.513
+ },
+ "lsx-farm-animals-bw-pony": {
+  "axis": 288.3,
+  "iou": 0.206
+ },
+ "lsx-farm-animals-bw-unicorn": {
+  "axis": 270.2,
+  "iou": 0.29
+ },
+ "lsx-farm-animals-bw-yak": {
+  "axis": 300.8,
+  "iou": 0.305
+ },
+ "lsx-farm-bw-cow": {
+  "axis": 330.7,
+  "iou": 0.443
+ },
+ "lsx-farm-bw-donkey": {
+  "axis": 297.6,
+  "iou": 0.835
+ },
+ "lsx-farm-bw-duck": {
+  "axis": 316,
+  "iou": 0.265
+ },
+ "lsx-farm-bw-duck-2": {
+  "axis": 261.2,
+  "iou": 0.316
+ },
+ "lsx-farm-bw-goat": {
+  "axis": 341.5,
+  "iou": 0.322
+ },
+ "lsx-farm-bw-horse": {
+  "axis": 311.4,
+  "iou": 0.243
+ },
+ "lsx-farm-bw-pig": {
+  "axis": 279.1,
+  "iou": 0.367
+ },
+ "lsx-farm-bw-rabbit": {
+  "axis": 303.4,
+  "iou": 0.418
+ },
+ "lsx-farm-bw-rooster": {
+  "axis": 335.7,
+  "iou": 0.319
+ },
+ "lsx-farm-bw-scarecrow": {
+  "axis": 300.9,
+  "iou": 0.686
+ },
+ "lsx-farm-bw-sheep": {
+  "axis": 336.4,
+  "iou": 0.313
+ },
+ "lsx-farm-bw-turkey": {
+  "axis": 299.1,
+  "iou": 0.433
+ },
+ "lsx-home-and-nature-bw-house": {
+  "axis": 304.2,
+  "iou": 0.636
+ },
+ "lsx-household-bw-plant": {
+  "axis": 301.8,
+  "iou": 0.821
+ },
+ "lsx-sea-life-bw-2-octopus": {
+  "axis": 305.7,
+  "iou": 0.486
+ },
+ "lsx-sea-life-bw-2-seahorse": {
+  "axis": 318.1,
+  "iou": 0.403
+ },
+ "lsx-sea-life-bw-2-snail": {
+  "axis": 344.9,
+  "iou": 0.321
+ },
+ "lsx-sea-life-bw-2-starfish": {
+  "axis": 300,
+  "iou": 0.805
+ },
+ "lsx-sea-life-bw-2-turtle": {
+  "axis": 309.7,
+  "iou": 0.386
+ },
+ "lsx-sea-life-bw-crab": {
+  "axis": 302.9,
+  "iou": 0.744
+ },
+ "lsx-sea-life-bw-dolphin": {
+  "axis": 267.2,
+  "iou": 0.204
+ },
+ "lsx-sea-life-bw-fish-3": {
+  "axis": 311.9,
+  "iou": 0.29
+ },
+ "lsx-sea-life-bw-jellyfish": {
+  "axis": 302.7,
+  "iou": 0.578
+ },
+ "lsx-sea-life-bw-lobster": {
+  "axis": 294.9,
+  "iou": 0.482
+ },
+ "lsx-sea-life-bw-narwhal": {
+  "axis": 254.2,
+  "iou": 0.308
+ },
+ "lsx-sea-life-bw-octopus": {
+  "axis": 293.7,
+  "iou": 0.513
+ },
+ "lsx-sea-life-bw-seahorse": {
+  "axis": 293.6,
+  "iou": 0.293
+ },
+ "lsx-sea-life-bw-shark": {
+  "axis": 312.9,
+  "iou": 0.272
+ },
+ "lsx-space-bw-rocket": {
+  "axis": 299.6,
+  "iou": 0.988
+ },
+ "lsx-toys-bw-drum": {
+  "axis": 301.1,
+  "iou": 0.821
+ },
+ "lsx-toys-bw-robot": {
+  "axis": 300.1,
+  "iou": 0.664
+ },
+ "lsx-toys-bw-rocking-horse": {
+  "axis": 311.9,
+  "iou": 0.352
+ },
+ "lsx-toys-bw-teddy-bear": {
+  "axis": 300.1,
+  "iou": 0.96
+ },
+ "lsx-toys-bw-train": {
+  "axis": 306.9,
+  "iou": 0.54
+ },
+ "lsx-travel-and-holiday-bw-camper": {
+  "axis": 288.9,
+  "iou": 0.503
+ },
+ "lsx-travel-and-holiday-bw-campfire": {
+  "axis": 304.6,
+  "iou": 0.491
+ },
+ "lsx-travel-and-holiday-bw-log-cabin": {
+  "axis": 298.8,
+  "iou": 0.603
+ },
+ "lsx-vegetables-bw-2-mushroom": {
+  "axis": 299.7,
+  "iou": 0.62
+ },
+ "lsx-vehicles-bw-2-dump-truck": {
+  "axis": 288.6,
+  "iou": 0.509
+ },
+ "lsx-vehicles-bw-2-helicopter-2": {
+  "axis": 361.7,
+  "iou": 0.363
+ },
+ "lsx-vehicles-bw-2-hot-air-balloon": {
+  "axis": 298.4,
+  "iou": 0.729
+ },
+ "lsx-vehicles-bw-2-rocket": {
+  "axis": 299.9,
+  "iou": 0.971
+ },
+ "lsx-vehicles-bw-3-boat": {
+  "axis": 289.7,
+  "iou": 0.436
+ },
+ "lsx-vehicles-bw-3-fire-truck": {
+  "axis": 310.6,
+  "iou": 0.469
+ },
+ "lsx-vehicles-bw-3-ice-cream-truck": {
+  "axis": 242.7,
+  "iou": 0.501
+ },
+ "lsx-vehicles-bw-3-police-car": {
+  "axis": 295.7,
+  "iou": 0.616
+ },
+ "lsx-vehicles-bw-3-van": {
+  "axis": 295.6,
+  "iou": 0.616
+ },
+ "lsx-vehicles-bw-ambulance": {
+  "axis": 296.6,
+  "iou": 0.518
+ },
+ "lsx-vehicles-bw-bus": {
+  "axis": 297.9,
+  "iou": 0.487
+ },
+ "lsx-vehicles-bw-bus-2": {
+  "axis": 293.9,
+  "iou": 0.684
+ },
+ "lsx-vehicles-bw-garbage-truck": {
+  "axis": 300.9,
+  "iou": 0.575
+ },
+ "lsx-zoo-animals-bw-bear-2": {
+  "axis": 304.6,
+  "iou": 0.887
+ },
+ "lsx-zoo-animals-bw-porcupine": {
+  "axis": 295.9,
+  "iou": 0.427
+ },
+ "lsx-zoo-animals-bw-reindeer": {
+  "axis": 337.9,
+  "iou": 0.36
+ },
+ "lsx-zoo-animals-bw-rhinoceros": {
+  "axis": 311.9,
+  "iou": 0.272
+ },
+ "zoo-animals-bw-bear-2": {
+  "axis": 304.6,
+  "iou": 0.887
+ }
+}

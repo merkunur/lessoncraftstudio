@@ -155,8 +155,8 @@ const lineCount = () => {
         for (const t of M.tj.templates.filter((x) => x.locales.includes(M.LANG))) {
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
-          for (const d of t.levels) {
-            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? t.themes[sample % t.themes.length] : null, unit: (() => { const lu = units.filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return lu.length ? lu[sample % lu.length].id : null; })(), variant: 1 + sample, answerKey: false, answerKeySuffix: M.tj.answerKey[M.LANG] };
+          for (const d of ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)) {
+            const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[sample % ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).length] : null, unit: (() => { const lu = units.filter((u) => !t.unitLevels || t.unitLevels[u.id] === d); return lu.length ? lu[sample % lu.length].id : null; })(), variant: 1 + sample, answerKey: false, answerKeySuffix: M.tj.answerKey[M.LANG] };
             const b = await M.mod.generate(o, M.mount);
             // the CONTENT is the same apart from the swapped picture's own name (a card may record its noun: K-002 cards carry
             // {count, noun, choices} — the counts and choices must not move, the noun does by design)

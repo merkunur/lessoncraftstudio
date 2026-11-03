@@ -32,8 +32,9 @@ const FLAGGED = {
   en: { dropWords: ['hairy'] },   // the hair picture is a girl's face — 'hairy' does not describe it
   fi: { dropWords: ['pölyttäjä', 'lahjakas'], dropBlocks: ['satu'] },   // pollinator: no child knows it; lahjakas = talented; «Hänen hassu satuilu» needs the possessive
   pt: { dropAgents: ['mail_carrier_2', 'athlete'] },   // entregadora / corredora end in -ora, which the page title does not name
-  da: { dropAgents: ['tailor'] },   // the portrait is a man; «syerske» is a woman's word
-  no: { dropAgents: ['tailor', 'construction_worker'] },   // «syer» is rare in bokmål (skredder / syerske); «bygger» uncommon   // its published gloss «… und mitfahren» names the 4th prefix mit-   // unwanted-touching sense in Mexico; mareo DOES come from mar; «La {gap}» agrees with colorista only
+  // da tailor stays: the portrait IS a woman (pronouns bank depicted f), «syerske» is right (2026-11-03 — the drop made every
+  // maker copy of the published page fail its check)
+  no: { dropAgents: [] },   // 2026-11-03: «syer» / «bygger» left the PUBLISHED bank itself (judge + cashier took their places)   // «syer» is rare in bokmål (skredder / syerske); «bygger» uncommon   // its published gloss «… und mitfahren» names the 4th prefix mit-   // unwanted-touching sense in Mexico; mareo DOES come from mar; «La {gap}» agrees with colorista only
 };
 const result = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : {};
 const report = [];

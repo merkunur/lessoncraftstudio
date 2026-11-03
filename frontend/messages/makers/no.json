@@ -64,7 +64,13 @@
     "mazes": "Labyrinter",
     "find-the-differences": "Finn feilene",
     "how-to-draw": "Tegn steg for steg",
-    "picture-tracing": "Tegn etter strekene"
+    "picture-tracing": "Tegn etter strekene",
+    "pre-writing": "Blyanttrening",
+    "tangram": "Tangram",
+    "letter-tracing": "Spor bokstaver",
+    "word-writing": "Spor og skriv ord",
+    "cursive": "Sammenhengende skrift",
+    "alphabet": "Alfabetet og bokstaver"
   },
   "editTitle": "Endre overskriften",
   "editText": "Endre teksten",

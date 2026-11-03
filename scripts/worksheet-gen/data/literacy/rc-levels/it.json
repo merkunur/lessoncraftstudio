@@ -1678,7 +1678,7 @@
       "correct": 1
      },
      {
-      "q": "Che cosa mangiava il dinosauro?",
+      "q": "Secondo la guida, che cosa mangiava quell'animale?",
       "choices": [
        "Solo foglie",
        "Pesci",
@@ -2096,7 +2096,7 @@
       "correct": 2
      },
      {
-      "q": "Perché il nonno apre i ricci con i piedi?",
+      "q": "Perché i ricci si aprono con i piedi?",
       "choices": [
        "Perché i ricci pungono",
        "Perché è stanco",
@@ -2199,7 +2199,7 @@
       "correct": 0
      },
      {
-      "q": "Come si sente Nina quando Pepe la bagna?",
+      "q": "Come si sente Nina quando il cagnolino la bagna?",
       "choices": [
        "Si arrabbia molto",
        "Piange",
@@ -3132,7 +3132,7 @@
       "correct": 1
      },
      {
-      "q": "Come si sente Ugo la sera senza Tobia?",
+      "q": "Come si sente Ugo la sera senza il suo orsetto?",
       "choices": [
        "Allegro",
        "Tranquillo",
@@ -3340,7 +3340,7 @@
       "correct": 1
      },
      {
-      "q": "Perché Batuffolo non mangia il fieno?",
+      "q": "Perché il coniglio non mangia il fieno?",
       "choices": [
        "Non gli piace più",
        "Ha già mangiato troppo",

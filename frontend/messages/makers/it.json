@@ -64,7 +64,13 @@
     "mazes": "Labirinti",
     "find-the-differences": "Trova le differenze",
     "how-to-draw": "Come disegnare",
-    "picture-tracing": "Disegni tratteggiati"
+    "picture-tracing": "Disegni tratteggiati",
+    "pre-writing": "Pregrafismo",
+    "tangram": "Tangram",
+    "letter-tracing": "Lettere tratteggiate",
+    "word-writing": "Ricalcare e scrivere parole",
+    "cursive": "Corsivo",
+    "alphabet": "Alfabeto e lettere"
   },
   "editTitle": "Modifica il titolo",
   "editText": "Cambia il testo",

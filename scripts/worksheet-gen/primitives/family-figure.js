@@ -199,7 +199,9 @@ function portraits() {
 }
 const _uri = new Map();
 function portraitUri(file) {
-  if (!_uri.has(file)) _uri.set(file, 'data:image/png;base64,' + platform.readBase64(path.join(PORTRAIT_DIR, file)));
+  // in a maker the portraits are published assets (/makers-assets/family-portraits/): the page points at the file; in
+  // Node (the publish pipeline, the gates) the PNG is embedded as a data URI
+  if (!_uri.has(file)) _uri.set(file, platform.kind === 'browser' ? platform.fileHref(path.join(PORTRAIT_DIR, file)) : 'data:image/png;base64,' + platform.readBase64(path.join(PORTRAIT_DIR, file)));
   return _uri.get(file);
 }
 const portraitCount = (age, sex) => (portraits()[age] && portraits()[age][sex] || []).length;

@@ -17,7 +17,7 @@ const WG = path.join(__dirname, '..');
 const DIR = path.join(WG, 'data', 'd2d');
 const OUT = path.join(DIR, 'index.json');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const IDS = ['K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486'];
+const IDS = ['K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486', 'K-505', 'K-506', 'K-507'];
 
 const typeFile = (id) => { const g = id.startsWith('K-') ? 'k' : id.slice(0, 2).toLowerCase(); return path.join(WG, 'types', g, fs.readdirSync(path.join(WG, 'types', g)).find((f) => f.startsWith(id + '-'))); };
 const { makeRng } = require(path.join(WG, 'lib', 'rng.js'));

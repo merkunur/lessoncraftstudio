@@ -1,0 +1,254 @@
+{
+ "_note": "K-511 Sort by a Rule (Sorting maker 2026-11-02): you can eat it / you cannot. Every picture opened on a contact sheet before it was listed (dropped: cherry reads as an apple, pancake as a sandwich, a price tag, a basket holding food, a pillow). No drinks (eat vs drink), no kitchen tools, plates or cups (used for eating), no mushrooms or flowers (some are eaten, some are poisonous).",
+ "bins": [
+  {
+   "key": "yes",
+   "label": {
+    "en": "You Can Eat It",
+    "de": "Kann man essen",
+    "es": "Se come",
+    "fr": "Ça se mange",
+    "it": "Si mangia",
+    "pt": "Dá para comer",
+    "nl": "Kun je eten",
+    "sv": "Går att äta",
+    "da": "Kan spises",
+    "no": "Kan spises",
+    "fi": "Voi syödä"
+   }
+  },
+  {
+   "key": "no",
+   "label": {
+    "en": "You Cannot Eat It",
+    "de": "Kann man nicht essen",
+    "es": "No se come",
+    "fr": "Ça ne se mange pas",
+    "it": "Non si mangia",
+    "pt": "Não dá para comer",
+    "nl": "Kun je niet eten",
+    "sv": "Går inte att äta",
+    "da": "Kan ikke spises",
+    "no": "Kan ikke spises",
+    "fi": "Ei voi syödä"
+   }
+  }
+ ],
+ "items": [
+  {
+   "theme": "fruits",
+   "noun": "apple",
+   "bin": "yes"
+  },
+  {
+   "theme": "fruits",
+   "noun": "banana",
+   "bin": "yes"
+  },
+  {
+   "theme": "vegetables",
+   "noun": "carrot",
+   "bin": "yes"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "bread",
+   "bin": "yes"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "cheese",
+   "bin": "yes"
+  },
+  {
+   "theme": "bakery",
+   "noun": "cookie",
+   "bin": "yes"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "pizza",
+   "bin": "yes"
+  },
+  {
+   "theme": "fruits",
+   "noun": "strawberry",
+   "bin": "yes"
+  },
+  {
+   "theme": "vegetables",
+   "noun": "broccoli",
+   "bin": "yes"
+  },
+  {
+   "theme": "fruits",
+   "noun": "pear",
+   "bin": "yes"
+  },
+  {
+   "theme": "fruits",
+   "noun": "orange",
+   "bin": "yes"
+  },
+  {
+   "theme": "bakery",
+   "noun": "cupcake",
+   "bin": "yes"
+  },
+  {
+   "theme": "breakfast",
+   "noun": "toast",
+   "bin": "yes"
+  },
+  {
+   "theme": "fruits",
+   "noun": "watermelon",
+   "bin": "yes"
+  },
+  {
+   "theme": "vegetables",
+   "noun": "corn",
+   "bin": "yes"
+  },
+  {
+   "theme": "vegetables",
+   "noun": "tomato",
+   "bin": "yes"
+  },
+  {
+   "theme": "desserts and sweets",
+   "noun": "ice_cream",
+   "bin": "yes"
+  },
+  {
+   "theme": "breakfast",
+   "noun": "boiled_egg",
+   "bin": "yes"
+  },
+  {
+   "theme": "bakery",
+   "noun": "pretzel",
+   "bin": "yes"
+  },
+  {
+   "theme": "breakfast",
+   "noun": "grapes",
+   "bin": "yes"
+  },
+  {
+   "theme": "accessories",
+   "noun": "sock",
+   "bin": "no"
+  },
+  {
+   "theme": "clothing",
+   "noun": "shoe",
+   "bin": "no"
+  },
+  {
+   "theme": "toys",
+   "noun": "ball",
+   "bin": "no"
+  },
+  {
+   "theme": "furniture",
+   "noun": "chair",
+   "bin": "no"
+  },
+  {
+   "theme": "classroom",
+   "noun": "pencil",
+   "bin": "no"
+  },
+  {
+   "theme": "beach",
+   "noun": "rock",
+   "bin": "no"
+  },
+  {
+   "theme": "around the house",
+   "noun": "key",
+   "bin": "no"
+  },
+  {
+   "theme": "classroom",
+   "noun": "book",
+   "bin": "no"
+  },
+  {
+   "theme": "clothing",
+   "noun": "hat",
+   "bin": "no"
+  },
+  {
+   "theme": "toys",
+   "noun": "teddy_bear",
+   "bin": "no"
+  },
+  {
+   "theme": "around the house",
+   "noun": "lamp",
+   "bin": "no"
+  },
+  {
+   "theme": "accessories",
+   "noun": "umbrella",
+   "bin": "no"
+  },
+  {
+   "theme": "clothing",
+   "noun": "boots",
+   "bin": "no"
+  },
+  {
+   "theme": "classroom",
+   "noun": "scissors",
+   "bin": "no"
+  },
+  {
+   "theme": "tools",
+   "noun": "hammer",
+   "bin": "no"
+  },
+  {
+   "theme": "around the house",
+   "noun": "clock",
+   "bin": "no"
+  },
+  {
+   "theme": "toys",
+   "noun": "blocks",
+   "bin": "no"
+  },
+  {
+   "theme": "music",
+   "noun": "drum",
+   "bin": "no"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "shampoo",
+   "bin": "no"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "toothbrush",
+   "bin": "no"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "bag",
+   "bin": "no"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "cart",
+   "bin": "no"
+  },
+  {
+   "theme": "At the Supermarket",
+   "noun": "cash_register",
+   "bin": "no"
+  }
+ ]
+}

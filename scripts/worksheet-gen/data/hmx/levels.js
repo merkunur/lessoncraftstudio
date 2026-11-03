@@ -14,6 +14,11 @@ module.exports = {
     1: { maze: { r: 104, W: 52, route: [8, 11], branches: 4, size: [2, 4], gates: { dead: [3, 5], junctions: 3, tempting: 1, deep3: 0, clear: 69, tort: 1.4 } } },
     3: { maze: { r: 80, W: 38, route: [15, 19], branches: 12, size: [2, 5], fill: 1, K: 1500, gates: { dead: [7, 12], junctions: 4, tempting: 2, deep3: 0.3, clear: 55, maxRun: 260 } }, tries: 24 },
   },
+  // K-480 picture path (makers 2026-11-02): the kind never changes — only the length of the way and the decoys
+  'picture-path': {
+    1: { maze: { W: 50 }, labels: { decoyCount: 8 } },   // the 7-card way is the corner-to-corner shortest: fewer decoys, wider roads
+    3: { labels: { route: 9, decoyCount: 14 }, tries: 30 },
+  },
   'first-maze': {
     1: { maze: { route: [4, 6], branches: 1, size: [1, 2], gates: { dead: [1, 2], junctions: 1, wf: 1, tort: 1.0 } }, tries: 30 },
     3: { maze: { r: 104, W: 64, route: [6, 8], branches: 3, size: [2, 3], gates: { dead: [3, 3], junctions: 3, clear: 81 } }, tries: 30 },

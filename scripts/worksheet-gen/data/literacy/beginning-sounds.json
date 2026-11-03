@@ -1,1387 +1,4171 @@
 {
-  "_note": "LITERACY beginning-sound (lit-sound-match). NATIVE PER LOCALE: each locale's words come from its gated approved-words-<locale>.json pool; `answer` is that locale's initial grapheme for the pictured word (de multigraph onsets are whole graphemes: Schaf->Sch, Stern->St, Spinne->Sp). Only color themes (no BW). en + de authored here (de = the Gate-2 hardest-phonics exemplar); the other 9 locales are authored at the native-ensemble fan.",
-  "items": {
-    "en": [
-      {
-        "theme": "farm animals",
-        "noun": "ox",
-        "answer": "O"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "ant",
-        "answer": "A"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "bag",
-        "answer": "B"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "can",
-        "answer": "C"
-      },
-      {
-        "theme": "animals",
-        "noun": "dog",
-        "answer": "D"
-      },
-      {
-        "theme": "body parts",
-        "noun": "ear",
-        "answer": "E"
-      },
-      {
-        "theme": "around the house",
-        "noun": "fan",
-        "answer": "F"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "ham",
-        "answer": "H"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "jam",
-        "answer": "J"
-      },
-      {
-        "theme": "around the house",
-        "noun": "key",
-        "answer": "K"
-      },
-      {
-        "theme": "body parts",
-        "noun": "leg",
-        "answer": "L"
-      },
-      {
-        "theme": "camping",
-        "noun": "map",
-        "answer": "M"
-      },
-      {
-        "theme": "beach",
-        "noun": "net",
-        "answer": "N"
-      },
-      {
-        "theme": "around the house",
-        "noun": "pan",
-        "answer": "P"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "ray",
-        "answer": "R"
-      },
-      {
-        "theme": "beach",
-        "noun": "sun",
-        "answer": "S"
-      },
-      {
-        "theme": "accessories",
-        "noun": "tie",
-        "answer": "T"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "van",
-        "answer": "V"
-      },
-      {
-        "theme": "around the house",
-        "noun": "gate",
-        "answer": "G"
-      },
-      {
-        "theme": "accessories",
-        "noun": "wand",
-        "answer": "W"
-      },
-      {
-        "theme": "around the house",
-        "noun": "iron",
-        "answer": "I"
-      },
-      {
-        "theme": "animals",
-        "noun": "zebra",
-        "answer": "Z"
-      },
-      {
-        "theme": "clothing",
-        "noun": "uniform",
-        "answer": "U"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "de": [
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "E"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "oil",
-        "answer": "Ö"
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "answer": "A"
-      },
-      {
-        "theme": "camping",
-        "noun": "bear",
-        "answer": "B"
-      },
-      {
-        "theme": "around the house",
-        "noun": "clock",
-        "answer": "U"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "cow",
-        "answer": "K"
-      },
-      {
-        "theme": "around the house",
-        "noun": "door",
-        "answer": "T"
-      },
-      {
-        "theme": "body parts",
-        "noun": "ear",
-        "answer": "O"
-      },
-      {
-        "theme": "body parts",
-        "noun": "foot",
-        "answer": "F"
-      },
-      {
-        "theme": "accessories",
-        "noun": "hat",
-        "answer": "H"
-      },
-      {
-        "theme": "camping",
-        "noun": "lake",
-        "answer": "S"
-      },
-      {
-        "theme": "body parts",
-        "noun": "toe",
-        "answer": "Z"
-      },
-      {
-        "theme": "animals",
-        "noun": "whale",
-        "answer": "W"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "corn",
-        "answer": "M"
-      },
-      {
-        "theme": "around the house",
-        "noun": "glass",
-        "answer": "G"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jeep",
-        "answer": "J"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "lamb",
-        "answer": "L"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "mushroom",
-        "answer": "P"
-      },
-      {
-        "theme": "beach",
-        "noun": "net",
-        "answer": "N"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "rice",
-        "answer": "R"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "badger",
-        "answer": "D"
-      },
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "I"
-      },
-      {
-        "theme": "beach",
-        "noun": "jellyfish",
-        "answer": "Q"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "clownfish",
-        "answer": "C"
-      },
-      {
-        "theme": "around the house",
-        "noun": "curtains",
-        "answer": "V"
-      }
-    ],
-    "es": [
-      {
-        "theme": "At the Supermarket",
-        "noun": "bread",
-        "answer": "P"
-      },
-      {
-        "theme": "vegetables",
-        "noun": "cabbage",
-        "answer": "C"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jet",
-        "answer": "J"
-      },
-      {
-        "theme": "beach",
-        "noun": "net",
-        "answer": "R"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "salt",
-        "answer": "S"
-      },
-      {
-        "theme": "breakfast",
-        "noun": "honey",
-        "answer": "M"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "train",
-        "answer": "T"
-      },
-      {
-        "theme": "camping",
-        "noun": "bear",
-        "answer": "O"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "garlic",
-        "answer": "A"
-      },
-      {
-        "theme": "body parts",
-        "noun": "nail",
-        "answer": "U"
-      },
-      {
-        "theme": "toys",
-        "noun": "baby",
-        "answer": "B"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "can",
-        "answer": "L"
-      },
-      {
-        "theme": "animals",
-        "noun": "cat",
-        "answer": "G"
-      },
-      {
-        "theme": "beach",
-        "noun": "cloud",
-        "answer": "N"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "cow",
-        "answer": "V"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "donut",
-        "answer": "D"
-      },
-      {
-        "theme": "fruits",
-        "noun": "fig",
-        "answer": "H"
-      },
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "I"
-      },
-      {
-        "theme": "fruits",
-        "noun": "kiwi",
-        "answer": "K"
-      },
-      {
-        "theme": "beach",
-        "noun": "lighthouse",
-        "answer": "F"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "cheese",
-        "answer": "Q"
-      },
-      {
-        "theme": "animals",
-        "noun": "fox",
-        "answer": "Z"
-      },
-      {
-        "theme": "bakery",
-        "noun": "eclair",
-        "answer": "E"
-      },
-      {
-        "theme": "bakery",
-        "noun": "waffle",
-        "answer": "W"
-      },
-      {
-        "theme": "shapes",
-        "noun": "oval",
-        "answer": "Ó"
-      },
-      {
-        "theme": "hospital",
-        "noun": "cast",
-        "answer": "Y"
-      }
-    ],
-    "fr": [
-      {
-        "theme": "At the Supermarket",
-        "noun": "bag",
-        "answer": "S"
-      },
-      {
-        "theme": "around the house",
-        "noun": "bed",
-        "answer": "L"
-      },
-      {
-        "theme": "around the house",
-        "noun": "bowl",
-        "answer": "B"
-      },
-      {
-        "theme": "toys",
-        "noun": "dice",
-        "answer": "D"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "Œ"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "garlic",
-        "answer": "A"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "goose",
-        "answer": "O"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jet",
-        "answer": "J"
-      },
-      {
-        "theme": "around the house",
-        "noun": "key",
-        "answer": "C"
-      },
-      {
-        "theme": "body parts",
-        "noun": "nose",
-        "answer": "N"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "rice",
-        "answer": "R"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "water",
-        "answer": "E"
-      },
-      {
-        "theme": "animals",
-        "noun": "woodpecker",
-        "answer": "P"
-      },
-      {
-        "theme": "insects and bugs",
-        "noun": "worm",
-        "answer": "V"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "crane",
-        "answer": "G"
-      },
-      {
-        "theme": "body parts",
-        "noun": "hand",
-        "answer": "M"
-      },
-      {
-        "theme": "around the house",
-        "noun": "oven",
-        "answer": "F"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "tuna",
-        "answer": "T"
-      },
-      {
-        "theme": "animals",
-        "noun": "donkey",
-        "answer": "Â"
-      },
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "Î"
-      },
-      {
-        "theme": "fruits",
-        "noun": "kiwi",
-        "answer": "K"
-      },
-      {
-        "theme": "animals",
-        "noun": "moose",
-        "answer": "É"
-      },
-      {
-        "theme": "camping",
-        "noun": "hammock",
-        "answer": "H"
-      },
-      {
-        "theme": "animals",
-        "noun": "zebra",
-        "answer": "Z"
-      },
-      {
-        "theme": "clothing",
-        "noun": "uniform",
-        "answer": "U"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "it": [
-      {
-        "theme": "vehicles",
-        "noun": "crane",
-        "answer": "G"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jet",
-        "answer": "J"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "ox",
-        "answer": "B"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "corn",
-        "answer": "M"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "bee",
-        "answer": "A"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "goose",
-        "answer": "O"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "grapes",
-        "answer": "U"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "bread",
-        "answer": "P"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "bull",
-        "answer": "T"
-      },
-      {
-        "theme": "camping",
-        "noun": "campfire",
-        "answer": "F"
-      },
-      {
-        "theme": "shapes",
-        "noun": "cone",
-        "answer": "C"
-      },
-      {
-        "theme": "toys",
-        "noun": "dice",
-        "answer": "D"
-      },
-      {
-        "theme": "body parts",
-        "noun": "face",
-        "answer": "V"
-      },
-      {
-        "theme": "camping",
-        "noun": "frog",
-        "answer": "R"
-      },
-      {
-        "theme": "zoo animals",
-        "noun": "hyena",
-        "answer": "I"
-      },
-      {
-        "theme": "fruits",
-        "noun": "kiwi",
-        "answer": "K"
-      },
-      {
-        "theme": "camping",
-        "noun": "lake",
-        "answer": "L"
-      },
-      {
-        "theme": "body parts",
-        "noun": "nose",
-        "answer": "N"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "salt",
-        "answer": "S"
-      },
-      {
-        "theme": "accessories",
-        "noun": "backpack",
-        "answer": "Z"
-      },
-      {
-        "theme": "bakery",
-        "noun": "eclair",
-        "answer": "É"
-      },
-      {
-        "theme": "bakery",
-        "noun": "waffle",
-        "answer": "W"
-      },
-      {
-        "theme": "classroom",
-        "noun": "notebook",
-        "answer": "Q"
-      },
-      {
-        "theme": "shapes",
-        "noun": "hexagon",
-        "answer": "E"
-      },
-      {
-        "theme": "winter",
-        "noun": "hockey",
-        "answer": "H"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "pt": [
-      {
-        "theme": "body parts",
-        "noun": "foot",
-        "answer": "P"
-      },
-      {
-        "theme": "body parts",
-        "noun": "hand",
-        "answer": "M"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "ox",
-        "answer": "B"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "salt",
-        "answer": "S"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "van",
-        "answer": "V"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "crane",
-        "answer": "G"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "train",
-        "answer": "T"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "O"
-      },
-      {
-        "theme": "shapes",
-        "noun": "moon",
-        "answer": "L"
-      },
-      {
-        "theme": "camping",
-        "noun": "river",
-        "answer": "R"
-      },
-      {
-        "theme": "camping",
-        "noun": "bear",
-        "answer": "U"
-      },
-      {
-        "theme": "around the house",
-        "noun": "bed",
-        "answer": "C"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "candy",
-        "answer": "D"
-      },
-      {
-        "theme": "vegetables",
-        "noun": "celery",
-        "answer": "A"
-      },
-      {
-        "theme": "weather",
-        "noun": "cold",
-        "answer": "F"
-      },
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "I"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jeep",
-        "answer": "J"
-      },
-      {
-        "theme": "fruits",
-        "noun": "kiwi",
-        "answer": "K"
-      },
-      {
-        "theme": "vegetables",
-        "noun": "turnip",
-        "answer": "N"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "water",
-        "answer": "Á"
-      },
-      {
-        "theme": "zoo animals",
-        "noun": "hyena",
-        "answer": "H"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "shampoo",
-        "answer": "X"
-      },
-      {
-        "theme": "animals",
-        "noun": "zebra",
-        "answer": "Z"
-      },
-      {
-        "theme": "weather",
-        "noun": "hot",
-        "answer": "Q"
-      },
-      {
-        "theme": "bakery",
-        "noun": "waffle",
-        "answer": "W"
-      },
-      {
-        "theme": "around the house",
-        "noun": "brush",
-        "answer": "E"
-      }
-    ],
-    "nl": [
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "E"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "onion",
-        "answer": "U"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "ox",
-        "answer": "O"
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "answer": "A"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "badger",
-        "answer": "D"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "bag",
-        "answer": "T"
-      },
-      {
-        "theme": "toys",
-        "noun": "ball",
-        "answer": "B"
-      },
-      {
-        "theme": "around the house",
-        "noun": "bowl",
-        "answer": "K"
-      },
-      {
-        "theme": "camping",
-        "noun": "cabin",
-        "answer": "H"
-      },
-      {
-        "theme": "accessories",
-        "noun": "cap",
-        "answer": "P"
-      },
-      {
-        "theme": "clothing",
-        "noun": "coat",
-        "answer": "J"
-      },
-      {
-        "theme": "classroom",
-        "noun": "eraser",
-        "answer": "G"
-      },
-      {
-        "theme": "animals",
-        "noun": "fish",
-        "answer": "V"
-      },
-      {
-        "theme": "classroom",
-        "noun": "folder",
-        "answer": "M"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "juice",
-        "answer": "S"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "lamb",
-        "answer": "L"
-      },
-      {
-        "theme": "body parts",
-        "noun": "neck",
-        "answer": "N"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "ray",
-        "answer": "R"
-      },
-      {
-        "theme": "beach",
-        "noun": "sun",
-        "answer": "Z"
-      },
-      {
-        "theme": "kitchen tools",
-        "noun": "bottle",
-        "answer": "F"
-      },
-      {
-        "theme": "beach",
-        "noun": "cloud",
-        "answer": "W"
-      },
-      {
-        "theme": "camping",
-        "noun": "camper",
-        "answer": "C"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "squid",
-        "answer": "I"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "sv": [
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "Ö"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "bee",
-        "answer": "B"
-      },
-      {
-        "theme": "body parts",
-        "noun": "toe",
-        "answer": "T"
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "answer": "A"
-      },
-      {
-        "theme": "breakfast",
-        "noun": "biscuit",
-        "answer": "K"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "cheese",
-        "answer": "O"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "Ä"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "foal",
-        "answer": "F"
-      },
-      {
-        "theme": "animals",
-        "noun": "fox",
-        "answer": "R"
-      },
-      {
-        "theme": "classroom",
-        "noun": "glue",
-        "answer": "L"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "goat",
-        "answer": "G"
-      },
-      {
-        "theme": "body parts",
-        "noun": "hair",
-        "answer": "H"
-      },
-      {
-        "theme": "camping",
-        "noun": "lake",
-        "answer": "S"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "mouse",
-        "answer": "M"
-      },
-      {
-        "theme": "beach",
-        "noun": "net",
-        "answer": "N"
-      },
-      {
-        "theme": "around the house",
-        "noun": "oven",
-        "answer": "U"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "pie",
-        "answer": "P"
-      },
-      {
-        "theme": "around the house",
-        "noun": "vase",
-        "answer": "V"
-      },
-      {
-        "theme": "around the house",
-        "noun": "door",
-        "answer": "D"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "bicycle",
-        "answer": "C"
-      },
-      {
-        "theme": "pets",
-        "noun": "ferret",
-        "answer": "I"
-      },
-      {
-        "theme": "clothing",
-        "noun": "jacket",
-        "answer": "J"
-      },
-      {
-        "theme": "kitchen tools",
-        "noun": "mixer",
-        "answer": "E"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "da": [
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "Ø"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "bee",
-        "answer": "B"
-      },
-      {
-        "theme": "around the house",
-        "noun": "clock",
-        "answer": "U"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "cow",
-        "answer": "K"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "Æ"
-      },
-      {
-        "theme": "body parts",
-        "noun": "toe",
-        "answer": "T"
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "answer": "A"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "cheese",
-        "answer": "O"
-      },
-      {
-        "theme": "beach",
-        "noun": "cloud",
-        "answer": "S"
-      },
-      {
-        "theme": "around the house",
-        "noun": "door",
-        "answer": "D"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "foal",
-        "answer": "F"
-      },
-      {
-        "theme": "animals",
-        "noun": "fox",
-        "answer": "R"
-      },
-      {
-        "theme": "classroom",
-        "noun": "glue",
-        "answer": "L"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "goat",
-        "answer": "G"
-      },
-      {
-        "theme": "body parts",
-        "noun": "hair",
-        "answer": "H"
-      },
-      {
-        "theme": "animals",
-        "noun": "moose",
-        "answer": "E"
-      },
-      {
-        "theme": "insects and bugs",
-        "noun": "mosquito",
-        "answer": "M"
-      },
-      {
-        "theme": "beach",
-        "noun": "net",
-        "answer": "N"
-      },
-      {
-        "theme": "around the house",
-        "noun": "pen",
-        "answer": "P"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "jeep",
-        "answer": "J"
-      },
-      {
-        "theme": "around the house",
-        "noun": "sink",
-        "answer": "V"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "bicycle",
-        "answer": "C"
-      },
-      {
-        "theme": "animals",
-        "noun": "zebra",
-        "answer": "Z"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "cart",
-        "answer": "I"
-      },
-      {
-        "theme": "music",
-        "noun": "xylophone",
-        "answer": "X"
-      }
-    ],
-    "no": [
-      {
-        "theme": "farm animals",
-        "noun": "cow",
-        "answer": "K"
-      },
-      {
-        "theme": "beach",
-        "noun": "island",
-        "answer": "Ø"
-      },
-      {
-        "theme": "body parts",
-        "noun": "toe",
-        "answer": "T"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "airplane",
-        "answer": "F"
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "answer": "A"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "boat",
-        "answer": "B"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "cheese",
-        "answer": "O"
-      },
-      {
-        "theme": "beach",
-        "noun": "cloud",
-        "answer": "S"
-      },
-      {
-        "theme": "around the house",
-        "noun": "door",
-        "answer": "D"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "E"
-      },
-      {
-        "theme": "animals",
-        "noun": "fox",
-        "answer": "R"
-      },
-      {
-        "theme": "classroom",
-        "noun": "glue",
-        "answer": "L"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "goose",
-        "answer": "G"
-      },
-      {
-        "theme": "body parts",
-        "noun": "hair",
-        "answer": "H"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "mouse",
-        "answer": "M"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "pie",
-        "answer": "P"
-      },
-      {
-        "theme": "animals",
-        "noun": "wolf",
-        "answer": "U"
-      },
-      {
-        "theme": "accessories",
-        "noun": "cap",
-        "answer": "C"
-      },
-      {
-        "theme": "accessories",
-        "noun": "mitten",
-        "answer": "V"
-      },
-      {
-        "theme": "body parts",
-        "noun": "nail",
-        "answer": "N"
-      },
-      {
-        "theme": "pets",
-        "noun": "ferret",
-        "answer": "I"
-      },
-      {
-        "theme": "toys",
-        "noun": "girl",
-        "answer": "J"
-      }
-    ],
-    "fi": [
-      {
-        "theme": "accessories",
-        "noun": "belt",
-        "answer": "V"
-      },
-      {
-        "theme": "body parts",
-        "noun": "head",
-        "answer": "P"
-      },
-      {
-        "theme": "shapes",
-        "noun": "moon",
-        "answer": "K"
-      },
-      {
-        "theme": "body parts",
-        "noun": "mouth",
-        "answer": "S"
-      },
-      {
-        "theme": "ocean life",
-        "noun": "shark",
-        "answer": "H"
-      },
-      {
-        "theme": "around the house",
-        "noun": "door",
-        "answer": "O"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "car",
-        "answer": "A"
-      },
-      {
-        "theme": "farm animals",
-        "noun": "chick",
-        "answer": "T"
-      },
-      {
-        "theme": "beach",
-        "noun": "crab",
-        "answer": "R"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "answer": "M"
-      },
-      {
-        "theme": "around the house",
-        "noun": "glass",
-        "answer": "L"
-      },
-      {
-        "theme": "body parts",
-        "noun": "nose",
-        "answer": "N"
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "oil",
-        "answer": "Ö"
-      },
-      {
-        "theme": "around the house",
-        "noun": "oven",
-        "answer": "U"
-      },
-      {
-        "theme": "camping",
-        "noun": "river",
-        "answer": "J"
-      },
-      {
-        "theme": "vehicles",
-        "noun": "bus",
-        "answer": "B"
-      },
-      {
-        "theme": "pets",
-        "noun": "gecko",
-        "answer": "G"
-      },
-      {
-        "theme": "pets",
-        "noun": "ferret",
-        "answer": "F"
-      },
-      {
-        "theme": "bakery",
-        "noun": "croissant",
-        "answer": "C"
-      },
-      {
-        "theme": "forest creatures",
-        "noun": "slug",
-        "answer": "E"
-      },
-      {
-        "theme": "toys",
-        "noun": "bucket",
-        "answer": "Ä"
-      },
-      {
-        "theme": "shapes",
-        "noun": "circle",
-        "answer": "Y"
-      },
-      {
-        "theme": "toys",
-        "noun": "domino",
-        "answer": "D"
-      },
-      {
-        "theme": "around the house",
-        "noun": "window",
-        "answer": "I"
-      }
-    ]
-  }
+ "_note": "tools/build-sound-position-banks.js — the reviewed letter-picture chart: every picture starts with its letter's SOUND. Do not edit.",
+ "items": {
+  "en": [
+   {
+    "theme": "forest creatures",
+    "noun": "ant",
+    "key": "ant",
+    "word": "ant",
+    "answer": "A"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "angel",
+    "answer": "A"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "apple",
+    "answer": "A"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bag",
+    "key": "bag",
+    "word": "bag",
+    "answer": "B"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bat",
+    "key": "bat",
+    "word": "bat",
+    "answer": "B"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bed",
+    "key": "bed",
+    "word": "bed",
+    "answer": "B"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "can",
+    "key": "can",
+    "word": "can",
+    "answer": "C"
+   },
+   {
+    "theme": "accessories",
+    "noun": "cap",
+    "key": "cap",
+    "word": "cap",
+    "answer": "C"
+   },
+   {
+    "theme": "toys",
+    "noun": "car",
+    "key": "car",
+    "word": "car",
+    "answer": "C"
+   },
+   {
+    "theme": "animals",
+    "noun": "dog",
+    "key": "dog",
+    "word": "dog",
+    "answer": "D"
+   },
+   {
+    "theme": "camping",
+    "noun": "deer",
+    "key": "deer",
+    "word": "deer",
+    "answer": "D"
+   },
+   {
+    "theme": "around the house",
+    "noun": "desk",
+    "key": "desk",
+    "word": "desk",
+    "answer": "D"
+   },
+   {
+    "theme": "christmas",
+    "noun": "elf",
+    "key": "elf",
+    "word": "elf",
+    "answer": "E"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "eggplant",
+    "key": "eggplant",
+    "word": "eggplant",
+    "answer": "E"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fan",
+    "key": "fan",
+    "word": "fan",
+    "answer": "F"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "fox",
+    "answer": "F"
+   },
+   {
+    "theme": "body parts",
+    "noun": "face",
+    "key": "face",
+    "word": "face",
+    "answer": "F"
+   },
+   {
+    "theme": "around the house",
+    "noun": "gate",
+    "key": "gate",
+    "word": "gate",
+    "answer": "G"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "glue",
+    "answer": "G"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "goat",
+    "key": "goat",
+    "word": "goat",
+    "answer": "G"
+   },
+   {
+    "theme": "accessories",
+    "noun": "hat",
+    "key": "hat",
+    "word": "hat",
+    "answer": "H"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "hand",
+    "answer": "H"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "igloo",
+    "answer": "I"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "jam",
+    "key": "jam",
+    "word": "jam",
+    "answer": "J"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jar",
+    "key": "jar",
+    "word": "jar",
+    "answer": "J"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "key",
+    "answer": "K"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "kite",
+    "key": "kite",
+    "word": "kite",
+    "answer": "K"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "kiwi",
+    "key": "kiwi",
+    "word": "kiwi",
+    "answer": "K"
+   },
+   {
+    "theme": "body parts",
+    "noun": "leg",
+    "key": "leg",
+    "word": "leg",
+    "answer": "L"
+   },
+   {
+    "theme": "camping",
+    "noun": "log",
+    "key": "log",
+    "word": "log",
+    "answer": "L"
+   },
+   {
+    "theme": "camping",
+    "noun": "map",
+    "key": "map",
+    "word": "map",
+    "answer": "M"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mop",
+    "key": "mop",
+    "word": "mop",
+    "answer": "M"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "mug",
+    "key": "mug",
+    "word": "mug",
+    "answer": "M"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "nest",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "nose",
+    "answer": "N"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "octopus",
+    "key": "octopus",
+    "word": "octopus",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pan",
+    "key": "pan",
+    "word": "pan",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pen",
+    "key": "pen",
+    "word": "pen",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pie",
+    "key": "pie",
+    "word": "pie",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "rug",
+    "key": "rug",
+    "word": "rug",
+    "answer": "R"
+   },
+   {
+    "theme": "around the house",
+    "noun": "rake",
+    "key": "rake",
+    "word": "rake",
+    "answer": "R"
+   },
+   {
+    "theme": "accessories",
+    "noun": "ring",
+    "key": "ring",
+    "word": "ring",
+    "answer": "R"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "sun",
+    "answer": "S"
+   },
+   {
+    "theme": "accessories",
+    "noun": "sock",
+    "key": "sock",
+    "word": "sock",
+    "answer": "S"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "seal",
+    "answer": "S"
+   },
+   {
+    "theme": "accessories",
+    "noun": "tie",
+    "key": "tie",
+    "word": "tie",
+    "answer": "T"
+   },
+   {
+    "theme": "classroom",
+    "noun": "tape",
+    "key": "tape",
+    "word": "tape",
+    "answer": "T"
+   },
+   {
+    "theme": "camping",
+    "noun": "tent",
+    "key": "tent",
+    "word": "tent",
+    "answer": "T"
+   },
+   {
+    "theme": "accessories",
+    "noun": "umbrella",
+    "key": "umbrella",
+    "word": "umbrella",
+    "answer": "U"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "van",
+    "key": "van",
+    "word": "van",
+    "answer": "V"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vase",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "vest",
+    "key": "vest",
+    "word": "vest",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "wand",
+    "key": "wand",
+    "word": "wand",
+    "answer": "W"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "wolf",
+    "answer": "W"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "worm",
+    "answer": "W"
+   },
+   {
+    "theme": "animals",
+    "noun": "zebra",
+    "key": "zebra",
+    "word": "zebra",
+    "answer": "Z"
+   }
+  ],
+  "de": [
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "Arm",
+    "answer": "A"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "eagle",
+    "key": "eagle",
+    "word": "Adler",
+    "answer": "A"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "Apfel",
+    "answer": "A"
+   },
+   {
+    "theme": "camping",
+    "noun": "bear",
+    "key": "bear",
+    "word": "Bär",
+    "answer": "B"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "bus",
+    "key": "bus",
+    "word": "Bus",
+    "answer": "B"
+   },
+   {
+    "theme": "toys",
+    "noun": "ball",
+    "key": "ball",
+    "word": "Ball",
+    "answer": "B"
+   },
+   {
+    "theme": "around the house",
+    "noun": "computer",
+    "key": "computer",
+    "word": "Computer",
+    "answer": "C"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "donut",
+    "key": "donut",
+    "word": "Donut",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "dolphin",
+    "key": "dolphin",
+    "word": "Delfin",
+    "answer": "D"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragon",
+    "key": "dragon",
+    "word": "Drache",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "moose",
+    "key": "moose",
+    "word": "Elch",
+    "answer": "E"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "Engel",
+    "answer": "E"
+   },
+   {
+    "theme": "easter",
+    "noun": "duckling",
+    "key": "duckling",
+    "word": "Entchen",
+    "answer": "E"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "Fuß",
+    "answer": "F"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "fish",
+    "key": "fish",
+    "word": "Fisch",
+    "answer": "F"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "Fuchs",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "Gans",
+    "answer": "G"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "Glas",
+    "answer": "G"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "Gras",
+    "answer": "G"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shark",
+    "key": "shark",
+    "word": "Hai",
+    "answer": "H"
+   },
+   {
+    "theme": "accessories",
+    "noun": "hat",
+    "key": "hat",
+    "word": "Hut",
+    "answer": "H"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "rooster",
+    "key": "rooster",
+    "word": "Hahn",
+    "answer": "H"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "hedgehog",
+    "key": "hedgehog",
+    "word": "Igel",
+    "answer": "I"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "Iglu",
+    "answer": "I"
+   },
+   {
+    "theme": "clothing",
+    "noun": "jacket",
+    "key": "jacket",
+    "word": "Jacke",
+    "answer": "J"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "cow",
+    "key": "cow",
+    "word": "Kuh",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "comb",
+    "key": "comb",
+    "word": "Kamm",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lamp",
+    "key": "lamp",
+    "word": "Lampe",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "corn",
+    "key": "corn",
+    "word": "Mais",
+    "answer": "M"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "Maus",
+    "answer": "M"
+   },
+   {
+    "theme": "camping",
+    "noun": "moon",
+    "key": "moon",
+    "word": "Mond",
+    "answer": "M"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "Nest",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "ear",
+    "key": "ear",
+    "word": "Ohr",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "mushroom",
+    "key": "mushroom",
+    "word": "Pilz",
+    "answer": "P"
+   },
+   {
+    "theme": "post office",
+    "noun": "package",
+    "key": "package",
+    "word": "Paket",
+    "answer": "P"
+   },
+   {
+    "theme": "animals",
+    "noun": "panda",
+    "key": "panda",
+    "word": "Panda",
+    "answer": "P"
+   },
+   {
+    "theme": "accessories",
+    "noun": "ring",
+    "key": "ring",
+    "word": "Ring",
+    "answer": "R"
+   },
+   {
+    "theme": "clothing",
+    "noun": "skirt",
+    "key": "skirt",
+    "word": "Rock",
+    "answer": "R"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "caterpillar",
+    "key": "caterpillar",
+    "word": "Raupe",
+    "answer": "R"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sack",
+    "key": "sack",
+    "word": "Sack",
+    "answer": "S"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "Sonne",
+    "answer": "S"
+   },
+   {
+    "theme": "around the house",
+    "noun": "sofa",
+    "key": "sofa",
+    "word": "Sofa",
+    "answer": "S"
+   },
+   {
+    "theme": "around the house",
+    "noun": "gate",
+    "key": "gate",
+    "word": "Tor",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "Tür",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pot",
+    "key": "pot",
+    "word": "Topf",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "clock",
+    "key": "clock",
+    "word": "Uhr",
+    "answer": "U"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bird",
+    "key": "bird",
+    "word": "Vogel",
+    "answer": "V"
+   },
+   {
+    "theme": "hospital",
+    "noun": "bandage",
+    "key": "bandage",
+    "word": "Verband",
+    "answer": "V"
+   },
+   {
+    "theme": "spring",
+    "noun": "birdhouse",
+    "key": "birdhouse",
+    "word": "Vogelhaus",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "whale",
+    "key": "whale",
+    "word": "Wal",
+    "answer": "W"
+   },
+   {
+    "theme": "camping",
+    "noun": "forest",
+    "key": "forest",
+    "word": "Wald",
+    "answer": "W"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "Wolf",
+    "answer": "W"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "Zug",
+    "answer": "Z"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "Zahn",
+    "answer": "Z"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fence",
+    "key": "fence",
+    "word": "Zaun",
+    "answer": "Z"
+   }
+  ],
+  "fr": [
+   {
+    "theme": "animals",
+    "noun": "donkey",
+    "key": "donkey",
+    "word": "âne",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "avion",
+    "answer": "A"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bowl",
+    "key": "bowl",
+    "word": "bol",
+    "answer": "B"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "bus",
+    "key": "bus",
+    "word": "bus",
+    "answer": "B"
+   },
+   {
+    "theme": "furniture",
+    "noun": "bench",
+    "key": "bench",
+    "word": "banc",
+    "answer": "B"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "clé",
+    "answer": "C"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "rooster",
+    "key": "rooster",
+    "word": "coq",
+    "answer": "C"
+   },
+   {
+    "theme": "body parts",
+    "noun": "heart",
+    "key": "heart",
+    "word": "cœur",
+    "answer": "C"
+   },
+   {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dés",
+    "answer": "D"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "dent",
+    "answer": "D"
+   },
+   {
+    "theme": "body parts",
+    "noun": "finger",
+    "key": "finger",
+    "word": "doigt",
+    "answer": "D"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "escargot",
+    "answer": "E"
+   },
+   {
+    "theme": "around the house",
+    "noun": "oven",
+    "key": "oven",
+    "word": "four",
+    "answer": "F"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "fleur",
+    "answer": "F"
+   },
+   {
+    "theme": "accessories",
+    "noun": "glove",
+    "key": "glove",
+    "word": "gant",
+    "answer": "G"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "acorn",
+    "key": "acorn",
+    "word": "gland",
+    "answer": "G"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "igloo",
+    "answer": "I"
+   },
+   {
+    "theme": "clothing",
+    "noun": "skirt",
+    "key": "skirt",
+    "word": "jupe",
+    "answer": "J"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "kiwi",
+    "key": "kiwi",
+    "word": "kiwi",
+    "answer": "K"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "kangaroo",
+    "key": "kangaroo",
+    "word": "kangourou",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bed",
+    "key": "bed",
+    "word": "lit",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "milk",
+    "key": "milk",
+    "word": "lait",
+    "answer": "L"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "lion",
+    "key": "lion",
+    "word": "lion",
+    "answer": "L"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "main",
+    "answer": "M"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "motorcycle",
+    "key": "motorcycle",
+    "word": "moto",
+    "answer": "M"
+   },
+   {
+    "theme": "fruits",
+    "noun": "blackberry",
+    "key": "blackberry",
+    "word": "mûre",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "nez",
+    "answer": "N"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "nid",
+    "answer": "N"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "orange",
+    "key": "orange",
+    "word": "orange",
+    "answer": "O"
+   },
+   {
+    "theme": "body parts",
+    "noun": "ear",
+    "key": "ear",
+    "word": "oreille",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "pain",
+    "answer": "P"
+   },
+   {
+    "theme": "clothing",
+    "noun": "sweater",
+    "key": "sweater",
+    "word": "pull",
+    "answer": "P"
+   },
+   {
+    "theme": "animals",
+    "noun": "panda",
+    "key": "panda",
+    "word": "panda",
+    "answer": "P"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "grater",
+    "key": "grater",
+    "word": "râpe",
+    "answer": "R"
+   },
+   {
+    "theme": "clothing",
+    "noun": "dress",
+    "key": "dress",
+    "word": "robe",
+    "answer": "R"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bag",
+    "key": "bag",
+    "word": "sac",
+    "answer": "S"
+   },
+   {
+    "theme": "beach",
+    "noun": "bucket",
+    "key": "bucket",
+    "word": "seau",
+    "answer": "S"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "taxi",
+    "key": "taxi",
+    "word": "taxi",
+    "answer": "T"
+   },
+   {
+    "theme": "beach",
+    "noun": "snorkel",
+    "key": "snorkel",
+    "word": "tuba",
+    "answer": "T"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "ver",
+    "answer": "V"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vase",
+    "answer": "V"
+   },
+   {
+    "theme": "spring",
+    "noun": "bicycle",
+    "key": "bicycle",
+    "word": "vélo",
+    "answer": "V"
+   },
+   {
+    "theme": "music",
+    "noun": "xylophone",
+    "key": "xylophone",
+    "word": "xylophone",
+    "answer": "X"
+   },
+   {
+    "theme": "animals",
+    "noun": "zebra",
+    "key": "zebra",
+    "word": "zèbre",
+    "answer": "Z"
+   },
+   {
+    "theme": "christmas",
+    "noun": "church",
+    "key": "church",
+    "word": "église",
+    "answer": "É"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "sponge",
+    "key": "sponge",
+    "word": "éponge",
+    "answer": "É"
+   },
+   {
+    "theme": "christmas",
+    "noun": "star",
+    "key": "star",
+    "word": "étoile",
+    "answer": "É"
+   }
+  ],
+  "es": [
+   {
+    "theme": "At the Supermarket",
+    "noun": "garlic",
+    "key": "garlic",
+    "word": "ajo",
+    "answer": "A"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "celery",
+    "key": "celery",
+    "word": "apio",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bee",
+    "key": "bee",
+    "word": "abeja",
+    "answer": "A"
+   },
+   {
+    "theme": "toys",
+    "noun": "baby",
+    "key": "baby",
+    "word": "bebé",
+    "answer": "B"
+   },
+   {
+    "theme": "body parts",
+    "noun": "mouth",
+    "key": "mouth",
+    "word": "boca",
+    "answer": "B"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "owl",
+    "key": "owl",
+    "word": "búho",
+    "answer": "B"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cabbage",
+    "key": "cabbage",
+    "word": "col",
+    "answer": "C"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bed",
+    "key": "bed",
+    "word": "cama",
+    "answer": "C"
+   },
+   {
+    "theme": "body parts",
+    "noun": "finger",
+    "key": "finger",
+    "word": "dedo",
+    "answer": "D"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "donut",
+    "key": "donut",
+    "word": "dona",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dados",
+    "answer": "D"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "corn",
+    "key": "corn",
+    "word": "elote",
+    "answer": "E"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "hedgehog",
+    "key": "hedgehog",
+    "word": "erizo",
+    "answer": "E"
+   },
+   {
+    "theme": "around the house",
+    "noun": "broom",
+    "key": "broom",
+    "word": "escoba",
+    "answer": "E"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "flor",
+    "answer": "F"
+   },
+   {
+    "theme": "beach",
+    "noun": "lighthouse",
+    "key": "lighthouse",
+    "word": "faro",
+    "answer": "F"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "foca",
+    "answer": "F"
+   },
+   {
+    "theme": "animals",
+    "noun": "cat",
+    "key": "cat",
+    "word": "gato",
+    "answer": "G"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "rooster",
+    "key": "rooster",
+    "word": "gallo",
+    "answer": "G"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "ganso",
+    "answer": "G"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "iglú",
+    "answer": "I"
+   },
+   {
+    "theme": "christmas",
+    "noun": "church",
+    "key": "church",
+    "word": "iglesia",
+    "answer": "I"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jug",
+    "key": "jug",
+    "word": "jarra",
+    "answer": "J"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "kiwi",
+    "key": "kiwi",
+    "word": "kiwi",
+    "answer": "K"
+   },
+   {
+    "theme": "camping",
+    "noun": "kayak",
+    "key": "kayak",
+    "word": "kayak",
+    "answer": "K"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "can",
+    "key": "can",
+    "word": "lata",
+    "answer": "L"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "lobo",
+    "answer": "L"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "parrot",
+    "key": "parrot",
+    "word": "loro",
+    "answer": "L"
+   },
+   {
+    "theme": "breakfast",
+    "noun": "honey",
+    "key": "honey",
+    "word": "miel",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "mano",
+    "answer": "M"
+   },
+   {
+    "theme": "camping",
+    "noun": "map",
+    "key": "map",
+    "word": "mapa",
+    "answer": "M"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "nido",
+    "answer": "N"
+   },
+   {
+    "theme": "toys",
+    "noun": "girl",
+    "key": "girl",
+    "word": "niña",
+    "answer": "N"
+   },
+   {
+    "theme": "beach",
+    "noun": "cloud",
+    "key": "cloud",
+    "word": "nube",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "eye",
+    "key": "eye",
+    "word": "ojo",
+    "answer": "O"
+   },
+   {
+    "theme": "camping",
+    "noun": "bear",
+    "key": "bear",
+    "word": "oso",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pot",
+    "key": "pot",
+    "word": "olla",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "pan",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pie",
+    "key": "pie",
+    "word": "pay",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "fish",
+    "key": "fish",
+    "word": "pez",
+    "answer": "P"
+   },
+   {
+    "theme": "camping",
+    "noun": "frog",
+    "key": "frog",
+    "word": "rana",
+    "answer": "R"
+   },
+   {
+    "theme": "beach",
+    "noun": "rock",
+    "key": "rock",
+    "word": "roca",
+    "answer": "R"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "sol",
+    "answer": "S"
+   },
+   {
+    "theme": "around the house",
+    "noun": "couch",
+    "key": "couch",
+    "word": "sofá",
+    "answer": "S"
+   },
+   {
+    "theme": "around the house",
+    "noun": "chair",
+    "key": "chair",
+    "word": "silla",
+    "answer": "S"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "tren",
+    "answer": "T"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "taxi",
+    "key": "taxi",
+    "word": "taxi",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "cup",
+    "key": "cup",
+    "word": "taza",
+    "answer": "T"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "cow",
+    "key": "cow",
+    "word": "vaca",
+    "answer": "V"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "vaso",
+    "answer": "V"
+   },
+   {
+    "theme": "christmas",
+    "noun": "candle",
+    "key": "candle",
+    "word": "vela",
+    "answer": "V"
+   },
+   {
+    "theme": "bakery",
+    "noun": "waffle",
+    "key": "waffle",
+    "word": "waffle",
+    "answer": "W"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "zorro",
+    "answer": "Z"
+   },
+   {
+    "theme": "clothing",
+    "noun": "shoe",
+    "key": "shoe",
+    "word": "zapato",
+    "answer": "Z"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "carrot",
+    "key": "carrot",
+    "word": "zanahoria",
+    "answer": "Z"
+   }
+  ],
+  "pt": [
+   {
+    "theme": "At the Supermarket",
+    "noun": "garlic",
+    "key": "garlic",
+    "word": "alho",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bee",
+    "key": "bee",
+    "word": "abelha",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "avião",
+    "answer": "A"
+   },
+   {
+    "theme": "toys",
+    "noun": "baby",
+    "key": "baby",
+    "word": "bebê",
+    "answer": "B"
+   },
+   {
+    "theme": "body parts",
+    "noun": "mouth",
+    "key": "mouth",
+    "word": "boca",
+    "answer": "B"
+   },
+   {
+    "theme": "toys",
+    "noun": "ball",
+    "key": "ball",
+    "word": "bola",
+    "answer": "B"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bed",
+    "key": "bed",
+    "word": "cama",
+    "answer": "C"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "casa",
+    "answer": "C"
+   },
+   {
+    "theme": "body parts",
+    "noun": "finger",
+    "key": "finger",
+    "word": "dedo",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dados",
+    "answer": "D"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "dente",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "elephant",
+    "key": "elephant",
+    "word": "elefante",
+    "answer": "E"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "flor",
+    "answer": "F"
+   },
+   {
+    "theme": "around the house",
+    "noun": "knife",
+    "key": "knife",
+    "word": "faca",
+    "answer": "F"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "rooster",
+    "key": "rooster",
+    "word": "galo",
+    "answer": "G"
+   },
+   {
+    "theme": "animals",
+    "noun": "cat",
+    "key": "cat",
+    "word": "gato",
+    "answer": "G"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "ganso",
+    "answer": "G"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "iglu",
+    "answer": "I"
+   },
+   {
+    "theme": "christmas",
+    "noun": "church",
+    "key": "church",
+    "word": "igreja",
+    "answer": "I"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jug",
+    "key": "jug",
+    "word": "jarra",
+    "answer": "J"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "kiwi",
+    "key": "kiwi",
+    "word": "kiwi",
+    "answer": "K"
+   },
+   {
+    "theme": "camping",
+    "noun": "moon",
+    "key": "moon",
+    "word": "lua",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "can",
+    "key": "can",
+    "word": "lata",
+    "answer": "L"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "lobo",
+    "answer": "L"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "mão",
+    "answer": "M"
+   },
+   {
+    "theme": "breakfast",
+    "noun": "honey",
+    "key": "honey",
+    "word": "mel",
+    "answer": "M"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "maçã",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "nariz",
+    "answer": "N"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "ninho",
+    "answer": "N"
+   },
+   {
+    "theme": "beach",
+    "noun": "cloud",
+    "key": "cloud",
+    "word": "nuvem",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "eye",
+    "key": "eye",
+    "word": "olho",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "shovel",
+    "key": "shovel",
+    "word": "pá",
+    "answer": "P"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "pé",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "pão",
+    "answer": "P"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "rato",
+    "answer": "R"
+   },
+   {
+    "theme": "camping",
+    "noun": "hammock",
+    "key": "hammock",
+    "word": "rede",
+    "answer": "R"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "sol",
+    "answer": "S"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sack",
+    "key": "sack",
+    "word": "saco",
+    "answer": "S"
+   },
+   {
+    "theme": "christmas",
+    "noun": "bell",
+    "key": "bell",
+    "word": "sino",
+    "answer": "S"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "trem",
+    "answer": "T"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "armadillo",
+    "key": "armadillo",
+    "word": "tatu",
+    "answer": "T"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "taxi",
+    "key": "taxi",
+    "word": "táxi",
+    "answer": "T"
+   },
+   {
+    "theme": "camping",
+    "noun": "bear",
+    "key": "bear",
+    "word": "urso",
+    "answer": "U"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "van",
+    "key": "van",
+    "word": "van",
+    "answer": "V"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "cow",
+    "key": "cow",
+    "word": "vaca",
+    "answer": "V"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vaso",
+    "answer": "V"
+   },
+   {
+    "theme": "bakery",
+    "noun": "waffle",
+    "key": "waffle",
+    "word": "waffle",
+    "answer": "W"
+   },
+   {
+    "theme": "around the house",
+    "noun": "cup",
+    "key": "cup",
+    "word": "xícara",
+    "answer": "X"
+   },
+   {
+    "theme": "animals",
+    "noun": "zebra",
+    "key": "zebra",
+    "word": "zebra",
+    "answer": "Z"
+   }
+  ],
+  "it": [
+   {
+    "theme": "Things That Fly",
+    "noun": "bee",
+    "key": "bee",
+    "word": "ape",
+    "answer": "A"
+   },
+   {
+    "theme": "music",
+    "noun": "harp",
+    "key": "harp",
+    "word": "arpa",
+    "answer": "A"
+   },
+   {
+    "theme": "beach",
+    "noun": "boat",
+    "key": "boat",
+    "word": "barca",
+    "answer": "B"
+   },
+   {
+    "theme": "hospital",
+    "noun": "bandage",
+    "key": "bandage",
+    "word": "benda",
+    "answer": "B"
+   },
+   {
+    "theme": "animals",
+    "noun": "dog",
+    "key": "dog",
+    "word": "cane",
+    "answer": "C"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "casa",
+    "answer": "C"
+   },
+   {
+    "theme": "shapes",
+    "noun": "cone",
+    "key": "cone",
+    "word": "cono",
+    "answer": "C"
+   },
+   {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dadi",
+    "answer": "D"
+   },
+   {
+    "theme": "body parts",
+    "noun": "finger",
+    "key": "finger",
+    "word": "dito",
+    "answer": "D"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "dente",
+    "answer": "D"
+   },
+   {
+    "theme": "christmas",
+    "noun": "elf",
+    "key": "elf",
+    "word": "elfo",
+    "answer": "E"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "erba",
+    "answer": "E"
+   },
+   {
+    "theme": "shapes",
+    "noun": "hexagon",
+    "key": "hexagon",
+    "word": "esagono",
+    "answer": "E"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "bonfire",
+    "key": "bonfire",
+    "word": "falò",
+    "answer": "F"
+   },
+   {
+    "theme": "beach",
+    "noun": "lighthouse",
+    "key": "lighthouse",
+    "word": "faro",
+    "answer": "F"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "foca",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "owl",
+    "key": "owl",
+    "word": "gufo",
+    "answer": "G"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "rooster",
+    "key": "rooster",
+    "word": "gallo",
+    "answer": "G"
+   },
+   {
+    "theme": "body parts",
+    "noun": "leg",
+    "key": "leg",
+    "word": "gamba",
+    "answer": "G"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "llama",
+    "key": "llama",
+    "word": "lama",
+    "answer": "L"
+   },
+   {
+    "theme": "camping",
+    "noun": "moon",
+    "key": "moon",
+    "word": "luna",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "corn",
+    "key": "corn",
+    "word": "mais",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "mano",
+    "answer": "M"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "mela",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "naso",
+    "answer": "N"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "ship",
+    "key": "ship",
+    "word": "nave",
+    "answer": "N"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "nido",
+    "answer": "N"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "oca",
+    "answer": "O"
+   },
+   {
+    "theme": "camping",
+    "noun": "bear",
+    "key": "bear",
+    "word": "orso",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "shovel",
+    "key": "shovel",
+    "word": "pala",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "pane",
+    "answer": "P"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pear",
+    "key": "pear",
+    "word": "pera",
+    "answer": "P"
+   },
+   {
+    "theme": "camping",
+    "noun": "frog",
+    "key": "frog",
+    "word": "rana",
+    "answer": "R"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "sole",
+    "answer": "S"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sack",
+    "key": "sack",
+    "word": "sacco",
+    "answer": "S"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "taxi",
+    "key": "taxi",
+    "word": "taxi",
+    "answer": "T"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "topo",
+    "answer": "T"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "bull",
+    "key": "bull",
+    "word": "toro",
+    "answer": "T"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bird",
+    "key": "bird",
+    "word": "uccello",
+    "answer": "U"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vaso",
+    "answer": "V"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "verme",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "backpack",
+    "key": "backpack",
+    "word": "zaino",
+    "answer": "Z"
+   },
+   {
+    "theme": "animals",
+    "noun": "zebra",
+    "key": "zebra",
+    "word": "zebra",
+    "answer": "Z"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pumpkin",
+    "key": "pumpkin",
+    "word": "zucca",
+    "answer": "Z"
+   }
+  ],
+  "nl": [
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "arm",
+    "answer": "A"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "appel",
+    "answer": "A"
+   },
+   {
+    "theme": "accessories",
+    "noun": "bracelet",
+    "key": "bracelet",
+    "word": "armband",
+    "answer": "A"
+   },
+   {
+    "theme": "toys",
+    "noun": "ball",
+    "key": "ball",
+    "word": "bal",
+    "answer": "B"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bed",
+    "key": "bed",
+    "word": "bed",
+    "answer": "B"
+   },
+   {
+    "theme": "christmas",
+    "noun": "bell",
+    "key": "bell",
+    "word": "bel",
+    "answer": "B"
+   },
+   {
+    "theme": "shapes",
+    "noun": "circle",
+    "key": "circle",
+    "word": "cirkel",
+    "answer": "C"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "lemon",
+    "key": "lemon",
+    "word": "citroen",
+    "answer": "C"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "deur",
+    "answer": "D"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragon",
+    "key": "dragon",
+    "word": "draak",
+    "answer": "D"
+   },
+   {
+    "theme": "beach",
+    "noun": "bucket",
+    "key": "bucket",
+    "word": "emmer",
+    "answer": "E"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "engel",
+    "answer": "E"
+   },
+   {
+    "theme": "post office",
+    "noun": "envelope",
+    "key": "envelope",
+    "word": "envelop",
+    "answer": "E"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "fles",
+    "answer": "F"
+   },
+   {
+    "theme": "spring",
+    "noun": "bicycle",
+    "key": "bicycle",
+    "word": "fiets",
+    "answer": "F"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "fluit",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "gans",
+    "answer": "G"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "goat",
+    "key": "goat",
+    "word": "geit",
+    "answer": "G"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "glas",
+    "answer": "G"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fence",
+    "key": "fence",
+    "word": "hek",
+    "answer": "H"
+   },
+   {
+    "theme": "camping",
+    "noun": "cabin",
+    "key": "cabin",
+    "word": "hut",
+    "answer": "H"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "hand",
+    "answer": "H"
+   },
+   {
+    "theme": "clothing",
+    "noun": "coat",
+    "key": "coat",
+    "word": "jas",
+    "answer": "J"
+   },
+   {
+    "theme": "clothing",
+    "noun": "dress",
+    "key": "dress",
+    "word": "jurk",
+    "answer": "J"
+   },
+   {
+    "theme": "around the house",
+    "noun": "comb",
+    "key": "comb",
+    "word": "kam",
+    "answer": "K"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jug",
+    "key": "jug",
+    "word": "kan",
+    "answer": "K"
+   },
+   {
+    "theme": "animals",
+    "noun": "cat",
+    "key": "cat",
+    "word": "kat",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lamp",
+    "key": "lamp",
+    "word": "lamp",
+    "answer": "L"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "lijm",
+    "answer": "L"
+   },
+   {
+    "theme": "classroom",
+    "noun": "folder",
+    "key": "folder",
+    "word": "map",
+    "answer": "M"
+   },
+   {
+    "theme": "around the house",
+    "noun": "knife",
+    "key": "knife",
+    "word": "mes",
+    "answer": "M"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "mug",
+    "key": "mug",
+    "word": "mok",
+    "answer": "M"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "nest",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "neus",
+    "answer": "N"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "octopus",
+    "key": "octopus",
+    "word": "octopus",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pan",
+    "key": "pan",
+    "word": "pan",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pen",
+    "key": "pen",
+    "word": "pen",
+    "answer": "P"
+   },
+   {
+    "theme": "accessories",
+    "noun": "cap",
+    "key": "cap",
+    "word": "pet",
+    "answer": "P"
+   },
+   {
+    "theme": "clothing",
+    "noun": "skirt",
+    "key": "skirt",
+    "word": "rok",
+    "answer": "R"
+   },
+   {
+    "theme": "around the house",
+    "noun": "window",
+    "key": "window",
+    "word": "raam",
+    "answer": "R"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "grater",
+    "key": "grater",
+    "word": "rasp",
+    "answer": "R"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "lettuce",
+    "key": "lettuce",
+    "word": "sla",
+    "answer": "S"
+   },
+   {
+    "theme": "accessories",
+    "noun": "sock",
+    "key": "sock",
+    "word": "sok",
+    "answer": "S"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "slak",
+    "answer": "S"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bag",
+    "key": "bag",
+    "word": "tas",
+    "answer": "T"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "tand",
+    "answer": "T"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "tongs",
+    "key": "tongs",
+    "word": "tang",
+    "answer": "T"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "fish",
+    "key": "fish",
+    "word": "vis",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "vos",
+    "answer": "V"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vaas",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "mitten",
+    "key": "mitten",
+    "word": "want",
+    "answer": "W"
+   },
+   {
+    "theme": "furniture",
+    "noun": "crib",
+    "key": "crib",
+    "word": "wieg",
+    "answer": "W"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "wolf",
+    "answer": "W"
+   },
+   {
+    "theme": "music",
+    "noun": "xylophone",
+    "key": "xylophone",
+    "word": "xylofoon",
+    "answer": "X"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sack",
+    "key": "sack",
+    "word": "zak",
+    "answer": "Z"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "zon",
+    "answer": "Z"
+   }
+  ],
+  "sv": [
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "arm",
+    "answer": "A"
+   },
+   {
+    "theme": "accessories",
+    "noun": "bracelet",
+    "key": "bracelet",
+    "word": "armband",
+    "answer": "A"
+   },
+   {
+    "theme": "body parts",
+    "noun": "face",
+    "key": "face",
+    "word": "ansikte",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bee",
+    "key": "bee",
+    "word": "bi",
+    "answer": "B"
+   },
+   {
+    "theme": "body parts",
+    "noun": "leg",
+    "key": "leg",
+    "word": "ben",
+    "answer": "B"
+   },
+   {
+    "theme": "spring",
+    "noun": "bicycle",
+    "key": "bicycle",
+    "word": "cykel",
+    "answer": "C"
+   },
+   {
+    "theme": "shapes",
+    "noun": "circle",
+    "key": "circle",
+    "word": "cirkel",
+    "answer": "C"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "lemon",
+    "key": "lemon",
+    "word": "citron",
+    "answer": "C"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "dörr",
+    "answer": "D"
+   },
+   {
+    "theme": "around the house",
+    "noun": "computer",
+    "key": "computer",
+    "word": "dator",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "doll",
+    "key": "doll",
+    "word": "docka",
+    "answer": "D"
+   },
+   {
+    "theme": "camping",
+    "noun": "squirrel",
+    "key": "squirrel",
+    "word": "ekorre",
+    "answer": "E"
+   },
+   {
+    "theme": "animals",
+    "noun": "elephant",
+    "key": "elephant",
+    "word": "elefant",
+    "answer": "E"
+   },
+   {
+    "theme": "animals",
+    "noun": "sheep",
+    "key": "sheep",
+    "word": "får",
+    "answer": "F"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "fot",
+    "answer": "F"
+   },
+   {
+    "theme": "beach",
+    "noun": "lighthouse",
+    "key": "lighthouse",
+    "word": "fyr",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "gås",
+    "answer": "G"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "glas",
+    "answer": "G"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "gräs",
+    "answer": "G"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shark",
+    "key": "shark",
+    "word": "haj",
+    "answer": "H"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "hus",
+    "answer": "H"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "hand",
+    "answer": "H"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "hedgehog",
+    "key": "hedgehog",
+    "word": "igelkott",
+    "answer": "I"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "igloo",
+    "answer": "I"
+   },
+   {
+    "theme": "clothing",
+    "noun": "jacket",
+    "key": "jacket",
+    "word": "jacka",
+    "answer": "J"
+   },
+   {
+    "theme": "christmas",
+    "noun": "ornament",
+    "key": "ornament",
+    "word": "julkula",
+    "answer": "J"
+   },
+   {
+    "theme": "classroom",
+    "noun": "globe",
+    "key": "globe",
+    "word": "jordglob",
+    "answer": "J"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cabbage",
+    "key": "cabbage",
+    "word": "kål",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "comb",
+    "key": "comb",
+    "word": "kam",
+    "answer": "K"
+   },
+   {
+    "theme": "shapes",
+    "noun": "cube",
+    "key": "cube",
+    "word": "kub",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lock",
+    "key": "lock",
+    "word": "lås",
+    "answer": "L"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "lim",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "onion",
+    "key": "onion",
+    "word": "lök",
+    "answer": "L"
+   },
+   {
+    "theme": "body parts",
+    "noun": "mouth",
+    "key": "mouth",
+    "word": "mun",
+    "answer": "M"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "mus",
+    "answer": "M"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "corn",
+    "key": "corn",
+    "word": "majs",
+    "answer": "M"
+   },
+   {
+    "theme": "hospital",
+    "noun": "tissue",
+    "key": "tissue",
+    "word": "näsduk",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "näsa",
+    "answer": "N"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "nyckel",
+    "answer": "N"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "cheese",
+    "key": "cheese",
+    "word": "ost",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pie",
+    "key": "pie",
+    "word": "paj",
+    "answer": "P"
+   },
+   {
+    "theme": "furniture",
+    "noun": "stool",
+    "key": "stool",
+    "word": "pall",
+    "answer": "P"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "räv",
+    "answer": "R"
+   },
+   {
+    "theme": "flowers",
+    "noun": "rose",
+    "key": "rose",
+    "word": "ros",
+    "answer": "R"
+   },
+   {
+    "theme": "accessories",
+    "noun": "ring",
+    "key": "ring",
+    "word": "ring",
+    "answer": "R"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "säl",
+    "answer": "S"
+   },
+   {
+    "theme": "clothing",
+    "noun": "shoe",
+    "key": "shoe",
+    "word": "sko",
+    "answer": "S"
+   },
+   {
+    "theme": "beach",
+    "noun": "sun",
+    "key": "sun",
+    "word": "sol",
+    "answer": "S"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "tåg",
+    "answer": "T"
+   },
+   {
+    "theme": "camping",
+    "noun": "tent",
+    "key": "tent",
+    "word": "tält",
+    "answer": "T"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "tand",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "oven",
+    "key": "oven",
+    "word": "ugn",
+    "answer": "U"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "owl",
+    "key": "owl",
+    "word": "uggla",
+    "answer": "U"
+   },
+   {
+    "theme": "animals",
+    "noun": "whale",
+    "key": "whale",
+    "word": "val",
+    "answer": "V"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "vas",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "varg",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "donkey",
+    "key": "donkey",
+    "word": "åsna",
+    "answer": "Å"
+   },
+   {
+    "theme": "animals",
+    "noun": "moose",
+    "key": "moose",
+    "word": "älg",
+    "answer": "Ä"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "ängel",
+    "answer": "Ä"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "eagle",
+    "key": "eagle",
+    "word": "örn",
+    "answer": "Ö"
+   }
+  ],
+  "da": [
+   {
+    "theme": "Things That Fly",
+    "noun": "duck",
+    "key": "duck",
+    "word": "and",
+    "answer": "A"
+   },
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "arm",
+    "answer": "A"
+   },
+   {
+    "theme": "body parts",
+    "noun": "face",
+    "key": "face",
+    "word": "ansigt",
+    "answer": "A"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bee",
+    "key": "bee",
+    "word": "bi",
+    "answer": "B"
+   },
+   {
+    "theme": "beach",
+    "noun": "boat",
+    "key": "boat",
+    "word": "båd",
+    "answer": "B"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "bonfire",
+    "key": "bonfire",
+    "word": "bål",
+    "answer": "B"
+   },
+   {
+    "theme": "spring",
+    "noun": "bicycle",
+    "key": "bicycle",
+    "word": "cykel",
+    "answer": "C"
+   },
+   {
+    "theme": "shapes",
+    "noun": "circle",
+    "key": "circle",
+    "word": "cirkel",
+    "answer": "C"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "lemon",
+    "key": "lemon",
+    "word": "citron",
+    "answer": "C"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "dør",
+    "answer": "D"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragon",
+    "key": "dragon",
+    "word": "drage",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "doll",
+    "key": "doll",
+    "word": "dukke",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "moose",
+    "key": "moose",
+    "word": "elg",
+    "answer": "E"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "engel",
+    "answer": "E"
+   },
+   {
+    "theme": "around the house",
+    "noun": "kettle",
+    "key": "kettle",
+    "word": "elkedel",
+    "answer": "E"
+   },
+   {
+    "theme": "animals",
+    "noun": "sheep",
+    "key": "sheep",
+    "word": "får",
+    "answer": "F"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "fod",
+    "answer": "F"
+   },
+   {
+    "theme": "camping",
+    "noun": "frog",
+    "key": "frog",
+    "word": "frø",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "gås",
+    "answer": "G"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "goat",
+    "key": "goat",
+    "word": "ged",
+    "answer": "G"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "glas",
+    "answer": "G"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shark",
+    "key": "shark",
+    "word": "haj",
+    "answer": "H"
+   },
+   {
+    "theme": "accessories",
+    "noun": "hat",
+    "key": "hat",
+    "word": "hat",
+    "answer": "H"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "hus",
+    "answer": "H"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "iglo",
+    "answer": "I"
+   },
+   {
+    "theme": "clothing",
+    "noun": "jacket",
+    "key": "jacket",
+    "word": "jakke",
+    "answer": "J"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "strawberry",
+    "key": "strawberry",
+    "word": "jordbær",
+    "answer": "J"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "cow",
+    "key": "cow",
+    "word": "ko",
+    "answer": "K"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cabbage",
+    "key": "cabbage",
+    "word": "kål",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "comb",
+    "key": "comb",
+    "word": "kam",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lock",
+    "key": "lock",
+    "word": "lås",
+    "answer": "L"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "lim",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "onion",
+    "key": "onion",
+    "word": "løg",
+    "answer": "L"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "mus",
+    "answer": "M"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "mosquito",
+    "key": "mosquito",
+    "word": "myg",
+    "answer": "M"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "milk",
+    "key": "milk",
+    "word": "mælk",
+    "answer": "M"
+   },
+   {
+    "theme": "christmas",
+    "noun": "elf",
+    "key": "elf",
+    "word": "nisse",
+    "answer": "N"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "nøgle",
+    "answer": "N"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "næse",
+    "answer": "N"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "orm",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "cheese",
+    "key": "cheese",
+    "word": "ost",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "oven",
+    "key": "oven",
+    "word": "ovn",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pen",
+    "key": "pen",
+    "word": "pen",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fireplace",
+    "key": "fireplace",
+    "word": "pejs",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "gate",
+    "key": "gate",
+    "word": "port",
+    "answer": "P"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "ræv",
+    "answer": "R"
+   },
+   {
+    "theme": "accessories",
+    "noun": "ring",
+    "key": "ring",
+    "word": "ring",
+    "answer": "R"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "rocket",
+    "key": "rocket",
+    "word": "raket",
+    "answer": "R"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sack",
+    "key": "sack",
+    "word": "sæk",
+    "answer": "S"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "sæl",
+    "answer": "S"
+   },
+   {
+    "theme": "around the house",
+    "noun": "spoon",
+    "key": "spoon",
+    "word": "ske",
+    "answer": "S"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "tog",
+    "answer": "T"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "bull",
+    "key": "bull",
+    "word": "tyr",
+    "answer": "T"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "tand",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "clock",
+    "key": "clock",
+    "word": "ur",
+    "answer": "U"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "ulv",
+    "answer": "U"
+   },
+   {
+    "theme": "around the house",
+    "noun": "sink",
+    "key": "sink",
+    "word": "vask",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "vest",
+    "key": "vest",
+    "word": "vest",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "zebra",
+    "key": "zebra",
+    "word": "zebra",
+    "answer": "Z"
+   },
+   {
+    "theme": "easter",
+    "noun": "duckling",
+    "key": "duckling",
+    "word": "ælling",
+    "answer": "Æ"
+   },
+   {
+    "theme": "animals",
+    "noun": "donkey",
+    "key": "donkey",
+    "word": "æsel",
+    "answer": "Æ"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "eagle",
+    "key": "eagle",
+    "word": "ørn",
+    "answer": "Ø"
+   }
+  ],
+  "no": [
+   {
+    "theme": "Things That Fly",
+    "noun": "duck",
+    "key": "duck",
+    "word": "and",
+    "answer": "A"
+   },
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "arm",
+    "answer": "A"
+   },
+   {
+    "theme": "body parts",
+    "noun": "face",
+    "key": "face",
+    "word": "ansikt",
+    "answer": "A"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "bonfire",
+    "key": "bonfire",
+    "word": "bål",
+    "answer": "B"
+   },
+   {
+    "theme": "beach",
+    "noun": "boat",
+    "key": "boat",
+    "word": "båt",
+    "answer": "B"
+   },
+   {
+    "theme": "toys",
+    "noun": "car",
+    "key": "car",
+    "word": "bil",
+    "answer": "B"
+   },
+   {
+    "theme": "accessories",
+    "noun": "cap",
+    "key": "cap",
+    "word": "caps",
+    "answer": "C"
+   },
+   {
+    "theme": "bakery",
+    "noun": "cupcake",
+    "key": "cupcake",
+    "word": "cupcake",
+    "answer": "C"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "dør",
+    "answer": "D"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragon",
+    "key": "dragon",
+    "word": "drage",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "doll",
+    "key": "doll",
+    "word": "dukke",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "moose",
+    "key": "moose",
+    "word": "elg",
+    "answer": "E"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "engel",
+    "answer": "E"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "fly",
+    "answer": "F"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "fot",
+    "answer": "F"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "fish",
+    "key": "fish",
+    "word": "fisk",
+    "answer": "F"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "goose",
+    "key": "goose",
+    "word": "gås",
+    "answer": "G"
+   },
+   {
+    "theme": "animals",
+    "noun": "pig",
+    "key": "pig",
+    "word": "gris",
+    "answer": "G"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "glass",
+    "answer": "G"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shark",
+    "key": "shark",
+    "word": "hai",
+    "answer": "H"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "hus",
+    "answer": "H"
+   },
+   {
+    "theme": "body parts",
+    "noun": "hand",
+    "key": "hand",
+    "word": "hånd",
+    "answer": "H"
+   },
+   {
+    "theme": "winter",
+    "noun": "icicle",
+    "key": "icicle",
+    "word": "istapp",
+    "answer": "I"
+   },
+   {
+    "theme": "desserts and sweets",
+    "noun": "popsicle",
+    "key": "popsicle",
+    "word": "ispinne",
+    "answer": "I"
+   },
+   {
+    "theme": "clothing",
+    "noun": "jacket",
+    "key": "jacket",
+    "word": "jakke",
+    "answer": "J"
+   },
+   {
+    "theme": "toys",
+    "noun": "girl",
+    "key": "girl",
+    "word": "jente",
+    "answer": "J"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "strawberry",
+    "key": "strawberry",
+    "word": "jordbær",
+    "answer": "J"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "cow",
+    "key": "cow",
+    "word": "ku",
+    "answer": "K"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cabbage",
+    "key": "cabbage",
+    "word": "kål",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "comb",
+    "key": "comb",
+    "word": "kam",
+    "answer": "K"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lock",
+    "key": "lock",
+    "word": "lås",
+    "answer": "L"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "lim",
+    "answer": "L"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "onion",
+    "key": "onion",
+    "word": "løk",
+    "answer": "L"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "key": "mouse",
+    "word": "mus",
+    "answer": "M"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "corn",
+    "key": "corn",
+    "word": "mais",
+    "answer": "M"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "mark",
+    "answer": "M"
+   },
+   {
+    "theme": "christmas",
+    "noun": "elf",
+    "key": "elf",
+    "word": "nisse",
+    "answer": "N"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "nøkkel",
+    "answer": "N"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "cheese",
+    "key": "cheese",
+    "word": "ost",
+    "answer": "O"
+   },
+   {
+    "theme": "around the house",
+    "noun": "oven",
+    "key": "oven",
+    "word": "ovn",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pie",
+    "key": "pie",
+    "word": "pai",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fireplace",
+    "key": "fireplace",
+    "word": "peis",
+    "answer": "P"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pen",
+    "key": "pen",
+    "word": "penn",
+    "answer": "P"
+   },
+   {
+    "theme": "animals",
+    "noun": "fox",
+    "key": "fox",
+    "word": "rev",
+    "answer": "R"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "reir",
+    "answer": "R"
+   },
+   {
+    "theme": "accessories",
+    "noun": "ring",
+    "key": "ring",
+    "word": "ring",
+    "answer": "R"
+   },
+   {
+    "theme": "animals",
+    "noun": "sheep",
+    "key": "sheep",
+    "word": "sau",
+    "answer": "S"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "seal",
+    "key": "seal",
+    "word": "sel",
+    "answer": "S"
+   },
+   {
+    "theme": "clothing",
+    "noun": "shoe",
+    "key": "shoe",
+    "word": "sko",
+    "answer": "S"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "tog",
+    "answer": "T"
+   },
+   {
+    "theme": "body parts",
+    "noun": "tooth",
+    "key": "tooth",
+    "word": "tann",
+    "answer": "T"
+   },
+   {
+    "theme": "classroom",
+    "noun": "tape",
+    "key": "tape",
+    "word": "teip",
+    "answer": "T"
+   },
+   {
+    "theme": "animals",
+    "noun": "wolf",
+    "key": "wolf",
+    "word": "ulv",
+    "answer": "U"
+   },
+   {
+    "theme": "around the house",
+    "noun": "sink",
+    "key": "sink",
+    "word": "vask",
+    "answer": "V"
+   },
+   {
+    "theme": "accessories",
+    "noun": "vest",
+    "key": "vest",
+    "word": "vest",
+    "answer": "V"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "eagle",
+    "key": "eagle",
+    "word": "ørn",
+    "answer": "Ø"
+   }
+  ],
+  "fi": [
+   {
+    "theme": "animals",
+    "noun": "donkey",
+    "key": "donkey",
+    "word": "aasi",
+    "answer": "A"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fence",
+    "key": "fence",
+    "word": "aita",
+    "answer": "A"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "bus",
+    "key": "bus",
+    "word": "bussi",
+    "answer": "B"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "banana",
+    "key": "banana",
+    "word": "banaani",
+    "answer": "B"
+   },
+   {
+    "theme": "bakery",
+    "noun": "croissant",
+    "key": "croissant",
+    "word": "croissant",
+    "answer": "C"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "donut",
+    "key": "donut",
+    "word": "donitsi",
+    "answer": "D"
+   },
+   {
+    "theme": "animals",
+    "noun": "dolphin",
+    "key": "dolphin",
+    "word": "delfiini",
+    "answer": "D"
+   },
+   {
+    "theme": "toys",
+    "noun": "dinosaur",
+    "key": "dinosaur",
+    "word": "dinosaurus",
+    "answer": "D"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "etana",
+    "answer": "E"
+   },
+   {
+    "theme": "christmas",
+    "noun": "angel",
+    "key": "angel",
+    "word": "enkeli",
+    "answer": "E"
+   },
+   {
+    "theme": "accessories",
+    "noun": "apron",
+    "key": "apron",
+    "word": "esiliina",
+    "answer": "E"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "answer": "F"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shark",
+    "key": "shark",
+    "word": "hai",
+    "answer": "H"
+   },
+   {
+    "theme": "clothing",
+    "noun": "skirt",
+    "key": "skirt",
+    "word": "hame",
+    "answer": "H"
+   },
+   {
+    "theme": "around the house",
+    "noun": "faucet",
+    "key": "faucet",
+    "word": "hana",
+    "answer": "H"
+   },
+   {
+    "theme": "winter",
+    "noun": "igloo",
+    "key": "igloo",
+    "word": "iglu",
+    "answer": "I"
+   },
+   {
+    "theme": "around the house",
+    "noun": "window",
+    "key": "window",
+    "word": "ikkuna",
+    "answer": "I"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "balloon",
+    "key": "balloon",
+    "word": "ilmapallo",
+    "answer": "I"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "juna",
+    "answer": "J"
+   },
+   {
+    "theme": "body parts",
+    "noun": "foot",
+    "key": "foot",
+    "word": "jalka",
+    "answer": "J"
+   },
+   {
+    "theme": "camping",
+    "noun": "moon",
+    "key": "moon",
+    "word": "kuu",
+    "answer": "K"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "fish",
+    "key": "fish",
+    "word": "kala",
+    "answer": "K"
+   },
+   {
+    "theme": "birds 2",
+    "noun": "chicken",
+    "key": "chicken",
+    "word": "kana",
+    "answer": "K"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "lasi",
+    "answer": "L"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "llama",
+    "key": "llama",
+    "word": "laama",
+    "answer": "L"
+   },
+   {
+    "theme": "christmas",
+    "noun": "present",
+    "key": "present",
+    "word": "lahja",
+    "answer": "L"
+   },
+   {
+    "theme": "insects and bugs",
+    "noun": "worm",
+    "key": "worm",
+    "word": "mato",
+    "answer": "M"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "mug",
+    "key": "mug",
+    "word": "muki",
+    "answer": "M"
+   },
+   {
+    "theme": "body parts",
+    "noun": "nose",
+    "key": "nose",
+    "word": "nenä",
+    "answer": "N"
+   },
+   {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "nopat",
+    "answer": "N"
+   },
+   {
+    "theme": "animals",
+    "noun": "elephant",
+    "key": "elephant",
+    "word": "norsu",
+    "answer": "N"
+   },
+   {
+    "theme": "around the house",
+    "noun": "door",
+    "key": "door",
+    "word": "ovi",
+    "answer": "O"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "apple",
+    "key": "apple",
+    "word": "omena",
+    "answer": "O"
+   },
+   {
+    "theme": "camping",
+    "noun": "squirrel",
+    "key": "squirrel",
+    "word": "orava",
+    "answer": "O"
+   },
+   {
+    "theme": "spring",
+    "noun": "nest",
+    "key": "nest",
+    "word": "pesä",
+    "answer": "P"
+   },
+   {
+    "theme": "easter",
+    "noun": "bunny",
+    "key": "bunny",
+    "word": "pupu",
+    "answer": "P"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "rapu",
+    "answer": "R"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sleigh",
+    "key": "sleigh",
+    "word": "reki",
+    "answer": "R"
+   },
+   {
+    "theme": "summer",
+    "noun": "beach",
+    "key": "beach",
+    "word": "ranta",
+    "answer": "R"
+   },
+   {
+    "theme": "body parts",
+    "noun": "mouth",
+    "key": "mouth",
+    "word": "suu",
+    "answer": "S"
+   },
+   {
+    "theme": "hospital",
+    "noun": "bandage",
+    "key": "bandage",
+    "word": "side",
+    "answer": "S"
+   },
+   {
+    "theme": "animals",
+    "noun": "pig",
+    "key": "pig",
+    "word": "sika",
+    "answer": "S"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "house",
+    "key": "house",
+    "word": "talo",
+    "answer": "T"
+   },
+   {
+    "theme": "easter",
+    "noun": "chick",
+    "key": "chick",
+    "word": "tipu",
+    "answer": "T"
+   },
+   {
+    "theme": "christmas",
+    "noun": "star",
+    "key": "star",
+    "word": "tähti",
+    "answer": "T"
+   },
+   {
+    "theme": "around the house",
+    "noun": "oven",
+    "key": "oven",
+    "word": "uuni",
+    "answer": "U"
+   },
+   {
+    "theme": "beach",
+    "noun": "swimsuit",
+    "key": "swimsuit",
+    "word": "uimapuku",
+    "answer": "U"
+   },
+   {
+    "theme": "accessories",
+    "noun": "belt",
+    "key": "belt",
+    "word": "vyö",
+    "answer": "V"
+   },
+   {
+    "theme": "beach",
+    "noun": "boat",
+    "key": "boat",
+    "word": "vene",
+    "answer": "V"
+   },
+   {
+    "theme": "animals",
+    "noun": "whale",
+    "key": "whale",
+    "word": "valas",
+    "answer": "V"
+   },
+   {
+    "theme": "shapes",
+    "noun": "circle",
+    "key": "circle",
+    "word": "ympyrä",
+    "answer": "Y"
+   },
+   {
+    "theme": "beach",
+    "noun": "bucket",
+    "key": "bucket",
+    "word": "ämpäri",
+    "answer": "Ä"
+   }
+  ]
+ }
 }

@@ -85,6 +85,7 @@ const checkMeter = (before, after, minted) => (minted === 'sub' ? (after === bef
 /** the bot inside a marks screen: every right answer by real clicks → Check */
 const solve = () => {
   const M = window.__lcsMarks; if (!M) return { err: 'no runtime hook' };
+  const cover = document.querySelector('.lcs-cover'); if (cover) cover.click();   // a picture to look at first (K-490)
   const Q = M.Q(), C = window.DECK_BUNDLE.ctx || {};
   const keyFor = (c) => Array.from(document.querySelectorAll('.lcs-key')).find((k) => k.textContent === (c === ' ' ? '␣' : c));
   Q.forEach((q) => {

@@ -369,4 +369,21 @@ const SCENES = {
   },
 };
 
+// ------------------------------------------------------------------ K-480 picture path (Mazes maker 2026-11-02; retires the
+// old picture-path app): the lion's sound maze, on a farm — step only on the ANIMALS (fruits, vegetables, furniture decoy)
+SCENES['farm-picture-path'] = {
+  H: 716, band: { h: 8, sky: '#CFE5A8', hill: '#CFE5A8' },
+  field: '#CFE5A8', corridor: { fill: '#FBF6EA', edge: '#9C8E6E', outline: 3.5 },
+  slots: ['TR', 'BR'],
+  maze: {
+    box: { w: 675, h: 700 }, frame: { x0: 50, y0: 50, x1: 625, y1: 650 }, r: 90, minAngle: 55, W: 44, branches: 11, size: [2, 4], fill: 1, loops: 5, K: 400,
+    gates: { clear: 61 },
+  },
+  labels: { rule: 'kind', good: ['farm animals', 'animals'], exclude: ['bee', 'bat', 'fish', 'whale', 'dolphin', 'turtle', 'iguana', 'owl', 'penguin', 'seagull', 'swan', 'vulture', 'woodpecker', 'kiwi', 'coconut', 'rug', 'cushion'], decoy: ['fruits', 'vegetables', 'furniture'], route: 7, glyph: 'picture', picH: 46, stoneR: 36, fill: '#FFFDF6', decoyCount: 12, laterLMin: 0 },
+  hero: { src: 'occupations/farmer', h: 92 },
+  goal: { src: 'vehicles/tractor', h: 72 },
+  cast: [],
+  texture: { n: 30, gap: 38, kinds: ['pebble', 'pebble'], colours: { pebble: ['#B9D48A', '#AECB7E'] } },
+};
+
 module.exports = { SCENES };

@@ -109,9 +109,9 @@ function checkHtml(html, where) {
       const spec = require(path.join(REPO, t.file));
       if (!spec.puzzle) continue;
       templates++;
-      const themes = t.themed ? [t.themes.find((th) => !/bw(\s+\d+)?$/i.test(th)), t.themes.find((th) => /bw(\s+\d+)?$/i.test(th))].filter(Boolean) : [null];
+      const themesAt = (loc) => { const ts = ((t.localeThemes && t.localeThemes[loc]) || t.themes); return t.themed ? [ts.find((th) => !/bw(\s+\d+)?$/i.test(th)), ts.find((th) => /bw(\s+\d+)?$/i.test(th))].filter(Boolean) : [null]; };
       let sample = null;
-      for (const loc of LOCALES.filter((l) => t.locales.includes(l))) for (const d of t.levels) for (const theme of themes) for (let v = 1; v <= COPIES; v++) {
+      for (const loc of LOCALES.filter((l) => t.locales.includes(l))) for (const d of ((t.localeLevels && t.localeLevels[loc]) || t.levels)) for (const theme of themesAt(loc)) for (let v = 1; v <= COPIES; v++) {
         const strings = withLevelInstruction(resolveStrings(spec.id, loc, spec), spec.id, d, loc);
         let r;
         try { r = runtime.makePage({ type: spec, strings, locale: loc, difficulty: d, theme, variant: v, answerKey: true, answerKeySuffix: tj.answerKey[loc] }); }

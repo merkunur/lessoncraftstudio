@@ -424,10 +424,7 @@ function TEXT_LINTS(r, R, fails) {
 }
 
 /* F2 · steps:2 — every row = two stamped steps, different actions, targets re-derived per step, union disjoint across the page (P8) */
-function VERIFY_STEPS(stripSrc, deriveSrc, textSrc) {
-  const stripChecks = new Function('return ' + stripSrc)();
-  const derive = new Function('return ' + deriveSrc)();
-  const TEXT_LINTS_SRC = new Function('return ' + textSrc)();
+function VERIFY_STEPS(stripChecks, derive, TEXT_LINTS_SRC) {
   const fails = [];
   const root = document.querySelector('[data-lcs-rad]');
   if (!root) return ['no read-and-do root'];
@@ -514,9 +511,7 @@ function VERIFY_STEPS(stripSrc, deriveSrc, textSrc) {
 }
 
 /* F4 · mode:'truth' — declaratives re-evaluated against the strip; exactly truePerPage true; a false statement names a noun ON the strip (P5); chips yes | no, no glyph */
-function VERIFY_TRUTH(stripSrc, textSrc) {
-  const stripChecks = new Function('return ' + stripSrc)();
-  const TEXT_LINTS_SRC = new Function('return ' + textSrc)();
+function VERIFY_TRUTH(stripChecks, TEXT_LINTS_SRC) {
   const fails = [];
   const root = document.querySelector('[data-lcs-rad]');
   if (!root) return ['no read-and-do root'];
@@ -615,8 +610,7 @@ function VERIFY_TRUTH(stripSrc, textSrc) {
 }
 
 /* F5 · mode:'draw' — open-ended: structure + lints only (no picture anywhere, one EMPTY draw box per card, the count varies, no leak) */
-function VERIFY_DRAW(textSrc) {
-  const TEXT_LINTS_SRC = new Function('return ' + textSrc)();
+function VERIFY_DRAW(TEXT_LINTS_SRC) {
   const fails = [];
   const root = document.querySelector('[data-lcs-rad]');
   if (!root) return ['no read-and-do root'];
@@ -1178,9 +1172,11 @@ module.exports = {
 
   async verify(page) {
     const face = await page.evaluate(() => { const r = document.querySelector('[data-lcs-rad]'); return r ? { mode: r.dataset.lcsMode || '', steps: +(r.dataset.lcsSteps || 1) } : null; });
-    if (face && face.mode === 'draw') return page.evaluate(VERIFY_DRAW, TEXT_LINTS.toString());
-    if (face && face.mode === 'truth') return page.evaluate(VERIFY_TRUTH, STRIP_CHECKS.toString(), TEXT_LINTS.toString());
-    if (face && face.steps === 2) return page.evaluate(VERIFY_STEPS, STRIP_CHECKS.toString(), DERIVE_WANT.toString(), TEXT_LINTS.toString());
+    // the helpers travel as function expressions inside one call string (the page cannot receive functions as arguments)
+    const call = (fn, ...helpers) => page.evaluate(`(${fn})(${helpers.map((h) => `(${h})`).join(', ')})`);
+    if (face && face.mode === 'draw') return call(VERIFY_DRAW, TEXT_LINTS);
+    if (face && face.mode === 'truth') return call(VERIFY_TRUTH, STRIP_CHECKS, TEXT_LINTS);
+    if (face && face.steps === 2) return call(VERIFY_STEPS, STRIP_CHECKS, DERIVE_WANT, TEXT_LINTS);
     return page.evaluate(() => {
       const fails = [];
       const root = document.querySelector('[data-lcs-rad]');

@@ -3888,5 +3888,677 @@
   "K-482": {
     "title": "Muster auf dem Punktraster nachzeichnen",
     "instruction": "Schau dir in jeder Reihe die Linie an. Zeichne dieselbe Linie auf die leeren Punkte daneben, vom orangen Punkt aus."
+  },
+  "K-484": {
+    "title": "Welcher Ausgang? Labyrinth-Rätsel",
+    "instruction": "Fang beim Pfeil an. Fahre die Wege mit dem Finger nach. Nur zu einem Ausgang kommst du hin: Kreise seine Zahl ein."
+  },
+  "K-485": {
+    "title": "Den Weg durch das Labyrinth beschreiben",
+    "instruction": "Folge dem Weg vom grünen Punkt bis zur Fahne. Schreibe zu jedem geraden Stück, wie viele Schritte (kleine Pfeile) es hat."
+  },
+  "K-486": {
+    "title": "Labyrinth: Sammle die Buchstaben",
+    "instruction": "Zeichne den Weg zum Bild. Sammle unterwegs die Buchstaben und schreibe das Wort in die Kästchen."
+  },
+  "K-487": {
+    "title": "Folge dem Musterweg",
+    "instruction": "Schau dir das Muster oben an. Geh vom Pfeil bis zur Fahne und tritt nur auf die Steine, die zum Muster passen."
+  },
+  "K-488": {
+    "title": "Welches Bild ist anders?",
+    "instruction": "Alle Bilder sind gleich, nur eins nicht. Kreise das Bild ein, das anders ist."
+  },
+  "K-489": {
+    "title": "Unterschiede nach Art zählen",
+    "instruction": "Finde alle Unterschiede in Bild 2. Zähle, wie viele es von jeder Art gibt, und schreibe die Zahl in das passende Kästchen."
+  },
+  "K-490": {
+    "title": "Anschauen, falten, finden",
+    "instruction": "Schau dir Bild 1 so lange an, wie du möchtest. Falte dann das Blatt an der gestrichelten Linie, sodass Bild 1 verdeckt ist. Kreise die Veränderungen in Bild 2 ein und hake für jede ein Kästchen ab."
+  },
+  "K-491": {
+    "title": "Zeichne, was fehlt",
+    "instruction": "In Bild 2 fehlen ein paar Dinge aus Bild 1. Zeichne jedes an seiner Stelle in Bild 2 wieder ein."
+  },
+  "K-492": {
+    "title": "Welche zwei Bilder sind gleich?",
+    "instruction": "Zwei Bilder sind ganz genau gleich. Finde sie und kreise beide ein."
+  },
+  "K-493": {
+    "title": "Zeichnen mit Formen",
+    "instruction": "Schau dir die Schritte an. Bei jedem Schritt kommen neue Formen in Orange dazu. Zeichne das Bild Schritt für Schritt in den großen Kasten."
+  },
+  "K-494": {
+    "title": "Im Gitter größer abzeichnen",
+    "instruction": "Zeichne das Bild Kästchen für Kästchen in das große Gitter ab. Jedes Kästchen im großen Gitter ist doppelt so groß, also wird dein Bild auch doppelt so groß."
+  },
+  "K-495": {
+    "title": "Spiegelbild zeichnen",
+    "instruction": "Die Hälfte des Bildes ist schon gezeichnet. Zeichne die andere Hälfte so, dass beide Seiten gleich aussehen, wie im Spiegel."
+  },
+  "K-496": {
+    "title": "Alle zusammen in ein Bild",
+    "instruction": "Folge den Schritten für jedes Bild. Zeichne dann alle zusammen in das große Bild."
+  },
+  "K-497": {
+    "title": "Schritte: schneiden, ordnen, zeichnen",
+    "instruction": "Schneide die Karten aus. Lege die Schritte in der richtigen Reihenfolge auf die nummerierte Reihe und klebe sie auf. Zeichne dann das Bild in den Kasten."
+  },
+  "K-498": {
+    "title": "Ein Bild nachspuren",
+    "instruction": "Spure alle Linien des Bildes nach. Fang beim schwarzen Punkt an."
+  },
+  "K-499": {
+    "title": "Bild nachspuren, Wort schreiben",
+    "instruction": "Spure das Bild nach. Spure dann das Wort auf den Linien nach und schreibe es selbst."
+  },
+  "K-500": {
+    "title": "Ein kleines Nachspur-Heft",
+    "instruction": "Spure die drei Bilder nach. Schneide dann das Blatt an den Linien in der Mitte in vier Teile, lege das Titelblatt obenauf und hefte die Seiten zu einem kleinen Heft zusammen."
+  },
+  "K-501": {
+    "title": "Nachspuren und nach Zahlen malen",
+    "instruction": "Spure die Linien des Bildes nach. Male dann jedes Feld in der Farbe seiner Zahl an."
+  },
+  "K-502": {
+    "title": "Doppelt so groß zeichnen",
+    "instruction": "Schau dir das Bild im kleinen Gitter an. Male dieselben Kästchen im großen Gitter an, in dem jedes Kästchen doppelt so groß ist."
+  },
+  "K-503": {
+    "title": "Das Bild drehen und spiegeln",
+    "instruction": "Male jedes Bild ins leere Gitter, aber um eine Vierteldrehung nach rechts gedreht, so wie der Pfeil zeigt."
+  },
+  "K-504": {
+    "title": "Die Zeichnung im Gitter abzeichnen",
+    "instruction": "Zeichne das Bild Kästchen für Kästchen ins leere Gitter ab: Schau, was in jedem Kästchen ist, und zeichne dasselbe ins passende Kästchen im leeren Gitter."
+  },
+  "K-505": {
+    "title": "Zahlwörter verbinden",
+    "instruction": "Fang beim orangen Punkt an. Lies die Zahlwörter und verbinde die Punkte der Reihe nach, so wie du zählst."
+  },
+  "K-506": {
+    "title": "Punkte verbinden: gerade oder ungerade Zahlen",
+    "instruction": "Fang beim orangen Punkt an. Verbinde nur die geraden Zahlen der Reihe nach: 2, 4, 6 und so weiter. Lass die ungeraden Zahlen aus."
+  },
+  "K-507": {
+    "title": "Groß- und Kleinbuchstaben verbinden",
+    "instruction": "Fang beim orangen Punkt an. Verbinde einen Großbuchstaben, dann seinen Kleinbuchstaben, dann den nächsten Großbuchstaben: A, a, B, b und so weiter."
+  },
+  "K-508": {
+    "title": "Finde den genauen Zwilling",
+    "instruction": "Schau dir das erste Bild in jeder Reihe an. Kreise das Bild ein, das genau gleich ist – nicht gedreht und nicht gespiegelt."
+  },
+  "K-509": {
+    "title": "Welche Bilder verstecken sich?",
+    "instruction": "Im Liniengewirr verstecken sich einige Bilder. Finde ihre Umrisse und kreise diese Bilder in der Reihe unten ein."
+  },
+  "K-510": {
+    "title": "Was gehört nicht dazu?",
+    "instruction": "Lies den Namen jeder Gruppe. Kreise das eine Bild ein, das nicht in diese Gruppe gehört."
+  },
+  "K-511": {
+    "title": "Sortieren nach einer Regel",
+    "instruction": "Lies die Namen der beiden Gruppen. Zieh von jedem Bild eine Linie zu der Gruppe, zu der es gehört."
+  },
+  "K-512": {
+    "title": "Sortiermatten und Bildkarten",
+    "instruction": "Schneide die Bildkarten aus. Lege jede Karte auf die Matte, auf die sie gehört."
+  },
+  "G1-487": {
+    "title": "Malen nach geraden und ungeraden Zahlen",
+    "instruction": "Ist die Zahl in der Form gerade oder ungerade? Male die Form mit der Farbe aus dem Code an."
+  },
+  "K-513": {
+    "title": "Malen nach Zahlwörtern",
+    "instruction": "Lies das Zahlwort in jeder Form. Suche seine Zahl im Code und male die Form mit dieser Farbe an."
+  },
+  "K-514": {
+    "title": "Malen nach deinem eigenen Code",
+    "instruction": "Wähle für jede Zahl eine Farbe. Male ihr Kästchen im Code an und schreibe den Namen der Farbe dazu. Dann male die Formen an."
+  },
+  "K-515": {
+    "title": "Groß und klein anmalen",
+    "instruction": "Schau dir den Code an: Jede Größe hat ihre eigene Farbe. Male jedes Bild mit der Farbe seiner Größe an."
+  },
+  "K-516": {
+    "title": "Ein kleines Malbuch",
+    "instruction": "Falte die obere Hälfte nach hinten, dann die linke Hälfte nach hinten. So entsteht ein kleines Buch. Male jede Seite an."
+  },
+  "G1-488": {
+    "title": "Malen und einen Satz schreiben",
+    "instruction": "Male das Bild an. Dann schreibe etwas darüber. Die Satzanfänge helfen dir dabei."
+  },
+  "K-517": {
+    "title": "Zahlen von 1 bis 100 nachspuren",
+    "instruction": "Spure die gestrichelten Zahlen nach. Schreibe in jedes leere Kästchen die Zahl, die dorthin gehört."
+  },
+  "K-518": {
+    "title": "So schreiben wir die Zahlen",
+    "instruction": "Beginne beim Punkt und folge den Pfeilen. Die kleinen Zahlen zeigen, welcher Strich zuerst kommt."
+  },
+  "K-519": {
+    "title": "Erfinde deine eigene Tangram-Figur",
+    "instruction": "Male die Teile wie in der Legende an und schneide die sieben Teile aus. Lege mit allen Teilen deine eigene Figur auf das Feld und zeichne dann ihren Umriss nach."
+  },
+  "K-520": {
+    "title": "Erste Tangram-Rätsel",
+    "instruction": "Schneide die Teile neben jeder Figur aus. Lege sie so auf die Figur, dass sie die Figur genau bedecken."
+  },
+  "G1-489": {
+    "title": "Welche Figur kannst du legen?",
+    "instruction": "Schau dir die Teile in jeder Reihe an. Kreise das einzige Schattenbild ein, das du mit genau diesen Teilen legen kannst."
+  },
+  "K-522": {
+    "title": "Schattenbild und Name verbinden",
+    "instruction": "Schau dir jedes Tangram-Schattenbild an. Verbinde das Schattenbild mit seinem Namen."
+  },
+  "K-523": {
+    "title": "Meinen Namen nachspuren",
+    "instruction": "Schau dir den Namen an. Spure ihn auf den gestrichelten Linien nach und schreibe ihn dann allein auf die leeren Linien."
+  },
+  "K-524": {
+    "title": "Buchstaben und Bilder",
+    "instruction": "Sprich das Wort zu jedem Bild und hör auf den ersten Laut. Spure den Buchstaben für diesen Laut nach und schreibe ihn dann allein."
+  },
+  "K-525": {
+    "title": "Groß- und Kleinbuchstaben zusammen",
+    "instruction": "Spure den Großbuchstaben und seinen Kleinbuchstaben nebeneinander nach und schreibe sie dann allein. Beginne am orangen Punkt."
+  },
+  "K-526": {
+    "title": "Buchstabenkarten: So schreibe ich die Buchstaben",
+    "instruction": "Jeder Buchstabe beginnt am orangen Punkt. Folge den Zahlen und den Pfeilen, dann siehst du, wie man ihn schreibt. Schneide die Karten an den gestrichelten Linien aus."
+  },
+  "K-527": {
+    "title": "Einen Satz nachspuren",
+    "instruction": "Lies den Satz. Spure die gestrichelten Buchstaben nach und schreibe den Satz dann selbst auf die leeren Linien."
+  },
+  "G1-490": {
+    "title": "Die Bildertafel beschriften",
+    "instruction": "Schreibe den Namen jedes Bildes auf die Linie darunter. Die Wörter oben helfen dir."
+  },
+  "K-529": {
+    "title": "Wortbilder: ein Buchstabe pro Kästchen",
+    "instruction": "Sprich den Namen jedes Bildes. Schreibe in jedes Kästchen einen Buchstaben: hohe Buchstaben in die hohen Kästchen, Buchstaben mit Unterlänge in die tiefen Kästchen."
+  },
+  "G1-491": {
+    "title": "Mein Wörterheft",
+    "instruction": "Schreibe den Namen jedes Bildes auf die erste Linie. Schreibe dann einen eigenen Satz dazu."
+  },
+  "G2-480": {
+    "title": "Meine Wörter in {U}",
+    "instruction": "Lies jeden Satz. Spure ihn in Schreibschrift nach und verbinde dabei die Buchstaben. Schreibe ihn dann allein darunter."
+  },
+  "G2-481": {
+    "title": "Buchstabe des Tages in {U}",
+    "instruction": "Spure den grauen Buchstaben, die Buchstabenverbindungen und das Wort nach und schreibe alles allein in die leeren Zeilen darunter."
+  },
+  "G2-482": {
+    "title": "Wörter in Druckschrift und in {U} verbinden",
+    "instruction": "Lies jedes Wort in Schreibschrift und verbinde es mit demselben Wort in Druckschrift."
+  },
+  "G2-483": {
+    "title": "Das Alphabet in {U}",
+    "instruction": "Sieh dir jeden Buchstaben in Schreibschrift und in Druckschrift an. Nimm das Alphabet zu Hilfe, wenn du in Schreibschrift schreibst."
+  },
+  "K-530": {
+    "title": "Der Buchstabenzug",
+    "instruction": "Schreibe die fehlenden Buchstaben auf die Wagen, damit die Buchstaben im Buchstabenzug in der richtigen Reihenfolge stehen. Das Bild auf einem leeren Wagen beginnt mit dem fehlenden Buchstaben."
+  },
+  "K-531": {
+    "title": "Anlauttabelle",
+    "instruction": "Sprich jeden Buchstaben und sag, wie sein Bild heißt. Das Bild beginnt mit dem Laut des Buchstabens."
+  },
+  "K-532": {
+    "title": "Buchstabenjagd",
+    "instruction": "Schau dir den Buchstaben im Kästchen an. Such ihn auf den Luftballons, Drachen und Schildern und kreise jeden ein."
+  },
+  "G1-492": {
+    "title": "Welcher Buchstabe kommt davor und danach?",
+    "instruction": "Schreibe zu jedem Buchstaben auf, welcher Buchstabe im Alphabet davor kommt."
+  },
+  "K-533": {
+    "title": "Selbstlaute anmalen",
+    "instruction": "Sag, wie jedes Bild heißt. Male in jedem Wort alle Selbstlaute an (auch ä, ö, ü)."
+  },
+  "K-534": {
+    "title": "ABC-Karten ordnen",
+    "instruction": "Schneide die Karten an den gestrichelten Linien aus. Lege sie in die Reihenfolge des Alphabets und lies die Buchstaben."
+  },
+  "K-535": {
+    "title": "Gleicher Anlaut?",
+    "instruction": "Sag, wie die beiden Bilder heißen. Wenn sie mit dem gleichen Laut anfangen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+  },
+  "K-536": {
+    "title": "Anlaut-Klammerkarten",
+    "instruction": "Schneide die Karten aus. Sag, wie jedes Bild heißt, und klemme eine Wäscheklammer an den Buchstaben, den du am Anfang hörst."
+  },
+  "G1-493": {
+    "title": "Zwei Mitlaute am Anfang",
+    "instruction": "Sag, wie jedes Bild heißt. Schreibe die zwei Buchstaben auf, mit denen das Wort anfängt."
+  },
+  "G1-494": {
+    "title": "Buchstaben und Laute",
+    "instruction": "Lies jedes Wort. Zähle seine Buchstaben (Aa) und die Laute, die du hörst (das Ohr). Schreibe beide Zahlen auf."
+  },
+  "G1-495": {
+    "title": "Langer oder kurzer Selbstlaut?",
+    "instruction": "Sprich jedes Wort. Ist der farbige Selbstlaut lang oder kurz? Kreise den Strich ein, wenn er lang ist, und den Punkt, wenn er kurz ist."
+  },
+  "K-537": {
+    "title": "Reim-Memory",
+    "instruction": "Schneide die Karten aus und lege sie verdeckt hin. Decke zwei Karten auf. Wenn sich die Bilder reimen, darfst du sie behalten!"
+  },
+  "K-538": {
+    "title": "Welches reimt sich nicht?",
+    "instruction": "Sag, wie die drei Bilder heißen. Zwei davon reimen sich. Kreise das Bild ein, das sich nicht reimt."
+  },
+  "K-539": {
+    "title": "Reim-Domino",
+    "instruction": "Schneide die Dominosteine aus. Lege sie im Kreis so, dass sich das rechte Bild jedes Steins mit dem linken Bild des nächsten Steins reimt."
+  },
+  "G1-496": {
+    "title": "Silbenpuzzle",
+    "instruction": "Schneide die Teile an den gestrichelten Linien aus. Mische sie und setze jedes Wort wieder zusammen, Silbe für Silbe."
+  },
+  "K-541": {
+    "title": "Klatschen und zählen",
+    "instruction": "Sprich jedes Wort und klatsche seine Silben. Male für jedes Klatschen einen Kreis an und schreibe auf, wie oft du geklatscht hast."
+  },
+  "K-542": {
+    "title": "Bilder-Memory",
+    "instruction": "Schneide die Karten aus und lege sie verdeckt hin. Decke zwei Karten auf. Wenn sie zusammengehören, darfst du sie behalten!"
+  },
+  "K-543": {
+    "title": "Wortkarten für die Wörterwand",
+    "instruction": "Schneide die Wortkarten an den gestrichelten Linien aus und hänge sie an die Wörterwand."
+  },
+  "K-544": {
+    "title": "Mein Bildwörterbuch",
+    "instruction": "Lies die Wörter in der Reihenfolge des Alphabets. Sag, wie jedes Bild heißt."
+  },
+  "K-545": {
+    "title": "Wörter ausschneiden und aufkleben",
+    "instruction": "Schneide die Wörter unten aus. Klebe jedes Wort in das Kästchen unter seinem Bild."
+  },
+  "K-546": {
+    "title": "Lesen und malen",
+    "instruction": "Lies jeden Satz. Male das Bild an die richtige Stelle."
+  },
+  "K-547": {
+    "title": "Wo ist es?",
+    "instruction": "Schau dir jedes Bild an. Schreibe das fehlende Lagewort auf. Die Wörter im Kasten helfen dir."
+  },
+  "K-548": {
+    "title": "Das richtige Lagewort",
+    "instruction": "Schau dir jedes Bild an. Kreise das Wort ein, das in den Satz passt."
+  },
+  "K-549": {
+    "title": "Lesen und kleben",
+    "instruction": "Schneide die Bilder unten aus. Lies jeden Satz und klebe das Bild an die richtige Stelle."
+  },
+  "G2-484": {
+    "title": "Adjektive steigern",
+    "instruction": "Schreibe die zwei fehlenden Formen jedes Adjektivs auf, wie im Beispiel."
+  },
+  "G1-497": {
+    "title": "Wortarten im Satz",
+    "instruction": "Lies jeden Satz. Kreise alle Nomen ein. Auch Namen sind Nomen."
+  },
+  "G1-498": {
+    "title": "Großschreibung",
+    "instruction": "Lies jeden Satz. Kreise jedes Wort ein, das großgeschrieben werden muss."
+  },
+  "G2-485": {
+    "title": "Verben konjugieren",
+    "instruction": "Schreibe das Verb so in jedes Kästchen, dass es zu dem Wort am Anfang der Zeile passt."
+  },
+  "G2-486": {
+    "title": "Adjektive nach ein und eine",
+    "instruction": "Kreise die richtige Form des Adjektivs ein."
+  },
+  "K-550": {
+    "title": "Oberbegriffe finden",
+    "instruction": "Schau dir die Bilder in jeder Reihe an. Zu welcher Gruppe gehören sie? Schreibe das Wort aus dem Kasten auf."
+  },
+  "K-551": {
+    "title": "Gegenteilkarten",
+    "instruction": "Schneide die Karten aus und lege sie verdeckt hin. Decke zwei Karten auf: Sind sie Gegenteile, darfst du sie behalten!"
+  },
+  "G1-499": {
+    "title": "Verkleinerungsformen",
+    "instruction": "Schreibe die Verkleinerungsform jedes Wortes in das Kästchen."
+  },
+  "G2-487": {
+    "title": "Puzzle mit zusammengesetzten Nomen",
+    "instruction": "Schneide die Teile aus. Setze immer zwei Teile zu einem Wort zusammen und schreibe es auf eine Linie."
+  },
+  "K-552": {
+    "title": "Satzstreifen",
+    "instruction": "Lies den Satz. Schneide die Wörter auseinander, mische sie und lege den Satz wieder zusammen. Klebe ihn auf den leeren Streifen."
+  },
+  "G1-500": {
+    "title": "Lückensätze",
+    "instruction": "Lies jeden Satz. Schau dir das Bild an und schreibe das fehlende Wort in die Lücke."
+  },
+  "K-553": {
+    "title": "Bildersätze",
+    "instruction": "Lies jeden Satz. Schreibe das Wort für das Bild in das Kästchen."
+  },
+  "G1-501": {
+    "title": "Satz oder kein Satz?",
+    "instruction": "Lies jede Wortgruppe. Kreise den Haken ein, wenn sie ein ganzer Satz ist. Kreise das Kreuz ein, wenn nicht."
+  },
+  "G1-502": {
+    "title": "Satzhälften",
+    "instruction": "Verbinde jeden Satzanfang mit dem passenden Satzende. Die Bilder helfen dir."
+  },
+  "G1-503": {
+    "title": "Sätze erweitern",
+    "instruction": "Lies den kurzen Satz. Beantworte die Fragen auf den kurzen Linien. Schreibe dann einen längeren Satz mit deinen Antworten."
+  },
+  "G1-504": {
+    "title": "Lesen und antworten",
+    "instruction": "Lies den Text. Beantworte jede Frage auf der Linie."
+  },
+  "G1-505": {
+    "title": "Richtig oder falsch?",
+    "instruction": "Lies die Geschichte. Lies dann jede Frage und ihre Antwort. Kreise den Haken ein, wenn die Antwort richtig ist. Kreise das X ein, wenn sie falsch ist."
+  },
+  "G2-488": {
+    "title": "Welche Überschrift passt?",
+    "instruction": "Lies jede Geschichte. Kreise die Überschrift ein, die am besten passt."
+  },
+  "K-554": {
+    "title": "Mein Lesetagebuch",
+    "instruction": "Fülle die Seite zu dem Buch aus, das du gelesen hast. Male so viele Sterne aus, wie du dem Buch geben möchtest."
+  },
+  "G1-506": {
+    "title": "Erzählplan",
+    "instruction": "Plane deine Geschichte. Male und schreibe, was am Anfang, in der Mitte und am Ende passiert."
+  },
+  "G1-507": {
+    "title": "Bildergeschichte mit Sprechblasen",
+    "instruction": "Schau dir jedes Bild an. Schreibe in die Sprechblasen, was die Figuren sagen."
+  },
+  "G1-508": {
+    "title": "Würfelgeschichte",
+    "instruction": "Würfle für jede Spalte. Schreibe dann eine Geschichte mit dem, was du gewürfelt hast."
+  },
+  "G1-509": {
+    "title": "Beschreibe die Figur",
+    "instruction": "Schau dir das Bild an. Ergänze die Sätze über deine Figur. Die Wörter im Kasten helfen dir."
+  },
+  "G1-510": {
+    "title": "Eine Postkarte schreiben",
+    "instruction": "Schreibe einem lieben Menschen eine Postkarte. Schreibe seinen Namen hinter die Anrede und deinen Namen ans Ende."
+  },
+  "K-555": {
+    "title": "Sätze zum Bild",
+    "instruction": "Schau dir jedes Bild an. Schreibe einen Satz dazu."
+  },
+  "G1-511": {
+    "title": "Vergleichsaufgaben",
+    "instruction": "Lies jede Geschichte. Vergleiche die zwei Bilderreihen. Schreibe in das Kästchen, wie viele mehr oder weniger es sind."
+  },
+  "G1-512": {
+    "title": "Welche Rechnung passt?",
+    "instruction": "Lies jede Rechengeschichte. Kreise die Rechnung ein, die zur Geschichte passt."
+  },
+  "G1-513": {
+    "title": "Rechengeschichten erfinden",
+    "instruction": "Schau dir jede Rechnung an. Schreibe eine Rechengeschichte, die dazu passt. Du kannst sie über das Bild erzählen."
+  },
+  "G2-489": {
+    "title": "Sachaufgaben mit zwei Schritten",
+    "instruction": "Lies jede Geschichte. Rechne zuerst den ersten Schritt, dann den zweiten. Schreibe die Zahlen in die Kästchen."
+  },
+  "G2-490": {
+    "title": "Zahl des Tages bis 1000",
+    "instruction": "Schau dir die große Zahl an. Fülle jedes Kästchen zu dieser Zahl aus."
+  },
+  "G1-514": {
+    "title": "Zahl und Zahlwort",
+    "instruction": "Schreibe zu jedem Zahlwort die Zahl. Schreibe zu jeder Zahl das Zahlwort."
+  },
+  "K-556": {
+    "title": "Zahl, Zahlwort und Bild",
+    "instruction": "Verbinde jede Zahl mit ihrem Zahlwort. Verbinde dann jedes Zahlwort mit dem passenden Bild."
+  },
+  "K-557": {
+    "title": "Zahlwortkarten",
+    "instruction": "Schneide die Karten aus. Hänge sie an die Wand, oder schneide an den gestrichelten Linien und ordne Zahl, Zahlwort und Bild zu."
+  },
+  "G1-515": {
+    "title": "Ordnungszahlen bis 31",
+    "instruction": "Schreibe jede Ordnungszahl als Wort. Schreibe jedes Wort als Zahl mit Punkt."
+  },
+  "K-558": {
+    "title": "In welchem Fach?",
+    "instruction": "Zähle die Fächer von unten. Beantworte jede Frage: Kreise das richtige Bild oder die richtige Zahl ein."
+  },
+  "G1-516": {
+    "title": "Ordnungszahlen: Zahl und Wort",
+    "instruction": "Verbinde jede Ordnungszahl mit dem passenden Wort."
+  },
+  "G2-491": {
+    "title": "Zahl und Zahlwort bis 1000",
+    "instruction": "Schreibe zu jedem Zahlwort die Zahl. Schreibe zu jeder Zahl das Zahlwort."
+  },
+  "G1-517": {
+    "title": "Buchstabensalat",
+    "instruction": "Schau dir jedes Bild an. Bring die Buchstaben in die richtige Reihenfolge und schreibe das Wort. Denk an den großen Anfangsbuchstaben."
+  },
+  "G1-518": {
+    "title": "Fehlende Buchstaben",
+    "instruction": "Schau dir jedes Bild an. Schreibe die fehlenden Buchstaben in die Kästchen."
+  },
+  "G1-519": {
+    "title": "Lernwörter: anschauen, abdecken, schreiben, kontrollieren",
+    "instruction": "Lies jedes Wort. Falte das Blatt an der gestrichelten Linie, sodass das Wort verdeckt ist. Schreibe das Wort und schreibe es noch einmal. Klappe das Blatt auf und kontrolliere."
+  },
+  "G2-492": {
+    "title": "Welches Wort ist richtig geschrieben?",
+    "instruction": "Schau dir jedes Bild an. Lies die Wörter. Kreise das Wort ein, das richtig geschrieben ist."
+  },
+  "G1-520": {
+    "title": "Fehlende Selbstlaute",
+    "instruction": "Schau dir jedes Bild an. Schreibe die fehlenden Selbstlaute in die Kästchen."
+  },
+  "K-560": {
+    "title": "Buchstabenkarten und Wortkarten",
+    "instruction": "Schneide die Buchstabenkarten aus. Sprich das Wort zu jedem Bild und lege es mit den Buchstaben in die Kästchen. Ein paar Buchstaben bleiben übrig."
+  },
+  "G1-521": {
+    "title": "Ordnungszahlen-Karten",
+    "instruction": "Schneide die Karten aus. Lege sie der Reihe nach, oder schneide an den gestrichelten Linien und lege zusammen, was zusammengehört."
+  },
+  "G1-522": {
+    "title": "Artikel, Einzahl und Mehrzahl",
+    "instruction": "Schau dir jedes Bild an. Ergänze die Einzahl und die Mehrzahl mit dem Artikel."
+  },
+  "K-561": {
+    "title": "Zählen und Mehrzahl schreiben",
+    "instruction": "Zähle die Bilder in jedem Kästchen. Schreibe die Zahl als Wort und das Wort in der Mehrzahl."
+  },
+  "K-562": {
+    "title": "Einzahl oder Mehrzahl?",
+    "instruction": "Lies das Wort. Kreise die passende Bildgruppe ein."
+  },
+  "G1-523": {
+    "title": "Ein Hund oder der Hund?",
+    "instruction": "Lies die zwei Sätze. Kreise in jedem Satz die passenden Wörter ein."
+  },
+  "G1-524": {
+    "title": "Den Kalender ausfüllen",
+    "instruction": "Schreibe die fehlenden Zahlen in den Kalender."
+  },
+  "G1-525": {
+    "title": "Unser Geburtstagsdiagramm",
+    "instruction": "Frage die Kinder deiner Klasse nach ihrem Geburtstagsmonat. Male für jedes Kind ein Kästchen über seinem Monat an. Zähle die angemalten Kästchen in jedem Monat."
+  },
+  "G1-526": {
+    "title": "Das heutige Datum",
+    "instruction": "Schau auf das Kalenderblatt. Schreibe das Datum mit Zahlen."
+  },
+  "G1-527": {
+    "title": "Unser Stundenplan",
+    "instruction": "Lies den Stundenplan. Beantworte jede Frage."
+  },
+  "G1-528": {
+    "title": "Schatzsuche: Folge den Schritten",
+    "instruction": "Beginne bei der Fahne. Folge den Schritten. Kreise das Bild ein, bei dem du ankommst."
+  },
+  "G1-529": {
+    "title": "Beschreibe den Weg",
+    "instruction": "Folge dem Weg vom ersten Bild an. Kreise für jedes Stück die Richtung ein und schreibe, wie viele Felder es sind."
+  },
+  "K-563": {
+    "title": "Das Zimmer von oben",
+    "instruction": "Jedes Ding ist von der Seite gezeichnet. Verbinde es mit demselben Ding im Zimmer von oben."
+  },
+  "G1-530": {
+    "title": "Zeichne deine eigene Karte",
+    "instruction": "Zeichne eine Karte. Zeichne in die Legende jedes Symbol, das du benutzt hast, und schreibe dazu, was es bedeutet."
+  },
+  "G2-493": {
+    "title": "Schiffe versenken mit Koordinaten",
+    "instruction": "Male deine Schiffe in dein Spielfeld. Nennt abwechselnd ein Feld, zum Beispiel B3. Mache im Spielfeld deines Partnerkindes einen Punkt für „Wasser“ und ein Kreuz für „Treffer“."
+  },
+  "K-564": {
+    "title": "Meine Gefühle diese Woche",
+    "instruction": "Male jeden Tag den Kreis bei dem Gefühl an, das du hast."
+  },
+  "K-565": {
+    "title": "Gefühlsthermometer",
+    "instruction": "Wie stark ist das Gefühl? Male das Thermometer so hoch an, wie stark das Gefühl ist."
+  },
+  "G1-531": {
+    "title": "Mein Freund und ich",
+    "instruction": "Arbeite mit einem anderen Kind. Male oder schreibe, was nur zu dir gehört, was nur zu ihm gehört und was ihr beide habt."
+  },
+  "K-566": {
+    "title": "Gefühlskarten",
+    "instruction": "Schneide die Karten aus und sprich mit anderen Kindern über Gefühle."
+  },
+  "G1-532": {
+    "title": "Wörtersuchrätsel",
+    "instruction": "Finde jedes Wort aus der Liste im Gitter und kreise es ein."
+  },
+  "K-567": {
+    "title": "Bilder-Wörtersuchrätsel",
+    "instruction": "Sag, was du auf jedem Bild siehst. Finde das Wort im Gitter und kreise es ein."
+  },
+  "G2-494": {
+    "title": "Wörtersuchrätsel mit Geheimbotschaft",
+    "instruction": "Finde alle Wörter und kreise sie ein. Lies dann die übrigen Buchstaben Zeile für Zeile und schreibe die Geheimbotschaft auf."
+  },
+  "G1-533": {
+    "title": "Wörtersuchrätsel in einer Form",
+    "instruction": "Finde jedes Wort aus der Liste in der Form und kreise es ein."
+  },
+  "G1-534": {
+    "title": "Wörtersuchrätsel in zwei Sprachen",
+    "instruction": "Lies jedes Wort und schau dir das Bild an. Finde das Wort auf Deutsch im Gitter und kreise es ein."
+  },
+  "K-568": {
+    "title": "Zahlwörter-Suchrätsel",
+    "instruction": "Lies jede Zahl. Finde ihr Zahlwort im Gitter und kreise es ein."
+  },
+  "G1-535": {
+    "title": "Bilderkreuzworträtsel",
+    "instruction": "Schau dir jedes nummerierte Bild an. Schreibe sein Wort in die Kästchen mit derselben Nummer."
+  },
+  "G1-536": {
+    "title": "Schwedenrätsel mit Bildern",
+    "instruction": "Jedes Bild im Rätsel zeigt ein Wort. Schreibe das Wort in die Kästchen, in die der Pfeil zeigt."
+  },
+  "G2-495": {
+    "title": "Kreuzworträtsel ohne Fragen",
+    "instruction": "Trage jedes Wort der Liste in das Gitter ein. Zähle die Buchstaben und achte auf die Buchstaben, die sich kreuzen."
+  },
+  "G1-537": {
+    "title": "Kreuzworträtsel mit Wörterliste",
+    "instruction": "Schau dir jedes nummerierte Bild an. Finde sein Wort in der Wörterliste und schreibe es in die Kästchen."
+  },
+  "G1-538": {
+    "title": "Kreuzworträtsel in zwei Sprachen",
+    "instruction": "Lies jedes Wort und schau dir das Bild an. Schreibe das Wort auf Deutsch in die Kästchen mit derselben Nummer."
+  },
+  "G1-539": {
+    "title": "Geheimschrift mit Bildern",
+    "instruction": "Jedes Bild steht für einen Buchstaben. Schreibe mit dem Schlüssel die geheime Nachricht auf."
+  },
+  "G1-540": {
+    "title": "Geheimschrift mit Zahlen",
+    "instruction": "Jede Zahl steht für einen Buchstaben: A ist 1. Schreibe mit dem Schlüssel die geheime Nachricht auf."
+  },
+  "G1-541": {
+    "title": "Geheimschrift mit Rechenaufgaben",
+    "instruction": "Rechne jede Aufgabe aus. Suche das Ergebnis im Schlüssel und schreibe seinen Buchstaben auf."
+  },
+  "G2-496": {
+    "title": "Vervollständige den Schlüssel",
+    "instruction": "Im Schlüssel fehlen einige Buchstaben. Finde sie mithilfe des gelösten Wortes. Schreibe dann die geheime Nachricht auf."
+  },
+  "G1-542": {
+    "title": "Erfinde deine eigene Geheimschrift",
+    "instruction": "Zeichne für jeden Buchstaben ein Zeichen. Schreibe eine Nachricht und schreibe sie dann für jemanden aus deiner Klasse in deiner Geheimschrift."
+  },
+  "K-569": {
+    "title": "Bilder-Bingo",
+    "instruction": "Hör dir jedes Wort an. Ist sein Bild auf deiner Karte, markiere es. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "K-574": {
+    "title": "Bilder-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und sag das Wort. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "K-570": {
+    "title": "Lernwörter-Bingo",
+    "instruction": "Hör dir jedes Wort an. Steht das Wort auf deiner Karte, markiere es. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "K-575": {
+    "title": "Lernwörter-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies das Wort vor. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "G1-543": {
+    "title": "Rechen-Bingo",
+    "instruction": "Hör dir jede Aufgabe an und rechne sie aus. Steht das Ergebnis auf deiner Karte, markiere es. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "G1-545": {
+    "title": "Rechen-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies die Aufgabe vor, nicht das Ergebnis. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "G1-544": {
+    "title": "Uhrzeiten-Bingo",
+    "instruction": "Hör dir jede Uhrzeit an. Zeigt eine Uhr auf deiner Karte diese Zeit, markiere sie. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "G1-546": {
+    "title": "Uhrzeiten-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies die Uhrzeit vor. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "K-571": {
+    "title": "Anlaut-Bingo",
+    "instruction": "Hör dir jedes Wort an: Mit welchem Laut fängt es an? Steht der Buchstabe dazu auf deiner Karte, markiere ihn. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "K-576": {
+    "title": "Anlaut-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und sag das Wort, nicht den Buchstaben. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "K-572": {
+    "title": "Zahlwörter-Bingo",
+    "instruction": "Hör dir jede Zahl an. Steht sie auf deiner Karte, markiere sie. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "K-577": {
+    "title": "Zahlwörter-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies die Zahl vor. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "K-573": {
+    "title": "Formen-und-Farben-Bingo",
+    "instruction": "Hör dir jede Form mit ihrer Farbe an. Ist sie auf deiner Karte, markiere sie. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“"
+  },
+  "K-578": {
+    "title": "Formen-und-Farben-Bingo: Ansagekarten",
+    "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies die Form mit ihrer Farbe vor. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
   }
 }

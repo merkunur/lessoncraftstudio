@@ -972,7 +972,7 @@
       "correct": 0
      },
      {
-      "q": "Hvor sover Bamse om natta?",
+      "q": "Hvor sover valpen om natta?",
       "choices": [
        "I gangen",
        "På sofaen",
@@ -981,7 +981,7 @@
       "correct": 2
      },
      {
-      "q": "Hvorfor logrer Bamse med halen?",
+      "q": "Hvorfor logrer valpen med halen?",
       "choices": [
        "Fordi han er glad for å se Filip",
        "Fordi han er sint",
@@ -2612,7 +2612,7 @@
       "correct": 0
      },
      {
-      "q": "Hva synes Ulrik om dagen på akvariet?",
+      "q": "Hva synes Ulrik om turen?",
       "choices": [
        "Han syntes den var kjedelig",
        "Han ble redd for dyrene",
@@ -2944,7 +2944,7 @@
       "sentence": 1
      },
      {
-      "q": "Hva legger de inn i teltet?",
+      "q": "Hva tar guttene med seg til natta?",
       "choices": [
        "Bøker og spill",
        "Soveposer, lommelykter og en pose kjeks",

@@ -2,8 +2,7 @@
 /**
  * time-words.test.js — the Telling Time maker's native time words and day order (2026-11-02).
  *   1. lib/time-words.js reproduces the activities' 16 native-verified rows (mini tools/clock-core.js timeExpr) with the
- *      row's own hour form — except the cells the maker's native review decided otherwise (es-MX "para", a bare 12 o'clock
- *      read as the clock says it, sv / no "klockan / klokka" on a full hour)
+ *      row's own hour form — except the cells the maker's native review decided otherwise (sv / no "klockan / klokka" on a full hour)
  *   2. every five-minute time of a 12-hour face builds in all 11 languages, never empty, never a digit-and-colon key
  *   3. the half-hour idiom: de / nl / sv / da / no / fi "half four" is 3:30 — poison: a frame that says the CURRENT hour
  *      at :30 must fail the check
@@ -30,7 +29,7 @@ check('the activities\' timeExpr block is found', !!block);
 const rows = block ? [...block[1].matchAll(/"(\d+):(\d+)":\s*(\{[^}]*\})/g)].map((x) => ({ h: +x[1], m: +x[2], t: JSON.parse(x[3].replace(/([{,])(\w+):"/g, '$1"$2":"')) })) : [];
 check('16 rows', rows.length === 16, rows.length);
 // decided otherwise by the maker's native review (the reason is in lib/time-words.js)
-const DECIDED = (loc, h, m) => (['pt', 'fr', 'it'].includes(loc) && h === 12) || (['sv', 'no'].includes(loc) && m === 0);
+const DECIDED = (loc, h, m) => ['sv', 'no'].includes(loc) && m === 0;
 let same = 0, decided = 0;
 for (const r of rows) for (const [loc, want] of Object.entries(r.t)) {
   const a = T.timeWords(r.h, r.m, loc, { hourForm: 'numeral' }), b = T.timeWords(r.h, r.m, loc, { hourForm: 'word' });

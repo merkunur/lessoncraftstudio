@@ -58,7 +58,7 @@
  * sets the knob in a difficulty override; the base path is byte-identical):
  *   G2-339  cell:'chips' + choices  every lane = a choiceRow of `choices` chips
  *           (the truth + distractors from the field's option set; legs = numerals;
- *           fly/swim = yes|no, 2 chips); the row carries data-lcs-correct=<i>;
+ *           fly/swim = yes|no, 2 chips); the row carries data-lcs-correct-index=<i> (its chips the generic marks);
  *           over the page the correct index takes every position 0..choices-1
  *   G2-340  bank:true + bankExtra   the draw-box slot holds a factBank of the
  *           truths + bankExtra distractors (>= 2 fields), shuffled; lanes stay
@@ -276,7 +276,16 @@ module.exports = {
     let correctIdx = null;
     if (face === 'tick') correctIdx = this._tickRows(bankLoc, table, d, rows, { key, animal, loc }, ctx.rng);
     let bankWords = null;
-    if (face === 'bank') bankWords = this._bankWords(bankLoc, table, d, { key, animal, loc }, ctx.rng);
+    if (face === 'bank') {
+      bankWords = this._bankWords(bankLoc, table, d, { key, animal, loc }, ctx.rng);
+      // answer marks (2026-11-03): the key seats each row's true word on it; the screen makes each row a target for it
+      for (const r of rows) {
+        const i = bankWords.findIndex((w) => w.field === r.key && w.truth);
+        if (i < 0) throw new Error(`G2-318: the bank holds no true word for ${r.key}`);
+        if (ctx && ctx.answerKey) r.keyWord = bankWords[i].word;
+        if (ctx && ctx.screen) r.drop = 'b' + i;
+      }
+    }
     // ---- the fact lane: starter from factStarter + def/nom/ade, else the caption
     let laneHtml = '';
     let starter = null, caption = null;
@@ -297,7 +306,7 @@ module.exports = {
     let under = '';
     if (face === 'bank') {
       if (!(d.drawH >= 100)) throw new Error('G2-318: the bank face needs the draw-box slot (drawH >= 100) to hold the bank');
-      under = factBank({ words: bankWords, w: colW, h: d.drawH, wordPx: d.bankPx || 17 });
+      under = factBank({ words: bankWords, w: colW, h: d.drawH, wordPx: d.bankPx || 17, bins: !!(ctx && ctx.screen) });
     } else if (d.drawH) {
       const label = literal(bankLoc, 'drawLabel', loc);
       under = `<div data-lcs-drawslot style="position:relative;width:${colW}px;height:${d.drawH}px;flex:0 0 ${d.drawH}px">` +
@@ -359,8 +368,12 @@ module.exports = {
     if (!idx.length) throw new Error(`G2-318: ${key}: no chip arrangement spreads the correct index over ${n} positions in ${TRIES} tries (refuse)`);
     rows.forEach((r, i) => {
       r.lane = 'choice';
-      r.html = choiceRow({ options: shuffled[i].map((o) => ({ key: o.key, label: o.label })), pillPx: d.chipPx || 16, h: d.chipH || 40, gap: 8, padX: d.chipPadX || 20 });
-      r.attrs = `data-lcs-correct="${idx[i]}" data-lcs-n="${shuffled[i].length}"`;
+      // generic marks (2026-11-03): every chip a choice, the true one correct — the key rings it, the screen asks to tap it
+      // (the row's own index travels as data-lcs-correct-index: a row-level data-lcs-correct read as "every row is right")
+      let k = 0;
+      r.html = choiceRow({ options: shuffled[i].map((o) => ({ key: o.key, label: o.label })), pillPx: d.chipPx || 16, h: d.chipH || 40, gap: 8, padX: d.chipPadX || 20 })
+        .replace(/data-lcs-opt="/g, () => (k++ === idx[i] ? 'data-lcs-choice data-lcs-correct data-lcs-opt="' : 'data-lcs-choice data-lcs-opt="'));
+      r.attrs = `data-lcs-correct-index="${idx[i]}" data-lcs-n="${shuffled[i].length}"`;
     });
     return idx;
   },
@@ -558,7 +571,8 @@ module.exports = {
       const n = nouns.find((x) => x.vocabKey === k);
       const a = table.animals[k];
       const profile = table.fields.map((f) => f + '=' + String(a[f])).join(';');
-      return `<span class="ws-bankword" style="font-size:${d.bankPx || 15}px" data-lcs-bank="${esc(k)}" data-lcs-bank-word="${esc(bankLoc.animals[k].name)}" data-lcs-profile="${esc(profile)}">` +
+      // the screen's palette (2026-11-03): each bank animal a bin (tap it, then the riddle card it answers)
+      return `<span class="ws-bankword" style="font-size:${d.bankPx || 15}px" data-lcs-bank="${esc(k)}" data-lcs-bank-word="${esc(bankLoc.animals[k].name)}" data-lcs-profile="${esc(profile)}"${ctx && ctx.screen ? ` data-lcs-bin="${esc(k)}" data-lcs-label="${esc(bankLoc.animals[k].name)}"` : ''}>` +
         `<img class="ws-icon" src="${esc(fileUri(theme, n.noun))}" alt="" data-lcs-noun="${esc(n.noun)}" data-lcs-unit="${esc(k)}" style="width:44px;height:44px"><span>${esc(bankLoc.animals[k].name)}</span></span>`;
     });
     const bankHtml = `<div class="ws-scene-banner ws-bank ws-bank--icons" data-lcs-bank-banner data-lcs-bank-n="${plan.bank.length}" style="margin:0;flex:0 0 auto;flex-wrap:wrap">${tiles.join('')}</div>`;
@@ -568,7 +582,8 @@ module.exports = {
       const nm = bankLoc.animals[c.answer].name;
       for (const cl of clues) if (wordRe(nm).test(cl.text)) throw new Error(`G2-318: clue "${cl.text}" names the answer "${nm}"`);
       for (const cl of clues) if (len(cl.text) > 40) throw new Error(`G2-318: ${loc} clue "${cl.text}" is ${len(cl.text)} chars > 40`);
-      return riddleCard({ n: i + 1, clues, answer: c.answer, prompt, nameLabel, cluesW: d.cluesW || 300, laneW: d.nameLaneW || 165, drawW: d.riddleDrawW || 146, drawH: d.riddleDrawH || 140, minH: d.cardMin || 180, glyphH: d.nameGlyphH || 26 });
+      return riddleCard({ n: i + 1, clues, answer: c.answer, prompt, nameLabel, cluesW: d.cluesW || 300, laneW: d.nameLaneW || 165, drawW: d.riddleDrawW || 146, drawH: d.riddleDrawH || 140, minH: d.cardMin || 180, glyphH: d.nameGlyphH || 26,
+        ...(ctx && ctx.answerKey ? { keyName: nm } : {}), ...(ctx && ctx.screen ? { drop: true } : {}) });
     });
     const stamps = ['data-ws-content', 'data-lcs-type="animal-fact-file"', 'data-lcs-face="mystery"', 'data-lcs-mode="mystery"',
       `data-lcs-theme="${esc(theme)}"`, `data-lcs-locale="${loc}"`, `data-lcs-puzzles="${nP}"`, `data-lcs-bank-size="${nB}"`, `data-lcs-clues="${nC}"`,
@@ -756,9 +771,11 @@ function VERIFY_CARD(face) {
             if (!choice) fails.push(`row ${f}: no choice row`);
             else {
             const chips = [...choice.querySelectorAll('[data-lcs-opt]')];
-            const n = +r.dataset.lcsN, ci = +r.dataset.lcsCorrect;
+            const n = +r.dataset.lcsN, ci = +r.dataset.lcsCorrectIndex;
             if (chips.length !== n || (f !== 'fly' && f !== 'swim' ? n !== +ds.lcsChoices : n !== 2)) fails.push(`row ${f}: ${chips.length} chips (stamp ${n}, config ${ds.lcsChoices})`);
-            if (!(ci >= 0 && ci < chips.length)) fails.push(`row ${f}: correct index ${r.dataset.lcsCorrect} out of range`);
+            if (!(ci >= 0 && ci < chips.length)) fails.push(`row ${f}: correct index ${r.dataset.lcsCorrectIndex} out of range`);
+            // the generic marks agree with the row's index: every chip a choice, exactly the indexed one correct
+            if (chips.some((c) => !c.hasAttribute('data-lcs-choice')) || chips.filter((c) => c.hasAttribute('data-lcs-correct')).length !== 1 || (chips[ci] && !chips[ci].hasAttribute('data-lcs-correct'))) fails.push(`row ${f}: the chips' choice / correct marks ≠ the row's index ${ci}`);
             const keys = chips.map((c) => c.dataset.lcsOpt);
             if (new Set(keys).size !== keys.length) fails.push(`row ${f}: chip keys repeat (${keys.join(',')})`);
             const texts = chips.map((c) => c.textContent.trim());
@@ -801,7 +818,7 @@ function VERIFY_CARD(face) {
         });
         if (face === 'tick') {
           const n = +ds.lcsChoices;
-          const wide = rows.filter((r) => +r.dataset.lcsN === n).map((r) => +r.dataset.lcsCorrect);
+          const wide = rows.filter((r) => +r.dataset.lcsN === n).map((r) => +r.dataset.lcsCorrectIndex);
           const seen = new Set(wide);
           if (seen.size < Math.min(n, wide.length)) fails.push(`the correct index takes only positions ${[...seen].join(',')} over ${wide.length} ${n}-chip rows (a position bot wins)`);
           rows.forEach((r) => { if (![...r.attributes].some((a) => a.name.startsWith('data-lcs-fact-'))) fails.push(`row ${r.dataset.lcsField}: no fact stamp on a verifiable row`); });

@@ -3,22 +3,118 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**PLANNED TEMPLATES NOT YET BUILT (audit 2026-11-02, NEW-TEMPLATES.md against the type files — build each before its
-maker counts as done; a template withdrawn for a reason stays listed with the reason):**
-- Symmetry & Grid Copy §21: T1 grid copy of library art · T4 enlarge on the grid · T5 turn the picture a quarter.
-- Same & Different §23: T3 match the close-up WITHDRAWN (no browser-safe proof of one answer); T4 twin among
-  look-alikes (turned and flipped) · T5 overlapping outlines (which pictures are hiding?) — not built.
-- Sorting §24: T3 who does not belong in the bin · T4 sort by a reviewed rule (refused so far: "no per-key review" — the
-  review is the work, not a reason) · T5 sorting mats and picture cards to cut.
-- Dot to Dot §25: T3 number-word dot-to-dot · T4 even dots only · T5 capital–small alternating.
-- Color by Number §26: T2 colour by odd / even · T5 colour by number word · T6 colour by your own key (ungraded).
-- Coloring Pages §27: T4 big and small · T5 colour and write a sentence · T6 mini colouring booklet (fold).
-- Mazes §28: T1 the grid maze's trace-path screen (K-242 has the picture slots) · T3 collect the letters · T4 write
-  the directions · T5 three exits · T6 pattern maze.
-- Find the Differences §29: T1–T5 · How to Draw §30: T1–T5 · Picture Tracing §31: T1–T4.
-- Number Tracing §20: T3 dotted numbers to 50 / 100 on a grid · T5 number formation poster (T1 = K-467, T2 = K-468).
+**PLANNED TEMPLATES: all built (audit 2026-11-03).** The B2/B3 list of 2026-11-02 was built after the B3 commit:
+symmetry K-502–504, same-different K-508–509, sorting K-510–512, dot-to-dot K-505–507, color-by-number G1-487 K-513
+K-514, coloring pages G1-488 K-515 K-516, mazes K-242 screen + K-484–487, find-the-differences K-488–492, how-to-draw
+K-493–497, picture tracing K-498–501, number tracing K-517 K-518. Same & Different §23 T3 stays WITHDRAWN (no
+browser-safe proof of one answer).
 
-**NEXT:** B3 in ARCHITECTURE §14 order — mazes, find-the-differences, how-to-draw, picture-tracing (same-different, sorting, dot-to-dot, color-by-number, coloring-pages built 2026-11-02; logic-puzzles is built); then B4–B7 (health-safety is NOT built: operator 2026-11-02). Mazes: K-405 family verify runs analyzeSvg in the maker (page.live), b8-common reads through the platform; still to do — real levels from data/hmx/levels.js, pinned fast seeds per (face, level[, locale]), the strands seam, the picture-path face (category rule on the sound machinery). Live republish queue on the server: fix1115 (dot-to-dot wording, 702) → fix1119 (beginning-sound bank, 49); local: fix1106 (traced j, 2,201) and fix1120 (chicken = hen, 240) → compare, upload, queue. After the queue: restore injections once, clean server + local.
+**NEXT:** every maker of ARCHITECTURE §14 is built (B1–B7; health-safety NOT built, operator 2026-11-02). The goal's
+final phase, locally: test and analyse every template of every maker — `sweep-templates.js` over every built template
+(every offered theme × level × 11 languages × 3 copies), the full gate suite, a visual read of every template (contact
+sheets), every finding fixed at its source; no maker deploy until all are finalized; then activities resume at ORDER
+row 177. Open, noted 2026-11-02 and not re-verified since: mazes — real levels from data/hmx/levels.js, the strands seam,
+the picture-path face. Server republish queue (operator ssh): fix1115 (702) → fix1119 (49); local fix1106 (2,201) and
+fix1120 (240); then the B5–B7 vocabulary / bank scans listed in the B7 entry below.
+
+
+## Final phase, round 1 — what bundling every maker and its gates found (2026-11-03)
+
+The first full build of all 59 makers (`build-bundles --makers=<all>`, then screens, thumbnails, the gate suite) found
+these, each fixed at its source:
+
+- **Banks that still spelled the old picture words.** The 2026-10/11 vocabulary reviews changed 43 approved words (hen
+  not chicken, es-MX lancha / tina / bolsa / fólder, no pinnsvin = hedgehog, sv diskbänk, it macchina …), but
+  `scripts/v2-data/vocabulary-phonics.json` still described the old ones, so the safety pipeline kept or quarantined the
+  stale word. 34 phonics rows follow the new words, two new picture keys got rows (construction-crane, metal-nail),
+  the pipeline re-ran in all 11 languages (diff: only those keys moved). Then every bank that PRINTS its own word:
+  sound-boxes (14 rows threw "joins to <old word>", so the theme vanished from the maker), syllable-reading,
+  letter-of-the-week (+ its Level Set), spelling-rules, digraphs (+ draft), the syllable count/sort banks (rebuilt by
+  `tools/build-syllable-banks.js`); stale items take the new word and its approved split, items whose letter / unit /
+  rule the new word no longer shows are dropped. nl/da letter-of-the-week paired the fingernail word with the
+  hardware-nail picture (now body parts/nail); fr "tournesol = tourne + sol" pictured "sol" (= floor to a child) with a
+  sun — dropped. **Gate:** build-bundles now FAILS on any "fix data/" error instead of silently dropping the theme.
+- **Browser-only failures** (Node renders cannot see them): the family portraits are binary (served now as
+  `/makers-assets/family-portraits/`, platform `fileHref`; release-pack + serve.js carry them; parity compares bytes);
+  K-065–K-067 had no content stamp; K-546–K-549's pastel landmark shapes are governed art (`pos-scene`); the
+  free-claim lint read the whole page (a Danish story's wrong answer "Kringlen var gratis") — now the sheet's chrome
+  only, poison-tested both ways; reading comprehension's story pool was never recorded (build-bundles now records one
+  fresh-seed retry per level) and every maker copy rebuilt the published story — copies now walk the native story list;
+  G2-274 fr ran 33 px into the footer on the published page (fixed there too: in-place republish).
+- **Level 2 in the maker is never the catalogue's published page** (`runtime.js`: maker level-2 copy k = the type's copy
+  k + 1). ~80 templates offered no level-2 screen because their published page skips the screen and key marks; their
+  level 2 now carries the Level Set's reviewed content, its screen and its key. Deck presets map level-2 copy v to maker
+  copy v − 1 (the same page; the published deck itself opens copy 1).
+- **Every template has a verdict and, where one answer exists, a key and a screen.** 44 templates were unclassified:
+  open writing / personal pages → many-answers, cut-outs → material, copying / drawing → writing (with NO_KEY reasons);
+  the rest got answer marks: position words, Read and Color (tap-select, or painting with the legend's colours where
+  every picture is coloured; "stop at the number" = any n of the pool, none of the others), map faces (top-view pairs,
+  compass letters, continent names, direction chips), grid coordinates (every cell a candidate; the inverse face types
+  the codes as a word set — the runtime's sets now take words), match word ↔ picture, missing letter / build the word,
+  the fact files (true-fact chips as generic choices, the word bank as a palette, the mystery animals as a palette).
+  The maker now builds tap-order and tap-edit screens too (K-321, G1-320, G1-245, G1-262–264, G2-274/281/282/307/311).
+- **who-does-it (G3-398):** the Danish tailor is a woman (the picture), «syerske» is right — the Level Set drop rested on
+  a wrong premise; Norwegian «syer» / «bygger» left the published bank (judge «dommer», cashier «kasserer» instead).
+
+Live pages to republish in place (server, operator ssh): every deck that printed one of the replaced bank words (the
+scan list: `docs/makers/republish-2026-11-03-bank-words.json`), the no G3-398 deck, the fr G2-274 level-2 deck.
+
+## B3 extras, B4 writing, B5 + B6 literacy, B7 social + puzzles — the rest of the makers (2026-11-02 / 03)
+
+Uncommitted across several sessions, committed together 2026-11-03 (vocabulary `0bd247d8b`, picture indexes `f7ba6e519`,
+the makers in the commit that carries this entry). Each maker: the type files of its topic + the NEW-TEMPLATES rows,
+strings ×11, ONE native + pedagogy reviewer per maker batch over a compact text dump of the rendered pages (sequential,
+never a fan-out), every finding fixed at its source and re-checked, renders read.
+
+- **B4 writing** — pre-writing (K-481… cutting practice), letter-tracing, word-writing, cursive (G2-480–483), tangram.
+- **B5 literacy A** — alphabet (letter-pictures.json: up to three reviewed first-sound pictures per letter), phonics
+  (K-535 K-536 G1-493–495), rhyming (K-537–539), syllables (G1-496 K-540 K-541), sight words, picture cards (K-542–545),
+  position words (K-546–549, lcs-grammar frames), nouns & articles (G1-522 K-561 K-562 G1-523; Nordic definite forms
+  as reviewed literals, data/nouns-articles/definite-nordic.js; fi refused where a number takes the partitive), and the
+  Spelling maker (G1-517–521, G2-492, K-560: misspellings of ONE real error each, never a word of the language — a
+  50k-word frequency list per language, data/spelling/rivals.js; units, so nl ij is one letter).
+- **B6 literacy B** — grammar (G1-497 G1-498 G2-484 G2-485 …), word meaning (K-550 K-551 G1-499 G2-487), sentences
+  (K-552 K-553 G1-500–502 …), reading (G1-504 G1-505 G2-488 K-554), stories & writing (G1-506–510 K-555), word
+  problems (G1-511–513 G2-489), number of the day (G1-514 G2-490 …), ordinal numbers (G1-515 G1-516 K-558).
+- **B7 social + puzzles** — calendar (G1-524–527), maps & grids (G1-528 G1-529 K-563 G1-530 G2-493), me / family /
+  feelings (K-564 K-565 G1-531 K-566), word search (G1-532 K-567 G2-494 G1-533 G1-534 K-568: lib/puzzles/grid-fill.js,
+  the 11 blocklists' union never spelled in any direction — a run inside ONE placed word is exempt), crossword (G1-535–538
+  G2-495: lib/puzzles/crossword-layout.js, the fill-in proved unique with ONE given word), secret code (G1-539–542
+  G2-496: types/_shared/cryptogram.js, A = 1 in the language's own alphabet), bingo (K-569–578 G1-543–546: seven games
+  and their caller cards, types/_shared/bingo.js — the pool of a level never depends on the page, the cards of a page are
+  ranks of a scrambled bijection so no two cards of a class are the same set; one word per sound-alike group, one letter
+  per first sound, no look-alike pictures).
+
+**The B7 review (2026-11-03), 47 findings + 2 re-check rounds** — fixed at the source: letter-sound bingo kept two
+letters for one first sound (en c/k, de f/v, es b/v/z, fr e/é …) → one letter per sound (alphabet SAME_SOUND + pt u/w,
+fi d/t f/v, nl envelop / da ovn out); sight-word bingo held sound-alikes (fr et/est, de den/dem, da og/at, sv vad/var …)
+→ a reviewed homophone table; caller sentences held other pool words → the cleanest of six, a bingo-only sentence table
+where all six clash; the thermometer coloured «up to how you feel» (fr ungrammatical) and offered «what helps me» under
+«happy»; the feelings cards promised a memory game on every level; fill-in crosswords wrote in up to half their words;
+Sum Bingo L3 used Grade 2 regrouping sums → 1.NBT.C.4 forms; the phrase bank's calques; fr/pt/it 12 o'clock is midi /
+meio-dia / mezzogiorno (the activities' native rows; «douze heures moins vingt» is not said); fi essive day choices and
+«______kuussa». Declined with reasons: en «past» and da «ti minutter over» (the native-verified activity rows), the
+masculine feeling words (the published K-319 bank), es «Leo por la noche.» (correct Spanish), accented French capitals.
+
+**Bundling all 59 makers (2026-11-03).** The B5–B7 makers had been rendered in Node only — `out/makers/versions.json`
+held the 36 makers built through B4, and the default `build-bundles.js` run builds only those (a new maker joins with
+`--makers=`; build all of them in ONE run: a partial run rewrites the shared data folder with only its makers' data).
+Building them in the browser bundle found, each fixed at its source: a computed `require` (primitives/bankword-width.js
+→ a literal path); `fs` in eleven Level Set data reads (K-317 K-319 G1-249 G1-307 G1-309 G1-350 G1-352 G1-380 G2-274
+G2-316 G2-359, data/literacy/reading-passages-levels.js → `platform.exists` / `readJson`, byte-identical in Node); a Node
+gate pulled in through a data module (data/b5/synonyms.js → `platform.requireData`); the reading screen importing a
+Node tool (→ lib/rc-text.js); `new Function` in G1-308's verify (→ the helpers travel as function expressions in one
+evaluate string); an unguarded `process.env` (lib/b3-picture-index.js). **Levels per language:** the build filtered
+themes in English and refused a whole language when one level failed there — adjective agreement (English has no
+gender), the Vowel King (silent e) and the syllable scramble (few English syllable-safe words) vanished in EVERY
+language, K-288 (Italian-only level 3) everywhere. Now each language offers the levels it builds with the themes good
+at all of them (`templates.json` `localeLevels` / `levelRefused`, named in the build report, never silent; the shell,
+build-screens and the gates read them); `spec.onlyLocales` for a template taught in some languages only (K-540).
+
+**Live consequences (server, operator):** the vocabulary fixes of `0bd247d8b` — scan the live decks printing the old
+words (crayons de/fr/nl/fi, violet de/it/nl/sv/no/fi, da æsel / trapez / parasaurolophus, sv trapets, no Helikoptere,
+fr Excavatrice, es Bote) and republish them in place; copy the picture indexes of `f7ba6e519` to
+/var/www/lcs-media/mini-tools/pictures/. App decks: the operator regenerates.
 
 
 ## B3: Find the Differences, How to Draw, Picture Tracing — the makers (2026-11-02; their planned new templates follow)

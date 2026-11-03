@@ -219,13 +219,17 @@ module.exports = {
       do { nums = W.drawG1(kind, d, rng); guard++; } while ((!nums || usedNums.has([nums.n1, nums.n2, nums.n3].join())) && guard < 400);
       if (!nums) throw new Error(`G1-213: no numbers for ${kind} at ${JSON.stringify(d)}`);
       usedNums.add([nums.n1, nums.n2, nums.n3].join());
-      const list = W.framesFor(loc, kind);
-      const free = list.map((f, k) => k).filter((k) => !usedFrames.has(kind + k));
-      const fk = rng.pick(free.length ? free : list.map((f, k) => k));
-      usedFrames.add(kind + fk);
-      const name = rng.pick(names);
-      const name2 = rng.pick(names.filter((n) => n !== name));
       const noun = nouns[i];
+      // d.newPage (a face born after the Level Set, G1-511): no big thing in a bag or a basket, es asks "¿Cuántos…?",
+      // and two names a child tells apart (never Louis / Louise) — the published Level Set draw is unchanged
+      let list = W.framesFor(loc, kind);
+      if (d.newPage) { const all = list.map((f) => W.newFrame(f, loc)), fit = all.filter((f) => W.frameFits(f, noun.noun, loc)); list = fit.length ? fit : all; }
+      const fkey = (k) => (d.newPage ? kind + list[k] : kind + k);
+      const free = list.map((f, k) => k).filter((k) => !usedFrames.has(fkey(k)));
+      const fk = rng.pick(free.length ? free : list.map((f, k) => k));
+      usedFrames.add(fkey(fk));
+      const name = rng.pick(names);
+      const name2 = rng.pick(names.filter((n) => n !== name && (!d.newPage || n.slice(0, 4) !== name.slice(0, 4))));
       const sentence = W.fill(list[fk], { name, name2, n1: nums.n1, n2: nums.n2, n3: nums.n3, noun: noun.text, gender: noun.gender }, loc);
       return { kind, ...nums, name, name2, noun: noun.noun, vocabKey: noun.vocabKey, frame: kind + fk, sentence, boxes: kind === 'compare' && !/{name2}/.test(list[fk]) };
     });

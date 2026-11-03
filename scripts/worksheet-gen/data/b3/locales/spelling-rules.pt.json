@@ -1379,22 +1379,6 @@
           "pluralGap": null
         },
         {
-          "theme": "furniture",
-          "noun": "lamp",
-          "vocabKey": "lamp",
-          "word": "lâmpada",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 1
-            }
-          ],
-          "g": "m",
-          "side": "rule",
-          "plural": "lâmpadas",
-          "pluralGap": null
-        },
-        {
           "theme": "music",
           "noun": "trumpet",
           "vocabKey": "trumpet",

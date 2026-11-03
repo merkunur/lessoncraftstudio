@@ -22,6 +22,16 @@
  * themeAxis OFF; the letter sample + derangement (or blank positions) = variety.
  */
 'use strict';
+const { keyNumber } = require('./key-number.js');
+
+/*
+ * The maker's answer key and screen (2026-11-02): marks stamped on the KEY and SCREEN builds only (mk = 'key' | 'screen',
+ * from ctx.answerKey / ctx.screen); the catalogue page carries none and is byte-unchanged.
+ *   upper-lower       key: each capital numbered, each small letter the number of its capital · screen: tap-to-pair
+ *   missing-alphabet  every blank an empty answer box holding its letter (key writes it, screen types it)
+ *   find-letter-grid  every letter a tap candidate, the targets correct (key: ringed)
+ *   vowel-consonant   every letter a drop spot answered by its bin, the bins the palette (key: bin numbers)
+ */
 
 const SCOPED_CSS = `
 .lit-lk{flex:1 1 auto;display:flex;align-items:stretch;justify-content:center;min-height:0;padding:6px 0}
@@ -33,10 +43,10 @@ const SCOPED_CSS = `
 .lit-lk-target{display:flex;align-items:center;justify-content:center;gap:14px;padding:6px 0 16px}
 .lit-lk-target-chip{display:flex;align-items:center;justify-content:center;width:64px;height:64px;background:#146B5E;color:#FFFFFF;border-radius:16px;font-family:'Baloo 2',cursive;font-weight:700;font-size:38px}
 .lit-lk-grid{flex:1 1 auto;display:grid;gap:14px;justify-content:center;align-content:space-evenly}
-.lit-lk-sort{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:120px;min-height:0;padding:6px 0}
+.lit-lk-sort{flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:40px;min-height:0;padding:6px 0}
 .lit-lk-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;padding:4px 0 10px}
 .lit-lk-bins{display:flex;justify-content:space-evenly;align-items:flex-end;gap:24px;padding-top:24px}
-.lit-lk-bin{flex:1 1 0;max-width:280px;height:190px;background:#FFFFFF;border:3px solid #146B5E;border-top:3px dashed #146B5E;border-radius:0 0 18px 18px;position:relative}
+.lit-lk-bin{flex:1 1 0;max-width:300px;height:280px;background:#FFFFFF;border:3px solid #146B5E;border-top:3px dashed #146B5E;border-radius:0 0 18px 18px;position:relative}
 .lit-lk-bin-label{position:absolute;top:-26px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#FBF3E4;border:2.5px solid #146B5E;border-radius:999px;padding:6px 18px;font-family:'Baloo 2',cursive;font-weight:700;font-size:17px;color:#146B5E}
 `;
 
@@ -58,11 +68,12 @@ function makeLitLetterKnowledge(cfg) {
       const rng = ctx.rng;
       const d = this.difficulty[difficulty] || this.difficulty[2];
       const alphabet = (alphabets[locale] || alphabets.en || 'abcdefghijklmnopqrstuvwxyz').split('');
+      const mk = ctx && ctx.answerKey ? 'key' : ctx && ctx.screen ? 'screen' : null;
 
-      if (this.mode === 'missing-alphabet') return buildMissingAlphabet(alphabet, d, rng);
-      if (this.mode === 'find-letter-grid') return buildFindLetterGrid(alphabet, d, rng);
-      if (this.mode === 'vowel-consonant') return buildVowelConsonant(alphabet, d, rng, locale, data);
-      return buildUpperLower(alphabet, d, rng);
+      if (this.mode === 'missing-alphabet') return buildMissingAlphabet(alphabet, d, rng, mk);
+      if (this.mode === 'find-letter-grid') return buildFindLetterGrid(alphabet, d, rng, null, mk);
+      if (this.mode === 'vowel-consonant') return buildVowelConsonant(alphabet, d, rng, locale, data, mk);
+      return buildUpperLower(alphabet, d, rng, mk);
     },
 
     async verify(page) {
@@ -99,7 +110,7 @@ function makeLitLetterKnowledge(cfg) {
 }
 
 /* --- upper-lower match --- */
-function buildUpperLower(alphabet, d, rng) {
+function buildUpperLower(alphabet, d, rng, mk) {
   const n = Math.min(d.n, alphabet.length);
   const letters = rng.sample(alphabet, n);
   let order;
@@ -110,13 +121,15 @@ function buildUpperLower(alphabet, d, rng) {
   const tile = Math.min(78, itemH - 18);
   const fs = Math.round(tile * 0.6);
 
-  const left = letters.map((ch) =>
-    `<div class="ws-match-item" style="width:170px;height:${itemH}px" data-lk-left="${ch}">` +
+  const left = letters.map((ch, i) =>
+    `<div class="ws-match-item" style="width:170px;height:${itemH}px" data-lk-left="${ch}"` +
+    (mk === 'key' ? ` data-lcs-pair="${i + 1}">${keyNumber(i + 1)}` : mk === 'screen' ? ` data-lcs-key-badge="u${i + 1}">` : '>') +
     `<span class="lit-lk-mtile lit-letter" style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch.toUpperCase()}</span>` +
     `<span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
   const right = order.map((srcIdx) => {
     const ch = letters[srcIdx];
-    return `<div class="ws-match-item ws-match-item--plain" style="width:170px;height:${itemH}px" data-lk-right="${ch}">` +
+    return `<div class="ws-match-item ws-match-item--plain" style="width:170px;height:${itemH}px" data-lk-right="${ch}"` +
+      (mk === 'key' ? ` data-lcs-key-badge="${srcIdx + 1}">` : mk === 'screen' ? ` data-lcs-pair="u${srcIdx + 1}">` : '>') +
       `<span class="ws-match-dot ws-match-dot--left"></span>` +
       `<span class="lit-lk-mtile lit-letter" style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span></div>`;
   }).join('');
@@ -131,18 +144,18 @@ function buildUpperLower(alphabet, d, rng) {
 }
 
 /* --- missing-letter-in-alphabet --- */
-function buildMissingAlphabet(alphabet, d, rng) {
+function buildMissingAlphabet(alphabet, d, rng, mk) {
   // blank out d.n positions (never the first), spaced out
   const total = alphabet.length;
   const blankCount = Math.min(d.n, Math.floor(total / 2));
   const candidatePositions = alphabet.map((_, i) => i).filter((i) => i > 0);
   const blanks = new Set(rng.sample(candidatePositions, blankCount));
 
-  const tile = 56;
-  const fs = 30;
+  const tile = 66;   // as big as eight to a row allow (2026-11-02: 56 px tiles left half the page blank)
+  const fs = 38;
   const cells = alphabet.map((ch, i) => {
     if (blanks.has(i)) {
-      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}" style="width:${tile}px;height:${tile}px"></span>`;
+      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}"${mk ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px${mk ? `;font:700 ${fs}px/1 'Baloo 2',cursive` : ''}"></span>`;
     }
     return `<span class="lit-lk-cell lit-letter" data-lit-content style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`;
   }).join('');
@@ -156,7 +169,7 @@ function buildMissingAlphabet(alphabet, d, rng) {
 }
 
 /* --- find-letter-in-grid --- */
-function buildFindLetterGrid(alphabet, d, rng, opts) {
+function buildFindLetterGrid(alphabet, d, rng, opts, mk) {
   const target = rng.sample(alphabet, 1)[0];
   const others = alphabet.filter((c) => c !== target);
   const cols = 6, rows = 5, total = cols * rows;
@@ -168,7 +181,7 @@ function buildFindLetterGrid(alphabet, d, rng, opts) {
   const tile = 52, fs = 28;
   const cellsHtml = grid.map((ch) => {
     const isT = ch === target;
-    return `<span class="lit-lk-cell lit-letter" data-lit-content${isT ? ' data-lk-target="1"' : ''} ` +
+    return `<span class="lit-lk-cell lit-letter" data-lit-content${isT ? ' data-lk-target="1"' : ''}${mk ? ` data-lcs-pick="1"${isT ? ' data-lcs-correct="1"' : ''}` : ''} ` +
       `style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`;
   }).join('');
   return {
@@ -183,7 +196,7 @@ function buildFindLetterGrid(alphabet, d, rng, opts) {
 }
 
 /* --- vowel/consonant sort --- */
-function buildVowelConsonant(alphabet, d, rng, locale, data) {
+function buildVowelConsonant(alphabet, d, rng, locale, data, mk) {
   const vowelStr = (data.vowels && (data.vowels[locale] || data.vowels.en)) || 'aeiou';
   const vowelSet = new Set(vowelStr.split(''));
   const lab = data.vcLabels || { vowels: { en: 'Vowels' }, consonants: { en: 'Consonants' } };
@@ -197,13 +210,14 @@ function buildVowelConsonant(alphabet, d, rng, locale, data) {
     ...rng.sample(vowels, Math.min(perBin, vowels.length)).map((c) => ({ ch: c, bin: 'vowel' })),
     ...rng.sample(consonants, Math.min(perBin + 1, consonants.length)).map((c) => ({ ch: c, bin: 'consonant' })),
   ]);
-  const tile = 56, fs = 30;
+  const tile = 64, fs = 36;
+  const binNo = { vowel: 1, consonant: 2 };
   const strip = pick.map((it) =>
-    `<span class="lit-lk-cell lit-letter" data-lit-content data-lk-item="${it.bin}" ` +
-    `style="width:${tile}px;height:${tile}px;font-size:${fs}px">${it.ch}</span>`).join('');
+    `<span class="lit-lk-cell lit-letter" data-lit-content data-lk-item="${it.bin}"${mk === 'screen' ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : ''} ` +
+    `style="width:${tile}px;height:${tile}px;font-size:${fs}px${mk === 'key' ? ';position:relative' : ''}">${it.ch}${mk === 'key' ? keyNumber(binNo[it.bin]).replace('top:6px;right:6px', 'top:-12px;right:-12px') : ''}</span>`).join('');
   const binsHtml =
-    `<div class="lit-lk-bin" data-lk-bin="vowel"><span class="lit-lk-bin-label">${vLabel}</span></div>` +
-    `<div class="lit-lk-bin" data-lk-bin="consonant"><span class="lit-lk-bin-label">${cLabel}</span></div>`;
+    `<div class="lit-lk-bin" data-lk-bin="vowel"${mk === 'screen' ? ' data-lcs-bin="vowel"' : ''}><span class="lit-lk-bin-label">${vLabel}</span>${mk === 'key' ? keyNumber(1) : ''}</div>` +
+    `<div class="lit-lk-bin" data-lk-bin="consonant"${mk === 'screen' ? ' data-lcs-bin="consonant"' : ''}><span class="lit-lk-bin-label">${cLabel}</span>${mk === 'key' ? keyNumber(2) : ''}</div>`;
   return {
     bodyHtml:
       `<style>${SCOPED_CSS}</style>` +

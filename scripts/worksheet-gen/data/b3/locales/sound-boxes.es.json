@@ -618,7 +618,8 @@
     "wrist",
     "writing",
     "zebra",
-    "zinnia"
+    "zinnia",
+    "boat"
   ],
   "bank": {
     "acorn": [
@@ -1801,12 +1802,13 @@
     ],
     "boat": [
       [
-        "b",
-        "o"
+        "l",
+        "a",
+        "n"
       ],
       [
-        "t",
-        "e"
+        "ch",
+        "a"
       ]
     ],
     "bolt": [

@@ -230,7 +230,7 @@ let _ls = null;
 function levelSetData(loc) {
   if (_ls === null) {
     const f = require('path').join(__dirname, '..', '..', 'data', 'b5', 'digraphs-levelset.json');
-    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : {};
+    _ls = require('../../lib/platform/index.js').exists(f) ? require('../../lib/platform/index.js').readJson(f) : {};
   }
   return _ls[loc] || null;
 }

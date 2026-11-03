@@ -25,7 +25,7 @@ let _ls;
 function levelSetFrames() {
   if (_ls === undefined) {
     const p = require('path').join(__dirname, '..', '..', 'data', 'b2', 'unscramble-frames-levelset.json');
-    _ls = require('fs').existsSync(p) ? JSON.parse(require('fs').readFileSync(p, 'utf8')) : {};
+    _ls = require('../../lib/platform/index.js').exists(p) ? require('../../lib/platform/index.js').readJson(p) : {};
   }
   return _ls;
 }

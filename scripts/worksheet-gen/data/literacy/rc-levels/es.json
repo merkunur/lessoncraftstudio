@@ -1384,7 +1384,7 @@
       "correct": 1
      },
      {
-      "q": "¿Qué le gusta a Daniela?",
+      "q": "¿Qué le gusta hacer a Daniela?",
       "choices": [
        "jugar fútbol",
        "dormir temprano",
@@ -1586,7 +1586,7 @@
       "correct": 1
      },
      {
-      "q": "¿Cómo se sentirá la maestra?",
+      "q": "¿Cómo se sentirá la festejada?",
       "choices": [
        "enojada",
        "aburrida",
@@ -3355,7 +3355,7 @@
       "sentence": 3
      },
      {
-      "q": "¿Qué no sabe dibujar nadie?",
+      "q": "¿Qué es lo que nadie sabe dibujar?",
       "choices": [
        "el sol amarillo de la mañana",
        "el águila grande del centro",

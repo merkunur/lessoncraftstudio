@@ -203,7 +203,8 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
       const mode = t.screen === 'marks' ? 'marks' : t.interactive ? 'declared' : null;
       if (!mode) { noInstrument++; continue; }
       for (const loc of LOCS.filter((l) => t.locales.includes(l))) {
-        const lv = mode === 'marks' ? t.screenLevels : t.levels;
+        const lvLoc = ((t.localeLevels && t.localeLevels[loc]) || t.levels);
+        const lv = mode === 'marks' ? t.screenLevels.filter((d) => lvLoc.includes(d)) : lvLoc;
         // each locale is an INDEPENDENT sample (other themes, words and copy numbers → other seeds): the seed does not
         // know the locale, so the same themes and copies would re-measure the same numbers under other labels
         const sample = LOCS.indexOf(loc);

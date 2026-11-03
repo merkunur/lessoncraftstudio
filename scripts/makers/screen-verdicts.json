@@ -4,6 +4,26 @@
     "reason": "real writing practice (tracing, copying, cursive, drawing) — typing cannot stand in for the motor act",
     "ids": [
       "K-482",
+      "K-527",
+      "G1-491",
+      "K-523",
+      "K-524",
+      "K-525",
+      "K-517",
+      "G2-480",
+      "G2-481",
+      "K-518",
+      "K-515",
+      "G1-488",
+      "K-516",
+      "K-491",
+      "K-493",
+      "K-494",
+      "K-495",
+      "K-496",
+      "K-498",
+      "K-499",
+      "K-500",
       "K-483",
       "K-372",
       "K-323",
@@ -12,8 +32,6 @@
       "K-346",
       "G2-318",
       "G2-341",
-      "G2-342",
-      "G2-343",
       "K-005",
       "K-443",
       "K-446",
@@ -21,9 +39,11 @@
       "G2-384",
       "G2-385",
       "G2-386",
-      "G2-387",
       "G3-401",
       "K-285",
+      "K-505",
+      "K-506",
+      "K-507",
       "K-294",
       "K-295",
       "K-296",
@@ -36,6 +56,9 @@
       "K-375",
       "K-332",
       "K-286",
+      "K-502",
+      "K-503",
+      "K-504",
       "K-298",
       "K-299",
       "K-300",
@@ -151,7 +174,9 @@
       "K-476",
       "K-477",
       "K-478",
-      "K-479"
+      "K-479",
+      "G1-519",
+      "K-546"
     ]
   },
   "many-answers": {
@@ -160,13 +185,40 @@
       "K-012",
       "K-335",
       "K-345",
-      "G1-354"
+      "G1-354",
+      "K-514",
+      "G1-525",
+      "G1-526",
+      "K-564",
+      "K-565",
+      "G1-531",
+      "G1-530",
+      "G1-542",
+      "K-554",
+      "K-555",
+      "G1-503",
+      "G1-504",
+      "G1-506",
+      "G1-507",
+      "G1-508",
+      "G1-509",
+      "G1-510",
+      "G1-513",
+      "G1-336"
     ]
   },
   "material": {
     "reason": "classroom material (cards, cut-outs, strips, charts) — nothing to check",
     "ids": [
       "K-481",
+      "K-526",
+      "G2-483",
+      "K-531",
+      "K-534",
+      "K-497",
+      "K-519",
+      "K-520",
+      "K-512",
       "K-455",
       "K-453",
       "G1-452",
@@ -194,17 +246,35 @@
       "G1-481",
       "G2-478",
       "K-466",
-      "K-470"
+      "K-470",
+      "K-566",
+      "G2-493",
+      "K-569",
+      "K-570",
+      "K-571",
+      "K-572",
+      "K-573",
+      "K-574",
+      "K-575",
+      "K-576",
+      "K-577",
+      "K-578",
+      "G1-543",
+      "G1-544",
+      "G1-545",
+      "G1-546",
+      "K-543",
+      "K-544",
+      "K-557",
+      "G1-521",
+      "G1-496",
+      "K-552",
+      "K-541"
     ]
   },
   "later": {
     "reason": "eligible, but the page's marks are not sufficient yet — the needed edit is named per id",
-    "ids": {
-      "K-242": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
-      "K-270": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
-      "K-271": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator",
-      "K-272": "a trace-path screen over the cell graph (ENGINES-ART §8.6): the maze must declare its graph (data-lcs-hm-graph: cell centres, open walls, start / goal mouths) and K-242 a trace-path interactive — a catalogue change (its decks are printable today), so it waits for the operator"
-    }
+    "ids": {}
   },
   "levels": {
     "_note": "per-LEVEL paper-only verdicts for a template whose other levels have a screen: build-screens.js records the text as that level's screenReason (the level is simply not in screenLevels)",
@@ -219,6 +289,10 @@
     },
     "G2-472": {
       "3": "writing: level 3 draws the coins that make each price (any coins that make it are right)"
+    },
+    "K-540": {
+      "1": "material: level 1 is a chart to read — consonant + vowel = syllable, nothing to answer",
+      "3": "writing: level 3 traces each syllable on school lines"
     }
   }
 }

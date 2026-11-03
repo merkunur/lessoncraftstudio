@@ -193,7 +193,6 @@ const SYLLABLE_READING = {
       { key: 'barber', word: 'barber', split: ['bar', 'ber'] },
       { key: 'basket', word: 'basket', split: ['bas', 'ket'] },
       { key: 'basketball', word: 'basketball', split: ['bas', 'ket', 'ball'] },
-      { key: 'beetroot', word: 'beetroot', split: ['beet', 'root'] },
       { key: 'biking', word: 'biking', split: ['bik', 'ing'] },
       { key: 'biscuit', word: 'biscuit', split: ['bis', 'cuit'] },
       { key: 'bonfire', word: 'bonfire', split: ['bon', 'fire'] },

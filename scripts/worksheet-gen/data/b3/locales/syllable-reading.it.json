@@ -112,13 +112,13 @@
         },
         {
           "key": "pomegranate",
-          "word": "melograno",
+          "word": "melagrana",
           "unit": "me",
           "split": [
             "me",
-            "lo",
+            "la",
             "gra",
-            "no"
+            "na"
           ]
         },
         {
@@ -2629,10 +2629,11 @@
     },
     {
       "key": "chicken",
-      "word": "pollo",
+      "word": "gallina",
       "split": [
-        "pol",
-        "lo"
+        "gal",
+        "li",
+        "na"
       ]
     },
     {

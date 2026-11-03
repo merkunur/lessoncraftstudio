@@ -12,7 +12,9 @@
  * multigraph onsets are whole graphemes ("Schaf" → "Sch"), so each locale's
  * item list (with its answer graphemes) is authored independently.
  *
- * cfg: { id, slug, gradeBand, exerciseType, [mode], data, i18n, [difficulty] }
+ * cfg: { id, slug, gradeBand, exerciseType, [mode], data, i18n, [difficulty], [spread] }
+ *   spread  the page's items are drawn answer by answer (round robin over the answer groups), so a page never asks
+ *           the same letter for most of its cards (pt ending sounds are mostly "a"; 2026-11-02)
  *   data = { items: { en:[{theme,noun,answer}], de:[...], ... } }
  *     answer = the target grapheme the child writes (1-3 chars; multigraph-safe)
  *
@@ -47,20 +49,36 @@ function makeLitSoundMatch(cfg) {
     build({ difficulty, locale }, ctx) {
       const rng = ctx.rng;
       const d = this.difficulty[difficulty] || this.difficulty[2];
-      const pool = itemsByLocale[locale] || itemsByLocale.en || [];
+      // a locale without its own items is REFUSED, never given another language's words (K-227 fr/es/it/pt/fi)
+      const pool = itemsByLocale[locale];
+      if (!pool || pool.length < 4) throw new Error(`${cfg.id}: no ${locale} items (refused in this language)`);
       const n = Math.min(d.n, pool.length);
-      const chosen = rng.shuffle(rng.sample(pool, n));
+      let chosen;
+      if (cfg.spread) {
+        const groups = new Map();
+        for (const it of rng.shuffle(pool.slice())) { const k = String(it.answer); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+        const order = rng.shuffle([...groups.keys()]), picked = [], seen = new Set();
+        for (let round = 0; picked.length < n; round++) {
+          let took = false;
+          for (const k of order) { const it = groups.get(k)[round]; if (it && picked.length < n && !seen.has(it.word || it.noun)) { picked.push(it); seen.add(it.word || it.noun); took = true; } }
+          if (!took) break;
+        }
+        chosen = rng.shuffle(picked);
+      } else chosen = rng.shuffle(rng.sample(pool, n));
 
       // grid columns: 4 across when >=4 items (two tidy rows of 4), else one row
       const cols = n >= 4 ? 4 : n;
       const iconPx = n > 6 ? 96 : 110;
       const boxW = Math.max(58, iconPx - 18);
 
+      // the maker's answer key and type-the-answer screen (2026-11-02): the write-in box carries its answer (key and screen
+      // builds only — the catalogue page is byte-unchanged)
+      const mark = !!(ctx && (ctx.answerKey || ctx.screen));
       const cards = chosen.map((it) =>
         `<div class="lit-sm-card" data-lit-item="${it.noun}" data-lit-answer="${String(it.answer || '')}">` +
         `<div class="lit-sm-pic ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
         `style="width:${iconPx}px;height:${iconPx}px"></div>` +
-        `<div class="lit-sm-box" style="width:${boxW}px;height:54px"></div>` +
+        `<div class="lit-sm-box"${mark ? ` data-lcs-answer="${String(it.answer)}"` : ''} style="width:${boxW}px;height:54px"></div>` +
         `</div>`).join('');
 
       return {

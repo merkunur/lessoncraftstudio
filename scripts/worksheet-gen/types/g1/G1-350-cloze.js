@@ -133,7 +133,7 @@ let LS_CACHE;
 function levelSetData() {
   if (LS_CACHE !== undefined) return LS_CACHE;
   const f = require('path').join(__dirname, '..', '..', 'data', 'b4', 'cloze-levelset.json');
-  LS_CACHE = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  LS_CACHE = require('../../lib/platform/index.js').exists(f) ? require('../../lib/platform/index.js').readJson(f) : null;
   return LS_CACHE;
 }
 /** The published block + the panel's new content for a locale (a new object; the bank module is never mutated). */

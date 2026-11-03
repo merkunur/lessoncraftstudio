@@ -2461,6 +2461,45 @@
       "da": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes.",
       "no": "To bildepar: se på bilde 1 i hvert par, og trykk så på hvert sted i bilde 2 som er annerledes.",
       "fi": "Kaksi kuvaparia: katso jokaisen parin kuvaa 1 ja napauta sitten kuvasta 2 jokaista kohtaa, joka on erilainen."
+    },
+    "marks:K-488": {
+      "en": "Tap the picture that is different. When you're done, tap Check Answers.",
+      "de": "Tippe auf das Bild, das anders ist. Wenn du fertig bist, tippe auf „Antworten prüfen“.",
+      "fr": "Touche l’image qui est différente. Quand tu as fini, touche « Vérifier les réponses ».",
+      "es": "Toca la imagen que es diferente. Cuando termines, toca “Comprobar respuestas”.",
+      "pt": "Toque na figura que é diferente. Quando terminar, toque em “Verificar respostas”.",
+      "it": "Tocca l’immagine diversa. Quando hai finito, tocca «Controlla risposte».",
+      "nl": "Tik op het plaatje dat anders is. Ben je klaar? Tik dan op ‘Antwoorden controleren’.",
+      "sv": "Tryck på bilden som är annorlunda. Tryck på ”Kontrollera svar” när du är klar.",
+      "da": "Tryk på det billede, der er anderledes. Tryk på ”Kontroller svar”, når du er færdig.",
+      "no": "Trykk på bildet som er annerledes. Trykk på «Sjekk svar» når du er ferdig.",
+      "fi": "Napauta kuvaa, joka on erilainen. Kun olet valmis, napauta ”Tarkista vastaukset” -painiketta."
+    },
+    "marks:K-490": {
+      "en": "Look at picture 1 for as long as you like, then tap it to hide it. Now tap every change in picture 2. When you're done, tap Check Answers.",
+      "de": "Schau dir Bild 1 so lange an, wie du möchtest, und tippe dann darauf, um es zu verdecken. Tippe jetzt auf jede Veränderung in Bild 2. Wenn du fertig bist, tippe auf „Antworten prüfen“.",
+      "fr": "Regarde l’image 1 aussi longtemps que tu veux, puis touche-la pour la cacher. Touche ensuite chaque changement dans l’image 2. Quand tu as fini, touche « Vérifier les réponses ».",
+      "es": "Observa la imagen 1 todo el tiempo que quieras y luego tócala para esconderla. Ahora toca cada cambio en la imagen 2. Cuando termines, toca “Comprobar respuestas”.",
+      "pt": "Olhe a figura 1 pelo tempo que quiser e depois toque nela para escondê-la. Agora toque em cada mudança na figura 2. Quando terminar, toque em “Verificar respostas”.",
+      "it": "Guarda l’immagine 1 per tutto il tempo che vuoi, poi toccala per nasconderla. Ora tocca ogni cambiamento nell’immagine 2. Quando hai finito, tocca «Controlla risposte».",
+      "nl": "Kijk zo lang als je wilt naar plaatje 1 en tik er dan op om het te verstoppen. Tik nu op elke verandering in plaatje 2. Ben je klaar? Tik dan op ‘Antwoorden controleren’.",
+      "sv": "Titta på bild 1 så länge du vill och tryck sedan på den för att gömma den. Tryck nu på varje ändring i bild 2. Tryck på ”Kontrollera svar” när du är klar.",
+      "da": "Kig på billede 1, så længe du vil, og tryk så på det for at skjule det. Tryk nu på hver ændring i billede 2. Tryk på ”Kontroller svar”, når du er færdig.",
+      "no": "Se på bilde 1 så lenge du vil, og trykk så på det for å skjule det. Trykk nå på hver endring i bilde 2. Trykk på «Sjekk svar» når du er ferdig.",
+      "fi": "Katso kuvaa 1 niin kauan kuin haluat ja piilota se sitten napauttamalla sitä. Napauta nyt jokaista kuvan 2 muutosta. Kun olet valmis, napauta ”Tarkista vastaukset” -painiketta."
+    },
+    "marks:K-492": {
+      "en": "Tap the two pictures that are exactly the same. When you're done, tap Check Answers.",
+      "de": "Tippe auf die zwei Bilder, die ganz genau gleich sind. Wenn du fertig bist, tippe auf „Antworten prüfen“.",
+      "fr": "Touche les deux images qui sont exactement pareilles. Quand tu as fini, touche « Vérifier les réponses ».",
+      "es": "Toca las dos imágenes que son exactamente iguales. Cuando termines, toca “Comprobar respuestas”.",
+      "pt": "Toque nas duas figuras que são exatamente iguais. Quando terminar, toque em “Verificar respostas”.",
+      "it": "Tocca le due immagini identiche. Quando hai finito, tocca «Controlla risposte».",
+      "nl": "Tik op de twee plaatjes die precies hetzelfde zijn. Ben je klaar? Tik dan op ‘Antwoorden controleren’.",
+      "sv": "Tryck på de två bilder som är precis likadana. Tryck på ”Kontrollera svar” när du är klar.",
+      "da": "Tryk på de to billeder, der er helt ens. Tryk på ”Kontroller svar”, når du er færdig.",
+      "no": "Trykk på de to bildene som er helt like. Trykk på «Sjekk svar» når du er ferdig.",
+      "fi": "Napauta kahta kuvaa, jotka ovat täsmälleen samanlaiset. Kun olet valmis, napauta ”Tarkista vastaukset” -painiketta."
     }
   },
   "maze-puzzles": {
@@ -3427,6 +3466,36 @@
       "da": "Se på mønstret på toget. Tryk under hver tom vogn på det billede, der skal være i den.",
       "no": "Se på mønsteret på toget. Trykk under hver tom vogn på bildet som skal være i den.",
       "fi": "Katso junan jonoa. Napauta jokaisen tyhjän vaunun alta kuva, joka kuuluu siihen vaunuun."
+    }
+  },
+  "mazes": {
+    "mz-grid": {
+      "en": "Start at the picture at the top. Drag your finger along the paths to the picture at the bottom.",
+      "de": "Fang beim Bild oben an. Zieh mit dem Finger den Weg entlang bis zum Bild unten.",
+      "fr": "Commence à l'image en haut. Fais glisser ton doigt le long des chemins jusqu'à l'image en bas.",
+      "es": "Empieza en el dibujo de arriba. Desliza el dedo por los caminos hasta el dibujo de abajo.",
+      "pt": "Comece no desenho de cima. Arraste o dedo pelos caminhos até o desenho de baixo.",
+      "it": "Parti dal disegno in alto. Trascina il dito lungo i sentieri fino al disegno in basso.",
+      "nl": "Begin bij het plaatje bovenaan. Sleep met je vinger langs de paden naar het plaatje onderaan.",
+      "sv": "Börja vid bilden högst upp. Dra med fingret längs gångarna till bilden längst ner.",
+      "da": "Begynd ved billedet øverst. Træk fingeren langs gangene hen til billedet nederst.",
+      "no": "Begynn ved bildet øverst. Dra fingeren langs gangene til bildet nederst.",
+      "fi": "Aloita ylhäällä olevasta kuvasta. Vedä sormella käytäviä pitkin alhaalla olevaan kuvaan."
+    }
+  },
+  "picture-tracing": {
+    "paint": {
+      "en": "Tap a crayon, then tap every part with the same number.",
+      "de": "Tippe auf einen Stift und dann auf jeden Teil mit derselben Zahl.",
+      "fr": "Touche un crayon, puis touche chaque partie qui porte le même numéro.",
+      "es": "Toca un crayón y luego toca cada parte que tiene el mismo número.",
+      "pt": "Toque em um giz de cera e depois em cada parte que tem o mesmo número.",
+      "it": "Tocca un pastello, poi tocca ogni parte che ha lo stesso numero.",
+      "nl": "Tik op een krijtje en tik dan op elk deel met hetzelfde nummer.",
+      "sv": "Tryck på en krita och sedan på varje del som har samma nummer.",
+      "da": "Tryk på et farvekridt og derefter på hver del, der har samme tal.",
+      "no": "Trykk på en fargestift og deretter på hver del som har samme tall.",
+      "fi": "Napauta väriliitua ja sitten jokaista osaa, jossa on sama numero."
     }
   }
 }

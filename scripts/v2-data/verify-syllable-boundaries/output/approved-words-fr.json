@@ -1,13 +1,13 @@
 {
   "locale": "fr",
-  "generated_at": "2026-05-22T22:19:41.313Z",
+  "generated_at": "2026-11-03T06:42:39.673Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 810,
+  "count_approved": 812,
   "count_quarantined": 453,
   "entries": [
     {
@@ -3751,23 +3751,28 @@
     },
     {
       "key": "chicken",
-      "word": "poulet",
+      "word": "poule",
       "split": [
         "pou",
-        "let"
+        "le"
       ],
       "count": 2,
       "chunks": [
         "pou",
-        "let"
+        "le"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "poule"
+        ]
+      }
     },
     {
       "key": "chili-pepper",
@@ -4384,6 +4389,24 @@
           "confus"
         ]
       }
+    },
+    {
+      "key": "construction-crane",
+      "word": "grue",
+      "split": [
+        "grue"
+      ],
+      "count": 1,
+      "chunks": [
+        "grue"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "content",
@@ -6228,21 +6251,19 @@
     },
     {
       "key": "excavator",
-      "word": "excavatrice",
+      "word": "pelleteuse",
       "split": [
-        "ex",
-        "ca",
-        "va",
-        "tri",
-        "ce"
+        "pel",
+        "le",
+        "teu",
+        "se"
       ],
-      "count": 5,
+      "count": 4,
       "chunks": [
-        "ex",
-        "ca",
-        "va",
-        "tri",
-        "ce"
+        "pel",
+        "le",
+        "teu",
+        "se"
       ],
       "sources_agreed": [
         "rule",
@@ -6253,10 +6274,9 @@
       "notes": {
         "tex_disagreed_with_rule": true,
         "tex_split": [
-          "ex",
-          "ca",
-          "va",
-          "trice"
+          "pel",
+          "le",
+          "teuse"
         ]
       }
     },
@@ -8794,34 +8814,23 @@
     },
     {
       "key": "icicle",
-      "word": "stalactite",
+      "word": "glaçon",
       "split": [
-        "sta",
-        "lac",
-        "ti",
-        "te"
+        "gla",
+        "çon"
       ],
-      "count": 4,
+      "count": 2,
       "chunks": [
-        "sta",
-        "lac",
-        "ti",
-        "te"
+        "gla",
+        "çon"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "sta",
-          "lac",
-          "tite"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "island",
@@ -11252,6 +11261,24 @@
           "ongle"
         ]
       }
+    },
+    {
+      "key": "metal-nail",
+      "word": "clou",
+      "split": [
+        "clou"
+      ],
+      "count": 1,
+      "chunks": [
+        "clou"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "narwhal",
@@ -19322,15 +19349,12 @@
         "vert"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "vocab_change": "2026-11-02 B5 review",
-        "was": "pic"
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "worm",

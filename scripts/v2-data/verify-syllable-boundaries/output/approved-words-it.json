@@ -1,14 +1,14 @@
 {
   "locale": "it",
-  "generated_at": "2026-05-22T22:52:56.685Z",
+  "generated_at": "2026-11-03T06:42:39.698Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 978,
-  "count_quarantined": 285,
+  "count_approved": 981,
+  "count_quarantined": 284,
   "entries": [
     {
       "key": "accordion",
@@ -77,6 +77,36 @@
       ],
       "total_agreed": 3,
       "rule_authoritative": true
+    },
+    {
+      "key": "airplane",
+      "word": "aereo",
+      "split": [
+        "a",
+        "e",
+        "re",
+        "o"
+      ],
+      "count": 4,
+      "chunks": [
+        "a",
+        "e",
+        "re",
+        "o"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "ae",
+          "reo"
+        ]
+      }
     },
     {
       "key": "alarm-clock",
@@ -3428,15 +3458,21 @@
     },
     {
       "key": "camp",
-      "word": "campo",
+      "word": "accampamento",
       "split": [
+        "ac",
         "cam",
-        "po"
+        "pa",
+        "men",
+        "to"
       ],
-      "count": 2,
+      "count": 5,
       "chunks": [
+        "ac",
         "cam",
-        "po"
+        "pa",
+        "men",
+        "to"
       ],
       "sources_agreed": [
         "TeX",
@@ -3714,15 +3750,12 @@
         "na"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "vocab_change": "2026-11-02 B5 review",
-        "was": "automobile"
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "card",
@@ -4428,15 +4461,17 @@
     },
     {
       "key": "chicken",
-      "word": "pollo",
+      "word": "gallina",
       "split": [
-        "pol",
-        "lo"
+        "gal",
+        "li",
+        "na"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
-        "pol",
-        "lo"
+        "gal",
+        "li",
+        "na"
       ],
       "sources_agreed": [
         "TeX",
@@ -5190,6 +5225,24 @@
         "con",
         "fu",
         "so"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "construction-crane",
+      "word": "gru",
+      "split": [
+        "gru"
+      ],
+      "count": 1,
+      "chunks": [
+        "gru"
       ],
       "sources_agreed": [
         "TeX",
@@ -13088,6 +13141,26 @@
       "rule_authoritative": true
     },
     {
+      "key": "metal-nail",
+      "word": "chiodo",
+      "split": [
+        "chio",
+        "do"
+      ],
+      "count": 2,
+      "chunks": [
+        "chio",
+        "do"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "narwhal",
       "word": "narvalo",
       "split": [
@@ -15546,19 +15619,19 @@
     },
     {
       "key": "pomegranate",
-      "word": "melograno",
+      "word": "melagrana",
       "split": [
         "me",
-        "lo",
+        "la",
         "gra",
-        "no"
+        "na"
       ],
       "count": 4,
       "chunks": [
         "me",
-        "lo",
+        "la",
         "gra",
-        "no"
+        "na"
       ],
       "sources_agreed": [
         "TeX",
@@ -21475,17 +21548,15 @@
     },
     {
       "key": "violet",
-      "word": "violetto",
+      "word": "viola",
       "split": [
         "vio",
-        "let",
-        "to"
+        "la"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         "vio",
-        "let",
-        "to"
+        "la"
       ],
       "sources_agreed": [
         "TeX",

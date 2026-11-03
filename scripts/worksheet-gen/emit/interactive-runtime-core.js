@@ -438,6 +438,13 @@ function marksRuntime() {
     // a decimal money box: the amount written with its separator and exactly two decimals ("17,36", never "1736")
     if (m['data-lcs-decimal'] != null) { var dp = v.split(m['data-lcs-decimal']); return dp.length === 2 && /^[0-9]+$/.test(dp[0]) && /^[0-9][0-9]$/.test(dp[1]) && parseInt(dp[0] + dp[1], 10) === a; }
     if (q.num) return parseInt(v, 10) === a;
+    // a WORD set (2026-11-03, the coordinate codes of one colour): any member of the set, each only once, in any order
+    if (set && C.wsets && C.wsets[set]) {
+      var fv = fold(v), me = TY.indexOf(q);
+      if (C.wsets[set].indexOf(fv) < 0) return false;
+      for (var k2 = 0; k2 < me; k2++) if (TY[k2].meta['data-lcs-set'] === set && fold(TY[k2].val) === fv) return false;
+      return true;
+    }
     if (fold(v) === fold(a)) return true;
     var alts = String(m['data-lcs-alts'] || '').split('|');
     for (var j = 0; j < alts.length; j++) if (alts[j] && fold(alts[j]) === fold(v)) return true;
@@ -613,6 +620,10 @@ function marksRuntime() {
       }
       if (part.cls === 'pair') { ink = document.createElementNS(NS, 'svg'); ink.setAttribute('viewBox', '0 0 ' + W + ' ' + H); ink.setAttribute('preserveAspectRatio', 'none'); ink.setAttribute('class', 'lcs-ink'); ink.setAttribute('aria-hidden', 'true'); ov.insertBefore(ink, ov.firstChild); }
     }
+    // a cover (the makers' Look, Fold and Find, 2026-11-02): C.cover is picture 1's box — the child looks at it as long as
+    // they like, then taps it and it stays hidden (the fold of the paper page). Nothing answers before it is hidden (the
+    // page is a memory task: comparing the two pictures side by side is the other template); nothing is graded on it
+    if (C.cover) { phase = 'look'; var cv = mk('lcs-cover', C.cover, C.coverLabel || ''); cv.addEventListener('click', function () { cv.setAttribute('data-on', '1'); cv.disabled = true; phase = 'fill'; paint(); }); }
     if (pad && TY.length) {
       var KEYS = C.keys || [];
       if (C.pad === 'digits') { pad.className = 'lcs-pad'; ['1', '2', '3', '4', '5'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('⌫', back, 'lcs-key--fn', '⌫'); ['6', '7', '8', '9', '0'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('→', function () { step(1); }, 'lcs-key--fn', '→'); if (C.sep) key(C.sep, function () { typeIn(C.sep); }, 'lcs-key--fn', C.sep); }
@@ -646,6 +657,8 @@ const CSS_MARKS = [
   '.lcs-drop img,.lcs-drop svg{max-width:90%;max-height:90%;pointer-events:none}',
   '.lcs-opt[data-state="group-wrong"]{box-shadow:0 0 0 4px #D64545;outline:3px dashed #D64545;outline-offset:3px;background:transparent}',
   '.lcs-pad--symbols{grid-template-columns:repeat(auto-fill,minmax(64px,1fr))}.lcs-pad--symbols .lcs-key{font-size:1.9rem;min-height:56px}',
+  '.lcs-cover{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:16px;cursor:pointer;z-index:2;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
+  '.lcs-cover[data-on="1"]{background:repeating-linear-gradient(135deg,#F5E9D2 0 14px,#FBF3E4 14px 28px);box-shadow:inset 0 0 0 3px #C8BFAE;cursor:default}.lcs-cover:focus-visible{outline:3px solid #146B5E;outline-offset:2px}',
 ].join('\n');
 
 /* ---- validators of the three kinds served by JS_MARKS (2026-11-01) ---- */
@@ -692,6 +705,7 @@ function prepareParts(o) {
     return { cls: p.cls, items: r.bundleItems, answers: r.answers, ...(p.cls === 'type' ? { num: !!p.num } : {}), ...(p.cls === 'select' ? { countGroups: !!p.countGroups, ...(p.sumGroups ? { sumGroups: true } : {}) } : {}), ...(p.cls === 'pair' ? { targets: sub.targets, mutual: !!p.mutual } : {}), ...(p.cls === 'place' ? { bins: sub.bins } : {}) };
   });
   if (!total) throw new Error('interactive-runtime: marks with nothing to answer');
+  if (C.cover) for (const k of ['x', 'y', 'w', 'h']) if (!(Number(C.cover[k]) >= 0 && Number(C.cover[k]) <= 100)) throw new Error('interactive-runtime: the cover ' + k + '=' + C.cover[k] + ' is outside the page');
   const type = out.filter((p) => p.cls === 'type');
   if (type.length) {
     if (!['digits', 'letters'].includes(C.pad)) throw new Error('interactive-runtime: marks with write boxes needs ctx.pad = digits | letters');
@@ -739,7 +753,8 @@ function prepare(o) {
       const G = {};
       for (const it of items) {
         const g = it.meta && it.meta['data-lcs-group'], w = Number(it.meta && it.meta['data-lcs-want']);
-        if (g == null || !Number.isInteger(w) || w < 1) throw new Error('interactive-runtime: countGroups item without a group / want');
+        // a want of 0 is a group to leave untouched (2026-11-03: the extra pictures of "stop at the number", G1-411)
+        if (g == null || !Number.isInteger(w) || w < 0) throw new Error('interactive-runtime: countGroups item without a group / want');
         (G[g] = G[g] || { w, n: 0 }).n++;
         if (G[g].w !== w) throw new Error('interactive-runtime: countGroups group ' + g + ' with two wants');
       }

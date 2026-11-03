@@ -298,7 +298,7 @@
      "sentence": 2
     },
     {
-     "q": "Où Papi pose-t-il l'escargot ?",
+     "q": "Où l'escargot est-il posé ?",
      "choices": [
       "Près des fraises",
       "Près des carottes",
@@ -768,7 +768,7 @@
       "correct": 1
      },
      {
-      "q": "Comment Élise et Gaspard se sentent-ils dans la cabane ?",
+      "q": "Comment les deux enfants se sentent-ils dans la cabane ?",
       "choices": [
        "Ils sont tristes",
        "Ils ont froid",
@@ -2302,7 +2302,7 @@
       "correct": 0
      },
      {
-      "q": "Pourquoi Yanis remet-il le poisson dans l'étang ?",
+      "q": "Pourquoi Yanis remet-il le poisson dans l'eau ?",
       "choices": [
        "Parce qu'il n'aime pas le poisson",
        "Parce qu'il veut le laisser vivre",

@@ -1,0 +1,49 @@
+{
+ "_note": "even / odd as the Odd and Even family (data/b4/locales/odd-and-even.<loc>.json chips) names them, native-reviewed there; copied for the color-by-code parity key (K-241 mode parity, 2026-11-02)",
+ "words": {
+  "en": {
+   "even": "even",
+   "odd": "odd"
+  },
+  "de": {
+   "odd": "ungerade",
+   "even": "gerade"
+  },
+  "fr": {
+   "odd": "impair",
+   "even": "pair"
+  },
+  "es": {
+   "odd": "impar",
+   "even": "par"
+  },
+  "pt": {
+   "odd": "ímpar",
+   "even": "par"
+  },
+  "it": {
+   "odd": "dispari",
+   "even": "pari"
+  },
+  "nl": {
+   "odd": "oneven",
+   "even": "even"
+  },
+  "sv": {
+   "odd": "udda",
+   "even": "jämnt"
+  },
+  "da": {
+   "odd": "ulige",
+   "even": "lige"
+  },
+  "no": {
+   "odd": "oddetall",
+   "even": "partall"
+  },
+  "fi": {
+   "odd": "pariton",
+   "even": "parillinen"
+  }
+ }
+}

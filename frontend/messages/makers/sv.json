@@ -64,7 +64,13 @@
     "mazes": "Labyrinter",
     "find-the-differences": "Finn felen",
     "how-to-draw": "Lär dig rita",
-    "picture-tracing": "Spåra bilder"
+    "picture-tracing": "Spåra bilder",
+    "pre-writing": "Pennträning",
+    "tangram": "Tangram",
+    "letter-tracing": "Spåra bokstäver",
+    "word-writing": "Spåra och skriva ord",
+    "cursive": "Skrivstil",
+    "alphabet": "Alfabetet och bokstäver"
   },
   "editTitle": "Ändra rubriken",
   "editText": "Ändra texten",

@@ -44,14 +44,20 @@ function args(argv) {
  * Returns one option set per (level × theme sample × unit sample × copy): `themes` = how many themes per level (the
  * first colour theme, the first B&W theme, then every k-th colour theme), `units` = how many words, `copies` = variants.
  */
+/** the themes template t offers in language loc */
+function themesIn(t, loc) { return (t.localeThemes && t.localeThemes[loc]) || t.themes; }
+
 function settingsSpace(t, loc, { themes = 2, units = 2, copies = 4, levels = null, sample = 0 } = {}) {
   // sample = 0, 1, 2 …: an INDEPENDENT replicate (other themes, other words, other copy numbers → other seeds): a tell
   // that is the generator's shows in every sample; one that was the luck of a few pages does not (memory 2026-10-06)
   const out = [];
-  const lv = levels || t.levels;
+  const lv = levels || ((t.localeLevels && t.localeLevels[loc]) || t.levels);
   let ths = [null];
   if (t.themed) {
-    const colour = t.themes.filter((x) => !isBw(x)), bw = t.themes.filter(isBw);
+    // the themes the template offers in THIS language (templates.json localeThemes: a theme that cannot give every level
+    // there is not offered — fi fruit words are too long for word-shape boxes)
+    const tl = themesIn(t, loc);
+    const colour = tl.filter((x) => !isBw(x)), bw = tl.filter(isBw);
     const pick = [];
     const at = (list, i) => list[(i * (themes || 1)) % list.length];
     if (colour.length) pick.push(at(colour, sample));
@@ -137,4 +143,4 @@ class Mounter {
   async close() { try { await this.browser.close(); } catch (e) { /* closed */ } fs.rmSync(this.tmp, { recursive: true, force: true }); }
 }
 
-module.exports = { REPO, LOCALES, isBw, builtMakers, args, settingsSpace, loadType, stringsFor, buildPage, buildShown, buildDeclaredScreen, Mounter, runtime };
+module.exports = { REPO, LOCALES, isBw, builtMakers, args, settingsSpace, loadType, stringsFor, buildPage, buildShown, buildDeclaredScreen, Mounter, runtime, themesIn };

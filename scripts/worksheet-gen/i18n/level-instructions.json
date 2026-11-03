@@ -4791,5 +4791,1056 @@
       "no": "Se på streken i hver rad. Finn startprikken blant de tomme prikkene ved siden av, og tegn den samme streken.",
       "fi": "Katso jokaisen rivin viivaa. Etsi viereisistä tyhjistä pisteistä piste, josta viiva alkaa, ja piirrä sama viiva."
     }
+  },
+  "K-485": {
+    "2": {
+      "en": "Follow the path from the green dot to the flag. For each straight part, circle its arrow and write how many steps it has.",
+      "de": "Folge dem Weg vom grünen Punkt bis zur Fahne. Kreise bei jedem geraden Stück den Pfeil ein und schreibe, wie viele Schritte es hat.",
+      "fr": "Suis le chemin du point vert jusqu'au drapeau. Pour chaque ligne droite, entoure sa flèche et écris combien de pas elle compte.",
+      "es": "Sigue el camino desde el punto verde hasta la bandera. En cada tramo recto, encierra su flecha y escribe cuántos pasos tiene.",
+      "pt": "Siga o caminho do ponto verde até a bandeira. Em cada trecho reto, circule a seta e escreva quantos passos ele tem.",
+      "it": "Segui il percorso dal punto verde fino alla bandiera. Per ogni tratto dritto, cerchia la sua freccia e scrivi quanti passi ha.",
+      "nl": "Volg de weg van de groene stip naar de vlag. Omcirkel bij elk recht stuk de pijl en schrijf hoeveel stappen het heeft.",
+      "sv": "Följ vägen från den gröna pricken till flaggan. Ringa in pilen för varje rak sträcka och skriv hur många steg den har.",
+      "da": "Følg vejen fra den grønne prik hen til flaget. Sæt ring om pilen ved hvert lige stykke, og skriv, hvor mange skridt det har.",
+      "no": "Følg veien fra den grønne prikken til flagget. Sett ring rundt pilen ved hver rett strekning, og skriv hvor mange skritt den har.",
+      "fi": "Seuraa reittiä vihreästä pisteestä lippuun. Ympyröi jokaisen suoran osan nuoli ja kirjoita, montako askelta siinä on."
+    },
+    "3": {
+      "en": "Follow the path from the green dot to the flag. For each straight part, circle its arrow and write how many steps it has. Then write how many turns the path makes.",
+      "de": "Folge dem Weg vom grünen Punkt bis zur Fahne. Kreise bei jedem geraden Stück den Pfeil ein und schreibe, wie viele Schritte es hat. Schreibe dann, wie oft der Weg abbiegt.",
+      "fr": "Suis le chemin du point vert jusqu'au drapeau. Pour chaque ligne droite, entoure sa flèche et écris combien de pas elle compte. Puis écris combien de fois le chemin tourne.",
+      "es": "Sigue el camino desde el punto verde hasta la bandera. En cada tramo recto, encierra su flecha y escribe cuántos pasos tiene. Luego escribe cuántas veces da vuelta el camino.",
+      "pt": "Siga o caminho do ponto verde até a bandeira. Em cada trecho reto, circule a seta e escreva quantos passos ele tem. Depois escreva quantas vezes o caminho vira.",
+      "it": "Segui il percorso dal punto verde fino alla bandiera. Per ogni tratto dritto, cerchia la sua freccia e scrivi quanti passi ha. Poi scrivi quante volte il percorso gira.",
+      "nl": "Volg de weg van de groene stip naar de vlag. Omcirkel bij elk recht stuk de pijl en schrijf hoeveel stappen het heeft. Schrijf daarna hoe vaak de weg afslaat.",
+      "sv": "Följ vägen från den gröna pricken till flaggan. Ringa in pilen för varje rak sträcka och skriv hur många steg den har. Skriv sedan hur många gånger vägen svänger.",
+      "da": "Følg vejen fra den grønne prik hen til flaget. Sæt ring om pilen ved hvert lige stykke, og skriv, hvor mange skridt det har. Skriv så, hvor mange gange vejen drejer.",
+      "no": "Følg veien fra den grønne prikken til flagget. Sett ring rundt pilen ved hver rett strekning, og skriv hvor mange skritt den har. Skriv så hvor mange ganger veien svinger.",
+      "fi": "Seuraa reittiä vihreästä pisteestä lippuun. Ympyröi jokaisen suoran osan nuoli ja kirjoita, montako askelta siinä on. Kirjoita sitten, montako kertaa reitti kääntyy."
+    }
+  },
+  "K-487": {
+    "3": {
+      "en": "Look at the numbers at the top. Go from the arrow to the flag and keep counting the same way: step only on the number that comes next.",
+      "de": "Schau dir die Zahlen oben an. Geh vom Pfeil bis zur Fahne und zähle in gleichen Schritten weiter: Tritt nur auf die Zahl, die als Nächstes kommt.",
+      "fr": "Regarde les nombres en haut. Va de la flèche au drapeau en continuant à compter de la même façon : marche seulement sur le nombre qui vient ensuite.",
+      "es": "Mira los números de arriba. Ve de la flecha a la bandera y sigue contando de la misma manera: pisa solo el número que sigue.",
+      "pt": "Olhe os números lá em cima. Vá da seta até a bandeira e continue contando do mesmo jeito: pise só no número que vem depois.",
+      "it": "Guarda i numeri in alto. Vai dalla freccia alla bandiera e continua a contare allo stesso modo: passa solo sul numero che viene dopo.",
+      "nl": "Kijk naar de getallen bovenaan. Ga van de pijl naar de vlag en tel op dezelfde manier verder: stap alleen op het getal dat daarna komt.",
+      "sv": "Titta på talen högst upp. Gå från pilen till flaggan och räkna vidare på samma sätt: kliv bara på talet som kommer härnäst.",
+      "da": "Se på tallene øverst. Gå fra pilen hen til flaget, og tæl videre på samme måde: Træd kun på det næste tal.",
+      "no": "Se på tallene øverst. Gå fra pilen til flagget, og tell videre på samme måte: Tråkk bare på det neste tallet.",
+      "fi": "Katso lukuja ylhäällä. Kulje nuolesta lippuun ja laske eteenpäin samalla tavalla: astu vain luvulle, joka tulee seuraavaksi."
+    }
+  },
+  "K-493": {
+    "1": {
+      "en": "Look at the steps. Each step adds new shapes in orange. Trace the dashed shapes in the big box first, then draw the rest one step at a time.",
+      "de": "Schau dir die Schritte an. Bei jedem Schritt kommen neue Formen in Orange dazu. Spure zuerst die gestrichelten Formen im großen Kasten nach und zeichne dann Schritt für Schritt weiter.",
+      "fr": "Regarde les étapes. À chaque étape, de nouvelles formes apparaissent en orange. Repasse d’abord les formes en pointillés dans le grand cadre, puis dessine la suite, une étape après l’autre.",
+      "es": "Mira los pasos. En cada paso se agregan figuras nuevas en naranja. Primero repasa las figuras punteadas del recuadro grande y después dibuja lo demás, paso a paso.",
+      "pt": "Olhe os passos. Em cada passo aparecem formas novas em laranja. Primeiro cubra as formas pontilhadas do quadro grande e depois desenhe o resto, um passo de cada vez.",
+      "it": "Guarda i passaggi. A ogni passaggio si aggiungono forme nuove in arancione. Prima ripassa le forme tratteggiate nel riquadro grande, poi disegna il resto un passaggio alla volta.",
+      "nl": "Kijk naar de stappen. Bij elke stap komen er nieuwe vormen in het oranje bij. Trek eerst de gestippelde vormen in het grote vak over en teken daarna stap voor stap verder.",
+      "sv": "Titta på stegen. I varje steg kommer nya former till i orange. Spåra först de streckade formerna i den stora rutan och rita sedan resten, ett steg i taget.",
+      "da": "Se på trinene. I hvert trin kommer der nye figurer til i orange. Tegn først efter de stiplede figurer i den store ramme, og tegn så resten ét trin ad gangen.",
+      "no": "Se på trinnene. I hvert trinn kommer det nye former til i oransje. Tegn først over de stiplede formene i den store rammen, og tegn så resten ett trinn om gangen.",
+      "fi": "Katso vaiheita. Jokaisen vaiheen uudet muodot ovat oransseja. Jäljennä ensin ison ruudun katkoviivat ja piirrä sitten loput vaihe kerrallaan."
+    }
+  },
+  "K-495": {
+    "1": {
+      "en": "Half of the picture is drawn. Trace the light gray lines to draw the other half, so that both sides look the same, like in a mirror.",
+      "de": "Die Hälfte des Bildes ist schon gezeichnet. Spure die hellen Linien nach und zeichne so die andere Hälfte, damit beide Seiten gleich aussehen, wie im Spiegel.",
+      "fr": "La moitié de l’image est déjà dessinée. Repasse les traits gris clair pour dessiner l’autre moitié : les deux côtés seront pareils, comme dans un miroir.",
+      "es": "La mitad del dibujo ya está hecha. Repasa las líneas claras para dibujar la otra mitad, así los dos lados se ven iguales, como en un espejo.",
+      "pt": "Metade do desenho já está pronta. Cubra as linhas claras para desenhar a outra metade, para que os dois lados fiquem iguais, como num espelho.",
+      "it": "Metà del disegno è già fatta. Ripassa le linee chiare per disegnare l’altra metà, così i due lati sono uguali, come allo specchio.",
+      "nl": "De helft van de tekening is al getekend. Trek de lichte lijnen over om de andere helft te tekenen, zodat beide kanten hetzelfde zijn, net als in een spiegel.",
+      "sv": "Halva bilden är redan ritad. Spåra de ljusa linjerna så att du får den andra halvan och båda sidorna ser likadana ut, som i en spegel.",
+      "da": "Halvdelen af billedet er tegnet. Tegn efter de lyse streger for at tegne den anden halvdel, så begge sider ser ens ud, ligesom i et spejl.",
+      "no": "Halvparten av bildet er tegnet. Tegn over de lyse strekene for å tegne den andre halvdelen, slik at begge sidene ser like ut, som i et speil.",
+      "fi": "Puolet kuvasta on jo piirretty. Jäljennä vaaleat viivat, niin saat toisen puolen ja molemmat puolet näyttävät samalta, kuin peilissä."
+    },
+    "2": {
+      "en": "Half of the picture is drawn. Use the squares to draw the other half, so that both sides look the same, like in a mirror.",
+      "de": "Die Hälfte des Bildes ist schon gezeichnet. Zeichne mit Hilfe der Kästchen die andere Hälfte, damit beide Seiten gleich aussehen, wie im Spiegel.",
+      "fr": "La moitié de l’image est déjà dessinée. Aide-toi des cases pour dessiner l’autre moitié : les deux côtés doivent être pareils, comme dans un miroir.",
+      "es": "La mitad del dibujo ya está hecha. Usa los cuadros para dibujar la otra mitad, así los dos lados se ven iguales, como en un espejo.",
+      "pt": "Metade do desenho já está pronta. Use os quadradinhos para desenhar a outra metade, para que os dois lados fiquem iguais, como num espelho.",
+      "it": "Metà del disegno è già fatta. Aiutati con i quadretti per disegnare l’altra metà, così i due lati sono uguali, come allo specchio.",
+      "nl": "De helft van de tekening is al getekend. Gebruik de hokjes om de andere helft te tekenen, zodat beide kanten hetzelfde zijn, net als in een spiegel.",
+      "sv": "Halva bilden är redan ritad. Ta hjälp av rutorna och rita den andra halvan så att båda sidorna ser likadana ut, som i en spegel.",
+      "da": "Halvdelen af billedet er tegnet. Brug ternene til at tegne den anden halvdel, så begge sider ser ens ud, ligesom i et spejl.",
+      "no": "Halvparten av bildet er tegnet. Bruk rutene til å tegne den andre halvdelen, slik at begge sidene ser like ut, som i et speil.",
+      "fi": "Puolet kuvasta on jo piirretty. Piirrä ruutujen avulla toinen puoli, niin että molemmat puolet näyttävät samalta, kuin peilissä."
+    }
+  },
+  "K-496": {
+    "3": {
+      "en": "Follow the steps of each drawing. Then draw them all together in the big picture, and draw the place where they are, too.",
+      "de": "Folge den Schritten für jedes Bild. Zeichne dann alle zusammen in das große Bild und zeichne auch dazu, wo sie sind.",
+      "fr": "Suis les étapes de chaque dessin. Ensuite, dessine-les tous ensemble dans le grand cadre, et dessine aussi l’endroit où ils sont.",
+      "es": "Sigue los pasos de cada dibujo. Después, dibújalos todos juntos en el recuadro grande y dibuja también el lugar donde están.",
+      "pt": "Siga os passos de cada desenho. Depois, desenhe todos juntos no quadro grande e desenhe também o lugar onde eles estão.",
+      "it": "Segui i passaggi di ogni disegno. Poi disegnali tutti insieme nel riquadro grande e disegna anche il posto dove si trovano.",
+      "nl": "Volg de stappen van elke tekening. Teken ze daarna allemaal samen in het grote vak, en teken ook de plek waar ze zijn.",
+      "sv": "Följ stegen för varje teckning. Rita sedan alla tillsammans i den stora bilden, och rita också platsen där de är.",
+      "da": "Følg trinene for hver tegning. Tegn dem så alle sammen på det store billede, og tegn også stedet, hvor de er.",
+      "no": "Følg trinnene for hver tegning. Tegn dem så alle sammen på det store bildet, og tegn også stedet der de er.",
+      "fi": "Seuraa jokaisen piirroksen vaiheita. Piirrä sitten ne kaikki yhdessä isoon kuvaan ja piirrä myös paikka, jossa ne ovat."
+    }
+  },
+  "K-502": {
+    "3": {
+      "en": "Look at the picture on the small grid. On the big grid, every square of the picture becomes a block of four squares (two across, two down): color the blocks.",
+      "de": "Schau dir das Bild im kleinen Gitter an. Im großen Gitter wird jedes Kästchen des Bildes zu einem Block aus vier Kästchen (zwei nebeneinander, zwei untereinander): Male die Blöcke an.",
+      "fr": "Regarde le dessin sur le petit quadrillage. Sur le grand quadrillage, chaque case du dessin devient un bloc de quatre cases (deux à côté, deux en dessous) : colorie les blocs.",
+      "es": "Mira el dibujo en la cuadrícula chica. En la cuadrícula grande, cada cuadro del dibujo se vuelve un bloque de cuatro cuadros (dos al lado, dos abajo): colorea los bloques.",
+      "pt": "Olhe o desenho na malha pequena. Na malha grande, cada quadradinho do desenho vira um bloco de quatro quadradinhos (dois lado a lado, dois embaixo): pinte os blocos.",
+      "it": "Guarda il disegno sulla quadrettatura piccola. Sulla quadrettatura grande ogni quadretto del disegno diventa un blocco di quattro quadretti (due accanto, due sotto): colora i blocchi.",
+      "nl": "Kijk naar de tekening in het kleine rooster. In het grote rooster wordt elk hokje van de tekening een blok van vier hokjes (twee naast elkaar, twee onder elkaar): kleur de blokken.",
+      "sv": "Titta på bilden i det lilla rutnätet. I det stora rutnätet blir varje ruta i bilden ett block med fyra rutor (två bredvid varandra, två under varandra): färglägg blocken.",
+      "da": "Se på billedet i det lille kvadratnet. I det store kvadratnet bliver hvert tern i billedet til en blok på fire tern (to ved siden af hinanden, to under hinanden): farvelæg blokkene.",
+      "no": "Se på bildet i det lille rutenettet. I det store rutenettet blir hver rute i bildet en blokk med fire ruter (to ved siden av hverandre, to under hverandre): fargelegg blokkene.",
+      "fi": "Katso pienen ruudukon kuvaa. Isossa ruudukossa kuvan jokaisesta ruudusta tulee neljän ruudun neliö (kaksi vierekkäin, kaksi allekkain): väritä neliöt."
+    }
+  },
+  "K-503": {
+    "2": {
+      "en": "Copy each picture onto the empty grid turned a quarter turn to the left, the way the arrow shows.",
+      "de": "Male jedes Bild ins leere Gitter, aber um eine Vierteldrehung nach links gedreht, so wie der Pfeil zeigt.",
+      "fr": "Recopie chaque dessin sur le quadrillage vide, tourné d’un quart de tour vers la gauche, comme le montre la flèche.",
+      "es": "Copia cada dibujo en la cuadrícula vacía, girado un cuarto de vuelta a la izquierda, como muestra la flecha.",
+      "pt": "Copie cada desenho na malha vazia, girado um quarto de volta para a esquerda, como mostra a seta.",
+      "it": "Copia ogni disegno sulla quadrettatura vuota, girato di un quarto di giro verso sinistra, come mostra la freccia.",
+      "nl": "Teken elke tekening na in het lege rooster, een kwartslag naar links gedraaid, zoals de pijl laat zien.",
+      "sv": "Rita av varje bild i det tomma rutnätet, vriden ett kvarts varv åt vänster, så som pilen visar.",
+      "da": "Tegn hvert billede af i det tomme kvadratnet, drejet en kvart omgang til venstre, sådan som pilen viser.",
+      "no": "Tegn av hvert bilde i det tomme rutenettet, dreid en kvart omdreining mot venstre, slik pilen viser.",
+      "fi": "Piirrä jokainen kuva tyhjään ruudukkoon neljänneskierroksen vasemmalle käännettynä, niin kuin nuoli näyttää."
+    },
+    "3": {
+      "en": "Copy each picture onto the empty grid flipped, like its mirror image: what is on the left goes on the right.",
+      "de": "Male jedes Bild ins leere Gitter, aber gespiegelt wie im Spiegel: Was links ist, kommt nach rechts.",
+      "fr": "Recopie chaque dessin sur le quadrillage vide, retourné comme dans un miroir : ce qui est à gauche va à droite.",
+      "es": "Copia cada dibujo en la cuadrícula vacía, volteado como en un espejo: lo que está a la izquierda va a la derecha.",
+      "pt": "Copie cada desenho na malha vazia, espelhado, como num espelho: o que está à esquerda vai para a direita.",
+      "it": "Copia ogni disegno sulla quadrettatura vuota, rovesciato come allo specchio: quello che è a sinistra va a destra.",
+      "nl": "Teken elke tekening na in het lege rooster, gespiegeld zoals in een spiegel: wat links is, komt rechts.",
+      "sv": "Rita av varje bild i det tomma rutnätet spegelvänd, som i en spegel: det som är till vänster hamnar till höger.",
+      "da": "Tegn hvert billede af spejlvendt i det tomme kvadratnet, som i et spejl: det, der er til venstre, kommer til højre.",
+      "no": "Tegn av hvert bilde i det tomme rutenettet speilvendt, som i et speil: det som er til venstre, kommer til høyre.",
+      "fi": "Piirrä jokainen kuva tyhjään ruudukkoon peilikuvana: mikä on vasemmalla, tulee oikealle."
+    }
+  },
+  "K-499": {
+    "3": {
+      "en": "Trace the picture. Then write its name by yourself on the empty lines.",
+      "de": "Spure das Bild nach. Schreibe dann das Wort selbst auf die leeren Linien.",
+      "fr": "Repasse le dessin. Ensuite, écris le mot toi-même sur les lignes vides.",
+      "es": "Repasa el dibujo. Después escribe su nombre tú solo en las líneas vacías.",
+      "pt": "Cubra o desenho. Depois escreva a palavra sozinho nas linhas vazias.",
+      "it": "Ripassa il disegno. Poi scrivi la parola da solo sulle righe vuote.",
+      "nl": "Trek de tekening over. Schrijf daarna de naam zelf op de lege lijnen.",
+      "sv": "Spåra bilden. Skriv sedan namnet själv på de tomma linjerna.",
+      "da": "Tegn efter billedets streger. Skriv så ordet selv på de tomme linjer.",
+      "no": "Tegn over bildet. Skriv så ordet selv på de tomme linjene.",
+      "fi": "Jäljennä kuva. Kirjoita sitten sana itse tyhjille riveille."
+    }
+  },
+  "K-506": {
+    "2": {
+      "en": "Start at the orange dot. Join only the odd numbers in order: 1, 3, 5 and so on. Skip the even numbers.",
+      "de": "Fang beim orangen Punkt an. Verbinde nur die ungeraden Zahlen der Reihe nach: 1, 3, 5 und so weiter. Lass die geraden Zahlen aus.",
+      "fr": "Commence au point orange. Relie seulement les nombres impairs dans l’ordre : 1, 3, 5 et ainsi de suite. Saute les nombres pairs.",
+      "es": "Empieza en el punto naranja. Une solo los números impares en orden: 1, 3, 5 y así sucesivamente. Sáltate los números pares.",
+      "pt": "Comece no ponto laranja. Ligue só os números ímpares em ordem: 1, 3, 5 e assim por diante. Pule os números pares.",
+      "it": "Comincia dal punto arancione. Unisci solo i numeri dispari in ordine: 1, 3, 5 e così via. Salta i numeri pari.",
+      "nl": "Begin bij de oranje stip. Verbind alleen de oneven getallen op volgorde: 1, 3, 5 enzovoort. Sla de even getallen over.",
+      "sv": "Börja vid den orange pricken. Dra streck bara mellan de udda talen i ordning: 1, 3, 5 och så vidare. Hoppa över de jämna talen.",
+      "da": "Begynd ved den orange prik. Forbind kun de ulige tal i rækkefølge: 1, 3, 5 og så videre. Spring de lige tal over.",
+      "no": "Begynn ved den oransje prikken. Trekk strek bare mellom oddetallene i rekkefølge: 1, 3, 5 og så videre. Hopp over partallene.",
+      "fi": "Aloita oranssista pisteestä. Yhdistä vain parittomat luvut järjestyksessä: 1, 3, 5 ja niin edelleen. Hyppää parillisten lukujen yli."
+    },
+    "3": {
+      "en": "Start at the orange dot. Join only the even numbers in order: 22, 24, 26 and so on. Skip the odd numbers.",
+      "de": "Fang beim orangen Punkt an. Verbinde nur die geraden Zahlen der Reihe nach: 22, 24, 26 und so weiter. Lass die ungeraden Zahlen aus.",
+      "fr": "Commence au point orange. Relie seulement les nombres pairs dans l’ordre : 22, 24, 26 et ainsi de suite. Saute les nombres impairs.",
+      "es": "Empieza en el punto naranja. Une solo los números pares en orden: 22, 24, 26 y así sucesivamente. Sáltate los números impares.",
+      "pt": "Comece no ponto laranja. Ligue só os números pares em ordem: 22, 24, 26 e assim por diante. Pule os números ímpares.",
+      "it": "Comincia dal punto arancione. Unisci solo i numeri pari in ordine: 22, 24, 26 e così via. Salta i numeri dispari.",
+      "nl": "Begin bij de oranje stip. Verbind alleen de even getallen op volgorde: 22, 24, 26 enzovoort. Sla de oneven getallen over.",
+      "sv": "Börja vid den orange pricken. Dra streck bara mellan de jämna talen i ordning: 22, 24, 26 och så vidare. Hoppa över de udda talen.",
+      "da": "Begynd ved den orange prik. Forbind kun de lige tal i rækkefølge: 22, 24, 26 og så videre. Spring de ulige tal over.",
+      "no": "Begynn ved den oransje prikken. Trekk strek bare mellom partallene i rekkefølge: 22, 24, 26 og så videre. Hopp over oddetallene.",
+      "fi": "Aloita oranssista pisteestä. Yhdistä vain parilliset luvut järjestyksessä: 22, 24, 26 ja niin edelleen. Hyppää parittomien lukujen yli."
+    }
+  },
+  "K-517": {
+    "2": {
+      "en": "Trace every number from 1 to 50. Start each number at the top.",
+      "de": "Spure jede Zahl von 1 bis 50 nach. Beginne jede Zahl oben.",
+      "fr": "Repasse chaque nombre de 1 à 50. Commence chaque chiffre par le haut.",
+      "es": "Repasa cada número del 1 al 50. Empieza cada número por arriba.",
+      "pt": "Cubra cada número de 1 a 50. Comece cada número por cima.",
+      "it": "Ripassa ogni numero da 1 a 50. Comincia ogni numero dall’alto.",
+      "nl": "Trek elk getal van 1 tot en met 50 over. Begin elk cijfer bovenaan.",
+      "sv": "Spåra varje tal från 1 till 50. Börja varje siffra uppifrån.",
+      "da": "Spor hvert tal fra 1 til 50. Begynd hvert tal foroven.",
+      "no": "Spor hvert tall fra 1 til 50. Begynn hvert tall øverst.",
+      "fi": "Kirjoita jokainen luku 1:stä 50:een viivoja pitkin. Aloita jokainen numero ylhäältä."
+    }
+  },
+  "G1-488": {
+    "3": {
+      "en": "Color the picture. Then write about it on the lines: what you see and what is happening.",
+      "de": "Male das Bild an. Dann schreibe auf die Linien, was du siehst und was passiert.",
+      "fr": "Colorie le dessin. Ensuite, écris sur les lignes ce que tu vois et ce qui se passe.",
+      "es": "Colorea el dibujo. Después escribe en las líneas lo que ves y lo que pasa.",
+      "pt": "Pinte o desenho. Depois escreva nas linhas o que você vê e o que está acontecendo.",
+      "it": "Colora il disegno. Poi scrivi sulle righe che cosa vedi e che cosa succede.",
+      "nl": "Kleur de tekening. Schrijf daarna op de lijnen wat je ziet en wat er gebeurt.",
+      "sv": "Måla bilden. Skriv sedan på raderna vad du ser och vad som händer.",
+      "da": "Farvelæg tegningen. Skriv så på linjerne, hvad du ser, og hvad der sker.",
+      "no": "Fargelegg tegningen. Skriv så på linjene hva du ser, og hva som skjer.",
+      "fi": "Väritä kuva. Kirjoita sitten viivoille, mitä näet ja mitä tapahtuu."
+    }
+  },
+  "K-516": {
+    "3": {
+      "en": "Fold the top half back, then fold the left half back to make a little book. Color every page and write the name of each picture on its line.",
+      "de": "Falte die obere Hälfte nach hinten, dann die linke Hälfte nach hinten. So entsteht ein kleines Buch. Male jede Seite an und schreibe den Namen jedes Bildes auf seine Linie.",
+      "fr": "Plie la moitié du haut vers l’arrière, puis la moitié de gauche vers l’arrière : voilà un petit livre. Colorie chaque page et écris le nom de chaque dessin sur sa ligne.",
+      "es": "Dobla la mitad de arriba hacia atrás y después la mitad izquierda hacia atrás para hacer un librito. Colorea cada página y escribe el nombre de cada dibujo en su línea.",
+      "pt": "Dobre a metade de cima para trás e depois a metade da esquerda para trás para fazer um livrinho. Pinte cada página e escreva o nome de cada desenho na linha dele.",
+      "it": "Piega indietro la metà di sopra, poi piega indietro la metà di sinistra: ecco un piccolo libro. Colora ogni pagina e scrivi il nome di ogni disegno sulla sua riga.",
+      "nl": "Vouw de bovenste helft naar achteren en daarna de linkerhelft naar achteren. Zo maak je een klein boekje. Kleur elke bladzijde en schrijf de naam van elke tekening op de lijn.",
+      "sv": "Vik den övre halvan bakåt och sedan den vänstra halvan bakåt, så blir det en liten bok. Måla varje sida och skriv namnet på varje bild på dess linje.",
+      "da": "Fold den øverste halvdel bagud, og fold så den venstre halvdel bagud, så får du en lille bog. Farvelæg hver side, og skriv navnet på hver tegning på dens linje.",
+      "no": "Brett den øverste halvdelen bakover, og brett så den venstre halvdelen bakover, så får du en liten bok. Fargelegg hver side, og skriv navnet på hver tegning på linjen.",
+      "fi": "Taita yläpuolisko taakse ja sitten vasen puolisko taakse, niin saat pienen kirjan. Väritä jokainen sivu ja kirjoita jokaisen kuvan nimi sen viivalle."
+    }
+  },
+  "K-519": {
+    "2": {
+      "en": "Cut out the seven pieces. Make your own figure with all of them on the board, draw around it and write its name on the line.",
+      "de": "Schneide die sieben Teile aus. Lege mit allen Teilen deine eigene Figur auf das Feld, zeichne ihren Umriss nach und schreibe ihren Namen auf die Linie.",
+      "fr": "Découpe les sept pièces. Forme ta propre figure avec toutes les pièces dans le cadre, trace son contour et écris son nom sur la ligne.",
+      "es": "Recorta las siete piezas. Forma tu propia figura con todas ellas en el tablero, dibuja su contorno y escribe su nombre en la línea.",
+      "pt": "Recorte as sete peças. Monte sua própria figura com todas elas no quadro, contorne a figura e escreva o nome dela na linha.",
+      "it": "Ritaglia i sette pezzi. Componi la tua figura con tutti i pezzi nel riquadro, disegnane il contorno e scrivi il suo nome sulla riga.",
+      "nl": "Knip de zeven stukken uit. Leg met alle stukken je eigen figuur in het grote vak, teken er omheen en schrijf op de lijn hoe je figuur heet.",
+      "sv": "Klipp ut de sju bitarna. Lägg din egen figur av alla bitarna i den stora rutan, rita runt den och skriv vad den heter på linjen.",
+      "da": "Klip de syv brikker ud. Læg din egen figur på feltet med alle brikkerne, tegn rundt om den, og skriv på linjen, hvad den hedder.",
+      "no": "Klipp ut de sju brikkene. Legg din egen figur på feltet med alle brikkene, tegn rundt den, og skriv navnet på linjen.",
+      "fi": "Leikkaa irti seitsemän palaa. Tee kaikista paloista oma kuvio alustalle, piirrä sen ympäri ja kirjoita sen nimi viivalle."
+    },
+    "3": {
+      "en": "Cut out the seven pieces. Make your own figure with all of them on the board, draw around it and write its name on the line.",
+      "de": "Schneide die sieben Teile aus. Lege mit allen Teilen deine eigene Figur auf das Feld, zeichne ihren Umriss nach und schreibe ihren Namen auf die Linie.",
+      "fr": "Découpe les sept pièces. Forme ta propre figure avec toutes les pièces dans le cadre, trace son contour et écris son nom sur la ligne.",
+      "es": "Recorta las siete piezas. Forma tu propia figura con todas ellas en el tablero, dibuja su contorno y escribe su nombre en la línea.",
+      "pt": "Recorte as sete peças. Monte sua própria figura com todas elas no quadro, contorne a figura e escreva o nome dela na linha.",
+      "it": "Ritaglia i sette pezzi. Componi la tua figura con tutti i pezzi nel riquadro, disegnane il contorno e scrivi il suo nome sulla riga.",
+      "nl": "Knip de zeven stukken uit. Leg met alle stukken je eigen figuur in het grote vak, teken er omheen en schrijf op de lijn hoe je figuur heet.",
+      "sv": "Klipp ut de sju bitarna. Lägg din egen figur av alla bitarna i den stora rutan, rita runt den och skriv vad den heter på linjen.",
+      "da": "Klip de syv brikker ud. Læg din egen figur på feltet med alle brikkerne, tegn rundt om den, og skriv på linjen, hvad den hedder.",
+      "no": "Klipp ut de sju brikkene. Legg din egen figur på feltet med alle brikkene, tegn rundt den, og skriv navnet på linjen.",
+      "fi": "Leikkaa irti seitsemän palaa. Tee kaikista paloista oma kuvio alustalle, piirrä sen ympäri ja kirjoita sen nimi viivalle."
+    }
+  },
+  "K-526": {
+    "3": {
+      "en": "Each letter starts at the orange dot. Follow the arrows to see how to write it.",
+      "de": "Jeder Buchstabe beginnt am orangen Punkt. Folge den Pfeilen, dann siehst du, wie man ihn schreibt.",
+      "fr": "Chaque lettre commence au point orange. Suis les flèches pour voir comment l’écrire.",
+      "es": "Cada letra empieza en el punto naranja. Sigue las flechas para ver cómo se escribe.",
+      "pt": "Cada letra começa no ponto laranja. Siga as setas para ver como se escreve.",
+      "it": "Ogni lettera comincia dal punto arancione. Segui le frecce per vedere come si scrive.",
+      "nl": "Elke letter begint bij de oranje stip. Volg de pijltjes om te zien hoe je hem schrijft.",
+      "sv": "Varje bokstav börjar vid den orangea pricken. Följ pilarna så ser du hur den skrivs.",
+      "da": "Hvert bogstav begynder ved den orange prik. Følg pilene, så kan du se, hvordan det skrives.",
+      "no": "Hver bokstav begynner på den oransje prikken. Følg pilene, så ser du hvordan den skrives.",
+      "fi": "Jokainen kirjain alkaa oranssista pisteestä. Seuraa nuolia, niin näet, miten se kirjoitetaan."
+    }
+  },
+  "G1-490": {
+    "3": {
+      "en": "Write the name of each picture on the line under it.",
+      "de": "Schreibe den Namen jedes Bildes auf die Linie darunter.",
+      "fr": "Écris le nom de chaque image sur la ligne en dessous.",
+      "es": "Escribe el nombre de cada dibujo en la línea de abajo.",
+      "pt": "Escreva o nome de cada figura na linha embaixo dela.",
+      "it": "Scrivi il nome di ogni figura sulla riga sotto.",
+      "nl": "Schrijf de naam van elk plaatje op de lijn eronder.",
+      "sv": "Skriv vad varje bild heter på raden under den.",
+      "da": "Skriv, hvad hvert billede hedder, på linjen under det.",
+      "no": "Skriv hva hvert bilde heter, på linjen under det.",
+      "fi": "Kirjoita jokaisen kuvan nimi sen alla olevalle viivalle."
+    }
+  },
+  "G1-491": {
+    "1": {
+      "en": "Trace the name of each picture on the first line. Then write a sentence of your own about it.",
+      "de": "Spure den Namen jedes Bildes auf der ersten Linie nach. Schreibe dann einen eigenen Satz dazu.",
+      "fr": "Repasse le nom de chaque image sur la première ligne. Ensuite, invente une phrase avec ce mot et écris-la en dessous.",
+      "es": "Repasa el nombre de cada dibujo en la primera línea. Después inventa una oración con esa palabra y escríbela abajo.",
+      "pt": "Cubra o nome de cada figura na primeira linha. Depois invente uma frase com essa palavra e escreva embaixo.",
+      "it": "Ripassa il nome di ogni figura sulla prima riga. Poi inventa una frase con questa parola e scrivila sotto.",
+      "nl": "Trek de naam van elk plaatje na op de eerste regel. Schrijf er daarna zelf een zin over.",
+      "sv": "Spåra ordet till varje bild på första raden. Skriv sedan en egen mening om bilden.",
+      "da": "Skriv oven i navnet på hvert billede på den første linje. Skriv så din egen sætning om det.",
+      "no": "Spor navnet på hvert bilde på den første linjen. Skriv så en egen setning om det.",
+      "fi": "Kirjoita jokaisen kuvan nimi ensimmäiselle viivalle katkoviivoja pitkin. Kirjoita sitten siitä oma lause."
+    }
+  },
+  "K-529": {
+    "1": {
+      "en": "Say the name of each picture. The first letter is written for you. Write one letter in each box: tall letters in the tall boxes, letters that hang down in the boxes that hang below the line.",
+      "de": "Sprich den Namen jedes Bildes. Der erste Buchstabe steht schon da. Schreibe in jedes Kästchen einen Buchstaben: hohe Buchstaben in die hohen Kästchen, Buchstaben mit Unterlänge in die tiefen Kästchen.",
+      "fr": "Dis le nom de chaque image. La première lettre est déjà écrite. Écris une lettre dans chaque case : les grandes lettres dans les grandes cases, les lettres qui descendent dans les cases qui descendent sous la ligne.",
+      "es": "Di el nombre de cada dibujo. La primera letra ya está escrita. Escribe una letra en cada cuadro: las letras altas en los cuadros altos y las que bajan en los cuadros que bajan.",
+      "pt": "Diga o nome de cada figura. A primeira letra já está escrita. Escreva uma letra em cada quadrinho: as letras altas nos quadrinhos altos e as que descem nos quadrinhos que descem.",
+      "it": "Di’ il nome di ogni figura. La prima lettera è già scritta. Scrivi una lettera in ogni casella: le lettere alte nelle caselle alte, quelle che scendono nelle caselle che scendono.",
+      "nl": "Zeg de naam van elk plaatje. De eerste letter staat er al. Schrijf in elk hokje één letter: hoge letters in de hoge hokjes, letters met een staartje naar beneden in de hokjes die naar beneden uitsteken.",
+      "sv": "Säg vad varje bild heter. Den första bokstaven är redan skriven. Skriv en bokstav i varje ruta: höga bokstäver i de höga rutorna och bokstäver som går ner i rutorna som går ner.",
+      "da": "Sig, hvad hvert billede hedder. Det første bogstav er allerede skrevet. Skriv et bogstav i hver rubrik: høje bogstaver i de høje rubrikker og bogstaver, der går ned, i de rubrikker, der går ned.",
+      "no": "Si hva hvert bilde heter. Den første bokstaven er allerede skrevet. Skriv én bokstav i hver rute: høye bokstaver i de høye rutene og bokstaver som går ned, i rutene som går ned.",
+      "fi": "Sano jokaisen kuvan nimi. Ensimmäinen kirjain on jo kirjoitettu. Kirjoita jokaiseen ruutuun yksi kirjain: korkeat kirjaimet korkeisiin ruutuihin ja alas ulottuvat kirjaimet alas ulottuviin ruutuihin."
+    }
+  },
+  "G2-480": {
+    "1": {
+      "en": "Read each word. Trace it in cursive, then write it again on your own next to it.",
+      "de": "Lies jedes Wort. Spure es in Schreibschrift nach und schreibe es daneben noch einmal allein.",
+      "fr": "Lis chaque mot. Repasse-le en écriture cursive, puis écris-le encore une fois toi-même à côté.",
+      "es": "Lee cada palabra. Repásala en letra cursiva y luego vuelve a escribirla por tu cuenta al lado.",
+      "pt": "Leia cada palavra. Cubra a palavra em letra cursiva e depois escreva-a de novo ao lado.",
+      "it": "Leggi ogni parola. Ripassala in corsivo, poi scrivila di nuovo tu lì accanto.",
+      "nl": "Lees elk woord. Trek het over in verbonden schrift en schrijf het daarna zelf nog een keer ernaast.",
+      "da": "Læs hvert ord. Skriv oven i det med sammenhængende skrift, og skriv det så selv en gang til ved siden af.",
+      "no": "Les hvert ord. Skriv over det med sammenhengende skrift, og skriv det så selv en gang til ved siden av."
+    },
+    "3": {
+      "en": "Read each sentence. Write it in cursive underneath, joining the letters.",
+      "de": "Lies jeden Satz. Schreibe ihn darunter in Schreibschrift ab und verbinde dabei die Buchstaben.",
+      "fr": "Lis chaque phrase. Copie-la en dessous en écriture cursive, en attachant les lettres.",
+      "es": "Lee cada oración. Cópiala abajo en letra cursiva, uniendo las letras.",
+      "pt": "Leia cada frase. Copie a frase embaixo em letra cursiva, ligando as letras.",
+      "it": "Leggi ogni frase. Ricopiala qui sotto in corsivo, legando le lettere.",
+      "nl": "Lees elke zin. Schrijf de zin eronder over in verbonden schrift.",
+      "da": "Læs hver sætning. Skriv den af nedenfor med sammenhængende skrift.",
+      "no": "Les hver setning. Skriv den av under med sammenhengende skrift."
+    }
+  },
+  "G2-481": {
+    "1": {
+      "en": "Trace the gray letter and the letter pairs, then write each one on your own on the empty lines.",
+      "de": "Spure den grauen Buchstaben und die Buchstabenverbindungen nach und schreibe alles allein in die leeren Zeilen darunter.",
+      "fr": "Repasse la lettre grise et les lettres attachées, puis écris-les toi-même sur les lignes vides.",
+      "es": "Repasa la letra gris y las letras unidas, y luego escríbelas por tu cuenta en los renglones vacíos.",
+      "pt": "Cubra a letra cinza e as letras ligadas e depois escreva tudo nas linhas vazias.",
+      "it": "Ripassa la lettera grigia e le lettere legate, poi scrivile tu sulle righe vuote.",
+      "nl": "Trek de grijze letter en de letterverbindingen over en schrijf ze daarna zelf op de lege lijnen.",
+      "da": "Skriv oven i det grå bogstav og bogstavparrene, og skriv dem så selv på de tomme linjer.",
+      "no": "Skriv over den grå bokstaven og bokstavparene, og skriv dem så selv på de tomme linjene."
+    },
+    "3": {
+      "en": "Trace the gray capital letter, the name that starts with it and the lowercase letter, then write each one on your own on the empty lines.",
+      "de": "Spure den grauen Großbuchstaben, das Wort mit diesem Anfangsbuchstaben und den kleinen Buchstaben nach und schreibe alles allein in die leeren Zeilen darunter.",
+      "fr": "Repasse la majuscule grise, le mot qui commence par cette lettre et la minuscule, puis écris-les toi-même sur les lignes vides.",
+      "es": "Repasa la mayúscula gris, la palabra que empieza con esa letra y la minúscula, y luego escríbelas por tu cuenta en los renglones vacíos.",
+      "pt": "Cubra a letra maiúscula cinza, a palavra que começa com ela e a letra minúscula e depois escreva tudo nas linhas vazias.",
+      "it": "Ripassa la maiuscola grigia, la parola che comincia con questa lettera e la minuscola, poi scrivile tu sulle righe vuote.",
+      "nl": "Trek de grijze hoofdletter, de naam die ermee begint en de kleine letter over en schrijf ze daarna zelf op de lege lijnen.",
+      "da": "Skriv oven i det grå store bogstav, ordet, der begynder med det, og det lille bogstav, og skriv dem så selv på de tomme linjer.",
+      "no": "Skriv over den grå store bokstaven, ordet som begynner med den, og den lille bokstaven, og skriv dem så selv på de tomme linjene."
+    }
+  },
+  "G2-483": {
+    "3": {
+      "en": "Cut out the strips. Tape one to your desk and look at it when you write in cursive.",
+      "de": "Schneide die Streifen aus. Klebe einen auf deinen Tisch und schau darauf, wenn du in Schreibschrift schreibst.",
+      "fr": "Découpe les bandes. Colle-en une sur ta table et regarde-la quand tu écris en cursive.",
+      "es": "Recorta las tiras. Pega una en tu mesa y mírala cuando escribas en letra cursiva.",
+      "pt": "Recorte as tiras. Cole uma na sua carteira e olhe para ela quando escrever em letra cursiva.",
+      "it": "Ritaglia le strisce. Incollane una sul tuo banco e guardala quando scrivi in corsivo.",
+      "nl": "Knip de stroken uit. Plak er een op je tafel en kijk ernaar als je aan elkaar schrijft.",
+      "da": "Klip strimlerne ud. Sæt en fast på dit bord, og kig på den, når du skriver sammenhængende.",
+      "no": "Klipp ut stripene. Fest en på pulten din, og se på den når du skriver sammenhengende."
+    }
+  },
+  "K-530": {
+    "1": {
+      "en": "Say the name of each picture. Write the missing letters on the train cars. Each missing letter is the first letter of its picture's name.",
+      "de": "Sag, wie jedes Bild heißt. Schreibe die fehlenden Buchstaben auf die Wagen: Es ist immer der Anfangsbuchstabe des Bildes.",
+      "fr": "Dis le nom de chaque image. Écris les lettres qui manquent sur les wagons : c'est la première lettre du nom de l'image.",
+      "es": "Di el nombre de cada dibujo. Escribe en los vagones las letras que faltan: es la primera letra del nombre del dibujo.",
+      "pt": "Diga o nome de cada figura. Escreva nos vagões as letras que faltam: é a primeira letra do nome da figura.",
+      "it": "Di' il nome di ogni figura. Scrivi sui vagoni le lettere che mancano: è la prima lettera del nome della figura.",
+      "nl": "Zeg wat je op elk plaatje ziet. Schrijf de letters die ontbreken op de wagons: het is de eerste letter van het plaatje.",
+      "sv": "Säg vad varje bild heter. Skriv bokstäverna som fattas på vagnarna: det är första bokstaven i bildens namn.",
+      "da": "Sig, hvad hvert billede hedder. Skriv de bogstaver, der mangler, på vognene: det er det første bogstav i billedets navn.",
+      "no": "Si hva hvert bilde heter. Skriv bokstavene som mangler, på vognene: det er den første bokstaven i navnet på bildet.",
+      "fi": "Sano, mitä jokaisessa kuvassa on. Kirjoita puuttuvat kirjaimet vaunuihin: se on kuvan nimen ensimmäinen kirjain."
+    },
+    "3": {
+      "en": "Write the missing letters on the cars so the alphabet train is in order.",
+      "de": "Schreibe die fehlenden Buchstaben auf die Wagen, damit die Buchstaben im Buchstabenzug in der richtigen Reihenfolge stehen.",
+      "fr": "Écris les lettres qui manquent sur les wagons pour que le train de l'alphabet soit dans l'ordre.",
+      "es": "Escribe las letras que faltan en los vagones para que el tren del abecedario quede en orden.",
+      "pt": "Escreva as letras que faltam nos vagões para o trem do alfabeto ficar em ordem.",
+      "it": "Scrivi le lettere che mancano sui vagoni, perché il treno dell'alfabeto sia in ordine.",
+      "nl": "Schrijf de letters die ontbreken op de wagons, zodat de alfabettrein op volgorde staat.",
+      "sv": "Skriv bokstäverna som fattas på vagnarna så att alfabetståget kommer i rätt ordning.",
+      "da": "Skriv de bogstaver, der mangler, på vognene, så alfabettoget kommer i rigtig rækkefølge.",
+      "no": "Skriv bokstavene som mangler, på vognene, så alfabettoget kommer i riktig rekkefølge.",
+      "fi": "Kirjoita puuttuvat kirjaimet vaunuihin niin, että aakkosjuna on oikeassa järjestyksessä."
+    }
+  },
+  "K-531": {
+    "3": {
+      "en": "Cut out the four strips and hang them up in order. Say each letter and the name of its picture.",
+      "de": "Schneide die vier Streifen aus und hänge sie der Reihe nach auf. Sprich jeden Buchstaben und sag, wie sein Bild heißt.",
+      "fr": "Découpe les quatre bandes et accroche-les dans l'ordre. Dis chaque lettre et le nom de son image.",
+      "es": "Recorta las cuatro tiras y cuélgalas en orden. Di cada letra y el nombre de su dibujo.",
+      "pt": "Recorte as quatro tiras e pendure-as na ordem certa. Diga cada letra e o nome da figura dela.",
+      "it": "Ritaglia le quattro strisce e appendile in ordine. Di' ogni lettera e il nome della sua figura.",
+      "nl": "Knip de vier stroken uit en hang ze op volgorde op. Zeg elke letter en wat er op het plaatje staat.",
+      "sv": "Klipp ut de fyra remsorna och häng upp dem i ordning. Säg varje bokstav och vad bilden heter.",
+      "da": "Klip de fire strimler ud, og hæng dem op i rækkefølge. Sig hvert bogstav, og sig, hvad billedet hedder.",
+      "no": "Klipp ut de fire stripene, og heng dem opp i riktig rekkefølge. Si hver bokstav, og si hva bildet heter.",
+      "fi": "Leikkaa neljä nauhaa irti ja ripusta ne järjestykseen. Sano jokainen kirjain ja kuvan nimi."
+    }
+  },
+  "G1-492": {
+    "1": {
+      "en": "Write the letter that comes after each letter in the alphabet. The alphabet at the top can help you.",
+      "de": "Schreibe zu jedem Buchstaben auf, welcher Buchstabe im Alphabet danach kommt. Das Alphabet oben hilft dir.",
+      "fr": "Écris la lettre qui vient après chaque lettre dans l'alphabet. L'alphabet en haut peut t'aider.",
+      "es": "Escribe la letra que va después de cada letra en el abecedario. El abecedario de arriba te puede ayudar.",
+      "pt": "Escreva a letra que vem depois de cada letra no alfabeto. O alfabeto lá em cima pode ajudar você.",
+      "it": "Scrivi la lettera che viene dopo ogni lettera nell'alfabeto. L'alfabeto in alto ti può aiutare.",
+      "nl": "Schrijf bij elke letter op welke letter erna komt in het alfabet. Het alfabet bovenaan helpt je.",
+      "sv": "Skriv bokstaven som kommer efter varje bokstav i alfabetet. Alfabetet högst upp kan hjälpa dig.",
+      "da": "Skriv det bogstav, der kommer efter hvert bogstav i alfabetet. Alfabetet øverst kan hjælpe dig.",
+      "no": "Skriv bokstaven som kommer etter hver bokstav i alfabetet. Alfabetet øverst kan hjelpe deg.",
+      "fi": "Kirjoita jokaisen kirjaimen viereen kirjain, joka tulee aakkosissa sen jälkeen. Ylhäällä olevat aakkoset auttavat sinua."
+    },
+    "3": {
+      "en": "Write the letter that comes before and the letter that comes after each letter in the alphabet.",
+      "de": "Schreibe zu jedem Buchstaben auf, welcher Buchstabe im Alphabet davor und welcher danach kommt.",
+      "fr": "Écris la lettre qui vient avant et la lettre qui vient après chaque lettre dans l'alphabet.",
+      "es": "Escribe la letra que va antes y la que va después de cada letra en el abecedario.",
+      "pt": "Escreva a letra que vem antes e a que vem depois de cada letra no alfabeto.",
+      "it": "Scrivi la lettera che viene prima e quella che viene dopo ogni lettera nell'alfabeto.",
+      "nl": "Schrijf bij elke letter op welke letter ervoor en welke erna komt in het alfabet.",
+      "sv": "Skriv bokstaven som kommer före och bokstaven som kommer efter varje bokstav i alfabetet.",
+      "da": "Skriv det bogstav, der kommer før, og det bogstav, der kommer efter hvert bogstav i alfabetet.",
+      "no": "Skriv bokstaven som kommer før, og bokstaven som kommer etter hver bokstav i alfabetet.",
+      "fi": "Kirjoita kirjain, joka tulee aakkosissa ennen jokaista kirjainta, ja kirjain, joka tulee sen jälkeen."
+    }
+  },
+  "G1-493": {
+    "1": {
+      "en": "Say the name of each picture. Circle the two letters the word starts with.",
+      "de": "Sag, wie jedes Bild heißt. Kreise die zwei Buchstaben ein, mit denen das Wort anfängt.",
+      "fr": "Dis le nom de chaque image. Entoure les deux lettres par lesquelles le mot commence.",
+      "es": "Di el nombre de cada dibujo. Encierra las dos letras con las que empieza.",
+      "pt": "Diga o nome de cada figura. Circule as duas letras com que a palavra começa.",
+      "it": "Di' il nome di ogni figura. Cerchia le due lettere con cui comincia la parola.",
+      "nl": "Zeg wat je op elk plaatje ziet. Omcirkel de twee letters waarmee het woord begint.",
+      "sv": "Säg vad varje bild heter. Ringa in de två bokstäverna som ordet börjar med.",
+      "da": "Sig, hvad hvert billede hedder. Sæt ring om de to bogstaver, ordet begynder med.",
+      "no": "Si hva hvert bilde heter. Sett ring rundt de to bokstavene ordet begynner med."
+    }
+  },
+  "K-540": {
+    "2": {
+      "es": "Junta la consonante y la vocal. Escribe la sílaba en el recuadro.",
+      "pt": "Junte a consoante e a vogal. Escreva a sílaba no quadrinho.",
+      "it": "Unisci la consonante e la vocale. Scrivi la sillaba nel riquadro.",
+      "fr": "Assemble la consonne et la voyelle. Écris la syllabe dans la case."
+    },
+    "3": {
+      "es": "Repasa cada sílaba tres veces.",
+      "pt": "Cubra cada sílaba três vezes.",
+      "it": "Ripassa ogni sillaba tre volte.",
+      "fr": "Repasse chaque syllabe trois fois."
+    }
+  },
+  "K-545": {
+    "2": {
+      "en": "Cut out the words at the bottom. Glue each word in the box under its picture. One word is left over.",
+      "de": "Schneide die Wörter unten aus. Klebe jedes Wort in das Kästchen unter seinem Bild. Ein Wort bleibt übrig.",
+      "fr": "Découpe les mots en bas de la page. Colle chaque mot dans la case sous son image. Il y a un mot en trop.",
+      "es": "Recorta las palabras de abajo. Pega cada palabra en el recuadro debajo de su dibujo. Sobra una palabra.",
+      "pt": "Recorte as palavras lá embaixo. Cole cada palavra no quadrinho debaixo da figura. Vai sobrar uma palavra.",
+      "it": "Ritaglia le parole in fondo. Incolla ogni parola nel riquadro sotto la sua figura. Una parola avanza.",
+      "nl": "Knip de woorden onderaan uit. Plak elk woord in het vakje onder het goede plaatje. Er blijft één woord over.",
+      "sv": "Klipp ut orden längst ner. Klistra varje ord i rutan under rätt bild. Ett ord blir över.",
+      "da": "Klip ordene nederst ud. Klistr hvert ord i feltet under det rigtige billede. Ét ord bliver tilovers.",
+      "no": "Klipp ut ordene nederst. Lim hvert ord i ruten under riktig bilde. Ett ord blir til overs.",
+      "fi": "Leikkaa sanat irti sivun alareunasta. Liimaa jokainen sana oikean kuvan alla olevaan ruutuun. Yksi sana jää yli."
+    },
+    "3": {
+      "en": "Cut out the words at the bottom. Glue each word in the box under its picture. One word is left over.",
+      "de": "Schneide die Wörter unten aus. Klebe jedes Wort in das Kästchen unter seinem Bild. Ein Wort bleibt übrig.",
+      "fr": "Découpe les mots en bas de la page. Colle chaque mot dans la case sous son image. Il y a un mot en trop.",
+      "es": "Recorta las palabras de abajo. Pega cada palabra en el recuadro debajo de su dibujo. Sobra una palabra.",
+      "pt": "Recorte as palavras lá embaixo. Cole cada palavra no quadrinho debaixo da figura. Vai sobrar uma palavra.",
+      "it": "Ritaglia le parole in fondo. Incolla ogni parola nel riquadro sotto la sua figura. Una parola avanza.",
+      "nl": "Knip de woorden onderaan uit. Plak elk woord in het vakje onder het goede plaatje. Er blijft één woord over.",
+      "sv": "Klipp ut orden längst ner. Klistra varje ord i rutan under rätt bild. Ett ord blir över.",
+      "da": "Klip ordene nederst ud. Klistr hvert ord i feltet under det rigtige billede. Ét ord bliver tilovers.",
+      "no": "Klipp ut ordene nederst. Lim hvert ord i ruten under riktig bilde. Ett ord blir til overs.",
+      "fi": "Leikkaa sanat irti sivun alareunasta. Liimaa jokainen sana oikean kuvan alla olevaan ruutuun. Yksi sana jää yli."
+    }
+  },
+  "G2-484": {
+    "1": {
+      "en": "Write the missing form of each adjective, as in the example.",
+      "de": "Schreibe die fehlende Form jedes Adjektivs auf, wie im Beispiel.",
+      "fr": "Écris la forme qui manque pour chaque adjectif, comme dans l'exemple.",
+      "es": "Escribe la forma que falta de cada adjetivo, como en el ejemplo.",
+      "pt": "Escreva a forma que falta de cada adjetivo, como no exemplo.",
+      "it": "Scrivi la forma che manca di ogni aggettivo, come nell'esempio.",
+      "nl": "Schrijf de vorm op die ontbreekt bij elk bijvoeglijk naamwoord, zoals in het voorbeeld.",
+      "sv": "Skriv formen som saknas för varje adjektiv, som i exemplet.",
+      "da": "Skriv den form, der mangler, for hvert tillægsord, som i eksemplet.",
+      "no": "Skriv formen som mangler, for hvert adjektiv, som i eksempelet.",
+      "fi": "Kirjoita jokaisen adjektiivin puuttuva muoto mallin mukaan."
+    }
+  },
+  "G1-497": {
+    "2": {
+      "en": "Read each sentence. Circle every verb.",
+      "de": "Lies jeden Satz. Kreise alle Verben ein.",
+      "fr": "Lis chaque phrase. Entoure tous les verbes.",
+      "es": "Lee cada oración. Encierra todos los verbos.",
+      "pt": "Leia cada frase. Circule todos os verbos.",
+      "it": "Leggi ogni frase. Cerchia tutti i verbi.",
+      "nl": "Lees elke zin. Omcirkel alle werkwoorden.",
+      "sv": "Läs varje mening. Ringa in alla verb.",
+      "da": "Læs hver sætning. Sæt ring om alle udsagnsord.",
+      "no": "Les hver setning. Sett ring rundt alle verb.",
+      "fi": "Lue jokainen lause. Ympyröi kaikki verbit."
+    },
+    "3": {
+      "en": "Read each sentence. Circle every adjective. Do not circle a, an, or the.",
+      "de": "Lies jeden Satz. Kreise alle Adjektive ein.",
+      "fr": "Lis chaque phrase. Entoure tous les adjectifs.",
+      "es": "Lee cada oración. Encierra todos los adjetivos.",
+      "pt": "Leia cada frase. Circule todos os adjetivos.",
+      "it": "Leggi ogni frase. Cerchia tutti gli aggettivi.",
+      "nl": "Lees elke zin. Omcirkel alle bijvoeglijke naamwoorden.",
+      "sv": "Läs varje mening. Ringa in alla adjektiv.",
+      "da": "Læs hver sætning. Sæt ring om alle tillægsord.",
+      "no": "Les hver setning. Sett ring rundt alle adjektiv.",
+      "fi": "Lue jokainen lause. Ympyröi kaikki adjektiivit."
+    }
+  },
+  "G1-498": {
+    "3": {
+      "en": "Read each sentence. Circle every word that needs a capital letter. Then write the sentence again correctly on the line.",
+      "de": "Lies jeden Satz. Kreise jedes Wort ein, das großgeschrieben werden muss. Schreibe den Satz dann richtig auf die Linie.",
+      "fr": "Lis chaque phrase. Entoure chaque mot qui doit commencer par une majuscule. Puis recopie la phrase correctement sur la ligne.",
+      "es": "Lee cada oración. Encierra cada palabra que debe empezar con mayúscula. Después escribe la oración bien en la línea.",
+      "pt": "Leia cada frase. Circule cada palavra que deve começar com letra maiúscula. Depois, copie a frase do jeito certo na linha.",
+      "it": "Leggi ogni frase. Cerchia ogni parola che deve cominciare con la lettera maiuscola. Poi riscrivi la frase in modo corretto sulla riga.",
+      "nl": "Lees elke zin. Omcirkel elk woord dat met een hoofdletter moet beginnen. Schrijf de zin daarna goed op de lijn.",
+      "sv": "Läs varje mening. Ringa in varje ord som ska börja med stor bokstav. Skriv sedan meningen rätt på linjen.",
+      "da": "Læs hver sætning. Sæt ring om hvert ord, der skal have stort begyndelsesbogstav. Skriv så sætningen rigtigt på linjen.",
+      "no": "Les hver setning. Sett ring rundt hvert ord som skal ha stor forbokstav. Skriv så setningen riktig på linjen.",
+      "fi": "Lue jokainen lause. Ympyröi jokainen sana, joka kirjoitetaan isolla alkukirjaimella. Kirjoita sitten lause oikein viivalle."
+    }
+  },
+  "G2-485": {
+    "1": {
+      "en": "Write the verb in each box so it goes with the word at the start of the row. The first two are done for you.",
+      "de": "Schreibe das Verb so in jedes Kästchen, dass es zu dem Wort am Anfang der Zeile passt. Die ersten zwei sind schon fertig.",
+      "fr": "Conjugue le verbe au présent : dans chaque case, écris la forme qui va avec le pronom au début de la ligne. Les deux premières sont déjà faites.",
+      "es": "Conjuga el verbo en presente: escríbelo en cada recuadro según la persona al principio de la fila. Los dos primeros ya están resueltos.",
+      "pt": "Conjugue o verbo no presente: escreva-o em cada quadrinho de acordo com a pessoa no começo da linha. Os dois primeiros já estão feitos.",
+      "it": "Coniuga il verbo al presente: scrivilo in ogni casella secondo la persona all'inizio della riga. Le prime due sono già fatte.",
+      "nl": "Vervoeg het werkwoord: schrijf het in elk vakje zo dat het past bij het woord aan het begin van de rij. De eerste twee zijn al ingevuld.",
+      "sv": "Skriv verbet i varje ruta.",
+      "da": "Skriv udsagnsordet i hvert felt.",
+      "no": "Skriv verbet i hver rute.",
+      "fi": "Taivuta verbi: kirjoita jokaiseen ruutuun muoto, joka sopii rivin alussa olevaan sanaan. Kaksi ensimmäistä on valmiina."
+    }
+  },
+  "G2-486": {
+    "3": {
+      "en": "Write the adjective in the right form for each noun.",
+      "de": "Schreibe das Adjektiv in der richtigen Form in das Kästchen.",
+      "fr": "Écris l'adjectif accordé dans la case.",
+      "es": "Escribe el adjetivo en la forma correcta en el recuadro.",
+      "pt": "Escreva o adjetivo na forma certa no quadrinho.",
+      "it": "Scrivi l'aggettivo nella forma giusta nella casella.",
+      "nl": "Schrijf het bijvoeglijk naamwoord in de goede vorm in het vakje.",
+      "sv": "Skriv adjektivet i rätt form i rutan.",
+      "da": "Skriv tillægsordet i den rigtige form i feltet.",
+      "no": "Skriv adjektivet i riktig form i ruten.",
+      "fi": "Kirjoita adjektiivi oikeassa muodossa ruutuun."
+    }
+  },
+  "K-550": {
+    "3": {
+      "en": "Look at the pictures in each row. What group do they belong to? Write the word.",
+      "de": "Schau dir die Bilder in jeder Reihe an. Zu welcher Gruppe gehören sie? Schreibe das Wort auf.",
+      "fr": "Regarde les images de chaque ligne. À quel groupe appartiennent-elles ? Écris le mot.",
+      "es": "Mira los dibujos de cada fila. ¿A qué grupo pertenecen? Escribe la palabra.",
+      "pt": "Observe as figuras de cada linha. De que grupo elas são? Escreva a palavra.",
+      "it": "Guarda le figure di ogni riga. A quale gruppo appartengono? Scrivi la parola.",
+      "nl": "Kijk naar de plaatjes in elke rij. Bij welke groep horen ze? Schrijf het woord op.",
+      "sv": "Titta på bilderna i varje rad. Vilken grupp hör de till? Skriv ordet.",
+      "da": "Se på billederne i hver række. Hvilken gruppe hører de til? Skriv ordet.",
+      "no": "Se på bildene i hver rad. Hvilken gruppe hører de til? Skriv ordet.",
+      "fi": "Katso jokaisen rivin kuvia. Mikä on kuvien yläkäsite? Kirjoita sana."
+    }
+  },
+  "K-551": {
+    "3": {
+      "en": "Cut out the dominoes. Lay them in a ring: the word on the right of each domino is the opposite of the word on the left of the next one.",
+      "de": "Schneide die Dominosteine aus. Lege sie im Kreis: Das Wort rechts auf jedem Stein ist das Gegenteil vom Wort links auf dem nächsten Stein.",
+      "fr": "Découpe les dominos. Pose-les en rond : le mot à droite de chaque domino est le contraire du mot à gauche du domino suivant.",
+      "es": "Recorta las fichas de dominó. Ponlas en círculo: la palabra de la derecha de cada ficha es lo opuesto de la palabra de la izquierda de la siguiente.",
+      "pt": "Recorte as peças do dominó. Monte um círculo: a palavra à direita de cada peça é o oposto da palavra à esquerda da peça seguinte.",
+      "it": "Ritaglia le tessere del domino. Mettile in cerchio: la parola a destra di ogni tessera è il contrario della parola a sinistra della tessera successiva.",
+      "nl": "Knip de dominostenen uit. Leg ze in een kring: het woord rechts op elke steen is het tegenovergestelde van het woord links op de volgende steen.",
+      "sv": "Klipp ut dominobrickorna. Lägg dem i en ring: ordet till höger på varje bricka är motsatsen till ordet till vänster på nästa bricka.",
+      "da": "Klip dominobrikkerne ud. Læg dem i en ring: Ordet til højre på hver brik er det modsatte af ordet til venstre på den næste brik.",
+      "no": "Klipp ut dominobrikkene. Legg dem i en ring: Ordet til høyre på hver brikke er det motsatte av ordet til venstre på neste brikke.",
+      "fi": "Leikkaa dominopalat irti. Aseta ne renkaaksi: jokaisen palan oikean puolen sana on seuraavan palan vasemman puolen sanan vastakohta."
+    }
+  },
+  "G1-499": {
+    "3": {
+      "en": "Write the small form of each word.",
+      "de": "Schreibe die Verkleinerungsform mit ihrem Artikel in das Kästchen.",
+      "fr": "Écris dans la case le nom du petit (chat → chaton) ou de la petite chose (cloche → clochette).",
+      "es": "Escribe el diminutivo o el aumentativo: el dibujo chico pide el diminutivo; el dibujo grande, el aumentativo.",
+      "pt": "Escreva o diminutivo ou o aumentativo: a figura pequena pede o diminutivo; a figura grande, o aumentativo.",
+      "it": "Scrivi il diminutivo o l'accrescitivo: il disegno piccolo chiede il diminutivo, il disegno grande l'accrescitivo.",
+      "nl": "Schrijf het verkleinwoord met het lidwoord in het vakje.",
+      "sv": "Skriv den lilla formen av varje ord.",
+      "da": "Skriv den lille form af hvert ord.",
+      "no": "Skriv den lille formen av hvert ord.",
+      "fi": "Kirjoita jokaisen sanan pieni muoto."
+    }
+  },
+  "G2-487": {
+    "3": {
+      "en": "Cut out the pieces. Put two pieces together to make a compound word, then write the word on a line.",
+      "de": "Schneide die Teile aus und setze immer zwei zu einem Wort zusammen. Braucht das Wort Fugenbuchstaben, schreibe sie in den Halbkreis. Schreibe dann jedes Wort auf eine Linie.",
+      "fr": "Découpe les pièces. Assemble deux pièces pour former un mot composé, puis écris-le sur une ligne.",
+      "es": "Recorta las piezas. Une dos piezas para formar una palabra compuesta y escríbela en una línea.",
+      "pt": "Recorte as peças. Junte duas peças para formar uma palavra composta e escreva-a em uma linha.",
+      "it": "Ritaglia i pezzi. Unisci due pezzi per formare una parola composta e scrivila su una riga.",
+      "nl": "Knip de stukjes uit en leg steeds twee stukjes tegen elkaar. Horen er tussenletters bij, schrijf die dan in het halve rondje. Schrijf daarna elk woord op een lijn.",
+      "sv": "Klipp ut bitarna. Lägg ihop två bitar till ett sammansatt ord och skriv ordet på en rad.",
+      "da": "Klip brikkerne ud, og læg altid to sammen til ét ord. Mangler der et bindebogstav, så skriv det i halvcirklen. Skriv derefter hvert ord på en linje.",
+      "no": "Klipp ut bitene, og legg alltid to sammen til ett ord. Trengs det en bindebokstav, skriver du den i halvsirkelen. Skriv så hvert ord på en linje.",
+      "fi": "Leikkaa palat irti. Yhdistä kaksi palaa yhdyssanaksi ja kirjoita sana viivalle."
+    }
+  },
+  "G1-500": {
+    "1": {
+      "en": "Read each sentence. Look at the picture and write the missing word, one letter in each box.",
+      "de": "Lies jeden Satz. Schau dir das Bild an und schreibe das fehlende Wort in die Kästchen, einen Buchstaben in jedes Kästchen.",
+      "fr": "Lis chaque phrase. Regarde l'image et écris le mot qui manque, une lettre par case.",
+      "es": "Lee cada oración. Mira el dibujo y escribe la palabra que falta, una letra en cada cuadro.",
+      "pt": "Leia cada frase. Observe a figura e escreva a palavra que falta, uma letra em cada quadrinho.",
+      "it": "Leggi ogni frase. Guarda la figura e scrivi la parola che manca, una lettera in ogni casella.",
+      "nl": "Lees elke zin. Kijk naar het plaatje en schrijf het woord op dat ontbreekt, één letter in elk vakje.",
+      "sv": "Läs varje mening. Titta på bilden och skriv ordet som saknas, en bokstav i varje ruta.",
+      "da": "Læs hver sætning. Se på billedet, og skriv det ord, der mangler, ét bogstav i hvert felt.",
+      "no": "Les hver setning. Se på bildet og skriv ordet som mangler, én bokstav i hver rute.",
+      "fi": "Lue jokainen lause. Katso kuvaa ja kirjoita puuttuva sana oikeassa muodossa, yksi kirjain jokaiseen ruutuun."
+    }
+  },
+  "K-553": {
+    "2": {
+      "en": "Read each sentence. Write the word for the picture in the box. Then write the whole sentence on the line.",
+      "de": "Lies jeden Satz. Schreibe das Wort für das Bild in das Kästchen. Schreibe dann den ganzen Satz auf die Linie.",
+      "fr": "Lis chaque phrase. Écris dans la case le mot de l'image. Puis écris toute la phrase sur la ligne.",
+      "es": "Lee cada oración. Escribe en el recuadro la palabra del dibujo. Después escribe toda la oración en la línea.",
+      "pt": "Leia cada frase. Escreva no quadrinho a palavra da figura. Depois escreva a frase inteira na linha.",
+      "it": "Leggi ogni frase. Scrivi nella casella la parola della figura. Poi scrivi tutta la frase sulla riga.",
+      "nl": "Lees elke zin. Schrijf het woord bij het plaatje in het vakje. Schrijf daarna de hele zin op de lijn.",
+      "sv": "Läs varje mening. Skriv ordet för bilden i rutan. Skriv sedan hela meningen på linjen.",
+      "da": "Læs hver sætning. Skriv ordet for billedet i feltet. Skriv så hele sætningen på linjen.",
+      "no": "Les hver setning. Skriv ordet for bildet i ruten. Skriv så hele setningen på linjen.",
+      "fi": "Lue jokainen lause. Kirjoita kuvan sana ruutuun oikeassa muodossa. Kirjoita sitten koko lause viivalle."
+    },
+    "3": {
+      "en": "Read each sentence. Write the word for the picture in the box. Then write the whole sentence on the line.",
+      "de": "Lies jeden Satz. Schreibe das Wort für das Bild in das Kästchen. Schreibe dann den ganzen Satz auf die Linie.",
+      "fr": "Lis chaque phrase. Écris dans la case le mot de l'image. Puis écris toute la phrase sur la ligne.",
+      "es": "Lee cada oración. Escribe en el recuadro la palabra del dibujo. Después escribe toda la oración en la línea.",
+      "pt": "Leia cada frase. Escreva no quadrinho a palavra da figura. Depois escreva a frase inteira na linha.",
+      "it": "Leggi ogni frase. Scrivi nella casella la parola della figura. Poi scrivi tutta la frase sulla riga.",
+      "nl": "Lees elke zin. Schrijf het woord bij het plaatje in het vakje. Schrijf daarna de hele zin op de lijn.",
+      "sv": "Läs varje mening. Skriv ordet för bilden i rutan. Skriv sedan hela meningen på linjen.",
+      "da": "Læs hver sætning. Skriv ordet for billedet i feltet. Skriv så hele sætningen på linjen.",
+      "no": "Les hver setning. Skriv ordet for bildet i ruten. Skriv så hele setningen på linjen.",
+      "fi": "Lue jokainen lause. Kirjoita kuvan sana ruutuun oikeassa muodossa. Kirjoita sitten koko lause viivalle."
+    }
+  },
+  "G1-501": {
+    "3": {
+      "en": "Read each group of words. Circle the check mark if it is a whole sentence. Circle the X if it is not. If it is not, make it a whole sentence on the line.",
+      "de": "Lies jede Wortgruppe. Kreise den Haken ein, wenn sie ein ganzer Satz ist. Kreise das Kreuz ein, wenn nicht. Ist es kein Satz, ergänze die Wortgruppe auf der Linie zu einem ganzen Satz.",
+      "fr": "Lis chaque groupe de mots. Entoure la coche si c'est une phrase complète. Entoure la croix si ce n'en est pas une. Si ce n'est pas une phrase, complète le groupe de mots sur la ligne pour en faire une phrase.",
+      "es": "Lee cada grupo de palabras. Encierra la palomita si es una oración completa. Encierra la X si no lo es. Si no lo es, complétalo en la línea para formar una oración.",
+      "pt": "Leia cada grupo de palavras. Circule o sinal de certo se for uma frase completa. Circule o X se não for. Se não for, complete o grupo de palavras na linha para formar uma frase.",
+      "it": "Leggi ogni gruppo di parole. Cerchia la spunta se è una frase completa. Cerchia la X se non lo è. Se non lo è, completalo sulla riga per formare una frase.",
+      "nl": "Lees elke woordgroep. Omcirkel het vinkje als het een hele zin is. Omcirkel het kruisje als het geen zin is. Is het geen zin, maak hem dan af op de lijn.",
+      "sv": "Läs varje ordgrupp. Ringa in bocken om det är en hel mening. Ringa in krysset om det inte är det. Om det inte är en mening, skriv en hel mening av den på linjen.",
+      "da": "Læs hver ordgruppe. Sæt ring om fluebenet, hvis det er en hel sætning. Sæt ring om krydset, hvis det ikke er det. Hvis det ikke er en sætning, så skriv en hel sætning på linjen.",
+      "no": "Les hver ordgruppe. Sett ring rundt haken hvis det er en hel setning. Sett ring rundt krysset hvis det ikke er det. Hvis det ikke er en setning, skriv en hel setning på linjen.",
+      "fi": "Lue jokainen sanaryhmä. Ympyröi väkänen, jos se on kokonainen lause. Ympyröi risti, jos se ei ole. Jos se ei ole lause, täydennä se viivalle."
+    }
+  },
+  "G1-506": {
+    "3": {
+      "en": "Plan your story. Draw and write what happens at the beginning, what goes wrong, what happens next and how it ends.",
+      "de": "Plane deine Geschichte. Male und schreibe, was am Anfang passiert, was schiefgeht, was dann passiert und wie es ausgeht.",
+      "fr": "Prépare ton histoire. Dessine et écris ce qui se passe au début, ce qui ne va pas, ce qui se passe ensuite et comment ça finit.",
+      "es": "Planea tu cuento. Dibuja y escribe lo que pasa al inicio, qué sale mal, qué pasa después y cómo termina.",
+      "pt": "Planeje a sua história. Desenhe e escreva o que acontece no início, o que dá errado, o que acontece depois e como termina.",
+      "it": "Prepara la tua storia. Disegna e scrivi che cosa succede all'inizio, che cosa va storto, che cosa succede dopo e come finisce.",
+      "nl": "Bedenk je verhaal. Teken en schrijf wat er in het begin gebeurt, wat er misgaat, wat er dan gebeurt en hoe het afloopt.",
+      "sv": "Planera din berättelse. Rita och skriv vad som händer i början, vad som går fel, vad som händer sedan och hur det slutar.",
+      "da": "Planlæg din historie. Tegn og skriv, hvad der sker i begyndelsen, hvad der går galt, hvad der så sker, og hvordan det ender.",
+      "no": "Planlegg fortellingen din. Tegn og skriv hva som skjer i begynnelsen, hva som går galt, hva som skjer etterpå og hvordan det slutter.",
+      "fi": "Suunnittele tarinasi. Piirrä ja kirjoita, mitä tapahtuu alussa, mikä menee pieleen, mitä sitten tapahtuu ja miten tarina päättyy."
+    }
+  },
+  "G1-507": {
+    "3": {
+      "en": "Look at each picture. Write what the characters say in the speech bubbles, then write a sentence under each picture.",
+      "de": "Schau dir jedes Bild an. Schreibe in die Sprechblasen, was die Figuren sagen, und schreibe unter jedes Bild einen Satz.",
+      "fr": "Regarde chaque image. Écris dans les bulles ce que disent les personnages, puis écris une phrase sous chaque image.",
+      "es": "Mira cada dibujo. Escribe en los globos lo que dicen los personajes y después una oración debajo de cada dibujo.",
+      "pt": "Observe cada quadrinho. Escreva nos balões o que os personagens falam e depois uma frase embaixo de cada quadrinho.",
+      "it": "Guarda ogni vignetta. Scrivi nelle nuvolette che cosa dicono i personaggi, poi scrivi una frase sotto ogni vignetta.",
+      "nl": "Kijk naar elk plaatje. Schrijf in de tekstballonnen wat de figuren zeggen en schrijf onder elk plaatje een zin.",
+      "sv": "Titta på varje bild. Skriv i pratbubblorna vad figurerna säger och skriv sedan en mening under varje bild.",
+      "da": "Se på hvert billede. Skriv i taleboblerne, hvad figurerne siger, og skriv så en sætning under hvert billede.",
+      "no": "Se på hvert bilde. Skriv i snakkeboblene hva figurene sier, og skriv så en setning under hvert bilde.",
+      "fi": "Katso jokaista kuvaa. Kirjoita puhekupliin, mitä hahmot sanovat, ja kirjoita sitten lause jokaisen kuvan alle."
+    }
+  },
+  "G1-508": {
+    "1": {
+      "en": "Roll a die twice: once for who, once for where. Then write a story with what you rolled.",
+      "de": "Würfle zweimal: einmal für die Spalte „Wer?“ und einmal für die Spalte „Wo?“ Schreibe dann eine Geschichte mit dem, was du gewürfelt hast.",
+      "fr": "Lance le dé deux fois : une fois pour Qui, une fois pour Où. Puis écris une histoire avec ce que tu as obtenu.",
+      "es": "Tira el dado dos veces: una para Quién y otra para Dónde. Después escribe un cuento con lo que te salió.",
+      "pt": "Jogue o dado duas vezes: uma para Quem e outra para Onde. Depois escreva uma história com o que saiu.",
+      "it": "Lancia il dado due volte: una per Chi e una per Dove. Poi scrivi una storia con quello che ti è uscito.",
+      "nl": "Gooi twee keer met de dobbelsteen: één keer voor Wie, één keer voor Waar. Schrijf daarna een verhaal met wat je hebt gegooid.",
+      "sv": "Slå tärningen två gånger: en gång för Vem och en gång för Var. Skriv sedan en berättelse med det du fick.",
+      "da": "Slå med terningen to gange: én gang for Hvem og én gang for Hvor. Skriv så en historie med det, du slog.",
+      "no": "Kast terningen to ganger: én gang for Hvem og én gang for Hvor. Skriv så en fortelling med det du fikk.",
+      "fi": "Heitä noppaa kaksi kertaa: kerran Kuka-saraketta ja kerran Missä-saraketta varten. Kirjoita sitten tarina siitä, mitä sait."
+    }
+  },
+  "G1-509": {
+    "3": {
+      "en": "Look at the picture. Finish the sentences about your character. Then write more about it on the lines.",
+      "de": "Schau dir das Bild an. Ergänze die Sätze über deine Figur. Schreibe dann auf den Linien noch mehr über sie.",
+      "fr": "Regarde l'image. Complète les phrases sur ton personnage. Puis, sur les lignes, écris d'autres choses sur lui.",
+      "es": "Mira el dibujo. Completa las oraciones sobre tu personaje. Después escribe más sobre él en las líneas.",
+      "pt": "Observe a figura. Complete as frases sobre o seu personagem. Depois escreva mais sobre ele nas linhas.",
+      "it": "Guarda la figura. Completa le frasi sul tuo personaggio. Poi scrivi ancora qualcosa su di lui sulle righe.",
+      "nl": "Kijk naar het plaatje. Maak de zinnen over je personage af. Schrijf daarna nog meer over je personage op de lijnen.",
+      "sv": "Titta på bilden. Skriv klart meningarna om din figur. Skriv sedan mer om den på linjerna.",
+      "da": "Se på billedet. Skriv sætningerne om din figur færdige. Skriv så mere om den på linjerne.",
+      "no": "Se på bildet. Skriv ferdig setningene om figuren din. Skriv så mer om den på linjene.",
+      "fi": "Katso kuvaa. Täydennä lauseet hahmostasi. Kirjoita sitten viivoille lisää hahmostasi."
+    }
+  },
+  "G1-510": {
+    "3": {
+      "en": "Write a letter to someone you love. Write their name after the greeting and your name at the end.",
+      "de": "Schreibe einem lieben Menschen einen Brief. Schreibe seinen Namen hinter die Anrede und deinen Namen ans Ende.",
+      "fr": "Écris une lettre à quelqu'un que tu aimes. Écris son prénom après la salutation et ton prénom à la fin.",
+      "es": "Escríbele una carta a alguien que quieres. Escribe su nombre después del saludo y tu nombre al final.",
+      "pt": "Escreva uma carta para alguém de quem você gosta. Escreva o nome da pessoa depois da saudação e o seu nome no final.",
+      "it": "Scrivi una lettera a una persona a cui vuoi bene. Scrivi il suo nome dopo il saluto e il tuo nome alla fine.",
+      "nl": "Schrijf een brief aan iemand van wie je houdt. Schrijf zijn of haar naam na de begroeting en je eigen naam aan het eind.",
+      "sv": "Skriv ett brev till någon du tycker om. Skriv personens namn efter hälsningen och ditt namn sist.",
+      "da": "Skriv et brev til en, du holder af. Skriv personens navn efter hilsenen og dit eget navn til sidst.",
+      "no": "Skriv et brev til noen du er glad i. Skriv navnet til personen etter hilsenen og ditt eget navn til slutt.",
+      "fi": "Kirjoita kirje jollekulle, josta pidät. Kirjoita hänen nimensä tervehdyksen perään ja oma nimesi loppuun."
+    }
+  },
+  "K-555": {
+    "2": {
+      "en": "Look at each picture. What might it say? Write it in the speech bubble.",
+      "de": "Schau dir jedes Bild an. Was könnte es sagen? Schreibe es in die Sprechblase.",
+      "fr": "Regarde chaque image. Imagine ce qu'il ou elle dit et écris-le dans la bulle.",
+      "es": "Mira cada dibujo. ¿Qué podría decir? Escríbelo en el globo.",
+      "pt": "Observe cada figura. O que ele ou ela poderia dizer? Escreva no balão.",
+      "it": "Guarda ogni figura. Che cosa potrebbe dire? Scrivilo nella nuvoletta.",
+      "nl": "Kijk naar elk plaatje. Wat zou het zeggen? Schrijf het in de tekstballon.",
+      "sv": "Titta på varje bild. Vad kan den säga? Skriv det i pratbubblan.",
+      "da": "Se på hvert billede. Hvad kunne det sige? Skriv det i taleboblen.",
+      "no": "Se på hvert bilde. Hva kan det si? Skriv det i snakkeboblen.",
+      "fi": "Katso jokaista kuvaa. Mitä se voisi sanoa? Kirjoita se puhekuplaan."
+    },
+    "3": {
+      "en": "Look at each picture. Write two sentences about it.",
+      "de": "Schau dir jedes Bild an. Schreibe zwei Sätze dazu.",
+      "fr": "Regarde les images. Écris deux phrases pour chaque image.",
+      "es": "Mira cada dibujo. Escribe dos oraciones sobre él.",
+      "pt": "Observe cada figura. Escreva duas frases sobre ela.",
+      "it": "Guarda le figure. Scrivi due frasi su ogni figura.",
+      "nl": "Kijk naar elk plaatje. Schrijf er twee zinnen bij.",
+      "sv": "Titta på varje bild. Skriv två meningar om den.",
+      "da": "Se på hvert billede. Skriv to sætninger om det.",
+      "no": "Se på hvert bilde. Skriv to setninger om det.",
+      "fi": "Katso jokaista kuvaa. Kirjoita siitä kaksi lausetta."
+    }
+  },
+  "G2-489": {
+    "3": {
+      "en": "Read each story. Work it out in two steps. Write the answer in the box.",
+      "de": "Lies jede Geschichte. Rechne in zwei Schritten. Schreibe das Ergebnis in das Kästchen.",
+      "fr": "Lis chaque problème. Résous-le en deux étapes. Écris la réponse dans la case.",
+      "es": "Lee cada problema. Resuélvelo en dos pasos. Escribe la respuesta en el recuadro.",
+      "pt": "Leia cada problema. Resolva em duas etapas. Escreva a resposta no quadrinho.",
+      "it": "Leggi ogni problema. Risolvilo con due operazioni. Scrivi la risposta nella casella.",
+      "nl": "Lees elk verhaaltje. Reken het uit in twee stappen. Schrijf het antwoord in het vakje.",
+      "sv": "Läs varje räknehändelse. Räkna i två steg. Skriv svaret i rutan.",
+      "da": "Læs hver regnehistorie. Regn den ud i to trin. Skriv svaret i feltet.",
+      "no": "Les hver regnefortelling. Regn den ut i to steg. Skriv svaret i ruten.",
+      "fi": "Lue jokainen tehtävä. Laske se kahdessa vaiheessa. Kirjoita vastaus ruutuun."
+    }
+  },
+  "K-557": {
+    "3": {
+      "en": "Cut out the cards. Put them on the word wall, or cut along the dashed lines and match each number to its word.",
+      "de": "Schneide die Karten aus. Hänge sie an die Wand, oder schneide an den gestrichelten Linien entlang und ordne jeder Zahl ihr Zahlwort zu.",
+      "fr": "Découpe les cartes. Affiche-les au mur, ou découpe sur les pointillés et associe chaque nombre à son mot.",
+      "es": "Recorta las tarjetas. Pégalas en la pared, o recorta por las líneas punteadas y relaciona cada número con su palabra.",
+      "pt": "Recorte as fichas. Coloque no mural, ou recorte nas linhas tracejadas e junte cada número à sua palavra.",
+      "it": "Ritaglia le carte. Appendile al muro, oppure ritaglia lungo le linee tratteggiate e abbina ogni numero alla sua parola.",
+      "nl": "Knip de kaartjes uit. Hang ze aan de muur, of knip langs de stippellijnen en zoek bij elk getal het goede woord.",
+      "sv": "Klipp ut korten. Sätt upp dem på väggen, eller klipp längs de streckade linjerna och para ihop varje tal med rätt talord.",
+      "da": "Klip kortene ud. Sæt dem op på væggen, eller klip langs de stiplede linjer, og sæt hvert tal sammen med det rigtige talord.",
+      "no": "Klipp ut kortene. Heng dem opp på veggen, eller klipp langs de stiplede linjene og finn tallordet som hører til hvert tall.",
+      "fi": "Leikkaa kortit irti. Kiinnitä ne seinälle tai leikkaa katkoviivoja pitkin ja yhdistä jokainen luku oikeaan lukusanaan."
+    }
+  },
+  "K-561": {
+    "1": {
+      "en": "Count the pictures in each box. Write the word for many.",
+      "de": "Zähle die Bilder in jedem Kästchen. Schreibe das Wort in der Mehrzahl.",
+      "fr": "Compte les images de chaque case. Écris le mot au pluriel.",
+      "es": "Cuenta los dibujos de cada recuadro. Escribe la palabra en plural.",
+      "pt": "Conte as figuras de cada quadro. Escreva a palavra no plural.",
+      "it": "Conta le figure in ogni riquadro. Scrivi la parola al plurale.",
+      "nl": "Tel de plaatjes in elk vak. Schrijf het woord in het meervoud.",
+      "sv": "Räkna bilderna i varje ruta. Skriv ordet i plural.",
+      "da": "Tæl billederne i hvert felt. Skriv ordet i flertal.",
+      "no": "Tell bildene i hver rute. Skriv ordet i flertall.",
+      "fi": "Laske kunkin ruudun kuvat. Kirjoita sana."
+    }
+  },
+  "G1-523": {
+    "2": {
+      "en": "Read the two sentences. Write the missing word in each box.",
+      "de": "Lies die zwei Sätze. Schreibe den fehlenden Artikel in jedes Kästchen.",
+      "fr": "Lis les deux phrases. Écris le déterminant qui manque dans chaque case.",
+      "es": "Lee las dos oraciones. Escribe el artículo que falta en cada recuadro.",
+      "pt": "Leia as duas frases. Escreva o artigo que falta em cada quadrinho.",
+      "it": "Leggi le due frasi. Scrivi l'articolo che manca in ogni casella.",
+      "nl": "Lees de twee zinnen. Schrijf het lidwoord dat ontbreekt in elk vakje.",
+      "sv": "Läs de två meningarna. Skriv det ord som fattas i varje ruta.",
+      "da": "Læs de to sætninger. Skriv det ord, der mangler, i hvert felt.",
+      "no": "Les de to setningene. Skriv ordet som mangler, i hver rute.",
+      "fi": "Lue kaksi lausetta. Kirjoita puuttuva sana."
+    }
+  },
+  "G1-524": {
+    "3": {
+      "en": "Write the missing dates and the short names of the days in the calendar.",
+      "de": "Schreibe die fehlenden Zahlen und die Abkürzungen der Wochentage in den Kalender.",
+      "fr": "Écris les dates qui manquent et les abréviations des jours dans le calendrier.",
+      "es": "Escribe en el calendario las fechas que faltan y las abreviaturas de los días.",
+      "pt": "Escreva no calendário as datas que faltam e as abreviações dos dias da semana.",
+      "it": "Scrivi nel calendario le date che mancano e le abbreviazioni dei giorni.",
+      "nl": "Schrijf de ontbrekende datums en de afkortingen van de dagen in de kalender.",
+      "sv": "Skriv de datum som fattas och dagarnas förkortningar i kalendern.",
+      "da": "Skriv de datoer, der mangler, og dagenes forkortelser i kalenderen.",
+      "no": "Skriv datoene som mangler, og forkortelsene for dagene i kalenderen.",
+      "fi": "Kirjoita kalenteriin puuttuvat päivämäärät ja viikonpäivien lyhenteet."
+    }
+  },
+  "G1-525": {
+    "2": {
+      "en": "Ask your classmates their birthday month. Color one box above each child's month. Then answer the questions.",
+      "de": "Frage die Kinder deiner Klasse nach ihrem Geburtstagsmonat. Male für jedes Kind ein Kästchen über seinem Monat an. Beantworte dann die Fragen.",
+      "fr": "Demande à tes camarades leur mois d'anniversaire. Colorie une case au-dessus du mois de chaque enfant. Réponds ensuite aux questions.",
+      "es": "Pregunta a tus compañeros en qué mes cumplen años. Colorea un cuadro arriba del mes de cada niño. Después contesta las preguntas.",
+      "pt": "Pergunte aos colegas o mês do aniversário deles. Pinte um quadrinho acima do mês de cada criança. Depois responda às perguntas.",
+      "it": "Chiedi ai compagni il mese del loro compleanno. Colora una casella sopra il mese di ogni bambino. Poi rispondi alle domande.",
+      "nl": "Vraag je klasgenoten in welke maand ze jarig zijn. Kleur voor elk kind een hokje boven zijn maand. Beantwoord daarna de vragen.",
+      "sv": "Fråga dina klasskamrater vilken månad de fyller år. Färglägg en ruta ovanför varje barns månad. Svara sedan på frågorna.",
+      "da": "Spørg dine klassekammerater, hvilken måned de har fødselsdag. Farvelæg et felt over hvert barns måned. Svar derefter på spørgsmålene.",
+      "no": "Spør klassekameratene dine hvilken måned de har bursdag. Fargelegg en rute over hvert barns måned. Svar så på spørsmålene.",
+      "fi": "Kysy luokkatovereiltasi heidän syntymäkuukautensa. Väritä jokaiselle lapselle yksi ruutu hänen kuukautensa yläpuolelle. Vastaa sitten kysymyksiin."
+    },
+    "3": {
+      "en": "Ask your classmates their birthday month. Color one box above each child's month. Then answer the questions.",
+      "de": "Frage die Kinder deiner Klasse nach ihrem Geburtstagsmonat. Male für jedes Kind ein Kästchen über seinem Monat an. Beantworte dann die Fragen.",
+      "fr": "Demande à tes camarades leur mois d'anniversaire. Colorie une case au-dessus du mois de chaque enfant. Réponds ensuite aux questions.",
+      "es": "Pregunta a tus compañeros en qué mes cumplen años. Colorea un cuadro arriba del mes de cada niño. Después contesta las preguntas.",
+      "pt": "Pergunte aos colegas o mês do aniversário deles. Pinte um quadrinho acima do mês de cada criança. Depois responda às perguntas.",
+      "it": "Chiedi ai compagni il mese del loro compleanno. Colora una casella sopra il mese di ogni bambino. Poi rispondi alle domande.",
+      "nl": "Vraag je klasgenoten in welke maand ze jarig zijn. Kleur voor elk kind een hokje boven zijn maand. Beantwoord daarna de vragen.",
+      "sv": "Fråga dina klasskamrater vilken månad de fyller år. Färglägg en ruta ovanför varje barns månad. Svara sedan på frågorna.",
+      "da": "Spørg dine klassekammerater, hvilken måned de har fødselsdag. Farvelæg et felt over hvert barns måned. Svar derefter på spørgsmålene.",
+      "no": "Spør klassekameratene dine hvilken måned de har bursdag. Fargelegg en rute over hvert barns måned. Svar så på spørsmålene.",
+      "fi": "Kysy luokkatovereiltasi heidän syntymäkuukautensa. Väritä jokaiselle lapselle yksi ruutu hänen kuukautensa yläpuolelle. Vastaa sitten kysymyksiin."
+    }
+  },
+  "G1-526": {
+    "2": {
+      "en": "Look at today's calendar page. Write the date in numbers and in words.",
+      "de": "Schau auf das Kalenderblatt. Schreibe das Datum mit Zahlen und mit Wörtern.",
+      "fr": "Regarde la page du calendrier. Écris la date en chiffres et en lettres.",
+      "es": "Mira la hoja del calendario. Escribe la fecha con números y completa la oración.",
+      "pt": "Observe a folha do calendário. Escreva a data com números e por extenso.",
+      "it": "Guarda il foglio del calendario. Scrivi la data in cifre e per esteso.",
+      "nl": "Kijk naar het blaadje van de kalender. Schrijf de datum in cijfers en in woorden.",
+      "sv": "Titta på kalenderbladet. Skriv datumet med siffror och med ord.",
+      "da": "Se på kalenderbladet. Skriv datoen med tal og med ord.",
+      "no": "Se på kalenderarket. Skriv datoen med tall og med ord.",
+      "fi": "Katso kalenterin sivua. Kirjoita päivämäärä numeroin ja sanoin."
+    },
+    "3": {
+      "en": "Look at today's calendar page. Write the date in numbers and in words. Then write yesterday's and tomorrow's date.",
+      "de": "Schau auf das Kalenderblatt. Schreibe das Datum mit Zahlen und mit Wörtern. Schreibe dann das Datum von gestern und von morgen.",
+      "fr": "Regarde la page du calendrier. Écris la date en chiffres et en lettres. Écris aussi la date d'hier et celle de demain.",
+      "es": "Mira la hoja del calendario. Escribe la fecha con números y completa la oración. Escribe también la fecha de ayer y la de mañana.",
+      "pt": "Observe a folha do calendário. Escreva a data com números e por extenso. Escreva também a data de ontem e a de amanhã.",
+      "it": "Guarda il foglio del calendario. Scrivi la data in cifre e per esteso. Scrivi anche la data di ieri e quella di domani.",
+      "nl": "Kijk naar het blaadje van de kalender. Schrijf de datum in cijfers en in woorden. Schrijf ook de datum van gisteren en van morgen.",
+      "sv": "Titta på kalenderbladet. Skriv datumet med siffror och med ord. Skriv också datumet för i går och i morgon.",
+      "da": "Se på kalenderbladet. Skriv datoen med tal og med ord. Skriv også datoen for i går og i morgen.",
+      "no": "Se på kalenderarket. Skriv datoen med tall og med ord. Skriv også datoen for i går og i morgen.",
+      "fi": "Katso kalenterin sivua. Kirjoita päivämäärä numeroin ja sanoin. Kirjoita myös eilinen ja huominen päivämäärä."
+    }
+  },
+  "K-564": {
+    "3": {
+      "en": "Every day, color the circle of the feeling you have. Then finish the sentence for that day.",
+      "de": "Male jeden Tag den Kreis bei dem Gefühl an, das du hast. Schreibe dann für den Tag auf, warum.",
+      "fr": "Chaque jour, colorie le rond de l'émotion que tu ressens. Puis écris pourquoi pour ce jour-là.",
+      "es": "Cada día, colorea el círculo de la emoción que sientes. Después escribe por qué en la línea de ese día.",
+      "pt": "Todos os dias, pinte o círculo da emoção que você sente. Depois escreva o porquê na linha daquele dia.",
+      "it": "Ogni giorno colora il cerchio dell'emozione che provi. Poi scrivi perché sulla riga di quel giorno.",
+      "nl": "Kleur elke dag het rondje bij het gevoel dat je hebt. Schrijf daarna op de regel van die dag waarom.",
+      "sv": "Färglägg varje dag cirkeln vid den känsla du har. Skriv sedan varför på raden för den dagen.",
+      "da": "Farvelæg hver dag cirklen ved den følelse, du har. Skriv så hvorfor på linjen for den dag.",
+      "no": "Fargelegg hver dag sirkelen ved følelsen du har. Skriv så hvorfor på linjen for den dagen.",
+      "fi": "Väritä joka päivä sen tunteen ympyrä, joka sinulla on. Kirjoita sitten sen päivän riville, miksi."
+    }
+  },
+  "K-565": {
+    "3": {
+      "en": "How strong is the feeling? Color the thermometer up to how strong it is. Write what helps you.",
+      "de": "Wie stark ist das Gefühl? Male das Thermometer so hoch an, wie stark das Gefühl ist. Schreibe auf, was dir hilft.",
+      "fr": "Quelle est la force de ton émotion ? Colorie le thermomètre jusqu'au niveau de ton émotion. Écris ce qui t'aide.",
+      "es": "¿Qué tan fuerte es la emoción? Colorea el termómetro hasta donde llega la emoción. Escribe lo que te ayuda.",
+      "pt": "Quão forte é a emoção? Pinte o termômetro até onde a emoção chega. Escreva o que ajuda você.",
+      "it": "Quanto è forte l'emozione? Colora il termometro fino a dove arriva l'emozione. Scrivi che cosa ti aiuta.",
+      "nl": "Hoe sterk is het gevoel? Kleur de thermometer zo hoog als het gevoel sterk is. Schrijf op wat jou helpt.",
+      "sv": "Hur stark är känslan? Färglägg termometern så högt som känslan är stark. Skriv vad som hjälper dig.",
+      "da": "Hvor stærk er følelsen? Farvelæg termometeret så højt, som følelsen er stærk. Skriv, hvad der hjælper dig.",
+      "no": "Hvor sterk er følelsen? Fargelegg termometeret så høyt som følelsen er sterk. Skriv hva som hjelper deg.",
+      "fi": "Kuinka voimakas tunne on? Väritä mittari niin korkealle kuin tunne on voimakas. Kirjoita, mikä auttaa sinua."
+    }
+  },
+  "K-569": {
+    "3": {
+      "en": "Listen to each word. If the word is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+      "de": "Hör dir jedes Wort an. Steht das Wort auf deiner Karte, markiere es. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“",
+      "fr": "Écoute chaque mot. Si le mot est sur ta carte, marque-le. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »",
+      "es": "Escucha cada palabra. Si la palabra está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”",
+      "pt": "Ouça cada palavra. Se a palavra estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”",
+      "it": "Ascolta ogni parola. Se la parola è sulla tua cartella, fai una crocetta. Quando hai completato una riga intera, in orizzontale, in verticale o in diagonale, grida «Bingo!»",
+      "nl": "Luister naar elk woord. Staat het woord op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’",
+      "sv": "Lyssna på varje ord. Finns ordet på din bricka, markera det. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”",
+      "da": "Lyt til hvert ord. Står ordet på din plade, så markér det. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«",
+      "no": "Lytt til hvert ord. Står ordet på brettet ditt, markerer du det. Når du har markert en hel rad, vannrett, loddrett eller på skrå, roper du «Bingo!»",
+      "fi": "Kuuntele jokainen sana. Jos sana on kortissasi, merkitse se. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+    }
+  },
+  "G1-543": {
+    "3": {
+      "en": "Listen to each sum and work it out. If the answer is on your card, mark it. The star in the middle counts as marked. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+      "de": "Hör dir jede Aufgabe an und rechne sie aus. Steht das Ergebnis auf deiner Karte, markiere es. Der Stern in der Mitte zählt schon als markiert. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“",
+      "fr": "Écoute chaque calcul et trouve le résultat. S'il est sur ta carte, marque-le. L'étoile du milieu compte déjà comme marquée. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »",
+      "es": "Escucha cada operación y resuélvela. Si el resultado está en tu tabla, márcalo. La estrella del centro ya cuenta como marcada. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”",
+      "pt": "Ouça cada conta e resolva. Se o resultado estiver na sua cartela, marque-o. A estrela do meio já conta como marcada. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”",
+      "it": "Ascolta ogni operazione e calcola il risultato. Se è sulla tua cartella, fai una crocetta. La stella al centro è già segnata. Quando hai completato una riga intera, in orizzontale, in verticale o in diagonale, grida «Bingo!»",
+      "nl": "Luister naar elke som en reken hem uit. Staat het antwoord op je kaart, zet er dan een kruisje op. De ster in het midden telt al als aangekruist. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’",
+      "sv": "Lyssna på varje uppgift och räkna ut den. Finns svaret på din bricka, markera det. Stjärnan i mitten räknas redan som markerad. När du har markerat en hel rad, vågrätt, lodrätt eller snett, ropar du ”Bingo!”",
+      "da": "Lyt til hvert regnestykke, og regn det ud. Står resultatet på din plade, så markér det. Stjernen i midten tæller allerede som markeret. Når du har markeret en hel række, vandret, lodret eller på skrå, råber du »Banko!«",
+      "no": "Lytt til hvert regnestykke og regn det ut. Står svaret på brettet ditt, markerer du det. Stjernen i midten teller allerede som markert. Når du har markert en hel rad, vannrett, loddrett eller på skrå, roper du «Bingo!»",
+      "fi": "Kuuntele jokainen lasku ja laske se. Jos vastaus on kortissasi, merkitse se. Keskellä oleva tähti lasketaan jo merkityksi. Kun olet merkinnyt kokonaisen rivin vaaka- tai pystysuoraan tai vinottain, huuda ”Bingo!”"
+    }
+  },
+  "K-575": {
+    "3": {
+      "en": "Cut out the cards and mix them up. Take one card at a time and say the word, read the sentence, then say the word again. Keep the cards you have called to check each Bingo.",
+      "de": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und sag das Wort, lies den Satz vor und sag das Wort noch einmal. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo.",
+      "fr": "Découpe les cartes et mélange-les. Prends une carte à la fois et dis le mot, lis la phrase, puis redis le mot. Garde les cartes déjà appelées pour vérifier chaque « Loto ! ».",
+      "es": "Recorta las cartas y revuélvelas. Toma una carta a la vez y di la palabra, lee la oración y vuelve a decir la palabra. Guarda las cartas que ya cantaste para revisar cada “¡Lotería!”.",
+      "pt": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e diga a palavra, leia a frase e diga a palavra de novo. Guarde as cartas já sorteadas para conferir cada bingo.",
+      "it": "Ritaglia le carte e mescolale. Prendi una carta alla volta e di' la parola, leggi la frase e ripeti la parola. Tieni da parte le carte già estratte per controllare ogni bingo.",
+      "nl": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en zeg het woord, lees de zin voor en zeg het woord nog een keer. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren.",
+      "sv": "Klipp ut korten och blanda dem. Ta ett kort i taget och säg ordet, läs meningen och säg ordet igen. Spara korten du har ropat upp, så kan du kontrollera varje bingo.",
+      "da": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og sig ordet, læs sætningen, og sig ordet igen. Gem de kort, du har råbt op, så du kan tjekke hver banko.",
+      "no": "Klipp ut kortene og bland dem. Ta ett kort om gangen og si ordet, les setningen og si ordet igjen. Ta vare på kortene du har ropt opp, så kan du sjekke hver bingo.",
+      "fi": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja sano sana, lue lause ja sano sana uudelleen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+    }
+  },
+  "K-566": {
+    "2": {
+      "en": "Cut out the cards. Match each face with its word, or turn the cards over and play a memory game.",
+      "de": "Schneide die Karten aus. Lege jedes Gesicht zu seinem Wort oder spiele mit einem anderen Kind Memory.",
+      "fr": "Découpe les cartes. Associe chaque visage à son mot, ou joue au memory.",
+      "es": "Recorta las tarjetas. Une cada cara con su palabra o jueguen memorama.",
+      "pt": "Recorte as cartas. Junte cada rosto com a sua palavra ou jogue o jogo da memória.",
+      "it": "Ritaglia le carte. Abbina ogni faccia alla sua parola oppure gioca a memory.",
+      "nl": "Knip de kaartjes uit. Leg elk gezicht bij het goede woord of speel er memory mee.",
+      "sv": "Klipp ut korten. Para ihop varje ansikte med sitt ord eller spela memory.",
+      "da": "Klip kortene ud. Læg hvert ansigt sammen med sit ord, eller spil vendespil.",
+      "no": "Klipp ut kortene. Legg hvert ansikt sammen med ordet sitt, eller spill memory.",
+      "fi": "Leikkaa kortit irti. Yhdistä kasvot ja sanat pareiksi tai pelatkaa muistipeliä."
+    },
+    "3": {
+      "en": "Write the feeling under each face. Then cut out the cards and use them to talk about feelings.",
+      "de": "Schreibe unter jedes Gesicht das Gefühl. Schneide dann die Karten aus und sprich mit anderen Kindern über Gefühle.",
+      "fr": "Écris l'émotion sous chaque visage. Puis découpe les cartes pour parler des émotions.",
+      "es": "Escribe la emoción debajo de cada cara. Después recorta las tarjetas para hablar de las emociones.",
+      "pt": "Escreva a emoção embaixo de cada rosto. Depois recorte as cartas para conversar sobre as emoções.",
+      "it": "Scrivi l'emozione sotto ogni faccia. Poi ritaglia le carte per parlare delle emozioni.",
+      "nl": "Schrijf het gevoel onder elk gezicht. Knip daarna de kaartjes uit en praat met elkaar over gevoelens.",
+      "sv": "Skriv känslan under varje ansikte. Klipp sedan ut korten och prata om känslor.",
+      "da": "Skriv følelsen under hvert ansigt. Klip derefter kortene ud, og tal om følelser.",
+      "no": "Skriv følelsen under hvert ansikt. Klipp så ut kortene og snakk om følelser.",
+      "fi": "Kirjoita tunteen nimi jokaisen kuvan alle. Leikkaa sitten kortit irti ja puhukaa tunteista."
+    }
   }
 }

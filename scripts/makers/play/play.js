@@ -85,7 +85,9 @@ const tplOf = (i) => tj.templates.find((x) => x.id === state.tpls[i]);
 const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
 function themeFor(t, want) {
   if (!t.themed) return null;
-  return t.themes.includes(want) ? want : (t.themes.find((x) => baseTheme(x) === baseTheme(want)) || t.themes[0]);
+  // the themes the template offers in this language (templates.json localeThemes)
+  const ts = (t.localeThemes && t.localeThemes[LANG]) || t.themes;
+  return ts.includes(want) ? want : (ts.find((x) => baseTheme(x) === baseTheme(want)) || ts[0]);
 }
 function stringsFor(id, level) {
   const b = strings[id];

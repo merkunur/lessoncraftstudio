@@ -3905,5 +3905,677 @@
   "K-483": {
     "title": "Letter Strokes: Lines, Curves and Arches",
     "instruction": "Trace each dashed stroke, starting at the orange dot. The letters at the start of the row all use this stroke."
+  },
+  "K-484": {
+    "title": "Which Exit? Maze Puzzles",
+    "instruction": "Start at the arrow. Follow the paths with your finger. You can reach only one exit: circle its number."
+  },
+  "K-485": {
+    "title": "Write the Directions Through the Maze",
+    "instruction": "Follow the path from the green dot to the flag. For each straight part, write how many steps (little arrows) it has."
+  },
+  "K-486": {
+    "title": "Collect the Letters Maze",
+    "instruction": "Draw the path to the picture. Collect the letters along the way, then write the word in the boxes."
+  },
+  "K-487": {
+    "title": "Follow the Pattern Path",
+    "instruction": "Look at the pattern at the top. Go from the arrow to the flag, stepping only on stones that follow the pattern."
+  },
+  "K-488": {
+    "title": "Which Picture Is Different?",
+    "instruction": "All the pictures are the same except one. Circle the picture that is different."
+  },
+  "K-489": {
+    "title": "Count Each Kind of Change",
+    "instruction": "Find every difference in picture 2. Count the changes of each kind and write the number in its box."
+  },
+  "K-490": {
+    "title": "Look, Fold and Find",
+    "instruction": "Look at picture 1 for as long as you like. Then fold the page on the dashed line so picture 1 is hidden. Circle the changes in picture 2 and put a check mark in a box for each one."
+  },
+  "K-491": {
+    "title": "Draw What Is Missing",
+    "instruction": "Some things from picture 1 are missing in picture 2. Draw each one back in its place in picture 2."
+  },
+  "K-492": {
+    "title": "Which Two Pictures Are the Same?",
+    "instruction": "Two of the pictures are exactly the same. Find them and circle both."
+  },
+  "K-493": {
+    "title": "Draw with Shapes",
+    "instruction": "Look at the steps. Each step adds new shapes in orange. Draw the picture in the big box, one step at a time."
+  },
+  "K-494": {
+    "title": "Draw It Bigger on the Grid",
+    "instruction": "Copy the picture onto the big grid, one square at a time. Every square of the big grid is twice as big, so your picture will be twice as big too."
+  },
+  "K-495": {
+    "title": "Mirror Drawing",
+    "instruction": "Half of the picture is drawn. Draw the other half so that both sides look the same, like in a mirror."
+  },
+  "K-496": {
+    "title": "Draw Them All in One Picture",
+    "instruction": "Follow the steps of each drawing. Then draw them all together in the big picture."
+  },
+  "K-497": {
+    "title": "Step Cards: Cut, Order and Draw",
+    "instruction": "Cut out the cards. Put the steps in order on the numbered row and glue them down. Then draw the picture in the box."
+  },
+  "K-498": {
+    "title": "Trace a Picture",
+    "instruction": "Trace all the lines of the picture. Start at the black dot."
+  },
+  "K-499": {
+    "title": "Trace the Picture, Then Write the Word",
+    "instruction": "Trace the picture. Then trace its name on the lines and write it by yourself."
+  },
+  "K-500": {
+    "title": "A Tracing Booklet",
+    "instruction": "Trace the three pictures. Then cut the page into four along the lines in the middle, put the cover on top and staple the pages into a little book."
+  },
+  "K-501": {
+    "title": "Trace, Then Color by Number",
+    "instruction": "Trace the lines of the picture. Then color each part with the color of its number."
+  },
+  "K-502": {
+    "title": "Draw It Twice as Big",
+    "instruction": "Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big."
+  },
+  "K-503": {
+    "title": "Turn and Flip the Picture",
+    "instruction": "Copy each picture onto the empty grid turned a quarter turn to the right, the way the arrow shows."
+  },
+  "K-504": {
+    "title": "Copy the Drawing on the Grid",
+    "instruction": "Copy the drawing onto the empty grid, one square at a time: look at what each square holds and draw the same in its twin square."
+  },
+  "K-505": {
+    "title": "Number-Word Dot-to-Dot",
+    "instruction": "Start at the orange dot. Read the number words and join the dots in counting order."
+  },
+  "K-506": {
+    "title": "Even or Odd Dot-to-Dot",
+    "instruction": "Start at the orange dot. Join only the even numbers in order: 2, 4, 6 and so on. Skip the odd numbers."
+  },
+  "K-507": {
+    "title": "Uppercase and Lowercase Dot-to-Dot",
+    "instruction": "Start at the orange dot. Join an uppercase letter, then its lowercase letter, then the next uppercase letter: A, a, B, b and so on."
+  },
+  "K-508": {
+    "title": "Find the Exact Twin",
+    "instruction": "Look at the first picture in each row. Circle the picture that is exactly the same, not turned and not flipped."
+  },
+  "K-509": {
+    "title": "Which Pictures Are Hiding?",
+    "instruction": "Some pictures are hiding in the tangle of lines. Find their outlines, then circle those pictures in the row below."
+  },
+  "K-510": {
+    "title": "Which One Does Not Belong?",
+    "instruction": "Read the name of each group. Circle the one picture that does not belong in that group."
+  },
+  "K-511": {
+    "title": "Sort by a Rule",
+    "instruction": "Read the names of the two groups. Draw a line from each picture to the group it belongs to."
+  },
+  "K-512": {
+    "title": "Sorting Mats and Picture Cards",
+    "instruction": "Cut out the picture cards. Put each card on the mat where it belongs."
+  },
+  "G1-487": {
+    "title": "Color by Odd and Even",
+    "instruction": "Is the number in each shape even or odd? Color the shape with that color in the key."
+  },
+  "K-513": {
+    "title": "Color by Number Word",
+    "instruction": "Read the number word in each shape. Find its number in the key and color the shape with that color."
+  },
+  "K-514": {
+    "title": "Color by Your Own Key",
+    "instruction": "Choose a color for each number. Color its square in the key and write the color's name. Then color the shapes."
+  },
+  "K-515": {
+    "title": "Color Big and Small",
+    "instruction": "Look at the key: every size has its own color. Color each picture with the color of its size."
+  },
+  "K-516": {
+    "title": "A Mini Coloring Booklet",
+    "instruction": "Fold the top half back, then fold the left half back to make a little book. Color every page."
+  },
+  "G1-488": {
+    "title": "Color and Write a Sentence",
+    "instruction": "Color the picture. Then write about it. Use the sentence starters to help you begin."
+  },
+  "K-517": {
+    "title": "Trace the Numbers 1 to 100",
+    "instruction": "Trace the dashed numbers. In every empty box, write the number that belongs there."
+  },
+  "K-518": {
+    "title": "How We Write Numbers",
+    "instruction": "Start at the dot and follow the arrows. The small numbers show which line comes first."
+  },
+  "K-519": {
+    "title": "Make Your Own Tangram Figure",
+    "instruction": "Color each piece like the legend and cut out the seven pieces. Make your own figure with all of them on the board, then draw around it."
+  },
+  "K-520": {
+    "title": "First Tangram Puzzles",
+    "instruction": "Cut out the pieces beside each figure. Lay them on the figure so that they cover it exactly."
+  },
+  "G1-489": {
+    "title": "Which Figure Can You Build?",
+    "instruction": "Look at the pieces in each row. Circle the one shadow you can build with exactly these pieces."
+  },
+  "K-522": {
+    "title": "Match the Shadow to Its Name",
+    "instruction": "Look at each tangram shadow. Draw a line from the shadow to its name."
+  },
+  "K-523": {
+    "title": "Trace Your Name",
+    "instruction": "Look at the name. Trace it on the dashed lines, then write it yourself on the empty lines."
+  },
+  "K-524": {
+    "title": "Letters and Pictures",
+    "instruction": "Say the name of each picture and listen to its first sound. Trace the letter for that sound, then write it yourself."
+  },
+  "K-525": {
+    "title": "Capital and Lowercase Letters Together",
+    "instruction": "Trace each capital letter and its lowercase letter side by side, then write them yourself. Start at the orange dot and follow the arrows."
+  },
+  "K-526": {
+    "title": "Letter Formation Cards",
+    "instruction": "Each letter starts at the orange dot. Follow the numbers and arrows to see how to write it. Cut out the cards along the dashed lines."
+  },
+  "K-527": {
+    "title": "Trace a Sentence",
+    "instruction": "Read the sentence. Trace the dashed letters, then write the sentence yourself on the empty lines."
+  },
+  "G1-490": {
+    "title": "Label the Pictures",
+    "instruction": "Write the name of each picture on the line under it. The word bank can help you."
+  },
+  "K-529": {
+    "title": "Word Shape Boxes",
+    "instruction": "Say the name of each picture. Write one letter in each box: tall letters in the tall boxes, letters that hang down in the boxes that hang below the line."
+  },
+  "G1-491": {
+    "title": "My Word Book",
+    "instruction": "Write the name of each picture on the first line. Then write a sentence of your own about it."
+  },
+  "G2-480": {
+    "title": "My Words in Cursive",
+    "instruction": "Read each sentence. Trace it in cursive, joining the letters, then write it on your own underneath."
+  },
+  "G2-481": {
+    "title": "Cursive Letter of the Day",
+    "instruction": "Trace the gray letter, the letter pairs and the word, then write each one on your own on the empty lines."
+  },
+  "G2-482": {
+    "title": "Match Print and Cursive",
+    "instruction": "Read each word in cursive. Draw a line to the same word in print."
+  },
+  "G2-483": {
+    "title": "The Cursive Alphabet",
+    "instruction": "Look at each letter in cursive and in print. Use the alphabet when you write in cursive."
+  },
+  "K-530": {
+    "title": "Alphabet Train",
+    "instruction": "Write the missing letters on the cars so the alphabet train is in order. The picture on each empty car starts with the missing letter."
+  },
+  "K-531": {
+    "title": "Alphabet Chart",
+    "instruction": "Say each letter and the name of its picture. The picture starts with the sound of the letter."
+  },
+  "K-532": {
+    "title": "Letter Hunt",
+    "instruction": "Look at the letter in the box. Find that letter on the balloons, kites, and signs, and circle every one."
+  },
+  "G1-492": {
+    "title": "Letter Before and After",
+    "instruction": "Write the letter that comes before each letter in the alphabet."
+  },
+  "K-533": {
+    "title": "Color the Vowels",
+    "instruction": "Say the name of each picture. Color every vowel in the word."
+  },
+  "K-534": {
+    "title": "ABC Order Cards",
+    "instruction": "Cut out the cards along the dashed lines. Put them in alphabet order and read the letters."
+  },
+  "K-535": {
+    "title": "Same First Sound?",
+    "instruction": "Say the names of the two pictures. If they start with the same sound, circle the check mark. If not, circle the X."
+  },
+  "K-536": {
+    "title": "Beginning Sound Clip Cards",
+    "instruction": "Cut out the cards. Say the name of each picture and clip a clothespin on the letter of its first sound."
+  },
+  "G1-493": {
+    "title": "Blends",
+    "instruction": "Say the name of each picture. Write the two letters the word starts with."
+  },
+  "G1-494": {
+    "title": "Letters and Sounds",
+    "instruction": "Read each word. Count its letters (Aa) and the sounds you hear (the ear). Write both numbers."
+  },
+  "G1-495": {
+    "title": "Long or Short Vowel?",
+    "instruction": "Say each word. Is the colored vowel long or short? Circle the line if it is long and the dot if it is short."
+  },
+  "K-537": {
+    "title": "Rhyme Memory Cards",
+    "instruction": "Cut out the cards and turn them face down. Turn over two cards. If the pictures rhyme, keep them!"
+  },
+  "K-538": {
+    "title": "Which One Does Not Rhyme?",
+    "instruction": "Say the names of the three pictures. Two of them rhyme. Circle the one that does not rhyme."
+  },
+  "K-539": {
+    "title": "Rhyme Dominoes",
+    "instruction": "Cut out the dominoes. Lay them in a ring so that the picture on the right of each domino rhymes with the picture on the left of the next one."
+  },
+  "G1-496": {
+    "title": "Syllable Puzzles",
+    "instruction": "Cut out the pieces along the dashed lines. Mix them up, then put each word back together, syllable by syllable."
+  },
+  "K-541": {
+    "title": "Clap and Count",
+    "instruction": "Say each word and clap its syllables. Color one circle for each clap, then write how many claps you made."
+  },
+  "K-542": {
+    "title": "Picture Memory Cards",
+    "instruction": "Cut out the cards and turn them face down. Turn over two cards. If they match, keep them!"
+  },
+  "K-543": {
+    "title": "Word Wall Labels",
+    "instruction": "Cut out the labels along the dashed lines and hang them on the word wall."
+  },
+  "K-544": {
+    "title": "My Picture Dictionary",
+    "instruction": "Read the words in alphabetical order. Say the name of each picture."
+  },
+  "K-545": {
+    "title": "Cut and Paste the Words",
+    "instruction": "Cut out the words at the bottom. Glue each word in the box under its picture."
+  },
+  "K-546": {
+    "title": "Read and Draw",
+    "instruction": "Read each sentence. Draw the picture in the right place."
+  },
+  "K-547": {
+    "title": "Where Is It?",
+    "instruction": "Look at each picture. Write the missing position word. The words in the box can help you."
+  },
+  "K-548": {
+    "title": "Choose the Position Word",
+    "instruction": "Look at each picture. Circle the word that fits in the sentence."
+  },
+  "K-549": {
+    "title": "Read and Glue",
+    "instruction": "Cut out the pictures at the bottom. Read each sentence and glue the picture in the right spot."
+  },
+  "G2-484": {
+    "title": "Big, Bigger, Biggest",
+    "instruction": "Write the two missing forms of each adjective, as in the example."
+  },
+  "G1-497": {
+    "title": "Parts of Speech in Sentences",
+    "instruction": "Read each sentence. Circle every noun. Names are nouns too."
+  },
+  "G1-498": {
+    "title": "Capital Letters",
+    "instruction": "Read each sentence. Circle every word that needs a capital letter."
+  },
+  "G2-485": {
+    "title": "Verb Table",
+    "instruction": "Write the verb in each box so it goes with the word at the start of the row."
+  },
+  "G2-486": {
+    "title": "Adjective Agreement",
+    "instruction": "Circle the form of the adjective that goes with each noun."
+  },
+  "K-550": {
+    "title": "Name the Group",
+    "instruction": "Look at the pictures in each row. What group do they belong to? Write the word from the box."
+  },
+  "K-551": {
+    "title": "Opposite Cards",
+    "instruction": "Cut out the cards and turn them face down. Turn over two cards: if they are opposites, keep them!"
+  },
+  "G1-499": {
+    "title": "Little Words",
+    "instruction": "Write the small form of each word."
+  },
+  "G2-487": {
+    "title": "Compound Word Puzzles",
+    "instruction": "Cut out the pieces. Put two pieces together to make a compound word, then write the word on a line."
+  },
+  "K-552": {
+    "title": "Sentence Strips",
+    "instruction": "Read the sentence. Cut the words apart, mix them up and put the sentence back together. Glue it on the empty strip."
+  },
+  "G1-500": {
+    "title": "Fill in the Blank",
+    "instruction": "Read each sentence. Look at the picture and write the missing word."
+  },
+  "K-553": {
+    "title": "Picture Sentences",
+    "instruction": "Read each sentence. Write the word for the picture in the box."
+  },
+  "G1-501": {
+    "title": "Sentence or Not?",
+    "instruction": "Read each group of words. Circle the check mark if it is a whole sentence. Circle the X if it is not."
+  },
+  "G1-502": {
+    "title": "Sentence Halves",
+    "instruction": "Draw a line from each beginning to the end that goes with it. The pictures help you."
+  },
+  "G1-503": {
+    "title": "Stretch the Sentence",
+    "instruction": "Read the short sentence. Answer the questions on the short lines. Then write a longer sentence with your answers."
+  },
+  "G1-504": {
+    "title": "Read and Answer",
+    "instruction": "Read the text. Answer each question on the line."
+  },
+  "G1-505": {
+    "title": "Right Answer or Not?",
+    "instruction": "Read the story. Then read each question and its answer. Circle the check mark if the answer is right. Circle the X if it is wrong."
+  },
+  "G2-488": {
+    "title": "Which Title Fits?",
+    "instruction": "Read each story. Circle the title that fits it best."
+  },
+  "K-554": {
+    "title": "My Reading Log",
+    "instruction": "Fill in the page about the book you read. Color the stars to show how much you liked it."
+  },
+  "G1-506": {
+    "title": "Story Map",
+    "instruction": "Plan your story. Draw and write what happens at the beginning, in the middle and at the end."
+  },
+  "G1-507": {
+    "title": "Comic Strip",
+    "instruction": "Look at each picture. Write what the characters say in the speech bubbles."
+  },
+  "G1-508": {
+    "title": "Roll a Story",
+    "instruction": "Roll a die for each column. Then write a story with what you rolled."
+  },
+  "G1-509": {
+    "title": "Describe the Character",
+    "instruction": "Look at the picture. Finish the sentences about your character. The words in the box can help you."
+  },
+  "G1-510": {
+    "title": "Write a Postcard",
+    "instruction": "Write a postcard to someone you love. Write their name after the greeting and your name at the end."
+  },
+  "K-555": {
+    "title": "Write About the Picture",
+    "instruction": "Look at each picture. Write a sentence about it."
+  },
+  "G1-511": {
+    "title": "Compare Word Problems",
+    "instruction": "Read each story. Compare the two rows of pictures. Write how many more or how many fewer in the box."
+  },
+  "G1-512": {
+    "title": "Which Number Sentence?",
+    "instruction": "Read each story. Circle the number sentence that tells the story."
+  },
+  "G1-513": {
+    "title": "Write a Story for the Number Sentence",
+    "instruction": "Look at each number sentence. Write a story that fits it. Your story can be about the picture."
+  },
+  "G2-489": {
+    "title": "Two-Step Word Problems",
+    "instruction": "Read each story. Do the first step, then the second step. Write the numbers in the boxes."
+  },
+  "G2-490": {
+    "title": "Number of the Day to 1,000",
+    "instruction": "Look at the big number. Fill in every box on the page for that number."
+  },
+  "G1-514": {
+    "title": "Write It Both Ways",
+    "instruction": "Write each number word as a number. Write each number as a word."
+  },
+  "K-556": {
+    "title": "Number, Word, and Picture",
+    "instruction": "Draw a line from each number to its word. Then draw a line from each word to its picture."
+  },
+  "K-557": {
+    "title": "Number Word Cards",
+    "instruction": "Cut out the cards. Put them on the word wall, or cut along the dashed lines and match the number, the word, and the picture."
+  },
+  "G1-515": {
+    "title": "Ordinal Numbers to 31",
+    "instruction": "Write each ordinal number as a word. Write each word as an ordinal number."
+  },
+  "K-558": {
+    "title": "Which Shelf?",
+    "instruction": "Count the shelves from the bottom. Answer each question: circle the right picture or the right number."
+  },
+  "G1-516": {
+    "title": "Ordinal Numbers: Number and Word",
+    "instruction": "Draw a line from each ordinal number to its word."
+  },
+  "G2-491": {
+    "title": "Write It Both Ways to 1,000",
+    "instruction": "Write each number word as a number. Write each number as a word."
+  },
+  "G1-517": {
+    "title": "Word Scramble",
+    "instruction": "Look at each picture. Put the letters in the right order and write the word."
+  },
+  "G1-518": {
+    "title": "Missing Letters",
+    "instruction": "Look at each picture. Write the missing letters to finish the word."
+  },
+  "G1-519": {
+    "title": "Look, Cover, Write, Check",
+    "instruction": "Read each word. Fold the page on the dashed line to cover it. Write the word, then write it again. Unfold and check."
+  },
+  "G2-492": {
+    "title": "Circle the Right Spelling",
+    "instruction": "Look at each picture. Read the words. Circle the word that is spelled right."
+  },
+  "G1-520": {
+    "title": "Missing Vowels",
+    "instruction": "Look at each picture. Write the missing vowels to finish the word."
+  },
+  "K-560": {
+    "title": "Letter Tiles and Word Mats",
+    "instruction": "Cut out the letter tiles. Say the name of each picture and build its word on the mat. Some letters are left over."
+  },
+  "G1-521": {
+    "title": "Ordinal Number Cards",
+    "instruction": "Cut out the cards. Put them in order, or cut along the dashed lines and match the parts that belong together."
+  },
+  "G1-522": {
+    "title": "Articles: One and Many",
+    "instruction": "Look at each picture. Write the missing words for one and for many."
+  },
+  "K-561": {
+    "title": "Count and Write the Plural",
+    "instruction": "Count the pictures in each box. Write the number word and the word for many."
+  },
+  "K-562": {
+    "title": "One or Many?",
+    "instruction": "Read the word. Circle the group that shows it."
+  },
+  "G1-523": {
+    "title": "A or The?",
+    "instruction": "Read the two sentences. Circle the words that fit each one."
+  },
+  "G1-524": {
+    "title": "Fill In the Calendar",
+    "instruction": "Write the missing dates of the month in the calendar."
+  },
+  "G1-525": {
+    "title": "Our Birthday Graph",
+    "instruction": "Ask your classmates their birthday month. Color one box above each child's month. Count the colored boxes in each month."
+  },
+  "G1-526": {
+    "title": "Today's Date",
+    "instruction": "Look at today's calendar page. Write the date in numbers."
+  },
+  "G1-527": {
+    "title": "Our Week at School",
+    "instruction": "Read the timetable. Answer each question."
+  },
+  "G1-528": {
+    "title": "Treasure Hunt: Follow the Steps",
+    "instruction": "Start at the flag. Follow the steps. Circle the picture where you land."
+  },
+  "G1-529": {
+    "title": "Give the Directions",
+    "instruction": "Follow the path from the first picture. For each part, circle the way and write how many squares."
+  },
+  "K-563": {
+    "title": "The Room from Above",
+    "instruction": "Each thing is drawn from the side. Draw a line to the same thing in the room seen from above."
+  },
+  "G1-530": {
+    "title": "Draw Your Own Map",
+    "instruction": "Draw a map. In the key, draw each symbol you used and write what it means."
+  },
+  "G2-493": {
+    "title": "Coordinate Battleship",
+    "instruction": "Color your ships on your grid. Take turns calling a square like B3. Mark your partner's grid: a dot for a miss, a cross for a hit."
+  },
+  "K-564": {
+    "title": "My Feelings This Week",
+    "instruction": "Every day, color the circle of the feeling you have."
+  },
+  "K-565": {
+    "title": "Feelings Thermometer",
+    "instruction": "How strong is the feeling? Color the thermometer up to how strong it is."
+  },
+  "G1-531": {
+    "title": "My Friend and Me",
+    "instruction": "Work with a friend. Draw or write what is only yours, only your friend's, and what you share."
+  },
+  "K-566": {
+    "title": "Feelings Cards",
+    "instruction": "Cut out the cards. Use them to talk about feelings."
+  },
+  "G1-532": {
+    "title": "Word Search",
+    "instruction": "Find each word of the list in the grid. Circle it."
+  },
+  "K-567": {
+    "title": "Picture Word Search",
+    "instruction": "Say the name of each picture. Find its word in the grid and circle it."
+  },
+  "G2-494": {
+    "title": "Word Search with a Secret Message",
+    "instruction": "Find and circle every word. Then read the letters that are left, row by row, and write the secret message."
+  },
+  "G1-533": {
+    "title": "Shape Word Search",
+    "instruction": "Find each word of the list in the shape. Circle it."
+  },
+  "G1-534": {
+    "title": "Two-Language Word Search",
+    "instruction": "Read each word and look at its picture. Find the English word in the grid and circle it."
+  },
+  "K-568": {
+    "title": "Number Word Search",
+    "instruction": "Read each number. Find its number word in the grid and circle it."
+  },
+  "G1-535": {
+    "title": "Picture Crossword",
+    "instruction": "Look at each numbered picture. Write its word in the boxes with the same number."
+  },
+  "G1-536": {
+    "title": "Arrow-Word Puzzle",
+    "instruction": "Each picture in the grid shows a word. Write the word in the boxes where the arrow points."
+  },
+  "G2-495": {
+    "title": "Fill-In Crossword",
+    "instruction": "Fit every word of the list into the grid. Count the letters and use the letters that cross."
+  },
+  "G1-537": {
+    "title": "Crossword with a Word Bank",
+    "instruction": "Look at each numbered picture. Find its word in the word bank and write it in the boxes."
+  },
+  "G1-538": {
+    "title": "Two-Language Crossword",
+    "instruction": "Read each word and look at its picture. Write the English word in the boxes with the same number."
+  },
+  "G1-539": {
+    "title": "Picture Code",
+    "instruction": "Each picture stands for a letter. Use the key to write the secret message."
+  },
+  "G1-540": {
+    "title": "Number Code",
+    "instruction": "Each number stands for a letter: A is 1. Use the key to write the secret message."
+  },
+  "G1-541": {
+    "title": "Sum Code",
+    "instruction": "Work out each sum. Find the answer in the key and write its letter."
+  },
+  "G2-496": {
+    "title": "Complete the Key",
+    "instruction": "Some letters are missing from the key. Use the solved word to fill them in. Then write the secret message."
+  },
+  "G1-542": {
+    "title": "Make Your Own Secret Code",
+    "instruction": "Draw a symbol for each letter. Write a message, then write it again in your code for a friend."
+  },
+  "K-569": {
+    "title": "Picture Bingo",
+    "instruction": "Listen to each word. If its picture is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "K-574": {
+    "title": "Picture Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and say its word. Keep the cards you have called to check each Bingo."
+  },
+  "K-570": {
+    "title": "Sight Word Bingo",
+    "instruction": "Listen to each word. If the word is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "K-575": {
+    "title": "Sight Word Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and read its word aloud. Keep the cards you have called to check each Bingo."
+  },
+  "G1-543": {
+    "title": "Sum Bingo",
+    "instruction": "Listen to each sum and work it out. If the answer is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "G1-545": {
+    "title": "Sum Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and read the sum aloud, not the answer. Keep the cards you have called to check each Bingo."
+  },
+  "G1-544": {
+    "title": "Clock Bingo",
+    "instruction": "Listen to each time. If a clock on your card shows it, mark that clock. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "G1-546": {
+    "title": "Clock Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and read the time aloud. Keep the cards you have called to check each Bingo."
+  },
+  "K-571": {
+    "title": "Letter Sound Bingo",
+    "instruction": "Listen to each word and its first sound. If the letter for that sound is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "K-576": {
+    "title": "Letter Sound Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and say its word, not the letter. Keep the cards you have called to check each Bingo."
+  },
+  "K-572": {
+    "title": "Number Word Bingo",
+    "instruction": "Listen to each number. If it is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "K-577": {
+    "title": "Number Word Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and read the number aloud. Keep the cards you have called to check each Bingo."
+  },
+  "K-573": {
+    "title": "Shape and Color Bingo",
+    "instruction": "Listen to each shape and its color. If it is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\""
+  },
+  "K-578": {
+    "title": "Shape and Color Bingo: Caller Cards",
+    "instruction": "Cut out the cards and mix them up. Take one card at a time and read the shape and its color aloud. Keep the cards you have called to check each Bingo."
   }
 }

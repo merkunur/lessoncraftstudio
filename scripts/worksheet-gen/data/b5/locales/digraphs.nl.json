@@ -659,43 +659,6 @@
           "silent": [],
           "stem": "neus",
           "picOpened": true
-        },
-        {
-          "vocabKey": "crayons",
-          "theme": "toys",
-          "noun": "crayons",
-          "word": "kleurpotloden",
-          "seg": [
-            "k",
-            "l",
-            "eu",
-            "r",
-            "p",
-            "o",
-            "t",
-            "l",
-            "o",
-            "d",
-            "e",
-            "n"
-          ],
-          "snd": [
-            "k",
-            "l",
-            "øː",
-            "r",
-            "p",
-            "ɔ",
-            "t",
-            "l",
-            "oː",
-            "d",
-            "ə",
-            "n"
-          ],
-          "silent": [],
-          "stem": "kleurpotloden",
-          "picOpened": true
         }
       ]
     },

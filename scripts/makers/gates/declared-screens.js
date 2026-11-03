@@ -55,7 +55,8 @@ const outsideCrop = (items) => items.filter((it) => {
 async function main() {
   const makers = MP.builtMakers(args.makers ? String(args.makers).split(',') : undefined);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-declared-'));
-  const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'] });
+  // a page that never settles fails after two minutes instead of stalling the run (2026-11-02: a run sat idle 2.5 h)
+  const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'], protocolTimeout: 120000 });
   const page = await browser.newPage();
   await page.setViewport({ width: 703, height: 945 });
   const mount = async (html) => { const f = path.join(tmp, 'm.html'); fs.writeFileSync(f, html); await page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' }); await page.evaluate(async () => { await document.fonts.ready; }); return page; };
@@ -68,13 +69,16 @@ async function main() {
     for (const t of tj.templates) {
       if (t.screen !== 'declared') continue;
       templates++;
+      process.stderr.write(`declared-screens: ${maker} ${t.id}\n`);   // progress: where a slow run is
       const type = require(path.join(REPO, t.file));
       // (5) strings
-      for (const loc of t.locales) for (const d of t.screenLevels) if (!(t.screenInstructions && t.screenInstructions[loc] && t.screenInstructions[loc][d])) fails.push(`${maker} ${t.id} L${d} ${loc}: no screen instruction`);
+      // a level a language does not offer (templates.json localeLevels) has no screen there, and needs no instruction
+      const lvIn = (loc) => (t.localeLevels && t.localeLevels[loc]) || t.levels;
+      for (const loc of t.locales) for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) if (!(t.screenInstructions && t.screenInstructions[loc] && t.screenInstructions[loc][d])) fails.push(`${maker} ${t.id} L${d} ${loc}: no screen instruction`);
       for (const loc of LOCS) {
         if (!t.locales.includes(loc)) continue;
-        for (const d of t.screenLevels) for (const v of COPIES) {
-          const theme = t.themed ? (t.themes.find((x) => !/\bbw\b/i.test(x)) || t.themes[0]) : null;
+        for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) for (const v of COPIES) {
+          const theme = t.themed ? (((t.localeThemes && t.localeThemes[loc]) || t.themes).find((x) => !/\bbw\b/i.test(x)) || ((t.localeThemes && t.localeThemes[loc]) || t.themes)[0]) : null;
           const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
           const unit = lu.length ? lu[0].id : null;
           const tag = `${maker} ${t.id} L${d} ${loc} copy ${v}`;

@@ -16127,9 +16127,7 @@
   ]
  },
  "da": {
-  "dropAgents": [
-   "tailor"
-  ],
+  "dropAgents": [],
   "families": [
    {
     "id": "tænk",
@@ -18124,10 +18122,7 @@
   ]
  },
  "no": {
-  "dropAgents": [
-   "tailor",
-   "construction_worker"
-  ],
+  "dropAgents": [],
   "families": [
    {
     "id": "kok",
@@ -19313,23 +19308,6 @@
     },
     "stemSigned": true,
     "class": "other"
-   },
-   {
-    "key": "judge",
-    "base": "dømme",
-    "answer": {
-     "any": "dommer"
-    },
-    "stemSigned": true,
-    "class": "other"
-   },
-   {
-    "key": "cashier",
-    "base": "kasse",
-    "answer": {
-     "any": "kasserer"
-    },
-    "class": "other"
    }
   ],
   "agentClass": {
@@ -19338,9 +19316,9 @@
    "singer": "regular",
    "athlete": "regular",
    "ballerina": "regular",
-   "tailor": "regular",
    "student": "regular",
-   "construction_worker": "regular"
+   "cashier": "other",
+   "judge": "other"
   },
   "sentences": {
    "kok": [

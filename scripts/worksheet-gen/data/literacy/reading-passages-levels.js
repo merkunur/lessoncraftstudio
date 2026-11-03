@@ -7,7 +7,7 @@
  * The published pages never read this file (their path is untouched); only the Level Set copies do.
  */
 'use strict';
-const fs = require('fs');
+const platform = require('../../lib/platform/index.js');   // (fs is Node-only: the maker bundle reads through the platform)
 const path = require('path');
 const { READING_PASSAGES } = require('./reading-passages.js');
 
@@ -16,7 +16,7 @@ const cache = {};
 function levelData(loc) {
   if (!(loc in cache)) {
     const p = path.join(DIR, loc + '.json');
-    cache[loc] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null;
+    cache[loc] = platform.exists(p) ? platform.readJson(p) : null;
   }
   return cache[loc];
 }

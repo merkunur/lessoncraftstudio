@@ -159,7 +159,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Who finds the boot?",
+          "q": "Who finds what Ben lost?",
           "choices": [
             "Ben",
             "Dad",
@@ -195,17 +195,17 @@ const READING_PASSAGES = {
         {
           "q": "What does Nora do every day?",
           "choices": [
-            "waters the seeds",
-            "picks tomatoes",
-            "buys new pots"
+            "she gives them water",
+            "she picks flowers",
+            "she buys new pots"
           ],
           "correct": 0
         },
         {
-          "q": "What will grow from the plants?",
+          "q": "What will Nora soon have?",
           "choices": [
             "apples",
-            "flowers",
+            "carrots",
             "tomatoes"
           ],
           "correct": 2
@@ -263,14 +263,14 @@ const READING_PASSAGES = {
         {
           "q": "Why does Ella practice in her room?",
           "choices": [
-            "so Grandpa cannot hear",
+            "so he cannot hear",
             "her recorder is too quiet",
             "her room is warm"
           ],
           "correct": 0
         },
         {
-          "q": "How do we know Grandpa likes the song?",
+          "q": "How do we know the surprise worked?",
           "choices": [
             "he falls asleep in his chair",
             "he claps the loudest",
@@ -297,7 +297,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Wo schläft Moritz am liebsten?",
+          "q": "Wo schläft der Kater am liebsten?",
           "choices": [
             "Auf dem roten Sofa",
             "Im Karton",
@@ -309,7 +309,7 @@ const READING_PASSAGES = {
           "q": "Warum sucht Emma im ganzen Haus?",
           "choices": [
             "Sie hat ihren Ranzen verloren.",
-            "Sie kann Moritz nicht finden.",
+            "Sie kann ihren Kater nicht finden.",
             "Sie sucht ihre Mama."
           ],
           "correct": 1
@@ -322,7 +322,7 @@ const READING_PASSAGES = {
       "text": "Am Samstag backt Ben mit Papa Brötchen. Ben knetet den Teig und formt kleine Kugeln. Papa schiebt das Blech in den Ofen, und bald duftet die ganze Küche. Als die Brötchen fertig sind, sind sie außen knusprig und innen weich. Ben bringt Oma zwei Brötchen, weil sie Brötchen so gern mag.",
       "questions": [
         {
-          "q": "Wann backt Ben mit Papa?",
+          "q": "Wann backt Ben Brötchen?",
           "choices": [
             "Am Montag",
             "Am Sonntag",
@@ -501,7 +501,7 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "Wo entdeckt Elias den Turnbeutel?",
+          "q": "Wo entdeckt Elias, was Samira verloren hat?",
           "choices": [
             "Unter der Bank",
             "In der Fundkiste",
@@ -571,7 +571,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "¿Con qué juega Nube por la tarde?",
+          "q": "¿Con qué juega el gato por la tarde?",
           "choices": [
             "Con un ratón de juguete",
             "Con un ovillo de lana",
@@ -580,7 +580,7 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "¿Por qué duerme Nube en la ventana por la mañana?",
+          "q": "¿Por qué duerme el gato en la ventana por la mañana?",
           "choices": [
             "Porque no le gusta jugar",
             "Porque allí da el sol",
@@ -673,7 +673,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "¿Dónde guarda Ana la caracola?",
+          "q": "¿Dónde guarda Ana lo que encontró?",
           "choices": [
             "en su bolsillo",
             "en su cubeta",
@@ -800,11 +800,11 @@ const READING_PASSAGES = {
       "text": "En la escuela de Hugo preparan una función de teatro sobre el fondo del mar. Hugo hace de pulpo y tiene que decir tres frases. Durante los ensayos se equivoca muchas veces y le da un poco de vergüenza. Su amiga Clara lo ayuda a practicar cada día en el recreo, una frase tras otra. El día de la función, el salón está lleno de familias. Hugo respira hondo, dice sus tres frases sin ningún fallo y todos aplauden muy fuerte. Al saludar, Hugo busca a Clara con la mirada y le da las gracias en voz baja.",
       "questions": [
         {
-          "q": "¿De qué hace Hugo en la función?",
+          "q": "¿Qué papel hace Hugo en la función?",
           "choices": [
-            "de pulpo",
-            "de pez espada",
-            "de pirata"
+            "el de pulpo",
+            "el de pez espada",
+            "el de pirata"
           ],
           "correct": 0
         },
@@ -845,7 +845,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Où Mimi boit-il le matin ?",
+          "q": "Où le chat boit-il le matin ?",
           "choices": [
             "Dans le jardin, sous le grand pommier",
             "Près de la fenêtre de la cuisine",
@@ -854,7 +854,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Que peut-on dire de Mimi ?",
+          "q": "Que peut-on dire du chat de Léa ?",
           "choices": [
             "Il vit dans la maison",
             "Il n'aime pas dormir",
@@ -1015,7 +1015,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Que lit Tom avec la lampe de poche ?",
+          "q": "Quelle histoire Jade écoute-t-elle sous la tente ?",
           "choices": [
             "Une histoire de dragons",
             "Une histoire de pirates",
@@ -1119,7 +1119,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Onde Pipoca dorme todo dia?",
+          "q": "Onde o gato dorme todo dia?",
           "choices": [
             "No sofá grande da sala de estar",
             "Na janela da sala",
@@ -1128,7 +1128,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Por que Pipoca corre quando Sofia chega?",
+          "q": "Por que o gato corre quando Sofia chega?",
           "choices": [
             "Porque ele está com medo",
             "Porque ele quer comida e água fresca",
@@ -1162,7 +1162,7 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "Como Miguel se sentiu no passeio com o vovô?",
+          "q": "Como Miguel se sentiu no passeio à feira?",
           "choices": [
             "Feliz",
             "Com sono",
@@ -1393,7 +1393,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Che cosa fa Romeo ogni mattina?",
+          "q": "Che cosa fa il gatto ogni mattina?",
           "choices": [
             "Salta sul letto",
             "Dorme in giardino",
@@ -1402,7 +1402,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Che cosa prova Giulia per Romeo?",
+          "q": "Che cosa prova Giulia per il suo gatto?",
           "choices": [
             "Ne ha paura",
             "È arrabbiata con lui",
@@ -1488,7 +1488,7 @@ const READING_PASSAGES = {
         {
           "q": "Dove vive il riccio?",
           "choices": [
-            "Nel giardino di Sara",
+            "Nel giardino",
             "In una scatola di cartone",
             "Sul balcone"
           ],
@@ -1676,7 +1676,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Waarom ligt Moos graag op de vensterbank?",
+          "q": "Waarom ligt de poes graag op de vensterbank?",
           "choices": [
             "Omdat hij daar eten krijgt",
             "Omdat hij bang is voor Tess",
@@ -1710,10 +1710,10 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "Hoe weet je dat de pannenkoeken lekker zijn?",
+          "q": "Hoe weet je dat het iedereen smaakt?",
           "choices": [
             "Iedereen wil er nog een",
-            "De eerste pannenkoek mislukt",
+            "De eerste mislukt een beetje",
             "Daan roert niet zo goed"
           ],
           "correct": 0
@@ -1744,7 +1744,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Waarom koopt opa voor iedereen een ijsje?",
+          "q": "Waarom krijgt iedereen een ijsje?",
           "choices": [
             "Omdat Lotte jarig is",
             "Omdat het regent",
@@ -1812,7 +1812,7 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "Hoe weet je dat de egel dorst had?",
+          "q": "Hoe weet je dat het diertje dorst had?",
           "choices": [
             "Hij drinkt van het water",
             "Hij kruipt in de heg",
@@ -1846,7 +1846,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Hoe weet je dat Bubbel het voer lekker vindt?",
+          "q": "Hoe weet je dat de vis het voer lekker vindt?",
           "choices": [
             "Hij zwemt snel naar boven en hapt",
             "Hij verstopt zich achter een plant",
@@ -1941,7 +1941,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Var tycker Smulan om att sova?",
+          "q": "Var tycker katten om att sova?",
           "choices": [
             "I Majas stora säng på övervåningen",
             "I tvättkorgen",
@@ -1950,7 +1950,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Varför spinner Smulan på kvällen?",
+          "q": "Varför spinner katten på kvällen?",
           "choices": [
             "Hon är arg och vill gå ut",
             "Hon är rädd",
@@ -1988,7 +1988,7 @@ const READING_PASSAGES = {
           "choices": [
             "Det är Hugos födelsedag",
             "Cykeln är ny",
-            "Hugo cyklar helt själv"
+            "Han cyklar utan hjälp"
           ],
           "correct": 2
         }
@@ -2179,7 +2179,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Vad har farmor med sig i korgen?",
+          "q": "Vad finns i korgen vid bryggan?",
           "choices": [
             "Kanelbullar",
             "Nybakade våfflor",
@@ -2215,7 +2215,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Hvor liker Pus å sove?",
+          "q": "Hvor liker katten å sove?",
           "choices": [
             "I sengen til Nora",
             "I vinduskarmen",
@@ -2224,7 +2224,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Hvorfor hopper Pus ned fra vinduskarmen?",
+          "q": "Hvorfor hopper katten ned på gulvet?",
           "choices": [
             "Fordi han vil leke",
             "Fordi han er sulten",
@@ -2489,7 +2489,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Hvad får Musse om aftenen?",
+          "q": "Hvad får katten om aftenen?",
           "choices": [
             "Fisk og vand",
             "Brød og mælk",
@@ -2498,7 +2498,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Hvorfor ligger Musse i vindueskarmen?",
+          "q": "Hvorfor ligger katten i vindueskarmen?",
           "choices": [
             "Fordi der er koldt på gulvet",
             "Fordi solen varmer der",
@@ -2926,9 +2926,9 @@ const READING_PASSAGES = {
         {
           "q": "Kenen kanssa Niilo menee uimahalliin?",
           "choices": [
-            "isän",
-            "isosiskon",
-            "kaverin"
+            "isänsä kanssa",
+            "isosiskonsa kanssa",
+            "kaverinsa kanssa"
           ],
           "correct": 1
         },

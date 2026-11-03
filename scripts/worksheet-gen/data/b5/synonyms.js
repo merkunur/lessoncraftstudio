@@ -268,6 +268,7 @@ const FACES = { base: 'G2-358', pictures: 'G1-395', pairs: 'G2-373', shades: 'G1
 const MODES = ['base', 'pictures', 'pairs', 'shades', 'say', 'fields'];
 
 /** The gate owns the validator (tools/b5-probe-child.js requires qa/verify-b5-synonyms.js); this is a lazy door to it. */
-function validateBank(block, loc) { return require('../../qa/verify-b5-synonyms.js').validateBank(block, loc); }
+// (through the platform: a literal require would pull the Node gate into the maker bundles — an offline door only)
+function validateBank(block, loc) { return require('../../lib/platform/index.js').requireData(require('path').join(__dirname, '..', '..', 'qa', 'verify-b5-synonyms.js')).validateBank(block, loc); }
 
 module.exports = { SYNONYMS, CONCEPTS, PICTURES, EXCLUSIVE, PICTURES_LS, EXCLUSIVE_LS, PICTURE_EXCLUDED, FACES, MODES, validateBank };

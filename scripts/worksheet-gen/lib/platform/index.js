@@ -102,6 +102,13 @@ module.exports = {
   readJson: (p) => JSON.parse(fs.readFileSync(p, 'utf8')),
   // a binary file as base64 (the family portraits, primitives/family-figure.js — 2026-11-02)
   readBase64: (p) => fs.readFileSync(p).toString('base64'),
+  // a picture as a small inline PNG (px × px, contained, transparent): a tap-edit lane's icon travels in the screen's
+  // bundle (render-instance.js does the same with sharp; the maker's screen.js, 2026-11-03)
+  async iconDataUrl(href, px) {
+    const sharp = require('sharp');
+    const p = /^file:/.test(String(href)) ? url.fileURLToPath(href) : href;
+    return 'data:image/png;base64,' + (await sharp(p).resize(px, px, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } }).png().toBuffer()).toString('base64');
+  },
   exists: (p) => fs.existsSync(p),
   fileHref: (p) => url.pathToFileURL(p).href,
   sha1Bytes: (s) => crypto.createHash('sha1').update(s).digest(),

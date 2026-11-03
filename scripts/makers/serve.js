@@ -6,6 +6,7 @@
  *   /makers/data/…           preloaded data (out/makers/data/)
  *   /makers-assets/themes-512/…  pictures (scripts/worksheet-gen/cache/themes-512/)
  *   /makers-assets/fonts/…   worksheet fonts (scripts/worksheet-gen/assets/fonts/)
+ *   /makers-assets/family-portraits/…   the family portraits (scripts/worksheet-gen/data/b5/family-portraits/)
  *   /makers/play/…           the student play shell (scripts/makers/play/ + its strings, landings, two shell modules)
  *   /s/<linkId>              a student link: the play shell with its <head> card and site chrome filled per link
  *                            (play/link-page.js → play/ssr.js, as frontend/app/s/[id]/route.ts does on the website)
@@ -31,6 +32,7 @@ const ROUTES = [
   ['/makers/play/', path.join(__dirname, 'play')],
   ['/makers-assets/themes-512/', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')],
   ['/makers-assets/fonts/', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')],
+  ['/makers-assets/family-portraits/', path.join(REPO, 'scripts', 'worksheet-gen', 'data', 'b5', 'family-portraits')],
   ['/makers/migrations/', path.join(REPO, 'docs', 'makers', 'migrations')],          // content-fix records (record-fix.js)
   ['/makers/', path.join(REPO, 'out', 'makers')],
   // the site chrome's brand mark on the student page (the website serves these from frontend/public)

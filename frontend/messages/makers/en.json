@@ -64,7 +64,13 @@
     "mazes": "Mazes",
     "find-the-differences": "Find the Differences",
     "how-to-draw": "How to Draw",
-    "picture-tracing": "Picture Tracing"
+    "picture-tracing": "Picture Tracing",
+    "pre-writing": "Pre-Writing Lines",
+    "tangram": "Tangram",
+    "letter-tracing": "Letter Tracing",
+    "word-writing": "Word Tracing & Writing",
+    "cursive": "Cursive Handwriting",
+    "alphabet": "Alphabet & Letters"
   },
   "editTitle": "Edit the title",
   "editText": "Change the text",

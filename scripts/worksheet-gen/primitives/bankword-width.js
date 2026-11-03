@@ -8,9 +8,9 @@
  *   textWidthEm(s, table?)       Σ advance + Σ pair kern, per em
  *   pillWidth(s, px)             px · textWidthEm + 28 (padding) + 4 (border)
  */
-const path = require('path');
 let TABLE = null;
-const table = () => TABLE || (TABLE = require(path.join(__dirname, 'bankword-nunito800.advances.json')));
+// a literal path: the maker bundler includes the table (a computed require is refused in a browser bundle)
+const table = () => TABLE || (TABLE = require('./bankword-nunito800.advances.json'));
 const PILL_PAD_X = 28, PILL_BORDER_X = 4;
 
 function textWidthEm(s, t) {

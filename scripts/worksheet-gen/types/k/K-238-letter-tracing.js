@@ -13,8 +13,8 @@
 'use strict';
 const { strokeLetterLane } = require('../../primitives/trace-path.js');
 const { LETTER_SETS, LOWERCASE_SETS } = require('../../data/tracing/letter-sets.js');
-const fs = require('fs');
 const path = require('path');
+const platform = require('../../lib/platform/index.js');   // file reads go through the platform (the Letter Tracing maker runs this in a browser)
 
 /*
  * Level Set 2026-09-28 (operator: "include all the capital and lowercase letters"; ruling: one page per letter).
@@ -27,7 +27,7 @@ let _ls;
 function levelSetData() {
   if (_ls === undefined) {
     const f = path.join(__dirname, '..', '..', 'data', 'tracing', 'letter-tracing-levelset.json');
-    _ls = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+    _ls = platform.exists(f) ? platform.readJson(f) : null;
   }
   return _ls;
 }

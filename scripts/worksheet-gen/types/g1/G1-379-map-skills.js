@@ -249,7 +249,7 @@ const TYPE = {
     const loc = (locale || 'en').slice(0, 2);
     const rng = ctx && ctx.rng;
     if (!rng) throw new Error(`${ID}: no rng in ctx (a seeded page)`);
-    if (d.layout) return this._buildFace(bankLoc, d, loc, rng);   // the five faces (Phase E); the base path below is untouched
+    if (d.layout) return this._buildFace(bankLoc, d, loc, rng, { key: !!(ctx && ctx.answerKey), scr: !!(ctx && ctx.screen) });   // the five faces (Phase E); the base path below is untouched
     // guards on the RESOLVED config
     if (d.island !== IM.ISLE_1.id) throw new Error(`${ID}: unknown island "${d.island}"`);
     if (!(d.symPx >= G1_FLOOR)) throw new Error(`${ID}: symPx ${d.symPx} < the G1 floor ${G1_FLOOR}`);
@@ -452,7 +452,8 @@ const TYPE = {
   },
 
   /** A face over an injected bank + resolved config. */
-  _buildFace(bankLoc, d, loc, rng) {
+  // mk (2026-11-03): the answer key's drawn answers (key) / the screen's marks (scr) — the page itself carries neither
+  _buildFace(bankLoc, d, loc, rng, mk = {}) {
     const L = d.layout;
     if (!MAPS.LAYOUTS.includes(L)) throw new Error(`${ID}: unknown layout "${L}"`);
     if (Array.isArray(bankLoc && bankLoc.refuse) && bankLoc.refuse.includes(L)) throw new Error(`${ID}: ${loc} refuses the ${L} face (bank.refuse)`);
@@ -467,7 +468,10 @@ const TYPE = {
       c.left.forEach((m, i) => {
         const s = TSV.topSideView({ model: m, view: 'side', box: d.box });
         const tp = TSV.topSideView({ model: c.right[i], view: 'top', box: d.box, ...(c.turns && c.turns[i] ? { turn: c.turns[i] } : {}) });
-        blocks.push(C5.viewPair({ leftModel: m, rightModel: c.right[i], side: { svg: s.svg, x0: s.meta.x0, w: s.meta.w }, top: tp.svg, box: d.box, itemW: d.itemW, tileW: d.tileW, rowH: d.rowH, w: d.rowW }));
+        const mate = c.left.indexOf(c.right[i]) + 1;   // the side item the top tile in this row belongs with
+        const marks = mk.key ? { sideNumber: i + 1, sideAttrs: ` data-lcs-pair="${i + 1}"`, topAttrs: ` data-lcs-key-badge="${mate}"` }
+          : mk.scr ? { sideAttrs: ` data-lcs-key-badge="p${i + 1}"`, topAttrs: ` data-lcs-pair="p${mate}"` } : {};
+        blocks.push(C5.viewPair({ leftModel: m, rightModel: c.right[i], side: { svg: s.svg, x0: s.meta.x0, w: s.meta.w }, top: tp.svg, box: d.box, itemW: d.itemW, tileW: d.tileW, rowH: d.rowH, w: d.rowW, ...marks }));
       });
       stamps = { left: c.left, right: c.right, box: d.box, ...(c.turns ? { turns: c.turns } : {}) };
       meta = c;
@@ -475,7 +479,7 @@ const TYPE = {
       if (!(d.px >= 180)) throw new Error(`${ID}: F2 rose px ${d.px} < 180`);
       const c = d.forceRoses ? JSON.parse(JSON.stringify(d.forceRoses)) : this._composeRoses(d, rng);   // forceRoses: the GATE's poison seam
       const lt = letters();
-      const cards = c.rots.map((r, i) => C5.roseCard({ i, w: d.cardW, h: d.cardH, rose: CR.compassRose({ px: d.px, rotation: r, given: c.given[i], letters: lt }).svg }));
+      const cards = c.rots.map((r, i) => C5.roseCard({ i, w: d.cardW, h: d.cardH, rose: CR.compassRose({ px: d.px, rotation: r, given: c.given[i], letters: lt, keyFill: !!mk.key, typeMarks: !!mk.scr }).svg }));
       for (let i = 0; i < cards.length; i += d.cols) blocks.push(C5.roseRow({ cards: cards.slice(i, i + d.cols) }));
       if (d.wordStrip) blocks.push(C5.dirStrip({ entries: MAPS.DIRS.map((x) => ({ dir: x, letter: lt[x], word: literal(bankLoc.dirWords, x, 'dirWords', loc) })) }));
       stamps = { rots: c.rots, given: c.given, 'rot-set': d.rotations, cols: d.cols, ...(d.wordStrip ? { 'word-strip': true } : {}) };
@@ -507,7 +511,7 @@ const TYPE = {
         const glyphH = Math.round(d.glyphH * laneH / d.laneH);
         if (withBank) blocks.push(C5.nameBank({ names: c.bank.map((id) => ({ id, name: names[id] })) }));
         const given = d.givenLanes ? rng.sample(ids2, d.givenLanes) : [];
-        const lanes = ids2.map((id, i) => C5.nameLane({ n: i + 1, answer: id, laneW: d.laneW, laneH, glyphH, ...(given.includes(id) ? { given: names[id] } : {}) }));
+        const lanes = ids2.map((id, i) => C5.nameLane({ n: i + 1, answer: id, laneW: d.laneW, laneH, glyphH, ...(given.includes(id) ? { given: names[id] } : {}), ...(mk.key ? { keyName: names[id] } : {}), ...(!mk.key ? { typed: names[id] } : {}) }));
         for (let i = 0; i < lanes.length; i += d.perRow) blocks.push(C5.laneRow({ lanes: lanes.slice(i, i + d.perRow) }));
         stamps = L === 'continents'
           ? { numbers: c.numbers, bank: withBank ? c.bank : null, alpha, 'lane-h': laneH, 'glyph-h': glyphH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), ...(given.length ? { given } : {}) }

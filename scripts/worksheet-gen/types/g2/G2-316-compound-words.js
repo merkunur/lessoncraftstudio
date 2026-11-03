@@ -95,7 +95,7 @@ const { wordTiles, starterFontPx } = require('../../templates/components-b2.js')
 const { makeRng } = require('../../lib/rng.js');
 const { esc } = require('../../primitives/_svg.js');
 const TOKENS = require('../../primitives/_tokens.js');
-const fsNode = require('fs');
+const platform = require('../../lib/platform/index.js');   // (fs is Node-only: the maker bundle reads through the platform)
 const pathNode = require('path');
 
 const ID = 'G2-316';
@@ -163,7 +163,7 @@ let _text = null;
 function textData(loc) {
   if (_text === null) {
     const f = pathNode.join(__dirname, '..', '..', 'data', 'b3', 'compound-words-text.json');
-    _text = fsNode.existsSync(f) ? JSON.parse(fsNode.readFileSync(f, 'utf8')) : {};
+    _text = platform.exists(f) ? platform.readJson(f) : {};
   }
   const t = _text[loc];
   if (!t) throw new Error(`${ID}: ${loc} has no native text lists (data/b3/compound-words-text.json) — the text-only level is REFUSED`);

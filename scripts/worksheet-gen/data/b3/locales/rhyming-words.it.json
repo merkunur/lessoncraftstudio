@@ -900,17 +900,6 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "toaster",
-          "word": "tostapane",
-          "pic": {
-            "theme": "kitchen tools",
-            "noun": "toaster"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [],
@@ -1045,17 +1034,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "parrot",
-          "word": "pappagallo",
-          "pic": {
-            "theme": "birds",
-            "noun": "parrot"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "coral",
           "word": "corallo",
           "pic": {
@@ -1070,40 +1048,6 @@
       "extra": [
         "giallo",
         "ballo"
-      ],
-      "nearMiss": []
-    },
-    {
-      "id": "opo",
-      "rime": "-opo",
-      "sound": "ɔpo",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "mouse",
-          "word": "topo",
-          "pic": {
-            "theme": "pets",
-            "noun": "mouse"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "triceratops",
-          "word": "triceratopo",
-          "pic": {
-            "theme": "dinosaurs",
-            "noun": "triceratops"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "dopo"
       ],
       "nearMiss": []
     },
@@ -1362,17 +1306,6 @@
           "pic": {
             "theme": "spring",
             "noun": "flower"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "cauliflower",
-          "word": "cavolfiore",
-          "pic": {
-            "theme": "vegetables",
-            "noun": "cauliflower"
           },
           "sameSpelling": true,
           "productive": true,

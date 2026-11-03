@@ -4172,26 +4172,6 @@
             "hängs",
             "len"
           ]
-        },
-        {
-          "theme": "birds 2",
-          "noun": "chicken",
-          "key": "chicken",
-          "word": "kyckling",
-          "graphemes": [
-            "k",
-            "y",
-            "c",
-            "k",
-            "l",
-            "i",
-            "ng"
-          ],
-          "pos": 6,
-          "split": [
-            "kyck",
-            "ling"
-          ]
         }
       ],
       "foils": [

@@ -231,7 +231,9 @@
         "K-285",
         "K-294",
         "K-295",
-        "K-296"
+        "K-296",
+        "K-505",
+        "K-506"
       ],
       "verdict": "covered",
       "activities": [
@@ -421,7 +423,8 @@
         "K-035",
         "K-037",
         "K-040",
-        "K-079"
+        "K-079",
+        "K-515"
       ],
       "verdict": "covered",
       "activities": [
@@ -573,7 +576,9 @@
       "code": "readiness: reflection (K.G)",
       "strand": "Geometry / Visual Perception",
       "worksheets": [
-        "K-063"
+        "K-063",
+        "K-508",
+        "K-509"
       ],
       "verdict": "gap",
       "activities": [],
@@ -629,7 +634,12 @@
         "K-397",
         "K-398",
         "K-399",
-        "K-400"
+        "K-400",
+        "K-488",
+        "K-489",
+        "K-490",
+        "K-491",
+        "K-492"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -704,7 +714,10 @@
       "strand": "Geometry",
       "worksheets": [
         "K-353",
-        "K-358"
+        "K-358",
+        "K-519",
+        "K-520",
+        "K-522"
       ],
       "verdict": "covered",
       "activities": [
@@ -755,7 +768,10 @@
         "K-286",
         "K-298",
         "K-299",
-        "K-300"
+        "K-300",
+        "K-502",
+        "K-503",
+        "K-504"
       ],
       "verdict": "gap",
       "activities": [],
@@ -785,7 +801,8 @@
         "K-478",
         "K-481",
         "K-482",
-        "K-483"
+        "K-483",
+        "K-516"
       ],
       "verdict": "gap",
       "activities": [],
@@ -812,7 +829,11 @@
         "K-280",
         "K-281",
         "K-282",
-        "K-283"
+        "K-283",
+        "K-523",
+        "K-524",
+        "K-525",
+        "K-526"
       ],
       "verdict": "covered",
       "activities": [
@@ -845,7 +866,8 @@
         "K-388",
         "K-391",
         "K-434",
-        "K-439"
+        "K-439",
+        "K-527"
       ],
       "verdict": "partial",
       "activities": [
@@ -895,7 +917,8 @@
         "K-228",
         "K-317",
         "K-328",
-        "K-475"
+        "K-475",
+        "K-531"
       ],
       "verdict": "covered",
       "activities": [
@@ -968,7 +991,8 @@
       "strand": "Foundational Skills",
       "worksheets": [
         "K-229",
-        "K-327"
+        "K-327",
+        "K-532"
       ],
       "verdict": "partial",
       "activities": [
@@ -988,7 +1012,11 @@
       "worksheets": [
         "K-223",
         "K-309",
-        "K-473"
+        "K-473",
+        "K-507",
+        "K-530",
+        "K-534",
+        "G1-492"
       ],
       "verdict": "gap",
       "activities": [],
@@ -1040,7 +1068,8 @@
       "code": "RF.K.3.b",
       "strand": "Foundational Skills",
       "worksheets": [
-        "K-230"
+        "K-230",
+        "K-533"
       ],
       "verdict": "gap",
       "activities": [],
@@ -1169,7 +1198,10 @@
         "K-235",
         "K-240",
         "K-264",
-        "K-472"
+        "K-472",
+        "K-510",
+        "K-511",
+        "K-512"
       ],
       "verdict": "covered",
       "activities": [
@@ -1619,7 +1651,12 @@
         "K-401",
         "K-402",
         "K-403",
-        "K-404"
+        "K-404",
+        "K-493",
+        "K-494",
+        "K-495",
+        "K-496",
+        "K-497"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -1636,7 +1673,8 @@
         "K-266",
         "K-393",
         "K-394",
-        "K-479"
+        "K-479",
+        "K-514"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -1663,7 +1701,11 @@
         "K-411",
         "K-412",
         "K-413",
-        "K-480"
+        "K-480",
+        "K-484",
+        "K-485",
+        "K-486",
+        "K-487"
       ],
       "verdict": "out-of-scope",
       "activities": [],
@@ -2014,7 +2056,8 @@
         "G1-370",
         "G1-455",
         "G1-456",
-        "G1-457"
+        "G1-457",
+        "G1-487"
       ],
       "verdict": "covered",
       "activities": [
@@ -2222,7 +2265,8 @@
         "G1-225",
         "G1-226",
         "G1-227",
-        "K-468"
+        "K-468",
+        "K-513"
       ],
       "verdict": "gap",
       "activities": [],
@@ -2390,7 +2434,8 @@
       "strand": "Geometry",
       "worksheets": [
         "G1-354",
-        "G1-355"
+        "G1-355",
+        "G1-489"
       ],
       "verdict": "covered",
       "activities": [
@@ -2566,7 +2611,10 @@
         "G1-291",
         "G1-301",
         "G1-303",
-        "G1-304"
+        "G1-304",
+        "G1-490",
+        "K-529",
+        "G1-491"
       ],
       "verdict": "covered",
       "activities": [
@@ -4118,7 +4166,8 @@
       "worksheets": [
         "G2-278",
         "G2-299",
-        "G2-300"
+        "G2-300",
+        "G1-488"
       ],
       "verdict": "partial",
       "activities": [
@@ -4367,7 +4416,9 @@
         "G2-377",
         "G2-384",
         "G2-385",
-        "G2-386"
+        "G2-386",
+        "G2-481",
+        "G2-483"
       ],
       "verdict": "gap",
       "activities": [
@@ -4386,7 +4437,8 @@
       "code": "HANDWRITING / RF.2.3",
       "strand": "Handwriting",
       "worksheets": [
-        "G2-387"
+        "G2-387",
+        "G2-482"
       ],
       "verdict": "gap",
       "activities": [],
@@ -5653,7 +5705,8 @@
       "code": "HANDWRITING",
       "strand": "Handwriting",
       "worksheets": [
-        "G3-401"
+        "G3-401",
+        "G2-480"
       ],
       "verdict": "gap",
       "activities": [],

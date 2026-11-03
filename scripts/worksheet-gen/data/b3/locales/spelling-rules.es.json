@@ -138,22 +138,6 @@
           "pluralGap": null
         },
         {
-          "theme": "vehicles",
-          "noun": "boat",
-          "vocabKey": "boat",
-          "word": "bote",
-          "gaps": [
-            {
-              "from": 0,
-              "len": 1
-            }
-          ],
-          "g": "b",
-          "side": "rule",
-          "plural": "botes",
-          "pluralGap": null
-        },
-        {
           "theme": "classroom",
           "noun": "book",
           "vocabKey": "book",

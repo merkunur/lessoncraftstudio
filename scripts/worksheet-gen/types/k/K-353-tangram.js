@@ -264,7 +264,7 @@ module.exports = {
       if (!ts.length) throw new Error(`${ID} compose: mini ${k} fits under no transform`);
       const t = rng.pick(ts);
       const tans = TG.transformTiling(m.tans, t);
-      cards.push(C4.composeCard({ mini: { key: k, tans }, S, Sg, transform: t }));
+      cards.push(C4.composeCard({ mini: { key: k, tans }, S, Sg, transform: t, key: !!(ctx && ctx.answerKey) }));
       meta.push({ key: k, transform: t, classes: m.tans.map((x) => TG.clsOf(x.id)) });
     }
     const cfg = { mode: 'compose', S, Sg, items, cols, rows, pool2: fits2, pool3: fits3, mix, bodyMin };
@@ -326,7 +326,7 @@ module.exports = {
       const ts = fitList(k, H);
       if (!ts.length) throw new Error(`${ID} silhouette: ${k} fits row ${i < cols ? 1 : 2} under no transform`);
       const t = rng.pick(ts);
-      cards.push(C4.shadowCard({ figure: { key: k, tans: TG.transformTiling(FIG.figure(k).tans, t) }, S, transform: t }));
+      cards.push(C4.shadowCard({ figure: { key: k, tans: TG.transformTiling(FIG.figure(k).tans, t) }, S, transform: t, key: !!(ctx && ctx.answerKey) }));
       meta.push({ key: k, transform: t, row: i < cols ? 1 : 2 });
     });
     const cfg = { mode: 'silhouette', S, items, cols, rows, rowH, pool: d.pool.slice(), padding, bodyMin };

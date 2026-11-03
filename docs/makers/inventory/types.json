@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02",
- "count": 962,
+ "generated": "2026-11-03",
+ "count": 1134,
  "failures": [],
  "rows": [
   {
@@ -2550,8 +2550,8 @@
    "uses": [
     "primitives/trace-path.js",
     "data/tracing/letter-sets.js",
-    "fs",
-    "path"
+    "path",
+    "lib/platform/index.js"
    ],
    "teachingPoint": "K:letter-formation",
    "skill": "Trace capital and lowercase letters A–Z",
@@ -2645,6 +2645,8 @@
     "data/color-words.js",
     "image-cache/resolve.js",
     "lib/slot.js",
+    "data/parity-words.json",
+    "lib/number-words.js",
     "data/literacy/sight-words.js",
     "data/literacy/sort-by-beginning-sound.json"
    ],
@@ -2670,11 +2672,13 @@
     "rows",
     "cell"
    ],
-   "interactive": false,
+   "interactive": true,
    "uses": [
     "lib/maze.js",
     "image-cache/resolve.js",
-    "lib/slot.js"
+    "lib/slot.js",
+    "./K-405-maze-puzzles.js",
+    "lib/b8-common.js"
    ],
    "teachingPoint": "K:mazes",
    "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
@@ -3466,7 +3470,7 @@
     "rows",
     "cell"
    ],
-   "interactive": false,
+   "interactive": true,
    "uses": [
     "./K-242-maze.js"
    ],
@@ -3492,7 +3496,7 @@
     "rows",
     "cell"
    ],
-   "interactive": false,
+   "interactive": true,
    "uses": [
     "./K-242-maze.js"
    ],
@@ -3518,7 +3522,7 @@
     "rows",
     "cell"
    ],
-   "interactive": false,
+   "interactive": true,
    "uses": [
     "./K-242-maze.js"
    ],
@@ -7704,7 +7708,7 @@
     "data/b7/how-to-draw.js",
     "lib/htd-steps.js",
     "templates/components-b7.js",
-    "fs",
+    "lib/platform/index.js",
     "path",
     "primitives/_tokens.js",
     "data/htdx/strings.js",
@@ -9961,7 +9965,7 @@
    "family": "maze-puzzles",
    "variationOf": "K-405",
    "title": "Picture Path Maze: Step on the Animals",
-   "instruction": "Help the farmer get to the tractor. Step only on the animals.",
+   "instruction": "Help the farmer get to the tractor. Step only on the stones with animals.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -9976,6 +9980,2726 @@
    "teachingPoint": "K:mazes",
    "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
    "strand": "Visual Perception & Pencil Control",
+   "science": false
+  },
+  {
+   "id": "K-481",
+   "file": "scripts/worksheet-gen/types/k/K-481-cutting-lines.js",
+   "grade": "K",
+   "slug": "cutting-lines",
+   "family": "pre-writing",
+   "variationOf": null,
+   "title": "Cut Along the Lines",
+   "instruction": "Cut along each dashed line, from the scissors to the picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "kind",
+    "pool",
+    "strips",
+    "n",
+    "amp",
+    "laneH",
+    "width"
+   ],
+   "interactive": false,
+   "uses": [
+    "templates/layouts/card-grid.js",
+    "primitives/cut-line.js",
+    "image-cache/resolve.js",
+    "lib/distinct-pictures.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-482",
+   "file": "scripts/worksheet-gen/types/k/K-482-dot-grid-patterns.js",
+   "grade": "K",
+   "slug": "dot-grid-patterns",
+   "family": "pre-writing",
+   "variationOf": null,
+   "title": "Copy the Pattern on the Dots",
+   "instruction": "Look at the line on the first dots. Draw the same line on the empty dots beside it, from the orange dot.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "moves",
+    "diag",
+    "startOnCopy",
+    "gap"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_tokens.js",
+    "primitives/_svg.js",
+    "templates/components-b2.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-483",
+   "file": "scripts/worksheet-gen/types/k/K-483-letter-shape-strokes.js",
+   "grade": "K",
+   "slug": "letter-shape-strokes",
+   "family": "pre-writing",
+   "variationOf": null,
+   "title": "Letter Strokes: Lines, Curves and Arches",
+   "instruction": "Trace each stroke, starting at the orange dot. The letters at the start of the row are made with it.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "laneH",
+    "reps"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/tracing/letter-strokes.js",
+    "primitives/trace-path.js",
+    "primitives/_tokens.js",
+    "primitives/_svg.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-484",
+   "file": "scripts/worksheet-gen/types/k/K-484-three-exits-maze.js",
+   "grade": "K",
+   "slug": "which-exit-maze",
+   "family": "mazes",
+   "variationOf": null,
+   "title": "Which Exit? Maze Puzzles",
+   "instruction": "Start at the arrow. Follow the paths with your finger. Only one exit is open: circle its number.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mazes",
+    "cols",
+    "rows",
+    "exits",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_tokens.js",
+    "lib/maze.js",
+    "lib/maze-ways.js"
+   ],
+   "teachingPoint": "K:mazes",
+   "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+   "strand": "Visual Perception & Pencil Control",
+   "science": false
+  },
+  {
+   "id": "K-485",
+   "file": "scripts/worksheet-gen/types/k/K-485-write-the-directions.js",
+   "grade": "G1",
+   "slug": "write-the-maze-directions",
+   "family": "mazes",
+   "variationOf": null,
+   "title": "Write the Directions Through the Maze",
+   "instruction": "Follow the way from the green dot to the flag. For each straight part, write how many steps (arrows) it has.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "runs",
+    "cell",
+    "circle",
+    "turns"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_tokens.js",
+    "lib/maze.js",
+    "lib/maze-ways.js"
+   ],
+   "teachingPoint": "K:mazes",
+   "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+   "strand": "Visual Perception & Pencil Control",
+   "science": false
+  },
+  {
+   "id": "K-486",
+   "file": "scripts/worksheet-gen/types/k/K-486-collect-the-letters-maze.js",
+   "grade": "K",
+   "slug": "collect-the-letters-maze",
+   "family": "mazes",
+   "variationOf": null,
+   "title": "Collect the Letters Maze",
+   "instruction": "Draw the way to the picture. Collect the letters on your way, then write the word in the boxes.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "letters",
+    "decoys",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_tokens.js",
+    "lib/maze.js",
+    "lib/maze-ways.js",
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "lib/slot.js"
+   ],
+   "teachingPoint": "K:mazes",
+   "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+   "strand": "Visual Perception & Pencil Control",
+   "science": false
+  },
+  {
+   "id": "K-487",
+   "file": "scripts/worksheet-gen/types/k/K-487-pattern-path-maze.js",
+   "grade": "K",
+   "slug": "pattern-path-maze",
+   "family": "mazes",
+   "variationOf": null,
+   "title": "Follow the Pattern Path",
+   "instruction": "Look at the pattern at the top. Go from the arrow to the flag, stepping only on stones that follow the pattern.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cols",
+    "rows",
+    "len",
+    "patterns",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/_tokens.js",
+    "image-cache/resolve.js",
+    "lib/distinct-pictures.js"
+   ],
+   "teachingPoint": "K:mazes",
+   "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+   "strand": "Visual Perception & Pencil Control",
+   "science": false
+  },
+  {
+   "id": "K-488",
+   "file": "scripts/worksheet-gen/types/k/K-488-odd-picture-out.js",
+   "grade": "K",
+   "slug": "which-picture-is-different",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Which Picture Is Different?",
+   "instruction": "All the pictures are the same except one. Circle the picture that is different.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "panels",
+    "pw",
+    "ops"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/fd-faces.js"
+   ],
+   "teachingPoint": "K:spot-the-difference",
+   "skill": "Compare two pictures and find what changed / what is missing",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-489",
+   "file": "scripts/worksheet-gen/types/k/K-489-count-the-kinds.js",
+   "grade": "G1",
+   "slug": "count-the-kinds-of-changes",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Count the Kinds of Changes",
+   "instruction": "Find every difference in picture 2. Count the changes of each kind and write the number in its box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "kinds",
+    "ring",
+    "area",
+    "move",
+    "sep"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/fd-faces.js",
+    "templates/components-b7.js"
+   ],
+   "teachingPoint": "K:spot-the-difference",
+   "skill": "Compare two pictures and find what changed / what is missing",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-490",
+   "file": "scripts/worksheet-gen/types/k/K-490-look-fold-find.js",
+   "grade": "G1",
+   "slug": "look-fold-and-find",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Look, Fold and Find",
+   "instruction": "Look at picture 1 for as long as you like. Then fold the page on the dashed line so picture 1 is hidden. Circle the changes in picture 2 and tick a box for each one.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "ops"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/fd-faces.js",
+    "templates/components-b7.js",
+    "./K-395-find-the-differences.js"
+   ],
+   "teachingPoint": "K:spot-the-difference",
+   "skill": "Compare two pictures and find what changed / what is missing",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-491",
+   "file": "scripts/worksheet-gen/types/k/K-491-draw-what-is-missing.js",
+   "grade": "K",
+   "slug": "draw-what-is-missing",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Draw What Is Missing",
+   "instruction": "Some things from picture 1 are missing in picture 2. Draw each one back in its place in picture 2.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "guides",
+    "ring",
+    "area"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/fd-faces.js",
+    "templates/components-b7.js"
+   ],
+   "teachingPoint": "K:spot-the-difference",
+   "skill": "Compare two pictures and find what changed / what is missing",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-492",
+   "file": "scripts/worksheet-gen/types/k/K-492-find-the-twins.js",
+   "grade": "G1",
+   "slug": "which-two-pictures-are-the-same",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Which Two Pictures Are the Same?",
+   "instruction": "Two of the pictures are exactly the same. Find them and circle both.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "panels",
+    "pw",
+    "ops"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/fd-faces.js"
+   ],
+   "teachingPoint": "K:spot-the-difference",
+   "skill": "Compare two pictures and find what changed / what is missing",
+   "strand": "Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-493",
+   "file": "scripts/worksheet-gen/types/k/K-493-draw-with-shapes.js",
+   "grade": "K",
+   "slug": "draw-with-shapes",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Draw with Shapes",
+   "instruction": "Look at the steps. Each step adds new shapes in orange. Draw the picture in the big box, one step at a time.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "names",
+    "guides"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/htd-faces.js",
+    "lib/htd-steps.js",
+    "templates/components-b7.js",
+    "lib/platform/index.js",
+    "path",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:how-to-draw",
+   "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+   "strand": "Art",
+   "science": false
+  },
+  {
+   "id": "K-494",
+   "file": "scripts/worksheet-gen/types/k/K-494-draw-it-bigger.js",
+   "grade": "G1",
+   "slug": "draw-it-bigger-on-the-grid",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Draw It Bigger on the Grid",
+   "instruction": "Copy the picture onto the big grid, one square at a time. Every square of the big grid is twice as big, so your picture will be twice as big too.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cells",
+    "cellPx",
+    "steps"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/htd-faces.js",
+    "templates/components-b7.js"
+   ],
+   "teachingPoint": "K:how-to-draw",
+   "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+   "strand": "Art",
+   "science": false
+  },
+  {
+   "id": "K-495",
+   "file": "scripts/worksheet-gen/types/k/K-495-draw-the-other-half.js",
+   "grade": "G1",
+   "slug": "draw-the-other-half",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Mirror Drawing",
+   "instruction": "Half of the picture is drawn. Draw the other half so that both sides look the same, like in a mirror.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "guide"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/htd-faces.js",
+    "lib/htd-steps.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:how-to-draw",
+   "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+   "strand": "Art",
+   "science": false
+  },
+  {
+   "id": "K-496",
+   "file": "scripts/worksheet-gen/types/k/K-496-draw-them-together.js",
+   "grade": "G1",
+   "slug": "draw-them-all-in-one-picture",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Draw Them All in One Picture",
+   "instruction": "Follow the steps of each drawing. Then draw them all together in the big picture.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "k",
+    "cardPx",
+    "ground"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/htd-faces.js",
+    "templates/components-b7.js",
+    "lib/htd-steps.js",
+    "primitives/_tokens.js",
+    "lib/rng.js"
+   ],
+   "teachingPoint": "K:how-to-draw",
+   "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+   "strand": "Art",
+   "science": false
+  },
+  {
+   "id": "K-497",
+   "file": "scripts/worksheet-gen/types/k/K-497-step-cards.js",
+   "grade": "K",
+   "slug": "step-cards-cut-order-draw",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Step Cards: Cut, Order and Draw",
+   "instruction": "Cut out the cards. Put the steps in order on the numbered row and glue them down. Then draw the picture in the box.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "cardPx",
+    "black"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/htd-faces.js",
+    "lib/htd-steps.js",
+    "templates/components-b7.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:how-to-draw",
+   "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+   "strand": "Art",
+   "science": false
+  },
+  {
+   "id": "K-498",
+   "file": "scripts/worksheet-gen/types/k/K-498-trace-a-picture.js",
+   "grade": "K",
+   "slug": "trace-a-picture",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace a Picture",
+   "instruction": "Trace all the lines of the picture. Start at the black dot.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "model"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/pt-faces.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-499",
+   "file": "scripts/worksheet-gen/types/k/K-499-trace-picture-and-word.js",
+   "grade": "K",
+   "slug": "trace-picture-then-write-word",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace the Picture, Then Write the Word",
+   "instruction": "Trace the picture. Then trace its name on the lines and write it by yourself.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "reps",
+    "emptyLast",
+    "empties",
+    "maxLen"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/pt-faces.js",
+    "primitives/trace-path.js",
+    "data/tracing/letter-strokes.js",
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-500",
+   "file": "scripts/worksheet-gen/types/k/K-500-tracing-booklet.js",
+   "grade": "K",
+   "slug": "tracing-booklet",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "A Tracing Booklet",
+   "instruction": "Trace the three pictures. Then cut along the dashed lines, put the cover on top and staple the pages into a little book.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "lib/pt-faces.js",
+    "primitives/_tokens.js",
+    "lib/rng.js",
+    "data/pt/booklet-themes.json",
+    "image-cache/resolve.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-501",
+   "file": "scripts/worksheet-gen/types/k/K-501-trace-and-color-by-number.js",
+   "grade": "K",
+   "slug": "trace-and-color-by-number",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace, Then Color by Number",
+   "instruction": "Trace the lines of the picture. Then color each part with the color of its number.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": true,
+   "uses": [
+    "lib/pt-faces.js",
+    "lib/pt-scene.js",
+    "lib/cbn-type.js",
+    "lib/cbn-render.js",
+    "data/cbn/designs.js",
+    "data/cbn/lineart-designs.js",
+    "lib/htd-vector.js",
+    "lib/platform/index.js",
+    "path"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-502",
+   "file": "scripts/worksheet-gen/types/k/K-502-draw-it-twice-as-big.js",
+   "grade": "G2",
+   "slug": "draw-it-twice-as-big",
+   "family": "grid-copy",
+   "variationOf": null,
+   "title": "Draw It Twice as Big",
+   "instruction": "Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "cell",
+    "scale",
+    "dense"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/grid-copy-more.js"
+   ],
+   "teachingPoint": "K:grid-copy",
+   "skill": "Copy a picture square by square onto an empty grid (with and without letter–number labels)",
+   "strand": "Spatial Reasoning",
+   "science": false
+  },
+  {
+   "id": "K-503",
+   "file": "scripts/worksheet-gen/types/k/K-503-turn-the-picture.js",
+   "grade": "G2",
+   "slug": "turn-the-picture",
+   "family": "grid-copy",
+   "variationOf": null,
+   "title": "Turn and Flip the Picture",
+   "instruction": "Copy each picture onto the empty grid turned a quarter turn to the right, the way the arrow shows.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "cell",
+    "move"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/grid-copy-more.js"
+   ],
+   "teachingPoint": "K:grid-copy",
+   "skill": "Copy a picture square by square onto an empty grid (with and without letter–number labels)",
+   "strand": "Spatial Reasoning",
+   "science": false
+  },
+  {
+   "id": "K-504",
+   "file": "scripts/worksheet-gen/types/k/K-504-copy-the-drawing-on-the-grid.js",
+   "grade": "K",
+   "slug": "copy-the-drawing-on-the-grid",
+   "family": "grid-copy",
+   "variationOf": null,
+   "title": "Copy the Drawing on the Grid",
+   "instruction": "Copy the drawing onto the empty grid, one square at a time: look at what each square holds and draw the same in its twin square.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cells",
+    "upto"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/grid-copy-more.js"
+   ],
+   "teachingPoint": "K:grid-copy",
+   "skill": "Copy a picture square by square onto an empty grid (with and without letter–number labels)",
+   "strand": "Spatial Reasoning",
+   "science": false
+  },
+  {
+   "id": "K-505",
+   "file": "scripts/worksheet-gen/types/k/K-505-number-word-dot-to-dot.js",
+   "grade": "K",
+   "slug": "number-word-dot-to-dot",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Number-Word Dot-to-Dot",
+   "instruction": "Start at the orange dot. Read the number words and join the dots in counting order.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/d2d-more.js"
+   ],
+   "teachingPoint": "K:dot-to-dot-sequence",
+   "skill": "Join numbered dots in counting order (1–10, 11–20, count on from 11 to 30)",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-506",
+   "file": "scripts/worksheet-gen/types/k/K-506-even-dots-only.js",
+   "grade": "G1",
+   "slug": "even-dots-only-dot-to-dot",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Even or Odd Dot-to-Dot",
+   "instruction": "Start at the orange dot. Join only the even numbers in order: 2, 4, 6 and so on. Skip the odd numbers.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/d2d-more.js"
+   ],
+   "teachingPoint": "K:dot-to-dot-sequence",
+   "skill": "Join numbered dots in counting order (1–10, 11–20, count on from 11 to 30)",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-507",
+   "file": "scripts/worksheet-gen/types/k/K-507-capital-and-small-letter-dot-to-dot.js",
+   "grade": "K",
+   "slug": "capital-and-small-letter-dot-to-dot",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Uppercase and Lowercase Dot-to-Dot",
+   "instruction": "Start at the orange dot. Join an uppercase letter, then its lowercase letter, then the next uppercase letter: A, a, B, b and so on.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/d2d-more.js"
+   ],
+   "teachingPoint": "K:alphabet-order",
+   "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-508",
+   "file": "scripts/worksheet-gen/types/k/K-508-find-the-exact-twin.js",
+   "grade": "K",
+   "slug": "find-the-exact-twin",
+   "family": "visual-discrimination",
+   "variationOf": null,
+   "title": "Find the Exact Twin",
+   "instruction": "Look at the first picture in each row. Circle the picture that is exactly the same, not turned and not flipped.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "rows",
+    "kinds"
+   ],
+   "interactive": false,
+   "uses": [
+    "image-cache/resolve.js",
+    "lib/slot.js",
+    "lib/picture-masks.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": "K:mirror-image",
+   "skill": "Recognise the mirror image (reflection) of a picture",
+   "strand": "Geometry / Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-509",
+   "file": "scripts/worksheet-gen/types/k/K-509-which-pictures-are-hiding.js",
+   "grade": "K",
+   "slug": "which-pictures-are-hiding",
+   "family": "visual-discrimination",
+   "variationOf": null,
+   "title": "Which Pictures Are Hiding?",
+   "instruction": "Some pictures are hiding in the tangle of lines. Find their outlines, then circle those pictures in the row below.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "hidden",
+    "choices"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/pt-scene.js",
+    "image-cache/resolve.js",
+    "lib/picture-refusals.js",
+    "lib/rng.js",
+    "data/pt/index.json",
+    "primitives/_tokens.js",
+    "image-cache/resolve.js",
+    "data/pt/silhouettes.json"
+   ],
+   "teachingPoint": "K:mirror-image",
+   "skill": "Recognise the mirror image (reflection) of a picture",
+   "strand": "Geometry / Visual Perception",
+   "science": false
+  },
+  {
+   "id": "K-510",
+   "file": "scripts/worksheet-gen/types/k/K-510-who-does-not-belong.js",
+   "grade": "K",
+   "slug": "who-does-not-belong",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Which One Does Not Belong?",
+   "instruction": "Read the name of each group. Circle the one picture that does not belong in that group.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pick"
+   ],
+   "interactive": false,
+   "uses": [
+    "image-cache/resolve.js",
+    "lib/slot.js",
+    "primitives/_tokens.js",
+    "data/literacy/category-vocab.json",
+    "data/science/can-fly-vs-cannot.json",
+    "data/science/food-groups.json",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": "K:category-sort",
+   "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
+   "strand": "Language / Vocabulary",
+   "science": false
+  },
+  {
+   "id": "K-511",
+   "file": "scripts/worksheet-gen/types/k/K-511-sort-by-a-rule.js",
+   "grade": "K",
+   "slug": "sort-by-a-rule",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Sort by a Rule",
+   "instruction": "Read the names of the two groups. Draw a line from each picture to the group it belongs to.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "perBin",
+    "rule"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/science-category-sort.js",
+    "data/sorting/can-you-eat-it.json",
+    "data/sorting/moves-by-itself.json"
+   ],
+   "teachingPoint": "K:category-sort",
+   "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
+   "strand": "Language / Vocabulary",
+   "science": false
+  },
+  {
+   "id": "K-512",
+   "file": "scripts/worksheet-gen/types/k/K-512-sorting-mats-and-cards.js",
+   "grade": "K",
+   "slug": "sorting-mats-and-cards",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Sorting Mats and Picture Cards",
+   "instruction": "Cut out the picture cards. Put each card on the mat where it belongs.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mats",
+    "perMat",
+    "cardPx",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "image-cache/resolve.js",
+    "lib/slot.js",
+    "_shared/key-number.js",
+    "primitives/_tokens.js",
+    "data/literacy/category-vocab.json",
+    "data/sorting/can-you-eat-it.json",
+    "data/sorting/moves-by-itself.json"
+   ],
+   "teachingPoint": "K:category-sort",
+   "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
+   "strand": "Language / Vocabulary",
+   "science": false
+  },
+  {
+   "id": "K-513",
+   "file": "scripts/worksheet-gen/types/k/K-513-color-by-number-word.js",
+   "grade": "K",
+   "slug": "color-by-number-word",
+   "family": "color-by-number",
+   "variationOf": "K-241",
+   "title": "Color by Number Word",
+   "instruction": "Read the number word in each shape. Find its number in the key and color the shape with that color.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size",
+    "range"
+   ],
+   "interactive": false,
+   "uses": [
+    "./K-241-color-by-code.js"
+   ],
+   "teachingPoint": "1:number-words",
+   "skill": "Read and write number words to 20, tens words to 100, words to 50; match numerals to words",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "K-514",
+   "file": "scripts/worksheet-gen/types/k/K-514-color-by-your-own-key.js",
+   "grade": "K",
+   "slug": "color-by-your-own-key",
+   "family": "color-by-number",
+   "variationOf": "K-241",
+   "title": "Color by Your Own Key",
+   "instruction": "Choose a color for each number. Color its square in the key and write the color's name. Then color the shapes.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size"
+   ],
+   "interactive": false,
+   "uses": [
+    "./K-241-color-by-code.js"
+   ],
+   "teachingPoint": "K:colour-by-number",
+   "skill": "Colour by number / colour pictures and scenes by a numeral key",
+   "strand": "Fine motor / numeral recognition",
+   "science": false
+  },
+  {
+   "id": "K-515",
+   "file": "scripts/worksheet-gen/types/k/K-515-color-big-and-small.js",
+   "grade": "K",
+   "slug": "color-big-and-small",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color Big and Small",
+   "instruction": "Look at the key: every size has its own color. Color each picture with the color of its size.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "sizes",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:compare-size-extremes",
+   "skill": "Find the biggest / tallest / longest (and all the big ones) in a row, incl. shapes",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "K-516",
+   "file": "scripts/worksheet-gen/types/k/K-516-mini-coloring-booklet.js",
+   "grade": "K",
+   "slug": "mini-coloring-booklet",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "A Mini Coloring Booklet",
+   "instruction": "Fold the top half back, then fold the left half back to make a little book. Color every page.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px",
+    "words",
+    "maxLetters"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "K:pre-writing-strokes",
+   "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+   "strand": "Fine Motor & Pre-Writing",
+   "science": false
+  },
+  {
+   "id": "K-517",
+   "file": "scripts/worksheet-gen/types/k/K-517-trace-numbers-to-100.js",
+   "grade": "K",
+   "slug": "trace-numbers-to-100",
+   "family": "number-tracing",
+   "variationOf": null,
+   "title": "Trace the Numbers 1 to 100",
+   "instruction": "Trace the dashed numbers. In every empty box, write the number that belongs there.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "from",
+    "to",
+    "plan",
+    "laneH",
+    "glyphH"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-tracing-more.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-518",
+   "file": "scripts/worksheet-gen/types/k/K-518-number-formation-poster.js",
+   "grade": "K",
+   "slug": "number-formation-poster",
+   "family": "number-tracing",
+   "variationOf": null,
+   "title": "How We Write Numbers",
+   "instruction": "Start at the dot and follow the arrows. The small numbers show which line comes first.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "nums",
+    "cols",
+    "glyphH",
+    "dots"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-tracing-more.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-519",
+   "file": "scripts/worksheet-gen/types/k/K-519-make-your-own-tangram.js",
+   "grade": "K",
+   "slug": "make-your-own-tangram",
+   "family": "tangram",
+   "variationOf": null,
+   "title": "Make Your Own Tangram Figure",
+   "instruction": "Color each piece like the legend and cut out the seven pieces. Make your own figure with all of them on the board, then draw around it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "legend",
+    "dots",
+    "name"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/tangram.js",
+    "templates/components-b4.js",
+    "data/b4/tangram-figures.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:compose-shapes",
+   "skill": "Compose shapes from pieces (tangram figures; where two or three pieces meet)",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "K-520",
+   "file": "scripts/worksheet-gen/types/k/K-520-first-tangram-puzzles.js",
+   "grade": "K",
+   "slug": "first-tangram-puzzles",
+   "family": "tangram",
+   "variationOf": null,
+   "title": "First Tangram Puzzles",
+   "instruction": "Cut out the pieces beside each figure. Lay them on the figure so that they cover it exactly.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "S",
+    "pieces",
+    "mode"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/tangram.js",
+    "data/b4/tangram-figures.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:compose-shapes",
+   "skill": "Compose shapes from pieces (tangram figures; where two or three pieces meet)",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "K-522",
+   "file": "scripts/worksheet-gen/types/k/K-522-tangram-shadow-names.js",
+   "grade": "K",
+   "slug": "tangram-shadow-names",
+   "family": "tangram",
+   "variationOf": null,
+   "title": "Match the Shadow to Its Name",
+   "instruction": "Look at each tangram shadow. Draw a line from the shadow to its name.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "pool"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/tangram.js",
+    "data/b4/tangram-figures.js",
+    "data/b4/tangram-names.json",
+    "_shared/key-number.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:compose-shapes",
+   "skill": "Compose shapes from pieces (tangram figures; where two or three pieces meet)",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "K-523",
+   "file": "scripts/worksheet-gen/types/k/K-523-name-tracing.js",
+   "grade": "K",
+   "slug": "name-tracing",
+   "family": "letter-tracing",
+   "variationOf": null,
+   "title": "Trace Your Name",
+   "instruction": "Look at the name. Trace it on the dashed lines, then write it yourself on the empty lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "glyphH",
+    "laneH",
+    "trace",
+    "empty"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/trace-path.js",
+    "data/tracing/letter-strokes.js",
+    "lib/slot.js"
+   ],
+   "teachingPoint": "K:letter-formation",
+   "skill": "Trace capital and lowercase letters A–Z",
+   "strand": "Handwriting & Letter Formation",
+   "science": false
+  },
+  {
+   "id": "K-524",
+   "file": "scripts/worksheet-gen/types/k/K-524-letter-and-picture.js",
+   "grade": "K",
+   "slug": "letters-and-pictures",
+   "family": "letter-tracing",
+   "variationOf": null,
+   "title": "Letters and Pictures",
+   "instruction": "Say the name of each picture and listen to its first sound. Trace the letter for that sound, then write it yourself.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "glyphH",
+    "laneH",
+    "reps",
+    "empty",
+    "word",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/trace-path.js",
+    "./K-238-letter-tracing.js",
+    "image-cache/resolve.js",
+    "data/alphabet/letter-pictures.json",
+    "lib/slot.js",
+    "primitives/_tokens.js",
+    "./K-238-letter-tracing.js"
+   ],
+   "teachingPoint": "K:letter-formation",
+   "skill": "Trace capital and lowercase letters A–Z",
+   "strand": "Handwriting & Letter Formation",
+   "science": false
+  },
+  {
+   "id": "K-525",
+   "file": "scripts/worksheet-gen/types/k/K-525-capital-and-small-together.js",
+   "grade": "K",
+   "slug": "capital-and-small-letters-together",
+   "family": "letter-tracing",
+   "variationOf": null,
+   "title": "Capital and Lowercase Letters Together",
+   "instruction": "Trace each capital letter and its lowercase letter side by side, then write them yourself. Start at the orange dot and follow the arrows.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "glyphH",
+    "laneH",
+    "reps",
+    "empty"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/trace-path.js",
+    "./K-238-letter-tracing.js",
+    "./K-238-letter-tracing.js"
+   ],
+   "teachingPoint": "K:letter-formation",
+   "skill": "Trace capital and lowercase letters A–Z",
+   "strand": "Handwriting & Letter Formation",
+   "science": false
+  },
+  {
+   "id": "K-526",
+   "file": "scripts/worksheet-gen/types/k/K-526-letter-formation-cards.js",
+   "grade": "K",
+   "slug": "letter-formation-cards",
+   "family": "letter-tracing",
+   "variationOf": null,
+   "title": "Letter Formation Cards",
+   "instruction": "Each letter starts at the orange dot. Follow the numbers and arrows to see how to write it. Cut out the cards along the dashed lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cols",
+    "n",
+    "glyphH",
+    "cut",
+    "badges"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/trace-path.js",
+    "./K-238-letter-tracing.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:letter-formation",
+   "skill": "Trace capital and lowercase letters A–Z",
+   "strand": "Handwriting & Letter Formation",
+   "science": false
+  },
+  {
+   "id": "K-527",
+   "file": "scripts/worksheet-gen/types/k/K-527-trace-my-sentence.js",
+   "grade": "K",
+   "slug": "trace-a-sentence",
+   "family": "word-tracing",
+   "variationOf": null,
+   "title": "Trace a Sentence",
+   "instruction": "Read the sentence. Trace it on the dashed lines, then write it yourself on the empty lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "glyphH",
+    "laneH",
+    "trace",
+    "empty"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/trace-path.js",
+    "data/tracing/letter-strokes.js",
+    "lib/slot.js"
+   ],
+   "teachingPoint": "K:word-sentence-tracing",
+   "skill": "Trace and copy whole words (first words, long words, capitals, sight words) and short sentences, left to right with spaces between words",
+   "strand": "Handwriting / Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-529",
+   "file": "scripts/worksheet-gen/types/k/K-529-word-shape-boxes.js",
+   "grade": "K",
+   "slug": "word-shape-boxes",
+   "family": "write-the-word",
+   "variationOf": null,
+   "title": "Word Shape Boxes",
+   "instruction": "Say the name of each picture. Write one letter in each box: tall letters in the tall boxes, letters that hang down in the low boxes.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "first",
+    "px",
+    "unit"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "lib/picture-name-refusals.js",
+    "lib/letter-heights.js",
+    "lib/slot.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": "1:spell-picture-words",
+   "skill": "Spell picture words (with first letter, word bank, letter boxes, plain lines)",
+   "strand": "Language / Phonics",
+   "science": false
+  },
+  {
+   "id": "K-530",
+   "file": "scripts/worksheet-gen/types/k/K-530-alphabet-train.js",
+   "grade": "K",
+   "slug": "alphabet-train",
+   "family": "letter-knowledge",
+   "variationOf": null,
+   "title": "Alphabet Train",
+   "instruction": "Write the missing letters on the cars so the alphabet train is in order. The picture on each empty car starts with the missing letter.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "half",
+    "pics",
+    "blanks",
+    "run",
+    "upper",
+    "perRow",
+    "wagonH",
+    "box",
+    "pic",
+    "fs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:alphabet-order",
+   "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-531",
+   "file": "scripts/worksheet-gen/types/k/K-531-alphabet-chart.js",
+   "grade": "K",
+   "slug": "alphabet-chart",
+   "family": "letter-knowledge",
+   "variationOf": null,
+   "title": "Alphabet Chart",
+   "instruction": "Say each letter and the name of its picture. The picture starts with the sound of the letter.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "layout",
+    "words",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:beginning-sounds",
+   "skill": "Identify and sort by the beginning sound (letter of the week, m or n)",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-532",
+   "file": "scripts/worksheet-gen/types/k/K-532-letter-hunt.js",
+   "grade": "K",
+   "slug": "letter-hunt",
+   "family": "letter-knowledge",
+   "variationOf": null,
+   "title": "Letter Hunt",
+   "instruction": "Look at the letter in the box. Find that letter on the balloons, kites, and signs, and circle every one.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "hits",
+    "lookAlikes",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:letter-identification",
+   "skill": "Find every copy of a letter among look-alikes (b / d / p / q); circle and count a letter inside words",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-533",
+   "file": "scripts/worksheet-gen/types/k/K-533-colour-the-vowels.js",
+   "grade": "K",
+   "slug": "colour-the-vowels",
+   "family": "letter-knowledge",
+   "variationOf": null,
+   "title": "Color the Vowels",
+   "instruction": "Say the name of each picture. Color every vowel in the word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "px",
+    "box"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "lib/picture-name-refusals.js",
+    "_shared/alphabet-more.js",
+    "lib/slot.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": "K:vowels-consonants",
+   "skill": "Tell vowels from consonants",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-534",
+   "file": "scripts/worksheet-gen/types/k/K-534-alphabet-cards-to-order.js",
+   "grade": "K",
+   "slug": "alphabet-cards-to-order",
+   "family": "alphabetical-order",
+   "variationOf": null,
+   "title": "ABC Order Cards",
+   "instruction": "Cut out the cards along the dashed lines. Put them in alphabet order and read the letters.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "half",
+    "form",
+    "pics",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:alphabet-order",
+   "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-535",
+   "file": "scripts/worksheet-gen/types/k/K-535-same-first-sound.js",
+   "grade": "K",
+   "slug": "same-first-sound",
+   "family": "beginning-sounds",
+   "variationOf": null,
+   "title": "Same First Sound?",
+   "instruction": "Say the names of the two pictures. If they start with the same sound, circle the check mark. If not, circle the X.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "same",
+    "near",
+    "px",
+    "chip"
+   ],
+   "interactive": false,
+   "uses": [
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-536",
+   "file": "scripts/worksheet-gen/types/k/K-536-beginning-sound-clip-cards.js",
+   "grade": "K",
+   "slug": "beginning-sound-clip-cards",
+   "family": "beginning-sounds",
+   "variationOf": null,
+   "title": "Beginning Sound Clip Cards",
+   "instruction": "Cut out the cards. Say the name of each picture and clip a clothespin on the letter of its first sound.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "cols",
+    "upper",
+    "lookAlike"
+   ],
+   "interactive": false,
+   "uses": [
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-537",
+   "file": "scripts/worksheet-gen/types/k/K-537-rhyme-memory-cards.js",
+   "grade": "K",
+   "slug": "rhyme-memory-cards",
+   "family": "rhyming-words",
+   "variationOf": null,
+   "title": "Rhyme Memory Cards",
+   "instruction": "Cut out the cards and turn them face down. Turn over two cards: if the pictures rhyme, keep them!",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "cols",
+    "words"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "image-cache/resolve.js",
+    "_shared/key-number.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-538",
+   "file": "scripts/worksheet-gen/types/k/K-538-which-does-not-rhyme.js",
+   "grade": "K",
+   "slug": "which-does-not-rhyme",
+   "family": "rhyming-words",
+   "variationOf": null,
+   "title": "Which One Does Not Rhyme?",
+   "instruction": "Say the names of the three pictures. Two of them rhyme. Circle the one that does not rhyme.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "near",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-539",
+   "file": "scripts/worksheet-gen/types/k/K-539-rhyme-dominoes.js",
+   "grade": "K",
+   "slug": "rhyme-dominoes",
+   "family": "rhyming-words",
+   "variationOf": null,
+   "title": "Rhyme Dominoes",
+   "instruction": "Cut out the dominoes. Lay them in a ring: the picture on the right of each domino rhymes with the picture on the left of the next one.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "tiles",
+    "words"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "image-cache/resolve.js",
+    "_shared/key-number.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-540",
+   "file": "scripts/worksheet-gen/types/k/K-540-syllable-family-chart.js",
+   "grade": "K",
+   "slug": "syllable-family-chart",
+   "family": "syllable-reading",
+   "variationOf": null,
+   "title": "Syllable Family",
+   "instruction": "Read each syllable and the word of its picture.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "task"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-name-refusals.js",
+    "primitives/trace-path.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-541",
+   "file": "scripts/worksheet-gen/types/k/K-541-clap-and-count.js",
+   "grade": "K",
+   "slug": "clap-and-count",
+   "family": "syllable-split",
+   "variationOf": null,
+   "title": "Clap and Count",
+   "instruction": "Say each word and clap its syllables. Color one circle for each clap, then write how many claps you made.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "rows",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-name-refusals.js",
+    "lib/slot.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-542",
+   "file": "scripts/worksheet-gen/types/k/K-542-picture-memory-cards.js",
+   "grade": "K",
+   "slug": "picture-memory-cards",
+   "family": "picture-word-cards",
+   "variationOf": null,
+   "title": "Picture Memory Cards",
+   "instruction": "Cut out the cards and turn them face down. Turn over two cards: if they go together, keep them!",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "cols",
+    "kind"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-word-pool.js",
+    "image-cache/resolve.js",
+    "_shared/key-number.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-543",
+   "file": "scripts/worksheet-gen/types/k/K-543-word-wall-labels.js",
+   "grade": "K",
+   "slug": "word-wall-labels",
+   "family": "picture-word-cards",
+   "variationOf": null,
+   "title": "Word Wall Labels",
+   "instruction": "Cut out the labels along the dashed lines and hang them on the word wall.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "labels",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-word-pool.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-544",
+   "file": "scripts/worksheet-gen/types/k/K-544-picture-dictionary.js",
+   "grade": "K",
+   "slug": "picture-dictionary",
+   "family": "picture-vocabulary",
+   "variationOf": null,
+   "title": "My Picture Dictionary",
+   "instruction": "Read the words in alphabetical order. Say the name of each picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "cols",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-word-pool.js",
+    "data/b2/collation.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-545",
+   "file": "scripts/worksheet-gen/types/k/K-545-cut-and-paste-words.js",
+   "grade": "K",
+   "slug": "cut-and-paste-words",
+   "family": "picture-vocabulary",
+   "variationOf": null,
+   "title": "Cut and Paste the Words",
+   "instruction": "Cut out the words at the bottom. Glue each word in the box under its picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "cols",
+    "extra",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/picture-word-pool.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-546",
+   "file": "scripts/worksheet-gen/types/k/K-546-read-and-draw-positions.js",
+   "grade": "K",
+   "slug": "read-and-draw-positions",
+   "family": "position-words",
+   "variationOf": null,
+   "title": "Read and Draw",
+   "instruction": "Read each sentence. Draw the picture in the right place next to the shape.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/position-scenes.js",
+    "_shared/position-items.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-547",
+   "file": "scripts/worksheet-gen/types/k/K-547-where-is-it-write.js",
+   "grade": "K",
+   "slug": "where-is-it-write",
+   "family": "position-words",
+   "variationOf": null,
+   "title": "Where Is It?",
+   "instruction": "Look at each picture. Write the missing position word. The words in the box can help you.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/position-scenes.js",
+    "_shared/position-items.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-548",
+   "file": "scripts/worksheet-gen/types/k/K-548-choose-the-position-word.js",
+   "grade": "K",
+   "slug": "choose-the-position-word",
+   "family": "position-words",
+   "variationOf": null,
+   "title": "Choose the Position Word",
+   "instruction": "Look at each picture. Circle the word that fits in the sentence.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/position-scenes.js",
+    "_shared/position-items.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-549",
+   "file": "scripts/worksheet-gen/types/k/K-549-read-and-glue-positions.js",
+   "grade": "K",
+   "slug": "read-and-glue-positions",
+   "family": "position-words",
+   "variationOf": null,
+   "title": "Read and Glue",
+   "instruction": "Cut out the pictures at the bottom. Read each sentence and glue the picture on the right spot.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/position-scenes.js",
+    "_shared/position-items.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-550",
+   "file": "scripts/worksheet-gen/types/k/K-550-name-the-group.js",
+   "grade": "K",
+   "slug": "name-the-group",
+   "family": "picture-vocabulary",
+   "variationOf": null,
+   "title": "Name the Group",
+   "instruction": "Look at the pictures in each row. What group do they belong to? Write the word.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "groups",
+    "pics",
+    "bank",
+    "extra",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/word-meaning/word-meaning-new.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-551",
+   "file": "scripts/worksheet-gen/types/k/K-551-opposites-memory-and-dominoes.js",
+   "grade": "K",
+   "slug": "opposites-memory-and-dominoes",
+   "family": "opposites",
+   "variationOf": null,
+   "title": "Opposite Cards",
+   "instruction": "Cut out the cards and turn them face down. Turn over two cards: if they are opposites, keep them!",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "cols",
+    "pics",
+    "dominoes"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "image-cache/resolve.js",
+    "_shared/key-number.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-552",
+   "file": "scripts/worksheet-gen/types/k/K-552-sentence-strips.js",
+   "grade": "K",
+   "slug": "sentence-strips",
+   "family": "sentence-building",
+   "variationOf": null,
+   "title": "Sentence Strips",
+   "instruction": "Read the sentence. Cut the words apart, mix them up and put the sentence back together. Glue it on the empty strip.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "font",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/sentence-bank.js",
+    "_shared/sentence-items.js",
+    "lib/slot.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-553",
+   "file": "scripts/worksheet-gen/types/k/K-553-rebus-sentences.js",
+   "grade": "K",
+   "slug": "rebus-sentences",
+   "family": "sentence-building",
+   "variationOf": null,
+   "title": "Picture Sentences",
+   "instruction": "Read each sentence. Write the word for the picture in the box.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "line",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sentence-items.js",
+    "primitives/trace-path.js",
+    "lib/key-on-row.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-554",
+   "file": "scripts/worksheet-gen/types/k/K-554-reading-log.js",
+   "grade": "K",
+   "slug": "reading-log",
+   "family": "reading-comprehension",
+   "variationOf": null,
+   "title": "My Reading Log",
+   "instruction": "Fill in the page about the book you read. Color the stars to show how much you liked it.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "fields",
+    "fav",
+    "draw"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/reading/reading-new.js",
+    "primitives/trace-path.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-555",
+   "file": "scripts/worksheet-gen/types/k/K-555-caption-the-picture.js",
+   "grade": "K",
+   "slug": "write-about-the-picture",
+   "family": "picture-writing",
+   "variationOf": null,
+   "title": "Write About the Picture",
+   "instruction": "Look at each picture. Write a sentence about it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "form",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-name-refusals.js",
+    "_shared/characters.js",
+    "lib/slot.js",
+    "_shared/writing-frames.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-556",
+   "file": "scripts/worksheet-gen/types/k/K-556-numeral-word-quantity.js",
+   "grade": "K",
+   "slug": "number-word-and-picture",
+   "family": "number-words",
+   "variationOf": null,
+   "title": "Number, Word and Picture",
+   "instruction": "Draw a line from each number to its word. Then draw a line from each word to its picture.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "n",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/ten-frame.js",
+    "lib/number-words-1000.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-557",
+   "file": "scripts/worksheet-gen/types/k/K-557-number-word-cards.js",
+   "grade": "K",
+   "slug": "number-word-cards",
+   "family": "number-words",
+   "variationOf": null,
+   "title": "Number Word Cards",
+   "instruction": "Cut out the cards. Put them on the word wall, or cut along the dashed lines and match the number, the word and the picture.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "nums",
+    "frames"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/ten-frame.js",
+    "lib/number-words-1000.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-558",
+   "file": "scripts/worksheet-gen/types/k/K-558-which-shelf.js",
+   "grade": "K",
+   "slug": "which-shelf",
+   "family": "ordinal-numbers",
+   "variationOf": null,
+   "title": "Which Shelf?",
+   "instruction": "Count the shelves from the bottom. Answer each question: circle the right picture or the right shelf.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "shelves",
+    "labels",
+    "q"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-name-refusals.js",
+    "data/ordinal-numbers/shelf.js",
+    "_shared/ordinal-more.js",
+    "lib/b3-common.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-560",
+   "file": "scripts/worksheet-gen/types/k/K-560-letter-tiles-and-word-mats.js",
+   "grade": "K",
+   "slug": "letter-tiles-and-word-mats",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Letter Tiles and Word Mats",
+   "instruction": "Cut out the letter tiles. Say the name of each picture and build its word on the mat.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-561",
+   "file": "scripts/worksheet-gen/types/k/K-561-count-and-write-the-plural.js",
+   "grade": "K",
+   "slug": "count-and-write-the-plural",
+   "family": "singular-plural",
+   "variationOf": null,
+   "title": "Count and Write the Plural",
+   "instruction": "Count the pictures in each box. Write the number word and the word for many.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "lo",
+    "hi",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/noun-forms.js",
+    "lib/number-words-1000.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-562",
+   "file": "scripts/worksheet-gen/types/k/K-562-one-or-many.js",
+   "grade": "K",
+   "slug": "one-or-many",
+   "family": "singular-plural",
+   "variationOf": null,
+   "title": "One or Many?",
+   "instruction": "Read the word. Circle the group that shows it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "groups"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/noun-forms.js",
+    "data/b2/labels.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-563",
+   "file": "scripts/worksheet-gen/types/k/K-563-room-plan-from-above.js",
+   "grade": "K",
+   "slug": "room-plan-from-above",
+   "family": "maps",
+   "variationOf": null,
+   "title": "The Room from Above",
+   "instruction": "Each thing is drawn from the side. Draw a line to the same thing in the room seen from above.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "turn"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/top-side-view.js",
+    "data/b5/maps.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-564",
+   "file": "scripts/worksheet-gen/types/k/K-564-feelings-week.js",
+   "grade": "K",
+   "slug": "my-feelings-this-week",
+   "family": "feelings",
+   "variationOf": null,
+   "title": "My Feelings This Week",
+   "instruction": "Every day, color the circle of the feeling you have.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ids",
+    "because"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/b3-common.js",
+    "data/b2/calendar.js",
+    "data/feelings/feelings-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-565",
+   "file": "scripts/worksheet-gen/types/k/K-565-feelings-thermometer.js",
+   "grade": "K",
+   "slug": "feelings-thermometer",
+   "family": "feelings",
+   "variationOf": null,
+   "title": "Feelings Thermometer",
+   "instruction": "How strong is the feeling? Color the thermometer up to how strong it is.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "steps",
+    "helps"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/b3-common.js",
+    "data/feelings/feelings-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-566",
+   "file": "scripts/worksheet-gen/types/k/K-566-feelings-cards.js",
+   "grade": "K",
+   "slug": "feelings-cards",
+   "family": "feelings",
+   "variationOf": null,
+   "title": "Feelings Cards",
+   "instruction": "Cut out the cards. Use them to talk about feelings.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/b3-common.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-567",
+   "file": "scripts/worksheet-gen/types/k/K-567-picture-word-search.js",
+   "grade": "K",
+   "slug": "picture-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Picture Word Search",
+   "instruction": "Say the name of each picture. Find its word in the grid and circle it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-568",
+   "file": "scripts/worksheet-gen/types/k/K-568-number-word-search.js",
+   "grade": "K",
+   "slug": "number-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Number Word Search",
+   "instruction": "Read each number. Find its number word in the grid and circle it.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs",
+    "lo",
+    "hi"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-569",
+   "file": "scripts/worksheet-gen/types/k/K-569-picture-bingo.js",
+   "grade": "K",
+   "slug": "picture-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Picture Bingo",
+   "instruction": "Listen to each word. If its picture is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "cap",
+    "both"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-570",
+   "file": "scripts/worksheet-gen/types/k/K-570-sight-word-bingo.js",
+   "grade": "K",
+   "slug": "sight-word-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Sight Word Bingo",
+   "instruction": "Listen to each word. If the word is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-571",
+   "file": "scripts/worksheet-gen/types/k/K-571-letter-sound-bingo.js",
+   "grade": "K",
+   "slug": "letter-sound-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Letter Sound Bingo",
+   "instruction": "Listen to each word and its first sound. If the letter for that sound is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "lower"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-572",
+   "file": "scripts/worksheet-gen/types/k/K-572-number-word-bingo.js",
+   "grade": "K",
+   "slug": "number-word-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Number Word Bingo",
+   "instruction": "Listen to each number. If it is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to",
+    "words"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-573",
+   "file": "scripts/worksheet-gen/types/k/K-573-shape-and-color-bingo.js",
+   "grade": "K",
+   "slug": "shape-and-color-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Shape and Color Bingo",
+   "instruction": "Listen to each shape and its color. If it is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-574",
+   "file": "scripts/worksheet-gen/types/k/K-574-picture-bingo-caller-cards.js",
+   "grade": "K",
+   "slug": "picture-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Picture Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and say its word. Keep the cards you have called to check each Bingo.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "cap",
+    "both",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-575",
+   "file": "scripts/worksheet-gen/types/k/K-575-sight-word-bingo-caller-cards.js",
+   "grade": "K",
+   "slug": "sight-word-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Sight Word Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and read its word aloud. Keep the cards you have called to check each Bingo.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-576",
+   "file": "scripts/worksheet-gen/types/k/K-576-letter-sound-bingo-caller-cards.js",
+   "grade": "K",
+   "slug": "letter-sound-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Letter Sound Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and say its word, not the letter. Keep the cards you have called to check each Bingo.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "lower",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-577",
+   "file": "scripts/worksheet-gen/types/k/K-577-number-word-bingo-caller-cards.js",
+   "grade": "K",
+   "slug": "number-word-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Number Word Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and read the number aloud. Keep the cards you have called to check each Bingo.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to",
+    "words",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-578",
+   "file": "scripts/worksheet-gen/types/k/K-578-shape-and-color-bingo-caller-cards.js",
+   "grade": "K",
+   "slug": "shape-and-color-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Shape and Color Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and read the shape and its color aloud. Keep the cards you have called to check each Bingo.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
    "science": false
   },
   {
@@ -12453,6 +15177,7 @@
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/collation.js",
+    "data/tracing/letter-strokes.js",
     "lib/picture-word-review.js"
    ],
    "teachingPoint": "1:spell-picture-words",
@@ -20193,6 +22918,1730 @@
    "science": false
   },
   {
+   "id": "G1-487",
+   "file": "scripts/worksheet-gen/types/g1/G1-487-color-by-odd-and-even.js",
+   "grade": "G1",
+   "slug": "color-by-odd-and-even",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Color by Odd and Even",
+   "instruction": "Is the number in each shape even or odd? Color the shape with that color in the key.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "mode",
+    "codes",
+    "items",
+    "size",
+    "range"
+   ],
+   "interactive": false,
+   "uses": [
+    "k/K-241-color-by-code.js"
+   ],
+   "teachingPoint": "1:odd-even-pairs",
+   "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-488",
+   "file": "scripts/worksheet-gen/types/g1/G1-488-color-and-write-a-sentence.js",
+   "grade": "G1",
+   "slug": "color-and-write-a-sentence",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color and Write a Sentence",
+   "instruction": "Color the picture. Then write about it. Use the sentence starters to help you begin.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px",
+    "rows",
+    "rowH",
+    "glyphH",
+    "starters"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/coloring-page.js"
+   ],
+   "teachingPoint": "2:describe-a-picture",
+   "skill": "Write sentences about a picture using a word bank and sentence starters",
+   "strand": "Writing",
+   "science": false
+  },
+  {
+   "id": "G1-489",
+   "file": "scripts/worksheet-gen/types/g1/G1-489-which-tangram-can-you-build.js",
+   "grade": "G1",
+   "slug": "which-tangram-can-you-build",
+   "family": "tangram",
+   "variationOf": null,
+   "title": "Which Figure Can You Build?",
+   "instruction": "Look at the pieces in each row. Circle the one shadow you can build with exactly these pieces.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "S",
+    "pieces",
+    "from"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/tangram.js",
+    "data/b4/tangram-figures.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "1:tangram-compose",
+   "skill": "Compose figures from tangram pieces; find the missing piece",
+   "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "G1-490",
+   "file": "scripts/worksheet-gen/types/g1/G1-490-label-the-pictures.js",
+   "grade": "G1",
+   "slug": "label-the-pictures",
+   "family": "write-the-word",
+   "variationOf": null,
+   "title": "Label the Pictures",
+   "instruction": "Write the name of each picture on the line under it. The word bank can help you.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "cols",
+    "px",
+    "bank",
+    "maxLetters",
+    "lineW",
+    "fs"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "lib/picture-name-refusals.js",
+    "templates/components-b2.js",
+    "data/b2/collation.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "1:spell-picture-words",
+   "skill": "Spell picture words (with first letter, word bank, letter boxes, plain lines)",
+   "strand": "Language / Phonics",
+   "science": false
+  },
+  {
+   "id": "G1-491",
+   "file": "scripts/worksheet-gen/types/g1/G1-491-my-word-book.js",
+   "grade": "G1",
+   "slug": "my-word-book",
+   "family": "write-the-word",
+   "variationOf": null,
+   "title": "My Word Book",
+   "instruction": "Write the name of each picture on the first line. Then write a sentence of your own about it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "px",
+    "trace",
+    "lines",
+    "wordH",
+    "glyphH",
+    "lineH",
+    "maxLetters"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-word-review.js",
+    "lib/picture-name-refusals.js",
+    "primitives/trace-path.js",
+    "templates/components-b2.js",
+    "lib/slot.js"
+   ],
+   "teachingPoint": "1:spell-picture-words",
+   "skill": "Spell picture words (with first letter, word bank, letter boxes, plain lines)",
+   "strand": "Language / Phonics",
+   "science": false
+  },
+  {
+   "id": "G1-492",
+   "file": "scripts/worksheet-gen/types/g1/G1-492-letter-before-and-after.js",
+   "grade": "G1",
+   "slug": "letter-before-and-after",
+   "family": "alphabetical-order",
+   "variationOf": null,
+   "title": "Letter Before and After",
+   "instruction": "Write the letter that comes before the letter, and the letter that comes after it in the alphabet.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "side",
+    "strip"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "K:alphabet-order",
+   "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+   "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "G1-493",
+   "file": "scripts/worksheet-gen/types/g1/G1-493-blends.js",
+   "grade": "G1",
+   "slug": "blends",
+   "family": "digraphs",
+   "variationOf": null,
+   "title": "Blends",
+   "instruction": "Say the name of each picture. Write the two letters it starts with.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "task",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/literacy/blends.json",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-494",
+   "file": "scripts/worksheet-gen/types/g1/G1-494-letters-and-sounds.js",
+   "grade": "G1",
+   "slug": "letters-and-sounds",
+   "family": "sound-boxes",
+   "variationOf": null,
+   "title": "Letters and Sounds",
+   "instruction": "Read each word. Count its letters (Aa) and the sounds you hear (ear). Write both numbers.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "min",
+    "max",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-name-refusals.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-495",
+   "file": "scripts/worksheet-gen/types/g1/G1-495-long-or-short-vowel.js",
+   "grade": "G1",
+   "slug": "long-or-short-vowel",
+   "family": "phonological-awareness",
+   "variationOf": null,
+   "title": "Long or Short Vowel?",
+   "instruction": "Say each word. Is the colored vowel long or short? Circle the line if it is long and the dot if it is short.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "twoSyl",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-name-refusals.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js",
+    "templates/layouts/card-grid.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-496",
+   "file": "scripts/worksheet-gen/types/g1/G1-496-syllable-puzzles.js",
+   "grade": "G1",
+   "slug": "syllable-puzzles",
+   "family": "syllable-split",
+   "variationOf": null,
+   "title": "Syllable Puzzles",
+   "instruction": "Cut out the pieces along the dashed lines. Mix them up, then put each word back together, syllable by syllable.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "words",
+    "minCount",
+    "maxCount",
+    "maxLetters",
+    "h"
+   ],
+   "interactive": false,
+   "uses": [
+    "./G1-305-syllable-split.js",
+    "image-cache/resolve.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-497",
+   "file": "scripts/worksheet-gen/types/g1/G1-497-word-classes-in-sentences.js",
+   "grade": "G1",
+   "slug": "word-classes-in-sentences",
+   "family": "word-classes",
+   "variationOf": null,
+   "title": "Parts of Speech in Sentences",
+   "instruction": "Read each sentence. Circle every noun. Names are nouns too.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "find"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/grammar/grammar-tables.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-498",
+   "file": "scripts/worksheet-gen/types/g1/G1-498-capital-letters.js",
+   "grade": "G1",
+   "slug": "capital-letters",
+   "family": "capitals-punctuation",
+   "variationOf": null,
+   "title": "Capital Letters",
+   "instruction": "Read each sentence. Circle every word that needs a capital letter.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "rewrite"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/grammar/grammar-tables.js",
+    "primitives/trace-path.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-499",
+   "file": "scripts/worksheet-gen/types/g1/G1-499-diminutives.js",
+   "grade": "G1",
+   "slug": "diminutives",
+   "family": "word-parts",
+   "variationOf": null,
+   "title": "Little Words",
+   "instruction": "Write the small form of each word.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/word-meaning/word-meaning-new.js",
+    "lib/b2-common.js",
+    "_shared/pic-by-key.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-500",
+   "file": "scripts/worksheet-gen/types/g1/G1-500-open-cloze.js",
+   "grade": "G1",
+   "slug": "open-cloze",
+   "family": "cloze",
+   "variationOf": null,
+   "title": "Fill in the Blank",
+   "instruction": "Read each sentence. Look at the picture and write the missing word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "letters",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sentence-items.js",
+    "lib/slot.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-501",
+   "file": "scripts/worksheet-gen/types/g1/G1-501-sentence-or-not.js",
+   "grade": "G1",
+   "slug": "sentence-or-not",
+   "family": "sentence-building",
+   "variationOf": null,
+   "title": "Sentence or Not?",
+   "instruction": "Read each group of words. Circle the check if it is a whole sentence. Circle the X if it is not.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "vp",
+    "finish"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sentence-items.js",
+    "primitives/trace-path.js",
+    "lib/key-on-row.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-502",
+   "file": "scripts/worksheet-gen/types/g1/G1-502-sentence-halves.js",
+   "grade": "G1",
+   "slug": "sentence-halves",
+   "family": "sentence-building",
+   "variationOf": null,
+   "title": "Sentence Halves",
+   "instruction": "Draw a line from each beginning to the end that goes with it. The pictures help you.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sentence-items.js",
+    "_shared/pic-by-key.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-503",
+   "file": "scripts/worksheet-gen/types/g1/G1-503-stretch-the-sentence.js",
+   "grade": "G1",
+   "slug": "stretch-the-sentence",
+   "family": "sentence-building",
+   "variationOf": null,
+   "title": "Stretch the Sentence",
+   "instruction": "Read the short sentence. Answer the questions on the short lines. Then write a longer sentence with your answers.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "q"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sentence-items.js",
+    "primitives/trace-path.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-504",
+   "file": "scripts/worksheet-gen/types/g1/G1-504-my-passage-my-questions.js",
+   "grade": "G1",
+   "slug": "read-and-answer",
+   "family": "reading-comprehension",
+   "variationOf": null,
+   "title": "Read and Answer",
+   "instruction": "Read the text. Answer each question on the line.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/reading/reading-new.js",
+    "primitives/trace-path.js",
+    "lib/key-on-row.js",
+    "lib/slot.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-505",
+   "file": "scripts/worksheet-gen/types/g1/G1-505-right-answer-or-not.js",
+   "grade": "G1",
+   "slug": "right-answer-or-not",
+   "family": "reading-comprehension",
+   "variationOf": null,
+   "title": "Right Answer or Not?",
+   "instruction": "Read the story. Then read each question and its answer. Circle the check if the answer is right. Circle the X if it is wrong.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/reading/reading-new.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-506",
+   "file": "scripts/worksheet-gen/types/g1/G1-506-story-map.js",
+   "grade": "G1",
+   "slug": "story-map",
+   "family": "story-writing",
+   "variationOf": null,
+   "title": "Story Map",
+   "instruction": "Plan your story. Draw and write what happens at the beginning, in the middle and at the end.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "parts",
+    "lines",
+    "draw"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/writing/stories-new.js",
+    "_shared/writing-frames.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-507",
+   "file": "scripts/worksheet-gen/types/g1/G1-507-comic-strip.js",
+   "grade": "G1",
+   "slug": "comic-strip",
+   "family": "story-writing",
+   "variationOf": null,
+   "title": "Comic Strip",
+   "instruction": "Look at each picture. Write what the characters say in the speech bubbles.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "frames",
+    "cols",
+    "caption"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "lib/picture-name-refusals.js",
+    "_shared/characters.js",
+    "lib/slot.js",
+    "_shared/writing-frames.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-508",
+   "file": "scripts/worksheet-gen/types/g1/G1-508-roll-a-story.js",
+   "grade": "G1",
+   "slug": "roll-a-story",
+   "family": "story-writing",
+   "variationOf": null,
+   "title": "Roll a Story",
+   "instruction": "Roll a die for each column. Then write a story with what you rolled.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cols",
+    "lines",
+    "rowH"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/writing/stories-new.js",
+    "lib/b2-common.js",
+    "_shared/pic-by-key.js",
+    "primitives/dice.js",
+    "_shared/writing-frames.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-509",
+   "file": "scripts/worksheet-gen/types/g1/G1-509-describe-the-character.js",
+   "grade": "G1",
+   "slug": "describe-the-character",
+   "family": "story-writing",
+   "variationOf": null,
+   "title": "Describe the Character",
+   "instruction": "Look at the picture. Finish the sentences about your character. The words in the box can help you.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "starters",
+    "bank",
+    "free"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/writing/stories-new.js",
+    "lib/b3-common.js",
+    "lib/b2-common.js",
+    "lib/picture-name-refusals.js",
+    "_shared/characters.js",
+    "lib/slot.js",
+    "_shared/writing-frames.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-510",
+   "file": "scripts/worksheet-gen/types/g1/G1-510-postcard.js",
+   "grade": "G1",
+   "slug": "write-a-postcard",
+   "family": "story-writing",
+   "variationOf": null,
+   "title": "Write a Postcard",
+   "instruction": "Write a postcard to someone you love. Write their name after the greeting and your name at the end.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lines",
+    "card"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/writing/stories-new.js",
+    "_shared/writing-frames.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-511",
+   "file": "scripts/worksheet-gen/types/g1/G1-511-compare-word-problems.js",
+   "grade": "G1",
+   "slug": "compare-word-problems",
+   "family": "word-problems",
+   "variationOf": "G1-213",
+   "title": "Compare Word Problems",
+   "instruction": "Read each story. Compare the two rows of pictures. Write how many more or how many fewer in the box.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "max",
+    "iconMax",
+    "problems",
+    "kinds",
+    "newPage"
+   ],
+   "interactive": true,
+   "uses": [
+    "./G1-213-word-problems.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-512",
+   "file": "scripts/worksheet-gen/types/g1/G1-512-story-to-number-sentence.js",
+   "grade": "G1",
+   "slug": "which-number-sentence",
+   "family": "word-problems",
+   "variationOf": null,
+   "title": "Which Number Sentence?",
+   "instruction": "Read each story. Circle the number sentence that tells the story.",
+   "assetClass": "none",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "max",
+    "iconMax",
+    "choices",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/word-problems-levelset.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-513",
+   "file": "scripts/worksheet-gen/types/g1/G1-513-write-a-story-for-the-sum.js",
+   "grade": "G1",
+   "slug": "write-a-story-for-the-number-sentence",
+   "family": "word-problems",
+   "variationOf": null,
+   "title": "Write a Story for the Number Sentence",
+   "instruction": "Look at each number sentence. Write a story that fits it. You can tell it about the picture.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "kinds",
+    "max",
+    "iconMax",
+    "lines"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/word-problems-levelset.js",
+    "_shared/writing-frames.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-514",
+   "file": "scripts/worksheet-gen/types/g1/G1-514-write-numbers-and-words.js",
+   "grade": "G1",
+   "slug": "write-numbers-and-number-words",
+   "family": "number-words",
+   "variationOf": null,
+   "title": "Write It Both Ways",
+   "instruction": "Write each number word as a number. Write each number as a word.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "n",
+    "boxW",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/number-words-1000.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-515",
+   "file": "scripts/worksheet-gen/types/g1/G1-515-ordinal-numbers-to-31.js",
+   "grade": "G1",
+   "slug": "ordinal-numbers-to-31",
+   "family": "ordinal-numbers",
+   "variationOf": null,
+   "title": "Ordinal Numbers to 31",
+   "instruction": "Write each ordinal number as a word. Write each word as an ordinal number.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "n",
+    "boxW",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/ordinal-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-516",
+   "file": "scripts/worksheet-gen/types/g1/G1-516-ordinal-symbol-and-word.js",
+   "grade": "G1",
+   "slug": "ordinal-symbol-and-word",
+   "family": "ordinal-numbers",
+   "variationOf": null,
+   "title": "Ordinal Numbers: Symbol and Word",
+   "instruction": "Draw a line from each ordinal number to its word.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "n"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/ordinal-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-517",
+   "file": "scripts/worksheet-gen/types/g1/G1-517-word-scramble.js",
+   "grade": "G1",
+   "slug": "word-scramble",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Word Scramble",
+   "instruction": "Look at each picture. Put the letters in the right order and write the word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "vowels"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-518",
+   "file": "scripts/worksheet-gen/types/g1/G1-518-word-guess.js",
+   "grade": "G1",
+   "slug": "missing-letters",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Missing Letters",
+   "instruction": "Look at each picture. Write the missing letters to finish the word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "mode"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-519",
+   "file": "scripts/worksheet-gen/types/g1/G1-519-look-cover-write-check.js",
+   "grade": "G1",
+   "slug": "look-cover-write-check",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Look, Cover, Write, Check",
+   "instruction": "Read each word. Fold the page on the dashed line to cover it. Write the word, then write it again. Unfold and check.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "tries",
+    "pics",
+    "min",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "data/spelling/look-cover.js",
+    "primitives/trace-path.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-520",
+   "file": "scripts/worksheet-gen/types/g1/G1-520-missing-vowels.js",
+   "grade": "G1",
+   "slug": "missing-vowels",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Missing Vowels",
+   "instruction": "Look at each picture. Write the missing vowels to finish the word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "help",
+    "plain"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-521",
+   "file": "scripts/worksheet-gen/types/g1/G1-521-ordinal-number-cards.js",
+   "grade": "G1",
+   "slug": "ordinal-number-cards",
+   "family": "ordinal-numbers",
+   "variationOf": null,
+   "title": "Ordinal Number Cards",
+   "instruction": "Cut out the cards. Put them in order, or cut along the dashed lines and match the number, the word and the picture.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "from",
+    "dots"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/ordinal-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-522",
+   "file": "scripts/worksheet-gen/types/g1/G1-522-article-one-and-many.js",
+   "grade": "G1",
+   "slug": "article-one-and-many",
+   "family": "articles",
+   "variationOf": null,
+   "title": "One and Many with the Article",
+   "instruction": "Look at each picture. Write the missing words for one and for many.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "mode"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/noun-forms.js",
+    "data/b2/labels.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-523",
+   "file": "scripts/worksheet-gen/types/g1/G1-523-a-or-the.js",
+   "grade": "G1",
+   "slug": "a-or-the",
+   "family": "articles",
+   "variationOf": null,
+   "title": "A or The?",
+   "instruction": "Read the two sentences. Circle the words that fit each one.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 2,
+   "params": [
+    "n",
+    "task",
+    "hard"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/noun-forms.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-524",
+   "file": "scripts/worksheet-gen/types/g1/G1-524-fill-in-the-calendar.js",
+   "grade": "G1",
+   "slug": "fill-in-the-calendar",
+   "family": "calendar",
+   "variationOf": null,
+   "title": "Fill In the Calendar",
+   "instruction": "Write the missing dates of the month in the calendar.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "given"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/calendar.js",
+    "data/b2/calendar.js",
+    "data/b2/labels.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-525",
+   "file": "scripts/worksheet-gen/types/g1/G1-525-birthday-graph.js",
+   "grade": "G1",
+   "slug": "birthday-graph",
+   "family": "calendar",
+   "variationOf": null,
+   "title": "Our Birthday Graph",
+   "instruction": "Ask your classmates their birthday month. Color one box above each child's month. Count the colored boxes in each month.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "boxes",
+    "qs"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/b2/calendar.js",
+    "data/calendar/calendar-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-526",
+   "file": "scripts/worksheet-gen/types/g1/G1-526-todays-date.js",
+   "grade": "G1",
+   "slug": "todays-date",
+   "family": "calendar",
+   "variationOf": null,
+   "title": "Today's Date",
+   "instruction": "Look at today's calendar page. Write the date in numbers.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "sentence",
+    "around"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/calendar.js",
+    "data/b2/calendar.js",
+    "data/calendar/calendar-new.js",
+    "primitives/_tokens.js",
+    "./G1-524-fill-in-the-calendar.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-527",
+   "file": "scripts/worksheet-gen/types/g1/G1-527-weekday-timetable.js",
+   "grade": "G1",
+   "slug": "our-week-at-school",
+   "family": "days-and-months",
+   "variationOf": null,
+   "title": "Our Week at School",
+   "instruction": "Read the timetable. Answer each question.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "twice",
+    "dayAs",
+    "qs"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "data/b2/calendar.js",
+    "data/calendar/calendar-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-528",
+   "file": "scripts/worksheet-gen/types/g1/G1-528-treasure-hunt-follow-the-steps.js",
+   "grade": "G1",
+   "slug": "treasure-hunt-follow-the-steps",
+   "family": "maps",
+   "variationOf": null,
+   "title": "Treasure Hunt: Follow the Steps",
+   "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "steps",
+    "compass"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-refusals.js",
+    "primitives/compass-rose.js",
+    "lib/b5-common.js",
+    "data/maps/maps-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-529",
+   "file": "scripts/worksheet-gen/types/g1/G1-529-give-the-directions.js",
+   "grade": "G1",
+   "slug": "give-the-directions",
+   "family": "maps",
+   "variationOf": null,
+   "title": "Give the Directions",
+   "instruction": "Follow the path from the first picture. For each part, circle the way and write how many squares.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "parts",
+    "compass"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-refusals.js",
+    "primitives/compass-rose.js",
+    "lib/b5-common.js",
+    "data/maps/maps-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-530",
+   "file": "scripts/worksheet-gen/types/g1/G1-530-draw-your-own-map.js",
+   "grade": "G1",
+   "slug": "draw-your-own-map",
+   "family": "maps",
+   "variationOf": null,
+   "title": "Draw Your Own Map",
+   "instruction": "Draw a map. In the key, draw each symbol you used and write what it means.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "plate",
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "primitives/compass-rose.js",
+    "primitives/island-map.js",
+    "lib/b5-common.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-531",
+   "file": "scripts/worksheet-gen/types/g1/G1-531-my-friend-and-me.js",
+   "grade": "G1",
+   "slug": "my-friend-and-me",
+   "family": "all-about-me",
+   "variationOf": null,
+   "title": "My Friend and Me",
+   "instruction": "Work with a friend. Draw or write what is only yours, only your friend's, and what you share.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "ideas",
+    "frames"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/feelings/feelings-new.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-532",
+   "file": "scripts/worksheet-gen/types/g1/G1-532-word-search.js",
+   "grade": "G1",
+   "slug": "word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Word Search",
+   "instruction": "Find each word of the list in the grid. Circle it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-533",
+   "file": "scripts/worksheet-gen/types/g1/G1-533-shape-word-search.js",
+   "grade": "G1",
+   "slug": "shape-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Shape Word Search",
+   "instruction": "Find each word of the list in the shape. Circle it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs",
+    "shape"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-534",
+   "file": "scripts/worksheet-gen/types/g1/G1-534-two-language-word-search.js",
+   "grade": "G1",
+   "slug": "two-language-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Two-Language Word Search",
+   "instruction": "Read each word and look at its picture. Find the English word in the grid and circle it.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-535",
+   "file": "scripts/worksheet-gen/types/g1/G1-535-picture-crossword.js",
+   "grade": "G1",
+   "slug": "picture-crossword",
+   "family": "crossword",
+   "variationOf": null,
+   "title": "Picture Crossword",
+   "instruction": "Look at each numbered picture. Write its word in the boxes with the same number.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "k",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/crossword.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-536",
+   "file": "scripts/worksheet-gen/types/g1/G1-536-arrow-word-puzzle.js",
+   "grade": "G1",
+   "slug": "arrow-word-puzzle",
+   "family": "crossword",
+   "variationOf": null,
+   "title": "Arrow-Word Puzzle",
+   "instruction": "Each picture in the grid shows a word. Write the word in the boxes where the arrow points.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "k",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/crossword.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-537",
+   "file": "scripts/worksheet-gen/types/g1/G1-537-crossword-with-word-bank.js",
+   "grade": "G1",
+   "slug": "crossword-with-word-bank",
+   "family": "crossword",
+   "variationOf": null,
+   "title": "Crossword with a Word Bank",
+   "instruction": "Look at each numbered picture. Find its word in the word bank and write it in the boxes.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "k",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/crossword.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-538",
+   "file": "scripts/worksheet-gen/types/g1/G1-538-two-language-crossword.js",
+   "grade": "G1",
+   "slug": "two-language-crossword",
+   "family": "crossword",
+   "variationOf": null,
+   "title": "Two-Language Crossword",
+   "instruction": "Read each word and look at its picture. Write the English word in the boxes with the same number.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "k",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/crossword.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-539",
+   "file": "scripts/worksheet-gen/types/g1/G1-539-picture-code.js",
+   "grade": "G1",
+   "slug": "picture-code",
+   "family": "secret-code",
+   "variationOf": null,
+   "title": "Picture Code",
+   "instruction": "Each picture stands for a letter. Use the key to write the secret message.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "min",
+    "max",
+    "maxDistinct",
+    "given",
+    "perLine"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-540",
+   "file": "scripts/worksheet-gen/types/g1/G1-540-number-code.js",
+   "grade": "G1",
+   "slug": "number-code",
+   "family": "secret-code",
+   "variationOf": null,
+   "title": "Number Code",
+   "instruction": "Each number stands for a letter: A is 1. Use the key to write the secret message.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "min",
+    "max",
+    "given",
+    "perLine"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-541",
+   "file": "scripts/worksheet-gen/types/g1/G1-541-sum-code.js",
+   "grade": "G1",
+   "slug": "sum-code",
+   "family": "secret-code",
+   "variationOf": null,
+   "title": "Sum Code",
+   "instruction": "Work out each sum. Find the answer in the key and write its letter.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "min",
+    "max",
+    "given",
+    "perLine",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-542",
+   "file": "scripts/worksheet-gen/types/g1/G1-542-make-your-own-code.js",
+   "grade": "G1",
+   "slug": "make-your-own-code",
+   "family": "secret-code",
+   "variationOf": null,
+   "title": "Make Your Own Secret Code",
+   "instruction": "Draw a symbol for each letter. Write a message, then write it again in your code for a friend.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lines",
+    "lineH"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-543",
+   "file": "scripts/worksheet-gen/types/g1/G1-543-sum-bingo.js",
+   "grade": "G1",
+   "slug": "sum-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Sum Bingo",
+   "instruction": "Listen to each sum and work it out. If the answer is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to",
+    "sub"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-544",
+   "file": "scripts/worksheet-gen/types/g1/G1-544-clock-bingo.js",
+   "grade": "G1",
+   "slug": "clock-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Clock Bingo",
+   "instruction": "Listen to each time. If a clock on your card shows it, mark that clock. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "minutes",
+    "cap"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-545",
+   "file": "scripts/worksheet-gen/types/g1/G1-545-sum-bingo-caller-cards.js",
+   "grade": "G1",
+   "slug": "sum-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Sum Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and read the sum aloud, not the answer. Keep the cards you have called to check each Bingo.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "from",
+    "to",
+    "sub",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-546",
+   "file": "scripts/worksheet-gen/types/g1/G1-546-clock-bingo-caller-cards.js",
+   "grade": "G1",
+   "slug": "clock-bingo-caller-cards",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Clock Bingo: Caller Cards",
+   "instruction": "Cut out the cards and mix them up. Take one card at a time and read the time aloud. Keep the cards you have called to check each Bingo.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "g",
+    "perPage",
+    "minutes",
+    "cap",
+    "callCols"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -25766,13 +30215,12 @@
    "interactive": false,
    "uses": [
     "lib/b6-common.js",
+    "lib/platform/index.js",
     "templates/components-b6.js",
     "primitives/school-ruling.js",
     "primitives/_tokens.js",
     "data/b6/cursive-writing.js",
     "path",
-    "fs",
-    "fs",
     "data/b2/sentences.js",
     "lib/b2-common.js",
     "lib/b2-common.js",
@@ -27056,6 +31504,503 @@
    "teachingPoint": "2:symmetry-complete",
    "skill": "Complete a half-drawn grid picture so it is symmetrical (vertical and horizontal mirror lines)",
    "strand": "Geometry",
+   "science": false
+  },
+  {
+   "id": "G2-480",
+   "file": "scripts/worksheet-gen/types/g2/G2-480-own-words-in-cursive.js",
+   "grade": "G2",
+   "slug": "my-words-in-cursive",
+   "family": "cursive-writing",
+   "variationOf": null,
+   "title": "My Words in Cursive",
+   "instruction": "Read each sentence. Trace it in cursive, joining the letters, then write it on your own on the line below.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "kind",
+    "ctxMode",
+    "n",
+    "free",
+    "max",
+    "floor"
+   ],
+   "interactive": false,
+   "uses": [
+    "./G2-377-cursive-writing.js",
+    "templates/components-b6.js",
+    "primitives/school-ruling.js",
+    "lib/slot.js",
+    "lib/cursive-coverage.js",
+    "primitives/_tokens.js",
+    "primitives/cursive-advances.json",
+    "data/b2/sentences.js"
+   ],
+   "teachingPoint": "3:cursive-sentences",
+   "skill": "Trace and copy a sentence in joined (cursive) handwriting",
+   "strand": "Handwriting",
+   "science": false
+  },
+  {
+   "id": "G2-481",
+   "file": "scripts/worksheet-gen/types/g2/G2-481-cursive-letter-of-the-day.js",
+   "grade": "G2",
+   "slug": "cursive-letter-of-the-day",
+   "family": "cursive-writing",
+   "variationOf": null,
+   "title": "Cursive Letter of the Day",
+   "instruction": "Trace the grey letters, joining them, then write them on your own on the empty lines: the letter alone, joined to other letters, and in a word.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "steps"
+   ],
+   "interactive": false,
+   "uses": [
+    "./G2-377-cursive-writing.js",
+    "templates/components-b6.js",
+    "primitives/school-ruling.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": "2:cursive-writing",
+   "skill": "Write cursive lowercase letters, capitals, the joins between letters, and whole words",
+   "strand": "Handwriting",
+   "science": false
+  },
+  {
+   "id": "G2-482",
+   "file": "scripts/worksheet-gen/types/g2/G2-482-print-and-cursive-match.js",
+   "grade": "G2",
+   "slug": "print-and-cursive-match",
+   "family": "cursive-writing",
+   "variationOf": null,
+   "title": "Match Print and Cursive",
+   "instruction": "Read each word in cursive. Draw a line to the same word in print.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "max",
+    "clash"
+   ],
+   "interactive": false,
+   "uses": [
+    "./G2-377-cursive-writing.js",
+    "templates/components-b6.js",
+    "primitives/school-ruling.js",
+    "primitives/_tokens.js",
+    "_shared/key-number.js",
+    "lib/rng.js"
+   ],
+   "teachingPoint": "2:read-cursive",
+   "skill": "Read words written in cursive",
+   "strand": "Handwriting",
+   "science": false
+  },
+  {
+   "id": "G2-483",
+   "file": "scripts/worksheet-gen/types/g2/G2-483-cursive-alphabet.js",
+   "grade": "G2",
+   "slug": "cursive-alphabet",
+   "family": "cursive-writing",
+   "variationOf": null,
+   "title": "The Cursive Alphabet",
+   "instruction": "Look at each letter in cursive and in print. Use the alphabet when you write in cursive.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "layout",
+    "both",
+    "cols"
+   ],
+   "interactive": false,
+   "uses": [
+    "./G2-377-cursive-writing.js",
+    "templates/components-b6.js",
+    "primitives/school-ruling.js",
+    "primitives/_tokens.js",
+    "primitives/cursive-advances.json"
+   ],
+   "teachingPoint": "2:cursive-writing",
+   "skill": "Write cursive lowercase letters, capitals, the joins between letters, and whole words",
+   "strand": "Handwriting",
+   "science": false
+  },
+  {
+   "id": "G2-484",
+   "file": "scripts/worksheet-gen/types/g2/G2-484-comparison-of-adjectives.js",
+   "grade": "G2",
+   "slug": "comparison-of-adjectives",
+   "family": "word-classes",
+   "variationOf": null,
+   "title": "Big, Bigger, Biggest",
+   "instruction": "Write the two missing forms of each adjective, as in the example.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "both",
+    "irregular"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/grammar/grammar-tables.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-485",
+   "file": "scripts/worksheet-gen/types/g2/G2-485-conjugation-table.js",
+   "grade": "G2",
+   "slug": "conjugation-table",
+   "family": "verb-forms",
+   "variationOf": null,
+   "title": "Verb Table",
+   "instruction": "Write the verb in each box so it goes with the word at the start of the row.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "verbs",
+    "given"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/grammar/grammar-tables.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-486",
+   "file": "scripts/worksheet-gen/types/g2/G2-486-adjective-agreement.js",
+   "grade": "G2",
+   "slug": "adjective-agreement",
+   "family": "word-classes",
+   "variationOf": null,
+   "title": "Adjective Agreement",
+   "instruction": "Circle the form of the adjective that goes with each noun.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "write"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/grammar/grammar-tables.js",
+    "REFERENCE TRANSLATIONS/lcs-grammar.js",
+    "_shared/picture-word-pool.js",
+    "image-cache/resolve.js",
+    "lib/b2-common.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-487",
+   "file": "scripts/worksheet-gen/types/g2/G2-487-compound-puzzle-cards.js",
+   "grade": "G2",
+   "slug": "compound-puzzle-cards",
+   "family": "compound-words",
+   "variationOf": null,
+   "title": "Compound Word Puzzles",
+   "instruction": "Cut out the pieces. Put two pieces together to make a compound word, then write the word on a line.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "hard"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b3-common.js",
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "primitives/trace-path.js",
+    "_shared/key-number.js",
+    "lib/key-on-row.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-488",
+   "file": "scripts/worksheet-gen/types/g2/G2-488-best-title.js",
+   "grade": "G2",
+   "slug": "which-title-fits",
+   "family": "reading-comprehension",
+   "variationOf": null,
+   "title": "Which Title Fits?",
+   "instruction": "Read each story. Circle the title that fits it best.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/reading/reading-new.js",
+    "_shared/alphabet-more.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-489",
+   "file": "scripts/worksheet-gen/types/g2/G2-489-two-step-word-problems.js",
+   "grade": "G2",
+   "slug": "two-step-word-problems",
+   "family": "word-problems",
+   "variationOf": null,
+   "title": "Two-Step Word Problems",
+   "instruction": "Read each story. Do the first step, then the second step. Write the numbers in the boxes.",
+   "assetClass": "none",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "max",
+    "steps",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "data/word-problems/two-step-frames.js",
+    "lib/word-problems-levelset.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-490",
+   "file": "scripts/worksheet-gen/types/g2/G2-490-number-of-the-day-to-1000.js",
+   "grade": "G2",
+   "slug": "number-of-the-day-to-1000",
+   "family": "number-of-the-day",
+   "variationOf": null,
+   "title": "Number of the Day to 1000",
+   "instruction": "Look at the big number. Fill in every box on the page for that number.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "min",
+    "max",
+    "ok"
+   ],
+   "interactive": false,
+   "uses": [
+    "templates/components.js",
+    "lib/number-words-1000.js",
+    "data/b2/labels.js",
+    "data/parity-words.json",
+    "data/number-of-the-day/nod-new.js",
+    "lib/slot.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-491",
+   "file": "scripts/worksheet-gen/types/g2/G2-491-write-numbers-and-words-to-1000.js",
+   "grade": "G2",
+   "slug": "write-numbers-and-words-to-1000",
+   "family": "number-words",
+   "variationOf": null,
+   "title": "Write It Both Ways to 1,000",
+   "instruction": "Write each number word as a number. Write each number as a word.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "n",
+    "boxW",
+    "font"
+   ],
+   "interactive": false,
+   "uses": [
+    "g1/G1-514-write-numbers-and-words.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-492",
+   "file": "scripts/worksheet-gen/types/g2/G2-492-circle-the-right-spelling.js",
+   "grade": "G2",
+   "slug": "circle-the-right-spelling",
+   "family": "spelling-rules",
+   "variationOf": null,
+   "title": "Circle the Right Spelling",
+   "instruction": "Look at each picture. Read the words. Circle the word that is spelled right.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "min",
+    "max",
+    "choices"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "_shared/spelling-words.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-493",
+   "file": "scripts/worksheet-gen/types/g2/G2-493-coordinate-battleship.js",
+   "grade": "G2",
+   "slug": "coordinate-battleship",
+   "family": "grid-coordinates",
+   "variationOf": null,
+   "title": "Coordinate Battleship",
+   "instruction": "Color your ships on your grid. Take turns calling a square like B3. Mark your partner's grid: a dot for a miss, a cross for a hit.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "ships"
+   ],
+   "interactive": false,
+   "uses": [
+    "lib/b2-common.js",
+    "image-cache/resolve.js",
+    "lib/picture-refusals.js",
+    "primitives/_tokens.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-494",
+   "file": "scripts/worksheet-gen/types/g2/G2-494-hidden-message-word-search.js",
+   "grade": "G2",
+   "slug": "hidden-message-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Word Search with a Secret Message",
+   "instruction": "Find and circle every word. Then read the letters that are left, row by row, and write the secret message.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-495",
+   "file": "scripts/worksheet-gen/types/g2/G2-495-fill-in-crossword.js",
+   "grade": "G2",
+   "slug": "fill-in-crossword",
+   "family": "crossword",
+   "variationOf": null,
+   "title": "Fill-In Crossword",
+   "instruction": "Fit every word of the list into the grid. Count the letters and use the letters that cross.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "k",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/crossword.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-496",
+   "file": "scripts/worksheet-gen/types/g2/G2-496-complete-the-key.js",
+   "grade": "G2",
+   "slug": "complete-the-key",
+   "family": "secret-code",
+   "variationOf": null,
+   "title": "Complete the Key",
+   "instruction": "Some letters are missing from the key. Use the solved word to fill them in. Then write the secret message.",
+   "assetClass": "none",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "min",
+    "max",
+    "given",
+    "perLine",
+    "maxDistinct",
+    "solvedWord",
+    "blank"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
    "science": false
   },
   {

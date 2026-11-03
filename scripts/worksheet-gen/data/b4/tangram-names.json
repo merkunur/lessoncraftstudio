@@ -1,0 +1,122 @@
+{
+ "_note": "K-522 Match the Shadow to Its Name (Tangram maker 2026-11-02): the name of each named tangram figure in data/b4/tangram-figures.js, the singular of its image-vocabulary.js entry in the locale's display case (lib/b2-common.js displayWord). The arrow figure is left out: it casts the tree's shadow. Native review 2026-11-02: es-MX \"barco\" (bote is a can / a bin in Mexico), de \"Hase\" (the word a child gives the tangram rabbit).",
+ "names": {
+  "cat": {
+   "en": "cat",
+   "de": "Katze",
+   "fr": "chat",
+   "es": "gato",
+   "pt": "gato",
+   "it": "gatto",
+   "nl": "kat",
+   "sv": "katt",
+   "da": "kat",
+   "no": "katt",
+   "fi": "kissa"
+  },
+  "rabbit": {
+   "en": "rabbit",
+   "de": "Hase",
+   "fr": "lapin",
+   "es": "conejo",
+   "pt": "coelho",
+   "it": "coniglio",
+   "nl": "konijn",
+   "sv": "kanin",
+   "da": "kanin",
+   "no": "kanin",
+   "fi": "kani"
+  },
+  "tree": {
+   "en": "tree",
+   "de": "Baum",
+   "fr": "arbre",
+   "es": "árbol",
+   "pt": "árvore",
+   "it": "albero",
+   "nl": "boom",
+   "sv": "träd",
+   "da": "træ",
+   "no": "tre",
+   "fi": "puu"
+  },
+  "boat": {
+   "en": "boat",
+   "de": "Boot",
+   "fr": "bateau",
+   "es": "barco",
+   "pt": "barco",
+   "it": "barca",
+   "nl": "boot",
+   "sv": "båt",
+   "da": "båd",
+   "no": "båt",
+   "fi": "vene"
+  },
+  "square": {
+   "en": "square",
+   "de": "Quadrat",
+   "fr": "carré",
+   "es": "cuadrado",
+   "pt": "quadrado",
+   "it": "quadrato",
+   "nl": "vierkant",
+   "sv": "kvadrat",
+   "da": "kvadrat",
+   "no": "kvadrat",
+   "fi": "neliö"
+  },
+  "triangle": {
+   "en": "triangle",
+   "de": "Dreieck",
+   "fr": "triangle",
+   "es": "triángulo",
+   "pt": "triângulo",
+   "it": "triangolo",
+   "nl": "driehoek",
+   "sv": "triangel",
+   "da": "trekant",
+   "no": "trekant",
+   "fi": "kolmio"
+  },
+  "rectangle": {
+   "en": "rectangle",
+   "de": "Rechteck",
+   "fr": "rectangle",
+   "es": "rectángulo",
+   "pt": "retângulo",
+   "it": "rettangolo",
+   "nl": "rechthoek",
+   "sv": "rektangel",
+   "da": "rektangel",
+   "no": "rektangel",
+   "fi": "suorakulmio"
+  },
+  "trapezoid": {
+   "en": "trapezoid",
+   "de": "Trapez",
+   "fr": "trapèze",
+   "es": "trapecio",
+   "pt": "trapézio",
+   "it": "trapezio",
+   "nl": "trapezium",
+   "sv": "trapets",
+   "da": "trapez",
+   "no": "trapes",
+   "fi": "puolisuunnikas"
+  },
+  "parallelogram": {
+   "en": "parallelogram",
+   "de": "Parallelogramm",
+   "fr": "parallélogramme",
+   "es": "paralelogramo",
+   "pt": "paralelogramo",
+   "it": "parallelogramma",
+   "nl": "parallellogram",
+   "sv": "parallellogram",
+   "da": "parallelogram",
+   "no": "parallellogram",
+   "fi": "suunnikas"
+  }
+ }
+}

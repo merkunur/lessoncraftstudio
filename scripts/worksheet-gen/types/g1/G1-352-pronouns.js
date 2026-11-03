@@ -109,7 +109,7 @@ let _ls;
 function levelSetData() {
   if (_ls === undefined) {
     const p = require('path').join(__dirname, '..', '..', 'data', 'b4', 'pronouns-levelset.json');
-    _ls = require('fs').existsSync(p) ? JSON.parse(require('fs').readFileSync(p, 'utf8')) : null;
+    _ls = require('../../lib/platform/index.js').exists(p) ? require('../../lib/platform/index.js').readJson(p) : null;
   }
   return _ls;
 }

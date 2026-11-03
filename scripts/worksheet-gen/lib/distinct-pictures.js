@@ -4,24 +4,19 @@
  * Two vocab entries of a theme can point at the same artwork under two names (measured over every cached
  * theme: "4th of July" liberty = statue, "household bw" hanger = towel). A page that draws two different
  * nouns then shows the same picture twice — the live Picture to Picture sheet ran a path from a Statue of
- * Liberty to a Statue of Liberty. Nouns are compared by the md5 of the file they render; the first noun
- * of each picture is kept, in pool order. Pure over its input; hashes are cached per path.
+ * Liberty to a Statue of Liberty. The first noun of each picture is kept, in pool order. Pure over its input.
+ *
+ * The classes of identical files are measured offline (tools/build-picture-twins.js → data/picture-twins.json: the md5
+ * of the file fileUri resolves, the hash this helper used to take at build time) — a maker builds its pages in the
+ * browser, which cannot read the picture files (makers 2026-11-02). A noun outside the table is its own picture.
  */
 'use strict';
-const fs = require('fs');
-const crypto = require('crypto');
-const { fileURLToPath } = require('url');
-const { fileUri } = require('../image-cache/resolve.js');
+const TWINS = require('../data/picture-twins.json');
 
-const _hash = new Map();
+/** the identity of a noun's picture: its class of identical files, or the noun itself */
 function pictureHash(theme, noun) {
-  const uri = fileUri(theme, noun);
-  if (!_hash.has(uri)) {
-    let h;
-    try { h = crypto.createHash('md5').update(fs.readFileSync(uri.startsWith('file:') ? fileURLToPath(uri) : uri)).digest('hex'); } catch (e) { h = uri; }
-    _hash.set(uri, h);
-  }
-  return _hash.get(uri);
+  const t = TWINS[theme];
+  return (t && t[noun]) || theme + '/' + noun;
 }
 
 /** nouns: [{ noun, vocabKey, … }] → the same list without a second noun of an already-seen picture. */

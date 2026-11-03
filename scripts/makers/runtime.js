@@ -67,7 +67,14 @@ function makePage(o) {
   // the same seed rule as render-instance.js: a seedVariant (retry) replaces the variant in the seed only
   const seedArgs = { typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant || 1, unit };
   const slots = {};
-  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), overrides: o.overrides || null, slotsOut: slots, ...(extra || {}) });
+  // Level 2, copy 1 is the CATALOGUE's published page in every type that has one: built byte-identical from its June
+  // content, without the marks its screen and key need. A maker page is always a NEW page, so the maker's level-2 copy k
+  // is the type's copy k + 1 (2026-11-03: ~80 templates offered no level-2 screen, and their level-2 pages skipped the
+  // Level Set's reviewed content); every other level keeps its number. ctx.makerCopy = the maker's own copy number;
+  // ctx.maker: a type whose copies the publishing tools numbered by seedVariant maps a maker copy onto the same list
+  // (G2-254 Reading Comprehension) — the publishing pipeline never sets either, so a published page is unchanged.
+  const typeVariant = (o.variant || 1) + (difficulty === 2 ? 1 : 0);
+  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: typeVariant, makerCopy: o.variant || 1, maker: true, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), overrides: o.overrides || null, slotsOut: slots, ...(extra || {}) });
 
   let strings = resolveUnitTokens({ ...o.strings }, type, unit, locale);
   const built = type.build({ theme, difficulty, locale, unit }, ctx());

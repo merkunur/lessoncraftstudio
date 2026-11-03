@@ -92,9 +92,10 @@ function rulingBlock({ rows, w, h, glyphH, starters = {}, gap = 6 }) {
 }
 
 /* ---------- colour legend (G1-242 / G2-279) ---------- */
-function colorLegend({ entries, wordPx = 17 }) {
+// bins (2026-11-03): the legend is the screen's paint palette — each colour a bin (tap it, then the pictures it colours)
+function colorLegend({ entries, wordPx = 17, bins = false }) {
   const items = entries.map((e) =>
-    `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-legend="${esc(e.key)}" data-lcs-color="${esc(e.key)}">` +
+    `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-legend="${esc(e.key)}" data-lcs-color="${esc(e.key)}"${bins ? ` data-lcs-bin="${esc(e.key)}" data-lcs-fill="${SWATCH[e.key]}" data-lcs-label="${esc(e.word)}"` : ''}>` +
     svgRoot({ width: 22, height: 22, label: e.key }, el('rect', { x: 1, y: 1, width: 20, height: 20, rx: 5, fill: SWATCH[e.key], stroke: T.ink, 'stroke-width': 1 }), { class: 'ws-legend-swatch' }) +
     `<span style="font-family:${F.body};font-weight:800;font-size:${wordPx}px;color:${T.ink}">${esc(e.word)}</span></span>`).join('');
   return `<div class="ws-scene-banner" style="gap:22px;flex-wrap:wrap" data-lcs-legend-banner>${items}</div>`;
@@ -252,13 +253,14 @@ function pillChoice({ items, fontPx = 20 }) {
 }
 
 /* ---------- colour-grouped code list (G2-279) ---------- */
+// answer marks (2026-11-03): g.answers — the codes the empty chips of a group hold, any order inside the group (data-lcs-set)
 function codeList({ groups, wordPx = 15 }) {
   const rows = groups.map((g) =>
     `<div class="ws-codegroup" data-lcs-group="${esc(g.key)}">` +
     `<span style="display:inline-flex;align-items:center;gap:8px;margin-bottom:4px">` +
     svgRoot({ width: 22, height: 22, label: g.key }, el('rect', { x: 1, y: 1, width: 20, height: 20, rx: 5, fill: SWATCH[g.key], stroke: T.ink, 'stroke-width': 1 }), {}) +
     `<span style="font-family:${F.body};font-weight:800;font-size:${wordPx}px;color:${T.ink}" data-lcs-color-word="${esc(g.key)}">${esc(g.word)}</span></span>` +
-    `<div class="ws-codechips">${g.codes.map((c) => `<span class="ws-codechip" data-lcs-code="${esc(c)}">${esc(c)}</span>`).join('')}</div></div>`);
+    `<div class="ws-codechips">${g.codes.map((c, i) => `<span class="ws-codechip" data-lcs-code="${esc(c)}"${g.answers ? ` data-lcs-answer="${esc(g.answers[i])}" data-lcs-set="${esc(g.key)}"` : ''}>${esc(c)}</span>`).join('')}</div></div>`);
   return `<div class="ws-codelist">${rows.join('')}</div>`;
 }
 

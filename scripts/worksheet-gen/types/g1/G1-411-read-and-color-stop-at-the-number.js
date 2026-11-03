@@ -55,11 +55,13 @@ module.exports = {
         const extra = d.extra ? RC.distinctNouns(rng, C.entries.filter((o) => !targets.includes(o)), 1, [e]) : [];
         if (d.extra && !extra) { ok = false; break; }
         const pics = [];
-        for (let j = 0; j < d.pool; j++) pics.push(RC.icon(theme, e, d.icon, rng, false).replace('data-lcs-noun=', 'data-lcs-pool="1" data-lcs-noun='));
-        for (let j = 0; j < d.extra; j++) pics.push(RC.icon(theme, extra[0], d.icon, rng, false));
+        // ANY n of the pool are right (screen: a group that wants n; the other picture's group wants none); the key rings
+        // one right answer — the first n pool pictures of the shuffled strip
+        for (let j = 0; j < d.pool; j++) pics.push(RC.icon(theme, e, d.icon, rng, false).replace('data-lcs-noun=', `data-lcs-pool="1" data-lcs-group="c${i}" data-lcs-want="${n}" data-lcs-noun=`));
+        for (let j = 0; j < d.extra; j++) pics.push(RC.icon(theme, extra[0], d.icon, rng, false).replace('data-lcs-noun=', `data-lcs-group="c${i}x" data-lcs-want="0" data-lcs-noun=`));
         cards.push(`<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:10px 8px 4px" data-lcs-item>` +
           `<div style="padding-left:22px">${RC.sentenceP(s.text, d.font, `data-lcs-n="${n}" data-lcs-noun="${e.vocabKey}" data-lcs-color="${colors[i]}" data-lcs-noun-text="${RC.esc(s.nounText)}" data-lcs-color-text="${RC.esc(s.colorText)}"`)}</div>` +
-          `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-content:flex-start" data-lcs-strip data-lcs-pool-size="${d.pool}">${rng.shuffle(pics).join('')}</div></div>`);
+          `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-content:flex-start" data-lcs-strip data-lcs-pool-size="${d.pool}">${(() => { let k = 0; return rng.shuffle(pics).map((p) => (p.includes('data-lcs-pool="1"') && k++ < n ? p.replace('data-lcs-pick', 'data-lcs-pick data-lcs-key-ring') : p)).join(''); })()}</div></div>`);
       }
       if (!ok) continue;
       const legend = colorLegend({ entries: colors.map((k) => ({ key: k, word: C.words[k] })) });

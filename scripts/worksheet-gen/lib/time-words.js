@@ -11,9 +11,10 @@
  *
  * Regression fixtures: the 16 native-verified rows of mini tools/clock-core.js strings.timeExpr (activities) — the
  * gate reproduces each with that row's own hour form, except where the maker's native review (2026-11-02) decided
- * otherwise: es-MX "para" after the half hour (the rows said "menos", Spain — fixed in the activities too); a bare clock's
- * 12 is "doze horas" / "douze heures" / "le dodici" (the rows' meio-dia / midi / mezzogiorno assume daytime); sv / no
- * full hours say "klockan / klokka tre" on a worksheet (a bare "tre" reads as the number).
+ * otherwise: es-MX "para" after the half hour (the rows said "menos", Spain — fixed in the activities too); sv / no
+ * full hours say "klockan / klokka tre" on a worksheet (a bare "tre" reads as the number). The hour 12 is the school
+ * day's meio-dia / midi / mezzogiorno in pt / fr / it, as the rows say (the B7 review 2026-11-03 reversed the earlier
+ * "douze heures": "douze heures moins vingt" is not said, "midi moins vingt" is).
  */
 'use strict';
 
@@ -27,9 +28,9 @@ const NUM_WORDS = {
   fi: ['kaksitoista', 'yksi', 'kaksi', 'kolme', 'neljä', 'viisi', 'kuusi', 'seitsemän', 'kahdeksan', 'yhdeksän', 'kymmenen', 'yksitoista', 'kaksitoista'],
   // the Romance hours carry their article / gender in the frame's own words
   es: ['las doce', 'la una', 'las dos', 'las tres', 'las cuatro', 'las cinco', 'las seis', 'las siete', 'las ocho', 'las nueve', 'las diez', 'las once', 'las doce'],
-  pt: ['doze', 'uma', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze'],
-  fr: ['douze heures', 'une heure', 'deux heures', 'trois heures', 'quatre heures', 'cinq heures', 'six heures', 'sept heures', 'huit heures', 'neuf heures', 'dix heures', 'onze heures', 'douze heures'],
-  it: ['le dodici', "l'una", 'le due', 'le tre', 'le quattro', 'le cinque', 'le sei', 'le sette', 'le otto', 'le nove', 'le dieci', 'le undici', 'le dodici'],
+  pt: ['meio-dia', 'uma', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'meio-dia'],
+  fr: ['midi', 'une heure', 'deux heures', 'trois heures', 'quatre heures', 'cinq heures', 'six heures', 'sept heures', 'huit heures', 'neuf heures', 'dix heures', 'onze heures', 'midi'],
+  it: ['mezzogiorno', "l'una", 'le due', 'le tre', 'le quattro', 'le cinque', 'le sei', 'le sette', 'le otto', 'le nove', 'le dieci', 'le undici', 'mezzogiorno'],
 };
 /** locales whose hour is always the word (the article / "heures" belongs to it) */
 const WORD_ONLY = new Set(['es', 'pt', 'fr', 'it']);
@@ -77,7 +78,9 @@ function timeWords(h, m, locale, { hourForm = 'numeral' } = {}) {
   // — native review 2026-11-02
   let out = frame.replace('{h}', hourOf(H, L, hourForm)).replace('{n}', hourOf(N, L, hourForm));
   if (L === 'de' && m === 0 && H === 1 && hourForm === 'word') out = 'ein Uhr';
-  if (L === 'pt') out = out.replace('para as uma', 'para a uma');
+  if (L === 'pt') out = out.replace('para as uma', 'para a uma').replace('meio-dia horas', 'meio-dia').replace('para as meio-dia', 'para o meio-dia');
+  // midi is masculine: «midi et demi»
+  if (L === 'fr') out = out.replace('midi et demie', 'midi et demi');
   // es / it / fr sentences start with the article or the number: a capital is the page's job, never this file's
   return out;
 }

@@ -1,13 +1,13 @@
 {
   "locale": "fi",
-  "generated_at": "2026-06-04T16:21:47.401Z",
+  "generated_at": "2026-11-03T06:42:40.020Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 1120,
+  "count_approved": 1122,
   "count_quarantined": 143,
   "entries": [
     {
@@ -1605,30 +1605,6 @@
         "hius",
         "sol",
         "ki"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "baseball",
-      "word": "pesapallo",
-      "split": [
-        "pe",
-        "sa",
-        "pal",
-        "lo"
-      ],
-      "count": 4,
-      "chunks": [
-        "pe",
-        "sa",
-        "pal",
-        "lo"
       ],
       "sources_agreed": [
         "TeX",
@@ -5880,6 +5856,28 @@
       "rule_authoritative": true
     },
     {
+      "key": "construction-crane",
+      "word": "nosturi",
+      "split": [
+        "nos",
+        "tu",
+        "ri"
+      ],
+      "count": 3,
+      "chunks": [
+        "nos",
+        "tu",
+        "ri"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "construction-worker",
       "word": "rakennustyöntekijä",
       "split": [
@@ -6310,19 +6308,19 @@
     },
     {
       "key": "crayons",
-      "word": "värikynät",
+      "word": "vahaliidut",
       "split": [
-        "vä",
-        "ri",
-        "ky",
-        "nät"
+        "va",
+        "ha",
+        "lii",
+        "dut"
       ],
       "count": 4,
       "chunks": [
-        "vä",
-        "ri",
-        "ky",
-        "nät"
+        "va",
+        "ha",
+        "lii",
+        "dut"
       ],
       "sources_agreed": [
         "TeX",
@@ -14165,16 +14163,18 @@
     },
     {
       "key": "meerkat",
-      "word": "mangusti",
+      "word": "surikaatti",
       "split": [
-        "man",
-        "gus",
+        "su",
+        "ri",
+        "kaat",
         "ti"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
-        "man",
-        "gus",
+        "su",
+        "ri",
+        "kaat",
         "ti"
       ],
       "sources_agreed": [
@@ -14915,6 +14915,26 @@
       "chunks": [
         "kyn",
         "si"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "metal-nail",
+      "word": "naula",
+      "split": [
+        "nau",
+        "la"
+      ],
+      "count": 2,
+      "chunks": [
+        "nau",
+        "la"
       ],
       "sources_agreed": [
         "TeX",
@@ -17911,17 +17931,17 @@
     },
     {
       "key": "pretzels",
-      "word": "rinkilät",
+      "word": "rinkelit",
       "split": [
         "rin",
-        "ki",
-        "lät"
+        "ke",
+        "lit"
       ],
       "count": 3,
       "chunks": [
         "rin",
-        "ki",
-        "lät"
+        "ke",
+        "lit"
       ],
       "sources_agreed": [
         "TeX",
@@ -23751,13 +23771,15 @@
     },
     {
       "key": "toilet",
-      "word": "wc",
+      "word": "vessa",
       "split": [
-        "wc"
+        "ves",
+        "sa"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "wc"
+        "ves",
+        "sa"
       ],
       "sources_agreed": [
         "TeX",
@@ -24921,6 +24943,28 @@
           "ri"
         ]
       }
+    },
+    {
+      "key": "violet",
+      "word": "orvokki",
+      "split": [
+        "or",
+        "vok",
+        "ki"
+      ],
+      "count": 3,
+      "chunks": [
+        "or",
+        "vok",
+        "ki"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "violin",

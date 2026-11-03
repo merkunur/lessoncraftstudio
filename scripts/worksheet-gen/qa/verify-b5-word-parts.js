@@ -608,7 +608,17 @@ async function main() {
     // 4. poisons — render
     const rp = async (name, type, re, opts = {}) => { let f; try { const r = await renderWith(page, type, { difficulty: 2, baseName: 'G2-359-gate-poison-' + name.split(' ')[0], ...opts }); f = [...r.verify, ...r.lints.map((l) => JSON.stringify(l))]; if (opts.assert) { const before = fails.length; assertRender(name, r); f.push(...fails.splice(before)); } } catch (e) { f = ['THROWN: ' + e.message]; } judge(name, f, re); };
     // PR5: a picture on one stone only (the fear/joy pair pictures both; drop the first <img>)
-    await rp('PR5 picture on one stone', doctored((h) => h.replace(/<img class="ws-icon"[^>]*>/, '')), /a picture on one stone only/, { seedEpoch: 1, difficulty: 1 });
+    // (2026-11-03: the Level Set moved the pictured pair off level 1 copy 1, and the poison ran on a page with no picture
+    // to drop — SILENT. It now runs on the first page whose stones ARE pictured, and fails loudly when none is found.)
+    {
+      let hit = null;
+      for (const difficulty of [1, 2, 3]) for (let seedEpoch = 1; seedEpoch <= 12 && !hit; seedEpoch++) {
+        let pictured = false;
+        const t = doctored((h) => { if ((h.match(/<img class="ws-icon"[^>]*>/g) || []).length >= 2) pictured = true; return h.replace(/<img class="ws-icon"[^>]*>/, ''); });
+        try { const r = await renderWith(page, t, { difficulty, seedEpoch, baseName: 'G2-359-gate-poison-PR5' }); if (pictured) hit = [...r.verify, ...r.lints.map((l) => JSON.stringify(l))]; } catch (e) { if (pictured) hit = ['THROWN: ' + e.message]; }
+      }
+      judge('PR5 picture on one stone', hit || ['no page with a pictured pair in 36 tries — the poison has nothing to drop'], /a picture on one stone only/);
+    }
     await rp('PR6 answerBox in a course', doctored((h) => h.replace('data-lcs-course="0"', 'data-lcs-course="0" data-lcs-answer="undefined"')), /answer stamp/);
     {
       const wide = clone(LONGBLOCK);   // every member >= 14 glyphs: two bricks a row at 20 px -> a 5-row strip unless the guard holds

@@ -1,0 +1,2737 @@
+{
+ "_note": "tools/build-blend-bank.js — pictures whose name starts with a two-consonant blend of the language (CCV). fi refused. Do not edit.",
+ "table": {
+  "en": [
+   "bl",
+   "br",
+   "cl",
+   "cr",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "pl",
+   "pr",
+   "sk",
+   "sl",
+   "sm",
+   "sn",
+   "sp",
+   "st",
+   "sw",
+   "tr",
+   "tw"
+  ],
+  "de": [
+   "bl",
+   "br",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "kl",
+   "kn",
+   "kr",
+   "pl",
+   "pr",
+   "tr",
+   "zw"
+  ],
+  "fr": [
+   "bl",
+   "br",
+   "cl",
+   "cr",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "pl",
+   "pr",
+   "tr",
+   "vr"
+  ],
+  "es": [
+   "bl",
+   "br",
+   "cl",
+   "cr",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "pl",
+   "pr",
+   "tr"
+  ],
+  "pt": [
+   "bl",
+   "br",
+   "cl",
+   "cr",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "pl",
+   "pr",
+   "tr"
+  ],
+  "it": [
+   "bl",
+   "br",
+   "cl",
+   "cr",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "pl",
+   "pr",
+   "sp",
+   "st",
+   "tr"
+  ],
+  "nl": [
+   "bl",
+   "br",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "kl",
+   "kn",
+   "kr",
+   "pl",
+   "pr",
+   "sl",
+   "sm",
+   "sn",
+   "sp",
+   "st",
+   "tr",
+   "zw"
+  ],
+  "sv": [
+   "bl",
+   "br",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "kl",
+   "kn",
+   "kr",
+   "pl",
+   "pr",
+   "sk",
+   "sl",
+   "sm",
+   "sn",
+   "sp",
+   "st",
+   "sv",
+   "tr"
+  ],
+  "da": [
+   "bl",
+   "br",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "kl",
+   "kn",
+   "kr",
+   "pl",
+   "pr",
+   "sk",
+   "sl",
+   "sm",
+   "sn",
+   "sp",
+   "st",
+   "sv",
+   "tr"
+  ],
+  "no": [
+   "bl",
+   "br",
+   "dr",
+   "fl",
+   "fr",
+   "gl",
+   "gr",
+   "kl",
+   "kn",
+   "kr",
+   "pl",
+   "pr",
+   "sk",
+   "sl",
+   "sm",
+   "sn",
+   "sp",
+   "st",
+   "sv",
+   "tr"
+  ]
+ },
+ "blends": {
+  "en": [
+   "br",
+   "cr",
+   "dr",
+   "fl",
+   "gl",
+   "pl",
+   "sl",
+   "sn",
+   "sp",
+   "st",
+   "sw",
+   "tr"
+  ],
+  "de": [
+   "br",
+   "fl",
+   "kl",
+   "kr",
+   "tr"
+  ],
+  "fr": [
+   "br",
+   "cr",
+   "tr"
+  ],
+  "es": [
+   "fl",
+   "fr",
+   "pl",
+   "tr"
+  ],
+  "pt": [
+   "pr",
+   "tr"
+  ],
+  "it": [
+   "br",
+   "sp",
+   "tr"
+  ],
+  "nl": [
+   "bl",
+   "br",
+   "fl",
+   "kr",
+   "sl",
+   "sp",
+   "st",
+   "tr"
+  ],
+  "sv": [
+   "br",
+   "fl",
+   "gr",
+   "kl",
+   "kr",
+   "sn",
+   "sp",
+   "st",
+   "tr"
+  ],
+  "da": [
+   "bl",
+   "br",
+   "fl",
+   "gr",
+   "kr",
+   "sk",
+   "sl",
+   "sn",
+   "sp",
+   "st",
+   "tr"
+  ],
+  "no": [
+   "bl",
+   "br",
+   "fl",
+   "gr",
+   "kr",
+   "sn",
+   "st",
+   "tr"
+  ]
+ },
+ "items": {
+  "en": [
+   {
+    "theme": "body parts",
+    "noun": "brain",
+    "key": "brain",
+    "word": "brain",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "bread",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "broom",
+    "key": "broom",
+    "word": "broom",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "brush",
+    "key": "brush",
+    "word": "brush",
+    "blend": "br"
+   },
+   {
+    "theme": "accessories",
+    "noun": "bracelet",
+    "key": "bracelet",
+    "word": "bracelet",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "broccoli",
+    "blend": "br"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "crab",
+    "blend": "cr"
+   },
+   {
+    "theme": "furniture",
+    "noun": "crib",
+    "key": "crib",
+    "word": "crib",
+    "blend": "cr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "crown",
+    "blend": "cr"
+   },
+   {
+    "theme": "classroom",
+    "noun": "crayon",
+    "key": "crayon",
+    "word": "crayon",
+    "blend": "cr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "crutches",
+    "blend": "cr"
+   },
+   {
+    "theme": "bakery",
+    "noun": "croissant",
+    "key": "croissant",
+    "word": "croissant",
+    "blend": "cr"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "drum",
+    "blend": "dr"
+   },
+   {
+    "theme": "clothing",
+    "noun": "dress",
+    "key": "dress",
+    "word": "dress",
+    "blend": "dr"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragon",
+    "key": "dragon",
+    "word": "dragon",
+    "blend": "dr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "dresser",
+    "key": "dresser",
+    "word": "dresser",
+    "blend": "dr"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "dragonfly",
+    "key": "dragonfly",
+    "word": "dragonfly",
+    "blend": "dr"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "flag",
+    "key": "flag",
+    "word": "flag",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "flute",
+    "blend": "fl"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "flower",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "glue",
+    "blend": "gl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "glass",
+    "key": "glass",
+    "word": "glass",
+    "blend": "gl"
+   },
+   {
+    "theme": "classroom",
+    "noun": "globe",
+    "key": "globe",
+    "word": "globe",
+    "blend": "gl"
+   },
+   {
+    "theme": "accessories",
+    "noun": "glove",
+    "key": "glove",
+    "word": "glove",
+    "blend": "gl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "plate",
+    "key": "plate",
+    "word": "plate",
+    "blend": "pl"
+   },
+   {
+    "theme": "space",
+    "noun": "planet",
+    "key": "planet",
+    "word": "planet",
+    "blend": "pl"
+   },
+   {
+    "theme": "tools",
+    "noun": "pliers",
+    "key": "pliers",
+    "word": "pliers",
+    "blend": "pl"
+   },
+   {
+    "theme": "tools",
+    "noun": "plunger",
+    "key": "plunger",
+    "word": "plunger",
+    "blend": "pl"
+   },
+   {
+    "theme": "winter",
+    "noun": "sled",
+    "key": "sled",
+    "word": "sled",
+    "blend": "sl"
+   },
+   {
+    "theme": "toys",
+    "noun": "slide",
+    "key": "slide",
+    "word": "slide",
+    "blend": "sl"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "sloth",
+    "key": "sloth",
+    "word": "sloth",
+    "blend": "sl"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sleigh",
+    "key": "sleigh",
+    "word": "sleigh",
+    "blend": "sl"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "snail",
+    "blend": "sn"
+   },
+   {
+    "theme": "beach",
+    "noun": "snorkel",
+    "key": "snorkel",
+    "word": "snorkel",
+    "blend": "sn"
+   },
+   {
+    "theme": "christmas",
+    "noun": "snowman",
+    "key": "snowman",
+    "word": "snowman",
+    "blend": "sn"
+   },
+   {
+    "theme": "weather",
+    "noun": "snowflake",
+    "key": "snowflake",
+    "word": "snowflake",
+    "blend": "sn"
+   },
+   {
+    "theme": "around the house",
+    "noun": "spoon",
+    "key": "spoon",
+    "word": "spoon",
+    "blend": "sp"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "spider",
+    "key": "spider",
+    "word": "spider",
+    "blend": "sp"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "sponge",
+    "key": "sponge",
+    "word": "sponge",
+    "blend": "sp"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "spatula",
+    "key": "spatula",
+    "word": "spatula",
+    "blend": "sp"
+   },
+   {
+    "theme": "christmas",
+    "noun": "star",
+    "key": "star",
+    "word": "star",
+    "blend": "st"
+   },
+   {
+    "theme": "post office",
+    "noun": "stamp",
+    "key": "stamp",
+    "word": "stamp",
+    "blend": "st"
+   },
+   {
+    "theme": "furniture",
+    "noun": "stool",
+    "key": "stool",
+    "word": "stool",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stove",
+    "key": "stove",
+    "word": "stove",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "stairs",
+    "blend": "st"
+   },
+   {
+    "theme": "classroom",
+    "noun": "stapler",
+    "key": "stapler",
+    "word": "stapler",
+    "blend": "st"
+   },
+   {
+    "theme": "beach",
+    "noun": "starfish",
+    "key": "starfish",
+    "word": "starfish",
+    "blend": "st"
+   },
+   {
+    "theme": "christmas",
+    "noun": "stocking",
+    "key": "stocking",
+    "word": "stocking",
+    "blend": "st"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "swan",
+    "key": "swan",
+    "word": "swan",
+    "blend": "sw"
+   },
+   {
+    "theme": "toys",
+    "noun": "swing",
+    "key": "swing",
+    "word": "swing",
+    "blend": "sw"
+   },
+   {
+    "theme": "clothing",
+    "noun": "sweater",
+    "key": "sweater",
+    "word": "sweater",
+    "blend": "sw"
+   },
+   {
+    "theme": "beach",
+    "noun": "swimsuit",
+    "key": "swimsuit",
+    "word": "swimsuit",
+    "blend": "sw"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "train",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "tractor",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trumpet",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triangle",
+    "blend": "tr"
+   }
+  ],
+  "de": [
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "Brot",
+    "blend": "br"
+   },
+   {
+    "theme": "bakery",
+    "noun": "pretzel",
+    "key": "pretzel",
+    "word": "Brezel",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "Brokkoli",
+    "blend": "br"
+   },
+   {
+    "theme": "bakery",
+    "noun": "bun",
+    "key": "bun",
+    "word": "Brötchen",
+    "blend": "br"
+   },
+   {
+    "theme": "classroom",
+    "noun": "lunchbox",
+    "key": "lunchbox",
+    "word": "Brotdose",
+    "blend": "br"
+   },
+   {
+    "theme": "fruits",
+    "noun": "blackberry",
+    "key": "blackberry",
+    "word": "Brombeere",
+    "blend": "br"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "Flöte",
+    "blend": "fl"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "flag",
+    "key": "flag",
+    "word": "Flagge",
+    "blend": "fl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "Flasche",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "Flugzeug",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "Flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "clothing",
+    "noun": "dress",
+    "key": "dress",
+    "word": "Kleid",
+    "blend": "kl"
+   },
+   {
+    "theme": "classroom",
+    "noun": "glue",
+    "key": "glue",
+    "word": "Kleber",
+    "blend": "kl"
+   },
+   {
+    "theme": "activities",
+    "noun": "piano",
+    "key": "piano",
+    "word": "Klavier",
+    "blend": "kl"
+   },
+   {
+    "theme": "classroom",
+    "noun": "tape",
+    "key": "tape",
+    "word": "Klebeband",
+    "blend": "kl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jug",
+    "key": "jug",
+    "word": "Krug",
+    "blend": "kr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "circle",
+    "key": "circle",
+    "word": "Kreis",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "Krone",
+    "blend": "kr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "wreath",
+    "key": "wreath",
+    "word": "Kranz",
+    "blend": "kr"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "Krabbe",
+    "blend": "kr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "Krücken",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "tie",
+    "key": "tie",
+    "word": "Krawatte",
+    "blend": "kr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "Treppe",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "Trommel",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "Traktor",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "Trompete",
+    "blend": "tr"
+   }
+  ],
+  "fr": [
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "bras",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "brush",
+    "key": "brush",
+    "word": "brosse",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "brocoli",
+    "blend": "br"
+   },
+   {
+    "theme": "accessories",
+    "noun": "bracelet",
+    "key": "bracelet",
+    "word": "bracelet",
+    "blend": "br"
+   },
+   {
+    "theme": "accessories",
+    "noun": "suspenders",
+    "key": "suspenders",
+    "word": "bretelles",
+    "blend": "br"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "crabe",
+    "blend": "cr"
+   },
+   {
+    "theme": "breakfast",
+    "noun": "pancake",
+    "key": "pancake",
+    "word": "crêpe",
+    "blend": "cr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pencil",
+    "key": "pencil",
+    "word": "crayon",
+    "blend": "cr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "tie",
+    "key": "tie",
+    "word": "cravate",
+    "blend": "cr"
+   },
+   {
+    "theme": "ocean life",
+    "noun": "shrimp",
+    "key": "shrimp",
+    "word": "crevette",
+    "blend": "cr"
+   },
+   {
+    "theme": "bakery",
+    "noun": "croissant",
+    "key": "croissant",
+    "word": "croissant",
+    "blend": "cr"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "train",
+    "blend": "tr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "sleigh",
+    "key": "sleigh",
+    "word": "traîneau",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "tracteur",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triangle",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompette",
+    "blend": "tr"
+   }
+  ],
+  "es": [
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "flor",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "flauta",
+    "blend": "fl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "vase",
+    "key": "vase",
+    "word": "florero",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamenco",
+    "blend": "fl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "strawberry",
+    "key": "strawberry",
+    "word": "fresa",
+    "blend": "fr"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jar",
+    "key": "jar",
+    "word": "frasco",
+    "blend": "fr"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "raspberry",
+    "key": "raspberry",
+    "word": "frambuesa",
+    "blend": "fr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "sink",
+    "key": "sink",
+    "word": "fregadero",
+    "blend": "fr"
+   },
+   {
+    "theme": "summer",
+    "noun": "beach",
+    "key": "beach",
+    "word": "playa",
+    "blend": "pl"
+   },
+   {
+    "theme": "easter",
+    "noun": "feather",
+    "key": "feather",
+    "word": "pluma",
+    "blend": "pl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "plate",
+    "key": "plate",
+    "word": "plato",
+    "blend": "pl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "banana",
+    "key": "banana",
+    "word": "plátano",
+    "blend": "pl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "iron",
+    "key": "iron",
+    "word": "plancha",
+    "blend": "pl"
+   },
+   {
+    "theme": "space",
+    "noun": "planet",
+    "key": "planet",
+    "word": "planeta",
+    "blend": "pl"
+   },
+   {
+    "theme": "clothing",
+    "noun": "t-shirt",
+    "key": "t-shirt",
+    "word": "playera",
+    "blend": "pl"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "tren",
+    "blend": "tr"
+   },
+   {
+    "theme": "camping",
+    "noun": "log",
+    "key": "log",
+    "word": "tronco",
+    "blend": "tr"
+   },
+   {
+    "theme": "winter",
+    "noun": "sled",
+    "key": "sled",
+    "word": "trineo",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "tractor",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompeta",
+    "blend": "tr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mop",
+    "key": "mop",
+    "word": "trapeador",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triángulo",
+    "blend": "tr"
+   }
+  ],
+  "pt": [
+   {
+    "theme": "summer",
+    "noun": "beach",
+    "key": "beach",
+    "word": "praia",
+    "blend": "pr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "plate",
+    "key": "plate",
+    "word": "prato",
+    "blend": "pr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "present",
+    "key": "present",
+    "word": "presente",
+    "blend": "pr"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "sloth",
+    "key": "sloth",
+    "word": "preguiça",
+    "blend": "pr"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "trem",
+    "blend": "tr"
+   },
+   {
+    "theme": "winter",
+    "noun": "sled",
+    "key": "sled",
+    "word": "trenó",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "trator",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompete",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triângulo",
+    "blend": "tr"
+   }
+  ],
+  "it": [
+   {
+    "theme": "forest creatures",
+    "noun": "caterpillar",
+    "key": "caterpillar",
+    "word": "bruco",
+    "blend": "br"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jug",
+    "key": "jug",
+    "word": "brocca",
+    "blend": "br"
+   },
+   {
+    "theme": "body parts",
+    "noun": "arm",
+    "key": "arm",
+    "word": "braccio",
+    "blend": "br"
+   },
+   {
+    "theme": "zoo animals",
+    "noun": "sloth",
+    "key": "sloth",
+    "word": "bradipo",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "broccoli",
+    "blend": "br"
+   },
+   {
+    "theme": "accessories",
+    "noun": "suspenders",
+    "key": "suspenders",
+    "word": "bretelle",
+    "blend": "br"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "sponge",
+    "key": "sponge",
+    "word": "spugna",
+    "blend": "sp"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "spatula",
+    "key": "spatula",
+    "word": "spatola",
+    "blend": "sp"
+   },
+   {
+    "theme": "summer",
+    "noun": "beach",
+    "key": "beach",
+    "word": "spiaggia",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "brush",
+    "key": "brush",
+    "word": "spazzola",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mirror",
+    "key": "mirror",
+    "word": "specchio",
+    "blend": "sp"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "treno",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "tromba",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "trattore",
+    "blend": "tr"
+   },
+   {
+    "theme": "winter",
+    "noun": "walrus",
+    "key": "walrus",
+    "word": "tricheco",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triangolo",
+    "blend": "tr"
+   }
+  ],
+  "nl": [
+   {
+    "theme": "At the Supermarket",
+    "noun": "can",
+    "key": "can",
+    "word": "blik",
+    "blend": "bl"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "leaf",
+    "key": "leaf",
+    "word": "blad",
+    "blend": "bl"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "bloem",
+    "blend": "bl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "blender",
+    "key": "blender",
+    "word": "blender",
+    "blend": "bl"
+   },
+   {
+    "theme": "toys",
+    "noun": "blocks",
+    "key": "blocks",
+    "word": "blokken",
+    "blend": "bl"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cauliflower",
+    "key": "cauliflower",
+    "word": "bloemkool",
+    "blend": "bl"
+   },
+   {
+    "theme": "fruits",
+    "noun": "blackberry",
+    "key": "blackberry",
+    "word": "braam",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "brood",
+    "blend": "br"
+   },
+   {
+    "theme": "clothing",
+    "noun": "pants",
+    "key": "pants",
+    "word": "broek",
+    "blend": "br"
+   },
+   {
+    "theme": "bakery",
+    "noun": "bun",
+    "key": "bun",
+    "word": "broodje",
+    "blend": "br"
+   },
+   {
+    "theme": "accessories",
+    "noun": "suspenders",
+    "key": "suspenders",
+    "word": "bretels",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "broccoli",
+    "blend": "br"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "fles",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "fluit",
+    "blend": "fl"
+   },
+   {
+    "theme": "accessories",
+    "noun": "whistle",
+    "key": "whistle",
+    "word": "fluitje",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "krab",
+    "blend": "kr"
+   },
+   {
+    "theme": "furniture",
+    "noun": "stool",
+    "key": "stool",
+    "word": "kruk",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "kroon",
+    "blend": "kr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "faucet",
+    "key": "faucet",
+    "word": "kraan",
+    "blend": "kr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "wreath",
+    "key": "wreath",
+    "word": "krans",
+    "blend": "kr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "krukken",
+    "blend": "kr"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "lettuce",
+    "key": "lettuce",
+    "word": "sla",
+    "blend": "sl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "lock",
+    "key": "lock",
+    "word": "slot",
+    "blend": "sl"
+   },
+   {
+    "theme": "winter",
+    "noun": "sled",
+    "key": "sled",
+    "word": "slee",
+    "blend": "sl"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "slak",
+    "blend": "sl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "hose",
+    "key": "hose",
+    "word": "slang",
+    "blend": "sl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "key",
+    "key": "key",
+    "word": "sleutel",
+    "blend": "sl"
+   },
+   {
+    "theme": "beach",
+    "noun": "flip-flops",
+    "key": "flip-flops",
+    "word": "slippers",
+    "blend": "sl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bacon",
+    "key": "bacon",
+    "word": "spek",
+    "blend": "sp"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "spider",
+    "key": "spider",
+    "word": "spin",
+    "blend": "sp"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "ghost",
+    "key": "ghost",
+    "word": "spook",
+    "blend": "sp"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "sponge",
+    "key": "sponge",
+    "word": "spons",
+    "blend": "sp"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "spatula",
+    "key": "spatula",
+    "word": "spatel",
+    "blend": "sp"
+   },
+   {
+    "theme": "animals",
+    "noun": "woodpecker",
+    "key": "woodpecker",
+    "word": "specht",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mirror",
+    "key": "mirror",
+    "word": "spiegel",
+    "blend": "sp"
+   },
+   {
+    "theme": "toys",
+    "noun": "scooter",
+    "key": "scooter",
+    "word": "step",
+    "blend": "st"
+   },
+   {
+    "theme": "christmas",
+    "noun": "star",
+    "key": "star",
+    "word": "ster",
+    "blend": "st"
+   },
+   {
+    "theme": "farm animals",
+    "noun": "bull",
+    "key": "bull",
+    "word": "stier",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "chair",
+    "key": "chair",
+    "word": "stoel",
+    "blend": "st"
+   },
+   {
+    "theme": "classroom",
+    "noun": "marker",
+    "key": "marker",
+    "word": "stift",
+    "blend": "st"
+   },
+   {
+    "theme": "post office",
+    "noun": "stamp",
+    "key": "stamp",
+    "word": "stempel",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "trap",
+    "blend": "tr"
+   },
+   {
+    "theme": "clothing",
+    "noun": "sweater",
+    "key": "sweater",
+    "word": "trui",
+    "blend": "tr"
+   },
+   {
+    "theme": "toys",
+    "noun": "train",
+    "key": "train",
+    "word": "trein",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "trommel",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "tractor",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompet",
+    "blend": "tr"
+   }
+  ],
+  "sv": [
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "bröd",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "broccoli",
+    "blend": "br"
+   },
+   {
+    "theme": "occupations",
+    "noun": "firefighter",
+    "key": "firefighter",
+    "word": "brandman",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mailbox",
+    "key": "mailbox",
+    "word": "brevlåda",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "toaster",
+    "key": "toaster",
+    "word": "brödrost",
+    "blend": "br"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fan",
+    "key": "fan",
+    "word": "fläkt",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "flöjt",
+    "blend": "fl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "flaska",
+    "blend": "fl"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "flag",
+    "key": "flag",
+    "word": "flagga",
+    "blend": "fl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "cereal",
+    "key": "cereal",
+    "word": "flingor",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "flygplan",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "animals",
+    "noun": "hippopotamus",
+    "key": "hippopotamus",
+    "word": "flodhäst",
+    "blend": "fl"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "gräs",
+    "blend": "gr"
+   },
+   {
+    "theme": "animals",
+    "noun": "pig",
+    "key": "pig",
+    "word": "gris",
+    "blend": "gr"
+   },
+   {
+    "theme": "camping",
+    "noun": "frog",
+    "key": "frog",
+    "word": "groda",
+    "blend": "gr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "gate",
+    "key": "gate",
+    "word": "grind",
+    "blend": "gr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pot",
+    "key": "pot",
+    "word": "gryta",
+    "blend": "gr"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "grasshopper",
+    "key": "grasshopper",
+    "word": "gräshoppa",
+    "blend": "gr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "bell",
+    "key": "bell",
+    "word": "klocka",
+    "blend": "kl"
+   },
+   {
+    "theme": "desserts and sweets",
+    "noun": "lollipop",
+    "key": "lollipop",
+    "word": "klubba",
+    "blend": "kl"
+   },
+   {
+    "theme": "toys",
+    "noun": "blocks",
+    "key": "blocks",
+    "word": "klossar",
+    "blend": "kl"
+   },
+   {
+    "theme": "clothing",
+    "noun": "dress",
+    "key": "dress",
+    "word": "klänning",
+    "blend": "kl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "faucet",
+    "key": "faucet",
+    "word": "kran",
+    "blend": "kr"
+   },
+   {
+    "theme": "classroom",
+    "noun": "crayon",
+    "key": "crayon",
+    "word": "krita",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "krona",
+    "blend": "kr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "wreath",
+    "key": "wreath",
+    "word": "krans",
+    "blend": "kr"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "krabba",
+    "blend": "kr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "rake",
+    "key": "rake",
+    "word": "kratta",
+    "blend": "kr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "kryckor",
+    "blend": "kr"
+   },
+   {
+    "theme": "bakery",
+    "noun": "pretzel",
+    "key": "pretzel",
+    "word": "kringla",
+    "blend": "kr"
+   },
+   {
+    "theme": "beach",
+    "noun": "seashell",
+    "key": "seashell",
+    "word": "snäcka",
+    "blend": "sn"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "snigel",
+    "blend": "sn"
+   },
+   {
+    "theme": "beach",
+    "noun": "snorkel",
+    "key": "snorkel",
+    "word": "snorkel",
+    "blend": "sn"
+   },
+   {
+    "theme": "christmas",
+    "noun": "snowman",
+    "key": "snowman",
+    "word": "snögubbe",
+    "blend": "sn"
+   },
+   {
+    "theme": "weather",
+    "noun": "snowflake",
+    "key": "snowflake",
+    "word": "snöflinga",
+    "blend": "sn"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fireplace",
+    "key": "fireplace",
+    "word": "spis",
+    "blend": "sp"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "ghost",
+    "key": "ghost",
+    "word": "spöke",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "shovel",
+    "key": "shovel",
+    "word": "spade",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mirror",
+    "key": "mirror",
+    "word": "spegel",
+    "blend": "sp"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "asparagus",
+    "key": "asparagus",
+    "word": "sparris",
+    "blend": "sp"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "spider",
+    "key": "spider",
+    "word": "spindel",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "chair",
+    "key": "chair",
+    "word": "stol",
+    "blend": "st"
+   },
+   {
+    "theme": "camping",
+    "noun": "cabin",
+    "key": "cabin",
+    "word": "stuga",
+    "blend": "st"
+   },
+   {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stege",
+    "blend": "st"
+   },
+   {
+    "theme": "camping",
+    "noun": "log",
+    "key": "log",
+    "word": "stock",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "fence",
+    "key": "fence",
+    "word": "staket",
+    "blend": "st"
+   },
+   {
+    "theme": "camping",
+    "noun": "boots",
+    "key": "boots",
+    "word": "stövlar",
+    "blend": "st"
+   },
+   {
+    "theme": "post office",
+    "noun": "stamp",
+    "key": "stamp",
+    "word": "stämpel",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pan",
+    "key": "pan",
+    "word": "stekpanna",
+    "blend": "st"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "spatula",
+    "key": "spatula",
+    "word": "stekspade",
+    "blend": "st"
+   },
+   {
+    "theme": "clothing",
+    "noun": "sweater",
+    "key": "sweater",
+    "word": "tröja",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "trumma",
+    "blend": "tr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "trappa",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "traktor",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trumpet",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "triangel",
+    "blend": "tr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "wand",
+    "key": "wand",
+    "word": "trollstav",
+    "blend": "tr"
+   }
+  ],
+  "da": [
+   {
+    "theme": "miscellaneous",
+    "noun": "leaf",
+    "key": "leaf",
+    "word": "blad",
+    "blend": "bl"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "blomst",
+    "blend": "bl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pencil",
+    "key": "pencil",
+    "word": "blyant",
+    "blend": "bl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "blender",
+    "key": "blender",
+    "word": "blender",
+    "blend": "bl"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cauliflower",
+    "key": "cauliflower",
+    "word": "blomkål",
+    "blend": "bl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "brød",
+    "blend": "br"
+   },
+   {
+    "theme": "fruits",
+    "noun": "blackberry",
+    "key": "blackberry",
+    "word": "brombær",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "broccoli",
+    "blend": "br"
+   },
+   {
+    "theme": "occupations",
+    "noun": "firefighter",
+    "key": "firefighter",
+    "word": "brandmand",
+    "blend": "br"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "flag",
+    "key": "flag",
+    "word": "flag",
+    "blend": "fl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "flaske",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "fløjte",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "animals",
+    "noun": "hippopotamus",
+    "key": "hippopotamus",
+    "word": "flodhest",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "bat",
+    "key": "bat",
+    "word": "flagermus",
+    "blend": "fl"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "græs",
+    "blend": "gr"
+   },
+   {
+    "theme": "animals",
+    "noun": "pig",
+    "key": "pig",
+    "word": "gris",
+    "blend": "gr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pot",
+    "key": "pot",
+    "word": "gryde",
+    "blend": "gr"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pumpkin",
+    "key": "pumpkin",
+    "word": "græskar",
+    "blend": "gr"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "grasshopper",
+    "key": "grasshopper",
+    "word": "græshoppe",
+    "blend": "gr"
+   },
+   {
+    "theme": "camping",
+    "noun": "pinecone",
+    "key": "pinecone",
+    "word": "grankogle",
+    "blend": "gr"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "mug",
+    "key": "mug",
+    "word": "krus",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "krone",
+    "blend": "kr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "wreath",
+    "key": "wreath",
+    "word": "krans",
+    "blend": "kr"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "krabbe",
+    "blend": "kr"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jar",
+    "key": "jar",
+    "word": "krukke",
+    "blend": "kr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "krykker",
+    "blend": "kr"
+   },
+   {
+    "theme": "bakery",
+    "noun": "pretzel",
+    "key": "pretzel",
+    "word": "kringle",
+    "blend": "kr"
+   },
+   {
+    "theme": "clothing",
+    "noun": "shoe",
+    "key": "shoe",
+    "word": "sko",
+    "blend": "sk"
+   },
+   {
+    "theme": "around the house",
+    "noun": "bowl",
+    "key": "bowl",
+    "word": "skål",
+    "blend": "sk"
+   },
+   {
+    "theme": "around the house",
+    "noun": "closet",
+    "key": "closet",
+    "word": "skab",
+    "blend": "sk"
+   },
+   {
+    "theme": "camping",
+    "noun": "forest",
+    "key": "forest",
+    "word": "skov",
+    "blend": "sk"
+   },
+   {
+    "theme": "around the house",
+    "noun": "shovel",
+    "key": "shovel",
+    "word": "skovl",
+    "blend": "sk"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "candy",
+    "key": "candy",
+    "word": "slik",
+    "blend": "sl"
+   },
+   {
+    "theme": "winter",
+    "noun": "sled",
+    "key": "sled",
+    "word": "slæde",
+    "blend": "sl"
+   },
+   {
+    "theme": "accessories",
+    "noun": "tie",
+    "key": "tie",
+    "word": "slips",
+    "blend": "sl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "hose",
+    "key": "hose",
+    "word": "slange",
+    "blend": "sl"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "snegl",
+    "blend": "sn"
+   },
+   {
+    "theme": "beach",
+    "noun": "snorkel",
+    "key": "snorkel",
+    "word": "snorkel",
+    "blend": "sn"
+   },
+   {
+    "theme": "weather",
+    "noun": "snowflake",
+    "key": "snowflake",
+    "word": "snefnug",
+    "blend": "sn"
+   },
+   {
+    "theme": "christmas",
+    "noun": "snowman",
+    "key": "snowman",
+    "word": "snemand",
+    "blend": "sn"
+   },
+   {
+    "theme": "beach",
+    "noun": "bucket",
+    "key": "bucket",
+    "word": "spand",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "mirror",
+    "key": "mirror",
+    "word": "spejl",
+    "blend": "sp"
+   },
+   {
+    "theme": "animals",
+    "noun": "woodpecker",
+    "key": "woodpecker",
+    "word": "spætte",
+    "blend": "sp"
+   },
+   {
+    "theme": "miscellaneous",
+    "noun": "ghost",
+    "key": "ghost",
+    "word": "spøgelse",
+    "blend": "sp"
+   },
+   {
+    "theme": "around the house",
+    "noun": "chair",
+    "key": "chair",
+    "word": "stol",
+    "blend": "st"
+   },
+   {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stige",
+    "blend": "st"
+   },
+   {
+    "theme": "camping",
+    "noun": "boots",
+    "key": "boots",
+    "word": "støvler",
+    "blend": "st"
+   },
+   {
+    "theme": "post office",
+    "noun": "stamp",
+    "key": "stamp",
+    "word": "stempel",
+    "blend": "st"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "tromme",
+    "blend": "tr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "trappe",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "traktor",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "trekant",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompet",
+    "blend": "tr"
+   },
+   {
+    "theme": "camping",
+    "noun": "log",
+    "key": "log",
+    "word": "træstamme",
+    "blend": "tr"
+   }
+  ],
+  "no": [
+   {
+    "theme": "miscellaneous",
+    "noun": "leaf",
+    "key": "leaf",
+    "word": "blad",
+    "blend": "bl"
+   },
+   {
+    "theme": "easter",
+    "noun": "flower",
+    "key": "flower",
+    "word": "blomst",
+    "blend": "bl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pencil",
+    "key": "pencil",
+    "word": "blyant",
+    "blend": "bl"
+   },
+   {
+    "theme": "around the house",
+    "noun": "blender",
+    "key": "blender",
+    "word": "blender",
+    "blend": "bl"
+   },
+   {
+    "theme": "vegetables",
+    "noun": "cauliflower",
+    "key": "cauliflower",
+    "word": "blomkål",
+    "blend": "bl"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "bread",
+    "key": "bread",
+    "word": "brød",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "broccoli",
+    "key": "broccoli",
+    "word": "brokkoli",
+    "blend": "br"
+   },
+   {
+    "theme": "occupations",
+    "noun": "firefighter",
+    "key": "firefighter",
+    "word": "brannmann",
+    "blend": "br"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "raspberry",
+    "key": "raspberry",
+    "word": "bringebær",
+    "blend": "br"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "airplane",
+    "key": "airplane",
+    "word": "fly",
+    "blend": "fl"
+   },
+   {
+    "theme": "4th of July",
+    "noun": "flag",
+    "key": "flag",
+    "word": "flagg",
+    "blend": "fl"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "bottle",
+    "key": "bottle",
+    "word": "flaske",
+    "blend": "fl"
+   },
+   {
+    "theme": "music",
+    "noun": "flute",
+    "key": "flute",
+    "word": "fløyte",
+    "blend": "fl"
+   },
+   {
+    "theme": "Things That Fly",
+    "noun": "flamingo",
+    "key": "flamingo",
+    "word": "flamingo",
+    "blend": "fl"
+   },
+   {
+    "theme": "animals",
+    "noun": "hippopotamus",
+    "key": "hippopotamus",
+    "word": "flodhest",
+    "blend": "fl"
+   },
+   {
+    "theme": "animals",
+    "noun": "pig",
+    "key": "pig",
+    "word": "gris",
+    "blend": "gr"
+   },
+   {
+    "theme": "spring",
+    "noun": "grass",
+    "key": "grass",
+    "word": "gress",
+    "blend": "gr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "pot",
+    "key": "pot",
+    "word": "gryte",
+    "blend": "gr"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pumpkin",
+    "key": "pumpkin",
+    "word": "gresskar",
+    "blend": "gr"
+   },
+   {
+    "theme": "around the house",
+    "noun": "faucet",
+    "key": "faucet",
+    "word": "kran",
+    "blend": "kr"
+   },
+   {
+    "theme": "accessories",
+    "noun": "crown",
+    "key": "crown",
+    "word": "krone",
+    "blend": "kr"
+   },
+   {
+    "theme": "furniture",
+    "noun": "stool",
+    "key": "stool",
+    "word": "krakk",
+    "blend": "kr"
+   },
+   {
+    "theme": "christmas",
+    "noun": "wreath",
+    "key": "wreath",
+    "word": "krans",
+    "blend": "kr"
+   },
+   {
+    "theme": "beach",
+    "noun": "crab",
+    "key": "crab",
+    "word": "krabbe",
+    "blend": "kr"
+   },
+   {
+    "theme": "kitchen tools",
+    "noun": "jar",
+    "key": "jar",
+    "word": "krukke",
+    "blend": "kr"
+   },
+   {
+    "theme": "hospital",
+    "noun": "crutches",
+    "key": "crutches",
+    "word": "krykker",
+    "blend": "kr"
+   },
+   {
+    "theme": "bakery",
+    "noun": "pretzel",
+    "key": "pretzel",
+    "word": "kringle",
+    "blend": "kr"
+   },
+   {
+    "theme": "forest creatures",
+    "noun": "snail",
+    "key": "snail",
+    "word": "snegle",
+    "blend": "sn"
+   },
+   {
+    "theme": "beach",
+    "noun": "snorkel",
+    "key": "snorkel",
+    "word": "snorkel",
+    "blend": "sn"
+   },
+   {
+    "theme": "christmas",
+    "noun": "snowman",
+    "key": "snowman",
+    "word": "snømann",
+    "blend": "sn"
+   },
+   {
+    "theme": "weather",
+    "noun": "snowflake",
+    "key": "snowflake",
+    "word": "snøfnugg",
+    "blend": "sn"
+   },
+   {
+    "theme": "around the house",
+    "noun": "chair",
+    "key": "chair",
+    "word": "stol",
+    "blend": "st"
+   },
+   {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stige",
+    "blend": "st"
+   },
+   {
+    "theme": "beach",
+    "noun": "rock",
+    "key": "rock",
+    "word": "stein",
+    "blend": "st"
+   },
+   {
+    "theme": "camping",
+    "noun": "boots",
+    "key": "boots",
+    "word": "støvler",
+    "blend": "st"
+   },
+   {
+    "theme": "post office",
+    "noun": "stamp",
+    "key": "stamp",
+    "word": "stempel",
+    "blend": "st"
+   },
+   {
+    "theme": "around the house",
+    "noun": "stairs",
+    "key": "stairs",
+    "word": "trapp",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "drum",
+    "key": "drum",
+    "word": "tromme",
+    "blend": "tr"
+   },
+   {
+    "theme": "vehicles",
+    "noun": "tractor",
+    "key": "tractor",
+    "word": "traktor",
+    "blend": "tr"
+   },
+   {
+    "theme": "shapes",
+    "noun": "triangle",
+    "key": "triangle",
+    "word": "trekant",
+    "blend": "tr"
+   },
+   {
+    "theme": "music",
+    "noun": "trumpet",
+    "key": "trumpet",
+    "word": "trompet",
+    "blend": "tr"
+   }
+  ]
+ },
+ "refused": [
+  "fi"
+ ]
+}

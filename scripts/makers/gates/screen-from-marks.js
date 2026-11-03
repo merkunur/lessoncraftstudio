@@ -68,15 +68,17 @@ const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill
       const km = await page.evaluate(keyMarks);
       // a set's spare spaces are not answers: the set's numbers count
       // a blank box (optional, right when left empty) is not an answer the key writes
-      const plType = pl.parts.filter((p) => p.cls === 'type').flatMap((p) => p.items).filter((it) => !it.meta['data-lcs-set'] && !it.meta['data-lcs-blank']).concat(Object.values(pl.ctx.sets || {}).flat());
+      const plType = pl.parts.filter((p) => p.cls === 'type').flatMap((p) => p.items).filter((it) => !it.meta['data-lcs-set'] && !it.meta['data-lcs-blank']).concat(Object.values(pl.ctx.sets || {}).flat(), Object.values(pl.ctx.wsets || {}).flat());
       const plChoice = pl.parts.filter((p) => p.cls === 'choice').flatMap((p) => p.items).length;
       const plSelTrue = pl.parts.filter((p) => p.cls === 'select').flatMap((p) => p.items).filter((it) => it.answer).length;
       const plPair = pl.parts.filter((p) => p.cls === 'pair').flatMap((p) => p.items).length;
+      // a place target whose key WRITES its answer (the word glued into the box, K-545) counts as a written answer
+      const plPlace = pl.parts.filter((p) => p.cls === 'place').flatMap((p) => p.items).length;
       const plSelGroups = pl.parts.some((p) => p.cls === 'select' && p.countGroups);
       // the key marks (written answers, ringed choices, ring marks, badges) are what the screen grades; a key that
       // draws a SAMPLE instead of marks (a painted chart, drawn arcs) may mark less, never more
       const marked = km.ringedChoices + km.rings, graded = plChoice + plSelTrue;
-      if (km.written.length > plType.length) out.push('key parity: the key writes ' + km.written.length + ' answers, the screen types ' + plType.length);
+      if (km.written.length > plType.length + plPlace) out.push('key parity: the key writes ' + km.written.length + ' answers, the screen types ' + plType.length + (plPlace ? ' and places ' + plPlace : ''));
       if (km.written.length < plType.length && !km.samples) out.push('key parity: the screen types ' + plType.length + ' answers, the key writes ' + km.written.length + ' and draws no sample');
       if (marked > graded) out.push('key parity: the key rings ' + marked + ' things, the screen grades ' + graded + ' (' + plChoice + ' choices + ' + plSelTrue + ' selected rights)');
       if (marked < graded && !km.samples) out.push('key parity: the screen grades ' + graded + ' ringed things, the key rings ' + marked + ' and draws no sample');
@@ -142,9 +144,9 @@ const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill
       if (t.screen !== 'marks') continue;
       const type = require(path.join(REPO, t.file));
       const locs = (QUICK ? ['en'] : ['en', 'fi']).filter((l) => t.locales.includes(l));
-      for (const loc of locs) for (const d of t.screenLevels) for (const variant of QUICK ? [1] : [1, 2]) {
+      for (const loc of locs) for (const d of t.screenLevels.filter((x) => ((t.localeLevels && t.localeLevels[loc]) || t.levels).includes(x))) for (const variant of QUICK ? [1] : [1, 2]) {
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
-        const theme = t.themed ? t.themes[(variant - 1) % t.themes.length] : null;
+        const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[(variant - 1) % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
         const lu = ((t.units && t.units[loc]) || []).filter((u) => !t.unitLevels || t.unitLevels[u.id] === d);   // the level's units
         const unit = lu.length ? lu[variant % lu.length].id : null;
         const tag = `${t.id} ${loc} L${d} v${variant}`;

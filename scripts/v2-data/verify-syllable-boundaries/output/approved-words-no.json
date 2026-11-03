@@ -1,6 +1,6 @@
 {
   "locale": "no",
-  "generated_at": "2026-05-25T06:45:41.681Z",
+  "generated_at": "2026-11-03T06:42:39.998Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -11,7 +11,7 @@
     "curriculum-chunk-table-no"
   ],
   "count_approved": 829,
-  "count_quarantined": 434,
+  "count_quarantined": 436,
   "entries": [
     {
       "key": "accordion",
@@ -2967,16 +2967,16 @@
     },
     {
       "key": "brush",
-      "word": "borste",
+      "word": "børste",
       "split": [
-        "bors",
+        "børs",
         "te"
       ],
       "count": 2,
       "chunks": [
         [
           "b",
-          "o",
+          "ø",
           "r",
           "s"
         ],
@@ -2988,9 +2988,11 @@
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl"
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 3
+      "total_agreed": 4,
+      "wiktionary_ipa": "/bœʂtə/"
     },
     {
       "key": "bucket",
@@ -4773,37 +4775,6 @@
       "wiktionary_ipa": "/ˈçʏlːɪŋ/"
     },
     {
-      "key": "chicken",
-      "word": "kylling",
-      "split": [
-        "kyl",
-        "ling"
-      ],
-      "count": 2,
-      "chunks": [
-        [
-          "k",
-          "y",
-          "l"
-        ],
-        [
-          "l",
-          "i",
-          "ng"
-        ]
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
-      ],
-      "total_agreed": 5,
-      "nst_sampa": "\"\"CY$lIN",
-      "wiktionary_ipa": "/ˈçʏlːɪŋ/"
-    },
-    {
       "key": "chimpanzee",
       "word": "sjimpanse",
       "split": [
@@ -5619,6 +5590,30 @@
       "nst_sampa": "fOr$\"vI$r@t"
     },
     {
+      "key": "construction-crane",
+      "word": "kran",
+      "split": [
+        "kran"
+      ],
+      "count": 1,
+      "chunks": [
+        [
+          "k",
+          "r",
+          "a",
+          "n"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl",
+        "NST-syl-count"
+      ],
+      "total_agreed": 4,
+      "nst_sampa": "\"krA:n"
+    },
+    {
       "key": "construction-worker",
       "word": "bygningsarbeider",
       "split": [
@@ -6176,9 +6171,9 @@
     },
     {
       "key": "crow",
-      "word": "krake",
+      "word": "kråke",
       "split": [
-        "kra",
+        "krå",
         "ke"
       ],
       "count": 2,
@@ -6186,7 +6181,7 @@
         [
           "k",
           "r",
-          "a"
+          "å"
         ],
         [
           "k",
@@ -6197,12 +6192,10 @@
         "TeX",
         "rule",
         "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 5,
-      "nst_sampa": "\"\"krA:$k@",
-      "wiktionary_ipa": "/²kraː.ke/"
+      "total_agreed": 4,
+      "wiktionary_ipa": "/²kroːkə/"
     },
     {
       "key": "crown",
@@ -6446,12 +6439,13 @@
     },
     {
       "key": "cymbals",
-      "word": "cymbal",
+      "word": "cymbaler",
       "split": [
         "cym",
-        "bal"
+        "ba",
+        "ler"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
           "c",
@@ -6460,18 +6454,20 @@
         ],
         [
           "b",
-          "a",
-          "l"
+          "a"
+        ],
+        [
+          "l",
+          "e",
+          "r"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "sYm$\"bA:l"
+      "total_agreed": 3
     },
     {
       "key": "cypress-tree",
@@ -10372,9 +10368,9 @@
     },
     {
       "key": "hedgehog",
-      "word": "piggsvin",
+      "word": "pinnsvin",
       "split": [
-        "pigg",
+        "pinn",
         "svin"
       ],
       "count": 2,
@@ -10382,8 +10378,8 @@
         [
           "p",
           "i",
-          "g",
-          "g"
+          "n",
+          "n"
         ],
         [
           "s",
@@ -10395,11 +10391,9 @@
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"pIg$%svi:n"
+      "total_agreed": 3
     },
     {
       "key": "heel",
@@ -12796,11 +12790,11 @@
     },
     {
       "key": "lights",
-      "word": "lyslenke",
+      "word": "lyslenker",
       "split": [
         "lys",
         "len",
-        "ke"
+        "ker"
       ],
       "count": 3,
       "chunks": [
@@ -12816,7 +12810,8 @@
         ],
         [
           "k",
-          "e"
+          "e",
+          "r"
         ]
       ],
       "sources_agreed": [
@@ -14473,6 +14468,33 @@
       ],
       "total_agreed": 4,
       "nst_sampa": "\"n{*Il"
+    },
+    {
+      "key": "metal-nail",
+      "word": "spiker",
+      "split": [
+        "spi",
+        "ker"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "s",
+          "p",
+          "i"
+        ],
+        [
+          "k",
+          "e",
+          "r"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
     },
     {
       "key": "narwhal",
@@ -16757,37 +16779,6 @@
       ],
       "total_agreed": 4,
       "nst_sampa": "\"\"i:s$%pI$n@"
-    },
-    {
-      "key": "porcupine",
-      "word": "piggsvin",
-      "split": [
-        "pigg",
-        "svin"
-      ],
-      "count": 2,
-      "chunks": [
-        [
-          "p",
-          "i",
-          "g",
-          "g"
-        ],
-        [
-          "s",
-          "v",
-          "i",
-          "n"
-        ]
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"pIg$%svi:n"
     },
     {
       "key": "porridge",

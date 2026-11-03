@@ -874,7 +874,7 @@
       "correct": 0
      },
      {
-      "q": "Hvor finder Bonzo pinden?",
+      "q": "Hvor finder hunden pinden?",
       "choices": [
        "Ude i det kolde vand",
        "Under et træ",
@@ -883,11 +883,11 @@
       "correct": 1
      },
      {
-      "q": "Hvordan har Bonzo det, når han løber efter pinden?",
+      "q": "Hvordan har hunden det, når den løber efter pinden?",
       "choices": [
-       "Han er bange",
-       "Han er glad",
-       "Han er træt"
+       "Den er bange",
+       "Den er glad",
+       "Den er træt"
       ],
       "correct": 1
      }
@@ -1804,9 +1804,9 @@
      {
       "q": "Hvem tager Anna toget sammen med?",
       "choices": [
-       "Hendes mor",
-       "Hendes far",
-       "Hendes bror"
+       "Sin mor",
+       "Sin far",
+       "Sin bror"
       ],
       "correct": 1,
       "sentence": 1
@@ -1926,14 +1926,14 @@
       "sentence": 3
      },
      {
-      "q": "Hvad tager Mira med ind?",
+      "q": "Hvor kigger mor ind?",
       "choices": [
-       "Sine bøger",
-       "Sine dukker",
-       "Sine bamser"
+       "Gennem vinduet",
+       "Gennem en sprække",
+       "Over stolene"
       ],
-      "correct": 2,
-      "sentence": 4
+      "correct": 1,
+      "sentence": 5
      }
     ],
     "l3": {
@@ -2704,7 +2704,7 @@
       "correct": 0
      },
      {
-      "q": "Hvad er der galt med Stampes tand?",
+      "q": "Hvad er der galt med kaninens tand?",
       "choices": [
        "Den er løs og vakler meget",
        "Den er alt for lang",
@@ -2713,11 +2713,11 @@
       "correct": 1
      },
      {
-      "q": "Hvordan har Stampe det efter besøget?",
+      "q": "Hvordan har kaninen det efter besøget?",
       "choices": [
-       "Han har stadig ondt",
-       "Han har det bedre",
-       "Han er meget syg"
+       "Den har stadig ondt",
+       "Den har det bedre",
+       "Den er meget syg"
       ],
       "correct": 1
      }
@@ -3220,11 +3220,11 @@
       "correct": 0
      },
      {
-      "q": "Hvem løber op på siden af Sara?",
+      "q": "Hvad har Sara i hånden?",
       "choices": [
-       "Hendes lærer",
-       "Hendes veninde Rikke",
-       "Hendes storebror fra sjette klasse"
+       "En bold",
+       "En flaske vand",
+       "En is"
       ],
       "correct": 1
      },

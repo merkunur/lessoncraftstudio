@@ -60,7 +60,9 @@ function kite(k, marker) {
     el('path', { d: 'M100 46 L113 87 L100 100 L87 87 Z', fill: 'none', stroke: marker ? T.ink : T.teal, 'stroke-width': 2, 'stroke-linejoin': 'round' }));
 }
 
-function compassRose({ px = 196, rotation = 0, given = 'n', letters, reference = false, marker } = {}) {
+// keyFill (2026-11-03): the answer key writes each blank box's letter in teal (a drawn sample); typeMarks: the screen's
+// empty answer box over each blank (a <rect> without children — the screen engine types into empty marked elements)
+function compassRose({ px = 196, rotation = 0, given = 'n', letters, reference = false, marker, keyFill = false, typeMarks = false } = {}) {
   if (!ROTS.includes(rotation)) throw new Error(`compass-rose: rotation ${rotation} ∉ {0,90,180,270}`);
   if (!letters) throw new Error('compass-rose: no letters (the locale dirLetters)');
   for (const d of DIRS) if (typeof letters[d] !== 'string' || !letters[d].trim()) throw new Error(`compass-rose: letters.${d} missing`);
@@ -91,8 +93,9 @@ function compassRose({ px = 196, rotation = 0, given = 'n', letters, reference =
     const isGiven = dir === given;
     const attrs = { 'data-lcs-pos': pos, 'data-lcs-dir': dir, ...(isGiven ? { 'data-lcs-given': letter } : { 'data-lcs-answer': letter }) };
     parts.push(el('g', attrs,
-      el('rect', { x: cx - 20, y: cy - 20, width: 40, height: 40, rx: 8, ry: 8, fill: T.white, stroke: isGiven ? T.teal : T.coral, 'stroke-width': isGiven ? 2 : 2.5, 'stroke-dasharray': isGiven ? undefined : '6 4', 'data-lcs-box': '' }) +
-      (isGiven ? el('text', { x: cx, y: cy + 1, 'font-family': `${F.display}, cursive`, 'font-size': 26, 'font-weight': 700, fill: T.ink, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, letter) : '')));
+      el('rect', { x: cx - 20, y: cy - 20, width: 40, height: 40, rx: 8, ry: 8, fill: T.white, stroke: isGiven ? T.teal : T.coral, 'stroke-width': isGiven ? 2 : 2.5, 'stroke-dasharray': isGiven ? undefined : '6 4', 'data-lcs-box': '', ...(typeMarks && !isGiven ? { 'data-lcs-answer': letter } : {}) }) +
+      (isGiven ? el('text', { x: cx, y: cy + 1, 'font-family': `${F.display}, cursive`, 'font-size': 26, 'font-weight': 700, fill: T.ink, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, letter)
+        : keyFill ? el('text', { x: cx, y: cy + 1, 'font-family': `${F.display}, cursive`, 'font-size': 26, 'font-weight': 700, fill: T.teal, 'text-anchor': 'middle', 'dominant-baseline': 'central', 'data-lcs-key-sample': '' }, letter) : '')));
     boxes.push({ pos, dir, letter, given: isGiven });
   }
   const svg = svgRoot({ width: px, height: px, viewBox: `0 0 ${VIEW} ${VIEW}`, label: '' }, parts.join(''),

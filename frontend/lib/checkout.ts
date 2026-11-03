@@ -4,6 +4,11 @@
  * We use the HOSTED checkout links (no LS API integration — merchant-of-record
  * handles VAT/receipts/renewals). This helper decorates the base buy link with:
  *   - checkout[email]           — prefill for signed-in users
+ *   - checkout[custom][user_id] — the signed-in account; the webhook files the
+ *                                 subscription under THIS account even when the
+ *                                 buyer types another email at checkout
+ *                                 (2026-11-03: paid as one address, signed in as
+ *                                 another, stayed walled)
  *   - checkout[custom][locale]  — rides the webhook payload (meta.custom_data.locale)
  *                                 so the welcome/password email is sent in the
  *                                 buyer's language
@@ -16,6 +21,7 @@ const SITE = 'https://www.lessoncraftstudio.com';
 export function buildCheckoutUrl(opts: {
   locale: string;
   email?: string | null;
+  userId?: string | null;
   interval?: 'yearly' | 'monthly';
 }): string | null {
   const interval = opts.interval ?? 'yearly';
@@ -30,5 +36,6 @@ export function buildCheckoutUrl(opts: {
   url.searchParams.set('checkout[redirect_url]', `${SITE}/${opts.locale}/subscribe/thanks`);
   url.searchParams.set('checkout[custom][locale]', opts.locale);
   if (opts.email) url.searchParams.set('checkout[email]', opts.email);
+  if (opts.userId) url.searchParams.set('checkout[custom][user_id]', opts.userId);
   return url.toString();
 }

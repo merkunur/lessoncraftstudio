@@ -23,8 +23,8 @@ export default function CheckoutButtons() {
   const locale = useLocale();
   const { user } = useAuth();
 
-  const annualUrl = buildCheckoutUrl({ locale, email: user?.email, interval: 'yearly' });
-  const monthlyUrl = buildCheckoutUrl({ locale, email: user?.email, interval: 'monthly' });
+  const annualUrl = buildCheckoutUrl({ locale, email: user?.email, userId: user?.id, interval: 'yearly' });
+  const monthlyUrl = buildCheckoutUrl({ locale, email: user?.email, userId: user?.id, interval: 'monthly' });
 
   function onCheckoutClick(interval: 'yearly' | 'monthly') {
     try {

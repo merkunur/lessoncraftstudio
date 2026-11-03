@@ -205,6 +205,29 @@ async function resolveOrCreateUserByEmail(buyerEmail: string, buyerName: string 
 }
 
 /**
+ * The account a new subscription belongs to. The pricing page sends the signed-in account's id as checkout
+ * custom data (lib/checkout.ts → meta.custom_data.user_id); when it names an existing account, that account
+ * gets the subscription whatever email the buyer typed at checkout. Without it a buyer who typed another
+ * address got a second, unused account holding the subscription while the one they sign in with stayed
+ * walled (2026-11-03). The account is skipped when it already holds a DIFFERENT subscription that still
+ * grants access (a second purchase must not overwrite a live one) — the email path files that one.
+ */
+async function resolveSubscriber(customUserId: string, lsSubscriptionId: string, buyerEmail: string, buyerName: string | null) {
+  if (customUserId) {
+    const signedIn = await prisma.user.findUnique({ where: { id: customUserId }, include: { subscription: true } });
+    const held = signedIn?.subscription as any;
+    if (signedIn && (!held || held.lsSubscriptionId === lsSubscriptionId || !isSubscriptionUsable({ subscription: held }))) {
+      if (signedIn.email.toLowerCase() !== buyerEmail) {
+        console.log(`LS subscription_created: checkout email ${buyerEmail} differs from the signed-in account ${signedIn.email} — filing under the signed-in account`);
+      }
+      return { user: signedIn, isNewAccount: false };
+    }
+    if (!signedIn) console.warn(`LS subscription_created: checkout user_id ${customUserId} names no account — falling back to ${buyerEmail}`);
+  }
+  return resolveOrCreateUserByEmail(buyerEmail, buyerName);
+}
+
+/**
  * Bridge the LS Subscription state onto the legacy `user.subscriptionTier` field.
  *
  * The 2026-07 subscription launch writes the `Subscription` table, but the admin
@@ -272,7 +295,8 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
     // Interval from which product fired (separate monthly + yearly products).
     const billingInterval = Number(lsProductId) === SUBSCRIPTION_PRODUCT.monthlyProductId ? 'monthly' : 'yearly';
 
-    const { user, isNewAccount } = await resolveOrCreateUserByEmail(buyerEmail, buyerName);
+    const customUserId = String(payload.meta?.custom_data?.user_id || '').trim();
+    const { user, isNewAccount } = await resolveSubscriber(customUserId, lsSubscriptionId, buyerEmail, buyerName);
 
     // Upsert the Subscription row keyed by userId (User has @unique on userId in Subscription).
     // The lsSubscriptionId @unique constraint also catches duplicate-create races.

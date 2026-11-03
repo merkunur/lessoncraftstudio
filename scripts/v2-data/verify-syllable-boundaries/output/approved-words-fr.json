@@ -19311,21 +19311,26 @@
     },
     {
       "key": "woodpecker",
-      "word": "pic",
+      "word": "pivert",
       "split": [
-        "pic"
+        "pi",
+        "vert"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "pic"
+        "pi",
+        "vert"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "vocab_change": "2026-11-02 B5 review",
+        "was": "pic"
+      }
     },
     {
       "key": "worm",

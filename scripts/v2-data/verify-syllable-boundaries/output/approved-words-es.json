@@ -2213,15 +2213,15 @@
     },
     {
       "key": "boat",
-      "word": "bote",
+      "word": "lancha",
       "split": [
-        "bo",
-        "te"
+        "lan",
+        "cha"
       ],
       "count": 2,
       "chunks": [
-        "bo",
-        "te"
+        "lan",
+        "cha"
       ],
       "sources_agreed": [
         "rule",
@@ -2230,10 +2230,8 @@
       "total_agreed": 2,
       "rule_authoritative": true,
       "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bote"
-        ]
+        "vocab_change": "2026-11-02 B5 review",
+        "was": "bote"
       }
     },
     {

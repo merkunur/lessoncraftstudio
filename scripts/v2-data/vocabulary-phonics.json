@@ -268,8 +268,8 @@
     },
     "it": {
       "syl": 4,
-      "pat": "VVCVCCVCV",
-      "lc": 9
+      "pat": "VVCVV",
+      "lc": 5
     },
     "nl": {
       "syl": 2,
@@ -5360,11 +5360,11 @@
   },
   "beetroot": {
     "en": {
-      "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 8,
+      "syl": 1,
+      "pat": "CVC",
+      "lc": 4,
       "onset": "b",
-      "rime": "eetroot",
+      "rime": "eet",
       "vs": "long_e"
     },
     "de": {
@@ -7006,8 +7006,8 @@
     },
     "es": {
       "syl": 2,
-      "pat": "CVCV",
-      "lc": 4
+      "pat": "CVCCCV",
+      "lc": 6
     },
     "pt": {
       "syl": 2,
@@ -11564,9 +11564,9 @@
       "lc": 5
     },
     "it": {
-      "syl": 5,
-      "pat": "VCVCVCVCV",
-      "lc": 10
+      "syl": 3,
+      "pat": "CVCCCVCV",
+      "lc": 8
     },
     "nl": {
       "syl": 2,
@@ -74905,9 +74905,9 @@
       "lc": 6
     },
     "fr": {
-      "syl": 1,
-      "pat": "CVC",
-      "lc": 3
+      "syl": 2,
+      "pat": "CVCVCC",
+      "lc": 6
     },
     "es": {
       "syl": 3,

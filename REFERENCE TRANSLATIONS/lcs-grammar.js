@@ -376,7 +376,7 @@
     'behind':      { en: 'behind',      de: 'hinter',   fr: 'derrière', frFrame: 'A', es: 'detrás de', pt: 'atrás de', it: 'dietro',   nl: 'achter',  sv: 'bakom',     da: 'bag',          no: 'bak',          fi: 'takana' },
     'between':     { en: 'between',     de: 'zwischen', fr: 'entre',      frFrame: 'A', es: 'entre',         pt: 'entre',         it: 'tra',         nl: 'tussen',  sv: 'mellan',    da: 'mellem',       no: 'mellom',       fi: 'välissä' },
     'above':       { en: 'above',       de: 'über', fr: 'au-dessus', frFrame: 'B', es: 'por encima de', pt: 'acima de',      it: 'al di sopra di', nl: 'boven', sv: 'ovanför', da: 'over',      no: 'over',         fi: 'yläpuolella' },
-    'in front of': { en: 'in front of', de: 'vor',      fr: 'devant',     frFrame: 'A', es: 'delante de',    pt: 'na frente de',  it: 'davanti a',   nl: 'voor',    sv: 'framför', da: 'foran',     no: 'foran',        fi: 'edessä' }
+    'in front of': { en: 'in front of', de: 'vor',      fr: 'devant',     frFrame: 'A', es: 'enfrente de',   pt: 'na frente de',  it: 'davanti a',   nl: 'voor',    sv: 'framför', da: 'foran',     no: 'foran',        fi: 'edessä' }
   };
 
   // Keys that must never be a singular-frame landmark in article locales
@@ -563,7 +563,7 @@
     // reads as an engine part); fi rows carry the GENITIVE in slot 3 since
     // Finnish has no gender (custom-image cylinders still resolve to the
     // vocab's sylinteri + FI_GENITIVES.cylinder = sylinterin).
-    cylinder: { en: ['cylinder', 'cylinders'], de: ['Zylinder', 'Zylinder', 'm'], fr: ['cylindre', 'cylindres', 'm'], es: ['cilindro', 'cilindros', 'm'], pt: ['cilindro', 'cilindros', 'm'], it: ['cilindro', 'cilindri', 'm'], nl: ['cilinder', 'cilinders', 'd'], sv: ['cylinder', 'cylindrar', 'n'], da: ['cylinder', 'cylindre', 'n'], no: ['sylinder', 'sylindere', 'm'], fi: ['lieriö', 'lieriöt', 'lieriön'] },
+    cylinder: { en: ['cylinder', 'cylinders'], de: ['Zylinder', 'Zylinder', 'm'], fr: ['cylindre', 'cylindres', 'm'], es: ['cilindro', 'cilindros', 'm'], pt: ['cilindro', 'cilindros', 'm'], it: ['cilindro', 'cilindri', 'm'], nl: ['cilinder', 'cilinders', 'd'], sv: ['cylinder', 'cylindrar', 'n'], da: ['cylinder', 'cylindre', 'n'], no: ['sylinder', 'sylindrer', 'm'], fi: ['lieriö', 'lieriöt', 'lieriön'] },
     heart:    { en: ['heart', 'hearts'], de: ['Herz', 'Herzen', 'n'], fr: ['cœur', 'cœurs', 'm'], es: ['corazón', 'corazones', 'm'], pt: ['coração', 'corações', 'm'], it: ['cuore', 'cuori', 'm'], nl: ['hart', 'harten', 'h'], sv: ['hjärta', 'hjärtan', 't'], da: ['hjerte', 'hjerter', 't'], no: ['hjerte', 'hjerter', 'n'], fi: ['sydän', 'sydämet'] },
     hexagon:  { en: ['hexagon', 'hexagons'], de: ['Sechseck', 'Sechsecke', 'n'], fr: ['hexagone', 'hexagones', 'm'], es: ['hexágono', 'hexágonos', 'm'], pt: ['hexágono', 'hexágonos', 'm'], it: ['esagono', 'esagoni', 'm'], nl: ['zeshoek', 'zeshoeken', 'd'], sv: ['sexhörning', 'sexhörningar', 'n'], da: ['sekskant', 'sekskanter', 'n'], no: ['sekskant', 'sekskanter', 'm'], fi: ['kuusikulmio', 'kuusikulmiot'] },
     square:   { en: ['square', 'squares'], de: ['Quadrat', 'Quadrate', 'n'], fr: ['carré', 'carrés', 'm'], es: ['cuadrado', 'cuadrados', 'm'], pt: ['quadrado', 'quadrados', 'm'], it: ['quadrato', 'quadrati', 'm'], nl: ['vierkant', 'vierkanten', 'h'], sv: ['kvadrat', 'kvadrater', 'n'], da: ['kvadrat', 'kvadrater', 't'], no: ['kvadrat', 'kvadrater', 'n'], fi: ['neliö', 'neliöt'] },

@@ -1,6 +1,6 @@
 {
   "locale": "en",
-  "generated_at": "2026-06-13T22:00:29.148Z",
+  "generated_at": "2026-11-02T19:00:41.260Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -8,7 +8,7 @@
     "vocabulary-phonics-syl-cross-check"
   ],
   "count_approved": 910,
-  "count_quarantined": 353,
+  "count_quarantined": 355,
   "entries": [
     {
       "key": "acorn",
@@ -1547,15 +1547,13 @@
     },
     {
       "key": "beetroot",
-      "word": "beetroot",
+      "word": "beet",
       "split": [
-        "beet",
-        "root"
+        "beet"
       ],
-      "count": 2,
+      "count": 1,
       "chunks": [
-        "beet",
-        "root"
+        "beet"
       ],
       "sources_agreed": [
         "TeX",

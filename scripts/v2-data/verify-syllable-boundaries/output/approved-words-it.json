@@ -3701,29 +3701,28 @@
     },
     {
       "key": "car",
-      "word": "automobile",
+      "word": "macchina",
       "split": [
-        "au",
-        "to",
-        "mo",
-        "bi",
-        "le"
+        "mac",
+        "chi",
+        "na"
       ],
-      "count": 5,
+      "count": 3,
       "chunks": [
-        "au",
-        "to",
-        "mo",
-        "bi",
-        "le"
+        "mac",
+        "chi",
+        "na"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "vocab_change": "2026-11-02 B5 review",
+        "was": "automobile"
+      }
     },
     {
       "key": "card",

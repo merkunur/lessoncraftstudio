@@ -15,6 +15,7 @@ const { refusedPicture } = require('../../lib/picture-refusals.js');
 
 // the review of picture words (exclusions, nouns only, no phrases, published swaps): lib/picture-word-review.js
 const { WORD_EXCLUDE: WT_EXCLUDE, isPhrase, isNonNoun, PAGE_SWAP } = require('../../lib/picture-word-review.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-284',
@@ -87,8 +88,10 @@ module.exports = {
       if (!alt) throw new Error(`K-284: no clean word to replace "${picks[i].word}" (${loc} ${theme} d${difficulty}) — refused`);
       picks[i] = alt;
     }
+    // a teacher's picture choice (maker), else as drawn — after the published page's swaps, so those stay as they were
+    const chosen = slot.pictures(ctx, picks, pool, theme);
     const laneW = 660 - d.cardW - 14;
-    const rows = picks.map((e) => {
+    const rows = chosen.map((e, i) => {
       const rot = (rng.next() * 8 - 4).toFixed(1);
       let card;
       if (d.caption) {
@@ -114,13 +117,13 @@ module.exports = {
       const extraEmpty = d.caption
         ? strokeWordLane({ text: e.word, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: 0, stack: true, emptyLast: true, padLeft: 10 }).svg
         : '';
-      return `<div class="ws-trace-lane" style="display:flex;align-items:center;gap:14px;height:${d.rowH}px" ` +
+      return `<div class="ws-trace-lane" style="display:flex;align-items:center;gap:14px;height:${d.rowH}px"${slot.attr(ctx, 'pic', i)} ` +
         `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-case="${/^\p{Lu}/u.test(e.word) ? 'upper' : 'lower'}"${d.case ? ` data-lcs-casemode="${d.case}"` : ''}>` +
         card + `<div style="display:flex;flex-direction:column;gap:2px" data-lcs-lanes>${lane.svg}${extraEmpty}</div></div>`;
     });
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:8px">${rows.join('')}</div>`,
-      meta: { words: picks.map((e) => e.word) },
+      meta: { words: chosen.map((e) => e.word) },
     };
   },
 

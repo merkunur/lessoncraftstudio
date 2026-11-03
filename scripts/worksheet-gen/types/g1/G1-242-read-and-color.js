@@ -17,6 +17,7 @@ const { entriesFor, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
 const SB = require('../../lib/sentence-bank.js');
+const slot = require('../../lib/slot.js');
 
 const COLOR_KEYS = ['red', 'blue', 'yellow', 'green', 'orange', 'purple', 'brown', 'pink'];
 // in LINE ART the round fruits are one silhouette; a distractor must never be a lookalike of the target
@@ -82,6 +83,16 @@ module.exports = {
       cs.forEach((c, i) => { colorKeys[i] = c; });
     }
     if (!targets) throw new Error(`G1-242: no target set on ${theme}/${loc} without a same-thing pair and a real colour`);
+    // a teacher's pictures (maker): a theme noun the frames can name — refused beside its own kind (pig + piglet) or where no
+    // colour order keeps every picture out of its own real colour
+    {
+      const chosen = slot.pictures(ctx, targets, entries, theme);
+      if (chosen.some((e, i) => e !== targets[i])) {
+        const cs = baseColors.slice();
+        if (pairFree(chosen) && RCL.avoidNatural(chosen.map((e) => e.vocabKey), cs, COLOR_KEYS.slice(0, d.colors))) { targets = chosen; cs.forEach((c, i) => { colorKeys[i] = c; }); }
+        else { slot.pictures({ ...ctx, overrides: null }, targets, entries, theme); slot.refuse(ctx, 'pic'); }
+      }
+    }
     const frames = SB.pickFrames(bank, { kind: 'color', count: 1, rng });
     const framePool = bank.frames.filter((f) => f.kind === 'color');
     const confus = (a, b) => CONFUSABLES.some((g) => g.includes(a) && g.includes(b)) || (a !== b && RCL.confusable(a, b));
@@ -108,7 +119,7 @@ module.exports = {
         // asks to tap exactly those
         `<img class="ws-icon" src="${fileUri(theme, it.e.noun)}" alt="" data-lcs-noun="${it.e.vocabKey}" data-lcs-pick${it.target ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
         `style="width:${d.icon}px;height:${d.icon}px;transform:rotate(${(rng.next() * 12 - 6).toFixed(1)}deg)">`).join('');
-      return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:10px 8px 4px" data-lcs-item>` +
+      return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:10px 8px 4px"${slot.attr(ctx, 'pic', i)} data-lcs-item>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.4;color:#3A3530;margin:0;min-height:${d.font * 2.8}px;padding-left:22px" data-lcs-sentence>${SB.fillFrame('', {}) + sentence}</p>` +
         `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;align-content:flex-start" data-lcs-strip data-lcs-n="${n}" data-lcs-noun="${e.vocabKey}" ` +
         `data-lcs-color="${colorKey}" data-lcs-noun-text="${nounText}" data-lcs-color-text="${colorText}">${strip}</div></div>`;

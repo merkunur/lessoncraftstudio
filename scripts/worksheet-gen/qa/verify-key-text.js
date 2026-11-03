@@ -77,12 +77,23 @@ async function main() {
       const keyType = { ...type, interactive: undefined, verify: undefined, build: (o, ctx) => type.build(o, { ...ctx, answerKey: true }) };
       const base = `${type.id}-d${d}-${loc}`;
       let r;
-      // themed types: the first theme the page accepts (a type legitimately refuses some themes)
-      const themes = type.themeAxis && type.themeAxis.applicable ? ['animals', 'fruits', 'food', 'toys', 'vehicles', 'clothing'] : [null];
+      // themed types: the first theme the page accepts (a type legitimately refuses some themes) — the six usual themes, then
+      // the other colour themes of the library (2026-11-03: K-318 level 1 in de draws from none of the six); a unit-axis type
+      // also tries the level's units (a Color by Number design belongs to ONE level — the maker only offers it there). A
+      // refusal ends the search at once (a language that refuses the type refuses it on every theme)
+      let themes = [null];
+      if (type.themeAxis && type.themeAxis.applicable) {
+        const first = ['animals', 'fruits', 'food', 'toys', 'vehicles', 'clothing'];
+        const more = Object.keys(require('../image-cache/resolve.js').manifest().themes).filter((t) => !/\sbw(\s+\d+)?$/i.test(t) && !first.includes(t)).sort().slice(0, 40);
+        themes = [...first, ...more];
+      }
+      let units = [null];
+      try { if (type.unitAxis && type.unitAxis.applicable && type.unitAxis.units) units = [null, ...type.unitAxis.units(loc)]; } catch (e) { /* no unit list in this language */ }
+      const REFUSAL = /refus|REFUSED|no difficulty|cannot deal|cannot satisfy|past the \d+ shares/i;
       let last = null;
-      for (const theme of themes) {
-        try { r = await renderInstance({ type: keyType, theme, difficulty: d, locale: loc, unit: null, variant: 2, seedVariant: 2, page, outDir: OUT, baseName: base }); break; }
-        catch (e) { last = e; }
+      search: for (const unit of units) for (const theme of themes) {
+        try { r = await renderInstance({ type: keyType, theme, difficulty: d, locale: loc, unit, variant: 2, seedVariant: 2, page, outDir: OUT, baseName: base }); break search; }
+        catch (e) { last = e; if (REFUSAL.test(e.message)) break search; }
       }
       if (!r) { if (!/refus|REFUSED|no difficulty|cannot deal|cannot satisfy|past the \d+ shares/i.test(last.message)) fails.push(`${base}: render threw ${last.message.slice(0, 120)}`); continue; }
       pages++;

@@ -10,6 +10,7 @@
  */
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
+const slot = require('../../lib/slot.js');
 const { CALENDAR } = require('../../data/b2/calendar.js');
 const { CAL_NEW, SUBJECT_PICTURES, SUBJECT_THEME } = require('../../data/calendar/calendar-new.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -37,10 +38,11 @@ module.exports = {
     const days = [1, 2, 3, 4, 5].map((i) => C.dayNames[i]);                     // Monday … Friday (Sunday-first names)
     const dayIn = (k) => (N.dayIn ? N.dayIn[k] : days[k]);
     // the week: five lessons (level 3: four, one of them on two days that are not neighbours)
-    let week;
-    if (!d.twice) week = rng.sample(SUBJECTS, 5);
+    // a teacher's lessons (maker): each drawn lesson is a slot over the subjects, else as drawn
+    let week, four = null;
+    if (!d.twice) week = slot.words(ctx, rng.sample(SUBJECTS, 5), SUBJECTS, 'subject');
     else {
-      const four = rng.sample(SUBJECTS, 4);
+      four = slot.words(ctx, rng.sample(SUBJECTS, 4), SUBJECTS, 'subject');
       for (let t = 0; t < 200; t++) {
         const w = rng.shuffle([...four, four[0]]);
         const at = w.map((s, i) => (s === four[0] ? i : -1)).filter((i) => i >= 0);
@@ -55,7 +57,7 @@ module.exports = {
     // the table
     const table = `<div data-lcs-timetable style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;background:${T.grid};border:3px solid ${T.teal};border-radius:12px;overflow:hidden">` +
       days.map((n) => `<div style="background:${T.teal};color:#FFFFFF;text-align:center;font:700 ${[...n].length > 9 ? 15 : 19}px/1.1 'Baloo 2',cursive;padding:9px 4px;overflow-wrap:anywhere">${esc(n.charAt(0).toLocaleUpperCase(L) + n.slice(1))}</div>`).join('') +
-      week.map((s, i) => `<div data-lcs-tt-day="${i}" data-lcs-tt-subject="${s}" style="background:#FFFFFF;display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px">${pic(s, 92)}<span style="font:700 ${[...N.subjects[s]].length > 12 ? 14 : 17}px/1.15 'Nunito',sans-serif;color:${T.ink};text-align:center;overflow-wrap:anywhere">${esc(N.subjects[s])}</span></div>`).join('') + '</div>';
+      week.map((s, i) => `<div data-lcs-tt-day="${i}" data-lcs-tt-subject="${s}"${slot.attr(ctx, 'subject', four ? four.indexOf(s) : i)} style="background:#FFFFFF;display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px">${pic(s, 92)}<span style="font:700 ${[...N.subjects[s]].length > 12 ? 14 : 17}px/1.15 'Nunito',sans-serif;color:${T.ink};text-align:center;overflow-wrap:anywhere">${esc(N.subjects[s])}</span></div>`).join('') + '</div>';
     // the questions: day-questions on lessons the week holds once, lesson-questions on days whose lessons differ
     const pickOnce = rng.shuffle(once.filter((s) => week.includes(s)));
     // a lesson-question never asks the day of a day-question (on which day is swimming? / what is on Thursday? would

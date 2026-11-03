@@ -52,6 +52,8 @@ const { textWidthEm } = require('../../primitives/bankword-width.js');
 
 /** Lines a Nunito-800 literal needs in a column (greedy word wrap on the MEASURED advances);
  *  99 when one word alone is wider than the column. */
+const slot = require('../../lib/slot.js');
+
 function linesNeeded(s, px, w) {
   const sp = textWidthEm(' ') * px;
   let n = 1, cur = 0;
@@ -260,7 +262,7 @@ module.exports = {
         if (o.color != null) {
           const w = COLOR_WORDS[loc] && COLOR_WORDS[loc][o.color];
           if (typeof w !== 'string' || !w.trim() || w.includes('{') || /\d/.test(w)) continue;
-          live.push({ key: 'color:' + o.color, color: o.color, label: w });
+          live.push({ key: 'color:' + o.color, color: o.color, label: w, word: w });
           continue;
         }
         if (BW_MARKER.test(String(o.theme))) throw new Error(`K-323 favourites: option ${o.theme}/${o.noun} comes from a B&W directory`);
@@ -276,21 +278,25 @@ module.exports = {
         if (bw) {
           const t = bwSibling(o.theme, o.noun, key);
           if (!t) continue;                                     // no line-art sibling: the option drops on a line-art copy
-          live.push({ key, src: fileUri(t, o.noun), label: w });
+          live.push({ key, src: fileUri(t, o.noun), label: w, word: w });
           continue;
         }
-        live.push({ key, src: fileUri(o.theme, o.noun), label: w });
+        live.push({ key, src: fileUri(o.theme, o.noun), label: w, word: w });
       }
       if (live.length < perRow) {
         if (setCats) throw new Error(`K-323 favourites: ${loc} "${cat}" keeps ${live.length} labelled options < ${perRow} (a new-question copy prints all its rows)`);
         continue;                                               // the category drops (design §3 F1 refusal)
       }
-      const chosen = rng.sample(live, perRow);
+      let chosen = rng.sample(live, perRow);
+      // a teacher's favourites (maker): the row's own options; never a picture or a word another row already shows
+      const role = 'row' + rows.length, mine = slot.words(ctx, chosen, live, role);
+      if (mine.some((o, i) => o !== chosen[i] && (usedKeys.has(o.key) || usedLabels.has(String(o.label).toLocaleLowerCase(loc))))) { slot.words(ctx && { ...ctx, overrides: null }, chosen, live, role); slot.refuse(ctx, role); } else chosen = mine;
       chosen.forEach((o) => { usedKeys.add(o.key); usedLabels.add(String(o.label).toLocaleLowerCase(loc)); });
-      rows.push({ cat, heading, options: chosen });
+      rows.push({ cat, heading, options: chosen, role });
     }
     if (rows.length < 2) throw new Error(`K-323 favourites: ${loc} keeps ${rows.length} category with >= ${perRow} labelled options (< 2: refuse)`);
-    const inner = rows.map((r) => C3.aboutMeFavouriteRow({ category: r.cat, heading: r.heading, options: r.options, glyphH: d.glyphH, laneW: copyW, minH: d.favRowMin, headingPx: d.headingPx, tile, tileH, pic, gap, center: perRow < 6 })).join('');
+    const tapOpts = (r, html) => (ctx.slotsOut ? html.replace(/ data-lcs-opt="([^"]+)"/g, (m, k) => m + slot.attr(ctx, r.role, r.options.findIndex((o) => o.key === k))) : html);
+    const inner = rows.map((r) => tapOpts(r, C3.aboutMeFavouriteRow({ category: r.cat, heading: r.heading, options: r.options, glyphH: d.glyphH, laneW: copyW, minH: d.favRowMin, headingPx: d.headingPx, tile, tileH, pic, gap, center: perRow < 6 }))).join('');
     const bodyHtml = this._root(loc, 'favourites',
       `${bw ? 'data-lcs-art="bw" ' : ''}data-lcs-rows="${rows.length}" data-lcs-per="${perRow}" data-lcs-pic="${pic}" data-lcs-tile="${tile}" data-lcs-label-cap="${FACE_LABEL_CAP}" data-lcs-heading-px="${d.headingPx}" data-lcs-glyph-h="${d.glyphH}"`,
       `display:grid;grid-template-rows:repeat(${rows.length},minmax(${d.favRowMin}px,1fr));gap:12px`, inner);
@@ -398,12 +404,12 @@ module.exports = {
         continue;
       }
       if (!a.cue || BW_MARKER.test(String(a.cue.theme))) throw new Error(`K-323 ican: action ${a.id} cue is in a B&W directory`);
-      live.push({ id: a.id, literal: s, src: cues ? fileUri(a.cue.theme, a.cue.noun) : null });
+      live.push({ id: a.id, literal: s, word: s, src: cues ? fileUri(a.cue.theme, a.cue.noun) : null });
     }
     if (live.length < d.cards) throw new Error(`K-323 ican: ${loc} authors ${live.length} can literals < ${d.cards} (refuse, never a vocab fallback)`);
     if (domainIds && live.length !== d.cards) throw new Error(`K-323 ican: ${loc} domain page has ${live.length} sentences, needs ${d.cards}`);
-    const chosen = domainIds ? rng.shuffle(live) : rng.sample(live, d.cards);
-    const cards = chosen.map((a) => C3.aboutMeCanRow({ id: a.id, src: a.src, literal: a.literal, tick: d.tick, pic: d.pic, textW: d.textW, literalPx: d.literalPx }));
+    const chosen = slot.words(ctx, domainIds ? rng.shuffle(live) : rng.sample(live, d.cards), live, 'can');   // a teacher's sentences (maker)
+    const cards = chosen.map((a, ai) => slot.stamp(ctx, 'can', ai, C3.aboutMeCanRow({ id: a.id, src: a.src, literal: a.literal, tick: d.tick, pic: d.pic, textW: d.textW, literalPx: d.literalPx })));
     const inner = C3.aboutMeCanGrid({ cards, minRow: d.rowMin }) + C3.aboutMeWantLane({ label: literal(L, 'wantLearn', loc), glyphH: d.glyphH, h: d.laneH });
     const bodyHtml = this._root(loc, 'ican', `${cues ? '' : 'data-lcs-cues="0" '}data-lcs-cards="${d.cards}" data-lcs-tick="${d.tick}" data-lcs-pic="${d.pic}" data-lcs-text-w="${d.textW}" data-lcs-literal-px="${d.literalPx}"`,
       'display:flex;flex-direction:column;gap:12px', inner);

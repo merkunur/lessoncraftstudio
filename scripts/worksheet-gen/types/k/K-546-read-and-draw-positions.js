@@ -8,6 +8,7 @@
 'use strict';
 const P = require('../_shared/position-scenes.js');
 const { positionItems, sentenceHtml } = require('../_shared/position-items.js');
+const slot = require('../../lib/slot.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -25,10 +26,10 @@ module.exports = {
 
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], L = A.loc2(locale);
-    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng: ctx.rng });
+    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng: ctx.rng, ctx });
     const key = !!(ctx && ctx.answerKey);
     const h = d.rows <= 4 ? 150 : d.rows === 5 ? 124 : 104;
-    const rows = items.map((it) => `<div data-lcs-draw-row="${it.prep}" style="display:flex;align-items:center;gap:16px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
+    const rows = items.map((it, ri) => `<div data-lcs-draw-row="${it.prep}"${slot.attr(ctx, 'pic', ri)} style="display:flex;align-items:center;gap:16px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
       `<div style="flex:1 1 auto;min-width:0;font:700 22px/1.35 'Baloo 2',cursive;color:${T.ink}">${sentenceHtml(it, `<span>${it.sent.expected}</span>`, 38)}</div>` +
       `<div style="flex:0 0 auto;border:2px dashed ${T.grid};border-radius:12px;background:#FFFFFF">${P.scene(it.prep, it.shape, it.src, { w: 250, h, s: Math.round(h * 0.5), o: Math.round(h * 0.38), noObject: true, keyObject: key })}</div></div>`);
     return {

@@ -8,6 +8,7 @@
  * Levels: 1 four sentences · 2 six sentences · 3 four sentences, each written again on a line.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { SENTENCES, CAPITAL_RULE } = require('../../data/grammar/grammar-tables.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const A = require('../_shared/alphabet-more.js');
@@ -47,12 +48,18 @@ module.exports = {
     picks.push(...plain.slice(0, d.n - picks.length));
     if (picks.length < d.n) throw new Error(`G1-498: ${L} has ${picks.length} sentences (< ${d.n})`);
     rng.shuffle(picks).forEach((x, i) => { picks[i] = x; });
+    // a teacher's sentences (maker): a sentence with a capital inside for one of those ('in'), one whose only capital is the first
+    // word for one of those ('first'); the page keeps a sentence with a capital in the middle
+    const textOf = (toks) => toks.map((t) => t.w).join(' ');   // a sentence's key: its words
+    all.forEach((t) => { t.word = textOf(t); });
+    const KS = slot.byKind(ctx, picks, (x) => (caps(x).length ? 'in' : 'first'), (k) => (k === 'in' ? inner : plain), { words: true, prefix: 'c', page: (out) => !midFirst.length || out.some((x) => midFirst.includes(x)) });
+    KS.items.forEach((x, i) => { picks[i] = x; });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const html = picks.map((toks, i) => {
       const words = toks.filter((t) => t.tag !== '.');
       const spans = words.map((t, k) => `<span data-lcs-pick="1"${mark && needs(t, k) ? ' data-lcs-correct="1"' : ''} data-lcs-cap="${needs(t, k) ? 1 : 0}" style="display:inline-block;padding:4px 8px;margin:3px 2px;border-radius:12px;font:700 ${d.rewrite ? 26 : 28}px/1.2 'Baloo 2',cursive;color:${T.ink}">${t.w.toLocaleLowerCase(L)}</span>`).join('');
       const line = d.rewrite ? `<div style="margin-top:4px">${writingRow({ w: 640, h: 60, glyphH: 30, xHeight: true }).svg}</div>` : '';
-      return `<div data-lcs-cap-sentence="${i + 1}" style="padding:6px 12px;border-radius:14px;background:${T.cream}">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span>${line}</div>`;
+      return `<div data-lcs-cap-sentence="${i + 1}"${KS.tap(i)} style="padding:6px 12px;border-radius:14px;background:${T.cream}">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span>${line}</div>`;
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-capitals style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px;min-height:0">${html.join('')}</div>`,

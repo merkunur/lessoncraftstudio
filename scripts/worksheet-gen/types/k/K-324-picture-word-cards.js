@@ -66,6 +66,7 @@ const { approvedByKey, texAgreed, daStrict } = require('../../lib/b3-common.js')
 const { ARTICLES } = require('../../data/b2/articles.js');
 const { esc } = require('../../primitives/_svg.js');
 const C3 = require('../../templates/components-b3.js');
+const slot = require('../../lib/slot.js');
 const tokens = require('../../primitives/_tokens.js');
 
 const BANK = 'picture-word-cards';
@@ -189,7 +190,7 @@ module.exports = {
     const innerW = cellW - 2 * d.pad;
     const stamps = ` data-lcs-case="${cardCase}" data-lcs-cellw="${cellW}" data-lcs-cellh="${cellH}" data-lcs-pad="${d.pad}"` +
       (bwTheme && !published ? ' data-lcs-bw="1"' : '') + (d.blankArticle || d.blankPlural ? ' data-lcs-blank-level="1"' : '');
-    const geo = { d, theme, loc, rng, cardCase, exclude, cellW, cellH, innerW, stamps };
+    const geo = { d, theme, loc, rng, cardCase, exclude, cellW, cellH, innerW, stamps, ctx };
     if (d.kind === 'article') return this._buildArticle(bank, geo);
     if (d.kind === 'plural') return this._buildPlural(bank, geo);
     if (d.kind === 'bilingual') return this._buildBilingual(bank, geo, unit);
@@ -203,17 +204,17 @@ module.exports = {
     const refused = [];
     pool = pool.map((e) => ({ ...e, lines: C3.labelLines(e.word, { cap: d.cap, lineCap: d.lineCap, maxLines: d.maxLines }) }))
       .filter((e) => { if (!e.lines) { refused.push(e.word); return false; } return true; });
-    const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (${d.kind}, ${refused.length} refused by the label rule)`);
+    const picks = slot.pictures(ctx, sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (${d.kind}, ${refused.length} refused by the label rule)`), pool, theme);   // a teacher's picture choice (maker)
 
     let bodyHtml, meta;
     if (d.kind === 'word') {
-      const cards = picks.map((e) => {
+      const cards = picks.map((e, i) => {
         const p = plateFor(e.lines, d);
-        return C3.wordCard({
+        return slot.stamp(ctx, 'pic', i, C3.wordCard({
           src: fileUri(theme, e.noun), vocabKey: e.vocabKey, word: e.word, lines: e.lines,
           pic: p.pic, px: p.px, lineH: p.lineH, pad: d.pad, innerW, kind: 'word',
           extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`, ...(d.reading ? { wordFirst: true } : {}),
-        });
+        }));
       });
       bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'word', extra: stamps + (d.reading ? ' data-lcs-reading="1"' : '') });
       meta = { kind: 'word', theme, words: picks.map((e) => e.word), vocab: picks.map((e) => e.vocabKey), refused };
@@ -226,6 +227,7 @@ module.exports = {
       const pictures = picks.map((e) => ({ src: fileUri(theme, e.noun), vocabKey: e.vocabKey }));
       const words = order.map((k) => { const e = picks[k]; const p = plateFor(e.lines, d); return { vocabKey: e.vocabKey, word: e.word, lines: e.lines, px: p.px, lineH: p.lineH }; });
       bodyHtml = C3.twinSheet({ pictures, words, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, pic: d.pic, pad: d.pad, innerW, extra: stamps });
+      if (ctx && ctx.slotsOut) bodyHtml = bodyHtml.replace(/data-lcs-twin="p(\d+)"/g, (m, i) => m + slot.attr(ctx, 'pic', +i));   // the picture cards are the tap targets
       meta = { kind: 'twin', theme, words: picks.map((e) => e.word), vocab: picks.map((e) => e.vocabKey), order, refused };
     }
     return { bodyHtml, meta };
@@ -262,7 +264,7 @@ module.exports = {
     return { pool: distinctByWord(pool, (e) => e.word), chips, dots, level, legend: dots ? a.legend : null };
   },
 
-  _buildArticle(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps }) {
+  _buildArticle(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps, ctx }) {
     const { pool: raw, chips, dots, level, legend } = this._articlePool(bank, theme, loc, cardCase, exclude);
     const refused = [];
     const pool = raw.map((e) => ({ ...e, lines: C3.labelLines(e.word, { cap: d.cap, lineCap: d.lineCap, maxLines: d.maxLines }) }))
@@ -278,8 +280,11 @@ module.exports = {
     const seedPicks = [...byChip.values()].slice(0, d.cards).map((g) => sampleEntries(rng, g, 1, 'K-324 article contrast')[0]);
     const seeded = new Set(seedPicks.map((e) => e.vocabKey));
     const rest = pool.filter((e) => !seeded.has(e.vocabKey));
-    const picks = rng.shuffle([...seedPicks, ...sampleEntries(rng, rest, d.cards - seedPicks.length, `K-324 ${theme}/${loc} (article, ${refused.length} refused by the label rule)`)]);
-    const cards = picks.map((e) => {
+    const drawn = rng.shuffle([...seedPicks, ...sampleEntries(rng, rest, d.cards - seedPicks.length, `K-324 ${theme}/${loc} (article, ${refused.length} refused by the label rule)`)]);
+    // a teacher's picture choice (maker) — refused when it would take an article off the page (the contrast the face promises)
+    let picks = slot.pictures(ctx, drawn, pool, theme);
+    if (new Set(picks.map((e) => e.chip)).size < byChip.size) { picks = slot.pictures(ctx && { ...ctx, overrides: null }, drawn, pool, theme); slot.refuse(ctx, 'pic'); }
+    const cards = picks.map((e, ci) => slot.stamp(ctx, 'pic', ci, (() => {
       const p = plateFor(e.lines, d);
       // Level Set 2026-09-29, the harder level: the article is an empty box — the child writes it; the plate prints
       // only the bare noun (stamped data-lcs-plate-word so the plate rule reads it), no colour dot to give it away
@@ -297,7 +302,7 @@ module.exports = {
         pic: p.pic, px: p.px, lineH: p.lineH, pad: d.pad, innerW,
         dot: dots && e.key >= 0 ? dots[e.key] : null, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
       });
-    });
+    })()));
     const legendHtml = dots && !d.blankArticle ? C3.legendDots({ legend, chips, dots }) : null;
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'article', legend: legendHtml,
       extra: stamps + ` data-lcs-level="${level}" data-lcs-dots="${dots && !d.blankArticle ? 1 : 0}"` });
@@ -318,19 +323,19 @@ module.exports = {
     return { pool, refused };
   },
 
-  _buildPlural(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps }) {
+  _buildPlural(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps, ctx }) {
     const clones = d.clones || (bank.plural && bank.plural.clones) || 3;
     if (clones < 2) throw new Error(`K-324: plural clones ${clones} < 2 (one and MANY)`);
     const { pool, refused } = this._pluralPool(bank, d, theme, loc, cardCase, exclude);
-    const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (plural, ${refused.length} refused by the label rule)`);
+    const picks = slot.pictures(ctx, sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (plural, ${refused.length} refused by the label rule)`), pool, theme);
     const cards = [];
-    for (const e of picks) {
+    for (const [pi, e] of picks.entries()) {
       const sp = plateFor(e.sLines, d), pp = plateFor(e.pLines, d);
       cards.push(...C3.pluralPair({
         src: fileUri(theme, e.noun), vocabKey: e.vocabKey, singular: e.word, plural: e.plural_, sLines: e.sLines, pLines: e.pLines,
         sPx: sp.px, sLineH: sp.lineH, pPx: pp.px, pLineH: pp.lineH, pic: d.pic, clones, pad: d.pad, innerW, rng, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
         ...(d.blankPlural ? { blankPlural: true } : {}),
-      }));
+      }).map((h) => slot.stamp(ctx, 'pic', pi, h)));
     }
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'plural', extra: stamps + ` data-lcs-clones="${clones}"` });
     return { bodyHtml, meta: { kind: 'plural', theme, clones, words: picks.map((e) => e.word), plurals: picks.map((e) => e.plural_), vocab: picks.map((e) => e.vocabKey), refused } };
@@ -367,14 +372,14 @@ module.exports = {
     return { pool, refused };
   },
 
-  _buildBilingual(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps }, unit) {
+  _buildBilingual(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps, ctx }, unit) {
     const P = this._partnerFor(bank, loc, unit);
     const { pool, refused } = this._bilingualPool(bank, d, theme, loc, cardCase, exclude, P.unit);
-    const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc}+${P.unit} (bilingual, ${refused.length} refused by the label rule)`);
-    const cards = picks.map((e) => C3.bilingualCard({
+    const picks = slot.pictures(ctx, sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc}+${P.unit} (bilingual, ${refused.length} refused by the label rule)`), pool, theme);
+    const cards = picks.map((e, i) => slot.stamp(ctx, 'pic', i, C3.bilingualCard({
       src: fileUri(theme, e.noun), vocabKey: e.vocabKey, host: e.word, partner: e.partner, pic: d.pic, hostPx: d.hostPx, partnerPx: d.partnerPx,
       pad: d.pad, innerW, gap: d.gap, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
-    }));
+    })));
     const legend = `<span data-lcs-legend-host>${esc(P.hostName)}</span><span aria-hidden="true">${esc(P.sep.trim())}</span><span data-lcs-legend-partner>${esc(P.partnerName)}</span>`;
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'bilingual', legend, extra: stamps + ` data-lcs-partner="${P.unit}"` });
     return { bodyHtml, meta: { kind: 'bilingual', theme, unit: P.unit, words: picks.map((e) => e.word), partners: picks.map((e) => e.partner), vocab: picks.map((e) => e.vocabKey), refused } };
@@ -412,16 +417,16 @@ module.exports = {
     return { pool: distinctByWord(pool, (e) => e.word), mark, hyphen: s.hyphen || '-' };
   },
 
-  _buildSyllable(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps }) {
+  _buildSyllable(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps, ctx }) {
     const sp = this._syllablePool(bank, d, theme, loc, cardCase, exclude);
     const { pool, hyphen } = sp;
     const mark = d.mark === 'none' ? 'none' : sp.mark;   // Level Set: the harder level prints no split (the child draws the arcs)
-    const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (syllable, pool ${d.pool}, count ${d.minCount}-${d.maxCount}, <= ${d.maxLetters} letters)`);
+    const picks = slot.pictures(ctx, sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (syllable, pool ${d.pool}, count ${d.minCount}-${d.maxCount}, <= ${d.maxLetters} letters)`), pool, theme);
     const p = plateFor([''], d);
-    const cards = picks.map((e) => C3.syllableCard({
+    const cards = picks.map((e, i) => slot.stamp(ctx, 'pic', i, C3.syllableCard({
       src: fileUri(theme, e.noun), vocabKey: e.vocabKey, word: e.word, split: e.split, pic: mark === 'hyphen' ? (d.hyphenPic || d.pic) : d.pic,
       mark, cell: d.cell, fontPx: d.fontPx, arcH: d.arcH, hyphen, px: p.px, lineH: p.lineH, pad: d.pad, innerW, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
-    }));
+    })));
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'syllable', extra: stamps + ` data-lcs-mark="${mark}" data-lcs-pool="${d.pool}"` });
     return { bodyHtml, meta: { kind: 'syllable', theme, mark, words: picks.map((e) => e.word), splits: picks.map((e) => e.split), vocab: picks.map((e) => e.vocabKey) } };
   },

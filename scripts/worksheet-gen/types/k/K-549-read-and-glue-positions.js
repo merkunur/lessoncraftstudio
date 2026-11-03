@@ -9,6 +9,7 @@
 'use strict';
 const P = require('../_shared/position-scenes.js');
 const { positionItems, sentenceHtml } = require('../_shared/position-items.js');
+const slot = require('../../lib/slot.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -38,15 +39,15 @@ module.exports = {
 
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
-    const items = positionItems({ locale: L, level: 1, rows: d.rows, rng, preps: SPOTS, accept: (p, sh) => P.CONTAINERS.includes(sh) });
+    const items = positionItems({ locale: L, level: 1, rows: d.rows, rng, preps: SPOTS, accept: (p, sh) => P.CONTAINERS.includes(sh), ctx });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const H = d.rows <= 3 ? 190 : d.rows === 4 ? 150 : 124, s = Math.round(H * 0.42), o = Math.round(H * 0.24), W = 250;
-    const rows = items.map((it) => {
+    const rows = items.map((it, ri) => {
       const x = Math.round(W / 2 - s / 2 - o / 2), y = Math.round((H - s) / 2);
       const others = rng.shuffle(SPOTS.filter((p) => p !== it.prep)).slice(0, 2);
       const spots = rng.shuffle([it.prep, ...others]).map((p) => { const [sx, sy] = spot(p, x, y, s, o); return `<span data-lcs-spot="${p}"${mark && p === it.prep ? ' data-lcs-correct="1"' : ''} style="position:absolute;left:${Math.round(sx)}px;top:${Math.round(sy)}px;width:${o}px;height:${o}px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:rgba(255,255,255,.55);z-index:3"></span>`; }).join('');
       const scene = `<div style="position:relative;width:${W}px;height:${H}px;flex:0 0 auto"><svg xmlns="http://www.w3.org/2000/svg" data-lcs-prim="pos-scene" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true" style="position:absolute;left:0;top:0">${P.shapeSvg(it.shape, x, y, s)}</svg>${spots}</div>`;
-      return `<div data-lcs-glue-row="${it.prep}" style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
+      return `<div data-lcs-glue-row="${it.prep}"${slot.attr(ctx, 'pic', ri)} style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
         `<div style="flex:1 1 auto;min-width:0;font:700 22px/1.4 'Baloo 2',cursive;color:${T.ink}">${sentenceHtml(it, `<span>${it.sent.expected}</span>`, 38)}</div>${scene}</div>`;
     });
     const strip = `<div data-lcs-glue-strip style="display:flex;justify-content:center;gap:0;padding-top:12px;border-top:2.5px dashed ${T.grid};flex:0 0 auto">` +

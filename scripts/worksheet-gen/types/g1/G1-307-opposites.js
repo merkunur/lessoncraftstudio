@@ -132,6 +132,33 @@ function cueGeometry(size) {
 }
 
 /** Greedy sample-or-throw over the pair pool honouring exclusiveWith (no two mutually excluded pairs on one page). */
+const slot = require('../../lib/slot.js');
+/**
+ * A teacher's pairs (maker, final phase 2026-11-03): pair i swapped for another pair of the page's own pool (role 'pair',
+ * key = the pair id; the picker shows labels[id] = "a ↔ b") — refused when it clashes with another pair on the page
+ * (exclusiveWith), shares a word with one, or breaks the face's own rule (ok).
+ */
+function slotPairs(ctx, taken, pool, loc, ok) {
+  if (!ctx || !(ctx.slotsOut || ctx.overrides)) return taken;
+  const tagged = pool.map((p) => ({ word: p.id, p }));
+  const label = () => { if (ctx.slotsOut && ctx.slotsOut.pair) ctx.slotsOut.pair.labels = Object.fromEntries(tagged.map((x) => [x.word, x.p.a + ' ↔ ' + x.p.b])); };
+  const cur = taken.map((p) => tagged[pool.indexOf(p)] || { word: p.id, p });
+  const chosen = slot.words(ctx, cur, tagged, 'pair');
+  label();
+  if (!chosen.some((x, i) => x !== cur[i])) return taken;
+  const list = chosen.map((x) => x.p), low = (w) => String(w).toLocaleLowerCase(loc);
+  const clash = list.some((p, i) => list.some((q, j) => j > i && ((p.exclusiveWith || []).includes(q.id) || (q.exclusiveWith || []).includes(p.id) || [p.a, p.b].some((w) => [q.a, q.b].map(low).includes(low(w))))));
+  if (!clash && (!ok || ok(list))) return list;
+  slot.words({ ...ctx, overrides: null }, cur, tagged, 'pair'); slot.refuse(ctx, 'pair'); label();
+  return taken;
+}
+/** the tap targets of slotPairs: the first element of each pair (data-lcs-pair / -left / -chip-pair = its id) — maker only */
+function tapPairs(ctx, html) {
+  const rec = ctx && ctx.slotsOut && ctx.slotsOut.pair;
+  if (!rec) return html;
+  const seen = new Set();
+  return String(html).replace(/ data-lcs-(?:pair|left|chip-pair)="([^"]+)"/g, (m, id) => { const i = rec.values.indexOf(id); if (i < 0 || seen.has(id)) return m; seen.add(id); return m + slot.attr(ctx, 'pair', i); });
+}
 function samplePairs(rng, pool, n, who) {
   const order = rng.shuffle(pool);
   const taken = [];
@@ -238,7 +265,7 @@ module.exports = {
       .filter((p) => WORD_RE.test(p.a) && WORD_RE.test(p.b))
       .filter((p) => [...p.a].length <= d.maxLetters && [...p.b].length <= d.maxLetters);
     if (pool.length < d.cards) throw new Error(`${who}: ${loc} has ${pool.length} pairs of tiers ${d.tiers.join('/')} with both members <= ${d.maxLetters} letters, need ${d.cards} (refuse)`);
-    const chosen = samplePairs(rng, pool, d.cards, who);
+    const chosen = slotPairs(ctx, samplePairs(rng, pool, d.cards, who), pool, loc);   // a teacher's pairs (maker)
 
     // direction per card, re-rolled until each direction appears >= minPerDir times
     let dirs;
@@ -302,7 +329,7 @@ module.exports = {
     const bodyHtml = `<div style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-opposites data-lcs-cards="${cards.length}" data-lcs-min-per-dir="${d.minPerDir}"${d.bank ? ' data-lcs-has-bank="1"' : ''}>` +
       bankHtml + cardGrid({ cards: cardHtml, cols: d.cols, rows: d.rows }) + `</div>`;
     return {
-      bodyHtml,
+      bodyHtml: tapPairs(ctx, bodyHtml),
       meta: { pairs: cards.map((c) => c.pair.id), dirs, given: cards.map((c) => c.given), answers: cards.map((c) => c.answer), bankOrder, cued, uncuedForWidth },
     };
   },
@@ -371,6 +398,10 @@ module.exports = {
       taken.push(p); pn.forEach((n) => nouns.add(n)); if (p.pic.kind === 'scale') scales++;
     }
     if (taken.length < d.pairs) throw new Error(`${who}: ${loc} has ${taken.length} usable pictured pairs (one noun per page, ${d.maxScale} scale pair, tile ${d.tileW}), need ${d.pairs} (refuse)`);
+    {
+      const okMatch = (list) => { const ns = list.flatMap((p) => (p.pic.kind === 'scale' ? [p.pic.noun] : [p.pic.a.noun, p.pic.b.noun])); const pxOk = (p) => d.picPx + wordEstimate(p.a, d.wordPx) <= inner && (p.pic.kind === 'scale' ? d.scalePx : d.picPx) + wordEstimate(p.b, d.wordPx) <= inner; return new Set(ns).size === ns.length && list.filter((p) => p.pic.kind === 'scale').length <= d.maxScale && list.every(pxOk); };
+      taken.splice(0, taken.length, ...slotPairs(ctx, taken, pool, loc, okMatch));   // a teacher's pairs (maker)
+    }
     const items = taken.map((p) => {
       if (p.pic.kind === 'scale') {
         const one = resolvePic({ theme: p.pic.theme, noun: p.pic.noun, key: p.pic.key }, loc, who);
@@ -383,7 +414,7 @@ module.exports = {
     const left = items.map((i) => i.left);
     const right = derangement.map((i) => items[i].right);
     const bodyHtml = this._faceRoot('match', ` data-lcs-pairs="${items.length}" data-lcs-min-icon="${K_FLOOR}"`,
-      oppositeMatch({ left, right, tileW: d.tileW, itemH: d.itemH, wordPx: d.wordPx }));
+      tapPairs(ctx, oppositeMatch({ left, right, tileW: d.tileW, itemH: d.itemH, wordPx: d.wordPx })));
     return { bodyHtml, meta: { pairs: taken.map((p) => p.id), order: derangement, nouns: [...nouns], dropped: pool.length - taken.length } };
   },
 
@@ -474,7 +505,7 @@ module.exports = {
     if (d.glyphH < 26) throw new Error(`${who}: glyphH ${d.glyphH} below the G1 handwriting floor 26`);
     const pool = this._pool(bank, d, loc, who);
     if (pool.length < d.pairs) throw new Error(`${who}: ${loc} has ${pool.length} pairs of tiers ${d.tiers.join('/')} with both members <= ${d.maxLetters} letters, need ${d.pairs} (refuse)`);
-    const chosen = samplePairs(rng, pool, d.pairs, who);
+    const chosen = slotPairs(ctx, samplePairs(rng, pool, d.pairs, who), pool, loc);   // a teacher's pairs (maker)
     const chips = [];
     for (const p of chosen) chips.push({ word: p.a, pair: p.id }, { word: p.b, pair: p.id });
     // Level Set L3 (`odd`): words whose partner is NOT on the page — one member each of pairs not chosen (and not
@@ -494,7 +525,7 @@ module.exports = {
     const lanes = Array.from({ length: chosen.length }, (_, i) => oppositePairLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH })).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:10px;min-height:0;margin-top:16px" data-lcs-pair-grid>${lanes}</div>`;
     const bodyHtml = this._faceRoot('pairup', ` data-lcs-pairs="${chosen.length}"${d.odd ? ` data-lcs-odd="${d.odd}"` : ''}`, oppositeChipRow({ chips: order, fontPx: d.fontPx, tileH: d.tileH }) + grid);
-    return { bodyHtml, meta: { pairs: chosen.map((p) => p.id), chips: order.map((c) => c.word), chipPairs: order.map((c) => c.pair), ...(d.odd ? { odd: oddWords } : {}) } };
+    return { bodyHtml: tapPairs(ctx, bodyHtml), meta: { pairs: chosen.map((p) => p.id), chips: order.map((c) => c.word), chipPairs: order.map((c) => c.pair), ...(d.odd ? { odd: oddWords } : {}) } };
   },
 
   /** F4 — Opposite or the Same? (G1). */
@@ -584,9 +615,10 @@ module.exports = {
     const seen = new Set();
     for (const it of items) { if (seen.has(lower(it.base))) throw new Error(`${who}: base "${it.base}" listed twice`); seen.add(lower(it.base)); }
     if (items.length < d.rows) throw new Error(`${who}: ${loc} has ${items.length} usable prefix items, need ${d.rows} (refuse)`);
-    const chosen = rng.shuffle(items).slice(0, d.rows);
+    const tagged = items.map((it) => ({ ...it, word: it.base }));
+    const chosen = slot.words(ctx, rng.shuffle(tagged).slice(0, d.rows), tagged, 'word');   // a teacher's words (maker): another prefix word of the list
     const used = prefixes.filter((p) => chosen.some((it) => it.prefix === p));
-    const lanes = chosen.map((it, i) => oppositePrefixRow({ n: i + 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) })).join('');
+    const lanes = chosen.map((it, i) => slot.stamp(ctx, 'word', i, oppositePrefixRow({ n: i + 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) }))).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:6px;min-height:0" data-lcs-prefix-grid>${lanes}</div>`;
     const legend = d.showLegend ? oppositePrefixChips({ prefixes: used, px: d.legendPx }) : '';
     const bodyHtml = this._faceRoot('prefix', ` data-lcs-rows="${chosen.length}" data-lcs-legend="${used.join(',')}"${d.showPrefix ? ' data-lcs-row-prefixes="1"' : ''}${d.showLegend ? '' : ' data-lcs-no-legend="1"'}`, legend + grid);

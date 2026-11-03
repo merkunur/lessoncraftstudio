@@ -20,6 +20,8 @@ const { LABELS } = require('../../data/b2/labels.js');
 const { textWidthEm } = require('../../primitives/bankword-width.js');
 /** fi form chips (120 px, 18 px Baloo 2, 2.5-px border): the word + 8 px each side must fit */
 const FORM_CHIP_W = 120, FORM_CHIP_PX = 18;
+const slot = require('../../lib/slot.js');
+
 function formChipFits(word) {
   let em; try { em = textWidthEm(word); } catch (e) { em = [...String(word)].length * 0.62; }
   return em * FORM_CHIP_PX + 2 * 2.5 + 2 * 8 <= FORM_CHIP_W;
@@ -189,7 +191,17 @@ module.exports = {
       if (cardsData[0].e._theme) { const j = cardsData.findIndex((c) => !c.e._theme); if (j > 0) [cardsData[0], cardsData[j]] = [cardsData[j], cardsData[0]]; }
     }
     if (!cardsData) throw new Error(`K-288: theme ${theme}/${loc} cannot satisfy the gender mix at d${difficulty}`);
-    const cards = cardsData.map(({ e, key, count }) => {
+    // a teacher's pictures (maker): card i's noun swapped for a pool noun that takes the SAME article (fi: the same form for
+    // the card's count) — the page's mix and its no-rhythm order stay; another article is refused
+    {
+      const items = pool.map((e) => ({ theme: e._theme || theme, noun: e.noun, e }));
+      const cur = cardsData.map((c) => items.find((x) => x.e === c.e));
+      const chosen = slot.anyPictures(ctx, cur, items, 'pic');
+      const ok = chosen.every((x, i) => x === cur[i] || A.keyFor({ ...x.e, key: x.e.vocabKey }, { level, count: cardsData[i].count }) === cardsData[i].key);
+      if (ok) cardsData = cardsData.map((c, i) => (chosen[i] === cur[i] ? c : { ...c, e: chosen[i].e }));
+      else { slot.anyPictures(ctx && { ...ctx, overrides: null }, cur, items, 'pic'); slot.refuse(ctx, 'pic'); }
+    }
+    const cards = cardsData.map(({ e, key, count }, ci) => {
       const chipLabels = isForm ? A.chipsFor({ ...e, singular: displayWord(e.singular, loc), plural: displayWord(e.plural, loc) }) : chips;
       const pics = Array.from({ length: count }, (_, k) => {
         const rot = (rng.next() * 8 - 4).toFixed(1);
@@ -204,11 +216,11 @@ module.exports = {
         // so a button stays >= 44 px on a phone even with four articles (render-instance crops)
         const n = chipLabels.length, bw = Math.floor((440 - (n - 1) * 12) / n);
         const bigChips = articleChips({ chips: chipLabels, correctIndex: key, w: bw, h: 104, fontPx: isForm ? 26 : 38, dots: A.chipDots });
-        return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:128px;padding:0 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
+        return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:128px;padding:0 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item${slot.attr(ctx, 'pic', ci)} data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
           `<div style="width:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px">${pics.replace(/width:(\d+)px;height:(\d+)px/g, (m0, a) => `width:${Math.min(+a, count > 1 ? 56 : 92)}px;height:${Math.min(+a, count > 1 ? 56 : 92)}px`)}${word}</div>` +
           `<div style="flex:1;display:flex;justify-content:center">${bigChips.replace('class="ws-achips"', 'class="ws-achips" style="gap:12px;flex-wrap:nowrap"')}</div></div>`;
       }
-      return `<div class="ws-card-stage" style="flex-direction:column;gap:6px" data-lcs-item data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
+      return `<div class="ws-card-stage" style="flex-direction:column;gap:6px" data-lcs-item${slot.attr(ctx, 'pic', ci)} data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
         `<div style="display:flex;gap:6px;align-items:center;justify-content:center;flex:1">${pics}</div>` +
         word + chipHtml +
         `</div>`;
@@ -256,10 +268,10 @@ module.exports = {
         // screen: the bins cannot be written into, so each word becomes a row with the bin
         // headings as BIG buttons — the same decision (which article goes with this READ word)
         const n = binLabels.length, bw = Math.floor((460 - (n - 1) * 12) / n);
-        const rows = cardsData.map((c) => {
+        const rows = cardsData.map((c, ci) => {
           const w = wordOf(c), k = keyOf(c);
           const opts = binLabels.map((label, i) => `<span class="ws-achip" style="width:${bw}px;height:104px;font-size:${label.length > 8 ? 22 : 32}px" data-lcs-chip="${i}" data-lcs-label="${label}"${i === k ? ' data-lcs-correct="1"' : ''}>${label}</span>`).join('');
-          return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:124px;padding:0 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item data-lcs-vocab="${c.e.vocabKey}" data-lcs-key="${k}" data-lcs-count="${c.count}" data-lcs-word="${w}">` +
+          return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:124px;padding:0 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item${slot.attr(ctx, 'pic', ci)} data-lcs-vocab="${c.e.vocabKey}" data-lcs-key="${k}" data-lcs-count="${c.count}" data-lcs-word="${w}">` +
             `<div style="width:170px;text-align:center;font-family:'Nunito';font-weight:800;font-size:${[...w].length > 9 ? 22 : 30}px;overflow-wrap:anywhere;color:#3A3530">${w}</div>` +
             `<div class="ws-achips" style="flex:1;gap:12px;justify-content:center;flex-wrap:nowrap">${opts}</div></div>`;
         });
@@ -268,11 +280,11 @@ module.exports = {
           meta: { keys: cardsData.map((c) => c.key) },
         };
       }
-      const wordChips = cardsData.map((c) => {
+      const wordChips = cardsData.map((c, ci) => {
         const w = wordOf(c), k = keyOf(c);
         // L1 reading support: the word's own small picture beside it
         const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(c.e._theme || theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
-        return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}" data-lcs-key="${k}">${pic}${w}</span>`;
+        return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}"${slot.attr(ctx, 'pic', ci)} data-lcs-key="${k}">${pic}${w}</span>`;
       }).join('');
       const binW = Math.floor(640 / binLabels.length) - 12;
       // Rule as many lines as the HARDEST bin actually needs, never a fixed five.

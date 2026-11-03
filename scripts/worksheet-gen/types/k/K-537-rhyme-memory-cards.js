@@ -12,6 +12,8 @@ const { bank } = require('../../lib/b3-common.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { keyNumber } = require('../_shared/key-number.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
+const { rhymeSlots } = require('../_shared/rhyme-slots.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 660, BUDGET = 700;
@@ -38,6 +40,9 @@ module.exports = {
     const classes = rng.shuffle((R.classes || []).filter((c) => c.members.filter((m) => m.pic && m.picOpened).length >= 2));
     if (classes.length < d.pairs) throw new Error(`K-537: ${L} has ${classes.length} rhyme classes with two pictures (< ${d.pairs})`);
     const pairs = classes.slice(0, d.pairs).map((c, i) => { const two = rng.sample(c.members.filter((m) => m.pic && m.picOpened), 2); return { id: 'p' + (i + 1), cls: c.id, two }; });
+    // a teacher's pictures (maker): another member of the same rhyme class, never one already on the page
+    const RS = rhymeSlots(ctx, pairs.flatMap((p) => p.two.map((m) => ({ m, cls: p.cls }))), R, (m) => m.pic && m.picOpened, pairs.flatMap((p) => p.two), L);
+    pairs.forEach((p, i) => { p.two = [RS.ms[2 * i], RS.ms[2 * i + 1]]; });
     const cards = rng.shuffle(pairs.flatMap((p) => p.two.map((m, k) => ({ m, p, k }))));
     const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
     const extra = (ctx && ctx.chromeExtra) || 0;
@@ -52,7 +57,7 @@ module.exports = {
     });
     const grid = `<div data-lcs-memory style="display:grid;grid-template-columns:repeat(${d.cols},${w}px);border-top:2px dashed ${T.grid};border-left:2px dashed ${T.grid}">${html.join('')}</div>`;
     return {
-      bodyHtml: `<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center">${grid}</div>`,
+      bodyHtml: RS.stamp(`<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center">${grid}</div>`, (m) => fileUri(m.pic.theme, m.pic.noun)),
       meta: { pairs: pairs.map((p) => p.two.map((m) => m.word).join('/')) },
     };
   },

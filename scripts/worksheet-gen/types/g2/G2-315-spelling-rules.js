@@ -76,6 +76,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { gapWord, ruleBox, pictureBank, ruleBins, ruleCopyBox, letterChips } = require('../../templates/components-b3.js');
 const { displayWord, distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
+const slot = require('../../lib/slot.js');
 const { candidates } = require('../../lib/b3-picture-index.js');
 const { bank: loadBank } = require('../../lib/b3-common.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
@@ -187,6 +188,25 @@ function pictureOf(p, loc) {
   const ok = candidates(p.vocabKey, loc).some((c) => c.theme === p.theme && c.noun === p.noun);
   if (!ok) throw new Error(`${ID}: picture ${p.theme}/${p.noun} is not a colour-index candidate for "${p.vocabKey}" in ${loc} — refuse`);
   return fileUri(p.theme, p.noun);
+}
+
+/**
+ * A teacher's words (maker, final phase 2026-11-03): word i of the page swapped for a word of the rule's own eligible pool
+ * — never a foil, never a word already on the page; `same` is the face's own rule (the same side of a letter pair, an
+ * ending the rule box offers). Role 'word', key = the word; the tap target is the word's picture. Returns { picks, tap }.
+ */
+function slotPicks(ctx, picks, pool, loc, same) {
+  const idx = picks.map((p, i) => (p.foil ? -1 : i)).filter((i) => i >= 0);
+  const cur = idx.map((i) => picks[i]);
+  const chosen = slot.words(ctx, cur, pool, 'word');
+  let out = picks;
+  if (chosen.some((p, j) => p !== cur[j])) {
+    const keys = new Set(picks.map((p) => p.vocabKey));
+    if (chosen.every((p, j) => p === cur[j] || (!keys.has(p.vocabKey) && (!same || same(p, cur[j]))))) { out = picks.slice(); idx.forEach((i, j) => { out[i] = chosen[j]; }); }
+    else { slot.words({ ...ctx, overrides: null }, cur, pool, 'word'); slot.refuse(ctx, 'word'); }
+  }
+  const tap = (html) => (ctx && ctx.slotsOut ? slot.stampSrc(ctx, 'word', html, idx.map((i) => pictureOf(out[i], loc))) : html);
+  return { picks: out, tap };
 }
 
 /* ------------------------------------------------------------------ Phase 2: the five faces */
@@ -342,7 +362,7 @@ module.exports = {
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} has ${pool.length} eligible words < ${floor} (d${difficulty}) — REFUSED`);
     const picks0 = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
-    const picks = ctx && ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
+    const SP = slotPicks(ctx, ctx && ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId), pool, loc), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
 
@@ -370,7 +390,7 @@ module.exports = {
       `data-lcs-minletters="${d.minLetters}" data-lcs-maxletters="${d.maxLetters}" data-lcs-pic="${d.pic}" ` +
       `style="flex:1;display:flex;flex-direction:column;min-height:0;gap:14px">` +
       box + cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`;
-    return { bodyHtml, meta: { rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: models.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { face: 'base', items: picks.map(itemMeta) } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: models.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { face: 'base', items: picks.map(itemMeta) } : {}) } };
   },
 
   /* ---------------------------------------------------------------- Phase 2 face builders */
@@ -423,7 +443,7 @@ module.exports = {
     const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: G, bank, rowMax: c.rowMax, face: 'choice', fresh: !!(ctx && ctx.fresh) });
     const [A, B] = this._sides(pool, rule, ruleId, loc, c.sides, c.minSide, 'choice');
     const picks0 = rng.shuffle([...sampleEntries(rng, A, c.sides[0], ID), ...sampleEntries(rng, B, c.sides[1], ID)]);
-    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
+    const SP = slotPicks(ctx, ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId), pool, loc, (p, o) => p.g === o.g), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const box = ruleBox({ chips: order, models: [], w: 675, h: 60 });
@@ -440,7 +460,7 @@ module.exports = {
     });
     const extra = ` data-lcs-pair="${esc(pair.join(','))}" data-lcs-chip-order="${esc(order.join('|'))}" data-lcs-sides="${c.sides.join(',')}" data-lcs-gapcells="${G}" data-lcs-rowmax="${c.rowMax}" data-lcs-chippx="${c.chipPx}"`;
     const bodyHtml = this._faceRoot('choice', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'choice', rule: ruleId, pair, words: picks.map((p) => p.word), sides: picks.map((p) => p.g), pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { face: 'choice', rule: ruleId, pair, words: picks.map((p) => p.word), sides: picks.map((p) => p.g), pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
   },
 
   _buildDetective(bank, d, loc, rule, ruleId, chips, models, ctx) {
@@ -458,7 +478,7 @@ module.exports = {
       ...sampleEntries(rng, pool, d.cards - nFoils, ID),
       ...(nFoils ? sampleEntries(rng, foils, nFoils, ID).map((f) => ({ ...f, foil: true })) : []),
     ]);
-    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
+    const SP = slotPicks(ctx, ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId), pool, loc), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const modelPills = models.map((m) => ({ src: pictureOf(m, loc), word: displayWord(m.word, loc, bank.capital), gaps: m.gaps }));
@@ -477,7 +497,7 @@ module.exports = {
     });
     const extra = ` data-lcs-foils="${nFoils}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('detective', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'detective', rule: ruleId, words: picks.map((p) => p.word), foils: picks.filter((p) => p.foil).map((p) => p.word), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { face: 'detective', rule: ruleId, words: picks.map((p) => p.word), foils: picks.filter((p) => p.foil).map((p) => p.word), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
   },
 
   _buildBins(bank, d, loc, rule, ruleId, ctx) {
@@ -493,7 +513,7 @@ module.exports = {
     if (nB < c.split[0] || nB > c.split[1]) throw new Error(`${ID}: bins split ${nA}/${nB} outside ${c.split.join('-')}`);
     if (A.length < nA || B.length < nB) throw new Error(`${ID}: rule ${ruleId}/${loc} bins: sides ${A.length}/${B.length} < the drawn split ${nA}/${nB} — REFUSED`);
     const picks0 = rng.shuffle([...sampleEntries(rng, A, nA, ID), ...sampleEntries(rng, B, nB, ID)]);
-    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
+    const SP = slotPicks(ctx, ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId), pool, loc, (p, o) => p.g === o.g), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const box = ruleBox({ chips: order, models: [], w: 675, h: 60 });
@@ -502,7 +522,7 @@ module.exports = {
     const bins = ruleBins({ bins: order.map((k) => ({ key: k, chip: k })), w: c.binW, rows: c.rows, rowH: c.rowH, glyphH: c.glyphH, ...(keyWords ? { keyWords } : {}) });
     const extra = ` data-lcs-pair="${esc(pair.join(','))}" data-lcs-chip-order="${esc(order.join('|'))}" data-lcs-items="${c.items}" data-lcs-rows="${c.rows}" data-lcs-split="${c.split.join(',')}" data-lcs-bankpx="${c.pic}" data-lcs-rowh="${c.rowH}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('bins', d, rule, ruleId, box, bankRow + bins, extra);
-    return { bodyHtml, meta: { face: 'bins', rule: ruleId, pair, words: picks.map((p) => p.word), split: [nA, nB], pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { face: 'bins', rule: ruleId, pair, words: picks.map((p) => p.word), split: [nA, nB], pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
   },
 
   _buildAnchor(bank, d, loc, rule, ruleId, chips, models, ctx) {
@@ -511,7 +531,7 @@ module.exports = {
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} anchor has ${pool.length} eligible words < ${floor} — REFUSED`);
     const picks0 = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
-    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
+    const SP = slotPicks(ctx, ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId), pool, loc), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const modelPills = models.map((m) => ({ src: pictureOf(m, loc), word: displayWord(m.word, loc, bank.capital), gaps: m.gaps }));
@@ -529,7 +549,7 @@ module.exports = {
     });
     const extra = ` data-lcs-anchor="${esc(d.anchor.at || 'rule')}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('anchor', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'anchor', rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { face: 'anchor', rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
   },
 
   _buildPlural(bank, d, loc, rule, ruleId, chips, models, ctx) {
@@ -539,7 +559,9 @@ module.exports = {
     const pool = eligiblePlural(loc, ruleId, geo);
     const floor = Math.max(f.rows, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} plural has ${pool.length} eligible pairs < ${floor} — REFUSED`);
-    const picks = rng.shuffle(sampleEntries(rng, pool, f.rows, ID));
+    // (plural) a teacher's word only with an ending the rule box offers (the rule below refuses any other page)
+    const endingOk = (p) => rule.chipsAreExamples || (() => { const e = (p.gaps || []).map((g) => [...p.plural].slice(g.from, g.from + g.len).join('')).join(''); return !e || chips.includes(e); })();
+    const SP = slotPicks(ctx, rng.shuffle(sampleEntries(rng, pool, f.rows, ID)), pool, loc, endingOk), picks = SP.picks;
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     // Every plural ending the page asks for must be one of the rule-box chips: es
@@ -578,7 +600,7 @@ module.exports = {
     });
     const extra = ` data-lcs-rows="${f.rows}" data-lcs-gapcells="${f.gapCells}" data-lcs-clonepx="${f.clonePx}" data-lcs-singcellcfg="${f.singCell}" data-lcs-plurcellmax="${f.plurCellMax}" data-lcs-maxsingular="${f.maxSingular}" data-lcs-maxplural="${f.maxPlural}"`;
     const bodyHtml = this._faceRoot('plural', d, rule, ruleId, box, cardGrid({ cards, cols: 1, rows: f.rows }), extra);
-    return { bodyHtml, meta: { face: 'plural', rule: ruleId, words: picks.map((p) => p.word), plurals: picks.map((p) => p.plural), models: modelPills.map((m) => m.lead + '→' + m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta), chips } : {}) } };
+    return { bodyHtml: SP.tap(bodyHtml), meta: { face: 'plural', rule: ruleId, words: picks.map((p) => p.word), plurals: picks.map((p) => p.plural), models: modelPills.map((m) => m.lead + '→' + m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta), chips } : {}) } };
   },
 
   async verify(page) {

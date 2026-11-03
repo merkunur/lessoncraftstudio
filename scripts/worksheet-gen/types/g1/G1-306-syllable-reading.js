@@ -45,6 +45,7 @@ const { refusedPicture } = require('../../lib/picture-refusals.js');
 /** A word is usable only while one of its pictures is not refused (the same rule pickPicture prints by). */
 const usable = (key, loc) => candidates(key, loc).some((x) => !refusedPicture(x.theme, x.noun));
 const { distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
+const slot = require('../../lib/slot.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const C3 = require('../../templates/components-b3.js');
 const { rulingBlock } = require('../../templates/components-b2.js');
@@ -100,7 +101,7 @@ function faceOf(d) {
  * exact order of rng calls (the base's d1-d3 output is hashed by the release
  * baseline; this function IS the base's former build body).
  */
-function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng }) {
+function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng, ctx }) {
   const shape = cfg.shape;
   const rows = rowsOf(cfg, d.structure);
   const f = rows.findIndex((r) => r.id === unitId);
@@ -182,6 +183,14 @@ function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng }) {
   if (rest.length < d.cards - picks.length) throw new Error(`G1-306: unit "${unitId}" offers ${picks.length + rest.length} cards with distinct first syllables < ${d.cards} (${loc} d${difficulty}) — REFUSED, never filled`);
   picks.push(...sampleEntries(rng, rest, d.cards - picks.length, 'G1-306'));
   picks = rng.shuffle(picks);
+  // a teacher's words (maker): any word of the carpet's pool, as long as every carpet row keeps perRowMin cards and (carpet
+  // face) no two cards colour one cell
+  {
+    const chosen = slot.words(ctx, picks, pool, 'word');
+    const perRow = (ws) => carpetRows.every((r) => ws.filter((w) => w.rowId === r.id).length >= d.perRowMin);
+    const ok = chosen.every((w, i) => w === picks[i]) || (perRow(chosen) && (!d.colourMode || new Set(chosen.map(unitOf)).size === chosen.length));
+    if (ok) picks = chosen; else { slot.words(ctx && { ...ctx, overrides: null }, picks, pool, 'word'); slot.refuse(ctx, 'word'); }
+  }
 
   // the carpet
   const maxChars = Math.max(...allCells.map((c) => [...c.text].length));
@@ -310,17 +319,17 @@ function multiPool(d, cfg, loc, who) {
 }
 
 /** G1-331 Join: cards = picture + ordered split tiles + one ruling row. */
-function buildJoin({ d, cfg, loc, rng, difficulty, fresh }) {
+function buildJoin({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   const pool = multiPool(d, cfg, loc, 'join');
   if (pool.length < d.poolMin) throw new Error(`G1-306 join: pool ${pool.length} < floor ${d.poolMin} (${loc} d${difficulty}) — REFUSED, never filled`);
-  const picks = rng.sample(pool, d.cards);
+  const picks = slot.words(ctx, rng.sample(pool, d.cards), pool, 'word');   // a teacher's words (maker)
   const pics = [];
-  const cards = picks.map((w) => {
+  const cards = picks.map((w, wi) => {
     const pic = pickPicture(rng, w, loc);
     pics.push([pic.theme, pic.noun]);
     return `<div class="ws-card-stage" style="flex-direction:column;gap:8px" ` +
       `data-lcs-word="${esc(w.word)}" data-lcs-vocab="${esc(w.key)}" data-lcs-split="${esc(w.split.join('|'))}" ` +
-      `data-lcs-count="${w.count}" data-lcs-face="join">` +
+      `data-lcs-count="${w.count}" data-lcs-face="join"${slot.attr(ctx, 'word', wi)}>` +
       `<img class="ws-icon" src="${pic.src}" alt="" data-lcs-pic="${esc(w.key)}" style="width:${d.pic}px;height:${d.pic}px">` +
       C3.syllableJoin({ tokens: wordTokens(w, loc), fontPx: d.tileFont, tileH: d.tileH }) +
       rulingBlock({ rows: 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH }) + `</div>`;
@@ -333,7 +342,7 @@ function buildJoin({ d, cfg, loc, rng, difficulty, fresh }) {
 }
 
 /** G1-334 Syllabified: a numbered picture bank over rows of pre-split words + an empty number box. */
-function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh }) {
+function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   const pool = multiPool(d, cfg, loc, 'syllabified');
   const need = d.lines + d.distractors;
   if (pool.length < Math.max(d.poolMin, need)) throw new Error(`G1-306 syllabified: pool ${pool.length} < ${Math.max(d.poolMin, need)} (${loc} d${difficulty}) — REFUSED, never filled`);
@@ -344,6 +353,12 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh }) {
   const chosen = new Set(rows.map((w) => w.key));
   rows.push(...sampleEntries(rng, pool.filter((w) => !chosen.has(w.key)), d.lines - rows.length, 'G1-306 syllabified'));
   rows = rng.shuffle(rows);
+  // a teacher's words (maker): the rows' words; a swap keeps its side of the three-syllable line (the page's minThree)
+  {
+    const chosen = slot.words(ctx, rows, pool, 'word');
+    if (chosen.every((w, i) => w === rows[i] || (w.count >= 3) === (rows[i].count >= 3))) rows = chosen;
+    else { slot.words(ctx && { ...ctx, overrides: null }, rows, pool, 'word'); slot.refuse(ctx, 'word'); }
+  }
   const onPage = new Set(rows.map((w) => w.key));
   const distractors = sampleEntries(rng, pool.filter((w) => !onPage.has(w.key)), d.distractors, 'G1-306 syllabified distractors');
   // the bank: rows ∪ distractors shuffled; the rows' numbers must NOT read in ascending order
@@ -362,6 +377,7 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh }) {
     data: {
       'data-lcs-sr-row': i + 1, 'data-lcs-word': w.word, 'data-lcs-vocab': w.key, 'data-lcs-split': w.split.join('|'),
       'data-lcs-count': w.count, 'data-lcs-pic': bankItems.indexOf(w) + 1, 'data-lcs-face': 'syllabified',
+      ...(ctx && ctx.slotsOut ? { 'data-lcs-slot': 'word.' + i } : {}),
     },
   }));
   const root = `<div data-ws-content data-lcs-sr data-lcs-shape="${cfg.shape}" data-lcs-structure="${d.structure}" ` +
@@ -443,11 +459,11 @@ module.exports = {
     const cfg = lsBank(bank(BANK, loc), loc, fresh, face !== 'join' && face !== 'syllabified');
     const shape = cfg.shape;
     if (!['syllable', 'rime', 'soundout'].includes(shape)) throw new Error('G1-306: bank ' + loc + ' has unknown shape "' + shape + '"');
-    if (face === 'join') return buildJoin({ d, cfg, loc, rng, difficulty, fresh });
-    if (face === 'syllabified') return buildSyllabified({ d, cfg, loc, rng, difficulty, fresh });
+    if (face === 'join') return buildJoin({ d, cfg, loc, rng, difficulty, fresh, ctx });
+    if (face === 'syllabified') return buildSyllabified({ d, cfg, loc, rng, difficulty, fresh, ctx });
 
     const unitId = unit || (d.structure === 'complex' ? cfg.complexExemplar : cfg.exemplar);
-    const P = prepareCarpet({ d, cfg, loc, unitId, difficulty, rng });
+    const P = prepareCarpet({ d, cfg, loc, unitId, difficulty, rng, ctx });
     const { carpetRows, cellsByRow, pool, picks, carpet } = P;
 
     // the cards
@@ -464,15 +480,15 @@ module.exports = {
       cards = picks.map((w, i) => {
         const pic = pp(w);
         const rowCells = cellsByRow[carpetRows.findIndex((r) => r.id === w.rowId)];
-        return circleCard(d, shape, w, pic, loc, rng, rowCells, positions[i]);
+        return slot.stamp(ctx, 'word', i, circleCard(d, shape, w, pic, loc, rng, rowCells, positions[i]));
       });
     } else if (face === 'carpet') {
       if ((d.reps || 1) !== 1) throw new Error('G1-306 carpet: reps ' + d.reps + ' is not built (a carpet prints every cell once) — refuse');
       const colours = rng.sample(Object.keys(tokens.codeColors), d.cards);
       if (colours.length < d.cards) throw new Error('G1-306 carpet: fewer codeColors than cards — refuse');
-      cards = picks.map((w, i) => carpetCard(d, shape, w, pp(w), loc, colours[i]));
+      cards = picks.map((w, i) => slot.stamp(ctx, 'word', i, carpetCard(d, shape, w, pp(w), loc, colours[i])));
     } else {
-      cards = picks.map((w) => baseCard(d, shape, w, pp(w), loc));
+      cards = picks.map((w, i) => slot.stamp(ctx, 'word', i, baseCard(d, shape, w, pp(w), loc)));
     }
     const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
 

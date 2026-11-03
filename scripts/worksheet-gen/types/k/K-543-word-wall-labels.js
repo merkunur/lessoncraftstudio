@@ -7,6 +7,7 @@
  */
 'use strict';
 const { pictureWordPool } = require('../_shared/picture-word-pool.js');
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -33,13 +34,13 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     const pool = pictureWordPool(theme, L, { maxLetters: d.cols === 2 ? 10 : 14 });
     if (pool.length < d.labels) throw new Error(`K-543: theme ${theme}/${L} has ${pool.length} card words (< ${d.labels})`);
-    const picks = rng.sample(pool, d.labels);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.labels), pool, theme);   // a teacher's picture choice (maker)
     const extra = (ctx && ctx.chromeExtra) || 0;
     const rows = Math.ceil(d.labels / d.cols), w = Math.floor(W / d.cols), h = Math.floor((BUDGET - extra) / rows);
     const pic = Math.min(h - 28, Math.floor(w * 0.36));
     const longest = Math.max(...picks.map((e) => [...e.word].length));
     const fs = Math.max(28, Math.min(Math.round(h * 0.42), Math.floor((w - pic - 60) / (longest * 0.58))));
-    const html = picks.map((e) => `<div data-lcs-wall-label="${e.word}" style="box-sizing:border-box;width:${w}px;height:${h}px;display:flex;align-items:center;gap:18px;padding:0 20px;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
+    const html = picks.map((e, i) => `<div data-lcs-wall-label="${e.word}"${slot.attr(ctx, 'pic', i)} style="box-sizing:border-box;width:${w}px;height:${h}px;display:flex;align-items:center;gap:18px;padding:0 20px;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
       `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${pic}px;height:${pic}px;object-fit:contain;flex:0 0 auto">` +
       `<span style="flex:1 1 auto;min-width:0;font:800 ${fs}px/1.05 Nunito,'Baloo 2',sans-serif;color:${T.ink};overflow-wrap:anywhere">${e.word}</span></div>`);
     const grid = `<div data-lcs-wall style="display:grid;grid-template-columns:repeat(${d.cols},${w}px);border-top:2px dashed ${T.grid};border-left:2px dashed ${T.grid}">${html.join('')}</div>`;

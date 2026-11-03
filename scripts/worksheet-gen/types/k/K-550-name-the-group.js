@@ -11,6 +11,7 @@
 const { CATEGORIES } = require('../../data/word-meaning/word-meaning-new.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const D = {
@@ -45,6 +46,13 @@ module.exports = {
       return rng.shuffle([...one, ...rng.sample(membersOf(c).filter((m) => !one.includes(m)), d.pics - 1)]);
     };
     const groups = cats.slice(0, d.groups).map((c) => ({ c, pics: picksOf(c) }));
+    // a teacher's pictures (maker): one role per row — another picture of THAT group (a row that needs one of its must
+    // pictures keeps one), never a picture already on the page
+    const asPic = (m, gi) => { const [theme, noun] = m.split('/'); return { theme, noun, m, gi }; };
+    const mustOk = (out) => groups.every((g, gi) => { const must = (g.c.mustInclude || []).filter(ok); return !must.length || out.some((x) => x.gi === gi && must.includes(x.m)); });
+    const KS = slot.byKind(ctx, groups.flatMap((g, gi) => g.pics.map((m) => asPic(m, gi))), (x) => x.gi, (gi) => membersOf(groups[gi].c).map((m) => asPic(m, gi)), { multi: true, prefix: 'g', page: mustOk });
+    { let k = 0; groups.forEach((g) => { g.pics = g.pics.map(() => KS.items[k++].m); }); }
+    const tapAt = []; { let k = 0; groups.forEach((g) => { tapAt.push(g.pics.map(() => KS.tap(k++))); }); }
     const extra = cats.slice(d.groups, d.groups + d.extra);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const words = groups.map((g) => g.c.label[L]);
@@ -55,7 +63,7 @@ module.exports = {
     const rows = groups.map((g, i) => {
       const alts = (g.c.alts[L] || []).join('|');
       return `<div data-lcs-group-row="${g.c.key}" style="display:flex;align-items:center;gap:12px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
-        `<div style="flex:1;display:flex;justify-content:space-evenly;align-items:center">${g.pics.map((m) => { const [t, n] = m.split('/'); return `<img class="ws-icon" src="${fileUri(t, n)}" alt="" style="width:${d.px}px;height:${d.px}px;object-fit:contain">`; }).join('')}</div>` +
+        `<div style="flex:1;display:flex;justify-content:space-evenly;align-items:center">${g.pics.map((m, pi) => { const [t, n] = m.split('/'); return `<img class="ws-icon" src="${fileUri(t, n)}" alt=""${tapAt[i][pi]} style="width:${d.px}px;height:${d.px}px;object-fit:contain">`; }).join('')}</div>` +
         `<span style="font:700 30px/1 'Baloo 2',cursive;color:${T.teal}">→</span>` +
         `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${g.c.label[L]}"${alts ? ` data-lcs-alts="${alts}"` : ''}` : ''} style="display:inline-flex;flex:0 0 auto;width:${boxW}px;height:50px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span></div>`;
     });

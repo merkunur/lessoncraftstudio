@@ -8,6 +8,7 @@
  */
 'use strict';
 const { pictureWordPool } = require('../_shared/picture-word-pool.js');
+const slot = require('../../lib/slot.js');
 const { compare } = require('../../data/b2/collation.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
@@ -33,11 +34,13 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     const pool = pictureWordPool(theme, L, { maxLetters: d.cols === 3 ? 11 : 13 });
     if (pool.length < d.n) throw new Error(`K-544: theme ${theme}/${L} has ${pool.length} card words (< ${d.n})`);
-    const picks = rng.sample(pool, d.n).sort((a, b) => compare(a.word.toLocaleLowerCase(L), b.word.toLocaleLowerCase(L), L));
+    // a teacher's picture choice (maker) on the draw, then the dictionary order (each entry keeps its slot number)
+    const drawn = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);
+    const picks = drawn.slice().sort((a, b) => compare(a.word.toLocaleLowerCase(L), b.word.toLocaleLowerCase(L), L));
     let prev = null;
     const html = picks.map((e) => {
       const first = [...e.word][0], f = first.toLocaleLowerCase(L), tab = f !== prev; prev = f;
-      return `<div data-lcs-dict-entry="${e.word}" style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:10px 6px;border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-dict-entry="${e.word}"${slot.attr(ctx, 'pic', drawn.indexOf(e))} style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:10px 6px;border-radius:16px;background:${T.cream}">` +
         (tab ? `<span data-lcs-dict-tab="${f}" style="position:absolute;left:8px;top:8px;min-width:34px;height:34px;padding:0 6px;box-sizing:border-box;border-radius:10px;background:${T.teal};color:#FFFFFF;font:700 24px/34px 'Baloo 2',cursive;text-align:center">${first.toLocaleUpperCase(L)}</span>` : '') +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.px}px;height:${d.px}px">` +
         `<span style="font:700 24px/1.1 'Baloo 2',cursive;color:${T.ink};text-align:center"><span style="color:${T.coral}">${first}</span>${[...e.word].slice(1).join('')}</span></div>`;

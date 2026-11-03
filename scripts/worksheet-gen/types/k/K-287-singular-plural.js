@@ -19,6 +19,7 @@
  * d1: 3 rows, 2 clones · d2: 4 rows · d3: 4 rows, longer words.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { strokeWordLane } = require('../../primitives/trace-path.js');
 const { countBadge } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, traceable, distinctByWord, fileUri } = require('../../lib/b2-common.js');
@@ -89,9 +90,9 @@ module.exports = {
       .filter((e) => published || !(SP_EXCLUDE.has(e.vocabKey) || refusedPicture(theme, e.noun) || (SP_EXCLUDE_LOC[loc] || []).includes(e.vocabKey)));
     pool = distinctByWord(pool, (e) => e.sing);
     if (pool.length < d.rows) throw new Error(`K-287: theme ${theme}/${loc} has ${pool.length} regular traceable plurals < ${d.rows}`);
-    const picks = rng.sample(pool, d.rows);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.rows), pool, theme);   // a teacher's pictures (maker)
     const rowMeta = [];
-    const rows = picks.map((e) => {
+    const rows = picks.map((e, ei) => {
       const n = rng.pick(d.clones);
       rowMeta.push({ key: e.vocabKey, noun: e.noun, sing: e.sing, plur: e.plur, n, toSing: d.direction === 'toSingular' });
       // direction:'toSingular' reverses which side is given. The shipped pair both
@@ -123,7 +124,7 @@ module.exports = {
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picClone}px;height:${d.picClone}px;transform:rotate(${rot}deg)">`;
       }).join('');
       return `<div class="ws-card" style="flex-direction:row;flex:0 1 ${d.rowH}px;min-height:0;padding:8px 10px;gap:12px;align-items:center" ` +
-        `data-lcs-row data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}${toSing ? ' data-lcs-direction="toSingular"' : ''}>` +
+        `data-lcs-row${slot.attr(ctx, 'pic', ei)} data-lcs-vocab="${e.vocabKey}" data-lcs-singular="${e.sing}" data-lcs-plural="${e.plur}" data-lcs-n="${n}"${d.plurModel === false ? ' data-lcs-plurmodel="0"' : ''}${toSing ? ' data-lcs-direction="toSingular"' : ''}>` +
         `<div style="width:176px;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative" data-lcs-side="one">` +
         `<div style="position:relative;margin:10px 0 0 10px;padding-left:22px">${countBadge(1)}<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${d.picSingle}px;height:${d.picSingle}px"></div>` +
         `${single.svg}</div>` +

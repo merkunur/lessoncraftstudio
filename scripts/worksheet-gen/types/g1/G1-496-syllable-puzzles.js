@@ -13,6 +13,7 @@
 const G305 = require('./G1-305-syllable-split.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 640;
@@ -58,6 +59,7 @@ module.exports = {
       for (let r = 0; out.length < d.words; r++) { let took = false; for (const c of counts) { const e = by[c][r]; if (e && out.length < d.words) { out.push(e); took = true; } } if (!took) break; }
       if (out.length === d.words) picks = rng.shuffle(out);
     }
+    picks = G305.slotWords(ctx, picks, pool, theme, L);   // a teacher's words (maker): the same syllable count (G1-305 rule)
     // every word its own join: shape × place × side, all different on the page
     const combos = rng.shuffle(SHAPES.flatMap((s) => POS.map((p) => DIRS.map((dir) => ({ s, p, dir })))).flat());
     const fs = Math.round(d.h * 0.42), picW = d.h + 8;
@@ -78,7 +80,7 @@ module.exports = {
       });
       const dash = `stroke="${T.inkSoft}" stroke-width="2.4" stroke-dasharray="7 5" fill="none"`;
       const pic = `<image href="${fileUri(theme, e.noun)}" x="${x0 + 6}" y="${Math.round(d.h * 0.08)}" width="${Math.round(picW * scale - 12)}" height="${Math.round(d.h * 0.84)}" preserveAspectRatio="xMidYMid meet"/>`;
-      return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${d.h + 4}" viewBox="0 -2 ${W} ${d.h + 4}" data-lcs-puzzle="${e.word}" data-lcs-split="${e.split.join('-')}" data-lcs-join="${c.s}-${c.p}-${c.dir}" style="flex:0 0 auto">` +
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${d.h + 4}" viewBox="0 -2 ${W} ${d.h + 4}" data-lcs-puzzle="${e.word}"${slot.attr(ctx, 'pic', i)} data-lcs-split="${e.split.join('-')}" data-lcs-join="${c.s}-${c.p}-${c.dir}" style="flex:0 0 auto">` +
         `<rect x="${x0}" y="0" width="${total}" height="${d.h}" rx="10" fill="#FFFFFF" ${dash}/>` + pic + cuts.map((p) => `<path d="${p}" ${dash}/>`).join('') + texts.join('') + `</svg>`;
     });
     return {

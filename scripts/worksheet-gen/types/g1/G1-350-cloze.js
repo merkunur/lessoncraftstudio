@@ -99,6 +99,7 @@
  * plural) THROWS at build: no filler, no en fallback.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { slotFor, pageSalt } = require('../../lib/answer-slots.js');
 let PAGE_SALT = '';
 const { bank: loadBank, bankModule } = require('../../lib/b4-common.js');
@@ -254,6 +255,37 @@ function resolveBase(d, bank) {
  * RNG order: the frame shuffle ONLY — the bank derangement and the names are
  * drawn by the caller afterwards.
  */
+/**
+ * A teacher's sentences (maker, final phase 2026-11-03): row i's frame swapped for another frame of the page's pool (role
+ * 'sent', key = the frame id; the picker shows labels[id] = the sentence with its answer) — refused when the rows together
+ * break compose()'s rules (one noun / answer once, two pictures per theme, no twins or confusables, no frame another row's
+ * word also fits) or the face's own extraOk. compose() over the whole set with an identity shuffle takes every frame
+ * exactly when the set is valid (its rules are pairwise, the theme cap a count).
+ */
+function slotFrames(ctx, taken, pool, loc, gl, extraOk) {
+  if (!ctx || !(ctx.slotsOut || ctx.overrides) || !taken) return taken;
+  const label = (fr) => String(fr.text).replace('{gap}', answerFor(loc, fr.noun, fr.form));
+  const tagged = pool.map((fr) => ({ word: fr.id, fr }));
+  const cur = taken.map((fr) => tagged[pool.indexOf(fr)]);
+  const chosen = slot.words(ctx, cur, tagged, 'sent');
+  if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
+  if (!chosen.some((x, i) => x !== cur[i])) return taken;
+  const list = chosen.map((x) => x.fr);
+  const valid = compose({ shuffle: (a) => a }, list, { rows: list.length }, loc, gl);
+  if (valid && (!extraOk || extraOk(list))) return list;
+  slot.words({ ...ctx, overrides: null }, cur, tagged, 'sent'); slot.refuse(ctx, 'sent');
+  if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
+  return taken;
+}
+/** the tap targets of slotFrames: the first data-lcs-frame="<id>" of each row (maker only) */
+function tapFrames(ctx, out) {
+  const rec = ctx && ctx.slotsOut && ctx.slotsOut.sent;
+  if (!rec || !out || typeof out.bodyHtml !== 'string') return out;
+  const seen = new Set();
+  out.bodyHtml = out.bodyHtml.replace(/ data-lcs-(?:frame|match-left)="([^"]+)"/g, (m, id) => { const i = rec.values.indexOf(id); if (i < 0 || seen.has(id)) return m; seen.add(id); return m + slot.attr(ctx, 'sent', i); });
+  return out;
+}
+
 function compose(rng, frames, cfg, loc, globals) {
   const twins = globals.twins || [];
   const confusable = (globals.confusable || []).map((p) => p.slice().sort().join('|'));
@@ -890,7 +922,7 @@ module.exports = {
     const all = bankModule(KEY);
     const G = { twins: all.twins, excludeKeys: all.excludeKeys };
     const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (published) return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, globals: G }, ctx);
+    if (published) return tapFrames(ctx, this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, globals: G }, ctx));
     // Level Set: the merged bank, this copy's share of the frames; the screen / key wraps the print page
     const bank = mergedBank(loadBank(KEY, loc), loc);
     const d = { ...this.difficulty[difficulty], share: (ctx && ctx.seedVariant) || 1 };
@@ -898,7 +930,7 @@ module.exports = {
       const built = this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, interactive: false, answerKey: false });
       return screenOrKey(d.mode || 'base', built, ctx, loc);
     }
-    return this._buildWith(bank, d, { theme, locale: loc, globals: G }, ctx);
+    return tapFrames(ctx, this._buildWith(bank, d, { theme, locale: loc, globals: G }, ctx));
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -920,6 +952,7 @@ module.exports = {
     let taken = null;
     for (let t = 0; t < MAX_TRIES && !taken; t++) taken = compose(rng, pool, cfg, loc, gl);
     if (!taken) throw new Error(`${ID}: ${loc} cannot compose ${cfg.rows} exclusive frames from ${pool.length} (fits / twins / themes) — REFUSED`);
+    taken = slotFrames(ctx, taken, pool, loc, gl);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     // d3 extras: frame-invalid bank words from fits-disjoint pool nouns (never an answer, never in any taken frame's fits)
     let extras = [];
@@ -979,15 +1012,15 @@ module.exports = {
     if (!ctx || !ctx.rng) throw new Error(`${ID}: no rng in ctx`);
     if (bank.refuse && bank.refuse[d.mode] === true) throw new Error(`${ID}: ${locale} REFUSES the ${d.mode} face (refuse.${d.mode}: the record, never a filler)`);
     if (!bank.strings[d.mode] || !bank.strings[d.mode].title) throw new Error(`${ID}: the ${locale} bank has no strings.${d.mode} — refuse`);
-    return this[fn](bank, d, locale, globals, ctx.rng);
+    return this[fn](bank, d, locale, globals, ctx.rng, ctx);
   },
 
   /** The composer over a pool under a face's rows + an extra page predicate (`extraOk(taken)`); MAX_TRIES then REFUSED. */
-  _deal(rng, pool, cfg, loc, gl, extraOk, what) {
+  _deal(rng, pool, cfg, loc, gl, extraOk, what, ctx) {
     if (pool.length < cfg.rows) throw new Error(`${ID}: ${loc} has ${pool.length} eligible frames for ${cfg.rows} ${what} rows — REFUSED`);
     for (let t = 0; t < MAX_TRIES; t++) {
       const taken = compose(rng, pool, cfg, loc, gl);
-      if (taken && (!extraOk || extraOk(taken))) return taken;
+      if (taken && (!extraOk || extraOk(taken))) return slotFrames(ctx, taken, pool, loc, gl, extraOk);
     }
     throw new Error(`${ID}: ${loc} cannot compose ${cfg.rows} exclusive ${what} frames from ${pool.length} (fits / twins / themes / foils) — REFUSED`);
   },
@@ -1018,7 +1051,7 @@ module.exports = {
    * frame: `sg`, ^\p{L}+$, minLetters..maxLetters graphemes, the article outside the gap and not elided (fr l' / it lo, l').
    * d1 = a bank + a starter in box 1 (starterFontPx); d2 ships rows 8, box 26, no bank, no starter.
    */
-  _buildLetters(bank, d, loc, G, rng) {
+  _buildLetters(bank, d, loc, G, rng, ctx) {
     const cfg = {
       rows: d.rows, picPx: d.picPx, box: d.box, gap: d.gap == null ? 4 : d.gap, starter: !!d.starter, bank: !!d.bank, maxLetters: d.maxLetters, minLetters: d.minLetters == null ? 2 : d.minLetters,
       maxChars: d.maxChars, maxGlyphs: d.maxLetters, fontPx: d.fontPx || 18, rowMin: d.rowMin, rowGap: d.rowGap || 8, nameSlot: d.nameSlot === 'perLocale' ? !!bank.nameSlot : !!d.nameSlot, padding: d.padding || '5px 16px',
@@ -1050,7 +1083,7 @@ module.exports = {
       if (!((ePre + run + ePost <= 531) || (ePre + run <= 531 && ePost <= 531) || (ePre <= 531 && run + ePost <= 531))) return false;
       return true;
     });
-    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, null, 'letters');
+    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, null, 'letters', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
     const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
@@ -1076,7 +1109,7 @@ module.exports = {
    * capped at 168 (maxGlyphs 9). foilKind: 'near' | 'far' = the panel's foil; 'page' (d3) = another row's answer. The foil is never a
    * noun whose picture is on the page. Chip order per row = rng; answer-first count over the page in [2, ceil(rows / 2)].
    */
-  _buildChoice(bank, d, loc, G, rng) {
+  _buildChoice(bank, d, loc, G, rng, ctx) {
     const longLoc = ['de', 'fi', 'pt'].includes(loc);
     const maxChars = typeof d.maxChars === 'object' ? (longLoc ? d.maxChars.long : d.maxChars.short) : d.maxChars;
     const cfg = {
@@ -1117,7 +1150,7 @@ module.exports = {
       const nouns = new Set(tk.map((f) => f.noun));
       const ans = new Set(tk.map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
       return tk.every((f) => !nouns.has(f.foil) && !ans.has(answerFor(loc, f.foil, 'sg').toLocaleLowerCase(loc)));
-    }, 'choice');
+    }, 'choice', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     let foils;
     if (cfg.foilKind === 'page') { const o = C4.derange(answers.map((_, i) => i), rng); foils = o.map((i) => ({ key: taken[i].noun, word: answers[i] })); }
@@ -1170,7 +1203,7 @@ module.exports = {
    * would print the noun's OTHER number). Frames come from the separate `plural` list (form pl | defPl); `clones` = the frame's
    * number word when it names one, else rng.int(2, 3). Sentence width 431 (two lines budgeted). da REFUSES (refuse.plural).
    */
-  _buildPlural(bank, d, loc, G, rng) {
+  _buildPlural(bank, d, loc, G, rng, ctx) {
     const cfg = {
       rows: d.rows, clonePx: d.clonePx || 48, cloneGap: d.cloneGap == null ? 6 : d.cloneGap, colW: d.colW || 156, clones: Array.isArray(d.clones) ? d.clones : [2, 3], bank: !!d.bank, hint: !!d.hint,
       fontPx: d.fontPx || 18, maxChars: d.maxChars, maxGlyphs: d.maxGlyphs, gapH: d.gapH || 40, rowMin: d.rowMin, rowGap: d.rowGap || 8, nameSlot: d.nameSlot === 'perLocale' ? !!bank.nameSlot : !!d.nameSlot,
@@ -1198,7 +1231,7 @@ module.exports = {
       const H = pool.filter((f) => hard.has(f.id)), E = pool.filter((f) => !hard.has(f.id));
       ppool = [...shareOf(H, hardMin, d.share, 0), ...shareOf(E, cfg.rows - hardMin, d.share)];
     } else ppool = shareOf(pool, cfg.rows, d.share);
-    const taken = this._deal(rng, ppool, cfg, loc, gl, hardMin ? (tk) => tk.filter((f) => hard.has(f.id)).length >= hardMin : null, 'plural');
+    const taken = this._deal(rng, ppool, cfg, loc, gl, hardMin ? (tk) => tk.filter((f) => hard.has(f.id)).length >= hardMin : null, 'plural', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
     const clones = taken.map((f) => (f.clones != null ? f.clones : rng.int(cfg.clones[0], cfg.clones[1])));
@@ -1302,7 +1335,7 @@ module.exports = {
    * its gap. The predicate is the only key, so the base composer's exclusivity (fits pairwise disjoint over the page, <= 1 key per
    * twin group, no confusable pair) carries the whole page. fr / it `unique` frames are fine here (nothing is written).
    */
-  _buildMatch(bank, d, loc, G, rng) {
+  _buildMatch(bank, d, loc, G, rng, ctx) {
     const cfg = {
       rows: d.pairs, itemH: d.itemH || 92, itemMax: d.itemMax == null ? null : d.itemMax, leftW: d.leftW || 330, rightW: d.rightW || 100, picPx: d.picPx || 64, blankW: d.blankW || 90, fontPx: d.fontPx || 18,
       maxChars: d.maxChars, maxGlyphs: d.maxGlyphs || 14, nameSlot: d.nameSlot === 'perLocale' ? !!bank.nameSlot : !!d.nameSlot,
@@ -1319,7 +1352,7 @@ module.exports = {
     const pool = eligibleFrames(bank.frames, cfg, loc, ID).filter((f) => !excluded.has(f.noun));
     // no answer may be printed in another sentence of the page (nl "bij" = bee AND the preposition): the page verify refuses it
     const noEcho = (tk) => tk.every((f) => { const a = answerFor(loc, f.noun, f.form); return tk.every((g) => g === f || !hasWord(g.text.replace('{gap}', ''), a)); });
-    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, noEcho, 'match');
+    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, noEcho, 'match', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
     const order = C4.derange(rows.map((_, i) => i), rng);

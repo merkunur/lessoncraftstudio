@@ -9,6 +9,7 @@
 'use strict';
 const P = require('../_shared/position-scenes.js');
 const { positionItems, sentenceHtml, NO_PREP } = require('../_shared/position-items.js');
+const slot = require('../../lib/slot.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -27,10 +28,10 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     // a shape whose sentence frame gives two other words (frame-valid labels) — else another shape
-    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng, accept: (p, sh) => P.distractors(L, p, sh).length >= 2 });
+    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng, accept: (p, sh) => P.distractors(L, p, sh).length >= 2, ctx });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const h = d.rows <= 4 ? 150 : d.rows === 5 ? 128 : 112;
-    const rows = items.map((it) => {
+    const rows = items.map((it, ri) => {
       // the two other words: frame-valid labels of the level's position words where they exist, else any frame-valid one
       const levelWords = new Set((P.LEVEL_PREPS[difficulty] || []).filter((p) => !(NO_PREP[L] || []).includes(p)).map((p) => (P.sentence(L, p, it.shape) || {}).expected).filter(Boolean));
       // never a word of a relation the language leaves out (es / it / pt "above"), not even as a wrong option
@@ -40,7 +41,7 @@ module.exports = {
       if (pick.length < 2) throw new Error(`K-548: ${L} "${it.prep}" with a ${it.shape} has ${pick.length} other words`);
       const opts = rng.shuffle([it.sent.expected, ...pick]);
       const chips = opts.map((w) => `<span class="ws-chip" data-lcs-pos-chip="${w}"${mark && w === it.sent.expected ? ' data-lcs-correct="1"' : ''} style="width:auto;min-width:56px;height:46px;padding:0 16px;border-radius:23px;font:700 20px/1 'Baloo 2',cursive;color:${T.ink};white-space:nowrap">${w}</span>`).join('');
-      return `<div data-lcs-choose-row="${it.prep}" style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
+      return `<div data-lcs-choose-row="${it.prep}"${slot.attr(ctx, 'pic', ri)} style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
         `${P.scene(it.prep, it.shape, it.src, { w: 220, h, s: Math.round(h * 0.5), o: Math.round(h * 0.4) })}` +
         `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:8px"><div style="font:700 21px/1.4 'Baloo 2',cursive;color:${T.ink}">${sentenceHtml(it, `<span style="display:inline-block;width:80px;border-bottom:3px solid ${T.ink};margin:0 4px"></span>`, 34)}</div>` +
         `<div class="ws-choices" style="gap:10px;justify-content:flex-start;flex-wrap:wrap">${chips}</div></div></div>`;

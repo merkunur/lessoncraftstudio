@@ -15,6 +15,8 @@ const { bank } = require('../../lib/b3-common.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { keyNumber } = require('../_shared/key-number.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
+const { rhymeSlots } = require('../_shared/rhyme-slots.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 660, BUDGET = 700;
@@ -42,6 +44,9 @@ module.exports = {
     const classes = rng.shuffle((R.classes || []).filter((c) => c.members.filter(ok).length >= 2));
     if (classes.length < d.tiles) throw new Error(`K-539: ${L} has ${classes.length} rhyme classes (< ${d.tiles})`);
     const ring = classes.slice(0, d.tiles).map((c) => ({ id: c.id, two: rng.sample(c.members.filter(ok), 2) }));
+    // a teacher's pictures (maker): another member of the same rhyme class, never one already on the page
+    const RS = rhymeSlots(ctx, ring.flatMap((c) => c.two.map((m) => ({ m, cls: c.id }))), R, ok, ring.flatMap((c) => c.two), L);
+    ring.forEach((c, i) => { c.two = [RS.ms[2 * i], RS.ms[2 * i + 1]]; });
     // domino i: left = the second picture of class i-1, right = the first picture of class i
     const tiles = ring.map((c, i) => ({ pos: i, left: ring[(i + ring.length - 1) % ring.length].two[1], right: c.two[0], lcls: ring[(i + ring.length - 1) % ring.length].id, rcls: c.id }));
     let order = null;
@@ -67,7 +72,7 @@ module.exports = {
         half(t.right, scr ? ` data-lcs-key-badge="${t.rcls}"` : '') + `</div>`;
     });
     return {
-      bodyHtml: `<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-dominoes style="display:grid;grid-template-columns:repeat(${cols},${tw}px);gap:${gap}px">${html.join('')}</div></div>`,
+      bodyHtml: RS.stamp(`<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-dominoes style="display:grid;grid-template-columns:repeat(${cols},${tw}px);gap:${gap}px">${html.join('')}</div></div>`, (m) => fileUri(m.pic.theme, m.pic.noun)),
       meta: { ring: tiles.map((t) => `${t.left.word}|${t.right.word}`) },
     };
   },

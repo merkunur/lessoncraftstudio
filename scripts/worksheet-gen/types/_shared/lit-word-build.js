@@ -22,6 +22,8 @@
  */
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
+const slotLib = slot;   // (buildBuildWord has its own local slot: the letter slot's size)
 
 const SCOPED_CSS = `
 .lit-wb{flex:1 1 auto;display:flex;align-items:stretch;justify-content:center;min-height:0;padding:6px 0}
@@ -54,9 +56,9 @@ function makeLitWordBuild(cfg) {
       const d = this.difficulty[difficulty] || this.difficulty[2];
       const pool = itemsByLocale[locale] || itemsByLocale.en || [];
       const n = Math.min(d.n, pool.length);
-      const chosen = rng.shuffle(rng.sample(pool, n));
+      const chosen = slot.anyPictures(ctx, rng.shuffle(rng.sample(pool, n)), pool, 'pic');   // a teacher's pictures (maker): any word of the reviewed list
 
-      if (this.mode === 'build-the-word') return buildBuildWord(chosen, n, rng);
+      if (this.mode === 'build-the-word') return buildBuildWord(chosen, n, rng, ctx);
 
       // adapt to the longest word so non-EN words (longer than EN CVC) don't
       // overflow the page: shorter words → 4 columns; longer → fewer + smaller.
@@ -73,7 +75,7 @@ function makeLitWordBuild(cfg) {
           // the blank carries its letter (2026-11-03: the key writes it in teal, the screen types it)
           `<span class="lit-wb-tile${i === gap ? ' lit-wb-gap' : ''}"${i === gap ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px;font-size:${fs}px">` +
           `${i === gap ? '' : ch}</span>`).join('');
-        return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-gap="${gap}">` +
+        return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-gap="${gap}"${slot.attr(ctx, 'pic', chosen.indexOf(it))}>` +
           `<div class="ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
           `style="width:${iconPx}px;height:${iconPx}px"></div>` +
           `<div class="lit-wb-word">${tiles}</div></div>`;
@@ -120,7 +122,7 @@ function makeLitWordBuild(cfg) {
 }
 
 /* --- build-the-word: picture + empty slots + scrambled letter bank --- */
-function buildBuildWord(chosen, n, rng) {
+function buildBuildWord(chosen, n, rng, ctx) {
   // taller cards (picture + slots + bank) → cap at 6 in 3 columns to fit the page
   const items = chosen.slice(0, Math.min(6, chosen.length));
   const cols = items.length >= 3 ? 3 : items.length;
@@ -136,7 +138,7 @@ function buildBuildWord(chosen, n, rng) {
     const slots = letters.map((ch) => `<span class="lit-wb-slot" data-lcs-answer="${ch}" style="width:${slot}px;height:${slot}px"></span>`).join('');
     const bankHtml = bank.map((ch) =>
       `<span class="lit-wb-tile" style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`).join('');
-    return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-mode="build">` +
+    return `<div class="lit-wb-card" data-lit-content data-lit-word="${it.word}" data-lit-mode="build"${slotLib.attr(ctx, 'pic', chosen.indexOf(it))}>` +
       `<div class="ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
       `style="width:${iconPx}px;height:${iconPx}px"></div>` +
       `<div class="lit-wb-slots">${slots}</div>` +

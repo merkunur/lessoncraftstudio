@@ -82,6 +82,9 @@ const platform = require('../../lib/platform/index.js');   // (fs is Node-only: 
 const path = require('path');
 const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 let LS_CACHE;
+const slot = require('../../lib/slot.js');
+/** the tap targets of a match page (maker): each face tile is item i of the role, by the feeling's id */
+const tapFaces = (ctx, html, list) => (ctx && ctx.slotsOut ? html.replace(/ data-lcs-face="([^"]+)"/g, (m, id) => m + slot.attr(ctx, 'feeling', list.findIndex((f) => f.id === id))) : html);
 function levelSetData() {
   if (LS_CACHE !== undefined) return LS_CACHE;
   const f = path.join(__dirname, '..', '..', 'data', 'b3', 'feelings-levelset.json');
@@ -213,7 +216,7 @@ module.exports = {
     }
     const pool = d.pool ? matchable.filter((f) => d.pool.includes(f.id)) : matchable;
     if (pool.length < d.pairs) throw new Error(`K-319: ${loc} has ${pool.length} matchable feelings${d.pool ? ' in the pool ' + d.pool.join('/') : ''}, need ${d.pairs} (refuse)`);
-    const chosen = pool.length === d.pairs ? pool.slice() : rng.sample(pool, d.pairs);
+    const chosen = slot.words(ctx, pool.length === d.pairs ? pool.slice() : rng.sample(pool, d.pairs), pool, 'feeling');   // a teacher's feelings (maker)
     const left = d.shuffleLeft ? rng.shuffle(chosen) : chosen;
     const seen = new Set();
     for (const f of left) {
@@ -224,11 +227,11 @@ module.exports = {
     const order = derange(rng, left.length);
     const right = order.map((i) => left[i]);
 
-    const bodyHtml = feelingMatch({
+    const bodyHtml = tapFaces(ctx, feelingMatch({
       left: left.map((f) => ({ id: f.id, src: fileUri(f.face.theme, f.face.noun) })),
       right: right.map((f) => ({ id: f.id, word: f.word })),
       tileL: d.tileL, tileR: d.tileR, itemH: d.itemH, picPx: d.picPx, wordPx: d.wordPx,
-    });
+    }), chosen);
     return { bodyHtml, meta: { pairs: left.map((f) => f.id), order, words: right.map((f) => f.word) } };
   },
 
@@ -348,9 +351,9 @@ module.exports = {
     const pool = d.pool ? matchable.filter((f) => d.pool.includes(f.id)) : matchable;
     if (pool.length < d.cards) throw new Error(`K-319 draw: ${loc} has ${pool.length} feelings in the pool, need ${d.cards} (refuse)`);
     if (d.cards < 4) throw new Error(`K-319 draw: cards ${d.cards} < 4`);
-    const chosen = rng.shuffle(pool.length === d.cards ? pool.slice() : rng.sample(pool, d.cards));
+    const chosen = slot.words(ctx, rng.shuffle(pool.length === d.cards ? pool.slice() : rng.sample(pool, d.cards)), pool, 'feeling');   // a teacher's feelings (maker)
     const cols = 2, rows = Math.ceil(chosen.length / cols);
-    const cards = chosen.map((f) => C3.feelingDrawCard({ id: f.id, word: f.word, wordPx: d.wordPx, d: d.d, ...(d.modelFace ? { model: fileUri(f.face.theme, f.face.noun), modelPx: d.modelFace } : {}) }));
+    const cards = chosen.map((f, fi) => slot.stamp(ctx, 'feeling', fi, C3.feelingDrawCard({ id: f.id, word: f.word, wordPx: d.wordPx, d: d.d, ...(d.modelFace ? { model: fileUri(f.face.theme, f.face.noun), modelPx: d.modelFace } : {}) })));
     const grid = C3.feelingSceneGrid({ cards, cols, rows });
     const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="draw" data-lcs-cards="${chosen.length}"${d.modelFace ? ' data-lcs-model="1"' : ''}>${grid}</div>`;
     return { bodyHtml, meta: { words: chosen.map((f) => f.id) } };
@@ -366,7 +369,7 @@ module.exports = {
     if (matchable.length < rows) throw new Error(`K-319 choice: ${loc} has ${matchable.length} matchable feelings, need ${rows} (refuse)`);
     if (matchable.length < choices) throw new Error(`K-319 choice: ${loc} has ${matchable.length} matchable feelings < ${choices} tiles`);
     const byId = Object.fromEntries(matchable.map((f) => [f.id, f]));
-    const targets = rng.shuffle(matchable.length === rows ? matchable.slice() : rng.sample(matchable, rows));
+    const targets = slot.words(ctx, rng.shuffle(matchable.length === rows ? matchable.slice() : rng.sample(matchable, rows)), matchable, 'feeling');   // a teacher's feelings (maker)
     const pos = spreadPositions(rng, rows, choices, choices);
     const laneTiles = [];
     const lanes = targets.map((t, i) => {
@@ -378,11 +381,11 @@ module.exports = {
       const tiles = decoys.slice();
       tiles.splice(pos[i], 0, t.id);
       laneTiles.push(tiles);
-      return C3.feelingChoiceLane({
+      return slot.stamp(ctx, 'feeling', i, C3.feelingChoiceLane({
         id: t.id, word: t.word, wordPx: d.wordPx, wordW: d.wordW, correct: pos[i],
         faces: tiles.map((id) => ({ id, src: fileUri(byId[id].face.theme, byId[id].face.noun) })),
         tilePx: d.tilePx, facePx: d.facePx,
-      });
+      }));
     });
     const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="choice" ` +
       `data-lcs-rows="${rows}" data-lcs-choices="${choices}" data-lcs-confusable="${d.confusable ? 1 : 0}">${C3.feelingChoicePage({ lanes, minRow: d.minRow })}</div>`;
@@ -401,10 +404,10 @@ module.exports = {
     const labelPx = c.labelPx || 18;
     if (labelPx < 17 || labelPx > 18) throw new Error(`K-319 checkin: labelPx ${labelPx} outside 17..18`);
     // the six faces in bank order (a check-in is a fixed palette, not a puzzle); the seed only re-rolls nothing here
-    const faces = (matchable.length === d.faces ? matchable.slice() : rng.sample(matchable, d.faces))
+    const faces = slot.words(ctx, matchable.length === d.faces ? matchable.slice() : rng.sample(matchable, d.faces), matchable, 'feeling')   // a teacher's faces (maker)
       .map((f) => ({ id: f.id, label: f.word, src: fileUri(f.face.theme, f.face.noun) }));
     const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="checkin" data-lcs-faces="${faces.length}" data-lcs-rows="${d.rows}">` +
-      C3.feelingCheckIn({ today: c.today, draw: c.draw, because: c.because || null, faces, labelPx, facePx: d.facePx, d: d.d, rows: d.rows }) + `</div>`;
+      (ctx && ctx.slotsOut ? C3.feelingCheckIn({ today: c.today, draw: c.draw, because: c.because || null, faces, labelPx, facePx: d.facePx, d: d.d, rows: d.rows }).replace(/ data-lcs-choice="([^"]+)"/g, (m, id) => m + slot.attr(ctx, 'feeling', faces.findIndex((x) => x.id === id))) : C3.feelingCheckIn({ today: c.today, draw: c.draw, because: c.because || null, faces, labelPx, facePx: d.facePx, d: d.d, rows: d.rows })) + `</div>`;
     return { bodyHtml, meta: { faces: faces.map((f) => f.id) } };
   },
 
@@ -417,16 +420,16 @@ module.exports = {
     const rng = ctx.rng;
     const matchable = this._matchable(bank, loc);
     if (matchable.length < d.pairs + d.extraWords) throw new Error(`K-319: ${loc} has ${matchable.length} matchable feelings < ${d.pairs} + ${d.extraWords} (refuse)`);
-    const left = rng.shuffle(rng.sample(matchable, d.pairs));
+    const left = slot.words(ctx, rng.shuffle(rng.sample(matchable, d.pairs)), matchable, 'feeling');   // a teacher's feelings (maker)
     const ex = rng.sample(matchable.filter((f) => !left.includes(f)), d.extraWords).map((f, k) => ({ id: 'extra-' + (k + 1), word: f.word }));
     let right, guard = 0;
     do { right = rng.shuffle([...left, ...ex]); } while (right.some((f, i) => i < left.length && f.id === left[i].id) && ++guard < 500);
     if (right.some((f, i) => i < left.length && f.id === left[i].id)) throw new Error('K-319: no order without a word straight across from its face');
-    const bodyHtml = feelingMatch({
+    const bodyHtml = tapFaces(ctx, feelingMatch({
       left: left.map((f) => ({ id: f.id, src: fileUri(f.face.theme, f.face.noun) })),
       right: right.map((f) => ({ id: f.id, word: f.word })),
       tileL: d.tileL, tileR: d.tileR, itemH: d.itemH, itemHR: d.itemHR, picPx: d.picPx, wordPx: d.wordPx,
-    }).replace(`data-lcs-pairs="${left.length}"`, `data-lcs-pairs="${left.length}" data-lcs-extra="${ex.length}"`);
+    }), left).replace(`data-lcs-pairs="${left.length}"`, `data-lcs-pairs="${left.length}" data-lcs-extra="${ex.length}"`);
     return { bodyHtml, meta: { pairs: left.map((f) => f.id), words: right.map((f) => f.word), extra: ex.map((f) => f.word) } };
   },
 

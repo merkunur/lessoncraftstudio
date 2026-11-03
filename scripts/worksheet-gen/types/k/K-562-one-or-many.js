@@ -12,6 +12,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const NF = require('../_shared/noun-forms.js');
+const slot = require('../../lib/slot.js');
 const { LABELS } = require('../../data/b2/labels.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -42,7 +43,7 @@ module.exports = {
     // a word for one and a word for many that look different beyond the ending's first letter (es luz / luces both fine)
     const pool = NF.pool(theme, L).filter((e) => !d.article || shown(e, false, L, true));
     if (pool.length < d.n) throw new Error(`K-562: theme ${theme}/${L} has ${pool.length} nouns (< ${d.n})`);
-    const nouns = rng.sample(pool, d.n);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's pictures (maker)
     const far = /fruit|vegetable|bakery|dessert|food|breakfast|supermarket/i.test(theme) ? 'toys' : 'fruits';
     const contrast = d.groups > 2 ? NF.pool(far, L).map((x) => ({ ...x, _theme: far })) : [];
     if (d.groups > 2 && contrast.length < 2) throw new Error(`K-562: no far pictures for ${L}`);
@@ -67,7 +68,7 @@ module.exports = {
       const rightOpt = opts.find((o) => o.ok), rest = rng.shuffle(opts.filter((o) => !o.ok));
       rest.splice(right[i], 0, rightOpt);
       const groups = rest.map((o, j) => group(o.e, o.k, o.ok, String.fromCharCode(65 + j) + ' · ' + (o.k > 1 ? lab.many : lab.one))).join('');
-      return `<div data-lcs-one-many="${i + 1}" data-lcs-many="${many[i] ? 1 : 0}" data-lcs-word="${esc(word)}" style="display:flex;${wide ? 'flex-direction:row' : 'flex-direction:column'};align-items:center;justify-content:center;gap:10px;padding:10px 12px;border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-one-many="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-many="${many[i] ? 1 : 0}" data-lcs-word="${esc(word)}" style="display:flex;${wide ? 'flex-direction:row' : 'flex-direction:column'};align-items:center;justify-content:center;gap:10px;padding:10px 12px;border-radius:16px;background:${T.cream}">` +
         `<span style="font:700 ${wide ? 28 : 26}px/1.1 'Nunito',sans-serif;color:${T.ink};${wide ? 'width:170px;' : ''}text-align:center;overflow-wrap:anywhere">${esc(word)}</span>` +
         `<div class="ws-choices" style="display:flex;gap:10px;justify-content:center">${groups}</div></div>`;
     });

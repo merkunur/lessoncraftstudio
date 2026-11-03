@@ -9,6 +9,7 @@
  * d1 9 chips · d2 12 · d3 15, nouns WITHOUT pictures + a homograph guard.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { classIcons } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { WORD_CLASSES } = require('../../data/b2/word-classes.js');
@@ -133,10 +134,19 @@ module.exports = {
     // and adjectives are sampled above regardless, and only what reaches the chip
     // list and the bin row changes.
     const classes = d.classes || ['noun', 'verb', 'adj'];
+    // a teacher's words (maker): one role per word class on the page — a noun of the theme ('noun', a picture), a bank verb
+    // ('verb') or adjective ('adj') of the level; the page's own pools (two-bin and ambiguous words left out)
+    {
+      const tag = (v) => ({ ...v, word: v.w });
+      const amb = new Set(((LS_AMBIGUOUS[loc]) || []).map((x) => x.toLowerCase()));
+      if (classes.includes('noun')) pickN.splice(0, pickN.length, ...slot.pictures(ctx, pickN, nouns.filter((e) => !amb.has(e.word.toLowerCase())), theme, 'noun'));
+      if (classes.includes('verb')) verbs.splice(0, verbs.length, ...slot.words(ctx, verbs.map(tag), W.verbs.filter(tierOk).filter((v) => !drop.has(v.w.toLowerCase())).map(tag), 'verb'));
+      if (classes.includes('adj')) adjs.splice(0, adjs.length, ...slot.words(ctx, adjs.map(tag), W.adjectives.filter(tierOk).filter((a) => !drop.has(a.w.toLowerCase())).map(tag), 'adj'));
+    }
     const chips = rng.shuffle([
-      ...pickN.map((e) => ({ cls: 'noun', word: e.word, noun: e.noun, src: d.pics ? fileUri(theme, e.noun) : null })),
-      ...verbs.map((v) => ({ cls: 'verb', word: v.w })),
-      ...adjs.map((a) => ({ cls: 'adj', word: a.w })),
+      ...pickN.map((e, i) => ({ cls: 'noun', word: e.word, noun: e.noun, src: d.pics ? fileUri(theme, e.noun) : null, i })),
+      ...verbs.map((v, i) => ({ cls: 'verb', word: v.w, i })),
+      ...adjs.map((a, i) => ({ cls: 'adj', word: a.w, i })),
     ].filter((c) => classes.includes(c.cls)));
     // Level Set level 1 (`examples`): one WORKED EXAMPLE per bin — a word of that class, never one of the chips, printed
     // grey on the bin's first line. Drawn after every other draw, so the rest of the page is the page it would be without it.
@@ -147,7 +157,7 @@ module.exports = {
       for (const c of classes) { const p = pools[c]; if (!p.length) throw new Error(`G2-275: no worked example for ${c} in ${theme}/${loc}`); examples[c] = p[Math.floor(rng.next() * p.length)]; }
     }
     const chipHtml = chips.map((c) =>
-      `<span class="ws-tile ws-tile--word" style="height:44px;font-size:${d.font}px" data-lcs-word="${c.word}" data-lcs-class="${c.cls}">` +
+      `<span class="ws-tile ws-tile--word" style="height:44px;font-size:${d.font}px" data-lcs-word="${c.word}" data-lcs-class="${c.cls}"${slot.attr(ctx, c.cls, c.i)}>` +
       (c.src ? `<img class="ws-icon" src="${c.src}" alt="" style="width:28px;height:28px">` : '') + `${c.word}</span>`).join('');
     const bin = (cls) => {
       const lines = [];

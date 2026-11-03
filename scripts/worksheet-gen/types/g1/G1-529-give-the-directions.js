@@ -9,6 +9,7 @@
  * letter (N E S W in the language's letters, a compass rose beside the grid).
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
@@ -66,7 +67,7 @@ module.exports = {
     const M = MAPS_NEW[L];
     const pool = labelSafeNouns(theme).filter((x) => !refusedPicture(theme, x.noun));
     if (pool.length < 2) throw new Error(`G1-529: theme ${theme} has too few pictures`);
-    const [a, b] = rng.sample(pool, 2);
+    const [a, b] = slot.pictures(ctx, rng.sample(pool, 2), pool, theme);   // a teacher's start and finish pictures (maker)
     const { start, parts, end } = corners(d.n, d.parts, rng);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const cell = d.compass ? 70 : d.n === 5 ? 84 : 76, W = d.n * cell;
@@ -81,7 +82,7 @@ module.exports = {
     const head = `<path d="M${tipX},${tipY} L${tipX - ux * 16 - uy * 11},${tipY - uy * 16 - ux * 11} L${tipX - ux * 16 + uy * 11},${tipY - uy * 16 + ux * 11} Z" fill="${T.coral}"/>`;
     const gridLines = [];
     for (let i = 0; i <= d.n; i++) gridLines.push(`<line x1="${i * cell}" y1="0" x2="${i * cell}" y2="${W}" stroke="${T.grid}" stroke-width="2"/><line x1="0" y1="${i * cell}" x2="${W}" y2="${i * cell}" stroke="${T.grid}" stroke-width="2"/>`);
-    const img = (p, r, c) => `<image href="${fileUri(theme, p.noun)}" x="${c * cell + 6}" y="${r * cell + 6}" width="${cell - 12}" height="${cell - 12}" preserveAspectRatio="xMidYMid meet"/>`;
+    const img = (p, r, c) => `<image href="${fileUri(theme, p.noun)}"${slot.attr(ctx, 'pic', p === a ? 0 : 1)} x="${c * cell + 6}" y="${r * cell + 6}" width="${cell - 12}" height="${cell - 12}" preserveAspectRatio="xMidYMid meet"/>`;
     const svg = `<svg data-lcs-dir-grid width="${W + 4}" height="${W + 4}" viewBox="-2 -2 ${W + 4} ${W + 4}" style="flex:0 0 auto"><rect x="0" y="0" width="${W}" height="${W}" fill="#FFFFFF"/>${gridLines.join('')}` +
       `<polyline points="${line}" fill="none" stroke="${T.coral}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>${head}${img(a, start[0], start[1])}${img(b, end[0], end[1])}` +
       `<rect x="0" y="0" width="${W}" height="${W}" fill="none" stroke="${T.teal}" stroke-width="3"/></svg>`;

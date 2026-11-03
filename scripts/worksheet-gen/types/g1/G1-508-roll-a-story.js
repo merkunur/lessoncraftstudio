@@ -7,6 +7,7 @@
  * Levels: 1 who and where, four lines · 2 who, where and what happens, six lines · 3 the same, eight lines.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { ROLL, PROBLEMS, PLACES } = require('../../data/writing/stories-new.js');
 const { vocab } = require('../../lib/b2-common.js');
 const { picOf, srcOf } = require('../_shared/pic-by-key.js');
@@ -36,12 +37,16 @@ module.exports = {
     const animals = rng.sample(ANIMALS.filter((k) => picOf(k) && word(k)), 6);
     const places = rng.shuffle(PLACES.filter((k) => picOf(k) && word(k)));
     if (animals.length < 6 || places.length < 6) throw new Error(`G1-508: ${L} has ${animals.length} animals, ${places.length} places (< 6)`);
+    // a teacher's pictures (maker): the "who" column from the animals, the "where" column from the places (key theme/noun)
+    const asPic = (k) => ({ ...picOf(k), k });
+    animals.splice(0, 6, ...slot.anyPictures(ctx, animals.map(asPic), ANIMALS.filter((k) => picOf(k) && word(k)).map(asPic), 'who').map((x) => x.k));
+    places.splice(0, 6, ...slot.anyPictures(ctx, places.slice(0, 6).map(asPic), places.map(asPic), 'where').map((x) => x.k));
     const problems = rng.shuffle(PROBLEMS[L]);
     const px = d.rowH - 12;
     const cell = (col, i) => {
       if (col === 'problem') return `<span style="font:700 20px/1.15 'Baloo 2',cursive;color:${T.ink}">${W.esc(problems[i])}</span>`;
       const k = col === 'who' ? animals[i] : places[i];
-      return `<span style="display:flex;align-items:center;gap:8px"><img class="ws-icon" src="${srcOf(picOf(k))}" alt="" style="width:${px}px;height:${px}px;object-fit:contain"><span style="font:700 20px/1.1 'Baloo 2',cursive;color:${T.ink}">${W.esc(word(k))}</span></span>`;
+      return `<span style="display:flex;align-items:center;gap:8px"><img class="ws-icon" src="${srcOf(picOf(k))}" alt=""${slot.attr(ctx, col === 'who' ? 'who' : 'where', i)} style="width:${px}px;height:${px}px;object-fit:contain"><span style="font:700 20px/1.1 'Baloo 2',cursive;color:${T.ink}">${W.esc(word(k))}</span></span>`;
     };
     const head = `<tr><th></th>${d.cols.map((c) => `<th style="padding:4px 6px;font:700 22px/1.2 'Baloo 2',cursive;color:${T.teal};text-align:left">${W.esc(ROLL[L][c])}</th>`).join('')}</tr>`;
     const rows = Array.from({ length: 6 }, (_, i) => `<tr data-lcs-roll-row="${i + 1}" style="height:${d.rowH}px"><td style="width:${d.rowH}px">${diceFace({ n: i + 1, size: d.rowH - 14 }).svg}</td>` +

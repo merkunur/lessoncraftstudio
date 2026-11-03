@@ -10,6 +10,7 @@ const P = require('./position-scenes.js');
 const { vocab } = require('../../lib/b2-common.js');
 const { manifest, labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { nameRefused, REFUSED, NAME_ONLY } = require('../../lib/picture-name-refusals.js');
+const slot = require('../../lib/slot.js');
 
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
 // es encima de / it sopra / pt em cima de also mean "above": a page there never asks for "above" (two right answers, or a
@@ -27,11 +28,14 @@ function picOf(key) {
   return PIC.get(key) || null;
 }
 
-function positionItems({ locale, level, rows, rng, preps, accept }) {
+function positionItems({ locale, level, rows, rng, preps, accept, ctx }) {
   const L = String(locale || 'en').slice(0, 2);
   const want = (preps || P.LEVEL_PREPS[level] || P.LEVEL_PREPS[2]).filter((p) => !(NO_PREP[L] || []).includes(p));
   const objects = rng.shuffle(P.OBJECTS.filter((k) => picOf(k) && vocab()[k]));
   if (objects.length < rows) throw new Error(`position-items: ${objects.length} pictures for ${rows} rows`);
+  // a teacher's pictures (maker): row i's object is item i of the slot 'pic' — any reviewed position object
+  const objPool = P.OBJECTS.filter((k) => picOf(k) && vocab()[k]).map((k) => ({ ...picOf(k), key: k }));
+  const objs = slot.anyPictures(ctx, objects.slice(0, rows).map((k) => objPool.find((o) => o.key === k)), objPool, 'pic');
   const order = [];
   while (order.length < rows) order.push(...rng.shuffle(want.slice()));
   const out = [];
@@ -46,7 +50,7 @@ function positionItems({ locale, level, rows, rng, preps, accept }) {
       if (s && (!accept || accept(prep, sh, s))) { got = { shape: sh, sent: s }; break; }
     }
     if (!got) throw new Error(`position-items: ${L} has no sentence for "${prep}"`);
-    const key = objects[i], p = picOf(key);
+    const key = objs[i].key, p = objs[i];
     out.push({ prep, shape: got.shape, sent: got.sent, key, src: fileUri(p.theme, p.noun) });
   }
   return out;

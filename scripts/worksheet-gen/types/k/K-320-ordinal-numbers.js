@@ -59,6 +59,9 @@
 'use strict';
 const { entriesFor: rawEntriesFor, sampleEntries, fileUri } = require('../../lib/b2-common.js');
 const { distinctPictures } = require('../../lib/distinct-pictures.js');
+const slot = require('../../lib/slot.js');
+/** a strip's tiles are its tap targets (maker): data-lcs-idx i is item i of the strip's role */
+const tapStrip = (ctx, role, strip) => { if (ctx && ctx.slotsOut) strip.html = strip.html.replace(/data-lcs-idx="(\d+)"/g, (m, i) => m + slot.attr(ctx, role, +i)); return strip; };
 // one noun per artwork (Level Set 2026-10-14): two vocab keys can draw the same picture ("4th of July" liberty = statue);
 // a line-up showing one picture twice has two answers. No published theme carries such a pair (builds unchanged).
 const entriesFor = (theme, loc) => distinctPictures(theme, rawEntriesFor(theme, loc));
@@ -161,16 +164,17 @@ function rootOpen(d, theme, loc, extra, rows, minH, gap) {
 
 function buildFace(bankLoc, d, { theme, locale }, ctx) {
   const rng = ctx.rng;
-  if (d.layout === 'race') return buildRace(bankLoc, d, { theme, locale }, rng);
+  if (d.layout === 'race') return buildRace(bankLoc, d, { theme, locale }, ctx);
   const { loc, pool } = facePreamble(bankLoc, d, theme, locale);
-  if (d.layout === 'write') return buildWrite(bankLoc, d, { theme, loc, pool }, rng);
-  if (d.layout === 'words') return buildWords(bankLoc, d, { theme, loc, pool }, rng);
-  if (d.layout === 'where') return buildWhere(bankLoc, d, { theme, loc, pool }, rng);
+  if (d.layout === 'write') return buildWrite(bankLoc, d, { theme, loc, pool }, ctx);
+  if (d.layout === 'words') return buildWords(bankLoc, d, { theme, loc, pool }, ctx);
+  if (d.layout === 'where') return buildWhere(bankLoc, d, { theme, loc, pool }, ctx);
   throw new Error('K-320: unknown layout ' + d.layout);
 }
 
 /** F1 — write the ordinal numbers: given cells + open cells under every tile. */
-function buildWrite(bankLoc, d, { theme, loc, pool }, rng) {
+function buildWrite(bankLoc, d, { theme, loc, pool }, ctx) {
+  const rng = ctx.rng;
   if (!(d.given >= 1 && d.blank >= 1 && d.given + d.blank === d.n)) throw new Error(`K-320 write: given ${d.given} + blank ${d.blank} != n ${d.n}`);
   if (d.blank > d.n - 1) throw new Error('K-320 write: position 1 is never blank, so blank <= n - 1');
   const policy = bankLoc.genderPolicy === 'noun' ? 'noun' : 'position';
@@ -179,7 +183,7 @@ function buildWrite(bankLoc, d, { theme, loc, pool }, rng) {
   const minH = ARROW_ROW + 4 + d.tile + 4 + 44 + PAD_BORDER;
   const panels = [], meta = { strips: [] }, blankSets = [];
   for (let s = 0; s < d.strips; s++) {
-    const items = sampleEntries(rng, pool, d.n, `K-320 write ${theme}/${loc} strip ${s + 1}`);
+    const items = slot.pictures(ctx, sampleEntries(rng, pool, d.n, `K-320 write ${theme}/${loc} strip ${s + 1}`), pool, theme, 's' + s);
     const seen = new Set();
     for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320 write: duplicate noun in a strip: ' + it.noun); seen.add(it.noun); }
     const start = sides[s];
@@ -204,7 +208,7 @@ function buildWrite(bankLoc, d, { theme, loc, pool }, rng) {
       genders.push(g);
       if (blanks.includes(i)) { given.push(null); answers.push(lit); } else { given.push(lit); answers.push(null); }
     }
-    const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'box', given, answers, ...(d.cellPx ? { cellPx: d.cellPx } : {}) });
+    const strip = tapStrip(ctx, 's' + s, lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'box', given, answers, ...(d.cellPx ? { cellPx: d.cellPx } : {}) }));
     panels.push(lineUpPanel({
       strip: strip.html, below: '', minH, justify: 'center',
       attrs: `data-lcs-strip data-lcs-order="${items.map((it) => it.noun).join(',')}" data-lcs-start="${start}" data-lcs-n="${d.n}" data-lcs-blank="${d.blank}" data-lcs-blanks="${blanks.join(',')}" data-lcs-genders="${genders.join(',')}"`,
@@ -216,7 +220,8 @@ function buildWrite(bankLoc, d, { theme, loc, pool }, rng) {
 }
 
 /** F2 — ordinal words: a bank row of word chips under the strip, shuffled; the child draws a line to the picture. */
-function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
+function buildWords(bankLoc, d, { theme, loc, pool }, ctx) {
+  const rng = ctx.rng;
   if (!(d.words >= 2 && d.words <= d.n)) throw new Error(`K-320 words: words ${d.words} outside 2..n ${d.n}`);
   const table = {};
   for (const w of bankLoc.words || []) table[w.k] = w;
@@ -226,7 +231,7 @@ function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
   const minH = ARROW_ROW + 4 + d.tile + LINE_ZONE + 44 + PAD_BORDER;
   const panels = [], meta = { strips: [] };
   for (let s = 0; s < d.strips; s++) {
-    const items = sampleEntries(rng, pool, d.n, `K-320 words ${theme}/${loc} strip ${s + 1}`);
+    const items = slot.pictures(ctx, sampleEntries(rng, pool, d.n, `K-320 words ${theme}/${loc} strip ${s + 1}`), pool, theme, 's' + s);
     const seen = new Set();
     for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320 words: duplicate noun in a strip: ' + it.noun); seen.add(it.noun); }
     const start = sides[s];
@@ -250,7 +255,7 @@ function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
       const target = start === 'left' ? k - 1 : d.n - k;
       return { k, text: w.m, target };
     });
-    const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'none' });
+    const strip = tapStrip(ctx, 's' + s, lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'none' }));
     const row = wordChipRow({ words: words.map((w) => ({ k: w.k, text: w.text })), px, gap: 8 });
     panels.push(lineUpPanel({
       strip: strip.html, below: row, minH,
@@ -263,7 +268,8 @@ function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
 }
 
 /** F3 — which place: a pictured query per cell; the child writes the numeral. Lookalike nouns never share a strip. */
-function buildWhere(bankLoc, d, { theme, loc, pool }, rng) {
+function buildWhere(bankLoc, d, { theme, loc, pool }, ctx) {
+  const rng = ctx.rng;
   if (!(d.queries >= 1 && d.queries <= d.n)) throw new Error(`K-320 where: queries ${d.queries} outside 1..n ${d.n}`);
   if (WHERE_DENY.has(theme)) throw new Error(`K-320 where: theme "${theme}" has near-identical pictures (refused)`);
   const clone = d.clone || 56;
@@ -278,14 +284,18 @@ function buildWhere(bankLoc, d, { theme, loc, pool }, rng) {
   const pageAnswers = [];
   for (let s = 0; s < d.strips; s++) {
     // walk a shuffled pool; accept a noun unless its lookalike group is already seated in this strip
-    const items = [], used = new Set();
+    const drawn = [], used = new Set();
     for (const e of rng.shuffle(pool)) {
       const gi = groupOf[e.noun];
       if (gi != null && used.has(gi)) continue;
-      items.push(e); if (gi != null) used.add(gi);
-      if (items.length === d.n) break;
+      drawn.push(e); if (gi != null) used.add(gi);
+      if (drawn.length === d.n) break;
     }
-    if (items.length < d.n) throw new Error(`K-320 where ${theme}/${loc} strip ${s + 1}: only ${items.length} lookalike-free nouns, need ${d.n}`);
+    if (drawn.length < d.n) throw new Error(`K-320 where ${theme}/${loc} strip ${s + 1}: only ${drawn.length} lookalike-free nouns, need ${d.n}`);
+    // a teacher's pictures (maker) — refused when two of one look-alike group would sit in the strip
+    let items = slot.pictures(ctx, drawn, pool, theme, 's' + s);
+    const groups = items.map((e) => groupOf[e.noun]).filter((g) => g != null);
+    if (new Set(groups).size !== groups.length) { items = slot.pictures(ctx && { ...ctx, overrides: null }, drawn, pool, theme, 's' + s); slot.refuse(ctx, 's' + s); }
     const start = sides[s];
     const qs = rng.sample(items.map((_, i) => i), d.queries).sort((a, b) => a - b);
     const cells = qs.map((idx) => {
@@ -294,7 +304,7 @@ function buildWhere(bankLoc, d, { theme, loc, pool }, rng) {
       pageAnswers.push(answer);
       return { idx, noun: items[idx].noun, k, answer };
     });
-    const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'none' });
+    const strip = tapStrip(ctx, 's' + s, lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'none' }));
     const below = (label ? `<div data-lcs-where-label style="font-family:Nunito,sans-serif;font-weight:800;font-size:18px;color:#3A3530;line-height:30px">${label.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</div>` : '') +
       `<div data-lcs-queries style="display:flex;gap:40px;justify-content:center;align-items:center">` +
       cells.map((c) => queryCell({ src: fileUri(theme, c.noun), noun: c.noun, pic: clone, answer: c.answer })).join('') + '</div>';
@@ -310,7 +320,8 @@ function buildWhere(bankLoc, d, { theme, loc, pool }, rng) {
 }
 
 /** F5 — who wins the race: runners at distinct distances from a chequered finish; rank by distance. */
-function buildRace(bankLoc, d, { theme, locale }, rng) {
+function buildRace(bankLoc, d, { theme, locale }, ctx) {
+  const rng = ctx.rng;
   const loc = (locale || 'en').slice(0, 2);
   if (!theme) throw new Error('K-320: a theme is required (themed type)');
   if (BW_MARK.test(theme)) throw new Error(`K-320: theme "${theme}" is a B&W theme — the type excludes BW art (refused)`);
@@ -323,7 +334,7 @@ function buildRace(bankLoc, d, { theme, locale }, rng) {
   const noRace = new Set((bankLoc.noRace && bankLoc.noRace[theme]) || []);
   const facing = (bankLoc.facing && bankLoc.facing[theme]) || {};
   const pool = entriesFor(theme, loc).filter((e) => !noRace.has(e.noun));
-  const items = sampleEntries(rng, pool, d.lanes, `K-320 race ${theme}/${loc}`);
+  const items = slot.pictures(ctx, sampleEntries(rng, pool, d.lanes, `K-320 race ${theme}/${loc}`), pool, theme, 'race');
   const seen = new Set();
   for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320 race: duplicate runner: ' + it.noun); seen.add(it.noun); }
   // slots: the runner's LEFT edge on a grid of step `step` from x0, jittered +-jit; pairwise >= step - 2*jit >= sep
@@ -340,10 +351,10 @@ function buildRace(bankLoc, d, { theme, locale }, rng) {
   const byX = runners.slice().sort((a, b) => b.x - a.x);
   byX.forEach((r, i) => { r.rank = i + 1; r.answer = ordinalFor(loc, i + 1); });
   const rowH = d.rowH || 96;
-  const rows = runners.map((r) => {
+  const rows = runners.map((r, ri) => {
     const face = facing[r.noun] || facing.default || 'front';
     const mirror = face === 'left';
-    return `<div class="ws-race-row" data-ws-content data-lcs-lane style="display:flex;align-items:center;gap:8px;padding:0 12px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;min-height:${rowH}px;min-width:0">` +
+    return `<div class="ws-race-row" data-ws-content data-lcs-lane${slot.attr(ctx, 'race', ri)} style="display:flex;align-items:center;gap:8px;padding:0 12px;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;min-height:${rowH}px;min-width:0">` +
       raceLane({ src: fileUri(theme, r.noun), noun: r.noun, x: r.x, laneW, pic: d.pic, h: RACE_H, mirror }) +
       finishLine({ h: RACE_H }) +
       blankNumeralBox({ w: 72, h: 44, answer: r.answer, attrs: 'data-lcs-rank-box' }) + '</div>';
@@ -472,7 +483,7 @@ module.exports = {
     const panels = [];
     const meta = { strips: [] };
     for (let s = 0; s < d.strips; s++) {
-      const items = sampleEntries(rng, pool, d.n, `K-320 ${theme}/${loc} strip ${s + 1}`);
+      const items = slot.pictures(ctx, sampleEntries(rng, pool, d.n, `K-320 ${theme}/${loc} strip ${s + 1}`), pool, theme, 's' + s);
       const seen = new Set();
       for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320: duplicate noun in a strip: ' + it.noun); seen.add(it.noun); }
       const start = sides[s];
@@ -484,7 +495,7 @@ module.exports = {
       });
       const targets = new Set(chips.map((c) => c.target));
       if (targets.size !== chips.length) throw new Error('K-320: two chips on one tile');
-      const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'band' });
+      const strip = tapStrip(ctx, 's' + s, lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'band' }));
       const chipRow = `<div data-lcs-chips style="display:flex;gap:24px;align-items:center;justify-content:center;height:${d.pillH}px">` +
         chips.map((c) => ordinalChip({
           k: c.k, notation: c.notation, px: d.chipPx, icon: c.action, h: d.pillH,

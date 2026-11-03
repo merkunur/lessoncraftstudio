@@ -13,6 +13,7 @@
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 660, BUDGET = 700;
@@ -45,7 +46,10 @@ module.exports = {
     // one picture per card, each a different letter where the chart allows
     const letters = rng.shuffle(Object.entries(chart).filter(([, list]) => list.length).map(([up, list]) => ({ l: up.toLocaleLowerCase(L), list })));
     if (letters.length < d.cards) throw new Error(`K-536: ${L} chart has ${letters.length} letters with a picture (< ${d.cards})`);
-    const picks = letters.slice(0, d.cards).map((x) => ({ ...rng.pick(x.list), letter: x.l }));
+    // a teacher's pictures (maker): one role per card's letter — another picture of THAT letter's chart (the card keeps its answer)
+    const listOf = new Map(letters.map((x) => [x.l, x.list.map((e) => ({ ...e, letter: x.l }))]));
+    const KS = slot.byKind(ctx, letters.slice(0, d.cards).map((x) => ({ ...rng.pick(x.list), letter: x.l })), (p) => p.letter, (l) => listOf.get(l), { multi: true, prefix: 'l' });
+    const picks = KS.items;
     const cards = picks.map((p) => {
       // q and x are never an option; nor is h where it is silent (es it pt fr): it stands for no sound at all
       const ok = (c) => c !== p.letter && !sameSound(c, p.letter) && !'qx'.includes(c) && alpha.includes(c) && !(c === 'h' && ['es', 'it', 'pt', 'fr'].includes(L));
@@ -63,9 +67,9 @@ module.exports = {
     const extra = (ctx && ctx.chromeExtra) || 0;
     const rows = Math.ceil(d.cards / d.cols), w = Math.floor(W / d.cols), h = Math.floor((BUDGET - extra) / rows);
     const chip = Math.min(58, Math.floor((w - 60) / 3.6)), pic = Math.max(48, Math.min(h - chip - 40, w - 80));
-    const html = cards.map(({ p, opts }) => {
+    const html = cards.map(({ p, opts }, ci) => {
       const tiles = opts.map((c) => `<span data-lcs-clip="${c}"${mark && c === p.letter ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:${chip}px;height:${chip}px;border-radius:50%;border:3px solid ${T.teal};background:#FFFFFF;font:700 ${Math.round(chip * 0.62)}px/1 'Baloo 2',cursive;color:${T.ink}">${A.inCase(c, d.upper, L)}</span>`).join('');
-      return `<div data-lcs-clip-card="${p.letter}" data-lcs-word="${p.word}" style="box-sizing:border-box;width:${w}px;height:${h}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
+      return `<div data-lcs-clip-card="${p.letter}"${KS.tap(ci)} data-lcs-word="${p.word}" style="box-sizing:border-box;width:${w}px;height:${h}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
         `<img class="ws-icon" src="${fileUri(p.theme, p.noun)}" alt="" style="width:${pic}px;height:${pic}px;object-fit:contain">` +
         `<div style="display:flex;gap:${Math.round(chip * 0.45)}px">${tiles}</div></div>`;
     });

@@ -104,6 +104,36 @@ scan list: `docs/makers/republish-2026-11-03-bank-words.json`), the no G3-398 de
     still fails, poison-tested on three scenes).
   - build-thumbs prints the gate's reasons with every refusal (shell `lastSampleFails`).
 
+## Final phase, round 4 — a tap-to-edit slot on every template that draws content (2026-11-03)
+
+The full slots gate (`gates/slots.js`) found **293 templates in 21 makers that drew from a pool but exposed no slot** (a
+teacher could not change one picture or word), plus 26 failures of templates that had one. Every template now either
+takes a teacher's choice that keeps the page's answers true, or is on NO_SLOT with its reason written in the gate.
+- **Shared tools:** `lib/slot.js` `byKind` (one role per KIND of item — a letter's pictures, a rhyme class, a blend, a
+  long-vowel word — so the picker only offers choices that keep the answer, and `opts.page` refuses a set that breaks a
+  whole-page rule), `stampSrc` (the tap target on an item's picture), `labels` (a words slot keyed by ids names them:
+  the shell's picker shows the sentence / the pair); `types/_shared/rhyme-slots.js`; `lib/read-and-color.js`
+  `slotNouns` / `tapNouns`.
+- **The rule each family keeps:** syllables the same syllable count (no published-fix word, no word nested in another);
+  syllable reading every carpet row keeps its cards; letter of the week the card's own draw rule; alphabetical order
+  the first-letter rule (one predicate shared with the draw); articles the same article; sound boxes the same sounds
+  and wide-box need; digraphs the same team (and place), no repeated stem / picture, two per group; rhyming the same
+  rhyme class; Read and Color no look-alike, never its own real colour; Cloze a frame set `compose()` takes whole;
+  opposites no clash, no shared word; word classes per class; position words the pictures on the page; treasure hunt,
+  battleship, calendar stickers, word search, crossword (laid out again around the teacher's word), and more.
+- **NO_SLOT, each with its reason:** bingo (one caller set per level), calendar names, number of the day / ordinal
+  words / number words, letter tracing (the group is the unit), mazes, the island map / continents / room plan / pixel
+  figures, family (one invented graph), read and do, question words, verb forms, pronouns, synonyms, word parts,
+  compound words, story sequencing, animal fact file, Finish the Rhyme, Digraphs in Sentences, the Cloze story, the
+  fill-in pages (All About Me, reading log, story map, postcard).
+- **The gate itself:** a refused probe proved nothing (G1-305 refused "bat", another syllable count, and the gate
+  stopped) — it now tries every free choice and every item before calling a slot dead, and fails a slot no item can
+  take; the HEAD reference tree carries `scripts/lib` and `REFERENCE TRANSLATIONS` (G1-325..328 / K-546..549 could not
+  load their committed version). The catalogue stays byte-identical (the gate rebuilds every catalogue page at HEAD).
+  A slot whose every free choice is already on the page in another role (G1-140: a row's three length-fitting pictures,
+  the other rows hold them; K-510's spare group pictures are the other groups' odd ones out) is full, not dead — noted.
+  **Result: `slots gate: all pass`, every built maker.**
+
 ## Final phase, round 3 — every family gate green, the answer keys, one more native + pedagogy review (2026-11-03)
 
 - **Family qa gates** (`scripts/worksheet-gen/qa/verify-*.js`, 91): the Level Set (09-28 → 10-14) changed many types
@@ -118,7 +148,11 @@ scan list: `docs/makers/republish-2026-11-03-bank-words.json`), the no G3-398 de
   pages since the 09-29 picture exclusions; the base still asks it at every level), ruling starters (a worked-example
   lane is seated like a starter but needs no room after it), trace badges (below), division, all about me, days and
   months, feelings, rounding, odd and even, cursive, the G2-235 ruler poison. `verify-interactive` is a staging-folder
-  tool, not a gate; `verify-key-text` ran to its end.
+  tool, not a gate. `verify-key-text` ran to its end (2.5 h): 3,992 key pages, 2,796 answers measured, 13 failures —
+  all of them the check's own coverage, not a key: it rendered every unit-axis type with `unit: null` (a Color by
+  Number design belongs to ONE level, so K-393 / K-394 threw at the other two) and tried six themes only (de K-318
+  level 1 draws from none of them). It now tries the level's units and the other colour themes, stopping at a refusal;
+  the three types re-run: 27 key pages, 0 render failures.
 - **Content fixed at the source:** es rhyme -ón keeps "limón" as a word-only extra (its lime picture reads as a pear),
   the limón–ratón couplet stays; no cloze "apples-tre" lists no plum (excluded everywhere); Question Words: three es
   instructions inside the design's 120 characters, the no frame "{name} finner {thing}" (was word for word a Sentence

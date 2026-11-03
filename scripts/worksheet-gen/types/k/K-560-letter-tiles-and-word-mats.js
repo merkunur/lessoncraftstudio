@@ -10,6 +10,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const SW = require('../_shared/spelling-words.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 // level 1: words a kindergartner can build from their sounds (types/_shared/spelling-words.js decodable: en cat not kite,
@@ -31,12 +32,12 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = SW.pool(theme, L, d.min, d.max).filter((e) => !d.decodable || SW.decodable(e.word, L));
     if (pool.length < d.n) throw new Error(`K-560: theme ${theme}/${L} has ${pool.length} words of ${d.min}-${d.max} letters (< ${d.n})`);
-    const picks = rng.sample(pool, d.n);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's words (maker)
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two mats a row while the words have 4 letters or fewer; else one mat a row (a 5-letter mat is wider than half the page)
     const U = (e) => SW.units(e.word, L);   // nl ij: one tile, one box
     const two = Math.max(...picks.map((e) => U(e).length)) <= 4, mpx = two ? 68 : 56, mbw = two ? 50 : 44, mbh = two ? 54 : 48;
-    const mats = picks.map((e, i) => `<div data-lcs-mat="${i + 1}" data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:14px;background:${T.cream}">` +
+    const mats = picks.map((e, i) => `<div data-lcs-mat="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:14px;background:${T.cream}">` +
       `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${mpx}px;height:${mpx}px;object-fit:contain;flex:0 0 auto">` +
       `<span style="display:flex;gap:5px">${U(e).map((c) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(c)}"` : ''} style="width:${mbw}px;height:${mbh}px"></span>`).join('')}</span></div>`);
     // the tiles: every letter of the words (a second tile of each vowel), in the alphabet's order

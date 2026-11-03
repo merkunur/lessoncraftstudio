@@ -15,6 +15,7 @@
  * Levels: 1 six words · 2 eight words · 3 eight words, two-syllable words too (fi, de: the first vowel).
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { vocab, displayWord } = require('../../lib/b2-common.js');
 const { manifest, labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { nameRefused, REFUSED, NAME_ONLY } = require('../../lib/picture-name-refusals.js');
@@ -141,11 +142,14 @@ module.exports = {
     let cards = rng.shuffle([...long.slice(0, nl), ...short.slice(0, d.cards - nl)]);
     const bad = (o) => { const s = o.map((c) => (c.long ? 1 : 0)); let run = 1; for (let i = 1; i < s.length; i++) { run = s[i] === s[i - 1] ? run + 1 : 1; if (run > 3) return true; } return s.every((v, i) => !i || v !== s[i - 1]); };
     for (let g = 0; g < 40 && bad(cards); g++) cards = rng.shuffle(cards);
+    // a teacher's pictures (maker): a long-vowel word for a long one, a short for a short (the page's answers stay)
+    const KS = slot.byKind(ctx, cards, (x) => (x.long ? 'long' : 'short'), (k) => (k === 'long' ? long : short), { multi: true, prefix: 'v' });
+    cards = KS.items;
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const chip = (kind, right, inner) => `<span class="ws-chip" data-lcs-length="${kind}"${mark && right ? ' data-lcs-correct="1"' : ''} style="width:64px;height:52px;padding:0">${inner}</span>`;
-    const html = cards.map((it) => {
+    const html = cards.map((it, ci) => {
       const ch = [...it.word], before = ch.slice(0, it.at).join(''), vow = ch.slice(it.at, it.at + it.len).join(''), rest = ch.slice(it.at + it.len).join('');
-      return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:6px" data-ws-content data-lcs-vowel-length="${it.long ? 'long' : 'short'}" data-lcs-word="${it.word}">` +
+      return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:6px" data-ws-content${KS.tap(ci)} data-lcs-vowel-length="${it.long ? 'long' : 'short'}" data-lcs-word="${it.word}">` +
         `<img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${d.px}px;height:${d.px}px">` +
         `<span style="font:700 30px/1 'Baloo 2',cursive;color:${T.ink}">${before}<span style="color:${T.coral}">${vow}</span>${rest}</span>` +
         `<div class="ws-choices" style="gap:16px">${chip('long', it.long, bar(46))}${chip('short', !it.long, dot())}</div></div>`;

@@ -38,9 +38,11 @@ module.exports = {
     for (let t = 0; t < 60; t++) {
       const nouns = RC.distinctNouns(rng, C.entries, d.sentences + d.others);
       if (!nouns) break;
-      const targets = nouns.slice(0, d.sentences), others = nouns.slice(d.sentences);
+      const targets0 = nouns.slice(0, d.sentences), others = nouns.slice(d.sentences);
       const colors = rng.shuffle(RC.COLOR_KEYS.slice()).slice(0, d.sentences);
-      if (!RC.avoidNatural(targets.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      if (!RC.avoidNatural(targets0.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      // a teacher's pictures (maker): another nameable noun (RC.slotNouns — never a look-alike, never its own real colour)
+      const targets = RC.slotNouns(ctx, targets0, C.entries.filter((e) => !others.includes(e)), theme, colors, others);
       const frames = rng.shuffle(C.frames);
       const lines = [], pics = [];
       let ok = true;
@@ -65,12 +67,14 @@ module.exports = {
       const paint = !!(ctx && ctx.screen) && !pics.some((p) => !p.target);
       const field = rng.shuffle(pics).map((p) => RC.icon(theme, p.e, px, rng, p.target, paint ? p.color : null, ctx && ctx.answerKey && !pics.some((q) => !q.target) ? p.color : null)).join('');
       const legend = colorLegend({ entries: colors.map((k) => ({ key: k, word: C.words[k] })), bins: paint });
-      return {
+      const out = {
         bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:12px;min-height:0">${legend}` +
           `<ol style="list-style:none;margin:0;padding:0 8px;display:flex;flex-direction:column;gap:6px" data-lcs-list data-ws-content>${lines.join('')}</ol>` +
           `<div class="ws-card" style="flex:1;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-content:center;gap:14px 18px;padding:14px" data-lcs-field data-ws-content>${field}</div></div>`,
         meta: { nouns: nouns.map((e) => e.vocabKey) },
       };
+      out.bodyHtml = RC.tapNouns(ctx, out.bodyHtml, targets, theme);   // (maker) each target's tap target
+      return out;
     }
     throw new Error(`G1-410: ${theme}/${loc} cannot build ${d.sentences} sentences`);
   },

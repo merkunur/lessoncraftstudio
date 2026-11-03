@@ -11,6 +11,7 @@
  */
 'use strict';
 const calendar = require('../../primitives/calendar.js');
+const slot = require('../../lib/slot.js');
 const { answerBox } = require('../../templates/components.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { safeNouns } = require('../../lib/b2-common.js');
@@ -80,7 +81,8 @@ module.exports = {
     } while (((d.sixRows && meta.rows < 6) || (d.fiveRows && meta.rows > 5)) && guard < 50 && loc !== 'xx');
     const days = meta.days;
     // stickers on distinct days ≥ 2 apart, never the 1st
-    const nouns = rng.sample(safeNouns(STICKER_THEME, loc), d.stickers);
+    const stickerPool = safeNouns(STICKER_THEME, loc);
+    const nouns = slot.pictures(ctx, rng.sample(stickerPool, d.stickers), stickerPool, STICKER_THEME);   // a teacher's sticker choice (maker)
     const stickerDays = [];
     let g2 = 0;
     while (stickerDays.length < d.stickers && g2++ < 200) {
@@ -91,9 +93,11 @@ module.exports = {
     stickerDays.sort((a, b) => a - b);
     const stickers = nouns.map((n, i) => ({ day: stickerDays[i], href: fileUri(STICKER_THEME, n.noun), key: n.vocabKey, noun: n.noun }));
     const cal = calendar({ year, month, weekStart: C.weekStart, dayAbbr: C.dayAbbr, stickers, cellW: 88, cellH: (d.cellH || (d.sixRows || meta.rows === 6 ? 54 : 58)) - 4 * ((ctx && ctx.calFit) || 0) });
+    // the stickers on the calendar are their own tap targets (maker) — a face that asks no sticker question shows them nowhere else
+    if (ctx && ctx.slotsOut) cal.svg = cal.svg.replace(/data-lcs-sticker="([^"]+)"/g, (m, key) => m + slot.attr(ctx, 'pic', stickers.findIndex((s) => s.key === key)));
     const weekday = (day) => calendar.weekdayOf(year, month, day);
     const dayName = (day) => C.dayNames[weekday(day)];
-    const inline = (s) => `<img class="ws-icon" src="${s.href}" alt="" data-lcs-sticker-ref="${s.key}" style="width:26px;height:26px;vertical-align:middle;margin:0 2px">`;
+    const inline = (s) => `<img class="ws-icon" src="${s.href}" alt="" data-lcs-sticker-ref="${s.key}"${slot.attr(ctx, 'pic', stickers.indexOf(s))} style="width:26px;height:26px;vertical-align:middle;margin:0 2px">`;
     // pick a dayOfDate date: not a sticker day, not the 1st, not the last
     let qDate; let g3 = 0;
     do { qDate = rng.int(2, days - 1); g3++; } while (stickerDays.includes(qDate) && g3 < 50);

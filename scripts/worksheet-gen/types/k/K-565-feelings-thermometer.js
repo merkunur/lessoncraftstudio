@@ -11,6 +11,7 @@ const { fileUri } = require('../../lib/b2-common.js');
 const { bank } = require('../../lib/b3-common.js');
 const { FEELINGS_NEW } = require('../../data/feelings/feelings-new.js');
 const T = require('../../primitives/_tokens.js').color;
+const slot = require('../../lib/slot.js');
 
 const D = { 1: { n: 2, steps: 3, helps: false }, 2: { n: 3, steps: 5, helps: false }, 3: { n: 2, steps: 5, helps: true } };
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -30,8 +31,10 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const B = bank('feelings', L), N = FEELINGS_NEW[L];
-    const feel = rng.sample(d.helps ? POOL.filter((x) => x !== 'happy') : POOL, d.n).map((id) => B.feelings.find((f) => f.id === id));
+    const ids = d.helps ? POOL.filter((x) => x !== 'happy') : POOL;
+    let feel = rng.sample(ids, d.n).map((id) => B.feelings.find((f) => f.id === id));
     if (feel.some((f) => !f)) throw new Error(`K-565: ${L} lacks a feeling`);
+    feel = slot.words(ctx, feel, ids.map((id) => B.feelings.find((f) => f.id === id)).filter(Boolean), 'feeling');   // a teacher's feelings (maker)
     // the thermometers fill the body (measured 733 px: the face, the word and the steps)
     const stepH = d.steps === 3 ? 140 : d.helps ? 78 : 100, colW = d.n === 3 ? 196 : 270;
     const label = (i) => (d.steps === 3 ? N.strength[i] : i === 0 ? '1 · ' + N.strength[0] : i === d.steps - 1 ? d.steps + ' · ' + N.strength[2] : String(i + 1));
@@ -45,7 +48,7 @@ module.exports = {
         `<span style="font:700 24px/1 'Baloo 2',cursive;color:${T.teal}">${esc(f.word)}</span><div style="display:flex;flex-direction:column;gap:0">${steps}</div>${helps}</div>`;
     };
     return {
-      bodyHtml: `<div data-ws-content data-lcs-thermos style="flex:1;display:flex;justify-content:space-evenly;align-items:center;gap:12px;min-height:0">${feel.map(thermo).join('')}</div>`,
+      bodyHtml: `<div data-ws-content data-lcs-thermos style="flex:1;display:flex;justify-content:space-evenly;align-items:center;gap:12px;min-height:0">${feel.map((f, i) => slot.stamp(ctx, 'feeling', i, thermo(f))).join('')}</div>`,
       meta: { feelings: feel.map((f) => f.id), steps: d.steps },
     };
   },

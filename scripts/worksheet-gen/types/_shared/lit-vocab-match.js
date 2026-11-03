@@ -16,6 +16,7 @@
  */
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const SCOPED_CSS = `
 .lit-vm-word{display:flex;align-items:center;justify-content:center;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;font-family:'Baloo 2',cursive;font-weight:700;color:#146B5E}
@@ -39,7 +40,8 @@ function makeLitVocabMatch(cfg) {
       const d = this.difficulty[difficulty] || this.difficulty[2];
       const all = pairsByLocale[locale] || pairsByLocale.en || [];
       const n = Math.min(d.pairs, all.length);
-      const pairs = rng.sample(all, n);
+      // a teacher's picture choice (maker): any pair of the reviewed list (its word comes with its picture), else as drawn
+      const pairs = slot.anyPictures(ctx, rng.sample(all, n), all, 'pic');
 
       let order;
       do { order = rng.shuffle(pairs.map((_, i) => i)); }
@@ -61,7 +63,7 @@ function makeLitVocabMatch(cfg) {
 
       const right = order.map((srcIdx) => {
         const p = pairs[srcIdx];
-        return `<div class="ws-match-item ws-match-item--plain" style="width:200px;height:${itemH}px" data-lit-right="${p.noun}"${key ? ` data-lcs-key-badge="${srcIdx + 1}"` : scr ? ` data-lcs-pair="p${srcIdx + 1}"` : ''}>` +
+        return `<div class="ws-match-item ws-match-item--plain" style="width:200px;height:${itemH}px" data-lit-right="${p.noun}"${slot.attr(ctx, 'pic', srcIdx)}${key ? ` data-lcs-key-badge="${srcIdx + 1}"` : scr ? ` data-lcs-pair="p${srcIdx + 1}"` : ''}>` +
           `<span class="ws-match-dot ws-match-dot--left"></span>` +
           `<img class="ws-icon" src="${fileUri(p.theme, p.noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"></div>`;
       }).join('');

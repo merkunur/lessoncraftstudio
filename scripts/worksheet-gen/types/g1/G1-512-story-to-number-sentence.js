@@ -11,6 +11,7 @@
  */
 'use strict';
 const W = require('../../lib/word-problems-levelset.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const D = { 1: { n: 3, max: 10, iconMax: 10, choices: 2, font: 22 }, 2: { n: 4, max: 20, iconMax: 20, choices: 3, font: 20 }, 3: { n: 5, max: 20, iconMax: 20, choices: 3, font: 18 } };
@@ -31,7 +32,7 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = W.nounsFor(theme, L);
     if (pool.length < d.n) throw new Error(`G1-512: theme ${theme}/${L} has ${pool.length} nouns (< ${d.n})`);
-    const nouns = rng.sample(pool, d.n), names = W.namesFor(L, false);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme), names = W.namesFor(L, false);   // a teacher's thing per story (maker)
     const kinds = rng.shuffle(Array.from({ length: d.n }, (_, i) => (i % 2 ? 'sub' : 'add')));
     const places = rng.shuffle(Array.from({ length: d.n }, (_, i) => i % d.choices));
     const used = new Set();
@@ -62,7 +63,7 @@ module.exports = {
       return { kind, story, right, opts };
     });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
-    const rows = items.map((it, i) => `<div data-lcs-story="${i + 1}" data-lcs-kind="${it.kind}" style="display:flex;flex-direction:column;gap:8px;padding:8px 14px;border-radius:14px;background:${T.cream}">` +
+    const rows = items.map((it, i) => `<div data-lcs-story="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}" style="display:flex;flex-direction:column;gap:8px;padding:8px 14px;border-radius:14px;background:${T.cream}">` +
       `<div style="font:600 ${d.font}px/1.4 'Nunito',sans-serif;color:${T.ink}">${i + 1}. ${esc(it.story)}</div>` +
       `<div class="ws-choices" style="display:flex;gap:14px;justify-content:center">${it.opts.map((o) => `<span data-lcs-pick="1"${mark && o === it.right ? ' data-lcs-correct="1"' : ''} style="padding:6px 18px;border:2.5px solid ${T.grid};border-radius:12px;background:#FFFFFF;font:700 28px/1.2 'Baloo 2',cursive;color:${T.ink};white-space:nowrap">${o}</span>`).join('')}</div></div>`);
     return {

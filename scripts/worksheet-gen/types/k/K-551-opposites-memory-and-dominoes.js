@@ -16,6 +16,7 @@ const { bank } = require('../../lib/b3-common.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { keyNumber } = require('../_shared/key-number.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 660, BUDGET = 700;
@@ -52,6 +53,21 @@ module.exports = {
       picks.push(p);
     }
     if (picks.length < d.pairs) throw new Error(`K-551: ${L} has ${picks.length} pairs that cannot be confused (< ${d.pairs})`);
+    // a teacher's pairs (maker): another pair of the bank — refused when it shares a word (or an accepted alternative) with
+    // another pair on the page or is marked exclusive with one
+    {
+      const tagged = pool.map((p) => ({ word: p.id, p }));
+      const cur = picks.map((p) => tagged[pool.indexOf(p)]);
+      const chosen = slot.words(ctx, cur, tagged, 'pair');
+      if (chosen.some((x, i) => x !== cur[i])) {
+        const list = chosen.map((x) => x.p);
+        const bad = list.some((p, i) => list.some((q, j) => j > i && (words(q).some((w) => words(p).includes(w)) || (q.exclusiveWith || []).includes(p.id) || (p.exclusiveWith || []).includes(q.id))));
+        if (!bad) picks.splice(0, picks.length, ...list); else { slot.words({ ...ctx, overrides: null }, cur, tagged, 'pair'); slot.refuse(ctx, 'pair'); }
+      }
+      if (ctx && ctx.slotsOut && ctx.slotsOut.pair) ctx.slotsOut.pair.labels = Object.fromEntries(tagged.map((x) => [x.word, x.p.a + ' ↔ ' + x.p.b]));
+    }
+    // the tap targets: the first card / domino half of each pair (maker only)
+    const tapP = (html) => { const rec = ctx && ctx.slotsOut && ctx.slotsOut.pair; if (!rec) return html; const seen = new Set(); return html.replace(/ data-lcs-(?:opposite-card|left)="([^"]+)"/g, (m, id) => { const i = rec.values.indexOf(id); if (i < 0 || seen.has(id)) return m; seen.add(id); return m + slot.attr(ctx, 'pair', i); }); };
     const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
     const extra = (ctx && ctx.chromeExtra) || 0;
     // a side of a pair: its picture (or the one picture at its size) and its word
@@ -73,7 +89,7 @@ module.exports = {
           (key ? keyNumber(i + 1) : '') + side(p, s, px) + '</div>';
       });
       return {
-        bodyHtml: `<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-opposites style="display:grid;grid-template-columns:repeat(${d.cols},${w}px);border-top:2px dashed ${T.grid};border-left:2px dashed ${T.grid}">${html.join('')}</div></div>`,
+        bodyHtml: tapP(`<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-opposites style="display:grid;grid-template-columns:repeat(${d.cols},${w}px);border-top:2px dashed ${T.grid};border-left:2px dashed ${T.grid}">${html.join('')}</div></div>`),
         meta: { pairs: picks.map((p) => `${p.a}/${p.b}`) },
       };
     }
@@ -97,7 +113,7 @@ module.exports = {
         half(t.right, scr ? ` data-lcs-key-badge="${t.rid}"` : '') + '</div>';
     });
     return {
-      bodyHtml: `<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-dominoes style="display:grid;grid-template-columns:repeat(${cols},${tw}px);gap:${gap}px">${html.join('')}</div></div>`,
+      bodyHtml: tapP(`<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-dominoes style="display:grid;grid-template-columns:repeat(${cols},${tw}px);gap:${gap}px">${html.join('')}</div></div>`),
       meta: { ring: tiles.map((t) => `${t.left}|${t.right}`) },
     };
   },

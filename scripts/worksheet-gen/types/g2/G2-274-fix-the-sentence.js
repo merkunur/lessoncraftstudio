@@ -10,6 +10,7 @@
  * end mark must be chosen (? and .; ! only for `exclaimStrict` frames).
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { rulingBlock, fixChecklist } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
@@ -209,7 +210,7 @@ module.exports = {
       frames = cand;
     }
     if (!frames) throw new Error(`G2-274: bank ${loc} cannot satisfy d${difficulty} (fix frames: ${pool.length})`);
-    const nouns = rng.sample(entries, d.lanes);
+    const nouns = slot.pictures(ctx, rng.sample(entries, d.lanes), entries, theme);   // a teacher's pictures (maker): each lane's sentence is made with its noun
     // In joinPairs mode `frames` holds 2 per lane, so walk it in pairs.
     const laneFrames = d.joinPairs
       ? Array.from({ length: d.lanes }, (_, i) => [frames[i * 2], frames[i * 2 + 1]])
@@ -248,7 +249,7 @@ module.exports = {
       const broken = two
         ? (d.markSplit ? strip(one) + ' / ' + strip(two) : strip(canonical))
         : SB.corrupt(canonical, loc);
-      const laneAttrs = `data-lcs-item data-lcs-frame="${pair.map((f) => f.id).join('+')}"${d.joinPairs ? ' data-lcs-multi="1"' : ''}${d.markSplit && two ? ' data-lcs-split="1"' : ''} data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}"`;
+      const laneAttrs = `data-lcs-item${slot.attr(ctx, 'pic', i)} data-lcs-frame="${pair.map((f) => f.id).join('+')}"${d.joinPairs ? ' data-lcs-multi="1"' : ''}${d.markSplit && two ? ' data-lcs-split="1"' : ''} data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}"`;
       if (screen) {
         // screen: the lane is carried as DATA (words, answers, icon); the runtime draws it live
         return `<div ${laneAttrs} data-lcs-broken-text="${broken.replace(/"/g, '&quot;')}" data-lcs-icon="${fileUri(theme, e.noun)}" style="display:none"></div>`;

@@ -12,6 +12,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const CRATE = (w, h) =>
   `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">` +
@@ -45,7 +46,7 @@ function makePositionType(cfg) {
         // 2×2 cards: crate + one icon at each of 3 spots; target = `relation`
         const cards = [];
         for (let i = 0; i < d.cards; i++) {
-          const ns = rng.sample(pool, 3);
+          let ns = rng.sample(pool, 3);
           // icon art has transparent padding — sink the ON icon a few px into
           // the crate's top edge so it visually SITS on it
           const spots = { on: { x: 105, y: 22 }, under: { x: 105, y: 198 }, beside: { x: 0, y: 110 } };
@@ -53,11 +54,14 @@ function makePositionType(cfg) {
           // filled — two words in play instead of three. Levels 2-3 unchanged.
           const PARTNER = { on: 'under', under: 'on', beside: 'on' };
           const keep = difficulty === 1 ? new Set([relation, PARTNER[relation] || 'under']) : null;
+          // a teacher's pictures (maker): the card's visible spots are its slots (role c<i>, spot order on / under / beside)
+          const vis = Object.keys(spots).map((rel, k) => [rel, k]).filter(([rel]) => !keep || keep.has(rel)).map(([, k]) => k);
+          { const chosen = slot.pictures(ctx, vis.map((k) => ns[k]), pool, theme, 'c' + i); ns = ns.slice(); vis.forEach((k, j) => { ns[k] = chosen[j]; }); }
           const imgs = Object.entries(spots).filter(([rel]) => !keep || keep.has(rel)).map(([rel, p]) =>
             [rel, p, Object.keys(spots).indexOf(rel)]).map(([rel, p, k]) =>
             // generic marks (2026-11-03, INTERACTIVE-AND-SHARING §D): every icon a choice, the asked one correct — the
             // key rings it and the screen asks to tap it (one card = one question, [data-lcs-card])
-            `<img class="ws-icon" src="${fileUri(theme, ns[k].noun)}" alt="" data-lcs-rel="${rel}" data-lcs-choice` +
+            `<img class="ws-icon" src="${fileUri(theme, ns[k].noun)}" alt="" data-lcs-rel="${rel}"${slot.attr(ctx, 'c' + i, vis.indexOf(k))} data-lcs-choice` +
             `${rel === relation ? ' data-lcs-target="1" data-lcs-correct' : ''} ` +
             `style="position:absolute;left:${p.x}px;top:${p.y}px;width:64px;height:64px">`).join('');
           // six cards (level 3) need three rows: shrink the 280×268 scene so it
@@ -158,6 +162,10 @@ function makePositionType(cfg) {
         }
       }
 
+      // a teacher's pictures (maker): the distinct pictures on the page, in order of first appearance
+      const kinds = [...new Set(placed.map((p) => p.noun))];
+      const chosenKinds = slot.pictures(ctx, kinds, pool, theme);
+      { const swap = new Map(kinds.map((u, j) => [u, chosenKinds[j]])); placed.forEach((p) => { p.noun = swap.get(p.noun); }); }
       let decor = '';
       if (mode === 'left-right') {
         decor = `<div style="position:absolute;left:${W / 2 - 1.5}px;top:0;width:3px;height:${H}px;` +
@@ -172,7 +180,7 @@ function makePositionType(cfg) {
 
       const imgs = placed.map((p) =>
         // generic marks (2026-11-03): every picture a candidate, the ones at the asked place ringed (key + tap-select screen)
-        `<img class="ws-icon" src="${fileUri(theme, p.noun.noun)}" alt="" data-lcs-side="${p.side}" data-lcs-pick` +
+        `<img class="ws-icon" src="${fileUri(theme, p.noun.noun)}" alt="" data-lcs-side="${p.side}"${slot.attr(ctx, 'pic', chosenKinds.indexOf(p.noun))} data-lcs-pick` +
         `${p.side === relation ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
         `style="position:absolute;left:${p.x.toFixed(1)}px;top:${p.y.toFixed(1)}px;width:64px;height:64px">`).join('');
 

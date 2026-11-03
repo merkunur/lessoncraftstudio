@@ -20,6 +20,7 @@
  */
 'use strict';
 const { answerBox } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 const { dotPanel, equalGroups, rulingBlock } = require('../../templates/components-b2.js');
 const { fileUri, labelsForKey: labels } = require('../../image-cache/resolve.js');
 const { safeNouns } = require('../../lib/b2-common.js');
@@ -140,7 +141,7 @@ module.exports = {
     const screen = !!ctx.interactive, key = !!ctx.answerKey;
     const pool = W.nounsFor(theme, loc);
     if (pool.length < d.ops.length) throw new Error(`G3-370: theme ${theme}/${loc} has ${pool.length} countable nouns < ${d.ops.length}`);
-    const nouns = rng.sample(pool, d.ops.length);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.ops.length), pool, theme);   // a teacher's thing per story (maker), else as drawn
     const names = W.namesFor(loc, true);
     const usedFrames = new Set(), usedNums = new Set();
     const q = d.q || [2, 6];
@@ -164,10 +165,10 @@ module.exports = {
       return { op, n1, n2, answer, noun: noun.noun, vocabKey: noun.vocabKey, frame: op + fk, sentence };
     });
     const eq = (p) => (p.op === 'mul' ? `${p.n1} ${mulGlyph(loc)} ${p.n2} = ${p.answer}` : `${p.n1} ${divGlyph(loc)} ${p.n2} = ${p.answer}`);
-    const blocks = problems.map((p) => {
+    const blocks = problems.map((p, pi) => {
       const font = screen ? SCR.font : d.font;
       const picture = d.noPic ? '' : equalGroups({ op: p.op, a: p.n1, b: p.n2, iconSrc: fileUri(theme, p.noun), iconPx: screen ? Math.max(d.icon, Math.min(SCR.icon, p.op === 'mul' ? Math.floor(560 / (p.n1 * Math.min(p.n2, 3))) : 40)) : d.icon, w: 600, slotH: screen ? 52 : d.slotH });
-      const stamps = `data-lcs-problem data-lcs-ls="1" data-lcs-op="${p.op}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2}" data-lcs-max="${d.max}" data-lcs-min="${d.min || 0}"${d.noPic ? ' data-lcs-nopic="1"' : ''}`;
+      const stamps = `data-lcs-problem${slot.attr(ctx, 'pic', pi)} data-lcs-ls="1" data-lcs-op="${p.op}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2}" data-lcs-max="${d.max}" data-lcs-min="${d.min || 0}"${d.noPic ? ' data-lcs-nopic="1"' : ''}`;
       const tight = !screen && (d.dots === 0 || (key && d.ops.length >= 3));
       const box = screen ? W.writeBox(p.answer, p.vocabKey, `data-lcs-op="${p.op}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2}"`, SCR.box, 104) : answerBox({ w: tight ? 72 : 84, h: tight ? 44 : 64, answer: p.answer });
       let ruling = '';

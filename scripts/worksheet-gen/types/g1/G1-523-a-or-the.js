@@ -17,6 +17,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const NF = require('../_shared/noun-forms.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const D = { 1: { n: 6, task: 'circle' }, 2: { n: 6, task: 'write', hard: true } };
@@ -67,7 +68,7 @@ Object.assign(module.exports, {
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[1], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     if (!FRAMES[L]) throw new Error(`G1-523: ${L} has no articles (no a / the to choose)`);
-    const pool = NF.pool(theme, L).map((e) => ({ e, p: phrases(e, L, !!d.hard) })).filter((x) => x.p);
+    const pool = NF.pool(theme, L).map((e) => ({ e, p: phrases(e, L, !!d.hard), noun: e.noun })).filter((x) => x.p);
     // genders mixed (keyed by the definite form's article, the Nordic suffix's last letter): no key more than half
     const keyOf = (x) => (x.p.defArt != null ? x.p.defArt : x.p.indArt);
     const by = {};
@@ -80,7 +81,13 @@ Object.assign(module.exports, {
     }
     for (const k of rng.shuffle(keys)) while (items.length < d.n && by[k].length) items.push(by[k].shift());   // a theme short of one gender still fills the page
     if (items.length < d.n) throw new Error(`G1-523: theme ${theme}/${L} gives ${items.length} nouns with sure forms (< ${d.n})`);
-    const rows = rng.shuffle(items);
+    let rows = rng.shuffle(items);
+    // a teacher's pictures (maker): row i's noun swapped for a pool noun with the SAME article (the page's mix stays)
+    {
+      const chosen = slot.pictures(ctx, rows, pool, theme);
+      if (chosen.every((x, i) => x === rows[i] || keyOf(x) === keyOf(rows[i]))) rows = chosen;
+      else { slot.pictures(ctx && { ...ctx, overrides: null }, rows, pool, theme); slot.refuse(ctx, 'pic'); }
+    }
     // two cards of six name a SECOND thing in their second sentence (Here is a dog. Here is a cat.): a first mention again,
     // so the form is never given by the line alone (native review 2026-11-03)
     // the second thing comes from a far theme (fruits; toys for a food theme): never a kind of the first — «ein Segelboot …
@@ -117,7 +124,7 @@ Object.assign(module.exports, {
       return `<div data-lcs-sentence="${which}" style="display:flex;align-items:center;flex-wrap:wrap;gap:4px 0;font:700 24px/1.25 'Nunito',sans-serif;color:${T.ink}">${txt(pre)}${mid}${txt(post)}</div>`;
     };
     const img = (e, px) => `<img class="ws-icon" src="${fileUri(e._theme || theme, e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain">`;
-    const cards = rows.map((x, i) => `<div data-lcs-a-or-the="${i + 1}" data-lcs-vocab="${esc(x.e.vocabKey)}"${second[i] ? ` data-lcs-second="${esc(second[i].e.vocabKey)}"` : ''} style="display:flex;align-items:center;gap:18px;padding:8px 16px;border-radius:16px;background:${T.cream}">` +
+    const cards = rows.map((x, i) => `<div data-lcs-a-or-the="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-vocab="${esc(x.e.vocabKey)}"${second[i] ? ` data-lcs-second="${esc(second[i].e.vocabKey)}"` : ''} style="display:flex;align-items:center;gap:18px;padding:8px 16px;border-radius:16px;background:${T.cream}">` +
       `<div style="flex:0 0 80px;display:flex;flex-direction:column;align-items:center;gap:2px">${second[i] ? img(x.e, 46) + img(second[i].e, 46) : img(x.e, 80)}</div>` +
       `<div style="display:flex;flex-direction:column;gap:8px;min-width:0">${sentence(x.p, 'ind', i * 2)}${second[i] ? sentence(second[i].p, 'ind', i * 2 + 1, 0, true) : sentence(x.p, 'def', i * 2 + 1)}</div></div>`);
     return {

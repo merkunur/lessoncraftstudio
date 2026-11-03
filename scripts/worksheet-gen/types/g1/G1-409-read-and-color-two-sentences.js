@@ -36,9 +36,11 @@ module.exports = {
     const C = RC.pageContext(this.id, theme, loc, d.cards * 2 + (d.extra ? 1 : 0));
     for (let t = 0; t < 60; t++) {
       const colors = rng.shuffle(RC.COLOR_KEYS.slice());
-      const targets = RC.distinctNouns(rng, C.entries, d.cards * 2);
-      if (!targets) break;
-      if (!RC.avoidNatural(targets.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      const targets0 = RC.distinctNouns(rng, C.entries, d.cards * 2);
+      if (!targets0) break;
+      if (!RC.avoidNatural(targets0.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      // a teacher's pictures (maker): another nameable noun (RC.slotNouns — never a look-alike, never its own real colour)
+      const targets = RC.slotNouns(ctx, targets0, C.entries, theme, colors);
       const frames = rng.shuffle(C.frames);
       let ok = true;
       const cards = [];
@@ -66,7 +68,7 @@ module.exports = {
       if (!ok) continue;
       const legend = colorLegend({ entries: colors.slice(0, d.cards * 2).map((k) => ({ key: k, word: C.words[k] })), bins: !!(ctx && ctx.screen && !d.extra) });
       return {
-        bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;min-height:0">${legend}${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
+        bodyHtml: RC.tapNouns(ctx, `<div style="flex:1;display:flex;flex-direction:column;min-height:0">${legend}${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`, targets, theme),
         meta: { nouns: targets.map((e) => e.vocabKey) },
       };
     }

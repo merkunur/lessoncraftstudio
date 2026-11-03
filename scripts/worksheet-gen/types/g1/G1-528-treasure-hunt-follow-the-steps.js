@@ -10,6 +10,7 @@
  * compass directions (north, east, south, west; a compass rose beside the grid).
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
@@ -63,7 +64,7 @@ module.exports = {
     const M = MAPS_NEW[L];
     const pool = labelSafeNouns(theme).filter((x) => !refusedPicture(theme, x.noun));
     if (pool.length < d.n * d.n) throw new Error(`G1-528: theme ${theme} has ${pool.length} pictures (< ${d.n * d.n})`);
-    const pics = rng.sample(pool, d.n * d.n);
+    const pics = slot.pictures(ctx, rng.sample(pool, d.n * d.n), pool, theme);   // a teacher's pictures (maker); the route and its answer stay
     const dirs = d.compass ? ['north', 'east', 'south', 'west'] : ['up', 'right', 'down', 'left'];
     const { start, moves, end } = route(d.n, d.steps, rng, dirs);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
@@ -74,7 +75,7 @@ module.exports = {
     for (let r = 0; r < d.n; r++) for (let c = 0; c < d.n; c++) {
       const isStart = r === start[0] && c === start[1], isEnd = r === end[0] && c === end[1];
       cells.push(`<div class="ws-th-cell" data-lcs-th-cell="${r}-${c}"${mark && isEnd ? ' data-lcs-correct="1"' : ''} data-lcs-label="${esc(String.fromCharCode(65 + c) + (r + 1))}" style="position:relative;width:${cell}px;height:${cell}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;background:${isStart ? T.cream : '#FFFFFF'};border-radius:10px">` +
-        `<img class="ws-icon" src="${fileUri(theme, at(r, c).noun)}" alt="" style="width:${cell - 26}px;height:${cell - 26}px;object-fit:contain">` +
+        `<img class="ws-icon" src="${fileUri(theme, at(r, c).noun)}" alt=""${slot.attr(ctx, 'pic', r * d.n + c)} style="width:${cell - 26}px;height:${cell - 26}px;object-fit:contain">` +
         (isStart ? `<svg width="30" height="30" viewBox="0 0 24 24" style="position:absolute;top:3px;left:3px" aria-hidden="true" data-lcs-th-start><path d="M5 22 L5 2" stroke="${T.ink}" stroke-width="2.2"/><path d="M5.5 3 L19 7 L5.5 11 Z" fill="${T.coral}"/></svg>` : '') + '</div>');
     }
     const grid = `<div data-lcs-th-grid style="display:grid;grid-template-columns:repeat(${d.n},${cell}px);gap:4px;padding:4px;background:${T.grid};border:3px solid ${T.teal};border-radius:14px">${cells.join('')}</div>`;

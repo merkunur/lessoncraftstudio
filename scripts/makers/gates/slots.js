@@ -107,7 +107,102 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
   'G1-470', 'G3-470', 'G2-470', 'G3-472', 'G3-473',
   // logic puzzles: number walls, magic squares and number balances are numerals only (Logic & Math Puzzles maker 2026-11-01)
-  'G1-246', 'G1-266', 'G1-267', 'G1-268', 'G1-289', 'G2-313', 'G3-349', 'G3-350']);
+  'G1-246', 'G1-266', 'G1-267', 'G1-268', 'G1-289', 'G2-313', 'G3-349', 'G3-350',
+  // Mazes (final phase 2026-11-03): the handmade mazes (K-405 engine) are pinned scenes — every picture is drawn into
+  // its roads and the one way is proved on that drawing, so a swapped picture would break the scene (K-480 places its
+  // kind's pictures through that engine); K-484 / K-485 are grid mazes with no picture or word
+  'K-405', 'K-406', 'K-407', 'K-408', 'K-409', 'K-410', 'K-411', 'K-412', 'K-413', 'K-480', 'K-484', 'K-485', 'G1-420', 'G1-421', 'G1-422', 'G1-423', 'G1-424', 'G1-425', 'G1-426', 'G1-427', 'G1-428', 'G2-392', 'G2-393',
+  // Calendar (final phase 2026-11-03): the days and months of the language ARE the content (every name, in order),
+  // and Today's Date / the birthday graph take the class's own day and data — nothing is drawn from a pool a teacher
+  // would swap (the Read the Calendar faces G2-277 / G2-296..298 / G2-312 have sticker slots)
+  'G1-319', 'G1-320', 'G1-321', 'G1-322', 'G1-525', 'G1-526', 'K-321', 'K-337',
+  // Number of the Day / number words (final phase 2026-11-03): numerals and the language's number words only — the
+  // level's range draws them, there is no picture or word pool to swap from
+  'G1-210', 'G1-223', 'G1-224', 'G1-225', 'G1-226', 'G1-227', 'G1-243', 'G1-255', 'G1-256', 'G1-257', 'G1-514', 'G2-491',
+  // Make Your Own Secret Code (G1-542): the child invents the code — nothing is drawn; Number Word Search (K-568):
+  // the language's number words for the level's range
+  'G1-542', 'K-568',
+  // the hidden-message word search: the grid is rebuilt from a fresh word list until the letters left over spell a
+  // sentence exactly; a swapped word changes that letter count, so no single-word swap can be kept (Regenerate draws
+  // another page)
+  'G2-494',
+  // Ordinal Numbers to 31 / Symbol and Word / Ordinal Number Cards (final phase 2026-11-03): the ordinals of the
+  // level's range in the language's own notation and words (and a row of dots) — no picture or word pool to swap from
+  'G1-515', 'G1-516', 'G1-521',
+  // Number, Word and Picture / Number Word Cards (final phase 2026-11-03): numerals, the language's number words and
+  // ten frames of the level's range — no picture or word pool to swap from
+  'K-556', 'K-557',
+  // Bingo (final phase 2026-11-03): a level's pool is ONE caller set, drawn by its own fixed seed
+  // (types/_shared/bingo.js poolOf) and shared by every card page and the caller-card page — a swapped picture or
+  // word would be a cell no caller card ever calls; the teacher chooses the theme and the level
+  'K-569', 'K-570', 'K-571', 'K-572', 'K-573', 'K-574', 'K-575', 'K-576', 'K-577', 'K-578', 'G1-543', 'G1-544', 'G1-545', 'G1-546',
+  // All About Me (final phase 2026-11-03): the poster (K-323), My Family (K-343) and My Name (K-346) are fill-in
+  // pages — fixed prompts, frames and lanes the child fills with her own drawing, name and numbers; nothing is drawn
+  // from a pool. Feelings scene face (K-331): each card is an authored scene, its objects drawn object-disjoint
+  // across the page and balanced across feelings — Regenerate draws another set
+  'K-323', 'K-343', 'K-346', 'K-331',
+  // Family (final phase 2026-11-03): every face draws ONE invented family graph (the portrait cast) and derives every
+  // word and answer from it — each person carries a kinship path from the child, a word is legal only when exactly
+  // one person carries it, and verify() re-derives the parents from the drawn lines; nothing can be swapped without
+  // redrawing the family (Regenerate draws another), and the tree template is empty
+  'K-370', 'K-375', 'G1-385', 'G1-386', 'G1-387', 'G2-362',
+  // Feelings This Week (K-564) and Feelings Cards (K-566) print ALL six faces a K child reads without the word, every
+  // page; My Friend and Me (G1-531) is a two-ring diagram the children fill — nothing is drawn from a pool
+  'K-564', 'K-566', 'G1-531',
+  // Finish the Rhyme (G1-344, the couplet face of Rhyming Words): each answer finishes a written sentence (its rhyme
+  // AND its meaning) — another word of the rhyme class would rhyme but make a nonsense line; Regenerate draws other
+  // couplets
+  'G1-344',
+  // Letter Tracing (final phase 2026-11-03): no draw — a page traces the letters of its group (a-f, g-l … the
+  // language's own letters, the first letters) in alphabet order, and the group is the teacher's unit setting
+  'K-238', 'K-254', 'K-255', 'K-256', 'K-257', 'K-258', 'K-278', 'K-279', 'K-280', 'K-281', 'K-282', 'K-283',
+  // Maps & Grids (final phase 2026-11-03): Map Skills (G1-379 and its faces K-377, G2-369..371, G3-396) draw ONE
+  // invented island whose symbols and places are placed into its land and paths, and the continents and oceans are
+  // fixed geography; the room plan (K-563) draws furniture models; Draw Your Own Map (G1-530) is empty; Grid
+  // Coordinates (G2-279, G2-302, G2-303, G2-308) is a pixel figure drawn cell by cell from the level's set (its key
+  // names are English only) — Regenerate draws another
+  'G1-379', 'K-377', 'G2-369', 'G2-370', 'G2-371', 'G3-396', 'K-563', 'G1-530', 'G2-279', 'G2-302', 'G2-303', 'G2-308',
+  // Digraphs in Sentences (G2-372, the text face of Digraphs): the child finds the letter team in written sentences —
+  // every word belongs to its sentence (meaning, grammar), so a swapped word would make a wrong sentence; Regenerate
+  // draws other sentences
+  'G2-372',
+  // Reading (final phase 2026-11-03): the Reading Log (K-554) is a page to fill for any book; the comprehension
+  // stories (G2-254, G2-269..273) are each a reviewed story with its own questions; Read and Do (G1-308, G1-338..342)
+  // composes every instruction WITH its strip or card — the place, the count and the word forms of its nouns (the fi
+  // partitive …) — so a swapped noun is a new instruction, not a new picture: Regenerate draws another page
+  'K-554', 'G2-254', 'G2-269', 'G2-270', 'G2-271', 'G2-272', 'G2-273', 'G1-308', 'G1-338', 'G1-339', 'G1-340', 'G1-341', 'G1-342',
+  // Fill in the Blank: Story (G2-350, the story face of Cloze): each page is ONE authored story whose gaps run
+  // through its sentences — a swapped sentence would break the story; Regenerate draws another
+  'G2-350',
+  // Question Words (G1-353 and its faces G1-373..375, G2-356, G2-357): every row is composed from a frame and the
+  // part it asks about — a person of the portrait cast, a thing, a place, a number or a time — with that part's own
+  // word forms and clash rules; a swapped part is a new question, not a new picture: Regenerate draws another page
+  'G1-353', 'G1-373', 'G1-374', 'G1-375', 'G2-356', 'G2-357',
+  // Grammar (final phase 2026-11-03): Verb Forms (G2-317, G2-334..338) pairs each verb with a sentence frame that
+  // fits only some verbs and plans its gap columns over the page — a swapped verb needs another frame; Pronouns
+  // (G1-352, G1-371, G1-372, G2-353..355) draws people of the portrait cast with their names, and the answer is that
+  // person's pronoun — Regenerate draws another page
+  'G2-317', 'G2-334', 'G2-335', 'G2-336', 'G2-337', 'G2-338', 'G1-352', 'G1-371', 'G1-372', 'G2-353', 'G2-354', 'G2-355',
+  // Opposites in a Sentence (G1-335) and Opposite or the Same? (G1-337): each row is a sentence frame written for its
+  // pair, or a pair with its own synonym and far word chosen across the page so no word is a second right answer — a
+  // swapped pair needs other sentences and distractors: Regenerate
+  'G1-335', 'G1-337',
+  // Synonyms (G2-358 and its faces G1-395, G1-396, G2-373, G2-374, G3-397): every row is a concept group drawn with
+  // its near set and domain across the page so no word is a second right answer, and each face composes its rows
+  // (shade scales, pairs, said-sentences, word fields) from those groups — a swapped word would change the page's
+  // answers: Regenerate
+  'G2-358', 'G1-395', 'G1-396', 'G2-373', 'G2-374', 'G3-397',
+  // Word Parts (G2-359 and its faces G1-397, G2-375, G2-376, G3-398, G3-399) and Compound Words (G2-316,
+  // G2-330..333): every card is a word family or a compound drawn as a unit — its member, parts, link and foils
+  // chosen across the page so no foil belongs to another card and no half meets its partner — a swapped word would
+  // change the other cards' answers: Regenerate
+  'G2-359', 'G1-397', 'G2-375', 'G2-376', 'G3-398', 'G3-399', 'G2-316', 'G2-330', 'G2-331', 'G2-332', 'G2-333',
+  // Stories & Writing (final phase 2026-11-03): Story Sequencing (K-379, K-381, G1-400..402, G2-378) draws each page
+  // as ONE plan — its stories, their panel orders, foils and tray slots chosen together against answer tells; the
+  // Animal Fact File (G2-318, G2-339..343) draws an animal with its true facts against the other animals' profiles;
+  // the Story Map (G1-506) and Postcard (G1-510) are frames the child fills — Regenerate draws another page
+  'K-379', 'K-381', 'G1-400', 'G1-401', 'G1-402', 'G2-378', 'G2-318', 'G2-339', 'G2-340', 'G2-341', 'G2-342', 'G2-343', 'G1-506', 'G1-510',
+]);
 // a template whose theme pictures are DECORATION only (themeAxis.decorative: a corner flourish on a numeral page) has
 // nothing a teacher would swap — no slot is required
 
@@ -150,6 +245,14 @@ files.forEach(refCopy);
 // shared non-code inputs the REF code reads relative to itself
 // the publish-cli helpers the platform loads (the vocabulary), read from the real repo
 try { fs.symlinkSync(path.join(REPO, 'scripts', 'publish-cli'), path.join(tmp, 'scripts', 'publish-cli'), 'junction'); } catch (e) { /* exists */ }
+// the syllable safety pipeline's approved words (lib/b3-common.js reads scripts/v2-data relative to itself): without them every
+// REF build of a syllable template threw and the gate reported its catalogue as changed (G1-324, 2026-11-03)
+try { fs.symlinkSync(path.join(REPO, 'scripts', 'v2-data'), path.join(tmp, 'scripts', 'v2-data'), 'junction'); } catch (e) { /* exists */ }
+// two more shared inputs outside worksheet-gen that REF code requires relative to itself: scripts/lib (the syllable split
+// screen loads scripts/lib/free-claim.js) and REFERENCE TRANSLATIONS (lcs-grammar.js, the position-word sentences) —
+// without them every REF build of G1-325..328 / K-546..549 threw and the gate reported their catalogue as changed
+try { fs.symlinkSync(path.join(REPO, 'scripts', 'lib'), path.join(tmp, 'scripts', 'lib'), 'junction'); } catch (e) { /* exists */ }
+try { fs.symlinkSync(path.join(REPO, 'REFERENCE TRANSLATIONS'), path.join(tmp, 'REFERENCE TRANSLATIONS'), 'junction'); } catch (e) { /* exists */ }
 for (const d of ['data', 'i18n', 'cache', 'assets']) {
   const src = path.join(REPO, wgRel, d);
   const dst = path.join(tmp, wgRel, d);
@@ -241,15 +344,30 @@ for (const m of MAKERS) {
       // K-510 keeps its groups apart), else any item outside this slot
       const onPage = new Set(Object.values(base.slots).flatMap((x) => x.values || []));
       const frees = s.pool.filter((k) => !s.values.includes(k));
-      const free = frees.find((k) => !onPage.has(k)) || frees[0];
-      if (!free) { console.log(`note ${t.id} ${role}: pool has no unused item`); continue; }
-      const ed = tryMk(d, sv0, { overrides: { [role]: { 0: free } } });
-      if (!ed) { console.log(`note ${t.id} ${role}: the first free choice is refused (the page cannot take it)`); continue; }
+      if (!frees.length) { console.log(`note ${t.id} ${role}: pool has no unused item`); continue; }
+      // a refused probe proves nothing about the accepting path (2026-11-03: G1-305 refused "bat", another syllable count,
+      // and the gate stopped there): the free choices are tried in turn until one is taken; a slot that refuses EVERY
+      // free choice is one a teacher can never use
+      // every free choice already on the page in ANOTHER role (G1-140: a row's three length-fitting pictures, the other two
+      // rows hold two of them) — the page is full for this slot, a type rightly refuses a picture twice: noted, not a fault
+      if (!frees.some((k) => !onPage.has(k))) { console.log(`note ${t.id} ${role}: every free choice is already on the page`); continue; }
+      const order = [...frees.filter((k) => !onPage.has(k)), ...frees.filter((k) => onPage.has(k))];
+      // the item probed: item 0 first, then the next ones (2026-11-03: a Cloze plural page has two spare frames and both break
+      // the theme cap for row 1) — a slot is dead only when NO item takes any free choice
+      let free = null, ed = null, refusedN = 0, at = 0;
+      for (let j = 0; j < Math.min(s.values.length, 8) && !ed; j++) {
+        for (const k of order) {
+          const r = tryMk(d, sv0, { overrides: { [role]: { [j]: k } } });
+          if (r && !r.slots[role].refused) { free = k; ed = r; at = j; break; }
+          refusedN++;
+        }
+      }
+      if (!ed) { fail(`${t.id} ${role}: every free choice (${refusedN}) is refused — a slot a teacher can never use`); continue; }
+      if (refusedN) console.log(`note ${t.id} ${role}: ${refusedN} choice(s) refused by the type's own rule before ${free} was taken (item ${at})`);
       const e = ed.slots[role];
-      if (e.refused) { console.log(`note ${t.id} ${role}: the type refused ${free} (slot.refuse: a conflict it explains)`); continue; }
-      if (e.values[0] !== free) fail(`${t.id} ${role}: the choice was not applied`);
-      if (JSON.stringify(e.values.slice(1)) !== JSON.stringify(s.values.slice(1))) fail(`${t.id} ${role}: other items changed`);
-      if (!ed.html.includes(`data-lcs-slot="${role}.0"`)) fail(`${t.id} ${role}: no tap target for item 0`);
+      if (e.values[at] !== free) fail(`${t.id} ${role}: the choice was not applied`);
+      if (JSON.stringify(e.values.filter((x, j) => j !== at)) !== JSON.stringify(s.values.filter((x, j) => j !== at))) fail(`${t.id} ${role}: other items changed`);
+      if (!ed.html.includes(`data-lcs-slot="${role}.${at}"`)) fail(`${t.id} ${role}: no tap target for item ${at}`);
       if (ed.html === base.html) fail(`${t.id} ${role}: the page did not change`);
       if (s.values.length > 1) {
         const dup = tryMk(d, sv0, { overrides: { [role]: { 0: s.values[1] } } });

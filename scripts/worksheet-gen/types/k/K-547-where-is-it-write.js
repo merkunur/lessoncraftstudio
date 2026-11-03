@@ -8,6 +8,7 @@
 'use strict';
 const P = require('../_shared/position-scenes.js');
 const { positionItems, sentenceHtml } = require('../_shared/position-items.js');
+const slot = require('../../lib/slot.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -25,14 +26,14 @@ module.exports = {
 
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], L = A.loc2(locale);
-    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng: ctx.rng });
+    const items = positionItems({ locale: L, level: difficulty, rows: d.rows, rng: ctx.rng, ctx });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // the word box: every position word of the level, as the engine prints it (one entry per label)
     const words = [...new Set(items.map((it) => it.sent.expected))].sort((a, b) => a.localeCompare(b, L));
     const h = d.rows <= 4 ? 140 : d.rows === 5 ? 118 : 100;
     const longest = Math.max(...words.map((w) => [...w].length));
     const gapW = Math.max(110, Math.round(longest * 15 + 30));
-    const rows = items.map((it) => `<div data-lcs-where-row="${it.prep}" style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
+    const rows = items.map((it, ri) => `<div data-lcs-where-row="${it.prep}"${slot.attr(ctx, 'pic', ri)} style="display:flex;align-items:center;gap:14px;padding:4px 12px;border-radius:14px;background:${T.cream}">` +
       `${P.scene(it.prep, it.shape, it.src, { w: 230, h, s: Math.round(h * 0.5), o: Math.round(h * 0.4) })}` +
       `<div style="flex:1 1 auto;min-width:0;font:700 22px/1.5 'Baloo 2',cursive;color:${T.ink}">${sentenceHtml(it, `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${it.sent.expected}"` : ''} style="display:inline-flex;vertical-align:middle;width:${gapW}px;height:40px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`, 36)}</div></div>`);
     const box = `<div data-lcs-word-box style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;padding:8px 14px;border:2.5px solid ${T.teal};border-radius:14px;flex:0 0 auto">` +

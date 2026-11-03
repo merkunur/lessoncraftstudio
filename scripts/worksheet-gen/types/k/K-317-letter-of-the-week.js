@@ -102,6 +102,56 @@ const COLUMN = 660;   // the design column inside the 675 px body (page 703 − 
 const GAP = 12;       // hunt-grid gap
 const CARD_GAP = 14;  // letterCard ↔ lanes
 
+const slot = require('../../lib/slot.js');
+/**
+ * A teacher's pictures (maker, final phase 2026-11-03): card i swapped for a bank word of the SAME kind — the rule that
+ * drew that card (a hit with the letter at the asked place, a foil of the page's policy, the letter at the same place,
+ * the same number of letters to circle, the same pair letter). pred[kind] tests a candidate; carry(old, new) keeps the
+ * card's answer fields. Refused when the word breaks its card's rule or is already a word on the page.
+ */
+function slotCards(ctx, cards, pred, all, carry) {
+  const kinds = [...new Set(cards.map((c) => c._kind))];
+  const seen = new Set(), pool = [];
+  for (const w of all) if (!seen.has(w.word) && kinds.some((k) => pred[k] && pred[k](w))) { seen.add(w.word); pool.push(w); }
+  const chosen = slot.anyPictures(ctx, cards, pool, 'pic');
+  const words = chosen.map((w) => w.word);
+  const ok = new Set(words).size === words.length && chosen.every((w, i) => w === cards[i] || pred[cards[i]._kind](w));
+  if (ok) return chosen.map((w, i) => (w === cards[i] ? w : { ...w, ...carry(cards[i], w), _kind: cards[i]._kind }));
+  slot.anyPictures(ctx && { ...ctx, overrides: null }, cards, pool, 'pic'); slot.refuse(ctx, 'pic');
+  return cards;
+}
+/** the hunt's card kinds (base / face 2 / face 5): pickHits / pickFoils / unitHits / unitFoils as predicates */
+function huntKinds(face, block, d, level, hitPos) {
+  const cfg = d.hunt, items = block.items || [], foilsAll = block.foils || [];
+  if (face === 'unit') {
+    const u = block.u, pos = d.unit.huntPos || 'any', comps = [...u];
+    const hit = (i) => items.includes(i) && Array.isArray(i.graphemes) && (pos === 'initial' ? i.graphemes[0] === u : i.graphemes.includes(u));
+    const clean = (x) => foilsAll.includes(x) && !fold(x.word).includes(u) && !(x.graphemes || []).includes(u);
+    const foil = (x) => clean(x) && ((d.unit.foilPolicy || 'any') !== 'components' || comps.every((c) => fold(x.word).includes(c)));
+    return { kindOf: (c) => (c.hit ? 'hit' : 'foil'), is: { hit, foil } };
+  }
+  const L = block.L, policy = cfg.foilPolicy || 'any';
+  const isH = (i) => items.includes(i) && isHit(i, L, level, hitPos);
+  const medial = (i) => i.graphemes.indexOf(L) < i.graphemes.length - 1;
+  const clean = (x) => foilsAll.includes(x) && !fold(x.word).includes(L);
+  const first = (x) => [...x.word.toLocaleLowerCase()][0];
+  const is = {
+    hit: isH,
+    'hit-medial': (i) => isH(i) && medial(i),
+    foil: policy === 'avoid' ? (x) => clean(x) && (block.avoid || []).includes(first(x))
+      : policy === 'initial' ? (i) => items.includes(i) && i.graphemes[0] === L && i.graphemes.indexOf(L, 1) < 0 && [...fold(i.word)].filter((c) => c === L).length === 1
+        : clean,
+    'foil-pair': (x) => clean(x) && first(x) === block.pair,
+    'foil-carrier': (i) => items.includes(i) && i.graphemes.indexOf(L) > 0,
+    'foil-other': (x) => clean(x) && first(x) !== block.pair,
+  };
+  const kindOf = (c) => {
+    if (c.hit) return cfg.hitPos === 'noninitial' && cfg.minMedial && medial(c) ? 'hit-medial' : 'hit';
+    if (policy !== 'pair-noninitial') return 'foil';
+    return items.some((i) => i.word === c.word) ? 'foil-carrier' : first(c) === block.pair ? 'foil-pair' : 'foil-other';
+  };
+  return { kindOf, is };
+}
 function letterBlock(bank, L) {
   const b = (bank.letters || []).find((x) => x.L === L);
   if (!b) throw new Error(`K-317: letter "${L}" is not in the bank (letters: ${(bank.letters || []).map((x) => x.L).join(',')})`);
@@ -310,12 +360,13 @@ module.exports = {
       const p = d.positions;
       const mode = p.mode || bank.positionMode || 'letter';
       const showWord = !!bank.showWordInPositions;
-      const items = pickPositions(rng, block, p, mode);
-      const html = items.map((it) => positionCard({
+      const posPred = (q) => (x) => block.items.includes(x) && Array.isArray(x.graphemes) && occursOnce(x, L, mode) && positionOf(x, L, mode) === q;
+      const items = slotCards(ctx, pickPositions(rng, block, p, mode).map((it) => ({ ...it, _kind: 'pos' + it.pos3 })), { pos0: posPred(0), pos1: posPred(1), pos2: posPred(2) }, block.items, (old) => ({ pos3: old.pos3 }));
+      const html = items.map((it, ii) => slot.stamp(ctx, 'pic', ii, positionCard({
         src: fileUri(it.theme, it.noun), vocabKey: it.key, word: it.word, graphemes: it.graphemes, pos: it.pos3,
         split: mode === 'syllable' ? it.split : null, w: p.cardW, h: p.cardH, iconPx: p.iconPx, boxPx: p.boxPx,
         showWord, glyphH: p.glyphH, laneH: p.laneH, keyMark: !!(ctx && ctx.answerKey),   // the key rings the box where the letter is heard
-      })).join('');
+      }))).join('');
       const rows = Math.ceil(p.cards / p.cols);
       zone2 = `<div data-lcs-zone="positions" style="display:grid;grid-template-columns:repeat(${p.cols},${p.cardW}px);` +
         `grid-template-rows:repeat(${rows},${p.cardH}px);gap:${GAP}px;width:${COLUMN}px;justify-content:space-between">${html}</div>`;
@@ -324,11 +375,15 @@ module.exports = {
     } else if (face === 'word-hunt') {
       // face 4 — circle every L inside six printed picture words (stroke glyphs), count it
       const w = d.wordHunt;
-      const rows = pickWordHunt(rng, block, { ...w, locale: loc }, bank.level === 'sound' && ['de', 'nl', 'sv', 'no'].includes(loc));
+      const chunkLayer = bank.level === 'sound' && ['de', 'nl', 'sv', 'no'].includes(loc);
+      const drawnRows = pickWordHunt(rng, block, { ...w, locale: loc }, chunkLayer).map((r) => ({ ...r, _kind: 'n' + r.count + (r.upper ? 'U' : '') }));
+      const huntPred = {};   // a row's word: as many letters to circle as the one it replaces (the page's total stays), traceable in capitals on a capitals row
+      for (const r of drawnRows) huntPred[r._kind] = (x) => block.items.includes(x) && [...x.word].length <= w.maxLetters && letterCount(x, L, chunkLayer) === r.count && (!r.upper || traceable(x.word.toLocaleUpperCase(loc)));
+      const rows = slotCards(ctx, drawnRows, huntPred, block.items, (old, x) => ({ count: old.count, upper: old.upper, text: old.upper ? x.word.toLocaleUpperCase(loc) : x.word }));
       const total = rows.reduce((n, r) => n + r.count, 0);
-      const html = rows.map((r) => {
+      const html = rows.map((r, ri) => {
         const lane = strokeWordLane({ text: r.text, w: w.laneW, h: w.laneH, glyphH: w.glyphH, reps: 1, stack: true, padLeft: 10 });
-        return `<div class="ws-card" data-lcs-row="1" data-lcs-word="${r.word}" data-lcs-vocab="${r.key}" data-lcs-count="${r.count}" data-lcs-casemode="${r.upper ? 'upper' : 'lower'}" ` +
+        return `<div class="ws-card" data-lcs-row="1"${slot.attr(ctx, 'pic', ri)} data-lcs-word="${r.word}" data-lcs-vocab="${r.key}" data-lcs-count="${r.count}" data-lcs-casemode="${r.upper ? 'upper' : 'lower'}" ` +
           `style="width:${COLUMN}px;height:${w.iconPx + 12}px;flex:0 0 auto;padding:4px 8px;flex-direction:row;align-items:center;gap:12px;box-sizing:border-box">` +
           `<img class="ws-icon" src="${fileUri(r.theme, r.noun)}" alt="" data-lcs-pic="${r.key}" style="width:${w.iconPx}px;height:${w.iconPx}px;flex:0 0 auto">` +
           `<div style="flex:0 0 auto">${lane.svg}</div>` +
@@ -361,13 +416,15 @@ module.exports = {
           `<img class="ws-icon" src="${fileUri(x.theme, x.noun)}" alt="" style="width:${p.legendPx}px;height:${p.legendPx}px;flex:0 0 auto"></div>`;
         legend = `<div data-lcs-zone="legend" style="display:flex;gap:28px;justify-content:center;width:${COLUMN}px">${key(ka, a)}${key(kb, b)}</div>`;
       }
-      const cards = rng.shuffle([
-        ...rng.sample(aPool, na).map((i) => ({ ...i, answer: a })),
-        ...rng.sample(bPool, nb).map((f) => ({ ...f, graphemes: f.graphemes || [...f.word.toLocaleLowerCase(loc)], answer: b })),
+      let cards = rng.shuffle([
+        ...rng.sample(aPool, na).map((i) => ({ ...i, answer: a, _kind: 'a' })),
+        ...rng.sample(bPool, nb).map((f) => ({ ...f, graphemes: f.graphemes || [...f.word.toLocaleLowerCase(loc)], answer: b, _kind: 'b' })),
       ]);
+      // a teacher's pictures (maker): a card keeps its letter — an a-word for an a-word, a b-word for a b-word (never a legend picture)
+      cards = slotCards(ctx, cards, { a: (x) => aPool.includes(x), b: (x) => bPool.includes(x) }, [...aPool, ...bPool], (old, x) => ({ answer: old.answer, graphemes: x.graphemes || [...x.word.toLocaleLowerCase(loc)] }));
       const seen = new Set();
       for (const c of cards) { if (seen.has(c.word)) throw new Error('K-317: duplicate word on the page: ' + c.word); seen.add(c.word); }
-      const html = cards.map((c) => `<div class="ws-card" style="width:${p.cardW}px;height:${p.cardH}px;flex:0 0 auto;padding:8px;align-items:center;justify-content:space-between" ` +
+      const html = cards.map((c, ci) => `<div class="ws-card"${slot.attr(ctx, 'pic', ci)} style="width:${p.cardW}px;height:${p.cardH}px;flex:0 0 auto;padding:8px;align-items:center;justify-content:space-between" ` +
         `data-lcs-word="${c.word}" data-lcs-vocab="${c.key}" data-lcs-graphemes="${JSON.stringify(c.graphemes).replace(/"/g, '&quot;')}" data-lcs-answer="${c.answer}">` +
         `<img class="ws-icon" src="${fileUri(c.theme, c.noun)}" alt="" data-lcs-pic="${c.key}" style="width:${p.iconPx}px;height:${p.iconPx}px;flex:0 0 auto">` +
         letterChips({ a, b, px: p.chipPx }) + `</div>`).join('');
@@ -380,20 +437,28 @@ module.exports = {
       // zone 2 — the hunt (base / face 2 / face 5)
       const hits = face === 'unit' ? unitHits(rng, block, d.hunt, d.unit) : pickHits(rng, block, d.hunt, level);
       const foils = face === 'unit' ? unitFoils(rng, block, d.hunt, d.unit) : pickFoils(rng, block, d.hunt, hits);
-      const cards = rng.shuffle([...hits.map((i) => ({ ...i, hit: true })), ...foils.map((f) => ({ ...f, hit: false }))]);
+      let cards = rng.shuffle([...hits.map((i) => ({ ...i, hit: true })), ...foils.map((f) => ({ ...f, hit: false }))]);
+      // a teacher's pictures (maker): each card swapped for a bank word drawn by the same rule (slotCards)
+      const swapW = new Map();   // drawn word → the teacher's (the meta names the words on the page)
+      {
+        const K = huntKinds(face, block, d, level, hitPos);
+        const before = cards.map((c) => c.word);
+        cards = slotCards(ctx, cards.map((c) => ({ ...c, _kind: K.kindOf(c) })), K.is, [...(block.items || []), ...(block.foils || [])], (old) => ({ hit: old.hit }));
+        before.forEach((w, i) => { if (cards[i].word !== w) swapW.set(w, cards[i].word); });
+      }
       const seenW = new Set();
       for (const c of cards) { if (seenW.has(c.word)) throw new Error('K-317: duplicate word on the page: ' + c.word); seenW.add(c.word); }
-      const huntHtml = cards.map((c) => huntCard({
+      const huntHtml = cards.map((c, ci) => slot.stamp(ctx, 'pic', ci, huntCard({
         src: fileUri(c.theme, c.noun), vocabKey: c.key, word: c.word,
         graphemes: c.graphemes || [...c.word.toLocaleLowerCase(loc)], hit: c.hit,
         w: d.hunt.cardW, h: d.hunt.cardH, iconPx: d.hunt.iconPx, rot: rng.next() * 8 - 4, keyMark: !!(ctx && ctx.answerKey),   // the key rings the right pictures
-      })).join('');
+      }))).join('');
       const huntRows = Math.ceil(d.hunt.n / d.hunt.cols);
       zone2 = `<div data-lcs-zone="hunt" style="display:grid;grid-template-columns:repeat(${d.hunt.cols},${d.hunt.cardW}px);` +
         `grid-template-rows:repeat(${huntRows},${d.hunt.cardH}px);gap:${GAP}px;width:${COLUMN}px;justify-content:space-between">${huntHtml}</div>`;
       if (face === 'unit') rootStamps.push(`data-lcs-face="unit" data-lcs-unit="${L}" data-lcs-unit-pos="${d.unit.huntPos || 'any'}" data-lcs-unit-foils="${d.unit.foilPolicy || 'any'}"`);
       if (d.hunt.minMedial) rootStamps.push(`data-lcs-min-medial="${d.hunt.minMedial}"`);
-      meta = { letter: L, hits: hits.map((h) => h.word), foils: foils.map((f) => f.word), scope };
+      meta = { letter: L, hits: hits.map((h) => swapW.get(h.word) || h.word), foils: foils.map((f) => swapW.get(f.word) || f.word), scope };
       if (face) meta.face = face;
     }
 

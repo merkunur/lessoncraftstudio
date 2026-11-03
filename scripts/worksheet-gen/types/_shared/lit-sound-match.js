@@ -23,6 +23,7 @@
  * themeAxis OFF (cross-theme curated nouns); the item sample + shuffle = variety.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 
 const SCOPED_CSS = `
@@ -65,6 +66,12 @@ function makeLitSoundMatch(cfg) {
         }
         chosen = rng.shuffle(picked);
       } else chosen = rng.shuffle(rng.sample(pool, n));
+      // a teacher's pictures (maker): any picture of the reviewed list; a page that spreads its answers keeps each card's answer
+      {
+        const mine = slot.anyPictures(ctx, chosen, pool, 'pic');
+        if (mine.every((it, i) => it === chosen[i] || !cfg.spread || String(it.answer) === String(chosen[i].answer))) chosen = mine;
+        else { slot.anyPictures(ctx && { ...ctx, overrides: null }, chosen, pool, 'pic'); slot.refuse(ctx, 'pic'); }
+      }
 
       // grid columns: 4 across when >=4 items (two tidy rows of 4), else one row
       const cols = n >= 4 ? 4 : n;
@@ -75,7 +82,7 @@ function makeLitSoundMatch(cfg) {
       // builds only — the catalogue page is byte-unchanged)
       const mark = !!(ctx && (ctx.answerKey || ctx.screen));
       const cards = chosen.map((it) =>
-        `<div class="lit-sm-card" data-lit-item="${it.noun}" data-lit-answer="${String(it.answer || '')}">` +
+        `<div class="lit-sm-card" data-lit-item="${it.noun}"${slot.attr(ctx, 'pic', chosen.indexOf(it))} data-lit-answer="${String(it.answer || '')}">` +
         `<div class="lit-sm-pic ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
         `style="width:${iconPx}px;height:${iconPx}px"></div>` +
         `<div class="lit-sm-box"${mark ? ` data-lcs-answer="${String(it.answer)}"` : ''} style="width:${boxW}px;height:54px"></div>` +

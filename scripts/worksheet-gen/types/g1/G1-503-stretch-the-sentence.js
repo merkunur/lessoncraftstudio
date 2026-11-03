@@ -10,6 +10,7 @@
  * Levels: 1 three sentences, where? when? · 2 three sentences, where? when? how? · 3 four sentences, where? when? how?
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { sentencesOf, split, text, INTRANSITIVE } = require('../_shared/sentence-items.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const A = require('../_shared/alphabet-more.js');
@@ -41,11 +42,12 @@ module.exports = {
     if (!Q) throw new Error(`G1-503: no question words for ${L}`);
     const pool = rng.shuffle(sentencesOf(L).filter((s) => INTRANSITIVE.includes(s.i)).map((s) => ({ ...s, sp: split(s.tokens) })).filter((s) => s.sp));
     if (pool.length < d.n) throw new Error(`G1-503: ${L} has ${pool.length} short sentences (< ${d.n})`);
-    const picks = pool.slice(0, d.n);
+    const tagged = pool.map((s) => ({ ...s, word: text(s.tokens) }));
+    const picks = slot.words(ctx, tagged.slice(0, d.n), tagged, 'sent');   // a teacher's sentences (maker): another short sentence of the bank
     // the short sentence: the subject and the verb (and a clitic before it), with a full stop
     const short = (s) => text([...s.sp.subject, ...s.sp.predicate.slice(0, s.sp.predicate.findIndex((t) => t.tag === 'V') + 1)]) + '.';
     const lineW = d.q === 2 ? 300 : 196;
-    const blocks = picks.map((s, i) => `<div data-lcs-stretch="${i + 1}" style="display:flex;flex-direction:column;gap:6px;padding:8px 14px;border-radius:14px;background:${T.cream}">` +
+    const blocks = picks.map((s, i) => `<div data-lcs-stretch="${i + 1}"${slot.attr(ctx, 'sent', i)} style="display:flex;flex-direction:column;gap:6px;padding:8px 14px;border-radius:14px;background:${T.cream}">` +
       `<div style="font:700 28px/1.2 'Baloo 2',cursive;color:${T.ink}">${esc(short(s))}</div>` +
       `<div style="display:flex;justify-content:space-between;gap:10px">${Q.slice(0, d.q).map((q) => `<div style="display:flex;flex-direction:column;gap:2px"><span style="font:700 22px/1 'Baloo 2',cursive;color:${T.teal}">${q}</span>${writingRow({ w: lineW, h: 46, glyphH: 24, xHeight: true }).svg}</div>`).join('')}</div>` +
       `<div>${writingRow({ w: 630, h: 54, glyphH: 28, xHeight: true }).svg}</div></div>`);

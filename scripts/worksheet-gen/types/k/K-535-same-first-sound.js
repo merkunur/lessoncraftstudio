@@ -14,6 +14,7 @@
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 
@@ -78,13 +79,17 @@ module.exports = {
     const bad = (o) => { const s = o.map((c) => (c.same ? 1 : 0)); let run = 1; for (let i = 1; i < s.length; i++) { run = s[i] === s[i - 1] ? run + 1 : 1; if (run > 3) return true; } return s.every((v, i) => !i || v !== s[i - 1]); };
     for (let g = 0; g < 40 && bad(order); g++) order = rng.shuffle(cards);
     order = order.map((c) => (rng.next() < 0.5 ? c : { ...c, a: c.b, b: c.a }));
+    // a teacher's pictures (maker): one role per letter on the page — another picture of THAT letter (same / different stays true)
+    const listOf = new Map(pics.map((x) => [x.l, x.list.map((e) => ({ ...e, letter: x.l }))]));
+    const KS = slot.byKind(ctx, order.flatMap((c) => [c.a, c.b]), (p) => p.letter, (l) => listOf.get(l), { multi: true, prefix: 'l' });
+    order = order.map((c, i) => ({ ...c, a: KS.items[2 * i], b: KS.items[2 * i + 1] }));
 
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const chip = (kind, right, path) => `<span class="ws-chip" style="width:${d.chip}px;height:${d.chip}px;padding:0;flex:0 0 auto" data-lcs-chip="${kind}"${mark && right ? ' data-lcs-correct="1"' : ''}>` +
       `<svg xmlns="http://www.w3.org/2000/svg" width="${Math.round(d.chip * 0.72)}" height="${Math.round(d.chip * 0.72)}" viewBox="0 0 52 52" aria-hidden="true"><path d="${path}" fill="none" stroke="${T.teal}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>`;
-    const img = (e) => `<img class="ws-icon" src="${fileUri(e.theme, e.noun)}" alt="" style="width:${d.px}px;height:${d.px}px;flex:0 0 auto">`;
-    const html = order.map((c) => `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;padding:0;gap:0;min-width:0" data-ws-content data-lcs-first="1" data-lcs-same="${c.same ? 1 : 0}" data-lcs-letter-a="${c.a.letter}" data-lcs-letter-b="${c.b.letter}" data-lcs-word-a="${c.a.word}" data-lcs-word-b="${c.b.word}">` +
-      `<div style="display:flex;align-items:center;gap:${Math.round(d.px * 0.35)}px;flex:0 0 auto">${img(c.a)}${img(c.b)}</div>` +
+    const img = (e, t) => `<img class="ws-icon" src="${fileUri(e.theme, e.noun)}" alt=""${t || ''} style="width:${d.px}px;height:${d.px}px;flex:0 0 auto">`;
+    const html = order.map((c, ci) => `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;padding:0;gap:0;min-width:0" data-ws-content data-lcs-first="1" data-lcs-same="${c.same ? 1 : 0}" data-lcs-letter-a="${c.a.letter}" data-lcs-letter-b="${c.b.letter}" data-lcs-word-a="${c.a.word}" data-lcs-word-b="${c.b.word}">` +
+      `<div style="display:flex;align-items:center;gap:${Math.round(d.px * 0.35)}px;flex:0 0 auto">${img(c.a, KS.tap(2 * ci))}${img(c.b, KS.tap(2 * ci + 1))}</div>` +
       `<div class="ws-choices" style="gap:14px;padding-top:8px">${chip('yes', c.same, 'M14 27 l9 9 l17 -18')}${chip('no', !c.same, 'M16 16 l20 20 M36 16 l-20 20')}</div></div>`);
     return {
       bodyHtml: cardGrid({ cards: html, cols: 2, rows: Math.ceil(html.length / 2), numbered: true }),

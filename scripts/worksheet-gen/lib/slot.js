@@ -82,4 +82,57 @@ const attr = (ctx, role, i) => (ctx && ctx.slotsOut ? ` data-lcs-slot="${role}.$
 /** The same tap target put on the FIRST tag of an element's markup (a card, a row) — maker only. */
 const stamp = (ctx, role, i, html) => (ctx && ctx.slotsOut ? String(html).replace(/^(\s*<[a-zA-Z][\w-]*)/, '$1' + attr(ctx, role, i)) : html);
 
-module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp };
+/**
+ * Tap targets by PICTURE (2026-11-03, Rhyming): item i's tap target is the first `src="…"` of srcs[i] in the page (a page
+ * shows each picture once) — for types whose markup names its items in many different attributes. The src is looked for
+ * as written and HTML-escaped (components esc() it). Maker only: the catalogue page comes back unchanged.
+ */
+function stampSrc(ctx, role, html, srcs) {
+  if (!(ctx && ctx.slotsOut)) return html;
+  const escAttr = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  let out = String(html);
+  srcs.forEach((src, i) => {
+    for (const s of [String(src), escAttr(src)]) {
+      const needle = `src="${s}"`, at = out.indexOf(needle);
+      if (at >= 0) { out = out.slice(0, at + needle.length) + attr(ctx, role, i) + out.slice(at + needle.length); break; }
+    }
+  });
+  return out;
+}
+
+/**
+ * Slots BY KIND (2026-11-03, the final phase): one role per kind of item on the page (prefix + 0, 1 … in order of first
+ * appearance), its pool = poolFor(kind) — the type's own candidates of THAT kind (a letter's pictures, a blend's words, a
+ * long-vowel word) — so the picker only ever offers a choice that keeps the item's answer, and every role's probe is a
+ * real one. A choice already on the page in ANOTHER role is refused too (the page never shows one thing twice); opts.ok
+ * (item, old) adds the type's own rule. Items: { theme, noun } with opts.multi (anyPictures), { noun } with opts.theme
+ * (pictures), or words (opts.words). Returns { items, tap(i) } — tap(i) = item i's tap-target attribute ('' in the catalogue).
+ */
+function byKind(ctx, items, kindOf, poolFor, opts = {}) {
+  const prefix = opts.prefix || 'k';
+  const keyOf = opts.multi ? (p) => p.theme + '/' + p.noun : opts.words ? (w) => (typeof w === 'string' ? w : w.word) : (p) => p.noun;
+  const out = items.slice(), tapAt = new Array(items.length).fill('');
+  if (!ctx || !(ctx.slotsOut || ctx.overrides) || !items.length) return { items: out, tap: () => '' };
+  const kinds = [...new Set(items.map(kindOf))];
+  const onPage = new Set(items.map(keyOf));
+  const applied = [];
+  kinds.forEach((k, ki) => {
+    const role = prefix + ki, idx = items.map((x, i) => (kindOf(x) === k ? i : -1)).filter((i) => i >= 0);
+    const cur = idx.map((i) => items[i]), pool = poolFor(k);
+    const take = (c) => (opts.multi ? anyPictures(c, cur, pool, role) : opts.words ? words(c, cur, pool, role) : pictures(c, cur, pool, opts.theme, role));
+    const chosen = take(ctx);
+    const good = chosen.every((x, j) => x === cur[j] || (!onPage.has(keyOf(x)) && (!opts.ok || opts.ok(x, cur[j]))));
+    if (good) { chosen.forEach((x, j) => { out[idx[j]] = x; }); if (chosen.some((x, j) => x !== cur[j])) applied.push({ role, take }); }
+    else { take({ ...ctx, overrides: null }); refuse(ctx, role); }
+    idx.forEach((i, j) => { tapAt[i] = attr(ctx, role, j); });
+  });
+  // opts.page(items): the type's rule over the WHOLE page (no repeated stem, at most two of a group …) — when the
+  // teacher's choices together break it, every changed role is refused and the page is drawn as it was
+  if (applied.length && opts.page && !opts.page(out)) {
+    for (const a of applied) { a.take({ ...ctx, overrides: null }); refuse(ctx, a.role); }
+    return { items: items.slice(), tap: (i) => tapAt[i] || '' };
+  }
+  return { items: out, tap: (i) => tapAt[i] || '' };
+}
+
+module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp, stampSrc, byKind };

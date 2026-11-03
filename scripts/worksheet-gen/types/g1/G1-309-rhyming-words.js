@@ -99,6 +99,8 @@ const WHO = 'G1-309';
  * [members] }, nearMissFor:{ <class id>: [foils] }, couplets:[…] }). The published pages (level 2, copy 1) never read it.
  */
 let _ls;
+const slot = require('../../lib/slot.js');
+
 function levelSetData() {
   if (_ls === undefined) {
     const f = require('path').join(__dirname, '..', '..', 'data', 'b3', 'rhyming-words-levelset.json');
@@ -390,6 +392,21 @@ module.exports = {
       if (tries > 500) throw new Error(`${who}: could not balance the rhyme position`);
     }
     rows.forEach((r, i) => { r.pos = positions[i]; });
+    // a teacher's pictures (maker): each row's rhyming pair (anchor, partner) — a word swapped only for another writable
+    // member of ITS OWN rhyme class that is not already on the page, so every row still rhymes
+    if (ctx && (ctx.slotsOut || ctx.overrides)) {
+      // one role per row (row<i>): its pool is the row's own class, so the picker offers only words that rhyme with the row
+      const onPage = rows.flatMap((r) => [r.anchor, r.partner, ...(r.foil ? [r.foil.m] : []), ...r.distractors.map((x) => x.m)]);
+      const it = (m) => ({ theme: m.pic.theme, noun: m.pic.noun, m });
+      const low = (w) => String(w).toLocaleLowerCase(loc), keys = new Set(onPage.map((m) => m.vocabKey)), words = new Set(onPage.map((m) => low(m.word)));
+      rows.forEach((r, ri) => {
+        const role = 'row' + ri, cur = [it(r.anchor), it(r.partner)], pool = writable(r.cls, bank, d, loc).map(it);
+        const chosen = slot.anyPictures(ctx, cur, pool, role);
+        const changed = chosen.map((x, i) => x !== cur[i]), nk = chosen.filter((x, i) => changed[i]).map((x) => x.m.vocabKey);
+        if (new Set(nk).size === nk.length && chosen.every((x, i) => !changed[i] || (!keys.has(x.m.vocabKey) && !words.has(low(x.m.word))))) { r.anchor = chosen[0].m; r.partner = chosen[1].m; }
+        else { slot.anyPictures({ ...ctx, overrides: null }, cur, pool, role); slot.refuse(ctx, role); }
+      });
+    }
 
     // the rows
     const cards = rows.map((r) => {
@@ -413,7 +430,7 @@ module.exports = {
       (unit ? ` data-lcs-unit="${unit}"` : '') + `>` +
       cardGrid({ cards, cols: 1, rows: d.rows, numbered: d.numbered !== false }) + `</div>`;
     return {
-      bodyHtml,
+      bodyHtml: rows.reduce((h, r, ri) => slot.stampSrc(ctx, 'row' + ri, h, [pic(r.anchor), pic(r.partner)]), bodyHtml),
       meta: {
         band: B, unit: unit || null, classes: order, positions,
         rows: rows.map((r) => ({ cls: r.cls.id, anchor: r.anchor.vocabKey, partner: r.partner.vocabKey, pos: r.pos, distractors: r.distractors.map((x) => ({ key: x.m.vocabKey, cls: x.cls, foil: x.foil })) })),
@@ -429,8 +446,14 @@ module.exports = {
     // Level Set 2026-09-30: a level may carry its own K shape (`kShape`, merged after the face's), and `noFoils`
     // (Rhyme Strings level 1: a bank with nothing to reject) wins over any shape's foil count
     const d = Object.assign({}, raw, B === 'K' ? FACE_K_SHAPE[face] : {}, B === 'K' && raw.kShape ? raw.kShape : {}, raw.noFoils ? { foils: 0 } : {}, { band: B });
-    const plan = this._planFace(face, bank, d, { locale: loc, unit }, ctx.rng);
-    return this._renderFace(face, plan, d, B);
+    const plan = this._planFace(face, bank, d, { locale: loc, unit }, ctx.rng, ctx);
+    const out = this._renderFace(face, plan, d, B);
+    if (plan._slotTaps) {
+      out.bodyHtml = plan._slotTaps.reduce((h, t) => slot.stampSrc(ctx, t.role, h, t.srcs), out.bodyHtml);
+      // a class whose words the face prints without a picture (the string face's foil words) has nothing to tap: no slot
+      if (ctx && ctx.slotsOut) for (const t of plan._slotTaps) if (!out.bodyHtml.includes(`data-lcs-slot="${t.role}.`)) delete ctx.slotsOut[t.role];
+    }
+    return out;
   },
 
   /**
@@ -439,7 +462,7 @@ module.exports = {
    * page in the face's own sense (judge: a rhyming pair; sort: a bin; string: an anchor; open: an anchor's
    * class); the couplet face carries no unit axis.
    */
-  _planFace(face, bank, d, { locale, unit }, rng) {
+  _planFace(face, bank, d, { locale, unit }, rng, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     const who = `${WHO}/${face}`;
     const B = d.band || 'G1';
@@ -475,6 +498,42 @@ module.exports = {
       return [...fixed, ...rng.sample(eligible.filter((c) => !fixed.includes(c.id)).map((c) => c.id), n - fixed.length)];
     };
     const entry = (m, cls) => ({ vocabKey: m.vocabKey, word: m.word, cls, src: pic(m), pic: m.pic });
+    // a teacher's pictures (maker): a word of the plan swapped for another member of ITS OWN rhyme class that this face
+    // could draw (writable; the open face: productive) and that is not on the page — every rhyme / non-rhyme stays true;
+    // every copy of the word in the plan follows (the bank's copies too). The near-miss foils are not members: they stay.
+    // The couplet face keeps its words (its answer finishes a sentence).
+    const done = (plan) => {
+      if (!ctx || !(ctx.slotsOut || ctx.overrides) || face === 'couplet') return plan;
+      const objs = [];
+      const walk = (v) => { if (Array.isArray(v)) v.forEach(walk); else if (v && typeof v === 'object') { if (v.vocabKey) objs.push(v); for (const k of Object.keys(v)) if (k !== 'pic') walk(v[k]); } };
+      walk(plan);
+      const items = [], seen = new Set();
+      for (const o of objs) if (o.pic && o.cls && owner.get(o.vocabKey) === o.cls && !seen.has(o.vocabKey)) { seen.add(o.vocabKey); items.push(o); }
+      if (!items.length) return plan;
+      // one role per rhyme class (rh<i>, in order of first appearance): the picker offers only that class's own words
+      const can = (c) => (face === 'open' ? (c.members || []).filter((m) => m.productive === true && WORD_RE.test(m.word)) : writable(c, bank, d, loc));
+      const low = (w) => String(w).toLocaleLowerCase(loc), keys = new Set(objs.map((o) => o.vocabKey)), words = new Set(objs.map((o) => low(o.word || '')));
+      const it = (m) => ({ theme: m.pic.theme, noun: m.pic.noun, m });
+      plan._slotTaps = [];
+      [...new Set(items.map((o) => o.cls))].forEach((cls, ci) => {
+        const role = 'rh' + ci, mine = items.filter((o) => o.cls === cls);
+        const cur = mine.map((o) => ({ theme: o.pic.theme, noun: o.pic.noun, m: o })), pool = can(byId.get(cls)).map(it);
+        const chosen = slot.anyPictures(ctx, cur, pool, role);
+        const changed = chosen.map((x, j) => x !== cur[j]), nk = chosen.filter((x, j) => changed[j]).map((x) => x.m.vocabKey);
+        const srcs = mine.map((o) => o.src);
+        if (new Set(nk).size === nk.length && chosen.every((x, j) => !changed[j] || (!keys.has(x.m.vocabKey) && !words.has(low(x.m.word))))) {
+          chosen.forEach((x, j) => {
+            if (!changed[j]) return;
+            const old = mine[j].vocabKey, e = entry(x.m, cls);
+            for (const o of objs) if (o.vocabKey === old) Object.assign(o, e);
+            srcs[j] = e.src;
+          });
+        } else { slot.anyPictures({ ...ctx, overrides: null }, cur, pool, role); slot.refuse(ctx, role); }
+        plan._slotTaps.push({ role, srcs });
+      });
+      if (face === 'open') for (const c of plan.cards) { const cl = byId.get(c.cls); c.examples = [...cl.members.filter((m) => m.vocabKey !== c.anchor.vocabKey).map((m) => m.word), ...(cl.extra || [])]; }
+      return plan;
+    };
 
     if (face === 'judge') {
       if (!(d.cards >= 4 && d.cards <= 8 && d.cards % 2 === 0)) throw new Error(`${who}: cards ${d.cards} outside 4..8 (even)`);
@@ -553,7 +612,7 @@ module.exports = {
         if (!bad && cols[0].has(true) && cols[1].has(true) && cols[0].has(false) && cols[1].has(false)) break;
         if (t > 500) throw new Error(`${who}: could not balance the yes/no layout`);
       }
-      return { face, band: B, unit: unit || null, cards, pairIds };
+      return done({ face, band: B, unit: unit || null, cards, pairIds });
     }
 
     if (face === 'sort') {
@@ -592,7 +651,7 @@ module.exports = {
         if (!bankItems.some((x, i) => i > 0 && x.cls === bankItems[i - 1].cls)) break;
         if (t > 300) throw new Error(`${who}: could not order the bank without an adjacent pair`);
       }
-      return { face, band: B, unit: unit || null, bins, bankItems, extras };
+      return done({ face, band: B, unit: unit || null, bins, bankItems, extras });
     }
 
     if (face === 'couplet') {
@@ -641,7 +700,7 @@ module.exports = {
       const strict = !!(d.wordChoices || d.pageBank);
       const rows = strict ? pickRows(true) : (pickRows(true) || pickRows(false));
       if (!rows) throw new Error(`${who}: ${loc} has ${usable.length} usable couplets (distinct answers + partners${strict ? ', one class each' : ''}), need ${d.rows} (refuse)`);
-      if (!strict) return { face, band: B, unit: null, rows };
+      if (!strict) return done({ face, band: B, unit: null, rows });
       // other words: members of classes whose rhyme is none of the page's, never a near-miss of a page class, each
       // word once on the page, never a verse's answer
       const pageSounds = new Set(rows.map((r) => byId.get(r.cls).sound));
@@ -687,7 +746,7 @@ module.exports = {
           if (t > 300) throw new Error(`${who}: could not order the word box`);
         }
       }
-      return { face, band: B, unit: null, rows, bankWords };
+      return done({ face, band: B, unit: null, rows, bankWords });
     }
 
     if (face === 'string') {
@@ -733,7 +792,7 @@ module.exports = {
           if (!bankX.some((x, i) => i > 0 && !x.foil && !bankX[i - 1].foil && x.cls === bankX[i - 1].cls)) break;
           if (t > 300) throw new Error(`${who}: could not order the bank without an adjacent answer pair`);
         }
-        return { face, band: B, unit: unit || null, anchors: anchorsX, foils: foilsX, bankItems: bankX };
+        return done({ face, band: B, unit: unit || null, anchors: anchorsX, foils: foilsX, bankItems: bankX });
       }
       const ids = chooseClasses(eligible, d.anchors);
       const pageSounds = new Set(ids.map((id) => byId.get(id).sound));
@@ -760,7 +819,7 @@ module.exports = {
         if (!bankItems.some((x, i) => i > 0 && !x.foil && !bankItems[i - 1].foil && x.cls === bankItems[i - 1].cls)) break;
         if (t > 300) throw new Error(`${who}: could not order the bank without an adjacent answer pair`);
       }
-      return { face, band: B, unit: unit || null, anchors, foils, bankItems };
+      return done({ face, band: B, unit: unit || null, anchors, foils, bankItems });
     }
 
     if (face === 'open') {
@@ -778,7 +837,7 @@ module.exports = {
         const examples = [...c.members.filter((x) => x.vocabKey !== m.vocabKey).map((x) => x.word), ...(c.extra || [])];
         return { cls: id, anchor: entry(m, id), examples };
       });
-      return { face, band: B, unit: unit || null, cards };
+      return done({ face, band: B, unit: unit || null, cards });
     }
     throw new Error(`${WHO}: unknown face "${face}"`);
   },

@@ -40,10 +40,12 @@ module.exports = {
     const EXISTENTIAL = { fr: ['c3'], it: ['c4'] };
     C.frames = C.frames.filter((f) => !(EXISTENTIAL[loc] || []).includes(f.id));
     for (let t = 0; t < 60; t++) {
-      const targets = RC.distinctNouns(rng, C.entries, d.cards);
-      if (!targets) break;
+      const targets0 = RC.distinctNouns(rng, C.entries, d.cards);
+      if (!targets0) break;
       const colors = rng.shuffle(RC.COLOR_KEYS.slice()).slice(0, d.cards);
-      if (!RC.avoidNatural(targets.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      if (!RC.avoidNatural(targets0.map((e) => e.vocabKey), colors, RC.COLOR_KEYS)) continue;
+      // a teacher's pictures (maker): another nameable noun (RC.slotNouns — never a look-alike, never its own real colour)
+      const targets = RC.slotNouns(ctx, targets0, C.entries, theme, colors);
       const frames = rng.shuffle(C.frames);
       const cards = [];
       let ok = true;
@@ -65,10 +67,12 @@ module.exports = {
       }
       if (!ok) continue;
       const legend = colorLegend({ entries: colors.map((k) => ({ key: k, word: C.words[k] })) });
-      return {
+      const out = {
         bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;min-height:0">${legend}${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
         meta: { nouns: targets.map((e) => e.vocabKey) },
       };
+      out.bodyHtml = RC.tapNouns(ctx, out.bodyHtml, targets, theme);   // (maker) each target's tap target
+      return out;
     }
     throw new Error(`G1-411: ${theme}/${loc} cannot build ${d.cards} cards`);
   },

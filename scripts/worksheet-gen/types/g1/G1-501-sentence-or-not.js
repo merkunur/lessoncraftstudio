@@ -11,6 +11,7 @@
  * Levels: 1 six items, parts = subjects · 2 eight items, both kinds of part · 3 six items, finish the parts.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { sentencesOf, split, text, PRO_DROP } = require('../_shared/sentence-items.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const { seatOnRow } = require('../../lib/key-on-row.js');
@@ -53,14 +54,31 @@ module.exports = {
       const whole = text(s.tokens.filter((t) => t.tag !== '.'));
       const k = items.length;
       let it;
-      if (k < nWhole) it = { whole: true, shown: whole, full: whole };
-      else { const part = vp && k % 2 && vpOk(s) ? s.sp.predicate : s.sp.subject; it = { whole: false, shown: text(part), full: whole }; }
+      if (k < nWhole) it = { whole: true, shown: whole, full: whole, src: s, kind: 'whole' };
+      else { const pred = vp && k % 2 && vpOk(s), part = pred ? s.sp.predicate : s.sp.subject; it = { whole: false, shown: text(part), full: whole, src: s, kind: pred ? 'pred' : 'subj' }; }
       // never the same words twice on a page (Die kleine Katze is the subject of two sentences)
       const sig = it.shown.toLocaleLowerCase(L);
       if (seen.has(sig)) continue;
       seen.add(sig); items.push(it);
     }
     if (items.length < d.n) throw new Error(`G1-501: ${L} has ${items.length} different items (< ${d.n})`);
+    // a teacher's sentences (maker): another sentence of the bank in place of item i, cut the same way (whole / its subject /
+    // its predicate) — refused when that cut is not allowed for it or repeats words already on the page
+    {
+      const whole = (s) => text(s.tokens.filter((t) => t.tag !== '.'));
+      const tagged = pool.map((s) => ({ ...s, word: whole(s) }));
+      const cur = items.map((it) => tagged[pool.indexOf(it.src)]);
+      const chosen = slot.words(ctx, cur, tagged, 'sent');
+      if (chosen.some((s, i) => s !== cur[i])) {
+        const make = (s, kind) => (kind === 'whole' ? { whole: true, shown: whole(s), full: whole(s), src: s, kind }
+          : kind === 'pred' ? (vpOk(s) ? { whole: false, shown: text(s.sp.predicate), full: whole(s), src: s, kind } : null)
+            : { whole: false, shown: text(s.sp.subject), full: whole(s), src: s, kind });
+        const remade = chosen.map((s, i) => (s === cur[i] ? items[i] : make(pool[tagged.indexOf(s)], items[i].kind)));
+        const sigs = remade.map((it) => (it ? it.shown.toLocaleLowerCase(L) : null));
+        if (remade.every(Boolean) && new Set(sigs).size === sigs.length) remade.forEach((it, i) => { items[i] = it; });
+        else { slot.words({ ...ctx, overrides: null }, cur, tagged, 'sent'); slot.refuse(ctx, 'sent'); }
+      }
+    }
     const order = rng.shuffle(items);
     const cap = (s) => s.charAt(0).toLocaleUpperCase(L) + s.slice(1);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen)), key = !!(ctx && ctx.answerKey);
@@ -68,7 +86,7 @@ module.exports = {
     const rows = order.map((it, i) => {
       const row = d.finish ? writingRow({ w: 620, h: 44, glyphH: 24, xHeight: true }).svg : '';
       const line = d.finish ? `<div>${key && !it.whole ? seatOnRow(row, it.full + '.', { fill: T.teal }) : row}</div>` : '';
-      return `<div data-lcs-sentence-item="${i + 1}" data-lcs-whole="${it.whole ? 1 : 0}" style="display:flex;flex-direction:column;gap:2px;padding:${d.finish ? 4 : 6}px 14px;border-radius:14px;background:${T.cream}">` +
+      return `<div data-lcs-sentence-item="${i + 1}"${slot.attr(ctx, 'sent', items.indexOf(it))} data-lcs-whole="${it.whole ? 1 : 0}" style="display:flex;flex-direction:column;gap:2px;padding:${d.finish ? 4 : 6}px 14px;border-radius:14px;background:${T.cream}">` +
         `<div style="display:flex;align-items:center;gap:16px"><span style="flex:1;font:700 ${d.finish ? 23 : 26}px/1.25 'Baloo 2',cursive;color:${T.ink}">${esc(cap(it.shown))}.</span>` +
         `<span class="ws-choices" style="display:inline-flex;gap:12px">${chip(TICK, it.whole)}${chip(CROSS, !it.whole)}</span></div>${line}</div>`;
     });

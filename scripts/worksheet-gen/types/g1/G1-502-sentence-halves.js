@@ -10,6 +10,7 @@
  * Levels: 1 four sentences · 2 five sentences · 3 six sentences.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { sentencesOf, split, text } = require('../_shared/sentence-items.js');
 const { picOf, srcOf } = require('../_shared/pic-by-key.js');
 const A = require('../_shared/alphabet-more.js');
@@ -36,7 +37,10 @@ module.exports = {
       .filter((s) => (seen.has(s.key) ? false : (seen.add(s.key), true)))
       .map((s) => ({ ...s, sp: split(s.tokens) })).filter((s) => s.sp);
     if (pool.length < d.n) throw new Error(`G1-502: ${L} has ${pool.length} sentences with a pictured subject (< ${d.n})`);
-    const picks = pool.slice(0, d.n);
+    // a teacher's sentences (maker): another sentence of the bank with a pictured subject of its own (never a subject twice)
+    const tagged = pool.map((s) => ({ ...s, word: text(s.tokens) }));
+    let picks = slot.words(ctx, tagged.slice(0, d.n), tagged, 'sent');
+    if (new Set(picks.map((s) => s.key)).size !== picks.length) { picks = slot.words({ ...ctx, overrides: null }, tagged.slice(0, d.n), tagged, 'sent'); slot.refuse(ctx, 'sent'); }
     // the ends in an order where no end sits beside its own beginning
     let order = null;
     for (let t = 0; t < 200 && !order; t++) { const o = rng.shuffle(picks.map((_, i) => i)); if (o.every((v, k) => v !== k)) order = o; }
@@ -44,7 +48,7 @@ module.exports = {
     const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
     const end = (s) => { const last = s.tokens[s.tokens.length - 1]; return text(s.sp.predicate) + (last.tag === '.' ? last.w : ''); };
     const rowH = Math.max(d.px + 14, 74);
-    const left = picks.map((s, i) => `<div data-lcs-half-start="${i + 1}"${scr ? ` data-lcs-key-badge="h${i + 1}"` : ''} style="position:relative;display:flex;align-items:center;justify-content:flex-end;gap:10px;height:${rowH}px;padding:0 14px 0 50px;border-radius:14px;background:${T.cream};font:700 26px/1.2 'Baloo 2',cursive;color:${T.ink}">` +
+    const left = picks.map((s, i) => `<div data-lcs-half-start="${i + 1}"${slot.attr(ctx, 'sent', i)}${scr ? ` data-lcs-key-badge="h${i + 1}"` : ''} style="position:relative;display:flex;align-items:center;justify-content:flex-end;gap:10px;height:${rowH}px;padding:0 14px 0 50px;border-radius:14px;background:${T.cream};font:700 26px/1.2 'Baloo 2',cursive;color:${T.ink}">` +
       (key ? `<span data-lcs-key-sample="1" style="position:absolute;left:8px;top:50%;transform:translateY(-50%);min-width:32px;height:32px;border-radius:16px;background:${T.teal};color:#FFFFFF;font:700 19px/32px 'Baloo 2',cursive;text-align:center">${i + 1}</span>` : '') +
       `<span style="text-align:right">${esc(text(s.sp.subject))}</span><span style="width:12px;height:12px;border-radius:6px;background:${T.teal};flex:0 0 auto"></span></div>`);
     const right = order.map((j) => { const s = picks[j]; return `<div data-lcs-half-end="${j + 1}"${scr ? ` data-lcs-pair="h${j + 1}"` : ''} style="position:relative;display:flex;align-items:center;gap:10px;height:${rowH}px;padding:0 14px;border-radius:14px;background:${T.cream};font:700 26px/1.2 'Baloo 2',cursive;color:${T.ink}">` +

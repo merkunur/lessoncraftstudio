@@ -17,6 +17,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const SW = require('../_shared/spelling-words.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const D = {
@@ -58,6 +59,15 @@ module.exports = {
       if (wrong) items.push({ e, wrong });
     }
     if (items.length < d.n) throw new Error(`G2-492: theme ${theme}/${L} gives ${items.length} words with wrong spellings (< ${d.n})`);
+    // a teacher's words (maker): a word of the pool that has wrong spellings to offer (the page's own rule), else refused
+    {
+      const cur = items.map((x) => x.e), chosen = slot.pictures(ctx, cur, pool, theme);
+      if (chosen.some((e, i) => e !== cur[i])) {
+        const wr = chosen.map((e, i) => (e === cur[i] ? items[i].wrong : wrongSpellings(e.word, L, d.choices - 1, rng)));
+        if (wr.every(Boolean)) chosen.forEach((e, i) => { items[i] = { e, wrong: wr[i] }; });
+        else { slot.pictures({ ...ctx, overrides: null }, cur, pool, theme); slot.refuse(ctx, 'pic'); }
+      }
+    }
     const places = rng.shuffle(items.map((_, i) => i % d.choices));
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two cards a row only for two short spellings; else one compact card a row (the page holds 8)
@@ -66,7 +76,7 @@ module.exports = {
     const cards = items.map(({ e, wrong }, i) => {
       const opts = wrong.slice();
       opts.splice(places[i], 0, e.word);
-      return `<div data-lcs-spelling="${i + 1}" data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-spelling="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${roomy ? 76 : 56}px;height:${roomy ? 76 : 56}px;object-fit:contain;flex:0 0 auto">` +
         `<span class="ws-choices" style="display:flex;flex-wrap:wrap;gap:8px 10px">${opts.map((o) => chip(o, o === e.word)).join('')}</span></div>`;
     });

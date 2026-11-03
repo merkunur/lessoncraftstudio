@@ -13,6 +13,7 @@
  * of a page have fewer sounds than letters.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { bank } = require('../../lib/b3-common.js');
 const { vocab, displayWord } = require('../../lib/b2-common.js');
 const { manifest, labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
@@ -91,10 +92,13 @@ module.exports = {
     const nd = Math.ceil(d.cards / 2), ne = d.cards - nd;
     if (differ.length < 2 || differ.length + Math.min(equal.length, ne) < d.cards) throw new Error(`G1-494: ${L} has ${differ.length} + ${equal.length} words of ${d.min}-${d.max} letters`);
     const picks = [...differ.slice(0, Math.max(nd, d.cards - equal.length)), ...equal.slice(0, ne)].slice(0, d.cards);
-    const cards = rng.shuffle(picks);
+    // a teacher's pictures (maker): a word with fewer sounds than letters for one of those, an even one for an even one
+    const kindOf = (x) => (x.sounds < x.letters ? 'differ' : 'equal');
+    const KS = slot.byKind(ctx, rng.shuffle(picks), kindOf, (k) => (k === 'differ' ? differ : equal), { multi: true, prefix: 'w' });
+    const cards = KS.items;
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const box = (n) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${n}"` : ''} style="display:inline-flex;width:52px;height:50px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
-    const html = cards.map((it) => `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:16px;padding:6px 10px" data-ws-content data-lcs-ls-word="${it.word}" data-lcs-letters="${it.letters}" data-lcs-sounds="${it.sounds}">` +
+    const html = cards.map((it, ci) => `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:16px;padding:6px 10px" data-ws-content data-lcs-ls-word="${it.word}"${KS.tap(ci)} data-lcs-letters="${it.letters}" data-lcs-sounds="${it.sounds}">` +
       `<div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex:0 0 auto"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${d.px}px;height:${d.px}px">` +
       `<span style="font:700 26px/1 'Baloo 2',cursive;color:${T.ink}">${it.word}</span></div>` +
       `<div style="display:flex;flex-direction:column;gap:10px;flex:0 0 auto">` +

@@ -49,4 +49,16 @@ function sampleMatchable(pool, n, rng) {
   return out;
 }
 
-module.exports = { pictureWordPool, sampleMatchable, CONFUSABLE };
+/** a page holding two confusable pictures (the pair sampleMatchable never draws) — a teacher's swap must not make one */
+const hasConfusable = (picks) => picks.some((e) => picks.some((o) => o !== e && partnerOf.get(e.noun) === o.noun));
+/** a teacher's picture choices (maker, lib/slot.js) over a sampleMatchable draw: refused when they make a confusable pair */
+function matchableSlots(ctx, picks, pool, theme) {
+  const slot = require('../../lib/slot.js');
+  const chosen = slot.pictures(ctx, picks, pool, theme);
+  if (!hasConfusable(chosen)) return chosen;
+  const plain = slot.pictures(ctx && { ...ctx, overrides: null }, picks, pool, theme);
+  slot.refuse(ctx, 'pic');
+  return plain;
+}
+
+module.exports = { pictureWordPool, sampleMatchable, CONFUSABLE, hasConfusable, matchableSlots };

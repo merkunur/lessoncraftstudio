@@ -62,15 +62,23 @@ module.exports = {
       if (set) items.push({ e, set });
     }
     if (items.length < d.n) throw new Error(`G1-518: theme ${theme}/${L} gives ${items.length} words with one filling (< ${d.n})`);
+    // a teacher's words (maker): a word of the pool whose blanks have ONE filling (the page's own rule), else refused
+    {
+      const cur = items.map((x) => x.e), chosen = slot.pictures(ctx, cur, pool, theme);
+      const sets = chosen.map((e, i) => (e === cur[i] ? items[i].set : blanks(e, L, d.mode)));
+      if (sets.every(Boolean)) chosen.forEach((e, i) => { items[i] = { e, set: sets[i] }; });
+      else { slot.pictures(ctx && { ...ctx, overrides: null }, cur, pool, theme); slot.refuse(ctx, 'pic'); }
+    }
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two cards a row while every word has 5 letters or fewer; else one compact card a row (the page holds 8)
     const two = Math.max(...items.map(({ e }) => e.word).map((w) => [...w].length)) <= 5, roomy = two || items.length <= 6;
     const bw = roomy ? 36 : 32, lw = roomy ? 30 : 26, ch = roomy ? 46 : 40, px = two ? 84 : roomy ? 76 : 58;
     const cards = items.map(({ e, set }, i) => {
+      const tap = slot.attr(ctx, 'pic', i);
       const cells = SW.units(e.word, L).map((c, j) => (set.includes(j)
         ? `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(c)}"` : ''} style="width:${bw * [...c].length}px;height:${ch}px"></span>`
         : `<span style="display:inline-flex;align-items:flex-end;justify-content:center;width:${lw}px;height:${ch}px;font:700 ${roomy ? 30 : 26}px/1 'Baloo 2',cursive;color:${T.ink}">${esc(c)}</span>`)).join('');
-      return `<div data-lcs-guess="${i + 1}" data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-guess="${i + 1}"${tap} data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain;flex:0 0 auto">` +
         `<span style="display:flex;gap:4px;align-items:flex-end">${cells}</span></div>`;
     });

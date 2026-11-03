@@ -69,6 +69,36 @@ const SPARSE_MAX = 40;
 const TRIES = 400;
 
 /** The valid-item predicate (§1 rules a, b, c'); shared with the gate. */
+const slot = require('../../lib/slot.js');
+/**
+ * A teacher's pictures (maker, final phase 2026-11-03): card i swapped for another word of ITS letter team (the position
+ * face: with the team at the same place) — the page's team and place sequences, so its tells, stay as drawn; never a
+ * repeated stem or picture, never a third word of one group (drawTeams' own rules). One role per kind (t0, t1 …).
+ */
+const kindTeam = (x) => x.team + (x.pos ? '|' + x.pos : '');
+function slotTeams(ctx, list, pool) {
+  if (!ctx || !(ctx.slotsOut || ctx.overrides) || !list.length) return list;
+  const wrap = (x) => ({ ...x, theme: x.item.theme, noun: x.item.noun });
+  const page = (out) => {
+    const stems = new Set(), pics = new Set(), groups = {};
+    for (const x of out) {
+      const it = x.item, pic = it.theme + '/' + it.noun;
+      if (stems.has(it.stem) || pics.has(pic)) return false;
+      if (it.group && (groups[it.group] = (groups[it.group] || 0) + 1) > 2) return false;
+      stems.add(it.stem); pics.add(pic);
+    }
+    return true;
+  };
+  const poolFor = (k) => { const [t, p] = k.split('|'); return (pool[t] || []).filter((it) => !p || positionOf(it, t) === p).map((it) => wrap({ item: it, team: t, ...(p ? { pos: p } : {}) })); };
+  const KS = slot.byKind(ctx, list.map(wrap), kindTeam, poolFor, { multi: true, prefix: 't', page });
+  return KS.items.map((x, i) => (x.item === list[i].item ? list[i] : { ...list[i], item: x.item }));
+}
+/** the tap targets of slotTeams: each kind's pictures, in the list's order (the roles byKind gave them) */
+function tapTeams(ctx, html, list) {
+  if (!(ctx && ctx.slotsOut)) return html;
+  const kinds = [...new Set(list.map(kindTeam))];
+  return kinds.reduce((h, k, ki) => slot.stampSrc(ctx, 't' + ki, h, list.filter((x) => kindTeam(x) === k).map((x) => fileUri(x.item.theme, x.item.noun))), html);
+}
 function itemFitsPage(item, team, pageTeams, sounds, { requireFoilLetterInWord = false } = {}) {
   const seg = item.seg.map((g) => g.normalize('NFC').toLowerCase());
   const hits = pageTeams.filter((t) => seg.includes(t));
@@ -405,7 +435,7 @@ function interactiveFor(mode) {
 
 const FACE_BUILD = {
   /* F1 — Sort by Letter Team (K) */
-  'sort-two'(B, d, loc, rng) {
+  'sort-two'(B, d, loc, rng, ctx) {
     need(d.bins === 2 && Array.isArray(d.split) && d.split.length === 2 && d.split[0] + d.split[1] === d.pictures, `sort-two split [${d.split}] ≠ ${d.pictures} pictures over 2 houses`);
     need(d.split.every((x) => x >= 2), `sort-two split [${d.split}]: a house with < 2 pictures (the 6/0 tell)`);
     need(d.houseBead.h >= 56 && d.houseBead.fontPx >= 30, `sort-two house bead ${d.houseBead.h} / ${d.houseBead.fontPx} px under the K floors 56 / 30`);
@@ -419,15 +449,16 @@ const FACE_BUILD = {
     if (d.forceBins) { const bk = teams.map((_, j) => drawn.filter((x) => x.col === j)); order = d.forceBins.map((b) => bk[b].shift()); }   // the GATE's poison seam, never shipped
     for (let tr = 0; tr < TRIES && !order; tr++) { const o = rng.shuffle(drawn); if (!seqTell(o.map((x) => x.col), d.maxRun, { alternation: true })) order = o; }
     need(order, 'sort-two: no picture order free of the house tells');
+    order = slotTeams(ctx, order, pool);
     const cards = order.map((x) => ({ src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, bin: x.col }));
     const cfg = { mode: d.mode, pictures: d.pictures, split: d.split, maxRun: d.maxRun, iconPx: d.iconPx, iconMax: d.iconMax, cardMinH: d.cardMinH, houseBead: d.houseBead, floor: 56 };
     const html = C5.teamHouses({ teams, cards, cfg: d }).html;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, html, 'align-items:stretch'), meta: { teams, bins: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+    return { bodyHtml: tapTeams(ctx, faceRoot(d.mode, loc, teams, sounds, cfg, html, 'align-items:stretch'), order), meta: { teams, bins: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
       _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F2 — Write the Missing Letter Team (G1) */
-  gap(B, d, loc, rng) {
+  gap(B, d, loc, rng, ctx) {
     const { teams, sounds } = teamsAndSounds(B, d, loc, d.bankTeams);
     const beadW = teams.some((t) => [...t].length >= 3) ? d.beadW3 : d.beadW2;
     need(d.beadH >= 44, `gap bead ${d.beadH} < the G1 floor 44`);
@@ -453,6 +484,7 @@ const FACE_BUILD = {
     if (d.forceCols) { const bk = teams.map((_, j) => drawn.filter((x) => x.col === j)); order = d.forceCols.map((c) => bk[c].shift()); }   // the GATE's poison seam, never shipped
     for (let tr = 0; tr < TRIES && !order; tr++) { const o = rng.shuffle(drawn); if (!orderTell(o.map((x) => x.col), teams.length, d.maxRun)) order = o; }
     need(order, 'gap: no row order free of the team tells');
+    order = slotTeams(ctx, order, pool);
     const rowCfg = { numW: d.numW, capPx: d.capPx, iconPx: d.iconPx, capGap: d.capGap, wordPx: d.wordPx, bead: { w: beadW, h: d.beadH } };
     const rows = order.map((x, i) => C5.gapWordRow({ n: i + 1, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd,
       gapIdx: x.item.seg.findIndex((g) => fold(g) === fold(x.team)), cfg: rowCfg, first: i === 0 })).join('');
@@ -460,12 +492,12 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, rows: d.rows, perTeam: d.perTeam, maxRun: d.maxRun, bead: { w: beadW, h: d.beadH }, wordPx: d.wordPx, iconPx: d.iconPx, capPx: d.capPx, maxLetters: d.maxLetters, xHeight: METRICS.xHeight };
     const inner = `<div style="display:flex;justify-content:center;flex:0 0 auto;margin-bottom:${d.bankGap}px">${bank}</div>` +
       `<div data-lcs-gaprows style="flex:1 1 auto;min-height:0;width:${d.laneW}px;align-self:center;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.rowMin}px,1fr))">${rows}</div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+    return { bodyHtml: tapTeams(ctx, faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), order), meta: { teams, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
       _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F3 — Read and Match (G1) */
-  match(B, d, loc, rng) {
+  match(B, d, loc, rng, ctx) {
     const { teams, sounds } = teamsAndSounds(B, d, loc, d.teams);
     need(d.pairs === teams.length * d.perPair, `match ${d.pairs} pairs ≠ ${teams.length} teams x ${d.perPair}`);
     need(d.iconPx >= 44 && d.beadH >= 26 && d.wordPx >= 26, 'match under the G1 floors');
@@ -481,6 +513,7 @@ const FACE_BUILD = {
       if (!matchTell(perm)) rowR = perm;
     }
     need(rowR, 'match: no picture order free of the derangement tells');
+    left = slotTeams(ctx, left, pool);
     const right = new Array(left.length);
     rowR.forEach((r, i) => { right[r] = { ...left[i], pair: i + 1 }; });
     const itemStyle = (w) => `width:${w}px;flex:1 1 ${d.itemMinH}px;min-height:${d.itemMinH}px;box-sizing:border-box`;
@@ -493,12 +526,12 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, pairs: d.pairs, perPair: d.perPair, wordPx: d.wordPx, beadH: d.beadH, iconPx: d.iconPx, maxLetters: d.maxLetters, itemMinH: d.itemMinH, wordMaxW: d.wordMaxW };
     const inner = `<div class="ws-match" data-lcs-matchboard style="padding:6px 30px;min-height:0"><div class="ws-match-col" data-lcs-col="L" style="justify-content:flex-start">${L}</div>` +
       `<div class="ws-match-col" data-lcs-col="R" style="justify-content:flex-start">${R}</div></div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, rowR, items: left.map((x) => x.item.vocabKey) },
+    return { bodyHtml: tapTeams(ctx, faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), left), meta: { teams, rowR, items: left.map((x) => x.item.vocabKey) },
       _ans: { teams, sounds, rows: left.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F4 — Where Is the Letter Team? (G1) */
-  position(B, d, loc, rng) {
+  position(B, d, loc, rng, ctx) {
     const { teams, sounds } = teamsAndSounds(B, d, loc, 3);
     need(d.socket.h >= 44 && d.socket.w >= d.socket.h, `position socket ${d.socket.w}x${d.socket.h} under the G1 floor 44`);
     need(d.iconPx >= 44, 'position picture under the G1 floor');
@@ -535,12 +568,13 @@ const FACE_BUILD = {
       order = o;
     }
     need(order, 'position: no card order free of the socket tells');
+    order = slotTeams(ctx, order, pool);
     const cardCfg = { iconPx: d.iconPx, colW: d.colW, teamBead: d.teamBead, socket: d.socket, sockGap: d.sockGap, cue: d.cue, cardMinH: d.cardMinH };
     const cards = order.map((x, i) => C5.socketCard({ i, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, silent: x.item.silent, team: x.team, cfg: cardCfg })).join('');
     const cfg = { mode: d.mode, cards: d.cards, posSplit: d.posSplit, teamSplit: d.teamSplit, maxRun: d.maxRun, cols: d.cols, iconPx: d.iconPx, socket: d.socket, teamBead: d.teamBead, cue: d.cue };
     const inner = `<div data-lcs-cardgrid style="flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(${d.cols},${d.cardW}px);column-gap:${d.colGap}px;` +
       `grid-template-rows:repeat(${d.cards / d.cols},minmax(${d.cardMinH}px,1fr));row-gap:${d.rowGap}px;justify-content:center">${cards}</div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, pos: order.map((x) => x.pos), items: order.map((x) => x.item.vocabKey) },
+    return { bodyHtml: tapTeams(ctx, faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), order), meta: { teams, pos: order.map((x) => x.pos), items: order.map((x) => x.item.vocabKey) },
       _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, pos: x.pos })) } };
   },
 
@@ -896,7 +930,7 @@ const TYPE = {
     if (d.mode !== 'base') {   // a Phase-E face (the base path below is untouched)
       if (!FACE_MODES.includes(d.mode)) throw new Error(`${ID}: unknown mode "${d.mode}"`);
       if ((DIGRAPHS_NEUTRAL.FACE_REFUSALS[loc] || []).includes(d.mode)) throw new Error(`${ID}: ${loc} REFUSES the ${d.mode} face (design §3 / §7) — refuse`);
-      return screenOrKey(d.mode, FACE_BUILD[d.mode](B, d, loc, rng), ctx, loc);
+      return screenOrKey(d.mode, FACE_BUILD[d.mode](B, d, loc, rng, ctx), ctx, loc);
     }
     // guards on the RESOLVED config
     if (d.showWord) throw new Error(`${ID}: showWord — the base never prints a word`);
@@ -963,6 +997,7 @@ const TYPE = {
     if (!order && !d.forceCols) throw new Error(`${ID}: no wire order free of the column tells in ${TRIES} draws`);
     if (d.forceCols) { const buckets = teams.map((_, j) => chosen.filter((x) => x.col === j)); order = d.forceCols.map((c) => buckets[c].shift()); }   // the GATE's poison seam (PR5) — never a shipped config
 
+    order = slotTeams(ctx, order, pool);   // a teacher's pictures (maker): another word of the same team
     const rowMax = d.capPx + SPARSE_MAX - 4;
     const rows = order.map((x, i) => ({ n: i + 1, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, answerCol: x.col }));
     const ab = C5.soundAbacus({ teams, rows, cfg: { capPx: d.capPx, iconPx: d.iconPx, rowMin: d.rowMin, rowMax, keyH: d.keyH, bead: d.bead, keyBead: d.keyBead } });
@@ -971,7 +1006,7 @@ const TYPE = {
     const bodyHtml = `<div data-ws-content data-lcs-type="${KEY}" data-lcs-face="base" data-lcs-locale="${loc}" data-lcs-teams="${teams.join('|')}" ` +
       `data-lcs-sounds='${js(sounds)}' data-lcs-cfg='${js(cfgStamp)}' ` +
       `style="flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start">` + ab.html + `</div>`;
-    return { bodyHtml, meta: { teams, counts, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+    return { bodyHtml: tapTeams(ctx, bodyHtml, order), meta: { teams, counts, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
       _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 

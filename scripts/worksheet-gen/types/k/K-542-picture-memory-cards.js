@@ -7,7 +7,8 @@
  * Levels: 1 six pairs, two of each picture · 2 eight pairs, picture and word · 3 ten pairs, picture and word.
  */
 'use strict';
-const { pictureWordPool, sampleMatchable } = require('../_shared/picture-word-pool.js');
+const { pictureWordPool, sampleMatchable, matchableSlots } = require('../_shared/picture-word-pool.js');
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { keyNumber } = require('../_shared/key-number.js');
 const A = require('../_shared/alphabet-more.js');
@@ -35,8 +36,9 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     const pool = pictureWordPool(theme, L);
     if (pool.length < d.pairs) throw new Error(`K-542: theme ${theme}/${L} has ${pool.length} card words (< ${d.pairs})`);
-    const picks = sampleMatchable(pool, d.pairs, rng);
-    if (picks.length < d.pairs) throw new Error(`K-542: theme ${theme}/${L} has ${picks.length} pictures that cannot be confused (< ${d.pairs})`);
+    const drawn = sampleMatchable(pool, d.pairs, rng);
+    if (drawn.length < d.pairs) throw new Error(`K-542: theme ${theme}/${L} has ${drawn.length} pictures that cannot be confused (< ${d.pairs})`);
+    const picks = matchableSlots(ctx, drawn, pool, theme);   // a teacher's picture choice (maker), else as drawn
     const cards = rng.shuffle(picks.flatMap((e, i) => [{ e, i, side: 'pic' }, { e, i, side: d.kind === 'picture' ? 'pic2' : 'word' }]));
     const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
     const extra = (ctx && ctx.chromeExtra) || 0;
@@ -48,7 +50,7 @@ module.exports = {
       const inner = side === 'word'
         ? `<span style="font:700 ${fs}px/1.1 'Baloo 2',cursive;color:${T.ink};text-align:center;overflow-wrap:anywhere;padding:0 8px">${e.word}</span>`
         : `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${pic}px;height:${pic}px;object-fit:contain">`;
-      return `<div data-lcs-memory-card="${e.vocabKey}" data-lcs-side="${side}"${mk} style="position:relative;box-sizing:border-box;width:${w}px;height:${h}px;display:flex;align-items:center;justify-content:center;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
+      return `<div data-lcs-memory-card="${e.vocabKey}" data-lcs-side="${side}"${mk}${side === 'pic' ? slot.attr(ctx, 'pic', i) : ''} style="position:relative;box-sizing:border-box;width:${w}px;height:${h}px;display:flex;align-items:center;justify-content:center;border-right:2px dashed ${T.grid};border-bottom:2px dashed ${T.grid}">` +
         (key ? keyNumber(i + 1) : '') + inner + `</div>`;
     });
     const grid = `<div data-lcs-memory style="display:grid;grid-template-columns:repeat(${d.cols},${w}px);border-top:2px dashed ${T.grid};border-left:2px dashed ${T.grid}">${html.join('')}</div>`;

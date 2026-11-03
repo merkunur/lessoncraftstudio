@@ -745,8 +745,10 @@ async function openPicker(i, role, idx) {
       if (paged && split(key)[0] !== shown) continue;
       const used = onPage.has(key) && key !== current;
       const src = isPic ? imgOf(key) : null;
-      const kids = src ? [el('img', { src, alt: split(key)[1], loading: 'lazy' })] : [el('span', { text: multi ? split(key)[1] : key })];
-      grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: multi ? split(key)[1] : key, on: { click: () => choosePick(i, role, idx, key) } }, kids));
+      // a words slot may name its keys (lib/slot.js records labels: Cloze keys its frames by id, the label is the sentence)
+      const labelOf = (k) => (slotInfo.labels && slotInfo.labels[k]) || (multi ? split(k)[1] : k);
+      const kids = src ? [el('img', { src, alt: split(key)[1], loading: 'lazy' })] : [el('span', { text: labelOf(key) })];
+      grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: labelOf(key), on: { click: () => choosePick(i, role, idx, key) } }, kids));
     }
     grid.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   };

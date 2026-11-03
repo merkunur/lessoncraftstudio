@@ -8,6 +8,7 @@
  * the verb), predicate: the verb and the rest } — the subject never ends in an X.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { SENTENCES } = require('../../data/grammar/grammar-tables.js');
 
 const SUBJECT_KEY = ['dog', 'bird', 'frog', 'cat', 'girl', 'man', 'rabbit', 'bear', 'ball', 'apple', 'duck', null, 'horse', 'teacher', 'baby', 'cat', null, 'cat'];
@@ -91,7 +92,7 @@ const NUM_WORDS = {
 // many things (fi singular = plural: blocks, dice)
 const PEOPLE = new Set(['girl', 'boy', 'baby', 'man', 'woman', 'child', 'children', 'grandma', 'grandpa', 'mother', 'father', 'doctor', 'nurse', 'teacher', 'firefighter', 'police officer', 'chef', 'farmer', 'singer']);
 
-function frameSentences({ locale, theme, rng, n, maxTokens = 9, maxLetters = 10 }) {
+function frameSentences({ locale, theme, rng, n, maxTokens = 9, maxLetters = 10, ctx = null }) {
   const L = String(locale || 'en').slice(0, 2);
   const bank = FRAMES[L];
   if (!bank || !NEUTRAL[L]) throw new Error(`sentence-items: no frames for ${L}`);
@@ -105,7 +106,7 @@ function frameSentences({ locale, theme, rng, n, maxTokens = 9, maxLetters = 10 
   const frames = [];
   while (frames.length < n) frames.push(...rng.shuffle(NEUTRAL[L].map((text, i) => ({ id: 'n' + (i + 1), text }))));
   frames.length = n;
-  const nouns = rng.sample(entries, n);
+  const nouns = slot.pictures(ctx, rng.sample(entries, n), entries, theme);   // a teacher's nouns (maker, ctx given: K-553)
   return frames.map((frame, i) => {
     const e = nouns[i];
     const cs = bank.nounCase === 'keep' ? 'keep' : 'lower';

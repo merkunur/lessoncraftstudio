@@ -9,6 +9,7 @@
  * Levels: 1 a short passage, 3 questions · 2 a passage, 5 questions · 3 a longer passage, 6 questions.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { passagesFor, pickQuestions } = require('../../data/reading/reading-new.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -37,11 +38,13 @@ module.exports = {
     const shownOf = (q, r) => { const wrongs = q.choices.map((c, k) => k).filter((k) => k !== q.correct); return q.choices[r.sample(wrongs, 1)[0]]; };
     const pool = passagesFor(L, Number(difficulty) || 2).map((p) => ({ p, qs: pickQuestions(p, d.n, rng, L, shownOf) })).filter((x) => x.qs);
     if (!pool.length) throw new Error(`G1-505: ${L} has no passage with ${d.n} questions`);
-    const { p, qs } = rng.sample(pool, 1)[0];
+    // a teacher's story (maker): another passage of the bank with its own questions (key = its title)
+    const tagged = pool.map((x) => ({ ...x, word: x.p.title }));
+    const { p, qs } = slot.words(ctx, rng.sample(tagged, 1), tagged, 'story')[0];
     const items = qs.map((q, i) => ({ q: q.q, a: right[i] ? q.choices[q.correct] : q.shown, right: right[i] }));
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const chip = (svg, ok) => `<span data-lcs-pick="1"${mark && ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:2.5px solid ${T.grid};border-radius:999px;background:#FFFFFF">${svg}</span>`;
-    const passage = `<div data-lcs-passage="${p.id}" style="padding:14px 18px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
+    const passage = `<div data-lcs-passage="${p.id}"${slot.attr(ctx, 'story', 0)} style="padding:14px 18px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
       `<div style="font:700 26px/1.2 'Baloo 2',cursive;color:${T.teal};margin-bottom:6px">${esc(p.title)}</div>` +
       `<div style="font:600 ${d.n > 3 ? 19 : 22}px/1.5 'Nunito',sans-serif;color:${T.ink}">${esc(p.text)}</div></div>`;
     const rows = items.map((it, i) => `<div data-lcs-tf-item="${i + 1}" data-lcs-right="${it.right ? 1 : 0}" style="display:flex;align-items:center;gap:14px;padding:6px 14px;border-radius:14px;background:${T.cream}">` +

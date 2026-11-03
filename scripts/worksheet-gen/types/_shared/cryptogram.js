@@ -15,6 +15,7 @@
 const { fileUri } = require('../../lib/b2-common.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
+const slot = require('../../lib/slot.js');
 const { COLLATION } = require('../../data/b2/collation.js');
 const { PHRASES } = require('../../data/puzzles/phrases.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -57,7 +58,8 @@ function makeCryptogram(spec) {
         return ls.length >= d.min && ls.length <= d.max && distinct <= (spec.code === 'pictures' ? Math.min(pics.length, d.maxDistinct || 14) : d.maxDistinct || 30);
       });
       if (!fit.length) throw new Error(`${spec.id}: no sentence fits (${L}${theme ? '/' + theme : ''})`);
-      const msg = rng.pick(fit), letters = lettersOf(msg, L), distinct = [...new Set(letters)];
+      // the secret message: a teacher may pick another of the reviewed sentences that fit the level (maker), else as drawn
+      const msg = slot.words(ctx, [rng.pick(fit)], fit, 'message')[0], letters = lettersOf(msg, L), distinct = [...new Set(letters)];
       const alpha = alphabetFor(L, msg);
       // the code of each letter
       const codeOf = new Map();
@@ -153,7 +155,7 @@ function makeCryptogram(spec) {
       const key = `<div data-lcs-cg-keybox style="display:flex;flex-wrap:wrap;justify-content:center;gap:5px;padding:10px;border-radius:14px;background:${T.cream}">${keyCells.map(keyCell).join('')}</div>`;
       const solvedHtml = solved ? `<div data-lcs-cg-solved style="display:flex;gap:4px;justify-content:center;padding:8px 14px;border:2.5px dashed ${T.teal};border-radius:12px">${[...solved].map((c) => `<div style="display:flex;flex-direction:column;align-items:center;gap:4px">${shapeSvg(codeOf.get(c).shape, 34)}<span style="font:700 22px/1 'Nunito',sans-serif;color:${T.ink}">${esc(c)}</span></div>`).join('')}</div>` : '';
       return {
-        bodyHtml: `<div data-ws-content data-lcs-cryptogram style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:14px;min-height:0">${key}${solvedHtml}<div data-lcs-cg-message style="display:flex;flex-direction:column;gap:18px">${msgHtml}</div></div>`,
+        bodyHtml: `<div data-ws-content data-lcs-cryptogram${slot.attr(ctx, 'message', 0)} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:14px;min-height:0">${key}${solvedHtml}<div data-lcs-cg-message style="display:flex;flex-direction:column;gap:18px">${msgHtml}</div></div>`,
         meta: { message: msg, given: [...givenSet], ...(solved ? { solved } : {}) },
       };
     },

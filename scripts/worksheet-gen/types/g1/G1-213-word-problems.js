@@ -21,6 +21,7 @@
 'use strict';
 const { labelSafeNouns, fileUri, labelsForKey: labels } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
+const slot = require('../../lib/slot.js');
 const { FRAMES } = require('../../data/word-problems/frames.js');
 const W = require('../../lib/word-problems-levelset.js');
 
@@ -210,7 +211,7 @@ module.exports = {
     const pool = W.nounsFor(theme, loc);
     const kinds = d.kinds || Array.from({ length: d.problems }, (_, i) => (d.opsPattern ? d.opsPattern[i % d.opsPattern.length] : (i % 2 === 0 ? 'add' : 'sub')));
     if (pool.length < kinds.length) throw new Error(`G1-213: theme ${theme}/${loc} has ${pool.length} countable nouns < ${kinds.length}`);
-    const nouns = rng.sample(pool, kinds.length);
+    const nouns = slot.pictures(ctx, rng.sample(pool, kinds.length), pool, theme);   // a teacher's thing per story (maker), else as drawn
     const names = W.namesFor(loc, false);
     const usedFrames = new Set(), usedNums = new Set();
     const three = kinds.length >= 3;
@@ -234,7 +235,7 @@ module.exports = {
       return { kind, ...nums, name, name2, noun: noun.noun, vocabKey: noun.vocabKey, frame: kind + fk, sentence, boxes: kind === 'compare' && !/{name2}/.test(list[fk]) };
     });
 
-    const blocks = problems.map((p) => {
+    const blocks = problems.map((p, pi) => {
       const font = screen ? SCR.font : (three ? 16 : 20) - (d.fit || 0);
       // the picture: icons sized so the whole strip stays on one line of the card
       const room = screen ? 600 : (three ? 560 : 580);
@@ -256,7 +257,7 @@ module.exports = {
             return `<span style="position:relative;display:inline-flex"${crossed ? ' data-lcs-crossed' : ' data-lcs-g1'}>${W.iconImg(theme, p.noun, iconPx, crossed ? ';opacity:0.45' : '')}${crossed ? cross : ''}</span>`;
           }).join('') + `</div>`;
       }
-      const stamps = `data-lcs-problem data-lcs-ls="1" data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}" data-lcs-op="${p.kind}" data-lcs-max="${d.max}"`;
+      const stamps = `data-lcs-problem${slot.attr(ctx, 'pic', pi)} data-lcs-ls="1" data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}" data-lcs-op="${p.kind}" data-lcs-max="${d.max}"`;
       const box = screen
         ? W.writeBox(p.answer, p.vocabKey, `data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}"`, SCR.box, 104)
         : answerBox({ w: 84, h: 64, answer: p.answer });

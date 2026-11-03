@@ -50,6 +50,8 @@ const SCOPED_CSS = `
 .lit-lk-bin-label{position:absolute;top:-26px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#FBF3E4;border:2.5px solid #146B5E;border-radius:999px;padding:6px 18px;font-family:'Baloo 2',cursive;font-weight:700;font-size:17px;color:#146B5E}
 `;
 
+const slot = require('../../lib/slot.js');
+
 function makeLitLetterKnowledge(cfg) {
   const data = cfg.data || {};
   const alphabets = data.alphabets || {};
@@ -70,10 +72,10 @@ function makeLitLetterKnowledge(cfg) {
       const alphabet = (alphabets[locale] || alphabets.en || 'abcdefghijklmnopqrstuvwxyz').split('');
       const mk = ctx && ctx.answerKey ? 'key' : ctx && ctx.screen ? 'screen' : null;
 
-      if (this.mode === 'missing-alphabet') return buildMissingAlphabet(alphabet, d, rng, mk);
-      if (this.mode === 'find-letter-grid') return buildFindLetterGrid(alphabet, d, rng, null, mk);
-      if (this.mode === 'vowel-consonant') return buildVowelConsonant(alphabet, d, rng, locale, data, mk);
-      return buildUpperLower(alphabet, d, rng, mk);
+      if (this.mode === 'missing-alphabet') return buildMissingAlphabet(alphabet, d, rng, mk, ctx);
+      if (this.mode === 'find-letter-grid') return buildFindLetterGrid(alphabet, d, rng, null, mk, ctx);
+      if (this.mode === 'vowel-consonant') return buildVowelConsonant(alphabet, d, rng, locale, data, mk, ctx);
+      return buildUpperLower(alphabet, d, rng, mk, ctx);
     },
 
     async verify(page) {
@@ -110,9 +112,9 @@ function makeLitLetterKnowledge(cfg) {
 }
 
 /* --- upper-lower match --- */
-function buildUpperLower(alphabet, d, rng, mk) {
+function buildUpperLower(alphabet, d, rng, mk, ctx) {
   const n = Math.min(d.n, alphabet.length);
-  const letters = rng.sample(alphabet, n);
+  const letters = slot.words(ctx, rng.sample(alphabet, n), alphabet, 'letter');   // a teacher's letters (maker)
   let order;
   do { order = rng.shuffle(letters.map((_, i) => i)); }
   while (n > 1 && order.some((v, i) => v === i));
@@ -122,7 +124,7 @@ function buildUpperLower(alphabet, d, rng, mk) {
   const fs = Math.round(tile * 0.6);
 
   const left = letters.map((ch, i) =>
-    `<div class="ws-match-item" style="width:170px;height:${itemH}px" data-lk-left="${ch}"` +
+    `<div class="ws-match-item" style="width:170px;height:${itemH}px" data-lk-left="${ch}"${slot.attr(ctx, 'letter', i)}` +
     (mk === 'key' ? ` data-lcs-pair="${i + 1}">${keyNumber(i + 1)}` : mk === 'screen' ? ` data-lcs-key-badge="u${i + 1}">` : '>') +
     `<span class="lit-lk-mtile lit-letter" style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch.toUpperCase()}</span>` +
     `<span class="ws-match-dot ws-match-dot--right"></span></div>`).join('');
@@ -144,18 +146,20 @@ function buildUpperLower(alphabet, d, rng, mk) {
 }
 
 /* --- missing-letter-in-alphabet --- */
-function buildMissingAlphabet(alphabet, d, rng, mk) {
+function buildMissingAlphabet(alphabet, d, rng, mk, ctx) {
   // blank out d.n positions (never the first), spaced out
   const total = alphabet.length;
   const blankCount = Math.min(d.n, Math.floor(total / 2));
   const candidatePositions = alphabet.map((_, i) => i).filter((i) => i > 0);
-  const blanks = new Set(rng.sample(candidatePositions, blankCount));
+  // a teacher's missing letters (maker): the blanks as letters, chosen from every letter but the first
+  const missing = slot.words(ctx, rng.sample(candidatePositions, blankCount).map((i) => alphabet[i]), alphabet.slice(1), 'missing');
+  const blanks = new Set(missing.map((ch) => alphabet.indexOf(ch)));
 
   const tile = 66;   // as big as eight to a row allow (2026-11-02: 56 px tiles left half the page blank)
   const fs = 38;
   const cells = alphabet.map((ch, i) => {
     if (blanks.has(i)) {
-      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}"${mk ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px"></span>`;   // the answer font is the .lit-lk-blank rule (the screen build adds marks only)
+      return `<span class="lit-lk-cell lit-lk-blank" data-lit-content data-lk-missing="${ch}"${slot.attr(ctx, 'missing', missing.indexOf(ch))}${mk ? ` data-lcs-answer="${ch}"` : ''} style="width:${tile}px;height:${tile}px"></span>`;   // the answer font is the .lit-lk-blank rule (the screen build adds marks only)
     }
     return `<span class="lit-lk-cell lit-letter" data-lit-content style="width:${tile}px;height:${tile}px;font-size:${fs}px">${ch}</span>`;
   }).join('');
@@ -169,8 +173,8 @@ function buildMissingAlphabet(alphabet, d, rng, mk) {
 }
 
 /* --- find-letter-in-grid --- */
-function buildFindLetterGrid(alphabet, d, rng, opts, mk) {
-  const target = rng.sample(alphabet, 1)[0];
+function buildFindLetterGrid(alphabet, d, rng, opts, mk, ctx) {
+  const target = slot.words(ctx, rng.sample(alphabet, 1), alphabet, 'target')[0];   // a teacher's letter to find (maker)
   const others = alphabet.filter((c) => c !== target);
   const cols = 6, rows = 5, total = cols * rows;
   const hits = Math.min(d.n, total - cols); // d.n target instances
@@ -188,7 +192,7 @@ function buildFindLetterGrid(alphabet, d, rng, opts, mk) {
     bodyHtml:
       `<style>${SCOPED_CSS}</style>` +
       `<div class="lit-lk" style="flex-direction:column">` +
-      `<div class="lit-lk-target"><span class="lit-lk-target-chip">${target}</span>` +
+      `<div class="lit-lk-target"><span class="lit-lk-target-chip"${slot.attr(ctx, 'target', 0)}>${target}</span>` +
       `<span class="lit-lk-target-chip" style="background:#FBF3E4;color:#146B5E;border:2.5px solid #146B5E">${target.toUpperCase()}</span></div>` +
       `<div class="lit-lk-grid" style="grid-template-columns:repeat(${cols},auto)">${cellsHtml}</div></div>`,
     meta: { mode: 'find-letter-grid', target, hits },
@@ -196,7 +200,7 @@ function buildFindLetterGrid(alphabet, d, rng, opts, mk) {
 }
 
 /* --- vowel/consonant sort --- */
-function buildVowelConsonant(alphabet, d, rng, locale, data, mk) {
+function buildVowelConsonant(alphabet, d, rng, locale, data, mk, ctx) {
   const vowelStr = (data.vowels && (data.vowels[locale] || data.vowels.en)) || 'aeiou';
   const vowelSet = new Set(vowelStr.split(''));
   const lab = data.vcLabels || { vowels: { en: 'Vowels' }, consonants: { en: 'Consonants' } };
@@ -206,14 +210,17 @@ function buildVowelConsonant(alphabet, d, rng, locale, data, mk) {
   const vowels = alphabet.filter((c) => vowelSet.has(c));
   const consonants = alphabet.filter((c) => !vowelSet.has(c));
   const perBin = Math.max(2, Math.floor(d.n / 2));
+  // a teacher's letters (maker): the vowels from the vowels, the consonants from the consonants
+  const vs = slot.words(ctx, rng.sample(vowels, Math.min(perBin, vowels.length)), vowels, 'vowel');
+  const cs = slot.words(ctx, rng.sample(consonants, Math.min(perBin + 1, consonants.length)), consonants, 'consonant');
   const pick = rng.shuffle([
-    ...rng.sample(vowels, Math.min(perBin, vowels.length)).map((c) => ({ ch: c, bin: 'vowel' })),
-    ...rng.sample(consonants, Math.min(perBin + 1, consonants.length)).map((c) => ({ ch: c, bin: 'consonant' })),
+    ...vs.map((c, i) => ({ ch: c, bin: 'vowel', i })),
+    ...cs.map((c, i) => ({ ch: c, bin: 'consonant', i })),
   ]);
   const tile = 64, fs = 36;
   const binNo = { vowel: 1, consonant: 2 };
   const strip = pick.map((it) =>
-    `<span class="lit-lk-cell lit-letter" data-lit-content data-lk-item="${it.bin}"${mk === 'screen' ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : ''} ` +
+    `<span class="lit-lk-cell lit-letter" data-lit-content data-lk-item="${it.bin}"${slot.attr(ctx, it.bin, it.i)}${mk === 'screen' ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : ''} ` +
     `style="width:${tile}px;height:${tile}px;font-size:${fs}px${mk === 'key' ? ';position:relative' : ''}">${it.ch}${mk === 'key' ? keyNumber(binNo[it.bin]).replace('top:6px;right:6px', 'top:-12px;right:-12px') : ''}</span>`).join('');
   const binsHtml =
     `<div class="lit-lk-bin" data-lk-bin="vowel"${mk === 'screen' ? ' data-lcs-bin="vowel"' : ''}><span class="lit-lk-bin-label">${vLabel}</span>${mk === 'key' ? keyNumber(1) : ''}</div>` +

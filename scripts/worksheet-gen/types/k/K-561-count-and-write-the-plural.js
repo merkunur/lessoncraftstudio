@@ -12,6 +12,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const NF = require('../_shared/noun-forms.js');
+const slot = require('../../lib/slot.js');
 const { numberWord1000, numberWordAlts } = require('../../lib/number-words-1000.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -40,7 +41,7 @@ module.exports = {
     if (L === 'fi') throw new Error('K-561: fi takes the singular partitive after a number (kolme kissaa), not the plural');
     const pool = NF.pool(theme, L).filter((e) => [...e.plur].length <= d.max);
     if (pool.length < d.n) throw new Error(`K-561: theme ${theme}/${L} has ${pool.length} nouns with a plural (< ${d.n})`);
-    const nouns = rng.sample(pool, d.n);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's pictures (maker)
     // the counts: as many different counts as the range and the page allow (level 1: three of each), shuffled, and never
     // the same count on two neighbouring cards when the range has more than two
     const span = d.hi - d.lo + 1, range = Array.from({ length: span }, (_, i) => d.lo + i);
@@ -58,7 +59,7 @@ module.exports = {
       const first = d.give ? `<span style="font:700 24px/1 'Nunito',sans-serif;color:${T.ink};white-space:nowrap">${esc(nWord)}</span>` : box(nWord, numW, numberWordAlts(k, L).concat(L === 'no' && k === 7 ? ['syv'] : []));
       // the two boxes side by side when they fit the card (≈ 276 px), else one under the other (it quattro / cinque)
       const stack = !d.give && numW + plurW + 8 > 276;
-      return `<div data-lcs-count-card="${i + 1}" data-lcs-n="${k}" data-lcs-vocab="${esc(e.vocabKey)}" style="display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-count-card="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-n="${k}" data-lcs-vocab="${esc(e.vocabKey)}" style="display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border-radius:16px;background:${T.cream}">` +
         `<div style="display:grid;grid-template-columns:repeat(${per},auto);gap:4px 6px;justify-content:center;align-items:center;flex:1">${pics}</div>` +
         `<div style="display:flex;${stack ? 'flex-direction:column;' : ''}align-items:center;gap:8px;justify-content:center;flex-wrap:nowrap">${first}${box(e.plur, Math.min(stack ? 240 : 276 - (d.give ? 8 + nw * 13 : numW + 8), plurW), NF.pluralAlts(e, L))}</div></div>`;
     });

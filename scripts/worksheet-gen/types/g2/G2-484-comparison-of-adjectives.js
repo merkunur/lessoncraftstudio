@@ -9,6 +9,7 @@
  * irregular ones among them.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { COMPARISON } = require('../../data/grammar/grammar-tables.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -37,6 +38,10 @@ module.exports = {
     const nIrr = Math.min(d.irregular, irregular.length);
     const rows = rng.shuffle([...irregular.slice(0, nIrr), ...regular.slice(0, d.rows - nIrr)]);
     if (rows.length < d.rows) throw new Error(`G2-484: ${L} has ${rows.length} adjectives (< ${d.rows})`);
+    // a teacher's adjectives (maker): a regular one for a regular one, an irregular for an irregular (never the worked example)
+    const tag = (r) => ({ r, word: r[0] });
+    const KS = slot.byKind(ctx, rows.map(tag), (x) => (x.r[3] ? 'irr' : 'reg'), (k) => (k === 'irr' ? irregular : regular).map(tag), { words: true, prefix: 'a' });
+    KS.items.forEach((x, i) => { rows[i] = x.r; });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const longest = Math.max(...[example, ...rows].flatMap((r) => r.slice(0, 3)).map((w) => [...w].length));
     const cellW = Math.min(210, Math.max(150, longest * 14 + 28));
@@ -47,7 +52,7 @@ module.exports = {
     const filled = (w) => `<span style="display:inline-flex;align-items:center;justify-content:center;width:${cellW}px;height:46px;box-sizing:border-box;border:2.5px solid ${T.teal};border-radius:10px;background:#FFFFFF;font:700 24px/1 'Baloo 2',cursive;color:${T.teal}">${w}</span>`;
     const exampleHtml = `<div data-lcs-compare-example="${example[0]}" style="display:flex;align-items:flex-start;justify-content:center;gap:14px;padding:8px 10px;border:2.5px dashed ${T.teal};border-radius:14px">` +
       [0, 1, 2].map((k) => `<div style="width:${cellW}px;text-align:center">${k ? filled(example[k]) : `<span style="display:inline-flex;align-items:center;justify-content:center;height:46px;font:700 24px/1 'Baloo 2',cursive;color:${T.teal}">${example[0]}</span>`}${bar(k)}</div>`).join('') + '</div>';
-    const html = rows.map((r) => `<div data-lcs-compare="${r[0]}" style="display:flex;align-items:flex-start;justify-content:center;gap:14px;padding:8px 10px;border-radius:14px;background:${T.cream}">` +
+    const html = rows.map((r, ri) => `<div data-lcs-compare="${r[0]}"${KS.tap(ri)} style="display:flex;align-items:flex-start;justify-content:center;gap:14px;padding:8px 10px;border-radius:14px;background:${T.cream}">` +
       `<div style="width:${cellW}px;text-align:center"><span style="display:inline-flex;align-items:center;justify-content:center;height:46px;font:700 24px/1 'Baloo 2',cursive;color:${T.ink}">${r[0]}</span>${bar(0)}</div>` +
       `<div style="width:${cellW}px;text-align:center">${box(r[1], altsOf(r, 'comp'))}${bar(1)}</div>` +
       `<div style="width:${cellW}px;text-align:center">${d.both ? box(r[2], altsOf(r, 'sup')) : `<span style="display:inline-flex;align-items:center;justify-content:center;height:46px;font:700 24px/1 'Baloo 2',cursive;color:${T.ink}">${r[2]}</span>`}${bar(2)}</div></div>`);

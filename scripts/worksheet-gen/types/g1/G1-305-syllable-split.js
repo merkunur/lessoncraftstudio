@@ -71,6 +71,7 @@ const { esc } = require('../../primitives/_svg.js');
 const VOWELS = require('../../data/literacy/letter-knowledge.json').vowels;
 const { refusedPicture } = require('../../lib/picture-refusals.js');
 const { seatOnRow } = require('../../lib/key-on-row.js');
+const slot = require('../../lib/slot.js');
 // Level Set 2026-10-01: a NEW page is anything but the published level 2, copy 1. New pages draw from the TeX-agreed
 // pool only (their answer key and screen PRINT or GRADE the boundary) and skip refused pictures.
 /**
@@ -114,6 +115,22 @@ function swapRefused(picks, pool, loc, same = () => true) {
     if (k < 0) throw new Error(`${ID}: no swap for refused "${e.word}" (${loc}) — REFUSED`);
     return spare.splice(k, 1)[0];
   });
+}
+/**
+ * A teacher's words (maker, final phase 2026-11-03): word i of the page replaced by a word of the page's own pool with the
+ * SAME syllable count — the page's count mix, its long-word target, its tapping-rhythm guard and its sort columns stay as
+ * drawn. Refused when the count differs, when the word is one the published fix took out, when it is the longer form of
+ * another word on the page or the other way round (fi haalari / haalarit), or when the face's own rule (ok) says no.
+ * The slot's values are the page's words in draw order.
+ */
+function slotWords(ctx, picks, pool, theme, loc, ok = () => true) {
+  const chosen = slot.pictures(ctx, picks, pool, theme);
+  const low = (e) => e.word.toLocaleLowerCase(loc);
+  const nested = (a, b) => a !== b && low(a) !== low(b) && ((low(b).length >= 4 && low(a).startsWith(low(b))) || (low(a).length >= 4 && low(b).startsWith(low(a))));
+  const bad = chosen.some((e, i) => e !== picks[i] && (e.count !== picks[i].count || (PUBLISHED_FIX[loc] || []).includes(fold(e.word)) || chosen.some((o) => nested(e, o)) || !ok(e)));
+  if (!bad) return chosen;
+  slot.pictures(ctx && { ...ctx, overrides: null }, picks, pool, theme); slot.refuse(ctx, 'pic');
+  return picks;
 }
 const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
 let _screen = null;
@@ -251,6 +268,7 @@ module.exports = {
     },
   },
   eligible,
+  slotWords,   // (G1-496 Syllable Puzzles takes a teacher's words by the same rule)
   cellFor,
   kingRuns,
   faceOf,
@@ -324,6 +342,7 @@ module.exports = {
       const pickedRest = sampleEntries(rng, rest, d.cards - wantLong, ID);
       picks = rng.shuffle(pickedLong.concat(pickedRest));
     }
+    picks = slotWords(ctx, picks, pool, theme, loc);   // a teacher's words (maker)
     const cards = picks.map((e) => {
       const n = [...e.word].length;
       const cell = cellFor(n, d.cellMax);
@@ -333,7 +352,7 @@ module.exports = {
       const arcs = keyFill ? syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'printed' }) : syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'blank', dots: d.dots ? e.count : 0 });
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ` +
         `data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" ` +
-        `data-lcs-count="${e.count}" data-lcs-cell="${cell}" data-lcs-face="base" data-lcs-mark="${esc(b.mark)}">` +
+        `data-lcs-count="${e.count}" data-lcs-cell="${cell}" data-lcs-face="base"${slot.attr(ctx, 'pic', picks.indexOf(e))} data-lcs-mark="${esc(b.mark)}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${esc(e.vocabKey)}" style="width:${d.pic}px;height:${d.pic}px;flex:0 1 auto;min-height:${Math.max(44, Math.round(d.pic * 0.75))}px">` +
         `<div style="margin-top:8px;line-height:0" data-lcs-wordrow>${wordSvg}</div>` +
         `<div style="margin-top:6px;line-height:0" data-lcs-arczone>${arcs}</div></div>`;
@@ -363,7 +382,9 @@ module.exports = {
     const floor = Math.max(d.cards || d.bank || 0, d.minPool || 0);
     const refuse = (why) => { throw new Error(`${ID}/${face}: theme ${theme}/${loc} ${why} — REFUSED`); };
     const img = (e, px) => `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${esc(e.vocabKey)}" style="width:${px}px;height:${px}px;flex:none">`;
-    const stamps = (e) => `data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" data-lcs-count="${e.count}" data-lcs-face="${face}"`;
+    let tapList = [];   // the page's words in slot order (maker tap targets)
+    const tapAt = (e) => { const i = tapList.indexOf(e); return i < 0 ? '' : slot.attr(ctx, 'pic', i); };
+    const stamps = (e) => `${tapAt(e).trim()}${tapAt(e) ? ' ' : ''}data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" data-lcs-count="${e.count}" data-lcs-face="${face}"`;
     const rowStage = (e, extra, body) => `<div class="ws-card-stage" style="justify-content:flex-start;align-items:center;gap:${ROW_GAP}px;padding:0 0 0 ${ROW_BADGE}px" data-ws-content ${stamps(e)}${extra || ''}>${body}</div>`;
     const rootOpen = (extra) => `<div style="flex:1;display:flex;flex-direction:column;min-height:0" data-lcs-type="${ID}" data-lcs-face="${face}" ` +
       `data-lcs-cards="${d.cards || 0}" data-lcs-mincount="${d.minCount}" data-lcs-maxcount="${d.maxCount}" data-lcs-maxletters="${d.maxLetters}" data-lcs-pool="${opts.pool}"${extra || ''}>`;
@@ -380,7 +401,8 @@ module.exports = {
       // lane capacity ≈ 16 glyphs at glyphH 28 (design OPEN 2): letters + (count − 1) hyphens ≤ 16 → maxLetters min(12, 17 − count)
       pool = pool.filter((e) => [...e.word].length <= Math.min(d.maxLetters, 17 - e.count));
       if (pool.length < floor) refuse(`has ${pool.length} eligible words < ${floor}`);
-      const { picks, long, longPool } = pickWithLong(d.minLongCards);
+      const pw = pickWithLong(d.minLongCards), { long, longPool } = pw;
+      const picks = slotWords(ctx, pw.picks, pool, theme, loc); tapList = picks;
       const cards = picks.map((e) => rowStage(e, ` data-lcs-hyphen="${esc(b.hyphen || '-')}"`,
         img(e, d.pic) + syllableModel({ word: e.word, fontPx: d.modelPx || 26, w: REWRITE_MODEL_W }) +
         (keyFill ? seatRows(hyphenLane({ w: REWRITE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }), [displayTokens(e).join(b.hyphen || '-')]) : hyphenLane({ w: REWRITE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }))));
@@ -392,7 +414,7 @@ module.exports = {
 
     if (face === 'cloze') {
       if (pool.length < floor) refuse(`has ${pool.length} eligible words (a 2-4 letter syllable, texPool) < ${floor}`);
-      const picks = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
+      const picks = slotWords(ctx, rng.shuffle(sampleEntries(rng, pool, d.cards, ID)), pool, theme, loc);
       const [lo, hi] = opts.blankLen;
       // the missing syllable is distinct across the page: the de/pt/sv/no draws printed the same
       // answer twice (no: tann-børste + tann-krem — the second copies the first; found by the
@@ -406,6 +428,7 @@ module.exports = {
       const freshIdx = (e) => eligibleIdx(e).filter((i) => !usedSyl.has(e.split[i].toLocaleLowerCase(loc)));
       const remaining = pool.filter((e) => !picks.includes(e)).sort((a, b) => a.word.localeCompare(b.word, loc));
       const chosen = [], blanks = [];
+      tapList = chosen;
       const cards = picks.map((e0) => {
         let e = e0;
         if (!freshIdx(e).length) {
@@ -429,6 +452,12 @@ module.exports = {
           img(e, d.pic).replace('flex:none', `flex:0 1 auto;min-height:${Math.max(44, Math.round(d.pic * 0.75))}px`) +
           `<div style="margin-top:6px;line-height:0" data-lcs-wordrow>${wordSvg}</div></div>`;
       });
+      // the slot follows the words on the cards: a teacher's word swapped out again (no fresh syllable left for it) is a refusal
+      if (ctx && ctx.slotsOut && chosen.some((e, i) => e !== picks[i])) {
+        const want = (ctx.overrides && ctx.overrides.pic) || {};
+        slot.pictures({ ...ctx, overrides: null }, chosen, pool, theme);
+        if (Object.keys(want).some((i) => chosen[+i] !== picks[+i])) slot.refuse(ctx, 'pic');
+      }
       return {
         bodyHtml: rootOpen(` data-lcs-cellmax="${d.cellMax}" data-lcs-blanklo="${lo}" data-lcs-blankhi="${hi}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
         meta: { face, words: chosen.map((e) => e.word), splits: chosen.map((e) => e.split.join('-')), pool: pool.length, ...fm(chosen), ...(fresh ? { blanks } : {}) },
@@ -439,7 +468,8 @@ module.exports = {
       const longs = pool.filter((e) => e.count >= 3);
       if (pool.length < floor) refuse(`has ${pool.length} eligible words (texPool) < ${floor}`);
       if (longs.length < (d.min3 || 0)) refuse(`has ${longs.length} three-syllable words < min3 ${d.min3}`);
-      const { picks, long, longPool } = pickWithLong(d.min3);
+      const pw = pickWithLong(d.min3), { long, longPool } = pw;
+      const picks = slotWords(ctx, pw.picks, pool, theme, loc); tapList = picks;
       const orders = [];
       const cards = picks.map((e) => {
         // tiles = the syllables; tile 1 takes the display case (de keeps its capital), the rest are the stored split
@@ -469,16 +499,25 @@ module.exports = {
       // sample whose alphabetical order happens to put every 2-syllable word before (or after) every
       // 3-syllable word (1 draw in 35 at 4:4) is re-drawn, so the column can never be read off the
       // bank position; a pool that cannot avoid it (exactly 4:4, grouped) REFUSES
-      let sorted = null;
+      let sorted = null, drawn = null;
       for (let t = 0; t < 30 && !sorted; t++) {
         const picks = swapRefused(sampleEntries(rng, c2, per, ID).concat(sampleEntries(rng, c3, per, ID)), fresh ? [] : pool, loc, (x, e) => x.count === e.count);
         const cand = picks.slice().sort((x, y) => compare(x.word, y.word, loc));
         const cs = cand.map((e) => e.count);
         const mono = cs.every((v, i) => i === 0 || v >= cs[i - 1]) || cs.every((v, i) => i === 0 || v <= cs[i - 1]);
-        if (!mono) sorted = cand;
+        if (!mono) { sorted = cand; drawn = picks; }
       }
       if (!sorted) refuse('collates every sample grouped by syllable count (the column would be readable from the bank order)');
-      const bankHtml = syllableSortBank({ words: sorted.map((e, i) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun), count: e.count, rank: i })), wordPx: d.wordPx || 18 });
+      // a teacher's words (maker), in draw order: the bank is collated again; a swap that leaves it grouped by count is refused
+      {
+        const chosen = slotWords(ctx, drawn, pool, theme, loc);
+        if (chosen.some((e, i) => e !== drawn[i])) {
+          const cand = chosen.slice().sort((x, y) => compare(x.word, y.word, loc)), cs = cand.map((e) => e.count);
+          const mono = cs.every((v, i) => i === 0 || v >= cs[i - 1]) || cs.every((v, i) => i === 0 || v <= cs[i - 1]);
+          if (mono) { slot.pictures({ ...ctx, overrides: null }, drawn, pool, theme); slot.refuse(ctx, 'pic'); } else { sorted = cand; drawn = chosen; }
+        }
+      }
+      const bankHtml = syllableSortBank({ words: sorted.map((e, i) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun), count: e.count, rank: i })), wordPx: d.wordPx || 18 }).replace(/ data-lcs-bank="([^"]*)"/g, (m, k) => m + slot.attr(ctx, 'pic', drawn.findIndex((e) => e.vocabKey === k)));
       const labels = b.sortLabels || {};
       const cols = (d.cols || [2, 3]).map((n) => { const col = syllableSortColumn({ n, text: String(labels[n] != null ? labels[n] : n), rows: per, w: SORT_COL_W - 40, h: d.laneH || 64, glyphH: d.glyphH });
         // the answer key: each word of this count written with its dashes, in bank order
@@ -528,6 +567,7 @@ module.exports = {
       } else {
         picks = swapRefused(rng.shuffle(sampleEntries(rng, pool.filter(notExample), d.cards, ID)), pool.filter(notExample), loc);
       }
+      picks = slotWords(ctx, picks, pool.filter(notExample), theme, loc); tapList = picks;   // a teacher's words (maker)
       const cards = picks.map((e) => {
         const n = [...e.word].length;
         const cell = cellFor(n, d.cellMax);

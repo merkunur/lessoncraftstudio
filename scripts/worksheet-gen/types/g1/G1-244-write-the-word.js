@@ -19,6 +19,7 @@ const { compare } = require('../../data/b2/collation.js');
 const LS = require('../../data/tracing/letter-strokes.js');   // the starter's advance on the maker's key
 // Level Set 2026-10-03: new pages name only reviewed pictures and words (shared with Word Tracing)
 const { freshKeep, PAGE_SWAP } = require('../../lib/picture-word-review.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'G1-244',
@@ -67,7 +68,7 @@ module.exports = {
     // A page that fills at the limit draws exactly as before: this loop never runs, so its rng is untouched.
     for (let extra = 1; fresh && pool.length < d.cards && extra <= 2; extra++) pool = poolFor(d.maxLetters + extra);
     if (pool.length < d.cards) throw new Error(`G1-244: theme ${theme}/${loc} has ${pool.length} eligible nouns < ${d.cards}`);
-    const picks = rng.sample(pool, d.cards);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.cards), pool, theme);   // a teacher's picture choice (maker), else as drawn
     // a picture a child names otherwise (or a brand) on the PUBLISHED page: swapped after the draw for the next clean
     // word, so a published page without one is byte-identical (lib/picture-word-review.js PAGE_SWAP)
     if (!fresh) for (let i = 0; i < picks.length; i++) {
@@ -105,7 +106,7 @@ module.exports = {
         right = `<div style="position:relative;width:${d.rulingW}px">${writingRow({ w: d.rulingW, h: 64, glyphH: d.glyphH, xHeight: true }).svg}${answerOn(e.word, 8)}</div>`;
       }
       const boxes = d.boxes ? `<div style="display:flex;justify-content:center;padding-top:2px">${letterBoxes({ n: [...e.word.replace(/[ ]/g, '')].length, box: Math.min(24, Math.floor(280 / [...e.word].length) - 4) })}</div>` : '';
-      return `<div class="ws-card-stage" style="flex-direction:column;gap:4px;padding:6px 6px 2px" data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}">` +
+      return `<div class="ws-card-stage" style="flex-direction:column;gap:4px;padding:6px 6px 2px" data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}"${slot.attr(ctx, 'pic', picks.indexOf(e))}>` +
         `<div style="display:flex;align-items:center;gap:12px;width:100%;justify-content:center">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.pic}px;height:${d.pic}px;flex:0 0 auto">${right}</div>${boxes}</div>`;
     });

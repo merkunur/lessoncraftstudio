@@ -8,6 +8,7 @@
  */
 'use strict';
 const W = require('../../lib/word-problems-levelset.js');
+const slot = require('../../lib/slot.js');
 const WF = require('../_shared/writing-frames.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -28,7 +29,7 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = W.nounsFor(theme, L);
     if (pool.length < d.kinds.length) throw new Error(`G1-513: theme ${theme}/${L} has ${pool.length} nouns (< ${d.kinds.length})`);
-    const nouns = rng.sample(pool, d.kinds.length), eqs = [], results = new Set();
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.kinds.length), pool, theme), eqs = [], results = new Set();   // a teacher's picture per story (maker)
     const blocks = d.kinds.map((kind, i) => {
       let nums = null, g = 0;
       // never the same number sentence twice on a page, and a different result for each (review 2026-11-02)
@@ -37,7 +38,7 @@ module.exports = {
       results.add(nums.answer);
       const eq = kind === 'add' ? `${nums.n1} + ${nums.n2} = ${nums.answer}` : `${nums.n1} ${MINUS} ${nums.n2} = ${nums.answer}`;
       eqs.push(eq);
-      return `<div data-lcs-own-story="${i + 1}" style="display:flex;flex-direction:column;gap:6px;padding:10px 14px;border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-own-story="${i + 1}"${slot.attr(ctx, 'pic', i)} style="display:flex;flex-direction:column;gap:6px;padding:10px 14px;border-radius:16px;background:${T.cream}">` +
         `<div style="display:flex;align-items:center;gap:18px"><span style="padding:6px 18px;border:3px solid ${T.teal};border-radius:14px;background:#FFFFFF;font:700 34px/1.1 'Baloo 2',cursive;color:${T.ink}">${eq}</span>` +
         `${W.iconImg(theme, nouns[i].noun, 58)}</div>${WF.lines(d.lines, 640, 48)}</div>`;
     });

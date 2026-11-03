@@ -12,6 +12,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const SW = require('../_shared/spelling-words.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const D = { 1: { n: 6, min: 3, max: 6, help: true, plain: true }, 2: { n: 8, min: 4, max: 8, help: true, plain: false }, 3: { n: 8, min: 6, max: 10, help: false, plain: false } };
@@ -47,7 +48,7 @@ module.exports = {
       return !SW.fits(pattern, L, e).length && !SW.rudeFit(pattern, L);         // one word only fits, never a rude one
     });
     if (pool.length < d.n) throw new Error(`G1-520: theme ${theme}/${L} has ${pool.length} words with one filling (< ${d.n})`);
-    const picks = rng.sample(pool, d.n);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's words (maker; the pool keeps only words whose vowels can be blanked)
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two cards a row while every word has 5 letters or fewer; else one compact card a row (the page holds 8)
     const two = Math.max(...picks.map((e) => e.word).map((w) => [...w].length)) <= 5, roomy = two || picks.length <= 6;
@@ -57,7 +58,7 @@ module.exports = {
       const cells = SW.units(e.word, L).map((c, j) => (b[j]
         ? `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(c)}"` : ''} style="width:${bw * [...c].length}px;height:${ch}px"></span>`
         : `<span style="display:inline-flex;align-items:flex-end;justify-content:center;width:${lw}px;height:${ch}px;font:700 ${roomy ? 30 : 26}px/1 'Baloo 2',cursive;color:${T.ink}">${esc(c)}</span>`)).join('');
-      return `<div data-lcs-vowels="${i + 1}" data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-vowels="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-word="${esc(e.word)}" style="display:flex;align-items:center;gap:14px;padding:${roomy ? '10px 14px' : '5px 12px'};border-radius:16px;background:${T.cream}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain;flex:0 0 auto">` +
         `<span style="display:flex;gap:4px;align-items:flex-end">${cells}</span></div>`;
     });

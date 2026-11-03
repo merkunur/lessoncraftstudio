@@ -10,6 +10,7 @@
  * sentence.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { frameSentences } = require('../_shared/sentence-items.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const { seatOnRow } = require('../../lib/key-on-row.js');
@@ -31,7 +32,7 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
-    const items = frameSentences({ locale: L, theme, rng, n: d.n, maxTokens: 8 });
+    const items = frameSentences({ locale: L, theme, rng, n: d.n, maxTokens: 8, ctx });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen)), key = !!(ctx && ctx.answerKey);
     const rows = items.map((it, i) => {
       const at = it.canonical.indexOf(it.noun);
@@ -41,7 +42,7 @@ module.exports = {
       const box = `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(it.noun)}"` : ''} style="display:inline-flex;flex:0 0 auto;width:${Math.min(230, Math.max(140, [...it.noun].length * 16 + 30))}px;height:46px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
       const row = writingRow({ w: 640, h: 56, glyphH: 28, xHeight: true }).svg;
       const line = d.line ? `<div>${key ? seatOnRow(row, it.canonical, { fill: T.teal }) : row}</div>` : '';
-      return `<div data-lcs-rebus-row="${i + 1}" style="display:flex;flex-direction:column;gap:4px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
+      return `<div data-lcs-rebus-row="${i + 1}"${slot.attr(ctx, 'pic', i)} style="display:flex;flex-direction:column;gap:4px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
         `<div style="display:flex;align-items:center;justify-content:space-between;gap:14px">${sentence}${box}</div>${line}</div>`;
     });
     return {

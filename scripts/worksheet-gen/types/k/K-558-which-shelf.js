@@ -17,6 +17,7 @@ const { nameRefused, REFUSED, NAME_ONLY } = require('../../lib/picture-name-refu
 const { SHELF } = require('../../data/ordinal-numbers/shelf.js');
 const { ord } = require('../_shared/ordinal-more.js');
 const { bank } = require('../../lib/b3-common.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
@@ -50,6 +51,12 @@ module.exports = {
     const pics = [], used = new Set();
     for (const e of rng.shuffle(pool)) { if (pics.length === d.shelves) break; const g = group(e); if (!used.has(g)) { used.add(g); pics.push(e); } }
     if (pics.length < d.shelves) throw new Error(`K-558: theme ${theme}/${L} has ${pics.length} different pictures (< ${d.shelves})`);
+    // a teacher's picture on a shelf (maker) — refused when it would stand beside its own twin (the rule above)
+    {
+      const chosen = slot.pictures(ctx, pics, pool, theme), gs = chosen.map(group);
+      if (new Set(gs).size === gs.length) pics.splice(0, pics.length, ...chosen);
+      else { slot.pictures(ctx && { ...ctx, overrides: null }, pics, pool, theme); slot.refuse(ctx, 'pic'); }
+    }
     // pics[k-1] stands on the k-th shelf from the bottom
     const spots = pics.map(() => rng.pick(['flex-start', 'center', 'flex-end']));
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
@@ -60,7 +67,7 @@ module.exports = {
       const lab = `<span data-lcs-shelf-label style="flex:0 0 auto;width:58px;text-align:right;font:700 ${show ? 22 : 30}px/1 'Baloo 2',cursive;color:${T.teal}">${show ? esc(ord(k, L, S.fem ? 'f' : 'm').notation) : d.labels === 'arrow' && k === 1 ? '↑' : ''}</span>`;
       shelves.push(`<div data-lcs-shelf="${k}" style="display:flex;align-items:flex-end;gap:10px;height:${H}px;box-sizing:border-box">${lab}` +
         `<div style="flex:1;height:100%;display:flex;align-items:flex-end;justify-content:${spots[k - 1]};padding:0 14px;box-sizing:border-box;border-left:8px solid ${WOOD_DARK};border-right:8px solid ${WOOD_DARK};border-bottom:10px solid ${WOOD}">` +
-        `<img class="ws-icon" src="${fileUri(theme, pics[k - 1].noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain;margin-bottom:2px"></div></div>`);
+        `<img class="ws-icon" src="${fileUri(theme, pics[k - 1].noun)}" alt=""${slot.attr(ctx, 'pic', k - 1)} style="width:${px}px;height:${px}px;object-fit:contain;margin-bottom:2px"></div></div>`);
     }
     // the top board sits right on the top shelf; the bookcase stands on the bottom of the page
     const bookcase = `<div data-lcs-bookcase style="width:290px;display:flex;flex-direction:column;justify-content:flex-end"><div style="margin-left:68px;height:10px;background:${WOOD_DARK}"></div><div style="padding-top:6px">${shelves.join('')}</div></div>`;

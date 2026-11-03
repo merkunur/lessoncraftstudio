@@ -15,6 +15,7 @@
 const B = require('../../data/literacy/blends.json');
 const { fileUri } = require('../../image-cache/resolve.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 
@@ -48,11 +49,13 @@ module.exports = {
       if (!took) break;
     }
     if (picks.length < d.cards) throw new Error(`G1-493: ${L} has ${picks.length} blend pictures (< ${d.cards})`);
-    const cards = rng.shuffle(picks);
+    // a teacher's pictures (maker): one role per blend on the page — another picture of THAT blend (the card keeps its answer)
+    const KS = slot.byKind(ctx, rng.shuffle(picks), (it) => it.blend, (b) => groups.get(b) || [], { multi: true, prefix: 'b' });
+    const cards = KS.items;
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const box = (ch) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${ch}"` : ''} style="display:inline-flex;width:46px;height:52px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
     const wordText = (s) => `<span style="font:700 34px/1 'Baloo 2',cursive;color:${T.ink};letter-spacing:1px">${s}</span>`;
-    const html = cards.map((it) => {
+    const html = cards.map((it, ci) => {
       const chars = [...it.word], head = chars.slice(0, 2), rest = chars.slice(2).join('');
       let row;
       if (d.task === 'circle') {
@@ -65,7 +68,7 @@ module.exports = {
       } else {
         row = `<div style="display:flex;align-items:center;gap:6px">${box(head[0])}${box(head[1])}${d.task === 'word' ? `<span style="width:4px"></span>${wordText(rest)}` : ''}</div>`;
       }
-      return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:12px;padding:6px" data-ws-content data-lcs-blend="${it.blend}" data-lcs-word="${it.word}">` +
+      return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:12px;padding:6px" data-ws-content data-lcs-blend="${it.blend}"${KS.tap(ci)} data-lcs-word="${it.word}">` +
         `<img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${d.px}px;height:${d.px}px">${row}</div>`;
     });
     return {

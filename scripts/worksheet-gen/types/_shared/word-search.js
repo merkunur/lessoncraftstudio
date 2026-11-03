@@ -49,7 +49,7 @@ function pool(theme, L, min, max) {
     if (!/^\p{L}+$/u.test(grid) || [...grid].length < min || [...grid].length > max) continue;
     const f = GF.fold(grid, L);
     if (seen.has(f)) continue;
-    seen.add(f); out.push({ e, grid, shown });
+    seen.add(f); out.push({ e, grid, shown, noun: e.noun });   // noun: the slot key (lib/slot.js pictures)
   }
   return out;
 }
@@ -100,6 +100,12 @@ function makeWordSearch(spec) {
         }
         p = p.filter((x) => !clueLang || entriesFor(theme, clueLang).some((y) => y.vocabKey === x.e.vocabKey));
         items = pickWords(p, d.k, rng, L, Math.floor(cellsIn * 0.62));
+        // a teacher's words (maker): each hidden word is a slot of the pool; refused when one would hide inside another
+        if (items && spec.clue !== 'message') {   // (the message search: its grid is rebuilt until the leftover letters spell a sentence, so no word swap can be kept)
+          const chosen = slot.pictures(ctx, items, p, theme);
+          const inside = chosen.some((a) => chosen.some((b) => a !== b && GF.fold(b.grid, L).includes(GF.fold(a.grid, L))));
+          if (inside) { items = slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme); slot.refuse(ctx, 'pic'); } else items = chosen;
+        }
       }
       if (!items) throw new Error(`${spec.id}: theme ${theme}/${L} has too few words for ${d.k} (grid ${n})`);
       const words = items.map((x) => x.grid);
@@ -157,12 +163,13 @@ function makeWordSearch(spec) {
       // the clues
       const px = items.length > 8 ? 54 : 64;
       let clues;
-      if (spec.clue === 'pictures') clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;padding:4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain"></span>`).join('');
+      const tap = (i) => (spec.clue === 'numbers' || spec.clue === 'message' ? '' : slot.attr(ctx, 'pic', i));
+      if (spec.clue === 'pictures') clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;padding:4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain"></span>`).join('');
       else if (spec.clue === 'bilingual') {
         const other = new Map(entriesFor(theme, clueLang).map((y) => [y.vocabKey, displayWord(y.singular, clueLang)]));
-        clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:44px;height:44px;object-fit:contain"><span style="font:700 18px/1 'Nunito',sans-serif;color:${T.ink}" lang="${clueLang}">${esc(other.get(x.e.vocabKey))}</span></span>`).join('');
+        clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:44px;height:44px;object-fit:contain"><span style="font:700 18px/1 'Nunito',sans-serif;color:${T.ink}" lang="${clueLang}">${esc(other.get(x.e.vocabKey))}</span></span>`).join('');
       } else if (spec.clue === 'numbers') clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;justify-content:center;min-width:54px;height:54px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid};font:700 30px/1 'Baloo 2',cursive;color:${T.teal}">${x.num}</span>`).join('');
-      else clues = items.map((x) => `<span data-lcs-ws-clue style="display:inline-flex;align-items:center;padding:4px 12px;border-radius:10px;background:#FFFFFF;border:2px solid ${T.grid};font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(x.grid)}</span>`).join('');
+      else clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;align-items:center;padding:4px 12px;border-radius:10px;background:#FFFFFF;border:2px solid ${T.grid};font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(x.grid)}</span>`).join('');
       // the clue language of a two-language page is ONE choice: the clue box is its tap target (maker)
       const clueBox = `<div data-lcs-ws-clues${clueLang ? slot.attr(ctx, 'clueLang', 0) : ''} style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;padding:10px 12px;border-radius:14px;background:${T.cream}">${clues}</div>`;
       let msg = '';

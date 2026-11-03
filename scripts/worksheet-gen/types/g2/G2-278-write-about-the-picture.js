@@ -11,6 +11,7 @@
  * d1: 4 nouns, 3 starter rows · d2: 5-6 nouns, 5 rows · d3: 6 nouns, 6 rows.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { sceneStage, wordBank, rulingBlock } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { LABELS } = require('../../data/b2/labels.js');
@@ -57,7 +58,7 @@ module.exports = {
       pool = pool.filter((e) => !['reindeer', 'peach', 'us', 'liberty'].includes(e.vocabKey) && (!TWIN_CATS.includes(e.vocabKey) || e === keptCat));
     }
     if (pool.length < d.nouns) throw new Error(`G2-278: theme ${theme}/${loc} has ${pool.length} nouns < ${d.nouns}`);
-    const picks = rng.sample(pool, d.nouns);
+    const picks = slot.pictures(ctx, rng.sample(pool, d.nouns), pool, theme);   // a teacher's pictures (maker): the scene and its word bank follow
     const scene = sceneStage({ theme, nouns: picks, w: 660, h: d.sceneH, rng, heroIndex: 0, repeats: d.repeats });
     const bank = wordBank({ words: picks.map((e) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun) })), wordPx: 15, withIcons: true, ...(d.tick ? { tick: true } : {}) });
     const starters = {};
@@ -67,8 +68,8 @@ module.exports = {
     if (d.starterRows) d.starterRows.forEach((r, i) => { if (r >= d.rows || !L[d.starterSet][i]) throw new Error(`G2-278: no starter ${i} for row ${r}`); starters[r] = L[d.starterSet][i]; });
     const ruling = rulingBlock({ rows: d.rows, w: 660, h: d.rowH, glyphH: d.glyphH, starters });
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-lcs-page>` +
-        `${scene.html}<div style="width:660px">${bank}</div><div style="width:660px" data-lcs-ruling data-lcs-rows="${d.rows}" data-lcs-starters="${Object.keys(starters).length}"${d.starterRows ? ` data-lcs-starter-rows="${d.starterRows.join(',')}"` : ''}${d.tick ? ' data-lcs-tick-bank="1"' : ''}>${ruling}</div></div>`,
+      bodyHtml: slot.stampSrc(ctx, 'pic', `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-lcs-page>` +
+        `${scene.html}<div style="width:660px">${bank}</div><div style="width:660px" data-lcs-ruling data-lcs-rows="${d.rows}" data-lcs-starters="${Object.keys(starters).length}"${d.starterRows ? ` data-lcs-starter-rows="${d.starterRows.join(',')}"` : ''}${d.tick ? ' data-lcs-tick-bank="1"' : ''}>${ruling}</div></div>`, picks.map((e) => fileUri(theme, e.noun))),
       meta: { nouns: picks.map((e) => e.word) },
     };
   },

@@ -16,6 +16,7 @@
  * science-category-sort). themeAxis OFF; per-locale item shuffle = variety.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const { keyNumber } = require('./key-number.js');
 
@@ -56,11 +57,12 @@ function makeLitSort(cfg) {
         return (dl && (typeof dl === 'string' ? dl : (dl[locale] || dl.en))) || key;
       };
 
-      const chosen = [];
-      for (const bk of binKeys) {
+      // a teacher's pictures (maker): one role per bin (bin<k>), its pool that bin's own pictures — a picture keeps its answer
+      const chosen = [], tapOf = new Map();
+      binKeys.forEach((bk, k) => {
         const pool = itemsByBin[bk] || [];
-        for (const it of rng.sample(pool, Math.min(d.perBin, pool.length))) chosen.push(it);
-      }
+        slot.anyPictures(ctx, rng.sample(pool, Math.min(d.perBin, pool.length)), pool, 'bin' + k).forEach((it, j) => { chosen.push(it); tapOf.set(it, slot.attr(ctx, 'bin' + k, j)); });
+      });
       const strip = rng.shuffle(chosen);
 
       const itemPx = Math.min(78, Math.floor(648 / Math.max(1, strip.length)) - 12);
@@ -69,7 +71,7 @@ function makeLitSort(cfg) {
       // science-category-sort); the catalogue page is byte-unchanged
       const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
       const stripHtml = strip.map((it) =>
-        `<span class="sci-item" style="padding:${pad}px" data-sci-item="${it.bin}"` + (scr ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : '') + '>' +
+        `<span class="sci-item" style="padding:${pad}px" data-sci-item="${it.bin}"${tapOf.get(it) || ''}` + (scr ? ` data-lcs-drop="1" data-lcs-answer="${it.bin}"` : '') + '>' +
         (key ? keyNumber(binKeys.indexOf(it.bin) + 1) : '') +
         `<img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${itemPx}px;height:${itemPx}px">` +
         `<span class="sci-dot"></span></span>`).join('');

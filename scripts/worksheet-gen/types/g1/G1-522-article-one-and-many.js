@@ -15,6 +15,7 @@
 'use strict';
 const { fileUri } = require('../../lib/b2-common.js');
 const NF = require('../_shared/noun-forms.js');
+const slot = require('../../lib/slot.js');
 const { LABELS } = require('../../data/b2/labels.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -46,7 +47,7 @@ module.exports = {
   build({ theme, difficulty, locale }, ctx) {
     const d = (this.difficulty || D)[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     if (L === 'fi' && d.mode === 'both') throw new Error('G1-522: fi has no articles — its level 2 would be level 1');
-    const pool = NF.pool(theme, L).map((e) => ({ e, f: forms(e, L, !!d.hard) })).filter((x) => x.f);
+    const pool = NF.pool(theme, L).map((e) => ({ e, f: forms(e, L, !!d.hard), noun: e.noun })).filter((x) => x.f);
     // the articles mixed: no article more than half the rows while another is there (en: an, sv: ett, nl: het are rare)
     const byArt = {};
     for (const x of rng.shuffle(pool)) (byArt[x.f.art] = byArt[x.f.art] || []).push(x);
@@ -62,7 +63,13 @@ module.exports = {
     // a theme short of the rarer article (one «an» noun) still fills the page, the rarer article as often as it can
     for (const a of rng.shuffle(arts)) while (items.length < d.n && byArt[a].length) items.push(byArt[a].shift());
     if (items.length < d.n) throw new Error(`G1-522: theme ${theme}/${L} gives ${items.length} nouns with sure articles (< ${d.n})`);
-    const rows = rng.shuffle(items);
+    let rows = rng.shuffle(items);
+    // a teacher's pictures (maker): row i's noun swapped for a pool noun with the SAME article (the page's mix stays)
+    {
+      const chosen = slot.pictures(ctx, rows, pool, theme);
+      if (chosen.every((x, i) => x === rows[i] || x.f.art === rows[i].f.art)) rows = chosen;
+      else { slot.pictures(ctx && { ...ctx, overrides: null }, rows, pool, theme); slot.refuse(ctx, 'pic'); }
+    }
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const no = L === 'no';
     const maxW = Math.max(...rows.map(({ e }) => Math.max([...e.sing].length, [...e.plur].length)));
@@ -82,7 +89,7 @@ module.exports = {
     const lab = (LABELS[L] && LABELS[L].singularPlural) || { one: 'one', many: 'many' };
     // each row: the picture, then two lines — for one, for many — each led by its label (Einzahl / Mehrzahl …)
     const pill = (side, text) => `<span class="ws-pill" data-lcs-head="${side}" style="flex:0 0 150px;box-sizing:border-box;text-align:center;font-size:17px;padding:2px 8px">${esc(text)}</span>`;
-    const body = rows.map((x, i) => `<div data-lcs-noun-row="${i + 1}" data-lcs-vocab="${esc(x.e.vocabKey)}" style="display:flex;align-items:center;gap:16px;padding:7px 14px;border-radius:16px;background:${T.cream}">` +
+    const body = rows.map((x, i) => `<div data-lcs-noun-row="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-vocab="${esc(x.e.vocabKey)}" style="display:flex;align-items:center;gap:16px;padding:7px 14px;border-radius:16px;background:${T.cream}">` +
       `<img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:76px;height:76px;object-fit:contain;flex:0 0 auto">` +
       `<div style="display:flex;flex-direction:column;gap:6px;min-width:0;flex:1">` +
       `<span data-lcs-side="one" style="display:flex;align-items:center;gap:8px;min-height:44px">${pill('one', '1 · ' + lab.one)}${one(x)}</span>` +

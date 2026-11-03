@@ -11,6 +11,7 @@
  */
 'use strict';
 const { TWO_STEP, STEPS } = require('../../data/word-problems/two-step-frames.js');
+const slot = require('../../lib/slot.js');
 const W = require('../../lib/word-problems-levelset.js');
 const T = require('../../primitives/_tokens.js').color;
 
@@ -48,7 +49,7 @@ module.exports = {
     if (!frames) throw new Error(`G2-489: no two-step stories for ${L}`);
     const pool = W.nounsFor(theme, L);
     if (pool.length < d.n) throw new Error(`G2-489: theme ${theme}/${L} has ${pool.length} nouns (< ${d.n})`);
-    const nouns = rng.sample(pool, d.n), names = W.namesFor(L, false);
+    const nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme), names = W.namesFor(L, false);   // a teacher's thing per story (maker)
     const kinds = rng.sample(Object.keys(frames), d.n);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const box = (v) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;vertical-align:middle;width:70px;height:48px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
@@ -63,7 +64,7 @@ module.exports = {
       return { kind, story, ...nums };
     });
     const eqStyle = `font:700 26px/1.2 'Baloo 2',cursive;color:${T.ink}`;
-    const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}" data-lcs-kind="${it.kind}" style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}">` +
+    const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}" style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}">` +
       `<div style="font:600 ${d.font}px/1.45 'Nunito',sans-serif;color:${T.ink}">${i + 1}. ${esc(it.story)}</div>` +
       (d.steps
         ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span style="color:${T.teal}">1.</span> ${it.n1} ${op(it.o1)} ${it.n2} = ${box(it.s1)}</span>` +

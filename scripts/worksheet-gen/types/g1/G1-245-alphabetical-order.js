@@ -20,6 +20,7 @@
  * grey on the lines.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const { seatOnRow } = require('../../lib/key-on-row.js');
 const { alphabetStrip } = require('../../templates/components-b2.js');
@@ -84,22 +85,21 @@ module.exports = {
     if (!col) throw new Error(`G1-245: no collation for ${loc}`);
     let pool = distinctByWord(entriesFor(theme, loc).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
       .filter((e) => /^[\p{L}]+$/u.test(e.word) && [...e.word].length <= 12 && onStrip(e.word, loc)), (e) => e.word);
-    let picks = null, guard = 0;
-    while (!picks && guard++ < 300) {
-      const cand = rng.sample(pool, Math.min(pool.length, d.cards));
-      if (cand.length < d.cards) break;
+    // the first-letter rule of the level: distinct sort keys, d.pairs pairs that share a first letter (never three), the
+    // others d.gap letters apart — or, with pairs, each pair decided at letter 2 at least pairGap apart (closePairs close)
+    const fits = (cand) => {
       const firsts = cand.map((e) => firstIndex(e.word, loc));
       const keys = cand.map((e) => sortKey(e.word, loc).join('.'));
-      if (new Set(keys).size !== cand.length) continue;
+      if (new Set(keys).size !== cand.length) return false;
       const counts = {};
       firsts.forEach((f) => { counts[f] = (counts[f] || 0) + 1; });
       const pairs = Object.values(counts).filter((c) => c === 2).length;
       const tooMany = Object.values(counts).some((c) => c > 2);
-      if (tooMany) continue;
-      if (pairs !== d.pairs) continue;
+      if (tooMany) return false;
+      if (pairs !== d.pairs) return false;
       if (d.pairs === 0) {
         const s = firsts.slice().sort((a, b) => a - b);
-        if (s.some((v, i) => i && v - s[i - 1] < d.gap)) continue;
+        if (s.some((v, i) => i && v - s[i - 1] < d.gap)) return false;
       } else {
         // each pair resolves at letter 2 with ≥ pairGap (default 2) positions between;
         // a level may also ask for `closePairs` pairs whose second letters are at most
@@ -115,11 +115,25 @@ module.exports = {
           if (d.closePairs && dd <= d.pairMax) close++;
         }
         if (d.closePairs && close < d.closePairs) ok = false;
-        if (!ok) continue;
+        if (!ok) return false;
       }
-      picks = cand;
+      return true;
+    };
+    let picks = null, guard = 0;
+    while (!picks && guard++ < 300) {
+      const cand = rng.sample(pool, Math.min(pool.length, d.cards));
+      if (cand.length < d.cards) break;
+      if (fits(cand)) picks = cand;
     }
     if (!picks) throw new Error(`G1-245: theme ${theme}/${loc} cannot satisfy the first-letter rule at d${difficulty}`);
+    // a teacher's words (maker): word i swapped for a word of the page's pool — refused when the set no longer fits the rule
+    {
+      const chosen = slot.pictures(ctx, picks, pool, theme);
+      if (chosen.some((e, i) => e !== picks[i])) {
+        if (fits(chosen)) picks = chosen;
+        else { slot.pictures(ctx && { ...ctx, overrides: null }, picks, pool, theme); slot.refuse(ctx, 'pic'); }
+      }
+    }
     const sorted = picks.slice().sort((a, b) => compare(a.word, b.word, loc));
     const rank = new Map(sorted.map((e, i) => [e.word, i + 1]));
     // visual order ≠ sorted / reversed
@@ -135,7 +149,7 @@ module.exports = {
       const rot = (rng.next() * 10 - 5).toFixed(1);
       const fs = [...e.word].length >= 11 ? (screen ? 23 : 15) : d.font;
       return `<div class="ws-card" style="position:absolute;left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;width:${d.cardW}px;height:${d.cardH}px;transform:rotate(${rot}deg);align-items:center;justify-content:center;gap:6px;overflow:visible" ` +
-        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-rank="${rank.get(e.word)}" data-lcs-pos="${i}">` +
+        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-rank="${rank.get(e.word)}" data-lcs-pos="${i}"${slot.attr(ctx, 'pic', picks.indexOf(e))}>` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.pic}px;height:${d.pic}px">` +
         `<span style="font-family:'Nunito';font-weight:800;font-size:${fs}px;color:#3A3530;white-space:nowrap">${e.word}</span>` +
         `<svg width="36" height="36" viewBox="0 0 36 36" style="position:absolute;right:-8px;top:-8px" data-lcs-rank-slot><circle cx="18" cy="18" r="16" fill="#FFFFFF" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="5 4"/>` +

@@ -78,21 +78,44 @@ function makeCrossword(spec) {
       const maxCols = spec.clue === 'arrow' ? 11 : 14, maxRows = spec.clue === 'arrow' ? 12 : 11;
       // fill-in: the words written in until the fill is the only one — the word set and the order of the given words that
       // need the FEWEST (at most d.maxGiven, 2: a page that writes in half its words is no puzzle — the B7 review saw 5 of 10)
-      let lay = null, items = null, given = {}, bestGiven = Infinity;
-      for (let t = 0; t < (spec.clue === 'fillin' ? 60 : 30); t++) {
-        const pick = rng.sample(p, d.k);
+      // one layout attempt for a word set: the grid, and (fill-in) the order of given words that needs the fewest
+      const layOne = (pick) => {
         const L2 = CL.layout(pick.map((x) => x.grid), { rng, starts: 48, clueCells: spec.clue === 'arrow', maxRows, maxCols });
-        if (!L2 || L2.unplaced.length) continue;
-        if (spec.clue !== 'fillin') { lay = L2; items = pick; break; }
+        if (!L2 || L2.unplaced.length) return null;
+        if (spec.clue !== 'fillin') return { lay: L2, given: {}, nGiven: 0 };
         const ents = CL.number(L2.entries), words = ents.map((e) => e.word);
+        let best = null;
         for (let o = 0; o < 6; o++) {
           const order = rng.shuffle(ents.map((e, i) => i)), g = { [order[0]]: ents[order[0]].word };
           for (let k = 1; k < order.length && fills(ents, words, g) > 1; k++) g[order[k]] = ents[order[k]].word;
-          if (Object.keys(g).length < bestGiven) { bestGiven = Object.keys(g).length; lay = L2; items = pick; given = g; }
+          if (!best || Object.keys(g).length < best.nGiven) best = { lay: L2, given: g, nGiven: Object.keys(g).length };
         }
+        return best;
+      };
+      let lay = null, items = null, given = {}, bestGiven = Infinity;
+      for (let t = 0; t < (spec.clue === 'fillin' ? 60 : 30); t++) {
+        const pick = rng.sample(p, d.k);
+        const r = layOne(pick);
+        if (!r) continue;
+        if (spec.clue !== 'fillin') { lay = r.lay; items = pick; break; }
+        if (r.nGiven < bestGiven) { bestGiven = r.nGiven; lay = r.lay; items = pick; given = r.given; }
         if (bestGiven <= 1) break;
       }
       if (!lay) throw new Error(`${spec.id}: these words do not cross into one grid (${theme}/${L})`);
+      // a teacher's words (maker): word i of the drawn grid replaced, the others kept, the grid laid out again around
+      // them — refused when the new word cannot cross the others (or a fill-in would need more given words than allowed)
+      const chosen = slot.pictures(ctx, items, p, theme);
+      if (chosen.some((x, i) => x !== items[i])) {
+        let best = null;
+        for (let t = 0; t < 30 && !(best && best.nGiven <= 1); t++) {
+          const r = layOne(chosen);
+          if (r && (!best || r.nGiven < best.nGiven)) best = r;
+          if (r && spec.clue !== 'fillin') break;
+        }
+        if (best && (spec.clue !== 'fillin' || best.nGiven <= (d.maxGiven || 2))) { lay = best.lay; given = best.given; bestGiven = best.nGiven; items = chosen; }
+        else { slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme); slot.refuse(ctx, 'pic'); }
+      }
+      const tapOf = (word) => slot.attr(ctx, 'pic', items.findIndex((x) => x.grid === word));
       if (spec.clue === 'fillin' && bestGiven > (d.maxGiven || 2)) throw new Error(`${spec.id}: no fill with ≤ ${d.maxGiven || 2} given words (${theme}/${L})`);
       const byWord = new Map(items.map((x) => [x.grid, x]));
       const entries = CL.number(lay.entries).map((e) => ({ ...e, item: byWord.get(e.word) }));
@@ -110,7 +133,7 @@ function makeCrossword(spec) {
       for (let r = 0; r < lay.rows; r++) for (let c = 0; c < lay.cols; c++) {
         const k = r + ',' + c, ch = letterAt.get(k), ce = clueAt.get(k);
         if (ce) {
-          cells.push(`<div data-lcs-cw-clue="${esc(ce.word)}" style="position:relative;width:${cell}px;height:${cell}px;box-sizing:border-box;border:2px solid ${T.teal};background:${T.cream};display:flex;${ce.dir === 'A' ? 'align-items:center;justify-content:flex-start;padding-left:2px' : 'align-items:flex-start;justify-content:center;padding-top:2px'}">` +
+          cells.push(`<div data-lcs-cw-clue="${esc(ce.word)}"${tapOf(ce.word)} style="position:relative;width:${cell}px;height:${cell}px;box-sizing:border-box;border:2px solid ${T.teal};background:${T.cream};display:flex;${ce.dir === 'A' ? 'align-items:center;justify-content:flex-start;padding-left:2px' : 'align-items:flex-start;justify-content:center;padding-top:2px'}">` +
             `<img class="ws-icon" src="${fileUri(theme, ce.item.e.noun)}" alt="" style="width:${cell - 22}px;height:${cell - 22}px;object-fit:contain">${arrow(ce.dir, 18)}</div>`);
         } else if (ch != null) {
           const num = numAt.get(k);
@@ -128,9 +151,9 @@ function makeCrossword(spec) {
       let clues = '';
       if (spec.clue === 'pictures' || spec.clue === 'bank' || spec.clue === 'bilingual') {
         const other = clueLang ? new Map(entriesFor(theme, clueLang).map((y) => [y.vocabKey, displayWord(y.singular, clueLang)])) : null;
-        const one = (e) => `<span data-lcs-cw-clueitem style="display:inline-flex;align-items:center;gap:6px;padding:3px 8px 3px 3px;border-radius:10px;background:#FFFFFF;border:2px solid ${T.grid}">${nBadge(e.n)}${pic(e, other ? 40 : 52)}${other ? `<span lang="${clueLang}" style="font:700 17px/1 'Nunito',sans-serif;color:${T.ink}">${esc(other.get(e.item.e.vocabKey))}</span>` : ''}</span>`;
+        const one = (e) => `<span data-lcs-cw-clueitem${tapOf(e.word)} style="display:inline-flex;align-items:center;gap:6px;padding:3px 8px 3px 3px;border-radius:10px;background:#FFFFFF;border:2px solid ${T.grid}">${nBadge(e.n)}${pic(e, other ? 40 : 52)}${other ? `<span lang="${clueLang}" style="font:700 17px/1 'Nunito',sans-serif;color:${T.ink}">${esc(other.get(e.item.e.vocabKey))}</span>` : ''}</span>`;
         const col = (dir, head) => `<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start"><span style="font:700 18px/1 'Baloo 2',cursive;color:${T.teal}">${esc(head)}</span><div style="display:flex;flex-wrap:wrap;gap:6px">${entries.filter((e) => e.dir === dir).sort((a, b) => a.n - b.n).map(one).join('')}</div></div>`;
-        clues = `<div data-lcs-cw-clues style="display:flex;gap:18px;justify-content:center;flex-wrap:wrap;padding:10px 12px;border-radius:14px;background:${T.cream}">${col('A', W.across)}${col('D', W.down)}</div>`;
+        clues = `<div data-lcs-cw-clues${clueLang ? slot.attr(ctx, 'clueLang', 0) : ''} style="display:flex;gap:18px;justify-content:center;flex-wrap:wrap;padding:10px 12px;border-radius:14px;background:${T.cream}">${col('A', W.across)}${col('D', W.down)}</div>`;
       }
       if (spec.clue === 'bank' || spec.clue === 'fillin') {
         let bankWords = entries.map((e) => e.word);
@@ -139,7 +162,7 @@ function makeCrossword(spec) {
         let inner;
         if (spec.clue === 'fillin') {
           const lens = [...new Set(bankWords.map((w) => [...w].length))].sort((a, b) => a - b);
-          inner = lens.map((n) => `<div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span style="font:700 17px/1 'Baloo 2',cursive;color:${T.teal}">${esc(W.letters.replace('{n}', n))}:</span>${bankWords.filter((w) => [...w].length === n).map((w) => `<span style="font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span>`).join('<span>·</span>')}</div>`).join('');
+          inner = lens.map((n) => `<div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span style="font:700 17px/1 'Baloo 2',cursive;color:${T.teal}">${esc(W.letters.replace('{n}', n))}:</span>${bankWords.filter((w) => [...w].length === n).map((w) => `<span${tapOf(w)} style="font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span>`).join('<span>·</span>')}</div>`).join('');
         } else inner = `<span style="font:700 18px/1 'Baloo 2',cursive;color:${T.teal}">${esc(W.bank)}</span><div style="display:flex;flex-wrap:wrap;gap:6px 12px">${bankWords.map((w) => `<span style="font:700 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span>`).join('')}</div>`;
         clues += `<div data-lcs-cw-bank style="display:flex;flex-direction:column;gap:6px;padding:10px 14px;border:2.5px dashed ${T.grid};border-radius:14px">${inner}</div>`;
       }

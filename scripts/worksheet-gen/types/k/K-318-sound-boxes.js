@@ -94,6 +94,15 @@ function faceOf(d) {
  * names the tie arc once) but never refuses a theme whose locale has no
  * multigraph words. Shared by the base and the box-drawing faces.
  */
+const slot = require('../../lib/slot.js');
+/** a teacher's pictures (maker): one role per kind (s0, s1 …) — a word of the page's own pool with the SAME number of sounds
+ *  and the same wide-box need, so the page's count mix and its wide-card quota stay. Returns { items, tapOf(e) }. */
+function slotCards(ctx, picks, pool, theme) {
+  const kind = (e) => e.chunks.length + '|' + (e.wideCount > 0);
+  const KS = slot.byKind(ctx, picks, kind, (k) => pool.filter((e) => kind(e) === k), { theme, prefix: 's' });
+  return { items: KS.items, tapOf: (e) => KS.tap(KS.items.indexOf(e)) };
+}
+
 function pickCards(rng, pool, d) {
   const wide = pool.filter((e) => e.wideCount > 0);
   const need = Math.min(d.cards, d.minWideCards || Math.min(d.wantWide || 0, wide.length));
@@ -168,14 +177,14 @@ module.exports = {
     if (d.poolFloor && pool.length < d.poolFloor) {
       throw new Error(`K-318: theme ${theme}/${loc} has ${pool.length} segmentable nouns < ${d.poolFloor} (refused)`);
     }
-    const picks = pickCards(rng, pool, d);
+    const SC = slotCards(ctx, pickCards(rng, pool, d), pool, theme), picks = SC.items;
     const dots = d.dots === 'every' || (d.dots === 'locale' && !!cfg.dots);
     const pic = dots && d.picWithDots ? d.picWithDots : d.pic;   // the dot row costs 12 + 8 px of the 191 px a d2 stage holds
     const cards = picks.map((e) => {
       const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, ...(ctx && ctx.keyFill ? { keyText: shownChunks(e, cfg, loc) } : {}) });
       const dotRow = dots ? hakDots({ centers: row.centers, width: row.width }) : '';
       return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;gap:8px;padding:4px 0" ` +
-        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="base">` +
+        `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="base"${SC.tapOf(e)}>` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${pic}px;height:${pic}px">` +
         dotRow + row.svg + `</div>`;
     });
@@ -211,9 +220,9 @@ module.exports = {
     }
     // Count the Sounds on a NEW page: the counts dealt evenly (2026-10-06: a page of mostly 3- or 4-sound words let
     // "always 3" score twice chance); every other face draws as before
-    const picks = fresh && face === 'count' ? require('../../lib/answer-slots.js').balancedPick(rng, pool, d.cards, (e) => e.chunks.length) : pickCards(rng, pool, d);
+    const SC = slotCards(ctx, fresh && face === 'count' ? require('../../lib/answer-slots.js').balancedPick(rng, pool, d.cards, (e) => e.chunks.length) : pickCards(rng, pool, d), pool, theme), picks = SC.items;
     const img = (noun, key, px) => `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" data-lcs-pic="${key}" style="width:${px}px;height:${px}px">`;
-    const stampsOf = (e) => `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="${face}"`;
+    const stampsOf = (e) => `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="${face}"${SC.tapOf(e)}`;
     const kStage = (e, extra, body) => `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;gap:8px;padding:4px 0" ${stampsOf(e)}${extra || ''}>` +
       img(e.noun, e.vocabKey, d.pic) + body + `</div>`;
     const rowStage = (e, extra, body) => `<div class="ws-card-stage" style="justify-content:flex-start;gap:${ROW_GAP}px;padding:0 0 0 ${ROW_BADGE}px" ${stampsOf(e)}${extra || ''}>` +

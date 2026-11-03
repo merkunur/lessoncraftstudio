@@ -11,6 +11,7 @@
  * every tile lowercase except names, no end mark.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { wordTiles, rulingBlock } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
@@ -96,7 +97,7 @@ module.exports = {
     if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
     const frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng,
       filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok && !(animalTheme && !published && (f.objectsOnly || (LS_PUB_OBJECTS[loc] || []).includes(f.id))); } });
-    const nouns = rng.sample(entries, d.lanes);
+    const nouns = slot.pictures(ctx, rng.sample(entries, d.lanes), entries, theme);   // a teacher's pictures (maker): the sentence is made with its noun
     const lanes = frames.map((frame, i) => {
       const e = nouns[i];
       const nounText = SB.resolveNoun(bank, frame, { ...e, singular: displayWord(e.singular, loc, bank.nounCase === 'keep' ? 'keep' : 'lower'), plural: displayWord(e.plural, loc, bank.nounCase === 'keep' ? 'keep' : 'lower') }, loc);
@@ -132,7 +133,7 @@ module.exports = {
       do { order = rng.shuffle(toks.map((_, k) => k)); guard++; }
       while ((order.every((v, k) => v === k) || order[0] === 0) && guard < 50);
       laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order });
-      return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:14px;align-items:center" data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-caps="${caps.join(',')}" data-lcs-end="${end}">` +
+      return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:14px;align-items:center"${slot.attr(ctx, 'pic', i)} data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-caps="${caps.join(',')}" data-lcs-end="${end}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:10px;min-width:0">${wordTiles({ tokens: shown, order, fontPx: d.font, tileH: d.tileH })}${rulingBlock({ rows: 1, w: 660 - d.icon - 14 - 32, h: d.rulH, glyphH: d.glyphH })}</div></div>`;
     });

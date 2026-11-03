@@ -21,6 +21,7 @@ const { writingRow } = require('../../primitives/trace-path.js');
 const { keyNumber } = require('../_shared/key-number.js');
 const { seatOnRow } = require('../../lib/key-on-row.js');
 const A = require('../_shared/alphabet-more.js');
+const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const W = 660;
@@ -79,6 +80,18 @@ module.exports = {
       if (got.length > picks.length) picks = got;
     }
     if (picks.length < Math.min(d.n, 6)) throw new Error(`G2-487: ${L} has ${picks.length} compounds that cannot be mixed up (< ${d.n})`);
+    // a teacher's compounds (maker): another compound of the bank — refused when a word sits on two pieces or two pieces join
+    // into a second word (the page's own mix-up rules)
+    {
+      const tagged = pool.map((x) => ({ word: x.whole.word, x }));
+      const cur = picks.map((x) => tagged[pool.indexOf(x)]);
+      const chosen = slot.words(ctx, cur, tagged, 'word');
+      if (chosen.some((c, i) => c !== cur[i])) {
+        const list = chosen.map((c) => c.x), hadPics = picks.every((x) => x.a.pic && x.b.pic);
+        const bad = (hadPics && !list.every((x) => x.a.pic && x.b.pic)) || list.some((x, i) => list.some((y, j) => j !== i && ([y.a.word, y.b.word].map(lo).some((w) => [x.a.word, x.b.word].map(lo).includes(w)) || lo(y.whole.word) === lo(x.whole.word) || clash(x, y))));
+        if (!bad) picks = list; else { slot.words({ ...ctx, overrides: null }, cur, tagged, 'word'); slot.refuse(ctx, 'word'); }
+      }
+    }
     // pictures only when every piece on the page has one (a page half pictures, half words reads as two tasks)
     const pics = !(d.hard && !links) && picks.every((x) => x.a.pic && x.b.pic);
     const blankTab = d.hard && links;
@@ -98,7 +111,7 @@ module.exports = {
         ? `<span data-lcs-link="${x.link || ''}" style="position:absolute;right:-2px;top:50%;transform:translateY(-50%);min-width:30px;height:38px;padding:0 4px;box-sizing:border-box;border:2.5px solid ${T.teal};border-right:none;border-radius:19px 0 0 19px;background:#FFFFFF;font:700 22px/34px 'Baloo 2',cursive;color:${T.teal};text-align:center">${blankTab ? (key && x.link ? `<span data-lcs-key-sample="1">${x.link}</span>` : '') : x.link}</span>`
         : '';
       const edge = side === 'a' ? `border-right:5px solid ${T.teal}` : `border-left:5px solid ${T.coral}`;
-      return `<div data-lcs-piece="c${i + 1}" data-lcs-side="${side}"${mk} style="position:relative;box-sizing:border-box;width:${pw}px;height:${ph}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:2px dashed ${T.grid};${edge};border-radius:12px;background:#FFFFFF">` +
+      return `<div data-lcs-piece="c${i + 1}" data-lcs-side="${side}"${side === 'a' ? slot.attr(ctx, 'word', i) : ''}${mk} style="position:relative;box-sizing:border-box;width:${pw}px;height:${ph}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:2px dashed ${T.grid};${edge};border-radius:12px;background:#FFFFFF">` +
         // the key number: top right, but top LEFT on a first part, whose tab holds the right edge
         (key ? (side === 'a' ? `<span style="position:absolute;left:0;top:0;width:44px;height:44px">${keyNumber(i + 1)}</span>` : keyNumber(i + 1)) : '') +
         (pics && p.pic ? `<img class="ws-icon" src="${fileUri(p.pic.theme, p.pic.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain">` : '') +

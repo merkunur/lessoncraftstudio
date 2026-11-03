@@ -8,6 +8,7 @@
  * Levels: 1 one verb, two forms given · 2 two verbs · 3 three verbs.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { CONJUGATION } = require('../../data/grammar/grammar-tables.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -28,7 +29,9 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     const c = CONJUGATION[L];
     if (!c) throw new Error(`G2-485: ${L} has one verb form for every person`);
-    const idx = rng.sample(c.verbs.map((_, i) => i), d.verbs);
+    // a teacher's verbs (maker): any verb of the table (key = its infinitive)
+    const vpool = c.verbs.map((_, i) => ({ i, word: c.infinitive[i] }));
+    const idx = slot.words(ctx, rng.sample(c.verbs.map((_, i) => i), d.verbs).map((i) => vpool[i]), vpool, 'verb').map((x) => x.i);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const longest = Math.max(...idx.flatMap((i) => [...c.verbs[i], c.infinitive[i]]).map((w) => [...w].length));
     // the person column wraps a long label ("er / sie / es") onto two lines; the verb columns share what is left
@@ -40,7 +43,7 @@ module.exports = {
       ? `<span data-lcs-given="1" style="display:inline-flex;align-items:center;justify-content:center;width:${cellW}px;height:62px;font:700 26px/1 'Baloo 2',cursive;color:${T.ink}">${w}</span>`
       : `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${w}"` : ''} style="display:inline-flex;width:${cellW}px;height:62px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
     const head = `<div style="display:flex;gap:14px;align-items:flex-end;justify-content:center"><span style="width:${personW}px"></span>` +
-      idx.map((i) => `<span data-lcs-infinitive="${c.infinitive[i]}" style="width:${cellW}px;padding:8px 0;border-radius:12px;background:${T.teal};color:#FFFFFF;text-align:center;font:700 26px/1.1 'Baloo 2',cursive">${c.infinitive[i]}</span>`).join('') + '</div>';
+      idx.map((i, vi) => `<span data-lcs-infinitive="${c.infinitive[i]}"${slot.attr(ctx, 'verb', vi)} style="width:${cellW}px;padding:8px 0;border-radius:12px;background:${T.teal};color:#FFFFFF;text-align:center;font:700 26px/1.1 'Baloo 2',cursive">${c.infinitive[i]}</span>`).join('') + '</div>';
     const rows = c.persons.map((p, r) => `<div data-lcs-person="${r + 1}" style="display:flex;gap:14px;align-items:center;justify-content:center;height:${rowH}px;border-radius:14px;background:${r % 2 ? '#FFFFFF' : T.cream}">` +
       `<span style="width:${personW}px;text-align:right;font:700 ${[...p].length > 9 ? 22 : 26}px/1.1 'Baloo 2',cursive;color:${T.teal}">${p}</span>` +
       idx.map((i) => cell(c.verbs[i][r], r < d.given)).join('') + '</div>');

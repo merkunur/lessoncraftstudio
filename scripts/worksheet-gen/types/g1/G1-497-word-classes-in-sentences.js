@@ -8,6 +8,7 @@
  * Levels: 1 five sentences, nouns · 2 six sentences, verbs · 3 six sentences, adjectives.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { SENTENCES } = require('../../data/grammar/grammar-tables.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -29,13 +30,16 @@ module.exports = {
     const d = D[difficulty] || D[1], rng = ctx.rng, L = A.loc2(locale);
     const bank = SENTENCES[L];
     if (!bank) throw new Error(`G1-497: no sentences for ${L}`);
-    const picks = rng.sample(bank.map(parse).filter((toks) => toks.some((t) => d.find.includes(t.tag))), d.n);
+    const textOf = (toks) => toks.map((t) => t.w).join(' ');   // a sentence's key: its words
+    const fit = bank.map(parse).filter((toks) => toks.some((t) => d.find.includes(t.tag)));
+    fit.forEach((t) => { t.word = textOf(t); });
+    const picks = slot.words(ctx, rng.sample(fit, d.n), fit, 'sent');   // a teacher's sentences (maker): another with the asked class
     if (picks.length < d.n) throw new Error(`G1-497: ${L} has ${picks.length} sentences with the class`);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const html = picks.map((toks, i) => {
       const words = toks.filter((t) => t.tag !== '.');
       const spans = words.map((t) => `<span data-lcs-pick="1"${mark && d.find.includes(t.tag) ? ' data-lcs-correct="1"' : ''} data-lcs-tag="${t.tag}" style="display:inline-block;padding:4px 8px;margin:3px 2px;border-radius:12px;font:700 28px/1.2 'Baloo 2',cursive;color:${T.ink}">${t.w}</span>`).join('');
-      return `<div data-lcs-class-sentence="${i + 1}" style="padding:6px 12px;border-radius:14px;background:${T.cream};line-height:1.6">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span></div>`;
+      return `<div data-lcs-class-sentence="${i + 1}"${slot.attr(ctx, 'sent', i)} style="padding:6px 12px;border-radius:14px;background:${T.cream};line-height:1.6">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span></div>`;
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-classes="${d.find.join('')}" style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px;min-height:0">${html.join('')}</div>`,

@@ -180,6 +180,26 @@ function sentenceP(text, font, extra = '') {
   return `<p style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.35;color:#3A3530;margin:0" data-lcs-sentence ${extra}>${esc(text)}</p>`;
 }
 
+/**
+ * A teacher's pictures (maker, final phase 2026-11-03; G1-409 / G1-410 / G1-411): target i swapped for another nameable noun of
+ * the page (entries) — refused when it is confusable with another picture of the page (targets and avoid: the distinctNouns
+ * rule) or when no colour order keeps every target out of its own real colour (on success avoidNatural's order replaces
+ * `colors` in place). Role 'pic'.
+ */
+function slotNouns(ctx, targets, entries, theme, colors, avoid = []) {
+  const slot = require('./slot.js');
+  const mine = slot.pictures(ctx, targets, entries, theme);
+  if (!mine.some((e, i) => e !== targets[i])) return targets;
+  const all = [...mine, ...avoid];
+  const conf = all.some((a, i) => all.some((b, j) => j > i && confusable(a.vocabKey, b.vocabKey)));
+  const cs = colors.slice();
+  if (!conf && avoidNatural(mine.map((e) => e.vocabKey), cs, COLOR_KEYS)) { colors.splice(0, colors.length, ...cs); return mine; }
+  slot.pictures({ ...ctx, overrides: null }, targets, entries, theme); slot.refuse(ctx, 'pic');
+  return targets;
+}
+/** the tap targets of slotNouns: each target's first picture on the page */
+function tapNouns(ctx, html, targets, theme) { return require('./slot.js').stampSrc(ctx, 'pic', html, targets.map((e) => fileUri(theme, e.noun))); }
+
 module.exports = { SAME_THING, sameThing, AVOID, AVOID_ASSET, familyNoun, familyCountable, NATURAL_COLOR, natural, avoidNatural, familyFrame, COLOR_KEYS, CONFUSABLES, confusable, pageContext, distinctNouns, sentence, icon, sentenceP, esc };
 
 /**
@@ -197,3 +217,5 @@ function formFallback(loc) {
   };
 }
 module.exports.formFallback = formFallback;
+module.exports.slotNouns = slotNouns;
+module.exports.tapNouns = tapNouns;

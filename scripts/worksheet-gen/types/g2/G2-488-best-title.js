@@ -9,6 +9,7 @@
  * Levels: 1 two short passages · 2 two passages · 3 two longer passages.
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { passagesFor, titleTouches } = require('../../data/reading/reading-new.js');
 const A = require('../_shared/alphabet-more.js');
 const T = require('../../primitives/_tokens.js').color;
@@ -34,7 +35,9 @@ module.exports = {
     const titles = [...new Set([1, 2, 3].flatMap((k) => passagesFor(L, k)).map((p) => p.title))];
     if (all.length < d.n) throw new Error(`G2-488: ${L} has ${all.length} passages (< ${d.n})`);
     const words = (t) => new Set((t.toLocaleLowerCase(L).match(/\p{L}{4,}/gu) || []));
-    const picks = rng.sample(all, d.n), used = new Set(picks.map((p) => p.title));
+    // a teacher's stories (maker): other passages of the bank (key = the title, which the page hides)
+    const tagged = all.map((p) => ({ ...p, word: p.title }));
+    const picks = slot.words(ctx, rng.sample(tagged, d.n), tagged, 'story'), used = new Set(picks.map((p) => p.title));
     const places = rng.shuffle([0, 1, 2]);
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const blocks = picks.map((p, i) => {
@@ -46,7 +49,7 @@ module.exports = {
       others.forEach((t) => used.add(t));
       const opts = others.slice();
       opts.splice(places[i % 3], 0, p.title);
-      return `<div data-lcs-title-block="${p.id}" style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:16px;background:${T.cream}">` +
+      return `<div data-lcs-title-block="${p.id}"${slot.attr(ctx, 'story', i)} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:16px;background:${T.cream}">` +
         `<div style="padding:10px 14px;border:2.5px solid ${T.teal};border-radius:14px;background:#FFFFFF;font:600 ${d.font}px/1.5 'Nunito',sans-serif;color:${T.ink}">${esc(p.text)}</div>` +
         `<div class="ws-choices" style="display:flex;flex-wrap:wrap;gap:8px 10px">${opts.map((t) => `<span data-lcs-pick="1"${mark && t === p.title ? ' data-lcs-correct="1"' : ''} style="padding:6px 14px;border:2.5px solid ${T.grid};border-radius:12px;background:#FFFFFF;font:700 21px/1.25 'Baloo 2',cursive;color:${T.ink}">${esc(t)}</span>`).join('')}</div></div>`;
     });

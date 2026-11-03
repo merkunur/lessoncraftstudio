@@ -9,6 +9,7 @@
  * above the other, the ships beside them).
  */
 'use strict';
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
@@ -49,11 +50,11 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = labelSafeNouns(theme).filter((x) => !refusedPicture(theme, x.noun));
     if (pool.length < d.ships.length) throw new Error(`G2-493: theme ${theme} has too few pictures`);
-    const pics = rng.sample(pool, d.ships.length);
+    const pics = slot.pictures(ctx, rng.sample(pool, d.ships.length), pool, theme);   // a teacher's ship pictures (maker)
     // the two grids one above the other, the ships beside them: the page fills its body (two grids ≈ 2 × 340 px)
     const cell = d.n === 8 ? 35 : d.n === 6 ? 46 : 56;
     const [mine, theirs] = LABELS[L] || LABELS.en;
-    const fleet = d.ships.map((len, i) => `<div data-lcs-bs-ship="${len}" style="display:flex;align-items:center;gap:6px">` +
+    const fleet = d.ships.map((len, i) => `<div data-lcs-bs-ship="${len}"${slot.attr(ctx, 'pic', i)} style="display:flex;align-items:center;gap:6px">` +
       Array.from({ length: len }, () => `<span style="display:inline-flex;align-items:center;justify-content:center;width:${cell}px;height:${cell}px;border:2px solid ${T.grid};border-radius:6px;background:#FFFFFF"><img class="ws-icon" src="${fileUri(theme, pics[i].noun)}" alt="" style="width:${cell - 8}px;height:${cell - 8}px;object-fit:contain"></span>`).join('') + '</div>');
     return {
       bodyHtml: `<div data-ws-content data-lcs-battleship style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:14px;min-height:0">` +

@@ -26,6 +26,8 @@ const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi
 // the same as English on purpose: in every language (paper names), or in one language where the word is the same
 const SAME_EVERYWHERE = new Set(['a4', 'letter', 'makers.tangram']);   // Tangram is the puzzle's name in every one of the 11 languages
 const SAME_IN = { fr: new Set(['page', 'border_double', 'ink_orange']), es: new Set(['color']), de: new Set(['ink_orange']), sv: new Set(['ink_orange']), da: new Set(['ink_orange']) };
+// Bingo is the game's name in de pt it nl sv da no fi — what those languages' bingo pages call it (es Lotería, fr Loto)
+for (const l of ['de', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']) (SAME_IN[l] = SAME_IN[l] || new Set()).add('makers.bingo');
 
 const flat = (o, pre = '') => Object.entries(o).flatMap(([k, v]) => (v && typeof v === 'object' ? flat(v, pre + k + '.') : [[pre + k, v]]));
 

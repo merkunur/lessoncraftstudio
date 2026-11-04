@@ -10,6 +10,8 @@
 'use strict';
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { freshKeep } = require('../../lib/picture-word-review.js');
+// no word bank: a picture a child names with another word has two right words (lib/picture-name-risk.js, 2026-11-04)
+const { nameRisky } = require('../../lib/picture-name-risk.js');
 const { nameRefused } = require('../../lib/picture-name-refusals.js');   // pictures a child names otherwise (contact sheets 2026-11-02)
 const { strokeWordLane, writingRow } = require('../../primitives/trace-path.js');
 const { rulingBlock } = require('../../templates/components-b2.js');
@@ -33,7 +35,7 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, loc = String(locale || 'en').slice(0, 2);
-    let pool = entriesFor(theme, loc).filter((e) => freshKeep(theme, e, loc) && !nameRefused(theme, e.noun)).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
+    let pool = entriesFor(theme, loc).filter((e) => freshKeep(theme, e, loc) && !nameRefused(theme, e.noun) && !nameRisky(loc, e.vocabKey)).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
       .filter((e) => /^\p{L}+$/u.test(e.word) && [...e.word].length <= d.maxLetters);
     pool = distinctByWord(pool, (e) => e.word);
     if (pool.length < d.n) throw new Error(`G1-491: theme ${theme}/${loc} has ${pool.length} words (< ${d.n})`);

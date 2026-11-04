@@ -20,6 +20,7 @@ const LS = require('../../data/tracing/letter-strokes.js');   // the starter's a
 // Level Set 2026-10-03: new pages name only reviewed pictures and words (shared with Word Tracing)
 const { freshKeep, PAGE_SWAP } = require('../../lib/picture-word-review.js');
 const slot = require('../../lib/slot.js');
+const { nameRisky } = require('../../lib/picture-name-risk.js');
 
 module.exports = {
   id: 'G1-244',
@@ -68,15 +69,19 @@ module.exports = {
     // A page that fills at the limit draws exactly as before: this loop never runs, so its rng is untouched.
     for (let extra = 1; fresh && pool.length < d.cards && extra <= 2; extra++) pool = poolFor(d.maxLetters + extra);
     if (pool.length < d.cards) throw new Error(`G1-244: theme ${theme}/${loc} has ${pool.length} eligible nouns < ${d.cards}`);
-    const picks = slot.pictures(ctx, rng.sample(pool, d.cards), pool, theme);   // a teacher's picture choice (maker), else as drawn
-    // a picture a child names otherwise (or a brand) on the PUBLISHED page: swapped after the draw for the next clean
-    // word, so a published page without one is byte-identical (lib/picture-word-review.js PAGE_SWAP)
-    if (!fresh) for (let i = 0; i < picks.length; i++) {
-      if (!PAGE_SWAP.has(picks[i].vocabKey)) continue;
-      const alt = pool.find((e) => !PAGE_SWAP.has(e.vocabKey) && !picks.includes(e));
-      if (!alt) throw new Error(`G1-244: no clean word to replace "${picks[i].word}" (${loc} ${theme})`);
-      picks[i] = alt;
+    // a picture a child names otherwise: on the PUBLISHED page the reviewed swaps (or a brand, lib/picture-word-review.js
+    // PAGE_SWAP); on a PLAIN-LINES page (no word bank, no first letter, no letter boxes) the native reviews' name risks too (lib/picture-name-risk.js — a jaguar
+    // beside a leopard, a husky-like wolf: the word cannot decide, 2026-11-04). Swapped after the draw for the next clean
+    // word, so a page without one is byte-identical; the teacher's picker offers only the clean pictures.
+    const risky = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || (!d.bank && !d.starter && !d.boxes && nameRisky(loc, e.vocabKey));   // a printed first letter or the letter boxes' count decide too
+    const drawn = rng.sample(pool, d.cards);
+    for (let i = 0; i < drawn.length; i++) {
+      if (!risky(drawn[i])) continue;
+      const alt = pool.find((e) => !risky(e) && !drawn.includes(e));
+      if (!alt) throw new Error(`G1-244: no clean word to replace "${drawn[i].word}" (${loc} ${theme})`);
+      drawn[i] = alt;
     }
+    const picks = slot.pictures(ctx, drawn, pool.filter((e) => !risky(e)), theme);   // a teacher's picture choice (maker), else as drawn
     const sorted = picks.slice().sort((a, b) => compare(a.word, b.word, loc));
     // card order must not equal the bank order nor its reverse
     let order = picks.slice(), guard = 0;

@@ -49,7 +49,9 @@ const loc2 = (locale) => String(locale || 'en').slice(0, 2);
 const curOf = (locale) => { const c = CURRENCIES[loc2(locale)]; if (!c) throw new Error('money-more: no currency for ' + locale); return c; };
 const sum = (a) => a.reduce((s, x) => s + x, 0);
 /** the amount as the child reads it on a coin page: "47 ¢", "35 ct", "4 kr" (smallest unit, the G1 convention) */
-const subAmount = (n, cur) => `${n}${NB}${cur.unit}`;
+// an amount of 100 cents or more is written in the whole unit where the currency has cents (1,05 €, $1.20 — never "105 snt",
+// which no euro-zone or US school writes; 2026-11-04 contact-sheet read); below 100 it stays in cents (45 snt, 95¢)
+const subAmount = (n, cur, locale) => (locale && n >= 100 && fmtOf(locale).cents ? formatMoney(n, locale) : `${n}${NB}${cur.unit}`);
 
 /** fewest coins: every way to make `amount` from `vals` (counts), the minimum count, and how many ways reach it */
 function fewestWays(amount, vals) {
@@ -167,7 +169,7 @@ function makeMoneyMoreType(cfg) {
         if (coins.length < 3) throw new Error(`${id}: the ${cur.code} set has ${coins.length} coins`);
         const words = COIN_WORDS[L];
         if (d.words && (!words || coins.some((v) => !words[v]))) throw new Error(`${id}: no coin words for ${L}`);
-        const label = (v) => (d.words ? words[v] : subAmount(v, cur));
+        const label = (v) => (d.words ? words[v] : subAmount(v, cur, locale));
         const left = shuffle(coins);
         let right = shuffle(coins);
         for (let g = 0; g < 20 && right.some((v, i) => v === left[i]); g++) right = shuffle(coins);   // no straight line across
@@ -254,7 +256,7 @@ function makeMoneyMoreType(cfg) {
           const box = (n) => { const b = answerBox({ w: 54, h: 46, answer: n > 0 ? n : '' }); return d.full ? b.replace('class="ws-answerbox"', 'class="ws-answerbox" data-lcs-optional="1"') : b; };
           const cols = done.set.map((v, i) => `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:8px">${coinSvg(v, cur, 44, 64)}${box(done.counts[i])}</span>`).join('');
           cards.push(`<div class="ws-card-stage" style="justify-content:space-between;align-items:center;gap:14px;padding:4px 18px 4px 44px" data-lcs-amount="${done.amount}" data-lcs-set="${done.set.join(',')}">` +
-            `${BIG(subAmount(done.amount, cur), 34)}<span style="display:inline-flex;align-items:flex-end;gap:14px">${cols}</span></div>`);
+            `${BIG(subAmount(done.amount, cur, locale), 34)}<span style="display:inline-flex;align-items:flex-end;gap:14px">${cols}</span></div>`);
         }
         return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: d.cards })), meta: { items } };
       }
@@ -280,7 +282,7 @@ function makeMoneyMoreType(cfg) {
           if (!done) throw new Error(`${id}: level ${args.difficulty} cannot draw ${d.cards} prices for ${cur.code}`);
           prices.add(done.price);
           items.push(done.price + ':' + done.sol.slice().sort((a, b) => b - a).join('+'));
-          const tag = `<span style="display:inline-flex;align-items:center;justify-content:center;min-width:120px;padding:8px 14px;border:3px solid ${CORAL};border-radius:12px;background:#FFFFFF">${BIG(subAmount(done.price, cur), 32)}</span>`;
+          const tag = `<span style="display:inline-flex;align-items:center;justify-content:center;min-width:120px;padding:8px 14px;border:3px solid ${CORAL};border-radius:12px;background:#FFFFFF">${BIG(subAmount(done.price, cur, locale), 32)}</span>`;
           let right;
           if (d.draw) {
             right = `<span style="width:400px;height:96px;border:2.5px dashed ${GRID};border-radius:14px;display:inline-block"${key ? ' data-lcs-key-sample="1"' : ''}>` +
@@ -417,7 +419,7 @@ function makeMoneyMoreType(cfg) {
           while (used.has(p) && g++ < 50) p = priceFor();
           used.add(p);
           // levels 2-3 write every price the country's way ("R$ 0,80" beside "R$ 1,15", never "80 centavos"); level 1 keeps cents
-          const label = f.cents && d.upTo ? formatMoney(p, locale) : subAmount(p, cur);
+          const label = f.cents && d.upTo ? formatMoney(p, locale) : subAmount(p, cur, locale);
           return `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border:2px dashed ${GRID};border-radius:10px;padding:8px" data-lcs-tag="${p}"${require('../../lib/slot.js').attr(ctx, 'pic', ti)}>` +
             `<img class="ws-icon" src="${fileUri(args.theme, n.noun)}" alt="" style="width:96px;height:96px;object-fit:contain">` +
             // a long label ("95 centavos", "95 senttiä") is set smaller: four tags share the page's width (2026-11-02: pt level 1

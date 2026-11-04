@@ -1025,13 +1025,6 @@
    },
    {
     "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "dados",
-    "answer": "s"
-   },
-   {
-    "theme": "toys",
     "noun": "cards",
     "key": "cards",
     "word": "cartas",
@@ -1077,6 +1070,13 @@
     "noun": "flip-flops",
     "key": "flip-flops",
     "word": "chanclas",
+    "answer": "s"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "pretzels",
+    "key": "pretzels",
+    "word": "pretzels",
     "answer": "s"
    },
    {
@@ -1397,13 +1397,6 @@
     "key": "tooth",
     "word": "dente",
     "answer": "e"
-   },
-   {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "dadi",
-    "answer": "i"
    },
    {
     "theme": "hospital",
@@ -3635,13 +3628,6 @@
     "answer": "ö"
    },
    {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "nopat",
-    "answer": "t"
-   },
-   {
     "theme": "body parts",
     "noun": "face",
     "key": "face",
@@ -3688,6 +3674,13 @@
     "noun": "curtains",
     "key": "curtains",
     "word": "verhot",
+    "answer": "t"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "peas",
+    "key": "peas",
+    "word": "herneet",
     "answer": "t"
    },
    {

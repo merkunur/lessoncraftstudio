@@ -74,7 +74,13 @@ function makeFrameCountingType(cfg) {
         };
       }
 
-      const counts = distinct(rng, d.items, d.min, d.max);
+      let counts = distinct(rng, d.items, d.min, d.max);
+      // Make 10 never shows a full frame: "10 + [] = 10" asks for nothing (a 0 answer — 2026-11-04 contact-sheet read);
+      // a drawn 10 becomes an unused number 1-9 (pages that drew no 10 are unchanged)
+      if (mode === 'make-10' && counts.includes(10)) {
+        const free = []; for (let v = Math.max(1, d.min); v <= 9; v++) if (!counts.includes(v)) free.push(v);
+        counts = counts.map((c) => (c === 10 ? rng.pick(free) : c));
+      }
       const nouns = this.themeAxis.applicable ? slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.items), labelSafeNouns(theme), theme) : null;
       for (let i = 0; i < d.items; i++) {
         const n = counts[i];
@@ -153,6 +159,7 @@ function makeFrameCountingType(cfg) {
             const filled = card.querySelectorAll('[data-lcs-counter]').length;
             const box = parseInt(card.querySelector('[data-lcs-answer]').dataset.lcsAnswer, 10);
             if (filled + box !== 10) fails.push(`card ${i + 1}: ${filled}+${box} != 10`);
+            if (!(box >= 1)) fails.push(`card ${i + 1}: nothing to add (a full frame, answer ${box})`);
           } else if (mode === 'subitize-dots') {
             const pips = card.querySelectorAll('[data-lcs-pip]').length;
             if (pips !== n) fails.push(`card ${i + 1}: ${pips} pips != ${n}`);

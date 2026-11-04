@@ -138,7 +138,8 @@
   "no": [
    "Lyslenker",
    "Børste",
-   "Skredder"
+   "Skredder",
+   "Terninger"
   ],
   "sv": [
    "Ljusslingor",
@@ -165,14 +166,16 @@
    "Plesiosauruser",
    "Stegosauruser",
    "Styracosauruser",
-   "Therizinosauruser"
+   "Therizinosauruser",
+   "Terninger"
   ],
   "fr": [
    "Brosse",
    "Professeur",
    "Caissier",
    "Tailleur",
-   "Ambulancier"
+   "Ambulancier",
+   "Dés"
   ],
   "es": [
    "Cepillo",
@@ -181,7 +184,8 @@
    "Cajero",
    "Sastre",
    "Veterinario",
-   "Paramédico"
+   "Paramédico",
+   "Dados"
   ],
   "pt": [
    "Escova",
@@ -191,7 +195,8 @@
    "Veterinário",
    "Paramédico",
    "Flor-de-neve",
-   "Flores-de-neve"
+   "Flores-de-neve",
+   "Dados"
   ],
   "it": [
    "Spazzola",
@@ -200,7 +205,8 @@
    "Cassiere",
    "Sarto",
    "Veterinario",
-   "Paramedico"
+   "Paramedico",
+   "Dadi"
   ],
   "nl": [
    "Borstel",
@@ -210,7 +216,8 @@
    "Kleermaker"
   ],
   "fi": [
-   "Harja"
+   "Harja",
+   "Nopat"
   ]
  },
  "scopedOldWords": [
@@ -739,6 +746,27 @@
    "locales": "all 11",
    "copies": "the published decks + every Level Set copy; a level-3 copy of an animal whose swim fact is now null (sheep, cow, cat, horse, panda …) is REFUSED — unpublish that deck, do not regenerate it; G2-343 es + fr «zoo animals» is now REFUSED at every level (their zoo banks were told apart only by swim facts) — unpublish those decks; turtle, tortoise and hippopotamus swim is now not taught either (review: one word in de/it/fi; hippos walk the river bed)",
    "why": "Animal fact files taught false or unknowable facts: «Can it swim? no» for a sheep, a cow, a goat, a cat (they can); «I can swim» as the ONLY clue telling a panda from a sheep on Who Am I?; «I cannot fly» for a hen (hens fly a little). Swim/fly are now kept only where a teacher can confirm them at once (data/b3/animal-facts.json); a face needs a fact only where it prints it; an unknown fact rules nothing out on a riddle card. fr compare: a long value («plantes, viande») now wraps inside its row instead of running off the card."
+  },
+  {
+   "type": "G1-106",
+   "level": "2 and 3",
+   "locales": "all 11",
+   "copies": "the published deck + every Level Set copy that drew a 10 (sampled: 12 of 18 pages)",
+   "why": "Make 10!: a full ten-frame printed «10 + [] = 10» — nothing to add, a 0 answer. A drawn 10 is now an unused number 1-9; the verify refuses a 0 answer."
+  },
+  {
+   "type": "K-522",
+   "level": "all",
+   "locales": "all 11",
+   "copies": "(new maker template — no live decks)",
+   "why": "Match the Shadow to Its Name: the boat shadow read as a down arrow (now left out, like tree/arrow); level 3 turns the shadows instead of adding a sixth; the key number no longer covers a shadow."
+  },
+  {
+   "type": "G1-244 (level 3) · G1-260 (every level)",
+   "level": "G1-244: 3 · G1-260: all",
+   "locales": "all 11",
+   "copies": "G1-260: the published deck + every copy; G1-244: every level-3 Level Set copy (measured: 90 of 93 change)",
+   "why": "Write the Word on plain lines (no word bank, no first letter, no letter boxes): the page drew pictures a child names with another word — a jaguar beside a leopard, a husky-like wolf, a vulture a child calls an eagle — so the child cannot know which word to write. Those pictures (lib/picture-name-risk.js, the native reviews) are swapped after the draw for the next clean word; pages with a bank, a first letter or letter boxes are unchanged."
   }
  ],
  "layoutRepublish": [
@@ -832,5 +860,5 @@
  ],
  "_note3": "Round 4b (2026-11-03 evening): vocabGenderFixes — scan live decks in that locale for the word with its old article and republish the hits (K-288 family, K-324, noun pages, Find and Count / Prepositions app decks are the OPERATOR's to regenerate); copy mini tools/pictures/dinosaurs.json to /var/www/lcs-media/mini-tools/pictures/.",
  "_note4": "Round 4b: the occupation pictures that show a WOMAN now carry the feminine word (teacher, librarian, athlete, cashier, florist, tailor, veterinarian, paramedic; native review) — vocabOldWords gains the old masculine words; es/fr/it/pt atleta / bibliothécaire / vétérinaire / fleuriste / fiorista keep the word, gender m→f (article pages + gendered sentences). mini tools/pictures classroom.json, dinosaurs.json, occupations.json to copy to the server.",
- "_note5": "Round 5 (2026-11-04, native + pedagogy review): da dinosaur plurals -user/-use → -usser (Retskrivning: kaktusser, globusser); sv tailor picture (a woman sewing) Skräddare → Sömmerska; pt snowdrop Flor-de-neve → Campainha-branca; sv/no Deinonychus / no Parasaurolophus zero plural → -usar/-user. The deinonychus, parasaurolophus and snowdrop PICTURES show another animal/flower: refused (lib/picture-refusals.js) and excluded from b2 pages (B2_EXCLUDE) in every locale — every live deck that shows one of them with its word is regenerated. Norwegian «hver tomme rute» / «hvert tomme sted» / «hvert nye ord» / «hvert riktige faktum» → indefinite adjective (tom / tomt / nytt / riktig) in K-330, K-517, G2-333, G2-340, G2-376, G3-407, the days-and-months gaps screen and the find-the-differences tap-the-missing screen (no). K-517 de L2 «jede Zahl» → «jede Ziffer», fr «qui va à cette place» → «qui manque», da «foroven» → «øverst på hvert tal». Landings untouched (operator rule)."
+ "_note5": "Round 5 (2026-11-04, native + pedagogy review): da dinosaur plurals -user/-use → -usser (Retskrivning: kaktusser, globusser); sv tailor picture (a woman sewing) Skräddare → Sömmerska; pt snowdrop Flor-de-neve → Campainha-branca; sv/no Deinonychus / no Parasaurolophus zero plural → -usar/-user. The deinonychus, parasaurolophus and snowdrop PICTURES show another animal/flower: refused (lib/picture-refusals.js) and excluded from b2 pages (B2_EXCLUDE) in every locale — every live deck that shows one of them with its word is regenerated. Norwegian «hver tomme rute» / «hvert tomme sted» / «hvert nye ord» / «hvert riktige faktum» → indefinite adjective (tom / tomt / nytt / riktig) in K-330, K-517, G2-333, G2-340, G2-376, G3-407, the days-and-months gaps screen and the find-the-differences tap-the-missing screen (no). K-517 de L2 «jede Zahl» → «jede Ziffer», fr «qui va à cette place» → «qui manque», da «foroven» → «øverst på hvert tal». Landings untouched (operator rule). The dice picture is ONE die: its singular was the plural in fr/es/pt/it/da/no/fi (Dés, Dados, Dadi, Terninger, Nopat) → Dé, Dado, Terning, Noppa (the old words stay right as plurals: a hit on a plural is a harmless regeneration). mini tools/pictures/toys.json rebuilt; the ending-sounds bank rebuilt (es dados → s left it)."
 }

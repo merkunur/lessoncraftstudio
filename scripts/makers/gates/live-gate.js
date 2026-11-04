@@ -34,7 +34,11 @@ const COPIES = Number(arg('copies', '2'));
   let poisoned = false;
   for (const maker of MAKERS) {
     for (const lang of LOCALES) {
-      const p = await browser.newPage();
+      // a page that stalls (the maker never mounts in 60 s, an evaluate that throws) is a named FAIL and the run goes on —
+      // before 2026-11-04 the throw left the loop unnamed and the open browser kept the process alive for good
+      let p;
+      try {
+      p = await browser.newPage();
       const errs = [];
       p.on('pageerror', (e) => errs.push(e.message));
       await p.goto(`http://localhost:${port}/makers/app/?maker=${maker}&lang=${lang}`, { waitUntil: 'networkidle0' });
@@ -84,6 +88,11 @@ const COPIES = Number(arg('copies', '2'));
       if (errs.length) { fails++; console.log(`FAIL ${maker} ${lang} page errors: ${errs.slice(0, 2).join(' | ')}`); }
       await p.close();
       process.stdout.write(`${maker} ${lang}: ${res.length} pages\n`);
+      } catch (e) {
+        fails++;
+        console.log(`FAIL ${maker} ${lang}: ${String((e && e.message) || e).split('\n')[0]}`);
+        if (p) await p.close().catch(() => {});
+      }
     }
   }
   times.sort((a, b) => a - b);
@@ -91,4 +100,4 @@ const COPIES = Number(arg('copies', '2'));
   console.log(`live gate: ${pages} pages, ${fails} failing, ${retried} needed a retry; ms per page p50 ${q(0.5)} p95 ${q(0.95)} max ${q(1)}`);
   await browser.close(); srv.close();
   if (fails) process.exitCode = 1;
-})().catch((e) => { console.error(e); process.exitCode = 1; });
+})().catch((e) => { console.error(e); process.exit(1); });

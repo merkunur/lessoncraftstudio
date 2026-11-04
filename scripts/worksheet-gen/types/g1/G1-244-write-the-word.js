@@ -70,10 +70,10 @@ module.exports = {
     for (let extra = 1; fresh && pool.length < d.cards && extra <= 2; extra++) pool = poolFor(d.maxLetters + extra);
     if (pool.length < d.cards) throw new Error(`G1-244: theme ${theme}/${loc} has ${pool.length} eligible nouns < ${d.cards}`);
     // a picture a child names otherwise: on the PUBLISHED page the reviewed swaps (or a brand, lib/picture-word-review.js
-    // PAGE_SWAP); on a PLAIN-LINES page (no word bank, no first letter, no letter boxes) the native reviews' name risks too (lib/picture-name-risk.js — a jaguar
+    // PAGE_SWAP); on a page with no word bank and no printed first letter (plain lines or letter boxes) the native reviews' name risks too (lib/picture-name-risk.js — a jaguar
     // beside a leopard, a husky-like wolf: the word cannot decide, 2026-11-04). Swapped after the draw for the next clean
     // word, so a page without one is byte-identical; the teacher's picker offers only the clean pictures.
-    const risky = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || (!d.bank && !d.starter && !d.boxes && nameRisky(loc, e.vocabKey));   // a printed first letter or the letter boxes' count decide too
+    const risky = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || (!d.bank && !d.starter && nameRisky(loc, e.vocabKey));   // a printed first letter decides too; the letter boxes do not (Wolf/Hund, Geier/Adler, Jaguaari/Leopardi have the same length — native review 2026-11-04)
     const drawn = rng.sample(pool, d.cards);
     for (let i = 0; i < drawn.length; i++) {
       if (!risky(drawn[i])) continue;

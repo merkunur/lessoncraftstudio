@@ -591,6 +591,12 @@
      "noun": "lamp",
      "key": "lamp",
      "word": "Lampe"
+    },
+    {
+     "theme": "tools",
+     "noun": "ladder",
+     "key": "ladder",
+     "word": "Leiter"
     }
    ],
    "M": [
@@ -850,7 +856,7 @@
      "theme": "toys",
      "noun": "dice",
      "key": "dice",
-     "word": "dés"
+     "word": "dé"
     },
     {
      "theme": "body parts",
@@ -1195,6 +1201,12 @@
    ],
    "D": [
     {
+     "theme": "toys",
+     "noun": "dice",
+     "key": "dice",
+     "word": "dado"
+    },
+    {
      "theme": "body parts",
      "noun": "finger",
      "key": "finger",
@@ -1205,12 +1217,6 @@
      "noun": "donut",
      "key": "donut",
      "word": "dona"
-    },
-    {
-     "theme": "toys",
-     "noun": "dice",
-     "key": "dice",
-     "word": "dados"
     }
    ],
    "E": [
@@ -1581,16 +1587,16 @@
    ],
    "D": [
     {
+     "theme": "toys",
+     "noun": "dice",
+     "key": "dice",
+     "word": "dado"
+    },
+    {
      "theme": "body parts",
      "noun": "finger",
      "key": "finger",
      "word": "dedo"
-    },
-    {
-     "theme": "toys",
-     "noun": "dice",
-     "key": "dice",
-     "word": "dados"
     },
     {
      "theme": "body parts",
@@ -1827,6 +1833,12 @@
      "noun": "bear",
      "key": "bear",
      "word": "urso"
+    },
+    {
+     "theme": "animals",
+     "noun": "vulture",
+     "key": "vulture",
+     "word": "urubu"
     }
    ],
    "V": [
@@ -1930,7 +1942,7 @@
      "theme": "toys",
      "noun": "dice",
      "key": "dice",
-     "word": "dadi"
+     "word": "dado"
     },
     {
      "theme": "body parts",
@@ -2012,6 +2024,12 @@
      "noun": "iguana",
      "key": "iguana",
      "word": "iguana"
+    },
+    {
+     "theme": "animals",
+     "noun": "hippopotamus",
+     "key": "hippopotamus",
+     "word": "ippopotamo"
     }
    ],
    "L": [
@@ -4032,16 +4050,16 @@
      "word": "nenä"
     },
     {
+     "theme": "tools",
+     "noun": "nail",
+     "key": "metal-nail",
+     "word": "naula"
+    },
+    {
      "theme": "toys",
      "noun": "dice",
      "key": "dice",
-     "word": "nopat"
-    },
-    {
-     "theme": "animals",
-     "noun": "elephant",
-     "key": "elephant",
-     "word": "norsu"
+     "word": "noppa"
     }
    ],
    "O": [

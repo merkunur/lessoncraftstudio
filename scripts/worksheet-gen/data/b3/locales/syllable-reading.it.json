@@ -476,17 +476,6 @@
           ]
         },
         {
-          "key": "snowdrop",
-          "word": "bucaneve",
-          "unit": "bu",
-          "split": [
-            "bu",
-            "ca",
-            "ne",
-            "ve"
-          ]
-        },
-        {
           "key": "stretcher",
           "word": "barella",
           "unit": "ba",
@@ -1780,7 +1769,9 @@
         "stel",
         "sti"
       ],
-      "readOnly": [],
+      "readOnly": [
+        "spi"
+      ],
       "words": [
         {
           "key": "boots",
@@ -2370,6 +2361,15 @@
       ]
     },
     {
+      "key": "brush",
+      "word": "pennello",
+      "split": [
+        "pen",
+        "nel",
+        "lo"
+      ]
+    },
+    {
       "key": "bucket",
       "word": "secchiello",
       "split": [
@@ -2486,6 +2486,15 @@
       ]
     },
     {
+      "key": "car",
+      "word": "macchina",
+      "split": [
+        "mac",
+        "chi",
+        "na"
+      ]
+    },
+    {
       "key": "cards",
       "word": "carte",
       "split": [
@@ -2522,11 +2531,11 @@
     },
     {
       "key": "cashier",
-      "word": "cassiere",
+      "word": "cassiera",
       "split": [
         "cas",
         "sie",
-        "re"
+        "ra"
       ]
     },
     {
@@ -3673,6 +3682,14 @@
       ]
     },
     {
+      "key": "metal-nail",
+      "word": "chiodo",
+      "split": [
+        "chio",
+        "do"
+      ]
+    },
+    {
       "key": "milk",
       "word": "latte",
       "split": [
@@ -4502,10 +4519,10 @@
     },
     {
       "key": "tailor",
-      "word": "sarto",
+      "word": "sarta",
       "split": [
         "sar",
-        "to"
+        "ta"
       ]
     },
     {

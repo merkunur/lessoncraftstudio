@@ -133,18 +133,22 @@
    "Florist",
    "Schneider",
    "Tierarzt",
-   "Rettungssanitäter"
+   "Rettungssanitäter",
+   "Süßigkeit",
+   "Süßigkeiten"
   ],
   "no": [
    "Lyslenker",
    "Børste",
    "Skredder",
-   "Terninger"
+   "Terninger",
+   "Godteri"
   ],
   "sv": [
    "Ljusslingor",
    "Borste",
-   "Skräddare"
+   "Skräddare",
+   "Godis"
   ],
   "da": [
    "Lyskæder",
@@ -167,7 +171,8 @@
    "Stegosauruser",
    "Styracosauruser",
    "Therizinosauruser",
-   "Terninger"
+   "Terninger",
+   "Slik"
   ],
   "fr": [
    "Brosse",
@@ -196,7 +201,9 @@
    "Paramédico",
    "Flor-de-neve",
    "Flores-de-neve",
-   "Dados"
+   "Dados",
+   "Abutre",
+   "Abutres"
   ],
   "it": [
    "Spazzola",
@@ -213,7 +220,8 @@
    "Leraar",
    "Atleet",
    "Kassier",
-   "Kleermaker"
+   "Kleermaker",
+   "Snoep"
   ],
   "fi": [
    "Harja",
@@ -762,11 +770,11 @@
    "why": "Match the Shadow to Its Name: the boat shadow read as a down arrow (now left out, like tree/arrow); level 3 turns the shadows instead of adding a sixth; the key number no longer covers a shadow."
   },
   {
-   "type": "G1-244 (level 3) · G1-260 (every level)",
-   "level": "G1-244: 3 · G1-260: all",
+   "type": "G1-244 (levels 2 and 3) · G1-260 (every level)",
+   "level": "G1-244: 2-3 · G1-260: all",
    "locales": "all 11",
-   "copies": "G1-260: the published deck + every copy; G1-244: every level-3 Level Set copy (measured: 90 of 93 change)",
-   "why": "Write the Word on plain lines (no word bank, no first letter, no letter boxes): the page drew pictures a child names with another word — a jaguar beside a leopard, a husky-like wolf, a vulture a child calls an eagle — so the child cannot know which word to write. Those pictures (lib/picture-name-risk.js, the native reviews) are swapped after the draw for the next clean word; pages with a bank, a first letter or letter boxes are unchanged."
+   "copies": "G1-244: the published deck (level 2) + every level 2-3 Level Set copy (measured: 123 of 127 / 90 of 93 change); G1-260: the published deck + every copy",
+   "why": "Write the Word on plain lines (no word bank, no first letter, no letter boxes): the page drew pictures a child names with another word — a jaguar beside a leopard, a husky-like wolf, a vulture a child calls an eagle — so the child cannot know which word to write. Those pictures (lib/picture-name-risk.js, the native reviews) are swapped after the draw for the next clean word; pages with a word bank or a printed first letter are unchanged; letter boxes do not decide (Wolf/Hund, Geier/Adler, Jaguaari/Leopardi have the same length — native review)."
   }
  ],
  "layoutRepublish": [
@@ -860,5 +868,6 @@
  ],
  "_note3": "Round 4b (2026-11-03 evening): vocabGenderFixes — scan live decks in that locale for the word with its old article and republish the hits (K-288 family, K-324, noun pages, Find and Count / Prepositions app decks are the OPERATOR's to regenerate); copy mini tools/pictures/dinosaurs.json to /var/www/lcs-media/mini-tools/pictures/.",
  "_note4": "Round 4b: the occupation pictures that show a WOMAN now carry the feminine word (teacher, librarian, athlete, cashier, florist, tailor, veterinarian, paramedic; native review) — vocabOldWords gains the old masculine words; es/fr/it/pt atleta / bibliothécaire / vétérinaire / fleuriste / fiorista keep the word, gender m→f (article pages + gendered sentences). mini tools/pictures classroom.json, dinosaurs.json, occupations.json to copy to the server.",
- "_note5": "Round 5 (2026-11-04, native + pedagogy review): da dinosaur plurals -user/-use → -usser (Retskrivning: kaktusser, globusser); sv tailor picture (a woman sewing) Skräddare → Sömmerska; pt snowdrop Flor-de-neve → Campainha-branca; sv/no Deinonychus / no Parasaurolophus zero plural → -usar/-user. The deinonychus, parasaurolophus and snowdrop PICTURES show another animal/flower: refused (lib/picture-refusals.js) and excluded from b2 pages (B2_EXCLUDE) in every locale — every live deck that shows one of them with its word is regenerated. Norwegian «hver tomme rute» / «hvert tomme sted» / «hvert nye ord» / «hvert riktige faktum» → indefinite adjective (tom / tomt / nytt / riktig) in K-330, K-517, G2-333, G2-340, G2-376, G3-407, the days-and-months gaps screen and the find-the-differences tap-the-missing screen (no). K-517 de L2 «jede Zahl» → «jede Ziffer», fr «qui va à cette place» → «qui manque», da «foroven» → «øverst på hvert tal». Landings untouched (operator rule). The dice picture is ONE die: its singular was the plural in fr/es/pt/it/da/no/fi (Dés, Dados, Dadi, Terninger, Nopat) → Dé, Dado, Terning, Noppa (the old words stay right as plurals: a hit on a plural is a harmless regeneration). mini tools/pictures/toys.json rebuilt; the ending-sounds bank rebuilt (es dados → s left it)."
+ "_note5": "Round 5 (2026-11-04, native + pedagogy review): da dinosaur plurals -user/-use → -usser (Retskrivning: kaktusser, globusser); sv tailor picture (a woman sewing) Skräddare → Sömmerska; pt snowdrop Flor-de-neve → Campainha-branca; sv/no Deinonychus / no Parasaurolophus zero plural → -usar/-user. The deinonychus, parasaurolophus and snowdrop PICTURES show another animal/flower: refused (lib/picture-refusals.js) and excluded from b2 pages (B2_EXCLUDE) in every locale — every live deck that shows one of them with its word is regenerated. Norwegian «hver tomme rute» / «hvert tomme sted» / «hvert nye ord» / «hvert riktige faktum» → indefinite adjective (tom / tomt / nytt / riktig) in K-330, K-517, G2-333, G2-340, G2-376, G3-407, the days-and-months gaps screen and the find-the-differences tap-the-missing screen (no). K-517 de L2 «jede Zahl» → «jede Ziffer», fr «qui va à cette place» → «qui manque», da «foroven» → «øverst på hvert tal». Landings untouched (operator rule). The dice picture is ONE die: its singular was the plural in fr/es/pt/it/da/no/fi (Dés, Dados, Dadi, Terninger, Nopat) → Dé, Dado, Terning, Noppa (the old words stay right as plurals: a hit on a plural is a harmless regeneration). mini tools/pictures/toys.json rebuilt; the ending-sounds bank rebuilt (es dados → s left it).",
+ "_note6": "Round 6b (2026-11-04): pt-BR vulture Abutre → Urubu (the word a Brazilian child says; native review). The rounds 5-6 vocabulary words (one die; the occupation pictures that show a woman; Urubu) reached every bank that prints them: the syllable safety pipeline re-run (phonics rows of the feminine words and the dice updated; only those keys moved), letter pictures, syllable count / sort, beginning / ending sounds, spelling rivals (rebuilt from the same 50k lists), sound boxes (rows in each bank's own convention), syllable reading, Letter of the Week (+ Level Set), spelling rules, compound words, the maze sound pools, instruction phrases (fi noppa, pt urubu) and word classes (es/pt \"dado\" excluded like \"dados\": also the participle of dar). A row whose new word the pipeline quarantined, or whose role the new word cannot fill (dados under S, dadi under I), left its bank. Live pages that print an old word are found by vocabOldWords (pt gains Abutre / Abutres); no other live page is wrong: the syllable-reading multi pools now equal their documented derivation (new cards on new pages only) and German complex carpets list their never-pictured cells as read-only (the third-of-the-carpet rule now refuses de kr / bl on new pages). Round-6b review: the candy pictures show ONE wrapped sweet, and the old words were mass nouns a counting page cannot use (\"vijf snoep\") — de Bonbon, nl Snoepje, sv Karamell, da Bolsje, no Karamell (vocabOldWords + Süßigkeit / Süßigkeiten, Snoep, Godis, Slik, Godteri; scoped to each language). Also: fr letter C keeps cœur (clé + clou were two /kl/ blends), pt luminária left the sound boxes (contested count; the table-lamp pictures are an abajur), it sound boxes maestra for soccorritrice."
 }

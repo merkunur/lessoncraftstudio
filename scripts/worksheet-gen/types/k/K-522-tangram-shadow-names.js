@@ -7,8 +7,10 @@
  * is a parallelogram too — two right names). The tree, the arrow and the boat are left out: their shadows read as an
  * arrow (the boat's sail and keel melt into one down-pointing arrow — 2026-11-04 contact-sheet read). The names are the
  * image vocabulary's (data/b4/tangram-names.json). Each shadow is as big as its box allows, clear of the key's number.
- * Levels: 1 cat, rabbit, square, triangle · 2 those and rectangle · 3 the same five, each TURNED a quarter or half
- * turn (a figure is still itself when turned — the tangram step up; a square stays a square at those turns).
+ * Levels: 1 cat, rabbit, square, triangle · 2 those and rectangle · 3 the same five, the SHAPES turned (K.G.A.2: a shape
+ * keeps its name in any orientation — the square turned 45 degrees, "a diamond is still a square"; the rectangle standing
+ * tall; the triangle point-down or on its side) and the animals facing the other way (an upside-down cat reads as a "7",
+ * a sideways rabbit as a boot — native + pedagogy review 2026-11-04).
  */
 'use strict';
 const TG = require('../../primitives/tangram.js');
@@ -22,7 +24,8 @@ const D = {
   2: { n: 5, pool: ['cat', 'rabbit', 'square', 'triangle', 'rectangle'] },
   3: { n: 5, pool: ['cat', 'rabbit', 'square', 'triangle', 'rectangle'], turn: true },
 };
-const TURNS = ['rot90', 'rot180', 'rot270'];
+// level 3, per figure: the lattice turns tangram.js re-derives, or 'rot45' (the square drawn upright and turned on the page)
+const TURNS = { cat: ['mirX'], rabbit: ['mirX'], square: ['rot45'], rectangle: ['rot90'], triangle: ['rot90', 'rot180', 'rot270'] };
 const MAX_W = 148;   // the shadow box is 240 wide, the shadow centred; the key's number sits in its top-right corner (6 + 32 px) — 148 + pad keeps clear of it
 
 module.exports = {
@@ -41,20 +44,25 @@ module.exports = {
     const extra = (ctx && ctx.chromeExtra) || 0;
     const figs = rng.sample(d.pool, d.n);
     const itemH = Math.floor((716 - extra - (d.n - 1) * 12) / d.n), box = itemH - 8;
-    // level 3: each shadow turned — a turn the box holds at a size at least 3/4 of the figure standing
+    // level 3: each figure's own turn (TURNS) — one the box holds at a size at least 3/4 of the figure standing
     const fitS = (tans) => { const q = TG.placeTans(tans, 1, { pad: 0 }); return Math.floor(Math.min((box - 10) / q.h, MAX_W / q.w)); };
     const turnOf = figs.map((k) => {
       if (!d.turn) return null;
+      if (TURNS[k][0] === 'rot45') return 'rot45';
       const up = fitS(FIG.figure(k).tans);
-      const ok = TURNS.filter((t) => fitS(TG.transformTiling(FIG.figure(k).tans, t)) >= 0.75 * up);
+      const ok = TURNS[k].filter((t) => fitS(TG.transformTiling(FIG.figure(k).tans, t)) >= 0.75 * up);
       if (!ok.length) throw new Error(`K-522: no turn of ${k} fits its box`);
       return rng.pick(ok);
     });
     const words = rng.shuffle(figs.map((k, i) => ({ k, i })));
     const left = figs.map((k, i) => {
-      // each shadow as big as its box allows (naming needs no common scale)
-      const tans = turnOf[i] ? TG.transformTiling(FIG.figure(k).tans, turnOf[i]) : FIG.figure(k).tans;
-      const sil = TG.tangramFigure({ figure: k, tans, S: fitS(tans), mode: 'silhouette', stroke: 3, pad: 1.5, ...(turnOf[i] ? { transform: turnOf[i] } : {}) });
+      // each shadow as big as its box allows (naming needs no common scale); the 45-degree square is drawn upright at
+      // 1/√2 of that size and turned, so its diagonal fits where the upright side would
+      const t = turnOf[i], lattice = t && t !== 'rot45';
+      const tans = lattice ? TG.transformTiling(FIG.figure(k).tans, t) : FIG.figure(k).tans;
+      const S = t === 'rot45' ? Math.floor(fitS(tans) / Math.SQRT2) : fitS(tans);
+      const sil0 = TG.tangramFigure({ figure: k, tans, S, mode: 'silhouette', stroke: 3, pad: 1.5, ...(t ? { transform: t } : {}) });
+      const sil = t === 'rot45' ? { html: `<span data-lcs-turn="45" style="display:inline-flex;transform:rotate(45deg)">${sil0.html}</span>` } : sil0;
       return `<div class="ws-match-item" data-lcs-shadow-of="${k}" style="width:240px;height:${itemH}px;position:relative"` +
         (key ? ` data-lcs-pair="${i + 1}"` : scr ? ` data-lcs-key-badge="t${i + 1}"` : '') + `>` + (key ? keyNumber(i + 1) : '') +
         `${sil.html}<span class="ws-match-dot ws-match-dot--right"></span></div>`;

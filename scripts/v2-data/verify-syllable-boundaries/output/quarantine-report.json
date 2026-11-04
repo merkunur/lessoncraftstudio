@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T08:26:16.474Z",
-  "total_quarantined": 3541,
+  "generated_at": "2026-11-04T03:14:12.830Z",
+  "total_quarantined": 3545,
   "summary": {
     "en": {
       "approved": 912,
@@ -11,36 +11,36 @@
       "quarantined": 233
     },
     "fr": {
-      "approved": 812,
-      "quarantined": 453
+      "approved": 811,
+      "quarantined": 454
     },
     "it": {
-      "approved": 981,
-      "quarantined": 284
+      "approved": 980,
+      "quarantined": 285
     },
     "es": {
-      "approved": 942,
-      "quarantined": 323
+      "approved": 943,
+      "quarantined": 322
     },
     "pt": {
       "approved": 893,
       "quarantined": 372
     },
     "nl": {
-      "approved": 1064,
-      "quarantined": 201
+      "approved": 1063,
+      "quarantined": 202
     },
     "sv": {
       "approved": 995,
       "quarantined": 270
     },
     "da": {
-      "approved": 792,
-      "quarantined": 473
+      "approved": 791,
+      "quarantined": 474
     },
     "no": {
-      "approved": 829,
-      "quarantined": 436
+      "approved": 828,
+      "quarantined": 437
     },
     "fi": {
       "approved": 1122,
@@ -15346,14 +15346,15 @@
     {
       "locale": "de",
       "key": "librarian",
-      "word": "Bibliothekar",
+      "word": "Bibliothekarin",
       "verdict": "QUARANTINE",
       "reason": "split_source_disagreement",
       "top_split": [
         "bi",
         "blio",
         "the",
-        "kar"
+        "ka",
+        "rin"
       ],
       "sources_agreed": [
         "TeX"
@@ -15366,32 +15367,35 @@
             "bli",
             "o",
             "the",
-            "kar"
+            "ka",
+            "rin"
           ]
         }
       ],
       "vocab_phonics_syl": 4,
-      "wiktionary_syl": 5,
+      "wiktionary_syl": 6,
       "nst_syl_count": null,
       "source_outputs": {
         "T": [
           "bi",
           "blio",
           "the",
-          "kar"
+          "ka",
+          "rin"
         ],
         "R": [
           "bi",
           "bli",
           "o",
           "the",
-          "kar"
+          "ka",
+          "rin"
         ],
         "N": null,
-        "W": 5,
+        "W": 6,
         "S": 4
       },
-      "wiktionary_ipa": "/biblioteˌkaːɐ̯/"
+      "wiktionary_ipa": "/ˌbiblioteˈkaːʁɪn/"
     },
     {
       "locale": "de",
@@ -19974,12 +19978,13 @@
     {
       "locale": "de",
       "key": "veterinarian",
-      "word": "Tierarzt",
+      "word": "Tierärztin",
       "verdict": "QUARANTINE",
       "reason": "split_source_disagreement",
       "top_split": [
         "tier",
-        "arzt"
+        "ärz",
+        "tin"
       ],
       "sources_agreed": [
         "TeX"
@@ -19989,7 +19994,8 @@
           "label": "rule",
           "split": [
             "tie",
-            "rarzt"
+            "rärz",
+            "tin"
           ]
         }
       ],
@@ -19999,11 +20005,13 @@
       "source_outputs": {
         "T": [
           "tier",
-          "arzt"
+          "ärz",
+          "tin"
         ],
         "R": [
           "tie",
-          "rarzt"
+          "rärz",
+          "tin"
         ],
         "N": null,
         "W": null,
@@ -22514,29 +22522,31 @@
     {
       "locale": "fr",
       "key": "cashier",
-      "word": "caissier",
+      "word": "caissière",
       "verdict": "QUARANTINE",
       "reason": "rule_vs_vocab_phonics_count_disagreement",
       "top_split": [
         "cais",
         "si",
-        "er"
+        "è",
+        "re"
       ],
-      "top_split_count": 3,
+      "top_split_count": 4,
       "vocab_phonics_syl": 2,
       "tex_split": [
         "cais",
-        "sier"
+        "sière"
       ],
       "source_outputs": {
         "T": [
           "cais",
-          "sier"
+          "sière"
         ],
         "R": [
           "cais",
           "si",
-          "er"
+          "è",
+          "re"
         ],
         "N": null,
         "W": null,
@@ -30058,46 +30068,6 @@
     },
     {
       "locale": "fr",
-      "key": "paramedic",
-      "word": "ambulancier",
-      "verdict": "QUARANTINE",
-      "reason": "rule_vs_vocab_phonics_count_disagreement",
-      "top_split": [
-        "am",
-        "bu",
-        "lan",
-        "ci",
-        "er"
-      ],
-      "top_split_count": 5,
-      "vocab_phonics_syl": 4,
-      "tex_split": [
-        "am",
-        "bu",
-        "lan",
-        "cier"
-      ],
-      "source_outputs": {
-        "T": [
-          "am",
-          "bu",
-          "lan",
-          "cier"
-        ],
-        "R": [
-          "am",
-          "bu",
-          "lan",
-          "ci",
-          "er"
-        ],
-        "N": null,
-        "W": null,
-        "S": 4
-      }
-    },
-    {
-      "locale": "fr",
       "key": "park-ranger",
       "word": "garde forestier",
       "verdict": "QUARANTINE",
@@ -34504,6 +34474,44 @@
     },
     {
       "locale": "fr",
+      "key": "tailor",
+      "word": "couturière",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "cou",
+        "tu",
+        "ri",
+        "è",
+        "re"
+      ],
+      "top_split_count": 5,
+      "vocab_phonics_syl": 2,
+      "tex_split": [
+        "cou",
+        "tu",
+        "rière"
+      ],
+      "source_outputs": {
+        "T": [
+          "cou",
+          "tu",
+          "rière"
+        ],
+        "R": [
+          "cou",
+          "tu",
+          "ri",
+          "è",
+          "re"
+        ],
+        "N": null,
+        "W": null,
+        "S": 2
+      }
+    },
+    {
+      "locale": "fr",
       "key": "tanker-truck",
       "word": "camion-citerne",
       "verdict": "QUARANTINE",
@@ -34610,6 +34618,40 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "fr",
+      "key": "teacher",
+      "word": "maîtresse",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "ma",
+        "î",
+        "tres",
+        "se"
+      ],
+      "top_split_count": 4,
+      "vocab_phonics_syl": 3,
+      "tex_split": [
+        "maî",
+        "tresse"
+      ],
+      "source_outputs": {
+        "T": [
+          "maî",
+          "tresse"
+        ],
+        "R": [
+          "ma",
+          "î",
+          "tres",
+          "se"
+        ],
+        "N": null,
+        "W": null,
+        "S": 3
       }
     },
     {
@@ -46481,6 +46523,38 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "it",
+      "key": "teacher",
+      "word": "maestra",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "ma",
+        "es",
+        "tra"
+      ],
+      "top_split_count": 3,
+      "vocab_phonics_syl": 4,
+      "tex_split": [
+        "mae",
+        "stra"
+      ],
+      "source_outputs": {
+        "T": [
+          "mae",
+          "stra"
+        ],
+        "R": [
+          "ma",
+          "es",
+          "tra"
+        ],
+        "N": null,
+        "W": null,
+        "S": 4
       }
     },
     {
@@ -58442,38 +58516,6 @@
     },
     {
       "locale": "es",
-      "key": "teacher",
-      "word": "maestro",
-      "verdict": "QUARANTINE",
-      "reason": "rule_vs_vocab_phonics_count_disagreement",
-      "top_split": [
-        "ma",
-        "es",
-        "tro"
-      ],
-      "top_split_count": 3,
-      "vocab_phonics_syl": 2,
-      "tex_split": [
-        "maes",
-        "tro"
-      ],
-      "source_outputs": {
-        "T": [
-          "maes",
-          "tro"
-        ],
-        "R": [
-          "ma",
-          "es",
-          "tro"
-        ],
-        "N": null,
-        "W": null,
-        "S": 2
-      }
-    },
-    {
-      "locale": "es",
       "key": "teacup",
       "word": "taza de té",
       "verdict": "QUARANTINE",
@@ -61767,6 +61809,54 @@
           "tra",
           "do",
           "ra"
+        ],
+        "N": null,
+        "W": null,
+        "S": 2
+      }
+    },
+    {
+      "locale": "pt",
+      "key": "cashier",
+      "word": "operadora de caixa",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "o",
+        "pe",
+        "ra",
+        "do",
+        "ra",
+        "de",
+        "cai",
+        "xa"
+      ],
+      "top_split_count": 8,
+      "vocab_phonics_syl": 2,
+      "tex_split": [
+        "ope",
+        "ra",
+        "do",
+        "ra de cai",
+        "xa"
+      ],
+      "source_outputs": {
+        "T": [
+          "ope",
+          "ra",
+          "do",
+          "ra de cai",
+          "xa"
+        ],
+        "R": [
+          "o",
+          "pe",
+          "ra",
+          "do",
+          "ra",
+          "de",
+          "cai",
+          "xa"
         ],
         "N": null,
         "W": null,
@@ -71651,29 +71741,39 @@
     {
       "locale": "pt",
       "key": "snowdrop",
-      "word": "flor-de-neve",
+      "word": "campainha-branca",
       "verdict": "QUARANTINE",
       "reason": "rule_vs_vocab_phonics_count_disagreement",
       "top_split": [
-        "flor-",
-        "de-",
-        "ne",
-        "ve"
+        "cam",
+        "pai",
+        "nha-",
+        "bran",
+        "ca"
       ],
-      "top_split_count": 4,
+      "top_split_count": 5,
       "vocab_phonics_syl": 2,
       "tex_split": [
-        "flor-de-neve"
+        "cam",
+        "pa",
+        "i",
+        "nha-bran",
+        "ca"
       ],
       "source_outputs": {
         "T": [
-          "flor-de-neve"
+          "cam",
+          "pa",
+          "i",
+          "nha-bran",
+          "ca"
         ],
         "R": [
-          "flor-",
-          "de-",
-          "ne",
-          "ve"
+          "cam",
+          "pai",
+          "nha-",
+          "bran",
+          "ca"
         ],
         "N": null,
         "W": null,
@@ -72547,44 +72647,6 @@
         "N": null,
         "W": null,
         "S": 2
-      }
-    },
-    {
-      "locale": "pt",
-      "key": "tailor",
-      "word": "alfaiate",
-      "verdict": "QUARANTINE",
-      "reason": "rule_vs_vocab_phonics_count_disagreement",
-      "top_split": [
-        "al",
-        "fai",
-        "a",
-        "te"
-      ],
-      "top_split_count": 4,
-      "vocab_phonics_syl": 3,
-      "tex_split": [
-        "al",
-        "fai",
-        "a",
-        "te"
-      ],
-      "source_outputs": {
-        "T": [
-          "al",
-          "fai",
-          "a",
-          "te"
-        ],
-        "R": [
-          "al",
-          "fai",
-          "a",
-          "te"
-        ],
-        "N": null,
-        "W": null,
-        "S": 3
       }
     },
     {
@@ -75556,6 +75618,51 @@
         "S": 2
       },
       "wiktionary_ipa": "/ˈɑu̯.toː/"
+    },
+    {
+      "locale": "nl",
+      "key": "cashier",
+      "word": "caissière",
+      "verdict": "QUARANTINE",
+      "reason": "split_source_disagreement",
+      "top_split": [
+        "cais",
+        "si",
+        "è",
+        "re"
+      ],
+      "sources_agreed": [
+        "TeX"
+      ],
+      "disagreeing_sources": [
+        {
+          "label": "rule",
+          "split": [
+            "cais",
+            "siè",
+            "re"
+          ]
+        }
+      ],
+      "vocab_phonics_syl": 2,
+      "wiktionary_syl": null,
+      "nst_syl_count": null,
+      "source_outputs": {
+        "T": [
+          "cais",
+          "si",
+          "è",
+          "re"
+        ],
+        "R": [
+          "cais",
+          "siè",
+          "re"
+        ],
+        "N": null,
+        "W": null,
+        "S": 2
+      }
     },
     {
       "locale": "nl",
@@ -96668,6 +96775,33 @@
         "S": 4
       },
       "nst_sampa": "ka$\"nA:?$j@$%fu:?l"
+    },
+    {
+      "locale": "da",
+      "key": "candy",
+      "word": "bolsje",
+      "verdict": "QUARANTINE",
+      "reason": "insufficient_independent_sources",
+      "sources_agreed": [
+        "TeX",
+        "vocab-phonics-syl"
+      ],
+      "min_required": 3,
+      "total_agreed": 2,
+      "top_split": [
+        "bol",
+        "sje"
+      ],
+      "source_outputs": {
+        "T": [
+          "bol",
+          "sje"
+        ],
+        "R": null,
+        "N": null,
+        "W": null,
+        "S": 2
+      }
     },
     {
       "locale": "da",
@@ -127712,6 +127846,48 @@
         "S": 2
       },
       "nst_sampa": "\"tA:$kU"
+    },
+    {
+      "locale": "no",
+      "key": "tailor",
+      "word": "syerske",
+      "verdict": "QUARANTINE",
+      "reason": "split_source_disagreement",
+      "top_split": [
+        "syers",
+        "ke"
+      ],
+      "sources_agreed": [
+        "TeX"
+      ],
+      "disagreeing_sources": [
+        {
+          "label": "rule",
+          "split": [
+            "sy",
+            "ers",
+            "ke"
+          ]
+        }
+      ],
+      "vocab_phonics_syl": 2,
+      "wiktionary_syl": 3,
+      "nst_syl_count": null,
+      "source_outputs": {
+        "T": [
+          "syers",
+          "ke"
+        ],
+        "R": [
+          "sy",
+          "ers",
+          "ke"
+        ],
+        "N": null,
+        "W": 3,
+        "S": 2
+      },
+      "wiktionary_ipa": "/ˈsyː.ər.skə/"
     },
     {
       "locale": "no",

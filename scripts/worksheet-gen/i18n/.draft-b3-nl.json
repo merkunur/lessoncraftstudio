@@ -2502,16 +2502,19 @@
        "theme": "At the Supermarket",
        "noun": "candy",
        "key": "candy",
-       "word": "snoep",
+       "word": "snoepje",
        "graphemes": [
         "s",
         "n",
         "oe",
-        "p"
+        "p",
+        "j",
+        "e"
        ],
        "pos": 0,
        "split": [
-        "snoep"
+        "snoep",
+        "je"
        ]
       },
       {
@@ -3512,16 +3515,19 @@
        "theme": "At the Supermarket",
        "noun": "candy",
        "key": "candy",
-       "word": "snoep",
+       "word": "snoepje",
        "graphemes": [
         "s",
         "n",
         "oe",
-        "p"
+        "p",
+        "j",
+        "e"
        ],
        "pos": 3,
        "split": [
-        "snoep"
+        "snoep",
+        "je"
        ]
       },
       {
@@ -3988,16 +3994,19 @@
        "theme": "At the Supermarket",
        "noun": "candy",
        "key": "candy",
-       "word": "snoep",
+       "word": "snoepje",
        "graphemes": [
         "s",
         "n",
         "oe",
-        "p"
+        "p",
+        "j",
+        "e"
        ],
        "pos": 2,
        "split": [
-        "snoep"
+        "snoep",
+        "je"
        ]
       },
       {
@@ -5584,13 +5593,21 @@
     ],
     "athlete": [
      [
+      "h",
       "a",
-      "t"
+      "r",
+      "d"
      ],
      [
       "l",
-      "ee",
-      "t"
+      "oo",
+      "p"
+     ],
+     [
+      "s",
+      "t",
+      "e",
+      "r"
      ]
     ],
     "author": [
@@ -6259,6 +6276,10 @@
       "n",
       "oe",
       "p"
+     ],
+     [
+      "j",
+      "e"
      ]
     ],
     "cap": [
@@ -6365,17 +6386,6 @@
       "g",
       "e",
       "n"
-     ]
-    ],
-    "cashier": [
-     [
-      "k",
-      "a"
-     ],
-     [
-      "ss",
-      "ie",
-      "r"
      ]
     ],
     "cat": [
@@ -10915,17 +10925,12 @@
     ],
     "tailor": [
      [
-      "k",
-      "l",
-      "ee",
-      "r"
+      "n",
+      "aai"
      ],
      [
-      "m",
-      "a"
-     ],
-     [
-      "k",
+      "s",
+      "t",
       "e",
       "r"
      ]
@@ -10958,13 +10963,9 @@
     ],
     "teacher": [
      [
-      "l",
-      "e"
-     ],
-     [
-      "r",
-      "aa",
-      "r"
+      "j",
+      "u",
+      "f"
      ]
     ],
     "telephone": [
@@ -13282,6 +13283,14 @@
      ]
     },
     {
+     "key": "candy",
+     "word": "snoepje",
+     "split": [
+      "snoep",
+      "je"
+     ]
+    },
+    {
      "key": "cardinal",
      "word": "kardinaal",
      "split": [
@@ -13388,6 +13397,14 @@
      "split": [
       "ke",
       "gel"
+     ]
+    },
+    {
+     "key": "construction-crane",
+     "word": "hijskraan",
+     "split": [
+      "hijs",
+      "kraan"
      ]
     },
     {
@@ -14037,6 +14054,14 @@
      "split": [
       "me",
       "loen"
+     ]
+    },
+    {
+     "key": "metal-nail",
+     "word": "spijker",
+     "split": [
+      "spij",
+      "ker"
      ]
     },
     {

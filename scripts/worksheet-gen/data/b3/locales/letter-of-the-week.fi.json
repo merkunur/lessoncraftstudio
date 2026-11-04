@@ -90,18 +90,18 @@
           "theme": "toys",
           "noun": "dice",
           "key": "dice",
-          "word": "nopat",
+          "word": "noppa",
           "graphemes": [
             "n",
             "o",
             "p",
-            "a",
-            "t"
+            "p",
+            "a"
           ],
           "pos": 0,
           "split": [
-            "no",
-            "pat"
+            "nop",
+            "pa"
           ]
         },
         {
@@ -2214,24 +2214,6 @@
           "split": [
             "hiuk",
             "set"
-          ]
-        },
-        {
-          "theme": "toys",
-          "noun": "dice",
-          "key": "dice",
-          "word": "nopat",
-          "graphemes": [
-            "n",
-            "o",
-            "p",
-            "a",
-            "t"
-          ],
-          "pos": 4,
-          "split": [
-            "no",
-            "pat"
           ]
         },
         {

@@ -239,7 +239,6 @@
     "desk",
     "detective",
     "diamond",
-    "dice",
     "dimetrodon",
     "diplodocus",
     "doctor",
@@ -346,7 +345,6 @@
     "ladder",
     "ladle",
     "lamb",
-    "lamp",
     "lavender",
     "leaf",
     "leg",
@@ -424,7 +422,6 @@
     "pants",
     "papaya",
     "paper",
-    "paramedic",
     "parsnip",
     "peacock",
     "peas",
@@ -942,15 +939,19 @@
     ],
     "athlete": [
       [
-        "a"
+        "c",
+        "o"
       ],
       [
-        "t",
-        "l",
+        "rr",
         "e"
       ],
       [
-        "t",
+        "d",
+        "o"
+      ],
+      [
+        "r",
         "a"
       ]
     ],
@@ -3251,8 +3252,7 @@
       ],
       [
         "d",
-        "o",
-        "s"
+        "o"
       ]
     ],
     "dimetrodon": [
@@ -5322,20 +5322,6 @@
         "o"
       ]
     ],
-    "lamp": [
-      [
-        "l",
-        "âm"
-      ],
-      [
-        "p",
-        "a"
-      ],
-      [
-        "d",
-        "a"
-      ]
-    ],
     "lavender": [
       [
         "l",
@@ -6660,24 +6646,21 @@
     ],
     "paramedic": [
       [
-        "p",
-        "a"
-      ],
-      [
-        "r",
-        "a"
-      ],
-      [
-        "m",
-        "é"
-      ],
-      [
-        "d",
-        "i"
+        "s",
+        "o"
       ],
       [
         "c",
         "o"
+      ],
+      [
+        "rr",
+        "i",
+        "s"
+      ],
+      [
+        "t",
+        "a"
       ]
     ],
     "parsnip": [
@@ -9095,8 +9078,11 @@
       ],
       [
         "ss",
-        "o",
-        "r"
+        "o"
+      ],
+      [
+        "r",
+        "a"
       ]
     ],
     "teapot": [
@@ -9763,7 +9749,7 @@
       [
         "r",
         "i",
-        "o"
+        "a"
       ]
     ],
     "violet": [
@@ -9798,16 +9784,15 @@
     ],
     "vulture": [
       [
-        "a"
+        "u"
+      ],
+      [
+        "r",
+        "u"
       ],
       [
         "b",
         "u"
-      ],
-      [
-        "t",
-        "r",
-        "e"
       ]
     ],
     "waffle": [

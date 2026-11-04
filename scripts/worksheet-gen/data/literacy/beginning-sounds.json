@@ -488,6 +488,13 @@
     "answer": "L"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "Leiter",
+    "answer": "L"
+   },
+   {
     "theme": "At the Supermarket",
     "noun": "corn",
     "key": "corn",
@@ -675,7 +682,7 @@
     "theme": "toys",
     "noun": "dice",
     "key": "dice",
-    "word": "dés",
+    "word": "dé",
     "answer": "D"
    },
    {
@@ -947,6 +954,13 @@
     "answer": "C"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "D"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
@@ -958,13 +972,6 @@
     "noun": "donut",
     "key": "donut",
     "word": "dona",
-    "answer": "D"
-   },
-   {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "dados",
     "answer": "D"
    },
    {
@@ -1278,17 +1285,17 @@
     "answer": "C"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "D"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
     "word": "dedo",
-    "answer": "D"
-   },
-   {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "dados",
     "answer": "D"
    },
    {
@@ -1577,7 +1584,7 @@
     "theme": "toys",
     "noun": "dice",
     "key": "dice",
-    "word": "dadi",
+    "word": "dado",
     "answer": "D"
    },
    {
@@ -1649,6 +1656,13 @@
     "key": "leg",
     "word": "gamba",
     "answer": "G"
+   },
+   {
+    "theme": "animals",
+    "noun": "hippopotamus",
+    "key": "hippopotamus",
+    "word": "ippopotamo",
+    "answer": "I"
    },
    {
     "theme": "farm animals",
@@ -3379,7 +3393,7 @@
     "theme": "toys",
     "noun": "dice",
     "key": "dice",
-    "word": "nopat",
+    "word": "noppa",
     "answer": "N"
    },
    {

@@ -1843,16 +1843,19 @@
           "theme": "At the Supermarket",
           "noun": "candy",
           "key": "candy",
-          "word": "snoep",
+          "word": "snoepje",
           "graphemes": [
             "s",
             "n",
             "oe",
-            "p"
+            "p",
+            "j",
+            "e"
           ],
           "pos": 0,
           "split": [
-            "snoep"
+            "snoep",
+            "je"
           ]
         },
         {
@@ -2853,16 +2856,19 @@
           "theme": "At the Supermarket",
           "noun": "candy",
           "key": "candy",
-          "word": "snoep",
+          "word": "snoepje",
           "graphemes": [
             "s",
             "n",
             "oe",
-            "p"
+            "p",
+            "j",
+            "e"
           ],
           "pos": 3,
           "split": [
-            "snoep"
+            "snoep",
+            "je"
           ]
         },
         {
@@ -3329,16 +3335,19 @@
           "theme": "At the Supermarket",
           "noun": "candy",
           "key": "candy",
-          "word": "snoep",
+          "word": "snoepje",
           "graphemes": [
             "s",
             "n",
             "oe",
-            "p"
+            "p",
+            "j",
+            "e"
           ],
           "pos": 2,
           "split": [
-            "snoep"
+            "snoep",
+            "je"
           ]
         },
         {

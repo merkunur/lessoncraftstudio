@@ -4095,7 +4095,7 @@
        "theme": "toys",
        "noun": "dice",
        "key": "dice",
-       "word": "dés"
+       "word": "dé"
       },
       {
        "theme": "toys",
@@ -8610,7 +8610,7 @@
     "dice": [
      [
       "d",
-      "és"
+      "é"
      ]
     ],
     "dinosaur": [
@@ -10591,15 +10591,6 @@
        ]
       },
       {
-       "key": "chicken",
-       "word": "poulet",
-       "unit": "pou",
-       "split": [
-        "pou",
-        "let"
-       ]
-      },
-      {
        "key": "doll",
        "word": "poupée",
        "unit": "pou",
@@ -11255,7 +11246,9 @@
       "pro",
       "clas"
      ],
-     "readOnly": [],
+     "readOnly": [
+      "pro"
+     ],
      "words": [
       {
        "key": "binder",
@@ -11300,16 +11293,6 @@
        "split": [
         "pla",
         "card"
-       ]
-      },
-      {
-       "key": "teacher",
-       "word": "professeur",
-       "unit": "pro",
-       "split": [
-        "pro",
-        "fes",
-        "seur"
        ]
       },
       {
@@ -11899,6 +11882,14 @@
      ]
     },
     {
+     "key": "icicle",
+     "word": "glaçon",
+     "split": [
+      "gla",
+      "çon"
+     ]
+    },
+    {
      "key": "hammock",
      "word": "hamac",
      "split": [
@@ -12156,12 +12147,28 @@
      ]
     },
     {
+     "key": "brush",
+     "word": "pinceau",
+     "split": [
+      "pin",
+      "ceau"
+     ]
+    },
+    {
      "key": "dandelion",
      "word": "pissenlit",
      "split": [
       "pis",
       "sen",
       "lit"
+     ]
+    },
+    {
+     "key": "woodpecker",
+     "word": "pivert",
+     "split": [
+      "pi",
+      "vert"
      ]
     },
     {
@@ -12221,14 +12228,6 @@
      ]
     },
     {
-     "key": "chicken",
-     "word": "poulet",
-     "split": [
-      "pou",
-      "let"
-     ]
-    },
-    {
      "key": "doll",
      "word": "poupée",
      "split": [
@@ -12242,15 +12241,6 @@
      "split": [
       "pous",
       "sin"
-     ]
-    },
-    {
-     "key": "teacher",
-     "word": "professeur",
-     "split": [
-      "pro",
-      "fes",
-      "seur"
      ]
     },
     {
@@ -18456,22 +18446,6 @@
        "pluralGap": null
       },
       {
-       "theme": "classroom",
-       "noun": "teacher",
-       "vocabKey": "teacher",
-       "word": "professeur",
-       "gaps": [
-        {
-         "from": 5,
-         "len": 2
-        }
-       ],
-       "g": "ss",
-       "side": "contrast",
-       "plural": "professeurs",
-       "pluralGap": null
-      },
-      {
        "theme": "zoo animals",
        "noun": "sloth",
        "vocabKey": "sloth",
@@ -19447,25 +19421,6 @@
        "whole": {
         "word": "chemisier",
         "vocabKey": "blouse",
-        "scale": 1
-       },
-       "hubSide": "b",
-       "opaque": false,
-       "picOpened": true
-      },
-      {
-       "a": {
-        "vocabKey": "ambulance",
-        "word": "ambulance"
-       },
-       "aStem": "ambulanc",
-       "link": "",
-       "b": {
-        "affix": "-ier"
-       },
-       "whole": {
-        "word": "ambulancier",
-        "vocabKey": "paramedic",
         "scale": 1
        },
        "hubSide": "b",

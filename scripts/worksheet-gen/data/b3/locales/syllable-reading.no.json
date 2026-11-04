@@ -490,7 +490,6 @@
       "cells": [
         "fly",
         "sko",
-        "tre",
         "kniv",
         "brev",
         "kne"
@@ -518,18 +517,6 @@
               "s",
               "k",
               "o"
-            ]
-          ]
-        },
-        {
-          "key": "tree",
-          "word": "tre",
-          "unit": "tre",
-          "chunks": [
-            [
-              "t",
-              "r",
-              "e"
             ]
           ]
         },
@@ -1366,11 +1353,11 @@
     },
     {
       "key": "candy",
-      "word": "godteri",
+      "word": "karamell",
       "split": [
-        "god",
-        "te",
-        "ri"
+        "ka",
+        "ra",
+        "mell"
       ]
     },
     {
@@ -1656,15 +1643,6 @@
       ]
     },
     {
-      "key": "cymbals",
-      "word": "cymbaler",
-      "split": [
-        "cym",
-        "ba",
-        "ler"
-      ]
-    },
-    {
       "key": "delivery",
       "word": "levering",
       "split": [
@@ -1692,11 +1670,10 @@
     },
     {
       "key": "dice",
-      "word": "terninger",
+      "word": "terning",
       "split": [
         "ter",
-        "nin",
-        "ger"
+        "ning"
       ]
     },
     {
@@ -2499,6 +2476,14 @@
       ]
     },
     {
+      "key": "metal-nail",
+      "word": "spiker",
+      "split": [
+        "spi",
+        "ker"
+      ]
+    },
+    {
       "key": "millipede",
       "word": "tusenbein",
       "split": [
@@ -3076,15 +3061,6 @@
       ]
     },
     {
-      "key": "snowdrop",
-      "word": "snøklokke",
-      "split": [
-        "snø",
-        "klok",
-        "ke"
-      ]
-    },
-    {
       "key": "snowflake",
       "word": "snøfnugg",
       "split": [
@@ -3254,14 +3230,6 @@
       "split": [
         "nett",
         "brett"
-      ]
-    },
-    {
-      "key": "tailor",
-      "word": "skredder",
-      "split": [
-        "skred",
-        "der"
       ]
     },
     {

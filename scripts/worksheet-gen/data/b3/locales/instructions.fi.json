@@ -3166,21 +3166,21 @@
       "reviewed": true
     },
     "dice": {
-      "unique": "nopat",
+      "unique": "noppa",
       "all": "kaikki nopat",
       "allDef": "kaikki nopat",
       "pl": "nopat",
       "ord": {
-        "2": "toinen nopat",
-        "3": "kolmas nopat",
-        "4": "neljäs nopat",
-        "5": "viides nopat"
+        "2": "toinen noppa",
+        "3": "kolmas noppa",
+        "4": "neljäs noppa",
+        "5": "viides noppa"
       },
       "dat": null,
       "def": null,
       "defPl": null,
       "part": "noppaa",
-      "gen": "noppien",
+      "gen": "nopan",
       "a2": null,
       "reviewed": true
     },

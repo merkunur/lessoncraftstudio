@@ -3038,7 +3038,6 @@
     "desk",
     "detective",
     "diamond",
-    "dice",
     "dimetrodon",
     "dinosaur",
     "diplodocus",
@@ -3842,15 +3841,19 @@
     ],
     "athlete": [
      [
-      "a"
+      "c",
+      "o"
      ],
      [
-      "t",
-      "l",
+      "rr",
       "e"
      ],
      [
-      "t",
+      "d",
+      "o"
+     ],
+     [
+      "r",
       "a"
      ]
     ],
@@ -5351,7 +5354,7 @@
      ],
      [
       "r",
-      "o"
+      "a"
      ]
     ],
     "cast": [
@@ -6408,8 +6411,7 @@
      ],
      [
       "d",
-      "o",
-      "s"
+      "o"
      ]
     ],
     "dimetrodon": [
@@ -8770,7 +8772,7 @@
      [
       "r",
       "i",
-      "o"
+      "a"
      ]
     ],
     "lid": [
@@ -10088,7 +10090,7 @@
      ],
      [
       "c",
-      "o"
+      "a"
      ]
     ],
     "parasaurolophus": [
@@ -12575,14 +12577,21 @@
     ],
     "tailor": [
      [
-      "s",
-      "a",
+      "c",
+      "o",
       "s"
      ],
      [
       "t",
+      "u"
+     ],
+     [
       "r",
       "e"
+     ],
+     [
+      "r",
+      "a"
      ]
     ],
     "teapot": [
@@ -13284,7 +13293,7 @@
      [
       "r",
       "i",
-      "o"
+      "a"
      ]
     ],
     "violet": [
@@ -15176,15 +15185,6 @@
        ]
       },
       {
-       "key": "chicken",
-       "word": "pollo",
-       "unit": "po",
-       "split": [
-        "po",
-        "llo"
-       ]
-      },
-      {
        "key": "foal",
        "word": "potro",
        "unit": "po",
@@ -15535,15 +15535,6 @@
      "readOnly": [],
      "words": [
       {
-       "key": "dice",
-       "word": "dados",
-       "unit": "da",
-       "split": [
-        "da",
-        "dos"
-       ]
-      },
-      {
        "key": "apron",
        "word": "delantal",
        "unit": "de",
@@ -15827,12 +15818,12 @@
       },
       {
        "key": "cashier",
-       "word": "cajero",
+       "word": "cajera",
        "unit": "ca",
        "split": [
         "ca",
         "je",
-        "ro"
+        "ra"
        ]
       },
       {
@@ -16978,6 +16969,14 @@
      ]
     },
     {
+     "key": "boat",
+     "word": "lancha",
+     "split": [
+      "lan",
+      "cha"
+     ]
+    },
+    {
      "key": "bolt",
      "word": "tornillo",
      "split": [
@@ -17205,11 +17204,11 @@
     },
     {
      "key": "cashier",
-     "word": "cajero",
+     "word": "cajera",
      "split": [
       "ca",
       "je",
-      "ro"
+      "ra"
      ]
     },
     {
@@ -17274,10 +17273,11 @@
     },
     {
      "key": "chicken",
-     "word": "pollo",
+     "word": "gallina",
      "split": [
-      "po",
-      "llo"
+      "ga",
+      "lli",
+      "na"
      ]
     },
     {
@@ -17468,14 +17468,6 @@
      "split": [
       "rom",
       "bo"
-     ]
-    },
-    {
-     "key": "dice",
-     "word": "dados",
-     "split": [
-      "da",
-      "dos"
      ]
     },
     {
@@ -18284,6 +18276,14 @@
      "split": [
       "me",
       "lón"
+     ]
+    },
+    {
+     "key": "metal-nail",
+     "word": "clavo",
+     "split": [
+      "cla",
+      "vo"
      ]
     },
     {

@@ -608,15 +608,6 @@
       "readOnly": [],
       "words": [
         {
-          "key": "dice",
-          "word": "dados",
-          "unit": "da",
-          "split": [
-            "da",
-            "dos"
-          ]
-        },
-        {
           "key": "apron",
           "word": "delantal",
           "unit": "de",
@@ -900,12 +891,12 @@
         },
         {
           "key": "cashier",
-          "word": "cajero",
+          "word": "cajera",
           "unit": "ca",
           "split": [
             "ca",
             "je",
-            "ro"
+            "ra"
           ]
         },
         {
@@ -2051,6 +2042,14 @@
       ]
     },
     {
+      "key": "boat",
+      "word": "lancha",
+      "split": [
+        "lan",
+        "cha"
+      ]
+    },
+    {
       "key": "bolt",
       "word": "tornillo",
       "split": [
@@ -2278,11 +2277,11 @@
     },
     {
       "key": "cashier",
-      "word": "cajero",
+      "word": "cajera",
       "split": [
         "ca",
         "je",
-        "ro"
+        "ra"
       ]
     },
     {
@@ -2542,14 +2541,6 @@
       "split": [
         "rom",
         "bo"
-      ]
-    },
-    {
-      "key": "dice",
-      "word": "dados",
-      "split": [
-        "da",
-        "dos"
       ]
     },
     {
@@ -3358,6 +3349,14 @@
       "split": [
         "me",
         "lón"
+      ]
+    },
+    {
+      "key": "metal-nail",
+      "word": "clavo",
+      "split": [
+        "cla",
+        "vo"
       ]
     },
     {

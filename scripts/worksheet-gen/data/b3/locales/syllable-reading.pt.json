@@ -1237,15 +1237,6 @@
       "readOnly": [],
       "words": [
         {
-          "key": "dice",
-          "word": "dados",
-          "unit": "da",
-          "split": [
-            "da",
-            "dos"
-          ]
-        },
-        {
           "key": "domino",
           "word": "dominó",
           "unit": "do",
@@ -1501,7 +1492,9 @@
         "pre",
         "pro"
       ],
-      "readOnly": [],
+      "readOnly": [
+        "tri"
+      ],
       "words": [
         {
           "key": "clover",
@@ -1572,12 +1565,13 @@
         },
         {
           "key": "teacher",
-          "word": "professor",
+          "word": "professora",
           "unit": "pro",
           "split": [
             "pro",
             "fes",
-            "sor"
+            "so",
+            "ra"
           ]
         },
         {
@@ -1682,7 +1676,9 @@
         "gri",
         "dra"
       ],
-      "readOnly": [],
+      "readOnly": [
+        "cra"
+      ],
       "words": [
         {
           "key": "arm",
@@ -2390,6 +2386,15 @@
       ]
     },
     {
+      "key": "construction-crane",
+      "word": "guindaste",
+      "split": [
+        "guin",
+        "das",
+        "te"
+      ]
+    },
+    {
       "key": "cookie",
       "word": "biscoito",
       "split": [
@@ -2482,14 +2487,6 @@
         "lo",
         "san",
         "go"
-      ]
-    },
-    {
-      "key": "dice",
-      "word": "dados",
-      "split": [
-        "da",
-        "dos"
       ]
     },
     {
@@ -3087,16 +3084,6 @@
       ]
     },
     {
-      "key": "lamp",
-      "word": "luminária",
-      "split": [
-        "lu",
-        "mi",
-        "ná",
-        "ria"
-      ]
-    },
-    {
       "key": "leaf",
       "word": "folha",
       "split": [
@@ -3229,6 +3216,14 @@
       "split": [
         "me",
         "lão"
+      ]
+    },
+    {
+      "key": "metal-nail",
+      "word": "prego",
+      "split": [
+        "pre",
+        "go"
       ]
     },
     {
@@ -3995,15 +3990,6 @@
         "se",
         "rin",
         "ga"
-      ]
-    },
-    {
-      "key": "teacher",
-      "word": "professor",
-      "split": [
-        "pro",
-        "fes",
-        "sor"
       ]
     },
     {

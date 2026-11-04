@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-11-03T08:26:15.822Z",
+  "generated_at": "2026-11-04T03:14:10.344Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 942,
-  "count_quarantined": 323,
+  "count_approved": 943,
+  "count_quarantined": 322,
   "entries": [
     {
       "key": "acorn",
@@ -757,31 +757,27 @@
     },
     {
       "key": "athlete",
-      "word": "atleta",
+      "word": "corredora",
       "split": [
-        "a",
-        "tle",
-        "ta"
+        "co",
+        "rre",
+        "do",
+        "ra"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
-        "a",
-        "tle",
-        "ta"
+        "co",
+        "rre",
+        "do",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "atle",
-          "ta"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "author",
@@ -3833,17 +3829,17 @@
     },
     {
       "key": "cashier",
-      "word": "cajero",
+      "word": "cajera",
       "split": [
         "ca",
         "je",
-        "ro"
+        "ra"
       ],
       "count": 3,
       "chunks": [
         "ca",
         "je",
-        "ro"
+        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -6074,23 +6070,28 @@
     },
     {
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "split": [
         "da",
-        "dos"
+        "do"
       ],
       "count": 2,
       "chunks": [
         "da",
-        "dos"
+        "do"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "dado"
+        ]
+      }
     },
     {
       "key": "dimetrodon",
@@ -11260,13 +11261,13 @@
     },
     {
       "key": "librarian",
-      "word": "bibliotecario",
+      "word": "bibliotecaria",
       "split": [
         "bi",
         "blio",
         "te",
         "ca",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -11274,7 +11275,7 @@
         "blio",
         "te",
         "ca",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "TeX",
@@ -14204,13 +14205,13 @@
     },
     {
       "key": "paramedic",
-      "word": "paramédico",
+      "word": "paramédica",
       "split": [
         "pa",
         "ra",
         "mé",
         "di",
-        "co"
+        "ca"
       ],
       "count": 5,
       "chunks": [
@@ -14218,7 +14219,7 @@
         "ra",
         "mé",
         "di",
-        "co"
+        "ca"
       ],
       "sources_agreed": [
         "TeX",
@@ -19450,15 +19451,19 @@
     },
     {
       "key": "tailor",
-      "word": "sastre",
+      "word": "costurera",
       "split": [
-        "sas",
-        "tre"
+        "cos",
+        "tu",
+        "re",
+        "ra"
       ],
-      "count": 2,
+      "count": 4,
       "chunks": [
-        "sas",
-        "tre"
+        "cos",
+        "tu",
+        "re",
+        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -19535,6 +19540,34 @@
         "tex_disagreed_with_rule": true,
         "tex_split": [
           "taxi"
+        ]
+      }
+    },
+    {
+      "key": "teacher",
+      "word": "maestra",
+      "split": [
+        "ma",
+        "es",
+        "tra"
+      ],
+      "count": 3,
+      "chunks": [
+        "ma",
+        "es",
+        "tra"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "maes",
+          "tra"
         ]
       }
     },
@@ -20829,13 +20862,13 @@
     },
     {
       "key": "veterinarian",
-      "word": "veterinario",
+      "word": "veterinaria",
       "split": [
         "ve",
         "te",
         "ri",
         "na",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -20843,7 +20876,7 @@
         "te",
         "ri",
         "na",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "TeX",

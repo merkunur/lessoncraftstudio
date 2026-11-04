@@ -171,7 +171,7 @@
       {"w": "roxo", "tier": 1}, {"w": "redondo", "tier": 2}, {"w": "rápido", "tier": 1}, {"w": "lento", "tier": 1}, {"w": "verde", "tier": 1}, {"w": "amarelo", "tier": 1},
       {"w": "bonito", "tier": 1}, {"w": "forte", "tier": 2}
     ],
-    "nounExclude": ["laranja", "rosa", "burro", "porco", "lima", "manga", "pá", "balanço", "dados", "cartas", "bola", "pipa", "coco", "van", "jato", "grou"]
+    "nounExclude": ["laranja", "rosa", "burro", "porco", "lima", "manga", "pá", "balanço", "dados", "dado", "cartas", "bola", "pipa", "coco", "van", "jato", "grou"]
   },
   "shopFrames": {
     "yes": "sim",

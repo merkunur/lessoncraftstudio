@@ -1,6 +1,6 @@
 {
   "locale": "sv",
-  "generated_at": "2026-11-03T08:26:16.363Z",
+  "generated_at": "2026-11-04T03:14:12.142Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -4499,31 +4499,35 @@
     },
     {
       "key": "candy",
-      "word": "godis",
+      "word": "karamell",
       "split": [
-        "go",
-        "dis"
+        "ka",
+        "ra",
+        "mell"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
-          "g",
-          "o"
+          "k",
+          "a"
         ],
         [
-          "d",
-          "i",
-          "s"
+          "r",
+          "a"
+        ],
+        [
+          "m",
+          "e",
+          "l",
+          "l"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"gu:$dIs"
+      "total_agreed": 3
     },
     {
       "key": "candy-cane",
@@ -27320,38 +27324,36 @@
     },
     {
       "key": "tailor",
-      "word": "skräddare",
+      "word": "sömmerska",
       "split": [
-        "skräd",
-        "da",
-        "re"
+        "söm",
+        "mers",
+        "ka"
       ],
       "count": 3,
       "chunks": [
         [
           "s",
+          "ö",
+          "m"
+        ],
+        [
+          "m",
+          "e",
+          "r",
+          "s"
+        ],
+        [
           "k",
-          "r",
-          "ä",
-          "d"
-        ],
-        [
-          "d",
           "a"
-        ],
-        [
-          "r",
-          "e"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"skrE$da$re"
+      "total_agreed": 3
     },
     {
       "key": "tank",

@@ -1,6 +1,6 @@
 {
   "locale": "fi",
-  "generated_at": "2026-11-03T08:26:16.471Z",
+  "generated_at": "2026-11-04T03:14:12.828Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -7100,15 +7100,15 @@
     },
     {
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "split": [
-        "no",
-        "pat"
+        "nop",
+        "pa"
       ],
       "count": 2,
       "chunks": [
-        "no",
-        "pat"
+        "nop",
+        "pa"
       ],
       "sources_agreed": [
         "TeX",

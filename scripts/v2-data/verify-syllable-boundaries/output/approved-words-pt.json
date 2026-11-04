@@ -1,6 +1,6 @@
 {
   "locale": "pt",
-  "generated_at": "2026-11-03T08:26:15.841Z",
+  "generated_at": "2026-11-04T03:14:10.360Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -705,31 +705,27 @@
     },
     {
       "key": "athlete",
-      "word": "atleta",
+      "word": "corredora",
       "split": [
-        "a",
-        "tle",
-        "ta"
+        "cor",
+        "re",
+        "do",
+        "ra"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
-        "a",
-        "tle",
-        "ta"
+        "cor",
+        "re",
+        "do",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "atle",
-          "ta"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "author",
@@ -3668,26 +3664,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "cashier",
-      "word": "caixa",
-      "split": [
-        "cai",
-        "xa"
-      ],
-      "count": 2,
-      "chunks": [
-        "cai",
-        "xa"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "cast",
       "word": "gesso",
       "split": [
@@ -5685,23 +5661,28 @@
     },
     {
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "split": [
         "da",
-        "dos"
+        "do"
       ],
       "count": 2,
       "chunks": [
         "da",
-        "dos"
+        "do"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "dado"
+        ]
+      }
     },
     {
       "key": "dimetrodon",
@@ -10440,13 +10421,13 @@
     },
     {
       "key": "librarian",
-      "word": "bibliotecário",
+      "word": "bibliotecária",
       "split": [
         "bi",
         "blio",
         "te",
         "cá",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -10454,7 +10435,7 @@
         "blio",
         "te",
         "cá",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "rule",
@@ -10470,7 +10451,7 @@
           "o",
           "te",
           "cá",
-          "rio"
+          "ria"
         ]
       }
     },
@@ -13112,21 +13093,19 @@
     },
     {
       "key": "paramedic",
-      "word": "paramédico",
+      "word": "socorrista",
       "split": [
-        "pa",
-        "ra",
-        "mé",
-        "di",
-        "co"
+        "so",
+        "cor",
+        "ris",
+        "ta"
       ],
-      "count": 5,
+      "count": 4,
       "chunks": [
-        "pa",
-        "ra",
-        "mé",
-        "di",
-        "co"
+        "so",
+        "cor",
+        "ris",
+        "ta"
       ],
       "sources_agreed": [
         "TeX",
@@ -18193,6 +18172,30 @@
       }
     },
     {
+      "key": "tailor",
+      "word": "costureira",
+      "split": [
+        "cos",
+        "tu",
+        "rei",
+        "ra"
+      ],
+      "count": 4,
+      "chunks": [
+        "cos",
+        "tu",
+        "rei",
+        "ra"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "tank",
       "word": "tanque",
       "split": [
@@ -18281,17 +18284,19 @@
     },
     {
       "key": "teacher",
-      "word": "professor",
+      "word": "professora",
       "split": [
         "pro",
         "fes",
-        "sor"
+        "so",
+        "ra"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
         "pro",
         "fes",
-        "sor"
+        "so",
+        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -19639,13 +19644,13 @@
     },
     {
       "key": "veterinarian",
-      "word": "veterinário",
+      "word": "veterinária",
       "split": [
         "ve",
         "te",
         "ri",
         "ná",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -19653,7 +19658,7 @@
         "te",
         "ri",
         "ná",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "TeX",
@@ -19745,17 +19750,17 @@
     },
     {
       "key": "vulture",
-      "word": "abutre",
+      "word": "urubu",
       "split": [
-        "a",
-        "bu",
-        "tre"
+        "u",
+        "ru",
+        "bu"
       ],
       "count": 3,
       "chunks": [
-        "a",
-        "bu",
-        "tre"
+        "u",
+        "ru",
+        "bu"
       ],
       "sources_agreed": [
         "rule",
@@ -19766,8 +19771,8 @@
       "notes": {
         "tex_disagreed_with_rule": true,
         "tex_split": [
-          "abu",
-          "tre"
+          "uru",
+          "bu"
         ]
       }
     },

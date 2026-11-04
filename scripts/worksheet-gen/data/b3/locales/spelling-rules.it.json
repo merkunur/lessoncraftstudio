@@ -2456,22 +2456,6 @@
           "pluralGap": null
         },
         {
-          "theme": "classroom",
-          "noun": "teacher",
-          "vocabKey": "teacher",
-          "word": "insegnante",
-          "gaps": [
-            {
-              "from": 4,
-              "len": 2
-            }
-          ],
-          "g": "gn",
-          "side": "rule",
-          "plural": "insegnanti",
-          "pluralGap": null
-        },
-        {
           "theme": "occupations",
           "noun": "carpenter",
           "vocabKey": "carpenter",

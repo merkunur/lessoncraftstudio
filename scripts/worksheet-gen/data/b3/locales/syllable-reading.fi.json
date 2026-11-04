@@ -599,15 +599,6 @@
       "readOnly": [],
       "words": [
         {
-          "key": "dice",
-          "word": "nopat",
-          "unit": "no",
-          "split": [
-            "no",
-            "pat"
-          ]
-        },
-        {
           "key": "stapler",
           "word": "nitoja",
           "unit": "ni",
@@ -790,7 +781,10 @@
         "tal",
         "tel"
       ],
-      "readOnly": [],
+      "readOnly": [
+        "tal",
+        "tel"
+      ],
       "words": [
         {
           "key": "coat",
@@ -2110,6 +2104,15 @@
       ]
     },
     {
+      "key": "construction-crane",
+      "word": "nosturi",
+      "split": [
+        "nos",
+        "tu",
+        "ri"
+      ]
+    },
+    {
       "key": "cook",
       "word": "kokki",
       "split": [
@@ -2250,10 +2253,10 @@
     },
     {
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "split": [
-        "no",
-        "pat"
+        "nop",
+        "pa"
       ]
     },
     {
@@ -3110,6 +3113,14 @@
         "me",
         "lo",
         "ni"
+      ]
+    },
+    {
+      "key": "metal-nail",
+      "word": "naula",
+      "split": [
+        "nau",
+        "la"
       ]
     },
     {
@@ -3971,6 +3982,15 @@
       "split": [
         "lii",
         "vi"
+      ]
+    },
+    {
+      "key": "violet",
+      "word": "orvokki",
+      "split": [
+        "or",
+        "vok",
+        "ki"
       ]
     },
     {

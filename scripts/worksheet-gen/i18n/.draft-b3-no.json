@@ -10422,27 +10422,6 @@
        "pos": 0
       },
       {
-       "theme": "At the Supermarket",
-       "noun": "candy",
-       "key": "candy",
-       "word": "godteri",
-       "graphemes": [
-        "g",
-        "o",
-        "d",
-        "t",
-        "e",
-        "r",
-        "i"
-       ],
-       "split": [
-        "god",
-        "te",
-        "ri"
-       ],
-       "pos": 0
-      },
-      {
        "theme": "animals",
        "noun": "tiger",
        "key": "tiger",
@@ -13661,7 +13640,6 @@
     "pilot",
     "pinecone",
     "planet",
-    "porcupine",
     "pot",
     "potato",
     "pretzel",
@@ -14673,17 +14651,17 @@
     ],
     "candy": [
      [
-      "g",
-      "o",
-      "d"
-     ],
-     [
-      "t",
-      "e"
+      "k",
+      "a"
      ],
      [
       "r",
-      "i"
+      "a"
+     ],
+     [
+      "m",
+      "e",
+      "ll"
      ]
     ],
     "cape": [
@@ -15291,12 +15269,7 @@
      [
       "n",
       "i",
-      "n"
-     ],
-     [
-      "g",
-      "e",
-      "r"
+      "ng"
      ]
     ],
     "dinosaur": [
@@ -17692,19 +17665,6 @@
       "e"
      ]
     ],
-    "porcupine": [
-     [
-      "p",
-      "i",
-      "gg"
-     ],
-     [
-      "s",
-      "v",
-      "i",
-      "n"
-     ]
-    ],
     "porridge": [
      [
       "g",
@@ -18764,19 +18724,6 @@
       "r",
       "e",
       "tt"
-     ]
-    ],
-    "tailor": [
-     [
-      "s",
-      "k",
-      "r",
-      "e",
-      "dd"
-     ],
-     [
-      "e",
-      "r"
      ]
     ],
     "tape": [
@@ -21245,7 +21192,6 @@
      "cells": [
       "fly",
       "sko",
-      "tre",
       "kniv",
       "brev",
       "kne"
@@ -21273,18 +21219,6 @@
          "s",
          "k",
          "o"
-        ]
-       ]
-      },
-      {
-       "key": "tree",
-       "word": "tre",
-       "unit": "tre",
-       "chunks": [
-        [
-         "t",
-         "r",
-         "e"
         ]
        ]
       },
@@ -22121,11 +22055,11 @@
     },
     {
      "key": "candy",
-     "word": "godteri",
+     "word": "karamell",
      "split": [
-      "god",
-      "te",
-      "ri"
+      "ka",
+      "ra",
+      "mell"
      ]
     },
     {
@@ -22214,14 +22148,6 @@
     },
     {
      "key": "chick",
-     "word": "kylling",
-     "split": [
-      "kyl",
-      "ling"
-     ]
-    },
-    {
-     "key": "chicken",
      "word": "kylling",
      "split": [
       "kyl",
@@ -22378,9 +22304,9 @@
     },
     {
      "key": "crow",
-     "word": "krake",
+     "word": "kråke",
      "split": [
-      "kra",
+      "krå",
       "ke"
      ]
     },
@@ -22419,14 +22345,6 @@
      ]
     },
     {
-     "key": "cymbals",
-     "word": "cymbal",
-     "split": [
-      "cym",
-      "bal"
-     ]
-    },
-    {
      "key": "delivery",
      "word": "levering",
      "split": [
@@ -22454,11 +22372,10 @@
     },
     {
      "key": "dice",
-     "word": "terninger",
+     "word": "terning",
      "split": [
       "ter",
-      "nin",
-      "ger"
+      "ning"
      ]
     },
     {
@@ -22875,9 +22792,9 @@
     },
     {
      "key": "hedgehog",
-     "word": "piggsvin",
+     "word": "pinnsvin",
      "split": [
-      "pigg",
+      "pinn",
       "svin"
      ]
     },
@@ -23261,6 +23178,14 @@
      ]
     },
     {
+     "key": "metal-nail",
+     "word": "spiker",
+     "split": [
+      "spi",
+      "ker"
+     ]
+    },
+    {
      "key": "millipede",
      "word": "tusenbein",
      "split": [
@@ -23525,14 +23450,6 @@
       "is",
       "pin",
       "ne"
-     ]
-    },
-    {
-     "key": "porcupine",
-     "word": "piggsvin",
-     "split": [
-      "pigg",
-      "svin"
      ]
     },
     {
@@ -23846,15 +23763,6 @@
      ]
     },
     {
-     "key": "snowdrop",
-     "word": "snøklokke",
-     "split": [
-      "snø",
-      "klok",
-      "ke"
-     ]
-    },
-    {
      "key": "snowflake",
      "word": "snøfnugg",
      "split": [
@@ -24024,14 +23932,6 @@
      "split": [
       "nett",
       "brett"
-     ]
-    },
-    {
-     "key": "tailor",
-     "word": "skredder",
-     "split": [
-      "skred",
-      "der"
      ]
     },
     {

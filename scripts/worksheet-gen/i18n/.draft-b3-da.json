@@ -3531,14 +3531,6 @@
       "l"
      ]
     ],
-    "candy": [
-     [
-      "s",
-      "l",
-      "i",
-      "k"
-     ]
-    ],
     "cape": [
      [
       "k",
@@ -6070,7 +6062,6 @@
       "reb",
       "sæk",
       "bus",
-      "tun",
       "bi"
      ],
      "readOnly": [],
@@ -6120,18 +6111,6 @@
          "b",
          "u",
          "s"
-        ]
-       ]
-      },
-      {
-       "key": "tuna",
-       "word": "tun",
-       "unit": "tun",
-       "chunks": [
-        [
-         "t",
-         "u",
-         "n"
         ]
        ]
       },
@@ -6589,7 +6568,6 @@
       "fugl",
       "stork",
       "krans",
-      "slik",
       "slips"
      ],
      "readOnly": [],
@@ -6645,19 +6623,6 @@
          "a",
          "n",
          "s"
-        ]
-       ]
-      },
-      {
-       "key": "candy",
-       "word": "slik",
-       "unit": "slik",
-       "chunks": [
-        [
-         "s",
-         "l",
-         "i",
-         "k"
         ]
        ]
       },
@@ -6814,6 +6779,14 @@
      "split": [
       "fla",
       "ske"
+     ]
+    },
+    {
+     "key": "brush",
+     "word": "pensel",
+     "split": [
+      "pen",
+      "sel"
      ]
     },
     {
@@ -7557,6 +7530,15 @@
      "split": [
       "gyn",
       "ge"
+     ]
+    },
+    {
+     "key": "tailor",
+     "word": "syerske",
+     "split": [
+      "sy",
+      "er",
+      "ske"
      ]
     },
     {

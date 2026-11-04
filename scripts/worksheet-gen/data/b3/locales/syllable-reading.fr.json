@@ -217,15 +217,6 @@
           ]
         },
         {
-          "key": "chicken",
-          "word": "poule",
-          "unit": "pou",
-          "split": [
-            "pou",
-            "le"
-          ]
-        },
-        {
           "key": "doll",
           "word": "poupée",
           "unit": "pou",
@@ -881,7 +872,9 @@
         "pro",
         "clas"
       ],
-      "readOnly": [],
+      "readOnly": [
+        "pro"
+      ],
       "words": [
         {
           "key": "binder",
@@ -926,16 +919,6 @@
           "split": [
             "pla",
             "card"
-          ]
-        },
-        {
-          "key": "teacher",
-          "word": "professeur",
-          "unit": "pro",
-          "split": [
-            "pro",
-            "fes",
-            "seur"
           ]
         },
         {
@@ -1525,6 +1508,14 @@
       ]
     },
     {
+      "key": "icicle",
+      "word": "glaçon",
+      "split": [
+        "gla",
+        "çon"
+      ]
+    },
+    {
       "key": "hammock",
       "word": "hamac",
       "split": [
@@ -1782,12 +1773,28 @@
       ]
     },
     {
+      "key": "brush",
+      "word": "pinceau",
+      "split": [
+        "pin",
+        "ceau"
+      ]
+    },
+    {
       "key": "dandelion",
       "word": "pissenlit",
       "split": [
         "pis",
         "sen",
         "lit"
+      ]
+    },
+    {
+      "key": "woodpecker",
+      "word": "pivert",
+      "split": [
+        "pi",
+        "vert"
       ]
     },
     {
@@ -1847,14 +1854,6 @@
       ]
     },
     {
-      "key": "chicken",
-      "word": "poule",
-      "split": [
-        "pou",
-        "le"
-      ]
-    },
-    {
       "key": "doll",
       "word": "poupée",
       "split": [
@@ -1868,15 +1867,6 @@
       "split": [
         "pous",
         "sin"
-      ]
-    },
-    {
-      "key": "teacher",
-      "word": "professeur",
-      "split": [
-        "pro",
-        "fes",
-        "seur"
       ]
     },
     {

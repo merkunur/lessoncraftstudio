@@ -6278,7 +6278,7 @@
      ],
      [
       "r",
-      "e"
+      "a"
      ]
     ],
     "cast": [
@@ -7646,7 +7646,7 @@
      ],
      [
       "d",
-      "i"
+      "o"
      ]
     ],
     "dimetrodon": [
@@ -10847,7 +10847,7 @@
      [
       "r",
       "i",
-      "o"
+      "a"
      ]
     ],
     "lid": [
@@ -12567,28 +12567,6 @@
      [
       "m",
       "a"
-     ]
-    ],
-    "paramedic": [
-     [
-      "p",
-      "a"
-     ],
-     [
-      "r",
-      "a"
-     ],
-     [
-      "m",
-      "e"
-     ],
-     [
-      "d",
-      "i"
-     ],
-     [
-      "c",
-      "o"
      ]
     ],
     "parasaurolophus": [
@@ -16082,7 +16060,7 @@
      ],
      [
       "t",
-      "o"
+      "a"
      ]
     ],
     "tank-top": [
@@ -16143,25 +16121,6 @@
      [
       "t",
       "a"
-     ]
-    ],
-    "teacher": [
-     [
-      "i",
-      "n"
-     ],
-     [
-      "s",
-      "e"
-     ],
-     [
-      "gn",
-      "a",
-      "n"
-     ],
-     [
-      "t",
-      "e"
      ]
     ],
     "teddy-bear": [
@@ -17141,7 +17100,7 @@
      [
       "r",
       "i",
-      "o"
+      "a"
      ]
     ],
     "violet": [
@@ -17595,6 +17554,21 @@
      [
       "n",
       "i",
+      "a"
+     ]
+    ],
+    "teacher": [
+     [
+      "m",
+      "a"
+     ],
+     [
+      "e"
+     ],
+     [
+      "s",
+      "t",
+      "r",
       "a"
      ]
     ]
@@ -18089,7 +18063,6 @@
     "pants",
     "paper",
     "parallelogram",
-    "paramedic",
     "parasaurolophus",
     "parasol",
     "parrot",
@@ -18302,7 +18275,6 @@
     "tank-top",
     "tanker-truck",
     "tart",
-    "teacher",
     "teddy-bear",
     "telephone",
     "telescope",
@@ -19801,13 +19773,13 @@
       },
       {
        "key": "pomegranate",
-       "word": "melograno",
+       "word": "melagrana",
        "unit": "me",
        "split": [
         "me",
-        "lo",
+        "la",
         "gra",
-        "no"
+        "na"
        ]
       },
       {
@@ -20162,17 +20134,6 @@
         "bi",
         "lan",
         "cia"
-       ]
-      },
-      {
-       "key": "snowdrop",
-       "word": "bucaneve",
-       "unit": "bu",
-       "split": [
-        "bu",
-        "ca",
-        "ne",
-        "ve"
        ]
       },
       {
@@ -21469,7 +21430,9 @@
       "stel",
       "sti"
      ],
-     "readOnly": [],
+     "readOnly": [
+      "spi"
+     ],
      "words": [
       {
        "key": "boots",
@@ -22059,6 +22022,15 @@
      ]
     },
     {
+     "key": "brush",
+     "word": "pennello",
+     "split": [
+      "pen",
+      "nel",
+      "lo"
+     ]
+    },
+    {
      "key": "bucket",
      "word": "secchiello",
      "split": [
@@ -22175,6 +22147,15 @@
      ]
     },
     {
+     "key": "car",
+     "word": "macchina",
+     "split": [
+      "mac",
+      "chi",
+      "na"
+     ]
+    },
+    {
      "key": "cards",
      "word": "carte",
      "split": [
@@ -22211,11 +22192,11 @@
     },
     {
      "key": "cashier",
-     "word": "cassiere",
+     "word": "cassiera",
      "split": [
       "cas",
       "sie",
-      "re"
+      "ra"
      ]
     },
     {
@@ -22299,10 +22280,11 @@
     },
     {
      "key": "chicken",
-     "word": "pollo",
+     "word": "gallina",
      "split": [
-      "pol",
-      "lo"
+      "gal",
+      "li",
+      "na"
      ]
     },
     {
@@ -23361,6 +23343,14 @@
      ]
     },
     {
+     "key": "metal-nail",
+     "word": "chiodo",
+     "split": [
+      "chio",
+      "do"
+     ]
+    },
+    {
      "key": "milk",
      "word": "latte",
      "split": [
@@ -24190,10 +24180,10 @@
     },
     {
      "key": "tailor",
-     "word": "sarto",
+     "word": "sarta",
      "split": [
       "sar",
-      "to"
+      "ta"
      ]
     },
     {
@@ -32143,22 +32133,6 @@
        "g": "gn",
        "side": "rule",
        "plural": "bagnini",
-       "pluralGap": null
-      },
-      {
-       "theme": "classroom",
-       "noun": "teacher",
-       "vocabKey": "teacher",
-       "word": "insegnante",
-       "gaps": [
-        {
-         "from": 4,
-         "len": 2
-        }
-       ],
-       "g": "gn",
-       "side": "rule",
-       "plural": "insegnanti",
        "pluralGap": null
       },
       {

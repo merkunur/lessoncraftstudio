@@ -9755,27 +9755,6 @@
           "pos": 0
         },
         {
-          "theme": "At the Supermarket",
-          "noun": "candy",
-          "key": "candy",
-          "word": "godteri",
-          "graphemes": [
-            "g",
-            "o",
-            "d",
-            "t",
-            "e",
-            "r",
-            "i"
-          ],
-          "split": [
-            "god",
-            "te",
-            "ri"
-          ],
-          "pos": 0
-        },
-        {
           "theme": "animals",
           "noun": "tiger",
           "key": "tiger",

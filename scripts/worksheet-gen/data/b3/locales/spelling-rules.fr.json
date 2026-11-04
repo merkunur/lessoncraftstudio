@@ -1266,22 +1266,6 @@
           "pluralGap": null
         },
         {
-          "theme": "classroom",
-          "noun": "teacher",
-          "vocabKey": "teacher",
-          "word": "professeur",
-          "gaps": [
-            {
-              "from": 5,
-              "len": 2
-            }
-          ],
-          "g": "ss",
-          "side": "contrast",
-          "plural": "professeurs",
-          "pluralGap": null
-        },
-        {
           "theme": "zoo animals",
           "noun": "sloth",
           "vocabKey": "sloth",

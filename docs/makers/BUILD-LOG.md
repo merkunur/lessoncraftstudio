@@ -13,10 +13,72 @@ browser-safe proof of one answer).
 final phase, locally: test and analyse every template of every maker — `sweep-templates.js` over every built template
 (every offered theme × level × 11 languages × 3 copies), the full gate suite, a visual read of every template (contact
 sheets), every finding fixed at its source; no maker deploy until all are finalized; then activities resume at ORDER
-row 177. Open, noted 2026-11-02 and not re-verified since: mazes — real levels from data/hmx/levels.js, the strands seam,
-the picture-path face. Server republish queue (operator ssh): fix1115 (702) → fix1119 (49); local fix1106 (2,201) and
-fix1120 (240); then the B5–B7 vocabulary / bank scans listed in the B7 entry below.
+row 177. Status 2026-11-04: the contact-sheet read is DONE for every en sheet and every language-bearing fi sheet
+(rounds 5-6 below); round 6b carried the new vocabulary words into every bank and ran the syllable gate in every
+language (+ the two b7 gates per language, the round-6b native + pedagogy pass: candy is one sweet); left: the
+full gate suite on rebuilt bundles. Open, noted 2026-11-02 and not re-verified since: mazes — real levels from data/hmx/levels.js, the
+strands seam, the picture-path face. Server republish queue (operator ssh): fix1115 (702) → fix1119 (49); local fix1106
+(2,201) and fix1120 (240); the B5–B7 vocabulary / bank scans listed in the B7 entry below; and
+docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords).
 
+
+## Final phase, round 6b — the vocabulary words reach every bank; every language's syllable gate (2026-11-04)
+
+The full build stopped after 47 min: "K-318: bank row dice joins to nopat but the fi word is noppa". The round-6 dice
+fix (one die) and the round-5 occupation words (the pictures that show a woman) had reached the vocabulary, not the
+banks that print the word. Carried through the whole chain (memory feedback_vocab_change_propagation):
+- **Phonics safety pipeline:** dice + 17 feminine occupation rows in vocabulary-phonics.json (a count only where TeX
+  and the rule agree on the school split — fr maîtresse / couturière / caissière, it maestra, no syerske, de
+  Bibliothekarin / Tierärztin stay quarantined), `cli.js --all`; only those keys moved.
+- **pt-BR vulture Abutre → Urubu** (round-6 reviewer; the three pictures opened: a dark vulture with a pale head).
+- **Generated banks:** letter pictures (pt "escadas" rejected like "escada"; nl J keeps jurk; the window shift
+  brought in Leiter, clou, naula, ippopotamo, urubu — each picture opened), syllable count / sort, beginning / ending
+  sounds, spelling rivals (rebuilt from the hermitdave 50k lists: identical except the changed words).
+- **Authored banks + drafts:** sound-box rows in each bank's own convention (35 rows; quarantined words leave),
+  syllable reading, Letter of the Week (+ Level Set: dados under S, dadi under I and a foil for O that would contain
+  o left), spelling rules, fr compound "ambulancier", fi instruction phrases (noppa) and pt (urubu), es/pt word
+  classes exclude "dado" (the participle of dar, as "dados"), the maze sound pools.
+- **The syllable-reading gate defaults to English** (as do the two b7 gates). Run per language it found, in every
+  language but en: multi pools out of their derivation (the brush / nail / crane keys, sv tärningar, pt luminária 4
+  syllables …), German complex ladders with never-pictured cells not listed read-only (which hid the
+  third-of-the-carpet refusal: de kr / bl carpets are now refused), da tuna / no tree fanned though banned, it
+  bucaneve (refused picture), fr poule not TeX-agreed. All fixed in data + draft; the pools keep their order.
+  11/11 languages pass. Sound boxes: the build-time join check over 550 language × theme pairs passes.
+- An accident and its repair: a JSON scanner that `require()`d every .js under data/ and i18n/ ran apply scripts that
+  reverted reviewed strings in 9 languages; restored from HEAD (content identical). Scans parse JSON only now.
+- **The round-6b native + pedagogy review** (one reviewer over a 246-line dump of every new row): the candy pictures
+  show ONE wrapped sweet and five words were mass nouns a counting page cannot use ("vijf snoep") — de Bonbon (banned
+  from syllable reading: the French loan cannot be decoded as written; out of the sound boxes), nl Snoepje, sv / no
+  Karamell, da Bolsje (quarantined by the pipeline, so it leaves the Danish banks); fr letter C keeps cœur (clé +
+  clou were two /kl/ blends); pt luminária leaves the sound boxes (contested count; the pictures are an abajur);
+  it sound boxes maestra (m·a | e | s·t·r·a) for the rare soccorritrice. Instruction phrases fi noppa / pt urubu,
+  every other row: OK. The same chain again: pipeline --all, picture index, generated banks (blends too), Letter of
+  the Week (nl rows keep their "oe" grapheme: the fixer now uses the pipeline's chunks), the no rhyme Level Set
+  (godteri left -i), syllable reading (11/11), b7 find-the-differences + how-to-draw gates per language (10/10 each).
+- Republish queue: vocabOldWords pt Abutre / Abutres + the five candy words, _note6. Served picture indexes:
+  animals, at-the-supermarket, birds, birds-2, easter, toys (operator copy).
+
+## Final phase, rounds 5-6 — one right answer, true facts, the contact-sheet read (2026-11-04; `9d92b6015`, `f146b5906`, `6c78322c0`)
+
+- **Unscramble (G1-249 family):** the first second-order review listed one order per frame; an all-orders native
+  review found 476 more (fronted objects, V2 questions, Finnish OVS/OSV, Spanish VOS) — pages WITH clues had second
+  right answers too. Now: every order with its sentence type in data/b2/unscramble-second-order.json; clue pages use only
+  frames whose other orders their clues rule out (re-draw only when needed, other pages byte-identical); no-clue pages
+  accept ≤3 orders on the screen (played in a browser, poison caught) and list them in the key as sentences ("Auch
+  richtig: …", es same-order «¿…?»). sv/da/no "alla + indefinite plural" → possessive; fr/fi feeding/doing frames
+  animals only. Lesson → memory feedback_one_right_answer_ask_for_all.
+- **Animal fact files (G2-318 family):** "Can a sheep swim? no" (false) and riddles told apart only by swim. swim/fly
+  kept only where a teacher confirms them at once (review: turtle/tortoise/hippo too); null = not taught, a face needs a
+  fact only where it prints it, an unknown fact rules nothing out (page verify + node gate null-aware). es/fr zoo mystery
+  now refused (their banks differed only in swim).
+- **Read off the contact sheets:** G3-342 trapezoid read as a rectangle (drawn, isosceles); K-541 `.repeat` bound to the
+  last literal (CSS printed as text); K-522 boat shadow = an arrow (dropped; L3 turns the shadows; key badge clear);
+  G1-106 "10 + [] = 10"; plain-lines write-the-word drew name-risky pictures (G1-244 L3, G1-260, G1-491); money
+  "105 snt" → "1,05 €"; dice = one die (7 singulars); fi G1-525 title soft hyphen; collision gate: own ground shadow +
+  behind / in-front-of scenes exempt (poisoned).
+- **Native + pedagogy reviews:** Norwegian "hver tomme rute" → "hver tom rute" (21 places); K-517 de/fr/da wording;
+  deinonychus/parasaurolophus/snowdrop pictures refused; da -usser plurals; pt Campainha-branca; sv Sömmerska.
+- Republish: docs/makers/republish-2026-11-03-bank-words.json (levelRepublish 26 entries, vocabOldWords, _note5).
 
 ## Final phase, round 1 — what bundling every maker and its gates found (2026-11-03)
 

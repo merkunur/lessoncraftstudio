@@ -1,14 +1,14 @@
 {
   "locale": "it",
-  "generated_at": "2026-11-03T08:26:15.801Z",
+  "generated_at": "2026-11-04T03:14:10.324Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 981,
-  "count_quarantined": 284,
+  "count_approved": 980,
+  "count_quarantined": 285,
   "entries": [
     {
       "key": "accordion",
@@ -4007,17 +4007,17 @@
     },
     {
       "key": "cashier",
-      "word": "cassiere",
+      "word": "cassiera",
       "split": [
         "cas",
         "sie",
-        "re"
+        "ra"
       ],
       "count": 3,
       "chunks": [
         "cas",
         "sie",
-        "re"
+        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -6257,15 +6257,15 @@
     },
     {
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "split": [
         "da",
-        "di"
+        "do"
       ],
       "count": 2,
       "chunks": [
         "da",
-        "di"
+        "do"
       ],
       "sources_agreed": [
         "rule",
@@ -6276,7 +6276,7 @@
       "notes": {
         "tex_disagreed_with_rule": true,
         "tex_split": [
-          "dadi"
+          "dado"
         ]
       }
     },
@@ -11512,13 +11512,13 @@
     },
     {
       "key": "librarian",
-      "word": "bibliotecario",
+      "word": "bibliotecaria",
       "split": [
         "bi",
         "blio",
         "te",
         "ca",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -11526,7 +11526,7 @@
         "blio",
         "te",
         "ca",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "TeX",
@@ -14417,21 +14417,21 @@
     },
     {
       "key": "paramedic",
-      "word": "paramedico",
+      "word": "soccorritrice",
       "split": [
-        "pa",
-        "ra",
-        "me",
-        "di",
-        "co"
+        "soc",
+        "cor",
+        "ri",
+        "tri",
+        "ce"
       ],
       "count": 5,
       "chunks": [
-        "pa",
-        "ra",
-        "me",
-        "di",
-        "co"
+        "soc",
+        "cor",
+        "ri",
+        "tri",
+        "ce"
       ],
       "sources_agreed": [
         "TeX",
@@ -19852,15 +19852,15 @@
     },
     {
       "key": "tailor",
-      "word": "sarto",
+      "word": "sarta",
       "split": [
         "sar",
-        "to"
+        "ta"
       ],
       "count": 2,
       "chunks": [
         "sar",
-        "to"
+        "ta"
       ],
       "sources_agreed": [
         "TeX",
@@ -19966,30 +19966,6 @@
           "taxi"
         ]
       }
-    },
-    {
-      "key": "teacher",
-      "word": "insegnante",
-      "split": [
-        "in",
-        "se",
-        "gnan",
-        "te"
-      ],
-      "count": 4,
-      "chunks": [
-        "in",
-        "se",
-        "gnan",
-        "te"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "teddy-bear",
@@ -21522,13 +21498,13 @@
     },
     {
       "key": "veterinarian",
-      "word": "veterinario",
+      "word": "veterinaria",
       "split": [
         "ve",
         "te",
         "ri",
         "na",
-        "rio"
+        "ria"
       ],
       "count": 5,
       "chunks": [
@@ -21536,7 +21512,7 @@
         "te",
         "ri",
         "na",
-        "rio"
+        "ria"
       ],
       "sources_agreed": [
         "TeX",

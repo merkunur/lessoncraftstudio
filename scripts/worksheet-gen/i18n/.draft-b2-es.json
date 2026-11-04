@@ -165,7 +165,7 @@
       {"w": "dulce", "tier": 2}, {"w": "diminuto", "tier": 2}, {"w": "ruidoso", "tier": 2}, {"w": "valiente", "tier": 2}, {"w": "redondo", "tier": 2}, {"w": "morado", "tier": 2},
       {"w": "amable", "tier": 3}, {"w": "curioso", "tier": 3}, {"w": "dormilón", "tier": 3}, {"w": "listo", "tier": 3}, {"w": "rugoso", "tier": 3}, {"w": "alegre", "tier": 3}
     ],
-    "nounExclude": ["naranja", "rosa", "violeta", "lila", "lima", "caqui", "fresa", "dados", "bote", "submarino", "mono", "perezoso", "llama", "alce", "burro", "cerdo", "zorro", "cuadrado", "helado", "sobre", "sal", "planta", "sierra", "vino", "banco", "canto", "pila", "cola", "pesa", "vela", "cometa", "grulla"]
+    "nounExclude": ["naranja", "rosa", "violeta", "lila", "lima", "caqui", "fresa", "dados", "dado", "bote", "submarino", "mono", "perezoso", "llama", "alce", "burro", "cerdo", "zorro", "cuadrado", "helado", "sobre", "sal", "planta", "sierra", "vino", "banco", "canto", "pila", "cola", "pesa", "vela", "cometa", "grulla"]
   },
   "shopFrames": {
     "yes": "sí",

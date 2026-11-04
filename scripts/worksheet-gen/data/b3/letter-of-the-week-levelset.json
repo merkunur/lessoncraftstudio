@@ -15613,19 +15613,22 @@
       "theme": "classroom",
       "noun": "teacher",
       "key": "teacher",
-      "word": "Lehrer",
+      "word": "Lehrerin",
       "graphemes": [
        "l",
        "e",
        "h",
        "r",
        "e",
-       "r"
+       "r",
+       "i",
+       "n"
       ],
       "pos": 0,
       "split": [
        "leh",
-       "rer"
+       "re",
+       "rin"
       ]
      },
      {
@@ -23722,13 +23725,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ]
      },
      {
@@ -24591,18 +24593,17 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ],
       "pos": 0,
       "split": [
        "da",
-       "dos"
+       "do"
       ]
      },
      {
@@ -26947,13 +26948,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ]
      },
      {
@@ -32712,24 +32712,6 @@
       ]
      },
      {
-      "theme": "toys",
-      "noun": "dice",
-      "key": "dice",
-      "word": "dados",
-      "graphemes": [
-       "d",
-       "a",
-       "d",
-       "o",
-       "s"
-      ],
-      "pos": 4,
-      "split": [
-       "da",
-       "dos"
-      ]
-     },
-     {
       "theme": "christmas",
       "noun": "lights",
       "key": "lights",
@@ -33308,13 +33290,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ]
      },
      {
@@ -34176,7 +34157,7 @@
       "theme": "occupations",
       "noun": "veterinarian",
       "key": "veterinarian",
-      "word": "veterinario",
+      "word": "veterinaria",
       "graphemes": [
        "v",
        "e",
@@ -34188,7 +34169,7 @@
        "a",
        "r",
        "i",
-       "o"
+       "a"
       ],
       "pos": 0,
       "split": [
@@ -34196,7 +34177,7 @@
        "te",
        "ri",
        "na",
-       "rio"
+       "ria"
       ]
      },
      {
@@ -36168,7 +36149,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "body parts",
@@ -36713,7 +36694,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -36760,15 +36741,14 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés",
+      "word": "dé",
       "graphemes": [
        "d",
-       "é",
-       "s"
+       "é"
       ],
       "pos": 0,
       "split": [
-       "dés"
+       "dé"
       ]
      },
      {
@@ -38401,7 +38381,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -38723,7 +38703,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -39228,7 +39208,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -39535,7 +39515,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -39824,7 +39804,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -40010,7 +39990,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -40537,7 +40517,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -41092,7 +41072,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -41634,7 +41614,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "breakfast",
@@ -42105,7 +42085,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "body parts",
@@ -42511,7 +42491,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -42942,21 +42922,6 @@
       "pos": 2,
       "split": [
        "bus"
-      ]
-     },
-     {
-      "theme": "toys",
-      "noun": "dice",
-      "key": "dice",
-      "word": "dés",
-      "graphemes": [
-       "d",
-       "é",
-       "s"
-      ],
-      "pos": 2,
-      "split": [
-       "dés"
       ]
      },
      {
@@ -43561,7 +43526,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "camping",
@@ -44121,7 +44086,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -44452,7 +44417,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -44786,7 +44751,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -45045,7 +45010,7 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dés"
+      "word": "dé"
      },
      {
       "theme": "At the Supermarket",
@@ -45542,12 +45507,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -46299,12 +46264,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -46370,17 +46335,17 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ],
       "pos": 0,
       "split": [
        "da",
-       "di"
+       "do"
       ]
      },
      {
@@ -47582,12 +47547,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -48685,12 +48650,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -48818,30 +48783,6 @@
        "fer",
        "mie",
        "ra"
-      ]
-     },
-     {
-      "theme": "classroom",
-      "noun": "teacher",
-      "key": "teacher",
-      "word": "insegnante",
-      "graphemes": [
-       "i",
-       "n",
-       "s",
-       "e",
-       "gn",
-       "a",
-       "n",
-       "t",
-       "e"
-      ],
-      "pos": 0,
-      "split": [
-       "in",
-       "se",
-       "gnan",
-       "te"
       ]
      },
      {
@@ -48988,23 +48929,6 @@
        "a",
        "si",
        "no"
-      ]
-     },
-     {
-      "theme": "toys",
-      "noun": "dice",
-      "key": "dice",
-      "word": "dadi",
-      "graphemes": [
-       "d",
-       "a",
-       "d",
-       "i"
-      ],
-      "pos": 3,
-      "split": [
-       "da",
-       "di"
       ]
      },
      {
@@ -52129,18 +52053,6 @@
       ]
      },
      {
-      "theme": "toys",
-      "noun": "dice",
-      "key": "dice",
-      "word": "dadi",
-      "graphemes": [
-       "d",
-       "a",
-       "d",
-       "i"
-      ]
-     },
-     {
       "theme": "spring",
       "noun": "grass",
       "key": "grass",
@@ -52880,12 +52792,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      }
     ]
@@ -53584,12 +53496,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      }
     ]
@@ -54667,12 +54579,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -55431,12 +55343,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -55671,7 +55583,7 @@
       "theme": "occupations",
       "noun": "veterinarian",
       "key": "veterinarian",
-      "word": "veterinario",
+      "word": "veterinaria",
       "graphemes": [
        "v",
        "e",
@@ -55683,7 +55595,7 @@
        "a",
        "r",
        "i",
-       "o"
+       "a"
       ],
       "pos": 0,
       "split": [
@@ -55691,7 +55603,7 @@
        "te",
        "ri",
        "na",
-       "rio"
+       "ria"
       ]
      },
      {
@@ -56635,12 +56547,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dadi",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "i"
+       "o"
       ]
      },
      {
@@ -57907,18 +57819,17 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ],
       "pos": 0,
       "split": [
        "da",
-       "dos"
+       "do"
       ]
      },
      {
@@ -63438,14 +63349,13 @@
       "theme": "animals",
       "noun": "vulture",
       "key": "vulture",
-      "word": "abutre",
+      "word": "urubu",
       "graphemes": [
-       "a",
-       "b",
        "u",
-       "t",
        "r",
-       "e"
+       "u",
+       "b",
+       "u"
       ]
      },
      {
@@ -64914,24 +64824,6 @@
       ]
      },
      {
-      "theme": "toys",
-      "noun": "dice",
-      "key": "dice",
-      "word": "dados",
-      "graphemes": [
-       "d",
-       "a",
-       "d",
-       "o",
-       "s"
-      ],
-      "pos": 4,
-      "split": [
-       "da",
-       "dos"
-      ]
-     },
-     {
       "theme": "hospital",
       "noun": "gloves",
       "key": "gloves",
@@ -65601,13 +65493,12 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "dados",
+      "word": "dado",
       "graphemes": [
        "d",
        "a",
        "d",
-       "o",
-       "s"
+       "o"
       ]
      },
      {
@@ -79335,24 +79226,6 @@
       ]
      },
      {
-      "theme": "At the Supermarket",
-      "noun": "candy",
-      "key": "candy",
-      "word": "godis",
-      "graphemes": [
-       "g",
-       "o",
-       "d",
-       "i",
-       "s"
-      ],
-      "pos": 2,
-      "split": [
-       "go",
-       "dis"
-      ]
-     },
-     {
       "theme": "camping",
       "noun": "frog",
       "key": "frog",
@@ -81172,24 +81045,6 @@
       "pos": 0,
       "split": [
        "gröt"
-      ]
-     },
-     {
-      "theme": "At the Supermarket",
-      "noun": "candy",
-      "key": "candy",
-      "word": "godis",
-      "graphemes": [
-       "g",
-       "o",
-       "d",
-       "i",
-       "s"
-      ],
-      "pos": 0,
-      "split": [
-       "go",
-       "dis"
       ]
      },
      {
@@ -93808,22 +93663,6 @@
       ]
      },
      {
-      "theme": "At the Supermarket",
-      "noun": "candy",
-      "key": "candy",
-      "word": "slik",
-      "graphemes": [
-       "s",
-       "l",
-       "i",
-       "k"
-      ],
-      "pos": 3,
-      "split": [
-       "slik"
-      ]
-     },
-     {
       "theme": "around the house",
       "noun": "sink",
       "key": "sink",
@@ -94290,22 +94129,6 @@
       "pos": 2,
       "split": [
        "mælk"
-      ]
-     },
-     {
-      "theme": "At the Supermarket",
-      "noun": "candy",
-      "key": "candy",
-      "word": "slik",
-      "graphemes": [
-       "s",
-       "l",
-       "i",
-       "k"
-      ],
-      "pos": 1,
-      "split": [
-       "slik"
       ]
      },
      {
@@ -101147,27 +100970,6 @@
       "pos": 2,
       "split": [
        "sti"
-      ]
-     },
-     {
-      "theme": "At the Supermarket",
-      "noun": "candy",
-      "key": "candy",
-      "word": "godteri",
-      "graphemes": [
-       "g",
-       "o",
-       "d",
-       "t",
-       "e",
-       "r",
-       "i"
-      ],
-      "pos": 6,
-      "split": [
-       "god",
-       "te",
-       "ri"
       ]
      },
      {
@@ -108043,13 +107845,13 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "graphemes": [
        "n",
        "o",
        "p",
-       "a",
-       "t"
+       "p",
+       "a"
       ]
      },
      {
@@ -110798,13 +110600,13 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "graphemes": [
        "n",
        "o",
        "p",
-       "a",
-       "t"
+       "p",
+       "a"
       ]
      },
      {
@@ -111299,13 +111101,13 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "graphemes": [
        "n",
        "o",
        "p",
-       "a",
-       "t"
+       "p",
+       "a"
       ]
      },
      {
@@ -112611,18 +112413,18 @@
       "theme": "toys",
       "noun": "dice",
       "key": "dice",
-      "word": "nopat",
+      "word": "noppa",
       "graphemes": [
        "n",
        "o",
        "p",
-       "a",
-       "t"
+       "p",
+       "a"
       ],
       "pos": 2,
       "split": [
-       "no",
-       "pat"
+       "nop",
+       "pa"
       ]
      },
      {

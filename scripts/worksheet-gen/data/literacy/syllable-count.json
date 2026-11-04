@@ -493,6 +493,13 @@
     "answer": "2"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "ladder",
+    "answer": "2"
+   },
+   {
     "theme": "accessories",
     "noun": "mitten",
     "key": "mitten",
@@ -553,13 +560,6 @@
     "noun": "bandage",
     "key": "bandage",
     "word": "bandage",
-    "answer": "2"
-   },
-   {
-    "theme": "vegetables",
-    "noun": "cabbage",
-    "key": "cabbage",
-    "word": "cabbage",
     "answer": "2"
    },
    {
@@ -1687,6 +1687,13 @@
   ],
   "fr": [
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dé",
+    "answer": "1"
+   },
+   {
     "theme": "At the Supermarket",
     "noun": "garlic",
     "key": "garlic",
@@ -1719,13 +1726,6 @@
     "noun": "rooster",
     "key": "rooster",
     "word": "coq",
-    "answer": "1"
-   },
-   {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "dés",
     "answer": "1"
    },
    {
@@ -2452,6 +2452,13 @@
     "answer": "2"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "2"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
@@ -2624,13 +2631,6 @@
     "noun": "couch",
     "key": "couch",
     "word": "sofá",
-    "answer": "2"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "taxi",
-    "key": "taxi",
-    "word": "taxi",
     "answer": "2"
    },
    {
@@ -2935,6 +2935,13 @@
     "answer": "4"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "escalera",
+    "answer": "4"
+   },
+   {
     "theme": "shapes",
     "noun": "hexagon",
     "key": "hexagon",
@@ -3058,13 +3065,6 @@
     "noun": "ladybug",
     "key": "ladybug",
     "word": "catarina",
-    "answer": "4"
-   },
-   {
-    "theme": "tools",
-    "noun": "ladder",
-    "key": "ladder",
-    "word": "escalera",
     "answer": "4"
    },
    {
@@ -3315,6 +3315,13 @@
     "answer": "2"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "2"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
@@ -3469,13 +3476,6 @@
     "answer": "2"
    },
    {
-    "theme": "christmas",
-    "noun": "sack",
-    "key": "sack",
-    "word": "saco",
-    "answer": "2"
-   },
-   {
     "theme": "fruits",
     "noun": "blackberry",
     "key": "blackberry",
@@ -3571,6 +3571,13 @@
     "noun": "owl",
     "key": "owl",
     "word": "coruja",
+    "answer": "3"
+   },
+   {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "escada",
     "answer": "3"
    },
    {
@@ -3746,13 +3753,6 @@
     "noun": "star",
     "key": "star",
     "word": "estrela",
-    "answer": "3"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "rocket",
-    "key": "rocket",
-    "word": "foguete",
     "answer": "3"
    },
    {
@@ -4034,7 +4034,7 @@
     "theme": "toys",
     "noun": "dice",
     "key": "dice",
-    "word": "dadi",
+    "word": "dado",
     "answer": "2"
    },
    {
@@ -5258,6 +5258,13 @@
     "answer": "2"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "ladder",
+    "answer": "2"
+   },
+   {
     "theme": "toys",
     "noun": "girl",
     "key": "girl",
@@ -5353,13 +5360,6 @@
     "noun": "hammock",
     "key": "hammock",
     "word": "hangmat",
-    "answer": "2"
-   },
-   {
-    "theme": "toys",
-    "noun": "cards",
-    "key": "cards",
-    "word": "kaarten",
     "answer": "2"
    },
    {
@@ -6156,6 +6156,13 @@
     "answer": "2"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stege",
+    "answer": "2"
+   },
+   {
     "theme": "camping",
     "noun": "cabin",
     "key": "cabin",
@@ -6195,13 +6202,6 @@
     "noun": "mitten",
     "key": "mitten",
     "word": "vante",
-    "answer": "2"
-   },
-   {
-    "theme": "christmas",
-    "noun": "angel",
-    "key": "angel",
-    "word": "ängel",
     "answer": "2"
    },
    {
@@ -6450,6 +6450,13 @@
     "answer": "3"
    },
    {
+    "theme": "At the Supermarket",
+    "noun": "candy",
+    "key": "candy",
+    "word": "karamell",
+    "answer": "3"
+   },
+   {
     "theme": "breakfast",
     "noun": "pancake",
     "key": "pancake",
@@ -6475,13 +6482,6 @@
     "noun": "sandbox",
     "key": "sandbox",
     "word": "sandlåda",
-    "answer": "3"
-   },
-   {
-    "theme": "christmas",
-    "noun": "snowman",
-    "key": "snowman",
-    "word": "snögubbe",
     "answer": "3"
    }
   ],
@@ -6963,6 +6963,13 @@
     "answer": "2"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stige",
+    "answer": "2"
+   },
+   {
     "theme": "animals",
     "noun": "tiger",
     "key": "tiger",
@@ -7037,13 +7044,6 @@
     "noun": "finger",
     "key": "finger",
     "word": "finger",
-    "answer": "2"
-   },
-   {
-    "theme": "kitchen tools",
-    "noun": "bottle",
-    "key": "bottle",
-    "word": "flaske",
     "answer": "2"
    },
    {
@@ -7149,13 +7149,6 @@
     "noun": "bat",
     "key": "bat",
     "word": "flagermus",
-    "answer": "3"
-   },
-   {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "terninger",
     "answer": "3"
    },
    {
@@ -7324,6 +7317,13 @@
     "noun": "whisk",
     "key": "whisk",
     "word": "piskeris",
+    "answer": "3"
+   },
+   {
+    "theme": "beach",
+    "noun": "sandals",
+    "key": "sandals",
+    "word": "sandaler",
     "answer": "3"
    }
   ],
@@ -7791,6 +7791,13 @@
     "answer": "2"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stige",
+    "answer": "2"
+   },
+   {
     "theme": "around the house",
     "noun": "rug",
     "key": "rug",
@@ -7882,13 +7889,6 @@
     "answer": "2"
    },
    {
-    "theme": "around the house",
-    "noun": "fence",
-    "key": "fence",
-    "word": "gjerde",
-    "answer": "2"
-   },
-   {
     "theme": "desserts and sweets",
     "noun": "popsicle",
     "key": "popsicle",
@@ -7966,13 +7966,6 @@
     "answer": "3"
    },
    {
-    "theme": "toys",
-    "noun": "dice",
-    "key": "dice",
-    "word": "terninger",
-    "answer": "3"
-   },
-   {
     "theme": "around the house",
     "noun": "kettle",
     "key": "kettle",
@@ -7991,13 +7984,6 @@
     "noun": "garage",
     "key": "garage",
     "word": "garasje",
-    "answer": "3"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "candy",
-    "key": "candy",
-    "word": "godteri",
     "answer": "3"
    },
    {
@@ -8075,6 +8061,13 @@
     "noun": "curtains",
     "key": "curtains",
     "word": "gardiner",
+    "answer": "3"
+   },
+   {
+    "theme": "At the Supermarket",
+    "noun": "candy",
+    "key": "candy",
+    "word": "karamell",
     "answer": "3"
    },
    {
@@ -8166,6 +8159,13 @@
     "noun": "rectangle",
     "key": "rectangle",
     "word": "rektangel",
+    "answer": "3"
+   },
+   {
+    "theme": "toys",
+    "noun": "sandbox",
+    "key": "sandbox",
+    "word": "sandkasse",
     "answer": "3"
    }
   ],
@@ -8801,6 +8801,13 @@
     "answer": "4"
    },
    {
+    "theme": "animals",
+    "noun": "hippopotamus",
+    "key": "hippopotamus",
+    "word": "virtahepo",
+    "answer": "4"
+   },
+   {
     "theme": "fruits",
     "noun": "avocado",
     "key": "avocado",
@@ -8931,13 +8938,6 @@
     "noun": "crayon",
     "key": "crayon",
     "word": "vahaliitu",
-    "answer": "4"
-   },
-   {
-    "theme": "animals",
-    "noun": "hippopotamus",
-    "key": "hippopotamus",
-    "word": "virtahepo",
     "answer": "4"
    }
   ]

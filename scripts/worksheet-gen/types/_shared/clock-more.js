@@ -33,7 +33,11 @@ const { makeRng } = require('../../lib/rng.js');
 
 const INK = '#3A3530', TEAL = '#146B5E', CORAL = '#F2784B', CREAM = '#FBF3E4', SOFT = '#FBE3D8';
 const BIG = (s, px = 30, color = INK) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:${px}px;line-height:1;color:${color};white-space:nowrap">${s}</span>`;
-const fmt = (h, m) => `${h}:${String(m).padStart(2, '0')}`;
+const fmt = (h, m) => `${h}:${String(m).padStart(2, '0')}`;   // machine values (data attributes) only
+// a time the child READS is written the way the locale writes it (fi 7.30, fr 7 h 30 — 2026-11-04 native review): the
+// clock family's own formatter (clock-tasks.js convKit), one rule for both families
+const KIT = require('./clock-tasks.js').convKit();
+const vt = (L, h, m) => KIT.clockTime(L, h, m);
 const loc2 = (locale) => String(locale || 'en').slice(0, 2);
 
 const LEVELS = {
@@ -149,7 +153,10 @@ function makeClockMoreType(cfg) {
           let opts;
           if (L === 'en') opts = [{ s: 'a.m.', right: !isPm }, { s: 'p.m.', right: isPm }];
           else {
-            const a12 = fmt(h12, m), a24 = fmt(h24 >= 12 ? h24 : h24 + 12, m);
+            // es-MX tells time in 12 hours (24-hour time is not Grade 2 there): the same time, a. m. or p. m.; elsewhere the
+            // 12-hour reading against the 24-hour one, each written the locale's way
+            const t12 = vt(L, h12, m);
+            const a12 = L === 'es' ? `${t12} ${KIT.ap(L, false)}` : t12, a24 = L === 'es' ? `${t12} ${KIT.ap(L, true)}` : KIT.conv24(L, h24 >= 12 ? h24 : h24 + 12, m);
             const both = [{ s: a12, right: !isPm }, { s: a24, right: isPm }];
             opts = slotFor(`${L}|${args.difficulty}|${(ctx && ctx.variant) || 1}|${i}|ampm`, 2) ? both.reverse() : both;
           }
@@ -227,7 +234,7 @@ function makeClockMoreType(cfg) {
             // hours tall, quarter hours middle, 5 minutes short (a ruler's three tick lengths)
             const full = t % 60 === 0, q = t % 15 === 0, half = full ? 12 : q ? 8 : 5;
             svg += `<line x1="${px(t).toFixed(1)}" y1="${40 - half}" x2="${px(t).toFixed(1)}" y2="${40 + half}" stroke="${INK}" stroke-width="${full ? 3 : q ? 1.8 : 1.2}"/>`;
-            if (full) svg += `<text x="${px(t).toFixed(1)}" y="74" font-family="Baloo 2" font-weight="700" font-size="18" fill="${INK}" text-anchor="middle">${fmt(Math.floor(t / 60), 0)}</text>`;
+            if (full) svg += `<text x="${px(t).toFixed(1)}" y="74" font-family="Baloo 2" font-weight="700" font-size="18" fill="${INK}" text-anchor="middle">${vt(L, Math.floor(t / 60), 0)}</text>`;
           }
           const mark = (t, col) => `<circle cx="${px(t).toFixed(1)}" cy="40" r="7" fill="${col}"/>`;
           svg += mark(s.start, TEAL) + mark(s.end, CORAL);
@@ -237,9 +244,9 @@ function makeClockMoreType(cfg) {
           items.push(`${fmt(sH, sM)}-${fmt(eH, eM)}`);
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:6px;padding:4px 12px 4px 40px" data-lcs-span="${s.span}" data-lcs-start="${fmt(sH, sM)}" data-lcs-end="${fmt(eH, eM)}">` +
             `<div style="display:flex;align-items:center;justify-content:space-between;width:100%">` +
-            `<span style="display:inline-flex;align-items:center;gap:8px">${clock({ h: sH, m: sM, size: 84 }).svg}${BIG(fmt(sH, sM), 26, TEAL)}</span>` +
+            `<span style="display:inline-flex;align-items:center;gap:8px">${clock({ h: sH, m: sM, size: 84 }).svg}${BIG(vt(L, sH, sM), 26, TEAL)}</span>` +
             BIG('→', 26, CORAL) +
-            `<span style="display:inline-flex;align-items:center;gap:8px">${BIG(fmt(eH, eM), 26, CORAL)}${clock({ h: eH, m: eM, size: 84 }).svg}</span></div>` +
+            `<span style="display:inline-flex;align-items:center;gap:8px">${BIG(vt(L, eH, eM), 26, CORAL)}${clock({ h: eH, m: eM, size: 84 }).svg}</span></div>` +
             `<svg width="${W}" height="82" viewBox="0 0 ${W} 82" data-lcs-prim="time-line" style="flex:0 0 auto">${svg}</svg>` +
             `<div style="display:flex;align-items:center;gap:10px">${answerBox({ w: 70, h: 50, answer: hAns })}${BIG(uh, 24)}${d.hoursOnly ? '' : answerBox({ w: 70, h: 50, answer: mAns }) + BIG(um, 24)}</div></div>`);
         }

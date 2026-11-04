@@ -1,6 +1,6 @@
 {
   "locale": "nl",
-  "generated_at": "2026-11-03T08:26:16.322Z",
+  "generated_at": "2026-11-04T03:14:10.683Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -9,8 +9,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-nl"
   ],
-  "count_approved": 1064,
-  "count_quarantined": 201,
+  "count_approved": 1063,
+  "count_quarantined": 202,
   "entries": [
     {
       "key": "acorn",
@@ -944,31 +944,38 @@
     },
     {
       "key": "athlete",
-      "word": "atleet",
+      "word": "hardloopster",
       "split": [
-        "at",
-        "leet"
+        "hard",
+        "loop",
+        "ster"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
+          "h",
           "a",
-          "t"
+          "r",
+          "d"
         ],
         [
           "l",
-          "ee",
-          "t"
+          "oo",
+          "p"
+        ],
+        [
+          "s",
+          "t",
+          "e",
+          "r"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/ɑtˈleːt/"
+      "total_agreed": 3
     },
     {
       "key": "author",
@@ -4620,17 +4627,22 @@
     },
     {
       "key": "candy",
-      "word": "snoep",
+      "word": "snoepje",
       "split": [
-        "snoep"
+        "snoep",
+        "je"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
         [
           "s",
           "n",
           "oe",
           "p"
+        ],
+        [
+          "j",
+          "e"
         ]
       ],
       "sources_agreed": [
@@ -4640,7 +4652,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/snup/"
+      "wiktionary_ipa": "/ˈsnup.jə/"
     },
     {
       "key": "candy-cane",
@@ -5115,35 +5127,6 @@
       ],
       "total_agreed": 4,
       "wiktionary_ipa": "/ˈkɑ.saː/"
-    },
-    {
-      "key": "cashier",
-      "word": "kassier",
-      "split": [
-        "kas",
-        "sier"
-      ],
-      "count": 2,
-      "chunks": [
-        [
-          "k",
-          "a",
-          "s"
-        ],
-        [
-          "s",
-          "ie",
-          "r"
-        ]
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
-      ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/kɑˈsir/"
     },
     {
       "key": "cast",
@@ -28027,26 +28010,21 @@
     },
     {
       "key": "tailor",
-      "word": "kleermaker",
+      "word": "naaister",
       "split": [
-        "kleer",
-        "ma",
-        "ker"
+        "naai",
+        "ster"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         [
-          "k",
-          "l",
-          "ee",
-          "r"
+          "n",
+          "aa",
+          "i"
         ],
         [
-          "m",
-          "a"
-        ],
-        [
-          "k",
+          "s",
+          "t",
           "e",
           "r"
         ]
@@ -28054,11 +28032,9 @@
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/ˈkleːrˌmaː.kər/"
+      "total_agreed": 3
     },
     {
       "key": "tank",
@@ -28229,21 +28205,16 @@
     },
     {
       "key": "teacher",
-      "word": "leraar",
+      "word": "juf",
       "split": [
-        "le",
-        "raar"
+        "juf"
       ],
-      "count": 2,
+      "count": 1,
       "chunks": [
         [
-          "l",
-          "e"
-        ],
-        [
-          "r",
-          "aa",
-          "r"
+          "j",
+          "u",
+          "f"
         ]
       ],
       "sources_agreed": [
@@ -28253,7 +28224,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈleː.raːr/"
+      "wiktionary_ipa": "/jʏf/"
     },
     {
       "key": "teacup",

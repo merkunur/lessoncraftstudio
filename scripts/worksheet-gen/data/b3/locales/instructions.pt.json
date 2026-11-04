@@ -638,14 +638,14 @@
       "de": "da tartaruga"
     },
     "vulture": {
-      "unique": "o abutre",
-      "all": "todos os abutres",
-      "pl": "abutres",
+      "unique": "o urubu",
+      "all": "todos os urubus",
+      "pl": "urubus",
       "ord": {
-        "2": "o segundo abutre",
-        "3": "o terceiro abutre",
-        "4": "o quarto abutre",
-        "5": "o quinto abutre"
+        "2": "o segundo urubu",
+        "3": "o terceiro urubu",
+        "4": "o quarto urubu",
+        "5": "o quinto urubu"
       },
       "dat": null,
       "def": null,
@@ -654,7 +654,7 @@
       "gen": null,
       "a2": null,
       "reviewed": true,
-      "de": "do abutre"
+      "de": "do urubu"
     },
     "whale": {
       "unique": "a baleia",

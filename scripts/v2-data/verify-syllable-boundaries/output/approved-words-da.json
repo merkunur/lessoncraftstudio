@@ -1,6 +1,6 @@
 {
   "locale": "da",
-  "generated_at": "2026-11-03T08:26:16.386Z",
+  "generated_at": "2026-11-04T03:14:12.458Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "da-quarantine-regex"
   ],
-  "count_approved": 792,
-  "count_quarantined": 473,
+  "count_approved": 791,
+  "count_quarantined": 474,
   "entries": [
     {
       "key": "alpaca",
@@ -2747,26 +2747,6 @@
       "nst_sampa": "sda$\"Ri:?n$%ly:?s"
     },
     {
-      "key": "candy",
-      "word": "slik",
-      "split": [
-        "slik"
-      ],
-      "count": 1,
-      "chunks": [
-        "slik"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "nst_sampa": "\"sleg",
-      "wiktionary_ipa": "[ˈsleɡ̊]"
-    },
-    {
       "key": "cap",
       "word": "kasket",
       "split": [
@@ -4958,17 +4938,15 @@
     },
     {
       "key": "dice",
-      "word": "terninger",
+      "word": "terning",
       "split": [
         "ter",
-        "nin",
-        "ger"
+        "ning"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         "ter",
-        "nin",
-        "ger"
+        "ning"
       ],
       "sources_agreed": [
         "TeX",
@@ -4978,9 +4956,10 @@
       "total_agreed": 3,
       "policy_managed": true,
       "policy_managed_reasons": [
+        "final_stop_not_realized",
         "post_vocalic_r_vocalized"
       ],
-      "nst_sampa": "\"tE6$%neN?$6"
+      "nst_sampa": "\"tE6$neN"
     },
     {
       "key": "dishwasher",
@@ -16216,29 +16195,25 @@
     },
     {
       "key": "tailor",
-      "word": "skrædder",
+      "word": "syerske",
       "split": [
-        "skræd",
-        "der"
+        "sy",
+        "er",
+        "ske"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
-        "skræd",
-        "der"
+        "sy",
+        "er",
+        "ske"
       ],
       "sources_agreed": [
         "TeX",
         "vocab-phonics-syl",
-        "Wiktionary-syl-count",
-        "NST-syl-count"
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 4,
-      "policy_managed": true,
-      "policy_managed_reasons": [
-        "post_vocalic_r_vocalized"
-      ],
-      "nst_sampa": "\"sgRED$6",
-      "wiktionary_ipa": "/skrɛdər/"
+      "total_agreed": 3,
+      "wiktionary_ipa": "/syːərskə/"
     },
     {
       "key": "tank",

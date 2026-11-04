@@ -6227,13 +6227,17 @@
     ],
     "candy": [
      [
-      "g",
-      "o"
+      "k",
+      "a"
      ],
      [
-      "d",
-      "i",
-      "s"
+      "r",
+      "a"
+     ],
+     [
+      "m",
+      "e",
+      "ll"
      ]
     ],
     "carrot": [
@@ -11354,17 +11358,17 @@
     "tailor": [
      [
       "s",
+      "ö"
+     ],
+     [
+      "mm",
+      "e",
+      "r",
+      "s"
+     ],
+     [
       "k",
-      "r",
-      "ä"
-     ],
-     [
-      "dd",
       "a"
-     ],
-     [
-      "r",
-      "e"
      ]
     ],
     "veterinarian": [
@@ -14425,6 +14429,14 @@
      ]
     },
     {
+     "key": "baby",
+     "word": "bebis",
+     "split": [
+      "be",
+      "bis"
+     ]
+    },
+    {
      "key": "badger",
      "word": "grävling",
      "split": [
@@ -14641,6 +14653,14 @@
      ]
     },
     {
+     "key": "brush",
+     "word": "pensel",
+     "split": [
+      "pen",
+      "sel"
+     ]
+    },
+    {
      "key": "bulldozer",
      "word": "bulldozer",
      "split": [
@@ -14725,10 +14745,11 @@
     },
     {
      "key": "candy",
-     "word": "godis",
+     "word": "karamell",
      "split": [
-      "go",
-      "dis"
+      "ka",
+      "ra",
+      "mell"
      ]
     },
     {
@@ -14839,14 +14860,6 @@
      ]
     },
     {
-     "key": "chicken",
-     "word": "kyckling",
-     "split": [
-      "kyck",
-      "ling"
-     ]
-    },
-    {
      "key": "chimney",
      "word": "skorsten",
      "split": [
@@ -14926,6 +14939,14 @@
      "split": [
       "da",
       "tor"
+     ]
+    },
+    {
+     "key": "construction-crane",
+     "word": "lyftkran",
+     "split": [
+      "lyft",
+      "kran"
      ]
     },
     {
@@ -15071,11 +15092,10 @@
     },
     {
      "key": "dice",
-     "word": "tärningar",
+     "word": "tärning",
      "split": [
       "tär",
-      "ning",
-      "ar"
+      "ning"
      ]
     },
     {
@@ -15812,10 +15832,10 @@
     },
     {
      "key": "muffin",
-     "word": "muffin",
+     "word": "muffins",
      "split": [
       "muf",
-      "fin"
+      "fins"
      ]
     },
     {
@@ -16002,15 +16022,6 @@
       "ska",
       "la",
       "re"
-     ]
-    },
-    {
-     "key": "pegasus",
-     "word": "pegasus",
-     "split": [
-      "pe",
-      "ga",
-      "sus"
      ]
     },
     {
@@ -16396,11 +16407,11 @@
     },
     {
      "key": "santa",
-     "word": "jultomten",
+     "word": "jultomte",
      "split": [
       "jul",
       "tom",
-      "ten"
+      "te"
      ]
     },
     {
@@ -16497,10 +16508,10 @@
     },
     {
      "key": "sink",
-     "word": "diskbank",
+     "word": "diskbänk",
      "split": [
       "disk",
-      "bank"
+      "bänk"
      ]
     },
     {
@@ -16721,11 +16732,11 @@
     },
     {
      "key": "tailor",
-     "word": "skräddare",
+     "word": "sömmerska",
      "split": [
-      "skräd",
-      "da",
-      "re"
+      "söm",
+      "mers",
+      "ka"
      ]
     },
     {

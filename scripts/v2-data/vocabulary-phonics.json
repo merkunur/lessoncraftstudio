@@ -2210,9 +2210,9 @@
       "vs": "short_a"
     },
     "de": {
-      "syl": 2,
-      "pat": "VCCCVC",
-      "lc": 6
+      "syl": 3,
+      "pat": "CVVCVCVC",
+      "lc": 8
     },
     "fr": {
       "syl": 3,
@@ -2220,14 +2220,14 @@
       "lc": 7
     },
     "es": {
-      "syl": 3,
-      "pat": "VCCVCV",
-      "lc": 6
+      "syl": 4,
+      "pat": "CVCCVCVCV",
+      "lc": 9
     },
     "pt": {
-      "syl": 3,
-      "pat": "VCCVCV",
-      "lc": 6
+      "syl": 4,
+      "pat": "CVCCVCVCV",
+      "lc": 9
     },
     "it": {
       "syl": 3,
@@ -2235,9 +2235,9 @@
       "lc": 6
     },
     "nl": {
-      "syl": 2,
-      "pat": "VCCVC",
-      "lc": 6
+      "syl": 3,
+      "pat": "CVCCCVVCCCVC",
+      "lc": 12
     },
     "sv": {
       "syl": 2,
@@ -11121,9 +11121,9 @@
       "vs": "short_a"
     },
     "de": {
-      "syl": 3,
-      "pat": "CVCVCCVVC",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCCVC",
+      "lc": 6
     },
     "fr": {
       "syl": 2,
@@ -11146,24 +11146,24 @@
       "lc": 9
     },
     "nl": {
-      "syl": 1,
-      "pat": "CCVC",
-      "lc": 5
+      "syl": 2,
+      "pat": "CCVVCCV",
+      "lc": 7
     },
     "sv": {
-      "syl": 2,
-      "pat": "CVCVC",
-      "lc": 5
+      "syl": 3,
+      "pat": "CVCVCVCC",
+      "lc": 8
     },
     "da": {
-      "syl": 1,
-      "pat": "CCVC",
-      "lc": 4
+      "syl": 2,
+      "pat": "CVCCCV",
+      "lc": 6
     },
     "no": {
       "syl": 3,
-      "pat": "CVCCVCV",
-      "lc": 7
+      "pat": "CVCVCVCC",
+      "lc": 8
     },
     "fi": {
       "syl": 2,
@@ -12313,9 +12313,9 @@
       "vs": "short_a"
     },
     "de": {
-      "syl": 3,
-      "pat": "CVCCVCVC",
-      "lc": 9
+      "syl": 4,
+      "pat": "CVCCVVCVCVC",
+      "lc": 11
     },
     "fr": {
       "syl": 2,
@@ -20216,18 +20216,18 @@
     },
     "fr": {
       "syl": 1,
-      "pat": "CVC",
-      "lc": 3
+      "pat": "CV",
+      "lc": 2
     },
     "es": {
       "syl": 2,
-      "pat": "CVCVC",
-      "lc": 5
+      "pat": "CVCV",
+      "lc": 4
     },
     "pt": {
       "syl": 2,
-      "pat": "CVCVC",
-      "lc": 5
+      "pat": "CVCV",
+      "lc": 4
     },
     "it": {
       "syl": 2,
@@ -20245,18 +20245,18 @@
       "lc": 7
     },
     "da": {
-      "syl": 3,
-      "pat": "CVCCVCVC",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCCVCC",
+      "lc": 7
     },
     "no": {
-      "syl": 3,
-      "pat": "CVCCVCVC",
-      "lc": 9
+      "syl": 2,
+      "pat": "CVCCVCC",
+      "lc": 7
     },
     "fi": {
       "syl": 2,
-      "pat": "CVCVC",
+      "pat": "CVCCV",
       "lc": 5
     }
   },
@@ -25858,9 +25858,9 @@
       "vs": "short_o"
     },
     "de": {
-      "syl": 2,
-      "pat": "CCVCVC",
-      "lc": 7
+      "syl": 3,
+      "pat": "CCVCVCCVC",
+      "lc": 9
     },
     "fr": {
       "syl": 3,
@@ -47581,9 +47581,9 @@
       "lc": 9
     },
     "de": {
-      "syl": 6,
-      "pat": "CVCCVCCCVCVCVCVC",
-      "lc": 17
+      "syl": 5,
+      "pat": "CVCVCVCVCVC",
+      "lc": 11
     },
     "fr": {
       "syl": 4,
@@ -47596,8 +47596,8 @@
       "lc": 10
     },
     "pt": {
-      "syl": 5,
-      "pat": "CVCVCVCVCV",
+      "syl": 4,
+      "pat": "CVCVCCVCCV",
       "lc": 10
     },
     "it": {
@@ -67114,9 +67114,9 @@
       "vs": "long_a"
     },
     "de": {
-      "syl": 2,
-      "pat": "CCVCVC",
-      "lc": 9
+      "syl": 3,
+      "pat": "CCCCVVCVCVC",
+      "lc": 11
     },
     "fr": {
       "syl": 2,
@@ -67124,14 +67124,14 @@
       "lc": 8
     },
     "es": {
-      "syl": 2,
-      "pat": "CVCCCV",
-      "lc": 6
+      "syl": 4,
+      "pat": "CVCCVCVCV",
+      "lc": 9
     },
     "pt": {
-      "syl": 3,
-      "pat": "VCCVVCV",
-      "lc": 8
+      "syl": 4,
+      "pat": "CVCCVCVVCV",
+      "lc": 10
     },
     "it": {
       "syl": 2,
@@ -67139,9 +67139,9 @@
       "lc": 5
     },
     "nl": {
-      "syl": 3,
-      "pat": "CCVCCVCVC",
-      "lc": 10
+      "syl": 2,
+      "pat": "CVVVCCVC",
+      "lc": 8
     },
     "sv": {
       "syl": 3,
@@ -67149,9 +67149,9 @@
       "lc": 9
     },
     "da": {
-      "syl": 2,
-      "pat": "CCVCCVC",
-      "lc": 8
+      "syl": 3,
+      "pat": "CVVCCCV",
+      "lc": 7
     },
     "no": {
       "syl": 2,
@@ -67616,9 +67616,9 @@
       "vs": "long_e"
     },
     "de": {
-      "syl": 2,
-      "pat": "CVCCVC",
-      "lc": 6
+      "syl": 3,
+      "pat": "CVCCVCVC",
+      "lc": 8
     },
     "fr": {
       "syl": 3,
@@ -67626,14 +67626,14 @@
       "lc": 10
     },
     "es": {
-      "syl": 2,
+      "syl": 3,
       "pat": "CVVCCCV",
       "lc": 7
     },
     "pt": {
-      "syl": 3,
-      "pat": "CCVCVCVC",
-      "lc": 9
+      "syl": 4,
+      "pat": "CCVCVCCVCV",
+      "lc": 10
     },
     "it": {
       "syl": 4,
@@ -67641,9 +67641,9 @@
       "lc": 10
     },
     "nl": {
-      "syl": 2,
-      "pat": "CVCVC",
-      "lc": 6
+      "syl": 1,
+      "pat": "CVC",
+      "lc": 3
     },
     "sv": {
       "syl": 3,
@@ -73026,8 +73026,8 @@
     },
     "pt": {
       "syl": 3,
-      "pat": "VCVCCV",
-      "lc": 6
+      "pat": "VCVCV",
+      "lc": 5
     },
     "it": {
       "syl": 3,

@@ -1,6 +1,6 @@
 {
   "locale": "no",
-  "generated_at": "2026-11-03T08:26:16.454Z",
+  "generated_at": "2026-11-04T03:14:12.811Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-no"
   ],
-  "count_approved": 829,
-  "count_quarantined": 436,
+  "count_approved": 828,
+  "count_quarantined": 437,
   "entries": [
     {
       "key": "accordion",
@@ -3753,36 +3753,35 @@
     },
     {
       "key": "candy",
-      "word": "godteri",
+      "word": "karamell",
       "split": [
-        "god",
-        "te",
-        "ri"
+        "ka",
+        "ra",
+        "mell"
       ],
       "count": 3,
       "chunks": [
         [
-          "g",
-          "o",
-          "d"
-        ],
-        [
-          "t",
-          "e"
+          "k",
+          "a"
         ],
         [
           "r",
-          "i"
+          "a"
+        ],
+        [
+          "m",
+          "e",
+          "l",
+          "l"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"gO$t@$rI"
+      "total_agreed": 3
     },
     {
       "key": "candy-cane",
@@ -6783,13 +6782,12 @@
     },
     {
       "key": "dice",
-      "word": "terninger",
+      "word": "terning",
       "split": [
         "ter",
-        "nin",
-        "ger"
+        "ning"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         [
           "t",
@@ -6799,22 +6797,15 @@
         [
           "n",
           "i",
-          "n"
-        ],
-        [
-          "g",
-          "e",
-          "r"
+          "ng"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"t{:$n`IN$@r"
+      "total_agreed": 3
     },
     {
       "key": "dinosaur",
@@ -22095,37 +22086,6 @@
       ],
       "total_agreed": 4,
       "wiktionary_ipa": "/nɛt.brɛt/"
-    },
-    {
-      "key": "tailor",
-      "word": "skredder",
-      "split": [
-        "skred",
-        "der"
-      ],
-      "count": 2,
-      "chunks": [
-        [
-          "s",
-          "k",
-          "r",
-          "e",
-          "d"
-        ],
-        [
-          "d",
-          "e",
-          "r"
-        ]
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl",
-        "NST-syl-count"
-      ],
-      "total_agreed": 4,
-      "nst_sampa": "\"\"skrE$d@r"
     },
     {
       "key": "tank",

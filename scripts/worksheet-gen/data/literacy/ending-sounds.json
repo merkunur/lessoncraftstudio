@@ -672,6 +672,13 @@
     "answer": "i"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dé",
+    "answer": "é"
+   },
+   {
     "theme": "around the house",
     "noun": "key",
     "key": "key",
@@ -912,17 +919,17 @@
     "answer": "o"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "o"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
     "word": "dedo",
-    "answer": "o"
-   },
-   {
-    "theme": "beach",
-    "noun": "lighthouse",
-    "key": "lighthouse",
-    "word": "faro",
     "answer": "o"
    },
    {
@@ -1301,6 +1308,13 @@
     "answer": "o"
    },
    {
+    "theme": "toys",
+    "noun": "dice",
+    "key": "dice",
+    "word": "dado",
+    "answer": "o"
+   },
+   {
     "theme": "body parts",
     "noun": "finger",
     "key": "finger",
@@ -1333,13 +1347,6 @@
     "noun": "nose",
     "key": "nose",
     "word": "naso",
-    "answer": "o"
-   },
-   {
-    "theme": "spring",
-    "noun": "nest",
-    "key": "nest",
-    "word": "nido",
     "answer": "o"
    },
    {
@@ -2061,6 +2068,13 @@
     "answer": "e"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "stege",
+    "answer": "e"
+   },
+   {
     "theme": "accessories",
     "noun": "mitten",
     "key": "mitten",
@@ -2079,13 +2093,6 @@
     "noun": "glove",
     "key": "glove",
     "word": "handske",
-    "answer": "e"
-   },
-   {
-    "theme": "camping",
-    "noun": "pinecone",
-    "key": "pinecone",
-    "word": "kotte",
     "answer": "e"
    },
    {
@@ -3649,6 +3656,13 @@
     "answer": "t"
    },
    {
+    "theme": "tools",
+    "noun": "ladder",
+    "key": "ladder",
+    "word": "tikkaat",
+    "answer": "t"
+   },
+   {
     "theme": "body parts",
     "noun": "brain",
     "key": "brain",
@@ -3674,13 +3688,6 @@
     "noun": "curtains",
     "key": "curtains",
     "word": "verhot",
-    "answer": "t"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "peas",
-    "key": "peas",
-    "word": "herneet",
     "answer": "t"
    },
    {

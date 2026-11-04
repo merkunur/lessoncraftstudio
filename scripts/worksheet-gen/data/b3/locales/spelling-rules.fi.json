@@ -2792,22 +2792,6 @@
           "pluralGap": null
         },
         {
-          "theme": "toys",
-          "noun": "dice",
-          "vocabKey": "dice",
-          "word": "nopat",
-          "gaps": [
-            {
-              "from": 2,
-              "len": 1
-            }
-          ],
-          "g": "p",
-          "side": "contrast",
-          "plural": "nopat",
-          "pluralGap": null
-        },
-        {
           "theme": "around the house",
           "noun": "dresser",
           "vocabKey": "dresser",

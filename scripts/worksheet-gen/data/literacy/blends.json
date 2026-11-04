@@ -257,7 +257,6 @@
    "gr",
    "kr",
    "sk",
-   "sl",
    "sn",
    "sp",
    "st",
@@ -2300,34 +2299,6 @@
     "key": "shovel",
     "word": "skovl",
     "blend": "sk"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "candy",
-    "key": "candy",
-    "word": "slik",
-    "blend": "sl"
-   },
-   {
-    "theme": "winter",
-    "noun": "sled",
-    "key": "sled",
-    "word": "slæde",
-    "blend": "sl"
-   },
-   {
-    "theme": "accessories",
-    "noun": "tie",
-    "key": "tie",
-    "word": "slips",
-    "blend": "sl"
-   },
-   {
-    "theme": "around the house",
-    "noun": "hose",
-    "key": "hose",
-    "word": "slange",
-    "blend": "sl"
    },
    {
     "theme": "forest creatures",

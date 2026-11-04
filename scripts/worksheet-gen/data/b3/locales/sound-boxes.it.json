@@ -2625,7 +2625,7 @@
       ],
       [
         "r",
-        "e"
+        "a"
       ]
     ],
     "cast": [
@@ -3997,7 +3997,7 @@
       ],
       [
         "d",
-        "i"
+        "o"
       ]
     ],
     "dimetrodon": [
@@ -7198,7 +7198,7 @@
       [
         "r",
         "i",
-        "o"
+        "a"
       ]
     ],
     "lid": [
@@ -8918,28 +8918,6 @@
       [
         "m",
         "a"
-      ]
-    ],
-    "paramedic": [
-      [
-        "p",
-        "a"
-      ],
-      [
-        "r",
-        "a"
-      ],
-      [
-        "m",
-        "e"
-      ],
-      [
-        "d",
-        "i"
-      ],
-      [
-        "c",
-        "o"
       ]
     ],
     "parasaurolophus": [
@@ -12433,7 +12411,7 @@
       ],
       [
         "t",
-        "o"
+        "a"
       ]
     ],
     "tank-top": [
@@ -12494,25 +12472,6 @@
       [
         "t",
         "a"
-      ]
-    ],
-    "teacher": [
-      [
-        "i",
-        "n"
-      ],
-      [
-        "s",
-        "e"
-      ],
-      [
-        "gn",
-        "a",
-        "n"
-      ],
-      [
-        "t",
-        "e"
       ]
     ],
     "teddy-bear": [
@@ -13492,7 +13451,7 @@
       [
         "r",
         "i",
-        "o"
+        "a"
       ]
     ],
     "violet": [
@@ -13941,6 +13900,21 @@
       [
         "n",
         "i",
+        "a"
+      ]
+    ],
+    "teacher": [
+      [
+        "m",
+        "a"
+      ],
+      [
+        "e"
+      ],
+      [
+        "s",
+        "t",
+        "r",
         "a"
       ]
     ]
@@ -14435,7 +14409,6 @@
     "pants",
     "paper",
     "parallelogram",
-    "paramedic",
     "parasaurolophus",
     "parasol",
     "parrot",
@@ -14648,7 +14621,6 @@
     "tank-top",
     "tanker-truck",
     "tart",
-    "teacher",
     "teddy-bear",
     "telephone",
     "telescope",

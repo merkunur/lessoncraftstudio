@@ -1201,6 +1201,14 @@
       ]
     },
     {
+      "key": "candy",
+      "word": "snoepje",
+      "split": [
+        "snoep",
+        "je"
+      ]
+    },
+    {
       "key": "cardinal",
       "word": "kardinaal",
       "split": [
@@ -1307,6 +1315,14 @@
       "split": [
         "ke",
         "gel"
+      ]
+    },
+    {
+      "key": "construction-crane",
+      "word": "hijskraan",
+      "split": [
+        "hijs",
+        "kraan"
       ]
     },
     {
@@ -1956,6 +1972,14 @@
       "split": [
         "me",
         "loen"
+      ]
+    },
+    {
+      "key": "metal-nail",
+      "word": "spijker",
+      "split": [
+        "spij",
+        "ker"
       ]
     },
     {

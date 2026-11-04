@@ -5410,7 +5410,6 @@
         "desk",
         "detective",
         "diamond",
-        "dice",
         "dimetrodon",
         "diplodocus",
         "doctor",
@@ -5517,7 +5516,6 @@
         "ladder",
         "ladle",
         "lamb",
-        "lamp",
         "lavender",
         "leaf",
         "leg",
@@ -5595,7 +5593,6 @@
         "pants",
         "papaya",
         "paper",
-        "paramedic",
         "parsnip",
         "peacock",
         "peas",
@@ -6113,15 +6110,19 @@
         ],
         "athlete": [
           [
-            "a"
+            "c",
+            "o"
           ],
           [
-            "t",
-            "l",
+            "rr",
             "e"
           ],
           [
-            "t",
+            "d",
+            "o"
+          ],
+          [
+            "r",
             "a"
           ]
         ],
@@ -8436,8 +8437,7 @@
           ],
           [
             "d",
-            "o",
-            "s"
+            "o"
           ]
         ],
         "dimetrodon": [
@@ -10507,20 +10507,6 @@
             "o"
           ]
         ],
-        "lamp": [
-          [
-            "l",
-            "âm"
-          ],
-          [
-            "p",
-            "a"
-          ],
-          [
-            "d",
-            "a"
-          ]
-        ],
         "lavender": [
           [
             "l",
@@ -11845,24 +11831,21 @@
         ],
         "paramedic": [
           [
-            "p",
-            "a"
-          ],
-          [
-            "r",
-            "a"
-          ],
-          [
-            "m",
-            "é"
-          ],
-          [
-            "d",
-            "i"
+            "s",
+            "o"
           ],
           [
             "c",
             "o"
+          ],
+          [
+            "rr",
+            "i",
+            "s"
+          ],
+          [
+            "t",
+            "a"
           ]
         ],
         "parsnip": [
@@ -14280,8 +14263,11 @@
           ],
           [
             "ss",
-            "o",
-            "r"
+            "o"
+          ],
+          [
+            "r",
+            "a"
           ]
         ],
         "teapot": [
@@ -14948,7 +14934,7 @@
           [
             "r",
             "i",
-            "o"
+            "a"
           ]
         ],
         "violet": [
@@ -14983,16 +14969,15 @@
         ],
         "vulture": [
           [
-            "a"
+            "u"
+          ],
+          [
+            "r",
+            "u"
           ],
           [
             "b",
             "u"
-          ],
-          [
-            "t",
-            "r",
-            "e"
           ]
         ],
         "waffle": [
@@ -16607,15 +16592,6 @@
           "readOnly": [],
           "words": [
             {
-              "key": "dice",
-              "word": "dados",
-              "unit": "da",
-              "split": [
-                "da",
-                "dos"
-              ]
-            },
-            {
               "key": "domino",
               "word": "dominó",
               "unit": "do",
@@ -16871,7 +16847,9 @@
             "pre",
             "pro"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "tri"
+          ],
           "words": [
             {
               "key": "clover",
@@ -16942,12 +16920,13 @@
             },
             {
               "key": "teacher",
-              "word": "professor",
+              "word": "professora",
               "unit": "pro",
               "split": [
                 "pro",
                 "fes",
-                "sor"
+                "so",
+                "ra"
               ]
             },
             {
@@ -17052,7 +17031,9 @@
             "gri",
             "dra"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "cra"
+          ],
           "words": [
             {
               "key": "arm",
@@ -17760,6 +17741,15 @@
           ]
         },
         {
+          "key": "construction-crane",
+          "word": "guindaste",
+          "split": [
+            "guin",
+            "das",
+            "te"
+          ]
+        },
+        {
           "key": "cookie",
           "word": "biscoito",
           "split": [
@@ -17852,14 +17842,6 @@
             "lo",
             "san",
             "go"
-          ]
-        },
-        {
-          "key": "dice",
-          "word": "dados",
-          "split": [
-            "da",
-            "dos"
           ]
         },
         {
@@ -18457,15 +18439,6 @@
           ]
         },
         {
-          "key": "lamp",
-          "word": "lâmpada",
-          "split": [
-            "lâm",
-            "pa",
-            "da"
-          ]
-        },
-        {
           "key": "leaf",
           "word": "folha",
           "split": [
@@ -18598,6 +18571,14 @@
           "split": [
             "me",
             "lão"
+          ]
+        },
+        {
+          "key": "metal-nail",
+          "word": "prego",
+          "split": [
+            "pre",
+            "go"
           ]
         },
         {
@@ -19364,15 +19345,6 @@
             "se",
             "rin",
             "ga"
-          ]
-        },
-        {
-          "key": "teacher",
-          "word": "professor",
-          "split": [
-            "pro",
-            "fes",
-            "sor"
           ]
         },
         {
@@ -24983,14 +24955,14 @@
           "reviewed": true
         },
         "vulture": {
-          "unique": "o abutre",
-          "all": "todos os abutres",
-          "pl": "abutres",
+          "unique": "o urubu",
+          "all": "todos os urubus",
+          "pl": "urubus",
           "ord": {
-            "2": "o segundo abutre",
-            "3": "o terceiro abutre",
-            "4": "o quarto abutre",
-            "5": "o quinto abutre"
+            "2": "o segundo urubu",
+            "3": "o terceiro urubu",
+            "4": "o quarto urubu",
+            "5": "o quinto urubu"
           },
           "dat": null,
           "def": null,

@@ -1317,6 +1317,14 @@
       ]
     },
     {
+      "key": "baby",
+      "word": "bebis",
+      "split": [
+        "be",
+        "bis"
+      ]
+    },
+    {
       "key": "badger",
       "word": "grävling",
       "split": [
@@ -1533,6 +1541,14 @@
       ]
     },
     {
+      "key": "brush",
+      "word": "pensel",
+      "split": [
+        "pen",
+        "sel"
+      ]
+    },
+    {
       "key": "bulldozer",
       "word": "bulldozer",
       "split": [
@@ -1617,10 +1633,11 @@
     },
     {
       "key": "candy",
-      "word": "godis",
+      "word": "karamell",
       "split": [
-        "go",
-        "dis"
+        "ka",
+        "ra",
+        "mell"
       ]
     },
     {
@@ -1813,6 +1830,14 @@
       ]
     },
     {
+      "key": "construction-crane",
+      "word": "lyftkran",
+      "split": [
+        "lyft",
+        "kran"
+      ]
+    },
+    {
       "key": "cooler",
       "word": "kylväska",
       "split": [
@@ -1955,11 +1980,10 @@
     },
     {
       "key": "dice",
-      "word": "tärningar",
+      "word": "tärning",
       "split": [
         "tär",
-        "ning",
-        "ar"
+        "ning"
       ]
     },
     {
@@ -2889,14 +2913,6 @@
       ]
     },
     {
-      "key": "pegasus",
-      "word": "pegas",
-      "split": [
-        "pe",
-        "gas"
-      ]
-    },
-    {
       "key": "pen",
       "word": "penna",
       "split": [
@@ -3604,11 +3620,11 @@
     },
     {
       "key": "tailor",
-      "word": "skräddare",
+      "word": "sömmerska",
       "split": [
-        "skräd",
-        "da",
-        "re"
+        "söm",
+        "mers",
+        "ka"
       ]
     },
     {

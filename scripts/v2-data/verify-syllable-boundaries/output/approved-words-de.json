@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "generated_at": "2026-11-03T08:26:15.753Z",
+  "generated_at": "2026-11-04T03:14:10.275Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -842,30 +842,36 @@
     },
     {
       "key": "athlete",
-      "word": "Athlet",
+      "word": "Läuferin",
       "split": [
-        "ath",
-        "let"
+        "läu",
+        "fe",
+        "rin"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
-          "a",
-          "t",
-          "h"
+          "l",
+          "äu"
         ],
         [
-          "l",
-          "e",
-          "t"
+          "f",
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl"
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 3
+      "total_agreed": 4,
+      "wiktionary_ipa": "[ˈlɔɪ̯fəʁɪn]"
     },
     {
       "key": "author",
@@ -4704,27 +4710,22 @@
     },
     {
       "key": "candy",
-      "word": "Süßigkeit",
+      "word": "Bonbon",
       "split": [
-        "sü",
-        "ßig",
-        "keit"
+        "bon",
+        "bon"
       ],
-      "count": 3,
+      "count": 2,
       "chunks": [
         [
-          "s",
-          "ü"
+          "b",
+          "o",
+          "n"
         ],
         [
-          "ß",
-          "i",
-          "g"
-        ],
-        [
-          "k",
-          "ei",
-          "t"
+          "b",
+          "o",
+          "n"
         ]
       ],
       "sources_agreed": [
@@ -4734,7 +4735,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈzyːsɪçˌkaɪ̯t/"
+      "wiktionary_ipa": "/bɔ̃ˈbɔ̃/"
     },
     {
       "key": "candy-cane",
@@ -5202,13 +5203,14 @@
     },
     {
       "key": "cashier",
-      "word": "Kassierer",
+      "word": "Kassiererin",
       "split": [
         "kas",
         "sie",
-        "rer"
+        "re",
+        "rin"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
         [
           "k",
@@ -5221,18 +5223,20 @@
         ],
         [
           "r",
-          "e",
-          "r"
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/kaˈsiːʁɐ/"
+      "total_agreed": 3
     },
     {
       "key": "cast",
@@ -11109,12 +11113,13 @@
     },
     {
       "key": "florist",
-      "word": "Florist",
+      "word": "Floristin",
       "split": [
         "flo",
-        "rist"
+        "ris",
+        "tin"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
           "f",
@@ -11124,17 +11129,20 @@
         [
           "r",
           "i",
-          "st"
+          "s"
+        ],
+        [
+          "t",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/floˈʁɪst/"
+      "total_agreed": 3
     },
     {
       "key": "flower",
@@ -20038,28 +20046,16 @@
     },
     {
       "key": "paramedic",
-      "word": "Rettungssanitäter",
+      "word": "Sanitäterin",
       "split": [
-        "ret",
-        "tungs",
         "sa",
         "ni",
         "tä",
-        "ter"
+        "te",
+        "rin"
       ],
-      "count": 6,
+      "count": 5,
       "chunks": [
-        [
-          "r",
-          "e",
-          "t"
-        ],
-        [
-          "t",
-          "u",
-          "ng",
-          "s"
-        ],
         [
           "s",
           "a"
@@ -20074,16 +20070,22 @@
         ],
         [
           "t",
-          "e",
-          "r"
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl"
+        "vocab-phonics-syl",
+        "Wiktionary-syl-count"
       ],
-      "total_agreed": 3
+      "total_agreed": 4,
+      "wiktionary_ipa": "/zaniˈtɛːtəʁɪn/"
     },
     {
       "key": "parasaurolophus",
@@ -28490,12 +28492,13 @@
     },
     {
       "key": "tailor",
-      "word": "Schneider",
+      "word": "Schneiderin",
       "split": [
         "schnei",
-        "der"
+        "de",
+        "rin"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
           "sch",
@@ -28504,8 +28507,12 @@
         ],
         [
           "d",
-          "e",
-          "r"
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
@@ -28515,7 +28522,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈʃnaɪ̯dɐ/"
+      "wiktionary_ipa": "[ˈʃnaɪ̯dəʁɪn]"
     },
     {
       "key": "tank",
@@ -28673,12 +28680,13 @@
     },
     {
       "key": "teacher",
-      "word": "Lehrer",
+      "word": "Lehrerin",
       "split": [
         "leh",
-        "rer"
+        "re",
+        "rin"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         [
           "l",
@@ -28687,8 +28695,12 @@
         ],
         [
           "r",
-          "e",
-          "r"
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
         ]
       ],
       "sources_agreed": [
@@ -28698,7 +28710,7 @@
         "Wiktionary-syl-count"
       ],
       "total_agreed": 4,
-      "wiktionary_ipa": "/ˈleːrər/"
+      "wiktionary_ipa": "/ˈleː.rə.rɪn/"
     },
     {
       "key": "teacup",

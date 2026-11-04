@@ -51,7 +51,17 @@ const sum = (a) => a.reduce((s, x) => s + x, 0);
 /** the amount as the child reads it on a coin page: "47 ¢", "35 ct", "4 kr" (smallest unit, the G1 convention) */
 // an amount of 100 cents or more is written in the whole unit where the currency has cents (1,05 €, $1.20 — never "105 snt",
 // which no euro-zone or US school writes; 2026-11-04 contact-sheet read); below 100 it stays in cents (45 snt, 95¢)
-const subAmount = (n, cur, locale) => (locale && n >= 100 && fmtOf(locale).cents ? formatMoney(n, locale) : `${n}${NB}${cur.unit}`);
+// Grade 2 in the euro countries writes money in MIXED units (decimal money is a Grade 3 / cycle 3 step there — native +
+// pedagogy review 2026-11-04): de 1 € 5 ct · fr 1 € 5 c · fi 1 € 5 snt · it 1 € e 5 cent · nl 1 euro en 5 ct; en-US ($1.05)
+// and pt-BR (R$ 1,05) print the decimal form their Grade 2 books use
+const MIXED = { de: { e: '€', and: ' ' }, fr: { e: '€', and: ' ' }, fi: { e: '€', and: ' ' }, it: { e: '€', and: ' e ' }, nl: { e: 'euro', and: ' en ' } };
+const subAmount = (n, cur, locale) => {
+  if (!(locale && n >= 100 && fmtOf(locale).cents)) return `${n}${NB}${cur.unit}`;
+  const mx = MIXED[loc2(locale)];
+  if (!mx) return formatMoney(n, locale);
+  const E = Math.floor(n / 100), C = n % 100;
+  return C ? `${E}${NB}${mx.e}${mx.and}${C}${NB}${cur.unit}` : `${E}${NB}${mx.e}`;
+};
 
 /** fewest coins: every way to make `amount` from `vals` (counts), the minimum count, and how many ways reach it */
 function fewestWays(amount, vals) {

@@ -7319,26 +7319,6 @@
             "e"
           ]
         ],
-        "candy": [
-          [
-            "s",
-            "ü"
-          ],
-          [
-            "ß",
-            "i",
-            "g"
-          ],
-          [
-            "k",
-            "ei"
-          ],
-          [
-            "t",
-            "e",
-            "n"
-          ]
-        ],
         "cap": [
           [
             "k",
@@ -7499,8 +7479,12 @@
           ],
           [
             "r",
-            "e",
-            "r"
+            "e"
+          ],
+          [
+            "r",
+            "i",
+            "n"
           ]
         ],
         "cast": [
@@ -8746,8 +8730,12 @@
           [
             "r",
             "i",
-            "s",
-            "t"
+            "s"
+          ],
+          [
+            "t",
+            "i",
+            "n"
           ]
         ],
         "flower": [
@@ -11029,16 +11017,7 @@
         ],
         "paramedic": [
           [
-            "r",
-            "e"
-          ],
-          [
-            "tt",
-            "u",
-            "ng"
-          ],
-          [
-            "ss",
+            "s",
             "a"
           ],
           [
@@ -11051,8 +11030,12 @@
           ],
           [
             "t",
-            "e",
-            "r"
+            "e"
+          ],
+          [
+            "r",
+            "i",
+            "n"
           ]
         ],
         "parrot": [
@@ -12932,8 +12915,12 @@
           ],
           [
             "d",
-            "e",
-            "r"
+            "e"
+          ],
+          [
+            "r",
+            "i",
+            "n"
           ]
         ],
         "tape": [
@@ -13788,7 +13775,6 @@
         "calculator",
         "camel",
         "candle",
-        "candy",
         "cape",
         "capricious",
         "cardigan",
@@ -16299,7 +16285,10 @@
             "flie",
             "flö"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "fli",
+            "flu"
+          ],
           "words": [
             {
               "key": "bottle",
@@ -16341,11 +16330,12 @@
             },
             {
               "key": "florist",
-              "word": "Florist",
+              "word": "Floristin",
               "unit": "flo",
               "split": [
                 "flo",
-                "rist"
+                "ris",
+                "tin"
               ]
             },
             {
@@ -16372,7 +16362,11 @@
             "krö",
             "krü"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "kre",
+            "kri",
+            "kru"
+          ],
           "words": [
             {
               "key": "tie",
@@ -16443,7 +16437,12 @@
             "blau",
             "blei"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "bla",
+            "ble",
+            "bli",
+            "blo"
+          ],
           "words": [
             {
               "key": "blueberry",
@@ -16505,7 +16504,12 @@
             "tru",
             "trau"
           ],
-          "readOnly": [],
+          "readOnly": [
+            "tre",
+            "tri",
+            "tro",
+            "tru"
+          ],
           "words": [
             {
               "key": "trapezoid",
@@ -16638,10 +16642,11 @@
         },
         {
           "key": "athlete",
-          "word": "Athlet",
+          "word": "Läuferin",
           "split": [
-            "ath",
-            "let"
+            "läu",
+            "fe",
+            "rin"
           ]
         },
         {
@@ -16935,6 +16940,14 @@
           ]
         },
         {
+          "key": "brush",
+          "word": "Pinsel",
+          "split": [
+            "pin",
+            "sel"
+          ]
+        },
+        {
           "key": "bucket",
           "word": "Eimer",
           "split": [
@@ -17089,15 +17102,6 @@
             "ka",
             "rot",
             "te"
-          ]
-        },
-        {
-          "key": "cashier",
-          "word": "Kassierer",
-          "split": [
-            "kas",
-            "sie",
-            "rer"
           ]
         },
         {
@@ -17682,10 +17686,11 @@
         },
         {
           "key": "florist",
-          "word": "Florist",
+          "word": "Floristin",
           "split": [
             "flo",
-            "rist"
+            "ris",
+            "tin"
           ]
         },
         {
@@ -19404,14 +19409,6 @@
           ]
         },
         {
-          "key": "tailor",
-          "word": "Schneider",
-          "split": [
-            "schnei",
-            "der"
-          ]
-        },
-        {
           "key": "tape",
           "word": "Klebeband",
           "split": [
@@ -19430,10 +19427,11 @@
         },
         {
           "key": "teacher",
-          "word": "Lehrer",
+          "word": "Lehrerin",
           "split": [
             "leh",
-            "rer"
+            "re",
+            "rin"
           ]
         },
         {
@@ -19659,6 +19657,14 @@
           ]
         },
         {
+          "key": "violet",
+          "word": "Veilchen",
+          "split": [
+            "veil",
+            "chen"
+          ]
+        },
+        {
           "key": "violin",
           "word": "Geige",
           "split": [
@@ -19856,7 +19862,8 @@
         "timer",
         "turquoise",
         "venus",
-        "writing"
+        "writing",
+        "candy"
       ],
       "whitelist": {},
       "refuse": {

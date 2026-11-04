@@ -1166,34 +1166,6 @@
       "hubSide": "b",
       "opaque": false,
       "picOpened": true
-    },
-    {
-      "a": {
-        "vocabKey": null,
-        "word": "lumi"
-      },
-      "aStem": null,
-      "link": "",
-      "b": {
-        "vocabKey": "bell",
-        "word": "kello",
-        "pic": {
-          "theme": "christmas",
-          "noun": "bell"
-        }
-      },
-      "whole": {
-        "word": "lumikello",
-        "vocabKey": "snowdrop",
-        "scale": 1,
-        "pic": {
-          "theme": "flowers",
-          "noun": "snowdrop"
-        }
-      },
-      "hubSide": "b",
-      "opaque": false,
-      "picOpened": true
     }
   ],
   "hubs": [

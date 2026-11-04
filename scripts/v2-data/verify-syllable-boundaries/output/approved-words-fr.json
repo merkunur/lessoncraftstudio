@@ -1,14 +1,14 @@
 {
   "locale": "fr",
-  "generated_at": "2026-11-03T08:26:15.783Z",
+  "generated_at": "2026-11-04T03:14:10.305Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 812,
-  "count_quarantined": 453,
+  "count_approved": 811,
+  "count_quarantined": 454,
   "entries": [
     {
       "key": "acorn",
@@ -732,17 +732,17 @@
     },
     {
       "key": "athlete",
-      "word": "athlète",
+      "word": "coureuse",
       "split": [
-        "ath",
-        "lè",
-        "te"
+        "cou",
+        "reu",
+        "se"
       ],
       "count": 3,
       "chunks": [
-        "ath",
-        "lè",
-        "te"
+        "cou",
+        "reu",
+        "se"
       ],
       "sources_agreed": [
         "rule",
@@ -753,8 +753,8 @@
       "notes": {
         "tex_disagreed_with_rule": true,
         "tex_split": [
-          "ath",
-          "lète"
+          "cou",
+          "reuse"
         ]
       }
     },
@@ -5374,13 +5374,13 @@
     },
     {
       "key": "dice",
-      "word": "dés",
+      "word": "dé",
       "split": [
-        "dés"
+        "dé"
       ],
       "count": 1,
       "chunks": [
-        "dés"
+        "dé"
       ],
       "sources_agreed": [
         "TeX",
@@ -12351,6 +12351,37 @@
       }
     },
     {
+      "key": "paramedic",
+      "word": "secouriste",
+      "split": [
+        "se",
+        "cou",
+        "ris",
+        "te"
+      ],
+      "count": 4,
+      "chunks": [
+        "se",
+        "cou",
+        "ris",
+        "te"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "se",
+          "cou",
+          "riste"
+        ]
+      }
+    },
+    {
       "key": "parasaurolophus",
       "word": "parasaurolophus",
       "split": [
@@ -17215,31 +17246,6 @@
       }
     },
     {
-      "key": "tailor",
-      "word": "tailleur",
-      "split": [
-        "tail",
-        "leur"
-      ],
-      "count": 2,
-      "chunks": [
-        "tail",
-        "leur"
-      ],
-      "sources_agreed": [
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "tailleur"
-        ]
-      }
-    },
-    {
       "key": "tank",
       "word": "char",
       "split": [
@@ -17334,28 +17340,6 @@
           "taxi"
         ]
       }
-    },
-    {
-      "key": "teacher",
-      "word": "professeur",
-      "split": [
-        "pro",
-        "fes",
-        "seur"
-      ],
-      "count": 3,
-      "chunks": [
-        "pro",
-        "fes",
-        "seur"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "telephone",

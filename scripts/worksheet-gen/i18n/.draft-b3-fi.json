@@ -2558,34 +2558,6 @@
      "hubSide": "b",
      "opaque": false,
      "picOpened": true
-    },
-    {
-     "a": {
-      "vocabKey": null,
-      "word": "lumi"
-     },
-     "aStem": null,
-     "link": "",
-     "b": {
-      "vocabKey": "bell",
-      "word": "kello",
-      "pic": {
-       "theme": "christmas",
-       "noun": "bell"
-      }
-     },
-     "whole": {
-      "word": "lumikello",
-      "vocabKey": "snowdrop",
-      "scale": 1,
-      "pic": {
-       "theme": "flowers",
-       "noun": "snowdrop"
-      }
-     },
-     "hubSide": "b",
-     "opaque": false,
-     "picOpened": true
     }
    ],
    "hubs": [
@@ -6781,21 +6753,21 @@
      "reviewed": true
     },
     "dice": {
-     "unique": "nopat",
+     "unique": "noppa",
      "all": "kaikki nopat",
      "allDef": "kaikki nopat",
      "pl": "nopat",
      "ord": {
-      "2": "toinen nopat",
-      "3": "kolmas nopat",
-      "4": "neljäs nopat",
-      "5": "viides nopat"
+      "2": "toinen noppa",
+      "3": "kolmas noppa",
+      "4": "neljäs noppa",
+      "5": "viides noppa"
      },
      "dat": null,
      "def": null,
      "defPl": null,
      "part": "noppaa",
-     "gen": "noppien",
+     "gen": "nopan",
      "a2": null,
      "reviewed": true
     },
@@ -14220,18 +14192,18 @@
        "theme": "toys",
        "noun": "dice",
        "key": "dice",
-       "word": "nopat",
+       "word": "noppa",
        "graphemes": [
         "n",
         "o",
         "p",
-        "a",
-        "t"
+        "p",
+        "a"
        ],
        "pos": 0,
        "split": [
-        "no",
-        "pat"
+        "nop",
+        "pa"
        ]
       },
       {
@@ -16344,24 +16316,6 @@
        "split": [
         "hiuk",
         "set"
-       ]
-      },
-      {
-       "theme": "toys",
-       "noun": "dice",
-       "key": "dice",
-       "word": "nopat",
-       "graphemes": [
-        "n",
-        "o",
-        "p",
-        "a",
-        "t"
-       ],
-       "pos": 4,
-       "split": [
-        "no",
-        "pat"
        ]
       },
       {
@@ -23632,12 +23586,12 @@
     "dice": [
      [
       "n",
-      "o"
+      "o",
+      "p"
      ],
      [
       "p",
-      "a",
-      "t"
+      "a"
      ]
     ],
     "doctor": [
@@ -29390,22 +29344,6 @@
        "pluralGap": null
       },
       {
-       "theme": "toys",
-       "noun": "dice",
-       "vocabKey": "dice",
-       "word": "nopat",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 1
-        }
-       ],
-       "g": "p",
-       "side": "contrast",
-       "plural": "nopat",
-       "pluralGap": null
-      },
-      {
        "theme": "around the house",
        "noun": "dresser",
        "vocabKey": "dresser",
@@ -32738,15 +32676,6 @@
      "readOnly": [],
      "words": [
       {
-       "key": "dice",
-       "word": "nopat",
-       "unit": "no",
-       "split": [
-        "no",
-        "pat"
-       ]
-      },
-      {
        "key": "stapler",
        "word": "nitoja",
        "unit": "ni",
@@ -32929,7 +32858,10 @@
       "tal",
       "tel"
      ],
-     "readOnly": [],
+     "readOnly": [
+      "tal",
+      "tel"
+     ],
      "words": [
       {
        "key": "coat",
@@ -34249,6 +34181,15 @@
      ]
     },
     {
+     "key": "construction-crane",
+     "word": "nosturi",
+     "split": [
+      "nos",
+      "tu",
+      "ri"
+     ]
+    },
+    {
      "key": "cook",
      "word": "kokki",
      "split": [
@@ -34389,10 +34330,10 @@
     },
     {
      "key": "dice",
-     "word": "nopat",
+     "word": "noppa",
      "split": [
-      "no",
-      "pat"
+      "nop",
+      "pa"
      ]
     },
     {
@@ -35249,6 +35190,14 @@
       "me",
       "lo",
       "ni"
+     ]
+    },
+    {
+     "key": "metal-nail",
+     "word": "naula",
+     "split": [
+      "nau",
+      "la"
      ]
     },
     {
@@ -36110,6 +36059,15 @@
      "split": [
       "lii",
       "vi"
+     ]
+    },
+    {
+     "key": "violet",
+     "word": "orvokki",
+     "split": [
+      "or",
+      "vok",
+      "ki"
      ]
     },
     {

@@ -24,9 +24,9 @@ const REJECT = require('../lib/picture-name-refusals.js').REFUSED;
 const WORD_REJECT = {
   en: ['arm', 'acorn', 'iron', 'owl', 'oval', 'sack', 'jug'],
   de: ['Elf', 'Arzt', 'Clownfisch', 'Dachs'],
-  fr: ['élan', 'pic', 'excavatrice', 'ovale'],
+  fr: ['élan', 'pic', 'excavatrice', 'ovale', 'clou'],   // clou (11-04 review): C beside clé would show two /kl/ blends — C + a vowel (cœur) teaches the letter's sound
   es: ['bote', 'alce'],
-  pt: ['aipo', 'alce', 'doce', 'escada', 'escova', 'elfo', 'xilofone'],
+  pt: ['aipo', 'alce', 'doce', 'escada', 'escadas', 'escova', 'elfo', 'xilofone'],   // escadas: the stairs' word since 11-03 (es- said [is], as escada)
   it: ['bagel', 'sofà', 'infermiera', 'viso', 'alce'],
   nl: ['jam', 'camper', 'gier', 'hen', 'das', 'duif'],
   sv: ['elvisp', 'isglass', 'gam', 'kon', 'xylofon', 'bo', 'narval'],
@@ -41,7 +41,7 @@ const EXTRA = {
   fr: { E: ['snail'], I: ['igloo', 'iguana'], 'É': ['star'] },
   es: { A: ['bee', 'airplane'], B: ['boat'], J: ['jug'] },
   pt: { A: ['bee', 'airplane'], E: ['elephant'] },
-  nl: { H: ['hand'], K: ['chicken'] },
+  nl: { H: ['hand'], J: ['dress'], K: ['chicken'] },   // J jurk: on the sheets since 11-02; "juf" (the teacher, refused picture) took its place in the window 11-04
   sv: { E: ['squirrel', 'elephant'], I: ['hedgehog', 'igloo'], N: ['nose', 'key'], 'Å': ['donkey'] },
   da: { I: ['igloo'], 'Æ': ['donkey'], N: ['nose'] },
 };

@@ -465,25 +465,6 @@
           "hubSide": "b",
           "opaque": false,
           "picOpened": true
-        },
-        {
-          "a": {
-            "vocabKey": "ambulance",
-            "word": "ambulance"
-          },
-          "aStem": "ambulanc",
-          "link": "",
-          "b": {
-            "affix": "-ier"
-          },
-          "whole": {
-            "word": "ambulancier",
-            "vocabKey": "paramedic",
-            "scale": 1
-          },
-          "hubSide": "b",
-          "opaque": false,
-          "picOpened": true
         }
       ]
     }

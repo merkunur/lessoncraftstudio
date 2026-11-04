@@ -7,6 +7,12 @@
  */
 'use strict';
 const PICTURE_REFUSALS = new Set([
+  // 2026-11-04 native + pedagogy review (pictures opened): a long-necked four-legged dinosaur drawn for the two-legged
+  // raptor deinonychus, a crestless one for parasaurolophus (its crest is what children know it by), an upturned white
+  // star flower for the drooping snowdrop bell
+  "dinosaurs|deinonychus",
+  "dinosaurs|parasaurolophus",
+  "flowers|snowdrop",
   "apparel bw|shirt",
   "valentine bw|angel",
   "body parts|ankle",

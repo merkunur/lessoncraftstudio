@@ -41,10 +41,15 @@ function apply(ctx, role, picked, pool, keyOf, extra) {
  * Pictures: items are { noun, vocabKey, … } from labelSafeNouns(theme); the key is the noun (unique in a theme).
  * theme = the theme the pool comes from (a type may draw from another theme than the page's: a B&W sibling, a partner)
  */
-const pictures = (ctx, picked, pool, theme, role = 'pic') => apply(ctx, role, picked, pool, (p) => p.noun, { theme });
+const pictures = (ctx, picked, pool, theme, role = 'pic', opts) => apply(ctx, role, picked, pool, (p) => p.noun, { theme, ...(opts && opts.derives ? { derives: opts.derives } : {}) });   // opts.derives: as words()
 
-/** Words: items are strings (or { word }); the key is the word itself. */
-const words = (ctx, picked, pool, role = 'word') => apply(ctx, role, picked, pool, (w) => (typeof w === 'string' ? w : w.word));
+/**
+ * Words: items are strings (or { word }); the key is the word itself.
+ * opts.derives: the page content BUILT from the word, which must follow it (meta paths, "{i}" = the swapped item): K-437's
+ * own row ("words.{i}": the letters left out of THIS word), G1-474's whole puzzle (its sums spell the word). Recorded with
+ * the slot, so the own-input gate compares everything else and still catches a swap that moves another row.
+ */
+const words = (ctx, picked, pool, role = 'word', opts) => apply(ctx, role, picked, pool, (w) => (typeof w === 'string' ? w : w.word), opts && opts.derives ? { derives: opts.derives } : null);
 
 /**
  * Pictures from SEVERAL themes (2026-11-02, Sorting): items are { theme, noun, … } — a reviewed list that spans themes
@@ -129,6 +134,7 @@ function byKind(ctx, items, kindOf, poolFor, opts = {}) {
     if (good) { chosen.forEach((x, j) => { out[idx[j]] = x; }); if (chosen.some((x, j) => x !== cur[j])) applied.push({ role, take }); }
     else { take({ ...ctx, overrides: null }); refuse(ctx, role); }
     idx.forEach((i, j) => { tapAt[i] = attr(ctx, role, j); });
+    if (opts.derives && ctx.slotsOut && ctx.slotsOut[role]) ctx.slotsOut[role].derives = opts.derives;   // as words()
   });
   // opts.page(items): the type's rule over the WHOLE page (no repeated stem, at most two of a group …) — when the
   // teacher's choices together break it, every changed role is refused and the page is drawn as it was

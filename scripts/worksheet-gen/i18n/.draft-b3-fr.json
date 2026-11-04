@@ -343,7 +343,7 @@
   },
   "G2-321": {
    "title": "Sauts dans le tableau des nombres : suis les flèches",
-   "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à droite 1 de plus, à gauche 1 de moins. Écris où tu arrives."
+   "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à gauche 1 de moins, à droite 1 de plus. Écris où tu arrives."
   },
   "G2-322": {
    "title": "Le nombre mystère : deux flèches, une case",
@@ -379,7 +379,7 @@
   },
   "G2-330": {
    "title": "Retrouve le radical : coupe le mot en deux",
-   "instruction": "Le mot est écrit dans des cases, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
+   "instruction": "Le mot est écrit lettre par lettre, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
   },
   "G2-332": {
    "title": "Mot simple ou mot construit ?",
@@ -387,7 +387,7 @@
   },
   "G2-334": {
    "title": "Relie le pronom à la bonne forme du verbe",
-   "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui."
+   "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui. Puis complète les deux phrases."
   },
   "G2-335": {
    "title": "Complète les phrases avec le verbe au présent",
@@ -438,7 +438,7 @@
    "instruction": "Une image barrée : l'enfant ne l'a pas. Une image entourée : l'enfant l'a. Barre sur la grille, puis entoure chaque réponse."
   },
   "G3-379": {
-   "title": "Logigrammes à deux critères : deux images par enfant",
+   "title": "Logigrammes à deux critères",
    "instruction": "Chaque enfant a une image de chaque série. Utilise les indices qui les relient pour remplir les trois grilles."
   },
   "G2-345": {
@@ -1039,19 +1039,18 @@
        "theme": "farm animals",
        "noun": "chicken",
        "key": "chicken",
-       "word": "poulet",
+       "word": "poule",
        "graphemes": [
         "p",
         "o",
         "u",
         "l",
-        "e",
-        "t"
+        "e"
        ],
        "pos": 3,
        "split": [
         "pou",
-        "let"
+        "le"
        ]
       },
       {
@@ -3970,25 +3969,6 @@
        ]
       },
       {
-       "theme": "farm animals",
-       "noun": "chicken",
-       "key": "chicken",
-       "word": "poulet",
-       "graphemes": [
-        "p",
-        "o",
-        "u",
-        "l",
-        "e",
-        "t"
-       ],
-       "pos": 5,
-       "split": [
-        "pou",
-        "let"
-       ]
-      },
-      {
        "theme": "clothing",
        "noun": "beanie",
        "key": "beanie",
@@ -4266,24 +4246,6 @@
        "split": [
         "pous",
         "sin"
-       ]
-      },
-      {
-       "theme": "farm animals",
-       "noun": "chicken",
-       "key": "chicken",
-       "word": "poulet",
-       "graphemes": [
-        "p",
-        "ou",
-        "l",
-        "e",
-        "t"
-       ],
-       "pos": 1,
-       "split": [
-        "pou",
-        "let"
        ]
       },
       {
@@ -7097,7 +7059,6 @@
     "glass",
     "grasshopper",
     "hedgehog",
-    "muffin",
     "overalls",
     "pizza",
     "sausage",
@@ -8289,16 +8250,6 @@
       "on"
      ]
     ],
-    "muffin": [
-     [
-      "m",
-      "u"
-     ],
-     [
-      "ff",
-      "in"
-     ]
-    ],
     "milk": [
      [
       "l",
@@ -8746,17 +8697,6 @@
       "r"
      ]
     ],
-    "badger": [
-     [
-      "b",
-      "l",
-      "ai"
-     ],
-     [
-      "r",
-      "eau"
-     ]
-    ],
     "dragonfly": [
      [
       "l",
@@ -9090,7 +9030,6 @@
     "truck",
     "ant",
     "beaver",
-    "badger",
     "lizard",
     "mouse",
     "snail",
@@ -10093,7 +10032,21 @@
      "animal": "Mon animal préféré",
      "food": "Mon plat préféré",
      "color": "Ma couleur préférée",
-     "toy": "Mon jouet préféré"
+     "toy": "Mon jouet préféré",
+     "fruit": "Mon fruit préféré",
+     "vegetable": "Mon légume préféré",
+     "pet": "Mon petit animal préféré",
+     "instrument": "Mon instrument préféré",
+     "hobby": "Mon activité préférée",
+     "treat": "Ma gourmandise préférée",
+     "bird": "Mon oiseau préféré",
+     "bug": "Ma petite bête préférée",
+     "sea": "Mon animal marin préféré",
+     "vehicle": "Mon véhicule préféré",
+     "clothes": "Mon vêtement préféré",
+     "breakfast": "Mon petit-déjeuner préféré",
+     "shape": "Ma forme préférée",
+     "farm": "Mon animal de ferme préféré"
     },
     "countHeads": {
      "people": "Personnes dans ma famille :",
@@ -10135,7 +10088,36 @@
     "skate": "Je sais patiner",
     "ski": "Je sais skier",
     "writename": "J'écris mon prénom",
-    "brushteeth": "Je me lave les dents"
+    "brushteeth": "Je me lave les dents",
+    "bounce": "Je sais dribbler",
+    "slide": "Je sais descendre le toboggan",
+    "hike": "Je sais marcher longtemps",
+    "comb": "Je sais me peigner",
+    "washhands": "Je sais me laver les mains",
+    "dress": "Je sais m'habiller",
+    "coat": "Je sais boutonner mon manteau",
+    "boots": "Je sais mettre mes bottes",
+    "bed": "Je sais faire mon lit",
+    "tidy": "Je sais balayer",
+    "cut": "Je sais utiliser des ciseaux",
+    "glue": "Je sais coller",
+    "draw": "Je sais colorier sans dépasser",
+    "backpack": "Je sais préparer mon cartable",
+    "drum": "Je sais jouer du tambour",
+    "guitar": "Je sais jouer de la guitare",
+    "blocks": "Je sais empiler des cubes",
+    "dice": "Je sais jouer aux dés",
+    "bake": "J'aide à faire un gâteau",
+    "photo": "Je sais prendre une photo",
+    "kite": "Je sais lancer un cerf-volant",
+    "fish": "Je sais pêcher un poisson",
+    "tent": "J'ai dormi sous une tente",
+    "water": "Je sais arroser les plantes",
+    "puddle": "Je saute dans les flaques",
+    "swing": "Je sais faire de la balançoire",
+    "umbrella": "Je sais ouvrir un parapluie",
+    "jumprope": "Je sais sauter à la corde",
+    "iceskate": "Je sais patiner"
    },
    "refuse": [],
    "optionWords": {
@@ -10171,7 +10153,122 @@
     "blocks": "blocs",
     "robot": "robot",
     "dinosaur": "dinosaure",
-    "boat": "bateau"
+    "boat": "bateau",
+    "lemon": "citron",
+    "kiwi": "kiwi",
+    "orange": "orange",
+    "pear": "poire",
+    "pineapple": "ananas",
+    "watermelon": "pastèque",
+    "raspberry": "framboise",
+    "coconut": "noix de coco",
+    "broccoli": "brocoli",
+    "corn": "maïs",
+    "cucumber": "concombre",
+    "tomato": "tomate",
+    "potato": "pomme de terre",
+    "pumpkin": "citrouille",
+    "eggplant": "aubergine",
+    "lettuce": "laitue",
+    "onion": "oignon",
+    "cauliflower": "chou-fleur",
+    "goldfish": "poisson rouge",
+    "hamster": "hamster",
+    "parrot": "perroquet",
+    "turtle": "tortue",
+    "mouse": "souris",
+    "frog": "grenouille",
+    "drum": "tambour",
+    "flute": "flûte",
+    "guitar": "guitare",
+    "piano": "piano",
+    "trumpet": "trompette",
+    "violin": "violon",
+    "harp": "harpe",
+    "xylophone": "xylophone",
+    "accordion": "accordéon",
+    "saxophone": "saxophone",
+    "soccer": "football",
+    "tennis": "tennis",
+    "basketball": "basketball",
+    "swimming": "natation",
+    "skating": "patinage",
+    "biking": "vélo",
+    "chess": "échecs",
+    "cupcake": "cupcake",
+    "donut": "beignet",
+    "lollipop": "sucette",
+    "popsicle": "glace à l'eau",
+    "waffle": "gaufre",
+    "muffin": "muffin",
+    "eagle": "aigle",
+    "flamingo": "flamant",
+    "owl": "hibou",
+    "peacock": "paon",
+    "toucan": "toucan",
+    "ostrich": "autruche",
+    "pelican": "pélican",
+    "bee": "abeille",
+    "ant": "fourmi",
+    "butterfly": "papillon",
+    "caterpillar": "chenille",
+    "ladybug": "coccinelle",
+    "dragonfly": "libellule",
+    "snail": "escargot",
+    "spider": "araignée",
+    "worm": "ver",
+    "crab": "crabe",
+    "dolphin": "dauphin",
+    "octopus": "pieuvre",
+    "jellyfish": "méduse",
+    "whale": "baleine",
+    "starfish": "étoile de mer",
+    "shark": "requin",
+    "seal": "phoque",
+    "airplane": "avion",
+    "bicycle": "vélo",
+    "bus": "bus",
+    "helicopter": "hélicoptère",
+    "tractor": "tracteur",
+    "rocket": "fusée",
+    "motorcycle": "moto",
+    "sailboat": "voilier",
+    "submarine": "sous-marin",
+    "hat": "chapeau",
+    "boots": "bottes",
+    "dress": "robe",
+    "coat": "manteau",
+    "cap": "casquette",
+    "t-shirt": "t-shirt",
+    "scarf": "écharpe",
+    "jeans": "jean",
+    "pajamas": "pyjama",
+    "sweater": "pull",
+    "skirt": "jupe",
+    "shorts": "short",
+    "cereal": "céréales",
+    "pancake": "crêpe",
+    "croissant": "croissant",
+    "bagel": "bagel",
+    "sausage": "saucisse",
+    "juice": "jus",
+    "circle": "cercle",
+    "square": "carré",
+    "triangle": "triangle",
+    "star": "étoile",
+    "heart": "cœur",
+    "diamond": "losange",
+    "oval": "ovale",
+    "moon": "lune",
+    "hexagon": "hexagone",
+    "rectangle": "rectangle",
+    "pentagon": "pentagone",
+    "cow": "vache",
+    "goat": "chèvre",
+    "donkey": "âne",
+    "turkey": "dinde",
+    "goose": "oie",
+    "llama": "lama"
    },
    "strings": {
     "K-323": {
@@ -10198,7 +10295,8 @@
      "title": "Mon prénom : écris, compte et compare",
      "instruction": "Écris ton prénom, une lettre par case, et compte les lettres. Fais pareil pour un camarade et entoure qui en a le plus."
     }
-   }
+   },
+   "excludeOptions": []
   },
   "picture-word-cards": {
    "cardCase": "lower",
@@ -10295,8 +10393,8 @@
      "instruction": "Découpe les cartes. Dis le mot pour un seul, puis le mot pour plusieurs, et associe les deux cartes."
     },
     "bilingual": {
-     "title": "Imagier bilingue : français et anglais",
-     "instruction": "Découpe les huit cartes. Dis le mot en français, puis en anglais, et garde les cartes pour ton mur de mots."
+     "title": "Imagier bilingue : français et {U}",
+     "instruction": "Découpe les huit cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots."
     },
     "syllable": {
      "title": "Cartes de lecture : mots découpés en syllabes",
@@ -12647,8 +12745,7 @@
      "family": "temperature",
      "alt": {
       "a": [
-       "brûlant",
-       "tiède"
+       "brûlant"
       ],
       "b": [
        "glacé",
@@ -12808,7 +12905,9 @@
        "solide"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "easy-hard"
+     ],
      "syn": {
       "a": "moelleux"
      },
@@ -12913,7 +13012,10 @@
        "calme"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "calm-restless",
+      "strong-weak"
+     ],
      "syn": null,
      "far": "neuf",
      "pic": null,
@@ -13019,7 +13121,9 @@
        "fragile"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "loud-quiet"
+     ],
      "syn": {
       "a": "puissant"
      },
@@ -13150,7 +13254,9 @@
        "nerveux"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "loud-quiet"
+     ],
      "syn": {
       "a": "tranquille"
      },
@@ -13190,7 +13296,9 @@
        "dur"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "soft-hard"
+     ],
      "syn": {
       "a": "simple"
      },
@@ -13397,7 +13505,7 @@
      "instruction": "Lis le mot de chaque carte. Cherche son contraire dans la banque de mots et écris-le sur la ligne."
     },
     "K-351": {
-     "title": "Les contraires en images : relie les contraires",
+     "title": "Les contraires en images : relie chaque paire",
      "instruction": "Relie chaque image à l'image et au mot qui montrent son contraire."
     },
     "G1-335": {
@@ -13464,8 +13572,8 @@
      "8": "la huitième image"
     },
     "between": "l'image entre {A} et {B}",
-    "rightof": "l'image à droite de {A}",
-    "leftof": "l'image à gauche de {A}"
+    "rightof": "l'image à droite {A}",
+    "leftof": "l'image à gauche {A}"
    },
    "objForms": {
     "airplane": {
@@ -13484,7 +13592,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'avion",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'avion"
     },
     "ambulance": {
      "unique": "l'ambulance",
@@ -13502,7 +13611,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'ambulance",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'ambulance"
     },
     "antelope": {
      "unique": "l'antilope",
@@ -13520,7 +13630,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'antilope",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'antilope"
     },
     "apple": {
      "unique": "la pomme",
@@ -13538,7 +13649,8 @@
      "part": null,
      "gen": null,
      "a2": "à la pomme",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pomme"
     },
     "apricot": {
      "unique": "l'abricot",
@@ -13556,7 +13668,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'abricot",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'abricot"
     },
     "armadillo": {
      "unique": "le tatou",
@@ -13574,7 +13687,8 @@
      "part": null,
      "gen": null,
      "a2": "au tatou",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du tatou"
     },
     "avocado": {
      "unique": "l'avocat",
@@ -13592,7 +13706,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'avocat",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'avocat"
     },
     "ball": {
      "unique": "le ballon",
@@ -13610,7 +13725,8 @@
      "part": null,
      "gen": null,
      "a2": "au ballon",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du ballon"
     },
     "banana": {
      "unique": "la banane",
@@ -13628,7 +13744,8 @@
      "part": null,
      "gen": null,
      "a2": "à la banane",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la banane"
     },
     "bat": {
      "unique": "la chauve-souris",
@@ -13646,7 +13763,8 @@
      "part": null,
      "gen": null,
      "a2": "à la chauve-souris",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la chauve-souris"
     },
     "bear": {
      "unique": "l'ours",
@@ -13664,7 +13782,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'ours",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'ours"
     },
     "bee": {
      "unique": "l'abeille",
@@ -13682,7 +13801,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'abeille",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'abeille"
     },
     "bicycle": {
      "unique": "le vélo",
@@ -13700,7 +13820,8 @@
      "part": null,
      "gen": null,
      "a2": "au vélo",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du vélo"
     },
     "blackberry": {
      "unique": "la mûre",
@@ -13718,7 +13839,8 @@
      "part": null,
      "gen": null,
      "a2": "à la mûre",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la mûre"
     },
     "blueberry": {
      "unique": "la myrtille",
@@ -13736,7 +13858,8 @@
      "part": null,
      "gen": null,
      "a2": "à la myrtille",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la myrtille"
     },
     "boat": {
      "unique": "le bateau",
@@ -13754,7 +13877,8 @@
      "part": null,
      "gen": null,
      "a2": "au bateau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du bateau"
     },
     "bucket": {
      "unique": "le seau",
@@ -13772,7 +13896,8 @@
      "part": null,
      "gen": null,
      "a2": "au seau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du seau"
     },
     "bull": {
      "unique": "le taureau",
@@ -13790,7 +13915,8 @@
      "part": null,
      "gen": null,
      "a2": "au taureau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du taureau"
     },
     "bulldozer": {
      "unique": "le bulldozer",
@@ -13808,7 +13934,8 @@
      "part": null,
      "gen": null,
      "a2": "au bulldozer",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du bulldozer"
     },
     "bus": {
      "unique": "le bus",
@@ -13826,7 +13953,8 @@
      "part": null,
      "gen": null,
      "a2": "au bus",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du bus"
     },
     "calf": {
      "unique": "le veau",
@@ -13844,7 +13972,8 @@
      "part": null,
      "gen": null,
      "a2": "au veau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du veau"
     },
     "camel": {
      "unique": "le chameau",
@@ -13862,7 +13991,8 @@
      "part": null,
      "gen": null,
      "a2": "au chameau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du chameau"
     },
     "canoe": {
      "unique": "le canoë",
@@ -13880,7 +14010,8 @@
      "part": null,
      "gen": null,
      "a2": "au canoë",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du canoë"
     },
     "car": {
      "unique": "la voiture",
@@ -13898,7 +14029,8 @@
      "part": null,
      "gen": null,
      "a2": "à la voiture",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la voiture"
     },
     "cat": {
      "unique": "le chat",
@@ -13916,7 +14048,8 @@
      "part": null,
      "gen": null,
      "a2": "au chat",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du chat"
     },
     "cheetah": {
      "unique": "le guépard",
@@ -13934,7 +14067,8 @@
      "part": null,
      "gen": null,
      "a2": "au guépard",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du guépard"
     },
     "cherry": {
      "unique": "la cerise",
@@ -13952,7 +14086,8 @@
      "part": null,
      "gen": null,
      "a2": "à la cerise",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la cerise"
     },
     "chick": {
      "unique": "le poussin",
@@ -13970,7 +14105,8 @@
      "part": null,
      "gen": null,
      "a2": "au poussin",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du poussin"
     },
     "chicken": {
      "unique": "le poulet",
@@ -13988,7 +14124,8 @@
      "part": null,
      "gen": null,
      "a2": "au poulet",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du poulet"
     },
     "chimpanzee": {
      "unique": "le chimpanzé",
@@ -14006,7 +14143,8 @@
      "part": null,
      "gen": null,
      "a2": "au chimpanzé",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du chimpanzé"
     },
     "clementine": {
      "unique": "la clémentine",
@@ -14024,7 +14162,8 @@
      "part": null,
      "gen": null,
      "a2": "à la clémentine",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la clémentine"
     },
     "coconut": {
      "unique": "la noix de coco",
@@ -14042,7 +14181,8 @@
      "part": null,
      "gen": null,
      "a2": "à la noix de coco",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la noix de coco"
     },
     "cow": {
      "unique": "la vache",
@@ -14060,7 +14200,8 @@
      "part": null,
      "gen": null,
      "a2": "à la vache",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la vache"
     },
     "cranberry": {
      "unique": "la canneberge",
@@ -14078,7 +14219,8 @@
      "part": null,
      "gen": null,
      "a2": "à la canneberge",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la canneberge"
     },
     "dinosaur": {
      "unique": "le dinosaure",
@@ -14096,7 +14238,8 @@
      "part": null,
      "gen": null,
      "a2": "au dinosaure",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du dinosaure"
     },
     "dog": {
      "unique": "le chien",
@@ -14114,7 +14257,8 @@
      "part": null,
      "gen": null,
      "a2": "au chien",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du chien"
     },
     "doll": {
      "unique": "la poupée",
@@ -14132,7 +14276,8 @@
      "part": null,
      "gen": null,
      "a2": "à la poupée",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la poupée"
     },
     "dolphin": {
      "unique": "le dauphin",
@@ -14150,7 +14295,8 @@
      "part": null,
      "gen": null,
      "a2": "au dauphin",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du dauphin"
     },
     "donkey": {
      "unique": "l'âne",
@@ -14168,7 +14314,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'âne",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'âne"
     },
     "duck": {
      "unique": "le canard",
@@ -14186,7 +14333,8 @@
      "part": null,
      "gen": null,
      "a2": "au canard",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du canard"
     },
     "duckling": {
      "unique": "le caneton",
@@ -14204,7 +14352,8 @@
      "part": null,
      "gen": null,
      "a2": "au caneton",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du caneton"
     },
     "elephant": {
      "unique": "l'éléphant",
@@ -14222,7 +14371,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'éléphant",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'éléphant"
     },
     "excavator": {
      "unique": "l'excavatrice",
@@ -14240,7 +14390,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'excavatrice",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'excavatrice"
     },
     "ferry": {
      "unique": "le ferry",
@@ -14258,7 +14409,8 @@
      "part": null,
      "gen": null,
      "a2": "au ferry",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du ferry"
     },
     "fig": {
      "unique": "la figue",
@@ -14276,7 +14428,8 @@
      "part": null,
      "gen": null,
      "a2": "à la figue",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la figue"
     },
     "foal": {
      "unique": "le poulain",
@@ -14294,7 +14447,8 @@
      "part": null,
      "gen": null,
      "a2": "au poulain",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du poulain"
     },
     "forklift": {
      "unique": "le chariot élévateur",
@@ -14312,7 +14466,8 @@
      "part": null,
      "gen": null,
      "a2": "au chariot élévateur",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du chariot élévateur"
     },
     "fox": {
      "unique": "le renard",
@@ -14330,7 +14485,8 @@
      "part": null,
      "gen": null,
      "a2": "au renard",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du renard"
     },
     "gazelle": {
      "unique": "la gazelle",
@@ -14348,7 +14504,8 @@
      "part": null,
      "gen": null,
      "a2": "à la gazelle",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la gazelle"
     },
     "giraffe": {
      "unique": "la girafe",
@@ -14366,7 +14523,8 @@
      "part": null,
      "gen": null,
      "a2": "à la girafe",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la girafe"
     },
     "goat": {
      "unique": "la chèvre",
@@ -14384,7 +14542,8 @@
      "part": null,
      "gen": null,
      "a2": "à la chèvre",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la chèvre"
     },
     "goose": {
      "unique": "l'oie",
@@ -14402,7 +14561,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'oie",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'oie"
     },
     "gorilla": {
      "unique": "le gorille",
@@ -14420,7 +14580,8 @@
      "part": null,
      "gen": null,
      "a2": "au gorille",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du gorille"
     },
     "grapefruit": {
      "unique": "le pamplemousse",
@@ -14438,7 +14599,8 @@
      "part": null,
      "gen": null,
      "a2": "au pamplemousse",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du pamplemousse"
     },
     "helicopter": {
      "unique": "l'hélicoptère",
@@ -14456,7 +14618,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'hélicoptère",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'hélicoptère"
     },
     "hen": {
      "unique": "la poule",
@@ -14474,7 +14637,8 @@
      "part": null,
      "gen": null,
      "a2": "à la poule",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la poule"
     },
     "hippopotamus": {
      "unique": "l'hippopotame",
@@ -14492,7 +14656,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'hippopotame",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'hippopotame"
     },
     "horse": {
      "unique": "le cheval",
@@ -14510,7 +14675,8 @@
      "part": null,
      "gen": null,
      "a2": "au cheval",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du cheval"
     },
     "hyena": {
      "unique": "l'hyène",
@@ -14528,7 +14694,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'hyène",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'hyène"
     },
     "iguana": {
      "unique": "l'iguane",
@@ -14546,7 +14713,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'iguane",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'iguane"
     },
     "jaguar": {
      "unique": "le jaguar",
@@ -14564,7 +14732,8 @@
      "part": null,
      "gen": null,
      "a2": "au jaguar",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du jaguar"
     },
     "jeep": {
      "unique": "la jeep",
@@ -14582,7 +14751,8 @@
      "part": null,
      "gen": null,
      "a2": "à la jeep",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la jeep"
     },
     "jet": {
      "unique": "le jet",
@@ -14600,7 +14770,8 @@
      "part": null,
      "gen": null,
      "a2": "au jet",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du jet"
     },
     "kangaroo": {
      "unique": "le kangourou",
@@ -14618,7 +14789,8 @@
      "part": null,
      "gen": null,
      "a2": "au kangourou",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du kangourou"
     },
     "kite": {
      "unique": "le cerf-volant",
@@ -14636,7 +14808,8 @@
      "part": null,
      "gen": null,
      "a2": "au cerf-volant",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du cerf-volant"
     },
     "kiwi": {
      "unique": "le kiwi",
@@ -14654,7 +14827,8 @@
      "part": null,
      "gen": null,
      "a2": "au kiwi",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du kiwi"
     },
     "koala": {
      "unique": "le koala",
@@ -14672,7 +14846,8 @@
      "part": null,
      "gen": null,
      "a2": "au koala",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du koala"
     },
     "lamb": {
      "unique": "l'agneau",
@@ -14690,7 +14865,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'agneau",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'agneau"
     },
     "lemon": {
      "unique": "le citron",
@@ -14708,7 +14884,8 @@
      "part": null,
      "gen": null,
      "a2": "au citron",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du citron"
     },
     "lemur": {
      "unique": "le lémurien",
@@ -14726,7 +14903,8 @@
      "part": null,
      "gen": null,
      "a2": "au lémurien",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du lémurien"
     },
     "leopard": {
      "unique": "le léopard",
@@ -14744,7 +14922,8 @@
      "part": null,
      "gen": null,
      "a2": "au léopard",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du léopard"
     },
     "lime": {
      "unique": "le citron vert",
@@ -14762,7 +14941,8 @@
      "part": null,
      "gen": null,
      "a2": "au citron vert",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du citron vert"
     },
     "lion": {
      "unique": "le lion",
@@ -14780,7 +14960,8 @@
      "part": null,
      "gen": null,
      "a2": "au lion",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du lion"
     },
     "llama": {
      "unique": "le lama",
@@ -14798,7 +14979,8 @@
      "part": null,
      "gen": null,
      "a2": "au lama",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du lama"
     },
     "mango": {
      "unique": "la mangue",
@@ -14816,7 +14998,8 @@
      "part": null,
      "gen": null,
      "a2": "à la mangue",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la mangue"
     },
     "meerkat": {
      "unique": "le suricate",
@@ -14834,7 +15017,8 @@
      "part": null,
      "gen": null,
      "a2": "au suricate",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du suricate"
     },
     "monkey": {
      "unique": "le singe",
@@ -14852,7 +15036,8 @@
      "part": null,
      "gen": null,
      "a2": "au singe",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du singe"
     },
     "motorcycle": {
      "unique": "la moto",
@@ -14870,7 +15055,8 @@
      "part": null,
      "gen": null,
      "a2": "à la moto",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la moto"
     },
     "nectarine": {
      "unique": "la nectarine",
@@ -14888,7 +15074,8 @@
      "part": null,
      "gen": null,
      "a2": "à la nectarine",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la nectarine"
     },
     "orange": {
      "unique": "l'orange",
@@ -14906,7 +15093,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'orange",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'orange"
     },
     "orangutan": {
      "unique": "l'orang-outan",
@@ -14924,7 +15112,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'orang-outan",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'orang-outan"
     },
     "otter": {
      "unique": "la loutre",
@@ -14942,7 +15131,8 @@
      "part": null,
      "gen": null,
      "a2": "à la loutre",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la loutre"
     },
     "owl": {
      "unique": "le hibou",
@@ -14960,7 +15150,8 @@
      "part": null,
      "gen": null,
      "a2": "au hibou",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du hibou"
     },
     "ox": {
      "unique": "le bœuf",
@@ -14978,7 +15169,8 @@
      "part": null,
      "gen": null,
      "a2": "au bœuf",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du bœuf"
     },
     "panda": {
      "unique": "le panda",
@@ -14996,7 +15188,8 @@
      "part": null,
      "gen": null,
      "a2": "au panda",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du panda"
     },
     "papaya": {
      "unique": "la papaye",
@@ -15014,7 +15207,8 @@
      "part": null,
      "gen": null,
      "a2": "à la papaye",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la papaye"
     },
     "peach": {
      "unique": "la pêche",
@@ -15032,7 +15226,8 @@
      "part": null,
      "gen": null,
      "a2": "à la pêche",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pêche"
     },
     "pear": {
      "unique": "la poire",
@@ -15050,7 +15245,8 @@
      "part": null,
      "gen": null,
      "a2": "à la poire",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la poire"
     },
     "penguin": {
      "unique": "le manchot",
@@ -15068,7 +15264,8 @@
      "part": null,
      "gen": null,
      "a2": "au manchot",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du manchot"
     },
     "persimmon": {
      "unique": "le kaki",
@@ -15086,7 +15283,8 @@
      "part": null,
      "gen": null,
      "a2": "au kaki",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du kaki"
     },
     "pig": {
      "unique": "le cochon",
@@ -15104,7 +15302,8 @@
      "part": null,
      "gen": null,
      "a2": "au cochon",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du cochon"
     },
     "pineapple": {
      "unique": "l'ananas",
@@ -15122,7 +15321,8 @@
      "part": null,
      "gen": null,
      "a2": "à l'ananas",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de l'ananas"
     },
     "plum": {
      "unique": "la prune",
@@ -15140,7 +15340,8 @@
      "part": null,
      "gen": null,
      "a2": "à la prune",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la prune"
     },
     "pomegranate": {
      "unique": "la grenade",
@@ -15158,7 +15359,8 @@
      "part": null,
      "gen": null,
      "a2": "à la grenade",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la grenade"
     },
     "rabbit": {
      "unique": "le lapin",
@@ -15176,7 +15378,8 @@
      "part": null,
      "gen": null,
      "a2": "au lapin",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du lapin"
     },
     "raccoon": {
      "unique": "le raton laveur",
@@ -15194,7 +15397,8 @@
      "part": null,
      "gen": null,
      "a2": "au raton laveur",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du raton laveur"
     },
     "raspberry": {
      "unique": "la framboise",
@@ -15212,7 +15416,8 @@
      "part": null,
      "gen": null,
      "a2": "à la framboise",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la framboise"
     },
     "rhinoceros": {
      "unique": "le rhinocéros",
@@ -15230,7 +15435,8 @@
      "part": null,
      "gen": null,
      "a2": "au rhinocéros",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du rhinocéros"
     },
     "robot": {
      "unique": "le robot",
@@ -15248,7 +15454,8 @@
      "part": null,
      "gen": null,
      "a2": "au robot",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du robot"
     },
     "rocket": {
      "unique": "la fusée",
@@ -15266,7 +15473,8 @@
      "part": null,
      "gen": null,
      "a2": "à la fusée",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la fusée"
     },
     "rooster": {
      "unique": "le coq",
@@ -15284,7 +15492,8 @@
      "part": null,
      "gen": null,
      "a2": "au coq",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du coq"
     },
     "sailboat": {
      "unique": "le voilier",
@@ -15302,7 +15511,8 @@
      "part": null,
      "gen": null,
      "a2": "au voilier",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du voilier"
     },
     "sandbox": {
      "unique": "le bac à sable",
@@ -15320,7 +15530,8 @@
      "part": null,
      "gen": null,
      "a2": "au bac à sable",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du bac à sable"
     },
     "scooter": {
      "unique": "la trottinette",
@@ -15338,7 +15549,8 @@
      "part": null,
      "gen": null,
      "a2": "à la trottinette",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la trottinette"
     },
     "seagull": {
      "unique": "la mouette",
@@ -15356,7 +15568,8 @@
      "part": null,
      "gen": null,
      "a2": "à la mouette",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la mouette"
     },
     "seal": {
      "unique": "le phoque",
@@ -15374,7 +15587,8 @@
      "part": null,
      "gen": null,
      "a2": "au phoque",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du phoque"
     },
     "ship": {
      "unique": "le navire",
@@ -15392,7 +15606,8 @@
      "part": null,
      "gen": null,
      "a2": "au navire",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du navire"
     },
     "shovel": {
      "unique": "la pelle",
@@ -15410,7 +15625,8 @@
      "part": null,
      "gen": null,
      "a2": "à la pelle",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pelle"
     },
     "skateboard": {
      "unique": "le skateboard",
@@ -15428,7 +15644,8 @@
      "part": null,
      "gen": null,
      "a2": "au skateboard",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du skateboard"
     },
     "slide": {
      "unique": "le toboggan",
@@ -15446,7 +15663,8 @@
      "part": null,
      "gen": null,
      "a2": "au toboggan",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du toboggan"
     },
     "sloth": {
      "unique": "le paresseux",
@@ -15464,7 +15682,8 @@
      "part": null,
      "gen": null,
      "a2": "au paresseux",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du paresseux"
     },
     "strawberry": {
      "unique": "la fraise",
@@ -15482,7 +15701,8 @@
      "part": null,
      "gen": null,
      "a2": "à la fraise",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la fraise"
     },
     "submarine": {
      "unique": "le sous-marin",
@@ -15500,7 +15720,8 @@
      "part": null,
      "gen": null,
      "a2": "au sous-marin",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du sous-marin"
     },
     "subway": {
      "unique": "le métro",
@@ -15518,7 +15739,8 @@
      "part": null,
      "gen": null,
      "a2": "au métro",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du métro"
     },
     "swan": {
      "unique": "le cygne",
@@ -15536,7 +15758,8 @@
      "part": null,
      "gen": null,
      "a2": "au cygne",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du cygne"
     },
     "swing": {
      "unique": "la balançoire",
@@ -15554,7 +15777,8 @@
      "part": null,
      "gen": null,
      "a2": "à la balançoire",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la balançoire"
     },
     "taxi": {
      "unique": "le taxi",
@@ -15572,7 +15796,8 @@
      "part": null,
      "gen": null,
      "a2": "au taxi",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du taxi"
     },
     "tiger": {
      "unique": "le tigre",
@@ -15590,7 +15815,8 @@
      "part": null,
      "gen": null,
      "a2": "au tigre",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du tigre"
     },
     "tractor": {
      "unique": "le tracteur",
@@ -15608,7 +15834,8 @@
      "part": null,
      "gen": null,
      "a2": "au tracteur",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du tracteur"
     },
     "train": {
      "unique": "le train",
@@ -15626,7 +15853,8 @@
      "part": null,
      "gen": null,
      "a2": "au train",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du train"
     },
     "truck": {
      "unique": "le camion",
@@ -15644,7 +15872,8 @@
      "part": null,
      "gen": null,
      "a2": "au camion",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du camion"
     },
     "turkey": {
      "unique": "la dinde",
@@ -15662,7 +15891,8 @@
      "part": null,
      "gen": null,
      "a2": "à la dinde",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la dinde"
     },
     "turtle": {
      "unique": "la tortue",
@@ -15680,7 +15910,8 @@
      "part": null,
      "gen": null,
      "a2": "à la tortue",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la tortue"
     },
     "van": {
      "unique": "la camionnette",
@@ -15698,7 +15929,8 @@
      "part": null,
      "gen": null,
      "a2": "à la camionnette",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la camionnette"
     },
     "vulture": {
      "unique": "le vautour",
@@ -15716,7 +15948,8 @@
      "part": null,
      "gen": null,
      "a2": "au vautour",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du vautour"
     },
     "watermelon": {
      "unique": "la pastèque",
@@ -15734,7 +15967,8 @@
      "part": null,
      "gen": null,
      "a2": "à la pastèque",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pastèque"
     },
     "whale": {
      "unique": "la baleine",
@@ -15752,7 +15986,8 @@
      "part": null,
      "gen": null,
      "a2": "à la baleine",
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la baleine"
     },
     "wolf": {
      "unique": "le loup",
@@ -15770,7 +16005,8 @@
      "part": null,
      "gen": null,
      "a2": "au loup",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du loup"
     },
     "woodpecker": {
      "unique": "le pic",
@@ -15788,7 +16024,8 @@
      "part": null,
      "gen": null,
      "a2": "au pic",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du pic"
     },
     "yacht": {
      "unique": "le yacht",
@@ -15806,7 +16043,8 @@
      "part": null,
      "gen": null,
      "a2": "au yacht",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du yacht"
     },
     "zebra": {
      "unique": "le zèbre",
@@ -15824,7 +16062,8 @@
      "part": null,
      "gen": null,
      "a2": "au zèbre",
-     "reviewed": true
+     "reviewed": true,
+     "de": "du zèbre"
     }
    },
    "truth": {
@@ -15934,7 +16173,25 @@
      "title": "Lis et dessine",
      "instruction": "Lis bien chaque phrase. Puis dessine exactement ce qu'elle dit dans la case."
     }
-   }
+   },
+   "fixedForms": {
+    "rightof": "de",
+    "leftof": "de"
+   },
+   "draw2": [
+    {
+     "text": "Dessine {n} {pl} et {n2} {pl2}."
+    },
+    {
+     "text": "Dessine {n} {pl} et {n2} {pl2} dans la case."
+    },
+    {
+     "text": "Dessine {n} {pl} en grand et {n2} {pl2} en petit."
+    },
+    {
+     "text": "Dessine {n} {pl}. Puis dessine {n2} {pl2}."
+    }
+   ]
   },
   "rhyming-words": {
    "rule": "stressedVowelCoda",
@@ -16273,15 +16530,6 @@
         "noun": "house"
        },
        "picOpened": true
-      },
-      {
-       "vocabKey": "peach",
-       "word": "pêche",
-       "pic": {
-        "theme": "fruits",
-        "noun": "peach"
-       },
-       "picOpened": true
       }
      ]
     },
@@ -16311,28 +16559,6 @@
        },
        "sameSpelling": true,
        "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "van",
-       "word": "camionnette",
-       "pic": {
-        "theme": "vehicles",
-        "noun": "van"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "head",
-       "word": "tête",
-       "pic": {
-        "theme": "body parts",
-        "noun": "head"
-       },
-       "sameSpelling": false,
-       "productive": false,
        "picOpened": true
       }
      ],
@@ -16419,17 +16645,6 @@
        },
        "sameSpelling": true,
        "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "rock",
-       "word": "rocher",
-       "pic": {
-        "theme": "camping",
-        "noun": "rock"
-       },
-       "sameSpelling": false,
-       "productive": false,
        "picOpened": true
       },
       {
@@ -16527,7 +16742,6 @@
      ],
      "extra": [
       "radis",
-      "gris",
       "ami",
       "midi"
      ],
@@ -16542,43 +16756,6 @@
        "picOpened": true
       }
      ]
-    },
-    {
-     "id": "et",
-     "rime": "-et",
-     "sound": "ɛ",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "vest",
-       "word": "gilet",
-       "pic": {
-        "theme": "clothing",
-        "noun": "vest"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "stool",
-       "word": "tabouret",
-       "pic": {
-        "theme": "furniture",
-        "noun": "stool"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "poulet",
-      "jouet",
-      "lait",
-      "ballet"
-     ],
-     "nearMiss": []
     },
     {
      "id": "uche",
@@ -16635,7 +16812,7 @@
        "vocabKey": "cherry",
        "word": "cerise",
        "pic": {
-        "theme": "fruits",
+        "theme": "At the Supermarket",
         "noun": "cherry"
        },
        "sameSpelling": true,
@@ -16923,6 +17100,43 @@
       "oreille"
      ],
      "nearMiss": []
+    },
+    {
+     "id": "et",
+     "rime": "-et",
+     "sound": "ɛ",
+     "cap": 8,
+     "members": [
+      {
+       "vocabKey": "vest",
+       "word": "gilet",
+       "pic": {
+        "theme": "clothing",
+        "noun": "vest"
+       },
+       "sameSpelling": true,
+       "productive": true,
+       "picOpened": true
+      },
+      {
+       "vocabKey": "stool",
+       "word": "tabouret",
+       "pic": {
+        "theme": "furniture",
+        "noun": "stool"
+       },
+       "sameSpelling": true,
+       "productive": true,
+       "picOpened": true
+      }
+     ],
+     "extra": [
+      "poulet",
+      "jouet",
+      "lait",
+      "ballet"
+     ],
+     "nearMiss": []
     }
    ],
    "couplets": [
@@ -16930,7 +17144,7 @@
      "id": "bateau-gateau",
      "lines": [
       "Sur la mer flotte un beau bateau,",
-      "et dedans, un gros ___"
+      "on y mange un gros ___"
      ],
      "answer": {
       "vocabKey": "cake"
@@ -16953,8 +17167,8 @@
     {
      "id": "pain-main",
      "lines": [
-      "Le lapin croque un bout de pain,",
-      "il le tient bien dans sa ___"
+      "Je croque un gros bout de pain,",
+      "je le tiens bien dans ma ___"
      ],
      "answer": {
       "vocabKey": "hand"
@@ -16966,7 +17180,7 @@
      "id": "sapin-lutin",
      "lines": [
       "Il neige sur le grand sapin,",
-      "dessous dort un petit ___"
+      "le Père Noël appelle son ___"
      ],
      "answer": {
       "vocabKey": "elf"
@@ -17086,7 +17300,7 @@
      "id": "nid-tapis",
      "lines": [
       "Deux oiseaux dorment dans le nid,",
-      "le chat ronronne sur le ___"
+      "je m'essuie les pieds sur le ___"
      ],
      "answer": {
       "vocabKey": "rug"
@@ -17097,25 +17311,13 @@
     {
      "id": "tabouret-gilet",
      "lines": [
-      "Le chat saute du tabouret",
-      "et se roule sur mon ___"
+      "Je m'assois sur le tabouret,",
+      "il fait froid, je ferme mon ___"
      ],
      "answer": {
       "vocabKey": "vest"
      },
      "rhymeWith": "tabouret",
-     "cueFree": false
-    },
-    {
-     "id": "poele-etoile",
-     "lines": [
-      "Le lait chauffe dans la poêle,",
-      "dehors brille une ___"
-     ],
-     "answer": {
-      "vocabKey": "star"
-     },
-     "rhymeWith": "poêle",
      "cueFree": false
     }
    ],
@@ -17162,7 +17364,7 @@
     },
     "F2": {
      "title": "Sauts dans le tableau des nombres : suis les flèches",
-     "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à droite 1 de plus, à gauche 1 de moins. Écris où tu arrives."
+     "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à gauche 1 de moins, à droite 1 de plus. Écris où tu arrives."
     },
     "F3": {
      "title": "Le nombre mystère : deux flèches, une case",
@@ -19454,26 +19656,6 @@
     },
     {
      "a": {
-      "vocabKey": null,
-      "word": "tourne"
-     },
-     "aStem": null,
-     "link": "",
-     "b": {
-      "vocabKey": "sun",
-      "word": "sol"
-     },
-     "whole": {
-      "word": "tournesol",
-      "vocabKey": "sunflower",
-      "scale": 1
-     },
-     "hubSide": "b",
-     "opaque": false,
-     "picOpened": true
-    },
-    {
-     "a": {
       "vocabKey": "rain",
       "word": "pluie"
      },
@@ -19732,7 +19914,7 @@
     },
     "G2-330": {
      "title": "Retrouve le radical : coupe le mot en deux",
-     "instruction": "Le mot est écrit dans des cases, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
+     "instruction": "Le mot est écrit lettre par lettre, à côté de son image. Trace un trait entre le radical et ce qu'on lui a ajouté."
     },
     "G2-331": {
      "title": "Relie le radical au mot de sa famille",
@@ -20683,7 +20865,7 @@
     },
     "F2": {
      "title": "Relie le pronom à la bonne forme du verbe",
-     "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui."
+     "instruction": "Lis le verbe de chaque tableau. Relie chaque pronom à la forme du verbe qui va avec lui. Puis complète les deux phrases."
     },
     "F3": {
      "title": "Complète les phrases avec le verbe au présent",
@@ -21286,7 +21468,7 @@
      "instruction": "Renseigne-toi sur cet animal. Écris un renseignement dans chaque ligne de la carte, puis complète la page avec un dessin ou tes propres mots."
     },
     "G2-339": {
-     "title": "Coche les bonnes réponses : {U}",
+     "title": "Entoure les bonnes réponses : {U}",
      "instruction": "Dans chaque ligne, lis les réponses proposées et entoure celle qui est vraie pour cet animal. Puis dessine son lieu de vie et termine la phrase."
     },
     "G2-340": {
@@ -21398,7 +21580,7 @@
      "instruction": "Une image barrée : l'enfant ne l'a pas. Une image entourée : l'enfant l'a. Barre sur la grille, puis entoure chaque réponse."
     },
     "F4": {
-     "title": "Logigrammes à deux critères : deux images par enfant",
+     "title": "Logigrammes à deux critères",
      "instruction": "Chaque enfant a une image de chaque série. Utilise les indices qui les relient pour remplir les trois grilles."
     },
     "F5": {

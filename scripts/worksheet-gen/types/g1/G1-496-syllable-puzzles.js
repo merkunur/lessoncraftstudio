@@ -80,7 +80,7 @@ module.exports = {
       });
       const dash = `stroke="${T.inkSoft}" stroke-width="2.4" stroke-dasharray="7 5" fill="none"`;
       const pic = `<image href="${fileUri(theme, e.noun)}" x="${x0 + 6}" y="${Math.round(d.h * 0.08)}" width="${Math.round(picW * scale - 12)}" height="${Math.round(d.h * 0.84)}" preserveAspectRatio="xMidYMid meet"/>`;
-      return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${d.h + 4}" viewBox="0 -2 ${W} ${d.h + 4}" data-lcs-puzzle="${e.word}"${slot.attr(ctx, 'pic', i)} data-lcs-split="${e.split.join('-')}" data-lcs-join="${c.s}-${c.p}-${c.dir}" style="flex:0 0 auto">` +
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${d.h + 4}" viewBox="0 -2 ${W} ${d.h + 4}" data-lcs-puzzle="${e.word}"${picks.tap ? picks.tap(i) : slot.attr(ctx, 'pic', i)} data-lcs-split="${e.split.join('-')}" data-lcs-join="${c.s}-${c.p}-${c.dir}" style="flex:0 0 auto">` +
         `<rect x="${x0}" y="0" width="${total}" height="${d.h}" rx="10" fill="#FFFFFF" ${dash}/>` + pic + cuts.map((p) => `<path d="${p}" ${dash}/>`).join('') + texts.join('') + `</svg>`;
     });
     return {

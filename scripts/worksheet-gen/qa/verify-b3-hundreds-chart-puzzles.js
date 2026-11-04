@@ -114,16 +114,30 @@ const WORST_CHROME = {
   instruction: 'Jokaisessa satataulunpalasessa näkyy yksi luku. Kirjoita puuttuvat luvut: oikealle yksi enemmän, vasemmalle yksi vähemmän, alapuolelle kymmenen lisää.',
 };
 const WORST_BODY = 722;
+// a probe trimmed to the 3-line maximum is still that probe (its __probe names it)
+const isWorst = (st) => !!st && (st === WORST_CHROME || st.__probe === WORST_CHROME);
+const isLong = (st) => !!st && (st === LONG_CHROME || st.__probe === LONG_CHROME);
+/** The probe is the worst LEGAL chrome: the same 69 characters wrap to FOUR title lines on some locales' pages (de es fr nl sv
+ *  fi, measured 2026-11-04 in the first all-locale run), past the 3 lines the live gate allows a real page — such a title is
+ *  trimmed word by word until it wraps to 3, and the page is checked at that chrome. */
+async function legalChrome(job, run) {
+  let r = await run(job);
+  const base = job.strings && (job.strings.__probe || job.strings);
+  if (base !== WORST_CHROME && base !== LONG_CHROME) return r;
+  let words = base.title.split(' ');
+  while (r.titleLines > 3 && words.length > 4) { words = words.slice(0, -1); r = await run({ ...job, strings: { ...base, title: words.join(' '), __probe: base } }); }
+  return r;
+}
 
 function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' + name + '=')); return a ? a.slice(name.length + 3) : def; }
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 const SEEDS = +arg('seeds', QUICK ? 6 : 20);
 
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
 function loadBank() {
-  delete require.cache[require.resolve(BANK_FILE)];
-  const mod = require(BANK_FILE);
-  return mod[Object.keys(mod)[0]];
+  if (!fs.existsSync(BANK_FILE)) throw new Error('absent: ' + BANK_FILE);
+  return require('./b3-fresh-bank.js').freshBank('hundreds-chart-puzzles');
 }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 
@@ -187,7 +201,8 @@ function checkShapes(shapes, units) {
 }
 
 /* ---------------- C. renders (real pipeline) + the gate's own audit ---------------- */
-async function renderCheck(page, type, inj, job, opts) {
+async function renderCheck(page, type, inj, job, opts) { return legalChrome(job, (j) => renderCheck0(page, type, inj, j, opts)); }
+async function renderCheck0(page, type, inj, job, opts) {
   let t = type;
   if (inj) t = { ...type, build: (o, ctx) => type._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || type.difficulty[o.difficulty], { locale: o.locale, unit: o.unit }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -290,9 +305,9 @@ async function renderCheck(page, type, inj, job, opts) {
   fails.push(...m.fails.map((x) => (x.startsWith('audit') || x.startsWith('size') ? x : 'audit: ' + x)));
   if (m.pieces.length !== cfg.shapes.length) fails.push(`count: ${m.pieces.length} pieces, config says ${cfg.shapes.length}`);
   if (m.compass !== (cfg.compass ? 1 : 0)) fails.push(`count: ${m.compass} compass strips, config says ${cfg.compass ? 1 : 0}`);
-  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, expected <= ${WORST_BODY}`);
-  if (job.strings === WORST_CHROME && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines, not 3 (the probe is vacuous)`);
-  if ((job.strings === WORST_CHROME || job.strings === LONG_CHROME) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines, not 3 (vacuous)`);
+  if (isWorst(job.strings) && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, expected <= ${WORST_BODY}`);
+  if (isWorst(job.strings) && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines, not 3 (the probe is vacuous)`);
+  if ((isWorst(job.strings) || isLong(job.strings)) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines, not 3 (vacuous)`);
   if (!m.blanks) fails.push('non-vacuity: 0 blanks measured');
   return { fails, pieces: m.pieces, body: m.body, insLines: m.insLines, titleLines: m.titleLines, pngPath: out.pngPath };
 }
@@ -327,7 +342,8 @@ const BOX_H_FLOOR = 26;
 const LABEL_FLOOR = 20;
 const FACE_BODY_WORST = 710;
 
-async function faceCheck(page, face, type, inj, job, opts) {
+async function faceCheck(page, face, type, inj, job, opts) { return legalChrome(job, (j) => faceCheck0(page, face, type, inj, j, opts)); }
+async function faceCheck0(page, face, type, inj, job, opts) {
   let t = type;
   if (inj) t = { ...type, build: (o, ctx) => type._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || type.difficulty[o.difficulty], { locale: o.locale, unit: o.unit, items: inj.items || null }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -558,9 +574,9 @@ async function faceCheck(page, face, type, inj, job, opts) {
   fails.push(...m.fails.map((x) => (x.startsWith('audit') || x.startsWith('size') ? x : 'audit: ' + x)));
   const wantN = { place: cfg.pieces, jumps: cfg.items, riddle: cfg.items, error: cfg.shapes && cfg.shapes.length, distance: cfg.items }[FACE_MODE[face]];
   if (m.n !== wantN) fails.push(`count: ${m.n} items, config says ${wantN}`);
-  if (job.strings === WORST_CHROME && m.body > FACE_BODY_WORST) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, expected <= ${FACE_BODY_WORST}`);
-  if (job.strings === WORST_CHROME && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines (vacuous)`);
-  if ((job.strings === WORST_CHROME || job.strings === LONG_CHROME) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines (vacuous)`);
+  if (isWorst(job.strings) && m.body > FACE_BODY_WORST) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, expected <= ${FACE_BODY_WORST}`);
+  if (isWorst(job.strings) && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines (vacuous)`);
+  if ((isWorst(job.strings) || isLong(job.strings)) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines (vacuous)`);
   if (!m.measured) fails.push('non-vacuity: 0 open boxes measured');
   return { fails, n: m.n, items: m.items, body: m.body, insLines: m.insLines, titleLines: m.titleLines, pngPath: out.pngPath };
 }
@@ -575,8 +591,9 @@ async function runFaces(page, loc, bankLoc, note, log) {
     const cfg = type.difficulty[2];
     note(cfg.mode === FACE_MODE[f], `${id}: resolved d2 mode ${cfg.mode}, want ${FACE_MODE[f]}`);
     note(type.gradeBand === (FACE_G2.has(f) ? 'G2' : 'G1'), `${id}: gradeBand ${type.gradeBand}`);
-    const s = bankLoc.strings[f];
-    note(s && type.i18n.en && s.title === type.i18n.en.title && s.instruction === type.i18n.en.instruction, `${id}: the emitted i18n.en differs from bank strings.${f} (two sources)`);
+    // the face's emitted English = the EN bank's (2026-11-04: this read the CURRENT locale's bank — German in a German run)
+    const s = loadBank().en.strings[f];
+    if (loc === 'en') note(s && type.i18n.en && s.title === type.i18n.en.title && s.instruction === type.i18n.en.instruction, `${id}: the emitted i18n.en differs from bank strings.${f} (two sources)`);
     const renders = [];
     renders.push({ locale: loc, baseName: `${id}-d2-${loc}`, tag: 'level' });
     const units = BASE_UNITS.filter((x) => x !== bankLoc.exemplar).concat(FACE_G2.has(f) ? ['tens'] : []);

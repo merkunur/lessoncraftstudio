@@ -55,11 +55,26 @@ module.exports = {
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = SW.pool(theme, L, d.min, d.max);
-    const items = [];
-    for (const e of rng.shuffle(pool)) {
-      if (items.length === d.n) break;
-      const set = blanks(e, L, d.mode);
-      if (set) items.push({ e, set });
+    const pickFrom = (order) => {
+      const out = [];
+      for (const e of order) {
+        if (out.length === d.n) break;
+        const set = blanks(e, L, d.mode);
+        if (set) out.push({ e, set });
+      }
+      return out;
+    };
+    let items = pickFrom(rng.shuffle(pool));
+    // level 1 leaves out the vowels: a random draw leans on the language's commonest vowel ("a" in a third of the boxes,
+    // settings-space 2026-11-04) — of 24 draws the page takes the one whose commonest missing vowel fills the fewest boxes
+    // (as G1-520; every draw is a fresh random set, so copies stay different)
+    if (d.mode === 'vowels') {
+      const lean = (its) => { const c = {}; let n = 0; for (const { e, set } of its) for (const i of set) { const v = SW.units(e.word, L)[i].toLocaleLowerCase(L); c[v] = (c[v] || 0) + 1; n++; } return n ? Math.max(...Object.values(c)) / n : 1; };
+      let best = lean(items);
+      for (let t = 1; t < 24 && items.length === d.n; t++) {
+        const cand = pickFrom(rng.shuffle(pool));
+        if (cand.length === d.n) { const s = lean(cand); if (s < best) { best = s; items = cand; } }
+      }
     }
     if (items.length < d.n) throw new Error(`G1-518: theme ${theme}/${L} gives ${items.length} words with one filling (< ${d.n})`);
     // a teacher's words (maker): a word of the pool whose blanks have ONE filling (the page's own rule), else refused

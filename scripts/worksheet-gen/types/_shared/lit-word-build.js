@@ -56,7 +56,13 @@ function makeLitWordBuild(cfg) {
       const d = this.difficulty[difficulty] || this.difficulty[2];
       const pool = itemsByLocale[locale] || itemsByLocale.en || [];
       const n = Math.min(d.n, pool.length);
-      const chosen = slot.anyPictures(ctx, rng.shuffle(rng.sample(pool, n)), pool, 'pic');   // a teacher's pictures (maker): any word of the reviewed list
+      // a NEW missing-letter page takes its words round-robin over the missing letter (2026-11-04, settings-space: 13 of the
+      // 32 en words miss an "a", so "a" in every box scored 41-46 %; now every vowel the list has comes up in turn). The
+      // published page (level 2, copy 1) keeps its draw.
+      const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+      const missOf = (it) => String(it.word)[Number.isInteger(it.blank) ? it.blank : Math.floor(String(it.word).length / 2)];
+      const drawn = this.mode === 'cvc-missing' && !published ? roundRobin(pool, n, rng, missOf) : rng.sample(pool, n);
+      const chosen = slot.anyPictures(ctx, rng.shuffle(drawn), pool, 'pic');   // a teacher's pictures (maker): any word of the reviewed list
 
       if (this.mode === 'build-the-word') return buildBuildWord(chosen, n, rng, ctx);
 
@@ -122,6 +128,20 @@ function makeLitWordBuild(cfg) {
 }
 
 /* --- build-the-word: picture + empty slots + scrambled letter bank --- */
+/** n items, one from each answer group in turn (groups and their items in a drawn order): no answer more than ⌈n / groups⌉ */
+function roundRobin(pool, n, rng, keyOf) {
+  const groups = new Map();
+  for (const it of rng.shuffle(pool)) { const k = keyOf(it); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+  const order = rng.shuffle([...groups.keys()]);
+  const out = [];
+  for (let round = 0; out.length < n; round++) {
+    let took = false;
+    for (const k of order) { const g = groups.get(k); if (round < g.length && out.length < n) { out.push(g[round]); took = true; } }
+    if (!took) break;
+  }
+  return out;
+}
+
 function buildBuildWord(chosen, n, rng, ctx) {
   // taller cards (picture + slots + bank) → cap at 6 in 3 columns to fit the page
   const items = chosen.slice(0, Math.min(6, chosen.length));

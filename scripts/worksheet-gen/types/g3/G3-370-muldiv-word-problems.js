@@ -149,7 +149,17 @@ module.exports = {
       let n1, n2, answer, guard = 0;
       do {
         if (op === 'mul') { n1 = rng.int(d.n1[0], d.n1[1]); n2 = rng.int(d.n2[0], d.n2[1]); answer = n1 * n2; }
-        else { n2 = rng.int(d.n2[0], d.n2[1]); answer = rng.int(q[0], q[1]); n1 = answer * n2; }
+        else {
+          // the answer first, evenly among the answers that have a group size inside the level's range, then its size
+          // (2026-11-04, settings-space: drawing both and retrying kept the answers whose sizes fit most often — "6" was
+          // 25-28 % of the level-3 answers, and writing 6 everywhere scored that much)
+          const sizes = (a) => { const out = []; for (let s = d.n2[0]; s <= d.n2[1]; s++) { const t = a * s; if (t <= d.max && t >= (d.min || 0) && a !== s && t !== a) out.push(s); } return out; };
+          const fit = []; for (let a = q[0]; a <= q[1]; a++) if (sizes(a).length) fit.push(a);
+          answer = fit.length ? rng.pick(fit) : rng.int(q[0], q[1]);
+          const ss = sizes(answer);
+          n2 = ss.length ? rng.pick(ss) : rng.int(d.n2[0], d.n2[1]);
+          n1 = answer * n2;
+        }
         guard++;
       } while ((answer === n1 || answer === n2 || (op === 'mul' ? answer : n1) > d.max || (op === 'mul' ? answer : n1) < (d.min || 0) || usedNums.has(op + n1 + 'x' + n2)) && guard < 400);
       if (guard >= 400) throw new Error(`G3-370: no numbers for ${op} at ${JSON.stringify(d)}`);

@@ -59,7 +59,8 @@ function makeCryptogram(spec) {
       });
       if (!fit.length) throw new Error(`${spec.id}: no sentence fits (${L}${theme ? '/' + theme : ''})`);
       // the secret message: a teacher may pick another of the reviewed sentences that fit the level (maker), else as drawn
-      const msg = slot.words(ctx, [rng.pick(fit)], fit, 'message')[0], letters = lettersOf(msg, L), distinct = [...new Set(letters)];
+      const msg = slot.words(ctx, [rng.pick(fit)], fit, 'message', { derives: ['*'] })[0],   // the message IS the puzzle (its code follows it)
+      letters = lettersOf(msg, L), distinct = [...new Set(letters)];
       const alpha = alphabetFor(L, msg);
       // the code of each letter
       const codeOf = new Map();

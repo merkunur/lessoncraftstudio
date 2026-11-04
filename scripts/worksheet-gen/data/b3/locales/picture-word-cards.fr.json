@@ -93,8 +93,8 @@
       "instruction": "Découpe les cartes. Dis le mot pour un seul, puis le mot pour plusieurs, et associe les deux cartes."
     },
     "bilingual": {
-      "title": "Imagier bilingue : français et anglais",
-      "instruction": "Découpe les huit cartes. Dis le mot en français, puis en anglais, et garde les cartes pour ton mur de mots."
+      "title": "Imagier bilingue : français et {U}",
+      "instruction": "Découpe les huit cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots."
     },
     "syllable": {
       "title": "Cartes de lecture : mots découpés en syllabes",

@@ -186,8 +186,8 @@
       "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
     },
     "K-350": {
-      "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
-      "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+      "title": "Zweisprachige Bildkarten: Deutsch und {U}",
+      "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf."
     },
     "G1-324": {
       "title": "Silbenkarten: Lies das Wort in Silben",
@@ -299,7 +299,7 @@
     },
     "G1-343": {
       "title": "Reimwörter sortieren",
-      "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+      "instruction": "Sprich jedes Bildwort im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild."
     },
     "G1-344": {
       "title": "Reime vervollständigen",
@@ -307,7 +307,7 @@
     },
     "G1-345": {
       "title": "Reimketten",
-      "instruction": "Sprich jedes Bildwort. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+      "instruction": "Sprich jedes Bildwort. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien. Manche Wörter passen nirgends."
     },
     "G1-346": {
       "title": "Eigene Reimwörter schreiben",
@@ -323,7 +323,7 @@
     },
     "G2-321": {
       "title": "Sprungrätsel: Folge den Pfeilen",
-      "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+      "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, links 1 weniger, rechts 1 mehr. Schreibe auf, wo du landest."
     },
     "G2-322": {
       "title": "Geheimzahl: Zwei Pfeile, ein Feld",
@@ -367,7 +367,7 @@
     },
     "G2-330": {
       "title": "Zusammengesetzte Nomen trennen",
-      "instruction": "Das ganze Wort steht in Buchstabenkästchen neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
+      "instruction": "Das ganze Wort steht Buchstabe für Buchstabe neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
     },
     "G2-331": {
       "title": "Wortteile verbinden: Zwei Bilder, ein Wort",
@@ -379,7 +379,7 @@
     },
     "G2-333": {
       "title": "Wortstern: Ein Wort, viele Wörter",
-      "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe die vier neuen Wörter auf die Linien."
+      "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe jedes neue Wort auf seine Linie."
     },
     "G2-317": {
       "title": "Verbformen: ich, du, er, wir, ihr, sie",
@@ -387,7 +387,7 @@
     },
     "G2-334": {
       "title": "Verbformen zuordnen: Wer macht was?",
-      "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort."
+      "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
     },
     "G2-335": {
       "title": "Verbformen im Satz mit Bildern",
@@ -410,7 +410,7 @@
       "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
     },
     "G2-339": {
-      "title": "Steckbrief {U}: Kreuze an, was stimmt",
+      "title": "Steckbrief {U}: Kreise ein, was stimmt",
       "instruction": "Lies die Auswahl in jeder Zeile und kreise das ein, was für dieses Tier stimmt. Zeichne dann, wo es lebt, und vervollständige den Satz."
     },
     "G2-340": {
@@ -5877,8 +5877,6 @@
         "bathtub",
         "beanie",
         "blocks",
-        "bookcase",
-        "bookshelf",
         "bowl",
         "broccoli",
         "butter",
@@ -5909,7 +5907,6 @@
         "finger",
         "flag",
         "folder",
-        "forget-me-not",
         "gazelle",
         "giraffe",
         "goggles",
@@ -5926,31 +5923,24 @@
         "ladle",
         "leggings",
         "lifeguard",
-        "lighthouse",
         "lights",
         "lime",
         "lip",
         "marigold",
-        "medal",
         "microwave",
         "mittens",
-        "motorcycle",
-        "muffin",
         "mug",
         "nativity",
         "necklace",
-        "nightstand",
         "nut",
         "otter",
         "pan",
-        "paramedic",
         "pillow",
         "pinecone",
         "pitcher",
         "pizza",
         "plate",
         "pliers",
-        "plunger",
         "potato",
         "pudding",
         "puddle",
@@ -5979,8 +5969,7 @@
         "waffle",
         "water",
         "watermelon",
-        "wave",
-        "zinnia"
+        "wave"
       ],
       "exclude": [
         "athlete",
@@ -6462,32 +6451,6 @@
             "ck"
           ]
         ],
-        "badge": [
-          [
-            "a",
-            "b"
-          ],
-          [
-            "z",
-            "ei"
-          ],
-          [
-            "ch",
-            "e",
-            "n"
-          ]
-        ],
-        "bagel": [
-          [
-            "b",
-            "a"
-          ],
-          [
-            "g",
-            "e",
-            "l"
-          ]
-        ],
         "baker": [
           [
             "b",
@@ -6568,18 +6531,6 @@
             "r",
             "i",
             "ll"
-          ]
-        ],
-        "barber": [
-          [
-            "f",
-            "r",
-            "i"
-          ],
-          [
-            "s",
-            "eu",
-            "r"
           ]
         ],
         "basket": [
@@ -6916,44 +6867,6 @@
             "ch"
           ]
         ],
-        "bookcase": [
-          [
-            "b",
-            "ü"
-          ],
-          [
-            "ch",
-            "e"
-          ],
-          [
-            "rr",
-            "e"
-          ],
-          [
-            "g",
-            "a",
-            "l"
-          ]
-        ],
-        "bookshelf": [
-          [
-            "b",
-            "ü"
-          ],
-          [
-            "ch",
-            "e"
-          ],
-          [
-            "rr",
-            "e"
-          ],
-          [
-            "g",
-            "a",
-            "l"
-          ]
-        ],
         "boots": [
           [
             "st",
@@ -7078,18 +6991,6 @@
             "r",
             "au",
             "n"
-          ]
-        ],
-        "brush": [
-          [
-            "b",
-            "ü",
-            "r",
-            "s"
-          ],
-          [
-            "t",
-            "e"
           ]
         ],
         "bucket": [
@@ -8269,33 +8170,11 @@
             "o"
           ]
         ],
-        "donut": [
-          [
-            "d",
-            "o"
-          ],
-          [
-            "n",
-            "u",
-            "t"
-          ]
-        ],
         "door": [
           [
             "t",
             "ü",
             "r"
-          ]
-        ],
-        "doughnut": [
-          [
-            "d",
-            "o"
-          ],
-          [
-            "n",
-            "u",
-            "t"
           ]
         ],
         "dove": [
@@ -8721,23 +8600,6 @@
             "e"
           ]
         ],
-        "florist": [
-          [
-            "f",
-            "l",
-            "o"
-          ],
-          [
-            "r",
-            "i",
-            "s"
-          ],
-          [
-            "t",
-            "i",
-            "n"
-          ]
-        ],
         "flower": [
           [
             "b",
@@ -8791,28 +8653,6 @@
             "a",
             "l",
             "d"
-          ]
-        ],
-        "forget-me-not": [
-          [
-            "v",
-            "e",
-            "r"
-          ],
-          [
-            "g",
-            "i",
-            "ss"
-          ],
-          [
-            "m",
-            "ei"
-          ],
-          [
-            "nn",
-            "i",
-            "ch",
-            "t"
           ]
         ],
         "fork": [
@@ -9365,18 +9205,6 @@
           [
             "h",
             "u",
-            "t"
-          ]
-        ],
-        "hawk": [
-          [
-            "h",
-            "a"
-          ],
-          [
-            "b",
-            "i",
-            "ch",
             "t"
           ]
         ],
@@ -10017,19 +9845,6 @@
             "r"
           ]
         ],
-        "lighthouse": [
-          [
-            "l",
-            "eu",
-            "ch"
-          ],
-          [
-            "tt",
-            "u",
-            "r",
-            "m"
-          ]
-        ],
         "lights": [
           [
             "l",
@@ -10060,16 +9875,6 @@
             "d",
             "e",
             "r"
-          ]
-        ],
-        "lily": [
-          [
-            "l",
-            "i"
-          ],
-          [
-            "l",
-            "ie"
           ]
         ],
         "lime": [
@@ -10278,20 +10083,6 @@
             "r"
           ]
         ],
-        "medal": [
-          [
-            "m",
-            "e"
-          ],
-          [
-            "d",
-            "ai"
-          ],
-          [
-            "ll",
-            "e"
-          ]
-        ],
         "medicine": [
           [
             "m",
@@ -10489,21 +10280,6 @@
             "e"
           ]
         ],
-        "motorcycle": [
-          [
-            "m",
-            "o"
-          ],
-          [
-            "t",
-            "o"
-          ],
-          [
-            "rr",
-            "a",
-            "d"
-          ]
-        ],
         "mountain": [
           [
             "b",
@@ -10525,17 +10301,6 @@
             "u",
             "n",
             "d"
-          ]
-        ],
-        "muffin": [
-          [
-            "m",
-            "u"
-          ],
-          [
-            "ff",
-            "i",
-            "n"
           ]
         ],
         "mug": [
@@ -10686,18 +10451,6 @@
             "n",
             "e",
             "tz"
-          ]
-        ],
-        "nightstand": [
-          [
-            "n",
-            "a",
-            "ch"
-          ],
-          [
-            "tt",
-            "i",
-            "sch"
           ]
         ],
         "notebook": [
@@ -11015,29 +10768,6 @@
             "r"
           ]
         ],
-        "paramedic": [
-          [
-            "s",
-            "a"
-          ],
-          [
-            "n",
-            "i"
-          ],
-          [
-            "t",
-            "ä"
-          ],
-          [
-            "t",
-            "e"
-          ],
-          [
-            "r",
-            "i",
-            "n"
-          ]
-        ],
         "parrot": [
           [
             "p",
@@ -11230,20 +10960,6 @@
             "a"
           ]
         ],
-        "petunia": [
-          [
-            "p",
-            "e"
-          ],
-          [
-            "t",
-            "u"
-          ],
-          [
-            "n",
-            "ie"
-          ]
-        ],
         "photographer": [
           [
             "f",
@@ -11430,21 +11146,6 @@
           ],
           [
             "m",
-            "e"
-          ]
-        ],
-        "plunger": [
-          [
-            "s",
-            "au"
-          ],
-          [
-            "gg",
-            "l",
-            "o"
-          ],
-          [
-            "ck",
             "e"
           ]
         ],
@@ -12895,18 +12596,6 @@
             "sch"
           ]
         ],
-        "tablet": [
-          [
-            "t",
-            "a"
-          ],
-          [
-            "b",
-            "l",
-            "e",
-            "t"
-          ]
-        ],
         "tailor": [
           [
             "sch",
@@ -13703,16 +13392,6 @@
             "r",
             "a"
           ]
-        ],
-        "zinnia": [
-          [
-            "z",
-            "i"
-          ],
-          [
-            "nn",
-            "ie"
-          ]
         ]
       },
       "texBoundary": [
@@ -13735,12 +13414,9 @@
         "astronaut",
         "author",
         "backpack",
-        "badge",
-        "bagel",
         "baker",
         "banana",
         "bandage",
-        "barber",
         "basketball",
         "bat",
         "beaver",
@@ -13764,7 +13440,6 @@
         "bracelet",
         "brontosaurus",
         "broom",
-        "brush",
         "bucket",
         "bud",
         "bulldozer",
@@ -13821,8 +13496,6 @@
         "dishwasher",
         "dolphin",
         "domino",
-        "donut",
-        "doughnut",
         "dove",
         "dragon",
         "driftwood",
@@ -13844,7 +13517,6 @@
         "fireplace",
         "flamingo",
         "flashlight",
-        "florist",
         "flower",
         "flute",
         "fork",
@@ -13875,7 +13547,6 @@
         "happy",
         "harp",
         "harvest",
-        "hawk",
         "headband",
         "heater",
         "helicopter",
@@ -13906,7 +13577,6 @@
         "lettuce",
         "lid",
         "lilac",
-        "lily",
         "log",
         "lollipop",
         "lotus",
@@ -13964,7 +13634,6 @@
         "pentagon",
         "peony",
         "pepper",
-        "petunia",
         "photographer",
         "piano",
         "picnic",
@@ -14046,7 +13715,6 @@
         "suspenders",
         "swallow",
         "swing",
-        "tablet",
         "tailor",
         "tape",
         "tart",
@@ -15112,7 +14780,21 @@
           "animal": "Mein Lieblingstier",
           "food": "Mein Lieblingsessen",
           "color": "Meine Lieblingsfarbe",
-          "toy": "Mein Lieblingsspielzeug"
+          "toy": "Mein Lieblingsspielzeug",
+          "fruit": "Mein Lieblingsobst",
+          "vegetable": "Mein Lieblingsgemüse",
+          "pet": "Mein Lieblingshaustier",
+          "instrument": "Mein Lieblingsinstrument",
+          "hobby": "Mein Lieblingshobby",
+          "treat": "Meine liebste Leckerei",
+          "bird": "Mein Lieblingsvogel",
+          "bug": "Mein Lieblingskrabbeltier",
+          "sea": "Mein Lieblingsmeerestier",
+          "vehicle": "Mein Lieblingsfahrzeug",
+          "clothes": "Meine Lieblingskleidung",
+          "breakfast": "Mein Lieblingsfrühstück",
+          "shape": "Meine Lieblingsform",
+          "farm": "Mein liebstes Bauernhoftier"
         },
         "countHeads": {
           "people": "Personen in meiner Familie:",
@@ -15154,7 +14836,36 @@
         "skate": "Ich kann Schlittschuh laufen",
         "ski": "Ich kann Ski fahren",
         "writename": "Ich kann meinen Namen schreiben",
-        "brushteeth": "Ich kann meine Zähne putzen"
+        "brushteeth": "Ich kann meine Zähne putzen",
+        "bounce": "Ich kann einen Ball dribbeln",
+        "slide": "Ich kann rutschen",
+        "hike": "Ich kann weit wandern",
+        "comb": "Ich kann meine Haare kämmen",
+        "washhands": "Ich kann meine Hände waschen",
+        "dress": "Ich kann mich anziehen",
+        "coat": "Ich kann meine Jacke zuknöpfen",
+        "boots": "Ich kann meine Stiefel anziehen",
+        "bed": "Ich kann mein Bett machen",
+        "tidy": "Ich kann den Boden fegen",
+        "cut": "Ich kann mit der Schere schneiden",
+        "glue": "Ich kann Papier kleben",
+        "draw": "Ich kann sauber ausmalen",
+        "backpack": "Ich kann meinen Rucksack packen",
+        "drum": "Ich kann trommeln",
+        "guitar": "Ich kann Gitarre spielen",
+        "blocks": "Ich kann einen Turm bauen",
+        "dice": "Ich kann Brettspiele spielen",
+        "bake": "Ich kann beim Backen helfen",
+        "photo": "Ich kann ein Foto machen",
+        "kite": "Ich kann Drachen steigen lassen",
+        "fish": "Ich kann einen Fisch angeln",
+        "tent": "Ich kann im Zelt schlafen",
+        "water": "Ich kann die Blumen gießen",
+        "puddle": "Ich kann in Pfützen springen",
+        "swing": "Ich kann allein schaukeln",
+        "umbrella": "Ich kann den Schirm aufmachen",
+        "jumprope": "Ich kann Seil springen",
+        "iceskate": "Ich kann Eis laufen"
       },
       "refuse": [],
       "optionWords": {
@@ -15190,7 +14901,122 @@
         "blocks": "Bauklötze",
         "robot": "Roboter",
         "balloon": "Ballon",
-        "boat": "Boot"
+        "boat": "Boot",
+        "lemon": "Zitrone",
+        "kiwi": "Kiwi",
+        "orange": "Orange",
+        "pear": "Birne",
+        "pineapple": "Ananas",
+        "watermelon": "Wassermelone",
+        "raspberry": "Himbeere",
+        "coconut": "Kokosnuss",
+        "broccoli": "Brokkoli",
+        "corn": "Mais",
+        "cucumber": "Gurke",
+        "tomato": "Tomate",
+        "potato": "Kartoffel",
+        "pumpkin": "Kürbis",
+        "eggplant": "Aubergine",
+        "lettuce": "Salat",
+        "onion": "Zwiebel",
+        "cauliflower": "Blumenkohl",
+        "goldfish": "Goldfisch",
+        "hamster": "Hamster",
+        "parrot": "Papagei",
+        "turtle": "Schildkröte",
+        "mouse": "Maus",
+        "frog": "Frosch",
+        "drum": "Trommel",
+        "flute": "Flöte",
+        "guitar": "Gitarre",
+        "piano": "Klavier",
+        "trumpet": "Trompete",
+        "violin": "Geige",
+        "harp": "Harfe",
+        "xylophone": "Xylophon",
+        "accordion": "Akkordeon",
+        "saxophone": "Saxophon",
+        "soccer": "Fußball",
+        "tennis": "Tennis",
+        "basketball": "Basketball",
+        "swimming": "Schwimmen",
+        "skating": "Schlittschuhlaufen",
+        "biking": "Radfahren",
+        "chess": "Schach",
+        "cupcake": "Cupcake",
+        "donut": "Donut",
+        "lollipop": "Lutscher",
+        "popsicle": "Eis am Stiel",
+        "waffle": "Waffel",
+        "muffin": "Muffin",
+        "eagle": "Adler",
+        "flamingo": "Flamingo",
+        "owl": "Eule",
+        "peacock": "Pfau",
+        "toucan": "Tukan",
+        "ostrich": "Strauß",
+        "pelican": "Pelikan",
+        "bee": "Biene",
+        "ant": "Ameise",
+        "butterfly": "Schmetterling",
+        "caterpillar": "Raupe",
+        "ladybug": "Marienkäfer",
+        "dragonfly": "Libelle",
+        "snail": "Schnecke",
+        "spider": "Spinne",
+        "worm": "Wurm",
+        "crab": "Krabbe",
+        "dolphin": "Delfin",
+        "octopus": "Oktopus",
+        "jellyfish": "Qualle",
+        "whale": "Wal",
+        "starfish": "Seestern",
+        "shark": "Hai",
+        "seal": "Robbe",
+        "airplane": "Flugzeug",
+        "bicycle": "Fahrrad",
+        "bus": "Bus",
+        "helicopter": "Hubschrauber",
+        "tractor": "Traktor",
+        "rocket": "Rakete",
+        "motorcycle": "Motorrad",
+        "sailboat": "Segelboot",
+        "submarine": "U-Boot",
+        "hat": "Hut",
+        "boots": "Stiefel",
+        "dress": "Kleid",
+        "coat": "Mantel",
+        "cap": "Kappe",
+        "t-shirt": "T-Shirt",
+        "scarf": "Schal",
+        "jeans": "Jeans",
+        "pajamas": "Schlafanzug",
+        "sweater": "Pullover",
+        "skirt": "Rock",
+        "shorts": "Shorts",
+        "cereal": "Müsli",
+        "pancake": "Pfannkuchen",
+        "croissant": "Croissant",
+        "bagel": "Bagel",
+        "sausage": "Wurst",
+        "juice": "Saft",
+        "circle": "Kreis",
+        "square": "Quadrat",
+        "triangle": "Dreieck",
+        "star": "Stern",
+        "heart": "Herz",
+        "diamond": "Raute",
+        "oval": "Oval",
+        "moon": "Mond",
+        "hexagon": "Sechseck",
+        "rectangle": "Rechteck",
+        "pentagon": "Fünfeck",
+        "cow": "Kuh",
+        "goat": "Ziege",
+        "donkey": "Esel",
+        "turkey": "Truthahn",
+        "goose": "Gans",
+        "llama": "Lama"
       },
       "strings": {
         "K-323": {
@@ -15217,7 +15043,8 @@
           "title": "Mein Name: Schreiben, zählen und vergleichen",
           "instruction": "Schreibe deinen Namen mit einem Buchstaben pro Kästchen und zähle die Buchstaben. Mach dasselbe für einen Freund und kreise ein, wer mehr hat."
         }
-      }
+      },
+      "excludeOptions": []
     },
     "picture-word-cards": {
       "cardCase": "keep",
@@ -15292,8 +15119,8 @@
           "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
         },
         "bilingual": {
-          "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
-          "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+          "title": "Zweisprachige Bildkarten: Deutsch und {U}",
+          "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf."
         },
         "syllable": {
           "title": "Silbenkarten: Lies das Wort in Silben",
@@ -20243,7 +20070,9 @@
           "family": "height",
           "alt": {
             "a": [],
-            "b": []
+            "b": [
+              "niedrig"
+            ]
           },
           "exclusiveWith": [],
           "syn": null,
@@ -20476,11 +20305,6 @@
             "base": "geduldig",
             "prefix": "un",
             "expected": "ungeduldig"
-          },
-          {
-            "base": "sauber",
-            "prefix": "un",
-            "expected": "unsauber"
           }
         ],
         "ban": []
@@ -20538,11 +20362,12 @@
         },
         {
           "id": "mark",
-          "frame": "Kreuze {obj} an."
+          "frame": "Mach einen Haken unter {obj}."
         },
         {
           "id": "write",
-          "frame": "Schreibe, wie viele {pl} es gibt."
+          "frame": "Schreibe, wie viele {pl} es gibt.",
+          "joinComma": true
         }
       ],
       "fixed": {
@@ -23053,7 +22878,21 @@
           "title": "Lies und zeichne",
           "instruction": "Lies jeden Satz genau. Zeichne dann in den Kasten genau das, was er sagt."
         }
-      }
+      },
+      "draw2": [
+        {
+          "text": "Zeichne {n} {pl} und {n2} {pl2}."
+        },
+        {
+          "text": "Zeichne {n} {pl} und {n2} {pl2} in den Kasten."
+        },
+        {
+          "text": "Zeichne {n} große {pl} und {n2} kleine {pl2}."
+        },
+        {
+          "text": "Zeichne {n} {pl}. Zeichne dann {n2} {pl2}."
+        }
+      ]
     },
     "hundreds-chart-puzzles": {
       "exemplar": "1-100",
@@ -23068,7 +22907,7 @@
         },
         "F2": {
           "title": "Sprungrätsel: Folge den Pfeilen",
-          "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+          "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, links 1 weniger, rechts 1 mehr. Schreibe auf, wo du landest."
         },
         "F3": {
           "title": "Geheimzahl: Zwei Pfeile, ein Feld",
@@ -27320,7 +27159,7 @@
         },
         "F2": {
           "title": "Verbformen zuordnen: Wer macht was?",
-          "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort."
+          "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
         },
         "F3": {
           "title": "Verbformen im Satz mit Bildern",
@@ -27923,7 +27762,7 @@
           "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
         },
         "G2-339": {
-          "title": "Steckbrief {U}: Kreuze an, was stimmt",
+          "title": "Steckbrief {U}: Kreise ein, was stimmt",
           "instruction": "Lies die Auswahl in jeder Zeile und kreise das ein, was für dieses Tier stimmt. Zeichne dann, wo es lebt, und vervollständige den Satz."
         },
         "G2-340": {
@@ -29395,7 +29234,7 @@
         },
         "G2-330": {
           "title": "Zusammengesetzte Nomen trennen",
-          "instruction": "Das ganze Wort steht in Buchstabenkästchen neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
+          "instruction": "Das ganze Wort steht Buchstabe für Buchstabe neben seinem Bild. Male einen Strich dort, wo das zweite Wort beginnt."
         },
         "G2-331": {
           "title": "Wortteile verbinden: Zwei Bilder, ein Wort",
@@ -29407,7 +29246,7 @@
         },
         "G2-333": {
           "title": "Wortstern: Ein Wort, viele Wörter",
-          "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe die vier neuen Wörter auf die Linien."
+          "instruction": "Ein Wort steht in der Mitte. Jedes Bild darum herum bildet mit ihm ein neues Wort. Schreibe jedes neue Wort auf seine Linie."
         }
       }
     },
@@ -29510,7 +29349,7 @@
             }
           ],
           "extra": [
-            "lose"
+            "Matrose"
           ],
           "nearMiss": []
         },
@@ -29577,17 +29416,6 @@
               "picOpened": true
             },
             {
-              "vocabKey": "rice",
-              "word": "Reis",
-              "pic": {
-                "theme": "At the Supermarket",
-                "noun": "rice"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
               "vocabKey": "circle",
               "word": "Kreis",
               "pic": {
@@ -29601,7 +29429,8 @@
           ],
           "extra": [
             "heiß",
-            "weiß"
+            "weiß",
+            "Reis"
           ],
           "nearMiss": []
         },
@@ -29724,22 +29553,12 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
-            },
-            {
-              "vocabKey": "gazelle",
-              "word": "Gazelle",
-              "pic": {
-                "theme": "zoo animals",
-                "noun": "gazelle"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
             }
           ],
           "extra": [
             "Stelle",
-            "Quelle"
+            "Quelle",
+            "Gazelle"
           ],
           "nearMiss": []
         },
@@ -29761,17 +29580,6 @@
               "picOpened": true
             },
             {
-              "vocabKey": "spinach",
-              "word": "Spinat",
-              "pic": {
-                "theme": "vegetables",
-                "noun": "spinach"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
               "vocabKey": "square",
               "word": "Quadrat",
               "pic": {
@@ -29785,7 +29593,8 @@
           ],
           "extra": [
             "Rat",
-            "Draht"
+            "Draht",
+            "Spinat"
           ],
           "nearMiss": []
         },
@@ -29818,17 +29627,6 @@
               "picOpened": true
             },
             {
-              "vocabKey": "jasmine",
-              "word": "Jasmin",
-              "pic": {
-                "theme": "flowers",
-                "noun": "jasmine"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
               "vocabKey": "medicine",
               "word": "Medizin",
               "pic": {
@@ -29841,7 +29639,8 @@
             }
           ],
           "extra": [
-            "Benzin"
+            "Benzin",
+            "Jasmin"
           ],
           "nearMiss": []
         },
@@ -29851,17 +29650,6 @@
           "sound": "iːɐ̯",
           "cap": 8,
           "members": [
-            {
-              "vocabKey": "bull",
-              "word": "Stier",
-              "pic": {
-                "theme": "farm animals",
-                "noun": "bull"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
             {
               "vocabKey": "paper",
               "word": "Papier",
@@ -29887,7 +29675,8 @@
           ],
           "extra": [
             "Tier",
-            "hier"
+            "hier",
+            "Stier"
           ],
           "nearMiss": []
         },
@@ -30132,41 +29921,6 @@
           ],
           "extra": [
             "Hase"
-          ],
-          "nearMiss": []
-        },
-        {
-          "id": "anne",
-          "rime": "-anne",
-          "sound": "anə",
-          "cap": 8,
-          "members": [
-            {
-              "vocabKey": "pan",
-              "word": "Pfanne",
-              "pic": {
-                "theme": "around the house",
-                "noun": "pan"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "pitcher",
-              "word": "Kanne",
-              "pic": {
-                "theme": "kitchen tools",
-                "noun": "pitcher"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            }
-          ],
-          "extra": [
-            "Tanne",
-            "Wanne"
           ],
           "nearMiss": []
         },
@@ -30436,7 +30190,8 @@
             }
           ],
           "extra": [
-            "Raube"
+            "Haube",
+            "Traube"
           ],
           "nearMiss": []
         },
@@ -30591,20 +30346,20 @@
         {
           "id": "hand-strand",
           "lines": [
-            "Ich habe Sand auf meiner Hand",
-            "und Sand am ganzen ___."
+            "Ich baue eine Burg aus Sand",
+            "ganz nah am Wasser, hier am ___."
           ],
           "answer": {
             "vocabKey": "beach"
           },
-          "rhymeWith": "hand",
+          "rhymeWith": "sand",
           "cueFree": false
         },
         {
           "id": "dose-hose",
           "lines": [
             "Die Rose steht in einer Dose",
-            "gleich neben meiner blauen ___."
+            "gleich neben meiner gelben ___."
           ],
           "answer": {
             "vocabKey": "pants"
@@ -30709,18 +30464,6 @@
           "cueFree": false
         },
         {
-          "id": "pfanne-kanne",
-          "lines": [
-            "Das Ei brät in der Pfanne,",
-            "der Tee ist in der ___."
-          ],
-          "answer": {
-            "vocabKey": "pitcher"
-          },
-          "rhymeWith": "pfanne",
-          "cueFree": false
-        },
-        {
           "id": "zug-krug",
           "lines": [
             "Wir fahren mit dem Zug,",
@@ -30817,7 +30560,7 @@
         },
         "G1-343": {
           "title": "Reimwörter sortieren",
-          "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+          "instruction": "Sprich jedes Bildwort im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild."
         },
         "G1-344": {
           "title": "Reime vervollständigen",
@@ -30825,7 +30568,7 @@
         },
         "G1-345": {
           "title": "Reimketten",
-          "instruction": "Sprich jedes Bildwort. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+          "instruction": "Sprich jedes Bildwort. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien. Manche Wörter passen nirgends."
         },
         "G1-346": {
           "title": "Eigene Reimwörter schreiben",

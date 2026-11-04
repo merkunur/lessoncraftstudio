@@ -1401,7 +1401,7 @@
     },
     "F2": {
       "title": "Del det sammensatte ord: find de to ord",
-      "instruction": "Hele ordet står i bogstavkasser ved sit billede. Tegn én streg dér, hvor det andet ord begynder."
+      "instruction": "Hele ordet står bogstav for bogstav ved sit billede. Tegn én streg dér, hvor det andet ord begynder."
     },
     "F3": {
       "title": "Find halvdelene: to billeder, ét ord",

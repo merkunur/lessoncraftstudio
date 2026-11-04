@@ -57,10 +57,17 @@ async function main() {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-declared-'));
   // a page that never settles fails after two minutes instead of stalling the run (2026-11-02: a run sat idle 2.5 h)
   const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'], protocolTimeout: 120000 });
-  const page = await browser.newPage();
+  let page = await browser.newPage();
   await page.setViewport({ width: 703, height: 945 });
   const mount = async (html) => { const f = path.join(tmp, 'm.html'); fs.writeFileSync(f, html); await page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' }); await page.evaluate(async () => { await document.fonts.ready; }); return page; };
-  const robotPage = await browser.newPage();
+  let robotPage = await browser.newPage();
+  // a page that timed out is thrown away: the next case starts on fresh pages (2026-11-04: one hung odd-even screen
+  // ended the whole run after 34 min — pipe3 the same — with no case named)
+  const freshPages = async () => {
+    for (const p of [page, robotPage]) { try { await p.close(); } catch (e) { /* already gone */ } }
+    page = await browser.newPage(); await page.setViewport({ width: 703, height: 945 });
+    robotPage = await browser.newPage();
+  };
   let checked = 0, bad = 0, templates = 0;
   let poisonSample = null;
   const paths = {};
@@ -83,8 +90,10 @@ async function main() {
           const unit = lu.length ? lu[0].id : null;
           const tag = `${maker} ${t.id} L${d} ${loc} copy ${v}`;
           checked++;
-          let got, sc;
-          try {
+          // thousands of mounts on one page wear the browser out: fresh pages every 150 cases
+          if (checked % 150 === 0) await freshPages();
+          let got, sc, buildErr = null;
+          for (let attempt = 0; attempt < 2 && !got; attempt++) try {
             const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
             // the attempt the maker's page used (runtime.generate's seed ladder — the screen replays it, shell.js
             // screenHtmlFor): the first fresh-seed retry the page builds with (2026-11-02: G2-261 level 3 builds only
@@ -93,32 +102,49 @@ async function main() {
             const att = sv ? { seedVariant: v + sv } : {};
             // the shared decision (runtime.js screenFor): declared, else the page's marks (the published face)
             got = await runtime.screenFor({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, tpl: t, runtimeStrings: runtimeStrings(loc), marksInstructions: SCREEN_I18N[loc] }, mount);
-            paths[got.path] = (paths[got.path] || 0) + 1;
             if (got.path === 'declared') {
               // the same build again, for its measured items (screenFor returns the document only)
               const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, declared: true, screenInstruction: t.screenInstructions[loc][d] });
               sc = await screen.buildDeclaredScreen({ html: r.declaredHtml, type, theme, difficulty: d, locale: loc, unit: r.unit, design: r.meta && r.meta.design, strings: runtimeStrings(loc), mount });
             }
-          } catch (e) { bad++; fails.push(`${tag}: (1) ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }
-          const f = [];
-          const leaks = leakedMarks(got.html);
-          if (leaks.length) f.push('(3) answer marks on the served page: ' + leaks.join(','));
-          if (sc) {
-            const out = outsideCrop(sc.items);
-            if (out) f.push('(4) ' + out + ' items outside the crop');
-            const played = await playScreen(robotPage, sc.html, type.interactive.oracle, loc, sc.kind);
-            if (played.length) f.push('(2) ' + played.slice(0, 3).join('; '));
-          } else {
-            // a marks screen (the published face): the marks gate's player, real clicks
-            await mount(got.html);
-            const right = await page.evaluate(bot, 'right');
-            if (right.err) f.push('(2) marks: ' + right.err);
-            else if (right.states.some((x) => x !== 'right' && x !== null)) f.push('(2) marks: the right answers were not all marked right');
-            await new Promise((res) => setTimeout(res, 600));
-            if (!right.err && !(await page.evaluate(() => !document.getElementById('lcs-celebration').hidden))) f.push('(2) marks: no celebration on all right');
-            await page.evaluate(() => window.__lcsMarks.reset());
-            const wrong = await page.evaluate(bot, 'wrong');
-            if (!wrong.err && wrong.states.some((x) => x === 'right')) f.push('(2) marks: a wrong answer was marked right');
+          } catch (e) {
+            // a build error is the template's; a timeout is retried once on fresh pages (the play step's rule)
+            got = undefined; sc = undefined; buildErr = e;
+            const timedOut = /timed out/i.test(e.message);
+            if (timedOut) await freshPages();
+            if (!timedOut) break;
+          }
+          if (got) paths[got.path] = (paths[got.path] || 0) + 1;
+          if (!got) { bad++; fails.push(`${tag}: (1) ${buildErr.reasons ? buildErr.reasons.join('; ') : buildErr.message}`); continue; }
+          const play = async () => {
+            const f = [];
+            const leaks = leakedMarks(got.html);
+            if (leaks.length) f.push('(3) answer marks on the served page: ' + leaks.join(','));
+            if (sc) {
+              const out = outsideCrop(sc.items);
+              if (out) f.push('(4) ' + out + ' items outside the crop');
+              const played = await playScreen(robotPage, sc.html, type.interactive.oracle, loc, sc.kind);
+              if (played.length) f.push('(2) ' + played.slice(0, 3).join('; '));
+            } else {
+              // a marks screen (the published face): the marks gate's player, real clicks
+              await mount(got.html);
+              const right = await page.evaluate(bot, 'right');
+              if (right.err) f.push('(2) marks: ' + right.err);
+              else if (right.states.some((x) => x !== 'right' && x !== null)) f.push('(2) marks: the right answers were not all marked right');
+              await new Promise((res) => setTimeout(res, 600));
+              if (!right.err && !(await page.evaluate(() => !document.getElementById('lcs-celebration').hidden))) f.push('(2) marks: no celebration on all right');
+              await page.evaluate(() => window.__lcsMarks.reset());
+              const wrong = await page.evaluate(bot, 'wrong');
+              if (!wrong.err && wrong.states.some((x) => x === 'right')) f.push('(2) marks: a wrong answer was marked right');
+            }
+            return f;
+          };
+          // a timeout is retried ONCE on fresh pages: a long run's tired browser is not the screen's fault (the same case
+          // passed alone, 2026-11-04); a screen that hangs again fails, named
+          let f;
+          try { f = await play(); } catch (e1) {
+            await freshPages();
+            try { f = await play(); } catch (e2) { f = ['(2) the screen never settled (twice): ' + String(e2.message).slice(0, 140)]; await freshPages(); }
           }
           if (f.length) { bad++; fails.push(`${tag} [${got.path}]: ${f.join(' | ')}`); }
           else if (!poisonSample && sc) poisonSample = { sc, type, loc, tag };

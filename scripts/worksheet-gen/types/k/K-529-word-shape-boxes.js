@@ -19,8 +19,10 @@ const T = require('../../primitives/_tokens.js').color;
 
 const D = {
   1: { n: 4, min: 3, max: 5, first: true, px: 120, unit: 34 },
-  2: { n: 6, min: 3, max: 6, first: false, px: 92, unit: 28 },
-  3: { n: 6, min: 5, max: 8, first: false, px: 92, unit: 26 },
+  // (2026-11-04, screen-geometry: units 28 / 26 made 25-27 px boxes 3 px apart — on the screen no target could reach the
+  // 34-px tap floor without overlapping its neighbour; a 32-px box also gives a K child room to write the letter)
+  2: { n: 6, min: 3, max: 6, first: false, px: 92, unit: 34 },
+  3: { n: 6, min: 5, max: 8, first: false, px: 92, unit: 34 },
 };
 
 /** the boxes of one word: x-height boxes on one baseline, a tall box rising 0.75 unit higher, a low one hanging 0.75 lower */

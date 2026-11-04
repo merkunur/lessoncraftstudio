@@ -51,7 +51,7 @@
     ],
     "crossNot": [
       "Quien tiene {pic} no tiene {pic2}.",
-      "El niño que tiene {pic} no tiene {pic2}."
+      "Si alguien tiene {pic}, no tiene {pic2}."
     ]
   },
   "truth": {
@@ -82,18 +82,18 @@
     },
     "F2": {
       "title": "Acertijos de lógica de 4 por 4: seis pistas",
-      "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y pon palomita a lo que tiene que ser hasta que cada fila tenga una respuesta."
+      "instruction": "Cuatro niños y cuatro dibujos. Usa cada pista: tacha lo que no puede ser y palomea lo que sí es, hasta que cada fila tenga una respuesta."
     },
     "F3": {
       "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-      "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+      "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
     },
     "F4": {
       "title": "Acertijos de dos atributos: dos dibujos por niño",
       "instruction": "Cada niño tiene un dibujo de cada grupo. Usa las pistas que los unen para completar las tres cuadrículas."
     },
     "F5": {
-      "title": "Lee la cuadrícula de lógica: ¿verdadero o falso?",
+      "title": "Lee la cuadrícula: ¿verdadero o falso?",
       "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
     }
   }

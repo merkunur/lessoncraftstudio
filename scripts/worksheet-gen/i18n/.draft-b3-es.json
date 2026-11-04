@@ -38,7 +38,7 @@
    "instruction": "El primer sonido ya está escrito. Di despacio el nombre del dibujo y escribe un sonido en cada caja vacía."
   },
   "G1-312": {
-   "title": "Tira de sonidos: ¿cuántos sonidos tiene la palabra?",
+   "title": "Tira de sonidos: ¿cuántos sonidos oyes?",
    "instruction": "Di la palabra despacio. Escribe un sonido en cada caja empezando por la izquierda y deja vacías las cajas que sobren."
   },
   "G1-313": {
@@ -78,7 +78,7 @@
    "instruction": "Empieza en la bandera. Cuenta hasta el número de cada ficha y haz la marca que indica."
   },
   "G1-315": {
-   "title": "Escribe los números ordinales que faltan",
+   "title": "Escribe los ordinales que faltan",
    "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en los recuadros vacíos, contando desde la bandera."
   },
   "G1-316": {
@@ -186,8 +186,8 @@
    "instruction": "Recorta las tarjetas. Di la palabra de uno y la palabra de muchos y después junta cada pareja."
   },
   "K-350": {
-   "title": "Tarjetas bilingües: español e inglés",
-   "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+   "title": "Tarjetas bilingües: español {AND} {U}",
+   "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras."
   },
   "G1-324": {
    "title": "Tarjetas de sílabas: lee la palabra por partes",
@@ -215,14 +215,14 @@
   },
   "G1-329": {
    "title": "La vocal de cada sílaba",
-   "instruction": "Pon un punto sobre la vocal de cada sílaba."
+   "instruction": "Marca con un punto la vocal de cada sílaba."
   },
   "G1-306": {
    "title": "Sílabas directas: {UNIT}",
    "instruction": "Lee el tapete y escribe la primera sílaba."
   },
   "G1-330": {
-   "title": "Encierra la sílaba que oyes: {UNIT}",
+   "title": "Rodea la sílaba que oyes: {UNIT}",
    "instruction": "Rodea la sílaba con la que empieza."
   },
   "G1-331": {
@@ -291,11 +291,11 @@
   },
   "G1-309": {
    "title": "Palabras que riman: escribe la rima",
-   "instruction": "Rodea el que rima y escribe su nombre."
+   "instruction": "Encierra el dibujo que rima y escribe su nombre."
   },
   "K-352": {
    "title": "¿Riman o no riman?",
-   "instruction": "Di los dos nombres: si terminan igual, marca sí; si no, marca no."
+   "instruction": "Di los dos nombres: si suenan igual al final, marca la palomita; si no, marca el tache."
   },
   "G1-343": {
    "title": "Familias de rimas: clasifica",
@@ -303,7 +303,7 @@
   },
   "G1-344": {
    "title": "Completa la rima",
-   "instruction": "Lee los versos y escribe la palabra que rima con la anterior."
+   "instruction": "Lee los versos y mira el dibujo. Escribe la palabra que rima con el final del primer verso."
   },
   "G1-345": {
    "title": "Cadenas de rimas",
@@ -359,7 +359,7 @@
   },
   "G2-328": {
    "title": "Plurales: {UNIT}",
-   "instruction": "Lee el singular y escribe el plural en los recuadros."
+   "instruction": "Lee el singular y escribe el plural en el recuadro."
   },
   "G2-316": {
    "title": "Familias de palabras: raíz y sufijo",
@@ -383,14 +383,14 @@
   },
   "G2-334": {
    "title": "Une el pronombre con la forma del verbo",
-   "instruction": "Lee cada pronombre de la izquierda. Traza una línea hasta la forma del verbo que le corresponde, una línea por pronombre."
+   "instruction": "Lee cada pronombre. Traza una línea hasta la forma del verbo que le corresponde. Luego completa las dos oraciones."
   },
   "G2-335": {
    "title": "Verbos en oraciones con dibujos",
    "instruction": "Mira el dibujo y lee el verbo de la ficha. Escribe en la caja punteada la forma que completa la oración."
   },
   "G2-336": {
-   "title": "Los verbos irregulares: ser, estar, tener e ir",
+   "title": "Verbos irregulares: ser, estar, tener e ir, dos por hoja",
    "instruction": "Estos verbos cambian mucho. Escribe en las cajas punteadas la forma que va con cada persona."
   },
   "G2-337": {
@@ -435,18 +435,18 @@
   },
   "G3-378": {
    "title": "Acertijos de lógica de 4 por 4: seis pistas",
-   "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y pon palomita a lo que tiene que ser hasta que cada fila tenga una respuesta."
+   "instruction": "Cuatro niños y cuatro dibujos. Usa cada pista: tacha lo que no puede ser y palomea lo que sí es, hasta que cada fila tenga una respuesta."
   },
   "G1-349": {
    "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-   "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+   "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
   },
   "G3-379": {
    "title": "Acertijos de dos atributos: dos dibujos por niño",
    "instruction": "Cada niño tiene un dibujo de cada grupo. Usa las pistas que los unen para completar las tres cuadrículas."
   },
   "G2-345": {
-   "title": "Lee la cuadrícula de lógica: ¿verdadero o falso?",
+   "title": "Lee la cuadrícula: ¿verdadero o falso?",
    "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
   },
   "G3-377": {
@@ -2903,7 +2903,6 @@
     "armchair",
     "artist",
     "asparagus",
-    "aster",
     "asteroid",
     "astronaut",
     "author",
@@ -2930,7 +2929,6 @@
     "beetle",
     "beetroot",
     "begonia",
-    "beige",
     "bell",
     "belt",
     "bench",
@@ -2960,7 +2958,6 @@
     "broccoli",
     "brontosaurus",
     "broom",
-    "brush",
     "bucket",
     "bud",
     "bulldozer",
@@ -3205,7 +3202,6 @@
     "motorcycle",
     "mountain",
     "mouse",
-    "muffin",
     "mushroom",
     "musician",
     "narwhal",
@@ -3249,7 +3245,6 @@
     "pigeon",
     "pilot",
     "pitcher",
-    "pizza",
     "planet",
     "plate",
     "plesiosaurus",
@@ -3301,7 +3296,6 @@
     "scarlet",
     "science",
     "scissors",
-    "scooter",
     "seagull",
     "seashell",
     "sewing",
@@ -3349,7 +3343,6 @@
     "stormy",
     "stove",
     "strawberry",
-    "stretcher",
     "student",
     "styracosaurus",
     "subway",
@@ -3422,7 +3415,8 @@
     "wrist",
     "writing",
     "zebra",
-    "zinnia"
+    "zinnia",
+    "boat"
    ],
    "bank": {
     "acorn": [
@@ -3787,17 +3781,6 @@
      [
       "g",
       "o"
-     ]
-    ],
-    "aster": [
-     [
-      "á",
-      "s"
-     ],
-     [
-      "t",
-      "e",
-      "r"
      ]
     ],
     "asteroid": [
@@ -4319,17 +4302,6 @@
       "a"
      ]
     ],
-    "beige": [
-     [
-      "b",
-      "e",
-      "i"
-     ],
-     [
-      "g",
-      "e"
-     ]
-    ],
     "bell": [
      [
       "c",
@@ -4609,12 +4581,13 @@
     ],
     "boat": [
      [
-      "b",
-      "o"
+      "l",
+      "a",
+      "n"
      ],
      [
-      "t",
-      "e"
+      "ch",
+      "a"
      ]
     ],
     "bolt": [
@@ -4836,20 +4809,6 @@
      [
       "f",
       "é"
-     ]
-    ],
-    "brush": [
-     [
-      "c",
-      "e"
-     ],
-     [
-      "p",
-      "i"
-     ],
-     [
-      "ll",
-      "o"
      ]
     ],
     "bucket": [
@@ -5532,12 +5491,16 @@
     ],
     "chicken": [
      [
-      "p",
-      "o"
+      "g",
+      "a"
      ],
      [
       "ll",
-      "o"
+      "i"
+     ],
+     [
+      "n",
+      "a"
      ]
     ],
     "chimpanzee": [
@@ -7625,16 +7588,6 @@
       "o"
      ]
     ],
-    "gopher": [
-     [
-      "t",
-      "u"
-     ],
-     [
-      "z",
-      "a"
-     ]
-    ],
     "gorilla": [
      [
       "g",
@@ -9441,18 +9394,6 @@
       "a"
      ]
     ],
-    "muffin": [
-     [
-      "m",
-      "u",
-      "f"
-     ],
-     [
-      "f",
-      "i",
-      "n"
-     ]
-    ],
     "mug": [
      [
       "t",
@@ -10434,17 +10375,6 @@
      ],
      [
       "rr",
-      "a"
-     ]
-    ],
-    "pizza": [
-     [
-      "p",
-      "i",
-      "z"
-     ],
-     [
-      "z",
       "a"
      ]
     ],
@@ -11457,19 +11387,6 @@
       "s"
      ]
     ],
-    "scooter": [
-     [
-      "s",
-      "c",
-      "o",
-      "o"
-     ],
-     [
-      "t",
-      "e",
-      "r"
-     ]
-    ],
     "screwdriver": [
      [
       "d",
@@ -12287,20 +12204,6 @@
       "a"
      ]
     ],
-    "stretcher": [
-     [
-      "c",
-      "a"
-     ],
-     [
-      "m",
-      "i"
-     ],
-     [
-      "ll",
-      "a"
-     ]
-    ],
     "student": [
      [
       "e",
@@ -12479,15 +12382,6 @@
       "t",
       "e",
       "r"
-     ]
-    ],
-    "sweatpants": [
-     [
-      "p",
-      "a",
-      "n",
-      "t",
-      "s"
      ]
     ],
     "sweatshirt": [
@@ -14503,7 +14397,7 @@
      "instruction": "Empieza en la bandera. Cuenta hasta el número de cada ficha y haz la marca que indica."
     },
     "F1": {
-     "title": "Escribe los números ordinales que faltan",
+     "title": "Escribe los ordinales que faltan",
      "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en los recuadros vacíos, contando desde la bandera."
     },
     "F2": {
@@ -14678,7 +14572,21 @@
      "animal": "Mi animal favorito",
      "food": "Mi comida favorita",
      "color": "Mi color favorito",
-     "toy": "Mi juguete favorito"
+     "toy": "Mi juguete favorito",
+     "fruit": "Mi fruta favorita",
+     "vegetable": "Mi verdura favorita",
+     "pet": "Mi mascota favorita",
+     "instrument": "Mi instrumento favorito",
+     "hobby": "Mi pasatiempo favorito",
+     "treat": "Mi postre favorito",
+     "bird": "Mi ave favorita",
+     "bug": "Mi bichito favorito",
+     "sea": "Mi animal marino favorito",
+     "vehicle": "Mi vehículo favorito",
+     "clothes": "Mi ropa favorita",
+     "breakfast": "Mi desayuno favorito",
+     "shape": "Mi figura favorita",
+     "farm": "Mi animal de granja favorito"
     },
     "countHeads": {
      "people": "Personas en mi familia:",
@@ -14720,7 +14628,36 @@
     "skate": "Sé patinar",
     "ski": "Sé esquiar",
     "writename": "Sé escribir mi nombre",
-    "brushteeth": "Sé lavarme los dientes"
+    "brushteeth": "Sé lavarme los dientes",
+    "bounce": "Sé botar el balón",
+    "slide": "Sé bajar por la resbaladilla",
+    "hike": "Sé caminar muy lejos",
+    "comb": "Sé peinarme el cabello",
+    "washhands": "Sé lavarme las manos",
+    "dress": "Sé vestirme",
+    "coat": "Sé abotonar mi abrigo",
+    "boots": "Sé ponerme las botas",
+    "bed": "Sé tender mi cama",
+    "tidy": "Sé barrer el piso",
+    "cut": "Sé recortar con tijeras",
+    "glue": "Sé usar el pegamento",
+    "draw": "Sé colorear sin salirme",
+    "backpack": "Sé preparar mi mochila",
+    "drum": "Sé tocar el tambor",
+    "guitar": "Sé tocar la guitarra",
+    "blocks": "Sé construir una torre",
+    "dice": "Sé jugar un juego de mesa",
+    "bake": "Sé ayudar a hacer un pastel",
+    "photo": "Sé tomar una foto",
+    "kite": "Sé volar un papalote",
+    "fish": "Sé pescar con caña",
+    "tent": "Sé dormir en casa de campaña",
+    "water": "Sé regar las plantas",
+    "puddle": "Sé brincar en los charcos",
+    "swing": "Sé columpiarme sin ayuda",
+    "umbrella": "Sé abrir un paraguas",
+    "jumprope": "Sé saltar la cuerda",
+    "iceskate": "Sé patinar"
    },
    "refuse": [],
    "optionWords": {
@@ -14757,9 +14694,122 @@
     "robot": "robot",
     "balloon": "globo",
     "dinosaur": "dinosaurio",
-    "boat": "bote",
+    "boat": "lancha",
+    "lemon": "limón amarillo",
+    "kiwi": "kiwi",
+    "orange": "naranja",
+    "pear": "pera",
+    "pineapple": "piña",
+    "watermelon": "sandía",
+    "raspberry": "frambuesa",
+    "coconut": "coco",
+    "broccoli": "brócoli",
+    "corn": "elote",
+    "cucumber": "pepino",
+    "tomato": "jitomate",
+    "potato": "papa",
+    "pumpkin": "calabaza",
+    "eggplant": "berenjena",
+    "lettuce": "lechuga",
+    "onion": "cebolla",
+    "cauliflower": "coliflor",
+    "goldfish": "pez dorado",
+    "hamster": "hámster",
+    "parrot": "loro",
+    "turtle": "tortuga",
+    "mouse": "ratón",
+    "frog": "rana",
+    "drum": "tambor",
+    "flute": "flauta",
+    "guitar": "guitarra",
+    "piano": "piano",
+    "trumpet": "trompeta",
+    "violin": "violín",
+    "harp": "arpa",
+    "xylophone": "xilófono",
+    "accordion": "acordeón",
+    "saxophone": "saxofón",
+    "soccer": "fútbol",
+    "tennis": "tenis",
+    "basketball": "básquetbol",
+    "swimming": "nadar",
+    "skating": "patinar",
+    "biking": "ciclismo",
+    "chess": "ajedrez",
+    "cupcake": "panquecito",
+    "donut": "dona",
+    "lollipop": "paleta",
+    "popsicle": "paleta helada",
+    "waffle": "waffle",
+    "muffin": "muffin",
+    "eagle": "águila",
+    "flamingo": "flamenco",
+    "owl": "búho",
+    "peacock": "pavo real",
+    "toucan": "tucán",
+    "ostrich": "avestruz",
+    "pelican": "pelícano",
+    "bee": "abeja",
+    "ant": "hormiga",
+    "butterfly": "mariposa",
+    "caterpillar": "oruga",
+    "ladybug": "catarina",
+    "dragonfly": "libélula",
+    "snail": "caracol",
+    "spider": "araña",
+    "worm": "gusano",
+    "crab": "cangrejo",
+    "dolphin": "delfín",
+    "octopus": "pulpo",
+    "jellyfish": "medusa",
+    "whale": "ballena",
+    "starfish": "estrella de mar",
+    "shark": "tiburón",
+    "seal": "foca",
+    "airplane": "avión",
+    "bicycle": "bicicleta",
     "bus": "camión",
-    "t-shirt": "playera"
+    "helicopter": "helicóptero",
+    "tractor": "tractor",
+    "rocket": "cohete",
+    "motorcycle": "motocicleta",
+    "sailboat": "velero",
+    "submarine": "submarino",
+    "hat": "sombrero",
+    "boots": "botas",
+    "dress": "vestido",
+    "coat": "abrigo",
+    "cap": "gorra",
+    "t-shirt": "playera",
+    "scarf": "bufanda",
+    "jeans": "jeans",
+    "pajamas": "pijama",
+    "sweater": "suéter",
+    "skirt": "falda",
+    "shorts": "shorts",
+    "cereal": "cereal",
+    "pancake": "hotcake",
+    "croissant": "cuerno",
+    "bagel": "bagel",
+    "sausage": "salchicha",
+    "juice": "jugo",
+    "circle": "círculo",
+    "square": "cuadrado",
+    "triangle": "triángulo",
+    "star": "estrella",
+    "heart": "corazón",
+    "diamond": "rombo",
+    "oval": "óvalo",
+    "moon": "luna",
+    "hexagon": "hexágono",
+    "rectangle": "rectángulo",
+    "pentagon": "pentágono",
+    "cow": "vaca",
+    "goat": "cabra",
+    "donkey": "burro",
+    "turkey": "guajolote",
+    "goose": "ganso",
+    "llama": "llama"
    },
    "strings": {
     "K-323": {
@@ -14786,7 +14836,8 @@
      "title": "Mi nombre: escribe, cuenta y compara",
      "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
     }
-   }
+   },
+   "excludeOptions": []
   },
   "picture-word-cards": {
    "cardCase": "lower",
@@ -14875,8 +14926,8 @@
      "instruction": "Recorta las tarjetas. Di la palabra de uno y la palabra de muchos y después junta cada pareja."
     },
     "bilingual": {
-     "title": "Tarjetas bilingües: español e inglés",
-     "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+     "title": "Tarjetas bilingües: español {AND} {U}",
+     "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras."
     },
     "syllable": {
      "title": "Tarjetas de sílabas: lee la palabra por partes",
@@ -14933,7 +14984,7 @@
    "units": [
     {
      "id": "m",
-     "label": "sílabas ma me mi mo mu",
+     "label": "ma me mi mo mu",
      "cells": [
       "ma",
       "me",
@@ -15026,7 +15077,7 @@
     },
     {
      "id": "p",
-     "label": "sílabas pa pe pi po pu",
+     "label": "pa pe pi po pu",
      "cells": [
       "pa",
       "pe",
@@ -15206,7 +15257,7 @@
     },
     {
      "id": "t",
-     "label": "sílabas ta te ti to tu",
+     "label": "ta te ti to tu",
      "cells": [
       "ta",
       "te",
@@ -15364,7 +15415,7 @@
     },
     {
      "id": "l",
-     "label": "sílabas la le li lo lu",
+     "label": "la le li lo lu",
      "cells": [
       "la",
       "le",
@@ -15454,7 +15505,7 @@
     },
     {
      "id": "s",
-     "label": "sílabas sa se si so su",
+     "label": "sa se si so su",
      "cells": [
       "sa",
       "se",
@@ -15524,7 +15575,7 @@
     },
     {
      "id": "d",
-     "label": "sílabas da de di do du",
+     "label": "da de di do du",
      "cells": [
       "da",
       "de",
@@ -15558,7 +15609,7 @@
     },
     {
      "id": "n",
-     "label": "sílabas na ne ni no nu",
+     "label": "na ne ni no nu",
      "cells": [
       "na",
       "ne",
@@ -15599,7 +15650,7 @@
     },
     {
      "id": "b",
-     "label": "sílabas ba be bi bo bu",
+     "label": "ba be bi bo bu",
      "cells": [
       "ba",
       "be",
@@ -15749,7 +15800,7 @@
     },
     {
      "id": "c",
-     "label": "sílabas ca co cu",
+     "label": "ca co cu",
      "cells": [
       "ca",
       "co",
@@ -16084,7 +16135,7 @@
     },
     {
      "id": "g",
-     "label": "sílabas ga go gu",
+     "label": "ga go gu",
      "cells": [
       "ga",
       "go",
@@ -16173,7 +16224,7 @@
     },
     {
      "id": "f",
-     "label": "sílabas fa fe fi fo fu",
+     "label": "fa fe fi fo fu",
      "cells": [
       "fa",
       "fe",
@@ -16206,7 +16257,7 @@
     },
     {
      "id": "r",
-     "label": "sílabas ra re ri ro ru",
+     "label": "ra re ri ro ru",
      "cells": [
       "ra",
       "re",
@@ -16296,7 +16347,7 @@
     },
     {
      "id": "j",
-     "label": "sílabas ja je ji jo ju",
+     "label": "ja je ji jo ju",
      "cells": [
       "ja",
       "je",
@@ -16357,7 +16408,7 @@
     },
     {
      "id": "ll",
-     "label": "sílabas lla lle lli llo llu",
+     "label": "lla lle lli llo llu",
      "cells": [
       "lla",
       "lle",
@@ -16398,7 +16449,7 @@
     },
     {
      "id": "z",
-     "label": "sílabas za ze zi zo zu",
+     "label": "za ze zi zo zu",
      "cells": [
       "za",
       "ze",
@@ -16434,7 +16485,7 @@
    "complexUnits": [
     {
      "id": "tr-pl",
-     "label": "sílabas trabadas trac trom pla plan plu",
+     "label": "trac trom pla plan plu",
      "cells": [
       "trac",
       "trom",
@@ -16513,7 +16564,7 @@
     },
     {
      "id": "gr-fl-bl",
-     "label": "sílabas trabadas gra gri fla flo flau blo blu",
+     "label": "gra gri fla flo flau blo blu",
      "cells": [
       "gra",
       "gri",
@@ -16595,7 +16646,7 @@
     },
     {
      "id": "br-fr-gl",
-     "label": "sílabas trabadas bra bró brú fre fras fram glo",
+     "label": "bra bró brú fre fras fram glo",
      "cells": [
       "bra",
       "bró",
@@ -19615,7 +19666,7 @@
      "instruction": "Lee el tapete y escribe la primera sílaba."
     },
     "G1-330": {
-     "title": "Encierra la sílaba que oyes: {UNIT}",
+     "title": "Rodea la sílaba que oyes: {UNIT}",
      "instruction": "Rodea la sílaba con la que empieza."
     },
     "G1-331": {
@@ -20353,8 +20404,8 @@
      "8": "el octavo dibujo"
     },
     "between": "el dibujo que está entre {A} y {B}",
-    "rightof": "el dibujo que tiene {A} a su izquierda",
-    "leftof": "el dibujo que tiene {A} a su derecha"
+    "rightof": "el dibujo que está justo después {A}",
+    "leftof": "el dibujo que está justo antes {A}"
    },
    "objForms": {
     "bat": {
@@ -20373,7 +20424,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del murciélago"
     },
     "camel": {
      "unique": "el camello",
@@ -20391,7 +20443,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del camello"
     },
     "cat": {
      "unique": "el gato",
@@ -20409,7 +20462,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del gato"
     },
     "dog": {
      "unique": "el perro",
@@ -20427,7 +20481,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del perro"
     },
     "dolphin": {
      "unique": "el delfín",
@@ -20445,7 +20500,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del delfín"
     },
     "donkey": {
      "unique": "el burro",
@@ -20463,7 +20519,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del burro"
     },
     "duck": {
      "unique": "el pato",
@@ -20481,7 +20538,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del pato"
     },
     "elephant": {
      "unique": "el elefante",
@@ -20499,7 +20557,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del elefante"
     },
     "fox": {
      "unique": "el zorro",
@@ -20517,7 +20576,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del zorro"
     },
     "fish": {
      "unique": "el pez",
@@ -20535,7 +20595,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del pez"
     },
     "giraffe": {
      "unique": "la jirafa",
@@ -20553,7 +20614,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la jirafa"
     },
     "hippopotamus": {
      "unique": "el hipopótamo",
@@ -20571,7 +20633,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del hipopótamo"
     },
     "horse": {
      "unique": "el caballo",
@@ -20589,7 +20652,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del caballo"
     },
     "jaguar": {
      "unique": "el jaguar",
@@ -20607,7 +20671,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del jaguar"
     },
     "koala": {
      "unique": "el koala",
@@ -20625,7 +20690,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del koala"
     },
     "moose": {
      "unique": "el alce",
@@ -20643,7 +20709,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del alce"
     },
     "orangutan": {
      "unique": "el orangután",
@@ -20661,7 +20728,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del orangután"
     },
     "owl": {
      "unique": "el búho",
@@ -20679,7 +20747,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del búho"
     },
     "panda": {
      "unique": "el panda",
@@ -20697,7 +20766,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del panda"
     },
     "penguin": {
      "unique": "el pingüino",
@@ -20715,7 +20785,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del pingüino"
     },
     "pig": {
      "unique": "el cerdo",
@@ -20733,7 +20804,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del cerdo"
     },
     "raccoon": {
      "unique": "el mapache",
@@ -20751,7 +20823,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del mapache"
     },
     "rabbit": {
      "unique": "el conejo",
@@ -20769,7 +20842,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del conejo"
     },
     "sheep": {
      "unique": "la oveja",
@@ -20787,7 +20861,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la oveja"
     },
     "swan": {
      "unique": "el cisne",
@@ -20805,7 +20880,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del cisne"
     },
     "tiger": {
      "unique": "el tigre",
@@ -20823,7 +20899,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del tigre"
     },
     "turtle": {
      "unique": "la tortuga",
@@ -20841,7 +20918,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la tortuga"
     },
     "whale": {
      "unique": "la ballena",
@@ -20859,7 +20937,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la ballena"
     },
     "wolf": {
      "unique": "el lobo",
@@ -20877,7 +20956,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del lobo"
     },
     "zebra": {
      "unique": "la cebra",
@@ -20895,7 +20975,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la cebra"
     },
     "avocado": {
      "unique": "el aguacate",
@@ -20913,7 +20994,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del aguacate"
     },
     "banana": {
      "unique": "el plátano",
@@ -20931,7 +21013,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del plátano"
     },
     "apple": {
      "unique": "la manzana",
@@ -20949,7 +21032,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la manzana"
     },
     "lime": {
      "unique": "el limón",
@@ -20967,7 +21051,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del limón"
     },
     "orange": {
      "unique": "la naranja",
@@ -20985,7 +21070,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la naranja"
     },
     "peach": {
      "unique": "el durazno",
@@ -21003,7 +21089,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del durazno"
     },
     "pear": {
      "unique": "la pera",
@@ -21021,7 +21108,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pera"
     },
     "pineapple": {
      "unique": "la piña",
@@ -21039,7 +21127,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la piña"
     },
     "watermelon": {
      "unique": "la sandía",
@@ -21057,7 +21146,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la sandía"
     },
     "strawberry": {
      "unique": "la fresa",
@@ -21075,7 +21165,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la fresa"
     },
     "raspberry": {
      "unique": "la frambuesa",
@@ -21093,7 +21184,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la frambuesa"
     },
     "airplane": {
      "unique": "el avión",
@@ -21111,7 +21203,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del avión"
     },
     "ambulance": {
      "unique": "la ambulancia",
@@ -21129,7 +21222,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la ambulancia"
     },
     "bicycle": {
      "unique": "la bicicleta",
@@ -21147,7 +21241,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la bicicleta"
     },
     "boat": {
      "unique": "el bote",
@@ -21165,7 +21260,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del bote"
     },
     "bulldozer": {
      "unique": "el bulldozer",
@@ -21183,7 +21279,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del bulldozer"
     },
     "bus": {
      "unique": "el camión",
@@ -21220,7 +21317,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del carro"
     },
     "canoe": {
      "unique": "la canoa",
@@ -21238,7 +21336,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la canoa"
     },
     "excavator": {
      "unique": "la excavadora",
@@ -21256,7 +21355,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la excavadora"
     },
     "helicopter": {
      "unique": "el helicóptero",
@@ -21274,7 +21374,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del helicóptero"
     },
     "jeep": {
      "unique": "el jeep",
@@ -21292,7 +21393,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del jeep"
     },
     "motorcycle": {
      "unique": "la motocicleta",
@@ -21310,7 +21412,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la motocicleta"
     },
     "rocket": {
      "unique": "el cohete",
@@ -21328,7 +21431,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del cohete"
     },
     "sailboat": {
      "unique": "el velero",
@@ -21346,7 +21450,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del velero"
     },
     "ship": {
      "unique": "el barco",
@@ -21364,7 +21469,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del barco"
     },
     "skateboard": {
      "unique": "la patineta",
@@ -21382,7 +21488,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la patineta"
     },
     "submarine": {
      "unique": "el submarino",
@@ -21400,7 +21507,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del submarino"
     },
     "taxi": {
      "unique": "el taxi",
@@ -21418,7 +21526,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del taxi"
     },
     "tractor": {
      "unique": "el tractor",
@@ -21436,7 +21545,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del tractor"
     },
     "train": {
      "unique": "el tren",
@@ -21454,7 +21564,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del tren"
     },
     "truck": {
      "unique": "el camión",
@@ -21472,7 +21583,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del camión"
     },
     "van": {
      "unique": "la camioneta",
@@ -21490,7 +21602,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la camioneta"
     },
     "ball": {
      "unique": "la pelota",
@@ -21508,7 +21621,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pelota"
     },
     "balloon": {
      "unique": "el globo",
@@ -21526,7 +21640,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del globo"
     },
     "bucket": {
      "unique": "la cubeta",
@@ -21544,7 +21659,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la cubeta"
     },
     "dinosaur": {
      "unique": "el dinosaurio",
@@ -21562,7 +21678,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del dinosaurio"
     },
     "doll": {
      "unique": "la muñeca",
@@ -21580,7 +21697,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la muñeca"
     },
     "kite": {
      "unique": "el papalote",
@@ -21598,7 +21716,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del papalote"
     },
     "robot": {
      "unique": "el robot",
@@ -21616,7 +21735,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del robot"
     },
     "shovel": {
      "unique": "la pala",
@@ -21634,7 +21754,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la pala"
     },
     "bear": {
      "unique": "el oso",
@@ -21652,7 +21773,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del oso"
     },
     "armadillo": {
      "unique": "el armadillo",
@@ -21670,7 +21792,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del armadillo"
     },
     "bison": {
      "unique": "el bisonte",
@@ -21688,7 +21811,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del bisonte"
     },
     "chimpanzee": {
      "unique": "el chimpancé",
@@ -21706,7 +21830,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del chimpancé"
     },
     "gorilla": {
      "unique": "el gorila",
@@ -21724,7 +21849,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del gorila"
     },
     "kangaroo": {
      "unique": "el canguro",
@@ -21742,7 +21868,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del canguro"
     },
     "lion": {
      "unique": "el león",
@@ -21760,7 +21887,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del león"
     },
     "monkey": {
      "unique": "el mono",
@@ -21778,7 +21906,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del mono"
     },
     "otter": {
      "unique": "la nutria",
@@ -21796,7 +21925,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la nutria"
     },
     "rhinoceros": {
      "unique": "el rinoceronte",
@@ -21814,7 +21944,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del rinoceronte"
     },
     "seal": {
      "unique": "la foca",
@@ -21832,7 +21963,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la foca"
     },
     "bee": {
      "unique": "la abeja",
@@ -21850,7 +21982,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la abeja"
     },
     "cow": {
      "unique": "la vaca",
@@ -21868,7 +22001,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la vaca"
     },
     "goat": {
      "unique": "la cabra",
@@ -21886,7 +22020,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la cabra"
     },
     "hen": {
      "unique": "la gallina",
@@ -21904,7 +22039,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la gallina"
     },
     "llama": {
      "unique": "la llama",
@@ -21922,7 +22058,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "de la llama"
     },
     "rooster": {
      "unique": "el gallo",
@@ -21940,7 +22077,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del gallo"
     }
    },
    "truth": {
@@ -21999,11 +22137,11 @@
       "k": 4
      },
      {
-      "text": "Primero va {obj} y justo después va {obj2}.",
+      "text": "En algún lugar de la fila va {obj} y justo después va {obj2}.",
       "cue": "rightof"
      },
      {
-      "text": "Primero va {obj2} y justo después va {obj}.",
+      "text": "En algún lugar de la fila va {obj2} y justo después va {obj}.",
       "cue": "leftof"
      }
     ]
@@ -22056,6 +22194,24 @@
      "title": "Lee y dibuja",
      "instruction": "Lee cada oración con atención. Luego dibuja exactamente lo que dice dentro del recuadro."
     }
+   },
+   "draw2": [
+    {
+     "text": "Dibuja {n} {pl} y {n2} {pl2}."
+    },
+    {
+     "text": "Dibuja {n} {pl} y {n2} {pl2} en el recuadro."
+    },
+    {
+     "text": "Dibuja {n} {pl} grandes y {n2} {pl2} de tamaño pequeño."
+    },
+    {
+     "text": "Dibuja {n} {pl}. Luego dibuja {n2} {pl2}."
+    }
+   ],
+   "fixedForms": {
+    "rightof": "de",
+    "leftof": "de"
    }
   },
   "rhyming-words": {
@@ -22067,7 +22223,7 @@
     "era",
     "ana",
     "ol",
-    "oca"
+    "eta"
    ],
    "classes": [
     {
@@ -22319,17 +22475,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "vase",
-       "word": "florero",
-       "pic": {
-        "theme": "around the house",
-        "noun": "vase"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "bookcase",
        "word": "librero",
        "pic": {
@@ -22546,76 +22691,6 @@
      "nearMiss": []
     },
     {
-     "id": "ete",
-     "rime": "-ete",
-     "sound": "ete",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "rocket",
-       "word": "cohete",
-       "pic": {
-        "theme": "space",
-        "noun": "rocket"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "stool",
-       "word": "taburete",
-       "pic": {
-        "theme": "furniture",
-        "noun": "stool"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "juguete",
-      "paquete"
-     ],
-     "nearMiss": []
-    },
-    {
-     "id": "oca",
-     "rime": "-oca",
-     "sound": "oca",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "mouth",
-       "word": "boca",
-       "pic": {
-        "theme": "body parts",
-        "noun": "mouth"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "rock",
-       "word": "roca",
-       "pic": {
-        "theme": "camping",
-        "noun": "rock"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "foca",
-      "loca"
-     ],
-     "nearMiss": []
-    },
-    {
      "id": "ol",
      "rime": "-ol",
      "sound": "ol",
@@ -22739,7 +22814,7 @@
      "id": "gato-pato",
      "lines": [
       "En el patio duerme el gato",
-      "y a su lado nada el ___"
+      "y en el estanque nada el ___"
      ],
      "answer": {
       "vocabKey": "duck"
@@ -22820,18 +22895,6 @@
      "cueFree": false
     },
     {
-     "id": "boca-roca",
-     "lines": [
-      "El cangrejo abre la boca",
-      "y se esconde bajo la ___"
-     ],
-     "answer": {
-      "vocabKey": "rock"
-     },
-     "rhymeWith": "boca",
-     "cueFree": false
-    },
-    {
      "id": "corbata-lata",
      "lines": [
       "Papá se pone su corbata",
@@ -22866,28 +22929,16 @@
      },
      "rhymeWith": "jarra",
      "cueFree": false
-    },
-    {
-     "id": "cohete-taburete",
-     "lines": [
-      "Al cielo sube el cohete",
-      "y yo lo miro desde el ___"
-     ],
-     "answer": {
-      "vocabKey": "stool"
-     },
-     "rhymeWith": "cohete",
-     "cueFree": false
     }
    ],
    "strings": {
     "G1-309": {
      "title": "Palabras que riman: escribe la rima",
-     "instruction": "Rodea el que rima y escribe su nombre."
+     "instruction": "Encierra el dibujo que rima y escribe su nombre."
     },
     "K-352": {
      "title": "¿Riman o no riman?",
-     "instruction": "Di los dos nombres: si terminan igual, marca sí; si no, marca no."
+     "instruction": "Di los dos nombres: si suenan igual al final, marca la palomita; si no, marca el tache."
     },
     "G1-343": {
      "title": "Familias de rimas: clasifica",
@@ -22895,7 +22946,7 @@
     },
     "G1-344": {
      "title": "Completa la rima",
-     "instruction": "Lee los versos y escribe la palabra que rima con la anterior."
+     "instruction": "Lee los versos y mira el dibujo. Escribe la palabra que rima con el final del primer verso."
     },
     "G1-345": {
      "title": "Cadenas de rimas",
@@ -23073,22 +23124,6 @@
        "g": "b",
        "side": "rule",
        "plural": "bloques",
-       "pluralGap": null
-      },
-      {
-       "theme": "vehicles",
-       "noun": "boat",
-       "vocabKey": "boat",
-       "word": "bote",
-       "gaps": [
-        {
-         "from": 0,
-         "len": 1
-        }
-       ],
-       "g": "b",
-       "side": "rule",
-       "plural": "botes",
        "pluralGap": null
       },
       {
@@ -24127,8 +24162,8 @@
       },
       {
        "theme": "vehicles",
-       "noun": "truck",
-       "vocabKey": "truck",
+       "noun": "bus",
+       "vocabKey": "bus",
        "word": "camión",
        "gaps": [
         {
@@ -26022,7 +26057,7 @@
     },
     "plural-tilde": {
      "id": "plural-tilde",
-     "head": "de -ón a -ones",
+     "head": "de -ón, -ín, -án a -ones, -ines, -anes",
      "chip": "ones ines anes",
      "band": "G2",
      "gap": {
@@ -26330,8 +26365,8 @@
       },
       {
        "theme": "vehicles",
-       "noun": "truck",
-       "vocabKey": "truck",
+       "noun": "bus",
+       "vocabKey": "bus",
        "word": "camión",
        "gaps": [
         {
@@ -26467,7 +26502,7 @@
     },
     "G2-328": {
      "title": "Plurales: {UNIT}",
-     "instruction": "Lee el singular y escribe el plural en los recuadros."
+     "instruction": "Lee el singular y escribe el plural en el recuadro."
     }
    }
   },
@@ -27451,14 +27486,14 @@
     },
     "F2": {
      "title": "Une el pronombre con la forma del verbo",
-     "instruction": "Lee cada pronombre de la izquierda. Traza una línea hasta la forma del verbo que le corresponde, una línea por pronombre."
+     "instruction": "Lee cada pronombre. Traza una línea hasta la forma del verbo que le corresponde. Luego completa las dos oraciones."
     },
     "F3": {
      "title": "Verbos en oraciones con dibujos",
      "instruction": "Mira el dibujo y lee el verbo de la ficha. Escribe en la caja punteada la forma que completa la oración."
     },
     "F4": {
-     "title": "Los verbos irregulares: ser, estar, tener e ir",
+     "title": "Verbos irregulares: ser, estar, tener e ir, dos por hoja",
      "instruction": "Estos verbos cambian mucho. Escribe en las cajas punteadas la forma que va con cada persona."
     },
     "F5": {
@@ -28128,7 +28163,7 @@
     ],
     "crossNot": [
      "Quien tiene {pic} no tiene {pic2}.",
-     "El niño que tiene {pic} no tiene {pic2}."
+     "Si alguien tiene {pic}, no tiene {pic2}."
     ]
    },
    "truth": {
@@ -28159,18 +28194,18 @@
     },
     "F2": {
      "title": "Acertijos de lógica de 4 por 4: seis pistas",
-     "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y pon palomita a lo que tiene que ser hasta que cada fila tenga una respuesta."
+     "instruction": "Cuatro niños y cuatro dibujos. Usa cada pista: tacha lo que no puede ser y palomea lo que sí es, hasta que cada fila tenga una respuesta."
     },
     "F3": {
      "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-     "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+     "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
     },
     "F4": {
      "title": "Acertijos de dos atributos: dos dibujos por niño",
      "instruction": "Cada niño tiene un dibujo de cada grupo. Usa las pistas que los unen para completar las tres cuadrículas."
     },
     "F5": {
-     "title": "Lee la cuadrícula de lógica: ¿verdadero o falso?",
+     "title": "Lee la cuadrícula: ¿verdadero o falso?",
      "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
     }
    }
@@ -28885,7 +28920,7 @@
     },
     "G2-333": {
      "title": "Diminutivos y aumentativos: -ito y -ote",
-     "instruction": "Fíjate en el tamaño del dibujo. Si es pequeño, escribe la palabra con -ito; si es grande, escríbela con -ote."
+     "instruction": "Fíjate en el tamaño del dibujo. Si es pequeño, escribe la palabra con -ito o -ita; si es grande, escríbela con -ote u -ota."
     }
    }
   }

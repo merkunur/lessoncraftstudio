@@ -1640,7 +1640,7 @@
     },
     "G2-330": {
       "title": "Jaa yhdyssana osiin",
-      "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+      "instruction": "Koko sana on kirjoitettu kuvan viereen kirjain kirjaimelta. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
     },
     "G2-331": {
       "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",

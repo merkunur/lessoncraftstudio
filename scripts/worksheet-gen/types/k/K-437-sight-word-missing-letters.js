@@ -72,7 +72,8 @@ module.exports = {
     // then the new word takes its row and its place in the bank (a decoy it was trades places with the word it replaces),
     // its gaps come from a generator seeded by the word, and every other row keeps its gaps — refused if one of them would
     // then fit two bank words
-    const words = slot.words(ctx, drawn, pool);
+    // its own row is built from the word (the letters left out of THIS word): declared, so the gate checks the rest
+    const words = slot.words(ctx, drawn, pool, 'word', { derives: ['words.{i}'] });
     words.forEach((w, i) => {
       if (w === drawn[i] || d.look) return;
       const p = bank.indexOf(drawn[i]), q = bank.indexOf(w);

@@ -581,15 +581,15 @@
       "instruction": "Finn ut hva du vet om dette dyret. Skriv ett faktum i hver rad på faktaarket, og fyll resten av siden med tegning eller ord."
     },
     "G2-339": {
-      "title": "Faktaark om {U}: Kryss av det som stemmer",
+      "title": "Faktaark om {L}: sett ring rundt det som stemmer",
       "instruction": "Les valgene i hver rad og sett ring rundt det som stemmer for dette dyret. Tegn så hvor det lever, og fullfør setningen."
     },
     "G2-340": {
-      "title": "Faktaark om {U} med ordbank",
+      "title": "Faktaark om {L} med ordbank",
       "instruction": "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
     },
     "G2-341": {
-      "title": "Faktaark om {U}: Skriv tre setninger",
+      "title": "Faktaark om {L}: skriv tre setninger",
       "instruction": "Les faktaarket. Fullfør de tre setningene med fakta fra det, og skriv ett faktum til på den siste linja."
     },
     "G2-342": {

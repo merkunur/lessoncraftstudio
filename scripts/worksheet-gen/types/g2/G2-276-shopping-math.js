@@ -102,8 +102,30 @@ module.exports = {
     if (shopPool.length < nItems) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${nItems}`);
     // tap-to-edit (lib/slot.js): a teacher's choice of shelf picture replaces item i — no rng call added, the catalogue unchanged
     const nouns = slot.pictures(ctx, rng.sample(shopPool, nItems), shopPool, theme);
-    const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), nItems);
+    let bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), nItems);
     if (bases.length < nItems) throw new Error(`G2-276: d${difficulty} has ${nItems} items but only ${bases.length} prices up to ${d.baseMax}`);
+    // a NEW pay-with-coins page (d.payMulti) gets a shelf whose prices leave every change card a change of two coin steps
+    // or more that no other card asks (2026-11-04, settings-space: with every coin needed, a big change needs a big
+    // price — en has only 10 / 15 / 20 c — and a random shelf left the third card the 5 c change, the smallest option on
+    // 92 % of third cards); a few shelves are drawn, the first that has room is kept
+    if (d.payMulti && !published) {
+      const vals = cur.sub.map((s) => s.v);
+      const roomyChanges = (bs) => {
+        const out = new Set();
+        for (const b of bs) {
+          const price = b * scale;
+          for (const x of vals) for (const y of vals) for (const z of [0, ...vals]) {
+            if (y > x || (z && z > y)) continue;
+            const sum = x + y + z, cs = z ? [x, y, z] : [x, y];
+            if (sum - price < 1 || sum - price > 5 * scale || sum > cur.subMax || sum - Math.min(...cs) >= price) continue;   // the cards' own pay rule
+            if (scale !== 5 || sum - price >= 10) out.add(sum - price);
+          }
+        }
+        return out.size;
+      };
+      const want = d.kinds.filter((k) => k === 'change').length ? Array.from({ length: d.cards }, (_, k) => d.kinds[k % d.kinds.length]).filter((k) => k === 'change').length : 0;
+      for (let t = 0; want && t < 24 && roomyChanges(bases) < want; t++) bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), nItems);
+    }
     const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit, slotAttr: slot.attr(ctx, 'pic', i) }));
     const coinVals = cur.sub.map((s) => s.v).sort((a, b) => b - a);
     const denoms = cur.sub;
@@ -239,6 +261,17 @@ module.exports = {
         `<span class="ws-card-badge">${k + 1}</span>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.45;color:#3A3530;margin:0;padding-left:22px" data-lcs-sentence>${html}</p>${extra}` +
         `<div style="display:flex;gap:14px;align-items:stretch">${dotPanel({ w: 420, h: d.dots })}<div style="display:flex;align-items:center;gap:8px">${chips}${answerBox({ w: 84, h: 54, answer })}<span style="font-family:'Baloo 2';font-weight:700;font-size:20px;color:#3A3530" data-lcs-unit>${cur.unit}</span></div></div></div>`);
+    }
+    // a NEW pay-with-coins page deals its cards in a drawn order (2026-11-04, settings-space: the cards take the roomy
+    // changes in turn, and a coin system with only two of them — the euro: 10 / 15 c — leaves the LAST card the 5 c change,
+    // which can only be the smallest option; it sat on card 3 on 91 % of pages). Badges renumbered; printed and screen
+    // order stay one
+    if (!published && d.payMulti && cards.length > 1) {
+      const ord = rng.shuffle(cards.map((_, i) => i));
+      const c2 = ord.map((i) => cards[i]), p2 = ord.map((i) => probs[i]);
+      cards.length = 0; probs.length = 0;
+      c2.forEach((h, j) => cards.push(h.replace(/<span class="ws-card-badge">\d+<\/span>/, `<span class="ws-card-badge">${j + 1}</span>`)));
+      probs.push(...p2);
     }
     const shelfHtml = shelf({ items, w: 640, iconPx: d.icon, tagPx: cur.unit.length > 3 ? 15 : 17 });
     return {

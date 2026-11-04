@@ -30,8 +30,9 @@ async function runLints(page, { gradeBand }) {
     // illustrations with their own governed palette: story panels (story-art.js PAL), the Color by Number pictures + crayons
     // (cbn-render.js PALETTE), and the nt2-G line-art panels (fd-scene.js: the same crayons + the scene ink; htd-steps.js: the
     // drawing's own ink, both 2026-10-09) — each gated by its own family verify; the Position Words maker's landmark
-    // shapes (types/_shared/position-scenes.js COLORS, 2026-11-03: one fixed pastel per shape kind)
-    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"], svg[data-lcs-prim="fd-panel"], svg[data-lcs-prim="htd-step"], svg[data-lcs-prim="htd-full"], svg[data-lcs-prim="hm-scene"], svg[data-lcs-prim="hm-strip"], svg[data-lcs-prim="pt-scene"], svg[data-lcs-prim="lp-piece"], svg[data-lcs-prim="pos-scene"]'));
+    // shapes (types/_shared/position-scenes.js COLORS, 2026-11-03: one fixed pastel per shape kind); a shape drawn in the
+    // picture library's own two colours to sit among its pictures (geometry-tasks.js LIB_SHAPE, 2026-11-04)
+    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"], svg[data-lcs-prim="fd-panel"], svg[data-lcs-prim="htd-step"], svg[data-lcs-prim="htd-full"], svg[data-lcs-prim="hm-scene"], svg[data-lcs-prim="hm-strip"], svg[data-lcs-prim="pt-scene"], svg[data-lcs-prim="lp-piece"], svg[data-lcs-prim="pos-scene"], svg[data-lcs-prim="lib-shape"]'));
     // a picture CROPPED by an overflow:hidden strip (measured objects, ruler art bands) shows only the strip: measure that
     const visRect = (el) => { const c = el.tagName.toLowerCase() === 'img' && el.closest && el.closest('[data-lcs-art], [data-lcs-artband]'); return (c || el).getBoundingClientRect(); };
 

@@ -257,6 +257,25 @@ function resolveBase(d, bank) {
  * drawn by the caller afterwards.
  */
 /**
+ * A NEW page's per-row draws (ctx.perRow — build() sets it for every page but the published one): each row's names come
+ * from a stream of its own (the page seed + the frame), and a pick among candidates is the one with the lowest
+ * per-candidate key, so a new or a lost candidate moves the pick only when it IS the pick (2026-11-04, own-input: a
+ * teacher's sentence swap re-drew every other row's name and foil picture and the bank's extra words). Off, both are the
+ * shared draw they always were.
+ */
+const { makeRng: rowMakeRng } = require('../../lib/rng.js');
+const rowRng = (ctx, rng, tag) => (ctx && ctx.perRow ? rowMakeRng(String(rng.seed) + '|' + tag) : rng);
+const steadyPick = (ctx, rng, tag, list, keyOf) => {
+  if (!(ctx && ctx.perRow)) return rng.pick(list);
+  let best = null, bk = Infinity;
+  for (const x of list) { const k = rowMakeRng(String(rng.seed) + '|' + tag + '|' + keyOf(x)).next(); if (k < bk) { bk = k; best = x; } }
+  return best;
+};
+const steadySample = (ctx, rng, tag, list, n, keyOf) => (ctx && ctx.perRow
+  ? list.map((x) => [rowMakeRng(String(rng.seed) + '|' + tag + '|' + keyOf(x)).next(), x]).sort((a, b) => a[0] - b[0]).slice(0, n).map((p) => p[1])
+  : rng.sample(list, n));
+
+/**
  * A teacher's sentences (maker, final phase 2026-11-03): row i's frame swapped for another frame of the page's pool (role
  * 'sent', key = the frame id; the picker shows labels[id] = the sentence with its answer) — refused when the rows together
  * break compose()'s rules (one noun / answer once, two pictures per theme, no twins or confusables, no frame another row's
@@ -268,13 +287,13 @@ function slotFrames(ctx, taken, pool, loc, gl, extraOk) {
   const label = (fr) => String(fr.text).replace('{gap}', answerFor(loc, fr.noun, fr.form));
   const tagged = pool.map((fr) => ({ word: fr.id, fr }));
   const cur = taken.map((fr) => tagged[pool.indexOf(fr)]);
-  const chosen = slot.words(ctx, cur, tagged, 'sent');
+  const chosen = slot.words(ctx, cur, tagged, 'sent', { derives: ['gapW'] });
   if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
   if (!chosen.some((x, i) => x !== cur[i])) return taken;
   const list = chosen.map((x) => x.fr);
   const valid = compose({ shuffle: (a) => a }, list, { rows: list.length }, loc, gl);
   if (valid && (!extraOk || extraOk(list))) return list;
-  slot.words({ ...ctx, overrides: null }, cur, tagged, 'sent'); slot.refuse(ctx, 'sent');
+  slot.words({ ...ctx, overrides: null }, cur, tagged, 'sent', { derives: ['gapW'] }); slot.refuse(ctx, 'sent');
   if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
   return taken;
 }
@@ -931,10 +950,10 @@ module.exports = {
     const bank = mergedBank(loadBank(KEY, loc), loc);
     const d = { ...this.difficulty[difficulty], share: (ctx && ctx.seedVariant) || 1 };
     if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
-      const built = this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, interactive: false, answerKey: false });
+      const built = this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, interactive: false, answerKey: false, perRow: true });
       return screenOrKey(d.mode || 'base', built, ctx, loc);
     }
-    return tapFrames(ctx, this._buildWith(bank, d, { theme, locale: loc, globals: G }, ctx));
+    return tapFrames(ctx, this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, perRow: true }));
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -965,7 +984,7 @@ module.exports = {
       const cands = full.filter((f) => !takenNouns.has(f.noun) && !taken.some((t) => t.fits.includes(f.noun)) && !f.fits.some((x) => takenNouns.has(x)))
         .map((f) => answerFor(loc, f.noun, f.form)).filter((a, i, arr) => arr.indexOf(a) === i && !answers.some((x) => x.toLocaleLowerCase(loc) === a.toLocaleLowerCase(loc)));
       if (cands.length < cfg.extra) throw new Error(`${ID}: ${loc} has ${cands.length} frame-invalid extras for ${cfg.extra} — REFUSED`);
-      extras = rng.sample(cands, cfg.extra);
+      extras = steadySample(ctx, rng, 'extra', cands, cfg.extra, (w) => w);
     }
     const bankWords = answers.concat(extras);
     const bankOrder = cfg.bank ? C4.derange(bankWords.map((_, i) => i), rng) : null;
@@ -977,7 +996,7 @@ module.exports = {
       if (nameCount) {
         if (!cfg.nameSlot) throw new Error(`${ID}: frame ${f.id} carries {name} but nameSlot is off`);
         if (!names.length) throw new Error(`${ID}: no SENTENCES.${loc}.names for {name}`);
-        slots.name = Array.from({ length: nameCount }, () => rng.pick(names));
+        slots.name = Array.from({ length: nameCount }, (_, k) => rowRng(ctx, rng, 'name|' + f.id + '|' + k).pick(names));
       }
       // {gap} is not a fillSlots slot: park it, fill {name}, restore
       const text = fillSlots(f.text.replace('{gap}', ''), slots).replace('', '{gap}');
@@ -1090,7 +1109,7 @@ module.exports = {
     const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, null, 'letters', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
-    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
+    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rowRng(ctx, rng, 'name|' + f.id), f.id), answer: answers[i] }));
     const list = rows.map((row, i) => {
       const n = graphemes(row.answer);
       const starter = cfg.starter ? [...row.answer.normalize('NFC')][0] : null;
@@ -1149,7 +1168,8 @@ module.exports = {
       }
       return true;
     });
-    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, (tk) => {
+    const dealPool = shareOf(pool, cfg.rows, d.share);
+    const taken = this._deal(rng, dealPool, cfg, loc, gl, (tk) => {
       if (cfg.foilKind === 'page' || mechFar) return true;
       const nouns = new Set(tk.map((f) => f.noun));
       const ans = new Set(tk.map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
@@ -1161,10 +1181,12 @@ module.exports = {
     else if (mechFar) {
       // per row: a bank noun of the SAME gender from a DIFFERENT picture theme, outside the frame's fits, not on the page,
       // not a twin / confusable partner, its sg a single word no longer than the gap allows; never the same foil twice
-      const onPage = new Set(taken.map((f) => f.noun)), usedF = new Set();
+      // a NEW page (ctx.perRow) keeps every noun of the page's sentence pool out of the foils, not only the nouns on the page,
+      // so a teacher's sentence swap never frees a foil another row then takes (own-input 2026-11-04)
+      const onPage = new Set((ctx && ctx.perRow ? dealPool : taken).map((f) => f.noun)), usedF = new Set();
       const conf = (bank.confusable || []).map((pp) => pp.slice().sort().join('|'));
       const cands = [...new Map(bank.frames.map((f) => [f.noun, f])).values()];
-      const pageAns = new Set(taken.map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
+      const pageAns = new Set((ctx && ctx.perRow ? dealPool : taken).map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
       foils = taken.map((f) => {
         const ok = cands.filter((c) => {
           if (onPage.has(c.noun) || usedF.has(c.noun) || (f.fits || []).includes(c.noun) || excluded.has(c.noun) || c.pic.theme === f.pic.theme) return false;
@@ -1177,7 +1199,7 @@ module.exports = {
           return true;
         });
         if (!ok.length) throw new Error(`${ID}: ${loc} no far foil for ${f.id} — REFUSED`);
-        const c = rng.pick(ok.sort((a, b) => (a.noun < b.noun ? -1 : 1)));
+        const c = steadyPick(ctx, rng, 'foil|' + f.id, ok.sort((a, b) => (a.noun < b.noun ? -1 : 1)), (x) => x.noun);
         usedF.add(c.noun);
         return { key: c.noun, word: answerFor(loc, c.noun, 'sg') };
       });
@@ -1187,7 +1209,7 @@ module.exports = {
     let idx = null;
     for (let t = 0; t < MAX_TRIES && !idx; t++) { const v = taken.map(() => rng.int(0, 1)); const first = v.filter((x) => x === 0).length; if (first >= lo && first <= hi) idx = v; }
     if (!idx) throw new Error(`${ID}: no chip order with the answer first on [${lo}, ${hi}] rows`);
-    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i], foil: foils[i], idx: idx[i] }));
+    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rowRng(ctx, rng, 'name|' + f.id), f.id), answer: answers[i], foil: foils[i], idx: idx[i] }));
     const gapW = gapWidth(answers, { max: gapMax });
     const list = rows.map((row, i) => {
       const chips = row.idx === 0 ? [{ word: row.answer, role: 'answer' }, { word: row.foil.word, role: 'foil' }] : [{ word: row.foil.word, role: 'foil' }, { word: row.answer, role: 'answer' }];
@@ -1238,8 +1260,8 @@ module.exports = {
     const taken = this._deal(rng, ppool, cfg, loc, gl, hardMin ? (tk) => tk.filter((f) => hard.has(f.id)).length >= hardMin : null, 'plural', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
-    const clones = taken.map((f) => (f.clones != null ? f.clones : rng.int(cfg.clones[0], cfg.clones[1])));
-    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i], clones: clones[i] }));
+    const clones = taken.map((f) => (f.clones != null ? f.clones : rowRng(ctx, rng, 'clones|' + f.id).int(cfg.clones[0], cfg.clones[1])));
+    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rowRng(ctx, rng, 'name|' + f.id), f.id), answer: answers[i], clones: clones[i] }));
     const gapW = gapWidth(answers);
     const list = rows.map((row, i) => C4.cloneGapRow({
       n: i + 1, src: picSrc(row.f.pic, row.f.noun), key: row.f.noun, clones: row.clones, clonePx: cfg.clonePx, gap: cfg.cloneGap, colW: cfg.colW,
@@ -1260,7 +1282,7 @@ module.exports = {
    * other stories' nouns: validated data); the composer still refuses a twin-group repeat or a confusable pair across the taken
    * stories. Block = strip 44 + 8 + 3 x gapH + 2 x 6 + padding; the stack is measured by the gate under the 710 chrome.
    */
-  _buildStory(bank, d, loc, G, rng) {
+  _buildStory(bank, d, loc, G, rng, ctx) {
     const cfg = {
       stories: d.stories, sentences: d.sentences || 3, bank: d.bank !== false, shuffleStrip: d.shuffleStrip !== false, picPx: d.picPx || 44, gapH: d.gapH || 36, fontPx: d.fontPx || 18,
       maxChars: d.maxChars, maxGlyphs: d.maxGlyphs, blockMin: d.blockMin, blockGap: d.blockGap == null ? 10 : d.blockGap, padding: d.storyPadding || '6px 16px', nameSlot: d.nameSlot === 'perLocale' ? !!bank.nameSlot : !!d.nameSlot,
@@ -1308,7 +1330,7 @@ module.exports = {
       let order = [0, 1, 2];
       if (cfg.shuffleStrip) { for (let t = 0; t < MAX_TRIES; t++) { const o = rng.shuffle([0, 1, 2]); if (o.join(',') !== '0,1,2') { order = o; break; } } if (order.join(',') === '0,1,2') throw new Error(`${ID}: no shuffled strip order`); }
       let name = null;
-      if (s.text.some((t) => /\{name\}/.test(t))) { if (!cfg.nameSlot) throw new Error(`${ID}: story ${s.id} carries {name} but nameSlot is off`); if (!names.length) throw new Error(`${ID}: no SENTENCES.${loc}.names`); name = rng.pick(names); }
+      if (s.text.some((t) => /\{name\}/.test(t))) { if (!cfg.nameSlot) throw new Error(`${ID}: story ${s.id} carries {name} but nameSlot is off`); if (!names.length) throw new Error(`${ID}: no SENTENCES.${loc}.names`); name = rowRng(ctx, rng, 'name|' + s.id).pick(names); }
       const lines = s.text.map((t, i) => ({
         text: name ? fillSlots(t.replace('{gap}', '\u0001'), { name: [name, name] }).replace('\u0001', '{gap}') : t,
         key: s.nouns[i], form: s.forms[i], answer: answerFor(loc, s.nouns[i], s.forms[i]), frameId: `${s.id}/${i}`, kase: s.cases ? s.cases[i] : null,
@@ -1324,7 +1346,7 @@ module.exports = {
       const cands = [...new Set(bank.stories.filter((s) => !onPage.has(s.id) && okStory(s)).flatMap((s) => s.nouns.map((n, i) => { try { return answerFor(loc, n, s.forms[i]); } catch (e) { return null; } })).filter(Boolean))]
         .filter((w) => !answers.some((a) => a.toLocaleLowerCase(loc) === w.toLocaleLowerCase(loc)) && graphemes(w) <= cfg.maxGlyphs).sort();
       if (cands.length < d.extra) throw new Error(`${ID}: ${loc} has ${cands.length} story extras for ${d.extra} — REFUSED`);
-      extras = rng.sample(cands, d.extra);
+      extras = steadySample(ctx, rng, 'extra', cands, d.extra, (w) => w);
     }
     const words = answers.concat(extras);
     const gapW = gapWidth(answers, { max: 168 });
@@ -1361,7 +1383,7 @@ module.exports = {
     const noEcho = (tk) => tk.every((f) => { const a = answerFor(loc, f.noun, f.form); return tk.every((g) => g === f || !hasWord(g.text.replace('{gap}', ''), a)); });
     const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, noEcho, 'match', ctx);
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
-    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
+    const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rowRng(ctx, rng, 'name|' + f.id), f.id), answer: answers[i] }));
     const order = C4.derange(rows.map((_, i) => i), rng);
     const html = C4.sentenceMatch({
       left: rows.map((r) => ({ frameId: r.f.id, key: r.f.noun, text: r.text, form: r.f.form, answer: r.answer })),

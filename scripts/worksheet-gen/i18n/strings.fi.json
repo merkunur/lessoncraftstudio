@@ -2151,8 +2151,8 @@
     "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
   },
   "K-350": {
-    "title": "Kaksikieliset kuvakortit: suomi ja englanti",
-    "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+    "title": "Kaksikieliset kuvakortit: suomi ja {U}",
+    "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
   },
   "G1-324": {
     "title": "Tavukortit: lue sana tavu kerrallaan",

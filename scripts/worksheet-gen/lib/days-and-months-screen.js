@@ -85,7 +85,8 @@ function orderScreen(A) {
 
 function gapsScreen(A) {
   const missing = A.rungs.filter((r) => r.gap).map((r) => r.day);
-  const at = slots(missing.length, 'gaps|' + A.rungs.map((r) => r.day + (r.gap ? '?' : '')).join(','));
+  // a NEW copy salts the slots with its number (as abbrevScreen: a week has only ~10 gap patterns, so copies shared them)
+  const at = slots(missing.length, 'gaps|' + (A.copy > 1 ? 'c' + A.copy + '|' : '') + A.rungs.map((r) => r.day + (r.gap ? '?' : '')).join(','));
   let k = 0;
   const rows = A.rungs.map((r, i) => {
     if (!r.gap) return `<div data-lcs-keep style="display:flex;justify-content:center;width:${SCR_W}px">${tile(r.text, 32, SCR_W - 40)}</div>`;
@@ -105,7 +106,7 @@ function neighboursScreen(A) {
   const T = A.texts, N = A.N;
   const items = [];
   const nAsk = A.rows.reduce((n, r) => n + (r.inverse ? 1 : 2), 0);
-  const at = slots(nAsk, 'nb|' + A.unit + '|' + A.rows.map((r) => r.t + (r.inverse ? 'i' : '')).join(','));
+  const at = slots(nAsk, 'nb|' + A.unit + (A.copy > 1 ? '|c' + A.copy : '') + '|' + A.rows.map((r) => r.t + (r.inverse ? 'i' : '')).join(','));   // a new copy salted (as above)
   let k = 0;
   A.rows.forEach((row) => {
     const t = row.t;
@@ -130,7 +131,9 @@ function neighboursScreen(A) {
 function abbrevScreen(A) {
   const T = A.texts;
   const onPage = A.pairs.flat();
-  const at = slots(onPage.length, 'ab|' + A.unit + '|' + onPage.join(','));
+  // a NEW copy salts the slots with its number (2026-11-04, settings-space: the whole week / the twelve months are the same
+  // set on every copy, so every copy laid its right answers out the same — copy 1 keeps the published layout)
+  const at = slots(onPage.length, 'ab|' + A.unit + (A.copy > 1 ? '|c' + A.copy : '') + '|' + onPage.join(','));
   let k = 0;
   const items = onPage.map((x) => {
     const others = onPage.filter((y) => y !== x);

@@ -107,19 +107,19 @@ const slot = require('../../lib/slot.js');
  * A teacher's pictures (maker, final phase 2026-11-03): card i swapped for a bank word of the SAME kind — the rule that
  * drew that card (a hit with the letter at the asked place, a foil of the page's policy, the letter at the same place,
  * the same number of letters to circle, the same pair letter). pred[kind] tests a candidate; carry(old, new) keeps the
- * card's answer fields. Refused when the word breaks its card's rule or is already a word on the page.
+ * card's answer fields. Refused when the word is already a word on the page. One role per kind (pic0, pic1 … in order of
+ * first appearance, slot.byKind — 2026-11-04: one role over every kind's words refused two of three choices on K-326), so
+ * the picker offers only the words of the card's own rule; the list carries tap(i) and stamp(i, html), its cards' targets.
  */
 function slotCards(ctx, cards, pred, all, carry) {
-  const kinds = [...new Set(cards.map((c) => c._kind))];
-  const seen = new Set(), pool = [];
-  for (const w of all) if (!seen.has(w.word) && kinds.some((k) => pred[k] && pred[k](w))) { seen.add(w.word); pool.push(w); }
-  const chosen = slot.anyPictures(ctx, cards, pool, 'pic');
-  const words = chosen.map((w) => w.word);
-  const ok = new Set(words).size === words.length && chosen.every((w, i) => w === cards[i] || pred[cards[i]._kind](w));
-  if (ok) return chosen.map((w, i) => (w === cards[i] ? w : { ...w, ...carry(cards[i], w), _kind: cards[i]._kind }));
-  slot.anyPictures(ctx && { ...ctx, overrides: null }, cards, pool, 'pic'); slot.refuse(ctx, 'pic');
-  return cards;
+  const poolFor = (k) => { const seen = new Set(), out = []; for (const w of all) if (!seen.has(w.word) && pred[k] && pred[k](w)) { seen.add(w.word); out.push(w); } return out; };
+  const KS = slot.byKind(ctx, cards, (c) => c._kind, poolFor, { multi: true, prefix: 'pic', ok: (x, old) => !cards.some((c) => c !== old && c.word === x.word) });
+  const out = KS.items.map((w, i) => (w === cards[i] ? w : { ...w, ...carry(cards[i], w), _kind: cards[i]._kind }));
+  Object.defineProperty(out, 'tap', { value: KS.tap, enumerable: false });
+  return out;
 }
+const tapOf = (list, i) => (list && list.tap ? list.tap(i) : '');
+const stampOf = (list, i, html) => { const a = tapOf(list, i); return a ? String(html).replace(/^(\s*<[a-zA-Z][\w-]*)/, '$1' + a) : html; };
 /** the hunt's card kinds (base / face 2 / face 5): pickHits / pickFoils / unitHits / unitFoils as predicates */
 function huntKinds(face, block, d, level, hitPos) {
   const cfg = d.hunt, items = block.items || [], foilsAll = block.foils || [];
@@ -362,7 +362,7 @@ module.exports = {
       const showWord = !!bank.showWordInPositions;
       const posPred = (q) => (x) => block.items.includes(x) && Array.isArray(x.graphemes) && occursOnce(x, L, mode) && positionOf(x, L, mode) === q;
       const items = slotCards(ctx, pickPositions(rng, block, p, mode).map((it) => ({ ...it, _kind: 'pos' + it.pos3 })), { pos0: posPred(0), pos1: posPred(1), pos2: posPred(2) }, block.items, (old) => ({ pos3: old.pos3 }));
-      const html = items.map((it, ii) => slot.stamp(ctx, 'pic', ii, positionCard({
+      const html = items.map((it, ii) => stampOf(items, ii, positionCard({
         src: fileUri(it.theme, it.noun), vocabKey: it.key, word: it.word, graphemes: it.graphemes, pos: it.pos3,
         split: mode === 'syllable' ? it.split : null, w: p.cardW, h: p.cardH, iconPx: p.iconPx, boxPx: p.boxPx,
         showWord, glyphH: p.glyphH, laneH: p.laneH, keyMark: !!(ctx && ctx.answerKey),   // the key rings the box where the letter is heard
@@ -383,7 +383,7 @@ module.exports = {
       const total = rows.reduce((n, r) => n + r.count, 0);
       const html = rows.map((r, ri) => {
         const lane = strokeWordLane({ text: r.text, w: w.laneW, h: w.laneH, glyphH: w.glyphH, reps: 1, stack: true, padLeft: 10 });
-        return `<div class="ws-card" data-lcs-row="1"${slot.attr(ctx, 'pic', ri)} data-lcs-word="${r.word}" data-lcs-vocab="${r.key}" data-lcs-count="${r.count}" data-lcs-casemode="${r.upper ? 'upper' : 'lower'}" ` +
+        return `<div class="ws-card" data-lcs-row="1"${tapOf(rows, ri)} data-lcs-word="${r.word}" data-lcs-vocab="${r.key}" data-lcs-count="${r.count}" data-lcs-casemode="${r.upper ? 'upper' : 'lower'}" ` +
           `style="width:${COLUMN}px;height:${w.iconPx + 12}px;flex:0 0 auto;padding:4px 8px;flex-direction:row;align-items:center;gap:12px;box-sizing:border-box">` +
           `<img class="ws-icon" src="${fileUri(r.theme, r.noun)}" alt="" data-lcs-pic="${r.key}" style="width:${w.iconPx}px;height:${w.iconPx}px;flex:0 0 auto">` +
           `<div style="flex:0 0 auto">${lane.svg}</div>` +
@@ -424,7 +424,7 @@ module.exports = {
       cards = slotCards(ctx, cards, { a: (x) => aPool.includes(x), b: (x) => bPool.includes(x) }, [...aPool, ...bPool], (old, x) => ({ answer: old.answer, graphemes: x.graphemes || [...x.word.toLocaleLowerCase(loc)] }));
       const seen = new Set();
       for (const c of cards) { if (seen.has(c.word)) throw new Error('K-317: duplicate word on the page: ' + c.word); seen.add(c.word); }
-      const html = cards.map((c, ci) => `<div class="ws-card"${slot.attr(ctx, 'pic', ci)} style="width:${p.cardW}px;height:${p.cardH}px;flex:0 0 auto;padding:8px;align-items:center;justify-content:space-between" ` +
+      const html = cards.map((c, ci) => `<div class="ws-card"${tapOf(cards, ci)} style="width:${p.cardW}px;height:${p.cardH}px;flex:0 0 auto;padding:8px;align-items:center;justify-content:space-between" ` +
         `data-lcs-word="${c.word}" data-lcs-vocab="${c.key}" data-lcs-graphemes="${JSON.stringify(c.graphemes).replace(/"/g, '&quot;')}" data-lcs-answer="${c.answer}">` +
         `<img class="ws-icon" src="${fileUri(c.theme, c.noun)}" alt="" data-lcs-pic="${c.key}" style="width:${p.iconPx}px;height:${p.iconPx}px;flex:0 0 auto">` +
         letterChips({ a, b, px: p.chipPx, ...(ctx && ctx.answerKey ? { ring: c.answer } : {}) }) + `</div>`).join('');   // the key rings the letter each picture begins with
@@ -448,7 +448,7 @@ module.exports = {
       }
       const seenW = new Set();
       for (const c of cards) { if (seenW.has(c.word)) throw new Error('K-317: duplicate word on the page: ' + c.word); seenW.add(c.word); }
-      const huntHtml = cards.map((c, ci) => slot.stamp(ctx, 'pic', ci, huntCard({
+      const huntHtml = cards.map((c, ci) => stampOf(cards, ci, huntCard({
         src: fileUri(c.theme, c.noun), vocabKey: c.key, word: c.word,
         graphemes: c.graphemes || [...c.word.toLocaleLowerCase(loc)], hit: c.hit,
         w: d.hunt.cardW, h: d.hunt.cardH, iconPx: d.hunt.iconPx, rot: rng.next() * 8 - 4, keyMark: !!(ctx && ctx.answerKey),   // the key rings the right pictures

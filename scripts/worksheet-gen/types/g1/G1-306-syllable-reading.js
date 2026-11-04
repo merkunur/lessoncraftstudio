@@ -74,6 +74,14 @@ function parseCell(cell) {
 }
 
 /** The picture for a bank word: every colour candidate, or the one dir a `pictureTheme` pin names; none = refuse. */
+/**
+ * A NEW page draws each word's picture from its own stream (the page seed + the word): a teacher's swap in one row never
+ * moves another row's picture (2026-11-04, own-input: the one shared draw — taken only where a word has several pictures —
+ * shifted after a swap, and every later row showed a different picture of its unchanged word). The published page keeps
+ * the shared draw.
+ */
+const pictureRng = (rng, w, fresh) => (fresh ? require('../../lib/rng.js').makeRng(String(rng.seed) + '|pic|' + w.key) : rng);
+
 function pickPicture(rng, w, loc) {
   // a refused picture shows something other than its word (camping|cooler reads as a toolbox) — never print it
   const all = candidates(w.key, loc).filter((x) => !refusedPicture(x.theme, x.noun));
@@ -325,7 +333,7 @@ function buildJoin({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   const picks = slot.words(ctx, rng.sample(pool, d.cards), pool, 'word');   // a teacher's words (maker)
   const pics = [];
   const cards = picks.map((w, wi) => {
-    const pic = pickPicture(rng, w, loc);
+    const pic = pickPicture(pictureRng(rng, w, fresh), w, loc);
     pics.push([pic.theme, pic.noun]);
     return `<div class="ws-card-stage" style="flex-direction:column;gap:8px" ` +
       `data-lcs-word="${esc(w.word)}" data-lcs-vocab="${esc(w.key)}" data-lcs-split="${esc(w.split.join('|'))}" ` +
@@ -353,14 +361,23 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   const chosen = new Set(rows.map((w) => w.key));
   rows.push(...sampleEntries(rng, pool.filter((w) => !chosen.has(w.key)), d.lines - rows.length, 'G1-306 syllabified'));
   rows = rng.shuffle(rows);
+  const drawn = rows;
   // a teacher's words (maker): the rows' words; a swap keeps its side of the three-syllable line (the page's minThree)
   {
     const chosen = slot.words(ctx, rows, pool, 'word');
     if (chosen.every((w, i) => w === rows[i] || (w.count >= 3) === (rows[i].count >= 3))) rows = chosen;
     else { slot.words(ctx && { ...ctx, overrides: null }, rows, pool, 'word'); slot.refuse(ctx, 'word'); }
   }
-  const onPage = new Set(rows.map((w) => w.key));
+  // the decoys are drawn for the rows AS DRAWN, so a teacher's swap leaves them (2026-11-04, own-input: drawn after the
+  // swap, every decoy of the bank changed); where the new word was a decoy, the word it replaced takes its place. With no
+  // swap this is the draw it always was
+  const onPage = new Set(drawn.map((w) => w.key));
   const distractors = sampleEntries(rng, pool.filter((w) => !onPage.has(w.key)), d.distractors, 'G1-306 syllabified distractors');
+  for (let j = 0; j < distractors.length; j++) {
+    if (!rows.some((w) => w.key === distractors[j].key)) continue;
+    const gone = drawn.find((w) => !rows.some((r) => r.key === w.key));
+    if (gone) distractors[j] = gone;
+  }
   // the bank: rows ∪ distractors shuffled; the rows' numbers must NOT read in ascending order
   let bankItems = null;
   for (let t = 0; t < 40 && !bankItems; t++) {
@@ -371,7 +388,7 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   }
   if (!bankItems) throw new Error('G1-306 syllabified: could not order the bank against the rows — refuse');
   const bankPics = [];
-  const bank = C3.numberedBank({ items: bankItems.map((w) => { const p = pickPicture(rng, w, loc); bankPics.push([p.theme, p.noun]); return { src: p.src, vocabKey: w.key }; }), iconPx: d.bankPic, gap: d.bankGap || 8 });
+  const bank = C3.numberedBank({ items: bankItems.map((w) => { const p = pickPicture(pictureRng(rng, w, fresh), w, loc); bankPics.push([p.theme, p.noun]); return { src: p.src, vocabKey: w.key }; }), iconPx: d.bankPic, gap: d.bankGap || 8 });
   const lines = rows.map((w, i) => C3.syllabifiedRow({
     tokens: caseAlign(w.split, w.word), sepMode: cfg.sepMode || 'hyphen', fontPx: d.wordFont, h: d.rowH, hMin: d.rowMin || 70, boxPx: d.boxPx,
     data: {
@@ -469,7 +486,7 @@ module.exports = {
     // the cards
     let cards;
     const pics = [];
-    const pp = (w) => { const p = pickPicture(rng, w, loc); pics.push([p.theme, p.noun]); return p; };
+    const pp = (w) => { const p = pickPicture(pictureRng(rng, w, fresh), w, loc); pics.push([p.theme, p.noun]); return p; };
     if (face === 'circle') {
       // the correct pill's position is balanced over the page (never a constant column)
       const seq = [];

@@ -279,9 +279,12 @@ function screenDocument({ html, locale, strings, instruction, plan: pl }) {
   let out = stripMarks(html);
   const open = '<div class="ws-page" data-lcs-page>';
   if (!out.includes(open) || !out.includes('\n</body>')) throw new Error('screen: the page html has no [data-lcs-page] / body end');
-  out = out.replace('</head>', '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + SCREEN_CSS + '</style>\n</head>');
-  out = out.replace(open, '<p class="lcs-hint" id="lcs-screen-hint">' + esc(instruction) + '</p>\n<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('id="lcs-stage"', 'id="lcs-stage" aria-describedby="lcs-screen-hint"') + open);
-  out = out.replace('\n</body>', '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS + '</script>\n</body>');
+  out = out.replace('</head>', () => '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + SCREEN_CSS + '</style>\n</head>');
+  out = out.replace(open, () => '<p class="lcs-hint" id="lcs-screen-hint">' + esc(instruction) + '</p>\n<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('id="lcs-stage"', 'id="lcs-stage" aria-describedby="lcs-screen-hint"') + open);
+  // a FUNCTION replacement: the minified browser runtime holds "$&&" (a variable named $), which a replacement STRING reads
+  // as "the matched text" — every marks screen built in the browser got "</body>" pasted into its script and never ran
+  // (2026-11-04, found by the play gate)
+  out = out.replace('\n</body>', () => '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS + '</script>\n</body>');
   return out;
 }
 
@@ -481,9 +484,9 @@ function declaredDocument({ html, rt, crop, width }) {
   const open = '<div class="ws-page" data-lcs-page>';
   if (!out.includes(open) || !out.includes('\n</body>')) throw new Error('screen: the page html has no [data-lcs-page] / body end');
   const css = SCREEN_CSS.replace(/703px/g, W + 'px').replace('height:945px', 'height:' + H + 'px') + '\n#lcs-stage.lcs-crop{height:' + H + 'px;overflow:hidden;overflow:clip}';
-  out = out.replace('</head>', '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + css + '</style>\n</head>');
-  out = out.replace(open, '<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('class="lcs-stage" id="lcs-stage"', 'class="lcs-stage lcs-crop" id="lcs-stage"') + open);
-  out = out.replace('\n</body>', '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS.replace(/703/g, String(W)).replace('945*k', H + '*k') + '</script>\n</body>');
+  out = out.replace('</head>', () => '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + css + '</style>\n</head>');
+  out = out.replace(open, () => '<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('class="lcs-stage" id="lcs-stage"', 'class="lcs-stage lcs-crop" id="lcs-stage"') + open);
+  out = out.replace('\n</body>', () => '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS.replace(/703/g, String(W)).replace('945*k', H + '*k') + '</script>\n</body>');   // function replacement: see above
   return out;
 }
 

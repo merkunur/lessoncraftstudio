@@ -185,7 +185,10 @@ function validateBank(bank, loc, opts = {}) {
     if (titles.has(t)) push(`strings.${k}.title duplicates another face title`); titles.add(t);
   }
   // (6)
-  const walk = (o, p) => { for (const [k, v] of Object.entries(o || {})) { if (typeof v === 'string') { if (v.includes('{')) push(`${p}.${k} carries "{"`); if (/color:/i.test(v)) push(`${p}.${k} carries "color:"`); } else if (v && typeof v === 'object') walk(v, p + '.' + k); } };
+  // the bilingual face fans over the partner language (K-350 unitAxis): its strings name the picked one through the unit
+  // tokens ({U} / {L}, es {AND}, fi {INU} — lib/unit-axis.js, 2026-11-04); any other brace is still a defect
+  const unitOk = (p, v) => (p === 'strings.bilingual' ? v.replace(/\{(U|L|AND|INU)\}/g, '') : v);
+  const walk = (o, p) => { for (const [k, v] of Object.entries(o || {})) { if (typeof v === 'string') { if (unitOk(p, v).includes('{')) push(`${p}.${k} carries "{"`); if (/color:/i.test(v)) push(`${p}.${k} carries "color:"`); } else if (v && typeof v === 'object') walk(v, p + '.' + k); } };
   walk(strings, 'strings'); walk({ legend: a.legend, elisionChip: a.elisionChip }, 'articleStyle'); walk(names, 'partnerNames'); walk({ hostName: b.hostName }, 'bilingual');
   // (7)
   const V = opts.vocab || vocab();

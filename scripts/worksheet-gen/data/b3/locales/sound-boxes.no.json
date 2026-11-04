@@ -82,7 +82,6 @@
     "sunflower",
     "sunglasses",
     "swimming",
-    "tailor",
     "teapot",
     "thumb",
     "tissue",
@@ -233,9 +232,7 @@
     "argentinosaurus",
     "artist",
     "asparagus",
-    "aster",
     "backpack",
-    "badge",
     "badger",
     "bagel",
     "baker",
@@ -306,8 +303,6 @@
     "firefighter",
     "flamingo",
     "flute",
-    "forsythia",
-    "galaxy",
     "garage",
     "gardener",
     "garland",
@@ -339,7 +334,6 @@
     "jasmine",
     "jellyfish",
     "jet",
-    "jupiter",
     "kangaroo",
     "kayak",
     "kettle",
@@ -361,14 +355,12 @@
     "lotus",
     "lunchbox",
     "magpie",
-    "manatee",
     "mango",
     "marigold",
     "mask",
     "mechanic",
     "medal",
     "melon",
-    "mercury",
     "millipede",
     "mistletoe",
     "mixer",
@@ -376,7 +368,6 @@
     "musician",
     "necklace",
     "nectarine",
-    "neptune",
     "notebook",
     "octopus",
     "oyster",
@@ -478,7 +469,6 @@
     "wardrobe",
     "watermelon",
     "wave",
-    "weasel",
     "whistle",
     "window",
     "x-ray"
@@ -721,18 +711,6 @@
         "s"
       ]
     ],
-    "aster": [
-      [
-        "a",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "r",
-        "s"
-      ]
-    ],
     "author": [
       [
         "f",
@@ -767,17 +745,6 @@
         "s",
         "e",
         "kk"
-      ]
-    ],
-    "badge": [
-      [
-        "m",
-        "e",
-        "r"
-      ],
-      [
-        "k",
-        "e"
       ]
     ],
     "badger": [
@@ -2489,19 +2456,6 @@
         "l"
       ]
     ],
-    "forsythia": [
-      [
-        "g",
-        "u",
-        "ll"
-      ],
-      [
-        "b",
-        "u",
-        "s",
-        "k"
-      ]
-    ],
     "fox": [
       [
         "r",
@@ -2516,21 +2470,6 @@
         "o",
         "s",
         "k"
-      ]
-    ],
-    "galaxy": [
-      [
-        "g",
-        "a"
-      ],
-      [
-        "l",
-        "a",
-        "k"
-      ],
-      [
-        "s",
-        "e"
       ]
     ],
     "garage": [
@@ -3179,21 +3118,6 @@
         "e"
       ]
     ],
-    "jupiter": [
-      [
-        "j",
-        "u"
-      ],
-      [
-        "p",
-        "i"
-      ],
-      [
-        "t",
-        "e",
-        "r"
-      ]
-    ],
     "kangaroo": [
       [
         "k",
@@ -3599,16 +3523,6 @@
         "e"
       ]
     ],
-    "manatee": [
-      [
-        "sj",
-        "ø"
-      ],
-      [
-        "k",
-        "u"
-      ]
-    ],
     "mango": [
       [
         "m",
@@ -3712,18 +3626,6 @@
         "l",
         "o",
         "n"
-      ]
-    ],
-    "mercury": [
-      [
-        "m",
-        "e",
-        "r"
-      ],
-      [
-        "k",
-        "u",
-        "r"
       ]
     ],
     "milk": [
@@ -3955,18 +3857,6 @@
       [
         "r",
         "i",
-        "n"
-      ]
-    ],
-    "neptune": [
-      [
-        "n",
-        "e",
-        "p"
-      ],
-      [
-        "t",
-        "u",
         "n"
       ]
     ],
@@ -4295,15 +4185,6 @@
         "s",
         "øy",
         "t"
-      ]
-    ],
-    "phlox": [
-      [
-        "f",
-        "l",
-        "o",
-        "k",
-        "s"
       ]
     ],
     "photographer": [
@@ -6076,18 +5957,6 @@
       [
         "g",
         "e"
-      ]
-    ],
-    "weasel": [
-      [
-        "s",
-        "n",
-        "ø"
-      ],
-      [
-        "m",
-        "u",
-        "s"
       ]
     ],
     "whisk": [

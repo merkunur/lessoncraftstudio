@@ -22,6 +22,48 @@ strands seam, the picture-path face. Server republish queue (operator ssh): fix1
 docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords).
 
 
+## Final phase, round 7 — own-input, the family gates in every language, the drafts (2026-11-04)
+
+- **A teacher's swap changes only its own row (gate own-input).** New pages (never level 2 copy 1, which stays
+  byte-identical) draw per row: the cloze family (each row's names, the choice face's foils never a noun of the
+  sentence pool, the bank's extras, the plural counts); Blend the Sounds G1-314 (a fixed share of distractor pictures
+  per row, borrowed only when short; a swap that would still move another row — pt fruits — is refused); worked
+  examples G2-275/285 and the odd words G1-336 (steady picks); G1-307 meta names each card's cue; K-551 dominoes name
+  their pairs. Own-row simulation: 0 changes over every swap of these templates, 11 languages.
+- **The picker offers only choices that fit (slot.byKind, one role per kind):** sound pages K-221/226/227/233 (per
+  answer), articles K-288/K-306 + G1-522 (per article), Letter of the Week K-317/K-326 (per rule), Syllable Split
+  G1-305 + G1-496 (per count). K-221 had refused 68 of 72 choices; now every choice applies (a handful refused by rule).
+- **Seven b3 family gates had checked only English** since the locale fan-out (they required the raw bank module):
+  now `qa/b3-fresh-bank.js` (the merged bank, fresh per call). First finds: All About Me labels behind the vocabulary
+  (es lancha / limón amarillo, it macchina / aereo, nl giraf, da havreringe); es + it logic clue frames that called
+  the holder "el niño" / "il bambino"; G2-321 de/pt/fr and es G3-378 / G1-349 instructions over 150 characters;
+  gate fixes: the hundreds-chart "two sources" check read the current locale's bank, a chrome probe trimmed to the
+  3-line maximum the live gate allows, the fi long-title fixture (4 lines, body 700).
+- **Bilingual cards K-350 (maker):** eight languages printed "… and English" whatever partner the teacher picked; they
+  name the picked language ({U}; es {AND} e/y, fi {INU} englanniksi — lib/unit-axis.js). English partner = as before.
+- **es spelling rules:** "camión" stood under the truck picture; in es-MX camión is the bus (truck = camión de carga):
+  the items show the bus. Phonics rows es bun (bolillo, 3) and bus (camión, 2) corrected (they described the old
+  words); `cli.js --all`: only es bun + bus moved. ⚠ ~130 phonics rows in every language still describe old words
+  (52 es, mostly the 2026-10-18 es-MX words) — those words are quarantined (safe: no syllable page uses them);
+  refreshing them changes published pools, so it is an operator-visible follow-up, not done here.
+- **Drafts and banks:** the b3 drafts had fallen behind their locale files (62 banks, 71 shipped strings; one
+  apply-b3-locale run would have undone them): `tools/sync-b3-drafts-from-banks.js` (+ `--check`); 60 bank strings
+  behind their printed text (the family gates checked old wording) carried over; `tools/check-b3-string-parity.js`
+  (refused faces skipped per the refusal records); the sound-box banks lost the rows their reviews had refused.
+  run-all-gates.sh gains `string-parity` (b3–b9 parity + the draft sync).
+- **Live-gate finds (stale build):** maze K-487 marked a way that touched itself (the walk now never touches);
+  G3-342's library-style trapezoid tagged for the palette lint.
+- **Registration:** 22 maker names × 11 (frontend/messages/makers), aligned to what each maker's pages call
+  themselves; smart links rebuilt.
+- **Native + pedagogy review (one agent, the compact dump):** 6 errors fixed (en "Parts of Speech", fr "production
+  d'écrits", no "norsk" after the colon, da cereal = havreringe — both cereal pictures show rings, the vocabulary
+  changed + mini tools/pictures/breakfast.json; the two de cursive checks hold: {U} is already dative), plus the cheap
+  optional ones. Open for the next review: de cereal "Müsli" (the pictures show rings; sound-name-risk already notes a
+  child says "Cornflakes").
+- **Open:** es G2-330 builds level 3 only since the 2026-10-18 es-MX words (7 word-family items, needs 8); its refusal
+  record (hub + landings data) is not touched. Republish queue: docs/makers/republish-2026-11-03-bank-words.json
+  (_note7, parityRepublish, stringRepublish, scopedOldWords).
+
 ## Final phase, round 6b — the vocabulary words reach every bank; every language's syllable gate (2026-11-04)
 
 The full build stopped after 47 min: "K-318: bank row dice joins to nopat but the fi word is noppa". The round-6 dice

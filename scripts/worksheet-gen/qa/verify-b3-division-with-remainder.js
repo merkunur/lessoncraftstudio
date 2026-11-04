@@ -127,7 +127,8 @@ function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' +
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
-function loadBankModule() { delete require.cache[require.resolve(BANK_FILE)]; return require(BANK_FILE); }
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
+function loadBankModule() { if (!fs.existsSync(BANK_FILE)) throw new Error('absent: ' + BANK_FILE); return require('./b3-fresh-bank.js').freshModule('division-with-remainder'); }
 function loadBank() { return loadBankModule().DIVISION; }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 

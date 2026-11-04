@@ -75,7 +75,8 @@ const resolve = require('../image-cache/resolve.js');
 const tokens = require('../primitives/_tokens.js');
 const { COLOR_WORDS } = require('../data/color-words.js');
 const { answerBox } = require('../templates/components.js');
-const bankMod = require('../data/b3/all-about-me.js');
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
+const bankMod = require('./b3-fresh-bank.js').freshModule('all-about-me');
 
 const TYPE = require('../types/k/K-323-all-about-me.js');
 const QUICK = process.argv.includes('--quick');

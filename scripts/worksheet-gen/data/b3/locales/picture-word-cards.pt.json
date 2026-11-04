@@ -98,8 +98,8 @@
       "instruction": "Recorte os cartões. Fale a palavra de um só e a palavra de muitos e depois junte cada par."
     },
     "bilingual": {
-      "title": "Cartões bilíngues: português e inglês",
-      "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+      "title": "Cartões bilíngues: português e {U}",
+      "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras."
     },
     "syllable": {
       "title": "Cartões silabados: leia a palavra por partes",

@@ -97,8 +97,8 @@
       "instruction": "Ritaglia le carte. Di' la parola per uno e la parola per tanti, poi unisci ogni coppia."
     },
     "bilingual": {
-      "title": "Carte bilingui: italiano e inglese",
-      "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+      "title": "Carte bilingui: italiano e {U}",
+      "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in {U}, e conserva le carte per il tuo muro delle parole."
     },
     "syllable": {
       "title": "Carte delle sillabe: leggi la parola a pezzi",

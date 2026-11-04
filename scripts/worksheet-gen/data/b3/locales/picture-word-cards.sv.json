@@ -88,8 +88,8 @@
       "instruction": "Klipp ut korten. Säg ordet för en och ordet för flera och lägg sedan ihop paren."
     },
     "bilingual": {
-      "title": "Tvåspråkiga bildkort: svenska och engelska",
-      "instruction": "Klipp ut de åtta korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg."
+      "title": "Tvåspråkiga bildkort: svenska och {U}",
+      "instruction": "Klipp ut de åtta korten. Säg ordet på svenska och sedan på {U} och spara korten till din ordvägg."
     },
     "syllable": {
       "title": "Stavelsekort: läs ordet i delar",

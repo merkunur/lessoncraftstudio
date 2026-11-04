@@ -64,7 +64,7 @@ function makeCrossword(spec) {
       if (spec.clue === 'bilingual') {
         const langs = LOCS.filter((x) => x !== L), def = L === 'en' ? 'es' : 'en';
         const names = langs.map((x) => ({ word: langName(x, L), code: x }));
-        const [pick] = slot.words(ctx, [names.find((x) => x.code === def)], names, 'clueLang');
+        const [pick] = slot.words(ctx, [names.find((x) => x.code === def)], names, 'clueLang', { derives: ['words', 'rows', 'cols', 'clueLang'] });   // every grid word must have a clue in that language: the grid follows it
         clueLang = pick.code;
         const otherWord = new Map(entriesFor(theme, clueLang).map((y) => [y.vocabKey, displayWord(y.singular, clueLang)]));
         p = p.filter((x) => otherWord.has(x.e.vocabKey));
@@ -104,7 +104,7 @@ function makeCrossword(spec) {
       if (!lay) throw new Error(`${spec.id}: these words do not cross into one grid (${theme}/${L})`);
       // a teacher's words (maker): word i of the drawn grid replaced, the others kept, the grid laid out again around
       // them — refused when the new word cannot cross the others (or a fill-in would need more given words than allowed)
-      const chosen = slot.pictures(ctx, items, p, theme);
+      const chosen = slot.pictures(ctx, items, p, theme, 'pic', { derives: ['words', 'rows', 'cols'] });   // a new word: the grid is solved again (its numbers and places follow)
       if (chosen.some((x, i) => x !== items[i])) {
         let best = null;
         for (let t = 0; t < 30 && !(best && best.nGiven <= 1); t++) {

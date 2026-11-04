@@ -328,14 +328,6 @@
         "k"
       ]
     ],
-    "bird": [
-      [
-        "f",
-        "u",
-        "g",
-        "l"
-      ]
-    ],
     "bison": [
       [
         "b",
@@ -667,17 +659,6 @@
         "o",
         "r",
         "s"
-      ]
-    ],
-    "crow": [
-      [
-        "k",
-        "r",
-        "a"
-      ],
-      [
-        "g",
-        "e"
       ]
     ],
     "crown": [
@@ -1199,17 +1180,6 @@
         "l"
       ]
     ],
-    "heron": [
-      [
-        "h",
-        "e",
-        "j"
-      ],
-      [
-        "r",
-        "e"
-      ]
-    ],
     "house": [
       [
         "h",
@@ -1338,29 +1308,6 @@
       ],
       [
         "l",
-        "e"
-      ]
-    ],
-    "kingfisher": [
-      [
-        "i",
-        "s"
-      ],
-      [
-        "f",
-        "u",
-        "g",
-        "l"
-      ]
-    ],
-    "kite": [
-      [
-        "d",
-        "r",
-        "a"
-      ],
-      [
-        "g",
         "e"
       ]
     ],
@@ -1645,20 +1592,6 @@
         "s"
       ]
     ],
-    "ottoman": [
-      [
-        "p",
-        "u",
-        "f"
-      ]
-    ],
-    "oven": [
-      [
-        "o",
-        "v",
-        "n"
-      ]
-    ],
     "package": [
       [
         "p",
@@ -1733,18 +1666,6 @@
         "a"
       ]
     ],
-    "peacock": [
-      [
-        "p",
-        "å"
-      ],
-      [
-        "f",
-        "u",
-        "g",
-        "l"
-      ]
-    ],
     "pelican": [
       [
         "p",
@@ -1777,15 +1698,6 @@
         "v",
         "i",
         "n"
-      ]
-    ],
-    "phlox": [
-      [
-        "f",
-        "l",
-        "o",
-        "k",
-        "s"
       ]
     ],
     "photographer": [
@@ -1885,18 +1797,6 @@
       [
         "d",
         "e"
-      ]
-    ],
-    "quail": [
-      [
-        "v",
-        "a",
-        "g"
-      ],
-      [
-        "t",
-        "e",
-        "l"
       ]
     ],
     "rabbit": [
@@ -2104,15 +2004,6 @@
         "e"
       ]
     ],
-    "snail": [
-      [
-        "s",
-        "n",
-        "e",
-        "g",
-        "l"
-      ]
-    ],
     "snorkel": [
       [
         "s",
@@ -2269,17 +2160,6 @@
         "i",
         "p",
         "s"
-      ]
-    ],
-    "toad": [
-      [
-        "t",
-        "u",
-        "d"
-      ],
-      [
-        "s",
-        "e"
       ]
     ],
     "toe": [
@@ -2494,7 +2374,6 @@
     "compass",
     "cone",
     "crocus",
-    "crow",
     "crown",
     "daffodil",
     "detective",
@@ -2511,7 +2390,6 @@
     "globe",
     "ham",
     "harp",
-    "heron",
     "hummingbird",
     "jam",
     "janitor",
@@ -2520,8 +2398,6 @@
     "kayak",
     "kettle",
     "key",
-    "kingfisher",
-    "kite",
     "ladder",
     "lamp",
     "lily",
@@ -2535,7 +2411,6 @@
     "panda",
     "parrot",
     "pasta",
-    "peacock",
     "pelican",
     "penguin",
     "photographer",
@@ -2544,7 +2419,6 @@
     "pretzel",
     "puzzle",
     "pyramid",
-    "quail",
     "rabbit",
     "radish",
     "raindrop",
@@ -2558,7 +2432,6 @@
     "swallow",
     "swan",
     "telephone",
-    "toad",
     "toothpaste",
     "tractor",
     "truck",

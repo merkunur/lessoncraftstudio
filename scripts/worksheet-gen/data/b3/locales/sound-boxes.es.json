@@ -98,7 +98,6 @@
     "armchair",
     "artist",
     "asparagus",
-    "aster",
     "asteroid",
     "astronaut",
     "author",
@@ -125,7 +124,6 @@
     "beetle",
     "beetroot",
     "begonia",
-    "beige",
     "bell",
     "belt",
     "bench",
@@ -155,7 +153,6 @@
     "broccoli",
     "brontosaurus",
     "broom",
-    "brush",
     "bucket",
     "bud",
     "bulldozer",
@@ -400,7 +397,6 @@
     "motorcycle",
     "mountain",
     "mouse",
-    "muffin",
     "mushroom",
     "musician",
     "narwhal",
@@ -444,7 +440,6 @@
     "pigeon",
     "pilot",
     "pitcher",
-    "pizza",
     "planet",
     "plate",
     "plesiosaurus",
@@ -496,7 +491,6 @@
     "scarlet",
     "science",
     "scissors",
-    "scooter",
     "seagull",
     "seashell",
     "sewing",
@@ -544,7 +538,6 @@
     "stormy",
     "stove",
     "strawberry",
-    "stretcher",
     "student",
     "styracosaurus",
     "subway",
@@ -983,17 +976,6 @@
       [
         "g",
         "o"
-      ]
-    ],
-    "aster": [
-      [
-        "á",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "r"
       ]
     ],
     "asteroid": [
@@ -1513,17 +1495,6 @@
         "n",
         "i",
         "a"
-      ]
-    ],
-    "beige": [
-      [
-        "b",
-        "e",
-        "i"
-      ],
-      [
-        "g",
-        "e"
       ]
     ],
     "bell": [
@@ -4812,16 +4783,6 @@
         "o"
       ]
     ],
-    "gopher": [
-      [
-        "t",
-        "u"
-      ],
-      [
-        "z",
-        "a"
-      ]
-    ],
     "gorilla": [
       [
         "g",
@@ -6628,18 +6589,6 @@
         "a"
       ]
     ],
-    "muffin": [
-      [
-        "m",
-        "u",
-        "f"
-      ],
-      [
-        "f",
-        "i",
-        "n"
-      ]
-    ],
     "mug": [
       [
         "t",
@@ -7621,17 +7570,6 @@
       ],
       [
         "rr",
-        "a"
-      ]
-    ],
-    "pizza": [
-      [
-        "p",
-        "i",
-        "z"
-      ],
-      [
-        "z",
         "a"
       ]
     ],
@@ -8644,19 +8582,6 @@
         "s"
       ]
     ],
-    "scooter": [
-      [
-        "s",
-        "c",
-        "o",
-        "o"
-      ],
-      [
-        "t",
-        "e",
-        "r"
-      ]
-    ],
     "screwdriver": [
       [
         "d",
@@ -9474,20 +9399,6 @@
         "a"
       ]
     ],
-    "stretcher": [
-      [
-        "c",
-        "a"
-      ],
-      [
-        "m",
-        "i"
-      ],
-      [
-        "ll",
-        "a"
-      ]
-    ],
     "student": [
       [
         "e",
@@ -9666,15 +9577,6 @@
         "t",
         "e",
         "r"
-      ]
-    ],
-    "sweatpants": [
-      [
-        "p",
-        "a",
-        "n",
-        "t",
-        "s"
       ]
     ],
     "sweatshirt": [

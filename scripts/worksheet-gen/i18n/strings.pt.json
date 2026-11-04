@@ -2159,8 +2159,8 @@
     "instruction": "Recorte os cartões. Fale a palavra de um só e a palavra de muitos e depois junte cada par."
   },
   "K-350": {
-    "title": "Cartões bilíngues: português e inglês",
-    "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+    "title": "Cartões bilíngues: português e {U}",
+    "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras."
   },
   "G1-324": {
     "title": "Cartões silabados: leia a palavra por partes",
@@ -2272,7 +2272,7 @@
   },
   "G2-321": {
     "title": "Saltos no quadro numérico: siga as setas",
-    "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a esquerda 1 a menos, para a direita 1 a mais. Escreva onde você chega."
+    "instruction": "Comece no número e siga as setas: para cima, 10 a menos; para baixo, 10 a mais; à esquerda, 1 a menos; à direita, 1 a mais. Escreva onde você chegar."
   },
   "G2-322": {
     "title": "Número misterioso: duas setas, um quadradinho",

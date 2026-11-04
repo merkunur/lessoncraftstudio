@@ -129,7 +129,7 @@ module.exports = {
         `<div style="display:flex;gap:18px;align-items:flex-start;justify-content:center">` +
         `<div class="ws-card" style="padding:10px;flex:0 0 auto">${grid.svg}</div>` +
         `<div style="display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:6px">${demo.svg}<span class="ws-codechip" style="font-size:17px;height:28px" data-lcs-demo-chip>B2</span></div></div>` +
-        `<div class="ws-card" style="width:660px;padding:12px 14px;flex-direction:row;flex-wrap:wrap;gap:12px 22px;justify-content:center">${codeList({ groups: groups.map((g) => ({ key: g.key, word: g.word, codes: d.inverse ? g.codes.map(() => '') : g.codes, ...(d.inverse ? { answers: g.codes } : {}) })) })}</div></div>`,
+        `<div class="ws-card" style="width:660px;padding:12px 14px;flex-direction:row;flex-wrap:wrap;gap:12px 22px;justify-content:center">${codeList({ groups: groups.map((g) => ({ key: g.key, word: g.word, codes: d.inverse ? g.codes.map(() => '') : g.codes, ...(d.inverse ? { answers: g.codes } : {}) })), write: !!d.inverse && !legacy })}</div></div>`,
       meta: { figure: figure.key, offset },
     };
   },

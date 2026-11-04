@@ -98,7 +98,7 @@ function makeWordSearch(spec) {
         if (spec.clue === 'bilingual') {
           const langs = LOCS.filter((x) => x !== L), def = L === 'en' ? 'es' : 'en';
           const names = langs.map((x) => ({ word: langName(x, L), code: x }));
-          const [pick] = slot.words(ctx, [names.find((x) => x.code === def)], names, 'clueLang');
+          const [pick] = slot.words(ctx, [names.find((x) => x.code === def)], names, 'clueLang', { derives: ['clueLang'] });   // the clues' language, recorded by code
           clueLang = pick.code;
         }
         p = p.filter((x) => !clueLang || entriesFor(theme, clueLang).some((y) => y.vocabKey === x.e.vocabKey));

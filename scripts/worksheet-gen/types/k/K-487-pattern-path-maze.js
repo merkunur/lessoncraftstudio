@@ -20,7 +20,9 @@ const D = {
 };
 const N4 = [[1, 0], [-1, 0], [0, 1], [0, -1]];
 
-/** a random self-avoiding walk of exactly `len` cells from (0,0) to (cols-1, rows-1); null when none was found */
+/** a random self-avoiding walk of exactly `len` cells from (0,0) to (cols-1, rows-1); null when none was found. The way never
+ *  TOUCHES itself (no stone beside an earlier stone but the one before it), so the marked way reads as ONE way — a way that
+ *  touched itself let a child step across from one leg to another (2026-11-04, the live gate: "not one way") */
 function walk(rng, cols, rows, len) {
   const goal = [cols - 1, rows - 1], seen = new Set(['0,0']), path = [[0, 0]];
   let budget = 20000;
@@ -35,6 +37,7 @@ function walk(rng, cols, rows, len) {
       const nx = x + dx, ny = y + dy, k = nx + ',' + ny;
       if (nx < 0 || ny < 0 || nx >= cols || ny >= rows || seen.has(k)) continue;
       if (nx === goal[0] && ny === goal[1] && left !== 1) continue;
+      if (path.slice(0, -1).some(([px, py]) => Math.abs(px - nx) + Math.abs(py - ny) === 1)) continue;
       seen.add(k); path.push([nx, ny]);
       if (go()) return true;
       seen.delete(k); path.pop();

@@ -162,10 +162,12 @@ function polySvg(P, px, fill) {
 const POLY_FILL = [tokens.color.tealSoft, tokens.color.coralSoft, tokens.color.creamDeep];
 // the mirror-line page's trapezoid (viewBox 120): top 52 wide, bottom 100, symmetric about x = 60 — one mirror line
 const SYM_TRAPEZOID = [[34, 34], [86, 34], [110, 88], [10, 88]];
-// drawn in the shapes library's own style (its pale green fill, a thin near-black edge) so it sits with the other pictures
+// drawn in the shapes library's own style (its pale green fill, a thin near-black edge) so it sits with the other pictures;
+// those two colours are the library's, not the page palette: the svg says so (data-lcs-prim="lib-shape", qa/lints.js)
+const LIB_SHAPE = { fill: '#CFE1B9', stroke: '#1F2420' };
 const symTrapezoidSvg = (px) => svgRoot({ width: px, height: px, label: 'trapezoid' },
-  el('polygon', { points: SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), fill: '#CFE1B9', stroke: '#1F2420', 'stroke-width': 0.9, 'stroke-linejoin': 'round' }),
-  { viewBox: '0 0 120 120', 'data-lcs-pts': SYM_TRAPEZOID.map((q) => q.join(',')).join(' ') });
+  el('polygon', { points: SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), fill: LIB_SHAPE.fill, stroke: LIB_SHAPE.stroke, 'stroke-width': 0.9, 'stroke-linejoin': 'round' }),
+  { viewBox: '0 0 120 120', 'data-lcs-pts': SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), 'data-lcs-prim': 'lib-shape' });
 
 /**
  * The solids the counting pages draw themselves (2026-10-08): the library pictures are OPAQUE — a child counting the

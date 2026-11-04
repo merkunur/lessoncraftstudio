@@ -308,7 +308,7 @@ module.exports = {
       nameBank({ names: order.map((day) => ({ day, text: texts[day] })), px: d.bankPx || 20 }) +
       nameLadder({ rungs, namePx: d.namePx, glyphH, rungMin, rungMax }) + '</div>';
     return { bodyHtml, meta: { layout: 'gaps', gaps: [...gapSet].sort((a, b) => a - b), bank: order, answers: rungs.filter((r) => r.gap).map((r) => r.day) },
-      _ans: { layout: 'gaps', unit: 'days', start, N, rungs, texts } };
+      _ans: { layout: 'gaps', unit: 'days', start, N, rungs, texts, copy: (ctx && ctx.variant) || 1 } };
   },
 
   /** F2 — Yesterday, Today, Tomorrow (days) / F4 — The Month Before and After (months, heads:'beforeAfter'). G1. */
@@ -358,7 +358,7 @@ module.exports = {
       `style="display:grid;grid-template-rows:${d.strip ? 'auto 30px repeat(' + rows + ',minmax(104px,' + (rows <= 3 ? 190 : 124) + 'px))' : '30px repeat(' + rows + ',minmax(92px,110px))'};row-gap:${d.strip ? 14 : 8}px;align-content:${d.strip ? 'start' : 'center'};flex:1 1 auto;min-height:0;padding-bottom:6px">` +
       stripHtml + neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right }) + rowsHtml + '</div>';
     return { bodyHtml, meta: { layout: 'neighbours', unit: d.unit, todays, inverse: [...invRows], answers: todays.map((t) => [(t - 1 + N) % N, (t + 1) % N]) },
-      _ans: { layout: 'neighbours', unit: d.unit, start, N, texts, heads, rows: todays.map((t, i) => ({ t, inverse: invRows.has(i) })), strip: !!d.strip } };
+      _ans: { layout: 'neighbours', unit: d.unit, start, N, texts, heads, rows: todays.map((t, i) => ({ t, inverse: invRows.has(i) })), strip: !!d.strip, copy: (ctx && ctx.variant) || 1 } };
   },
 
   /** F5 — Days of the Week: Abbreviations (G1). */
@@ -386,7 +386,7 @@ module.exports = {
     const bodyHtml = `<div class="ws-match" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="days" data-lcs-weekstart="${start}" data-lcs-n="${N}" data-lcs-pairs="${N}" style="min-height:0">` +
       abbrevPairs({ left: week.map((day) => ({ day, text: abbr[day] })), right: right.map((day) => ({ day, text: texts[day] })), itemH: d.itemH || 78, abbrPx: d.abbrPx || 26, namePx: d.namePx || 24 }) + '</div>';
     return { bodyHtml, meta: { layout: 'abbrev', left: week, right },
-      _ans: { layout: 'abbrev', unit: 'days', pairs: [week], abbr, texts } };
+      _ans: { layout: 'abbrev', unit: 'days', pairs: [week], abbr, texts, copy: (ctx && ctx.variant) || 1 } };
   },
 
   /** a derangement of `ids` (no item beside its own partner) */
@@ -412,7 +412,7 @@ module.exports = {
     const bodyHtml = `<div class="ws-match" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="days" data-lcs-weekstart="${start}" data-lcs-n="${N}" data-lcs-pairs="${d.pairs}" data-lcs-subset="1" style="min-height:0">` +
       abbrevPairs({ left: left.map((day) => ({ day, text: abbr[day] })), right: right.map((day) => ({ day, text: texts[day] })), itemH: d.itemH || 96, abbrPx: d.abbrPx || 30, namePx: d.namePx || 28 }) + '</div>';
     return { bodyHtml, meta: { layout: 'abbrev', left, right, subset: true },
-      _ans: { layout: 'abbrev', unit: 'days', pairs: [left], abbr, texts } };
+      _ans: { layout: 'abbrev', unit: 'days', pairs: [left], abbr, texts, copy: (ctx && ctx.variant) || 1 } };
   },
 
   /** Level Set harder level: the 12 month short forms (calendar.js monthAbbr), two blocks — January..June, July..December. */
@@ -437,7 +437,7 @@ module.exports = {
     const bodyHtml = `<div class="ws-match-months" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="months" data-lcs-weekstart="0" data-lcs-n="12" data-lcs-pairs="${blocks.flat().length}" ` +
       `style="display:flex;gap:18px;flex:1 1 auto;min-height:0;align-items:stretch">${html.map((h) => h.html).join('')}</div>`;
     return { bodyHtml, meta: { layout: 'abbrev', unit: 'months', rights: html.map((h) => h.right) },
-      _ans: { layout: 'abbrev', unit: 'months', pairs: blocks, abbr, texts: names } };
+      _ans: { layout: 'abbrev', unit: 'months', pairs: blocks, abbr, texts: names, copy: (ctx && ctx.variant) || 1 } };
   },
 
   async verify(page) {

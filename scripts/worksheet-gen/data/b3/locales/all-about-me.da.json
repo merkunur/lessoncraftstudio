@@ -230,7 +230,7 @@
     "sweater": "sweater",
     "skirt": "nederdel",
     "shorts": "shorts",
-    "cereal": "morgenmad",
+    "cereal": "havreringe",
     "pancake": "pandekage",
     "croissant": "croissant",
     "bagel": "bagel",
@@ -265,7 +265,7 @@
     },
     "K-343": {
       "title": "Min familie: tegn og tæl",
-      "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr I er, og skriv tallet."
+      "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
     },
     "K-344": {
       "title": "Det er mig: sæt ord på ansigtet",

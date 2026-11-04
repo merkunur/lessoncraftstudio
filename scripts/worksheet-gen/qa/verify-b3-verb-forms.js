@@ -136,7 +136,8 @@ function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' +
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
-function loadBank() { delete require.cache[require.resolve(BANK_FILE)]; const m = require(BANK_FILE); return m[Object.keys(m)[0]]; }
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
+function loadBank() { if (!fs.existsSync(BANK_FILE)) throw new Error('absent: ' + BANK_FILE); return require('./b3-fresh-bank.js').freshBank('verb-forms'); }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 function fold(s) { return String(s || '').trim().toLocaleLowerCase(); }
 function toks(s) { return fold(s).split(/[^\p{L}']+/u).filter(Boolean); }

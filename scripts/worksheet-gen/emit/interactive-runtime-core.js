@@ -385,7 +385,34 @@ function marksRuntime() {
     var mw = 36 / W * 100, mh = 36 / H * 100, x = o.x, y = o.y, w = o.w, h = o.h;
     if (w < mw) { x -= (mw - w) / 2; w = mw; }
     if (h < mh) { y -= (mh - h) / 2; h = mh; }
+    el.__o = { x: o.x, y: o.y, w: o.w, h: o.h }; el.__g = { x: x, y: y, w: w, h: h };
     el.style.left = x + '%'; el.style.top = y + '%'; el.style.width = w + '%'; el.style.height = h + '%';
+  }
+  // a grown target never reaches into its neighbour: where two GROWN targets overlap but their printed boxes do not, both
+  // stop half way between the printed boxes — never inside their own box (2026-11-04, screen-geometry: 2-8 px overlaps on
+  // dense grids, crossword cells and word-shape boxes — a tap on the seam was ambiguous)
+  function unclash() {
+    var bs = Array.prototype.slice.call(ov.querySelectorAll('button')).filter(function (b) { return b.__g; });
+    for (var i = 0; i < bs.length; i++) for (var j = i + 1; j < bs.length; j++) {
+      var ga = bs[i].__g, gb = bs[j].__g, oa = bs[i].__o, ob = bs[j].__o;
+      if (Math.min(ga.x + ga.w, gb.x + gb.w) <= Math.max(ga.x, gb.x) || Math.min(ga.y + ga.h, gb.y + gb.h) <= Math.max(ga.y, gb.y)) continue;
+      // neighbours: printed boxes apart, or sharing a border (overlapping by 3 px or less — crossword cells, card rows)
+      var bx = 3 / W * 100, by = 3 / H * 100;
+      var ax = oa.x + oa.w <= ob.x + bx && oa.x < ob.x ? [ga, gb, oa, ob] : ob.x + ob.w <= oa.x + bx && ob.x < oa.x ? [gb, ga, ob, oa] : null;
+      var ay = oa.y + oa.h <= ob.y + by && oa.y < ob.y ? [ga, gb, oa, ob] : ob.y + ob.h <= oa.y + by && ob.y < oa.y ? [gb, ga, ob, oa] : null;
+      if (ax && ay) { if (Math.abs((oa.x + oa.w / 2) - (ob.x + ob.w / 2)) * W >= Math.abs((oa.y + oa.h / 2) - (ob.y + ob.h / 2)) * H) ay = null; else ax = null; }
+      // the seam: half way between the printed boxes (outside both when they stand apart; the middle of a shared border)
+      if (ax) {
+        var mx = (ax[2].x + ax[2].w + ax[3].x) / 2, rx = ax[1].x + ax[1].w;
+        ax[0].w = Math.min(ax[0].x + ax[0].w, mx) - ax[0].x;
+        ax[1].x = Math.max(ax[1].x, mx); ax[1].w = rx - ax[1].x;
+      } else if (ay) {
+        var my = (ay[2].y + ay[2].h + ay[3].y) / 2, ry = ay[1].y + ay[1].h;
+        ay[0].h = Math.min(ay[0].y + ay[0].h, my) - ay[0].y;
+        ay[1].y = Math.max(ay[1].y, my); ay[1].h = ry - ay[1].y;
+      }
+    }
+    bs.forEach(function (b) { var g = b.__g; b.style.left = g.x + '%'; b.style.top = g.y + '%'; b.style.width = g.w + '%'; b.style.height = g.h + '%'; });
   }
   function mk(cls, o, label) { var el = document.createElement('button'); el.type = 'button'; el.className = cls; el.setAttribute('aria-label', label || ''); place(el, o); ov.appendChild(el); return el; }
   function centre(o) { return [(o.x + o.w / 2) * W / 100, (o.y + o.h / 2) * H / 100]; }
@@ -641,6 +668,7 @@ function marksRuntime() {
     chk.textContent = S.check; rst.textContent = S.tryAgain; document.getElementById('lcs-cele-title').textContent = S.youDidIt; document.getElementById('lcs-cele-print').textContent = S.print; document.getElementById('lcs-cele-close').textContent = S.tryAgain;
     chk.addEventListener('click', check); rst.addEventListener('click', retry); document.getElementById('lcs-cele-close').addEventListener('click', reset);
     if (TY.length) cur = 0;
+    unclash();
     window.__lcsMarks = { Q: function () { return Q; }, parts: P, check: check, retry: retry, reset: reset, ready: ready };
     paint();
   }

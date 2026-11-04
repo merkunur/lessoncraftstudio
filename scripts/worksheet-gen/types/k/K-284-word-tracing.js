@@ -24,6 +24,7 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'word-tracing',
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true, levelSetBw: true },   // Level Set: a B&W theme is its own all-line-art page
+  fitsChrome: true,   // a teacher's longer title takes its px out of the gaps between the rows (build below)
   difficulty: {
     1: { rows: 3, maxLetters: 5, glyphH: 56, laneH: 68, pic: 150, cardW: 176, rowH: 218, caption: false, reps: 2 },
     2: { rows: 4, maxLetters: 9, glyphH: 46, laneH: 58, pic: 120, cardW: 150, rowH: 178, caption: false, reps: 2 },
@@ -122,7 +123,10 @@ module.exports = {
         card + `<div style="display:flex;flex-direction:column;gap:2px" data-lcs-lanes>${lane.svg}${extraEmpty}</div></div>`;
     });
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:8px">${rows.join('')}</div>`,
+      // a teacher's three-line title (maker, ctx.chromeExtra) ran 3 px into the footer on levels 2 and 3 (2026-11-04): its px
+      // come out of the 8 px gaps between the rows — never the letters, the lanes or the picture; the published page (no
+      // chromeExtra) keeps its 8 px and stays byte-identical
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:${Math.max(0, 8 - Math.ceil(((ctx && ctx.chromeExtra) || 0) / Math.max(1, d.rows - 1)))}px">${rows.join('')}</div>`,
       meta: { words: chosen.map((e) => e.word) },
     };
   },

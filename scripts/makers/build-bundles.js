@@ -178,11 +178,16 @@ function record(types) {
         // at fewer levels than the language offers, localeUnitLevels[loc] lists each unit's levels (the screen and the
         // gates read it beside unitLevels)
         const ul = {};
+        // recorded too: a page WITH a unit may read what no unit-less page touches (2026-11-04: K-237 / K-238's per-number
+        // and per-letter Level Set titles, read by copyStrings only when a unit is set, were never shipped — the browser
+        // printed the published title "Trace the Numbers 0 to 9" over a page of 0 while Node printed the copy's own)
+        current = spec.id + '|' + loc;
         for (const u of entry.units[loc]) {
           ul[u.id] = lvls.filter((d) => (!entry.unitLevels || entry.unitLevels[u.id] === d) && [1, 2].some((variant) => {
             try { makePage({ type: spec, strings: sdOf[d], locale: loc, difficulty: d, theme: themed ? good[0] : null, unit: u.id, variant }); return true; } catch (e) { noteDefect(e, spec.id + ' ' + loc + ' unit ' + u.id); return false; }
           }));
         }
+        current = null;
         entry.units[loc] = entry.units[loc].filter((u) => ul[u.id].length);
         if (entry.units[loc].some((u) => ul[u.id].length < lvls.filter((d) => !entry.unitLevels || entry.unitLevels[u.id] === d).length)) {
           (entry.localeUnitLevels = entry.localeUnitLevels || {})[loc] = Object.fromEntries(entry.units[loc].map((u) => [u.id, ul[u.id]]));

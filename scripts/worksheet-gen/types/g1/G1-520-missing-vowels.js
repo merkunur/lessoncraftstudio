@@ -48,7 +48,20 @@ module.exports = {
       return !SW.fits(pattern, L, e).length && !SW.rudeFit(pattern, L);         // one word only fits, never a rude one
     });
     if (pool.length < d.n) throw new Error(`G1-520: theme ${theme}/${L} has ${pool.length} words with one filling (< ${d.n})`);
-    const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's words (maker; the pool keeps only words whose vowels can be blanked)
+    // the vowel mix (2026-11-04, settings-space): a random draw leans on the language's commonest vowel ("a" filled a third
+    // of the boxes, so "a" everywhere scored 31-46 %); of 24 draws the page takes the one whose commonest vowel fills the
+    // fewest boxes (now 24-29 % en / fi). Choosing word by word for the best balance was measured too and refused: it
+    // gave 4-5 different pages in 12 copies — "New version" must stay new
+    const vowelsOf = (e) => { const u = SW.units(e.word, L), b = boxed(e.word, L); return u.filter((c, i) => b[i]).map(low); };
+    let drawn = null, lean = Infinity;
+    for (let t = 0; t < 24; t++) {
+      const s = rng.sample(pool, d.n), c = {};
+      let n = 0;
+      for (const e of s) for (const v of vowelsOf(e)) { c[v] = (c[v] || 0) + 1; n++; }
+      const top = Math.max(...Object.values(c)) / n;
+      if (top < lean) { lean = top; drawn = s; }
+    }
+    const picks = slot.pictures(ctx, drawn, pool, theme);   // a teacher's words (maker; the pool keeps only words whose vowels can be blanked)
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two cards a row while every word has 5 letters or fewer; else one compact card a row (the page holds 8)
     const two = Math.max(...picks.map((e) => e.word).map((w) => [...w].length)) <= 5, roomy = two || picks.length <= 6;

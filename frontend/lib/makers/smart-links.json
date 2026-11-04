@@ -7,7 +7,7 @@
   },
   "alphabet-train": {
    "maker": "alphabet",
-   "template": null
+   "template": "K-530"
   },
   "big-small": {
    "maker": "measurement",
@@ -15,7 +15,7 @@
   },
   "bingo": {
    "maker": "bingo",
-   "template": null
+   "template": "K-569"
   },
   "chart-count": {
    "maker": "graphs-data",
@@ -31,11 +31,11 @@
   },
   "crossword": {
    "maker": "crossword",
-   "template": null
+   "template": "G1-535"
   },
   "cryptogram": {
    "maker": "secret-code",
-   "template": null
+   "template": "G1-539"
   },
   "draw-and-color": {
    "maker": "symmetry-grids",
@@ -99,7 +99,7 @@
   },
   "prepositions": {
    "maker": "position-words",
-   "template": null
+   "template": "K-548"
   },
   "shadow-match": {
    "maker": "same-different",
@@ -115,19 +115,19 @@
   },
   "treasure-hunt": {
    "maker": "maps-grids",
-   "template": null
+   "template": "G1-528"
   },
   "word-guess": {
    "maker": "spelling",
-   "template": null
+   "template": "G1-518"
   },
   "word-scramble": {
    "maker": "spelling",
-   "template": null
+   "template": "G1-517"
   },
   "wordsearch": {
    "maker": "word-search",
-   "template": null
+   "template": "G1-532"
   },
   "writing": {
    "maker": "letter-tracing",

@@ -66,12 +66,15 @@ function makeLitSoundMatch(cfg) {
         }
         chosen = rng.shuffle(picked);
       } else chosen = rng.shuffle(rng.sample(pool, n));
-      // a teacher's pictures (maker): any picture of the reviewed list; a page that spreads its answers keeps each card's answer
-      {
-        const mine = slot.anyPictures(ctx, chosen, pool, 'pic');
-        if (mine.every((it, i) => it === chosen[i] || !cfg.spread || String(it.answer) === String(chosen[i].answer))) chosen = mine;
-        else { slot.anyPictures(ctx && { ...ctx, overrides: null }, chosen, pool, 'pic'); slot.refuse(ctx, 'pic'); }
-      }
+      // a teacher's pictures (maker): any picture of the reviewed list; a page that spreads its answers keeps each card's answer,
+      // so there the picker offers, card by card, only the pictures with THAT card's answer (one role per answer, slot.byKind —
+      // 2026-11-04: one role over every picture refused 68 of 72 choices on K-221) and never a word already on the page
+      let tapAt = (i) => slot.attr(ctx, 'pic', i);
+      if (cfg.spread) {
+        const ans = (it) => String(it.answer), wd = (it) => it.word || it.noun;
+        const KS = slot.byKind(ctx, chosen, ans, (k) => pool.filter((it) => ans(it) === k), { multi: true, prefix: 'pic', ok: (x, old) => !chosen.some((c) => c !== old && wd(c) === wd(x)) });
+        chosen = KS.items; tapAt = KS.tap;
+      } else chosen = slot.anyPictures(ctx, chosen, pool, 'pic');
 
       // grid columns: 4 across when >=4 items (two tidy rows of 4), else one row
       const cols = n >= 4 ? 4 : n;
@@ -82,7 +85,7 @@ function makeLitSoundMatch(cfg) {
       // builds only — the catalogue page is byte-unchanged)
       const mark = !!(ctx && (ctx.answerKey || ctx.screen));
       const cards = chosen.map((it) =>
-        `<div class="lit-sm-card" data-lit-item="${it.noun}"${slot.attr(ctx, 'pic', chosen.indexOf(it))} data-lit-answer="${String(it.answer || '')}">` +
+        `<div class="lit-sm-card" data-lit-item="${it.noun}"${tapAt(chosen.indexOf(it))} data-lit-answer="${String(it.answer || '')}">` +
         `<div class="lit-sm-pic ws-card-stage"><img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" ` +
         `style="width:${iconPx}px;height:${iconPx}px"></div>` +
         `<div class="lit-sm-box"${mark ? ` data-lcs-answer="${String(it.answer)}"` : ''} style="width:${boxW}px;height:54px"></div>` +

@@ -581,7 +581,7 @@
       "instruction": "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
     },
     "G2-339": {
-      "title": "{U}: rastita oikeat tiedot",
+      "title": "{U}: ympyröi oikeat tiedot",
       "instruction": "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
     },
     "G2-340": {

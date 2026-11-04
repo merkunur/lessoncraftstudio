@@ -6,7 +6,7 @@ cd "$(dirname "$0")/../.." || exit 2
 ARGS="$*"
 # GATE_LOGS=<dir>: two suites (two makers) can run side by side without sharing a log folder
 LOGS=${GATE_LOGS:-out/makers-gates}; mkdir -p "$LOGS"; rm -f "$LOGS"/*.log
-GATES=(unit-tests lint-browser-safe parity sha1-parity answer-keys screen-from-marks declared-screens slots unique-solution
+GATES=(unit-tests lint-browser-safe parity string-parity sha1-parity answer-keys screen-from-marks declared-screens slots unique-solution
        controls-budget collision own-input settings-space screen-geometry pdf-parity thumbs registration old-landings
        click-shell edit-shell access-shell keys-shell themes-shell saves-shell exports-shell play-shell live-gate)
 fail=0
@@ -20,6 +20,16 @@ for g in "${GATES[@]}"; do
     for t in scripts/makers/tests/*.test.js; do echo "== $t" >> "$LOGS/$g.log"; node "$t" >> "$LOGS/$g.log" 2>&1 || { r=FAIL; fail=1; echo "FAILED $t" >> "$LOGS/$g.log"; }; done
     n=$(ls scripts/makers/tests/*.test.js | wc -l)
     printf '%-18s %s  %4ss  %s\n' "$g" "$r" "$(( $(date +%s) - t0 ))" "unit tests: $n files$( [ $r = FAIL ] && echo ", $(grep -c ^FAILED "$LOGS/$g.log") failing")"
+    continue
+  fi
+  # the printed strings = the banks the family gates check (tools/check-b*-string-parity.js, every batch), and the b3
+  # drafts = their locale files (an apply-b3-locale run would otherwise put old words back) — 2026-11-04
+  if [ "$g" = string-parity ]; then
+    t0=$(date +%s); r=PASS; : > "$LOGS/$g.log"
+    for t in scripts/worksheet-gen/tools/check-b*-string-parity.js scripts/worksheet-gen/tools/sync-b3-drafts-from-banks.js; do
+      echo "== $t" >> "$LOGS/$g.log"; node "$t" --check >> "$LOGS/$g.log" 2>&1 || { r=FAIL; fail=1; echo "FAILED $t" >> "$LOGS/$g.log"; }
+    done
+    printf '%-18s %s  %4ss  %s\n' "$g" "$r" "$(( $(date +%s) - t0 ))" "$(ls scripts/worksheet-gen/tools/check-b*-string-parity.js | wc -l) parity checks + the b3 draft sync$( [ $r = FAIL ] && echo ", $(grep -c ^FAILED "$LOGS/$g.log") failing")"
     continue
   fi
   [ -f "$f" ] || { echo "MISSING $g"; fail=1; continue; }

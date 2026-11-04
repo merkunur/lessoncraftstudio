@@ -2148,8 +2148,8 @@
     "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
   },
   "K-350": {
-    "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
-    "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+    "title": "Zweisprachige Bildkarten: Deutsch und {U}",
+    "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf."
   },
   "G1-324": {
     "title": "Silbenkarten: Lies das Wort in Silben",
@@ -2261,7 +2261,7 @@
   },
   "G2-321": {
     "title": "Sprungrätsel: Folge den Pfeilen",
-    "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach links 1 weniger, nach rechts 1 mehr. Schreibe auf, wo du landest."
+    "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, links 1 weniger, rechts 1 mehr. Schreibe auf, wo du landest."
   },
   "G2-322": {
     "title": "Geheimzahl: Zwei Pfeile, ein Feld",

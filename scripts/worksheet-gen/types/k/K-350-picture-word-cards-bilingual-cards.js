@@ -17,7 +17,10 @@
  * unitAxis: units(loc) = the bank's partnerNames keys in bank order (the 10
  * other locales); exemplar(loc) = bank.bilingual.partnerExemplar (`es` in en,
  * `en` elsewhere); tokens {U} = {L} = the authored partner NAME (its own
- * case: "Spanish" / "Englisch" / "englanti"), {UNIT} = the locale code. The
+ * case: "Spanish" / "Englisch" / "englanti"), {UNIT} = the locale code; {AND} = the host's "and" before it (es: e before
+ * an i-sound — español e inglés, español y francés) and {INU} = "in <partner>" as one word where the host says it so
+ * (bilingual.partnerIn: fi englanniksi). 2026-11-04: eight locales printed "… and English" whatever partner the teacher
+ * picked; every locale's title + instruction now name the picked one (English, the published exemplar, prints as before). The
  * wave ships the exemplar only; a unit-less build() takes it from the bank.
  * One object for all three levels: the waves ship d2 only.
  */
@@ -49,7 +52,10 @@ module.exports = {
     tokens: (unit, loc) => {
       const name = bilingualBlock(loc).partnerNames[unit];
       if (!name) throw new Error(`K-350: the ${loc} bank names no partner ${unit}`);
-      return { U: name, L: name, UNIT: unit };
+      const b = bilingualBlock(loc), tok = { U: name, L: name, UNIT: unit };
+      if (loc === 'es') tok.AND = /^h?[ií](?![aeoué])/i.test(name) ? 'e' : 'y';
+      if (b.partnerIn) { if (!b.partnerIn[unit]) throw new Error(`K-350: the ${loc} bank has no partnerIn for ${unit}`); tok.INU = b.partnerIn[unit]; }
+      return tok;
     },
   },
   // Level Set 2026-09-29: L1 4 big cards · L3 12 cards; level 2 = the published D

@@ -11,11 +11,11 @@
     },
     "F2": {
       "title": "Hop på hundredtavlen: følg pilene",
-      "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til højre er 1 mere. Skriv, hvor du lander."
+      "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
     },
     "F3": {
       "title": "Det hemmelige tal: to pile, ét felt",
-      "instruction": "Følg begge pile. De peger på det samme felt på tavlen. Skriv det hemmelige tal."
+      "instruction": "Følg begge pilene. De peger på det samme felt på hundredtavlen. Skriv det hemmelige tal."
     },
     "F4": {
       "title": "Find det forkerte tal på brikken",

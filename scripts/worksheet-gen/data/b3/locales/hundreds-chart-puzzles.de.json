@@ -11,7 +11,7 @@
     },
     "F2": {
       "title": "Sprungrätsel: Folge den Pfeilen",
-      "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, nach rechts 1 mehr. Schreibe auf, wo du landest."
+      "instruction": "Beginne bei der Zahl und folge den Pfeilen: nach oben 10 weniger, nach unten 10 mehr, links 1 weniger, rechts 1 mehr. Schreibe auf, wo du landest."
     },
     "F3": {
       "title": "Geheimzahl: Zwei Pfeile, ein Feld",

@@ -90,7 +90,7 @@ function panelMin(d) { return ARROW_ROW + 4 + d.tile + BAND + d.pillH + PAD_BORD
  * (throws after 500 draws — unreachable for the shipped configs, a guard for
  * a face that tightens the rule).
  */
-function pageOrdinals(rng, d) {
+function pageOrdinals(rng, d, mix) {
   const total = d.strips * d.chips;
   const vals = [];
   for (let k = 1; k <= d.kMax; k++) vals.push(k);
@@ -121,6 +121,9 @@ function pageOrdinals(rng, d) {
       strips.push(pair);
     }
     if (!ok) continue;
+    // a NEW page deals each strip's two chips in a drawn order (2026-11-04, settings-space: sorted, the first chip always
+    // asked the nearer place, so where the answer sat followed the chip — rotate-2 24 % against 13 %)
+    if (mix) return strips.map((p) => rng.shuffle(p));
     return strips;
   }
   throw new Error('K-320: no page ordinal set satisfies the rule ' + JSON.stringify({ kMax: d.kMax, distinct: d.distinct, mustInclude: d.mustInclude, anyOf: d.anyOf, maxRepeat: d.maxRepeat }));
@@ -450,7 +453,8 @@ module.exports = {
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];
-    const built = this._buildWith(loadBank(BANK, loc), d, { theme, locale: loc }, ctx);
+    // a NEW page (anything but level 2, copy 1 — the published page) deals its chips in a drawn order (pageOrdinals)
+    const built = this._buildWith(loadBank(BANK, loc), d, { theme, locale: loc }, { ...ctx, mixChips: !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1) });
     // Level Set 2026-10-14: the screen version / the answer key of the SAME draw (render-instance asserts the meta)
     if (ctx && ctx.interactive) return ordScreen.screen(layoutOf(d), d, built, { theme, loc, entries: entriesFor(theme, loc) });
     if (ctx && ctx.answerKey) return ordScreen.key(layoutOf(d), built, { loc });
@@ -477,7 +481,7 @@ module.exports = {
     };
 
     const pool = entriesFor(theme, loc);
-    const ks = pageOrdinals(rng, d);
+    const ks = pageOrdinals(rng, d, !!(ctx && ctx.mixChips));
     const sides = startSides(rng, d);
     const minH = panelMin(d);
     const panels = [];

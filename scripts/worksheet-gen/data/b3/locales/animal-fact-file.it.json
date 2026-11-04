@@ -585,7 +585,7 @@
       "instruction": "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
     },
     "G2-340": {
-      "title": "Carta d'identità con le parole da usare: {U}",
+      "title": "Carta d'identità con le parole date: {U}",
       "instruction": "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
     },
     "G2-341": {

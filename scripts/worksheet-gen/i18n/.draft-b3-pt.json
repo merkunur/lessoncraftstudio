@@ -186,8 +186,8 @@
       "instruction": "Recorte os cartões. Fale a palavra de um só e a palavra de muitos e depois junte cada par."
     },
     "K-350": {
-      "title": "Cartões bilíngues: português e inglês",
-      "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+      "title": "Cartões bilíngues: português e {U}",
+      "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras."
     },
     "G1-324": {
       "title": "Cartões silabados: leia a palavra por partes",
@@ -323,7 +323,7 @@
     },
     "G2-321": {
       "title": "Saltos no quadro numérico: siga as setas",
-      "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a direita 1 a mais. Escreva onde você chega."
+      "instruction": "Comece no número e siga as setas: para cima, 10 a menos; para baixo, 10 a mais; à esquerda, 1 a menos; à direita, 1 a mais. Escreva onde você chegar."
     },
     "G2-322": {
       "title": "Número misterioso: duas setas, um quadradinho",
@@ -379,14 +379,14 @@
     },
     "G2-334": {
       "title": "Ligue o pronome à forma do verbo",
-      "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome."
+      "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome. Depois complete as duas frases."
     },
     "G2-335": {
       "title": "Verbos em frases com figuras",
       "instruction": "Olhe a figura e leia o verbo do cartãozinho. Escreva na caixinha pontilhada a forma que completa a frase."
     },
     "G2-336": {
-      "title": "Os verbos irregulares: ser, estar, ter e ir",
+      "title": "Verbos irregulares: ser, estar, ter e ir, dois por folha",
       "instruction": "Estes verbos mudam muito. Escreva nas caixinhas pontilhadas a forma que vai com cada pessoa."
     },
     "G2-337": {
@@ -422,7 +422,7 @@
       "instruction": "Leia as cinco pistas de cada cartão. Ache o animal no banco de figuras, escreva o nome dele na linha e desenhe no quadro."
     },
     "G2-319": {
-      "title": "Desafios de raciocínio lógico: três pistas, uma resposta",
+      "title": "Desafios de raciocínio lógico: três pistas",
       "instruction": "Leia as pistas. Risque na tabela o que não pode ser, marque o que tem de ser e depois circule a figura de cada criança."
     },
     "G2-344": {
@@ -438,7 +438,7 @@
       "instruction": "Uma figura riscada quer dizer que a criança não tem; uma circulada, que tem. Risque na tabela e depois circule cada resposta."
     },
     "G3-379": {
-      "title": "Raciocínio lógico com dois atributos: duas figuras por criança",
+      "title": "Raciocínio lógico com dois atributos",
       "instruction": "Cada criança tem uma figura de cada grupo. Use as pistas que ligam os grupos para completar as três tabelas."
     },
     "G2-345": {
@@ -1841,7 +1841,21 @@
           "animal": "Meu animal favorito",
           "food": "Minha comida favorita",
           "color": "Minha cor favorita",
-          "toy": "Meu brinquedo favorito"
+          "toy": "Meu brinquedo favorito",
+          "fruit": "Minha fruta favorita",
+          "vegetable": "Meu legume favorito",
+          "pet": "Meu pet favorito",
+          "instrument": "Meu instrumento favorito",
+          "hobby": "Meu passatempo favorito",
+          "treat": "Meu doce favorito",
+          "bird": "Minha ave favorita",
+          "bug": "Meu bichinho favorito",
+          "sea": "Meu favorito do mar",
+          "vehicle": "Meu veículo favorito",
+          "clothes": "Minha roupa favorita",
+          "breakfast": "Meu café da manhã favorito",
+          "shape": "Minha forma favorita",
+          "farm": "Meu favorito da fazenda"
         },
         "countHeads": {
           "people": "Pessoas na minha família:",
@@ -1883,7 +1897,36 @@
         "skate": "Eu sei patinar",
         "ski": "Eu sei esquiar",
         "writename": "Eu sei escrever meu nome",
-        "brushteeth": "Eu sei escovar os dentes"
+        "brushteeth": "Eu sei escovar os dentes",
+        "bounce": "Eu sei quicar a bola",
+        "slide": "Eu sei descer no escorregador",
+        "hike": "Eu sei fazer uma trilha",
+        "comb": "Eu sei pentear o cabelo",
+        "washhands": "Eu sei lavar as mãos",
+        "dress": "Eu sei me vestir",
+        "coat": "Eu sei abotoar meu casaco",
+        "boots": "Eu sei calçar as botas",
+        "bed": "Eu sei arrumar a cama",
+        "tidy": "Eu sei varrer o chão",
+        "cut": "Eu sei recortar com tesoura",
+        "glue": "Eu sei usar a cola",
+        "draw": "Eu sei colorir sem sair da linha",
+        "backpack": "Eu sei arrumar minha mochila",
+        "drum": "Eu sei tocar tambor",
+        "guitar": "Eu sei tocar violão",
+        "blocks": "Eu sei montar uma torre",
+        "dice": "Eu sei jogar um jogo de tabuleiro",
+        "bake": "Eu sei ajudar a fazer bolo",
+        "photo": "Eu sei tirar uma foto",
+        "kite": "Eu sei soltar pipa",
+        "fish": "Eu sei pescar",
+        "tent": "Eu sei dormir numa barraca",
+        "water": "Eu sei regar as plantas",
+        "puddle": "Eu sei pular nas poças",
+        "swing": "Eu sei balançar sem ajuda",
+        "umbrella": "Eu sei abrir o guarda-chuva",
+        "jumprope": "Eu sei pular corda",
+        "iceskate": "Eu sei patinar"
       },
       "refuse": [],
       "optionWords": {
@@ -1920,7 +1963,122 @@
         "robot": "robô",
         "balloon": "balão",
         "dinosaur": "dinossauro",
-        "boat": "barco"
+        "boat": "barco",
+        "lemon": "limão",
+        "kiwi": "kiwi",
+        "orange": "laranja",
+        "pear": "pera",
+        "pineapple": "abacaxi",
+        "watermelon": "melancia",
+        "raspberry": "framboesa",
+        "coconut": "coco",
+        "broccoli": "brócolis",
+        "corn": "milho",
+        "cucumber": "pepino",
+        "tomato": "tomate",
+        "potato": "batata",
+        "pumpkin": "abóbora",
+        "eggplant": "berinjela",
+        "lettuce": "alface",
+        "onion": "cebola",
+        "cauliflower": "couve-flor",
+        "goldfish": "peixe dourado",
+        "hamster": "hamster",
+        "parrot": "papagaio",
+        "turtle": "tartaruga",
+        "mouse": "rato",
+        "frog": "rã",
+        "drum": "tambor",
+        "flute": "flauta",
+        "guitar": "violão",
+        "piano": "piano",
+        "trumpet": "trompete",
+        "violin": "violino",
+        "harp": "harpa",
+        "xylophone": "xilofone",
+        "accordion": "acordeão",
+        "saxophone": "saxofone",
+        "soccer": "futebol",
+        "tennis": "tênis",
+        "basketball": "basquete",
+        "swimming": "natação",
+        "skating": "patinação",
+        "biking": "ciclismo",
+        "chess": "xadrez",
+        "cupcake": "cupcake",
+        "donut": "rosquinha",
+        "lollipop": "pirulito",
+        "popsicle": "picolé",
+        "waffle": "waffle",
+        "muffin": "muffin",
+        "eagle": "águia",
+        "flamingo": "flamingo",
+        "owl": "coruja",
+        "peacock": "pavão",
+        "toucan": "tucano",
+        "ostrich": "avestruz",
+        "pelican": "pelicano",
+        "bee": "abelha",
+        "ant": "formiga",
+        "butterfly": "borboleta",
+        "caterpillar": "lagarta",
+        "ladybug": "joaninha",
+        "dragonfly": "libélula",
+        "snail": "caracol",
+        "spider": "aranha",
+        "worm": "minhoca",
+        "crab": "caranguejo",
+        "dolphin": "golfinho",
+        "octopus": "polvo",
+        "jellyfish": "água-viva",
+        "whale": "baleia",
+        "starfish": "estrela-do-mar",
+        "shark": "tubarão",
+        "seal": "foca",
+        "airplane": "avião",
+        "bicycle": "bicicleta",
+        "bus": "ônibus",
+        "helicopter": "helicóptero",
+        "tractor": "trator",
+        "rocket": "foguete",
+        "motorcycle": "motocicleta",
+        "sailboat": "veleiro",
+        "submarine": "submarino",
+        "hat": "chapéu",
+        "boots": "botas",
+        "dress": "vestido",
+        "coat": "casaco",
+        "cap": "boné",
+        "t-shirt": "camiseta",
+        "scarf": "cachecol",
+        "jeans": "jeans",
+        "pajamas": "pijama",
+        "sweater": "suéter",
+        "skirt": "saia",
+        "shorts": "shorts",
+        "cereal": "cereal",
+        "pancake": "panqueca",
+        "croissant": "croissant",
+        "bagel": "bagel",
+        "sausage": "salsicha",
+        "juice": "suco",
+        "circle": "círculo",
+        "square": "quadrado",
+        "triangle": "triângulo",
+        "star": "estrela",
+        "heart": "coração",
+        "diamond": "losango",
+        "oval": "oval",
+        "moon": "lua",
+        "hexagon": "hexágono",
+        "rectangle": "retângulo",
+        "pentagon": "pentágono",
+        "cow": "vaca",
+        "goat": "cabra",
+        "donkey": "burro",
+        "turkey": "peru",
+        "goose": "ganso",
+        "llama": "lhama"
       },
       "strings": {
         "K-323": {
@@ -1947,7 +2105,8 @@
           "title": "Meu nome: escreva, conte e compare",
           "instruction": "Escreva seu nome com uma letra em cada quadradinho e conte as letras. Faça o mesmo com o nome de um amigo e circule quem tem mais."
         }
-      }
+      },
+      "excludeOptions": []
     },
     "picture-word-cards": {
       "cardCase": "lower",
@@ -2049,8 +2208,8 @@
           "instruction": "Recorte os cartões. Fale a palavra de um só e a palavra de muitos e depois junte cada par."
         },
         "bilingual": {
-          "title": "Cartões bilíngues: português e inglês",
-          "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+          "title": "Cartões bilíngues: português e {U}",
+          "instruction": "Recorte os oito cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras."
         },
         "syllable": {
           "title": "Cartões silabados: leia a palavra por partes",
@@ -2071,7 +2230,7 @@
         },
         "F2": {
           "title": "Saltos no quadro numérico: siga as setas",
-          "instruction": "Comece no número e siga as setas: para cima é 10 a menos, para baixo 10 a mais, para a direita 1 a mais. Escreva onde você chega."
+          "instruction": "Comece no número e siga as setas: para cima, 10 a menos; para baixo, 10 a mais; à esquerda, 1 a menos; à direita, 1 a mais. Escreva onde você chegar."
         },
         "F3": {
           "title": "Número misterioso: duas setas, um quadradinho",
@@ -2211,7 +2370,7 @@
       },
       "strings": {
         "G2-319": {
-          "title": "Desafios de raciocínio lógico: três pistas, uma resposta",
+          "title": "Desafios de raciocínio lógico: três pistas",
           "instruction": "Leia as pistas. Risque na tabela o que não pode ser, marque o que tem de ser e depois circule a figura de cada criança."
         },
         "F1": {
@@ -2227,7 +2386,7 @@
           "instruction": "Uma figura riscada quer dizer que a criança não tem; uma circulada, que tem. Risque na tabela e depois circule cada resposta."
         },
         "F4": {
-          "title": "Raciocínio lógico com dois atributos: duas figuras por criança",
+          "title": "Raciocínio lógico com dois atributos",
           "instruction": "Cada criança tem uma figura de cada grupo. Use as pistas que ligam os grupos para completar as três tabelas."
         },
         "F5": {
@@ -5271,7 +5430,8 @@
         "uranus",
         "venus",
         "xylophone",
-        "zinnia"
+        "zinnia",
+        "lamp"
       ],
       "texBoundary": [
         "acorn",
@@ -5287,16 +5447,13 @@
         "armchair",
         "artist",
         "asparagus",
-        "aster",
         "asteroid",
         "astronaut",
         "author",
         "autumn",
         "backpack",
-        "bacon",
         "badge",
         "bag",
-        "bagel",
         "baguette",
         "baker",
         "ballerina",
@@ -5336,7 +5493,6 @@
         "brain",
         "broccoli",
         "brownie",
-        "brush",
         "bucket",
         "bud",
         "bull",
@@ -5504,10 +5660,8 @@
         "icicle",
         "jacket",
         "janitor",
-        "jasmine",
         "jumping",
         "jumpsuit",
-        "jupiter",
         "kettle",
         "key",
         "keyboard",
@@ -5537,11 +5691,9 @@
         "lollipop",
         "lotus",
         "lunchbox",
-        "macaron",
         "mango",
         "marigold",
         "marker",
-        "mars",
         "mask",
         "mechanic",
         "medal",
@@ -5559,7 +5711,6 @@
         "mosquito",
         "motorcycle",
         "mountain",
-        "muffin",
         "mug",
         "muscles",
         "musician",
@@ -5568,7 +5719,6 @@
         "neck",
         "necklace",
         "nectarine",
-        "neptune",
         "nest",
         "nose",
         "notebook",
@@ -5670,7 +5820,6 @@
         "shy",
         "singer",
         "singing",
-        "skateboard",
         "skating",
         "skeleton",
         "sled",
@@ -5714,7 +5863,6 @@
         "swing",
         "syringe",
         "t-shirt",
-        "tablet",
         "tart",
         "telephone",
         "telescope",
@@ -5745,7 +5893,6 @@
         "turquoise",
         "turtle",
         "velociraptor",
-        "venus",
         "vest",
         "veterinarian",
         "waffle",
@@ -5763,8 +5910,7 @@
         "wreath",
         "wrist",
         "writing",
-        "zebra",
-        "zinnia"
+        "zebra"
       ],
       "bank": {
         "acorn": [
@@ -6058,17 +6204,6 @@
             "o"
           ]
         ],
-        "aster": [
-          [
-            "á",
-            "s"
-          ],
-          [
-            "t",
-            "e",
-            "r"
-          ]
-        ],
         "asteroid": [
           [
             "a",
@@ -6191,16 +6326,6 @@
             "a"
           ]
         ],
-        "bacon": [
-          [
-            "b",
-            "a"
-          ],
-          [
-            "c",
-            "on"
-          ]
-        ],
         "badge": [
           [
             "d",
@@ -6232,17 +6357,6 @@
           [
             "l",
             "a"
-          ]
-        ],
-        "bagel": [
-          [
-            "b",
-            "a"
-          ],
-          [
-            "g",
-            "e",
-            "l"
           ]
         ],
         "baguette": [
@@ -7018,20 +7132,6 @@
             "n",
             "i",
             "e"
-          ]
-        ],
-        "brush": [
-          [
-            "e",
-            "s"
-          ],
-          [
-            "c",
-            "o"
-          ],
-          [
-            "v",
-            "a"
           ]
         ],
         "bucket": [
@@ -10257,17 +10357,6 @@
             "e"
           ]
         ],
-        "jasmine": [
-          [
-            "j",
-            "a",
-            "s"
-          ],
-          [
-            "m",
-            "im"
-          ]
-        ],
         "jeep": [
           [
             "j",
@@ -10340,21 +10429,6 @@
             "c",
             "ã",
             "o"
-          ]
-        ],
-        "jupiter": [
-          [
-            "j",
-            "ú"
-          ],
-          [
-            "p",
-            "i"
-          ],
-          [
-            "t",
-            "e",
-            "r"
           ]
         ],
         "kettle": [
@@ -10806,20 +10880,6 @@
             "a"
           ]
         ],
-        "macaron": [
-          [
-            "m",
-            "a"
-          ],
-          [
-            "c",
-            "a"
-          ],
-          [
-            "r",
-            "on"
-          ]
-        ],
         "macaw": [
           [
             "a"
@@ -10895,17 +10955,6 @@
             "d",
             "o",
             "r"
-          ]
-        ],
-        "mars": [
-          [
-            "m",
-            "a",
-            "r"
-          ],
-          [
-            "t",
-            "e"
           ]
         ],
         "mask": [
@@ -11252,17 +11301,6 @@
             "a"
           ]
         ],
-        "muffin": [
-          [
-            "m",
-            "u",
-            "f"
-          ],
-          [
-            "f",
-            "in"
-          ]
-        ],
         "mug": [
           [
             "c",
@@ -11387,20 +11425,6 @@
           [
             "n",
             "a"
-          ]
-        ],
-        "neptune": [
-          [
-            "n",
-            "e"
-          ],
-          [
-            "t",
-            "u"
-          ],
-          [
-            "n",
-            "o"
           ]
         ],
         "nest": [
@@ -11910,7 +11934,7 @@
         "pear": [
           [
             "p",
-            "ê"
+            "e"
           ],
           [
             "r",
@@ -13375,17 +13399,6 @@
             "a"
           ]
         ],
-        "skateboard": [
-          [
-            "s",
-            "k",
-            "a"
-          ],
-          [
-            "t",
-            "e"
-          ]
-        ],
         "skating": [
           [
             "p",
@@ -14228,18 +14241,6 @@
             "a"
           ]
         ],
-        "tablet": [
-          [
-            "t",
-            "a"
-          ],
-          [
-            "b",
-            "l",
-            "e",
-            "t"
-          ]
-        ],
         "tart": [
           [
             "t",
@@ -14660,19 +14661,6 @@
             "s"
           ]
         ],
-        "trillium": [
-          [
-            "t",
-            "r",
-            "i",
-            "l"
-          ],
-          [
-            "l",
-            "i",
-            "um"
-          ]
-        ],
         "trombone": [
           [
             "t",
@@ -14836,19 +14824,6 @@
             "e"
           ]
         ],
-        "uranus": [
-          [
-            "u"
-          ],
-          [
-            "r",
-            "a"
-          ],
-          [
-            "n",
-            "o"
-          ]
-        ],
         "van": [
           [
             "v",
@@ -14887,17 +14862,6 @@
             "t",
             "o",
             "r"
-          ]
-        ],
-        "venus": [
-          [
-            "v",
-            "ê"
-          ],
-          [
-            "n",
-            "u",
-            "s"
           ]
         ],
         "vest": [
@@ -15284,17 +15248,6 @@
           [
             "b",
             "r",
-            "a"
-          ]
-        ],
-        "zinnia": [
-          [
-            "z",
-            "í"
-          ],
-          [
-            "n",
-            "i",
             "a"
           ]
         ]
@@ -20060,6 +20013,17 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
+            },
+            {
+              "vocabKey": "stool",
+              "word": "banquinho",
+              "pic": {
+                "theme": "furniture",
+                "noun": "stool"
+              },
+              "sameSpelling": true,
+              "productive": true,
+              "picOpened": true
             }
           ],
           "extra": [
@@ -20119,35 +20083,14 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
-            },
-            {
-              "vocabKey": "swallow",
-              "word": "andorinha",
-              "pic": {
-                "theme": "birds 2",
-                "noun": "swallow"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "weasel",
-              "word": "doninha",
-              "pic": {
-                "theme": "forest creatures",
-                "noun": "weasel"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
             }
           ],
           "extra": [
             "sardinha",
             "vizinha",
             "sozinha",
-            "rainha"
+            "rainha",
+            "andorinha"
           ],
           "nearMiss": []
         },
@@ -20157,17 +20100,6 @@
           "sound": "etɐ",
           "cap": 8,
           "members": [
-            {
-              "vocabKey": "bicycle",
-              "word": "bicicleta",
-              "pic": {
-                "theme": "vehicles",
-                "noun": "bicycle"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
             {
               "vocabKey": "butterfly",
               "word": "borboleta",
@@ -20233,23 +20165,12 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
-            },
-            {
-              "vocabKey": "stool",
-              "word": "banqueta",
-              "pic": {
-                "theme": "furniture",
-                "noun": "stool"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
             }
           ],
           "extra": [
             "chupeta",
             "gaveta",
-            "peteca"
+            "maleta"
           ],
           "nearMiss": []
         },
@@ -20293,33 +20214,11 @@
               "picOpened": true
             },
             {
-              "vocabKey": "star",
-              "word": "estrela",
-              "pic": {
-                "theme": "christmas",
-                "noun": "star"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
               "vocabKey": "window",
               "word": "janela",
               "pic": {
                 "theme": "around the house",
                 "noun": "window"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "gazelle",
-              "word": "gazela",
-              "pic": {
-                "theme": "zoo animals",
-                "noun": "gazelle"
               },
               "sameSpelling": true,
               "productive": true,
@@ -20462,17 +20361,6 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
-            },
-            {
-              "vocabKey": "chimpanzee",
-              "word": "chimpanzé",
-              "pic": {
-                "theme": "zoo animals",
-                "noun": "chimpanzee"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
             }
           ],
           "extra": [
@@ -20493,17 +20381,6 @@
               "pic": {
                 "theme": "insects and bugs",
                 "noun": "worm"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "mouth",
-              "word": "boca",
-              "pic": {
-                "theme": "body parts",
-                "noun": "mouth"
               },
               "sameSpelling": true,
               "productive": true,
@@ -20572,17 +20449,6 @@
               "pic": {
                 "theme": "classroom",
                 "noun": "glue"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "onion",
-              "word": "cebola",
-              "pic": {
-                "theme": "vegetables",
-                "noun": "onion"
               },
               "sameSpelling": true,
               "productive": true,
@@ -20788,8 +20654,8 @@
           ],
           "extra": [
             "menino",
-            "pinguino",
-            "destino"
+            "destino",
+            "hino"
           ],
           "nearMiss": []
         },
@@ -20836,7 +20702,7 @@
           "extra": [
             "pata",
             "mata",
-            "chapa"
+            "barata"
           ],
           "nearMiss": []
         },
@@ -20887,42 +20753,6 @@
           "nearMiss": []
         },
         {
-          "id": "ena",
-          "rime": "-ena",
-          "sound": "enɐ",
-          "cap": 8,
-          "members": [
-            {
-              "vocabKey": "feather",
-              "word": "pena",
-              "pic": {
-                "theme": "easter",
-                "noun": "feather"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            },
-            {
-              "vocabKey": "reindeer",
-              "word": "rena",
-              "pic": {
-                "theme": "christmas",
-                "noun": "reindeer"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
-            }
-          ],
-          "extra": [
-            "cena",
-            "antena",
-            "pequena"
-          ],
-          "nearMiss": []
-        },
-        {
           "id": "olho",
           "rime": "-olho",
           "sound": "oʎu",
@@ -20949,22 +20779,11 @@
               "sameSpelling": true,
               "productive": true,
               "picOpened": true
-            },
-            {
-              "vocabKey": "sauce",
-              "word": "molho",
-              "pic": {
-                "theme": "At the Supermarket",
-                "noun": "sauce"
-              },
-              "sameSpelling": true,
-              "productive": true,
-              "picOpened": true
             }
           ],
           "extra": [
             "piolho",
-            "folho"
+            "molho"
           ],
           "nearMiss": []
         }
@@ -21073,7 +20892,7 @@
           "id": "balao-limao",
           "lines": [
             "A menina soltou o balão",
-            "e na cesta achou um ___"
+            "e provou um azedo ___"
           ],
           "answer": {
             "vocabKey": "lemon"
@@ -21097,7 +20916,7 @@
           "id": "ninho-patinho",
           "lines": [
             "O passarinho saiu do ninho",
-            "e foi brincar com o ___"
+            "e viu nadar no lago o ___"
           ],
           "answer": {
             "vocabKey": "duckling"
@@ -21118,18 +20937,6 @@
           "cueFree": false
         },
         {
-          "id": "janela-estrela",
-          "lines": [
-            "Olhei o céu pela janela",
-            "e vi brilhar uma ___"
-          ],
-          "answer": {
-            "vocabKey": "star"
-          },
-          "rhymeWith": "janela",
-          "cueFree": false
-        },
-        {
           "id": "bola-cola",
           "lines": [
             "Eu perdi a minha bola",
@@ -21144,13 +20951,13 @@
         {
           "id": "boca-pipoca",
           "lines": [
-            "Abri bem a minha boca",
-            "para comer a ___"
+            "O coelho saiu da toca",
+            "e viu a panela de ___"
           ],
           "answer": {
             "vocabKey": "popcorn"
           },
-          "rhymeWith": "boca",
+          "rhymeWith": "toca",
           "cueFree": false
         },
         {
@@ -21180,8 +20987,8 @@
         {
           "id": "galinha-cozinha",
           "lines": [
-            "A galinha entrou na sala",
-            "e depois foi pra ___"
+            "Cacarejou a galinha",
+            "e correu para a ___"
           ],
           "answer": {
             "vocabKey": "kitchen"
@@ -21192,8 +20999,8 @@
         {
           "id": "jacare-pe",
           "lines": [
-            "O jacaré abriu a boca",
-            "quase mordeu o meu ___"
+            "Cuidado com o jacaré,",
+            "ele quase mordeu meu dedão do ___"
           ],
           "answer": {
             "vocabKey": "foot"
@@ -22610,22 +22417,6 @@
               "pluralGap": null
             },
             {
-              "theme": "furniture",
-              "noun": "lamp",
-              "vocabKey": "lamp",
-              "word": "lâmpada",
-              "gaps": [
-                {
-                  "from": 2,
-                  "len": 1
-                }
-              ],
-              "g": "m",
-              "side": "rule",
-              "plural": "lâmpadas",
-              "pluralGap": null
-            },
-            {
               "theme": "music",
               "noun": "trumpet",
               "vocabKey": "trumpet",
@@ -23874,9 +23665,7 @@
             "a": [],
             "b": []
           },
-          "exclusiveWith": [
-            "high-low"
-          ],
+          "exclusiveWith": [],
           "syn": null,
           "far": "doce",
           "pic": null,
@@ -23976,25 +23765,6 @@
           "exclusiveWith": [],
           "syn": null,
           "far": "fino",
-          "pic": null,
-          "picOpened": false
-        },
-        {
-          "id": "high-low",
-          "a": "em cima",
-          "b": "embaixo",
-          "tier": 1,
-          "pos": "adj",
-          "family": "level",
-          "alt": {
-            "a": [],
-            "b": []
-          },
-          "exclusiveWith": [
-            "tall-short"
-          ],
-          "syn": null,
-          "far": "azedo",
           "pic": null,
           "picOpened": false
         },
@@ -24372,7 +24142,7 @@
         },
         {
           "id": "mark",
-          "frame": "Marque {obj} com um certo."
+          "frame": "Marque {obj} com um sinal de certo."
         },
         {
           "id": "write",
@@ -24392,8 +24162,8 @@
           "8": "a oitava figura"
         },
         "between": "a figura que está entre {A} e {B}",
-        "rightof": "a figura que tem {A} à sua esquerda",
-        "leftof": "a figura que tem {A} à sua direita"
+        "rightof": "a figura que está logo depois {A}",
+        "leftof": "a figura que está logo antes {A}"
       },
       "objForms": {
         "antelope": {
@@ -24412,7 +24182,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do antílope"
         },
         "camel": {
           "unique": "o camelo",
@@ -24430,7 +24201,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do camelo"
         },
         "cat": {
           "unique": "o gato",
@@ -24448,7 +24220,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do gato"
         },
         "dog": {
           "unique": "o cachorro",
@@ -24466,7 +24239,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do cachorro"
         },
         "dolphin": {
           "unique": "o golfinho",
@@ -24484,7 +24258,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do golfinho"
         },
         "donkey": {
           "unique": "o burro",
@@ -24502,7 +24277,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do burro"
         },
         "duck": {
           "unique": "o pato",
@@ -24520,7 +24296,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do pato"
         },
         "elephant": {
           "unique": "o elefante",
@@ -24538,7 +24315,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do elefante"
         },
         "fox": {
           "unique": "a raposa",
@@ -24556,7 +24334,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da raposa"
         },
         "fish": {
           "unique": "o peixe",
@@ -24574,7 +24353,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do peixe"
         },
         "giraffe": {
           "unique": "a girafa",
@@ -24592,7 +24372,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da girafa"
         },
         "hippopotamus": {
           "unique": "o hipopótamo",
@@ -24610,7 +24391,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do hipopótamo"
         },
         "horse": {
           "unique": "o cavalo",
@@ -24628,7 +24410,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do cavalo"
         },
         "iguana": {
           "unique": "a iguana",
@@ -24646,7 +24429,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da iguana"
         },
         "jaguar": {
           "unique": "a onça",
@@ -24664,7 +24448,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da onça"
         },
         "koala": {
           "unique": "o coala",
@@ -24682,7 +24467,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do coala"
         },
         "leopard": {
           "unique": "o leopardo",
@@ -24700,7 +24486,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do leopardo"
         },
         "moose": {
           "unique": "o alce",
@@ -24718,7 +24505,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do alce"
         },
         "orangutan": {
           "unique": "o orangotango",
@@ -24736,7 +24524,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do orangotango"
         },
         "owl": {
           "unique": "a coruja",
@@ -24754,7 +24543,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da coruja"
         },
         "panda": {
           "unique": "o panda",
@@ -24772,7 +24562,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do panda"
         },
         "penguin": {
           "unique": "o pinguim",
@@ -24790,7 +24581,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do pinguim"
         },
         "pig": {
           "unique": "o porco",
@@ -24808,7 +24600,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do porco"
         },
         "raccoon": {
           "unique": "o guaxinim",
@@ -24826,7 +24619,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do guaxinim"
         },
         "rabbit": {
           "unique": "o coelho",
@@ -24844,7 +24638,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do coelho"
         },
         "reindeer": {
           "unique": "a rena",
@@ -24862,7 +24657,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da rena"
         },
         "sheep": {
           "unique": "a ovelha",
@@ -24880,7 +24676,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da ovelha"
         },
         "seagull": {
           "unique": "a gaivota",
@@ -24898,7 +24695,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da gaivota"
         },
         "swan": {
           "unique": "o cisne",
@@ -24916,7 +24714,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do cisne"
         },
         "tiger": {
           "unique": "o tigre",
@@ -24934,7 +24733,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do tigre"
         },
         "turtle": {
           "unique": "a tartaruga",
@@ -24952,7 +24752,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da tartaruga"
         },
         "vulture": {
           "unique": "o urubu",
@@ -24970,7 +24771,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do urubu"
         },
         "whale": {
           "unique": "a baleia",
@@ -24988,7 +24790,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da baleia"
         },
         "wolf": {
           "unique": "o lobo",
@@ -25006,7 +24809,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do lobo"
         },
         "zebra": {
           "unique": "a zebra",
@@ -25024,7 +24828,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da zebra"
         },
         "avocado": {
           "unique": "o abacate",
@@ -25042,7 +24847,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do abacate"
         },
         "apricot": {
           "unique": "o damasco",
@@ -25060,7 +24866,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do damasco"
         },
         "banana": {
           "unique": "a banana",
@@ -25078,7 +24885,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da banana"
         },
         "apple": {
           "unique": "a maçã",
@@ -25096,7 +24904,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da maçã"
         },
         "blackberry": {
           "unique": "a amora",
@@ -25114,7 +24923,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da amora"
         },
         "blueberry": {
           "unique": "o mirtilo",
@@ -25132,7 +24942,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do mirtilo"
         },
         "cherry": {
           "unique": "a cereja",
@@ -25150,7 +24961,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da cereja"
         },
         "clementine": {
           "unique": "a clementina",
@@ -25168,7 +24980,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da clementina"
         },
         "coconut": {
           "unique": "o coco",
@@ -25186,7 +24999,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do coco"
         },
         "fig": {
           "unique": "o figo",
@@ -25204,7 +25018,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do figo"
         },
         "cranberry": {
           "unique": "o oxicoco",
@@ -25222,7 +25037,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do oxicoco"
         },
         "grapefruit": {
           "unique": "a toranja",
@@ -25240,7 +25056,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da toranja"
         },
         "kiwi": {
           "unique": "o kiwi",
@@ -25258,7 +25075,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do kiwi"
         },
         "lemon": {
           "unique": "o limão",
@@ -25276,7 +25094,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do limão"
         },
         "lime": {
           "unique": "a lima",
@@ -25294,7 +25113,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da lima"
         },
         "mango": {
           "unique": "a manga",
@@ -25312,7 +25132,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da manga"
         },
         "orange": {
           "unique": "a laranja",
@@ -25330,7 +25151,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da laranja"
         },
         "papaya": {
           "unique": "o mamão",
@@ -25348,7 +25170,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do mamão"
         },
         "peach": {
           "unique": "o pêssego",
@@ -25366,7 +25189,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do pêssego"
         },
         "nectarine": {
           "unique": "a nectarina",
@@ -25384,7 +25208,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da nectarina"
         },
         "pear": {
           "unique": "a pera",
@@ -25402,7 +25227,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da pera"
         },
         "persimmon": {
           "unique": "o caqui",
@@ -25420,7 +25246,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do caqui"
         },
         "pineapple": {
           "unique": "o abacaxi",
@@ -25438,7 +25265,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do abacaxi"
         },
         "plum": {
           "unique": "a ameixa",
@@ -25456,7 +25284,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da ameixa"
         },
         "pomegranate": {
           "unique": "a romã",
@@ -25474,7 +25303,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da romã"
         },
         "watermelon": {
           "unique": "a melancia",
@@ -25492,7 +25322,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da melancia"
         },
         "strawberry": {
           "unique": "o morango",
@@ -25510,7 +25341,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do morango"
         },
         "raspberry": {
           "unique": "a framboesa",
@@ -25528,7 +25360,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da framboesa"
         },
         "airplane": {
           "unique": "o avião",
@@ -25546,7 +25379,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do avião"
         },
         "ambulance": {
           "unique": "a ambulância",
@@ -25564,7 +25398,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da ambulância"
         },
         "bicycle": {
           "unique": "a bicicleta",
@@ -25582,7 +25417,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da bicicleta"
         },
         "boat": {
           "unique": "o barco",
@@ -25600,7 +25436,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do barco"
         },
         "bulldozer": {
           "unique": "o buldôzer",
@@ -25618,7 +25455,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do buldôzer"
         },
         "car": {
           "unique": "o carro",
@@ -25636,7 +25474,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do carro"
         },
         "canoe": {
           "unique": "a canoa",
@@ -25654,7 +25493,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da canoa"
         },
         "excavator": {
           "unique": "a escavadeira",
@@ -25672,7 +25512,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da escavadeira"
         },
         "ferry": {
           "unique": "a balsa",
@@ -25690,7 +25531,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da balsa"
         },
         "forklift": {
           "unique": "a empilhadeira",
@@ -25708,7 +25550,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da empilhadeira"
         },
         "helicopter": {
           "unique": "o helicóptero",
@@ -25726,7 +25569,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do helicóptero"
         },
         "jeep": {
           "unique": "o jipe",
@@ -25744,7 +25588,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do jipe"
         },
         "motorcycle": {
           "unique": "a motocicleta",
@@ -25762,7 +25607,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da motocicleta"
         },
         "rocket": {
           "unique": "o foguete",
@@ -25780,7 +25626,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do foguete"
         },
         "sailboat": {
           "unique": "o veleiro",
@@ -25798,7 +25645,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do veleiro"
         },
         "ship": {
           "unique": "o navio",
@@ -25816,7 +25664,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do navio"
         },
         "submarine": {
           "unique": "o submarino",
@@ -25834,7 +25683,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do submarino"
         },
         "subway": {
           "unique": "o metrô",
@@ -25852,7 +25702,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do metrô"
         },
         "tractor": {
           "unique": "o trator",
@@ -25870,7 +25721,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do trator"
         },
         "train": {
           "unique": "o trem",
@@ -25888,7 +25740,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do trem"
         },
         "truck": {
           "unique": "o caminhão",
@@ -25906,7 +25759,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do caminhão"
         },
         "yacht": {
           "unique": "o iate",
@@ -25924,7 +25778,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do iate"
         },
         "ball": {
           "unique": "a bola",
@@ -25942,7 +25797,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da bola"
         },
         "balloon": {
           "unique": "o balão",
@@ -25960,7 +25816,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do balão"
         },
         "bucket": {
           "unique": "o balde",
@@ -25978,7 +25835,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do balde"
         },
         "dinosaur": {
           "unique": "o dinossauro",
@@ -25996,7 +25854,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do dinossauro"
         },
         "doll": {
           "unique": "a boneca",
@@ -26014,7 +25873,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da boneca"
         },
         "robot": {
           "unique": "o robô",
@@ -26032,7 +25892,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do robô"
         },
         "slide": {
           "unique": "o escorregador",
@@ -26050,7 +25911,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do escorregador"
         },
         "swing": {
           "unique": "o balanço",
@@ -26068,7 +25930,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do balanço"
         },
         "bear": {
           "unique": "o urso",
@@ -26086,7 +25949,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do urso"
         },
         "armadillo": {
           "unique": "o tatu",
@@ -26104,7 +25968,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do tatu"
         },
         "bison": {
           "unique": "o bisão",
@@ -26122,7 +25987,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do bisão"
         },
         "cheetah": {
           "unique": "o guepardo",
@@ -26140,7 +26006,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do guepardo"
         },
         "chimpanzee": {
           "unique": "o chimpanzé",
@@ -26158,7 +26025,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do chimpanzé"
         },
         "gorilla": {
           "unique": "o gorila",
@@ -26176,7 +26044,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do gorila"
         },
         "gazelle": {
           "unique": "a gazela",
@@ -26194,7 +26063,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da gazela"
         },
         "hyena": {
           "unique": "a hiena",
@@ -26212,7 +26082,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da hiena"
         },
         "kangaroo": {
           "unique": "o canguru",
@@ -26230,7 +26101,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do canguru"
         },
         "lemur": {
           "unique": "o lêmure",
@@ -26248,7 +26120,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do lêmure"
         },
         "lion": {
           "unique": "o leão",
@@ -26266,7 +26139,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do leão"
         },
         "meerkat": {
           "unique": "o suricato",
@@ -26284,7 +26158,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do suricato"
         },
         "monkey": {
           "unique": "o macaco",
@@ -26302,7 +26177,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do macaco"
         },
         "otter": {
           "unique": "a lontra",
@@ -26320,7 +26196,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da lontra"
         },
         "rhinoceros": {
           "unique": "o rinoceronte",
@@ -26338,7 +26215,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do rinoceronte"
         },
         "seal": {
           "unique": "a foca",
@@ -26356,7 +26234,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da foca"
         },
         "sloth": {
           "unique": "a preguiça",
@@ -26374,7 +26253,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da preguiça"
         },
         "bee": {
           "unique": "a abelha",
@@ -26392,7 +26272,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da abelha"
         },
         "bull": {
           "unique": "o touro",
@@ -26410,7 +26291,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do touro"
         },
         "calf": {
           "unique": "o bezerro",
@@ -26428,7 +26310,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do bezerro"
         },
         "chick": {
           "unique": "o pintinho",
@@ -26446,7 +26329,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do pintinho"
         },
         "chicken": {
           "unique": "a galinha",
@@ -26464,7 +26348,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da galinha"
         },
         "cow": {
           "unique": "a vaca",
@@ -26482,7 +26367,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da vaca"
         },
         "duckling": {
           "unique": "o patinho",
@@ -26500,7 +26386,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do patinho"
         },
         "foal": {
           "unique": "o potro",
@@ -26518,7 +26405,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do potro"
         },
         "goat": {
           "unique": "a cabra",
@@ -26536,7 +26424,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da cabra"
         },
         "goose": {
           "unique": "o ganso",
@@ -26554,7 +26443,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do ganso"
         },
         "lamb": {
           "unique": "o cordeiro",
@@ -26572,7 +26462,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do cordeiro"
         },
         "llama": {
           "unique": "a lhama",
@@ -26590,7 +26481,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "da lhama"
         },
         "ox": {
           "unique": "o boi",
@@ -26608,7 +26500,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do boi"
         },
         "rooster": {
           "unique": "o galo",
@@ -26626,7 +26519,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do galo"
         },
         "turkey": {
           "unique": "o peru",
@@ -26644,7 +26538,8 @@
           "part": null,
           "gen": null,
           "a2": null,
-          "reviewed": true
+          "reviewed": true,
+          "de": "do peru"
         }
       },
       "truth": {
@@ -26703,11 +26598,11 @@
             "k": 4
           },
           {
-            "text": "Primeiro vem {obj} e logo depois vem {obj2}.",
+            "text": "Em algum lugar da fileira vem {obj} e logo depois vem {obj2}.",
             "cue": "rightof"
           },
           {
-            "text": "Primeiro vem {obj2} e logo depois vem {obj}.",
+            "text": "Em algum lugar da fileira vem {obj2} e logo depois vem {obj}.",
             "cue": "leftof"
           }
         ]
@@ -26754,6 +26649,24 @@
           "title": "Leia e desenhe",
           "instruction": "Leia cada frase com atenção. Depois desenhe dentro do quadro exatamente o que ela pede."
         }
+      },
+      "draw2": [
+        {
+          "text": "Desenhe {n} {pl} e {n2} {pl2}."
+        },
+        {
+          "text": "Desenhe {n} {pl} e {n2} {pl2} no quadro."
+        },
+        {
+          "text": "Desenhe {n} {pl} grandes e {n2} {pl2} de tamanho pequeno."
+        },
+        {
+          "text": "Desenhe {n} {pl}. Depois desenhe {n2} {pl2}."
+        }
+      ],
+      "fixedForms": {
+        "rightof": "de",
+        "leftof": "de"
       }
     },
     "compound-words": {
@@ -27359,18 +27272,6 @@
           },
           "small": "carrinho",
           "big": "carrão"
-        },
-        {
-          "base": {
-            "vocabKey": "house",
-            "word": "casa",
-            "pic": {
-              "theme": "miscellaneous",
-              "noun": "house"
-            }
-          },
-          "small": "casinha",
-          "big": "casarão"
         },
         {
           "base": {
@@ -28618,7 +28519,17 @@
           "col": "voces",
           "unit": "presente",
           "fits": [
-            "ter",
+            "ter"
+          ],
+          "subjectLiteral": "Vocês",
+          "pic": null
+        },
+        {
+          "id": "f24b",
+          "text": "Vocês {form} com muita fome?",
+          "col": "voces",
+          "unit": "presente",
+          "fits": [
             "estar"
           ],
           "subjectLiteral": "Vocês",
@@ -28666,14 +28577,14 @@
         },
         "F2": {
           "title": "Ligue o pronome à forma do verbo",
-          "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome."
+          "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome. Depois complete as duas frases."
         },
         "F3": {
           "title": "Verbos em frases com figuras",
           "instruction": "Olhe a figura e leia o verbo do cartãozinho. Escreva na caixinha pontilhada a forma que completa a frase."
         },
         "F4": {
-          "title": "Os verbos irregulares: ser, estar, ter e ir",
+          "title": "Verbos irregulares: ser, estar, ter e ir, dois por folha",
           "instruction": "Estes verbos mudam muito. Escreva nas caixinhas pontilhadas a forma que vai com cada pessoa."
         },
         "F5": {

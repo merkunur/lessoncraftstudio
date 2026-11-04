@@ -2201,7 +2201,7 @@
       "instruction": "Börja vid flaggan och räkna längs raden. Räkna fram till rätt bild och gör sedan det som meningen säger med din penna."
     },
     "F4": {
-      "title": "Läs och kryssa: sant eller falskt?",
+      "title": "Läs och svara: sant eller falskt?",
       "instruction": "Läs varje mening och titta på raden med bilder. Är meningen sann eller falsk? Ringa in rätt ord."
     },
     "F5": {

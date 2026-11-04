@@ -72,6 +72,10 @@ function check(M) {
       const t = m.templates.find((x) => x.id === tid);
       if (!t) { fails.push(`${app} → ${id} ${tid}: that template is not in the built maker`); continue; }
       const sl = M.smartLinks[app];
+      // an old app shared by two makers ('writing': letter tracing AND word writing) keeps its landing with the FIRST maker
+      // that lists it — build-smart-links.js's own rule; the other maker's template is checked above, not its link
+      const owner = M.topicMap.find((x) => (x.oldApps || []).includes(app));
+      if (owner && owner.id !== id) continue;
       if (!sl || sl.maker !== id || sl.template !== tid) fails.push(`smart-links.json: ${app} should be { maker: ${id}, template: ${tid} }`);
       const frozen = M.frozen[app];
       if (!frozen) fails.push(`${app}: no frozen landing slugs (docs/makers/old-landings.frozen.json)`);

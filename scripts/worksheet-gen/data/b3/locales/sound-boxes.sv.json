@@ -3389,18 +3389,6 @@
         "e"
       ]
     ],
-    "garland": [
-      [
-        "g",
-        "i",
-        "r"
-      ],
-      [
-        "l",
-        "a",
-        "ng"
-      ]
-    ],
     "gingerbread": [
       [
         "p",
@@ -3418,18 +3406,6 @@
       [
         "k",
         "a"
-      ]
-    ],
-    "mistletoe": [
-      [
-        "m",
-        "i",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "l"
       ]
     ],
     "nutcracker": [
@@ -4155,17 +4131,6 @@
         "t"
       ]
     ],
-    "aster": [
-      [
-        "a",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "r"
-      ]
-    ],
     "bluebell": [
       [
         "b",
@@ -4413,18 +4378,6 @@
         "a",
         "s",
         "k"
-      ]
-    ],
-    "gopher": [
-      [
-        "g",
-        "o",
-        "p"
-      ],
-      [
-        "h",
-        "e",
-        "r"
       ]
     ],
     "mouse": [
@@ -5614,16 +5567,6 @@
         "k"
       ]
     ],
-    "manatee": [
-      [
-        "sj",
-        "ö"
-      ],
-      [
-        "k",
-        "o"
-      ]
-    ],
     "narwhal": [
       [
         "n",
@@ -6750,17 +6693,6 @@
         "a"
       ]
     ],
-    "lemur": [
-      [
-        "l",
-        "e"
-      ],
-      [
-        "m",
-        "u",
-        "r"
-      ]
-    ],
     "lion": [
       [
         "l",
@@ -6848,7 +6780,6 @@
     "armadillo",
     "armchair",
     "artist",
-    "aster",
     "athlete",
     "badger",
     "bagel",
@@ -6871,7 +6802,6 @@
     "bottle",
     "bracelet",
     "broccoli",
-    "brush",
     "bulldozer",
     "bunny",
     "butterfly",
@@ -6945,7 +6875,6 @@
     "fridge",
     "frog",
     "gardener",
-    "garland",
     "garlic",
     "gazelle",
     "ghost",
@@ -6953,7 +6882,6 @@
     "globe",
     "gloves",
     "goldfish",
-    "gopher",
     "grapes",
     "guitar",
     "hamburger",
@@ -6988,14 +6916,12 @@
     "leek",
     "lemon",
     "lemonade",
-    "lemur",
     "lily",
     "lion",
     "lotus",
     "lunchbox",
     "magpie",
     "mailbox",
-    "manatee",
     "map",
     "mechanic",
     "medal",
@@ -7004,7 +6930,6 @@
     "melon",
     "millipede",
     "mirror",
-    "mistletoe",
     "mitten",
     "mittens",
     "mixer",

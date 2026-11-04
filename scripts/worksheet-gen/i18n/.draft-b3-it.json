@@ -186,8 +186,8 @@
    "instruction": "Ritaglia le carte. Di' la parola per uno e la parola per tanti, poi unisci ogni coppia."
   },
   "K-350": {
-   "title": "Carte bilingui: italiano e inglese",
-   "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+   "title": "Carte bilingui: italiano e {U}",
+   "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in {U}, e conserva le carte per il tuo muro delle parole."
   },
   "G1-324": {
    "title": "Carte delle sillabe: leggi la parola a pezzi",
@@ -379,7 +379,7 @@
   },
   "G2-334": {
    "title": "Collega il pronome alla forma del verbo",
-   "instruction": "Leggi il verbo di ogni tabella. Collega con una linea ogni pronome alla forma giusta del verbo."
+   "instruction": "Leggi il verbo di ogni tabella. Collega con una linea ogni pronome alla forma giusta del verbo. Poi completa le due frasi."
   },
   "G2-335": {
    "title": "Completa le frasi con il verbo al presente",
@@ -406,7 +406,7 @@
    "instruction": "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
   },
   "G2-340": {
-   "title": "Carta d'identità con le parole da usare: {U}",
+   "title": "Carta d'identità con le parole date: {U}",
    "instruction": "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
   },
   "G2-341": {
@@ -422,7 +422,7 @@
    "instruction": "Leggi i cinque indizi di ogni carta. Trova l'animale tra i disegni, scrivi il suo nome sulla riga e disegnalo nel riquadro."
   },
   "G2-319": {
-   "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+   "title": "Giochi di logica con la griglia: tre indizi",
    "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
   },
   "G2-344": {
@@ -438,7 +438,7 @@
    "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
   },
   "G3-379": {
-   "title": "Giochi di logica a due attributi: due disegni a testa",
+   "title": "Giochi di logica a due attributi",
    "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
   },
   "G2-345": {
@@ -4197,17 +4197,6 @@
       "o"
      ]
     ],
-    "aster": [
-     [
-      "a",
-      "s"
-     ],
-     [
-      "t",
-      "r",
-      "o"
-     ]
-    ],
     "asteroid": [
      [
       "a"
@@ -5549,22 +5538,6 @@
       "e"
      ]
     ],
-    "brush": [
-     [
-      "s",
-      "p",
-      "a",
-      "z"
-     ],
-     [
-      "z",
-      "o"
-     ],
-     [
-      "l",
-      "a"
-     ]
-    ],
     "bucket": [
      [
       "s",
@@ -5905,12 +5878,25 @@
     ],
     "camp": [
      [
+      "a",
+      "c"
+     ],
+     [
       "c",
       "a",
       "m"
      ],
      [
       "p",
+      "a"
+     ],
+     [
+      "m",
+      "e",
+      "n"
+     ],
+     [
+      "t",
       "o"
      ]
     ],
@@ -6083,24 +6069,17 @@
     ],
     "car": [
      [
-      "a",
-      "u"
-     ],
-     [
-      "t",
-      "o"
-     ],
-     [
       "m",
-      "o"
+      "a",
+      "c"
      ],
      [
-      "b",
+      "ch",
       "i"
      ],
      [
-      "l",
-      "e"
+      "n",
+      "a"
      ]
     ],
     "card": [
@@ -6564,13 +6543,17 @@
     ],
     "chicken": [
      [
-      "p",
-      "o",
+      "g",
+      "a",
       "l"
      ],
      [
       "l",
-      "o"
+      "i"
+     ],
+     [
+      "n",
+      "a"
      ]
     ],
     "chili-pepper": [
@@ -6635,17 +6618,6 @@
      [
       "l",
       "à"
-     ]
-    ],
-    "chipmunk": [
-     [
-      "t",
-      "a"
-     ],
-     [
-      "m",
-      "i",
-      "a"
      ]
     ],
     "chips": [
@@ -7020,21 +6992,6 @@
      ],
      [
       "n",
-      "o"
-     ]
-    ],
-    "confused": [
-     [
-      "c",
-      "o",
-      "n"
-     ],
-     [
-      "f",
-      "u"
-     ],
-     [
-      "s",
       "o"
      ]
     ],
@@ -10437,16 +10394,6 @@
       "o"
      ]
     ],
-    "jupiter": [
-     [
-      "gi",
-      "o"
-     ],
-     [
-      "v",
-      "e"
-     ]
-    ],
     "kangaroo": [
      [
       "c",
@@ -10764,20 +10711,6 @@
      [
       "t",
       "a"
-     ]
-    ],
-    "lemur": [
-     [
-      "l",
-      "e"
-     ],
-     [
-      "m",
-      "u"
-     ],
-     [
-      "r",
-      "e"
      ]
     ],
     "letter": [
@@ -11294,17 +11227,6 @@
       "o"
      ]
     ],
-    "mars": [
-     [
-      "m",
-      "a",
-      "r"
-     ],
-     [
-      "t",
-      "e"
-     ]
-    ],
     "mask": [
      [
       "m",
@@ -11437,21 +11359,6 @@
       "o"
      ]
     ],
-    "merry": [
-     [
-      "a",
-      "l"
-     ],
-     [
-      "l",
-      "e"
-     ],
-     [
-      "g",
-      "r",
-      "o"
-     ]
-    ],
     "microphone": [
      [
       "m",
@@ -11544,18 +11451,6 @@
       "p",
       "e",
       "c"
-     ],
-     [
-      "ch",
-      "i",
-      "o"
-     ]
-    ],
-    "mistletoe": [
-     [
-      "v",
-      "i",
-      "s"
      ],
      [
       "ch",
@@ -11925,21 +11820,6 @@
      [
       "n",
       "a"
-     ]
-    ],
-    "neptune": [
-     [
-      "n",
-      "e",
-      "t"
-     ],
-     [
-      "t",
-      "u"
-     ],
-     [
-      "n",
-      "o"
      ]
     ],
     "nest": [
@@ -13360,7 +13240,7 @@
      ],
      [
       "l",
-      "o"
+      "a"
      ],
      [
       "g",
@@ -13369,7 +13249,7 @@
      ],
      [
       "n",
-      "o"
+      "a"
      ]
     ],
     "pool": [
@@ -16986,19 +16866,6 @@
       "e"
      ]
     ],
-    "uranus": [
-     [
-      "u"
-     ],
-     [
-      "r",
-      "a"
-     ],
-     [
-      "n",
-      "o"
-     ]
-    ],
     "vacuum-cleaner": [
      [
       "a"
@@ -17066,20 +16933,6 @@
       "e"
      ]
     ],
-    "venus": [
-     [
-      "v",
-      "e"
-     ],
-     [
-      "n",
-      "e"
-     ],
-     [
-      "r",
-      "e"
-     ]
-    ],
     "veterinarian": [
      [
       "v",
@@ -17111,12 +16964,7 @@
      ],
      [
       "l",
-      "e",
-      "t"
-     ],
-     [
-      "t",
-      "o"
+      "a"
      ]
     ],
     "violin": [
@@ -17670,7 +17518,6 @@
     "brontosaurus",
     "broom",
     "brown",
-    "brush",
     "bucket",
     "bud",
     "bun",
@@ -17738,7 +17585,6 @@
     "chimney",
     "chin",
     "chinchilla",
-    "chipmunk",
     "chips",
     "chocolate",
     "christmas",
@@ -17760,7 +17606,6 @@
     "comb",
     "comet",
     "compass",
-    "confused",
     "content",
     "controller",
     "cook",
@@ -17949,7 +17794,6 @@
     "juice",
     "jumping",
     "juniper-tree",
-    "jupiter",
     "kangaroo",
     "kettle",
     "key",
@@ -17969,7 +17813,6 @@
     "lemon",
     "lemon-tree",
     "lemonade",
-    "lemur",
     "letter",
     "lettuce",
     "liberty",
@@ -17996,7 +17839,6 @@
     "map",
     "marigold",
     "marker",
-    "mars",
     "measuring-cup",
     "mechanic",
     "medal",
@@ -18004,7 +17846,6 @@
     "meerkat",
     "melon",
     "mercury",
-    "merry",
     "microphone",
     "microscope",
     "milk",
@@ -18033,7 +17874,6 @@
     "necklace",
     "necktie",
     "nectarine",
-    "neptune",
     "nightstand",
     "notebook",
     "nurse",
@@ -18326,7 +18166,6 @@
     "underpants",
     "van",
     "vegetables",
-    "venus",
     "veterinarian",
     "violet",
     "violin",
@@ -19363,7 +19202,21 @@
      "animal": "Il mio animale preferito",
      "food": "Il mio cibo preferito",
      "color": "Il mio colore preferito",
-     "toy": "Il mio gioco preferito"
+     "toy": "Il mio gioco preferito",
+     "fruit": "Il mio frutto preferito",
+     "vegetable": "La mia verdura preferita",
+     "pet": "Il mio animaletto preferito",
+     "instrument": "Il mio strumento preferito",
+     "hobby": "Il mio hobby preferito",
+     "treat": "Il mio dolce preferito",
+     "bird": "Il mio uccello preferito",
+     "bug": "La mia bestiolina preferita",
+     "sea": "Il mio animale marino preferito",
+     "vehicle": "Il mio veicolo preferito",
+     "clothes": "Il mio indumento preferito",
+     "breakfast": "La mia colazione preferita",
+     "shape": "La mia forma preferita",
+     "farm": "Animale della fattoria preferito"
     },
     "countHeads": {
      "people": "Persone della mia famiglia:",
@@ -19405,7 +19258,36 @@
     "skate": "So pattinare",
     "ski": "So sciare",
     "writename": "So scrivere il mio nome",
-    "brushteeth": "So lavarmi i denti"
+    "brushteeth": "So lavarmi i denti",
+    "bounce": "So far rimbalzare la palla",
+    "slide": "So scendere dallo scivolo",
+    "hike": "So fare una lunga passeggiata",
+    "comb": "So pettinarmi i capelli",
+    "washhands": "So lavarmi le mani",
+    "dress": "So vestirmi",
+    "coat": "So abbottonarmi il cappotto",
+    "boots": "So mettermi gli stivali",
+    "bed": "So rifare il letto",
+    "tidy": "So spazzare il pavimento",
+    "cut": "So tagliare con le forbici",
+    "glue": "So usare la colla",
+    "draw": "So colorare dentro i bordi",
+    "backpack": "So preparare lo zaino",
+    "drum": "So suonare il tamburo",
+    "guitar": "So suonare la chitarra",
+    "blocks": "So costruire una torre",
+    "dice": "So fare un gioco da tavolo",
+    "bake": "So aiutare a fare una torta",
+    "photo": "So fare una foto",
+    "kite": "So far volare un aquilone",
+    "fish": "So pescare un pesce",
+    "tent": "So dormire in tenda",
+    "water": "So innaffiare le piante",
+    "puddle": "So saltare nelle pozzanghere",
+    "swing": "So darmi la spinta in altalena",
+    "umbrella": "So aprire l'ombrello",
+    "jumprope": "So saltare la corda",
+    "iceskate": "So pattinare"
    },
    "refuse": [],
    "optionWords": {
@@ -19435,14 +19317,129 @@
     "cake": "torta",
     "ball": "palla",
     "doll": "bambola",
-    "car": "automobile",
+    "car": "macchina",
     "train": "treno",
     "kite": "aquilone",
     "blocks": "blocchi",
     "robot": "robot",
     "balloon": "palloncino",
     "dinosaur": "dinosauro",
-    "boat": "barca"
+    "boat": "barca",
+    "lemon": "limone",
+    "kiwi": "kiwi",
+    "orange": "arancia",
+    "pear": "pera",
+    "pineapple": "ananas",
+    "watermelon": "anguria",
+    "raspberry": "lampone",
+    "coconut": "cocco",
+    "broccoli": "broccoli",
+    "corn": "mais",
+    "cucumber": "cetriolo",
+    "tomato": "pomodoro",
+    "potato": "patata",
+    "pumpkin": "zucca",
+    "eggplant": "melanzana",
+    "lettuce": "lattuga",
+    "onion": "cipolla",
+    "cauliflower": "cavolfiore",
+    "goldfish": "pesce rosso",
+    "hamster": "criceto",
+    "parrot": "pappagallo",
+    "turtle": "tartaruga",
+    "mouse": "topo",
+    "frog": "rana",
+    "drum": "tamburo",
+    "flute": "flauto",
+    "guitar": "chitarra",
+    "piano": "pianoforte",
+    "trumpet": "tromba",
+    "violin": "violino",
+    "harp": "arpa",
+    "xylophone": "xilofono",
+    "accordion": "fisarmonica",
+    "saxophone": "sassofono",
+    "soccer": "calcio",
+    "tennis": "tennis",
+    "basketball": "pallacanestro",
+    "swimming": "nuoto",
+    "skating": "pattinaggio",
+    "biking": "ciclismo",
+    "chess": "scacchi",
+    "cupcake": "cupcake",
+    "donut": "ciambella",
+    "lollipop": "lecca-lecca",
+    "popsicle": "ghiacciolo",
+    "waffle": "waffle",
+    "muffin": "muffin",
+    "eagle": "aquila",
+    "flamingo": "fenicottero",
+    "owl": "gufo",
+    "peacock": "pavone",
+    "toucan": "tucano",
+    "ostrich": "struzzo",
+    "pelican": "pellicano",
+    "bee": "ape",
+    "ant": "formica",
+    "butterfly": "farfalla",
+    "caterpillar": "bruco",
+    "ladybug": "coccinella",
+    "dragonfly": "libellula",
+    "snail": "lumaca",
+    "spider": "ragno",
+    "worm": "verme",
+    "crab": "granchio",
+    "dolphin": "delfino",
+    "octopus": "polpo",
+    "jellyfish": "medusa",
+    "whale": "balena",
+    "starfish": "stella marina",
+    "shark": "squalo",
+    "seal": "foca",
+    "airplane": "aereo",
+    "bicycle": "bicicletta",
+    "bus": "autobus",
+    "helicopter": "elicottero",
+    "tractor": "trattore",
+    "rocket": "razzo",
+    "motorcycle": "motocicletta",
+    "sailboat": "barca a vela",
+    "submarine": "sottomarino",
+    "hat": "cappello",
+    "boots": "stivali",
+    "dress": "vestito",
+    "coat": "cappotto",
+    "cap": "cappellino",
+    "t-shirt": "maglietta",
+    "scarf": "sciarpa",
+    "jeans": "jeans",
+    "pajamas": "pigiama",
+    "sweater": "maglione",
+    "skirt": "gonna",
+    "shorts": "pantaloncini",
+    "cereal": "cereali",
+    "pancake": "pancake",
+    "croissant": "cornetto",
+    "bagel": "bagel",
+    "sausage": "salsiccia",
+    "juice": "succo",
+    "circle": "cerchio",
+    "square": "quadrato",
+    "triangle": "triangolo",
+    "star": "stella",
+    "heart": "cuore",
+    "diamond": "rombo",
+    "oval": "ovale",
+    "moon": "luna",
+    "hexagon": "esagono",
+    "rectangle": "rettangolo",
+    "pentagon": "pentagono",
+    "cow": "mucca",
+    "goat": "capra",
+    "donkey": "asino",
+    "turkey": "tacchino",
+    "goose": "oca",
+    "llama": "lama"
    },
    "strings": {
     "K-323": {
@@ -19469,7 +19466,8 @@
      "title": "Il mio nome: scrivi, conta e confronta",
      "instruction": "Scrivi il tuo nome con una lettera in ogni casella e conta le lettere. Fai lo stesso con il nome di un amico e cerchia chi ne ha di più."
     }
-   }
+   },
+   "excludeOptions": []
   },
   "picture-word-cards": {
    "cardCase": "lower",
@@ -19570,8 +19568,8 @@
      "instruction": "Ritaglia le carte. Di' la parola per uno e la parola per tanti, poi unisci ogni coppia."
     },
     "bilingual": {
-     "title": "Carte bilingui: italiano e inglese",
-     "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+     "title": "Carte bilingui: italiano e {U}",
+     "instruction": "Ritaglia le otto carte. Di' la parola in italiano e poi in {U}, e conserva le carte per il tuo muro delle parole."
     },
     "syllable": {
      "title": "Carte delle sillabe: leggi la parola a pezzi",
@@ -24902,7 +24900,8 @@
      "alt": {
       "a": [],
       "b": [
-       "acido"
+       "acido",
+       "amaro"
       ]
      },
      "exclusiveWith": [],
@@ -27584,22 +27583,22 @@
     "no": "falso",
     "frames": [
      {
-      "text": "Il numero di {pl} nella fila è {n}.",
+      "text": "Nella fila ci sono {n} {pl}.",
       "cue": "count",
       "rel": "eq"
      },
      {
-      "text": "In tutto il numero di {pl} è {n}.",
+      "text": "Nella fila ci sono esattamente {n} {pl}.",
       "cue": "count",
       "rel": "eq"
      },
      {
-      "text": "Il numero di {pl} è maggiore di {n}.",
+      "text": "Nella fila ci sono più di {n} {pl}.",
       "cue": "count",
       "rel": "gt"
      },
      {
-      "text": "Il numero di {pl} è minore di {n}.",
+      "text": "Nella fila ci sono meno di {n} {pl}.",
       "cue": "count",
       "rel": "lt"
      },
@@ -27693,7 +27692,21 @@
      "title": "Leggi e disegna",
      "instruction": "Leggi ogni frase con attenzione. Poi disegna nel riquadro proprio quello che dice."
     }
-   }
+   },
+   "draw2": [
+    {
+     "text": "Disegna {n} {pl} e {n2} {pl2}."
+    },
+    {
+     "text": "Disegna {n} {pl} e {n2} {pl2} nel riquadro."
+    },
+    {
+     "text": "Disegna {n} {pl} in grande e {n2} {pl2} in piccolo."
+    },
+    {
+     "text": "Disegna {n} {pl}. Poi disegna {n2} {pl2}."
+    }
+   ]
   },
   "rhyming-words": {
    "rule": "stressedVowelCoda",
@@ -27993,17 +28006,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "trombone",
-       "word": "trombone",
-       "pic": {
-        "theme": "music",
-        "noun": "trombone"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "sweater",
        "word": "maglione",
        "pic": {
@@ -28020,6 +28022,17 @@
        "pic": {
         "theme": "birds 2",
         "noun": "pigeon"
+       },
+       "sameSpelling": true,
+       "productive": true,
+       "picOpened": true
+      },
+      {
+       "vocabKey": "ball",
+       "word": "pallone",
+       "pic": {
+        "theme": "toys",
+        "noun": "ball"
        },
        "sameSpelling": true,
        "productive": true,
@@ -28102,17 +28115,6 @@
        "sameSpelling": true,
        "productive": true,
        "picOpened": true
-      },
-      {
-       "vocabKey": "folder",
-       "word": "cartella",
-       "pic": {
-        "theme": "classroom",
-        "noun": "folder"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
       }
      ],
      "extra": [
@@ -28150,17 +28152,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "beanie",
-       "word": "berretto",
-       "pic": {
-        "theme": "clothing",
-        "noun": "beanie"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "croissant",
        "word": "cornetto",
        "pic": {
@@ -28172,44 +28163,11 @@
        "picOpened": true
       },
       {
-       "vocabKey": "bag",
-       "word": "sacchetto",
-       "pic": {
-        "theme": "At the Supermarket",
-        "noun": "bag"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "lock",
        "word": "lucchetto",
        "pic": {
         "theme": "around the house",
         "noun": "lock"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "ferret",
-       "word": "furetto",
-       "pic": {
-        "theme": "pets",
-        "noun": "ferret"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "tissue",
-       "word": "fazzoletto",
-       "pic": {
-        "theme": "hospital",
-        "noun": "tissue"
        },
        "sameSpelling": true,
        "productive": true,
@@ -28288,6 +28246,17 @@
        "pic": {
         "theme": "summer",
         "noun": "pool"
+       },
+       "sameSpelling": true,
+       "productive": true,
+       "picOpened": true
+      },
+      {
+       "vocabKey": "folder",
+       "word": "cartellina",
+       "pic": {
+        "theme": "classroom",
+        "noun": "folder"
        },
        "sameSpelling": true,
        "productive": true,
@@ -28481,7 +28450,7 @@
        "vocabKey": "tart",
        "word": "crostata",
        "pic": {
-        "theme": "bakery",
+        "theme": "desserts and sweets",
         "noun": "tart"
        },
        "sameSpelling": true,
@@ -28492,52 +28461,6 @@
      "extra": [
       "insalata",
       "giornata"
-     ],
-     "nearMiss": []
-    },
-    {
-     "id": "alla",
-     "rime": "-alla",
-     "sound": "alla",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "ball",
-       "word": "palla",
-       "pic": {
-        "theme": "toys",
-        "noun": "ball"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "butterfly",
-       "word": "farfalla",
-       "pic": {
-        "theme": "Things That Fly",
-        "noun": "butterfly"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "shoulder",
-       "word": "spalla",
-       "pic": {
-        "theme": "body parts",
-        "noun": "shoulder"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "stalla",
-      "galla"
      ],
      "nearMiss": []
     },
@@ -28838,40 +28761,6 @@
      "nearMiss": []
     },
     {
-     "id": "enna",
-     "rime": "-enna",
-     "sound": "enna",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "pen",
-       "word": "penna",
-       "pic": {
-        "theme": "classroom",
-        "noun": "pen"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "reindeer",
-       "word": "renna",
-       "pic": {
-        "theme": "christmas",
-        "noun": "reindeer"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "antenna"
-     ],
-     "nearMiss": []
-    },
-    {
      "id": "aso",
      "rime": "-aso",
      "sound": "aso",
@@ -29038,17 +28927,6 @@
        "sameSpelling": true,
        "productive": true,
        "picOpened": true
-      },
-      {
-       "vocabKey": "ankle",
-       "word": "caviglia",
-       "pic": {
-        "theme": "body parts",
-        "noun": "ankle"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
       }
      ],
      "extra": [
@@ -29137,17 +29015,6 @@
        "pic": {
         "theme": "spring",
         "noun": "flower"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "actor",
-       "word": "attore",
-       "pic": {
-        "theme": "occupations",
-        "noun": "actor"
        },
        "sameSpelling": true,
        "productive": true,
@@ -29287,40 +29154,6 @@
       "scogliera"
      ],
      "nearMiss": []
-    },
-    {
-     "id": "omba",
-     "rime": "-omba",
-     "sound": "omba",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "dove",
-       "word": "colomba",
-       "pic": {
-        "theme": "birds 2",
-        "noun": "dove"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "trumpet",
-       "word": "tromba",
-       "pic": {
-        "theme": "music",
-        "noun": "trumpet"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "bomba"
-     ],
-     "nearMiss": []
     }
    ],
    "couplets": [
@@ -29418,18 +29251,6 @@
       "vocabKey": "door"
      },
      "rhymeWith": "torta",
-     "cueFree": false
-    },
-    {
-     "id": "penna-renna",
-     "lines": [
-      "Scrivo il nome con la penna",
-      "e disegno una bella ___"
-     ],
-     "answer": {
-      "vocabKey": "reindeer"
-     },
-     "rhymeWith": "penna",
      "cueFree": false
     },
     {
@@ -29641,7 +29462,7 @@
     },
     "G1-345": {
      "title": "Catene di rime: due parole per ogni disegno",
-     "instruction": "Di' il nome di ogni disegno. Cerca nella scatola le due parole che fanno rima con il disegno e scrivile sulle righe. Alcune parole non vanno bene."
+     "instruction": "Di’ il nome di ogni disegno. Cerca nel riquadro le due parole in rima con quel nome e scrivile sulle righe. Alcune parole non servono."
     },
     "G1-346": {
      "title": "Inventa le tue rime",
@@ -36482,7 +36303,7 @@
     },
     "F2": {
      "title": "Collega il pronome alla forma del verbo",
-     "instruction": "Leggi il verbo di ogni tabella. Collega con una linea ogni pronome alla forma giusta del verbo."
+     "instruction": "Leggi il verbo di ogni tabella. Collega con una linea ogni pronome alla forma giusta del verbo. Poi completa le due frasi."
     },
     "F3": {
      "title": "Completa le frasi con il verbo al presente",
@@ -37089,7 +36910,7 @@
      "instruction": "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
     },
     "G2-340": {
-     "title": "Carta d'identità con le parole da usare: {U}",
+     "title": "Carta d'identità con le parole date: {U}",
      "instruction": "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
     },
     "G2-341": {
@@ -37155,11 +36976,11 @@
     ],
     "cross": [
      "Chi ha {pic} ha anche {pic2}.",
-     "Il bambino che ha {pic} ha anche {pic2}."
+     "Se qualcuno ha {pic}, ha anche {pic2}."
     ],
     "crossNot": [
      "Chi ha {pic} non ha {pic2}.",
-     "Il bambino che ha {pic} non ha {pic2}."
+     "Se qualcuno ha {pic}, non ha {pic2}."
     ]
    },
    "truth": {
@@ -37181,7 +37002,7 @@
    },
    "strings": {
     "G2-319": {
-     "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+     "title": "Giochi di logica con la griglia: tre indizi",
      "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
     },
     "F1": {
@@ -37197,7 +37018,7 @@
      "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
     },
     "F4": {
-     "title": "Giochi di logica a due attributi: due disegni a testa",
+     "title": "Giochi di logica a due attributi",
      "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
     },
     "F5": {

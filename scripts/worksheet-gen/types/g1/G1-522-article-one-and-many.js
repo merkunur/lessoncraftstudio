@@ -64,11 +64,12 @@ module.exports = {
     for (const a of rng.shuffle(arts)) while (items.length < d.n && byArt[a].length) items.push(byArt[a].shift());
     if (items.length < d.n) throw new Error(`G1-522: theme ${theme}/${L} gives ${items.length} nouns with sure articles (< ${d.n})`);
     let rows = rng.shuffle(items);
-    // a teacher's pictures (maker): row i's noun swapped for a pool noun with the SAME article (the page's mix stays)
+    // a teacher's pictures (maker): row i's noun swapped for a pool noun with the SAME article (the page's mix stays) — one
+    // role per article (pic0, pic1 …, slot.byKind; 2026-11-04: one role over the whole pool refused half its choices)
+    let picTap = (i) => slot.attr(ctx, 'pic', i);
     {
-      const chosen = slot.pictures(ctx, rows, pool, theme);
-      if (chosen.every((x, i) => x === rows[i] || x.f.art === rows[i].f.art)) rows = chosen;
-      else { slot.pictures(ctx && { ...ctx, overrides: null }, rows, pool, theme); slot.refuse(ctx, 'pic'); }
+      const KS = slot.byKind(ctx, rows, (x) => x.f.art, (k) => pool.filter((x) => x.f.art === k), { theme, prefix: 'pic' });
+      rows = KS.items; picTap = KS.tap;
     }
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const no = L === 'no';
@@ -89,7 +90,7 @@ module.exports = {
     const lab = (LABELS[L] && LABELS[L].singularPlural) || { one: 'one', many: 'many' };
     // each row: the picture, then two lines — for one, for many — each led by its label (Einzahl / Mehrzahl …)
     const pill = (side, text) => `<span class="ws-pill" data-lcs-head="${side}" style="flex:0 0 150px;box-sizing:border-box;text-align:center;font-size:17px;padding:2px 8px">${esc(text)}</span>`;
-    const body = rows.map((x, i) => `<div data-lcs-noun-row="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-vocab="${esc(x.e.vocabKey)}" style="display:flex;align-items:center;gap:16px;padding:7px 14px;border-radius:16px;background:${T.cream}">` +
+    const body = rows.map((x, i) => `<div data-lcs-noun-row="${i + 1}"${picTap(i)} data-lcs-vocab="${esc(x.e.vocabKey)}" style="display:flex;align-items:center;gap:16px;padding:7px 14px;border-radius:16px;background:${T.cream}">` +
       `<img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:76px;height:76px;object-fit:contain;flex:0 0 auto">` +
       `<div style="display:flex;flex-direction:column;gap:6px;min-width:0;flex:1">` +
       `<span data-lcs-side="one" style="display:flex;align-items:center;gap:8px;min-height:44px">${pill('one', '1 · ' + lab.one)}${one(x)}</span>` +

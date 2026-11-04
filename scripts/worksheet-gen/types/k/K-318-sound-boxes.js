@@ -49,6 +49,7 @@ const { entriesFor, displayWord, distinctByWord, sampleEntries, fileUri } = requ
 const { bank } = require('../../lib/b3-common.js');
 const { eligible } = require('../../lib/sound-boxes.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
+const { makeRng } = require('../../lib/rng.js');
 const SBS = require('../../lib/sound-boxes-screen.js');
 const RAC = require('../../lib/read-and-color.js');
 // Blend: picture choices a child cannot tell apart on one row (on top of read-and-color's CONFUSABLES)
@@ -97,9 +98,9 @@ function faceOf(d) {
 const slot = require('../../lib/slot.js');
 /** a teacher's pictures (maker): one role per kind (s0, s1 …) — a word of the page's own pool with the SAME number of sounds
  *  and the same wide-box need, so the page's count mix and its wide-card quota stay. Returns { items, tapOf(e) }. */
-function slotCards(ctx, picks, pool, theme) {
+function slotCards(ctx, picks, pool, theme, derives) {
   const kind = (e) => e.chunks.length + '|' + (e.wideCount > 0);
-  const KS = slot.byKind(ctx, picks, kind, (k) => pool.filter((e) => kind(e) === k), { theme, prefix: 's' });
+  const KS = slot.byKind(ctx, picks, kind, (k) => pool.filter((e) => kind(e) === k), { theme, prefix: 's', ...(derives ? { derives } : {}) });
   return { items: KS.items, tapOf: (e) => KS.tap(KS.items.indexOf(e)) };
 }
 
@@ -220,7 +221,9 @@ module.exports = {
     }
     // Count the Sounds on a NEW page: the counts dealt evenly (2026-10-06: a page of mostly 3- or 4-sound words let
     // "always 3" score twice chance); every other face draws as before
-    const SC = slotCards(ctx, fresh && face === 'count' ? require('../../lib/answer-slots.js').balancedPick(rng, pool, d.cards, (e) => e.chunks.length) : pickCards(rng, pool, d), pool, theme), picks = SC.items;
+    const drawn = fresh && face === 'count' ? require('../../lib/answer-slots.js').balancedPick(rng, pool, d.cards, (e) => e.chunks.length) : pickCards(rng, pool, d);
+    const derives = fresh && face === 'blend' ? ['distractors'] : null;
+    let SC = slotCards(ctx, drawn, pool, theme, derives), picks = SC.items;
     const img = (noun, key, px) => `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" data-lcs-pic="${key}" style="width:${px}px;height:${px}px">`;
     const stampsOf = (e) => `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="${face}"${SC.tapOf(e)}`;
     const kStage = (e, extra, body) => `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;gap:8px;padding:4px 0" ${stampsOf(e)}${extra || ''}>` +
@@ -269,20 +272,71 @@ module.exports = {
       const need = d.cards * (d.choices - 1);
       // new pages: each row's pictures are pairwise NOT look-alikes (two right answers otherwise — the Müsli row: muesli
       // beside porridge); the published pages keep their own draw
-      const chosen = !fresh ? sampleEntries(rng, foils, need, `K-318/blend distractors (${theme}/${loc})`) : (() => {
-        const pool = rng.shuffle(foils.slice()), used = new Set(), out = [];
-        for (const e of picks) {
-          const row = [e];
-          for (let k = 0; k < d.choices - 1; k++) {
-            const f = pool.find((x) => !used.has(x.vocabKey) && row.every((r) => !lookAlike(r.vocabKey, x.vocabKey)));
-            if (!f) throw new Error(`K-318/blend: no distinct distractor for ${e.vocabKey} (${theme}/${loc})`);
-            used.add(f.vocabKey); row.push(f); out.push(f);
+      // (2026-11-04, own-input) a teacher's picture swap leaves the other rows' distractors alone: the candidates are a set
+      // no swap changes, dealt into a fixed share per row (row i draws from its own share, in a fixed order, and borrows
+      // from the shares' leftovers only when its own runs out), so only the swapped row redraws, and only a distractor that
+      // now looks like its new word. The shares are dealt from the theme's pictures outside the page's word pool when there
+      // are enough, else from those outside the pool words of the page's KINDS (a swap keeps the kind, so it never brings one
+      // in or out); the rest of the theme (on a small theme, words a swap can bring or take) is only a reserve, borrowed
+      // when the dealt pictures run out, the page's targets skipped
+      // A swap that would still move another row (a theme so small its distractors need the swappable words: pt fruits) is
+      // refused and the page drawn as it was.
+      const deal = (picks) => {
+        const targetKeys = new Set(picks.map((e) => e.vocabKey)), targetWords = new Set(picks.map((e) => e.word.toLocaleLowerCase(loc)));
+        const lc = (w) => w.toLocaleLowerCase(loc);
+        const all = distinctByWord(entriesFor(theme, loc).map((x) => ({ ...x, word: displayWord(x.singular, loc) })).filter((x) => !refusedPicture(theme, x.noun)), (x) => lc(x.word));
+        const outside = (es) => { const ks = new Set(es.flatMap((e) => [e.vocabKey, lc(e.word)])); return all.filter((x) => !ks.has(x.vocabKey) && !ks.has(lc(x.word))); };
+        const kindOf = (e) => e.chunks.length + '|' + (e.wideCount > 0), pageKinds = new Set(picks.map(kindOf));
+        const off = outside(pool), offKind = outside(pool.filter((e) => pageKinds.has(kindOf(e))));
+        const from = off.length >= need + 2 ? off : offKind;
+        const ok = (x, row, used) => !targetKeys.has(x.vocabKey) && !targetWords.has(lc(x.word)) && !used.has(x.vocabKey) && row.every((r) => !lookAlike(r.vocabKey, x.vocabKey));
+        const order = makeRng(String(rng.seed) + '|deal').shuffle(from.slice().sort((a, b) => (a.vocabKey < b.vocabKey ? -1 : a.vocabKey > b.vocabKey ? 1 : 0)));
+        const share = picks.map(() => []); order.forEach((x, j) => share[j % picks.length].push(x));
+        const inFrom = new Set(from.map((x) => x.vocabKey));
+        const reserve = makeRng(String(rng.seed) + '|reserve').shuffle(all.filter((x) => !inFrom.has(x.vocabKey)).sort((a, b) => (a.vocabKey < b.vocabKey ? -1 : a.vocabKey > b.vocabKey ? 1 : 0)));
+        const used = new Set(), rows = picks.map((e) => [e]);
+        for (const [i, row] of rows.entries()) for (const x of share[i]) { if (row.length >= d.choices) break; if (ok(x, row, used)) { used.add(x.vocabKey); row.push(x); } }
+        const every = [...order, ...reserve];
+        for (const row of rows) for (const x of every) { if (row.length >= d.choices) break; if (ok(x, row, used)) { used.add(x.vocabKey); row.push(x); } }
+        // a short row (a theme of look-alikes: pt fruits) takes a picture another row holds, that row taking an unused one
+        for (const row of rows) {
+          while (row.length < d.choices) {
+            let moved = false;
+            for (const other of rows) {
+              if (other === row || moved) continue;
+              for (let j = 1; j < other.length && !moved; j++) {
+                const x = other[j];
+                if (!row.every((r) => !lookAlike(r.vocabKey, x.vocabKey))) continue;
+                const rest = other.filter((_, k) => k !== j), y = every.find((c) => ok(c, rest, used));
+                if (y) { other[j] = y; used.add(y.vocabKey); row.push(x); moved = true; }
+              }
+            }
+            if (!moved) break;
           }
         }
-        return out;
-      })();
+        const short = rows.find((row) => row.length < d.choices);
+        if (short) throw new Error(`K-318/blend: no distinct distractor for ${short[0].vocabKey} (${theme}/${loc})`);
+        return rows.map((row) => row.slice(1));
+      };
+      let chosen;
+      if (!fresh) chosen = sampleEntries(rng, foils, need, `K-318/blend distractors (${theme}/${loc})`);
+      else {
+        let rowsOf = null;
+        if (picks.some((e, i) => e !== drawn[i])) {
+          const was = (() => { try { return deal(drawn); } catch (e) { return null; } })();
+          try { rowsOf = deal(picks); } catch (e) { rowsOf = null; }
+          const keys = (r) => r.map((x) => x.vocabKey).join('|');
+          if (!rowsOf || (was && picks.some((e, i) => e === drawn[i] && keys(rowsOf[i]) !== keys(was[i])))) {
+            const roles = Object.keys((ctx && ctx.overrides) || {}).filter((r) => /^s\d+$/.test(r));
+            SC = slotCards({ ...ctx, overrides: null }, drawn, pool, theme, derives); picks = SC.items;
+            for (const r of roles) slot.refuse(ctx, r);
+            rowsOf = null;
+          }
+        }
+        chosen = (rowsOf || deal(picks)).flat();
+      }
       // the target's slot: every position twice over six rows, shuffled (never a constant column)
-      const slots = rng.shuffle(picks.map((_, i) => i % d.choices));
+      const slots = (fresh ? makeRng(String(rng.seed) + '|slots') : rng).shuffle(picks.map((_, i) => i % d.choices));
       cards = picks.map((e, i) => {
         const cap = cfg.capitalBox1 ? [displayWord(e.word, loc).slice(0, [...e.chunks[0]].length), ...e.chunks.slice(1)] : e.chunks;
         const row = soundBoxes({ chunks: cap, box: e.box, gap: d.gap, printed: true });

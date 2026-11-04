@@ -30,8 +30,9 @@
 const platform = require('./platform/index.js');
 const slugify = (v) => platform.slugify(v);
 
-const TOKEN_RE = /\{(U|L|N|UNIT|P|PU)\}/g;   // N: the bare noun without its article (how-to-draw, b7 2026-10-09);   // P / PU: the pair letter (Letter of the Week pair page, Level Set 2026-09-28)
-const TOKEN_TEST = /\{(U|L|N|UNIT|P|PU)\}/;   // non-global: .test() on a /g regex carries lastIndex between calls
+const TOKEN_RE = /\{(U|L|N|UNIT|P|PU|AND|INU)\}/g;   // AND / INU: the host language's "and" before {U} and "in {U}" as one word (K-350 bilingual cards, 2026-11-04: es e/y, fi englanniksi)
+//   // N: the bare noun without its article (how-to-draw, b7 2026-10-09);   // P / PU: the pair letter (Letter of the Week pair page, Level Set 2026-09-28)
+const TOKEN_TEST = /\{(U|L|N|UNIT|P|PU|AND|INU)\}/;   // non-global: .test() on a /g regex carries lastIndex between calls
 
 function hasAxis(spec) { return !!(spec && spec.unitAxis && spec.unitAxis.applicable); }
 

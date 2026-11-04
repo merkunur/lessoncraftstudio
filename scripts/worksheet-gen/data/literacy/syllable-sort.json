@@ -3119,6 +3119,13 @@
     "bin": "3"
    },
    {
+    "theme": "bakery",
+    "noun": "bun",
+    "key": "bun",
+    "word": "bolillo",
+    "bin": "3"
+   },
+   {
     "theme": "kitchen tools",
     "noun": "bottle",
     "key": "bottle",
@@ -3193,13 +3200,6 @@
     "noun": "tie",
     "key": "tie",
     "word": "corbata",
-    "bin": "3"
-   },
-   {
-    "theme": "around the house",
-    "noun": "spoon",
-    "key": "spoon",
-    "word": "cuchara",
     "bin": "3"
    },
    {

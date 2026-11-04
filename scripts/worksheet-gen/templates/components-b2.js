@@ -258,13 +258,15 @@ function pillChoice({ items, fontPx = 20 }) {
 
 /* ---------- colour-grouped code list (G2-279) ---------- */
 // answer marks (2026-11-03): g.answers — the codes the empty chips of a group hold, any order inside the group (data-lcs-set)
-function codeList({ groups, wordPx = 15 }) {
+// write: the chips are boxes the child WRITES a code in (a new inverse page): 34 px tall, 52 wide — a tap target and a
+// writing box (2026-11-04, screen-geometry: 24-px chips 6 px apart left no room for a 34-px target)
+function codeList({ groups, wordPx = 15, write = false }) {
   const rows = groups.map((g) =>
     `<div class="ws-codegroup" data-lcs-group="${esc(g.key)}">` +
     `<span style="display:inline-flex;align-items:center;gap:8px;margin-bottom:4px">` +
     svgRoot({ width: 22, height: 22, label: g.key }, el('rect', { x: 1, y: 1, width: 20, height: 20, rx: 5, fill: SWATCH[g.key], stroke: T.ink, 'stroke-width': 1 }), {}) +
     `<span style="font-family:${F.body};font-weight:800;font-size:${wordPx}px;color:${T.ink}" data-lcs-color-word="${esc(g.key)}">${esc(g.word)}</span></span>` +
-    `<div class="ws-codechips">${g.codes.map((c, i) => `<span class="ws-codechip" data-lcs-code="${esc(c)}"${g.answers ? ` data-lcs-answer="${esc(g.answers[i])}" data-lcs-set="${esc(g.key)}"` : ''}>${esc(c)}</span>`).join('')}</div></div>`);
+    `<div class="ws-codechips">${g.codes.map((c, i) => `<span class="ws-codechip"${write ? ' style="height:34px;min-width:52px;font-size:17px"' : ''} data-lcs-code="${esc(c)}"${g.answers ? ` data-lcs-answer="${esc(g.answers[i])}" data-lcs-set="${esc(g.key)}"` : ''}>${esc(c)}</span>`).join('')}</div></div>`);
   return `<div class="ws-codelist">${rows.join('')}</div>`;
 }
 

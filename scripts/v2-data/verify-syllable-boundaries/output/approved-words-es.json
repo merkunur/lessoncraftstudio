@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-11-04T03:14:10.344Z",
+  "generated_at": "2026-11-04T12:44:12.659Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 943,
-  "count_quarantined": 322,
+  "count_approved": 945,
+  "count_quarantined": 320,
   "entries": [
     {
       "key": "acorn",
@@ -2905,6 +2905,28 @@
       "rule_authoritative": true
     },
     {
+      "key": "bun",
+      "word": "bolillo",
+      "split": [
+        "bo",
+        "li",
+        "llo"
+      ],
+      "count": 3,
+      "chunks": [
+        "bo",
+        "li",
+        "llo"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "bunny",
       "word": "conejito",
       "split": [
@@ -2941,6 +2963,26 @@
         "bu",
         "rri",
         "to"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "bus",
+      "word": "camión",
+      "split": [
+        "ca",
+        "mión"
+      ],
+      "count": 2,
+      "chunks": [
+        "ca",
+        "mión"
       ],
       "sources_agreed": [
         "TeX",

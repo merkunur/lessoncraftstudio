@@ -27,7 +27,19 @@
       "da": "tanska",
       "no": "norja"
     },
-    "legendSep": " · "
+    "legendSep": " · ",
+    "partnerIn": {
+      "en": "englanniksi",
+      "de": "saksaksi",
+      "es": "espanjaksi",
+      "pt": "portugaliksi",
+      "fr": "ranskaksi",
+      "it": "italiaksi",
+      "nl": "hollanniksi",
+      "sv": "ruotsiksi",
+      "da": "tanskaksi",
+      "no": "norjaksi"
+    }
   },
   "syllable": {
     "enabled": true,
@@ -388,8 +400,8 @@
       "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
     },
     "bilingual": {
-      "title": "Kaksikieliset kuvakortit: suomi ja englanti",
-      "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+      "title": "Kaksikieliset kuvakortit: suomi ja {U}",
+      "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
     },
     "syllable": {
       "title": "Tavukortit: lue sana tavu kerrallaan",

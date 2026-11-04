@@ -919,14 +919,14 @@
     },
     "F2": {
       "title": "Yhdistä persoona ja verbimuoto",
-      "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille: yksi viiva jokaista pronominia kohti."
+      "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille. Täydennä sitten kaksi lausetta."
     },
     "F3": {
       "title": "Verbimuodot lauseissa kuvien avulla",
       "instruction": "Katso kuvaa ja lue verbi laatikosta. Kirjoita lauseeseen sopiva persoonamuoto katkoviivaruutuun."
     },
     "F4": {
-      "title": "Olla, tulla, mennä: taivuta verbit",
+      "title": "Taivuta verbit olla, tulla, mennä, tehdä ja nähdä: kaksi sivulla",
       "instruction": "Nämä verbit taipuvat eri tavalla kuin muut. Kirjoita jokaiselle persoonalle oikea muoto katkoviivaruutuun."
     },
     "F5": {

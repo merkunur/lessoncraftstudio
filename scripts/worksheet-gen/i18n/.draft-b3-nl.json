@@ -215,7 +215,7 @@
   },
   "G1-329": {
    "title": "Elke lettergreep heeft een klinker",
-   "instruction": "Elke lettergreep heeft één klinker. Kijk naar het voorbeeld en zet dan een stip op de klinker in elk boogje."
+   "instruction": "Elke lettergreep heeft één klinkerklank. Kijk naar het voorbeeld en zet dan een stip op de klinker of tweetekenklank in elk boogje."
   },
   "G1-306": {
    "title": "Mkm-woorden lezen en schrijven",
@@ -279,7 +279,7 @@
   },
   "G1-340": {
    "title": "Lees en doe: eerste, tweede, tussen",
-   "instruction": "Begin bij de vlag en tel langs de rij. Zoek het plaatje op zijn plaats en doe dan met je potlood wat de zin zegt."
+   "instruction": "Begin bij de vlag en tel langs de rij. Tel tot het goede plaatje en doe dan met je potlood wat de zin zegt."
   },
   "G1-341": {
    "title": "Lees en controleer: waar of niet waar?",
@@ -299,7 +299,7 @@
   },
   "G1-343": {
    "title": "Sorteer de rijmwoorden",
-   "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+   "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
   },
   "G1-344": {
    "title": "Maak het rijmpje af",
@@ -307,7 +307,7 @@
   },
   "G1-345": {
    "title": "Rijmrijen: twee rijmwoorden per plaatje",
-   "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+   "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
   },
   "G1-346": {
    "title": "Verzin je eigen rijmwoorden",
@@ -323,7 +323,7 @@
   },
   "G2-321": {
    "title": "Sprongen op het honderdveld: volg de pijlen",
-   "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar rechts is 1 meer. Schrijf waar je uitkomt."
+   "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar links is 1 minder, naar rechts is 1 meer. Schrijf waar je uitkomt."
   },
   "G2-322": {
    "title": "Geheim getal: twee pijlen, één hokje",
@@ -359,11 +359,11 @@
   },
   "G2-316": {
    "title": "Samenstellingen: plaatje + plaatje",
-   "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+   "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
   },
   "G2-330": {
    "title": "Verdeel de samenstelling: zoek de twee woorden",
-   "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+   "instruction": "Het hele woord staat letter voor letter naast zijn plaatje. Zet één streep waar het tweede woord begint."
   },
   "G2-331": {
    "title": "Verbind de helften: twee plaatjes, één woord",
@@ -383,7 +383,7 @@
   },
   "G2-334": {
    "title": "Welke vorm hoort bij ik, jij en wij?",
-   "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+   "instruction": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort."
   },
   "G2-335": {
    "title": "Werkwoordsvormen in zinnen met plaatjes",
@@ -2179,7 +2179,7 @@
        ]
       },
       {
-       "theme": "tools",
+       "theme": "body parts",
        "noun": "nail",
        "key": "nail",
        "word": "nagel",
@@ -5136,7 +5136,6 @@
     "blocks",
     "bucket",
     "carpenter",
-    "cashier",
     "crutches",
     "cucumber",
     "cushion",
@@ -5154,15 +5153,12 @@
     "ladder",
     "leggings",
     "lunchbox",
-    "medal",
-    "muffin",
     "mushroom",
     "necklace",
     "orange",
     "otter",
     "package",
     "pancake",
-    "parallelogram",
     "peeler",
     "pinecone",
     "plunger",
@@ -5562,17 +5558,6 @@
      [
       "g",
       "e"
-     ]
-    ],
-    "aster": [
-     [
-      "a",
-      "s"
-     ],
-     [
-      "t",
-      "e",
-      "r"
      ]
     ],
     "astronaut": [
@@ -6097,19 +6082,6 @@
       "z",
       "e",
       "m"
-     ]
-    ],
-    "brush": [
-     [
-      "b",
-      "o",
-      "r"
-     ],
-     [
-      "s",
-      "t",
-      "e",
-      "l"
      ]
     ],
     "bucket": [
@@ -6755,24 +6727,20 @@
     ],
     "crayons": [
      [
-      "k",
-      "l",
-      "eu",
-      "r"
+      "w",
+      "a",
+      "s"
      ],
      [
-      "p",
-      "o",
+      "k",
+      "r",
+      "ij",
       "t"
      ],
      [
-      "l",
-      "o"
-     ],
-     [
-      "d",
+      "j",
       "e",
-      "n"
+      "s"
      ]
     ],
     "crib": [
@@ -6952,11 +6920,7 @@
      [
       "s",
       "t",
-      "e"
-     ],
-     [
-      "n",
-      "e",
+      "ee",
       "n"
      ]
     ],
@@ -8502,7 +8466,7 @@
      ],
      [
       "m",
-      "u",
+      "uu",
       "r"
      ]
     ],
@@ -8795,21 +8759,6 @@
       "r"
      ]
     ],
-    "medal": [
-     [
-      "m",
-      "e"
-     ],
-     [
-      "d",
-      "a",
-      "i"
-     ],
-     [
-      "ll",
-      "e"
-     ]
-    ],
     "meerkat": [
      [
       "s",
@@ -8983,17 +8932,6 @@
       "d"
      ]
     ],
-    "muffin": [
-     [
-      "m",
-      "u"
-     ],
-     [
-      "ff",
-      "i",
-      "n"
-     ]
-    ],
     "mug": [
      [
       "m",
@@ -9162,19 +9100,6 @@
       "k",
       "e",
       "r"
-     ]
-    ],
-    "oar": [
-     [
-      "r",
-      "oe",
-      "i"
-     ],
-     [
-      "s",
-      "p",
-      "aa",
-      "n"
      ]
     ],
     "oatmeal": [
@@ -9386,30 +9311,6 @@
       "p",
       "ie",
       "r"
-     ]
-    ],
-    "parallelogram": [
-     [
-      "p",
-      "a"
-     ],
-     [
-      "r",
-      "a"
-     ],
-     [
-      "ll",
-      "e"
-     ],
-     [
-      "ll",
-      "o"
-     ],
-     [
-      "g",
-      "r",
-      "a",
-      "m"
      ]
     ],
     "parsnip": [
@@ -11201,19 +11102,6 @@
       "k"
      ]
     ],
-    "trillium": [
-     [
-      "d",
-      "r",
-      "ie"
-     ],
-     [
-      "b",
-      "l",
-      "a",
-      "d"
-     ]
-    ],
     "trombone": [
      [
       "t",
@@ -11466,21 +11354,6 @@
       "p"
      ]
     ],
-    "watch": [
-     [
-      "h",
-      "o",
-      "r"
-     ],
-     [
-      "l",
-      "o"
-     ],
-     [
-      "g",
-      "e"
-     ]
-    ],
     "water": [
      [
       "w",
@@ -11620,14 +11493,6 @@
       "s"
      ]
     ],
-    "yacht": [
-     [
-      "j",
-      "a",
-      "ch",
-      "t"
-     ]
-    ],
     "zebra": [
      [
       "z",
@@ -11649,7 +11514,6 @@
     "armadillo",
     "artist",
     "asparagus",
-    "aster",
     "astronaut",
     "athlete",
     "author",
@@ -11673,7 +11537,6 @@
     "boots",
     "bracelet",
     "broom",
-    "brush",
     "bun",
     "butter",
     "buttercup",
@@ -11808,7 +11671,6 @@
     "nightstand",
     "nurse",
     "nutcracker",
-    "oar",
     "oatmeal",
     "orchid",
     "ornament",
@@ -11904,7 +11766,6 @@
     "tortoise",
     "toucan",
     "triangle",
-    "trillium",
     "trombone",
     "truck",
     "trumpet",
@@ -11918,7 +11779,6 @@
     "walrus",
     "wand",
     "wardrobe",
-    "watch",
     "water",
     "watermelon",
     "weasel",
@@ -16204,7 +16064,21 @@
      "animal": "Mijn lievelingsdier",
      "food": "Mijn lievelingseten",
      "color": "Mijn lievelingskleur",
-     "toy": "Mijn lievelingsspeelgoed"
+     "toy": "Mijn lievelingsspeelgoed",
+     "fruit": "Mijn lievelingsfruit",
+     "vegetable": "Mijn lievelingsgroente",
+     "pet": "Mijn lievelingshuisdier",
+     "instrument": "Mijn lievelingsinstrument",
+     "hobby": "Mijn lievelingshobby",
+     "treat": "Mijn lievelingslekkers",
+     "bird": "Mijn lievelingsvogel",
+     "bug": "Mijn lievelingsbeestje",
+     "sea": "Mijn lievelingszeedier",
+     "vehicle": "Mijn lievelingsvoertuig",
+     "clothes": "Mijn lievelingskleren",
+     "breakfast": "Mijn lievelingsontbijt",
+     "shape": "Mijn lievelingsvorm",
+     "farm": "Mijn lievelingsdier op de boerderij"
     },
     "countHeads": {
      "people": "Mensen in mijn gezin:",
@@ -16246,7 +16120,36 @@
     "skate": "Ik kan schaatsen",
     "ski": "Ik kan skiën",
     "writename": "Ik kan mijn naam schrijven",
-    "brushteeth": "Ik kan mijn tanden poetsen"
+    "brushteeth": "Ik kan mijn tanden poetsen",
+    "bounce": "Ik kan een bal laten stuiteren",
+    "slide": "Ik kan van de glijbaan glijden",
+    "hike": "Ik kan een heel eind lopen",
+    "comb": "Ik kan mijn haar kammen",
+    "washhands": "Ik kan mijn handen wassen",
+    "dress": "Ik kan me zelf aankleden",
+    "coat": "Ik kan mijn jas dichtknopen",
+    "boots": "Ik kan mijn laarzen aantrekken",
+    "bed": "Ik kan mijn bed opmaken",
+    "tidy": "Ik kan de vloer vegen",
+    "cut": "Ik kan met een schaar knippen",
+    "glue": "Ik kan met lijm plakken",
+    "draw": "Ik kan netjes inkleuren",
+    "backpack": "Ik kan mijn rugzak inpakken",
+    "drum": "Ik kan op de trommel spelen",
+    "guitar": "Ik kan gitaar spelen",
+    "blocks": "Ik kan een toren bouwen",
+    "dice": "Ik kan een bordspel spelen",
+    "bake": "Ik kan helpen met taart bakken",
+    "photo": "Ik kan een foto maken",
+    "kite": "Ik kan vliegeren",
+    "fish": "Ik kan een vis vangen",
+    "tent": "Ik kan in een tent slapen",
+    "water": "Ik kan de planten water geven",
+    "puddle": "Ik kan in plassen springen",
+    "swing": "Ik kan zelf schommelen",
+    "umbrella": "Ik kan een paraplu opendoen",
+    "jumprope": "Ik kan touwtjespringen",
+    "iceskate": "Ik kan schaatsen"
    },
    "refuse": [],
    "optionWords": {
@@ -16259,7 +16162,7 @@
     "pig": "varken",
     "sheep": "schaap",
     "elephant": "olifant",
-    "giraffe": "giraffe",
+    "giraffe": "giraf",
     "penguin": "pinguïn",
     "tiger": "tijger",
     "apple": "appel",
@@ -16283,7 +16186,122 @@
     "robot": "robot",
     "balloon": "ballon",
     "dinosaur": "dinosaurus",
-    "boat": "boot"
+    "boat": "boot",
+    "lemon": "citroen",
+    "kiwi": "kiwi",
+    "orange": "sinaasappel",
+    "pear": "peer",
+    "pineapple": "ananas",
+    "watermelon": "watermeloen",
+    "raspberry": "framboos",
+    "coconut": "kokosnoot",
+    "broccoli": "broccoli",
+    "corn": "maïs",
+    "cucumber": "komkommer",
+    "tomato": "tomaat",
+    "potato": "aardappel",
+    "pumpkin": "pompoen",
+    "eggplant": "aubergine",
+    "lettuce": "sla",
+    "onion": "ui",
+    "cauliflower": "bloemkool",
+    "goldfish": "goudvis",
+    "hamster": "hamster",
+    "parrot": "papegaai",
+    "turtle": "schildpad",
+    "mouse": "muis",
+    "frog": "kikker",
+    "drum": "trommel",
+    "flute": "fluit",
+    "guitar": "gitaar",
+    "piano": "piano",
+    "trumpet": "trompet",
+    "violin": "viool",
+    "harp": "harp",
+    "xylophone": "xylofoon",
+    "accordion": "accordeon",
+    "saxophone": "saxofoon",
+    "soccer": "voetbal",
+    "tennis": "tennis",
+    "basketball": "basketbal",
+    "swimming": "zwemmen",
+    "skating": "schaatsen",
+    "biking": "fietsen",
+    "chess": "schaken",
+    "cupcake": "cupcake",
+    "donut": "donut",
+    "lollipop": "lolly",
+    "popsicle": "ijslolly",
+    "waffle": "wafel",
+    "muffin": "muffin",
+    "eagle": "adelaar",
+    "flamingo": "flamingo",
+    "owl": "uil",
+    "peacock": "pauw",
+    "toucan": "toekan",
+    "ostrich": "struisvogel",
+    "pelican": "pelikaan",
+    "bee": "bij",
+    "ant": "mier",
+    "butterfly": "vlinder",
+    "caterpillar": "rups",
+    "ladybug": "lieveheersbeestje",
+    "dragonfly": "libel",
+    "snail": "slak",
+    "spider": "spin",
+    "worm": "worm",
+    "crab": "krab",
+    "dolphin": "dolfijn",
+    "octopus": "octopus",
+    "jellyfish": "kwal",
+    "whale": "walvis",
+    "starfish": "zeester",
+    "shark": "haai",
+    "seal": "zeehond",
+    "airplane": "vliegtuig",
+    "bicycle": "fiets",
+    "bus": "bus",
+    "helicopter": "helikopter",
+    "tractor": "tractor",
+    "rocket": "raket",
+    "motorcycle": "motor",
+    "sailboat": "zeilboot",
+    "submarine": "onderzeeër",
+    "hat": "hoed",
+    "boots": "laarzen",
+    "dress": "jurk",
+    "coat": "jas",
+    "cap": "pet",
+    "t-shirt": "t-shirt",
+    "scarf": "sjaal",
+    "jeans": "spijkerbroek",
+    "pajamas": "pyjama",
+    "sweater": "trui",
+    "skirt": "rok",
+    "shorts": "korte broek",
+    "cereal": "ontbijtgranen",
+    "pancake": "pannenkoek",
+    "croissant": "croissant",
+    "bagel": "bagel",
+    "sausage": "worst",
+    "juice": "sap",
+    "circle": "cirkel",
+    "square": "vierkant",
+    "triangle": "driehoek",
+    "star": "ster",
+    "heart": "hart",
+    "diamond": "ruit",
+    "oval": "ovaal",
+    "moon": "maan",
+    "hexagon": "zeshoek",
+    "rectangle": "rechthoek",
+    "pentagon": "vijfhoek",
+    "cow": "koe",
+    "goat": "geit",
+    "donkey": "ezel",
+    "turkey": "kalkoen",
+    "goose": "gans",
+    "llama": "lama"
    },
    "strings": {
     "K-323": {
@@ -16310,7 +16328,8 @@
      "title": "Mijn naam: schrijf, tel en vergelijk",
      "instruction": "Schrijf je naam met één letter per hokje en tel de letters. Doe hetzelfde voor een vriend of vriendin en omcirkel wie er meer letters heeft."
     }
-   }
+   },
+   "excludeOptions": []
   },
   "picture-word-cards": {
    "cardCase": "lower",
@@ -16387,8 +16406,8 @@
      "instruction": "Knip de kaartjes uit. Zeg het woord voor één en het woord voor meer en leg dan de paren bij elkaar."
     },
     "bilingual": {
-     "title": "Tweetalige woordkaartjes: Nederlands en Engels",
-     "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het Engels en bewaar de kaartjes voor je woordmuur."
+     "title": "Tweetalige woordkaartjes: Nederlands en {U}",
+     "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur."
     },
     "syllable": {
      "title": "Lettergreepkaartjes: lees het woord in stukjes",
@@ -16891,7 +16910,7 @@
     },
     {
      "pair": "hot-cold",
-     "text": "De sneeuwvlok is niet heet. Zij is ___.",
+     "text": "De sneeuwvlok is niet heet. Hij is ___.",
      "answer": "koud",
      "pic": {
       "theme": "weather",
@@ -17022,7 +17041,7 @@
     },
     "G1-335": {
      "title": "Tegenstellingen in een zin",
-     "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" op de lijn. De woordenbank helpt je."
+     "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenbank helpt je."
     },
     "G1-336": {
      "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
@@ -17064,7 +17083,7 @@
     },
     {
      "id": "mark",
-     "frame": "Zet een vinkje bij {obj}."
+     "frame": "Zet een vinkje onder {obj}."
     },
     {
      "id": "write",
@@ -17377,14 +17396,14 @@
      "reviewed": true
     },
     "leopard": {
-     "unique": "de luipaard",
+     "unique": "het luipaard",
      "all": "alle luipaarden",
      "pl": "luipaarden",
      "ord": {
-      "2": "de tweede luipaard",
-      "3": "de derde luipaard",
-      "4": "de vierde luipaard",
-      "5": "de vijfde luipaard"
+      "2": "het tweede luipaard",
+      "3": "het derde luipaard",
+      "4": "het vierde luipaard",
+      "5": "het vijfde luipaard"
      },
      "dat": null,
      "def": null,
@@ -19047,7 +19066,7 @@
     },
     "F3": {
      "title": "Lees en doe: eerste, tweede, tussen",
-     "instruction": "Begin bij de vlag en tel langs de rij. Zoek het plaatje op zijn plaats en doe dan met je potlood wat de zin zegt."
+     "instruction": "Begin bij de vlag en tel langs de rij. Tel tot het goede plaatje en doe dan met je potlood wat de zin zegt."
     },
     "F4": {
      "title": "Lees en controleer: waar of niet waar?",
@@ -19057,7 +19076,21 @@
      "title": "Lees en teken",
      "instruction": "Lees elke zin goed. Teken dan in het vak precies wat er staat."
     }
-   }
+   },
+   "draw2": [
+    {
+     "text": "Teken {n} {pl} en {n2} {pl2}."
+    },
+    {
+     "text": "Teken {n} {pl} en {n2} {pl2} in het vak."
+    },
+    {
+     "text": "Teken {n} grote {pl} en {n2} kleine {pl2}."
+    },
+    {
+     "text": "Teken {n} {pl}. Teken daarna {n2} {pl2}."
+    }
+   ]
   },
   "rhyming-words": {
    "rule": "stressedVowelCoda",
@@ -19359,33 +19392,11 @@
        "picOpened": true
       },
       {
-       "vocabKey": "jam",
-       "word": "jam",
-       "pic": {
-        "theme": "breakfast",
-        "noun": "jam"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "comb",
        "word": "kam",
        "pic": {
         "theme": "around the house",
         "noun": "comb"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "lamb",
-       "word": "lam",
-       "pic": {
-        "theme": "farm animals",
-        "noun": "lamb"
        },
        "sameSpelling": true,
        "productive": true,
@@ -19438,17 +19449,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "porridge",
-       "word": "pap",
-       "pic": {
-        "theme": "breakfast",
-        "noun": "porridge"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "folder",
        "word": "map",
        "pic": {
@@ -19463,7 +19463,8 @@
      "extra": [
       "kap",
       "stap",
-      "hap"
+      "hap",
+      "pap"
      ],
      "nearMiss": [
       {
@@ -19597,63 +19598,6 @@
        "pic": {
         "theme": "clothing",
         "noun": "cap"
-       },
-       "picOpened": true
-      }
-     ]
-    },
-    {
-     "id": "et",
-     "rime": "-et",
-     "sound": "ɛt",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "cap",
-       "word": "pet",
-       "pic": {
-        "theme": "clothing",
-        "noun": "cap"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "net",
-       "word": "net",
-       "pic": {
-        "theme": "beach",
-        "noun": "net"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "ferret",
-       "word": "fret",
-       "pic": {
-        "theme": "pets",
-        "noun": "ferret"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "vet",
-      "zet",
-      "wet"
-     ],
-     "nearMiss": [
-      {
-       "vocabKey": "pen",
-       "word": "pen",
-       "pic": {
-        "theme": "classroom",
-        "noun": "pen"
        },
        "picOpened": true
       }
@@ -19814,52 +19758,6 @@
        "pic": {
         "theme": "toys",
         "noun": "doll"
-       },
-       "picOpened": true
-      }
-     ]
-    },
-    {
-     "id": "en",
-     "rime": "-en",
-     "sound": "ɛn",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "pen",
-       "word": "pen",
-       "pic": {
-        "theme": "classroom",
-        "noun": "pen"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "hen",
-       "word": "hen",
-       "pic": {
-        "theme": "farm animals",
-        "noun": "hen"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "ren",
-      "den",
-      "ben"
-     ],
-     "nearMiss": [
-      {
-       "vocabKey": "cap",
-       "word": "pet",
-       "pic": {
-        "theme": "clothing",
-        "noun": "cap"
        },
        "picOpened": true
       }
@@ -20118,17 +20016,7 @@
       "slaap",
       "knaap"
      ],
-     "nearMiss": [
-      {
-       "vocabKey": "bag",
-       "word": "tas",
-       "pic": {
-        "theme": "At the Supermarket",
-        "noun": "bag"
-       },
-       "picOpened": true
-      }
-     ]
+     "nearMiss": []
     },
     {
      "id": "os",
@@ -20276,7 +20164,7 @@
      "id": "sok-klok",
      "lines": [
       "Ik zoek mijn ene sok",
-      "onder de grote ronde ___"
+      "hoe laat is het? Kijk op de ___"
      ],
      "answer": {
       "vocabKey": "clock"
@@ -20294,18 +20182,6 @@
       "vocabKey": "sand"
      },
      "rhymeWith": "hand",
-     "cueFree": false
-    },
-    {
-     "id": "pen-hen",
-     "lines": [
-      "Ik teken met mijn pen",
-      "een dikke witte ___"
-     ],
-     "answer": {
-      "vocabKey": "hen"
-     },
-     "rhymeWith": "pen",
      "cueFree": false
     },
     {
@@ -20335,25 +20211,13 @@
     {
      "id": "peer-beer",
      "lines": [
-      "Ik eet een zoete peer",
-      "samen met een bruine ___"
+      "In het bos, bij het meer",
+      "woont een grote bruine ___"
      ],
      "answer": {
       "vocabKey": "bear"
      },
-     "rhymeWith": "peer",
-     "cueFree": false
-    },
-    {
-     "id": "ham-jam",
-     "lines": [
-      "Op mijn brood ligt ham",
-      "op jouw brood ligt ___"
-     ],
-     "answer": {
-      "vocabKey": "jam"
-     },
-     "rhymeWith": "ham",
+     "rhymeWith": "meer",
      "cueFree": false
     },
     {
@@ -20366,18 +20230,6 @@
       "vocabKey": "vest"
      },
      "rhymeWith": "nest",
-     "cueFree": false
-    },
-    {
-     "id": "pet-net",
-     "lines": [
-      "De visser draagt een pet",
-      "en gooit een groot rond ___"
-     ],
-     "answer": {
-      "vocabKey": "net"
-     },
-     "rhymeWith": "pet",
      "cueFree": false
     },
     {
@@ -20417,7 +20269,7 @@
     },
     "G1-343": {
      "title": "Sorteer de rijmwoorden",
-     "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+     "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
     },
     "G1-344": {
      "title": "Maak het rijmpje af",
@@ -20425,7 +20277,7 @@
     },
     "G1-345": {
      "title": "Rijmrijen: twee rijmwoorden per plaatje",
-     "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+     "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
     },
     "G1-346": {
      "title": "Verzin je eigen rijmwoorden",
@@ -20446,7 +20298,7 @@
     },
     "F2": {
      "title": "Sprongen op het honderdveld: volg de pijlen",
-     "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar rechts is 1 meer. Schrijf waar je uitkomt."
+     "instruction": "Begin bij het getal en volg de pijlen: omhoog is 10 minder, omlaag is 10 meer, naar links is 1 minder, naar rechts is 1 meer. Schrijf waar je uitkomt."
     },
     "F3": {
      "title": "Geheim getal: twee pijlen, één hokje",
@@ -22730,7 +22582,7 @@
    "strings": {
     "G2-316": {
      "title": "Samenstellingen: plaatje + plaatje",
-     "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+     "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
     },
     "G2-329": {
      "title": "Samenstellingen: wat komt er in het midden?",
@@ -22738,7 +22590,7 @@
     },
     "G2-330": {
      "title": "Verdeel de samenstelling: zoek de twee woorden",
-     "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+     "instruction": "Het hele woord staat letter voor letter naast zijn plaatje. Zet één streep waar het tweede woord begint."
     },
     "G2-331": {
      "title": "Verbind de helften: twee plaatjes, één woord",
@@ -22750,7 +22602,7 @@
     },
     "G2-333": {
      "title": "Woordweb: één woord, veel samenstellingen",
-     "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf de vier nieuwe woorden op de lijnen."
+     "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf elk nieuw woord op zijn lijn."
     }
    }
   },
@@ -23901,11 +23753,11 @@
    "strings": {
     "G2-317": {
      "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
-     "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de vormen bij ik, jij, hij en wij in de stippelvakjes en maak daarna de zinnen af."
+     "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de ontbrekende vormen in de stippelvakjes en maak daarna de zinnen af."
     },
     "F2": {
      "title": "Welke vorm hoort bij ik, jij en wij?",
-     "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+     "instruction": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort."
     },
     "F3": {
      "title": "Werkwoordsvormen in zinnen met plaatjes",

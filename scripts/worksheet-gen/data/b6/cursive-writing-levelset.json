@@ -1174,7 +1174,8 @@
   ],
   "and": "und",
   "lettersTitle": "Schreibschrift üben: {LETTERS} in {U}",
-  "capitalsTitle": "Großbuchstaben in {U}: {LETTERS}"
+  "capitalsTitle": "Großbuchstaben in {U}: {LETTERS}",
+  "capitalsPrintTitle": "Großbuchstaben in Schreibschrift: {LETTERS}"
  },
  "es": {
   "capitals": [

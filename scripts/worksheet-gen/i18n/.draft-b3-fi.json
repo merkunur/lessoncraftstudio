@@ -182,8 +182,8 @@
    "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
   },
   "K-350": {
-   "title": "Kaksikieliset kuvakortit: suomi ja englanti",
-   "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+   "title": "Kaksikieliset kuvakortit: suomi ja {U}",
+   "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
   },
   "G1-324": {
    "title": "Tavukortit: lue sana tavu kerrallaan",
@@ -271,7 +271,7 @@
   },
   "G1-339": {
    "title": "Lue ja tee: kaksi ohjetta yhdessä",
-   "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun asti ennen kuin aloitat ja tee molemmat kuvariville."
+   "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun ennen kuin aloitat. Tee sitten molemmat tehtävät kuvariviin."
   },
   "G1-340": {
    "title": "Lue ja tee: ensimmäinen, toinen, välissä",
@@ -311,7 +311,7 @@
   },
   "G1-310": {
    "title": "Satataulun palat: täydennä luvut",
-   "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alle 10 enemmän, ylle 10 vähemmän."
+   "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alapuolelle 10 enemmän, yläpuolelle 10 vähemmän."
   },
   "G1-347": {
    "title": "Mihin pala kuuluu?",
@@ -319,7 +319,7 @@
   },
   "G2-321": {
    "title": "Hypyt satataulussa: seuraa nuolia",
-   "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
+   "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, vasemmalle 1 vähemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
   },
   "G2-322": {
    "title": "Lukuarvoitus: kaksi nuolta, yksi ruutu",
@@ -363,7 +363,7 @@
   },
   "G2-330": {
    "title": "Jaa yhdyssana osiin",
-   "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+   "instruction": "Koko sana on kirjoitettu kuvan viereen kirjain kirjaimelta. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
   },
   "G2-331": {
    "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",
@@ -383,14 +383,14 @@
   },
   "G2-334": {
    "title": "Yhdistä persoona ja verbimuoto",
-   "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille: yksi viiva jokaista pronominia kohti."
+   "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille. Täydennä sitten kaksi lausetta."
   },
   "G2-335": {
    "title": "Verbimuodot lauseissa kuvien avulla",
    "instruction": "Katso kuvaa ja lue verbi laatikosta. Kirjoita lauseeseen sopiva persoonamuoto katkoviivaruutuun."
   },
   "G2-336": {
-   "title": "Olla, tulla, mennä: taivuta verbit",
+   "title": "Taivuta verbit olla, tulla, mennä, tehdä ja nähdä: kaksi sivulla",
    "instruction": "Nämä verbit taipuvat eri tavalla kuin muut. Kirjoita jokaiselle persoonalle oikea muoto katkoviivaruutuun."
   },
   "G2-337": {
@@ -406,7 +406,7 @@
    "instruction": "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
   },
   "G2-339": {
-   "title": "{U}: rastita oikeat tiedot",
+   "title": "{U}: ympyröi oikeat tiedot",
    "instruction": "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
   },
   "G2-340": {
@@ -678,7 +678,21 @@
      "animal": "Lempieläimeni",
      "food": "Lempiruokani",
      "color": "Lempivärini",
-     "toy": "Lempileluni"
+     "toy": "Lempileluni",
+     "fruit": "Lempihedelmäni",
+     "vegetable": "Lempikasvikseni",
+     "pet": "Lempilemmikkini",
+     "instrument": "Lempisoittimeni",
+     "hobby": "Lempiharrastukseni",
+     "treat": "Lempiherkkuni",
+     "bird": "Lempilintuni",
+     "bug": "Lempiötökkäni",
+     "sea": "Lempimerieläimeni",
+     "vehicle": "Lempikulkuneuvoni",
+     "clothes": "Lempivaatteeni",
+     "breakfast": "Lempiaamupalani",
+     "shape": "Lempimuotoni",
+     "farm": "Lempikotieläimeni"
     },
     "countHeads": {
      "people": "Perheeni jäsenet:",
@@ -720,7 +734,36 @@
     "skate": "Osaan luistella",
     "ski": "Osaan hiihtää",
     "writename": "Osaan kirjoittaa nimeni",
-    "brushteeth": "Osaan pestä hampaat"
+    "brushteeth": "Osaan pestä hampaat",
+    "bounce": "Osaan pomputtaa palloa",
+    "slide": "Osaan laskea liukumäestä",
+    "hike": "Osaan retkeillä",
+    "comb": "Osaan kammata hiukseni",
+    "washhands": "Osaan pestä käteni",
+    "dress": "Osaan pukeutua itse",
+    "coat": "Osaan napittaa takkini",
+    "boots": "Osaan vetää saappaat jalkaan",
+    "bed": "Osaan sijata sänkyni",
+    "tidy": "Osaan lakaista lattian",
+    "cut": "Osaan leikata saksilla",
+    "glue": "Osaan käyttää liimaa",
+    "draw": "Osaan värittää siististi",
+    "backpack": "Osaan pakata reppuni",
+    "drum": "Osaan rummuttaa rytmin",
+    "guitar": "Osaan soittaa kitaraa",
+    "blocks": "Osaan rakentaa tornin",
+    "dice": "Osaan pelata lautapeliä",
+    "bake": "Osaan auttaa leipomisessa",
+    "photo": "Osaan ottaa valokuvan",
+    "kite": "Osaan lennättää leijaa",
+    "fish": "Osaan ongella",
+    "tent": "Osaan nukkua teltassa",
+    "water": "Osaan kastella kukat",
+    "puddle": "Osaan hypätä lätäkköön",
+    "swing": "Osaan keinua ilman apua",
+    "umbrella": "Osaan avata sateenvarjon",
+    "jumprope": "Osaan hyppiä narua",
+    "iceskate": "Osaan luistella"
    },
    "refuse": [],
    "optionWords": {
@@ -757,7 +800,122 @@
     "robot": "robotti",
     "balloon": "ilmapallo",
     "dinosaur": "dinosaurus",
-    "boat": "vene"
+    "boat": "vene",
+    "lemon": "sitruuna",
+    "kiwi": "kiivi",
+    "orange": "appelsiini",
+    "pear": "päärynä",
+    "pineapple": "ananas",
+    "watermelon": "vesimeloni",
+    "raspberry": "vadelma",
+    "coconut": "kookospähkinä",
+    "broccoli": "parsakaali",
+    "corn": "maissi",
+    "cucumber": "kurkku",
+    "tomato": "tomaatti",
+    "potato": "peruna",
+    "pumpkin": "kurpitsa",
+    "eggplant": "munakoiso",
+    "lettuce": "salaatti",
+    "onion": "sipuli",
+    "cauliflower": "kukkakaali",
+    "goldfish": "kultakala",
+    "hamster": "hamsteri",
+    "parrot": "papukaija",
+    "turtle": "kilpikonna",
+    "mouse": "hiiri",
+    "frog": "sammakko",
+    "drum": "rumpu",
+    "flute": "huilu",
+    "guitar": "kitara",
+    "piano": "piano",
+    "trumpet": "trumpetti",
+    "violin": "viulu",
+    "harp": "harppu",
+    "xylophone": "ksylofoni",
+    "accordion": "haitari",
+    "saxophone": "saksofoni",
+    "soccer": "jalkapallo",
+    "tennis": "tennis",
+    "basketball": "koripallo",
+    "swimming": "uinti",
+    "skating": "luistelu",
+    "biking": "pyöräily",
+    "chess": "shakki",
+    "cupcake": "kuppikakku",
+    "donut": "donitsi",
+    "lollipop": "tikkari",
+    "popsicle": "mehujää",
+    "waffle": "vohveli",
+    "muffin": "muffini",
+    "eagle": "kotka",
+    "flamingo": "flamingo",
+    "owl": "pöllö",
+    "peacock": "riikinkukko",
+    "toucan": "tukaani",
+    "ostrich": "strutsi",
+    "pelican": "pelikaani",
+    "bee": "mehiläinen",
+    "ant": "muurahainen",
+    "butterfly": "perhonen",
+    "caterpillar": "toukka",
+    "ladybug": "leppäkerttu",
+    "dragonfly": "sudenkorento",
+    "snail": "etana",
+    "spider": "hämähäkki",
+    "worm": "mato",
+    "crab": "rapu",
+    "dolphin": "delfiini",
+    "octopus": "mustekala",
+    "jellyfish": "meduusa",
+    "whale": "valas",
+    "starfish": "meritähti",
+    "shark": "hai",
+    "seal": "hylje",
+    "airplane": "lentokone",
+    "bicycle": "polkupyörä",
+    "bus": "bussi",
+    "helicopter": "helikopteri",
+    "tractor": "traktori",
+    "rocket": "raketti",
+    "motorcycle": "moottoripyörä",
+    "sailboat": "purjevene",
+    "submarine": "sukellusvene",
+    "hat": "hattu",
+    "boots": "saappaat",
+    "dress": "mekko",
+    "coat": "takki",
+    "cap": "lippis",
+    "t-shirt": "t-paita",
+    "scarf": "huivi",
+    "jeans": "farkut",
+    "pajamas": "pyjama",
+    "sweater": "villapaita",
+    "skirt": "hame",
+    "shorts": "shortsit",
+    "cereal": "murot",
+    "pancake": "pannukakku",
+    "croissant": "croissant",
+    "bagel": "bageli",
+    "sausage": "makkara",
+    "juice": "mehu",
+    "circle": "ympyrä",
+    "square": "neliö",
+    "triangle": "kolmio",
+    "star": "tähti",
+    "heart": "sydän",
+    "diamond": "vinoneliö",
+    "oval": "soikio",
+    "moon": "kuu",
+    "hexagon": "kuusikulmio",
+    "rectangle": "suorakulmio",
+    "pentagon": "viisikulmio",
+    "cow": "lehmä",
+    "goat": "vuohi",
+    "donkey": "aasi",
+    "turkey": "kalkkuna",
+    "goose": "hanhi",
+    "llama": "laama"
    },
    "strings": {
     "K-323": {
@@ -784,7 +942,11 @@
      "title": "Minun nimeni: kirjoita, laske ja vertaa",
      "instruction": "Kirjoita nimesi yksi kirjain jokaiseen ruutuun ja laske kirjaimet. Tee sama kaverisi nimelle ja ympyröi, kummalla on enemmän."
     }
-   }
+   },
+   "excludeOptions": [
+    "crab",
+    "pancake"
+   ]
   },
   "animal-fact-file": {
    "labels": {
@@ -1369,7 +1531,7 @@
      "instruction": "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
     },
     "G2-339": {
-     "title": "{U}: rastita oikeat tiedot",
+     "title": "{U}: ympyröi oikeat tiedot",
      "instruction": "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
     },
     "G2-340": {
@@ -3032,7 +3194,7 @@
     },
     "G2-330": {
      "title": "Jaa yhdyssana osiin",
-     "instruction": "Koko sana on kirjoitettu kuvan viereen kirjainruutuihin. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+     "instruction": "Koko sana on kirjoitettu kuvan viereen kirjain kirjaimelta. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
     },
     "G2-331": {
      "title": "Yhdistä sanan osat: kaksi kuvaa, yksi sana",
@@ -3562,7 +3724,7 @@
    "strings": {
     "G1-310": {
      "title": "Satataulun palat: täydennä luvut",
-     "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alle 10 enemmän, ylle 10 vähemmän."
+     "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alapuolelle 10 enemmän, yläpuolelle 10 vähemmän."
     },
     "F1": {
      "title": "Mihin pala kuuluu?",
@@ -3570,7 +3732,7 @@
     },
     "F2": {
      "title": "Hypyt satataulussa: seuraa nuolia",
-     "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
+     "instruction": "Aloita luvusta ja seuraa nuolia: ylös on 10 vähemmän, alas 10 enemmän, vasemmalle 1 vähemmän, oikealle 1 enemmän. Kirjoita, mihin päädyt."
     },
     "F3": {
      "title": "Lukuarvoitus: kaksi nuolta, yksi ruutu",
@@ -3612,11 +3774,12 @@
     },
     {
      "id": "mark",
-     "frame": "Merkitse {obj} ruksilla."
+     "frame": "Merkitse ruksilla {obj}."
     },
     {
      "id": "write",
-     "frame": "Kirjoita, montako {part} on."
+     "frame": "Kirjoita, montako {part} on.",
+     "joinComma": true
     }
    ],
    "fixed": {
@@ -14046,6 +14209,14 @@
       "text": "Neljäs kuva on {obj}.",
       "cue": "ordinal",
       "k": 4
+     },
+     {
+      "text": "Rivissä on {obj}, ja heti sen jälkeen tulee {obj2}.",
+      "cue": "rightof"
+     },
+     {
+      "text": "Rivissä on {obj}, ja heti ennen sitä tulee {obj2}.",
+      "cue": "leftof"
      }
     ]
    },
@@ -14084,7 +14255,7 @@
     },
     "F2": {
      "title": "Lue ja tee: kaksi ohjetta yhdessä",
-     "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun asti ennen kuin aloitat ja tee molemmat kuvariville."
+     "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun ennen kuin aloitat. Tee sitten molemmat tehtävät kuvariviin."
     },
     "F3": {
      "title": "Lue ja tee: ensimmäinen, toinen, välissä",
@@ -14098,7 +14269,21 @@
      "title": "Lue ja piirrä",
      "instruction": "Lue jokainen lause tarkasti. Piirrä sitten laatikkoon juuri se, mitä lauseessa sanotaan."
     }
-   }
+   },
+   "draw2": [
+    {
+     "text": "Piirrä {n} {part} ja {n2} {part2}."
+    },
+    {
+     "text": "Piirrä laatikkoon {n} {part} ja {n2} {part2}."
+    },
+    {
+     "text": "Piirrä {n} isoa {part} ja {n2} pientä {part2}."
+    },
+    {
+     "text": "Piirrä {n} {part}. Piirrä sitten {n2} {part2}."
+    }
+   ]
   },
   "letter-of-the-week": {
    "level": "sound",
@@ -19082,9 +19267,7 @@
       ]
      },
      "exclusiveWith": [],
-     "syn": {
-      "a": "korkea"
-     },
+     "syn": null,
      "far": "iloinen",
      "pic": null,
      "picOpened": false
@@ -19273,15 +19456,11 @@
      "pos": "adj",
      "family": "width",
      "alt": {
-      "a": [
-       "laaja"
-      ],
+      "a": [],
       "b": []
      },
      "exclusiveWith": [],
-     "syn": {
-      "a": "laaja"
-     },
+     "syn": null,
      "far": "hiljainen",
      "pic": null,
      "picOpened": false
@@ -19405,11 +19584,6 @@
       "base": "reilu",
       "prefix": "epä",
       "expected": "epäreilu"
-     },
-     {
-      "base": "terve",
-      "prefix": "epä",
-      "expected": "epäterve"
      },
      {
       "base": "ystävällinen",
@@ -19915,7 +20089,19 @@
      "da": "tanska",
      "no": "norja"
     },
-    "legendSep": " · "
+    "legendSep": " · ",
+    "partnerIn": {
+     "en": "englanniksi",
+     "de": "saksaksi",
+     "es": "espanjaksi",
+     "pt": "portugaliksi",
+     "fr": "ranskaksi",
+     "it": "italiaksi",
+     "nl": "hollanniksi",
+     "sv": "ruotsiksi",
+     "da": "tanskaksi",
+     "no": "norjaksi"
+    }
    },
    "syllable": {
     "enabled": true,
@@ -20276,8 +20462,8 @@
      "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
     },
     "bilingual": {
-     "title": "Kaksikieliset kuvakortit: suomi ja englanti",
-     "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+     "title": "Kaksikieliset kuvakortit: suomi ja {U}",
+     "instruction": "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
     },
     "syllable": {
      "title": "Tavukortit: lue sana tavu kerrallaan",
@@ -20309,28 +20495,6 @@
        "pic": {
         "theme": "At the Supermarket",
         "noun": "blueberry"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "calf",
-       "word": "vasikka",
-       "pic": {
-        "theme": "farm animals",
-        "noun": "calf"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "cherry",
-       "word": "kirsikka",
-       "pic": {
-        "theme": "At the Supermarket",
-        "noun": "cherry"
        },
        "sameSpelling": true,
        "productive": true,
@@ -20371,8 +20535,9 @@
       }
      ],
      "extra": [
-      "sikka",
-      "nikka"
+      "kirsikka",
+      "vasikka",
+      "persikka"
      ],
      "nearMiss": []
     },
@@ -20405,17 +20570,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "magpie",
-       "word": "harakka",
-       "pic": {
-        "theme": "birds 2",
-        "noun": "magpie"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "pie",
        "word": "piirakka",
        "pic": {
@@ -20428,7 +20582,9 @@
       }
      ],
      "extra": [
-      "nakka"
+      "harakka",
+      "lakka",
+      "pakka"
      ],
      "nearMiss": []
     },
@@ -20484,8 +20640,9 @@
       }
      ],
      "extra": [
-      "pukka",
-      "nukka"
+      "nukka",
+      "voikukka",
+      "joulusukka"
      ],
      "nearMiss": []
     },
@@ -20620,8 +20777,8 @@
       }
      ],
      "extra": [
-      "kuuna",
-      "luna"
+      "puna",
+      "viikuna"
      ],
      "nearMiss": []
     },
@@ -20678,7 +20835,7 @@
      ],
      "extra": [
       "sana",
-      "mana"
+      "vana"
      ],
      "nearMiss": []
     },
@@ -20746,7 +20903,7 @@
      ],
      "extra": [
       "peli",
-      "seli"
+      "keli"
      ],
      "nearMiss": []
     },
@@ -20756,17 +20913,6 @@
      "sound": "eri",
      "cap": 8,
      "members": [
-      {
-       "vocabKey": "aster",
-       "word": "asteri",
-       "pic": {
-        "theme": "flowers",
-        "noun": "aster"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
       {
        "vocabKey": "hamster",
        "word": "hamsteri",
@@ -20881,8 +21027,8 @@
       }
      ],
      "extra": [
-      "sari",
-      "kari"
+      "kari",
+      "kalmari"
      ],
      "nearMiss": []
     },
@@ -20917,7 +21063,7 @@
      ],
      "extra": [
       "tori",
-      "sori"
+      "moottori"
      ],
      "nearMiss": []
     },
@@ -20939,17 +21085,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "bison",
-       "word": "biisoni",
-       "pic": {
-        "theme": "zoo animals",
-        "noun": "bison"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "melon",
        "word": "meloni",
        "pic": {
@@ -20963,7 +21098,8 @@
      ],
      "extra": [
       "poni",
-      "toni"
+      "biisoni",
+      "pioni"
      ],
      "nearMiss": []
     },
@@ -21019,8 +21155,8 @@
       }
      ],
      "extra": [
-      "takko",
-      "nakko"
+      "lakko",
+      "rakko"
      ],
      "nearMiss": []
     },
@@ -21111,7 +21247,7 @@
       }
      ],
      "extra": [
-      "saani"
+      "iguaani"
      ],
      "nearMiss": []
     },
@@ -21157,7 +21293,7 @@
      ],
      "extra": [
       "lava",
-      "kava"
+      "maaorava"
      ],
      "nearMiss": []
     },
@@ -21201,9 +21337,7 @@
        "picOpened": true
       }
      ],
-     "extra": [
-      "pilä"
-     ],
+     "extra": [],
      "nearMiss": []
     },
     {
@@ -21247,8 +21381,9 @@
       }
      ],
      "extra": [
-      "viini",
-      "tiini"
+      "tiini",
+      "rusiini",
+      "mandariini"
      ],
      "nearMiss": []
     },
@@ -21293,7 +21428,8 @@
       }
      ],
      "extra": [
-      "sketti"
+      "spagetti",
+      "baletti"
      ],
      "nearMiss": []
     },
@@ -21327,8 +21463,8 @@
       }
      ],
      "extra": [
-      "tokki",
-      "sokki"
+      "sokki",
+      "rokki"
      ],
      "nearMiss": []
     },
@@ -21362,7 +21498,7 @@
       }
      ],
      "extra": [
-      "sekko"
+      "kesämekko"
      ],
      "nearMiss": []
     },
@@ -21396,8 +21532,8 @@
       }
      ],
      "extra": [
-      "maita",
-      "saita"
+      "laita",
+      "villapaita"
      ],
      "nearMiss": []
     },
@@ -21431,8 +21567,9 @@
       }
      ],
      "extra": [
-      "pika",
-      "vika"
+      "vika",
+      "harmonika",
+      "tunika"
      ],
      "nearMiss": []
     },
@@ -21466,7 +21603,7 @@
       }
      ],
      "extra": [
-      "sammas"
+      "maitohammas"
      ],
      "nearMiss": []
     },
@@ -21536,7 +21673,7 @@
       }
      ],
      "extra": [
-      "synä"
+      "kärynä"
      ],
      "nearMiss": []
     },
@@ -21571,7 +21708,7 @@
      ],
      "extra": [
       "pussi",
-      "kussi"
+      "karkkipussi"
      ],
      "nearMiss": []
     },
@@ -21605,7 +21742,7 @@
       }
      ],
      "extra": [
-      "tonen"
+      "keinuhevonen"
      ],
      "nearMiss": []
     }
@@ -22582,20 +22719,6 @@
      ],
      [
       "s",
-      "i"
-     ]
-    ],
-    "bagel": [
-     [
-      "b",
-      "a"
-     ],
-     [
-      "g",
-      "e"
-     ],
-     [
-      "l",
       "i"
      ]
     ],
@@ -26270,7 +26393,6 @@
     "bacon",
     "badger",
     "bag",
-    "bagel",
     "baguette",
     "ball",
     "banana",
@@ -37832,14 +37954,14 @@
     },
     "F2": {
      "title": "Yhdistä persoona ja verbimuoto",
-     "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille: yksi viiva jokaista pronominia kohti."
+     "instruction": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille. Täydennä sitten kaksi lausetta."
     },
     "F3": {
      "title": "Verbimuodot lauseissa kuvien avulla",
      "instruction": "Katso kuvaa ja lue verbi laatikosta. Kirjoita lauseeseen sopiva persoonamuoto katkoviivaruutuun."
     },
     "F4": {
-     "title": "Olla, tulla, mennä: taivuta verbit",
+     "title": "Taivuta verbit olla, tulla, mennä, tehdä ja nähdä: kaksi sivulla",
      "instruction": "Nämä verbit taipuvat eri tavalla kuin muut. Kirjoita jokaiselle persoonalle oikea muoto katkoviivaruutuun."
     },
     "F5": {

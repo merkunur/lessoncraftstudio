@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T03:14:12.830Z",
-  "total_quarantined": 3545,
+  "generated_at": "2026-11-04T12:44:13.419Z",
+  "total_quarantined": 3543,
   "summary": {
     "en": {
       "approved": 912,
@@ -19,8 +19,8 @@
       "quarantined": 285
     },
     "es": {
-      "approved": 943,
-      "quarantined": 322
+      "approved": 945,
+      "quarantined": 320
     },
     "pt": {
       "approved": 893,
@@ -48809,70 +48809,6 @@
     },
     {
       "locale": "es",
-      "key": "bun",
-      "word": "bolillo",
-      "verdict": "QUARANTINE",
-      "reason": "rule_vs_vocab_phonics_count_disagreement",
-      "top_split": [
-        "bo",
-        "li",
-        "llo"
-      ],
-      "top_split_count": 3,
-      "vocab_phonics_syl": 2,
-      "tex_split": [
-        "bo",
-        "li",
-        "llo"
-      ],
-      "source_outputs": {
-        "T": [
-          "bo",
-          "li",
-          "llo"
-        ],
-        "R": [
-          "bo",
-          "li",
-          "llo"
-        ],
-        "N": null,
-        "W": null,
-        "S": 2
-      }
-    },
-    {
-      "locale": "es",
-      "key": "bus",
-      "word": "camión",
-      "verdict": "QUARANTINE",
-      "reason": "rule_vs_vocab_phonics_count_disagreement",
-      "top_split": [
-        "ca",
-        "mión"
-      ],
-      "top_split_count": 2,
-      "vocab_phonics_syl": 3,
-      "tex_split": [
-        "ca",
-        "mión"
-      ],
-      "source_outputs": {
-        "T": [
-          "ca",
-          "mión"
-        ],
-        "R": [
-          "ca",
-          "mión"
-        ],
-        "N": null,
-        "W": null,
-        "S": 3
-      }
-    },
-    {
-      "locale": "es",
       "key": "bus-driver",
       "word": "chofer de camión",
       "verdict": "QUARANTINE",
@@ -97093,36 +97029,32 @@
     {
       "locale": "da",
       "key": "cereal",
-      "word": "cornflakes",
+      "word": "havreringe",
       "verdict": "QUARANTINE",
-      "reason": "syl_count_mismatch",
-      "top_split": [
-        "cor",
-        "n",
-        "fla",
-        "kes"
-      ],
-      "top_split_count": 4,
-      "mismatches": [
-        {
-          "source": "vocab-phonics-syl",
-          "value": 2
-        }
-      ],
+      "reason": "insufficient_independent_sources",
       "sources_agreed": [
-        "TeX"
+        "TeX",
+        "vocab-phonics-syl"
+      ],
+      "min_required": 3,
+      "total_agreed": 2,
+      "top_split": [
+        "hav",
+        "re",
+        "rin",
+        "ge"
       ],
       "source_outputs": {
         "T": [
-          "cor",
-          "n",
-          "fla",
-          "kes"
+          "hav",
+          "re",
+          "rin",
+          "ge"
         ],
         "R": null,
         "N": null,
         "W": null,
-        "S": 2
+        "S": 4
       }
     },
     {

@@ -19,6 +19,8 @@ if (!dir) throw new Error('usage: import-cursive-panels.js <dir>');
 const LOCS = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'da', 'no'];
 const out = { _note: 'Level Set 2026-09-28 — Cursive Writing content for the NEW copies only (native panels ×9; importer tools/level-set/import-cursive-panels.js). The published pages never read this file.' };
 const instr = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'i18n', 'level-instructions.json'), 'utf8'));
+const prevFile = path.join(__dirname, '..', '..', 'data', 'b6', 'cursive-writing-levelset.json');
+const prev = fs.existsSync(prevFile) ? JSON.parse(fs.readFileSync(prevFile, 'utf8')) : {};
 let problems = 0;
 const warn = (loc, m) => { problems++; console.log(`  ${loc}: dropped ${m}`); };
 
@@ -59,6 +61,14 @@ for (const loc of LOCS) {
   for (const k of ['and', 'lettersTitle', 'capitalsTitle', 'instr384L3', 'instr385L3', 'instr401L3', 'instr401L1']) if (!j[k]) throw new Error(`${loc}: ${k} missing`);
   if (!j.lettersTitle.includes('{LETTERS}') || !j.capitalsTitle.includes('{LETTERS}')) throw new Error(`${loc}: a title template without {LETTERS}`);
   out[loc] = { capitals, joinsMore, sentencesMore, and: j.and, lettersTitle: j.lettersTitle, capitalsTitle: j.capitalsTitle };
+  // a shorter PRINTED heading where the title runs past the maker's 3 lines (de, 2026-11-04: «Großbuchstaben in
+  // Schreibschrift: {LETTERS}» — the ribbon names the script): from the panel when it has one, else kept from the file
+  for (const k of ['lettersPrintTitle', 'capitalsPrintTitle']) {
+    const v = j[k] || (prev[loc] || {})[k];
+    if (!v) continue;
+    if (!v.includes('{LETTERS}')) throw new Error(`${loc}: ${k} without {LETTERS}`);
+    out[loc][k] = v;
+  }
   for (const [id, lv, key] of [['G2-384', '3', 'instr384L3'], ['G2-385', '3', 'instr385L3'], ['G3-401', '3', 'instr401L3']]) {
     ((instr[id] = instr[id] || {})[lv] = instr[id][lv] || {})[loc] = j[key];
   }

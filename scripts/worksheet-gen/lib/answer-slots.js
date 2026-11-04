@@ -33,7 +33,16 @@ function answerSlots(n, seedStr, k = 3) {
   let a = h.readUInt32LE(0) || 1;
   const rnd = () => { a ^= a << 13; a >>>= 0; a ^= a >>> 17; a ^= a << 5; a >>>= 0; return a / 4294967296; };
   const diagonal = (o) => o.every((p, i) => p === i % k) || o.every((p, i) => p === (k - (i % k)) % k);
-  const out = Array.from({ length: n }, (_, i) => i % k);
+  const full = n - (n % k);
+  const out = Array.from({ length: full }, (_, i) => i % k);
+  // the cards past the last full round go to slots drawn at random, never always the lowest (2026-11-04, settings-space:
+  // with 4 cards and 3 slots slot 0 held half the answers; with 2 cards the third slot was never right). A page whose
+  // cards fill whole rounds draws nothing here, so its layout is unchanged
+  if (n % k) {
+    const spare = Array.from({ length: k }, (_, i) => i);
+    for (let i = k - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [spare[i], spare[j]] = [spare[j], spare[i]]; }
+    out.push(...spare.slice(0, n % k));
+  }
   for (let tries = 0; tries < 50 && (tries === 0 || (n >= k && diagonal(out))); tries++) {
     for (let i = n - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [out[i], out[j]] = [out[j], out[i]]; }
   }

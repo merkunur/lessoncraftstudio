@@ -73,8 +73,8 @@
       "instruction": "Knip de kaartjes uit. Zeg het woord voor één en het woord voor meer en leg dan de paren bij elkaar."
     },
     "bilingual": {
-      "title": "Tweetalige woordkaartjes: Nederlands en Engels",
-      "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het Engels en bewaar de kaartjes voor je woordmuur."
+      "title": "Tweetalige woordkaartjes: Nederlands en {U}",
+      "instruction": "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur."
     },
     "syllable": {
       "title": "Lettergreepkaartjes: lees het woord in stukjes",

@@ -1084,14 +1084,14 @@
     },
     "F2": {
       "title": "Ligue o pronome à forma do verbo",
-      "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome."
+      "instruction": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome. Depois complete as duas frases."
     },
     "F3": {
       "title": "Verbos em frases com figuras",
       "instruction": "Olhe a figura e leia o verbo do cartãozinho. Escreva na caixinha pontilhada a forma que completa a frase."
     },
     "F4": {
-      "title": "Os verbos irregulares: ser, estar, ter e ir",
+      "title": "Verbos irregulares: ser, estar, ter e ir, dois por folha",
       "instruction": "Estes verbos mudam muito. Escreva nas caixinhas pontilhadas a forma que vai com cada pessoa."
     },
     "F5": {

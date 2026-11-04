@@ -34,7 +34,11 @@ module.exports = {
     if (pool.length < d.n) throw new Error(`G1-512: theme ${theme}/${L} has ${pool.length} nouns (< ${d.n})`);
     const nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme), names = W.namesFor(L, false);   // a teacher's thing per story (maker)
     const kinds = rng.shuffle(Array.from({ length: d.n }, (_, i) => (i % 2 ? 'sub' : 'add')));
-    const places = rng.shuffle(Array.from({ length: d.n }, (_, i) => i % d.choices));
+    // the right sentence's place: whole rounds over the places, then the cards left over in places drawn at random
+    // (2026-11-04, settings-space: 3 stories over 2 places always gave place 1 twice — the first sentence was right 67 %)
+    const full = Array.from({ length: d.n - (d.n % d.choices) }, (_, i) => i % d.choices);
+    const spare = rng.shuffle(Array.from({ length: d.choices }, (_, i) => i)).slice(0, d.n % d.choices);
+    const places = rng.shuffle(full.concat(spare));
     const used = new Set();
     const items = kinds.map((kind, i) => {
       let nums = null, g = 0;

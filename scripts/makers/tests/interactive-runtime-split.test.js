@@ -19,7 +19,19 @@ const REL = 'scripts/worksheet-gen/emit';
 const tmp = path.join(REPO, '.scratch', 'irt-ref');
 fs.rmSync(tmp, { recursive: true, force: true });
 fs.mkdirSync(path.join(tmp, REL), { recursive: true });
-fs.writeFileSync(path.join(tmp, REL, 'interactive-runtime.js'), execSync(`git show ${REF}:${REL}/interactive-runtime.js`, { cwd: REPO, maxBuffer: 64 << 20 }));
+// the DELIBERATE changes to the core since the split, applied to the reference so the test still proves the split itself
+// changed nothing else; a patch whose text is no longer in the reference fails the test (it cannot go stale silently)
+const DELIBERATE = [
+  { since: 'f146b5906', why: 'tap-spell accepts the other right orders a page lists (data-lcs-alts, Unscramble the Sentence)',
+    from: 'var right=fold(w)===fold(B.answers[i]);for(var k=0;k<it.slots.length;k++)',
+    to: 'var right=fold(w)===fold(B.answers[i]);if(!right){var al=String(((B.items[i]||{}).meta||{})["data-lcs-alts"]||"").split("|");for(var a=0;a<al.length;a++)if(al[a]&&fold(al[a])===fold(w))right=true}for(var k=0;k<it.slots.length;k++)' },
+];
+let refSrc = execSync(`git show ${REF}:${REL}/interactive-runtime.js`, { cwd: REPO, maxBuffer: 64 << 20, encoding: 'utf8' });
+for (const p of DELIBERATE) {
+  if (refSrc.split(p.from).length !== 2) { console.log(`FAIL deliberate change ${p.since} (${p.why}): its text is not once in the reference`); process.exit(1); }
+  refSrc = refSrc.replace(p.from, () => p.to);
+}
+fs.writeFileSync(path.join(tmp, REL, 'interactive-runtime.js'), refSrc);
 // the three kind modules were not part of the split (unchanged from the reference to the split commit): both sides load
 // the working tree's copy, so a later change to one of them (the 2026-11-02 set-clock handle sizing) is not read as the
 // split changing a deck

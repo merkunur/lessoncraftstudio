@@ -225,7 +225,8 @@ function validateBank(bank, loc) {
     if (WORKSHEET_WORD.test(st.title)) push(`${id} title "${st.title}" carries the worksheet word`);
     if (len(st.instruction) > 150) push(`${id} instruction ${len(st.instruction)} chars > 150`);
     if (/\{name\}/.test(st.title + st.instruction)) push(`${id} strings carry a {name} slot`);
-    if (['tick', 'bank', 'frames'].includes(face) && !/\{U\}/.test(st.title)) push(`${id} title "${st.title}" has no {U} token (every unit would share one title)`);
+    // {U} or {L}: sv / da / no name the animal mid-title in lower case ("Faktablad om {L}"), and {L} varies per unit too
+    if (['tick', 'bank', 'frames'].includes(face) && !/\{[UL]\}/.test(st.title)) push(`${id} title "${st.title}" has no {U} / {L} token (every unit would share one title)`);
     if (['compare', 'mystery'].includes(face)) {
       if (/\{U\}|\{L\}|\{UNIT\}/.test(st.title + st.instruction)) push(`${id} (${face}) carries a unit token — it fans by theme`);
       for (const t of titles) if (new RegExp('(?<!\\p{L})' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'iu').test(st.title)) push(`${id} title "${st.title}" names the animal "${t}" (the title would print the answer)`);
@@ -239,7 +240,7 @@ function validateBank(bank, loc) {
     if (WORKSHEET_WORD.test(s.title)) push(`title "${s.title}" carries the worksheet word`);
     if (len(s.instruction) > 150) push(`instruction ${len(s.instruction)} chars > 150`);
     if (/\{name\}/.test(s.title + s.instruction)) push('strings carry a {name} slot');
-    if (!/\{U\}/.test(s.title)) push(`title "${s.title}" has no {U} token (every unit would share one title)`);
+    if (!/\{[UL]\}/.test(s.title)) push(`title "${s.title}" has no {U} / {L} token (every unit would share one title)`);
   }
   // sv: the bare `grupp` token is banned; a compound carrying it must be listed in allowCompound
   if (loc === 'sv') {

@@ -134,10 +134,10 @@ function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' +
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
 function loadBank() {
-  delete require.cache[require.resolve(BANK_FILE)];
-  const mod = require(BANK_FILE);
-  return mod[Object.keys(mod)[0]];
+  if (!fs.existsSync(BANK_FILE)) throw new Error('absent: ' + BANK_FILE);
+  return require('./b3-fresh-bank.js').freshBank('instructions');
 }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 function picPath(theme, noun) { return decodeURIComponent(new URL(fileUri(theme, noun)).pathname.replace(/^\/([A-Za-z]:)/, '$1')); }

@@ -2161,8 +2161,8 @@
     "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen."
   },
   "K-350": {
-    "title": "Tospråklige bildekort: Norsk og engelsk",
-    "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din."
+    "title": "Tospråklige bildekort: norsk og {U}",
+    "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på {U}, og ta vare på kortene til ordveggen din."
   },
   "G1-324": {
     "title": "Stavelseskort: Les ordet stavelse for stavelse",

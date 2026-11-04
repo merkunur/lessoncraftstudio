@@ -32,7 +32,8 @@ module.exports = {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
     const pool = SW.pool(theme, L, d.min, d.max).filter((e) => !d.decodable || SW.decodable(e.word, L));
     if (pool.length < d.n) throw new Error(`K-560: theme ${theme}/${L} has ${pool.length} words of ${d.min}-${d.max} letters (< ${d.n})`);
-    const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's words (maker)
+    // a teacher's words (maker); the tile sheet is every letter of the page's words, so it follows a swap
+    const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme, 'pic', { derives: ['tiles'] });
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     // two mats a row while the words have 4 letters or fewer; else one mat a row (a 5-letter mat is wider than half the page)
     const U = (e) => SW.units(e.word, L);   // nl ij: one tile, one box

@@ -46,13 +46,21 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const corners = [[0, 0], [d.n - 1, 0], [d.n - 1, d.n - 1], [0, d.n - 1]];
-    let maze = null;
-    for (let t = 0; t < 400 && !maze; t++) {
+    // of up to 24 mazes with the level's number of runs, the one whose commonest run length is the smallest share of its
+    // runs (2026-11-04, settings-space: a small maze turns often, so 40-50 % of the runs were 1 square and "1" on every
+    // line scored that much)
+    let maze = null, lean = Infinity;
+    for (let t = 0, found = 0; t < 400 && found < 24; t++) {
       const { walls } = generateMaze({ cols: d.n, rows: d.n, rng });
       const c = rng.int(0, 3), from = corners[c], to = corners[(c + 2) % 4];
       const way = wayBetween(walls, d.n, d.n, from, to);
       const runs = runsOf(way);
-      if (runs.length >= d.runs[0] && runs.length <= d.runs[1]) maze = { walls, from, to, way, runs };
+      if (runs.length < d.runs[0] || runs.length > d.runs[1]) continue;
+      found++;
+      const len = {};
+      for (const r of runs) len[r.n] = (len[r.n] || 0) + 1;
+      const share = Math.max(...Object.values(len)) / runs.length;
+      if (share < lean) { lean = share; maze = { walls, from, to, way, runs }; }
     }
     if (!maze) throw new Error('K-485: no maze with the level\'s number of runs');
     const c = d.cell, W = d.n * c;

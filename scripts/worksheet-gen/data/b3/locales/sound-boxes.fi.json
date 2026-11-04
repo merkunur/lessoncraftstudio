@@ -648,20 +648,6 @@
         "i"
       ]
     ],
-    "bagel": [
-      [
-        "b",
-        "a"
-      ],
-      [
-        "g",
-        "e"
-      ],
-      [
-        "l",
-        "i"
-      ]
-    ],
     "baguette": [
       [
         "p",
@@ -4333,7 +4319,6 @@
     "bacon",
     "badger",
     "bag",
-    "bagel",
     "baguette",
     "ball",
     "banana",

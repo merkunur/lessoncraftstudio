@@ -1899,6 +1899,13 @@
    },
    {
     "theme": "At the Supermarket",
+    "noun": "candy",
+    "key": "candy",
+    "word": "snoepje",
+    "answer": "e"
+   },
+   {
+    "theme": "At the Supermarket",
     "noun": "lettuce",
     "key": "lettuce",
     "word": "sla",

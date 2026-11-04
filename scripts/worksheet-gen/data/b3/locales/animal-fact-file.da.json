@@ -581,15 +581,15 @@
       "instruction": "Find ud af noget om dyret. Skriv én oplysning i hver række på faktakortet, og fyld resten af siden med din egen tegning eller dine egne ord."
     },
     "G2-339": {
-      "title": "Faktakort om {U}: sæt ring om det rigtige",
-      "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det bor, og gør sætningen færdig."
+      "title": "Faktakort om {L}: sæt ring om det rigtige",
+      "instruction": "Læs mulighederne i hver række, og sæt ring om den, der passer på dyret. Tegn så, hvor det lever, og gør sætningen færdig."
     },
     "G2-340": {
-      "title": "Faktakort med ordbank: {U}",
+      "title": "Faktakort med ordbank: {L}",
       "instruction": "Find hver rigtig oplysning i ordbanken, og skriv den i den rigtige række på faktakortet. Gør så sætningen nederst færdig."
     },
     "G2-341": {
-      "title": "Faktakort: skriv tre sætninger om {U}",
+      "title": "Faktakort: skriv tre sætninger om {L}",
       "instruction": "Læs faktakortet. Gør de tre sætninger færdige med oplysninger fra det, og skriv så én oplysning mere selv på den sidste linje."
     },
     "G2-342": {

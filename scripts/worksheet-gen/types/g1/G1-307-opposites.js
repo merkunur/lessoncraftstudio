@@ -143,13 +143,16 @@ function slotPairs(ctx, taken, pool, loc, ok) {
   const tagged = pool.map((p) => ({ word: p.id, p }));
   const label = () => { if (ctx.slotsOut && ctx.slotsOut.pair) ctx.slotsOut.pair.labels = Object.fromEntries(tagged.map((x) => [x.word, x.p.a + ' ↔ ' + x.p.b])); };
   const cur = taken.map((p) => tagged[pool.indexOf(p)] || { word: p.id, p });
-  const chosen = slot.words(ctx, cur, tagged, 'pair');
+  // a pair puts BOTH its words in the page's chip bank (shuffled): those chips follow the pair (own-input gate); so does
+  // the page's count of cued cards (meta.cues says which card carries one, so a cue that moved to ANOTHER card still shows)
+  const PAIR = { derives: ['chips', 'chipPairs', 'cued', 'uncuedForWidth'] };
+  const chosen = slot.words(ctx, cur, tagged, 'pair', PAIR);
   label();
   if (!chosen.some((x, i) => x !== cur[i])) return taken;
   const list = chosen.map((x) => x.p), low = (w) => String(w).toLocaleLowerCase(loc);
   const clash = list.some((p, i) => list.some((q, j) => j > i && ((p.exclusiveWith || []).includes(q.id) || (q.exclusiveWith || []).includes(p.id) || [p.a, p.b].some((w) => [q.a, q.b].map(low).includes(low(w))))));
   if (!clash && (!ok || ok(list))) return list;
-  slot.words({ ...ctx, overrides: null }, cur, tagged, 'pair'); slot.refuse(ctx, 'pair'); label();
+  slot.words({ ...ctx, overrides: null }, cur, tagged, 'pair', PAIR); slot.refuse(ctx, 'pair'); label();
   return taken;
 }
 /** the tap targets of slotPairs: the first element of each pair (data-lcs-pair / -left / -chip-pair = its id) — maker only */
@@ -330,7 +333,7 @@ module.exports = {
       bankHtml + cardGrid({ cards: cardHtml, cols: d.cols, rows: d.rows }) + `</div>`;
     return {
       bodyHtml: tapPairs(ctx, bodyHtml),
-      meta: { pairs: cards.map((c) => c.pair.id), dirs, given: cards.map((c) => c.given), answers: cards.map((c) => c.answer), bankOrder, cued, uncuedForWidth },
+      meta: { pairs: cards.map((c) => c.pair.id), dirs, given: cards.map((c) => c.given), answers: cards.map((c) => c.answer), bankOrder, cued, uncuedForWidth, ...(d.cue === 'pic' ? { cues: cards.map((c) => !!c.cue) } : {}) },
     };
   },
 
@@ -512,8 +515,12 @@ module.exports = {
     // exclusiveWith a chosen pair, so no odd word can honestly pair with a page word)
     const oddWords = [];
     if (d.odd) {
-      const free = rng.shuffle(pool.filter((p) => !chosen.includes(p) && !chosen.some((c) => (c.exclusiveWith || []).includes(p.id) || (p.exclusiveWith || []).includes(c.id))));
-      for (const p of free) { if (oddWords.length === d.odd) break; const w = rng.next() < 0.5 ? p.a : p.b; oddWords.push(w); chips.push({ word: w, pair: '' }); }
+      // each free pair ranks on a key of its own (page seed + pair id; its member too), so a teacher's pair swap changes an
+      // odd word only when the pair it came from is now on the page or the freed pair outranks it (2026-11-04, own-input)
+      const { makeRng } = require('../../lib/rng.js'), key = (tag, p) => makeRng(String(rng.seed) + '|' + tag + '|' + p.id).next();
+      const free = pool.filter((p) => !chosen.includes(p) && !chosen.some((c) => (c.exclusiveWith || []).includes(p.id) || (p.exclusiveWith || []).includes(c.id)))
+        .map((p) => [key('odd', p), p]).sort((x, y) => x[0] - y[0]).map((e) => e[1]);
+      for (const p of free) { if (oddWords.length === d.odd) break; const w = key('oddside', p) < 0.5 ? p.a : p.b; oddWords.push(w); chips.push({ word: w, pair: '' }); }
       if (oddWords.length < d.odd) throw new Error(`${who}: ${loc} has too few pairs left for ${d.odd} odd words (refuse)`);
     }
     let order, tries = 0;

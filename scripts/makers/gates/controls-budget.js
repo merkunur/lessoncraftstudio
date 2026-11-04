@@ -24,8 +24,13 @@ const BUDGET = 7;
 
 function declared(t, loc) {
   const list = [];
-  if (t.levels.length > 1) list.push('level');
-  if (t.themed && t.themes.length > 1) list.push('pictures');
+  // the LANGUAGE's own levels and themes (templates.json localeLevels / localeThemes): a template offering one level in
+  // Swedish shows no Level control there (2026-11-04: K-375 sv, G2-324/326 sv, G1-313/327/328 en were read against the
+  // levels some other language offers)
+  const levels = (t.localeLevels && t.localeLevels[loc]) || t.levels;
+  const themes = (t.localeThemes && t.localeThemes[loc]) || t.themes || [];
+  if (levels.length > 1) list.push('level');
+  if (t.themed && themes.length > 1) list.push('pictures');
   if (t.units && t.units[loc] && t.units[loc].length) list.push('word');
   for (const c of t.controls || []) list.push('control:' + c);
   return list;
@@ -62,6 +67,10 @@ function checkDeclared(list) {
   const fake = (n) => [{ maker: 'poison', tj: { templates: [{ id: 'X', levels: [1, 2, 3], themed: true, themes: ['a', 'b'], units: { en: [{ id: 'w' }] }, locales: ['en'], controls: Array.from({ length: n - 3 }, (_, k) => 'c' + k) }] } }];
   const p8 = checkDeclared(fake(8)).fails.length, p7 = checkDeclared(fake(7)).fails.length;
   if (p8 !== 1 || p7 !== 0) { console.log(`FAIL poison: 8 controls → ${p8} failures (want 1), 7 → ${p7} (want 0)`); fails++; }
+  // poison: a language with one level and one theme declares neither control; a language with the full lists declares both
+  const per = { id: 'Y', levels: [1, 2, 3], localeLevels: { sv: [2] }, themed: true, themes: ['a', 'b'], localeThemes: { sv: ['a'] }, locales: ['en', 'sv'] };
+  const dSv = declared(per, 'sv').join(','), dEn = declared(per, 'en').join(',');
+  if (dSv !== '' || dEn !== 'level,pictures') { console.log(`FAIL poison: per-language lists → sv "${dSv}" (want ""), en "${dEn}" (want "level,pictures")`); fails++; }
 
   const dec = checkDeclared(list);
   dec.fails.slice(0, 20).forEach((f) => console.log('FAIL ' + f));

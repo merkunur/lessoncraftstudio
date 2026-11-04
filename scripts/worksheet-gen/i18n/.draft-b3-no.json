@@ -186,8 +186,8 @@
    "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen."
   },
   "K-350": {
-   "title": "Tospråklige bildekort: Norsk og engelsk",
-   "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din."
+   "title": "Tospråklige bildekort: norsk og {U}",
+   "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på {U}, og ta vare på kortene til ordveggen din."
   },
   "G1-324": {
    "title": "Stavelseskort: Les ordet stavelse for stavelse",
@@ -266,7 +266,7 @@
    "instruction": "Sett forstavelsen u- foran hvert ord og skriv det nye, motsatte ordet på linja."
   },
   "G1-308": {
-   "title": "Les og gjør: Følg instruksjonene",
+   "title": "Les og gjør: følg instruksjonene",
    "instruction": "Se på bilderekka og start ved flagget. Les hver setning og gjør nøyaktig det den sier med blyanten. Kryss så av i den lille ruten."
   },
   "G1-338": {
@@ -274,15 +274,15 @@
    "instruction": "Les hver setning. Finn bildet eller bildene den nevner i rekka, og sett ring rundt dem. Kryss så av i den lille ruten."
   },
   "G1-339": {
-   "title": "Les og gjør: Instruksjoner med to steg",
+   "title": "Les og gjør: instruksjoner med to steg",
    "instruction": "Hver setning sier to ting du skal gjøre. Les den helt ut før du begynner, og gjør så begge stegene i bilderekka."
   },
   "G1-340": {
-   "title": "Les og gjør: Første, andre, mellom",
+   "title": "Les og gjør: første, andre, mellom",
    "instruction": "Start ved flagget og tell bortover rekka. Finn bildet etter plassen det har, og gjør det setningen sier med blyanten."
   },
   "G1-341": {
-   "title": "Les og sjekk: Sant eller usant?",
+   "title": "Les og sjekk: sant eller usant?",
    "instruction": "Les hver setning og se på bilderekka. Er setningen sann eller usann? Sett ring rundt riktig ord."
   },
   "G1-342": {
@@ -323,7 +323,7 @@
   },
   "G2-321": {
    "title": "Hopp i hundrerruta: Følg pilene",
-   "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til høyre er 1 mer. Skriv tallet du lander på."
+   "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til venstre er 1 mindre, til høyre er 1 mer. Skriv tallet du lander på."
   },
   "G2-322": {
    "title": "Hemmelig tall: To piler, én rute",
@@ -367,7 +367,7 @@
   },
   "G2-330": {
    "title": "Del opp det sammensatte ordet",
-   "instruction": "Hele ordet står i bokstavruter ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
+   "instruction": "Hele ordet står bokstav for bokstav ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
   },
   "G2-331": {
    "title": "Koble orddelene: To bilder, ett ord",
@@ -8659,19 +8659,19 @@
        "theme": "forest creatures",
        "noun": "hedgehog",
        "key": "hedgehog",
-       "word": "piggsvin",
+       "word": "pinnsvin",
        "graphemes": [
         "p",
         "i",
-        "g",
-        "g",
+        "n",
+        "n",
         "s",
         "v",
         "i",
         "n"
        ],
        "split": [
-        "pigg",
+        "pinn",
         "svin"
        ],
        "pos": 0
@@ -12210,12 +12210,12 @@
        "theme": "forest creatures",
        "noun": "hedgehog",
        "key": "hedgehog",
-       "word": "piggsvin",
+       "word": "pinnsvin",
        "graphemes": [
         "p",
         "i",
-        "g",
-        "g",
+        "n",
+        "n",
         "s",
         "v",
         "i",
@@ -13327,7 +13327,6 @@
     "sunflower",
     "sunglasses",
     "swimming",
-    "tailor",
     "teapot",
     "thumb",
     "tissue",
@@ -13464,7 +13463,8 @@
     "wisteria",
     "wrist",
     "writing",
-    "yellow"
+    "yellow",
+    "porcupine"
    ],
    "texBoundary": [
     "accordion",
@@ -13477,9 +13477,7 @@
     "argentinosaurus",
     "artist",
     "asparagus",
-    "aster",
     "backpack",
-    "badge",
     "badger",
     "bagel",
     "baker",
@@ -13550,8 +13548,6 @@
     "firefighter",
     "flamingo",
     "flute",
-    "forsythia",
-    "galaxy",
     "garage",
     "gardener",
     "garland",
@@ -13583,7 +13579,6 @@
     "jasmine",
     "jellyfish",
     "jet",
-    "jupiter",
     "kangaroo",
     "kayak",
     "kettle",
@@ -13605,14 +13600,12 @@
     "lotus",
     "lunchbox",
     "magpie",
-    "manatee",
     "mango",
     "marigold",
     "mask",
     "mechanic",
     "medal",
     "melon",
-    "mercury",
     "millipede",
     "mistletoe",
     "mixer",
@@ -13620,7 +13613,6 @@
     "musician",
     "necklace",
     "nectarine",
-    "neptune",
     "notebook",
     "octopus",
     "oyster",
@@ -13722,7 +13714,6 @@
     "wardrobe",
     "watermelon",
     "wave",
-    "weasel",
     "whistle",
     "window",
     "x-ray"
@@ -13965,18 +13956,6 @@
       "s"
      ]
     ],
-    "aster": [
-     [
-      "a",
-      "s"
-     ],
-     [
-      "t",
-      "e",
-      "r",
-      "s"
-     ]
-    ],
     "author": [
      [
       "f",
@@ -14011,17 +13990,6 @@
       "s",
       "e",
       "kk"
-     ]
-    ],
-    "badge": [
-     [
-      "m",
-      "e",
-      "r"
-     ],
-     [
-      "k",
-      "e"
      ]
     ],
     "badger": [
@@ -15149,7 +15117,7 @@
      [
       "k",
       "r",
-      "a"
+      "å"
      ],
      [
       "k",
@@ -15733,19 +15701,6 @@
       "l"
      ]
     ],
-    "forsythia": [
-     [
-      "g",
-      "u",
-      "ll"
-     ],
-     [
-      "b",
-      "u",
-      "s",
-      "k"
-     ]
-    ],
     "fox": [
      [
       "r",
@@ -15760,21 +15715,6 @@
       "o",
       "s",
       "k"
-     ]
-    ],
-    "galaxy": [
-     [
-      "g",
-      "a"
-     ],
-     [
-      "l",
-      "a",
-      "k"
-     ],
-     [
-      "s",
-      "e"
      ]
     ],
     "garage": [
@@ -16126,7 +16066,7 @@
      [
       "p",
       "i",
-      "gg"
+      "nn"
      ],
      [
       "s",
@@ -16421,21 +16361,6 @@
      ],
      [
       "e"
-     ]
-    ],
-    "jupiter": [
-     [
-      "j",
-      "u"
-     ],
-     [
-      "p",
-      "i"
-     ],
-     [
-      "t",
-      "e",
-      "r"
      ]
     ],
     "kangaroo": [
@@ -16843,16 +16768,6 @@
       "e"
      ]
     ],
-    "manatee": [
-     [
-      "sj",
-      "ø"
-     ],
-     [
-      "k",
-      "u"
-     ]
-    ],
     "mango": [
      [
       "m",
@@ -16956,18 +16871,6 @@
       "l",
       "o",
       "n"
-     ]
-    ],
-    "mercury": [
-     [
-      "m",
-      "e",
-      "r"
-     ],
-     [
-      "k",
-      "u",
-      "r"
      ]
     ],
     "milk": [
@@ -17199,18 +17102,6 @@
      [
       "r",
       "i",
-      "n"
-     ]
-    ],
-    "neptune": [
-     [
-      "n",
-      "e",
-      "p"
-     ],
-     [
-      "t",
-      "u",
       "n"
      ]
     ],
@@ -17539,15 +17430,6 @@
       "s",
       "øy",
       "t"
-     ]
-    ],
-    "phlox": [
-     [
-      "f",
-      "l",
-      "o",
-      "k",
-      "s"
      ]
     ],
     "photographer": [
@@ -19322,18 +19204,6 @@
       "e"
      ]
     ],
-    "weasel": [
-     [
-      "s",
-      "n",
-      "ø"
-     ],
-     [
-      "m",
-      "u",
-      "s"
-     ]
-    ],
     "whisk": [
      [
       "v",
@@ -20433,7 +20303,21 @@
      "animal": "Favorittdyret mitt",
      "food": "Favorittmaten min",
      "color": "Favorittfargen min",
-     "toy": "Favorittleken min"
+     "toy": "Favorittleken min",
+     "fruit": "Favorittfrukten min",
+     "vegetable": "Favorittgrønnsaken min",
+     "pet": "Favorittkjæledyret mitt",
+     "instrument": "Favorittinstrumentet mitt",
+     "hobby": "Favoritthobbyen min",
+     "treat": "Favorittgodsaken min",
+     "bird": "Favorittfuglen min",
+     "bug": "Favorittkrypet mitt",
+     "sea": "Favorittdyret i havet",
+     "vehicle": "Favorittkjøretøyet mitt",
+     "clothes": "Favorittklærne mine",
+     "breakfast": "Favorittfrokosten min",
+     "shape": "Favorittformen min",
+     "farm": "Favorittdyret på gården"
     },
     "countHeads": {
      "people": "Personer i familien min:",
@@ -20475,7 +20359,36 @@
     "skate": "Jeg kan gå på skøyter",
     "ski": "Jeg kan gå på ski",
     "writename": "Jeg kan skrive navnet mitt",
-    "brushteeth": "Jeg kan pusse tennene"
+    "brushteeth": "Jeg kan pusse tennene",
+    "bounce": "Jeg kan sprette en ball",
+    "slide": "Jeg kan skli ned sklia",
+    "hike": "Jeg kan gå på tur",
+    "comb": "Jeg kan gre håret",
+    "washhands": "Jeg kan vaske hendene",
+    "dress": "Jeg kan kle på meg selv",
+    "coat": "Jeg kan kneppe jakka mi",
+    "boots": "Jeg kan ta på meg støvlene",
+    "bed": "Jeg kan re opp senga",
+    "tidy": "Jeg kan feie gulvet",
+    "cut": "Jeg kan klippe med saks",
+    "glue": "Jeg kan bruke lim",
+    "draw": "Jeg kan fargelegge pent",
+    "backpack": "Jeg kan pakke sekken min",
+    "drum": "Jeg kan tromme i takt",
+    "guitar": "Jeg kan spille gitar",
+    "blocks": "Jeg kan bygge et tårn",
+    "dice": "Jeg kan spille brettspill",
+    "bake": "Jeg kan være med og bake kake",
+    "photo": "Jeg kan ta et bilde",
+    "kite": "Jeg kan sende opp en drage",
+    "fish": "Jeg kan fiske med stang",
+    "tent": "Jeg kan sove i telt",
+    "water": "Jeg kan vanne blomstene",
+    "puddle": "Jeg kan hoppe i sølepytter",
+    "swing": "Jeg kan huske helt selv",
+    "umbrella": "Jeg kan slå opp paraplyen",
+    "jumprope": "Jeg kan hoppe tau",
+    "iceskate": "Jeg kan gå på skøyter"
    },
    "refuse": [],
    "optionWords": {
@@ -20512,7 +20425,122 @@
     "robot": "robot",
     "balloon": "ballong",
     "dinosaur": "dinosaur",
-    "boat": "båt"
+    "boat": "båt",
+    "lemon": "sitron",
+    "kiwi": "kiwi",
+    "orange": "appelsin",
+    "pear": "pære",
+    "pineapple": "ananas",
+    "watermelon": "vannmelon",
+    "raspberry": "bringebær",
+    "coconut": "kokosnøtt",
+    "broccoli": "brokkoli",
+    "corn": "mais",
+    "cucumber": "agurk",
+    "tomato": "tomat",
+    "potato": "potet",
+    "pumpkin": "gresskar",
+    "eggplant": "aubergine",
+    "lettuce": "salat",
+    "onion": "løk",
+    "cauliflower": "blomkål",
+    "goldfish": "gullfisk",
+    "hamster": "hamster",
+    "parrot": "papegøye",
+    "turtle": "skilpadde",
+    "mouse": "mus",
+    "frog": "frosk",
+    "drum": "tromme",
+    "flute": "fløyte",
+    "guitar": "gitar",
+    "piano": "piano",
+    "trumpet": "trompet",
+    "violin": "fiolin",
+    "harp": "harpe",
+    "xylophone": "xylofon",
+    "accordion": "trekkspill",
+    "saxophone": "saksofon",
+    "soccer": "fotball",
+    "tennis": "tennis",
+    "basketball": "basketball",
+    "swimming": "svømming",
+    "skating": "skøyteløping",
+    "biking": "sykling",
+    "chess": "sjakk",
+    "cupcake": "cupcake",
+    "donut": "smultring",
+    "lollipop": "kjærlighet på pinne",
+    "popsicle": "ispinne",
+    "waffle": "vaffel",
+    "muffin": "muffins",
+    "eagle": "ørn",
+    "flamingo": "flamingo",
+    "owl": "ugle",
+    "peacock": "påfugl",
+    "toucan": "tukan",
+    "ostrich": "struts",
+    "pelican": "pelikan",
+    "bee": "bie",
+    "ant": "maur",
+    "butterfly": "sommerfugl",
+    "caterpillar": "larve",
+    "ladybug": "marihøne",
+    "dragonfly": "øyenstikker",
+    "snail": "snegle",
+    "spider": "edderkopp",
+    "worm": "mark",
+    "crab": "krabbe",
+    "dolphin": "delfin",
+    "octopus": "blekksprut",
+    "jellyfish": "manet",
+    "whale": "hval",
+    "starfish": "sjøstjerne",
+    "shark": "hai",
+    "seal": "sel",
+    "airplane": "fly",
+    "bicycle": "sykkel",
+    "bus": "buss",
+    "helicopter": "helikopter",
+    "tractor": "traktor",
+    "rocket": "rakett",
+    "motorcycle": "motorsykkel",
+    "sailboat": "seilbåt",
+    "submarine": "ubåt",
+    "hat": "hatt",
+    "boots": "støvler",
+    "dress": "kjole",
+    "coat": "frakk",
+    "cap": "caps",
+    "t-shirt": "t-skjorte",
+    "scarf": "skjerf",
+    "jeans": "jeans",
+    "pajamas": "pysj",
+    "sweater": "genser",
+    "skirt": "skjørt",
+    "shorts": "shorts",
+    "cereal": "frokostblanding",
+    "pancake": "pannekake",
+    "croissant": "croissant",
+    "bagel": "bagel",
+    "sausage": "pølse",
+    "juice": "juice",
+    "circle": "sirkel",
+    "square": "kvadrat",
+    "triangle": "trekant",
+    "star": "stjerne",
+    "heart": "hjerte",
+    "diamond": "rombe",
+    "oval": "oval",
+    "moon": "måne",
+    "hexagon": "sekskant",
+    "rectangle": "rektangel",
+    "pentagon": "femkant",
+    "cow": "ku",
+    "goat": "geit",
+    "donkey": "esel",
+    "turkey": "kalkun",
+    "goose": "gås",
+    "llama": "lama"
    },
    "strings": {
     "K-323": {
@@ -20539,7 +20567,10 @@
      "title": "Navnet mitt: Skriv, tell og sammenlign",
      "instruction": "Skriv navnet ditt med én bokstav i hver rute og tell bokstavene. Skriv så navnet til en venn og sett ring rundt den som har flest."
     }
-   }
+   },
+   "excludeOptions": [
+    "coat"
+   ]
   },
   "picture-word-cards": {
    "cardCase": "lower",
@@ -20613,8 +20644,8 @@
      "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen."
     },
     "bilingual": {
-     "title": "Tospråklige bildekort: Norsk og engelsk",
-     "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din."
+     "title": "Tospråklige bildekort: norsk og {U}",
+     "instruction": "Klipp ut de åtte kortene. Si ordet på norsk og så på {U}, og ta vare på kortene til ordveggen din."
     },
     "syllable": {
      "title": "Stavelseskort: Les ordet stavelse for stavelse",
@@ -20708,7 +20739,7 @@
    "units": [
     {
      "id": "å",
-     "label": "ord med å: båt, gås, sol",
+     "label": "ord med å",
      "cells": [
       "båt",
       "gås",
@@ -20794,7 +20825,7 @@
     },
     {
      "id": "o",
-     "label": "ord med o: bok, sol, tog",
+     "label": "ord med o",
      "cells": [
       "bok",
       "sol",
@@ -20858,7 +20889,7 @@
     },
     {
      "id": "i",
-     "label": "ord med i: bil, is, ris",
+     "label": "ord med i",
      "cells": [
       "bil",
       "is",
@@ -20921,7 +20952,7 @@
     },
     {
      "id": "u",
-     "label": "ord med u: hus, mus, ku",
+     "label": "ord med u",
      "cells": [
       "hus",
       "mus",
@@ -20973,7 +21004,7 @@
     },
     {
      "id": "e",
-     "label": "ord med e: rev, sel",
+     "label": "ord med e",
      "cells": [
       "rev",
       "sel",
@@ -21013,7 +21044,7 @@
     },
     {
      "id": "ø",
-     "label": "ord med ø: dør, løk",
+     "label": "ord med ø",
      "cells": [
       "dør",
       "løk",
@@ -21053,7 +21084,7 @@
     },
     {
      "id": "a",
-     "label": "ord med a: kam, lam",
+     "label": "ord med a",
      "cells": [
       "kam",
       "lam",
@@ -21095,7 +21126,7 @@
    "complexUnits": [
     {
      "id": "r1",
-     "label": "ord med dobbel konsonant: katt, ball, hatt",
+     "label": "ord med dobbel konsonant",
      "cells": [
       "katt",
       "ball",
@@ -21188,7 +21219,7 @@
     },
     {
      "id": "r2",
-     "label": "ord som begynner med to konsonanter: fly, sko, tre",
+     "label": "ord som begynner med to konsonanter",
      "cells": [
       "fly",
       "sko",
@@ -21264,7 +21295,7 @@
     },
     {
      "id": "r3",
-     "label": "ord som slutter med to konsonanter: arm, ost, fisk",
+     "label": "ord som slutter med to konsonanter",
      "cells": [
       "arm",
       "ost",
@@ -21353,7 +21384,7 @@
     },
     {
      "id": "r4",
-     "label": "flere ord med dobbel konsonant: buss, egg, munn",
+     "label": "flere ord med dobbel konsonant",
      "cells": [
       "buss",
       "egg",
@@ -21445,7 +21476,7 @@
     },
     {
      "id": "r5",
-     "label": "flere ord med to konsonanter: hest, telt, melk",
+     "label": "flere ord med to konsonanter",
      "cells": [
       "hest",
       "telt",
@@ -24609,8 +24640,7 @@
      "family": "cleanliness",
      "alt": {
       "a": [
-       "rein",
-       "ryddig"
+       "rein"
       ],
       "b": [
        "møkkete"
@@ -24964,7 +24994,7 @@
     },
     {
      "id": "mark",
-     "frame": "Sett et kryss under {obj}."
+     "frame": "Sett en hake under {obj}."
     },
     {
      "id": "write",
@@ -27168,7 +27198,7 @@
    ],
    "strings": {
     "G1-308": {
-     "title": "Les og gjør: Følg instruksjonene",
+     "title": "Les og gjør: følg instruksjonene",
      "instruction": "Se på bilderekka og start ved flagget. Les hver setning og gjør nøyaktig det den sier med blyanten. Kryss så av i den lille ruten."
     },
     "F1": {
@@ -27176,22 +27206,36 @@
      "instruction": "Les hver setning. Finn bildet eller bildene den nevner i rekka, og sett ring rundt dem. Kryss så av i den lille ruten."
     },
     "F2": {
-     "title": "Les og gjør: Instruksjoner med to steg",
+     "title": "Les og gjør: instruksjoner med to steg",
      "instruction": "Hver setning sier to ting du skal gjøre. Les den helt ut før du begynner, og gjør så begge stegene i bilderekka."
     },
     "F3": {
-     "title": "Les og gjør: Første, andre, mellom",
+     "title": "Les og gjør: første, andre, mellom",
      "instruction": "Start ved flagget og tell bortover rekka. Finn bildet etter plassen det har, og gjør det setningen sier med blyanten."
     },
     "F4": {
-     "title": "Les og sjekk: Sant eller usant?",
+     "title": "Les og sjekk: sant eller usant?",
      "instruction": "Les hver setning og se på bilderekka. Er setningen sann eller usann? Sett ring rundt riktig ord."
     },
     "F5": {
      "title": "Les og tegn",
      "instruction": "Les hver setning nøye. Tegn så nøyaktig det den sier inni boksen."
     }
-   }
+   },
+   "draw2": [
+    {
+     "text": "Tegn {n} {pl} og {n2} {pl2}."
+    },
+    {
+     "text": "Tegn {n} {pl} og {n2} {pl2} i boksen."
+    },
+    {
+     "text": "Tegn {n} store {pl} og {n2} små {pl2}."
+    },
+    {
+     "text": "Tegn {n} {pl}. Tegn så {n2} {pl2}."
+    }
+   ]
   },
   "rhyming-words": {
    "opened": {
@@ -27305,9 +27349,9 @@
       }
      ],
      "extra": [
-      "matt",
       "natt",
-      "ratt"
+      "ratt",
+      "skatt"
      ],
      "nearMiss": [
       {
@@ -27544,17 +27588,6 @@
        "picOpened": true
       },
       {
-       "vocabKey": "coat",
-       "word": "frakk",
-       "pic": {
-        "theme": "clothing",
-        "noun": "coat"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
        "vocabKey": "stool",
        "word": "krakk",
        "pic": {
@@ -27567,9 +27600,9 @@
       }
      ],
      "extra": [
-      "takk",
       "hakk",
-      "sjakk"
+      "sjakk",
+      "lakk"
      ],
      "nearMiss": [
       {
@@ -27587,51 +27620,6 @@
        "pic": {
         "theme": "birds 2",
         "noun": "crow"
-       },
-       "picOpened": true
-      }
-     ]
-    },
-    {
-     "id": "ett",
-     "rime": "-ett",
-     "sound": "et",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "rocket",
-       "word": "rakett",
-       "pic": {
-        "theme": "vehicles",
-        "noun": "rocket"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "net",
-       "word": "nett",
-       "pic": {
-        "theme": "beach",
-        "noun": "net"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "sett",
-      "lett"
-     ],
-     "nearMiss": [
-      {
-       "vocabKey": "nose",
-       "word": "nese",
-       "pic": {
-        "theme": "body parts",
-        "noun": "nose"
        },
        "picOpened": true
       }
@@ -27737,60 +27725,6 @@
      ]
     },
     {
-     "id": "am",
-     "rime": "-am",
-     "sound": "am",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "lamb",
-       "word": "lam",
-       "pic": {
-        "theme": "farm animals",
-        "noun": "lamb"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "comb",
-       "word": "kam",
-       "pic": {
-        "theme": "around the house",
-        "noun": "comb"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "ram",
-      "dam"
-     ],
-     "nearMiss": [
-      {
-       "vocabKey": "lamp",
-       "word": "lampe",
-       "pic": {
-        "theme": "around the house",
-        "noun": "lamp"
-       },
-       "picOpened": true
-      },
-      {
-       "vocabKey": "cat",
-       "word": "katt",
-       "pic": {
-        "theme": "animals",
-        "noun": "cat"
-       },
-       "picOpened": true
-      }
-     ]
-    },
-    {
      "id": "in",
      "rime": "-in",
      "sound": "iːn",
@@ -27888,7 +27822,7 @@
      ],
      "extra": [
       "person",
-      "ballong"
+      "kanon"
      ],
      "nearMiss": [
       {
@@ -27985,9 +27919,7 @@
        "picOpened": true
       }
      ],
-     "extra": [
-      "grau"
-     ],
+     "extra": [],
      "nearMiss": [
       {
        "vocabKey": "lettuce",
@@ -28039,8 +27971,7 @@
       }
      ],
      "extra": [
-      "lev",
-      "sev"
+      "elev"
      ],
      "nearMiss": [
       {
@@ -28086,17 +28017,6 @@
        "pic": {
         "theme": "around the house",
         "noun": "gate"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "deer",
-       "word": "hjort",
-       "pic": {
-        "theme": "camping",
-        "noun": "deer"
        },
        "sameSpelling": true,
        "productive": true,
@@ -28212,8 +28132,7 @@
       }
      ],
      "extra": [
-      "by",
-      "ny"
+      "by"
      ],
      "nearMiss": [
       {
@@ -28336,50 +28255,6 @@
      ]
     },
     {
-     "id": "urv",
-     "rime": "-urv",
-     "sound": "ʉrv",
-     "cap": 8,
-     "members": [
-      {
-       "vocabKey": "basket",
-       "word": "kurv",
-       "pic": {
-        "theme": "At the Supermarket",
-        "noun": "basket"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      },
-      {
-       "vocabKey": "sparrow",
-       "word": "spurv",
-       "pic": {
-        "theme": "birds 2",
-        "noun": "sparrow"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
-      }
-     ],
-     "extra": [
-      "skurv"
-     ],
-     "nearMiss": [
-      {
-       "vocabKey": "sphere",
-       "word": "kule",
-       "pic": {
-        "theme": "shapes",
-        "noun": "sphere"
-       },
-       "picOpened": true
-      }
-     ]
-    },
-    {
      "id": "ost",
      "rime": "-ost",
      "sound": "ʊst",
@@ -28410,7 +28285,7 @@
      ],
      "extra": [
       "post",
-      "rost"
+      "frost"
      ],
      "nearMiss": [
       {
@@ -28460,22 +28335,11 @@
        "sameSpelling": true,
        "productive": true,
        "picOpened": true
-      },
-      {
-       "vocabKey": "gazelle",
-       "word": "gasell",
-       "pic": {
-        "theme": "zoo animals",
-        "noun": "gazelle"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
       }
      ],
      "extra": [
       "smell",
-      "snell"
+      "hell"
      ],
      "nearMiss": [
       {
@@ -28582,9 +28446,9 @@
       }
      ],
      "extra": [
-      "bake",
       "hake",
-      "sake"
+      "sake",
+      "make"
      ],
      "nearMiss": [
       {
@@ -28638,7 +28502,7 @@
      ],
      "extra": [
       "dose",
-      "nose"
+      "mimose"
      ],
      "nearMiss": [
       {
@@ -28746,7 +28610,6 @@
      ],
      "extra": [
       "bakke",
-      "takke",
       "nakke"
      ],
      "nearMiss": [
@@ -28800,8 +28663,7 @@
       }
      ],
      "extra": [
-      "taske",
-      "vaske"
+      "aske"
      ],
      "nearMiss": [
       {
@@ -28866,7 +28728,7 @@
      "id": "c4",
      "lines": [
       "Oppe på fjellet ligger en stein.",
-      "Der sitter jeg og dingler med et ___."
+      "Der sitter jeg og gnir mitt vonde ___."
      ],
      "answer": {
       "vocabKey": "leg"
@@ -28890,7 +28752,7 @@
      "id": "c6",
      "lines": [
       "Mamma fant en fin sitron.",
-      "Pappa fant en stor ___."
+      "Pappa skjærer opp en saftig ___."
      ],
      "answer": {
       "vocabKey": "melon"
@@ -28902,7 +28764,7 @@
      "id": "c7",
      "lines": [
       "Bak et gjerde står en hest.",
-      "Den har på seg en ___."
+      "Rytteren har på seg en ___."
      ],
      "answer": {
       "vocabKey": "vest"
@@ -28911,22 +28773,10 @@
      "cueFree": false
     },
     {
-     "id": "c8",
-     "lines": [
-      "Bestefar sitter på en krakk.",
-      "Han har på seg en varm ___."
-     ],
-     "answer": {
-      "vocabKey": "coat"
-     },
-     "rhymeWith": "krakk",
-     "cueFree": false
-    },
-    {
      "id": "c9",
      "lines": [
-      "Reven fant et gult brev.",
-      "Det var sendt fra en gammel ___."
+      "Bestemor fikk et gult brev.",
+      "Det var sendt fra en lur ___."
      ],
      "answer": {
       "vocabKey": "fox"
@@ -28987,7 +28837,7 @@
     },
     "F2": {
      "title": "Hopp i hundrerruta: Følg pilene",
-     "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til høyre er 1 mer. Skriv tallet du lander på."
+     "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til venstre er 1 mindre, til høyre er 1 mer. Skriv tallet du lander på."
     },
     "F3": {
      "title": "Hemmelig tall: To piler, én rute",
@@ -29625,38 +29475,6 @@
        "g": "nn",
        "side": "rule",
        "plural": "vann",
-       "pluralGap": null
-      },
-      {
-       "theme": "bakery",
-       "noun": "waffle",
-       "vocabKey": "waffle",
-       "word": "vaffel",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "ff",
-       "side": "rule",
-       "plural": "vafler",
-       "pluralGap": null
-      },
-      {
-       "theme": "around the house",
-       "noun": "fork",
-       "vocabKey": "fork",
-       "word": "gaffel",
-       "gaps": [
-        {
-         "from": 2,
-         "len": 2
-        }
-       ],
-       "g": "ff",
-       "side": "rule",
-       "plural": "gafler",
        "pluralGap": null
       },
       {
@@ -33233,7 +33051,7 @@
     },
     "G2-330": {
      "title": "Del opp det sammensatte ordet",
-     "instruction": "Hele ordet står i bokstavruter ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
+     "instruction": "Hele ordet står bokstav for bokstav ved siden av bildet sitt. Tegn en strek der det andre ordet begynner."
     },
     "G2-331": {
      "title": "Koble orddelene: To bilder, ett ord",
@@ -34834,15 +34652,15 @@
      "instruction": "Finn ut hva du vet om dette dyret. Skriv ett faktum i hver rad på faktaarket, og fyll resten av siden med tegning eller ord."
     },
     "G2-339": {
-     "title": "Faktaark om {U}: Kryss av det som stemmer",
+     "title": "Faktaark om {L}: sett ring rundt det som stemmer",
      "instruction": "Les valgene i hver rad og sett ring rundt det som stemmer for dette dyret. Tegn så hvor det lever, og fullfør setningen."
     },
     "G2-340": {
-     "title": "Faktaark om {U} med ordbank",
+     "title": "Faktaark om {L} med ordbank",
      "instruction": "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
     },
     "G2-341": {
-     "title": "Faktaark om {U}: Skriv tre setninger",
+     "title": "Faktaark om {L}: skriv tre setninger",
      "instruction": "Les faktaarket. Fullfør de tre setningene med fakta fra det, og skriv ett faktum til på den siste linja."
     },
     "G2-342": {

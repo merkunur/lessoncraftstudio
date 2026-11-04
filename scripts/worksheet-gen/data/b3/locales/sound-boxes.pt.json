@@ -116,16 +116,13 @@
     "armchair",
     "artist",
     "asparagus",
-    "aster",
     "asteroid",
     "astronaut",
     "author",
     "autumn",
     "backpack",
-    "bacon",
     "badge",
     "bag",
-    "bagel",
     "baguette",
     "baker",
     "ballerina",
@@ -165,7 +162,6 @@
     "brain",
     "broccoli",
     "brownie",
-    "brush",
     "bucket",
     "bud",
     "bull",
@@ -333,10 +329,8 @@
     "icicle",
     "jacket",
     "janitor",
-    "jasmine",
     "jumping",
     "jumpsuit",
-    "jupiter",
     "kettle",
     "key",
     "keyboard",
@@ -366,11 +360,9 @@
     "lollipop",
     "lotus",
     "lunchbox",
-    "macaron",
     "mango",
     "marigold",
     "marker",
-    "mars",
     "mask",
     "mechanic",
     "medal",
@@ -388,7 +380,6 @@
     "mosquito",
     "motorcycle",
     "mountain",
-    "muffin",
     "mug",
     "muscles",
     "musician",
@@ -397,7 +388,6 @@
     "neck",
     "necklace",
     "nectarine",
-    "neptune",
     "nest",
     "nose",
     "notebook",
@@ -499,7 +489,6 @@
     "shy",
     "singer",
     "singing",
-    "skateboard",
     "skating",
     "skeleton",
     "sled",
@@ -543,7 +532,6 @@
     "swing",
     "syringe",
     "t-shirt",
-    "tablet",
     "tart",
     "telephone",
     "telescope",
@@ -574,7 +562,6 @@
     "turquoise",
     "turtle",
     "velociraptor",
-    "venus",
     "vest",
     "veterinarian",
     "waffle",
@@ -592,8 +579,7 @@
     "wreath",
     "wrist",
     "writing",
-    "zebra",
-    "zinnia"
+    "zebra"
   ],
   "bank": {
     "acorn": [
@@ -887,17 +873,6 @@
         "o"
       ]
     ],
-    "aster": [
-      [
-        "á",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "r"
-      ]
-    ],
     "asteroid": [
       [
         "a",
@@ -1020,16 +995,6 @@
         "a"
       ]
     ],
-    "bacon": [
-      [
-        "b",
-        "a"
-      ],
-      [
-        "c",
-        "on"
-      ]
-    ],
     "badge": [
       [
         "d",
@@ -1061,17 +1026,6 @@
       [
         "l",
         "a"
-      ]
-    ],
-    "bagel": [
-      [
-        "b",
-        "a"
-      ],
-      [
-        "g",
-        "e",
-        "l"
       ]
     ],
     "baguette": [
@@ -5072,17 +5026,6 @@
         "e"
       ]
     ],
-    "jasmine": [
-      [
-        "j",
-        "a",
-        "s"
-      ],
-      [
-        "m",
-        "im"
-      ]
-    ],
     "jeep": [
       [
         "j",
@@ -5155,21 +5098,6 @@
         "c",
         "ã",
         "o"
-      ]
-    ],
-    "jupiter": [
-      [
-        "j",
-        "ú"
-      ],
-      [
-        "p",
-        "i"
-      ],
-      [
-        "t",
-        "e",
-        "r"
       ]
     ],
     "kettle": [
@@ -5621,20 +5549,6 @@
         "a"
       ]
     ],
-    "macaron": [
-      [
-        "m",
-        "a"
-      ],
-      [
-        "c",
-        "a"
-      ],
-      [
-        "r",
-        "on"
-      ]
-    ],
     "macaw": [
       [
         "a"
@@ -5710,17 +5624,6 @@
         "d",
         "o",
         "r"
-      ]
-    ],
-    "mars": [
-      [
-        "m",
-        "a",
-        "r"
-      ],
-      [
-        "t",
-        "e"
       ]
     ],
     "mask": [
@@ -6067,17 +5970,6 @@
         "a"
       ]
     ],
-    "muffin": [
-      [
-        "m",
-        "u",
-        "f"
-      ],
-      [
-        "f",
-        "in"
-      ]
-    ],
     "mug": [
       [
         "c",
@@ -6202,20 +6094,6 @@
       [
         "n",
         "a"
-      ]
-    ],
-    "neptune": [
-      [
-        "n",
-        "e"
-      ],
-      [
-        "t",
-        "u"
-      ],
-      [
-        "n",
-        "o"
       ]
     ],
     "nest": [
@@ -8190,17 +8068,6 @@
         "a"
       ]
     ],
-    "skateboard": [
-      [
-        "s",
-        "k",
-        "a"
-      ],
-      [
-        "t",
-        "e"
-      ]
-    ],
     "skating": [
       [
         "p",
@@ -9043,18 +8910,6 @@
         "a"
       ]
     ],
-    "tablet": [
-      [
-        "t",
-        "a"
-      ],
-      [
-        "b",
-        "l",
-        "e",
-        "t"
-      ]
-    ],
     "tart": [
       [
         "t",
@@ -9475,19 +9330,6 @@
         "s"
       ]
     ],
-    "trillium": [
-      [
-        "t",
-        "r",
-        "i",
-        "l"
-      ],
-      [
-        "l",
-        "i",
-        "um"
-      ]
-    ],
     "trombone": [
       [
         "t",
@@ -9651,19 +9493,6 @@
         "e"
       ]
     ],
-    "uranus": [
-      [
-        "u"
-      ],
-      [
-        "r",
-        "a"
-      ],
-      [
-        "n",
-        "o"
-      ]
-    ],
     "van": [
       [
         "v",
@@ -9702,17 +9531,6 @@
         "t",
         "o",
         "r"
-      ]
-    ],
-    "venus": [
-      [
-        "v",
-        "ê"
-      ],
-      [
-        "n",
-        "u",
-        "s"
       ]
     ],
     "vest": [
@@ -10099,17 +9917,6 @@
       [
         "b",
         "r",
-        "a"
-      ]
-    ],
-    "zinnia": [
-      [
-        "z",
-        "í"
-      ],
-      [
-        "n",
-        "i",
         "a"
       ]
     ]

@@ -42,7 +42,7 @@ module.exports = {
     const C = CALENDAR[L];
     // the month: a slot over every month 2025-2028 (the teacher's choice), drawn on a new page
     const months = YEARS.flatMap((y) => Array.from({ length: 12 }, (_, m) => ({ y, m, word: monthTitle(L, y, m) })));
-    const [pick] = slot.words(ctx, [rng.pick(months)], months, 'month');
+    const [pick] = slot.words(ctx, [rng.pick(months)], months, 'month', { derives: ['*'] });   // the month IS the page (its days follow it)
     const { y: year, m: month } = pick;
     const days = calendar.daysInMonth(year, month), firstCol = (calendar.firstDow(year, month) - C.weekStart + 7) % 7;
     const rows = Math.ceil((firstCol + days) / 7);

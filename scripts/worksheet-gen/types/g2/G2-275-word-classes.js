@@ -145,9 +145,9 @@ module.exports = {
     {
       const tag = (v) => ({ ...v, word: v.w });
       const amb = new Set(((LS_AMBIGUOUS[loc]) || []).map((x) => x.toLowerCase()));
-      if (classes.includes('noun')) pickN.splice(0, pickN.length, ...slot.pictures(ctx, pickN, nouns.filter((e) => !amb.has(e.word.toLowerCase())), theme, 'noun'));
-      if (classes.includes('verb')) verbs.splice(0, verbs.length, ...slot.words(ctx, verbs.map(tag), W.verbs.filter(tierOk).filter((v) => !drop.has(v.w.toLowerCase())).map(tag), 'verb'));
-      if (classes.includes('adj')) adjs.splice(0, adjs.length, ...slot.words(ctx, adjs.map(tag), W.adjectives.filter(tierOk).filter((a) => !drop.has(a.w.toLowerCase())).map(tag), 'adj'));
+      if (classes.includes('noun')) pickN.splice(0, pickN.length, ...slot.pictures(ctx, pickN, nouns.filter((e) => !amb.has(e.word.toLowerCase())), theme, 'noun', { derives: ['examples.noun'] }));
+      if (classes.includes('verb')) verbs.splice(0, verbs.length, ...slot.words(ctx, verbs.map(tag), W.verbs.filter(tierOk).filter((v) => !drop.has(v.w.toLowerCase())).map(tag), 'verb', { derives: ['examples.verb'] }));
+      if (classes.includes('adj')) adjs.splice(0, adjs.length, ...slot.words(ctx, adjs.map(tag), W.adjectives.filter(tierOk).filter((a) => !drop.has(a.w.toLowerCase())).map(tag), 'adj', { derives: ['examples.adj'] }));
     }
     const chips = rng.shuffle([
       ...pickN.map((e, i) => ({ cls: 'noun', word: e.word, noun: e.noun, src: d.pics ? fileUri(theme, e.noun) : null, i })),
@@ -156,11 +156,16 @@ module.exports = {
     ].filter((c) => classes.includes(c.cls)));
     // Level Set level 1 (`examples`): one WORKED EXAMPLE per bin — a word of that class, never one of the chips, printed
     // grey on the bin's first line. Drawn after every other draw, so the rest of the page is the page it would be without it.
+    // The pick is the word with the lowest key of its own (page seed + class + word), so a teacher's word changes a bin's
+    // example only when it IS that example or outranks it (2026-11-04, own-input; it was an index into a pool every swap
+    // reshaped); the example follows its class's chips (the slots' derives).
+    const { makeRng } = require('../../lib/rng.js');
+    const steady = (cls, p) => p.map((w) => [makeRng(String(rng.seed) + '|example|' + cls + '|' + w).next(), w]).sort((a, b) => a[0] - b[0])[0][1];
     const examples = {};
     if (d.examples) {
       const onPage = new Set(chips.map((c) => c.word.toLowerCase()));
       const pools = { noun: nouns.filter((e) => !onPage.has(e.word.toLowerCase())).map((e) => e.word), verb: W.verbs.filter(tierOk).map((v) => v.w).filter((w) => !onPage.has(w.toLowerCase())), adj: W.adjectives.filter(tierOk).map((a) => a.w).filter((w) => !onPage.has(w.toLowerCase())) };
-      for (const c of classes) { const p = pools[c]; if (!p.length) throw new Error(`G2-275: no worked example for ${c} in ${theme}/${loc}`); examples[c] = p[Math.floor(rng.next() * p.length)]; }
+      for (const c of classes) { const p = pools[c]; if (!p.length) throw new Error(`G2-275: no worked example for ${c} in ${theme}/${loc}`); examples[c] = steady(c, p); }
     }
     const chipHtml = chips.map((c) =>
       `<span class="ws-tile ws-tile--word" style="height:44px;font-size:${d.font}px" data-lcs-word="${c.word}" data-lcs-class="${c.cls}"${slot.attr(ctx, c.cls, c.i)}>` +

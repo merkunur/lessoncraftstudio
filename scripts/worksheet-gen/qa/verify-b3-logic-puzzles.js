@@ -98,12 +98,16 @@ const WORST_CHROME = { title: 'Logicals: drei Hinweise, eine Lösung für die zw
 const FI4_CHROME = { title: 'Loogisen päättelyn ruudukkotehtävät alakoululaisille: kolme vihjettä', instruction: 'Lue kolme vihjettä. Yliviivaa päättelyruudukosta vaihtoehdot, jotka eivät voi pitää paikkaansa, ja ympyröi lopuksi jokaisen lapsen kuva.' };
 const COMBO_CHROME = { title: FI4_CHROME.title, instruction: FI_INSTRUCTION };
 const BODY_EXPECT = new Map([[LONG_CHROME, 733], [WORST_CHROME, 710], [FI4_CHROME, 700], [COMBO_CHROME, 677]]);
+// the long en title wraps to FOUR lines on a fi page (measured 2026-11-04, the first all-locale run: the fi page sets the same
+// 68 characters one line longer) — that page is the FI4 shape, 4-line title + 2-line instruction, body 700
+const bodyExpect = (job) => (job.strings === LONG_CHROME && /-fi-longchrome$/.test(job.baseName || '') ? 700 : BODY_EXPECT.get(job.strings));
 
 function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' + name + '=')); return a ? a.slice(name.length + 3) : def; }
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
-function loadBankModule() { delete require.cache[require.resolve(BANK_FILE)]; return require(BANK_FILE); }
+// the module + its GENERATED locale files, as the type reads them (2026-11-04: the raw module holds only en)
+function loadBankModule() { if (!fs.existsSync(BANK_FILE)) throw new Error('absent: ' + BANK_FILE); return require('./b3-fresh-bank.js').freshModule('logic-puzzles'); }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 
 /* ---------------- C. the gate's own in-page audit ---------------- */
@@ -277,7 +281,7 @@ async function renderCheck(page, type, inj, job, opts) {
   fails.push(...m.fails);
   const cfg = (inj && inj.cfg) || type.difficulty[job.difficulty];
   if (cfg && m.cases.length && m.cases.length !== cfg.cases) fails.push(`count: ${m.cases.length} cases, config says ${cfg.cases}`);
-  const expect = BODY_EXPECT.get(job.strings);
+  const expect = bodyExpect(job);
   if (expect != null && Math.abs(m.body - expect) > 1) fails.push(`chrome: body measured ${m.body}, the probe expects ${expect} (vacuous or shifted chrome)`);
   if (job.strings === WORST_CHROME && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines, not 3 (vacuous)`);
   if ((job.strings === LONG_CHROME || job.strings === WORST_CHROME) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines, not 3 (vacuous)`);
@@ -618,7 +622,7 @@ async function faceCheck(page, type, inj, job, opts) {
     return res;
   }, { SETS, ROW_MAX });
   fails.push(...m.fails);
-  const expect = BODY_EXPECT.get(job.strings);
+  const expect = bodyExpect(job);
   if (expect != null && Math.abs(m.body - expect) > 1) fails.push(`chrome: body measured ${m.body}, the probe expects ${expect} (vacuous or shifted chrome)`);
   if (job.strings === WORST_CHROME && m.insLines < 3) fails.push('chrome: WORST_CHROME wrapped to fewer than 3 instruction lines (vacuous)');
   if ((job.strings === LONG_CHROME || job.strings === WORST_CHROME) && m.titleLines < 3) fails.push('chrome: the probe title wrapped to fewer than 3 lines (vacuous)');

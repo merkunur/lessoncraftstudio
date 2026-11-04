@@ -13,8 +13,6 @@
     "bathtub",
     "beanie",
     "blocks",
-    "bookcase",
-    "bookshelf",
     "bowl",
     "broccoli",
     "butter",
@@ -45,7 +43,6 @@
     "finger",
     "flag",
     "folder",
-    "forget-me-not",
     "gazelle",
     "giraffe",
     "goggles",
@@ -62,31 +59,24 @@
     "ladle",
     "leggings",
     "lifeguard",
-    "lighthouse",
     "lights",
     "lime",
     "lip",
     "marigold",
-    "medal",
     "microwave",
     "mittens",
-    "motorcycle",
-    "muffin",
     "mug",
     "nativity",
     "necklace",
-    "nightstand",
     "nut",
     "otter",
     "pan",
-    "paramedic",
     "pillow",
     "pinecone",
     "pitcher",
     "pizza",
     "plate",
     "pliers",
-    "plunger",
     "potato",
     "pudding",
     "puddle",
@@ -115,8 +105,7 @@
     "waffle",
     "water",
     "watermelon",
-    "wave",
-    "zinnia"
+    "wave"
   ],
   "exclude": [
     "athlete",
@@ -598,32 +587,6 @@
         "ck"
       ]
     ],
-    "badge": [
-      [
-        "a",
-        "b"
-      ],
-      [
-        "z",
-        "ei"
-      ],
-      [
-        "ch",
-        "e",
-        "n"
-      ]
-    ],
-    "bagel": [
-      [
-        "b",
-        "a"
-      ],
-      [
-        "g",
-        "e",
-        "l"
-      ]
-    ],
     "baker": [
       [
         "b",
@@ -704,18 +667,6 @@
         "r",
         "i",
         "ll"
-      ]
-    ],
-    "barber": [
-      [
-        "f",
-        "r",
-        "i"
-      ],
-      [
-        "s",
-        "eu",
-        "r"
       ]
     ],
     "basket": [
@@ -1050,44 +1001,6 @@
         "b",
         "u",
         "ch"
-      ]
-    ],
-    "bookcase": [
-      [
-        "b",
-        "ü"
-      ],
-      [
-        "ch",
-        "e"
-      ],
-      [
-        "rr",
-        "e"
-      ],
-      [
-        "g",
-        "a",
-        "l"
-      ]
-    ],
-    "bookshelf": [
-      [
-        "b",
-        "ü"
-      ],
-      [
-        "ch",
-        "e"
-      ],
-      [
-        "rr",
-        "e"
-      ],
-      [
-        "g",
-        "a",
-        "l"
       ]
     ],
     "boots": [
@@ -2393,33 +2306,11 @@
         "o"
       ]
     ],
-    "donut": [
-      [
-        "d",
-        "o"
-      ],
-      [
-        "n",
-        "u",
-        "t"
-      ]
-    ],
     "door": [
       [
         "t",
         "ü",
         "r"
-      ]
-    ],
-    "doughnut": [
-      [
-        "d",
-        "o"
-      ],
-      [
-        "n",
-        "u",
-        "t"
       ]
     ],
     "dove": [
@@ -2845,23 +2736,6 @@
         "e"
       ]
     ],
-    "florist": [
-      [
-        "f",
-        "l",
-        "o"
-      ],
-      [
-        "r",
-        "i",
-        "s"
-      ],
-      [
-        "t",
-        "i",
-        "n"
-      ]
-    ],
     "flower": [
       [
         "b",
@@ -2915,28 +2789,6 @@
         "a",
         "l",
         "d"
-      ]
-    ],
-    "forget-me-not": [
-      [
-        "v",
-        "e",
-        "r"
-      ],
-      [
-        "g",
-        "i",
-        "ss"
-      ],
-      [
-        "m",
-        "ei"
-      ],
-      [
-        "nn",
-        "i",
-        "ch",
-        "t"
       ]
     ],
     "fork": [
@@ -3489,18 +3341,6 @@
       [
         "h",
         "u",
-        "t"
-      ]
-    ],
-    "hawk": [
-      [
-        "h",
-        "a"
-      ],
-      [
-        "b",
-        "i",
-        "ch",
         "t"
       ]
     ],
@@ -4141,19 +3981,6 @@
         "r"
       ]
     ],
-    "lighthouse": [
-      [
-        "l",
-        "eu",
-        "ch"
-      ],
-      [
-        "tt",
-        "u",
-        "r",
-        "m"
-      ]
-    ],
     "lights": [
       [
         "l",
@@ -4184,16 +4011,6 @@
         "d",
         "e",
         "r"
-      ]
-    ],
-    "lily": [
-      [
-        "l",
-        "i"
-      ],
-      [
-        "l",
-        "ie"
       ]
     ],
     "lime": [
@@ -4402,20 +4219,6 @@
         "r"
       ]
     ],
-    "medal": [
-      [
-        "m",
-        "e"
-      ],
-      [
-        "d",
-        "ai"
-      ],
-      [
-        "ll",
-        "e"
-      ]
-    ],
     "medicine": [
       [
         "m",
@@ -4613,21 +4416,6 @@
         "e"
       ]
     ],
-    "motorcycle": [
-      [
-        "m",
-        "o"
-      ],
-      [
-        "t",
-        "o"
-      ],
-      [
-        "rr",
-        "a",
-        "d"
-      ]
-    ],
     "mountain": [
       [
         "b",
@@ -4649,17 +4437,6 @@
         "u",
         "n",
         "d"
-      ]
-    ],
-    "muffin": [
-      [
-        "m",
-        "u"
-      ],
-      [
-        "ff",
-        "i",
-        "n"
       ]
     ],
     "mug": [
@@ -4810,18 +4587,6 @@
         "n",
         "e",
         "tz"
-      ]
-    ],
-    "nightstand": [
-      [
-        "n",
-        "a",
-        "ch"
-      ],
-      [
-        "tt",
-        "i",
-        "sch"
       ]
     ],
     "notebook": [
@@ -5139,29 +4904,6 @@
         "r"
       ]
     ],
-    "paramedic": [
-      [
-        "s",
-        "a"
-      ],
-      [
-        "n",
-        "i"
-      ],
-      [
-        "t",
-        "ä"
-      ],
-      [
-        "t",
-        "e"
-      ],
-      [
-        "r",
-        "i",
-        "n"
-      ]
-    ],
     "parrot": [
       [
         "p",
@@ -5354,20 +5096,6 @@
         "a"
       ]
     ],
-    "petunia": [
-      [
-        "p",
-        "e"
-      ],
-      [
-        "t",
-        "u"
-      ],
-      [
-        "n",
-        "ie"
-      ]
-    ],
     "photographer": [
       [
         "f",
@@ -5554,21 +5282,6 @@
       ],
       [
         "m",
-        "e"
-      ]
-    ],
-    "plunger": [
-      [
-        "s",
-        "au"
-      ],
-      [
-        "gg",
-        "l",
-        "o"
-      ],
-      [
-        "ck",
         "e"
       ]
     ],
@@ -7019,18 +6732,6 @@
         "sch"
       ]
     ],
-    "tablet": [
-      [
-        "t",
-        "a"
-      ],
-      [
-        "b",
-        "l",
-        "e",
-        "t"
-      ]
-    ],
     "tailor": [
       [
         "sch",
@@ -7827,16 +7528,6 @@
         "r",
         "a"
       ]
-    ],
-    "zinnia": [
-      [
-        "z",
-        "i"
-      ],
-      [
-        "nn",
-        "ie"
-      ]
     ]
   },
   "texBoundary": [
@@ -7859,12 +7550,9 @@
     "astronaut",
     "author",
     "backpack",
-    "badge",
-    "bagel",
     "baker",
     "banana",
     "bandage",
-    "barber",
     "basketball",
     "bat",
     "beaver",
@@ -7888,7 +7576,6 @@
     "bracelet",
     "brontosaurus",
     "broom",
-    "brush",
     "bucket",
     "bud",
     "bulldozer",
@@ -7945,8 +7632,6 @@
     "dishwasher",
     "dolphin",
     "domino",
-    "donut",
-    "doughnut",
     "dove",
     "dragon",
     "driftwood",
@@ -7968,7 +7653,6 @@
     "fireplace",
     "flamingo",
     "flashlight",
-    "florist",
     "flower",
     "flute",
     "fork",
@@ -7999,7 +7683,6 @@
     "happy",
     "harp",
     "harvest",
-    "hawk",
     "headband",
     "heater",
     "helicopter",
@@ -8030,7 +7713,6 @@
     "lettuce",
     "lid",
     "lilac",
-    "lily",
     "log",
     "lollipop",
     "lotus",
@@ -8088,7 +7770,6 @@
     "pentagon",
     "peony",
     "pepper",
-    "petunia",
     "photographer",
     "piano",
     "picnic",
@@ -8170,7 +7851,6 @@
     "suspenders",
     "swallow",
     "swing",
-    "tablet",
     "tailor",
     "tape",
     "tart",

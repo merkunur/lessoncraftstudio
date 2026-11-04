@@ -1145,11 +1145,11 @@
   "strings": {
     "G2-317": {
       "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
-      "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de vormen bij ik, jij, hij en wij in de stippelvakjes en maak daarna de zinnen af."
+      "instruction": "Kijk naar het plaatje en lees het werkwoord. Schrijf de ontbrekende vormen in de stippelvakjes en maak daarna de zinnen af."
     },
     "F2": {
       "title": "Welke vorm hoort bij ik, jij en wij?",
-      "instruction": "Lees elk werkwoord links. Trek een lijn naar de vorm rechts die erbij hoort, één lijn per werkwoord."
+      "instruction": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort."
     },
     "F3": {
       "title": "Werkwoordsvormen in zinnen met plaatjes",

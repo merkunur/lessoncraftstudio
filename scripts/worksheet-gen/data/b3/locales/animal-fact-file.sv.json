@@ -581,15 +581,15 @@
       "instruction": "Ta reda på fakta om djuret. Skriv något du vet på varje rad i faktabladet och fyll sedan resten av sidan med en egen teckning eller egna ord."
     },
     "G2-339": {
-      "title": "Faktablad om {U}: kryssa rätt fakta",
+      "title": "Faktablad om {L}: ringa in rätt fakta",
       "instruction": "Läs alternativen på varje rad och ringa in det som stämmer för djuret. Rita sedan var det bor och gör meningen färdig."
     },
     "G2-340": {
-      "title": "Faktablad om {U} med ordbank",
+      "title": "Faktablad om {L} med ordbank",
       "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
     },
     "G2-341": {
-      "title": "Faktablad om {U}: skriv tre meningar",
+      "title": "Faktablad om {L}: skriv tre meningar",
       "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
     },
     "G2-342": {

@@ -102,6 +102,34 @@ const EXEMPT = {
   'G3-407': [/^index$/, 'a multiplication square: the row of 1 repeats the column numbers'],
   'G3-389': [/^const-\d+$/, 'level 1 numbers stay within 50, so they round to the four tens 20–50'],
   'G2-206': [/^const-1$/, 'make A ten: 11–19 ones bundle into one ten — the tens box is 1 by the task'],
+  // final phase round 7 (2026-11-04) — each read against the template's own instruction and build
+  'G1-411': [/^first-N-of-group$/, 'colour only N of the pictures: ANY N of the strip are right (the screen grades "any N"); colouring the first N is colouring N — knowing N means reading the number, which is the task'],
+  'G1-524': [/^prev\+1$/, 'write the missing dates: the dates of a month run on by one — filling the next date IS the lesson'],
+  'G1-243': [/^prev\+1$/, 'number of the day: the count-on chain is three boxes, each one more than the one before — counting on IS +1'],
+  'G1-255': [/^prev\+1$/, 'as G1-243: the count-on-by-ones chain'],
+  'G1-256': [/^prev\+1$/, 'as G1-243: the count-on-by-ones chain'],
+  'G1-257': [/^prev\+1$/, 'as G1-243: the count-on-by-ones chain'],
+  'G2-489': [/^same-as-prev$/, 'two-step problems: step 2 starts from step 1\'s result (its first box carries it) — carrying the result forward IS the two-step method'],
+  'K-064': [/^slot-0$/, 'circle the picture ON the box: a picture on the box sits on top of it, so the top picture is the answer on every card — where "on" is IS the lesson (under / beside are their own templates)'],
+  // whole words written letter by letter: the letters are the word's own, so the commonest letter of the language fills
+  // its share of the boxes — a box of "e" never spells a word
+  'K-529': [/^const-\p{L}$/u, 'word shape boxes: the child writes the WHOLE word, one letter a box — a letter\'s share is the language\'s, never a word'],
+  'G1-536': [/^const-\p{L}$/u, 'arrow words: each answer is a whole word written into its boxes — letter frequency, never a word'],
+  'G1-541': [/^const-\p{L}$/u, 'sum code: the decoded letters spell the secret word — each letter follows from its sum; a letter\'s share is the word\'s'],
+  'G1-540': [/^const-\p{L}$/u, 'number code: the decoded letters spell the secret word — a letter\'s share is the word\'s'],
+  'K-486': [/^const-\p{L}$/u, 'collect the letters: the letters on the way spell the picture\'s word — a letter\'s share is the word\'s'],
+  'G1-500': [/^const-\p{L}$/u, 'fill in the blank: the child writes the whole missing word — letter frequency, never a word'],
+  'K-231': [/^const-\p{L}$/u, 'build the word: the child writes the whole word from its letters — letter frequency, never a word'],
+  'K-560': [/^const-\p{L}$/u, 'letter tiles and word mats: the child builds the whole word — letter frequency, never a word'],
+  'G2-302': [/^(first|second)-half$/, 'colour the named squares to reveal the picture: the squares ARE the picture, and a picture stands on the ground — its squares lean to one half of the grid; colouring half the grid never draws it'],
+  // a page whose boxes mix answer kinds: the pooled chance (one over every answer seen) understates a box's own chance
+  'G3-370': [/^const-\d+$/, 'level 3 asks two division questions (answers 2-6, now drawn evenly) beside a product up to 36: one quotient fills about a sixth of the boxes — a guess scores a quotient\'s own chance (1 in 5), nothing more'],
+  'K-561': [/^const-\p{L}+$/u, 'count and write the plural: the number-word box holds one of the level\'s few counts beside the plural nouns — a count word scores its own chance'],
+  'G1-494': [/^const-\d+$/, 'count the letters and the sounds of words of 3-4 / 4-5 / 5-7 letters: every count lies in that narrow range and the middle one is the commonest — counting is the lesson; a box of 3 everywhere never tells letters from sounds'],
+  'G1-493': [/^const-\p{L}$/u, 'write the blend\'s two letters: the page already takes its blends round robin; s starts more blends of the language than any other letter (st sp sn sl sw sm sk) — a letter of the blend, never the blend'],
+  'G1-523': [/^(len-min|const-.+)$/u, 'a or the: every card\'s first sentence names its thing for the first time, so it takes the indefinite ("a dog") by the rule the page teaches; the decision is in the second sentence (the same thing again → the, a new thing → a)'],
+  'G1-522': [/^const-.+$/u, 'one and many with the article: the "one" phrase always takes the indefinite (a / an) by the rule the page teaches — the decision is the noun\'s form'],
+  'G1-483': [/^(same-as-prev|const-\d+)$/, 'number patterns: level 1 repeats a unit (AB, AAB, ABB) whose numbers are printed in the row, so two boxes often hold the same one of its two or three numbers; level 2 counts by 2, 5 or 10, so the answers are mostly tens — finding the rule IS the lesson, and a box\'s own chance is the unit\'s, not one in every number seen'],
 };
 // EXEMPT is an object literal: a template written twice keeps only its LAST entry (2026-11-02: G1-439 lost card-index that
 // way) — the gate refuses to run with a duplicate key

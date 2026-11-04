@@ -54,8 +54,10 @@ module.exports = {
       if (typed !== `${gap.before}[${gap.answer}]${gap.after}`) { const g = ownGap(typed); if (g) { gap = g; own = true; } else slot.refuse(ctx, 'sent' + i); }
       const n = [...gap.answer].length;
       const letterBoxes = d.letters && !gap.alts.length;
+      // a letter box is 32 px wide, 3 px apart (2026-11-04, screen-geometry: at 30 px the screen's tap targets could not reach
+      // the 34-px floor without overlapping the next letter)
       const box = letterBoxes
-        ? `<span style="display:inline-flex;gap:3px;vertical-align:middle;margin:0 4px">${[...gap.answer].map((ch) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(ch)}"` : ''} style="display:inline-flex;width:30px;height:40px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:7px;background:#FFFFFF"></span>`).join('')}</span>`
+        ? `<span style="display:inline-flex;gap:3px;vertical-align:middle;margin:0 4px">${[...gap.answer].map((ch) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(ch)}"` : ''} style="display:inline-flex;width:32px;height:40px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:7px;background:#FFFFFF"></span>`).join('')}</span>`
         : `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(gap.answer)}"${gap.alts.length ? ` data-lcs-alts="${esc(gap.alts.join('|'))}"` : ''}` : ''} style="display:inline-flex;vertical-align:middle;width:${Math.min(240, Math.max(130, n * 16 + 30))}px;height:42px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
       // as many of the thing as the sentence says (three cats: three pictures)
       const k = Math.round(d.px * (it.count > 3 ? 0.5 : 0.62));

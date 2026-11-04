@@ -233,7 +233,7 @@ const MAKERS = [
     newTemplates: [['Mirror drawing of a library picture on a grid (the rooster screenshot)', 'grid drawing of real art, not only pixel figures'], ['Symmetry with two axes', 'harder level']],
     fable: ['Grid drawing from LIBRARY art (screenshot 6): how to turn a line-art picture into a gridded copy task that a child can actually copy square by square (simplify the art? choose grid density from the art\'s detail?).'],
   },
-  { id: 'maps-grids', name: 'Maps & Coordinates', group: 'math', families: ['maps', 'grid-coordinates'], oldApps: ['treasure-hunt'], lang: 'bound',
+  { id: 'maps-grids', name: 'Maps & Coordinates', group: 'math', families: ['maps', 'grid-coordinates'], oldApps: ['treasure-hunt'], oldAppTemplates: { 'treasure-hunt': 'G1-528' }, lang: 'bound',
     settings: ['grid size', 'task: colour by coordinate / write codes / map key / directions / continents', 'with or without compass'],
     newTemplates: [['Treasure hunt: follow the steps (2 right, 3 up)', 'the old app\'s core, kept'], ['Draw your own map with a key', 'open task']],
     fable: [],
@@ -298,7 +298,7 @@ const MAKERS = [
     newTemplates: [['Missing piece of the picture (grid-match / missing-pieces)', 'the two old apps\' core'], ['Match the picture to its close-up', 'detail recognition']],
     fable: ['Shadows/silhouettes and "find the different one" are generated from library art (image-cache/silhouette.js). For teacher photos: can silhouettes be made reliably in the browser (background removal)?'],
   },
-  { id: 'position-words', name: 'Position Words', group: 'visual', families: ['position-words'], oldApps: ['prepositions'], lang: 'bound',
+  { id: 'position-words', name: 'Position Words', group: 'visual', families: ['position-words'], oldApps: ['prepositions'], oldAppTemplates: { prepositions: 'K-548' }, lang: 'bound',
     settings: ['words (on/under/beside/in front/behind/between/left/right…)', 'circle / draw / write the word'],
     newTemplates: [['Read and draw: put the ball under the table', 'the old prepositions app\'s sentence format, lcs-grammar (K-546)'], ['Where is it? write the position word', 'production (K-547)'],
       ['Choose the position word', 'frame-valid choices (K-548)'], ['Read and glue the picture on its spot', 'hands-on (K-549)']],
@@ -387,7 +387,7 @@ const MAKERS = [
     locale: ['sv and fi refused (no joined school script) — the maker is offered in 9 locales', 'de ships VA and LA'],
     fable: ['Cursive uses vendored Playwrite fonts measured on the PC (Linux renders 1-2 px differently). In the browser every OS/browser renders differently — how to keep the trace guides, joins and ruling aligned on Windows/Mac/iPad/Chromebook?'],
   },
-  { id: 'alphabet', name: 'Alphabet & Letters', group: 'literacy', families: ['letter-knowledge', 'letter-of-the-week', 'alphabetical-order'], oldApps: ['alphabet-train'], lang: 'bound',
+  { id: 'alphabet', name: 'Alphabet & Letters', group: 'literacy', families: ['letter-knowledge', 'letter-of-the-week', 'alphabetical-order'], oldApps: ['alphabet-train'], oldAppTemplates: { 'alphabet-train': 'K-530' }, lang: 'bound',
     settings: ['letters / letter of the week', 'task: capital-small match / missing letters / find the letter / vowels / ABC order / letter hunt', 'the language\'s full alphabet'],
     newTemplates: [['Alphabet train (fill the missing letters on the wagons)', 'the old app'], ['Alphabet chart with a picture for every letter', 'classroom poster in the language']],
     fable: ['A picture for every letter in every alphabet (incl. Q, X, Y, Å, Æ, Ø, Ä, Ö, Ü, ß-free) that truly starts with that SOUND, not just the letter (en "knife" fails). Is the vocab good enough, and what is the refusal rule?'],
@@ -419,7 +419,7 @@ const MAKERS = [
     newTemplates: [['Sight word bingo', 'game format'], ['Roll and read', 'game format']],
     fable: [],
   },
-  { id: 'spelling', name: 'Spelling & Word Building', group: 'literacy', families: ['word-building', 'spelling-rules'], oldApps: ['word-scramble', 'word-guess'], lang: 'bound',
+  { id: 'spelling', name: 'Spelling & Word Building', group: 'literacy', families: ['word-building', 'spelling-rules'], oldApps: ['word-scramble', 'word-guess'], oldAppTemplates: { 'word-scramble': 'G1-517', 'word-guess': 'G1-518' }, lang: 'bound',
     settings: ['words (theme / own)', 'task: missing letter / build / scramble / spelling rule / guess the word'],
     newTemplates: [['Word scramble (old app)', 'kept: the picture\'s letters mixed, never a word (G1-517)'], ['Word guess: letters as blanks with picture clue (old app)', 'kept: missing letters, one filling only (G1-518)'],
       ['Look, cover, write, check', 'the weekly spelling list page (G1-519)'], ['Circle the right spelling', 'one real error per wrong spelling, never a word (G2-492)'],
@@ -491,7 +491,7 @@ const MAKERS = [
     fable: [],
   },
   // ───────────── NEW MAKERS (old apps with no worksheet-gen family) ─────────────
-  { id: 'word-search', name: 'Word Search', group: 'puzzles', families: ['word-search'], oldApps: ['wordsearch'], lang: 'bound',
+  { id: 'word-search', name: 'Word Search', group: 'puzzles', families: ['word-search'], oldApps: ['wordsearch'], oldAppTemplates: { wordsearch: 'G1-532' }, lang: 'bound',
     settings: ['words (theme / own list)', 'grid size', 'directions (across, down, diagonal, backwards)', 'pictures as clues', 'capitals or small'],
     // built 2026-11-03 (types/_shared/word-search.js + lib/puzzles/grid-fill.js): G1-532 the old app's word list, K-567 picture
     // clues, G2-494 secret message, G1-533 shapes, G1-534 two languages, K-568 number words
@@ -499,7 +499,7 @@ const MAKERS = [
       ['Two-language word search', 'the dual-language class (G1-534)'], ['Number word search', 'numerals as clues (K-568)']],
     fable: ['Filler letters per language (letter frequency; å ä ö æ ø ü ñ ç treated as own letters), never accidentally spelling rude words in any of the 11 — a per-language blocklist; and the same word must not appear twice.'],
   },
-  { id: 'crossword', name: 'Crossword', group: 'puzzles', families: ['crossword'], oldApps: ['crossword'], lang: 'bound',
+  { id: 'crossword', name: 'Crossword', group: 'puzzles', families: ['crossword'], oldApps: ['crossword'], oldAppTemplates: { crossword: 'G1-535' }, lang: 'bound',
     settings: ['words (theme / own)', 'clues: pictures / words / sentences', 'size'],
     // built 2026-11-03 (types/_shared/crossword.js + lib/puzzles/crossword-layout.js). NEW-TEMPLATES §58 T4 «own clue sentences»
     // is built as the word-bank crossword with picture clues: a maker takes no per-word clue text
@@ -507,7 +507,7 @@ const MAKERS = [
       ['Crossword with a word bank', 'support (G1-537)'], ['Two-language crossword', 'the dual-language class (G1-538)']],
     fable: ['Crossword layout algorithm: fit 6-15 words densely and readably, all connected, in the browser in < 1 s; failure rule when words do not cross.'],
   },
-  { id: 'secret-code', name: 'Secret Code (Cryptogram)', group: 'puzzles', families: ['secret-code'], oldApps: ['cryptogram'], lang: 'bound',
+  { id: 'secret-code', name: 'Secret Code (Cryptogram)', group: 'puzzles', families: ['secret-code'], oldApps: ['cryptogram'], oldAppTemplates: { cryptogram: 'G1-539' }, lang: 'bound',
     settings: ['message (bank / own)', 'code: pictures / numbers / symbols', 'some letters given'],
     // built 2026-11-03 (types/_shared/cryptogram.js + data/puzzles/phrases.js): G1-539 the old app's picture code, G1-540 A = 1,
     // G1-541 sums, G2-496 complete the key, G1-542 make your own
@@ -515,7 +515,7 @@ const MAKERS = [
       ['Complete the key', 'one solved word fills the gaps (G2-496)'], ['Make your own code', 'open (G1-542)']],
     fable: [],
   },
-  { id: 'bingo', name: 'Bingo', group: 'puzzles', families: ['bingo'], oldApps: ['bingo'], lang: 'little',
+  { id: 'bingo', name: 'Bingo', group: 'puzzles', families: ['bingo'], oldApps: ['bingo'], oldAppTemplates: { bingo: 'K-569' }, lang: 'little',
     settings: ['content: pictures / words / numbers / sums / letters', 'grid 3×3 / 4×4 / 5×5', 'number of cards (unique)', 'caller cards'],
     // built 2026-11-03 (types/_shared/bingo.js): seven games, each with its caller-card template (the pool of a level is
     // fixed, the cards of every page differ): K-569/K-574 pictures (the old app), K-570/K-575 sight words, G1-543/G1-545

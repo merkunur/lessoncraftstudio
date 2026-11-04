@@ -165,6 +165,16 @@ const NO_KEY = {
       const c = getComputedStyle(el, '::after').content.replace(/^"|"$/g, '');
       if (c !== el.getAttribute('data-lcs-key-badge')) miss.push('a badge is not drawn'); else marks++;
     }
+    // an answer seated on a writing row (lib/key-on-row.js — an SVG <text>, G1-336 Pair Up the Opposites): its words drawn
+    for (const el of document.querySelectorAll('[data-lcs-keytext]')) {
+      const b = el.getBBox ? el.getBBox() : el.getBoundingClientRect();
+      if (!el.textContent.trim() || !(b.width > 0)) miss.push('a written answer is not drawn'); else marks++;
+    }
+    // a chip the key rings itself (letterChips: a 3 px border where the others have 2; division pills: a 4 px outline)
+    for (const el of document.querySelectorAll('[data-lcs-keyring]')) {
+      const cs = getComputedStyle(el);
+      if (Math.max(parseFloat(cs.outlineWidth) || 0, parseFloat(cs.borderTopWidth) || 0) < 3) miss.push('a ringed chip is not drawn'); else marks++;
+    }
     marks += document.querySelectorAll('[data-lcs-key-sample]').length;
     return { miss, marks };
   });
@@ -208,6 +218,17 @@ const NO_KEY = {
   await mount(sample.keyHtml.replace(".lcs-keypage [data-lcs-correct]{box-shadow:0 0 0 4px #F2784B;border-radius:999px}", ''));
   const p = await audit();
   if (!p.miss.length) fail('poison: a key without the ring rule was not caught');
+  // poison: a key whose answers seated on the writing rows are blank must be caught (and the real one counted)
+  const t336 = require(path.join(REPO, 'scripts/worksheet-gen/types/g1/G1-336-opposites-pair-up.js'));
+  const k336 = runtime.makePage({ type: t336, strings: withLevelInstruction(resolveStrings('G1-336', 'en', t336), 'G1-336', 2, 'en'), locale: 'en', difficulty: 2, theme: null, variant: 1, answerKey: true }).keyHtml;
+  await mount(k336);
+  const p0 = await audit();
+  if (p0.miss.length || !p0.marks) fail(`poison control: the G1-336 key reads ${p0.marks} marks, ${p0.miss.length} missing`);
+  const blanked = k336.replace(/(<text\b[^>]*\bdata-lcs-keytext="1"[^>]*>)[^<]*(<\/text>)/g, '$1$2');
+  if (blanked === k336) fail('poison: the G1-336 key has no seated answer to blank');
+  await mount(blanked);
+  const p1 = await audit();
+  if (!p1.miss.length) fail('poison: a key whose written answers are blank was not caught');
   await browser.close();
   fs.rmSync(tmp, { recursive: true, force: true });
   console.log(fails ? `answer keys: ${keys} key pages, ${fails} failing` : `answer keys: ${keys} key pages, all pass (no key by design: ${Object.keys(NO_KEY).length} templates)`);

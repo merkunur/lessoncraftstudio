@@ -137,7 +137,8 @@ function secretPage({ d, theme, L, rng, ctx }) {
     }
   }
   if (!found) throw new Error(`G1-474: no word of ${theme} (${L}) fits the sums — REFUSED`);
-  const word = slot.words(ctx, [found.word], poolWords, 'word')[0];
+  // the whole puzzle is built from the word (its sums spell it): declared, so the gate does not read it as a side effect
+  const word = slot.words(ctx, [found.word], poolWords, 'word', { derives: ['items', 'word'] })[0];
   const { vals, bySum, reps, letterSum } = found;
   // the rows, in the word's order, each a different set of pictures
   const usedWay = {};

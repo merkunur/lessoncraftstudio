@@ -53,8 +53,11 @@ const lineCount = () => {
   p.on('pageerror', (e) => errs.push(e.message));
   await p.setViewport({ width: 1366, height: 900 });
   const settle = (ms = 700) => new Promise((r) => setTimeout(r, ms));
-  let fails = 0, cases = 0, swaps = 0, accepted = 0, refused = 0;
-  const fail = (s) => { fails++; if (fails <= 60) console.log('FAIL ' + s); };
+  let fails = 0, cases = 0, swaps = 0, accepted = 0, refused = 0, derivePoisons = 0, rowPoisons = 0;
+  // every failure is kept: the first 60 are printed as they come, and the run ends with ALL of them grouped by template
+  // and kind (2026-11-04: 4825 failures printed 60 — the rest were invisible)
+  const allFails = [];
+  const fail = (s) => { fails++; allFails.push(s); if (fails <= 60) console.log('FAIL ' + s); };
 
   /** independent check of a shown page: lints + line counts */
   async function independent(html, gradeBand) {
@@ -147,6 +150,10 @@ const lineCount = () => {
   for (const { maker, tj } of makers) {
     let n = 0;
     for (const loc of QUICK ? ['en'] : ['en', 'fi']) {
+      // a language no template ships in shows the "not in your language" note and no test hook (shell.js) — cursive has
+      // no Finnish school script; waiting for the hook crashed every full run here, so part B never reached the makers
+      // after cursive (2026-11-04)
+      if (!tj.templates.some((x) => x.locales.includes(loc))) continue;
       await p.goto(`${base}/makers/app/?maker=${maker}&lang=${loc}`, { waitUntil: 'networkidle0' });
       await p.waitForFunction(() => window.__lcsMaker, { timeout: 60000 });
       const res = await p.evaluate(async ({ PER, sample }) => {
@@ -171,7 +178,72 @@ const lineCount = () => {
             const blank = (m, ks, theme) => ks.flatMap((k) => names(k, theme)).sort((x, y) => y.length - x.length).reduce((t, n) => t.replace(new RegExp('(?<![\\p{L}\\p{N}_])' + esc(n) + '(?![\\p{L}\\p{N}_])', 'gu'), '§'), JSON.stringify(m));
             // a slot item that brings a partner (a pair: the doctor and her thermometer) records it in slot.partners — both
             // items' partners are blanked too
-            const sameBut = (m1, k1, m0, k0, theme, partners) => { const ks = [k1, k0].concat(...[k1, k0].map((k) => (partners && partners[k]) || [])); return blank(m1, ks, theme) === blank(m0, ks, theme); };
+            // content a slot declares BUILT from its item (slot.derives — K-437's own row, G1-474's whole puzzle) follows the
+            // item by design: those paths ("{i}" = the swapped item, always 0 here) are left out of both pages (2026-11-04)
+            const strip = (m, derives, i) => {
+              if (!derives || !derives.length) return m;
+              if (derives.includes('*')) return {};   // the item IS the page (one story, the month, the message): every other slot is still checked
+              const c = JSON.parse(JSON.stringify(m));
+              for (const p of derives) {
+                const parts = p.replace('{i}', String(i)).split('.');
+                let x = c;
+                for (let k = 0; k < parts.length - 1 && x; k++) x = x[parts[k]];
+                if (x && typeof x === 'object') delete x[parts[parts.length - 1]];
+              }
+              return c;
+            };
+            // the swapped item's OWN row (2026-11-04): every array with one entry per item of the slot may differ at the swapped
+            // entry (index 0) — a row's sentence, syllables, article and letters follow its word (lib/slot.js: "the item the
+            // teacher chose replaces item i") — and every other entry must stay; anything else that moved is a content change
+            // … wherever the page keeps it: in EVERY array of the content at most ONE entry may differ — the swapped item's own
+            // (its row, its place in a shuffled word bank, its sentence among the page's sentences); a reshuffle moves two or
+            // more and still fails, as does any changed scalar (2026-11-04: index 0 alone missed G1-334's bank, G1-498's c1)
+            const same = (x, y) => JSON.stringify(x) === JSON.stringify(y);
+            const ownRowOnly = (a, b) => {
+              // … and any entry that NAMES the swapped item in both versions (its name is blanked to §): the item's own entries
+              // wherever the page keeps them — a word trading places with the decoy it was, a pair's two chips in the bank
+              if (Array.isArray(a) && Array.isArray(b)) {
+                if (a.length !== b.length) return false;
+                const diff = a.map((x, i) => i).filter((i) => !same(a[i], b[i]));
+                const named = (i) => JSON.stringify(a[i]).includes('§') && JSON.stringify(b[i]).includes('§');
+                if (diff.filter((i) => !named(i)).length <= 1) return true;
+                // a list the page SORTS (ABC order, rows by syllable count): the same entries in a new order, apart from the
+                // swapped item's own — every other entry is still there, unchanged
+                const left = b.map((x) => JSON.stringify(x));
+                const extra = [];
+                for (const x of a) { const j = left.indexOf(JSON.stringify(x)); if (j >= 0) left.splice(j, 1); else extra.push(x); }
+                return extra.length <= 1 && left.length <= 1;
+              }
+              if (a && b && typeof a === 'object' && typeof b === 'object') return [...new Set([...Object.keys(a), ...Object.keys(b)])].every((k) => ownRowOnly(a[k], b[k]));
+              return same(a, b);
+            };
+            const sameBut = (m1, k1, m0, k0, theme, partners, derives, n) => {
+              const ks = [k1, k0].concat(...[k1, k0].map((k) => (partners && partners[k]) || []));
+              const b1 = blank(strip(m1, derives, 0), ks, theme), b0 = blank(strip(m0, derives, 0), ks, theme);
+              if (b1 === b0) return true;
+              try { return ownRowOnly(JSON.parse(b1), JSON.parse(b0)); } catch (e) { return false; }
+            };
+            // poisons for a declaring slot: an extra field on the page, and (for an "{i}" path) the same path moved on
+            // ANOTHER item, must both still read as a content change
+            // poison for the own-row rule: the same page with ANOTHER row (entry 1 of a per-item array) moved must still read as a
+            // content change — null when the page has no per-item array to move
+            // the own-row rule's poison: TWO entries of the page's first array of two or more moved (a reshuffle) must still read
+            // as a content change — null when the content has no such array
+            const rowPoisonOf = (m1, k1, m0, k0, theme, partners, derives, n) => {
+              if (derives && derives.includes('*')) return null;
+              // on the content the comparison actually reads (a declared derived path already left out)
+              const c = JSON.parse(JSON.stringify(strip(m1, derives, 0))), c0 = strip(m0, derives, 0);
+              let moved = false;
+              const walk = (x) => { if (moved || !x || typeof x !== 'object') return; if (Array.isArray(x) && x.length >= 2) { x[x.length - 2] = ['__poison']; x[x.length - 1] = ['__poison2']; moved = true; return; } for (const v of Object.values(x)) walk(v); };
+              walk(c);
+              if (!moved) return null;
+              return sameBut(c, k1, c0, k0, theme, partners, null, n) ? 'two entries moved and passed' : '';
+            };
+            const poisonDerives = (m1, k1, m0, k0, theme, partners, derives, n) => {
+              const out = [];
+              if (!derives.includes('*') && sameBut({ ...m1, __poison: 1 }, k1, m0, k0, theme, partners, derives, n)) out.push('an extra field passed');
+              return out;
+            };
             if (!b.ok) { out.push({ id: t.id, d, role: '-', base: false }); continue; }
             for (const role of Object.keys(b.slots || {})) {
               const s = b.slots[role];
@@ -182,7 +254,7 @@ const lineCount = () => {
               const rows = [];
               for (const key of keys) {
                 const r = await M.mod.generate({ ...o, overrides: { [role]: { 0: key } } }, M.mount);
-                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, typeRefused: !!(r.ok && r.slots && r.slots[role] && r.slots[role].refused), others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0], s.theme, s.partners) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
+                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, typeRefused: !!(r.ok && r.slots && r.slots[role] && r.slots[role].refused), others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, derivePoison: r.ok && s.derives ? poisonDerives(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, rowPoison: r.ok ? rowPoisonOf(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
               }
               // a FREE slot (typed text: a group's name, a key line) takes any text by design — the typed-text cases above
               // test it; the outside-the-pool and duplicate probes are for slots with a pool
@@ -210,6 +282,8 @@ const lineCount = () => {
           acc++; accepted++;
           if (!row.others) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: other items changed`);
           if (!row.sameMeta) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: the page CONTENT changed with the picture (meta)`);
+          if (row.rowPoison != null) { rowPoisons++; if (row.rowPoison) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: poison — ${row.rowPoison} (the own-row rule hides other rows)`); }
+          if (row.derivePoison) { derivePoisons++; if (row.derivePoison.length) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: poison — ${row.derivePoison.join('; ')} (the declared derived content hides other changes)`); }
           if (!row.changed) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: applied but the page did not change`);
           const ind = await independent(row.html, r.grade);
           if (ind.lints.length) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: applied but fails ${ind.lints[0]}`);
@@ -221,8 +295,22 @@ const lineCount = () => {
   }
 
   if (errs.length) fail('page errors: ' + errs.slice(0, 3).join(' | '));
+  // the declared-derived poisons must have run where a declaring slot was swept (sight-words K-437, logic-puzzles G1-474)
+  if (swaps > 200 && !rowPoisons) fail('poison: no page with a per-item array was swapped — the own-row rule was never checked (a vacuous run)');
+  if (makers.some(({ maker }) => maker === 'sight-words' || maker === 'logic-puzzles') && !derivePoisons) fail('poison: no swap of a slot that declares derived content was checked (a vacuous run)');
   await set('as=sub&made=0&downloaded=0');
   await browser.close(); await m.close(); srv.close();
+  if (allFails.length > 60) {
+    const groups = {};
+    for (const x of allFails) {
+      // "<maker> <id> …[ <role>=<key>]: <what>" → "<maker> <id> <role>: <what>" (numbers and quoted text folded)
+      const m = x.match(/^(\S+ \S+)[^:]*?(?: (\S+)=[^:]*)?: (.*)$/);
+      const k = m ? `${m[1]}${m[2] ? ' ' + m[2] : ''}: ${m[3].replace(/"[^"]*"/g, '…').replace(/\d+/g, 'N').slice(0, 110)}` : x.slice(0, 140);
+      groups[k] = (groups[k] || 0) + 1;
+    }
+    console.log('every failure, grouped (template · role: kind × count):');
+    for (const [k, n] of Object.entries(groups).sort((a, b) => b[1] - a[1])) console.log(`  ${String(n).padStart(5)} × ${k}`);
+  }
   console.log(`own input: ${cases} typed-text cases, ${swaps} library swaps (${accepted} accepted, ${refused} refused)` + (fails ? `; ${fails} failing` : '; all pass, poisons fire both ways'));
   if (fails) process.exitCode = 1;
 })().catch((e) => { console.error('own input: error — ' + e.stack); process.exit(1); });

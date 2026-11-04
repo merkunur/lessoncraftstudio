@@ -944,7 +944,7 @@
   "strings": {
     "G2-316": {
       "title": "Samenstellingen: plaatje + plaatje",
-      "instruction": "Zeg de twee plaatjes, plak de twee woorden aan elkaar en schrijf het nieuwe woord op de lijn."
+      "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
     },
     "G2-329": {
       "title": "Samenstellingen: wat komt er in het midden?",
@@ -952,7 +952,7 @@
     },
     "G2-330": {
       "title": "Verdeel de samenstelling: zoek de twee woorden",
-      "instruction": "Het hele woord staat in letterhokjes naast zijn plaatje. Zet één streep waar het tweede woord begint."
+      "instruction": "Het hele woord staat letter voor letter naast zijn plaatje. Zet één streep waar het tweede woord begint."
     },
     "G2-331": {
       "title": "Verbind de helften: twee plaatjes, één woord",
@@ -964,7 +964,7 @@
     },
     "G2-333": {
       "title": "Woordweb: één woord, veel samenstellingen",
-      "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf de vier nieuwe woorden op de lijnen."
+      "instruction": "In het midden staat één woord. Elk plaatje eromheen maakt er een nieuw woord mee. Schrijf elk nieuw woord op zijn lijn."
     }
   }
 }

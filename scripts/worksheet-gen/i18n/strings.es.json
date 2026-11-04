@@ -2170,8 +2170,8 @@
     "instruction": "Recorta las tarjetas. Di la palabra de uno y la palabra de muchos y después junta cada pareja."
   },
   "K-350": {
-    "title": "Tarjetas bilingües: español e inglés",
-    "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+    "title": "Tarjetas bilingües: español {AND} {U}",
+    "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras."
   },
   "G1-324": {
     "title": "Tarjetas de sílabas: lee la palabra por partes",
@@ -2375,11 +2375,11 @@
   },
   "G3-378": {
     "title": "Acertijos de lógica de 4 por 4: seis pistas",
-    "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y pon palomita a lo que tiene que ser hasta que cada fila tenga una respuesta."
+    "instruction": "Cuatro niños y cuatro dibujos. Usa cada pista: tacha lo que no puede ser y palomea lo que sí es, hasta que cada fila tenga una respuesta."
   },
   "G1-349": {
     "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-    "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+    "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
   },
   "G3-379": {
     "title": "Acertijos de dos atributos: dos dibujos por niño",

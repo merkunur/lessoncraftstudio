@@ -40,7 +40,7 @@ module.exports = {
     if (!pool.length) throw new Error(`G1-505: ${L} has no passage with ${d.n} questions`);
     // a teacher's story (maker): another passage of the bank with its own questions (key = its title)
     const tagged = pool.map((x) => ({ ...x, word: x.p.title }));
-    const { p, qs } = slot.words(ctx, rng.sample(tagged, 1), tagged, 'story')[0];
+    const { p, qs } = slot.words(ctx, rng.sample(tagged, 1), tagged, 'story', { derives: ['*'] })[0];   // the one story IS the page (its questions follow it)
     const items = qs.map((q, i) => ({ q: q.q, a: right[i] ? q.choices[q.correct] : q.shown, right: right[i] }));
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const chip = (svg, ok) => `<span data-lcs-pick="1"${mark && ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:2.5px solid ${T.grid};border-radius:999px;background:#FFFFFF">${svg}</span>`;

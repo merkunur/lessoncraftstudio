@@ -11,7 +11,7 @@
     },
     "F2": {
       "title": "Hopp i hundrerruta: Følg pilene",
-      "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til høyre er 1 mer. Skriv tallet du lander på."
+      "instruction": "Start på tallet og følg pilene: opp er 10 mindre, ned er 10 mer, til venstre er 1 mindre, til høyre er 1 mer. Skriv tallet du lander på."
     },
     "F3": {
       "title": "Hemmelig tall: To piler, én rute",

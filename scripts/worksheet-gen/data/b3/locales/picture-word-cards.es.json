@@ -85,8 +85,8 @@
       "instruction": "Recorta las tarjetas. Di la palabra de uno y la palabra de muchos y después junta cada pareja."
     },
     "bilingual": {
-      "title": "Tarjetas bilingües: español e inglés",
-      "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+      "title": "Tarjetas bilingües: español {AND} {U}",
+      "instruction": "Recorta las ocho tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras."
     },
     "syllable": {
       "title": "Tarjetas de sílabas: lee la palabra por partes",

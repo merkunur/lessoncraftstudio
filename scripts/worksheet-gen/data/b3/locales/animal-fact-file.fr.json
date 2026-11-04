@@ -581,7 +581,7 @@
       "instruction": "Renseigne-toi sur cet animal. Écris un renseignement dans chaque ligne de la carte, puis complète la page avec un dessin ou tes propres mots."
     },
     "G2-339": {
-      "title": "Coche les bonnes réponses : {U}",
+      "title": "Entoure les bonnes réponses : {U}",
       "instruction": "Dans chaque ligne, lis les réponses proposées et entoure celle qui est vraie pour cet animal. Puis dessine son lieu de vie et termine la phrase."
     },
     "G2-340": {

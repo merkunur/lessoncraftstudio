@@ -1173,8 +1173,8 @@
         },
         {
           "theme": "vehicles",
-          "noun": "truck",
-          "vocabKey": "truck",
+          "noun": "bus",
+          "vocabKey": "bus",
           "word": "camión",
           "gaps": [
             {
@@ -3376,8 +3376,8 @@
         },
         {
           "theme": "vehicles",
-          "noun": "truck",
-          "vocabKey": "truck",
+          "noun": "bus",
+          "vocabKey": "bus",
           "word": "camión",
           "gaps": [
             {
@@ -3513,7 +3513,7 @@
     },
     "G2-328": {
       "title": "Plurales: {UNIT}",
-      "instruction": "Lee el singular y escribe el plural en los recuadros."
+      "instruction": "Lee el singular y escribe el plural en el recuadro."
     }
   }
 }

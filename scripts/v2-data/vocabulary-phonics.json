@@ -9319,9 +9319,9 @@
       "cmp": true
     },
     "es": {
-      "syl": 2,
-      "pat": "CVCV",
-      "lc": 5
+      "syl": 3,
+      "pat": "CVCVCV",
+      "lc": 7
     },
     "pt": {
       "syl": 3,
@@ -9497,9 +9497,9 @@
       "lc": 3
     },
     "es": {
-      "syl": 3,
-      "pat": "VCVCVC",
-      "lc": 7
+      "syl": 2,
+      "pat": "CVCVVC",
+      "lc": 6
     },
     "pt": {
       "syl": 3,
@@ -12949,8 +12949,8 @@
       "lc": 7
     },
     "da": {
-      "syl": 2,
-      "pat": "CVCCCCVCVC",
+      "syl": 4,
+      "pat": "CVCCVCVCCV",
       "lc": 10
     },
     "no": {

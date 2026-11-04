@@ -21,7 +21,6 @@
     "glass",
     "grasshopper",
     "hedgehog",
-    "muffin",
     "overalls",
     "pizza",
     "sausage",
@@ -1213,16 +1212,6 @@
         "on"
       ]
     ],
-    "muffin": [
-      [
-        "m",
-        "u"
-      ],
-      [
-        "ff",
-        "in"
-      ]
-    ],
     "milk": [
       [
         "l",
@@ -1670,17 +1659,6 @@
         "r"
       ]
     ],
-    "badger": [
-      [
-        "b",
-        "l",
-        "ai"
-      ],
-      [
-        "r",
-        "eau"
-      ]
-    ],
     "dragonfly": [
       [
         "l",
@@ -2014,7 +1992,6 @@
     "truck",
     "ant",
     "beaver",
-    "badger",
     "lizard",
     "mouse",
     "snail",

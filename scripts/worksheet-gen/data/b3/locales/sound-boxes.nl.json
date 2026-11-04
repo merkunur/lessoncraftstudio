@@ -15,7 +15,6 @@
     "blocks",
     "bucket",
     "carpenter",
-    "cashier",
     "crutches",
     "cucumber",
     "cushion",
@@ -33,15 +32,12 @@
     "ladder",
     "leggings",
     "lunchbox",
-    "medal",
-    "muffin",
     "mushroom",
     "necklace",
     "orange",
     "otter",
     "package",
     "pancake",
-    "parallelogram",
     "peeler",
     "pinecone",
     "plunger",
@@ -441,17 +437,6 @@
       [
         "g",
         "e"
-      ]
-    ],
-    "aster": [
-      [
-        "a",
-        "s"
-      ],
-      [
-        "t",
-        "e",
-        "r"
       ]
     ],
     "astronaut": [
@@ -3653,21 +3638,6 @@
         "r"
       ]
     ],
-    "medal": [
-      [
-        "m",
-        "e"
-      ],
-      [
-        "d",
-        "a",
-        "i"
-      ],
-      [
-        "ll",
-        "e"
-      ]
-    ],
     "meerkat": [
       [
         "s",
@@ -3841,17 +3811,6 @@
         "d"
       ]
     ],
-    "muffin": [
-      [
-        "m",
-        "u"
-      ],
-      [
-        "ff",
-        "i",
-        "n"
-      ]
-    ],
     "mug": [
       [
         "m",
@@ -4020,19 +3979,6 @@
         "k",
         "e",
         "r"
-      ]
-    ],
-    "oar": [
-      [
-        "r",
-        "oe",
-        "i"
-      ],
-      [
-        "s",
-        "p",
-        "aa",
-        "n"
       ]
     ],
     "oatmeal": [
@@ -4244,30 +4190,6 @@
         "p",
         "ie",
         "r"
-      ]
-    ],
-    "parallelogram": [
-      [
-        "p",
-        "a"
-      ],
-      [
-        "r",
-        "a"
-      ],
-      [
-        "ll",
-        "e"
-      ],
-      [
-        "ll",
-        "o"
-      ],
-      [
-        "g",
-        "r",
-        "a",
-        "m"
       ]
     ],
     "parsnip": [
@@ -6059,19 +5981,6 @@
         "k"
       ]
     ],
-    "trillium": [
-      [
-        "d",
-        "r",
-        "ie"
-      ],
-      [
-        "b",
-        "l",
-        "a",
-        "d"
-      ]
-    ],
     "trombone": [
       [
         "t",
@@ -6324,21 +6233,6 @@
         "p"
       ]
     ],
-    "watch": [
-      [
-        "h",
-        "o",
-        "r"
-      ],
-      [
-        "l",
-        "o"
-      ],
-      [
-        "g",
-        "e"
-      ]
-    ],
     "water": [
       [
         "w",
@@ -6478,14 +6372,6 @@
         "s"
       ]
     ],
-    "yacht": [
-      [
-        "j",
-        "a",
-        "ch",
-        "t"
-      ]
-    ],
     "zebra": [
       [
         "z",
@@ -6507,7 +6393,6 @@
     "armadillo",
     "artist",
     "asparagus",
-    "aster",
     "astronaut",
     "athlete",
     "author",
@@ -6531,7 +6416,6 @@
     "boots",
     "bracelet",
     "broom",
-    "brush",
     "bun",
     "butter",
     "buttercup",
@@ -6666,7 +6550,6 @@
     "nightstand",
     "nurse",
     "nutcracker",
-    "oar",
     "oatmeal",
     "orchid",
     "ornament",
@@ -6762,7 +6645,6 @@
     "tortoise",
     "toucan",
     "triangle",
-    "trillium",
     "trombone",
     "truck",
     "trumpet",
@@ -6776,7 +6658,6 @@
     "walrus",
     "wand",
     "wardrobe",
-    "watch",
     "water",
     "watermelon",
     "weasel",

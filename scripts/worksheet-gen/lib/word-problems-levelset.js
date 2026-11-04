@@ -171,18 +171,22 @@ function fill(tpl, s, loc) {
 /** A G1 problem's numbers for its kind. d: { max, iconMax, n2Set }. Returns {n1, n2, n3, answer} or null (re-draw). */
 function drawG1(kind, d, rng) {
   const M = d.max, I = d.iconMax;
-  const pick = (lo, hi) => (hi < lo ? null : rng.int(lo, hi));
-  const set = d.n2Set ? (lo, hi) => { const c = d.n2Set.filter((v) => v >= lo && v <= hi); return c.length ? rng.pick(c) : null; } : pick;
-  let n1, n2 = null, n3 = null, answer;
-  if (kind === 'add') { n1 = pick(2, Math.min(I, M) - 2); if (n1 == null) return null; n2 = set(2, Math.min(I, M) - n1); if (n2 == null) return null; answer = n1 + n2; }
-  else if (kind === 'sub') { n1 = pick(4, Math.min(I, M)); n2 = set(2, n1 - 2); if (n2 == null) return null; answer = n1 - n2; }
-  else if (kind === 'addChange') { n1 = pick(2, Math.min(I, M - 2)); const c = set(2, M - n1); if (c == null) return null; n3 = n1 + c; answer = c; }
-  else if (kind === 'subChange') { n1 = pick(4, Math.min(I, M)); const c = set(2, n1 - 2); if (c == null) return null; n3 = n1 - c; answer = c; }
-  else if (kind === 'compare') { n1 = pick(4, Math.min(I, M)); n2 = set(2, n1 - 2); if (n2 == null) return null; answer = n1 - n2; }
+  // every problem the kind allows (the same ranges as before), then the ANSWER drawn evenly among the answers they give,
+  // then a problem with it (2026-11-04, settings-space: drawing the first number and fitting the second into what was
+  // left made small answers the commonest — "2" was 35-39 % of the level-3 changes, "10" 27 % of the level-2 sums)
+  const range = (lo, hi) => { const out = []; for (let v = lo; v <= hi; v++) out.push(v); return out; };
+  const second = (lo, hi) => (d.n2Set ? d.n2Set.filter((v) => v >= lo && v <= hi) : range(lo, hi));
+  const all = [];
+  const add = (n1, n2, n3, answer) => { if (![n1, n2, n3].includes(answer)) all.push({ n1, n2, n3, answer }); };   // never a printed number (a child would copy it)
+  if (kind === 'add') { for (const n1 of range(2, Math.min(I, M) - 2)) for (const n2 of second(2, Math.min(I, M) - n1)) add(n1, n2, null, n1 + n2); }
+  else if (kind === 'sub') { for (const n1 of range(4, Math.min(I, M))) for (const n2 of second(2, n1 - 2)) add(n1, n2, null, n1 - n2); }
+  else if (kind === 'addChange') { for (const n1 of range(2, Math.min(I, M - 2))) for (const c of second(2, M - n1)) add(n1, null, n1 + c, c); }
+  else if (kind === 'subChange') { for (const n1 of range(4, Math.min(I, M))) for (const c of second(2, n1 - 2)) add(n1, null, n1 - c, c); }
+  else if (kind === 'compare') { for (const n1 of range(4, Math.min(I, M))) for (const n2 of second(2, n1 - 2)) add(n1, n2, null, n1 - n2); }
   else throw new Error('word-problems Level Set: unknown kind ' + kind);
-  // the answer is never one of the printed numbers (a child would copy it)
-  if ([n1, n2, n3].includes(answer)) return null;
-  return { n1, n2, n3, answer };
+  if (!all.length) return null;
+  const answer = rng.pick([...new Set(all.map((p) => p.answer))]);
+  return rng.pick(all.filter((p) => p.answer === answer));
 }
 /** The answer of a G1 problem, recomputed from its stamps (verify + the robot's oracle). */
 function g1Answer(kind, a, b, c) {

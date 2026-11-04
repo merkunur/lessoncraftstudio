@@ -114,7 +114,8 @@ module.exports = {
     });
     return {
       bodyHtml: tapP(`<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:center"><div data-lcs-dominoes style="display:grid;grid-template-columns:repeat(${cols},${tw}px);gap:${gap}px">${html.join('')}</div></div>`),
-      meta: { ring: tiles.map((t) => `${t.left}|${t.right}`) },
+      // each domino names the two pairs it joins (a teacher's pair swap moves exactly the two dominoes that hold it)
+      meta: { ring: tiles.map((t) => `${t.lid}:${t.left}|${t.rid}:${t.right}`) },
     };
   },
 

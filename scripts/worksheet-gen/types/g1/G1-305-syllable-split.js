@@ -121,17 +121,38 @@ function swapRefused(picks, pool, loc, same = () => true) {
  * SAME syllable count — the page's count mix, its long-word target, its tapping-rhythm guard and its sort columns stay as
  * drawn. Refused when the count differs, when the word is one the published fix took out, when it is the longer form of
  * another word on the page or the other way round (fi haalari / haalarit), or when the face's own rule (ok) says no.
- * The slot's values are the page's words in draw order.
+ * The slot's values are the page's words in draw order. One role per syllable count (pic0, pic1 … in order of first
+ * appearance, slot.byKind — 2026-11-04: one role over the whole pool refused about half its choices), so the picker
+ * offers only words with the card's own count; the returned list carries tap(i), its card's tap target.
  */
+const countOf = (e) => e.count;
+const withTap = (list, tap) => { Object.defineProperty(list, 'tap', { value: tap, enumerable: false }); return list; };
 function slotWords(ctx, picks, pool, theme, loc, ok = () => true) {
-  const chosen = slot.pictures(ctx, picks, pool, theme);
   const low = (e) => e.word.toLocaleLowerCase(loc);
   const nested = (a, b) => a !== b && low(a) !== low(b) && ((low(b).length >= 4 && low(a).startsWith(low(b))) || (low(a).length >= 4 && low(b).startsWith(low(a))));
-  const bad = chosen.some((e, i) => e !== picks[i] && (e.count !== picks[i].count || (PUBLISHED_FIX[loc] || []).includes(fold(e.word)) || chosen.some((o) => nested(e, o)) || !ok(e)));
-  if (!bad) return chosen;
-  slot.pictures(ctx && { ...ctx, overrides: null }, picks, pool, theme); slot.refuse(ctx, 'pic');
-  return picks;
+  const KS = slot.byKind(ctx, picks, countOf, (k) => pool.filter((e) => e.count === k), {
+    theme, prefix: 'pic',
+    ok: (x, old) => !(PUBLISHED_FIX[loc] || []).includes(fold(x.word)) && !picks.some((o) => o !== old && nested(x, o)) && ok(x),
+    page: (items) => !items.some((e) => items.some((o) => nested(e, o))),
+  });
+  return withTap(KS.items, KS.tap);
 }
+/** the slots re-recorded over the words the page finally shows (a face that replaced one after the draw); the roles whose
+ *  teacher's choice did not survive are refused. Returns the list with its tap(i). */
+function resyncWords(ctx, shown, wanted, pool, theme) {
+  if (!ctx || !ctx.slotsOut) return withTap(shown, () => '');
+  const KS = slot.byKind({ ...ctx, overrides: null }, shown, countOf, (k) => pool.filter((e) => e.count === k), { theme, prefix: 'pic' });
+  // role pic<k> = the k-th count in order of first appearance in the wanted list; its override {j: key} names that count's
+  // j-th card — refused when the page does not show the teacher's word there
+  const kinds = [...new Set(wanted.map(countOf))];
+  for (const [role, want] of Object.entries((ctx.overrides) || {})) {
+    const m = /^pic(\d+)$/.exec(role); if (!m || kinds[+m[1]] === undefined) continue;
+    const idx = wanted.map((e, i) => (countOf(e) === kinds[+m[1]] ? i : -1)).filter((i) => i >= 0);
+    if (Object.keys(want || {}).some((j) => idx[+j] !== undefined && shown[idx[+j]] !== wanted[idx[+j]])) slot.refuse(ctx, role);
+  }
+  return withTap(KS.items, KS.tap);
+}
+const picTap = (ctx, list, i) => (list && list.tap ? list.tap(i) : slot.attr(ctx, 'pic', i));
 const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
 let _screen = null;
 const SCR = () => (_screen = _screen || require('../../lib/syllable-split-screen.js'));
@@ -352,7 +373,7 @@ module.exports = {
       const arcs = keyFill ? syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'printed' }) : syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'blank', dots: d.dots ? e.count : 0 });
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ` +
         `data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" ` +
-        `data-lcs-count="${e.count}" data-lcs-cell="${cell}" data-lcs-face="base"${slot.attr(ctx, 'pic', picks.indexOf(e))} data-lcs-mark="${esc(b.mark)}">` +
+        `data-lcs-count="${e.count}" data-lcs-cell="${cell}" data-lcs-face="base"${picTap(ctx, picks, picks.indexOf(e))} data-lcs-mark="${esc(b.mark)}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${esc(e.vocabKey)}" style="width:${d.pic}px;height:${d.pic}px;flex:0 1 auto;min-height:${Math.max(44, Math.round(d.pic * 0.75))}px">` +
         `<div style="margin-top:8px;line-height:0" data-lcs-wordrow>${wordSvg}</div>` +
         `<div style="margin-top:6px;line-height:0" data-lcs-arczone>${arcs}</div></div>`;
@@ -383,7 +404,7 @@ module.exports = {
     const refuse = (why) => { throw new Error(`${ID}/${face}: theme ${theme}/${loc} ${why} — REFUSED`); };
     const img = (e, px) => `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${esc(e.vocabKey)}" style="width:${px}px;height:${px}px;flex:none">`;
     let tapList = [];   // the page's words in slot order (maker tap targets)
-    const tapAt = (e) => { const i = tapList.indexOf(e); return i < 0 ? '' : slot.attr(ctx, 'pic', i); };
+    const tapAt = (e) => { const i = tapList.indexOf(e); return i < 0 ? '' : picTap(ctx, tapList, i); };
     const stamps = (e) => `${tapAt(e).trim()}${tapAt(e) ? ' ' : ''}data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" data-lcs-count="${e.count}" data-lcs-face="${face}"`;
     const rowStage = (e, extra, body) => `<div class="ws-card-stage" style="justify-content:flex-start;align-items:center;gap:${ROW_GAP}px;padding:0 0 0 ${ROW_BADGE}px" data-ws-content ${stamps(e)}${extra || ''}>${body}</div>`;
     const rootOpen = (extra) => `<div style="flex:1;display:flex;flex-direction:column;min-height:0" data-lcs-type="${ID}" data-lcs-face="${face}" ` +
@@ -427,7 +448,7 @@ module.exports = {
       const eligibleIdx = (e) => e.split.map((syl, i) => ([...syl].length >= lo && [...syl].length <= hi ? i : -1)).filter((i) => i >= 0);
       const freshIdx = (e) => eligibleIdx(e).filter((i) => !usedSyl.has(e.split[i].toLocaleLowerCase(loc)));
       const remaining = pool.filter((e) => !picks.includes(e)).sort((a, b) => a.word.localeCompare(b.word, loc));
-      const chosen = [], blanks = [];
+      const chosen = withTap([], picks.tap || (() => '')), blanks = [];
       tapList = chosen;
       const cards = picks.map((e0) => {
         let e = e0;
@@ -453,11 +474,7 @@ module.exports = {
           `<div style="margin-top:6px;line-height:0" data-lcs-wordrow>${wordSvg}</div></div>`;
       });
       // the slot follows the words on the cards: a teacher's word swapped out again (no fresh syllable left for it) is a refusal
-      if (ctx && ctx.slotsOut && chosen.some((e, i) => e !== picks[i])) {
-        const want = (ctx.overrides && ctx.overrides.pic) || {};
-        slot.pictures({ ...ctx, overrides: null }, chosen, pool, theme);
-        if (Object.keys(want).some((i) => chosen[+i] !== picks[+i])) slot.refuse(ctx, 'pic');
-      }
+      if (ctx && ctx.slotsOut && chosen.some((e, i) => e !== picks[i])) resyncWords(ctx, chosen, picks, pool, theme);
       return {
         bodyHtml: rootOpen(` data-lcs-cellmax="${d.cellMax}" data-lcs-blanklo="${lo}" data-lcs-blankhi="${hi}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
         meta: { face, words: chosen.map((e) => e.word), splits: chosen.map((e) => e.split.join('-')), pool: pool.length, ...fm(chosen), ...(fresh ? { blanks } : {}) },
@@ -514,10 +531,10 @@ module.exports = {
         if (chosen.some((e, i) => e !== drawn[i])) {
           const cand = chosen.slice().sort((x, y) => compare(x.word, y.word, loc)), cs = cand.map((e) => e.count);
           const mono = cs.every((v, i) => i === 0 || v >= cs[i - 1]) || cs.every((v, i) => i === 0 || v <= cs[i - 1]);
-          if (mono) { slot.pictures({ ...ctx, overrides: null }, drawn, pool, theme); slot.refuse(ctx, 'pic'); } else { sorted = cand; drawn = chosen; }
-        }
+          if (mono) drawn = resyncWords(ctx, drawn, chosen, pool, theme); else { sorted = cand; drawn = chosen; }
+        } else drawn = chosen;
       }
-      const bankHtml = syllableSortBank({ words: sorted.map((e, i) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun), count: e.count, rank: i })), wordPx: d.wordPx || 18 }).replace(/ data-lcs-bank="([^"]*)"/g, (m, k) => m + slot.attr(ctx, 'pic', drawn.findIndex((e) => e.vocabKey === k)));
+      const bankHtml = syllableSortBank({ words: sorted.map((e, i) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun), count: e.count, rank: i })), wordPx: d.wordPx || 18 }).replace(/ data-lcs-bank="([^"]*)"/g, (m, k) => m + picTap(ctx, drawn, drawn.findIndex((e) => e.vocabKey === k)));
       const labels = b.sortLabels || {};
       const cols = (d.cols || [2, 3]).map((n) => { const col = syllableSortColumn({ n, text: String(labels[n] != null ? labels[n] : n), rows: per, w: SORT_COL_W - 40, h: d.laneH || 64, glyphH: d.glyphH });
         // the answer key: each word of this count written with its dashes, in bank order

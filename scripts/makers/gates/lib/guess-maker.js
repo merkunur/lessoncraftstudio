@@ -54,7 +54,8 @@ function enrichMarks(model) {
     } else if (p.cls === 'pair') {
       out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer), group: it.group || null })), targets: p.targets.map((t) => ({ x: t.x + (t.w || 0) / 2, y: t.y + (t.h || 0) / 2, id: String(t.id), group: t.group || null })) });
     } else if (p.cls === 'place') {
-      out.push({ kind: 'place', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer) })), bins: p.bins.map((b) => ({ id: String(b.id), x: b.x + (b.w || 0) / 2, y: b.y + (b.h || 0) / 2 })) });
+      // a drop in a COUNTED group (data-lcs-colour-count, K-454) carries its group and the counts the group is graded by
+      out.push({ kind: 'place', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: String(it.answer), cg: it.meta && it.meta['data-lcs-cgroup'] != null ? String(it.meta['data-lcs-cgroup']) : null, spec: (it.meta && it.meta['data-lcs-colour-count']) || null })), bins: p.bins.map((b) => ({ id: String(b.id), x: b.x + (b.w || 0) / 2, y: b.y + (b.h || 0) / 2 })) });
     }
   }
   return { bundles: out, page: { w: pr.width, h: pr.height } };
@@ -192,17 +193,40 @@ function measure(pages) {
         }
       }
     } else if (kind === 'place') {
+      const nearestOf = (it, bins) => bins.slice().sort((a, c) => Math.hypot(a.x - it.x, a.y - it.y) - Math.hypot(c.x - it.x, c.y - it.y))[0];
       for (const b of list) {
-        const items = b.items, bins = b.bins; if (items.length < 2 || bins.length < 2) continue;
-        const io = readingOrder(items), posI = new Map(io.map((j, k) => [j, k]));
-        items.forEach((it, j) => {
-          ask(b.pg, 1 / bins.length); const k = posI.get(j);
-          for (let c = 0; c < Math.min(bins.length, 5); c++) hit('bin-' + c, bins[c].id === it.answer, b.pg);
-          hit('alternate', bins[k % bins.length].id === it.answer, b.pg);
-          hit('alternate-rev', bins[(bins.length - 1 - k % bins.length)].id === it.answer, b.pg);
-          const near = bins.slice().sort((a, c) => Math.hypot(a.x - it.x, a.y - it.y) - Math.hypot(c.x - it.x, c.y - it.y))[0];
-          hit('nearest-bin', near.id === it.answer, b.pg);
-        });
+        const bins = b.bins; if (bins.length < 2) continue;
+        const items = b.items.filter((it) => it.cg == null);
+        if (items.length >= 2) {
+          const io = readingOrder(items), posI = new Map(io.map((j, k) => [j, k]));
+          items.forEach((it, j) => {
+            ask(b.pg, 1 / bins.length); const k = posI.get(j);
+            for (let c = 0; c < Math.min(bins.length, 5); c++) hit('bin-' + c, bins[c].id === it.answer, b.pg);
+            hit('alternate', bins[k % bins.length].id === it.answer, b.pg);
+            hit('alternate-rev', bins[(bins.length - 1 - k % bins.length)].id === it.answer, b.pg);
+            hit('nearest-bin', nearestOf(it, bins).id === it.answer, b.pg);
+          });
+        }
+        // a COUNTED group is ONE question, graded as the runtime grades it (interactive-runtime-core: right when it holds as
+        // many of each bin as its spec, wherever they sit — K-454 "6 red and 4 blue", any 6). Its drops' answers are the
+        // key's placeholder (the first a red); measuring them one by one read the placeholder as a tell (2026-11-04:
+        // nearest-bin 70 %). Each strategy fills the whole group by its rule and scores when the counts come out right;
+        // chance = a colouring drawn at random hits the counts (n! / Π kᵢ! · B⁻ⁿ)
+        const groups = {};
+        for (const it of b.items) if (it.cg != null) (groups[it.cg] = groups[it.cg] || []).push(it);
+        for (const g of Object.values(groups)) {
+          const want = {};
+          for (const x of String(g[0].spec || '').split(',')) { const [id, n] = x.split(':'); if (id) want[id] = +n; }
+          const fact = (n) => { let f = 1; for (let i = 2; i <= n; i++) f *= i; return f; };
+          const chance = fact(g.length) / Object.values(want).reduce((a, k) => a * fact(k), 1) / Math.pow(bins.length, g.length);
+          ask(b.pg, Math.min(1, chance));
+          const rightIf = (assign) => { const have = {}; g.forEach((it, j) => { const id = assign(it, j); have[id] = (have[id] || 0) + 1; }); return Object.keys(want).every((id) => (have[id] || 0) === want[id]) && Object.keys(have).every((id) => id in want); };
+          const go = readingOrder(g), posG = new Map(go.map((j, k) => [j, k]));
+          for (let c = 0; c < Math.min(bins.length, 5); c++) hit('bin-' + c, rightIf(() => bins[c].id), b.pg);
+          hit('alternate', rightIf((it, j) => bins[posG.get(j) % bins.length].id), b.pg);
+          hit('alternate-rev', rightIf((it, j) => bins[bins.length - 1 - (posG.get(j) % bins.length)].id), b.pg);
+          hit('nearest-bin', rightIf((it) => nearestOf(it, bins).id), b.pg);
+        }
       }
     }
     if (!q) continue;

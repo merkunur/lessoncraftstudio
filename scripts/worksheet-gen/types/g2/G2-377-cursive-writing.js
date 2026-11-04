@@ -1151,7 +1151,13 @@ const TYPE = {
     const { makeRng } = require('../../lib/rng.js');
     const b = this.build({ difficulty, locale: loc, unit }, { rng: makeRng('title'), variant: variant || 2, seedVariant });
     const letters = d.mode === 'base' ? b.meta.letters : b.meta.capitals;
-    return { ...strings, title: tpl.replace('{LETTERS}', letterList(letters, L.and, loc)) };
+    const out = { ...strings, title: tpl.replace('{LETTERS}', letterList(letters, L.and, loc)) };
+    // a shorter PRINTED heading where the title runs past the page's three lines (2026-11-04, de: «Großbuchstaben in
+    // Vereinfachter Ausgangsschrift: A, B, C und D» took four in the 379-px title column; the ribbon already names the
+    // script) — the title stays the copy's name
+    const ptpl = d.mode === 'base' ? L.lettersPrintTitle : L.capitalsPrintTitle;
+    if (ptpl) out.printTitle = ptpl.replace('{LETTERS}', letterList(letters, L.and, loc));
+    return out;
   },
 
   /** the whole build over an INJECTED bank block (the gate's poison / probe seam) */

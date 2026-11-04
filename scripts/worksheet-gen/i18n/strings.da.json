@@ -2154,8 +2154,8 @@
     "instruction": "Klip kortene ud. Sig ordet for én og ordet for flere, og find så parrene."
   },
   "K-350": {
-    "title": "Tosprogede billedkort: dansk og engelsk",
-    "instruction": "Klip de otte kort ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg."
+    "title": "Tosprogede billedkort: dansk og {U}",
+    "instruction": "Klip de otte kort ud. Sig ordet på dansk og så på {U}, og gem kortene til din ordvæg."
   },
   "G1-324": {
     "title": "Stavelseskort: læs ordet i bidder",

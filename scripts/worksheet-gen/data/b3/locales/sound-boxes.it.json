@@ -554,17 +554,6 @@
         "o"
       ]
     ],
-    "aster": [
-      [
-        "a",
-        "s"
-      ],
-      [
-        "t",
-        "r",
-        "o"
-      ]
-    ],
     "asteroid": [
       [
         "a"
@@ -2988,17 +2977,6 @@
         "à"
       ]
     ],
-    "chipmunk": [
-      [
-        "t",
-        "a"
-      ],
-      [
-        "m",
-        "i",
-        "a"
-      ]
-    ],
     "chips": [
       [
         "p",
@@ -3371,21 +3349,6 @@
       ],
       [
         "n",
-        "o"
-      ]
-    ],
-    "confused": [
-      [
-        "c",
-        "o",
-        "n"
-      ],
-      [
-        "f",
-        "u"
-      ],
-      [
-        "s",
         "o"
       ]
     ],
@@ -6788,16 +6751,6 @@
         "o"
       ]
     ],
-    "jupiter": [
-      [
-        "gi",
-        "o"
-      ],
-      [
-        "v",
-        "e"
-      ]
-    ],
     "kangaroo": [
       [
         "c",
@@ -7115,20 +7068,6 @@
       [
         "t",
         "a"
-      ]
-    ],
-    "lemur": [
-      [
-        "l",
-        "e"
-      ],
-      [
-        "m",
-        "u"
-      ],
-      [
-        "r",
-        "e"
       ]
     ],
     "letter": [
@@ -7645,17 +7584,6 @@
         "o"
       ]
     ],
-    "mars": [
-      [
-        "m",
-        "a",
-        "r"
-      ],
-      [
-        "t",
-        "e"
-      ]
-    ],
     "mask": [
       [
         "m",
@@ -7788,21 +7716,6 @@
         "o"
       ]
     ],
-    "merry": [
-      [
-        "a",
-        "l"
-      ],
-      [
-        "l",
-        "e"
-      ],
-      [
-        "g",
-        "r",
-        "o"
-      ]
-    ],
     "microphone": [
       [
         "m",
@@ -7895,18 +7808,6 @@
         "p",
         "e",
         "c"
-      ],
-      [
-        "ch",
-        "i",
-        "o"
-      ]
-    ],
-    "mistletoe": [
-      [
-        "v",
-        "i",
-        "s"
       ],
       [
         "ch",
@@ -8276,21 +8177,6 @@
       [
         "n",
         "a"
-      ]
-    ],
-    "neptune": [
-      [
-        "n",
-        "e",
-        "t"
-      ],
-      [
-        "t",
-        "u"
-      ],
-      [
-        "n",
-        "o"
       ]
     ],
     "nest": [
@@ -13337,19 +13223,6 @@
         "e"
       ]
     ],
-    "uranus": [
-      [
-        "u"
-      ],
-      [
-        "r",
-        "a"
-      ],
-      [
-        "n",
-        "o"
-      ]
-    ],
     "vacuum-cleaner": [
       [
         "a"
@@ -13411,20 +13284,6 @@
       [
         "d",
         "u"
-      ],
-      [
-        "r",
-        "e"
-      ]
-    ],
-    "venus": [
-      [
-        "v",
-        "e"
-      ],
-      [
-        "n",
-        "e"
       ],
       [
         "r",
@@ -14016,7 +13875,6 @@
     "brontosaurus",
     "broom",
     "brown",
-    "brush",
     "bucket",
     "bud",
     "bun",
@@ -14084,7 +13942,6 @@
     "chimney",
     "chin",
     "chinchilla",
-    "chipmunk",
     "chips",
     "chocolate",
     "christmas",
@@ -14106,7 +13963,6 @@
     "comb",
     "comet",
     "compass",
-    "confused",
     "content",
     "controller",
     "cook",
@@ -14295,7 +14151,6 @@
     "juice",
     "jumping",
     "juniper-tree",
-    "jupiter",
     "kangaroo",
     "kettle",
     "key",
@@ -14315,7 +14170,6 @@
     "lemon",
     "lemon-tree",
     "lemonade",
-    "lemur",
     "letter",
     "lettuce",
     "liberty",
@@ -14342,7 +14196,6 @@
     "map",
     "marigold",
     "marker",
-    "mars",
     "measuring-cup",
     "mechanic",
     "medal",
@@ -14350,7 +14203,6 @@
     "meerkat",
     "melon",
     "mercury",
-    "merry",
     "microphone",
     "microscope",
     "milk",
@@ -14379,7 +14231,6 @@
     "necklace",
     "necktie",
     "nectarine",
-    "neptune",
     "nightstand",
     "notebook",
     "nurse",
@@ -14672,7 +14523,6 @@
     "underpants",
     "van",
     "vegetables",
-    "venus",
     "veterinarian",
     "violet",
     "violin",

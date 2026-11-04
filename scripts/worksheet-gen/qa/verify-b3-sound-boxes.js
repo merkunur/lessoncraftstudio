@@ -108,10 +108,11 @@ function approvedMap(loc) {
   for (const e of j.entries) if (!m.has(e.key)) m.set(e.key, e);
   return m;
 }
+/** The bank as the type reads it: data/b3/sound-boxes.js merged with its locale files (2026-11-04: the raw file holds only
+ *  en since the fan-out, so every other locale reported "no block in the bank" and its checks never ran) */
 function loadBank() {
-  delete require.cache[require.resolve(BANK_FILE)];
-  const mod = require(BANK_FILE);
-  return mod[Object.keys(mod)[0]];
+  if (!fs.existsSync(BANK_FILE)) throw new Error('sound-boxes: ' + BANK_FILE + ' is absent');
+  return require('./b3-fresh-bank.js').freshBank('sound-boxes');
 }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 

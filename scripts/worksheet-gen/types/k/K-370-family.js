@@ -674,8 +674,9 @@ function pickRiddles(bankLoc, d, rng, locale, egoRec) {
     const add = (k) => {
       if (pick.includes(k) || texts.has(text(k))) return false;
       if (noRepeat && ans.has(kin[RIDDLE_PATH(k)])) return false;
-      // at most three riddles share an answer (fi: every cousin is serkku — more could never be kept apart on the page)
-      if (pick.filter((q) => kin[RIDDLE_PATH(q)] === kin[RIDDLE_PATH(k)]).length >= 3) return false;
+      // at most TWO riddles share an answer (2026-11-04, settings-space: with three, "cousin" — en / fi have one word for
+      // every cousin — answered 36 % of a page of eight, so writing it on every line scored a third; two is 25 %)
+      if (pick.filter((q) => kin[RIDDLE_PATH(q)] === kin[RIDDLE_PATH(k)]).length >= 2) return false;
       pick.push(k); texts.add(text(k)); ans.add(kin[RIDDLE_PATH(k)]); return true;
     };
     for (const [grp, n] of want.need) { let got = 0; for (const k of rng.shuffle(grp)) { if (got >= n) break; if (add(k)) got++; } }

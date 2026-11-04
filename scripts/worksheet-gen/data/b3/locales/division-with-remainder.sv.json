@@ -39,7 +39,7 @@
     },
     "F4": {
       "title": "Hitta felet: resten är för stor",
-      "instruction": "Varje division är felräknad. Stryk över de fel talen och skriv rätt svar och rätt rest i rutorna."
+      "instruction": "Varje division är felräknad. Stryk över de felaktiga talen och skriv rätt svar och rätt rest i rutorna."
     },
     "F5": {
       "title": "Hoppa bakåt på tallinjen: vad blir kvar?",

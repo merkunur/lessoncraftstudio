@@ -172,7 +172,8 @@
    "Styracosauruser",
    "Therizinosauruser",
    "Terninger",
-   "Slik"
+   "Slik",
+   "Cornflakes"
   ],
   "fr": [
    "Brosse",
@@ -591,6 +592,69 @@
     "yksisarviset",
     "älypuhelimet"
    ]
+  },
+  {
+   "types": [
+    "K-323",
+    "K-342",
+    "K-343",
+    "K-344",
+    "K-345",
+    "K-346"
+   ],
+   "locales": {
+    "es": [
+     "bote",
+     "limón"
+    ],
+    "it": [
+     "automobile",
+     "aeroplano"
+    ],
+    "nl": [
+     "giraffe"
+    ],
+    "da": [
+     "morgenmad"
+    ]
+   },
+   "why": "All About Me favourites: the picture labels had not followed the vocabulary (es boat lancha, es-MX lemon limón amarillo — a plain limón is the green lime in Mexico; it car macchina, airplane aereo; nl giraf; da cereal havreringe: the pictures show cereal RINGS (round 7 review), not morgenmad = breakfast). Scan the family live decks (published + every Level Set copy) for the old label (es limón only where NOT followed by amarillo) and republish the hits in place; never touch landings or metadata."
+  },
+  {
+   "types": [
+    "G2-319",
+    "G1-349",
+    "G2-344",
+    "G2-345",
+    "G3-378",
+    "G3-379"
+   ],
+   "locales": {
+    "es": [
+     "El niño que tiene"
+    ],
+    "it": [
+     "Il bambino che ha"
+    ]
+   },
+   "why": "Logic puzzles: a clue frame called the child who holds a picture \"el niño\" / \"il bambino\", and the holder may be a girl; the frames now say \"Si alguien tiene {pic}, no tiene {pic2}.\" / \"Se qualcuno ha {pic}, (non) ha (anche) {pic2}.\". Scan the family live decks (published + Level Set) in es / it for the old phrase and republish the hits in place."
+  },
+  {
+   "types": [
+    "G2-315",
+    "G2-324",
+    "G2-325",
+    "G2-326",
+    "G2-327",
+    "G2-328"
+   ],
+   "locales": {
+    "es": [
+     "camión"
+    ]
+   },
+   "pictureOnly": true,
+   "why": "es spelling rules (c-qu, plural -ón): the word camión stood under the TRUCK picture, but in es-MX camión is the bus (the vocabulary: truck = camión de carga); the items now show the bus. Scan the family's live es decks for camión and republish the hits in place (the word stays, the picture changes)."
   }
  ],
  "levelRepublish": [
@@ -869,5 +933,81 @@
  "_note3": "Round 4b (2026-11-03 evening): vocabGenderFixes — scan live decks in that locale for the word with its old article and republish the hits (K-288 family, K-324, noun pages, Find and Count / Prepositions app decks are the OPERATOR's to regenerate); copy mini tools/pictures/dinosaurs.json to /var/www/lcs-media/mini-tools/pictures/.",
  "_note4": "Round 4b: the occupation pictures that show a WOMAN now carry the feminine word (teacher, librarian, athlete, cashier, florist, tailor, veterinarian, paramedic; native review) — vocabOldWords gains the old masculine words; es/fr/it/pt atleta / bibliothécaire / vétérinaire / fleuriste / fiorista keep the word, gender m→f (article pages + gendered sentences). mini tools/pictures classroom.json, dinosaurs.json, occupations.json to copy to the server.",
  "_note5": "Round 5 (2026-11-04, native + pedagogy review): da dinosaur plurals -user/-use → -usser (Retskrivning: kaktusser, globusser); sv tailor picture (a woman sewing) Skräddare → Sömmerska; pt snowdrop Flor-de-neve → Campainha-branca; sv/no Deinonychus / no Parasaurolophus zero plural → -usar/-user. The deinonychus, parasaurolophus and snowdrop PICTURES show another animal/flower: refused (lib/picture-refusals.js) and excluded from b2 pages (B2_EXCLUDE) in every locale — every live deck that shows one of them with its word is regenerated. Norwegian «hver tomme rute» / «hvert tomme sted» / «hvert nye ord» / «hvert riktige faktum» → indefinite adjective (tom / tomt / nytt / riktig) in K-330, K-517, G2-333, G2-340, G2-376, G3-407, the days-and-months gaps screen and the find-the-differences tap-the-missing screen (no). K-517 de L2 «jede Zahl» → «jede Ziffer», fr «qui va à cette place» → «qui manque», da «foroven» → «øverst på hvert tal». Landings untouched (operator rule). The dice picture is ONE die: its singular was the plural in fr/es/pt/it/da/no/fi (Dés, Dados, Dadi, Terninger, Nopat) → Dé, Dado, Terning, Noppa (the old words stay right as plurals: a hit on a plural is a harmless regeneration). mini tools/pictures/toys.json rebuilt; the ending-sounds bank rebuilt (es dados → s left it).",
- "_note6": "Round 6b (2026-11-04): pt-BR vulture Abutre → Urubu (the word a Brazilian child says; native review). The rounds 5-6 vocabulary words (one die; the occupation pictures that show a woman; Urubu) reached every bank that prints them: the syllable safety pipeline re-run (phonics rows of the feminine words and the dice updated; only those keys moved), letter pictures, syllable count / sort, beginning / ending sounds, spelling rivals (rebuilt from the same 50k lists), sound boxes (rows in each bank's own convention), syllable reading, Letter of the Week (+ Level Set), spelling rules, compound words, the maze sound pools, instruction phrases (fi noppa, pt urubu) and word classes (es/pt \"dado\" excluded like \"dados\": also the participle of dar). A row whose new word the pipeline quarantined, or whose role the new word cannot fill (dados under S, dadi under I), left its bank. Live pages that print an old word are found by vocabOldWords (pt gains Abutre / Abutres); no other live page is wrong: the syllable-reading multi pools now equal their documented derivation (new cards on new pages only) and German complex carpets list their never-pictured cells as read-only (the third-of-the-carpet rule now refuses de kr / bl on new pages). Round-6b review: the candy pictures show ONE wrapped sweet, and the old words were mass nouns a counting page cannot use (\"vijf snoep\") — de Bonbon, nl Snoepje, sv Karamell, da Bolsje, no Karamell (vocabOldWords + Süßigkeit / Süßigkeiten, Snoep, Godis, Slik, Godteri; scoped to each language). Also: fr letter C keeps cœur (clé + clou were two /kl/ blends), pt luminária left the sound boxes (contested count; the table-lamp pictures are an abajur), it sound boxes maestra for soccorritrice."
+ "_note6": "Round 6b (2026-11-04): pt-BR vulture Abutre → Urubu (the word a Brazilian child says; native review). The rounds 5-6 vocabulary words (one die; the occupation pictures that show a woman; Urubu) reached every bank that prints them: the syllable safety pipeline re-run (phonics rows of the feminine words and the dice updated; only those keys moved), letter pictures, syllable count / sort, beginning / ending sounds, spelling rivals (rebuilt from the same 50k lists), sound boxes (rows in each bank's own convention), syllable reading, Letter of the Week (+ Level Set), spelling rules, compound words, the maze sound pools, instruction phrases (fi noppa, pt urubu) and word classes (es/pt \"dado\" excluded like \"dados\": also the participle of dar). A row whose new word the pipeline quarantined, or whose role the new word cannot fill (dados under S, dadi under I), left its bank. Live pages that print an old word are found by vocabOldWords (pt gains Abutre / Abutres); no other live page is wrong: the syllable-reading multi pools now equal their documented derivation (new cards on new pages only) and German complex carpets list their never-pictured cells as read-only (the third-of-the-carpet rule now refuses de kr / bl on new pages). Round-6b review: the candy pictures show ONE wrapped sweet, and the old words were mass nouns a counting page cannot use (\"vijf snoep\") — de Bonbon, nl Snoepje, sv Karamell, da Bolsje, no Karamell (vocabOldWords + Süßigkeit / Süßigkeiten, Snoep, Godis, Slik, Godteri; scoped to each language). Also: fr letter C keeps cœur (clé + clou were two /kl/ blends), pt luminária left the sound boxes (contested count; the table-lamp pictures are an abajur), it sound boxes maestra for soccorritrice.",
+ "_note7": "Round 7 (2026-11-04): seven b3 family gates read only the raw bank module (en) since the locale fan-out, so the ten other locales banks were never validated; they now read the merged bank (qa/b3-fresh-bank.js). The first find: the All About Me labels above (scopedOldWords, last entry). The b3 drafts had fallen behind their locale files (60 banks; tools/sync-b3-drafts-from-banks.js, --check) — no page change. Round-7 review: da cereal = Havreringe in the vocabulary (both cereal pictures show rings; vocabOldWords.da Cornflakes), mini tools/pictures/breakfast.json rebuilt (copy to the served folder).",
+ "parityRepublish": {
+  "_note": "Round 7 (2026-11-04): NOT content fixes. A teacher's swap in the maker must change only its own row (gate own-input), so these Level Set pages now draw part of their content on per-row streams; the published page (level 2, copy 1) is byte-identical. Republish the listed Level Set decks so a deck's Make-your-own opens the page the deck shows. Same mechanics, same rules, different draw.",
+  "entries": [
+   {
+    "types": [
+     "G1-350",
+     "G1-366",
+     "G1-367",
+     "G1-368",
+     "G2-349",
+     "G2-350"
+    ],
+    "levels": "every Level Set level and copy except level 2 copy 1",
+    "locales": "all offered",
+    "what": "each row's names (its own stream), the choice face's foil pictures (never a noun of the page's sentence pool), the bank's extra words, the plural face's picture counts"
+   },
+   {
+    "types": [
+     "G1-314"
+    ],
+    "levels": "levels 1 and 3, and every Level Set copy of level 2 after copy 1",
+    "locales": "all offered",
+    "what": "the blend face's distractor pictures (a fixed share per row) and the answer positions"
+   },
+   {
+    "types": [
+     "G2-275",
+     "G2-285"
+    ],
+    "levels": "level 1 (worked examples)",
+    "locales": "all offered",
+    "what": "the grey worked example in each bin (a steady pick)"
+   },
+   {
+    "types": [
+     "G1-336"
+    ],
+    "levels": "level 3 (odd words)",
+    "locales": "all offered",
+    "what": "the two odd words (a steady pick of the pairs not on the page)"
+   }
+  ]
+ },
+ "stringRepublish": [
+  {
+   "types": [
+    "G3-378",
+    "G1-349"
+   ],
+   "locales": [
+    "es"
+   ],
+   "why": "the printed instruction was over the 150-character line (157 / 151); shortened, same meaning (G1-349 no longer says \"el niño\" for a child who may be a girl). Republish the es decks of both types (published + Level Set) so the page carries the new instruction."
+  },
+  {
+   "types": [
+    "G2-321"
+   ],
+   "locales": [
+    "de",
+    "pt",
+    "fr"
+   ],
+   "why": "the printed instruction ran past the 150-character line (156 / 156 / 160); shortened, the four directions kept. Republish the decks of G2-321 in these locales (published + Level Set)."
+  },
+  {
+   "types": [
+    "K-350"
+   ],
+   "locales": [
+    "no"
+   ],
+   "why": "the title wrote a capital after the colon (Tospråklige bildekort: Norsk og engelsk); now \"norsk og {U}\". Republish the no decks of K-350 (published + Level Set)."
+  }
+ ]
 }

@@ -47,11 +47,11 @@
     ],
     "cross": [
       "Chi ha {pic} ha anche {pic2}.",
-      "Il bambino che ha {pic} ha anche {pic2}."
+      "Se qualcuno ha {pic}, ha anche {pic2}."
     ],
     "crossNot": [
       "Chi ha {pic} non ha {pic2}.",
-      "Il bambino che ha {pic} non ha {pic2}."
+      "Se qualcuno ha {pic}, non ha {pic2}."
     ]
   },
   "truth": {
@@ -73,7 +73,7 @@
   },
   "strings": {
     "G2-319": {
-      "title": "Giochi di logica con la griglia: tre indizi, una risposta",
+      "title": "Giochi di logica con la griglia: tre indizi",
       "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
     },
     "F1": {
@@ -89,7 +89,7 @@
       "instruction": "Un disegno barrato vuol dire che il bambino non ce l'ha, un disegno cerchiato che ce l'ha. Barra sulla griglia, poi cerchia ogni risposta."
     },
     "F4": {
-      "title": "Giochi di logica a due attributi: due disegni a testa",
+      "title": "Giochi di logica a due attributi",
       "instruction": "Ogni bambino ha un disegno di ogni gruppo. Usa gli indizi che li collegano per completare tutte e tre le griglie."
     },
     "F5": {

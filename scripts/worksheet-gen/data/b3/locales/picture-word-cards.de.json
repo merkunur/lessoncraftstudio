@@ -71,8 +71,8 @@
       "instruction": "Schneide die Karten aus. Sprich das Wort für eins und das Wort für viele und lege dann jedes Paar zusammen."
     },
     "bilingual": {
-      "title": "Zweisprachige Bildkarten: Deutsch und Englisch",
-      "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+      "title": "Zweisprachige Bildkarten: Deutsch und {U}",
+      "instruction": "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf."
     },
     "syllable": {
       "title": "Silbenkarten: Lies das Wort in Silben",

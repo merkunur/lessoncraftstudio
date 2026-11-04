@@ -111,8 +111,15 @@ const LEVEL_BY_LOC = {
   base: { en: 'G1', de: 'G1', es: 'K', pt: 'K', fr: 'G1', it: 'G1', nl: 'K', sv: 'G1', da: 'G1', no: 'G1', fi: 'G1' },
   scale: 'G1', shape: 'G2', truth: 'G2', draw: 'K', report: 'G3',
 };
-/** Vocab singulars that are a KNOWN wrong word for the picture (validator rule 6: a label must not be the trap). */
-const LABEL_TRAPS = { nail: ['es', 'pt', 'fr', 'it', 'da', 'no', 'fi'], rock: ['de', 'es', 'fr', 'it', 'nl', 'sv', 'da', 'fi'] };
+/** Words that are a KNOWN wrong name for the picture (validator rule 6: a label must not be the trap). They were the
+ *  vocabulary's own singulars for the picture — the tools nail mapped to the FINGERNAIL entry ("uña", "ongle"), the
+ *  camping stone to the CLIFF entry ("Felsen", "roca") — so the trap was "the label copies the vocab word". The nail
+ *  picture now maps to the metal-nail entry (clavo, clou — the vocab fix), and a rule keyed on the CURRENT vocab word
+ *  condemned the correct labels (2026-11-04), so each trap is now the wrong word itself. */
+const LABEL_TRAPS = {
+  nail: { es: 'uña', pt: 'unha', fr: 'ongle', it: 'unghia', da: 'negl', no: 'negl', fi: 'kynsi' },
+  rock: { de: 'Felsen', es: 'roca', fr: 'rocher', it: 'roccia', nl: 'rots', sv: 'klippa', da: 'klippe', fi: 'kallio' },
+};
 
 const SINK_OR_FLOAT_NEUTRAL = { CLAIMS, EXCLUDED, PAIRS, SHAPES, TF, QUESTIONS, QUESTION_TESTS, LEVEL_BY_LOC, LABEL_TRAPS, FACE_OF_ID };
 

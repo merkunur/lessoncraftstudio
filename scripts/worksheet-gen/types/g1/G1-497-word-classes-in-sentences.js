@@ -38,8 +38,10 @@ module.exports = {
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const html = picks.map((toks, i) => {
       const words = toks.filter((t) => t.tag !== '.');
-      const spans = words.map((t) => `<span data-lcs-pick="1"${mark && d.find.includes(t.tag) ? ' data-lcs-correct="1"' : ''} data-lcs-tag="${t.tag}" style="display:inline-block;padding:4px 8px;margin:3px 2px;border-radius:12px;font:700 28px/1.2 'Baloo 2',cursive;color:${T.ink}">${t.w}</span>`).join('');
-      return `<div data-lcs-class-sentence="${i + 1}"${slot.attr(ctx, 'sent', i)} style="padding:6px 12px;border-radius:14px;background:${T.cream};line-height:1.6">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span></div>`;
+      // min-width 36: a one-letter word (en "I", "a") printed a 25 px box, and its grown tap target stops half way to its
+      // neighbour's (4 px of margin) — 28 px on the screen, under the 34 px tablet floor (screen-from-marks, 2026-11-04)
+      const spans = words.map((t) => `<span data-lcs-pick="1"${mark && d.find.includes(t.tag) ? ' data-lcs-correct="1"' : ''} data-lcs-tag="${t.tag}" style="display:inline-block;box-sizing:border-box;min-width:36px;text-align:center;padding:4px 8px;margin:3px 2px;border-radius:12px;font:700 28px/1.2 'Baloo 2',cursive;color:${T.ink}">${t.w}</span>`).join('');
+      return `<div data-lcs-class-sentence="${i + 1}"${slot.attr(ctx, 'sent', i)} style="padding:6px 12px;border-radius:14px;background:${T.cream};line-height:1.6">${spans}<span style="margin-left:-9px;font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span></div>`;   // the full stop sits ON the last word (its box's 8 px padding + 2 px margin printed "Mia ." — a space a K-2 page must not model)
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-classes="${d.find.join('')}" style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px;min-height:0">${html.join('')}</div>`,

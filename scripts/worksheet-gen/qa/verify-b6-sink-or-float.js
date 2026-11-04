@@ -159,10 +159,10 @@ function validateBank(b, loc, N = bankMod.SINK_OR_FLOAT_NEUTRAL) {
     if (!c) { push(`labels.${id}: not a CLAIM row`); continue; }
     if (typeof lab !== 'string' || !lab.trim()) { push(`labels.${id} empty (rule 6)`); continue; }
     if (loc !== 'de' && lab !== low(lab, loc)) push(`labels.${id} "${lab}" is not lower-case (rule 6)`);
-    const traps = N.LABEL_TRAPS[id] || [];
-    const e = manifest.themes[c.theme] && manifest.themes[c.theme].nouns[c.noun];
-    const vs = e && V[e.vocabKey] && V[e.vocabKey][loc] && V[e.vocabKey][loc][0];
-    if (traps.includes(loc) && vs && low(lab, loc) === low(vs, loc)) push(`labels.${id} "${lab}" is the vocab trap "${vs}" (the picture is not that) (rule 6)`);
+    // the trap is the wrong WORD itself (data/b6/sink-or-float.js LABEL_TRAPS): keyed on the picture's current vocab word,
+    // the rule condemned the correct clavo / clou once the nail picture moved to the metal-nail entry (2026-11-04)
+    const trap = (N.LABEL_TRAPS[id] || {})[loc];
+    if (trap && low(lab, loc) === low(trap, loc)) push(`labels.${id} "${lab}" is the vocab trap "${trap}" (the picture is not that) (rule 6)`);
   }
   // the base pool must fill every level
   const pool = N.CLAIMS.filter((c) => c.use.includes('base') && c.testable && labels[c.id]);
@@ -522,7 +522,9 @@ const FACE_STRINGS = {
 async function main() {
   const quick = process.argv.includes('--quick');
   const N = bankMod.SINK_OR_FLOAT_NEUTRAL;
-  const banks = bankMod.SINK_OR_FLOAT;
+  // the MERGED banks: the raw module holds en only since the locale fan-out, so section 1-2 validated en and no other
+  // language (2026-11-04: 'bank en: 0 findings' was the only bank line)
+  const banks = bankModule('sink-or-float');
   freeClaim.selfTest();
   // 0. primitive gates
   for (const [name, g] of [['water-tank', tankGate], ['clay-form', clayGate]]) {

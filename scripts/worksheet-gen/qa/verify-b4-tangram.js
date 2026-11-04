@@ -81,13 +81,40 @@ const WORST_CHROME = { title: 'Logicals: drei Hinweise, eine Lösung für die zw
 const FI4_CHROME = { title: 'Loogisen päättelyn ruudukkotehtävät alakoululaisille: kolme vihjettä', instruction: 'Lue kolme vihjettä. Yliviivaa päättelyruudukosta vaihtoehdot, jotka eivät voi pitää paikkaansa, ja ympyröi lopuksi jokaisen lapsen kuva.' };
 const COMBO_CHROME = { title: FI4_CHROME.title, instruction: FI_INSTRUCTION };
 const BODY_EXPECT = new Map([[LONG_CHROME, 733], [WORST_CHROME, 710], [FI4_CHROME, 700], [COMBO_CHROME, 677]]);
+// a probe trimmed to the 3-line maximum is still that probe (its __probe names it)
+const probeOf = (st) => (st && st.__probe) || st;
+/** LONG_CHROME is the 3-line-title case: on a fi page its en title wraps to FOUR lines (measured 2026-11-04, the first
+ *  all-locale run: body 700 — the case FI4_CHROME already checks), so the title is trimmed word by word until it wraps to
+ *  3 and the page is checked at that chrome (verify-b3-read-and-do, verify-b3-ordinal-numbers). */
+async function legalChrome(job, run) {
+  let r = await run(job);
+  const base = probeOf(job.strings);
+  if (base !== LONG_CHROME) return r;
+  let words = base.title.split(' ');
+  while (r && r.titleLines > 3 && words.length > 4) { words = words.slice(0, -1); r = await run({ ...job, strings: { ...base, title: words.join(' '), __probe: base } }); }
+  return r;
+}
 
 function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' + name + '=')); return a ? a.slice(name.length + 3) : def; }
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
 function loadBankModule() { delete require.cache[require.resolve(BANK_FILE)]; return require(BANK_FILE).TANGRAM_FIGURES; }
-function loadStrings() { delete require.cache[require.resolve(STRINGS_FILE)]; return require(STRINGS_FILE).TANGRAM; }
+// the strings bank as the type reads it: the en module + the GENERATED data/b4/locales/tangram.<loc>.json, merged exactly
+// as lib/b4-common.js bankModule merges them — fresh per call (poisons never leak). Until 2026-11-04 this returned the
+// raw module, en only since the locale fan-out, so any other --locales value reported "no block" for an authored locale.
+function loadStrings() {
+  delete require.cache[require.resolve(STRINGS_FILE)];
+  const all = require(STRINGS_FILE).TANGRAM;
+  delete require.cache[require.resolve(STRINGS_FILE)];
+  for (const loc of ['de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']) {
+    const file = path.join(ROOT, 'data', 'b4', 'locales', 'tangram.' + loc + '.json');
+    if (!fs.existsSync(file)) continue;
+    if (all[loc]) throw new Error(`data/b4/tangram.js already has a ${loc} block AND ${path.basename(file)} exists — two sources, refuse`);
+    all[loc] = JSON.parse(fs.readFileSync(file, 'utf8'));
+  }
+  return all;
+}
 const clone = (o) => JSON.parse(JSON.stringify(o));
 const glyphs = (s) => [...String(s)].length;
 
@@ -138,7 +165,8 @@ function validateStrings(block, loc, opts = {}) {
 }
 
 /* ---------------- C. the gate's own in-page audit ---------------- */
-async function renderCheck(page, type, inj, job, opts) {
+async function renderCheck(page, type, inj, job, opts) { return legalChrome(job, (j) => renderCheck0(page, type, inj, j, opts)); }
+async function renderCheck0(page, type, inj, job, opts) {
   let t = type;
   if (inj) t = { ...type, build: (o, ctx) => type._buildWith(inj.bank || loadStrings()[o.locale.slice(0, 2)], inj.cfg || type.difficulty[o.difficulty], { locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -259,11 +287,11 @@ async function renderCheck(page, type, inj, job, opts) {
   }
   const cfg = (inj && inj.cfg) || type.difficulty[job.difficulty];
   if (cfg && m.figures.length && m.figures.length !== cfg.figures) fails.push(`count: ${m.figures.length} figures, config says ${cfg.figures}`);
-  const expect = BODY_EXPECT.get(job.strings);
+  const expect = BODY_EXPECT.get(probeOf(job.strings));
   if (expect != null && Math.abs(m.body - expect) > 1) fails.push(`chrome: body measured ${m.body}, the probe expects ${expect} (vacuous or shifted chrome)`);
-  if (job.strings === WORST_CHROME && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines, not 3 (vacuous)`);
-  if ((job.strings === LONG_CHROME || job.strings === WORST_CHROME) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines, not 3 (vacuous)`);
-  if ((job.strings === FI4_CHROME || job.strings === COMBO_CHROME) && m.titleLines < 4) fails.push(`chrome: the fi probe title wrapped to ${m.titleLines} lines, not 4 (vacuous)`);
+  if (probeOf(job.strings) === WORST_CHROME && m.insLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.insLines} instruction lines, not 3 (vacuous)`);
+  if ((probeOf(job.strings) === LONG_CHROME || probeOf(job.strings) === WORST_CHROME) && m.titleLines < 3) fails.push(`chrome: the probe title wrapped to ${m.titleLines} lines, not 3 (vacuous)`);
+  if ((probeOf(job.strings) === FI4_CHROME || probeOf(job.strings) === COMBO_CHROME) && m.titleLines < 4) fails.push(`chrome: the fi probe title wrapped to ${m.titleLines} lines, not 4 (vacuous)`);
   if (!m.tans) fails.push('non-vacuity: 0 tan polygons measured (the set alone carries 7)');
   return { fails, figures: m.figures, body: m.body, insLines: m.insLines, titleLines: m.titleLines, pngPath: out.pngPath, cfg: m.cfg };
 }
@@ -331,7 +359,8 @@ const oneSource = (ft, en, mode) => { const s = en.strings[mode]; return !!s && 
 const shapeKey5 = (tans) => { const loop = TG.silhouette(tans)[0]; const xs = loop.map((p) => p[0]), ys = loop.map((p) => p[1]); const x0 = Math.min(...xs), y0 = Math.min(...ys); return loop.map((p) => [(p[0] - x0 + 0).toFixed(5), (p[1] - y0 + 0).toFixed(5)].join(',')).sort().join('|'); };
 const congruent = (a, b) => { const ka = shapeKey5(a); return TG.TRANSFORM_NAMES.some((t) => shapeKey5(TG.transformTiling(b, t)) === ka); };
 
-async function faceRenderCheck(page, faceType, inj, job, opts) {
+async function faceRenderCheck(page, faceType, inj, job, opts) { return legalChrome(job, (j) => faceRenderCheck0(page, faceType, inj, j, opts)); }
+async function faceRenderCheck0(page, faceType, inj, job, opts) {
   let t = faceType;
   if (inj) t = { ...faceType, build: (o, ctx) => faceType._buildWith(inj.bank || loadStrings()[o.locale.slice(0, 2)], inj.cfg || faceType.difficulty[o.difficulty], { locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -530,17 +559,17 @@ async function faceRenderCheck(page, faceType, inj, job, opts) {
     if (!m.figures.length) F.push('non-vacuity: 0 drawings');
     if (mode !== 'compose' && mode !== 'silhouette' && !measuredTans) F.push('non-vacuity: 0 tan polygons measured');
   }
-  const expect = BODY_EXPECT.get(job.strings);
+  const expect = BODY_EXPECT.get(probeOf(job.strings));
   if (expect != null && Math.abs(m.body - expect) > 1) fails.push(`chrome: body measured ${m.body}, the probe expects ${expect} (vacuous or shifted chrome)`);
-  if (job.strings === WORST_CHROME && m.insLines < 3) fails.push('chrome: WORST_CHROME wrapped to < 3 instruction lines (vacuous)');
-  if ((job.strings === LONG_CHROME || job.strings === WORST_CHROME) && m.titleLines < 3) fails.push('chrome: the probe title wrapped to < 3 lines (vacuous)');
-  if ((job.strings === FI4_CHROME || job.strings === COMBO_CHROME) && m.titleLines < 4) fails.push('chrome: the fi probe title wrapped to < 4 lines (vacuous)');
+  if (probeOf(job.strings) === WORST_CHROME && m.insLines < 3) fails.push('chrome: WORST_CHROME wrapped to < 3 instruction lines (vacuous)');
+  if ((probeOf(job.strings) === LONG_CHROME || probeOf(job.strings) === WORST_CHROME) && m.titleLines < 3) fails.push('chrome: the probe title wrapped to < 3 lines (vacuous)');
+  if ((probeOf(job.strings) === FI4_CHROME || probeOf(job.strings) === COMBO_CHROME) && m.titleLines < 4) fails.push('chrome: the fi probe title wrapped to < 4 lines (vacuous)');
   if (job.strings === ONE_LINE_CHROME && (m.titleLines !== 1 || m.insLines !== 1)) fails.push(`chrome: the one-line probe wrapped to ${m.titleLines}/${m.insLines} lines (vacuous)`);
   return { fails, m, body: m.body, titleLines: m.titleLines, insLines: m.insLines, pngPath: out.pngPath, slack };
 }
 
-async function faceSection({ page, base, B, strings, note, failures, seeds, poisons, addAssertions }) {
-  const loc = 'en';
+async function faceSection({ page, base, B, strings, note, failures, seeds, poisons, addAssertions, locales }) {
+  const loc = 'en';   // the face poisons + the seed sweeps; the level page and the chrome probes render in EVERY language
   const en = strings.en;
   for (const face of FACES) {
     let ft;
@@ -552,14 +581,19 @@ async function faceSection({ page, base, B, strings, note, failures, seeds, pois
     note(JSON.stringify(ft.difficulty[1]) === JSON.stringify(cfg) && JSON.stringify(ft.difficulty[3]) === JSON.stringify(cfg), `${face.id}: the three levels are not one config`);
     note(distinctFromBase(ft, base), `${face.id}: resolves to the base's d2 config`);
     note(oneSource(ft, en, face.mode), `${face.id}: i18n.en ≠ data/b4/tangram.js strings.${face.mode} (two sources)`);
-    const jobs = [
-      { locale: loc, baseName: `${face.id}-d2-${loc}`, tag: 'level' },
-      { locale: loc, strings: LONG_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-longchrome`, tag: 'long' },
-      { locale: loc, strings: WORST_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-worstchrome`, tag: 'worst' },
-      { locale: loc, strings: FI4_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-fi4title`, tag: 'fi4' },
-      { locale: loc, strings: COMBO_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-combo677`, tag: 'combo' },
-    ];
-    if (face.mode === 'match') jobs.push({ locale: loc, strings: ONE_LINE_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${loc}-oneline`, tag: 'oneline' });
+    const jobs = [];
+    for (const L of (locales && locales.length ? locales : [loc])) {
+      if (!strings[L]) continue;
+      jobs.push(
+        { locale: L, baseName: `${face.id}-d2-${L}`, tag: 'level' },
+        { locale: L, strings: LONG_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${L}-longchrome`, tag: 'long' },
+        { locale: L, strings: WORST_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${L}-worstchrome`, tag: 'worst' },
+        { locale: L, strings: FI4_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${L}-fi4title`, tag: 'fi4' },
+        { locale: L, strings: COMBO_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${L}-combo677`, tag: 'combo' },
+      );
+      if (face.mode === 'match') jobs.push({ locale: L, strings: ONE_LINE_CHROME, pageSize: 'a4', baseName: `${face.id}-d2-${L}-oneline`, tag: 'oneline' });
+    }
+    if (!jobs.some((j) => j.locale === loc)) throw new Error('faceSection: the en jobs are missing (the sweeps and poisons are English)');
     for (let sd = 2; sd <= seeds; sd++) jobs.push({ locale: loc, seedEpoch: sd, baseName: `${face.id}-d2-${loc}-seed${sd}`, tag: 'seed' });
     const pages = new Map(), seen = new Set(), holeClasses = new Set(), positions = new Set(), triSets = new Set();
     for (const job of jobs) {
@@ -571,6 +605,7 @@ async function faceSection({ page, base, B, strings, note, failures, seeds, pois
       addAssertions(30);
       note(r.fails.length === 0, `${job.baseName}: ${r.fails.join(' | ')}`);
       const m = r.m;
+      if (job.locale !== loc) { if (job.tag !== 'seed') console.log(`[E] ${job.baseName}: body ${r.body} (${r.titleLines}-line title, ${r.insLines}-line instruction)${r.slack != null ? ', slack under the stage ' + Math.round(r.slack) : ''} ${r.fails.length ? 'FAIL ' + r.fails.join(' | ') : 'ok'}`); continue; }
       const key = face.mode === 'match' ? m.rows.map((x) => x.key + ':' + x.t0 + ':' + x.candidates.map((c) => c.t).join('.')).join('+') : m.figures.map((g) => g.key + ':' + g.transform + (g.missing ? ':' + g.missing : '')).join('+');
       if (job.tag === 'seed' || job.tag === 'level') pages.set(key, (pages.get(key) || 0) + 1);
       for (const g of m.figures) { seen.add(g.key); if (g.missing) holeClasses.add(g.missing); }
@@ -859,7 +894,7 @@ async function main() {
     stringsPoison('a "printable" title', (() => { const b = clone(en); b.strings.silhouette.title = 'Printable Tangram Puzzles: Four Shadows to Build'; return b; })(), 'en', /printable/);
 
     // ---- E. the five faces (Phase 2): renders at every chrome + the gate's OWN audit + sweeps + the design's face poisons
-    await faceSection({ page, base: type, B, strings, note, failures, seeds, poisons, htmlFacePoison: null, addAssertions: (n) => { assertions += n; } });
+    await faceSection({ page, base: type, B, strings, note, failures, seeds, poisons, htmlFacePoison: null, locales, addAssertions: (n) => { assertions += n; } });
 
     let killed = 0;
     for (const p of poisons) {

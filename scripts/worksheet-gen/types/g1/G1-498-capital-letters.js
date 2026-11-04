@@ -60,7 +60,7 @@ module.exports = {
       // every word chip at least 36 px wide (2026-11-04, screen-geometry: the one-letter "i" was a 27-px target)
       const spans = words.map((t, k) => `<span data-lcs-pick="1"${mark && needs(t, k) ? ' data-lcs-correct="1"' : ''} data-lcs-cap="${needs(t, k) ? 1 : 0}" style="display:inline-block;min-width:36px;box-sizing:border-box;text-align:center;padding:4px 8px;margin:3px 2px;border-radius:12px;font:700 ${d.rewrite ? 26 : 28}px/1.2 'Baloo 2',cursive;color:${T.ink}">${t.w.toLocaleLowerCase(L)}</span>`).join('');
       const line = d.rewrite ? `<div style="margin-top:4px">${writingRow({ w: 640, h: 60, glyphH: 30, xHeight: true }).svg}</div>` : '';
-      return `<div data-lcs-cap-sentence="${i + 1}"${KS.tap(i)} style="padding:6px 12px;border-radius:14px;background:${T.cream}">${spans}<span style="font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span>${line}</div>`;
+      return `<div data-lcs-cap-sentence="${i + 1}"${KS.tap(i)} style="padding:6px 12px;border-radius:14px;background:${T.cream}">${spans}<span style="margin-left:-9px;font:700 28px/1 'Baloo 2',cursive;color:${T.ink}">.</span>${line}</div>`;   // the full stop sits ON the last word (G1-497: a box's padding printed "mia ." — a space a K-2 page must not model)
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-capitals style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px;min-height:0">${html.join('')}</div>`,

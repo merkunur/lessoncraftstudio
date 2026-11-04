@@ -455,11 +455,18 @@ function assertValence(ok, name, r, bank, spec) {
   const bankSet = Object.entries(val).map(([n, v]) => `${n}=${v}`).sort().join(',');
   ok(specSet === bankSet, `${name}: spec ITEMS ${specSet} ≠ bank valence ${bankSet}`);
   ok(r.m.sci.length === 6, `${name}: ${r.m.sci.length} faces on the strip, want 6`);
-  ok(new Set(r.m.sci.map((i) => i.top)).size === 1, `${name}: the strip wraps (${new Set(r.m.sci.map((i) => i.top)).size} rows)`);
+  // the strip's layout, derived here from the stated rule (2026-11-03: the page fills its body): six faces or more take
+  // two rows split evenly, the pictures min(104, floor(((648 - 12 (perRow - 1)) / perRow - 4) / 1.24)) px
+  const nFaces = r.m.sci.length, wantRows = nFaces >= 6 ? 2 : 1, perRow = Math.ceil(nFaces / wantRows);
+  const wantPx = Math.min(104, Math.floor(((648 - 12 * (perRow - 1)) / perRow - 4) / 1.24));
+  const rowCount = new Map(); for (const i of r.m.sci) rowCount.set(i.top, (rowCount.get(i.top) || 0) + 1);
+  ok(rowCount.size === wantRows, `${name}: the strip takes ${rowCount.size} rows, want ${wantRows}`);
+  ok([...rowCount.values()].every((c) => c === perRow), `${name}: rows of ${[...rowCount.values()].join(' + ')}, want ${perRow} each`);
   for (const it of r.m.sci) ok(val[it.noun] === it.bin, `${name}: strip face "${it.noun}" filed under "${it.bin}", bank valence "${val[it.noun]}"`);
   const good = r.m.sci.filter((i) => i.bin === 'good').length;
   ok(good === 3 && r.m.sci.length - good === 3, `${name}: ${good} good / ${r.m.sci.length - good} bad, want 3 / 3`);
-  for (const ic of r.m.icons) ok(Math.abs(ic.px - 78) < 1, `${name}: face icon ${Math.round(ic.px)} ≠ the factory's 78 at six items`);
+  ok(r.m.icons.length === nFaces, `${name}: ${r.m.icons.length} icons measured for ${nFaces} faces`);
+  for (const ic of r.m.icons) ok(Math.abs(ic.px - wantPx) < 1, `${name}: face icon ${Math.round(ic.px)} ≠ ${wantPx} (${perRow} a row)`);
   ok(r.m.binLabels.join('|') === `${bank.bins.good.label}|${bank.bins.bad.label}`, `${name}: bin labels ${r.m.binLabels.join('|')} ≠ bank`);
   ok(r.m.lowest <= r.m.foot - 0.6, `${name}: content reaches the footer`);
 }
@@ -582,7 +589,7 @@ async function runFaces({ page, ok, judge, banks, LONG, QUICK, typeWithBank }) {
 
   // 7. poisons
   let killed = 0;
-  const TOTAL = 10;
+  const TOTAL = 12;   // + P13b / P13c (2026-11-04: the two-row strip)
   const sc = cfg.scene, ch = cfg.choice;
   const good6 = [   // the control page (2 happy + 2 scared + 2 tired, positions spread)
     { id: 'present', answer: 'happy', objects: ['christmas/present'], tiles: ['happy', 'sad', 'tired'] },
@@ -663,8 +670,19 @@ async function runFaces({ page, ok, judge, banks, LONG, QUICK, typeWithBank }) {
     const past = makeScienceCategorySort({ id: 'K-333', slug: 'x', gradeBand: 'K', exerciseType: 'feelings', data: { bins: [{ key: 'good', label: { en: 'Feels good' } }, { key: 'bad', label: { en: 'Feels bad' } }], items: T.valence.items }, difficulty: { 2: { perBin: 4 } }, i18n: T.valence.i18n });
     const pastT = Object.assign({}, past, { verify: T.valence.verify });
     const r = await renderFace(page, pastT, { baseName: 'K-333-gate-poison-P13' });
-    const b = judge('P13 verify', r.verify, /the strip wraps: 2 rows of faces/, `${r.m.sci.length} faces, ${new Set(r.m.sci.map((i) => i.top)).size} rows`);
+    const b = judge('P13 verify', r.verify, /8 faces on the strip outside 4\.\.6/, `${r.m.sci.length} faces, ${new Set(r.m.sci.map((i) => i.top)).size} rows`);
     if (a && b) killed++;
+  }
+  // P13b / P13c — the strip layout the gate derives itself (2026-11-03 rule): the old 78 px pictures, and six faces in ONE row
+  for (const [pname, post, want] of [
+    ['P13b', (h) => h.replace(/width:104px;height:104px/g, 'width:78px;height:78px'), /face icon 78 ≠ 104/],
+    ['P13c', (h) => h.replace(/class="sci-strip" style="max-width:\d+px/, 'class="sci-strip" style="max-width:2000px').replace(/width:104px;height:104px/g, 'width:60px;height:60px'), /the strip takes 1 rows, want 2/],
+  ]) {
+    const v = T.valence;
+    const bent = Object.assign({}, v, { build(a, c) { const b = v.build(a, c); return { ...b, bodyHtml: post(b.bodyHtml) }; } });
+    const r = await renderFace(page, bent, { baseName: 'K-333-gate-poison-' + pname });
+    const own = ok.collect(() => assertValence(ok, pname, r, en, v));
+    if (judge(pname, own, want)) killed++;
   }
   // P9 — F4 row `scared` with distractor `surprised` → verify() confusable
   {

@@ -1407,24 +1407,6 @@
           ]
         },
         {
-          "theme": "breakfast",
-          "noun": "cereal",
-          "key": "cereal",
-          "word": "Müsli",
-          "graphemes": [
-            "m",
-            "ü",
-            "s",
-            "l",
-            "i"
-          ],
-          "pos": 2,
-          "split": [
-            "müs",
-            "li"
-          ]
-        },
-        {
           "theme": "clothing",
           "noun": "vest",
           "key": "vest",

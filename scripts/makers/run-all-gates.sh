@@ -26,10 +26,11 @@ for g in "${GATES[@]}"; do
   # drafts = their locale files (an apply-b3-locale run would otherwise put old words back) — 2026-11-04
   if [ "$g" = string-parity ]; then
     t0=$(date +%s); r=PASS; : > "$LOGS/$g.log"
-    for t in scripts/worksheet-gen/tools/check-b*-string-parity.js scripts/worksheet-gen/tools/sync-b3-drafts-from-banks.js; do
+    # + the banks GENERATED from them (2026-11-04: round 7b changed the sv sound boxes and ending-sounds.json stayed stale)
+    for t in scripts/worksheet-gen/tools/check-b*-string-parity.js scripts/worksheet-gen/tools/sync-b3-drafts-from-banks.js scripts/worksheet-gen/tools/build-letter-pictures.js scripts/worksheet-gen/tools/build-syllable-banks.js scripts/worksheet-gen/tools/build-sound-position-banks.js; do
       echo "== $t" >> "$LOGS/$g.log"; node "$t" --check >> "$LOGS/$g.log" 2>&1 || { r=FAIL; fail=1; echo "FAILED $t" >> "$LOGS/$g.log"; }
     done
-    printf '%-18s %s  %4ss  %s\n' "$g" "$r" "$(( $(date +%s) - t0 ))" "$(ls scripts/worksheet-gen/tools/check-b*-string-parity.js | wc -l) parity checks + the b3 draft sync$( [ $r = FAIL ] && echo ", $(grep -c ^FAILED "$LOGS/$g.log") failing")"
+    printf '%-18s %s  %4ss  %s\n' "$g" "$r" "$(( $(date +%s) - t0 ))" "$(ls scripts/worksheet-gen/tools/check-b*-string-parity.js | wc -l) parity checks + the b3 draft sync + 3 generated banks$( [ $r = FAIL ] && echo ", $(grep -c ^FAILED "$LOGS/$g.log") failing")"
     continue
   fi
   [ -f "$f" ] || { echo "MISSING $g"; fail=1; continue; }

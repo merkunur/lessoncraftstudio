@@ -2074,24 +2074,6 @@
               ]
             },
             {
-              "theme": "breakfast",
-              "noun": "cereal",
-              "key": "cereal",
-              "word": "Müsli",
-              "graphemes": [
-                "m",
-                "ü",
-                "s",
-                "l",
-                "i"
-              ],
-              "pos": 2,
-              "split": [
-                "müs",
-                "li"
-              ]
-            },
-            {
               "theme": "clothing",
               "noun": "vest",
               "key": "vest",
@@ -7461,17 +7443,6 @@
             "l",
             "e",
             "r"
-          ]
-        ],
-        "cereal": [
-          [
-            "m",
-            "ü",
-            "s"
-          ],
-          [
-            "l",
-            "i"
           ]
         ],
         "cheeks": [
@@ -13460,7 +13431,6 @@
         "cast",
         "caterpillar",
         "centipede",
-        "cereal",
         "cheesecake",
         "cheetah",
         "cherry",
@@ -14987,7 +14957,7 @@
         "sweater": "Pullover",
         "skirt": "Rock",
         "shorts": "Shorts",
-        "cereal": "Müsli",
+        "cereal": "Haferringe",
         "pancake": "Pfannkuchen",
         "croissant": "Croissant",
         "bagel": "Bagel",
@@ -16956,14 +16926,6 @@
             "sel",
             "le",
             "rie"
-          ]
-        },
-        {
-          "key": "cereal",
-          "word": "Müsli",
-          "split": [
-            "müs",
-            "li"
           ]
         },
         {

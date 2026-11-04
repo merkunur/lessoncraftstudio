@@ -219,6 +219,7 @@
   },
   "articles": {
     "refuse": false,
+    "refuseKeys": ["cereal"],
     "note": "der/die/das keyed off the vocab gender (m/f/n) with the Grundschule colour dots blau/rot/grün; no refusals. Nouns whose singular equals the plural (Kaninchen, Mädchen) still key cleanly by gender. Title 'Der, die oder das?' is the genre phrase teachers search."
   },
   "enAudit": [

@@ -2306,13 +2306,6 @@
     "answer": "i"
    },
    {
-    "theme": "birds 2",
-    "noun": "chicken",
-    "key": "chicken",
-    "word": "höna",
-    "answer": "a"
-   },
-   {
     "theme": "toys",
     "noun": "doll",
     "key": "doll",
@@ -2359,6 +2352,13 @@
     "noun": "coat",
     "key": "coat",
     "word": "kappa",
+    "answer": "a"
+   },
+   {
+    "theme": "camping",
+    "noun": "map",
+    "key": "map",
+    "word": "karta",
     "answer": "a"
    },
    {

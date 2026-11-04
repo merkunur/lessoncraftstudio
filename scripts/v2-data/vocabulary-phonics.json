@@ -12914,9 +12914,9 @@
       "vs": "short_e"
     },
     "de": {
-      "syl": 2,
-      "pat": "CVCCV",
-      "lc": 5
+      "syl": 5,
+      "pat": "CVCCVCVCVCV",
+      "lc": 13
     },
     "fr": {
       "syl": 3,

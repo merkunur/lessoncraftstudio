@@ -166,11 +166,7 @@ function dataChecks(loc, cfg) {
       for (const ro of row.readOnly || []) {
         check(ro.endsWith(row.rime) && CONSONANT_ONSET.test(ro.slice(0, -row.rime.length)), `${loc} ${row.id}: readOnly "${ro}" is not consonant onset + rime`, fails);
         check(!hasPicture(ro, loc) && !(approved.get(ro) && hasPicture(approved.get(ro).key, loc)), `${loc} ${row.id}: readOnly "${ro}" IS pictured`, fails);   // rule 12
-        check(cells.some((c) => c.text === ro), `${loc} ${row.id}: readOnly "${ro}" is not a cell`, fails);
       }
-      // the cells are exactly words ∪ readOnly (a dropped cell or an orphan cell fails)
-      const expect = new Set([...wordTexts, ...(row.readOnly || []).map((r) => r.toLocaleLowerCase(loc))]);
-      check(cellTexts.length === expect.size && cellTexts.every((t) => expect.has(t)), `${loc} ${row.id}: cells [${cellTexts.join(' ')}] != words ∪ readOnly [${[...expect].join(' ')}]`, fails);   // rule 2
       // rule 10: re-derive the row's word set from the approved file and diff
       const derived = new Set();
       for (const e of approved.values()) {
@@ -185,6 +181,16 @@ function dataChecks(loc, cfg) {
       const missing = [...derived].filter((w) => !bankWords.has(w));
       const extra = [...bankWords].filter((w) => !derived.has(w));
       check(!missing.length && !extra.length, `${loc} ${row.id}: bank words differ from the approved derivation (missing [${missing.join(' ')}] extra [${extra.join(' ')}])`, fails);
+    }
+    // rule 2 for rime AND sound-out rows: the cells are exactly words ∪ readOnly (a dropped or an orphan cell fails).
+    // (2026-11-04: ran for rime rows only, while nl sv no sound-out rows carry readOnly cells.) Syllable rows print the
+    // whole syllable chart (ka ke ki ko ku), so their unpictured cells are the chart, not orphans. A sound-out readOnly
+    // word MAY have a picture: the native panels keep some pictured words read-only on purpose (nl kin — a chin picture
+    // reads as face or mouth, the reason cheeks and forehead are banned), so "IS pictured" stays a rime-row rule.
+    if (cfg.shape === 'rime' || cfg.shape === 'soundout') {
+      for (const ro of row.readOnly || []) check(cells.some((c) => c.text.toLocaleLowerCase(loc) === String(ro).toLocaleLowerCase(loc)), `${loc} ${row.id}: readOnly "${ro}" is not a cell`, fails);
+      const expect = new Set([...wordTexts, ...(row.readOnly || []).map((r) => r.toLocaleLowerCase(loc))]);
+      check(cellTexts.length === expect.size && cellTexts.every((t) => expect.has(t)), `${loc} ${row.id}: cells [${cellTexts.join(' ')}] != words ∪ readOnly [${[...expect].join(' ')}]`, fails);   // rule 2
     }
   }
   for (const [t, n] of cellSeen) check(n === 1, `${loc}: cell "${t}" appears in ${n} rows`, fails);
@@ -589,19 +595,24 @@ async function main() {
     }
     // sweeps
     if (!QUICK) {
+      // v1 is the published page (its frozen pool); v2.. are new pages, whose pool drops the Level Set exclusions. The
+      // union of the NEW pages must equal the NEW pool, over enough pages that a uniformly drawn word is missed with
+      // p < 1/1000 (2026-11-04: 20 pages, measured against the published pool, failed de fr es pt).
+      const freshPoolN = spec.build({ theme: null, difficulty: 2, locale: LOC, unit: cfg.exemplar }, { rng: makeRng(instanceSeed({ typeId: spec.id, theme: null, difficulty: 2, seedEpoch: 1, variant: 2, unit: cfg.exemplar })), variant: 2 }).meta.pool;
+      const perPage = spec.difficulty[2].cards;
+      const sweepN = 1 + Math.min(80, Math.max(19, Math.ceil(Math.log(freshPoolN * 1000) / -Math.log(1 - Math.min(0.99, perPage / freshPoolN)))));
       const union = new Set();
       let rowSig = null;
-      for (let v = 1; v <= 20; v++) {
+      for (let v = 1; v <= sweepN; v++) {
         const { m, baseName } = await runRender({ face: 'base', d: 2, unit: cfg.exemplar, variant: v, tag: 'sweep-' });
-        m.cards.forEach((c) => union.add(c.word));
+        if (v > 1) m.cards.forEach((c) => union.add(c.word));
         const sig = m.rows.join('/');
         if (rowSig == null) rowSig = sig;
         check(sig === rowSig, `${baseName}: carpet row order moved (${sig})`, fails);
         if (v > 1) for (const ext of ['.html', '.pdf', '.png']) { try { fs.unlinkSync(path.join(OUT, baseName + ext)); } catch (e) { /* noop */ } }
       }
-      const pool = feasible.find((m) => m.face === 'base' && m.unit === cfg.exemplar && m.d === 2);
-      const poolN = +(/pool=(\d+)/.exec(pool.res) || [])[1];
-      check(union.size === poolN, `sweep: ${union.size} distinct words over 20 seeds != pool ${poolN} (some word never surfaces)`, fails);
+      check(freshPoolN > 0, 'sweep: the new-page pool is empty', fails);
+      check(union.size === freshPoolN, `sweep: ${union.size} distinct words over ${sweepN - 1} new pages != the new-page pool ${freshPoolN} (some word never surfaces)`, fails);
       // faces: 10 seeds each — the union grows past one page; Circle's answer column never freezes
       for (const face of Object.keys(FACES)) {
         const u = new Set();
@@ -646,29 +657,77 @@ async function main() {
     };
     const firstCard = (html) => /data-lcs-word="([^"]+)"/.exec(html)[1];
 
-    /* ---- the base's 16 */
-    await poison('unapproved word (sebra)', (c) => { rowOf(c, 'an').words.push({ key: 'zebra', word: 'sebra', unit: 's' }); rowOf(c, 'an').cells.push('s|ebra'); }, dataFired);
-    await poison('TeX-less word (acorn)', (c) => { rowOf(c, 'an').words.push({ key: 'acorn', word: 'acorn', unit: 'ac' }); }, dataFired);
-    await poison('dropped cell c|at, cat fanned — data', (c) => { const r = rowOf(c, 'at'); r.cells = r.cells.filter((x) => x !== 'c|at'); }, dataFired);
-    await poison('dropped cell — render (the first card cell cut out of the carpet html)', () => {}, async (c) => {
-      const cut = rewriting(spec, (h) => { const w = firstCard(h); const re = new RegExp('<g data-lcs-cell="' + w + '"[^]*?</g>'); /* [^] = any char; a `\s` inside a string degrades to `s` */ return h.replace(re, ''); });
+    /* The poisons work on EVERY language's own data (2026-11-04: they named en rows and words — rowOf(c,'an'), van,
+       tractor, bat — and the en pill markup, so in the ten other languages 22-26 of them threw before poisoning
+       anything). An assertion that runs only for some bank shapes (the rime rules: en) keeps its en poison and is
+       reported n/a elsewhere — never counted as killed. */
+    const SHAPE = BANK[LOC].shape;
+    const notApplicable = [];
+    async function shapePoison(shapes, name, mutate, detect) {
+      if (!shapes.includes(BANK[LOC].shape)) { notApplicable.push(name + ' — ' + shapes.join('/') + ' banks only; ' + LOC + ' is ' + BANK[LOC].shape); return; }
+      await poison(name, mutate, detect);
+    }
+    const exRow = (c) => rowOf(c, c.exemplar);
+    const otherRow = (c) => rowsOf(c).find((r) => r.id !== c.exemplar);
+    // the cell a bank word occupies in its row (rule 2), by the shape's own rule
+    const cellIndexOf = (c, row, w) => row.cells.findIndex((x) => {
+      const p = parseCell(x);
+      if (c.shape === 'rime') return p.onset === w.unit && p.rime === row.rime;
+      return p.text.toLocaleLowerCase(LOC) === String(c.shape === 'syllable' ? w.unit : w.word).toLocaleLowerCase(LOC);
+    });
+    const cardTag = (h) => /<div class="ws-card-stage"[^>]*data-lcs-word="[^"]+"[^>]*>/.exec(h)[0];
+    const attrOf = (tag, a) => (new RegExp(a + '="([^"]+)"').exec(tag) || [])[1];
+    const escRe = (x) => String(x).replace(/[.*+?^$(){}|[\]\\]/g, '\\$&');
+    // the carpet cell the first card points to: its unit (syllable banks) or its word (rime / sound-out)
+    const firstCardCell = (h) => {
+      const t = cardTag(h);
+      const want = String(SHAPE === 'syllable' ? attrOf(t, 'data-lcs-unit') : attrOf(t, 'data-lcs-word')).toLocaleLowerCase(LOC);
+      const cell = [...h.matchAll(/<g data-lcs-cell="([^"]+)"/g)].map((m) => m[1]).find((x) => x.toLocaleLowerCase(LOC) === want);
+      if (!cell) throw new Error('no carpet cell for the first card');
+      return cell;
+    };
+    const cellBlock = (cell) => new RegExp('<g data-lcs-cell="' + escRe(cell) + '"[^]*?</g>');
+    // an approved entry with its TeX agreement withheld for ONE poison (de nl da no hold no TeX-less entry at all)
+    const approvedEntry = (key) => require('../lib/b3-common.js').approvedWords(LOC).find((e) => e.key === key);
+    async function withoutTex(entry, fn) {
+      if (!entry) throw new Error('no approved entry');
+      const keep = entry.sources_agreed;
+      entry.sources_agreed = (keep || []).filter((x) => x !== 'TeX');
+      try { return await fn(); } finally { entry.sources_agreed = keep; }
+    }
+    const want = (f, re) => { const hit = f.find((x) => re.test(x)); return { fired: !!hit, note: hit || (f[0] ? 'only: ' + f[0] : '') }; };
+    // a pill, en (two coloured spans) or every other language (the bare text)
+    const PILL_G = /<span class="ws-pill"([^>]*)data-lcs-choice="([^"]+)" data-lcs-pos="(\d)">(?:<span[^>]*>[^<]*<\/span>)*[^<]*<\/span>/g;
+    const pillOf = (choice) => new RegExp('<span class="ws-pill"[^>]*data-lcs-choice="' + escRe(choice) + '" data-lcs-pos="\\d">(?:<span[^>]*>[^<]*</span>)*[^<]*</span>');
+    const ONSET_STAMP = /onset .* != |does not start with|sound-out unit != word/;
+
+    /* ---- the base */
+    await poison('unapproved word (a key the approved file does not hold)', (c) => { const r = exRow(c); r.words.push({ ...r.words[0], key: '__not_approved__' }); }, (c) => want(dataChecks(LOC, c), /is not an approved word/));
+    await poison('TeX-less word (the first word\'s TeX agreement withheld)', () => {}, (c) => withoutTex(approvedEntry(exRow(c).words[0].key), () => want(dataChecks(LOC, c), /not TeX-agreed/)));
+    await poison('dropped cell — data (the first word\'s own cell)', (c) => { const r = exRow(c); const i = cellIndexOf(c, r, r.words[0]); if (i < 0) throw new Error('no cell for the first word'); r.cells.splice(i, 1); }, (c) => want(dataChecks(LOC, c), /matches 0 cells/));
+    await poison('dropped cell — render (the first card\'s cell cut out of the carpet html)', () => {}, async (c) => {
+      const cut = rewriting(spec, (h) => h.replace(cellBlock(firstCardCell(h)), ''));
       return renderFired(c, { type: cut }, /matches 0 cells/);
     });
-    await poison('car under -ar (r-controlled)', (c) => { c.rimes.push({ id: 'ar', label: '-ar', rime: 'ar', cells: ['c|ar', 'j|ar', 'st|ar'], readOnly: [], words: [{ key: 'car', word: 'car', unit: 'c' }, { key: 'jar', word: 'jar', unit: 'j' }, { key: 'star', word: 'star', unit: 'st' }] }); }, dataFired);
-    await poison('B multigraph chunk (boek sch/oe)', (c) => { c.shape = 'soundout'; c.units = [{ id: 'oe', cells: ['boek'], words: [{ key: 'book', word: 'boek', unit: 'boek', chunks: ['b', 'oe', 'k'] }] }]; }, dataFired);
-    await poison('da policy-managed word (hund)', (c) => { c.shape = 'soundout'; c.strictPool = 'policy_managed_absent'; c.units = [{ id: 'u', cells: ['hund'], words: [{ key: 'dog', word: 'hund', unit: 'hund', chunks: ['h', 'u', 'n', 'd'] }] }]; }, (c) => { const f = dataChecks('da', c); return { fired: f.some((x) => /policy-managed/.test(x)), note: f.find((x) => /policy-managed/.test(x)) || f[0] }; });
+    await shapePoison(['rime', 'soundout'], 'orphan cell (a cell no word and no readOnly entry claims)', (c) => { exRow(c).cells.push('qqzq'); }, (c) => want(dataChecks(LOC, c), /!= words ∪ readOnly/));
+    await shapePoison(['rime', 'soundout'], 'readOnly entry that is not a cell', (c) => { const r = exRow(c); r.readOnly = [...(r.readOnly || []), 'qqzq']; }, (c) => want(dataChecks(LOC, c), /readOnly "qqzq" is not a cell/));
+    await shapePoison(['rime'], 'car under -ar (r-controlled)', (c) => { c.rimes.push({ id: 'ar', label: '-ar', rime: 'ar', cells: ['c|ar', 'j|ar', 'st|ar'], readOnly: [], words: [{ key: 'car', word: 'car', unit: 'c' }, { key: 'jar', word: 'jar', unit: 'j' }, { key: 'star', word: 'star', unit: 'st' }] }); }, (c) => want(dataChecks(LOC, c), /not a simple short-vowel rime/));
+    // language-free: the multigraph and the da policy rules are the nl / da banks' own; both run on any language's run
+    await poison('B multigraph chunk (nl boek b·oe·k)', (c) => { c.shape = 'soundout'; c.units = [{ id: 'oe', cells: ['boek'], words: [{ key: 'book', word: 'boek', unit: 'boek', chunks: ['b', 'oe', 'k'] }] }]; c.exemplar = 'oe'; }, (c) => want(dataChecks('nl', c), /multigraph/));
+    await poison('da policy-managed word (hund)', (c) => { c.shape = 'soundout'; c.strictPool = 'policy_managed_absent'; c.units = [{ id: 'u', cells: ['hund'], words: [{ key: 'dog', word: 'hund', unit: 'hund', chunks: ['h', 'u', 'n', 'd'] }] }]; }, (c) => want(dataChecks('da', c), /policy-managed/));
     await poison('wrong onset stamp (the first card data-lcs-unit rewritten)', () => {}, async (c) => {
-      const bad = rewriting(spec, (h) => { const m = /data-lcs-unit="([^"]+)"/.exec(h); return h.replace(m[0], 'data-lcs-unit="' + (m[1] === 'b' ? 'h' : 'b') + '"'); });
-      return renderFired(c, { type: bad }, /onset .* != /);
+      const bad = rewriting(spec, (h) => { const m = /data-lcs-unit="([^"]+)"/.exec(h); return h.replace(m[0], 'data-lcs-unit="' + (m[1] === 'zq' ? 'qz' : 'zq') + '"'); });
+      return renderFired(c, { type: bad }, ONSET_STAMP);
     });
     await poison('answer printed on its card', () => {}, async (c) => {
       const leaky = rewriting(spec, (h) => { const w = firstCard(h); return h.replace('</div></section>', `<span>${w}</span></div></section>`); });
       return renderFired(c, { type: leaky }, /visible text|answer .* printed/);
     });
-    await poison('44 px words forced into a 64 cell (swan left the -an row 2026-10-02)', () => {}, async (c) => {
+    // 64 px, not the en 44: a two-letter fi / es cell ("ka") fits a 64 cell at 44 px, so 44 poisoned nothing there
+    await poison('64 px words forced into a 64 cell (swan left the -an row 2026-10-02)', () => {}, async (c) => {
       await renderOne(page, { d: 2, unit: c.exemplar, variant: 1, tag: 'poison-' });
       await page.evaluate(() => {
-        document.querySelectorAll('svg[data-lcs-row]').forEach((svg) => { svg.dataset.lcsCellW = '64'; svg.dataset.lcsFont = '44'; svg.querySelectorAll('g[data-lcs-cell] rect').forEach((r) => r.setAttribute('width', '64')); svg.querySelectorAll('g[data-lcs-cell] text').forEach((t) => t.setAttribute('font-size', '44')); });
+        document.querySelectorAll('svg[data-lcs-row]').forEach((svg) => { svg.dataset.lcsCellW = '64'; svg.dataset.lcsFont = '64'; svg.querySelectorAll('g[data-lcs-cell] rect').forEach((r) => r.setAttribute('width', '64')); svg.querySelectorAll('g[data-lcs-cell] text').forEach((t) => t.setAttribute('font-size', '64')); });
       });
       const m = await measure(page);
       return { fired: m.fails.some((x) => /advance/.test(x)), note: m.fails.find((x) => /advance/.test(x)) || '' };
@@ -683,30 +742,46 @@ async function main() {
       const v = await spec.verify(page);
       return { fired: m.fails.some((x) => /BW-directory/.test(x)) && v.some((x) => /BW-directory/.test(x)), note: m.fails.find((x) => /BW/.test(x)) || '' };
     });
-    await poison('6-word unit must throw, never fill (van removed; the floor is 7)', (c) => { const r = rowOf(c, 'an'); r.words = r.words.filter((w) => w.key !== 'van'); r.cells = r.cells.filter((x) => x !== 'v|an'); }, (c) => buildThrows(spec, c, 2, c.exemplar));
-    await poison('pictureTheme pin names a dir without the word (pan → space)', (c) => { rowOf(c, 'an').words.find((w) => w.key === 'pan').pictureTheme = 'space'; }, dataFired);
-    await poison('read-only cells over a third (four readOnly stamps forced on the render)', () => {}, async (c) => {
-      const ro = rewriting(spec, (h) => { let n = 0; return h.replace(/<g data-lcs-cell="([^"]+)"/g, (m0) => (n++ < 4 ? m0 + ' data-lcs-readonly="1"' : m0)); });
+    // the carpet's words, removed one at a time from its fullest row: the first refusal must come before any page is
+    // FILLED from a pool under the floor (en: van left -an, the floor is 7)
+    await poison('a unit under the pool floor must throw, never fill', () => {}, (c) => {
+      const d2 = spec.difficulty[2];
+      const ids = spec.build({ theme: null, difficulty: 2, locale: LOC, unit: c.exemplar }, { rng: makeRng(instanceSeed({ typeId: spec.id, theme: null, difficulty: 2, seedEpoch: 1, unit: c.exemplar })) }).meta.rows;
+      for (let guard = 0; guard < 400; guard++) {
+        let b;
+        try { b = spec.build({ theme: null, difficulty: 2, locale: LOC, unit: c.exemplar }, { rng: makeRng(instanceSeed({ typeId: spec.id, theme: null, difficulty: 2, seedEpoch: 1, unit: c.exemplar })) }); }
+        catch (e) { return { fired: /REFUSED|refuse|not built/.test(e.message), note: e.message.slice(0, 90) }; }
+        if (b.meta.pool < d2.poolMin) return { fired: false, note: 'FILLED from a pool of ' + b.meta.pool + ' < ' + d2.poolMin };
+        const rows = ids.map((id) => rowOf(c, id)).filter(Boolean).sort((x, y) => y.words.length - x.words.length);
+        const r = rows[0]; const w = r.words.pop(); const i = cellIndexOf(c, r, w); if (i >= 0 && c.shape !== 'syllable') r.cells.splice(i, 1);
+      }
+      return { fired: false, note: 'never refused' };
+    });
+    await poison('pictureTheme pin names a dir without the word', (c) => {
+      const w = exRow(c).words[0];
+      const t = Object.keys(manifest().themes).find((x) => !/bw(\s+\d+)?$/i.test(x) && !candidates(w.key, LOC).some((k) => k.theme === x));
+      w.pictureTheme = t;
+    }, (c) => want(dataChecks(LOC, c), /pictureTheme/));
+    await poison('read-only cells over a third (a third of the cells + 1 stamped read-only on the render)', () => {}, async (c) => {
+      const ro = rewriting(spec, (h) => { const total = (h.match(/<g data-lcs-cell="/g) || []).length; const k = Math.floor(total / 3) + 1; let n = 0; return h.replace(/<g data-lcs-cell="([^"]+)"/g, (m0) => (n++ < k ? m0 + ' data-lcs-readonly="1"' : m0)); });
       return renderFired(c, { type: ro }, /exceed a third/);
     });
-    await poison('pictured readOnly cell (bat)', (c) => { const r = rowOf(c, 'at'); r.readOnly.push('bat'); }, dataFired);
-    await poison('duplicate cell across rows (c|an in -at)', (c) => { rowOf(c, 'at').cells.push('c|an'); }, dataFired);
+    await shapePoison(['rime'], 'pictured readOnly cell (bat)', (c) => { const r = rowOf(c, 'at'); r.readOnly.push('bat'); }, (c) => want(dataChecks(LOC, c), /IS pictured/));
+    await poison('duplicate cell across rows (the exemplar\'s first cell in a second row)', (c) => { otherRow(c).cells.push(exRow(c).cells[0]); }, (c) => want(dataChecks(LOC, c), /appears in 2 rows/));
 
     /* ---- C: Circle (G1-330) */
     const circleHtml = (fn) => rewriting(FACES.circle, fn);
-    await poison('C1 the answer pill removed', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => { const a = /data-lcs-answer="([^"]+)"/.exec(h)[1]; return h.replace(new RegExp('<span class="ws-pill"[^>]*data-lcs-choice="' + a + '"[^]*?</span></span>'), ''); }) }, /0 pills equal the answer|pills != /));
-    await poison('C2 two pills equal (a distractor rewritten to the answer)', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => {
-      const a = /data-lcs-answer="([^"]+)"/.exec(h)[1];
-      const re = /<span class="ws-pill"[^>]*data-lcs-choice="([^"]+)" data-lcs-pos="(\d)">[^]*?<\/span><\/span>/;
-      let done = false;
-      return h.replace(/<span class="ws-pill"[^>]*data-lcs-choice="([^"]+)" data-lcs-pos="(\d)">[^]*?<\/span><\/span>/g, (m0, choice, pos) => { if (done || choice === a) return m0; done = true; return `<span class="ws-pill" style="width:100px;height:44px;padding:0;font-size:26px;line-height:1" data-lcs-choice="${a}" data-lcs-pos="${pos}"><span>${a}</span></span>`; });
-    }) }, /2 pills equal|not distinct/));
-    await poison('C3 a pill from the OTHER carpet row (bat → can)', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => {
-      // the first card's answer row is either -an or -at; take a cell from the other row as the distractor
-      const a = /data-lcs-answer="([^"]+)"/.exec(h)[1];
-      const other = a.endsWith('an') ? 'cat' : 'can';
-      let done = false;
-      return h.replace(/<span class="ws-pill"([^>]*)data-lcs-choice="([^"]+)" data-lcs-pos="(\d)">[^]*?<\/span><\/span>/g, (m0, style, choice, pos) => { if (done || choice === a) return m0; done = true; return `<span class="ws-pill"${style}data-lcs-choice="${other}" data-lcs-pos="${pos}"><span>${other}</span></span>`; });
+    const firstAnswer = (h) => /data-lcs-answer="([^"]+)"/.exec(h)[1];
+    // replace the first pill that is NOT the answer
+    const swapDistractor = (h, a, make) => { let done = false; return h.replace(PILL_G, (m0, style, choice, pos) => { if (done || choice === a) return m0; done = true; return '<span class="ws-pill"' + style + 'data-lcs-choice="' + make + '" data-lcs-pos="' + pos + '">' + make + '</span>'; }); };
+    await poison('C1 the answer pill removed', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => h.replace(pillOf(firstAnswer(h)), '')) }, /0 pills equal the answer|pills != /));
+    await poison('C2 two pills equal (a distractor rewritten to the answer)', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => { const a = firstAnswer(h); return swapDistractor(h, a, a); }) }, /2 pills equal|not distinct/));
+    await poison('C3 a pill from the OTHER carpet row', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => {
+      const a = firstAnswer(h).toLocaleLowerCase(LOC);
+      const rows = [...h.matchAll(/<svg[^>]*data-lcs-row="[^"]*"[^]*?<\/svg>/g)].map((m) => [...m[0].matchAll(/<g data-lcs-cell="([^"]+)"/g)].map((x) => x[1]));
+      const other = rows.find((cells) => !cells.some((x) => x.toLocaleLowerCase(LOC) === a));
+      if (!other || !other.length) throw new Error('a one-row carpet: no other row');
+      return swapDistractor(h, firstAnswer(h), other[0]);
     }) }, /not a cell of the card's row/));
     await poison('C4 the answer always in position 0 (the position shuffle disabled)', () => {}, (c) => {
       // the position sequence is the ONE shuffle over plain numbers (sample() shuffles entries through this.shuffle)
@@ -714,40 +789,44 @@ async function main() {
       return renderFired(c, { face: 'circle', type: constant }, /answer position 0 used/);
     });
     await poison('C5 a lane on a circle card', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => h.replace('</div></section>', '<div data-lcs-syllable-lane data-lcs-writable="100" data-lcs-glyph-h="30" style="width:100px;height:44px"></div></div></section>')) }, /lanes rendered/));
-    await poison('C6 a pill prints a different word than it stamps', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => h.replace(/(data-lcs-choice="[^"]+" data-lcs-pos="0">)<span style="color:#3A3530">([a-z]+)<\/span>/, '$1<span style="color:#3A3530">x$2</span>')) }, /prints .* but stamps/));
-    await poison('C7 a distractor that extends the answer (cat → cats)', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => {
-      const a = /data-lcs-answer="([^"]+)"/.exec(h)[1];
-      let done = false;
-      return h.replace(/<span class="ws-pill"([^>]*)data-lcs-choice="([^"]+)" data-lcs-pos="(\d)">[^]*?<\/span><\/span>/g, (m0, style, choice, pos) => { if (done || choice === a) return m0; done = true; return `<span class="ws-pill"${style}data-lcs-choice="${a}s" data-lcs-pos="${pos}"><span>${a}s</span></span>`; });
-    }) }, /spelled prefix/));
+    await poison('C6 a pill prints a different word than it stamps', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => h.replace(/(data-lcs-choice="[^"]+" data-lcs-pos="0">(?:<span style="color:#3A3530">)?)(\p{L})/u, '$1x$2')) }, /prints .* but stamps/));
+    await poison('C7 a distractor that extends the answer (answer + s)', () => {}, (c) => renderFired(c, { face: 'circle', type: circleHtml((h) => { const a = firstAnswer(h); return swapDistractor(h, a, a + 's'); }) }, /spelled prefix/));
 
     /* ---- J: Join (G1-331) */
     const joinHtml = (fn) => rewriting(FACES.join, fn);
     await poison('J1 tiles shuffled (the first card\'s two tiles swapped)', () => {}, (c) => renderFired(c, { face: 'join', type: joinHtml((h) => h.replace(/data-lcs-tile="0">([^<]+)<\/span>(<span aria-hidden[^]*?<\/span>)<span class="ws-tile"([^>]*)data-lcs-tile="1">([^<]+)<\/span>/, 'data-lcs-tile="0">$4</span>$2<span class="ws-tile"$3data-lcs-tile="1">$1</span>')) }, /order/));
-    await poison('J2 the whole word printed on the card', () => {}, (c) => renderFired(c, { face: 'join', type: joinHtml((h) => { const w = firstCard(h); return h.replace('</div></section>', `<span>${w}</span></div></section>`); }) }, /whole word is printed|text .* outside the tiles|answer .* printed/));
-    await poison('J3 a split that is not the approved split (tractor → trac|t|or)', (c) => { c.multi.find((w) => w.key === 'tractor').split = ['trac', 't', 'or']; }, multiFired(/split .* differs from approved/));
-    await poison('J4 refuse.finalMuteE set with mute-e words in the pool', (c) => { c.refuse.finalMuteE = true; }, multiFired(/mute e/));
-    await poison('J5 a derived word missing from the pool (tractor dropped)', (c) => { c.multi = c.multi.filter((w) => w.key !== 'tractor'); }, multiFired(/missing \[tractor/));
-    await poison('J6 a rule-only word listed (acorn)', (c) => { c.multi.push({ key: 'acorn', word: 'acorn', split: ['ac', 'orn'] }); }, multiFired(/not TeX-agreed/));
+    await poison('J2 the whole word printed on the card', () => {}, (c) => renderFired(c, { face: 'join', type: joinHtml((h) => { const w = firstCard(h); return h.replace('</div></section>', '<span>' + w + '</span></div></section>'); }) }, /whole word is printed|text .* outside the tiles|answer .* printed/));
+    await poison('J3 a split that is not the approved split (the first two syllables joined)', (c) => { const w = c.multi.find((x) => x.split.length >= 2); w.split = [w.split[0] + w.split[1], ...w.split.slice(2)]; }, multiFired(/split .* differs from approved/));
+    // a silent final e is an en / fr spelling fact (fi nukke, de Garage, it pane say their e)
+    if (['en', 'fr'].includes(LOC)) await poison('J4 refuse.finalMuteE set with mute-e words in the pool', (c) => { c.refuse.finalMuteE = true; }, multiFired(/mute e/));
+    else notApplicable.push('J4 refuse.finalMuteE — a silent final e is an en / fr spelling rule; ' + LOC + ' says its final e');
+    await poison('J5 a derived word missing from the pool (the first one dropped)', () => {}, (c) => {
+      const w = c.multi.shift().word.toLocaleLowerCase(LOC);
+      const f = multiDataChecks(LOC, c);
+      const hit = f.find((x) => { const i = x.indexOf('missing ['); return i >= 0 && x.slice(i + 9).split(']')[0].split(' ').includes(w); });
+      return { fired: !!hit, note: hit || (f[0] ? 'only: ' + f[0] : '') };
+    });
+    await poison('J6 a word whose boundary is not TeX-agreed (the first one\'s TeX withheld)', () => {}, (c) => withoutTex(approvedEntry(c.multi[0].key), () => want(multiDataChecks(LOC, c), /not TeX-agreed/)));
     await poison('J7 the ruling row removed', () => {}, (c) => renderFired(c, { face: 'join', type: joinHtml((h) => h.replace(/<div data-lcs-ruling-row="1">[^]*?<\/svg><\/div>/, '')) }, /0 ruling rows/));
     await poison('J8 a 7-word pool must throw, never fill', (c) => { c.multi = c.multi.filter((w) => w.split.length === 2).slice(0, 7); }, (c) => buildThrows(FACES.join, c, 2, null));
 
     /* ---- K: Carpet (G1-332) */
     const carpetHtml = (fn) => rewriting(FACES.carpet, fn);
-    await poison('K1 a target cell printed twice on the carpet', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => { const w = firstCard(h); const m = new RegExp('<g data-lcs-cell="' + w + '"[^]*?</g>').exec(h); return h.replace(m[0], m[0] + m[0]); }) }, /printed 2 times/));
-    await poison('K2 two rings the same colour', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => { const cols = [...h.matchAll(/data-lcs-colour="([^"]+)"/g)].map((m) => m[1]); const a = cols[0], b = cols[2]; return h.split(`data-lcs-colour="${b}"`).join(`data-lcs-colour="${a}"`); }) }, /colour .* twice/));
+    await poison('K1 a target cell printed twice on the carpet', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => { const m = cellBlock(firstCardCell(h)).exec(h); return h.replace(m[0], m[0] + m[0]); }) }, /printed 2 times/));
+    await poison('K2 two rings the same colour', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => { const cols = [...h.matchAll(/data-lcs-colour="([^"]+)"/g)].map((m) => m[1]); const a = cols[0], b = cols[2]; return h.split('data-lcs-colour="' + b + '"').join('data-lcs-colour="' + a + '"'); }) }, /colour .* twice/));
     await poison('K3 a cell pre-coloured', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => h.replace(/(<g data-lcs-cell="[^"]+"[^>]*><rect[^>]*fill=")#FFFFFF/, '$1' + tokens.codeColors.codeRed)) }, /want white/));
     await poison('K4 every target from one row (row-id stamps rewritten)', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => h.replace(/data-lcs-row-id="[^"]+"/g, 'data-lcs-row-id="an"')) }, /targets come from 1 rows/));
     await poison('K5 a lane on a colour card', () => {}, (c) => renderFired(c, { face: 'carpet', type: carpetHtml((h) => h.replace('</div></section>', '<div data-lcs-syllable-lane data-lcs-writable="100" data-lcs-glyph-h="30" style="width:100px;height:44px"></div></div></section>')) }, /lanes rendered/));
     await poison('K6 reps:2 must refuse (a carpet prints every cell once)', () => {}, (c) => { const two = Object.assign({}, FACES.carpet, { difficulty: { 2: { ...FACES.carpet.difficulty[2], reps: 2 } } }); return buildThrows(two, c, 2, c.exemplar); });
 
     /* ---- X: Complex (G1-333) */
-    await poison('X1 a single-consonant word in a complex row (c|at cat)', (c) => { const r = cxRowOf(c, 'l1'); r.cells.push('c|at'); r.words.push({ key: 'cat', word: 'cat', unit: 'c' }); }, cxFired(/is not a blend/));
-    await poison('X2 a complex row carrying a shared rime', (c) => { cxRowOf(c, 'l1').rime = 'ag'; }, cxFired(/shared rime/));
-    await poison('X3 a derived complex word missing (truck dropped)', (c) => { const r = cxRowOf(c, 'l2'); r.cells = r.cells.filter((x) => x !== 'tr|uck'); r.words = r.words.filter((w) => w.key !== 'truck'); }, cxFired(/missing \[truck/));
-    await poison('X4 crow fanned (-ow is not short-vowel closed)', (c) => { const r = cxRowOf(c, 'l4'); r.cells.push('cr|ow'); r.words.push({ key: 'crow', word: 'crow', unit: 'cr' }); }, cxFired(/not short-vowel closed/));
-    await poison('X5 a complex ladder listed as a SIMPLE row (control the other way)', (c) => { c.rimes.push({ id: 'l1x', label: 'blends', cells: ['fl|ag', 'cr|ab'], readOnly: [], words: [{ key: 'flag', word: 'flag', unit: 'fl' }, { key: 'crab', word: 'crab', unit: 'cr' }] }); }, (c) => { const f = dataChecks(LOC, c); const hit = f.find((x) => /not a simple short-vowel rime|!= "/.test(x)); return { fired: !!hit, note: hit || f[0] || '' }; });
-    await poison('X6 wrong blend stamp on the complex render', () => {}, (c) => renderFired(c, { face: 'complex', type: rewriting(FACES.complex, (h) => { const m = /data-lcs-unit="([^"]+)"/.exec(h); return h.replace(m[0], 'data-lcs-unit="' + (m[1] === 'fl' ? 'cr' : 'fl') + '"'); }) }, /onset .* != /));
+    await shapePoison(['rime'], 'X1 a single-consonant word in a complex row (c|at cat)', (c) => { const r = cxRowOf(c, 'l1'); r.cells.push('c|at'); r.words.push({ key: 'cat', word: 'cat', unit: 'c' }); }, cxFired(/is not a blend/));
+    await poison('X2 a complex row carrying a shared rime', (c) => { c.complexUnits[0].rime = 'ag'; }, cxFired(/shared rime/));
+    await shapePoison(['rime'], 'X3 a derived complex word missing (truck dropped)', (c) => { const r = cxRowOf(c, 'l2'); r.cells = r.cells.filter((x) => x !== 'tr|uck'); r.words = r.words.filter((w) => w.key !== 'truck'); }, cxFired(/missing \[truck/));
+    await shapePoison(['rime'], 'X4 crow fanned (-ow is not short-vowel closed)', (c) => { const r = cxRowOf(c, 'l4'); r.cells.push('cr|ow'); r.words.push({ key: 'crow', word: 'crow', unit: 'cr' }); }, cxFired(/not short-vowel closed/));
+    await shapePoison(['rime'], 'X5 a complex ladder listed as a SIMPLE row (control the other way)', (c) => { c.rimes.push({ id: 'l1x', label: 'blends', cells: ['fl|ag', 'cr|ab'], readOnly: [], words: [{ key: 'flag', word: 'flag', unit: 'fl' }, { key: 'crab', word: 'crab', unit: 'cr' }] }); }, (c) => want(dataChecks(LOC, c), /not a simple short-vowel rime|!= "/));
+    await poison('X6 wrong blend stamp on the complex render', () => {}, (c) => renderFired(c, { face: 'complex', type: rewriting(FACES.complex, (h) => { const m = /data-lcs-unit="([^"]+)"/.exec(h); return h.replace(m[0], 'data-lcs-unit="' + (m[1] === 'zq' ? 'qz' : 'zq') + '"'); }) }, ONSET_STAMP));
+    await poison('X7 an orphan cell in a complex row', (c) => { c.complexUnits[0].cells.push('qqzq'); }, cxFired(/!= words ∪ readOnly/));
 
     /* ---- S: Syllabified (G1-334) */
     const sylHtml = (fn) => rewriting(FACES.syllabified, fn);
@@ -795,13 +874,15 @@ async function main() {
       if (!p.fired) silent++;
     }
     if (!VERBOSE) console.log(`  ${poisonResults.length - silent} fired, ${silent} silent (--verbose lists each)`);
+    for (const n of notApplicable) console.log('  n/a    ' + n);
+    check(poisonResults.length >= 40, `poisons: only ${poisonResults.length} ran for ${LOC} (the shape filter took too many)`, fails);
     for (const f of ['control-', 'poison-']) for (const x of fs.readdirSync(OUT)) if (x.startsWith('G1-306-gate-' + f)) fs.unlinkSync(path.join(OUT, x));
 
     if (fails.length) console.log('FAILS:\n  ' + fails.join('\n  '));
     console.log('renders: ' + pngs.map((p) => path.relative(path.join(__dirname, '..'), p)).join(', '));
     const ok = fails.length === 0 && silent === 0;
     console.log(ok
-      ? `ALL CHECKS PASS (${mainAssertions} assertions, ${renderCount} renders${QUICK ? ', --quick' : ' + seed sweeps'}, ${poisonResults.length}/${poisonResults.length} poisons killed)`
+      ? `ALL CHECKS PASS (${mainAssertions} assertions, ${renderCount} renders${QUICK ? ', --quick' : ' + seed sweeps'}, ${poisonResults.length}/${poisonResults.length} poisons killed${notApplicable.length ? ', ' + notApplicable.length + ' n/a for a ' + SHAPE + ' bank' : ''})`
       : `FAIL (${fails.length} failures, ${silent} silent poisons)`);
     process.exit(ok ? 0 : 1);
   } finally {

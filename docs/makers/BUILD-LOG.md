@@ -22,6 +22,60 @@ strands seam, the picture-path face. Server republish queue (operator ssh): fix1
 docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords).
 
 
+## Final phase, round 8b — the sweep of all 62 family gates × 11; gates that proved English only (2026-11-04)
+
+- **The sweep** (every `qa/verify-b*-*.js` + `verify-body-figure.js`, each in its own argument style, all 11 languages):
+  79 runs passed, 13 failed. Every failure was read; most were gates that had only ever been proven in English.
+- **Feelings (K-333):** its valence check still expected the one-row 78 px strip after the 2026-11-03 two-row body-fill
+  rule; the gate now derives the rule itself (rows, even split, icon px); poisons P13b/P13c. PASS 1,852 / 25 of 25.
+- **Syllable Reading (G1-306 + five faces):** 22-26 of the ~52 poisons threw before poisoning anything in the ten other
+  languages (they named en rows and words — `rowOf(c,'an')`, van, pan, bat, tractor — and the en pill markup). Every
+  poison now works on the language's own data (the exemplar row, its first word, the first card's own cell, the pill
+  markup of both shapes; a TeX-agreement withheld for one poison, since de / nl / da / no hold no TeX-less entry); the
+  rime-only assertions (en) keep their en poisons and are listed n/a for syllable / sound-out banks, never counted.
+  New: "cells = words ∪ readOnly" and "readOnly is a cell" now run for sound-out rows (nl sv no carry readOnly cells),
+  + poisons (orphan cell, readOnly not a cell, an orphan complex cell). The 44 px font poison became 64 px (a two-letter
+  fi cell fits 64 at 44); J4 (silent final e) runs for en / fr only.
+  **The sweep** compared 20 pages with the PUBLISHED page's pool — level 2 copy 1 keeps its frozen pool, new pages drop
+  the Level Set exclusions (de 22 → 21, es 22 → 19, pt 28 → 26, fr 10 → 9); it now compares the new pages with the
+  new-page pool, over enough pages that a uniformly drawn word is missed with p < 1/1000. All 11: PASS (46-55 poisons).
+- **The es multi pool lacked bolillo (bun) and camión (bus)** — es-MX vocabulary words since round 7 that the pool was
+  never re-derived for (the gate's derivation diff). Adding a word RE-DRAWS every page of the pool (measured: the
+  published Join / Syllabified pages and their Level Set copies — 965 published Word Families decks — all change), so
+  both are in the es bank's `ban` instead: bun because the review says the only picture (a round seeded roll) reads as
+  a hamburger bun (a bolillo is oval with one slit; new pages already exclude it), bus to keep the published draws
+  (camión is right). Pages byte-identical before / after; draft synced.
+- **Native + pedagogy review (one agent):** es splits bo-li-llo / ca-mión right; camión right for the minibus. de
+  **"Müsli" is wrong for the cereal pictures** (both show RINGS; Müsli is oat flakes, nuts, raisins) → the vocabulary
+  says **Getreideringe** in both slots (the da Havreringe precedent; "die Getreideringe", gender m stored), kept off
+  every article page. The whole chain: vocabulary + raw + phonics row (syl 5, CVCCVCVCVCV, lc 13), `cli.js --all`
+  (only de cereal moved: Ge-trei-de-rin-ge, TeX + rule + vocab-phonics), spelling rivals reproduce, letter pictures +
+  syllable banks current; Letter of the Week S drops the item, All About Me labels it Getreideringe, Sound Boxes drops
+  the row + its texBoundary entry, Syllable Reading's pool drops Müs-li; `articles-overrides` (+ the b2 drafts)
+  refuse cereal in de and da (Havreringe is plural-only too); what-for-tags (de label + "Du isst deine
+  Getreideringe.", `?v=2`), the activity picture index (breakfast, `--verify` PASS) and the Picture Word Wall
+  indexes rebuilt — those had never followed the rounds 2-7 vocabulary fixes (candy, teacher, librarian, vulture,
+  dice, da cereal …): 10 locales served old words; `verify-picture-word-wall` PASS. Republish queue `_note8`.
+- **ending-sounds.json was stale since round 7b** (the sv sound boxes dropped the refused höna; the bank built from
+  them was never rebuilt): rebuilt (höna out, karta in). `run-all-gates.sh` string-parity now also runs
+  `build-letter-pictures` / `build-syllable-banks` / `build-sound-position-banks --check` (poisoned: the stale file
+  exits 1, the rebuilt one 0).
+- **Tangram:** the long en probe title wraps to four lines on a fi page (the read-and-do precedent: trimmed to the
+  3-line case; the gate's FI4 / COMBO probes keep the 4-line fi case); the **five faces rendered in English only**
+  (`const loc = 'en'`) — their level page and chrome probes now render in every language (seeds + poisons stay en).
+- **Sink or Float:** section 1-2 validated `bankMod.SINK_OR_FLOAT` — en only since the fan-out ("bank en: 0 findings"
+  was its one bank line). It reads the merged banks now (11 bank lines, 0 findings). Rule 6's trap compared a label
+  with the picture's CURRENT vocab word: once the tools nail moved to the metal-nail entry, the correct clou / clavo
+  were "the trap". `LABEL_TRAPS` now holds the wrong words themselves (uña, ongle … / Felsen, roca …). PASS 69/69.
+- **The other b4-b6 gates validate en only** (human-body, animal-life-cycles, plants, 2d-shapes, earth-and-space,
+  habitats, family, healthy-habits, cursive): every family's exported validator over every language's merged bank is
+  `tools/bN-probe-child.js <loc>` — run for b3-b9 × 10 languages: **0 validator findings**; every refusal matches the
+  recorded hub matrices (es G2-330 builds at level 3 only — the open item). The round's sweep now runs the probes.
+- **Grammar maker (G1-497):** the screen gate found a 28 px tap target at 768 / 1024 — a one-letter word ("I", "a")
+  printed a 25 px box, and round 7's no-overlap rule stops a grown target half way to its neighbour. Word boxes are
+  ≥ 36 px wide (G1-498 already were). Both pages printed the full stop after the last word's box padding ("Mia .");
+  it now sits on the word. Screen gate, grammar maker: 48 screens pass.
+
 ## Final phase, round 8 — the ordinal line-ups on new pages; a family gate that checked one language (2026-11-04)
 
 - **The rebuild's thumbnails refused Ordinal Numbers K-320 in all 11 languages** ("strip 2: chips not ascending").

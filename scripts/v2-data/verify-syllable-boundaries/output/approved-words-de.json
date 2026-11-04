@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "generated_at": "2026-11-04T12:44:12.543Z",
+  "generated_at": "2026-11-04T22:26:24.749Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -5555,31 +5555,45 @@
     },
     {
       "key": "cereal",
-      "word": "Müsli",
+      "word": "Getreideringe",
       "split": [
-        "müs",
-        "li"
+        "ge",
+        "trei",
+        "de",
+        "rin",
+        "ge"
       ],
-      "count": 2,
+      "count": 5,
       "chunks": [
         [
-          "m",
-          "ü",
-          "s"
+          "g",
+          "e"
         ],
         [
-          "l",
-          "i"
+          "t",
+          "r",
+          "ei"
+        ],
+        [
+          "d",
+          "e"
+        ],
+        [
+          "r",
+          "i",
+          "n"
+        ],
+        [
+          "g",
+          "e"
         ]
       ],
       "sources_agreed": [
         "TeX",
         "rule",
-        "vocab-phonics-syl",
-        "Wiktionary-syl-count"
+        "vocab-phonics-syl"
       ],
-      "total_agreed": 4,
-      "wiktionary_ipa": "/ˈmyːsli/"
+      "total_agreed": 3
     },
     {
       "key": "chainsaw",

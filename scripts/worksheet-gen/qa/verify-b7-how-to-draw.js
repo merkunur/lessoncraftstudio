@@ -45,6 +45,8 @@ async function main() {
   const EN = B.HOW_TO_DRAW.en;
   const ctl = validateBank(EN, 'en');
   ok(!ctl.length, 'EN bank control: ' + ctl.join(' | '));
+  // --locale=xx: that locale's own block (the merged bank the type reads) under the same rules — before 2026-11-04 only en was
+  if (locArg !== 'en') { const lf = validateBank(require('../lib/b7-common.js').bank('how-to-draw', locArg), locArg); ok(!lf.length, locArg + ' bank: ' + lf.join(' | ')); }
   const P = (name, mut, re) => { const b = clone(EN); mut(b); judge(name, validateBank(b, 'en'), re); };
   P('P1 a title with two tokens', (b) => { b.strings.base.title = 'How to Draw {L} and {U}'; }, /exactly one \{U\}, \{L\} or \{N\}/);
   P('P2 a title over 70 chars', (b) => { b.strings.base.title = 'How to Draw {L} Step by Step for Every Little Artist in the Whole Classroom Today'; }, /> 70 chars/);

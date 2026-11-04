@@ -135,7 +135,8 @@
    "Tierarzt",
    "Rettungssanitäter",
    "Süßigkeit",
-   "Süßigkeiten"
+   "Süßigkeiten",
+   "Müsli"
   ],
   "no": [
    "Lyslenker",
@@ -1025,5 +1026,6 @@
    ],
    "why": "the title wrote a capital after the colon (Tospråklige bildekort: Norsk og engelsk); now \"norsk og {U}\". Republish the no decks of K-350 (published + Level Set)."
   }
- ]
+ ],
+ "_note8": "Round 8b (2026-11-04): the vocabulary's de cereal is \"Getreideringe\" (was \"Müsli\": both pictures show cereal RINGS; native review) — vocabOldWords.de gains \"Müsli\" (whole word: the reading text's \"Müsliriegel\" is not a hit). The authored de banks followed: Letter of the Week S drops the item (no s, and no single name a child gives the picture), All About Me labels it Getreideringe, Sound Boxes drops the row, Syllable Reading's multi pool drops Müs-li. ACTIVITIES (served copies, the operator's deploy): mini tools/what-for-tags-core.js (de label + \"Du isst deine Getreideringe.\", ?v=2), mini tools/pictures/breakfast.json, and mini tools/pww-index-{da,de,es,fi,fr,it,nl,no,pt,sv}.json — the Picture Word Wall indexes had NEVER been rebuilt after the rounds 2-7 vocabulary fixes (candy, teacher, librarian, vulture, dice, da Havreringe …) and served the old words; rebuilt + verify-picture-word-wall PASS."
 }

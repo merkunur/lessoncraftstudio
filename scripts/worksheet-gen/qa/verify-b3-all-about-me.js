@@ -176,10 +176,18 @@ function validateBank(bank, loc) {
     if (w.includes('{') || /\d/.test(w)) push(`optionWords.${key} "${w}" is not a whole literal`);
     const cite = v[key] && v[key][loc] && v[key][loc][0];
     if (!cite) push(`optionWords.${key}: no vocab singular in ${loc}`);
-    else if (w !== displayWord(cite, loc)) push(`optionWords.${key} "${w}" ≠ vocab singular "${displayWord(cite, loc)}"`);
+    else if (w !== displayWord(cite, loc) && !(TILE_LABELS[loc] && TILE_LABELS[loc][key] && TILE_LABELS[loc][key].word === w)) push(`optionWords.${key} "${w}" ≠ vocab singular "${displayWord(cite, loc)}"`);
   }
   return f;
 }
+/** A tile label that differs from the vocabulary word ON PURPOSE (an auditable list: each entry says why; main() fails an
+ *  entry the bank no longer uses or that now equals the vocab word — the list only shrinks). */
+const TILE_LABELS = {
+  // the vocabulary says Getreideringe (both cereal pictures show rings; native review 2026-11-04) — 104 px, over the
+  // 96 px tile; without a short label the German breakfast row keeps 5 printable options < 6 and cannot be built.
+  // The reviewer: Haferringe (82 px; oat rings, the Danish Havreringe).
+  de: { cereal: { word: 'Haferringe', why: 'Getreideringe is 104 px > the 96 px tile (native review 2026-11-04)' } },
+};
 
 function validatePictures(P) {
   const f = [];
@@ -245,8 +253,14 @@ function poolLabels(P) {
     if (o.color != null) { out.push({ cat: c.id, key: 'color:' + o.color, loc, text: COLOR_WORDS[loc][o.color] }); continue; }
     const n = m.themes[o.theme] && m.themes[o.theme].nouns[o.noun];
     const key = n && n.vocabKey;
+    // the PRINTED label: the bank's optionWords (K-323 never falls back to the vocabulary). Measuring the vocab word
+    // measured a word the page does not print (2026-11-04: de cereal — the vocabulary says Getreideringe, 104 px; the
+    // tile prints Haferringe, 82 px). An option the locale leaves unlabelled drops on the page: not measured, not counted.
+    const blk = bankMod.ALL_ABOUT_ME[loc] || {};
+    const printed = key && blk.optionWords ? blk.optionWords[key] : undefined;
     const cite = key && v[key] && v[key][loc] && v[key][loc][0];
-    out.push({ cat: c.id, key: `${o.theme}/${o.noun}`, loc, text: cite ? displayWord(cite, loc) : '' });
+    if (blk.optionWords && (printed == null || printed === '')) { out.push({ cat: c.id, key: `${o.theme}/${o.noun}`, loc, text: '', dropped: true }); continue; }
+    out.push({ cat: c.id, key: `${o.theme}/${o.noun}`, loc, text: printed != null ? printed : (cite ? displayWord(cite, loc) : '') });
   }
   return out;
 }
@@ -366,6 +380,7 @@ function poolFindings(measured) {
   const f = [];
   const byCat = {}, fitByCatLoc = {};
   for (const m of measured) {
+    if (m.dropped) continue;   // the locale leaves this option unlabelled: it drops on the page (poolLabels)
     if (!m.text) { f.push(`${m.cat} ${m.key}: no ${m.loc} label`); continue; }
     if (PUBLISHED_CATS.has(m.cat)) { if (m.w > POOL_CAP) f.push(`${m.cat} ${m.key}: ${m.loc} "${m.text}" ${m.w.toFixed(1)} px > ${POOL_CAP}`); }
     else if (m.w <= POOL_CAP) ((fitByCatLoc[m.cat] = fitByCatLoc[m.cat] || {})[m.loc] = fitByCatLoc[m.cat][m.loc] || new Set()).add(m.key);
@@ -589,6 +604,17 @@ async function main() {
     const f = validateBank(banks[loc], loc);
     ok(f.length === 0, `bank ${loc}: ${f.length} findings\n    ` + f.slice(0, 12).join('\n    '));
     console.log(`bank ${loc}: ${LABEL_KEYS.length} labels, ${Object.keys(banks[loc].faceWords || {}).length} face words, ${Object.keys(banks[loc].can || {}).length} can literals, refuse ${JSON.stringify(banks[loc].refuse || [])}`);
+  }
+  // the tile-label exemptions are used, and still differ from the vocabulary (a stale entry fails: the list only shrinks)
+  {
+    const v = vocab();
+    for (const [loc, byKey] of Object.entries(TILE_LABELS)) for (const [key, e] of Object.entries(byKey)) {
+      const ow = (banks[loc] && banks[loc].optionWords) || {};
+      const cite = v[key] && v[key][loc] && v[key][loc][0];
+      ok(ow[key] === e.word, `TILE_LABELS ${loc}.${key} "${e.word}": the bank prints "${ow[key]}" (stale exemption)`);
+      ok(!cite || displayWord(cite, loc) !== e.word, `TILE_LABELS ${loc}.${key}: "${e.word}" IS the vocab word now (stale exemption)`);
+      ok(typeof e.why === 'string' && e.why.length > 10, `TILE_LABELS ${loc}.${key}: no reason`);
+    }
   }
   {
     const f = validatePictures(P);

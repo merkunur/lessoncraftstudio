@@ -54,6 +54,8 @@ async function main() {
   const EN = B.FIND_THE_DIFFERENCES.en;
   const ctl = validateBank(EN, 'en');
   ok(!ctl.length, 'EN bank control: ' + ctl.join(' | '));
+  // --locale=xx: that locale's own block (the merged bank the type reads) under the same rules — before 2026-11-04 only en was
+  if (locArg !== 'en') { const lf = validateBank(require('../lib/b7-common.js').bank('find-the-differences', locArg), locArg); ok(!lf.length, locArg + ' bank: ' + lf.join(' | ')); }
   const P = (name, mut, re) => { const b = clone(EN); mut(b); judge(name, validateBank(b, 'en'), re); };
   P('P1 base title with the wrong count', (b) => { b.strings.base.title = 'Find 4 Differences: {UNIT}'; }, /carries 4 but the count is 5/);
   P('P2 how-many title with a digit', (b) => { b.strings['how-many'].title = 'How Many of the 5 Differences?'; }, /how-many: the title must carry no digit/);

@@ -37,8 +37,8 @@ module.exports = {
     const got = P.firstThatFits(P.drawings('K-498', difficulty), ctx, (src) => {
       const decor = d.model ? [{ m: 'roundRect', a: [16, 24, 170, 190, 12] }, ...eyeBadge(101, 24)] : [];
       const items = d.model
-        ? [{ src, x: 101, y: 200, fitBox: [140, 150], render: 'model' }, { src, x: 420, y: H - 6, fitBox: [490, H - 30], start: 'top' }]
-        : [{ src, x: 337, y: H - 6, fitBox: [620, H - 30], start: 'top' }];
+        ? [{ src, x: 101, y: 200, fitBox: [140, 150], render: 'model' }, { src, x: 420, y: Math.round(H / 2), anchor: 'centre', fitBox: [490, H - 30], start: 'top' }]
+        : [{ src, x: 337, y: Math.round(H / 2), anchor: 'centre', fitBox: [620, H - 30], start: 'top' }];   // centred: a wide drawing (an open book) sat on the bottom edge under 60 % empty page (2026-11-03)
       return { out: P.composeFit({ W: 675, H, band: L.band, style: L.style, occlusion: false, decor, items }, L.band) };
     });
     const body = `<div data-ws-content data-lcs-pt-face="trace-a-picture" data-lcs-pt-src="${got.src}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${got.out.svg}</div>`;

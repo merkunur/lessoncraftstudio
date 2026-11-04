@@ -200,12 +200,16 @@ function choiceGap({ chips, idx, px = 20, h = 44, pad = 16, ml = 0 }) {
     `</div>`;
 }
 
-function cloneGapRow({ n, src, key, clones, clonePx = 48, gap = 6, colW = 156, text, answer, slot, frameId, form = 'pl', kase = null, attrs = '' }) {
+// label (2026-11-03): the picture's own word under the clones, for a picture a child names otherwise (lib/picture-name-risk.js:
+// a chicken drawn for "hen") — it says WHAT the picture is, never its plural
+function cloneGapRow({ n, src, key, clones, clonePx = 48, gap = 6, colW = 156, text, answer, slot, frameId, form = 'pl', kase = null, attrs = '', label = null }) {
   if (!Number.isInteger(clones) || clones < 2 || clones > 3) throw new Error(`cloneGapRow: clones ${clones} outside 2..3`);
   if (clonePx < 36) throw new Error(`cloneGapRow: clonePx ${clonePx} below the G2 floor 36`);
   if (clones * clonePx + (clones - 1) * gap > colW) throw new Error(`cloneGapRow: ${clones} x ${clonePx} + gaps > colW ${colW}`);
-  const strip = `<span data-lcs-clones="${clones}" style="display:flex;justify-content:center;align-items:center;gap:${gap}px;width:${colW}px">` +
+  const pics = `<span data-lcs-clones="${clones}" style="display:flex;justify-content:center;align-items:center;gap:${gap}px;width:${colW}px">` +
     Array.from({ length: clones }, () => icon(src, key, clonePx)).join('') + `</span>`;
+  const strip = label ? `<span style="display:flex;flex-direction:column;align-items:center;gap:2px;width:${colW}px">${pics}` +
+    `<span data-lcs-picname="${esc(label)}" style="font-family:'Nunito';font-weight:800;font-size:15px;line-height:1.1;color:#3A3530">${esc(label)}</span></span>` : pics;
   return `<div class="ws-lane" ${rowStamps({ n, frameId, key, form, kase, answer, attrs })} ` +
     `style="padding:5px 16px;display:grid;grid-template-columns:30px ${colW}px minmax(0,1fr);column-gap:10px;align-items:center;min-height:0">` +
     badge(n) + strip + sentenceP(fillGap(text, slot, answer), { margin: '0 0 0 2px' }) + `</div>`;

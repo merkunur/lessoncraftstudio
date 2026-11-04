@@ -196,7 +196,10 @@ function makeDoublesMoreType(cfg) {
       for (let t = 0; t < 400 && !pairs; t++) {
         const ns = rng.sample(Array.from({ length: Math.floor(d.max / 2) }, (_, k) => k + 1), d.pairs);
         const vals = ns.flatMap((n) => [n, 2 * n]);
-        if (new Set(vals).size === vals.length && !ns.some((x) => ns.includes(2 * x))) pairs = ns;   // review: 1 2 4 8 also pairs 2 with 4
+        // review: 1 2 4 8 also pairs 2 with 4 — every value whose double is on the page must BE that double's pair (the
+        // first guard only refused x and 2x both drawn, and let 1 and 4 through: 2 ↔ 4 paired, 1 and 8 were left over)
+        const onPage = new Set(vals);
+        if (onPage.size === vals.length && vals.every((v) => !onPage.has(2 * v) || ns.includes(v))) pairs = ns;
       }
       if (!pairs) throw new Error(`${id}: no set of pairs with every number once`);
       const cardsV = shuffle(pairs.flatMap((n) => [{ v: n, of: n }, { v: 2 * n, of: n }]), rng);
@@ -248,7 +251,8 @@ function makeDoublesMoreType(cfg) {
           const cs = [...document.querySelectorAll('[data-lcs-mem]')];
           const vals = cs.map((c) => n(c.dataset.lcsMem));
           if (new Set(vals).size !== vals.length) fails.push('a number on two cards');
-          const ps = cs.map((c) => n(c.dataset.lcsPair)); if (ps.some((x) => ps.includes(2 * x))) fails.push('a chain: a false pair on the page');
+          // a false pair: a card whose double is on the page but is not its own partner (1 2 4 8: 2 ↔ 4)
+          cs.forEach((c) => { const v = n(c.dataset.lcsMem); if (vals.includes(2 * v) && n(c.dataset.lcsPair) !== v) fails.push(`a chain: ${v} ↔ ${2 * v} pairs too`); });
           const by = {}; cs.forEach((c) => { (by[c.dataset.lcsPair] = by[c.dataset.lcsPair] || []).push(n(c.dataset.lcsMem)); });
           Object.entries(by).forEach(([p, vs]) => { vs.sort((a, b) => a - b); if (vs.length !== 2 || vs[0] !== n(p) || vs[1] !== 2 * n(p)) fails.push('pair ' + p); });
         }

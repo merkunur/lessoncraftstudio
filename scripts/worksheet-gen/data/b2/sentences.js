@@ -760,6 +760,7 @@ const SENTENCES = {
         "id": "s11",
         "kind": "simple",
         "text": "Que font les {noun} ?",
+        "animalsOnly": true,
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1542,7 +1543,7 @@ const SENTENCES = {
       {
         "id": "s3",
         "kind": "simple",
-        "text": "Var är alla {noun}?",
+        "text": "Var är mina {noun}?",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1552,7 +1553,7 @@ const SENTENCES = {
       {
         "id": "s4",
         "kind": "simple",
-        "text": "{name} räknar alla {noun}.",
+        "text": "{name} räknar sina {noun}.",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1746,7 +1747,7 @@ const SENTENCES = {
       {
         "id": "s3",
         "kind": "simple",
-        "text": "Hvor er alle {noun}?",
+        "text": "Hvor er mine {noun}?",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1756,7 +1757,7 @@ const SENTENCES = {
       {
         "id": "s4",
         "kind": "simple",
-        "text": "{name} tæller alle {noun}.",
+        "text": "{name} tæller sine {noun}.",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1960,7 +1961,7 @@ const SENTENCES = {
       {
         "id": "s3",
         "kind": "simple",
-        "text": "Hvor er alle {noun}?",
+        "text": "Hvor er mine {noun}?",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1970,7 +1971,7 @@ const SENTENCES = {
       {
         "id": "s4",
         "kind": "simple",
-        "text": "{name} teller alle {noun}.",
+        "text": "{name} teller sine {noun}.",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -2309,6 +2310,7 @@ const SENTENCES = {
         "id": "s1",
         "kind": "simple",
         "text": "{name} syöttää {noun}.",
+        "animalsOnly": true,
         "noun": "partitive",
         "uses": [
           "unscramble",

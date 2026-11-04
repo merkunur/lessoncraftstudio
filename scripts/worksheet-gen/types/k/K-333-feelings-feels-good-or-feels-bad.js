@@ -101,7 +101,8 @@ module.exports = {
       const items = [...document.querySelectorAll('[data-sci-item]')];
       if (items.length < 4 || items.length > 6) fails.push(`${items.length} faces on the strip outside 4..6`);
       const tops = new Set(items.map((i) => Math.round(i.getBoundingClientRect().top)));
-      if (tops.size > 1) fails.push(`the strip wraps: ${tops.size} rows of faces`);
+      // two even rows since 2026-11-03 (the sort pages fill their body: six faces = 3 + 3 at a bigger size); never three
+      if (tops.size > 2) fails.push(`the strip wraps: ${tops.size} rows of faces`);
       const seen = new Set();
       items.forEach((it, k) => {
         const im = it.querySelector('img');

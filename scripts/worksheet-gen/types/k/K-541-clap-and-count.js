@@ -59,7 +59,7 @@ module.exports = {
     const rows = picks.map((e, i) => `<div data-lcs-clap-row="${e.word}" style="display:flex;align-items:center;gap:18px;padding:4px 14px;border-radius:14px;background:${T.cream}">` +
       `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt=""${slot.attr(ctx, 'pic', i)} style="width:${d.px}px;height:${d.px}px;flex:0 0 auto">` +
       `<span style="flex:1 1 auto;min-width:0;font:700 ${Math.round(Math.min(30, d.px * 0.42))}px/1.1 'Baloo 2',cursive;color:${T.ink};overflow-wrap:anywhere">${e.word}</span>` +
-      `<span style="display:inline-flex;gap:${Math.round(circleR * 0.7)}px;flex:0 0 auto">${'<span style="display:inline-block;width:' + circleR * 2 + 'px;height:' + circleR * 2 + 'px;box-sizing:border-box;border:2.5px solid ' + T.teal + ';border-radius:50%"></span>'.repeat(5)}</span>` +
+      `<span style="display:inline-flex;gap:${Math.round(circleR * 0.7)}px;flex:0 0 auto">${('<span data-lcs-clap-circle style="display:inline-block;width:' + circleR * 2 + 'px;height:' + circleR * 2 + 'px;box-sizing:border-box;border:2.5px solid ' + T.teal + ';border-radius:50%"></span>').repeat(5)}</span>` +
       `<span style="display:inline-block;width:${Math.round(d.px * 0.7)}px;height:${Math.round(d.px * 0.7)}px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF;flex:0 0 auto"></span></div>`);
     return {
       bodyHtml: `<div data-ws-content data-lcs-clap style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:6px;min-height:0">${rows.join('')}</div>`,
@@ -80,6 +80,14 @@ module.exports = {
         if (b.right > root.right + 1) fails.push(`row ${i + 1} leaves the page`);
         const im = r.querySelector('img'); if (!im.complete || !im.naturalWidth) fails.push(`row ${i + 1}: the picture did not load`);
         if (r.querySelector('[data-lcs-answer]')) fails.push(`row ${i + 1} carries an answer (the sheet makes no claim)`);
+        // five round circles, and no text but the word (2026-11-04: a mis-bound .repeat(5) printed one circle and four
+        // copies of its CSS tail as text, which squeezed the word to one letter a line)
+        const circles = [...r.querySelectorAll('[data-lcs-clap-circle]')];
+        if (circles.length !== 5) fails.push(`row ${i + 1}: ${circles.length} circles (want 5)`);
+        circles.forEach((c) => { const cb = c.getBoundingClientRect(); if (cb.width < 20 || Math.abs(cb.width - cb.height) > 1) fails.push(`row ${i + 1}: a circle ${Math.round(cb.width)} x ${Math.round(cb.height)}`); });
+        const word = r.querySelector('img + span');
+        if (!word || r.textContent.trim() !== word.textContent.trim()) fails.push(`row ${i + 1}: text besides the word ("${r.textContent.trim().slice(0, 30)}")`);
+        else { const rg = document.createRange(); rg.selectNodeContents(word); const lines = new Set([...rg.getClientRects()].map((q) => Math.round(q.top))); if (lines.size > 1) fails.push(`row ${i + 1}: the word "${word.textContent.trim()}" breaks over ${lines.size} lines`); }
       });
       return fails;
     });

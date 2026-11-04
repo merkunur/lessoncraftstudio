@@ -55,7 +55,9 @@ const KEY_CSS = '<style data-lcs-key>' + KEY_RULES.join('').replace(/(^|})([^{}]
 /** how many answers a key page shows: filled boxes + ringed choices + drawn examples */
 function keyMarks(html) {
   const empty = (html.match(/data-lcs-answer="[^"]+"[^>]*><\/(span|div)>/g) || []).length;
-  return empty + ['data-lcs-correct', 'data-lcs-key-sample', 'data-lcs-key-ring', 'data-lcs-key-badge'].reduce((a, k) => a + (html.split(k).length - 1), 0);
+  // data-lcs-keyring: a chip the key draws ringed itself (letterChips' ring — K-328 M or N?)
+  // data-lcs-keytext: an answer seated on a writing row (lib/key-on-row.js — G1-336 Pair Up the Opposites)
+  return empty + ['data-lcs-correct', 'data-lcs-key-sample', 'data-lcs-key-ring', 'data-lcs-keyring', 'data-lcs-keytext', 'data-lcs-key-badge'].reduce((a, k) => a + (html.split(k).length - 1), 0);
 }
 
 function makePage(o) {
@@ -81,6 +83,22 @@ function makePage(o) {
   // a page asked for with no unit may draw one itself (a Color by Number copy picks a design of its level): its title
   // names that unit (makers 2026-11-02)
   if (built.unit && built.unit !== unit) strings = resolveUnitTokens({ ...o.strings }, type, built.unit, locale);
+  // a Level Set copy NAMES its own content (type.copyStrings — the publishing tools' per-copy title and instruction): the
+  // maker's page IS the type's copy typeVariant, so it prints that copy's words (2026-11-03, final phase: the maker
+  // printed the published titles over its copies — "Trace the Numbers 0 to 9" over a page of 0, "sh, ch and th" over a
+  // page of sh and ch, "Round to 50?" over a page rounding to 350). A build's own words (below) still win, and a field
+  // the teacher edited is never replaced.
+  if (typeof type.copyStrings === 'function') {
+    let cs = null;
+    try { cs = type.copyStrings({ ...o.strings }, { locale, difficulty, unit: built.unit || unit, variant: typeVariant, ...(o.seedVariant && /^\d+$/.test(String(o.seedVariant)) ? { seedVariant: Number(o.seedVariant) } : {}) }); } catch (e) { cs = null; }
+    if (cs) for (const k of ['title', 'printTitle', 'instruction']) {
+      if (cs[k] == null || cs[k] === (o.strings || {})[k]) continue;
+      const field = k === 'printTitle' ? 'title' : k;
+      if (o.baseStrings && (o.baseStrings[field] !== (o.strings || {})[field] || o.baseStrings[k] !== (o.strings || {})[k])) continue;
+      strings = { ...strings, [k]: cs[k] };
+    }
+    strings = resolveUnitTokens(strings, type, built.unit || unit, locale);
+  }
   // a copy may bring its own words (makers 2026-11-02, Mazes: copy 2 is a Level Set scene with its own hero, title and
   // instruction) — never over a field the teacher edited (o.strings differs from o.baseStrings there)
   if (built.strings) for (const k of ['title', 'printTitle', 'instruction']) {
@@ -209,7 +227,10 @@ async function generate(o, mount) {
     // a teacher's longer title / instruction on a page that fills its body (type.fitsChrome: Find the Differences, How to
     // Draw): the page is built again giving back the px the text took past the footer (ctx.chromeExtra), at most 3 times —
     // the published build never sees chromeExtra, so the catalogue page is unchanged (2026-11-02)
-    for (let k = 0, extra = 0; fails.length && textEdited && type.fitsChrome && k < 3; k++) {
+    // … and the answer key's own longer title (its "— Answer Key" suffix) whose page ran past the footer: the same
+    // measured give-back (2026-11-03: G1-534 fi level 3 refused every seed — "Vastaukset" took a third title line)
+    const keyOver = fails.some((f) => /^answer key: footer overlap/.test(String(f)));
+    for (let k = 0, extra = 0; fails.length && (textEdited || keyOver) && type.fitsChrome && k < 3; k++) {
       const over = Math.max(0, ...fails.map((f) => { const m = String(f).match(/reaches (\d+) against the attribution band at (\d+)/); return m ? +m[1] - +m[2] : -1; }));
       if (!(over > 0)) break;
       extra += over + 6;

@@ -37,7 +37,8 @@ module.exports = {
     const order = rng.shuffle([...picked, twin]);
 
     const rows = Math.ceil(d.items / d.cols);
-    const cellPx = Math.min(140, Math.floor(620 / d.cols) - 20, Math.floor(740 / rows) - 20);
+    // two rows (level 1) take bigger pictures and more air (2026-11-03: six 140 px cards left bands above and below); level 2 as shipped
+    const cellPx = Math.min(rows <= 2 ? 180 : 140, Math.floor(620 / d.cols) - 20, Math.floor(740 / rows) - 20);
     const iconPx = cellPx - 28;
     const cells = order.map((n) =>
       `<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" ` +
@@ -47,7 +48,7 @@ module.exports = {
     return {
       bodyHtml:
         `<div style="flex:1 1 auto;display:flex;align-items:center;justify-content:center">` +
-        `<div style="display:grid;grid-template-columns:repeat(${d.cols},${cellPx}px);gap:24px 40px;justify-content:center">${cells}</div>` +
+        `<div style="display:grid;grid-template-columns:repeat(${d.cols},${cellPx}px);gap:${rows <= 2 ? 64 : 24}px 40px;justify-content:center">${cells}</div>` +
         `</div>`,
       meta: { twin: twin.vocabKey },
     };

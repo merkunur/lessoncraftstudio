@@ -112,8 +112,13 @@ function literal(bankLoc, pathStr, loc) {
 }
 function upperFirst(s, loc) { const cs = [...s]; return cs.length ? cs[0].toLocaleUpperCase(loc) + cs.slice(1).join('') : s; }
 function len(s) { return [...String(s)].length; }
-function full7(table, key) { const a = table.animals[key]; return !!a && table.fields.every((f) => a[f] !== null && a[f] !== undefined); }
-function sameProfile(table, a, b) { return table.fields.every((f) => table.animals[a][f] === table.animals[b][f]); }
+/* A null fact is one a K-2 page cannot teach (2026-11-04: «can it swim?» is uncontested only for a few animals — a sheep, a
+   cow, a cat CAN swim; whether a panda or a fox does is trivia). A page needs a fact only where it PRINTS it, and an unknown
+   fact rules nothing out. */
+const known = (a, f) => a[f] !== null && a[f] !== undefined;
+function fullFor(table, key, fields) { const a = table.animals[key]; return !!a && fields.every((f) => known(a, f)); }
+/** two animals the clues can tell apart: a field known for both where they differ */
+function differ(table, a, b) { const A = table.animals[a], B = table.animals[b]; return table.fields.some((f) => known(A, f) && known(B, f) && A[f] !== B[f]); }
 function wordRe(lit) { return new RegExp('(?<!\\p{L})' + String(lit).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'iu'); }
 /** The child-facing literal of a table value for `field` (cell form: chips, bank words, printed cells). */
 function cellOf(bankLoc, field, value, loc) {
@@ -134,9 +139,9 @@ function clueOf(bankLoc, field, value, loc) {
   if (!/[.?!]$/.test(out.trim())) throw new Error(`G2-318: ${loc} clue "${out}" has no end mark`);
   return out;
 }
-/** The animals of `theme` that are pictured, 7/7 in the table and carry a name + title literal (the non-base pool). */
-function facePool(bankLoc, table, theme, nouns) {
-  return nouns.filter((n) => table.animals[n.vocabKey] && full7(table, n.vocabKey) && bankLoc.animals[n.vocabKey] &&
+/** The animals of `theme` that are pictured, known in every field the face prints and carry a name + title literal (the non-base pool). */
+function facePool(bankLoc, table, theme, nouns, fields) {
+  return nouns.filter((n) => table.animals[n.vocabKey] && fullFor(table, n.vocabKey, fields || table.fields) && bankLoc.animals[n.vocabKey] &&
     typeof bankLoc.animals[n.vocabKey].name === 'string' && bankLoc.animals[n.vocabKey].name.trim() &&
     typeof bankLoc.animals[n.vocabKey].title === 'string' && bankLoc.animals[n.vocabKey].title.trim()).map((n) => n.vocabKey);
 }
@@ -261,7 +266,7 @@ module.exports = {
     }
     if (face) {
       if (blank) throw new Error(`G2-318: the ${face} face has no blank unit (refuse)`);
-      if (!full7(table, key)) throw new Error(`G2-318: "${key}" is not 7/7 in animal-facts.json (null: ${table.fields.filter((f) => animal[f] === null).join(',')}) — the ${face} face refuses it`);
+      if (!fullFor(table, key, d.fields)) throw new Error(`G2-318: "${key}" has no fact for a printed field (null: ${d.fields.filter((f) => !known(animal, f)).join(',')}) — the ${face} face refuses it`);
       if (!ctx || !ctx.rng) throw new Error('G2-318: a face build needs ctx.rng');
     }
     if (face === 'frames') return this._buildFrames(bankLoc, table, d, { theme, loc, unit, key, animal, lit, src, noun, colW }, ctx);
@@ -472,7 +477,7 @@ module.exports = {
     if (!Array.isArray(d.lanes) || d.lanes.length !== 2 || d.lanes.some((n) => !(n >= 0 && n <= 4))) throw new Error('G2-318: compare lanes must be [same, different] counts 0..4');
     const half = d.fields.length / 2;
     const nouns = assertAnimalTheme(table, theme, loc);
-    const pool = facePool(bankLoc, table, theme, nouns);
+    const pool = facePool(bankLoc, table, theme, nouns, d.fields);
     if (pool.length < 2) throw new Error(`G2-318: theme "${theme}" has ${pool.length} verifiable (7/7, named) animals < 2 — the compare face refuses this theme`);
     // PATTERN-FIRST: pick which `half` fields are the same (a random subset of the printed fields), then a pair that
     // matches it — a uniform draw over pairs is dominated by the theme's commonest profile (measured on forest creatures:
@@ -540,7 +545,8 @@ module.exports = {
     if (!(nB >= nP + 1 && nB <= 8)) throw new Error(`G2-318: bankSize ${nB} must be puzzles+1..8`);
     if (!(nC >= 3 && nC <= table.fields.length)) throw new Error(`G2-318: cluesPrinted ${nC} outside 3..${table.fields.length}`);
     const nouns = assertAnimalTheme(table, theme, loc);
-    const pool0 = facePool(bankLoc, table, theme, nouns);
+    // an animal takes part when it has at least as many known facts as a card prints clues
+    const pool0 = facePool(bankLoc, table, theme, nouns, []).filter((k) => table.fields.filter((f) => known(table.animals[k], f)).length >= nC);
     // the bank renders on ONE row only for short names (design: <= 9 letters, measured 106 px) — a long name drops the ANIMAL from the bank
     const pool = pool0.filter((k) => len(bankLoc.animals[k].name) <= maxName);
     if (pool.length < nB) throw new Error(`G2-318: theme "${theme}" has ${pool.length} verifiable animals with names <= ${maxName} letters < bank ${nB} — the mystery face refuses this theme`);
@@ -549,17 +555,19 @@ module.exports = {
     for (let t = 0; t < TRIES && !plan; t++) {
       // a bank of nB animals pairwise distinct in >= 1 field (greedy over a fresh shuffle)
       const bank = [];
-      for (const k of rng.shuffle(pool)) { if (bank.every((b) => !sameProfile(table, b, k))) bank.push(k); if (bank.length === nB) break; }
+      for (const k of rng.shuffle(pool)) { if (bank.every((b) => differ(table, b, k))) bank.push(k); if (bank.length === nB) break; }
       if (bank.length < nB) continue;
       const targets = rng.sample(bank, nP);
       const cards = [];
       for (const tk of targets) {
         const others = bank.filter((k) => k !== tk);
-        // a random nC-subset of the fields whose clues contradict EVERY other bank animal
+        // a random nC-subset of the target's KNOWN fields whose clues contradict EVERY other bank animal (an animal whose fact
+        // is unknown is not ruled out by that clue)
+        const kf = table.fields.filter((f) => known(table.animals[tk], f));
         let fields = null;
         for (let u = 0; u < 60 && !fields; u++) {
-          const sub = rng.sample(table.fields, nC);
-          if (others.every((o) => sub.some((f) => table.animals[o][f] !== table.animals[tk][f]))) fields = FIELD_ORDER.filter((f) => sub.includes(f));
+          const sub = rng.sample(kf, nC);
+          if (others.every((o) => sub.some((f) => known(table.animals[o], f) && table.animals[o][f] !== table.animals[tk][f]))) fields = FIELD_ORDER.filter((f) => sub.includes(f));
         }
         if (!fields) break;
         cards.push({ answer: tk, fields });
@@ -1088,7 +1096,8 @@ function VERIFY_MYSTERY() {
     });
     // pairwise distinct in >= 1 field
     const ks = Object.keys(profiles);
-    for (let i = 0; i < ks.length; i++) for (let j = i + 1; j < ks.length; j++) if (fields.every((f) => profiles[ks[i]][f] === profiles[ks[j]][f])) fails.push(`bank ${ks[i]} and ${ks[j]} share every field (two right answers)`);
+    // two animals must differ in a field known for both ('null' = a fact the page cannot teach rules nothing out)
+    for (let i = 0; i < ks.length; i++) for (let j = i + 1; j < ks.length; j++) if (!fields.some((f) => profiles[ks[i]][f] !== 'null' && profiles[ks[j]][f] !== 'null' && profiles[ks[i]][f] !== profiles[ks[j]][f])) fails.push(`bank ${ks[i]} and ${ks[j]} differ in no known field (two right answers)`);
   }
   const cards = [...root.querySelectorAll('[data-lcs-riddle]')];
   if (cards.length !== +ds.lcsPuzzles) fails.push(`${cards.length} riddle cards, want ${ds.lcsPuzzles}`);
@@ -1106,7 +1115,7 @@ function VERIFY_MYSTERY() {
     const cf = new Set();
     const parsed = clues.map((cl) => { const [f, v] = cl.dataset.lcsClue.split('='); if (cf.has(f)) fails.push(`card ${n}: field ${f} twice`); cf.add(f); if (!cl.textContent.trim() || !/[.?!]$/.test(cl.textContent.trim())) fails.push(`card ${n}: clue "${cl.textContent.trim()}" is not a sentence`); if (cl.scrollWidth > cl.clientWidth + 0.6) fails.push(`card ${n}: clue clipped`); return [f, v]; });
     // the filter: EXACTLY one bank profile survives every clue, and it is the stamped answer
-    const survivors = Object.keys(profiles).filter((k) => parsed.every(([f, v]) => profiles[k][f] === v));
+    const survivors = Object.keys(profiles).filter((k) => parsed.every(([f, v]) => profiles[k][f] === v || profiles[k][f] === 'null'));
     if (survivors.length !== 1 || survivors[0] !== ans) fails.push(`card ${n}: the clues leave [${survivors.join(',')}], stamped answer ${ans}`);
     const nm = c.querySelector('[data-lcs-lane="name"]');
     if (!nm || nm.querySelectorAll('svg[data-lcs-prim="writing-row"]').length !== 1 || nm.querySelector('text')) fails.push(`card ${n}: no empty name lane`);

@@ -143,16 +143,18 @@ function makeOddMoreType(cfg) {
         const pool = (p) => shuffle(Array.from({ length: d.hi - d.lo + 1 }, (_, k) => d.lo + k).filter((v) => par(v) === p), rng);
         const nums = shuffle([...pool('odd').slice(0, nOdd), ...pool('even').slice(0, d.cards - nOdd)], rng);
         const SLOTS = d.cards - 2;   // more spaces than any page fills, so the box count tells nothing
+        // the houses fill the page (2026-11-03: two short houses over an empty middle): bigger spaces, the houses stretch
+        const BW = 92, BH = SLOTS <= 6 ? 96 : 84;   // three 92 px spaces + gaps fit a house (309 px inside); 104 ran out of it
         const house = (p) => {
           const mine = nums.filter((v) => par(v) === p).sort((a, b) => a - b);
           const slots = Array.from({ length: SLOTS }, (_, k) => (ctx.screen
-            ? answerBox({ w: 92, h: 80, answer: k < mine.length ? mine[k] : '-' }).replace('data-lcs-answer=', `data-lcs-set="${p}" data-lcs-answer=`)
-            : answerBox({ w: 92, h: 80, answer: key && k < mine.length ? mine[k] : '' }))).join('');
-          return `<div class="ws-subgroup" data-lcs-house="${p}" style="flex:1 1 0;display:flex;flex-direction:column;align-items:center;gap:10px;padding:10px;border-radius:14px;background:${p === 'even' ? '#DDEBE8' : '#FBE3D8'}">` +
+            ? answerBox({ w: BW, h: BH, answer: k < mine.length ? mine[k] : '-' }).replace('data-lcs-answer=', `data-lcs-set="${p}" data-lcs-answer=`)
+            : answerBox({ w: BW, h: BH, answer: key && k < mine.length ? mine[k] : '' }))).join('');
+          return `<div class="ws-subgroup" data-lcs-house="${p}" style="flex:1 1 0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:10px;border-radius:14px;background:${p === 'even' ? '#DDEBE8' : '#FBE3D8'}">` +
             `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:${INK}">${words[p]}</span>` +
-            `<span style="display:grid;grid-template-columns:repeat(3,92px);gap:8px;justify-content:center">${slots}</span></div>`;
+            `<span style="display:grid;grid-template-columns:repeat(3,${BW}px);gap:10px;justify-content:center">${slots}</span></div>`;
         };
-        const houses = `<div style="flex:0 0 auto;display:flex;gap:16px">${order.map(house).join('')}</div>`;
+        const houses = `<div style="flex:1 1 auto;display:flex;gap:16px;max-height:560px;min-height:0">${order.map(house).join('')}</div>`;
         const scissors = `<svg width="26" height="20" viewBox="0 0 26 20" aria-hidden="true"><circle cx="5" cy="5" r="4" fill="none" stroke="${GREY}" stroke-width="2"/><circle cx="5" cy="15" r="4" fill="none" stroke="${GREY}" stroke-width="2"/><path d="M8 7 L24 15 M8 13 L24 5" stroke="${GREY}" stroke-width="2"/></svg>`;
         const strip = `<div style="flex:0 0 auto;display:flex;align-items:center;gap:8px;margin-top:22px;padding-top:14px;padding-bottom:4px;border-top:2.5px dashed ${GRID}">${scissors}<span style="display:flex;flex-wrap:wrap;gap:8px">${nums.map((v) => `<span data-lcs-sortcard="${v}" style="width:92px;height:80px;display:inline-flex;align-items:center;justify-content:center;border:2.5px dashed ${GRID};background:#FFFFFF;box-sizing:border-box">${NUM(v, 34)}</span>`).join('')}</span></div>`;
         return { bodyHtml: content(`<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;padding-top:6px">${houses}${strip}</div>`), meta: { items: nums } };

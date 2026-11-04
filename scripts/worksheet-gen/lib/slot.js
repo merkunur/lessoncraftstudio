@@ -86,19 +86,23 @@ const stamp = (ctx, role, i, html) => (ctx && ctx.slotsOut ? String(html).replac
  * Tap targets by PICTURE (2026-11-03, Rhyming): item i's tap target is the first `src="…"` of srcs[i] in the page (a page
  * shows each picture once) — for types whose markup names its items in many different attributes. The src is looked for
  * as written and HTML-escaped (components esc() it). Maker only: the catalogue page comes back unchanged.
+ * stampBy(ctx, role, html, name, values): the same by any attribute — ⚠ a picture's ADDRESS can differ by host (a big
+ * scene picture is the full-size file in Node and the one CDN file in the browser), so a page whose pictures come in two
+ * sizes stamps by `data-lcs-noun` (the parity gate, 2026-11-03: Story Pictures stamped the scene in the browser only).
  */
-function stampSrc(ctx, role, html, srcs) {
+function stampBy(ctx, role, html, name, values) {
   if (!(ctx && ctx.slotsOut)) return html;
   const escAttr = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   let out = String(html);
-  srcs.forEach((src, i) => {
-    for (const s of [String(src), escAttr(src)]) {
-      const needle = `src="${s}"`, at = out.indexOf(needle);
+  values.forEach((v, i) => {
+    for (const s of [String(v), escAttr(v)]) {
+      const needle = `${name}="${s}"`, at = out.indexOf(needle);
       if (at >= 0) { out = out.slice(0, at + needle.length) + attr(ctx, role, i) + out.slice(at + needle.length); break; }
     }
   });
   return out;
 }
+const stampSrc = (ctx, role, html, srcs) => stampBy(ctx, role, html, 'src', srcs);
 
 /**
  * Slots BY KIND (2026-11-03, the final phase): one role per kind of item on the page (prefix + 0, 1 … in order of first
@@ -135,4 +139,4 @@ function byKind(ctx, items, kindOf, poolFor, opts = {}) {
   return { items: out, tap: (i) => tapAt[i] || '' };
 }
 
-module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp, stampSrc, byKind };
+module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp, stampSrc, stampBy, byKind };

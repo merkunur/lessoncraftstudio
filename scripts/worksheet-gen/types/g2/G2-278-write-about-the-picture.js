@@ -68,8 +68,8 @@ module.exports = {
     if (d.starterRows) d.starterRows.forEach((r, i) => { if (r >= d.rows || !L[d.starterSet][i]) throw new Error(`G2-278: no starter ${i} for row ${r}`); starters[r] = L[d.starterSet][i]; });
     const ruling = rulingBlock({ rows: d.rows, w: 660, h: d.rowH, glyphH: d.glyphH, starters });
     return {
-      bodyHtml: slot.stampSrc(ctx, 'pic', `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-lcs-page>` +
-        `${scene.html}<div style="width:660px">${bank}</div><div style="width:660px" data-lcs-ruling data-lcs-rows="${d.rows}" data-lcs-starters="${Object.keys(starters).length}"${d.starterRows ? ` data-lcs-starter-rows="${d.starterRows.join(',')}"` : ''}${d.tick ? ' data-lcs-tick-bank="1"' : ''}>${ruling}</div></div>`, picks.map((e) => fileUri(theme, e.noun))),
+      bodyHtml: slot.stampBy(ctx, 'pic', `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-lcs-page>` +
+        `${scene.html}<div style="width:660px">${bank}</div><div style="width:660px" data-lcs-ruling data-lcs-rows="${d.rows}" data-lcs-starters="${Object.keys(starters).length}"${d.starterRows ? ` data-lcs-starter-rows="${d.starterRows.join(',')}"` : ''}${d.tick ? ' data-lcs-tick-bank="1"' : ''}>${ruling}</div></div>`, 'data-lcs-noun', picks.map((e) => e.vocabKey)),
       meta: { nouns: picks.map((e) => e.word) },
     };
   },

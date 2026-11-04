@@ -76,6 +76,9 @@ function makeWordSearch(spec) {
     id: spec.id, slug: spec.slug, gradeBand: spec.gradeBand, assetClass: spec.clue === 'numbers' ? 'none' : 'icon-placement', exerciseType: 'word-search',
     themeAxis: spec.clue === 'numbers' ? { applicable: false } : { applicable: true, minNouns: 8, excludeBw: true },
     difficulty: D, i18n: spec.i18n,
+    // the maker gives back the px a longer title took past the footer (ctx.chromeExtra: a teacher's title, or the answer
+    // key's "— Vastaukset" suffix; 2026-11-03 G1-534 fi) — the catalogue never sets it, its pages are unchanged
+    fitsChrome: true,
 
     build({ theme, difficulty, locale }, ctx) {
       const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
@@ -150,7 +153,7 @@ function makeWordSearch(spec) {
       if (!built) throw new Error(`${spec.id}: these words cannot be placed together (${theme}/${L})`);
       const placedKey = new Set(built.placed.flatMap((p) => p.cells.map(([y, x]) => y + ',' + x)));
       // the grid fills the body (measured 733 px): the clue band takes ~110 px (two rows of pictures ~150), the message ~60
-      const avail = spec.clue === 'message' ? 520 : spec.clue === 'bilingual' || (spec.clue === 'pictures' && items.length > 6) ? 540 : 590;
+      const avail = (spec.clue === 'message' ? 520 : spec.clue === 'bilingual' || (spec.clue === 'pictures' && items.length > 6) ? 540 : 590) - ((ctx && ctx.chromeExtra) || 0);
       const cell = Math.min(72, Math.floor(Math.min(avail, 640) / n));
       const cells = [];
       for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) {

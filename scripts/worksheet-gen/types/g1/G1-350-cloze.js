@@ -103,6 +103,7 @@ const slot = require('../../lib/slot.js');
 const { slotFor, pageSalt } = require('../../lib/answer-slots.js');
 let PAGE_SALT = '';
 const { bank: loadBank, bankModule } = require('../../lib/b4-common.js');
+const { nameRisky } = require('../../lib/picture-name-risk.js');
 const { bank: b3Bank } = require('../../lib/b3-common.js');
 const { fileUri, vocab, displayWord } = require('../../lib/b2-common.js');
 const { fillSlots } = require('../../lib/b3-instructions.js');
@@ -304,6 +305,9 @@ function compose(rng, frames, cfg, loc, globals) {
     // exclusivity: no taken noun in this frame's fits; this noun in no taken frame's fits
     if (f.fits.some((x) => x !== f.noun && nouns.has(x))) continue;
     if (taken.some((t) => t.fits.includes(f.noun))) continue;
+    // no sentence prints another row's answer ("Two ferries carry cars across the bay" beside a "cars" row — the page gate
+    // refused it after the deal; the deal now never makes it, so a page the gate passed keeps its frames)
+    if ([...answers].some((x) => hasWord(f.text, x)) || taken.some((t) => hasWord(t.text, a))) continue;
     taken.push(f);
     nouns.add(f.noun); answers.add(a.toLocaleLowerCase(loc)); themes.set(f.pic.theme, (themes.get(f.pic.theme) || 0) + 1);
     if (g >= 0) groups.add(g);
@@ -1240,6 +1244,9 @@ module.exports = {
     const list = rows.map((row, i) => C4.cloneGapRow({
       n: i + 1, src: picSrc(row.f.pic, row.f.noun), key: row.f.noun, clones: row.clones, clonePx: cfg.clonePx, gap: cfg.cloneGap, colW: cfg.colW,
       text: row.text, answer: row.answer, slot: C4.gapBox({ w: gapW, h: cfg.gapH }), frameId: row.f.id, form: row.f.form, kase: row.f.case || null,
+      // a picture a child names otherwise carries its own word (no bank to name it): "hen" under the chickens, so the
+      // answer is "hens", not "chickens" too (lib/picture-name-risk.js, native review 2026-11-03)
+      label: !cfg.bank && nameRisky(loc, row.f.noun) ? answerFor(loc, row.f.noun, 'sg') : null,
     })).join('');
     const bankHtml = cfg.bank ? C4.gapBank({ words: answers, order: bankOrder, wordPx: 18 }) : '';
     const attrs = `data-lcs-rows="${cfg.rows}" data-lcs-gapw="${gapW}" data-lcs-bank="${cfg.bank ? 1 : 0}" data-lcs-clone-px="${cfg.clonePx}" data-lcs-clones-min="${cfg.clones[0]}" data-lcs-clones-max="${cfg.clones[1]}" data-lcs-gap-h="${cfg.gapH}"`;

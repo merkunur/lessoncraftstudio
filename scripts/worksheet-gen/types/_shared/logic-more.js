@@ -143,23 +143,27 @@ function shapeSvg(s, x, y, px) {
   if (s === 1) return `<rect x="${x - h}" y="${y - h}" width="${px}" height="${px}" rx="3" fill="${f}" data-lcs-shape="1"/>`;
   return `<circle cx="${x}" cy="${y}" r="${h}" fill="${f}" data-lcs-shape="2"/>`;
 }
-function panSvg(pan, cx, panY, px) {
-  const items = pan.shapes.length ? pan.shapes.map((s, i) => shapeSvg(s, cx + (i - (pan.shapes.length - 1) / 2) * (px + 4), panY - px / 2 - 4, px)).join('')
+function panSvg(pan, cx, panY, px, gap = 4) {
+  const items = pan.shapes.length ? pan.shapes.map((s, i) => shapeSvg(s, cx + (i - (pan.shapes.length - 1) / 2) * (px + gap), panY - px / 2 - 4, px)).join('')
     : `<text x="${cx}" y="${panY - 8}" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="24" fill="${INK}">${pan.num}</text>`;
   return `<rect x="${cx - 44}" y="${panY}" width="88" height="7" rx="3" fill="${TEAL}"/>` +
     `<line x1="${cx - 40}" y1="${panY}" x2="${cx}" y2="30" stroke="${GRID}" stroke-width="2"/><line x1="${cx + 40}" y1="${panY}" x2="${cx}" y2="30" stroke="${GRID}" stroke-width="2"/>` + items;
 }
-function balanceSvg(b) {
+// px / gap (2026-11-03, final-phase review): four 24 px shapes are 108 px on an 88 px pan — they ran over the post and off
+// the pan, so a child could miss one and count 3; a card whose pans hold four draws ALL its shapes at 18 px (one size
+// on a card: a smaller triangle never looks lighter)
+function balanceSvg(b, px = 24, gap = 4) {
   const W = 220, H = 118, cx = W / 2;
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" data-lcs-balance="1">` +
     `<line x1="${cx}" y1="30" x2="${cx}" y2="${H - 12}" stroke="${TEAL}" stroke-width="5" stroke-linecap="round"/>` +
     `<line x1="${cx - 26}" y1="${H - 10}" x2="${cx + 26}" y2="${H - 10}" stroke="${TEAL}" stroke-width="6" stroke-linecap="round"/>` +
     `<line x1="20" y1="30" x2="${W - 20}" y2="30" stroke="${TEAL}" stroke-width="5" stroke-linecap="round"/>` +
     `<circle cx="${cx}" cy="30" r="6" fill="${CORAL}"/>` +
-    panSvg(b.left, 58, 84, 24) + panSvg(b.right, W - 58, 84, 24) + `</svg>`;
+    panSvg(b.left, 58, 84, px, gap) + panSvg(b.right, W - 58, 84, px, gap) + `</svg>`;
 }
 function balanceCard(puzzle) {
-  const svgs = puzzle.balances.map(balanceSvg).join('');
+  const most = Math.max(...puzzle.balances.flatMap((b) => [b.left.shapes.length, b.right.shapes.length]));
+  const svgs = puzzle.balances.map((b) => (most > 3 ? balanceSvg(b, 18, 3) : balanceSvg(b))).join('');
   const answers = puzzle.weights.map((w, s) => `<span style="display:inline-flex;align-items:center;gap:8px"><svg width="34" height="34" viewBox="0 0 34 34">${shapeSvg(s, 17, 17, 26)}</svg>${NUM('=', 22, TEAL)}${answerBox({ w: 64, h: 48, answer: w })}</span>`).join('');
   return `<div class="ws-card-stage" style="flex-direction:column;gap:10px"${stamp({ kind: 'balance', k: puzzle.k, max: puzzle.max, balances: puzzle.balances })}>` +
     `<div style="display:flex;gap:14px;justify-content:center">${svgs}</div>` +
@@ -303,6 +307,16 @@ function makeLogicType(cfg) {
             if (bx.length !== p.k) fails.push('balance ' + (pi + 1) + ': ' + bx.length + ' boxes for ' + p.k + ' shapes');
             bx.forEach((v, i) => { if (v !== r.weights[i]) fails.push('balance ' + (pi + 1) + ': box ' + (i + 1) + ' is not the unique solution'); });
             if (root.querySelectorAll('svg[data-lcs-balance]').length !== p.balances.length) fails.push('balance ' + (pi + 1) + ': drawn balances and stamped balances differ');
+            // every shape lies on ITS pan, clear of the post (a shape over the post or off the pan is one a child misses)
+            root.querySelectorAll('svg[data-lcs-balance]').forEach((sv, bi) => {
+              const pans = [...sv.querySelectorAll('rect[height="7"]')].map((r) => r.getBoundingClientRect());
+              const post = sv.querySelector('line').getBoundingClientRect();
+              sv.querySelectorAll('[data-lcs-shape]').forEach((sh) => {
+                const r = sh.getBoundingClientRect();
+                if (!pans.some((q) => r.left >= q.left - 0.5 && r.right <= q.right + 0.5)) fails.push('balance ' + (pi + 1) + '.' + (bi + 1) + ': a shape runs off its pan');
+                if (r.left < post.right + 1 && r.right > post.left - 1) fails.push('balance ' + (pi + 1) + '.' + (bi + 1) + ': a shape sits on the post');
+              });
+            });
           } else fails.push('unknown puzzle kind ' + p.kind);
         });
         return fails;

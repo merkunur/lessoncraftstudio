@@ -364,6 +364,16 @@ function makeGraphType(cfg) {
             nouns.filter((n) => ((LOOK._unclear || {})[theme] || []).includes(n)).forEach((n) => fails.push(`${n} does not read as a thing on a graph`));
           }
         }
+        // ---- a picture graph's label column is ruled off (the label tile is not one more picture to count) ----
+        document.querySelectorAll('[data-lcs-prim="pictograph"]').forEach((svg) => {
+          const ax = svg.querySelector('[data-lcs-axis="category"]');
+          if (!ax) { fails.push('picture graph: no axis between the labels and the pictures'); return; }
+          const A = ax.getBoundingClientRect(), x = A.left + A.width / 2;
+          svg.querySelectorAll('[data-lcs-rowlabel]').forEach((l) => { if (l.getBoundingClientRect().right > x - 4) fails.push('picture graph: a label picture reaches the axis'); });
+          // a tile beside the rows (the "= 2" key sits BELOW them) must end before the axis
+          svg.querySelectorAll('rect:not([data-lcs-stamp]):not([data-lcs-emptycell])').forEach((r) => { const b = r.getBoundingClientRect(); if (b.top < A.bottom && b.bottom > A.top && b.left < x && b.right > x - 1) fails.push('picture graph: a label tile crosses the axis'); });
+          svg.querySelectorAll('[data-lcs-stamp],[data-lcs-emptycell]').forEach((s) => { if (s.getBoundingClientRect().left < x + 4) fails.push('picture graph: a picture or box stands at the axis'); });
+        });
         // ---- the facts ----
         if (mode === 'pict-read') {
           const wrap = document.querySelector('[data-lcs-values]');

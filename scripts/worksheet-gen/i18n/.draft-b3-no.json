@@ -35,7 +35,7 @@
   },
   "K-330": {
    "title": "Første lyd er gitt: Skriv lydene videre",
-   "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute."
+   "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
   },
   "G1-312": {
    "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -379,7 +379,7 @@
   },
   "G2-333": {
    "title": "Ordstjerne: Ett ord, mange ord",
-   "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
+   "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nytt ord på linjen sin."
   },
   "G2-317": {
    "title": "Verb: Presens og preteritum",
@@ -415,7 +415,7 @@
   },
   "G2-340": {
    "title": "Faktaark om {L} med ordbank",
-   "instruction": "Finn hvert riktige faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
+   "instruction": "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
   },
   "G2-341": {
    "title": "Faktaark om {L}: skriv tre setninger",
@@ -19466,7 +19466,7 @@
     },
     "K-330": {
      "title": "Første lyd er gitt: Skriv lydene videre",
-     "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute."
+     "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
     },
     "G1-312": {
      "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -33345,7 +33345,7 @@
     },
     "G2-333": {
      "title": "Ordstjerne: Ett ord, mange ord",
-     "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
+     "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nytt ord på linjen sin."
     }
    }
   },
@@ -34939,7 +34939,7 @@
     },
     "G2-340": {
      "title": "Faktaark om {U} med ordbank",
-     "instruction": "Finn hvert riktige faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
+     "instruction": "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
     },
     "G2-341": {
      "title": "Faktaark om {U}: Skriv tre setninger",

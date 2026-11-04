@@ -45,20 +45,6 @@
     "answer": "B"
    },
    {
-    "theme": "At the Supermarket",
-    "noun": "can",
-    "key": "can",
-    "word": "can",
-    "answer": "C"
-   },
-   {
-    "theme": "accessories",
-    "noun": "cap",
-    "key": "cap",
-    "word": "cap",
-    "answer": "C"
-   },
-   {
     "theme": "toys",
     "noun": "car",
     "key": "car",
@@ -77,13 +63,6 @@
     "noun": "deer",
     "key": "deer",
     "word": "deer",
-    "answer": "D"
-   },
-   {
-    "theme": "around the house",
-    "noun": "desk",
-    "key": "desk",
-    "word": "desk",
     "answer": "D"
    },
    {
@@ -120,13 +99,6 @@
     "key": "face",
     "word": "face",
     "answer": "F"
-   },
-   {
-    "theme": "around the house",
-    "noun": "gate",
-    "key": "gate",
-    "word": "gate",
-    "answer": "G"
    },
    {
     "theme": "classroom",
@@ -207,13 +179,6 @@
    },
    {
     "theme": "camping",
-    "noun": "log",
-    "key": "log",
-    "word": "log",
-    "answer": "L"
-   },
-   {
-    "theme": "camping",
     "noun": "map",
     "key": "map",
     "word": "map",
@@ -224,13 +189,6 @@
     "noun": "mop",
     "key": "mop",
     "word": "mop",
-    "answer": "M"
-   },
-   {
-    "theme": "kitchen tools",
-    "noun": "mug",
-    "key": "mug",
-    "word": "mug",
     "answer": "M"
    },
    {
@@ -274,13 +232,6 @@
     "key": "pie",
     "word": "pie",
     "answer": "P"
-   },
-   {
-    "theme": "around the house",
-    "noun": "rug",
-    "key": "rug",
-    "word": "rug",
-    "answer": "R"
    },
    {
     "theme": "around the house",
@@ -346,39 +297,11 @@
     "answer": "U"
    },
    {
-    "theme": "vehicles",
-    "noun": "van",
-    "key": "van",
-    "word": "van",
-    "answer": "V"
-   },
-   {
     "theme": "around the house",
     "noun": "vase",
     "key": "vase",
     "word": "vase",
     "answer": "V"
-   },
-   {
-    "theme": "accessories",
-    "noun": "vest",
-    "key": "vest",
-    "word": "vest",
-    "answer": "V"
-   },
-   {
-    "theme": "accessories",
-    "noun": "wand",
-    "key": "wand",
-    "word": "wand",
-    "answer": "W"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "wolf",
-    "answer": "W"
    },
    {
     "theme": "insects and bugs",
@@ -401,13 +324,6 @@
     "noun": "arm",
     "key": "arm",
     "word": "Arm",
-    "answer": "A"
-   },
-   {
-    "theme": "4th of July",
-    "noun": "eagle",
-    "key": "eagle",
-    "word": "Adler",
     "answer": "A"
    },
    {
@@ -439,13 +355,6 @@
     "answer": "B"
    },
    {
-    "theme": "around the house",
-    "noun": "computer",
-    "key": "computer",
-    "word": "Computer",
-    "answer": "C"
-   },
-   {
     "theme": "At the Supermarket",
     "noun": "donut",
     "key": "donut",
@@ -465,13 +374,6 @@
     "key": "dragon",
     "word": "Drache",
     "answer": "D"
-   },
-   {
-    "theme": "animals",
-    "noun": "moose",
-    "key": "moose",
-    "word": "Elch",
-    "answer": "E"
    },
    {
     "theme": "christmas",
@@ -507,13 +409,6 @@
     "key": "fox",
     "word": "Fuchs",
     "answer": "F"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "Gans",
-    "answer": "G"
    },
    {
     "theme": "kitchen tools",
@@ -635,13 +530,6 @@
     "answer": "P"
    },
    {
-    "theme": "post office",
-    "noun": "package",
-    "key": "package",
-    "word": "Paket",
-    "answer": "P"
-   },
-   {
     "theme": "animals",
     "noun": "panda",
     "key": "panda",
@@ -685,20 +573,6 @@
    },
    {
     "theme": "around the house",
-    "noun": "sofa",
-    "key": "sofa",
-    "word": "Sofa",
-    "answer": "S"
-   },
-   {
-    "theme": "around the house",
-    "noun": "gate",
-    "key": "gate",
-    "word": "Tor",
-    "answer": "T"
-   },
-   {
-    "theme": "around the house",
     "noun": "door",
     "key": "door",
     "word": "Tür",
@@ -726,13 +600,6 @@
     "answer": "V"
    },
    {
-    "theme": "hospital",
-    "noun": "bandage",
-    "key": "bandage",
-    "word": "Verband",
-    "answer": "V"
-   },
-   {
     "theme": "spring",
     "noun": "birdhouse",
     "key": "birdhouse",
@@ -745,27 +612,6 @@
     "key": "whale",
     "word": "Wal",
     "answer": "W"
-   },
-   {
-    "theme": "camping",
-    "noun": "forest",
-    "key": "forest",
-    "word": "Wald",
-    "answer": "W"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "Wolf",
-    "answer": "W"
-   },
-   {
-    "theme": "toys",
-    "noun": "train",
-    "key": "train",
-    "word": "Zug",
-    "answer": "Z"
    },
    {
     "theme": "body parts",
@@ -805,13 +651,6 @@
     "answer": "B"
    },
    {
-    "theme": "vehicles",
-    "noun": "bus",
-    "key": "bus",
-    "word": "bus",
-    "answer": "B"
-   },
-   {
     "theme": "furniture",
     "noun": "bench",
     "key": "bench",
@@ -823,13 +662,6 @@
     "noun": "key",
     "key": "key",
     "word": "clé",
-    "answer": "C"
-   },
-   {
-    "theme": "birds 2",
-    "noun": "rooster",
-    "key": "rooster",
-    "word": "coq",
     "answer": "C"
    },
    {
@@ -868,25 +700,11 @@
     "answer": "E"
    },
    {
-    "theme": "around the house",
-    "noun": "oven",
-    "key": "oven",
-    "word": "four",
-    "answer": "F"
-   },
-   {
     "theme": "easter",
     "noun": "flower",
     "key": "flower",
     "word": "fleur",
     "answer": "F"
-   },
-   {
-    "theme": "accessories",
-    "noun": "glove",
-    "key": "glove",
-    "word": "gant",
-    "answer": "G"
    },
    {
     "theme": "miscellaneous",
@@ -959,13 +777,6 @@
     "answer": "M"
    },
    {
-    "theme": "fruits",
-    "noun": "blackberry",
-    "key": "blackberry",
-    "word": "mûre",
-    "answer": "M"
-   },
-   {
     "theme": "body parts",
     "noun": "nose",
     "key": "nose",
@@ -992,13 +803,6 @@
     "key": "ear",
     "word": "oreille",
     "answer": "O"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "bread",
-    "key": "bread",
-    "word": "pain",
-    "answer": "P"
    },
    {
     "theme": "clothing",
@@ -1041,20 +845,6 @@
     "key": "bucket",
     "word": "seau",
     "answer": "S"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "taxi",
-    "key": "taxi",
-    "word": "taxi",
-    "answer": "T"
-   },
-   {
-    "theme": "beach",
-    "noun": "snorkel",
-    "key": "snorkel",
-    "word": "tuba",
-    "answer": "T"
    },
    {
     "theme": "insects and bugs",
@@ -1150,20 +940,6 @@
     "answer": "B"
    },
    {
-    "theme": "Things That Fly",
-    "noun": "owl",
-    "key": "owl",
-    "word": "búho",
-    "answer": "B"
-   },
-   {
-    "theme": "vegetables",
-    "noun": "cabbage",
-    "key": "cabbage",
-    "word": "col",
-    "answer": "C"
-   },
-   {
     "theme": "around the house",
     "noun": "bed",
     "key": "bed",
@@ -1248,13 +1024,6 @@
     "answer": "G"
    },
    {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "ganso",
-    "answer": "G"
-   },
-   {
     "theme": "winter",
     "noun": "igloo",
     "key": "igloo",
@@ -1283,31 +1052,10 @@
     "answer": "K"
    },
    {
-    "theme": "camping",
-    "noun": "kayak",
-    "key": "kayak",
-    "word": "kayak",
-    "answer": "K"
-   },
-   {
     "theme": "At the Supermarket",
     "noun": "can",
     "key": "can",
     "word": "lata",
-    "answer": "L"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "lobo",
-    "answer": "L"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "parrot",
-    "key": "parrot",
-    "word": "loro",
     "answer": "L"
    },
    {
@@ -1395,20 +1143,6 @@
     "answer": "P"
    },
    {
-    "theme": "camping",
-    "noun": "frog",
-    "key": "frog",
-    "word": "rana",
-    "answer": "R"
-   },
-   {
-    "theme": "beach",
-    "noun": "rock",
-    "key": "rock",
-    "word": "roca",
-    "answer": "R"
-   },
-   {
     "theme": "beach",
     "noun": "sun",
     "key": "sun",
@@ -1434,20 +1168,6 @@
     "noun": "train",
     "key": "train",
     "word": "tren",
-    "answer": "T"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "taxi",
-    "key": "taxi",
-    "word": "taxi",
-    "answer": "T"
-   },
-   {
-    "theme": "around the house",
-    "noun": "cup",
-    "key": "cup",
-    "word": "taza",
     "answer": "T"
    },
    {
@@ -1614,13 +1334,6 @@
     "answer": "G"
    },
    {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "ganso",
-    "answer": "G"
-   },
-   {
     "theme": "winter",
     "noun": "igloo",
     "key": "igloo",
@@ -1660,13 +1373,6 @@
     "noun": "can",
     "key": "can",
     "word": "lata",
-    "answer": "L"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "lobo",
     "answer": "L"
    },
    {
@@ -1789,25 +1495,11 @@
     "answer": "T"
    },
    {
-    "theme": "vehicles",
-    "noun": "taxi",
-    "key": "taxi",
-    "word": "táxi",
-    "answer": "T"
-   },
-   {
     "theme": "camping",
     "noun": "bear",
     "key": "bear",
     "word": "urso",
     "answer": "U"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "van",
-    "key": "van",
-    "word": "van",
-    "answer": "V"
    },
    {
     "theme": "farm animals",
@@ -1829,13 +1521,6 @@
     "key": "waffle",
     "word": "waffle",
     "answer": "W"
-   },
-   {
-    "theme": "around the house",
-    "noun": "cup",
-    "key": "cup",
-    "word": "xícara",
-    "answer": "X"
    },
    {
     "theme": "animals",
@@ -1865,13 +1550,6 @@
     "noun": "boat",
     "key": "boat",
     "word": "barca",
-    "answer": "B"
-   },
-   {
-    "theme": "hospital",
-    "noun": "bandage",
-    "key": "bandage",
-    "word": "benda",
     "answer": "B"
    },
    {
@@ -1959,13 +1637,6 @@
     "answer": "F"
    },
    {
-    "theme": "Things That Fly",
-    "noun": "owl",
-    "key": "owl",
-    "word": "gufo",
-    "answer": "G"
-   },
-   {
     "theme": "birds 2",
     "noun": "rooster",
     "key": "rooster",
@@ -1992,13 +1663,6 @@
     "key": "moon",
     "word": "luna",
     "answer": "L"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "corn",
-    "key": "corn",
-    "word": "mais",
-    "answer": "M"
    },
    {
     "theme": "body parts",
@@ -2034,13 +1698,6 @@
     "key": "nest",
     "word": "nido",
     "answer": "N"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "oca",
-    "answer": "O"
    },
    {
     "theme": "camping",
@@ -2092,24 +1749,10 @@
     "answer": "S"
    },
    {
-    "theme": "vehicles",
-    "noun": "taxi",
-    "key": "taxi",
-    "word": "taxi",
-    "answer": "T"
-   },
-   {
     "theme": "forest creatures",
     "noun": "mouse",
     "key": "mouse",
     "word": "topo",
-    "answer": "T"
-   },
-   {
-    "theme": "farm animals",
-    "noun": "bull",
-    "key": "bull",
-    "word": "toro",
     "answer": "T"
    },
    {
@@ -2192,27 +1835,6 @@
     "answer": "B"
    },
    {
-    "theme": "christmas",
-    "noun": "bell",
-    "key": "bell",
-    "word": "bel",
-    "answer": "B"
-   },
-   {
-    "theme": "shapes",
-    "noun": "circle",
-    "key": "circle",
-    "word": "cirkel",
-    "answer": "C"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "lemon",
-    "key": "lemon",
-    "word": "citroen",
-    "answer": "C"
-   },
-   {
     "theme": "around the house",
     "noun": "door",
     "key": "door",
@@ -2241,13 +1863,6 @@
     "answer": "E"
    },
    {
-    "theme": "post office",
-    "noun": "envelope",
-    "key": "envelope",
-    "word": "envelop",
-    "answer": "E"
-   },
-   {
     "theme": "kitchen tools",
     "noun": "bottle",
     "key": "bottle",
@@ -2267,13 +1882,6 @@
     "key": "flute",
     "word": "fluit",
     "answer": "F"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gans",
-    "answer": "G"
    },
    {
     "theme": "farm animals",
@@ -2339,13 +1947,6 @@
     "answer": "K"
    },
    {
-    "theme": "animals",
-    "noun": "cat",
-    "key": "cat",
-    "word": "kat",
-    "answer": "K"
-   },
-   {
     "theme": "around the house",
     "noun": "lamp",
     "key": "lamp",
@@ -2374,13 +1975,6 @@
     "answer": "M"
    },
    {
-    "theme": "kitchen tools",
-    "noun": "mug",
-    "key": "mug",
-    "word": "mok",
-    "answer": "M"
-   },
-   {
     "theme": "spring",
     "noun": "nest",
     "key": "nest",
@@ -2393,13 +1987,6 @@
     "key": "nose",
     "word": "neus",
     "answer": "N"
-   },
-   {
-    "theme": "ocean life",
-    "noun": "octopus",
-    "key": "octopus",
-    "word": "octopus",
-    "answer": "O"
    },
    {
     "theme": "around the house",
@@ -2507,27 +2094,6 @@
     "answer": "V"
    },
    {
-    "theme": "accessories",
-    "noun": "mitten",
-    "key": "mitten",
-    "word": "want",
-    "answer": "W"
-   },
-   {
-    "theme": "furniture",
-    "noun": "crib",
-    "key": "crib",
-    "word": "wieg",
-    "answer": "W"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "wolf",
-    "answer": "W"
-   },
-   {
     "theme": "music",
     "noun": "xylophone",
     "key": "xylophone",
@@ -2586,27 +2152,6 @@
     "answer": "B"
    },
    {
-    "theme": "spring",
-    "noun": "bicycle",
-    "key": "bicycle",
-    "word": "cykel",
-    "answer": "C"
-   },
-   {
-    "theme": "shapes",
-    "noun": "circle",
-    "key": "circle",
-    "word": "cirkel",
-    "answer": "C"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "lemon",
-    "key": "lemon",
-    "word": "citron",
-    "answer": "C"
-   },
-   {
     "theme": "around the house",
     "noun": "door",
     "key": "door",
@@ -2661,13 +2206,6 @@
     "key": "lighthouse",
     "word": "fyr",
     "answer": "F"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "G"
    },
    {
     "theme": "kitchen tools",
@@ -2731,20 +2269,6 @@
     "key": "ornament",
     "word": "julkula",
     "answer": "J"
-   },
-   {
-    "theme": "classroom",
-    "noun": "globe",
-    "key": "globe",
-    "word": "jordglob",
-    "answer": "J"
-   },
-   {
-    "theme": "vegetables",
-    "noun": "cabbage",
-    "key": "cabbage",
-    "word": "kål",
-    "answer": "K"
    },
    {
     "theme": "around the house",
@@ -2838,13 +2362,6 @@
     "answer": "P"
    },
    {
-    "theme": "furniture",
-    "noun": "stool",
-    "key": "stool",
-    "word": "pall",
-    "answer": "P"
-   },
-   {
     "theme": "animals",
     "noun": "fox",
     "key": "fox",
@@ -2908,13 +2425,6 @@
     "answer": "T"
    },
    {
-    "theme": "around the house",
-    "noun": "oven",
-    "key": "oven",
-    "word": "ugn",
-    "answer": "U"
-   },
-   {
     "theme": "Things That Fly",
     "noun": "owl",
     "key": "owl",
@@ -2933,13 +2443,6 @@
     "noun": "vase",
     "key": "vase",
     "word": "vas",
-    "answer": "V"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "varg",
     "answer": "V"
    },
    {
@@ -3015,27 +2518,6 @@
     "answer": "B"
    },
    {
-    "theme": "spring",
-    "noun": "bicycle",
-    "key": "bicycle",
-    "word": "cykel",
-    "answer": "C"
-   },
-   {
-    "theme": "shapes",
-    "noun": "circle",
-    "key": "circle",
-    "word": "cirkel",
-    "answer": "C"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "lemon",
-    "key": "lemon",
-    "word": "citron",
-    "answer": "C"
-   },
-   {
     "theme": "around the house",
     "noun": "door",
     "key": "door",
@@ -3071,13 +2553,6 @@
     "answer": "E"
    },
    {
-    "theme": "around the house",
-    "noun": "kettle",
-    "key": "kettle",
-    "word": "elkedel",
-    "answer": "E"
-   },
-   {
     "theme": "animals",
     "noun": "sheep",
     "key": "sheep",
@@ -3097,13 +2572,6 @@
     "key": "frog",
     "word": "frø",
     "answer": "F"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "G"
    },
    {
     "theme": "farm animals",
@@ -3261,13 +2729,6 @@
    },
    {
     "theme": "around the house",
-    "noun": "oven",
-    "key": "oven",
-    "word": "ovn",
-    "answer": "O"
-   },
-   {
-    "theme": "around the house",
     "noun": "pen",
     "key": "pen",
     "word": "pen",
@@ -3278,13 +2739,6 @@
     "noun": "fireplace",
     "key": "fireplace",
     "word": "pejs",
-    "answer": "P"
-   },
-   {
-    "theme": "around the house",
-    "noun": "gate",
-    "key": "gate",
-    "word": "port",
     "answer": "P"
    },
    {
@@ -3337,32 +2791,11 @@
     "answer": "T"
    },
    {
-    "theme": "farm animals",
-    "noun": "bull",
-    "key": "bull",
-    "word": "tyr",
-    "answer": "T"
-   },
-   {
     "theme": "body parts",
     "noun": "tooth",
     "key": "tooth",
     "word": "tand",
     "answer": "T"
-   },
-   {
-    "theme": "around the house",
-    "noun": "clock",
-    "key": "clock",
-    "word": "ur",
-    "answer": "U"
-   },
-   {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "ulv",
-    "answer": "U"
    },
    {
     "theme": "around the house",
@@ -3451,20 +2884,6 @@
     "answer": "B"
    },
    {
-    "theme": "accessories",
-    "noun": "cap",
-    "key": "cap",
-    "word": "caps",
-    "answer": "C"
-   },
-   {
-    "theme": "bakery",
-    "noun": "cupcake",
-    "key": "cupcake",
-    "word": "cupcake",
-    "answer": "C"
-   },
-   {
     "theme": "around the house",
     "noun": "door",
     "key": "door",
@@ -3519,13 +2938,6 @@
     "key": "fish",
     "word": "fisk",
     "answer": "F"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "G"
    },
    {
     "theme": "animals",
@@ -3689,13 +3101,6 @@
     "answer": "O"
    },
    {
-    "theme": "At the Supermarket",
-    "noun": "pie",
-    "key": "pie",
-    "word": "pai",
-    "answer": "P"
-   },
-   {
     "theme": "around the house",
     "noun": "fireplace",
     "key": "fireplace",
@@ -3773,13 +3178,6 @@
     "answer": "T"
    },
    {
-    "theme": "animals",
-    "noun": "wolf",
-    "key": "wolf",
-    "word": "ulv",
-    "answer": "U"
-   },
-   {
     "theme": "around the house",
     "noun": "sink",
     "key": "sink",
@@ -3829,20 +3227,6 @@
     "key": "banana",
     "word": "banaani",
     "answer": "B"
-   },
-   {
-    "theme": "bakery",
-    "noun": "croissant",
-    "key": "croissant",
-    "word": "croissant",
-    "answer": "C"
-   },
-   {
-    "theme": "At the Supermarket",
-    "noun": "donut",
-    "key": "donut",
-    "word": "donitsi",
-    "answer": "D"
    },
    {
     "theme": "animals",
@@ -3978,24 +3362,10 @@
     "answer": "L"
    },
    {
-    "theme": "christmas",
-    "noun": "present",
-    "key": "present",
-    "word": "lahja",
-    "answer": "L"
-   },
-   {
     "theme": "insects and bugs",
     "noun": "worm",
     "key": "worm",
     "word": "mato",
-    "answer": "M"
-   },
-   {
-    "theme": "kitchen tools",
-    "noun": "mug",
-    "key": "mug",
-    "word": "muki",
     "answer": "M"
    },
    {
@@ -4010,13 +3380,6 @@
     "noun": "dice",
     "key": "dice",
     "word": "nopat",
-    "answer": "N"
-   },
-   {
-    "theme": "animals",
-    "noun": "elephant",
-    "key": "elephant",
-    "word": "norsu",
     "answer": "N"
    },
    {
@@ -4048,13 +3411,6 @@
     "answer": "P"
    },
    {
-    "theme": "easter",
-    "noun": "bunny",
-    "key": "bunny",
-    "word": "pupu",
-    "answer": "P"
-   },
-   {
     "theme": "beach",
     "noun": "crab",
     "key": "crab",
@@ -4080,20 +3436,6 @@
     "noun": "mouth",
     "key": "mouth",
     "word": "suu",
-    "answer": "S"
-   },
-   {
-    "theme": "hospital",
-    "noun": "bandage",
-    "key": "bandage",
-    "word": "side",
-    "answer": "S"
-   },
-   {
-    "theme": "animals",
-    "noun": "pig",
-    "key": "pig",
-    "word": "sika",
     "answer": "S"
    },
    {

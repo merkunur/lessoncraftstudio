@@ -16,6 +16,7 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { articleChips } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { ARTICLES } = require('../../data/b2/articles.js');
+const { NAME_RISK } = require('../../data/b2/article-name-risk.js');
 const { LABELS } = require('../../data/b2/labels.js');
 const { textWidthEm } = require('../../primitives/bankword-width.js');
 /** fi form chips (120 px, 18 px Baloo 2, 2.5-px border): the word + 8 px each side must fit */
@@ -118,7 +119,13 @@ module.exports = {
     const level = d.level3 ? 3 : difficulty;
     let chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
     const refuse = new Set((A.refuseKeys || []).map((k) => String(k).toLowerCase()));
+    // a page where the child NAMES the picture (no word printed, no word tile): never a picture a K child commonly calls
+    // by another word that takes ANOTHER article — "a deer" for an antelope is right for the child and wrong in the key
+    // (2026-11-03, final-phase review + native review: data/b2/article-name-risk.js)
+    if (!d.showWord && !d.sortWords && A.mode !== 'form') for (const k of Object.keys(NAME_RISK[loc] || {})) refuse.add(String(k).toLowerCase());
     let pool = distinctByWord(entriesFor(theme, loc).filter(countable).filter((e) => !refuse.has(String(e.vocabKey).toLowerCase())), (e) => e.singular.toLocaleLowerCase(loc));
+    // the name-risk filter took a noun of THIS theme: the published page changes anyway, so it may borrow too (below)
+    const riskCut = !d.showWord && !d.sortWords && A.mode !== 'form' && entriesFor(theme, loc).some((e) => (NAME_RISK[loc] || {})[e.vocabKey] != null);
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
     const isForm = A.mode === 'form';
     // a word chip holds its word (2026-11-03, the collision gate: fi "granaattiomenat" / "karhunvatukka" ran out of their
@@ -131,7 +138,7 @@ module.exports = {
     // never mixed), only as many as the balance needs; each borrowed picture is drawn from its own theme folder. The
     // published page (level 2, copy 1) never borrows (its draws are unchanged).
     const isPublished = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!isPublished && !isForm) {
+    if ((!isPublished || riskCut) && !isForm) {
       const keyOf = (e) => A.keyFor({ ...e, key: e.vocabKey }, { level, count: 1 });
       const hist = {};
       pool.forEach((e) => { const k = keyOf(e); if (k != null) hist[k] = (hist[k] || 0) + 1; });
@@ -294,8 +301,10 @@ module.exports = {
       // the deal, then fit the spacing to the bin so more lines cannot overflow.
       const perBin = binLabels.map((_, i) => cardsData.filter(({ e, key, count }) =>
         (isForm ? (count > 1 ? 1 : 0) : key) === i).length);
-      const lineCount = Math.max(5, ...perBin);
-      const gapY = Math.min(58, Math.floor(330 / (lineCount + 0.5)));
+      // the bins reach down the page (2026-11-03: 350 px bins stopped at 70 % of the body): 470 px, at least six lines
+      const BIN_H = 470;
+      const lineCount = Math.max(6, ...perBin);
+      const gapY = Math.min(64, Math.floor((BIN_H - 20) / (lineCount + 0.5)));
       const bins = binLabels.map((label, idx) => {
         const lines = [];
         for (let i = 1; i <= lineCount; i++) lines.push(`<line x1="8" y1="${i * gapY}" x2="${binW - 14}" y2="${i * gapY}" stroke="#C8BFAE" stroke-width="1.5" stroke-dasharray="3 5"/>`);
@@ -303,7 +312,7 @@ module.exports = {
         if (isKey) cardsData.filter((c) => keyOf(c) === idx).forEach((c, j) => lines.push(`<text x="14" y="${(j + 1) * gapY - 6}" font-family="Nunito" font-weight="700" font-size="20" fill="#8A8580">${wordOf(c)}</text>`));
         return `<div style="display:flex;flex-direction:column;align-items:center;gap:6px" data-lcs-sortbin="${idx}">` +
           `<span class="ws-pill" style="font-size:20px;padding:2px 18px" data-lcs-sorthead="${idx}">${label}</span>` +
-          `<div class="ws-bin" style="width:${binW}px;height:350px;max-width:${binW}px;padding:0"><svg width="${binW - 6}" height="345" viewBox="0 0 ${binW - 6} 345" aria-hidden="true">${lines.join('')}</svg></div></div>`;
+          `<div class="ws-bin" style="width:${binW}px;height:${BIN_H}px;max-width:${binW}px;padding:0"><svg width="${binW - 6}" height="${BIN_H - 5}" viewBox="0 0 ${binW - 6} ${BIN_H - 5}" aria-hidden="true">${lines.join('')}</svg></div></div>`;
       }).join('');
       return {
         bodyHtml: `<div data-lcs-mode="${A.mode}" data-lcs-layout="sort" style="flex:1;display:flex;flex-direction:column;gap:18px;align-items:center;justify-content:flex-start;padding-top:6px" data-ws-content>` +

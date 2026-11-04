@@ -168,7 +168,10 @@ const SCENES = {
       box: { w: 675, h: 700 }, frame: { x0: 52, y0: 46, x1: 623, y1: 654 }, r: 104, minAngle: 55, W: 36, branches: 8, size: [1, 3], fill: 0, loops: 5, K: 260,
       gates: { clear: 53 },
     },
-    labels: { rule: 'pred', op: '+', target: 10, a: [0, 10], b: [0, 10], route: 10, glyph: 'text', fontPx: 26, shape: 'pill', size: [86, 48], stoneR: 44, decoyCount: 10, badge: true },
+    // addends 1-9 (2026-11-03, final-phase review): K.OA.A.4 asks the partner of 1-9, and the operator's rule — no make-n with
+    // nothing — took 10+0 / 0+10 (and the decoy 9+0) off the stones; nine true facts are left, so the routes are 8 (6 at level
+    // 1, all nine at level 3: data/hmx/levels.js)
+    labels: { rule: 'pred', op: '+', target: 10, a: [1, 9], b: [1, 9], route: 8, glyph: 'text', fontPx: 26, shape: 'pill', size: [86, 48], stoneR: 44, decoyCount: 10, badge: true },
     hero: { src: 'zoo animals/giraffe', h: 110 },
     goal: { src: 'tree/baobab', h: 132 },
     cast: [{ src: 'zoo animals/elephant', h: 70, optional: true }, { src: 'zoo animals/zebra', h: 62, optional: true }, { src: 'zoo animals/rhinoceros', h: 56, optional: true }, { src: 'birds/ostrich', h: 64, optional: true }, { src: 'zoo animals/meerkat', h: 46, optional: true }, { src: 'zoo animals/gazelle', h: 56, optional: true }],

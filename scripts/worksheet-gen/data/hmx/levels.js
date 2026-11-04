@@ -83,8 +83,9 @@ module.exports = {
     3: { labels: { decoyCount: 14, nearShare: 0.85 }, tries: 40 },
   },
   'make-10': {
-    1: { labels: { route: 8, decoyCount: 6 } },
-    3: { labels: { route: 11, decoyCount: 12 }, maze: { r: 96, branches: 10 } },
+    // the addends are 1-9 (data/hm/scenes.js, 2026-11-03): nine true facts — level 3 uses all nine
+    1: { labels: { route: 6, decoyCount: 6 } },
+    3: { labels: { route: 9, decoyCount: 12 }, maze: { r: 96, branches: 10 } },
   },
   'subtract-20': {
     1: { labels: { route: 6, decoyCount: 5 } },

@@ -37,7 +37,9 @@ function displayWord(word, loc, mode) {
 // APPLE — a page that names one "plum" teaches a wrong word (found by the Rhyming Words native panels; 132 live decks
 // measured). Excluded in every locale until real plum art exists.
 const ALL_LOCALES = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
-const B2_EXCLUDE = { crane: ['es', 'no', 'da', 'sv', 'fi', 'de', 'pt', 'nl'], tank: ['da'], loader: ['da'], lego: ['no'], plum: ALL_LOCALES };
+const B2_EXCLUDE = { crane: ['es', 'no', 'da', 'sv', 'fi', 'de', 'pt', 'nl'], tank: ['da'], loader: ['da'], lego: ['no'], plum: ALL_LOCALES,
+  // 2026-11-04: the pictures show another animal / flower than the word (lib/picture-refusals.js says which)
+  deinonychus: ALL_LOCALES, parasaurolophus: ALL_LOCALES, snowdrop: ALL_LOCALES };
 function excluded(vocabKey, loc) { const l = B2_EXCLUDE[String(vocabKey).toLowerCase()]; return !!(l && l.includes(loc)); }
 /** labelSafeNouns minus the locale's exclusions — every b2 type that picks nouns goes through this. */
 function safeNouns(theme, loc) { return labelSafeNouns(theme).filter((n) => !excluded(n.vocabKey, loc)); }

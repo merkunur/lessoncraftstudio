@@ -46,6 +46,7 @@
 const tokens = require('../../primitives/_tokens.js');
 const { svgRoot, el, esc } = require('../../primitives/_svg.js');
 const { writingRow, textLaneGeometry, LM } = require('../../primitives/trace-path.js');
+const { seatOnRow } = require('../../lib/key-on-row.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -179,17 +180,21 @@ function oppositeFrameRow({ pair, a, b, given, answer, name = null, pic, line1, 
     `</div></div>`;
 }
 
-function oppositeChipRow({ chips, fontPx = 20, tileH = 44 }) {
-  const items = chips.map((c) =>
-    `<span class="ws-tile ws-tile--word" style="height:${tileH}px;font-size:${fontPx}px" data-lcs-chip="${esc(c.word)}" data-lcs-chip-pair="${esc(c.pair)}">${esc(c.word)}</span>`).join('');
+// cross (answer key, G1-336 level 3): the words with no partner, struck through in coral as the child crosses them out
+function oppositeChipRow({ chips, fontPx = 20, tileH = 44, cross = null }) {
+  const items = chips.map((c) => {
+    const x = cross && cross.includes(c.word) ? ` data-lcs-keycross="1" style="height:${tileH}px;font-size:${fontPx}px;text-decoration:line-through;text-decoration-color:${tokens.color.coral};text-decoration-thickness:3px"` : ` style="height:${tileH}px;font-size:${fontPx}px"`;
+    return `<span class="ws-tile ws-tile--word"${x} data-lcs-chip="${esc(c.word)}" data-lcs-chip-pair="${esc(c.pair)}">${esc(c.word)}</span>`;
+  }).join('');
   return `<div class="ws-tilerow" style="justify-content:center;flex:0 0 auto" data-lcs-chiprow="${chips.length}">${items}</div>`;
 }
 
-function oppositePairLane({ n, w = 260, h = 64, glyphH = 28, arrowW = 48, arrowH = 24 }) {
-  const lane = () => writingRow({ w, h, glyphH, xHeight: true }).svg;
+// key (answer key, 2026-11-03): [a, b] — the pair written on the lane's two rows, seated on the rules (lib/key-on-row.js)
+function oppositePairLane({ n, w = 260, h = 64, glyphH = 28, arrowW = 48, arrowH = 24, key = null }) {
+  const lane = (k) => { const svg = writingRow({ w, h, glyphH, xHeight: true }).svg; return key ? seatOnRow(svg, key[k]) : svg; };
   return `<div class="ws-lane" style="padding:5px 16px;display:flex;align-items:center;justify-content:center;gap:12px;min-height:0" data-ws-content data-lcs-pairlane="${n}">` +
-    badge(n) + `<span data-lcs-pairlane-slot="1" style="display:flex">${lane()}</span>` + oppositeArrow({ w: arrowW, h: arrowH }) +
-    `<span data-lcs-pairlane-slot="2" style="display:flex">${lane()}</span></div>`;
+    badge(n) + `<span data-lcs-pairlane-slot="1" style="display:flex">${lane(0)}</span>` + oppositeArrow({ w: arrowW, h: arrowH }) +
+    `<span data-lcs-pairlane-slot="2" style="display:flex">${lane(1)}</span></div>`;
 }
 
 function oppositeChoiceRow({ pair, target, b, pills, correct, targetPx = 26, pillPx = 22 }) {

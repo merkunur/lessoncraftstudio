@@ -169,6 +169,8 @@ function traceOracle(B) {
       return found[0];
     });
   }
+  // never zero (the operator's rule, 2026-11-03): no stone adds or takes away nothing — "10 + 0" is not making 10
+  if (T.rule && T.rule.kind === 'pred' && T.labels.some((l) => /(^|\D)0\s*[+−-]|[+−-]\s*0(\D|$)/.test(String(l == null ? '' : l)))) throw new Error('K-405 oracle: a stone with a 0 operand');
   if (T.rule) {
     const R = require('../../lib/hm-rules.js');
     const rule = T.rule.kind === 'seq' ? R.seqRule(T.rule.seq) : T.rule.kind === 'pred' ? R.predRule(T.rule) : T.rule.kind === 'ops' ? R.opsRule(T.rule) : T.rule.kind === 'sound' ? R.soundRule(T.rule) : T.rule.kind === 'collect' ? R.collectRule(T.rule) : T.rule.kind === 'avoid' ? R.avoidRule(T.rule) : null;

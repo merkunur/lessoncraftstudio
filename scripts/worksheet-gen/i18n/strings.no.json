@@ -2034,7 +2034,7 @@
   },
   "K-330": {
     "title": "Første lyd er gitt: Skriv lydene videre",
-    "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute."
+    "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
   },
   "G1-312": {
     "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -2322,7 +2322,7 @@
   },
   "G2-333": {
     "title": "Ordstjerne: Ett ord, mange ord",
-    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nye ord på linjen sin."
+    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nytt ord på linjen sin."
   },
   "G2-334": {
     "title": "Koble verbet til preteritumsformen",
@@ -2350,7 +2350,7 @@
   },
   "G2-340": {
     "title": "Faktaark om {L} med ordbank",
-    "instruction": "Finn hvert riktige faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
+    "instruction": "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
   },
   "G2-341": {
     "title": "Faktaark om {L}: skriv tre setninger",
@@ -3635,7 +3635,7 @@
   },
   "G3-407": {
     "title": "Fyll ut gangetabellen",
-    "instruction": "Gang tallet først i raden med tallet øverst i kolonnen. Skriv svaret i hver tomme rute."
+    "instruction": "Gang tallet først i raden med tallet øverst i kolonnen. Skriv svaret i hver tom rute."
   },
   "G3-408": {
     "title": "Deling",
@@ -4020,7 +4020,7 @@
   },
   "K-517": {
     "title": "Spor tallene fra 1 til 100",
-    "instruction": "Spor de stiplede tallene. Skriv tallet som skal stå der, i hver tomme rute."
+    "instruction": "Spor de stiplede tallene. Skriv tallet som skal stå der, i hver tom rute."
   },
   "K-518": {
     "title": "Slik skriver vi tallene",

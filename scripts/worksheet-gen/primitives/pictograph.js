@@ -26,10 +26,15 @@ function pictograph({ rows, scale = 1, cell = 34, emptyGrid = false, slots, rowG
   const H = rows.length * rowH + 10 + (scale > 1 ? kH + 4 : 0);
   const parts = [];
 
+  // the category column is ruled off by an AXIS (2026-11-03, final-phase review): the label tile used to end 6 px before
+  // the first stamp — the gap between two stamps — so a child counting "the pictures in each row" counted the label too
+  // (5 vultures where the key has 4). Same total width: the tile is 6 px narrower and an axis line stands in a 12 px gap.
+  const rowsH = rows.length * rowH;
+  parts.push(line({ x1: labelW - 6, y1: 2, x2: labelW - 6, y2: rowsH, strokeColor: t.color.ink, strokeWidth: 2.5, data: { 'data-lcs-axis': 'category' } }));
   rows.forEach((r, i) => {
     const y = 5 + i * rowH;
     // label cell
-    parts.push(roundedRect({ x: 2, y, w: labelW - 8, h: cell + 6, r: 8, fill: t.color.cream, strokeColor: t.color.grid, strokeWidth: 1.5 }));
+    parts.push(roundedRect({ x: 2, y, w: labelW - 14, h: cell + 6, r: 8, fill: t.color.cream, strokeColor: t.color.grid, strokeWidth: 1.5 }));
     parts.push(el('image', { href: r.iconHref, x: 8, y: y + 3, width: cell, height: cell, 'data-lcs-rowlabel': i, ...(iconSlots && iconSlots[i] ? { 'data-lcs-slot': iconSlots[i] } : {}) }));
     parts.push(line({ x1: labelW, y1: y + cell + rowGap - 4, x2: W - 8, y2: y + cell + rowGap - 4, strokeColor: t.color.grid, strokeWidth: 1 }));
     const stamps = Math.round(r.n / scale);

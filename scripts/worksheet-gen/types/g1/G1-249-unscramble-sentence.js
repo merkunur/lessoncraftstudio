@@ -16,6 +16,9 @@ const { wordTiles, rulingBlock } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const SB = require('../../lib/sentence-bank.js');
+const SECOND_ORDER = require('../../data/b2/unscramble-second-order.json');
+// no-clue pages in these languages promise ONE order (en "Find the one order that works"): one-order frames only
+const ONE_ORDER_LOCALES = new Set(['en', 'fr', 'it', 'pt']);
 const SBL_SCREEN = require('../../lib/sentence-building-screen.js');
 
 /*
@@ -43,8 +46,7 @@ const LS_THEMES = new Set(['accessories', 'animals', 'apparel', 'around the hous
   'fruits', 'furniture', 'household', 'insects and bugs', 'kitchen', 'kitchen tools', 'ocean life', 'pets', 'reptiles and amphibians',
   'sea life', 'tools', 'toys', 'vegetables', 'zoo animals']);
 // gift / "needs" frames (objectsOnly) never take a living thing: "Grandpa gave me two big lions"
-const LS_ANIMAL_THEMES = new Set(['animals', 'birds', 'birds 2', 'dinosaurs', 'farm animals', 'forest creatures', 'insects and bugs',
-  'ocean life', 'pets', 'reptiles and amphibians', 'sea life', 'zoo animals']);
+const LS_ANIMAL_THEMES = SB.ANIMAL_THEMES;   // the living-thing themes (one list, lib/sentence-bank.js)
 // nouns the native review flagged as unreadable, odd or wrongly inflected for Grade 1 in some locale
 const LS_BLOCK = new Set(['medicine', 'cocktail', 'evergreen', 'vanity', 'dice', 'plunger', 'cast', 'columbine', 'heptagon', 'marigold', 'stage', 'ufo', 'chainsaw', 'sickle',
   'nail',   // one key for the fingernail AND the tools-theme metal nail: 8 locales print the fingernail word under the metal nail
@@ -52,7 +54,7 @@ const LS_BLOCK = new Set(['medicine', 'cocktail', 'evergreen', 'vanity', 'dice',
 
 // published-bank wish / gift frames, treated as objectsOnly on NEW pages only (the published pages are unchanged)
 const LS_PUB_OBJECTS = { es: ['s16'], pt: ['s7'], it: ['s13', 's15'], da: ['s9'], no: ['s14'], fi: ['s8'] };   // fi s8 «kantaa» (carries a kangaroo)
-const themeFamily = (t) => String(t).replace(/ bw( d+)?$/i, '').toLowerCase();
+const themeFamily = (t) => String(t).replace(/ bw(\s+\d+)?$/i, '').toLowerCase();
 
 module.exports = {
   id: 'G1-249',
@@ -95,8 +97,63 @@ module.exports = {
       // native review: blocked nouns + all-caps acronyms (a lowercased "ufo")
       .filter((e) => published || (!LS_BLOCK.has(e.vocabKey) && !/^[A-ZÆØÅÄÖ]{2,}$/.test(e.singular.trim())));
     if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
-    const frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng,
-      filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok && !(animalTheme && !published && (f.objectsOnly || (LS_PUB_OBJECTS[loc] || []).includes(f.id))); } });
+    // no capital and no end mark on the tiles: only frames whose words make ONE sentence for this page's noun class (the
+    // native review, data/b2/unscramble-second-order.json — "the panda found mia", "can you find the ball" / "you can find
+    // the ball", a V2 yes/no question "zählt Emma die Pandas"); a locale that cannot fill the page refuses it
+    const noClues = !d.showCap && !d.showEnd;
+    // every frame's OTHER grammatical orders (the native all-orders review 2026-11-04, data/b2/unscramble-second-order.json:
+    // a fronted object "die Pandas zählt Emma", a V2 yes/no question, "the box is next to the panda", Finnish OVS …), each
+    // with its sentence type. A page's clues rule an order out when it does not start with the capitalised first word
+    // (showCap) or does not end on the marked last word, or is a question under a full stop (showEnd). What survives is a
+    // second right answer: a page with clues never uses such a frame; a no-clue page accepts it (key + screen) when needed.
+    const review = SECOND_ORDER[loc] || null;
+    if (!review) throw new Error(`G1-249: no word-order review for ${loc} — REFUSED`);
+    const cls = animalTheme ? 'animal' : 'thing';
+    const rivalsOf = (f) => {
+      const r = review[f.id]; if (!r) return null;   // a frame nobody reviewed is not used
+      const P = r[cls + 'Perms'] || [], T = r[cls + 'Types'] || [], canonType = r[cls + 'Canon'];
+      return P.map((p, i) => ({ p, t: T[i] })).filter(({ p, t }) => { const L = p.length - 1; return (!d.showCap || p[0] === 0) && (!d.showEnd || (p[L] === L && (t === canonType || t === 'E'))); });
+    };
+    const clean = (f) => { const r = rivalsOf(f); return r != null && r.length === 0; };
+    // a no-clue lane may carry at most 3 other orders (the review: past that the exercise loses its point)
+    const open = (f) => { const r = rivalsOf(f); return r != null && r.length > 0 && r.length <= 3; };
+    const fitsIn = (minTok) => (f) => { const n = SB.tokenize(f.text).length; return n >= minTok && n <= d.maxTok && !(animalTheme && !published && (f.objectsOnly || (LS_PUB_OBJECTS[loc] || []).includes(f.id))); };
+    const fits = fitsIn(d.minTok);
+    // a frame that makes sense only with a living thing (fr «Que font les ballons ?», fi «syöttää» = feeds) on a thing page
+    const wrongClass = (f) => !animalTheme && !!f.animalsOnly;
+    const usable = (f) => clean(f) && !wrongClass(f);
+    // where a page's own bank and length run short of frames with ONE right order, it takes the Level Set frames too (a
+    // published page), then sentences one word shorter (G1-302 de/nl level 3: three clean 6-7-word frames) — never a
+    // sentence with a second right answer
+    const fallbacks = [[bank, d.minTok], ...(published ? [[mergedBank(loc), d.minTok]] : []), [mergedBank(loc), d.minTok - 1]];
+    const unscrambleFrames = (b, minTok, more) => b.frames.filter((f) => f.kind === 'simple' && (f.uses || []).includes('unscramble') && fitsIn(minTok)(f) && more(f));
+    let frames = null;
+    if (!noClues) {
+      // the page as it always drew; only a page that drew a frame with a second right answer draws again from the clean ones
+      frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng, filter: fits });
+      if (!frames.every(usable)) {
+        const at = fallbacks.find(([b, m]) => unscrambleFrames(b, m, usable).length >= d.lanes);
+        if (!at) throw new Error(`G1-249: ${loc} has too few frames with one right order under these clues for ${d.lanes} lanes — REFUSED`);
+        frames = SB.pickFrames(at[0], { kind: 'simple', use: 'unscramble', count: d.lanes, rng, filter: (f) => fitsIn(at[1])(f) && usable(f) });
+      }
+    } else {
+      // the one-order frames first; a language whose words order freely without the end mark (a V2 yes/no question, a
+      // fronted object, a free subject) fills the page with frames that have other orders, and the key and the screen
+      // accept them (en fr it pt: the instruction promises "the one order", so only one-order frames — from the wider
+      // bank and shorter sentences when the page's own run short)
+      const pool = unscrambleFrames(bank, d.minTok, (f) => !wrongClass(f));
+      const one = rng.shuffle(pool.filter(clean));
+      if (one.length >= d.lanes) frames = one.slice(0, d.lanes);
+      else if (ONE_ORDER_LOCALES.has(loc)) {
+        const at = fallbacks.find(([b, m]) => unscrambleFrames(b, m, usable).length >= d.lanes);
+        if (!at) throw new Error(`G1-249: ${loc} has too few one-order frames for ${d.lanes} no-clue lanes — REFUSED`);
+        frames = rng.shuffle(unscrambleFrames(at[0], at[1], usable)).slice(0, d.lanes);
+      } else {
+        const two = rng.shuffle(pool.filter(open));
+        if (one.length + two.length < d.lanes) throw new Error(`G1-249: ${loc} has ${one.length + two.length} no-clue frames for ${d.lanes} lanes — REFUSED`);
+        frames = rng.shuffle([...one, ...two.slice(0, d.lanes - one.length)]);
+      }
+    }
     const nouns = slot.pictures(ctx, rng.sample(entries, d.lanes), entries, theme);   // a teacher's pictures (maker): the sentence is made with its noun
     const lanes = frames.map((frame, i) => {
       const e = nouns[i];
@@ -132,7 +189,17 @@ module.exports = {
       let order, guard = 0;
       do { order = rng.shuffle(toks.map((_, k) => k)); guard++; }
       while ((order.every((v, k) => v === k) || order[0] === 0) && guard < 50);
-      laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order });
+      // the other orders this page's clues leave open (the native review): the same tiles in another order, accepted by the
+      // key and the screen (a page with clues has none — it uses clean frames only)
+      const rv = (rivalsOf(frame) || []).filter(({ p }) => p.length === toks.length);
+      const alts = rv.map(({ p }) => p.map((k) => shown[k]));
+      // the key writes each as the sentence it is: a capital, and the end mark of its type (a question «?» — es «¿…?»; an
+      // order that reads either way is written as the question, its natural reading)
+      const written = rv.map(({ p, t }) => { const w = p.map((k) => shown[k]).join(' '); const s0 = w.charAt(0).toLocaleUpperCase(loc) + w.slice(1); return t === 'S' ? s0 + '.' : (loc === 'es' ? '¿' + s0 + '?' : s0 + '?'); });
+      // Mexican Spanish asks most yes/no questions in the statement's own order (¿Mi hermana puede ver cinco patos?): where the
+      // statement has question orders, the key lists that one first (the screen accepts it already: same tiles, same order)
+      if (loc === 'es' && SB.endMark(canonical) === '.' && rv.some(({ t }) => t !== 'S')) written.unshift('¿' + canonical.trim().replace(/\s*\.$/, '') + '?');
+      laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order, ...(alts.length ? { alts, altsWritten: written } : {}) });
       return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:14px;align-items:center"${slot.attr(ctx, 'pic', i)} data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-caps="${caps.join(',')}" data-lcs-end="${end}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:10px;min-width:0">${wordTiles({ tokens: shown, order, fontPx: d.font, tileH: d.tileH })}${rulingBlock({ rows: 1, w: 660 - d.icon - 14 - 32, h: d.rulH, glyphH: d.glyphH })}</div></div>`;
@@ -147,7 +214,7 @@ module.exports = {
   levelSetWords(meta) { return (meta.lanes || []).flatMap((l) => [l.frame, l.noun]); },
   interactive: {
     kind: 'tap-spell', item: '[data-lcs-item]', tile: '[data-lcs-tile]', slot: '[data-lcs-slot]',
-    answerAttr: 'data-lcs-word', labelAttr: 'data-lcs-frame', metaAttrs: ['data-lcs-frame', 'data-lcs-noun', 'data-lcs-names', 'data-lcs-rules'],
+    answerAttr: 'data-lcs-word', labelAttr: 'data-lcs-frame', metaAttrs: ['data-lcs-frame', 'data-lcs-noun', 'data-lcs-names', 'data-lcs-rules', 'data-lcs-alts'],
     instructionKey: 'order', screenHeight: 6400,
     oracle: (items, l) => SBL_SCREEN.oracle(items, (l || 'en').slice(0, 2), mergedBank((l || 'en').slice(0, 2))),
   },

@@ -52,7 +52,9 @@ function pictureOf(letter, locale) {
  * names otherwise on its own are left out — a narwhal is "Wal", a hen is "chicken" (en) / "kip" (nl), an Easter egg is
  * "påskägg"; every picture refused for name tasks (lib/picture-name-refusals.js, by noun) too
  */
-const UNAIDED_KEYS = new Set(['narwhal', 'hen']);
+// the pictures named otherwise in every language (lib/picture-name-risk.js: narwhal, hen, wolf, goose)
+const { UNAIDED_KEYS } = require('../../lib/picture-name-risk.js');
+const SOUND_NAME_RISK = require('../../data/literacy/sound-name-risk.json');
 // per language (native + pedagogy review 2026-11-02): fi croissant → "voisarvi", de Verband → "Pflaster", es búho →
 // "tecolote", it mais → "pannocchia", benda → "cerotto"
 const UNAIDED_WORDS = { fi: ['croissant'], de: ['Verband'], es: ['búho'], it: ['mais', 'benda'] };
@@ -60,8 +62,11 @@ function unaidedChart(locale) {
   const { nameRefused, REFUSED, NAME_ONLY } = require('../../lib/picture-name-refusals.js');
   const nouns = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
   const L = loc2(locale), words = new Set(UNAIDED_WORDS[L] || []);
+  // pictures a child names with another word that starts otherwise (2026-11-03 native review: a wolf that looks like a
+  // husky is "dog", "poes" for the Dutch kat, "Ente" for die Gans) — data/literacy/sound-name-risk.json
+  const risky = (SOUND_NAME_RISK.beginning || {})[L] || {};
   const out = {};
-  for (const [up, list] of Object.entries(LP.letters[L] || {})) out[up] = list.filter((e) => !UNAIDED_KEYS.has(e.key) && !words.has(e.word) && !nameRefused(e.theme, e.noun) && !nouns.has(e.noun));
+  for (const [up, list] of Object.entries(LP.letters[L] || {})) out[up] = list.filter((e) => !UNAIDED_KEYS.has(e.key) && !words.has(e.word) && risky[e.key] == null && !nameRefused(e.theme, e.noun) && !nouns.has(e.noun));
   return out;
 }
 
@@ -81,4 +86,4 @@ const sameSound = (a, b, locale) => a === b || (SAME_SOUND[loc2(locale)] || []).
 /** letter shown in the page's case */
 const inCase = (ch, upper, locale) => (upper ? ch.toLocaleUpperCase(loc2(locale)) : ch);
 
-module.exports = { alphabetOf, orderAlphabetOf, unaidedChart, sameSound, SAME_SOUND, isVowel, pictureOf, inCase, loc2 };
+module.exports = { alphabetOf, orderAlphabetOf, unaidedChart, sameSound, SAME_SOUND, isVowel, pictureOf, inCase, loc2, UNAIDED_KEYS, SOUND_NAME_RISK };

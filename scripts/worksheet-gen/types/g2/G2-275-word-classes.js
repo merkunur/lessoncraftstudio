@@ -54,9 +54,10 @@ module.exports = {
   exerciseType: 'word-classes',
   themeAxis: { applicable: true, minNouns: 6, excludeBw: true },
   difficulty: {
-    1: { per: 3, pics: true, tiers: [1], font: 20, lines: 4, binH: 400 },
-    2: { per: 4, pics: true, tiers: [1, 2], font: 17, lines: 5, binH: 400 },
-    3: { per: 5, pics: false, tiers: [1, 2, 3], font: 16, lines: 6, binH: 380 },
+    // binH: the bins reach down the page (2026-11-03: 400 px bins stopped at 70 % of the body)
+    1: { per: 3, pics: true, tiers: [1], font: 20, lines: 4, binH: 480 },
+    2: { per: 4, pics: true, tiers: [1, 2], font: 17, lines: 5, binH: 480 },
+    3: { per: 5, pics: false, tiers: [1, 2, 3], font: 16, lines: 6, binH: 460 },
   },
   i18n: {
     en: {
@@ -87,7 +88,12 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const W = WORD_CLASSES[loc];
     if (!W) throw new Error(`G2-275: no word-class bank for ${loc}`);
-    const caseMode = d.pics ? (W.chipCase || 'keep') : (W.chipCaseD3 || W.chipCase || 'lower');
+    const caseMode0 = d.pics ? (W.chipCase || 'keep') : (W.chipCaseD3 || W.chipCase || 'lower');
+    // 'upper' (de, 2026-11-03, final-phase review): German capitalises every noun, so a lower-case chip ("pferd") taught a
+    // misspelling — the chips are printed in block capitals (the Grundschule way to hide the capital-letter cue), the words
+    // themselves keep their correct case (the key writes "Pferd")
+    const upper = caseMode0 === 'upper', caseMode = upper ? 'keep' : caseMode0;
+    const shown = (w) => (upper ? String(w).toLocaleUpperCase(loc) : w);
     const exclude = new Set((W.nounExclude || []).map((s) => s.toLowerCase()));
     const vb = new Set(W.verbs.map((v) => v.w.toLowerCase())), ab = new Set(W.adjectives.map((a) => a.w.toLowerCase()));
     let nouns = distinctByWord(entriesFor(theme, loc).map((e) => ({ ...e, word: displayWord(e.singular, loc, caseMode) })), (e) => e.word.toLowerCase())
@@ -158,7 +164,7 @@ module.exports = {
     }
     const chipHtml = chips.map((c) =>
       `<span class="ws-tile ws-tile--word" style="height:44px;font-size:${d.font}px" data-lcs-word="${c.word}" data-lcs-class="${c.cls}"${slot.attr(ctx, c.cls, c.i)}>` +
-      (c.src ? `<img class="ws-icon" src="${c.src}" alt="" style="width:28px;height:28px">` : '') + `${c.word}</span>`).join('');
+      (c.src ? `<img class="ws-icon" src="${c.src}" alt="" style="width:28px;height:28px">` : '') + `${shown(c.word)}</span>`).join('');
     const bin = (cls) => {
       const lines = [];
       for (let i = 1; i <= d.lines; i++) lines.push(`<line x1="8" y1="${i * (d.binH - 10) / (d.lines + 1)}" x2="186" y2="${i * (d.binH - 10) / (d.lines + 1)}" stroke="#C8BFAE" stroke-width="1.5" stroke-dasharray="3 5"/>`);
@@ -170,7 +176,7 @@ module.exports = {
     };
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:24px;padding-top:4px" data-ws-content>` +
-        `<div style="flex:0 0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:6px 0" data-lcs-chips>${chipHtml}</div>` +
+        `<div style="flex:0 0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:6px 0" data-lcs-chips${upper ? ' data-lcs-chipcase="upper"' : ''}>${chipHtml}</div>` +
         `<div style="flex:0 0 auto;display:flex;justify-content:${classes.length > 2 ? 'space-between' : 'center'};${classes.length > 2 ? '' : 'gap:40px;'}padding:0 10px"${d.classes ? ` data-lcs-classes="${classes.join(',')}"` : ''}>${classes.map(bin).join('')}</div></div>`,
       // Level Set pages stamp their chips (the screen, the key and the copy builder read them); the published meta stays {}
       meta: fresh ? { chips: chips.map((c) => ({ word: c.word, cls: c.cls, ...(c.src ? { noun: c.noun } : {}) })), classes, lines: d.lines, binH: d.binH, font: d.font, ...(d.examples ? { examples } : {}) } : {},
@@ -191,7 +197,9 @@ module.exports = {
         const w = c.dataset.lcsWord.toLowerCase();
         if (words.has(w)) fails.push(`word "${w}" appears twice`);
         words.add(w);
-        if (c.textContent.trim() !== c.dataset.lcsWord) fails.push(`chip text != word for "${w}"`);
+        // a block-capital page (de) prints the word in capitals: the same word, never another
+        const up = !!document.querySelector('[data-lcs-chipcase="upper"]');
+        if (c.textContent.trim() !== (up ? c.dataset.lcsWord.toLocaleUpperCase('de') : c.dataset.lcsWord)) fails.push(`chip text != word for "${w}"`);
       });
       // Equal counts ACROSS THE DECLARED CLASSES, not across a fixed three.
       // The original asserted counts.adj too, so a two-bin page failed with

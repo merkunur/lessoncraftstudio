@@ -15,10 +15,11 @@ const { generateMaze } = require('../../lib/maze.js');
 const { wayBetween, runsOf, frameWithOpenings, wallLines } = require('../../lib/maze-ways.js');
 
 const D = {
-  // sized to the body: the maze ~360 px beside the table (rows up to 66 px)
-  1: { n: 4, runs: [3, 5], cell: 90, circle: false, turns: false },
-  2: { n: 5, runs: [4, 6], cell: 72, circle: true, turns: false },
-  3: { n: 6, runs: [5, 8], cell: 60, circle: true, turns: true },
+  // sized to the body (2026-11-03, final-phase review: the maze beside the table used 40 % of the page height): the maze
+  // ~410 px across the top, the table below it in two columns
+  1: { n: 4, runs: [3, 5], cell: 104, circle: false, turns: false },
+  2: { n: 5, runs: [4, 6], cell: 84, circle: true, turns: false },
+  3: { n: 6, runs: [5, 8], cell: 66, circle: true, turns: true },
 };
 const DIRS = ['up', 'right', 'down', 'left'];
 const ROT = { up: -90, right: 0, down: 90, left: 180 };
@@ -71,15 +72,19 @@ module.exports = {
     for (let y = 0; y < d.n; y++) for (let x = 0; x < d.n; x++) ticks.push(`<circle cx="${(x + 0.5) * c}" cy="${(y + 0.5) * c}" r="2" fill="${tokens.color.grid}"/>`);
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W + 8}" height="${W + 8}" viewBox="-4 -4 ${W + 8} ${W + 8}" role="img" aria-label="maze" data-lcs-prim="maze" data-lcs-cols="${d.n}" data-lcs-rows="${d.n}">${ticks.join('')}${frameWithOpenings(d.n, d.n, c, open)}${wallLines(maze.walls, c)}${route}${marks}</svg>`;
     // the direction table: one row per run
-    const rowH = Math.min(66, Math.floor((640 - (d.turns ? 76 : 0)) / maze.runs.length));
+    // two columns under the maze: rows of at most 58 px (two columns of four arrow chips + a box fit the 675 px body)
+    const perCol = Math.ceil(maze.runs.length / 2);
+    const rowH = Math.min(58, Math.floor((766 - (W + 8) - 30 - (d.turns ? 64 : 0)) / perCol));
     const chip = (dir, correct) => `<span class="ws-numchip" data-lcs-arrow="${dir}"${correct ? ' data-lcs-correct=""' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:${rowH - 12}px;height:${rowH - 12}px;border:2px solid ${tokens.color.grid};border-radius:10px;background:#FFFFFF">${arrowSvg(dir, rowH - 22)}</span>`;
     const box = (ans, attrs = '') => `<span class="ws-answerbox" data-lcs-answer="${ans}" ${attrs} style="display:inline-block;width:${rowH}px;height:${rowH - 10}px;border:2.5px solid ${tokens.color.teal};border-radius:8px;background:#FFFFFF;font-size:${Math.round(rowH * 0.5)}px;text-align:center;line-height:${rowH - 14}px"></span>`;
-    const rows = maze.runs.map((r, i) => `<div data-lcs-run="${i + 1}" style="display:flex;align-items:center;gap:8px;height:${rowH}px">` +
+    const rowEls = maze.runs.map((r, i) => `<div data-lcs-run="${i + 1}" style="display:flex;align-items:center;gap:8px;height:${rowH}px">` +
       `<span style="width:20px;font:700 15px/1 'Baloo 2',cursive;color:${tokens.color.inkSoft}">${i + 1}.</span>` +
       (d.circle ? `<span data-lcs-choice="run-${i + 1}" style="display:flex;gap:6px">${DIRS.map((dir) => chip(dir, dir === r.dir)).join('')}</span>` : `<span data-lcs-arrow-given="${r.dir}" style="display:inline-flex;width:${rowH}px;justify-content:center">${arrowSvg(r.dir, rowH - 16)}</span>`) +
-      box(r.n, `data-lcs-run-count="${i + 1}"`) + `</div>`).join('');
-    const turns = d.turns ? `<div style="display:flex;align-items:center;gap:10px;margin-top:14px"><span data-lcs-turns-label="1" style="display:inline-flex">${turnIcon(Math.min(44, rowH - 8))}</span>${box(maze.runs.length - 1, 'data-lcs-turns="1"')}</div>` : '';
-    const body = `<div data-ws-content style="flex:1;display:flex;align-items:center;justify-content:space-around;gap:16px">${svg}<div data-lcs-runs="${maze.runs.length}" style="display:flex;flex-direction:column">${rows}${turns}</div></div>`;
+      box(r.n, `data-lcs-run-count="${i + 1}"`) + `</div>`);
+    const turns = d.turns ? `<div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px"><span data-lcs-turns-label="1" style="display:inline-flex">${turnIcon(Math.min(44, rowH - 8))}</span>${box(maze.runs.length - 1, 'data-lcs-turns="1"')}</div>` : '';
+    const col = (xs) => `<div style="display:flex;flex-direction:column">${xs.join('')}</div>`;
+    const table = `<div data-lcs-runs="${maze.runs.length}" style="display:flex;flex-direction:column;align-items:center"><div style="display:flex;gap:24px;align-items:flex-start">${col(rowEls.slice(0, perCol))}${col(rowEls.slice(perCol))}</div>${turns}</div>`;
+    const body = `<div data-ws-content style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:14px">${svg}${table}</div>`;
     return { bodyHtml: body, meta: { runs: maze.runs.map((r) => r.dir[0] + r.n).join(' ') } };
   },
 

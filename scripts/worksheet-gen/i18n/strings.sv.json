@@ -1684,7 +1684,7 @@
   },
   "G1-283": {
     "title": "Ordna orden utan ledtrådar",
-    "instruction": "Inga ledtrådar. Hitta den enda ordföljd som fungerar."
+    "instruction": "Inga ledtrådar. Hitta en ordföljd som fungerar."
   },
   "G2-281": {
     "title": "Punkt eller frågetecken?",

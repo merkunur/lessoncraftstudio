@@ -4020,7 +4020,7 @@
   },
   "K-517": {
     "title": "Repasse les nombres de 1 à 100",
-    "instruction": "Repasse les nombres en pointillés. Dans chaque case vide, écris le nombre qui va à cette place."
+    "instruction": "Repasse les nombres en pointillés. Dans chaque case vide, écris le nombre qui manque."
   },
   "K-518": {
     "title": "Comment on écrit les nombres",

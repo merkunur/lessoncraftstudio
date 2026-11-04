@@ -34,22 +34,27 @@ function makeSortBinsType(cfg) {
       const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
       const items = rng.shuffle(cats.flatMap((c) => Array.from({ length: d.perBin }, () => c)));
 
-      const itemPx = Math.min(72, Math.floor(600 / items.length) - 12);
+      // the page fills its body (2026-11-03, final-phase review: one row of small pictures over ~500 px of empty page):
+      // six pictures or more take two even rows, the pictures up to 100 px, a ~200 px line area, the bins grow below
+      const perRow = Math.ceil(items.length / (items.length >= 6 ? 2 : 1));
+      const itemPx = Math.min(100, Math.floor((600 - 14 * (perRow - 1)) / perRow) - 18);
+      const stripW = perRow * (itemPx + 18) + (perRow - 1) * 14;
       const strip = items.map((c) =>
         `<span class="ws-pattern-slot" style="width:${itemPx + 18}px;height:${itemPx + 18}px${key ? ';position:relative' : ''}" data-lcs-item="${c.vocabKey}"` +
         (scr ? ` data-lcs-drop="1" data-lcs-answer="${c.vocabKey}"` : '') + `>` + (key ? keyNumber(cats.indexOf(c) + 1) : '') +
         `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:${itemPx}px;height:${itemPx}px"></span>`).join('');
 
       const binBoxes = cats.map((c, k) =>
-        `<div class="ws-bin" data-lcs-bin="${c.vocabKey}"${slot.attr(ctx, 'bin', k)}>` + (key ? keyNumber(k + 1) : '') +
+        `<div class="ws-bin" style="height:auto" data-lcs-bin="${c.vocabKey}"${slot.attr(ctx, 'bin', k)}>` + (key ? keyNumber(k + 1) : '') +
         `<span class="ws-bin-label"><img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:44px;height:44px"></span>` +
         `</div>`).join('');
 
       return {
         bodyHtml:
-          `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;min-height:0;padding:8px 0">` +
-          `<div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap">${strip}</div>` +
-          `<div style="display:flex;justify-content:space-evenly;gap:20px">${binBoxes}</div>` +
+          `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start;min-height:0;padding:8px 0">` +
+          `<div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;max-width:${stripW}px;margin:0 auto">${strip}</div>` +
+          `<div style="flex:0 1 200px;min-height:110px"></div>` +
+          `<div style="flex:1 1 auto;display:flex;justify-content:space-evenly;align-items:stretch;gap:20px;padding-top:30px;min-height:200px;max-height:330px">${binBoxes}</div>` +
           `</div>`,
         meta: { bins: cats.map((c) => c.vocabKey), perBin: d.perBin },
       };

@@ -427,7 +427,7 @@ module.exports = {
       const html = cards.map((c, ci) => `<div class="ws-card"${slot.attr(ctx, 'pic', ci)} style="width:${p.cardW}px;height:${p.cardH}px;flex:0 0 auto;padding:8px;align-items:center;justify-content:space-between" ` +
         `data-lcs-word="${c.word}" data-lcs-vocab="${c.key}" data-lcs-graphemes="${JSON.stringify(c.graphemes).replace(/"/g, '&quot;')}" data-lcs-answer="${c.answer}">` +
         `<img class="ws-icon" src="${fileUri(c.theme, c.noun)}" alt="" data-lcs-pic="${c.key}" style="width:${p.iconPx}px;height:${p.iconPx}px;flex:0 0 auto">` +
-        letterChips({ a, b, px: p.chipPx }) + `</div>`).join('');
+        letterChips({ a, b, px: p.chipPx, ...(ctx && ctx.answerKey ? { ring: c.answer } : {}) }) + `</div>`).join('');   // the key rings the letter each picture begins with
       const rows = Math.ceil(p.cards / p.cols);
       zone2 = legend + `<div data-lcs-zone="pair" style="display:grid;grid-template-columns:repeat(${p.cols},${p.cardW}px);` +
         `grid-template-rows:repeat(${rows},${p.cardH}px);gap:${GAP}px;width:${COLUMN}px;justify-content:space-between">${html}</div>`;

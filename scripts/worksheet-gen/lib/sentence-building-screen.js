@@ -10,6 +10,7 @@
 const SB = require('./sentence-bank.js');
 const { vocab, displayWord } = require('./b2-common.js');
 const { seatAfter } = require('./key-on-row.js');
+const tokens = require('../primitives/_tokens.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660;
@@ -41,7 +42,7 @@ function screenOrKey(built, ctx, loc) {
       const w = Math.max(120, Math.min(300, Math.round(longest * 19 + 40)));
       const slots = ln.shown.map(() => `<span data-lcs-slot style="display:inline-block;width:${w}px;height:86px;border:3px dashed ${CORAL};border-radius:14px;box-sizing:border-box;background:#fff"></span>`).join('');
       const tiles = ln.order.map((idx) => `<span class="ws-achip" data-lcs-tile="${idx}" data-lcs-label="${esc(ln.shown[idx])}" style="min-width:${w}px;height:104px;box-sizing:border-box;font-size:28px;padding:0 14px">${esc(ln.shown[idx])}</span>`).join('');
-      return `<div data-lcs-item data-lcs-frame="${esc(ln.frame)}" data-lcs-noun="${esc(ln.noun)}" data-lcs-names="${esc(JSON.stringify(ln.names))}" data-lcs-rules="${rules}" data-lcs-word="${esc(ln.shown.join(''))}" data-ws-content ` +
+      return `<div data-lcs-item data-lcs-frame="${esc(ln.frame)}" data-lcs-noun="${esc(ln.noun)}" data-lcs-names="${esc(JSON.stringify(ln.names))}" data-lcs-rules="${rules}" data-lcs-word="${esc(ln.shown.join(''))}"${ln.alts && ln.alts.length ? ` data-lcs-alts="${esc(ln.alts.map((a) => a.join('')).join('|'))}"` : ''} data-ws-content ` +
         `style="display:flex;flex-direction:column;align-items:center;gap:14px;width:${SCR_W}px;padding:16px 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
         `<img class="ws-icon" src="${ln.src}" alt="" style="width:120px;height:120px;object-fit:contain">` +
         `<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center">${slots}</div>` +
@@ -52,9 +53,31 @@ function screenOrKey(built, ctx, loc) {
   }
   // answer key: each lane's sentence written in coral, SEATED on its own writing row (key-on-row.js)
   let html = out.bodyHtml;
-  for (const ln of m.lanes) html = seatAfter(html, `data-lcs-frame="${esc(ln.frame)}"`, ln.canonical, { fill: CORAL, font: 'nunito-700' });
+  for (const ln of m.lanes) {
+    const needle = `data-lcs-frame="${esc(ln.frame)}"`;
+    html = seatAfter(html, needle, ln.canonical, { fill: CORAL, font: 'nunito-700' });
+    // a no-clue lane whose tiles make other sentences too (the native word-order review): under its row, one small line
+    // "also right:" with each other order written as the sentence it is — never squeezed onto the row with the first
+    if (ln.altsWritten && ln.altsWritten.length) html = alsoAfter(html, needle, `${ALSO_RIGHT[loc] || ALSO_RIGHT.en} ${ln.altsWritten.join(' · ')}`);
+  }
   out.bodyHtml = html;
   return out;
+}
+
+/** The key's label for the other right orders of a no-clue lane (native-checked 2026-11-04). */
+const ALSO_RIGHT = {
+  en: 'Also right:', de: 'Auch richtig:', fr: 'Également juste :', es: 'También está bien:', pt: 'Também está certo:',
+  it: 'Va bene anche:', nl: 'Ook goed:', sv: 'Också rätt:', da: 'Også rigtigt:', no: 'Også riktig:', fi: 'Myös oikein:',
+};
+
+/** Insert a small coral line right after the item's own writing row (the key only). */
+function alsoAfter(html, needle, text) {
+  const at = html.indexOf(needle);
+  if (at < 0) throw new Error(`sentence key: no element "${needle.slice(0, 60)}"`);
+  const rel = html.slice(at).search(/<svg[^>]*data-lcs-prim="writing-row"/);
+  if (rel < 0) throw new Error(`sentence key: no writing row after "${needle.slice(0, 60)}"`);
+  const e = html.indexOf('</svg>', at + rel) + 6;
+  return html.slice(0, e) + `<div data-lcs-keyalso="1" style="margin-top:4px;font-family:${esc(tokens.font.body)};font-weight:700;font-size:14px;line-height:1.3;color:${CORAL}">${esc(text)}</div>` + html.slice(e);
 }
 
 /** The robot's truth per item: the sentence rebuilt from the merged bank, shown as the level shows it (a word list). */

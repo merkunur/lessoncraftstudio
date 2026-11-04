@@ -34,7 +34,8 @@ const { manifest, labelSafeNouns } = require('../image-cache/resolve.js');
 const { nameRefused, REFUSED, NAME_ONLY } = require('../lib/picture-name-refusals.js');
 // a drawing refused in one theme is the same drawing in the others: a name task refuses the NOUN
 // chart pictures a child names otherwise when no word stands beside them (a narwhal is "Wal", a hen "chicken" / "kip")
-const UNAIDED_KEYS = new Set(['narwhal', 'hen']);
+// ONE list, the chart's own (2026-11-03: this file kept a copy that missed wolf and goose)
+const { UNAIDED_KEYS, SOUND_NAME_RISK } = require('../types/_shared/alphabet-more.js');
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
 const refusedPic = (theme, noun) => nameRefused(theme, noun) || REFUSED_NOUNS.has(noun);
 const LP = require('../data/alphabet/letter-pictures.json').letters;
@@ -141,9 +142,11 @@ function build() {
         // en s is said z after a voiced sound (cards, jeans, stairs): only -us and s after a voiceless t k p f are kept
         && !(loc === 'en' && last === 's' && !/^(u|t|k|ck|p|f|ff)$/.test(flat[flat.length - 2] || ''));
       // a K word: one or two syllables, met once
-      if (endOk && rows.length <= 2 && !seenE.has(word) && !(REJECT.ending[loc] || []).includes(word) && seenE.add(word)) end.push({ theme: p.theme, noun: p.noun, key, word, answer: last, reviewed: !!p.reviewed });
+      // a picture a child names with another word that ends / sounds otherwise (data/literacy/sound-name-risk.json)
+      const riskE = ((SOUND_NAME_RISK.ending || {})[loc] || {})[key] != null, riskM = ((SOUND_NAME_RISK.middle || {})[loc] || {})[key] != null || UNAIDED_KEYS.has(key);
+      if (endOk && !riskE && !UNAIDED_KEYS.has(key) && rows.length <= 2 && !seenE.has(word) && !(REJECT.ending[loc] || []).includes(word) && seenE.add(word)) end.push({ theme: p.theme, noun: p.noun, key, word, answer: last, reviewed: !!p.reviewed });
       const cvc = rows.length === 1 && flat.length === 3 && isV(flat[1]) && !isV(flat[0]) && !isV(flat[2]) && (loc !== 'en' || enMiddleOk(flat)) && nordicMiddleOk(flat, loc);
-      if (cvc && !MIDDLE_REFUSED.has(loc) && !seenM.has(word) && !(REJECT.middle[loc] || []).includes(word) && seenM.add(word)) mid.push({ theme: p.theme, noun: p.noun, key, word, answer: flat[1] });
+      if (cvc && !riskM && !MIDDLE_REFUSED.has(loc) && !seenM.has(word) && !(REJECT.middle[loc] || []).includes(word) && seenM.add(word)) mid.push({ theme: p.theme, noun: p.noun, key, word, answer: flat[1] });
     }
     // at most 8 words per ending letter — a reviewed picture first, then the shorter word (a bank a reviewer reads whole)
     const byEnd = new Map();

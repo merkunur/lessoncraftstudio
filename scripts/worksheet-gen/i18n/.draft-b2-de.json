@@ -151,7 +151,7 @@
   "wordClasses": {
     "terms": {"noun": "Nomen", "verb": "Verben", "adj": "Adjektive"},
     "chipCase": "keep",
-    "chipCaseD3": "lower",
+    "chipCaseD3": "upper",
     "verbs": [
       {"w": "laufen", "tier": 1}, {"w": "springen", "tier": 1}, {"w": "schlafen", "tier": 1}, {"w": "essen", "tier": 1}, {"w": "singen", "tier": 1}, {"w": "lesen", "tier": 1},
       {"w": "schwimmen", "tier": 1}, {"w": "spielen", "tier": 1}, {"w": "hüpfen", "tier": 1}, {"w": "sitzen", "tier": 1}, {"w": "klettern", "tier": 2}, {"w": "lachen", "tier": 2},

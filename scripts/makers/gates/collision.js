@@ -55,7 +55,7 @@ const EXEMPT = [
   ['.ss-tag svg', '.ss-tag .ws-blankbox', 'the number box is printed on its tag (story sequencing, number the pictures)'],
   ['[data-lcs-cw-cell] .ws-answerbox', '[data-lcs-cw-cell] span', "a crossword cell prints its clue number in its corner, and neighbouring cells share one border line, by design"],
   ['svg[data-lcs-brick]', '*', 'a wall brick / stone carries its word or its writing line: printed on the brick by design (word parts, root words)'],
-  ['[data-lcs-scene-prep="in"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on top of"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on"] svg[data-lcs-prim="pos-scene"]', '[data-lcs-scene-prep] img', 'the picture is IN / ON the shape: that overlap is the position word (Where Is It, Read and Draw)'],
+  ['[data-lcs-scene-prep="in"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on top of"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="on"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="behind"] svg[data-lcs-prim="pos-scene"], [data-lcs-scene-prep="in front of"] svg[data-lcs-prim="pos-scene"]', '[data-lcs-scene-prep] img', 'the picture is IN / ON the shape, half hidden BEHIND it or IN FRONT of it: that overlap is the position word (Where Is It, Read and Draw, Choose the Position Word)'],
   ['[data-lcs-relation="on"] svg', '[data-lcs-relation="on"] img', 'the picture ON the crate rests on it: their contact is the position word (on / under)'],
   ['svg[data-lcs-prim="writing-row"], svg[data-lcs-prim="school-ruling"]', '*', 'a letter, word, model or answer box is written ON its lines: the line meets it (the 1.5-px stroke) — a contact only', 2],
   ['.ws-countbadge', 'img', 'a number badge meets the corner of a picture beside it — a contact only', 2],
@@ -202,6 +202,15 @@ function collide({ tol, exempt }) {
   }
   // an entry with a 4th value exempts only a CONTACT that thin (px, the smaller overlap side): a deeper overlap still fails
   const isEx = (a, b, ix, iy) => exempt.some(([sa, sb, thin]) => ((a.el.matches(sa) && b.el.matches(sb)) || (a.el.matches(sb) && b.el.matches(sa))) && (thin == null || Math.min(ix, iy) <= thin));
+  // a picture's OWN ground shadow (the scene stage, G2-278): a flat ellipse centred under the picture, at its feet — its
+  // rim meets the picture's ink box by design. A shadow anywhere else on a picture (a neighbour's, over its body) still fails.
+  const ownShadow = (s, im) => {
+    if (s.kind !== 'svg' || !s.shape || s.shape.g.tagName.toLowerCase() !== 'ellipse' || im.kind !== 'img') return false;
+    const e = s.shape.g.getBoundingClientRect(), b = im.el.getBoundingClientRect();
+    if (!(e.height < 0.35 * e.width)) return false;
+    const ecx = (e.left + e.right) / 2, ecy = (e.top + e.bottom) / 2;
+    return Math.abs(ecx - (b.left + b.right) / 2) <= 0.1 * b.width && ecy >= b.bottom - 0.15 * b.height && ecy <= b.bottom + 6 && e.width <= b.width;
+  };
   const hits = [];
   const name = (c) => c.kind + ':' + c.tag + (c.cls ? '.' + c.cls.split(/\s+/)[0] : '');
   for (let i = 0; i < cand.length; i++) for (let j = i + 1; j < cand.length; j++) {
@@ -210,6 +219,7 @@ function collide({ tol, exempt }) {
     const ix = Math.min(a.r.r, b.r.r) - Math.max(a.r.l, b.r.l), iy = Math.min(a.r.b, b.r.b) - Math.max(a.r.t, b.r.t);
     if (ix <= tol || iy <= tol) continue;
     if (isEx(a, b, ix, iy)) continue;
+    if (ownShadow(a, b) || ownShadow(b, a)) continue;
     if ((a.shape || b.shape) && !shapesMeet(a, b, { l: Math.max(a.r.l, b.r.l), t: Math.max(a.r.t, b.r.t), r: Math.min(a.r.r, b.r.r), b: Math.min(a.r.b, b.r.b) })) continue;
     hits.push({ a: name(a), b: name(b), ix: Math.round(ix * 10) / 10, iy: Math.round(iy * 10) / 10, ta: (a.text || a.el.textContent || '').trim().slice(0, 20), tb: (b.text || b.el.textContent || '').trim().slice(0, 20), at: { x: Math.round(Math.max(a.r.l, b.r.l)), y: Math.round(Math.max(a.r.t, b.r.t)) } });
   }
@@ -302,6 +312,14 @@ const ONE_ITEM = { 'K-476': [1] };
     const triHit = (r) => r.hits.some((h) => [h.a, h.b].some((x) => /ws-poisontri/.test(x)) && [h.a, h.b].some((x) => /ws-card-badge/.test(x)) && h.ix < 25);
     if (triHit(await run(tri(2, 2)))) fail("poison 6: a badge over a triangle's EMPTY corner was counted as a collision");
     if (!triHit(await run(tri(76, 76)))) fail("poison 6: a badge over a triangle's FILLED corner PASSED");
+    // (7) a picture's own ground shadow: a flat ellipse at its feet passes (it overlaps the ink box by design); the same
+    // ellipse over the picture's body fails (the scene stage, G2-278, 2026-11-04)
+    const shadow = (cy) => base.html.replace(card1, card1 + `<div style="position:relative;width:120px;height:120px">` +
+      `<svg class="ws-poisonshadow" style="position:absolute;left:0;top:0" width="120" height="120"><ellipse cx="50" cy="${cy}" rx="42" ry="9" fill="#146B5E"/></svg>` +
+      `<img class="ws-poisonimg" src="${src}" alt="" style="position:absolute;left:0;top:0;width:100px;height:100px"></div>`);
+    const shadowHit = (r) => r.hits.some((h) => [h.a, h.b].some((x) => /ws-poisonimg/.test(x)) && [h.a, h.b].some((x) => /ws-poisonshadow/.test(x)));
+    if (shadowHit(await run(shadow(88)))) fail("poison 7: a picture's own ground shadow at its feet was counted as a collision");
+    if (!shadowHit(await run(shadow(50)))) fail("poison 7: a shadow ellipse over a picture's body PASSED");
   }
 
   await m.close();

@@ -244,12 +244,22 @@ function miniFactFile({ rows, w, rowH = 20, labelW = 160, labelPx = 14, valuePx 
   if (!Array.isArray(rows) || !rows.length) throw new Error('miniFactFile: no rows');
   const rule = `1px solid ${T.grid}`;
   const labLine = Math.min(labelPx + 4, rowH - 2), valLine = Math.min(valuePx + 4, rowH - 2);   // the 1-px rule sits inside rowH
+  // a value too wide for its column on one line (fr «plantes, viande» beside the long «Ce qui couvre son corps» label,
+  // 2026-11-04) wraps onto two 13-px lines; one that cannot fit even so is a refusal, never an overflow
+  const room = w - labelW - 20 - 2 * border, em = 0.56;
+  const fit = (v) => {
+    const n = [...String(v)].length;
+    if (n * valuePx * em <= room) return `font-size:${valuePx}px;line-height:${valLine}px;white-space:nowrap`;
+    const longest = Math.max(...String(v).split(/ +/).map((x) => [...x].length));
+    if (rowH < 2 * 15 + 2 || longest * 13 * em > room || n * 13 * em > 2 * room) throw new Error(`miniFactFile: "${v}" does not fit a ${room}-px value column`);
+    return 'font-size:13px;line-height:15px;white-space:normal';
+  };
   const cells = rows.map((r, i) => {
     const top = i ? `border-top:${rule};` : '';
     const factAttr = (r.fact !== null && r.fact !== undefined) ? ` data-lcs-fact-${esc(r.key)}="${esc(String(r.fact))}"` : '';
     return `<div data-lcs-mini-row data-lcs-field="${esc(r.key)}" data-lcs-value="${esc(r.value)}"${factAttr} style="display:contents">` +
       `<div data-lcs-mini-label style="${top}background:${T.tealSoft};padding:0 8px;display:flex;align-items:center;min-width:0;min-height:0"><span data-lcs-label-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${labelPx}px;line-height:${labLine}px;color:${T.inkSoft};white-space:nowrap">${esc(r.label)}</span></div>` +
-      `<div data-lcs-mini-value style="${top}padding:0 10px;display:flex;align-items:center;min-width:0;min-height:0"><span data-lcs-printed style="font-family:${F.body},sans-serif;font-weight:800;font-size:${valuePx}px;line-height:${valLine}px;color:${T.ink};white-space:nowrap">${esc(r.value)}</span></div></div>`;
+      `<div data-lcs-mini-value style="${top}padding:0 10px;display:flex;align-items:center;min-width:0;min-height:0"><span data-lcs-printed style="font-family:${F.body},sans-serif;font-weight:800;${fit(r.value)};color:${T.ink}">${esc(r.value)}</span></div></div>`;
   });
   return `<div data-lcs-mini data-lcs-rows="${rows.length}" style="width:${w}px;display:grid;grid-template-columns:${labelW}px 1fr;grid-auto-rows:${rowH}px;` +
     `background:${T.white};border:${border}px solid ${T.teal};border-radius:12px;overflow:hidden;min-height:0">${cells.join('')}</div>`;

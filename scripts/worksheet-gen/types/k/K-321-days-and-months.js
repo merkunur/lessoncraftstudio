@@ -355,7 +355,7 @@ module.exports = {
     const bodyHtml = `<div class="ws-neighbours" data-ws-content data-lcs-layout="neighbours" data-lcs-unit="${d.unit}" data-lcs-weekstart="${start}" data-lcs-n="${N}" ` +
       `data-lcs-rows="${rows}" data-lcs-wrap="${d.wrap ? 1 : 0}" data-lcs-inverse="${inverse}" data-lcs-heads="${d.heads === 'beforeAfter' ? 'beforeAfter' : 'ytt'}" ` +
       // a strip page (the easier level, fewer rows) starts at the top with taller rows; the published grid is unchanged
-      `style="display:grid;grid-template-rows:${d.strip ? 'auto 30px repeat(' + rows + ',minmax(104px,124px))' : '30px repeat(' + rows + ',minmax(92px,110px))'};row-gap:${d.strip ? 14 : 8}px;align-content:${d.strip ? 'start' : 'center'};flex:1 1 auto;min-height:0;padding-bottom:6px">` +
+      `style="display:grid;grid-template-rows:${d.strip ? 'auto 30px repeat(' + rows + ',minmax(104px,' + (rows <= 3 ? 190 : 124) + 'px))' : '30px repeat(' + rows + ',minmax(92px,110px))'};row-gap:${d.strip ? 14 : 8}px;align-content:${d.strip ? 'start' : 'center'};flex:1 1 auto;min-height:0;padding-bottom:6px">` +
       stripHtml + neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right }) + rowsHtml + '</div>';
     return { bodyHtml, meta: { layout: 'neighbours', unit: d.unit, todays, inverse: [...invRows], answers: todays.map((t) => [(t - 1 + N) % N, (t + 1) % N]) },
       _ans: { layout: 'neighbours', unit: d.unit, start, N, texts, heads, rows: todays.map((t, i) => ({ t, inverse: invRows.has(i) })), strip: !!d.strip } };

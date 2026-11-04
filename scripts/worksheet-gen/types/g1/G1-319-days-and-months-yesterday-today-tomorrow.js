@@ -10,7 +10,8 @@ module.exports = {
   slug: 'days-and-months-yesterday-today-tomorrow',
   // Level Set 2026-10-06: real easier / harder levels (level 1 = three rows, no wrap, the week printed on top; level 3 = in three of the six rows TODAY is missing); level 2 = the published config
   interactive: require('../../lib/days-and-months-screen.js').interactiveFor('neighbours'),
-  difficulty: { 1: { ...D, rows: 3, wrap: false, strip: true }, 2: D, 3: { ...D, inverse: 3 } },
+  // level 1: three rows on bigger writing lines (2026-11-03: the page stopped two thirds down)
+  difficulty: { 1: { ...D, rows: 3, wrap: false, strip: true, glyphH: 40 }, 2: D, 3: { ...D, inverse: 3 } },
   i18n: { en: { title: "Yesterday, Today, Tomorrow", instruction: "The day in the middle is today. Write the day that was yesterday and the day that will be tomorrow." } },
   gradeBand: "G1",
 };

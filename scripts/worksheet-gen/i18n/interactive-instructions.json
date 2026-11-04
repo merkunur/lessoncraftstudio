@@ -1555,7 +1555,7 @@
       "nl": "Tik voor elk leeg vak in de week de dag aan die ontbreekt.",
       "sv": "Tryck på dagen som fattas i varje tom ruta i veckan.",
       "da": "Tryk på den dag, der mangler, i hvert tomt felt i ugen.",
-      "no": "Trykk på dagen som mangler, i hver tomme rute i uka.",
+      "no": "Trykk på dagen som mangler, i hver tom rute i uka.",
       "fi": "Napauta puuttuvaa päivää jokaiseen viikon tyhjään kohtaan."
     },
     "neighbours": {
@@ -2420,7 +2420,7 @@
       "nl": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
       "sv": "Tryck på varje tomt ställe i den nedre bilden där något från den övre bilden saknas.",
       "da": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler.",
-      "no": "Trykk på hvert tomme sted i det nederste bildet der noe fra det øverste bildet mangler.",
+      "no": "Trykk på hvert tomt sted i det nederste bildet der noe fra det øverste bildet mangler.",
       "fi": "Napauta alemmasta kuvasta jokaista tyhjää kohtaa, josta puuttuu jotain ylemmästä kuvasta."
     },
     "fd-tapPairs": {

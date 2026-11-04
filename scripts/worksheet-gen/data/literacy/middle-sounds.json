@@ -127,34 +127,6 @@
     "key": "pig",
     "word": "pig",
     "answer": "i"
-   },
-   {
-    "theme": "around the house",
-    "noun": "pot",
-    "key": "pot",
-    "word": "pot",
-    "answer": "o"
-   },
-   {
-    "theme": "around the house",
-    "noun": "rug",
-    "key": "rug",
-    "word": "rug",
-    "answer": "u"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "ship",
-    "key": "ship",
-    "word": "ship",
-    "answer": "i"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "van",
-    "key": "van",
-    "word": "van",
-    "answer": "a"
    }
   ],
   "de": [
@@ -220,13 +192,6 @@
     "key": "foot",
     "word": "Fuß",
     "answer": "u"
-   },
-   {
-    "theme": "around the house",
-    "noun": "gate",
-    "key": "gate",
-    "word": "Tor",
-    "answer": "o"
    },
    {
     "theme": "accessories",
@@ -299,13 +264,6 @@
     "answer": "i"
    },
    {
-    "theme": "toys",
-    "noun": "train",
-    "key": "train",
-    "word": "Zug",
-    "answer": "u"
-   },
-   {
     "theme": "animals",
     "noun": "whale",
     "key": "whale",
@@ -336,25 +294,11 @@
     "answer": "e"
    },
    {
-    "theme": "christmas",
-    "noun": "bell",
-    "key": "bell",
-    "word": "bel",
-    "answer": "e"
-   },
-   {
     "theme": "furniture",
     "noun": "bench",
     "key": "bench",
     "word": "bank",
     "answer": "a"
-   },
-   {
-    "theme": "around the house",
-    "noun": "bowl",
-    "key": "bowl",
-    "word": "kom",
-    "answer": "o"
    },
    {
     "theme": "vehicles",
@@ -369,13 +313,6 @@
     "key": "cap",
     "word": "pet",
     "answer": "e"
-   },
-   {
-    "theme": "animals",
-    "noun": "cat",
-    "key": "cat",
-    "word": "kat",
-    "answer": "a"
    },
    {
     "theme": "birds 2",
@@ -462,13 +399,6 @@
     "answer": "u"
    },
    {
-    "theme": "kitchen tools",
-    "noun": "mug",
-    "key": "mug",
-    "word": "mok",
-    "answer": "o"
-   },
-   {
     "theme": "around the house",
     "noun": "pan",
     "key": "pan",
@@ -502,20 +432,6 @@
     "key": "sack",
     "word": "zak",
     "answer": "a"
-   },
-   {
-    "theme": "vehicles",
-    "noun": "ship",
-    "key": "ship",
-    "word": "schip",
-    "answer": "i"
-   },
-   {
-    "theme": "around the house",
-    "noun": "shovel",
-    "key": "shovel",
-    "word": "schop",
-    "answer": "o"
    },
    {
     "theme": "clothing",
@@ -553,13 +469,6 @@
     "key": "book",
     "word": "bok",
     "answer": "o"
-   },
-   {
-    "theme": "farm animals",
-    "noun": "bull",
-    "key": "bull",
-    "word": "tjur",
-    "answer": "u"
    },
    {
     "theme": "vehicles",
@@ -646,13 +555,6 @@
     "answer": "e"
    },
    {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "å"
-   },
-   {
     "theme": "accessories",
     "noun": "hat",
     "key": "hat",
@@ -665,13 +567,6 @@
     "key": "house",
     "word": "hus",
     "answer": "u"
-   },
-   {
-    "theme": "miscellaneous",
-    "noun": "leaf",
-    "key": "leaf",
-    "word": "löv",
-    "answer": "ö"
    },
    {
     "theme": "body parts",
@@ -706,13 +601,6 @@
     "noun": "mouth",
     "key": "mouth",
     "word": "mun",
-    "answer": "u"
-   },
-   {
-    "theme": "kitchen tools",
-    "noun": "mug",
-    "key": "mug",
-    "word": "mugg",
     "answer": "u"
    },
    {
@@ -784,13 +672,6 @@
     "key": "skirt",
     "word": "kjol",
     "answer": "o"
-   },
-   {
-    "theme": "furniture",
-    "noun": "stool",
-    "key": "stool",
-    "word": "pall",
-    "answer": "a"
    },
    {
     "theme": "beach",
@@ -877,13 +758,6 @@
     "key": "glue",
     "word": "lim",
     "answer": "i"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "å"
    },
    {
     "theme": "miscellaneous",
@@ -1040,13 +914,6 @@
     "key": "glue",
     "word": "lim",
     "answer": "i"
-   },
-   {
-    "theme": "Things That Fly",
-    "noun": "goose",
-    "key": "goose",
-    "word": "gås",
-    "answer": "å"
    },
    {
     "theme": "accessories",

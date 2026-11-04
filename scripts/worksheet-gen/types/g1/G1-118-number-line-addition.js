@@ -40,9 +40,12 @@ module.exports = {
     if (d.v2) rows = NLT.buildRowsV2('add', d, rng, args.locale);
     else {
       rows = [];
-      for (let i = 0; i < d.rows; i++) {
+      // a new copy (not the published page) never asks one sum twice (2026-11-03: "8 + 5" on two rows of one page)
+      const pub = !(ctx.seedVariant > 1) && Number(ctx.variant || 1) === 1;
+      for (let i = 0, redraw = 0; i < d.rows; i++) {
         const a = rng.int(0, d.lineMax - 2);
         const b = rng.int(1, Math.min(6, d.lineMax - a));   // ≤6 hops stay readable
+        if (!pub && redraw < 40 && rows.some((r) => r.a === a && r.b === b)) { i--; redraw++; continue; }
         rows.push({ a, b, to: a + b, line: { min: 0, max: d.lineMax, labelEvery: d.lineMax > 10 ? 2 : 1, width: 540, jumps: [{ from: a, to: a + b }], marks: [a] } });
       }
     }

@@ -713,7 +713,7 @@ const TYPE = {
   unitAxis: { applicable: false },
   difficulty: {
     1: { mode: 'base', walls: 2, perWall: 3, rootPic: 'auto', memberKinds: ['derived'],   // Level Set: 'auto' — most banks' families carry no picture (d1 never shipped)
-    bankPx: 20, bankRowsMax: 2, courseH: 64, courseMaxH: 84, glyphH: 30, wallW: 330, maxGlyphs: 10 },   // Level Set: short words on the easiest level
+    bankPx: 20, bankRowsMax: 2, courseH: 96, courseMaxH: 132, glyphH: 34, wallW: 330, maxGlyphs: 10 },   // taller courses (2026-11-03: three 84 px courses left the bottom third blank)   // Level Set: short words on the easiest level
     2: { mode: 'base', walls: 2, perWall: 5, rootPic: 'auto', memberKinds: ['derived', 'prefixed', 'compound'], bankPx: 20, bankRowsMax: 3, courseH: 60, courseMaxH: 76, glyphH: 28, wallW: 330, maxGlyphs: 18 },
     3: { mode: 'base', walls: 3, perWall: 4, rootPic: 'neither', memberKinds: ['derived', 'prefixed', 'compound'], bankPx: 18, bankRowsMax: 3, courseH: 56, courseMaxH: 72, glyphH: 26, wallW: 215, maxGlyphs: 18 },
   },

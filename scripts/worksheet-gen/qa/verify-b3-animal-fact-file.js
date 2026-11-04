@@ -634,7 +634,9 @@ function assertFace(face, name, r, bank, table, { key, theme = THEME, squeezed =
         ok(len(t.word) <= 9, `${name}: tile name "${t.word}" > 9 letters`);
       }
       const ks = m.tiles.list.map((t) => t.key);
-      for (let i = 0; i < ks.length; i++) for (let j = i + 1; j < ks.length; j++) ok(table.fields.some((f) => table.animals[ks[i]][f] !== table.animals[ks[j]][f]), `${name}: ${ks[i]} and ${ks[j]} share every table field`);
+      // a null fact rules nothing out: two bank animals must differ in a field KNOWN for both (2026-11-04)
+      const kn = (k, f) => table.animals[k][f] !== null && table.animals[k][f] !== undefined;
+      for (let i = 0; i < ks.length; i++) for (let j = i + 1; j < ks.length; j++) ok(table.fields.some((f) => kn(ks[i], f) && kn(ks[j], f) && table.animals[ks[i]][f] !== table.animals[ks[j]][f]), `${name}: ${ks[i]} and ${ks[j]} differ in no known table field`);
       ok(m.cards.length === +m.stamps.lcsPuzzles, `${name}: ${m.cards.length} cards`);
       const answers = new Set();
       for (const c of m.cards) {
@@ -649,7 +651,7 @@ function assertFace(face, name, r, bank, table, { key, theme = THEME, squeezed =
           ok(cl.text === clueOf(bank, f, val), `${name}: card ${c.n} clue "${cl.text}" ≠ bank "${clueOf(bank, f, val)}"`);
           if (cl.text === clueOf(bank, f, val)) checked++;
         }
-        const survivors = ks.filter((k) => c.clues.every((cl) => { const [f, v] = cl.stamp.split('='); return String(table.animals[k][f]) === v; }));
+        const survivors = ks.filter((k) => c.clues.every((cl) => { const [f, v] = cl.stamp.split('='); return String(table.animals[k][f]) === v || !kn(k, f); }));
         ok(survivors.length === 1 && survivors[0] === c.answer, `${name}: card ${c.n} the table leaves [${survivors.join(',')}] for the clues, answer ${c.answer}`);
         ok(!!c.draw && c.draw.w >= 100 && c.draw.h >= 100, `${name}: card ${c.n} draw box`);
       }
@@ -756,7 +758,7 @@ async function runFaces(page, en) {
     refuse('tick', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on tick');
     refuse('bank', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on bank');
     refuse('frames', { unit: 'blank' }, null, /no blank unit/, 'the blank unit on frames');
-    for (const face of ['tick', 'bank', 'frames']) refuse(face, { unit: 'turtle' }, null, /not 7\/7/, `turtle (null covering/habitat) on ${face}`);
+    for (const face of ['tick', 'bank', 'frames']) refuse(face, { unit: 'turtle' }, null, /no fact for a printed field/, `turtle (null covering/habitat) on ${face}`);
     refuse('compare', { theme: 'fruits' }, null, /not an animal theme/, 'a fruit theme on compare');
     refuse('mystery', { theme: 'animals bw' }, null, /B&W/, 'a B&W theme on mystery');
     refuse('mystery', {}, { bankNameMax: 3 }, /names <= 3 letters < bank/, 'a bank cap no forest name fits');

@@ -11,7 +11,8 @@ module.exports = {
   slug: 'syllable-reading-read-the-syllabified-words',
   // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config) + the screen version
   interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('syllabified'),
-  difficulty: { 1: { ...D, lines: 4, distractors: 1, maxCount: 2, minThree: 0 }, 2: D, 3: { ...D, lines: 7, distractors: 3, maxCount: 4, minThree: 2, rowH: 80 } },
+  // level 1 (4 lines) on bigger rows (2026-11-03: four 92 px rows left the bottom third of the page blank)
+  difficulty: { 1: { ...D, lines: 4, distractors: 1, maxCount: 2, minThree: 0, rowH: 146, wordFont: 36 }, 2: D, 3: { ...D, lines: 7, distractors: 3, maxCount: 4, minThree: 2, rowH: 80 } },
   i18n: { en: { title: "Read the Syllables, Find the Picture", instruction: "Read each word syllable by syllable. Find its picture in the bank at the top and write the picture's number in the box." } },
   unitAxis: {"applicable":false},
 };

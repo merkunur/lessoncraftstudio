@@ -1,0 +1,9858 @@
+{
+ "_note": "Unscramble frames whose tiles make MORE THAN ONE grammatical order (2026-11-03 native review; COMPLETED 2026-11-04 by an all-orders review that adds fronted objects/predicates, stranded particles, Finnish OVS/OSV, Spanish VOS questions …). animal = the frame filled with an animal noun, thing = with a thing; \" / \"-separated, every other grammatical order of the same tiles. Read by the unscramble types (G1-249 family): a page uses first the frames whose other orders the clues it shows rule out, then (no-clue pages) frames whose other orders the screen accepts and the key lists.",
+ "en": {
+  "s1": {
+   "animal": "the box is next to the panda / is the panda next to the box / is the box next to the panda / next to the box is the panda / next to the panda is the box",
+   "thing": "the box is next to the ball / is the ball next to the box / is the box next to the ball / next to the box is the ball / next to the ball is the box",
+   "animalTypes": [
+    "S",
+    "Q",
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "Q",
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     0,
+     6,
+     2,
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     2,
+     0,
+     6,
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     6,
+     2,
+     5,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2,
+     5,
+     6
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     6,
+     2,
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     2,
+     0,
+     6,
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     6,
+     2,
+     5,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2,
+     5,
+     6
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "the panda found mia",
+   "thing": null,
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "can i see two pandas",
+   "thing": "can i see two balls",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ]
+  },
+  "s5": {
+   "animal": null,
+   "thing": null
+  },
+  "s6": {
+   "animal": "is the panda in the box / in the box is the panda",
+   "thing": "is the ball in the box / in the box is the ball",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     0,
+     5,
+     2,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     0,
+     5,
+     2,
+     4,
+     1
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "you can find the panda",
+   "thing": "you can find the ball",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "are the pandas so big",
+   "thing": "are the balls so big",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ]
+   ]
+  },
+  "s11": {
+   "animal": "this is your panda",
+   "thing": "this is your ball",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "is my panda very small",
+   "thing": "is my ball very small",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ]
+   ]
+  },
+  "s15": {
+   "animal": "the little panda likes mia / little mia likes the panda / the panda likes little mia",
+   "thing": "little mia likes the ball",
+   "animalTypes": [
+    "S",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ],
+    [
+     3,
+     0,
+     1,
+     2,
+     4
+    ],
+    [
+     2,
+     4,
+     1,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     0,
+     1,
+     2,
+     4
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u2": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u3": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u4": {
+   "animal": "little mia has two pandas",
+   "thing": "little mia has two balls",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     0,
+     1,
+     2,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     0,
+     1,
+     2,
+     4
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u6": {
+   "animal": "three tiny pandas found mia",
+   "thing": null,
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u8": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u9": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u10": {
+   "animal": "my little brother has two pandas",
+   "thing": "my little brother has two balls",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u12": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u13": {
+   "animal": "three tiny pandas found my sister / my tiny sister found three pandas / three pandas found my tiny sister",
+   "thing": "my tiny sister found three balls",
+   "animalTypes": [
+    "S",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u16": {
+   "animal": null,
+   "thing": null
+  }
+ },
+ "de": {
+  "s1": {
+   "animal": "sind die pandas sehr klein / sehr klein sind die pandas",
+   "thing": "sind die bälle sehr klein / sehr klein sind die bälle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "zählt emma die pandas / die pandas zählt emma",
+   "thing": "zählt emma die bälle / die bälle zählt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "sieht emma zwei pandas / zwei pandas sieht emma",
+   "thing": "sieht emma zwei bälle / zwei bälle sieht emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "hat emma drei pandas / drei pandas hat emma",
+   "thing": "hat emma drei bälle / drei bälle hat emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "du siehst die pandas / die pandas siehst du",
+   "thing": "du siehst die bälle / die bälle siehst du",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "sind die pandas bunt / bunt sind die pandas",
+   "thing": "sind die bälle bunt / bunt sind die bälle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s11": {
+   "animal": "das sind deine pandas / deine pandas sind das",
+   "thing": "das sind deine bälle / deine bälle sind das",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "sind meine pandas ganz neu / ganz neu sind meine pandas",
+   "thing": "sind meine bälle ganz neu / ganz neu sind meine bälle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s14": {
+   "animal": "mag emma die kleinen pandas / die kleinen pandas mag emma",
+   "thing": "mag emma die kleinen bälle / die kleinen bälle mag emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "s16": {
+   "animal": "sucht emma die pandas / die pandas sucht emma",
+   "thing": "sucht emma die bälle / die bälle sucht emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": "malt emma pandas / pandas malt emma",
+   "thing": "malt emma bälle / bälle malt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "zählt emma pandas / pandas zählt emma",
+   "thing": "zählt emma bälle / bälle zählt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "mag emma pandas / pandas mag emma",
+   "thing": "mag emma bälle / bälle mag emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "hat emma zwei kleine pandas / zwei kleine pandas hat emma",
+   "thing": "hat emma zwei kleine bälle / zwei kleine bälle hat emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "sieht emma drei große pandas / drei große pandas sieht emma",
+   "thing": "sieht emma drei große bälle / drei große bälle sieht emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "zählt unsere lehrerin die pandas / die pandas zählt unsere lehrerin",
+   "thing": "zählt unsere lehrerin die bälle / die bälle zählt unsere lehrerin",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "malt mein bruder vier pandas / vier pandas malt mein bruder",
+   "thing": "malt mein bruder vier bälle / vier bälle malt mein bruder",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "findet emma drei kleine pandas / drei kleine pandas findet emma",
+   "thing": "findet emma drei kleine bälle / drei kleine bälle findet emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "möchte emma drei kleine pandas malen / drei kleine pandas möchte emma malen",
+   "thing": "möchte emma drei kleine bälle malen / drei kleine bälle möchte emma malen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "hat mein bruder zwei kleine pandas / zwei kleine pandas hat mein bruder",
+   "thing": "hat mein bruder zwei kleine bälle / zwei kleine bälle hat mein bruder",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "zählt unsere lehrerin alle pandas / alle pandas zählt unsere lehrerin",
+   "thing": "zählt unsere lehrerin alle bälle / alle bälle zählt unsere lehrerin",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "findet meine schwester drei winzige pandas / drei winzige pandas findet meine schwester / meine winzige schwester findet drei pandas / findet meine winzige schwester drei pandas / drei pandas findet meine winzige schwester",
+   "thing": "findet meine schwester drei winzige bälle / drei winzige bälle findet meine schwester / meine winzige schwester findet drei bälle / findet meine winzige schwester drei bälle / drei bälle findet meine winzige schwester",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "kauft mein opa zwei große pandas / zwei große pandas kauft mein opa",
+   "thing": "kauft mein opa zwei große bälle / zwei große bälle kauft mein opa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "will emma fünf kleine pandas zählen / fünf kleine pandas will emma zählen",
+   "thing": "will emma fünf kleine bälle zählen / fünf kleine bälle will emma zählen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "malt emma zwei sehr große pandas / zwei sehr große pandas malt emma",
+   "thing": "malt emma zwei sehr große bälle / zwei sehr große bälle malt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "zeigt mir mein papa drei schöne pandas / zeigt mein papa mir drei schöne pandas / mir zeigt mein papa drei schöne pandas / drei schöne pandas zeigt mir mein papa / drei schöne pandas zeigt mein papa mir",
+   "thing": "zeigt mir mein papa drei schöne bälle / zeigt mein papa mir drei schöne bälle / mir zeigt mein papa drei schöne bälle / drei schöne bälle zeigt mir mein papa / drei schöne bälle zeigt mein papa mir",
+   "animalTypes": [
+    "Q",
+    "Q",
+    "S",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "Q",
+    "S",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5,
+     6
+    ],
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     2,
+     0,
+     1,
+     4,
+     5,
+     6
+    ],
+    [
+     4,
+     5,
+     6,
+     2,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     5,
+     6,
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5,
+     6
+    ],
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     2,
+     0,
+     1,
+     4,
+     5,
+     6
+    ],
+    [
+     4,
+     5,
+     6,
+     2,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     5,
+     6,
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  }
+ },
+ "es": {
+  "s1": {
+   "animal": "tiene sofía dos pandas / tiene dos pandas sofía",
+   "thing": "tiene sofía dos pelotas / tiene dos pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "dibuja sofía tres pandas / dibuja tres pandas sofía",
+   "thing": "dibuja sofía tres pelotas / dibuja tres pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "es diferente cada panda / es cada panda diferente",
+   "thing": "es diferente cada pelota / es cada pelota diferente",
+   "animalTypes": [
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "cuenta sofía cinco pandas / cuenta cinco pandas sofía",
+   "thing": "cuenta sofía cinco pelotas / cuenta cinco pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s6": {
+   "animal": "qué panda más te gusta",
+   "thing": "qué pelota más te gusta",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     0,
+     1,
+     4,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     1,
+     4,
+     2,
+     3
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "mira sofía su panda / mira su panda sofía",
+   "thing": "mira sofía su pelota / mira su pelota sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s8": {
+   "animal": "vemos tres pandas sofía y yo",
+   "thing": "vemos tres pelotas sofía y yo",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "busca sofía su panda / busca su panda sofía",
+   "thing": "busca sofía su pelota / busca su pelota sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s11": {
+   "animal": null,
+   "thing": null
+  },
+  "s16": {
+   "animal": "quiere sofía seis pandas / quiere seis pandas sofía",
+   "thing": "quiere sofía seis pelotas / quiere seis pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ]
+  },
+  "s18": {
+   "animal": "tiene cada panda su lugar / tiene su lugar cada panda",
+   "thing": "tiene cada pelota su lugar / tiene su lugar cada pelota",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": "dibuja sofía pandas / dibuja pandas sofía",
+   "thing": "dibuja sofía pelotas / dibuja pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u3": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u4": {
+   "animal": "quiere sofía dibujar tres pandas / quiere dibujar tres pandas sofía / quiere dibujar sofía tres pandas",
+   "thing": "quiere sofía dibujar tres pelotas / quiere dibujar tres pelotas sofía / quiere dibujar sofía tres pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "tiene mi hermano dos pandas / tiene dos pandas mi hermano",
+   "thing": "tiene mi hermano dos pelotas / tiene dos pelotas mi hermano",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "dibuja mi abuela cinco pandas / dibuja cinco pandas mi abuela",
+   "thing": "dibuja mi abuela cinco pelotas / dibuja cinco pelotas mi abuela",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "busca sofía sus seis pandas / busca sus seis pandas sofía",
+   "thing": "busca sofía sus seis pelotas / busca sus seis pelotas sofía",
+   "animalTypes": [
+    "Q",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     0
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u9": {
+   "animal": "quiere sofía contar sus seis pandas / quiere contar sus seis pandas sofía / quiere contar sofía sus seis pandas",
+   "thing": "quiere sofía contar sus seis pelotas / quiere contar sus seis pelotas sofía / quiere contar sofía sus seis pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "puede mi hermana ver cinco pandas / puede ver cinco pandas mi hermana / puede ver mi hermana cinco pandas",
+   "thing": "puede mi hermana ver cinco pelotas / puede ver cinco pelotas mi hermana / puede ver mi hermana cinco pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "me dibuja mi papá tres pandas / me dibuja tres pandas mi papá",
+   "thing": "me dibuja mi papá tres pelotas / me dibuja tres pelotas mi papá",
+   "animalTypes": [
+    "E",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "E",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "necesita sofía encontrar sus dos pandas / necesita encontrar sus dos pandas sofía / necesita encontrar sofía sus dos pandas",
+   "thing": "necesita sofía encontrar sus dos pelotas / necesita encontrar sus dos pelotas sofía / necesita encontrar sofía sus dos pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "me regala mi abuelo cuatro pandas / me regala cuatro pandas mi abuelo",
+   "thing": "me regala mi abuelo cuatro pelotas / me regala cuatro pelotas mi abuelo",
+   "animalTypes": [
+    "E",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "E",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "va sofía a dibujar tres pandas / va a dibujar tres pandas sofía / va a dibujar sofía tres pandas",
+   "thing": "va sofía a dibujar tres pelotas / va a dibujar tres pelotas sofía / va a dibujar sofía tres pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "quiere mi maestra contar sus pandas / quiere contar sus pandas mi maestra / quiere contar mi maestra sus pandas",
+   "thing": "quiere mi maestra contar sus pelotas / quiere contar sus pelotas mi maestra / quiere contar mi maestra sus pelotas",
+   "animalTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "E",
+    "Q"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "me enseña mi mamá cinco pandas / me enseña cinco pandas mi mamá",
+   "thing": "me enseña mi mamá cinco pelotas / me enseña cinco pelotas mi mamá",
+   "animalTypes": [
+    "E",
+    "E"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "E",
+    "E"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ "fr": {
+  "s1": {
+   "animal": null,
+   "thing": null
+  },
+  "s2": {
+   "animal": null,
+   "thing": null
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": null,
+   "thing": null
+  },
+  "s5": {
+   "animal": null,
+   "thing": null
+  },
+  "s7": {
+   "animal": null,
+   "thing": null
+  },
+  "s10": {
+   "animal": null,
+   "thing": null
+  },
+  "s11": {
+   "animal": null,
+   "thing": null
+  },
+  "s13": {
+   "animal": null,
+   "thing": null
+  },
+  "s15": {
+   "animal": null,
+   "thing": null
+  },
+  "s17": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u1": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u2": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u3": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u4": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u5": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u6": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u7": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u8": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u9": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u10": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u11": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u12": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u13": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u14": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u16": {
+   "animal": null,
+   "thing": null
+  }
+ },
+ "pt": {
+  "s1": {
+   "animal": null,
+   "thing": null
+  },
+  "s2": {
+   "animal": null,
+   "thing": null
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": null,
+   "thing": null
+  },
+  "s5": {
+   "animal": null,
+   "thing": null
+  },
+  "s6": {
+   "animal": null,
+   "thing": null
+  },
+  "s7": {
+   "animal": null,
+   "thing": null
+  },
+  "s8": {
+   "animal": null,
+   "thing": null
+  },
+  "s9": {
+   "animal": null,
+   "thing": null
+  },
+  "s12": {
+   "animal": null,
+   "thing": null
+  },
+  "s13": {
+   "animal": null,
+   "thing": null
+  },
+  "s14": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u1": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u2": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u3": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u4": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u5": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u6": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u7": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u8": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u9": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u10": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u11": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u12": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u13": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u14": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u16": {
+   "animal": null,
+   "thing": null
+  }
+ },
+ "it": {
+  "s1": {
+   "animal": null,
+   "thing": null
+  },
+  "s2": {
+   "animal": null,
+   "thing": null
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s5": {
+   "animal": null,
+   "thing": null
+  },
+  "s6": {
+   "animal": null,
+   "thing": null
+  },
+  "s7": {
+   "animal": null,
+   "thing": null
+  },
+  "s10": {
+   "animal": null,
+   "thing": null
+  },
+  "s11": {
+   "animal": null,
+   "thing": null
+  },
+  "s13": {
+   "animal": null,
+   "thing": null
+  },
+  "s14": {
+   "animal": null,
+   "thing": null
+  },
+  "s15": {
+   "animal": "chi regala a sofia tre panda",
+   "thing": "chi regala a sofia tre palle",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     0,
+     1,
+     4,
+     5,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     1,
+     4,
+     5,
+     2,
+     3
+    ]
+   ]
+  },
+  "s16": {
+   "animal": "chi disegna per sofia quattro panda",
+   "thing": "chi disegna per sofia quattro palle",
+   "animalTypes": [
+    "Q"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "Q"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     0,
+     1,
+     4,
+     5,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     0,
+     1,
+     4,
+     5,
+     2,
+     3
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u2": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u3": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u4": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u5": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u6": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u7": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u8": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u9": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u10": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u11": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u12": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u13": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u14": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u16": {
+   "animal": null,
+   "thing": null
+  }
+ },
+ "nl": {
+  "s1": {
+   "animal": "ziet emma drie panda's / drie panda's ziet emma",
+   "thing": "ziet emma drie ballen / drie ballen ziet emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "telt emma de panda's / de panda's telt emma",
+   "thing": "telt emma de ballen / de ballen telt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "heeft emma twee panda's / twee panda's heeft emma",
+   "thing": "heeft emma twee ballen / twee ballen heeft emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "zijn de panda's heel groot / heel groot zijn de panda's",
+   "thing": "zijn de ballen heel groot / heel groot zijn de ballen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s6": {
+   "animal": "de panda's zie jij",
+   "thing": "de ballen zie jij",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "dit zijn jouw panda's",
+   "thing": "dit zijn jouw ballen",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ]
+  },
+  "s8": {
+   "animal": "zoekt emma de panda's / de panda's zoekt emma",
+   "thing": "zoekt emma de ballen / de ballen zoekt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s9": {
+   "animal": "houdt emma van panda's / van panda's houdt emma",
+   "thing": "houdt emma van ballen / van ballen houdt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s10": {
+   "animal": null,
+   "thing": null
+  },
+  "s11": {
+   "animal": "zijn de panda's heel klein / heel klein zijn de panda's",
+   "thing": "zijn de ballen heel klein / heel klein zijn de ballen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s12": {
+   "animal": "vindt emma de panda's mooi / de panda's vindt emma mooi / mooi vindt emma de panda's",
+   "thing": "vindt emma de ballen mooi / de ballen vindt emma mooi / mooi vindt emma de ballen",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     1,
+     0,
+     4
+    ],
+    [
+     4,
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     1,
+     0,
+     4
+    ],
+    [
+     4,
+     1,
+     0,
+     2,
+     3
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "zien emma en ik de panda's / de panda's zien emma en ik",
+   "thing": "zien emma en ik de ballen / de ballen zien emma en ik",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     3,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     3,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": "tekent emma panda's / panda's tekent emma",
+   "thing": "tekent emma ballen / ballen tekent emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "zie ik panda's / panda's zie ik",
+   "thing": "zie ik ballen / ballen zie ik",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "telt emma panda's / panda's telt emma",
+   "thing": "telt emma ballen / ballen telt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "heeft emma twee kleine panda's / twee kleine panda's heeft emma",
+   "thing": "heeft emma twee kleine ballen / twee kleine ballen heeft emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "tekent mijn broer vier panda's / vier panda's tekent mijn broer",
+   "thing": "tekent mijn broer vier ballen / vier ballen tekent mijn broer",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "telt de juf alle panda's / alle panda's telt de juf",
+   "thing": "telt de juf alle ballen / alle ballen telt de juf",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "vindt emma drie kleine panda's / drie kleine panda's vindt emma",
+   "thing": "vindt emma drie kleine ballen / drie kleine ballen vindt emma",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "wil ik vijf panda's tekenen / vijf panda's wil ik tekenen",
+   "thing": "wil ik vijf ballen tekenen / vijf ballen wil ik tekenen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     1,
+     0,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     1,
+     0,
+     4
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "wil emma drie kleine panda's tekenen / drie kleine panda's wil emma tekenen",
+   "thing": "wil emma drie kleine ballen tekenen / drie kleine ballen wil emma tekenen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "ziet mijn zus vier heel kleine panda's / vier heel kleine panda's ziet mijn zus / mijn heel kleine zus ziet vier panda's / ziet mijn heel kleine zus vier panda's / vier panda's ziet mijn heel kleine zus",
+   "thing": "ziet mijn zus vier heel kleine ballen / vier heel kleine ballen ziet mijn zus / mijn heel kleine zus ziet vier ballen / ziet mijn heel kleine zus vier ballen / vier ballen ziet mijn heel kleine zus",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     4,
+     5,
+     6,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     5,
+     1,
+     2,
+     3,
+     6
+    ],
+    [
+     2,
+     0,
+     4,
+     5,
+     1,
+     3,
+     6
+    ],
+    [
+     3,
+     6,
+     2,
+     0,
+     4,
+     5,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     4,
+     5,
+     6,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     5,
+     1,
+     2,
+     3,
+     6
+    ],
+    [
+     2,
+     0,
+     4,
+     5,
+     1,
+     3,
+     6
+    ],
+    [
+     3,
+     6,
+     2,
+     0,
+     4,
+     5,
+     1
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "geeft opa mij twee grote panda's / twee grote panda's geeft opa mij / mij geeft opa twee grote panda's",
+   "thing": "geeft opa mij twee grote ballen / twee grote ballen geeft opa mij / mij geeft opa twee grote ballen",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "wil de juf alle panda's tellen / alle panda's wil de juf tellen",
+   "thing": "wil de juf alle ballen tellen / alle ballen wil de juf tellen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1,
+     5
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "heeft mijn broer drie grote panda's / drie grote panda's heeft mijn broer / mijn grote broer heeft drie panda's / heeft mijn grote broer drie panda's / drie panda's heeft mijn grote broer",
+   "thing": "heeft mijn broer drie grote ballen / drie grote ballen heeft mijn broer / mijn grote broer heeft drie ballen / heeft mijn grote broer drie ballen / drie ballen heeft mijn grote broer",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "gaat emma vijf kleine panda's tekenen / vijf kleine panda's gaat emma tekenen",
+   "thing": "gaat emma vijf kleine ballen tekenen / vijf kleine ballen gaat emma tekenen",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "laat papa mij drie panda's zien / drie panda's laat papa mij zien / mij laat papa drie panda's zien",
+   "thing": "laat papa mij drie ballen zien / drie ballen laat papa mij zien / mij laat papa drie ballen zien",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2,
+     5
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2,
+     5
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "tekent mama twee heel grote panda's / twee heel grote panda's tekent mama",
+   "thing": "tekent mama twee heel grote ballen / twee heel grote ballen tekent mama",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     2,
+     3,
+     4,
+     5,
+     1,
+     0
+    ]
+   ]
+  }
+ },
+ "sv": {
+  "s1": {
+   "animal": "ser elsa tre pandor / tre pandor ser elsa",
+   "thing": "ser elsa tre bollar / tre bollar ser elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "har elsa många pandor / många pandor har elsa",
+   "thing": "har elsa många bollar / många bollar har elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "räknar elsa sina pandor / sina pandor räknar elsa",
+   "thing": "räknar elsa sina bollar / sina bollar räknar elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "du kan hitta två pandor / två pandor kan du hitta",
+   "thing": "du kan hitta två bollar / två bollar kan du hitta",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "tycker elsa om pandor / pandor tycker elsa om",
+   "thing": "tycker elsa om bollar / bollar tycker elsa om",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "s9": {
+   "animal": "vill elsa ha fem pandor / fem pandor vill elsa ha",
+   "thing": "vill elsa ha fem bollar / fem bollar vill elsa ha",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "du har sett några pandor",
+   "thing": "du har sett några bollar",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ]
+  },
+  "s12": {
+   "animal": "är mina pandor jättefina / jättefina är mina pandor",
+   "thing": "är mina bollar jättefina / jättefina är mina bollar",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "hittar elsa två pandor / två pandor hittar elsa",
+   "thing": "hittar elsa två bollar / två bollar hittar elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s14": {
+   "animal": "är alla pandor stora / stora är alla pandor",
+   "thing": "är alla bollar stora / stora är alla bollar",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u1": {
+   "animal": "ritar elsa pandor / pandor ritar elsa",
+   "thing": "ritar elsa bollar / bollar ritar elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "ser jag pandor / pandor ser jag",
+   "thing": "ser jag bollar / bollar ser jag",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "gillar elsa pandor / pandor gillar elsa",
+   "thing": "gillar elsa bollar / bollar gillar elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "har elsa två små pandor / två små pandor har elsa",
+   "thing": "har elsa två små bollar / två små bollar har elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "ritar min bror fyra pandor / fyra pandor ritar min bror",
+   "thing": "ritar min bror fyra bollar / fyra bollar ritar min bror",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "räknar vår fröken sina pandor / sina pandor räknar vår fröken",
+   "thing": "räknar vår fröken sina bollar / sina bollar räknar vår fröken",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "hittar elsa tre små pandor / tre små pandor hittar elsa",
+   "thing": "hittar elsa tre små bollar / tre små bollar hittar elsa",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "vill jag rita fem pandor / fem pandor vill jag rita",
+   "thing": "vill jag rita fem bollar / fem bollar vill jag rita",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "vill elsa rita tre små pandor / tre små pandor vill elsa rita",
+   "thing": "vill elsa rita tre små bollar / tre små bollar vill elsa rita",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "ser min syster fyra jättesmå pandor / fyra jättesmå pandor ser min syster",
+   "thing": "ser min syster fyra jättesmå bollar / fyra jättesmå bollar ser min syster",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "ger morfar mig två stora pandor / två stora pandor ger morfar mig / mig ger morfar två stora pandor",
+   "thing": "ger morfar mig två stora bollar / två stora bollar ger morfar mig / mig ger morfar två stora bollar",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "vill vår fröken räkna sina pandor / sina pandor vill vår fröken räkna",
+   "thing": "vill vår fröken räkna sina bollar / sina bollar vill vår fröken räkna",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "ska elsa rita fem stora pandor / fem stora pandor ska elsa rita",
+   "thing": "ska elsa rita fem stora bollar / fem stora bollar ska elsa rita",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "visar pappa mig tre fina pandor / tre fina pandor visar pappa mig / mig visar pappa tre fina pandor",
+   "thing": "visar pappa mig tre fina bollar / tre fina bollar visar pappa mig / mig visar pappa tre fina bollar",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "har min bror två stora pandor / två stora pandor har min bror / min stora bror har två pandor / har min stora bror två pandor / två pandor har min stora bror",
+   "thing": "har min bror två stora bollar / två stora bollar har min bror / min stora bror har två bollar / har min stora bror två bollar / två bollar har min stora bror",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "vill elsa räkna alla sina pandor / alla sina pandor vill elsa räkna",
+   "thing": "vill elsa räkna alla sina bollar / alla sina bollar vill elsa räkna",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  }
+ },
+ "da": {
+  "s1": {
+   "animal": "ser ida tre pandaer / tre pandaer ser ida",
+   "thing": "ser ida tre bolde / tre bolde ser ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "har ida mange pandaer / mange pandaer har ida",
+   "thing": "har ida mange bolde / mange bolde har ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "tæller ida sine pandaer / sine pandaer tæller ida",
+   "thing": "tæller ida sine bolde / sine bolde tæller ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "du kan finde to pandaer / to pandaer kan du finde",
+   "thing": "du kan finde to bolde / to bolde kan du finde",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "kan ida godt lide pandaer / pandaer kan ida godt lide",
+   "thing": "kan ida godt lide bolde / bolde kan ida godt lide",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     4,
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     4,
+     1,
+     0,
+     2,
+     3
+    ]
+   ]
+  },
+  "s9": {
+   "animal": "ønsker ida sig fem pandaer / fem pandaer ønsker ida sig",
+   "thing": "ønsker ida sig fem bolde / fem bolde ønsker ida sig",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "du har set mine pandaer / mine pandaer har du set",
+   "thing": "du har set mine bolde / mine bolde har du set",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "s12": {
+   "animal": "er mine pandaer rigtig flotte / rigtig flotte er mine pandaer",
+   "thing": "er mine bolde rigtig flotte / rigtig flotte er mine bolde",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "finder ida to pandaer / to pandaer finder ida",
+   "thing": "finder ida to bolde / to bolde finder ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s14": {
+   "animal": "er alle pandaer store / store er alle pandaer",
+   "thing": "er alle bolde store / store er alle bolde",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s15": {
+   "animal": null,
+   "thing": null
+  },
+  "s16": {
+   "animal": "leder ida efter pandaer / pandaer leder ida efter",
+   "thing": "leder ida efter bolde / bolde leder ida efter",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": "tegner ida pandaer / pandaer tegner ida",
+   "thing": "tegner ida bolde / bolde tegner ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "ser jeg pandaer / pandaer ser jeg",
+   "thing": "ser jeg bolde / bolde ser jeg",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "tæller ida pandaer / pandaer tæller ida",
+   "thing": "tæller ida bolde / bolde tæller ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "har ida to små pandaer / to små pandaer har ida",
+   "thing": "har ida to små bolde / to små bolde har ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "tegner min bror fire pandaer / fire pandaer tegner min bror",
+   "thing": "tegner min bror fire bolde / fire bolde tegner min bror",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "tæller vores lærer sine pandaer / sine pandaer tæller vores lærer",
+   "thing": "tæller vores lærer sine bolde / sine bolde tæller vores lærer",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "finder ida tre små pandaer / tre små pandaer finder ida",
+   "thing": "finder ida tre små bolde / tre små bolde finder ida",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "vil jeg tegne fem pandaer / fem pandaer vil jeg tegne",
+   "thing": "vil jeg tegne fem bolde / fem bolde vil jeg tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "vil ida tegne tre små pandaer / tre små pandaer vil ida tegne",
+   "thing": "vil ida tegne tre små bolde / tre små bolde vil ida tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "ser min søster fire bitte små pandaer / fire bitte små pandaer ser min søster",
+   "thing": "ser min søster fire bitte små bolde / fire bitte små bolde ser min søster",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     4,
+     5,
+     6,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     3,
+     4,
+     5,
+     6,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "giver morfar mig to store pandaer / to store pandaer giver morfar mig / mig giver morfar to store pandaer",
+   "thing": "giver morfar mig to store bolde / to store bolde giver morfar mig / mig giver morfar to store bolde",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "vil vores lærer tælle sine pandaer / sine pandaer vil vores lærer tælle",
+   "thing": "vil vores lærer tælle sine bolde / sine bolde vil vores lærer tælle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "skal ida tegne fem store pandaer / fem store pandaer skal ida tegne",
+   "thing": "skal ida tegne fem store bolde / fem store bolde skal ida tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "viser far mig tre flotte pandaer / tre flotte pandaer viser far mig / mig viser far tre flotte pandaer",
+   "thing": "viser far mig tre flotte bolde / tre flotte bolde viser far mig / mig viser far tre flotte bolde",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "har min bror to store pandaer / to store pandaer har min bror / min store bror har to pandaer / har min store bror to pandaer / to pandaer har min store bror",
+   "thing": "har min bror to store bolde / to store bolde har min bror / min store bror har to bolde / har min store bror to bolde / to bolde har min store bror",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     4,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     0,
+     4,
+     1
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "vil ida tælle alle sine pandaer / alle sine pandaer vil ida tælle",
+   "thing": "vil ida tælle alle sine bolde / alle sine bolde vil ida tælle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  }
+ },
+ "no": {
+  "s1": {
+   "animal": "ser nora tre pandaer / tre pandaer ser nora",
+   "thing": "ser nora tre baller / tre baller ser nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "har nora mange pandaer / mange pandaer har nora",
+   "thing": "har nora mange baller / mange baller har nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s3": {
+   "animal": null,
+   "thing": null
+  },
+  "s4": {
+   "animal": "teller nora sine pandaer / sine pandaer teller nora",
+   "thing": "teller nora sine baller / sine baller teller nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "du kan finne to pandaer / to pandaer kan du finne",
+   "thing": "du kan finne to baller / to baller kan du finne",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "liker nora pandaer / pandaer liker nora",
+   "thing": "liker nora baller / baller liker nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "s9": {
+   "animal": "vil nora ha fem pandaer / fem pandaer vil nora ha",
+   "thing": "vil nora ha fem baller / fem baller vil nora ha",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "du har sett noen pandaer",
+   "thing": "du har sett noen baller",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "Q",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "Q",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ]
+   ]
+  },
+  "s12": {
+   "animal": "ser vi mange pandaer / mange pandaer ser vi",
+   "thing": "ser vi mange baller / mange baller ser vi",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s13": {
+   "animal": "finner nora to pandaer / to pandaer finner nora",
+   "thing": "finner nora to baller / to baller finner nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ]
+   ]
+  },
+  "s14": {
+   "animal": "ønsker nora seg to pandaer / to pandaer ønsker nora seg",
+   "thing": "ønsker nora seg to baller / to baller ønsker nora seg",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "s15": {
+   "animal": null,
+   "thing": null
+  },
+  "ls-u1": {
+   "animal": "tegner nora pandaer / pandaer tegner nora",
+   "thing": "tegner nora baller / baller tegner nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "ser jeg pandaer / pandaer ser jeg",
+   "thing": "ser jeg baller / baller ser jeg",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "teller nora pandaer / pandaer teller nora",
+   "thing": "teller nora baller / baller teller nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "har nora to små pandaer / to små pandaer har nora",
+   "thing": "har nora to små baller / to små baller har nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "tegner broren min fire pandaer / fire pandaer tegner broren min",
+   "thing": "tegner broren min fire baller / fire baller tegner broren min",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "teller læreren vår sine pandaer / sine pandaer teller læreren vår",
+   "thing": "teller læreren vår sine baller / sine baller teller læreren vår",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "finner nora tre små pandaer / tre små pandaer finner nora",
+   "thing": "finner nora tre små baller / tre små baller finner nora",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "vil jeg tegne fem pandaer / fem pandaer vil jeg tegne",
+   "thing": "vil jeg tegne fem baller / fem baller vil jeg tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "vil nora tegne tre små pandaer / tre små pandaer vil nora tegne",
+   "thing": "vil nora tegne tre små baller / tre små baller vil nora tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "ser søsteren min fire bittesmå pandaer / fire bittesmå pandaer ser søsteren min",
+   "thing": "ser søsteren min fire bittesmå baller / fire bittesmå baller ser søsteren min",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "gir morfar meg to store pandaer / to store pandaer gir morfar meg / meg gir morfar to store pandaer",
+   "thing": "gir morfar meg to store baller / to store baller gir morfar meg / meg gir morfar to store baller",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "vil læreren vår telle sine pandaer / sine pandaer vil læreren vår telle",
+   "thing": "vil læreren vår telle sine baller / sine baller vil læreren vår telle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "skal nora tegne fem store pandaer / fem store pandaer skal nora tegne",
+   "thing": "skal nora tegne fem store baller / fem store baller skal nora tegne",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "viser pappa meg tre fine pandaer / tre fine pandaer viser pappa meg / meg viser pappa tre fine pandaer",
+   "thing": "viser pappa meg tre fine baller / tre fine baller viser pappa meg / meg viser pappa tre fine baller",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "har broren min to store pandaer / to store pandaer har broren min / store broren min har to pandaer / har store broren min to pandaer / to pandaer har store broren min",
+   "thing": "har broren min to store baller / to store baller har broren min / store broren min har to baller / har store broren min to baller / to baller har store broren min",
+   "animalTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S",
+    "S",
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     4,
+     0,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     4,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     0,
+     1,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     4,
+     0,
+     1,
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     4,
+     0,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     4,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "vil nora telle alle sine pandaer / alle sine pandaer vil nora telle",
+   "thing": "vil nora telle alle sine baller / alle sine baller vil nora telle",
+   "animalTypes": [
+    "Q",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "Q",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     1,
+     0,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  }
+ },
+ "fi": {
+  "s1": {
+   "animal": "pandaa syöttää aino / pandaa aino syöttää",
+   "thing": "palloa syöttää aino / palloa aino syöttää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s2": {
+   "animal": "pientä pandaa katsoo aino / pientä pandaa aino katsoo",
+   "thing": "pientä palloa katsoo aino / pientä palloa aino katsoo",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s3": {
+   "animal": "kaksi pandaa piirtää aino / kaksi pandaa aino piirtää",
+   "thing": "kaksi palloa piirtää aino / kaksi palloa aino piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s4": {
+   "animal": "pandaa etsii aino / pandaa aino etsii",
+   "thing": "palloa etsii aino / palloa aino etsii",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s5": {
+   "animal": "eeli ja aino katsovat isoa pandaa / isoa pandaa katsovat aino ja eeli / isoa pandaa katsovat eeli ja aino / isoa pandaa aino ja eeli katsovat / isoa pandaa eeli ja aino katsovat",
+   "thing": "eeli ja aino katsovat isoa palloa / isoa palloa katsovat aino ja eeli / isoa palloa katsovat eeli ja aino / isoa palloa aino ja eeli katsovat / isoa palloa eeli ja aino katsovat",
+   "animalTypes": [
+    "S",
+    "S",
+    "S",
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S",
+    "S",
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     3,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     4,
+     5,
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     2,
+     1,
+     0,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0,
+     3,
+     4,
+     5
+    ],
+    [
+     4,
+     5,
+     3,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     4,
+     5,
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     2,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  "s6": {
+   "animal": "pandaa piirtää aino / pandaa aino piirtää",
+   "thing": "palloa piirtää aino / palloa aino piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s7": {
+   "animal": "pandaa pesee aino / pandaa aino pesee",
+   "thing": "palloa pesee aino / palloa aino pesee",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s8": {
+   "animal": "pandaa kantaa aino / pandaa aino kantaa",
+   "thing": "palloa kantaa aino / palloa aino kantaa",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "s9": {
+   "animal": "kaksi pandaa näen minä / kaksi pandaa minä näen",
+   "thing": "kaksi palloa näen minä / kaksi palloa minä näen",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s10": {
+   "animal": "kolme pandaa löytää aino / kolme pandaa aino löytää",
+   "thing": "kolme palloa löytää aino / kolme palloa aino löytää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "s11": {
+   "animal": "isoja ovat nämä pandat",
+   "thing": "isoja ovat nämä pallot",
+   "animalTypes": [
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u1": {
+   "animal": "pandaa maalaa aino / pandaa aino maalaa",
+   "thing": "palloa maalaa aino / palloa aino maalaa",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u2": {
+   "animal": "pandaa katsoo aino / pandaa aino katsoo",
+   "thing": "palloa katsoo aino / palloa aino katsoo",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u3": {
+   "animal": "pandaa ihailee aino / pandaa aino ihailee",
+   "thing": "palloa ihailee aino / palloa aino ihailee",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u4": {
+   "animal": "kolme pandaa aino haluaa piirtää / kolme pandaa haluaa aino piirtää",
+   "thing": "kolme palloa aino haluaa piirtää / kolme palloa haluaa aino piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u5": {
+   "animal": "neljä pandaa piirtää minun veljeni / neljä pandaa minun veljeni piirtää",
+   "thing": "neljä palloa piirtää minun veljeni / neljä palloa minun veljeni piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "ls-u6": {
+   "animal": "kolme pientä pandaa löytää aino / kolme pientä pandaa aino löytää",
+   "thing": "kolme pientä palloa löytää aino / kolme pientä palloa aino löytää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     4,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     4,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u7": {
+   "animal": "viisi pandaa minä haluan piirtää / viisi pandaa haluan minä piirtää",
+   "thing": "viisi palloa minä haluan piirtää / viisi palloa haluan minä piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u8": {
+   "animal": "kuusi pandaa laskee opettaja / kuusi pandaa opettaja laskee",
+   "thing": "kuusi palloa laskee opettaja / kuusi palloa opettaja laskee",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "thingPerms": [
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ]
+  },
+  "ls-u9": {
+   "animal": "kolme pientä pandaa aino haluaa piirtää / kolme pientä pandaa haluaa aino piirtää",
+   "thing": "kolme pientä palloa aino haluaa piirtää / kolme pientä palloa haluaa aino piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u10": {
+   "animal": "neljä pientä pandaa näkee minun siskoni / neljä pientä pandaa minun siskoni näkee",
+   "thing": "neljä pientä palloa näkee minun siskoni / neljä pientä palloa minun siskoni näkee",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "ls-u11": {
+   "animal": "kaksi isoa pandaa aino yrittää löytää / kaksi isoa pandaa yrittää aino löytää",
+   "thing": "kaksi isoa palloa aino yrittää löytää / kaksi isoa palloa yrittää aino löytää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u12": {
+   "animal": "viisi pandaa minun veljeni haluaa piirtää / viisi pandaa haluaa minun veljeni piirtää",
+   "thing": "viisi palloa minun veljeni haluaa piirtää / viisi palloa haluaa minun veljeni piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     4,
+     5,
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ],
+   "thingPerms": [
+    [
+     4,
+     5,
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     2,
+     0,
+     1,
+     3
+    ]
+   ]
+  },
+  "ls-u13": {
+   "animal": "kolme isoa pandaa aino osaa piirtää / kolme isoa pandaa osaa aino piirtää",
+   "thing": "kolme isoa palloa aino osaa piirtää / kolme isoa palloa osaa aino piirtää",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u14": {
+   "animal": "kuusi pandaa opettaja haluaa laskea / kuusi pandaa haluaa opettaja laskea",
+   "thing": "kuusi palloa opettaja haluaa laskea / kuusi palloa haluaa opettaja laskea",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ls-u15": {
+   "animal": "kaksi isoa pandaa maalaa minun äitini / kaksi isoa pandaa minun äitini maalaa",
+   "thing": "kaksi isoa palloa maalaa minun äitini / kaksi isoa palloa minun äitini maalaa",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     5,
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "ls-u16": {
+   "animal": "kaikki pandat aino haluaa laskea / kaikki pandat haluaa aino laskea",
+   "thing": "kaikki pallot aino haluaa laskea / kaikki pallot haluaa aino laskea",
+   "animalTypes": [
+    "S",
+    "S"
+   ],
+   "animalCanon": "S",
+   "thingTypes": [
+    "S",
+    "S"
+   ],
+   "thingCanon": "S",
+   "animalPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ],
+   "thingPerms": [
+    [
+     3,
+     4,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     1,
+     0,
+     2
+    ]
+   ]
+  }
+ }
+}

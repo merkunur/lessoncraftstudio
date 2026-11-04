@@ -206,8 +206,10 @@ const BARE_THEME_HEAD = { es: ['clima'], pt: ['clima'], it: ['meteo'] };
 const WATER_CYCLE_HEAD = { en: 'water cycle', de: 'wasserkreislauf', es: 'ciclo del agua', pt: 'ciclo da água', fr: "cycle de l'eau", it: "ciclo dell'acqua", nl: 'waterkringloop', sv: 'kretslopp', da: 'kredsløb', no: 'kretsløp', fi: 'kiertokulku' };
 /** The mode token a face title must add (rule 10); a locale without a lexicon falls back to ">= 1 token not in the base title". */
 const MODE_TOKENS = { en: { write: /write/i, diary: /chart|week/i, thermometer: /warm|cold|hot/i, 'water-cycle': /water cycle/i, forecast: /forecast/i } };
-/** G3-345 bodies hashed BEFORE the additive thermometer options landed (2026-09-21, seedEpoch 1, theme null). */
-const G3_345_FROZEN = { 1: '7cc3ace7277d64b6d843d5b283fce1a4b31cd955', 2: '42e8076291783699432e3951f256b748ffa2591e', 3: '113c379b69dc151e3f1c9e71c2c4d464ef2a480e' };
+/** G3-345 bodies hashed BEFORE the additive thermometer options landed (2026-09-21, seedEpoch 1, theme null).
+ *  Re-frozen 2026-11-03: the CARD (not the primitive) gained its °C unit above the scale and after the answer — the
+ *  primitive's defaults are untouched (PR12 still proves a flipped default drifts all three). */
+const G3_345_FROZEN = { 1: '17d94707827bc0a1526bcb5f01f28c4cc21c4342', 2: '15f0bf3df58f86f5b1b3d34744197e202a813b1e', 3: '38b50a24f42dc84181eed57810ce7d93eeac7d97' };
 
 freeClaim.selfTest();
 
@@ -806,7 +808,10 @@ function assertFace(name, id, r, block, loc) {
     ok(new Set(p.strip.map((s) => s.c)).size === 5, `${name}: strip symbols repeat`);
     ok(p.qs.length === d.asks, `${name}: ${p.qs.length} questions ≠ ${d.asks}`);
     for (const q of p.qs) {
-      ok(q.text === block.forecastAsks[q.c], `${name}: node gate — question "${q.text}" ≠ forecastAsks.${q.c} "${block.forecastAsks[q.c]}"`);
+      // the printed question carries the French typography of page/shell.js (2026-09-23: a word joiner holding "-t-il"
+      // together, a no-break space before "?") — compared as words, not as typography
+      const typo = (s) => String(s).replace(/⁠/g, '').replace(/[  ]/g, ' ');
+      ok(typo(q.text) === typo(block.forecastAsks[q.c]), `${name}: node gate — question "${q.text}" ≠ forecastAsks.${q.c} "${block.forecastAsks[q.c]}"`);
       ok(q.textPx >= 16, `${name}: question ${q.textPx} px < 16`);
       ok(q.chips.map((c) => c.label).join('|') === labels.join('|'), `${name}: node gate — chips ${q.chips.map((c) => c.label).join(',')} ≠ ${labels.join(',')}`);
       ok(q.pillMin >= d.chipH - 0.6 && q.pillH <= (d.chipMax || 64) + 0.6, `${name}: pills ${Math.round(q.pillMin)}..${Math.round(q.pillH)} outside ${d.chipH}..${d.chipMax || 64}`);

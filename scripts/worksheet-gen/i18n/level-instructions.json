@@ -1989,7 +1989,7 @@
       "nl": "De eerste klank staat er al. Zeg het woord langzaam en schrijf in elk leeg hokje één klank.",
       "sv": "Det första ljudet är skrivet i rutan. Säg ordet långsamt och skriv de ljud som fattas, ett i varje ruta.",
       "da": "Den første lyd er skrevet. Sig ordet langsomt, og skriv én lyd i hver tom kasse.",
-      "no": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute.",
+      "no": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute.",
       "fi": "Ensimmäinen äänne on jo kirjoitettu. Sano kuvan sana hitaasti ja kirjoita jokaiseen tyhjään laatikkoon yksi äänne."
     }
   },
@@ -4980,18 +4980,143 @@
     }
   },
   "K-517": {
+    "1": {
+      "en": {
+        "title": "Trace the Numbers 1 to 30",
+        "instruction": "Trace the dashed numbers. In every empty box, write the number that belongs there."
+      },
+      "de": {
+        "title": "Zahlen von 1 bis 30 nachspuren",
+        "instruction": "Spure die gestrichelten Zahlen nach. Schreibe in jedes leere Kästchen die Zahl, die dorthin gehört."
+      },
+      "es": {
+        "title": "Números punteados del 1 al 30",
+        "instruction": "Repasa los números punteados. En cada cuadro vacío, escribe el número que va ahí."
+      },
+      "fr": {
+        "title": "Repasse les nombres de 1 à 30",
+        "instruction": "Repasse les nombres en pointillés. Dans chaque case vide, écris le nombre qui manque."
+      },
+      "it": {
+        "title": "Numeri tratteggiati da 1 a 30",
+        "instruction": "Ripassa i numeri tratteggiati. In ogni casella vuota scrivi il numero che va lì."
+      },
+      "pt": {
+        "title": "Números pontilhados de 1 a 30",
+        "instruction": "Cubra os números pontilhados. Em cada quadradinho vazio, escreva o número que vai ali."
+      },
+      "nl": {
+        "title": "Getallen 1 tot 30 overtrekken",
+        "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
+      },
+      "sv": {
+        "title": "Spåra talen 1 till 30",
+        "instruction": "Spåra de streckade talen. Skriv det tal som ska stå där i varje tom ruta."
+      },
+      "da": {
+        "title": "Spor tallene fra 1 til 30",
+        "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+      },
+      "no": {
+        "title": "Spor tallene fra 1 til 30",
+        "instruction": "Spor de stiplede tallene. Skriv tallet som skal stå der, i hver tom rute."
+      },
+      "fi": {
+        "title": "Lukujen kirjoitusharjoitus 1–30",
+        "instruction": "Kirjoita katkoviivoin piirretyt luvut viivoja pitkin. Kirjoita jokaiseen tyhjään ruutuun luku, joka siihen kuuluu."
+      }
+    },
     "2": {
-      "en": "Trace every number from 1 to 50. Start each number at the top.",
-      "de": "Spure jede Zahl von 1 bis 50 nach. Beginne jede Zahl oben.",
-      "fr": "Repasse chaque nombre de 1 à 50. Commence chaque chiffre par le haut.",
-      "es": "Repasa cada número del 1 al 50. Empieza cada número por arriba.",
-      "pt": "Cubra cada número de 1 a 50. Comece cada número por cima.",
-      "it": "Ripassa ogni numero da 1 a 50. Comincia ogni numero dall’alto.",
-      "nl": "Trek elk getal van 1 tot en met 50 over. Begin elk cijfer bovenaan.",
-      "sv": "Spåra varje tal från 1 till 50. Börja varje siffra uppifrån.",
-      "da": "Spor hvert tal fra 1 til 50. Begynd hvert tal foroven.",
-      "no": "Spor hvert tall fra 1 til 50. Begynn hvert tall øverst.",
-      "fi": "Kirjoita jokainen luku 1:stä 50:een viivoja pitkin. Aloita jokainen numero ylhäältä."
+      "en": {
+        "title": "Trace the Numbers 1 to 50",
+        "instruction": "Trace every number from 1 to 50. Start each number at the top."
+      },
+      "de": {
+        "title": "Zahlen von 1 bis 50 nachspuren",
+        "instruction": "Spure jede Zahl von 1 bis 50 nach. Beginne jede Ziffer oben."
+      },
+      "fr": {
+        "title": "Repasse les nombres de 1 à 50",
+        "instruction": "Repasse chaque nombre de 1 à 50. Commence chaque chiffre par le haut."
+      },
+      "es": {
+        "title": "Números punteados del 1 al 50",
+        "instruction": "Repasa cada número del 1 al 50. Empieza cada número por arriba."
+      },
+      "pt": {
+        "title": "Números pontilhados de 1 a 50",
+        "instruction": "Cubra cada número de 1 a 50. Comece cada número por cima."
+      },
+      "it": {
+        "title": "Numeri tratteggiati da 1 a 50",
+        "instruction": "Ripassa ogni numero da 1 a 50. Comincia ogni numero dall’alto."
+      },
+      "nl": {
+        "title": "Getallen 1 tot 50 overtrekken",
+        "instruction": "Trek elk getal van 1 tot en met 50 over. Begin elk cijfer bovenaan."
+      },
+      "sv": {
+        "title": "Spåra talen 1 till 50",
+        "instruction": "Spåra varje tal från 1 till 50. Börja varje siffra uppifrån."
+      },
+      "da": {
+        "title": "Spor tallene fra 1 til 50",
+        "instruction": "Spor hvert tal fra 1 til 50. Begynd øverst på hvert tal."
+      },
+      "no": {
+        "title": "Spor tallene fra 1 til 50",
+        "instruction": "Spor hvert tall fra 1 til 50. Begynn hvert tall øverst."
+      },
+      "fi": {
+        "title": "Lukujen kirjoitusharjoitus 1–50",
+        "instruction": "Kirjoita jokainen luku 1:stä 50:een viivoja pitkin. Aloita jokainen numero ylhäältä."
+      }
+    },
+    "3": {
+      "en": {
+        "title": "Trace the Numbers 51 to 100",
+        "instruction": "Trace the dashed numbers. In every empty box, write the number that belongs there."
+      },
+      "de": {
+        "title": "Zahlen von 51 bis 100 nachspuren",
+        "instruction": "Spure die gestrichelten Zahlen nach. Schreibe in jedes leere Kästchen die Zahl, die dorthin gehört."
+      },
+      "es": {
+        "title": "Números punteados del 51 al 100",
+        "instruction": "Repasa los números punteados. En cada cuadro vacío, escribe el número que va ahí."
+      },
+      "fr": {
+        "title": "Repasse les nombres de 51 à 100",
+        "instruction": "Repasse les nombres en pointillés. Dans chaque case vide, écris le nombre qui manque."
+      },
+      "it": {
+        "title": "Numeri tratteggiati da 51 a 100",
+        "instruction": "Ripassa i numeri tratteggiati. In ogni casella vuota scrivi il numero che va lì."
+      },
+      "pt": {
+        "title": "Números pontilhados de 51 a 100",
+        "instruction": "Cubra os números pontilhados. Em cada quadradinho vazio, escreva o número que vai ali."
+      },
+      "nl": {
+        "title": "Getallen 51 tot 100 overtrekken",
+        "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
+      },
+      "sv": {
+        "title": "Spåra talen 51 till 100",
+        "instruction": "Spåra de streckade talen. Skriv det tal som ska stå där i varje tom ruta."
+      },
+      "da": {
+        "title": "Spor tallene fra 51 til 100",
+        "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+      },
+      "no": {
+        "title": "Spor tallene fra 51 til 100",
+        "instruction": "Spor de stiplede tallene. Skriv tallet som skal stå der, i hver tom rute."
+      },
+      "fi": {
+        "title": "Lukujen kirjoitusharjoitus 51–100",
+        "instruction": "Kirjoita katkoviivoin piirretyt luvut viivoja pitkin. Kirjoita jokaiseen tyhjään ruutuun luku, joka siihen kuuluu."
+      }
     }
   },
   "G1-488": {

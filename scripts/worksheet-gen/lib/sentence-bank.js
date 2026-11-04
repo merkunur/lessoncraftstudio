@@ -107,4 +107,10 @@ function colorInSentence(bank, colorWords, key) {
   return (bank.colorWords && bank.colorWords[key]) || colorWords[key];
 }
 
-module.exports = { fillFrame, tokenize, endMark, openMark, capsIndices, corrupt, resolveNoun, pickFrames, colorInSentence, NBSP, NNBSP, SLOT_RE };
+/** The themes whose nouns are living things (a frame flagged animalsOnly takes only these; objectsOnly never). */
+const ANIMAL_THEMES = new Set(['animals', 'birds', 'birds 2', 'dinosaurs', 'farm animals', 'forest creatures', 'insects and bugs',
+  'ocean life', 'pets', 'reptiles and amphibians', 'sea life', 'zoo animals']);
+const themeFamily = (t) => String(t).replace(/ bw(\s+\d+)?$/i, '').toLowerCase();
+const isAnimalTheme = (t) => ANIMAL_THEMES.has(themeFamily(t));
+
+module.exports = { fillFrame, tokenize, endMark, openMark, capsIndices, corrupt, resolveNoun, pickFrames, colorInSentence, NBSP, NNBSP, SLOT_RE, ANIMAL_THEMES, themeFamily, isAnimalTheme };

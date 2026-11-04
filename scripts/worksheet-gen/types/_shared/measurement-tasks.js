@@ -280,8 +280,11 @@ function makeMeasurementType(cfg) {
             : thermometerPrim({ value: v, min: 0, max: 40, step: 5, height: 400 });
           const st = d.step || 5, le = d.labelEvery || 1, near = Math.round(v / (st * le)) * st * le;
           S.push({ kind: 'num', q: `therm:${v}`, ask: v, ans: v, step: 1, slips: [v + st, v - st, near !== v ? near : v + st * le, v + st * 2], prompt: th.svg });
-          cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:26px" data-lcs-step="${d.step || 5}" data-lcs-labelevery="${d.labelEvery || 1}">` + zoomSvg(th.svg, 1.4) +
-            answerBox({ w: 76, h: 54, answer: v }) + `</div>`);
+          // the unit, above the scale and after the answer (2026-11-03, final-phase review): a 0-40 scale with no unit is a
+          // cold 35 to a US child and a hot one in Celsius — "Hot or Cold?" cannot be answered without it (G3-476 shows °F)
+          const UNIT = `<span data-lcs-unit="C" style="font-family:'Baloo 2';font-weight:700;font-size:24px;line-height:1;color:#146B5E;white-space:nowrap">°C</span>`;
+          cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:18px" data-lcs-step="${d.step || 5}" data-lcs-labelevery="${d.labelEvery || 1}">` + UNIT + zoomSvg(th.svg, 1.4) +
+            `<span style="display:inline-flex;align-items:center;gap:6px">${answerBox({ w: 76, h: 54, answer: v })}${UNIT}</span></div>`);
         }
         return { bodyHtml: cardGrid({ cards, cols: 3, rows: 1 }), meta: {} };
       }

@@ -195,6 +195,8 @@ module.exports = {
         cand = rng.shuffle(pool.slice()).slice(0, need);
       }
       if (cand.length < need) break;
+      // a frame that makes sense only with a living thing (fr «Que font les ballons ?») never takes a thing
+      if (!SB.isAnimalTheme(theme) && cand.some((f) => f.animalsOnly)) continue;
       const withName = cand.filter((f) => /\{name\}/.test(f.text)).length;
       const qs = cand.filter((f) => SB.endMark(f.text) === '?').length;
       if (withName < d.needCaps) continue;

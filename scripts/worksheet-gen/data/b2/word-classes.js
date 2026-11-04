@@ -297,7 +297,7 @@ const WORD_CLASSES = {
       "adj": "Adjektive"
     },
     "chipCase": "keep",
-    "chipCaseD3": "lower",
+    "chipCaseD3": "upper",
     "verbs": [
       {
         "w": "laufen",

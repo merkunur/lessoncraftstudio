@@ -68,7 +68,7 @@ async function main() {
   // which is the LAST build's (2026-11-02: two makers built one after the other; the first one's pages were fetched from
   // the second one's data and 404'd)
   const VERS = JSON.parse(fs.readFileSync(path.join(OUT, 'versions.json'), 'utf8'));
-  let cases = 0; const fails = [];
+  let cases = 0; const fails = [], bothRefused = [];
   for (const id of makers) {
     const ver = VERS[id].current, dv = VERS[id].currentData;
     const tj = JSON.parse(fs.readFileSync(path.join(OUT, id, ver, 'templates.json'), 'utf8'));
@@ -118,7 +118,10 @@ async function main() {
         }, { maker: id, ver, dv, files, id: t.id, strings, loc: c.loc, d: c.d, theme: c.theme, unit: c.unit, variant: c.variant, suffix: tj.answerKey[c.loc] });
         cases++;
         const tag = `${id} ${t.id} ${c.loc} L${c.d} ${c.theme || '-'} ${c.unit || '-'} v${c.variant}`;
-        if (nodeErr || br.err) { fails.push(tag + ': ' + (nodeErr ? 'node: ' + nodeErr : 'browser: ' + br.err)); continue; }
+        // the SAME refusal in both hosts is agreement (the maker's generate() then draws a fresh seed, as the gates do) —
+        // only a page that builds in one host and not the other, or two different errors, is a parity failure
+        if (nodeErr && br.err && br.err.includes(nodeErr)) { bothRefused.push(tag + ': ' + nodeErr); continue; }
+        if (nodeErr || br.err) { fails.push(tag + ': ' + (nodeErr ? 'node: ' + nodeErr : 'browser: ' + br.err) + (nodeErr && br.err ? ' | browser: ' + br.err.slice(0, 160) : '')); continue; }
         if (args.poison && cases === 1) br.html = br.html.replace('</body>', '<!--x--></body>');
         const a = norm(node.html), b = norm(br.html);
         const ka = node.keyHtml ? norm(node.keyHtml) : null, kb = br.keyHtml ? norm(br.keyHtml) : null;
@@ -128,7 +131,8 @@ async function main() {
     }
   }
   await browser.close(); server.close();
-  console.log(`parity: ${cases} cases, ${fails.length} failing`);
+  console.log(`parity: ${cases} cases, ${fails.length} failing${bothRefused.length ? `, ${bothRefused.length} refused alike in both hosts` : ""}`);
+  bothRefused.slice(0, 5).forEach((f) => console.log("  same refusal: " + f));
   fails.slice(0, 15).forEach((f) => console.log('  FAIL ' + f));
   if (args.poison) { console.log(fails.length ? 'poison: caught (good)' : 'poison: NOT caught (gate is blind)'); process.exit(fails.length ? 0 : 1); }
   process.exit(fails.length ? 1 : 0);

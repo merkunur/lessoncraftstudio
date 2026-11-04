@@ -29,11 +29,22 @@ const EN_AMBIGUOUS = new Set(['cherry', 'cherries', 'peach', 'apricot', 'nectari
 const EN_EXCEPTIONS = {
   unicorn: 0, uniform: 0, unicycle: 0, university: 0, ukulele: 0, one: 0, eucalyptus: 0, ewe: 0, european: 0, user: 0, unit: 0,
   hour: 1, heir: 1, honest: 1, herb: 1, honor: 1, honour: 1,
+  // letters said as letters (2026-11-03 native review: the page keyed "an ufo" / "a suv" / "a x-ray")
+  ufo: 0, suv: 1, 'x-ray': 1,
 };
+
+// es: a FEMININE noun whose stressed first syllable starts with a / ha takes "el" in the singular (el agua, el águila, el
+// hacha — 2026-11-03 native review: the page keyed "la ancla", "la águila", "la hacha", "la arpa"). Gender stays f.
+const ES_EL_FEMININE = new Set(['agua', 'águila', 'ancla', 'hacha', 'arpa', 'ala', 'alma', 'aula', 'hada', 'hambre', 'área', 'arma', 'asa', 'ave', 'haba', 'aspa', 'acta', 'alba', 'álgebra', 'ánfora', 'arca', 'ascua', 'asma', 'aria']);
 
 function itKey(entry, ctx) {
   const w = entry.singular.toLowerCase();
   const level = (ctx && ctx.level) || 2;
+  // the uovo class (dito/dita, labbro/labbra, braccio/braccia): the vocabulary stores f (the PLURAL is feminine), the
+  // SINGULAR is masculine — the same structural tell as lcs-grammar.js itSingularArticleGender (2026-11-03 native review:
+  // the page keyed "la dito", "la labbro")
+  const sgHead = w.split(/\s+/)[0], plHead = String(entry.plural || '').toLowerCase().split(/\s+/)[0];
+  if (entry.gender === 'f' && /o$/.test(sgHead) && /a$/.test(plHead)) entry = { ...entry, gender: 'm' };
   const vowel = /^[aeiouàèéìòù]/.test(w);
   const loCluster = /^(s[bcdfghjklmnpqrstvwxz]|z|gn|ps|pn|x|y|i[aeiou])/.test(w);
   if (entry.gender === 'f') {
@@ -53,12 +64,13 @@ const ARTICLES = {
   // the no vocab tags m/f/n; bokmål schools accept "en" for every m/f noun,
   // so the card offers en/et and f nouns key to en (the panel may add 'ei')
   no: { mode: 'article', chips: ['en', 'et'], keyFor: (e) => ({ m: 0, f: 0, n: 1 })[e.gender] ?? null },
-  es: { mode: 'article', chips: ['el', 'la'], keyFor: (e) => ({ m: 0, f: 1 })[e.gender] ?? null },
+  es: { mode: 'article', chips: ['el', 'la'], keyFor: (e) => (e.gender === 'f' && ES_EL_FEMININE.has(String(e.singular).toLocaleLowerCase('es').normalize('NFC')) ? 0 : ({ m: 0, f: 1 })[e.gender] ?? null) },
   pt: { mode: 'article', chips: ['o', 'a'], keyFor: (e) => ({ m: 0, f: 1 })[e.gender] ?? null },
   fr: {
     mode: 'article', chips: ['le', 'la'], chipsD3: ['un', 'une'],
     // elision nouns (vowel or h) take l' — refused rather than mis-keyed
-    keyFor: (e) => (/^[aeiouyhéèêàâîïôûù]/i.test(e.singular) ? null : ({ m: 0, f: 1 })[e.gender] ?? null),
+    // (œ / æ too — l'œuf, l'œil, l'œillet: the page keyed "le œuf", 2026-11-03 native review)
+    keyFor: (e) => (/^[aeiouyhéèêàâîïôûùœæ]/i.test(e.singular) ? null : ({ m: 0, f: 1 })[e.gender] ?? null),
   },
   it: { mode: 'article', chips: ['il', 'la'], chipsD3: ['il', 'lo', 'la', "l'"], keyFor: itKey },
   en: {

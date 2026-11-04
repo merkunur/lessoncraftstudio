@@ -34,12 +34,13 @@ const slot = require('../../lib/slot.js');
 const { keyNumber } = require('./key-number.js');
 
 const SCOPED_CSS = `
-.sci-sort{flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;min-height:0;padding:6px 0 2px}
+.sci-sort{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start;min-height:0;padding:6px 0 2px}
+.sci-gap{flex:0 1 200px;min-height:110px}
 .sci-strip{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;padding:4px 0 8px}
 .sci-item{position:relative;display:inline-flex;align-items:center;justify-content:center;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px}
 .sci-item .sci-dot{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);width:11px;height:11px;border-radius:50%;background:#F2784B;border:2px solid #FFFFFF}
-.sci-bins{display:flex;justify-content:space-evenly;align-items:flex-end;gap:18px;padding-top:26px}
-.sci-bin{flex:1 1 0;max-width:210px;height:185px;background:#FFFFFF;border:3px solid #146B5E;border-top:3px dashed #146B5E;border-radius:0 0 18px 18px;position:relative;display:block}
+.sci-bins{flex:1 1 auto;display:flex;justify-content:space-evenly;align-items:stretch;gap:18px;padding-top:26px;min-height:211px;max-height:326px}
+.sci-bin{flex:1 1 0;max-width:210px;height:auto;background:#FFFFFF;border:3px solid #146B5E;border-top:3px dashed #146B5E;border-radius:0 0 18px 18px;position:relative;display:block}
 .sci-bin-label{position:absolute;top:-26px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#FBF3E4;border:2.5px solid #146B5E;border-radius:999px;padding:6px 16px;font-family:'Baloo 2',cursive;font-weight:700;font-size:17px;color:#146B5E}
 `;
 
@@ -109,9 +110,11 @@ function makeScienceCategorySort(cfg) {
         for (let g = 0; g < 50 && tappingRhythm(strip.map((it) => binKeys.indexOf(it.bin)), binKeys.length); g++) strip = rng.shuffle(chosen);
       }
 
-      // more than nine pictures take two rows (level 3); up to nine, one row as shipped
-      const perRow = Math.ceil(strip.length / (strip.length > 9 ? 2 : 1));
-      const itemPx = Math.min(78, Math.floor(648 / perRow) - 12);
+      // the page fills its body (2026-11-03, final-phase review: one row of 78 px pictures over ~450 px of empty page
+      // above the bins): six pictures or more take two rows, the pictures up to 104 px (their padded tile + gap still
+      // fits the 648 px row), a line area of ~200 px, and the bins grow into what is left (211-326 px); the rows split evenly (3 + 3, never 4 + 2)
+      const perRow = Math.ceil(strip.length / (strip.length >= 6 ? 2 : 1));
+      const itemPx = Math.min(104, Math.floor(((648 - 12 * (perRow - 1)) / perRow - 4) / 1.24));
       const pad = Math.round(itemPx * 0.12);
       const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
       const slotOf = (it) => { const b = binKeys.indexOf(it.bin); return slot.attr(ctx, 'b' + b, chosen.filter((x) => x.bin === it.bin).indexOf(it)); };
@@ -133,7 +136,8 @@ function makeScienceCategorySort(cfg) {
         bodyHtml:
           `<style>${SCOPED_CSS}</style>` +
           `<div class="sci-sort">` +
-          `<div class="sci-strip">${stripHtml}</div>` +
+          `<div class="sci-strip" style="max-width:${perRow * (itemPx + 2 * pad + 4) + (perRow - 1) * 12}px;margin:0 auto">${stripHtml}</div>` +
+          `<div class="sci-gap"></div>` +
           `<div class="sci-bins">${binsHtml}</div>` +
           `</div>`,
         meta: { bins: binKeys, perBin: d.perBin, items: strip.map((it) => ({ noun: it.noun, bin: it.bin })) },

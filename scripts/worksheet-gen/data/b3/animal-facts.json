@@ -54,7 +54,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -84,7 +84,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -99,7 +99,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -114,7 +114,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -129,7 +129,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -144,7 +144,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -159,7 +159,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -174,7 +174,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -203,8 +203,8 @@
    "diet": "both",
    "habitat": "land",
    "legs": 2,
-   "fly": false,
-   "swim": false,
+   "fly": null,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -218,8 +218,8 @@
    "diet": "both",
    "habitat": "land",
    "legs": 2,
-   "fly": false,
-   "swim": false,
+   "fly": null,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -249,7 +249,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -264,7 +264,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -279,7 +279,7 @@
    "habitat": "air",
    "legs": 2,
    "fly": true,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -294,7 +294,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -309,7 +309,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -339,7 +339,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -354,7 +354,7 @@
    "habitat": "air",
    "legs": 2,
    "fly": true,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -399,7 +399,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -458,8 +458,8 @@
    "diet": "both",
    "habitat": "land",
    "legs": 6,
-   "fly": false,
-   "swim": false,
+   "fly": null,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -474,7 +474,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -519,7 +519,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -534,7 +534,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -549,7 +549,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -564,7 +564,7 @@
    "habitat": "land",
    "legs": 2,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -579,7 +579,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -594,7 +594,7 @@
    "habitat": "water",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -609,7 +609,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -624,7 +624,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -654,7 +654,7 @@
    "habitat": "air",
    "legs": 2,
    "fly": true,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -669,7 +669,7 @@
    "habitat": "air",
    "legs": 2,
    "fly": true,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -684,7 +684,7 @@
    "habitat": "air",
    "legs": 2,
    "fly": true,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -699,7 +699,7 @@
    "habitat": "land",
    "legs": 2,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -729,7 +729,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -744,7 +744,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -759,7 +759,7 @@
    "habitat": null,
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -819,7 +819,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": false,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -834,7 +834,7 @@
    "habitat": "land",
    "legs": 4,
    "fly": false,
-   "swim": true,
+   "swim": null,
    "picOpened": true,
    "reviewed": true
   },
@@ -866,5 +866,5 @@
   "insects and bugs": "bee",
   "reptiles and Amphibians": "tortoise"
  },
- "_note": "nt20-C G2-318 (authored 2026-09-14): K-2 honest values; null = ambiguous at K-2 or outside the chip set (drops the animal from every non-base face, never invents). fox diet = meat and rabbit = plants agree with what-animals-eat.json; a bird habitat is air where the bank says so. The five data/science banks are a cross-check (tools/gate-fact-file-data.js), never the ceiling."
+ "_note": "nt20-C G2-318 (authored 2026-09-14): K-2 honest values; null = ambiguous at K-2 or outside the chip set (drops the animal from every non-base face, never invents). fox diet = meat and rabbit = plants agree with what-animals-eat.json; a bird habitat is air where the bank says so. The five data/science banks are a cross-check (tools/gate-fact-file-data.js), never the ceiling. · 2026-11-04: swim/fly kept only where a K-2 teacher can confirm the answer at once (a sheep, a cow, a cat CAN swim; whether a panda or a fox swims is trivia; a hen flies a little) — every other value null: the faces print a fact only where it is known, and an unknown fact rules nothing out on the mystery cards. Review: turtle/tortoise not taught (one word in de/it/fi, opposite answers); hippopotamus not taught (hippos walk the river bed)."
 }

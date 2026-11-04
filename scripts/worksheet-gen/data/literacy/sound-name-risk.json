@@ -1,0 +1,251 @@
+{
+ "_note": "Pictures a K child commonly NAMES with another word that changes the sound answer (2026-11-03, final phase: one native review over every sound-position bank + the article review alternatives). Read by types/_shared/alphabet-more.js unaidedChart (beginning) and tools/build-sound-position-banks.js (ending / middle). { <bank>: { <locale>: { <vocabKey>: \"<what the child says → the answer>\" } } }",
+ "beginning": {
+  "en": {
+   "can": "soda → S",
+   "cap": "hat → H",
+   "desk": "table → T",
+   "gate": "fence → F",
+   "log": "wood → W",
+   "mug": "cup → C",
+   "rug": "carpet → C / mat → M",
+   "van": "bus → B / car → C",
+   "vest": "jacket → J",
+   "wand": "magic wand → M / stick → S",
+   "wolf": "dog → D (the library wolves look like a husky)"
+  },
+  "de": {
+   "bandage": "das Pflaster (article review)",
+   "computer": "Laptop → L [also SPELLING: the child hears /k/ and writes K]",
+   "eagle": "Vogel → V",
+   "forest": "Bäume → B",
+   "gate": "Zaun → Z",
+   "goose": "Ente → E",
+   "moose": "Hirsch → H",
+   "package": "Karton → K / Geschenk → G",
+   "sofa": "die Couch (article review)",
+   "train": "die Eisenbahn (article review)",
+   "wolf": "Hund → H"
+  },
+  "fr": {
+   "blackberry": "framboise → F",
+   "bread": "baguette → B",
+   "bus": "car (le car scolaire) → C",
+   "glove": "moufle → M (if the picture has no separate fingers)",
+   "oven": "cuisinière → C",
+   "rooster": "poule → P",
+   "snorkel": "masque → M",
+   "taxi": "voiture → V"
+  },
+  "es": {
+   "cabbage": "repollo → R / lechuga → L",
+   "cup": "el vaso (article review)",
+   "frog": "el sapo (article review)",
+   "goose": "pato → P",
+   "kayak": "canoa → C",
+   "owl": "la lechuza (article review)",
+   "parrot": "perico → P",
+   "rock": "piedra → P",
+   "taxi": "carro → C",
+   "wolf": "perro → P"
+  },
+  "pt": {
+   "cup": "caneca → C / copo → C",
+   "goose": "pato → P",
+   "taxi": "carro → C",
+   "van": "ônibus → O / carro → C",
+   "wolf": "cachorro → C"
+  },
+  "it": {
+   "bandage": "il cerotto (article review)",
+   "bull": "la mucca (article review)",
+   "corn": "pannocchia → P",
+   "goose": "papera → P",
+   "owl": "la civetta (article review)",
+   "taxi": "macchina → M"
+  },
+  "nl": {
+   "bell": "klok → K",
+   "cat": "poes → P",
+   "circle": "het rondje (article review)",
+   "crib": "het bedje (article review)",
+   "envelope": "brief → B",
+   "goose": "eend → E",
+   "lemon": "[SPELLING] citroen starts with /s/ → S",
+   "mitten": "handschoen → H",
+   "mug": "het kopje (article review)",
+   "octopus": "inktvis → I",
+   "wolf": "hond → H"
+  },
+  "sv": {
+   "bicycle": "[SPELLING] cykel starts with /s/ → S",
+   "cabbage": "sallad → S",
+   "circle": "[SPELLING] cirkel starts with /s/ → S",
+   "globe": "glob → G",
+   "goose": "anka → A",
+   "lemon": "[SPELLING] citron starts with /s/ → S",
+   "oven": "spis → S",
+   "stool": "stol → S",
+   "wolf": "hund → H"
+  },
+  "da": {
+   "bicycle": "[SPELLING] cykel starts with /s/ → S",
+   "bull": "ko → K",
+   "circle": "[SPELLING] cirkel starts with /s/ → S",
+   "clock": "klokke → K",
+   "gate": "låge → L",
+   "goose": "and → A",
+   "kettle": "kedel → K",
+   "lemon": "[SPELLING] citron starts with /s/ → S",
+   "oven": "komfur → K",
+   "wolf": "hund → H"
+  },
+  "no": {
+   "cap": "[SPELLING] caps is said /kɛps/ → K",
+   "cupcake": "muffins → M [also SPELLING: the child hears /k/ and writes K]",
+   "goose": "and → A",
+   "pie": "kake → K",
+   "wolf": "hund → H"
+  },
+  "fi": {
+   "bandage": "laastari → L",
+   "bunny": "jänis → J",
+   "croissant": "voisarvi → V / said kroasantti → K",
+   "donut": "munkki → M",
+   "elephant": "elefantti → E",
+   "mug": "kuppi → K",
+   "pig": "possu → P",
+   "present": "paketti → P"
+  }
+ },
+ "ending": {
+  "en": {
+   "bathtub": "bath → th (h)",
+   "bookshelf": "bookcase → s (last sound)",
+   "cap": "hat → t",
+   "desk": "table → l",
+   "mitten": "glove → v",
+   "rug": "carpet → t / mat → t",
+   "seal": "sea lion → n",
+   "ship": "boat → t (your find)",
+   "van": "bus → s / car → r",
+   "wolf": "dog → g (your find)"
+  },
+  "de": {
+   "cabin": "das Haus (article review)",
+   "cap": "Cap / Basecap → p",
+   "cereal": "Cornflakes → s",
+   "cone": "Eis → s / Hütchen → n",
+   "globe": "Weltkugel → l",
+   "goose": "Ente → e",
+   "kayak": "das Boot (article review)",
+   "package": "Karton → n",
+   "pen": "Kuli → i",
+   "present": "Paket → t",
+   "wolf": "Hund → d (said /t/)"
+  },
+  "fr": {
+   "bus": "car → r",
+   "mirror": "la glace (article review)",
+   "pen": "crayon → n (on)"
+  },
+  "es": {
+   "bowl": "plato → o",
+   "cabbage": "repollo → o / lechuga → a",
+   "cube": "la caja (article review)",
+   "doctor": "doctora → a (if the picture is a woman, as the other occupation pictures are)",
+   "envelope": "la carta (article review)",
+   "folder": "la carpeta (article review)",
+   "gate": "la puerta (article review)",
+   "lantern": "la lámpara (article review)",
+   "moose": "venado → o / reno → o",
+   "narwhal": "ballena → a",
+   "sack": "la bolsa (article review)"
+  },
+  "pt": {},
+  "it": {
+   "moose": "cervo → o / renna → a",
+   "owl": "la civetta (article review)",
+   "wolf": "cane → e"
+  },
+  "nl": {
+   "bell": "klok → k",
+   "bowl": "het bakje (article review)",
+   "cabbage": "sla → a",
+   "cat": "poes → s",
+   "cup": "de beker (article review)",
+   "goose": "eend → d",
+   "mop": "mop → p",
+   "mug": "het kopje (article review)",
+   "rooster": "kip → p",
+   "ship": "de boot (article review)",
+   "van": "de bus (article review)",
+   "wolf": "hond → d"
+  },
+  "sv": {
+   "bull": "ko → o",
+   "bun": "ett bröd (article review)",
+   "cube": "kloss → s",
+   "gate": "staket → t",
+   "goose": "anka → a",
+   "kayak": "kanot → t",
+   "leaf": "blad → d"
+  },
+  "da": {
+   "cabin": "et hus (article review)",
+   "fence": "stakit → t",
+   "goose": "and → said /an/, last sound n (written d)"
+  },
+  "no": {
+   "goose": "and → said /an/, last sound n (written d)",
+   "oven": "komfyr → r",
+   "reindeer": "rein → n",
+   "wolf": "hund → said /hʉn/, last sound n (written d)"
+  },
+  "fi": {
+   "boat": "laiva → a",
+   "bunny": "jänis → s",
+   "log": "puu → u",
+   "pig": "possu → u",
+   "rabbit": "pupu → u"
+  }
+ },
+ "middle": {
+  "en": {
+   "pot": "pan → a",
+   "rug": "mat → a",
+   "ship": "boat → oa (your find)",
+   "van": "bus → u"
+  },
+  "de": {
+   "gate": "Zaun → au",
+   "train": "die Eisenbahn (article review)"
+  },
+  "nl": {
+   "bell": "klok → o",
+   "bowl": "het bakje (article review)",
+   "cat": "poes → oe",
+   "mug": "het kopje (article review)",
+   "ship": "de boot (article review)",
+   "shovel": "schep → e"
+  },
+  "sv": {
+   "bull": "ko → o (no CVC middle)",
+   "goose": "anka → a",
+   "leaf": "blad → a",
+   "mug": "kopp → o",
+   "stool": "stol → o"
+  },
+  "da": {
+   "goose": "and → a"
+  },
+  "no": {
+   "goose": "and → a"
+  },
+  "fr": {},
+  "es": {},
+  "pt": {},
+  "it": {},
+  "fi": {}
+ }
+}

@@ -160,6 +160,12 @@ function polySvg(P, px, fill) {
     { viewBox: '0 0 120 120', 'data-lcs-pts': P.map((q) => q.join(',')).join(' ') });
 }
 const POLY_FILL = [tokens.color.tealSoft, tokens.color.coralSoft, tokens.color.creamDeep];
+// the mirror-line page's trapezoid (viewBox 120): top 52 wide, bottom 100, symmetric about x = 60 — one mirror line
+const SYM_TRAPEZOID = [[34, 34], [86, 34], [110, 88], [10, 88]];
+// drawn in the shapes library's own style (its pale green fill, a thin near-black edge) so it sits with the other pictures
+const symTrapezoidSvg = (px) => svgRoot({ width: px, height: px, label: 'trapezoid' },
+  el('polygon', { points: SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), fill: '#CFE1B9', stroke: '#1F2420', 'stroke-width': 0.9, 'stroke-linejoin': 'round' }),
+  { viewBox: '0 0 120 120', 'data-lcs-pts': SYM_TRAPEZOID.map((q) => q.join(',')).join(' ') });
 
 /**
  * The solids the counting pages draw themselves (2026-10-08): the library pictures are OPAQUE — a child counting the
@@ -557,9 +563,14 @@ function makeGeometryType(cfg) {
         // L1: shapes with one or two mirror lines; L3: three to six
         const pool = Object.keys(SYMMETRY_COUNT).filter((k) => have.includes(k) &&
           (difficulty === 1 ? SYMMETRY_COUNT[k] <= 2 : difficulty === 3 ? SYMMETRY_COUNT[k] >= 3 : true));
-        rng.sample(pool, Math.min(difficulty === 1 ? 4 : 6, pool.length)).forEach((k) => {
+        const picks = rng.sample(pool, Math.min(difficulty === 1 ? 4 : 6, pool.length));
+        // the shapes fill their cards (they were 104 px in 215 x 390 cards)
+        const SZ = picks.length === 4 ? 200 : 160;
+        picks.forEach((k) => {
+          // the library trapezoid slants under 5 degrees: at page size it reads as a rectangle (2 lines, the key says 1) — the
+          // page draws a clearly slanted ISOSCELES trapezoid instead (2026-11-04)
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-shape="${k}" data-lcs-symn="${SYMMETRY_COUNT[k]}">` +
-            shapeImg(k, 104) + answerBox({ w: 60, h: 48, answer: SYMMETRY_COUNT[k] }) + `</div>`);
+            (k === 'trapezoid' ? symTrapezoidSvg(SZ) : shapeImg(k, SZ)) + answerBox({ w: 60, h: 48, answer: SYMMETRY_COUNT[k] }) + `</div>`);
           items.push({ ask: k, shape: k, ans: SYMMETRY_COUNT[k] });
         });
         return out(cardGrid({ cards, cols: cards.length === 4 ? 2 : 3, rows: 2 }));
@@ -704,6 +715,15 @@ function makeGeometryType(cfg) {
             const k = c.dataset.lcsShape;
             if (SY[k] !== +c.dataset.lcsSymn) fails.push(`${k}: symmetry fact wrong`);
             if (+c.querySelector('[data-lcs-answer]').dataset.lcsAnswer !== SY[k]) fails.push(`${k}: answer mismatch`);
+            // the trapezoid must LOOK like one (not the near-rectangle library art) and be isosceles (its one mirror line)
+            if (k === 'trapezoid') {
+              const s = c.querySelector('svg[data-lcs-pts]');
+              if (!s) { fails.push('trapezoid: drawn from the library art, which reads as a rectangle'); return; }
+              const P = s.dataset.lcsPts.split(' ').map((q) => q.split(',').map(Number));
+              const top = Math.abs(P[1][0] - P[0][0]), bottom = Math.abs(P[2][0] - P[3][0]);
+              if (top > 0.7 * bottom) fails.push(`trapezoid: top ${top} too close to the bottom ${bottom} (reads as a rectangle)`);
+              if (Math.abs((P[0][0] + P[1][0]) / 2 - (P[2][0] + P[3][0]) / 2) > 0.5) fails.push('trapezoid: not isosceles — it would have no mirror line');
+            }
           });
         }
         return fails;

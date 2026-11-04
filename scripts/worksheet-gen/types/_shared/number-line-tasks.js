@@ -238,7 +238,9 @@ function makeNumberLineTaskType(cfg) {
       const rng = ctx.rng;
       const div = divGlyph(locale);   // C1 2026-09-14: was a hard-coded '÷'
       const rows = [];
-      const pub = !(ctx.seedVariant > 1);
+      // the published page (copy 1) is kept as shipped; every other copy redraws a row that repeats a question (2026-11-03:
+      // maker copies are numbered by variant, not seedVariant, and printed "17" twice on one page)
+      const pub = !(ctx.seedVariant > 1) && Number(ctx.variant || 1) === 1;
       for (let i = 0, redraw = 0; i < d.rows; i++) {
         const labelEvery = (d.lineMax > 20 ? 10 : (d.lineMax > 10 ? 2 : 1));
         if (mode === 'count-on' || mode === 'count-back' || mode === 'jump-sub') {

@@ -522,9 +522,11 @@ module.exports = {
       tries++;
       if (tries > 500) throw new Error(`${who}: could not separate the chips of every pair (|i - j| >= 2)`);
     } while (order.some((c, i) => c.pair && order.some((o, j) => o !== c && o.pair === c.pair && Math.abs(i - j) < 2)));
-    const lanes = Array.from({ length: chosen.length }, (_, i) => oppositePairLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH })).join('');
+    // the key (2026-11-03): each pair written on its lane; level 3 crosses out the words with no partner
+    const key = !!(ctx && ctx.answerKey);
+    const lanes = Array.from({ length: chosen.length }, (_, i) => oppositePairLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH, ...(key ? { key: [chosen[i].a, chosen[i].b] } : {}) })).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:10px;min-height:0;margin-top:16px" data-lcs-pair-grid>${lanes}</div>`;
-    const bodyHtml = this._faceRoot('pairup', ` data-lcs-pairs="${chosen.length}"${d.odd ? ` data-lcs-odd="${d.odd}"` : ''}`, oppositeChipRow({ chips: order, fontPx: d.fontPx, tileH: d.tileH }) + grid);
+    const bodyHtml = this._faceRoot('pairup', ` data-lcs-pairs="${chosen.length}"${d.odd ? ` data-lcs-odd="${d.odd}"` : ''}`, oppositeChipRow({ chips: order, fontPx: d.fontPx, tileH: d.tileH, ...(key && oddWords.length ? { cross: oddWords } : {}) }) + grid);
     return { bodyHtml: tapPairs(ctx, bodyHtml), meta: { pairs: chosen.map((p) => p.id), chips: order.map((c) => c.word), chipPairs: order.map((c) => c.pair), ...(d.odd ? { odd: oddWords } : {}) } };
   },
 

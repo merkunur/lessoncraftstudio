@@ -161,7 +161,7 @@ function makeClockMoreType(cfg) {
             (L === 'en' ? BIG(fmt(h12, m), 30, TEAL) : '') + `</span></span>` +
             `<span class="ws-choices" style="display:inline-flex;gap:12px;flex:0 0 auto">${opts.map(chip).join('')}</span></div>`);
         });
-        return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: d.cards })), meta: { items } };
+        return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: cards.length })), meta: { items } };   // the rows the page HAS (en draws 4 of 6: two empty rows left a third of the page blank, 2026-11-03)
       }
 
       if (mode === 'sector') {
@@ -243,7 +243,7 @@ function makeClockMoreType(cfg) {
             `<svg width="${W}" height="82" viewBox="0 0 ${W} 82" data-lcs-prim="time-line" style="flex:0 0 auto">${svg}</svg>` +
             `<div style="display:flex;align-items:center;gap:10px">${answerBox({ w: 70, h: 50, answer: hAns })}${BIG(uh, 24)}${d.hoursOnly ? '' : answerBox({ w: 70, h: 50, answer: mAns }) + BIG(um, 24)}</div></div>`);
         }
-        return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: d.cards })), meta: { items } };
+        return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: cards.length })), meta: { items } };   // the rows the page HAS (en draws 4 of 6: two empty rows left a third of the page blank, 2026-11-03)
       }
 
       // cutout: a big face (no hands) and the two hands to cut out, with a dot where the fastener goes

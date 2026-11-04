@@ -108,6 +108,46 @@ const RELATION = {
   no: ['på', 'under', 'venstre', 'høyre', 'mellom', 'inni'],
   fi: ['päällä', 'alla', 'vasemmalla', 'oikealla', 'välissä', 'sisällä'],
 };
+// The relation words above double as everyday prepositions in de / nl / sv / da / no, where a correct instruction cannot
+// avoid them. These EXACT shipped phrases are removed before the test, each with its reason; a phrase no instruction uses
+// any more fails (the list may only shrink — never add one to pass a build without a native reading of the sentence).
+const RELATION_OK = {
+  de: [
+    ['Zahl auf dem Plättchen', 'K-320 + F4: the number ON the chip — the chip, never a picture\'s place'],
+    ['in die leeren Kästchen', 'F1: write INTO the empty boxes'],
+    ['in seiner Reihe', 'F3: the picture IN its line'],
+    ['schreibe auf,', 'F3: aufschreiben (to write down), separable particle'],
+    ['links oder rechts stehen', 'F4 (either-end face): where the FLAG stands, never a picture\'s place'],
+    ['1. bis 6. auf.', 'F5: aufschreiben, separable particle at the end'],
+  ],
+  nl: [
+    ['getal op elk fiche', 'K-320: the number ON each chip'],
+    ['in de lege vakjes', 'F1: write INTO the empty boxes'],
+    ['dat op die plaats staat', 'F2: the picture standing AT that place (the ordinal place, not a relation)'],
+    ['in zijn rij', 'F3: the picture IN its line'],
+    ['schrijf op welke plaats', 'F3: opschrijven (to write down), separable particle'],
+    ['getal op het fiche', 'F4: the number ON the chip'],
+  ],
+  sv: [
+    ['talet på varje bricka', 'K-320: the number ON each chip'],
+    ['står på den platsen', 'F2: the picture standing AT that place (the ordinal place)'],
+    ['plats den står på', 'F3: which place it stands AT (the ordinal place)'],
+    ['talet på brickan', 'F4: the number ON the chip'],
+  ],
+  da: [
+    ['tallet på hver brik', 'K-320 + F4: the number ON each chip'],
+    ['står på den plads', 'F2: the picture standing AT that place (the ordinal place)'],
+    ['plads det står på', 'F3: which place it stands AT (the ordinal place)'],
+    ['er på målstregen', 'F5: how close each runner is TO the finish line'],
+  ],
+  no: [
+    ['tallet på hver brikke', 'K-320: the number ON each chip'],
+    ['som står på den', 'K-320: the mark that stands ON it (the chip)'],
+    ['står på den plassen', 'F2: the picture standing AT that place (the ordinal place)'],
+    ['plass det står på', 'F3: which place it stands AT (the ordinal place)'],
+    ['stå på begge sider', 'F4 (either-end face): where the FLAG stands, never a picture\'s place'],
+  ],
+};
 const WORKSHEET_WORD = /\b(worksheet|arbeitsblatt|hoja de trabajo|folha de exerc|fiche|scheda|werkblad|arbetsblad|arbejdsark|arbeidsark|tehtäväpaperi)/i;
 // worst legal chrome: 70-char title (3 lines at ~24 chars/line) + 150-char instruction (3 lines)
 const LONG_CHROME = {
@@ -128,10 +168,11 @@ function arg(name, def) { const a = process.argv.find((x) => x.startsWith('--' +
 const flags = new Set(process.argv.slice(2).filter((x) => !x.includes('=')));
 const QUICK = flags.has('--quick');
 
+// the MERGED bank (en module + the ten generated locale files), fresh on every call — what the type reads. Until
+// 2026-11-04 this re-required the raw module, en only since the fan-out: ten locales' notation checks read "undefined"
 function loadBank() {
-  delete require.cache[require.resolve(BANK_FILE)];
-  const mod = require(BANK_FILE);
-  return mod[Object.keys(mod)[0]];
+  void BANK_FILE;
+  return require('./b3-fresh-bank.js').freshBank('ordinals');
 }
 function clone(o) { return JSON.parse(JSON.stringify(o)); }
 function picPath(theme, noun) { return decodeURIComponent(new URL(fileUri(theme, noun)).pathname.replace(/^\/([A-Za-z]:)/, '$1')); }
@@ -237,6 +278,8 @@ function checkBank(cfg, loc, spec) {
   const faces = ['K-320', 'F1', 'F2', 'F3', 'F4', 'F5'];
   const titles = [];
   const rel = RELATION[L] || [];
+  const okPhrases = RELATION_OK[L] || [];
+  const okUsed = new Set();
   for (const f of faces) {
     const s = S[f];
     if (!s || !s.title || !s.instruction) { F.push(`A ${L}: strings.${f} missing title/instruction`); continue; }
@@ -244,10 +287,14 @@ function checkBank(cfg, loc, spec) {
     if (WORKSHEET_WORD.test(s.title)) F.push(`A ${L}: ${f} title carries the worksheet word`);
     if ([...s.instruction].length > 150) F.push(`A ${L}: ${f} instruction ${[...s.instruction].length} > 150`);
     if (/\{noun\}|\{ordinal\}|\{[a-z]+\}/i.test(s.instruction) || /\{[a-z]+\}/i.test(s.title)) F.push(`A ${L}: ${f} carries a slot`);
-    for (const w of rel) if (new RegExp('(?<!\\p{L})' + w + '(?!\\p{L})', 'iu').test(s.instruction)) F.push(`A ${L}: ${f} instruction carries the relation word "${w}"`);
+    let ins = s.instruction;
+    // longest first: no "som står på den" (K-320) sits inside "står på den plassen" (F2) — the shorter must not eat the longer
+    for (const [p] of [...okPhrases].sort((a, b) => b[0].length - a[0].length)) if (ins.includes(p)) { okUsed.add(p); ins = ins.split(p).join(' · '); }
+    for (const w of rel) if (new RegExp('(?<!\\p{L})' + w + '(?!\\p{L})', 'iu').test(ins)) F.push(`A ${L}: ${f} instruction carries the relation word "${w}"`);
     if (/\bfree\b|kostenlos|gratis|gratuit|ilmainen|gratuito/i.test(s.title + ' ' + s.instruction)) F.push(`A ${L}: ${f} copy claims free`);
     titles.push(s.title.toLowerCase());
   }
+  if (!cfg.__synthStrings) for (const [p] of okPhrases) if (!okUsed.has(p)) F.push(`A ${L}: relation exemption "${p}" matches no instruction (stale — remove it)`);
   if (new Set(titles).size !== titles.length) F.push(`A ${L}: face titles repeat`);
   if (spec && L === 'en' && S['K-320'] && (S['K-320'].title !== spec.i18n.en.title || S['K-320'].instruction !== spec.i18n.en.instruction)) F.push('A en: strings[K-320] != the spec i18n.en (two sources)');
   // calendar cross-check (rule 8): a divergence outside es/pt/it/fr is a FAIL
@@ -259,13 +306,27 @@ function checkBank(cfg, loc, spec) {
 }
 
 /* ---------------- C. renders (real pipeline) ---------------- */
-async function renderCheck(page, type, inj, job, opts) {
+// a probe trimmed to the 3-line maximum is still that probe (its __probe names it)
+const isWorst = (st) => !!st && (st === WORST_CHROME || st.__probe === WORST_CHROME);
+/** The chrome probes are the worst LEGAL chrome: the German worst title wraps to FOUR lines on a fi page (measured
+ *  2026-11-04: body 677 against 710 in every other locale), past the 3 lines the live gate allows a real page — such a
+ *  title is trimmed word by word until it wraps to 3, and the page is checked at that chrome (verify-b3-read-and-do). */
+async function legalChrome(job, run, linesOf) {
+  let r = await run(job);
+  const base = job.strings && (job.strings.__probe || job.strings);
+  if (base !== WORST_CHROME && base !== LONG_CHROME) return r;
+  let words = base.title.split(' ');
+  while (linesOf(r) > 3 && words.length > 4) { words = words.slice(0, -1); r = await run({ ...job, strings: { ...base, title: words.join(' '), __probe: base } }); }
+  return r;
+}
+async function renderCheck(page, type, inj, job, opts) { return legalChrome(job, (j) => renderCheck0(page, type, inj, j, opts), (r) => r.titleLines); }
+async function renderCheck0(page, type, inj, job, opts) {
   let t = type;
   if (inj) t = { ...type, build: (o, ctx) => type._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || type.difficulty[o.difficulty], { theme: o.theme, locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
   const out = await renderInstance({
     type: t, theme: job.theme, difficulty: job.difficulty, locale: job.locale, strings: job.strings,
-    seedEpoch: job.seedEpoch || 1, page, outDir: OUT, baseName: job.baseName,
+    seedEpoch: job.seedEpoch || 1, variant: job.variant || 1, page, outDir: OUT, baseName: job.baseName,
   });
   const fails = [...out.qa.lints.map((x) => 'lint: ' + x), ...out.qa.verify.map((x) => 'verify: ' + x)];
   const cfg = (inj && inj.cfg) || type.difficulty[job.difficulty];
@@ -274,6 +335,7 @@ async function renderCheck(page, type, inj, job, opts) {
     const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
     res.body = Math.round(body.height);
     res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    res.titleLines = Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33);
     const lanes = [...document.querySelectorAll('[data-lcs-strip]')];
     res.lanes = lanes.length;
     res.orders = lanes.map((l) => l.dataset.lcsOrder);
@@ -316,15 +378,15 @@ async function renderCheck(page, type, inj, job, opts) {
   }, { pic: cfg.pic, pillH: cfg.pillH, picFloor: PIC_FLOOR, chipFloor: CHIP_FLOOR, laneInner: LANE_INNER });
   fails.push(...m.fails.map((x) => 'size: ' + x));
   if (m.lanes !== cfg.strips) fails.push(`count: ${m.lanes} lanes, config says ${cfg.strips}`);
-  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY} (re-measure the floor)`);
-  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
+  if (isWorst(job.strings) && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY} (re-measure the floor)`);
+  if (isWorst(job.strings) && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
   // Node-side: every notation literal === the bank's table (the page cannot require)
   const bankLoc = ((inj && inj.bank) || loadBank())[job.locale.slice(0, 2)];
   m.chips.forEach((c, i) => {
     if (!bankLoc || bankLoc.notation[c.k] !== c.notation) fails.push(`notation: chip ${i + 1} stamps "${c.notation}", the bank says "${bankLoc && bankLoc.notation[c.k]}" for ${c.k}`);
   });
   if (!m.chips.length) fails.push('non-vacuity: 0 chips checked');
-  return { fails, chips: m.chips, lanes: m.lanes, orders: m.orders, body: m.body, instrLines: m.instrLines, pngPath: out.pngPath };
+  return { fails, chips: m.chips, lanes: m.lanes, orders: m.orders, body: m.body, instrLines: m.instrLines, titleLines: m.titleLines, pngPath: out.pngPath };
 }
 
 /* ---------------- E. the Phase-2 faces (real pipeline) ---------------- */
@@ -355,13 +417,14 @@ function bankNotation(block, k, g) {
  * Render one face job through the real pipeline and measure it. `inj` = {bank, cfg} (the
  * poison seam); `opts.post` rewrites the built HTML. Returns {fails, m, pngPath}.
  */
-async function faceRenderCheck(page, spec, face, inj, job, opts) {
+async function faceRenderCheck(page, spec, face, inj, job, opts) { return legalChrome(job, (j) => faceRenderCheck0(page, spec, face, inj, j, opts), (r) => (r.m || {}).titleLines); }
+async function faceRenderCheck0(page, spec, face, inj, job, opts) {
   let t = spec;
   if (inj) t = { ...spec, build: (o, ctx) => spec._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || spec.difficulty[o.difficulty], { theme: o.theme, locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
   const out = await renderInstance({
     type: t, theme: job.theme, difficulty: job.difficulty, locale: job.locale, strings: job.strings,
-    seedEpoch: job.seedEpoch || 1, page, outDir: OUT, baseName: job.baseName,
+    seedEpoch: job.seedEpoch || 1, variant: job.variant || 1, page, outDir: OUT, baseName: job.baseName,
   });
   const fails = [...out.qa.lints.map((x) => 'lint: ' + x), ...out.qa.verify.map((x) => 'verify: ' + x)];
   const cfg = (inj && inj.cfg) || spec.difficulty[job.difficulty];
@@ -371,6 +434,7 @@ async function faceRenderCheck(page, spec, face, inj, job, opts) {
     const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
     res.body = Math.round(body.height);
     res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    res.titleLines = Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33);
     const root = document.querySelector('[data-lcs-ordinal-page]');
     res.face = root ? root.dataset.lcsFace || null : null;
     res.theme = root ? root.dataset.lcsTheme : null;
@@ -464,8 +528,8 @@ async function faceRenderCheck(page, spec, face, inj, job, opts) {
   }, { face, pic: cfg.pic, picFloor: face === 'mixed' ? PIC_FLOOR : G1_FLOOR, laneInner: LANE_INNER });
   fails.push(...m.fails.map((x) => 'size: ' + x));
   if (m.face !== (face === 'mixed' ? null : face)) fails.push(`face stamp "${m.face}", expected ${face === 'mixed' ? 'none (F4 is the base page)' : face}`);
-  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY}`);
-  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
+  if (isWorst(job.strings) && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY}`);
+  if (isWorst(job.strings) && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
   const loc = job.locale.slice(0, 2);
   let checked = 0;
   /* ---- Node-side: the bank is the truth (the page cannot require) */
@@ -726,6 +790,21 @@ async function main() {
     note(controlRight.fails.length === 0, 'control (start:right) did not pass: ' + controlRight.fails.join(' | '));
     const controlMixed = await renderCheck(page, type, { cfg: { ...type.difficulty[2], start: 'mixed' } }, { theme: ex, difficulty: 2, locale: loc, baseName: 'K-320-control-mixed' });
     note(controlMixed.fails.length === 0, 'control (start:mixed) did not pass: ' + controlMixed.fails.join(' | '));
+    // NEW pages (anything but level 2 copy 1) deal each strip's chips in a drawn order and stamp it: every level, copies
+    // 1-4, must pass; the published page carries no stamp; and the drawn order must really vary (some strip descends)
+    const newPages = [];
+    for (const d of Object.keys(type.difficulty).map(Number)) for (let v = 1; v <= 4; v++) {
+      const job = { theme: ex, difficulty: d, variant: v, locale: loc, baseName: `K-320-control-new-d${d}-c${v}` };
+      const r = await renderCheck(page, type, null, job);
+      const lanes = await page.evaluate(() => [...document.querySelectorAll('[data-lcs-strip]')].map((l) => ({ order: l.dataset.lcsChipOrder || '', ks: [...l.querySelectorAll('[data-lcs-chip]')].map((c) => +c.dataset.lcsOrdinal) })));
+      const published = d === 2 && v === 1;
+      note(r.fails.length === 0, `${job.baseName}: ${r.fails.join(' | ')}`);
+      note(lanes.length > 0, `${job.baseName}: non-vacuity: no strips`);
+      note(lanes.every((l) => l.order === (published ? '' : 'drawn')), `${job.baseName}: chip-order stamps ${JSON.stringify(lanes.map((l) => l.order))}, want ${published ? 'none (the published page)' : 'drawn'}`);
+      if (!published) newPages.push({ job, lanes });
+    }
+    const descends = newPages.find((p) => p.lanes.some((l) => l.ks.some((k, i) => i && k < l.ks[i - 1])));
+    note(!!descends, 'non-vacuity: no new page deals a strip in descending order — the drawn order never draws');
 
     const poisons = [];
     const deferred = [];   // the four base-deferred poisons (P5 P11 P12 P17) are face poisons now — counted below
@@ -736,7 +815,7 @@ async function main() {
       if (ploc === 'sv') { b.notation = {}; for (let k = 1; k <= 10; k++) b.notation[k] = k + (k <= 2 ? ':a' : ':e'); b.words = ['första', 'andra', 'tredje', 'fjärde', 'femte', 'sjätte', 'sjunde', 'åttonde', 'nionde', 'tionde'].map((m, i) => ({ k: i + 1, m, f: null })); }
       if (ploc === 'es') { b.notation = {}; b.notationF = {}; for (let k = 1; k <= 10; k++) { b.notation[k] = k + '.º'; b.notationF[k] = k + '.ª'; } b.words = ['primero', 'segundo', 'tercero', 'cuarto', 'quinto', 'sexto', 'séptimo', 'octavo', 'noveno', 'décimo'].map((m, i) => ({ k: i + 1, m, f: m.replace(/o$/, 'a') })); }
       if (ploc === 'fr') { b.notation = {}; for (let k = 1; k <= 10; k++) b.notation[k] = k === 1 ? '1er' : k + 'e'; b.notationF = { 1: '1re' }; b.words = ['premier', 'deuxième', 'troisième', 'quatrième', 'cinquième', 'sixième', 'septième', 'huitième', 'neuvième', 'dixième'].map((m, i) => ({ k: i + 1, m, f: i === 0 ? 'première' : null })); }
-      b.strings = clone(cfg.strings);   // EN copy stands in; the relation-word list is per locale, the EN copy carries none of the sv/es/fr words
+      b.strings = clone(cfg.strings); b.__synthStrings = true;   // EN copy stands in; the relation-word list is per locale, the EN copy carries none of the sv/es/fr words
       const ctrl = checkBank(b, ploc, null);
       if (ctrl.length) throw new Error('synthetic ' + ploc + ' control is not clean: ' + ctrl.join(' | '));
       mut(b);
@@ -747,6 +826,8 @@ async function main() {
     poisons.push({ name: 'P13 es mixing 1.º and 2º', run: async () => { const b = synth('es', (x) => { x.notation[2] = '2º'; }); const f = checkBank(b, 'es', null); return f.some((x) => /ruled ONCE/.test(x)) ? null : 'silent (' + (f[0] || 'no fault') + ')'; } });
     poisons.push({ name: 'P14 fr words[2].m = second', run: async () => { const b = synth('fr', (x) => { x.words[1].m = 'second'; }); const f = checkBank(b, 'fr', null); return f.some((x) => /second is BANNED/.test(x)) ? null : 'silent (' + (f[0] || 'no fault') + ')'; } });
     bankPoison('P-en notation 1th', (() => { const b = clone(cfg); b.notation[1] = '1th'; return b; })(), 'en', /!= 1st/);
+    bankPoison('P43 de "auf" outside an exempt phrase', (() => { const b = clone(bankAll.de); b.strings['K-320'].instruction = 'Beginne bei der Fahne. Male das Bild auf dem Tisch an und zähle bis zur Zahl auf dem Plättchen.'; return b; })(), 'de', /relation word "auf"/);
+    bankPoison('P44 a stale relation exemption', (() => { const b = clone(bankAll.de); b.strings.F4.instruction = 'Suche zuerst die Fahne: Sie kann an jedem Ende stehen. Beginne dort, zähle bis zur Zahl auf dem Plättchen und mache das Zeichen.'; return b; })(), 'de', /exemption "links oder rechts stehen" matches no instruction/);
     bankPoison('P-en instruction relation word', (() => { const b = clone(cfg); b.strings['K-320'].instruction = 'Circle the picture on the left.'; return b; })(), 'en', /relation word/);
 
     const once = (re, fn) => (html) => { let done = false; return html.replace(re, (m, ...g) => { if (done) return m; done = true; return fn(m, ...g); }); };
@@ -765,6 +846,15 @@ async function main() {
     htmlPoison('P3b no flag', (html) => html.replace(/<polygon[^>]*data-lcs-flag="1"[^>]*\/>/g, ''), /no flag/);
     htmlPoison('P4 an F4 page with every flag left', (html) => html.replace('data-lcs-startmode="mixed"', 'data-lcs-startmode="left"').replace(/data-lcs-start="right"/g, 'data-lcs-start="left"').replace(/data-lcs-arrow="right"/g, 'data-lcs-arrow="left"'), /not both sides|formula says|starts elsewhere/, { cfg: { ...type.difficulty[2], start: 'mixed' } });
     // P4 proper: the page still CLAIMS mixed while every strip is left
+    // the drawn order: a strip that repeats a place, a drawn order with its stamp removed, an unknown stamp
+    const newPoison = (name, post, want) => poisons.push({ name, run: async () => {
+      if (!descends) return 'silent (no descending new page to poison)';
+      const r = await renderCheck(page, type, null, { ...descends.job, baseName: 'K-320-poison-' + name.replace(/[^a-z0-9]+/gi, '-').slice(0, 24).toLowerCase() }, { post });
+      return r.fails.some((x) => want.test(x)) ? null : 'silent (' + (r.fails[0] || 'no fault') + ')';
+    } });
+    newPoison('P40 a drawn strip repeats a place', (html) => { let n = 0; return html.replace(/data-lcs-ordinal="(\d+)"/g, (m, k) => (++n === 2 ? html.match(/data-lcs-ordinal="\d+"/)[0] : m)); }, /repeats a place/);
+    newPoison('P41 a drawn order without its stamp', (html) => html.replace(/ data-lcs-chip-order="drawn"/g, ''), /not ascending/);
+    newPoison('P42 an unknown chip-order stamp', (html) => html.replace(/data-lcs-chip-order="drawn"/g, 'data-lcs-chip-order="shuffled"'), /unknown chip order/);
     poisons.push({ name: 'P4b start:mixed claimed, every flag left', run: async () => {
       const r = await renderCheck(page, type, null, { theme: ex, difficulty: 2, locale: loc, baseName: 'K-320-poison-p4b' }, { post: (h) => h.replace('data-lcs-startmode="left"', 'data-lcs-startmode="mixed"') });
       return r.fails.some((x) => /not both sides/.test(x)) ? null : 'silent (' + (r.fails[0] || 'no fault') + ')';

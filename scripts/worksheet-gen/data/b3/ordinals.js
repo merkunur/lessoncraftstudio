@@ -75,7 +75,7 @@ const ORDINALS = {
       pets: [['fish', 'goldfish'], ['gecko', 'iguana'], ['hamster', 'gerbil', 'mouse'], ['tortoise', 'turtle'], ['cockatiel', 'finch']],
       vehicles: [['boat', 'ship', 'ferry'], ['car', 'jeep'], ['airplane', 'jet'], ['bulldozer', 'excavator', 'crane'], ['truck', 'van']],
       toys: [['doll', 'girl'], ['dice', 'domino'], ['blocks', 'lego'], ['airplane', 'helicopter'], ['train', 'truck']],
-      dinosaurs: [['argentinosaurus', 'brontosaurus'], ['diplodocus', 'therizinosaurus'], ['maiasaura', 'parasaurolophus'], ['carnotaurus', 'deinonychus', 'mosasaurus']],
+      dinosaurs: [['argentinosaurus', 'brontosaurus'], ['diplodocus', 'therizinosaurus'], ['carnotaurus', 'mosasaurus']],   // deinonychus + parasaurolophus left the pool 2026-11-04 (their pictures show another dinosaur)
       'birds 2': [['chicken', 'hen'], ['crane', 'seagull'], ['goose', 'swan'], ['canary', 'finch'], ['swallow', 'sparrow', 'magpie'], ['robin', 'quail'], ['macaw', 'parrot']],
       'forest creatures': [['chipmunk', 'squirrel'], ['frog', 'toad'], ['hedgehog', 'porcupine'], ['bear', 'beaver'], ['gopher', 'weasel'], ['snail', 'slug'], ['deer', 'moose'], ['eagle', 'hawk'], ['ant', 'spider']],
       // plum left 2026-09-30 (its pictures are drawn as red apples; excluded in every locale, lib/b2-common.js)
@@ -91,7 +91,7 @@ const ORDINALS = {
       'farm animals': { default: 'left', chick: 'right' },
       pets: { default: 'left', fish: 'right', parrot: 'right', tortoise: 'right', mouse: 'right' },
       vehicles: { default: 'left', bicycle: 'right', bulldozer: 'right', forklift: 'right', rocket: 'right', yacht: 'right', canoe: 'front', sailboat: 'front' },
-      dinosaurs: { default: 'left', deinonychus: 'right', oviraptor: 'right', velociraptor: 'right', carnotaurus: 'front' },
+      dinosaurs: { default: 'left', oviraptor: 'right', velociraptor: 'right', carnotaurus: 'front' },
       'birds 2': { default: 'left', cardinal: 'right', canary: 'right', dove: 'right', duck: 'right', finch: 'right', hawk: 'right', hen: 'right', heron: 'right', magpie: 'right', kingfisher: 'right', ostrich: 'right', pelican: 'right', rooster: 'right', toucan: 'right', woodpecker: 'right' },
       'forest creatures': { default: 'left', ant: 'right', cardinal: 'right', caterpillar: 'right', earthworm: 'right', finch: 'right', firefly: 'right', snail: 'right' },
     },

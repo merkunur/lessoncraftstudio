@@ -22,6 +22,36 @@ strands seam, the picture-path face. Server republish queue (operator ssh): fix1
 docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords).
 
 
+## Final phase, round 8 — the ordinal line-ups on new pages; a family gate that checked one language (2026-11-04)
+
+- **The rebuild's thumbnails refused Ordinal Numbers K-320 in all 11 languages** ("strip 2: chips not ascending").
+  Round 7 dealt a NEW page's two chips per strip in a drawn order (sorted, the first chip always asked the nearer
+  place), but the type's own verify still demanded ascending chips. A new page now stamps `data-lcs-chip-order="drawn"`
+  (the published page — level 2, copy 1 — carries no stamp and stays byte-identical); verify: a drawn strip never
+  repeats a place, an unstamped strip ascends, an unknown stamp fails.
+- **Why no gate caught it:** the family gate rendered only level 2 copy 1. It now builds every level × copies 1-4 as a
+  control (stamps right, the drawn order really descends somewhere) + poisons P40-P42.
+- **The gate checked one language in ten places.** Its `loadBank()` re-required the raw module (en only since the
+  locale fan-out), so every per-render notation check read "undefined" in the other ten (787 failures on the first
+  all-language run; section A only worked because the type's loader had merged into the cached object). It now reads
+  `qa/b3-fresh-bank.js`.
+- **What the real all-language run then found:** the ordinals banks still named three refused pictures —
+  deinonychus + parasaurolophus (dinosaurs, refused 2026-11-04) and plum in ten locales (en dropped it 2026-09-30; the
+  locale files never followed). Removed from the look-alike groups and the facing map; every K-320-family page of both
+  themes (561 each: base + faces × 11 × levels × copies 1-3) hashed before and after — identical.
+- **The relation-word ban matched everyday prepositions** (de "Zahl auf dem Plättchen", nl "op elk fiche", sv / da / no
+  "på varje bricka", the separable "schreibe … auf"); every flagged instruction was read — all correct, none names a
+  picture's place. An auditable list of the exact shipped phrases, each with its reason, is removed before the test;
+  a phrase no instruction uses fails (the list only shrinks); longest first; poisons P43 (a new "auf dem Tisch" fails)
+  and P44 (a stale exemption fails). de F4 "links oder rechts" names where the FLAG stands on the either-end face.
+- The fi page wraps the German worst-chrome probe title to four lines (body 677) — trimmed to the 3-line legal
+  maximum, the read-and-do precedent.
+- K-320 gate, all 11 languages: **PASS, 64,274 assertions, 49/49 poisons**.
+- Live gate: a page that stalls is a named FAIL and the run continues (`a070fae1c`; a stall used to leave Chrome open).
+- **Open:** the family gates are not part of `run-all-gates.sh`; the round-7 "every family gate in every language"
+  covered the gates listed there, not all 62 — a sweep of all 62 × 11 (each in its own argument style) follows; tangram's gate
+  reads strings for en only (it fails loudly for any other language); the b7 gates validate the en bank only.
+
 ## Final phase, round 7 — own-input, the family gates in every language, the drafts (2026-11-04)
 
 - **A teacher's swap changes only its own row (gate own-input).** New pages (never level 2 copy 1, which stays

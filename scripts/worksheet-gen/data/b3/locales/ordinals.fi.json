@@ -226,12 +226,7 @@
         "therizinosaurus"
       ],
       [
-        "maiasaura",
-        "parasaurolophus"
-      ],
-      [
         "carnotaurus",
-        "deinonychus",
         "mosasaurus"
       ]
     ],
@@ -318,7 +313,6 @@
         "apple",
         "cherry",
         "cranberry",
-        "plum",
         "pomegranate"
       ],
       [
@@ -372,7 +366,6 @@
     },
     "dinosaurs": {
       "default": "left",
-      "deinonychus": "right",
       "oviraptor": "right",
       "velociraptor": "right",
       "carnotaurus": "front"

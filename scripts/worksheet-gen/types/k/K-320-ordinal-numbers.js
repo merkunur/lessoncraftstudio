@@ -507,7 +507,8 @@ module.exports = {
         })).join('') + `</div>`;
       panels.push(lineUpPanel({
         strip: strip.html, below: chipRow, minH,
-        attrs: `data-lcs-strip data-lcs-order="${items.map((it) => it.noun).join(',')}" data-lcs-start="${start}" data-lcs-n="${d.n}" data-lcs-chips-n="${d.chips}"`,
+        // a NEW page's chips are dealt in a drawn order (pageOrdinals) and say so; the published page carries no stamp
+        attrs: `data-lcs-strip data-lcs-order="${items.map((it) => it.noun).join(',')}" data-lcs-start="${start}" data-lcs-n="${d.n}" data-lcs-chips-n="${d.chips}"${ctx && ctx.mixChips ? ' data-lcs-chip-order="drawn"' : ''}`,
       }));
       meta.strips.push({ order: items.map((it) => it.noun), start, chips: chips.map((c) => [c.k, c.action, c.target]) });
     }
@@ -820,7 +821,11 @@ module.exports = {
           if (c.closest('[data-lcs-idx]')) fails.push(`${S} chip ${ci + 1}: a chip inside a tile`);
           ksHere.push(k);
         });
-        for (let i = 1; i < ksHere.length; i++) if (ksHere[i] <= ksHere[i - 1]) fails.push(`${S}: chips not ascending (${ksHere.join(',')})`);
+        // the published page reads its chips in ascending order; a new page deals them in a drawn order (stamped) — still
+        // never the same place twice on one strip
+        if (lane.dataset.lcsChipOrder === 'drawn') { if (new Set(ksHere).size !== ksHere.length) fails.push(`${S}: a drawn strip repeats a place (${ksHere.join(',')})`); }
+        else if (lane.dataset.lcsChipOrder) fails.push(`${S}: unknown chip order "${lane.dataset.lcsChipOrder}"`);
+        else for (let i = 1; i < ksHere.length; i++) if (ksHere[i] <= ksHere[i - 1]) fails.push(`${S}: chips not ascending (${ksHere.join(',')})`);
         allKs.push(...ksHere);
         // no other text in the lane: the chips are the only text
         onlyText(lane, S, '[data-lcs-chip]');

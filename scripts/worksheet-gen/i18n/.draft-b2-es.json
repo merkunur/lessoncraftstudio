@@ -156,7 +156,7 @@
       {"w": "nadar", "tier": 1}, {"w": "jugar", "tier": 1}, {"w": "beber", "tier": 1}, {"w": "escribir", "tier": 1}, {"w": "pintar", "tier": 1}, {"w": "subir", "tier": 2},
       {"w": "reír", "tier": 2}, {"w": "dibujar", "tier": 2}, {"w": "lavar", "tier": 2}, {"w": "empujar", "tier": 2}, {"w": "lanzar", "tier": 2}, {"w": "atrapar", "tier": 2},
       {"w": "bailar", "tier": 2}, {"w": "esconder", "tier": 2}, {"w": "volar", "tier": 2}, {"w": "abrir", "tier": 2}, {"w": "cerrar", "tier": 2}, {"w": "susurrar", "tier": 3},
-      {"w": "pasear", "tier": 3}, {"w": "construir", "tier": 3}, {"w": "gritar", "tier": 3}, {"w": "escuchar", "tier": 3}, {"w": "recoger", "tier": 3}, {"w": "compartir", "tier": 3}
+      {"w": "pasear", "tier": 3}, {"w": "construir", "tier": 3}, {"w": "gritar", "tier": 3}, {"w": "escuchar", "tier": 3}, {"w": "recoger", "tier": 3}, {"w": "compartir", "tier": 3}, {"w": "caminar", "tier": 4}, {"w": "hornear", "tier": 4}, {"w": "vivir", "tier": 4}, {"w": "aprender", "tier": 4}
     ],
     "adjectives": [
       {"w": "grande", "tier": 1}, {"w": "pequeño", "tier": 1}, {"w": "rojo", "tier": 1}, {"w": "azul", "tier": 1}, {"w": "caliente", "tier": 1}, {"w": "frío", "tier": 1},

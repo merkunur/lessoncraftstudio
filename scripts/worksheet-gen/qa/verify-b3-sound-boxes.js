@@ -150,7 +150,11 @@ function checkBank(cfg, loc, ap) {
     for (const g of flat) if ([...g].length >= 2 && wl.size && !wl.has(g)) fails.push(`A: "${key}" multigraph "${g}" is not whitelisted`);
     if (exclude.has(key)) fails.push(`A: "${key}" is both excluded and banked`);
   }
-  for (const key of exclude) if (!ap.has(key)) fails.push(`A: exclude "${key}" is not an approved word`);
+  // an exclude is a reviewer's veto: it may name a word the safety pipeline quarantines today (it then stays out when the
+  // word is approved later) — it must only name a real vocabulary key (2026-11-04: it demanded an approved word, and the
+  // ten non-en banks, never checked before, keep vetoes on 22 quarantined words)
+  const V = require('../lib/b2-common.js').vocab();
+  for (const key of exclude) if (!V[key]) fails.push(`A: exclude "${key}" names no vocabulary key`);
   if (!rows) fails.push('A: the bank is empty');
   // texBoundary: the Tiers face PRINTS these boundaries — the list must equal the derivation both ways
   const want = deriveTexBoundary(cfg, ap);
@@ -333,7 +337,9 @@ async function main() {
       failures.push(...a);
       console.log(`[A] ${loc}: ${Object.keys(cfg.bank).length} bank rows, texBoundary ${(cfg.texBoundary || []).length} listed / ${tex.size} derived, ${a.length} data faults`);
       // ---- B
-      const themes = themesArg ? themesArg.split(',') : (WAVE_THEMES[loc] || [EXEMPLAR[loc]]);
+      // a locale without its own wave list: the exemplar theme its bank names (data/b3/locales/sound-boxes.<loc>.json)
+      const exLoc = EXEMPLAR[loc] || cfg.exemplar;
+      const themes = themesArg ? themesArg.split(',') : (WAVE_THEMES[loc] || [exLoc]);
       const pools = {};
       for (const theme of themes) {
         note(!BW_MARKERS.test(theme), `theme "${theme}" carries a BW marker`);
@@ -364,12 +370,16 @@ async function main() {
           line.push(`${theme} ${p.length}${ok ? '' : ' REFUSED'}`);
         }
         const live = themes.filter((t) => facePools[loc][f.face][t].ok);
-        note(live.length >= 1, `${loc}: the ${f.face} face has no renderable wave theme`);
+        // a face its locale declares refused (docs/worksheet-gen/b3-designs/_records/refusals.<loc>.json: da tiers G1-313 —
+        // one box per sound leaves fewer than 8 arcable words on every theme) is not offered there: no theme is expected
+        const refPath = path.join(ROOT, '..', '..', 'docs', 'worksheet-gen', 'b3-designs', '_records', `refusals.${loc}.json`);
+        const refused = fs.existsSync(refPath) && !!(JSON.parse(fs.readFileSync(refPath, 'utf8')).refusals || {})[f.id];
+        if (!refused) note(live.length >= 1, `${loc}: the ${f.face} face has no renderable wave theme`);
         console.log(`[B] ${loc}/${f.id} ${f.face}: ${line.join(' · ')} → ${live.length}/${themes.length} themes`);
       }
       // ---- C
       const renders = [];
-      const ex = themes.includes(EXEMPLAR[loc]) ? EXEMPLAR[loc] : themes[0];   // --themes without the exemplar: the first listed theme carries the chrome + seed sweeps
+      const ex = themes.includes(exLoc) ? exLoc : themes[0];   // --themes without the exemplar: the first listed theme carries the chrome + seed sweeps
       for (const theme of themes) for (const d of QUICK && theme !== ex ? [2] : [1, 2, 3]) renders.push({ theme, difficulty: d, locale: loc, baseName: `K-318-${theme}-d${d}-${loc}`, tag: 'sweep' });
       for (const d of [1, 2, 3]) renders.push({ theme: ex, difficulty: d, locale: loc, strings: LONG_CHROME, baseName: `K-318-${ex}-d${d}-${loc}-longchrome`, tag: 'long-chrome' });
       for (let s = 2; s <= seeds; s++) renders.push({ theme: ex, difficulty: 2, locale: loc, seedEpoch: s, baseName: `K-318-${ex}-d2-${loc}-seed${s}`, tag: 'seed' });
@@ -441,6 +451,7 @@ async function main() {
     dataPoison('P4 seam merged outside remergeAcrossSyllable', (c) => { c.bank.tiger = [['t', 'i'], ['g', 'er']]; }, /merges across an approved seam/);
     dataPoison('P5 dead remerge flag', (c) => { c.remergeAcrossSyllable.push('tiger'); }, /dead flag/);
     dataPoison('P6 excluded key also banked', (c) => { c.exclude.push('cat'); }, /both excluded and banked/);
+    dataPoison('P6b exclude names no vocabulary key', (c) => { c.exclude.push('unicornhorn'); }, /names no vocabulary key/);
     poisons.push({ name: 'P7 da strict pool violated', run: async () => {
       // the design names da `hund` (vocabKey `dog`, policy_managed:true — measured); fall back to any true key
       const da = approvedMap('da');

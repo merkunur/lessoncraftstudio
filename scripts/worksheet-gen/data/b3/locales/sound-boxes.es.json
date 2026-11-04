@@ -353,7 +353,6 @@
     "lamp",
     "lantern",
     "lavender",
-    "leek",
     "leg",
     "leggings",
     "lemonade",
@@ -611,7 +610,8 @@
     "writing",
     "zebra",
     "zinnia",
-    "boat"
+    "boat",
+    "athlete"
   ],
   "bank": {
     "acorn": [

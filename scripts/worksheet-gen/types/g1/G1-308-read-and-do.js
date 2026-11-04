@@ -728,10 +728,18 @@ module.exports = {
     // the screen version and the answer key are built from the PRINTED page of the same instance (Level Set 2026-09-30)
     if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       const bank = loadBank(BANK, loc);
-      const built = this._buildWith(bank, this.difficulty[difficulty], { theme, locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      const built = this._buildWith(bank, this._levelConfig(difficulty, ctx), { theme, locale: loc }, { ...ctx, interactive: false, answerKey: false });
       return RAD_SCREEN.screenOrKey(this.interactive.instructionKey, built, ctx, loc, bank, { sentenceFor });
     }
-    return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
+    return this._buildWith(loadBank(BANK, loc), this._levelConfig(difficulty, ctx), { theme, locale: loc }, ctx);
+  },
+
+  /** The level's config; a face may ask for the partitive count frames (countPart) on its NEW level-2 pages only
+   *  (countPartNew: fi count frames take {part}, which the published page predates — 2026-11-04, G1-341) */
+  _levelConfig(difficulty, ctx) {
+    const d = this.difficulty[difficulty];
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    return d && d.countPartNew && !d.countPart && !published ? { ...d, countPart: true } : d;
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */

@@ -17632,8 +17632,8 @@
      "instruction": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord."
     },
     "F3": {
-     "title": "Uregelmæssige udsagnsord: nutid og datid",
-     "instruction": "Disse udsagnsord bøjes helt anderledes. Skriv nutid og datid af hvert af dem i de stiplede kasser."
+     "title": "Udsagnsord i sætninger med billeder",
+     "instruction": "Se på billedet, og læs udsagnsordet i brikken. Skriv den form, der passer i sætningen, i den stiplede kasse."
     },
     "F4": {
      "title": "Uregelmæssige udsagnsord: nutid og datid",

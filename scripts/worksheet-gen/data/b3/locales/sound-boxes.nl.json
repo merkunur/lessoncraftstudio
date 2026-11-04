@@ -6632,7 +6632,6 @@
     "tailor",
     "tape",
     "tart",
-    "teacher",
     "telephone",
     "television",
     "tie",
@@ -6665,7 +6664,8 @@
     "wheelchair",
     "whisk",
     "whistle",
-    "zebra"
+    "zebra",
+    "candy"
   ],
   "dots": true
 }

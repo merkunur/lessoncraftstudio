@@ -14,7 +14,7 @@ module.exports = {
   // L3 eight statements, + two-picture statements ("The picture right after the cat is the dog.")
   difficulty: {
     1: { ...D, cues: ['count'], maxPerCue: 6, countPart: true },
-    2: D,
+    2: { ...D, countPartNew: true },   // new level-2 pages ask the count statements in fi too (the partitive frames; the published page keeps its own)
     3: { ...D, rows: 8, rowMin: 62, rowGap: 6, fontPx: 17, cues: ['count', 'first', 'last', 'ordinal', 'rightof', 'leftof'], truePerPage: 4, maxPerCue: 2, countPart: true },
   },
   i18n: { en: { title: "Read and Check: True or False", instruction: "Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word." } },

@@ -182,8 +182,10 @@ function refill(bankLoc, action, cue, k, noun, noun2) {
     else if (kind === 'all') v = usable(F[noun]) ? (plan.obj === 'allDef' ? F[noun].allDef : F[noun].all) : null;
     else if (kind === 'ordinal') v = usable(F[noun]) && F[noun].ord ? F[noun].ord[k] : null;
     else if (kind === 'first' || kind === 'last') v = bankLoc.fixed && bankLoc.fixed[kind];
-    else if (kind === 'between') { const A = F[noun] && F[noun][ep], B = F[noun2] && F[noun2][ep]; v = bankLoc.fixed && bankLoc.fixed.between && A && B ? fillSlots(bankLoc.fixed.between, { A, B }) : null; }
-    else if (kind === 'rightof' || kind === 'leftof') { const A = F[noun] && F[noun][ep]; v = bankLoc.fixed && bankLoc.fixed[kind] && A ? fillSlots(bankLoc.fixed[kind], { A }) : null; }
+    // the cue's own form where the bank names one (fixedForms: es/pt/fr "antes del caballo" / "antes do urubu" / "à droite du
+    // chat" — the spec's fixedForm(); 2026-11-04, the first all-locale run), else the endpoint form
+    else if (kind === 'between') { const fe = (bankLoc.fixedForms && bankLoc.fixedForms[kind]) || ep; const A = F[noun] && F[noun][fe], B = F[noun2] && F[noun2][fe]; v = bankLoc.fixed && bankLoc.fixed.between && A && B ? fillSlots(bankLoc.fixed.between, { A, B }) : null; }
+    else if (kind === 'rightof' || kind === 'leftof') { const fe = (bankLoc.fixedForms && bankLoc.fixedForms[kind]) || ep; const A = F[noun] && F[noun][fe]; v = bankLoc.fixed && bankLoc.fixed[kind] && A ? fillSlots(bankLoc.fixed[kind], { A }) : null; }
     if (!v) return null;
     slots[plan.obj] = v;
     if (plan.second) { const v2 = usable(F[noun2]) ? F[noun2][SECOND_SLOTS[plan.second]] : null; if (!v2) return null; slots[plan.second] = v2; }
@@ -229,7 +231,10 @@ function rejoin(bankLoc, loc, s1, s2) {
   if (v2 && v2.frame2) t2 = refill({ ...bankLoc, verbs: bankLoc.verbs.map((v) => (v.id === s2.action ? { ...v, frame: v.frame2 } : v)) }, s2.action, s2.cue, s2.k, s2.noun, s2.noun2);
   else { const t = refill(bankLoc, s2.action, s2.cue, s2.k, s2.noun, s2.noun2); t2 = t == null ? null : t.charAt(0).toLocaleLowerCase(loc) + t.slice(1); }
   if (t2 == null) return null;
-  return t1.replace(/\.$/, '') + ' ' + bankLoc.and + ' ' + t2;
+  // the comma the spec writes after a first clause that ends in a subordinate clause (verb.joinComma — de "…, wie viele
+  // Koalas es gibt, und …", da / fi likewise)
+  const v1 = (bankLoc.verbs || []).find((v) => v.id === s1.action);
+  return t1.replace(/\.$/, '') + (v1 && v1.joinComma ? ',' : '') + ' ' + bankLoc.and + ' ' + t2;
 }
 const FACE_IDS = { F1: 'G1-338', F2: 'G1-339', F3: 'G1-340', F4: 'G1-341', F5: 'G1-342' };
 
@@ -369,7 +374,8 @@ function checkBank(cfg, loc, spec, opts = {}) {
   }
   if (cfg.numbers != null) {
     if (typeof cfg.numbers !== 'object') F.push(`A ${L}: numbers is not a map`);
-    else for (let k = 1; k <= 5; k++) if (typeof cfg.numbers[k] !== 'string' || !cfg.numbers[k].trim()) F.push(`A ${L}: numbers[${k}] missing (1..5 are all printable)`);
+    // 2..5: every count and draw frame is PLURAL, so the spec refuses n = 1 (G1-308 nMin >= 2, the truth counts start at 2)
+    else for (let k = 2; k <= 5; k++) if (typeof cfg.numbers[k] !== 'string' || !cfg.numbers[k].trim()) F.push(`A ${L}: numbers[${k}] missing (2..5 are all printable)`);
   }
   // a 500-statement + 200-draw sample per theme through the gate's own re-fill (statements <= 80, draw <= 96)
   for (const theme of themes) {
@@ -427,7 +433,21 @@ function checkBank(cfg, loc, spec, opts = {}) {
 }
 
 /* ---------------- C. renders (real pipeline) ---------------- */
-async function renderCheck(page, type, inj, job, opts) {
+// a probe trimmed to the 3-line maximum is still that probe (its __probe names it)
+const isWorst = (st) => !!st && (st === WORST_CHROME || st.__probe === WORST_CHROME);
+/** The probes are the worst LEGAL chrome: the long en title wraps to FOUR lines on a fi page (measured 2026-11-04, the first
+ *  all-locale run: body 700), past the 3 lines the live gate allows a real page — such a title is trimmed word by word
+ *  until it wraps to 3, and the page is checked at that chrome. */
+async function legalChrome(job, run) {
+  let r = await run(job);
+  const base = job.strings && (job.strings.__probe || job.strings);
+  if (base !== WORST_CHROME && base !== LONG_CHROME) return r;
+  let words = base.title.split(' ');
+  while (r.titleLines > 3 && words.length > 4) { words = words.slice(0, -1); r = await run({ ...job, strings: { ...base, title: words.join(' '), __probe: base } }); }
+  return r;
+}
+async function renderCheck(page, type, inj, job, opts) { return legalChrome(job, (j) => renderCheck0(page, type, inj, j, opts)); }
+async function renderCheck0(page, type, inj, job, opts) {
   let t = type;
   if (inj) t = { ...type, build: (o, ctx) => type._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || type.difficulty[o.difficulty], { theme: o.theme, locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -442,6 +462,7 @@ async function renderCheck(page, type, inj, job, opts) {
     const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
     res.body = Math.round(body.height);
     res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    res.titleLines = Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33);
     const root = document.querySelector('[data-lcs-rad]');
     if (!root) { res.fails.push('no root'); return res; }
     res.strip = (root.dataset.lcsStrip || '').split(',').filter(Boolean);
@@ -505,8 +526,8 @@ async function renderCheck(page, type, inj, job, opts) {
   fails.push(...m.fails.map((x) => 'size: ' + x));
   if (m.tiles !== cfg.pics) fails.push(`count: ${m.tiles} tiles, config says ${cfg.pics}`);
   if (m.rows.length !== cfg.rows) fails.push(`count: ${m.rows.length} rows, config says ${cfg.rows}`);
-  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY} (re-measure the floor)`);
-  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
+  if (isWorst(job.strings) && m.body > WORST_BODY) fails.push(`chrome: the 3-line/3-line body measured ${m.body}, the gate expected <= ${WORST_BODY} (re-measure the floor)`);
+  if (isWorst(job.strings) && m.instrLines < 3) fails.push(`chrome: WORST_CHROME wrapped to ${m.instrLines} instruction lines, not 3 (the probe is vacuous)`);
   // Node-side: every data-lcs-text re-fills from the bank through fillSlots (the page cannot require)
   const bankLoc = ((inj && inj.bank) || loadBank())[job.locale.slice(0, 2)];
   m.rows.forEach((r, i) => {
@@ -525,7 +546,7 @@ async function renderCheck(page, type, inj, job, opts) {
   }
   if (!m.rows.length) fails.push('non-vacuity: 0 rows checked');
   if (!m.tiles) fails.push('non-vacuity: 0 tiles checked');
-  return { fails, rows: m.rows, strip: m.strip, body: m.body, instrLines: m.instrLines, laneH: m.laneH, textW: m.textW, pngPath: out.pngPath };
+  return { fails, rows: m.rows, strip: m.strip, body: m.body, instrLines: m.instrLines, titleLines: m.titleLines, laneH: m.laneH, textW: m.textW, pngPath: out.pngPath };
 }
 
 /* ---------------- F. the faces (real pipeline; face-aware measurement) ---------------- */
@@ -533,7 +554,8 @@ const FACE_KIND = { 'G1-338': 'circle', 'G1-339': 'steps', 'G1-340': 'position',
 const TILE_VERBS = ['circle', 'cross', 'underline', 'mark'];
 const POSITIONAL = new Set(['ordinal', 'first', 'last', 'between', 'rightof', 'leftof']);
 
-async function renderFace(page, faceType, inj, job, opts) {
+async function renderFace(page, faceType, inj, job, opts) { return legalChrome(job, (j) => renderFace0(page, faceType, inj, j, opts)); }
+async function renderFace0(page, faceType, inj, job, opts) {
   let t = faceType;
   if (inj) t = { ...faceType, build: (o, ctx) => faceType._buildWith(inj.bank || loadBank()[o.locale.slice(0, 2)], inj.cfg || faceType.difficulty[o.difficulty], { theme: o.theme, locale: o.locale }, ctx) };
   if (opts && opts.post) { const inner = t.build; t = { ...t, build: async (o, ctx) => { const b = await inner.call(t, o, ctx); b.bodyHtml = opts.post(b.bodyHtml); return b; } }; }
@@ -546,6 +568,7 @@ async function renderFace(page, faceType, inj, job, opts) {
     const body = document.querySelector('[data-lcs-body]').getBoundingClientRect();
     res.body = Math.round(body.height);
     res.instrLines = Math.round(document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height / 23);
+    res.titleLines = Math.round(document.querySelector('[data-lcs-title]').getBoundingClientRect().height / 33);
     const root = document.querySelector('[data-lcs-rad]');
     if (!root) { res.fails.push('no root'); return res; }
     res.mode = root.dataset.lcsMode || ''; res.steps = +(root.dataset.lcsSteps || 1);
@@ -616,8 +639,8 @@ async function renderFace(page, faceType, inj, job, opts) {
     return res;
   }, { pic: cfg.pic, tile: cfg.tile, picFloor: PIC_FLOOR, boxFloor: BOX_FLOOR, doneBox: DONE_BOX, textMaxH: TEXT_MAX_H, laneInner: LANE_INNER, kind });
   fails.push(...m.fails.map((x) => 'size: ' + x));
-  if (job.strings === WORST_CHROME && m.body > WORST_BODY) fails.push(`chrome: body ${m.body} > ${WORST_BODY}`);
-  if (job.strings === WORST_CHROME && m.instrLines < 3) fails.push('chrome: WORST_CHROME wrapped to fewer than 3 instruction lines (the probe is vacuous)');
+  if (isWorst(job.strings) && m.body > WORST_BODY) fails.push(`chrome: body ${m.body} > ${WORST_BODY}`);
+  if (isWorst(job.strings) && m.instrLines < 3) fails.push('chrome: WORST_CHROME wrapped to fewer than 3 instruction lines (the probe is vacuous)');
   const bankLoc = ((inj && inj.bank) || loadBank())[job.locale.slice(0, 2)];
   const loc = job.locale.slice(0, 2);
   const occ = {}; m.strip.forEach((x, i) => { (occ[x] = occ[x] || []).push(i); });
@@ -693,7 +716,7 @@ async function renderFace(page, faceType, inj, job, opts) {
   if (kind !== 'draw' && !m.rows.length) fails.push('non-vacuity: 0 rows checked');
   if (kind === 'draw' && !m.cards.length) fails.push('non-vacuity: 0 cards checked');
   if (kind !== 'draw' && !m.tiles) fails.push('non-vacuity: 0 tiles checked');
-  return { fails, rows: m.rows, cards: m.cards, strip: m.strip, body: m.body, instrLines: m.instrLines, laneH: m.laneH, textW: m.textW, chipsW: m.chipsW, pngPath: out.pngPath };
+  return { fails, rows: m.rows, cards: m.cards, strip: m.strip, body: m.body, instrLines: m.instrLines, titleLines: m.titleLines, laneH: m.laneH, textW: m.textW, chipsW: m.chipsW, pngPath: out.pngPath };
 }
 
 async function runFaces(page, note, addAssertions, loc, themes, seeds) {
@@ -743,7 +766,11 @@ async function runFaces(page, note, addAssertions, loc, themes, seeds) {
       note(seen.writes > 0 && seen.answers.size >= 2, `F2 sweep: write steps ${seen.writes}, answers ${[...seen.answers].join(',')}`);
     }
     if (kind === 'position') { note(cfg.cues.every((c) => seen.cues.has(c)), `F3 sweep: cues never asked: ${cfg.cues.filter((c) => !seen.cues.has(c)).join(',')}`); note([...seen.ks].filter((k) => k >= 2 && k <= cfg.ordMax).length >= 2, `F3 sweep: ordinal k ${[...seen.ks].join(',')} (want >= 2 distinct in 2..${cfg.ordMax})`); note(seen.ordTargets.size >= 3, `F3 sweep: positional targets ${[...seen.ordTargets].join(',')} (constant — want >= 3 distinct indices)`); }
-    if (kind === 'truth') { note(cfg.cues.every((c) => seen.cues.has(c)), `F4 sweep: cues never asked: ${cfg.cues.filter((c) => !seen.cues.has(c)).join(',')}`); note(seen.trues.length > 0, 'F4 sweep: no truth stamps'); }
+    // a count statement is unaskable where the locale's count frames take {part} (fi) and the config carries no countPart:
+    // the PUBLISHED level-2 page (the spec fills {part} on new pages only — countPartNew)
+    const countFrames = ((bankLoc.truth && bankLoc.truth.frames) || []).filter((f) => /\{n\}/.test(f.text));
+    const askable = (c) => c !== 'count' || cfg.countPart || !countFrames.length || !countFrames.every((f) => /\{part\}/.test(f.text));
+    if (kind === 'truth') { note(cfg.cues.filter(askable).every((c) => seen.cues.has(c)), `F4 sweep: cues never asked: ${cfg.cues.filter((c) => !seen.cues.has(c)).join(',')}`); note(seen.trues.length > 0, 'F4 sweep: no truth stamps'); }
     if (kind === 'draw') { note(seen.ns.size >= 2, `F5 sweep: n ${[...seen.ns].join(',')}`); note(seen.frames.size >= Math.min(4, (bankLoc.draw || []).length), `F5 sweep: frames ${[...seen.frames].join(',')} (want >= 4 distinct)`); }
     console.log(`[F] ${id} (${kind}) sweep over ${seeds} seeds: verbs ${[...seen.verbs].join(',')} · cues ${[...seen.cues].join(',')} · k ${[...seen.ks].sort().join(',')} · targets ${[...seen.targets].sort((a, b) => a - b).join(',')} · n ${[...seen.ns].sort().join(',')} · ${seen.pages.size} distinct pages`);
   }

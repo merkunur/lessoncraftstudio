@@ -6,6 +6,8 @@
  */
 'use strict';
 
+// tier 4 (2026-11-04): the verb-forms family's infinitives (es / it native panels) — vetted citation forms that no
+// word-class level draws (levels use tiers 1-3); the verb-forms gate requires every infinitive to be listed here
 const WORD_CLASSES = {
   "en": {
     "terms": {
@@ -674,6 +676,22 @@ const WORD_CLASSES = {
       {
         "w": "compartir",
         "tier": 3
+      },
+      {
+        "w": "caminar",
+        "tier": 4
+      },
+      {
+        "w": "hornear",
+        "tier": 4
+      },
+      {
+        "w": "vivir",
+        "tier": 4
+      },
+      {
+        "w": "aprender",
+        "tier": 4
       }
     ],
     "adjectives": [
@@ -1511,6 +1529,50 @@ const WORD_CLASSES = {
       {
         "w": "condividere",
         "tier": 3
+      },
+      {
+        "w": "cucinare",
+        "tier": 4
+      },
+      {
+        "w": "dipingere",
+        "tier": 4
+      },
+      {
+        "w": "guardare",
+        "tier": 4
+      },
+      {
+        "w": "parlare",
+        "tier": 4
+      },
+      {
+        "w": "vedere",
+        "tier": 4
+      },
+      {
+        "w": "sentire",
+        "tier": 4
+      },
+      {
+        "w": "pulire",
+        "tier": 4
+      },
+      {
+        "w": "finire",
+        "tier": 4
+      },
+      {
+        "w": "uscire",
+        "tier": 4
+      },
+      {
+        "w": "andare",
+        "tier": 4
+      },
+      {
+        "w": "fare",
+        "tier": 4
       }
     ],
     "adjectives": [

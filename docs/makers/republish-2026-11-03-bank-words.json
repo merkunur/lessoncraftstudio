@@ -655,6 +655,22 @@
    },
    "pictureOnly": true,
    "why": "es spelling rules (c-qu, plural -ón): the word camión stood under the TRUCK picture, but in es-MX camión is the bus (the vocabulary: truck = camión de carga); the items now show the bus. Scan the family's live es decks for camión and republish the hits in place (the word stays, the picture changes)."
+  },
+  {
+   "types": [
+    "G2-317",
+    "G2-334",
+    "G2-335",
+    "G2-336",
+    "G2-337",
+    "G2-338"
+   ],
+   "locales": {
+    "no": [
+     "Jakob sammen med søsteren sin"
+    ]
+   },
+   "why": "no verb-forms frame f02 ran past the 44-character line (46): \"Hver dag {form} Jakob med søsteren sin.\" now. Scan the family's live no decks for the old phrase and republish the hits in place."
   }
  ],
  "levelRepublish": [

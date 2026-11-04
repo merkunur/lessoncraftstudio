@@ -157,7 +157,7 @@
       {"w": "nuotare", "tier": 1}, {"w": "giocare", "tier": 1}, {"w": "bere", "tier": 1}, {"w": "scrivere", "tier": 1}, {"w": "camminare", "tier": 1}, {"w": "ridere", "tier": 2},
       {"w": "disegnare", "tier": 2}, {"w": "lavare", "tier": 2}, {"w": "spingere", "tier": 2}, {"w": "tirare", "tier": 2}, {"w": "lanciare", "tier": 2}, {"w": "prendere", "tier": 2},
       {"w": "ballare", "tier": 2}, {"w": "nascondere", "tier": 2}, {"w": "volare", "tier": 2}, {"w": "aprire", "tier": 2}, {"w": "chiudere", "tier": 2}, {"w": "sussurrare", "tier": 3},
-      {"w": "passeggiare", "tier": 3}, {"w": "costruire", "tier": 3}, {"w": "gridare", "tier": 3}, {"w": "ascoltare", "tier": 3}, {"w": "raccogliere", "tier": 3}, {"w": "condividere", "tier": 3}
+      {"w": "passeggiare", "tier": 3}, {"w": "costruire", "tier": 3}, {"w": "gridare", "tier": 3}, {"w": "ascoltare", "tier": 3}, {"w": "raccogliere", "tier": 3}, {"w": "condividere", "tier": 3}, {"w": "cucinare", "tier": 4}, {"w": "dipingere", "tier": 4}, {"w": "guardare", "tier": 4}, {"w": "parlare", "tier": 4}, {"w": "vedere", "tier": 4}, {"w": "sentire", "tier": 4}, {"w": "pulire", "tier": 4}, {"w": "finire", "tier": 4}, {"w": "uscire", "tier": 4}, {"w": "andare", "tier": 4}, {"w": "fare", "tier": 4}
     ],
     "adjectives": [
       {"w": "grande", "tier": 1}, {"w": "piccolo", "tier": 1}, {"w": "rosso", "tier": 1}, {"w": "blu", "tier": 1}, {"w": "caldo", "tier": 1}, {"w": "freddo", "tier": 1},

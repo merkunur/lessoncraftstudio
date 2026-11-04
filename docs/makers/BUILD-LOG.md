@@ -60,6 +60,16 @@ docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords)
   changed + mini tools/pictures/breakfast.json; the two de cursive checks hold: {U} is already dative), plus the cheap
   optional ones. Open for the next review: de cereal "Müsli" (the pictures show rings; sound-name-risk already notes a
   child says "Cornflakes").
+- **Round 7b (the last three family gates in every language):** read-and-do's gate trailed the spec — the per-cue
+  forms (es "antes del caballo", pt "do", fr "du") and the joinComma comma (de / da / fi "…, und …"), the long-title
+  probe past the 3-line maximum on fi pages, "numbers 1..5" where every frame is plural (2..5); G1-341 fi asks the count
+  statements on new level-2 pages (the partitive, countPartNew; the published page keeps its own); FI_GENITIVES dice =
+  nopan (one die). Verb forms: da F3 bank title copied F4 (the printed one was right), no f02 46 > 44 chars ("med"), it
+  subjectLiteral case, es / it verb-forms infinitives listed at word-classes tier 4 (citation forms no level draws).
+  Sound boxes: it maestra + sv höna were banked though quarantined (out), es leek's rule-only boundary left texBoundary,
+  pt corredora / socorrista remerged (rr one sound), nl juf out of texBoundary; excludes may name quarantined words (a
+  reviewer's veto), a face its locale refuses expects no theme. Every published page of the touched families identical
+  (sbl-published-identity + the HEAD comparison). Read-and-do PASS 185,331 × 11, verb forms PASS, hundreds chart PASS.
 - **Open:** es G2-330 builds level 3 only since the 2026-10-18 es-MX words (7 word-family items, needs 8); its refusal
   record (hub + landings data) is not touched. Republish queue: docs/makers/republish-2026-11-03-bank-words.json
   (_note7, parityRepublish, stringRepublish, scopedOldWords).

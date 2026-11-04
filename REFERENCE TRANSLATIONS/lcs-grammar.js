@@ -909,7 +909,7 @@
     'desk-lamp': { gen: 'työpöytälampun' },
     'detective': { gen: 'etsivän' },
     'diamond': { gen: 'vinoneliön' },
-    'dice': { gen: 'noppien', pt: true },
+    'dice': { gen: 'nopan' },   // one die since 2026-11-04 (the vocabulary's Noppa): singular genitive, not plural-only
     'dimetrodon': { gen: 'dimetrodonin' },
     'dinosaur': { gen: 'dinosauruksen' },
     'diplodocus': { gen: 'diplodocuksen' },

@@ -69,8 +69,9 @@ module.exports = {
         `<div style="flex:1;height:100%;display:flex;align-items:flex-end;justify-content:${spots[k - 1]};padding:0 14px;box-sizing:border-box;border-left:8px solid ${WOOD_DARK};border-right:8px solid ${WOOD_DARK};border-bottom:10px solid ${WOOD}">` +
         `<img class="ws-icon" src="${fileUri(theme, pics[k - 1].noun)}" alt=""${slot.attr(ctx, 'pic', k - 1)} style="width:${px}px;height:${px}px;object-fit:contain;margin-bottom:2px"></div></div>`);
     }
-    // the top board sits right on the top shelf; the bookcase stands on the bottom of the page
-    const bookcase = `<div data-lcs-bookcase style="width:290px;display:flex;flex-direction:column;justify-content:flex-end"><div style="margin-left:68px;height:10px;background:${WOOD_DARK}"></div><div style="padding-top:6px">${shelves.join('')}</div></div>`;
+    // the top board sits right ON the top shelf — no gap (a 6 px padding left it floating over the posts, operator
+    // 2026-11-05); the bookcase stands on the bottom of the page
+    const bookcase = `<div data-lcs-bookcase style="width:290px;display:flex;flex-direction:column;justify-content:flex-end"><div data-lcs-top-board style="margin-left:68px;height:10px;background:${WOOD_DARK}"></div><div>${shelves.join('')}</div></div>`;
     // the questions: alternately "what is on the k-th shelf?" (three pictures) and "which shelf?" (three ordinals)
     let ks;
     do { ks = rng.sample(Array.from({ length: d.shelves }, (_, i) => i + 1), d.q); }
@@ -105,6 +106,10 @@ module.exports = {
       const root = document.querySelector('[data-lcs-which-shelf]').getBoundingClientRect();
       [...qs, document.querySelector('[data-lcs-bookcase]')].forEach((e, i) => { const r = e.getBoundingClientRect(); if (r.right > root.right + 1 || r.bottom > root.bottom + 1) fails.push(`block ${i + 1} leaves the page`); });
       document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); });
+      // the top board closes the bookcase: it touches the top shelf (no gap over the posts)
+      const board = document.querySelector('[data-lcs-top-board]'), top = document.querySelector('[data-lcs-shelf]');
+      if (!board || !top) fails.push('no top board / top shelf');
+      else { const gap = top.getBoundingClientRect().top - board.getBoundingClientRect().bottom; if (Math.abs(gap) > 0.6) fails.push(`the top board is ${gap.toFixed(1)} px off the top shelf`); }
       return fails;
     });
   },

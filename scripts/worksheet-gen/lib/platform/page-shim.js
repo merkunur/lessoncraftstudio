@@ -61,7 +61,10 @@ function unzoom(iframe) {
   const k = probe.getBoundingClientRect().width / 100;   // 1/dpr where the browser reports zoomed boxes, 1 where it does not
   probe.remove();
   if (!(k > 0) || Math.abs(k - 1) < 1e-4) return;
-  const un = (r) => new W.DOMRect(r.x / k, r.y / k, r.width / k, r.height / k);
+  // read back on a 1/4096 px grid: dividing by a float k leaves noise (a 44 px picture read 43.99999963 and failed "< 44",
+  // G1-349 — zoom-checks 2026-11-05); a layout value is a multiple of 1/64 px, so the grid keeps every one of them exactly
+  const q = (v) => Math.round((v / k) * 4096) / 4096;
+  const un = (r) => new W.DOMRect(q(r.x), q(r.y), q(r.width), q(r.height));
   for (const P of [W.Element.prototype, W.Range.prototype]) {
     const g = P.getBoundingClientRect, gs = P.getClientRects;
     P.getBoundingClientRect = function () { return un(g.call(this)); };

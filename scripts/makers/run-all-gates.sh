@@ -6,7 +6,7 @@ cd "$(dirname "$0")/../.." || exit 2
 ARGS="$*"
 # GATE_LOGS=<dir>: two suites (two makers) can run side by side without sharing a log folder
 LOGS=${GATE_LOGS:-out/makers-gates}; mkdir -p "$LOGS"; rm -f "$LOGS"/*.log
-GATES=(unit-tests lint-browser-safe parity string-parity sha1-parity copy-range answer-keys screen-from-marks declared-screens slots unique-solution
+GATES=(unit-tests lint-browser-safe parity string-parity sha1-parity copy-range zoom-checks answer-keys screen-from-marks declared-screens slots unique-solution
        controls-budget collision own-input settings-space screen-geometry pdf-parity thumbs registration old-landings
        click-shell edit-shell access-shell keys-shell themes-shell saves-shell exports-shell play-shell live-gate)
 fail=0

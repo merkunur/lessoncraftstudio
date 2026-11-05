@@ -4404,7 +4404,7 @@
   },
   "G1-523": {
     "title": "A or The?",
-    "instruction": "Read the two sentences. Circle the words that fit each one."
+    "instruction": "Read the two sentences. Circle the words that fit."
   },
   "G1-524": {
     "title": "Fill In the Calendar",
@@ -4428,7 +4428,7 @@
   },
   "G1-529": {
     "title": "Give the Directions",
-    "instruction": "Follow the path from the first picture. For each part, circle the way and write how many squares."
+    "instruction": "Follow the path from the first picture. For each part, circle the direction and write how many squares."
   },
   "K-563": {
     "title": "The Room from Above",

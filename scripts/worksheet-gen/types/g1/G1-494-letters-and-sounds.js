@@ -91,10 +91,31 @@ module.exports = {
     const differ = rng.shuffle(pool.filter((x) => x.sounds < x.letters)), equal = rng.shuffle(pool.filter((x) => x.sounds === x.letters));
     const nd = Math.ceil(d.cards / 2), ne = d.cards - nd;
     if (differ.length < 2 || differ.length + Math.min(equal.length, ne) < d.cards) throw new Error(`G1-494: ${L} has ${differ.length} + ${equal.length} words of ${d.min}-${d.max} letters`);
-    const picks = [...differ.slice(0, Math.max(nd, d.cards - equal.length)), ...equal.slice(0, ne)].slice(0, d.cards);
+    const pickFrom = (dl, el) => [...dl.slice(0, Math.max(nd, d.cards - el.length)), ...el.slice(0, ne)].slice(0, d.cards);
     // a teacher's pictures (maker): a word with fewer sounds than letters for one of those, an even one for an even one
     const kindOf = (x) => (x.sounds < x.letters ? 'differ' : 'equal');
-    const KS = slot.byKind(ctx, rng.shuffle(picks), kindOf, (k) => (k === 'differ' ? differ : equal), { multi: true, prefix: 'w' });
+    // the cards in an order where no card's sounds number is the next card's letters number: copying the box before scored
+    // 41 % at level 3 (settings-space 2026-11-05) — a sounds box against its OWN letters box stays the page's honest
+    // half-and-half decision (as many sounds, or fewer)
+    const chain = (xs) => {
+      const out = [], used = xs.map(() => false);
+      const go = () => {
+        if (out.length === xs.length) return true;
+        for (let i = 0; i < xs.length; i++) {
+          if (used[i] || (out.length && out[out.length - 1].sounds === xs[i].letters)) continue;
+          used[i] = true; out.push(xs[i]);
+          if (go()) return true;
+          out.pop(); used[i] = false;
+        }
+        return false;
+      };
+      return go() ? out : null;
+    };
+    // … and when the drawn words allow no such order (every word of five letters), the page's words are drawn again
+    let order = chain(rng.shuffle(pickFrom(differ, equal)));
+    for (let t = 0; !order && t < 30; t++) order = chain(rng.shuffle(pickFrom(rng.shuffle(differ.slice()), rng.shuffle(equal.slice()))));
+    if (!order) order = rng.shuffle(pickFrom(differ, equal));
+    const KS = slot.byKind(ctx, order, kindOf, (k) => (k === 'differ' ? differ : equal), { multi: true, prefix: 'w' });
     const cards = KS.items;
     const mark = !!(ctx && (ctx.answerKey || ctx.screen));
     const box = (n) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${n}"` : ''} style="display:inline-flex;width:52px;height:50px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;

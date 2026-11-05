@@ -227,14 +227,17 @@ const JS_TRACE = [
   'var inc=T.nodes.map(function(){return[]});T.edges.forEach(function(e,i){inc[e.a].push(i);inc[e.b].push(i)});',
   'var R=[];function fresh(){R=T.routes.map(function(r){return{stack:[r.start],part:null,bad:false}})}fresh();',
   'var COL=["#2F5BD3","#7B3FB8","#C98A12","#8A5A2B"];',
-  'function px(p){var w=st.clientWidth,h=st.clientHeight;return[p[0]*w/100,p[1]*h/100]}',
+  // the node positions and the snap radius in the stage's RENDERED box, the space the pointer is in (local): a maker screen
+  // scales its 703 px page with a CSS transform below 719 px, and clientWidth stays 703 — at 360 px every press landed
+  // ~140 px from its node and no route could start (2026-11-05, the declared-screens gate)
+  'function px(p){var b=st.getBoundingClientRect();return[p[0]*b.width/100,p[1]*b.height/100]}',
   'function vb(p){return(p[0]*VW/100).toFixed(1)+","+(p[1]*VH/100).toFixed(1)}',
   'function from(e,n){return e.a===n?e.pts:e.pts.slice().reverse()}',
   'function edge(a,b){for(var i=0;i<inc[a].length;i++){var e=T.edges[inc[a][i]];if(e.a===b||e.b===b)return inc[a][i]}return -1}',
   'function proj(pts,q){var best={d:1e9,t:0},L=0,acc=[0],i;for(i=1;i<pts.length;i++){L+=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);acc.push(L)}',
   ' for(i=1;i<pts.length;i++){var a=pts[i-1],b=pts[i],dx=b[0]-a[0],dy=b[1]-a[1],ll=dx*dx+dy*dy,u=ll?((q[0]-a[0])*dx+(q[1]-a[1])*dy)/ll:0;u=Math.max(0,Math.min(1,u));',
   '  var x=a[0]+u*dx,y=a[1]+u*dy,d=Math.hypot(q[0]-x,q[1]-y);if(d<best.d)best={d:d,t:L?(acc[i-1]+u*Math.sqrt(ll))/L:0}}return best}',
-  'function snap(){return Math.max(44,st.clientWidth*0.133)}',
+  'function snap(){return Math.max(44,st.getBoundingClientRect().width*0.133)}',
   'function inkW(){return Math.max(12,T.w*0.42)*VW/T.pageW}',
   'function draw(){var s="";R.forEach(function(r,k){var pts=[T.nodes[r.stack[0]]];',
   ' for(var i=1;i<r.stack.length;i++){var e=T.edges[edge(r.stack[i-1],r.stack[i])];pts=pts.concat(from(e,r.stack[i-1]).slice(1))}',

@@ -148,11 +148,15 @@ function slotPairs(ctx, taken, pool, loc, ok) {
   const PAIR = { derives: ['chips', 'chipPairs', 'cued', 'uncuedForWidth'] };
   const chosen = slot.words(ctx, cur, tagged, 'pair', PAIR);
   label();
-  if (!chosen.some((x, i) => x !== cur[i])) return taken;
-  const list = chosen.map((x) => x.p), low = (w) => String(w).toLocaleLowerCase(loc);
-  const clash = list.some((p, i) => list.some((q, j) => j > i && ((p.exclusiveWith || []).includes(q.id) || (q.exclusiveWith || []).includes(p.id) || [p.a, p.b].some((w) => [q.a, q.b].map(low).includes(low(w))))));
-  if (!clash && (!ok || ok(list))) return list;
+  const low = (w) => String(w).toLocaleLowerCase(loc);
+  const takes = (list) => !list.some((p, i) => list.some((q, j) => j > i && ((p.exclusiveWith || []).includes(q.id) || (q.exclusiveWith || []).includes(p.id) || [p.a, p.b].some((w) => [q.a, q.b].map(low).includes(low(w)))))) && (!ok || ok(list));
+  // the picker offers only the pairs the page takes at each card (the rule below, one card at a time; 2026-11-05)
+  const offer = (shown) => slot.fits(ctx, 'pair', shown, tagged, (l) => takes(l.map((x) => x.p)));
+  if (!chosen.some((x, i) => x !== cur[i])) { offer(cur); return taken; }
+  const list = chosen.map((x) => x.p);
+  if (takes(list)) { offer(chosen); return list; }
   slot.words({ ...ctx, overrides: null }, cur, tagged, 'pair', PAIR); slot.refuse(ctx, 'pair'); label();
+  offer(cur);
   return taken;
 }
 /** the tap targets of slotPairs: the first element of each pair (data-lcs-pair / -left / -chip-pair = its id) — maker only */

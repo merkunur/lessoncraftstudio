@@ -195,11 +195,10 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
       if (r.skip) { skip = r.skip; break; }
       if (r.err) { fail(`${maker} ${t.id} ${loc} L${d} v${o.variant} ${o.theme || ''}: ${r.err}`); continue; }
       pagesN++;
-      // the PUBLISHED page (level 2, copy 1) of a declared-screen template is rebuilt exactly as it shipped, with no
-      // screen build (its interactive version is the catalogue's own deck): no graded answer there is by design.
-      // Every other page must yield one. (main session 2026-11-01: 45 "measured nothing" lines were all this page)
-      const publishedDeclared = mode !== 'marks' && Number(o.difficulty) === 2 && Number(o.variant || 1) === 1;
-      if ((!r.bundles.length || !r.bundles.some((b) => b.items.length)) && !publishedDeclared) empty++;
+      // every page must yield a graded answer: the declared screens are the maker's own (MP.buildDeclaredScreen = runtime
+      // makePage declared — the published face too gets its screen there), so the old tolerance for "the published page,
+      // no screen build" (2026-11-01) is gone (2026-11-05)
+      if (!r.bundles.length || !r.bundles.some((b) => b.items.length)) empty++;
       pools.push(r.bundles);
     }
     return { pools, skip, empty };
@@ -249,6 +248,32 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
       }
     }
     console.log(`${maker}: ${mk} template × locale × level groups measured`);
+  }
+
+  // ---- CONFIRMATION (2026-11-05): a tell found in every sample is measured once more on a sample FOUR times as big, on
+  // fresh seeds — with 12 questions over a 25-cell grid, or 72 answers over 17 values, the best of ~50 strategies beats
+  // chance by luck (G1-528 and G2-489 failed at 12 pages in both locales and passed at 48). "Raise the sample, never the
+  // threshold": the tell stands when the big sample fails too, in every locale it failed in.
+  const keyOf = (r) => `${r.maker} ${r.id} L${r.level} ${r.kind}`;
+  const confirmed = {};
+  {
+    const byK = {};
+    for (const r of report) (byK[keyOf(r)] = byK[keyOf(r)] || []).push(r);
+    for (const [k, rs] of Object.entries(byK)) {
+      const vs = rs.map((r) => r.verdict);
+      if (!vs.includes('FAIL') || !(rs.length === 1 || vs.every((v) => v !== 'PASS'))) continue;
+      const T = tpl[rs[0].id];
+      if (!T) continue;
+      const again = [];
+      let holds = true;
+      for (const r of rs.filter((x) => x.verdict === 'FAIL')) {
+        const got = await poolsFor({ maker: T.maker, t: T.t, type: T.type, tj: T.tj, loc: r.locale, d: r.level, mode: T.mode, copies: COPIES * 4, sample: LOCS.length + LOCS.indexOf(r.locale) });
+        const m2 = got.pools.length ? GM.measure(got.pools).map((x) => exemptFor(r.id, x, r.locale)).find((x) => x.kind === r.kind) : null;
+        again.push(`${r.locale} ${m2 ? m2.verdict + (m2.worst ? ' ' + m2.worst.name + '=' + (m2.worst.score * 100).toFixed(0) + '%' : '') : 'measured nothing'} on ${got.pools.length} pages`);
+        if (!m2 || m2.verdict !== 'FAIL') holds = false;
+      }
+      confirmed[k] = { holds, again: again.join(' · ') };
+    }
   }
 
   // ---- poisons, both directions
@@ -301,6 +326,12 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     const optPages = (empty) => { const r = rngP(23); return Array.from({ length: 12 }, () => { const blanks = new Set(); while (blanks.size < empty) blanks.add(Math.floor(r() * 8)); return [{ kind: 'type', items: Array.from({ length: 8 }, (_, i) => ({ answer: blanks.has(i) ? '' : String(3 + Math.floor(r() * 15)), idx: i, cardIdx: i, cardNums: [], optional: true, x: 50, y: 10 + i * 10 })) }]; }); };
     if (!v(optPages(6)).includes('FAIL')) fail('poison 5: optional boxes empty 6 times in 8 PASSED');
     if (v(optPages(4)).includes('FAIL')) fail('poison 5 control: optional boxes empty 4 times in 8 FAIL (' + JSON.stringify(GM.measure(optPages(4)).map((r) => r.worst && r.worst.name)) + ')');
+    // counted groups ("colour N of these": any N right, one question per group): rows of 6 that always want 3 must FAIL on
+    // "every other picture" (it takes exactly 3 of every row); wants that vary 1-5 must PASS — though their per-picture
+    // flags (the first N of each row) all sit at the start of their rows, as the old per-picture scoring read them
+    const countPages = (fixed) => { const r = rngP(29); return Array.from({ length: 12 }, () => { const items = []; for (let g = 0; g < 4; g++) { const w = fixed ? 3 : 1 + Math.floor(r() * 5); for (let c = 0; c < 6; c++) items.push({ x: 10 + c * 15, y: 10 + g * 20, answer: c < w, group: 'g' + g, want: w }); } return [{ kind: 'select', items }]; }); };
+    if (!v(countPages(true)).includes('FAIL')) fail('poison 6: counted groups that always want 3 of 6 PASSED');
+    if (v(countPages(false)).includes('FAIL')) fail('poison 6 control: counted groups with wants 1-5 FAIL (' + JSON.stringify(GM.measure(countPages(false)).map((r) => r.worst && r.worst.name)) + ')');
   }
 
   await m.close();
@@ -310,20 +341,26 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
   // and is REPORTED as "once", never counted as a defect — and never re-salted until it passes
   const byKey = {};
   for (const r of report) (byKey[`${r.maker} ${r.id} L${r.level} ${r.kind}`] = byKey[`${r.maker} ${r.id} L${r.level} ${r.kind}`] || []).push(r);
-  const tells = [], once = [];
+  const tells = [], once = [], unconfirmed = [];
   for (const [k, rs] of Object.entries(byKey)) {
     const vs = rs.map((r) => r.verdict);
     if (!vs.includes('FAIL')) continue;
     const replicated = rs.length === 1 ? 'single sample' : vs.every((v) => v !== 'PASS') ? 'replicated' : 'once';
     const line = `${k}: ${rs.map((r) => `${r.locale} ${r.verdict} ${r.worst ? r.worst.name + '=' + (r.worst.score * 100).toFixed(0) + '%' : ''}`).join(' · ')}`;
-    if (replicated === 'once') once.push(line); else tells.push(line + ` (${replicated})`);
+    const c = confirmed[k];
+    if (replicated === 'once') once.push(line);
+    else if (c && !c.holds) unconfirmed.push(line + ` (${replicated}) — at 4× the copies: ${c.again}`);
+    else tells.push(line + ` (${replicated})` + (c ? ` — at 4× the copies: ${c.again}` : ''));
   }
   // the per-sample FAILs above are printed, not counted; the gate's verdict is the replicated set
   fails += tells.length;
   if (tells.length) { console.log('\nTELLS (replicated in every sample, or a single sample):'); tells.forEach((l) => console.log('FAIL ' + l)); }
   if (once.length) { console.log('\nonce (FAIL in one sample, PASS in the other — luck of those pages; re-check with more copies):'); once.forEach((l) => console.log('note ' + l)); }
-  if (A.json) fs.writeFileSync(A.json, JSON.stringify({ report, tells, once }, null, 1));
+  // (a tell the big sample does not confirm is noted — the confirmation does confirm a real one: G1-529 before its fix
+  // failed at 4× the copies too, 33 % against 25 % on 192 answers)
+  if (unconfirmed.length) { console.log('\nnot confirmed (FAIL in every sample, not in a sample four times as big — the luck of a small pool):'); unconfirmed.forEach((l) => console.log('note ' + l)); }
+  if (A.json) fs.writeFileSync(A.json, JSON.stringify({ report, tells, once, unconfirmed }, null, 1));
   const warning = report.filter((r) => r.verdict === 'WARN').length;
-  console.log(`settings space: ${pagesN} pages, ${groups} groups, ${questions} graded answers measured; ${noInstrument} template groups with no graded answer (writing / material / an unread kind); ${tells.length} tells, ${once.length} once, ${warning} WARN` + (fails ? `; ${fails} failing` : '; poisons fire both ways'));
+  console.log(`settings space: ${pagesN} pages, ${groups} groups, ${questions} graded answers measured; ${noInstrument} template groups with no graded answer (writing / material / an unread kind); ${tells.length} tells, ${once.length} once, ${unconfirmed.length} not confirmed at 4× copies, ${warning} WARN` + (fails ? `; ${fails} failing` : '; poisons fire both ways'));
   if (fails) process.exitCode = 1;
 })().catch((e) => { console.error('settings space: error — ' + e.stack); process.exit(1); });

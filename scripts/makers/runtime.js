@@ -118,7 +118,10 @@ function makePage(o) {
   if (o.answerKey) {
     const keyBuilt = type.build({ theme, difficulty, locale, unit }, ctx({ answerKey: true }));
     if (JSON.stringify(keyBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the answer key drew different content than the page (' + type.id + ')');
-    keyHtml = buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize });
+    // the key keeps the page's title and says "Answer Key" where the page has its name and date lines (page/shell.js
+    // keyLabel): "Title — Answer Key" took one more title line on long titles and pushed the key past the footer — 52
+    // keys the live gate refused (2026-11-05)
+    keyHtml = buildPage({ title: head, instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize, keyLabel: o.answerKeySuffix || null });
     if (!type.interactive) keyHtml = keyMarks(keyHtml) ? keyHtml.replace('</head>', KEY_CSS + '</head>').replace(/<body([^>]*)>/, (m, at) => (/class="/.test(at) ? m.replace('class="', 'class="lcs-keypage ') : `<body${at} class="lcs-keypage">`)) : null;
   }
   // the SCREEN build (screen-from-marks, 2026-11-01): the page with every answer mark its key build stamps, without the

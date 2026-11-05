@@ -403,8 +403,12 @@ module.exports = {
         const role = 'row' + ri, cur = [it(r.anchor), it(r.partner)], pool = writable(r.cls, bank, d, loc).map(it);
         const chosen = slot.anyPictures(ctx, cur, pool, role);
         const changed = chosen.map((x, i) => x !== cur[i]), nk = chosen.filter((x, i) => changed[i]).map((x) => x.m.vocabKey);
-        if (new Set(nk).size === nk.length && chosen.every((x, i) => !changed[i] || (!keys.has(x.m.vocabKey) && !words.has(low(x.m.word))))) { r.anchor = chosen[0].m; r.partner = chosen[1].m; }
+        const free = (x) => !keys.has(x.m.vocabKey) && !words.has(low(x.m.word));
+        let shown = cur;
+        if (new Set(nk).size === nk.length && chosen.every((x, i) => !changed[i] || free(x))) { r.anchor = chosen[0].m; r.partner = chosen[1].m; shown = chosen; }
         else { slot.anyPictures({ ...ctx, overrides: null }, cur, pool, role); slot.refuse(ctx, role); }
+        // the picker offers only the class's words that are not on the page yet (the rule above, one item at a time)
+        slot.fits(ctx, role, shown, pool, (list, i) => free(list[i]));
       });
     }
 
@@ -451,7 +455,9 @@ module.exports = {
     if (plan._slotTaps) {
       out.bodyHtml = plan._slotTaps.reduce((h, t) => slot.stampSrc(ctx, t.role, h, t.srcs), out.bodyHtml);
       // a class whose words the face prints without a picture (the string face's foil words) has nothing to tap: no slot
-      if (ctx && ctx.slotsOut) for (const t of plan._slotTaps) if (!out.bodyHtml.includes(`data-lcs-slot="${t.role}.`)) delete ctx.slotsOut[t.role];
+      // (a class whose pictures ARE on the page but which no other word fits keeps its slot, untapped — lib/slot.js fits)
+      const shown = (src) => [String(src), String(src).replace(/&/g, '&amp;').replace(/"/g, '&quot;')].some((x) => out.bodyHtml.includes(`src="${x}"`));
+      if (ctx && ctx.slotsOut) for (const t of plan._slotTaps) if (!out.bodyHtml.includes(`data-lcs-slot="${t.role}.`) && !t.srcs.some(shown)) delete ctx.slotsOut[t.role];
     }
     return out;
   },
@@ -521,7 +527,9 @@ module.exports = {
         const chosen = slot.anyPictures(ctx, cur, pool, role);
         const changed = chosen.map((x, j) => x !== cur[j]), nk = chosen.filter((x, j) => changed[j]).map((x) => x.m.vocabKey);
         const srcs = mine.map((o) => o.src);
-        if (new Set(nk).size === nk.length && chosen.every((x, j) => !changed[j] || (!keys.has(x.m.vocabKey) && !words.has(low(x.m.word))))) {
+        const free = (x) => !keys.has(x.m.vocabKey) && !words.has(low(x.m.word));
+        const takes = new Set(nk).size === nk.length && chosen.every((x, j) => !changed[j] || free(x));
+        if (takes) {
           chosen.forEach((x, j) => {
             if (!changed[j]) return;
             const old = mine[j].vocabKey, e = entry(x.m, cls);
@@ -529,6 +537,8 @@ module.exports = {
             srcs[j] = e.src;
           });
         } else { slot.anyPictures({ ...ctx, overrides: null }, cur, pool, role); slot.refuse(ctx, role); }
+        // the picker offers only the class's words that are not on the page yet (the rule here, one item at a time)
+        slot.fits(ctx, role, takes ? chosen : cur, pool, (list, j) => free(list[j]));
         plan._slotTaps.push({ role, srcs });
       });
       if (face === 'open') for (const c of plan.cards) { const cl = byId.get(c.cls); c.examples = [...cl.members.filter((m) => m.vocabKey !== c.anchor.vocabKey).map((m) => m.word), ...(cl.extra || [])]; }
@@ -768,24 +778,29 @@ module.exports = {
         const idsX = chooseClasses(eligX, d.anchors);
         const pageSoundsX = new Set(idsX.map((id) => byId.get(id).sound));
         const pageNmX = new Set(idsX.flatMap((id) => [...nmOf(byId.get(id))]));
-        const anchorsX = rng.shuffle(idsX).map((id) => {
-          const c = byId.get(id);
-          const anchor = rng.pick(anchorable(c));
-          const answers = rng.sample(poolOf(c).filter((p) => p.m.vocabKey !== anchor.vocabKey && lc(p.m.word) !== lc(anchor.word)), d.per);
-          if (answers.length < d.per) throw new Error(`${who}: class ${id} has too few bank words besides its anchor (refuse)`);
-          return { cls: id, anchor: entry(anchor, id), answers: answers.map((p) => (p.x ? { vocabKey: p.m.vocabKey, word: p.m.word, cls: id } : entry(p.m, id))) };
-        });
-        const onPage = new Set(anchorsX.flatMap((a) => [a.anchor.vocabKey, ...a.answers.map((w) => w.vocabKey)]));
-        const bankWordsX = new Set(anchorsX.flatMap((a) => a.answers.map((w) => lc(w.word))));
-        const foilPoolX = [];
-        for (const c of classes) if (!idsX.includes(c.id) && !pageSoundsX.has(c.sound)) for (const m of c.members) if (!pageNmX.has(m.vocabKey) && !onPage.has(m.vocabKey) && !bankWordsX.has(lc(m.word)) && WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters) foilPoolX.push({ m, c });
-        const foilsX = [];
-        const usedCX = new Set();
-        for (const x of rng.shuffle(foilPoolX)) { if (foilsX.length === d.foils) break; if (usedCX.has(x.c.id)) continue; usedCX.add(x.c.id); foilsX.push(Object.assign(entry(x.m, x.c.id), { foil: true })); }
-        if (foilsX.length < d.foils) throw new Error(`${who}: ${loc} has ${foilsX.length} foil words from distinct classes off the page, need ${d.foils} (refuse)`);
-        const wordsX = [...anchorsX.flatMap((a) => a.answers.map((w) => Object.assign({}, w, { foil: false }))), ...foilsX];
-        const estX = wordsX.reduce((sum, w) => sum + pillEstimate(w.word, d.wordPx), 0);
-        if (estX > 2 * BANK_INNER) throw new Error(`${who}: bank of ${wordsX.length} words estimates ${Math.round(estX)} px > two rows (${2 * BANK_INNER}) — refuse, never a 3rd row`);
+        // (a bank wider than two rows draws its words again before it refuses — as level 2 below; 2026-11-05)
+        let anchorsX, foilsX, wordsX, estX;
+        for (let draw = 0; ; draw++) {
+          anchorsX = rng.shuffle(idsX).map((id) => {
+            const c = byId.get(id);
+            const anchor = rng.pick(anchorable(c));
+            const answers = rng.sample(poolOf(c).filter((p) => p.m.vocabKey !== anchor.vocabKey && lc(p.m.word) !== lc(anchor.word)), d.per);
+            if (answers.length < d.per) throw new Error(`${who}: class ${id} has too few bank words besides its anchor (refuse)`);
+            return { cls: id, anchor: entry(anchor, id), answers: answers.map((p) => (p.x ? { vocabKey: p.m.vocabKey, word: p.m.word, cls: id } : entry(p.m, id))) };
+          });
+          const onPage = new Set(anchorsX.flatMap((a) => [a.anchor.vocabKey, ...a.answers.map((w) => w.vocabKey)]));
+          const bankWordsX = new Set(anchorsX.flatMap((a) => a.answers.map((w) => lc(w.word))));
+          const foilPoolX = [];
+          for (const c of classes) if (!idsX.includes(c.id) && !pageSoundsX.has(c.sound)) for (const m of c.members) if (!pageNmX.has(m.vocabKey) && !onPage.has(m.vocabKey) && !bankWordsX.has(lc(m.word)) && WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters) foilPoolX.push({ m, c });
+          foilsX = [];
+          const usedCX = new Set();
+          for (const x of rng.shuffle(foilPoolX)) { if (foilsX.length === d.foils) break; if (usedCX.has(x.c.id)) continue; usedCX.add(x.c.id); foilsX.push(Object.assign(entry(x.m, x.c.id), { foil: true })); }
+          if (foilsX.length < d.foils) throw new Error(`${who}: ${loc} has ${foilsX.length} foil words from distinct classes off the page, need ${d.foils} (refuse)`);
+          wordsX = [...anchorsX.flatMap((a) => a.answers.map((w) => Object.assign({}, w, { foil: false }))), ...foilsX];
+          estX = wordsX.reduce((sum, w) => sum + pillEstimate(w.word, d.wordPx), 0);
+          if (estX <= 2 * BANK_INNER) break;
+          if (draw >= 40) throw new Error(`${who}: bank of ${wordsX.length} words estimates ${Math.round(estX)} px > two rows (${2 * BANK_INNER}) — refuse, never a 3rd row`);
+        }
         let bankX;
         for (let t = 0; ; t++) {
           bankX = rng.shuffle(wordsX);
@@ -797,22 +812,29 @@ module.exports = {
       const ids = chooseClasses(eligible, d.anchors);
       const pageSounds = new Set(ids.map((id) => byId.get(id).sound));
       const pageNm = new Set(ids.flatMap((id) => [...nmOf(byId.get(id))]));
-      const anchors = rng.shuffle(ids).map((id) => {
-        const c = byId.get(id);
-        const answers = rng.sample(writable(c, bank, d, loc), d.per);
-        const taken = new Set(answers.map((m) => m.vocabKey));
-        const anchor = rng.pick(anchorable(c).filter((m) => !taken.has(m.vocabKey)));
-        return { cls: id, anchor: entry(anchor, id), answers: answers.map((m) => entry(m, id)) };
-      });
       const foilPool = [];
       for (const c of classes) if (!ids.includes(c.id) && !pageSounds.has(c.sound)) for (const m of c.members) if (!pageNm.has(m.vocabKey) && WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters) foilPool.push({ m, c });
-      const foils = [];
-      const usedC = new Set();
-      for (const x of rng.shuffle(foilPool)) { if (foils.length === d.foils) break; if (usedC.has(x.c.id)) continue; usedC.add(x.c.id); foils.push(Object.assign(entry(x.m, x.c.id), { foil: true })); }
-      if (foils.length < d.foils) throw new Error(`${who}: ${loc} has ${foils.length} foil words from distinct classes off the page, need ${d.foils} (refuse)`);
-      const words = [...anchors.flatMap((a) => a.answers.map((w) => Object.assign({}, w, { foil: false }))), ...foils];
-      const est = words.reduce((sum, w) => sum + pillEstimate(w.word, d.wordPx), 0);
-      if (est > 2 * BANK_INNER) throw new Error(`${who}: bank of ${words.length} words estimates ${Math.round(est)} px > two rows (${2 * BANK_INNER}) — refuse, never a 3rd row`);
+      // a bank wider than two rows draws its words again (the answers and the foils; the classes stay) before it refuses:
+      // long words (fi) made a third of the maker's level-2 copies unbuildable on two units (settings-space 2026-11-05) — a
+      // first draw that fits is the page as before (the published page unchanged)
+      let anchors, foils, words, est;
+      for (let draw = 0; ; draw++) {
+        anchors = rng.shuffle(ids).map((id) => {
+          const c = byId.get(id);
+          const answers = rng.sample(writable(c, bank, d, loc), d.per);
+          const taken = new Set(answers.map((m) => m.vocabKey));
+          const anchor = rng.pick(anchorable(c).filter((m) => !taken.has(m.vocabKey)));
+          return { cls: id, anchor: entry(anchor, id), answers: answers.map((m) => entry(m, id)) };
+        });
+        foils = [];
+        const usedC = new Set();
+        for (const x of rng.shuffle(foilPool)) { if (foils.length === d.foils) break; if (usedC.has(x.c.id)) continue; usedC.add(x.c.id); foils.push(Object.assign(entry(x.m, x.c.id), { foil: true })); }
+        if (foils.length < d.foils) throw new Error(`${who}: ${loc} has ${foils.length} foil words from distinct classes off the page, need ${d.foils} (refuse)`);
+        words = [...anchors.flatMap((a) => a.answers.map((w) => Object.assign({}, w, { foil: false }))), ...foils];
+        est = words.reduce((sum, w) => sum + pillEstimate(w.word, d.wordPx), 0);
+        if (est <= 2 * BANK_INNER) break;
+        if (draw >= 40) throw new Error(`${who}: bank of ${words.length} words estimates ${Math.round(est)} px > two rows (${2 * BANK_INNER}) — refuse, never a 3rd row`);
+      }
       let bankItems;
       for (let t = 0; ; t++) {
         bankItems = rng.shuffle(words);

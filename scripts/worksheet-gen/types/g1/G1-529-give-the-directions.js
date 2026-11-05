@@ -60,7 +60,7 @@ module.exports = {
   exerciseType: 'maps',
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: D,
-  i18n: { en: { title: 'Give the Directions', instruction: 'Follow the path from the first picture. For each part, circle the way and write how many squares.' } },
+  i18n: { en: { title: 'Give the Directions', instruction: 'Follow the path from the first picture. For each part, circle the direction and write how many squares.' } },
 
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
@@ -88,7 +88,11 @@ module.exports = {
       `<rect x="0" y="0" width="${W}" height="${W}" fill="none" stroke="${T.teal}" stroke-width="3"/></svg>`;
     const letters = d.compass ? B5.bank('maps', L).dirLetters : null;
     const chip = (dir, ok) => `<span class="ws-dir-choice"${mark && ok ? ' data-lcs-correct="1"' : ''} data-lcs-label="${esc(d.compass ? letters[COMPASS[dir]] : M.dirs[dir])}" style="display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:2.5px solid ${T.grid};border-radius:12px;background:#FFFFFF;font:700 24px/1 'Baloo 2',cursive;color:${T.teal}">${d.compass ? esc(letters[COMPASS[dir]]) : arrow(dir)}</span>`;
-    const order = d.compass ? ['up', 'right', 'down', 'left'] : ['up', 'down', 'left', 'right'];
+    // the chips in ONE order at every level — up, down, left, right (level 3: N S W E, each letter where its arrow stood
+    // at level 2). Every part turns a corner, so the ways alternate up-down / left-right: in the compass's clockwise order
+    // N E S W the answer was always a neighbour of the last one, and "one chip on each time" scored 33 % against 25 %
+    // (settings-space 2026-11-05, en + fi, 192 answers each)
+    const order = ['up', 'down', 'left', 'right'];
     const rows = parts.map((p, i) => `<div data-lcs-dir-part="${i + 1}" style="display:flex;align-items:center;gap:12px">` +
       `<span style="flex:0 0 28px;height:28px;border-radius:14px;background:${T.teal};color:#FFFFFF;display:inline-flex;align-items:center;justify-content:center;font:700 16px/1 'Baloo 2',cursive">${i + 1}</span>` +
       `<span style="display:inline-flex;gap:6px">${order.map((dir) => chip(dir, dir === p.dir)).join('')}</span>` +

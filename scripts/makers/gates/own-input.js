@@ -20,7 +20,7 @@
  * Poisons, both directions, every run: the independent line counter must report 4 lines on a title squeezed to 4;
  * the shell must REFUSE case 2 and 4 and ACCEPT case 6 (a gate that never refuses, or never accepts, is broken).
  *
- *   node scripts/makers/gates/own-input.js [--makers=a,b] [--quick] [--per=12]
+ *   node scripts/makers/gates/own-input.js [--makers=a,b] [--quick] [--per=12] [--ids=G1-242,K-486]   (--ids: part B on those templates only)
  */
 'use strict';
 const http = require('http');
@@ -32,6 +32,7 @@ const { runLints } = require(path.join(MP.REPO, 'scripts', 'worksheet-gen', 'qa'
 const A = MP.args();
 const QUICK = !!A.quick;
 const PER = Number(A.per || (QUICK ? 4 : 12));
+const IDS = A.ids ? String(A.ids).split(',') : null;
 
 /** rendered line count of the title and instruction (runtime.js gatePage's rule, measured here independently) */
 const lineCount = () => {
@@ -53,7 +54,7 @@ const lineCount = () => {
   p.on('pageerror', (e) => errs.push(e.message));
   await p.setViewport({ width: 1366, height: 900 });
   const settle = (ms = 700) => new Promise((r) => setTimeout(r, ms));
-  let fails = 0, cases = 0, swaps = 0, accepted = 0, refused = 0, derivePoisons = 0, rowPoisons = 0;
+  let fails = 0, cases = 0, swaps = 0, accepted = 0, refused = 0, derivePoisons = 0, rowPoisons = 0, offered = 0, greyed = 0;
   // every failure is kept: the first 60 are printed as they come, and the run ends with ALL of them grouped by template
   // and kind (2026-11-04: 4825 failures printed 60 — the rest were invisible)
   const allFails = [];
@@ -156,10 +157,10 @@ const lineCount = () => {
       if (!tj.templates.some((x) => x.locales.includes(loc))) continue;
       await p.goto(`${base}/makers/app/?maker=${maker}&lang=${loc}`, { waitUntil: 'networkidle0' });
       await p.waitForFunction(() => window.__lcsMaker, { timeout: 60000 });
-      const res = await p.evaluate(async ({ PER, sample }) => {
+      const res = await p.evaluate(async ({ PER, sample, IDS }) => {
         const M = window.__lcsMaker;
         const out = [];
-        for (const t of M.tj.templates.filter((x) => x.locales.includes(M.LANG))) {
+        for (const t of M.tj.templates.filter((x) => x.locales.includes(M.LANG) && (!IDS || IDS.includes(x.id)))) {
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
           for (const d of ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)) {
@@ -199,12 +200,21 @@ const lineCount = () => {
             // (its row, its place in a shuffled word bank, its sentence among the page's sentences); a reshuffle moves two or
             // more and still fails, as does any changed scalar (2026-11-04: index 0 alone missed G1-334's bank, G1-498's c1)
             const same = (x, y) => JSON.stringify(x) === JSON.stringify(y);
-            const ownRowOnly = (a, b) => {
+            const ownRowOnly = (a, b, n) => {
               // … and any entry that NAMES the swapped item in both versions (its name is blanked to §): the item's own entries
               // wherever the page keeps them — a word trading places with the decoy it was, a pair's two chips in the bank
               if (Array.isArray(a) && Array.isArray(b)) {
                 if (a.length !== b.length) return false;
-                const diff = a.map((x, i) => i).filter((i) => !same(a[i], b[i]));
+                let diff = a.map((x, i) => i).filter((i) => !same(a[i], b[i]));
+                // an array with FEWER entries than the slot has items is not one entry per item: an entry of it that differs
+                // holds several items' content (a puzzle's case: every row, the clues, the solution) and is compared inside,
+                // never passed whole (2026-11-05: G3-379's one case held the whole puzzle — two of its names moved and passed)
+                if (n > 1 && a.length < n) {
+                  const box = (x) => x !== null && typeof x === 'object';
+                  const inner = diff.filter((i) => box(a[i]) && box(b[i]));
+                  if (inner.some((i) => !ownRowOnly(a[i], b[i], n))) return false;
+                  diff = diff.filter((i) => !inner.includes(i));
+                }
                 const named = (i) => JSON.stringify(a[i]).includes('§') && JSON.stringify(b[i]).includes('§');
                 if (diff.filter((i) => !named(i)).length <= 1) return true;
                 // a list the page SORTS (ABC order, rows by syllable count): the same entries in a new order, apart from the
@@ -214,14 +224,14 @@ const lineCount = () => {
                 for (const x of a) { const j = left.indexOf(JSON.stringify(x)); if (j >= 0) left.splice(j, 1); else extra.push(x); }
                 return extra.length <= 1 && left.length <= 1;
               }
-              if (a && b && typeof a === 'object' && typeof b === 'object') return [...new Set([...Object.keys(a), ...Object.keys(b)])].every((k) => ownRowOnly(a[k], b[k]));
+              if (a && b && typeof a === 'object' && typeof b === 'object') return [...new Set([...Object.keys(a), ...Object.keys(b)])].every((k) => ownRowOnly(a[k], b[k], n));
               return same(a, b);
             };
             const sameBut = (m1, k1, m0, k0, theme, partners, derives, n) => {
               const ks = [k1, k0].concat(...[k1, k0].map((k) => (partners && partners[k]) || []));
               const b1 = blank(strip(m1, derives, 0), ks, theme), b0 = blank(strip(m0, derives, 0), ks, theme);
               if (b1 === b0) return true;
-              try { return ownRowOnly(JSON.parse(b1), JSON.parse(b0)); } catch (e) { return false; }
+              try { return ownRowOnly(JSON.parse(b1), JSON.parse(b0), n); } catch (e) { return false; }
             };
             // poisons for a declaring slot: an extra field on the page, and (for an "{i}" path) the same path moved on
             // ANOTHER item, must both still read as a content change
@@ -250,11 +260,17 @@ const lineCount = () => {
               // keys on the page in no slot of the same kind (the picker greys every picture already on the page)
               const onPage = new Set(Object.values(b.slots).filter((x) => (x.theme || null) === (s.theme || null)).flatMap((x) => x.values));
               const pool = s.pool.filter((k) => !onPage.has(k));
-              const keys = pool.filter((_, i) => i % Math.max(1, Math.round(pool.length / PER)) === 0).slice(0, PER);
+              // a slot that records which choices FIT each item (lib/slot.js fits(): the picker greys the rest): the swaps are
+              // drawn from item 0's fitting choices, and every one of them must be taken; up to 3 greyed choices are probed too,
+              // and each must be refused — a fits list that greys a choice the page takes, or offers one it refuses, is wrong
+              const fit0 = s.fits && Array.isArray(s.fits[0]) ? new Set(s.fits[0]) : typeof s.fitsFor === 'function' ? new Set(s.fitsFor(0)) : null;
+              const offer = fit0 ? pool.filter((k) => fit0.has(k)) : pool;
+              const keys = offer.filter((_, i) => i % Math.max(1, Math.round(offer.length / PER)) === 0).slice(0, PER)
+                .concat(fit0 ? pool.filter((k) => !fit0.has(k)).filter((_, i, a) => i % Math.max(1, Math.floor(a.length / 3)) === 0).slice(0, 3) : []);
               const rows = [];
               for (const key of keys) {
                 const r = await M.mod.generate({ ...o, overrides: { [role]: { 0: key } } }, M.mount);
-                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, typeRefused: !!(r.ok && r.slots && r.slots[role] && r.slots[role].refused), others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, derivePoison: r.ok && s.derives ? poisonDerives(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, rowPoison: r.ok ? rowPoisonOf(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
+                rows.push({ key, fitted: fit0 ? fit0.has(key) : null, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, typeRefused: !!(r.ok && r.slots && r.slots[role] && r.slots[role].refused), others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, derivePoison: r.ok && s.derives ? poisonDerives(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, rowPoison: r.ok ? rowPoisonOf(r.meta, key, b.meta, s.values[0], s.theme, s.partners, s.derives, s.values.length) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? JSON.stringify(r.attempt || {}) !== JSON.stringify(b.attempt || {}) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
               }
               // a FREE slot (typed text: a group's name, a key line) takes any text by design — the typed-text cases above
               // test it; the outside-the-pool and duplicate probes are for slots with a pool
@@ -266,7 +282,7 @@ const lineCount = () => {
           }
         }
         return out;
-      }, { PER, sample: loc === 'en' ? 0 : 1 });
+      }, { PER, sample: loc === 'en' ? 0 : 1, IDS });
       for (const r of res) {
         if (!r.base) { console.log(`note ${maker} ${r.id} ${loc} L${r.d}: the base page is refused (live gate)`); continue; }
         n++;
@@ -275,6 +291,11 @@ const lineCount = () => {
         let acc = 0;
         for (const row of r.rows) {
           swaps++;
+          // the slot's fits list (lib/slot.js fits()) must be TRUE both ways: a greyed choice is one the page refuses, an
+          // offered one is one it takes
+          const took = row.ok && row.applied && !row.retried && !row.typeRefused;
+          if (row.fitted === false) { greyed++; if (took) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: greyed as not fitting (slot fits) but the page takes it`); else refused++; continue; }
+          if (row.fitted === true) { offered++; if (!took) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: offered as fitting (slot fits) but the page refuses it${row.why ? ' — ' + row.why : ''}`); }
           if (!row.ok) { refused++; continue; }
           // a type's own refusal (slot.refuse: two shadows alike, a conflicting pair) is a refusal the screen explains
           if (!row.applied) { if (row.retried || row.typeRefused) { refused++; continue; } fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: generate ok but the slot does not show the key`); continue; }
@@ -288,7 +309,8 @@ const lineCount = () => {
           const ind = await independent(row.html, r.grade);
           if (ind.lints.length) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}=${row.key}: applied but fails ${ind.lints[0]}`);
         }
-        if (r.rows.length && !acc) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}: no swap of ${r.rows.length} tried was accepted (every key refused: ${(r.rows.find((x) => x.why) || {}).why || 'retried'})`);
+        const tried = r.rows.filter((x) => x.fitted !== false);
+        if (tried.length && !acc) fail(`${maker} ${r.id} ${loc} L${r.d} ${r.role}: no swap of ${tried.length} tried was accepted (every key refused: ${(tried.find((x) => x.why) || {}).why || 'retried'})`);
       }
     }
     console.log(`${maker}: ${n} slot roles × levels swept`);
@@ -311,6 +333,6 @@ const lineCount = () => {
     console.log('every failure, grouped (template · role: kind × count):');
     for (const [k, n] of Object.entries(groups).sort((a, b) => b[1] - a[1])) console.log(`  ${String(n).padStart(5)} × ${k}`);
   }
-  console.log(`own input: ${cases} typed-text cases, ${swaps} library swaps (${accepted} accepted, ${refused} refused)` + (fails ? `; ${fails} failing` : '; all pass, poisons fire both ways'));
+  console.log(`own input: ${cases} typed-text cases, ${swaps} library swaps (${accepted} accepted, ${refused} refused; fits lists: ${offered} offered choices taken, ${greyed} greyed refused)` + (fails ? `; ${fails} failing` : '; all pass, poisons fire both ways'));
   if (fails) process.exitCode = 1;
 })().catch((e) => { console.error('own input: error — ' + e.stack); process.exit(1); });

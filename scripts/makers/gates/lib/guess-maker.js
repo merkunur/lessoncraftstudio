@@ -46,7 +46,11 @@ function enrichMarks(model) {
   const out = [];
   for (const p of model.parts) {
     if (p.cls === 'choice') {
-      out.push({ kind: 'choice', items: p.items.map((it) => ({ options: it.options.map((o) => { const el = all[o.dom]; const r = el.getBoundingClientRect(); return { label: o.label, imgs: el.querySelectorAll('img').length + el.querySelectorAll('svg').length, area: r.width * r.height, x: o.x + (o.w || 0) / 2, y: o.y + (o.h || 0) / 2 }; }), answer: it.answer })) });
+      out.push({ kind: 'choice', items: p.items.map((it) => ({ options: it.options.map((o) => { const el = all[o.dom]; const r = el.getBoundingClientRect(); return { label: o.label, imgs: el.querySelectorAll('img').length + el.querySelectorAll('svg').length, area: r.width * r.height, x: o.x + (o.w || 0) / 2, y: o.y + (o.h || 0) / 2 }; }), answer: it.answer })),
+        // options that print NO text (pictures): their label is screen.js's fallback index ("1", "2" …), never a number the
+        // child reads — the number-rank strategies would only repeat the slot ones under another name (2026-11-05: K-064's
+        // exempt top-picture slot came back as "num-min = 100 %")
+        pictures: p.items.every((it) => it.options.every((o) => !String((all[o.dom] && all[o.dom].textContent) || '').trim())) });
     } else if (p.cls === 'select') {
       out.push({ kind: 'select', items: p.items.map((it) => ({ x: it.x + (it.w || 0) / 2, y: it.y + (it.h || 0) / 2, answer: !!it.answer, group: it.meta['data-lcs-group'] || null, want: it.meta['data-lcs-want'] != null ? +it.meta['data-lcs-want'] : null })) });
     } else if (p.cls === 'type') {
@@ -161,8 +165,24 @@ function measure(pages) {
       for (const b of list) {
         const items = b.items; if (items.length < 2) continue;
         const ord = readingOrder(items), pos = new Map(ord.map((j, k) => [j, k])), half = items.length / 2;
+        // a COUNTED group (data-lcs-want: "colour 3 of the 6 cats" — ANY 3 are right, the screen grades the count) is ONE
+        // question, right when a strategy selects exactly `want` of its pictures (chance: a coin per picture gives exactly
+        // `want` of m). Its per-picture flags (screen.js: the first `want` in the page's order) name no answer the child
+        // must find — scored picture by picture they made "the first half" look like a tell (2026-11-05, G1-411: 63 %)
+        const counted = (it) => it.group != null && it.want != null;
+        const byGroup = {};
+        items.forEach((it, j) => { if (counted(it)) (byGroup[it.group] = byGroup[it.group] || []).push(j); });
+        const choose = (m, w) => { let c = 1; for (let i = 0; i < w; i++) c = (c * (m - i)) / (i + 1); return c; };
+        const picks = { 'first-half': (k) => k < half, 'second-half': (k) => k >= half, 'alternate-0': (k) => k % 2 === 0, 'alternate-1': (k) => k % 2 === 1 };
+        for (const js of Object.values(byGroup)) {
+          const m = js.length, w = items[js[0]].want;
+          ask(b.pg, choose(m, w) / Math.pow(2, m));
+          // ("the first N of the group" is no strategy here: it takes exactly N by definition — knowing N is the task)
+          for (const [name, f] of Object.entries(picks)) hit(name, js.filter((j) => f(pos.get(j))).length === w, b.pg);
+        }
         const grp = {};
         items.forEach((it, j) => {
+          if (counted(it)) return;
           ask(b.pg, 0.5); const k = pos.get(j);
           hit('first-half', it.answer === (k < half), b.pg); hit('second-half', it.answer === (k >= half), b.pg);
           hit('alternate-0', it.answer === (k % 2 === 0), b.pg); hit('alternate-1', it.answer === (k % 2 === 1), b.pg);

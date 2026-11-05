@@ -739,16 +739,23 @@ async function openPicker(i, role, idx) {
   const paged = multi && slotInfo.pool.length > 60 && themesIn.length > 1;
   let shown = paged ? (themesIn.includes(split(current)[0]) ? split(current)[0] : themesIn[0]) : null;
   const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
+  // the choices that fit this item (lib/slot.js fits(); fitsLater() is worked out once the picker is open — a crossword lays
+  // its grid out again for each choice, ~1 s — and every choice waits greyed until then)
+  let fitAt = slotInfo.fits && Array.isArray(slotInfo.fits[idx]) ? slotInfo.fits[idx] : null;
+  const later = !fitAt && typeof slotInfo.fitsFor === 'function';
+  if (later) fitAt = [];
   const fill = () => {
     grid.replaceChildren();
     for (const key of slotInfo.pool) {
       if (paged && split(key)[0] !== shown) continue;
       const used = onPage.has(key) && key !== current;
+      // a choice the page's own rule would refuse at this item (lib/slot.js fits()) is greyed like a used one
+      const unfit = !used && key !== current && !!fitAt && !fitAt.includes(key);
       const src = isPic ? imgOf(key) : null;
       // a words slot may name its keys (lib/slot.js records labels: Cloze keys its frames by id, the label is the sentence)
       const labelOf = (k) => (slotInfo.labels && slotInfo.labels[k]) || (multi ? split(k)[1] : k);
       const kids = src ? [el('img', { src, alt: split(key)[1], loading: 'lazy' })] : [el('span', { text: labelOf(key) })];
-      grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: labelOf(key), on: { click: () => choosePick(i, role, idx, key) } }, kids));
+      grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used || unfit, title: unfit ? UI.doesNotFit : labelOf(key), on: { click: () => choosePick(i, role, idx, key) } }, kids));
     }
     grid.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   };
@@ -762,6 +769,7 @@ async function openPicker(i, role, idx) {
   );
   dlg.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   dlg.showModal();
+  if (later) setTimeout(() => { fitAt = slotInfo.fitsFor(idx); fill(); }, 30);
 }
 
 /**

@@ -86,11 +86,15 @@ module.exports = {
       const tagged = pool.map((x) => ({ word: x.whole.word, x }));
       const cur = picks.map((x) => tagged[pool.indexOf(x)]);
       const chosen = slot.words(ctx, cur, tagged, 'word');
+      const hadPics = picks.every((x) => x.a.pic && x.b.pic);
+      const bad = (list) => (hadPics && !list.every((x) => x.a.pic && x.b.pic)) || list.some((x, i) => list.some((y, j) => j !== i && ([y.a.word, y.b.word].map(lo).some((w) => [x.a.word, x.b.word].map(lo).includes(w)) || lo(y.whole.word) === lo(x.whole.word) || clash(x, y))));
+      let shown = cur;
       if (chosen.some((c, i) => c !== cur[i])) {
-        const list = chosen.map((c) => c.x), hadPics = picks.every((x) => x.a.pic && x.b.pic);
-        const bad = (hadPics && !list.every((x) => x.a.pic && x.b.pic)) || list.some((x, i) => list.some((y, j) => j !== i && ([y.a.word, y.b.word].map(lo).some((w) => [x.a.word, x.b.word].map(lo).includes(w)) || lo(y.whole.word) === lo(x.whole.word) || clash(x, y))));
-        if (!bad) picks = list; else { slot.words({ ...ctx, overrides: null }, cur, tagged, 'word'); slot.refuse(ctx, 'word'); }
+        const list = chosen.map((c) => c.x);
+        if (!bad(list)) { picks = list; shown = chosen; } else { slot.words({ ...ctx, overrides: null }, cur, tagged, 'word'); slot.refuse(ctx, 'word'); }
       }
+      // the picker offers only the compounds the page takes at each card (the rule above, one card at a time; 2026-11-05)
+      slot.fits(ctx, 'word', shown, tagged, (l) => !bad(l.map((c) => c.x)));
     }
     // pictures only when every piece on the page has one (a page half pictures, half words reads as two tasks)
     const pics = !(d.hard && !links) && picks.every((x) => x.a.pic && x.b.pic);

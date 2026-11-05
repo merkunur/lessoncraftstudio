@@ -787,14 +787,15 @@ async function playTrace(page, html, oracle) {
     const box = async () => page.evaluate(() => { const r = document.getElementById('lcs-stage').getBoundingClientRect(); return { x: r.left, y: r.top + window.scrollY, w: r.width, h: r.height }; });
     const scr = (p, b) => [b.x + p[0] * b.w / 100, b.y + p[1] * b.h / 100 - (0)];
     const edgeOf = (a, c) => T.edges.find((e) => (e.a === a && e.b === c) || (e.a === c && e.b === a));
-    // one pointer sample per animation frame, as a finger produces them (a robot faster than the frame rate gets its moves
-    // merged by the browser into one far jump, which the runtime rightly refuses: ink never jumps across a wall)
-    const frame = () => page.evaluate(() => new Promise((r) => requestAnimationFrame(() => r())));
+    // one pointer move per corridor sample: page.mouse.move resolves once the renderer has HANDLED the move, so every sample
+    // arrives as its own pointermove (measured 2026-11-05: with the runtime's coalesced-event replay switched off the route
+    // still draws). The old extra requestAnimationFrame wait per sample only doubled the time (130 s a maze screen; 12 s
+    // without it under an uncapped frame rate, the declared-screens gate's launch flags)
     const drag = async (seq) => {
       await page.evaluate(() => window.scrollTo(0, 0)); const b = await box();
       const s = scr(T.nodes[seq[0]], b); await page.mouse.move(s[0], s[1]); await page.mouse.down();
       for (let i = 1; i < seq.length; i++) { const e = edgeOf(seq[i - 1], seq[i]); if (!e) { await page.mouse.up(); return false; }
-        const pts = e.a === seq[i - 1] ? e.pts : e.pts.slice().reverse(); for (const p of pts.slice(1)) { const q = scr(p, b); await page.mouse.move(q[0], q[1], { steps: 2 }); await frame(); } }
+        const pts = e.a === seq[i - 1] ? e.pts : e.pts.slice().reverse(); for (const p of pts.slice(1)) { const q = scr(p, b); await page.mouse.move(q[0], q[1]); } }
       await page.mouse.up(); return true;
     };
     const check = async () => { await page.evaluate(() => { const c = document.getElementById('lcs-check'); if (c && !c.disabled && !c.hidden) c.click(); }); await new Promise((r) => setTimeout(r, 650));

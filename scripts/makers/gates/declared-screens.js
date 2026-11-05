@@ -56,7 +56,9 @@ async function main() {
   const makers = MP.builtMakers(args.makers ? String(args.makers).split(',') : undefined);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-declared-'));
   // a page that never settles fails after two minutes instead of stalling the run (2026-11-02: a run sat idle 2.5 h)
-  const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'], protocolTimeout: 120000 });
+  // an uncapped frame rate: a maze screen's robot drags ~2,500 pointer moves, each one handled in a frame — at 60 fps a case
+  // took two minutes and the 25 maze templates ~8 h, so no full run had ever finished (2026-11-05; 12 s a case uncapped)
+  const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files', '--disable-frame-rate-limit', '--disable-gpu-vsync'], protocolTimeout: 120000 });
   let page = await browser.newPage();
   await page.setViewport({ width: 703, height: 945 });
   const mount = async (html) => { const f = path.join(tmp, 'm.html'); fs.writeFileSync(f, html); await page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' }); await page.evaluate(async () => { await document.fonts.ready; }); return page; };
@@ -72,6 +74,9 @@ async function main() {
   let poisonSample = null;
   const paths = {};
   const fails = [];
+  // each failure also goes to the progress stream as it happens: a run that is stopped keeps what it found (2026-11-05: two
+  // runs stopped after ~3 h of templates, their FAIL list printed only at the end, lost)
+  fails.push = function (...a) { for (const x of a) process.stderr.write('declared-screens: FAIL ' + x + '\n'); return Array.prototype.push.apply(this, a); };
   for (const { maker, tj } of makers) {
     for (const t of tj.templates) {
       if (t.screen !== 'declared') continue;

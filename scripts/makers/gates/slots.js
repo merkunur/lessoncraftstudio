@@ -351,14 +351,22 @@ for (const m of MAKERS) {
       // every free choice already on the page in ANOTHER role (G1-140: a row's three length-fitting pictures, the other two
       // rows hold two of them) — the page is full for this slot, a type rightly refuses a picture twice: noted, not a fault
       if (!frees.some((k) => !onPage.has(k))) { console.log(`note ${t.id} ${role}: every free choice is already on the page`); continue; }
+      // a slot that records which choices FIT each item (lib/slot.js fits / fitsLater) says beforehand what the page takes:
+      // when no item has one, the page honestly offers no other choice (its items carry no tap target) — noted; where an
+      // item has one, the probe takes the first of them, and the page must take it (2026-11-05)
+      const fitsAt = (j) => (s.fits && Array.isArray(s.fits[j]) ? s.fits[j] : typeof s.fitsFor === 'function' ? s.fitsFor(j) : null);
+      const declared = s.fits || typeof s.fitsFor === 'function';
+      if (declared && s.values.every((_, j) => !fitsAt(j).length)) { console.log(`note ${t.id} ${role}: no other choice fits any item (slot fits)`); continue; }
       const order = [...frees.filter((k) => !onPage.has(k)), ...frees.filter((k) => onPage.has(k))];
       // the item probed: item 0 first, then the next ones (2026-11-03: a Cloze plural page has two spare frames and both break
       // the theme cap for row 1) — a slot is dead only when NO item takes any free choice
       let free = null, ed = null, refusedN = 0, at = 0;
       for (let j = 0; j < Math.min(s.values.length, 8) && !ed; j++) {
-        for (const k of order) {
+        const fit = declared ? fitsAt(j) : null;
+        for (const k of fit ? order.filter((x) => fit.includes(x)) : order) {
           const r = tryMk(d, sv0, { overrides: { [role]: { [j]: k } } });
-          if (r && !r.slots[role].refused) { free = k; ed = r; at = j; break; }
+          if (r && r.slots[role] && !r.slots[role].refused) { free = k; ed = r; at = j; break; }
+          if (fit) fail(`${t.id} ${role}: ${k} is offered as fitting item ${j} (slot fits) but the page refuses it`);
           refusedN++;
         }
       }

@@ -7,7 +7,7 @@
  * A run is as long as the way goes straight (maximal: "→ 3", never "→ 1, → 2"), the instruction says so, and the
  * runs are counted from the drawn way itself. The start and the goal sit in two opposite corners chosen per copy, so
  * no arrow is the usual answer. Levels: 1 a 4 × 4 maze, 3–5 runs, the arrows printed — write how many squares ·
- * 2 a 5 × 5 maze, 4–6 runs, circle the arrow and write how many · 3 a 6 × 6 maze, 5–8 runs, arrows + squares + turns.
+ * 2 a 5 × 5 maze, 4–6 runs, circle the arrow and write how many · 3 a 6 × 6 maze, 5–7 runs (2026-11-05: eight runs on a 6 × 6 maze are mostly one square, and "1" on every line scored), arrows + squares + turns.
  */
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
@@ -19,9 +19,12 @@ const D = {
   // ~410 px across the top, the table below it in two columns
   1: { n: 4, runs: [3, 5], cell: 104, circle: false, turns: false },
   2: { n: 5, runs: [4, 6], cell: 84, circle: true, turns: false },
-  3: { n: 6, runs: [5, 8], cell: 66, circle: true, turns: true },
+  3: { n: 6, runs: [5, 7], cell: 66, circle: true, turns: true },
 };
-const DIRS = ['up', 'right', 'down', 'left'];
+// the arrow chips' order: up, down, left, right — every run turns a corner, so the ways alternate up-down / left-right, and
+// in the clockwise order up, right, down, left the answer was always a neighbour of the last one ("one chip on each
+// time" scored 38-39 % against 25 %: settings-space 2026-11-05; G1-529 the same)
+const DIRS = ['up', 'down', 'left', 'right'];
 const ROT = { up: -90, right: 0, down: 90, left: 180 };
 // the turn sign: a way that bends (drawn — an arrow codepoint is outside the page fonts)
 const turnIcon = (px) => `<svg xmlns="http://www.w3.org/2000/svg" width="${px}" height="${px}" viewBox="0 0 24 24" aria-label="turns"><path d="M 4 20 L 4 9 Q 4 5 8 5 L 17 5" fill="none" stroke="${tokens.color.ink}" stroke-width="2.6" stroke-linecap="round"/><path d="M 15 1.5 L 21 5 L 15 8.5 Z" fill="${tokens.color.ink}"/></svg>`;
@@ -49,8 +52,10 @@ module.exports = {
     // of up to 24 mazes with the level's number of runs, the one whose commonest run length is the smallest share of its
     // runs (2026-11-04, settings-space: a small maze turns often, so 40-50 % of the runs were 1 square and "1" on every
     // line scored that much)
+    // … and of 64, by what the boxes hold (2026-11-05, settings-space: level 3 still wrote "1" in 27-29 % of its boxes, the
+    // chance being one in 7): the fewest boxes sharing one number — the turns box counted too — then the fewest 1s
     let maze = null, lean = Infinity;
-    for (let t = 0, found = 0; t < 400 && found < 24; t++) {
+    for (let t = 0, found = 0; t < 1000 && found < 64; t++) {
       const { walls } = generateMaze({ cols: d.n, rows: d.n, rng });
       const c = rng.int(0, 3), from = corners[c], to = corners[(c + 2) % 4];
       const way = wayBetween(walls, d.n, d.n, from, to);
@@ -59,7 +64,9 @@ module.exports = {
       found++;
       const len = {};
       for (const r of runs) len[r.n] = (len[r.n] || 0) + 1;
-      const share = Math.max(...Object.values(len)) / runs.length;
+      if (d.turns) len[runs.length - 1] = (len[runs.length - 1] || 0) + 1;
+      const boxes = runs.length + (d.turns ? 1 : 0);
+      const share = Math.max(...Object.values(len)) / boxes + (len[1] || 0) / boxes / 100;
       if (share < lean) { lean = share; maze = { walls, from, to, way, runs }; }
     }
     if (!maze) throw new Error('K-485: no maze with the level\'s number of runs');

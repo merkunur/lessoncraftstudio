@@ -99,17 +99,14 @@ function buildShown(t, type, tj, loc, o, extra = {}) {
 
 /** the page with the type's `interactive` build (the declared screen's page), same seed, same content asserted */
 function buildDeclaredScreen(t, type, tj, loc, o) {
-  const { makeRng, instanceSeed } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'lib', 'rng.js'));
-  const { buildPage: shellPage } = require(path.join(REPO, 'scripts', 'worksheet-gen', 'page', 'shell.js'));
+  // the maker's OWN declared screen (runtime.makePage declared: its ctx — maker, the maker's copy numbering, the published
+  // face's screen): this helper used to build the type itself with a ctx of its own, and so missed what the maker passes —
+  // ctx.maker (G2-254 Reading Comprehension maps a maker copy onto its story list only then: six templates measured the
+  // published page, with no screen, as "measured nothing"; 2026-11-05) and level 2's copy k = the type's copy k + 1
   const strings = stringsFor(t, type, loc, o.difficulty);
-  // (a fresh-seed retry replaces the variant in the seed only — runtime.makePage's rule)
-  const seed = instanceSeed({ typeId: type.id, theme: o.theme, difficulty: o.difficulty, seedEpoch: 1, variant: o.seedVariant || o.variant, unit: o.unit });
-  // the maker's builds carry slotsOut (a copy that picks its own unit — a pinned maze, a Level Set scene — picks it there)
-  const base = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), slotsOut: {} });
-  const sc = type.build({ theme: o.theme, difficulty: o.difficulty, locale: loc, unit: o.unit }, { rng: makeRng(seed), variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), slotsOut: {}, interactive: true });
-  if (JSON.stringify(sc.meta) !== JSON.stringify(base.meta)) throw new Error('the interactive build drew different content than the page');
-  const pageSize = loc === 'en' ? 'letter' : 'a4';
-  return { html: shellPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: sc.bodyHtml, locale: loc, pageSize, pageHeight: (type.interactive && type.interactive.screenHeight) || null }), seed };
+  const si = (t.screenInstructions && t.screenInstructions[loc] && t.screenInstructions[loc][o.difficulty]) || strings.instruction;
+  const r = runtime.makePage({ type, strings, locale: loc, difficulty: o.difficulty, theme: o.theme, unit: o.unit, variant: o.variant, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), declared: true, screenInstruction: si });
+  return { html: r.declaredHtml, seed: r.seed };
 }
 
 /** A puppeteer page that shows html files from a temp dir (file://, pictures allowed) at a viewport. */

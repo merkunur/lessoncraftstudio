@@ -105,9 +105,12 @@ function makeWordSearch(spec) {
         items = pickWords(p, d.k, rng, L, Math.floor(cellsIn * 0.62));
         // a teacher's words (maker): each hidden word is a slot of the pool; refused when one would hide inside another
         if (items && spec.clue !== 'message') {   // (the message search: its grid is rebuilt until the leftover letters spell a sentence, so no word swap can be kept)
+          // … or when the words no longer fit the grid (the letter cap below: a longer word made the build throw — 2026-11-05)
+          const takes = (l) => !l.some((a) => l.some((b) => a !== b && GF.fold(b.grid, L).includes(GF.fold(a.grid, L)))) && !(l.reduce((s, x) => s + [...x.grid].length, 0) > cellsIn * 0.62);
           const chosen = slot.pictures(ctx, items, p, theme);
-          const inside = chosen.some((a) => chosen.some((b) => a !== b && GF.fold(b.grid, L).includes(GF.fold(a.grid, L))));
-          if (inside) { items = slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme); slot.refuse(ctx, 'pic'); } else items = chosen;
+          if (chosen.some((x, i) => x !== items[i]) && !takes(chosen)) { items = slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme); slot.refuse(ctx, 'pic'); } else items = chosen;
+          // the picker offers only the words the grid takes at each place (the rule above, one word at a time)
+          slot.fits(ctx, 'pic', items, p, takes);
         }
       }
       if (!items) throw new Error(`${spec.id}: theme ${theme}/${L} has too few words for ${d.k} (grid ${n})`);

@@ -87,7 +87,7 @@ module.exports = {
         }
         return null;
       };
-      const level = ctx.level3 ? 3 : ctx.difficulty;
+      const level = ctx.level3 ? 3 : Math.min(2, Number(ctx.difficulty) || 2);   // as build() below
       const chips = (ctx.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
       return items.map((it) => {
         const e = byKey.get(it.meta['data-lcs-vocab']) || borrowed(it.meta['data-lcs-vocab']);
@@ -116,7 +116,9 @@ module.exports = {
     if (d.onlyLocales && !d.onlyLocales.includes(loc)) throw new Error(`K-288: level ${difficulty} exists only for ${d.onlyLocales.join(', ')} (a harder article set); ${loc} refuses it`);
     // fi picks singular vs plural: a printed word or a picture beside the word gives the answer away
     if ((d.showWord || d.sortPictures) && A.mode === 'form') throw new Error(`K-288: ${loc} refuses the support level (it would print the answer)`);
-    const level = d.level3 ? 3 : difficulty;
+    // the article level is 3 only with the level-3 article SET on the chips (d.level3): a face whose level 3 keeps the
+    // two-chip page (K-306) drew il / la nouns by the level-3 rule (l'elefante) and no chip was right (2026-11-05, live gate)
+    const level = d.level3 ? 3 : Math.min(2, Number(difficulty) || 2);
     let chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
     const refuse = new Set((A.refuseKeys || []).map((k) => String(k).toLowerCase()));
     // a page where the child NAMES the picture (no word printed, no word tile): never a picture a K child commonly calls

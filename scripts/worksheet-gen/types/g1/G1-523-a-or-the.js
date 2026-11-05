@@ -24,17 +24,21 @@ const D = { 1: { n: 6, task: 'circle' }, 2: { n: 6, task: 'write', hard: true } 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const NN = ' ';
 // the two sentences: [before, after] the noun phrase — the first mention, then the second
+// … and [2] a first mention with "I drew" (the noun phrase as the chips print it: de nominative), [3] the sentence after
+// it, where the thing drawn is the known one — the same frame as the second-thing cards' "Here is a peach.", so only the
+// nouns decide (es: "hay" never takes el / la, so the known thing is "Aquí está …" — a true rule of Spanish; native +
+// pedagogy review 2026-11-05)
 const FRAMES = {
-  en: [['Here is ', '.'], ['Where is ', '?']],
-  de: [['Hier ist ', '.'], ['Wo ist ', '?']],
-  fr: [['Voici ', '.'], ['Où est ', NN + '?']],
-  es: [['Aquí hay ', '.'], ['¿Dónde está ', '?']],
-  pt: [['Aqui está ', '.'], ['Onde está ', '?']],
-  it: [['Ecco ', '.'], ["Dov'è ", '?']],
-  nl: [['Hier is ', '.'], ['Waar is ', '?']],
-  sv: [['Här är ', '.'], ['Var är ', '?']],
-  da: [['Her er ', '.'], ['Hvor er ', '?']],
-  no: [['Her er ', '.'], ['Hvor er ', '?']],
+  en: [['Here is ', '.'], ['Where is ', '?'], ['I drew ', '.'], ['Here is ', '.']],
+  de: [['Hier ist ', '.'], ['Wo ist ', '?'], ['Auf meinem Bild ist ', '.'], ['Hier ist ', '.']],
+  fr: [['Voici ', '.'], ['Où est ', NN + '?'], ["J'ai dessiné ", '.'], ['Voici ', '.']],
+  es: [['Aquí hay ', '.'], ['¿Dónde está ', '?'], ['Dibujé ', '.'], ['Aquí está ', '.']],
+  pt: [['Aqui está ', '.'], ['Onde está ', '?'], ['Eu desenhei ', '.'], ['Aqui está ', '.']],
+  it: [['Ecco ', '.'], ["Dov'è ", '?'], ['Ho disegnato ', '.'], ['Ecco ', '.']],
+  nl: [['Hier is ', '.'], ['Waar is ', '?'], ['Ik heb ', ' getekend.'], ['Hier is ', '.']],
+  sv: [['Här är ', '.'], ['Var är ', '?'], ['Jag ritade ', '.'], ['Här är ', '.']],
+  da: [['Her er ', '.'], ['Hvor er ', '?'], ['Jeg tegnede ', '.'], ['Her er ', '.']],
+  no: [['Her er ', '.'], ['Hvor er ', '?'], ['Jeg tegnet ', '.'], ['Her er ', '.']],
 };
 const NORDIC = new Set(['sv', 'da', 'no']);
 FRAMES.__proto__ = null;
@@ -63,7 +67,7 @@ Object.assign(module.exports, {
   exerciseType: 'articles',
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: D,
-  i18n: { en: { title: 'A or The?', instruction: 'Read the two sentences. Circle the words that fit each one.' } },
+  i18n: { en: { title: 'A or The?', instruction: 'Read the two sentences. Circle the words that fit.' } },
 
   build({ theme, difficulty, locale }, ctx) {
     const d = D[difficulty] || D[1], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
@@ -108,10 +112,11 @@ Object.assign(module.exports, {
     };
     const box = (answer, w, alts) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${esc(answer)}"${alts && alts.length ? ` data-lcs-alts="${esc(alts.join('|'))}"` : ''}` : ''} style="width:${Math.round(w)}px;height:46px;flex:0 0 auto;vertical-align:middle"></span>`;
     // frame 0 'Here is …' / 1 'Where is …?'; which = the form the sentence needs
-    const sentence = (p, which, j, frame = which === 'ind' ? 0 : 1, fresh = false) => {
+    const sentence = (p, which, j, frame = which === 'ind' ? 0 : 1, fresh = false, printed = false) => {
       const [pre, post] = F[frame];
       let mid;
-      if (d.task === 'circle') mid = pair(p, which, j);
+      if (printed) mid = txt(p.ind);
+      else if (d.task === 'circle') mid = pair(p, which, j);
       else if (fresh) mid = box(p.indArt, 76) + (/'$/.test(p.indArt) ? txt(p.word) : txt(' ' + p.word));
       // sv / da / no write only the definite form: the first sentence is printed (en / ett is K-288's lesson, and a theme
       // of en-words would make «en» right in every first box)
@@ -123,13 +128,26 @@ Object.assign(module.exports, {
       if (d.task === 'write' && which === 'ind' && /'$/.test(p.indArt)) mid = mid.replace(txt(' ' + p.word), txt(p.word));
       return `<div data-lcs-sentence="${which}" style="display:flex;align-items:center;flex-wrap:wrap;gap:4px 0;font:700 24px/1.25 'Nunito',sans-serif;color:${T.ink}">${txt(pre)}${mid}${txt(post)}</div>`;
     };
+    // three kinds of card (native + pedagogy review 2026-11-05), so no frame gives the form away: A "I drew a camel. Where
+    // is the camel?" · B "I drew a whale." then "Here is the whale." · second thing "Here is a dog." then "Here is a
+    // peach." — "Here is" in sentence 2 takes "a" twice and "the" twice, and only the nouns decide; the other frames are
+    // true rules ("I drew": a first mention, "Where is": a known thing). Before, "Here is → a, Where is → the" scored every
+    // sentence without reading a noun — and could teach that "Here is" never takes "the".
+    // Level 1 prints the first sentence of B and of the second-thing cards (a worked first mention) and asks the rest: 4
+    // indefinites, 4 definites (with every first sentence a choice it asked 8 to 4, and in English "a dog" is the shorter
+    // chip — the smaller chip scored 67 %, settings-space 2026-11-05).
+    const kindB = new Set(rng.sample(rows.map((_, i) => i).filter((i) => !fresh.has(i)), fresh.size));
+    const printed = new Set(d.task === 'circle' ? [...fresh, ...kindB] : []);
+    // every first sentence is the "I drew" first mention (the native re-check: a printed "Here is a dog." on the
+    // second-thing cards beside a printed "I drew a whale." on the B cards told sentence 2's answer by its frame)
+    const f1 = () => 2, f2 = (i) => (second[i] ? 0 : kindB.has(i) ? 3 : 1);
     const img = (e, px) => `<img class="ws-icon" src="${fileUri(e._theme || theme, e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain">`;
     const cards = rows.map((x, i) => `<div data-lcs-a-or-the="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-vocab="${esc(x.e.vocabKey)}"${second[i] ? ` data-lcs-second="${esc(second[i].e.vocabKey)}"` : ''} style="display:flex;align-items:center;gap:18px;padding:8px 16px;border-radius:16px;background:${T.cream}">` +
       `<div style="flex:0 0 80px;display:flex;flex-direction:column;align-items:center;gap:2px">${second[i] ? img(x.e, 46) + img(second[i].e, 46) : img(x.e, 80)}</div>` +
-      `<div style="display:flex;flex-direction:column;gap:8px;min-width:0">${sentence(x.p, 'ind', i * 2)}${second[i] ? sentence(second[i].p, 'ind', i * 2 + 1, 0, true) : sentence(x.p, 'def', i * 2 + 1)}</div></div>`);
+      `<div style="display:flex;flex-direction:column;gap:8px;min-width:0">${sentence(x.p, 'ind', i * 2, f1(i), false, printed.has(i))}${second[i] ? sentence(second[i].p, 'ind', i * 2 + 1, 0, true) : sentence(x.p, 'def', i * 2 + 1, f2(i))}</div></div>`);
     return {
       bodyHtml: `<div data-ws-content data-lcs-a-or-the-page style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:12px;min-height:0">${cards.join('')}</div>`,
-      meta: { items: rows.map(({ p }, i) => `${F[0][0]}${p.ind}${F[0][1]} ${second[i] ? F[0][0] + second[i].p.ind + F[0][1] : F[1][0] + p.def + F[1][1]}`) },
+      meta: { items: rows.map(({ p }, i) => `${F[f1(i)][0]}${p.ind}${F[f1(i)][1]} ${second[i] ? F[0][0] + second[i].p.ind + F[0][1] : F[f2(i)][0] + p.def + F[f2(i)][1]}`) },
     };
   },
 

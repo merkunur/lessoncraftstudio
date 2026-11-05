@@ -55,7 +55,8 @@ module.exports = {
     if (drawn.length < d.n) throw new Error(`G1-490: theme ${theme}/${loc} has ${drawn.length} pictures that do not look alike (< ${d.n})`);
     let picks = slot.pictures(ctx, drawn, pool, theme, 'pic');
     // a teacher's swap that brings a look-alike onto the page is refused
-    if (picks.some((e, i) => { const g = groupOf(e.vocabKey); return g >= 0 && picks.some((x, j) => j !== i && groupOf(x.vocabKey) === g); })) { slot.refuse(ctx, 'pic'); picks = drawn; }
+    // (the slot is recorded again without the override, so the screen shows the page's own pictures, not the refused one)
+    if (picks.some((e, i) => { const g = groupOf(e.vocabKey); return g >= 0 && picks.some((x, j) => j !== i && groupOf(x.vocabKey) === g); })) { picks = slot.pictures({ ...ctx, overrides: null }, drawn, pool, theme, 'pic'); slot.refuse(ctx, 'pic'); }
     const sorted = picks.slice().sort((a, b) => compare(a.word, b.word, loc));
     let order = picks.map((e, i) => ({ e, i }));
     const same = (a, b) => a.map((x) => x.word).join('|') === b.map((x) => x.word).join('|');

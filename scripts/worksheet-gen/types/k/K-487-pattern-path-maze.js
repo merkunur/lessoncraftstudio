@@ -145,8 +145,10 @@ module.exports = {
     const startMark = `<span data-lcs-path-start="1" style="position:absolute;left:-34px;top:${c / 2 - 12}px;width:0;height:0;border-top:12px solid transparent;border-bottom:12px solid transparent;border-left:22px solid ${tokens.color.coral}"></span>`;
     const goalMark = `<svg xmlns="http://www.w3.org/2000/svg" data-lcs-path-goal="1" width="30" height="40" style="position:absolute;left:${W + 6}px;top:${H - c / 2 - 30}px"><rect x="2" y="2" width="3" height="36" fill="${tokens.color.inkSoft}"/><path d="M5 2 L28 9 L5 17 Z" fill="${tokens.color.coral}"/></svg>`;
     const strip = `<div data-lcs-pattern="${made.pattern.length}" style="display:flex;align-items:center;gap:8px;padding:8px 14px;border:2px dashed ${tokens.color.grid};border-radius:14px">${made.pattern.map((v) => `<span${isNum ? '' : slot.attr(ctx, 'pic', made.pics.findIndex((p) => p.noun === v))} style="width:${Math.round(c * 0.72)}px;height:${Math.round(c * 0.72)}px;border-radius:50%;border:2px solid ${tokens.color.teal};background:#FFFFFF;display:flex;align-items:center;justify-content:center">${face(v, Math.round(c * 0.5))}</span>`).join('')}<span style="font:700 24px/1 'Baloo 2',cursive;color:${tokens.color.inkSoft}">…</span></div>`;
+    // the screen grades the EXACT way (the stones marked correct): the grid carries no data-lcs-want — a want made the
+    // screen take "any N stones", so tapping as many stones as the way has, anywhere, scored (settings-space 2026-11-05)
     const body = `<div data-ws-content style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">${strip}` +
-      `<div data-lcs-choice="path" data-lcs-want="${made.path.length}" data-lcs-grid="${d.cols}x${d.rows}" data-lcs-seq="${made.seq.join('|')}" style="position:relative;width:${W}px;height:${H}px">${stones.join('')}${startMark}${goalMark}</div></div>`;
+      `<div data-lcs-choice="path" data-lcs-grid="${d.cols}x${d.rows}" data-lcs-seq="${made.seq.join('|')}" style="position:relative;width:${W}px;height:${H}px">${stones.join('')}${startMark}${goalMark}</div></div>`;
     return { bodyHtml: body, meta: { path: made.path.map((p) => p.join(',')).join(' '), seq: made.seq } };
   },
 

@@ -87,9 +87,15 @@ const chromeText = (s, locale) => (isFr(locale) ? frTypo(esc(s)) : esc(s));
 /**
  * buildPage({ title, instruction, bodyHtml, locale, pageSize }) → html string
  */
-function buildPage({ title, instruction, bodyHtml, locale, pageSize, pageHeight }) {
+function buildPage({ title, instruction, bodyHtml, locale, pageSize, pageHeight, keyLabel }) {
   const size = PAGE_SIZES[pageSize || 'a4'];
   const chrome = CHROME[locale] || CHROME.en;
+  // an answer key (keyLabel: "Answer Key", "Lösungen" …) keeps the page's own title and says it is the key where the page
+  // has its name and date lines — those stay in place, unseen, so the key lays out exactly like its page (2026-11-05,
+  // the live gate: "Title — Answer Key" took one more title line on 52 pages and pushed the key past the footer)
+  const hid = keyLabel ? ' style="visibility:hidden" aria-hidden="true"' : '';
+  const label = keyLabel ? `
+      <span data-lcs-key-label style="position:absolute;right:0;bottom:4px;font-size:15px;font-weight:800;color:#F2784B;letter-spacing:0.3px">${esc(keyLabel)}</span>` : '';
   return `<!DOCTYPE html>
 <html lang="${esc(locale || 'en')}">
 <head>
@@ -104,9 +110,9 @@ ${css().page}
 <div class="ws-page" data-lcs-page>
   <header class="ws-head">
     <h1 class="ws-title" data-lcs-title>${chromeText(title, locale)}</h1>
-    <div class="ws-namedate">
-      <span>${esc(chrome.name)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank"></span></span>
-      <span>${esc(chrome.date)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank ws-blank--short"></span></span>
+    <div class="ws-namedate"${keyLabel ? ' style="position:relative"' : ''}>
+      <span${hid}>${esc(chrome.name)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank"></span></span>
+      <span${hid}>${esc(chrome.date)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank ws-blank--short"></span></span>${label}
     </div>
   </header>
   <div class="ws-instruction">

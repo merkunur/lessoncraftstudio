@@ -92,6 +92,8 @@ module.exports = {
         if (pairFree(chosen) && RCL.avoidNatural(chosen.map((e) => e.vocabKey), cs, COLOR_KEYS.slice(0, d.colors))) { targets = chosen; cs.forEach((c, i) => { colorKeys[i] = c; }); }
         else { slot.pictures({ ...ctx, overrides: null }, targets, entries, theme); slot.refuse(ctx, 'pic'); }
       }
+      // the picker offers only the pictures the page takes at each card (the rule above, one card at a time; 2026-11-05)
+      slot.fits(ctx, 'pic', targets, entries, (l) => pairFree(l) && RCL.avoidNatural(l.map((e) => e.vocabKey), baseColors.slice(), COLOR_KEYS.slice(0, d.colors)));
     }
     const frames = SB.pickFrames(bank, { kind: 'color', count: 1, rng });
     const framePool = bank.frames.filter((f) => f.kind === 'color');

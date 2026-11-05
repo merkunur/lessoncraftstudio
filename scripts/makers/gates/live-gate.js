@@ -32,8 +32,13 @@ const COPIES = Number(arg('copies', '2'));
   let fails = 0, pages = 0, retried = 0;
   const times = [];
   let poisoned = false;
+  const MP = require('./lib/maker-pages.js');
   for (const maker of MAKERS) {
+    const built = MP.builtMakers([maker])[0];
     for (const lang of LOCALES) {
+      // a language no template of the maker ships in shows the "not in your language" note and no test hook (shell.js):
+      // nothing to gate — waiting for the hook timed out on cursive sv / fi every run (2026-11-05; own-input does the same)
+      if (built && !built.tj.templates.some((x) => x.locales.includes(lang))) { console.log(`note ${maker} ${lang}: no template in this language — skipped`); continue; }
       // a page that stalls (the maker never mounts in 60 s, an evaluate that throws) is a named FAIL and the run goes on —
       // before 2026-11-04 the throw left the loop unnamed and the open browser kept the process alive for good
       let p;

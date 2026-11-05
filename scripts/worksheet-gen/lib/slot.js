@@ -81,8 +81,53 @@ function text(ctx, value, role, max = 24) {
  */
 function refuse(ctx, role) { if (ctx && ctx.slotsOut && ctx.slotsOut[role]) ctx.slotsOut[role].refused = true; }
 
-/** The tap target: ` data-lcs-slot="<role>.<i>"` in the maker, nothing in the catalogue (its pages stay byte-identical). */
-const attr = (ctx, role, i) => (ctx && ctx.slotsOut ? ` data-lcs-slot="${role}.${i}"` : '');
+/**
+ * Which choices FIT each item (2026-11-05, own-input): fits[i] = the pool keys the type's own whole-page rule takes at
+ * item i with every other item kept — the picker offers only those, and an item no choice fits gets no tap target, so a
+ * teacher never picks a picture the page then refuses (13 templates refused every choice tried at some level: a rhyme
+ * already on the page, a colour order, two pairs on one first letter, a word that sits on two pieces).
+ * items = the page's items as drawn (after the teacher's choices); pool = the SAME pool the slot was recorded with (its
+ * keys are slotsOut[role].pool, in order); valid(list, i) must be the very rule the swap is judged by, and must not use
+ * the page's rng. Maker only (the catalogue never records a slot).
+ */
+function fits(ctx, role, items, pool, valid) {
+  const s = ctx && ctx.slotsOut && ctx.slotsOut[role];
+  if (!s) return;
+  const taken = new Set(s.values);
+  s.fits = {};
+  items.forEach((x, i) => {
+    s.fits[i] = [];
+    pool.forEach((p, j) => { if (!taken.has(s.pool[j]) && valid(items.map((y, k) => (k === i ? p : y)), i)) s.fits[i].push(s.pool[j]); });
+  });
+}
+
+/**
+ * fits() worked out only when it is asked for (fitsFor(i), memoised): for a rule too costly to run over every item on
+ * every build — a crossword lays its grid out again for each choice (≈ 12 ms a try). The picker asks when it opens; the
+ * own-input gate asks for item 0. Every item keeps its tap target (the answer is not known while the page is built).
+ */
+function fitsLater(ctx, role, items, pool, valid) {
+  const s = ctx && ctx.slotsOut && ctx.slotsOut[role];
+  if (!s) return;
+  const taken = new Set(s.values), memo = new Map();
+  s.fitsFor = (i) => {
+    if (!memo.has(i)) memo.set(i, i >= 0 && i < items.length ? pool.map((p, j) => (!taken.has(s.pool[j]) && valid(items.map((y, k) => (k === i ? p : y)), i) ? s.pool[j] : null)).filter((k) => k != null) : []);
+    return memo.get(i);
+  };
+}
+
+/**
+ * The tap target: ` data-lcs-slot="<role>.<i>"` in the maker, nothing in the catalogue (its pages stay byte-identical) —
+ * and nothing on an item that no choice fits (fits(): the picker would have nothing to offer).
+ */
+const attr = (ctx, role, i) => {
+  if (!(ctx && ctx.slotsOut)) return '';
+  const s = ctx.slotsOut[role];
+  // … except an item the teacher already changed: it keeps its target, so the choice can be made again
+  // (applied: the item shows the teacher's key — a refused or unknown key changes nothing, not even the target)
+  const edited = !!(s && ctx.overrides && ctx.overrides[role] && ctx.overrides[role][i] != null && s.values[i] === ctx.overrides[role][i]);
+  return !edited && s && s.fits && Array.isArray(s.fits[i]) && !s.fits[i].length ? '' : ` data-lcs-slot="${role}.${i}"`;
+};
 
 /** The same tap target put on the FIRST tag of an element's markup (a card, a row) — maker only. */
 const stamp = (ctx, role, i, html) => (ctx && ctx.slotsOut ? String(html).replace(/^(\s*<[a-zA-Z][\w-]*)/, '$1' + attr(ctx, role, i)) : html);
@@ -145,4 +190,4 @@ function byKind(ctx, items, kindOf, poolFor, opts = {}) {
   return { items: out, tap: (i) => tapAt[i] || '' };
 }
 
-module.exports = { pictures, words, anyPictures, text, refuse, attr, stamp, stampSrc, stampBy, byKind };
+module.exports = { pictures, words, anyPictures, text, refuse, fits, fitsLater, attr, stamp, stampSrc, stampBy, byKind };

@@ -289,12 +289,15 @@ function slotFrames(ctx, taken, pool, loc, gl, extraOk) {
   const cur = taken.map((fr) => tagged[pool.indexOf(fr)]);
   const chosen = slot.words(ctx, cur, tagged, 'sent', { derives: ['gapW'] });
   if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
-  if (!chosen.some((x, i) => x !== cur[i])) return taken;
+  const ok = (frs) => !!compose({ shuffle: (a) => a }, frs, { rows: frs.length }, loc, gl) && (!extraOk || extraOk(frs));
+  // the picker offers only the frames the page takes at each row (the rule below, one row at a time; 2026-11-05)
+  const offer = (shown) => slot.fits(ctx, 'sent', shown, tagged, (l) => ok(l.map((x) => x.fr)));
+  if (!chosen.some((x, i) => x !== cur[i])) { offer(cur); return taken; }
   const list = chosen.map((x) => x.fr);
-  const valid = compose({ shuffle: (a) => a }, list, { rows: list.length }, loc, gl);
-  if (valid && (!extraOk || extraOk(list))) return list;
+  if (ok(list)) { offer(chosen); return list; }
   slot.words({ ...ctx, overrides: null }, cur, tagged, 'sent', { derives: ['gapW'] }); slot.refuse(ctx, 'sent');
   if (ctx.slotsOut && ctx.slotsOut.sent) ctx.slotsOut.sent.labels = Object.fromEntries(tagged.map((x) => [x.word, label(x.fr)]));
+  offer(cur);
   return taken;
 }
 /** the tap targets of slotFrames: the first data-lcs-frame="<id>" of each row (maker only) */

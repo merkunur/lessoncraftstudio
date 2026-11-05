@@ -25,6 +25,14 @@ const DELIBERATE = [
   { since: 'f146b5906', why: 'tap-spell accepts the other right orders a page lists (data-lcs-alts, Unscramble the Sentence)',
     from: 'var right=fold(w)===fold(B.answers[i]);for(var k=0;k<it.slots.length;k++)',
     to: 'var right=fold(w)===fold(B.answers[i]);if(!right){var al=String(((B.items[i]||{}).meta||{})["data-lcs-alts"]||"").split("|");for(var a=0;a<al.length;a++)if(al[a]&&fold(al[a])===fold(w))right=true}for(var k=0;k<it.slots.length;k++)' },
+  // trace-path: the nodes and the snap radius in the stage's RENDERED box, the pointer's space (a maker screen scales its
+  // page with a CSS transform; on an unscaled catalogue deck the two boxes are the same, so a deck behaves as before)
+  { since: 'round 10 (2026-11-05)', why: 'trace-path node positions in the rendered box (no route could start at 360 px in the maker)',
+    from: 'function px(p){var w=st.clientWidth,h=st.clientHeight;return[p[0]*w/100,p[1]*h/100]}',
+    to: 'function px(p){var b=st.getBoundingClientRect();return[p[0]*b.width/100,p[1]*b.height/100]}' },
+  { since: 'round 10 (2026-11-05)', why: 'trace-path snap radius in the rendered box',
+    from: 'function snap(){return Math.max(44,st.clientWidth*0.133)}',
+    to: 'function snap(){return Math.max(44,st.getBoundingClientRect().width*0.133)}' },
 ];
 let refSrc = execSync(`git show ${REF}:${REL}/interactive-runtime.js`, { cwd: REPO, maxBuffer: 64 << 20, encoding: 'utf8' });
 for (const p of DELIBERATE) {

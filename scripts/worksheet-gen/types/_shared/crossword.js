@@ -17,6 +17,7 @@ const { pool, langName } = require('./word-search.js');
 const CL = require('../../lib/puzzles/crossword-layout.js');
 const { CROSSWORD_WORDS } = require('../../data/puzzles/crossword-words.js');
 const slot = require('../../lib/slot.js');
+const { makeRng } = require('../../lib/rng.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -79,14 +80,14 @@ function makeCrossword(spec) {
       // fill-in: the words written in until the fill is the only one — the word set and the order of the given words that
       // need the FEWEST (at most d.maxGiven, 2: a page that writes in half its words is no puzzle — the B7 review saw 5 of 10)
       // one layout attempt for a word set: the grid, and (fill-in) the order of given words that needs the fewest
-      const layOne = (pick) => {
-        const L2 = CL.layout(pick.map((x) => x.grid), { rng, starts: 48, clueCells: spec.clue === 'arrow', maxRows, maxCols });
+      const layOne = (pick, r = rng) => {
+        const L2 = CL.layout(pick.map((x) => x.grid), { rng: r, starts: 48, clueCells: spec.clue === 'arrow', maxRows, maxCols });
         if (!L2 || L2.unplaced.length) return null;
         if (spec.clue !== 'fillin') return { lay: L2, given: {}, nGiven: 0 };
         const ents = CL.number(L2.entries), words = ents.map((e) => e.word);
         let best = null;
         for (let o = 0; o < 6; o++) {
-          const order = rng.shuffle(ents.map((e, i) => i)), g = { [order[0]]: ents[order[0]].word };
+          const order = r.shuffle(ents.map((e, i) => i)), g = { [order[0]]: ents[order[0]].word };
           for (let k = 1; k < order.length && fills(ents, words, g) > 1; k++) g[order[k]] = ents[order[k]].word;
           if (!best || Object.keys(g).length < best.nGiven) best = { lay: L2, given: g, nGiven: Object.keys(g).length };
         }
@@ -104,17 +105,27 @@ function makeCrossword(spec) {
       if (!lay) throw new Error(`${spec.id}: these words do not cross into one grid (${theme}/${L})`);
       // a teacher's words (maker): word i of the drawn grid replaced, the others kept, the grid laid out again around
       // them — refused when the new word cannot cross the others (or a fill-in would need more given words than allowed)
-      const chosen = slot.pictures(ctx, items, p, theme, 'pic', { derives: ['words', 'rows', 'cols'] });   // a new word: the grid is solved again (its numbers and places follow)
-      if (chosen.some((x, i) => x !== items[i])) {
+      // The new set is laid out on its OWN seed (the word list's), so the picker can tell beforehand which choices fit
+      // (slot.fitsLater: the same tries, the same answer — 2026-11-05, own-input: a level-3 grid's long middle word took no
+      // choice at all, and every one the picker offered was refused after the teacher picked it)
+      const PIC = { derives: ['words', 'rows', 'cols'] };   // a new word: the grid is solved again (its numbers and places follow)
+      const relay = (list) => {
+        const r0 = makeRng(['crossword-swap', spec.id, L, d.k, ...list.map((x) => x.grid)].join('|'));
         let best = null;
-        for (let t = 0; t < 30 && !(best && best.nGiven <= 1); t++) {
-          const r = layOne(chosen);
+        for (let t = 0; t < 8 && !(best && best.nGiven <= 1); t++) {
+          const r = layOne(list, r0);
           if (r && (!best || r.nGiven < best.nGiven)) best = r;
           if (r && spec.clue !== 'fillin') break;
         }
-        if (best && (spec.clue !== 'fillin' || best.nGiven <= (d.maxGiven || 2))) { lay = best.lay; given = best.given; bestGiven = best.nGiven; items = chosen; }
-        else { slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme); slot.refuse(ctx, 'pic'); }
+        return best && (spec.clue !== 'fillin' || best.nGiven <= (d.maxGiven || 2)) ? best : null;
+      };
+      const chosen = slot.pictures(ctx, items, p, theme, 'pic', PIC);
+      if (chosen.some((x, i) => x !== items[i])) {
+        const best = relay(chosen);
+        if (best) { lay = best.lay; given = best.given; bestGiven = best.nGiven; items = chosen; }
+        else { slot.pictures(ctx && { ...ctx, overrides: null }, items, p, theme, 'pic', PIC); slot.refuse(ctx, 'pic'); }
       }
+      slot.fitsLater(ctx, 'pic', items, p, (l) => !!relay(l));
       const tapOf = (word) => slot.attr(ctx, 'pic', items.findIndex((x) => x.grid === word));
       if (spec.clue === 'fillin' && bestGiven > (d.maxGiven || 2)) throw new Error(`${spec.id}: no fill with ≤ ${d.maxGiven || 2} given words (${theme}/${L})`);
       const byWord = new Map(items.map((x) => [x.grid, x]));

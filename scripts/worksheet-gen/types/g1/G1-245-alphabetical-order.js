@@ -133,6 +133,8 @@ module.exports = {
         if (fits(chosen)) picks = chosen;
         else { slot.pictures(ctx && { ...ctx, overrides: null }, picks, pool, theme); slot.refuse(ctx, 'pic'); }
       }
+      // the picker offers only the words the page's first-letter rule takes at each card (one card at a time; 2026-11-05)
+      slot.fits(ctx, 'pic', picks, pool, (l) => fits(l));
     }
     const sorted = picks.slice().sort((a, b) => compare(a.word, b.word, loc));
     const rank = new Map(sorted.map((e, i) => [e.word, i + 1]));

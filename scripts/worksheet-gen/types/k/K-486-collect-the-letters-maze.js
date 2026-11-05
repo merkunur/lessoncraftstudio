@@ -46,8 +46,10 @@ module.exports = {
       .filter((e) => /^\p{L}+$/u.test(e.word) && [...e.word].length >= d.letters[0] && [...e.word].length <= d.letters[1]);
     pool = distinctByWord(pool, (e) => e.word.toLocaleLowerCase(loc));
     if (!pool.length) throw new Error(`K-486: theme ${theme}/${loc} has no picture word of ${d.letters.join('-')} letters`);
-    // the goal picture is the page's slot (the teacher may pick another of the theme's pictures that fits the level)
-    const pickNoun = slot.pictures(ctx, [rng.pick(pool)], pool, theme, 'pic')[0];
+    // the goal picture is the page's slot (the teacher may pick another of the theme's pictures that fits the level); its
+    // word IS the content (the letters along the way spell it), so the word follows the picture (2026-11-05, own-input:
+    // a Finnish swap changed meta.word, which no key blanking can name)
+    const pickNoun = slot.pictures(ctx, [rng.pick(pool)], pool, theme, 'pic', { derives: ['word'] })[0];
     const goal = pool.find((e) => e.noun === pickNoun.noun) || pool[0];
     const letters = [...goal.word];
     let maze = null;

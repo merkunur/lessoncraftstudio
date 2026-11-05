@@ -106,6 +106,41 @@ async function runLints(page, { gradeBand }) {
       if (!img.complete || img.naturalWidth === 0) fails.push('broken image: ' + img.src.slice(-60));
     });
 
+    // 2b. a picture inside a FRAMED box (a choice circle, a card) stays inside its frame (2026-11-05, operator: Growing
+    // Patterns' groups of 4-6 ran out of their answer circles, on the page and in the key — no check looked inside a box).
+    // The frame = the nearest of the picture's three closest ancestors with a drawn border. A round frame (a circle or
+    // a pill) holds the middle of the picture (70 % of its box, the drawing; the box corners are transparent); a square
+    // one holds the whole box, within 1 px.
+    document.querySelectorAll('.ws-page img').forEach((img) => {
+      const r = img.getBoundingClientRect();
+      if (!(r.width > 0)) return;
+      let f = img.parentElement;
+      for (let k = 0; f && k < 3; k++, f = f.parentElement) {
+        const cs = getComputedStyle(f);
+        if (['Top', 'Right', 'Bottom', 'Left'].some((s) => parseFloat(cs['border' + s + 'Width']) >= 1.5 && cs['border' + s + 'Style'] !== 'none' && !/rgba\(.*,\s*0\)$|transparent/.test(cs['border' + s + 'Color']))) break;
+      }
+      if (!f || f.classList.contains('ws-page')) return;
+      const fr = f.getBoundingClientRect(), cs = getComputedStyle(f);
+      const L = fr.left + parseFloat(cs.borderLeftWidth), T = fr.top + parseFloat(cs.borderTopWidth);
+      const W = fr.width - parseFloat(cs.borderLeftWidth) - parseFloat(cs.borderRightWidth), H = fr.height - parseFloat(cs.borderTopWidth) - parseFloat(cs.borderBottomWidth);
+      // the frame's inside is a rounded rectangle (a circle and a pill are rounded rectangles too)
+      const rr = Math.max(0, Math.min((parseFloat(cs.borderTopLeftRadius) || 0) - parseFloat(cs.borderTopWidth), W / 2, H / 2));
+      const inside = ([x, y]) => {
+        if (x < L - 1 || x > L + W + 1 || y < T - 1 || y > T + H + 1) return false;
+        const qx = Math.min(Math.max(x, L + rr), L + W - rr), qy = Math.min(Math.max(y, T + rr), T + H - rr);
+        return Math.hypot(x - qx, y - qy) <= rr + 1;
+      };
+      const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+      const round = rr >= 0.4 * Math.min(W, H);
+      // round frame: the drawing's edge-middles (35 % out) and its corners (30 % out on each axis); square: the whole box
+      const pts = round
+        ? [[cx - 0.35 * r.width, cy], [cx + 0.35 * r.width, cy], [cx, cy - 0.35 * r.height], [cx, cy + 0.35 * r.height],
+          ...[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b]) => [cx + a * 0.3 * r.width, cy + b * 0.3 * r.height])]
+        : [[r.left, r.top], [r.right, r.top], [r.left, r.bottom], [r.right, r.bottom]];
+      const out = pts.some((p) => !inside(p));
+      if (out) fails.push(`picture outside its frame: <${f.tagName.toLowerCase()} class="${f.className.baseVal || f.className}">`);
+    });
+
     // 3. font-size floor on text-bearing elements
     document.querySelectorAll('.ws-page p, .ws-page span, .ws-page h1, .ws-page text').forEach((el) => {
       if (!el.textContent.trim()) return;

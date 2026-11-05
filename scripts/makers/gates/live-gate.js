@@ -2,7 +2,7 @@
 /**
  * Gate: the catalogue's page gates run LIVE in the maker screen and agree with the catalogue (ARCHITECTURE §6).
  *
- * For every maker, every locale, every template offered there, levels × copies 1-2: the page is made in the browser
+ * For every maker, every locale, every template offered there, levels × copies 1, 2 and 157 (past every pool): the page is made in the browser
  * through generate() — lints + the type's verify, in the gate frame — and must pass. A page that needed a retry knob or a
  * fresh seed is reported (the catalogue's own page passed on the first attempt, so a retry here means the browser lays the
  * page out differently from Node — a defect to read, not to accept). Timing per page is reported (budget §6.2: 150 ms p95
@@ -11,7 +11,7 @@
  * Poison (always runs first): a page whose body is pushed past the footer must be REFUSED, and a passing page must still
  * pass when gated twice (the gate frame is reused).
  *
- *   node scripts/makers/gates/live-gate.js [--makers=a,b] [--locales=en,de] [--copies=2]
+ *   node scripts/makers/gates/live-gate.js [--makers=a,b] [--locales=en,de] [--copies=1,2,157]
  */
 'use strict';
 const http = require('http');
@@ -23,12 +23,20 @@ const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k
 // default: every maker built so far (out/makers/versions.json), not just the pilot
 const MAKERS = arg('makers', Object.keys(JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', '..', '..', 'out', 'makers', 'versions.json'), 'utf8'))).join(',')).split(',');
 const LOCALES = arg('locales', 'en,de,fr,es,pt,it,nl,sv,da,no,fi').split(',');
-const COPIES = Number(arg('copies', '2'));
+// copies 1 and 2, and one far past every picture / word pool: New version jumps the copy by 1-97 a click and the copy stays
+// with the page across templates (2026-11-05: six Dot-to-Dot templates refused every copy past their pool)
+const COPIES = arg('copies', '1,2,157').split(',').map(Number);
+// each language is made at its own screen scale (browser zoom × the display's scaling): a teacher's Chrome at 1.2 refused
+// 21 of 24 spelling pages, every one fine at 1 (2026-11-05 — the gate frame now measures at scale 1 whatever the zoom,
+// page-shim.js unzoom). en stays at 1, the catalogue's own scale; --dsf=1 makes every language 1.
+const DSF_BY_LANG = { en: 1, de: 1.2, fr: 1.1, es: 1.25, pt: 0.9, it: 1.5, nl: 1.33, sv: 1.75, da: 0.8, no: 2, fi: 1.2 };
+const dsfOf = (lang) => Number(arg('dsf', '') || DSF_BY_LANG[lang] || 1);
 
 (async () => {
   const srv = http.createServer(handler); await new Promise((r) => srv.listen(0, r));
   const port = srv.address().port;
-  const browser = await puppeteer.launch();
+  const browsers = {};   // one per screen scale (a scale is a launch flag)
+  const browserAt = async (dsf) => (browsers[dsf] = browsers[dsf] || await puppeteer.launch(dsf === 1 ? {} : { args: ['--force-device-scale-factor=' + dsf] }));
   let fails = 0, pages = 0, retried = 0;
   const times = [];
   let poisoned = false;
@@ -43,7 +51,9 @@ const COPIES = Number(arg('copies', '2'));
       // before 2026-11-04 the throw left the loop unnamed and the open browser kept the process alive for good
       let p;
       try {
-      p = await browser.newPage();
+      const dsf = dsfOf(lang);
+      p = await (await browserAt(dsf)).newPage();
+      if (dsf !== 1) await p.setViewport(null);
       const errs = [];
       p.on('pageerror', (e) => errs.push(e.message));
       await p.goto(`http://localhost:${port}/makers/app/?maker=${maker}&lang=${lang}`, { waitUntil: 'networkidle0' });
@@ -76,7 +86,7 @@ const COPIES = Number(arg('copies', '2'));
         for (const t of M.tj.templates.filter((x) => x.locales.includes(M.LANG))) {
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
-          for (const d of ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)) for (let v = 1; v <= COPIES; v++) {
+          for (const d of ((t.localeLevels && t.localeLevels[M.LANG]) || t.levels)) for (const v of COPIES) {
             const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? (v === 2 && ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).find((x) => /bw(\s+\d+)?$/i.test(x))) || ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes)[(v - 1) % ((t.localeThemes && t.localeThemes[M.LANG]) || t.themes).length] : null, unit: (() => { const lu = units.filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[M.LANG] || (t.localeUnitLevels[M.LANG][u.id] || []).includes(d))); return lu.length ? lu[(v - 1) % lu.length].id : null; })(), variant: v, answerKey: !!(t.interactive || (t.keyLevels || []).includes(d)), answerKeySuffix: M.tj.answerKey[M.LANG] };
             const t0 = performance.now();
             const r = await M.mod.generate(o, M.mount);
@@ -92,7 +102,7 @@ const COPIES = Number(arg('copies', '2'));
       }
       if (errs.length) { fails++; console.log(`FAIL ${maker} ${lang} page errors: ${errs.slice(0, 2).join(' | ')}`); }
       await p.close();
-      process.stdout.write(`${maker} ${lang}: ${res.length} pages\n`);
+      process.stdout.write(`${maker} ${lang}: ${res.length} pages (screen scale ${dsf})\n`);
       } catch (e) {
         fails++;
         console.log(`FAIL ${maker} ${lang}: ${String((e && e.message) || e).split('\n')[0]}`);
@@ -103,6 +113,7 @@ const COPIES = Number(arg('copies', '2'));
   times.sort((a, b) => a - b);
   const q = (f) => Math.round(times[Math.min(times.length - 1, Math.floor(f * times.length))]);
   console.log(`live gate: ${pages} pages, ${fails} failing, ${retried} needed a retry; ms per page p50 ${q(0.5)} p95 ${q(0.95)} max ${q(1)}`);
-  await browser.close(); srv.close();
+  for (const b of Object.values(browsers)) await b.close();
+  srv.close();
   if (fails) process.exitCode = 1;
 })().catch((e) => { console.error(e); process.exit(1); });

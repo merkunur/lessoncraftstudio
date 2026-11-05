@@ -74,7 +74,7 @@ function makePatternType(cfg) {
         const rowAvail = STAGE_W - 12 - (nChoices * CHIP + (nChoices - 1) * 10 + 14);
         const seqW = (px) => slotCount * px + (slotCount - 1) * 8;
         let slotPx = attribute === 'count'
-          ? 84   // growing-pattern slots hold up to 4 icons
+          ? 74   // growing-pattern slots hold up to 4 icons (74, was 84: the choices beside them hold up to 6 — 2026-11-05)
           : Math.max(40, Math.min(64, Math.floor((availW - (slotCount - 1) * 8) / slotCount)));
         let stack = false;
         if (attribute !== 'count' && seqW(slotPx) > rowAvail) {
@@ -159,10 +159,15 @@ function makePatternType(cfg) {
         if (attribute === 'count') {
           const nextCount = growStart + seqLen - 1;
           const counts = [nextCount, nextCount - 1, nextCount + 1];
+          // a choice is a group in a box like the pattern's, its pictures in rows: groups of 4-6 at 22 px in a 58 px circle
+          // ran out of it, on the page and in the key (operator 2026-11-05). One picture size for the row's three choices
+          // (the largest group decides), so no choice looks different from the others
+          const cols = nextCount + 1 <= 4 ? 2 : 3, ipx = cols === 2 ? 30 : 22;
           choices = rng.shuffle(counts).map((c) => ({
-            html: `<span style="display:flex;flex-wrap:wrap;gap:2px;justify-content:center;max-width:88px">` +
-              Array.from({ length: c }, () => `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:22px;height:22px">`).join('') + `</span>`,
+            html: `<span style="display:flex;flex-wrap:wrap;gap:2px;justify-content:center;max-width:${cols * ipx + (cols - 1) * 2}px">` +
+              Array.from({ length: c }, () => `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:${ipx}px;height:${ipx}px">`).join('') + `</span>`,
             correct: c === nextCount,
+            box: true,
           }));
         } else if (variant === 'missing2') {
           // line-drawing task: one chip per unit symbol + a distractor; the
@@ -189,7 +194,7 @@ function makePatternType(cfg) {
           });
         }
         const chipHtml = choices.map((c) =>
-          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${keyMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym === answerSym && c.sym === answerSym2 ? (2 * i + 1) + '·' + (2 * i + 2) : 2 * i + (c.sym === answerSym ? 1 : 2)}"` : ''}${pairMarks && !keyMarks && c.sym ? ` data-lcs-pair="${chipId(c.sym)}" data-lcs-label="•"${grp}` : ''}>${c.html}</span>`).join('');
+          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : c.box ? ' style="width:80px;height:80px;border-radius:14px"' : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${keyMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym === answerSym && c.sym === answerSym2 ? (2 * i + 1) + '·' + (2 * i + 2) : 2 * i + (c.sym === answerSym ? 1 : 2)}"` : ''}${pairMarks && !keyMarks && c.sym ? ` data-lcs-pair="${chipId(c.sym)}" data-lcs-label="•"${grp}` : ''}>${c.html}</span>`).join('');
 
         // stack: the choices under the sequence — at its right end for "what comes next", centred for the missing ones
         cards.push(stack

@@ -513,6 +513,18 @@ function withPageNumber(html, i) {
   return html.slice(0, at) + `<span class="ws-foot-num" data-lcs-page-number style="font-weight:800;color:#3A3530">${i + 1} / ${state.pages.length}</span>` + html.slice(at);
 }
 
+/** On the local preview only (scripts/makers/serve.js answers /__dev/refused; the site has no such route and is never
+ *  called): which page was refused, with its settings and reasons, so a refusal a teacher sees can be rebuilt exactly. */
+const LOCAL_PREVIEW = /^(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+)$/.test(location.hostname) && location.port === '8490';
+function reportRefusal(i, e) {
+  if (!LOCAL_PREVIEW) return;
+  try {
+    const o = pageOptions(i);
+    const body = JSON.stringify({ maker: MAKER, lang: LANG, template: state.tpls[i] || state.id, page: i, pages: state.pages.length, level: o.difficulty, theme: o.theme, unit: o.unit, variant: o.variant, paper: o.pageSize, key: o.answerKey, overrides: o.overrides, texts: !!o.baseStrings, browser: navigator.userAgent, dpr: window.devicePixelRatio, win: [innerWidth, innerHeight], fails: e.fails || null, error: e.fails ? null : String((e && e.stack) || e).slice(0, 600) });
+    fetch('/__dev/refused', { method: 'POST', headers: { 'content-type': 'application/json' }, body }).catch(() => {});
+  } catch (x) { /* a report never breaks the screen */ }
+}
+
 async function makeHtml(i, key) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
@@ -685,6 +697,7 @@ async function render(scrollToSelected) {
     } catch (e) {
       // the gate's reasons are for us, not the teacher (they are English): the page says it could not be made
       console.warn('page refused', e.fails || e);
+      reportRefusal(i, e);
       refused++;
       out.push(el('p', { class: 'mk-note', text: UI.failed }));
     }

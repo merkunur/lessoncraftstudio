@@ -15,8 +15,27 @@ function starter(text, { font = 24, blank = 170 } = {}) {
 }
 const line = (w, h = 50) => writingRow({ w, h, glyphH: Math.round(h * 0.52), xHeight: true }).svg;
 const lines = (n, w, h) => Array.from({ length: n }, () => `<div>${line(w, h)}</div>`).join('');
-/** an empty speech bubble (an ellipse with a tail at the bottom left), w × h */
-const bubble = (w, h) => `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true" data-lcs-bubble="1"><path d="M${w * 0.5} ${h * 0.04} C ${w * 0.95} ${h * 0.04}, ${w * 0.99} ${h * 0.78}, ${w * 0.5} ${h * 0.78} L ${w * 0.3} ${h * 0.97} L ${w * 0.34} ${h * 0.76} C ${w * 0.02} ${h * 0.7}, ${w * 0.04} ${h * 0.04}, ${w * 0.5} ${h * 0.04} Z" fill="#FFFFFF" stroke="${T.teal}" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
+/**
+ * An empty speech bubble, w × h: a TRUE ellipse (centre BUBBLE.cx·w, BUBBLE.cy·h, radii BUBBLE.rx·w, BUBBLE.ry·h) with a tail
+ * at the bottom left. Until 2026-11-05 it was two cubic curves whose control points sat at 2 % and 99 % of the width — a
+ * cubic never reaches its control points, so the drawn bubble spanned only 16-85 % of its box and K-555's writing line
+ * ran out of both sides (operator). The ellipse is exact, so bubbleLine() can place a line inside it by arithmetic.
+ */
+const BUBBLE = { cx: 0.5, cy: 0.4, rx: 0.48, ry: 0.36 };
+function bubble(w, h) {
+  const cx = w * BUBBLE.cx, cy = h * BUBBLE.cy, rx = w * BUBBLE.rx, ry = h * BUBBLE.ry;
+  const at = (deg) => { const a = (deg * Math.PI) / 180; return [cx + rx * Math.cos(a), cy + ry * Math.sin(a)].map((v) => Math.round(v * 10) / 10); };
+  // the tail leaves the ellipse between 100° and 122° (screen angles: below the centre, a little left) and points down-left
+  const [ax, ay] = at(100), [bx, by] = at(122), tip = [Math.round((cx - rx * 0.62) * 10) / 10, Math.round(h * 0.97 * 10) / 10];
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true" data-lcs-bubble="1" data-lcs-ellipse="${cx},${cy},${rx},${ry}"><path d="M${ax} ${ay} A ${rx} ${ry} 0 1 0 ${bx} ${by} L ${tip[0]} ${tip[1]} Z" fill="#FFFFFF" stroke="${T.teal}" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
+}
+/** where a writing line lh tall sits inside bubble(w, h): centred on the ellipse, as wide as the ellipse is at the line's top
+ *  and bottom edges less a margin m each side → { left, top, width } in the bubble's own pixels */
+function bubbleLine(w, h, lh, m = 12) {
+  const cx = w * BUBBLE.cx, cy = h * BUBBLE.cy, rx = w * BUBBLE.rx, ry = h * BUBBLE.ry;
+  const half = rx * Math.sqrt(1 - ((lh / 2) / ry) ** 2) - m;
+  return { left: Math.round(cx - half), top: Math.round(cy - lh / 2), width: Math.floor(2 * half) };
+}
 const drawBox = (w, h) => `<div data-lcs-draw style="flex:0 0 ${w}px;width:${w}px;height:${h}px;box-sizing:border-box;border:2.5px dashed ${T.teal};border-radius:14px;background:#FFFFFF"></div>`;
 
-module.exports = { starter, line, lines, bubble, drawBox, esc };
+module.exports = { starter, line, lines, bubble, bubbleLine, BUBBLE, drawBox, esc };

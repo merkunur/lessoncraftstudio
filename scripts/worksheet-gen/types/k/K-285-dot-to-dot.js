@@ -216,10 +216,12 @@ module.exports = {
     // past the scene pool (the whole Nordic alphabet has four scene pictures): the hand-drawn figures, which take any
     // number of dots, so "New version" never runs dry (ENGINES-ART §4.3: a gallery needs ≥ 20 pictures); every copy inside
     // the pool — every published one — is drawn as before (makers, 2026-11-02)
-    if (sv - 1 >= pool.length) {
-      // only the figures whose outline takes this many dots (29 letters: 7 of the 16)
-      const takes = DOT_FIGURES.filter((f) => { try { dotFigure({ figure: f, count, size: 560 }); return true; } catch (e) { return false; } });
-      if (!takes.length) throw new Error(`${this.id}: no picture for ${count} dots — REFUSED`);
+    // only the figures whose outline takes this many dots (29 letters: 7 of the 16); none takes 10, so a 10-dot level goes
+    // round its scene pool again instead (2026-11-05, operator: "This page couldn't be created" after a few New versions —
+    // six templates refused every copy past their pool; the gates had only built copies 1-12)
+    const takes = sv - 1 >= pool.length ? DOT_FIGURES.filter((f) => { try { dotFigure({ figure: f, count, size: 560 }); return true; } catch (e) { return false; } }) : [];
+    if (sv - 1 >= pool.length && !takes.length && !pool.length) throw new Error(`${this.id}: no picture for ${count} dots — REFUSED`);
+    if (sv - 1 >= pool.length && takes.length) {
       const figure = takes[((sc.offset || 0) + sv - 1 - pool.length) % takes.length];
       const hand = dotFigure({ figure, count, step: d.step || 1, startAt: d.startAt, window: null, size: 560, values });
       const hstrip = d.strip === false ? '' : numberStrip({ values: hand.labels, chip: d.chip });

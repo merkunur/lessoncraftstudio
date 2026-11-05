@@ -136,7 +136,10 @@ const NO_KEY = {
 };
 
 (async () => {
-  const versions = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', 'versions.json'), 'utf8'));
+  const all = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', 'versions.json'), 'utf8'));
+  // --makers=a,b: those makers only (a quick look; the full run takes every maker)
+  const only = (process.argv.find((a) => a.startsWith('--makers=')) || '').slice(9).split(',').filter(Boolean);
+  const versions = only.length ? Object.fromEntries(only.map((m) => [m, all[m]])) : all;
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-keys-'));
   const browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'] });
   const page = await browser.newPage();
@@ -155,8 +158,35 @@ const NO_KEY = {
       const shown = getComputedStyle(el, '::after').content.replace(/^"|"$/g, '');
       if (shown !== want) miss.push(`answer "${want}" not shown (${shown})`); else marks++;
     }
+    // the ring must be WHOLE (2026-11-05, operator: the word search key's circles were cut off — the grid's frame trimmed
+    // the edge cells' rings and every next cell's white background covered the one before): the middle of each side of
+    // the ring, 2 px into it, must lie inside every clipping box around the choice and under no later opaque box
+    // a box covers by its BACKGROUND (a cell's white); a drawing's box is transparent where nothing is drawn — G1-501's
+    // writing line sits under the ring's lower edge and hides nothing (read on the render 2026-11-05)
+    const opaque = (x) => { const cs = getComputedStyle(x); return cs.backgroundImage !== 'none' || !/rgba\(.*,\s*0\)$|transparent/.test(cs.backgroundColor); };
+    const after = (a, b) => !!(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_PRECEDING);   // b comes before a
+    const ringCut = (el) => {
+      const r = el.getBoundingClientRect(), inset = /inset/.test(getComputedStyle(el).boxShadow), o = inset ? -2 : 2;
+      const pts = [[r.left - o, r.top + r.height / 2], [r.right + o, r.top + r.height / 2], [r.left + r.width / 2, r.top - o], [r.left + r.width / 2, r.bottom + o]];
+      for (const [x, y] of pts) {
+        for (let a = el.parentElement; a && a !== document.body; a = a.parentElement) {
+          const cs = getComputedStyle(a);
+          if (cs.overflowX === 'visible' && cs.overflowY === 'visible') continue;
+          const b = a.getBoundingClientRect(), bl = parseFloat(cs.borderLeftWidth) || 0, bt = parseFloat(cs.borderTopWidth) || 0;
+          if (x < b.left + bl || x > b.right - (parseFloat(cs.borderRightWidth) || 0) || y < b.top + bt || y > b.bottom - (parseFloat(cs.borderBottomWidth) || 0)) return 'trimmed by its frame';
+        }
+        const hit = document.elementFromPoint(x, y);
+        if (!hit || hit === el || hit.contains(el)) continue;
+        if (el.contains(hit)) { if (inset && opaque(hit)) return 'covered by its own content'; continue; }
+        // a box painted after the choice (later in the page) covers its ring where it is opaque
+        for (let h = hit; h && !h.contains(el); h = h.parentElement) if (after(h, el) && opaque(h)) return 'covered by the next box';
+      }
+      return '';
+    };
     for (const el of document.querySelectorAll('[data-lcs-correct]')) {
-      if (getComputedStyle(el).boxShadow === 'none') miss.push('a right choice is not ringed'); else marks++;
+      if (getComputedStyle(el).boxShadow === 'none') { miss.push('a right choice is not ringed'); continue; }
+      const cut = ringCut(el);
+      if (cut) miss.push(`a right choice's ring is cut off (${cut})`); else marks++;
     }
     for (const el of document.querySelectorAll('[data-lcs-key-ring]')) {
       if (parseFloat(getComputedStyle(el).outlineWidth) < 3) miss.push('a ring mark is not drawn'); else marks++;
@@ -218,6 +248,18 @@ const NO_KEY = {
   await mount(sample.keyHtml.replace(".lcs-keypage [data-lcs-correct]{box-shadow:0 0 0 4px #F2784B;border-radius:999px}", ''));
   const p = await audit();
   if (!p.miss.length) fail('poison: a key without the ring rule was not caught');
+  // poison, both ways: the word search key's rings are whole; with the grid rule taken out (each ring outside its cell, as
+  // before 2026-11-05) they must be read as cut off
+  const tws = require(path.join(REPO, 'scripts/worksheet-gen/types/g1/G1-532-word-search.js'));
+  const kws = runtime.makePage({ type: tws, strings: withLevelInstruction(resolveStrings('G1-532', 'en', tws), 'G1-532', 2, 'en'), locale: 'en', difficulty: 2, theme: 'animals', variant: 1, answerKey: true }).keyHtml;
+  await mount(kws);
+  const pw0 = await audit();
+  if (pw0.miss.length || !pw0.marks) fail(`poison control: the G1-532 key reads ${pw0.marks} marks, ${pw0.miss.slice(0, 2).join('; ')}`);
+  const unfixed = kws.replace('.lcs-keypage [data-lcs-ws-grid] [data-lcs-correct]{box-shadow:inset 0 0 0 4px #F2784B}', '');
+  if (unfixed === kws) fail('poison: the G1-532 key has no grid ring rule to take out');
+  await mount(unfixed);
+  const pw1 = await audit();
+  if (!pw1.miss.some((m) => /cut off/.test(m))) fail('poison: word search rings outside their cells were not read as cut off');
   // poison: a key whose answers seated on the writing rows are blank must be caught (and the real one counted)
   const t336 = require(path.join(REPO, 'scripts/worksheet-gen/types/g1/G1-336-opposites-pair-up.js'));
   const k336 = runtime.makePage({ type: t336, strings: withLevelInstruction(resolveStrings('G1-336', 'en', t336), 'G1-336', 2, 'en'), locale: 'en', difficulty: 2, theme: null, variant: 1, answerKey: true }).keyHtml;

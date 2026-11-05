@@ -62,7 +62,10 @@ function makeLitWordBuild(cfg) {
       const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
       const missOf = (it) => String(it.word)[Number.isInteger(it.blank) ? it.blank : Math.floor(String(it.word).length / 2)];
       const drawn = this.mode === 'cvc-missing' && !published ? roundRobin(pool, n, rng, missOf) : rng.sample(pool, n);
-      const chosen = slot.anyPictures(ctx, rng.shuffle(drawn), pool, 'pic');   // a teacher's pictures (maker): any word of the reviewed list
+      // build-the-word prints at most 6 cards: the slot holds only the printed ones (2026-11-05, own-input: levels 2-3 drew 8,
+      // so the picker offered 2 pictures that are not on the page). Same draw and shuffle, so a catalogue page is unchanged.
+      const shown = this.mode === 'build-the-word' ? rng.shuffle(drawn).slice(0, 6) : rng.shuffle(drawn);
+      const chosen = slot.anyPictures(ctx, shown, pool, 'pic');   // a teacher's pictures (maker): any word of the reviewed list
 
       if (this.mode === 'build-the-word') return buildBuildWord(chosen, n, rng, ctx);
 

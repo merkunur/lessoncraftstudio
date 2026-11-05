@@ -53,6 +53,19 @@ const CAP = 3;
 const PLAY_CAP = 10;
 function devApi(req, res, url, query) {
   const send = (status, body) => { res.writeHead(status, { 'content-type': 'application/json', 'cache-control': 'no-store' }); res.end(JSON.stringify(body)); };
+  // a page the maker refused on THIS preview (shell.js reports it here): what, with which settings, and why — printed and
+  // appended to out/makers/_local/refusals.log, so a refusal seen in a browser can be rebuilt exactly (2026-11-05)
+  if (url === '/__dev/refused' && req.method === 'POST') {
+    let body = '';
+    req.on('data', (c) => { body += c; if (body.length > 1e5) req.destroy(); });
+    req.on('end', () => {
+      const line = new Date().toISOString() + ' ' + body.replace(/\s+/g, ' ') + '\n';
+      try { fs.mkdirSync(path.join(REPO, 'out', 'makers', '_local'), { recursive: true }); fs.appendFileSync(path.join(REPO, 'out', 'makers', '_local', 'refusals.log'), line); } catch (e) { /* the print is enough */ }
+      console.log('REFUSED ' + line.trim());
+      send(200, { ok: true });
+    });
+    return;
+  }
   if (url === '/__dev/access') {
     if (query.get('as')) dev.as = query.get('as');
     if (query.get('made') !== null) dev.made = Number(query.get('made'));

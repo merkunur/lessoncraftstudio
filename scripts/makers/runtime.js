@@ -44,6 +44,9 @@ const KEY_RULES = [
   '.ws-answerbox[data-lcs-answer]:empty:not([data-lcs-answer=""])::after{content:attr(data-lcs-answer);color:#146B5E;font-family:\'Baloo 2\',cursive;font-weight:700}',
   '[data-lcs-correct]{box-shadow:0 0 0 4px #F2784B;border-radius:999px}',
   '.ws-subgroup[data-lcs-correct]{border-radius:12px}',
+  // a cell of a letter grid (word search): the ring INSIDE the cell — outside it, the grid's frame trimmed the edge cells'
+  // rings and each next cell's white covered the one before (operator 2026-11-05)
+  '[data-lcs-ws-grid] [data-lcs-correct]{box-shadow:inset 0 0 0 4px #F2784B}',
   // an empty answer cell that is not a write-in box (a missing letter, a glue square): the letter, in teal
   '[data-lcs-answer]:empty:not([data-lcs-answer=""]):not(.ws-answerbox)::after{content:attr(data-lcs-answer);color:#146B5E}',
   // a picture / cell to circle (the Nth one, every one like the model): a coral ring

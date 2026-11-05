@@ -37,8 +37,11 @@ module.exports = {
     if (pool.length < d.n) throw new Error(`K-555: theme ${theme}/${L} has ${pool.length} pictures (< ${d.n})`);
     const picks = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme, 'pic');
     const rows = picks.map((e, i) => {
+      // the writing line INSIDE the bubble: its place and width come from the bubble's own ellipse (writing-frames bubbleLine;
+      // a fixed 380 px line at 44 px ran out of both sides of the drawn bubble — operator 2026-11-05)
+      const bw = 470, bh = d.px + 20, bl = W.bubbleLine(bw, bh, 44);
       const write = d.form === 'bubble'
-        ? `<div style="position:relative;flex:1;min-width:0;height:${d.px + 20}px"><div style="position:absolute;inset:0">${W.bubble(470, d.px + 20)}</div><div style="position:absolute;left:44px;top:${Math.round((d.px + 20) * 0.22)}px">${W.line(380, 44)}</div></div>`
+        ? `<div style="position:relative;flex:0 0 ${bw}px;width:${bw}px;height:${bh}px"><div style="position:absolute;inset:0">${W.bubble(bw, bh)}</div><div data-lcs-bubble-line style="position:absolute;left:${bl.left}px;top:${bl.top}px">${W.line(bl.width, 44)}</div></div>`
         : `<div style="flex:1;min-width:0">${W.lines(d.form === 'lines' ? 2 : 1, 480, 52)}</div>`;
       return `<div data-lcs-caption-row="${i + 1}" style="display:flex;align-items:center;gap:16px;padding:6px 12px;border-radius:14px;background:${T.cream}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt=""${slot.attr(ctx, 'pic', i)} style="width:${d.px}px;height:${d.px}px;flex:0 0 auto;object-fit:contain">${write}</div>`;
@@ -56,6 +59,18 @@ module.exports = {
       if (rows.length < 3) fails.push(`${rows.length} pictures`);
       const root = document.querySelector('[data-lcs-captions]').getBoundingClientRect();
       rows.forEach((r, i) => { const b = r.getBoundingClientRect(); if (b.right > root.right + 1 || b.bottom > root.bottom + 1) fails.push(`row ${i + 1} leaves the page`); const im = r.querySelector('img'); if (!im.complete || !im.naturalWidth) fails.push(`row ${i + 1}: the picture did not load`); });
+      // a speech bubble's writing line lies INSIDE the drawn ellipse (its four corners, measured against the ellipse the
+      // bubble records — data-lcs-ellipse "cx,cy,rx,ry" in its own pixels)
+      rows.forEach((r, i) => {
+        const sv = r.querySelector('svg[data-lcs-bubble]'), ln = r.querySelector('[data-lcs-bubble-line] svg');
+        if (!sv) return;
+        if (!ln) { fails.push(`row ${i + 1}: a speech bubble without its writing line`); return; }
+        const [cx, cy, rx, ry] = String(sv.dataset.lcsEllipse || '').split(',').map(Number);
+        if (!(rx > 0 && ry > 0)) { fails.push(`row ${i + 1}: the bubble records no ellipse`); return; }
+        const B = sv.getBoundingClientRect(), L = ln.getBoundingClientRect();
+        const inside = (x, y) => ((x - B.left - cx) / rx) ** 2 + ((y - B.top - cy) / ry) ** 2 <= 1;
+        if (![[L.left, L.top], [L.right, L.top], [L.left, L.bottom], [L.right, L.bottom]].every(([x, y]) => inside(x, y))) fails.push(`row ${i + 1}: the writing line runs out of the speech bubble`);
+      });
       return fails;
     });
   },

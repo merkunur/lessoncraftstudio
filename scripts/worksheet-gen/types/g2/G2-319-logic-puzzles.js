@@ -537,17 +537,23 @@ function buildTwoAttr(bankLoc, d, { theme, locale }, ctx, sets) {
   const colW = Math.floor((BODY_W - 17) / 2);   // 329
   const G = ctx.interactive ? { ...d, ...SCREEN_GEO.twoAttr } : d;   // Level Set screen / key (see the base path)
   const scr = !!ctx.interactive, key = !!ctx.answerKey;
+  // the last QA retry (qaRetries lpWide, 2026-11-05): the SAME puzzle with its clues in one full-width column — level 3's
+  // either-or and linking clues are long in es / it / fi, and in a 329 px half every redrawn puzzle could still wrap a
+  // clue to a second line (rows 72 > 66: the maker said "This page couldn't be created"). Last, so every page that passes
+  // in two columns — every published page, every Level Set page — is the page it was.
+  const wide = !scr && !!ctx.lpWide;
   const rows = cs.clues.map((c, i) => clueRow({ n: i + 1, html: clueHtml2(bankLoc, rng, c, forms, cs.pics, cs.pics2, n, G.inlinePic), ...(scr ? { px: G.textPx } : {}) }));
   const clueBlock = scr ? `<div data-lcs-cluecol style="display:flex;flex-direction:column;gap:8px;width:${BODY_W}px">${rows.join('')}</div>`
+    : wide ? `<div data-lcs-cluecol data-lcs-wide style="display:flex;flex-direction:column;gap:4px;width:${BODY_W}px">${rows.join('')}</div>`
     : `<div data-lcs-cluecol style="display:grid;grid-template-columns:${colW}px ${colW}px;column-gap:${BODY_W - 2 * colW}px;row-gap:4px;align-content:start;width:${BODY_W}px">${rows.join('')}</div>`;
   const grid = lGrid({ names: forms.map((f) => ({ label: f.nom })), pics: cs.pics.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic', j) })), pics2: cs.pics2.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic2', j) })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: (bankLoc.namePx && !scr) ? bankLoc.namePx : G.namePx, picPx: G.picPx, puzzle: 0, ...(key ? { solved: { np: cs.np, nc: cs.nc } } : {}) });
   const stamps = caseStamps(0, n, d.kinds.join(','), cs, forms) + ` data-lcs-pics2="${esc(cs.keys2.join(','))}" data-lcs-nouns2="${esc(cs.pics2.map((x) => x.noun).join(','))}" ` +
     `data-lcs-attr2="${esc(attr2)}" data-lcs-clues='${esc(JSON.stringify(cs.clues))}' data-lcs-solution="np:${cs.np.join(',')};nc:${cs.nc.join(',')}"`;
   const band = `<section data-ws-content ${stamps} style="display:flex;flex-direction:column;gap:${BAND_GAP}px;width:${BODY_W}px;flex:0 0 auto">${clueBlock}` +
     `<div style="display:flex;justify-content:center;width:${BODY_W}px">${grid.html}</div></section>`;
-  const cfg = { mode: 'two-attr', size: n, cases: 1, clues: d.clues, kinds: d.kinds, maxPos: d.maxPos ?? null, minCross: d.minCross ?? null, maxCross: d.maxCross ?? null, minEither: d.minEither ?? null, maxEither: d.maxEither ?? null, minHolderNot: d.minHolderNot ?? null, maxHolderNot: d.maxHolderNot ?? null, cell: d.cell, headW: d.headW, hdrH: d.hdrH, picPx: d.picPx, inlinePic: d.inlinePic, answer: 'none', tileInner: d.headW - 20, attr2, colW, floor: G2_FLOOR };
+  const cfg = { mode: 'two-attr', size: n, cases: 1, clues: d.clues, kinds: d.kinds, maxPos: d.maxPos ?? null, minCross: d.minCross ?? null, maxCross: d.maxCross ?? null, minEither: d.minEither ?? null, maxEither: d.maxEither ?? null, minHolderNot: d.minHolderNot ?? null, maxHolderNot: d.maxHolderNot ?? null, cell: d.cell, headW: d.headW, hdrH: d.hdrH, picPx: d.picPx, inlinePic: d.inlinePic, answer: 'none', tileInner: d.headW - 20, attr2, colW: wide ? BODY_W : colW, floor: G2_FLOOR, ...(wide ? { clueCap: 40 * cs.clues.length + 0.6 } : {}) };
   const bodyHtml = rootHtml(d, theme, cfg, markKey() + `<div data-lcs-bands style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:${scr ? 'flex-start' : 'center'};gap:${BAND_GAP}px;min-height:0">${band}</div>`, `data-lcs-attr2="${esc(attr2)}" `);
-  const meta = { mode: 'two-attr', theme, attr2, cases: [{ names: forms.map((f) => f.nom), pics: cs.keys, pics2: cs.keys2, np: cs.np, nc: cs.nc, clues: cs.clues }], stack: 36 + KEY_GAP + (Math.ceil(cs.clues.length / 2) * 40 + 4 * (Math.ceil(cs.clues.length / 2) - 1)) + BAND_GAP + (d.hdrH + 2 * n * d.cell) };   // the PRINTED grid height (lGrid: hdrH + 2·n·cell), so the screen / key builds carry the same meta
+  const meta = { mode: 'two-attr', theme, attr2, cases: [{ names: forms.map((f) => f.nom), pics: cs.keys, pics2: cs.keys2, np: cs.np, nc: cs.nc, clues: cs.clues }], stack: 36 + KEY_GAP + (wide ? cs.clues.length * 40 + 4 * (cs.clues.length - 1) : Math.ceil(cs.clues.length / 2) * 40 + 4 * (Math.ceil(cs.clues.length / 2) - 1)) + BAND_GAP + (d.hdrH + 2 * n * d.cell) };   // the PRINTED grid height (lGrid: hdrH + 2·n·cell), so the screen / key builds carry the same meta
   return { bodyHtml, meta };
 }
 
@@ -970,7 +976,7 @@ function verifyFaceInPage(SETS) {
         [...row.querySelectorAll('img, span')].forEach((el) => { const r = el.getBoundingClientRect(); if (r.width && (r.right > rr.right + 0.6 || r.left < rr.left - 0.6)) fails.push(`${P}: clue ${i + 1} content outside the row`); });
       });
       const col = sec.querySelector('[data-lcs-cluecol]');
-      if (col) { const cb = col.getBoundingClientRect(); if (cb.height > 196.6) fails.push(`${P}: clue block ${cb.height.toFixed(0)} > 196 (three rows of two lines)`); if (col.scrollWidth > col.clientWidth + 1) fails.push(`${P}: clue block wider than the body`); }
+      if (col) { const cb = col.getBoundingClientRect(); const cap = cfg.clueCap || 196.6; if (cb.height > cap) fails.push(`${P}: clue block ${cb.height.toFixed(0)} > ${Math.floor(cap)} (${cfg.clueCap ? 'one line a clue, one column' : 'three rows of two lines'})`); if (col.scrollWidth > col.clientWidth + 1) fails.push(`${P}: clue block wider than the body`); }
       if (sec.querySelector('[data-lcs-answer-slot]')) fails.push(`${P}: answer chips on a grid-is-the-answer page`);
     }
 
@@ -1154,7 +1160,7 @@ module.exports = {
   levelSetWords(meta) { return meta.cases.flatMap((c) => c.names.concat(c.pics, c.pics2 || [])); },
   interactive: interactiveFor('grid'),
   // cli: a NEW page that fails its own verify / lints is drawn again from the moved-on seed (never the published page)
-  qaRetries(it) { return it.difficulty === 2 && (it.seedVariant || it.variant || 1) === 1 ? [] : [{ lpRetry: 1 }, { lpRetry: 2 }, { lpRetry: 3 }, { lpRetry: 4 }]; },
+  qaRetries(it) { return it.difficulty === 2 && (it.seedVariant || it.variant || 1) === 1 ? [] : [{ lpRetry: 1 }, { lpRetry: 2 }, { lpRetry: 3 }, { lpRetry: 4 }, { lpWide: 1 }]; },
   id: ID,
   slug: 'logic-puzzles',
   gradeBand: 'G2',

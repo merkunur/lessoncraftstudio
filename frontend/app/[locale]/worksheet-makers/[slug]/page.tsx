@@ -15,8 +15,7 @@ import {
 import MakerProductPage from '@/components/maker-landing/MakerProductPage';
 
 /**
- * A new worksheet maker's landing page: /<locale>/worksheet-makers/<native-slug> (647 pages). Rendered on demand and
- * rendered on demand (force-dynamic): the pages are data-driven and the build must stay light (CLAUDE.md §22, the 30k-landing build incident).
+ * A new worksheet maker's landing page: /<locale>/worksheet-makers/<native-slug> (647 pages). Rendered on demand (force-dynamic): the pages are data-driven and the build must stay light (CLAUDE.md §22, the 30k-landing build incident).
  * No searchParams or cookie reads: the nginx hub-cache block assumes the route stays anonymous and cacheable.
  */
 // The root layout reads headers(), so an on-demand static page dies with "Page changed from static to dynamic" (HTTP 500).

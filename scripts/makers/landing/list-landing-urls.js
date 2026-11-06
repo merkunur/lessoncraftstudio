@@ -4,7 +4,7 @@
  *
  *   node scripts/makers/landing/list-landing-urls.js                 print the URLs
  *   node scripts/makers/landing/list-landing-urls.js --hubs          add the eleven hubs
- *   node scripts/makers/landing/list-landing-urls.js --indexnow      submit them to IndexNow in batches of 500
+ *   node scripts/makers/landing/list-landing-urls.js --indexnow      submit them to IndexNow in batches of 150 (the Windows command line stops at 32 KB)
  *
  * A count other than the catalogue's pairs stops the run: a short list would quietly leave pages out.
  */
@@ -38,8 +38,8 @@ if (process.argv.includes('--hubs') || process.argv.includes('--indexnow')) {
 
 if (process.argv.includes('--indexnow')) {
   const script = path.join(ROOT, 'scripts', 'indexnow-submit.js');
-  for (let i = 0; i < urls.length; i += 500) {
-    process.stdout.write(execFileSync(process.execPath, [script, ...urls.slice(i, i + 500)], { encoding: 'utf8' }));
+  for (let i = 0; i < urls.length; i += 150) {
+    process.stdout.write(execFileSync(process.execPath, [script, ...urls.slice(i, i + 150)], { encoding: 'utf8' }));
   }
 } else {
   console.log(urls.join('\n'));

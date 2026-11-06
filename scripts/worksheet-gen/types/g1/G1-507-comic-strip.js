@@ -17,6 +17,13 @@ const W = require('../_shared/writing-frames.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
+// where a picture's drawing begins inside its square: the measured opaque bounds of every library picture (tools/hm-ink-boxes.js)
+let _ink;
+const inkTopOf = (theme, noun) => {
+  if (_ink === undefined) { const p = require('path').join(__dirname, '..', '..', 'data', 'hm', 'ink-boxes.json'); const P = require('../../lib/platform/index.js'); _ink = P.exists(p) ? P.readJson(p) : {}; }
+  const b = _ink[theme + '/' + noun];
+  return b ? b.t : 0;   // no measured box: the drawing may start at the very top
+};
 const D = { 1: { frames: 3, cols: 1, caption: false }, 2: { frames: 4, cols: 2, caption: false }, 3: { frames: 4, cols: 2, caption: true } };
 const WHO = [[0], [1], [0, 1], [0, 1]];
 
@@ -46,7 +53,10 @@ module.exports = {
       // every speaker has its OWN bubble whose tail ends just above its head (one bubble for two speakers said nothing
       // about who speaks); the first character always stands on the left, the second on the right. The bubbles keep
       // clear of the frame number in the top-left corner
-      const pad = 6, clear = 28, charY = H - pad - px, reach = charY + Math.round(px * 0.1);
+      // the tail tip stops 4 px above the top of the speaker's DRAWING (its measured ink, not its square box): ending a
+      // tenth of the way into the box drew the tail over the head of 3 in 4 characters (collision gate, 2026-11-06)
+      const pad = 6, clear = 28, charY = H - pad - px;
+      const reach = Math.min(charY + Math.round(px * 0.1), ...who.map((k) => charY + Math.floor(inkTopOf(theme, two[k].noun) * px) - 4));
       const parts = [];
       const put = (k, x, y, w, h, tail, tipAt) => {
         const [tx] = W.bubbleTip(w, h, tail, tipAt);

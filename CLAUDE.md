@@ -1730,6 +1730,20 @@ Built in a cloud session, deployed from the PC. **SoT = `docs/worksheet-gen/b6-d
 
 ---
 
+## 32. The new worksheet makers — BUILT + TESTED LOCALLY 2026-11-06, NOT DEPLOYED ("deploy the new worksheet makers")
+
+59 browser-built topic makers (`scripts/makers/`, built tree `out/makers/`, preview `node scripts/makers/serve.js` →
+http://localhost:8490/), 1,042 templates, 647 maker × language pairs (Cursive has no sv / fi), replacing the 33 old apps
+for teachers. 13 full rounds of the 30-gate suite; round 13 was the last (operator). **Trigger: "deploy the new
+worksheet makers" (and the operator's launch goal that comes with it — maker landing pages ×11, the hub and the
+homepage makers section redesigned, the old maker landings upgraded without SEO harm, a maker link on every worksheet /
+deck / topic page) → read `docs/makers/LAUNCH-HANDOFF.md` FIRST**: state, the release recipe (release-pack → upload →
+nginx patch → `prisma migrate deploy` → deploy.sh step 1c install + gate 13), the catalogue republish queue, the facts,
+file paths and binding rules for the launch goal. Record: `docs/makers/BUILD-LOG.md` (NEXT line); design
+`docs/makers/ARCHITECTURE.md`. Memory: `project_makers_launch_handoff.md`.
+
+---
+
 ## Appendix A — Production safety rules
 
 ### A.1 Server + isolated storage

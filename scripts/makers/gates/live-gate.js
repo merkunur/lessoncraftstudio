@@ -39,6 +39,7 @@ const dsfOf = (lang) => Number(arg('dsf', '') || DSF_BY_LANG[lang] || 1);
   const browserAt = async (dsf) => (browsers[dsf] = browsers[dsf] || await puppeteer.launch(dsf === 1 ? {} : { args: ['--force-device-scale-factor=' + dsf] }));
   let fails = 0, pages = 0, retried = 0;
   const times = [];
+  const slow = [];   // every page's time with where it was made: the slowest are listed (2026-11-06: make-10 mazes ~15 s)
   let poisoned = false;
   const MP = require('./lib/maker-pages.js');
   for (const maker of MAKERS) {
@@ -96,7 +97,7 @@ const dsfOf = (lang) => Number(arg('dsf', '') || DSF_BY_LANG[lang] || 1);
         return out;
       }, COPIES);
       for (const r of res) {
-        pages++; times.push(r.ms);
+        pages++; times.push(r.ms); slow.push({ ms: r.ms, at: `${maker} ${lang} ${r.id} L${r.d} c${r.v}${r.attempt && r.attempt !== '{}' ? ' (retry)' : ''}` });
         if (!r.ok) { fails++; console.log(`FAIL ${maker} ${lang} ${r.id} L${r.d} c${r.v}: ${JSON.stringify(r.fails)}`); }
         else if (r.attempt !== '{}') { retried++; console.log(`note ${maker} ${lang} ${r.id} L${r.d} c${r.v} passed only on retry ${r.attempt}`); }
       }
@@ -112,6 +113,8 @@ const dsfOf = (lang) => Number(arg('dsf', '') || DSF_BY_LANG[lang] || 1);
   }
   times.sort((a, b) => a - b);
   const q = (f) => Math.round(times[Math.min(times.length - 1, Math.floor(f * times.length))]);
+  slow.sort((a, b) => b.ms - a.ms);
+  console.log('slowest pages: ' + slow.slice(0, 10).map((x) => `${x.at} ${Math.round(x.ms)} ms`).join(' · '));
   console.log(`live gate: ${pages} pages, ${fails} failing, ${retried} needed a retry; ms per page p50 ${q(0.5)} p95 ${q(0.95)} max ${q(1)}`);
   for (const b of Object.values(browsers)) await b.close();
   srv.close();

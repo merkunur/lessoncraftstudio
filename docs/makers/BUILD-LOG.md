@@ -9,17 +9,46 @@ K-514, coloring pages G1-488 K-515 K-516, mazes K-242 screen + K-484–487, find
 K-493–497, picture tracing K-498–501, number tracing K-517 K-518. Same & Different §23 T3 stays WITHDRAWN (no
 browser-safe proof of one answer).
 
-**NEXT:** every maker of ARCHITECTURE §14 is built (B1–B7; health-safety NOT built, operator 2026-11-02). The goal's
-final phase, locally: test and analyse every template of every maker — `sweep-templates.js` over every built template
-(every offered theme × level × 11 languages × 3 copies), the full gate suite, a visual read of every template (contact
-sheets), every finding fixed at its source; no maker deploy until all are finalized; then activities resume at ORDER
-row 177. Status 2026-11-04: the contact-sheet read is DONE for every en sheet and every language-bearing fi sheet
-(rounds 5-6 below); round 6b carried the new vocabulary words into every bank and ran the syllable gate in every
-language (+ the two b7 gates per language, the round-6b native + pedagogy pass: candy is one sweet); left: the
-full gate suite on rebuilt bundles. Open, noted 2026-11-02 and not re-verified since: mazes — real levels from data/hmx/levels.js, the
-strands seam, the picture-path face. Server republish queue (operator ssh): fix1115 (702) → fix1119 (49); local fix1106
+**NEXT:** 🏁 **THE LOCAL BUILD AND TEST OF THE MAKERS IS COMPLETE (2026-11-06).** Every maker of ARCHITECTURE §14 is
+built (B1–B7; health-safety NOT built, operator 2026-11-02) and passed 13 full rounds of the gate suite; round 13 was the
+last (operator 2026-11-06) and its one finding is fixed (entry below). **The next step is the release: when the operator
+says "deploy the new worksheet makers", read `docs/makers/LAUNCH-HANDOFF.md` first** — the release recipe, this
+republish queue, and the operator's launch goal (new maker landing pages ×11, the hub and homepage-section redesigns,
+the old landings upgraded, a maker link on every worksheet / deck / topic page) with its facts and constraints. After the
+makers: activities resume at ORDER row 177. Open, noted 2026-11-02 and not re-verified since: mazes — real levels from
+data/hmx/levels.js, the strands seam, the picture-path face. Server republish queue (operator ssh): fix1115 (702) → fix1119 (49); local fix1106
 (2,201) and fix1120 (240); the B5–B7 vocabulary / bank scans listed in the B7 entry below; and
-docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords).
+docs/makers/republish-2026-11-03-bank-words.json (levelRepublish, vocabOldWords); round 12 (2026-11-06): the live Word
+Families level-3 Join the Syllables pages (srd G1-331 d3, copies 12-16 × 11, ≤ 55 decks) — 8 stacked cards overflowed
+their card (a picture that fills its box touches the card's top border); the side layout is in `d80ef9051`: a pinned
+fix wave per locale (id wave-srd-<loc>, copies from its levels["G1-331"]["3"], content compared with the live render
+first — some copies carry the fix1120 hen word), then an in-place update.
+
+
+## Final phase, round 13 — the last full round; Comic Strip tails stop above the heads (2026-11-06)
+
+- **The run:** one fresh build of all 59 makers (6,265 s, 0 refused), then all 30 gates. 29 PASS, `collision` FAIL.
+  Highlights: copy-range 300,944 pages at copies 13–1,000; zoom-checks 12,258 pages at scales 1 and 1.2; declared
+  screens 5,356 built and played; own input 31,020 library swaps; settings space 49,944 pages; sha1-parity 143,468 seeds,
+  0 different; live gate 101,388 pages on 647 maker × language pairs (Cursive has no sv / fi template) at their own
+  screen scale 0.8–2, **0 failing**, 272 needed a retry — the same 272 pages as round 12 (the maker's fresh seeds, as the
+  catalogue builds them; sha1-parity proves the outputs equal).
+- **collision — G1-507 Comic Strip, 24 of 24 measured pages:** each bubble's tail ended a tenth of the way INTO its
+  speaker's picture box, and most library drawings start near the top of their square (6,119 of the 8,187 character
+  pictures of its 45 themes × 11 languages start above 10 %): the tail lay over the character's head. The tip now stops
+  4 px above the speaker's DRAWING, read from the measured opaque bounds (`data/hm/ink-boxes.json`, the maze scenes'
+  source; no RNG draw). Checked on all 4,455 pages: every tip ≥ 3.6 px above its drawing (the old code: 18,491 of 23,760
+  tails on it). Maker-only template: nothing published changes.
+- **collision over Stories & Writing in all 11 languages** (the gate measures en + fi): one more page, G1-401 da level 3
+  copy 17 — a washing-line peg met a pavement picture by 1.3 px. The pegs grip their cards by design (`ssCord`: 3 px over
+  the card + 1 px stroke); EXEMPT entry cord × story panel, contact ≤ 4 px. Poisoned: pegs 6 px deeper fail (7.3 / 4.7 px).
+- Re-checked on the rebuilt Stories & Writing bundle: its whole gate suite (unique-solution refuses the run — no puzzle
+  template in that maker; slots differs from HEAD by design until the commit), then the final full rebuild of all 59
+  (5,539 s): only Stories & Writing changed version (`04492167d196`); the other 58 are byte-for-byte the versions round 13
+  gated, all on data `b2d807797f7a`. On it: registration, old-landings, the unit tests, the lint, collision (Stories &
+  Writing ×11) and thumbs pass; `release-pack.js` packs 21,036 files, 821.5 MB (packed to measure, then deleted).
+- `live-gate.js` lists the ten slowest pages: the mazes K-410 level 3 (up to 9.6 s at copy 157) and G1-427 — the
+  exact-output speed-up prototype is kept in `scripts/makers/spikes/hm-graph-speed/` (not applied; LAUNCH-HANDOFF §3).
 
 
 ## Final phase, round 8b — the sweep of all 62 family gates × 11; gates that proved English only (2026-11-04)

@@ -51,6 +51,8 @@ const EXEMPT = [
   // final phase round 3 (2026-11-03), each read on a full-size render:
   ['svg[data-lcs-stage-svg]', '*', 'the family tree drawing is the stage: the frames, name plates and name boxes sit on it by design (family tree pages)'],
   ['svg[data-lcs-cord]', '[data-lcs-line-marker] svg', "a story line's mark hangs on its cord by design (story sequencing)"],
+  // final phase round 13 (2026-11-06): G1-401 da level 3 copy 17 — a pavement picture painted to its top edge met a peg by 1.3 px
+  ['svg[data-lcs-cord]', 'svg[data-lcs-story-panel]', 'a picture card hangs on the washing line: each peg grips the top of its card by design (ssCord: the peg ends 3 px over the card, + 1 px of its stroke) — a contact only, 4 px at most', 4],
   ['svg[data-lcs-cutlines]', '*', 'the dashed cut lines run along every card edge of the sheet: they meet each card by design (cut-out cards)'],
   ['.ss-tag svg', '.ss-tag .ws-blankbox', 'the number box is printed on its tag (story sequencing, number the pictures)'],
   ['[data-lcs-cw-cell] .ws-answerbox', '[data-lcs-cw-cell] span', "a crossword cell prints its clue number in its corner, and neighbouring cells share one border line, by design"],

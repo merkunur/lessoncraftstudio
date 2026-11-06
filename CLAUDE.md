@@ -16,7 +16,7 @@ Operator, verbatim: *"native speaker check and pedagogical check should always b
 - **Every finding is fixed at its source** (bank, vocab, generator), then re-checked; the same mistake on live pages is republished in place (the pedagogical-mistakes rule below).
 - Memory: `feedback_native_and_pedagogical_check_always.md`.
 
-**Version:** 3.22 (§31 b9 Picture Tracing added — the flagship tracing family `picture-tracing`, base + 19 faces × 11 locales, BUILT + PUBLISHED 2026-10-22: 220 PDF decks + 220 landings, hub gate HARD; §14.10 count 143 → 144; 3.21 (§30 b8 Handmade Mazes added — the flagship scene-maze family `maze-puzzles`, base + 19 faces × 11 locales, BUILT + LIVE 2026-10-12: 220 decks (PDF + draw-the-way screen + key) + 220 landings, hub gate HARD; §14.10 count 142 → 143; 3.20 (§29 nt2-G (b7) added — the two FLAGSHIP types find-the-differences + how-to-draw × (1 base + 10 faces) × 11 locales, BUILT + LIVE 2026-10-09, REPUBLISHED in place 2026-10-10 (fully painted colour page + every page fills the body): 242 decks + 242 landings, repointed, IndexNow, hub gate HARD; §14.10 count 140 → 142; 3.19 §28 nt5-F added — 5 printable types × 6 faces × 11 locales, BUILT + LIVE 2026-09-25: 318 decks + 318 landings, repointed, IndexNow, hub gate HARD, G1-204 republished; §14.10 count 135 → 140; 3.18 §27 nt10-E added — 10 MORE printable types × 6 faces × 11 locales, BUILT + LIVE 2026-09-23: 624 decks + 624 landings, repointed, IndexNow, hub gate HARD; §14.10 count 125 → 135; 3.17 §26 nt10-D marked **BUILT + LIVE 2026-09-23** — 652 decks + 652 landings in 11 locales, every deck repointed, hub gate HARD in deploy.sh, §14.10 count 115 → 125; 3.16 §26 BUILD STATUS — nt10-D Phases 0-2 DONE 2026-09-21: 10 EN bases + 50 EN faces, baseline 30,030, NEXT Phase 3; 3.15 §26 added — nt10-D, the LAST 10-type batch × 6 faces × 11 locales = 660, DESIGN COMPLETE 2026-09-21: 10 design files, hub matrix 656/660, build trigger "build the last batch of 10 worksheet types and their expansion"; 3.14 §25 nt20-C marked BUILT + LIVE 2026-09-20 — 1,295 decks + 1,295 landings, hub gate hard in deploy.sh, §14.10 count 95 → 115; 3.13 added §25 — nt20-C, the LAST 20-type batch × 6 faces × 11 locales, DESIGN-phase SoT + the measured hub-sidebar root cause; 3.12 adds §A.14.12 disk-hygiene rule — every file class a script creates has an expiry; 3.11 (repoints the "continue" trigger to the Swedish fan-out; 3.10 retired the local AI from the website AND the games — top AMENDMENT 2026-09-05; 3.9 added §24 — the 200 K-3 games BUILD program, trigger "build the next game"; 3.11 repoints the §20.9 "continue" loop from pt-BR (COMPLETE) to the **SWEDISH** second-batch fan-out — #1–#35 shipped, #36 = `wren-question-window` next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-10-22
+**Version:** 3.23 (§32 the worksheet makers LIVE 2026-11-06: 647 landings, new hub, homepage room, a maker band on every page, the 33 old apps retired; 3.22 §31 b9 Picture Tracing added — the flagship tracing family `picture-tracing`, base + 19 faces × 11 locales, BUILT + PUBLISHED 2026-10-22: 220 PDF decks + 220 landings, hub gate HARD; §14.10 count 143 → 144; 3.21 (§30 b8 Handmade Mazes added — the flagship scene-maze family `maze-puzzles`, base + 19 faces × 11 locales, BUILT + LIVE 2026-10-12: 220 decks (PDF + draw-the-way screen + key) + 220 landings, hub gate HARD; §14.10 count 142 → 143; 3.20 (§29 nt2-G (b7) added — the two FLAGSHIP types find-the-differences + how-to-draw × (1 base + 10 faces) × 11 locales, BUILT + LIVE 2026-10-09, REPUBLISHED in place 2026-10-10 (fully painted colour page + every page fills the body): 242 decks + 242 landings, repointed, IndexNow, hub gate HARD; §14.10 count 140 → 142; 3.19 §28 nt5-F added — 5 printable types × 6 faces × 11 locales, BUILT + LIVE 2026-09-25: 318 decks + 318 landings, repointed, IndexNow, hub gate HARD, G1-204 republished; §14.10 count 135 → 140; 3.18 §27 nt10-E added — 10 MORE printable types × 6 faces × 11 locales, BUILT + LIVE 2026-09-23: 624 decks + 624 landings, repointed, IndexNow, hub gate HARD; §14.10 count 125 → 135; 3.17 §26 nt10-D marked **BUILT + LIVE 2026-09-23** — 652 decks + 652 landings in 11 locales, every deck repointed, hub gate HARD in deploy.sh, §14.10 count 115 → 125; 3.16 §26 BUILD STATUS — nt10-D Phases 0-2 DONE 2026-09-21: 10 EN bases + 50 EN faces, baseline 30,030, NEXT Phase 3; 3.15 §26 added — nt10-D, the LAST 10-type batch × 6 faces × 11 locales = 660, DESIGN COMPLETE 2026-09-21: 10 design files, hub matrix 656/660, build trigger "build the last batch of 10 worksheet types and their expansion"; 3.14 §25 nt20-C marked BUILT + LIVE 2026-09-20 — 1,295 decks + 1,295 landings, hub gate hard in deploy.sh, §14.10 count 95 → 115; 3.13 added §25 — nt20-C, the LAST 20-type batch × 6 faces × 11 locales, DESIGN-phase SoT + the measured hub-sidebar root cause; 3.12 adds §A.14.12 disk-hygiene rule — every file class a script creates has an expiry; 3.11 (repoints the "continue" trigger to the Swedish fan-out; 3.10 retired the local AI from the website AND the games — top AMENDMENT 2026-09-05; 3.9 added §24 — the 200 K-3 games BUILD program, trigger "build the next game"; 3.11 repoints the §20.9 "continue" loop from pt-BR (COMPLETE) to the **SWEDISH** second-batch fan-out — #1–#35 shipped, #36 = `wren-question-window` next; §23 Premium Tools v4 remains the "build the next tool" thrust) **Last updated:** 2026-11-06
 
 > **Companion-docs convention (v3.6).** This file was ~halved by *relocating* (never deleting) the justification layer — commit-hash anchors, worked examples, code snippets, historical narration, and code-implemented reference specs — into git-tracked companions under `docs/claude-md/`. Each terse section keeps its forward-rule + cross-refs + a `→ docs/claude-md/<file>` pointer. The companions: `verification-hygiene.md` (§A.13), `scaling-audit.md` (§A.14), `deck-html-seo-surface.md` (§17.8), `catalog-pipeline.md` (§15 + §14 helpers/gotchas/bundles), `site-topic-export-detail.md` (§14.4 / §16.5.1 / §17.4.3 / §17.5-6 / §18.4), `topic-and-i18n-detail.md` (§16.7 / §16.8 / §17.10), `activities-detail.md` (§20.7), `misc-detail.md` (§11 / §17.1 / §20.3 / §21 tables / §22.2-3 / §A.7.x), **`premium-tools-v4.md` (§23 — the twenty instruments, the fence, the closed strands, the rejected list, the per-tool build recipe)**. When a terse entry isn't enough, read its companion. Working-recall SoT for activities/landing stays the `memory/` + plan files.
 
@@ -1730,17 +1730,35 @@ Built in a cloud session, deployed from the PC. **SoT = `docs/worksheet-gen/b6-d
 
 ---
 
-## 32. The new worksheet makers — BUILT + TESTED LOCALLY 2026-11-06, NOT DEPLOYED ("deploy the new worksheet makers")
+## 32. The new worksheet makers — LIVE 2026-11-06; the 33 old apps retired
 
 59 browser-built topic makers (`scripts/makers/`, built tree `out/makers/`, preview `node scripts/makers/serve.js` →
-http://localhost:8490/), 1,042 templates, 647 maker × language pairs (Cursive has no sv / fi), replacing the 33 old apps
-for teachers. 13 full rounds of the 30-gate suite; round 13 was the last (operator). **Trigger: "deploy the new
-worksheet makers" (and the operator's launch goal that comes with it — maker landing pages ×11, the hub and the
-homepage makers section redesigned, the old maker landings upgraded without SEO harm, a maker link on every worksheet /
-deck / topic page) → read `docs/makers/LAUNCH-HANDOFF.md` FIRST**: state, the release recipe (release-pack → upload →
-nginx patch → `prisma migrate deploy` → deploy.sh step 1c install + gate 13), the catalogue republish queue, the facts,
-file paths and binding rules for the launch goal. Record: `docs/makers/BUILD-LOG.md` (NEXT line); design
-`docs/makers/ARCHITECTURE.md`. Memory: `project_makers_launch_handoff.md`.
+http://localhost:8490/), 1,042 templates, 647 maker × language pairs (Cursive has no sv / fi). **Live:** the makers at
+`/makers/app/?maker=<id>&lang=<loc>`; **647 landing pages** at `/<loc>/worksheet-makers/<native-slug>`
+(`frontend/app/[locale]/worksheet-makers/[slug]/`, `components/maker-landing/`, copy `frontend/content/maker-landings/`, sitemap
+shard 10, images `/maker-previews/<maker>/<loc>/`); the rebuilt hub (`components/maker-hub/`); the homepage makers room; the
+363 old `/tools/<slug>` landings upgraded with URL, title, meta, canonical and JSON-LD unchanged (`gates/old-landings.js`,
+`docs/makers/old-landings.seo-freeze.json`); the maker band on worksheet landings, topic pages, Level Set hubs and every deck
+(SoT `scripts/lib/maker-links.js`, `scripts/publish-cli/inject-deck-maker-ribbon.js`, wired into every publish path).
+**The 33 old apps are gone** (operator 2026-11-06): repo copies removed, served copies archived in
+`C:\Users\rkgen\lcs-archive` then deleted, `/worksheet-generators/<app>.html[?locale=]` 301s to the hub in that language
+(`scripts/makers/patch-nginx-old-apps.py`). Older sections that describe the apps as live tooling are history; `js/`, the
+content managers and `REFERENCE APPS/material-generators/` stay. Record and open items: `docs/makers/LAUNCH-HANDOFF.md` §0.
+
+**Traps paid for on this launch:**
+1. ⭐⭐ **`generateStaticParams() { return []; }` on a route under this root layout is HTTP 500 in production and fine in dev.**
+   `app/layout.tsx` reads `headers()`, so an on-demand static page dies with "Page changed from static to dynamic". Use
+   `export const dynamic = 'force-dynamic'` (`/worksheets/[slug]` has the same ruling); nginx's hub-cache block gives these
+   routes a 300 s public cache. A rendered gate run only against `next dev` cannot see this: run it on the server after deploy.
+2. ⭐ **Google Fonts answers about 1 request in 30 with `/l/font?kit=` URLs, which next/font cannot read**
+   ("Cannot read properties of null (reading '1')", `Build failed because of webpack errors`). Every `next/font` call site
+   fetches at build, so load fonts through `frontend/lib/fonts/direction-a{,-wide}.ts`, never a new call per page. `deploy.sh`
+   rebuilds on that one error, up to four tries.
+3. ⭐ **Four decks in five have no `.lcs-worksheet-wrap`:** a printable-only deck anchors on `<div class="lcs-worksheet">`.
+   Dry-run any deck injector on a real locale before trusting "every deck has the anchor".
+4. **A map added to the nginx config goes after `map_hash_max_size`, not at the top of the file.**
+5. **A reviewer's new defect class has to go back to the languages already reviewed:** "shape words" and "strokes of real
+   letters" were found in batch 2 and were also false in batch 1's languages.
 
 ---
 

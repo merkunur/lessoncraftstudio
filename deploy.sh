@@ -87,10 +87,11 @@ WG_HTML_COUNT=$(find /var/www/lcs-media/worksheet-generators -maxdepth 1 -name "
 WG_JS_COUNT=$(find /var/www/lcs-media/worksheet-generators/js -name "*.js" -type f 2>/dev/null | wc -l)
 ADMIN_COUNT=$(find /var/www/lcs-media/admin-panels -maxdepth 1 -name "*.html" -type f 2>/dev/null | wc -l)
 
-if [ "$WG_HTML_COUNT" -lt 30 ]; then
+# 16 files since the 33 old apps were removed (2026-11-06): the content managers, admin pages, cvc-words, blog pages.
+if [ "$WG_HTML_COUNT" -lt 10 ]; then
     echo ""
     echo "⛔ CRITICAL: Worksheet generator protection check FAILED!"
-    echo "   Expected: 30+ HTML files"
+    echo "   Expected: 10+ HTML files"
     echo "   Found: $WG_HTML_COUNT files"
     echo ""
     echo "   Check: /var/www/lcs-media/worksheet-generators/"

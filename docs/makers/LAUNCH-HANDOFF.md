@@ -4,6 +4,24 @@
 The makers are BUILT and TESTED locally; nothing maker-related is live. This file is the entry point; it points at the
 detailed documents instead of repeating them.
 
+## Status 2026-11-06: LIVE
+
+The release and the launch goal below are done: makers installed, 647 landings, hub, homepage room, old landings upgraded, the
+maker band on worksheet landings, topic pages, Level Set hubs and all decks, the 33 old apps removed. Evidence and traps:
+CLAUDE.md §32. Everything below this heading is the plan as written before the launch.
+
+**Still open:**
+- **Catalogue republish queue (§2):** untouched by the launch.
+- **British wording in en template strings:** K-421, K-429 ("trace round", "bauble"), G1-283, G2-311 ("full stop"), G2-252, G2-260,
+  G2-262, G2-263 ("measuring jug"), G3-407 ("multiplication square"), G3-411 ("keyring"). en must be American: fix in
+  `scripts/worksheet-gen/i18n/strings.en.json`, rebuild the makers, rebuild those en previews, republish the en decks in place
+  (about 150; `fix-republish.sh`). The en landing copy already uses the American words.
+- **Old landings carry frozen text** that is no longer quite true (for example "no account"): left as it is on purpose, because
+  their words are frozen for SEO. The operator decides.
+- **da, no, fi demand data is partial:** autocomplete rate-limited those three, so their headlines rest on the old pages' keywords
+  and native terms. Re-run `scripts/seo-research/harvest-maker-landings.js` for them and compare.
+- **Google Search Console** was not available to the session: submit the sitemap index there and check thumbnails in the results.
+
 ## 0. State at handoff
 
 - **59 makers built** (ARCHITECTURE §14 B1–B7; `health-safety` NOT built — operator ruling 2026-11-02), **1,042 templates,

@@ -9,7 +9,9 @@ K-514, coloring pages G1-488 K-515 K-516, mazes K-242 screen + K-484–487, find
 K-493–497, picture tracing K-498–501, number tracing K-517 K-518. Same & Different §23 T3 stays WITHDRAWN (no
 browser-safe proof of one answer).
 
-**NEXT:** 🏁 **THE LOCAL BUILD AND TEST OF THE MAKERS IS COMPLETE (2026-11-06).** Every maker of ARCHITECTURE §14 is
+**NEXT:** 🚀 **THE MAKERS ARE LIVE (2026-11-06)**, with 647 landings, the new hub and homepage room, a maker band on every page, and the 33 old apps removed. Open items: LAUNCH-HANDOFF "Status 2026-11-06". The text below is the state before the launch.
+
+**Before the launch:** 🏁 **THE LOCAL BUILD AND TEST OF THE MAKERS IS COMPLETE (2026-11-06).** Every maker of ARCHITECTURE §14 is
 built (B1–B7; health-safety NOT built, operator 2026-11-02) and passed 13 full rounds of the gate suite; round 13 was the
 last (operator 2026-11-06) and its one finding is fixed (entry below). **The next step is the release: when the operator
 says "deploy the new worksheet makers", read `docs/makers/LAUNCH-HANDOFF.md` first** — the release recipe, this

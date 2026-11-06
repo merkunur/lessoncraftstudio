@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { ogLocaleMap } from '@/lib/schema-generator';
@@ -15,12 +16,12 @@ import MakerProductPage from '@/components/maker-landing/MakerProductPage';
 
 /**
  * A new worksheet maker's landing page: /<locale>/worksheet-makers/<native-slug> (647 pages). Rendered on demand and
- * cached (ISR): the pages are data-driven and the build must stay light (CLAUDE.md §22, the 30k-landing build incident).
+ * rendered on demand (force-dynamic): the pages are data-driven and the build must stay light (CLAUDE.md §22, the 30k-landing build incident).
  * No searchParams or cookie reads: the nginx hub-cache block assumes the route stays anonymous and cacheable.
  */
-export const revalidate = 3600;
-export const dynamicParams = true;
-export async function generateStaticParams() { return []; }
+// The root layout reads headers(), so an on-demand static page dies with "Page changed from static to dynamic" (HTTP 500).
+// Same ruling as /worksheets/[slug]. nginx caches these pages at the edge (patch-nginx-hub-cache.py).
+export const dynamic = 'force-dynamic';
 
 interface PageParams { locale: string; slug: string }
 
@@ -55,6 +56,7 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
 export default async function MakerLandingRoute({ params }: { params: PageParams }) {
   const { locale, slug } = params;
   if (!(TOPIC_ENABLED_LOCALES as readonly string[]).includes(locale)) notFound();
+  setRequestLocale(locale);
   const id = await resolveLandingSlug(slug, locale);
   if (!id) notFound();
   return <MakerProductPage locale={locale} id={id} slug={slug} />;

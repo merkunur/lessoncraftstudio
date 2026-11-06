@@ -3,7 +3,7 @@ import { displayCode } from '@/lib/frameworks';
 import path from "path";
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Metadata } from "next";
-import { Baloo_2, Nunito } from "next/font/google";
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from "next-intl/server";
 import {
   TOPIC_ENABLED_LOCALES,
@@ -56,18 +56,6 @@ const BASE_URL = CANONICAL_HOST;
 
 // Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route, like
 // the homepage. latin-ext covers all 11 site locales.
-const baloo2 = Baloo_2({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-baloo-2",
-  display: "swap",
-});
-const nunito = Nunito({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-nunito",
-  display: "swap",
-});
 
 // Grade key → seo.educational_level.* (the SoT the detail-page chip uses; 11/11).
 const GRADE_KEY_MAP: Record<string, string> = {

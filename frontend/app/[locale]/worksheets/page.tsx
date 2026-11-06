@@ -29,7 +29,7 @@ import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug, getAxisName, getExerciseModeName, listSubjectKeys, getSubjectName } from '@/lib/taxonomy';
@@ -105,18 +105,6 @@ const EAGER_CARDS = 4;
 
 
 // Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route.
-const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-});
-const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-});
 
 async function countLocaleDecks(locale: string): Promise<number> {
   try {

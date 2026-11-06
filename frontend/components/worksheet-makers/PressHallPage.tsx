@@ -18,7 +18,7 @@ import '@/styles/catalog-cards.css';
 import './worksheet-makers.css';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import {
   Calculator, BookOpen, Palette, Puzzle, Lightbulb, Search, ArrowRight,
 } from 'lucide-react';
@@ -37,20 +37,6 @@ import MachineCard from './MachineCard';
 // Direction A typography pairing (locked §A.13.47). latin-ext covers all 11
 // locales. Both are variable fonts — the weight list is documentation, not a
 // payload win (measured on the homepage; see app/[locale]/page.tsx).
-const baloo2 = Baloo_2({
-  weight: ['600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
-const nunito = Nunito({
-  weight: ['400', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 const CATEGORY_ORDER = ['math', 'literacy', 'visual', 'matching', 'puzzle', 'search'] as const;
 

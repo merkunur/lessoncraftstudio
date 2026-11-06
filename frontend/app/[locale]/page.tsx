@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { studioSheets, studioWall } from '@/lib/makers/landings';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
@@ -94,21 +94,7 @@ import '@/components/homepage-v10/homepage-v10.css';
 // dev-server reading of "4 files" and was wrong. Kept because it is accurate
 // and harmless, but it is not a performance win; the real one was Poppins
 // (see app/layout.tsx).
-const baloo2 = Baloo_2({
-  weight: ['600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
 
-const nunito = Nunito({
-  weight: ['400', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 // 1-hour ISR matches existing site pattern; visitor-facing copy churns rarely.
 export const revalidate = 3600;

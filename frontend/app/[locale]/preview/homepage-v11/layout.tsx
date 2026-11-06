@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import '@/components/homepage-v6/homepage-v6.css';
 import '@/components/homepage-v10/homepage-v10.css';
 import '@/components/homepage-v11/homepage-v11.css';
@@ -14,21 +14,7 @@ import '@/components/homepage-v11/homepage-v11.css';
 
    Direction A typography pairing — locked at CLAUDE.md §A.13.47. */
 
-const baloo2 = Baloo_2({
-  weight: ['600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
 
-const nunito = Nunito({
-  weight: ['400', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 export const metadata: Metadata = {
   title: 'Homepage v11 preview — The Gallery of Lessons, walked through',

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { Metadata } from "next";
-import { Baloo_2, Nunito } from "next/font/google";
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { notFound } from "next/navigation";
 import {
@@ -51,18 +51,6 @@ const BASE_URL = CANONICAL_HOST;
 
 // Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route, like
 // the activities hub. latin-ext covers all 11 site locales.
-const baloo2 = Baloo_2({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-baloo-2",
-  display: "swap",
-});
-const nunito = Nunito({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-nunito",
-  display: "swap",
-});
 
 /* Which tools have a generated preview WebP (rendered by
    scripts/generate-tool-previews.js, served from /mini-tools/tool-previews/).

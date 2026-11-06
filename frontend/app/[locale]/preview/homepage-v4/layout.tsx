@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import '../homepage-v3/homepage-v3.css';
 import './homepage-v4.css';
@@ -9,21 +9,7 @@ import './homepage-v4.css';
    app/[locale]/page.tsx, this route then stays as the visual-diff safety
    net exactly like /preview/homepage-v3 does today).
    Direction A typography pairing — locked at CLAUDE.md §A.13.47. */
-const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
 
-const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 export async function generateMetadata({
   params,

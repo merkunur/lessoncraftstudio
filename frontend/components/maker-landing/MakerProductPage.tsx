@@ -4,7 +4,7 @@
  * worksheet, deck and topic page all put real paper on the same mat, so a teacher learns to read it as "you can make
  * this". */
 import '@/components/maker-landing/maker-landing.css';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
@@ -34,8 +34,6 @@ import {
   templatesIn,
 } from '@/lib/makers/landings';
 
-const baloo2 = Baloo_2({ weight: ['600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-baloo-2', display: 'swap', preload: true });
-const nunito = Nunito({ weight: ['400', '600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-nunito', display: 'swap', preload: true });
 
 const NATIVE_LANGUAGE: Record<string, string> = {
   en: 'English', de: 'Deutsch', fr: 'Français', es: 'Español', it: 'Italiano', pt: 'Português', nl: 'Nederlands', sv: 'Svenska', da: 'Dansk', no: 'Norsk', fi: 'Suomi',

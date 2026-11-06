@@ -26,11 +26,9 @@ import {
 } from '@/lib/makers/landings';
 import { ribbonStrings } from '@/lib/makers/ribbon';
 import '@/components/maker-landing/maker-landing.css';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import MakerSamples, { makerScreenshots } from './MakerSamples';
 
-const baloo2 = Baloo_2({ weight: ['600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-baloo-2', display: 'swap', preload: true });
-const nunito = Nunito({ weight: ['400', '600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-nunito', display: 'swap', preload: true });
 
 /**
  * Per-maker landing page body — /<locale>/tools/<native-slug>/ for a worksheet

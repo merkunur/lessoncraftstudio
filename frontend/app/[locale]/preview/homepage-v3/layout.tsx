@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import './homepage-v3.css';
 
@@ -9,21 +9,7 @@ import './homepage-v3.css';
    Baloo 2 without competing.
    Latin-ext subset covers all 11 site locales (German ä, Finnish ö,
    Swedish å, Portuguese ã, etc.). */
-const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
 
-const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 export async function generateMetadata({
   params,

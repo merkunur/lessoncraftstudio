@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import '@/components/homepage-v6/homepage-v6.css';
 
@@ -11,21 +11,7 @@ import '@/components/homepage-v6/homepage-v6.css';
    the live-page-depends-on-preview-CSS wart at promotion time).
    Direction A typography pairing — locked at CLAUDE.md §A.13.47. */
 
-const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-baloo-2',
-  display: 'swap',
-  preload: true,
-});
 
-const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-nunito',
-  display: 'swap',
-  preload: true,
-});
 
 export async function generateMetadata({
   params,

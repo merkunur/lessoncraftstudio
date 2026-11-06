@@ -4,7 +4,7 @@ import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { Baloo_2, Nunito } from "next/font/google";
+import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from "next-intl/server";
 import {
   TOPIC_ENABLED_LOCALES,
@@ -56,18 +56,6 @@ export const revalidate = 3600;
 
 // Direction A typography pairing (CLAUDE.md §A.13.47) — loaded per route,
 // like the worksheets/activities/tools hubs. latin-ext covers all 11 locales.
-const baloo2 = Baloo_2({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-baloo-2",
-  display: "swap",
-});
-const nunito = Nunito({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-nunito",
-  display: "swap",
-});
 
 interface PageParams {
   locale: string;

@@ -3,7 +3,7 @@
  * number on the page is counted from the catalog in this language, never written by hand. */
 import '@/components/maker-landing/maker-landing.css';
 import './maker-hub.css';
-import { Baloo_2, Nunito } from 'next/font/google';
+import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import Link from 'next/link';
 import { CANONICAL_HOST, localePath } from '@/lib/seo/url';
 import { getMakerContent, MAKER_KEYS } from '@/lib/seo/maker-content';
@@ -29,8 +29,6 @@ import {
 } from '@/lib/makers/landings';
 import MakerFinder, { FinderMaker } from './MakerFinder';
 
-const baloo2 = Baloo_2({ weight: ['600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-baloo-2', display: 'swap', preload: true });
-const nunito = Nunito({ weight: ['400', '600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-nunito', display: 'swap', preload: true });
 
 const THEME_ART = themeArtMap as Record<string, string>;
 const WALL_KEYS = ['animals', 'fruits', 'space', 'dinosaurs', 'ocean_life', 'vehicles', 'insects_and_bugs', 'zoo_animals', 'farm_animals', 'weather', 'flowers', 'music', 'occupations', 'camping', 'vegetables', 'birds', 'pets', 'toys', 'winter', 'forest_creatures', 'kitchen_tools', 'desserts_and_sweets', 'reptiles_and_amphibians', 'tools'];

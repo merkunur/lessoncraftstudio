@@ -491,7 +491,20 @@ echo "   BUILD_DATE=${BUILD_DATE}"
 #    but ISR keeps the generation phase light. Do NOT revert landings to SSG.
 #  - Do not delete a MATCHING warm .next/cache; a mismatched one may be reset deliberately
 #    ONCE after code stabilizes. deploy.sh only removes .next/server + .next/standalone.
-NODE_OPTIONS="--max-old-space-size=8192" nice -n 10 timeout 1800 npm run build || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
+# Google Fonts now and then answers with /l/font?kit= URLs, which next/font cannot read: "Cannot read properties of null
+# (reading '1')" in google/loader.js (measured 2026-11-06: about 1 reply in 30, two failed deploys in a row). Only that
+# failure is built again; anything else stops at once.
+BUILD_LOG="$(mktemp)"
+BUILD_RC=1
+for BUILD_TRY in 1 2 3 4; do
+  NODE_OPTIONS="--max-old-space-size=8192" nice -n 10 timeout 1800 npm run build 2>&1 | tee "$BUILD_LOG" || true
+  BUILD_RC=${PIPESTATUS[0]}
+  [ "$BUILD_RC" -eq 0 ] && break
+  grep -q 'An error occurred in `next/font`' "$BUILD_LOG" || break
+  echo "⚠ next/font could not read a Google Fonts reply. Building again (try $BUILD_TRY of 4)."
+done
+rm -f "$BUILD_LOG"
+[ "$BUILD_RC" -eq 0 ] || { echo "BUILD FAILED (OOM or >90 min) — check the log for 'heap out of memory' vs a genuine hang. Aborting."; exit 1; }
 
 # 4b. Stage new release under releases/<BUILD_ID> (zero-downtime)
 # The running server continues serving from releases/current/ while we prepare

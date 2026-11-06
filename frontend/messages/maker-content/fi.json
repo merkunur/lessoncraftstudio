@@ -4,11 +4,11 @@
     "name": "Yhteenlaskugeneraattori",
     "tagline": "Tee kuva- ja numeroyhteenlaskuja hetkessä",
     "metaTitle": "Ilmainen yhteenlasku tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen yhteenlaskugeneraattori 5–7-vuotiaille. Tee tulostettavia kuva- ja numeroyhteenlaskuja vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen yhteenlaskugeneraattori 5–7-vuotiaille. Tee tulostettavia kuva- ja numeroyhteenlaskuja vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Yhteenlasku on yksi ensimmäisistä matematiikan taidoista, ja se jää parhaiten mieleen, kun lapsi näkee konkreettisesti mitä tekee. Tämä ilmainen yhteenlaskugeneraattori rakentaa yksinkertaisia laskuja sekä mukavien kuvien että pelkkien numeroiden avulla, joten lapsi voi laskea esineitä saadakseen summan ennen kuin siirtyy työskentelemään pelkillä numeroilla.",
       "Sinä päätät, miltä sivu näyttää: valitse pienet luvut aloittelijoille tai hieman enemmän haastetta, ja valitse kuvateema, jotta esineet tuntuvat tutuilta. Jokainen lapsi kirjoittaa vastauksen ruutuun, mikä pitää huomion oikean summan löytämisessä. Tutut teemakuvat – eläimet, ajoneuvot, ruoka ja monet muut – tekevät jokaisesta arkista omanlaisensa, joten voit antaa saman taidon harjoittelua monella eri sivulla ilman että se tuntuu yksitoikkoiselta.",
-      "Jokainen tekemäsi työarkki voidaan tulostaa heti, ja useimpiin tulee mukaan vastaussivu, jotta voit tarkistaa työn nopeasti tai antaa lasten tarkistaa itse. Generaattori toimii selaimessa ilman tiliä eikä mitään tarvitse asentaa, ja se on käytettävissä kaikilla 11 kielellä. Voit valita yli 3 000 teemakuvan kirjastosta, ja valmiit arkit ovat täysin ilmaisia käyttää luokassasi."
+      "Jokainen tekemäsi työarkki voidaan tulostaa heti, ja useimpiin tulee mukaan vastaussivu, jotta voit tarkistaa työn nopeasti tai antaa lasten tarkistaa itse. Generaattori toimii selaimessa eikä mitään tarvitse asentaa, ja se on käytettävissä kaikilla 11 kielellä. Voit valita yli 3 000 teemakuvan kirjastosta, ja valmiit arkit ovat täysin ilmaisia käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse kuvalaskut nuorimmille laskijoille tai pelkät numerolaskut lapsille, jotka ovat valmiita laskemaan numeroilla.",
@@ -34,11 +34,11 @@
     "name": "Vähennyslaskugeneraattori",
     "tagline": "Rakenna kuva- ja numerovähennyslaskuja nopeasti",
     "metaTitle": "Ilmainen vähennyslasku tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen vähennyslaskugeneraattori 5–7-vuotiaille. Tee tulostettavia kuva- ja numerovähennyslaskuja vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen vähennyslaskugeneraattori 5–7-vuotiaille. Tee tulostettavia kuva- ja numerovähennyslaskuja vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Vähentäminen voi tuntua vaikeammalta kuin lisääminen, joten lapset hyötyvät siitä, että näkevät esineiden katoavan ennen kuin työskentelevät numeroilla. Tämä ilmainen vähennyslaskugeneraattori luo kuvavähennyslaskuja ja numerolaskuja, joissa pienet oppijat voivat yliviivata esineitä löytääkseen, mitä jää jäljelle.",
       "Aseta taso luokkaasi sopivaksi: pidä luvut pieninä ensiyrityksillä ja kasvata niitä, kun varmuus karttuu. Kuvateema tekee jokaisesta tehtävästä pienen tarinan eikä vain numerorivin. Voit valita teeman yli 3 000 kuvan kirjastosta, joten saman taidon harjoittelua voi tarjota monessa eri puitteessa, mikä pitää lapset kiinnostuneina pidempään.",
-      "Työarkit tulostuvat heti, ja useimpiin tulee mukaan vastaussivu, joten tarkistaminen on nopeaa ja lapset voivat tarkistaa omat työnsä heti, kun ovat valmiita. Kaikki toimii selaimessa ilman kirjautumista, eikä mitään tarvitse asentaa. Generaattori on saatavilla kaikilla 11 kielellä, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
+      "Työarkit tulostuvat heti, ja useimpiin tulee mukaan vastaussivu, joten tarkistaminen on nopeaa ja lapset voivat tarkistaa omat työnsä heti, kun ovat valmiita. Kaikki toimii selaimessa, eikä mitään tarvitse asentaa. Generaattori on saatavilla kaikilla 11 kielellä, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
     ],
     "howToUse": [
       "Valitse kuvavähennyslaskut aloittelijoille tai pelkät numerolaskut vanhemmille lapsille.",
@@ -64,11 +64,11 @@
     "name": "Koodiyhteenlaskugeneraattori",
     "tagline": "Pura kuvat koodista ja laske sitten numerot yhteen",
     "metaTitle": "Ilmainen koodiyhteenlasku tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen koodiyhteenlaskugeneraattori 5–7-vuotiaille. Lapsi purkaa kuvakoodin ja laskee – tulostettava vastauksineen, ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen koodiyhteenlaskugeneraattori 5–7-vuotiaille. Lapsi purkaa kuvakoodin ja laskee – tulostettava vastauksineen, ei asennusta, 11 kieltä.",
     "about": [
       "Tämä ilmainen koodiyhteenlaskugeneraattori lisää tavallisiin laskuihin pienen pulman. Pieni selite yhdistää jokaisen kuvan tai symbolin numeroon, ja lapsi lukee ensin koodin, vaihtaa kuvat niiden arvoiksi ja laskee ne sitten yhteen.",
       "Ylimääräinen koodinpurkuvaihe kehittää tarkkaa lukemista ja yksi yhteen -vastaavuutta matematiikan ohella, mikä tekee siitä mukavan haasteen lapsille, jotka jo laskevat pieniä lukuja sujuvasti. Tehtävä yhdistää lukutaidon kaltaisen tarkkuuden ja laskennon yhdeksi toiminnaksi, joten se palvelee montaa tavoitetta kerralla.",
-      "Valitse selitteen kuville teema ja lukualue, jolla säädät vaikeustasoa. Jokainen arkki tulostuu vastaussivun kanssa, joten voit varmistaa sekä koodinpurun että summat. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, toimii missä tahansa selaimessa ilman tarvetta tilille tai asennukselle, on saatavilla 11 kielellä, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse selitteen kuville teema ja lukualue, jolla säädät vaikeustasoa. Jokainen arkki tulostuu vastaussivun kanssa, joten voit varmistaa sekä koodinpurun että summat. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, toimii missä tahansa selaimessa ilman asennusta, on saatavilla 11 kielellä, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema, jotta selitteen kuvat sopivat luokallesi.",
@@ -95,11 +95,11 @@
     "name": "Enemmän–vähemmän-generaattori",
     "tagline": "Vertaa kahta ryhmää: enemmän, vähemmän vai yhtä paljon",
     "metaTitle": "Ilmainen enemmän vähemmän tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen enemmän–vähemmän-generaattori 3–5-vuotiaille. Lapset vertaavat kuvaryhmiä ja merkitsevät enemmän tai vähemmän – tulostettava, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen enemmän–vähemmän-generaattori 3–5-vuotiaille. Lapset vertaavat kuvaryhmiä ja merkitsevät enemmän tai vähemmän – tulostettava, 11 kieltä.",
     "about": [
       "Ennen kuin lapset laskevat tarkasti, he tarvitsevat tuntuman määrästä, ja vertailu on se, mistä se alkaa. Tämä ilmainen enemmän–vähemmän-generaattori näyttää kaksi kuvaryhmää rinnakkain ja pyytää lasta päättämään, kummassa on enemmän, kummassa vähemmän vai ovatko ne yhtä suuria.",
       "Koska huomio on vertailussa eikä tarkoissa summissa, hyvin nuoretkin oppijat voivat osallistua katsomalla ja päättelemällä. Vastauksen merkitseminen pitää tehtävän yksinkertaisena ja selkeänä pienille käsille. Voit valita kuvateeman yli 3 000 kuvan kirjastosta, joten ryhmät pysyvät kiinnostavina ja tarpeeksi tuttuina, jotta lapsi keskittyy itse vertailuun eikä siihen, mitä kuvat esittävät.",
-      "Valitse kuvateema ja tulosta sivu, kun olet valmis. Useimpiin arkkeihin kuuluu vastaussivu nopeaa tarkistusta varten. Generaattori toimii selaimessa kaikilla 11 kielellä, eikä mitään tarvitse asentaa eikä tiliä tarvitse luoda. Valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
+      "Valitse kuvateema ja tulosta sivu, kun olet valmis. Useimpiin arkkeihin kuuluu vastaussivu nopeaa tarkistusta varten. Generaattori toimii selaimessa kaikilla 11 kielellä, eikä mitään tarvitse asentaa. Valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse teema, jotta molemmat ryhmät käyttävät tuttuja kuvia.",
@@ -124,11 +124,11 @@
     "name": "Matikkapulmageneraattori",
     "tagline": "Sekalaisia lukupulmia, joista puuttuu osia",
     "metaTitle": "Ilmainen matikkapulma tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen matikkapulmageneraattori 6–8-vuotiaille. Tee tulostettavia pulmia, joista puuttuu lukuja, vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen matikkapulmageneraattori 6–8-vuotiaille. Tee tulostettavia pulmia, joista puuttuu lukuja, vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Tämä ilmainen matikkapulmageneraattori muuttaa laskennon ajattelupeliksi. Suoran laskun sijaan luku tai laskutoimitus on jätetty tyhjäksi, ja lapsen on päädeltävä takaperin, mikä aukkoon kuuluu.",
       "Puuttuvan luvun tai merkin täyttäminen kehittää syvempää ymmärrystä siitä, miten yhteen- ja vähennyslasku liittyvät toisiinsa, mikä auttaa lapsia siirtymään ulkoa opituista faktoista todelliseen lukukäsitteeseen. Tällainen takaperin päätteleminen on juuri sitä joustavaa ajattelua, jota lapset tarvitsevat myöhemmillä matematiikan tunneilla.",
-      "Voit sekoittaa laskutoimitukset ja säätää vaikeustason ryhmäsi mukaan, ja jokainen pulma tulostuu vastaussivun kanssa, joten tarkistaminen on suoraviivaista. Vaihtelu pitää lapset ajattelemassa eikä arvaamassa. Generaattori avautuu missä tahansa selaimessa, on saatavilla 11 kielellä, eikä se vaadi kirjautumista tai lataamista, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Voit sekoittaa laskutoimitukset ja säätää vaikeustason ryhmäsi mukaan, ja jokainen pulma tulostuu vastaussivun kanssa, joten tarkistaminen on suoraviivaista. Vaihtelu pitää lapset ajattelemassa eikä arvaamassa. Generaattori avautuu missä tahansa selaimessa, on saatavilla 11 kielellä, eikä se vaadi lataamista, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse mukaan otettavat laskutoimitukset ja kuinka haastavia teet niistä.",
@@ -153,11 +153,11 @@
     "name": "Matematiikkageneraattori",
     "tagline": "Yleistä laskennon harjoittelua sekalaisilla tehtävätyypeillä",
     "metaTitle": "Ilmainen matematiikka tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen matematiikkageneraattori 5–7-vuotiaille. Rakenna tulostettavia sekalaisia laskutehtäviä vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen matematiikkageneraattori 5–7-vuotiaille. Rakenna tulostettavia sekalaisia laskutehtäviä vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Joskus tarvitaan vain siisti sivullinen harjoittelua, ja tämä ilmainen matematiikkageneraattori antaa juuri sen. Se rakentaa yleisen laskuarkin, jossa on sekalaisia tehtävätyyppejä, joten lapset saavat vaihtelevaa ja monipuolista harjoittelua yhdellä sivulla.",
       "Koska tehtävät vaihtelevat, lapset eivät voi luistaa yhden kaavan varassa; heidän on luettava jokainen kysymys ja valittava, miten ratkaista se, mikä pitää heidät tarkkaavaisina ja joustavina. Tämä on hyödyllistä silloin, kun haluat tarkistaa, soveltavatko lapset taitojaan eivätkä vain toista samaa toimintoa rivi riviltä.",
-      "Aseta taso oppijoillesi sopivaksi, tulosta arkki ja käytä vastaavaa vastaussivua tarkistaaksesi sen nopeasti. Se on helppo tapa pitää tasaista virtaa tuoretta harjoittelua ilman valmistelua. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman lataamista, ja valmiit arkit ovat täysin ilmaisia tulostaa ja jakaa luokallesi."
+      "Aseta taso oppijoillesi sopivaksi, tulosta arkki ja käytä vastaavaa vastaussivua tarkistaaksesi sen nopeasti. Se on helppo tapa pitää tasaista virtaa tuoretta harjoittelua ilman valmistelua. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman lataamista, ja valmiit arkit ovat täysin ilmaisia tulostaa ja jakaa luokallesi."
     ],
     "howToUse": [
       "Valitse tehtävätyypit ja vaikeustaso ryhmällesi.",
@@ -187,11 +187,11 @@
     "name": "Aakkosjunageneraattori",
     "tagline": "Täytä puuttuvat kirjaimet mukavan junan varrelle",
     "metaTitle": "Ilmainen aakkoset tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen aakkosjunageneraattori 3–5-vuotiaille. Lapset täyttävät puuttuvat kirjaimet järjestyksessä tulostettavaan junaan – vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen aakkosjunageneraattori 3–5-vuotiaille. Lapset täyttävät puuttuvat kirjaimet järjestyksessä tulostettavaan junaan – vastauksineen, 11 kieltä.",
     "about": [
       "Aakkosjärjestyksen oppimisesta tulee leikkisää, kun se kulkee junan kyydissä. Tämä ilmainen aakkosjunageneraattori asettelee kirjaimet vaunuiksi muutamine aukkoineen, ja lapsi kirjoittaa puuttuvat kirjaimet pitääkseen järjestyksen yllä.",
       "Sen päätteleminen, mikä kirjain tulee seuraavaksi, vahvistaa kirjainjärjestystä ja tunnistamista samaan aikaan, ja junan muoto antaa pienille oppijoille selkeän vasemmalta oikealle kulkevan polun seurattavaksi. Tämä suunta on sama, jota tarvitaan myöhemmin lukemisessa ja kirjoittamisessa, joten harjoitus tukee laajemminkin lukemaan oppimista.",
-      "Voit säätää, kuinka monta kirjainta puuttuu ryhmäsi mukaan, ja jokainen juna tulostuu vastaussivun kanssa. Iloinen junan muoto tekee aakkosista kutsuvia kokeen sijaan. Generaattori avautuu missä tahansa selaimessa, on saatavilla kaikilla 11 kielellä, eikä se vaadi kirjautumista tai asennusta. Valmiit junat ovat täysin ilmaisia tulostaa ja käyttää."
+      "Voit säätää, kuinka monta kirjainta puuttuu ryhmäsi mukaan, ja jokainen juna tulostuu vastaussivun kanssa. Iloinen junan muoto tekee aakkosista kutsuvia kokeen sijaan. Generaattori avautuu missä tahansa selaimessa, on saatavilla kaikilla 11 kielellä, eikä se vaadi asennusta. Valmiit junat ovat täysin ilmaisia tulostaa ja käyttää."
     ],
     "howToUse": [
       "Valitse, kuinka monta kirjainta jätät tyhjäksi oppijoillesi.",
@@ -218,11 +218,11 @@
     "name": "Sijaintisanageneraattori",
     "tagline": "Valitse oikea sijaintisana jokaiseen kuvaan",
     "metaTitle": "Ilmainen sijaintisanat tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen sijaintisanageneraattori 5–7-vuotiaille. Lapset valitsevat sisällä, päällä, alla ym. kuvista – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen sijaintisanageneraattori 5–7-vuotiaille. Lapset valitsevat sisällä, päällä, alla ym. kuvista – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Sijaintisanat kuten sisällä, päällä, alla ja vieressä kertovat, missä asiat ovat, ja lapset ymmärtävät ne helpoiten, kun edessä on kuva. Tämä ilmainen sijaintisanageneraattori näyttää pienen kuvan ja pyytää lasta valitsemaan sanan, joka kuvaa, missä esine on.",
       "Oikean sijaintisanan yhdistäminen selkeään kuvaan kehittää sekä tilaa kuvaavaa sanastoa että tarkkaa katsomista, ja se antaa varhaisille lukijoille mielekkään tavan käyttää sanoja, joita he kuulevat joka päivä. Kuvan tukema valinta tekee abstraktista käsitteestä konkreettisen, jolloin myös kielenoppijat pääsevät helpommin mukaan.",
-      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta arkki vastaussivun kera nopeaa tarkistusta varten. Generaattori toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta. Valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää luokassasi niin usein kuin tarvitset."
+      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta arkki vastaussivun kera nopeaa tarkistusta varten. Generaattori toimii selaimessa kaikilla 11 kielellä, ilman asennusta. Valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää luokassasi niin usein kuin tarvitset."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvat sopivat luokallesi.",
@@ -246,11 +246,11 @@
     "name": "Sananarvauksen generaattori",
     "tagline": "Tee kuvallisia sananarvauspulmia minuuteissa",
     "metaTitle": "Ilmainen sananarvaus tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen sananarvausgeneraattori varhaisille lukijoille. Rakenna tulostettavia kuvasananarvauksia omista sanoistasi, vastauksineen – ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen sananarvausgeneraattori varhaisille lukijoille. Rakenna tulostettavia kuvasananarvauksia omista sanoistasi, vastauksineen – 11 kieltä.",
     "about": [
       "Sananarvauspulma näyttää kuvan ja rivin tyhjiä ruutuja, ja lapset päättelevät sanan ja kirjoittavat sen yksi kirjain kerrallaan. Tämä ilmainen sananarvausgeneraattori rakentaa pulman omista sanoistasi ja yhdistää jokaiseen selkeän kuvan, joten varhaisetkin lukijat voivat osallistua.",
       "Koska sanat ovat sinun, pulma sopii luokalle – alkuäänteet, sanelusanat tai aiheen sanasto. Kuvan katsominen ja sanan äänteleminen yhdistää merkityksen, äänteen ja kirjoitusasun, mikä on juuri se tapa, jolla varhainen lukutaito kasvaa. Voit muokata sanalistan vastaamaan tarkalleen sitä, mitä luokkasi sillä hetkellä opettelee.",
-      "Jokainen pulma tulostuu vastaussivun kanssa, toimii selaimessa ilman tiliä ja ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, joten kuvat tuntuvat tutuilta. Valmis työarkki on vapaasti tulostettavissa ja käytettävissä luokkasi tarpeiden mukaan."
+      "Jokainen pulma tulostuu vastaussivun kanssa, toimii selaimessa ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, joten kuvat tuntuvat tutuilta. Valmis työarkki on vapaasti tulostettavissa ja käytettävissä luokkasi tarpeiden mukaan."
     ],
     "howToUse": [
       "Kirjoita sanat, jotka haluat lasten arvaavan; jokaiseen liitetään kuva.",
@@ -274,11 +274,11 @@
     "name": "Sekoitettujen sanojen generaattori",
     "tagline": "Selvitä sekoitetut kirjaimet kuvavihjeen avulla",
     "metaTitle": "Ilmainen sanasekoitus tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen sanasekoitusgeneraattori 6–8-vuotiaille. Lapset selvittävät sekoitetut kirjaimet kuvavihjeellä – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen sanasekoitusgeneraattori 6–8-vuotiaille. Lapset selvittävät sekoitetut kirjaimet kuvavihjeellä – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Sekoitettujen kirjainten järjestäminen oikeaksi sanaksi on nopea ja hauska tapa harjoitella oikeinkirjoitusta. Tämä ilmainen sanasekoitusgeneraattori sekoittaa jokaisen sanan kirjaimet ja liittää siihen kuvavihjeen, joten lapsilla on tavoite, johon pyrkiä työstäessään ratkaisua.",
       "Sanan selvittäminen kannustaa lapsia pitämään kirjaimia mielessä, kokeilemaan järjestyksiä ja äänteilemään sanaa, mikä vahvistaa sekä oikeinkirjoitusta että äännetietoisuutta matalan kynnyksen pulmassa. Kuvavihje pitää tehtävän saavutettavana myös niille, jotka vasta rakentavat lukuvarmuutta.",
-      "Valitse kuvateema, jotta sanat sopivat aiheeseesi, ja tulosta arkki vastaussivuineen. Teemalliset sanat sitovat oikeinkirjoitusharjoittelun siististi siihen, mitä viikolla opitaan. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Valitse kuvateema, jotta sanat sopivat aiheeseesi, ja tulosta arkki vastaussivuineen. Teemalliset sanat sitovat oikeinkirjoitusharjoittelun siististi siihen, mitä viikolla opitaan. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema, jotta sekoitetut sanat vastaavat sanastofokustasi.",
@@ -302,11 +302,11 @@
     "name": "Sanahakugeneraattori",
     "tagline": "Rakenna omia sanahakuja teemakuvineen",
     "metaTitle": "Ilmainen sanahaku tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen sanahakugeneraattori opettajille. Kirjoita omat sanasi, valitse ruudukon koko ja teema ja tulosta sanahaku vastauksineen – ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen sanahakugeneraattori opettajille. Kirjoita omat sanasi, valitse ruudukon koko ja teema ja tulosta sanahaku vastauksineen – 11 kieltä.",
     "about": [
       "Sanahaussa lapset etsivät piilotettuja sanoja kirjainruudukosta – rauhallinen ja keskittynyt tapa harjoitella oikeinkirjoitusta ja katseen tarkkuutta. Tämä ilmainen sanahakugeneraattori rakentaa sellaisen omasta sanalistastasi: kirjoita sanat, valitse ruudukon koko, ja pulma asettuu itsestään, vastaussivu valmiina tulostettavaksi.",
       "Koska sanalista on sinun, pulma sopii luokalle tarkalleen – äännekuviot, aiheen sanasto, nimet tai sanahahmotussanat. Voit pitää ruudukon pienenä ja sanat vasemmalta oikealle nuorimmille tai tehdä siitä suuremman ja lisätä viistosuuntia, kun varmuus karttuu.",
-      "Toimii selaimessa ilman asennusta ja ilman tiliä, on saatavilla kaikilla 11 kielellä, ja teemakuvat yli 3 000 kuvan kirjastosta voivat olla ruudukon vieressä tekemässä siitä kutsuvan. Valmis sanahaku on täysin ilmainen tulostaa ja käyttää luokassasi niin usein kuin haluat."
+      "Toimii selaimessa ilman asennusta, on saatavilla kaikilla 11 kielellä, ja teemakuvat yli 3 000 kuvan kirjastosta voivat olla ruudukon vieressä tekemässä siitä kutsuvan. Valmis sanahaku on täysin ilmainen tulostaa ja käyttää luokassasi niin usein kuin haluat."
     ],
     "howToUse": [
       "Kirjoita sanat, jotka haluat lasten löytävän, ja valitse ikään sopiva ruudukon koko.",
@@ -334,11 +334,11 @@
     "name": "Kryptogrammigeneraattori",
     "tagline": "Tee tulostettavia kuvakryptogrammeja mihin tahansa teemaan",
     "metaTitle": "Ilmainen kryptogrammi tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen kryptogrammigeneraattori luokkaan. Valitse teema, kirjoita sanat ja tulosta kuvakryptogrammi vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen kryptogrammigeneraattori luokkaan. Valitse teema, kirjoita sanat ja tulosta kuvakryptogrammi vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Kryptogrammi muuttaa lukemisen mukavaksi pulmaksi: jokainen kirjain piilotetaan pienen kuvan tai symbolin taakse, ja lapset murtavat koodin paljastaakseen sanat. Tämä ilmainen kryptogrammigeneraattori antaa opettajan rakentaa sellaisen alle minuutissa – valitse teema, kirjoita haluamasi sanat, ja sivu asettaa kuvakoodin ja koodatun viestin puolestasi.",
       "Koska sinä valitset sanat, pulma voi vastata tarkalleen sitä, mitä luokkasi oppii – tämän viikon sanelulistaa, tarinan sanastoa tai aiheen nimiä. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, joten symbolit tuntuvat kutsuvilta eivätkä abstrakteilta varhaisille lukijoille.",
-      "Kaikki tulostuu siististi työarkkina, ja vastaussivu tulostuu sen rinnalle. Tiliä ei tarvitse luoda eikä mitään asentaa – työkalu toimii selaimessa, on saatavilla kaikilla 11 kielellä, ja valmis pulma on täysin ilmainen käyttää luokassasi. Voit tehdä uuden pulman aina, kun haluat tuoretta harjoittelua, ilman valmistelua."
+      "Kaikki tulostuu siististi työarkkina, ja vastaussivu tulostuu sen rinnalle. Mitään ei tarvitse asentaa – työkalu toimii selaimessa, on saatavilla kaikilla 11 kielellä, ja valmis pulma on täysin ilmainen käyttää luokassasi. Voit tehdä uuden pulman aina, kun haluat tuoretta harjoittelua, ilman valmistelua."
     ],
     "howToUse": [
       "Valitse teema ja kirjoita sanat tai lyhyt viesti, jonka haluat lasten purkavan.",
@@ -359,11 +359,11 @@
     "name": "Kirjoitusharjoitusgeneraattori",
     "tagline": "Ohjattuja harjoitusarkkeja kirjaimille ja sanoille",
     "metaTitle": "Ilmainen kirjoitusharjoitus tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen kirjoitusharjoitusgeneraattori 4–7-vuotiaille. Tee tulostettavia kirjain- ja sanaharjoituksia apuviivoineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen kirjoitusharjoitusgeneraattori 4–7-vuotiaille. Tee tulostettavia kirjain- ja sanaharjoituksia apuviivoineen – ei asennusta, 11 kieltä.",
     "about": [
       "Siisti käsiala syntyy tasaisesta, toistuvasta harjoittelusta viivoilla, jotka näyttävät lapsille, mihin kirjaimet kuuluvat. Tämä ilmainen kirjoitusharjoitusgeneraattori luo tulostettavia harjoitusarkkeja selkeine apuviivoineen kirjainten ja sanojen jäljentämiseen ja kirjoittamiseen.",
       "Apuviivat auttavat lapsia hallitsemaan kirjainten korkeutta ja sijoittelua, ja ensin jäljentäminen ja sitten kirjoittaminen rakentaa lihasmuistia, joka tekee käsialasta ajan myötä luontevaa. Toisto turvallisten viivojen sisällä antaa varmuuden, jonka varassa lapsi uskaltaa kokeilla itsenäistä kirjoittamista.",
-      "Sinä valitset harjoiteltavat kirjaimet tai sanat ja tulostat arkin luokallesi. Tämä on kynällä ja paperilla tehtävä toiminta, joten verkossa ei ole vastaussivua. Se on nopea tapa antaa jokaiselle lapselle juuri oikeat harjoiteltavat kirjaimet. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja jakaa."
+      "Sinä valitset harjoiteltavat kirjaimet tai sanat ja tulostat arkin luokallesi. Tämä on kynällä ja paperilla tehtävä toiminta, joten verkossa ei ole vastaussivua. Se on nopea tapa antaa jokaiselle lapselle juuri oikeat harjoiteltavat kirjaimet. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja jakaa."
     ],
     "howToUse": [
       "Syötä kirjaimet tai sanat, joita haluat lasten harjoittelevan.",
@@ -383,11 +383,11 @@
     "name": "Iso–pieni-generaattori",
     "tagline": "Merkitse, kumpi kuva on iso ja kumpi pieni",
     "metaTitle": "Ilmainen iso pieni tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen iso–pieni-generaattori 3–5-vuotiaille. Lapset vertaavat kuvien kokoja ja merkitsevät iso vai pieni – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen iso–pieni-generaattori 3–5-vuotiaille. Lapset vertaavat kuvien kokoja ja merkitsevät iso vai pieni – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Koon vertailu on yksi varhaisimmista tavoista, joilla lapset kuvaavat maailmaa, ja se luo pohjaa myöhemmälle mittaamiselle. Tämä ilmainen iso–pieni-generaattori näyttää samanlaisen kuvan kahdessa koossa ja pyytää lasta merkitsemään, kumpi on iso ja kumpi pieni.",
       "Koska tehtävä on puhtaasti katsomista ja vertailua, lukutaidottomatkin voivat osallistua luottavaisesti rakentaen sanastoa iso, pieni, isompi ja pienempi samalla. Tämä varhainen vertailun käsite tukee myöhemmin pituuden, painon ja määrän mittaamista.",
-      "Valitse kuville mukava teema yli 3 000 kuvan kirjastosta ja tulosta arkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Tutut teemakuvat auttavat pieniä pysymään kiinnostuneina vertaillessaan. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Valitse kuville mukava teema yli 3 000 kuvan kirjastosta ja tulosta arkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Tutut teemakuvat auttavat pieniä pysymään kiinnostuneina vertaillessaan. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvat tuntuvat tutuilta ryhmällesi.",
@@ -415,11 +415,11 @@
     "name": "Kuviosarjajunageneraattori",
     "tagline": "Valitse, mikä jatkaa kuviokuviota",
     "metaTitle": "Ilmainen kuviosarja tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen kuviosarjageneraattori 5–7-vuotiaille. Lapset löytävät, mikä jatkaa kuviokuviota junan varrella – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen kuviosarjageneraattori 5–7-vuotiaille. Lapset löytävät, mikä jatkaa kuviokuviota junan varrella – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Kuvion huomaaminen ja sen ennustaminen, mikä tulee seuraavaksi, on naamioitua varhaisalgebraa. Tämä ilmainen kuviosarjageneraattori näyttää toistuvan kuviokuvion junan varrella yhden vaunun jäädessä tyhjäksi, ja lapsi päättelee, mikä kuva täyttää aukon.",
       "Kuvion jatkaminen pyytää lapsia huomaamaan säännön, pitämään sen mielessä ja soveltamaan sitä, mikä terävöittää päättelyä ja tarkkaavaisuutta leikkisällä, visuaalisella tavalla. Säännön tunnistaminen ja jatkaminen on samaa ajattelua, jolle myöhempi matematiikka rakentuu.",
-      "Valitse kuvion kuville teema ja säädä vaikeustaso ryhmäsi mukaan. Jokainen juna tulostuu vastaussivun kanssa nopeaa tarkistusta varten. Mukava juna pitää kuvion selkeänä ja vasemmalta oikealle kulkevana. Generaattori avautuu missä tahansa selaimessa, on saatavilla kaikilla 11 kielellä, eikä se vaadi kirjautumista tai asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse kuvion kuville teema ja säädä vaikeustaso ryhmäsi mukaan. Jokainen juna tulostuu vastaussivun kanssa nopeaa tarkistusta varten. Mukava juna pitää kuvion selkeänä ja vasemmalta oikealle kulkevana. Generaattori avautuu missä tahansa selaimessa, on saatavilla kaikilla 11 kielellä, eikä se vaadi asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema ja kuinka monimutkainen toistuva kuvio on.",
@@ -449,11 +449,11 @@
     "name": "Kuvioharjoitusgeneraattori",
     "tagline": "Täydennä jokainen kuva- ja muotokuviorivi",
     "metaTitle": "Ilmainen kuvioharjoitus tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen kuvioharjoitusgeneraattori 6–8-vuotiaille. Lapset täydentävät kuva- ja muotokuviorivejä – tulostettava vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen kuvioharjoitusgeneraattori 6–8-vuotiaille. Lapset täydentävät kuva- ja muotokuviorivejä – tulostettava vastauksineen, 11 kieltä.",
     "about": [
       "Tämä ilmainen kuvioharjoitusgeneraattori antaa lapsille useita kuvioita täydennettäväksi yhdellä sivulla, rakentaen yksinkertaisten toistojen päälle, joita he kohtasivat nuorempina. Jokainen rivi näyttää kuva- tai muotosarjan, jonka lapsi täydentää.",
       "Useammilla riveillä ja rikkaammilla säännöillä lapset harjoittelevat kuvion lukemista huolellisesti, toistuvan yksikön tunnistamista ja sen tarkkaa jatkamista, mikä syventää varhaisalgebran taustalla olevaa päättelyä. Useiden kuvioiden näkeminen kerralla auttaa lapsia myös vertailemaan erilaisia sääntöjä ja huomaamaan, miten ne eroavat toisistaan.",
-      "Valitse teema ja vaikeustaso luokkaasi sopivaksi ja tulosta sitten arkki vastaussivuineen nopeaa korjausta varten. Useat kuviot yhdellä sivulla helpottavat runsaan harjoittelun antamista yhdellä istunnolla. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
+      "Valitse teema ja vaikeustaso luokkaasi sopivaksi ja tulosta sitten arkki vastaussivuineen nopeaa korjausta varten. Useat kuviot yhdellä sivulla helpottavat runsaan harjoittelun antamista yhdellä istunnolla. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
     ],
     "howToUse": [
       "Valitse teema ja kuinka haastavia kuviot ovat.",
@@ -474,11 +474,11 @@
     "name": "Piirrä ja väritä -generaattori",
     "tagline": "Jäljennä kuva ruutu ruudulta ja väritä se sitten",
     "metaTitle": "Ilmainen piirrä ja väritä ruutupiirtäminen | LessonCraftStudio",
-    "metaDescription": "Ilmainen piirrä ja väritä -generaattori 5–8-vuotiaille. Lapset jäljentävät kuvan ruutu ruudulta ja värittävät sen – tulostettava PDF, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen piirrä ja väritä -generaattori 5–8-vuotiaille. Lapset jäljentävät kuvan ruutu ruudulta ja värittävät sen – tulostettava PDF, 11 kieltä.",
     "about": [
       "Kuvan jäljentäminen ruutu kerrallaan auttaa lapsia hidastamaan ja todella katsomaan, ja tämä ilmainen piirrä ja väritä -generaattori muuttaa sen rauhalliseksi, palkitsevaksi toiminnaksi. Mallikuva on ruudukolla, ja lapsi piirtää sen uudelleen ruutu ruudulta tyhjään ruudukkoon ennen värittämistä.",
       "Ruudukko jakaa kokonaisen kuvan hallittaviin osiin, mikä rakentaa tilan hahmottamista, tarkkaa havainnointia ja kynäotteen hallintaa, ja samalla lapsi tuntee ylpeyttä piirrettyään jotain itse. Tällainen keskittynyt jäljentäminen kehittää samoja taitoja, joita tarvitaan myöhemmin kirjoittamisessa.",
-      "Valitse teemakuva yli 3 000 kuvan kirjastosta ja tulosta toiminta PDF:nä kynä- ja värikynätyöskentelyyn. Verkossa ei ole vastaussivua, koska valmis teos on lopputulos. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman asennusta, ja se on täysin ilmainen käyttää luokassasi."
+      "Valitse teemakuva yli 3 000 kuvan kirjastosta ja tulosta toiminta PDF:nä kynä- ja värikynätyöskentelyyn. Verkossa ei ole vastaussivua, koska valmis teos on lopputulos. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja se on täysin ilmainen käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse teemakuva, jonka lapset jäljentävät.",
@@ -498,11 +498,11 @@
     "name": "Viivaharjoitusgeneraattori",
     "tagline": "Jäljennä suoria, kaarevia ja siksak-esikirjoituspolkuja",
     "metaTitle": "Ilmainen viivaharjoitus esikirjoittaminen | LessonCraftStudio",
-    "metaDescription": "Ilmainen viivaharjoitusgeneraattori 3–5-vuotiaille. Lapset jäljentävät suoria, kaarevia ja siksak-polkuja – tulostettava PDF, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen viivaharjoitusgeneraattori 3–5-vuotiaille. Lapset jäljentävät suoria, kaarevia ja siksak-polkuja – tulostettava PDF, 11 kieltä.",
     "about": [
       "Ennen kuin lapset osaavat kirjoittaa kirjaimia, he tarvitsevat vakaat kädet ja hyvän kynäotteen hallinnan. Tämä ilmainen viivaharjoitusgeneraattori luo esikirjoitusarkkeja täynnä katkoviivapolkuja jäljennettäväksi, mukaan lukien suorat viivat, loivat kaaret ja eloisat siksakit.",
       "Polun seuraaminen alusta loppuun harjoittaa pieniä lihaksia ja silmän ja käden yhteistyötä, joista käsiala riippuu, ja viivamuotojen vaihtelu pitää harjoittelun tuoreena ja hauskana. Erilaiset polut valmistavat kättä niihin liikkeisiin, joita kirjaimien muodostaminen myöhemmin vaatii.",
-      "Tulosta arkit PDF:nä kynätyöskentelyyn; koska tavoite on jäljentäminen itse, vastaussivua ei ole. Se on yksinkertainen, valmis tapa rakentaa käsialan vaatimaa hallintaa. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
+      "Tulosta arkit PDF:nä kynätyöskentelyyn; koska tavoite on jäljentäminen itse, vastaussivua ei ole. Se on yksinkertainen, valmis tapa rakentaa käsialan vaatimaa hallintaa. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia tulostaa ja käyttää."
     ],
     "howToUse": [
       "Valitse haluamasi viivatyypit suorasta kaarevaan ja siksakiin.",
@@ -522,11 +522,11 @@
     "name": "Värityskuvageneraattori",
     "tagline": "Tee teemallisista ääriviivakuvista tulostettavia värityssivuja",
     "metaTitle": "Ilmainen värityskuva tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen värityskuvageneraattori 3–7-vuotiaille. Tee tulostettavia teemallisia ääriviivavärityssivuja valtavasta kuvakirjastosta – PDF, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen värityskuvageneraattori 3–7-vuotiaille. Tee tulostettavia teemallisia ääriviivavärityssivuja valtavasta kuvakirjastosta – PDF, 11 kieltä.",
     "about": [
       "Värittäminen on rauhoittavaa, luovaa ja loistavaa pienille käsille, ja tämä ilmainen värityskuvageneraattori antaa sinun rakentaa sivuja suuresta teemallisten ääriviivakuvien kirjastosta hetkessä. Valitse haluamasi kuvat ja tulosta siistejä, lapsiystävällisiä ääriviivoja.",
       "Ääriviivojen täyttäminen auttaa lapsia kehittämään kynäotteen hallintaa ja väritietoisuutta antaen heille samalla tilaa ilmaista itseään, mikä tekee siitä lempeän, ruuduttoman toiminnan, joka sopii laajalle ikähaarukalle. Värittäminen tukee myös niitä hienomotorisia taitoja, joita lapsi tarvitsee myöhemmin kynän kanssa.",
-      "Sivut tulostuvat PDF:nä valmiina värikynille tai lyijykynille, eikä vastaussivua tarvita. Yli 3 000 kuvan valikoimasta voit aina sovittaa sivun hetkeen tai aiheeseen. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, eikä koskaan pyydä kirjautumista tai asennusta, ja valmiit sivut ovat täysin ilmaisia käyttää."
+      "Sivut tulostuvat PDF:nä valmiina värikynille tai lyijykynille, eikä vastaussivua tarvita. Yli 3 000 kuvan valikoimasta voit aina sovittaa sivun hetkeen tai aiheeseen. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, eikä koskaan pyydä asennusta, ja valmiit sivut ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema ja haluamasi ääriviivakuvat.",
@@ -546,11 +546,11 @@
     "name": "Laskutaulukkogeneraattori",
     "tagline": "Laske kuvat ja täytä pylväsdiagrammi",
     "metaTitle": "Ilmainen pylväsdiagrammi laske tehtävät | LessonCraftStudio",
-    "metaDescription": "Ilmainen laskutaulukkogeneraattori 5–7-vuotiaille. Lapset laskevat kuvat ja täyttävät pylväsdiagrammin – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen laskutaulukkogeneraattori 5–7-vuotiaille. Lapset laskevat kuvat ja täyttävät pylväsdiagrammin – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Yksinkertaisten diagrammien lukeminen ja tekeminen on varhainen datataito, ja kuvat tekevät siitä lähestyttävää. Tämä ilmainen laskutaulukkogeneraattori näyttää esineryhmiä ja tyhjän pylväsdiagrammin, ja lapsi laskee jokaisen kuvalajin ja täyttää pylvään vastaamaan.",
       "Laskennan muuttaminen pylvääksi auttaa lapsia yhdistämään määrän visuaaliseen korkeuteen, mikä on tärkeä askel kohti diagrammien ymmärtämistä ja määrien vertailua yhdellä silmäyksellä. Tämä luo pohjan myöhemmälle datan keräämiselle ja tulkitsemiselle koko alakoulun ajan.",
-      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki vastaussivuineen nopeaa tarkistusta varten. Se on lempeä, toiminnallinen ensiaskel diagrammien lukemiseen ja tekemiseen. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki vastaussivuineen nopeaa tarkistusta varten. Se on lempeä, toiminnallinen ensiaskel diagrammien lukemiseen ja tekemiseen. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema, jotta laskettavat esineet sopivat luokallesi.",
@@ -571,11 +571,11 @@
     "name": "Yhdistämisgeneraattori",
     "tagline": "Piirrä viivat yhdistäen yhteenkuuluvat kuvat",
     "metaTitle": "Ilmainen yhdistäminen tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen yhdistämisgeneraattori 5–7-vuotiaille. Lapset piirtävät viivat yhdistäen yhteenkuuluvat kuvaparit – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen yhdistämisgeneraattori 5–7-vuotiaille. Lapset piirtävät viivat yhdistäen yhteenkuuluvat kuvaparit – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Parien yhdistäminen on selkeä ja palkitseva tapa lapselle näyttää, mitä hän osaa. Tämä ilmainen yhdistämisgeneraattori sijoittaa kuvat kahteen sarakkeeseen, ja lapsi piirtää viivan yhdistäen jokaisen toiseen sen parin toisella puolella.",
       "Oikeiden parien yhdistäminen rakentaa visuaalista erottelua ja päättelyä siitä, miten asiat liittyvät toisiinsa, ja yksinkertainen viivanpiirto pitää tehtävän saavutettavana varhaisille oppijoille. Voit yhdistää vaikkapa eläimen sen poikaseen tai esineen sen käyttöön, joten sama mekaniikka palvelee montaa eri oppimistavoitetta.",
-      "Valitse teema yli 3 000 kuvan kirjastosta, jotta parit sopivat aiheeseesi, ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Se on joustava tapa tarkistaa ymmärrystä siitä, miten asiat liittyvät yhteen. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse teema yli 3 000 kuvan kirjastosta, jotta parit sopivat aiheeseesi, ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Se on joustava tapa tarkistaa ymmärrystä siitä, miten asiat liittyvät yhteen. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvaparit sopivat tuntiisi.",
@@ -599,11 +599,11 @@
     "name": "Ruudukkopulmageneraattori",
     "tagline": "Sijoita jokainen kuva oikeaan ruudukon ruutuun",
     "metaTitle": "Ilmainen ruudukkopulma kuvatehtävä | LessonCraftStudio",
-    "metaDescription": "Ilmainen ruudukkogeneraattori 5–7-vuotiaille. Lapset sijoittavat jokaisen kuvan oikeaan ruudukon ruutuun – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen ruudukkogeneraattori 5–7-vuotiaille. Lapset sijoittavat jokaisen kuvan oikeaan ruudukon ruutuun – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Ruudukossa työskentely pyytää lapsia seuraamaan rivejä ja sarakkeita huolellisesti, ja tämä ilmainen ruudukkogeneraattori rakentaa toiminnan juuri sen ympärille. Lapsi päättelee, mihin jokainen kuva kuuluu, ja sijoittaa tai piirtää sen oikeaan ruutuun.",
       "Ruudukon sijainnin lukeminen vahvistaa tilan hahmottamista ja huolellista yhdistämistä, taitoja, jotka tukevat kaikkea varhaisesta geometriasta taulukon lukemiseen myöhemmin. Se kannustaa lapsia myös työskentelemään järjestelmällisesti vasemmalta oikealle ja ylhäältä alas.",
-      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Ruudukossa työskentely on myös loistavaa valmistautumista taulukoiden lukemiseen myöhemmin. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman lataamista, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Ruudukossa työskentely on myös loistavaa valmistautumista taulukoiden lukemiseen myöhemmin. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman lataamista, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema, jotta ruudukon kuvat sopivat ryhmällesi.",
@@ -624,11 +624,11 @@
     "name": "Varjokuvageneraattori",
     "tagline": "Yhdistä jokainen kuva oikeaan varjoonsa",
     "metaTitle": "Ilmainen varjokuva yhdistä tehtävä | LessonCraftStudio",
-    "metaDescription": "Ilmainen varjokuvageneraattori 5–7-vuotiaille. Lapset yhdistävät jokaisen kuvan oikeaan varjosiluettiinsa – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen varjokuvageneraattori 5–7-vuotiaille. Lapset yhdistävät jokaisen kuvan oikeaan varjosiluettiinsa – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Kuvan yhdistäminen varjoonsa on ihastuttava tarkan havainnoinnin koe. Tämä ilmainen varjokuvageneraattori näyttää värikkäitä kuvia mustien siluettiensa rinnalla, ja lapsi yhdistää jokaisen kuvan varjoon, joka sopii siihen tarkalleen.",
       "Koska varjot riisuvat pois värin ja yksityiskohdat, lasten on keskityttävä muotoon ja ääriviivaan, mikä terävöittää visuaalista erottelua ja tarkkaavaisuutta pelimäisessä pulmassa. Sama ääriviivaan keskittyminen tukee myös varhaista kirjain- ja muototunnistusta, jota lapsi tarvitsee lukemaan oppiessaan.",
-      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta arkki vastaussivuineen nopeaa tarkistusta varten. Kontrasti täysvärin ja pelkän varjon välillä tekee siitä sekä rauhoittavan että uppoavan. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman kirjautumista tai asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta arkki vastaussivuineen nopeaa tarkistusta varten. Kontrasti täysvärin ja pelkän varjon välillä tekee siitä sekä rauhoittavan että uppoavan. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvat ja varjot sopivat luokallesi.",
@@ -652,11 +652,11 @@
     "name": "Bingokorttigeneraattori",
     "tagline": "Tulostettavia kuvabingokortteja ja huutokortteja",
     "metaTitle": "Ilmainen kuvabingo kortti tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen bingokorttigeneraattori 5–7-vuotiaille. Tee tulostettavia kuvabingokortteja ja huutokortteja sanastopeleihin – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen bingokorttigeneraattori 5–7-vuotiaille. Tee tulostettavia kuvabingokortteja ja huutokortteja sanastopeleihin – ei asennusta, 11 kieltä.",
     "about": [
       "Bingo on iloinen tapa harjoitella sanastoa yhdessä, ja tämä ilmainen bingokorttigeneraattori rakentaa kuvakortteja sekä vastaavat huutokortit muutamalla klikkauksella. Jokainen lapsi saa kortillisen teemallisia kuvia samalla, kun sinä huudat niitä yksi kerrallaan.",
       "Kuvan kuuntelu ja sen merkitseminen rakentaa sanantunnistusta, sanastoa ja kuuntelutaitoja, ja yhteinen pelin energia tekee uusista sanoista mieleenpainuvia koko luokalle. Koska jokainen kortti on hieman erilainen, lapset pysyvät valppaina koko kierroksen ajan.",
-      "Valitse teema yli 3 000 kuvan kirjastosta, jotta kuvat sopivat aiheeseesi, ja tulosta sitten tarpeeksi erilaisia kortteja ryhmällesi huutokorttien kanssa. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tarvetta tilille tai asennukselle, ja kaikki kortit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
+      "Valitse teema yli 3 000 kuvan kirjastosta, jotta kuvat sopivat aiheeseesi, ja tulosta sitten tarpeeksi erilaisia kortteja ryhmällesi huutokorttien kanssa. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja kaikki kortit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse teema, jotta bingokuvat vastaavat sanastofokustasi.",
@@ -677,11 +677,11 @@
     "name": "Kuvalajittelugeneraattori",
     "tagline": "Lajittele jokainen kuva oikean luokan alle",
     "metaTitle": "Ilmainen kuvalajittelu luokittelu tehtävät | LessonCraftStudio",
-    "metaDescription": "Ilmainen kuvalajittelugeneraattori 5–7-vuotiaille. Lapset lajittelevat kuvat oikeisiin luokkiin – tulostettava vastauksineen, ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen kuvalajittelugeneraattori 5–7-vuotiaille. Lapset lajittelevat kuvat oikeisiin luokkiin – tulostettava vastauksineen, ei asennusta, 11 kieltä.",
     "about": [
       "Asioiden lajittelu ryhmiin on tapa, jolla lapset hahmottavat maailmaa, ja tämä ilmainen kuvalajittelugeneraattori muuttaa sen selkeäksi työarkiksi. Sinä annat luokkaotsikot ja kuvajoukon, ja lapsi päättää, mihin ryhmään kukin kuva kuuluu.",
       "Luokittelu rakentaa päättelyä, sanastoa ja kykyä huomata, mitä yhteistä esineillä on – olennainen ajattelutaito, joka tukee niin luonnontietoa, matematiikkaa kuin lukutaitoakin. Kunkin ryhmän säännön nimeäminen antaa lapsille myös paljon puhuttavaa ja kehittää perustelemisen taitoa.",
-      "Valitse teema yli 3 000 kuvan kirjastosta ja omat luokkasi ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Lajitteluharjoittelu toimii matematiikassa, luonnontiedossa ja kielessä, joten se ansaitsee paikkansa usein. Työkalu avautuu missä tahansa selaimessa kaikilla 11 kielellä, ilman kirjautumista tai asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse teema yli 3 000 kuvan kirjastosta ja omat luokkasi ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Lajitteluharjoittelu toimii matematiikassa, luonnontiedossa ja kielessä, joten se ansaitsee paikkansa usein. Työkalu avautuu missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse luokat ja kuville teema.",
@@ -702,11 +702,11 @@
     "name": "Puuttuvien palojen generaattori",
     "tagline": "Löydä pala, joka täydentää kuvan",
     "metaTitle": "Ilmainen puuttuva pala täydennä kuva | LessonCraftStudio",
-    "metaDescription": "Ilmainen puuttuvien palojen generaattori 5–7-vuotiaille. Lapset löytävät palan, joka täydentää kuvan – tulostettava vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen puuttuvien palojen generaattori 5–7-vuotiaille. Lapset löytävät palan, joka täydentää kuvan – tulostettava vastauksineen, 11 kieltä.",
     "about": [
       "Sen päätteleminen, mikä pala täydentää kuvan, on palkitseva visuaalinen pulma nuorille oppijoille. Tämä ilmainen puuttuvien palojen generaattori näyttää kuvan, jossa on aukko, ja lapsi löytää tai piirtää osan, joka sopii tehden siitä kokonaisen.",
       "Kuvan täydentäminen pyytää lapsia kuvittelemaan kokonaisuuden, vertailemaan muotoja ja yksityiskohtia ja päättelemään, mitä puuttuu, rakentaen tilan hahmottamista ja tarkkaa havainnointia. Se on sellainen hiljainen, keskittynyt tehtävä, joka sopii rauhalliseen hetkeen päivässä.",
-      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Se on palkitseva, matalan kynnyksen pulma, johon lapset palaavat mielellään. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
+      "Valitse kuville teema yli 3 000 kuvan kirjastosta ja tulosta työarkki, johon kuuluu vastaussivu nopeaa tarkistusta varten. Se on palkitseva, matalan kynnyksen pulma, johon lapset palaavat mielellään. Työkalu toimii selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia käyttää."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvat sopivat ryhmällesi.",
@@ -730,11 +730,11 @@
     "name": "Mikä ei sovi -generaattori",
     "tagline": "Bongaa kuva, joka ei kuulu joukkoon",
     "metaTitle": "Ilmainen mikä ei sovi joukkoon tehtävät | LessonCraftStudio",
-    "metaDescription": "Ilmainen mikä ei sovi -generaattori 5–7-vuotiaille. Lapset merkitsevät kuvan, joka ei kuulu joukkoon – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen mikä ei sovi -generaattori 5–7-vuotiaille. Lapset merkitsevät kuvan, joka ei kuulu joukkoon – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Sen päättäminen, mikä ei kuulu joukkoon, on terävä pieni päättelytehtävä, ja tämä ilmainen mikä ei sovi -generaattori rakentaa sen kuvista. Jokaisella ryhmällä on jotain yhteistä yhtä lukuun ottamatta, ja lapsi merkitsee kuvan, joka ei sovi, ja voi selittää miksi.",
       "Joukkoon kuulumattoman löytäminen pyytää lapsia huomaamaan jaetun ominaisuuden ja testaamaan jokaista kohdetta sitä vasten, vahvistaen luokittelua, sanastoa ja tapaa perustella vastaus. Usein valinnan voi selittää useammalla tavalla, mikä herättää hyvää keskustelua koko ryhmässä.",
-      "Valitse teema yli 3 000 kuvan kirjastosta, jotta ryhmät sopivat aiheeseesi, ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Lasten pyytäminen perustelemaan valintansa muuttaa nopean tehtävän rikkaaksi puheeksi. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman kirjautumista ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse teema yli 3 000 kuvan kirjastosta, jotta ryhmät sopivat aiheeseesi, ja tulosta sitten arkki vastaussivuineen nopeaa tarkistusta varten. Lasten pyytäminen perustelemaan valintansa muuttaa nopean tehtävän rikkaaksi puheeksi. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema, jotta kuvaryhmät sopivat luokallesi.",
@@ -758,11 +758,11 @@
     "name": "Sudokugeneraattori",
     "tagline": "Tee kuva- tai numerosudokuja pienille oppijoille",
     "metaTitle": "Ilmainen lasten sudoku tulostettava kuvasudoku | LessonCraftStudio",
-    "metaDescription": "Ilmainen sudokugeneraattori pienille lapsille. Tee tulostettavia 4x4-kuva- tai numerosudokuja vastauksineen – ei kirjautumista, ei asennusta, 11 kieltä.",
+    "metaDescription": "Ilmainen sudokugeneraattori pienille lapsille. Tee tulostettavia 4x4-kuva- tai numerosudokuja vastauksineen – ei asennusta, 11 kieltä.",
     "about": [
       "Sudoku on lempeä johdatus loogiseen ajatteluun: jokaisella rivillä, sarakkeella ja ruudukkolaatikolla on oltava kukin kohde tasan kerran. Tämä ilmainen sudokugeneraattori rakentaa lapsiystävällisiä pulmia – pieniä 4x4-ruudukoita, jotka käyttävät kuvia numeroiden sijaan, jotta lukutaidottomatkin voivat päätellä ne, sekä numeroruudukoita lapsille, jotka ovat valmiita.",
       "Kuvasudoku säilyttää logiikan ilman lukukuormaa. Lapsi katsoo, mitä on jo sijoitettu, päättelee, mitä puuttuu, ja oppii tarkistamaan arvauksen koko ruudukkoa vasten – varhaisia päättelytaitoja, jotka kantavat pitkälle itse pulman ulkopuolelle.",
-      "Voit valita teeman yli 3 000 kuvan kirjastosta, jotta kuvat sopivat luokallesi, ja jokainen pulma tulostuu vastaussivun kanssa. Työkalu toimii selaimessa ilman tiliä ja ilman asennusta, on saatavilla kaikilla 11 kielellä, ja valmiit pulmat ovat täysin ilmaisia käyttää luokassasi."
+      "Voit valita teeman yli 3 000 kuvan kirjastosta, jotta kuvat sopivat luokallesi, ja jokainen pulma tulostuu vastaussivun kanssa. Työkalu toimii selaimessa ilman asennusta, on saatavilla kaikilla 11 kielellä, ja valmiit pulmat ovat täysin ilmaisia käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse 4x4-kuvaruudukko nuorimmille lapsille tai numeroruudukko vanhemmille.",
@@ -787,11 +787,11 @@
     "name": "Kuvapolkugeneraattori",
     "tagline": "Piirrä polku labyrintin läpi maaliin",
     "metaTitle": "Ilmainen labyrintti tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen kuvapolkugeneraattori 5–7-vuotiaille. Lapset piirtävät polun ruudukkolabyrintin läpi alusta maaliin – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen kuvapolkugeneraattori 5–7-vuotiaille. Lapset piirtävät polun ruudukkolabyrintin läpi alusta maaliin – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Labyrintit ovat klassinen tapa rakentaa suunnittelua ja kynäotteen hallintaa, ja tämä ilmainen kuvapolkugeneraattori luo ruudukkolabyrintin nuorille oppijoille. Lapsi piirtää polun alusta maaliin liikkuen vain sallittujen ruutujen kautta.",
       "Reitin löytäminen pyytää lapsia suunnittelemaan etukäteen, noudattamaan sääntöjä siitä, minne saa mennä, ja pysymään siisteinä ja vakaina kynänsä kanssa, kaikki toiminnassa, joka tuntuu puhtaalta hauskanpidolta. Selkeä ruudukko pitää vaikeatkin labyrintit lähestyttävinä nuorille oppijoille, ja onnistuminen kannustaa yrittämään uudelleen.",
-      "Valitse teema ja vaikeustaso ryhmäsi mukaan ja tulosta sitten labyrintti vastaussivuineen nopeaa tarkistusta varten. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman kirjautumista tai asennusta, ja valmiit labyrintit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
+      "Valitse teema ja vaikeustaso ryhmäsi mukaan ja tulosta sitten labyrintti vastaussivuineen nopeaa tarkistusta varten. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit labyrintit ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse teema ja kuinka haastava labyrintti on.",
@@ -816,11 +816,11 @@
     "name": "Etsi ja laske -generaattori",
     "tagline": "Etsi kuva näkymästä ja laske, montako",
     "metaTitle": "Ilmainen etsi ja laske tehtävät tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen etsi ja laske -generaattori 3–5-vuotiaille. Lapset etsivät kohdekuvan vilkkaasta näkymästä – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen etsi ja laske -generaattori 3–5-vuotiaille. Lapset etsivät kohdekuvan vilkkaasta näkymästä – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Vilkkaan kuvan tutkiminen ja löydetyn laskeminen on pelkkää iloa pienille lapsille, ja tämä ilmainen etsi ja laske -generaattori muuttaa sen varhaiseksi matematiikan harjoitteluksi. Eloisa näkymä piilottaa kohdekuvan, ja lapsi löytää jokaisen ja laskee, montako niitä on.",
       "Etsiminen ja laskeminen rakentaa visuaalista tarkastelua, yksi yhteen -laskemista ja keskittynyttä tarkkaavaisuutta, ja leikkisä etsintä pitää pienet oppijat iloisesti mukana. Koska se tuntuu peliltä, lapset harjoittelevat laskemista pidempään väsymättä, ja keskittyminen vahvistuu huomaamatta.",
-      "Valitse teema yli 3 000 kuvan kirjastosta, jotta näkymä sopii luokallesi, ja tulosta sitten työarkki vastaussivuineen nopeaa tarkistusta varten. Piilokuvamuoto tekee laskemisesta aarteenetsinnän tuntuista. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman tiliä ja ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
+      "Valitse teema yli 3 000 kuvan kirjastosta, jotta näkymä sopii luokallesi, ja tulosta sitten työarkki vastaussivuineen nopeaa tarkistusta varten. Piilokuvamuoto tekee laskemisesta aarteenetsinnän tuntuista. Työkalu toimii missä tahansa selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit arkit ovat täysin ilmaisia."
     ],
     "howToUse": [
       "Valitse teema, jotta vilkas näkymä sopii ryhmällesi.",
@@ -844,11 +844,11 @@
     "name": "Piilokuvageneraattori",
     "tagline": "Suunnittele piilokuva- ja etsintänäkymiä tulostettavaksi",
     "metaTitle": "Ilmainen piilokuva etsi esineet tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen piilokuvageneraattori opettajille. Rakenna tulostettavia etsi ja laske -näkymiä teemakuvilla ja vastauksineen – ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen piilokuvageneraattori opettajille. Rakenna tulostettavia etsi ja laske -näkymiä teemakuvilla ja vastauksineen – 11 kieltä.",
     "about": [
       "Piilokuva- ja etsintätehtävät pyytävät lapsia tutkimaan vilkasta näkymää, löytämään oikeat kuvat ja laskemaan, mitä he näkevät – rakentaen huolellista katsomista, tarkkaavaisuutta ja varhaista laskemista kaikki kerralla. Tämä ilmainen generaattori täyttää sivun teemakuvilla, joten voit luoda tuoreen etsintänäkymän hetkessä.",
       "Sinä valitset teeman ja kuinka täynnä näkymä on, joten sama toiminta voi sopia kolmevuotiaalle tai varmemmalle kuusivuotiaalle. Etsiminen, bongaaminen ja laskeminen ovat valmiustaitoja, jotka tukevat lukutaitoa ja lukukäsitettä, ja lapset pitävät niistä aidosti.",
-      "Jokainen työarkki tulostuu vastaussivun kanssa, joka näyttää määrät, toimii selaimessa ilman tiliä ja ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Voit valita teeman yli 3 000 kuvan kirjastosta, ja valmiit arkit ovat täysin ilmaisia käyttää luokassasi niin usein kuin haluat."
+      "Jokainen työarkki tulostuu vastaussivun kanssa, joka näyttää määrät, toimii selaimessa ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Voit valita teeman yli 3 000 kuvan kirjastosta, ja valmiit arkit ovat täysin ilmaisia käyttää luokassasi niin usein kuin haluat."
     ],
     "howToUse": [
       "Valitse teema ja kuinka monta kuvaa täyttää näkymän.",
@@ -872,11 +872,11 @@
     "name": "Ristikkogeneraattori",
     "tagline": "Tee kuvaristikoita, joita lapset voivat ratkaista",
     "metaTitle": "Ilmainen kuvaristikko lapsille tulostettava | LessonCraftStudio",
-    "metaDescription": "Ilmainen ristikkogeneraattori luokkaan. Rakenna kuvavihjeristikoita omista sanoistasi ja tulosta vastauksineen – ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen ristikkogeneraattori luokkaan. Rakenna kuvavihjeristikoita omista sanoistasi ja tulosta vastauksineen – 11 kieltä.",
     "about": [
       "Ristikko yhdistää oikeinkirjoituksen ja merkityksen: lapset lukevat vihjeen, keksivät sanan ja sovittavat sen ruudukkoon kirjain kerrallaan. Tämä ilmainen ristikkogeneraattori rakentaa sellaisen omista sanoistasi, ja varhaisille lukijoille vihjeet voivat olla kuvia lauseiden sijaan – lapsi näkee kuvan ja kirjoittaa sen nimeämän sanan.",
       "Koska sinä annat sanat, ristikko vastaa luokkaasi – aiheen sanastoa, sanelusanoja tai tarinan sanoja. Kuvavihjeet tekevät siitä saavutettavan lapsille, jotka vielä rakentavat lukuvarmuutta, kun taas kirjalliset vihjeet venyttävät valmiita.",
-      "Jokainen ristikko tulostuu vastaussivunsa kanssa, toimii selaimessa ilman tiliä ja ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, joten kuvavihjeet tuntuvat tutuilta. Valmis pulma on vapaasti tulostettavissa ja käytettävissä luokkasi tarpeiden mukaan."
+      "Jokainen ristikko tulostuu vastaussivunsa kanssa, toimii selaimessa ilman asennusta, ja on saatavilla kaikilla 11 kielellä. Generaattori hyödyntää yli 3 000 teemakuvan kirjastoa, joten kuvavihjeet tuntuvat tutuilta. Valmis pulma on vapaasti tulostettavissa ja käytettävissä luokkasi tarpeiden mukaan."
     ],
     "howToUse": [
       "Kirjoita sanat, jotka haluat pulmaan, ja valitse kuva- tai kirjalliset vihjeet.",
@@ -897,11 +897,11 @@
     "name": "Aarteenetsintägeneraattori",
     "tagline": "Seuraa suuntanuolia päästäksesi aarteelle",
     "metaTitle": "Ilmainen aarteenetsintä seuraa ohjeita tehtävät | LessonCraftStudio",
-    "metaDescription": "Ilmainen aarteenetsintägeneraattori 6–8-vuotiaille. Lapset seuraavat suuntanuolia ruudukkokartalla aarteelle – tulostettava, vastauksineen, ei kirjautumista, 11 kieltä.",
+    "metaDescription": "Ilmainen aarteenetsintägeneraattori 6–8-vuotiaille. Lapset seuraavat suuntanuolia ruudukkokartalla aarteelle – tulostettava, vastauksineen, 11 kieltä.",
     "about": [
       "Ohjeiden seuraaminen kartalla on jännittävä tapa harjoitella tilan ajattelua, ja tämä ilmainen aarteenetsintägeneraattori rakentaa juuri sellaisen seikkailun. Kuvaruudukkokartta suuntanuolineen ohjaa lapsen askel askeleelta kohti piilotettua aarretta.",
       "Nuolien lukeminen ja oikeaan suuntaan liikkuminen harjoittaa suuntakieltä, järjestämistä ja varhaista käsitystä sijainnista ja liikkeestä, kaikki käärittynä tarinaan, jota lapset rakastavat. Aarteelle pääseminen antaa selkeän, motivoivan tavoitteen, jota kohti työskennellä, ja jokainen oikea askel tuntuu pieneltä voitolta.",
-      "Valitse teema yli 3 000 kuvan kirjastosta ja vaikeustaso ryhmällesi sopivaksi ja tulosta sitten kartta vastaussivuineen nopeaa tarkistusta varten. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman kirjautumista tai asennusta, ja valmiit kartat ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
+      "Valitse teema yli 3 000 kuvan kirjastosta ja vaikeustaso ryhmällesi sopivaksi ja tulosta sitten kartta vastaussivuineen nopeaa tarkistusta varten. Työkalu avautuu selaimessa kaikilla 11 kielellä, ilman asennusta, ja valmiit kartat ovat täysin ilmaisia tulostaa ja käyttää luokassasi."
     ],
     "howToUse": [
       "Valitse teema ja kuinka monta askelta etsintä kestää.",

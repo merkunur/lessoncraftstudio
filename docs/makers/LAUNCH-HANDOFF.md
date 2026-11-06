@@ -6,6 +6,10 @@ detailed documents instead of repeating them.
 
 ## Status 2026-11-06: LIVE
 
+**Old landings' account claims:** corrected on the operator's ruling of 2026-11-06 ("no login", "no account" in all 11 languages;
+643 strings, descriptions and body text only, titles, slugs and names untouched; `scripts/makers/landing/correct-old-account-claims.js`;
+the SEO baseline re-frozen). Some still say the maker is free in their body text: a free account exists, so that was left.
+
 The release and the launch goal below are done: makers installed, 647 landings, hub, homepage room, old landings upgraded, the
 maker band on worksheet landings, topic pages, Level Set hubs and all decks, the 33 old apps removed. Evidence and traps:
 CLAUDE.md §32. Everything below this heading is the plan as written before the launch.
@@ -25,8 +29,6 @@ CLAUDE.md §32. Everything below this heading is the plan as written before the 
 - **Size of these two fixes:** the word lists of §2 are a scan of every live deck plus regeneration, and the British pass is about
   1,800 decks plus a full maker rebuild (1 h 45 min) and release, with no gate round since round 13. Plan each as its own task: a
   dedicated session, one reviewer, in-place republish per locale with `fix-republish.sh`.
-- **Old landings carry frozen text** that is no longer quite true (for example "no account"): left as it is on purpose, because
-  their words are frozen for SEO. The operator decides.
 - **da, no, fi demand data is partial:** autocomplete rate-limited those three, so their headlines rest on the old pages' keywords
   and native terms. Re-run `scripts/seo-research/harvest-maker-landings.js` for them and compare.
 - **Google Search Console** was not available to the session: submit the sitemap index there and check thumbnails in the results.

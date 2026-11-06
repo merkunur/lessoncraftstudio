@@ -45,6 +45,7 @@ node scripts/publish-cli/inject-deck-site-chrome.js --locale=$LOC --slugs-file="
 node scripts/publish-cli/inject-deck-end-topic-links.js --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-endlinks.log" 2>&1 || { echo "END-LINKS FAILED"; exit 2; }
 node scripts/publish-cli/inject-embed-hide-style.js --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-embedhide.log" 2>&1 || { echo "EMBED-HIDE FAILED"; exit 2; }
 node scripts/publish-cli/inject-deck-actions.js --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-actions.log" 2>&1 || { echo "DECK-ACTIONS FAILED"; exit 2; }
+node scripts/publish-cli/inject-deck-maker-ribbon.js --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-ribbon.log" 2>&1 || { echo "MAKER-RIBBON FAILED"; exit 2; }
 node scripts/publish-cli/meter-deck-downloads.js --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-meter.log" 2>&1 || { echo "METER FAILED"; exit 2; }
 node scripts/publish-cli/meter-deck-downloads.js --check --locale=$LOC --slugs-file="$SL" > "$REC/$LOC-$KIND-meter-check.log" 2>&1 || { echo "METER CHECK FAILED"; tail -10 "$REC/$LOC-$KIND-meter-check.log"; exit 2; }
 tail -1 "$REC/$LOC-$KIND-meter-check.log"

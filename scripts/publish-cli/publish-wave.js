@@ -415,6 +415,7 @@ function main() {
   if (!args.skipSiteChrome) {
     for (const loc of args.locales) {
       runStep(`DECK-ACTIONS — inject-deck-actions (${loc})`, 'inject-deck-actions.js', [`--locale=${loc}`, ...scopeArg]);
+      runStep(`MAKER-RIBBON — inject-deck-maker-ribbon (${loc})`, 'inject-deck-maker-ribbon.js', [`--locale=${loc}`, ...scopeArg]);
     }
   } else {
     console.log('\n(skipping deck-actions injection per --skip-site-chrome)');

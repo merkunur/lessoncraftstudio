@@ -4547,16 +4547,24 @@
       "penShelf": "activities and worksheets, one shelf"
     },
     "make": {
-      "heading": "Make it exactly right for your class",
-      "body": "Pick the exercise, the number range, the theme, the artwork — even your own photos. One build gives you an interactive worksheet that checks itself, and a print-ready PDF with an answer key.",
-      "caption": "A maker for every exercise type · a rich picture library · your photos welcome",
+      "heading": "Whatever you teach tomorrow, you can make it today",
+      "body": "Worksheet makers for kindergarten to grade 3, from counting to cursive. Pick a worksheet, change it in a few clicks, and it is ready before the bell.",
+      "caption": "Your language, your pictures",
       "forkLabel": "One build, two outputs",
       "forkPlay": "Plays in the browser",
       "forkPrint": "Prints with answer key",
-      "cta": "Build a worksheet",
-      "makerAlt": "The worksheet maker's controls: exercise, theme, artwork, difficulty",
+      "cta": "See all the worksheet makers",
+      "makerAlt": "A counting worksheet from the worksheet makers",
       "penTiles": "three tiles, one word — made, not found",
-      "penTraveler": "born here — watch this sheet travel"
+      "penTraveler": "born here — watch this sheet travel",
+      "point1": "Math, reading and handwriting",
+      "point1Body": "Numbers, reading, handwriting, puzzles and more, from counting to cursive.",
+      "point2": "Your language, your pictures",
+      "point2Body": "The page rewrites itself in your language, with pictures from a very large library.",
+      "point3": "Paper or screen",
+      "point3Body": "Print a clean PDF with its answer key, or send children the screen version.",
+      "point4": "Saved and shared in a click",
+      "point4Body": "Keep what you make and share it with your class by link or QR code."
     },
     "paper": {
       "heading": "Every worksheet plays and prints",

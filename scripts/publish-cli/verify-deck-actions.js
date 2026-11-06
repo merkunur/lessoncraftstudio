@@ -216,14 +216,14 @@ function runPoison() {
   poison('missing-answer-key', 'answer-key', 'en', truth, function (h) {
     return h.replace(stripBlock(h), deckActions.block({ locale: 'en', slug: truth.slug, hasAnswerKey: false, appKey: 'addition' }));
   });
-  poison('maker-wrong-locale', 'maker', 'de', truth, function (h) { return h.replace('/de/tools/', '/en/tools/'); });
+  poison('maker-wrong-locale', 'maker', 'de', truth, function (h) { return h.replace('/de/worksheet-makers/', '/en/worksheet-makers/'); });
   poison('maker-wrong-app', 'maker', 'en', truth, function (h) {
     return h.replace(stripBlock(h), deckActions.block({ locale: 'en', slug: truth.slug, hasAnswerKey: true, appKey: 'wordsearch' }));
   });
   poison('maker-on-no-maker-deck', 'maker', 'en', { slug: truth.slug, hasAnswerKey: true, appKey: 'counting-pictures' }, function (h) {
     return h.replace(stripBlock(h), deckActions.block({ locale: 'en', slug: truth.slug, hasAnswerKey: true, appKey: 'addition' }));
   });
-  poison('maker-trailing-slash', 'links', 'en', truth, function (h) { return h.replace('/tools/addition-worksheet-maker"', '/tools/addition-worksheet-maker/"'); });
+  poison('maker-trailing-slash', 'links', 'en', truth, function (h) { return h.replace('/worksheet-makers/addition-and-subtraction-worksheet-generator"', '/worksheet-makers/addition-and-subtraction-worksheet-generator/"'); });
   poison('english-label-on-de', 'i18n', 'de', truth, function (h) { return h.replace('<span>Selbst erstellen</span>', '<span>Make your own</span>'); });
   poison('english-aria-on-fi', 'i18n', 'fi', truth, function (h) { return h.replace('aria-label="' + deckActions.strings('fi').ariaLabel + '"', 'aria-label="' + deckActions.strings('en').ariaLabel + '"'); });
   poison('no-print-hide', 'hide-print', 'en', truth, function (h) { return h.replace('@media print{#lcs-deck-actions{display:none!important}}', ''); });

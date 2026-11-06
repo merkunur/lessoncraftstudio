@@ -14,6 +14,7 @@ import { getToolSlugMap } from '@/lib/seo/tool-content';
 import { getMakerSlugMap } from '@/lib/seo/maker-content';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { buildAxisLabels } from '@/lib/category-nav-taxonomy';
+import { navMakers } from '@/lib/makers/landings';
 import { buildCategoryMeshSlots } from '@/components/layout/CategoryNavMesh';
 import { ACTIVITIES_NAV_COUNT } from '@/lib/category-nav-data';
 
@@ -143,6 +144,14 @@ export default async function LocaleLayout({
     makerSlugs = await getMakerSlugMap(locale);
   } catch {
     // Content files unreachable: buildCategories falls back to the fragment links.
+  }
+
+  // The new worksheet makers, popular ones first: the dropdown shows the first few, the crawl mesh carries them all.
+  let newMakers: Array<{ href: string; label: string }> = [];
+  try {
+    newMakers = await navMakers(locale);
+  } catch {
+    // Content files unreachable: the dropdown keeps its classic maker pages.
   }
 
   /* The tool catalogue and the axis taxonomy, resolved HERE for this locale

@@ -1,0 +1,123 @@
+/* The maker hub. Builds on maker-landing.css (the mat, the ruler, the buttons, the plans band). */
+.mh-hero-inner {
+  max-width: 1280px; margin: 0 auto; padding: 58px 24px 66px;
+  display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(0, 1fr); gap: 30px; align-items: center;
+}
+.mh-hero h1 { color: #fffaf0; font-size: clamp(2.4rem, 5vw, 4.4rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.04; text-wrap: balance; }
+
+/* five real sheets, dealt across the mat */
+.mh-hero-sheets { position: relative; aspect-ratio: 1 / 0.8; min-height: 300px; }
+.mh-hero-sheets img {
+  position: absolute; width: 40%; height: auto; left: 50%; top: 50%; background: #fff; border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 16px 30px rgba(4, 34, 29, 0.42);
+  transform: translate(-50%, -50%) rotate(var(--r)) translate(var(--x), var(--y));
+  animation: ml-deal 0.6s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+.mh-hero-sheets .is-0 { --r: -14deg; --x: -92%; --y: 6%; z-index: 1; animation-delay: 0s; }
+.mh-hero-sheets .is-1 { --r: -7deg; --x: -48%; --y: 0%; z-index: 2; animation-delay: 0.09s; }
+.mh-hero-sheets .is-2 { --r: -1deg; --x: 0%; --y: -3%; z-index: 5; width: 46%; animation-delay: 0.27s; }
+.mh-hero-sheets .is-3 { --r: 7deg; --x: 46%; --y: 0%; z-index: 4; animation-delay: 0.18s; }
+.mh-hero-sheets .is-4 { --r: 14deg; --x: 90%; --y: 6%; z-index: 3; animation-delay: 0.14s; }
+
+.mh-line {
+  max-width: 1000px; margin: 0 auto; padding: 42px 24px 6px; text-align: center;
+  font-family: var(--font-baloo-2), system-ui, sans-serif; font-weight: 700; color: var(--mat);
+  font-size: clamp(1.4rem, 3vw, 2.2rem); line-height: 1.22; text-wrap: balance;
+}
+
+.mh-wrap { max-width: 1280px; margin: 0 auto; padding: 0 24px; scroll-margin-top: 90px; }
+
+.mh-search-card { background: var(--paper); border-radius: 12px; padding: 22px 24px 20px; margin-top: 26px; box-shadow: 0 2px 3px rgba(60, 40, 10, 0.1), 0 14px 30px rgba(60, 40, 10, 0.1); }
+.mh-search-label { display: block; font-family: var(--font-baloo-2), system-ui, sans-serif; font-size: clamp(1.25rem, 2.4vw, 1.7rem); font-weight: 700; margin-bottom: 8px; }
+.mh-search {
+  width: 100%; min-height: 58px; padding: 10px 18px; font: inherit; font-size: 1.14rem; color: var(--ink);
+  border: 2.5px solid var(--line); border-radius: 10px; background: #fffdf8;
+}
+.mh-search:focus { outline: none; border-color: var(--mat); }
+.mh-quick { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.mh-quick button {
+  min-height: 40px; padding: 4px 13px; font: inherit; font-weight: 700; font-size: 0.97rem; color: var(--mat);
+  background: #e8f1ec; border: 0; border-radius: 999px; cursor: pointer;
+}
+.mh-quick button:hover { background: #d6e6de; }
+
+.mh-filters { margin-top: 18px; display: grid; gap: 8px; }
+.mh-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.mh-chips button {
+  min-height: 44px; padding: 5px 15px; font: inherit; font-weight: 700; color: var(--ink);
+  background: var(--paper); border: 1.5px solid var(--line); border-radius: 999px; cursor: pointer;
+}
+.mh-chips button:hover { border-color: var(--mat); }
+.mh-chips button[aria-pressed='true'] { background: var(--mat); border-color: var(--mat); color: #fffaf0; }
+.mh-status { min-height: 1.5em; margin-top: 8px; color: var(--ink-soft); font-weight: 700; }
+.mh-none { padding: 26px 0; font-size: 1.1rem; }
+
+.mh-hits { margin-top: 8px; }
+.mh-hits h2 { font-size: 1.4rem; }
+.mh-hits ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; margin-top: 12px; }
+.mh-hits a { display: block; text-decoration: none; }
+.mh-hits img { display: block; width: 100%; height: auto; aspect-ratio: 640 / 860; background: #fff; border-radius: 3px; box-shadow: 0 6px 14px rgba(60, 40, 10, 0.14); }
+.mh-hit-title { display: block; margin-top: 7px; font-weight: 800; line-height: 1.22; }
+.mh-hit-maker { display: block; font-size: 0.9rem; color: var(--ink-soft); }
+
+.mh-group { margin-top: 42px; scroll-margin-top: 90px; }
+.mh-group header { border-bottom: 2px solid var(--line); padding-bottom: 8px; }
+.mh-group header p { color: var(--ink-soft); margin-top: 2px; font-size: 1.05rem; }
+.mh-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(214px, 1fr)); gap: 30px 24px; margin-top: 22px; }
+.mh-card { display: block; text-decoration: none; }
+.mh-stack { position: relative; display: block; aspect-ratio: 1 / 0.92; }
+.mh-stack img {
+  position: absolute; left: 50%; top: 50%; width: 62%; height: auto; background: #fff; border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(60, 40, 10, 0.16), 0 8px 16px rgba(60, 40, 10, 0.16);
+  transition: transform 0.18s ease;
+}
+.mh-stack .is-1 { transform: translate(-50%, -50%) translate(-24%, 3%) rotate(-8deg); }
+.mh-stack .is-2 { transform: translate(-50%, -50%) translate(24%, 3%) rotate(8deg); }
+.mh-stack .is-0 { transform: translate(-50%, -50%) rotate(-1deg); z-index: 2; }
+.mh-card:hover .is-1 { transform: translate(-50%, -50%) translate(-34%, 3%) rotate(-12deg); }
+.mh-card:hover .is-2 { transform: translate(-50%, -50%) translate(34%, 3%) rotate(12deg); }
+.mh-card-name { display: block; margin-top: 8px; font-family: var(--font-baloo-2), system-ui, sans-serif; font-weight: 700; font-size: 1.16rem; line-height: 1.2; color: var(--ink); }
+.mh-card:hover .mh-card-name { color: var(--mat); text-decoration: underline; text-underline-offset: 3px; }
+.mh-card-meta { display: block; font-weight: 700; color: var(--mat); font-size: 0.95rem; margin-top: 2px; }
+.mh-card-grades { display: block; color: var(--ink-soft); font-size: 0.92rem; }
+
+.mh-band {
+  display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 34px; align-items: center;
+  max-width: 1240px; margin: 0 auto; padding: 34px 24px 44px;
+}
+.mh-band-copy p { color: var(--ink-soft); margin-top: 8px; font-size: 1.08rem; }
+.mh-langnames { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 14px; }
+.mh-langnames a, .mh-langnames span { font-weight: 800; color: var(--mat); text-underline-offset: 3px; min-height: 32px; display: inline-flex; align-items: center; }
+.mh-langnames span[aria-current] { color: var(--ink); }
+.mh-langsheets { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.mh-langsheets img { display: block; width: 100%; height: auto; aspect-ratio: 640 / 860; background: #fff; border-radius: 3px; box-shadow: 0 8px 18px rgba(60, 40, 10, 0.16); }
+.mh-langsheets li:nth-child(odd) img { transform: rotate(-1deg); }
+.mh-langsheets li:nth-child(even) img { transform: rotate(1deg); }
+.mh-langsheets span { display: block; text-align: center; margin-top: 8px; font-weight: 800; color: var(--mat); }
+
+.mh-twoways { max-width: 1240px; margin: 0 auto; padding: 44px 24px; }
+.mh-two-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; margin-top: 18px; }
+.mh-two-cols h3 { font-size: 1.32rem; font-weight: 700; color: var(--mat); }
+.mh-two-cols p { margin-top: 6px; color: var(--ink-soft); font-size: 1.05rem; }
+
+.mh-classics { max-width: 1240px; margin: 0 auto; padding: 36px 24px 50px; }
+.mh-classics h2 { font-size: 1.32rem; }
+.mh-classics ul { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 10px; }
+.mh-classics a { font-weight: 700; color: var(--mat); text-underline-offset: 3px; min-height: 34px; display: inline-flex; align-items: center; }
+
+@media (max-width: 900px) {
+  .mh-hero-inner { grid-template-columns: minmax(0, 1fr); padding: 34px 20px 40px; }
+  .mh-hero-sheets { max-width: 520px; width: 100%; margin: 0 auto; }
+  .mh-band { grid-template-columns: minmax(0, 1fr); }
+  .mh-two-cols { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .mh-wrap, .mh-band, .mh-twoways, .mh-classics, .mh-line { padding-left: 20px; padding-right: 20px; }
+}
+@media (max-width: 480px) {
+  .mh-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
+  .mh-langsheets { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mh-search-card { padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mh-hero-sheets img { animation: none; }
+  .mh-stack img { transition: none; }
+}

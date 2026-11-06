@@ -1,0 +1,592 @@
+{
+ "counting": {
+  "kw": "Lav opgaver om at tælle",
+  "lead": "Lav arbejdsark om at tælle med billeder, din klasse kan lide: tæl og sæt ring, tæl og skriv, søgebilleder og meget mere. Vælg niveau og tema, så er hvert antal på siden allerede tjekket.",
+  "teaches": [
+   "Tælle billeder og finde det rigtige tal",
+   "Tælle hver slags i et fyldt søgebillede",
+   "Finde én mere, én færre og lige mange"
+  ],
+  "moment": "Lad børnene løse søgebilledet to og to og derefter sammenligne deres tal. Hvis to svar er forskellige, tæller de sammen igen."
+ },
+ "ten-frames": {
+  "kw": "Lav opgaver med tierrammer og tællestreger",
+  "lead": "Lav arbejdsark med tierrammer og tællestreger, der træner at se et antal med ét blik. Fyld rammer, læs streger, vis lynkort, tæl kugler på kuglerammen og lav 10.",
+  "teaches": [
+   "Se et antal med ét blik uden at tælle ét ad gangen",
+   "Lave 5 og 10 og se, hvad der mangler",
+   "Notere antal med tællestreger"
+  ],
+  "moment": "Vis et kort i to sekunder som opvarmning, og spørg, hvordan børnene så tallet. Deres svar er den egentlige undervisning."
+ },
+ "number-sequences": {
+  "kw": "Lav opgaver om talrækker og hundredtavlen",
+  "lead": "Lav taltavler, talrækker med huller og arbejdsark, hvor man tæller med 2 eller 10 ad gangen, helt op til 1.000. Hundredtavler, puslespilsbrikker og talmaskiner er klar.",
+  "teaches": [
+   "Tælle frem og tilbage fra et hvilket som helst tal",
+   "Tælle med 2, 5 og 10 ad gangen",
+   "Opdage mønstre på hundredtavlen"
+  ],
+  "moment": "Klip en hundredtavle i puslespilsbrikker, og giv hvert par en brik. Børnene skal tænke sig frem til, hvad der står over, under og ved siden af hvert tal."
+ },
+ "number-lines": {
+  "kw": "Lav opgaver med tallinjer",
+  "lead": "Lav arbejdsark med tallinjer fra 0 til 10 og op til 120, med hop, afrunding og brøker. Start med tallinjer, hvor alt står, og gå videre til tomme linjer, som børnene selv tegner.",
+  "teaches": [
+   "Placere tal på tallinjen efter størrelse",
+   "Lægge sammen og trække fra med hop",
+   "Afrunde til nærmeste tier eller hundrede"
+  ],
+  "moment": "Giv det samme regnestykke på en udfyldt og en tom tallinje. Sammenligningen viser, hvem der stadig tæller, og hvem der allerede hopper."
+ },
+ "number-bonds": {
+  "kw": "Lav opgaver om talvenner og talfamilier",
+  "lead": "Lav arbejdsark om talvenner, talhuse og talfamilier for 5, 10, 20 og 100. Børnene ser, hvordan tal deles op og samles, og så sidder plusstykkerne fast.",
+  "teaches": [
+   "Dele et tal op i to dele på alle måder",
+   "Se plus og minus som én talfamilie",
+   "Kunne talvennerne til 10"
+  ],
+  "moment": "Gem nogle brikker under et krus, og vis resten. Arbejdsarket gør bagefter det samme spørgsmål til en opgave, barnet kan klare selv."
+ },
+ "addition-subtraction": {
+  "kw": "Lav opgaver med plus og minus",
+  "lead": "Lav arbejdsark med plus og minus, fra stykker med billeder til opstillinger med trecifrede tal og tierovergang. Vælg niveau, og print en ny side med facit, når du har brug for det.",
+  "teaches": [
+   "Lægge til og trække fra med billeder og siden med tal",
+   "Hovedregning op til 10, 20 og 100",
+   "Plus og minus i opstilling med tierovergang"
+  ],
+  "moment": "Print to versioner af samme niveau til hvert par. De løser hver sin side, bytter og retter hinanden med facit."
+ },
+ "doubles-halves": {
+  "kw": "Lav opgaver om det dobbelte og det halve",
+  "lead": "Lav arbejdsark om det dobbelte og det halve op til 20, med billeder eller kun med tal. Næsten det dobbelte, fordoblings- og halveringsmaskiner og vendespil får børnene til at kunne regnestykkerne i hovedet.",
+  "teaches": [
+   "Regne det dobbelte og det halve op til 20",
+   "Bruge næsten det dobbelte, som 6 + 7",
+   "Se at det halve er det modsatte af det dobbelte"
+  ],
+  "moment": "Spil vendespillet to og to i fem minutter efter frikvarteret. Korte, hyppige runder virker bedre end én lang lektion."
+ },
+ "compare-numbers": {
+  "kw": "Lav opgaver om at sammenligne tal",
+  "lead": "Lav arbejdsark om at sammenligne, fra billedgrupper med flere og færre til firecifrede tal. Børnene bruger tegnene større end, mindre end og lig med og sætter tal i rækkefølge.",
+  "teaches": [
+   "Sammenligne grupper af billeder",
+   "Bruge tegnene <, > og =",
+   "Ordne tal fra mindst til størst"
+  ],
+  "moment": "Begynd med den sultne krokodille, dæk den så til, og spørg kun efter tegnet. Skridtet fra billede til symbol sker på én side."
+ },
+ "odd-even": {
+  "kw": "Lav opgaver om lige og ulige tal",
+  "lead": "Lav arbejdsark om lige og ulige tal, der begynder med at dele ligeligt og med billedpar og går videre til enerne og summer. Børnene finder selv reglen i stedet for at lære den udenad.",
+  "teaches": [
+   "Danne par for at se, hvad der bliver tilovers",
+   "Aflæse enerne i tal under 100",
+   "Forudsige om en sum bliver lige eller ulige"
+  ],
+  "moment": "Lad først børnene dele rigtige brikker mellem to venner. På siden skriver de bagefter det, de allerede har opdaget med hænderne."
+ },
+ "place-value": {
+  "kw": "Lav opgaver om positionssystemet og afrunding",
+  "lead": "Lav arbejdsark om positionssystemet med klodser, skemaer, cifferkort og talgåder. Fra tiere og enere til hundreder, udfoldet skrivemåde og afrunding til nærmeste tier eller hundrede.",
+  "teaches": [
+   "Læse og bygge tal med tiere og enere",
+   "Skrive tal i udfoldet form",
+   "Afrunde til nærmeste tier og hundrede"
+  ],
+  "moment": "Lad børnene bygge tallet med rigtige klodser, før de skriver det. Cifferdetektiv er derefter en god afslutning."
+ },
+ "multiplication-division": {
+  "kw": "Lav opgaver om gange og division",
+  "lead": "Lav arbejdsark om gange og division, fra lige store grupper og rækker til alle tabeller og division med rest. Tabelkort til nøgleringen og en gangetabel til at udfylde er med.",
+  "teaches": [
+   "Gå fra gentaget plus til rækker og gange",
+   "Lære tabellerne fra 2 til 10",
+   "Dele lige, gruppere og regne med rest"
+  ],
+  "moment": "Giv hvert barn den tabel, det har brug for, ikke den klassen er nået til. Alle arbejder med samme slags side, hver med sin tabel."
+ },
+ "word-problems": {
+  "kw": "Lav tekstopgaver i matematik",
+  "lead": "Lav arbejdsark med tekstopgaver: med billeder, i ét og to trin, med sammenligning, gange og division. Børnene læser, vælger regnestykket og løser det.",
+  "teaches": [
+   "Læse en historie og finde spørgsmålet",
+   "Vælge det rigtige regnestykke",
+   "Løse opgaver i ét og to trin"
+  ],
+  "moment": "Dæk tallene i en opgave til, og spørg, hvad der sker i historien. Når børnene kan fortælle det, vælger regningsarten ofte sig selv."
+ },
+ "fractions": {
+  "kw": "Lav opgaver om brøker",
+  "lead": "Lav arbejdsark om brøker: halve, tredjedele og fjerdedele, ligelig deling, brøkstrimler, tallinje og ligeværdige brøker. Børnene klipper, farver og sammenligner, til en brøk betyder noget.",
+  "teaches": [
+   "Dele figurer i lige store dele",
+   "Navngive, farve og sammenligne brøker",
+   "Finde brøkdelen af en gruppe"
+  ],
+  "moment": "Print brøkstrimlerne på farvet papir. Børnene gemmer dem i en kuvert og bruger dem i hver brøktime."
+ },
+ "number-of-the-day": {
+  "kw": "Lav opgaver om dagens tal og talord",
+  "lead": "Lav ark med dagens tal op til 1.000 og arbejdsark om talord. Børnene skriver, tegner, tæller og sammenligner det samme tal på mange måder.",
+  "teaches": [
+   "Vise ét tal på mange måder",
+   "Læse og skrive talord",
+   "Finde ti mere og ti mindre"
+  ],
+  "moment": "Læg et ark med dagens tal på hvert bord om morgenen. Kun tallet skifter, rutinen kører af sig selv."
+ },
+ "ordinal-numbers": {
+  "kw": "Lav opgaver om ordenstal",
+  "lead": "Lav arbejdsark om ordenstal med væddeløb, hylder, flag og kort. Børnene går fra første, anden og tredje op til månedens datoer, i ord og i tal.",
+  "teaches": [
+   "Finde den første, anden og tredje i en række",
+   "Tælle pladsen fra begge ender",
+   "Læse og skrive ordenstal"
+  ],
+  "moment": "Stil ti børn på række ved døren, og sig en plads. Bagefter møder de de samme ord trykt på arket Hvem vinder løbet?."
+ },
+ "number-tracing": {
+  "kw": "Lav opgaver om at skrive tal",
+  "lead": "Lav arbejdsark om at skrive tal fra 0 til 9, tallene efter 10 og op til 100, med orange startpunkt og pile på hvert tal. Spor, tæl og skriv på samme side.",
+  "teaches": [
+   "Forme hvert tal rigtigt",
+   "Knytte et tal til et antal",
+   "Skrive tal over 10 og talord"
+  ],
+  "moment": "Start matematikken roligt: børnene tæller billederne først, så står tallet altid for noget."
+ },
+ "money": {
+  "kw": "Lav opgaver om penge",
+  "lead": "Lav arbejdsark om penge med danske kroner: tæl mønter og sedler, handl, regn byttepenge ud, og betal med færrest mulige mønter. Prismærker og legepenge til at lege købmand er med.",
+  "teaches": [
+   "Kende mønter og deres værdi",
+   "Tælle blandede mønter og sedler",
+   "Lægge priser sammen og regne byttepenge ud"
+  ],
+  "moment": "Byg en købmandsbutik bagerst i klassen med prismærker og legepenge. Arkene med købmandsregning gør bagefter det, der skete, til skrevne opgaver."
+ },
+ "telling-time": {
+  "kw": "Lav opgaver om klokken",
+  "lead": "Lav arbejdsark om klokken, fra hele og halve timer til fem minutter ad gangen, det nøjagtige klokkeslæt og tidsforskelle. Børnene aflæser ure, tegner visere og bygger deres eget ur.",
+  "teaches": [
+   "Aflæse uret: hele og halve timer og fem minutter ad gangen",
+   "Tegne visere til et givet tidspunkt",
+   "Regne ud, hvor lang tid der er gået"
+  ],
+  "moment": "Lad hvert barn lave sit eget ur én gang og gemme det i sin skuffe. Børnene stiller det til dagens rutiner og sammenligner med klassens ur."
+ },
+ "calendar": {
+  "kw": "Lav opgaver om kalenderen",
+  "lead": "Lav arbejdsark om ugens dage, årets måneder, i går og i morgen og om at læse en hel måned. Fødselsdagsdiagram og dagens dato passer ind i din morgenrutine.",
+  "teaches": [
+   "Sige dage og måneder i rækkefølge",
+   "Bruge i går, i dag og i morgen",
+   "Læse datoer i en kalender"
+  ],
+  "moment": "Udfyld en tom måned sammen på månedens første skoledag, med fødselsdage. Siden bliver støtte til hvert kalenderspørgsmål."
+ },
+ "measurement": {
+  "kw": "Lav opgaver om måling",
+  "lead": "Lav arbejdsark om måling, fra stor og lille til lineal, papirclips, målebægre, vægte og termometre. Børnene sammenligner, ordner og måler med rigtige enheder.",
+  "teaches": [
+   "Sammenligne længde, højde og vægt",
+   "Måle med papirclips, klodser og lineal",
+   "Aflæse vægte, målebægre og termometre"
+  ],
+  "moment": "Print linealerne til at klippe ud, så hvert barn har en, og send parrene rundt i klassen for at måle."
+ },
+ "graphs-data": {
+  "kw": "Lav opgaver om diagrammer og data",
+  "lead": "Lav arbejdsark med billeddiagrammer, søjlediagrammer og tabeller, som børnene selv læser og bygger. De sorterer, tæller og svarer på spørgsmål om data.",
+  "teaches": [
+   "Sortere og tælle data",
+   "Læse billeddiagrammer og søjlediagrammer",
+   "Bruge en skala, hvor ét billede står for flere"
+  ],
+  "moment": "Lav klassens diagram med et spørgsmål, børnene går op i, og lad hvert barn skrive en sætning om resultatet, der passer."
+ },
+ "shapes-geometry": {
+  "kw": "Lav opgaver om figurer og geometri",
+  "lead": "Lav geometriark om sider, hjørner, flader og kanter, plane figurer og rumlige figurer, udfoldninger, symmetri og areal. Børnene sorterer, tegner, klipper og folder i stedet for kun at navngive.",
+  "teaches": [
+   "Kende figurer på deres egenskaber",
+   "Tælle sider, hjørner, flader og kanter",
+   "Tegne figurer og udforske areal og omkreds"
+  ],
+  "moment": "Send børnene på jagt efter rette vinkler i klassen med et foldet papirhjørne, og lad dem sortere, hvad de fandt."
+ },
+ "symmetry-grids": {
+  "kw": "Lav opgaver om symmetri og tegning på kvadratnet",
+  "lead": "Lav arbejdsark om symmetri og tegning på kvadratnet: gør den anden halvdel færdig, tegn af felt for felt, og tegn dobbelt så stort. Børnene øver det nøjagtige blik og den rolige hånd på én gang.",
+  "teaches": [
+   "Gøre en tegning færdig langs spejlingslinjen",
+   "Tegne en figur af felt for felt",
+   "Spejle, dreje og forstørre en tegning"
+  ],
+  "moment": "Giv en tegning på kvadratnet som rolig opgave efter frikvarteret. Børnene falder hurtigt til ro, og du ser, hvem der holder styr på felterne."
+ },
+ "maps-grids": {
+  "kw": "Lav opgaver om kort og koordinater",
+  "lead": "Lav arbejdsark om kort med billeder set oppefra, signaturforklaringer, verdenshjørner, koordinater og verdensdele. Skattejagter og sænke slagskibe gør øvelsen til en leg.",
+  "teaches": [
+   "Se et sted oppefra og læse en signaturforklaring",
+   "Bruge koordinater på et kvadratnet",
+   "Bruge nord, øst, syd og vest"
+  ],
+  "moment": "Gem en lille overraskelse i klassen, og lad børnene skrive vejen, så en kammerat kan følge den."
+ },
+ "patterns": {
+  "kw": "Lav opgaver om mønstre",
+  "lead": "Lav arbejdsark om mønstre: AB, ABC og AABB, voksende mønstre og talmønstre, alle med billeder fra dit tema. Børnene fortsætter, udfylder og finder på deres egne.",
+  "teaches": [
+   "Finde den del, der gentager sig",
+   "Fortsætte og udfylde mønstre",
+   "Beskrive voksende mønstre og talmønstre"
+  ],
+  "moment": "Lad børnene klappe eller stampe mønsteret, før de tegner det. At høre det hjælper ofte det barn, der endnu ikke ser det."
+ },
+ "logic-puzzles": {
+  "kw": "Lav logikopgaver",
+  "lead": "Lav logikark: billed- og talsudoku, talpyramider, logikopgaver, magiske kvadrater og vægtpuslespil. Hver opgave har én løsning, og niveauerne vokser med din klasse.",
+  "teaches": [
+   "Ræsonnere trin for trin ud fra ledetråde",
+   "Tjekke et svar mod hver regel",
+   "Holde ud, til opgaven er løst"
+  ],
+  "moment": "Hav billedsudoku klar til dem, der bliver færdige først. De giver en udfordring uden blot at give mere af det samme."
+ },
+ "dot-to-dot": {
+  "kw": "Lav prik til prik-opgaver",
+  "lead": "Lav prik til prik-ark, hvor børnene tæller til 20, tæller baglæns, tæller i spring, følger alfabetet eller løser regnestykker. Det skjulte billede holder børnene i gang til sidste prik.",
+  "teaches": [
+   "Sige talrækken i rækkefølge",
+   "Tælle baglæns og i spring",
+   "Følge alfabetet med store og små bogstaver"
+  ],
+  "moment": "Lad børnene gætte billedet, før de begynder, og igen halvvejs. De tjekker hvert tal for at finde ud af det."
+ },
+ "color-by-number": {
+  "kw": "Lav opgaver med mal efter tal",
+  "lead": "Lav ark med mal efter tal og kode, hvor hver farve er et svar: plus, minus, hyppige ord, forlyd og tabeller. Det færdige billede viser, om det hele passer.",
+  "teaches": [
+   "Øve regning med indbygget kontrol",
+   "Læse en farvekode omhyggeligt",
+   "Arbejde roligt gennem en hel side"
+  ],
+  "moment": "Brug et kodeark om fredagen til repetition. En fejl viser sig som en farve på det forkerte sted, så barnet ofte selv finder den."
+ },
+ "coloring-pages": {
+  "kw": "Lav tegninger til at farvelægge i klassen",
+  "lead": "Lav tegninger til at farvelægge fra vores billedbibliotek, med ord at spore, en sætning at skrive eller en farvekode. Fold et lille malehæfte til hvert tema, du arbejder med.",
+  "teaches": [
+   "Opbygge blyantkontrol og styrke i hånden",
+   "Knytte billeder til ord",
+   "Tale om det, der er på siden"
+  ],
+  "moment": "Fold malehæftet på første dag i et nyt tema. Børnene tager de ord med hjem, de har mødt i klassen."
+ },
+ "same-different": {
+  "kw": "Lav opgaver om ens og forskellig",
+  "lead": "Lav arbejdsark om visuel opmærksomhed: find den, der ikke passer, par skygger, ens par, tvillinger og den manglende brik. At se godt efter kommer før læsning og matematik.",
+  "teaches": [
+   "Se hvad der er ens, og hvad der er forskelligt",
+   "Parre figurer, skygger og spejlbilleder",
+   "Holde opmærksomheden på små detaljer"
+  ],
+  "moment": "Spørg, hvad der er forskelligt, og hvordan børnene ved det. Deres grunde er en første øvelse i at forklare, hvad de tænker."
+ },
+ "position-words": {
+  "kw": "Lav opgaver om placeringsord",
+  "lead": "Lav arbejdsark om på, under, ved siden af, venstre, højre, øverst, i midten og nederst. Børnene læser, tegner, limer og vælger ord, så placeringsordene bliver deres egne.",
+  "teaches": [
+   "Forstå ord for placering",
+   "Skelne mellem venstre og højre",
+   "Følge beskeder med placeringsord"
+  ],
+  "moment": "Leg først en runde med en bamse og en stol, og lad så hvert barn placere sit eget billede på arket."
+ },
+ "sorting": {
+  "kw": "Lav opgaver om sortering",
+  "lead": "Lav arbejdsark om sortering med klip og lim, sorteringsmåtter og billedkort: mad, transport, behov og ønsker, erhverv. Børnene vælger en regel og forklarer den.",
+  "teaches": [
+   "Gruppere billeder efter en regel",
+   "Se hvad der ikke hører til",
+   "Forklare hvorfor noget passer i en gruppe"
+  ],
+  "moment": "Del måtter og billedkort ud, og lad parrene finde på en regel. Det andet par skal gætte den."
+ },
+ "mazes": {
+  "kw": "Lav labyrinter til print",
+  "lead": "Lav labyrinter, fra de første stier for de mindste til kæmpelabyrinter, og også med bogstaver, tal, plus og forlyd. Hver labyrint er løst, før den når dig, så der er altid en vej.",
+  "teaches": [
+   "Planlægge en vej og se fremad",
+   "Holde en rolig blyantstreg",
+   "Øve bogstaver, tal og regnestykker på vejen"
+  ],
+  "moment": "Brug en regnelabyrint som morgenopgave: kun de rigtige svar fører til målet, så arket retter sig selv."
+ },
+ "find-the-differences": {
+  "kw": "Lav find forskellene-opgaver",
+  "lead": "Lav find forskellene-ark med 3, 5, 7 eller 10 ændringer i rigtige billeder, plus ting der mangler, farveforskelle og spejlbilleder. De fleste kan også spilles på skærmen.",
+  "teaches": [
+   "Gennemgå et billede systematisk",
+   "Sige, hvad der er ændret",
+   "Skrive, hvad der er forskelligt"
+  ],
+  "moment": "Lad parrene skiftes til at beskrive en forskel uden at pege. De skal finde ordene for, hvor den er, og hvad der er ændret."
+ },
+ "how-to-draw": {
+  "kw": "Lav opgaver om at tegne trin for trin",
+  "lead": "Lav tegneark trin for trin, hvor hver ny streg vises i farve, så børnene kan se præcis, hvad der kommer. De følger med, sporer, gør færdig og tegner til sidst efter hukommelsen.",
+  "teaches": [
+   "Dele en tegning op i enkle figurer",
+   "Følge trin i rækkefølge",
+   "Skrive om det, de har tegnet"
+  ],
+  "moment": "Tegn første trin sammen på tavlen, og lad børnene gøre færdigt selv. Tegningen giver også dem, der nødigt skriver, noget at skrive om."
+ },
+ "tangram": {
+  "kw": "Lav opgaver med tangram",
+  "lead": "Lav tangramark med brikker at klippe ud, skygger at lægge og spørgsmål om figurerne. Begynd med opgaver på to brikker, og gå videre til hele figurer.",
+  "teaches": [
+   "Dreje og passe figurer sammen",
+   "Se figurer inde i andre figurer",
+   "Planlægge, før en brik lægges"
+  ],
+  "moment": "Klip brikkerne ud én gang, gem dem i en kuvert, og vis en ny skygge hver uge til et par rolige minutter."
+ },
+ "picture-tracing": {
+  "kw": "Lav opgaver med billeder at tegne efter",
+  "lead": "Lav billeder at tegne efter, fra store runde former for de mindste til prikkede bybilleder for 1. klasse. Lige streger, zigzag, spiraler og løkker bliver til et rigtigt billede.",
+  "teaches": [
+   "Styre blyanten langs en streg",
+   "Tegne lige, buede og løkkede streger",
+   "Gøre hånden klar til bogstaver"
+  ],
+  "moment": "Lad børnene tegne efter et stort billede først med fingeren, så med farvekridt og til sidst med blyant. Det samme ark kan bruges tre gange."
+ },
+ "pre-writing": {
+  "kw": "Lav skriveforberedende opgaver",
+  "lead": "Lav skriveforberedende ark med lige streger, zigzag, bølger, løkker og spiraler, fra de første streger til svære skrivemønstre. Klippeøvelser er med.",
+  "teaches": [
+   "Holde og styre blyanten",
+   "Øve grundbevægelserne bag bogstaverne",
+   "Klippe langs en streg"
+  ],
+  "moment": "Læg et ark i en plastiklomme, og brug en tuschpen, der kan viskes ud, så barnet kan øve den samme vej mange gange."
+ },
+ "letter-tracing": {
+  "kw": "Lav opgaver om at spore bogstaver",
+  "lead": "Lav arbejdsark om at spore store og små bogstaver og barnets eget navn. Hver side bruger alfabetet i det sprog, du vælger, på dansk med æ, ø og å.",
+  "teaches": [
+   "Forme store og små bogstaver",
+   "Knytte hvert bogstav til et billede",
+   "Skrive sit eget navn"
+  ],
+  "moment": "Print hvert barns navn på første dag. Det er det ord, der betyder mest, og det viser dig, hvor barnet starter."
+ },
+ "word-writing": {
+  "kw": "Lav opgaver om at skrive ord",
+  "lead": "Lav arbejdsark om at spore og skrive ord: skriv af, skriv ud fra et billede, udfyld bogstavfelter, og sæt ord på billeder. Trin for trin går børnene fra at spore til at skrive selv.",
+  "teaches": [
+   "Spore og skrive hele ord af",
+   "Skrive ud fra et billede med mindre og mindre hjælp",
+   "Skrive ord på linjer"
+  ],
+  "moment": "Giv tre versioner af de samme ord: med første bogstav, med ordbank og uden hjælp. Alle skriver den samme liste på deres niveau."
+ },
+ "cursive": {
+  "kw": "Lav opgaver om sammenhængende skrift",
+  "lead": "Lav arbejdsark om sammenhængende skrift til bogstaver, forbindelser, ord og sætninger, med hele alfabetet og læsning. Børnene lærer at forbinde bogstaver og at læse sammenhængende skrift.",
+  "teaches": [
+   "Forme bogstaver i sammenhængende skrift",
+   "Forbinde bogstaver flydende",
+   "Læse skriften lige så vel som at skrive den"
+  ],
+  "moment": "Brug fem minutter hver morgen på dagens bogstav. Kort, daglig øvelse gør forbindelserne flydende."
+ },
+ "alphabet": {
+  "kw": "Lav opgaver om alfabetet",
+  "lead": "Lav arbejdsark om alfabetet: kende bogstaver, store og små bogstaver, vokaler, alfabetisk rækkefølge og ugens bogstav. Hver side bruger alfabetet i det sprog, du vælger.",
+  "teaches": [
+   "Kende og navngive bogstaver",
+   "Parre store og små bogstaver",
+   "Sætte ord i alfabetisk rækkefølge"
+  ],
+  "moment": "Start mandag med ugens bogstav, og send børnene på bogstavjagt i en bog."
+ },
+ "phonics": {
+  "kw": "Lav opgaver om lyde og bogstaver",
+  "lead": "Lav arbejdsark om lyde i begyndelsen, midten og slutningen af ord og konsonantforbindelser. Med lydkasser, klemmekort og sortering øver børnene med rigtige billeder.",
+  "teaches": [
+   "Høre lyde i begyndelsen, midten og slutningen",
+   "Trække lyde sammen og tælle dem",
+   "Læse konsonantforbindelser"
+  ],
+  "moment": "Brug lydkasserne med brikker: barnet skubber én brik frem pr. lyd, før det skriver. Hænderne gør lydene synlige."
+ },
+ "rhyming": {
+  "kw": "Lav opgaver om rim",
+  "lead": "Lav rimark med par, vendespil, dominobrikker og sortering, bygget på ord, der virkelig rimer på dansk. Børnene lytter, parrer og skriver deres egne rim.",
+  "teaches": [
+   "Høre ord, der rimer",
+   "Finde det ord, der ikke passer",
+   "Skrive rimord"
+  ],
+  "moment": "Spil rimvendespillet højt: et par tæller kun, hvis barnet siger begge ord."
+ },
+ "syllables": {
+  "kw": "Lav opgaver om stavelser",
+  "lead": "Lav arbejdsark om at klappe, tælle, dele og samle stavelser, plus lydrette ord. Delingen følger det, børnene lærer i skolen.",
+  "teaches": [
+   "Klappe og tælle stavelser",
+   "Dele ord og samle dem igen",
+   "Læse lydrette ord"
+  ],
+  "moment": "Klap ordene sammen, før børnene skriver. Et ord, man mærker i hænderne, er lettere at dele."
+ },
+ "sight-words": {
+  "kw": "Lav opgaver om hyppige ord",
+  "lead": "Lav arbejdsark til det hyppige ord, du arbejder med: læs det, spor det, find det, farv det og byg det. Ordkort, terningespil og regnbueskrivning holder øvelsen frisk.",
+  "teaches": [
+   "Læse hyppige ord med ét blik",
+   "Skrive ord efter hukommelsen",
+   "Bruge hyppige ord i sætninger"
+  ],
+  "moment": "Vælg ét ord for ugen, og brug et nyt ark hver dag: læs det, spor det, find det, brug det."
+ },
+ "spelling": {
+  "kw": "Lav opgaver om stavning",
+  "lead": "Lav stavearbejdsark med blandede ord, manglende bogstaver, se-dæk-skriv-tjek og bogstavbrikker, plus ark om staveregler. Øv den regel, din klasse arbejder med.",
+  "teaches": [
+   "Bygge ord ud fra deres lyde",
+   "Huske med se, dæk, skriv og tjek",
+   "Bruge staveregler"
+  ],
+  "moment": "Lad børnene lægge med bogstavbrikker, før de skriver. En brik er lettere at flytte end en blyantstreg, så de prøver mere."
+ },
+ "nouns-articles": {
+  "kw": "Lav opgaver om ental, flertal og kendeord",
+  "lead": "Lav arbejdsark om ental, flertal og det rigtige kendeord, med billeder børnene kan navngive. Ark om en eller flere, en eller et og sortering er klar.",
+  "teaches": [
+   "Skelne mellem én og flere",
+   "Skrive navneord i flertal",
+   "Vælge en eller et"
+  ],
+  "moment": "Hold én blyant op, derefter tre, og lad klassen sige ordet. Bagefter gør arket det samme med billeder."
+ },
+ "grammar": {
+  "kw": "Lav opgaver om ordklasser og grammatik",
+  "lead": "Lav grammatikark om navneord, udsagnsord, tillægsord, stedord og former af udsagnsord. Børnene sorterer ord, ændrer sætninger og finder den rigtige form på tre niveauer.",
+  "teaches": [
+   "Skelne mellem navneord, udsagnsord og tillægsord",
+   "Bruge stedord i sætninger",
+   "Vælge den rigtige form af udsagnsordet"
+  ],
+  "moment": "Sorter ordklasser med saks som en leg, før det skal gøres på papir. At flytte ord hjælper børnene med at mærke grupperne."
+ },
+ "word-meaning": {
+  "kw": "Lav opgaver om synonymer og modsætninger",
+  "lead": "Lav ordforrådsark om modsætninger, synonymer, sammensatte ord, forstavelser og rodord. Arbejdet begynder med billeder og fortsætter med sætninger.",
+  "teaches": [
+   "Finde modsætninger og ord, der betyder det samme",
+   "Dele sammensatte ord",
+   "Bruge rodord og forstavelser til at forstå et ord"
+  ],
+  "moment": "Hæng en ordstige op på væggen, og tilføj ord, når de dukker op i historier. Snart vælger børnene selv mere præcise ord."
+ },
+ "sentences": {
+  "kw": "Lav opgaver om sætninger",
+  "lead": "Lav arbejdsark om sætninger: sæt i rækkefølge, udfyld, ret stort bogstav og punktum, stil spørgsmål, og gør en sætning længere. Billeder støtter begyndere i hvert trin.",
+  "teaches": [
+   "Sætte ord i den rigtige rækkefølge",
+   "Begynde med stort bogstav og slutte med det rigtige tegn",
+   "Stille og besvare spørgsmål"
+  ],
+  "moment": "Klip sætningen i stykker, og lad børnene lægge den på bordet først. At prøve ordene i forskellig rækkefølge er allerede halvdelen af lektionen."
+ },
+ "reading": {
+  "kw": "Lav opgaver om læseforståelse",
+  "lead": "Lav arbejdsark om læseforståelse med korte historier og spørgsmål, læs-og-farv-sider og instruktioner at følge. Børnene viser, at de har forstået, ved at gøre det, ikke kun ved at svare.",
+  "teaches": [
+   "Læse med øje for detaljer",
+   "Følge skrevne instruktioner",
+   "Svare på spørgsmål om en kort historie"
+  ],
+  "moment": "Brug en læs-og-farv-side som stille tjek: Ét blik på farverne viser, hvilken sætning et barn ikke forstod."
+ },
+ "stories-writing": {
+  "kw": "Lav opgaver om historier og skrivning",
+  "lead": "Lav arbejdsark om at ordne historier og skrive: nummerer billeder, planlæg en historie, skriv en tegneserie, et postkort eller et faktakort. Sætningsstartere og ordbanker hjælper hvert barn i gang.",
+  "teaches": [
+   "Sætte begivenheder i rækkefølge",
+   "Fortælle begyndelse, midte og slutning",
+   "Skrive sætninger om et billede eller et dyr"
+  ],
+  "moment": "Lad børnene fortælle billedhistorien til en kammerat, før de skriver et eneste ord. En fortalt historie er lettere at skrive."
+ },
+ "me-family-feelings": {
+  "kw": "Lav opgaver om mig selv, familien og følelser",
+  "lead": "Lav arbejdsark om mig selv, familien og følelser til skolestart og rolige stunder. Ansigter, slægtstræer og følelsestermometre giver børnene ord for det, de mærker.",
+  "teaches": [
+   "Navngive følelser og se dem i ansigter",
+   "Tale om familien og om, hvem der er hvem",
+   "Sige hvad man kan lide, og hvad man kan"
+  ],
+  "moment": "Hav følelseskortene ved døren, når børnene kommer om morgenen. Et barn peger på et kort, og du ved, hvem der har brug for lidt ekstra opmærksomhed."
+ },
+ "picture-cards": {
+  "kw": "Lav billedkort og opgaver om ordforråd",
+  "lead": "Lav billedkort, ordkort, vendespil, mærkater til ordvæggen og en billedordbog om ethvert tema. Tosprogede kort stiller to sprog side om side til flersprogede klasser.",
+  "teaches": [
+   "Lære nye ord med billeder",
+   "Parre ord og billeder",
+   "Bygge en ordvæg til klassen"
+  ],
+  "moment": "Print tosprogede kort på dansk og på hjemmesproget, så et nyankommet barn kan vise, hvad det allerede ved."
+ },
+ "word-search": {
+  "kw": "Lav find ordene-opgaver til klassen",
+  "lead": "Lav find ordene-opgaver til klassen: med billeder som ledetråde for begyndere, talord, opgaver i en figur, tosprogede gitre og en hemmelig besked.",
+  "teaches": [
+   "Kende ord på stavemåden",
+   "Gennemgå rækker og kolonner systematisk",
+   "Repetere ord fra et tema"
+  ],
+  "moment": "Brug en find ordene-opgave med billeder ved slutningen af et tema. Børn, der endnu ikke kan læse alle ord, finder dem via billederne."
+ },
+ "crossword": {
+  "kw": "Lav krydsord til klassen",
+  "lead": "Lav krydsord til klassen med billeder som ledetråde, ordbanker og pilekrydsord, også tosprogede. Børnene skriver hvert ord, og gitteret tjekker bogstaverne.",
+  "teaches": [
+   "Skrive ord bogstav for bogstav",
+   "Bruge et billede eller en ordbank som ledetråd",
+   "Repetere ordforråd"
+  ],
+  "moment": "Lad to børn dele et krydsord: Den ene siger ordet, den anden skriver det."
+ },
+ "secret-code": {
+  "kw": "Lav opgaver med hemmelig kode",
+  "lead": "Lav arbejdsark med hemmelig kode, hvor børnene knækker billed-, tal- og regnekoder for at finde et ord. De kan endda lave deres egen kode til en ven.",
+  "teaches": [
+   "Bruge en nøgle til at afkode",
+   "Øve bogstaver eller regning med et mål",
+   "Læse et skjult ord"
+  ],
+  "moment": "Skriv morgendagens overraskelse i hemmelig kode på tavlen. Alle vil gerne løse den."
+ },
+ "bingo": {
+  "kw": "Lav bingo til klassen",
+  "lead": "Lav bingo til klassen med billeder, hyppige ord, lyde, talord, figurer, regnestykker og ure. Hvert spil har sine opråbskort, så du kan spille med klassen på få minutter.",
+  "teaches": [
+   "Lytte og parre hurtigt",
+   "Repetere ord, lyde eller regnestykker",
+   "Vente på sin tur i et gruppespil"
+  ],
+  "moment": "Lad et barn råbe kortene op, når klassen kender spillet. At læse højt er i sig selv god øvelse."
+ }
+}

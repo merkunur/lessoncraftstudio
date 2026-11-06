@@ -22,6 +22,7 @@
    of that one and is the visual-diff safety net: an edit made there and not
    here means every gate pointed at this route measures the OLD composition. */
 
+import { studioSheets, studioWall } from '@/lib/makers/landings';
 import { getTranslations } from 'next-intl/server';
 import GrandHall from '@/components/homepage-v10/GrandHall';
 import { heroStrings } from '@/components/homepage-v10/hero-strings';
@@ -162,6 +163,14 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     studioH2: t('make.heading'),
     studioBody: t('make.body'),
     studioMakerAlt: t('make.makerAlt'),
+    studioP1: t('make.point1'),
+    studioP1Body: t('make.point1Body'),
+    studioP2: t('make.point2'),
+    studioP2Body: t('make.point2Body'),
+    studioP3: t('make.point3'),
+    studioP3Body: t('make.point3Body'),
+    studioP4: t('make.point4'),
+    studioP4Body: t('make.point4Body'),
     studioPlay: t('make.forkPlay'),
     studioPrint: t('make.forkPrint'),
     studioCta: t('make.cta'),
@@ -273,7 +282,7 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
         strings={hero}
       />
       <PrintRoom locale={locale} numeral="I" works={works} exhibit={exhibit} strings={rooms} />
-      <Studio locale={locale} numeral="II" strings={rooms} />
+      <Studio locale={locale} numeral="II" strings={rooms} sheets={studioSheets(locale)} wall={studioWall(locale)} />
       <InstrumentHall locale={locale} numeral="III" strings={rooms} instruments={instruments} live={live} />
       <Playroom locale={locale} numeral="IV" strings={rooms} activities={alcoves} />
       <Dispatch locale={locale} numeral="V" strings={rooms} deck={embedDeck} embed={embed} />

@@ -17,7 +17,8 @@ export function LocaleLayoutClient({
   toolSlugs = {},
   toolLabels = [],
   axisLabels = {},
-  makerSlugs = {}
+  makerSlugs = {},
+  newMakers = [],
 }: {
   children: React.ReactNode;
   /** Server-rendered <Footer/>, passed as an element so React never hydrates it. */
@@ -38,6 +39,7 @@ export function LocaleLayoutClient({
   toolLabels?: ToolLabel[];
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  newMakers?: Array<{ href: string; label: string }>;
 }) {
   const pathname = usePathname();
 
@@ -69,6 +71,7 @@ export function LocaleLayoutClient({
             axisLabels={axisLabels}
           meshSlots={meshSlots}
           makerSlugs={makerSlugs}
+          newMakers={newMakers}
         />
         <main>
           {children}
@@ -92,6 +95,7 @@ export function LocaleLayoutClient({
             axisLabels={axisLabels}
           meshSlots={meshSlots}
         makerSlugs={makerSlugs}
+        newMakers={newMakers}
       />
       <main className="flex-1">
         {children}

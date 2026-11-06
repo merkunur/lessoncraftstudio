@@ -1,0 +1,769 @@
+{
+ "counting": {
+  "kw": "Generador de hojas de conteo",
+  "slug": "generador-de-hojas-de-conteo",
+  "metaTitle": "Generador de hojas de conteo – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de trabajo de conteo con los dibujos que le gustan a tu grupo: contar y encerrar, contar y escribir, escenas para buscar y mucho más. PDF gratis.",
+  "lead": "Crea hojas de trabajo de conteo con los dibujos que le gustan a tu grupo: contar y encerrar, contar y escribir, escenas para buscar y mucho más. Elige nivel y tema, y cada cantidad de la hoja ya está revisada.",
+  "teaches": [
+   "Contar dibujos y encontrar el número que les corresponde",
+   "Contar cada tipo en una escena llena de cosas",
+   "Encontrar uno más, uno menos y la misma cantidad"
+  ],
+  "moment": "Pon a tus alumnos a buscar en parejas y después a comparar sus números. Si dos respuestas no coinciden, tienen que contar juntos otra vez."
+ },
+ "ten-frames": {
+  "kw": "Generador de hojas de marcos de diez y conteo con palitos",
+  "slug": "generador-de-hojas-de-marcos-de-diez-y-conteo-con-palitos",
+  "metaTitle": "Generador de hojas de marcos de diez y conteo con palitos | LessonCraftStudio",
+  "metaDescription": "Crea hojas con marcos de diez y marcas de conteo para reconocer cantidades de un vistazo. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas con marcos de diez y marcas de conteo para reconocer cantidades de un vistazo. Llenar marcos, leer palitos, mostrar tarjetas rápidas, contar cuentas del ábaco y completar 10.",
+  "teaches": [
+   "Reconocer una cantidad de un vistazo, sin contar de uno en uno",
+   "Formar 5 y 10 y ver qué falta",
+   "Registrar cantidades con marcas de conteo"
+  ],
+  "moment": "Como calentamiento, muestra una tarjeta dos segundos y pregunta cómo vieron el número. Sus respuestas son la verdadera clase."
+ },
+ "number-sequences": {
+  "kw": "Generador de hojas de secuencias numéricas",
+  "slug": "generador-de-hojas-de-secuencias-numericas",
+  "metaTitle": "Generador de hojas de secuencias numéricas – gratis | LessonCraftStudio",
+  "metaDescription": "Crea tablas de números, series con huecos y hojas para contar de 2 en 2 o de 10 en 10, hasta 1,000. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea tablas de números, series con huecos y hojas para contar de 2 en 2 o de 10 en 10, hasta 1,000. Tablas del 100, piezas de rompecabezas y máquinas de números ya están listas.",
+  "teaches": [
+   "Contar hacia adelante y hacia atrás desde cualquier número",
+   "Contar de 2 en 2, de 5 en 5 y de 10 en 10",
+   "Descubrir patrones en la tabla del 100"
+  ],
+  "moment": "Recorta una tabla del 100 en piezas y dale una a cada pareja. Tienen que razonar qué va arriba, abajo y al lado de cada número."
+ },
+ "number-lines": {
+  "kw": "Generador de hojas de rectas numéricas",
+  "slug": "generador-de-hojas-de-rectas-numericas",
+  "metaTitle": "Generador de hojas de rectas numéricas – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de rectas numéricas del 0 al 10 y hasta 120, con saltos, redondeo y fracciones. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de rectas numéricas del 0 al 10 y hasta 120, con saltos, redondeo y fracciones. Empieza con rectas numeradas y avanza a rectas abiertas que los niños dibujan.",
+  "teaches": [
+   "Ubicar números en la recta según su valor",
+   "Sumar y restar con saltos",
+   "Redondear a la decena o centena más cercana"
+  ],
+  "moment": "Da la misma operación en una recta numerada y en una abierta. Al compararlas ves quién sigue contando y quién ya salta."
+ },
+ "number-bonds": {
+  "kw": "Generador de hojas de descomposición de números",
+  "slug": "generador-de-hojas-de-descomposicion-de-numeros",
+  "metaTitle": "Generador de hojas de descomposición de números – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de descomposición, casas de números y familias de operaciones para 5, 10, 20 y 100. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de descomposición, casas de números y familias de operaciones para 5, 10, 20 y 100. Los niños ven cómo los números se separan y se unen, y así las sumas se quedan en la memoria.",
+  "teaches": [
+   "Separar un número en dos partes de todas las formas",
+   "Ver la suma y la resta como una familia",
+   "Saber los pares que forman 10"
+  ],
+  "moment": "Esconde unas fichas bajo un vaso y enseña las demás. La hoja convierte esa misma pregunta en un trabajo que cada niño hace solo."
+ },
+ "addition-subtraction": {
+  "kw": "Generador de hojas de trabajo de suma y resta",
+  "slug": "generador-de-hojas-de-trabajo-de-suma-y-resta",
+  "metaTitle": "Generador de hojas de trabajo de suma y resta – gratis | LessonCraftStudio",
+  "metaDescription": "Genera hojas de suma y resta, desde sumas con dibujos hasta operaciones de tres cifras con transformación. PDF gratis para imprimir, con respuestas.",
+  "lead": "Genera hojas de suma y resta, desde sumas con dibujos hasta operaciones de tres cifras con transformación. Elige el nivel e imprime una hoja nueva con sus respuestas cuando la necesites.",
+  "teaches": [
+   "Sumar y quitar con dibujos, y después con números",
+   "Cálculo mental hasta 10, 20 y 100",
+   "Suma y resta en columna con transformación"
+  ],
+  "moment": "Imprime dos versiones del mismo nivel para cada pareja. Cada quien resuelve su hoja y luego intercambian y revisan con las respuestas."
+ },
+ "doubles-halves": {
+  "kw": "Generador de hojas de dobles y mitades",
+  "slug": "generador-de-hojas-de-dobles-y-mitades",
+  "metaTitle": "Generador de hojas de dobles y mitades – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de dobles y mitades hasta 20, con dibujos o solo con números. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de dobles y mitades hasta 20, con dibujos o solo con números. Casi dobles, máquinas de números y memorama convierten pocas operaciones en un buen hábito de cálculo mental.",
+  "teaches": [
+   "Calcular dobles y mitades hasta 20",
+   "Usar casi dobles como 6 + 7",
+   "Ver que sacar la mitad es lo contrario de sacar el doble"
+  ],
+  "moment": "Pon a jugar memorama de dobles en parejas cinco minutos después del recreo. Rondas cortas y frecuentes afianzan estas operaciones mejor que una clase larga."
+ },
+ "compare-numbers": {
+  "kw": "Generador de hojas para comparar números",
+  "slug": "generador-de-hojas-para-comparar-numeros",
+  "metaTitle": "Generador de hojas para comparar números – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas para comparar, desde grupos de dibujos con más y menos hasta números de cuatro cifras. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas para comparar, desde grupos de dibujos con más y menos hasta números de cuatro cifras. Los niños usan los signos mayor que, menor que e igual y ordenan números.",
+  "teaches": [
+   "Comparar grupos de dibujos",
+   "Usar los signos <, > y =",
+   "Ordenar números de menor a mayor"
+  ],
+  "moment": "Empieza con el cocodrilo hambriento, tápalo y pide solo el signo. El paso del dibujo al símbolo ocurre en una sola hoja."
+ },
+ "odd-even": {
+  "kw": "Generador de hojas de números pares e impares",
+  "slug": "generador-de-hojas-de-numeros-pares-e-impares",
+  "metaTitle": "Generador de hojas de números pares e impares – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de pares e impares que empiezan con repartir parejo y con parejas de dibujos, y avanzan a la cifra de las unidades y las sumas. PDF gratis.",
+  "lead": "Crea hojas de pares e impares que empiezan con repartir parejo y con parejas de dibujos, y avanzan a la cifra de las unidades y las sumas. Los niños descubren la regla en vez de memorizarla.",
+  "teaches": [
+   "Formar parejas para ver qué sobra",
+   "Leer la cifra de las unidades en números menores que 100",
+   "Predecir si una suma será par o impar"
+  ],
+  "moment": "Primero pide que repartan fichas de verdad entre dos amigos. La hoja guarda después lo que ya descubrieron con las manos."
+ },
+ "place-value": {
+  "kw": "Generador de hojas de valor posicional",
+  "slug": "generador-de-hojas-de-valor-posicional",
+  "metaTitle": "Generador de hojas de valor posicional – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de valor posicional con bloques de base diez, tablas, tarjetas de cifras y adivinanzas de números. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de valor posicional con bloques de base diez, tablas, tarjetas de cifras y adivinanzas de números. Pasa de decenas y unidades a centenas, forma desarrollada y redondeo a la decena o la centena.",
+  "teaches": [
+   "Leer y formar números con decenas y unidades",
+   "Escribir números en forma desarrollada",
+   "Redondear a la decena y la centena más cercana"
+  ],
+  "moment": "Pide que formen el número con bloques reales antes de escribirlo. Después usa una hoja de detective de cifras como cierre."
+ },
+ "multiplication-division": {
+  "kw": "Generador de hojas de trabajo de multiplicación y división",
+  "slug": "generador-de-hojas-de-trabajo-de-multiplicacion-y-division",
+  "metaTitle": "Generador de hojas de trabajo de multiplicación y división | LessonCraftStudio",
+  "metaDescription": "Genera hojas de multiplicación y división, desde grupos iguales y arreglos hasta todas las tablas y la división con residuo. PDF gratis.",
+  "lead": "Genera hojas de multiplicación y división, desde grupos iguales y arreglos hasta todas las tablas y la división con residuo. Incluye tarjetas en argolla y tablas de multiplicar.",
+  "teaches": [
+   "Pasar de la suma repetida a los arreglos y la multiplicación",
+   "Aprender las tablas del 2 al 10",
+   "Repartir, agrupar y trabajar con residuo"
+  ],
+  "moment": "Dale a cada niño la tabla que necesita, no en la que va el grupo. Todos trabajan con la misma hoja, cada quien con su tabla."
+ },
+ "word-problems": {
+  "kw": "Generador de hojas de problemas matemáticos",
+  "slug": "generador-de-hojas-de-problemas-matematicos",
+  "metaTitle": "Generador de hojas de problemas matemáticos – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de problemas con dibujos, de uno y dos pasos, de comparación, multiplicación y división. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de problemas con dibujos, de uno y dos pasos, de comparación, multiplicación y división. Los niños leen, eligen la operación y resuelven.",
+  "teaches": [
+   "Leer un problema y encontrar la pregunta",
+   "Elegir la operación correcta",
+   "Resolver problemas de uno y dos pasos"
+  ],
+  "moment": "Tapa los números de un problema y pregunta qué pasa en la historia. Cuando pueden contarla, la operación suele salir sola."
+ },
+ "fractions": {
+  "kw": "Generador de hojas de fracciones",
+  "slug": "generador-de-hojas-de-fracciones",
+  "metaTitle": "Generador de hojas de fracciones – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de fracciones: medios, tercios y cuartos, repartos justos, tiras para recortar, recta numérica y fracciones equivalentes. PDF gratis.",
+  "lead": "Crea hojas de fracciones: medios, tercios y cuartos, repartos justos, tiras para recortar, recta numérica y fracciones equivalentes. Los niños recortan, colorean y comparan hasta que una fracción significa algo.",
+  "teaches": [
+   "Partir figuras en partes iguales",
+   "Nombrar, colorear y comparar fracciones",
+   "Encontrar la fracción de un grupo"
+  ],
+  "moment": "Imprime las tiras de fracciones en papel de color. Los niños las guardan en un sobre y las usan en cada clase de fracciones."
+ },
+ "number-of-the-day": {
+  "kw": "Generador de hojas del número del día",
+  "slug": "generador-de-hojas-del-numero-del-dia",
+  "metaTitle": "Generador de hojas del número del día – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas del número del día hasta 1,000 y hojas para escribir números con letra. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas del número del día hasta 1,000 y hojas para escribir números con letra. Los niños escriben, dibujan, cuentan y comparan un mismo número de muchas formas.",
+  "teaches": [
+   "Representar un número de muchas formas",
+   "Leer y escribir números con letra",
+   "Encontrar diez más y diez menos"
+  ],
+  "moment": "Deja una hoja del número del día en cada mesa por la mañana. Solo cambia el número, y la rutina funciona sola."
+ },
+ "ordinal-numbers": {
+  "kw": "Generador de hojas de números ordinales",
+  "slug": "generador-de-hojas-de-numeros-ordinales",
+  "metaTitle": "Generador de hojas de números ordinales – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de números ordinales con carreras, repisas, banderas y tarjetas. Los niños van de primero, segundo y tercero hasta el 31.º, con letra y con número.",
+  "lead": "Crea hojas de números ordinales con carreras, repisas, banderas y tarjetas. Los niños van de primero, segundo y tercero hasta el 31.º, con letra y con número.",
+  "teaches": [
+   "Encontrar primero, segundo y tercero en una fila",
+   "Contar la posición desde cualquier extremo",
+   "Leer y escribir los ordinales"
+  ],
+  "moment": "Forma a diez niños en la puerta y di una posición. Después verán las mismas palabras impresas en la hoja de la carrera."
+ },
+ "number-tracing": {
+  "kw": "Generador de hojas de trazo de números",
+  "slug": "generador-de-hojas-de-trazo-de-numeros",
+  "metaTitle": "Generador de hojas de trazo de números – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de trazo de números del 0 al 9, del 11 al 20 y hasta 100, con punto de inicio naranja y flechas en cada número. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de trazo de números del 0 al 9, del 11 al 20 y hasta 100, con punto de inicio naranja y flechas en cada número. Repasar, contar y escribir en una sola hoja.",
+  "teaches": [
+   "Trazar cada número de la forma correcta",
+   "Relacionar un número con una cantidad",
+   "Escribir números del 11 al 20 y con letra"
+  ],
+  "moment": "Empieza matemáticas con calma: los niños cuentan primero los dibujos, así el número siempre representa algo."
+ },
+ "money": {
+  "kw": "Generador de hojas de dinero",
+  "slug": "generador-de-hojas-de-dinero",
+  "metaTitle": "Generador de hojas de dinero – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de dinero con pesos y centavos: contar monedas y billetes, ir de compras, dar cambio y pagar con la menor cantidad de monedas. PDF gratis.",
+  "lead": "Crea hojas de dinero con pesos y centavos: contar monedas y billetes, ir de compras, dar cambio y pagar con la menor cantidad de monedas. Incluye etiquetas de precio y dinero de juguete para la tiendita del salón.",
+  "teaches": [
+   "Reconocer las monedas y su valor",
+   "Contar monedas y billetes mezclados",
+   "Sumar precios y calcular el cambio"
+  ],
+  "moment": "Monta una tiendita al fondo del salón con las etiquetas y el dinero de juguete. Las hojas de compras convierten lo que pasó ahí en problemas escritos."
+ },
+ "telling-time": {
+  "kw": "Generador de hojas del reloj",
+  "slug": "generador-de-hojas-del-reloj",
+  "metaTitle": "Generador de hojas del reloj – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas para leer el reloj, de las horas en punto y las medias horas a los cinco minutos, al minuto y al tiempo transcurrido. PDF gratis.",
+  "lead": "Crea hojas para leer el reloj, de las horas en punto y las medias horas a los cinco minutos, al minuto y al tiempo transcurrido. Los niños leen relojes, dibujan las manecillas y arman su propio reloj.",
+  "teaches": [
+   "Leer el reloj en horas, medias horas y de cinco en cinco minutos",
+   "Dibujar las manecillas para una hora dada",
+   "Calcular cuánto tiempo pasó"
+  ],
+  "moment": "Pide que armen el reloj una vez y lo guarden en la banca. Los niños lo ponen a la hora de cada rutina y lo comparan con el reloj del salón."
+ },
+ "calendar": {
+  "kw": "Generador de hojas del calendario",
+  "slug": "generador-de-hojas-del-calendario",
+  "metaTitle": "Generador de hojas del calendario – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de los días de la semana, los meses del año, ayer y mañana, y la lectura de un mes completo. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de los días de la semana, los meses del año, ayer y mañana, y la lectura de un mes completo. La gráfica de cumpleaños y la fecha de hoy encajan en tu rutina de la mañana.",
+  "teaches": [
+   "Decir los días y los meses en orden",
+   "Usar ayer, hoy y mañana",
+   "Leer fechas en un calendario"
+  ],
+  "moment": "Llena con tu grupo un mes en blanco el primer día de clases del mes, con cumpleaños incluidos. Esa hoja será la referencia para cualquier pregunta."
+ },
+ "measurement": {
+  "kw": "Generador de hojas de medición",
+  "slug": "generador-de-hojas-de-medicion",
+  "metaTitle": "Generador de hojas de medición – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de medición, de grande y chico a reglas, clips, jarras medidoras, básculas y termómetros. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de medición, de grande y chico a reglas, clips, jarras medidoras, básculas y termómetros. Los niños comparan, ordenan y miden con unidades reales.",
+  "teaches": [
+   "Comparar longitud, altura y peso",
+   "Medir con clips, cubos y regla",
+   "Leer básculas, jarras y termómetros"
+  ],
+  "moment": "Imprime las reglas para recortar para que cada niño tenga una, y manda a las parejas a medir por el salón."
+ },
+ "graphs-data": {
+  "kw": "Generador de hojas de gráficas y datos",
+  "slug": "generador-de-hojas-de-graficas-y-datos",
+  "metaTitle": "Generador de hojas de gráficas y datos – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de pictogramas, gráficas de barras y diagramas que los niños leen y construyen. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de pictogramas, gráficas de barras y diagramas que los niños leen y construyen. Clasifican, cuentan y contestan preguntas sobre los datos.",
+  "teaches": [
+   "Clasificar y contar datos",
+   "Leer pictogramas y gráficas de barras",
+   "Usar una escala donde un dibujo vale más"
+  ],
+  "moment": "Haz la gráfica del grupo con una pregunta que les importe y pide a cada niño escribir una oración verdadera sobre el resultado."
+ },
+ "shapes-geometry": {
+  "kw": "Generador de hojas de figuras y geometría",
+  "slug": "generador-de-hojas-de-figuras-y-geometria",
+  "metaTitle": "Generador de hojas de figuras y geometría – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de lados, vértices, caras y aristas, figuras planas y cuerpos geométricos, plantillas, simetría y área. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de lados, vértices, caras y aristas, figuras planas y cuerpos geométricos, plantillas, simetría y área. Los niños clasifican, dibujan, recortan y doblan, no solo nombran.",
+  "teaches": [
+   "Reconocer figuras y cuerpos por sus características",
+   "Contar lados, vértices, caras y aristas",
+   "Dibujar figuras y explorar área y perímetro"
+  ],
+  "moment": "Manda a los niños a cazar ángulos rectos en el salón con una esquina de papel doblada, y luego pide que clasifiquen lo que encontraron."
+ },
+ "symmetry-grids": {
+  "kw": "Generador de hojas de simetría y cuadrícula",
+  "slug": "generador-de-hojas-de-simetria-y-cuadricula",
+  "metaTitle": "Generador de hojas de simetría y cuadrícula – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de simetría y copia en cuadrícula donde los niños completan la otra mitad, copian cuadro por cuadro y dibujan el doble de grande. PDF gratis.",
+  "lead": "Crea hojas de simetría y copia en cuadrícula donde los niños completan la otra mitad, copian cuadro por cuadro y dibujan el doble de grande. La vista atenta y el pulso firme crecen juntos.",
+  "teaches": [
+   "Completar un dibujo con su eje de simetría",
+   "Copiar un dibujo cuadro por cuadro",
+   "Voltear, girar y ampliar un dibujo"
+  ],
+  "moment": "Usa una copia en cuadrícula como actividad tranquila después del recreo. Los niños se calman pronto, y ves quién se ubica en la cuadrícula."
+ },
+ "maps-grids": {
+  "kw": "Generador de hojas de mapas y coordenadas",
+  "slug": "generador-de-hojas-de-mapas-y-coordenadas",
+  "metaTitle": "Generador de hojas de mapas y coordenadas – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de mapas con vistas desde arriba, simbología, puntos cardinales, coordenadas y continentes. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de mapas con vistas desde arriba, simbología, puntos cardinales, coordenadas y continentes. Búsquedas del tesoro y batallas navales convierten la práctica en juego.",
+  "teaches": [
+   "Ver un lugar desde arriba y leer la simbología",
+   "Usar coordenadas en una cuadrícula",
+   "Usar norte, este, sur y oeste"
+  ],
+  "moment": "Esconde una sorpresa en el salón y pide que escriban la ruta para que un compañero la siga."
+ },
+ "patterns": {
+  "kw": "Generador de hojas de patrones",
+  "slug": "generador-de-hojas-de-patrones",
+  "metaTitle": "Generador de hojas de patrones – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de patrones AB, ABC y AABB, patrones que crecen y patrones de números, todos con dibujos de tu tema. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de patrones AB, ABC y AABB, patrones que crecen y patrones de números, todos con dibujos de tu tema. Los niños continúan, completan e inventan los suyos.",
+  "teaches": [
+   "Encontrar lo que se repite",
+   "Continuar y completar patrones",
+   "Describir patrones que crecen y de números"
+  ],
+  "moment": "Pide que aplaudan o zapateen el patrón antes de dibujarlo. Oírlo suele ayudar al niño que todavía no lo ve."
+ },
+ "logic-puzzles": {
+  "kw": "Generador de hojas de acertijos de lógica",
+  "slug": "generador-de-hojas-de-acertijos-de-logica",
+  "metaTitle": "Generador de hojas de acertijos de lógica – gratis | LessonCraftStudio",
+  "metaDescription": "Genera hojas de lógica: sudoku de dibujos y de números, pirámides numéricas, cuadrículas lógicas, cuadrados mágicos y balanzas. PDF gratis.",
+  "lead": "Genera hojas de lógica: sudoku de dibujos y de números, pirámides numéricas, cuadrículas lógicas, cuadrados mágicos y balanzas. Cada acertijo tiene una sola solución, y los niveles crecen con tu grupo.",
+  "teaches": [
+   "Razonar paso a paso a partir de pistas",
+   "Revisar una respuesta contra cada regla",
+   "No rendirse hasta resolver"
+  ],
+  "moment": "Ten sudokus de dibujos para quienes terminan antes. Los retan sin darles más de lo mismo."
+ },
+ "dot-to-dot": {
+  "kw": "Generador de hojas de une los puntos",
+  "slug": "generador-de-hojas-de-une-los-puntos",
+  "metaTitle": "Generador de hojas de une los puntos – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de unir puntos para contar hasta 20, hacia atrás o de 2 en 2, seguir el abecedario o resolver operaciones. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de unir puntos para contar hasta 20, hacia atrás o de 2 en 2, seguir el abecedario o resolver operaciones. El dibujo escondido mantiene a los niños atentos hasta el último punto.",
+  "teaches": [
+   "Decir la serie numérica en orden",
+   "Contar hacia atrás y de 2 en 2",
+   "Seguir el abecedario en mayúsculas y minúsculas"
+  ],
+  "moment": "Pide que adivinen el dibujo antes de empezar y a la mitad. Van a revisar cada número para saberlo."
+ },
+ "color-by-number": {
+  "kw": "Generador de hojas de colorear por número",
+  "slug": "generador-de-hojas-de-colorear-por-numero",
+  "metaTitle": "Generador de hojas de colorear por número – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de colorear por número y por código donde cada color es una respuesta: sumas, restas, palabras frecuentes, primeros sonidos y tablas. PDF gratis.",
+  "lead": "Crea hojas de colorear por número y por código donde cada color es una respuesta: sumas, restas, palabras frecuentes, primeros sonidos y tablas. El dibujo terminado muestra si todo está bien.",
+  "teaches": [
+   "Practicar operaciones con revisión integrada",
+   "Leer con cuidado una clave de colores",
+   "Trabajar con calma en una hoja completa"
+  ],
+  "moment": "Usa una hoja de colorear por código el viernes para repasar. Un error aparece como un color fuera de lugar, y muchas veces el niño lo encuentra solo."
+ },
+ "coloring-pages": {
+  "kw": "Generador de dibujos para colorear en el salón",
+  "slug": "generador-de-dibujos-para-colorear-en-el-salon",
+  "metaTitle": "Generador de dibujos para colorear en el salón – gratis | LessonCraftStudio",
+  "metaDescription": "Crea dibujos para colorear de nuestra biblioteca de imágenes, con palabras para repasar, una oración para escribir o una clave. PDF gratis para imprimir.",
+  "lead": "Crea dibujos para colorear de nuestra biblioteca de imágenes, con palabras para repasar, una oración para escribir o una clave. Dobla un minilibro para colorear de cualquier tema que estés viendo.",
+  "teaches": [
+   "Desarrollar el control del lápiz y la fuerza de la mano",
+   "Relacionar dibujos con palabras",
+   "Platicar sobre lo que hay en la hoja"
+  ],
+  "moment": "Dobla el minilibro el primer día de un tema nuevo. Los niños se llevan a casa las palabras que conocieron en clase."
+ },
+ "same-different": {
+  "kw": "Generador de hojas de igual y diferente",
+  "slug": "generador-de-hojas-de-igual-y-diferente",
+  "metaTitle": "Generador de hojas de igual y diferente – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de discriminación visual: encontrar el diferente, relacionar sombras, parejas, gemelos y la pieza que falta. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de discriminación visual: encontrar el diferente, relacionar sombras, parejas, gemelos y la pieza que falta. Observar con atención viene antes de leer y hacer cuentas.",
+  "teaches": [
+   "Ver qué es igual y qué es diferente",
+   "Relacionar figuras, sombras e imágenes en espejo",
+   "Fijarse en los detalles pequeños"
+  ],
+  "moment": "Pregunta qué es diferente y cómo lo saben. Sus razones son una primera práctica para explicar lo que piensan."
+ },
+ "position-words": {
+  "kw": "Generador de hojas de nociones espaciales",
+  "slug": "generador-de-hojas-de-nociones-espaciales",
+  "metaTitle": "Generador de hojas de nociones espaciales – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de sobre, debajo, al lado, izquierda, derecha, arriba, en medio y abajo. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de sobre, debajo, al lado, izquierda, derecha, arriba, en medio y abajo. Los niños leen, dibujan, pegan y eligen la palabra, y así el lenguaje de la posición se vuelve suyo.",
+  "teaches": [
+   "Entender palabras de posición",
+   "Distinguir izquierda y derecha",
+   "Seguir instrucciones con palabras de posición"
+  ],
+  "moment": "Juega primero con un osito y una silla, y después deja que cada niño coloque su propio dibujo en la hoja."
+ },
+ "sorting": {
+  "kw": "Generador de hojas para clasificar",
+  "slug": "generador-de-hojas-para-clasificar",
+  "metaTitle": "Generador de hojas para clasificar – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas para clasificar con recortar y pegar, tapetes y tarjetas: alimentos, transportes, deseos y necesidades, oficios. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas para clasificar con recortar y pegar, tapetes y tarjetas: alimentos, transportes, deseos y necesidades, oficios. Los niños eligen una regla y la explican.",
+  "teaches": [
+   "Agrupar dibujos con una regla",
+   "Detectar lo que no pertenece al grupo",
+   "Explicar por qué algo va en un grupo"
+  ],
+  "moment": "Reparte tapetes y tarjetas y deja que las parejas inventen una regla. La otra pareja tiene que adivinarla."
+ },
+ "mazes": {
+  "kw": "Generador de laberintos para imprimir",
+  "slug": "generador-de-laberintos-para-imprimir",
+  "metaTitle": "Generador de laberintos para imprimir – gratis | LessonCraftStudio",
+  "metaDescription": "Genera laberintos, desde los primeros caminos para preescolar hasta los gigantes, y también de letras, números, sumas y sonidos iniciales. PDF gratis.",
+  "lead": "Genera laberintos, desde los primeros caminos para preescolar hasta los gigantes, y también de letras, números, sumas y sonidos iniciales. Cada uno ya está resuelto antes de llegar a ti: siempre hay salida.",
+  "teaches": [
+   "Planear un camino y mirar adelante",
+   "Mantener un trazo firme",
+   "Practicar letras, números y sumas en el camino"
+  ],
+  "moment": "Usa un laberinto de sumas como trabajo de la mañana: solo se llega con las respuestas correctas, la hoja se revisa sola."
+ },
+ "find-the-differences": {
+  "kw": "Generador de hojas para encontrar las diferencias",
+  "slug": "generador-de-hojas-para-encontrar-las-diferencias",
+  "metaTitle": "Generador de hojas para encontrar las diferencias – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas para encontrar las diferencias con 3, 5, 7 o 10 cambios en escenas ilustradas, además de objetos que faltan, cambios de color e imágenes en espejo.",
+  "lead": "Crea hojas para encontrar las diferencias con 3, 5, 7 o 10 cambios en escenas ilustradas, además de objetos que faltan, cambios de color e imágenes en espejo. La mayoría también se juega en pantalla.",
+  "teaches": [
+   "Recorrer una imagen con orden",
+   "Decir qué cambió",
+   "Escribir qué es diferente"
+  ],
+  "moment": "Que las parejas describan una diferencia por turnos, sin señalar. Tienen que encontrar las palabras para decir dónde está y qué cambió."
+ },
+ "how-to-draw": {
+  "kw": "Generador de hojas de cómo dibujar",
+  "slug": "generador-de-hojas-de-como-dibujar",
+  "metaTitle": "Generador de hojas de cómo dibujar – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de dibujo paso a paso donde cada línea nueva aparece en color. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de dibujo paso a paso donde cada línea nueva aparece en color. Los niños siguen, repasan, terminan y luego dibujan de memoria, con hojas de palabras y oraciones para escribir.",
+  "teaches": [
+   "Separar un dibujo en figuras simples",
+   "Seguir pasos en orden",
+   "Escribir sobre lo que dibujaron"
+  ],
+  "moment": "Haz el primer paso con ellos en el pizarrón y deja que terminen solos. El dibujo les da de qué escribir incluso a quienes menos quieren."
+ },
+ "tangram": {
+  "kw": "Generador de hojas de tangram",
+  "slug": "generador-de-hojas-de-tangram",
+  "metaTitle": "Generador de hojas de tangram – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de tangram con piezas para recortar, sombras para armar y preguntas sobre las figuras. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de tangram con piezas para recortar, sombras para armar y preguntas sobre las figuras. Empieza con rompecabezas de dos piezas y avanza a figuras completas.",
+  "teaches": [
+   "Girar y encajar figuras",
+   "Ver figuras dentro de otras figuras",
+   "Planear antes de colocar una pieza"
+  ],
+  "moment": "Recorta las piezas una vez, guárdalas en un sobre y saca una sombra nueva cada semana para unos minutos tranquilos."
+ },
+ "picture-tracing": {
+  "kw": "Generador de hojas para repasar dibujos",
+  "slug": "generador-de-hojas-para-repasar-dibujos",
+  "metaTitle": "Generador de hojas para repasar dibujos – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas para repasar dibujos, desde figuras grandes y redondas para preescolar hasta escenas de ciudad punteadas para primer grado. PDF gratis.",
+  "lead": "Crea hojas para repasar dibujos, desde figuras grandes y redondas para preescolar hasta escenas de ciudad punteadas para primer grado. Líneas rectas, zigzags, espirales y bucles se vuelven un dibujo real.",
+  "teaches": [
+   "Guiar el lápiz por una línea",
+   "Trazar líneas rectas, curvas y bucles",
+   "Prepararse para escribir letras"
+  ],
+  "moment": "Que repasen un dibujo grande primero con el dedo, luego con crayola y al final con lápiz. La misma hoja sirve tres veces."
+ },
+ "pre-writing": {
+  "kw": "Generador de hojas de grafomotricidad",
+  "slug": "generador-de-hojas-de-grafomotricidad",
+  "metaTitle": "Generador de hojas de grafomotricidad – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de grafomotricidad con líneas rectas, zigzags, ondas, bucles y espirales, desde los primeros caminos hasta los trazos de las letras. PDF gratis.",
+  "lead": "Crea hojas de grafomotricidad con líneas rectas, zigzags, ondas, bucles y espirales, desde los primeros caminos hasta los trazos de las letras. Incluye práctica de recortado.",
+  "teaches": [
+   "Sostener y guiar el lápiz",
+   "Hacer los trazos básicos de las letras",
+   "Recortar sobre una línea"
+  ],
+  "moment": "Mete una hoja en una mica y usa plumón borrable, para que repitan el mismo camino muchas veces."
+ },
+ "letter-tracing": {
+  "kw": "Generador de hojas de trazo de letras",
+  "slug": "generador-de-hojas-de-trazo-de-letras",
+  "metaTitle": "Generador de hojas de trazo de letras – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de trazo de mayúsculas, minúsculas y el nombre de cada niño. Cada hoja usa el abecedario del idioma que elijas, en español con la ñ.",
+  "lead": "Crea hojas de trazo de mayúsculas, minúsculas y el nombre de cada niño. Cada hoja usa el abecedario del idioma que elijas, en español con la ñ.",
+  "teaches": [
+   "Trazar mayúsculas y minúsculas",
+   "Relacionar cada letra con un dibujo",
+   "Escribir su propio nombre"
+  ],
+  "moment": "Imprime el nombre de cada niño el primer día. Es la palabra que más le importa, y te muestra desde dónde empieza."
+ },
+ "word-writing": {
+  "kw": "Generador de hojas de trazo y escritura de palabras",
+  "slug": "generador-de-hojas-de-trazo-y-escritura-de-palabras",
+  "metaTitle": "Generador de hojas de trazo y escritura de palabras | LessonCraftStudio",
+  "metaDescription": "Crea hojas para repasar y escribir palabras: copiar, escribir a partir de un dibujo, llenar casillas y rotular. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas para repasar y escribir palabras: copiar, escribir a partir de un dibujo, llenar casillas y rotular. Los niños avanzan paso a paso del trazo a escribir solos.",
+  "teaches": [
+   "Repasar y copiar palabras completas",
+   "Escribir a partir de un dibujo con cada vez menos ayuda",
+   "Escribir palabras en renglones"
+  ],
+  "moment": "Da tres versiones de las mismas palabras: con la primera letra, con banco de palabras y sin ayuda. Todos escriben la misma lista en su nivel."
+ },
+ "cursive": {
+  "kw": "Generador de hojas de letra cursiva",
+  "slug": "generador-de-hojas-de-letra-cursiva",
+  "metaTitle": "Generador de hojas de letra cursiva – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de letra cursiva para letras, enlaces, palabras y oraciones, con el abecedario cursivo y lectura. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de letra cursiva para letras, enlaces, palabras y oraciones, con el abecedario cursivo y lectura. Los niños aprenden a unir letras y también a leer letra manuscrita.",
+  "teaches": [
+   "Formar letras cursivas",
+   "Unir las letras con fluidez",
+   "Leer cursiva además de escribirla"
+  ],
+  "moment": "Dedica cinco minutos cada mañana a la letra del día. La práctica breve y diaria hace fluidos los enlaces."
+ },
+ "alphabet": {
+  "kw": "Generador de hojas del abecedario",
+  "slug": "generador-de-hojas-del-abecedario",
+  "metaTitle": "Generador de hojas del abecedario – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas del abecedario: reconocer letras, mayúsculas y minúsculas, vocales, orden alfabético y letra de la semana. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas del abecedario: reconocer letras, mayúsculas y minúsculas, vocales, orden alfabético y letra de la semana. Cada hoja usa el abecedario del idioma que elijas.",
+  "teaches": [
+   "Reconocer y nombrar las letras",
+   "Relacionar mayúsculas y minúsculas",
+   "Ordenar palabras alfabéticamente"
+  ],
+  "moment": "Empieza el lunes con la letra de la semana y manda a los niños a cazar esa letra en un libro."
+ },
+ "phonics": {
+  "kw": "Generador de hojas de sonidos y conciencia fonológica",
+  "slug": "generador-de-hojas-de-sonidos-y-conciencia-fonologica",
+  "metaTitle": "Generador de hojas de sonidos y conciencia fonológica | LessonCraftStudio",
+  "metaDescription": "Crea hojas de sonidos iniciales y finales, de contar sonidos y de sílabas trabadas. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de sonidos iniciales y finales, de contar sonidos y de sílabas trabadas. Con cajas de sonidos, tarjetas con pinzas y clasificaciones, los niños practican con dibujos.",
+  "teaches": [
+   "Oír los sonidos iniciales y finales",
+   "Unir y contar los sonidos de una palabra",
+   "Escribir sílabas trabadas"
+  ],
+  "moment": "Usa las cajas de sonidos con fichas: el niño empuja una ficha por cada sonido antes de escribir. Sus manos hacen visibles los sonidos."
+ },
+ "rhyming": {
+  "kw": "Generador de hojas de palabras que riman",
+  "slug": "generador-de-hojas-de-palabras-que-riman",
+  "metaTitle": "Generador de hojas de palabras que riman – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de rimas con parejas, memorama, dominós y clasificaciones, hechas con palabras que de verdad riman en español. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de rimas con parejas, memorama, dominós y clasificaciones, hechas con palabras que de verdad riman en español. Los niños escuchan, relacionan y escriben sus propias rimas.",
+  "teaches": [
+   "Oír palabras que riman",
+   "Encontrar la palabra que no va",
+   "Escribir palabras que riman"
+  ],
+  "moment": "Pon a jugar memorama de rimas en voz alta: una pareja solo cuenta si el niño dice las dos palabras."
+ },
+ "syllables": {
+  "kw": "Generador de hojas de sílabas",
+  "slug": "generador-de-hojas-de-silabas",
+  "metaTitle": "Generador de hojas de sílabas – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas para aplaudir, contar, separar y unir sílabas, además de familias silábicas. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas para aplaudir, contar, separar y unir sílabas, además de familias silábicas. La separación sigue lo que los niños aprenden en la escuela.",
+  "teaches": [
+   "Aplaudir y contar sílabas",
+   "Separar palabras y volver a unirlas",
+   "Leer familias silábicas"
+  ],
+  "moment": "Aplaude las palabras con tu grupo antes de escribir. Una palabra que se siente en las manos se separa más fácil."
+ },
+ "sight-words": {
+  "kw": "Generador de hojas de palabras frecuentes",
+  "slug": "generador-de-hojas-de-palabras-frecuentes",
+  "metaTitle": "Generador de hojas de palabras frecuentes – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas para la palabra frecuente que estás trabajando: leerla, repasarla, encontrarla, colorearla y armarla. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas para la palabra frecuente que estás trabajando: leerla, repasarla, encontrarla, colorearla y armarla. Tarjetas, juegos con dado y escritura arcoíris mantienen viva la práctica.",
+  "teaches": [
+   "Leer palabras frecuentes de un vistazo",
+   "Escribir palabras de memoria",
+   "Usar palabras frecuentes en oraciones"
+  ],
+  "moment": "Elige una palabra para la semana y usa una hoja distinta cada día: leerla, repasarla, encontrarla, usarla."
+ },
+ "spelling": {
+  "kw": "Generador de hojas de ortografía",
+  "slug": "generador-de-hojas-de-ortografia",
+  "metaTitle": "Generador de hojas de ortografía – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de ortografía con palabras revueltas, letras que faltan, mirar-tapar-escribir-revisar y letras móviles, además de hojas de reglas. PDF gratis.",
+  "lead": "Crea hojas de ortografía con palabras revueltas, letras que faltan, mirar-tapar-escribir-revisar y letras móviles, además de hojas de reglas. Practica la regla que esté viendo tu grupo.",
+  "teaches": [
+   "Formar palabras a partir de sus sonidos",
+   "Recordar con mirar, tapar, escribir y revisar",
+   "Aplicar reglas de ortografía"
+  ],
+  "moment": "Que usen letras móviles antes de escribir. Mover una letra se deshace más fácil que un trazo de lápiz, así que se animan a probar más."
+ },
+ "nouns-articles": {
+  "kw": "Generador de hojas de singular, plural y artículos",
+  "slug": "generador-de-hojas-de-singular-plural-y-articulos",
+  "metaTitle": "Generador de hojas de singular, plural y artículos | LessonCraftStudio",
+  "metaDescription": "Crea hojas de singular, plural y el artículo correcto, con dibujos que los niños pueden nombrar. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de singular, plural y el artículo correcto, con dibujos que los niños pueden nombrar. Uno y muchos, el, la, los, las y hojas para clasificar ya están aquí.",
+  "teaches": [
+   "Distinguir uno de muchos",
+   "Escribir el plural de los sustantivos",
+   "Elegir el artículo correcto"
+  ],
+  "moment": "Levanta un lápiz, luego tres, y pide al grupo que diga la palabra. Después la hoja hace lo mismo con dibujos."
+ },
+ "grammar": {
+  "kw": "Generador de hojas de gramática",
+  "slug": "generador-de-hojas-de-gramatica",
+  "metaTitle": "Generador de hojas de gramática – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de gramática de sustantivos, verbos, adjetivos, pronombres y formas verbales. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de gramática de sustantivos, verbos, adjetivos, pronombres y formas verbales. Los niños clasifican palabras, cambian oraciones y encuentran la forma correcta en tres niveles.",
+  "teaches": [
+   "Distinguir sustantivos, verbos y adjetivos",
+   "Usar pronombres en oraciones",
+   "Elegir la forma correcta del verbo"
+  ],
+  "moment": "Pide que recorten y clasifiquen palabras como juego antes de hacerlo en papel. Mover las palabras ayuda a sentir las categorías."
+ },
+ "word-meaning": {
+  "kw": "Generador de hojas de sinónimos y antónimos",
+  "slug": "generador-de-hojas-de-sinonimos-y-antonimos",
+  "metaTitle": "Generador de hojas de sinónimos y antónimos – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de vocabulario con antónimos, sinónimos, palabras derivadas, prefijos y raíces. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de vocabulario con antónimos, sinónimos, palabras derivadas, prefijos y raíces. Las hojas con dibujos abren el trabajo y las de oraciones lo llevan más lejos.",
+  "teaches": [
+   "Encontrar antónimos y palabras con el mismo significado",
+   "Separar palabras derivadas",
+   "Usar raíces y prefijos para entender una palabra"
+  ],
+  "moment": "Pega una escala de palabras en la pared y agrega las que salgan en los cuentos. Pronto eligen palabras más precisas por su cuenta."
+ },
+ "sentences": {
+  "kw": "Generador de hojas de oraciones",
+  "slug": "generador-de-hojas-de-oraciones",
+  "metaTitle": "Generador de hojas de oraciones – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea hojas de oraciones: ordenar, completar, corregir mayúsculas y puntos, hacer preguntas y alargar una oración. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de oraciones: ordenar, completar, corregir mayúsculas y puntos, hacer preguntas y alargar una oración. Los dibujos apoyan a quienes empiezan a leer en cada paso.",
+  "teaches": [
+   "Poner las palabras en orden",
+   "Empezar con mayúscula y terminar con el signo correcto",
+   "Hacer y contestar preguntas"
+  ],
+  "moment": "Recorta la oración y deja que la armen primero sobre la mesa. Probar las palabras en distintos órdenes ya es media clase."
+ },
+ "reading": {
+  "kw": "Generador de hojas de comprensión lectora",
+  "slug": "generador-de-hojas-de-comprension-lectora",
+  "metaTitle": "Generador de hojas de comprensión lectora – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de comprensión lectora con cuentos cortos y preguntas, hojas de leer y colorear e instrucciones para seguir. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de comprensión lectora con cuentos cortos y preguntas, hojas de leer y colorear e instrucciones para seguir. Los niños demuestran que entendieron haciendo, no solo contestando.",
+  "teaches": [
+   "Leer con atención a los detalles",
+   "Seguir instrucciones escritas",
+   "Contestar preguntas sobre un cuento corto"
+  ],
+  "moment": "Usa una hoja de leer y colorear como revisión tranquila: una mirada a los colores muestra qué oración no se entendió."
+ },
+ "stories-writing": {
+  "kw": "Generador de hojas de cuentos y escritura",
+  "slug": "generador-de-hojas-de-cuentos-y-escritura",
+  "metaTitle": "Generador de hojas de cuentos y escritura – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas para ordenar historias y escribir: numerar dibujos, planear un cuento, escribir una historieta, una postal o una ficha de animal. PDF gratis.",
+  "lead": "Crea hojas para ordenar historias y escribir: numerar dibujos, planear un cuento, escribir una historieta, una postal o una ficha de animal. Inicios de oración y bancos de palabras ayudan a empezar.",
+  "teaches": [
+   "Poner sucesos en orden",
+   "Contar inicio, desarrollo y final",
+   "Escribir oraciones sobre un dibujo o un animal"
+  ],
+  "moment": "Que cuenten la historia a un compañero antes de escribir una sola palabra. Una historia ya contada se escribe más fácil."
+ },
+ "me-family-feelings": {
+  "kw": "Generador de hojas de mi familia y emociones",
+  "slug": "generador-de-hojas-de-mi-familia-y-emociones",
+  "metaTitle": "Generador de hojas de mi familia y emociones – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas sobre mí, mi familia y las emociones para el inicio del ciclo y los momentos de calma. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas sobre mí, mi familia y las emociones para el inicio del ciclo y los momentos de calma. Caras, árboles genealógicos y termómetros les dan palabras para lo que sienten.",
+  "teaches": [
+   "Nombrar emociones y verlas en las caras",
+   "Hablar de la familia y de quién es quién",
+   "Decir qué les gusta y qué saben hacer"
+  ],
+  "moment": "Ten las tarjetas de emociones junto a la puerta para la llegada. El niño señala una, y sabes quién necesita que le dediques un momento."
+ },
+ "picture-cards": {
+  "kw": "Generador de tarjetas de vocabulario",
+  "slug": "generador-de-tarjetas-de-vocabulario",
+  "metaTitle": "Generador de tarjetas de vocabulario – gratis | LessonCraftStudio",
+  "metaDescription": "Crea tarjetas con dibujos, tarjetas de palabras, memorama, etiquetas para el muro de palabras y un diccionario ilustrado de cualquier tema. PDF gratis.",
+  "lead": "Crea tarjetas con dibujos, tarjetas de palabras, memorama, etiquetas para el muro de palabras y un diccionario ilustrado de cualquier tema. Las tarjetas bilingües ponen dos idiomas lado a lado.",
+  "teaches": [
+   "Aprender palabras nuevas con dibujos",
+   "Relacionar palabras y dibujos",
+   "Armar el muro de palabras del grupo"
+  ],
+  "moment": "Imprime tarjetas bilingües en español y en la lengua de casa, para que un niño recién llegado muestre lo que ya sabe."
+ },
+ "word-search": {
+  "kw": "Generador de hojas de sopa de letras para niños",
+  "slug": "generador-de-hojas-de-sopa-de-letras-para-ninos",
+  "metaTitle": "Generador de hojas de sopa de letras para niños – gratis | LessonCraftStudio",
+  "metaDescription": "Crea sopas de letras para el salón: pistas con dibujos para quienes empiezan a leer, números en palabras, sopas con forma, sopas bilingües y un mensaje secreto.",
+  "lead": "Crea sopas de letras para el salón: pistas con dibujos para quienes empiezan a leer, números en palabras, sopas con forma, sopas bilingües y un mensaje secreto.",
+  "teaches": [
+   "Reconocer palabras por su escritura",
+   "Recorrer filas y columnas con orden",
+   "Repasar el vocabulario de un tema"
+  ],
+  "moment": "Usa una sopa de letras con dibujos al terminar un tema. Quienes aún no leen todas las palabras las encuentran por los dibujos."
+ },
+ "crossword": {
+  "kw": "Generador de hojas de crucigramas para niños",
+  "slug": "generador-de-hojas-de-crucigramas-para-ninos",
+  "metaTitle": "Generador de hojas de crucigramas para niños – gratis | LessonCraftStudio",
+  "metaDescription": "Crea crucigramas para el salón con pistas de dibujos, bancos de palabras y crucigramas de flechas, también bilingües. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea crucigramas para el salón con pistas de dibujos, bancos de palabras y crucigramas de flechas, también bilingües. Los niños escriben cada palabra y la cuadrícula revisa sus letras.",
+  "teaches": [
+   "Escribir palabras letra por letra",
+   "Usar un dibujo o un banco de palabras como pista",
+   "Repasar vocabulario"
+  ],
+  "moment": "Que dos niños compartan un crucigrama: uno dice la palabra y el otro la escribe."
+ },
+ "secret-code": {
+  "kw": "Generador de hojas de mensaje secreto",
+  "slug": "generador-de-hojas-de-mensaje-secreto",
+  "metaTitle": "Generador de hojas de mensaje secreto – gratis | LessonCraftStudio",
+  "metaDescription": "Crea hojas de mensaje secreto donde los niños descifran códigos de dibujos, números y sumas para descubrir una palabra. PDF gratis para imprimir, con respuestas.",
+  "lead": "Crea hojas de mensaje secreto donde los niños descifran códigos de dibujos, números y sumas para descubrir una palabra. Hasta pueden hacer su propio código para un amigo.",
+  "teaches": [
+   "Usar una clave para descifrar",
+   "Practicar letras o sumas con un propósito",
+   "Leer una palabra escondida"
+  ],
+  "moment": "Escribe la sorpresa de mañana en clave en el pizarrón. Todos van a querer resolverla."
+ },
+ "bingo": {
+  "kw": "Generador de lotería para el salón",
+  "slug": "generador-de-loteria-para-el-salon",
+  "metaTitle": "Generador de lotería para el salón – gratis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crea loterías para el salón con dibujos, palabras frecuentes, sonidos, números con letra, figuras, sumas y relojes. PDF gratis para imprimir.",
+  "lead": "Crea loterías para el salón con dibujos, palabras frecuentes, sonidos, números con letra, figuras, sumas y relojes. Cada juego trae sus cartas para cantar, y puedes jugar en minutos.",
+  "teaches": [
+   "Escuchar y relacionar rápido",
+   "Repasar palabras, sonidos u operaciones",
+   "Esperar el turno en un juego de grupo"
+  ],
+  "moment": "Deja que un niño cante las cartas cuando el grupo ya conozca el juego. Leerlas en voz alta ya es buena práctica."
+ }
+}

@@ -25,6 +25,7 @@
    sections — the page stays well under the nginx per-IP burst that used to 429
    a random subset of thumbnails per refresh. */
 
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
@@ -675,6 +676,14 @@ export default async function AllWorksheetsPage({
               {intro}
             </p>
           </header>
+
+          {/* Ready worksheets attract, makers convert: the band follows the selected type, else a shelf of makers. */}
+          <MakerRibbon
+            locale={locale}
+            axes={typeof searchParams?.type === 'string' && searchParams.type
+              ? [{ axis: 'exercise-type', axisKey: searchParams.type }, { axis: 'educational-level', axisKey: 'kindergarten' }]
+              : [{ axis: 'educational-level', axisKey: 'kindergarten' }]}
+          />
 
           {hubRows.length === 0 ? (
             <div className="rounded-xl bg-white border border-lcs-teal/[0.13] p-10 md:p-12 text-center max-w-2xl mx-auto">

@@ -48,12 +48,7 @@ echo "  REFERENCE APPS:         $APPS_COUNT HTML files"
 echo "  REFERENCE TRANSLATIONS: $TRANS_COUNT JS files"
 echo ""
 
-if [ "$APPS_COUNT" -lt 30 ]; then
-    echo "ERROR: REFERENCE APPS has fewer than 30 files!"
-    echo "       Expected 33 worksheet generators."
-    echo "       Aborting to prevent data loss."
-    exit 1
-fi
+# The 33 old apps were removed 2026-11-06 (operator); this script still syncs the shared js.
 
 if [ "$TRANS_COUNT" -lt 30 ]; then
     echo "ERROR: REFERENCE TRANSLATIONS has fewer than 30 files!"
@@ -73,7 +68,7 @@ echo ""
 echo "[STEP 2] Syncing to frontend/public/worksheet-generators..."
 
 mkdir -p "frontend/public/worksheet-generators"
-cp "REFERENCE APPS"/*.html "frontend/public/worksheet-generators/"
+if [ "$APPS_COUNT" -gt 0 ]; then cp "REFERENCE APPS"/*.html "frontend/public/worksheet-generators/"; fi
 COPIED=$(ls -1 "frontend/public/worksheet-generators"/*.html 2>/dev/null | wc -l)
 echo "  Copied $COPIED files to frontend/public/worksheet-generators"
 echo ""

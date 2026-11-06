@@ -1,0 +1,769 @@
+{
+ "counting": {
+  "kw": "Gerador de atividades de contagem",
+  "slug": "gerador-de-atividades-de-contagem",
+  "metaTitle": "Gerador de atividades de contagem – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de contagem com as figuras que a sua turma adora: contar e circular, contar e escrever, cenas para procurar e muito mais. PDF grátis.",
+  "lead": "Crie atividades de contagem com as figuras que a sua turma adora: contar e circular, contar e escrever, cenas para procurar e muito mais. Escolha o nível e o tema, e cada quantidade da folha já vem conferida.",
+  "teaches": [
+   "Contar figuras e encontrar o número certo",
+   "Contar cada tipo em uma cena cheia de detalhes",
+   "Encontrar um a mais, um a menos e a mesma quantidade"
+  ],
+  "moment": "Proponha a cena de procurar em duplas e peça que comparem os números. Quando duas respostas não batem, as crianças contam juntas de novo."
+ },
+ "ten-frames": {
+  "kw": "Gerador de atividades com quadro de dez e tracinhos",
+  "slug": "gerador-de-atividades-com-quadro-de-dez-e-tracinhos",
+  "metaTitle": "Gerador de atividades com quadro de dez e tracinhos | LessonCraftStudio",
+  "metaDescription": "Crie atividades com quadro de dez e marcas de contagem para reconhecer quantidades de relance. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades com quadro de dez e marcas de contagem para reconhecer quantidades de relance. Preencher quadros, ler tracinhos, mostrar cartões rápidos, contar contas no ábaco e completar 10.",
+  "teaches": [
+   "Reconhecer uma quantidade de relance, sem contar de um em um",
+   "Formar 5 e 10 e ver o que falta",
+   "Registrar quantidades com tracinhos"
+  ],
+  "moment": "Como aquecimento, mostre um cartão por dois segundos e pergunte como as crianças viram o número. As respostas delas são a aula de verdade."
+ },
+ "number-sequences": {
+  "kw": "Gerador de atividades de sequências numéricas",
+  "slug": "gerador-de-atividades-de-sequencias-numericas",
+  "metaTitle": "Gerador de atividades de sequências numéricas – grátis | LessonCraftStudio",
+  "metaDescription": "Crie quadros numéricos, sequências para completar e folhas para contar de 2 em 2 ou de 10 em 10, até 1.000. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie quadros numéricos, sequências para completar e folhas para contar de 2 em 2 ou de 10 em 10, até 1.000. Quadros do 100, peças de quebra-cabeça e máquinas de números já estão prontos.",
+  "teaches": [
+   "Contar para frente e para trás a partir de qualquer número",
+   "Contar de 2 em 2, de 5 em 5 e de 10 em 10",
+   "Descobrir padrões no quadro do 100"
+  ],
+  "moment": "Recorte um quadro do 100 em peças e dê uma para cada dupla. As crianças precisam pensar no que vem acima, abaixo e ao lado de cada número."
+ },
+ "number-lines": {
+  "kw": "Gerador de atividades de reta numérica",
+  "slug": "gerador-de-atividades-de-reta-numerica",
+  "metaTitle": "Gerador de atividades de reta numérica – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de reta numérica de 0 a 10 e até 120, com saltos, arredondamento e frações. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de reta numérica de 0 a 10 e até 120, com saltos, arredondamento e frações. Comece com retas numeradas e avance para retas abertas que as crianças desenham.",
+  "teaches": [
+   "Colocar números na reta conforme o valor",
+   "Somar e subtrair com saltos",
+   "Arredondar para a dezena ou centena mais próxima"
+  ],
+  "moment": "Dê a mesma conta em uma reta numerada e em uma reta aberta. A comparação mostra quem ainda conta e quem já salta."
+ },
+ "number-bonds": {
+  "kw": "Gerador de atividades de composição e decomposição",
+  "slug": "gerador-de-atividades-de-composicao-e-decomposicao",
+  "metaTitle": "Gerador de atividades de composição e decomposição | LessonCraftStudio",
+  "metaDescription": "Crie atividades de decomposição, casinhas dos números e famílias de fatos para 5, 10, 20 e 100. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de decomposição, casinhas dos números e famílias de fatos para 5, 10, 20 e 100. As crianças veem como os números se separam e se juntam, e assim as somas ficam na memória.",
+  "teaches": [
+   "Separar um número em duas partes de todos os jeitos",
+   "Ver a adição e a subtração como uma família",
+   "Saber os pares que formam 10"
+  ],
+  "moment": "Esconda algumas fichas sob um copo e mostre o restante. A atividade transforma a mesma pergunta em uma tarefa que cada criança faz sozinha."
+ },
+ "addition-subtraction": {
+  "kw": "Gerador de atividades de adição e subtração",
+  "slug": "gerador-de-atividades-de-adicao-e-subtracao",
+  "metaTitle": "Gerador de atividades de adição e subtração – grátis | LessonCraftStudio",
+  "metaDescription": "Gere atividades de adição e subtração, das contas com figuras até as contas armadas de três algarismos com reagrupamento. PDF grátis para imprimir, com gabarito.",
+  "lead": "Gere atividades de adição e subtração, das contas com figuras até as contas armadas de três algarismos com reagrupamento. Escolha o nível e imprima uma folha nova com gabarito quando precisar.",
+  "teaches": [
+   "Juntar e tirar com figuras e depois com números",
+   "Cálculo mental até 10, 20 e 100",
+   "Contas armadas com reagrupamento"
+  ],
+  "moment": "Imprima duas versões do mesmo nível para cada dupla. Cada criança resolve a sua, depois trocam e conferem com o gabarito."
+ },
+ "doubles-halves": {
+  "kw": "Gerador de atividades de dobro e metade",
+  "slug": "gerador-de-atividades-de-dobro-e-metade",
+  "metaTitle": "Gerador de atividades de dobro e metade – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de dobro e metade até 20, com figuras ou só com números. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de dobro e metade até 20, com figuras ou só com números. Quase dobros, máquinas de números e jogo da memória transformam poucos fatos básicos em um bom hábito de cálculo mental.",
+  "teaches": [
+   "Calcular dobro e metade até 20",
+   "Usar quase dobros como 6 + 7",
+   "Ver que a metade é o inverso do dobro"
+  ],
+  "moment": "Proponha o jogo da memória dos dobros em duplas por cinco minutos depois do recreio. Rodadas curtas e frequentes fixam esses fatos melhor que uma aula longa."
+ },
+ "compare-numbers": {
+  "kw": "Gerador de atividades para comparar números",
+  "slug": "gerador-de-atividades-para-comparar-numeros",
+  "metaTitle": "Gerador de atividades para comparar números – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de comparação, de grupos de figuras com mais e menos até números de quatro algarismos. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de comparação, de grupos de figuras com mais e menos até números de quatro algarismos. As crianças usam os sinais maior que, menor que e igual e colocam números em ordem.",
+  "teaches": [
+   "Comparar grupos de figuras",
+   "Usar os sinais <, > e =",
+   "Ordenar números do menor para o maior"
+  ],
+  "moment": "Comece com o jacaré faminto, depois cubra o jacaré e peça só o sinal. A passagem da figura ao símbolo acontece em uma só folha."
+ },
+ "odd-even": {
+  "kw": "Gerador de atividades de par ou ímpar",
+  "slug": "gerador-de-atividades-de-par-ou-impar",
+  "metaTitle": "Gerador de atividades de par ou ímpar – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de números pares e ímpares que começam com divisão justa e pares de figuras e avançam para o algarismo das unidades e as somas. PDF grátis.",
+  "lead": "Crie atividades de números pares e ímpares que começam com divisão justa e pares de figuras e avançam para o algarismo das unidades e as somas. As crianças descobrem a regra em vez de decorar.",
+  "teaches": [
+   "Formar pares para ver o que sobra",
+   "Ler o algarismo das unidades em números até 100",
+   "Prever se uma soma será par ou ímpar"
+  ],
+  "moment": "Peça primeiro que dividam fichas de verdade entre dois amigos. A folha registra depois o que já descobriram com as mãos."
+ },
+ "place-value": {
+  "kw": "Gerador de atividades de valor posicional",
+  "slug": "gerador-de-atividades-de-valor-posicional",
+  "metaTitle": "Gerador de atividades de valor posicional – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de valor posicional com material dourado, quadros, cartões de algarismos e charadas. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de valor posicional com material dourado, quadros, cartões de algarismos e charadas. Vá de dezenas e unidades até centenas, decomposição e arredondamento para a dezena ou a centena.",
+  "teaches": [
+   "Ler e montar números com dezenas e unidades",
+   "Escrever números decompostos",
+   "Arredondar para a dezena e a centena mais próximas"
+  ],
+  "moment": "Peça que montem o número com material dourado antes de escrever. Depois use a folha de detetive dos algarismos como fechamento."
+ },
+ "multiplication-division": {
+  "kw": "Gerador de atividades de multiplicação e divisão",
+  "slug": "gerador-de-atividades-de-multiplicacao-e-divisao",
+  "metaTitle": "Gerador de atividades de multiplicação e divisão – grátis | LessonCraftStudio",
+  "metaDescription": "Gere atividades de multiplicação e divisão, dos grupos iguais e disposições retangulares até todas as tabuadas e a divisão com resto. PDF grátis.",
+  "lead": "Gere atividades de multiplicação e divisão, dos grupos iguais e disposições retangulares até todas as tabuadas e a divisão com resto. Cartões em argola e tabelas de multiplicação estão incluídos.",
+  "teaches": [
+   "Passar da adição repetida para a disposição retangular e a multiplicação",
+   "Aprender as tabuadas do 2 ao 10",
+   "Repartir, agrupar e trabalhar com resto"
+  ],
+  "moment": "Dê a cada criança a tabuada de que ela precisa, não a da turma. Todas fazem a mesma folha, cada uma com a sua tabuada."
+ },
+ "word-problems": {
+  "kw": "Gerador de atividades de situações-problema",
+  "slug": "gerador-de-atividades-de-situacoes-problema",
+  "metaTitle": "Gerador de atividades de situações-problema – grátis | LessonCraftStudio",
+  "metaDescription": "Crie situações-problema com figuras, de uma e duas etapas, de comparação, multiplicação e divisão. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie situações-problema com figuras, de uma e duas etapas, de comparação, multiplicação e divisão. As crianças leem, escolhem a conta e resolvem.",
+  "teaches": [
+   "Ler a história e encontrar a pergunta",
+   "Escolher a conta certa",
+   "Resolver problemas de uma e duas etapas"
+  ],
+  "moment": "Cubra os números de um problema e pergunte o que acontece na história. Quando as crianças conseguem contar, a operação costuma aparecer sozinha."
+ },
+ "fractions": {
+  "kw": "Gerador de atividades de frações",
+  "slug": "gerador-de-atividades-de-fracoes",
+  "metaTitle": "Gerador de atividades de frações – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de frações: meios, terços e quartos, divisão justa, tiras para recortar, reta numérica e frações equivalentes. PDF grátis.",
+  "lead": "Crie atividades de frações: meios, terços e quartos, divisão justa, tiras para recortar, reta numérica e frações equivalentes. As crianças recortam, pintam e comparam até a fração fazer sentido.",
+  "teaches": [
+   "Dividir figuras em partes iguais",
+   "Nomear, pintar e comparar frações",
+   "Encontrar a fração de um grupo"
+  ],
+  "moment": "Imprima as tiras de frações em papel colorido. As crianças guardam em um envelope e usam em toda aula de frações."
+ },
+ "number-of-the-day": {
+  "kw": "Gerador de atividades do número do dia",
+  "slug": "gerador-de-atividades-do-numero-do-dia",
+  "metaTitle": "Gerador de atividades do número do dia – grátis | LessonCraftStudio",
+  "metaDescription": "Crie folhas do número do dia até 1.000 e atividades de números por extenso. As crianças escrevem, desenham, contam e comparam o mesmo número de muitos jeitos.",
+  "lead": "Crie folhas do número do dia até 1.000 e atividades de números por extenso. As crianças escrevem, desenham, contam e comparam o mesmo número de muitos jeitos.",
+  "teaches": [
+   "Representar um número de muitos jeitos",
+   "Ler e escrever números por extenso",
+   "Encontrar dez a mais e dez a menos"
+  ],
+  "moment": "Deixe uma folha do número do dia em cada mesa pela manhã. Só o número muda, e a rotina anda sozinha."
+ },
+ "ordinal-numbers": {
+  "kw": "Gerador de atividades de números ordinais",
+  "slug": "gerador-de-atividades-de-numeros-ordinais",
+  "metaTitle": "Gerador de atividades de números ordinais – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de números ordinais com corridas, prateleiras, bandeiras e cartões. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de números ordinais com corridas, prateleiras, bandeiras e cartões. As crianças vão do primeiro, segundo e terceiro até o 31º, por extenso e em algarismos.",
+  "teaches": [
+   "Encontrar o primeiro, o segundo e o terceiro em uma fila",
+   "Contar a posição a partir das duas pontas",
+   "Ler e escrever os ordinais"
+  ],
+  "moment": "Faça uma fila de dez crianças na porta e diga uma posição. Depois elas encontram as mesmas palavras impressas na folha da corrida."
+ },
+ "number-tracing": {
+  "kw": "Gerador de atividades de traçado de números",
+  "slug": "gerador-de-atividades-de-tracado-de-numeros",
+  "metaTitle": "Gerador de atividades de traçado de números – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de traçado de números de 0 a 9, de 11 a 20 e até 100, com ponto de início laranja e setas em cada número. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de traçado de números de 0 a 9, de 11 a 20 e até 100, com ponto de início laranja e setas em cada número. Cobrir, contar e escrever na mesma folha.",
+  "teaches": [
+   "Traçar cada número do jeito certo",
+   "Relacionar o número à quantidade",
+   "Escrever números de 11 a 20 e por extenso"
+  ],
+  "moment": "Comece a aula com calma: as crianças contam primeiro as figuras, assim o número sempre representa alguma coisa."
+ },
+ "money": {
+  "kw": "Gerador de atividades com dinheiro",
+  "slug": "gerador-de-atividades-com-dinheiro",
+  "metaTitle": "Gerador de atividades com dinheiro – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades com reais e centavos: contar moedas e notas, fazer compras, dar troco e pagar com o menor número de moedas. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades com reais e centavos: contar moedas e notas, fazer compras, dar troco e pagar com o menor número de moedas. Etiquetas de preço e dinheiro de brincadeira para um mercadinho da sala estão incluídos.",
+  "teaches": [
+   "Reconhecer as moedas e seu valor",
+   "Contar moedas e notas misturadas",
+   "Somar preços e calcular o troco"
+  ],
+  "moment": "Monte um mercadinho no fundo da sala com as etiquetas e o dinheiro de brincadeira. As folhas de compras transformam o que aconteceu ali em problemas escritos."
+ },
+ "telling-time": {
+  "kw": "Gerador de atividades de ver as horas",
+  "slug": "gerador-de-atividades-de-ver-as-horas",
+  "metaTitle": "Gerador de atividades de ver as horas – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de relógio, das horas exatas e meias horas até os cinco minutos, o minuto exato e o tempo decorrido. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de relógio, das horas exatas e meias horas até os cinco minutos, o minuto exato e o tempo decorrido. As crianças leem relógios, desenham os ponteiros e montam o próprio relógio.",
+  "teaches": [
+   "Ler o relógio na hora exata, na meia hora e de cinco em cinco minutos",
+   "Desenhar os ponteiros para uma hora dada",
+   "Calcular quanto tempo passou"
+  ],
+  "moment": "Peça que montem o relógio uma vez e guardem na carteira. As crianças ajustam para cada momento da rotina e conferem com o relógio da sala."
+ },
+ "calendar": {
+  "kw": "Gerador de atividades de calendário",
+  "slug": "gerador-de-atividades-de-calendario",
+  "metaTitle": "Gerador de atividades de calendário – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades dos dias da semana, dos meses do ano, de ontem e amanhã e da leitura de um mês inteiro. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades dos dias da semana, dos meses do ano, de ontem e amanhã e da leitura de um mês inteiro. O gráfico de aniversários e a data de hoje entram na sua rotina da manhã.",
+  "teaches": [
+   "Dizer os dias e os meses em ordem",
+   "Usar ontem, hoje e amanhã",
+   "Ler datas em um calendário"
+  ],
+  "moment": "Preencha com a turma um mês em branco no primeiro dia de aula do mês, com os aniversários. Essa folha vira a referência para qualquer pergunta."
+ },
+ "measurement": {
+  "kw": "Gerador de atividades de medidas",
+  "slug": "gerador-de-atividades-de-medidas",
+  "metaTitle": "Gerador de atividades de medidas – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de medidas, de grande e pequeno até réguas, clipes, jarras medidoras, balanças e termômetros. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de medidas, de grande e pequeno até réguas, clipes, jarras medidoras, balanças e termômetros. As crianças comparam, ordenam e medem com unidades reais.",
+  "teaches": [
+   "Comparar comprimento, altura e massa",
+   "Medir com clipes, cubos e régua",
+   "Ler balanças, jarras e termômetros"
+  ],
+  "moment": "Imprima as réguas para recortar para que cada criança tenha a sua e mande as duplas medirem pela sala."
+ },
+ "graphs-data": {
+  "kw": "Gerador de atividades de gráficos e tabelas",
+  "slug": "gerador-de-atividades-de-graficos-e-tabelas",
+  "metaTitle": "Gerador de atividades de gráficos e tabelas – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades com pictogramas, gráficos de barras e tabelas que as crianças leem e constroem. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades com pictogramas, gráficos de barras e tabelas que as crianças leem e constroem. Elas classificam, contam e respondem perguntas sobre os dados.",
+  "teaches": [
+   "Classificar e contar dados",
+   "Ler pictogramas e gráficos de barras",
+   "Usar uma escala em que uma figura vale mais"
+  ],
+  "moment": "Faça o gráfico da turma com uma pergunta que importa para as crianças e peça que cada uma escreva uma frase verdadeira sobre o resultado."
+ },
+ "shapes-geometry": {
+  "kw": "Gerador de atividades de formas e geometria",
+  "slug": "gerador-de-atividades-de-formas-e-geometria",
+  "metaTitle": "Gerador de atividades de formas e geometria – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de lados, vértices, faces e arestas, figuras planas e sólidos, planificações, simetria e área. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de lados, vértices, faces e arestas, figuras planas e sólidos, planificações, simetria e área. As crianças classificam, desenham, recortam e dobram, em vez de só nomear.",
+  "teaches": [
+   "Reconhecer figuras e sólidos pelas características",
+   "Contar lados, vértices, faces e arestas",
+   "Desenhar formas e explorar área e perímetro"
+  ],
+  "moment": "Mande as crianças caçarem ângulos retos pela sala com um canto de papel dobrado e depois classificarem o que acharam."
+ },
+ "symmetry-grids": {
+  "kw": "Gerador de atividades de simetria e malha quadriculada",
+  "slug": "gerador-de-atividades-de-simetria-e-malha-quadriculada",
+  "metaTitle": "Gerador de atividades de simetria e malha quadriculada | LessonCraftStudio",
+  "metaDescription": "Crie atividades de simetria e cópia em malha em que as crianças completam a outra metade, copiam quadradinho a quadradinho e desenham duas vezes maior. PDF grátis.",
+  "lead": "Crie atividades de simetria e cópia em malha em que as crianças completam a outra metade, copiam quadradinho a quadradinho e desenham duas vezes maior. O olhar atento e a mão firme crescem juntos.",
+  "teaches": [
+   "Completar um desenho pelo eixo de simetria",
+   "Copiar um desenho quadradinho a quadradinho",
+   "Virar, girar e ampliar um desenho"
+  ],
+  "moment": "Use a cópia em malha como tarefa tranquila depois do recreio. As crianças se acalmam logo, e você vê quem se localiza na malha."
+ },
+ "maps-grids": {
+  "kw": "Gerador de atividades de mapas e coordenadas",
+  "slug": "gerador-de-atividades-de-mapas-e-coordenadas",
+  "metaTitle": "Gerador de atividades de mapas e coordenadas – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de mapas com vista de cima, legendas, direções, coordenadas e continentes. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de mapas com vista de cima, legendas, direções, coordenadas e continentes. Caças ao tesouro e batalha naval transformam o treino em jogo.",
+  "teaches": [
+   "Ver um lugar de cima e ler uma legenda",
+   "Usar coordenadas em uma malha",
+   "Usar norte, leste, sul e oeste"
+  ],
+  "moment": "Esconda uma surpresa na sala e peça que escrevam o caminho para um colega seguir."
+ },
+ "patterns": {
+  "kw": "Gerador de atividades de padrões e sequências",
+  "slug": "gerador-de-atividades-de-padroes-e-sequencias",
+  "metaTitle": "Gerador de atividades de padrões e sequências – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de padrões AB, ABC e AABB, padrões que crescem e padrões de números, todos com figuras do seu tema. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de padrões AB, ABC e AABB, padrões que crescem e padrões de números, todos com figuras do seu tema. As crianças continuam, completam e inventam os seus.",
+  "teaches": [
+   "Encontrar o que se repete",
+   "Continuar e completar padrões",
+   "Descrever padrões que crescem e de números"
+  ],
+  "moment": "Peça que batam palmas ou os pés no padrão antes de desenhar. Ouvir costuma ajudar a criança que ainda não enxerga o padrão."
+ },
+ "logic-puzzles": {
+  "kw": "Gerador de atividades de lógica",
+  "slug": "gerador-de-atividades-de-logica",
+  "metaTitle": "Gerador de atividades de lógica – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Gere atividades de lógica: sudoku de figuras e de números, pirâmides de números, grades lógicas, quadrados mágicos e balanças. PDF grátis.",
+  "lead": "Gere atividades de lógica: sudoku de figuras e de números, pirâmides de números, grades lógicas, quadrados mágicos e balanças. Cada desafio tem uma só solução, e os níveis crescem com a turma.",
+  "teaches": [
+   "Raciocinar passo a passo a partir de pistas",
+   "Conferir uma resposta com cada regra",
+   "Persistir até resolver"
+  ],
+  "moment": "Deixe sudokus de figuras para quem termina antes. Eles desafiam sem dar mais do mesmo."
+ },
+ "dot-to-dot": {
+  "kw": "Gerador de atividades de ligue os pontos",
+  "slug": "gerador-de-atividades-de-ligue-os-pontos",
+  "metaTitle": "Gerador de atividades de ligue os pontos – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de ligar pontos para contar até 20, de trás para frente ou de 2 em 2, seguir o alfabeto ou resolver contas. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de ligar pontos para contar até 20, de trás para frente ou de 2 em 2, seguir o alfabeto ou resolver contas. O desenho escondido leva as crianças até o último ponto.",
+  "teaches": [
+   "Dizer a sequência numérica em ordem",
+   "Contar de trás para frente e de 2 em 2",
+   "Seguir o alfabeto em maiúsculas e minúsculas"
+  ],
+  "moment": "Peça que adivinhem o desenho antes de começar e na metade. Elas vão conferir cada número para descobrir."
+ },
+ "color-by-number": {
+  "kw": "Gerador de atividades de pintar por número",
+  "slug": "gerador-de-atividades-de-pintar-por-numero",
+  "metaTitle": "Gerador de atividades de pintar por número – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de pintar por número e por código em que cada cor é uma resposta: somas, subtrações, palavras frequentes, primeiros sons e tabuada. PDF grátis.",
+  "lead": "Crie atividades de pintar por número e por código em que cada cor é uma resposta: somas, subtrações, palavras frequentes, primeiros sons e tabuada. O desenho pronto mostra se está tudo certo.",
+  "teaches": [
+   "Treinar contas com conferência embutida",
+   "Ler com atenção uma legenda de cores",
+   "Trabalhar com calma em uma folha inteira"
+  ],
+  "moment": "Use uma folha de pintar por código na sexta-feira para revisar. Um erro aparece como cor fora do lugar, e muitas vezes a própria criança percebe."
+ },
+ "coloring-pages": {
+  "kw": "Gerador de desenhos para colorir na sala de aula",
+  "slug": "gerador-de-desenhos-para-colorir-na-sala-de-aula",
+  "metaTitle": "Gerador de desenhos para colorir na sala de aula – grátis | LessonCraftStudio",
+  "metaDescription": "Crie desenhos para colorir do nosso banco de imagens, com palavras para cobrir, uma frase para escrever ou uma legenda. PDF grátis para imprimir.",
+  "lead": "Crie desenhos para colorir do nosso banco de imagens, com palavras para cobrir, uma frase para escrever ou uma legenda. Dobre um minilivro de colorir para qualquer tema que estiver trabalhando.",
+  "teaches": [
+   "Desenvolver o controle do lápis e a força da mão",
+   "Ligar figuras a palavras",
+   "Conversar sobre o que está na folha"
+  ],
+  "moment": "Dobre o minilivro no primeiro dia de um tema novo. As crianças levam para casa as palavras que conheceram na aula."
+ },
+ "same-different": {
+  "kw": "Gerador de atividades de igual e diferente",
+  "slug": "gerador-de-atividades-de-igual-e-diferente",
+  "metaTitle": "Gerador de atividades de igual e diferente – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de discriminação visual: achar o diferente, ligar sombras, pares, gêmeos e a peça que falta. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de discriminação visual: achar o diferente, ligar sombras, pares, gêmeos e a peça que falta. Olhar com atenção vem antes de ler e fazer contas.",
+  "teaches": [
+   "Ver o que é igual e o que é diferente",
+   "Ligar formas, sombras e imagens espelhadas",
+   "Prestar atenção em pequenos detalhes"
+  ],
+  "moment": "Pergunte o que é diferente e como as crianças sabem. As razões delas são um primeiro treino de explicar o que pensam."
+ },
+ "position-words": {
+  "kw": "Gerador de atividades de noções espaciais",
+  "slug": "gerador-de-atividades-de-nocoes-espaciais",
+  "metaTitle": "Gerador de atividades de noções espaciais – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de em cima, embaixo, ao lado, esquerda, direita, no alto, no meio e na parte de baixo. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de em cima, embaixo, ao lado, esquerda, direita, no alto, no meio e na parte de baixo. As crianças leem, desenham, colam e escolhem a palavra, e a linguagem de posição vira delas.",
+  "teaches": [
+   "Entender palavras de posição",
+   "Diferenciar esquerda e direita",
+   "Seguir instruções com palavras de posição"
+  ],
+  "moment": "Brinque antes com um ursinho e uma cadeira e depois deixe cada criança colocar o próprio desenho na folha."
+ },
+ "sorting": {
+  "kw": "Gerador de atividades de classificação",
+  "slug": "gerador-de-atividades-de-classificacao",
+  "metaTitle": "Gerador de atividades de classificação – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de classificação com recorte e colagem, tapetes e cartões: alimentos, transportes, desejos e necessidades, profissões. PDF grátis.",
+  "lead": "Crie atividades de classificação com recorte e colagem, tapetes e cartões: alimentos, transportes, desejos e necessidades, profissões. As crianças escolhem uma regra e explicam.",
+  "teaches": [
+   "Agrupar figuras por uma regra",
+   "Identificar o que não pertence ao grupo",
+   "Explicar por que algo entra em um grupo"
+  ],
+  "moment": "Distribua tapetes e cartões e deixe as duplas inventarem uma regra. A outra dupla tem que adivinhar."
+ },
+ "mazes": {
+  "kw": "Gerador de labirintos para imprimir",
+  "slug": "gerador-de-labirintos-para-imprimir",
+  "metaTitle": "Gerador de labirintos para imprimir – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Gere labirintos, dos primeiros caminhos da educação infantil até os gigantes, e também de letras, números, somas e sons iniciais. PDF grátis.",
+  "lead": "Gere labirintos, dos primeiros caminhos da educação infantil até os gigantes, e também de letras, números, somas e sons iniciais. Cada um é resolvido antes de chegar a você: sempre há saída.",
+  "teaches": [
+   "Planejar um caminho e olhar adiante",
+   "Manter um traço firme",
+   "Treinar letras, números e somas no caminho"
+  ],
+  "moment": "Use um labirinto de somas como tarefa da manhã: só se chega ao fim com as respostas certas, a folha se confere sozinha."
+ },
+ "find-the-differences": {
+  "kw": "Gerador de jogo dos sete erros",
+  "slug": "gerador-de-jogo-dos-sete-erros",
+  "metaTitle": "Gerador de jogo dos sete erros – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de jogo dos erros com 3, 5, 7 ou 10 mudanças em cenas de verdade, além de objetos que faltam, mudanças de cor e imagens espelhadas. PDF grátis.",
+  "lead": "Crie atividades de jogo dos erros com 3, 5, 7 ou 10 mudanças em cenas de verdade, além de objetos que faltam, mudanças de cor e imagens espelhadas. A maioria também funciona na tela.",
+  "teaches": [
+   "Percorrer uma imagem com método",
+   "Dizer o que mudou",
+   "Escrever o que está diferente"
+  ],
+  "moment": "Peça que as duplas descrevam uma diferença por vez, sem apontar. Elas precisam achar palavras para dizer onde está e o que mudou."
+ },
+ "how-to-draw": {
+  "kw": "Gerador de atividades de como desenhar",
+  "slug": "gerador-de-atividades-de-como-desenhar",
+  "metaTitle": "Gerador de atividades de como desenhar – grátis | LessonCraftStudio",
+  "metaDescription": "Crie folhas de desenho passo a passo em que cada linha nova aparece colorida. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie folhas de desenho passo a passo em que cada linha nova aparece colorida. As crianças seguem, cobrem, terminam e depois desenham de memória, com folhas de palavras e frases para escrever.",
+  "teaches": [
+   "Separar um desenho em formas simples",
+   "Seguir etapas em ordem",
+   "Escrever sobre o que desenharam"
+  ],
+  "moment": "Faça o primeiro passo com a turma no quadro e deixe que terminem sozinhos. O desenho dá assunto até para quem menos quer escrever."
+ },
+ "tangram": {
+  "kw": "Gerador de atividades de tangram",
+  "slug": "gerador-de-atividades-de-tangram",
+  "metaTitle": "Gerador de atividades de tangram – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de tangram com peças para recortar, sombras para montar e perguntas sobre as formas. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de tangram com peças para recortar, sombras para montar e perguntas sobre as formas. Comece com quebra-cabeças de duas peças e avance para figuras inteiras.",
+  "teaches": [
+   "Girar e encaixar formas",
+   "Ver formas dentro de outras formas",
+   "Planejar antes de colocar uma peça"
+  ],
+  "moment": "Recorte as peças uma vez, guarde em um envelope e mostre uma sombra nova toda semana para alguns minutos tranquilos."
+ },
+ "picture-tracing": {
+  "kw": "Gerador de atividades de desenhos pontilhados",
+  "slug": "gerador-de-atividades-de-desenhos-pontilhados",
+  "metaTitle": "Gerador de atividades de desenhos pontilhados – grátis | LessonCraftStudio",
+  "metaDescription": "Crie desenhos para cobrir, das grandes formas redondas da educação infantil até cenas pontilhadas de cidade para o 1º ano. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie desenhos para cobrir, das grandes formas redondas da educação infantil até cenas pontilhadas de cidade para o 1º ano. Linhas retas, zigue-zagues, espirais e laços viram um desenho de verdade.",
+  "teaches": [
+   "Guiar o lápis por uma linha",
+   "Traçar linhas retas, curvas e laços",
+   "Preparar a mão para escrever letras"
+  ],
+  "moment": "Peça que cubram um desenho grande primeiro com o dedo, depois com giz de cera e por fim com lápis. A mesma folha serve três vezes."
+ },
+ "pre-writing": {
+  "kw": "Gerador de atividades de coordenação motora",
+  "slug": "gerador-de-atividades-de-coordenacao-motora",
+  "metaTitle": "Gerador de atividades de coordenação motora – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de coordenação motora fina com linhas retas, zigue-zagues, ondas, laços e espirais, dos primeiros caminhos até o grafismo avançado. PDF grátis.",
+  "lead": "Crie atividades de coordenação motora fina com linhas retas, zigue-zagues, ondas, laços e espirais, dos primeiros caminhos até o grafismo avançado. Treino de recorte incluído.",
+  "teaches": [
+   "Segurar e guiar o lápis",
+   "Fazer os traços básicos das letras",
+   "Recortar seguindo uma linha"
+  ],
+  "moment": "Coloque a folha em um plástico e use caneta apagável, para a criança repetir o mesmo caminho muitas vezes."
+ },
+ "letter-tracing": {
+  "kw": "Gerador de atividades de traçado de letras",
+  "slug": "gerador-de-atividades-de-tracado-de-letras",
+  "metaTitle": "Gerador de atividades de traçado de letras – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de traçado de letras maiúsculas e minúsculas e do nome de cada criança. Cada folha usa o alfabeto do idioma escolhido.",
+  "lead": "Crie atividades de traçado de letras maiúsculas e minúsculas e do nome de cada criança. Cada folha usa o alfabeto do idioma escolhido.",
+  "teaches": [
+   "Traçar letras maiúsculas e minúsculas",
+   "Ligar cada letra a uma figura",
+   "Escrever o próprio nome"
+  ],
+  "moment": "Imprima o nome de cada criança no primeiro dia. É a palavra que mais importa para ela, e mostra de onde ela parte."
+ },
+ "word-writing": {
+  "kw": "Gerador de atividades de escrita de palavras",
+  "slug": "gerador-de-atividades-de-escrita-de-palavras",
+  "metaTitle": "Gerador de atividades de escrita de palavras – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades para cobrir e escrever palavras: copiar, escrever a partir de uma figura, preencher quadrinhos e legendar. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades para cobrir e escrever palavras: copiar, escrever a partir de uma figura, preencher quadrinhos e legendar. As crianças avançam passo a passo do traçado à escrita autônoma.",
+  "teaches": [
+   "Cobrir e copiar palavras inteiras",
+   "Escrever a partir da figura com cada vez menos ajuda",
+   "Escrever palavras em linhas"
+  ],
+  "moment": "Dê três versões das mesmas palavras: com a primeira letra, com banco de palavras e sem ajuda. Todos escrevem a mesma lista no seu nível."
+ },
+ "cursive": {
+  "kw": "Gerador de atividades de letra cursiva",
+  "slug": "gerador-de-atividades-de-letra-cursiva",
+  "metaTitle": "Gerador de atividades de letra cursiva – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de letra cursiva para letras, ligações, palavras e frases, com o alfabeto cursivo e leitura. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de letra cursiva para letras, ligações, palavras e frases, com o alfabeto cursivo e leitura. As crianças aprendem a ligar as letras e também a ler letra cursiva.",
+  "teaches": [
+   "Formar as letras cursivas",
+   "Ligar as letras com fluência",
+   "Ler cursiva além de escrever"
+  ],
+  "moment": "Dedique cinco minutos a cada manhã à letra do dia. O treino curto e diário deixa as ligações fluentes."
+ },
+ "alphabet": {
+  "kw": "Gerador de atividades do alfabeto",
+  "slug": "gerador-de-atividades-do-alfabeto",
+  "metaTitle": "Gerador de atividades do alfabeto – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades do alfabeto: reconhecer letras, maiúsculas e minúsculas, vogais, ordem alfabética e letra da semana. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades do alfabeto: reconhecer letras, maiúsculas e minúsculas, vogais, ordem alfabética e letra da semana. Cada folha usa o alfabeto do idioma escolhido.",
+  "teaches": [
+   "Reconhecer e nomear as letras",
+   "Relacionar maiúsculas e minúsculas",
+   "Colocar palavras em ordem alfabética"
+  ],
+  "moment": "Comece a segunda-feira com a letra da semana e mande as crianças caçarem essa letra em um livro."
+ },
+ "phonics": {
+  "kw": "Gerador de atividades de consciência fonológica",
+  "slug": "gerador-de-atividades-de-consciencia-fonologica",
+  "metaTitle": "Gerador de atividades de consciência fonológica – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de sons iniciais e finais, dígrafos e encontros consonantais. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de sons iniciais e finais, dígrafos e encontros consonantais. Com caixas de sons, cartões com prendedor e classificações, as crianças treinam com figuras de verdade.",
+  "teaches": [
+   "Ouvir os sons iniciais e finais",
+   "Juntar e contar os sons de uma palavra",
+   "Ler dígrafos e encontros consonantais"
+  ],
+  "moment": "Use as caixas de sons com fichas: a criança empurra uma ficha por som antes de escrever. As mãos tornam os sons visíveis."
+ },
+ "rhyming": {
+  "kw": "Gerador de atividades de palavras que rimam",
+  "slug": "gerador-de-atividades-de-palavras-que-rimam",
+  "metaTitle": "Gerador de atividades de palavras que rimam – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de rimas com pares, jogo da memória, dominós e classificações, feitas com palavras que rimam de verdade em português. PDF grátis.",
+  "lead": "Crie atividades de rimas com pares, jogo da memória, dominós e classificações, feitas com palavras que rimam de verdade em português. As crianças ouvem, ligam e escrevem as próprias rimas.",
+  "teaches": [
+   "Ouvir palavras que rimam",
+   "Achar a palavra que não combina",
+   "Escrever palavras que rimam"
+  ],
+  "moment": "Proponha o jogo da memória das rimas em voz alta: um par só vale se a criança disser as duas palavras."
+ },
+ "syllables": {
+  "kw": "Gerador de atividades de sílabas",
+  "slug": "gerador-de-atividades-de-silabas",
+  "metaTitle": "Gerador de atividades de sílabas – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades para bater palmas, contar, separar e juntar sílabas, além de famílias silábicas. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades para bater palmas, contar, separar e juntar sílabas, além de famílias silábicas. A separação segue o que as crianças aprendem na escola.",
+  "teaches": [
+   "Bater palmas e contar sílabas",
+   "Separar palavras e juntar de novo",
+   "Ler famílias silábicas"
+  ],
+  "moment": "Bata palmas nas palavras com a turma antes de escrever. Uma palavra sentida nas mãos se separa mais fácil."
+ },
+ "sight-words": {
+  "kw": "Gerador de atividades de palavras frequentes",
+  "slug": "gerador-de-atividades-de-palavras-frequentes",
+  "metaTitle": "Gerador de atividades de palavras frequentes – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades para a palavra frequente que você está trabalhando: ler, cobrir, achar, pintar e montar. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades para a palavra frequente que você está trabalhando: ler, cobrir, achar, pintar e montar. Cartões, jogos de dado e escrita arco-íris mantêm o treino vivo.",
+  "teaches": [
+   "Ler palavras frequentes de relance",
+   "Escrever palavras de memória",
+   "Usar palavras frequentes em frases"
+  ],
+  "moment": "Escolha uma palavra para a semana e use uma folha diferente a cada dia: ler, cobrir, achar, usar."
+ },
+ "spelling": {
+  "kw": "Gerador de atividades de ortografia",
+  "slug": "gerador-de-atividades-de-ortografia",
+  "metaTitle": "Gerador de atividades de ortografia – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de ortografia com palavras embaralhadas, letras que faltam, olhar-cobrir-escrever-conferir e alfabeto móvel, além de folhas de regras. PDF grátis.",
+  "lead": "Crie atividades de ortografia com palavras embaralhadas, letras que faltam, olhar-cobrir-escrever-conferir e alfabeto móvel, além de folhas de regras. Treine a regra que a turma está vendo.",
+  "teaches": [
+   "Formar palavras a partir dos sons",
+   "Memorizar com olhar, cobrir, escrever e conferir",
+   "Aplicar regras de ortografia"
+  ],
+  "moment": "Peça que usem o alfabeto móvel antes de escrever. Mover uma letra é mais fácil de desfazer que um traço de lápis, então elas arriscam mais."
+ },
+ "nouns-articles": {
+  "kw": "Gerador de atividades de singular, plural e artigos",
+  "slug": "gerador-de-atividades-de-singular-plural-e-artigos",
+  "metaTitle": "Gerador de atividades de singular, plural e artigos | LessonCraftStudio",
+  "metaDescription": "Crie atividades de singular, plural e o artigo certo, com figuras que as crianças sabem nomear. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de singular, plural e o artigo certo, com figuras que as crianças sabem nomear. Um e muitos, o, a, os, as e folhas de classificação estão aqui.",
+  "teaches": [
+   "Diferenciar um de muitos",
+   "Escrever o plural dos substantivos",
+   "Escolher o artigo certo"
+  ],
+  "moment": "Mostre um lápis, depois três, e peça que a turma diga a palavra. Depois a folha faz o mesmo com figuras."
+ },
+ "grammar": {
+  "kw": "Gerador de atividades de gramática",
+  "slug": "gerador-de-atividades-de-gramatica",
+  "metaTitle": "Gerador de atividades de gramática – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de gramática com substantivos, verbos, adjetivos, pronomes e formas verbais. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de gramática com substantivos, verbos, adjetivos, pronomes e formas verbais. As crianças classificam palavras, mudam frases e acham a forma certa em três níveis.",
+  "teaches": [
+   "Diferenciar substantivos, verbos e adjetivos",
+   "Usar pronomes em frases",
+   "Escolher a forma certa do verbo"
+  ],
+  "moment": "Peça que recortem e classifiquem palavras como jogo antes de fazer no papel. Mover as palavras ajuda a sentir as categorias."
+ },
+ "word-meaning": {
+  "kw": "Gerador de atividades de sinônimos e antônimos",
+  "slug": "gerador-de-atividades-de-sinonimos-e-antonimos",
+  "metaTitle": "Gerador de atividades de sinônimos e antônimos – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de vocabulário com antônimos, sinônimos, palavras derivadas, prefixos e radicais. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de vocabulário com antônimos, sinônimos, palavras derivadas, prefixos e radicais. As folhas com figuras abrem o trabalho e as de frases vão mais longe.",
+  "teaches": [
+   "Achar antônimos e palavras de mesmo sentido",
+   "Reconhecer palavras primitivas e derivadas",
+   "Usar radicais e prefixos para entender uma palavra"
+  ],
+  "moment": "Cole uma escala de palavras na parede e acrescente as que aparecerem nas histórias. Logo as crianças escolhem palavras mais precisas por conta própria."
+ },
+ "sentences": {
+  "kw": "Gerador de atividades de frases",
+  "slug": "gerador-de-atividades-de-frases",
+  "metaTitle": "Gerador de atividades de frases – grátis para imprimir | LessonCraftStudio",
+  "metaDescription": "Crie atividades de frases: ordenar, completar, corrigir maiúsculas e pontuação, fazer perguntas e aumentar uma frase. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de frases: ordenar, completar, corrigir maiúsculas e pontuação, fazer perguntas e aumentar uma frase. As figuras apoiam quem está começando a ler em cada passo.",
+  "teaches": [
+   "Colocar as palavras em ordem",
+   "Começar com maiúscula e terminar com o sinal certo",
+   "Fazer e responder perguntas"
+  ],
+  "moment": "Recorte a frase e deixe que montem primeiro na mesa. Testar as palavras em ordens diferentes já é metade da aula."
+ },
+ "reading": {
+  "kw": "Gerador de atividades de interpretação de texto",
+  "slug": "gerador-de-atividades-de-interpretacao-de-texto",
+  "metaTitle": "Gerador de atividades de interpretação de texto – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de interpretação de texto com histórias curtas e perguntas, folhas de ler e pintar e instruções para seguir. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de interpretação de texto com histórias curtas e perguntas, folhas de ler e pintar e instruções para seguir. As crianças mostram que entenderam fazendo, não só respondendo.",
+  "teaches": [
+   "Ler com atenção aos detalhes",
+   "Seguir instruções escritas",
+   "Responder perguntas sobre uma história curta"
+  ],
+  "moment": "Use uma folha de ler e pintar como conferência tranquila: um olhar para as cores mostra qual frase não foi entendida."
+ },
+ "stories-writing": {
+  "kw": "Gerador de atividades de produção de texto",
+  "slug": "gerador-de-atividades-de-producao-de-texto",
+  "metaTitle": "Gerador de atividades de produção de texto – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de sequência de história e escrita: numerar figuras, planejar uma história, escrever um gibi, um cartão-postal ou uma ficha de animal. PDF grátis.",
+  "lead": "Crie atividades de sequência de história e escrita: numerar figuras, planejar uma história, escrever um gibi, um cartão-postal ou uma ficha de animal. Inícios de frase e bancos de palavras ajudam a começar.",
+  "teaches": [
+   "Colocar acontecimentos em ordem",
+   "Contar início, meio e fim",
+   "Escrever frases sobre uma figura ou um animal"
+  ],
+  "moment": "Peça que contem a história para um colega antes de escrever qualquer palavra. Uma história já contada é mais fácil de escrever."
+ },
+ "me-family-feelings": {
+  "kw": "Gerador de atividades sobre mim, minha família e sentimentos",
+  "slug": "gerador-de-atividades-sobre-mim-minha-familia-e-sentimentos",
+  "metaTitle": "Gerador de atividades sobre mim, minha família e sentimentos | LessonCraftStudio",
+  "metaDescription": "Crie atividades sobre mim, minha família e os sentimentos para o início do ano e os momentos de calma. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades sobre mim, minha família e os sentimentos para o início do ano e os momentos de calma. Rostos, árvores genealógicas e termômetros dão às crianças palavras para o que sentem.",
+  "teaches": [
+   "Nomear sentimentos e vê-los nos rostos",
+   "Falar da família e de quem é quem",
+   "Dizer do que gosta e o que sabe fazer"
+  ],
+  "moment": "Deixe os cartões de sentimentos perto da porta para a chegada. A criança aponta um, e você sabe quem precisa de uma conversa tranquila."
+ },
+ "picture-cards": {
+  "kw": "Gerador de cartões de vocabulário com figuras",
+  "slug": "gerador-de-cartoes-de-vocabulario-com-figuras",
+  "metaTitle": "Gerador de cartões de vocabulário com figuras – grátis | LessonCraftStudio",
+  "metaDescription": "Crie cartões de figuras, cartões de palavras, jogos de memória, etiquetas para o mural de palavras e um dicionário ilustrado sobre qualquer tema. PDF grátis.",
+  "lead": "Crie cartões de figuras, cartões de palavras, jogos de memória, etiquetas para o mural de palavras e um dicionário ilustrado sobre qualquer tema. Os cartões bilíngues colocam dois idiomas lado a lado.",
+  "teaches": [
+   "Aprender palavras novas com figuras",
+   "Relacionar palavras e figuras",
+   "Montar o mural de palavras da turma"
+  ],
+  "moment": "Imprima cartões bilíngues em português e na língua de casa, para que uma criança recém-chegada mostre o que já sabe."
+ },
+ "word-search": {
+  "kw": "Gerador de atividades de caça-palavras para crianças",
+  "slug": "gerador-de-atividades-de-caca-palavras-para-criancas",
+  "metaTitle": "Gerador de atividades de caça-palavras para crianças | LessonCraftStudio",
+  "metaDescription": "Crie caça-palavras para a sala: pistas com figuras para quem está começando a ler, números por extenso, caça-palavras com forma, grades bilíngues e uma mensagem secreta.",
+  "lead": "Crie caça-palavras para a sala: pistas com figuras para quem está começando a ler, números por extenso, caça-palavras com forma, grades bilíngues e uma mensagem secreta.",
+  "teaches": [
+   "Reconhecer palavras pela escrita",
+   "Percorrer linhas e colunas com método",
+   "Revisar o vocabulário de um tema"
+  ],
+  "moment": "Use um caça-palavras com figuras no fim de um tema. Quem ainda não lê todas as palavras acha pelas figuras."
+ },
+ "crossword": {
+  "kw": "Gerador de atividades de palavras cruzadas para crianças",
+  "slug": "gerador-de-atividades-de-palavras-cruzadas-para-criancas",
+  "metaTitle": "Gerador de atividades de palavras cruzadas para crianças | LessonCraftStudio",
+  "metaDescription": "Crie palavras cruzadas para a sala com pistas de figuras, bancos de palavras e cruzadinhas com setas, também bilíngues. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie palavras cruzadas para a sala com pistas de figuras, bancos de palavras e cruzadinhas com setas, também bilíngues. As crianças escrevem cada palavra e a grade confere as letras.",
+  "teaches": [
+   "Escrever palavras letra por letra",
+   "Usar uma figura ou um banco de palavras como pista",
+   "Revisar vocabulário"
+  ],
+  "moment": "Peça que duas crianças dividam uma cruzadinha: uma diz a palavra, a outra escreve."
+ },
+ "secret-code": {
+  "kw": "Gerador de atividades de código secreto",
+  "slug": "gerador-de-atividades-de-codigo-secreto",
+  "metaTitle": "Gerador de atividades de código secreto – grátis | LessonCraftStudio",
+  "metaDescription": "Crie atividades de código secreto em que as crianças decifram códigos de figuras, números e somas para descobrir uma palavra. PDF grátis para imprimir, com gabarito.",
+  "lead": "Crie atividades de código secreto em que as crianças decifram códigos de figuras, números e somas para descobrir uma palavra. Elas podem até criar o próprio código para um amigo.",
+  "teaches": [
+   "Usar uma chave para decifrar",
+   "Treinar letras ou contas com um objetivo",
+   "Ler uma palavra escondida"
+  ],
+  "moment": "Escreva a surpresa de amanhã em código no quadro. Todo mundo vai querer resolver."
+ },
+ "bingo": {
+  "kw": "Gerador de bingo para a sala de aula",
+  "slug": "gerador-de-bingo-para-a-sala-de-aula",
+  "metaTitle": "Gerador de bingo para a sala de aula – grátis | LessonCraftStudio",
+  "metaDescription": "Crie bingos para a sala com figuras, palavras frequentes, sons, números por extenso, formas, somas e relógios. PDF grátis para imprimir.",
+  "lead": "Crie bingos para a sala com figuras, palavras frequentes, sons, números por extenso, formas, somas e relógios. Cada jogo vem com as cartas para sortear, e dá para jogar em minutos.",
+  "teaches": [
+   "Ouvir e relacionar rápido",
+   "Revisar palavras, sons ou contas",
+   "Esperar a vez em um jogo em grupo"
+  ],
+  "moment": "Deixe uma criança cantar as cartas quando a turma já conhecer o jogo. Ler em voz alta já é um bom treino."
+ }
+}

@@ -207,6 +207,9 @@ node scripts/makers/install-release.js || { echo "ERROR: the staged worksheet-ma
 if [ -f /var/www/lcs-media/makers/versions.json ]; then
     echo "🔎 Worksheet makers registration check..."
     node scripts/makers/gates/registration.js --served=/var/www/lcs-media/makers || { echo "ERROR: a released worksheet maker is incompletely registered — see scripts/makers/gates/registration.js"; exit 1; }
+    # the makers' public pages: 647 pairs, unique metadata, no raw token, no near-duplicate page, old landings' words unchanged
+    echo "🔎 Worksheet maker landings check..."
+    node scripts/makers/gates/landings.js || { echo "ERROR: a worksheet maker landing fails its gate — see scripts/makers/gates/landings.js"; exit 1; }
 fi
 
 # 2. Navigate to frontend

@@ -1,0 +1,202 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Getallendetective",
+   "Het getal is van 1 tot en met 50. Lees de aanwijzingen en schrijf het getal op dat bij alle aanwijzingen past."
+  ],
+  "G3-472": [
+   "Kooipuzzels 4 × 4",
+   "In elke rij en elke kolom staan 1, 2, 3 en 4 precies één keer. De getallen in een kooi met dikke rand zijn samen het kleine getal in de hoek."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Kleuren op nummer: Schaap op de boerderij",
+   "Kleur elk deel met de kleur van zijn nummer."
+  ],
+  "K-394": [
+   "Kleuren op nummer: Hert",
+   "Kleur elk deel met de kleur van zijn nummer."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Spring in ABC-volgorde door de honingraat",
+   "Begin in het vakje waar de pijl naar wijst. Kleur de volgende letter van het alfabet in een vakje ernaast, tot aan de S."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Zoek de 5 verschillen: Zwaan op de vijver",
+   "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+  ],
+  "K-397": [
+   "Zoek de 3 verschillen: Kalkoen op de boerderij",
+   "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Hoe teken je een schildpad: stap voor stap",
+   "Kijk naar de genummerde stappen en teken de tekening in het grote vak: eerst de omtrek, dan de nieuwe lijnen die je in elke stap ziet."
+  ],
+  "K-401": [
+   "Een wasbeer tekenen met simpele vormen",
+   "Trek de gestippelde vormen in het vak over en maak de tekening af met de nieuwe lijnen van elke stap."
+  ],
+  "K-402": [
+   "Een trommel overtrekken en dan zelf tekenen",
+   "Trek de grijze tekening over met je potlood en teken hem daarna zelf in het lege vak ernaast."
+  ],
+  "K-403": [
+   "Maak de tekening af: een dinosaurus",
+   "Kijk naar de hele tekening, teken de lijnen die bij de tweede tekening ontbreken en maak daarna onderaan je eigen tekening."
+  ],
+  "K-404": [
+   "Een geit tekenen en het woord schrijven",
+   "Teken de tekening met de stappen in het vak, trek dan het woord eronder over en schrijf het nog een keer."
+  ],
+  "G1-416": [
+   "Een pauw tekenen met een raster",
+   "Kijk naar de tekening in het raster, teken hem hokje voor hokje na in het lege raster en daarna nog een keer zonder raster."
+  ],
+  "G1-417": [
+   "Een stokstaartje in het plaatje tekenen",
+   "Volg de stappen en teken dan wat er in het plaatje ontbreekt, op een lege plek."
+  ],
+  "G1-418": [
+   "Zet de stappen op volgorde: een varken tekenen",
+   "De stappen staan door elkaar: schrijf 1 tot en met 5 in de vakjes ernaast, in de goede volgorde, en teken dan de tekening in het grote vak."
+  ],
+  "G1-419": [
+   "Teken elke stap na: een nijlpaard",
+   "Teken in elk vak wat je in de stap erboven ziet, steeds met de nieuwe lijnen erbij, en teken daarna de hele tekening groter in het vak onderaan."
+  ],
+  "G2-390": [
+   "Teken een bij en schrijf erover",
+   "Teken de tekening met de stappen en schrijf dan drie zinnen over je tekening op de lijnen; begin met de woorden die er al staan."
+  ],
+  "G2-391": [
+   "Een zandkasteel uit je hoofd tekenen",
+   "Kijk goed naar de tekening, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Letter van de week: Kk",
+   "Trek de hoofdletter en de kleine letter na, omcirkel de vier plaatjes die met de k beginnen en schrijf dan een rij van elke letter."
+  ],
+  "K-325": [
+   "Woorden met de k: waar hoor je de k?",
+   "Trek de letter na en omcirkel de vier plaatjes waarin je de k ergens in het woord hoort, maar niet vooraan."
+  ],
+  "K-326": [
+   "Vooraan, in het midden of achteraan: waar hoor je de k?",
+   "Zeg elk woord. Kleur het vakje dat laat zien waar je de k hoort: vooraan, in het midden of achteraan."
+  ],
+  "K-327": [
+   "Omcirkel de k in de woorden en tel",
+   "Zoek in elk woord elke K of k en omcirkel die. Schrijf in het vakje hoeveel je er hebt gevonden."
+  ],
+  "K-328": [
+   "Begint het met de K of de G? Kies de goede letter",
+   "Zeg elk woord. Omcirkel de letter waarmee het begint: k of g."
+  ],
+  "G1-311": [
+   "Klank van de week: oe",
+   "Trek de oe na, omcirkel de vier plaatjes waarin je de klank oe hoort en schrijf dan een rij."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Woord van de dag: ik",
+   "Lees het woord. Trek het over, schrijf het zelf en gebruik het in zinnen."
+  ],
+  "K-389": [
+   "Flitswoorden in zinnen: ik",
+   "Lees elke zin. Schrijf het woord ‘ik’ op de lijn."
+  ],
+  "K-390": [
+   "Een zin met ik",
+   "Werk stap voor stap met één zin."
+  ],
+  "K-391": [
+   "Zinnen overtrekken: ik",
+   "Trek elke zin over. Schrijf hem daarna op de lijn eronder."
+  ],
+  "K-392": [
+   "Zoek het woord: ik",
+   "Kleur elk vakje met het woord ‘ik’. Tel ze en schrijf het getal op."
+  ],
+  "K-433": [
+   "Lezen, overtrekken, schrijven: ik",
+   "Lees het woord. Trek het over. Schrijf het. Schrijf het dan in elke zin."
+  ],
+  "K-434": [
+   "Woord en zin overtrekken: ik",
+   "Trek het woord over. Trek dan de zin over op elke regel."
+  ],
+  "K-435": [
+   "Lezen en tekenen: ik",
+   "Lees de zin. Trek hem over. Teken dan wat de zin zegt."
+  ],
+  "K-436": [
+   "Zoek en tel: ik",
+   "Omcirkel het woord ‘ik’ elke keer dat je het ziet. Hoe vaak heb je het gevonden?"
+  ],
+  "K-438": [
+   "Bouw het woord: ik",
+   "Knip de letters uit. Plak ze in de goede volgorde om het woord te maken."
+  ],
+  "K-439": [
+   "Regenboogschrijven: ik",
+   "Trek elk woord drie keer over, elke keer met een andere kleur. Schrijf het dan."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Spellingregel van de week: d of t aan het eind: verlengen",
+   "Lees de regel in het kader. Zeg het woord bij elk plaatje en schrijf de ontbrekende letters van de regel in de stippelvakjes."
+  ],
+  "G2-324": [
+   "Welke is het? d of t",
+   "Kijk naar het plaatje en lees het woord. Omcirkel de goede letters eronder en schrijf ze daarna in het stippelvakje."
+  ],
+  "G2-325": [
+   "Spellingdetective: d of t aan het eind: verlengen",
+   "Lees elk woord. Zoek de letters van de regel, omcirkel ze in het woord en schrijf ze dan over in het kleine vakje."
+  ],
+  "G2-326": [
+   "Sorteer op spellingregel: d of t",
+   "Zeg het woord bij elk plaatje. Schrijf het in de bak van zijn spelling, één woord per lijn."
+  ],
+  "G2-327": [
+   "Schrijf het hele woord: d of t aan het eind: verlengen",
+   "De letters van de regel staan al in het oranje. Zeg het woord bij het plaatje en schrijf alle andere letters in de hokjes."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Dierenpaspoort: Egel",
+   "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+  ],
+  "G2-339": [
+   "Dierenpaspoort Egel: kies de juiste weetjes",
+   "Lees in elke rij de keuzes en omcirkel de keuze die klopt voor dit dier. Teken daarna waar het leeft en maak de zin af."
+  ],
+  "G2-340": [
+   "Dierenpaspoort Egel met woordenbank",
+   "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+  ],
+  "G2-341": [
+   "Dierenpaspoort Egel: schrijf drie zinnen",
+   "Lees het paspoort. Maak de drie zinnen af met weetjes uit het paspoort en schrijf op de laatste lijn nog één weetje van jezelf."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Tweetalige woordkaartjes: Nederlands en Engels",
+   "Knip de acht kaartjes uit. Zeg het woord in het Nederlands en dan in het Engels en bewaar de kaartjes voor je woordmuur."
+  ]
+ }
+}

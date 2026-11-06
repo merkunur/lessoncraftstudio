@@ -55,7 +55,8 @@ function main() {
   }
   for (const m of MAKERS) for (const id of m.extraIds || []) if (byId.get(id) && byId.get(id).science) errors.push(`${m.id}: ${id} is a science type`);
   for (const app of OLD_APPS) if (!MAKERS.some((m) => m.oldApps.includes(app))) errors.push(`old app ${app} is mapped to no maker`);
-  for (const m of MAKERS) for (const a of m.oldApps) if (!OLD_APPS.includes(a)) errors.push(`${m.id}: old app "${a}" does not exist`);
+  // The old apps were removed 2026-11-06: an empty folder means the mapping is history, not an error.
+  if (OLD_APPS.length) for (const m of MAKERS) for (const a of m.oldApps) if (!OLD_APPS.includes(a)) errors.push(`${m.id}: old app "${a}" does not exist`);
   for (const m of MAKERS) if (!templatesOf.get(m.id).length && !(m.newTemplates || []).length) errors.push(`${m.id}: no templates at all`);
 
   const inScope = inv.filter((r) => !r.science).length;

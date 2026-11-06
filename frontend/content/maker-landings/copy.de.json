@@ -1,0 +1,769 @@
+{
+ "counting": {
+  "kw": "Zählen: Arbeitsblätter erstellen",
+  "slug": "zaehlen-arbeitsblaetter-erstellen",
+  "metaTitle": "Zählen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Zählen mit Bildern, die Ihre Klasse mag: zählen und einkreisen, zählen und schreiben, Suchbilder und vieles mehr. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Zählen mit Bildern, die Ihre Klasse mag: zählen und einkreisen, zählen und schreiben, Suchbilder und vieles mehr. Wählen Sie Stufe und Thema, und jede Anzahl auf dem Blatt ist bereits geprüft.",
+  "teaches": [
+   "Bilder zählen und die passende Zahl finden",
+   "In einem Wimmelbild jede Sorte einzeln zählen",
+   "Eins mehr, eins weniger und gleich viele erkennen"
+  ],
+  "moment": "Lassen Sie Kinder das Suchbild zu zweit bearbeiten und danach die Zahlen vergleichen. Stimmen zwei Ergebnisse nicht überein, zählen beide gemeinsam noch einmal."
+ },
+ "ten-frames": {
+  "kw": "Zehnerfeld und Strichliste: Arbeitsblätter erstellen",
+  "slug": "zehnerfeld-und-strichliste-arbeitsblaetter-erstellen",
+  "metaTitle": "Zehnerfeld und Strichliste: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter mit Zehnerfeld und Strichliste, die das Erfassen von Mengen auf einen Blick schulen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter mit Zehnerfeld und Strichliste, die das Erfassen von Mengen auf einen Blick schulen. Felder füllen, Striche lesen, Blitzblick-Karten zeigen, Perlen am Rechenrahmen zählen und bis 10 ergänzen.",
+  "teaches": [
+   "Mengen auf einen Blick erfassen, ohne einzeln zu zählen",
+   "Die 5 und die 10 bilden und sehen, was fehlt",
+   "Anzahlen mit Strichlisten festhalten"
+  ],
+  "moment": "Zeigen Sie zum Einstieg eine Karte zwei Sekunden lang und fragen Sie, wie die Kinder die Zahl gesehen haben. Ihre Antworten sind der eigentliche Unterricht."
+ },
+ "number-sequences": {
+  "kw": "Zahlenfolgen und Hundertertafel: Arbeitsblätter erstellen",
+  "slug": "zahlenfolgen-und-hundertertafel-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahlenfolgen und Hundertertafel: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Zahlentafeln, Zahlenreihen mit Lücken und Blätter zum Weiterzählen in Schritten, von 10 bis 1.000. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Zahlentafeln, Zahlenreihen mit Lücken und Blätter zum Weiterzählen in Schritten, von 10 bis 1.000. Hundertertafeln, Puzzleteile, Sprungrätsel und Zahlenmaschinen stehen bereit.",
+  "teaches": [
+   "Von jeder Zahl aus vorwärts und rückwärts zählen",
+   "In Zweier-, Dreier-, Vierer-, Fünfer- und Zehnerschritten zählen",
+   "Muster in der Hundertertafel entdecken"
+  ],
+  "moment": "Zerschneiden Sie eine Hundertertafel in Puzzleteile und geben Sie jedem Paar eins. Die Kinder müssen überlegen, was über, unter und neben jeder Zahl steht."
+ },
+ "number-lines": {
+  "kw": "Zahlenstrahl: Arbeitsblätter erstellen",
+  "slug": "zahlenstrahl-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahlenstrahl: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Zahlenstrahl von 0 bis 10 und weiter bis 120, mit Sprüngen, Runden und Brüchen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Zahlenstrahl von 0 bis 10 und weiter bis 120, mit Sprüngen, Runden und Brüchen. Beginnen Sie mit vollständig beschrifteten Strahlen und gehen Sie weiter zum leeren Zahlenstrahl.",
+  "teaches": [
+   "Zahlen ihrer Größe nach am Strahl einordnen",
+   "Mit Sprüngen addieren und subtrahieren",
+   "Auf den nächsten Zehner oder Hunderter runden"
+  ],
+  "moment": "Geben Sie dieselbe Aufgabe einmal am beschrifteten und einmal am leeren Zahlenstrahl. Der Vergleich zeigt Ihnen, wer noch zählt und wer schon springt."
+ },
+ "number-bonds": {
+  "kw": "Zahlzerlegung und Zahlenhäuser: Arbeitsblätter erstellen",
+  "slug": "zahlzerlegung-und-zahlenhaeuser-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahlzerlegung und Zahlenhäuser: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zur Zahlzerlegung, Zahlenhäuser und Aufgabenfamilien für 5, 10, 20 und 100. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zur Zahlzerlegung, Zahlenhäuser und Aufgabenfamilien für 5, 10, 20 und 100. Die Kinder sehen, wie sich Zahlen zerlegen und zusammensetzen lassen, und so bleiben die Plusaufgaben im Kopf.",
+  "teaches": [
+   "Eine Zahl auf alle Arten in zwei Teile zerlegen",
+   "Plus- und Minusaufgaben als eine Aufgabenfamilie sehen",
+   "Die Zahlenpaare zur 10 sicher kennen"
+  ],
+  "moment": "Verstecken Sie einige Plättchen unter einem Becher und zeigen Sie den Rest. Das passende Blatt macht aus derselben Frage eine Aufgabe, die Kinder allein lösen können."
+ },
+ "addition-subtraction": {
+  "kw": "Addition und Subtraktion: Arbeitsblätter erstellen",
+  "slug": "addition-und-subtraktion-arbeitsblaetter-erstellen",
+  "metaTitle": "Addition und Subtraktion: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Addition und Subtraktion, von Bildaufgaben bis zum schriftlichen Rechnen mit dreistelligen Zahlen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Addition und Subtraktion, von Bildaufgaben bis zum schriftlichen Rechnen mit dreistelligen Zahlen. Wählen Sie die Stufe und drucken Sie jederzeit ein neues Blatt mit Lösungen.",
+  "teaches": [
+   "Mit Bildern und dann mit Zahlen plus und minus rechnen",
+   "Kopfrechnen im Zahlenraum bis 10, 20 und 100",
+   "Schriftlich addieren und subtrahieren mit Übertrag"
+  ],
+  "moment": "Drucken Sie für Partnerkinder zwei Versionen derselben Stufe. Jedes Kind löst sein Blatt, dann tauschen sie und kontrollieren einander mit den Lösungen."
+ },
+ "doubles-halves": {
+  "kw": "Verdoppeln und Halbieren: Arbeitsblätter erstellen",
+  "slug": "verdoppeln-und-halbieren-arbeitsblaetter-erstellen",
+  "metaTitle": "Verdoppeln und Halbieren: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Verdoppeln und Halbieren bis 20, mit Bildern oder nur mit Zahlen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Verdoppeln und Halbieren bis 20, mit Bildern oder nur mit Zahlen. Nachbaraufgaben, Zahlenmaschinen und Memory-Karten machen aus wenigen Aufgaben eine sichere Kopfrechenroutine.",
+  "teaches": [
+   "Zahlen bis 20 verdoppeln und halbieren",
+   "Nachbaraufgaben wie 6 + 7 nutzen",
+   "Erkennen, dass Halbieren das Verdoppeln umkehrt"
+  ],
+  "moment": "Lassen Sie die Kinder das Memory nach der Pause fünf Minuten zu zweit spielen. Kurze, häufige Runden festigen diese Aufgaben schneller als eine lange Stunde."
+ },
+ "compare-numbers": {
+  "kw": "Zahlen vergleichen: Arbeitsblätter erstellen",
+  "slug": "zahlen-vergleichen-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahlen vergleichen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Vergleichen, von Bildgruppen mit mehr und weniger bis zu vierstelligen Zahlen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Vergleichen, von Bildgruppen mit mehr und weniger bis zu vierstelligen Zahlen. Die Kinder nutzen die Zeichen größer, kleiner und gleich und bringen Zahlen in die richtige Reihenfolge.",
+  "teaches": [
+   "Bildgruppen miteinander vergleichen",
+   "Die Zeichen <, > und = verwenden",
+   "Zahlen der Größe nach ordnen"
+  ],
+  "moment": "Beginnen Sie mit dem hungrigen Krokodil, decken Sie es dann ab und fragen Sie nur nach dem Zeichen. Der Schritt vom Bild zum Symbol passiert auf einem Blatt."
+ },
+ "odd-even": {
+  "kw": "Gerade und ungerade Zahlen: Arbeitsblätter erstellen",
+  "slug": "gerade-und-ungerade-zahlen-arbeitsblaetter-erstellen",
+  "metaTitle": "Gerade und ungerade Zahlen: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu geraden und ungeraden Zahlen, die mit gerechtem Teilen und Bildpaaren beginnen und dann zu Zahlwörtern, Einerstelle und Summen führen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu geraden und ungeraden Zahlen, die mit gerechtem Teilen und Bildpaaren beginnen und dann zu Zahlwörtern, Einerstelle und Summen führen. Die Kinder finden die Regel selbst, statt sie auswendig zu lernen.",
+  "teaches": [
+   "Dinge zu Paaren ordnen und sehen, was übrig bleibt",
+   "An der Einerstelle gerade und ungerade Zahlen erkennen",
+   "Vorhersagen, ob eine Summe gerade oder ungerade ist"
+  ],
+  "moment": "Lassen Sie die Kinder erst mit echten Plättchen gerecht an zwei Freunde verteilen. Das Blatt hält dann fest, was sie mit den Händen schon herausgefunden haben."
+ },
+ "place-value": {
+  "kw": "Stellenwert und Runden: Arbeitsblätter erstellen",
+  "slug": "stellenwert-und-runden-arbeitsblaetter-erstellen",
+  "metaTitle": "Stellenwert und Runden: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Stellenwert mit Zehnersystem-Material, Stellenwerttafeln, Ziffernkarten und Zahlenrätseln. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Stellenwert mit Zehnersystem-Material, Stellenwerttafeln, Ziffernkarten und Zahlenrätseln. Von Zehnern und Einern geht es zu Hundertern, zur Stellenwertschreibweise und zum Runden auf Zehner oder Hunderter.",
+  "teaches": [
+   "Zahlen mit Zehnern und Einern lesen und legen",
+   "Zahlen in Stellenwerte zerlegen",
+   "Auf den nächsten Zehner und Hunderter runden"
+  ],
+  "moment": "Lassen Sie die Kinder die Zahl zuerst mit echtem Material legen und dann aufschreiben. Ein Blatt zur Ziffernsuche eignet sich danach gut als Abschlusskontrolle."
+ },
+ "multiplication-division": {
+  "kw": "Einmaleins und Teilen: Arbeitsblätter erstellen",
+  "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+  "metaTitle": "Einmaleins und Teilen: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Multiplizieren und Dividieren, von gleich großen Gruppen und Punktefeldern bis zu allen Einmaleinsreihen und Division mit Rest.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Multiplizieren und Dividieren, von gleich großen Gruppen und Punktefeldern bis zu allen Einmaleinsreihen und Division mit Rest. Karten am Ring und Einmaleins-Tafeln sind dabei.",
+  "teaches": [
+   "Von der wiederholten Addition zu Punktefeld und Malaufgabe",
+   "Die Einmaleinsreihen von 2 bis 10 lernen",
+   "Verteilen, Aufteilen und mit Rest rechnen"
+  ],
+  "moment": "Geben Sie jedem Kind die Reihe, die es gerade braucht, nicht die, bei der die Klasse steht. Alle arbeiten am gleichen Blatttyp, jedes an seiner Reihe."
+ },
+ "word-problems": {
+  "kw": "Sachaufgaben: Arbeitsblätter erstellen",
+  "slug": "sachaufgaben-arbeitsblaetter-erstellen",
+  "metaTitle": "Sachaufgaben: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter mit Sachaufgaben: mit Bildern, in einem oder zwei Schritten, zum Vergleichen und zum Malnehmen und Teilen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter mit Sachaufgaben: mit Bildern, in einem oder zwei Schritten, zum Vergleichen und zum Malnehmen und Teilen. Die Kinder lesen, wählen die passende Rechnung und lösen sie.",
+  "teaches": [
+   "Eine Geschichte lesen und die Frage finden",
+   "Die passende Rechnung auswählen",
+   "Aufgaben in einem und in zwei Schritten lösen"
+  ],
+  "moment": "Decken Sie die Zahlen einer Aufgabe ab und fragen Sie, was in der Geschichte passiert. Wenn Kinder das erzählen können, ergibt sich die Rechenart oft von selbst."
+ },
+ "fractions": {
+  "kw": "Brüche: Arbeitsblätter erstellen",
+  "slug": "brueche-arbeitsblaetter-erstellen",
+  "metaTitle": "Brüche: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Brüchen: Halbe, Drittel und Viertel, gerechtes Teilen, Bruchstreifen, Zahlenstrahl und gleichwertige Brüche. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Brüchen: Halbe, Drittel und Viertel, gerechtes Teilen, Bruchstreifen, Zahlenstrahl und gleichwertige Brüche. Die Kinder schneiden, färben und vergleichen, bis ein Bruch etwas bedeutet.",
+  "teaches": [
+   "Formen in gleich große Teile zerlegen",
+   "Brüche benennen, färben und vergleichen",
+   "Den Bruchteil einer Gruppe bestimmen"
+  ],
+  "moment": "Drucken Sie die Bruchstreifen auf farbiges Papier. Die Kinder bewahren sie in einem Umschlag auf und nutzen sie danach in jeder Bruchstunde."
+ },
+ "number-of-the-day": {
+  "kw": "Zahl des Tages und Zahlwörter: Arbeitsblätter erstellen",
+  "slug": "zahl-des-tages-und-zahlwoerter-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahl des Tages und Zahlwörter: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Blätter zur Zahl des Tages bis 1.000 und Arbeitsblätter zu Zahlwörtern. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Blätter zur Zahl des Tages bis 1.000 und Arbeitsblätter zu Zahlwörtern. Die Kinder schreiben, zeichnen, zählen und vergleichen dieselbe Zahl auf viele Arten.",
+  "teaches": [
+   "Eine Zahl auf viele Arten darstellen",
+   "Zahlwörter lesen und schreiben",
+   "Zehn mehr und zehn weniger finden"
+  ],
+  "moment": "Legen Sie jeden Morgen ein Blatt zur Zahl des Tages auf die Tische. Nur die Zahl wechselt, das Ritual läuft von allein."
+ },
+ "ordinal-numbers": {
+  "kw": "Ordnungszahlen: Arbeitsblätter erstellen",
+  "slug": "ordnungszahlen-arbeitsblaetter-erstellen",
+  "metaTitle": "Ordnungszahlen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Ordnungszahlen mit Wettrennen, Regalen, Fahnen und Karten. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Ordnungszahlen mit Wettrennen, Regalen, Fahnen und Karten. Die Kinder kommen vom Ersten, Zweiten und Dritten bis zu den Tagen des Monats, in Worten und in Ziffern.",
+  "teaches": [
+   "In einer Reihe den Ersten, Zweiten und Dritten finden",
+   "Die Position von beiden Enden aus zählen",
+   "Ordnungszahlen lesen und schreiben"
+  ],
+  "moment": "Stellen Sie zehn Kinder an der Tür auf und nennen Sie eine Position. Danach begegnen ihnen dieselben Wörter auf dem Wettrennen-Blatt gedruckt wieder."
+ },
+ "number-tracing": {
+  "kw": "Zahlen schreiben: Arbeitsblätter erstellen",
+  "slug": "zahlen-schreiben-arbeitsblaetter-erstellen",
+  "metaTitle": "Zahlen schreiben: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Zahlenschreiben von 0 bis 9, von 11 bis 20 und bis 100, mit orangefarbenem Startpunkt und Pfeilen an jeder Ziffer.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Zahlenschreiben von 0 bis 9, von 11 bis 20 und bis 100, mit orangefarbenem Startpunkt und Pfeilen an jeder Ziffer. Nachspuren, zählen und schreiben auf einem Blatt.",
+  "teaches": [
+   "Jede Ziffer richtig schreiben",
+   "Ziffern einer Menge zuordnen",
+   "Zahlen ab 11 und Zahlwörter schreiben"
+  ],
+  "moment": "Beginnen Sie die Mathestunde ruhig mit Zählen und Nachspuren: Die Kinder zählen zuerst die Bilder, so steht die Ziffer immer für etwas."
+ },
+ "money": {
+  "kw": "Rechnen mit Geld: Arbeitsblätter erstellen",
+  "slug": "rechnen-mit-geld-arbeitsblaetter-erstellen",
+  "metaTitle": "Rechnen mit Geld: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Rechnen mit Euro und Cent: Münzen und Scheine zählen, einkaufen, Wechselgeld berechnen und mit möglichst wenigen Münzen bezahlen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Rechnen mit Euro und Cent: Münzen und Scheine zählen, einkaufen, Wechselgeld berechnen und mit möglichst wenigen Münzen bezahlen. Preisschilder und Spielgeld für den Kaufladen in der Klasse sind dabei.",
+  "teaches": [
+   "Münzen und ihren Wert kennen",
+   "Gemischte Münzen und Scheine zählen",
+   "Preise addieren und Wechselgeld berechnen"
+  ],
+  "moment": "Bauen Sie mit den Preisschildern und dem Spielgeld einen Laden auf. Die Einkaufsblätter machen danach aus dem, was im Laden passiert ist, schriftliche Aufgaben."
+ },
+ "telling-time": {
+  "kw": "Uhrzeit lesen: Arbeitsblätter erstellen",
+  "slug": "uhrzeit-lesen-arbeitsblaetter-erstellen",
+  "metaTitle": "Uhrzeit lesen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zur Uhr, von vollen und halben Stunden über Fünf-Minuten-Schritte bis zur Minute und zu Zeitspannen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zur Uhr, von vollen und halben Stunden über Fünf-Minuten-Schritte bis zur Minute und zu Zeitspannen. Die Kinder lesen Uhren ab, zeichnen Zeiger ein und basteln ihre eigene Uhr.",
+  "teaches": [
+   "Volle und halbe Stunden und Fünf-Minuten-Schritte an der Uhr ablesen",
+   "Zeiger für eine vorgegebene Zeit einzeichnen",
+   "Ausrechnen, wie viel Zeit vergangen ist"
+  ],
+  "moment": "Lassen Sie jedes Kind einmal seine eigene Uhr basteln und im Fach aufbewahren. Die Kinder stellen sie zum Tagesablauf ein und vergleichen mit der Klassenuhr."
+ },
+ "calendar": {
+  "kw": "Kalender, Wochentage und Monate: Arbeitsblätter erstellen",
+  "slug": "kalender-wochentage-und-monate-arbeitsblaetter-erstellen",
+  "metaTitle": "Kalender, Wochentage und Monate: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Wochentagen, Monaten, gestern und morgen und zum Lesen eines ganzen Monats. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Wochentagen, Monaten, gestern und morgen und zum Lesen eines ganzen Monats. Geburtstagsdiagramm und Tagesdatum passen in Ihr Morgenritual.",
+  "teaches": [
+   "Tage und Monate in der richtigen Reihenfolge nennen",
+   "Gestern, heute und morgen verwenden",
+   "Daten im Kalender ablesen"
+  ],
+  "moment": "Füllen Sie am ersten Schultag des Monats gemeinsam ein leeres Monatsblatt aus, mit allen Geburtstagen. Es wird zur Vorlage für jede Kalenderfrage."
+ },
+ "measurement": {
+  "kw": "Größen und Messen: Arbeitsblätter erstellen",
+  "slug": "groessen-und-messen-arbeitsblaetter-erstellen",
+  "metaTitle": "Größen und Messen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Messen, von groß und klein bis zu Lineal, Büroklammern, Messbechern, Waagen und Thermometern. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Messen, von groß und klein bis zu Lineal, Büroklammern, Messbechern, Waagen und Thermometern. Die Kinder vergleichen, ordnen und messen mit echten Einheiten.",
+  "teaches": [
+   "Länge, Höhe und Gewicht vergleichen",
+   "Mit Büroklammern, Würfeln und Lineal messen",
+   "Waagen, Messbecher und Thermometer ablesen"
+  ],
+  "moment": "Drucken Sie die Lineale zum Ausschneiden, damit jedes Kind eines hat. Dann gehen Paare durch den Raum und messen."
+ },
+ "graphs-data": {
+  "kw": "Diagramme und Daten: Arbeitsblätter erstellen",
+  "slug": "diagramme-und-daten-arbeitsblaetter-erstellen",
+  "metaTitle": "Diagramme und Daten: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter mit Bilddiagrammen, Säulendiagrammen und Strichlisten, die Kinder selbst lesen und zeichnen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter mit Bilddiagrammen, Säulendiagrammen und Strichlisten, die Kinder selbst lesen und zeichnen. Sie sortieren, zählen und beantworten Fragen zu den Daten.",
+  "teaches": [
+   "Daten sortieren und zählen",
+   "Bild- und Säulendiagramme lesen",
+   "Mit einem Maßstab arbeiten, bei dem ein Bild für mehr steht"
+  ],
+  "moment": "Nutzen Sie das Klassendiagramm für eine Frage, die Ihre Kinder wirklich interessiert. Danach schreibt jedes Kind eine richtige Aussage zum Ergebnis."
+ },
+ "shapes-geometry": {
+  "kw": "Formen und Geometrie: Arbeitsblätter erstellen",
+  "slug": "formen-und-geometrie-arbeitsblaetter-erstellen",
+  "metaTitle": "Formen und Geometrie: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Geometrie-Arbeitsblätter zu Seiten, Ecken, Flächen und Kanten, zu ebenen Figuren und Körpern, Netzen, Symmetrie und Flächeninhalt. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Geometrie-Arbeitsblätter zu Seiten, Ecken, Flächen und Kanten, zu ebenen Figuren und Körpern, Netzen, Symmetrie und Flächeninhalt. Die Kinder sortieren, zeichnen, schneiden und falten, statt nur zu benennen.",
+  "teaches": [
+   "Ebene Figuren und Körper an ihren Merkmalen erkennen",
+   "Seiten, Ecken, Flächen und Kanten zählen",
+   "Formen zeichnen und Fläche und Umfang erkunden"
+  ],
+  "moment": "Schicken Sie die Kinder mit einer gefalteten Papierecke auf die Suche nach rechten Winkeln im Klassenzimmer. Danach sortieren sie, was sie gefunden haben."
+ },
+ "symmetry-grids": {
+  "kw": "Symmetrie und Gitterbilder: Arbeitsblätter erstellen",
+  "slug": "symmetrie-und-gitterbilder-arbeitsblaetter-erstellen",
+  "metaTitle": "Symmetrie und Gitterbilder: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Symmetrie und Gitterbildern: die zweite Hälfte ergänzen, Kästchen für Kästchen abzeichnen und doppelt so groß zeichnen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Symmetrie und Gitterbildern: die zweite Hälfte ergänzen, Kästchen für Kästchen abzeichnen und doppelt so groß zeichnen. So üben die Kinder genaues Hinsehen und eine ruhige Hand.",
+  "teaches": [
+   "Ein Bild an der Spiegelachse ergänzen",
+   "Ein Bild Kästchen für Kästchen übertragen",
+   "Eine Zeichnung spiegeln, drehen und vergrößern"
+  ],
+  "moment": "Geben Sie ein Gitterbild als ruhige Aufgabe nach der Pause. Die Kinder kommen schnell zur Ruhe, und Sie sehen, wer im Gitter den Überblick behält."
+ },
+ "maps-grids": {
+  "kw": "Karten und Koordinaten: Arbeitsblätter erstellen",
+  "slug": "karten-und-koordinaten-arbeitsblaetter-erstellen",
+  "metaTitle": "Karten und Koordinaten: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Kartenlesen mit Vogelperspektive, Legenden, Himmelsrichtungen, Koordinaten und Kontinenten. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Kartenlesen mit Vogelperspektive, Legenden, Himmelsrichtungen, Koordinaten und Kontinenten. Schatzsuchen und Schiffe versenken machen aus der Übung ein Spiel.",
+  "teaches": [
+   "Einen Ort von oben sehen und eine Legende lesen",
+   "Koordinaten im Gitter verwenden",
+   "Norden, Osten, Süden und Westen nutzen"
+  ],
+  "moment": "Verstecken Sie eine kleine Überraschung im Raum und lassen Sie die Kinder den Weg für ein anderes Kind aufschreiben."
+ },
+ "patterns": {
+  "kw": "Muster: Arbeitsblätter erstellen",
+  "slug": "muster-arbeitsblaetter-erstellen",
+  "metaTitle": "Muster: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Mustern: AB, ABC und AABB, wachsende Muster und Zahlenmuster, alle mit Bildern aus Ihrem Thema. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Mustern: AB, ABC und AABB, wachsende Muster und Zahlenmuster, alle mit Bildern aus Ihrem Thema. Die Kinder setzen fort, ergänzen und erfinden eigene Muster.",
+  "teaches": [
+   "Den Teil finden, der sich wiederholt",
+   "Muster fortsetzen und ergänzen",
+   "Wachsende Muster und Zahlenmuster beschreiben"
+  ],
+  "moment": "Lassen Sie die Kinder das Muster erst klatschen oder stampfen, bevor sie es zeichnen. Hören hilft oft dem Kind, das es noch nicht sieht."
+ },
+ "logic-puzzles": {
+  "kw": "Logikrätsel: Arbeitsblätter erstellen",
+  "slug": "logikraetsel-arbeitsblaetter-erstellen",
+  "metaTitle": "Logikrätsel: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Logik-Arbeitsblätter: Bild- und Zahlensudoku, Zahlenmauern, Logicals, magische Quadrate und Waagerätsel. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Logik-Arbeitsblätter: Bild- und Zahlensudoku, Zahlenmauern, Logicals, magische Quadrate und Waagerätsel. Jedes Rätsel hat genau eine Lösung, und die Stufen wachsen mit Ihrer Klasse.",
+  "teaches": [
+   "Schritt für Schritt aus Hinweisen schließen",
+   "Eine Lösung an jeder Regel überprüfen",
+   "An einer Aufgabe dranbleiben, bis sie gelöst ist"
+  ],
+  "moment": "Legen Sie Bildsudokus ins Fach für schnelle Kinder. Sie fordern, ohne einfach mehr vom Gleichen zu geben."
+ },
+ "dot-to-dot": {
+  "kw": "Punkt zu Punkt: Arbeitsblätter erstellen",
+  "slug": "punkt-zu-punkt-arbeitsblaetter-erstellen",
+  "metaTitle": "Punkt zu Punkt: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Punkt-zu-Punkt-Blätter, zum Zählen bis 20, zum Rückwärtszählen und zum Zählen in Schritten, nach dem Alphabet oder mit Rechenaufgaben.",
+  "lead": "Erstellen Sie Punkt-zu-Punkt-Blätter, zum Zählen bis 20, zum Rückwärtszählen und zum Zählen in Schritten, nach dem Alphabet oder mit Rechenaufgaben. Das versteckte Bild hält die Kinder bis zum letzten Punkt bei der Sache.",
+  "teaches": [
+   "Die Zahlenreihe in der richtigen Folge sprechen",
+   "Rückwärts und in Schritten zählen",
+   "Dem Alphabet in Groß- und Kleinbuchstaben folgen"
+  ],
+  "moment": "Lassen Sie die Kinder vor dem Start und auf halbem Weg raten, was das Bild zeigt. Sie prüfen jede Zahl, um es herauszufinden."
+ },
+ "color-by-number": {
+  "kw": "Malen nach Zahlen: Arbeitsblätter erstellen",
+  "slug": "malen-nach-zahlen-arbeitsblaetter-erstellen",
+  "metaTitle": "Malen nach Zahlen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Blätter zum Malen nach Zahlen und nach Code, bei denen jede Farbe eine Antwort ist: Plus- und Minusaufgaben, häufige Wörter, Anlaute und Malaufgaben.",
+  "lead": "Erstellen Sie Blätter zum Malen nach Zahlen und nach Code, bei denen jede Farbe eine Antwort ist: Plus- und Minusaufgaben, häufige Wörter, Anlaute und Malaufgaben. Das fertige Bild zeigt, ob alles stimmt.",
+  "teaches": [
+   "Rechenaufgaben mit eingebauter Kontrolle üben",
+   "Einen Farbschlüssel genau lesen",
+   "Ruhig eine ganze Seite bearbeiten"
+  ],
+  "moment": "Nutzen Sie ein Malblatt freitags zum Üben. Ein Fehler zeigt sich als Farbe an der falschen Stelle, sodass Kinder ihn oft selbst finden."
+ },
+ "coloring-pages": {
+  "kw": "Ausmalbilder für die Klasse erstellen",
+  "slug": "ausmalbilder-fuer-die-klasse-erstellen",
+  "metaTitle": "Ausmalbilder für die Klasse erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Ausmalbilder aus unserer Bildersammlung, mit Wörtern zum Nachspuren, einem Satz zum Schreiben oder einem Schlüssel. Kostenlos als PDF zum Ausdrucken.",
+  "lead": "Erstellen Sie Ausmalbilder aus unserer Bildersammlung, mit Wörtern zum Nachspuren, einem Satz zum Schreiben oder einem Schlüssel. Falten Sie zu jedem Thema ein kleines Malheft.",
+  "teaches": [
+   "Stiftführung und Handkraft aufbauen",
+   "Bilder mit Wörtern verbinden",
+   "Über das Bild sprechen"
+  ],
+  "moment": "Falten Sie am ersten Tag eines neuen Themas das Malheft. Die Kinder nehmen die Wörter mit nach Hause, die sie im Unterricht kennengelernt haben."
+ },
+ "same-different": {
+  "kw": "Gleich und verschieden: Arbeitsblätter erstellen",
+  "slug": "gleich-und-verschieden-arbeitsblaetter-erstellen",
+  "metaTitle": "Gleich und verschieden: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zur visuellen Wahrnehmung: finden, was nicht passt, Schatten zuordnen, Paare, Zwillinge und das fehlende Teil entdecken.",
+  "lead": "Erstellen Sie Arbeitsblätter zur visuellen Wahrnehmung: finden, was nicht passt, Schatten zuordnen, Paare, Zwillinge und das fehlende Teil entdecken. Genaues Hinsehen kommt vor dem Lesen und Rechnen.",
+  "teaches": [
+   "Sehen, was gleich und was verschieden ist",
+   "Formen, Schatten und Spiegelbilder zuordnen",
+   "Die Aufmerksamkeit auf kleine Details richten"
+  ],
+  "moment": "Fragen Sie, was anders ist und woran die Kinder das erkennen. Ihre Begründungen sind frühe Übung darin, das eigene Denken zu erklären."
+ },
+ "position-words": {
+  "kw": "Lagebeziehungen: Arbeitsblätter erstellen",
+  "slug": "lagebeziehungen-arbeitsblaetter-erstellen",
+  "metaTitle": "Lagebeziehungen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu auf, unter, neben, links, rechts, oben, in der Mitte und unten. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu auf, unter, neben, links, rechts, oben, in der Mitte und unten. Die Kinder lesen, zeichnen, kleben und wählen das passende Wort, so werden die Lagewörter selbstverständlich.",
+  "teaches": [
+   "Wörter für die Lage im Raum verstehen",
+   "Links und rechts unterscheiden",
+   "Anweisungen mit Lagewörtern befolgen"
+  ],
+  "moment": "Spielen Sie erst eine kurze Runde mit Teddy und Stuhl. Danach platzieren die Kinder auf dem Blatt ihr eigenes Bild."
+ },
+ "sorting": {
+  "kw": "Sortieren und Ordnen: Arbeitsblätter erstellen",
+  "slug": "sortieren-und-ordnen-arbeitsblaetter-erstellen",
+  "metaTitle": "Sortieren und Ordnen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Sortieren mit Schneiden und Kleben, Sortiermatten und Bildkarten: Lebensmittel, Verkehrsmittel, Wünsche und Bedürfnisse, Berufe.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Sortieren mit Schneiden und Kleben, Sortiermatten und Bildkarten: Lebensmittel, Verkehrsmittel, Wünsche und Bedürfnisse, Berufe. Die Kinder wählen eine Regel und erklären sie.",
+  "teaches": [
+   "Bilder nach einer Regel ordnen",
+   "Erkennen, was nicht dazugehört",
+   "Begründen, warum etwas zu einer Gruppe passt"
+  ],
+  "moment": "Geben Sie Sortiermatten und Bildkarten aus und lassen Sie Paare eine Regel erfinden. Das andere Paar muss sie erraten."
+ },
+ "mazes": {
+  "kw": "Labyrinthe: Arbeitsblätter erstellen",
+  "slug": "labyrinthe-arbeitsblaetter-erstellen",
+  "metaTitle": "Labyrinthe: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Labyrinthe, von ersten Wegen für die Kleinsten bis zu Riesenrätseln, dazu Buchstaben-, Zahlen-, Plus- und Anlaut-Labyrinthe. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Labyrinthe, von ersten Wegen für die Kleinsten bis zu Riesenrätseln, dazu Buchstaben-, Zahlen-, Plus- und Anlaut-Labyrinthe. Jedes Labyrinth ist geprüft, bevor es zu Ihnen kommt, und hat immer einen Weg.",
+  "teaches": [
+   "Einen Weg planen und vorausschauen",
+   "Eine ruhige Stiftlinie halten",
+   "Unterwegs Buchstaben, Zahlen und Rechnungen üben"
+  ],
+  "moment": "Nutzen Sie ein Rechen-Labyrinth als Morgenaufgabe: Nur wer richtig rechnet, kommt ans Ziel, das Blatt kontrolliert sich selbst."
+ },
+ "find-the-differences": {
+  "kw": "Fehlerbilder: Arbeitsblätter erstellen",
+  "slug": "fehlerbilder-arbeitsblaetter-erstellen",
+  "metaTitle": "Fehlerbilder: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Fehlerbilder mit 3, 5, 7 oder 10 Unterschieden in echten Bildszenen, dazu fehlende Dinge, Farbänderungen und Spiegelbilder. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Fehlerbilder mit 3, 5, 7 oder 10 Unterschieden in echten Bildszenen, dazu fehlende Dinge, Farbänderungen und Spiegelbilder. Die meisten lassen sich auch am Bildschirm spielen.",
+  "teaches": [
+   "Ein Bild geordnet absuchen",
+   "Benennen, was sich verändert hat",
+   "Über Unterschiede schreiben"
+  ],
+  "moment": "Lassen Sie Partnerkinder abwechselnd einen Unterschied beschreiben, ohne zu zeigen. Sie müssen die Wörter dafür finden, wo er ist und was sich geändert hat."
+ },
+ "how-to-draw": {
+  "kw": "Zeichnen lernen: Arbeitsblätter erstellen",
+  "slug": "zeichnen-lernen-arbeitsblaetter-erstellen",
+  "metaTitle": "Zeichnen lernen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Zeichenanleitungen Schritt für Schritt, bei denen jede neue Linie farbig gezeigt wird. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Zeichenanleitungen Schritt für Schritt, bei denen jede neue Linie farbig gezeigt wird. Die Kinder folgen, spuren nach, vollenden und zeichnen schließlich aus dem Kopf, dazu gibt es Seiten zum Schreiben.",
+  "teaches": [
+   "Ein Bild in einfache Formen zerlegen",
+   "Schritte der Reihe nach befolgen",
+   "Über die eigene Zeichnung schreiben"
+  ],
+  "moment": "Zeichnen Sie den ersten Schritt gemeinsam an der Tafel und lassen Sie die Kinder allein weitermachen. Das Bild gibt auch schreibunlustigen Kindern etwas zu erzählen."
+ },
+ "tangram": {
+  "kw": "Tangram: Arbeitsblätter erstellen",
+  "slug": "tangram-arbeitsblaetter-erstellen",
+  "metaTitle": "Tangram: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Tangram-Arbeitsblätter mit Teilen zum Ausschneiden, Schattenbildern zum Legen und Fragen zu den Formen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Tangram-Arbeitsblätter mit Teilen zum Ausschneiden, Schattenbildern zum Legen und Fragen zu den Formen. Beginnen Sie mit Rätseln aus zwei Teilen und gehen Sie weiter zu ganzen Figuren.",
+  "teaches": [
+   "Formen drehen und zusammenfügen",
+   "Formen in anderen Formen erkennen",
+   "Planen, bevor ein Teil gelegt wird"
+  ],
+  "moment": "Schneiden Sie die Teile einmal aus, bewahren Sie sie im Umschlag auf und legen Sie jede Woche einen neuen Schatten für ein paar ruhige Minuten aus."
+ },
+ "picture-tracing": {
+  "kw": "Bilder nachspuren: Arbeitsblätter erstellen",
+  "slug": "bilder-nachspuren-arbeitsblaetter-erstellen",
+  "metaTitle": "Bilder nachspuren: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Blätter zum Nachspuren von Bildern, von großen runden Formen für die Kleinen bis zu gepunkteten Stadtszenen für die erste Klasse. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Blätter zum Nachspuren von Bildern, von großen runden Formen für die Kleinen bis zu gepunkteten Stadtszenen für die erste Klasse. Gerade Linien, Zickzack, Spiralen und Schleifen werden zu einem echten Bild.",
+  "teaches": [
+   "Den Stift an einer Linie entlang führen",
+   "Gerade, runde und schleifenförmige Linien zeichnen",
+   "Sich auf das Schreiben von Buchstaben vorbereiten"
+  ],
+  "moment": "Lassen Sie ein großes Bild zuerst mit dem Finger, dann mit einem Wachsmalstift und zuletzt mit dem Bleistift nachspuren. So lässt sich dasselbe Blatt dreimal nutzen."
+ },
+ "pre-writing": {
+  "kw": "Schwungübungen: Arbeitsblätter erstellen",
+  "slug": "schwunguebungen-arbeitsblaetter-erstellen",
+  "metaTitle": "Schwungübungen: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Schwungübungen mit geraden Linien, Zickzack, Wellen, Schleifen und Spiralen, von ersten Stiftwegen bis zu anspruchsvollen Schwüngen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Schwungübungen mit geraden Linien, Zickzack, Wellen, Schleifen und Spiralen, von ersten Stiftwegen bis zu anspruchsvollen Schwüngen. Übungen zum Schneiden sind dabei.",
+  "teaches": [
+   "Den Stift halten und führen",
+   "Die Grundbewegungen hinter den Buchstaben üben",
+   "An einer Linie entlang schneiden"
+  ],
+  "moment": "Stecken Sie ein Blatt in eine Klarsichthülle und geben Sie einen abwischbaren Stift dazu. So können Kinder denselben Weg viele Male üben."
+ },
+ "letter-tracing": {
+  "kw": "Buchstaben nachspuren: Arbeitsblätter erstellen",
+  "slug": "buchstaben-nachspuren-arbeitsblaetter-erstellen",
+  "metaTitle": "Buchstaben nachspuren: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Nachspuren von Groß- und Kleinbuchstaben, Umlauten und dem eigenen Namen. Kostenlos als PDF zum Ausdrucken.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Nachspuren von Groß- und Kleinbuchstaben, Umlauten und dem eigenen Namen. Jede Seite nutzt das Alphabet der gewählten Sprache, auf Deutsch mit Ä, Ö, Ü und ß.",
+  "teaches": [
+   "Groß- und Kleinbuchstaben richtig schreiben",
+   "Jeden Buchstaben mit einem Bild verbinden",
+   "Den eigenen Namen schreiben"
+  ],
+  "moment": "Drucken Sie am ersten Tag für jedes Kind das Blatt mit seinem Namen. Das ist das Wort, das ihm am wichtigsten ist, und es zeigt Ihnen den Ausgangspunkt."
+ },
+ "word-writing": {
+  "kw": "Wörter schreiben: Arbeitsblätter erstellen",
+  "slug": "woerter-schreiben-arbeitsblaetter-erstellen",
+  "metaTitle": "Wörter schreiben: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Nachspuren und Schreiben von Wörtern: abschreiben, zum Bild schreiben, Buchstabenkästchen füllen und Bilder beschriften.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Nachspuren und Schreiben von Wörtern: abschreiben, zum Bild schreiben, Buchstabenkästchen füllen und Bilder beschriften. Schritt für Schritt kommen die Kinder zum selbstständigen Schreiben.",
+  "teaches": [
+   "Ganze Wörter nachspuren und abschreiben",
+   "Mit immer weniger Hilfe zum Bild schreiben",
+   "Wörter auf Linien schreiben"
+  ],
+  "moment": "Geben Sie drei Fassungen derselben Wörter aus: mit erstem Buchstaben, mit Wortspeicher und ganz ohne Hilfe. Alle schreiben dieselbe Liste auf ihrer Stufe."
+ },
+ "cursive": {
+  "kw": "Schreibschrift: Arbeitsblätter erstellen",
+  "slug": "schreibschrift-arbeitsblaetter-erstellen",
+  "metaTitle": "Schreibschrift: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zur Schreibschrift für Buchstaben, Verbindungen, Wörter und Sätze, in Vereinfachter und Lateinischer Ausgangsschrift. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zur Schreibschrift für Buchstaben, Verbindungen, Wörter und Sätze, in Vereinfachter und Lateinischer Ausgangsschrift. Die Kinder lernen, Buchstaben zu verbinden und verbundene Schrift zu lesen.",
+  "teaches": [
+   "Schreibschriftbuchstaben formen",
+   "Buchstaben flüssig verbinden",
+   "Schreibschrift lesen und schreiben"
+  ],
+  "moment": "Üben Sie jeden Morgen fünf Minuten einen Buchstaben des Tages. Kurzes tägliches Üben macht die Verbindungen flüssig."
+ },
+ "alphabet": {
+  "kw": "Alphabet: Arbeitsblätter erstellen",
+  "slug": "alphabet-arbeitsblaetter-erstellen",
+  "metaTitle": "Alphabet: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Alphabet: Buchstaben erkennen, Groß- und Kleinbuchstaben, Vokale, ABC-Reihenfolge und Buchstabe der Woche. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Alphabet: Buchstaben erkennen, Groß- und Kleinbuchstaben, Vokale, ABC-Reihenfolge und Buchstabe der Woche. Jede Seite nutzt das Alphabet der gewählten Sprache.",
+  "teaches": [
+   "Buchstaben erkennen und benennen",
+   "Groß- und Kleinbuchstaben zuordnen",
+   "Wörter nach dem ABC ordnen"
+  ],
+  "moment": "Starten Sie montags mit dem Buchstaben der Woche und schicken Sie die Kinder dann auf Buchstabenjagd durch ein Buch."
+ },
+ "phonics": {
+  "kw": "Laute und Anlaute: Arbeitsblätter erstellen",
+  "slug": "laute-und-anlaute-arbeitsblaetter-erstellen",
+  "metaTitle": "Laute und Anlaute: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Anlauten, Inlauten und Auslauten, Mitlauthäufungen, Buchstabenverbindungen und kurzen und langen Vokalen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Anlauten, Inlauten und Auslauten, Mitlauthäufungen, Buchstabenverbindungen und kurzen und langen Vokalen. Mit Lautkästchen, Klammerkarten und Sortierübungen üben die Kinder an echten Bildern.",
+  "teaches": [
+   "Anlaut, Inlaut und Auslaut hören",
+   "Laute zusammenziehen und zählen",
+   "Buchstabenverbindungen lesen"
+  ],
+  "moment": "Nutzen Sie die Lautkästchen mit Plättchen: Für jeden Laut schiebt das Kind eines nach vorn, bevor es schreibt. So werden Laute sichtbar."
+ },
+ "rhyming": {
+  "kw": "Reimwörter: Arbeitsblätter erstellen",
+  "slug": "reimwoerter-arbeitsblaetter-erstellen",
+  "metaTitle": "Reimwörter: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Reim-Arbeitsblätter mit Paaren, Memory-Karten, Dominos und Sortierübungen, aufgebaut aus Wörtern, die sich im Deutschen wirklich reimen.",
+  "lead": "Erstellen Sie Reim-Arbeitsblätter mit Paaren, Memory-Karten, Dominos und Sortierübungen, aufgebaut aus Wörtern, die sich im Deutschen wirklich reimen. Die Kinder hören, ordnen zu und schreiben eigene Reime.",
+  "teaches": [
+   "Reimwörter hören",
+   "Das Wort finden, das nicht passt",
+   "Reimwörter schreiben"
+  ],
+  "moment": "Spielen Sie das Reim-Memory laut: Ein Paar zählt nur, wenn das Kind beide Wörter sagt."
+ },
+ "syllables": {
+  "kw": "Silben: Arbeitsblätter erstellen",
+  "slug": "silben-arbeitsblaetter-erstellen",
+  "metaTitle": "Silben: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Klatschen, Zählen, Trennen und Zusammensetzen von Silben, dazu Silbenteppiche. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Klatschen, Zählen, Trennen und Zusammensetzen von Silben, dazu Silbenteppiche. Die Silbentrennung folgt dem, was Kinder in der Schule lernen.",
+  "teaches": [
+   "Silben klatschen und zählen",
+   "Wörter trennen und wieder zusammensetzen",
+   "Silbenteppiche lesen"
+  ],
+  "moment": "Klatschen Sie die Wörter gemeinsam, bevor die Kinder schreiben. Ein Wort, das sie in den Händen spüren, lässt sich leichter trennen."
+ },
+ "sight-words": {
+  "kw": "Häufige Wörter: Arbeitsblätter erstellen",
+  "slug": "haeufige-woerter-arbeitsblaetter-erstellen",
+  "metaTitle": "Häufige Wörter: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu dem häufigen Wort, das Sie gerade üben: lesen, nachspuren, finden, ausmalen und bauen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zu dem häufigen Wort, das Sie gerade üben: lesen, nachspuren, finden, ausmalen und bauen. Wortkarten, Würfelspiele und Regenbogenschreiben sorgen für Abwechslung beim Üben.",
+  "teaches": [
+   "Häufige Wörter auf einen Blick lesen",
+   "Wörter aus dem Gedächtnis schreiben",
+   "Häufige Wörter in Sätzen verwenden"
+  ],
+  "moment": "Wählen Sie ein Wort für die Woche und nutzen Sie jeden Tag ein anderes Blatt: lesen, nachspuren, finden, verwenden."
+ },
+ "spelling": {
+  "kw": "Rechtschreibung: Arbeitsblätter erstellen",
+  "slug": "rechtschreibung-arbeitsblaetter-erstellen",
+  "metaTitle": "Rechtschreibung: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Rechtschreib-Arbeitsblätter mit Buchstabensalat, Lückenwörtern, Anschauen-Abdecken-Schreiben und Buchstabenkarten, dazu Blätter zu Regeln.",
+  "lead": "Erstellen Sie Rechtschreib-Arbeitsblätter mit Buchstabensalat, Lückenwörtern, Anschauen-Abdecken-Schreiben und Buchstabenkarten, dazu Blätter zu Regeln. Üben Sie die Regel, an der Ihre Klasse gerade arbeitet.",
+  "teaches": [
+   "Wörter aus ihren Lauten aufbauen",
+   "Wörter anschauen, abdecken, schreiben und prüfen",
+   "Rechtschreibregeln anwenden"
+  ],
+  "moment": "Lassen Sie die Kinder erst mit Buchstabenkarten legen und dann schreiben. Eine Karte lässt sich leichter verschieben als ein Bleistiftstrich, also probieren sie mehr aus."
+ },
+ "nouns-articles": {
+  "kw": "Einzahl, Mehrzahl und Artikel: Arbeitsblätter erstellen",
+  "slug": "einzahl-mehrzahl-und-artikel-arbeitsblaetter-erstellen",
+  "metaTitle": "Einzahl, Mehrzahl und Artikel: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Einzahl und Mehrzahl und zum richtigen Artikel, mit Bildern, die Kinder benennen können. Der, die, das und Sortierblätter sind dabei.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Einzahl und Mehrzahl und zum richtigen Artikel, mit Bildern, die Kinder benennen können. Der, die, das und Sortierblätter sind dabei.",
+  "teaches": [
+   "Einzahl und Mehrzahl unterscheiden",
+   "Die Mehrzahl von Nomen schreiben",
+   "Den richtigen Artikel wählen"
+  ],
+  "moment": "Halten Sie einen Stift hoch, dann drei, und lassen Sie die Klasse das Wort sagen. Danach macht das Blatt dasselbe mit Bildern."
+ },
+ "grammar": {
+  "kw": "Wortarten und Grammatik: Arbeitsblätter erstellen",
+  "slug": "wortarten-und-grammatik-arbeitsblaetter-erstellen",
+  "metaTitle": "Wortarten und Grammatik: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Grammatik-Arbeitsblätter zu Nomen, Verben, Adjektiven, Pronomen und Verbformen. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Grammatik-Arbeitsblätter zu Nomen, Verben, Adjektiven, Pronomen und Verbformen. Die Kinder sortieren Wörter in Körbe, verändern Sätze und finden die richtige Form auf drei Stufen.",
+  "teaches": [
+   "Nomen, Verben und Adjektive unterscheiden",
+   "Pronomen in Sätzen verwenden",
+   "Die richtige Verbform wählen"
+  ],
+  "moment": "Sortieren Sie Wortarten erst als Spiel mit der Schere und dann auf Papier. Wörter zu bewegen hilft Kindern, die Gruppen zu spüren."
+ },
+ "word-meaning": {
+  "kw": "Gegenteile und Synonyme: Arbeitsblätter erstellen",
+  "slug": "gegenteile-und-synonyme-arbeitsblaetter-erstellen",
+  "metaTitle": "Gegenteile und Synonyme: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Wortschatz: Gegenteile, Synonyme, zusammengesetzte Wörter, Vorsilben und Wortstämme. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Wortschatz: Gegenteile, Synonyme, zusammengesetzte Wörter, Vorsilben und Wortstämme. Bildseiten führen ein, Satzseiten gehen weiter.",
+  "teaches": [
+   "Gegenteile und Wörter mit gleicher Bedeutung finden",
+   "Zusammengesetzte Wörter zerlegen",
+   "Mit Wortstämmen und Vorsilben die Bedeutung erschließen"
+  ],
+  "moment": "Hängen Sie eine Wortleiter an die Wand und ergänzen Sie Wörter, wenn sie in Geschichten auftauchen. Die Kinder wählen bald von selbst treffendere Wörter."
+ },
+ "sentences": {
+  "kw": "Sätze: Arbeitsblätter erstellen",
+  "slug": "saetze-arbeitsblaetter-erstellen",
+  "metaTitle": "Sätze: Arbeitsblätter erstellen – kostenlos zum Ausdrucken | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Sätzen: Wörter ordnen, Lücken füllen, Großschreibung und Satzzeichen berichtigen, Fragen stellen und Sätze verlängern.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Sätzen: Wörter ordnen, Lücken füllen, Großschreibung und Satzzeichen berichtigen, Fragen stellen und Sätze verlängern. Bilder helfen Leseanfängern bei jedem Schritt.",
+  "teaches": [
+   "Wörter in die richtige Reihenfolge bringen",
+   "Sätze groß beginnen und mit dem richtigen Zeichen beenden",
+   "Fragen stellen und beantworten"
+  ],
+  "moment": "Zerschneiden Sie den Satz und lassen Sie die Kinder ihn erst auf dem Tisch legen. Die Wörter hin und her zu schieben ist schon die halbe Miete."
+ },
+ "reading": {
+  "kw": "Leseverständnis: Arbeitsblätter erstellen",
+  "slug": "leseverstaendnis-arbeitsblaetter-erstellen",
+  "metaTitle": "Leseverständnis: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zum Leseverständnis mit kurzen Geschichten und Fragen, Lesen-und-Malen-Seiten und Handlungsanweisungen. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter zum Leseverständnis mit kurzen Geschichten und Fragen, Lesen-und-Malen-Seiten und Handlungsanweisungen. Die Kinder zeigen durch ihr Tun, was sie verstanden haben.",
+  "teaches": [
+   "Genau lesen",
+   "Schriftliche Anweisungen befolgen",
+   "Fragen zu einer kurzen Geschichte beantworten"
+  ],
+  "moment": "Nutzen Sie eine Lesen-und-Malen-Seite als stille Kontrolle: Ein Blick auf die Farben zeigt, welchen Satz ein Kind nicht verstanden hat."
+ },
+ "stories-writing": {
+  "kw": "Geschichten und Schreiben: Arbeitsblätter erstellen",
+  "slug": "geschichten-und-schreiben-arbeitsblaetter-erstellen",
+  "metaTitle": "Geschichten und Schreiben: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Blätter zu Bildergeschichten und zum Schreiben: Bilder ordnen, Geschichten planen, Comics, Postkarten und Steckbriefe. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Blätter zu Bildergeschichten und zum Schreiben: Bilder ordnen, Geschichten planen, Comics, Postkarten und Steckbriefe. Satzanfänge und Wortspeicher helfen jedem Kind beim Start.",
+  "teaches": [
+   "Ereignisse in die richtige Reihenfolge bringen",
+   "Anfang, Mitte und Ende erzählen",
+   "Sätze zu einem Bild oder einem Tier schreiben"
+  ],
+  "moment": "Lassen Sie die Kinder die Bildergeschichte einem Partnerkind erzählen, bevor sie ein Wort schreiben. Eine erzählte Geschichte lässt sich leichter aufschreiben."
+ },
+ "me-family-feelings": {
+  "kw": "Ich, meine Familie und Gefühle: Arbeitsblätter erstellen",
+  "slug": "ich-meine-familie-und-gefuehle-arbeitsblaetter-erstellen",
+  "metaTitle": "Ich, meine Familie und Gefühle: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter zu Ich-Büchern, Familie und Gefühlen für den Schulanfang und für ruhige Momente. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Arbeitsblätter zu Ich-Büchern, Familie und Gefühlen für den Schulanfang und für ruhige Momente. Gesichter, Stammbäume und Gefühlsthermometer geben Kindern Wörter für das, was sie fühlen.",
+  "teaches": [
+   "Gefühle benennen und an Gesichtern erkennen",
+   "Über die Familie sprechen und wer zu wem gehört",
+   "Sagen, was man mag und was man kann"
+  ],
+  "moment": "Legen Sie Gefühlskarten an die Tür für das Ankommen am Morgen. Die Kinder zeigen auf eine Karte, und Sie wissen, wer gerade Zuwendung braucht."
+ },
+ "picture-cards": {
+  "kw": "Bildkarten und Wortschatz: Arbeitsblätter erstellen",
+  "slug": "bildkarten-und-wortschatz-arbeitsblaetter-erstellen",
+  "metaTitle": "Bildkarten und Wortschatz: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Bildkarten, Wortkarten, Memory-Spiele, Wortwand-Schilder und ein Bildwörterbuch zu jedem Thema. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Bildkarten, Wortkarten, Memory-Spiele, Wortwand-Schilder und ein Bildwörterbuch zu jedem Thema. Zweisprachige Karten stellen zwei Sprachen nebeneinander, ideal für mehrsprachige Klassen.",
+  "teaches": [
+   "Neue Wörter mit Bildern lernen",
+   "Wörter und Bilder zuordnen",
+   "Eine Wortwand für die Klasse aufbauen"
+  ],
+  "moment": "Drucken Sie zweisprachige Bildkarten auf Deutsch und in der Familiensprache eines Kindes. So kann ein neu angekommenes Kind zeigen, was es schon weiß."
+ },
+ "word-search": {
+  "kw": "Wörtersuchrätsel für Kinder: Arbeitsblätter erstellen",
+  "slug": "woertersuchraetsel-fuer-kinder-arbeitsblaetter-erstellen",
+  "metaTitle": "Wörtersuchrätsel für Kinder: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Wörtersuchrätsel für die Klasse: mit Bildhinweisen, Zahlwörtern, Rätseln in einer Form, zweisprachigen Gittern und einer geheimen Botschaft.",
+  "lead": "Erstellen Sie Wörtersuchrätsel für die Klasse: mit Bildhinweisen, Zahlwörtern, Rätseln in einer Form, zweisprachigen Gittern und einer geheimen Botschaft.",
+  "teaches": [
+   "Wörter an ihrer Schreibung erkennen",
+   "Zeilen und Spalten geordnet absuchen",
+   "Themenwortschatz wiederholen"
+  ],
+  "moment": "Geben Sie am Ende eines Themas ein Bilder-Wörtersuchrätsel aus. Auch Kinder, die noch nicht jedes Wort lesen können, finden die Wörter über die Bilder."
+ },
+ "crossword": {
+  "kw": "Kreuzworträtsel für Kinder: Arbeitsblätter erstellen",
+  "slug": "kreuzwortraetsel-fuer-kinder-arbeitsblaetter-erstellen",
+  "metaTitle": "Kreuzworträtsel für Kinder: Arbeitsblätter erstellen | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Kreuzworträtsel für die Klasse mit Bildhinweisen, Wörterlisten und Schwedenrätseln, auch zweisprachig. Kostenlos als PDF zum Ausdrucken, mit Lösungen.",
+  "lead": "Erstellen Sie Kreuzworträtsel für die Klasse mit Bildhinweisen, Wörterlisten und Schwedenrätseln, auch zweisprachig. Die Kinder schreiben jedes Wort, und das Gitter prüft ihre Buchstaben.",
+  "teaches": [
+   "Wörter Buchstabe für Buchstabe schreiben",
+   "Ein Bild oder eine Wörterliste als Hinweis nutzen",
+   "Wortschatz wiederholen"
+  ],
+  "moment": "Lassen Sie zwei Kinder ein Bild-Kreuzworträtsel teilen: Eines sagt das Wort, das andere schreibt es."
+ },
+ "secret-code": {
+  "kw": "Geheimschrift: Arbeitsblätter erstellen",
+  "slug": "geheimschrift-arbeitsblaetter-erstellen",
+  "metaTitle": "Geheimschrift: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Arbeitsblätter mit Geheimschrift, bei denen Kinder Bild-, Zahlen- und Rechencodes knacken und so ein Wort entdecken. Kostenlos als PDF.",
+  "lead": "Erstellen Sie Arbeitsblätter mit Geheimschrift, bei denen Kinder Bild-, Zahlen- und Rechencodes knacken und so ein Wort entdecken. Sie können sogar einen eigenen Code für ein anderes Kind bauen.",
+  "teaches": [
+   "Mit einem Schlüssel entschlüsseln",
+   "Buchstaben oder Rechnungen mit einem Ziel üben",
+   "Ein verstecktes Wort lesen"
+  ],
+  "moment": "Schreiben Sie die Überraschung von morgen in Geheimschrift an die Tafel. Alle werden sie lösen wollen."
+ },
+ "bingo": {
+  "kw": "Bingo für die Klasse: Arbeitsblätter erstellen",
+  "slug": "bingo-fuer-die-klasse-arbeitsblaetter-erstellen",
+  "metaTitle": "Bingo für die Klasse: Arbeitsblätter erstellen – kostenlos | LessonCraftStudio",
+  "metaDescription": "Erstellen Sie Bingo für die Klasse mit Bildern, häufigen Wörtern, Lauten, Zahlwörtern, Formen, Rechenaufgaben und Uhren. Kostenlos als PDF zum Ausdrucken.",
+  "lead": "Erstellen Sie Bingo für die Klasse mit Bildern, häufigen Wörtern, Lauten, Zahlwörtern, Formen, Rechenaufgaben und Uhren. Zu jedem Spiel gehören Ansagekarten, so können Sie in wenigen Minuten loslegen.",
+  "teaches": [
+   "Schnell zuhören und zuordnen",
+   "Wörter, Laute oder Aufgaben wiederholen",
+   "Im Gruppenspiel abwarten, bis man dran ist"
+  ],
+  "moment": "Lassen Sie ein Kind die Karten ansagen, sobald die Klasse das Spiel kennt. Lautes Vorlesen ist für sich schon gute Übung."
+ }
+}

@@ -68,10 +68,10 @@ deckActions.LOCALES.forEach(function (loc) {
   ok(missing.length === 0, loc + ': every interactive app has a maker landing slug', 'missing: ' + missing.join(', '));
   var u = deckActions.makerUrl(loc, 'picture-trail');
   ok(u === deckActions.makerUrl(loc, 'picture-path') && !!u, loc + ': picture-trail aliases to picture-path');
-  ok(!!u && !/\/$/.test(u) && u.indexOf(deckActions.CANONICAL_BASE + '/' + loc + '/tools/') === 0,
-    loc + ': maker URL is absolute www, /tools/, no trailing slash', u);
+  ok(!!u && !/\/$/.test(u) && u.indexOf(deckActions.CANONICAL_BASE + '/' + loc + '/worksheet-makers/') === 0,
+    loc + ': maker URL is absolute www, /worksheet-makers/, no trailing slash', u);
 });
-ok(deckActions.makerUrl('en', 'counting-pictures') === null, 'a worksheet-gen family key (no maker) yields null');
+ok(/\/en\/worksheet-makers\/counting-worksheet-maker$/.test(deckActions.makerUrl('en', 'counting-pictures') || ''), 'a worksheet-gen family key resolves to its new maker');
 ok(deckActions.makerUrl('en', null) === null, 'null app yields null');
 
 /* -- 3. route drift ----------------------------------------------------------- */
@@ -103,9 +103,11 @@ ok(full.indexOf('>PDF herunterladen<') !== -1 && full.indexOf('>Lösungen<') !==
 ok(full.indexOf('rel="nofollow" target="_blank"') !== -1, 'download links are nofollow + new tab');
 var noKey = deckActions.block({ locale: 'en', slug: 'x-y', hasAnswerKey: false, appKey: 'addition' });
 ok(noKey.indexOf('kind=answer') === -1 && (noKey.match(/<a /g) || []).length === 2, 'no answer-key file → no answer-key anchor');
-var noMaker = deckActions.block({ locale: 'en', slug: 'x-y', hasAnswerKey: true, appKey: 'counting-pictures' });
+var noMaker = deckActions.block({ locale: 'en', slug: 'x-y', hasAnswerKey: true, appKey: null });
 var noMakerNav = noMaker.slice(noMaker.indexOf('<nav')); // the CSS block names the class too — scope to the markup
-ok(noMakerNav.indexOf('lcs-da-btn--make') === -1 && (noMakerNav.match(/<a /g) || []).length === 2, 'no maker slug → no maker anchor');
+ok(noMakerNav.indexOf('lcs-da-btn--make') === -1 && (noMakerNav.match(/<a /g) || []).length === 2, 'no type → no maker anchor');
+var hubOnly = deckActions.block({ locale: 'en', slug: 'x-y', hasAnswerKey: true, appKey: 'plants' });
+ok(hubOnly.indexOf('https://www.lessoncraftstudio.com/en/worksheet-makers"') !== -1, 'a type no maker covers links the hub');
 ok(full.indexOf(deckActions.START) === 0 && full.lastIndexOf(deckActions.END) === full.length - deckActions.END.length,
   'block is sentinel-wrapped, nothing outside');
 
@@ -139,7 +141,7 @@ if (a.changed) {
   ok((a.content.match(/id="lcs-deck-actions"/g) || []).length === 1, 'exactly one strip');
   ok(a.content.indexOf('\u0000') === -1, 'no NUL bytes');
   ok(a.content.indexOf('slug=addition-find-addend-accessories&amp;kind=pdf') !== -1, 'fixture: proxy href carries the canonical slug');
-  ok(a.content.indexOf('https://www.lessoncraftstudio.com/en/tools/addition-worksheet-maker"') !== -1, 'fixture: maker href resolves to the en addition maker');
+  ok(a.content.indexOf('https://www.lessoncraftstudio.com/en/worksheet-makers/addition-and-subtraction-worksheet-generator"') !== -1, 'fixture: maker href resolves to the en addition maker');
 }
 // CRLF variant (a Windows checkout normalises the fixture): anchors are unaffected.
 var crlf = raw.replace(/\r?\n/g, '\r\n');

@@ -33,6 +33,8 @@ import {
   getRelatedLandings, Landing,
 } from '@/lib/seo/landing-content';
 import { getMakerContent, MAKER_KEYS, MakerKey } from '@/lib/seo/maker-content';
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
+import { makerForExerciseType, ribbonMaker } from '@/lib/makers/ribbon';
 import { licensableImageObject } from '@/lib/seo/licensable-image';
 
 // Per-locale framework: human-facing chip + JSON-LD name. Readiness/no-standard de landings carry NO
@@ -278,7 +280,10 @@ export default async function WorksheetLandingPage(
   // language. Label from the shared `deckActions` namespace (also baked into every
   // deck.html by scripts/publish-cli/inject-deck-actions.js). Gated like the maker card.
   const tActions = await getTranslations({ locale, namespace: 'deckActions' });
-  const makeYourOwnHref = !xlang && maker ? localePath(locale, 'tools', maker.slug) : null;
+  const newMakerId = makerForExerciseType(l.coordinate.type);
+  const newMaker = newMakerId ? await ribbonMaker(newMakerId, locale) : null;
+  const makerHref = newMaker?.href ?? (maker ? localePath(locale, 'tools', maker.slug) : null);
+  const makeYourOwnHref = !xlang ? makerHref : null;
   const targetName = xlang ? targetLangName(xlang, locale) : '';
   const learnCat = tLearn ? tLearn('category') : '';
   const learnCrumb = tLearn ? tLearn('learnH1', { lang: targetName }) : '';
@@ -506,6 +511,8 @@ export default async function WorksheetLandingPage(
       <main className="bg-cream-50 min-h-screen">
         <div className="container mx-auto px-4 max-w-6xl py-8 md:py-12">
 
+          <MakerRibbon locale={locale} axes={[{ axis: 'exercise-type', axisKey: l.coordinate.type }]} />
+
           {/* breadcrumb */}
           <nav aria-label="Breadcrumb" className="text-sm text-ink-500 flex flex-wrap items-center gap-x-2 gap-y-1 mb-6">
             {xlang ? (
@@ -683,7 +690,7 @@ export default async function WorksheetLandingPage(
           {xlang ? null : maker ? (
             <section className="mb-4">
               <Link
-                href={localePath(locale, 'tools', maker.slug)}
+                href={makerHref ?? localePath(locale, 'tools', maker.slug)}
                 className="group block rounded-2xl border-2 border-cream-300 bg-white p-7 text-center transition hover:border-teal-400 hover:shadow-md"
               >
                 <p className="font-display font-semibold text-ink-700 text-[17px]">{ui.madeWith(ui.typeCrumb(l.eyebrow))}</p>

@@ -1,0 +1,769 @@
+{
+ "counting": {
+  "kw": "Lag oppgaver om å telle",
+  "slug": "lag-oppgaver-om-a-telle",
+  "metaTitle": "Lag oppgaver om å telle – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å telle med bilder klassen din liker: tell og sett ring, tell og skriv, søkebilder og mye mer. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om å telle med bilder klassen din liker: tell og sett ring, tell og skriv, søkebilder og mye mer. Velg nivå og tema, så er hvert antall på siden allerede sjekket.",
+  "teaches": [
+   "Telle bilder og finne riktig tall",
+   "Telle hver sort i et fullt søkebilde",
+   "Finne én til, én færre og like mange"
+  ],
+  "moment": "La barna gjøre søkebildet to og to og deretter sammenligne tallene sine. Er to svar ulike, teller de sammen på nytt."
+ },
+ "ten-frames": {
+  "kw": "Lag oppgaver med tierruter og tellestreker",
+  "slug": "lag-oppgaver-med-tierruter-og-tellestreker",
+  "metaTitle": "Lag oppgaver med tierruter og tellestreker – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med tierruter og tellestreker som trener på å se et antall med ett blikk. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med tierruter og tellestreker som trener på å se et antall med ett blikk. Fyll ruter, les streker, vis lynkort, tell kuler på kuleramma og lag 10.",
+  "teaches": [
+   "Se et antall med ett blikk uten å telle ett og ett",
+   "Lage 5 og 10 og se hva som mangler",
+   "Notere antall med tellestreker"
+  ],
+  "moment": "Vis et kort i to sekunder som oppvarming, og spør hvordan barna så tallet. Svarene deres er den egentlige undervisningen."
+ },
+ "number-sequences": {
+  "kw": "Lag oppgaver om tallrekker og hundreruter",
+  "slug": "lag-oppgaver-om-tallrekker-og-hundreruter",
+  "metaTitle": "Lag oppgaver om tallrekker og hundreruter – gratis | LessonCraftStudio",
+  "metaDescription": "Lag talltavler, tallrekker med hull og arbeidsark for å telle med 2 eller 10 om gangen, helt opp til 1 000. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag talltavler, tallrekker med hull og arbeidsark for å telle med 2 eller 10 om gangen, helt opp til 1 000. Hundreruter, puslespillbrikker og tallmaskiner ligger klare.",
+  "teaches": [
+   "Telle fram og tilbake fra et hvilket som helst tall",
+   "Telle med 2, 5 og 10 om gangen",
+   "Oppdage mønster i hundrerutene"
+  ],
+  "moment": "Klipp ei hundrerute i puslespillbrikker og gi hvert par én brikke. Barna må tenke ut hva som står over, under og ved siden av hvert tall."
+ },
+ "number-lines": {
+  "kw": "Lag oppgaver med tallinjer",
+  "slug": "lag-oppgaver-med-tallinjer",
+  "metaTitle": "Lag oppgaver med tallinjer – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med tallinjer fra 0 til 10 og opp til 120, med hopp, avrunding og brøk. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med tallinjer fra 0 til 10 og opp til 120, med hopp, avrunding og brøk. Start med tallinjer der alt står, og gå videre til tomme linjer barna tegner selv.",
+  "teaches": [
+   "Plassere tall på tallinja etter størrelse",
+   "Legge sammen og trekke fra med hopp",
+   "Runde av til nærmeste tier eller hundrer"
+  ],
+  "moment": "Gi samme regnestykke på ei utfylt og ei tom tallinje. Sammenligningen viser hvem som fortsatt teller, og hvem som allerede hopper."
+ },
+ "number-bonds": {
+  "kw": "Lag oppgaver om tallvenner og regnefamilier",
+  "slug": "lag-oppgaver-om-tallvenner-og-regnefamilier",
+  "metaTitle": "Lag oppgaver om tallvenner og regnefamilier – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om tallvenner, tallhus og regnefamilier for 5, 10, 20 og 100. Barna ser hvordan tall deles opp og settes sammen, og da sitter plussoppgavene.",
+  "lead": "Lag arbeidsark om tallvenner, tallhus og regnefamilier for 5, 10, 20 og 100. Barna ser hvordan tall deles opp og settes sammen, og da sitter plussoppgavene.",
+  "teaches": [
+   "Dele opp et tall i to deler på alle måter",
+   "Se pluss og minus som én regnefamilie",
+   "Kunne tiervennene"
+  ],
+  "moment": "Gjem noen brikker under et krus og vis resten. Arbeidsarket gjør så det samme spørsmålet til en oppgave barnet klarer selv."
+ },
+ "addition-subtraction": {
+  "kw": "Lag oppgaver med pluss og minus",
+  "slug": "lag-oppgaver-med-pluss-og-minus",
+  "metaTitle": "Lag oppgaver med pluss og minus – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med pluss og minus, fra stykker med bilder til oppstillinger med tresifrede tall og veksling. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med pluss og minus, fra stykker med bilder til oppstillinger med tresifrede tall og veksling. Velg nivå og skriv ut en ny side med fasit når du trenger det.",
+  "teaches": [
+   "Legge til og ta bort med bilder og så med tall",
+   "Hoderegning opp til 10, 20 og 100",
+   "Pluss og minus i oppstilling med veksling"
+  ],
+  "moment": "Skriv ut to versjoner av samme nivå til hvert par. De løser hver sin side, bytter og retter hverandre med fasit."
+ },
+ "doubles-halves": {
+  "kw": "Lag oppgaver om dobbelt og halvparten",
+  "slug": "lag-oppgaver-om-dobbelt-og-halvparten",
+  "metaTitle": "Lag oppgaver om dobbelt og halvparten – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om dobbelt og halvparten opp til 20, med bilder eller bare med tall. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om dobbelt og halvparten opp til 20, med bilder eller bare med tall. Nesten dobbelt, doblings- og halveringsmaskiner og memorykort gjør at barna snart kan disse regnestykkene i hodet.",
+  "teaches": [
+   "Regne dobbelt og halvparten opp til 20",
+   "Bruke nesten dobbelt, som 6 + 7",
+   "Se at halvparten er det motsatte av det dobbelte"
+  ],
+  "moment": "Spill memory med det dobbelte to og to i fem minutter etter friminuttet. Korte, hyppige runder virker bedre enn én lang time."
+ },
+ "compare-numbers": {
+  "kw": "Lag oppgaver om å sammenligne tall",
+  "slug": "lag-oppgaver-om-a-sammenligne-tall",
+  "metaTitle": "Lag oppgaver om å sammenligne tall – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å sammenligne, fra bildegrupper med flere og færre til firesifrede tall. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om å sammenligne, fra bildegrupper med flere og færre til firesifrede tall. Barna bruker tegnene større enn, mindre enn og lik og setter tall i rekkefølge.",
+  "teaches": [
+   "Sammenligne grupper av bilder",
+   "Bruke tegnene <, > og =",
+   "Ordne tall fra minst til størst"
+  ],
+  "moment": "Begynn med den sultne krokodillen, dekk den til og spør bare etter tegnet. Skrittet fra bilde til symbol skjer på én side."
+ },
+ "odd-even": {
+  "kw": "Lag oppgaver om partall og oddetall",
+  "slug": "lag-oppgaver-om-partall-og-oddetall",
+  "metaTitle": "Lag oppgaver om partall og oddetall – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om partall og oddetall som begynner med å dele likt og med bildepar og går videre til enerne og summer. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om partall og oddetall som begynner med å dele likt og med bildepar og går videre til enerne og summer. Barna finner regelen selv i stedet for å pugge den.",
+  "teaches": [
+   "Lage par for å se hva som blir til overs",
+   "Lese enerne i tall under 100",
+   "Forutsi om en sum blir partall eller oddetall"
+  ],
+  "moment": "La først barna dele ekte brikker mellom to venner. På arket skriver de så ned det de allerede har oppdaget med hendene."
+ },
+ "place-value": {
+  "kw": "Lag oppgaver om plassverdi og avrunding",
+  "slug": "lag-oppgaver-om-plassverdi-og-avrunding",
+  "metaTitle": "Lag oppgaver om plassverdi og avrunding – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om plassverdi med klosser, tabeller, sifferkort og tallgåter. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om plassverdi med klosser, tabeller, sifferkort og tallgåter. Fra tiere og enere til hundrere, utvidet form og avrunding til nærmeste tier eller hundrer.",
+  "teaches": [
+   "Lese og bygge tall med tiere og enere",
+   "Skrive tall i utvidet form",
+   "Runde av til nærmeste tier og hundrer"
+  ],
+  "moment": "La barna bygge tallet med ekte materiell før de skriver det. Sifferdetektiv fungerer så fint som avslutning."
+ },
+ "multiplication-division": {
+  "kw": "Lag oppgaver om gange og deling",
+  "slug": "lag-oppgaver-om-gange-og-deling",
+  "metaTitle": "Lag oppgaver om gange og deling – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om gange og deling, fra like store grupper og rutenett til alle gangetabeller og deling med rest. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om gange og deling, fra like store grupper og rutenett til alle gangetabeller og deling med rest. Gangetabellkort på ring og en gangetabell å fylle ut er med.",
+  "teaches": [
+   "Gå fra gjentatt addisjon til rutenett og gange",
+   "Lære gangetabellene fra 2 til 10",
+   "Dele likt, gruppere og regne med rest"
+  ],
+  "moment": "Gi hvert barn den gangetabellen det trenger, ikke den klassen er på. Alle jobber med samme type side, hver med sin tabell."
+ },
+ "word-problems": {
+  "kw": "Lag tekstoppgaver i matematikk",
+  "slug": "lag-tekstoppgaver-i-matematikk",
+  "metaTitle": "Lag tekstoppgaver i matematikk – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med tekstoppgaver: med bilder, i ett og to trinn, med sammenligning, gange og deling. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med tekstoppgaver: med bilder, i ett og to trinn, med sammenligning, gange og deling. Barna leser, velger regnestykke og løser.",
+  "teaches": [
+   "Lese en historie og finne spørsmålet",
+   "Velge riktig regnestykke",
+   "Løse oppgaver i ett og to trinn"
+  ],
+  "moment": "Dekk til tallene i en oppgave og spør hva som skjer i historien. Når barna kan fortelle det, velger regneoperasjonen ofte seg selv."
+ },
+ "fractions": {
+  "kw": "Lag oppgaver om brøk",
+  "slug": "lag-oppgaver-om-brok",
+  "metaTitle": "Lag oppgaver om brøk – gratis, til utskrift og interaktivt | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om brøk: halvdeler, tredeler og firedeler, å dele likt, brøkstrimler, tallinje og likeverdige brøker. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om brøk: halvdeler, tredeler og firedeler, å dele likt, brøkstrimler, tallinje og likeverdige brøker. Barna klipper, fargelegger og sammenligner til en brøk betyr noe.",
+  "teaches": [
+   "Dele figurer i like store deler",
+   "Navngi, fargelegge og sammenligne brøker",
+   "Finne brøkdelen av en gruppe"
+  ],
+  "moment": "Skriv ut brøkstrimlene på farget papir. Barna tar vare på dem i en konvolutt og bruker dem i hver brøktime."
+ },
+ "number-of-the-day": {
+  "kw": "Lag oppgaver om dagens tall og tallord",
+  "slug": "lag-oppgaver-om-dagens-tall-og-tallord",
+  "metaTitle": "Lag oppgaver om dagens tall og tallord – gratis | LessonCraftStudio",
+  "metaDescription": "Lag ark med dagens tall opp til 1 000 og arbeidsark om tallord. Barna skriver, tegner, teller og sammenligner det samme tallet på mange måter.",
+  "lead": "Lag ark med dagens tall opp til 1 000 og arbeidsark om tallord. Barna skriver, tegner, teller og sammenligner det samme tallet på mange måter.",
+  "teaches": [
+   "Vise ett tall på mange måter",
+   "Lese og skrive tallord",
+   "Finne ti mer og ti mindre"
+  ],
+  "moment": "Legg et ark med dagens tall på hver pult om morgenen. Bare tallet skiftes, rutinen går av seg selv."
+ },
+ "ordinal-numbers": {
+  "kw": "Lag oppgaver om ordenstall",
+  "slug": "lag-oppgaver-om-ordenstall",
+  "metaTitle": "Lag oppgaver om ordenstall – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om ordenstall med løp, hyller, flagg og kort. Barna går fra første, andre og tredje opp til datoene i måneden, i ord og i tall.",
+  "lead": "Lag arbeidsark om ordenstall med løp, hyller, flagg og kort. Barna går fra første, andre og tredje opp til datoene i måneden, i ord og i tall.",
+  "teaches": [
+   "Finne den første, andre og tredje i en rekke",
+   "Telle plassen fra begge ender",
+   "Lese og skrive ordenstall"
+  ],
+  "moment": "Still ti barn på rekke ved døra og si en plass. Etterpå møter de de samme ordene på trykk på arket Hvem vinner løpet?."
+ },
+ "number-tracing": {
+  "kw": "Lag oppgaver om å skrive tall",
+  "slug": "lag-oppgaver-om-a-skrive-tall",
+  "metaTitle": "Lag oppgaver om å skrive tall – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å skrive tall fra 0 til 9, tallene etter 10 og opp til 100, med oransje startpunkt og piler på hvert tall. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om å skrive tall fra 0 til 9, tallene etter 10 og opp til 100, med oransje startpunkt og piler på hvert tall. Spor, tell og skriv på samme side.",
+  "teaches": [
+   "Forme hvert tall riktig",
+   "Knytte et tall til et antall",
+   "Skrive tall over 10 og tallord"
+  ],
+  "moment": "Start matematikken rolig: barna teller bildene først, så står tallet alltid for noe."
+ },
+ "money": {
+  "kw": "Lag oppgaver om penger",
+  "slug": "lag-oppgaver-om-penger",
+  "metaTitle": "Lag oppgaver om penger – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om penger med norske kroner: tell mynter og sedler, handl, regn ut vekslepenger og betal med færrest mulig mynter. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om penger med norske kroner: tell mynter og sedler, handl, regn ut vekslepenger og betal med færrest mulig mynter. Prislapper og lekepenger til å leke butikk er med.",
+  "teaches": [
+   "Kjenne igjen mynter og verdien deres",
+   "Telle blandede mynter og sedler",
+   "Legge sammen priser og regne ut vekslepenger"
+  ],
+  "moment": "Bygg en butikk bakerst i klasserommet med prislapper og lekepenger. Arkene Regne med penger gjør så det som skjedde til skrevne oppgaver."
+ },
+ "telling-time": {
+  "kw": "Lag oppgaver om klokka",
+  "slug": "lag-oppgaver-om-klokka",
+  "metaTitle": "Lag oppgaver om klokka – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om klokka, fra hele og halve timer til hvert femte minutt, klokka på minuttet og tidsforskjell. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om klokka, fra hele og halve timer til hvert femte minutt, klokka på minuttet og tidsforskjell. Barna leser klokker, tegner visere og bygger sin egen klokke.",
+  "teaches": [
+   "Lese klokka: hel time, halv time og hvert femte minutt",
+   "Tegne visere for et gitt tidspunkt",
+   "Regne ut hvor lang tid som har gått"
+  ],
+  "moment": "La hvert barn lage sin egen klokke og ta vare på den i pulten. Barna stiller den for dagens rutiner og sammenligner med klokka i klasserommet."
+ },
+ "calendar": {
+  "kw": "Lag oppgaver om kalenderen",
+  "slug": "lag-oppgaver-om-kalenderen",
+  "metaTitle": "Lag oppgaver om kalenderen – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om ukedagene, månedene, i går og i morgen og om å lese en hel måned. Bursdagsdiagram og dagens dato passer inn i morgenrutinen din.",
+  "lead": "Lag arbeidsark om ukedagene, månedene, i går og i morgen og om å lese en hel måned. Bursdagsdiagram og dagens dato passer inn i morgenrutinen din.",
+  "teaches": [
+   "Si dager og måneder i rekkefølge",
+   "Bruke i går, i dag og i morgen",
+   "Lese datoer i en kalender"
+  ],
+  "moment": "Fyll ut en tom måned sammen første skoledag i måneden, med bursdager. Siden blir støtte for hvert kalenderspørsmål."
+ },
+ "measurement": {
+  "kw": "Lag oppgaver om måling",
+  "slug": "lag-oppgaver-om-maling",
+  "metaTitle": "Lag oppgaver om måling – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om måling, fra stor og liten til linjal, binders, litermål, vekter og termometre. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om måling, fra stor og liten til linjal, binders, litermål, vekter og termometre. Barna sammenligner, ordner og måler med ekte enheter.",
+  "teaches": [
+   "Sammenligne lengde, høyde og vekt",
+   "Måle med binders, kuber og linjal",
+   "Lese av vekter, litermål og termometre"
+  ],
+  "moment": "Skriv ut linjalene til å klippe ut så hvert barn har en, og send parene rundt i klasserommet for å måle."
+ },
+ "graphs-data": {
+  "kw": "Lag oppgaver om diagrammer og data",
+  "slug": "lag-oppgaver-om-diagrammer-og-data",
+  "metaTitle": "Lag oppgaver om diagrammer og data – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med bildediagrammer, søylediagrammer og tabeller som barna leser og bygger selv. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med bildediagrammer, søylediagrammer og tabeller som barna leser og bygger selv. De sorterer, teller og svarer på spørsmål om dataene.",
+  "teaches": [
+   "Sortere og telle data",
+   "Lese bildediagrammer og søylediagrammer",
+   "Bruke en skala der ett bilde står for flere"
+  ],
+  "moment": "Lag klassens diagram med et spørsmål barna bryr seg om, og la hvert barn skrive én setning om resultatet som stemmer."
+ },
+ "shapes-geometry": {
+  "kw": "Lag oppgaver om former og geometri",
+  "slug": "lag-oppgaver-om-former-og-geometri",
+  "metaTitle": "Lag oppgaver om former og geometri – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag geometriark om sider, hjørner, flater og kanter, plane figurer og romfigurer, utbrettinger, symmetri og areal. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag geometriark om sider, hjørner, flater og kanter, plane figurer og romfigurer, utbrettinger, symmetri og areal. Barna sorterer, tegner, klipper og bretter i stedet for bare å navngi.",
+  "teaches": [
+   "Kjenne igjen figurer på egenskapene deres",
+   "Telle sider, hjørner, flater og kanter",
+   "Tegne former og utforske areal og omkrets"
+  ],
+  "moment": "Send barna på jakt etter rette vinkler i klasserommet med et brettet papirhjørne, og la dem sortere det de fant."
+ },
+ "symmetry-grids": {
+  "kw": "Lag oppgaver om symmetri og rutenett",
+  "slug": "lag-oppgaver-om-symmetri-og-rutenett",
+  "metaTitle": "Lag oppgaver om symmetri og rutenett – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om symmetri og tegning på rutenett: gjør ferdig den andre halvdelen, tegn av rute for rute og tegn dobbelt så stort. Gratis pdf.",
+  "lead": "Lag arbeidsark om symmetri og tegning på rutenett: gjør ferdig den andre halvdelen, tegn av rute for rute og tegn dobbelt så stort. Barna øver nøyaktig blikk og stødig hånd samtidig.",
+  "teaches": [
+   "Fullføre en tegning langs symmetrilinja",
+   "Tegne av en tegning rute for rute",
+   "Speile, dreie og forstørre en tegning"
+  ],
+  "moment": "Gi en rutenettstegning som rolig oppgave etter friminuttet. Barna finner fort roen, og du ser hvem som holder orden på rutene."
+ },
+ "maps-grids": {
+  "kw": "Lag oppgaver om kart og koordinater",
+  "slug": "lag-oppgaver-om-kart-og-koordinater",
+  "metaTitle": "Lag oppgaver om kart og koordinater – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om kart med bilder sett ovenfra, tegnforklaringer, himmelretninger, koordinater og verdensdeler. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om kart med bilder sett ovenfra, tegnforklaringer, himmelretninger, koordinater og verdensdeler. Skattejakt og senke slagskip gjør øvingen til lek.",
+  "teaches": [
+   "Se et sted ovenfra og lese en tegnforklaring",
+   "Bruke koordinater i et rutenett",
+   "Bruke nord, øst, sør og vest"
+  ],
+  "moment": "Gjem en liten overraskelse i klasserommet og la barna skrive veien så en venn kan følge den."
+ },
+ "patterns": {
+  "kw": "Lag oppgaver om mønster",
+  "slug": "lag-oppgaver-om-monster",
+  "metaTitle": "Lag oppgaver om mønster – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om mønster: AB, ABC og AABB, voksende mønster og tallmønster, alle med bilder fra temaet ditt. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om mønster: AB, ABC og AABB, voksende mønster og tallmønster, alle med bilder fra temaet ditt. Barna fortsetter, fyller ut og finner på egne.",
+  "teaches": [
+   "Finne delen som gjentar seg",
+   "Fortsette og fylle ut mønster",
+   "Beskrive voksende mønster og tallmønster"
+  ],
+  "moment": "La barna klappe eller stampe mønsteret før de tegner det. Å høre det hjelper ofte barnet som ennå ikke ser det."
+ },
+ "logic-puzzles": {
+  "kw": "Lag logikkoppgaver",
+  "slug": "lag-logikkoppgaver",
+  "metaTitle": "Lag logikkoppgaver – gratis, til utskrift og interaktivt | LessonCraftStudio",
+  "metaDescription": "Lag logikkark: bilde- og tallsudoku, tallpyramider, logikkoppgaver, magiske kvadrater og vektpuslespill. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag logikkark: bilde- og tallsudoku, tallpyramider, logikkoppgaver, magiske kvadrater og vektpuslespill. Hver oppgave har én løsning, og nivåene vokser med klassen din.",
+  "teaches": [
+   "Resonnere steg for steg ut fra ledetråder",
+   "Sjekke et svar mot hver regel",
+   "Holde ut til oppgaven er løst"
+  ],
+  "moment": "Ha bildesudoku klare til dem som blir ferdige først. De utfordrer uten å gi mer av det samme."
+ },
+ "dot-to-dot": {
+  "kw": "Lag prikk til prikk-oppgaver",
+  "slug": "lag-prikk-til-prikk-oppgaver",
+  "metaTitle": "Lag prikk til prikk-oppgaver – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag prikk til prikk-ark der barna teller til 20, teller bakover, teller med hopp, følger alfabetet eller løser regnestykker. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag prikk til prikk-ark der barna teller til 20, teller bakover, teller med hopp, følger alfabetet eller løser regnestykker. Det skjulte bildet holder barna i gang til siste prikk.",
+  "teaches": [
+   "Si tallrekka i rekkefølge",
+   "Telle bakover og med hopp",
+   "Følge alfabetet med store og små bokstaver"
+  ],
+  "moment": "La barna gjette bildet før de begynner og halvveis. De sjekker hvert tall for å finne det ut."
+ },
+ "color-by-number": {
+  "kw": "Lag oppgaver med mal etter tall",
+  "slug": "lag-oppgaver-med-mal-etter-tall",
+  "metaTitle": "Lag oppgaver med mal etter tall – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag ark med mal etter tall og kode der hver farge er et svar: pluss, minus, høyfrekvente ord, førstelyder og gangetabeller. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag ark med mal etter tall og kode der hver farge er et svar: pluss, minus, høyfrekvente ord, førstelyder og gangetabeller. Det ferdige bildet viser om alt stemmer.",
+  "teaches": [
+   "Øve regning med innebygd kontroll",
+   "Lese en fargekode nøye",
+   "Jobbe rolig gjennom en hel side"
+  ],
+  "moment": "Bruk et kodeark på fredag til repetisjon. En feil viser seg som en farge på feil plass, så barnet finner den ofte selv."
+ },
+ "coloring-pages": {
+  "kw": "Lag fargeleggingsark til klassen",
+  "slug": "lag-fargeleggingsark-til-klassen",
+  "metaTitle": "Lag fargeleggingsark til klassen – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag fargeleggingsark fra bildebiblioteket vårt, med ord å spore, en setning å skrive eller en fargekode. Gratis pdf til utskrift.",
+  "lead": "Lag fargeleggingsark fra bildebiblioteket vårt, med ord å spore, en setning å skrive eller en fargekode. Brett et lite fargeleggingshefte til hvert tema du jobber med.",
+  "teaches": [
+   "Bygge blyantkontroll og styrke i hånda",
+   "Knytte bilder til ord",
+   "Snakke om det som er på siden"
+  ],
+  "moment": "Brett fargeleggingsheftet første dag i et nytt tema. Barna tar med seg hjem ordene de har møtt i klassen."
+ },
+ "same-different": {
+  "kw": "Lag oppgaver om likt og ulikt",
+  "slug": "lag-oppgaver-om-likt-og-ulikt",
+  "metaTitle": "Lag oppgaver om likt og ulikt – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om visuell oppmerksomhet: finn den som skiller seg ut, par skygger, like par, tvillinger og biten som mangler. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om visuell oppmerksomhet: finn den som skiller seg ut, par skygger, like par, tvillinger og biten som mangler. Å se nøye etter kommer før lesing og matematikk.",
+  "teaches": [
+   "Se hva som er likt og hva som er ulikt",
+   "Pare former, skygger og speilbilder",
+   "Holde oppmerksomheten på små detaljer"
+  ],
+  "moment": "Spør hva som er ulikt og hvordan barna vet det. Grunnene deres er en første øvelse i å forklare hva de tenker."
+ },
+ "position-words": {
+  "kw": "Lag oppgaver om plassord",
+  "slug": "lag-oppgaver-om-plassord",
+  "metaTitle": "Lag oppgaver om plassord – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om på, under, ved siden av, venstre, høyre, øverst, i midten og nederst. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om på, under, ved siden av, venstre, høyre, øverst, i midten og nederst. Barna leser, tegner, limer og velger ord, så plassordene blir deres egne.",
+  "teaches": [
+   "Forstå ord for plassering",
+   "Skille mellom venstre og høyre",
+   "Følge beskjeder med plassord"
+  ],
+  "moment": "Lek først en runde med en bamse og en stol, og la så hvert barn plassere sitt eget bilde på arket."
+ },
+ "sorting": {
+  "kw": "Lag oppgaver om sortering",
+  "slug": "lag-oppgaver-om-sortering",
+  "metaTitle": "Lag oppgaver om sortering – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om sortering med klipp og lim, sorteringsmatter og bildekort: mat, transport, behov og ønsker, yrker. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om sortering med klipp og lim, sorteringsmatter og bildekort: mat, transport, behov og ønsker, yrker. Barna velger en regel og forklarer den.",
+  "teaches": [
+   "Gruppere bilder etter en regel",
+   "Se hva som ikke hører til",
+   "Forklare hvorfor noe passer i en gruppe"
+  ],
+  "moment": "Del ut matter og bildekort og la parene finne på en regel. Det andre paret skal gjette den."
+ },
+ "mazes": {
+  "kw": "Lag labyrinter til utskrift",
+  "slug": "lag-labyrinter-til-utskrift",
+  "metaTitle": "Lag labyrinter til utskrift – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag labyrinter, fra de første stiene for de minste til kjempelabyrinter, og også med bokstaver, tall, pluss og første lyder. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag labyrinter, fra de første stiene for de minste til kjempelabyrinter, og også med bokstaver, tall, pluss og første lyder. Hver labyrint er løst før den når deg, så det finnes alltid en vei.",
+  "teaches": [
+   "Planlegge en vei og se framover",
+   "Holde en rolig blyantstrek",
+   "Øve bokstaver, tall og regnestykker på veien"
+  ],
+  "moment": "Bruk en regnelabyrint som morgenoppgave: bare riktige svar fører til målet, så arket retter seg selv."
+ },
+ "find-the-differences": {
+  "kw": "Lag finn forskjellene-oppgaver",
+  "slug": "lag-finn-forskjellene-oppgaver",
+  "metaTitle": "Lag finn forskjellene-oppgaver – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag finn forskjellene-ark med 3, 5, 7 eller 10 endringer i ekte bilder, pluss ting som mangler, fargeforskjeller og speilbilder. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag finn forskjellene-ark med 3, 5, 7 eller 10 endringer i ekte bilder, pluss ting som mangler, fargeforskjeller og speilbilder. De fleste kan også spilles på skjermen.",
+  "teaches": [
+   "Søke gjennom et bilde med system",
+   "Si hva som er endret",
+   "Skrive hva som er ulikt"
+  ],
+  "moment": "La parene bytte på å beskrive en forskjell uten å peke. De må finne ordene for hvor den er og hva som er endret."
+ },
+ "how-to-draw": {
+  "kw": "Lag oppgaver om å tegne steg for steg",
+  "slug": "lag-oppgaver-om-a-tegne-steg-for-steg",
+  "metaTitle": "Lag oppgaver om å tegne steg for steg – gratis | LessonCraftStudio",
+  "metaDescription": "Lag tegneark steg for steg der hver nye strek vises i farge, så barna ser nøyaktig hva som kommer. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag tegneark steg for steg der hver nye strek vises i farge, så barna ser nøyaktig hva som kommer. De følger, sporer, gjør ferdig og tegner til slutt etter hukommelsen.",
+  "teaches": [
+   "Dele en tegning opp i enkle former",
+   "Følge steg i rekkefølge",
+   "Skrive om det de har tegnet"
+  ],
+  "moment": "Tegn første steg sammen på tavla og la barna gjøre ferdig selv. Tegningen gir også dem som nødig skriver noe å skrive om."
+ },
+ "tangram": {
+  "kw": "Lag oppgaver med tangram",
+  "slug": "lag-oppgaver-med-tangram",
+  "metaTitle": "Lag oppgaver med tangram – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag tangramark med brikker å klippe ut, skygger å legge og spørsmål om formene. Begynn med oppgaver på to brikker og gå videre til hele figurer.",
+  "lead": "Lag tangramark med brikker å klippe ut, skygger å legge og spørsmål om formene. Begynn med oppgaver på to brikker og gå videre til hele figurer.",
+  "teaches": [
+   "Dreie og passe sammen former",
+   "Se former inni andre former",
+   "Planlegge før en brikke legges"
+  ],
+  "moment": "Klipp brikkene ut én gang, ta vare på dem i en konvolutt og vis en ny skygge hver uke til noen rolige minutter."
+ },
+ "picture-tracing": {
+  "kw": "Lag oppgaver med bilder å tegne over",
+  "slug": "lag-oppgaver-med-bilder-a-tegne-over",
+  "metaTitle": "Lag oppgaver med bilder å tegne over – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag bilder å tegne over, fra store runde former for de minste til prikkede bybilder for 1. trinn. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag bilder å tegne over, fra store runde former for de minste til prikkede bybilder for 1. trinn. Rette streker, sikksakk, spiraler og løkker blir til et ekte bilde.",
+  "teaches": [
+   "Styre blyanten langs en strek",
+   "Tegne rette, buede og løkkede streker",
+   "Gjøre hånda klar til bokstaver"
+  ],
+  "moment": "La barna tegne over et stort bilde først med fingeren, så med fargestift og til slutt med blyant. Det samme arket kan brukes tre ganger."
+ },
+ "pre-writing": {
+  "kw": "Lag skriveforberedende oppgaver",
+  "slug": "lag-skriveforberedende-oppgaver",
+  "metaTitle": "Lag skriveforberedende oppgaver – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag skriveforberedende ark med rette streker, sikksakk, bølger, løkker og spiraler, fra de første blyantløypene til vanskelige blyantløyper. Klippeøvelser er med.",
+  "lead": "Lag skriveforberedende ark med rette streker, sikksakk, bølger, løkker og spiraler, fra de første blyantløypene til vanskelige blyantløyper. Klippeøvelser er med.",
+  "teaches": [
+   "Holde og styre blyanten",
+   "Øve grunnbevegelsene bak bokstavene",
+   "Klippe langs en strek"
+  ],
+  "moment": "Legg et ark i en plastlomme og bruk en tusj som kan viskes ut, så kan barnet øve samme vei mange ganger."
+ },
+ "letter-tracing": {
+  "kw": "Lag oppgaver om å spore bokstaver",
+  "slug": "lag-oppgaver-om-a-spore-bokstaver",
+  "metaTitle": "Lag oppgaver om å spore bokstaver – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å spore store og små bokstaver og barnets eget navn. Hver side bruker alfabetet i språket du velger, på norsk med æ, ø og å.",
+  "lead": "Lag arbeidsark om å spore store og små bokstaver og barnets eget navn. Hver side bruker alfabetet i språket du velger, på norsk med æ, ø og å.",
+  "teaches": [
+   "Forme store og små bokstaver",
+   "Knytte hver bokstav til et bilde",
+   "Skrive sitt eget navn"
+  ],
+  "moment": "Skriv ut hvert barns navn første dag. Det er ordet som betyr mest, og det viser deg hvor barnet starter."
+ },
+ "word-writing": {
+  "kw": "Lag oppgaver om å skrive ord",
+  "slug": "lag-oppgaver-om-a-skrive-ord",
+  "metaTitle": "Lag oppgaver om å skrive ord – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å spore og skrive ord: skriv av, skriv ut fra et bilde, fyll bokstavruter og sett ord på bilder. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om å spore og skrive ord: skriv av, skriv ut fra et bilde, fyll bokstavruter og sett ord på bilder. Steg for steg går barna fra å spore til å skrive selv.",
+  "teaches": [
+   "Spore og skrive av hele ord",
+   "Skrive ut fra et bilde med stadig mindre hjelp",
+   "Skrive ord på linjer"
+  ],
+  "moment": "Gi tre versjoner av de samme ordene: med første bokstav, med ordbank og uten hjelp. Alle skriver samme liste på sitt nivå."
+ },
+ "cursive": {
+  "kw": "Lag oppgaver om sammenhengende skrift",
+  "slug": "lag-oppgaver-om-sammenhengende-skrift",
+  "metaTitle": "Lag oppgaver om sammenhengende skrift – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om sammenhengende skrift for bokstaver, bindinger, ord og setninger, med hele alfabetet og lesing. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om sammenhengende skrift for bokstaver, bindinger, ord og setninger, med hele alfabetet og lesing. Barna lærer å binde bokstaver og å lese sammenhengende skrift.",
+  "teaches": [
+   "Forme bokstaver i sammenhengende skrift",
+   "Binde bokstaver flytende",
+   "Lese sammenhengende skrift så vel som å skrive den"
+  ],
+  "moment": "Bruk fem minutter hver morgen på dagens bokstav. Kort, daglig øving gjør bindingene flytende."
+ },
+ "alphabet": {
+  "kw": "Lag oppgaver om alfabetet",
+  "slug": "lag-oppgaver-om-alfabetet",
+  "metaTitle": "Lag oppgaver om alfabetet – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om alfabetet: kjenne igjen bokstaver, store og små bokstaver, vokaler, alfabetisk rekkefølge og ukas bokstav. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om alfabetet: kjenne igjen bokstaver, store og små bokstaver, vokaler, alfabetisk rekkefølge og ukas bokstav. Hver side bruker alfabetet i språket du velger.",
+  "teaches": [
+   "Kjenne igjen og navngi bokstaver",
+   "Pare store og små bokstaver",
+   "Sette ord i alfabetisk rekkefølge"
+  ],
+  "moment": "Start mandagen med ukas bokstav og send barna på bokstavjakt i en bok."
+ },
+ "phonics": {
+  "kw": "Lag oppgaver om lyder og bokstaver",
+  "slug": "lag-oppgaver-om-lyder-og-bokstaver",
+  "metaTitle": "Lag oppgaver om lyder og bokstaver – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om lyder først, i midten og sist i ord, konsonantforbindelser og lange og korte vokaler. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om lyder først, i midten og sist i ord, konsonantforbindelser og lange og korte vokaler. Med lydbokser, klypekort og sortering øver barna med ekte bilder.",
+  "teaches": [
+   "Høre lyder først, i midten og sist",
+   "Trekke sammen og telle lydene i et ord",
+   "Lese konsonantforbindelser"
+  ],
+  "moment": "Bruk lydboksene med brikker: barnet skyver fram én brikke per lyd før det skriver. Hendene gjør lydene synlige."
+ },
+ "rhyming": {
+  "kw": "Lag oppgaver om rim",
+  "slug": "lag-oppgaver-om-rim",
+  "metaTitle": "Lag oppgaver om rim – gratis, til utskrift og interaktivt | LessonCraftStudio",
+  "metaDescription": "Lag rimark med par, memorykort, dominobrikker og sortering, bygd på ord som virkelig rimer på norsk. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag rimark med par, memorykort, dominobrikker og sortering, bygd på ord som virkelig rimer på norsk. Barna lytter, parer og skriver egne rim.",
+  "teaches": [
+   "Høre ord som rimer",
+   "Finne ordet som ikke passer",
+   "Skrive rimord"
+  ],
+  "moment": "Spill rim-memory høyt: et par teller bare hvis barnet sier begge ordene."
+ },
+ "syllables": {
+  "kw": "Lag oppgaver om stavelser",
+  "slug": "lag-oppgaver-om-stavelser",
+  "metaTitle": "Lag oppgaver om stavelser – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark for å klappe, telle, dele og sette sammen stavelser, pluss lydrette ord. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark for å klappe, telle, dele og sette sammen stavelser, pluss lydrette ord. Delingen følger det barna lærer på skolen.",
+  "teaches": [
+   "Klappe og telle stavelser",
+   "Dele ord og sette dem sammen igjen",
+   "Lese lydrette ord"
+  ],
+  "moment": "Klapp ordene sammen før barna skriver. Et ord man kjenner i hendene, er lettere å dele."
+ },
+ "sight-words": {
+  "kw": "Lag oppgaver om høyfrekvente ord",
+  "slug": "lag-oppgaver-om-hoyfrekvente-ord",
+  "metaTitle": "Lag oppgaver om høyfrekvente ord – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark til det høyfrekvente ordet du jobber med: les det, spor det, finn det, fargelegg det og bygg det. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark til det høyfrekvente ordet du jobber med: les det, spor det, finn det, fargelegg det og bygg det. Ordkort, terningspill og regnbueskriving holder øvingen frisk.",
+  "teaches": [
+   "Lese høyfrekvente ord med ett blikk",
+   "Skrive ord etter hukommelsen",
+   "Bruke høyfrekvente ord i setninger"
+  ],
+  "moment": "Velg ett ord for uka og bruk et nytt ark hver dag: les det, spor det, finn det, bruk det."
+ },
+ "spelling": {
+  "kw": "Lag oppgaver om rettskriving",
+  "slug": "lag-oppgaver-om-rettskriving",
+  "metaTitle": "Lag oppgaver om rettskriving – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag rettskrivingsark med blandede ord, manglende bokstaver, se-dekk-skriv-sjekk og bokstavbrikker, pluss ark om staveregler. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag rettskrivingsark med blandede ord, manglende bokstaver, se-dekk-skriv-sjekk og bokstavbrikker, pluss ark om staveregler. Øv på regelen klassen din jobber med.",
+  "teaches": [
+   "Bygge ord ut fra lydene",
+   "Huske med se, dekk, skriv og sjekk",
+   "Bruke staveregler"
+  ],
+  "moment": "La barna legge med bokstavbrikker før de skriver. En brikke er lettere å flytte enn en blyantstrek, så de prøver mer."
+ },
+ "nouns-articles": {
+  "kw": "Lag oppgaver om entall, flertall og artikler",
+  "slug": "lag-oppgaver-om-entall-flertall-og-artikler",
+  "metaTitle": "Lag oppgaver om entall, flertall og artikler – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om entall, flertall og riktig artikkel, med bilder barna kan navngi. Ark om én og flere, om en, ei og et og om sortering ligger klare.",
+  "lead": "Lag arbeidsark om entall, flertall og riktig artikkel, med bilder barna kan navngi. Ark om én og flere, om en, ei og et og om sortering ligger klare.",
+  "teaches": [
+   "Skille mellom én og flere",
+   "Skrive substantiv i flertall",
+   "Velge riktig artikkel"
+  ],
+  "moment": "Hold opp én blyant, så tre, og la klassen si ordet. Etterpå gjør arket det samme med bilder."
+ },
+ "grammar": {
+  "kw": "Lag oppgaver om ordklasser og grammatikk",
+  "slug": "lag-oppgaver-om-ordklasser-og-grammatikk",
+  "metaTitle": "Lag oppgaver om ordklasser og grammatikk – gratis | LessonCraftStudio",
+  "metaDescription": "Lag grammatikkark om substantiv, verb, adjektiv, pronomen og verbformer. Barna sorterer ord, endrer setninger og finner riktig form på tre nivåer.",
+  "lead": "Lag grammatikkark om substantiv, verb, adjektiv, pronomen og verbformer. Barna sorterer ord, endrer setninger og finner riktig form på tre nivåer.",
+  "teaches": [
+   "Skille mellom substantiv, verb og adjektiv",
+   "Bruke pronomen i setninger",
+   "Velge riktig verbform"
+  ],
+  "moment": "Sorter ordklasser med saks som en lek før det skal gjøres på papir. Å flytte ord hjelper barna å kjenne gruppene."
+ },
+ "word-meaning": {
+  "kw": "Lag oppgaver om synonymer og motsetninger",
+  "slug": "lag-oppgaver-om-synonymer-og-motsetninger",
+  "metaTitle": "Lag oppgaver om synonymer og motsetninger – gratis | LessonCraftStudio",
+  "metaDescription": "Lag ordforrådsark om motsetninger, synonymer, sammensatte ord, forstavelser og rotord. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag ordforrådsark om motsetninger, synonymer, sammensatte ord, forstavelser og rotord. Arbeidet begynner med bilder og går videre med setninger.",
+  "teaches": [
+   "Finne motsetninger og ord som betyr det samme",
+   "Dele sammensatte ord",
+   "Bruke rotord og forstavelser for å forstå et ord"
+  ],
+  "moment": "Heng opp en ordstige på veggen og legg til ord når de dukker opp i historier. Snart velger barna selv mer presise ord."
+ },
+ "sentences": {
+  "kw": "Lag oppgaver om setninger",
+  "slug": "lag-oppgaver-om-setninger",
+  "metaTitle": "Lag oppgaver om setninger – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om setninger: ordne, fyll ut, rett stor bokstav og punktum, still spørsmål og gjør en setning lengre. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om setninger: ordne, fyll ut, rett stor bokstav og punktum, still spørsmål og gjør en setning lengre. Bilder støtter nybegynnere i hvert steg.",
+  "teaches": [
+   "Sette ord i riktig rekkefølge",
+   "Begynne med stor bokstav og slutte med riktig tegn",
+   "Stille og svare på spørsmål"
+  ],
+  "moment": "Klipp opp setningen og la barna legge den på pulten først. Å prøve ordene i ulik rekkefølge er allerede halve timen."
+ },
+ "reading": {
+  "kw": "Lag oppgaver om leseforståelse",
+  "slug": "lag-oppgaver-om-leseforstaelse",
+  "metaTitle": "Lag oppgaver om leseforståelse – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om leseforståelse med korte historier og spørsmål, les-og-fargelegg-sider og beskjeder å følge. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark om leseforståelse med korte historier og spørsmål, les-og-fargelegg-sider og beskjeder å følge. Barna viser at de har forstått ved å gjøre det, ikke bare ved å svare.",
+  "teaches": [
+   "Lese med blikk for detaljer",
+   "Følge skriftlige beskjeder",
+   "Svare på spørsmål om en kort historie"
+  ],
+  "moment": "Bruk en les-og-fargelegg-side som stille sjekk: Ett blikk på fargene viser hvilken setning et barn ikke forsto."
+ },
+ "stories-writing": {
+  "kw": "Lag oppgaver om fortellinger og skriving",
+  "slug": "lag-oppgaver-om-fortellinger-og-skriving",
+  "metaTitle": "Lag oppgaver om fortellinger og skriving – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om å ordne fortellinger og skrive: nummerer bilder, planlegg en historie, skriv en tegneserie, et postkort eller et faktaark. Gratis pdf.",
+  "lead": "Lag arbeidsark om å ordne fortellinger og skrive: nummerer bilder, planlegg en historie, skriv en tegneserie, et postkort eller et faktaark. Setningsstartere og ordbanker hjelper hvert barn i gang.",
+  "teaches": [
+   "Sette hendelser i rekkefølge",
+   "Fortelle begynnelse, midt og slutt",
+   "Skrive setninger om et bilde eller et dyr"
+  ],
+  "moment": "La barna fortelle bildeserien til en venn før de skriver et eneste ord. En fortalt historie er lettere å skrive."
+ },
+ "me-family-feelings": {
+  "kw": "Lag oppgaver om meg selv, familien og følelser",
+  "slug": "lag-oppgaver-om-meg-selv-familien-og-folelser",
+  "metaTitle": "Lag oppgaver om meg selv, familien og følelser – gratis | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark om meg selv, familien og følelser til skolestart og rolige stunder. Ansikter, slektstrær og følelsestermometre gir barna ord for det de føler.",
+  "lead": "Lag arbeidsark om meg selv, familien og følelser til skolestart og rolige stunder. Ansikter, slektstrær og følelsestermometre gir barna ord for det de føler.",
+  "teaches": [
+   "Navngi følelser og se dem i ansikter",
+   "Snakke om familien og hvem som er hvem",
+   "Si hva man liker og hva man kan"
+  ],
+  "moment": "Ha følelseskortene ved døra når barna kommer om morgenen. Et barn peker på et kort, og du vet hvem som trenger litt ekstra oppmerksomhet."
+ },
+ "picture-cards": {
+  "kw": "Lag bildekort og oppgaver om ordforråd",
+  "slug": "lag-bildekort-og-oppgaver-om-ordforrad",
+  "metaTitle": "Lag bildekort og oppgaver om ordforråd – gratis | LessonCraftStudio",
+  "metaDescription": "Lag bildekort, ordkort, memoryspill, merkelapper til ordveggen og en bildeordbok om ethvert tema. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag bildekort, ordkort, memoryspill, merkelapper til ordveggen og en bildeordbok om ethvert tema. Tospråklige kort setter to språk side om side for flerspråklige klasser.",
+  "teaches": [
+   "Lære nye ord med bilder",
+   "Pare ord og bilder",
+   "Bygge en ordvegg for klassen"
+  ],
+  "moment": "Skriv ut tospråklige kort på norsk og på morsmålet, så kan et nyankommet barn vise hva det allerede kan."
+ },
+ "word-search": {
+  "kw": "Lag finn ordene-oppgaver til klassen",
+  "slug": "lag-finn-ordene-oppgaver-til-klassen",
+  "metaTitle": "Lag finn ordene-oppgaver til klassen – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag finn ordene-oppgaver til klassen: med bilder som ledetråder for nybegynnere, tallord, oppgaver i en figur, tospråklige rutenett og en hemmelig beskjed.",
+  "lead": "Lag finn ordene-oppgaver til klassen: med bilder som ledetråder for nybegynnere, tallord, oppgaver i en figur, tospråklige rutenett og en hemmelig beskjed.",
+  "teaches": [
+   "Kjenne igjen ord på skrivemåten",
+   "Søke gjennom rader og kolonner med system",
+   "Repetere ord fra et tema"
+  ],
+  "moment": "Bruk en finn ordene-oppgave med bilder på slutten av et tema. Barn som ikke kan lese alle ordene ennå, finner dem ved hjelp av bildene."
+ },
+ "crossword": {
+  "kw": "Lag kryssord til klassen",
+  "slug": "lag-kryssord-til-klassen",
+  "metaTitle": "Lag kryssord til klassen – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag kryssord til klassen med bilder som ledetråder, ordbanker og pilkryssord, også tospråklige. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag kryssord til klassen med bilder som ledetråder, ordbanker og pilkryssord, også tospråklige. Barna skriver hvert ord, og rutenettet sjekker bokstavene.",
+  "teaches": [
+   "Skrive ord bokstav for bokstav",
+   "Bruke et bilde eller en ordbank som ledetråd",
+   "Repetere ordforråd"
+  ],
+  "moment": "La to barn dele et kryssord: Den ene sier ordet, den andre skriver det."
+ },
+ "secret-code": {
+  "kw": "Lag oppgaver med hemmelig kode",
+  "slug": "lag-oppgaver-med-hemmelig-kode",
+  "metaTitle": "Lag oppgaver med hemmelig kode – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag arbeidsark med hemmelig kode der barna knekker bilde-, tall- og regnekoder for å finne et ord. Gratis pdf til utskrift, med fasit.",
+  "lead": "Lag arbeidsark med hemmelig kode der barna knekker bilde-, tall- og regnekoder for å finne et ord. De kan til og med lage sin egen kode til en venn.",
+  "teaches": [
+   "Bruke en nøkkel til å knekke en kode",
+   "Øve bokstaver eller regning med et mål",
+   "Lese et skjult ord"
+  ],
+  "moment": "Skriv morgendagens overraskelse i hemmelig kode på tavla. Alle vil løse den."
+ },
+ "bingo": {
+  "kw": "Lag bingo til klassen",
+  "slug": "lag-bingo-til-klassen",
+  "metaTitle": "Lag bingo til klassen – gratis til utskrift | LessonCraftStudio",
+  "metaDescription": "Lag bingo til klassen med bilder, høyfrekvente ord, lyder, tallord, former, regnestykker og klokker. Gratis pdf til utskrift.",
+  "lead": "Lag bingo til klassen med bilder, høyfrekvente ord, lyder, tallord, former, regnestykker og klokker. Hvert spill har sine oppropskort, så du kan spille med klassen på noen få minutter.",
+  "teaches": [
+   "Lytte og pare raskt",
+   "Repetere ord, lyder eller regnestykker",
+   "Vente på tur i et gruppespill"
+  ],
+  "moment": "La et barn rope ut kortene når klassen kan spillet. Å lese høyt er i seg selv god øving."
+ }
+}

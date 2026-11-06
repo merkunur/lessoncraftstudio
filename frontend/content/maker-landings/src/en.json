@@ -1,0 +1,592 @@
+{
+  "counting": {
+    "kw": "Counting Worksheet Maker",
+    "lead": "Make counting worksheets with the pictures your class loves: count and circle, count and write, I Spy scenes and more. Pick a level and a theme, and every count on the page is already checked.",
+    "teaches": [
+      "Counting pictures and matching a number to them",
+      "Counting each kind in a busy scene",
+      "Finding one more, one less and the same number"
+    ],
+    "moment": "Try I Spy as a table task: children hunt in pairs, then compare their numbers. When two answers differ, they have to count again together."
+  },
+  "ten-frames": {
+    "kw": "Ten Frame and Tally Mark Worksheet Maker",
+    "lead": "Build ten-frame and tally mark worksheets that teach number sense at a glance. Fill frames, read tallies, flash quick-look cards, count rekenrek beads and make 10.",
+    "teaches": [
+      "Seeing a number at a glance, without counting one by one",
+      "Making 5 and 10 and spotting what is missing",
+      "Recording counts with tally marks"
+    ],
+    "moment": "Run Quick Look as a warm-up: flash a card for two seconds, then ask how the children saw the number. Their answers are the lesson."
+  },
+  "number-sequences": {
+    "kw": "Number Chart and Skip Counting Worksheet Maker",
+    "lead": "Create number charts, missing-number strips and skip-counting pages from 10 up to 1,000. Hundreds charts, puzzle pieces, jump puzzles and number machines are all here.",
+    "teaches": [
+      "Counting forward and backward from any number",
+      "Skip counting by 2s, 3s, 4s, 5s and 10s",
+      "Seeing the patterns on a hundreds chart"
+    ],
+    "moment": "Cut a hundreds chart into puzzle pieces and give one to each pair. Children have to reason out what sits above, below and beside each number."
+  },
+  "number-lines": {
+    "kw": "Number Line Worksheet Maker",
+    "lead": "Generate number line worksheets from 0 to 10 up to 120, with hops, rounding and fractions. Start with fully labeled lines and move on to open lines children draw themselves.",
+    "teaches": [
+      "Placing numbers on a line by value",
+      "Adding and subtracting with hops",
+      "Rounding to the nearest ten or hundred"
+    ],
+    "moment": "Give the same problem on a labeled line and on an open line. Comparing the two shows you who is counting and who is already jumping."
+  },
+  "number-bonds": {
+    "kw": "Number Bond and Fact Family Worksheet Maker",
+    "lead": "Create number bond worksheets, number houses and fact family triangles for 5, 10, 20 and 100. Children see how numbers split and join, which is what makes addition facts stick.",
+    "teaches": [
+      "Splitting a number into two parts in every possible way",
+      "Seeing addition and subtraction as one fact family",
+      "Knowing the pairs that make 10"
+    ],
+    "moment": "Hide some counters under a cup and show the rest. How Many Are Hiding? then turns that same question into a page children can do alone."
+  },
+  "addition-subtraction": {
+    "kw": "Addition and Subtraction Worksheet Generator",
+    "lead": "Generate addition and subtraction worksheets from picture addition and subtraction to 3-digit column problems with regrouping. Choose the level and print a fresh page with its answer key whenever you need one.",
+    "teaches": [
+      "Adding and taking away with pictures, then with numbers",
+      "Mental math within 10, 20 and 100",
+      "Column addition and subtraction with regrouping"
+    ],
+    "moment": "Print two versions of the same level for partners. They solve their own page, then swap and check each other's work with the answer key."
+  },
+  "doubles-halves": {
+    "kw": "Doubles and Halves Worksheet Maker",
+    "lead": "Make doubles and halves worksheets with pictures or just numbers, up to 20. Near doubles, number machines and memory cards turn a small set of facts into a strong mental math habit.",
+    "teaches": [
+      "Doubling and halving numbers to 20",
+      "Using near doubles such as 6 + 7",
+      "Seeing that halving undoes doubling"
+    ],
+    "moment": "Play Doubles Memory Cards in pairs for five minutes after lunch. Short, frequent rounds build these facts faster than one long lesson."
+  },
+  "compare-numbers": {
+    "kw": "Comparing Numbers Worksheet Maker",
+    "lead": "Create comparing worksheets from more-or-less picture groups to 4-digit numbers. Children use the greater than, less than and equal signs and put numbers in order.",
+    "teaches": [
+      "Comparing groups of pictures",
+      "Using the signs <, > and =",
+      "Ordering numbers from smallest to biggest"
+    ],
+    "moment": "Start with Hungry Crocodile, then cover the crocodile and ask for the sign alone. The step from picture to symbol happens on one page."
+  },
+  "odd-even": {
+    "kw": "Odd and Even Numbers Worksheet Maker",
+    "lead": "Make odd and even worksheets that start with fair sharing and pairs of pictures, then move to number words, the ones digit and sums. Children find the rule instead of memorizing it.",
+    "teaches": [
+      "Pairing objects to see what is left over",
+      "Reading the ones digit of numbers under 100",
+      "Predicting whether a sum is odd or even"
+    ],
+    "moment": "Ask Can Two Friends Share Fairly? with real counters first. The page then records what the children already found out with their hands."
+  },
+  "place-value": {
+    "kw": "Place Value Worksheet Maker",
+    "lead": "Build place value worksheets with base-ten blocks, charts, digit cards and number riddles. Go from tens and ones to hundreds, expanded form and rounding to the nearest 10 or 100.",
+    "teaches": [
+      "Reading and building numbers with tens and ones",
+      "Writing numbers in expanded form",
+      "Rounding to the nearest 10 and 100"
+    ],
+    "moment": "Let children build the number from Read the Blocks with real blocks before they write it. Then use Digit Detective as the exit ticket."
+  },
+  "multiplication-division": {
+    "kw": "Multiplication and Division Worksheet Generator",
+    "lead": "Generate multiplication and division worksheets from equal groups and arrays to every times table and division with remainders. Key ring cards and multiplication charts are included.",
+    "teaches": [
+      "Moving from repeated addition to arrays and times",
+      "Learning the times tables from 2 to 10",
+      "Sharing, grouping and working with remainders"
+    ],
+    "moment": "Give each child the times table they need, not the one the class is on. Everyone works on the same kind of page, at their own table."
+  },
+  "word-problems": {
+    "kw": "Math Word Problem Worksheet Maker",
+    "lead": "Make math word problem worksheets with pictures, one-step and two-step stories, comparison problems, multiplication and division. Children read, choose the number sentence and solve.",
+    "teaches": [
+      "Reading a story and finding the question",
+      "Choosing the right number sentence",
+      "Solving one-step and two-step problems"
+    ],
+    "moment": "Cover the numbers in a problem and ask what is happening in the story. Once children can tell it, the operation usually chooses itself."
+  },
+  "fractions": {
+    "kw": "Fractions Worksheet Maker",
+    "lead": "Create fraction worksheets for halves, thirds and quarters, fair shares, fraction strips, number lines and equivalent fractions. Children cut, shade and compare until a fraction means something.",
+    "teaches": [
+      "Cutting shapes into equal parts",
+      "Naming, shading and comparing fractions",
+      "Finding a fraction of a group"
+    ],
+    "moment": "Print Fraction Strips to Cut Out on colored paper. Children keep the strips in an envelope and use them in every fraction lesson after that."
+  },
+  "number-of-the-day": {
+    "kw": "Number of the Day Worksheet Maker",
+    "lead": "Make number of the day pages up to 1,000, plus number word worksheets. Children write, draw, count and compare the same number in many ways.",
+    "teaches": [
+      "Showing one number in many ways",
+      "Reading and writing number words",
+      "Finding ten more and ten less"
+    ],
+    "moment": "Keep a Number of the Day page on every desk for morning work. Change the number each day and the routine runs itself."
+  },
+  "ordinal-numbers": {
+    "kw": "Ordinal Numbers Worksheet Maker",
+    "lead": "Create ordinal number worksheets with races, shelves, flags and cards. Children go from first, second and third up to the dates of the month, in words and in numerals.",
+    "teaches": [
+      "Finding first, second and third in a line",
+      "Counting position from either end",
+      "Reading and writing ordinal words"
+    ],
+    "moment": "Line up ten children at the door and call out a position. Then hand out Who Wins the Race? so the same words appear in print."
+  },
+  "number-tracing": {
+    "kw": "Number Tracing Worksheet Maker",
+    "lead": "Make number tracing worksheets for 0 to 9, the teens and up to 100, with an orange start dot and arrows on every numeral. Children trace, count and write on one page.",
+    "teaches": [
+      "Forming each numeral the right way",
+      "Matching a numeral to a quantity",
+      "Writing teen numbers and number words"
+    ],
+    "moment": "Use Count and Trace as a calm start to math: children count the pictures first, so the numeral always stands for something."
+  },
+  "money": {
+    "kw": "Money Worksheet Maker",
+    "lead": "Make money worksheets with real coins and bills from your country: counting, shopping math, making change and the fewest coins. Price tags and play money for a classroom store are included.",
+    "teaches": [
+      "Recognizing coins and what they are worth",
+      "Counting mixed coins and bills",
+      "Adding prices and working out change"
+    ],
+    "moment": "Print Classroom Store and set up a shop on the back table. Shopping Math pages then turn what happened at the store into written problems."
+  },
+  "telling-time": {
+    "kw": "Telling Time Worksheet Maker",
+    "lead": "Create clock worksheets from o'clock and half past to five-minute times, to the minute and elapsed time. Children read clocks, draw the hands and build their own clock.",
+    "teaches": [
+      "Reading clocks to the hour, half hour and five minutes",
+      "Drawing clock hands for a given time",
+      "Working out how much time has passed"
+    ],
+    "moment": "Use Make Your Own Clock once and have each child keep theirs in the desk. They set it for the morning routine and check it against the class clock."
+  },
+  "calendar": {
+    "kw": "Calendar Worksheet Maker",
+    "lead": "Make calendar worksheets for the days of the week, the months of the year, yesterday and tomorrow, and reading a full month. Birthday graphs and today's date pages fit your morning routine.",
+    "teaches": [
+      "Naming the days and months in order",
+      "Using yesterday, today and tomorrow",
+      "Reading dates on a calendar page"
+    ],
+    "moment": "Fill in a blank month together on the first school day, birthdays included. That page becomes the reference for every calendar question."
+  },
+  "measurement": {
+    "kw": "Measurement Worksheet Maker",
+    "lead": "Create measurement worksheets from big and small to rulers, paper clips, measuring cups, scales and thermometers. Children compare, order and measure with real units.",
+    "teaches": [
+      "Comparing length, height and weight",
+      "Measuring with paper clips, cubes and rulers",
+      "Reading scales, measuring cups and thermometers"
+    ],
+    "moment": "Print Rulers to Cut Out so every child has one, then send pairs around the room with Measure It!"
+  },
+  "graphs-data": {
+    "kw": "Graph and Data Worksheet Maker",
+    "lead": "Make picture graph, bar graph and line plot worksheets that children read and build themselves. They sort, tally, count and answer questions about the data.",
+    "teaches": [
+      "Sorting and counting data",
+      "Reading picture graphs and bar graphs",
+      "Using a scale where one picture stands for more"
+    ],
+    "moment": "Use Our Class Graph with a question your children care about, then ask each of them to write one true sentence about the result."
+  },
+  "shapes-geometry": {
+    "kw": "Shapes and Geometry Worksheet Maker",
+    "lead": "Create shape worksheets on sides, corners, faces and edges, 2D and solid shapes, nets, symmetry and area. Children sort, draw, cut and fold instead of only naming.",
+    "teaches": [
+      "Naming 2D and solid shapes by their features",
+      "Counting sides, corners, faces and edges",
+      "Drawing shapes and exploring area and perimeter"
+    ],
+    "moment": "Send children on a Right-Angle Hunt around the classroom with a folded paper corner, then sort what they found."
+  },
+  "symmetry-grids": {
+    "kw": "Symmetry and Grid Drawing Worksheet Maker",
+    "lead": "Make symmetry and grid-copy worksheets where children finish the other half, copy a picture square by square and draw it twice as big. Careful looking and steady hands grow together.",
+    "teaches": [
+      "Completing a picture along a mirror line",
+      "Copying a picture square by square",
+      "Flipping, turning and enlarging a drawing"
+    ],
+    "moment": "Use Copy the Grid Picture as a quiet task after recess. Children settle quickly, and you can see who keeps their place on a grid."
+  },
+  "maps-grids": {
+    "kw": "Map and Coordinates Worksheet Maker",
+    "lead": "Create map skills worksheets with bird's-eye views, map keys, directions, grid coordinates and continents. Treasure hunts and battleship games make the practice feel like play.",
+    "teaches": [
+      "Seeing a place from above and reading a map key",
+      "Using grid coordinates",
+      "Using north, east, south and west"
+    ],
+    "moment": "Hide a small prize in the room and let children write the route on Give the Directions for a partner to follow."
+  },
+  "patterns": {
+    "kw": "Pattern Worksheet Maker",
+    "lead": "Make pattern worksheets with AB, ABC and AABB patterns, growing patterns and number patterns, all with pictures from your theme. Children continue, complete and invent their own.",
+    "teaches": [
+      "Finding the part that repeats",
+      "Continuing and completing patterns",
+      "Describing growing and number patterns"
+    ],
+    "moment": "Ask children to clap or stamp the pattern on the page before they draw it. Hearing a pattern often helps the child who cannot see it yet."
+  },
+  "logic-puzzles": {
+    "kw": "Logic Puzzle Worksheet Maker",
+    "lead": "Generate logic worksheets: picture and number sudoku, number walls, logic grids, magic squares and balance puzzles. Every puzzle has one solution, and the levels grow with your class.",
+    "teaches": [
+      "Reasoning step by step from clues",
+      "Checking an answer against every rule",
+      "Sticking with a problem until it is solved"
+    ],
+    "moment": "Keep a stack of Picture Sudoku on the early-finisher shelf. It stretches quick workers without giving them more of the same."
+  },
+  "dot-to-dot": {
+    "kw": "Dot to Dot Worksheet Maker",
+    "lead": "Create dot-to-dot worksheets where children count to 20, count back, skip count, follow the alphabet or solve math facts. The hidden picture keeps children going to the last dot.",
+    "teaches": [
+      "Saying the number sequence in order",
+      "Counting back and skip counting",
+      "Following the alphabet in capital and small letters"
+    ],
+    "moment": "Ask children to guess the picture before they start and again halfway. They will check every number to find out."
+  },
+  "color-by-number": {
+    "kw": "Color by Number Worksheet Maker",
+    "lead": "Make color by number and color by code pages where each color is an answer: addition, subtraction, sight words, first sounds and multiplication facts. The finished picture shows the work.",
+    "teaches": [
+      "Practicing math facts with a built-in check",
+      "Reading a color key carefully",
+      "Working calmly through a whole page"
+    ],
+    "moment": "Use a color-by-code page for fact practice on a Friday. A wrong answer shows up as a color in the wrong place, so children often find it themselves."
+  },
+  "coloring-pages": {
+    "kw": "Coloring Page Maker for the Classroom",
+    "lead": "Create coloring pages from our picture library, with words to trace, a sentence to write or a key to follow. Make a mini coloring booklet for any theme you are teaching.",
+    "teaches": [
+      "Building pencil control and hand strength",
+      "Linking pictures to words",
+      "Talking about what is on the page"
+    ],
+    "moment": "Fold A Mini Coloring Booklet on the first day of a new theme. Children take home the words they met in class."
+  },
+  "same-different": {
+    "kw": "Same and Different Worksheet Maker",
+    "lead": "Make visual discrimination worksheets: find the odd one out, match the shadows, the pairs, the twins and the missing piece. Close looking comes before reading and math.",
+    "teaches": [
+      "Seeing what is the same and what is different",
+      "Matching shapes, shadows and mirror images",
+      "Keeping attention on small details"
+    ],
+    "moment": "Ask what is different and how the children know. The reasons they give are early practice in explaining their thinking."
+  },
+  "position-words": {
+    "kw": "Position Words Worksheet Maker",
+    "lead": "Create worksheets for on, under, beside, left, right, top, middle and bottom. Children read, draw, glue and choose the word, so the language of position becomes their own.",
+    "teaches": [
+      "Understanding words for position",
+      "Telling left from right",
+      "Following instructions that use position words"
+    ],
+    "moment": "Play a quick round with a teddy and a chair first, then hand out Read and Draw so children place their own picture."
+  },
+  "sorting": {
+    "kw": "Sorting and Categories Worksheet Maker",
+    "lead": "Make sorting worksheets with cut-and-paste groups, mats and picture cards: foods, transportation, wants and needs, community helpers. Children choose a rule and explain it.",
+    "teaches": [
+      "Grouping pictures by a rule",
+      "Spotting what does not belong",
+      "Explaining why something fits a group"
+    ],
+    "moment": "Hand out Sorting Mats and Picture Cards and let partners invent a rule. The other pair has to guess it."
+  },
+  "mazes": {
+    "kw": "Maze Worksheet Maker",
+    "lead": "Generate mazes from first preschool paths to giant puzzles, plus alphabet, number, addition and beginning-sound mazes. Every maze is solved before it reaches you, so there is always a way through.",
+    "teaches": [
+      "Planning a path and looking ahead",
+      "Keeping a steady pencil line",
+      "Practicing letters, numbers and math facts on the way"
+    ],
+    "moment": "Use a math maze as morning work: children reach the end only by getting the answers right, so the page checks itself."
+  },
+  "find-the-differences": {
+    "kw": "Find the Differences Worksheet Maker",
+    "lead": "Create find-the-differences pages with 3, 5, 7 or 10 changes in real picture scenes, plus missing objects, color changes and mirror pictures. Most can also be played on screen.",
+    "teaches": [
+      "Scanning a picture in an orderly way",
+      "Naming what changed",
+      "Writing about what is different"
+    ],
+    "moment": "Let partners take turns describing a difference without pointing. They have to find the words for where it is and what changed."
+  },
+  "how-to-draw": {
+    "kw": "How to Draw Worksheet Maker",
+    "lead": "Make step-by-step drawing pages where every new line is shown in color. Children follow, trace, finish and then draw from memory, with word and sentence pages for writing time.",
+    "teaches": [
+      "Breaking a picture into simple shapes",
+      "Following steps in order",
+      "Writing about what they drew"
+    ],
+    "moment": "Draw the first step together on the board, then let children finish alone. The picture gives even reluctant writers something to write about."
+  },
+  "tangram": {
+    "kw": "Tangram Worksheet Maker",
+    "lead": "Create tangram worksheets with pieces to cut out, shadows to build and questions about the shapes. Start with two-piece puzzles and move on to full figures.",
+    "teaches": [
+      "Turning and fitting shapes",
+      "Seeing shapes inside other shapes",
+      "Planning before placing a piece"
+    ],
+    "moment": "Cut the pieces once, keep them in an envelope and use a new shadow each week for a few minutes of quiet puzzling."
+  },
+  "picture-tracing": {
+    "kw": "Picture Tracing Worksheet Maker",
+    "lead": "Make picture tracing pages from big round shapes for preschool to dotted town scenes for first grade. Children trace straight lines, zigzags, spirals and loops that turn into a real picture.",
+    "teaches": [
+      "Controlling a pencil along a line",
+      "Drawing straight, curved and looping strokes",
+      "Getting ready to write letters"
+    ],
+    "moment": "Let children trace a big page with a finger first, then a crayon, then a pencil. The same picture works three times."
+  },
+  "pre-writing": {
+    "kw": "Pre-Writing Worksheet Maker",
+    "lead": "Create pre-writing worksheets with straight lines, zigzags, waves, loops and spirals, from the first pencil paths to the strokes of real letters. Scissor practice is included.",
+    "teaches": [
+      "Holding and steering a pencil",
+      "Drawing the basic strokes behind letters",
+      "Cutting along a line"
+    ],
+    "moment": "Slide a page into a plastic sleeve and use a dry-erase marker, so children can repeat the same path many times."
+  },
+  "letter-tracing": {
+    "kw": "Letter Tracing Worksheet Maker",
+    "lead": "Make letter tracing worksheets for capital and lowercase letters, vowels and a child's own name. Every page uses the alphabet of the language you choose.",
+    "teaches": [
+      "Forming capital and lowercase letters",
+      "Linking each letter to a picture",
+      "Writing their own name"
+    ],
+    "moment": "Print Trace Your Name for each child on the first day. It is the word they care about most, and it shows you where they are starting."
+  },
+  "word-writing": {
+    "kw": "Word Tracing and Writing Worksheet Maker",
+    "lead": "Create word tracing and writing worksheets: trace, copy, write from a picture, fill letter boxes and label pictures. Children move step by step from tracing to writing on their own.",
+    "teaches": [
+      "Tracing and copying whole words",
+      "Spelling from a picture with less and less help",
+      "Writing words on lines"
+    ],
+    "moment": "Give three versions of the same words: one with the first letter, one with a word bank and one with no help. Everyone writes the same list at their own level."
+  },
+  "cursive": {
+    "kw": "Cursive Handwriting Worksheet Maker",
+    "lead": "Make cursive worksheets for letters, joins, words and sentences, with the cursive alphabet and reading practice. Children learn to join letters and to read joined writing too.",
+    "teaches": [
+      "Forming cursive letters",
+      "Joining letters smoothly",
+      "Reading cursive as well as writing it"
+    ],
+    "moment": "Use Cursive Letter of the Day for five minutes each morning. Short daily practice builds fluent joins."
+  },
+  "alphabet": {
+    "kw": "Alphabet Worksheet Maker",
+    "lead": "Create alphabet worksheets for letter recognition, capital and small letters, vowels, ABC order and letter of the week. Every page uses the alphabet of the language you choose.",
+    "teaches": [
+      "Recognizing and naming letters",
+      "Matching capital and small letters",
+      "Putting words in ABC order"
+    ],
+    "moment": "Use Letter of the Week on Monday, then send children on a Letter Hunt through a book or a page of print."
+  },
+  "phonics": {
+    "kw": "Phonics Worksheet Maker",
+    "lead": "Make phonics worksheets for beginning, middle and ending sounds, digraphs, blends and long and short vowels. Sound boxes, clip cards and sorts give children practice with real pictures.",
+    "teaches": [
+      "Hearing beginning, middle and ending sounds",
+      "Blending and counting the sounds in a word",
+      "Reading digraphs and blends"
+    ],
+    "moment": "Use Sound Boxes with counters: children push one counter per sound before they write. Their hands make the sounds visible."
+  },
+  "rhyming": {
+    "kw": "Rhyming Words Worksheet Maker",
+    "lead": "Create rhyming worksheets with pairs, memory cards, dominoes and sorts, built on words that really rhyme in your language. Children hear, match and then write their own rhymes.",
+    "teaches": [
+      "Hearing words that rhyme",
+      "Finding the word that does not fit",
+      "Writing rhyming words"
+    ],
+    "moment": "Play Rhyme Memory Cards aloud: a pair only counts when a child says both words."
+  },
+  "syllables": {
+    "kw": "Syllable Worksheet Maker",
+    "lead": "Make syllable worksheets to clap, count, split and join words, plus word families. The syllable breaks follow what children learn at school in your language.",
+    "teaches": [
+      "Clapping and counting syllables",
+      "Splitting words and joining them again",
+      "Reading word families"
+    ],
+    "moment": "Clap the words on the page together before children write. A word they can feel in their hands is easier to split."
+  },
+  "sight-words": {
+    "kw": "Sight Word Worksheet Maker",
+    "lead": "Create sight word worksheets for the word you are teaching: read it, trace it, find it, color it and build it. Flash cards, roll-and-read and rainbow writing keep the practice fresh.",
+    "teaches": [
+      "Reading common words on sight",
+      "Writing words from memory",
+      "Using sight words in sentences"
+    ],
+    "moment": "Pick one word for the week and use a different page each day: read it, trace it, find it, use it."
+  },
+  "spelling": {
+    "kw": "Spelling Worksheet Maker",
+    "lead": "Make spelling worksheets with word scrambles, missing letters, look-cover-write-check and letter tiles, plus pages for spelling rules. Practice the rule your class is working on.",
+    "teaches": [
+      "Building words from their sounds",
+      "Remembering spellings with look, cover, write, check",
+      "Applying spelling rules"
+    ],
+    "moment": "Let children use Letter Tiles and Word Mats before writing. Moving a tile is easier to undo than a pencil mark, so they try more."
+  },
+  "nouns-articles": {
+    "kw": "Singular and Plural Worksheet Maker",
+    "lead": "Create worksheets for singular and plural nouns and the right article, with pictures children can name. One and many, a or an, and sorting pages are all here.",
+    "teaches": [
+      "Telling one from many",
+      "Writing plural nouns",
+      "Choosing the right article"
+    ],
+    "moment": "Hold up one pencil, then three, and ask the class to say the word. Then let the page do the same with pictures."
+  },
+  "grammar": {
+    "kw": "Grammar Worksheet Maker",
+    "lead": "Make grammar worksheets for nouns, verbs, adjectives, pronouns and verb forms. Children sort words into bins, change sentences and find the right form at three levels.",
+    "teaches": [
+      "Telling nouns, verbs and adjectives apart",
+      "Using pronouns in sentences",
+      "Choosing the right verb form"
+    ],
+    "moment": "Use Word Classes as a sorting game with scissors before asking for it on paper. Moving words helps children feel the categories."
+  },
+  "word-meaning": {
+    "kw": "Opposites and Synonyms Worksheet Maker",
+    "lead": "Create vocabulary worksheets on opposites, synonyms, compound words, prefixes and root words. Picture pages start the work, and sentence pages take it further.",
+    "teaches": [
+      "Finding opposites and words that mean the same",
+      "Breaking compound words apart",
+      "Using roots and prefixes to work out meaning"
+    ],
+    "moment": "Hang Shades of Meaning on the wall and add words as they come up in stories. Children start to choose stronger words on their own."
+  },
+  "sentences": {
+    "kw": "Sentence Worksheet Maker",
+    "lead": "Make sentence worksheets: unscramble, fill in the blank, fix the capitals and end marks, ask questions and stretch a sentence. Pictures support early readers at every step.",
+    "teaches": [
+      "Putting words in the right order",
+      "Starting with a capital and ending with the right mark",
+      "Asking and answering questions"
+    ],
+    "moment": "Cut up Unscramble the Sentence and let children build it on the table first. Trying the words in different orders is half the lesson."
+  },
+  "reading": {
+    "kw": "Reading Comprehension Worksheet Maker",
+    "lead": "Create reading comprehension worksheets with short stories and questions, read-and-color pages and read-and-do instructions. Children show they understood by doing, not only by answering.",
+    "teaches": [
+      "Reading for detail",
+      "Following written instructions",
+      "Answering questions about a short story"
+    ],
+    "moment": "Use Read and Color for a quiet check: one glance at the colors shows which sentence a child did not understand."
+  },
+  "stories-writing": {
+    "kw": "Story and Writing Worksheet Maker",
+    "lead": "Make story sequencing and writing worksheets: number the pictures, map a story, write a comic, a postcard or a fact file. Starters and word banks help every child get going.",
+    "teaches": [
+      "Putting events in order",
+      "Telling a beginning, middle and end",
+      "Writing sentences about a picture or an animal"
+    ],
+    "moment": "Let children retell the sequencing pictures to a partner before writing a word. A story they have told is easier to write."
+  },
+  "me-family-feelings": {
+    "kw": "All About Me and Feelings Worksheet Maker",
+    "lead": "Create all-about-me, family and feelings worksheets for the start of the year and for calm moments. Faces, family trees and thermometers give children the words for what they feel.",
+    "teaches": [
+      "Naming feelings and seeing them on faces",
+      "Talking about family and who is who",
+      "Saying what they like and what they can do"
+    ],
+    "moment": "Keep Feelings Cards by the door for a morning check-in. Children point to a card, and you know who needs a little extra attention."
+  },
+  "picture-cards": {
+    "kw": "Picture Card and Vocabulary Worksheet Maker",
+    "lead": "Make picture cards, word cards, memory games, word wall labels and a picture dictionary on any theme. Bilingual cards put two languages side by side for multilingual classrooms.",
+    "teaches": [
+      "Learning new words with pictures",
+      "Matching words and pictures",
+      "Building a class word wall"
+    ],
+    "moment": "Print Bilingual Picture Cards in English and a child's home language, so a new arrival can show what they already know."
+  },
+  "word-search": {
+    "kw": "Word Search Worksheet Maker for Kids",
+    "lead": "Create word search worksheets for the classroom: picture clues for early readers, number words, puzzles in a shape, two-language grids and a secret message to find.",
+    "teaches": [
+      "Recognizing words by their spelling",
+      "Scanning rows and columns in order",
+      "Reviewing theme vocabulary"
+    ],
+    "moment": "Use a Picture Word Search at the end of a theme. Children who cannot read every word yet can still find them from the pictures."
+  },
+  "crossword": {
+    "kw": "Crossword Worksheet Maker for Kids",
+    "lead": "Make classroom crosswords with picture clues, word banks and arrow-word grids, including two-language puzzles. Children spell each word and the grid checks their letters.",
+    "teaches": [
+      "Spelling words letter by letter",
+      "Using a picture or a word bank as a clue",
+      "Reviewing vocabulary"
+    ],
+    "moment": "Let partners share one Picture Crossword: one says the word, the other writes it."
+  },
+  "secret-code": {
+    "kw": "Secret Code Worksheet Maker",
+    "lead": "Create secret code worksheets where children crack picture, number and sum codes to reveal a word. They can even build their own code for a friend.",
+    "teaches": [
+      "Using a key to decode",
+      "Practicing letters or sums with a purpose",
+      "Reading a hidden word"
+    ],
+    "moment": "Put tomorrow's surprise in a secret code and leave it on the board. Everyone will want to solve it."
+  },
+  "bingo": {
+    "kw": "Classroom Bingo Worksheet Maker",
+    "lead": "Make classroom bingo for pictures, sight words, letter sounds, number words, shapes, sums and clocks. Every game comes with caller cards, so you can play in minutes.",
+    "teaches": [
+      "Listening and matching quickly",
+      "Reviewing words, sounds or facts",
+      "Taking turns in a group game"
+    ],
+    "moment": "Let a child be the caller once the class knows the game. Reading the cards aloud is good practice in itself."
+  }
+}

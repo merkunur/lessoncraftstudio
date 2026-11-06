@@ -9,12 +9,28 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import {
   MAKER_KEYS,
   getMakerContent,
-  makerGeneratorUrl,
   MakerKey,
 } from '@/lib/seo/maker-content';
 import { fetchMakerSamples } from '@/lib/seo/maker-samples';
-import { smartLaunchUrl } from '@/lib/makers/smart-link';
+import { smartLaunchUrl, smartMaker } from '@/lib/makers/smart-link';
+import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
+import {
+  catalogMaker,
+  getTemplateFile,
+  getUi,
+  landingPath,
+  makerAppUrl,
+  makerNames,
+  previewUrl,
+  templatesIn,
+} from '@/lib/makers/landings';
+import { ribbonStrings } from '@/lib/makers/ribbon';
+import '@/components/maker-landing/maker-landing.css';
+import { Baloo_2, Nunito } from 'next/font/google';
 import MakerSamples, { makerScreenshots } from './MakerSamples';
+
+const baloo2 = Baloo_2({ weight: ['600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-baloo-2', display: 'swap', preload: true });
+const nunito = Nunito({ weight: ['400', '600', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-nunito', display: 'swap', preload: true });
 
 /**
  * Per-maker landing page body — /<locale>/tools/<native-slug>/ for a worksheet
@@ -73,11 +89,13 @@ export default async function MakerLanding({
   const content = await getMakerContent(locale, makerKey);
   if (!content) return null;
 
-  // The smart link (ARCHITECTURE §13, operator 2026-10-31): once this app's NEW maker is released on this server, the
-  // launch button opens it on the template that does what the old app did, in this language; until then (and for an
-  // old app whose maker is not released) the old generator launches exactly as before. Nothing else on the landing
-  // changes — its text, title, meta, canonical, hreflang and JSON-LD keep their SEO (gate: scripts/makers/gates/old-landings.js).
-  const launchUrl = smartLaunchUrl(makerKey, locale) ?? makerGeneratorUrl(makerKey, locale);
+  // The smart link (ARCHITECTURE §13, operator 2026-10-31): the launch button opens the NEW maker on the template that does
+  // what the old app did, in this language. The old apps are gone (operator 2026-11-06), so a maker that cannot be read
+  // from the served tree falls back to its landing, never to an old generator. This page's text, title, meta, canonical,
+  // hreflang and JSON-LD keep their SEO: everything below only adds to them (gate: scripts/makers/gates/old-landings.js).
+  const newId = smartMaker(makerKey);
+  const newLanding = newId ? await landingPath(newId, locale) : null;
+  const launchUrl = smartLaunchUrl(makerKey, locale) ?? newLanding ?? `/${locale}/worksheet-makers`;
   const launchLabel = content.labels.launchCta.replace('{name}', content.name);
   // Sample-modal action buttons (Download PDF / Answer key / Make your own). The deck's
   // own baked strip is hidden inside an iframe, so the modal renders them host-side.
@@ -85,7 +103,8 @@ export default async function MakerLanding({
 
   // "See what you can make" samples — fetched once here so the JSON-LD screenshots
   // and the rendered section share a single DB read (ISR-cached).
-  const samplesData = await fetchMakerSamples(makerKey, locale);
+  // DB down: the page keeps every word of its text and simply shows no deck samples, rather than failing.
+  const samplesData = await fetchMakerSamples(makerKey, locale).catch(() => ({ kind: 'none' as const, multiMode: false, samples: [], crossLanguage: [] }));
   const screenshots = makerScreenshots(samplesData);
 
   // Sibling makers in this locale (link mesh) + other-language siblings.
@@ -103,7 +122,16 @@ export default async function MakerLanding({
     if (c && c.slug) otherLangs.push({ locale: loc, href: `/${loc}/tools/${c.slug}` });
   }
 
-  const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
+  /* The new maker this page leads to: its real sheets, in this language. */
+  const [ui, tplFile, names] = await Promise.all([getUi(locale), getTemplateFile(locale), makerNames(locale)]);
+  const rb = ribbonStrings(locale);
+  const newTemplates = newId ? templatesIn(newId, locale) : [];
+  const newTitles = newId ? tplFile?.[newId] ?? {} : {};
+  const showcase = newId ? (catalogMaker(newId)?.showcase[locale] ?? []).slice(0, 3) : [];
+  const wall = newTemplates.slice(0, 12);
+  const newName = newId ? names[newId] : '';
+
+    const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: tBreadcrumb('home'), path: localePath(locale) },
     { name: content.labels.makersBreadcrumb, path: localePath(locale, 'worksheet-makers') },
@@ -111,8 +139,8 @@ export default async function MakerLanding({
   ] as BreadcrumbCrumb[]);
 
   return (
-    <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
-      <article className="mx-auto max-w-3xl">
+    <main className={`ml ${baloo2.variable} ${nunito.variable}`}>
+      <div className="ml-crumbs">
         <BreadcrumbTrail
           locale={locale}
           trail={[
@@ -120,28 +148,72 @@ export default async function MakerLanding({
             { label: content.name },
           ]}
         />
+      </div>
 
-        <section
-          className="relative overflow-hidden mt-3 md:mt-4 rounded-2xl md:rounded-3xl bg-[#DBE7DF] px-4 pt-6 pb-8 md:px-8 md:pt-8 md:pb-10 shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_28px_64px_rgba(20,30,28,0.12)]"
-          aria-label={content.name}
-        >
-          <header className="relative z-10 text-center">
-            <h1 className="font-display font-semibold text-xl md:text-2xl text-teal-800 leading-tight mb-1">
-              {content.name}
-            </h1>
-            <p className="text-sm md:text-base text-ink-600/80 max-w-2xl mx-auto leading-snug">{content.tagline}</p>
-            <div className="mt-5">
-              <a
-                href={launchUrl}
-                className="inline-flex items-center gap-2 rounded-full bg-[#F2784B] hover:bg-[#D9633A] text-white font-semibold text-base md:text-lg px-7 py-3 shadow-md transition-colors"
-              >
-                {launchLabel}
-                <span aria-hidden="true">→</span>
-              </a>
+      <section className="ml-hero ml-mat" aria-label={content.name}>
+        <div className="ml-hero-inner">
+          <header className="ml-hero-copy">
+            <h1>{content.name}</h1>
+            <p className="ml-lead">{content.tagline}</p>
+            <div className="ml-ctas">
+              <a href={launchUrl} className="ml-btn">{launchLabel}</a>
+              {newLanding ? <a className="ml-link-light" href={newLanding}>{rb.upgradeCta}</a> : null}
             </div>
+            {ui ? <p className="ml-free-line">{ui.freeLine}</p> : null}
           </header>
-        </section>
+          {showcase.length ? (
+            <div className="ml-fan">
+              {[showcase[1], showcase[2], showcase[0]].map((t, i) => (t ? (
+                <img
+                  key={t}
+                  className={`ml-fan-sheet is-${[1, 2, 0][i]}`}
+                  src={previewUrl(newId!, locale, t)}
+                  alt={`${newTitles[t]?.[0] ?? newName}, ${newName}`}
+                  width={640}
+                  height={860}
+                  decoding="async"
+                  {...(i === 2 ? { fetchPriority: 'high' as const } : {})}
+                />
+              ) : null))}
+            </div>
+          ) : null}
+        </div>
+        <div className="ml-ruler" aria-hidden="true" />
+      </section>
 
+      {ui ? (
+        <ul className="ml-proofs">
+          <li><strong>{ui.proofPictures}</strong><span>{ui.proofPicturesBody}</span></li>
+          <li><strong>{ui.proofLanguages}</strong><span>{ui.proofLanguagesBody}</span></li>
+          <li><strong>{ui.proofTwoWays}</strong><span>{ui.proofTwoWaysBody}</span></li>
+          <li><strong>{ui.proofShare}</strong><span>{ui.proofShareBody}</span></li>
+        </ul>
+      ) : null}
+
+      {newId && newLanding ? (
+        <section className="ml-wall" aria-labelledby="ml-new-h">
+          <header className="ml-wall-head">
+            <h2 id="ml-new-h">{rb.upgradeTitle}</h2>
+            <p>{rb.upgradeBody.replace('{name}', newName).replace('{count}', String(newTemplates.length))}</p>
+          </header>
+          <ul className="ml-grid">
+            {wall.map((t) => (
+              <li key={t.id}>
+                <a className="ml-card" href={makerAppUrl(newId, locale, t.id)}>
+                  <span className="ml-card-paper">
+                    <img src={previewUrl(newId, locale, t.id)} alt={`${newTitles[t.id]?.[0] ?? newName}, ${newName}`} width={640} height={860} loading="lazy" decoding="async" />
+                    {t.screen && ui ? <span className="ml-card-flag">{ui.alsoOnScreen}</span> : null}
+                  </span>
+                  <span className="ml-card-title">{newTitles[t.id]?.[0]}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="ml-wall-more"><a className="ml-btn" href={newLanding}>{rb.upgradeCta}</a></p>
+        </section>
+      ) : null}
+
+      <article className="mx-auto max-w-3xl px-4">
         {/* "See what you can make" — per-mode playable samples (+ cross-language strip
             for crossword/wordsearch/matching). Highest-intent spot, right under the
             hero CTA; renders nothing for makers with no interactive decks. */}
@@ -249,6 +321,48 @@ export default async function MakerLanding({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </article>
+
+      {ui ? (
+        <section className="ml-plans ml-mat" aria-labelledby="ml-plans-h">
+          <div className="ml-plans-inner">
+            <h2 id="ml-plans-h">{ui.plansTitle}</h2>
+            <p className="ml-plans-sub">{ui.plansBody}</p>
+            <div className="ml-plan-cols">
+              <div className="ml-plan">
+                <h3>{ui.planFreeName}</h3>
+                <p className="ml-price">{ui.planFreePrice}</p>
+                <ul>
+                  <li>{ui.planFree1}</li>
+                  <li>{ui.planFree2}</li>
+                  <li>{ui.planFree3}</li>
+                </ul>
+                <a className="ml-btn-ghost" href={launchUrl}>{launchLabel}</a>
+              </div>
+              <div className="ml-plan is-paid">
+                <h3>{ui.planPaidName}</h3>
+                <p className="ml-price">{ui.planPaidPrice.replace('{year}', String(SUBSCRIPTION_PRODUCT.priceUsd)).replace('{month}', String(SUBSCRIPTION_PRODUCT.monthlyPriceUsd))}</p>
+                <ul>
+                  <li>{ui.planPaid1}</li>
+                  <li>{ui.planPaid2}</li>
+                  <li>{ui.planPaid3}</li>
+                  <li>{ui.planPaid4}</li>
+                </ul>
+                <Link className="ml-btn" href={`/${locale}/pricing`}>{ui.seePlans}</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <Link className="ml-hub-link ml-mat" href={`/${locale}/worksheet-makers`}>
+        <span className="ml-hub-stack" aria-hidden="true">
+          {showcase.map((t) => (<img key={t} src={previewUrl(newId!, locale, t)} alt="" width={640} height={860} loading="lazy" decoding="async" />))}
+        </span>
+        <span className="ml-hub-text">
+          <strong>{rb.all}</strong>
+          {ui ? <span>{ui.seeAllBody}</span> : null}
+        </span>
+      </Link>
     </main>
   );
 }

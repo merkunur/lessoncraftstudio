@@ -1,0 +1,202 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Lukuetsivä",
+   "Salainen luku on jokin luvuista 1–50. Lue vihjeet ja kirjoita luku, joka sopii niihin kaikkiin."
+  ],
+  "G3-472": [
+   "Häkkipulmat 4 × 4",
+   "Jokaisella rivillä ja jokaisessa sarakkeessa on numerot 1, 2, 3 ja 4 täsmälleen kerran. Paksureunaisen häkin numeroiden summa on häkin kulmassa oleva pieni luku."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Väritä numeroiden mukaan: Lammas maatilalla",
+   "Väritä jokainen osa sen numeron värillä."
+  ],
+  "K-394": [
+   "Väritä numeroiden mukaan: Peura",
+   "Väritä jokainen osa sen numeron värillä."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Hypi hunajakennon läpi aakkosjärjestyksessä",
+   "Aloita ruudusta, johon nuoli osoittaa. Väritä aina aakkosten seuraava kirjain viereisessä ruudussa, kirjaimeen Ö asti."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Etsi viisi virhettä: Joutsen lammella",
+   "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
+  ],
+  "K-397": [
+   "Etsi kolme virhettä: Kalkkuna maatilalla",
+   "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Piirrä kilpikonna vaihe vaiheelta",
+   "Katso numeroituja vaiheita ja piirrä kuva isoon ruutuun: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
+  ],
+  "K-401": [
+   "Piirrä pesukarhu yksinkertaisista muodoista",
+   "Piirrä ruudun katkoviivamuotojen päälle ja viimeistele kuva sitten jokaisen vaiheen uusilla viivoilla."
+  ],
+  "K-402": [
+   "Piirrä viivojen päälle ja sitten itse: rumpu",
+   "Piirrä kynällä harmaan kuvan viivojen päälle ja piirrä se sitten itse viereiseen tyhjään ruutuun."
+  ],
+  "K-403": [
+   "Piirrä valmiiksi: dinosaurus",
+   "Katso kokonaista kuvaa, piirrä toiseen kuvaan puuttuvat viivat ja piirrä sitten oma kuvasi alle."
+  ],
+  "K-404": [
+   "Piirrä vuohi ja kirjoita sana",
+   "Piirrä kuva ruutuun vaiheiden avulla, kirjoita sitten harmaan sanan päälle ja kirjoita sana vielä itse tyhjälle riville."
+  ],
+  "G1-416": [
+   "Piirrä riikinkukko ruudukon avulla",
+   "Katso kuvaa ruudukossa, piirrä se ruutu kerrallaan tyhjään ruudukkoon ja sitten vielä kerran ilman ruudukkoa."
+  ],
+  "G1-417": [
+   "Piirrä surikaatti kuvaan",
+   "Seuraa vaiheita ja piirrä sitten kuvasta puuttuva kohde tyhjään kohtaan."
+  ],
+  "G1-418": [
+   "Laita vaiheet järjestykseen: piirrä sika",
+   "Vaiheet ovat sekaisin: kirjoita viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten kuva isoon ruutuun."
+  ],
+  "G1-419": [
+   "Vaihe vaiheelta: piirrä virtahepo",
+   "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko kuva isompana alimpaan ruutuun."
+  ],
+  "G2-390": [
+   "Piirrä mehiläinen ja kirjoita siitä",
+   "Piirrä kuva vaiheiden avulla ja kirjoita sitten viivoille kolme lausetta piirustuksestasi; aloita valmiiksi kirjoitetuilla sanoilla."
+  ],
+  "G2-391": [
+   "Piirrä hiekkalinna muistista",
+   "Katso kuvaa, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isoon ruutuun."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Viikon kirjain Nn: kirjainjahti",
+   "Jäljennä iso ja pieni kirjain. Ympyröi neljä kuvaa, joiden nimi alkaa N-kirjaimella, ja kirjoita sitten rivi kumpaakin."
+  ],
+  "K-325": [
+   "Kuuluuko N? Äänne sanan sisällä",
+   "Jäljennä kirjain. Ympyröi neljä kuvaa, joiden nimessä N-äänne kuuluu sanan sisällä, ei alussa."
+  ],
+  "K-326": [
+   "Missä tavussa N kuuluu?",
+   "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa N kuuluu: alussa, keskellä vai lopussa."
+  ],
+  "K-327": [
+   "Ympyröi N sanoista ja laske",
+   "Etsi jokaisesta sanasta kaikki N- ja n-kirjaimet ja ympyröi ne. Kirjoita ruutuun, montako löysit."
+  ],
+  "G1-311": [
+   "Kaksoiskonsonantti kk: pitkä äänne",
+   "Jäljennä kk. Ympyröi neljä kuvaa, joiden nimessä kuuluu pitkä kk-äänne, ja kirjoita sitten rivi."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Päivän sana: ja",
+   "Lue sana. Jäljennä se, kirjoita se ja käytä sitä lauseissa."
+  ],
+  "K-389": [
+   "Tuttu sana lauseissa: ja",
+   "Lue jokainen lause. Kirjoita sana ”ja” viivalle."
+  ],
+  "K-390": [
+   "Lause, jossa on sana ja",
+   "Harjoittele yhtä lausetta vaihe vaiheelta."
+  ],
+  "K-391": [
+   "Jäljennä lauseet: ja",
+   "Jäljennä jokainen lause. Kirjoita se sitten alla olevalle viivalle."
+  ],
+  "K-392": [
+   "Etsi sana: ja",
+   "Väritä jokainen ruutu, jossa on sana ”ja”. Laske ne ja kirjoita luku."
+  ],
+  "K-433": [
+   "Lue, jäljennä, kirjoita: ja",
+   "Lue sana. Jäljennä se. Kirjoita se. Kirjoita se sitten jokaiseen lauseeseen."
+  ],
+  "K-434": [
+   "Jäljennä sana ja lause: ja",
+   "Jäljennä sana. Jäljennä sitten lause jokaisella rivillä."
+  ],
+  "K-435": [
+   "Lue ja piirrä: ja",
+   "Lue lause. Jäljennä se. Piirrä sitten, mitä lauseessa sanotaan."
+  ],
+  "K-436": [
+   "Etsi ja laske: ja",
+   "Ympyröi sana ”ja” aina, kun näet sen. Montako kertaa löysit sen?"
+  ],
+  "K-438": [
+   "Rakenna sana: ja",
+   "Leikkaa kirjaimet irti. Liimaa ne oikeaan järjestykseen niin, että niistä tulee sana."
+  ],
+  "K-439": [
+   "Sateenkaarikirjoitus: ja",
+   "Jäljennä jokainen sana kolme kertaa, joka kerta eri värillä. Kirjoita se sitten."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Oikeinkirjoitus: kk vai k",
+   "Lue sääntö laatikosta. Katso kuvaa ja sano sana. Kirjoita aukkoon puuttuvat kirjaimet: yksi vai kaksi?"
+  ],
+  "G2-324": [
+   "Kumpi on oikein: kk vai k?",
+   "Sano kuvan sana ääneen. Kuuluuko äänne pitkänä vai lyhyenä? Ympyröi oikea vaihtoehto ja kirjoita se aukkoon."
+  ],
+  "G2-325": [
+   "Etsi sääntökirjaimet: kk vai k",
+   "Lue jokainen sana. Etsi sanasta sääntökirjaimet, ympyröi ne ja kirjoita ne ruutuun."
+  ],
+  "G2-326": [
+   "Lajittele sanat: kk vai k",
+   "Sano kuvan sana ääneen. Kirjoita koko sana siihen koriin, johon se kuuluu: pitkä vai lyhyt äänne."
+  ],
+  "G2-327": [
+   "Koko sana: kk vai k",
+   "Sääntökirjaimet on kirjoitettu valmiiksi. Sano kuvan sana ja kirjoita jokaiseen tyhjään ruutuun yksi kirjain."
+  ],
+  "G2-328": [
+   "Astevaihtelu: kukka, kukat",
+   "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Eläinkortti: Siili",
+   "Ota selvää eläimestä. Kirjoita eläinkortin jokaiselle riville yksi tieto ja täytä sitten sivun loppu omalla piirroksella tai omilla sanoilla."
+  ],
+  "G2-339": [
+   "Siili: ympyröi oikeat tiedot",
+   "Lue jokaisen rivin vaihtoehdot ja ympyröi se, joka pitää paikkansa tästä eläimestä. Piirrä sitten, missä se elää, ja täydennä lause."
+  ],
+  "G2-340": [
+   "Siili: eläinkortti sanapankin avulla",
+   "Etsi sanapankista jokainen oikea tieto ja kirjoita se eläinkortin oikealle riville. Täydennä lopuksi lause sivun alalaidassa."
+  ],
+  "G2-341": [
+   "Siili: kirjoita kolme lausetta",
+   "Lue eläinkortti. Täydennä kolme lausetta kortin tiedoilla ja kirjoita sitten viimeiselle riville yksi oma tieto."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Kaksikieliset kuvakortit: suomi ja englanti",
+   "Leikkaa kahdeksan korttia irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+  ]
+ }
+}

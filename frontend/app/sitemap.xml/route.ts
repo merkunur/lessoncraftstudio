@@ -33,7 +33,8 @@ export const revalidate = 3600;
 // generateSitemaps from app/sitemap.ts).
 // 2026-07-31: shard 9 = the 802 /<locale>/tools/<slug> tool + maker landings
 // plus the 11 /tools hubs, split out of shard 3 on the same rationale as 8.
-const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// 2026-11-06: shard 10 = the 647 new worksheet maker landings, with their images (app/sitemap/10.xml/route.ts).
+const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 export async function GET() {
   const baseUrl = 'https://www.lessoncraftstudio.com';

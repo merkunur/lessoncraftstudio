@@ -759,13 +759,15 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
        them — so the fixture is the product's own code, and the check
        doubles as a fan-out completeness assertion. */
     const HANDLER = 'document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});';
-    const missing = hostable.filter((a) => {
-      const p = path.join(__dirname, '..', 'REFERENCE APPS', a + '.html');
-      return !fs.existsSync(p) || fs.readFileSync(p, 'utf8').indexOf(HANDLER) === -1;
-    });
+    /* The 33 old apps were removed 2026-11-06 (operator). Pages teachers already saved
+       keep the handler they were made with, so the CSP contract below still matters;
+       the fan-out check runs over whichever app files are left. */
+    const appFile = (a) => path.join(__dirname, '..', 'REFERENCE APPS', a + '.html');
+    const stillHere = hostable.filter((a) => fs.existsSync(appFile(a)));
+    const missing = stillHere.filter((a) => fs.readFileSync(appFile(a), 'utf8').indexOf(HANDLER) === -1);
     is(missing.length === 0, missing.length
       ? `⭐ ${missing.length} hostable app(s) lack the print handler: ${missing.join(', ')}`
-      : `all ${hostable.length} hostable apps carry the verbatim print handler`);
+      : `the ${stillHere.length} remaining app file(s) carry the verbatim print handler`);
 
     /* THE CONTRACT — this is the assertion that flips with the fix. The
        header variants below are LITERALS, so the poison side exists no

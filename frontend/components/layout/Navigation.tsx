@@ -32,6 +32,7 @@ interface NavigationProps {
   meshSlots?: Record<string, React.ReactNode>;
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  newMakers?: Array<{ href: string; label: string }>;
 }
 
 export function Navigation({
@@ -44,6 +45,7 @@ export function Navigation({
   meshSlots,
   axisLabels = {},
   makerSlugs = {},
+  newMakers = [],
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -207,6 +209,7 @@ export function Navigation({
             toolLabels={toolLabels}
             axisLabels={axisLabels}
             makerSlugs={makerSlugs}
+            newMakers={newMakers}
             onItemClick={closeDrawer}
           />
 
@@ -268,6 +271,7 @@ export function Navigation({
             axisLabels={axisLabels}
             meshSlots={meshSlots}
       makerSlugs={makerSlugs}
+      newMakers={newMakers}
     />
     </>
   );

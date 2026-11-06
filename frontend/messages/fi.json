@@ -3016,16 +3016,24 @@
       "penShelf": "tehtävät ja tehtäväarkit samalla hyllyllä"
     },
     "make": {
-      "heading": "Tee siitä täsmälleen luokkasi näköinen",
-      "body": "Valitse harjoitus, lukualue, teema ja kuvat – vaikka omat valokuvasi. Yhdellä teolla saat interaktiivisen, itsekorjaavan tehtäväarkin sekä tulostusvalmiin PDF:n vastauksineen.",
-      "caption": "Generaattori jokaiseen tehtävätyyppiin · runsas kuvakirjasto · myös omat valokuvasi",
+      "heading": "Mitä opetat huomenna, sen teet tänään",
+      "body": "Tehtävägeneraattorit esiopetuksesta 3. luokkaan, laskemisesta kirjoittamiseen. Valitse moniste, muuta sitä muutamalla klikkauksella, ja se on valmis ennen kellonsoittoa.",
+      "caption": "Sinun kielesi, sinun kuvasi",
       "forkLabel": "Yksi teko, kaksi tulosta",
       "forkPlay": "Toimii selaimessa",
       "forkPrint": "Tulostuu vastauksineen",
-      "cta": "Rakenna tehtäväarkki",
-      "makerAlt": "Tehtävägeneraattorin säätimet: harjoitus, teema, kuvitus, vaikeustaso",
+      "cta": "Katso kaikki tehtävägeneraattorit",
+      "makerAlt": "Laskemismoniste tehtävägeneraattoreista",
       "penTiles": "kolme kirjainlaattaa, yksi sana – tehty, ei valmiiksi löydetty",
-      "penTraveler": "syntyi tässä – katso, minne tämä arkki matkaa"
+      "penTraveler": "syntyi tässä – katso, minne tämä arkki matkaa",
+      "point1": "Matematiikka, lukeminen ja kirjoittaminen",
+      "point1Body": "Luvut, lukeminen, kirjoittaminen, pulmat ja paljon muuta.",
+      "point2": "Sinun kielesi, sinun kuvasi",
+      "point2Body": "Sivu kirjoittaa itsensä uudelleen sinun kielelläsi, ja kuvat tulevat erittäin suuresta kuvapankista.",
+      "point3": "Paperilla tai näytöllä",
+      "point3Body": "Tulosta selkeä PDF vastauksineen tai lähetä näyttöversio lapsille.",
+      "point4": "Tallennettu ja jaettu yhdellä klikkauksella",
+      "point4Body": "Säilytä tekemäsi ja jaa ne luokalle linkillä tai QR-koodilla."
     },
     "paper": {
       "heading": "Tehtäväarkit ruudulla ja paperilla",

@@ -1,0 +1,202 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Number Detective",
+   "Each mystery number is from 1 to 50. Read the clues and write the one number that fits them all."
+  ],
+  "G3-472": [
+   "Cage Puzzles 4 × 4",
+   "Every row and column needs 1, 2, 3, and 4 once. The numbers inside a thick-lined cage add up to the small number in its corner."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Color by Number: Sheep on the Farm",
+   "Color each part with the color of its number."
+  ],
+  "K-394": [
+   "Color by Number: Deer",
+   "Color each part with the color of its number."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Hop Through the Honeycomb in ABC Order",
+   "Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to S."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Find 5 Differences: Swan on the Pond",
+   "Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one."
+  ],
+  "K-397": [
+   "Find 3 Differences: Turkey on the Farm",
+   "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "How to Draw a Turtle Step by Step",
+   "Look at the numbered steps and draw the picture in the big box: first the outline, then the new lines you see in each step."
+  ],
+  "K-401": [
+   "Draw a Raccoon with Simple Shapes",
+   "Go over the dotted shapes in the box, then add the new lines of each step to finish the picture."
+  ],
+  "K-402": [
+   "Trace, Then Draw a Drum",
+   "Trace the grey picture with your pencil, then draw it yourself in the empty box beside it."
+  ],
+  "K-403": [
+   "Finish the Dinosaur Drawing",
+   "Look at the whole picture, draw the lines that are missing on the second picture, then draw one of your own below."
+  ],
+  "K-404": [
+   "Draw a Goat and Write the Word",
+   "Follow the steps to draw the picture in the box, then trace the word under it and write it once more."
+  ],
+  "G1-416": [
+   "Draw a Peacock with the Grid",
+   "Look at the picture on the grid and draw it on the empty grid one square at a time, then once more without the grid."
+  ],
+  "G1-417": [
+   "Draw a Meerkat in the Picture",
+   "Follow the steps, then draw the missing picture in an empty place in the scene."
+  ],
+  "G1-418": [
+   "Order the Steps: Drawing a Pig",
+   "The steps are mixed up: write 1 to 5 in the boxes beside them in the right order, then draw the picture in the big box."
+  ],
+  "G1-419": [
+   "Copy Each Step: Draw a Hippopotamus",
+   "Draw what you see in each step in the box under it, adding the new lines as you go, then draw the whole picture bigger in the box below."
+  ],
+  "G2-390": [
+   "Draw a Bee, Then Write About It",
+   "Draw the picture with the steps, then write three sentences about your drawing on the lines, starting with the printed words."
+  ],
+  "G2-391": [
+   "Draw a Sandcastle from Memory",
+   "Look at the picture, fold the page back on the dotted line so you cannot see it, and draw it from memory in the big box."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Letter of the Week: Mm",
+   "Trace the big and small letter, circle the four pictures whose name begins with M, then write a row of each."
+  ],
+  "K-325": [
+   "Words with M: Hear It Anywhere",
+   "Trace the letter, then circle the four pictures that have the M sound somewhere inside the word, not at the start."
+  ],
+  "K-326": [
+   "Beginning, Middle or End: Where Is the M?",
+   "Say each picture. Color the box that shows where you hear M: at the beginning, in the middle or at the end."
+  ],
+  "K-327": [
+   "Circle the M in the Words and Count",
+   "Find every M or m in each word and circle it. Then write in the box how many you found."
+  ],
+  "G1-311": [
+   "Sound of the Week: sh",
+   "Trace sh, circle the four pictures that have the sh sound, then write a row of it."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Sight Word of the Day: the",
+   "Read the word. Trace it, write it, and use it in sentences."
+  ],
+  "K-389": [
+   "Sight Word in Sentences: the",
+   "Read each sentence. Write the word “the” on the line."
+  ],
+  "K-390": [
+   "Sight Word Sentence: the",
+   "Work through one sentence, step by step."
+  ],
+  "K-391": [
+   "Trace the Sentences: the",
+   "Trace each sentence. Then write it on the line below."
+  ],
+  "K-392": [
+   "Find the Sight Word: the",
+   "Color every box with the word “the”. Count them and write the number."
+  ],
+  "K-433": [
+   "Read, Trace, Write: the",
+   "Read the word. Trace it. Write it. Then write it in each sentence."
+  ],
+  "K-434": [
+   "Word and Sentence Tracing: the",
+   "Trace the word. Then trace the sentence on each line."
+  ],
+  "K-435": [
+   "Read and Draw: the",
+   "Read the sentence. Trace it. Then draw what the sentence says."
+  ],
+  "K-436": [
+   "Find and Count: the",
+   "Circle the word “the” every time you see it. How many times did you find it?"
+  ],
+  "K-438": [
+   "Build the Word: the",
+   "Cut out the letters. Glue them in the right order to build the word."
+  ],
+  "K-439": [
+   "Rainbow Writing: the",
+   "Trace each word three times, with a different color each time. Then write it."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Spelling Rules: Magic e",
+   "Read the rule in the box. Say each picture word, then write the missing rule letters in the dashed boxes."
+  ],
+  "G2-324": [
+   "Which One? c or k",
+   "Look at the picture and read the word. Circle the right letters under it, then write them in the dashed box."
+  ],
+  "G2-325": [
+   "Rule Detective: Magic e",
+   "Read each word. Find the rule letters, circle them in the word, then copy them into the small box."
+  ],
+  "G2-326": [
+   "Sort by Spelling Rule: c or k",
+   "Say each picture word. Write it in the bin with its spelling, one word on each line."
+  ],
+  "G2-327": [
+   "Write the Word: Magic e",
+   "The rule letters are printed in orange. Say the picture word and write all the other letters in the boxes."
+  ],
+  "G2-328": [
+   "Plurals: y to ies, f to ves",
+   "Read the word for one. Write the word for many in the boxes. The plural changes the spelling."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Animal Fact File: Hedgehog",
+   "Find out about this animal. Write one fact in each row of the fact file, then fill in the rest of the page with your own drawing or words."
+  ],
+  "G2-339": [
+   "Hedgehog Fact File: Circle the True Facts",
+   "Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence."
+  ],
+  "G2-340": [
+   "Hedgehog Fact File with a Word Bank",
+   "Find each true fact in the word bank and copy it into the right row of the fact file. Then finish the sentence at the bottom."
+  ],
+  "G2-341": [
+   "Hedgehog Fact File: Write Three Sentences",
+   "Read the fact file. Finish the three sentences with facts from it, then write one more fact of your own on the last line."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Bilingual Picture Cards: English and German",
+   "Cut out the eight cards. Say the word in English, then in German, and keep the cards for your word wall."
+  ]
+ }
+}

@@ -4348,16 +4348,24 @@
       "penShelf": "Aktivitäten und Arbeitsblätter, ein Regal"
     },
     "make": {
-      "heading": "Bau es dir genau passend für deine Klasse",
-      "body": "Wähl die Aufgabe, den Zahlenraum, das Thema, die Bilder — sogar eigene Fotos. Einmal erstellt, und du hast ein interaktives Arbeitsblatt, das sich selbst korrigiert, und ein druckfertiges PDF mit Lösungsblatt.",
-      "caption": "Ein Generator für jeden Aufgabentyp · eine große Bildbibliothek · eigene Fotos willkommen",
+      "heading": "Was Sie morgen unterrichten, erstellen Sie heute",
+      "body": "Arbeitsblatt-Generatoren von der Vorschule bis Klasse 3, vom Zählen bis zur Schreibschrift. Wählen Sie ein Arbeitsblatt, ändern Sie es mit wenigen Klicks, und es ist vor dem Klingeln fertig.",
+      "caption": "Ihre Sprache, Ihre Bilder",
       "forkLabel": "Einmal erstellen, zwei Ergebnisse",
       "forkPlay": "Läuft im Browser",
       "forkPrint": "Druckt mit Lösungsblatt",
-      "cta": "Ein Arbeitsblatt bauen",
-      "makerAlt": "Die Einstellungen des Arbeitsblatt-Generators: Aufgabe, Thema, Bilder, Schwierigkeit",
+      "cta": "Alle Arbeitsblatt-Generatoren ansehen",
+      "makerAlt": "Ein Zählblatt aus den Arbeitsblatt-Generatoren",
       "penTiles": "drei Plättchen, ein Wort — gebaut, nicht gefunden",
-      "penTraveler": "hier geboren — schau, wie dieses Blatt auf die Reise geht"
+      "penTraveler": "hier geboren — schau, wie dieses Blatt auf die Reise geht",
+      "point1": "Mathe, Lesen und Schreiben",
+      "point1Body": "Zahlen, Lesen, Schreiben, Rätsel und mehr, vom Zählen bis zur Schreibschrift.",
+      "point2": "Ihre Sprache, Ihre Bilder",
+      "point2Body": "Das Blatt schreibt sich in Ihrer Sprache neu, mit Bildern aus einer sehr großen Sammlung.",
+      "point3": "Papier oder Bildschirm",
+      "point3Body": "Drucken Sie ein sauberes PDF mit Lösungen oder schicken Sie den Kindern die Bildschirmversion.",
+      "point4": "Mit einem Klick gespeichert und geteilt",
+      "point4Body": "Behalten Sie, was Sie erstellen, und teilen Sie es per Link oder QR-Code mit Ihrer Klasse."
     },
     "paper": {
       "heading": "Jedes Arbeitsblatt: Bildschirm und Papier",

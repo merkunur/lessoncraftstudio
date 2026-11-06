@@ -60,6 +60,7 @@ import { getIntersectionOverride } from '@/lib/seo/topic-overrides';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import ResultCount from '@/components/catalog/ResultCount';
@@ -1193,6 +1194,8 @@ export default async function IntersectionPage({
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>
+
+        <MakerRibbon locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
 
         <TopicProseContainer
           locale={locale}

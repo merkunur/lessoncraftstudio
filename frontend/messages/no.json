@@ -3031,16 +3031,24 @@
       "penShelf": "aktiviteter og arbeidsark, på én hylle"
     },
     "make": {
-      "heading": "Lag det helt riktig for klassen din",
-      "body": "Velg oppgaven, tallområdet, temaet, illustrasjonene — til og med dine egne foto. Én bygging gir deg et interaktivt arbeidsark som retter seg selv, og en utskriftsklar PDF med fasit.",
-      "caption": "En generator for hver øvelsestype · et rikt bildebibliotek · dine egne foto er velkomne",
+      "heading": "Det du underviser i i morgen, lager du i dag",
+      "body": "Arbeidsark-generatorer fra barnehage til 3. trinn, fra å telle til sammenhengende skrift. Velg et ark, endre det med noen få klikk, og det er klart før det ringer inn.",
+      "caption": "Ditt språk, dine bilder",
       "forkLabel": "Én bygging, to resultater",
       "forkPlay": "Spilles i nettleseren",
       "forkPrint": "Skrives ut med fasit",
-      "cta": "Bygg et arbeidsark",
-      "makerAlt": "Generatorens innstillinger: oppgave, tema, illustrasjoner, vanskelighetsgrad",
+      "cta": "Se alle arbeidsark-generatorer",
+      "makerAlt": "Et telleark fra arbeidsark-generatorene",
       "penTiles": "tre brikker, ett ord — laget, ikke funnet",
-      "penTraveler": "laget her — følg dette arket videre"
+      "penTraveler": "laget her — følg dette arket videre",
+      "point1": "Matematikk, lesing og skriving",
+      "point1Body": "Tall, lesing, skriving, logikkoppgaver og mer, fra å telle til sammenhengende skrift.",
+      "point2": "Ditt språk, dine bilder",
+      "point2Body": "Siden skriver seg selv om på ditt språk, med bilder fra et svært stort bibliotek.",
+      "point3": "Papir eller skjerm",
+      "point3Body": "Skriv ut en tydelig pdf med fasit, eller send skjermversjonen til barna.",
+      "point4": "Lagret og delt med ett klikk",
+      "point4Body": "Ta vare på det du lager, og del det med klassen via lenke eller QR-kode."
     },
     "paper": {
       "heading": "Hvert arbeidsark spilles og skrives ut",

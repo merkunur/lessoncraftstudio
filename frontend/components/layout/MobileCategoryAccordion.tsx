@@ -36,6 +36,7 @@ interface MobileCategoryAccordionProps {
   toolLabels?: ToolLabel[];
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  newMakers?: Array<{ href: string; label: string }>;
   // Called whenever the user taps an item or browse-all link inside the
   // accordion. Parent (Navigation) uses this to close the surrounding
   // drawer so the page navigation is unobstructed.
@@ -52,6 +53,7 @@ export function MobileCategoryAccordion({
   toolLabels = [],
   axisLabels = {},
   makerSlugs = {},
+  newMakers = [],
   onItemClick,
 }: MobileCategoryAccordionProps) {
   const t = useTranslations('nav.categories');
@@ -65,6 +67,7 @@ export function MobileCategoryAccordion({
     availableTargets,
     toolSlugs,
     makerSlugs,
+    newMakers,
     toolLabels,
     axisLabels,
     t,

@@ -1,0 +1,216 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Detetive dos números",
+   "Os números secretos vão de 1 a 50. Leia as pistas e escreva o número que combina com todas."
+  ],
+  "G3-472": [
+   "Desafios de gaiolas 4 × 4",
+   "Em cada linha e cada coluna, o 1, o 2, o 3 e o 4 aparecem uma vez só. Os números dentro de uma gaiola de contorno grosso somam o numerinho do canto."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Colorir por números: Ovelha na fazenda",
+   "Pinte cada parte com a cor do seu número."
+  ],
+  "K-394": [
+   "Colorir por números: Veado",
+   "Pinte cada parte com a cor do seu número."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Pule pela colmeia em ordem alfabética",
+   "Comece na casinha para onde a seta aponta. Pinte a próxima letra do alfabeto em uma casinha vizinha, até chegar ao S."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Jogo dos 5 erros: Cisne na lagoa",
+   "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+  ],
+  "K-397": [
+   "Ache as 3 diferenças: Peru na fazenda",
+   "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Como desenhar uma tartaruga passo a passo",
+   "Olhe os passos numerados e desenhe a figura no quadro grande: primeiro o contorno e depois as linhas novas que você vê em cada passo."
+  ],
+  "K-401": [
+   "Desenhe um guaxinim com formas simples",
+   "Passe o lápis por cima das formas pontilhadas do quadro e termine a figura com as linhas novas de cada passo."
+  ],
+  "K-402": [
+   "Cubra um tambor e depois desenhe sozinho",
+   "Cubra a figura cinza com o lápis e depois desenhe sozinho no quadro vazio ao lado."
+  ],
+  "K-403": [
+   "Complete o desenho de um dinossauro",
+   "Olhe a figura completa, desenhe as linhas que faltam na segunda figura e depois faça o seu próprio desenho embaixo."
+  ],
+  "K-404": [
+   "Desenhe uma cabra e escreva a palavra",
+   "Siga os passos para desenhar a figura no quadro, depois cubra a palavra embaixo e escreva mais uma vez."
+  ],
+  "G1-416": [
+   "Desenhe um pavão com a ajuda da grade",
+   "Olhe a figura na grade, copie o desenho na grade vazia um quadradinho de cada vez e depois desenhe mais uma vez sem a grade."
+  ],
+  "G1-417": [
+   "Desenhe um suricato na cena",
+   "Siga os passos e depois desenhe o que está faltando na cena, num lugar vazio."
+  ],
+  "G1-418": [
+   "Coloque os passos em ordem e desenhe um porco",
+   "Os passos estão fora de ordem: escreva de 1 a 5 nos quadradinhos ao lado, na ordem certa, e depois desenhe a figura no quadro grande."
+  ],
+  "G1-419": [
+   "Copie cada passo e desenhe um hipopótamo",
+   "Desenhe no quadro embaixo de cada passo o que você vê, acrescentando as linhas novas, e depois desenhe a figura inteira maior no quadro grande lá embaixo."
+  ],
+  "G2-390": [
+   "Desenhe uma abelha e escreva sobre o seu desenho",
+   "Desenhe a figura seguindo os passos e depois escreva três frases sobre o seu desenho nas linhas, começando pelas palavras já escritas."
+  ],
+  "G2-391": [
+   "Desenhe um castelo de areia de memória",
+   "Olhe bem a figura, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe de memória no quadro grande."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Letra da semana: Aa",
+   "Cubra a letra maiúscula e a minúscula, circule as quatro figuras cujo nome começa com A e escreva uma linha de cada."
+  ],
+  "K-325": [
+   "Palavras com A: o som em qualquer lugar",
+   "Cubra a letra e circule as quatro figuras que têm o som de A dentro da palavra, não no começo."
+  ],
+  "K-326": [
+   "No começo, no meio ou no fim? A letra A",
+   "Fale o nome de cada figura. Pinte o quadradinho que mostra onde você ouve o A: no começo, no meio ou no fim."
+  ],
+  "K-327": [
+   "Circule a letra A nas palavras e conte",
+   "Encontre todas as letras A e a de cada palavra e circule. Depois escreva no quadradinho quantas você achou."
+  ],
+  "G1-311": [
+   "Duas letras, um som só: Nh",
+   "Cubra nh, circule as quatro figuras que têm o som de nh e escreva uma linha."
+  ]
+ },
+ "syllables": {
+  "G1-306": [
+   "Família silábica: ba be bi bo bu",
+   "Leia em voz alta todas as sílabas do tapete. Fale o nome de cada figura, ache a primeira sílaba no tapete e escreva na linha."
+  ],
+  "G1-330": [
+   "Circule a sílaba que você ouve: ba be bi bo bu",
+   "Leia as sílabas do tapete em voz alta. Fale o nome de cada figura e circule a sílaba com que ela começa."
+  ],
+  "G1-333": [
+   "Sílabas com encontro consonantal: tra tre tri pra pre pro",
+   "Leia as sílabas do tapete. Fale o nome de cada figura, ache a sílaba no tapete e escreva a primeira sílaba na linha."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Palavra do dia: de",
+   "Leia a palavra. Cubra o pontilhado, escreva e use a palavra em frases."
+  ],
+  "K-389": [
+   "Palavras frequentes em frases: de",
+   "Leia cada frase. Escreva a palavra “de” na linha."
+  ],
+  "K-390": [
+   "Uma frase com de",
+   "Trabalhe uma frase, passo a passo."
+  ],
+  "K-391": [
+   "Cubra as frases: de",
+   "Cubra o pontilhado de cada frase. Depois escreva a frase na linha de baixo."
+  ],
+  "K-392": [
+   "Encontre a palavra: de",
+   "Pinte cada quadrinho com a palavra “de”. Conte e escreva o número."
+  ],
+  "K-433": [
+   "Leia, cubra e escreva: de",
+   "Leia a palavra. Cubra o tracejado. Escreva a palavra. Depois complete cada frase com ela."
+  ],
+  "K-434": [
+   "Cubra a palavra e a frase: de",
+   "Cubra a palavra. Depois cubra a frase em cada linha."
+  ],
+  "K-435": [
+   "Leia e desenhe: de",
+   "Leia a frase. Cubra o tracejado. Depois desenhe o que a frase diz."
+  ],
+  "K-436": [
+   "Encontre e conte: de",
+   "Circule a palavra “de” toda vez que você a encontrar. Quantas vezes você achou?"
+  ],
+  "K-438": [
+   "Monte a palavra: de",
+   "Recorte as letras. Cole na ordem certa para montar a palavra."
+  ],
+  "K-439": [
+   "Escrita arco-íris: de",
+   "Cubra cada palavra três vezes, cada vez com uma cor diferente. Depois escreva a palavra."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Regras de ortografia: s ou ss",
+   "Leia a regra do quadro. Fale o nome de cada figura e escreva nas caixinhas pontilhadas as letras da regra que faltam."
+  ],
+  "G2-324": [
+   "Qual é a certa? rr ou r",
+   "Olhe a figura e leia a palavra. Circule as letras certas embaixo dela e depois escreva na caixinha pontilhada."
+  ],
+  "G2-325": [
+   "Detetive da ortografia: s ou ss",
+   "Leia cada palavra. Ache as letras da regra, circule na palavra e depois copie no quadradinho pequeno."
+  ],
+  "G2-326": [
+   "Separe as palavras pela regra: rr ou r",
+   "Fale o nome de cada figura. Escreva a palavra na caixa da ortografia dela, uma palavra em cada linha."
+  ],
+  "G2-327": [
+   "Escreva a palavra inteira: s ou ss",
+   "As letras da regra estão em laranja. Fale o nome da figura e escreva todas as outras letras nos quadradinhos."
+  ],
+  "G2-328": [
+   "Plural: palavras terminadas em -ão",
+   "Leia a palavra no singular. Escreva o plural nos quadradinhos. Repare como a escrita muda."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Tudo sobre o animal: Ouriço",
+   "Pesquise sobre este animal. Escreva um fato em cada linha do quadro e depois complete o resto da página com desenhos ou palavras suas."
+  ],
+  "G2-339": [
+   "Ouriço: marque os fatos certos",
+   "Leia as opções de cada linha e circule a que é verdadeira para este animal. Depois desenhe onde ele vive e complete a frase."
+  ],
+  "G2-340": [
+   "Ouriço: complete com o banco de palavras",
+   "Ache cada fato verdadeiro no banco de palavras e copie na linha certa do quadro. Depois complete a frase de baixo."
+  ],
+  "G2-341": [
+   "Ouriço: escreva três frases",
+   "Leia o quadro do animal. Complete as três frases com fatos dele e depois escreva mais um fato seu na última linha."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Cartões bilíngues: português e inglês",
+   "Recorte os oito cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras."
+  ]
+ }
+}

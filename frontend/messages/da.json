@@ -3024,16 +3024,24 @@
       "penShelf": "aktiviteter og arbejdsark på én hylde"
     },
     "make": {
-      "heading": "Lav det, så det passer præcis til din klasse",
-      "body": "Vælg øvelsen, talområdet, temaet og billederne — eller brug dine egne fotos. Én opbygning giver dig et interaktivt arbejdsark, der retter sig selv, og en printklar PDF med facitliste.",
-      "caption": "En generator til hver øvelsestype · et rigt billedbibliotek · dine egne fotos er velkomne",
+      "heading": "Det, du underviser i i morgen, laver du i dag",
+      "body": "Arbejdsark-generatorer fra børnehaveklasse til 3. klasse, fra at tælle til sammenhængende skrift. Vælg et ark, tilpas det med få klik, og det er klar, før klokken ringer.",
+      "caption": "Dit sprog, dine billeder",
       "forkLabel": "Én opbygning, to formater",
       "forkPlay": "Spiller i browseren",
       "forkPrint": "Printes med facitliste",
-      "cta": "Byg et arbejdsark",
-      "makerAlt": "Arbejdsark-generatorens indstillinger: øvelse, tema, billeder, sværhedsgrad",
+      "cta": "Se alle arbejdsark-generatorer",
+      "makerAlt": "Et tælleark fra arbejdsark-generatorerne",
       "penTiles": "tre brikker, ét ord — lavet, ikke fundet",
-      "penTraveler": "født her — se arket rejse videre"
+      "penTraveler": "født her — se arket rejse videre",
+      "point1": "Matematik, læsning og skrivning",
+      "point1Body": "Tal, læsning, skrivning, logikopgaver og mere, fra at tælle til sammenhængende skrift.",
+      "point2": "Dit sprog, dine billeder",
+      "point2Body": "Siden skriver sig selv om på dit sprog, med billeder fra et meget stort bibliotek.",
+      "point3": "Papir eller skærm",
+      "point3Body": "Print en tydelig pdf med facit, eller send skærmversionen til børnene.",
+      "point4": "Gemt og delt med ét klik",
+      "point4Body": "Gem det, du laver, og del det med klassen via link eller QR-kode."
     },
     "paper": {
       "heading": "Hvert arbejdsark både spiller og printes",

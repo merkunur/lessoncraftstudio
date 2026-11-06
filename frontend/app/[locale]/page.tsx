@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { studioSheets, studioWall } from '@/lib/makers/landings';
 import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -172,6 +173,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
+
 // Schema.org JSON-LD: Organization + WebSite. Sourced from the single
 // sitewide module at `@/lib/seo/organization-schema` (see §17.8 + Phase 4
 // of the SEO remediation arc). Every page that needs to identify the
@@ -304,6 +306,14 @@ export default async function HomePage({ params }: { params: { locale: string } 
     studioH2: tv('make.heading'),
     studioBody: tv('make.body'),
     studioMakerAlt: tv('make.makerAlt'),
+    studioP1: tv('make.point1'),
+    studioP1Body: tv('make.point1Body'),
+    studioP2: tv('make.point2'),
+    studioP2Body: tv('make.point2Body'),
+    studioP3: tv('make.point3'),
+    studioP3Body: tv('make.point3Body'),
+    studioP4: tv('make.point4'),
+    studioP4Body: tv('make.point4Body'),
     studioPlay: tv('make.forkPlay'),
     studioPrint: tv('make.forkPrint'),
     studioCta: tv('make.cta'),
@@ -451,7 +461,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
           strings={hero}
         />
         <PrintRoom locale={locale} numeral="I" works={works} exhibit={exhibit} strings={rooms} />
-        <Studio locale={locale} numeral="II" strings={rooms} />
+        <Studio locale={locale} numeral="II" strings={rooms} sheets={studioSheets(locale)} wall={studioWall(locale)} />
         <InstrumentHall locale={locale} numeral="III" strings={rooms} instruments={instruments} live={live} />
         <Playroom locale={locale} numeral="IV" strings={rooms} activities={alcoves} />
         <Dispatch locale={locale} numeral="V" strings={rooms} deck={embedDeck} embed={embed} />

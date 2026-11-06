@@ -1,0 +1,592 @@
+{
+  "counting": {
+    "kw": "Créer des fiches pour apprendre à compter",
+    "lead": "Créez des fiches pour compter avec les images que votre classe aime : compter et entourer, compter et écrire, cherche-et-trouve et bien plus. Choisissez un niveau et un thème : chaque quantité sur la page est déjà vérifiée.",
+    "teaches": [
+      "Compter des images et trouver le nombre qui correspond",
+      "Dénombrer chaque sorte dans une scène chargée",
+      "Trouver un de plus, un de moins et autant"
+    ],
+    "moment": "Proposez un cherche-et-trouve à deux, puis faites comparer les nombres trouvés. Quand deux réponses diffèrent, les enfants recomptent ensemble."
+  },
+  "ten-frames": {
+    "kw": "Créer des fiches avec grilles de dix et bâtons",
+    "lead": "Créez des fiches avec grilles de dix et bâtons de comptage pour reconnaître les quantités d'un coup d'œil. Remplir, lire, montrer des cartes flash, compter sur le boulier et compléter à 10.",
+    "teaches": [
+      "Reconnaître une quantité d'un coup d'œil, sans compter un à un",
+      "Faire 5 et 10 et voir ce qui manque",
+      "Noter des quantités avec des bâtons"
+    ],
+    "moment": "En début de séance, montrez une carte deux secondes, puis demandez comment les enfants ont vu le nombre. Leurs réponses sont la vraie leçon."
+  },
+  "number-sequences": {
+    "kw": "Créer des fiches de suites numériques",
+    "lead": "Créez des tableaux de nombres, des suites à compléter et des fiches pour compter de 2 en 2 ou de 10 en 10, jusqu'à 1 000. Tableaux des cent premiers nombres, pièces de puzzle et machines à nombres sont prêts.",
+    "teaches": [
+      "Compter en avançant et en reculant à partir de n'importe quel nombre",
+      "Compter de 2 en 2, de 5 en 5 et de 10 en 10",
+      "Observer les régularités du tableau des nombres"
+    ],
+    "moment": "Découpez un tableau de cent en morceaux et donnez-en un à chaque binôme. Les enfants doivent déduire ce qui se trouve au-dessus, en dessous et à côté."
+  },
+  "number-lines": {
+    "kw": "Créer des fiches de droites graduées",
+    "lead": "Créez des fiches de droites graduées de 0 à 10 et jusqu'à 120, avec des bonds, des arrondis et des fractions. Commencez par des droites toutes numérotées, puis passez aux droites vides que les enfants tracent eux-mêmes.",
+    "teaches": [
+      "Placer des nombres sur une droite selon leur valeur",
+      "Additionner et soustraire par bonds",
+      "Arrondir à la dizaine ou à la centaine"
+    ],
+    "moment": "Donnez le même calcul sur une droite numérotée et sur une droite vide. La comparaison montre qui compte encore et qui fait déjà des bonds."
+  },
+  "number-bonds": {
+    "kw": "Créer des fiches de compléments et décompositions",
+    "lead": "Créez des fiches de décompositions, des maisons des nombres et des familles de calculs pour 5, 10, 20 et 100. Les enfants voient comment les nombres se séparent et se réunissent, et les additions s'installent.",
+    "teaches": [
+      "Décomposer un nombre en deux parties de toutes les façons",
+      "Voir l'addition et la soustraction comme une même famille",
+      "Connaître les compléments à 10"
+    ],
+    "moment": "Cachez quelques jetons sous un gobelet et montrez le reste. La fiche transforme ensuite cette question en un travail que l'enfant fait seul."
+  },
+  "addition-subtraction": {
+    "kw": "Générateur de fiches d'addition et de soustraction",
+    "lead": "Générez des fiches d'addition et de soustraction, des calculs en images jusqu'aux opérations posées à trois chiffres avec retenue. Choisissez le niveau et imprimez une nouvelle fiche avec son corrigé quand vous voulez.",
+    "teaches": [
+      "Ajouter et retirer avec des images, puis avec des nombres",
+      "Calcul mental jusqu'à 10, 20 et 100",
+      "Additions et soustractions posées avec retenue"
+    ],
+    "moment": "Imprimez deux versions du même niveau pour un binôme. Chacun fait sa fiche, puis ils échangent et vérifient avec le corrigé."
+  },
+  "doubles-halves": {
+    "kw": "Créer des fiches sur les doubles et les moitiés",
+    "lead": "Créez des fiches sur les doubles et les moitiés jusqu'à 20, avec des images ou seulement des nombres. Presque-doubles, machines à nombres et mémory font de quelques faits numériques une vraie habitude de calcul mental.",
+    "teaches": [
+      "Doubler et partager en deux jusqu'à 20",
+      "Utiliser les presque-doubles comme 6 + 7",
+      "Voir que prendre la moitié annule le double"
+    ],
+    "moment": "Faites jouer au mémory par deux pendant cinq minutes après la récréation. De courtes séances fréquentes fixent ces faits mieux qu'une longue leçon."
+  },
+  "compare-numbers": {
+    "kw": "Créer des fiches pour comparer des nombres",
+    "lead": "Créez des fiches pour comparer, des collections d'images « plus ou moins » jusqu'aux nombres à quatre chiffres. Les enfants utilisent les signes plus grand que, plus petit que et égal, et rangent les nombres.",
+    "teaches": [
+      "Comparer des collections d'images",
+      "Utiliser les signes <, > et =",
+      "Ranger les nombres du plus petit au plus grand"
+    ],
+    "moment": "Commencez avec le crocodile affamé, puis cachez-le et demandez seulement le signe. Le passage de l'image au symbole se fait sur une seule page."
+  },
+  "odd-even": {
+    "kw": "Créer des fiches sur les nombres pairs et impairs",
+    "lead": "Créez des fiches sur les nombres pairs et impairs, du partage équitable et des paires d'images jusqu'au chiffre des unités et aux sommes. Les enfants trouvent la règle eux-mêmes.",
+    "teaches": [
+      "Faire des paires pour voir ce qui reste",
+      "Lire le chiffre des unités des nombres jusqu'à 100",
+      "Prévoir si une somme sera paire ou impaire"
+    ],
+    "moment": "Faites d'abord partager de vrais jetons entre deux amis. La fiche garde ensuite la trace de ce que les enfants ont découvert avec leurs mains."
+  },
+  "place-value": {
+    "kw": "Générateur de fiches de numération",
+    "lead": "Créez des fiches de numération avec du matériel en base dix, des tableaux, des cartes chiffres et des devinettes. Des unités et dizaines aux centaines, à la décomposition et à l'arrondi à la dizaine ou à la centaine.",
+    "teaches": [
+      "Lire et construire des nombres avec dizaines et unités",
+      "Décomposer les nombres",
+      "Arrondir à la dizaine et à la centaine"
+    ],
+    "moment": "Faites construire le nombre avec du vrai matériel avant de l'écrire. Une fiche de chiffres à retrouver sert ensuite de bilan rapide."
+  },
+  "multiplication-division": {
+    "kw": "Générateur de fiches de multiplication et de division",
+    "lead": "Générez des fiches de multiplication et de division, des groupes égaux et des quadrillages jusqu'à toutes les tables et la division avec reste. Cartes sur anneau et tables de Pythagore sont incluses.",
+    "teaches": [
+      "Passer de l'addition répétée aux rangées et à la multiplication",
+      "Apprendre les tables de 2 à 10",
+      "Partager, grouper et travailler avec un reste"
+    ],
+    "moment": "Donnez à chaque enfant la table dont il a besoin, pas celle de la classe. Tous font le même type de page, chacun avec sa table."
+  },
+  "word-problems": {
+    "kw": "Créer des fiches de problèmes",
+    "lead": "Créez des fiches de problèmes avec images, en une ou deux étapes, de comparaison, de multiplication et de division. Les enfants lisent, choisissent le bon calcul et résolvent.",
+    "teaches": [
+      "Lire un énoncé et trouver la question",
+      "Choisir le bon calcul",
+      "Résoudre des problèmes en une et deux étapes"
+    ],
+    "moment": "Masquez les nombres d'un énoncé et demandez ce qui se passe dans l'histoire. Quand les enfants savent la raconter, l'opération s'impose souvent d'elle-même."
+  },
+  "fractions": {
+    "kw": "Générateur de fiches sur les fractions",
+    "lead": "Créez des fiches sur les fractions : demis, tiers et quarts, partages équitables, bandes à découper, droites graduées et fractions équivalentes. Les enfants découpent, colorient et comparent jusqu'à ce qu'une fraction ait un sens.",
+    "teaches": [
+      "Couper des formes en parts égales",
+      "Nommer, colorier et comparer des fractions",
+      "Trouver la fraction d'une collection"
+    ],
+    "moment": "Imprimez les bandes de fractions sur du papier de couleur. Les enfants les gardent dans une enveloppe et s'en servent à chaque séance."
+  },
+  "number-of-the-day": {
+    "kw": "Créer des fiches du nombre du jour",
+    "lead": "Créez des fiches du nombre du jour jusqu'à 1 000 et des fiches pour écrire les nombres en lettres. Les enfants écrivent, dessinent, comptent et comparent un même nombre de plusieurs façons.",
+    "teaches": [
+      "Représenter un nombre de plusieurs façons",
+      "Lire et écrire les nombres en lettres",
+      "Trouver dix de plus et dix de moins"
+    ],
+    "moment": "Posez chaque matin une fiche du nombre du jour sur les tables. Seul le nombre change, le rituel tourne tout seul."
+  },
+  "ordinal-numbers": {
+    "kw": "Créer des fiches sur les nombres ordinaux",
+    "lead": "Créez des fiches sur les nombres ordinaux avec des courses, des étagères, des drapeaux et des cartes. Les enfants vont du premier, du deuxième et du troisième jusqu'au 31e, en lettres et en chiffres.",
+    "teaches": [
+      "Repérer le premier, le deuxième et le troisième dans une file",
+      "Compter la position depuis les deux bouts",
+      "Lire et écrire les mots ordinaux"
+    ],
+    "moment": "Alignez dix enfants à la porte et annoncez un rang. Ils retrouvent ensuite les mêmes mots imprimés sur la fiche de la course."
+  },
+  "number-tracing": {
+    "kw": "Créer des fiches pour écrire les chiffres",
+    "lead": "Créez des fiches pour écrire les chiffres de 0 à 9, les nombres après 10 et jusqu'à 100, avec un point de départ orange et des flèches sur chaque chiffre. Repasser, compter et écrire sur une même page.",
+    "teaches": [
+      "Former chaque chiffre dans le bon sens",
+      "Associer un chiffre à une quantité",
+      "Écrire les nombres après 10 et les mots-nombres"
+    ],
+    "moment": "Commencez calmement la séance : les enfants comptent d'abord les images, le chiffre représente donc toujours quelque chose."
+  },
+  "money": {
+    "kw": "Créer des fiches sur la monnaie",
+    "lead": "Créez des fiches sur la monnaie en euros et centimes : compter pièces et billets, faire ses courses, rendre la monnaie et payer avec le moins de pièces. Étiquettes de prix et billets factices pour jouer à la marchande sont inclus.",
+    "teaches": [
+      "Reconnaître les pièces et leur valeur",
+      "Compter des pièces et des billets mélangés",
+      "Additionner des prix et calculer la monnaie"
+    ],
+    "moment": "Installez une boutique au fond de la classe avec les étiquettes et les billets. Les fiches de courses transforment ensuite ce qui s'y est passé en problèmes écrits."
+  },
+  "telling-time": {
+    "kw": "Créer des fiches pour lire l'heure",
+    "lead": "Créez des fiches pour lire l'heure, de l'heure pile et de la demie aux cinq minutes, à la minute près et aux durées. Les enfants lisent des horloges, dessinent les aiguilles et fabriquent leur propre horloge.",
+    "teaches": [
+      "Lire l'heure pile, la demie et les cinq minutes",
+      "Dessiner les aiguilles pour une heure donnée",
+      "Calculer une durée"
+    ],
+    "moment": "Faites fabriquer une horloge à chaque enfant et gardez-la dans son casier. Les enfants la règlent sur les moments de la journée et vérifient avec l'horloge de la classe."
+  },
+  "calendar": {
+    "kw": "Créer des fiches sur le calendrier",
+    "lead": "Créez des fiches sur les jours de la semaine, les mois de l'année, hier et demain et la lecture d'un mois entier. Graphique des anniversaires et date du jour s'intègrent à votre rituel du matin.",
+    "teaches": [
+      "Nommer les jours et les mois dans l'ordre",
+      "Utiliser hier, aujourd'hui et demain",
+      "Lire les dates sur un calendrier"
+    ],
+    "moment": "Remplissez ensemble un mois vierge le premier jour d'école du mois, anniversaires compris. Cette page servira de référence pour toutes les questions de calendrier."
+  },
+  "measurement": {
+    "kw": "Créer des fiches sur les mesures",
+    "lead": "Créez des fiches sur les mesures, du grand et du petit jusqu'aux règles, trombones, verres doseurs, balances et thermomètres. Les enfants comparent, rangent et mesurent avec de vraies unités.",
+    "teaches": [
+      "Comparer longueur, hauteur et masse",
+      "Mesurer avec des trombones, des cubes et une règle",
+      "Lire des balances, des verres doseurs et des thermomètres"
+    ],
+    "moment": "Imprimez les règles à découper pour que chaque enfant en ait une, puis envoyez les binômes mesurer dans la classe."
+  },
+  "graphs-data": {
+    "kw": "Créer des fiches de graphiques et de données",
+    "lead": "Créez des fiches avec pictogrammes, diagrammes en barres et tableaux que les enfants lisent et construisent eux-mêmes. Ils trient, comptent et répondent à des questions sur les données.",
+    "teaches": [
+      "Trier et compter des données",
+      "Lire des pictogrammes et des diagrammes en barres",
+      "Utiliser une échelle où une image vaut plus"
+    ],
+    "moment": "Utilisez le graphique de la classe avec une question qui compte pour vos élèves, puis demandez à chacun d'écrire une phrase vraie sur le résultat."
+  },
+  "shapes-geometry": {
+    "kw": "Créer des fiches de formes et de géométrie",
+    "lead": "Créez des fiches de géométrie sur les côtés, sommets, faces et arêtes, les figures planes et les solides, les patrons, la symétrie et l'aire. Les enfants trient, tracent, découpent et plient au lieu de seulement nommer.",
+    "teaches": [
+      "Reconnaître figures planes et solides à leurs propriétés",
+      "Compter côtés, sommets, faces et arêtes",
+      "Tracer des formes et explorer aire et périmètre"
+    ],
+    "moment": "Envoyez les enfants chercher des angles droits dans la classe avec un coin de papier plié, puis faites trier leurs trouvailles."
+  },
+  "symmetry-grids": {
+    "kw": "Créer des fiches de symétrie et de quadrillage",
+    "lead": "Créez des fiches de symétrie et de reproduction sur quadrillage : compléter l'autre moitié, recopier case par case, dessiner en deux fois plus grand. L'œil et la main progressent ensemble.",
+    "teaches": [
+      "Compléter une figure par rapport à un axe",
+      "Reproduire un dessin case par case",
+      "Retourner, tourner et agrandir un dessin"
+    ],
+    "moment": "Proposez une reproduction sur quadrillage comme activité calme après la récréation. Les enfants s'apaisent vite et vous voyez qui se repère sur la grille."
+  },
+  "maps-grids": {
+    "kw": "Créer des fiches de cartes et de repérage",
+    "lead": "Créez des fiches pour lire une carte, avec vues de dessus, légendes, directions, coordonnées et continents. Chasses au trésor et batailles navales font de l'entraînement un jeu.",
+    "teaches": [
+      "Voir un lieu de dessus et lire une légende",
+      "Utiliser les coordonnées d'un quadrillage",
+      "Utiliser le nord, l'est, le sud et l'ouest"
+    ],
+    "moment": "Cachez une petite surprise dans la classe et faites écrire l'itinéraire pour qu'un camarade le suive."
+  },
+  "patterns": {
+    "kw": "Créer des fiches de suites logiques",
+    "lead": "Créez des fiches de suites logiques : AB, ABC et AABB, suites qui grandissent et suites de nombres, toutes avec les images de votre thème. Les enfants continuent, complètent et inventent les leurs.",
+    "teaches": [
+      "Trouver ce qui se répète",
+      "Continuer et compléter une suite",
+      "Décrire des suites qui grandissent et des suites de nombres"
+    ],
+    "moment": "Faites frapper la suite dans les mains ou avec les pieds avant de la dessiner. L'entendre aide souvent l'enfant qui ne la voit pas encore."
+  },
+  "logic-puzzles": {
+    "kw": "Créer des fiches de jeux de logique",
+    "lead": "Générez des fiches de logique : sudokus d'images et de nombres, pyramides de nombres, logigrammes, carrés magiques et balances. Chaque énigme a une seule solution, et les niveaux suivent les progrès de la classe.",
+    "teaches": [
+      "Raisonner pas à pas à partir d'indices",
+      "Vérifier une réponse avec chaque règle",
+      "Persévérer jusqu'à la solution"
+    ],
+    "moment": "Gardez des sudokus d'images pour ceux qui ont fini. Ils stimulent les plus rapides sans leur donner simplement plus d'exercices."
+  },
+  "dot-to-dot": {
+    "kw": "Créer des fiches pour relier les points",
+    "lead": "Créez des points à relier pour compter jusqu'à 20, à rebours ou de 2 en 2, suivre l'alphabet ou résoudre des calculs. Le dessin caché pousse les enfants jusqu'au dernier point.",
+    "teaches": [
+      "Réciter la suite des nombres dans l'ordre",
+      "Compter à rebours et de 2 en 2",
+      "Suivre l'alphabet en majuscules et en minuscules"
+    ],
+    "moment": "Faites deviner le dessin avant de commencer, puis à mi-chemin. Les enfants vérifieront chaque nombre pour le savoir."
+  },
+  "color-by-number": {
+    "kw": "Créer des fiches de coloriage magique",
+    "lead": "Créez des coloriages magiques où chaque couleur est une réponse : additions, soustractions, mots outils, premiers sons et tables. Le dessin terminé montre si tout est juste.",
+    "teaches": [
+      "S'entraîner au calcul avec une vérification intégrée",
+      "Lire attentivement une légende de couleurs",
+      "Travailler calmement sur une page entière"
+    ],
+    "moment": "Utilisez un coloriage magique le vendredi pour réviser. Une erreur apparaît comme une couleur mal placée, et l'enfant la trouve souvent seul."
+  },
+  "coloring-pages": {
+    "kw": "Créer des coloriages pour la classe",
+    "lead": "Créez des coloriages à partir de notre banque d'images, avec des mots à repasser, une phrase à écrire ou une légende à suivre. Pliez un mini-livret de coloriage pour chaque thème étudié.",
+    "teaches": [
+      "Développer la tenue du crayon et la force de la main",
+      "Relier les images aux mots",
+      "Parler de ce qu'il y a sur la page"
+    ],
+    "moment": "Pliez le mini-livret le premier jour d'un nouveau thème. Les enfants rapportent à la maison les mots vus en classe."
+  },
+  "same-different": {
+    "kw": "Créer des fiches pareil ou différent",
+    "lead": "Créez des fiches de discrimination visuelle : trouver l'intrus, associer les ombres, les paires, les jumeaux et la pièce manquante. Bien regarder vient avant la lecture et les maths.",
+    "teaches": [
+      "Voir ce qui est pareil et ce qui est différent",
+      "Associer formes, ombres et images miroir",
+      "Rester attentif aux petits détails"
+    ],
+    "moment": "Demandez ce qui est différent et comment les enfants le savent. Leurs raisons sont un premier entraînement à expliquer leur pensée."
+  },
+  "position-words": {
+    "kw": "Créer des fiches pour se repérer dans l'espace",
+    "lead": "Créez des fiches avec les mots sur, sous, à côté, à gauche, à droite, en haut, au milieu et en bas. Les enfants lisent, dessinent, collent et choisissent le mot, et le vocabulaire de l'espace devient le leur.",
+    "teaches": [
+      "Comprendre les mots de position",
+      "Distinguer la gauche et la droite",
+      "Suivre des consignes avec des mots de position"
+    ],
+    "moment": "Jouez d'abord avec un ours en peluche et une chaise, puis laissez chaque enfant placer son propre dessin sur la fiche."
+  },
+  "sorting": {
+    "kw": "Créer des fiches de tri et de catégories",
+    "lead": "Créez des fiches de tri avec découpage et collage, tapis et cartes images : aliments, transports, besoins et envies, métiers. Les enfants choisissent une règle et l'expliquent.",
+    "teaches": [
+      "Classer des images selon une règle",
+      "Repérer ce qui n'a pas sa place",
+      "Expliquer pourquoi un objet va dans un groupe"
+    ],
+    "moment": "Distribuez tapis et cartes images et laissez les binômes inventer une règle. L'autre binôme doit la deviner."
+  },
+  "mazes": {
+    "kw": "Générateur de labyrinthes à imprimer",
+    "lead": "Générez des labyrinthes, des premiers chemins pour les petits aux parcours géants, avec aussi des labyrinthes de lettres, de nombres, d'additions et de sons. Chacun est résolu avant d'arriver chez vous : il y a toujours un passage.",
+    "teaches": [
+      "Prévoir un chemin et regarder plus loin",
+      "Tenir un trait de crayon régulier",
+      "Réviser lettres, nombres et calculs en chemin"
+    ],
+    "moment": "Proposez un labyrinthe de calculs le matin : seuls les bons résultats mènent à la sortie, et la fiche se vérifie toute seule."
+  },
+  "find-the-differences": {
+    "kw": "Générateur de jeux des différences",
+    "lead": "Créez des jeux des différences avec 3, 5, 7 ou 10 changements dans de vraies scènes, ainsi que des objets manquants, des couleurs changées et des images en miroir. La plupart se jouent aussi sur écran.",
+    "teaches": [
+      "Parcourir une image avec méthode",
+      "Nommer ce qui a changé",
+      "Écrire ce qui est différent"
+    ],
+    "moment": "Faites décrire une différence à tour de rôle, sans montrer du doigt. Les enfants doivent trouver les mots pour dire où elle est et ce qui a changé."
+  },
+  "how-to-draw": {
+    "kw": "Créer des fiches pour apprendre à dessiner",
+    "lead": "Créez des fiches de dessin pas à pas où chaque nouveau trait apparaît en couleur. Les enfants suivent, repassent, terminent puis dessinent de mémoire, avec des pages de mots et de phrases pour écrire.",
+    "teaches": [
+      "Décomposer un dessin en formes simples",
+      "Suivre des étapes dans l'ordre",
+      "Écrire sur ce qu'ils ont dessiné"
+    ],
+    "moment": "Tracez la première étape ensemble au tableau, puis laissez les enfants finir seuls. Le dessin donne à écrire même aux plus réticents."
+  },
+  "tangram": {
+    "kw": "Créer des fiches de tangram à imprimer",
+    "lead": "Créez des fiches de tangram avec des pièces à découper, des ombres à reconstituer et des questions sur les formes. Commencez par des puzzles de deux pièces et allez vers des figures entières.",
+    "teaches": [
+      "Tourner et assembler des formes",
+      "Voir des formes dans d'autres formes",
+      "Réfléchir avant de poser une pièce"
+    ],
+    "moment": "Découpez les pièces une fois, gardez-les dans une enveloppe et proposez une nouvelle ombre chaque semaine pour quelques minutes calmes."
+  },
+  "picture-tracing": {
+    "kw": "Créer des fiches de dessins à repasser",
+    "lead": "Créez des dessins à repasser, des grandes formes rondes pour les petits aux scènes de ville en pointillés pour le CP. Lignes droites, zigzags, spirales et boucles deviennent une vraie image.",
+    "teaches": [
+      "Guider le crayon le long d'une ligne",
+      "Tracer des lignes droites, courbes et des boucles",
+      "Se préparer à écrire les lettres"
+    ],
+    "moment": "Faites repasser un grand dessin au doigt, puis à la craie grasse, puis au crayon. La même fiche sert trois fois."
+  },
+  "pre-writing": {
+    "kw": "Créer des fiches de graphisme",
+    "lead": "Créez des fiches de graphisme avec lignes droites, zigzags, vagues, boucles et spirales, des premiers chemins de crayon jusqu'aux tracés difficiles. Des exercices de découpage sont inclus.",
+    "teaches": [
+      "Tenir et guider le crayon",
+      "Tracer les gestes de base des lettres",
+      "Découper le long d'une ligne"
+    ],
+    "moment": "Glissez une fiche dans une pochette plastique avec un feutre effaçable. L'enfant peut refaire le même chemin autant de fois qu'il veut."
+  },
+  "letter-tracing": {
+    "kw": "Créer des fiches pour écrire les lettres",
+    "lead": "Créez des fiches pour tracer les majuscules, les minuscules, les lettres accentuées et le prénom de l'enfant. Chaque page utilise l'alphabet de la langue choisie.",
+    "teaches": [
+      "Former les majuscules et les minuscules",
+      "Relier chaque lettre à une image",
+      "Écrire son prénom"
+    ],
+    "moment": "Imprimez le prénom de chaque enfant le premier jour. C'est le mot qui compte le plus pour lui, et il vous montre son point de départ."
+  },
+  "word-writing": {
+    "kw": "Créer des fiches pour écrire des mots",
+    "lead": "Créez des fiches pour repasser et écrire des mots : copier, écrire d'après une image, remplir des cases et légender des images. Les enfants passent pas à pas du tracé à l'écriture autonome.",
+    "teaches": [
+      "Repasser et copier des mots entiers",
+      "Écrire d'après une image avec de moins en moins d'aide",
+      "Écrire des mots sur des lignes"
+    ],
+    "moment": "Donnez trois versions des mêmes mots : avec la première lettre, avec une liste de mots et sans aide. Tous écrivent la même liste à leur niveau."
+  },
+  "cursive": {
+    "kw": "Créer des fiches d'écriture cursive",
+    "lead": "Créez des fiches d'écriture cursive pour les lettres, les liaisons, les mots et les phrases, avec l'alphabet cursif et de la lecture. Les enfants apprennent à relier les lettres et à lire l'écriture attachée.",
+    "teaches": [
+      "Former les lettres cursives",
+      "Relier les lettres avec fluidité",
+      "Lire l'écriture cursive autant que l'écrire"
+    ],
+    "moment": "Consacrez cinq minutes chaque matin à la lettre du jour. Une pratique courte et quotidienne rend les liaisons fluides."
+  },
+  "alphabet": {
+    "kw": "Créer des fiches sur l'alphabet",
+    "lead": "Créez des fiches sur l'alphabet : reconnaître les lettres, majuscules et minuscules, voyelles, ordre alphabétique et lettre de la semaine. Chaque page utilise l'alphabet de la langue choisie.",
+    "teaches": [
+      "Reconnaître et nommer les lettres",
+      "Associer majuscules et minuscules",
+      "Ranger des mots dans l'ordre alphabétique"
+    ],
+    "moment": "Lancez la lettre de la semaine le lundi, puis envoyez les enfants à la chasse aux lettres dans un livre."
+  },
+  "phonics": {
+    "kw": "Créer des fiches de sons et de phonologie",
+    "lead": "Créez des fiches sur les sons au début, au milieu et à la fin des mots, les digrammes, les groupes de consonnes et les voyelles. Boîtes à sons, cartes à pinces et tris s'appuient sur de vraies images.",
+    "teaches": [
+      "Entendre les sons au début, au milieu et à la fin",
+      "Fusionner et compter les sons d'un mot",
+      "Lire les digrammes et les groupes de consonnes"
+    ],
+    "moment": "Utilisez les boîtes à sons avec des jetons : l'enfant pousse un jeton par son avant d'écrire. Ses mains rendent les sons visibles."
+  },
+  "rhyming": {
+    "kw": "Créer des fiches sur les mots qui riment",
+    "lead": "Créez des fiches de rimes avec des paires, un mémory, des dominos et des tris, construites avec des mots qui riment vraiment en français. Les enfants écoutent, associent puis écrivent leurs rimes.",
+    "teaches": [
+      "Entendre les mots qui riment",
+      "Trouver le mot qui ne va pas",
+      "Écrire des mots qui riment"
+    ],
+    "moment": "Faites jouer au mémory des rimes à voix haute : une paire ne compte que si l'enfant dit les deux mots."
+  },
+  "syllables": {
+    "kw": "Créer des fiches sur les syllabes",
+    "lead": "Créez des fiches pour frapper, compter, couper et assembler les syllabes, avec des familles de syllabes. Le découpage suit ce que les enfants apprennent à l'école.",
+    "teaches": [
+      "Frapper et compter les syllabes",
+      "Couper des mots et les recomposer",
+      "Lire des familles de syllabes"
+    ],
+    "moment": "Frappez les mots ensemble avant d'écrire. Un mot que l'on sent dans ses mains se découpe plus facilement."
+  },
+  "sight-words": {
+    "kw": "Créer des fiches de mots outils",
+    "lead": "Créez des fiches pour le mot outil que vous travaillez : le lire, le repasser, le trouver, le colorier et le construire. Cartes flash, jeux de dés et écriture arc-en-ciel rendent l'entraînement vivant.",
+    "teaches": [
+      "Lire les mots fréquents d'un coup d'œil",
+      "Écrire des mots de mémoire",
+      "Utiliser les mots outils dans des phrases"
+    ],
+    "moment": "Choisissez un mot pour la semaine et changez de fiche chaque jour : le lire, le repasser, le trouver, l'utiliser."
+  },
+  "spelling": {
+    "kw": "Générateur de fiches d'orthographe",
+    "lead": "Créez des fiches d'orthographe avec mots mélangés, lettres manquantes, regarder-cacher-écrire-vérifier et lettres mobiles, ainsi que des pages sur les règles. Travaillez la règle du moment de votre classe.",
+    "teaches": [
+      "Construire des mots à partir de leurs sons",
+      "Mémoriser avec regarder, cacher, écrire, vérifier",
+      "Appliquer les règles d'orthographe"
+    ],
+    "moment": "Faites manipuler les lettres mobiles avant d'écrire. Déplacer une lettre s'annule plus facilement qu'un trait de crayon, les enfants osent donc davantage."
+  },
+  "nouns-articles": {
+    "kw": "Créer des fiches sur le singulier, le pluriel et les articles",
+    "lead": "Créez des fiches sur le singulier, le pluriel et le bon article, avec des images que les enfants savent nommer. Un ou plusieurs, le ou la, un ou une : tout y est, avec des pages de tri.",
+    "teaches": [
+      "Distinguer un et plusieurs",
+      "Écrire le pluriel des noms",
+      "Choisir le bon article"
+    ],
+    "moment": "Montrez un crayon, puis trois, et faites dire le mot à la classe. La fiche fait ensuite la même chose avec des images."
+  },
+  "grammar": {
+    "kw": "Créer des fiches sur la nature des mots",
+    "lead": "Créez des fiches de grammaire sur les noms, verbes, adjectifs, pronoms et formes verbales. Les enfants trient des mots, transforment des phrases et trouvent la bonne forme à trois niveaux.",
+    "teaches": [
+      "Distinguer noms, verbes et adjectifs",
+      "Utiliser les pronoms dans des phrases",
+      "Choisir la bonne forme du verbe"
+    ],
+    "moment": "Faites d'abord découper et trier les mots, comme un jeu, avant de le demander sur papier. Déplacer les mots aide à sentir les catégories."
+  },
+  "word-meaning": {
+    "kw": "Créer des fiches sur les contraires et les synonymes",
+    "lead": "Créez des fiches de vocabulaire sur les contraires, les synonymes, les mots construits, les préfixes et les familles de mots. Les pages d'images lancent le travail, les pages de phrases l'approfondissent.",
+    "teaches": [
+      "Trouver des contraires et des mots de même sens",
+      "Découper les mots construits",
+      "Se servir du radical et des préfixes pour comprendre un mot"
+    ],
+    "moment": "Affichez une échelle de mots au mur et complétez-la au fil des histoires. Les enfants choisissent bientôt d'eux-mêmes des mots plus précis."
+  },
+  "sentences": {
+    "kw": "Créer des fiches sur la phrase",
+    "lead": "Créez des fiches sur la phrase : remettre en ordre, compléter, corriger majuscules et points, poser des questions et allonger une phrase. Les images soutiennent les jeunes lecteurs à chaque étape.",
+    "teaches": [
+      "Mettre les mots dans le bon ordre",
+      "Commencer par une majuscule et finir par le bon signe",
+      "Poser des questions et y répondre"
+    ],
+    "moment": "Découpez la phrase et faites-la d'abord reconstruire sur la table. Essayer les mots dans plusieurs ordres, c'est déjà la moitié de la leçon."
+  },
+  "reading": {
+    "kw": "Créer des fiches de lecture et de compréhension",
+    "lead": "Créez des fiches de compréhension avec de courtes histoires et des questions, des pages lire et colorier et des consignes à exécuter. Les enfants montrent qu'ils ont compris en agissant.",
+    "teaches": [
+      "Lire pour trouver un détail",
+      "Suivre des consignes écrites",
+      "Répondre à des questions sur une courte histoire"
+    ],
+    "moment": "Utilisez une page lire et colorier comme vérification discrète : un coup d'œil aux couleurs montre quelle phrase n'a pas été comprise."
+  },
+  "stories-writing": {
+    "kw": "Créer des fiches de production d'écrits",
+    "lead": "Créez des fiches pour raconter et écrire : remettre des images en ordre, préparer une histoire, écrire une BD, une carte postale ou une fiche d'identité. Débuts de phrases et listes de mots aident chacun à démarrer.",
+    "teaches": [
+      "Remettre des événements dans l'ordre",
+      "Raconter un début, un milieu et une fin",
+      "Écrire des phrases sur une image ou un animal"
+    ],
+    "moment": "Faites raconter l'histoire en images à un camarade avant d'écrire le moindre mot. Une histoire déjà racontée s'écrit plus facilement."
+  },
+  "me-family-feelings": {
+    "kw": "Créer des fiches sur moi, ma famille et les émotions",
+    "lead": "Créez des fiches sur moi, ma famille et les émotions pour la rentrée et les moments calmes. Visages, arbres généalogiques et thermomètres donnent aux enfants les mots pour ce qu'ils ressentent.",
+    "teaches": [
+      "Nommer les émotions et les voir sur les visages",
+      "Parler de sa famille et de qui est qui",
+      "Dire ce qu'on aime et ce qu'on sait faire"
+    ],
+    "moment": "Gardez les cartes des émotions près de la porte pour l'accueil du matin. L'enfant montre une carte, et vous savez qui a besoin d'un mot de réconfort."
+  },
+  "picture-cards": {
+    "kw": "Créer des imagiers et des cartes de vocabulaire",
+    "lead": "Créez des cartes images, des cartes mots, des jeux de mémory, des étiquettes pour le mur de mots et un imagier sur tous les thèmes. Les cartes bilingues placent deux langues côte à côte pour les classes multilingues.",
+    "teaches": [
+      "Apprendre de nouveaux mots avec des images",
+      "Associer mots et images",
+      "Construire un mur de mots pour la classe"
+    ],
+    "moment": "Imprimez des cartes bilingues en français et dans la langue de la maison, pour qu'un nouvel arrivant montre ce qu'il sait déjà."
+  },
+  "word-search": {
+    "kw": "Créer des fiches de mots mêlés pour enfants",
+    "lead": "Créez des mots mêlés pour la classe : indices en images, nombres en lettres, grilles dans une forme, grilles bilingues et message secret à trouver.",
+    "teaches": [
+      "Reconnaître les mots à leur orthographe",
+      "Parcourir lignes et colonnes avec méthode",
+      "Réviser le vocabulaire d'un thème"
+    ],
+    "moment": "Proposez des mots mêlés en images à la fin d'un thème. Ceux qui ne lisent pas encore tous les mots les retrouvent grâce aux images."
+  },
+  "crossword": {
+    "kw": "Créer des fiches de mots croisés pour enfants",
+    "lead": "Créez des mots croisés pour la classe avec indices en images, listes de mots et mots fléchés, y compris bilingues. Les enfants écrivent chaque mot et la grille vérifie leurs lettres.",
+    "teaches": [
+      "Écrire les mots lettre par lettre",
+      "Se servir d'une image ou d'une liste comme indice",
+      "Réviser le vocabulaire"
+    ],
+    "moment": "Faites partager une grille à deux : l'un dit le mot, l'autre l'écrit."
+  },
+  "secret-code": {
+    "kw": "Créer des fiches de code secret",
+    "lead": "Créez des fiches de code secret où les enfants déchiffrent des codes d'images, de nombres et de calculs pour découvrir un mot. Ils peuvent même inventer leur propre code pour un ami.",
+    "teaches": [
+      "Utiliser une clé pour décoder",
+      "Réviser lettres ou calculs avec un but",
+      "Lire un mot caché"
+    ],
+    "moment": "Écrivez la surprise de demain en code secret au tableau. Tout le monde voudra la déchiffrer."
+  },
+  "bingo": {
+    "kw": "Créer un loto pour la classe",
+    "lead": "Créez des lotos pour la classe avec images, mots outils, sons, mots-nombres, formes, calculs et horloges. Chaque jeu a ses cartes du meneur : vous pouvez jouer en quelques minutes.",
+    "teaches": [
+      "Écouter et associer rapidement",
+      "Réviser des mots, des sons ou des calculs",
+      "Attendre son tour dans un jeu collectif"
+    ],
+    "moment": "Laissez un enfant tirer les cartes quand la classe connaît le jeu. Les lire à voix haute est déjà un bon entraînement."
+  }
+}

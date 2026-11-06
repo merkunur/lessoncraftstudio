@@ -29,11 +29,10 @@
  *  - PDF / answer key go through the METERED proxy /api/quota/dl — the same href
  *    the static landings use (render-landing-html.js: dlHref). A raw file link
  *    would bypass the free tier's monthly download allowance (frontend/lib/quota.ts).
- *  - "Make your own" → https://www.lessoncraftstudio.com/<loc>/tools/<maker-slug>,
- *    the generator's public landing in the deck's language. Absolute www, NO
- *    trailing slash (frontend/next.config.js trailingSlash:false → 308).
- *    The maker slug is read from frontend/messages/maker-content/<locale>.json;
- *    no slug ⇒ no button — never a dead link.
+ *  - "Make your own" → https://www.lessoncraftstudio.com/<loc>/worksheet-makers/<slug>,
+ *    the new maker's landing in the deck's language (scripts/lib/maker-links.js), or the
+ *    hub for a type no maker covers. Absolute www, NO trailing slash
+ *    (frontend/next.config.js trailingSlash:false → 308). Never a dead link.
  *
  * ONE marker pair, ONE anchor, ONE strip regex: the <style> rides inside the
  * block (the .lcs-deckend-suggestions strip already carries its <style> in
@@ -46,6 +45,7 @@
 const fs = require('fs');
 const path = require('path');
 const siteChrome = require('./site-chrome');
+const makerLinks = require('./maker-links');
 
 const REPO_ROOT = siteChrome.REPO_ROOT;
 const LOCALES = siteChrome.LOCALES;
@@ -151,10 +151,15 @@ function makerSlug(locale, appKey) {
   return entry && typeof entry.slug === 'string' && entry.slug ? entry.slug : null;
 }
 
-/** Absolute landing URL, or null. No trailing slash. */
+/**
+ * The new maker's landing for this deck, in its language (operator 2026-11-06: this replaces the old /tools/ pages as the
+ * target of "Make your own"). A type no maker covers goes to the hub; no type at all is no button. No trailing slash.
+ */
 function makerUrl(locale, appKey) {
-  const slug = makerSlug(locale, appKey);
-  return slug ? CANONICAL_BASE + '/' + locale + '/' + TOOLS_SEGMENT + '/' + slug : null;
+  if (!appKey) return null;
+  const id = makerLinks.makerFor({ app: appKey });
+  const landing = id ? makerLinks.landing(locale, id) : null;
+  return landing ? landing.url : makerLinks.hubUrl(locale);
 }
 
 /** Metered download href — byte-identical to render-landing-html.js: dlHref. */

@@ -95,6 +95,9 @@ export const MANIPULATIVES_ANCHOR_KEYS = [
  */
 export const ACTIVITIES_NAV_COUNT = 10;
 
+/** How many makers the visible Worksheet makers popover shows. */
+const MAKERS_VISIBLE_COUNT = 10;
+
 /** How many tools the visible Tools popover shows (see CategoryDropdown.visibleCount). */
 export const MANIPULATIVES_VISIBLE_COUNT = MANIPULATIVES_ANCHOR_KEYS.length;
 
@@ -196,6 +199,8 @@ export interface BuildCategoriesInput {
   toolSlugs?: Record<string, string>;
   /** makerKey -> native slug for this locale. Server-supplied, same reason as toolSlugs. */
   makerSlugs?: Record<string, string>;
+  /** the new makers' landings, popular first; the visible popover shows the first few (server-supplied, like makerSlugs) */
+  newMakers?: DropdownItem[];
   /**
    * The tool catalogue as the nav needs it: id + title in THIS locale only.
    * Server-supplied from `@/lib/manipulatives` for the same reason as
@@ -230,6 +235,7 @@ export function buildCategories({
   availableTargets = [],
   toolSlugs = {},
   makerSlugs = {},
+  newMakers = [],
   toolLabels = [],
   axisLabels = {},
   t,
@@ -280,7 +286,7 @@ export function buildCategories({
   // map (server data unavailable) falls back to the original fragment link, so the
   // dropdown degrades to its previous behaviour rather than emptying or 404ing.
   const hasMakerSlugs = Object.keys(makerSlugs).length > 0;
-  const appsItems: DropdownItem[] = APPS_ANCHOR_KEYS.map(key => {
+  const classicMakerItems: DropdownItem[] = APPS_ANCHOR_KEYS.map(key => {
     const label = axisNameFrom(axisLabels, key, 'exercise-type');
     const slug = hasMakerSlugs ? makerSlugs[key] : undefined;
     return {
@@ -288,6 +294,9 @@ export function buildCategories({
       label,
     };
   });
+  // The new makers come first and are what the popover shows. The classic pages stay in `items`, so the crawl mesh keeps
+  // every one of their sitewide links (they are the site's oldest ranking pages: operator 2026-10-31).
+  const appsItems: DropdownItem[] = [...newMakers, ...classicMakerItems];
 
   // Surface a broader sitewide set of activity links (was 6) — the full
   // crawlable index lives on /[locale]/activities, but a wider dropdown gives
@@ -389,6 +398,7 @@ export function buildCategories({
       items: appsItems,
       browseAllHref: `/${locale}/worksheet-makers/`,
       browseAllLabel: t('browseAll.apps'),
+      visibleCount: newMakers.length ? MAKERS_VISIBLE_COUNT : undefined,
     },
   ];
 

@@ -1,0 +1,1718 @@
+{
+ "ten-frames": {},
+ "counting": {
+  "fiche compter": [
+   "fiche compter les syllabes gs",
+   "fiche compter les syllabes",
+   "fiche compter les syllabes ms",
+   "fiche compter gs",
+   "fiche compter de 2 en 2",
+   "fiche compter de 10 en 10",
+   "fiche compter les syllabes maternelle",
+   "fiche compter maternelle",
+   "fiche compter",
+   "fiche compter jusqu'à 10"
+  ]
+ },
+ "sight-words": {
+  "fiche mots-outils": [
+   "fiche mots outils cp",
+   "fiche mots outils",
+   "fiche mots outils ce1",
+   "fiche mots outils taoki cp",
+   "fiche mots outils taoki",
+   "liste mots outils cp",
+   "liste mots outils ce1",
+   "liste mots outils",
+   "liste mots outils cp pdf",
+   "liste mots outils ce2"
+  ]
+ },
+ "number-sequences": {
+  "fiche suites numériques": [
+   "fiche suites numériques",
+   "fiche suites arithmétiques géométriques",
+   "fiche suites arithmétiques",
+   "fiche suite numérique gs",
+   "fiche suite numérique ms",
+   "fiche suite numérique cp",
+   "fiche synthèse suites numériques"
+  ]
+ },
+ "number-lines": {
+  "droites graduées générateur": [
+   "droites graduées générateur"
+  ],
+  "générateur de droites graduées": [
+   "générateur de lignes graduées",
+   "générateur de demi droites graduées",
+   "générateur de droite graduée fraction"
+  ],
+  "fiche droites graduées": [
+   "exercices droites graduées ce2",
+   "exercices droites graduées cm1",
+   "exercices droites graduées ce1",
+   "exercices droites graduées cm2",
+   "exercices droites graduées",
+   "exercices droites graduées 6ème",
+   "exercices droites graduées cp",
+   "exercices droites graduées cm",
+   "exercices droites graduées fractions",
+   "exercices droites graduées fractions cm1"
+  ]
+ },
+ "number-bonds": {
+  "fiche compléments": [
+   "fiche compléments à 10",
+   "fiche compléments à 100",
+   "fiche compléments à 5 gs",
+   "fiche compléments à 10 gs",
+   "fiche compléments à 10 cp",
+   "fiche compléments circonstanciels",
+   "fiche compléments circonstanciels cm1",
+   "fiche compléments à 5",
+   "fiche compléments ms",
+   "fiche compléments gs"
+  ]
+ },
+ "addition-subtraction": {
+  "addition générateur": [
+   "addition générateur",
+   "générateur addition posée",
+   "générateur addition en ligne",
+   "générateur addition soustraction",
+   "générateur addition posée sans retenue",
+   "total générateur",
+   "générateur addition en colonne",
+   "générateur addition à trous",
+   "générateur addition cp"
+  ],
+  "addition fiche à imprimer": [
+   "fiche addition à imprimer"
+  ],
+  "générateur de addition": [
+   "générateur de calcul addition",
+   "générateur addition",
+   "générateur addition posée",
+   "générateur addition en ligne",
+   "générateur addition soustraction",
+   "générateur additions à trous",
+   "générateur addition posée sans retenue",
+   "générateur addition en colonne",
+   "generateur addition charivari",
+   "générateur de tables d addition"
+  ],
+  "fiche addition": [
+   "fiche addition cp",
+   "fiche addition ce1",
+   "fiche addition posée ce2",
+   "fiche additions ce2",
+   "fiche addition",
+   "fiche additions posées ce1",
+   "fiche addition posée cp",
+   "fiche addition cm1",
+   "fiche addition posée cm1",
+   "fiche addition posée"
+  ],
+  "soustraction générateur": [
+   "générateur soustraction",
+   "générateur soustraction posée",
+   "générateur soustraction en ligne",
+   "générateur soustraction posée sans retenue"
+  ],
+  "soustraction fiche à imprimer": [
+   "fiche soustraction cp à imprimer",
+   "fiche soustraction ce1 à imprimer"
+  ],
+  "générateur de soustraction": [
+   "générateur de soustraction",
+   "générateur de soustraction posée",
+   "générateur de soustractions en colonne",
+   "générateur soustraction en ligne",
+   "générateur soustraction posée sans retenue",
+   "générateur de calcul addition soustraction"
+  ],
+  "fiche soustraction": [
+   "fiche soustraction cp",
+   "fiche soustraction ce2",
+   "fiche soustraction cm1",
+   "fiche soustraction ce1",
+   "fiche soustraction",
+   "fiche soustraction cp à imprimer",
+   "fiche soustraction posée cm1",
+   "fiche soustraction cm",
+   "fiche soustraction cm2",
+   "fiche soustraction avec retenue ce1"
+  ]
+ },
+ "doubles-halves": {
+  "fiche doubles": [
+   "fiche doubles ce1",
+   "fiche doubles et moitiés ce2",
+   "fiche doubles cp",
+   "fiche doubles ce2",
+   "fiche doubles et moitiés",
+   "fiche doubles et moitiés cp",
+   "fiche exercices doubles cp",
+   "fiche exercices doubles",
+   "fiche exercice les doubles ce1",
+   "fiche calcul les doubles"
+  ],
+  "fiche moitiés": [
+   "fiche les moitiés cp",
+   "fiche doubles et moitiés ce1",
+   "fiche doubles et moitiés ce2",
+   "fiche doubles et moitiés",
+   "fiche doubles et moitiés cp"
+  ]
+ },
+ "compare-numbers": {
+  "fiche comparer des nombres": [
+   "fiche comparer des nombres cp",
+   "fiche comparer des nombres ce1",
+   "fiche comparer des nombres gs",
+   "fiche comparer des nombres ce2",
+   "exercice comparer des nombres cp",
+   "exercice comparer des nombres ce1",
+   "exercice comparer des nombres décimaux",
+   "exercice comparer des nombres ce2",
+   "exercice comparer des nombres entiers cm1",
+   "exercice comparer des nombres"
+  ],
+  "créer fiche comparer des nombres": [
+   "fiche comparer des nombres cp",
+   "fiche comparer des nombres gs",
+   "fiche comparer des nombres ce1",
+   "fiche comparer des nombres ce2"
+  ],
+  "fiche des quantités": [
+   "fiche comparer des quantités gs",
+   "fiche comparer des quantités ms",
+   "fiche comparer des quantités",
+   "fiche maternelle comparer des quantités"
+  ]
+ },
+ "odd-even": {
+  "générateur de pair": [
+   "createur de pairi daiza"
+  ],
+  "fiche pair": [
+   "fiche paie",
+   "fiche pair impair",
+   "fiche paie fonctionnaire",
+   "fiche paie education nationale",
+   "fiche paie net",
+   "fiche paie fonction publique",
+   "fiche paie prof",
+   "fiche paie ensap",
+   "fiche paie fonctionnaire 2026",
+   "fiche paie en ligne"
+  ],
+  "créer fiche pair": [
+   "créer fiche paie"
+  ],
+  "fiche impair": [
+   "fiche pair impair"
+  ]
+ },
+ "place-value": {
+  "numération générateur": [
+   "nombre générateur",
+   "générateur numération"
+  ],
+  "numération fiche à imprimer": [
+   "fiche chiffres à imprimer",
+   "fiche numération ms à imprimer",
+   "fiche numération gs à imprimer",
+   "fiche math cp à imprimer",
+   "nombre en anglais fiche à imprimer"
+  ],
+  "générateur de numération": [
+   "générateur numération"
+  ],
+  "fiche numération": [
+   "fiche numération gs",
+   "fiche numération cp",
+   "fiche numération ce1",
+   "fiche numération ce2",
+   "fiche numération ms 1 à 4",
+   "fiche numération ms à imprimer",
+   "fiche numération ms 1 à 3",
+   "fiche numération ms",
+   "fiche numération ms 1 à 6",
+   "fiche numération ms 1 à 5"
+  ]
+ },
+ "fractions": {
+  "générateur de les fractions": [
+   "générateur de fractions",
+   "générateur de fractions en ligne",
+   "générateur de fractions décimales",
+   "générateur fractions micetf"
+  ],
+  "fiche les fractions": [
+   "fiche les fractions",
+   "fiche les fractions ce2",
+   "fiche les fractions cm1",
+   "fiche les fractions ce1",
+   "fiche les fractions cm2",
+   "fiche pédagogique les fractions",
+   "fiche sur les fractions décimales",
+   "fiche exercice les fractions",
+   "fiche pédagogique les fractions 1ac",
+   "fiche exercice les fractions ce2"
+  ]
+ },
+ "multiplication-division": {
+  "multiplication générateur": [
+   "multiplication générateur",
+   "générateur multiplication posée",
+   "générateur multiplication charivari",
+   "générateur multiplication et division",
+   "générateur multiplication en colonne",
+   "générateur multiplication à trous",
+   "générateur multiplication en ligne",
+   "générateur multiplication ce2",
+   "table multiplication générateur",
+   "micetf générateur multiplication"
+  ],
+  "multiplication fiche à imprimer": [
+   "fiche multiplication à imprimer",
+   "fiche multiplication ce2 à imprimer",
+   "table de multiplication fiche à imprimer"
+  ],
+  "générateur de multiplication": [
+   "générateur de multiplication",
+   "générateur de multiplication en ligne",
+   "générateur de multiplications posées",
+   "générateur de multiplication et division",
+   "générateur de multiplication ce2",
+   "générateur tables de multiplication",
+   "générateur tables de multiplication charivari",
+   "générateur table de multiplication à imprimer",
+   "générateur tables de multiplication et division",
+   "générateur tables de multiplication à trous"
+  ],
+  "fiche multiplication": [
+   "fiche multiplication",
+   "fiche multiplication ce2",
+   "fiche multiplication cm1",
+   "fiche multiplication cm2",
+   "fiche multiplication ce1",
+   "fiche multiplication à imprimer",
+   "fiche multiplication posée",
+   "fiche multiplication posée cm1",
+   "fiche multiplication posée cm2",
+   "fiche multiplication posée ce2"
+  ],
+  "division générateur": [
+   "générateur division posée",
+   "générateur division",
+   "générateur division euclidienne",
+   "générateur division en ligne",
+   "générateur division charivari"
+  ],
+  "division fiche à imprimer": [
+   "fiche de division à imprimer",
+   "fiche de division cm1 à imprimer"
+  ],
+  "générateur de division": [
+   "générateur de division euclidienne",
+   "générateur de division",
+   "générateur de division posée",
+   "générateur tables de division",
+   "générateur division en ligne",
+   "générateur de multiplication et division"
+  ],
+  "fiche division": [
+   "fiche division cm2",
+   "fiche division",
+   "fiche division euclidienne",
+   "fiche division cm1",
+   "fiche division ce2",
+   "fiche division posée cm1",
+   "fiche division posée",
+   "fiche division en colonne",
+   "fiche division posée cm2",
+   "fiche division cm1 pdf"
+  ]
+ },
+ "logic-puzzles": {},
+ "money": {
+  "générateur de la monnaie": [
+   "création de monnaie",
+   "générateur de monnaie",
+   "createur de la crypto monnaie"
+  ],
+  "fiche la monnaie": [
+   "fiche la monnaie ce2",
+   "fiche la monnaie ce1",
+   "fiche la monnaie cp",
+   "fiche la monnaie",
+   "fiche rendre la monnaie ce2",
+   "fiche rendre la monnaie ce1",
+   "fiche rendre la monnaie",
+   "fiche exercice la monnaie ce2",
+   "fiche exercice la monnaie ce1",
+   "fiche exercice la monnaie cp"
+  ]
+ },
+ "telling-time": {
+  "fiche lire l’heure": [
+   "fiche lire l heure ce2",
+   "fiche lire l heure",
+   "fiche lire l heure ce1",
+   "fiche lire l heure cm1",
+   "fiche lire l heure cp",
+   "fiche lire l heure cm2",
+   "fiche lire l heure maitre lucas",
+   "fiche lire l heure cm",
+   "exercice lire l heure",
+   "exercice lire l heure ce2"
+  ],
+  "créer fiche lire l’heure": [
+   "fiche lire l heure ce2",
+   "fiche lire l heure",
+   "fiche lire l heure ce1",
+   "fiche lire l heure cm1",
+   "fiche lire l heure cp",
+   "fiche lire l heure cm2",
+   "fiche lire l heure maitre lucas",
+   "fiche lire l heure cm",
+   "fichier lire l heure ce2",
+   "fichier lire l'heure"
+  ]
+ },
+ "measurement": {
+  "fiche grandeurs": [
+   "fiche grandeurs et mesures cm2",
+   "fiche grandeurs et mesures",
+   "fiche grandeurs et mesures ce2",
+   "fiche grandeurs et mesures gs",
+   "fiche grandeurs gs",
+   "fiche grandeurs et mesures cp",
+   "fiche formes et grandeurs gs"
+  ],
+  "fiche mesures": [
+   "fiche mesures bas de contention",
+   "fiche mesures juzo",
+   "fiche mesures contention",
+   "fiche mesures radiante",
+   "fiche mesures de longueurs cm1",
+   "fiche mesures tension",
+   "fiche mesures",
+   "fiche mesures ce2",
+   "fiche mesures de longueurs ce2",
+   "fiche mesures cp"
+  ]
+ },
+ "graphs-data": {
+  "générateur de données": [
+   "générateur de données",
+   "générateur de données aléatoires",
+   "générateur de données excel",
+   "générateur de données structurées",
+   "générateur de données sql",
+   "générateur base de données",
+   "processus générateur de données",
+   "générateur de mots avec lettres données"
+  ],
+  "fiche données": [
+   "fiche données sécurité",
+   "fiche données sécurité eau de javel",
+   "fiche données sécurité en anglais",
+   "fiche données sécurité white spirit",
+   "fiche données sécurité wd40",
+   "fiche données de sécurité acide chlorhydrique",
+   "fiche données sécurité acétone",
+   "fiche données de sécurité vinaigre blanc",
+   "fiche données sécurité gasoil",
+   "fiche données sécurité adblue"
+  ],
+  "créer fiche données": [
+   "créer fichier données outlook"
+  ],
+  "graphiques générateur": [
+   "graphique générateur",
+   "diagramme générateur"
+  ],
+  "graphiques fiche à imprimer": [
+   "fiche graphisme à imprimer",
+   "feuille graphique à imprimer",
+   "feuille graphisme à imprimer",
+   "fiche graphisme maternelle à imprimer",
+   "fiche graphisme ps à imprimer",
+   "fiche graphisme cp à imprimer",
+   "fiche graphisme maternelle à imprimer pdf",
+   "fiche graphisme gs à imprimer",
+   "fiche graphisme ms à imprimer"
+  ]
+ },
+ "shapes-geometry": {
+  "formes générateur": [
+   "formation générateur photovoltaïque raccordé au réseau compétence électrique",
+   "formation générateur photovoltaïque raccordé au réseau",
+   "générateur formes géométriques"
+  ],
+  "fiche formes": [
+   "fiche formes géométriques gs",
+   "fiche formes gs",
+   "fiche formes ms",
+   "fiche formes géométriques ms",
+   "fiche formes maternelle",
+   "fiche formes géométriques maternelle",
+   "fiche formes",
+   "fiche formes et grandeurs gs",
+   "fiche formes planes gs",
+   "fiche formes géométriques"
+  ],
+  "géométrie fiche à imprimer": [
+   "fiche de géométrie à imprimer",
+   "fiche de géométrie cm1 à imprimer"
+  ],
+  "générateur de géométrie": [
+   "générateur de géométrie qgis",
+   "générateur de patron géométrie"
+  ],
+  "fiche géométrie": [
+   "fiche géométrie ce2",
+   "fiche géométrie cm2",
+   "fiche géométrie cp",
+   "fiche géométrie ce1",
+   "fiche géométrie cm1",
+   "fiche géométrie gs",
+   "fiche géométrie",
+   "fiche géométrie cm",
+   "fiche géométrie dans l'espace terminale",
+   "géométrie dans l'espace terminale fiche"
+  ]
+ },
+ "patterns": {
+  "fiche suites logiques": [
+   "fiche suite logique maternelle",
+   "fiche suite logique"
+  ]
+ },
+ "number-tracing": {
+  "fiche écrire les nombres": [
+   "fiche écrire les nombres en lettres ce1",
+   "fiche écrire les nombres en lettres ce2",
+   "fiche écrire les nombres en lettres cp",
+   "fiche écrire les nombres en lettres",
+   "fiche écrire les nombres",
+   "fiche écrire les nombres gs",
+   "fiche écrire les chiffres maternelle",
+   "fiche écrire les chiffres gs",
+   "fiche écrire les chiffres",
+   "fiche écrire les chiffres ms"
+  ],
+  "créer fiche écrire les nombres": [
+   "fiche écrire les nombres en lettres cp",
+   "fiche écrire les nombres en lettres ce1",
+   "fiche écrire les nombres en lettres ce2",
+   "fiche écrire les nombres en lettres",
+   "fiche écrire les nombres",
+   "fiche écrire les nombres gs"
+  ]
+ },
+ "symmetry-grids": {
+  "symétrie générateur": [
+   "générateur symétrie"
+  ],
+  "générateur de symétrie": [
+   "générateur de symétrie"
+  ],
+  "fiche symétrie": [
+   "fiche symétrie ce2",
+   "fiche symétrie",
+   "fiche symétrie cm1",
+   "fiche symétrie cm2",
+   "fiche symétrie ce1",
+   "fiche symétrie centrale",
+   "fiche symétrie cm",
+   "fiche symétrie axiale cm2",
+   "fiche symétrie gs",
+   "fiche symétrie axiale cm1"
+  ],
+  "générateur de reproduction sur quadrillage": [
+   "générateur reproduction quadrillage"
+  ],
+  "fiche reproduction sur quadrillage": [
+   "fiche reproduction sur quadrillage ce2",
+   "fiche reproduction sur quadrillage ce1",
+   "fiche reproduction sur quadrillage cp",
+   "fiche reproduction sur quadrillage",
+   "fiche reproduction sur quadrillage cm1",
+   "fiche reproduction sur quadrillage gs",
+   "fichier reproduction sur quadrillage ce2",
+   "fichier reproduction sur quadrillage cm",
+   "fichier reproduction sur quadrillage ce1",
+   "fichier reproduction sur quadrillage cp"
+  ],
+  "créer fiche reproduction sur quadrillage": [
+   "fiche reproduction sur quadrillage ce2",
+   "fiche reproduction sur quadrillage cp",
+   "fiche reproduction sur quadrillage ce1",
+   "fiche reproduction sur quadrillage",
+   "fiche reproduction sur quadrillage cm1",
+   "fiche reproduction sur quadrillage gs",
+   "fichier reproduction sur quadrillage ce2",
+   "fichier reproduction sur quadrillage cm",
+   "fichier reproduction sur quadrillage ce1",
+   "fichier reproduction sur quadrillage cp"
+  ]
+ },
+ "same-different": {
+  "pareil générateur": [
+   "même générateur"
+  ],
+  "fiche pareil": [
+   "fiche ça commence pareil",
+   "fiche ca commence pareil gs",
+   "fiche ca finit pareil"
+  ],
+  "différent générateur": [
+   "différence générateur et groupe électrogène",
+   "différence générateur et alternateur"
+  ],
+  "fiche différent": [
+   "fiche différentiel",
+   "fiche différentes représentations du nombre",
+   "différente fiche electrique",
+   "différente fiche usb",
+   "fiche équation différentielle terminale",
+   "fiche équation différentielle",
+   "fiche équation différentielle ordre 2",
+   "fiche équation différentielle ordre 1",
+   "fiche calcul différentiel",
+   "indemnité différentielle fiche de paie"
+  ]
+ },
+ "sorting": {
+  "fiche trier": [
+   "fiche trier les déchets",
+   "fiche trier les solides"
+  ],
+  "classer générateur": [
+   "classement générateur",
+   "classement générateur d image ia gratuit"
+  ],
+  "fiche classer": [
+   "comment classer fiche de paie"
+  ]
+ },
+ "dot-to-dot": {
+  "relier les points générateur": [
+   "relier les points générateur"
+  ],
+  "générateur de relier les points": [
+   "générateur relier les points"
+  ],
+  "fiche relier les points": [
+   "fiche relier les points",
+   "fiche relier des points gs"
+  ],
+  "créer fiche relier les points": [
+   "fiche relier les points"
+  ]
+ },
+ "color-by-number": {
+  "coloriages magiques générateur": [
+   "coloriage magique générateur"
+  ],
+  "générateur de coloriages magiques": [
+   "générateur de coloriages magiques",
+   "générateur de coloriage magique gratuit",
+   "générateur de coloriage magique ia"
+  ],
+  "fiche coloriages magiques": [
+   "fiche coloriage magique cp",
+   "fiche coloriage magique gs",
+   "fiche coloriage magique",
+   "fiche coloriage magique ms",
+   "fiche coloriage magique ce1",
+   "fiche coloriage magique cm1",
+   "fiche coloriage magique ce2",
+   "fiche coloriage magique maternelle",
+   "fiche coloriage magique cm2"
+  ]
+ },
+ "coloring-pages": {
+  "coloriages générateur": [
+   "coloriage générateur",
+   "générateur coloriages magiques"
+  ],
+  "coloriages fiche à imprimer": [
+   "fiche dessins à imprimer",
+   "coloriage feuille à imprimer"
+  ],
+  "générateur de coloriages": [
+   "générateur de coloriages magiques",
+   "générateur de coloriages",
+   "générateur de coloriages ia"
+  ]
+ },
+ "mazes": {
+  "labyrinthes générateur": [
+   "labyrinthe générateur"
+  ],
+  "labyrinthes fiche à imprimer": [
+   "fiche labyrinthe à imprimer"
+  ],
+  "générateur de labyrinthes": [
+   "générateur de labyrinthes"
+  ]
+ },
+ "find-the-differences": {
+  "jeu des différences générateur": [
+   "générateur jeu des différences",
+   "générateur jeu des 7 différences"
+  ],
+  "générateur de jeu des différences": [
+   "générateur jeu des différences",
+   "générateur de jeu 7 différences"
+  ]
+ },
+ "how-to-draw": {
+  "fiche apprendre à dessiner": [
+   "fiche apprendre à dessiner",
+   "fiche j apprends à dessiner"
+  ],
+  "créer fiche apprendre à dessiner": [
+   "fiche apprendre à dessiner"
+  ]
+ },
+ "picture-tracing": {},
+ "pre-writing": {
+  "graphisme générateur": [
+   "graphique générateur"
+  ],
+  "graphisme fiche à imprimer": [
+   "fiche graphisme à imprimer",
+   "fiche graphisme maternelle à imprimer",
+   "fiche graphisme ps à imprimer",
+   "fiche graphisme cp à imprimer",
+   "fiche graphisme maternelle à imprimer pdf",
+   "fiche graphisme gs à imprimer",
+   "fiche graphisme ms à imprimer",
+   "fiche graphisme boucles gs maternelle à imprimer séquence boucles"
+  ],
+  "fiche graphisme": [
+   "fiche graphisme gs",
+   "fiche graphisme ms",
+   "fiche graphisme",
+   "fiche graphisme cp",
+   "fiche graphisme lignes horizontales ms",
+   "fiche graphisme maternelle à imprimer",
+   "fiche graphisme maternelle pdf",
+   "fiche graphisme lignes verticales ms",
+   "fiche graphisme maternelle",
+   "fiche graphisme gs pdf"
+  ],
+  "créer fiche graphisme": [
+   "fiche modèle graphisme",
+   "fiche modele graphisme gs"
+  ]
+ },
+ "tangram": {
+  "tangram générateur": [
+   "générateur tangram"
+  ],
+  "tangram fiche à imprimer": [
+   "fiche tangram à imprimer"
+  ],
+  "générateur de tangram": [
+   "générateur de tangram"
+  ],
+  "fiche tangram": [
+   "fiche tangram",
+   "fiche tangram gs",
+   "fiche tangram ms",
+   "fiche tangram maternelle",
+   "fiche tangram cp",
+   "fiche tangram à imprimer",
+   "fiche tangram mhm cp",
+   "fiche tangram totem",
+   "fiche tangram ce1",
+   "fiche tangram grande section"
+  ],
+  "créer fiche tangram": [
+   "fiche modele tangram"
+  ]
+ },
+ "letter-tracing": {
+  "fiche écriture des lettres": [
+   "fiche écriture des lettres",
+   "fiche écriture des lettres ms",
+   "exercice ecriture des lettres",
+   "fiche écriture lettres capitales ms",
+   "fiche écriture lettres droites ms",
+   "fiche écriture lettres capitales gs",
+   "fiche écriture lettres obliques ms",
+   "fiche écriture lettres combinées ms",
+   "fiche écriture lettres droites gs",
+   "fiche écriture lettres droites"
+  ]
+ },
+ "word-writing": {
+  "fiche écrire des mots": [
+   "fiche écrire des mots gs",
+   "fiche écriture mots cp à imprimer",
+   "fiche écriture mots ms",
+   "fiche écriture mots gs",
+   "fiche écriture mots cp",
+   "fiche écriture mots"
+  ],
+  "créer fiche écrire des mots": [
+   "fiche écrire des mots gs"
+  ]
+ },
+ "cursive": {
+  "écriture cursive générateur": [
+   "écriture cursive générateur",
+   "écriture manuscrite générateur",
+   "écriture cursive generator",
+   "font cursive generator",
+   "font cursive generator copy and paste",
+   "font cursive generator free",
+   "alphabet cursive generator",
+   "font cursive generator tattoo",
+   "cursive font generator heart",
+   "cursive font generator instagram"
+  ],
+  "écriture cursive fiche à imprimer": [
+   "fiche écriture cursive à imprimer",
+   "fiche écriture cursive à imprimer pdf",
+   "fiche écriture cursive gs à imprimer",
+   "fiche écriture cursive cp à imprimer",
+   "fiche d écriture cursive à imprimer gratuit",
+   "fiche écriture cursive grande section à imprimer",
+   "cursive cp fiche d écriture à imprimer pdf",
+   "cursive gs fiche d écriture à imprimer pdf"
+  ],
+  "générateur de écriture cursive": [
+   "generateur de lettre cursive",
+   "générateur de texte cursive",
+   "générateur écriture cursive",
+   "générateur écriture cursive en ligne",
+   "générateur écriture cursive gs",
+   "générateur écriture cursive maternelle",
+   "générateur d'écriture cursive cp",
+   "générateur modèle écriture cursive"
+  ],
+  "fiche écriture cursive": [
+   "fiche écriture cursive",
+   "fiche écriture cursive gs à imprimer",
+   "fiche écriture cursive cp",
+   "fiche écriture cursive gs",
+   "fiche écriture cursive cp à imprimer",
+   "fiche écriture cursive ce1",
+   "fiche écriture cursive à imprimer",
+   "fiche écriture cursive majuscule",
+   "fiche écriture cursive maternelle",
+   "fiche écriture cursive à imprimer pdf"
+  ],
+  "créer fiche écriture cursive": [
+   "créer fiche écriture cursive"
+  ]
+ },
+ "alphabet": {
+  "alphabet générateur": [
+   "alphabet générateur",
+   "générateur alphabet codé",
+   "lettre générateur",
+   "générateur lettre alphabet"
+  ],
+  "alphabet fiche à imprimer": [
+   "fiche alphabet à imprimer pdf",
+   "fiche alphabet à imprimer",
+   "fiche alphas à imprimer",
+   "fiche lettres à imprimer",
+   "fiche alphabet maternelle à imprimer",
+   "fiche maternelle alphabet à imprimer pdf",
+   "fiche d écriture alphabet à imprimer pdf",
+   "fiche maternelle lettre alphabet à imprimer",
+   "fiche écriture alphabet cp à imprimer pdf",
+   "fiche d'écriture alphabet à imprimer"
+  ],
+  "générateur de alphabet": [
+   "générateur de lettre alphabet",
+   "generateur alphabet",
+   "générateur alphabet codé",
+   "generateur alphabet aleatoire",
+   "generateur alphabet petit bac"
+  ],
+  "fiche alphabet": [
+   "fiche alphabet à imprimer pdf",
+   "fiche alphabet",
+   "fiche alphabet maternelle",
+   "fiche alphabet cp",
+   "fiche alphabet gs",
+   "fiche alphabet espagnol",
+   "fiche alphabet maternelle à imprimer",
+   "fiche alphabet ce1",
+   "fiche alphabet en anglais",
+   "fiche alphabet à imprimer"
+  ],
+  "lettres générateur": [
+   "générateur lettres",
+   "alphabet générateur"
+  ],
+  "lettres fiche à imprimer": [
+   "fiche lettres à imprimer",
+   "fiche alphabet à imprimer pdf",
+   "fiche alphabet à imprimer",
+   "feuille alphabet à imprimer",
+   "feuille lettre à imprimer",
+   "fiche alphabet maternelle à imprimer",
+   "fiche maternelle lettres creuses à imprimer"
+  ],
+  "générateur de lettres": [
+   "générateur de lettres",
+   "générateur de lettres aléatoire",
+   "générateur de lettres petit bac",
+   "generateur de mot avec lettres",
+   "générateur de courant continu 7 lettres"
+  ],
+  "fiche lettres": [
+   "fiche lettres gs",
+   "fiche lettres droites gs",
+   "fiche lettres droites",
+   "fiche lettres ms",
+   "fiche lettres capitales maternelle",
+   "fiche lettres capitales gs",
+   "fiche lettres capitales ms",
+   "fiche lettres capitales",
+   "fiche lettres obliques gs",
+   "fiche lettres cursives"
+  ]
+ },
+ "word-problems": {},
+ "number-of-the-day": {
+  "fiche le nombre du jour": [
+   "fiche le nombre du jour cp",
+   "fiche le nombre du jour ce2",
+   "fiche le nombre du jour ce1",
+   "fiche le nombre du jour",
+   "fiche le nombre du jour cm1",
+   "fiche rituel le nombre du jour mhm",
+   "fiche rituel le nombre du jour mhm cm1",
+   "fiche rituel le nombre du jour",
+   "fiche nombre du jour cm",
+   "fiche nombre du jour cm2"
+  ],
+  "générateur de les nombres": [
+   "générateur de nombres aléatoires",
+   "generateur de nombres",
+   "générateur de nombres aléatoires google",
+   "générateur de nombres 10",
+   "générateur de nombres pseudo aléatoires",
+   "générateur de nombres aléatoires en ligne",
+   "générateur de nombres aléatoires rng",
+   "générateur de nombres aléatoires matériel",
+   "générateur de nombres google",
+   "générateur de nombres décimaux"
+  ],
+  "fiche les nombres": [
+   "fiche les nombres en anglais",
+   "fiche les nombres jusqu'à 9999",
+   "fiche les nombres en lettres",
+   "fiche les nombres",
+   "fiche les nombres en anglais cycle 3",
+   "fiche les nombres jusqu à 999",
+   "fiche les nombres en français",
+   "fiche les nombres de 5 à 10 gs",
+   "fiche les nombres de 0 à 100",
+   "fiche les nombres en espagnol"
+  ],
+  "lettres générateur": [
+   "générateur lettres",
+   "alphabet générateur"
+  ],
+  "lettres fiche à imprimer": [
+   "fiche lettres à imprimer",
+   "fiche alphabet à imprimer pdf",
+   "fiche alphabet à imprimer",
+   "feuille alphabet à imprimer",
+   "feuille lettre à imprimer",
+   "fiche alphabet maternelle à imprimer",
+   "fiche maternelle lettres creuses à imprimer"
+  ],
+  "générateur de lettres": [
+   "générateur de lettres",
+   "générateur de lettres aléatoire",
+   "générateur de lettres petit bac",
+   "generateur de mot avec lettres",
+   "générateur de courant continu 7 lettres"
+  ],
+  "fiche lettres": [
+   "fiche lettres gs",
+   "fiche lettres droites gs",
+   "fiche lettres droites",
+   "fiche lettres ms",
+   "fiche lettres capitales maternelle",
+   "fiche lettres capitales gs",
+   "fiche lettres capitales ms",
+   "fiche lettres capitales",
+   "fiche lettres obliques gs",
+   "fiche lettres cursives"
+  ]
+ },
+ "ordinal-numbers": {
+  "fiche nombres ordinaux": [
+   "fiche nombre ordinaux en anglais",
+   "exercices nombres ordinaux en anglais pdf",
+   "exercices nombres ordinaux cp",
+   "exercices nombres ordinaux ce1",
+   "exercices nombres ordinaux",
+   "exercices nombres ordinaux en anglais",
+   "exercices nombres ordinaux pdf"
+  ]
+ },
+ "calendar": {
+  "calendrier générateur": [
+   "calendrier générateur",
+   "générateur calendrier excel",
+   "générateur calendrier foot",
+   "générateur calendrier 2026",
+   "générateur calendrier championnat",
+   "générateur calendrier annuel",
+   "générateur calendrier garde alternée",
+   "générateur calendrier gratuit",
+   "générateur calendrier mensuel"
+  ],
+  "générateur de calendrier": [
+   "générateur de calendrier",
+   "générateur de calendrier excel",
+   "générateur de calendrier gratuit",
+   "générateur de calendrier sportif gratuit",
+   "générateur de calendrier annuel",
+   "generateur de calendrier 2026",
+   "générateur de calendrier personnalisé",
+   "générateur de calendrier mensuel",
+   "générateur de calendrier scolaire",
+   "generateur de calendrier editorial"
+  ],
+  "fiche calendrier": [
+   "fiche calendrier ce1",
+   "fiche calendrier cp",
+   "fiche calendrier ce2",
+   "fiche calendrier 2026",
+   "fiche calendrier",
+   "fiche calendrier mictionnel",
+   "fiche calendrier vaccinal",
+   "fiche calendrier de l avent",
+   "fiche calendrier 2025",
+   "fiche calendrier vaccinal 2026"
+  ],
+  "créer fiche calendrier": [
+   "créer un fichier calendrier"
+  ],
+  "générateur de jours": [
+   "générateur de jours"
+  ],
+  "fiche jours": [
+   "fiche jours de la semaine cp",
+   "fiche jours de la semaine gs",
+   "fiche jours de la semaine en anglais",
+   "fiche jours et mois en anglais",
+   "fiche jours de la semaine ce1",
+   "fiche jours de la semaine maternelle",
+   "fiche jours de la semaine",
+   "fiche jours de la semaine ms",
+   "fiche écriture jours de la semaine gs",
+   "fiche exercice jours de la semaine"
+  ],
+  "générateur de mois": [
+   "generateur de mois",
+   "générateur de mot aléatoire"
+  ],
+  "fiche mois": [
+   "fiche mois maternelle gs",
+   "fiche mois maternelle ms",
+   "fiche mois maternelle ps",
+   "fiche mois de septembre gs",
+   "fiche mois gs",
+   "fiche mois octobre maternelle",
+   "fiche mois maternelle",
+   "fiche mois loup maternelle",
+   "fiche mois de septembre",
+   "fiche mois de septembre maternelle"
+  ]
+ },
+ "maps-grids": {
+  "cartes générateur": [
+   "générateur cartes mentales",
+   "générateur cartes bingo",
+   "générateur cartes pokemon",
+   "générateur cartes de nomenclature",
+   "générateur cartes magic",
+   "générateur cartes mur sonore",
+   "générateur cartes vocabulaire",
+   "générateur cartes fantasy",
+   "générateur cartes à jouer",
+   "générateur cartes loto"
+  ],
+  "générateur de cartes": [
+   "générateur de cartes",
+   "générateur de cartes de jeu",
+   "générateur de cartes fantasy",
+   "générateur de cartes mentales",
+   "générateur de cartes de nomenclature",
+   "créateur de cartes pokémon",
+   "générateur de cartes de crédit"
+  ],
+  "fiche cartes": [
+   "fiches cartes mentales",
+   "fiches cartes mentales brevet",
+   "fiches cartes",
+   "fiches cartes d'index",
+   "fiche equation cartesienne",
+   "fiche revision equation cartesienne"
+  ],
+  "créer fiche cartes": [
+   "creer fichier carte de visite"
+  ],
+  "quadrillages générateur": [
+   "quadrillage générateur"
+  ],
+  "quadrillages fiche à imprimer": [
+   "quadrillage feuille à imprimer"
+  ]
+ },
+ "position-words": {
+  "fiche se repérer dans l'espace": [
+   "fiche se repérer dans l'espace cp",
+   "se repérer dans l'espace gs fiche",
+   "fiche se repérer dans l espace ce1",
+   "fiche se repérer dans l espace",
+   "fiche se repérer dans l espace maternelle",
+   "se repérer dans l'espace ms fiche",
+   "se repérer dans l'espace ps fiche"
+  ],
+  "créer fiche se repérer dans l'espace": [
+   "se repérer dans l'espace gs fiche",
+   "fiche se repérer dans l espace cp",
+   "fiche se repérer dans l espace ce1",
+   "fiche se repérer dans l espace",
+   "fiche se repérer dans l espace maternelle",
+   "se repérer dans l'espace ms fiche"
+  ]
+ },
+ "phonics": {
+  "sons générateur": [
+   "son générateur"
+  ],
+  "sons fiche à imprimer": [
+   "fiches sons à imprimer",
+   "fiches sons à imprimer pdf",
+   "fiches sons cp à imprimer pdf",
+   "fiches sons cp à imprimer gratuit",
+   "fiches sons ce1 à imprimer pdf",
+   "fiches sons cp à imprimer coccinelles",
+   "fiches sons cp à imprimer pdf gratuit",
+   "fiches sons cp à imprimer taoki",
+   "fiches sons cp à imprimer pdf bout de gomme",
+   "fiches sons cp à imprimer"
+  ],
+  "générateur de sons": [
+   "générateur de sons gratuit",
+   "générateur de sons",
+   "générateur de sons en ligne",
+   "générateur de sons gratuit ia",
+   "generateur de sons ia",
+   "generateur de sons hertz",
+   "générateur de sons pour acouphènes",
+   "createur de sons",
+   "createur de sons of anarchy",
+   "ia création de sons"
+  ],
+  "fiche sons": [
+   "fiche sons cp",
+   "fiche sons ce1",
+   "fiche sons ce2",
+   "fiche sons",
+   "fiche sons pilotis",
+   "fiche sons complexes",
+   "fiche sons gs",
+   "fiche sons lecture piano cp",
+   "fiche sons taoki",
+   "fiche sons ce1 lutin bazar"
+  ],
+  "créer fiche sons": [
+   "creer fichier son",
+   "creer son fichier stl"
+  ],
+  "lettres générateur": [
+   "générateur lettres",
+   "alphabet générateur"
+  ],
+  "lettres fiche à imprimer": [
+   "fiche lettres à imprimer",
+   "fiche alphabet à imprimer pdf",
+   "fiche alphabet à imprimer",
+   "feuille alphabet à imprimer",
+   "feuille lettre à imprimer",
+   "fiche alphabet maternelle à imprimer",
+   "fiche maternelle lettres creuses à imprimer"
+  ],
+  "générateur de lettres": [
+   "générateur de lettres",
+   "générateur de lettres aléatoire",
+   "générateur de lettres petit bac",
+   "generateur de mot avec lettres",
+   "générateur de courant continu 7 lettres"
+  ],
+  "fiche lettres": [
+   "fiche lettres gs",
+   "fiche lettres droites gs",
+   "fiche lettres droites",
+   "fiche lettres ms",
+   "fiche lettres capitales maternelle",
+   "fiche lettres capitales gs",
+   "fiche lettres capitales ms",
+   "fiche lettres capitales",
+   "fiche lettres obliques gs",
+   "fiche lettres cursives"
+  ]
+ },
+ "rhyming": {
+  "fiche mots qui riment": [
+   "fiche mots qui riment gs",
+   "liste mots qui riment",
+   "liste de mots qui riment maternelle"
+  ],
+  "créer fiche mots qui riment": [
+   "fiche mots qui riment gs"
+  ]
+ },
+ "syllables": {
+  "syllabes générateur": [
+   "générateur syllabes"
+  ],
+  "syllabes fiche à imprimer": [
+   "fiches syllabes à imprimer"
+  ],
+  "générateur de syllabes": [
+   "générateur de syllabes",
+   "générateur de syllabes cp",
+   "générateur de syllabes alphas",
+   "créateur de syllabes",
+   "générateur de mots avec syllabes"
+  ],
+  "fiche syllabes": [
+   "fiche syllabes gs",
+   "fiche syllabes",
+   "fiche syllabes cp",
+   "fiche syllabes ms",
+   "fiche syllabes attaques gs",
+   "fiche syllabes ce1",
+   "fiche syllabes maternelle",
+   "fiche syllabes d attaque ms",
+   "fiche syllabes finales ms",
+   "fiche syllabes finales gs"
+  ]
+ },
+ "spelling": {
+  "orthographe générateur": [
+   "générateur orthographe"
+  ],
+  "générateur de orthographe": [
+   "générateur orthographe",
+   "générateur de fautes d'orthographe"
+  ],
+  "fiche orthographe": [
+   "fiche orthographe",
+   "fiche orthographe ce1",
+   "fiche orthographe ce2",
+   "fiche orthographe cm2",
+   "fiche orthographe cm1",
+   "fiche orthographe grammaticale ce2",
+   "fiche orthographe cm1 pdf",
+   "fiche orthographe grammaticale cm1",
+   "fiche orthographe ce2 pdf",
+   "fiche orthographe cp"
+  ]
+ },
+ "nouns-articles": {
+  "fiche singulier": [
+   "fiche singulier pluriel ce1",
+   "fiche singulier pluriel",
+   "fiche singulier pluriel cp",
+   "fiche singulier pluriel ce2",
+   "fiche singulier pluriel 4p",
+   "fiche exercice singulier pluriel ce1",
+   "fiche exercice singulier pluriel cp",
+   "fiche.point singulier",
+   "fiche exercice singulier pluriel",
+   "fiche cee points singulier tertiaire"
+  ],
+  "fiche pluriel": [
+   "fiche pluriel des noms ce2",
+   "fiche pluriel des noms",
+   "fiche pluriel des noms ce1",
+   "fiche pluriel",
+   "fiche pluriel cp",
+   "fiche pluriel des noms cm1",
+   "fiche pluriel ce1",
+   "fiche pluriel des noms cm2",
+   "fiche pluriel des noms cp",
+   "fiche pluriel ce2"
+  ],
+  "articles fiche à imprimer": [
+   "feuille journal à imprimer"
+  ],
+  "générateur de articles": [
+   "générateur d articles de presse"
+  ],
+  "fiche articles": [
+   "fiche articles constitution",
+   "fiche articles",
+   "fiche pédagogique les articles définis et indéfinis",
+   "fiche sur les articles définis et indéfinis",
+   "les articles fiche de travail"
+  ]
+ },
+ "grammar": {
+  "fiche nature des mots": [
+   "fiche nature des mots",
+   "fiche nature des mots cm2",
+   "fiche nature des mots cm1",
+   "fiche nature des mots ce2",
+   "fiche nature des mots crpe",
+   "fiche nature des mots ce1",
+   "fiche nature des mots brevet",
+   "fiche nature des mots 3eme",
+   "exercice nature des mots",
+   "exercice nature des mots 6ème pdf avec correction"
+  ],
+  "créer fiche nature des mots": [
+   "fiche nature des mots",
+   "fiche nature des mots cm2",
+   "fiche nature des mots ce2",
+   "fiche nature des mots cm1",
+   "fiche nature des mots crpe",
+   "fiche nature des mots ce1",
+   "fiche nature des mots brevet",
+   "fiche nature des mots 3eme"
+  ],
+  "fiche pronoms": [
+   "fiche pronoms personnels",
+   "fiche pronoms personnels ce1",
+   "fiche pronoms",
+   "fiche exercices pronoms personnels ce1",
+   "fiche exercice pronoms personnels ce2",
+   "fiche pédagogique les pronoms personnels",
+   "les pronoms fiche de revision"
+  ],
+  "verbes générateur": [
+   "verbes générateur",
+   "générateur verbes conjugaison"
+  ],
+  "générateur de verbes": [
+   "générateur de verbes",
+   "générateur de verbes à conjuguer",
+   "générateur de verbes irréguliers anglais",
+   "générateur de verbes aléatoire",
+   "générateur de verbes français",
+   "générateur test de verbes",
+   "générateur fiche de verbes"
+  ],
+  "fiche verbes": [
+   "fiche verbes irréguliers anglais",
+   "fiche verbes irréguliers",
+   "fiche verbes espagnol",
+   "fiche verbes irréguliers anglais pdf",
+   "fiche verbes"
+  ]
+ },
+ "word-meaning": {
+  "fiche contraires": [
+   "fiche contraires ce1",
+   "fiche contraires",
+   "fiche contraires ce2",
+   "fiche les contraires cp",
+   "fiche exercices contraires ce1"
+  ],
+  "synonymes générateur": [
+   "synonymes générateur",
+   "definition générateur",
+   "definition générateur physique chimie",
+   "synonyme générateur électrique",
+   "definition générateur physique"
+  ],
+  "générateur de synonymes": [
+   "generateur de synonymes"
+  ],
+  "fiche synonymes": [
+   "fiche synonymes",
+   "fiche synonymes ce1",
+   "fiche synonymes ce2",
+   "fiche synonymes cm1",
+   "fiche synonymes cm2",
+   "fiche synonymes et antonymes",
+   "fiche synonymes cp",
+   "fiche exercices synonymes cm1",
+   "fiche exercices synonymes ce2",
+   "fiche exercices synonymes ce1"
+  ],
+  "fiche familles de mots": [
+   "fiche familles de mots ce2",
+   "fiche famille de mots ce1",
+   "fiche famille de mots cm1",
+   "fiche famille de mots",
+   "fiche famille de mots cm2",
+   "fiche famille de mots cp",
+   "fiche exercice famille de mots ce2",
+   "fiche exercice famille de mots ce1",
+   "fiche exercice famille de mots cm2",
+   "fiche exercice famille de mots cm1"
+  ],
+  "créer fiche familles de mots": [
+   "fiche familles de mots ce2",
+   "fiche famille de mots ce1",
+   "fiche famille de mots cm1",
+   "fiche famille de mots",
+   "fiche famille de mots cm2",
+   "fiche famille de mots cp"
+  ]
+ },
+ "sentences": {
+  "phrases générateur": [
+   "mots générateur"
+  ],
+  "générateur de phrases": [
+   "générateur de phrases qui ne veulent rien dire",
+   "générateur de phrases",
+   "générateur de phrases à partir de mots",
+   "générateur de phrases aléatoires",
+   "générateur de phrases absurdes"
+  ],
+  "fiche phrases": [
+   "fiche types de phrases",
+   "fiche types de phrases ce1",
+   "fiche types de phrases cm1"
+  ]
+ },
+ "reading": {
+  "lecture générateur": [
+   "générateur lecture fluence"
+  ],
+  "lecture fiche à imprimer": [
+   "fiche lecture à imprimer",
+   "fiche lecture cp à imprimer",
+   "fiche lecture cm1 à imprimer",
+   "fiche lecture ce1 à imprimer",
+   "fiche lecture ce2 à imprimer",
+   "fiche lecture cp à imprimer pdf",
+   "fiche lecture gs à imprimer",
+   "lecture piano cp fiches à imprimer",
+   "lecture piano ce1 fiches à imprimer",
+   "fiche lecture compréhension ce1 à imprimer"
+  ],
+  "générateur de lecture": [
+   "generateur de lecture",
+   "generateur de lecture de texte",
+   "generateur de plan de lecture biblique",
+   "generateur de fiche de lecture"
+  ],
+  "fiche lecture": [
+   "fiche lecture cp",
+   "fiche lecture",
+   "fiche lecture ce1",
+   "fiche lecture cp à imprimer",
+   "fiche lecture ce2",
+   "fiche lecture piano cp",
+   "fiche lecture cp pdf",
+   "fiche lecture ce1 pdf",
+   "fiche lecture cm1 à imprimer",
+   "fiche lecture cm1"
+  ],
+  "créer fiche lecture": [
+   "modele fiche lecture",
+   "modele fiche lecture lineaire",
+   "modele fiche lecture 5eme",
+   "modele fiche lecture 6eme",
+   "faire fiche lecture",
+   "modele fiche lecture ce2",
+   "modele fiche.lecture cm2",
+   "modele fiche lecture cm1"
+  ],
+  "compréhension fiche à imprimer": [
+   "fiche lecture compréhension ce1 à imprimer",
+   "fiche lecture compréhension cp à imprimer",
+   "fiche lecture compréhension ce2 à imprimer",
+   "fiche lecture compréhension cm1 à imprimer"
+  ],
+  "fiche compréhension": [
+   "fiche compréhension lecture cp",
+   "fiche compréhension lecture ce1",
+   "fiche compréhension lecture piano ce1",
+   "fiche compréhension lecture ce2",
+   "fiche compréhension cp",
+   "fiche compréhension ce2",
+   "fiche compréhension lecture cm1",
+   "fiche compréhension ce1",
+   "fiche compréhension de texte cm1",
+   "fiche compréhension orale"
+  ]
+ },
+ "stories-writing": {
+  "histoires générateur": [
+   "histoire générateur",
+   "ia générateur histoires"
+  ],
+  "histoires fiche à imprimer": [
+   "fiche histoire cm1 à imprimer"
+  ],
+  "générateur de histoires": [
+   "generateur histoires"
+  ],
+  "fiche histoires": [
+   "fiches histoires brevet",
+   "fiches histoires",
+   "fiche lecture histoires pressées bernard friot",
+   "fiche api ce1 histoires",
+   "fiche de lecture histoires pressées",
+   "fiche de lecture histoires comme ça"
+  ],
+  "production d'écrits fiche à imprimer": [
+   "production d écrits ce2 fiches à imprimer"
+  ],
+  "fiche production d'écrits": [
+   "fiche production d'écrits cp",
+   "fiche production d'écrits ce2",
+   "fiche production d'écrits ce1",
+   "fiche production d'écrits cm1",
+   "fiche production d'écrits",
+   "fiche production d écrit cm2",
+   "fiche production d écrit ci",
+   "fiche production d'écrit gs",
+   "fiche production d'écrit cm"
+  ],
+  "créer fiche production d'écrits": [
+   "fiche production d'écrits cp",
+   "fiche production d'écrits ce2",
+   "fiche production d'écrits ce1",
+   "fiche production d'écrits cm1",
+   "fiche production d'écrits",
+   "fichier production d écrits ce2",
+   "fichier production d'écrits ce1",
+   "fichier production d écrits cm1",
+   "fichier production d'écrits cp",
+   "fichier production d'écrits"
+  ]
+ },
+ "me-family-feelings": {
+  "générateur de moi": [
+   "generateur de mois",
+   "générateur de mot aléatoire",
+   "créateur de moi moche et méchant",
+   "generateur nom de moine",
+   "generateur de mot fais moi un dessin"
+  ],
+  "fiche moi": [
+   "fiche mois maternelle gs",
+   "fiche mois maternelle ms",
+   "fiche mois maternelle ps",
+   "fiche moi la paix",
+   "fiche mois de septembre gs",
+   "fiche mois gs",
+   "fiche mois octobre maternelle",
+   "fiche mois maternelle",
+   "fiche mois loup maternelle",
+   "fiche mois de septembre"
+  ],
+  "générateur de ma famille": [
+   "createur ma famille d abord"
+  ],
+  "fiche ma famille": [
+   "fiche ma famille",
+   "fiche j'enquête sur ma famille",
+   "la famille fiche pedagogique",
+   "fiche de travail ma famille"
+  ]
+ },
+ "picture-cards": {
+  "imagier générateur": [
+   "images générateur"
+  ],
+  "fiche imagier": [
+   "fiche imagier"
+  ],
+  "vocabulaire générateur": [
+   "mot générateur"
+  ],
+  "vocabulaire fiche à imprimer": [
+   "fiche vocabulaire espagnol à imprimer",
+   "fiche vocabulaire anglais à imprimer",
+   "fiche vocabulaire anglais 6ème à imprimer"
+  ],
+  "fiche vocabulaire": [
+   "fiche vocabulaire ce2 par thèmes pdf",
+   "fiche vocabulaire anglais",
+   "fiche vocabulaire",
+   "fiche vocabulaire aide soignante",
+   "fiche vocabulaire cm2 par thèmes",
+   "fiche vocabulaire ce1 par thèmes",
+   "fiche vocabulaire ce1 par thèmes pdf",
+   "fiche vocabulaire cp",
+   "fiche vocabulaire espagnol",
+   "fiche vocabulaire ce1"
+  ],
+  "créer fiche vocabulaire": [
+   "créer fiche vocabulaire",
+   "créer liste vocabulaire"
+  ]
+ },
+ "word-search": {
+  "mots mêlés générateur": [
+   "mots mêlés générateur",
+   "mots mêlés générateur gratuit",
+   "mots mélangés générateur",
+   "mots croisés générateur",
+   "mots cachés générateur",
+   "mots fléchés générateur",
+   "mots croisés générateur gratuit",
+   "mots croisés générateur en ligne",
+   "mots cachés générateur gratuit",
+   "mots croisés générateur ia"
+  ],
+  "mots mêlés fiche à imprimer": [
+   "mots fleches grille à imprimer",
+   "mots mêlés grande grille à imprimer",
+   "mots mêlés grande grille à imprimer adulte",
+   "mots croisés grande grille à imprimer"
+  ],
+  "générateur de mots mêlés": [
+   "générateur de mots mêlés",
+   "générateur de mots mêlés gratuit",
+   "générateur de mots mêlés avec mot mystère",
+   "générateur de mots mélés à imprimer",
+   "générateur de mots mêlés gratuit à imprimer",
+   "générateur de mots mêlés canva",
+   "générateur de mots mêlés en ligne",
+   "générateur de mots mêlés educol",
+   "générateur de mots mêlés anglais",
+   "générateur de mots mêlés école"
+  ],
+  "fiche mots mêlés": [
+   "fiche mots mêlés",
+   "fiche mots meles ce1",
+   "grille mots mêlés",
+   "grille mots mêlés à imprimer",
+   "grille mots mêlés gratuit",
+   "grille mots mêlés goliath",
+   "grille mots mêlés vierge",
+   "grille mots mêlés créer",
+   "fiche mots fléchés",
+   "fiche mots croisés"
+  ],
+  "créer fiche mots mêlés": [
+   "créer grille mots mêlés",
+   "créer grille mots mêlés gratuit",
+   "création grille mots mêlés",
+   "fabriquer grille mots meles",
+   "créer grille mots croisés",
+   "créer grille mots fléchés",
+   "créer grille mots cachés",
+   "créer grille mots croisés gratuit"
+  ]
+ },
+ "crossword": {
+  "mots croisés générateur": [
+   "mots croisés générateur",
+   "mots croisés générateur gratuit",
+   "mots croisés générateur en ligne",
+   "mots croisés générateur ia",
+   "mots croisés générateur avec images",
+   "mots mêlés générateur",
+   "mots fléchés générateur",
+   "mots mêlés générateur gratuit",
+   "mots fléchés générateur gratuit",
+   "grille mots croisés générateur"
+  ],
+  "générateur de mots croisés": [
+   "générateur de mots croisés",
+   "générateur de mots croisés gratuit à imprimer",
+   "générateur de mots croisés gratuit",
+   "générateur de mots croisés avec mot mystère",
+   "générateur de mots croisés personnalisés",
+   "générateur de mots croisés en ligne",
+   "générateur de mots croisés avec images gratuit",
+   "générateur de mots croisés à imprimer",
+   "générateur de mots croisés en ligne gratuit",
+   "générateur de mots croisés avec images"
+  ],
+  "fiche mots croisés": [
+   "fiche mots croisés",
+   "fiche mots croisés gs",
+   "fiche mots croisés ce1",
+   "fiche mots croisés imparfait ce1",
+   "fiche mots croisés cm2",
+   "liste mots croisés",
+   "fiche mots fléchés",
+   "fiche mots fléchés imprimer",
+   "fiche mots mêlés",
+   "fiche de mots croisés a imprimer"
+  ]
+ },
+ "secret-code": {
+  "code secret générateur": [
+   "code secret générateur",
+   "secret code generator pokemon heartgold",
+   "secret code generator pokemon soulsilver",
+   "générateur code secret enfant",
+   "secret code generator pokemon",
+   "secret code generator with symbols free",
+   "secret code generator with key",
+   "secret code generator pokemon emerald",
+   "hgss secret code generator",
+   "secret code generator pokewiki"
+  ],
+  "générateur de code secret": [
+   "générateur de code secret",
+   "générateur de code secret enfant",
+   "générateur de code confidentiel"
+  ],
+  "fiche code secret": [
+   "fiche code secret",
+   "fiche code rome secretaire",
+   "fiche code rome secretaire medicale",
+   "code secret fiche de paie"
+  ]
+ },
+ "bingo": {
+  "loto fiche à imprimer": [
+   "fiche loto à imprimer"
+  ],
+  "générateur de loto": [
+   "générateur de loto",
+   "générateur de loto image",
+   "générateur de loto gratuit",
+   "générateur de loto école",
+   "générateur de loto en ligne",
+   "créateur de loto",
+   "generateur de grilles loto",
+   "générateur de grille loto excel",
+   "générateur de combinaison loto",
+   "générateur de numéro loto"
+  ],
+  "fiche loto": [
+   "fiche loto",
+   "fiche loto à imprimer",
+   "fiche loto consignation",
+   "fiche loto max",
+   "fiche loto quebec",
+   "fiche combinaison loto max",
+   "nouvelle fiche loto max",
+   "fiche technique loto",
+   "fiche de prep loto maternelle",
+   "fiche de suivi loto des alphas"
+  ],
+  "créer fiche loto": [
+   "créer grille loto",
+   "création grille loto"
+  ]
+ }
+}

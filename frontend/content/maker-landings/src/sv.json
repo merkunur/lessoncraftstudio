@@ -1,0 +1,582 @@
+{
+ "counting": {
+  "kw": "Skapa arbetsblad om att räkna",
+  "lead": "Skapa arbetsblad om att räkna med bilder som din klass gillar: räkna och ringa in, räkna och skriv, sökbilder och mycket mer. Välj nivå och tema, så är varje antal på sidan redan kontrollerat.",
+  "teaches": [
+   "Räkna bilder och hitta rätt tal",
+   "Räkna varje sort i en myllrande sökbild",
+   "Hitta en till, en färre och lika många"
+  ],
+  "moment": "Låt eleverna göra sökbilden två och två och sedan jämföra sina tal. Om två svar skiljer sig räknar de om tillsammans."
+ },
+ "ten-frames": {
+  "kw": "Skapa arbetsblad med tiorutor och streck",
+  "lead": "Skapa arbetsblad med tiorutor och streckräkning som tränar antal med en snabb blick. Fyll rutor, läs streck, visa blixtkort, räkna kulor på kulramen och gör 10.",
+  "teaches": [
+   "Se ett antal med en snabb blick utan att räkna ett och ett",
+   "Göra 5 och 10 och se vad som fattas",
+   "Skriva ner antal med streck"
+  ],
+  "moment": "Visa ett kort i två sekunder som uppvärmning och fråga hur eleverna såg talet. Deras svar är den verkliga lektionen."
+ },
+ "number-sequences": {
+  "kw": "Skapa arbetsblad om talföljder och hundrarutan",
+  "lead": "Skapa taltavlor, talföljder med luckor och arbetsblad för att räkna med 2 eller 10 i taget, upp till 1 000. Hundrarutor, pusselbitar och talmaskiner ligger färdiga.",
+  "teaches": [
+   "Räkna framåt och bakåt från vilket tal som helst",
+   "Räkna med 2, 5 och 10 i taget",
+   "Upptäcka mönster i hundrarutan"
+  ],
+  "moment": "Klipp en hundraruta i pusselbitar och ge varje par en bit. Eleverna måste resonera om vad som står över, under och bredvid varje tal."
+ },
+ "number-lines": {
+  "kw": "Skapa arbetsblad om tallinjen",
+  "lead": "Skapa arbetsblad med tallinjer från 0 till 10 och vidare till 120, med hopp, avrundning och bråk. Börja med tallinjer där allt står utskrivet och gå vidare till tomma linjer som eleverna ritar själva.",
+  "teaches": [
+   "Placera tal på tallinjen efter storlek",
+   "Addera och subtrahera med hopp",
+   "Avrunda till närmaste tiotal eller hundratal"
+  ],
+  "moment": "Ge samma uppgift på en utskriven och en tom tallinje. Jämförelsen visar vem som fortfarande räknar och vem som redan hoppar."
+ },
+ "number-bonds": {
+  "kw": "Skapa arbetsblad om talkompisar och räknefamiljer",
+  "lead": "Skapa arbetsblad om talkompisar, talhus och räknefamiljer för 5, 10, 20 och 100. Eleverna ser hur tal delas upp och sätts ihop, och då sitter additionerna kvar.",
+  "teaches": [
+   "Dela upp ett tal i två delar på alla sätt",
+   "Se addition och subtraktion som en räknefamilj",
+   "Kunna talkompisarna till 10"
+  ],
+  "moment": "Göm några brickor under en mugg och visa resten. Arbetsbladet gör sedan samma fråga till en uppgift som eleven klarar själv."
+ },
+ "addition-subtraction": {
+  "kw": "Skapa arbetsblad om addition och subtraktion",
+  "lead": "Skapa arbetsblad om addition och subtraktion, från uppgifter med bilder till uppställningar med tresiffriga tal och växling. Välj nivå och skriv ut en ny sida med facit när du behöver.",
+  "teaches": [
+   "Lägga till och ta bort med bilder och sedan med tal",
+   "Huvudräkning upp till 10, 20 och 100",
+   "Addition och subtraktion med uppställning och växling"
+  ],
+  "moment": "Skriv ut två versioner av samma nivå till varje par. Var och en löser sin sida, sedan byter de och rättar varandra med facit."
+ },
+ "doubles-halves": {
+  "kw": "Skapa arbetsblad om dubbelt och hälften",
+  "lead": "Skapa arbetsblad om dubbelt och hälften upp till 20, med bilder eller bara med tal. Nästan dubblor, maskiner för dubbelt och hälften och memory gör att eleverna snabbt kan dubblorna i huvudet.",
+  "teaches": [
+   "Räkna dubbelt och hälften upp till 20",
+   "Använda nästan dubblor, som 6 + 7",
+   "Se att hälften och dubbelt är varandras motsats"
+  ],
+  "moment": "Spela memory med dubbelt två och två i fem minuter efter rasten. Korta och täta omgångar befäster bättre än en lång lektion."
+ },
+ "compare-numbers": {
+  "kw": "Skapa arbetsblad om att jämföra tal",
+  "lead": "Skapa arbetsblad om att jämföra, från bildgrupper med fler och färre till fyrsiffriga tal. Eleverna använder tecknen större än, mindre än och lika med och ordnar tal.",
+  "teaches": [
+   "Jämföra grupper av bilder",
+   "Använda tecknen <, > och =",
+   "Ordna tal från minst till störst"
+  ],
+  "moment": "Börja med den hungriga krokodilen, täck sedan över den och fråga bara efter tecknet. Steget från bild till symbol sker på en och samma sida."
+ },
+ "odd-even": {
+  "kw": "Skapa arbetsblad om udda och jämna tal",
+  "lead": "Skapa arbetsblad om udda och jämna tal som börjar med att dela lika och med bildpar och går vidare till entalssiffran och summor. Eleverna hittar regeln själva i stället för att lära den utantill.",
+  "teaches": [
+   "Bilda par för att se vad som blir över",
+   "Läsa entalssiffran i tal under 100",
+   "Förutsäga om en summa blir udda eller jämn"
+  ],
+  "moment": "Låt eleverna först dela riktiga brickor mellan två kompisar. På sidan skriver de sedan ner det de redan upptäckt med händerna."
+ },
+ "place-value": {
+  "kw": "Skapa arbetsblad om positionssystemet och avrundning",
+  "lead": "Skapa arbetsblad om positionssystemet med basblock, tabeller, sifferkort och talgåtor. Från tiotal och ental till hundratal, utvecklad form och avrundning till tiotal eller hundratal.",
+  "teaches": [
+   "Läsa och bygga tal med tiotal och ental",
+   "Skriva tal i utvecklad form",
+   "Avrunda till närmaste tiotal och hundratal"
+  ],
+  "moment": "Låt eleverna bygga talet med riktiga block innan de skriver det. Sifferdetektiv fungerar sedan bra som avslut."
+ },
+ "multiplication-division": {
+  "kw": "Skapa arbetsblad om multiplikation och division",
+  "lead": "Skapa arbetsblad om multiplikation och division, från lika stora grupper och rutnät till alla tabeller och division med rest. Multiplikationskort på en ring och en multiplikationstabell att fylla i ingår.",
+  "teaches": [
+   "Gå från upprepad addition till rutnät och multiplikation",
+   "Lära sig tabellerna från 2 till 10",
+   "Dela lika, gruppera och räkna med rest"
+  ],
+  "moment": "Ge varje elev den tabell den behöver, inte den klassen är på. Alla arbetar med samma sorts sida, var och en med sin tabell."
+ },
+ "word-problems": {
+  "kw": "Skapa arbetsblad med textuppgifter",
+  "lead": "Skapa arbetsblad med textuppgifter: med bilder, i ett och två steg, med jämförelse, multiplikation och division. Eleverna läser, väljer räknesätt och löser.",
+  "teaches": [
+   "Läsa en berättelse och hitta frågan",
+   "Välja rätt räknesätt",
+   "Lösa uppgifter i ett och två steg"
+  ],
+  "moment": "Täck över talen i en uppgift och fråga vad som händer i berättelsen. När eleverna kan berätta det väljer räknesättet ofta sig självt."
+ },
+ "fractions": {
+  "kw": "Skapa arbetsblad om bråk",
+  "lead": "Skapa arbetsblad om bråk: halvor, tredjedelar och fjärdedelar, att dela lika, bråkremsor, tallinje och likvärdiga bråk. Eleverna klipper, färglägger och jämför tills ett bråk betyder något.",
+  "teaches": [
+   "Dela former i lika stora delar",
+   "Namnge, färglägga och jämföra bråk",
+   "Hitta bråkdelen av en grupp"
+  ],
+  "moment": "Skriv ut bråkremsorna på färgat papper. Eleverna sparar dem i ett kuvert och använder dem på varje bråklektion."
+ },
+ "number-of-the-day": {
+  "kw": "Skapa arbetsblad om dagens tal och räkneord",
+  "lead": "Skapa blad med dagens tal upp till 1 000 och arbetsblad om räkneord. Eleverna skriver, ritar, räknar och jämför samma tal på många sätt.",
+  "teaches": [
+   "Visa ett tal på många sätt",
+   "Läsa och skriva räkneord",
+   "Hitta tio mer och tio mindre"
+  ],
+  "moment": "Lägg ett blad med dagens tal på varje bänk på morgonen. Bara talet byts, rutinen sköter sig själv."
+ },
+ "ordinal-numbers": {
+  "kw": "Skapa arbetsblad om ordningstal",
+  "lead": "Skapa arbetsblad om ordningstal med tävlingar, hyllor, flaggor och kort. Eleverna går från första, andra och tredje upp till månadens datum, i ord och i siffror.",
+  "teaches": [
+   "Hitta den första, andra och tredje i en rad",
+   "Räkna platsen från båda hållen",
+   "Läsa och skriva ordningstal"
+  ],
+  "moment": "Ställ tio elever i rad vid dörren och säg en plats. Sedan möter de samma ord i tryck på bladet Vem vinner loppet?."
+ },
+ "number-tracing": {
+  "kw": "Skapa arbetsblad om att skriva siffror",
+  "lead": "Skapa arbetsblad om att skriva siffror från 0 till 9, talen efter 10 och upp till 100, med orange startpunkt och pilar på varje siffra. Spåra, räkna och skriv på samma sida.",
+  "teaches": [
+   "Forma varje siffra på rätt sätt",
+   "Koppla en siffra till ett antal",
+   "Skriva tal över 10 och räkneord"
+  ],
+  "moment": "Börja matten lugnt: eleverna räknar bilderna först, så står siffran alltid för något."
+ },
+ "money": {
+  "kw": "Skapa arbetsblad om pengar",
+  "lead": "Skapa arbetsblad om pengar med svenska kronor: räkna mynt och sedlar, handla, räkna ut växel och betala med så få mynt som möjligt. Prislappar och lekpengar för att leka affär ingår.",
+  "teaches": [
+   "Känna igen mynt och deras värde",
+   "Räkna blandade mynt och sedlar",
+   "Addera priser och räkna ut växel"
+  ],
+  "moment": "Bygg en affär längst bak i klassrummet med prislappar och lekpengar. Bladen om pengar gör sedan det som hände till skrivna uppgifter."
+ },
+ "telling-time": {
+  "kw": "Skapa arbetsblad om klockan",
+  "lead": "Skapa arbetsblad om klockan, från hel och halv timme till var femte minut, klockan på minuten och tidsskillnad. Eleverna läser klockor, ritar visare och bygger sin egen klocka.",
+  "teaches": [
+   "Läsa klockan: hel, halv och var femte minut",
+   "Rita visare för en given tid",
+   "Räkna ut hur lång tid som gått"
+  ],
+  "moment": "Låt varje elev göra en egen klocka och spara den i bänken. Eleverna ställer den för dagens rutiner och jämför med klassrummets klocka."
+ },
+ "calendar": {
+  "kw": "Skapa arbetsblad om kalendern",
+  "lead": "Skapa arbetsblad om veckans dagar, årets månader, igår och imorgon och om att läsa en hel månad. Födelsedagsdiagram och dagens datum passar in i din morgonrutin.",
+  "teaches": [
+   "Säga dagar och månader i ordning",
+   "Använda igår, idag och imorgon",
+   "Läsa datum i en kalender"
+  ],
+  "moment": "Fyll i en tom månad tillsammans första skoldagen i månaden, med födelsedagar. Sidan blir stödet för varje kalenderfråga."
+ },
+ "measurement": {
+  "kw": "Skapa arbetsblad om mätning",
+  "lead": "Skapa arbetsblad om mätning, från stor och liten till linjal, gem, mätkannor, vågar och termometrar. Eleverna jämför, ordnar och mäter med riktiga enheter.",
+  "teaches": [
+   "Jämföra längd, höjd och vikt",
+   "Mäta med gem, kuber och linjal",
+   "Läsa av vågar, mätkannor och termometrar"
+  ],
+  "moment": "Skriv ut linjalerna att klippa ut så att varje elev har en, och skicka paren runt i klassrummet för att mäta."
+ },
+ "graphs-data": {
+  "kw": "Skapa arbetsblad om diagram och tabeller",
+  "lead": "Skapa arbetsblad med bilddiagram, stapeldiagram och tabeller som eleverna läser och bygger själva. De sorterar, räknar och svarar på frågor om datan.",
+  "teaches": [
+   "Sortera och räkna data",
+   "Läsa bilddiagram och stapeldiagram",
+   "Använda en skala där en bild står för fler"
+  ],
+  "moment": "Gör klassens diagram med en fråga som eleverna bryr sig om, och låt var och en skriva en mening om resultatet som stämmer."
+ },
+ "shapes-geometry": {
+  "kw": "Skapa arbetsblad om former och geometri",
+  "lead": "Skapa geometriblad om sidor, hörn, ytor och kanter, plana figurer och kroppar, utvikningar, symmetri och area. Eleverna sorterar, ritar, klipper och viker i stället för att bara namnge.",
+  "teaches": [
+   "Känna igen figurer och kroppar på deras egenskaper",
+   "Räkna sidor, hörn, ytor och kanter",
+   "Rita former och utforska area och omkrets"
+  ],
+  "moment": "Skicka eleverna på jakt efter räta vinklar i klassrummet med ett vikt pappershörn och låt dem sortera vad de hittade."
+ },
+ "symmetry-grids": {
+  "kw": "Skapa arbetsblad om symmetri och rutnät",
+  "lead": "Skapa arbetsblad om symmetri och att rita av på rutnät: göra klart andra halvan, rita av ruta för ruta och rita dubbelt så stort. Eleverna tränar noggrant seende och stadig hand samtidigt.",
+  "teaches": [
+   "Rita klart en bild längs symmetrilinjen",
+   "Rita av en bild ruta för ruta",
+   "Spegla, vrida och förstora en bild"
+  ],
+  "moment": "Ge en rutnätsbild som lugn uppgift efter rasten. Eleverna landar snabbt och du ser vem som håller reda på rutorna."
+ },
+ "maps-grids": {
+  "kw": "Skapa arbetsblad om kartor och koordinater",
+  "lead": "Skapa arbetsblad om kartor med bilder uppifrån, teckenförklaringar, väderstreck, koordinater och världsdelar. Skattjakter och sänka skepp gör övningen till en lek.",
+  "teaches": [
+   "Se en plats uppifrån och läsa en teckenförklaring",
+   "Använda koordinater i ett rutnät",
+   "Använda norr, öster, söder och väster"
+  ],
+  "moment": "Göm en liten överraskning i klassrummet och låt eleverna skriva vägen så att en kompis kan följa den."
+ },
+ "patterns": {
+  "kw": "Skapa arbetsblad om mönster",
+  "lead": "Skapa arbetsblad om mönster: AB, ABC och AABB, växande mönster och talmönster, alla med bilder från ditt tema. Eleverna fortsätter, fyller i och hittar på egna.",
+  "teaches": [
+   "Hitta den del som upprepas",
+   "Fortsätta och fylla i mönster",
+   "Beskriva växande mönster och talmönster"
+  ],
+  "moment": "Låt eleverna klappa eller stampa mönstret innan de ritar det. Att höra det hjälper ofta den som ännu inte ser det."
+ },
+ "logic-puzzles": {
+  "kw": "Skapa arbetsblad med logikpussel",
+  "lead": "Skapa logikblad: bild- och siffersudoku, talpyramider, logikpussel, magiska kvadrater och vågpussel. Varje pussel har en enda lösning, och nivåerna växer med din klass.",
+  "teaches": [
+   "Resonera steg för steg utifrån ledtrådar",
+   "Kontrollera ett svar mot varje regel",
+   "Hålla ut tills det är löst"
+  ],
+  "moment": "Ha bildsudoku redo för dem som blir klara först. De utmanar utan att ge mer av samma."
+ },
+ "dot-to-dot": {
+  "kw": "Skapa arbetsblad med prick till prick",
+  "lead": "Skapa prick-till-prick-blad där eleverna räknar till 20, räknar bakåt, räknar med hopp, följer alfabetet eller löser uppgifter. Den dolda bilden håller eleverna igång till sista pricken.",
+  "teaches": [
+   "Säga talraden i ordning",
+   "Räkna bakåt och med hopp",
+   "Följa alfabetet med stora och små bokstäver"
+  ],
+  "moment": "Låt eleverna gissa bilden innan de börjar och halvvägs. De kontrollerar varje tal för att få veta."
+ },
+ "color-by-number": {
+  "kw": "Skapa arbetsblad med måla efter nummer",
+  "lead": "Skapa blad med måla efter nummer och kod där varje färg är ett svar: addition, subtraktion, högfrekventa ord, första ljud och tabeller. Den färdiga bilden visar om allt stämmer.",
+  "teaches": [
+   "Öva räkning med inbyggd kontroll",
+   "Läsa en färgkod noga",
+   "Arbeta lugnt igenom en hel sida"
+  ],
+  "moment": "Använd ett kodblad på fredagen för repetition. Ett fel syns som en färg på fel plats, så eleven hittar det ofta själv."
+ },
+ "coloring-pages": {
+  "kw": "Skapa målarbilder till klassen",
+  "lead": "Skapa målarbilder ur vårt bildbibliotek, med ord att spåra, en mening att skriva eller en färgkod. Vik ett litet målarhäfte till varje tema du arbetar med.",
+  "teaches": [
+   "Bygga pennkontroll och styrka i handen",
+   "Koppla bilder till ord",
+   "Prata om det som finns på sidan"
+  ],
+  "moment": "Vik målarhäftet första dagen på ett nytt tema. Eleverna tar med sig orden de mött i klassrummet hem."
+ },
+ "same-different": {
+  "kw": "Skapa arbetsblad om lika och olika",
+  "lead": "Skapa arbetsblad för synuppfattning: hitta den som inte hör till, para ihop skuggor, par, tvillingar och den saknade biten. Att titta noga kommer före läsning och matte.",
+  "teaches": [
+   "Se vad som är lika och vad som är olika",
+   "Para ihop former, skuggor och spegelbilder",
+   "Hålla uppmärksamheten på små detaljer"
+  ],
+  "moment": "Fråga vad som är olika och hur eleverna vet det. Deras skäl är en första övning i att förklara hur de tänker."
+ },
+ "position-words": {
+  "kw": "Skapa arbetsblad om lägesord",
+  "lead": "Skapa arbetsblad om på, under, bredvid, vänster, höger, överst, i mitten och nederst. Eleverna läser, ritar, klistrar och väljer ord, så att lägesorden blir deras egna.",
+  "teaches": [
+   "Förstå ord för läge",
+   "Skilja på vänster och höger",
+   "Följa instruktioner med lägesord"
+  ],
+  "moment": "Spela först en runda med en nalle och en stol och låt sedan varje elev placera sin egen bild på bladet."
+ },
+ "sorting": {
+  "kw": "Skapa arbetsblad om att sortera",
+  "lead": "Skapa arbetsblad om att sortera med klipp och klistra, sorteringsunderlag och bildkort: mat, fordon, behov och önskningar, yrken. Eleverna väljer en regel och förklarar den.",
+  "teaches": [
+   "Gruppera bilder efter en regel",
+   "Se vad som inte hör till",
+   "Förklara varför något passar i en grupp"
+  ],
+  "moment": "Dela ut underlag och bildkort och låt paren hitta på en regel. Det andra paret ska gissa den."
+ },
+ "mazes": {
+  "kw": "Skapa arbetsblad med labyrinter",
+  "lead": "Skapa labyrinter, från första stigarna för de yngsta till jättelabyrinter, och även med bokstäver, tal, addition och första ljud. Varje labyrint är löst innan den når dig, så det finns alltid en väg.",
+  "teaches": [
+   "Planera en väg och titta framåt",
+   "Hålla ett stadigt pennstreck",
+   "Öva bokstäver, tal och uppgifter på vägen"
+  ],
+  "moment": "Använd en räknelabyrint som morgonuppgift: bara rätt svar leder till målet, så sidan rättar sig själv."
+ },
+ "find-the-differences": {
+  "kw": "Skapa arbetsblad med hitta felen",
+  "lead": "Skapa hitta-felen-blad med 3, 5, 7 eller 10 ändringar i riktiga bilder, plus saker som saknas, färgskillnader och spegelbilder. De flesta går också att spela på skärm.",
+  "teaches": [
+   "Söka igenom en bild med ordning",
+   "Säga vad som ändrats",
+   "Skriva vad som är olika"
+  ],
+  "moment": "Låt paren turas om att beskriva en skillnad utan att peka. De måste hitta orden för var den är och vad som ändrats."
+ },
+ "how-to-draw": {
+  "kw": "Skapa arbetsblad om att rita steg för steg",
+  "lead": "Skapa ritblad steg för steg där varje ny linje visas i färg. Eleverna följer, spårar, gör klart och ritar till sist ur minnet, med ord- och meningsblad för skrivandet.",
+  "teaches": [
+   "Dela upp en bild i enkla former",
+   "Följa steg i ordning",
+   "Skriva om det de ritat"
+  ],
+  "moment": "Rita första steget tillsammans på tavlan och låt eleverna göra klart själva. Bilden ger även den som ogärna skriver något att skriva om."
+ },
+ "tangram": {
+  "kw": "Skapa arbetsblad med tangram",
+  "lead": "Skapa tangramblad med bitar att klippa ut, skuggor att lägga och frågor om formerna. Börja med pussel på två bitar och gå vidare till hela figurer.",
+  "teaches": [
+   "Vrida och passa ihop former",
+   "Se former i andra former",
+   "Planera innan en bit läggs"
+  ],
+  "moment": "Klipp bitarna en gång, spara dem i ett kuvert och visa en ny skugga varje vecka för några lugna minuter."
+ },
+ "picture-tracing": {
+  "kw": "Skapa arbetsblad med bilder att spåra",
+  "lead": "Skapa bilder att spåra, från stora runda former för de yngsta till prickade stadsbilder för åk 1. Raka linjer, sicksack, spiraler och öglor blir till en riktig bild.",
+  "teaches": [
+   "Styra pennan längs en linje",
+   "Dra raka, runda och öglade linjer",
+   "Förbereda handen för att skriva bokstäver"
+  ],
+  "moment": "Låt eleverna spåra en stor bild först med fingret, sedan med krita och sist med penna. Samma blad kan användas tre gånger."
+ },
+ "pre-writing": {
+  "kw": "Skapa arbetsblad för skrivförberedelse",
+  "lead": "Skapa skrivförberedande blad med raka linjer, sicksack, vågor, öglor och spiraler, från de första linjerna att spåra till svåra linjer. Klippövningar ingår.",
+  "teaches": [
+   "Hålla och styra pennan",
+   "Öva grundrörelserna bakom bokstäverna",
+   "Klippa längs en linje"
+  ],
+  "moment": "Stoppa ett blad i en plastficka och använd en whiteboardpenna, så kan eleven öva samma väg många gånger."
+ },
+ "letter-tracing": {
+  "kw": "Skapa arbetsblad om att spåra bokstäver",
+  "lead": "Skapa arbetsblad för att spåra stora och små bokstäver och elevens eget namn. Varje sida använder alfabetet i språket du väljer, på svenska med å, ä och ö.",
+  "teaches": [
+   "Forma stora och små bokstäver",
+   "Koppla varje bokstav till en bild",
+   "Skriva sitt eget namn"
+  ],
+  "moment": "Skriv ut varje elevs namn första dagen. Det är det ord som betyder mest, och det visar dig var eleven börjar."
+ },
+ "word-writing": {
+  "kw": "Skapa arbetsblad om att skriva ord",
+  "lead": "Skapa arbetsblad för att spåra och skriva ord: skriva av, skriva till en bild, fylla bokstavsrutor och sätta ord på bilder. Steg för steg går eleverna från spårning till att skriva själva.",
+  "teaches": [
+   "Spåra och skriva av hela ord",
+   "Skriva till en bild med allt mindre stöd",
+   "Skriva ord på linjer"
+  ],
+  "moment": "Ge tre versioner av samma ord: med första bokstaven, med ordbank och utan stöd. Alla skriver samma lista på sin nivå."
+ },
+ "alphabet": {
+  "kw": "Skapa arbetsblad om alfabetet",
+  "lead": "Skapa arbetsblad om alfabetet: känna igen bokstäver, stora och små bokstäver, vokaler, bokstavsordning och veckans bokstav. Varje sida använder alfabetet i språket du väljer.",
+  "teaches": [
+   "Känna igen och namnge bokstäver",
+   "Para ihop stora och små bokstäver",
+   "Sätta ord i bokstavsordning"
+  ],
+  "moment": "Starta måndagen med veckans bokstav och skicka eleverna på bokstavsjakt i en bok."
+ },
+ "phonics": {
+  "kw": "Skapa arbetsblad om ljud och bokstäver",
+  "lead": "Skapa arbetsblad om ljud i början, mitten och slutet av ord, konsonantkluster och långa och korta vokaler. Med ljudrutor, klämkort och sorteringar tränar eleverna med riktiga bilder.",
+  "teaches": [
+   "Höra ljud i början, mitten och slutet",
+   "Ljuda ihop och räkna ljuden i ett ord",
+   "Läsa konsonantkluster"
+  ],
+  "moment": "Använd ljudrutorna med brickor: eleven skjuter fram en bricka per ljud innan den skriver. Händerna gör ljuden synliga."
+ },
+ "rhyming": {
+  "kw": "Skapa arbetsblad om rimord",
+  "lead": "Skapa rimblad med par, memorykort, dominobrickor och sorteringar, byggda på ord som verkligen rimmar på svenska. Eleverna lyssnar, parar ihop och skriver egna rim.",
+  "teaches": [
+   "Höra ord som rimmar",
+   "Hitta ordet som inte passar",
+   "Skriva rimord"
+  ],
+  "moment": "Spela rim-memory högt: ett par räknas bara om eleven säger båda orden."
+ },
+ "syllables": {
+  "kw": "Skapa arbetsblad om stavelser",
+  "lead": "Skapa arbetsblad för att klappa, räkna, dela och sätta ihop stavelser, plus ord att ljuda ihop. Stavelsedelningen följer det eleverna lär sig i skolan.",
+  "teaches": [
+   "Klappa och räkna stavelser",
+   "Dela ord och sätta ihop dem igen",
+   "Ljuda ihop och läsa ord"
+  ],
+  "moment": "Klappa orden tillsammans innan eleverna skriver. Ett ord man känner i händerna är lättare att dela."
+ },
+ "sight-words": {
+  "kw": "Skapa arbetsblad om högfrekventa ord",
+  "lead": "Skapa arbetsblad för det högfrekventa ord du arbetar med: läsa, spåra, hitta, färglägga och bygga det. Ordkort, tärningsspel och regnbågsskrivning håller övningen levande.",
+  "teaches": [
+   "Läsa högfrekventa ord med en snabb blick",
+   "Skriva ord ur minnet",
+   "Använda högfrekventa ord i meningar"
+  ],
+  "moment": "Välj ett ord för veckan och använd ett nytt blad varje dag: läsa, spåra, hitta, använda."
+ },
+ "spelling": {
+  "kw": "Skapa arbetsblad om stavning",
+  "lead": "Skapa stavningsblad med blandade ord, saknade bokstäver, titta-täck-skriv-kontrollera och bokstavsbrickor, plus blad om stavningsregler. Öva regeln din klass arbetar med.",
+  "teaches": [
+   "Bygga ord utifrån ljuden",
+   "Minnas med titta, täck, skriv och kontrollera",
+   "Använda stavningsregler"
+  ],
+  "moment": "Låt eleverna lägga med bokstavsbrickor innan de skriver. En bricka är lättare att flytta än ett pennstreck, så de vågar pröva mer."
+ },
+ "nouns-articles": {
+  "kw": "Skapa arbetsblad om singular, plural och en eller ett",
+  "lead": "Skapa arbetsblad om singular, plural och en eller ett, med bilder som eleverna kan namnge. Blad om en eller flera, en eller ett och sortering ligger färdiga.",
+  "teaches": [
+   "Skilja en från flera",
+   "Skriva substantiv i plural",
+   "Välja en eller ett"
+  ],
+  "moment": "Håll upp en penna, sedan tre, och låt klassen säga ordet. Sedan gör bladet samma sak med bilder."
+ },
+ "grammar": {
+  "kw": "Skapa arbetsblad om ordklasser och grammatik",
+  "lead": "Skapa grammatikblad om substantiv, verb, adjektiv, pronomen och verbformer. Eleverna sorterar ord, ändrar meningar och hittar rätt form på tre nivåer.",
+  "teaches": [
+   "Skilja på substantiv, verb och adjektiv",
+   "Använda pronomen i meningar",
+   "Välja rätt verbform"
+  ],
+  "moment": "Sortera ordklasser med sax som en lek innan det görs på papper. Att flytta ord hjälper eleverna att känna kategorierna."
+ },
+ "word-meaning": {
+  "kw": "Skapa arbetsblad om synonymer och motsatsord",
+  "lead": "Skapa ordförrådsblad om motsatsord, synonymer, sammansatta ord, förled och ordstammar. Bildsidorna inleder arbetet och meningssidorna tar det vidare.",
+  "teaches": [
+   "Hitta motsatser och ord som betyder samma sak",
+   "Dela sammansatta ord",
+   "Använda ordstammar och förled för att förstå ett ord"
+  ],
+  "moment": "Sätt upp en ordstege på väggen och fyll på med ord från berättelserna. Snart väljer eleverna själva mer träffande ord."
+ },
+ "sentences": {
+  "kw": "Skapa arbetsblad om meningar",
+  "lead": "Skapa arbetsblad om meningar: ordna, fyll i, rätta stor bokstav och punkt, ställ frågor och gör en mening längre. Bilder stöttar nybörjarläsare i varje steg.",
+  "teaches": [
+   "Sätta ord i rätt ordning",
+   "Börja med stor bokstav och sluta med rätt tecken",
+   "Ställa och besvara frågor"
+  ],
+  "moment": "Klipp isär meningen och låt eleverna lägga den på bänken först. Att pröva orden i olika ordning är redan halva lektionen."
+ },
+ "reading": {
+  "kw": "Skapa arbetsblad om läsförståelse",
+  "lead": "Skapa arbetsblad om läsförståelse med korta berättelser och frågor, läs-och-måla-sidor och instruktioner att följa. Eleverna visar att de förstått genom att göra, inte bara genom att svara.",
+  "teaches": [
+   "Läsa noga för att hitta detaljer",
+   "Följa skriftliga instruktioner",
+   "Svara på frågor om en kort berättelse"
+  ],
+  "moment": "Använd en läs-och-måla-sida som tyst kontroll: en blick på färgerna visar vilken mening en elev inte förstod."
+ },
+ "stories-writing": {
+  "kw": "Skapa arbetsblad om berättelser och skrivande",
+  "lead": "Skapa arbetsblad om att ordna berättelser och skriva: numrera bilder, planera en berättelse, skriva en serie, ett vykort eller ett faktablad. Meningsstarter och ordbanker hjälper varje elev att komma igång.",
+  "teaches": [
+   "Sätta händelser i ordning",
+   "Berätta början, mitten och slut",
+   "Skriva meningar om en bild eller ett djur"
+  ],
+  "moment": "Låt eleverna berätta bildserien för en kompis innan de skriver ett enda ord. En berättad historia är lättare att skriva."
+ },
+ "me-family-feelings": {
+  "kw": "Skapa arbetsblad om mig själv, familjen och känslor",
+  "lead": "Skapa arbetsblad om mig själv, familjen och känslor för terminsstarten och lugna stunder. Ansikten, släktträd och känslotermometrar ger eleverna ord för det de känner.",
+  "teaches": [
+   "Namnge känslor och se dem i ansikten",
+   "Prata om familjen och vem som är vem",
+   "Säga vad man gillar och vad man kan"
+  ],
+  "moment": "Ha känslokorten vid dörren när eleverna kommer på morgonen. En elev pekar på ett kort, och du vet vem som behöver lite extra uppmärksamhet."
+ },
+ "picture-cards": {
+  "kw": "Skapa bildkort och arbetsblad om ordkunskap",
+  "lead": "Skapa bildkort, ordkort, memoryspel, etiketter till ordväggen och en bildordbok om vilket tema som helst. Tvåspråkiga kort ställer två språk sida vid sida för flerspråkiga klasser.",
+  "teaches": [
+   "Lära nya ord med bilder",
+   "Para ihop ord och bilder",
+   "Bygga en ordvägg för klassen"
+  ],
+  "moment": "Skriv ut tvåspråkiga kort på svenska och på elevens modersmål, så kan en nyanländ elev visa vad den redan kan."
+ },
+ "word-search": {
+  "kw": "Skapa ordletning till klassen",
+  "lead": "Skapa ordletning för klassrummet: med bilder som ledtrådar för nybörjarläsare, räkneord, pussel i en form, tvåspråkiga rutnät och ett hemligt meddelande.",
+  "teaches": [
+   "Känna igen ord på stavningen",
+   "Söka igenom rader och kolumner med ordning",
+   "Repetera ord från ett tema"
+  ],
+  "moment": "Använd en ordletning med bilder i slutet av ett tema. Elever som inte kan läsa alla ord än hittar dem med hjälp av bilderna."
+ },
+ "crossword": {
+  "kw": "Skapa korsord till klassen",
+  "lead": "Skapa korsord för klassrummet med bilder som ledtrådar, ordbanker och bildkryss, även tvåspråkiga. Eleverna skriver varje ord och rutnätet kontrollerar bokstäverna.",
+  "teaches": [
+   "Skriva ord bokstav för bokstav",
+   "Använda en bild eller ordbank som ledtråd",
+   "Repetera ordförråd"
+  ],
+  "moment": "Låt två elever dela ett korsord: en säger ordet och den andra skriver."
+ },
+ "secret-code": {
+  "kw": "Skapa arbetsblad med hemlig kod",
+  "lead": "Skapa arbetsblad med hemlig kod där eleverna knäcker bild-, tal- och räknekoder för att hitta ett ord. De kan till och med bygga en egen kod till en kompis.",
+  "teaches": [
+   "Använda en nyckel för att knäcka en kod",
+   "Öva bokstäver eller räkning med ett mål",
+   "Läsa ett dolt ord"
+  ],
+  "moment": "Skriv morgondagens överraskning i hemlig kod på tavlan. Alla vill lösa den."
+ },
+ "bingo": {
+  "kw": "Skapa bingo till klassen",
+  "lead": "Skapa bingo för klassen med bilder, högfrekventa ord, ljud, räkneord, former, uppgifter och klockor. Varje spel har sina utropskort, så att du kan spela med klassen inom några minuter.",
+  "teaches": [
+   "Lyssna och para ihop snabbt",
+   "Repetera ord, ljud eller uppgifter",
+   "Vänta på sin tur i ett gruppspel"
+  ],
+  "moment": "Låt en elev ropa ut korten när klassen kan spelet. Att läsa högt är i sig bra övning."
+ }
+}

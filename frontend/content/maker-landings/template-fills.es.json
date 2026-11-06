@@ -1,0 +1,216 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Detective de números",
+   "Los números secretos van del 1 al 50. Lee las pistas y escribe el número que cumple con todas."
+  ],
+  "G3-472": [
+   "Acertijos de jaulas 4 × 4",
+   "En cada fila y cada columna deben estar el 1, el 2, el 3 y el 4 una sola vez. Los números dentro de una jaula de borde grueso suman el numerito de su esquina."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Colorea por números: Oveja en la granja",
+   "Colorea cada parte con el color de su número."
+  ],
+  "K-394": [
+   "Colorea por números: Venado",
+   "Colorea cada parte con el color de su número."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Salta por el panal en orden alfabético",
+   "Empieza en la celda que señala la flecha. Colorea la siguiente letra del abecedario en una celda vecina, hasta llegar a la X."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Busca las 5 diferencias: Cisne en el estanque",
+   "Compara la imagen 1 con la imagen 2 de abajo, encierra en un círculo las 5 cosas diferentes y marca un cuadrito por cada una."
+  ],
+  "K-397": [
+   "Encuentra las 3 diferencias: Guajolote en la granja",
+   "Busca las 3 cosas grandes que cambiaron en la imagen de abajo, enciérralas en un círculo y marca los 3 cuadritos."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Cómo dibujar una tortuga paso a paso",
+   "Mira los pasos numerados y dibuja la imagen en el recuadro grande: primero el contorno y luego las líneas nuevas que ves en cada paso."
+  ],
+  "K-401": [
+   "Dibuja un mapache con figuras simples",
+   "Repasa las figuras punteadas del recuadro y termina la imagen con las líneas nuevas de cada paso."
+  ],
+  "K-402": [
+   "Repasa y luego dibuja un tambor",
+   "Repasa la imagen gris con tu lápiz y luego dibújala tú solo en el recuadro vacío de al lado."
+  ],
+  "K-403": [
+   "Completa el dibujo de un dinosaurio",
+   "Mira la imagen completa, dibuja las líneas que le faltan a la segunda imagen y luego haz tu propio dibujo abajo."
+  ],
+  "K-404": [
+   "Dibuja una cabra y escribe la palabra",
+   "Sigue los pasos para dibujar la imagen en el recuadro, luego repasa la palabra de abajo y escríbela una vez más."
+  ],
+  "G1-416": [
+   "Dibuja un pavo real en cuadrícula",
+   "Mira la imagen en la cuadrícula y dibújala en la cuadrícula vacía, cuadro por cuadro; luego dibújala otra vez sin cuadrícula."
+  ],
+  "G1-417": [
+   "Dibuja una suricata en la escena",
+   "Sigue los pasos y luego dibuja lo que falta en la escena, en un lugar vacío."
+  ],
+  "G1-418": [
+   "Ordena los pasos: dibujar un cerdo",
+   "Los pasos están revueltos: escribe del 1 al 5 en los cuadros de al lado, en el orden correcto, y luego dibuja la imagen en el recuadro grande."
+  ],
+  "G1-419": [
+   "Copia cada paso: dibuja un hipopótamo",
+   "Dibuja en el recuadro de debajo de cada paso lo que ves, agregando cada vez las líneas nuevas, y al final dibuja toda la imagen más grande en el recuadro grande de hasta abajo."
+  ],
+  "G2-390": [
+   "Dibuja una abeja y escribe sobre tu dibujo",
+   "Dibuja la imagen siguiendo los pasos y luego escribe tres oraciones sobre tu dibujo en los renglones, empezando con las palabras impresas."
+  ],
+  "G2-391": [
+   "Dibuja un castillo de arena de memoria",
+   "Mira la imagen, dobla la hoja hacia atrás por la línea punteada para que ya no la veas y dibújala de memoria en el recuadro grande."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "La letra Ll: repasa, busca y escribe",
+   "Repasa la letra mayúscula y la minúscula, rodea los cuatro dibujos que empiezan con L y escribe una fila de cada una."
+  ],
+  "K-325": [
+   "Palabras con L: el sonido en cualquier lugar",
+   "Repasa la letra y rodea los cuatro dibujos que tienen el sonido L dentro de la palabra, no al principio."
+  ],
+  "K-326": [
+   "¿Al principio, en medio o al final? La letra L",
+   "Di el nombre de cada dibujo. Colorea el recuadro que muestra dónde suena la L: al principio, en medio o al final."
+  ],
+  "K-327": [
+   "Rodea la L en las palabras y cuenta",
+   "Busca todas las L y l de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
+  ],
+  "G1-311": [
+   "Dos letras, un solo sonido: Ll",
+   "Repasa ll, rodea los cuatro dibujos que tienen el sonido ll y escribe una fila."
+  ]
+ },
+ "syllables": {
+  "G1-306": [
+   "Sílabas directas: ma me mi mo mu",
+   "Lee el tapete y escribe la primera sílaba."
+  ],
+  "G1-330": [
+   "Rodea la sílaba que oyes: ma me mi mo mu",
+   "Rodea la sílaba con la que empieza."
+  ],
+  "G1-333": [
+   "Sílabas trabadas: trac trom pla plan plu",
+   "Lee las sílabas trabadas y escribe la primera."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Palabra del día: el",
+   "Lee la palabra. Repásala, escríbela y úsala en oraciones."
+  ],
+  "K-389": [
+   "Palabras frecuentes en oraciones: el",
+   "Lee cada oración. Escribe la palabra «el» en la línea."
+  ],
+  "K-390": [
+   "Una oración con el",
+   "Trabaja una oración paso a paso."
+  ],
+  "K-391": [
+   "Repasa las oraciones: el",
+   "Repasa cada oración. Luego escríbela en la línea de abajo."
+  ],
+  "K-392": [
+   "Encuentra la palabra: el",
+   "Colorea cada recuadro con la palabra «el». Cuéntalos y escribe el número."
+  ],
+  "K-433": [
+   "Lee, repasa y escribe: el",
+   "Lee la palabra. Repásala. Escríbela. Luego escríbela en cada oración."
+  ],
+  "K-434": [
+   "Repasa la palabra y la oración: el",
+   "Repasa la palabra. Luego repasa la oración en cada renglón."
+  ],
+  "K-435": [
+   "Lee y dibuja: el",
+   "Lee la oración. Repásala. Luego dibuja lo que dice."
+  ],
+  "K-436": [
+   "Encuentra y cuenta: el",
+   "Encierra en un círculo la palabra “el” cada vez que la veas. ¿Cuántas veces la encontraste?"
+  ],
+  "K-438": [
+   "Arma la palabra: el",
+   "Recorta las letras. Pégalas en el orden correcto para armar la palabra."
+  ],
+  "K-439": [
+   "Escritura arcoíris: el",
+   "Repasa cada palabra tres veces, cada vez de un color diferente. Luego escríbela."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Reglas de ortografía: b y v",
+   "Escribe en la caja las letras que faltan."
+  ],
+  "G2-324": [
+   "¿Cuál es? Elige la letra correcta: b o v",
+   "Rodea la letra correcta y escríbela."
+  ],
+  "G2-325": [
+   "Detective de ortografía: b y v",
+   "Rodea las letras de la regla y cópialas."
+  ],
+  "G2-326": [
+   "Clasifica según la ortografía: b o v",
+   "Escribe cada palabra en su caja."
+  ],
+  "G2-327": [
+   "Escribe la palabra completa: b y v",
+   "Completa las demás letras de la palabra."
+  ],
+  "G2-328": [
+   "Plurales: de -ón, -ín, -án a -ones, -ines, -anes",
+   "Lee el singular y escribe el plural en el recuadro."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Datos de un animal: Erizo",
+   "Investiga sobre este animal. Escribe un dato en cada fila y completa el resto de la página con tu dibujo o tus palabras."
+  ],
+  "G2-339": [
+   "Erizo: marca los datos correctos",
+   "Lee las opciones de cada fila y rodea la que es verdadera para este animal. Luego dibuja dónde vive y completa la oración."
+  ],
+  "G2-340": [
+   "Erizo: datos con banco de palabras",
+   "Busca cada dato verdadero en el banco de palabras y cópialo en la fila correcta. Luego completa la oración de abajo."
+  ],
+  "G2-341": [
+   "Erizo: escribe tres oraciones",
+   "Lee los datos del animal. Completa las tres oraciones con esos datos y escribe un dato más en la última línea."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Tarjetas bilingües: español e inglés",
+   "Recorta las ocho tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras."
+  ]
+ }
+}

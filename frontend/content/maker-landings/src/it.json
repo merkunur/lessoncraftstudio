@@ -1,0 +1,592 @@
+{
+  "counting": {
+    "kw": "Generatore di schede per contare",
+    "lead": "Crea schede per contare con le immagini che piacciono alla tua classe: conta e cerchia, conta e scrivi, scene da esplorare e molto altro. Scegli livello e tema, e ogni quantità sulla pagina è già controllata.",
+    "teaches": [
+      "Contare le figure e trovare il numero giusto",
+      "Contare ogni tipo in una scena piena di cose",
+      "Trovare uno in più, uno in meno e la stessa quantità"
+    ],
+    "moment": "Proponi la scena da esplorare a coppie, poi fai confrontare i numeri. Quando due risposte non coincidono, i bambini ricontano insieme."
+  },
+  "ten-frames": {
+    "kw": "Generatore di schede con la griglia del dieci e le stanghette",
+    "lead": "Crea schede con la griglia del dieci e le stanghette per riconoscere le quantità a colpo d'occhio. Riempire griglie, leggere stanghette, mostrare carte lampo, contare le palline del pallottoliere e completare il 10.",
+    "teaches": [
+      "Riconoscere una quantità a colpo d'occhio, senza contare uno per uno",
+      "Formare il 5 e il 10 e vedere cosa manca",
+      "Registrare le quantità con le stanghette"
+    ],
+    "moment": "Per iniziare, mostra una carta per due secondi e chiedi come hanno visto il numero. Le loro risposte sono la vera lezione."
+  },
+  "number-sequences": {
+    "kw": "Generatore di schede di sequenze numeriche",
+    "lead": "Crea tabelle dei numeri, sequenze da completare e schede per contare di 2 in 2 o di 10 in 10, fino a 1.000. Tabelle del cento, pezzi di puzzle e macchine dei numeri sono già pronti.",
+    "teaches": [
+      "Contare in avanti e indietro da qualsiasi numero",
+      "Contare di 2 in 2, di 5 in 5 e di 10 in 10",
+      "Scoprire le regolarità nella tabella del cento"
+    ],
+    "moment": "Taglia una tabella del cento in pezzi e danne uno a ogni coppia. I bambini devono ragionare su cosa c'è sopra, sotto e accanto a ogni numero."
+  },
+  "number-lines": {
+    "kw": "Generatore di schede sulla linea dei numeri",
+    "lead": "Crea schede sulla linea dei numeri da 0 a 10 e fino a 120, con salti, arrotondamenti e frazioni. Parti da linee tutte numerate e passa alle linee vuote disegnate dai bambini.",
+    "teaches": [
+      "Collocare i numeri sulla linea in base alla grandezza",
+      "Addizionare e sottrarre con i salti",
+      "Arrotondare alla decina o al centinaio più vicino"
+    ],
+    "moment": "Dai la stessa operazione su una linea numerata e su una vuota. Il confronto mostra chi conta ancora e chi salta già."
+  },
+  "number-bonds": {
+    "kw": "Generatore di schede sugli amici del 10 e la scomposizione",
+    "lead": "Crea schede sulla scomposizione, casette dei numeri e famiglie di operazioni per 5, 10, 20 e 100. I bambini vedono come i numeri si scompongono e si compongono, e così le addizioni restano in testa.",
+    "teaches": [
+      "Scomporre un numero in due parti in tutti i modi",
+      "Vedere addizione e sottrazione come una famiglia",
+      "Conoscere gli amici del 10"
+    ],
+    "moment": "Nascondi qualche gettone sotto un bicchiere e mostra gli altri. La scheda trasforma la stessa domanda in un lavoro che ogni bambino fa da solo."
+  },
+  "addition-subtraction": {
+    "kw": "Generatore di schede di addizioni e sottrazioni",
+    "lead": "Genera schede di addizioni e sottrazioni, dalle operazioni con le figure a quelle in colonna a tre cifre con il cambio. Scegli il livello e stampa una pagina nuova con le soluzioni quando vuoi.",
+    "teaches": [
+      "Aggiungere e togliere con le figure, poi con i numeri",
+      "Calcolo mentale entro 10, 20 e 100",
+      "Addizioni e sottrazioni in colonna con il cambio"
+    ],
+    "moment": "Stampa due versioni dello stesso livello per ogni coppia. Ognuno risolve la sua, poi si scambiano e controllano con le soluzioni."
+  },
+  "doubles-halves": {
+    "kw": "Generatore di schede sul doppio e la metà",
+    "lead": "Crea schede sul doppio e la metà fino a 20, con le figure o solo con i numeri. Quasi doppi, macchine dei numeri e carte memory trasformano pochi fatti numerici in una solida abitudine di calcolo mentale.",
+    "teaches": [
+      "Calcolare doppio e metà fino a 20",
+      "Usare i quasi doppi come 6 + 7",
+      "Vedere che la metà è l'operazione inversa del doppio"
+    ],
+    "moment": "Fai giocare al memory dei doppi a coppie per cinque minuti dopo la ricreazione. Turni brevi e frequenti fissano questi fatti meglio di una lezione lunga."
+  },
+  "compare-numbers": {
+    "kw": "Generatore di schede per confrontare i numeri",
+    "lead": "Crea schede per confrontare, dai gruppi di figure con più e meno fino ai numeri a quattro cifre. I bambini usano i segni maggiore, minore e uguale e mettono i numeri in ordine.",
+    "teaches": [
+      "Confrontare gruppi di figure",
+      "Usare i segni <, > e =",
+      "Ordinare i numeri dal più piccolo al più grande"
+    ],
+    "moment": "Comincia con il coccodrillo affamato, poi coprilo e chiedi solo il segno. Il passaggio dal disegno al simbolo avviene su una sola pagina."
+  },
+  "odd-even": {
+    "kw": "Generatore di schede sui numeri pari e dispari",
+    "lead": "Crea schede sui numeri pari e dispari che partono dalla divisione in parti uguali e dalle coppie di figure e arrivano alla cifra delle unità e alle somme. I bambini scoprono la regola invece di impararla a memoria.",
+    "teaches": [
+      "Fare coppie per vedere cosa avanza",
+      "Leggere la cifra delle unità nei numeri fino a 100",
+      "Prevedere se una somma sarà pari o dispari"
+    ],
+    "moment": "Prima fai dividere dei veri gettoni tra due amici. La scheda fissa poi ciò che hanno già scoperto con le mani."
+  },
+  "place-value": {
+    "kw": "Generatore di schede sul valore posizionale",
+    "lead": "Crea schede sul valore posizionale con i blocchi in base dieci, tabelle, carte delle cifre e indovinelli. Dalle decine e unità alle centinaia, alla scomposizione e all'arrotondamento alla decina o al centinaio.",
+    "teaches": [
+      "Leggere e costruire i numeri con decine e unità",
+      "Scomporre i numeri",
+      "Arrotondare alla decina e al centinaio più vicino"
+    ],
+    "moment": "Fai costruire il numero con blocchi veri prima di scriverlo. Poi una scheda sulle cifre fa da verifica finale."
+  },
+  "multiplication-division": {
+    "kw": "Generatore di schede di moltiplicazioni e divisioni",
+    "lead": "Genera schede di moltiplicazioni e divisioni, dai gruppi uguali e dagli schieramenti a tutte le tabelline e alla divisione con il resto. Carte ad anello e tavole pitagoriche sono incluse.",
+    "teaches": [
+      "Passare dall'addizione ripetuta agli schieramenti e alla moltiplicazione",
+      "Imparare le tabelline dal 2 al 10",
+      "Dividere, raggruppare e lavorare con il resto"
+    ],
+    "moment": "Dai a ogni bambino la tabellina di cui ha bisogno, non quella della classe. Tutti lavorano sullo stesso tipo di pagina, ognuno con la sua."
+  },
+  "word-problems": {
+    "kw": "Generatore di schede di problemi di matematica",
+    "lead": "Crea schede di problemi con le figure, a uno e due passaggi, di confronto, moltiplicazione e divisione. I bambini leggono, scelgono l'operazione e risolvono.",
+    "teaches": [
+      "Leggere il testo e trovare la domanda",
+      "Scegliere l'operazione giusta",
+      "Risolvere problemi a uno e due passaggi"
+    ],
+    "moment": "Copri i numeri di un problema e chiedi cosa succede nella storia. Quando i bambini sanno raccontarla, l'operazione spesso si sceglie da sola."
+  },
+  "fractions": {
+    "kw": "Generatore di schede sulle frazioni",
+    "lead": "Crea schede sulle frazioni: mezzi, terzi e quarti, divisioni in parti uguali, strisce da ritagliare, linea dei numeri e frazioni equivalenti. I bambini ritagliano, colorano e confrontano finché una frazione non acquista un senso.",
+    "teaches": [
+      "Dividere le figure in parti uguali",
+      "Nominare, colorare e confrontare le frazioni",
+      "Trovare la frazione di un gruppo"
+    ],
+    "moment": "Stampa le strisce delle frazioni su carta colorata. I bambini le tengono in una busta e le usano in ogni lezione sulle frazioni."
+  },
+  "number-of-the-day": {
+    "kw": "Generatore di schede del numero del giorno",
+    "lead": "Crea schede del numero del giorno fino a 1.000 e schede sui numeri in lettere. I bambini scrivono, disegnano, contano e confrontano lo stesso numero in molti modi.",
+    "teaches": [
+      "Rappresentare un numero in molti modi",
+      "Leggere e scrivere i numeri in lettere",
+      "Trovare dieci in più e dieci in meno"
+    ],
+    "moment": "Lascia ogni mattina una scheda del numero del giorno sui banchi. Cambia solo il numero, e la routine va da sola."
+  },
+  "ordinal-numbers": {
+    "kw": "Generatore di schede sui numeri ordinali",
+    "lead": "Crea schede sui numeri ordinali con gare, scaffali, bandiere e carte. I bambini vanno da primo, secondo e terzo fino al 31º, in lettere e in cifre.",
+    "teaches": [
+      "Trovare il primo, il secondo e il terzo in una fila",
+      "Contare la posizione da entrambe le estremità",
+      "Leggere e scrivere gli ordinali"
+    ],
+    "moment": "Metti in fila dieci bambini alla porta e di' una posizione. Poi ritrovano le stesse parole stampate sulla scheda della gara."
+  },
+  "number-tracing": {
+    "kw": "Generatore di schede per scrivere i numeri",
+    "lead": "Crea schede per scrivere i numeri da 0 a 9, da 11 a 20 e fino a 100, con punto di partenza arancione e frecce su ogni numero. Ripassare, contare e scrivere sulla stessa pagina.",
+    "teaches": [
+      "Tracciare ogni numero nel modo giusto",
+      "Collegare il numero a una quantità",
+      "Scrivere i numeri da 11 a 20 e in lettere"
+    ],
+    "moment": "Inizia la lezione con calma: i bambini contano prima le figure, così il numero rappresenta sempre qualcosa."
+  },
+  "money": {
+    "kw": "Generatore di schede sul denaro",
+    "lead": "Crea schede sul denaro con euro e centesimi: contare monete e banconote, fare la spesa, dare il resto e pagare con il minor numero di monete. Cartellini dei prezzi e soldi finti per il negozio di classe sono inclusi.",
+    "teaches": [
+      "Riconoscere le monete e il loro valore",
+      "Contare monete e banconote miste",
+      "Sommare i prezzi e calcolare il resto"
+    ],
+    "moment": "Allestisci un negozio in fondo all'aula con cartellini e soldi finti. Le schede della spesa trasformano ciò che è successo lì in problemi scritti."
+  },
+  "telling-time": {
+    "kw": "Generatore di schede per leggere l'orologio",
+    "lead": "Crea schede sull'orologio, dalle ore esatte e dalle mezze ore ai cinque minuti, al minuto e alla durata. I bambini leggono orologi, disegnano le lancette e costruiscono il proprio orologio.",
+    "teaches": [
+      "Leggere le ore, le mezz'ore e gli intervalli di cinque minuti",
+      "Disegnare le lancette per un'ora data",
+      "Calcolare quanto tempo è passato"
+    ],
+    "moment": "Fai costruire l'orologio una volta e fallo tenere nel banco. I bambini lo regolano sui momenti della giornata e controllano con l'orologio di classe."
+  },
+  "calendar": {
+    "kw": "Generatore di schede sul calendario",
+    "lead": "Crea schede sui giorni della settimana, i mesi dell'anno, ieri e domani e la lettura di un mese intero. Il grafico dei compleanni e la data di oggi entrano nella tua routine del mattino.",
+    "teaches": [
+      "Dire i giorni e i mesi in ordine",
+      "Usare ieri, oggi e domani",
+      "Leggere le date sul calendario"
+    ],
+    "moment": "Riempi con la classe un mese vuoto il primo giorno di scuola del mese, compleanni compresi. Quella pagina diventa il riferimento per ogni domanda."
+  },
+  "measurement": {
+    "kw": "Generatore di schede sulle misure",
+    "lead": "Crea schede sulle misure, da grande e piccolo a righelli, graffette, caraffe graduate, bilance e termometri. I bambini confrontano, ordinano e misurano con unità vere.",
+    "teaches": [
+      "Confrontare lunghezza, altezza e peso",
+      "Misurare con graffette, cubetti e righello",
+      "Leggere bilance, caraffe e termometri"
+    ],
+    "moment": "Stampa i righelli da ritagliare perché ognuno ne abbia uno, poi manda le coppie a misurare per l'aula."
+  },
+  "graphs-data": {
+    "kw": "Generatore di schede su grafici e dati",
+    "lead": "Crea schede con ideogrammi, istogrammi e tabelle che i bambini leggono e costruiscono. Classificano, contano e rispondono a domande sui dati.",
+    "teaches": [
+      "Classificare e contare i dati",
+      "Leggere ideogrammi e istogrammi",
+      "Usare una scala in cui una figura vale di più"
+    ],
+    "moment": "Fai il grafico di classe con una domanda che interessa davvero e chiedi a ognuno di scrivere una frase vera sul risultato."
+  },
+  "shapes-geometry": {
+    "kw": "Generatore di schede su forme e geometria",
+    "lead": "Crea schede di geometria su lati, vertici, facce e spigoli, figure piane e solidi, sviluppi, simmetria e area. I bambini classificano, disegnano, ritagliano e piegano, non solo nominano.",
+    "teaches": [
+      "Riconoscere figure e solidi dalle loro proprietà",
+      "Contare lati, vertici, facce e spigoli",
+      "Disegnare figure ed esplorare area e perimetro"
+    ],
+    "moment": "Manda i bambini a cercare angoli retti in aula con un angolo di carta piegato, poi fai classificare ciò che hanno trovato."
+  },
+  "symmetry-grids": {
+    "kw": "Generatore di schede su simmetria e quadretti",
+    "lead": "Crea schede di simmetria e copia su quadretti: completare l'altra metà, copiare quadretto per quadretto e disegnare grande il doppio. Occhio attento e mano ferma crescono insieme.",
+    "teaches": [
+      "Completare un disegno con l'asse di simmetria",
+      "Copiare un disegno quadretto per quadretto",
+      "Ribaltare, ruotare e ingrandire un disegno"
+    ],
+    "moment": "Usa una copia su quadretti come attività tranquilla dopo la ricreazione. I bambini si calmano presto, e vedi chi si orienta sulla griglia."
+  },
+  "maps-grids": {
+    "kw": "Generatore di schede su mappe e coordinate",
+    "lead": "Crea schede sulle mappe con viste dall'alto, legende, direzioni, coordinate e continenti. Cacce al tesoro e battaglie navali trasformano l'esercizio in gioco.",
+    "teaches": [
+      "Vedere un luogo dall'alto e leggere una legenda",
+      "Usare le coordinate su una griglia",
+      "Usare nord, est, sud e ovest"
+    ],
+    "moment": "Nascondi una piccola sorpresa in aula e fai scrivere il percorso che un compagno dovrà seguire."
+  },
+  "patterns": {
+    "kw": "Generatore di schede sulle sequenze logiche",
+    "lead": "Crea schede con sequenze AB, ABC e AABB, sequenze che crescono e sequenze di numeri, tutte con le figure del tuo tema. I bambini continuano, completano e inventano le proprie.",
+    "teaches": [
+      "Trovare ciò che si ripete",
+      "Continuare e completare una sequenza",
+      "Descrivere sequenze che crescono e di numeri"
+    ],
+    "moment": "Fai battere le mani o i piedi sulla sequenza prima di disegnarla. Sentirla aiuta spesso il bambino che ancora non la vede."
+  },
+  "logic-puzzles": {
+    "kw": "Generatore di schede di giochi di logica",
+    "lead": "Genera schede di logica: sudoku di figure e numeri, piramidi di numeri, griglie logiche, quadrati magici e bilance. Ogni gioco ha una sola soluzione, e i livelli crescono con la classe.",
+    "teaches": [
+      "Ragionare passo dopo passo dagli indizi",
+      "Controllare una risposta con ogni regola",
+      "Non arrendersi fino alla soluzione"
+    ],
+    "moment": "Tieni dei sudoku di figure per chi finisce prima. Stimolano i più veloci senza dare loro semplicemente altri esercizi uguali."
+  },
+  "dot-to-dot": {
+    "kw": "Generatore di schede unisci i puntini",
+    "lead": "Crea schede unisci i puntini per contare fino a 20, all'indietro o di 2 in 2, seguire l'alfabeto o risolvere operazioni. Il disegno nascosto porta i bambini fino all'ultimo punto.",
+    "teaches": [
+      "Dire la sequenza dei numeri in ordine",
+      "Contare all'indietro e di 2 in 2",
+      "Seguire l'alfabeto in maiuscolo e minuscolo"
+    ],
+    "moment": "Fai indovinare il disegno prima di iniziare e a metà. I bambini controlleranno ogni numero per scoprirlo."
+  },
+  "color-by-number": {
+    "kw": "Generatore di schede colora con i numeri",
+    "lead": "Crea schede colora con i numeri e con il codice in cui ogni colore è una risposta: addizioni, sottrazioni, parole frequenti, primi suoni e tabelline. Il disegno finito mostra se è tutto giusto.",
+    "teaches": [
+      "Esercitarsi nel calcolo con un controllo integrato",
+      "Leggere con attenzione una legenda dei colori",
+      "Lavorare con calma su una pagina intera"
+    ],
+    "moment": "Usa una scheda colora con il codice il venerdì per ripassare. Un errore appare come un colore fuori posto, e spesso il bambino lo trova da solo."
+  },
+  "coloring-pages": {
+    "kw": "Generatore di disegni da colorare per la classe",
+    "lead": "Crea disegni da colorare dalla nostra raccolta di immagini, con parole da ripassare, una frase da scrivere o una legenda. Piega un mini libro da colorare per ogni tema che stai trattando.",
+    "teaches": [
+      "Sviluppare il controllo della matita e la forza della mano",
+      "Collegare le immagini alle parole",
+      "Parlare di ciò che c'è sulla pagina"
+    ],
+    "moment": "Piega il mini libro il primo giorno di un nuovo tema. I bambini portano a casa le parole incontrate in classe."
+  },
+  "same-different": {
+    "kw": "Generatore di schede uguale e diverso",
+    "lead": "Crea schede di discriminazione visiva: trovare l'intruso, abbinare ombre, coppie, gemelli e il pezzo mancante. Guardare con attenzione viene prima di leggere e contare.",
+    "teaches": [
+      "Vedere cosa è uguale e cosa è diverso",
+      "Abbinare forme, ombre e immagini speculari",
+      "Fare attenzione ai piccoli dettagli"
+    ],
+    "moment": "Chiedi cosa è diverso e come fanno a saperlo. Le loro ragioni sono un primo esercizio per spiegare ciò che pensano."
+  },
+  "position-words": {
+    "kw": "Generatore di schede sugli indicatori spaziali",
+    "lead": "Crea schede su sopra, sotto, accanto, sinistra, destra, in alto, in mezzo e in basso. I bambini leggono, disegnano, incollano e scelgono la parola, e il linguaggio dello spazio diventa loro.",
+    "teaches": [
+      "Capire le parole di posizione",
+      "Distinguere destra e sinistra",
+      "Seguire istruzioni con parole di posizione"
+    ],
+    "moment": "Gioca prima con un orsacchiotto e una sedia, poi lascia che ogni bambino metta il proprio disegno sulla scheda."
+  },
+  "sorting": {
+    "kw": "Generatore di schede per classificare",
+    "lead": "Crea schede per classificare con ritaglia e incolla, tappetini e carte: alimenti, mezzi di trasporto, bisogni e desideri, mestieri. I bambini scelgono una regola e la spiegano.",
+    "teaches": [
+      "Raggruppare le figure con una regola",
+      "Trovare ciò che non c'entra",
+      "Spiegare perché qualcosa sta in un gruppo"
+    ],
+    "moment": "Distribuisci tappetini e carte e lascia che le coppie inventino una regola. L'altra coppia deve indovinarla."
+  },
+  "mazes": {
+    "kw": "Generatore di labirinti da stampare",
+    "lead": "Genera labirinti, dai primi percorsi per i più piccoli a quelli giganti, e anche di lettere, numeri, addizioni e suoni iniziali. Ognuno è risolto prima di arrivare a te: c'è sempre un'uscita.",
+    "teaches": [
+      "Pianificare un percorso e guardare avanti",
+      "Tenere una linea di matita regolare",
+      "Ripassare lettere, numeri e somme lungo la strada"
+    ],
+    "moment": "Usa un labirinto di addizioni come lavoro del mattino: si arriva solo con i risultati giusti, la scheda si controlla da sola."
+  },
+  "find-the-differences": {
+    "kw": "Generatore di schede trova le differenze",
+    "lead": "Crea schede trova le differenze con 3, 5, 7 o 10 cambiamenti in scene vere, oltre a oggetti mancanti, cambi di colore e immagini speculari. La maggior parte funziona anche sullo schermo.",
+    "teaches": [
+      "Esplorare un'immagine con metodo",
+      "Dire cosa è cambiato",
+      "Scrivere cosa è diverso"
+    ],
+    "moment": "Fai descrivere una differenza a turno, senza indicare. I bambini devono trovare le parole per dire dov'è e cosa è cambiato."
+  },
+  "how-to-draw": {
+    "kw": "Generatore di schede per imparare a disegnare",
+    "lead": "Crea schede di disegno passo passo in cui ogni linea nuova appare a colori. I bambini seguono, ripassano, finiscono e poi disegnano a memoria, con pagine di parole e frasi per scrivere.",
+    "teaches": [
+      "Dividere un disegno in forme semplici",
+      "Seguire i passaggi in ordine",
+      "Scrivere su ciò che hanno disegnato"
+    ],
+    "moment": "Fai il primo passaggio insieme alla lavagna e lascia finire da soli. Il disegno dà qualcosa da scrivere anche a chi ne ha meno voglia."
+  },
+  "tangram": {
+    "kw": "Generatore di schede di tangram",
+    "lead": "Crea schede di tangram con pezzi da ritagliare, ombre da ricostruire e domande sulle forme. Comincia con i puzzle a due pezzi e passa alle figure intere.",
+    "teaches": [
+      "Girare e incastrare le forme",
+      "Vedere forme dentro altre forme",
+      "Pensare prima di posare un pezzo"
+    ],
+    "moment": "Ritaglia i pezzi una volta, tienili in una busta e proponi un'ombra nuova ogni settimana per pochi minuti tranquilli."
+  },
+  "picture-tracing": {
+    "kw": "Generatore di schede di disegni da ripassare",
+    "lead": "Crea disegni da ripassare, dalle grandi forme rotonde per i più piccoli alle scene di città tratteggiate per la classe prima. Linee dritte, zigzag, spirali e riccioli diventano un disegno vero.",
+    "teaches": [
+      "Guidare la matita lungo una linea",
+      "Tracciare linee dritte, curve e riccioli",
+      "Prepararsi a scrivere le lettere"
+    ],
+    "moment": "Fai ripassare un disegno grande prima con il dito, poi con il pastello e infine con la matita. La stessa scheda serve tre volte."
+  },
+  "pre-writing": {
+    "kw": "Generatore di schede di pregrafismo",
+    "lead": "Crea schede di pregrafismo con linee dritte, zigzag, onde, riccioli e spirali, dai primi percorsi fino al pregrafismo avanzato. Sono inclusi esercizi di ritaglio.",
+    "teaches": [
+      "Tenere e guidare la matita",
+      "Fare i tratti di base delle lettere",
+      "Ritagliare lungo una linea"
+    ],
+    "moment": "Infila la scheda in una busta di plastica e usa un pennarello cancellabile, così il bambino ripete lo stesso percorso molte volte."
+  },
+  "letter-tracing": {
+    "kw": "Generatore di schede con lettere tratteggiate",
+    "lead": "Crea schede per ripassare lettere maiuscole e minuscole, vocali e il nome di ogni bambino. Ogni pagina usa l'alfabeto della lingua che scegli.",
+    "teaches": [
+      "Tracciare maiuscole e minuscole",
+      "Collegare ogni lettera a una figura",
+      "Scrivere il proprio nome"
+    ],
+    "moment": "Stampa il nome di ogni bambino il primo giorno. È la parola che gli importa di più, e ti mostra da dove parte."
+  },
+  "word-writing": {
+    "kw": "Generatore di schede per scrivere le parole",
+    "lead": "Crea schede per ripassare e scrivere parole: copiare, scrivere da una figura, riempire le caselle ed etichettare. I bambini passano gradualmente dal ricalco alla scrittura autonoma.",
+    "teaches": [
+      "Ripassare e copiare parole intere",
+      "Scrivere da una figura con sempre meno aiuto",
+      "Scrivere parole sulle righe"
+    ],
+    "moment": "Dai tre versioni delle stesse parole: con la prima lettera, con la lista e senza aiuto. Tutti scrivono la stessa lista al proprio livello."
+  },
+  "cursive": {
+    "kw": "Generatore di schede di corsivo",
+    "lead": "Crea schede di corsivo per lettere, legature, parole e frasi, con l'alfabeto in corsivo e la lettura. I bambini imparano a legare le lettere e anche a leggere il corsivo.",
+    "teaches": [
+      "Formare le lettere in corsivo",
+      "Legare le lettere con scioltezza",
+      "Leggere il corsivo oltre a scriverlo"
+    ],
+    "moment": "Dedica cinque minuti ogni mattina alla lettera del giorno. Un esercizio breve e quotidiano rende scorrevoli le legature."
+  },
+  "alphabet": {
+    "kw": "Generatore di schede sull'alfabeto",
+    "lead": "Crea schede sull'alfabeto: riconoscere le lettere, maiuscole e minuscole, vocali, ordine alfabetico e lettera della settimana. Ogni pagina usa l'alfabeto della lingua che scegli.",
+    "teaches": [
+      "Riconoscere e nominare le lettere",
+      "Abbinare maiuscole e minuscole",
+      "Mettere le parole in ordine alfabetico"
+    ],
+    "moment": "Inizia il lunedì con la lettera della settimana e manda i bambini a caccia di quella lettera in un libro."
+  },
+  "phonics": {
+    "kw": "Generatore di schede di fonologia e suoni",
+    "lead": "Crea schede sui suoni iniziali e finali delle parole, sul conteggio dei suoni e sui gruppi consonantici. Con scatole dei suoni, carte con le mollette e classificazioni i bambini si esercitano con le figure.",
+    "teaches": [
+      "Sentire i suoni all'inizio e alla fine",
+      "Unire e contare i suoni di una parola",
+      "Scrivere i gruppi consonantici"
+    ],
+    "moment": "Usa le scatole dei suoni con i gettoni: il bambino spinge un gettone per ogni suono prima di scrivere. Le mani rendono visibili i suoni."
+  },
+  "rhyming": {
+    "kw": "Generatore di schede sulle parole in rima",
+    "lead": "Crea schede sulle rime con coppie, memory, domino e classificazioni, fatte con parole che rimano davvero in italiano. I bambini ascoltano, abbinano e scrivono le proprie rime.",
+    "teaches": [
+      "Sentire le parole in rima",
+      "Trovare la parola che non c'entra",
+      "Scrivere parole in rima"
+    ],
+    "moment": "Fai giocare al memory delle rime a voce alta: una coppia vale solo se il bambino dice le due parole."
+  },
+  "syllables": {
+    "kw": "Generatore di schede sulle sillabe",
+    "lead": "Crea schede per battere, contare, dividere e unire le sillabe, oltre alle famiglie delle sillabe. La divisione segue ciò che i bambini imparano a scuola.",
+    "teaches": [
+      "Battere e contare le sillabe",
+      "Dividere le parole e riunirle",
+      "Leggere le famiglie delle sillabe"
+    ],
+    "moment": "Batti le parole insieme alla classe prima di scrivere. Una parola sentita nelle mani si divide più facilmente."
+  },
+  "sight-words": {
+    "kw": "Generatore di schede sulle parole frequenti",
+    "lead": "Crea schede per la parola frequente su cui stai lavorando: leggerla, ripassarla, trovarla, colorarla e costruirla. Carte, giochi con il dado e scrittura arcobaleno tengono vivo l'esercizio.",
+    "teaches": [
+      "Leggere a colpo d'occhio le parole frequenti",
+      "Scrivere parole a memoria",
+      "Usare le parole frequenti nelle frasi"
+    ],
+    "moment": "Scegli una parola per la settimana e usa una scheda diversa ogni giorno: leggerla, ripassarla, trovarla, usarla."
+  },
+  "spelling": {
+    "kw": "Generatore di schede di ortografia",
+    "lead": "Crea schede di ortografia con parole mescolate, lettere mancanti, guarda-copri-scrivi-controlla e lettere mobili, e in più pagine sulle regole. Fai esercitare i bambini sulla regola che la classe sta affrontando.",
+    "teaches": [
+      "Costruire le parole dai loro suoni",
+      "Ricordare con guarda, copri, scrivi, controlla",
+      "Applicare le regole di ortografia"
+    ],
+    "moment": "Fai usare le lettere mobili prima di scrivere. Spostare una lettera si annulla più facilmente di un segno di matita, così i bambini provano di più."
+  },
+  "nouns-articles": {
+    "kw": "Generatore di schede su singolare, plurale e articoli",
+    "lead": "Crea schede su singolare, plurale e l'articolo giusto, con figure che i bambini sanno nominare. Uno e tanti, il, la, i, le e pagine per classificare sono qui.",
+    "teaches": [
+      "Distinguere uno da tanti",
+      "Scrivere il plurale dei nomi",
+      "Scegliere l'articolo giusto"
+    ],
+    "moment": "Mostra una matita, poi tre, e fai dire la parola alla classe. Poi la scheda fa lo stesso con le figure."
+  },
+  "grammar": {
+    "kw": "Generatore di schede di grammatica",
+    "lead": "Crea schede di grammatica su nomi, verbi, aggettivi, pronomi e forme verbali. I bambini classificano le parole, cambiano le frasi e trovano la forma giusta su tre livelli.",
+    "teaches": [
+      "Distinguere nomi, verbi e aggettivi",
+      "Usare i pronomi nelle frasi",
+      "Scegliere la forma giusta del verbo"
+    ],
+    "moment": "Fai ritagliare e classificare le parole come gioco prima di chiederlo su carta. Spostare le parole aiuta a sentire le categorie."
+  },
+  "word-meaning": {
+    "kw": "Generatore di schede su sinonimi e contrari",
+    "lead": "Crea schede di lessico su contrari, sinonimi, parole derivate, prefissi e radici. Le pagine con le figure aprono il lavoro e quelle con le frasi lo approfondiscono.",
+    "teaches": [
+      "Trovare contrari e parole con lo stesso significato",
+      "Dividere le parole derivate",
+      "Usare radici e prefissi per capire una parola"
+    ],
+    "moment": "Appendi una scala di parole al muro e aggiungi quelle che compaiono nei racconti. Presto i bambini scelgono da soli parole più precise."
+  },
+  "sentences": {
+    "kw": "Generatore di schede sulle frasi",
+    "lead": "Crea schede sulle frasi: riordinare, completare, correggere maiuscole e punti, fare domande e allungare una frase. Le figure sostengono chi inizia a leggere a ogni passo.",
+    "teaches": [
+      "Mettere le parole nell'ordine giusto",
+      "Iniziare con la maiuscola e finire con il segno giusto",
+      "Fare domande e rispondere"
+    ],
+    "moment": "Ritaglia la frase e falla ricostruire prima sul banco. Provare le parole in ordini diversi è già metà lezione."
+  },
+  "reading": {
+    "kw": "Generatore di schede di comprensione del testo",
+    "lead": "Crea schede di comprensione del testo con brevi storie e domande, pagine leggi e colora e istruzioni da eseguire. I bambini dimostrano di aver capito facendo, non solo rispondendo.",
+    "teaches": [
+      "Leggere con attenzione ai dettagli",
+      "Seguire istruzioni scritte",
+      "Rispondere a domande su una breve storia"
+    ],
+    "moment": "Usa una pagina leggi e colora come verifica tranquilla: uno sguardo ai colori mostra quale frase non è stata capita."
+  },
+  "stories-writing": {
+    "kw": "Generatore di schede di storie e scrittura",
+    "lead": "Crea schede per ordinare storie e scrivere: numerare le figure, progettare un racconto, scrivere un fumetto, una cartolina o una scheda sugli animali. Inizi di frase e liste di parole aiutano a partire.",
+    "teaches": [
+      "Mettere gli eventi in ordine",
+      "Raccontare inizio, svolgimento e fine",
+      "Scrivere frasi su una figura o un animale"
+    ],
+    "moment": "Fai raccontare la storia a un compagno prima di scrivere una sola parola. Una storia già raccontata si scrive più facilmente."
+  },
+  "me-family-feelings": {
+    "kw": "Generatore di schede su di me, la mia famiglia e le emozioni",
+    "lead": "Crea schede su di me, la mia famiglia e le emozioni per l'inizio dell'anno e i momenti di calma. Facce, alberi genealogici e termometri danno ai bambini le parole per ciò che provano.",
+    "teaches": [
+      "Nominare le emozioni e vederle sui volti",
+      "Parlare della famiglia e di chi è chi",
+      "Dire cosa piace e cosa si sa fare"
+    ],
+    "moment": "Tieni le carte delle emozioni vicino alla porta per l'accoglienza. Il bambino ne indica una, e sai chi ha bisogno di una parola gentile."
+  },
+  "picture-cards": {
+    "kw": "Generatore di carte illustrate e schede di vocabolario",
+    "lead": "Crea carte con figure, carte con parole, giochi di memory, etichette per il muro delle parole e un dizionario illustrato su ogni tema. Le carte bilingui mettono due lingue una accanto all'altra.",
+    "teaches": [
+      "Imparare parole nuove con le figure",
+      "Abbinare parole e figure",
+      "Costruire il muro delle parole della classe"
+    ],
+    "moment": "Stampa carte bilingui in italiano e nella lingua di casa, così un bambino appena arrivato mostra ciò che sa già."
+  },
+  "word-search": {
+    "kw": "Generatore di schede di crucipuzzle per bambini",
+    "lead": "Crea cerca parole per la classe: indizi con figure per chi inizia a leggere, numeri in lettere, parole nascoste in una forma, griglie bilingui e un messaggio segreto.",
+    "teaches": [
+      "Riconoscere le parole dalla scrittura",
+      "Scorrere righe e colonne con metodo",
+      "Ripassare il lessico di un tema"
+    ],
+    "moment": "Usa un cerca parole con figure alla fine di un tema. Chi non legge ancora tutte le parole le trova dalle figure."
+  },
+  "crossword": {
+    "kw": "Generatore di schede di cruciverba per bambini",
+    "lead": "Crea cruciverba per la classe con indizi a figure, liste di parole e parole crociate a frecce, anche bilingui. I bambini scrivono ogni parola e la griglia controlla le lettere.",
+    "teaches": [
+      "Scrivere le parole lettera per lettera",
+      "Usare una figura o una lista come indizio",
+      "Ripassare il lessico"
+    ],
+    "moment": "Fai condividere un cruciverba a due bambini: uno dice la parola, l'altro la scrive."
+  },
+  "secret-code": {
+    "kw": "Generatore di schede di codice segreto",
+    "lead": "Crea schede di codice segreto in cui i bambini decifrano codici di figure, numeri e somme per scoprire una parola. Possono perfino inventare un codice per un amico.",
+    "teaches": [
+      "Usare una chiave per decifrare",
+      "Esercitarsi su lettere o somme con uno scopo",
+      "Leggere una parola nascosta"
+    ],
+    "moment": "Scrivi in codice alla lavagna la sorpresa di domani. Tutti vorranno risolverla."
+  },
+  "bingo": {
+    "kw": "Generatore di tombola e bingo per la classe",
+    "lead": "Crea tombole per la classe con figure, parole frequenti, suoni, numeri in lettere, forme, somme e orologi. Ogni gioco ha le sue carte da estrarre, e si gioca in pochi minuti.",
+    "teaches": [
+      "Ascoltare e abbinare in fretta",
+      "Ripassare parole, suoni o calcoli",
+      "Aspettare il proprio turno in un gioco di gruppo"
+    ],
+    "moment": "Lascia che un bambino estragga le carte quando la classe conosce il gioco. Leggerle a voce alta è già un buon esercizio."
+  }
+}

@@ -50,12 +50,7 @@ echo   REFERENCE APPS:         %APPS_COUNT% HTML files
 echo   REFERENCE TRANSLATIONS: %TRANS_COUNT% JS files
 echo.
 
-if %APPS_COUNT% LSS 30 (
-    echo ERROR: REFERENCE APPS has fewer than 30 files!
-    echo        Expected 33 worksheet generators.
-    echo        Aborting to prevent data loss.
-    exit /b 1
-)
+REM The 33 old apps were removed 2026-11-06 (operator); this script still syncs the shared js.
 
 if %TRANS_COUNT% LSS 30 (
     echo ERROR: REFERENCE TRANSLATIONS has fewer than 30 files!

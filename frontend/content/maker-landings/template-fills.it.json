@@ -1,0 +1,216 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Detective dei numeri",
+   "I numeri misteriosi vanno da 1 a 50. Leggi gli indizi e scrivi il numero che li rispetta tutti."
+  ],
+  "G3-472": [
+   "Rompicapi a gabbie 4 × 4",
+   "In ogni riga e in ogni colonna ci sono 1, 2, 3 e 4 una sola volta. I numeri dentro una gabbia dal bordo spesso, sommati, danno il numerino nell'angolo."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Colora con i numeri: Pecora in fattoria",
+   "Colora ogni parte con il colore del suo numero."
+  ],
+  "K-394": [
+   "Colora con i numeri: Cervo",
+   "Colora ogni parte con il colore del suo numero."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Salta nel favo in ordine alfabetico",
+   "Parti dalla cella indicata dalla freccia. Colora la lettera successiva dell'alfabeto in una cella vicina, fino alla T."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Trova le 5 differenze: Cigno sullo stagno",
+   "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+  ],
+  "K-397": [
+   "Trova le 3 grandi differenze: Tacchino in fattoria",
+   "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Come disegnare una tartaruga passo dopo passo",
+   "Guarda i passaggi numerati e disegna la figura nel riquadro grande: prima il contorno, poi le linee nuove che vedi in ogni passaggio."
+  ],
+  "K-401": [
+   "Disegna un procione partendo da forme semplici",
+   "Ripassa le forme tratteggiate nel riquadro, poi completa la figura con le linee nuove di ogni passaggio."
+  ],
+  "K-402": [
+   "Disegno guidato: ripassa e poi disegna un tamburo",
+   "Ripassa con la matita la figura grigia, poi disegnala da solo nel riquadro vuoto accanto."
+  ],
+  "K-403": [
+   "Completa il disegno di un dinosauro",
+   "Guarda la figura completa, disegna le linee che mancano sulla seconda figura, poi fai un disegno tutto tuo qui sotto."
+  ],
+  "K-404": [
+   "Disegna una capra e scrivi la parola",
+   "Segui i passaggi per disegnare la figura nel riquadro, poi ripassa la parola sotto e scrivila ancora una volta."
+  ],
+  "G1-416": [
+   "Disegna un pavone con la griglia",
+   "Guarda la figura sulla griglia e disegnala nella griglia vuota un quadrato alla volta, poi ancora una volta senza griglia."
+  ],
+  "G1-417": [
+   "Disegna un suricato nella scena",
+   "Segui i passaggi, poi disegna ciò che manca nella scena, in un posto libero."
+  ],
+  "G1-418": [
+   "Metti in ordine i passaggi: disegna un maiale",
+   "I passaggi sono in disordine: scrivi da 1 a 5 nelle caselle accanto per rimetterli in ordine, poi disegna la figura nel riquadro grande."
+  ],
+  "G1-419": [
+   "Copia ogni passaggio: disegna un ippopotamo",
+   "Disegna quello che vedi in ogni passaggio nel riquadro sotto, aggiungendo ogni volta le linee nuove, poi disegna tutta la figura più grande nel riquadro in basso."
+  ],
+  "G2-390": [
+   "Disegna un'ape e poi scrivi del tuo disegno",
+   "Disegna la figura seguendo i passaggi, poi scrivi sulle righe tre frasi sul tuo disegno, cominciando con le parole già stampate."
+  ],
+  "G2-391": [
+   "Disegna un castello di sabbia a memoria",
+   "Guarda bene la figura, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "La lettera Aa: ripassa, cerchia e scrivi",
+   "Ripassa la lettera grande e quella piccola, cerchia i quattro disegni che iniziano con A e scrivi una riga di ognuna."
+  ],
+  "K-325": [
+   "Parole con la A: il suono in mezzo o alla fine",
+   "Ripassa la lettera, poi cerchia i quattro disegni che hanno il suono A dentro la parola, non all'inizio."
+  ],
+  "K-326": [
+   "All'inizio, in mezzo o alla fine? Dove senti la A",
+   "Di' il nome di ogni disegno. Colora la casella che mostra dove senti la A: all'inizio, in mezzo o alla fine."
+  ],
+  "K-327": [
+   "Cerchia la A nelle parole e conta",
+   "Cerca tutte le A e le a in ogni parola e cerchiale. Poi scrivi nel quadratino quante ne hai trovate."
+  ],
+  "G1-311": [
+   "Suoni difficili: il suono GN",
+   "Ripassa GN e gn, cerchia i quattro disegni che hanno il suono GN e scrivi una riga."
+  ]
+ },
+ "syllables": {
+  "G1-306": [
+   "Sillabe da leggere: ma me mi mo mu",
+   "Leggi ad alta voce tutte le sillabe della tabella. Di' il nome di ogni disegno, cerca la sua prima sillaba nella tabella e scrivila sulla riga."
+  ],
+  "G1-330": [
+   "Cerchia la sillaba che senti: ma me mi mo mu",
+   "Leggi ad alta voce le sillabe della tabella. Di' il nome di ogni disegno e cerchia la sillaba con cui comincia."
+  ],
+  "G1-333": [
+   "Sillabe complesse: tra tre tri trom trat",
+   "Leggi le sillabe della tabella. Di' il nome di ogni disegno, cercalo nella tabella e scrivi la sua prima sillaba sulla riga."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "La parola del giorno: io",
+   "Leggi la parola. Ripassala, scrivila e usala nelle frasi."
+  ],
+  "K-389": [
+   "Parole frequenti nelle frasi: io",
+   "Leggi ogni frase. Scrivi la parola «io» sulla riga."
+  ],
+  "K-390": [
+   "Una frase con io",
+   "Lavora su una frase, un passo alla volta."
+  ],
+  "K-391": [
+   "Ripassa le frasi: io",
+   "Ripassa ogni frase. Poi scrivila sulla riga sotto."
+  ],
+  "K-392": [
+   "Trova la parola: io",
+   "Colora ogni casella con la parola «io». Contale e scrivi il numero."
+  ],
+  "K-433": [
+   "Leggi, ripassa, scrivi: io",
+   "Leggi la parola. Ripassala. Scrivila. Poi scrivila in ogni frase."
+  ],
+  "K-434": [
+   "Ripassa la parola e la frase: io",
+   "Ripassa la parola. Poi ripassa la frase su ogni riga."
+  ],
+  "K-435": [
+   "Leggi e disegna: io",
+   "Leggi la frase. Ripassala. Poi disegna quello che dice la frase."
+  ],
+  "K-436": [
+   "Trova e conta: noi",
+   "Cerchia la parola «noi» ogni volta che la vedi. Quante volte l’hai trovata?"
+  ],
+  "K-438": [
+   "Costruisci la parola: io",
+   "Ritaglia le lettere. Incollale nell’ordine giusto per formare la parola."
+  ],
+  "K-439": [
+   "Scrittura arcobaleno: io",
+   "Ripassa ogni parola tre volte, ogni volta con un colore diverso. Poi scrivila."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Regole di ortografia: le doppie",
+   "Leggi la regola nel riquadro. Guarda ogni disegno, di' la parola e scrivi le lettere che mancano nella casella tratteggiata."
+  ],
+  "G2-324": [
+   "Scegli le lettere giuste: c o ch",
+   "Guarda il disegno e leggi la parola. Cerchia le lettere giuste sotto la parola e scrivile nella casella tratteggiata."
+  ],
+  "G2-325": [
+   "Detective dell'ortografia: le doppie",
+   "Leggi ogni parola. Trova le lettere della regola, cerchiale nella parola e poi copiale nella casella piccola."
+  ],
+  "G2-326": [
+   "Classifica le parole: c o ch",
+   "Di' il nome di ogni disegno. Scrivi la parola nella colonna giusta, una parola per ogni riga."
+  ],
+  "G2-327": [
+   "Scrivi la parola intera: le doppie",
+   "Le lettere della regola sono già scritte in arancione. Di' il nome del disegno e scrivi tutte le altre lettere nelle caselle."
+  ],
+  "G2-328": [
+   "Il plurale dei nomi: -chi, -ghi, -che, -ghe",
+   "Leggi la parola al singolare. Scrivi il plurale nelle caselle: attento, il plurale cambia la scrittura!"
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Carta d'identità dell'animale: Riccio",
+   "Scopri com'è questo animale. Scrivi un dato in ogni riga della carta d'identità, poi completa il resto della pagina con un disegno o con parole tue."
+  ],
+  "G2-339": [
+   "Carta d'identità con le scelte: Riccio",
+   "Leggi le scelte di ogni riga e cerchia quella vera per questo animale. Poi disegna dove vive e completa la frase."
+  ],
+  "G2-340": [
+   "Carta d'identità con le parole date: Riccio",
+   "Cerca ogni dato vero tra le parole da usare e copialo nella riga giusta della carta. Poi completa la frase in fondo."
+  ],
+  "G2-341": [
+   "Tre frasi sull'animale: Riccio",
+   "Leggi la carta d'identità. Completa le tre frasi con i suoi dati, poi scrivi un altro dato che sai tu nell'ultima riga."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Carte bilingui: italiano e inglese",
+   "Ritaglia le otto carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole."
+  ]
+ }
+}

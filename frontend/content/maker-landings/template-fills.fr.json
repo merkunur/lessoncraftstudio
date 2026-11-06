@@ -1,0 +1,216 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Détective des nombres",
+   "Les nombres mystères vont de 1 à 50. Lis les indices et écris le nombre qui les respecte tous."
+  ],
+  "G3-472": [
+   "Casse-têtes à cages 4 × 4",
+   "Chaque ligne et chaque colonne doit contenir 1, 2, 3 et 4 une seule fois. Les nombres d'une cage au trait épais additionnés donnent le petit nombre écrit dans son coin."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Coloriage magique : Mouton à la ferme",
+   "Colorie chaque partie avec la couleur de son numéro."
+  ],
+  "K-394": [
+   "Coloriage magique : Cerf",
+   "Colorie chaque partie avec la couleur de son numéro."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Saute d'alvéole en alvéole dans l'ordre alphabétique",
+   "Commence dans l'alvéole montrée par la flèche. Colorie à chaque fois la lettre suivante dans une alvéole voisine, jusqu'au S."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Jeu des 5 différences : Cygne sur la mare",
+   "Compare l'image 1 et l'image 2, entoure les 5 choses qui ont changé dans l'image 2, puis coche une case pour chacune."
+  ],
+  "K-397": [
+   "Cherche les 3 grandes différences : Dinde à la ferme",
+   "Regarde bien l'image du haut, entoure les 3 grandes différences dans l'image du bas, puis coche les 3 cases."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Apprendre à dessiner une tortue étape par étape",
+   "Regarde les étapes numérotées et dessine l'image dans le grand cadre : d'abord le contour, puis les nouveaux traits que tu vois à chaque étape."
+  ],
+  "K-401": [
+   "Dessiner un raton laveur avec des formes simples",
+   "Repasse les formes en pointillés du cadre, puis termine l'image avec les nouveaux traits de chaque étape."
+  ],
+  "K-402": [
+   "Repasse, puis dessine toi-même un tambour",
+   "Repasse l'image grise avec ton crayon, puis dessine-la toi-même dans le cadre vide à côté."
+  ],
+  "K-403": [
+   "Termine le dessin : un dinosaure à compléter",
+   "Regarde l'image complète, dessine les traits qui manquent sur la deuxième image, puis fais ton propre dessin en bas."
+  ],
+  "K-404": [
+   "Dessine une chèvre et écris le mot",
+   "Suis les étapes pour dessiner l'image dans le cadre, puis repasse le mot en dessous et écris-le encore une fois."
+  ],
+  "G1-416": [
+   "Un paon à dessiner sur quadrillage",
+   "Regarde l'image sur le quadrillage et dessine-la sur le quadrillage vide, case par case, puis encore une fois sans quadrillage."
+  ],
+  "G1-417": [
+   "Dessine un suricate dans l'image",
+   "Suis les étapes, puis dessine ce qui manque dans l'image, dans un espace libre."
+  ],
+  "G1-418": [
+   "Remets les étapes dans l'ordre : dessiner un cochon",
+   "Les étapes sont mélangées : écris 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine l'image dans le grand cadre."
+  ],
+  "G1-419": [
+   "Recopie chaque étape : dessine un hippopotame",
+   "Dessine ce que tu vois à chaque étape dans la case en dessous, en ajoutant les nouveaux traits, puis dessine toute l'image en plus grand dans le cadre du bas."
+  ],
+  "G2-390": [
+   "Dessine une abeille, puis écris à propos de ton dessin",
+   "Dessine l'image avec les étapes, puis écris sur les lignes trois phrases à propos de ton dessin, en commençant par les mots déjà écrits."
+  ],
+  "G2-391": [
+   "Dessine un château de sable de mémoire",
+   "Regarde bien l'image, plie la page sur la ligne en pointillés pour la cacher, puis dessine-la de mémoire dans le grand cadre."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "La lettre L",
+   "Repasse le grand L et le petit l. Entoure les quatre images dont le nom commence par l, puis écris une ligne de chaque lettre."
+  ],
+  "K-325": [
+   "Des mots avec L : le l caché dans le mot",
+   "Repasse la lettre, puis entoure les quatre images dont le nom cache un l au milieu ou à la fin, pas au début."
+  ],
+  "K-326": [
+   "Au début, au milieu ou à la fin ? La lettre L",
+   "Lis le mot avec l'image. Colorie la case qui montre où se trouve la lettre l : au début, au milieu ou à la fin."
+  ],
+  "K-327": [
+   "Entoure les L dans les mots et compte",
+   "Cherche chaque L ou l dans le mot et entoure-le. Puis écris dans la case combien tu en as trouvé."
+  ],
+  "G1-311": [
+   "Le son de la semaine : [ou]",
+   "Repasse le son ou, entoure les quatre images dont le nom contient le son [ou], puis écris toute une ligne de ou sur les lignes d'écriture."
+  ]
+ },
+ "syllables": {
+  "G1-306": [
+   "Lecture de syllabes : ma me mi mo mu",
+   "Lis le tableau de syllabes à voix haute. Dis le nom de l'image, puis écris sa première syllabe sur la ligne."
+  ],
+  "G1-330": [
+   "Entoure la bonne syllabe : ma me mi mo mu",
+   "Lis le tableau de syllabes à voix haute. Dis le nom de l'image, puis entoure la syllabe par laquelle le mot commence."
+  ],
+  "G1-333": [
+   "Syllabes complexes : br, bl et cr",
+   "Lis les syllabes à deux consonnes à voix haute. Dis le nom de l'image, puis écris sa première syllabe sur la ligne."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Le mot du jour : le",
+   "Lis le mot. Repasse-le, écris-le et utilise-le dans des phrases."
+  ],
+  "K-389": [
+   "Mots-outils en phrases : le",
+   "Lis chaque phrase. Écris le mot « le » sur la ligne."
+  ],
+  "K-390": [
+   "Une phrase avec le",
+   "Travaille une phrase, étape par étape."
+  ],
+  "K-391": [
+   "Repasse les phrases : le",
+   "Repasse chaque phrase. Puis écris-la sur la ligne en dessous."
+  ],
+  "K-392": [
+   "Trouve le mot : le",
+   "Colorie chaque case qui contient le mot « le ». Compte-les et écris le nombre."
+  ],
+  "K-433": [
+   "Lis, repasse, écris : le",
+   "Lis le mot. Repasse-le. Écris-le. Puis écris-le dans chaque phrase."
+  ],
+  "K-434": [
+   "Repasse le mot et la phrase : le",
+   "Repasse le mot. Puis repasse la phrase sur chaque ligne."
+  ],
+  "K-435": [
+   "Lis et dessine : le",
+   "Lis la phrase. Repasse-la. Puis dessine ce que dit la phrase."
+  ],
+  "K-436": [
+   "Trouve et compte : le",
+   "Entoure le mot « le » chaque fois que tu le vois. Combien de fois l’as-tu trouvé ?"
+  ],
+  "K-438": [
+   "Construis le mot : le",
+   "Découpe les lettres. Colle-les dans le bon ordre pour former le mot."
+  ],
+  "K-439": [
+   "Écriture arc-en-ciel : le",
+   "Repasse chaque mot trois fois, avec une couleur différente à chaque fois. Puis écris-le."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Règles d'orthographe : m devant m, b, p",
+   "Lis la règle dans le cadre. Dis le mot de chaque image, puis écris les lettres qui manquent dans les cases en pointillés."
+  ],
+  "G2-324": [
+   "Complète avec m ou n",
+   "Regarde l'image et lis le mot. Entoure la bonne lettre sous le mot, puis écris-la dans la case en pointillés."
+  ],
+  "G2-325": [
+   "Entoure la règle : m devant m, b, p",
+   "Lis chaque mot. Trouve les lettres de la règle, entoure-les dans le mot, puis recopie-les dans la petite case."
+  ],
+  "G2-326": [
+   "Trie les mots : m ou n",
+   "Dis le mot de chaque image. Écris-le dans la colonne de son orthographe, un mot par ligne."
+  ],
+  "G2-327": [
+   "Écris le mot entier : m devant m, b, p",
+   "Les lettres de la règle sont écrites en orange. Dis le mot de l'image et écris toutes les autres lettres dans les cases."
+  ],
+  "G2-328": [
+   "Le pluriel en -x : bateau, bateaux",
+   "Lis le mot au singulier. Écris le mot au pluriel dans les cases : au pluriel, l'orthographe change."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Carte d'identité de l'animal : le hérisson",
+   "Renseigne-toi sur cet animal. Écris un renseignement dans chaque ligne de la carte, puis complète la page avec un dessin ou tes propres mots."
+  ],
+  "G2-339": [
+   "Entoure les bonnes réponses : le hérisson",
+   "Dans chaque ligne, lis les réponses proposées et entoure celle qui est vraie pour cet animal. Puis dessine son lieu de vie et termine la phrase."
+  ],
+  "G2-340": [
+   "Complète avec la banque de mots : le hérisson",
+   "Cherche chaque renseignement vrai dans la banque de mots et recopie-le dans la bonne ligne. Puis termine la phrase du bas."
+  ],
+  "G2-341": [
+   "Écris trois phrases : le hérisson",
+   "Lis la carte d'identité. Termine les trois phrases avec ses renseignements, puis écris un renseignement de plus sur la dernière ligne."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Imagier bilingue : français et anglais",
+   "Découpe les huit cartes. Dis le mot en français, puis en anglais, et garde les cartes pour ton mur de mots."
+  ]
+ }
+}

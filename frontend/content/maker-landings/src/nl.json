@@ -1,0 +1,592 @@
+{
+  "counting": {
+    "kw": "Werkbladen over tellen maken",
+    "lead": "Maak werkbladen om te tellen met de plaatjes waar jouw klas van houdt: tellen en omcirkelen, tellen en schrijven, zoekplaten en meer. Kies een niveau en een thema, en elke hoeveelheid op het blad is al gecontroleerd.",
+    "teaches": [
+      "Plaatjes tellen en het juiste getal vinden",
+      "Elke soort tellen in een drukke zoekplaat",
+      "Eén meer, één minder en evenveel vinden"
+    ],
+    "moment": "Laat kinderen de zoekplaat in tweetallen doen en daarna hun getallen vergelijken. Komen twee antwoorden niet overeen, dan tellen ze samen opnieuw."
+  },
+  "ten-frames": {
+    "kw": "Werkbladen tienraam en turfjes maken",
+    "lead": "Maak werkbladen met tienramen en turfjes om hoeveelheden in één oogopslag te zien. Tienramen vullen, turfjes lezen, flitskaarten tonen, kralen op het rekenrek tellen en aanvullen tot 10.",
+    "teaches": [
+      "Een hoeveelheid in één oogopslag zien, zonder één voor één te tellen",
+      "5 en 10 maken en zien wat ontbreekt",
+      "Hoeveelheden bijhouden met turfjes"
+    ],
+    "moment": "Laat als opwarmer twee seconden een kaart zien en vraag hoe de kinderen het getal zagen. Hun antwoorden zijn de echte les."
+  },
+  "number-sequences": {
+    "kw": "Werkbladen getallenrijen en honderdveld maken",
+    "lead": "Maak getallenvelden, rijen met gaten en werkbladen om in sprongen van 2 of 10 te tellen, tot 1.000. Honderdvelden, puzzelstukken, sprongpuzzels en getalmachines staan klaar.",
+    "teaches": [
+      "Vanaf elk getal vooruit en achteruit tellen",
+      "Tellen in sprongen van 2, 5 en 10",
+      "Patronen ontdekken in het honderdveld"
+    ],
+    "moment": "Knip een honderdveld in puzzelstukken en geef elk tweetal er één. Kinderen moeten beredeneren wat boven, onder en naast elk getal staat."
+  },
+  "number-lines": {
+    "kw": "Werkbladen getallenlijn maken",
+    "lead": "Maak werkbladen met getallenlijnen van 0 tot 10 en verder tot 120, met sprongen, afronden en breuken. Begin met volledig ingevulde lijnen en ga door naar lege lijnen die kinderen zelf tekenen.",
+    "teaches": [
+      "Getallen op de juiste plek op de getallenlijn zetten",
+      "Optellen en aftrekken met sprongen",
+      "Afronden op het dichtstbijzijnde tiental of honderdtal"
+    ],
+    "moment": "Geef dezelfde som op een ingevulde en op een lege getallenlijn. De vergelijking laat zien wie nog telt en wie al springt."
+  },
+  "number-bonds": {
+    "kw": "Werkbladen splitsen en splitshuizen maken",
+    "lead": "Maak werkbladen om te splitsen, splitshuizen, rekenhuisjes en rekendriehoeken voor 5, 10, 20 en 100. Kinderen zien hoe getallen uit elkaar gaan en weer samenkomen, zo blijven de plussommen hangen.",
+    "teaches": [
+      "Een getal op alle manieren in twee delen splitsen",
+      "Optellen en aftrekken zien als sommen die bij elkaar horen",
+      "De paren maken die samen 10 zijn"
+    ],
+    "moment": "Verstop een paar fiches onder een beker en laat de rest zien. Het werkblad maakt van dezelfde vraag een taak die elk kind alleen kan doen."
+  },
+  "addition-subtraction": {
+    "kw": "Werkbladen optellen en aftrekken maken",
+    "lead": "Maak werkbladen optellen en aftrekken, van sommen met plaatjes tot cijferen met getallen van drie cijfers, met onthouden en lenen. Kies het niveau en print wanneer je wilt een nieuw blad met antwoorden.",
+    "teaches": [
+      "Erbij en eraf met plaatjes, daarna met getallen",
+      "Hoofdrekenen tot 10, 20 en 100",
+      "Cijferend optellen en aftrekken met onthouden en lenen"
+    ],
+    "moment": "Print voor tweetallen twee versies van hetzelfde niveau. Ieder maakt het eigen blad, daarna ruilen ze en kijken ze na met de antwoorden."
+  },
+  "doubles-halves": {
+    "kw": "Werkbladen verdubbelen en halveren maken",
+    "lead": "Maak werkbladen verdubbelen en halveren tot 20, met plaatjes of alleen met getallen. Met bijna-dubbelsommen, verdubbel- en halveermachines en memory kennen kinderen deze sommen al snel uit het hoofd.",
+    "teaches": [
+      "Getallen tot 20 verdubbelen en halveren",
+      "Bijna-dubbelsommen gebruiken, zoals 6 + 7",
+      "Zien dat halveren het omgekeerde is van verdubbelen"
+    ],
+    "moment": "Laat tweetallen na de pauze vijf minuten memory met dubbelen spelen. Korte, vaak herhaalde rondes helpen beter dan één lange les."
+  },
+  "compare-numbers": {
+    "kw": "Werkbladen getallen vergelijken maken",
+    "lead": "Maak werkbladen om te vergelijken, van groepjes plaatjes met meer en minder tot getallen van vier cijfers. Kinderen gebruiken de tekens groter dan, kleiner dan en is gelijk aan en zetten getallen op volgorde.",
+    "teaches": [
+      "Groepjes plaatjes vergelijken",
+      "De tekens <, > en = gebruiken",
+      "Getallen van klein naar groot ordenen"
+    ],
+    "moment": "Begin met de hongerige krokodil, dek hem daarna af en vraag alleen naar het teken. De stap van plaatje naar symbool gebeurt op één blad."
+  },
+  "odd-even": {
+    "kw": "Werkbladen even en oneven getallen maken",
+    "lead": "Maak werkbladen even en oneven die beginnen met eerlijk delen en paren plaatjes en doorgaan naar het cijfer van de eenheden en sommen. Kinderen ontdekken de regel zelf in plaats van hem uit het hoofd te leren.",
+    "teaches": [
+      "Paren maken om te zien wat overblijft",
+      "Het eenhedencijfer lezen bij getallen onder de 100",
+      "Voorspellen of een som even of oneven is"
+    ],
+    "moment": "Laat kinderen eerst echte fiches eerlijk verdelen over twee vrienden. Het blad legt daarna vast wat ze met hun handen al hebben ontdekt."
+  },
+  "place-value": {
+    "kw": "Werkbladen getalbegrip en afronden maken",
+    "lead": "Maak werkbladen over getalbegrip met MAB-materiaal, plaatswaardetabellen, cijferkaarten en getalraadsels. Van tientallen en eenheden naar honderdtallen, getallen uitsplitsen en afronden op tientallen of honderdtallen.",
+    "teaches": [
+      "Getallen lezen en bouwen met tientallen en eenheden",
+      "Getallen uitsplitsen",
+      "Afronden op het dichtstbijzijnde tiental en honderdtal"
+    ],
+    "moment": "Laat kinderen het getal eerst met echt materiaal bouwen en dan pas schrijven. Het blad Cijferdetective werkt daarna goed als korte afsluiting."
+  },
+  "multiplication-division": {
+    "kw": "Werkbladen vermenigvuldigen en delen maken",
+    "lead": "Maak werkbladen vermenigvuldigen en delen, van gelijke groepjes en rechthoeken tot alle tafels en delen met rest. Tafelkaartjes aan een ring en een tafelkaart om in te vullen zitten erbij.",
+    "teaches": [
+      "Van herhaald optellen naar rechthoeken en keersommen",
+      "De tafels van 2 tot en met 10 leren",
+      "Eerlijk verdelen, groeperen en rekenen met rest"
+    ],
+    "moment": "Geef elk kind de tafel die het nodig heeft, niet die van de klas. Iedereen werkt met hetzelfde soort blad, ieder aan de eigen tafel."
+  },
+  "word-problems": {
+    "kw": "Werkbladen verhaaltjessommen maken",
+    "lead": "Maak werkbladen met verhaaltjessommen: met plaatjes, in één of twee stappen, met vergelijken, vermenigvuldigen en delen. Kinderen lezen, kiezen de juiste som en rekenen uit.",
+    "teaches": [
+      "Een verhaal lezen en de vraag vinden",
+      "De juiste som kiezen",
+      "Opgaven in één en in twee stappen oplossen"
+    ],
+    "moment": "Dek de getallen in een opgave af en vraag wat er in het verhaal gebeurt. Als kinderen dat kunnen vertellen, volgt de bewerking vaak vanzelf."
+  },
+  "fractions": {
+    "kw": "Werkbladen breuken maken",
+    "lead": "Maak werkbladen breuken: helften, derden en kwarten, eerlijk verdelen, breukstroken, getallenlijn en gelijkwaardige breuken. Kinderen knippen, kleuren en vergelijken tot een breuk iets betekent.",
+    "teaches": [
+      "Vormen in gelijke delen verdelen",
+      "Breuken benoemen, kleuren en vergelijken",
+      "Een breuk van een groep vinden"
+    ],
+    "moment": "Print de breukstroken op gekleurd papier. Kinderen bewaren ze in een envelop en gebruiken ze daarna bij elke breukenles."
+  },
+  "number-of-the-day": {
+    "kw": "Werkbladen getal van de dag maken",
+    "lead": "Maak bladen voor het getal van de dag tot 1.000 en werkbladen met telwoorden. Kinderen schrijven, tekenen, tellen en vergelijken hetzelfde getal op veel manieren.",
+    "teaches": [
+      "Eén getal op veel manieren laten zien",
+      "Telwoorden lezen en schrijven",
+      "Tien meer en tien minder vinden"
+    ],
+    "moment": "Leg elke ochtend een blad met het getal van de dag op de tafels. Alleen het getal verandert, de routine loopt vanzelf."
+  },
+  "ordinal-numbers": {
+    "kw": "Werkbladen rangtelwoorden maken",
+    "lead": "Maak werkbladen rangtelwoorden met wedstrijden, planken, vlaggen en kaarten. Kinderen gaan van eerste, tweede en derde tot eenendertigste, in woorden en in cijfers.",
+    "teaches": [
+      "De eerste, tweede en derde in een rij vinden",
+      "De plaats vanaf beide kanten tellen",
+      "Rangtelwoorden lezen en schrijven"
+    ],
+    "moment": "Zet tien kinderen bij de deur op een rij en noem een plaats. Daarna zien ze dezelfde woorden gedrukt terug op het blad Wie wint de race?."
+  },
+  "number-tracing": {
+    "kw": "Werkbladen cijfers schrijven maken",
+    "lead": "Maak werkbladen om cijfers te schrijven van 0 tot 9, de getallen na 10 en tot 100, met een oranje startpunt en pijlen bij elk cijfer. Overtrekken, tellen en schrijven op één blad.",
+    "teaches": [
+      "Elk cijfer op de goede manier schrijven",
+      "Een cijfer aan een hoeveelheid koppelen",
+      "Getallen na 10 en telwoorden schrijven"
+    ],
+    "moment": "Begin de rekenles rustig: kinderen tellen eerst de plaatjes, zo staat het cijfer altijd ergens voor."
+  },
+  "money": {
+    "kw": "Werkbladen rekenen met geld maken",
+    "lead": "Maak werkbladen rekenen met geld in euro's en centen: munten en biljetten tellen, winkelen, wisselgeld en betalen met zo min mogelijk munten. Prijskaartjes en speelgeld voor een winkeltje in de klas zitten erbij.",
+    "teaches": [
+      "Munten en hun waarde herkennen",
+      "Gemengde munten en biljetten tellen",
+      "Prijzen optellen en wisselgeld berekenen"
+    ],
+    "moment": "Zet achter in de klas een winkeltje op met de prijskaartjes en het speelgeld. De bladen Boodschappen doen maken daarna van wat er gebeurde geschreven opgaven."
+  },
+  "telling-time": {
+    "kw": "Werkbladen klokkijken maken",
+    "lead": "Maak werkbladen klokkijken, van hele en halve uren tot stappen van vijf minuten, tot op de minuut en tijdsduur. Kinderen lezen klokken, tekenen de wijzers en maken hun eigen klok.",
+    "teaches": [
+      "Klokkijken: hele uren, halve uren en per vijf minuten",
+      "Wijzers tekenen bij een gegeven tijd",
+      "Uitrekenen hoeveel tijd er voorbij is"
+    ],
+    "moment": "Laat elk kind één keer een eigen klok maken en die in het laatje bewaren. Kinderen zetten hem op de momenten van de dag en vergelijken met de klassenklok."
+  },
+  "calendar": {
+    "kw": "Werkbladen kalender, dagen en maanden maken",
+    "lead": "Maak werkbladen over de dagen van de week, de maanden, gisteren en morgen en het lezen van een hele maand. De verjaardagsgrafiek en de datum van vandaag passen in je ochtendroutine.",
+    "teaches": [
+      "De dagen en maanden op volgorde noemen",
+      "Gisteren, vandaag en morgen gebruiken",
+      "Datums op een kalender lezen"
+    ],
+    "moment": "Vul op de eerste schooldag van de maand samen een lege maand in, met verjaardagen. Dat blad wordt het houvast voor elke kalendervraag."
+  },
+  "measurement": {
+    "kw": "Werkbladen meten maken",
+    "lead": "Maak werkbladen meten, van groot en klein tot liniaal, paperclips, maatbekers, weegschalen en thermometers. Kinderen vergelijken, ordenen en meten met echte eenheden.",
+    "teaches": [
+      "Lengte, hoogte en gewicht vergelijken",
+      "Meten met paperclips, blokjes en liniaal",
+      "Weegschalen, maatbekers en thermometers aflezen"
+    ],
+    "moment": "Print de linialen om uit te knippen zodat elk kind er één heeft, en stuur tweetallen de klas in om te meten."
+  },
+  "graphs-data": {
+    "kw": "Werkbladen grafieken en tabellen maken",
+    "lead": "Maak werkbladen met beeldgrafieken, staafgrafieken en tabellen die kinderen zelf lezen en maken. Ze sorteren, turven, tellen en beantwoorden vragen over de gegevens.",
+    "teaches": [
+      "Gegevens sorteren en tellen",
+      "Beeldgrafieken en staafgrafieken lezen",
+      "Een schaal gebruiken waarbij één plaatje voor meer staat"
+    ],
+    "moment": "Maak de klassengrafiek met een vraag die jouw kinderen echt boeit, en laat ieder één zin over de uitkomst schrijven die klopt."
+  },
+  "shapes-geometry": {
+    "kw": "Werkbladen vormen en meetkunde maken",
+    "lead": "Maak meetkunde-werkbladen over zijden, hoeken, vlakken en ribben, vlakke figuren en ruimtefiguren, bouwplaten, symmetrie en oppervlakte. Kinderen sorteren, tekenen, knippen en vouwen in plaats van alleen te benoemen.",
+    "teaches": [
+      "Vlakke en ruimtelijke figuren herkennen aan hun kenmerken",
+      "Zijden, hoeken, vlakken en ribben tellen",
+      "Vormen tekenen en oppervlakte en omtrek verkennen"
+    ],
+    "moment": "Stuur kinderen met een gevouwen papieren hoek op zoek naar rechte hoeken in de klas, en laat ze daarna sorteren wat ze vonden."
+  },
+  "symmetry-grids": {
+    "kw": "Werkbladen spiegelen en natekenen op ruitjes maken",
+    "lead": "Maak werkbladen spiegelen en natekenen op een rooster: de andere helft afmaken, hokje voor hokje overnemen en twee keer zo groot tekenen. Zo oefenen kinderen goed kijken en een vaste hand tegelijk.",
+    "teaches": [
+      "Een tekening afmaken langs de spiegellijn",
+      "Een tekening hokje voor hokje overnemen",
+      "Een tekening spiegelen, draaien en vergroten"
+    ],
+    "moment": "Geef een roostertekening als rustige taak na de pauze. Kinderen komen snel tot rust, en je ziet wie zijn plek op het rooster houdt."
+  },
+  "maps-grids": {
+    "kw": "Werkbladen plattegronden en coördinaten maken",
+    "lead": "Maak werkbladen over kaarten met bovenaanzichten, legenda's, windrichtingen, coördinaten en werelddelen. Schatzoeken en zeeslag maken van oefenen een spel.",
+    "teaches": [
+      "Een plek van bovenaf zien en een legenda lezen",
+      "Coördinaten op een rooster gebruiken",
+      "Noord, oost, zuid en west gebruiken"
+    ],
+    "moment": "Verstop iets kleins in de klas en laat kinderen de route opschrijven zodat een klasgenoot die kan volgen."
+  },
+  "patterns": {
+    "kw": "Werkbladen patronen en reeksen maken",
+    "lead": "Maak werkbladen met patronen AB, ABC en AABB, groeipatronen en getallenreeksen, allemaal met plaatjes van jouw thema. Kinderen gaan verder, vullen aan en bedenken eigen patronen.",
+    "teaches": [
+      "Het deel vinden dat zich herhaalt",
+      "Patronen voortzetten en aanvullen",
+      "Groeipatronen en getallenreeksen beschrijven"
+    ],
+    "moment": "Laat kinderen het patroon eerst klappen of stampen en dan pas tekenen. Horen helpt vaak het kind dat het nog niet ziet."
+  },
+  "logic-puzzles": {
+    "kw": "Werkbladen logicapuzzels maken",
+    "lead": "Maak logica-werkbladen: plaatjes- en getallensudoku, rekenpiramides, logigrammen, magische vierkanten en weegschaalpuzzels. Elke puzzel heeft één oplossing, en de niveaus groeien met je klas mee.",
+    "teaches": [
+      "Stap voor stap redeneren vanuit aanwijzingen",
+      "Een antwoord controleren aan elke regel",
+      "Doorzetten tot het is opgelost"
+    ],
+    "moment": "Leg plaatjessudoku's klaar voor kinderen die vroeg klaar zijn. Ze dagen uit zonder meer van hetzelfde te geven."
+  },
+  "dot-to-dot": {
+    "kw": "Werkbladen van stip naar stip maken",
+    "lead": "Maak stip-naar-stipbladen waarop kinderen tellen tot 20, terugtellen, in sprongen tellen, het alfabet volgen of sommen oplossen. De verborgen tekening houdt kinderen bij de les tot de laatste stip.",
+    "teaches": [
+      "De getallenrij op volgorde opzeggen",
+      "Terugtellen en in sprongen tellen",
+      "Het alfabet volgen in hoofdletters en kleine letters"
+    ],
+    "moment": "Laat kinderen de tekening raden voor ze beginnen en halverwege. Ze controleren elk getal om erachter te komen."
+  },
+  "color-by-number": {
+    "kw": "Werkbladen voor kleuren op nummer maken",
+    "lead": "Maak bladen kleuren op nummer en op code waarbij elke kleur een antwoord is: plussommen, minsommen, hoogfrequente woorden, beginklanken en tafels. Aan de afgemaakte tekening zie je meteen of alles klopt.",
+    "teaches": [
+      "Sommen oefenen met ingebouwde controle",
+      "Een kleurcode goed lezen",
+      "Rustig een heel blad afmaken"
+    ],
+    "moment": "Gebruik vrijdag een blad kleuren op code om te herhalen. Een fout valt op als een kleur op de verkeerde plek, vaak vindt het kind die zelf."
+  },
+  "coloring-pages": {
+    "kw": "Kleurplaten voor de klas maken",
+    "lead": "Maak kleurplaten uit onze plaatjesbank, met woorden om over te trekken, een zin om te schrijven of een kleurcode. Vouw bij elk thema een klein kleurboekje.",
+    "teaches": [
+      "Pengreep en handkracht ontwikkelen",
+      "Plaatjes aan woorden koppelen",
+      "Praten over wat er op het blad staat"
+    ],
+    "moment": "Vouw het kleurboekje op de eerste dag van een nieuw thema. Kinderen nemen de woorden mee naar huis die ze in de klas leerden."
+  },
+  "same-different": {
+    "kw": "Werkbladen over gelijk en anders maken",
+    "lead": "Maak werkbladen visuele waarneming: de vreemde eend vinden, schaduwen koppelen, paren, tweelingen en het ontbrekende stukje. Goed kijken komt voor lezen en rekenen.",
+    "teaches": [
+      "Zien wat hetzelfde en wat anders is",
+      "Vormen, schaduwen en spiegelbeelden koppelen",
+      "Letten op kleine details"
+    ],
+    "moment": "Vraag wat er anders is en hoe de kinderen dat weten. Hun redenen zijn een eerste oefening in uitleggen wat ze denken."
+  },
+  "position-words": {
+    "kw": "Werkbladen plaatsbepaling maken",
+    "lead": "Maak werkbladen over op, onder, naast, links, rechts, boven, midden en beneden. Kinderen lezen, tekenen, plakken en kiezen het woord, zo gaan ze de plaatswoorden zelf gebruiken.",
+    "teaches": [
+      "Woorden voor plaats begrijpen",
+      "Links en rechts uit elkaar houden",
+      "Opdrachten met plaatswoorden volgen"
+    ],
+    "moment": "Speel eerst een rondje met een knuffel en een stoel, en laat daarna elk kind zijn eigen tekening op het blad plaatsen."
+  },
+  "sorting": {
+    "kw": "Werkbladen sorteren en ordenen maken",
+    "lead": "Maak werkbladen sorteren met knippen en plakken, matten en plaatjeskaarten: eten, vervoer, wensen en behoeften, beroepen. Kinderen kiezen een regel en leggen die uit.",
+    "teaches": [
+      "Plaatjes groeperen volgens een regel",
+      "Zien wat er niet bij hoort",
+      "Uitleggen waarom iets in een groep past"
+    ],
+    "moment": "Deel sorteermatten en plaatjeskaarten uit en laat tweetallen een regel bedenken. Het andere tweetal moet die raden."
+  },
+  "mazes": {
+    "kw": "Werkbladen met doolhoven maken",
+    "lead": "Maak doolhoven, van eerste paadjes voor de kleuters tot reuzendoolhoven, ook met letters, getallen, sommen en beginklanken. Elk doolhof is opgelost voor het bij jou komt, er is altijd een weg.",
+    "teaches": [
+      "Een route plannen en vooruitkijken",
+      "Een rustige potloodlijn houden",
+      "Onderweg letters, getallen en sommen oefenen"
+    ],
+    "moment": "Gebruik een rekendoolhof als ochtendwerk: alleen met de goede antwoorden kom je aan het eind, het blad controleert zichzelf."
+  },
+  "find-the-differences": {
+    "kw": "Werkbladen met zoek de verschillen maken",
+    "lead": "Maak zoek-de-verschillenbladen met 3, 5, 7 of 10 veranderingen in echte plaatjes, plus ontbrekende dingen, kleurverschillen en spiegelbeelden. De meeste werken ook op het scherm.",
+    "teaches": [
+      "Een plaat ordelijk afzoeken",
+      "Benoemen wat er veranderd is",
+      "Schrijven wat er anders is"
+    ],
+    "moment": "Laat tweetallen om de beurt een verschil beschrijven zonder te wijzen. Ze moeten de woorden vinden voor waar het is en wat er veranderde."
+  },
+  "how-to-draw": {
+    "kw": "Werkbladen om te leren tekenen maken",
+    "lead": "Maak tekenbladen stap voor stap waarbij elke nieuwe lijn in kleur staat. Kinderen volgen, trekken over, maken af en tekenen tot slot uit het hoofd, met woord- en zinsbladen om te schrijven.",
+    "teaches": [
+      "Een tekening opdelen in eenvoudige vormen",
+      "Stappen op volgorde volgen",
+      "Schrijven over wat ze tekenden"
+    ],
+    "moment": "Teken de eerste stap samen op het bord en laat kinderen de rest zelf afmaken. De tekening geeft ook aarzelende schrijvers iets om over te schrijven."
+  },
+  "tangram": {
+    "kw": "Werkbladen tangram maken",
+    "lead": "Maak tangram-werkbladen met stukjes om uit te knippen, schaduwen om te leggen en vragen over de vormen. Begin met puzzels van twee stukjes en ga door naar hele figuren.",
+    "teaches": [
+      "Vormen draaien en passen",
+      "Vormen in andere vormen zien",
+      "Plannen voordat je een stukje legt"
+    ],
+    "moment": "Knip de stukjes één keer uit, bewaar ze in een envelop en leg elke week een nieuwe schaduw neer voor een paar rustige minuten."
+  },
+  "picture-tracing": {
+    "kw": "Werkbladen plaatjes overtrekken maken",
+    "lead": "Maak bladen om plaatjes over te trekken, van grote ronde vormen voor kleuters tot gestippelde stadsplaten voor groep 3. Rechte lijnen, zigzags, spiralen en lussen worden een echte tekening.",
+    "teaches": [
+      "Het potlood langs een lijn sturen",
+      "Rechte, ronde en lusvormige lijnen trekken",
+      "Klaarmaken voor het schrijven van letters"
+    ],
+    "moment": "Laat kinderen een groot plaatje eerst met hun vinger, dan met krijt en tot slot met potlood overtrekken. Zo gebruik je hetzelfde blad drie keer."
+  },
+  "pre-writing": {
+    "kw": "Werkbladen schrijfpatronen maken",
+    "lead": "Maak werkbladen schrijfpatronen met rechte lijnen, zigzags, golven, lussen en spiralen, van de eerste potloodpaadjes tot moeilijke schrijfpatronen. Knipoefeningen zitten erbij.",
+    "teaches": [
+      "Het potlood vasthouden en sturen",
+      "De basisbewegingen van letters oefenen",
+      "Langs een lijn knippen"
+    ],
+    "moment": "Schuif een blad in een insteekhoes en gebruik een uitwisbare stift. Zo kunnen kinderen hetzelfde pad vaak herhalen."
+  },
+  "letter-tracing": {
+    "kw": "Werkbladen letters overtrekken maken",
+    "lead": "Maak werkbladen om hoofdletters, kleine letters en de eigen naam over te trekken. Elke pagina gebruikt het alfabet van de taal die je kiest.",
+    "teaches": [
+      "Hoofdletters en kleine letters goed vormen",
+      "Elke letter aan een plaatje koppelen",
+      "De eigen naam schrijven"
+    ],
+    "moment": "Print op de eerste dag voor elk kind de eigen naam. Dat is het woord dat het belangrijkst is, en je ziet meteen waar het kind staat."
+  },
+  "word-writing": {
+    "kw": "Werkbladen woorden schrijven maken",
+    "lead": "Maak werkbladen om woorden over te trekken en te schrijven: overnemen, bij een plaatje schrijven, hokjes vullen en plaatjes benoemen. Stap voor stap gaan kinderen van overtrekken naar zelf schrijven.",
+    "teaches": [
+      "Hele woorden overtrekken en overnemen",
+      "Bij een plaatje schrijven met steeds minder hulp",
+      "Woorden op lijntjes schrijven"
+    ],
+    "moment": "Geef drie versies van dezelfde woorden: met de eerste letter, met een woordenlijst en zonder hulp. Iedereen schrijft dezelfde lijst op eigen niveau."
+  },
+  "cursive": {
+    "kw": "Werkbladen verbonden schrift maken",
+    "lead": "Maak werkbladen verbonden schrift voor letters, verbindingen, woorden en zinnen, met het hele alfabet en leesoefeningen. Kinderen leren letters verbinden en ook verbonden schrift lezen.",
+    "teaches": [
+      "Letters in verbonden schrift vormen",
+      "Letters vloeiend verbinden",
+      "Verbonden schrift lezen en schrijven"
+    ],
+    "moment": "Oefen elke ochtend vijf minuten de letter van de dag. Kort en dagelijks oefenen maakt de verbindingen vloeiend."
+  },
+  "alphabet": {
+    "kw": "Werkbladen alfabet maken",
+    "lead": "Maak werkbladen alfabet: letters herkennen, hoofdletters en kleine letters, klinkers, alfabetische volgorde en letter van de week. Elke pagina gebruikt het alfabet van de taal die je kiest.",
+    "teaches": [
+      "Letters herkennen en benoemen",
+      "Hoofdletters en kleine letters koppelen",
+      "Woorden op alfabetische volgorde zetten"
+    ],
+    "moment": "Begin maandag met de letter van de week en stuur kinderen op letterjacht door een boek."
+  },
+  "phonics": {
+    "kw": "Werkbladen klanken maken",
+    "lead": "Maak werkbladen over beginklanken, middenklanken en eindklanken, medeklinkerclusters en korte en lange klinkers. Met hakken en plakken, knijpkaarten en sorteerbladen oefenen kinderen met echte plaatjes.",
+    "teaches": [
+      "Klanken horen aan het begin, midden en eind",
+      "Klanken samenvoegen en tellen",
+      "Tweetekenklanken en clusters lezen"
+    ],
+    "moment": "Gebruik de hokjes van Hakken en plakken met fiches: het kind schuift per klank één fiche voor het schrijft. Zo maken de handen de klanken zichtbaar."
+  },
+  "rhyming": {
+    "kw": "Werkbladen rijmwoorden maken",
+    "lead": "Maak rijmwerkbladen met paren, memorykaarten, domino's en sorteerbladen, gemaakt met woorden die echt rijmen in het Nederlands. Kinderen luisteren, koppelen en schrijven eigen rijmpjes.",
+    "teaches": [
+      "Rijmwoorden horen",
+      "Het woord vinden dat er niet bij hoort",
+      "Rijmwoorden schrijven"
+    ],
+    "moment": "Speel rijmmemory hardop: een paar telt alleen als het kind beide woorden zegt."
+  },
+  "syllables": {
+    "kw": "Werkbladen lettergrepen maken",
+    "lead": "Maak werkbladen om lettergrepen te klappen, tellen, splitsen en samenvoegen, plus mkm-woorden. De verdeling volgt wat kinderen op school leren.",
+    "teaches": [
+      "Lettergrepen klappen en tellen",
+      "Woorden splitsen en weer samenvoegen",
+      "Mkm-woorden lezen"
+    ],
+    "moment": "Klap de woorden samen voordat kinderen schrijven. Een woord dat je in je handen voelt, is makkelijker te splitsen."
+  },
+  "sight-words": {
+    "kw": "Werkbladen hoogfrequente woorden maken",
+    "lead": "Maak werkbladen voor het hoogfrequente woord dat je nu oefent: lezen, overtrekken, vinden, kleuren en bouwen. Flitskaarten, dobbelspellen en regenboogschrijven houden het oefenen fris.",
+    "teaches": [
+      "Hoogfrequente woorden in één oogopslag lezen",
+      "Woorden uit het hoofd schrijven",
+      "Hoogfrequente woorden gebruiken in zinnen"
+    ],
+    "moment": "Kies één woord voor de week en gebruik elke dag een ander blad: lezen, overtrekken, vinden, gebruiken."
+  },
+  "spelling": {
+    "kw": "Werkbladen spelling maken",
+    "lead": "Maak spellingbladen met husselwoorden, ontbrekende letters, kijk-dek-af-schrijf-controleer en letterkaartjes, plus bladen over spellingregels. Oefen de regel waar jouw klas nu mee bezig is.",
+    "teaches": [
+      "Woorden opbouwen uit hun klanken",
+      "Onthouden met kijken, afdekken, schrijven en controleren",
+      "Spellingregels toepassen"
+    ],
+    "moment": "Laat kinderen eerst met letterkaartjes leggen en dan schrijven. Een kaartje schuif je makkelijker terug dan een potloodstreep, dus ze proberen meer."
+  },
+  "nouns-articles": {
+    "kw": "Werkbladen enkelvoud, meervoud en lidwoorden maken",
+    "lead": "Maak werkbladen over enkelvoud, meervoud en het juiste lidwoord, met plaatjes die kinderen kunnen benoemen. Eén of meer, de of het en sorteerbladen staan klaar.",
+    "teaches": [
+      "Eén en meer uit elkaar houden",
+      "Het meervoud van zelfstandige naamwoorden schrijven",
+      "Het juiste lidwoord kiezen"
+    ],
+    "moment": "Houd één potlood omhoog, dan drie, en laat de klas het woord zeggen. Daarna doet het blad hetzelfde met plaatjes."
+  },
+  "grammar": {
+    "kw": "Werkbladen woordsoorten en grammatica maken",
+    "lead": "Maak grammaticabladen over zelfstandige naamwoorden, werkwoorden, bijvoeglijke naamwoorden, voornaamwoorden en werkwoordsvormen. Kinderen sorteren, veranderen zinnen en vinden de juiste vorm op drie niveaus.",
+    "teaches": [
+      "Zelfstandige naamwoorden, werkwoorden en bijvoeglijke naamwoorden onderscheiden",
+      "Voornaamwoorden gebruiken in zinnen",
+      "De juiste werkwoordsvorm kiezen"
+    ],
+    "moment": "Sorteer woordsoorten eerst als spel met een schaar en daarna pas op papier. Woorden verplaatsen helpt kinderen de groepen te voelen."
+  },
+  "word-meaning": {
+    "kw": "Werkbladen synoniemen en tegenstellingen maken",
+    "lead": "Maak woordenschatbladen over tegenstellingen, synoniemen, samenstellingen, voorvoegsels en stamwoorden. Je begint met plaatjesbladen, zinsbladen gaan een stap verder.",
+    "teaches": [
+      "Tegenstellingen en woorden met dezelfde betekenis vinden",
+      "Samenstellingen uit elkaar halen",
+      "Met stamwoorden en voorvoegsels de betekenis achterhalen"
+    ],
+    "moment": "Hang een woordladder aan de muur en voeg woorden toe als ze in verhalen voorkomen. Kinderen kiezen al snel zelf preciezere woorden."
+  },
+  "sentences": {
+    "kw": "Werkbladen zinnen maken",
+    "lead": "Maak werkbladen over zinnen: ordenen, invullen, hoofdletters en leestekens verbeteren, vragen stellen en een zin langer maken. Plaatjes steunen beginnende lezers bij elke stap.",
+    "teaches": [
+      "Woorden in de goede volgorde zetten",
+      "Beginnen met een hoofdletter en eindigen met het juiste teken",
+      "Vragen stellen en beantwoorden"
+    ],
+    "moment": "Knip de zin in stukken en laat kinderen hem eerst op tafel leggen. De woorden in verschillende volgordes proberen is al de halve les."
+  },
+  "reading": {
+    "kw": "Werkbladen begrijpend lezen maken",
+    "lead": "Maak werkbladen begrijpend lezen met korte verhalen en vragen, lees-en-kleurbladen en opdrachten om uit te voeren. Kinderen laten zien dat ze het begrepen door het te doen, niet alleen door te antwoorden.",
+    "teaches": [
+      "Lezen met aandacht voor details",
+      "Geschreven opdrachten volgen",
+      "Vragen beantwoorden over een kort verhaal"
+    ],
+    "moment": "Gebruik een lees-en-kleurblad als stille controle: één blik op de kleuren laat zien welke zin een kind niet begreep."
+  },
+  "stories-writing": {
+    "kw": "Werkbladen verhalen en schrijven maken",
+    "lead": "Maak werkbladen om verhalen te ordenen en te schrijven: plaatjes nummeren, een verhaal plannen, een strip, ansichtkaart of dierenpaspoort schrijven. Startzinnen en woordenlijsten helpen elk kind op gang.",
+    "teaches": [
+      "Gebeurtenissen op volgorde zetten",
+      "Begin, midden en eind vertellen",
+      "Zinnen schrijven over een plaatje of een dier"
+    ],
+    "moment": "Laat kinderen het verhaal aan een klasgenoot vertellen voordat ze een woord schrijven. Een verteld verhaal schrijf je makkelijker op."
+  },
+  "me-family-feelings": {
+    "kw": "Werkbladen dit ben ik, familie en gevoelens maken",
+    "lead": "Maak werkbladen over Dit ben ik, familie en gevoelens voor het begin van het jaar en rustige momenten. Gezichten, stambomen en gevoelensthermometers geven kinderen woorden voor wat ze voelen.",
+    "teaches": [
+      "Gevoelens benoemen en op gezichten zien",
+      "Praten over familie en wie wie is",
+      "Zeggen wat je leuk vindt en wat je kunt"
+    ],
+    "moment": "Leg de gevoelenskaarten bij de deur voor het binnenkomen. Een kind wijst er één aan, en je weet wie even extra aandacht nodig heeft."
+  },
+  "picture-cards": {
+    "kw": "Woordkaarten en woordenschatwerkbladen maken",
+    "lead": "Maak plaatjeskaarten, woordkaarten, memoryspellen, labels voor de woordmuur en een plaatjeswoordenboek over elk thema. Tweetalige kaarten zetten twee talen naast elkaar voor meertalige klassen.",
+    "teaches": [
+      "Nieuwe woorden leren met plaatjes",
+      "Woorden en plaatjes koppelen",
+      "Een woordmuur voor de klas bouwen"
+    ],
+    "moment": "Print tweetalige kaarten in het Nederlands en in de thuistaal, zodat een nieuwkomer kan laten zien wat hij of zij al weet."
+  },
+  "word-search": {
+    "kw": "Werkbladen woordzoeker voor kinderen maken",
+    "lead": "Maak woordzoekers voor de klas: met plaatjes als aanwijzing, getallen in letters, puzzels in een vorm, tweetalige roosters en een geheime boodschap.",
+    "teaches": [
+      "Woorden herkennen aan hun spelling",
+      "Rijen en kolommen ordelijk afzoeken",
+      "Woorden van een thema herhalen"
+    ],
+    "moment": "Geef aan het eind van een thema een woordzoeker met plaatjes. Kinderen die nog niet alles kunnen lezen, vinden de woorden via de plaatjes."
+  },
+  "crossword": {
+    "kw": "Werkbladen kruiswoordpuzzel voor kinderen maken",
+    "lead": "Maak kruiswoordpuzzels voor de klas met plaatjes als aanwijzing, woordenlijsten en Zweedse puzzels, ook tweetalig. Kinderen schrijven elk woord en het rooster controleert de letters.",
+    "teaches": [
+      "Woorden letter voor letter schrijven",
+      "Een plaatje of woordenlijst als aanwijzing gebruiken",
+      "Woordenschat herhalen"
+    ],
+    "moment": "Laat twee kinderen samen één puzzel maken: de een zegt het woord, de ander schrijft het."
+  },
+  "secret-code": {
+    "kw": "Werkbladen geheimschrift maken",
+    "lead": "Maak werkbladen geheimschrift waarbij kinderen plaatjes-, getallen- en somcodes kraken om een woord te ontdekken. Ze kunnen zelfs een eigen code maken voor een vriend.",
+    "teaches": [
+      "Met een sleutel ontcijferen",
+      "Letters of sommen oefenen met een doel",
+      "Een verborgen woord lezen"
+    ],
+    "moment": "Schrijf de verrassing van morgen in geheimschrift op het bord. Iedereen wil het ontcijferen."
+  },
+  "bingo": {
+    "kw": "Bingo voor de klas maken",
+    "lead": "Maak bingo voor de klas met plaatjes, hoogfrequente woorden, klanken, telwoorden, vormen, sommen en klokken. Bij elk spel horen voorleeskaartjes, dus je kunt binnen enkele minuten spelen.",
+    "teaches": [
+      "Snel luisteren en koppelen",
+      "Woorden, klanken of sommen herhalen",
+      "Op je beurt wachten in een groepsspel"
+    ],
+    "moment": "Laat een kind de kaartjes voorlezen als de klas het spel kent. Hardop voorlezen is op zich al goede oefening."
+  }
+}

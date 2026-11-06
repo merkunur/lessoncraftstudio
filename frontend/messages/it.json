@@ -4548,16 +4548,24 @@
       "penShelf": "attività e schede, un unico scaffale"
     },
     "make": {
-      "heading": "Falla su misura per la tua classe",
-      "body": "Scegli l'esercizio, l'intervallo numerico, il tema, le immagini — perfino le tue foto. Da una sola creazione escono una scheda interattiva che si autocorregge e un PDF pronto da stampare con le soluzioni.",
-      "caption": "Un generatore per ogni tipo di esercizio · una ricca libreria di immagini · le tue foto sono benvenute",
+      "heading": "Quello che insegni domani, crealo oggi",
+      "body": "Generatori di schede dalla scuola dell'infanzia alla classe terza, dal contare al corsivo. Scegli una scheda, cambiala con pochi clic, ed è pronta prima della campanella.",
+      "caption": "La tua lingua, le tue immagini",
       "forkLabel": "Una creazione, due formati",
       "forkPlay": "Si gioca nel browser",
       "forkPrint": "Si stampa con le soluzioni",
-      "cta": "Crea una scheda",
-      "makerAlt": "I controlli del generatore di schede: esercizio, tema, immagini, difficoltà",
+      "cta": "Vedi tutti i generatori di schede",
+      "makerAlt": "Una scheda per contare dai generatori di schede",
       "penTiles": "tre tessere, una parola — fatta, non trovata",
-      "penTraveler": "nasce qui — segui il viaggio di questa scheda"
+      "penTraveler": "nasce qui — segui il viaggio di questa scheda",
+      "point1": "Matematica, lettura e scrittura",
+      "point1Body": "Numeri, lettura, scrittura, enigmi e altro, dal contare al corsivo.",
+      "point2": "La tua lingua, le tue immagini",
+      "point2Body": "La pagina si riscrive nella tua lingua, con immagini da una raccolta molto grande.",
+      "point3": "Carta o schermo",
+      "point3Body": "Stampa un PDF pulito con le soluzioni o manda ai bambini la versione per lo schermo.",
+      "point4": "Salvato e condiviso con un clic",
+      "point4Body": "Conserva ciò che crei e condividilo con la classe con un link o un codice QR."
     },
     "paper": {
       "heading": "Ogni scheda si gioca e si stampa",

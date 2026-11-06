@@ -3047,16 +3047,24 @@
       "penShelf": "activités et fiches, un seul rayon"
     },
     "make": {
-      "heading": "Créez la fiche sur mesure pour votre classe",
-      "body": "Choisissez l'exercice, la plage de nombres, le thème, les illustrations — jusqu'à vos propres photos. Une seule création donne une fiche interactive qui se corrige toute seule, et un PDF prêt à imprimer avec son corrigé.",
-      "caption": "Un générateur pour chaque type d'exercice · une riche bibliothèque d'images · vos photos bienvenues",
+      "heading": "Ce que vous enseignez demain, créez-le aujourd'hui",
+      "body": "Des générateurs de fiches de la maternelle au CE2, du comptage à la cursive. Choisissez une fiche, modifiez-la en quelques clics, et elle est prête avant la sonnerie.",
+      "caption": "Votre langue, vos images",
       "forkLabel": "Une création, deux formats",
       "forkPlay": "Se joue dans le navigateur",
       "forkPrint": "S'imprime avec son corrigé",
-      "cta": "Créer une fiche",
-      "makerAlt": "Les réglages du générateur de fiches : exercice, thème, illustrations, difficulté",
+      "cta": "Voir tous les générateurs de fiches",
+      "makerAlt": "Une fiche de comptage des générateurs de fiches",
       "penTiles": "trois jetons, un mot — fabriqué, pas trouvé",
-      "penTraveler": "elle naît ici — regardez cette fiche voyager"
+      "penTraveler": "elle naît ici — regardez cette fiche voyager",
+      "point1": "Maths, lecture et écriture",
+      "point1Body": "Nombres, lecture, écriture, jeux et plus encore, du comptage à la cursive.",
+      "point2": "Votre langue, vos images",
+      "point2Body": "La page se réécrit dans votre langue, avec les images d'une très grande banque.",
+      "point3": "Papier ou écran",
+      "point3Body": "Imprimez un PDF net avec son corrigé, ou envoyez la version écran aux enfants.",
+      "point4": "Gardé et partagé en un clic",
+      "point4Body": "Conservez ce que vous créez et partagez-le avec votre classe par lien ou QR code."
     },
     "paper": {
       "heading": "Chaque fiche se joue et s'imprime",

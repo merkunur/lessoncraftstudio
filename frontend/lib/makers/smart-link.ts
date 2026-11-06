@@ -20,6 +20,11 @@ import { isReleased, templateOffered } from './released';
 interface SmartLink { maker: string; template: string | null }
 const LINKS = (links as { links: Record<string, SmartLink> }).links;
 
+/** the new maker that replaced an old app (the old landing links to its landing and shows its worksheets) */
+export function smartMaker(oldAppKey: string): string | null {
+  return LINKS[oldAppKey]?.maker ?? null;
+}
+
 /** the new maker's launch URL for an old app's landing in this locale, or null while the maker is not released */
 export function smartLaunchUrl(oldAppKey: string, locale: string): string | null {
   const l = LINKS[oldAppKey];

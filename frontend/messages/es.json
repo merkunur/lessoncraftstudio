@@ -4546,16 +4546,24 @@
       "penShelf": "actividades y hojas de trabajo, un mismo estante"
     },
     "make": {
-      "heading": "Hazla exactamente a la medida de tu grupo",
-      "body": "Elige el ejercicio, el rango numérico, el tema, las imágenes — incluso tus propias fotos. Una sola creación te da una hoja de trabajo interactiva que se revisa sola y un PDF listo para imprimir con su hoja de respuestas.",
-      "caption": "Un creador para cada tipo de ejercicio · una rica biblioteca de imágenes · tus fotos son bienvenidas",
+      "heading": "Lo que enseñes mañana, créalo hoy",
+      "body": "Generadores de hojas de trabajo de preescolar a tercero, del conteo a la letra cursiva. Elige una hoja, cámbiala en unos clics, y queda lista antes del timbre.",
+      "caption": "Tu idioma, tus dibujos",
       "forkLabel": "Una creación, dos resultados",
       "forkPlay": "Se juega en el navegador",
       "forkPrint": "Se imprime con hoja de respuestas",
-      "cta": "Crea una hoja de trabajo",
-      "makerAlt": "Los controles del creador de hojas de trabajo: ejercicio, tema, imágenes, dificultad",
+      "cta": "Ver todos los generadores de hojas",
+      "makerAlt": "Una hoja de conteo de los generadores de hojas",
       "penTiles": "tres fichas, una palabra — hecha, no encontrada",
-      "penTraveler": "nace aquí — mira cómo viaja esta hoja"
+      "penTraveler": "nace aquí — mira cómo viaja esta hoja",
+      "point1": "Matemáticas, lectura y escritura",
+      "point1Body": "Números, lectura, escritura, acertijos y más, del conteo a la letra cursiva.",
+      "point2": "Tu idioma, tus dibujos",
+      "point2Body": "La hoja se reescribe en tu idioma, con dibujos de una biblioteca muy grande.",
+      "point3": "Papel o pantalla",
+      "point3Body": "Imprime un PDF limpio con sus respuestas o manda a los niños la versión en pantalla.",
+      "point4": "Guardado y compartido en un clic",
+      "point4Body": "Guarda lo que creas y compártelo con tu grupo por enlace o código QR."
     },
     "paper": {
       "heading": "Toda hoja de trabajo: pantalla y papel",

@@ -4,21 +4,14 @@ import { getTranslations } from 'next-intl/server';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
-import PressHallPage from '@/components/worksheet-makers/PressHallPage';
+import MakerHubPage from '@/components/maker-hub/MakerHubPage';
 
 // /[locale]/worksheet-makers/ — Worksheet creators (Apps) category landing.
 //
-// "THE PRESS HALL" redesign (2026-08-22): the render body lives in
-// components/worksheet-makers/PressHallPage.tsx (shared with the
-// /preview/worksheet-makers-v2 visual-diff route — the homepage-v10
-// promotion pattern; rollback = revert this file). All v1 contracts are
-// preserved inside PressHallPage: all 33 apps listed (incl. the 4 PDF-only
-// makers whose /tools/<slug> landings this hub must keep linking, see the
-// SEO-rescue note in git history), every card carries id={slug} (nav
-// fragment fallback in category-nav-data.ts), cards link to the
-// /{locale}/tools/<native-slug> maker landing via <Link> — or open the
-// nginx-served generator directly via a plain <a> (§15.7) when a locale
-// lacks a landing slug.
+// The hub of the new worksheet makers (2026-11-06): the render body lives in
+// components/maker-hub/MakerHubPage.tsx. It lists the 59 makers with their landings
+// at /{locale}/worksheet-makers/<native-slug> and still links all 33 classic
+// /{locale}/tools/<slug> maker landings, so each keeps its internal link.
 //
 // generateMetadata below is UNCHANGED from the pre-redesign page
 // (SEO churn freeze §21.5a — title/description/canonical/hreflang/OG
@@ -68,5 +61,5 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function WorksheetMakersPage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
-  return <PressHallPage locale={locale} />;
+  return <MakerHubPage locale={locale} />;
 }

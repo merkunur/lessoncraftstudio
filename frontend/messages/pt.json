@@ -4533,16 +4533,24 @@
       "penShelf": "atividades e fichas, uma só estante"
     },
     "make": {
-      "heading": "Faça sob medida para a sua turma",
-      "body": "Escolha o exercício, a faixa numérica, o tema, as imagens — até as suas próprias fotos. Uma única criação gera uma ficha interativa que se corrige sozinha e um PDF pronto para imprimir com gabarito.",
-      "caption": "Um gerador para cada tipo de exercício · uma rica biblioteca de imagens · suas fotos são bem-vindas",
+      "heading": "O que você vai ensinar amanhã, crie hoje",
+      "body": "Geradores de atividades da educação infantil ao 3º ano, da contagem à letra cursiva. Escolha uma atividade, mude em poucos cliques, e ela fica pronta antes do sinal.",
+      "caption": "Seu idioma, suas figuras",
       "forkLabel": "Uma criação, dois formatos",
       "forkPlay": "Funciona no navegador",
       "forkPrint": "Imprime com gabarito",
-      "cta": "Criar uma ficha",
-      "makerAlt": "Os controles do gerador de fichas: exercício, tema, imagens, dificuldade",
+      "cta": "Ver todos os geradores de atividades",
+      "makerAlt": "Uma atividade de contagem dos geradores de atividades",
       "penTiles": "três peças, uma palavra — feita, não achada",
-      "penTraveler": "nasce aqui — veja esta ficha viajar"
+      "penTraveler": "nasce aqui — veja esta ficha viajar",
+      "point1": "Matemática, leitura e escrita",
+      "point1Body": "Números, leitura, escrita, desafios e mais, da contagem à letra cursiva.",
+      "point2": "Seu idioma, suas figuras",
+      "point2Body": "A folha se reescreve no seu idioma, com figuras de um banco muito grande.",
+      "point3": "Papel ou tela",
+      "point3Body": "Imprima um PDF limpo com gabarito ou envie às crianças a versão de tela.",
+      "point4": "Salvo e compartilhado em um clique",
+      "point4Body": "Guarde o que criar e compartilhe com a turma por link ou QR code."
     },
     "paper": {
       "heading": "Toda ficha, na tela e no papel",

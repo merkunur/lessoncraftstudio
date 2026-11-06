@@ -1,0 +1,208 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Talldetektiven",
+   "Det hemmelige tallet er et tall fra 1 til og med 50. Les hintene og skriv tallet som passer med alle hintene."
+  ],
+  "G3-472": [
+   "Burpuslespill 4 × 4",
+   "I hver rad og hver kolonne skal 1, 2, 3 og 4 stå én gang. Tallene i et bur med tykk kant blir til sammen det lille tallet i hjørnet."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Fargelegg etter tall: Sau på gården",
+   "Fargelegg hver del med fargen som hører til tallet."
+  ],
+  "K-394": [
+   "Fargelegg etter tall: Hjort",
+   "Fargelegg hver del med fargen som hører til tallet."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Hopp gjennom bikaken i alfabetisk rekkefølge",
+   "Start i ruten som pilen peker på. Fargelegg neste bokstav i alfabetet i en rute ved siden av, helt til Å."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Finn fem feil: Svane på dammen",
+   "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+  ],
+  "K-397": [
+   "Finn tre feil: Kalkun på gården",
+   "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Tegn en skilpadde steg for steg",
+   "Se på de nummererte stegene, og tegn bildet i den store ruta: først omrisset og så de nye strekene du ser i hvert steg."
+  ],
+  "K-401": [
+   "Tegn en vaskebjørn av enkle former",
+   "Tegn oppå de stiplede formene i ruta, og gjør så bildet ferdig med de nye strekene fra hvert steg."
+  ],
+  "K-402": [
+   "Tegn oppå, og tegn selv: en tromme",
+   "Tegn oppå det grå bildet med blyanten, og tegn det så selv i den tomme ruta ved siden av."
+  ],
+  "K-403": [
+   "Tegn ferdig tegningen av en dinosaur",
+   "Se på hele bildet, tegn strekene som mangler på det andre bildet, og tegn så ditt eget bilde under."
+  ],
+  "K-404": [
+   "Tegn ei geit, og skriv ordet",
+   "Følg stegene, og tegn bildet i ruta; skriv så oppå ordet under, og skriv det en gang til selv."
+  ],
+  "G1-416": [
+   "Tegn en påfugl med rutenett",
+   "Se på bildet i rutenettet, tegn det rute for rute i det tomme rutenettet, og tegn det så en gang til uten rutenett."
+  ],
+  "G1-417": [
+   "Tegn en surikat i bildet",
+   "Følg stegene, og tegn så det som mangler i bildet, på en tom plass."
+  ],
+  "G1-418": [
+   "Sett stegene i rekkefølge: tegn en gris",
+   "Stegene er stokket om: skriv 1 til 5 i rutene ved siden av dem i riktig rekkefølge, og tegn så bildet i den store ruta."
+  ],
+  "G1-419": [
+   "Steg for steg: tegn en flodhest",
+   "Tegn hvert steg i ruta under det, med de nye strekene hver gang, og tegn så hele bildet større i ruta nederst."
+  ],
+  "G2-390": [
+   "Tegn en bie, og skriv om tegningen",
+   "Tegn bildet med stegene, og skriv så tre setninger om tegningen din på linjene; begynn med ordene som allerede står der."
+  ],
+  "G2-391": [
+   "Tegn et sandslott etter hukommelsen",
+   "Se på bildet, brett arket bakover langs den stiplede linja så du ikke ser det, og tegn det etter hukommelsen i den store ruta."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Ukens bokstav: S s",
+   "Spor stor og liten S. Sett ring rundt de fire bildene som begynner med s, og skriv så en rad av hver bokstav."
+  ],
+  "K-325": [
+   "Ord med S: Hører du s inni ordet?",
+   "Spor bokstaven. Sett ring rundt de fire bildene der du hører s et sted inni ordet, ikke først."
+  ],
+  "K-326": [
+   "Først, i midten eller sist: Hvor hører du S?",
+   "Si hvert ord høyt. Fargelegg ruten som viser hvor du hører s: først, i midten eller sist i ordet."
+  ],
+  "K-327": [
+   "Finn S i ordene og tell",
+   "Let etter hver S og s i ordene og sett ring rundt dem. Skriv så i ruten hvor mange du fant."
+  ],
+  "K-328": [
+   "Begynner ordet med S eller F? Velg riktig bokstav",
+   "Si hvert ord høyt. Sett ring rundt bokstaven som ordet begynner med: s eller f."
+  ],
+  "G1-311": [
+   "Ukens lyd: ng",
+   "Spor ng, sett ring rundt de fire bildene der du hører ng, og skriv så en rad."
+  ]
+ },
+ "syllables": {
+  "G1-333": [
+   "Vanskeligere lydrette ord: ord med dobbel konsonant",
+   "Les alle ordene på leseteppet høyt. Si ordet til hvert bilde, finn det på teppet og skriv det på linja."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Dagens ord: og",
+   "Les ordet. Spor det, skriv det og bruk det i setninger."
+  ],
+  "K-389": [
+   "Høyfrekvente ord i setninger: og",
+   "Les hver setning. Skriv ordet «og» på streken."
+  ],
+  "K-390": [
+   "En setning med og",
+   "Arbeid med én setning, steg for steg."
+  ],
+  "K-391": [
+   "Spor setningene: og",
+   "Spor hver setning. Skriv den så på streken under."
+  ],
+  "K-392": [
+   "Finn ordet: og",
+   "Fargelegg hver rute med ordet «og». Tell dem og skriv tallet."
+  ],
+  "K-433": [
+   "Les, spor, skriv: og",
+   "Les ordet. Spor det. Skriv det. Skriv det så i hver setning."
+  ],
+  "K-434": [
+   "Spor ordet og setningen: og",
+   "Spor ordet. Spor så setningen på hver linje."
+  ],
+  "K-435": [
+   "Les og tegn: og",
+   "Les setningen. Spor den. Tegn så det setningen forteller."
+  ],
+  "K-436": [
+   "Finn og tell: og",
+   "Sett ring rundt ordet «og» hver gang du ser det. Hvor mange ganger fant du det?"
+  ],
+  "K-438": [
+   "Bygg ordet: og",
+   "Klipp ut bokstavene. Lim dem på i riktig rekkefølge, så de blir til ordet."
+  ],
+  "K-439": [
+   "Regnbueskriving: og",
+   "Spor hvert ord tre ganger, med en ny farge hver gang. Skriv det så."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Ukas rettskrivingsregel: Dobbel konsonant",
+   "Les regelen i boksen. Si ordet til hvert bilde og skriv bokstavene som mangler i de stiplede rutene."
+  ],
+  "G2-324": [
+   "Hvilken skrivemåte er riktig? t eller tt",
+   "Se på bildet og les ordet. Sett ring rundt de riktige bokstavene under, og skriv dem i den stiplede ruten."
+  ],
+  "G2-325": [
+   "Regeldetektiv: Dobbel konsonant",
+   "Les hvert ord. Finn regelbokstavene, sett ring rundt dem i ordet og skriv dem i den lille ruten."
+  ],
+  "G2-326": [
+   "Sorter ordene etter skrivemåte: t eller tt",
+   "Si ordet til hvert bilde. Skriv det i boksen med riktig skrivemåte, ett ord på hver linje."
+  ],
+  "G2-327": [
+   "Skriv ordet: Dobbel konsonant",
+   "Regelbokstavene står allerede i oransje. Si ordet til bildet og skriv alle de andre bokstavene i rutene."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Faktaark om dyr: Pinnsvin",
+   "Finn ut hva du vet om dette dyret. Skriv ett faktum i hver rad på faktaarket, og fyll resten av siden med tegning eller ord."
+  ],
+  "G2-339": [
+   "Faktaark om pinnsvin: sett ring rundt det som stemmer",
+   "Les valgene i hver rad og sett ring rundt det som stemmer for dette dyret. Tegn så hvor det lever, og fullfør setningen."
+  ],
+  "G2-340": [
+   "Faktaark om pinnsvin med ordbank",
+   "Finn hvert riktig faktum i ordbanken og skriv det i riktig rad på faktaarket. Fullfør så setningen nederst."
+  ],
+  "G2-341": [
+   "Faktaark om pinnsvin: skriv tre setninger",
+   "Les faktaarket. Fullfør de tre setningene med fakta fra det, og skriv ett faktum til på den siste linja."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Tospråklige bildekort: norsk og engelsk",
+   "Klipp ut de åtte kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din."
+  ]
+ }
+}

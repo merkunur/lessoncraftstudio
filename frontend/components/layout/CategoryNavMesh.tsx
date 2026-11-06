@@ -29,6 +29,7 @@ export async function buildCategoryMeshSlots(input: {
   toolLabels?: ToolLabel[];
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  newMakers?: Array<{ href: string; label: string }>;
 }): Promise<Record<string, React.ReactNode>> {
   const t = await getTranslations({ locale: input.locale, namespace: 'nav.categories' });
   const dropdowns = buildCategories({ ...input, t: (k: string) => t(k) });

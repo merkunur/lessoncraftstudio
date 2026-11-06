@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from "next/link";
 import Image from "next/image";
@@ -566,6 +567,8 @@ export default async function TopicsIndexPage({
             {strings.pageIntro}
           </p>
         </header>
+
+        <MakerRibbon locale={locale} axes={[{ axis: 'educational-level', axisKey: 'grade-1' }]} />
 
         {allEmpty ? (
           <div className="actcat-card-flat rounded-3xl p-8 md:p-12 text-center text-lcs-teal/80">

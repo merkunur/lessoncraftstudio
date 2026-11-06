@@ -1,0 +1,250 @@
+{
+ "logic-puzzles": {
+  "G1-476": [
+   "Zahlendetektiv",
+   "Die Lösungen sind Zahlen von 1 bis 50. Lies die Hinweise und schreibe die Zahl auf, die zu allen passt."
+  ],
+  "G3-472": [
+   "Käfig-Rätsel 4 × 4",
+   "In jeder Reihe und Spalte steht jede Zahl von 1 bis 4 genau einmal. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke."
+  ]
+ },
+ "color-by-number": {
+  "K-393": [
+   "Malen nach Zahlen: Schaf auf dem Bauernhof",
+   "Male jeden Teil in der Farbe seiner Zahl aus."
+  ],
+  "K-394": [
+   "Malen nach Zahlen: Hirsch",
+   "Male jeden Teil in der Farbe seiner Zahl aus."
+  ]
+ },
+ "mazes": {
+  "G1-426": [
+   "Hüpf im ABC durch die Honigwaben",
+   "Beginne in der Wabe, auf die der Pfeil zeigt. Male immer den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum S."
+  ]
+ },
+ "find-the-differences": {
+  "K-395": [
+   "Finde 5 Unterschiede: Schwan auf dem Teich",
+   "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+  ],
+  "K-397": [
+   "Finde 3 Unterschiede: Truthahn auf dem Bauernhof",
+   "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+  ]
+ },
+ "how-to-draw": {
+  "K-396": [
+   "Schildkröte zeichnen lernen Schritt für Schritt",
+   "Schau dir die nummerierten Schritte an und zeichne das Bild in das große Feld: zuerst den Umriss, dann die neuen Linien, die du in jedem Schritt siehst."
+  ],
+  "K-401": [
+   "Einen Waschbären aus einfachen Formen zeichnen",
+   "Fahre die gestrichelten Formen im Feld nach und mache das Bild dann mit den neuen Linien jedes Schritts fertig."
+  ],
+  "K-402": [
+   "Eine Trommel nachfahren und dann selbst zeichnen",
+   "Fahre das graue Bild mit dem Bleistift nach und zeichne es dann selbst in das leere Feld daneben."
+  ],
+  "K-403": [
+   "Einen Dinosaurier fertig zeichnen",
+   "Schau dir das ganze Bild an, zeichne beim zweiten Bild die fehlenden Linien ein und zeichne dann unten ein eigenes Bild."
+  ],
+  "K-404": [
+   "Eine Ziege zeichnen und das Wort schreiben",
+   "Zeichne das Bild mit den Schritten in das Feld, fahre dann das Wort darunter nach und schreibe es noch einmal."
+  ],
+  "G1-416": [
+   "Einen Pfau mit dem Raster zeichnen",
+   "Schau dir das Bild im Raster an, zeichne es Kästchen für Kästchen in das leere Raster und danach noch einmal ohne Raster."
+  ],
+  "G1-417": [
+   "Ein Erdmännchen ins Bild zeichnen",
+   "Folge den Schritten und zeichne dann, was im Bild fehlt, an eine freie Stelle."
+  ],
+  "G1-418": [
+   "Schritte ordnen und ein Schwein zeichnen",
+   "Die Schritte sind durcheinander: Schreibe 1 bis 5 in der richtigen Reihenfolge in die Kästchen daneben und zeichne dann das Bild in das große Feld."
+  ],
+  "G1-419": [
+   "Ein Nilpferd Schritt für Schritt abzeichnen",
+   "Zeichne in jedes Feld, was du im Schritt darüber siehst, jedes Mal mit den neuen Linien dazu, und zeichne dann das ganze Bild größer in das Feld unten."
+  ],
+  "G2-390": [
+   "Eine Biene zeichnen und darüber schreiben",
+   "Zeichne das Bild mit den Schritten und schreibe dann drei Sätze über dein Bild auf die Zeilen; beginne mit den gedruckten Wörtern."
+  ],
+  "G2-391": [
+   "Eine Sandburg aus dem Gedächtnis zeichnen",
+   "Schau dir das Bild genau an, falte das Blatt an der Linie nach hinten, damit du es nicht mehr siehst, und zeichne es aus dem Gedächtnis in das große Feld."
+  ]
+ },
+ "cursive": {
+  "G2-377": [
+   "Schreibschrift üben: i, u und t in Vereinfachter Ausgangsschrift",
+   "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in den leeren Zeilen darunter."
+  ],
+  "G2-384": [
+   "Großbuchstaben in Schreibschrift: A, B, C und D",
+   "Spure jeden grauen Großbuchstaben und den Namen nach und schreibe beides in die leere Zeile darunter."
+  ],
+  "G2-385": [
+   "Buchstabenverbindungen in Vereinfachter Ausgangsschrift",
+   "Spure jede graue Buchstabenverbindung und das Wort nach und schreibe beides in die leere Zeile darunter."
+  ],
+  "G2-386": [
+   "Schreibschrift-Wörter zu Bildern in Vereinfachter Ausgangsschrift",
+   "Spure jedes graue Wort nach, verbinde zuerst die Buchstaben und setze zum Schluss Punkte und Striche, dann schreibe es genauso auf die Zeile darunter."
+  ],
+  "G2-387": [
+   "Schreibschrift lesen: Wörter in Vereinfachter Ausgangsschrift",
+   "Lies jedes Wort in Schreibschrift und verbinde es mit seinem Bild."
+  ],
+  "G2-480": [
+   "Meine Wörter in Vereinfachter Ausgangsschrift",
+   "Lies jeden Satz. Spure ihn in Schreibschrift nach und verbinde dabei die Buchstaben. Schreibe ihn dann allein darunter."
+  ],
+  "G2-481": [
+   "Buchstabe des Tages in Vereinfachter Ausgangsschrift",
+   "Spure den grauen Buchstaben, die Buchstabenverbindungen und das Wort nach und schreibe alles allein in die leeren Zeilen darunter."
+  ],
+  "G2-482": [
+   "Wörter in Druckschrift und in Vereinfachter Ausgangsschrift verbinden",
+   "Lies jedes Wort in Schreibschrift und verbinde es mit demselben Wort in Druckschrift."
+  ],
+  "G2-483": [
+   "Das Alphabet in Vereinfachter Ausgangsschrift",
+   "Sieh dir jeden Buchstaben in Schreibschrift und in Druckschrift an. Nimm das Alphabet zu Hilfe, wenn du in Schreibschrift schreibst."
+  ],
+  "G3-401": [
+   "Sätze in Vereinfachter Ausgangsschrift abschreiben",
+   "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
+  ]
+ },
+ "alphabet": {
+  "K-317": [
+   "Der Buchstabe M m",
+   "Spure das große und das kleine M nach. Kreise die vier Bilder ein, die mit M beginnen, und schreibe dann jede Form eine Reihe lang."
+  ],
+  "K-325": [
+   "Wörter mit M: Hörst du das M im Wort?",
+   "Spure den Buchstaben nach. Kreise dann die vier Bilder ein, in denen du M irgendwo im Wort hörst, aber nicht am Anfang."
+  ],
+  "K-326": [
+   "Anlaut, Inlaut, Auslaut: Wo hörst du das M?",
+   "Sprich jedes Bildwort laut. Male das Kästchen an, das zeigt, wo du M hörst: am Anfang, in der Mitte oder am Ende."
+  ],
+  "K-327": [
+   "M in Wörtern finden und zählen",
+   "Suche in jedem Wort jedes M oder m und kreise es ein. Schreibe dann in das Kästchen, wie viele du gefunden hast."
+  ],
+  "G1-311": [
+   "Laut der Woche: sch",
+   "Spure sch nach, kreise die vier Bilder ein, in denen du sch hörst, und schreibe dann eine Reihe davon."
+  ]
+ },
+ "syllables": {
+  "G1-306": [
+   "Silbenteppich: ka ke ki ko ku",
+   "Lies alle Silben auf dem Teppich laut. Sprich jedes Bildwort, finde seine erste Silbe auf dem Teppich und schreibe sie auf die Linie."
+  ],
+  "G1-333": [
+   "Schwere Silben lesen: fla fle fli flo flu",
+   "Lies alle Silben auf dem Teppich laut. Sprich jedes Bildwort, finde seine erste Silbe und schreibe sie auf die Linie."
+  ]
+ },
+ "sight-words": {
+  "K-388": [
+   "Wort des Tages: und",
+   "Lies das Wort. Spure es nach, schreibe es und setze es in Sätze ein."
+  ],
+  "K-389": [
+   "Häufige Wörter in Sätzen: und",
+   "Lies jeden Satz. Schreibe das Wort „und“ auf die Linie."
+  ],
+  "K-390": [
+   "Ein Satz mit und",
+   "Arbeite Schritt für Schritt mit einem Satz."
+  ],
+  "K-391": [
+   "Sätze nachspuren: und",
+   "Spure jeden Satz nach. Schreibe ihn dann auf die Linie darunter."
+  ],
+  "K-392": [
+   "Finde das Wort: und",
+   "Male jedes Kästchen mit dem Wort „und“ an. Zähle sie und schreibe die Zahl auf."
+  ],
+  "K-433": [
+   "Lesen, nachspuren, schreiben: und",
+   "Lies das Wort. Spure es nach. Schreibe es. Schreibe es dann in jeden Satz."
+  ],
+  "K-434": [
+   "Wort und Satz nachspuren: und",
+   "Spure das Wort nach. Spure dann den Satz auf jeder Linie nach."
+  ],
+  "K-435": [
+   "Lesen und malen: und",
+   "Lies den Satz. Spure ihn nach. Male dann, was im Satz steht."
+  ],
+  "K-436": [
+   "Finde und zähle: und",
+   "Kreise das Wort „und“ jedes Mal ein, wenn du es siehst. Wie oft hast du es gefunden?"
+  ],
+  "K-438": [
+   "Baue das Wort: und",
+   "Schneide die Buchstaben aus. Klebe sie in der richtigen Reihenfolge auf."
+  ],
+  "K-439": [
+   "Regenbogenschreiben: und",
+   "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe. Schreibe es dann."
+  ]
+ },
+ "spelling": {
+  "G2-315": [
+   "Rechtschreibregel der Woche: Wörter mit tt",
+   "Lies die Regel im Kasten. Sprich jedes Bildwort und schreibe die fehlenden Regelbuchstaben in die gestrichelten Kästchen."
+  ],
+  "G2-324": [
+   "Welche Schreibweise stimmt? tt oder t",
+   "Schau das Bild an und lies das Wort. Kreise die richtigen Buchstaben darunter ein und schreibe sie in das gestrichelte Kästchen."
+  ],
+  "G2-325": [
+   "Regel-Detektiv: Wörter mit tt",
+   "Lies jedes Wort. Finde die Regelbuchstaben, kreise sie im Wort ein und schreibe sie in das kleine Kästchen."
+  ],
+  "G2-326": [
+   "Wörter nach Schreibweise sortieren: tt oder t",
+   "Sprich jedes Bildwort. Schreibe es in den Kasten mit seiner Schreibweise, ein Wort auf jede Linie."
+  ],
+  "G2-327": [
+   "Schreibe das Wort: Wörter mit tt",
+   "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und schreibe alle anderen Buchstaben in die Kästchen."
+  ]
+ },
+ "stories-writing": {
+  "G2-318": [
+   "Tiersteckbrief: Igel",
+   "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+  ],
+  "G2-339": [
+   "Steckbrief Igel: Kreise ein, was stimmt",
+   "Lies die Auswahl in jeder Zeile und kreise das ein, was für dieses Tier stimmt. Zeichne dann, wo es lebt, und vervollständige den Satz."
+  ],
+  "G2-340": [
+   "Steckbrief Igel mit Wortliste",
+   "Suche jede richtige Angabe in der Wortliste und schreibe sie in die passende Zeile des Steckbriefs. Vervollständige dann den Satz unten."
+  ],
+  "G2-341": [
+   "Steckbrief Igel: Schreibe drei Sätze",
+   "Lies den Steckbrief. Vervollständige die drei Sätze mit Angaben daraus und schreibe auf die letzte Linie eine eigene Angabe."
+  ]
+ },
+ "picture-cards": {
+  "K-350": [
+   "Zweisprachige Bildkarten: Deutsch und Englisch",
+   "Schneide die acht Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf."
+  ]
+ }
+}

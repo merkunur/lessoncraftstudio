@@ -23,6 +23,7 @@
  * the pre-pivot tool-page-slugs.ts so the exact ranked URLs are restored.
  */
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
+import makerCatalog from '@/lib/makers/landing-catalog.json';
 import { buildHreflangAlternates } from './hreflang';
 
 /**
@@ -53,7 +54,7 @@ export type MakerKey = (typeof MAKER_KEYS)[number];
  * moment the 4 PDF-only makers gained landings. Copy now interpolates this value, so
  * the number cannot disagree with the number of maker pages that actually exist.
  */
-export const MAKER_COUNT = MAKER_KEYS.length;
+export const MAKER_COUNT = Object.keys((makerCatalog as { makers: Record<string, unknown> }).makers).length;
 
 /**
  * Generator HTML file per maker key (served by nginx at

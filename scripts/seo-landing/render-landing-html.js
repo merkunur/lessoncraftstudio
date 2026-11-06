@@ -42,6 +42,8 @@ const siteChrome = require('../lib/site-chrome');
 // "Make your own" hero button — label + route from the shared deck-actions SoT
 // (the same module that bakes the strip into every deck.html).
 const deckActions = require('../lib/deck-actions');
+// The maker this worksheet belongs to and the band that links to it: the same SoT as the deck pages.
+const makerLinks = require('../lib/maker-links');
 
 /* ============================== paths / data ============================== */
 
@@ -1035,8 +1037,12 @@ function renderLanding(locale, l) {
   );
 
   const og = a.thumbnail;
-  const _makerKey = MAKER_TYPE_ALIAS[l.coordinate.type] || l.coordinate.type;
-  const maker = MAKER_KEYS.includes(_makerKey) ? getMakerContent(locale, _makerKey) : null;
+  // The new maker of this worksheet (the template id in the deck slug is the most exact fact), or the hub when none covers it.
+  const _tplInSlug = (String(l.canonicalDeckSlug || '').match(/(?:^|-)((?:k|g[1-3])-?\d{3})(?:-|$)/i) || [])[1];
+  const makerId = makerLinks.makerFor({ variantId: _tplInSlug, exerciseType: l.coordinate.type });
+  const maker = makerId ? makerLinks.landing(locale, makerId) : null;
+  const ribbonHtml = makerLinks.block({ locale, makerId: maker ? makerId : null });
+  const ribbonWords = makerLinks.ribbonStrings()[locale] || makerLinks.ribbonStrings().en;
 
   const embedSnippet = buildEmbedSnippet({
     iframeUrl: a.deckDir, brandHref: canonical, homeHref: CANONICAL_HOST,
@@ -1292,24 +1298,24 @@ ${relActs.map((a) => `      <li><a href="${esc(localePath(locale, 'activities', 
 
   // 4th hero CTA (2026-09-20): opens the generator's own landing in the page's
   // language. Gated exactly like the bottom maker card — no maker, no button.
-  const makeBtn = (!xlang && maker)
+  const makeBtn = maker
     ? `
-          <a href="${esc(localePath(locale, 'tools', maker.slug))}" class="btn btn-outline btn-make">${deckActions.ICONS.make}${deckActions.strings(locale).makeYourOwn}</a>`
+          <a href="${esc(maker.path)}" class="btn btn-outline btn-make">${deckActions.ICONS.make}${deckActions.strings(locale).makeYourOwn}</a>`
     : '';
 
-  const makerHtml = xlang ? '' : (maker ? `
+  const makerHtml = maker ? `
 <section class="maker">
-  <a class="maker-card" href="${esc(localePath(locale, 'tools', maker.slug))}">
-    <p class="t">${esc(ui.madeWith(ui.typeCrumb(l.eyebrow)))}</p>
-    <p class="cta">${esc(maker.labels.launchCta.replace('{name}', maker.name))} &rarr;</p>
+  <a class="maker-card" href="${esc(maker.path)}">
+    <p class="t">${esc(maker.kw)}</p>
+    <p class="cta">${esc(ribbonWords.cta)} &rarr;</p>
   </a>
 </section>` : `
 <section class="maker">
-  <div class="maker-soon">
-    <p class="t">${esc(ui.madeWith(ui.typeCrumb(l.eyebrow)))}</p>
-    <p class="s">${esc(ui.makerSoon)}</p>
-  </div>
-</section>`);
+  <a class="maker-card" href="${esc(makerLinks.hubUrl(locale))}">
+    <p class="t">${esc(ribbonWords.hubTitle)}</p>
+    <p class="cta">${esc(ribbonWords.all)} &rarr;</p>
+  </a>
+</section>`;
 
   /* ---------- document ---------- */
   return `<!DOCTYPE html>
@@ -1351,6 +1357,7 @@ ${siteChrome.header(locale, 'landing')}
     <nav aria-label="Breadcrumb" class="crumbs">
 ${crumbs}
     </nav>
+${ribbonHtml}
 
     <section class="hero">
       <div class="card">
@@ -1587,6 +1594,7 @@ ${siteChrome.header(locale, 'landing')}
 <span class="sep" aria-hidden="true">›</span>
 <span class="here" aria-current="page">${esc(hub.h1)}</span>
     </nav>
+${makerLinks.block({ locale, makerId: (() => { const id = makerLinks.makerFor({ exerciseType: hub.type }); return id && makerLinks.landing(locale, id) ? id : null; })(), line: 'topicLine' })}
 
     <p class="eyebrow"><span class="bar"></span>${esc(tName)}</p>
     <h1>${esc(hub.h1)}</h1>

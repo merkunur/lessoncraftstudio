@@ -3027,16 +3027,24 @@
       "penShelf": "activiteiten en werkbladen, samen op één plank"
     },
     "make": {
-      "heading": "Maak het precies passend voor jouw groep",
-      "body": "Kies de oefening, het getalbereik, het thema, de afbeeldingen — of upload je eigen foto's. Eén keer maken geeft je een interactief werkblad dat zichzelf nakijkt én een printklare PDF met antwoordblad.",
-      "caption": "Een maker voor elk oefentype · een rijke beeldbibliotheek · je eigen foto's zijn welkom",
+      "heading": "Wat je morgen geeft, maak je vandaag",
+      "body": "Werkbladmakers van groep 1 tot en met groep 5, van tellen tot verbonden schrift. Kies een werkblad, verander het met een paar klikken, en het is klaar voor de bel gaat.",
+      "caption": "Jouw taal, jouw plaatjes",
       "forkLabel": "Eén keer maken, twee resultaten",
       "forkPlay": "Speelt in de browser",
       "forkPrint": "Print met antwoordblad",
-      "cta": "Maak een werkblad",
-      "makerAlt": "De instellingen van de werkblad-maker: oefening, thema, afbeeldingen, moeilijkheid",
+      "cta": "Bekijk alle werkbladmakers",
+      "makerAlt": "Een telwerkblad van de werkbladmakers",
       "penTiles": "drie tegels, één woord — zelf gemaakt, niet gevonden",
-      "penTraveler": "hier geboren — kijk hoe dit werkblad reist"
+      "penTraveler": "hier geboren — kijk hoe dit werkblad reist",
+      "point1": "Rekenen, lezen en schrijven",
+      "point1Body": "Getallen, lezen, schrijven, puzzels en meer, van tellen tot verbonden schrift.",
+      "point2": "Jouw taal, jouw plaatjes",
+      "point2Body": "Het blad herschrijft zich in jouw taal, met plaatjes uit een heel grote beeldbank.",
+      "point3": "Papier of scherm",
+      "point3Body": "Print een strakke pdf met antwoorden of stuur kinderen de schermversie.",
+      "point4": "Bewaard en gedeeld met één klik",
+      "point4Body": "Bewaar wat je maakt en deel het met je klas via een link of QR-code."
     },
     "paper": {
       "heading": "Elk werkblad speelt én print",

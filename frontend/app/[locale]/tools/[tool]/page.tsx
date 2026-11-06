@@ -33,6 +33,8 @@ import {
   existingMakerLocales,
 } from '@/lib/seo/maker-content';
 import MakerLanding from '@/components/makers/MakerLanding';
+import { smartMaker } from '@/lib/makers/smart-link';
+import { makerInLocale, ogUrl } from '@/lib/makers/landings';
 import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
 import { getLandingsByStandard, getLandingsByType } from '@/lib/seo/landing-content';
 
@@ -84,6 +86,8 @@ async function makerMetadata(locale: string, slug: string): Promise<Metadata | n
   if (!content) return null;
   const canonical = canonicalUrl(localePath(locale, 'tools', slug));
   const otherLocales = (await existingMakerLocales(makerKey)).filter((l) => l !== locale);
+  const newId = smartMaker(makerKey);
+  const newMakerOg = newId && makerInLocale(newId, locale) ? `${CANONICAL_HOST}${ogUrl(newId, locale)}` : null;
   return {
     title: { absolute: content.metaTitle },
     description: content.metaDescription,
@@ -101,10 +105,10 @@ async function makerMetadata(locale: string, slug: string): Promise<Metadata | n
       type: 'article',
       images: [
         {
-          url: `${CANONICAL_HOST}/og-homepage.png`,
+          url: newMakerOg ?? `${CANONICAL_HOST}/og-homepage.png`,
           width: 1200,
           height: 630,
-          type: 'image/png',
+          type: newMakerOg ? 'image/jpeg' : 'image/png',
           alt: 'LessonCraftStudio — free worksheet makers in 11 languages',
         },
       ],

@@ -3027,16 +3027,24 @@
       "penShelf": "aktiviteter och arbetsblad på samma hylla"
     },
     "make": {
-      "heading": "Gör det precis rätt för din klass",
-      "body": "Välj övning, talområde, tema och bilder — eller ladda upp egna foton. Ett bygge ger dig ett interaktivt arbetsblad som rättar sig självt och en utskriftsklar PDF med facit.",
-      "caption": "En generator för varje övningstyp · ett rikt bildbibliotek · egna foton välkomna",
+      "heading": "Det du undervisar om i morgon skapar du i dag",
+      "body": "Arbetsbladsgeneratorer från förskoleklass till åk 3, från att räkna till att skriva. Välj ett arbetsblad, ändra det med några klick, så är det klart innan det ringer in.",
+      "caption": "Ditt språk, dina bilder",
       "forkLabel": "Ett bygge, två resultat",
       "forkPlay": "Spelas i webbläsaren",
       "forkPrint": "Skrivs ut med facit",
-      "cta": "Bygg ett arbetsblad",
-      "makerAlt": "Generatorns inställningar: övning, tema, bilder och svårighetsgrad",
+      "cta": "Se alla arbetsbladsgeneratorer",
+      "makerAlt": "Ett räkneblad från arbetsbladsgeneratorerna",
       "penTiles": "tre brickor, ett ord — skapat, inte hittat",
-      "penTraveler": "föds här — se bladet börja sin resa"
+      "penTraveler": "föds här — se bladet börja sin resa",
+      "point1": "Matte, läsning och skrivning",
+      "point1Body": "Tal, läsning, skrivning, pussel och mer, från att räkna till att skriva.",
+      "point2": "Ditt språk, dina bilder",
+      "point2Body": "Sidan skriver om sig själv på ditt språk, med bilder från ett mycket stort bibliotek.",
+      "point3": "Papper eller skärm",
+      "point3Body": "Skriv ut en tydlig pdf med facit eller skicka skärmversionen till eleverna.",
+      "point4": "Sparat och delat med ett klick",
+      "point4Body": "Spara det du skapar och dela det med klassen via länk eller QR-kod."
     },
     "paper": {
       "heading": "Varje arbetsblad spelas och skrivs ut",

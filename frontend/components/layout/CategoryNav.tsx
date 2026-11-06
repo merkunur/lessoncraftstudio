@@ -49,6 +49,7 @@ interface CategoryNavProps {
   toolLabels?: ToolLabel[];
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  newMakers?: Array<{ href: string; label: string }>;
   /** Server-rendered sr-only crawl mesh per category key. Elements passed as
    *  props are not hydrated; see the render site. SEO-load-bearing. */
   meshSlots?: Record<string, React.ReactNode>;
@@ -63,6 +64,7 @@ export function CategoryNav({
   toolLabels = [],
   axisLabels = {},
   makerSlugs = {},
+  newMakers = [],
   meshSlots,
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
@@ -98,6 +100,7 @@ export function CategoryNav({
     availableTargets,
     toolSlugs,
     makerSlugs,
+    newMakers,
     toolLabels,
     axisLabels,
     t,

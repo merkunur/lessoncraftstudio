@@ -1,0 +1,756 @@
+{
+ "counting": {
+  "kw": "Laskeminen: tee omat tehtävät",
+  "slug": "laskeminen-tee-omat-tehtavat",
+  "metaTitle": "Laskeminen: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee laskemisen tehtävämonisteita kuvilla, joista luokkasi pitää: laske ja ympyröi, laske ja kirjoita, etsi kuvasta ja paljon muuta. Ilmaiset PDF:t.",
+  "lead": "Tee laskemisen tehtävämonisteita kuvilla, joista luokkasi pitää: laske ja ympyröi, laske ja kirjoita, etsi kuvasta ja paljon muuta. Valitse taso ja teema, niin jokainen lukumäärä on valmiiksi tarkistettu.",
+  "teaches": [
+   "Kuvien laskeminen ja oikean luvun löytäminen",
+   "Jokaisen lajin laskeminen vilkkaasta kuvasta",
+   "Yhtä enemmän, yhtä vähemmän ja yhtä monta"
+  ],
+  "moment": "Anna lasten tehdä Etsin silmälläni -tehtävä pareittain ja vertailla sitten lukujaan. Jos kaksi vastausta eroaa, he laskevat yhdessä uudelleen."
+ },
+ "ten-frames": {
+  "kw": "Kymppiruudukot ja tukkimiehen kirjanpito: tee omat tehtävät",
+  "slug": "kymppiruudukot-ja-tukkimiehen-kirjanpito-tee-omat-tehtavat",
+  "metaTitle": "Kymppiruudukot ja tukkimiehen kirjanpito: tee omat tehtävät | LessonCraftStudio",
+  "metaDescription": "Tee tehtävämonisteita kymppiruudukoilla ja tukkimiehen kirjanpidolla, jotka harjoittavat lukumäärän näkemistä yhdellä silmäyksellä. Ilmaiset PDF:t.",
+  "lead": "Tee tehtävämonisteita kymppiruudukoilla ja tukkimiehen kirjanpidolla, jotka harjoittavat lukumäärän näkemistä yhdellä silmäyksellä. Täytä ruudukkoja, lue viivoja, näytä salamakortteja ja täydennä kymmeneen.",
+  "teaches": [
+   "Lukumäärän näkeminen yhdellä silmäyksellä ilman yksitellen laskemista",
+   "Viiden ja kymmenen muodostaminen ja puuttuvan näkeminen",
+   "Lukumäärien merkitseminen viivoilla"
+  ],
+  "moment": "Näytä alkulämmittelyksi korttia kaksi sekuntia ja kysy, miten lapset näkivät luvun. Heidän vastauksensa ovat varsinainen oppitunti."
+ },
+ "number-sequences": {
+  "kw": "Lukujonot ja satataulu: tee omat tehtävät",
+  "slug": "lukujonot-ja-satataulu-tee-omat-tehtavat",
+  "metaTitle": "Lukujonot ja satataulu: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee lukutauluja, aukollisia lukujonoja ja tehtäviä, joissa lasketaan kahden tai kymmenen välein, aina tuhanteen asti. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee lukutauluja, aukollisia lukujonoja ja tehtäviä, joissa lasketaan kahden tai kymmenen välein, aina tuhanteen asti. Satataulut, palapelin palat ja lukukoneet ovat valmiina.",
+  "teaches": [
+   "Laskeminen eteen- ja taaksepäin mistä tahansa luvusta",
+   "Laskeminen 2, 5 ja 10 välein",
+   "Säännönmukaisuuksien löytäminen satataulusta"
+  ],
+  "moment": "Leikkaa satataulu paloiksi ja anna jokaiselle parille yksi pala. Lasten täytyy päätellä, mitä kunkin luvun ylä- ja alapuolella ja vieressä on."
+ },
+ "number-lines": {
+  "kw": "Lukusuora: tee omat tehtävät",
+  "slug": "lukusuora-tee-omat-tehtavat",
+  "metaTitle": "Lukusuora: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee lukusuoratehtäviä väliltä 0–10 aina lukuun 120 asti: hyppyjä, pyöristämistä ja murtolukuja. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee lukusuoratehtäviä väliltä 0–10 aina lukuun 120 asti: hyppyjä, pyöristämistä ja murtolukuja. Aloita valmiiksi numeroiduilla suorilla ja siirry tyhjiin suoriin, jotka lapset piirtävät itse.",
+  "teaches": [
+   "Lukujen sijoittaminen lukusuoralle suuruuden mukaan",
+   "Yhteen- ja vähennyslasku hyppimällä",
+   "Pyöristäminen kymmenien tai satojen tarkkuuteen"
+  ],
+  "moment": "Anna sama lasku numeroidulla ja tyhjällä lukusuoralla. Vertailu näyttää, kuka vielä laskee yksi kerrallaan ja kuka jo hyppii."
+ },
+ "number-bonds": {
+  "kw": "Lukujen hajotelmat ja laskuperheet: tee omat tehtävät",
+  "slug": "lukujen-hajotelmat-ja-laskuperheet-tee-omat-tehtavat",
+  "metaTitle": "Lukujen hajotelmat ja laskuperheet: tee omat tehtävät | LessonCraftStudio",
+  "metaDescription": "Tee hajotelmatehtäviä, lukutaloja ja laskuperheitä luvuille 5, 10, 20 ja 100. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee hajotelmatehtäviä, lukutaloja ja laskuperheitä luvuille 5, 10, 20 ja 100. Lapset näkevät, miten luvut hajoavat osiin ja yhdistyvät, ja silloin yhteenlaskut jäävät mieleen.",
+  "teaches": [
+   "Luvun hajottaminen kahteen osaan kaikilla tavoilla",
+   "Yhteen- ja vähennyslaskun näkeminen yhtenä laskuperheenä",
+   "Kymppiparien osaaminen"
+  ],
+  "moment": "Piilota muutama nappi mukin alle ja näytä loput. Moniste tekee samasta kysymyksestä tehtävän, jonka lapsi osaa ratkaista yksin."
+ },
+ "addition-subtraction": {
+  "kw": "Yhteen- ja vähennyslasku: tee omat tehtävät",
+  "slug": "yhteen-ja-vahennyslasku-tee-omat-tehtavat",
+  "metaTitle": "Yhteen- ja vähennyslasku: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee yhteen- ja vähennyslaskutehtäviä kuvallisista laskuista kolminumeroisten lukujen allekkain laskuun muistinumeroineen. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee yhteen- ja vähennyslaskutehtäviä kuvallisista laskuista kolminumeroisten lukujen allekkain laskuun muistinumeroineen. Valitse taso ja tulosta uusi sivu vastauksineen aina tarvittaessa.",
+  "teaches": [
+   "Lisääminen ja poistaminen kuvilla ja sitten luvuilla",
+   "Päässälasku lukualueilla 10, 20 ja 100",
+   "Yhteen- ja vähennyslasku allekkain muistinumeroilla"
+  ],
+  "moment": "Tulosta pareille kaksi versiota samalta tasolta. Kumpikin ratkaisee omansa, sitten he vaihtavat ja tarkistavat toistensa työt vastauksista."
+ },
+ "doubles-halves": {
+  "kw": "Tuplaa ja puolita: tee omat tehtävät",
+  "slug": "tuplaa-ja-puolita-tee-omat-tehtavat",
+  "metaTitle": "Tuplaa ja puolita: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tuplaus- ja puolitustehtäviä lukuun 20 asti kuvilla tai pelkillä luvuilla. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tuplaus- ja puolitustehtäviä lukuun 20 asti kuvilla tai pelkillä luvuilla. Melkein tuplat, tupla-kone ja tuplamuistipeli auttavat lapsia painamaan nämä laskut mieleen.",
+  "teaches": [
+   "Lukujen tuplaaminen ja puolittaminen lukuun 20 asti",
+   "Melkein tuplien käyttö, kuten 6 + 7",
+   "Sen näkeminen, että puolittaminen ja tuplaaminen ovat toistensa vastakohtia"
+  ],
+  "moment": "Anna lasten pelata tuplamuistipeliä pareittain viisi minuuttia välitunnin jälkeen. Lyhyet ja usein toistuvat kierrokset toimivat paremmin kuin yksi pitkä oppitunti."
+ },
+ "compare-numbers": {
+  "kw": "Lukujen vertailu: tee omat tehtävät",
+  "slug": "lukujen-vertailu-tee-omat-tehtavat",
+  "metaTitle": "Lukujen vertailu: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee vertailutehtäviä kuvaryhmistä, joissa on enemmän ja vähemmän, aina nelinumeroisiin lukuihin asti. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee vertailutehtäviä kuvaryhmistä, joissa on enemmän ja vähemmän, aina nelinumeroisiin lukuihin asti. Lapset käyttävät merkkejä suurempi, pienempi ja yhtä suuri ja järjestävät lukuja.",
+  "teaches": [
+   "Kuvaryhmien vertailu",
+   "Merkkien <, > ja = käyttö",
+   "Lukujen järjestäminen pienimmästä suurimpaan"
+  ],
+  "moment": "Aloita nälkäisellä krokotiilillä, peitä se ja kysy pelkkää merkkiä. Askel kuvasta symboliin tapahtuu yhdellä sivulla."
+ },
+ "odd-even": {
+  "kw": "Parilliset ja parittomat luvut: tee omat tehtävät",
+  "slug": "parilliset-ja-parittomat-luvut-tee-omat-tehtavat",
+  "metaTitle": "Parilliset ja parittomat luvut: tee omat tehtävät | LessonCraftStudio",
+  "metaDescription": "Tee parillisten ja parittomien lukujen tehtäviä, jotka alkavat reilusta jakamisesta ja kuvapareista ja etenevät ykkösiin ja summiin. Ilmaiset PDF:t.",
+  "lead": "Tee parillisten ja parittomien lukujen tehtäviä, jotka alkavat reilusta jakamisesta ja kuvapareista ja etenevät ykkösiin ja summiin. Lapset löytävät säännön itse sen sijaan, että opettelisivat sen ulkoa.",
+  "teaches": [
+   "Parien muodostaminen ja sen näkeminen, mitä jää yli",
+   "Ykkösten lukeminen alle sadan luvuissa",
+   "Sen ennustaminen, onko summa parillinen vai pariton"
+  ],
+  "moment": "Anna lasten ensin jakaa oikeita nappeja kahdelle ystävälle. Moniste kokoaa sitten sen, minkä he jo keksivät käsillään."
+ },
+ "place-value": {
+  "kw": "Paikka-arvo ja pyöristäminen: tee omat tehtävät",
+  "slug": "paikka-arvo-ja-pyoristaminen-tee-omat-tehtavat",
+  "metaTitle": "Paikka-arvo ja pyöristäminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee paikka-arvotehtäviä kymmenjärjestelmävälineillä, taulukoilla, numerokorteilla ja lukuarvoituksilla. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee paikka-arvotehtäviä kymmenjärjestelmävälineillä, taulukoilla, numerokorteilla ja lukuarvoituksilla. Kymmenistä ja ykkösistä edetään satoihin, hajotelmiin ja pyöristämiseen.",
+  "teaches": [
+   "Lukujen lukeminen ja rakentaminen kymmenistä ja ykkösistä",
+   "Lukujen kirjoittaminen hajotelmana",
+   "Pyöristäminen kymmenien ja satojen tarkkuuteen"
+  ],
+  "moment": "Anna lasten rakentaa luku ensin oikeilla välineillä ja kirjoittaa se vasta sitten. Numeroetsivä sopii sitten tunnin päätteeksi."
+ },
+ "multiplication-division": {
+  "kw": "Kerto- ja jakolasku: tee omat tehtävät",
+  "slug": "kerto-ja-jakolasku-tee-omat-tehtavat",
+  "metaTitle": "Kerto- ja jakolasku: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kerto- ja jakolaskutehtäviä yhtä suurista ryhmistä ja ruudukoista kaikkiin kertotauluihin ja jakolaskuun jakojäännöksellä. Ilmaiset PDF:t.",
+  "lead": "Tee kerto- ja jakolaskutehtäviä yhtä suurista ryhmistä ja ruudukoista kaikkiin kertotauluihin ja jakolaskuun jakojäännöksellä. Kertotaulukortit avainrenkaaseen ja täytettävä kertotaulu kuuluvat mukaan.",
+  "teaches": [
+   "Siirtyminen toistetusta yhteenlaskusta ruudukkoihin ja kertolaskuun",
+   "Kertotaulujen 2–10 oppiminen",
+   "Jakaminen, ryhmittely ja jakojäännös"
+  ],
+  "moment": "Anna jokaiselle lapselle se kertotaulu, jota hän tarvitsee, ei sitä, jota luokka harjoittelee. Kaikki tekevät samanlaista sivua, kukin omalla taulullaan."
+ },
+ "word-problems": {
+  "kw": "Sanalliset tehtävät: tee omat tehtävät",
+  "slug": "sanalliset-tehtavat-tee-omat-tehtavat",
+  "metaTitle": "Sanalliset tehtävät: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee sanallisia tehtäviä: kuvallisia, yksi- ja kaksivaiheisia sekä vertailu-, kerto- ja jakolaskutehtäviä. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee sanallisia tehtäviä: kuvallisia, yksi- ja kaksivaiheisia sekä vertailu-, kerto- ja jakolaskutehtäviä. Lapset lukevat, valitsevat laskun ja ratkaisevat sen.",
+  "teaches": [
+   "Tarinan lukeminen ja kysymyksen löytäminen",
+   "Oikean laskun valitseminen",
+   "Yksi- ja kaksivaiheisten tehtävien ratkaiseminen"
+  ],
+  "moment": "Peitä tehtävän luvut ja kysy, mitä tarinassa tapahtuu. Kun lapset osaavat kertoa sen, laskutoimitus valikoituu usein itsestään."
+ },
+ "fractions": {
+  "kw": "Murtoluvut: tee omat tehtävät",
+  "slug": "murtoluvut-tee-omat-tehtavat",
+  "metaTitle": "Murtoluvut: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee murtolukutehtäviä: puolikkaat, kolmasosat ja neljäsosat, reilu jakaminen, leikattavat murtolukunauhat, lukusuora ja yhtä suuret murtoluvut. Ilmaiset PDF:t.",
+  "lead": "Tee murtolukutehtäviä: puolikkaat, kolmasosat ja neljäsosat, reilu jakaminen, leikattavat murtolukunauhat, lukusuora ja yhtä suuret murtoluvut. Lapset leikkaavat, värittävät ja vertailevat, kunnes murtoluku merkitsee jotain.",
+  "teaches": [
+   "Muotojen jakaminen yhtä suuriin osiin",
+   "Murtolukujen nimeäminen, värittäminen ja vertailu",
+   "Ryhmän murto-osan löytäminen"
+  ],
+  "moment": "Tulosta murtolukunauhat värilliselle paperille. Lapset säilyttävät ne kirjekuoressa ja käyttävät niitä jokaisella murtolukutunnilla."
+ },
+ "number-of-the-day": {
+  "kw": "Päivän luku ja lukusanat: tee omat tehtävät",
+  "slug": "paivan-luku-ja-lukusanat-tee-omat-tehtavat",
+  "metaTitle": "Päivän luku ja lukusanat: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee päivän luvun sivuja tuhanteen asti ja lukusanatehtäviä. Lapset kirjoittavat, piirtävät, laskevat ja vertailevat samaa lukua monella tavalla.",
+  "lead": "Tee päivän luvun sivuja tuhanteen asti ja lukusanatehtäviä. Lapset kirjoittavat, piirtävät, laskevat ja vertailevat samaa lukua monella tavalla.",
+  "teaches": [
+   "Yhden luvun esittäminen monella tavalla",
+   "Lukusanojen lukeminen ja kirjoittaminen",
+   "Kymmenen enemmän ja kymmenen vähemmän"
+  ],
+  "moment": "Laita aamulla jokaiselle pulpetille päivän luvun sivu. Vain luku vaihtuu, ja rutiini pyörii itsestään."
+ },
+ "ordinal-numbers": {
+  "kw": "Järjestysluvut: tee omat tehtävät",
+  "slug": "jarjestysluvut-tee-omat-tehtavat",
+  "metaTitle": "Järjestysluvut: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee järjestyslukutehtäviä kilpailuilla, hyllyillä, lipuilla ja korteilla. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee järjestyslukutehtäviä kilpailuilla, hyllyillä, lipuilla ja korteilla. Lapset etenevät ensimmäisestä, toisesta ja kolmannesta kuukauden päiviin sanoina ja numeroina.",
+  "teaches": [
+   "Ensimmäisen, toisen ja kolmannen löytäminen jonosta",
+   "Sijan laskeminen jonon kummastakin päästä",
+   "Järjestyslukujen lukeminen ja kirjoittaminen"
+  ],
+  "moment": "Laita kymmenen lasta jonoon oven luo ja sano sija. Sen jälkeen he näkevät samat sanat painettuina monisteessa Kuka voittaa kilpailun?."
+ },
+ "number-tracing": {
+  "kw": "Numeroiden kirjoittaminen: tee omat tehtävät",
+  "slug": "numeroiden-kirjoittaminen-tee-omat-tehtavat",
+  "metaTitle": "Numeroiden kirjoittaminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kirjoitustehtäviä numeroista 0–9 sekä luvuista kymmenen jälkeen sataan asti, ja numeroissa on oranssi aloituspiste ja nuolet. Ilmaiset PDF:t.",
+  "lead": "Tee kirjoitustehtäviä numeroista 0–9 sekä luvuista kymmenen jälkeen sataan asti, ja numeroissa on oranssi aloituspiste ja nuolet. Jäljennä, laske ja kirjoita samalla sivulla.",
+  "teaches": [
+   "Jokaisen numeron muodostaminen oikein",
+   "Numeron yhdistäminen lukumäärään",
+   "Kympin jälkeisten lukujen ja lukusanojen kirjoittaminen"
+  ],
+  "moment": "Aloita matematiikka rauhassa: lapset laskevat ensin kuvat, joten numero tarkoittaa aina jotakin."
+ },
+ "money": {
+  "kw": "Raha: tee omat tehtävät",
+  "slug": "raha-tee-omat-tehtavat",
+  "metaTitle": "Raha: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee rahatehtäviä euroilla ja senteillä: laske kolikoita ja seteleitä, käy kaupassa, laske vaihtorahat ja maksa mahdollisimman vähin kolikoin. Ilmaiset PDF:t.",
+  "lead": "Tee rahatehtäviä euroilla ja senteillä: laske kolikoita ja seteleitä, käy kaupassa, laske vaihtorahat ja maksa mahdollisimman vähin kolikoin. Hintalaput ja leikkiraha kauppaleikkiin kuuluvat mukaan.",
+  "teaches": [
+   "Kolikoiden ja niiden arvon tunnistaminen",
+   "Sekaisin olevien kolikoiden ja setelien laskeminen",
+   "Hintojen laskeminen yhteen ja vaihtorahan laskeminen"
+  ],
+  "moment": "Rakenna kauppa luokan perälle hintalapuilla ja leikkirahalla. Rahalaskut kaupassa -monisteet tekevät tapahtuneesta sitten kirjallisia tehtäviä."
+ },
+ "telling-time": {
+  "kw": "Kello: tee omat tehtävät",
+  "slug": "kello-tee-omat-tehtavat",
+  "metaTitle": "Kello: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee kellotehtäviä tasatunneista ja puolista tunneista viiden minuutin tarkkuuteen, minuutteihin ja kuluneeseen aikaan. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee kellotehtäviä tasatunneista ja puolista tunneista viiden minuutin tarkkuuteen, minuutteihin ja kuluneeseen aikaan. Lapset lukevat kelloja, piirtävät viisareita ja rakentavat oman kellon.",
+  "teaches": [
+   "Tasatuntien, puolituntien ja viiden minuutin välien lukeminen kellosta",
+   "Viisareiden piirtäminen annettuun aikaan",
+   "Kuluneen ajan laskeminen"
+  ],
+  "moment": "Anna jokaisen lapsen rakentaa oma kello ja säilyttää se pulpetissa. Lapset asettavat sen päivän rutiinien mukaan ja vertaavat luokan kelloon."
+ },
+ "calendar": {
+  "kw": "Kalenteri, viikonpäivät ja kuukaudet: tee omat tehtävät",
+  "slug": "kalenteri-viikonpaivat-ja-kuukaudet-tee-omat-tehtavat",
+  "metaTitle": "Kalenteri, viikonpäivät ja kuukaudet: tee omat tehtävät | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä viikonpäivistä, kuukausista, eilisestä ja huomisesta ja kokonaisen kuukauden lukemisesta. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä viikonpäivistä, kuukausista, eilisestä ja huomisesta ja kokonaisen kuukauden lukemisesta. Syntymäpäiväkaavio ja tämän päivän päivämäärä sopivat aamurutiiniin.",
+  "teaches": [
+   "Päivien ja kuukausien nimeäminen järjestyksessä",
+   "Sanojen eilen, tänään ja huomenna käyttö",
+   "Päivämäärien lukeminen kalenterista"
+  ],
+  "moment": "Täytä lasten kanssa tyhjä kuukausi kuun ensimmäisenä koulupäivänä syntymäpäivineen. Sivusta tulee tuki jokaiseen kalenterikysymykseen."
+ },
+ "measurement": {
+  "kw": "Mittaaminen: tee omat tehtävät",
+  "slug": "mittaaminen-tee-omat-tehtavat",
+  "metaTitle": "Mittaaminen: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee mittaamistehtäviä isosta ja pienestä viivaimiin, paperiliittimiin, mitta-astioihin, vaakoihin ja lämpömittareihin. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee mittaamistehtäviä isosta ja pienestä viivaimiin, paperiliittimiin, mitta-astioihin, vaakoihin ja lämpömittareihin. Lapset vertailevat, järjestävät ja mittaavat oikeilla yksiköillä.",
+  "teaches": [
+   "Pituuden, korkeuden ja painon vertailu",
+   "Mittaaminen paperiliittimillä, kuutioilla ja viivaimella",
+   "Vaakojen, mitta-astioiden ja lämpömittareiden lukeminen"
+  ],
+  "moment": "Tulosta leikattavat viivaimet, jotta jokaisella on oma, ja lähetä parit mittaamaan ympäri luokkaa."
+ },
+ "graphs-data": {
+  "kw": "Kaaviot ja tiedot: tee omat tehtävät",
+  "slug": "kaaviot-ja-tiedot-tee-omat-tehtavat",
+  "metaTitle": "Kaaviot ja tiedot: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä kuvakaavioilla, pylväskaavioilla ja taulukoilla, joita lapset lukevat ja rakentavat itse. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä kuvakaavioilla, pylväskaavioilla ja taulukoilla, joita lapset lukevat ja rakentavat itse. He lajittelevat, laskevat ja vastaavat kysymyksiin tiedoista.",
+  "teaches": [
+   "Tietojen lajittelu ja laskeminen",
+   "Kuva- ja pylväskaavioiden lukeminen",
+   "Asteikon käyttö, jossa yksi kuva tarkoittaa useampaa"
+  ],
+  "moment": "Tee luokan kanssa kaavio kysymyksestä, joka kiinnostaa lapsia, ja pyydä jokaista kirjoittamaan tuloksesta yksi paikkansa pitävä lause."
+ },
+ "shapes-geometry": {
+  "kw": "Muodot ja geometria: tee omat tehtävät",
+  "slug": "muodot-ja-geometria-tee-omat-tehtavat",
+  "metaTitle": "Muodot ja geometria: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee geometriatehtäviä sivuista, kulmista, tahkoista ja särmistä, tasokuvioista ja kappaleista, verkoista, symmetriasta ja pinta-alasta. Ilmaiset PDF:t.",
+  "lead": "Tee geometriatehtäviä sivuista, kulmista, tahkoista ja särmistä, tasokuvioista ja kappaleista, verkoista, symmetriasta ja pinta-alasta. Lapset lajittelevat, piirtävät, leikkaavat ja taittelevat eivätkä vain nimeä.",
+  "teaches": [
+   "Tasokuvioiden ja kappaleiden tunnistaminen ominaisuuksista",
+   "Sivujen, kulmien, tahkojen ja särmien laskeminen",
+   "Muotojen piirtäminen sekä pinta-alan ja piirin tutkiminen"
+  ],
+  "moment": "Lähetä lapset etsimään luokasta suoria kulmia taitetun paperinkulman kanssa ja anna heidän lajitella löytönsä."
+ },
+ "symmetry-grids": {
+  "kw": "Symmetria ja ruudukkopiirustus: tee omat tehtävät",
+  "slug": "symmetria-ja-ruudukkopiirustus-tee-omat-tehtavat",
+  "metaTitle": "Symmetria ja ruudukkopiirustus: tee omat tehtävät | LessonCraftStudio",
+  "metaDescription": "Tee symmetria- ja ruudukkotehtäviä: täydennä toinen puoli, piirrä ruutu ruudulta ja piirrä kaksi kertaa suurempana. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee symmetria- ja ruudukkotehtäviä: täydennä toinen puoli, piirrä ruutu ruudulta ja piirrä kaksi kertaa suurempana. Näin harjoittuvat sekä tarkka katse että vakaa käsi.",
+  "teaches": [
+   "Kuvan täydentäminen symmetria-akselin mukaan",
+   "Kuvan piirtäminen ruutu ruudulta",
+   "Kuvan peilaaminen, kääntäminen ja suurentaminen"
+  ],
+  "moment": "Anna ruudukkopiirustus rauhalliseksi tehtäväksi välitunnin jälkeen. Lapset rauhoittuvat nopeasti, ja näet, kuka pysyy ruudukossa perässä."
+ },
+ "maps-grids": {
+  "kw": "Kartat ja koordinaatit: tee omat tehtävät",
+  "slug": "kartat-ja-koordinaatit-tee-omat-tehtavat",
+  "metaTitle": "Kartat ja koordinaatit: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee karttatehtäviä, joissa on näkymiä ylhäältä, karttamerkkejä, ilmansuuntia, koordinaatteja ja maanosia. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee karttatehtäviä, joissa on näkymiä ylhäältä, karttamerkkejä, ilmansuuntia, koordinaatteja ja maanosia. Aarteenetsintä ja laivanupotus tekevät harjoittelusta leikkiä.",
+  "teaches": [
+   "Paikan näkeminen ylhäältä ja karttamerkkien lukeminen",
+   "Koordinaattien käyttö ruudukossa",
+   "Pohjoisen, idän, etelän ja lännen käyttö"
+  ],
+  "moment": "Piilota pieni yllätys luokkaan ja anna lasten kirjoittaa reitti, jota kaveri voi seurata."
+ },
+ "patterns": {
+  "kw": "Jonot ja säännönmukaisuudet: tee omat tehtävät",
+  "slug": "jonot-ja-saannonmukaisuudet-tee-omat-tehtavat",
+  "metaTitle": "Jonot ja säännönmukaisuudet: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä toistuvista jonoista AB, ABC ja AABB, kasvavista jonoista ja lukujonoista, kaikki oman teemasi kuvilla. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä toistuvista jonoista AB, ABC ja AABB, kasvavista jonoista ja lukujonoista, kaikki oman teemasi kuvilla. Lapset jatkavat, täydentävät ja keksivät omia.",
+  "teaches": [
+   "Toistuvan osan löytäminen",
+   "Jonojen jatkaminen ja täydentäminen",
+   "Kasvavien jonojen ja lukujonojen kuvaaminen"
+  ],
+  "moment": "Anna lasten taputtaa tai tömistää jono ennen piirtämistä. Kuuleminen auttaa usein lasta, joka ei vielä näe sitä."
+ },
+ "logic-puzzles": {
+  "kw": "Logiikkatehtävät: tee omat tehtävät",
+  "slug": "logiikkatehtavat-tee-omat-tehtavat",
+  "metaTitle": "Logiikkatehtävät: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee logiikkatehtäviä: kuva- ja numerosudokuja, lukupyramideja, päättelypulmia, taikaneliöitä ja vaakapulmia. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee logiikkatehtäviä: kuva- ja numerosudokuja, lukupyramideja, päättelypulmia, taikaneliöitä ja vaakapulmia. Jokaisella tehtävällä on yksi ratkaisu, ja tasot kasvavat luokkasi mukana.",
+  "teaches": [
+   "Askel askeleelta päättely vihjeistä",
+   "Vastauksen tarkistaminen jokaisella säännöllä",
+   "Sinnikkyys ratkaisuun asti"
+  ],
+  "moment": "Pidä kuvasudokuja valmiina niille, jotka saavat tehtävänsä ensin valmiiksi. Ne haastavat antamatta vain lisää samaa."
+ },
+ "dot-to-dot": {
+  "kw": "Yhdistä pisteet: tee omat tehtävät",
+  "slug": "yhdista-pisteet-tee-omat-tehtavat",
+  "metaTitle": "Yhdistä pisteet: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Ilmaiset PDF:t.",
+  "lead": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Piilokuva pitää lapset mukana viimeiseen pisteeseen asti.",
+  "teaches": [
+   "Lukujonon sanominen järjestyksessä",
+   "Taaksepäin ja hyppien laskeminen",
+   "Aakkosten seuraaminen isoilla ja pienillä kirjaimilla"
+  ],
+  "moment": "Anna lasten arvata kuva ennen aloitusta ja puolivälissä. He tarkistavat jokaisen luvun saadakseen tietää."
+ },
+ "color-by-number": {
+  "kw": "Väritä numeroiden mukaan: tee omat tehtävät",
+  "slug": "varita-numeroiden-mukaan-tee-omat-tehtavat",
+  "metaTitle": "Väritä numeroiden mukaan: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut.",
+  "lead": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut. Valmiista kuvasta näkee, onko kaikki oikein.",
+  "teaches": [
+   "Laskujen harjoittelu sisäänrakennetulla tarkistuksella",
+   "Värikoodin huolellinen lukeminen",
+   "Rauhallinen työskentely koko sivun ajan"
+  ],
+  "moment": "Käytä koodiväritystä perjantaina kertaukseen. Virhe näkyy värinä väärässä paikassa, joten lapsi löytää sen usein itse."
+ },
+ "coloring-pages": {
+  "kw": "Värityskuvat luokkaan: tee omat",
+  "slug": "varityskuvat-luokkaan-tee-omat",
+  "metaTitle": "Värityskuvat luokkaan: tee omat – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Ilmaiset tulostettavat PDF:t.",
+  "lead": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Taittele pieni värityskirja jokaisesta teemasta, jota käsittelet.",
+  "teaches": [
+   "Kynänhallinnan ja käden voiman kehittäminen",
+   "Kuvien yhdistäminen sanoihin",
+   "Sivulla näkyvistä asioista keskusteleminen"
+  ],
+  "moment": "Taittele värityskirja uuden teeman ensimmäisenä päivänä. Lapset vievät kotiin sanat, joihin he tutustuivat luokassa."
+ },
+ "same-different": {
+  "kw": "Sama ja erilainen: tee omat tehtävät",
+  "slug": "sama-ja-erilainen-tee-omat-tehtavat",
+  "metaTitle": "Sama ja erilainen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee visuaalisen hahmottamisen tehtäviä: etsi joukkoon kuulumaton, yhdistä varjot, parit, kaksoset ja puuttuva pala. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee visuaalisen hahmottamisen tehtäviä: etsi joukkoon kuulumaton, yhdistä varjot, parit, kaksoset ja puuttuva pala. Tarkka katsominen tulee ennen lukemista ja laskemista.",
+  "teaches": [
+   "Saman ja erilaisen näkeminen",
+   "Muotojen, varjojen ja peilikuvien yhdistäminen",
+   "Pieniin yksityiskohtiin keskittyminen"
+  ],
+  "moment": "Kysy, mikä on erilaista ja mistä lapset sen tietävät. Heidän perustelunsa ovat ensimmäistä harjoitusta ajatusten selittämisessä."
+ },
+ "position-words": {
+  "kw": "Sijaintisanat: tee omat tehtävät",
+  "slug": "sijaintisanat-tee-omat-tehtavat",
+  "metaTitle": "Sijaintisanat: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä sanoista päällä, alla, vieressä, vasen, oikea, ylhäällä, keskellä ja alhaalla. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä sanoista päällä, alla, vieressä, vasen, oikea, ylhäällä, keskellä ja alhaalla. Lapset lukevat, piirtävät, liimaavat ja valitsevat sanan, ja sijaintisanoista tulee heidän omiaan.",
+  "teaches": [
+   "Sijaintia kuvaavien sanojen ymmärtäminen",
+   "Vasemman ja oikean erottaminen",
+   "Sijaintisanoja sisältävien ohjeiden noudattaminen"
+  ],
+  "moment": "Leiki ensin lasten kanssa hetki nallella ja tuolilla, ja anna sitten jokaisen lapsen sijoittaa oma kuvansa monisteelle."
+ },
+ "sorting": {
+  "kw": "Lajittelu ja ryhmittely: tee omat tehtävät",
+  "slug": "lajittelu-ja-ryhmittely-tee-omat-tehtavat",
+  "metaTitle": "Lajittelu ja ryhmittely: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee lajittelutehtäviä leikkaamalla ja liimaamalla, alustoilla ja kuvakorteilla: ruoka, kulkuneuvot, tarpeet ja toiveet, ammatit. Ilmaiset PDF:t.",
+  "lead": "Tee lajittelutehtäviä leikkaamalla ja liimaamalla, alustoilla ja kuvakorteilla: ruoka, kulkuneuvot, tarpeet ja toiveet, ammatit. Lapset valitsevat säännön ja selittävät sen.",
+  "teaches": [
+   "Kuvien ryhmittely säännön mukaan",
+   "Joukkoon kuulumattoman huomaaminen",
+   "Sen selittäminen, miksi jokin kuuluu ryhmään"
+  ],
+  "moment": "Jaa alustat ja kuvakortit ja anna parien keksiä sääntö. Toisen parin täytyy arvata se."
+ },
+ "mazes": {
+  "kw": "Labyrintit: tee omat tehtävät",
+  "slug": "labyrintit-tee-omat-tehtavat",
+  "metaTitle": "Labyrintit: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee labyrintteja ensimmäisistä poluista pienimmille jättilabyrintteihin asti, myös kirjaimilla, luvuilla, yhteenlaskuilla ja alkuäänteillä. Ilmaiset PDF:t.",
+  "lead": "Tee labyrintteja ensimmäisistä poluista pienimmille jättilabyrintteihin asti, myös kirjaimilla, luvuilla, yhteenlaskuilla ja alkuäänteillä. Jokainen labyrintti on ratkaistu ennen kuin se tulee sinulle, joten reitti löytyy aina.",
+  "teaches": [
+   "Reitin suunnittelu ja eteenpäin katsominen",
+   "Tasaisen kynänjäljen pitäminen",
+   "Kirjainten, lukujen ja laskujen harjoittelu matkalla"
+  ],
+  "moment": "Käytä laskulabyrinttia aamutehtävänä: vain oikeat vastaukset vievät maaliin, joten moniste tarkistaa itsensä."
+ },
+ "find-the-differences": {
+  "kw": "Etsi virheet: tee omat tehtävät",
+  "slug": "etsi-virheet-tee-omat-tehtavat",
+  "metaTitle": "Etsi virheet: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Ilmaiset PDF:t.",
+  "lead": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Useimmat toimivat myös näytöllä.",
+  "teaches": [
+   "Kuvan tutkiminen järjestelmällisesti",
+   "Muutoksen nimeäminen",
+   "Erojen kirjoittaminen"
+  ],
+  "moment": "Anna parien kuvata vuorotellen ero osoittamatta. Heidän täytyy löytää sanat sille, missä se on ja mikä muuttui."
+ },
+ "how-to-draw": {
+  "kw": "Piirrä vaihe vaiheelta: tee omat tehtävät",
+  "slug": "piirra-vaihe-vaiheelta-tee-omat-tehtavat",
+  "metaTitle": "Piirrä vaihe vaiheelta: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Lapset seuraavat, jäljentävät, viimeistelevät ja lopuksi piirtävät muistista, ja mukana on sana- ja lausesivuja.",
+  "teaches": [
+   "Kuvan jakaminen yksinkertaisiin muotoihin",
+   "Vaiheiden seuraaminen järjestyksessä",
+   "Oman piirustuksen kuvaaminen kirjoittamalla"
+  ],
+  "moment": "Piirrä ensimmäinen vaihe lasten kanssa taululle ja anna heidän jatkaa itse. Kuva antaa kirjoitettavaa myös niille, jotka eivät mielellään kirjoita."
+ },
+ "tangram": {
+  "kw": "Tangram: tee omat tehtävät",
+  "slug": "tangram-tee-omat-tehtavat",
+  "metaTitle": "Tangram: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee tangramtehtäviä, joissa on leikattavia paloja, koottavia varjokuvia ja kysymyksiä muodoista. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tangramtehtäviä, joissa on leikattavia paloja, koottavia varjokuvia ja kysymyksiä muodoista. Aloita kahden palan tehtävistä ja siirry kokonaisiin hahmoihin.",
+  "teaches": [
+   "Muotojen kääntäminen ja sovittaminen",
+   "Muotojen näkeminen toisten muotojen sisällä",
+   "Suunnittelu ennen palan asettamista"
+  ],
+  "moment": "Leikkaa palat kerran, säilytä ne kirjekuoressa ja näytä joka viikko uusi varjokuva muutaman rauhallisen minuutin ajaksi."
+ },
+ "picture-tracing": {
+  "kw": "Piirrä katkoviivoja pitkin: tee omat tehtävät",
+  "slug": "piirra-katkoviivoja-pitkin-tee-omat-tehtavat",
+  "metaTitle": "Piirrä katkoviivoja pitkin: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Suorista viivoista, siksakeista, spiraaleista ja silmukoista syntyy oikea kuva.",
+  "teaches": [
+   "Kynän ohjaaminen viivaa pitkin",
+   "Suorien, kaarevien ja silmukkamaisten viivojen piirtäminen",
+   "Käden valmistaminen kirjainten kirjoittamiseen"
+  ],
+  "moment": "Anna lasten jäljentää iso kuva ensin sormella, sitten liidulla ja lopuksi kynällä. Samaa monistetta voi käyttää kolme kertaa."
+ },
+ "pre-writing": {
+  "kw": "Kynäharjoitukset: tee omat tehtävät",
+  "slug": "kynaharjoitukset-tee-omat-tehtavat",
+  "metaTitle": "Kynäharjoitukset: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kynäharjoituksia suorilla viivoilla, siksakeilla, aalloilla, silmukoilla ja spiraaleilla ensimmäisistä viivoista vaativiin kynäharjoituksiin. Ilmaiset PDF:t.",
+  "lead": "Tee kynäharjoituksia suorilla viivoilla, siksakeilla, aalloilla, silmukoilla ja spiraaleilla ensimmäisistä viivoista vaativiin kynäharjoituksiin. Mukana on myös leikkaamisharjoituksia.",
+  "teaches": [
+   "Kynän pitäminen ja ohjaaminen",
+   "Kirjainten perusliikkeiden harjoittelu",
+   "Leikkaaminen viivaa pitkin"
+  ],
+  "moment": "Laita moniste muovitaskuun ja käytä pyyhittävää tussia, niin lapsi voi harjoitella samaa reittiä monta kertaa."
+ },
+ "letter-tracing": {
+  "kw": "Kirjainten kirjoittaminen: tee omat tehtävät",
+  "slug": "kirjainten-kirjoittaminen-tee-omat-tehtavat",
+  "metaTitle": "Kirjainten kirjoittaminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kirjoitusharjoituksia isoista ja pienistä kirjaimista ja lapsen omasta nimestä. Ilmaiset tulostettavat PDF:t.",
+  "lead": "Tee kirjoitusharjoituksia isoista ja pienistä kirjaimista ja lapsen omasta nimestä. Jokainen sivu käyttää valitsemasi kielen aakkosia, suomeksi myös kirjaimia Ä ja Ö.",
+  "teaches": [
+   "Isojen ja pienten kirjainten muodostaminen",
+   "Jokaisen kirjaimen yhdistäminen kuvaan",
+   "Oman nimen kirjoittaminen"
+  ],
+  "moment": "Tulosta ensimmäisenä päivänä jokaisen lapsen oma nimi. Se on sana, joka merkitsee eniten, ja näet heti, mistä lapsi aloittaa."
+ },
+ "word-writing": {
+  "kw": "Sanojen kirjoittaminen: tee omat tehtävät",
+  "slug": "sanojen-kirjoittaminen-tee-omat-tehtavat",
+  "metaTitle": "Sanojen kirjoittaminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee sanojen jäljennys- ja kirjoitustehtäviä: kopioi, kirjoita kuvan perusteella, täytä kirjainruudut ja nimeä kuvia. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee sanojen jäljennys- ja kirjoitustehtäviä: kopioi, kirjoita kuvan perusteella, täytä kirjainruudut ja nimeä kuvia. Lapset etenevät vaihe vaiheelta jäljentämisestä omaan kirjoittamiseen.",
+  "teaches": [
+   "Kokonaisten sanojen jäljentäminen ja kopioiminen",
+   "Kirjoittaminen kuvan perusteella yhä vähemmällä tuella",
+   "Sanojen kirjoittaminen viivoille"
+  ],
+  "moment": "Anna samoista sanoista kolme versiota: ensimmäisen kirjaimen kanssa, sanapankin kanssa ja ilman apua. Kaikki kirjoittavat saman listan omalla tasollaan."
+ },
+ "alphabet": {
+  "kw": "Aakkoset ja kirjaimet: tee omat tehtävät",
+  "slug": "aakkoset-ja-kirjaimet-tee-omat-tehtavat",
+  "metaTitle": "Aakkoset ja kirjaimet: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee aakkostehtäviä: kirjainten tunnistaminen, isot ja pienet kirjaimet, vokaalit, aakkosjärjestys ja viikon kirjain. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee aakkostehtäviä: kirjainten tunnistaminen, isot ja pienet kirjaimet, vokaalit, aakkosjärjestys ja viikon kirjain. Jokainen sivu käyttää valitsemasi kielen aakkosia.",
+  "teaches": [
+   "Kirjainten tunnistaminen ja nimeäminen",
+   "Isojen ja pienten kirjainten yhdistäminen",
+   "Sanojen laittaminen aakkosjärjestykseen"
+  ],
+  "moment": "Aloita maanantai viikon kirjaimella ja lähetä lapset etsimään sitä kirjasta."
+ },
+ "phonics": {
+  "kw": "Äänteet ja kirjaimet: tee omat tehtävät",
+  "slug": "aanteet-ja-kirjaimet-tee-omat-tehtavat",
+  "metaTitle": "Äänteet ja kirjaimet: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä sanan alku- ja loppuäänteistä, äänteiden yhdistämisestä ja pitkistä ja lyhyistä äänteistä. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä sanan alku- ja loppuäänteistä, äänteiden yhdistämisestä ja pitkistä ja lyhyistä äänteistä. Äännelaatikoilla, pyykkipoikakorteilla ja lajittelulla lapset harjoittelevat oikeiden kuvien avulla.",
+  "teaches": [
+   "Äänteiden kuuleminen sanan alussa ja lopussa",
+   "Äänteiden yhdistäminen ja laskeminen",
+   "Pitkien ja lyhyiden äänteiden erottaminen"
+  ],
+  "moment": "Käytä äännelaatikoita nappien kanssa: lapsi työntää yhden napin äännettä kohti ennen kirjoittamista. Kädet tekevät äänteet näkyviksi."
+ },
+ "rhyming": {
+  "kw": "Riimisanat: tee omat tehtävät",
+  "slug": "riimisanat-tee-omat-tehtavat",
+  "metaTitle": "Riimisanat: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee riimitehtäviä pareilla, muistipelikorteilla, dominoilla ja lajitteluilla sanoista, jotka todella rimmaavat suomeksi. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee riimitehtäviä pareilla, muistipelikorteilla, dominoilla ja lajitteluilla sanoista, jotka todella rimmaavat suomeksi. Lapset kuuntelevat, yhdistävät ja kirjoittavat omia riimejä.",
+  "teaches": [
+   "Rimmaavien sanojen kuuleminen",
+   "Joukkoon kuulumattoman sanan löytäminen",
+   "Riimisanojen kirjoittaminen"
+  ],
+  "moment": "Anna lasten pelata riimimuistipeliä ääneen: pari lasketaan vain, jos lapsi sanoo molemmat sanat."
+ },
+ "syllables": {
+  "kw": "Tavut: tee omat tehtävät",
+  "slug": "tavut-tee-omat-tehtavat",
+  "metaTitle": "Tavut: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä tavujen taputtamisesta, laskemisesta, jakamisesta ja yhdistämisestä sekä tavutaulukoista. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä tavujen taputtamisesta, laskemisesta, jakamisesta ja yhdistämisestä sekä tavutaulukoista. Tavujako noudattaa sitä, mitä lapset oppivat koulussa.",
+  "teaches": [
+   "Tavujen taputtaminen ja laskeminen",
+   "Sanojen jakaminen ja yhdistäminen uudelleen",
+   "Tavujen lukeminen tavutaulukosta"
+  ],
+  "moment": "Taputa sanat lasten kanssa ennen kirjoittamista. Käsissä tuntuva sana on helpompi jakaa."
+ },
+ "sight-words": {
+  "kw": "Yleisimmät sanat: tee omat tehtävät",
+  "slug": "yleisimmat-sanat-tee-omat-tehtavat",
+  "metaTitle": "Yleisimmät sanat: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tehtäviä sille yleiselle sanalle, jota harjoittelet: lue, jäljennä, etsi, väritä ja rakenna se. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee tehtäviä sille yleiselle sanalle, jota harjoittelet: lue, jäljennä, etsi, väritä ja rakenna se. Sanakortit, noppapelit ja sateenkaarikirjoitus tuovat harjoitteluun vaihtelua.",
+  "teaches": [
+   "Yleisten sanojen lukeminen yhdellä silmäyksellä",
+   "Sanojen kirjoittaminen muistista",
+   "Yleisten sanojen käyttö lauseissa"
+  ],
+  "moment": "Valitse viikolle yksi sana ja käytä joka päivä eri monistetta: lue, jäljennä, etsi, käytä."
+ },
+ "spelling": {
+  "kw": "Oikeinkirjoitus: tee omat tehtävät",
+  "slug": "oikeinkirjoitus-tee-omat-tehtavat",
+  "metaTitle": "Oikeinkirjoitus: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee oikeinkirjoitustehtäviä sekaisin menneillä sanoilla, puuttuvilla kirjaimilla, katso-peitä-kirjoita-tarkista-harjoituksilla ja kirjainlaatoilla sekä sääntösivuja.",
+  "lead": "Tee oikeinkirjoitustehtäviä sekaisin menneillä sanoilla, puuttuvilla kirjaimilla, katso-peitä-kirjoita-tarkista-harjoituksilla ja kirjainlaatoilla sekä sääntösivuja. Harjoittele sääntöä, jota luokkasi juuri opiskelee.",
+  "teaches": [
+   "Sanojen rakentaminen äänteistä",
+   "Muistaminen tavalla katso, peitä, kirjoita, tarkista",
+   "Oikeinkirjoitussääntöjen käyttö"
+  ],
+  "moment": "Anna lasten rakentaa sana ensin kirjainlaatoilla ja kirjoittaa vasta sitten. Laatan siirtäminen on helpompaa kuin kynänjäljen pyyhkiminen, joten he kokeilevat enemmän."
+ },
+ "nouns-articles": {
+  "kw": "Yksikkö ja monikko: tee omat tehtävät",
+  "slug": "yksikko-ja-monikko-tee-omat-tehtavat",
+  "metaTitle": "Yksikkö ja monikko: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee yksikön ja monikon tehtäviä kuvilla, jotka lapset osaavat nimetä. Yksi ja monta, lajittelutehtävät ja kirjoitussivut ovat valmiina.",
+  "lead": "Tee yksikön ja monikon tehtäviä kuvilla, jotka lapset osaavat nimetä. Yksi ja monta, lajittelutehtävät ja kirjoitussivut ovat valmiina.",
+  "teaches": [
+   "Yhden ja monen erottaminen",
+   "Monikkomuotojen kirjoittaminen",
+   "Oikean muodon valitseminen"
+  ],
+  "moment": "Näytä yksi kynä ja sitten kolme ja pyydä luokkaa sanomaan sana. Sen jälkeen moniste tekee saman kuvilla."
+ },
+ "grammar": {
+  "kw": "Sanaluokat ja kielioppi: tee omat tehtävät",
+  "slug": "sanaluokat-ja-kielioppi-tee-omat-tehtavat",
+  "metaTitle": "Sanaluokat ja kielioppi: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kielioppitehtäviä substantiiveista, verbeistä, adjektiiveista, pronomineista ja verbimuodoista. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee kielioppitehtäviä substantiiveista, verbeistä, adjektiiveista, pronomineista ja verbimuodoista. Lapset lajittelevat sanoja, muuttavat lauseita ja löytävät oikean muodon kolmella tasolla.",
+  "teaches": [
+   "Substantiivien, verbien ja adjektiivien erottaminen",
+   "Pronominien käyttö lauseissa",
+   "Oikean verbimuodon valitseminen"
+  ],
+  "moment": "Anna lasten lajitella sanaluokkia ensin saksien avulla leikkinä ja vasta sitten paperilla. Sanojen siirtäminen auttaa lapsia tuntemaan ryhmät."
+ },
+ "word-meaning": {
+  "kw": "Vastakohdat ja synonyymit: tee omat tehtävät",
+  "slug": "vastakohdat-ja-synonyymit-tee-omat-tehtavat",
+  "metaTitle": "Vastakohdat ja synonyymit: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee sanastotehtäviä vastakohdista, synonyymeistä, yhdyssanoista ja kantasanoista. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee sanastotehtäviä vastakohdista, synonyymeistä, yhdyssanoista ja kantasanoista. Työ alkaa kuvista ja jatkuu lauseisiin.",
+  "teaches": [
+   "Vastakohtien ja samaa tarkoittavien sanojen löytäminen",
+   "Yhdyssanojen jakaminen osiin",
+   "Kantasanojen käyttö sanan ymmärtämiseen"
+  ],
+  "moment": "Ripusta sanaportaat seinälle ja lisää sanoja, kun niitä tulee tarinoissa vastaan. Pian lapset valitsevat itse osuvampia sanoja."
+ },
+ "sentences": {
+  "kw": "Lauseet: tee omat tehtävät",
+  "slug": "lauseet-tee-omat-tehtavat",
+  "metaTitle": "Lauseet: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee lausetehtäviä: järjestä sanat, täydennä, korjaa isot kirjaimet ja pisteet, kysy ja pidennä lausetta. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee lausetehtäviä: järjestä sanat, täydennä, korjaa isot kirjaimet ja pisteet, kysy ja pidennä lausetta. Kuvat tukevat aloittelevaa lukijaa jokaisessa vaiheessa.",
+  "teaches": [
+   "Sanojen järjestäminen oikein",
+   "Lauseen aloittaminen isolla kirjaimella ja lopettaminen oikealla merkillä",
+   "Kysyminen ja vastaaminen"
+  ],
+  "moment": "Leikkaa lause paloiksi ja anna lasten koota se ensin pöydälle. Sanojen kokeileminen eri järjestyksissä on jo puolet tunnista."
+ },
+ "reading": {
+  "kw": "Luetun ymmärtäminen: tee omat tehtävät",
+  "slug": "luetun-ymmartaminen-tee-omat-tehtavat",
+  "metaTitle": "Luetun ymmärtäminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee luetun ymmärtämisen tehtäviä lyhyillä tarinoilla ja kysymyksillä, lue ja väritä -sivuilla ja noudatettavilla ohjeilla. Ilmaiset PDF:t.",
+  "lead": "Tee luetun ymmärtämisen tehtäviä lyhyillä tarinoilla ja kysymyksillä, lue ja väritä -sivuilla ja noudatettavilla ohjeilla. Lapset näyttävät ymmärtäneensä tekemällä, ei vain vastaamalla.",
+  "teaches": [
+   "Yksityiskohtien tarkka lukeminen",
+   "Kirjoitettujen ohjeiden noudattaminen",
+   "Lyhyttä tarinaa koskeviin kysymyksiin vastaaminen"
+  ],
+  "moment": "Käytä lue ja väritä -sivua hiljaisena tarkistuksena: yksi silmäys väreihin näyttää, mitä lausetta lapsi ei ymmärtänyt."
+ },
+ "stories-writing": {
+  "kw": "Tarinat ja kirjoittaminen: tee omat tehtävät",
+  "slug": "tarinat-ja-kirjoittaminen-tee-omat-tehtavat",
+  "metaTitle": "Tarinat ja kirjoittaminen: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee tarinoiden järjestämisen ja kirjoittamisen tehtäviä: numeroi kuvat, suunnittele tarina, kirjoita sarjakuva, postikortti tai eläinkortti. Ilmaiset PDF:t.",
+  "lead": "Tee tarinoiden järjestämisen ja kirjoittamisen tehtäviä: numeroi kuvat, suunnittele tarina, kirjoita sarjakuva, postikortti tai eläinkortti. Lauseenalut ja sanapankit auttavat jokaisen lapsen alkuun.",
+  "teaches": [
+   "Tapahtumien järjestäminen",
+   "Alun, keskikohdan ja lopun kertominen",
+   "Lauseiden kirjoittaminen kuvasta tai eläimestä"
+  ],
+  "moment": "Anna lasten kertoa kuvasarja kaverille ennen kuin he kirjoittavat sanaakaan. Kerrottu tarina on helpompi kirjoittaa."
+ },
+ "me-family-feelings": {
+  "kw": "Minä, perheeni ja tunteeni: tee omat tehtävät",
+  "slug": "mina-perheeni-ja-tunteeni-tee-omat-tehtavat",
+  "metaTitle": "Minä, perheeni ja tunteeni: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee Minä itse -tehtäviä sekä tehtäviä perheestä ja tunteista koulun alkuun ja rauhallisiin hetkiin. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee Minä itse -tehtäviä sekä tehtäviä perheestä ja tunteista koulun alkuun ja rauhallisiin hetkiin. Kasvot, sukupuut ja tunnemittarit antavat lapsille sanat sille, mitä he tuntevat.",
+  "teaches": [
+   "Tunteiden nimeäminen ja näkeminen kasvoilta",
+   "Perheestä puhuminen ja sen kertominen, kuka on kuka",
+   "Sen sanominen, mistä pitää ja mitä osaa"
+  ],
+  "moment": "Pidä tunnekortit oven vieressä aamulla. Lapsi osoittaa korttia, ja tiedät, kuka tarvitsee hetken aikaasi."
+ },
+ "picture-cards": {
+  "kw": "Kuvakortit ja sanasto: tee omat tehtävät",
+  "slug": "kuvakortit-ja-sanasto-tee-omat-tehtavat",
+  "metaTitle": "Kuvakortit ja sanasto: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee kuvakortteja, sanakortteja, muistipelejä, sanaseinän lappuja ja kuvasanakirja mistä tahansa teemasta. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee kuvakortteja, sanakortteja, muistipelejä, sanaseinän lappuja ja kuvasanakirja mistä tahansa teemasta. Kaksikieliset kortit tuovat kaksi kieltä rinnakkain monikielisille luokille.",
+  "teaches": [
+   "Uusien sanojen oppiminen kuvien avulla",
+   "Sanojen ja kuvien yhdistäminen",
+   "Luokan sanaseinän rakentaminen"
+  ],
+  "moment": "Tulosta kaksikielisiä kortteja suomeksi ja lapsen kotikielellä, niin vasta Suomeen muuttanut lapsi voi näyttää, mitä hän jo osaa."
+ },
+ "word-search": {
+  "kw": "Sanahaku lapsille: tee omat tehtävät",
+  "slug": "sanahaku-lapsille-tee-omat-tehtavat",
+  "metaTitle": "Sanahaku lapsille: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee sanahakuja luokkaan: kuvavihjeet aloitteleville lukijoille, lukusanat, muotoon tehdyt ruudukot, kaksikieliset ruudukot ja salainen viesti.",
+  "lead": "Tee sanahakuja luokkaan: kuvavihjeet aloitteleville lukijoille, lukusanat, muotoon tehdyt ruudukot, kaksikieliset ruudukot ja salainen viesti.",
+  "teaches": [
+   "Sanojen tunnistaminen kirjoitusasun perusteella",
+   "Rivien ja sarakkeiden järjestelmällinen tutkiminen",
+   "Teeman sanojen kertaaminen"
+  ],
+  "moment": "Käytä kuvallista sanahakua teeman lopussa. Lapset, jotka eivät vielä osaa lukea kaikkia sanoja, löytävät ne kuvien avulla."
+ },
+ "crossword": {
+  "kw": "Ristikot lapsille: tee omat tehtävät",
+  "slug": "ristikot-lapsille-tee-omat-tehtavat",
+  "metaTitle": "Ristikot lapsille: tee omat tehtävät – ilmainen | LessonCraftStudio",
+  "metaDescription": "Tee ristikoita luokkaan kuvavihjeillä, sanapankeilla ja nuoliristikoilla, myös kaksikielisinä. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee ristikoita luokkaan kuvavihjeillä, sanapankeilla ja nuoliristikoilla, myös kaksikielisinä. Lapset kirjoittavat jokaisen sanan, ja ruudukko tarkistaa kirjaimet.",
+  "teaches": [
+   "Sanojen kirjoittaminen kirjain kirjaimelta",
+   "Kuvan tai sanapankin käyttö vihjeenä",
+   "Sanaston kertaaminen"
+  ],
+  "moment": "Anna kahden lapsen tehdä ristikko yhdessä: toinen sanoo sanan, toinen kirjoittaa."
+ },
+ "secret-code": {
+  "kw": "Salakieli: tee omat tehtävät",
+  "slug": "salakieli-tee-omat-tehtavat",
+  "metaTitle": "Salakieli: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee salakielitehtäviä, joissa lapset ratkaisevat kuva-, numero- ja laskukoodeja ja löytävät sanan. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee salakielitehtäviä, joissa lapset ratkaisevat kuva-, numero- ja laskukoodeja ja löytävät sanan. He voivat jopa tehdä oman koodin kaverille.",
+  "teaches": [
+   "Avaimen käyttö koodin ratkaisemiseen",
+   "Kirjainten tai laskujen tavoitteellinen harjoittelu",
+   "Piilotetun sanan lukeminen"
+  ],
+  "moment": "Kirjoita huomisen yllätys salakielellä taululle. Kaikki haluavat ratkaista sen."
+ },
+ "bingo": {
+  "kw": "Bingo luokkaan: tee omat pelit",
+  "slug": "bingo-luokkaan-tee-omat-pelit",
+  "metaTitle": "Bingo luokkaan: tee omat pelit – ilmaiset tulostettavat | LessonCraftStudio",
+  "metaDescription": "Tee bingopelejä luokkaan kuvilla, yleisillä sanoilla, äänteillä, lukusanoilla, muodoilla, laskuilla ja kelloilla. Ilmaiset tulostettavat PDF:t.",
+  "lead": "Tee bingopelejä luokkaan kuvilla, yleisillä sanoilla, äänteillä, lukusanoilla, muodoilla, laskuilla ja kelloilla. Jokaisessa pelissä on arvontakortit, joten peli alkaa muutamassa minuutissa.",
+  "teaches": [
+   "Nopea kuunteleminen ja yhdistäminen",
+   "Sanojen, äänteiden tai laskujen kertaaminen",
+   "Oman vuoron odottaminen ryhmäpelissä"
+  ],
+  "moment": "Anna lapsen lukea arvontakortit, kun luokka osaa pelin. Ääneen lukeminen on jo itsessään hyvää harjoitusta."
+ }
+}

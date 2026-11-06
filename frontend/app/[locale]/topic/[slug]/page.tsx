@@ -50,6 +50,7 @@ import { getSingleAxisOverride } from '@/lib/seo/topic-overrides';
 import { subjectHubGradeLabel, HUB_GRADE_KEYS } from '@/lib/subject-hub';
 import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
@@ -789,6 +790,8 @@ export default async function TopicPage({
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>
+
+        <MakerRibbon locale={locale} axes={[{ axis, axisKey }]} />
 
         <TopicProseContainer
           locale={locale}

@@ -315,3 +315,9 @@ docs/audit-results/seo-100pct-*.json
 
 # worksheet makers: built bundles + data (built in deploy.sh, never committed)
 /out/makers/
+
+# Worksheet makers: release pack + landing previews (built on the PC, uploaded to the server; never in git)
+out/makers-release/
+out/maker-previews/
+out/maker-previews-cache/
+frontend/public/maker-previews

@@ -358,52 +358,65 @@ export function PrintRoom({
   );
 }
 
-/* ── The Studio ───────────────────────────────────────────────────────────
-   Where the work is made. The maker screenshot is committed art at
-   /homepage/maker.webp, with per-locale re-renders alongside it. */
-export function Studio({ locale, numeral, strings }: { locale: string; numeral: string; strings: RoomStrings }) {
-  const dir = locale === 'en' ? '' : `${locale}/`;
+/* ── The Studio ───────────────────────────────────────────
+   The worksheet makers, shown doing the thing that sells them. The room is the cutting mat every maker surface shares
+   (the landing pages, the hub, the band on each worksheet page). One real worksheet sits on it and changes language by
+   itself, because a page that rewrites itself in your own words says more than any list could; behind it a wall of real
+   sheets drifts past, which is the whole collection without counting it. Homepage law: no numbers for content, pure-CSS
+   motion (transform / opacity only), still when the visitor asks for reduced motion. */
+export type StudioSheet = { src: string; language: string };
+
+export function Studio({
+  locale,
+  numeral,
+  strings,
+  sheets,
+  wall,
+}: {
+  locale: string;
+  numeral: string;
+  strings: RoomStrings;
+  /** the same worksheet in four languages, the visitor's own first */
+  sheets: StudioSheet[];
+  /** real sheets from across the makers, for the drifting wall */
+  wall: string[];
+}) {
+  const row = (items: string[], key: string) => (
+    <div className={`hv10-mk-row is-${key}`} aria-hidden="true">
+      {[...items, ...items].map((src, i) => (
+        <img key={`${src}-${i}`} src={src} alt="" width={640} height={860} loading="lazy" decoding="async" />
+      ))}
+    </div>
+  );
+  const half = Math.ceil(wall.length / 2);
   return (
     <Room id="studio" wall="light">
       <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.studioH2}</h2>
       <p className="hv10-room-body">{strings.studioBody}</p>
 
-      <div className="hv10-studio">
-        <figure className="hv10-workbench">
-          <Image
-            src={`/homepage/${dir}maker.webp`}
-            alt={strings.studioMakerAlt}
-            width={1200}
-            height={760}
-            sizes="(max-width: 900px) 100vw, 700px"
-            quality={76}
-          />
-        </figure>
-        <div className="hv10-outputs">
-          <figure className="hv10-output">
-            <Image
-              src={`/homepage/${dir}interactive-play.webp`}
-              alt=""
-              width={760}
-              height={959}
-              sizes="(max-width: 900px) 50vw, 340px"
-              quality={76}
-            />
-            <figcaption>{strings.studioPlay}</figcaption>
-          </figure>
-          <figure className="hv10-output">
-            <Image
-              src={`/homepage/${dir}interactive-celebrate.webp`}
-              alt=""
-              width={900}
-              height={577}
-              sizes="(max-width: 900px) 50vw, 340px"
-              quality={76}
-            />
-            <figcaption>{strings.studioPrint}</figcaption>
-          </figure>
+      <div className="hv10-mat">
+        <div className="hv10-mat-stage">
+          <div className="hv10-mat-sheets">
+            {sheets.map((sh, i) => (
+              <figure key={sh.src} className={`hv10-mat-sheet is-${i}`}>
+                <img src={sh.src} alt={i === 0 ? strings.studioMakerAlt : ''} width={640} height={860} loading="lazy" decoding="async" />
+                <figcaption>{sh.language}</figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
+        <ul className="hv10-mat-points">
+          <li><strong>{strings.studioP1}</strong><span>{strings.studioP1Body}</span></li>
+          <li><strong>{strings.studioP2}</strong><span>{strings.studioP2Body}</span></li>
+          <li><strong>{strings.studioP3}</strong><span>{strings.studioP3Body}</span></li>
+          <li><strong>{strings.studioP4}</strong><span>{strings.studioP4Body}</span></li>
+        </ul>
+      </div>
+
+      <div className="hv10-mk-wall">
+        {row(wall.slice(0, half), 'a')}
+        {row(wall.slice(half), 'b')}
       </div>
 
       <div className="hv10-room-ctas">
@@ -682,6 +695,14 @@ export type RoomStrings = {
   studioH2: string;
   studioBody: string;
   studioMakerAlt: string;
+  studioP1: string;
+  studioP1Body: string;
+  studioP2: string;
+  studioP2Body: string;
+  studioP3: string;
+  studioP3Body: string;
+  studioP4: string;
+  studioP4Body: string;
   studioPlay: string;
   studioPrint: string;
   studioCta: string;

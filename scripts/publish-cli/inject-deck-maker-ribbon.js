@@ -35,16 +35,20 @@ const ONLY = flag('locale');
 const LIMIT = Number(flag('limit') || 0);
 const ROOT = flag('decks-root') || '/var/www/lcs-media/decks';
 const WAVE_SLUGS = waveScope.loadSlugSet(argv);
-const ANCHOR = deckActions.ANCHOR;
+// An interactive deck wraps its page in .lcs-worksheet-wrap; a printable-only deck (about four in five) has .lcs-worksheet.
+const ANCHORS = [deckActions.ANCHOR, '<div class="lcs-worksheet">'];
 
 function strip(content) { return content.replace(links.STRIP_RE, ''); }
 
 /** the ribbon goes on its own line directly before the worksheet, after the action strip when there is one */
 function inject(content, block) {
   const head = content.indexOf('</head>');
-  const at = content.indexOf(ANCHOR, head === -1 ? 0 : head);
-  if (at === -1) return null;
-  return `${content.slice(0, at)}\n${block}${content.slice(at)}`;
+  const from = head === -1 ? 0 : head;
+  for (const anchor of ANCHORS) {
+    const at = content.indexOf(anchor, from);
+    if (at !== -1) return `${content.slice(0, at)}\n${block}${content.slice(at)}`;
+  }
+  return null;
 }
 
 function atomicWrite(file, text) {

@@ -10,7 +10,9 @@ module.exports = makeColoringPage({
   difficulty: {
     1: { n: 1, sizes: ['big', 'small'], px: { big: 400, small: 170 } },
     2: { n: 2, sizes: ['big', 'small'], px: { big: 260, small: 120 } },
-    3: { n: 1, sizes: ['big', 'medium', 'small'], px: { big: 320, medium: 200, small: 115 } },
+    // 290 / 190 / 110 (2026-11-06): 320 + 200 + 115 with the cells' spacing was 651 px in the card's 636 and the big one
+    // stood over its right border
+    3: { n: 1, sizes: ['big', 'medium', 'small'], px: { big: 290, medium: 190, small: 110 } },
   },
   i18n: { en: { title: "Color Big and Small", instruction: "Look at the key: every size has its own color. Color each picture with the color of its size." } },
 });

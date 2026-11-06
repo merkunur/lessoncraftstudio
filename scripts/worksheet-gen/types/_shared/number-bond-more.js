@@ -39,7 +39,9 @@ const LEVELS = {
   hidden: {
     1: { cards: 4, totals: [5], hide: [1, 4] },
     2: { cards: 5, totals: [10], hide: [1, 9] },
-    3: { cards: 5, totals: [11, 12, 13, 14, 15, 16], hide: [2, 9] },
+    // four cards (2026-11-06): up to 14 pictures stand in three rows of five, which need a taller box than five cards
+    // leave (32 px pictures, 9 px gaps: 114 px in a 97 px box — the top row stuck out of it)
+    3: { cards: 4, totals: [11, 12, 13, 14, 15, 16], hide: [2, 9] },
   },
   rainbow: {
     1: { rows: [6, 8, 10], example: true },     // in order; the outer pair is joined for you
@@ -212,7 +214,11 @@ function makeBondMoreType(cfg) {
         }
         if (ps.length < d.cards) throw new Error(`${id}: not enough hidden-counter cards`);
         const maxShown = Math.max(...ps.map((p) => p.shown));
-        const px = maxShown > 10 ? 32 : maxShown > 5 ? 40 : 62;   // review: 12-14 pictures need clear gaps to be counted
+        // review: 12-14 pictures need clear gaps to be counted. The shown box is 250 px wide, 238 inside its 4 px padding
+        // and 2 px border: up to five pictures in a row are fitted to that (2026-11-06 — four at 62 px made a 266 px row
+        // and the first and last stuck out of the box)
+        const k = Math.min(5, maxShown), gap = maxShown > 10 ? 10 : 6;
+        const px = Math.min(maxShown > 10 ? 32 : maxShown > 5 ? 40 : 62, Math.floor((238 - (k - 1) * gap) / k));
         const cards = ps.map((p, i) => {
           const pics = iconRows({ theme, noun: nouns[i].noun, n: p.shown, iconPx: px, perRow: 5, rng, gapX: maxShown > 10 ? 10 : 6, gapY: maxShown > 10 ? 9 : 6 });
           return `<div class="ws-card-stage" data-lcs-hidden="${p.total}:${p.hid}" style="justify-content:center;align-items:center;gap:18px">` +

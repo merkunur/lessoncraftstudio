@@ -41,9 +41,44 @@ const sharp = () => require('sharp');   // loaded on first use (a Node process t
  *   silhouette(file, dest, ink)         the drawing's alpha filled with `ink` → a URL the page can load (cached at dest here)
  *   dataUri(file)                       the file as something an <image href> can show (base64 here, the CDN URL there)
  */
+/** an <image> href of a page (file://, or the maker's /makers-assets/ URL a gate harness serves) as a local file, or null */
+function localPictureFile(h) {
+  const href = h.replace(/&amp;/g, '&');
+  if (/^file:/.test(href)) return url.fileURLToPath(href);
+  const m = href.match(/^(?:https?:\/\/[^/]+)?\/makers-assets\/themes-512\/(.+)$/);
+  if (m) return path.join(__dirname, '..', '..', 'cache', 'themes-512', ...m[1].split('/').map(decodeURIComponent));
+  return null;
+}
+
 const picture = {
-  async rasterSvg(svg) {
-    const { data, info } = await sharp()(Buffer.from(svg)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  /**
+   * The browser's contract (browser.js rasterSvg): opts.width / height = the raster's size, opts.background = flattened
+   * under it, every <image> inlined first. Only the maker's live oracles pass opts (hm-verify analyzeSvg); in Node they run
+   * in the gate harnesses (zoom-checks), where the bare librsvg raster — the svg's own size, transparent, its pictures
+   * unloaded — refused every Maze Coloring Page on every seed (round 12, 2026-11-06). Without opts: the raster as before.
+   */
+  async rasterSvg(svg, opts = {}) {
+    if (!opts.width && !opts.height && !opts.background) {
+      const { data, info } = await sharp()(Buffer.from(svg)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+      return { data, width: info.width, height: info.height };
+    }
+    const hrefs = [...new Set([...svg.matchAll(/<image\b[^>]*?\s(?:xlink:)?href="([^"]+)"/g)].map((m) => m[1]).filter((h) => !/^data:/.test(h)))];
+    const map = new Map();
+    for (const h of hrefs) {
+      const f = localPictureFile(h);
+      // as PNG: librsvg's image loader does not read WebP
+      if (f && fs.existsSync(f)) map.set(h, 'data:image/png;base64,' + (await sharp()(f).png().toBuffer()).toString('base64'));
+    }
+    let s = svg.replace(/(<image\b[^>]*?\s(?:xlink:)?href=")([^"]+)(")/g, (m, a, h, b) => (map.has(h) ? a + map.get(h) + b : m));
+    const head = (s.match(/<svg\b[^>]*>/) || [''])[0];
+    const num = (n) => { const m = head.match(new RegExp('\\s' + n + '="([\\d.]+)')); return m ? +m[1] : null; };
+    const vb = head.match(/viewBox="\s*[\d.-]+\s+[\d.-]+\s+([\d.]+)\s+([\d.]+)/);
+    const w = opts.width || Math.round(num('width') || (vb && +vb[1])), h = opts.height || Math.round(num('height') || (vb && +vb[2]));
+    s = s.replace(/<svg\b([^>]*)>/, (m, attrs) => '<svg' + attrs.replace(/\swidth="[^"]*"/, '').replace(/\sheight="[^"]*"/, '') + ` width="${w}" height="${h}">`);
+    if (!/xmlns=/.test((s.match(/<svg\b[^>]*>/) || [''])[0])) s = s.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+    let img = sharp()(Buffer.from(s)).resize(w, h, { fit: 'fill' });
+    if (opts.background && opts.background !== 'transparent') img = img.flatten({ background: opts.background });
+    const { data, info } = await img.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     return { data, width: info.width, height: info.height };
   },
   async decode(bytes) {

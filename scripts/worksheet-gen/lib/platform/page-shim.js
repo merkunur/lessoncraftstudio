@@ -70,6 +70,18 @@ function unzoom(iframe) {
     P.getBoundingClientRect = function () { return un(g.call(this)); };
     P.getClientRects = function () { const a = Array.from(gs.call(this), un); a.item = (i) => a[i] || null; return a; };
   }
+  // an SVG element's getScreenCTM maps its user units to the frame's ZOOMED viewport as well (round 12, 2026-11-06:
+  // G2-235's ruler ticks read through it sat 1.2× closer than its picture read through getBoundingClientRect, and every
+  // Measure-with-a-Ruler page was refused at 1.2). Measured in the same frame at 1 and 1.2: of the calls a page check
+  // makes — offset*, client*, scroll*, inner*, getCTM, getBBox, path and text lengths, isPointInFill, computed styles —
+  // only these two report zoomed values (tests/page-shim-unzoom.test.js keeps that true)
+  const G = W.SVGGraphicsElement && W.SVGGraphicsElement.prototype;
+  if (G && G.getScreenCTM) {
+    const sc = G.getScreenCTM;
+    const s = (v) => Math.round((v / k) * 1048576) / 1048576;   // a scale factor: a finer grid than a position
+    // corrected IN PLACE: the result stays an SVGMatrix (SVGPoint.matrixTransform refuses a DOMMatrix in Chrome)
+    G.getScreenCTM = function () { const m = sc.call(this); if (m) { m.a = s(m.a); m.b = s(m.b); m.c = s(m.c); m.d = s(m.d); m.e = q(m.e); m.f = q(m.f); } return m; };
+  }
 }
 
 /**

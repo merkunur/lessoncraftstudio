@@ -11,7 +11,7 @@ module.exports = {
   slug: 'syllable-reading-join-the-syllables',
   // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config) + the screen version
   interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('join'),
-  difficulty: { 1: { ...D, cards: 4, cols: 2, rows: 2, pic: 96 }, 2: D, 3: { ...D, cards: 8, cols: 2, rows: 4, pic: 56 } },
+  difficulty: { 1: { ...D, cards: 4, cols: 2, rows: 2, pic: 96 }, 2: D, 3: { ...D, cards: 8, cols: 2, rows: 4, pic: 56, side: true, laneW: 222, tileFont: 24, tileH: 42 } },   // eight cards: the picture beside the tiles, a shorter line, tiles a size smaller (2026-11-06: "Schwimm + bad")
   i18n: { en: { title: "Join the Syllables and Write the Word", instruction: "Read the two syllables on each card in order. Say them together, then write the whole word on the line." } },
   unitAxis: {"applicable":false},
 };

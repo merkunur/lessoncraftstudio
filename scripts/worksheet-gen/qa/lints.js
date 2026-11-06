@@ -114,10 +114,12 @@ async function runLints(page, { gradeBand }) {
     document.querySelectorAll('.ws-page img').forEach((img) => {
       const r = img.getBoundingClientRect();
       if (!(r.width > 0)) return;
-      let f = img.parentElement;
-      for (let k = 0; f && k < 3; k++, f = f.parentElement) {
-        const cs = getComputedStyle(f);
-        if (['Top', 'Right', 'Bottom', 'Left'].some((s) => parseFloat(cs['border' + s + 'Width']) >= 1.5 && cs['border' + s + 'Style'] !== 'none' && !/rgba\(.*,\s*0\)$|transparent/.test(cs['border' + s + 'Color']))) break;
+      // only a BORDERED ancestor is a frame: an unbordered fourth ancestor the loop stepped onto is not one (round 12:
+      // 13 templates refused against plain wrappers that were never checked for a border)
+      let f = null;
+      for (let a = img.parentElement, k = 0; a && k < 3; k++, a = a.parentElement) {
+        const cs = getComputedStyle(a);
+        if (['Top', 'Right', 'Bottom', 'Left'].some((s) => parseFloat(cs['border' + s + 'Width']) >= 1.5 && cs['border' + s + 'Style'] !== 'none' && !/rgba\(.*,\s*0\)$|transparent/.test(cs['border' + s + 'Color']))) { f = a; break; }
       }
       if (!f || f.classList.contains('ws-page')) return;
       const fr = f.getBoundingClientRect(), cs = getComputedStyle(f);
@@ -125,19 +127,33 @@ async function runLints(page, { gradeBand }) {
       const W = fr.width - parseFloat(cs.borderLeftWidth) - parseFloat(cs.borderRightWidth), H = fr.height - parseFloat(cs.borderTopWidth) - parseFloat(cs.borderBottomWidth);
       // the frame's inside is a rounded rectangle (a circle and a pill are rounded rectangles too)
       const rr = Math.max(0, Math.min((parseFloat(cs.borderTopLeftRadius) || 0) - parseFloat(cs.borderTopWidth), W / 2, H / 2));
+      const inRect = ([x, y]) => x >= L - 1 && x <= L + W + 1 && y >= T - 1 && y <= T + H + 1;
       const inside = ([x, y]) => {
-        if (x < L - 1 || x > L + W + 1 || y < T - 1 || y > T + H + 1) return false;
+        if (!inRect([x, y])) return false;
         const qx = Math.min(Math.max(x, L + rr), L + W - rr), qy = Math.min(Math.max(y, T + rr), T + H - rr);
         return Math.hypot(x - qx, y - qy) <= rr + 1;
       };
-      const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+      // what shows is the picture box cut by every clipping box between it and the frame (a puzzle piece, a closure
+      // window, the ruler's art band: a large picture placed by its ink behind a small overflow:hidden window, round 12)
+      let v = { l: r.left, t: r.top, r: r.right, b: r.bottom }, clipped = false;
+      for (let a = img.parentElement; a && a !== f.parentElement; a = a.parentElement) {
+        const s = getComputedStyle(a);
+        if (s.overflowX === 'visible' && s.overflowY === 'visible') continue;
+        const ar = a.getBoundingClientRect();
+        v = { l: Math.max(v.l, ar.left), t: Math.max(v.t, ar.top), r: Math.min(v.r, ar.right), b: Math.min(v.b, ar.bottom) };
+        clipped = true;
+      }
+      if (!(v.r - v.l > 0 && v.b - v.t > 0)) return;
+      const vw = v.r - v.l, vh = v.b - v.t, cx = (v.l + v.r) / 2, cy = (v.t + v.b) / 2;
       const round = rr >= 0.4 * Math.min(W, H);
-      // round frame: the drawing's edge-middles (35 % out) and its corners (30 % out on each axis); square: the whole box
-      const pts = round
-        ? [[cx - 0.35 * r.width, cy], [cx + 0.35 * r.width, cy], [cx, cy - 0.35 * r.height], [cx, cy + 0.35 * r.height],
-          ...[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b]) => [cx + a * 0.3 * r.width, cy + b * 0.3 * r.height])]
-        : [[r.left, r.top], [r.right, r.top], [r.left, r.bottom], [r.right, r.bottom]];
-      const out = pts.some((p) => !inside(p));
+      // round frame, whole picture: the drawing's edge-middles (35 % out) and its corners (30 % out on each axis) in the
+      // circle. Square frame (or a clipped window): the whole box in the frame's rectangle, and the box 15 % in from its
+      // corners in the rounded inside — a picture box's own corners are transparent and may reach into a rounded corner
+      const corners = [[-1, -1], [1, -1], [-1, 1], [1, 1]];
+      const out = round && !clipped
+        ? [[cx - 0.35 * vw, cy], [cx + 0.35 * vw, cy], [cx, cy - 0.35 * vh], [cx, cy + 0.35 * vh],
+          ...corners.map(([a, b]) => [cx + a * 0.3 * vw, cy + b * 0.3 * vh])].some((p) => !inside(p))
+        : corners.some(([a, b]) => !inRect([cx + a * vw / 2, cy + b * vh / 2]) || !inside([cx + a * 0.35 * vw, cy + b * 0.35 * vh]));
       if (out) fails.push(`picture outside its frame: <${f.tagName.toLowerCase()} class="${f.className.baseVal || f.className}">`);
     });
 

@@ -17,12 +17,19 @@ const runtime = require('../../runtime.js');   // gatePage: the maker's own verd
 const SHIM = fs.readFileSync(path.join(REPO, 'scripts', 'worksheet-gen', 'lib', 'platform', 'page-shim.js'), 'utf8');
 const FONTS = '/' + path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts').replace(/\\/g, '/').replace(/^\//, '') + '/';
 const THEMES = '/' + path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512').replace(/\\/g, '/').replace(/^\//, '') + '/';
+const THEMES_FULL = '/' + path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes').replace(/\\/g, '/').replace(/^\//, '') + '/';
 
-/** the page's file:/// fonts and pictures as the maker serves them (an http page cannot read file://) */
+/**
+ * the page's file:/// fonts and pictures as the maker serves them (an http page cannot read file://). A full-size
+ * picture (cache/themes/, fileUri { full: true } — the measurement objects) is served from themes-512 as the maker's
+ * platform maps it (lib/platform/browser.js fileHref): left as file:// it read as a broken image, and zoom-checks
+ * skipped every such page as "fails at 1" (270 measurement pages, round 12)
+ */
 function served(html, base) {
   return String(html)
     .split('file://' + FONTS).join(base + '/makers-assets/fonts/')
-    .split('file://' + THEMES).join(base + '/makers-assets/themes-512/');
+    .split('file://' + THEMES).join(base + '/makers-assets/themes-512/')
+    .split('file://' + THEMES_FULL).join(base + '/makers-assets/themes-512/');
 }
 
 async function zoomVerifier({ dsf = 1.2, unzoom = true } = {}) {
@@ -66,6 +73,9 @@ async function zoomVerifier({ dsf = 1.2, unzoom = true } = {}) {
       await mount(html);
       return runtime.gatePage(type, shimPage, { key });
     },
+    /** what the maker does for these settings (runtime.generate: the page and its key gated, then the knob and fresh-seed
+     *  retries) with this browser's frame: { ok, html, keyHtml, attempt } or { ok: false, fails } */
+    async generate(o) { return runtime.generate(o, async (html) => { await mount(html); return shimPage; }); },
     /** mount html and run fn inside it through the shim (a measurement to read, not a verdict) */
     async measure(html, fn) { await mount(html); return shimPage.evaluate(fn); },
     async close() { await browser.close(); srv.close(); },

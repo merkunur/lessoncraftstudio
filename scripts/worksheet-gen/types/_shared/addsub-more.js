@@ -200,8 +200,10 @@ function makeAddSubMoreType(cfg) {
         const order = d.ops.length > 1 ? shuffle(ps, rng) : ps;
         const cards = order.map((p, i) => {
           const noun = nouns[i].noun;
+          // each group box is (440 − 14) / 2 = 213 px wide, 193 inside its 8 px padding and 2 px border: the pictures are
+          // fitted to 190 (2026-11-06 — fitted to 210, five pictures ran over the padding onto the box's border)
           const stage = p.op === '+'
-            ? `<div style="display:flex;gap:14px;width:440px">${group(theme, noun, p.a, rng, { w: 210, h: 80, maxPx: 44 })}${group(theme, noun, p.b, rng, { w: 210, h: 80, maxPx: 44 })}</div>`
+            ? `<div style="display:flex;gap:14px;width:440px">${group(theme, noun, p.a, rng, { w: 190, h: 80, maxPx: 44 })}${group(theme, noun, p.b, rng, { w: 190, h: 80, maxPx: 44 })}</div>`
             : `<div style="display:flex;width:440px">${crossoutGroup(theme, noun, p.a, p.b, rng, { w: 420, h: 80, maxPx: 44 })}</div>`;
           const sign = d.signBox ? answerBox({ w: 50, h: 46, answer: p.op === '+' ? '+' : MINUS }) : SIGN(p.op, 34);
           const eq = `<div style="display:flex;align-items:center;gap:10px">${answerBox({ w: 64, h: 46, answer: p.a })}${sign}${answerBox({ w: 64, h: 46, answer: p.b })}${SIGN('=', 32)}${answerBox({ w: 64, h: 46, answer: p.r })}</div>`;

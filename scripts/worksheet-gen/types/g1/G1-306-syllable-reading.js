@@ -335,12 +335,15 @@ function buildJoin({ d, cfg, loc, rng, difficulty, fresh, ctx }) {
   const cards = picks.map((w, wi) => {
     const pic = pickPicture(pictureRng(rng, w, fresh), w, loc);
     pics.push([pic.theme, pic.noun]);
-    return `<div class="ws-card-stage" style="flex-direction:column;gap:8px" ` +
+    const img = `<img class="ws-icon" src="${pic.src}" alt="" data-lcs-pic="${esc(w.key)}" style="width:${d.pic}px;height:${d.pic}px${d.side ? ';flex:0 0 auto' : ''}">`;
+    const tiles = C3.syllableJoin({ tokens: wordTokens(w, loc), fontPx: d.tileFont, tileH: d.tileH });
+    const lane = rulingBlock({ rows: 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH });
+    // d.side (level 3, eight cards): the picture BESIDE the tiles and the line — stacked, picture + tiles + line are
+    // 182 px in a 141 px card and spilled over its top and bottom borders (2026-11-06)
+    return `<div class="ws-card-stage" style="flex-direction:${d.side ? 'row' : 'column'};gap:${d.side ? 12 : 8}px" ` +
       `data-lcs-word="${esc(w.word)}" data-lcs-vocab="${esc(w.key)}" data-lcs-split="${esc(w.split.join('|'))}" ` +
       `data-lcs-count="${w.count}" data-lcs-face="join"${slot.attr(ctx, 'word', wi)}>` +
-      `<img class="ws-icon" src="${pic.src}" alt="" data-lcs-pic="${esc(w.key)}" style="width:${d.pic}px;height:${d.pic}px">` +
-      C3.syllableJoin({ tokens: wordTokens(w, loc), fontPx: d.tileFont, tileH: d.tileH }) +
-      rulingBlock({ rows: 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH }) + `</div>`;
+      (d.side ? img + `<div style="display:flex;flex-direction:column;align-items:center;gap:8px">${tiles}${lane}</div>` : img + tiles + lane) + `</div>`;
   });
   const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
   const root = `<div data-ws-content data-lcs-sr data-lcs-shape="${cfg.shape}" data-lcs-structure="${d.structure}" ` +

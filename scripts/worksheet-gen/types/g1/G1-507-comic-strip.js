@@ -5,7 +5,8 @@
  * characters are two characters of the theme (animals, people or toy figures: types/_shared/characters.js), one or both in each frame (the first frame shows the first, the second the
  * other, then both), slots the teacher may swap for any picture of the theme (lib/slot.js). Open writing: no answer key,
  * no screen.
- * Levels: 1 three frames in a row · 2 four frames · 3 four frames with a caption line each.
+ * Levels: 1 three wide frames, one under the other · 2 four frames · 3 four frames with a caption line each. Every speaker
+ * has its own bubble, its tail over that speaker (one bubble over two speakers said nothing about who speaks, 2026-11-06).
  */
 'use strict';
 const { entriesFor, fileUri } = require('../../lib/b2-common.js');
@@ -16,7 +17,7 @@ const W = require('../_shared/writing-frames.js');
 const T = require('../../primitives/_tokens.js').color;
 
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
-const D = { 1: { frames: 3, cols: 3, caption: false }, 2: { frames: 4, cols: 2, caption: false }, 3: { frames: 4, cols: 2, caption: true } };
+const D = { 1: { frames: 3, cols: 1, caption: false }, 2: { frames: 4, cols: 2, caption: false }, 3: { frames: 4, cols: 2, caption: true } };
 const WHO = [[0], [1], [0, 1], [0, 1]];
 
 module.exports = {
@@ -34,17 +35,43 @@ module.exports = {
     const pool = entriesFor(theme, L).filter((e) => isCharacter(e) && !nameRefused(theme, e.noun) && !REFUSED_NOUNS.has(e.noun));
     if (pool.length < 2) throw new Error(`G1-507: theme ${theme}/${L} has ${pool.length} characters (< 2)`);
     const two = slot.pictures(ctx, rng.sample(pool, 2), pool, theme, 'pic');
-    // the frames fill the page: one row of three, or two rows of two
-    const fw = Math.floor((660 - 14 * (d.cols - 1)) / d.cols), fh = d.cols === 3 ? 600 : 300;
-    const px = d.cols === 3 ? 110 : 96;
-    // a bubble wider than tall, at the top of the frame; room for the scene between it and the characters
-    const bw = Math.round(fw * 0.92), bh = Math.round(Math.min(fh * 0.42, fw * 0.62));
+    // the frames fill the page: three wide frames one under the other (level 1), or two rows of two (2026-11-06: three
+    // tall frames in a row left the middle of every frame empty and had no room for two characters side by side)
+    // the frames are sized to the 733 px body of the tallest title + instruction (a teacher's longer words still fit)
+    const fw = Math.floor((660 - 14 * (d.cols - 1)) / d.cols), fh = d.cols === 1 ? 235 : 359;
+    const px = d.cols === 1 ? 100 : d.caption ? 90 : 96, CAP = 48;
     const frames = Array.from({ length: d.frames }, (_, i) => {
       const who = WHO[i];
-      return `<div data-lcs-comic-frame="${i + 1}" style="position:relative;display:flex;flex-direction:column;box-sizing:border-box;width:${fw}px;height:${fh}px;border:3px solid ${T.ink};border-radius:8px;background:#FFFFFF;overflow:hidden">` +
-        `<div style="flex:1;display:flex;justify-content:center;align-items:flex-start;padding-top:8px">${W.bubble(bw, bh)}</div>` +
-        `<div style="display:flex;justify-content:space-evenly;align-items:flex-end;padding-bottom:6px">${who.map((k) => `<img class="ws-icon" src="${fileUri(theme, two[k].noun)}" alt=""${slot.attr(ctx, 'pic', k)} style="width:${px}px;height:${px}px;object-fit:contain">`).join('')}</div>` +
-        (d.caption ? `<div style="padding:0 8px 4px">${W.line(fw - 16, 44)}</div>` : '') + '</div>';
+      const Wd = fw - 6, H = fh - 6 - (d.caption ? CAP : 0);   // the scene inside the 3 px border, above the caption
+      // every speaker has its OWN bubble whose tail ends just above its head (one bubble for two speakers said nothing
+      // about who speaks); the first character always stands on the left, the second on the right. The bubbles keep
+      // clear of the frame number in the top-left corner
+      const pad = 6, clear = 28, charY = H - pad - px, reach = charY + Math.round(px * 0.1);
+      const parts = [];
+      const put = (k, x, y, w, h, tail, tipAt) => {
+        const [tx] = W.bubbleTip(w, h, tail, tipAt);
+        parts.push(`<div data-lcs-bubble-for="${k}" style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px">${W.bubble(w, h, { tail, tipAt })}</div>`);
+        parts.push(`<img class="ws-icon" data-lcs-speaker="${k}" src="${fileUri(theme, two[k].noun)}" alt=""${slot.attr(ctx, 'pic', k)} style="position:absolute;left:${Math.round(x + tx - px / 2)}px;top:${charY}px;width:${px}px;height:${px}px;object-fit:contain">`);
+      };
+      if (who.length === 1) {
+        // one speaker: one big bubble, from its side of the frame; its tail tip reaches the speaker's head
+        const w = Math.round(d.cols === 1 ? Wd * 0.7 : Wd - clear - pad), h = Math.min(Math.round((reach - pad) / 0.97), 190);
+        const y = Math.round(reach - h * 0.97);
+        if (who[0] === 0) put(0, clear, y, w, h, 'left'); else put(1, Wd - pad - w, y, w, h, 'right');
+      } else if (d.cols === 1) {
+        // a wide frame: the two bubbles side by side
+        const w = Math.floor((Wd - clear - pad - 12) / 2), h = Math.round((reach - pad) / 0.97), y = Math.round(reach - h * 0.97);
+        put(0, clear, y, w, h, 'left'); put(1, Wd - pad - w, y, w, h, 'right');
+      } else {
+        // a narrow frame: two tall bubbles side by side, each tail ending a third of the way in so both speakers stand
+        // inside the frame (stacked bubbles left the first tail far above its speaker and ran it into the second bubble)
+        const w = Math.floor((Wd - clear - pad - 6) / 2), h = Math.min(Math.round((reach - pad) / 0.97), 220), y = Math.round(reach - h * 0.97);
+        put(0, clear, y, w, h, 'left', 0.34); put(1, Wd - pad - w, y, w, h, 'right', 0.34);
+      }
+      return `<div data-lcs-comic-frame="${i + 1}" data-lcs-speakers="${who.join(',')}" style="position:relative;display:flex;flex-direction:column;box-sizing:border-box;width:${fw}px;height:${fh}px;border:3px solid ${T.ink};border-radius:8px;background:#FFFFFF;overflow:hidden">` +
+        `<span class="ws-card-badge">${i + 1}</span>` +
+        `<div data-lcs-comic-scene style="position:relative;flex:0 0 ${H}px;height:${H}px">${parts.join('')}</div>` +
+        (d.caption ? `<div style="padding:0 8px 4px">${W.line(fw - 22, 44)}</div>` : '') + '</div>';
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-comic style="flex:1;display:grid;grid-template-columns:repeat(${d.cols},${fw}px);gap:14px;justify-content:center;align-content:center;min-height:0">${frames.join('')}</div>`,
@@ -59,6 +86,34 @@ module.exports = {
       if (fs.length < 3) fails.push(`${fs.length} frames`);
       const root = document.querySelector('[data-lcs-comic]').getBoundingClientRect();
       fs.forEach((f, i) => { const b = f.getBoundingClientRect(); if (b.right > root.right + 1 || b.bottom > root.bottom + 1) fails.push(`frame ${i + 1} leaves the page`); f.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push(`frame ${i + 1}: a picture did not load`); }); });
+      // every speaker has its own bubble: the bubble's tail ends just above that speaker, nearer to it than to anyone else;
+      // no bubble lies over a speaker or over another bubble's ellipse; everything inside the frame, clear of its number
+      const ell = (sv) => { const [cx, cy, rx, ry] = sv.dataset.lcsEllipse.split(',').map(Number); const r = sv.getBoundingClientRect(); return { l: r.left + cx - rx, r: r.left + cx + rx, t: r.top + cy - ry, b: r.top + cy + ry }; };
+      const meet = (a, b) => Math.min(a.r, b.r) - Math.max(a.l, b.l) > 1 && Math.min(a.b, b.b) - Math.max(a.t, b.t) > 1;
+      const box = (e) => { const r = e.getBoundingClientRect(); return { l: r.left, r: r.right, t: r.top, b: r.bottom }; };
+      fs.forEach((f, i) => {
+        const n = i + 1, who = (f.dataset.lcsSpeakers || '').split(',').filter(Boolean);
+        const bubbles = [...f.querySelectorAll('[data-lcs-bubble-for]')], speakers = [...f.querySelectorAll('img[data-lcs-speaker]')];
+        if (bubbles.length !== who.length || speakers.length !== who.length) fails.push(`frame ${n}: ${who.length} speakers, ${speakers.length} pictures, ${bubbles.length} bubbles`);
+        const badge = f.querySelector('.ws-card-badge'), fr = f.getBoundingClientRect();
+        if (!badge || badge.textContent.trim() !== String(n)) fails.push(`frame ${n}: not numbered ${n}`);
+        const ells = bubbles.map((bw) => ell(bw.querySelector('svg')));
+        bubbles.forEach((bw, j) => {
+          const k = bw.dataset.lcsBubbleFor, sv = bw.querySelector('svg'), me = speakers.find((s) => s.dataset.lcsSpeaker === k);
+          if (!me) { fails.push(`frame ${n}: a bubble for nobody`); return; }
+          const [tx, ty] = sv.dataset.lcsTip.split(',').map(Number), sr = sv.getBoundingClientRect(), tip = [sr.left + tx, sr.top + ty];
+          const dist = (s) => { const r = s.getBoundingClientRect(); return Math.hypot(tip[0] - (r.left + r.right) / 2, tip[1] - r.top); };
+          const r = me.getBoundingClientRect();
+          if (tip[0] < r.left || tip[0] > r.right || tip[1] > r.top + r.height * 0.25 || r.top - tip[1] > 24) fails.push(`frame ${n}: bubble ${j + 1}'s tail does not end over its speaker`);
+          if (speakers.some((s) => s !== me && dist(s) <= dist(me))) fails.push(`frame ${n}: bubble ${j + 1} points nearer another speaker`);
+          if (speakers.some((s) => meet(ells[j], box(s)))) fails.push(`frame ${n}: bubble ${j + 1} lies over a speaker`);
+          if (ells.some((o, m) => m !== j && meet(o, ells[j]))) fails.push(`frame ${n}: two bubbles overlap`);
+          const b = box(sv);
+          if (b.l < fr.left + 2 || b.r > fr.right - 2 || b.t < fr.top + 2 || b.b > fr.bottom - 2) fails.push(`frame ${n}: bubble ${j + 1} leaves the frame`);
+          if (badge && meet(ells[j], box(badge))) fails.push(`frame ${n}: bubble ${j + 1} under the frame number`);
+        });
+        speakers.forEach((s) => { const b = box(s); if (b.l < fr.left + 2 || b.r > fr.right - 2 || b.b > fr.bottom - 2) fails.push(`frame ${n}: a speaker leaves the frame`); });
+      });
       return fails;
     });
   },

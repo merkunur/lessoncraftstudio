@@ -22,13 +22,21 @@ const lines = (n, w, h) => Array.from({ length: n }, () => `<div>${line(w, h)}</
  * ran out of both sides (operator). The ellipse is exact, so bubbleLine() can place a line inside it by arithmetic.
  */
 const BUBBLE = { cx: 0.5, cy: 0.4, rx: 0.48, ry: 0.36 };
-function bubble(w, h) {
+const TIP_AT = BUBBLE.cx - BUBBLE.rx * 0.62;   // the tail's tip: 0.2024 of the width from its side (the original bubble)
+function bubble(w, h, { tail = 'left', tipAt = TIP_AT } = {}) {
   const cx = w * BUBBLE.cx, cy = h * BUBBLE.cy, rx = w * BUBBLE.rx, ry = h * BUBBLE.ry;
   const at = (deg) => { const a = (deg * Math.PI) / 180; return [cx + rx * Math.cos(a), cy + ry * Math.sin(a)].map((v) => Math.round(v * 10) / 10); };
-  // the tail leaves the ellipse between 100° and 122° (screen angles: below the centre, a little left) and points down-left
-  const [ax, ay] = at(100), [bx, by] = at(122), tip = [Math.round((cx - rx * 0.62) * 10) / 10, Math.round(h * 0.97 * 10) / 10];
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true" data-lcs-bubble="1" data-lcs-ellipse="${cx},${cy},${rx},${ry}"><path d="M${ax} ${ay} A ${rx} ${ry} 0 1 0 ${bx} ${by} L ${tip[0]} ${tip[1]} Z" fill="#FFFFFF" stroke="${T.teal}" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
+  // the tail leaves the ellipse between 100° and 122° (screen angles: below the centre, a little left) and points down-left;
+  // tail 'right' (2026-11-06, Comic Strip: one bubble per speaker) is the same bubble mirrored — it points down-right;
+  // tipAt = where the tip ends, a fraction of the width from the tail's side (a narrow frame's two speakers stand nearer the middle)
+  const [ax, ay] = at(100), [bx, by] = at(122), tip = [Math.round(w * tipAt * 10) / 10, Math.round(h * 0.97 * 10) / 10];
+  const right = tail === 'right';
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true" data-lcs-bubble="1" data-lcs-ellipse="${cx},${cy},${rx},${ry}"` +
+    (right ? ` data-lcs-tail="right" data-lcs-tip="${Math.round((w - tip[0]) * 10) / 10},${tip[1]}"` : ` data-lcs-tip="${tip[0]},${tip[1]}"`) +
+    `><path${right ? ` transform="matrix(-1 0 0 1 ${w} 0)"` : ''} d="M${ax} ${ay} A ${rx} ${ry} 0 1 0 ${bx} ${by} L ${tip[0]} ${tip[1]} Z" fill="#FFFFFF" stroke="${T.teal}" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
 }
+/** where bubble(w, h)'s tail ends, in the bubble's own pixels ('left' or 'right' tail) */
+const bubbleTip = (w, h, tail = 'left', tipAt = TIP_AT) => { const x = w * tipAt; return [tail === 'right' ? w - x : x, h * 0.97]; };
 /** where a writing line lh tall sits inside bubble(w, h): centred on the ellipse, as wide as the ellipse is at the line's top
  *  and bottom edges less a margin m each side → { left, top, width } in the bubble's own pixels */
 function bubbleLine(w, h, lh, m = 12) {
@@ -38,4 +46,4 @@ function bubbleLine(w, h, lh, m = 12) {
 }
 const drawBox = (w, h) => `<div data-lcs-draw style="flex:0 0 ${w}px;width:${w}px;height:${h}px;box-sizing:border-box;border:2.5px dashed ${T.teal};border-radius:14px;background:#FFFFFF"></div>`;
 
-module.exports = { starter, line, lines, bubble, bubbleLine, BUBBLE, drawBox, esc };
+module.exports = { starter, line, lines, bubble, bubbleTip, bubbleLine, BUBBLE, drawBox, esc };

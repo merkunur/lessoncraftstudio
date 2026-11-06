@@ -1757,7 +1757,11 @@ content managers and `REFERENCE APPS/material-generators/` stay. Record and open
 3. ⭐ **Four decks in five have no `.lcs-worksheet-wrap`:** a printable-only deck anchors on `<div class="lcs-worksheet">`.
    Dry-run any deck injector on a real locale before trusting "every deck has the anchor".
 4. **A map added to the nginx config goes after `map_hash_max_size`, not at the top of the file.**
-5. **A reviewer's new defect class has to go back to the languages already reviewed:** "shape words" and "strokes of real
+5. ⭐ **Coverage is measured on every page, never a sample.** `scripts/makers/audit-launch-coverage.js decks|landings|topics|images`
+   (on the server) found 366 topic pages without the band after every spot check had passed: subject-by-grade hubs and their
+   `/online` route render apart from the intersection path. Measured 2026-11-06: 201,822 decks, 36,490 static pages, 4,050 topic
+   pages, 11,961 sitemap images, 647 share images at 1200×630, all PASS.
+6. **A reviewer's new defect class has to go back to the languages already reviewed:** "shape words" and "strokes of real
    letters" were found in batch 2 and were also false in batch 1's languages.
 
 ---

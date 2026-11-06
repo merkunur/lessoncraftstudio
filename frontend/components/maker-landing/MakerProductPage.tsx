@@ -23,6 +23,7 @@ import {
   appShotUrl,
   catalogMaker,
   getCopyFile,
+  getHubStrings,
   getTemplateFile,
   getUi,
   landingLocales,
@@ -58,6 +59,7 @@ export default async function MakerProductPage({ locale, id, slug }: { locale: s
   const screenCount = templates.filter((t) => t.screen).length;
   const keyCount = templates.filter((t) => t.key).length;
   const themed = templates.some((t) => t.themed);
+  const hubWords = (await getHubStrings(locale))!;
   const v = { name, count: templates.length, screens: screenCount };
 
   const bands = GRADE_ORDER
@@ -205,8 +207,8 @@ export default async function MakerProductPage({ locale, id, slug }: { locale: s
         <div className="ml-ruler" aria-hidden="true" />
       </section>
 
-      <ul className="ml-proofs">
-        <li><strong>{ui.proofPictures}</strong><span>{ui.proofPicturesBody}</span></li>
+      <ul className={themed ? 'ml-proofs' : 'ml-proofs is-three'}>
+        {themed && <li><strong>{ui.proofPictures}</strong><span>{ui.proofPicturesBody}</span></li>}
         <li><strong>{ui.proofLanguages}</strong><span>{ui.proofLanguagesBody}</span></li>
         <li><strong>{ui.proofTwoWays}</strong><span>{screenCount ? ui.proofTwoWaysBody : ui.proofPaperBody}</span></li>
         <li><strong>{ui.proofShare}</strong><span>{ui.proofShareBody}</span></li>
@@ -270,9 +272,9 @@ export default async function MakerProductPage({ locale, id, slug }: { locale: s
         </aside>
       </section>
 
-      <section className="ml-library" aria-labelledby="ml-lib-h">
+      <section className={themed ? 'ml-library' : 'ml-library is-plain'} aria-labelledby="ml-lib-h">
         <div className="ml-library-copy">
-          <h2 id="ml-lib-h">{ui.libraryTitle}</h2>
+          <h2 id="ml-lib-h">{themed ? ui.libraryTitle : hubWords.langTitle}</h2>
           <p>{themed ? ui.libraryBody : ui.libraryBodyPlain}</p>
           <ul className="ml-langs" aria-label={ui.langsAria}>
             {langs.map((l) => (
@@ -284,9 +286,9 @@ export default async function MakerProductPage({ locale, id, slug }: { locale: s
             ))}
           </ul>
         </div>
-        <ul className="ml-pics" aria-hidden="true">
+        {themed && <ul className="ml-pics" aria-hidden="true">
           {WALL_KEYS.map((k) => (<li key={k}><img src={wwwImg(THEME_ART[k])} alt="" width={96} height={96} loading="lazy" decoding="async" /></li>))}
-        </ul>
+        </ul>}
       </section>
 
       <section className="ml-plans ml-mat" aria-labelledby="ml-plans-h">

@@ -124,6 +124,7 @@ export default async function MakerLanding({
   const [ui, tplFile, names] = await Promise.all([getUi(locale), getTemplateFile(locale), makerNames(locale)]);
   const rb = ribbonStrings(locale);
   const newTemplates = newId ? templatesIn(newId, locale) : [];
+  const themedNew = newTemplates.some((t) => t.themed);
   const newTitles = newId ? tplFile?.[newId] ?? {} : {};
   const showcase = newId ? (catalogMaker(newId)?.showcase[locale] ?? []).slice(0, 3) : [];
   const wall = newTemplates.slice(0, 12);
@@ -180,8 +181,8 @@ export default async function MakerLanding({
       </section>
 
       {ui ? (
-        <ul className="ml-proofs">
-          <li><strong>{ui.proofPictures}</strong><span>{ui.proofPicturesBody}</span></li>
+        <ul className={themedNew ? 'ml-proofs' : 'ml-proofs is-three'}>
+          {themedNew && <li><strong>{ui.proofPictures}</strong><span>{ui.proofPicturesBody}</span></li>}
           <li><strong>{ui.proofLanguages}</strong><span>{ui.proofLanguagesBody}</span></li>
           <li><strong>{ui.proofTwoWays}</strong><span>{ui.proofTwoWaysBody}</span></li>
           <li><strong>{ui.proofShare}</strong><span>{ui.proofShareBody}</span></li>

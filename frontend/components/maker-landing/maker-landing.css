@@ -97,8 +97,9 @@
 /* what the whole collection gives, one line each */
 .ml-proofs {
   max-width: 1240px; margin: 0 auto; padding: 30px 24px 8px;
-  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 30px;
+  display: grid; grid-template-columns: repeat(var(--ml-proof-cols, 4), minmax(0, 1fr)); gap: 12px 30px;
 }
+.ml-proofs.is-three { --ml-proof-cols: 3; }
 .ml-proofs strong { display: block; font-family: var(--font-baloo-2), system-ui, sans-serif; font-size: 1.14rem; color: var(--mat); line-height: 1.2; }
 .ml-proofs span { display: block; font-size: 0.97rem; color: var(--ink-soft); margin-top: 3px; }
 
@@ -172,6 +173,7 @@
   display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: center;
   padding: 44px max(24px, calc((100vw - 1192px) / 2));
 }
+.ml-library.is-plain { grid-template-columns: minmax(0, 1fr); }
 .ml-library-copy p { margin-top: 10px; color: var(--ink-soft); font-size: 1.08rem; max-width: 34em; }
 .ml-langs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .ml-langs a, .ml-langs span {

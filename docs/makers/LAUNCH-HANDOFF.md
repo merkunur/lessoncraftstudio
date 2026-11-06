@@ -19,7 +19,12 @@ CLAUDE.md §32. Everything below this heading is the plan as written before the 
   not 10: tick (18), sum as an exercise (15), work out (7), jug (7), grey (6), trace round (3), full stop (2), bauble (2), ring for
   circle (2), multiplication square, keyring. "bin" (21) reads fine in American English. en must be American: one reviewer over those
   strings, fix at the source, rebuild the makers and the en previews, then republish the en decks in place. The en landing copy
-  already uses the American words.
+  already uses the American words. Live en decks whose text holds each word, of 19,725 (an upper bound, picture labels included):
+  work out 581, bauble 354, grey 310, full stop 203, tick 175, jug 142, trace round 95. The strings in the per-family banks were not
+  scanned yet.
+- **Size of these two fixes:** the word lists of §2 are a scan of every live deck plus regeneration, and the British pass is about
+  1,800 decks plus a full maker rebuild (1 h 45 min) and release, with no gate round since round 13. Plan each as its own task: a
+  dedicated session, one reviewer, in-place republish per locale with `fix-republish.sh`.
 - **Old landings carry frozen text** that is no longer quite true (for example "no account"): left as it is on purpose, because
   their words are frozen for SEO. The operator decides.
 - **da, no, fi demand data is partial:** autocomplete rate-limited those three, so their headlines rest on the old pages' keywords

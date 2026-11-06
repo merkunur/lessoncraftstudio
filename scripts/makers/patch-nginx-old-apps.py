@@ -73,7 +73,13 @@ def main():
     if done != 1:
         print("FATAL: expected one `location /worksheet-generators/ {`, found %d" % done)
         return 1
-    new = MAP + "\n".join(out)
+    joined = "\n".join(out)
+    # map_hash_max_size has to come before the first map in the file, so the new map goes after it, not at the top.
+    first_map = re.search(r"^map ", joined, flags=re.M)
+    if not first_map:
+        print("FATAL: no top-level map to insert before")
+        return 1
+    new = joined[:first_map.start()] + MAP + joined[first_map.start():]
     if DRY:
         print(MAP)
         print(rule)

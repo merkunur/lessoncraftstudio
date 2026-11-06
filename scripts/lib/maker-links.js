@@ -65,6 +65,15 @@ function makerFor(o) {
   return null;
 }
 
+/* The science and health families have no maker of their own (no such maker exists; Health was ruled out 2026-11-02). Their
+ * pages lead to the real maker closest to the page's task, and say only "make your own", never "like this worksheet?". */
+const RELATED = {
+  'five-senses': 'sorting', recycling: 'sorting', 'healthy-habits': 'sorting', habitats: 'sorting', 'sink-or-float': 'sorting',
+  'science-sequence': 'sorting', seasons: 'picture-cards', 'human-body': 'picture-cards', 'weather-symbols': 'picture-cards',
+  'road-safety': 'picture-cards', plants: 'picture-cards', 'animal-life-cycles': 'picture-cards', 'earth-and-space': 'picture-cards',
+};
+const relatedFor = (exerciseType) => RELATED[exerciseType] || null;
+
 /** the landing of a maker in a language: { id, kw, path, url } or null (Cursive has none in sv / fi) */
 function landing(locale, id) {
   const m = catalog()[id];
@@ -114,10 +123,13 @@ function cssRules() {
  */
 function block(o) {
   const s = ribbonStrings()[o.locale] || ribbonStrings().en;
-  const l = o.makerId ? landing(o.locale, o.makerId) : null;
+  const direct = o.makerId ? landing(o.locale, o.makerId) : null;
+  const related = !direct && relatedFor(o.exerciseType) ? landing(o.locale, relatedFor(o.exerciseType)) : null;
+  const l = direct || related;
   const href = l ? l.url : hubUrl(o.locale);
   const title = l ? l.kw : s.hubTitle;
-  const body = s[o.line || 'line'];
+  // The sentence after the question: true of any maker, so it can stand under a related one.
+  const body = related ? s.line.slice(s.line.indexOf('?') + 1).trim() : s[o.line || 'line'];
   return START +
     `<style id="lcs-maker-ribbon-css">${cssRules()}</style>` +
     `<aside id="lcs-maker-ribbon" aria-label="${escapeHtml(s.aria)}">` +
@@ -129,4 +141,4 @@ function block(o) {
     '</aside>' + END;
 }
 
-module.exports = { LOCALES, START, END, MARKER, STRIP_RE, templateIdOf, makerFor, landing, hubUrl, ribbonImage, cssRules, block, ribbonStrings };
+module.exports = { LOCALES, START, END, MARKER, STRIP_RE, templateIdOf, makerFor, relatedFor, landing, hubUrl, ribbonImage, cssRules, block, ribbonStrings };

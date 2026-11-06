@@ -61,7 +61,7 @@ function run(locale) {
   const dir = path.join(ROOT, locale);
   if (!fs.existsSync(dir)) return null;
   const seen = new Set();
-  const sum = { locale, written: 0, already: 0, maker: 0, hub: 0, aliases: 0, skipped: 0, errors: 0 };
+  const sum = { locale, written: 0, already: 0, maker: 0, related: 0, hub: 0, aliases: 0, skipped: 0, errors: 0 };
   let done = 0;
   for (const entry of fs.readdirSync(dir)) {
     if (entry.startsWith('.')) continue;
@@ -91,8 +91,9 @@ function run(locale) {
       app: manifest && manifest.generator && manifest.generator.app,
     });
     const onLanding = makerId && links.landing(locale, makerId);
-    if (onLanding) sum.maker++; else sum.hub++;
-    const next = inject(strip(content), links.block({ locale, makerId: onLanding ? makerId : null }));
+    const exerciseType = manifest && manifest.exercise_type;
+    if (onLanding) sum.maker++; else if (links.relatedFor(exerciseType)) sum.related++; else sum.hub++;
+    const next = inject(strip(content), links.block({ locale, makerId: onLanding ? makerId : null, exerciseType }));
     if (next === null) { sum.errors++; console.log(`no anchor: ${locale}/${entry}`); continue; }
     if (next === content) { sum.already++; continue; }
     if (!DRY) atomicWrite(html, next);
@@ -105,7 +106,7 @@ let bad = 0;
 for (const locale of ONLY ? [ONLY] : links.LOCALES) {
   const s = run(locale);
   if (!s) { console.log(`${locale}: no decks directory`); continue; }
-  console.log(`${locale}: ${DRY ? 'would write' : 'wrote'} ${s.written} · already ${s.already} · maker ${s.maker} · hub ${s.hub} · aliases ${s.aliases} · no deck.html ${s.skipped} · errors ${s.errors}`);
+  console.log(`${locale}: ${DRY ? 'would write' : 'wrote'} ${s.written} · already ${s.already} · maker ${s.maker} · related ${s.related} · hub ${s.hub} · aliases ${s.aliases} · no deck.html ${s.skipped} · errors ${s.errors}`);
   bad += s.errors;
 }
 process.exit(bad ? 1 : 0);

@@ -1041,7 +1041,7 @@ function renderLanding(locale, l) {
   const _tplInSlug = (String(l.canonicalDeckSlug || '').match(/(?:^|-)((?:k|g[1-3])-?\d{3})(?:-|$)/i) || [])[1];
   const makerId = makerLinks.makerFor({ variantId: _tplInSlug, exerciseType: l.coordinate.type });
   const maker = makerId ? makerLinks.landing(locale, makerId) : null;
-  const ribbonHtml = makerLinks.block({ locale, makerId: maker ? makerId : null });
+  const ribbonHtml = makerLinks.block({ locale, makerId: maker ? makerId : null, exerciseType: l.coordinate.type });
   const ribbonWords = makerLinks.ribbonStrings()[locale] || makerLinks.ribbonStrings().en;
 
   const embedSnippet = buildEmbedSnippet({
@@ -1594,7 +1594,7 @@ ${siteChrome.header(locale, 'landing')}
 <span class="sep" aria-hidden="true">›</span>
 <span class="here" aria-current="page">${esc(hub.h1)}</span>
     </nav>
-${makerLinks.block({ locale, makerId: (() => { const id = makerLinks.makerFor({ exerciseType: hub.type }); return id && makerLinks.landing(locale, id) ? id : null; })(), line: 'topicLine' })}
+${makerLinks.block({ locale, makerId: (() => { const id = makerLinks.makerFor({ exerciseType: hub.type }); return id && makerLinks.landing(locale, id) ? id : null; })(), exerciseType: hub.type, line: 'topicLine' })}
 
     <p class="eyebrow"><span class="bar"></span>${esc(tName)}</p>
     <h1>${esc(hub.h1)}</h1>

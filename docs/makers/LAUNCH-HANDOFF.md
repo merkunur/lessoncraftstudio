@@ -11,11 +11,15 @@ maker band on worksheet landings, topic pages, Level Set hubs and all decks, the
 CLAUDE.md §32. Everything below this heading is the plan as written before the launch.
 
 **Still open:**
-- **Catalogue republish queue (§2):** untouched by the launch.
-- **British wording in en template strings:** K-421, K-429 ("trace round", "bauble"), G1-283, G2-311 ("full stop"), G2-252, G2-260,
-  G2-262, G2-263 ("measuring jug"), G3-407 ("multiplication square"), G3-411 ("keyring"). en must be American: fix in
-  `scripts/worksheet-gen/i18n/strings.en.json`, rebuild the makers, rebuild those en previews, republish the en decks in place
-  (about 150; `fix-republish.sh`). The en landing copy already uses the American words.
+- **Catalogue republish queue (§2), measured 2026-11-06:** the waves fix1104 to fix1119, including the 702-deck fix1115 and the
+  2,201-deck fix1106, RAN on 2026-11-02 (run logs in `/root/staging/fixNNNN/`; live deck manifests dated that day). The picture
+  indexes and `pww-index-*` were stale on the server and were copied 2026-11-06 (32 files). **Not run:** fix1120 (no staging folder,
+  no record), everything in `docs/makers/republish-2026-11-03-bank-words.json` (rounds of 3 to 5 November), and srd G1-331 level 3.
+- **British English in the en worksheet strings, measured 2026-11-06:** about 80 strings in `scripts/worksheet-gen/i18n/strings.en.json`,
+  not 10: tick (18), sum as an exercise (15), work out (7), jug (7), grey (6), trace round (3), full stop (2), bauble (2), ring for
+  circle (2), multiplication square, keyring. "bin" (21) reads fine in American English. en must be American: one reviewer over those
+  strings, fix at the source, rebuild the makers and the en previews, then republish the en decks in place. The en landing copy
+  already uses the American words.
 - **Old landings carry frozen text** that is no longer quite true (for example "no account"): left as it is on purpose, because
   their words are frozen for SEO. The operator decides.
 - **da, no, fi demand data is partial:** autocomplete rate-limited those three, so their headlines rest on the old pages' keywords

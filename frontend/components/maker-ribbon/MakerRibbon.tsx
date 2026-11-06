@@ -3,11 +3,17 @@
  * maker; a theme or a grade gets a shelf of three. Both link to the landing pages, and to the hub. */
 import './maker-ribbon.css';
 import Link from 'next/link';
-import { makerForExerciseType, ribbonMaker, ribbonStrings, shelfMakers, RibbonMaker } from '@/lib/makers/ribbon';
+import { makerForExerciseType, ribbonMaker, ribbonStrings, shelfMakers, subjectShelf, RibbonMaker } from '@/lib/makers/ribbon';
 
 export interface TopicAxis { axis: string; axisKey: string }
 
 async function makersFor(locale: string, axes: TopicAxis[]): Promise<{ single: RibbonMaker | null; shelf: RibbonMaker[] }> {
+  const subject = axes.find((a) => a.axis === 'subject');
+  if (subject) {
+    const level = axes.find((a) => a.axis === 'educational-level')?.axisKey ?? 'kindergarten';
+    const picked = await Promise.all(subjectShelf(subject.axisKey, level, locale).map((id) => ribbonMaker(id, locale)));
+    return { single: null, shelf: picked.filter((m): m is RibbonMaker => !!m) };
+  }
   const type = axes.find((a) => a.axis === 'exercise-type');
   if (type) {
     const id = makerForExerciseType(type.axisKey);

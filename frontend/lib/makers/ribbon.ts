@@ -5,7 +5,7 @@
  */
 import typeMapJson from './type-to-maker.json';
 import ribbonJson from '@/content/maker-landings/ribbon.json';
-import { catalogMaker, getCopyFile, makerInLocale, templatesIn, MAKER_IDS } from './landings';
+import { catalogMaker, getCopyFile, makerInLocale, templatesIn, HUB_GROUPS, MAKER_IDS } from './landings';
 
 interface TypeMap { byTemplate: Record<string, string>; byFamily: Record<string, string>; byApp: Record<string, string> }
 const TYPES = typeMapJson as TypeMap;
@@ -49,6 +49,31 @@ export function shelfMakers(axis: string, key: string, locale: string): string[]
     if (!out.includes(id) && makerInLocale(id, locale)) out.push(id);
   }
   return out;
+}
+
+/* Which hub shelves belong to a taxonomy subject. Science has no maker, so its pages show the grade's shelf. */
+const SUBJECT_GROUPS: Record<string, string[]> = {
+  math: ['numbers', 'operations', 'measure'],
+  letters: ['reading', 'words', 'writing'],
+  logic: ['thinking'],
+  'spatial-reasoning': ['shapes'],
+};
+
+/** three makers for a subject page of one grade: the fullest maker of each shelf first, so a math page is not three counting makers */
+export function subjectShelf(subject: string, levelKey: string, locale: string): string[] {
+  const keys = SUBJECT_GROUPS[subject];
+  if (!keys) return shelfMakers('educational-level', levelKey, locale);
+  const grades = LEVEL_GRADES[levelKey] ?? ['K'];
+  const ranked = keys.map((key) => (HUB_GROUPS.find((g) => g.key === key)?.makers ?? [])
+    .filter((id) => makerInLocale(id, locale))
+    .map((id) => ({ id, n: templatesIn(id, locale).filter((t) => grades.includes(t.grade)).length }))
+    .filter((m) => m.n > 0)
+    .sort((a, b) => b.n - a.n || a.id.localeCompare(b.id)));
+  const out: string[] = [];
+  for (let round = 0; out.length < 3 && ranked.some((list) => list[round]); round++) {
+    for (const list of ranked) if (list[round] && out.length < 3) out.push(list[round].id);
+  }
+  return out.length ? out : shelfMakers('educational-level', levelKey, locale);
 }
 
 export interface RibbonMaker { id: string; kw: string; href: string; image: string }

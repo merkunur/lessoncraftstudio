@@ -876,6 +876,8 @@ async function renderSubjectGradeHub(
           ))}
         </nav>
 
+        <MakerRibbon locale={locale} axes={[{ axis: 'subject', axisKey: subjectKey }, { axis: 'educational-level', axisKey: levelKey }]} />
+
         <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">{h1}</h1>
           <ResultCount locale={locale} count={count} />

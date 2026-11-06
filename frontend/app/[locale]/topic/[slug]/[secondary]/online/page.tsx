@@ -48,6 +48,7 @@ import ResultCount from '@/components/catalog/ResultCount';
 import DeckGridClient, { TopicDeckCardData } from '../../DeckGridClient';
 import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 
 const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
 type TopicLocale = TopicEnabledLocale;
@@ -265,6 +266,8 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
             </span>
           ))}
         </nav>
+
+        <MakerRibbon locale={locale} axes={[{ axis: 'subject', axisKey: subjectKey }, { axis: 'educational-level', axisKey: levelKey }]} />
 
         <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">{h1}</h1>

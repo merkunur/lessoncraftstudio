@@ -11,6 +11,24 @@ flawlessly, nothing breaks in the current templates, work stays local until ever
 
 ## NEXT
 
+**DONE AND LIVE 2026-11-10.** Commit `ae867d94e` (256 files, no images), deployed with deploy.sh. Results: 59 makers registered, 7,857 static pages, smoke tests and the payment canary passed. `scripts/ops/upload-flagship-art.sh` installed the 435 drawings, all protected, 0 differing. 13,871 maker previews were uploaded.
+- **Live checks:**
+  - `audit-launch-coverage.js images`: 647 pages, PASS.
+  - `audit-old-landings-live.js`: 363 pages, 0 findings.
+  - `scripts/makers/audit-live-landing-walls.js`: 647 landings, 11,930 cards, equal to the catalog.
+  - Pickers seen in a real browser on the origin. Cloudflare blocks headless Chrome, so the probe goes through `--host-resolver-rules=MAP www.lessoncraftstudio.com 65.108.5.250 --ignore-certificate-errors`.
+- **CBN numbering fix republished in place:** 2,200 noindex decks, 200 per language. Generation used `cli.js generate --wave waves/wave-cbn-<loc>.json --force`, which writes to `scripts/worksheet-gen/out/staging/`. Checks: check-zips-cbn, verify-cbn-solid, and verify-interactive ×11 (200 played, 0 failed each).
+  - Mapped to the live slugs by language + title with `scripts/publish-cli/map-cbn-updates-by-title.js`. The live slugs keep their first copy numbers.
+  - Published with `publish-wave.js … --noindex --updates-manifest=… --confirm`: 2,200 UPDATE, audit 200/200 clean ×11, `audit-update-injections.js` 0 lost.
+  - Live fox printable: 17 numbers, was 13.
+- **Server cleaned:**
+  - the 2,320 superseded deck versions (`scripts/publish-cli/prune-superseded-versions.js <manifest> --apply`) and their `.bak` copies
+  - the cbn upload and its pre-band backup
+  - the fix1104–fix1119 uploads
+  - the dry-run batch
+  - About 9.3 GB freed.
+- Open: nothing in this programme. Unrelated: `.publish-cli-staging` holds 5.7 GB of older dry-run extraction folders (`fix11xx-*-dry`, `venn2-*`, measured 2026-11-10). housekeeping.sh never removes them because it only matches `batch-*`.
+
 **2026-11-07: the operator rejected all 435 new drawings (docs/makers/FLAGSHIP-ART-REVIEW.md) and accepted a 12-drawing trial: "good. This is the standard." They are being redrawn to docs/makers/ART-BRIEF.md: one Opus artist agent at a time, batch by batch from docs/makers/art-queue.json (43 batches, 423 drawings), into art-src/drawn/. Every drawing gets the artist's review and then mine beside the library before it is marked done. After the last batch: install, rerun every engine, rebuild, gates, deploy.**
 
 **Redraw status 2026-11-09: ALL 435 ACCEPTED by the operator and locked** (docs/makers/art-accepted.json, art-lock.json; tools/art-guard.js; mirrored to lcs-backups/flagship-art and lcs-backups/images). Integration: bash scripts/worksheet-gen/tools/fl-integrate.sh (now also rebuilds the K-488..K-492 face pins, build-fd-face-pins.js). Then every check below on the final state, the screen replays with --pool --with-new (the new drawings are left out without it).

@@ -211,7 +211,9 @@ const MODES = {
       const col = P.COLOURS[l], paint = ctx && ctx.answerKey && col !== 'none' ? `background:${PALETTE[col]};` : '';
       return `<span style="display:inline-flex;align-items:center;justify-content:center;width:${px}px;height:${px}px;box-sizing:border-box;border:1px solid #9A9A9A;font:700 ${Math.floor(px * 0.56)}px 'Baloo 2',cursive;color:#3A3A3A;${paint}"${mark && col !== 'none' ? ` data-lcs-drop="1" data-lcs-answer="${col}"` : ''}${ctx && ctx.answerKey ? ' data-lcs-key-sample="cell"' : ''}>${num[col]}</span>`;
     }));
-    const key2 = keyRow(num, loc, false).replace(/data-lcs-crayon="([a-z]+)"/g, (m, col) => (col === 'none' ? m : `${m} data-lcs-bin="${col}"`));
+    // a key colour is a bin that PAINTS the tapped cell (data-lcs-fill); without it the screen wrote the colour's name
+    // into the cell (operator 2026-11-10). screen.js now refuses a colour bin with no fill.
+    const key2 = keyRow(num, loc, false).replace(/data-lcs-crayon="([a-z]+)"/g, (m, col) => (col === 'none' ? m : `${m} data-lcs-bin="${col}" data-lcs-fill="${PALETTE[col]}"`));
     return { bodyHtml: page('pixel', `<div style="display:grid;grid-template-columns:repeat(${n},${px}px);justify-content:center;border:3px solid ${INK}">${cells.join('')}</div>${key2}`), meta: { picture: name, n, num } };
   },
   'letter-grid'({ lv, loc, rng, ctx }) {

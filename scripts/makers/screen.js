@@ -68,6 +68,9 @@ function derive() {
       // a bin's picture travels in DECK_BUNDLE: its marks stripped (G1-475's piece number tag, 2026-11-03) — the served
       // page keeps no data-lcs-* outside ALLOW, the bundle neither
       const bs = bins.map((el, i) => ({ ...box(el), id: el.getAttribute('data-lcs-bin'), label: label(el, String(i + 1)), html: el.querySelector('img,svg') ? el.innerHTML.replace(/\sdata-lcs-[a-z0-9-]+(?:="[^"]*")?/g, '') : '', ...(el.hasAttribute('data-lcs-fill') ? { fill: el.getAttribute('data-lcs-fill') } : {}) }));
+      // a colour of the page's key (a crayon or a legend swatch) must PAINT the target: a bin without data-lcs-fill writes
+      // its label, so Mystery Grid Picture (G1-555) printed "red" in the cells instead of colouring them (2026-11-10)
+      for (const el of bins) if ((el.hasAttribute('data-lcs-crayon') || el.hasAttribute('data-lcs-color')) && !el.hasAttribute('data-lcs-fill')) errors.push(`place: the colour bin "${el.getAttribute('data-lcs-bin')}" has no data-lcs-fill, so a tap would write its name instead of painting`);
       parts.push({ cls: 'place', items, bins: bs, dom: Math.min(...items.map((it) => it.dom)) });
     }
   }

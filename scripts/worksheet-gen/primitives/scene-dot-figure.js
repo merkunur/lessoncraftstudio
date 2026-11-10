@@ -39,6 +39,70 @@ function segHitsBox(p, q, b, pad = 2) {
 }
 const overlaps = (a, b) => !(a.x + a.w < b.x || b.x + b.w < a.x || a.y + a.h < b.y || b.y + b.h < a.y);
 
+/**
+ * heroSplit(d, body) → { whole, clipped }: the drawn line's pieces (subpaths) sorted for a hero-only page. The hero's mask
+ * is coarse (cells of 600 / body.w picture units) and its line is wider than a cell, so clipping the line to the mask cut
+ * its outer edge into stairs (operator 2026-11-10, Even or Odd Dot-to-Dot). A piece that touches the hero (a vertex within
+ * one cell of the mask) and never runs more than WHOLE_CELLS past it is the hero's own line: it goes to `whole`, drawn
+ * without the clip. A hole stays with the outline around it (evenodd needs both in one path, or the hole prints solid), so
+ * pieces are judged by their outermost container. Everything else goes to `clipped`, as before. Measured over 1,960
+ * scenes: 4,770 pieces were cut into stairs; 4,188 reach at most 3 cells past the hero. A path with any command other
+ * than M L Q Z is not sorted (all of it clipped, the old drawing).
+ */
+/**
+ * dropScraps(d, pts, closed) → d without the tiny loose pieces that lie ON the dot path: what the erasing of the dotted part
+ * of the outline left behind (a stem's tip, a wave's end, a few rim strokes). Dot-sized and between two dots, a child reads
+ * one as a dot (operator 2026-11-10, the apple of Even or Odd Dot-to-Dot). A scrap: at most SCRAP_UNITS across, inside no
+ * other piece (a hole or an eye's highlight is never one), its centre within SCRAP_NEAR of the path's polyline. Measured
+ * 2026-11-10: 1,988 such pieces in 723 of 4,793 fits (205 in 67 of the 212 published-pool fits); the 635 small loose pieces
+ * away from the path (freckles, seeds) are kept. A path with any command other than M L Q Z is returned unchanged.
+ */
+const SCRAP_UNITS = 10, SCRAP_NEAR = 16;
+function dropScraps(d, pts, closed) {
+  if (!d || !pts || pts.length < 2 || /[^MLQZ0-9.\-\s,]/.test(d)) return d || '';
+  const P = (d.match(/M[^M]*/g) || []).map((sp) => {
+    const n = (sp.match(/-?\d+(?:\.\d+)?/g) || []).map(Number); let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (let i = 0; i + 1 < n.length; i += 2) { x0 = Math.min(x0, n[i]); x1 = Math.max(x1, n[i]); y0 = Math.min(y0, n[i + 1]); y1 = Math.max(y1, n[i + 1]); }
+    return { sp, box: [x0, y0, x1, y1], area: (x1 - x0) * (y1 - y0) };
+  });
+  const line = closed ? pts.concat([pts[0]]) : pts;
+  const near = (px, py) => { for (let i = 0; i + 1 < line.length; i++) { const [ax, ay] = line[i], [bx, by] = line[i + 1], dx = bx - ax, dy = by - ay, L = dx * dx + dy * dy; let t = L ? ((px - ax) * dx + (py - ay) * dy) / L : 0; t = Math.max(0, Math.min(1, t)); if (Math.hypot(ax + t * dx - px, ay + t * dy - py) <= SCRAP_NEAR) return true; } return false; };
+  return P.filter((a) => {
+    const [x0, y0, x1, y1] = a.box; if (Math.max(x1 - x0, y1 - y0) > SCRAP_UNITS) return true;
+    if (P.some((b) => b !== a && b.area > a.area && b.box[0] <= x0 && b.box[1] <= y0 && b.box[2] >= x1 && b.box[3] >= y1)) return true;
+    return !near((x0 + x1) / 2, (y0 + y1) / 2);
+  }).map((a) => a.sp).join('');
+}
+
+const WHOLE_CELLS = 3;
+function heroSplit(d, B) {
+  if (!d || /[^MLQZ0-9.\-\s,]/.test(d)) return { whole: '', clipped: d || '' };
+  const subs = d.match(/M[^M]*/g) || [];
+  const W = B.w, Hh = B.h, C = 600 / W, D = new Int16Array(W * Hh).fill(32767), q = [];
+  for (let i = 0; i < W * Hh; i++) if (B.s.charCodeAt(i) === 49) { D[i] = 0; q.push(i); }
+  for (let h = 0; h < q.length; h++) { const i = q[h], x = i % W, y = (i / W) | 0; const nb = [[x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]]; for (const [nx, ny] of nb) { if (nx < 0 || ny < 0 || nx >= W || ny >= Hh) continue; const j = ny * W + nx; if (D[j] > D[i] + 1) { D[j] = D[i] + 1; q.push(j); } } }
+  const dist = (x, y) => { const cx = Math.floor(x / C), cy = Math.floor(y / C); return cx < 0 || cy < 0 || cx >= W || cy >= Hh ? 999 : D[cy * W + cx]; };
+  const P = subs.map((sp) => {
+    const n = (sp.match(/-?\d+(?:\.\d+)?/g) || []).map(Number), pts = [];
+    for (let i = 0; i + 1 < n.length; i += 2) pts.push([n[i], n[i + 1]]);
+    let mn = 999, mx = 0, x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const [x, y] of pts) { const v = dist(x, y); if (v < mn) mn = v; if (v > mx) mx = v; if (x < x0) x0 = x; if (y < y0) y0 = y; if (x > x1) x1 = x; if (y > y1) y1 = y; }
+    return { sp, pts, mn, mx, box: [x0, y0, x1, y1], area: (x1 - x0) * (y1 - y0) };
+  });
+  const inside = ([px, py], pts) => { let c = false; for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) { const [xi, yi] = pts[i], [xj, yj] = pts[j]; if ((yi > py) !== (yj > py) && px < (xj - xi) * (py - yi) / (yj - yi) + xi) c = !c; } return c; };
+  // each piece's outermost container (the largest piece whose box holds it and whose polygon holds its first vertex)
+  const root = P.map((a, i) => {
+    let best = i;
+    P.forEach((b, j) => { if (j !== i && b.area > P[best].area && b.box[0] <= a.box[0] && b.box[1] <= a.box[1] && b.box[2] >= a.box[2] && b.box[3] >= a.box[3] && a.pts.length && inside(a.pts[0], b.pts)) best = j; });
+    return best;
+  });
+  const far = new Map();
+  P.forEach((a, i) => far.set(root[i], Math.max(far.get(root[i]) || 0, a.mx)));
+  const whole = [], clipped = [];
+  P.forEach((a, i) => { const r = P[root[i]]; ((r.mn <= 1 && far.get(root[i]) <= WHOLE_CELLS) ? whole : clipped).push(a.sp); });
+  return { whole: whole.join(''), clipped: clipped.join('') };
+}
+
 function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, lite = false, labelPx = 20, width = 640, heroOnly = false }) {
   const t = tokens;
   const fit = scene.fit && scene.fit[count];
@@ -69,16 +133,26 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
   const parts = [];
   // the scene: frame, then the art (picture units, scaled)
   parts.push(el('rect', { x: 1.5, y: 1.5, width: width - 3, height: height - 3, rx: 14, fill: '#FFFFFF', stroke: t.color.ink, 'stroke-width': 3 }));
-  let heroClip = '';
+  const artD = dropScraps(lite ? fit.lite : fit.art, fit.pts, fit.closed);
+  let artSvg = el('path', { d: artD, fill: t.color.ink, 'fill-rule': 'evenodd' });
   if (heroOnly) {
-    // the hero's silhouette as a clip (its mask cells, run by run, one cell grown so its own lines at the rim stay)
     if (!scene.body) throw new Error(`sceneDotFigure: ${scene.id} has no hero mask`);
+    const H = heroSplit(artD, scene.body);
+    // the hero's silhouette as a clip (its mask cells, run by run, one cell grown so its own lines at the rim stay), its
+    // rim rounded by a circle on every edge cell: square cells cut a line into visible stairs (operator 2026-11-10). The
+    // circles turn the same way as the cell rows (clockwise): turning the other way, nonzero cancels them where they overlap
+    // a row and the clip prints as a beaded fringe (seen on the first render)
     const B = scene.body, C = 600 / B.w, on = (x, y) => x >= 0 && y >= 0 && x < B.w && y < B.h && B.s.charCodeAt(y * B.w + x) === 49;
-    const runs = [];
-    for (let y = 0; y < B.h; y++) { let x0 = -1; for (let x = 0; x <= B.w; x++) { const v = x < B.w && (on(x, y) || on(x - 1, y) || on(x + 1, y) || on(x, y - 1) || on(x, y + 1)); if (v && x0 < 0) x0 = x; if (!v && x0 >= 0) { runs.push(`M${x0 * C} ${y * C}h${(x - x0) * C}v${C}h${-(x - x0) * C}z`); x0 = -1; } } }
-    heroClip = `<clipPath id="d2d-hero-${scene.id}"><path d="${runs.join('')}"/></clipPath>`;
+    const grown = (x, y) => on(x, y) || on(x - 1, y) || on(x + 1, y) || on(x, y - 1) || on(x, y + 1);
+    const runs = [], r = +(C * 0.75).toFixed(3);
+    for (let y = 0; y < B.h; y++) { let x0 = -1; for (let x = 0; x <= B.w; x++) { const v = x < B.w && grown(x, y); if (v && x0 < 0) x0 = x; if (!v && x0 >= 0) { runs.push(`M${x0 * C} ${y * C}h${(x - x0) * C}v${C}h${-(x - x0) * C}z`); x0 = -1; } } }
+    if (H.clipped) for (let y = 0; y < B.h; y++) for (let x = 0; x < B.w; x++) if (grown(x, y) && !(grown(x - 1, y) && grown(x + 1, y) && grown(x, y - 1) && grown(x, y + 1))) runs.push(`M${((x + 0.5) * C - r).toFixed(2)} ${((y + 0.5) * C).toFixed(2)}a${r} ${r} 0 1 1 ${2 * r} 0a${r} ${r} 0 1 1 ${-2 * r} 0z`);
+    // the hero's own lines (touching it, never more than WHOLE_CELLS past it, holes kept with their outline) are drawn
+    // whole; only lines that run on into the rest of the picture go through the clip
+    artSvg = (H.whole ? el('path', { d: H.whole, fill: t.color.ink, 'fill-rule': 'evenodd' }) : '') +
+      (H.clipped ? `<clipPath id="d2d-hero-${scene.id}"><path d="${runs.join('')}"/></clipPath>` + el('path', { d: H.clipped, fill: t.color.ink, 'fill-rule': 'evenodd', 'clip-path': `url(#d2d-hero-${scene.id})` }) : '');
   }
-  parts.push(el('g', { transform: `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, heroClip + el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd', ...(heroOnly ? { 'clip-path': `url(#d2d-hero-${scene.id})` } : {}) })));
+  parts.push(el('g', { transform: `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, artSvg));
 
   // v2: no pre-printed remainder — the rest of the outline is the picture's own line (the operator's review: a grey
   // straight remainder reads as a continuation of the dots, not as the picture)
@@ -165,3 +239,5 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
 }
 
 module.exports = sceneDotFigure;
+module.exports.heroSplit = heroSplit;
+module.exports.dropScraps = dropScraps;

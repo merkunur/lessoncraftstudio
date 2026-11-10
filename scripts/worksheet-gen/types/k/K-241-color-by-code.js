@@ -61,7 +61,9 @@ function legendBanner({ entries, mode, screen, ctx }) {
       : `<span style="display:inline-block;width:92px;border-bottom:2px solid #8A8276;height:20px"${slot.attr(ctx, 'key' + e.slot, 0)}></span>`)
       : `<span style="font-family:'Nunito';font-weight:800;font-size:17px;color:#3A3530">${e.word}</span>`;
     // makers (2026-11-02): a sight-word code is a slot (tap the word in the code: another word of the bank)
-    return `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-legend="${e.code}" data-lcs-color="${e.colorKey}"${screen ? ` data-lcs-bin="${e.code}"` : ''}${e.slot != null ? slot.attr(ctx, 'word', e.slot) : ''}>` +
+    // on the screen a code is a bin that PAINTS the tapped item its colour (data-lcs-fill); without it the tap wrote the
+    // legend's text over the item (found 2026-11-10 by screen.js's colour-bin check)
+    return `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-legend="${e.code}" data-lcs-color="${e.colorKey}"${screen ? ` data-lcs-bin="${e.code}"${e.blank ? '' : ` data-lcs-fill="${SWATCH[e.colorKey]}"`}` : ''}${e.slot != null ? slot.attr(ctx, 'word', e.slot) : ''}>` +
       codeCell +
       `<span style="font-family:'Baloo 2';font-weight:700;font-size:16px;color:#8A8276">→</span>` +
       svgRoot({ width: 22, height: 22, label: e.colorKey },

@@ -16,8 +16,9 @@
  *                                    "images should never be pushed to git"); only the lock below (names + SHA-1) is
  *                                    committed. The masters reach the server by upload, as the image library did.
  *   7. written rules               → CLAUDE.md §A.1 / §A.3
- *   plus the off-host copy: scripts/ops/pull-deck-backup.sh pulls the isolated masters to the PC weekly, and --lock
- *   mirrors each locked drawing to C:/Users/rkgen/lcs-backups/flagship-art at once.
+ *   plus the PC backup, ONE copy (operator 2026-11-10): C:/Users/rkgen/lcs-backups/images/flagship-art/drawn. --lock
+ *   writes each locked drawing there at once, and scripts/ops/backup-images.sh (weekly) keeps it in step. A drawing
+ *   that changed keeps its earlier version in ../versions/<noun>.<stamp>.svg.
  *
  * The lock (docs/makers/art-lock.json) lists every drawing the owner accepted (docs/makers/art-accepted.json) with the
  * SHA-1 of its source. A deliberate fix to a locked drawing: --unlock=<noun>, change it, --lock again.
@@ -43,7 +44,10 @@ const REPO = path.join(WG, '..', '..');
 const DRAWN = path.join(WG, 'art-src', 'drawn');
 const LOCK = path.join(REPO, 'docs', 'makers', 'art-lock.json');
 const ACCEPTED = path.join(REPO, 'docs', 'makers', 'art-accepted.json');
-const MIRROR = process.env.LCS_ART_MIRROR || 'C:/Users/rkgen/lcs-backups/flagship-art';
+// the same folder backup-images.sh writes (one PC copy, never two); a changed drawing's earlier copy goes to ../versions
+const MIRROR = process.env.LCS_ART_MIRROR || 'C:/Users/rkgen/lcs-backups/images/flagship-art/drawn';
+const VERSIONS = path.join(MIRROR, '..', 'versions');
+const STAMP = new Date().toISOString().replace(/[-:]/g, '').replace('T', '_').slice(0, 15);
 const sha1 = (f) => crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
 const readLock = () => (fs.existsSync(LOCK) ? JSON.parse(fs.readFileSync(LOCK, 'utf8')) : { note: '', files: {} });
@@ -76,7 +80,17 @@ function lock() {
     if (l.files[noun] && l.files[noun] !== sha1(f)) { console.log(`CHANGED since it was locked, left as locked: ${noun} (unlock it first if the change is deliberate)`); continue; }
     if (!l.files[noun]) { l.files[noun] = sha1(f); added++; }
     try { fs.chmodSync(f, 0o444); } catch (e) { /* a file system without modes */ }
-    if (canMirror) { const m = path.join(MIRROR, noun + '.svg'); if (!fs.existsSync(m) || sha1(m) !== l.files[noun]) { try { if (fs.existsSync(m)) fs.chmodSync(m, 0o644); } catch (e) { /* */ } fs.copyFileSync(f, m); fs.chmodSync(m, 0o444); mirrored++; } }
+    if (canMirror) {
+      const m = path.join(MIRROR, noun + '.svg');
+      if (!fs.existsSync(m) || sha1(m) !== l.files[noun]) {
+        if (fs.existsSync(m)) { // keep the earlier version, as backup-images.sh does; never overwrite a backup
+          fs.mkdirSync(VERSIONS, { recursive: true });
+          try { fs.chmodSync(m, 0o644); } catch (e) { /* */ }
+          fs.renameSync(m, path.join(VERSIONS, `${noun}.${STAMP}.svg`));
+        }
+        fs.copyFileSync(f, m); fs.chmodSync(m, 0o444); mirrored++;
+      }
+    }
   }
   writeLock(l);
   console.log(`locked ${Object.keys(l.files).length} drawings (${added} new), mirrored ${mirrored} to ${canMirror ? MIRROR : '(no mirror folder)'}`);

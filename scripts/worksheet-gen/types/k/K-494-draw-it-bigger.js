@@ -41,7 +41,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const key = !!(ctx && ctx.answerKey);
     const list = H.pinned('K-494', difficulty) || H.order('K-494');
-    const unit = H.nth(list, ctx);
+    const unit = H.pick(list, ctx);
     const S = H.B.stepsFor(unit);
     // a teacher's longer title gives the grids back their px (fitsChrome): both grids shrink together, the ratio stays 2
     const extra = (ctx && ctx.chromeExtra) || 0;
@@ -49,7 +49,7 @@ module.exports = {
     const model = C7.htdGrid({ cells: d.cells, cellPx: cell, frame: 'card', model: S, attrs: 'data-lcs-htd-small="1"' });
     const big = C7.htdGrid({ cells: d.cells, cellPx: cell * 2, frame: 'pencil', model: key ? S : null, attrs: `data-lcs-htd-big="1"${key ? ' data-lcs-key-sample="drawing"' : ''}` });
     const body = `<div style="display:flex;flex-direction:column;align-items:center;gap:14px">${model}${big}</div>`;
-    return { bodyHtml: H.root('bigger', unit, body, `data-lcs-htd-cells="${d.cells}"`), meta: { unit, cells: d.cells } };
+    return { bodyHtml: H.root('bigger', unit, body, `data-lcs-htd-cells="${d.cells}"${require('../../lib/fl-art.js').tap(ctx)}`), meta: { unit, cells: d.cells } };
   },
 
   /** the pin tool's test (tools/build-htd-face-pins.js) */

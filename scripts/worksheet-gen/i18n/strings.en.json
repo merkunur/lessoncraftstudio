@@ -4577,5 +4577,229 @@
   "K-578": {
     "title": "Shape and Color Bingo: Caller Cards",
     "instruction": "Cut out the cards and mix them up. Take one card at a time and read the shape and its color aloud. Keep the cards you have called to check each Bingo."
+  },
+  "K-579": {
+    "title": "Coloring Alphabet: {U}",
+    "instruction": "Color the page. Make it as bright and beautiful as you can."
+  },
+  "K-580": {
+    "title": "Coloring Numbers: {U}",
+    "instruction": "Color everything on the page. Count the stars."
+  },
+  "K-581": {
+    "title": "Color Your Name",
+    "instruction": "Color every letter of your name."
+  },
+  "K-582": {
+    "title": "Color and Count",
+    "instruction": "Color the pictures. Count each kind and write how many."
+  },
+  "K-583": {
+    "title": "Coloring Bookmarks",
+    "instruction": "Color the bookmarks. Cut them out along the dashed lines."
+  },
+  "K-584": {
+    "title": "Letter Dot-to-Dot: {U}",
+    "instruction": "Start at the orange dot. Connect the dots in number order to make the letter. Then color it."
+  },
+  "K-585": {
+    "title": "Number Dot-to-Dot: {U}",
+    "instruction": "Start at the orange dot. Connect the dots in number order to make the number. Then color it."
+  },
+  "K-586": {
+    "title": "Two Mini Dot-to-Dots",
+    "instruction": "Start at the orange dot in each picture. Connect the dots in number order."
+  },
+  "G1-547": {
+    "title": "Dot-to-Dot, Then Write the Word",
+    "instruction": "Connect the dots in number order. Then write the name of the picture."
+  },
+  "K-587": {
+    "title": "Color by Addition: {UNIT}",
+    "instruction": "Solve each addition problem in the key. Color each part with the color of its answer."
+  },
+  "K-588": {
+    "title": "Color by Letters: {UNIT}",
+    "instruction": "Color each part with the color of its letter."
+  },
+  "K-591": {
+    "title": "Letter Grid: Find the Differences",
+    "instruction": "Look at the top grid. Find the {N} letters that changed in the bottom grid. Color them."
+  },
+  "K-592": {
+    "title": "Number Grid: Find the Differences",
+    "instruction": "Look at the top grid. Find the {N} numbers that changed in the bottom grid. Color them."
+  },
+  "G1-548": {
+    "title": "Picture Grid: Find the Differences",
+    "instruction": "Look at the top grid. Find the {N} pictures that changed in the bottom grid. Circle them."
+  },
+  "K-593": {
+    "title": "Which One Faces the Other Way?",
+    "instruction": "In each row one picture faces the other way. Circle it."
+  },
+  "K-594": {
+    "title": "Which Size Is Different?",
+    "instruction": "In each row one picture has a different size. Circle it."
+  },
+  "K-595": {
+    "title": "Roll and Draw a Monster",
+    "instruction": "Roll a die for each row. Draw the part under your number in the empty box."
+  },
+  "K-596": {
+    "title": "Roll and Draw a Robot",
+    "instruction": "Roll a die for each row. Draw the part under your number in the empty box."
+  },
+  "K-597": {
+    "title": "Roll and Draw a Bug",
+    "instruction": "Roll a die for each row. Draw the part under your number in the empty box."
+  },
+  "K-598": {
+    "title": "How to Draw Poster",
+    "instruction": "Look at the steps in order. Color the name and the finished picture."
+  },
+  "G1-549": {
+    "title": "Draw It Three Times",
+    "instruction": "Follow the steps. Draw the picture big, then smaller, then very small."
+  },
+  "K-599": {
+    "title": "Two Pictures to Trace",
+    "instruction": "Trace all the lines of both pictures. Start at the black dots."
+  },
+  "K-600": {
+    "title": "Trace the Path",
+    "instruction": "In each row, start at the black dot. Trace the path to the other picture."
+  },
+  "K-601": {
+    "title": "Trace the Frame",
+    "instruction": "Start at the black dot and trace the frame. Then draw something you like inside it."
+  },
+  "K-602": {
+    "title": "Trace the Giant Letter: {U}",
+    "instruction": "Start at the black dot. Trace the outline. Then color the letter."
+  },
+  "K-609": {
+    "title": "Trace the Giant Number: {U}",
+    "instruction": "Start at the black dot. Trace the outline. Then color the number."
+  },
+  "K-603": {
+    "title": "Count and Color the Number",
+    "instruction": "Count the pictures in each row. Color the number that tells how many."
+  },
+  "K-604": {
+    "title": "Color the Number Path",
+    "instruction": "Find 1. Color the numbers in order up to {N}, one next to the other, to make a path."
+  },
+  "K-606": {
+    "title": "Color the Greater Number",
+    "instruction": "Look at the two numbers in each box. Color the greater number."
+  },
+  "K-607": {
+    "title": "Solve and Color the Answer",
+    "instruction": "Solve each problem. Color the number that is the answer."
+  },
+  "G2-499": {
+    "title": "Color the Multiples",
+    "instruction": "Color every number you say when you count by {N}s."
+  },
+  "K-608": {
+    "title": "Color the Pair",
+    "instruction": "Color the two numbers in each row that make {N} together."
+  },
+  "G1-551": {
+    "title": "Color the Tens Digit",
+    "instruction": "Color the digit in the tens place of each number."
+  },
+  "K-610": {
+    "title": "Color and Trace: {U}",
+    "instruction": "Color the big number. Then trace the numbers on the lines."
+  },
+  "K-611": {
+    "title": "My Number Poster: {U}",
+    "instruction": "Color the number and the number word. Then color that many squares in the frame."
+  },
+  "K-612": {
+    "title": "Color the Number, Fill the Frame",
+    "instruction": "Color each number. Then color that many squares in its frame."
+  },
+  "K-613": {
+    "title": "Color the Days",
+    "instruction": "Color today’s number every day until the whole month is colored."
+  },
+  "K-614": {
+    "title": "Color the Letter Pattern",
+    "instruction": "Color the same letters the same color. Write the letter that comes next."
+  },
+  "K-615": {
+    "title": "Letters or Numbers?",
+    "instruction": "Color all the letters. Leave the numbers white."
+  },
+  "K-616": {
+    "title": "Find and Color: {U}",
+    "instruction": "Look at the letter at the top. Find it in the grid and color it every time."
+  },
+  "K-617": {
+    "title": "Color and Trace: {U}",
+    "instruction": "Color the big letters. Then trace the letters on the lines."
+  },
+  "K-618": {
+    "title": "Color the First Letter",
+    "instruction": "Say the name of each picture. Color the letter it starts with."
+  },
+  "K-619": {
+    "title": "Color the Sight Word: {U}",
+    "instruction": "Read the word. Color it every time you find it."
+  },
+  "G1-552": {
+    "title": "Color the Right Spelling",
+    "instruction": "Look at each picture. Color the word that is spelled the right way."
+  },
+  "K-620": {
+    "title": "Color the Syllables",
+    "instruction": "Say each word and clap its parts. Color each part a different color."
+  },
+  "K-621": {
+    "title": "Color and Write the Word",
+    "instruction": "Say the word. Color the big letters. Then write the word on the line."
+  },
+  "K-622": {
+    "title": "Coloring Word Search",
+    "instruction": "Find each word in the grid and color its letters. Use a new color for each word."
+  },
+  "K-623": {
+    "title": "Color Bingo",
+    "instruction": "Take one card. Listen to the numbers from 1 to {N}. Color each number you hear. Three in a row wins."
+  },
+  "K-624": {
+    "title": "Alphabet Coloring Cards",
+    "instruction": "Color each card. Then cut out the cards along the dashed lines."
+  },
+  "K-625": {
+    "title": "My Name Poster",
+    "instruction": "Color the letters of your name. Draw yourself in the box."
+  },
+  "K-626": {
+    "title": "Color the Letter in Its Place",
+    "instruction": "Start at the arrow in each row and count the places. Color the letter in the place shown."
+  },
+  "G3-480": {
+    "title": "Dot-to-Dot: Skip Counting",
+    "instruction": "Start at the orange dot. Count by {N}s and connect the dots in order."
+  },
+  "G3-479": {
+    "title": "Color by Multiplication: {UNIT}",
+    "instruction": "Solve each multiplication in the key. Color each part with the color of its answer."
+  },
+  "G1-555": {
+    "title": "Mystery Grid Picture",
+    "instruction": "Color each box with the color of its number. What picture appears?"
+  },
+  "G1-553": {
+    "title": "Hidden Letter Mosaic",
+    "instruction": "Color every box with an odd number. Which letter do you see? Write it in the answer box."
+  },
+  "G1-554": {
+    "title": "Color the Odd Numbers",
+    "instruction": "Color every odd number. Leave the even numbers white."
   }
 }

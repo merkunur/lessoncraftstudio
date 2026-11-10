@@ -37,6 +37,11 @@ const VERDICTS = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'screen-v
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const args = Object.fromEntries(process.argv.slice(2).map((a) => { const m = a.match(/^--([^=]+)=(.*)$/); return m ? [m[1], m[2]] : [a.replace(/^--/, ''), true]; }));
 const QUICK = !!args.quick;
+// --pool (flagship visual check 2026-11-08): every picture of the template's picker pool at the level (out/flagship-check/pools.json,
+// the image library only) as the teacher's pick, copy 1; --templates=a,b; --locales=en
+const POOL = args.pool ? JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'flagship-check', 'pools.json'), 'utf8')) : null;
+const IDXP = args.pool ? JSON.parse(fs.readFileSync(path.join(REPO, 'scripts', 'worksheet-gen', 'data', 'fl', 'index.json'), 'utf8')).pictures : null;
+const ONLY_T = args.templates ? new Set(String(args.templates).split(',')) : null;
 
 const { keyMarks, bot } = require('./lib/marks-bot.js');
 
@@ -142,20 +147,22 @@ const sameInk = (html) => html.replace(/<rect(?![^>]*\sstroke=)(?=[^>]*\s(?:fill
       const verdicts = (t.interactive ? ['interactive'] : []).concat(t.screen === 'marks' ? ['screen'] : []).concat(paper);
       if (verdicts.length !== 1) fail(`${t.id}: ${verdicts.length ? verdicts.join(' + ') : 'NO'} verdict (${t.verdict || '-'}${t.screenReason ? ': ' + String(t.screenReason).slice(0, 120) : ''})`);
       if (t.screen !== 'marks') continue;
+      if (ONLY_T && !ONLY_T.has(t.id)) continue;
       const type = require(path.join(REPO, t.file));
-      const locs = (QUICK ? ['en'] : ['en', 'fi']).filter((l) => t.locales.includes(l));
-      for (const loc of locs) for (const d of t.screenLevels.filter((x) => ((t.localeLevels && t.localeLevels[loc]) || t.levels).includes(x))) for (const variant of QUICK ? [1] : [1, 2]) {
+      const locs = (args.locales ? String(args.locales).split(',') : QUICK ? ['en'] : ['en', 'fi']).filter((l) => t.locales.includes(l));
+      for (const loc of locs) for (const d of t.screenLevels.filter((x) => ((t.localeLevels && t.localeLevels[loc]) || t.levels).includes(x))) for (const pick of (POOL ? ((((POOL[maker] || {})[t.id] || {})[d] || { pool: [] }).pool.filter((k) => args['with-new'] || !(IDXP[k] && IDXP[k].n === 1))) : QUICK ? [1] : [1, 2])) {
+        const variant = POOL ? 1 : pick, ov = POOL ? { overrides: { art: [pick] } } : {};
         const s = withLevelInstruction(resolveStrings(t.id, loc, type), t.id, d, loc);
         const theme = t.themed ? ((t.localeThemes && t.localeThemes[loc]) || t.themes)[(variant - 1) % ((t.localeThemes && t.localeThemes[loc]) || t.themes).length] : null;
         const lu = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d)));   // the level's units
         const unit = lu.length ? lu[variant % lu.length].id : null;
-        const tag = `${t.id} ${loc} L${d} v${variant}`;
+        const tag = `${t.id} ${loc} L${d} ${POOL ? 'pick ' + pick : 'v' + variant}`;
         let r, sc;
         try {
           // the page the browser builds: a seed that misses is retried with fresh seeds (runtime.generate), so a build that
           // throws takes the same ladder here; a page no retry builds is a FAIL
           for (let k = 0; k <= 4 && !r; k++) {
-            try { r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, answerKey: true, answerKeySuffix: tj.answerKey[loc], screen: true, ...(k ? { seedVariant: variant + '.' + k } : {}) }); } catch (e) { if (k === 4) throw e; }
+            try { r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant, ...ov, answerKey: true, answerKeySuffix: tj.answerKey[loc], screen: true, ...(k ? { seedVariant: variant + '.' + k } : {}) }); } catch (e) { if (k === 4) throw e; }
           }
           sc = await screen.buildScreen({ html: r.screenHtml, locale: loc, strings: tj.runtimeStrings[loc], instruction: (pl) => tj.screenInstructions[loc][screen.instructionKey(pl)], mount });
         } catch (e) { fail(`${tag}: derivation — ${e.reasons ? e.reasons.join('; ') : e.message}`); continue; }

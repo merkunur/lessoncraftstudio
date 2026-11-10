@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** fdx-aspect.js — the trimmed width / height of every usable catalogue drawing → data/fdx/aspect.json (generated, rebuilds byte-identically). */
 'use strict';
+require('../data/fl/fd-catalog-node.js');
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
 const { CATALOG } = require('../data/fdx/catalog.js');
 const LIB = path.join(__dirname, '..', 'cache', 'themes');

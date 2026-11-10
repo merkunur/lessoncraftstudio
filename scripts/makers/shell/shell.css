@@ -38,6 +38,9 @@ button { font: inherit; cursor: pointer; }
 .mk-theme-pic { width: 44px; height: 44px; background: center / contain no-repeat; }
 .mk-theme-name { font-size: 11px; font-weight: 700; line-height: 1.15; text-align: center; color: var(--ink); hyphens: auto; -webkit-hyphens: auto; overflow-wrap: anywhere; }
 .mk-theme[aria-pressed="true"] { border-color: var(--coral); box-shadow: 0 0 0 2px var(--coral); }
+.mk-art { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.mk-art-themes { flex-wrap: wrap; max-width: 100%; max-height: 196px; overflow-x: hidden; overflow-y: auto; }
+.mk-art-pick { align-self: flex-start; }
 .mk-select { min-height: 44px; padding: 8px 12px; border-radius: 12px; border: 2px solid var(--line); background: var(--paper); font: inherit; font-weight: 700; }
 .mk-pages { display: flex; flex-direction: column; gap: 22px; align-items: center; }
 .mk-page { position: relative; width: min(100%, 720px); }

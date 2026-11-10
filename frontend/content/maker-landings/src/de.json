@@ -261,7 +261,7 @@
   },
   "dot-to-dot": {
     "kw": "Punkt zu Punkt: Arbeitsblätter erstellen",
-    "lead": "Erstellen Sie Punkt-zu-Punkt-Blätter, zum Zählen bis 20, zum Rückwärtszählen und zum Zählen in Schritten, nach dem Alphabet oder mit Rechenaufgaben. Das versteckte Bild hält die Kinder bis zum letzten Punkt bei der Sache.",
+    "lead": "Erstellen Sie Punkt-zu-Punkt-Blätter, zum Zählen bis 20, zum Rückwärtszählen und zum Zählen in Schritten, nach dem Alphabet oder mit Rechenaufgaben. Außerdem verbinden die Kinder Punkte zu einem großen Buchstaben oder einer großen Zahl, machen zwei kleine Punkt-zu-Punkt-Bilder auf einem Blatt fertig oder schreiben den Namen des Bildes auf, das sie entdecken. Das versteckte Bild hält die Kinder bis zum letzten Punkt bei der Sache.",
     "teaches": [
       "Die Zahlenreihe in der richtigen Folge sprechen",
       "Rückwärts und in Schritten zählen",
@@ -271,7 +271,7 @@
   },
   "color-by-number": {
     "kw": "Malen nach Zahlen: Arbeitsblätter erstellen",
-    "lead": "Erstellen Sie Blätter zum Malen nach Zahlen und nach Code, bei denen jede Farbe eine Antwort ist: Plus- und Minusaufgaben, häufige Wörter, Anlaute und Malaufgaben. Das fertige Bild zeigt, ob alles stimmt.",
+    "lead": "Erstellen Sie Blätter zum Malen nach Zahlen und nach Code, bei denen jede Farbe eine Antwort ist: Plus- und Minusaufgaben, häufige Wörter, Anlaute und Malaufgaben. Versteckte Buchstaben und Geheimbilder im Gitter machen das Malen zum Rätsel, und Malen nach Plusaufgaben, Buchstaben oder Malaufgaben klappt mit jedem Bild aus unserer Bildersammlung. Das fertige Bild zeigt, ob alles stimmt.",
     "teaches": [
       "Rechenaufgaben mit eingebauter Kontrolle üben",
       "Einen Farbschlüssel genau lesen",
@@ -281,7 +281,7 @@
   },
   "coloring-pages": {
     "kw": "Ausmalbilder für die Klasse erstellen",
-    "lead": "Erstellen Sie Ausmalbilder aus unserer Bildersammlung, mit Wörtern zum Nachspuren, einem Satz zum Schreiben oder einem Schlüssel. Falten Sie zu jedem Thema ein kleines Malheft.",
+    "lead": "Erstellen Sie Ausmalbilder aus unserer Bildersammlung, mit Wörtern zum Nachspuren, einem Satz zum Schreiben oder einem Schlüssel. Dazu gibt es Ausmalseiten für jeden Buchstaben und jede Zahl, für jedes Kind eine Seite mit seinem Namen, Blätter zum Ausmalen und Zählen sowie Lesezeichen zum Ausmalen. Falten Sie zu jedem Thema ein kleines Malheft.",
     "teaches": [
       "Stiftführung und Handkraft aufbauen",
       "Bilder mit Wörtern verbinden",
@@ -331,7 +331,7 @@
   },
   "find-the-differences": {
     "kw": "Fehlerbilder: Arbeitsblätter erstellen",
-    "lead": "Erstellen Sie Fehlerbilder mit 3, 5, 7 oder 10 Unterschieden in echten Bildszenen, dazu fehlende Dinge, Farbänderungen und Spiegelbilder. Die meisten lassen sich auch am Bildschirm spielen.",
+    "lead": "Erstellen Sie Fehlerbilder mit 3, 5, 7 oder 10 Unterschieden in echten Bildszenen, dazu fehlende Dinge, Farbänderungen und Spiegelbilder. Für zwischendurch vergleichen die Kinder Gitter aus Buchstaben, Zahlen oder Bildern oder finden in jeder Reihe das Bild, das andersherum schaut oder anders groß ist. Die meisten lassen sich auch am Bildschirm spielen.",
     "teaches": [
       "Ein Bild geordnet absuchen",
       "Benennen, was sich verändert hat",
@@ -341,7 +341,7 @@
   },
   "how-to-draw": {
     "kw": "Zeichnen lernen: Arbeitsblätter erstellen",
-    "lead": "Erstellen Sie Zeichenanleitungen Schritt für Schritt, bei denen jede neue Linie farbig gezeigt wird. Die Kinder folgen, spuren nach, vollenden und zeichnen schließlich aus dem Kopf, dazu gibt es Seiten zum Schreiben.",
+    "lead": "Erstellen Sie Zeichenanleitungen Schritt für Schritt, bei denen jede neue Linie farbig gezeigt wird. Die Kinder folgen, spuren nach, vollenden und zeichnen schließlich aus dem Kopf, dazu gibt es Seiten zum Schreiben. Beim Würfeln und Malen entsteht Wurf für Wurf ein Monster, ein Roboter oder ein Krabbeltier, ein Poster zeigt alle Schritte auf einer Seite, und die Kinder zeichnen ein Bild groß, kleiner und ganz klein.",
     "teaches": [
       "Ein Bild in einfache Formen zerlegen",
       "Schritte der Reihe nach befolgen",
@@ -361,7 +361,7 @@
   },
   "picture-tracing": {
     "kw": "Bilder nachspuren: Arbeitsblätter erstellen",
-    "lead": "Erstellen Sie Blätter zum Nachspuren von Bildern, von großen runden Formen für die Kleinen bis zu gepunkteten Stadtszenen für die erste Klasse. Gerade Linien, Zickzack, Spiralen und Schleifen werden zu einem echten Bild.",
+    "lead": "Erstellen Sie Blätter zum Nachspuren von Bildern, von großen runden Formen für die Kleinen bis zu gepunkteten Stadtszenen für die erste Klasse. Außerdem spuren die Kinder zwei Bilder auf einem Blatt, einen Weg von Bild zu Bild, einen Rahmen zum Hineinmalen oder einen Riesenbuchstaben oder eine Riesenzahl nach. Gerade Linien, Zickzack, Spiralen und Schleifen werden zu einem echten Bild.",
     "teaches": [
       "Den Stift an einer Linie entlang führen",
       "Gerade, runde und schleifenförmige Linien zeichnen",

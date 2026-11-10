@@ -20,6 +20,7 @@ const { nameRefused } = require('../../lib/picture-name-refusals.js');
 const GF = require('../../lib/puzzles/grid-fill.js');
 const slot = require('../../lib/slot.js');
 const T = require('../../primitives/_tokens.js').color;
+const CG = require('../../lib/color-glyphs.js');
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const LOCS = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -156,13 +157,13 @@ function makeWordSearch(spec) {
       if (!built) throw new Error(`${spec.id}: these words cannot be placed together (${theme}/${L})`);
       const placedKey = new Set(built.placed.flatMap((p) => p.cells.map(([y, x]) => y + ',' + x)));
       // the grid fills the body (measured 733 px): the clue band takes ~110 px (two rows of pictures ~150), the message ~60
-      const avail = (spec.clue === 'message' ? 520 : spec.clue === 'bilingual' || (spec.clue === 'pictures' && items.length > 6) ? 540 : 590) - ((ctx && ctx.chromeExtra) || 0);
-      const cell = Math.min(72, Math.floor(Math.min(avail, 640) / n));
+      const avail = (spec.clue === 'message' ? 520 : spec.bubble ? 520 : spec.clue === 'bilingual' || (spec.clue === 'pictures' && items.length > 6) ? 540 : 590) - ((ctx && ctx.chromeExtra) || 0);
+      const cell = Math.min(spec.bubble ? 92 : 72, Math.floor(Math.min(avail, 640) / n));
       const cells = [];
       for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) {
         const ch = built.grid[r][c], inside = !mask || mask(r, c, n);
         cells.push(inside && ch != null
-          ? `<span data-lcs-cell="${r}-${c}" data-lcs-pick="1"${mark && placedKey.has(r + ',' + c) ? ' data-lcs-correct="1"' : ''} data-lcs-label="${esc(String.fromCharCode(65 + c) + (r + 1))}" style="display:flex;align-items:center;justify-content:center;width:${cell}px;height:${cell}px;font:700 ${Math.round(cell * 0.56)}px/1 'Nunito',sans-serif;color:${T.ink};background:#FFFFFF">${esc(ch)}</span>`
+          ? `<span data-lcs-cell="${r}-${c}" data-lcs-pick="1"${mark && placedKey.has(r + ',' + c) ? ' data-lcs-correct="1"' : ''} data-lcs-label="${esc(String.fromCharCode(65 + c) + (r + 1))}" style="display:flex;align-items:center;justify-content:center;width:${cell}px;height:${cell}px;font:700 ${Math.round(cell * 0.56)}px/1 'Nunito',sans-serif;color:${T.ink};background:#FFFFFF">${spec.bubble && CG.has(ch) ? CG.glyph(ch, { h: Math.round(cell * 0.84), skin: 'plain', stroke: 2.6 }).svg : esc(ch)}</span>`
           : `<span style="width:${cell}px;height:${cell}px"></span>`);
       }
       const grid = `<div data-lcs-ws-grid data-lcs-n="${n}" style="display:grid;grid-template-columns:repeat(${n},${cell}px);gap:0;border:${mask ? 0 : 3}px solid ${T.teal};border-radius:10px;overflow:hidden;background:${mask ? 'transparent' : '#FFFFFF'}">${cells.join('')}</div>`;
@@ -170,7 +171,7 @@ function makeWordSearch(spec) {
       const px = items.length > 8 ? 54 : 64;
       let clues;
       const tap = (i) => (spec.clue === 'numbers' || spec.clue === 'message' ? '' : slot.attr(ctx, 'pic', i));
-      if (spec.clue === 'pictures') clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;padding:4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain"></span>`).join('');
+      if (spec.clue === 'pictures') clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;${spec.bubble ? 'flex-direction:column;align-items:center;gap:2px;' : ''}padding:4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:${px}px;height:${px}px;object-fit:contain">${spec.bubble ? `<span style="font:800 15px 'Nunito',sans-serif;color:${T.ink}">${esc(x.grid)}</span>` : ''}</span>`).join('');
       else if (spec.clue === 'bilingual') {
         const other = new Map(entriesFor(theme, clueLang).map((y) => [y.vocabKey, displayWord(y.singular, clueLang)]));
         clues = items.map((x, i) => `<span data-lcs-ws-clue${tap(i)} style="display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 4px;border-radius:12px;background:#FFFFFF;border:2px solid ${T.grid}"><img class="ws-icon" src="${fileUri(theme, x.e.noun)}" alt="" style="width:44px;height:44px;object-fit:contain"><span style="font:700 18px/1 'Nunito',sans-serif;color:${T.ink}" lang="${clueLang}">${esc(other.get(x.e.vocabKey))}</span></span>`).join('');
@@ -203,7 +204,7 @@ function makeWordSearch(spec) {
         if (cells.length < 25) fails.push(`${cells.length} cells`);
         const w = cells.length ? cells[0].getBoundingClientRect().width : 0;
         if (w < 26) fails.push(`cells ${Math.round(w)} px`);
-        if (cells.some((c) => !/^\p{L}$/u.test(c.textContent.trim()) && !/^SS$/u.test(c.textContent.trim()))) fails.push('a cell that is not one letter');
+        if (cells.some((c) => !c.querySelector('[data-lcs-glyph]') && !/^\p{L}$/u.test(c.textContent.trim()) && !/^SS$/u.test(c.textContent.trim()))) fails.push('a cell that is not one letter');
         const root = document.querySelector('[data-lcs-word-search]').getBoundingClientRect();
         [g, document.querySelector('[data-lcs-ws-clues]'), document.querySelector('[data-lcs-ws-message]')].filter(Boolean).forEach((e) => { const r = e.getBoundingClientRect(); if (r.right > root.right + 1 || r.bottom > root.bottom + 1) fails.push('a block leaves the page'); });
         return fails;

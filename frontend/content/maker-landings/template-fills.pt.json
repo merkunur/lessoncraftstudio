@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "O caminho dos números",
+   "Encontre o 1. Pinte os números em ordem até o 15, um ao lado do outro, para formar um caminho."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Pinte o par",
+   "Em cada fileira, pinte os dois números que juntos fazem 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Pinte os múltiplos",
+   "Pinte os números que você diz ao contar de 4 em 4."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Meu cartaz do número: 1",
+   "Pinte o número e o nome dele. Depois pinte essa quantidade de quadradinhos no quadro."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Pinte e cubra: 1",
+   "Pinte o número grande. Depois cubra os números nas linhas."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Ligue os pontos: letra A",
+   "Comece no ponto laranja. Ligue os pontos na ordem dos números para formar a letra. Depois pinte a letra."
+  ],
+  "K-585": [
+   "Ligue os pontos: número 1",
+   "Comece no ponto laranja. Ligue os pontos na ordem dos números para formar o número. Depois pinte o número."
+  ],
+  "G3-480": [
+   "Ligue os pontos: contar de tantos em tantos",
+   "Comece no ponto laranja. Conte de 4 em 4 e ligue os pontos em ordem."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Pinte com adições: Veado",
+   "Resolva cada adição da legenda. Pinte cada parte com a cor do resultado."
+  ],
+  "K-588": [
+   "Pinte por letras: Veado",
+   "Pinte cada parte com a cor da letra dela."
+  ],
+  "G3-479": [
+   "Pinte com multiplicações: Veado",
+   "Resolva cada multiplicação da legenda. Pinte cada parte com a cor do resultado."
+  ],
+  "K-393": [
+   "Colorir por números: Ovelha na fazenda",
+   "Pinte cada parte com a cor do seu número."
+  ],
+  "K-394": [
+   "Colorir por números: Veado",
+   "Pinte cada parte com a cor do seu número."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alfabeto para colorir: A",
+   "Pinte a página. Deixe tudo bem colorido e bonito."
+  ],
+  "K-580": [
+   "Números para colorir: 1",
+   "Pinte tudo o que há na página. Conte as estrelas."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Grade de letras: encontre as diferenças",
+   "Olhe a grade de cima. Encontre as 5 letras que mudaram na grade de baixo. Pinte essas letras."
+  ],
+  "K-592": [
+   "Grade de números: encontre as diferenças",
+   "Olhe a grade de cima. Encontre os 5 números que mudaram na grade de baixo. Pinte esses números."
+  ],
+  "G1-548": [
+   "Grade de figuras: encontre as diferenças",
+   "Olhe a grade de cima. Encontre as 5 figuras que mudaram na grade de baixo. Circule essas figuras."
+  ],
+  "K-395": [
+   "Jogo dos 5 erros: Cisne na lagoa",
+   "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+  ],
+  "K-397": [
+   "Ache as 3 diferenças: Peru na fazenda",
+   "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Cubra a letra gigante: A",
+   "Comece no ponto preto. Cubra o contorno. Depois pinte a letra."
+  ],
+  "K-609": [
+   "Cubra o número gigante: 1",
+   "Comece no ponto preto. Cubra o contorno. Depois pinte o número."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Pinte e cubra: A",
+   "Pinte as letras grandes. Depois cubra as letras nas linhas."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Encontre e pinte: A",
+   "Olhe a letra lá em cima. Encontre essa letra na grade e pinte todas as vezes."
+  ],
+  "K-317": [
+   "Letra da semana: Aa",
+   "Cubra a letra maiúscula e a minúscula, circule as quatro figuras cujo nome começa com A e escreva uma linha de cada."
+  ],
+  "K-325": [
+   "Palavras com A: o som em qualquer lugar",
+   "Cubra a letra e circule as quatro figuras que têm o som de A dentro da palavra, não no começo."
+  ],
+  "K-326": [
+   "No começo, no meio ou no fim? A letra A",
+   "Fale o nome de cada figura. Pinte o quadradinho que mostra onde você ouve o A: no começo, no meio ou no fim."
+  ],
+  "K-327": [
+   "Circule a letra A nas palavras e conte",
+   "Encontre todas as letras A e a de cada palavra e circule. Depois escreva no quadradinho quantas você achou."
+  ],
+  "G1-311": [
+   "Duas letras, um som só: Nh",
+   "Cubra nh, circule as quatro figuras que têm o som de nh e escreva uma linha."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Pinte a palavra: de",
+   "Leia a palavra. Pinte-a toda vez que a encontrar."
+  ],
+  "K-388": [
+   "Palavra do dia: de",
+   "Leia a palavra. Cubra o pontilhado, escreva e use a palavra em frases."
+  ],
+  "K-389": [
+   "Palavras frequentes em frases: de",
+   "Leia cada frase. Escreva a palavra “de” na linha."
+  ],
+  "K-390": [
+   "Uma frase com de",
+   "Trabalhe uma frase, passo a passo."
+  ],
+  "K-391": [
+   "Cubra as frases: de",
+   "Cubra o pontilhado de cada frase. Depois escreva a frase na linha de baixo."
+  ],
+  "K-392": [
+   "Encontre a palavra: de",
+   "Pinte cada quadrinho com a palavra “de”. Conte e escreva o número."
+  ],
+  "K-433": [
+   "Leia, cubra e escreva: de",
+   "Leia a palavra. Cubra o tracejado. Escreva a palavra. Depois complete cada frase com ela."
+  ],
+  "K-434": [
+   "Cubra a palavra e a frase: de",
+   "Cubra a palavra. Depois cubra a frase em cada linha."
+  ],
+  "K-435": [
+   "Leia e desenhe: de",
+   "Leia a frase. Cubra o tracejado. Depois desenhe o que a frase diz."
+  ],
+  "K-436": [
+   "Encontre e conte: de",
+   "Circule a palavra “de” toda vez que você a encontrar. Quantas vezes você achou?"
+  ],
+  "K-438": [
+   "Monte a palavra: de",
+   "Recorte as letras. Cole na ordem certa para montar a palavra."
+  ],
+  "K-439": [
+   "Escrita arco-íris: de",
+   "Cubra cada palavra três vezes, cada vez com uma cor diferente. Depois escreva a palavra."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Bingo para colorir",
+   "Pegue uma cartela. Ouça os números de 1 a 20. Pinte cada número que ouvir. Quem fizer três em linha ganha."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Detetive dos números",
@@ -9,30 +205,10 @@
    "Em cada linha e cada coluna, o 1, o 2, o 3 e o 4 aparecem uma vez só. Os números dentro de uma gaiola de contorno grosso somam o numerinho do canto."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Colorir por números: Ovelha na fazenda",
-   "Pinte cada parte com a cor do seu número."
-  ],
-  "K-394": [
-   "Colorir por números: Veado",
-   "Pinte cada parte com a cor do seu número."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Pule pela colmeia em ordem alfabética",
    "Comece na casinha para onde a seta aponta. Pinte a próxima letra do alfabeto em uma casinha vizinha, até chegar ao S."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Jogo dos 5 erros: Cisne na lagoa",
-   "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
-  ],
-  "K-397": [
-   "Ache as 3 diferenças: Peru na fazenda",
-   "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
   ]
  },
  "how-to-draw": {
@@ -81,28 +257,6 @@
    "Olhe bem a figura, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe de memória no quadro grande."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "Letra da semana: Aa",
-   "Cubra a letra maiúscula e a minúscula, circule as quatro figuras cujo nome começa com A e escreva uma linha de cada."
-  ],
-  "K-325": [
-   "Palavras com A: o som em qualquer lugar",
-   "Cubra a letra e circule as quatro figuras que têm o som de A dentro da palavra, não no começo."
-  ],
-  "K-326": [
-   "No começo, no meio ou no fim? A letra A",
-   "Fale o nome de cada figura. Pinte o quadradinho que mostra onde você ouve o A: no começo, no meio ou no fim."
-  ],
-  "K-327": [
-   "Circule a letra A nas palavras e conte",
-   "Encontre todas as letras A e a de cada palavra e circule. Depois escreva no quadradinho quantas você achou."
-  ],
-  "G1-311": [
-   "Duas letras, um som só: Nh",
-   "Cubra nh, circule as quatro figuras que têm o som de nh e escreva uma linha."
-  ]
- },
  "syllables": {
   "G1-306": [
    "Família silábica: ba be bi bo bu",
@@ -115,52 +269,6 @@
   "G1-333": [
    "Sílabas com encontro consonantal: tra tre tri pra pre pro",
    "Leia as sílabas do tapete. Fale o nome de cada figura, ache a sílaba no tapete e escreva a primeira sílaba na linha."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Palavra do dia: de",
-   "Leia a palavra. Cubra o pontilhado, escreva e use a palavra em frases."
-  ],
-  "K-389": [
-   "Palavras frequentes em frases: de",
-   "Leia cada frase. Escreva a palavra “de” na linha."
-  ],
-  "K-390": [
-   "Uma frase com de",
-   "Trabalhe uma frase, passo a passo."
-  ],
-  "K-391": [
-   "Cubra as frases: de",
-   "Cubra o pontilhado de cada frase. Depois escreva a frase na linha de baixo."
-  ],
-  "K-392": [
-   "Encontre a palavra: de",
-   "Pinte cada quadrinho com a palavra “de”. Conte e escreva o número."
-  ],
-  "K-433": [
-   "Leia, cubra e escreva: de",
-   "Leia a palavra. Cubra o tracejado. Escreva a palavra. Depois complete cada frase com ela."
-  ],
-  "K-434": [
-   "Cubra a palavra e a frase: de",
-   "Cubra a palavra. Depois cubra a frase em cada linha."
-  ],
-  "K-435": [
-   "Leia e desenhe: de",
-   "Leia a frase. Cubra o tracejado. Depois desenhe o que a frase diz."
-  ],
-  "K-436": [
-   "Encontre e conte: de",
-   "Circule a palavra “de” toda vez que você a encontrar. Quantas vezes você achou?"
-  ],
-  "K-438": [
-   "Monte a palavra: de",
-   "Recorte as letras. Cole na ordem certa para montar a palavra."
-  ],
-  "K-439": [
-   "Escrita arco-íris: de",
-   "Cubra cada palavra três vezes, cada vez com uma cor diferente. Depois escreva a palavra."
   ]
  },
  "spelling": {

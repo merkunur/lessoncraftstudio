@@ -4549,5 +4549,229 @@
   "K-578": {
     "title": "Bingo med former og farger: oppropskort",
     "instruction": "Klipp ut kortene og bland dem. Ta ett kort om gangen og les formen og fargen høyt. Ta vare på kortene du har ropt opp, så kan du sjekke hver bingo."
+  },
+  "K-579": {
+    "title": "Alfabetet til fargelegging: {U}",
+    "instruction": "Fargelegg siden. Gjør den så fin og fargerik du kan."
+  },
+  "K-580": {
+    "title": "Tall til fargelegging: {U}",
+    "instruction": "Fargelegg alt på siden. Tell stjernene."
+  },
+  "K-581": {
+    "title": "Fargelegg navnet ditt",
+    "instruction": "Fargelegg hver bokstav i navnet ditt."
+  },
+  "K-582": {
+    "title": "Fargelegg og tell",
+    "instruction": "Fargelegg bildene. Tell hver type og skriv hvor mange det er."
+  },
+  "K-583": {
+    "title": "Bokmerker til fargelegging",
+    "instruction": "Fargelegg bokmerkene. Klipp dem ut langs de stiplede linjene."
+  },
+  "K-584": {
+    "title": "Prikk til prikk: bokstaven {U}",
+    "instruction": "Start på den oransje prikken. Trekk strek fra prikk til prikk i riktig rekkefølge til bokstaven kommer fram. Fargelegg den så."
+  },
+  "K-585": {
+    "title": "Prikk til prikk: tallet {U}",
+    "instruction": "Start på den oransje prikken. Trekk strek fra prikk til prikk i riktig rekkefølge til tallet kommer fram. Fargelegg det så."
+  },
+  "K-586": {
+    "title": "To små prikk-til-prikk-bilder",
+    "instruction": "Start på den oransje prikken i hvert bilde. Trekk strek fra prikk til prikk i riktig rekkefølge."
+  },
+  "G1-547": {
+    "title": "Prikk til prikk og skriv ordet",
+    "instruction": "Trekk strek fra prikk til prikk i riktig rekkefølge. Skriv så hva bildet viser."
+  },
+  "K-587": {
+    "title": "Fargelegg med plusstykker: {UNIT}",
+    "instruction": "Regn ut hvert plusstykke i koden. Fargelegg hver del med fargen til svaret."
+  },
+  "K-588": {
+    "title": "Fargelegg etter bokstaver: {UNIT}",
+    "instruction": "Fargelegg hver del med fargen som hører til bokstaven."
+  },
+  "K-591": {
+    "title": "Bokstavrutenett: finn forskjellene",
+    "instruction": "Se på det øverste rutenettet. Finn de {N} bokstavene som er endret i det nederste rutenettet. Fargelegg dem."
+  },
+  "K-592": {
+    "title": "Tallrutenett: finn forskjellene",
+    "instruction": "Se på det øverste rutenettet. Finn de {N} tallene som er endret i det nederste rutenettet. Fargelegg dem."
+  },
+  "G1-548": {
+    "title": "Bilderutenett: finn forskjellene",
+    "instruction": "Se på det øverste rutenettet. Finn de {N} bildene som er endret i det nederste rutenettet. Sett ring rundt dem."
+  },
+  "K-593": {
+    "title": "Hvem ser den andre veien?",
+    "instruction": "I hver rad ser ett bilde den andre veien. Sett ring rundt det."
+  },
+  "K-594": {
+    "title": "Hvilket bilde har en annen størrelse?",
+    "instruction": "I hver rad har ett bilde en annen størrelse. Sett ring rundt det."
+  },
+  "K-595": {
+    "title": "Kast og tegn et monster",
+    "instruction": "Kast terningen for hver rad. Tegn delen under tallet ditt i ruten."
+  },
+  "K-596": {
+    "title": "Kast og tegn en robot",
+    "instruction": "Kast terningen for hver rad. Tegn delen under tallet ditt i ruten."
+  },
+  "K-597": {
+    "title": "Kast og tegn et insekt",
+    "instruction": "Kast terningen for hver rad. Tegn delen under tallet ditt i ruten."
+  },
+  "K-598": {
+    "title": "Tegneplakat",
+    "instruction": "Se på stegene i rekkefølge. Fargelegg navnet og den ferdige tegningen."
+  },
+  "G1-549": {
+    "title": "Tegn det tre ganger",
+    "instruction": "Følg stegene. Tegn bildet stort, så mindre og så helt lite."
+  },
+  "K-599": {
+    "title": "To bilder å tegne over",
+    "instruction": "Tegn over alle strekene i begge bildene. Begynn ved de svarte prikkene."
+  },
+  "K-600": {
+    "title": "Tegn over veien",
+    "instruction": "Begynn ved den svarte prikken i hver rad. Tegn over veien til det andre bildet."
+  },
+  "K-601": {
+    "title": "Tegn over rammen",
+    "instruction": "Begynn ved den svarte prikken og tegn over rammen. Tegn så noe du liker inni den."
+  },
+  "K-602": {
+    "title": "Tegn over kjempebokstaven: {U}",
+    "instruction": "Begynn ved den svarte prikken. Tegn over omrisset. Fargelegg så bokstaven."
+  },
+  "K-609": {
+    "title": "Tegn over kjempetallet: {U}",
+    "instruction": "Begynn ved den svarte prikken. Tegn over omrisset. Fargelegg så tallet."
+  },
+  "K-603": {
+    "title": "Tell og fargelegg tallet",
+    "instruction": "Tell bildene i hver rad. Fargelegg tallet som viser hvor mange det er."
+  },
+  "K-604": {
+    "title": "Tallstien",
+    "instruction": "Finn 1. Fargelegg tallene i rekkefølge opp til {N}, det ene ved siden av det andre, så det blir en sti."
+  },
+  "K-606": {
+    "title": "Fargelegg det største tallet",
+    "instruction": "Se på de to tallene i hver rute. Fargelegg det største tallet."
+  },
+  "K-607": {
+    "title": "Regn og fargelegg svaret",
+    "instruction": "Regn ut hvert stykke. Fargelegg tallet som er svaret."
+  },
+  "G2-499": {
+    "title": "Tell med hopp og fargelegg",
+    "instruction": "Fargelegg alle tallene du sier når du teller med {N} om gangen."
+  },
+  "K-608": {
+    "title": "Fargelegg tallparet",
+    "instruction": "Fargelegg de to tallene i hver rad som til sammen blir {N}."
+  },
+  "G1-551": {
+    "title": "Fargelegg tierne",
+    "instruction": "Fargelegg sifferet på tierplassen i hvert tall."
+  },
+  "K-610": {
+    "title": "Fargelegg og skriv over: {U}",
+    "instruction": "Fargelegg det store tallet. Skriv så over tallene på linjene."
+  },
+  "K-611": {
+    "title": "Min tallplakat: {U}",
+    "instruction": "Fargelegg tallet og ordet. Fargelegg så like mange ruter i rammen."
+  },
+  "K-612": {
+    "title": "Fargelegg tallet og fyll rammen",
+    "instruction": "Fargelegg hvert tall. Fargelegg så like mange ruter i rammen."
+  },
+  "K-613": {
+    "title": "Fargelegg dagene",
+    "instruction": "Fargelegg dagens tall hver dag til hele måneden er fargelagt."
+  },
+  "K-614": {
+    "title": "Fargelegg bokstavmønsteret",
+    "instruction": "Fargelegg like bokstaver med samme farge. Skriv bokstaven som kommer etterpå."
+  },
+  "K-615": {
+    "title": "Bokstaver eller tall?",
+    "instruction": "Fargelegg alle bokstavene. La tallene være hvite."
+  },
+  "K-616": {
+    "title": "Finn og fargelegg: {U}",
+    "instruction": "Se på bokstaven øverst. Finn den i rutenettet og fargelegg den hver gang."
+  },
+  "K-617": {
+    "title": "Fargelegg og skriv over: {U}",
+    "instruction": "Fargelegg de store bokstavene. Skriv så over bokstavene på linjene."
+  },
+  "K-618": {
+    "title": "Fargelegg den første bokstaven",
+    "instruction": "Si hva hvert bilde heter. Fargelegg bokstaven ordet begynner med."
+  },
+  "K-619": {
+    "title": "Fargelegg det høyfrekvente ordet: {U}",
+    "instruction": "Les ordet. Fargelegg det hver gang du finner det."
+  },
+  "G1-552": {
+    "title": "Fargelegg riktig stavemåte",
+    "instruction": "Se på hvert bilde. Fargelegg ordet som er stavet riktig."
+  },
+  "K-620": {
+    "title": "Fargelegg stavelsene",
+    "instruction": "Si hvert ord og klapp stavelsene. Fargelegg hver stavelse med en egen farge."
+  },
+  "K-621": {
+    "title": "Fargelegg og skriv ordet",
+    "instruction": "Si ordet. Fargelegg de store bokstavene. Skriv så ordet på linjen."
+  },
+  "K-622": {
+    "title": "Ordjakt til fargelegging",
+    "instruction": "Finn hvert ord i rutenettet og fargelegg bokstavene. Bruk en ny farge til hvert ord."
+  },
+  "K-623": {
+    "title": "Fargebingo",
+    "instruction": "Ta et brett. Lytt til tallene fra 1 til {N}. Fargelegg hvert tall du hører. Tre på rad vinner."
+  },
+  "K-624": {
+    "title": "Alfabetkort til fargelegging",
+    "instruction": "Fargelegg hvert kort. Klipp så ut kortene langs de stiplede linjene."
+  },
+  "K-625": {
+    "title": "Min navneplakat",
+    "instruction": "Fargelegg bokstavene i navnet ditt. Tegn deg selv i ruten."
+  },
+  "K-626": {
+    "title": "Fargelegg bokstaven på riktig plass",
+    "instruction": "Start ved pilen på hver rad og tell plassene. Fargelegg bokstaven på den plassen som er vist."
+  },
+  "G3-480": {
+    "title": "Prikk til prikk: tell med hopp",
+    "instruction": "Start på den oransje prikken. Tell med {N} om gangen og trekk strek fra prikk til prikk."
+  },
+  "G3-479": {
+    "title": "Fargelegg med gangestykker: {UNIT}",
+    "instruction": "Regn ut hvert gangestykke i koden. Fargelegg hver del med fargen til svaret."
+  },
+  "G1-555": {
+    "title": "Hemmelig rutebilde",
+    "instruction": "Fargelegg hver rute med fargen til tallet. Hvilket bilde kommer fram?"
+  },
+  "G1-553": {
+    "title": "Den skjulte bokstaven",
+    "instruction": "Fargelegg hver rute med et oddetall. Hvilken bokstav ser du? Skriv den i svarruten."
+  },
+  "G1-554": {
+    "title": "Fargelegg oddetallene",
+    "instruction": "Fargelegg alle oddetallene. La partallene være hvite."
   }
 }

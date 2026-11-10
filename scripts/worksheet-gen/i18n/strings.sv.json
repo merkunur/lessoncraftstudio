@@ -4504,5 +4504,229 @@
   "K-578": {
     "title": "Bingo med former och färger: utropskort",
     "instruction": "Klipp ut korten och blanda dem. Ta ett kort i taget och läs formen och färgen högt. Spara korten du har ropat upp, så kan du kontrollera varje bingo."
+  },
+  "K-579": {
+    "title": "Alfabetet att måla: {U}",
+    "instruction": "Måla sidan. Gör den så färgglad och fin du kan."
+  },
+  "K-580": {
+    "title": "Tal att måla: {U}",
+    "instruction": "Måla allt på sidan. Räkna stjärnorna."
+  },
+  "K-581": {
+    "title": "Måla ditt namn",
+    "instruction": "Måla varje bokstav i ditt namn."
+  },
+  "K-582": {
+    "title": "Måla och räkna",
+    "instruction": "Måla bilderna. Räkna varje sort och skriv hur många det är."
+  },
+  "K-583": {
+    "title": "Bokmärken att måla",
+    "instruction": "Måla bokmärkena. Klipp ut dem längs de streckade linjerna."
+  },
+  "K-584": {
+    "title": "Prick till prick: bokstaven {U}",
+    "instruction": "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills bokstaven kommer fram. Måla den sedan."
+  },
+  "K-585": {
+    "title": "Prick till prick: siffran {U}",
+    "instruction": "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills siffran kommer fram. Måla den sedan."
+  },
+  "K-586": {
+    "title": "Två små prick-till-prick-bilder",
+    "instruction": "Börja vid den orangea pricken i varje bild. Dra streck från prick till prick i rätt ordning."
+  },
+  "G1-547": {
+    "title": "Prick till prick och skriv ordet",
+    "instruction": "Dra streck från prick till prick i rätt ordning. Skriv sedan vad bilden föreställer."
+  },
+  "K-587": {
+    "title": "Måla med additioner: {UNIT}",
+    "instruction": "Räkna ut varje addition i koden. Måla varje del med svarets färg."
+  },
+  "K-588": {
+    "title": "Måla efter bokstäver: {UNIT}",
+    "instruction": "Måla varje del med den färg som bokstaven visar."
+  },
+  "K-591": {
+    "title": "Bokstavsrutnät: hitta skillnaderna",
+    "instruction": "Titta på det övre rutnätet. Hitta de {N} bokstäver som har ändrats i det nedre rutnätet. Måla dem."
+  },
+  "K-592": {
+    "title": "Sifferrutnät: hitta skillnaderna",
+    "instruction": "Titta på det övre rutnätet. Hitta de {N} siffror som har ändrats i det nedre rutnätet. Måla dem."
+  },
+  "G1-548": {
+    "title": "Bildrutnät: hitta skillnaderna",
+    "instruction": "Titta på det övre rutnätet. Hitta de {N} bilder som har ändrats i det nedre rutnätet. Ringa in dem."
+  },
+  "K-593": {
+    "title": "Vem tittar åt andra hållet?",
+    "instruction": "I varje rad tittar en bild åt andra hållet. Ringa in den."
+  },
+  "K-594": {
+    "title": "Vilken bild har en annan storlek?",
+    "instruction": "I varje rad har en bild en annan storlek. Ringa in den."
+  },
+  "K-595": {
+    "title": "Slå och rita ett monster",
+    "instruction": "Slå tärningen för varje rad. Rita delen under ditt tal i rutan."
+  },
+  "K-596": {
+    "title": "Slå och rita en robot",
+    "instruction": "Slå tärningen för varje rad. Rita delen under ditt tal i rutan."
+  },
+  "K-597": {
+    "title": "Slå och rita en insekt",
+    "instruction": "Slå tärningen för varje rad. Rita delen under ditt tal i rutan."
+  },
+  "K-598": {
+    "title": "Rita steg för steg: affisch",
+    "instruction": "Titta på stegen i ordning. Måla namnet och den färdiga bilden."
+  },
+  "G1-549": {
+    "title": "Rita tre gånger",
+    "instruction": "Följ stegen. Rita bilden stor, sedan mindre och sedan mycket liten."
+  },
+  "K-599": {
+    "title": "Två bilder att spåra",
+    "instruction": "Spåra alla linjer i båda bilderna. Börja vid de svarta prickarna."
+  },
+  "K-600": {
+    "title": "Spåra vägen",
+    "instruction": "Börja vid den svarta pricken i varje rad. Spåra vägen till den andra bilden."
+  },
+  "K-601": {
+    "title": "Spåra ramen",
+    "instruction": "Börja vid den svarta pricken och spåra ramen. Rita sedan något du tycker om inuti."
+  },
+  "K-602": {
+    "title": "Spåra jättebokstaven: {U}",
+    "instruction": "Börja vid den svarta pricken. Spåra konturen. Måla sedan bokstaven."
+  },
+  "K-609": {
+    "title": "Spåra jättetalet: {U}",
+    "instruction": "Börja vid den svarta pricken. Spåra konturen. Måla sedan talet."
+  },
+  "K-603": {
+    "title": "Räkna och måla talet",
+    "instruction": "Räkna bilderna i varje rad. Måla talet som visar hur många det är."
+  },
+  "K-604": {
+    "title": "Talstigen",
+    "instruction": "Hitta 1. Måla talen i ordning till och med {N}, ett bredvid det andra, så att det blir en stig."
+  },
+  "K-606": {
+    "title": "Måla det större talet",
+    "instruction": "Titta på de två talen i varje ruta. Måla det större talet."
+  },
+  "K-607": {
+    "title": "Räkna och måla svaret",
+    "instruction": "Räkna ut varje uppgift. Måla talet som är svaret."
+  },
+  "G2-499": {
+    "title": "Måla multiplerna",
+    "instruction": "Måla alla tal du säger när du räknar {N} steg i taget."
+  },
+  "K-608": {
+    "title": "Måla talparet",
+    "instruction": "Måla de två talen i varje rad som tillsammans blir {N}."
+  },
+  "G1-551": {
+    "title": "Måla tiotalssiffran",
+    "instruction": "Måla tiotalssiffran i varje tal."
+  },
+  "K-610": {
+    "title": "Måla och spåra: {U}",
+    "instruction": "Måla det stora talet. Spåra sedan talen på linjerna."
+  },
+  "K-611": {
+    "title": "Min talaffisch: {U}",
+    "instruction": "Måla talet och ordet. Måla sedan lika många rutor i ramen."
+  },
+  "K-612": {
+    "title": "Måla talet och fyll rutorna",
+    "instruction": "Måla varje tal. Måla sedan lika många rutor i ramen."
+  },
+  "K-613": {
+    "title": "Måla dagarna",
+    "instruction": "Måla dagens tal varje dag tills hela månaden är målad."
+  },
+  "K-614": {
+    "title": "Måla bokstavsmönstret",
+    "instruction": "Måla likadana bokstäver med samma färg. Skriv bokstaven som kommer sedan."
+  },
+  "K-615": {
+    "title": "Bokstäver eller siffror?",
+    "instruction": "Måla alla bokstäver. Låt siffrorna vara vita."
+  },
+  "K-616": {
+    "title": "Hitta och måla: {U}",
+    "instruction": "Titta på bokstaven högst upp. Hitta den i rutnätet och måla den varje gång."
+  },
+  "K-617": {
+    "title": "Måla och spåra: {U}",
+    "instruction": "Måla de stora bokstäverna. Spåra sedan bokstäverna på linjerna."
+  },
+  "K-618": {
+    "title": "Måla första bokstaven",
+    "instruction": "Säg vad varje bild heter. Måla bokstaven som ordet börjar på."
+  },
+  "K-619": {
+    "title": "Måla ordbilden: {U}",
+    "instruction": "Läs ordet. Måla det varje gång du hittar det."
+  },
+  "G1-552": {
+    "title": "Måla rätt stavning",
+    "instruction": "Titta på varje bild. Måla ordet som är rätt stavat."
+  },
+  "K-620": {
+    "title": "Måla stavelserna",
+    "instruction": "Säg varje ord och klappa stavelserna. Måla varje stavelse med en egen färg."
+  },
+  "K-621": {
+    "title": "Måla och skriv ordet",
+    "instruction": "Säg ordet. Måla de stora bokstäverna. Skriv sedan ordet på linjen."
+  },
+  "K-622": {
+    "title": "Ordjakt att måla",
+    "instruction": "Hitta varje ord i rutnätet och måla bokstäverna. Ta en ny färg för varje ord."
+  },
+  "K-623": {
+    "title": "Målarbingo",
+    "instruction": "Ta en bricka. Lyssna på talen från 1 till {N}. Måla varje tal du hör. Tre i rad vinner."
+  },
+  "K-624": {
+    "title": "Alfabetskort att måla",
+    "instruction": "Måla varje kort. Klipp sedan ut korten längs de streckade linjerna."
+  },
+  "K-625": {
+    "title": "Min namnaffisch",
+    "instruction": "Måla bokstäverna i ditt namn. Rita dig själv i rutan."
+  },
+  "K-626": {
+    "title": "Måla bokstaven på rätt plats",
+    "instruction": "Börja vid pilen på varje rad och räkna platserna. Måla bokstaven på den plats som visas."
+  },
+  "G3-480": {
+    "title": "Prick till prick: räkna med hopp",
+    "instruction": "Börja vid den orangea pricken. Räkna {N} steg i taget och dra streck från prick till prick."
+  },
+  "G3-479": {
+    "title": "Måla med multiplikation: {UNIT}",
+    "instruction": "Räkna ut varje multiplikation i koden. Måla varje del med svarets färg."
+  },
+  "G1-555": {
+    "title": "Hemlig rutbild",
+    "instruction": "Måla varje ruta med den färg som talet visar. Vilken bild kommer fram?"
+  },
+  "G1-553": {
+    "title": "Den gömda bokstaven",
+    "instruction": "Måla varje ruta med ett udda tal. Vilken bokstav ser du? Skriv den i svarsrutan."
+  },
+  "G1-554": {
+    "title": "Måla de udda talen",
+    "instruction": "Måla alla udda tal. Låt de jämna talen vara vita."
   }
 }

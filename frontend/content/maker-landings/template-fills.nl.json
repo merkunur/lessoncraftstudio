@@ -1,4 +1,204 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Het getallenpad",
+   "Zoek de 1. Kleur de getallen op volgorde tot en met 15, steeds naast elkaar, zodat er een pad ontstaat."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Kleur het paar",
+   "Kleur in elke rij de twee getallen die samen 6 zijn."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Kleur de veelvouden",
+   "Kleur alle getallen uit de tafel van 4."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Mijn getalposter: 1",
+   "Kleur het getal en het woord. Kleur daarna evenveel hokjes in het veld."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Kleur en trek over: 1",
+   "Kleur het grote getal. Trek daarna de getallen op de lijnen over."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Letter van stip naar stip: A",
+   "Begin bij de oranje stip. Verbind de stippen op volgorde van de getallen tot je de letter ziet. Kleur hem daarna."
+  ],
+  "K-585": [
+   "Getal van stip naar stip: 1",
+   "Begin bij de oranje stip. Verbind de stippen op volgorde van de getallen tot je het getal ziet. Kleur het daarna."
+  ],
+  "G3-480": [
+   "Van stip naar stip: sprongen tellen",
+   "Begin bij de oranje stip. Tel met sprongen van 4 en verbind de stippen op volgorde."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Kleuren met sommen: Hert",
+   "Reken elke som in de code uit. Kleur elk deel met de kleur van het antwoord."
+  ],
+  "K-588": [
+   "Kleuren op letter: Hert",
+   "Kleur elk deel met de kleur die bij de letter hoort."
+  ],
+  "G3-479": [
+   "Kleuren met keersommen: Hert",
+   "Reken elke keersom in de code uit. Kleur elk deel met de kleur van het antwoord."
+  ],
+  "K-393": [
+   "Kleuren op nummer: Schaap op de boerderij",
+   "Kleur elk deel met de kleur van zijn nummer."
+  ],
+  "K-394": [
+   "Kleuren op nummer: Hert",
+   "Kleur elk deel met de kleur van zijn nummer."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alfabet kleuren: A",
+   "Kleur de bladzijde. Maak er iets moois en vrolijks van."
+  ],
+  "K-580": [
+   "Getallen kleuren: 1",
+   "Kleur alles op de bladzijde. Tel de sterren."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Letterrooster: zoek de verschillen",
+   "Kijk naar het bovenste rooster. Zoek de 5 letters die in het onderste rooster zijn veranderd. Kleur ze."
+  ],
+  "K-592": [
+   "Getallenrooster: zoek de verschillen",
+   "Kijk naar het bovenste rooster. Zoek de 5 getallen die in het onderste rooster zijn veranderd. Kleur ze."
+  ],
+  "G1-548": [
+   "Plaatjesrooster: zoek de verschillen",
+   "Kijk naar het bovenste rooster. Zoek de 5 plaatjes die in het onderste rooster zijn veranderd. Omcirkel ze."
+  ],
+  "K-395": [
+   "Zoek de 5 verschillen: Zwaan op de vijver",
+   "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+  ],
+  "K-397": [
+   "Zoek de 3 verschillen: Kalkoen op de boerderij",
+   "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Trek de reuzenletter over: A",
+   "Begin bij de zwarte stip. Trek de omtrek over. Kleur daarna de letter."
+  ],
+  "K-609": [
+   "Trek het reuzengetal over: 1",
+   "Begin bij de zwarte stip. Trek de omtrek over. Kleur daarna het getal."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Kleur en trek over: A",
+   "Kleur de grote letters. Trek daarna de letters op de lijnen over."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Zoek en kleur: A",
+   "Kijk naar de letter bovenaan. Zoek hem in het rooster en kleur hem elke keer."
+  ],
+  "K-317": [
+   "Letter van de week: Kk",
+   "Trek de hoofdletter en de kleine letter na, omcirkel de vier plaatjes die met de k beginnen en schrijf dan een rij van elke letter."
+  ],
+  "K-325": [
+   "Woorden met de k: waar hoor je de k?",
+   "Trek de letter na en omcirkel de vier plaatjes waarin je de k ergens in het woord hoort, maar niet vooraan."
+  ],
+  "K-326": [
+   "Vooraan, in het midden of achteraan: waar hoor je de k?",
+   "Zeg elk woord. Kleur het vakje dat laat zien waar je de k hoort: vooraan, in het midden of achteraan."
+  ],
+  "K-327": [
+   "Omcirkel de k in de woorden en tel",
+   "Zoek in elk woord elke K of k en omcirkel die. Schrijf in het vakje hoeveel je er hebt gevonden."
+  ],
+  "K-328": [
+   "Begint het met de K of de G? Kies de goede letter",
+   "Zeg elk woord. Omcirkel de letter waarmee het begint: k of g."
+  ],
+  "G1-311": [
+   "Klank van de week: oe",
+   "Trek de oe na, omcirkel de vier plaatjes waarin je de klank oe hoort en schrijf dan een rij."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Kleur het flitswoord: ik",
+   "Lees het woord. Kleur het elke keer dat je het vindt."
+  ],
+  "K-388": [
+   "Woord van de dag: ik",
+   "Lees het woord. Trek het over, schrijf het zelf en gebruik het in zinnen."
+  ],
+  "K-389": [
+   "Flitswoorden in zinnen: ik",
+   "Lees elke zin. Schrijf het woord ‘ik’ op de lijn."
+  ],
+  "K-390": [
+   "Een zin met ik",
+   "Werk stap voor stap met één zin."
+  ],
+  "K-391": [
+   "Zinnen overtrekken: ik",
+   "Trek elke zin over. Schrijf hem daarna op de lijn eronder."
+  ],
+  "K-392": [
+   "Zoek het woord: ik",
+   "Kleur elk vakje met het woord ‘ik’. Tel ze en schrijf het getal op."
+  ],
+  "K-433": [
+   "Lezen, overtrekken, schrijven: ik",
+   "Lees het woord. Trek het over. Schrijf het. Schrijf het dan in elke zin."
+  ],
+  "K-434": [
+   "Woord en zin overtrekken: ik",
+   "Trek het woord over. Trek dan de zin over op elke regel."
+  ],
+  "K-435": [
+   "Lezen en tekenen: ik",
+   "Lees de zin. Trek hem over. Teken dan wat de zin zegt."
+  ],
+  "K-436": [
+   "Zoek en tel: ik",
+   "Omcirkel het woord ‘ik’ elke keer dat je het ziet. Hoe vaak heb je het gevonden?"
+  ],
+  "K-438": [
+   "Bouw het woord: ik",
+   "Knip de letters uit. Plak ze in de goede volgorde om het woord te maken."
+  ],
+  "K-439": [
+   "Regenboogschrijven: ik",
+   "Trek elk woord drie keer over, elke keer met een andere kleur. Schrijf het dan."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Kleurbingo",
+   "Pak een kaart. Luister naar de getallen van 1 tot en met 20. Kleur elk getal dat je hoort. Drie op een rij wint."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Getallendetective",
@@ -9,30 +209,10 @@
    "In elke rij en elke kolom staan 1, 2, 3 en 4 precies één keer. De getallen in een kooi met dikke rand zijn samen het kleine getal in de hoek."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Kleuren op nummer: Schaap op de boerderij",
-   "Kleur elk deel met de kleur van zijn nummer."
-  ],
-  "K-394": [
-   "Kleuren op nummer: Hert",
-   "Kleur elk deel met de kleur van zijn nummer."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Spring in ABC-volgorde door de honingraat",
    "Begin in het vakje waar de pijl naar wijst. Kleur de volgende letter van het alfabet in een vakje ernaast, tot aan de S."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Zoek de 5 verschillen: Zwaan op de vijver",
-   "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
-  ],
-  "K-397": [
-   "Zoek de 3 verschillen: Kalkoen op de boerderij",
-   "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
   ]
  },
  "how-to-draw": {
@@ -79,78 +259,6 @@
   "G2-391": [
    "Een zandkasteel uit je hoofd tekenen",
    "Kijk goed naar de tekening, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak."
-  ]
- },
- "alphabet": {
-  "K-317": [
-   "Letter van de week: Kk",
-   "Trek de hoofdletter en de kleine letter na, omcirkel de vier plaatjes die met de k beginnen en schrijf dan een rij van elke letter."
-  ],
-  "K-325": [
-   "Woorden met de k: waar hoor je de k?",
-   "Trek de letter na en omcirkel de vier plaatjes waarin je de k ergens in het woord hoort, maar niet vooraan."
-  ],
-  "K-326": [
-   "Vooraan, in het midden of achteraan: waar hoor je de k?",
-   "Zeg elk woord. Kleur het vakje dat laat zien waar je de k hoort: vooraan, in het midden of achteraan."
-  ],
-  "K-327": [
-   "Omcirkel de k in de woorden en tel",
-   "Zoek in elk woord elke K of k en omcirkel die. Schrijf in het vakje hoeveel je er hebt gevonden."
-  ],
-  "K-328": [
-   "Begint het met de K of de G? Kies de goede letter",
-   "Zeg elk woord. Omcirkel de letter waarmee het begint: k of g."
-  ],
-  "G1-311": [
-   "Klank van de week: oe",
-   "Trek de oe na, omcirkel de vier plaatjes waarin je de klank oe hoort en schrijf dan een rij."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Woord van de dag: ik",
-   "Lees het woord. Trek het over, schrijf het zelf en gebruik het in zinnen."
-  ],
-  "K-389": [
-   "Flitswoorden in zinnen: ik",
-   "Lees elke zin. Schrijf het woord ‘ik’ op de lijn."
-  ],
-  "K-390": [
-   "Een zin met ik",
-   "Werk stap voor stap met één zin."
-  ],
-  "K-391": [
-   "Zinnen overtrekken: ik",
-   "Trek elke zin over. Schrijf hem daarna op de lijn eronder."
-  ],
-  "K-392": [
-   "Zoek het woord: ik",
-   "Kleur elk vakje met het woord ‘ik’. Tel ze en schrijf het getal op."
-  ],
-  "K-433": [
-   "Lezen, overtrekken, schrijven: ik",
-   "Lees het woord. Trek het over. Schrijf het. Schrijf het dan in elke zin."
-  ],
-  "K-434": [
-   "Woord en zin overtrekken: ik",
-   "Trek het woord over. Trek dan de zin over op elke regel."
-  ],
-  "K-435": [
-   "Lezen en tekenen: ik",
-   "Lees de zin. Trek hem over. Teken dan wat de zin zegt."
-  ],
-  "K-436": [
-   "Zoek en tel: ik",
-   "Omcirkel het woord ‘ik’ elke keer dat je het ziet. Hoe vaak heb je het gevonden?"
-  ],
-  "K-438": [
-   "Bouw het woord: ik",
-   "Knip de letters uit. Plak ze in de goede volgorde om het woord te maken."
-  ],
-  "K-439": [
-   "Regenboogschrijven: ik",
-   "Trek elk woord drie keer over, elke keer met een andere kleur. Schrijf het dan."
   ]
  },
  "spelling": {

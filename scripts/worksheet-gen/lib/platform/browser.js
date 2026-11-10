@@ -22,7 +22,7 @@ let ASSET_BASE = '/makers-assets';
 // that reads one throws PlatformMissing, runtime.generate asks fetchMissing() for it and builds again. Only these paths
 // are ever fetched; every other missing file stays an error.
 // (+ the Picture Tracing trace store, one file per library drawing: data/pt/traces/<theme>__<noun>.json — lib/pt-store.js)
-const LAZY = /^scripts\/worksheet-gen\/data\/((d2d|cbn\/lineart|fd|htd|htdx|htdv)\/[a-z0-9-]+|pt\/traces\/[^\/]+__[^\/]+)\.json$/;
+const LAZY = /^scripts\/worksheet-gen\/data\/((d2d|cbn\/lineart|fd|htd|htdx|htdv|fl\/d2d|fl\/cbn|fl\/htd)\/[a-z0-9-]+|pt\/traces\/[^\/]+__[^\/]+)\.json$/;
 let FETCHER = null;
 
 const key = (p) => String(p).replace(/\\/g, '/').replace(/^\/+/, '');

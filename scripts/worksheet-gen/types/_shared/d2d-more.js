@@ -16,6 +16,7 @@
  */
 'use strict';
 const sceneDotFigure = require('../../primitives/scene-dot-figure.js');
+const FL = require('../../lib/fl-art.js');
 const { d2d } = require('../k/K-285-dot-to-dot.js');
 const { numberWord } = require('../../lib/number-words.js');
 const { COLLATION } = require('../../data/b2/collation.js');
@@ -92,15 +93,17 @@ function makeD2dMoreType({ id, slug, mode, gradeBand, i18n }) {
       // the pool is measured with this page's own labels (their widths differ by language)
       const fig = { count: d.n, values, lite: true, labelPx: d.labelPx, width: d.strip ? 600 : 640, minGap: 22, ...(d.heroOnly ? { heroOnly: true } : {}) };
       const pool = d2d.d2dPool({ band: d.band }, d.n, fig, null);
-      if (!pool.length) throw new Error(`${id}: no picture takes these ${d.n} labels in ${loc} — REFUSED`);
-      const scene = d2d.fullScene(pool[(d.offset + d2d.copyOf(ctx) - 1) % pool.length]);
-      const f = sceneDotFigure({ scene, ...fig });
+      // the teacher's picture or theme, the published pool, then the library (K-285 pageScene; docs/makers/FLAGSHIP.md)
+      const sv = d2d.copyOf(ctx), page = d2d.pageScene(pool, d.offset + sv - 1, d.n, fig, ctx, sv);
+      if (!page && !pool.length) throw new Error(`${id}: no picture takes these ${d.n} labels in ${loc} — REFUSED`);
+      const scene = page ? page.scene : d2d.fullScene(pool[(d.offset + sv - 1) % pool.length]);
+      const f = page ? page.f : sceneDotFigure({ scene, ...fig });
       const key = !!(ctx && ctx.answerKey);
       let svg = key ? d2d.withPath(f, !/data-lcs-open="1"/.test(f.svg)) : f.svg;
       if (mode === 'parity') svg = withDecoys(svg, f, d, ctx.rng);
       return {
         bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:10px" data-ws-content data-lcs-d2d-mode="${mode}" data-lcs-d2d-seq="${values.join('|')}">` +
-          `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:4px">${svg}</div>` +
+          `<div class="ws-card"${FL.tap(ctx)} style="width:660px;align-items:center;justify-content:center;padding:4px">${svg}</div>` +
           (d.strip ? `<div class="ws-card" style="width:660px;padding:10px 8px;align-items:center">${strip(values)}</div>` : '') + `</div>`,
         meta: { scene: scene.id, labels: values },
       };

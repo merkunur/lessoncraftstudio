@@ -51,7 +51,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng, key = !!(ctx && ctx.answerKey);
     const list = H.pinned('K-497', difficulty) || H.order('K-497');
-    const unit = H.nth(list, ctx);
+    const unit = H.pick(list, ctx, (n) => n === d.n);
     const S = H.B.stepsFor(unit);
     if (S.steps.length !== d.n) throw new Error(`K-497: ${unit} has ${S.steps.length} steps, the level wants ${d.n}`);
     const extra = (ctx && ctx.chromeExtra) || 0;
@@ -68,7 +68,7 @@ module.exports = {
     const boxH = 716 - extra - top, boxW = Math.min(639, Math.round(boxH * 1.25));
     const box = C7.htdPaper({ w: boxW, h: boxH, role: 'primary' });
     const body = `<div style="display:flex;flex-direction:column;align-items:center;gap:14px;width:639px">${cards}${row}<div style="height:4px"></div>${box}</div>`;
-    return { bodyHtml: H.root('cards', unit, body, `data-lcs-htd-steps="${d.n}" data-lcs-htd-perm="${perm.map((k) => k + 1).join('')}"`), meta: { unit, perm: perm.map((k) => k + 1).join('') } };
+    return { bodyHtml: H.root('cards', unit, body, `data-lcs-htd-steps="${d.n}" data-lcs-htd-perm="${perm.map((k) => k + 1).join('')}"${require('../../lib/fl-art.js').tap(ctx)}`), meta: { unit, perm: perm.map((k) => k + 1).join('') } };
   },
 
   /** the pin tool's test (tools/build-htd-face-pins.js): the lesson has exactly the level's number of steps */

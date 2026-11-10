@@ -21,7 +21,14 @@ const D = {
   3: { n: 5, ops: { kinds: ['remove', 'add', 'swap', 'scale', 'mirror'], ring: 48, area: 2000 } },
 };
 const PW = 376;   // two pictures and the fold band fill the body: 2 × 351 + 26 = 728
-const compose = (scene, d, rng) => ({ scene, r: F.pickSpread(scene, { n: d.n, ...d.ops }, PW, rng) });
+// the screen taps the changes among the UNCHANGED drawings (one decoy on each): a scene whose every drawing changed leaves
+// nothing to leave untapped, so its screen cannot be built (flagship visual check 2026-11-08: a jellyfish, a cupcake or a dog
+// scene at level 3). Refused as a composition, so the pin tool leaves it out and sceneFor walks on.
+const compose = (scene, d, rng) => {
+  const r = F.pickSpread(scene, { n: d.n, ...d.ops }, PW, rng);
+  if (!screenHotspots({ ...r, scene }, 0, {}).some((h) => !h.diff)) throw new Error('fd-faces: K-490 every drawing changed, no drawing left to leave untapped');
+  return { scene, r };
+};
 /** the fold band between the pictures: a dashed line across the page and a fold arc at each end */
 const foldBand = (w) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="26" viewBox="0 0 ${w} 26" data-lcs-fd-fold="h" style="display:block">` +
   `<line x1="16" y1="13" x2="${w - 16}" y2="13" stroke="#8A8276" stroke-width="2.5" stroke-dasharray="10 7"/>` +
@@ -59,7 +66,7 @@ module.exports = {
     const p2 = C7.fdPicture({ svg: p2svg + hots, w: pw, h: ph, tab: 2 });
     const stack = `<div style="display:flex;flex-direction:column;gap:0">${p1}${foldBand(pw + 32)}${p2}</div>`;
     const ledger = `<div style="padding-top:${ph + 26 + 6}px">${C7.fdLedger({ n: got.r.ops.length, box: d.n > 4 ? 48 : 54, gap: 8, ticks: key ? Array(got.r.ops.length).fill(1) : null })}</div>`;
-    const body = `<div data-ws-content data-lcs-fd-face="memory" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.r.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-fd-face="memory" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.r.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
       C7.fdColumns({ cells: [stack, '', ledger], widths: [pw + 32, 18, 118] }) + `</div>`;
     return { bodyHtml: body, meta: { unit: got.id, ops: got.r.ops.map((c) => c.kind).join(',') } };
   },

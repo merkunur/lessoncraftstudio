@@ -18,6 +18,8 @@ const DIR = path.join(WG, 'data', 'd2d');
 const OUT = path.join(DIR, 'index.json');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const IDS = ['K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486', 'K-505', 'K-506', 'K-507'];
+// the flagship templates that draw only library pictures (built as a maker page, so their figure settings are seen)
+const LIB_IDS = ['K-586', 'G1-547', 'G3-480'];
 
 const typeFile = (id) => { const g = id.startsWith('K-') ? 'k' : id.slice(0, 2).toLowerCase(); return path.join(WG, 'types', g, fs.readdirSync(path.join(WG, 'types', g)).find((f) => f.startsWith(id + '-'))); };
 const { makeRng } = require(path.join(WG, 'lib', 'rng.js'));
@@ -38,6 +40,12 @@ for (const id of IDS) {
     try { type.build({ difficulty: lv, locale: loc }, { rng: makeRng(id + lv + loc + v), variant: v, seedVariant: v }); built++; } catch (e) { refused++; }
   }
 }
+for (const id of LIB_IDS) {
+  const type = require(typeFile(id));
+  for (const lv of [1, 2, 3]) for (const loc of LOCALES) {
+    try { type.build({ difficulty: lv, locale: loc }, { rng: makeRng(id + lv + loc), variant: 1, makerCopy: 1, maker: true, slotsOut: {} }); built++; } catch (e) { refused++; }
+  }
+}
 const placeable = {};
 for (const [k, ok] of K285.d2d.placeable) {
   const at = k.indexOf('|'), sid = k.slice(0, at), fig = JSON.parse(k.slice(at + 1));
@@ -47,7 +55,27 @@ for (const [k, ok] of K285.d2d.placeable) {
 }
 for (const k of Object.keys(placeable)) placeable[k].sort();
 const sortedKeys = Object.keys(placeable).sort();
-const out = JSON.stringify({ note: 'tools/build-d2d-index.js — do not edit', scenes, placeable: Object.fromEntries(sortedKeys.map((k) => [k, placeable[k]])) }) + '\n';
+// libRefused { <figKey>: [library picture slugs whose numbers find no free place with that setting] } (flagship visual
+// check 2026-11-08): every figure setting a library page asks for, against every library picture with that many dots
+const FL = require(path.join(WG, 'lib', 'fl-art.js'));
+
+// stored compactly for the browser: one sorted list of the library's dot-to-dot slugs, and per setting a base64 bitset over
+// it (bit i set = slugs[i] refused); K-285 decodeLibRefused() reads it
+const libSlugs = FL.keys('d2d').map((k) => FL.slugOf(k)).sort();
+const slugAt = new Map(libSlugs.map((s, i) => [s, i]));
+const libRefused = { slugs: libSlugs, sets: {} };
+let libTried = 0, libBad = 0;
+for (const [key, fig] of [...K285.d2d.libFigs].sort((a, b) => (a[0] < b[0] ? -1 : 1))) {
+  const bits = new Uint8Array(Math.ceil(libSlugs.length / 8));
+  let any = false;
+  for (const k of FL.keys('d2d', (fit) => fit[fig.count] != null)) {
+    libTried++;
+    // figureOf: the numbers' free places AND the setting's minimum dot gap (G1-486, K-507: "dots too close")
+    try { K285.d2d.figureOf(K285.d2d.libScene(k), fig); } catch (e) { const i = slugAt.get(FL.slugOf(k)); bits[i >> 3] |= 1 << (i & 7); any = true; libBad++; }
+  }
+  if (any) libRefused.sets[key] = Buffer.from(bits).toString('base64');
+}
+const out = JSON.stringify({ note: 'tools/build-d2d-index.js — do not edit', scenes, placeable: Object.fromEntries(sortedKeys.map((k) => [k, placeable[k]])), libRefused }) + '\n';
 
 if (process.argv.includes('--check')) {
   const cur = fs.existsSync(OUT) ? fs.readFileSync(OUT, 'utf8') : '';
@@ -55,5 +83,5 @@ if (process.argv.includes('--check')) {
   console.log(`d2d index current: ${scenes.length} scenes, ${sortedKeys.length} figure settings`);
 } else {
   fs.writeFileSync(OUT, out);
-  console.log(`wrote ${path.relative(process.cwd(), OUT)}: ${scenes.length} scenes, ${sortedKeys.length} figure settings, ${(out.length / 1024).toFixed(0)} KB (${built} pages built, ${refused} refused)`);
+  console.log(`wrote ${path.relative(process.cwd(), OUT)}: ${scenes.length} scenes, ${sortedKeys.length} figure settings, ${(out.length / 1024).toFixed(0)} KB (${built} pages built, ${refused} refused); library: ${K285.d2d.libFigs.size} settings, ${libTried} tried, ${libBad} refused`);
 }

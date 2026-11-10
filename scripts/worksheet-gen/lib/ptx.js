@@ -55,7 +55,37 @@ function resolvePtx(unit, o = {}) {
  * page (null), then the face's Level Set skins of that level, in catalogue order; levels 1 and 3 are its skins only.
  */
 function makerUnits(faceId, level) {
-  const l = [...catalog().values()].filter((e) => e.face === faceId && e.level === Number(level)).map((e) => e.id);
-  return Number(level) === 2 || !l.length ? [null].concat(l) : l;
+  const all = [...catalog().values()].filter((e) => e.face === faceId), l = all.filter((e) => e.level === Number(level)).map((e) => e.id);
+  // past its own level's scenes a copy takes the scenes of the next level up or down, drawn in this level's line (docs/makers/FLAGSHIP.md: a maker never runs dry)
+  const more = all.filter((e) => Math.abs(e.level - Number(level)) === 1).map((e) => e.id);
+  return (Number(level) === 2 || !l.length ? [null].concat(l) : l).concat(more);
 }
-module.exports = { catalog, resolvePtx, isPtx, MODE_OF, makerUnits };
+/* ---- a teacher's picture on a composed face (docs/makers/FLAGSHIP.md) ---- */
+const FL = require('./fl-art.js');
+const INDEX = require('../data/pt/index.json');
+// the faces where the scene's main drawing is free to be any picture; every other face is ABOUT its drawings (round ones,
+// straight lines, Christmas, a count, a half) and keeps its own pages
+const ART_FACES = new Set(['first-tracing', 'look-then-trace']);
+const BANDS = { 1: ['P1'], 2: ['P1', 'P2'], 3: ['P2', 'P3'] };
+/** the pictures a face offers at a level (empty: the face keeps its own pages) */
+const artPool = (mode, level) => (ART_FACES.has(mode) ? FL.keys('pt', (b) => (BANDS[level] || BANDS[2]).includes(b)) : []);
+/** the scene with its main drawing (the biggest; its model too) replaced by key; others: the next drawings, for a theme */
+/** the drawing a scene is known by: its biggest (the one reskin swaps for the chosen picture) */
+const sizeOf = (it) => (it.fitBox ? it.fitBox[0] * it.fitBox[1] : (it.h || 0) * (it.w || it.h || 0));
+function heroSrc(scene) {
+  const its = (scene.items || []).filter((it) => it.src);
+  return its.length ? its.reduce((a, b) => (sizeOf(b) > sizeOf(a) ? b : a)).src : null;
+}
+function reskin(scene, key, others = []) {
+  const size = sizeOf;
+  const distinct = [...new Set((scene.items || []).filter((it) => it.src && !/^motif:/.test(it.src)).map((it) => it.src))];
+  if (!distinct.length) throw new Error('ptx: nothing to swap in this scene');
+  const biggest = (scene.items || []).filter((it) => it.src).reduce((a, b) => (size(b) > size(a) ? b : a)).src;
+  const map = new Map([[biggest, key]]);
+  let i = 0;
+  for (const src of distinct) if (src !== biggest && i < others.length) map.set(src, others[i++]);
+  // the new drawing takes the old one's footprint (its width and height, whatever its own shape)
+  const box = (it) => { if (it.fitBox) return it.fitBox; if (it.fit) return [it.fit, it.fit]; const a = (INDEX[it.src] || {}).aspect || 1, h = it.h || (it.w ? it.w / a : 200); return [Math.round(it.w || h * a), Math.round(h)]; };
+  return { ...scene, items: scene.items.map((it) => { if (!map.has(it.src)) return it; const { h, w, fit, ...rest } = it; return { ...rest, src: map.get(it.src), fitBox: box(it) }; }) };
+}
+module.exports = { catalog, resolvePtx, isPtx, MODE_OF, makerUnits, artPool, reskin, heroSrc };

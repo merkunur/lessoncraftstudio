@@ -15,17 +15,17 @@
 // Color by Number (2026-10-04) added lightblue / lightgreen / grey (the illustrated pictures' sky, far hills, stone);
 // K-241 reads its keys BY NAME, so its pages are unchanged. black added 2026-10-05 (penguins, tyres, ladybird spots).
 const COLOR_WORDS = {
-  en: {red: 'red', blue: 'blue', yellow: 'yellow', green: 'green', orange: 'orange', purple: 'purple', brown: 'brown', pink: 'pink', lightblue: 'light blue', lightgreen: 'light green', grey: 'gray', black: 'black'},
-  de: {red: 'rot', blue: 'blau', yellow: 'gelb', green: 'grün', orange: 'orange', purple: 'lila', brown: 'braun', pink: 'rosa', lightblue: 'hellblau', lightgreen: 'hellgrün', grey: 'grau', black: 'schwarz'},
-  fr: {red: 'rouge', blue: 'bleu', yellow: 'jaune', green: 'vert', orange: 'orange', purple: 'violet', brown: 'marron', pink: 'rose', lightblue: 'bleu clair', lightgreen: 'vert clair', grey: 'gris', black: 'noir'},
-  es: {red: 'rojo', blue: 'azul', yellow: 'amarillo', green: 'verde', orange: 'naranja', purple: 'morado', brown: 'café', pink: 'rosa', lightblue: 'azul claro', lightgreen: 'verde claro', grey: 'gris', black: 'negro'},
-  pt: {red: 'vermelho', blue: 'azul', yellow: 'amarelo', green: 'verde', orange: 'laranja', purple: 'roxo', brown: 'marrom', pink: 'rosa', lightblue: 'azul-claro', lightgreen: 'verde-claro', grey: 'cinza', black: 'preto'},
-  it: {red: 'rosso', blue: 'blu', yellow: 'giallo', green: 'verde', orange: 'arancione', purple: 'viola', brown: 'marrone', pink: 'rosa', lightblue: 'azzurro', lightgreen: 'verde chiaro', grey: 'grigio', black: 'nero'},
-  nl: {red: 'rood', blue: 'blauw', yellow: 'geel', green: 'groen', orange: 'oranje', purple: 'paars', brown: 'bruin', pink: 'roze', lightblue: 'lichtblauw', lightgreen: 'lichtgroen', grey: 'grijs', black: 'zwart'},
-  sv: {red: 'röd', blue: 'blå', yellow: 'gul', green: 'grön', orange: 'orange', purple: 'lila', brown: 'brun', pink: 'rosa', lightblue: 'ljusblå', lightgreen: 'ljusgrön', grey: 'grå', black: 'svart'},
-  da: {red: 'rød', blue: 'blå', yellow: 'gul', green: 'grøn', orange: 'orange', purple: 'lilla', brown: 'brun', pink: 'lyserød', lightblue: 'lyseblå', lightgreen: 'lysegrøn', grey: 'grå', black: 'sort'},
-  no: {red: 'rød', blue: 'blå', yellow: 'gul', green: 'grønn', orange: 'oransje', purple: 'lilla', brown: 'brun', pink: 'rosa', lightblue: 'lyseblå', lightgreen: 'lysegrønn', grey: 'grå', black: 'svart'},
-  fi: {red: 'punainen', blue: 'sininen', yellow: 'keltainen', green: 'vihreä', orange: 'oranssi', purple: 'violetti', brown: 'ruskea', pink: 'vaaleanpunainen', lightblue: 'vaaleansininen', lightgreen: 'vaaleanvihreä', grey: 'harmaa', black: 'musta'},
+  en: {red: 'red', blue: 'blue', yellow: 'yellow', green: 'green', orange: 'orange', purple: 'purple', brown: 'brown', pink: 'pink', lightblue: 'light blue', lightgreen: 'light green', grey: 'gray', black: 'black', white: 'white'},
+  de: {red: 'rot', blue: 'blau', yellow: 'gelb', green: 'grün', orange: 'orange', purple: 'lila', brown: 'braun', pink: 'rosa', lightblue: 'hellblau', lightgreen: 'hellgrün', grey: 'grau', black: 'schwarz', white: 'weiß'},
+  fr: {red: 'rouge', blue: 'bleu', yellow: 'jaune', green: 'vert', orange: 'orange', purple: 'violet', brown: 'marron', pink: 'rose', lightblue: 'bleu clair', lightgreen: 'vert clair', grey: 'gris', black: 'noir', white: 'blanc'},
+  es: {red: 'rojo', blue: 'azul', yellow: 'amarillo', green: 'verde', orange: 'naranja', purple: 'morado', brown: 'café', pink: 'rosa', lightblue: 'azul claro', lightgreen: 'verde claro', grey: 'gris', black: 'negro', white: 'blanco'},
+  pt: {red: 'vermelho', blue: 'azul', yellow: 'amarelo', green: 'verde', orange: 'laranja', purple: 'roxo', brown: 'marrom', pink: 'rosa', lightblue: 'azul-claro', lightgreen: 'verde-claro', grey: 'cinza', black: 'preto', white: 'branco'},
+  it: {red: 'rosso', blue: 'blu', yellow: 'giallo', green: 'verde', orange: 'arancione', purple: 'viola', brown: 'marrone', pink: 'rosa', lightblue: 'azzurro', lightgreen: 'verde chiaro', grey: 'grigio', black: 'nero', white: 'bianco'},
+  nl: {red: 'rood', blue: 'blauw', yellow: 'geel', green: 'groen', orange: 'oranje', purple: 'paars', brown: 'bruin', pink: 'roze', lightblue: 'lichtblauw', lightgreen: 'lichtgroen', grey: 'grijs', black: 'zwart', white: 'wit'},
+  sv: {red: 'röd', blue: 'blå', yellow: 'gul', green: 'grön', orange: 'orange', purple: 'lila', brown: 'brun', pink: 'rosa', lightblue: 'ljusblå', lightgreen: 'ljusgrön', grey: 'grå', black: 'svart', white: 'vit'},
+  da: {red: 'rød', blue: 'blå', yellow: 'gul', green: 'grøn', orange: 'orange', purple: 'lilla', brown: 'brun', pink: 'lyserød', lightblue: 'lyseblå', lightgreen: 'lysegrøn', grey: 'grå', black: 'sort', white: 'hvid'},
+  no: {red: 'rød', blue: 'blå', yellow: 'gul', green: 'grønn', orange: 'oransje', purple: 'lilla', brown: 'brun', pink: 'rosa', lightblue: 'lyseblå', lightgreen: 'lysegrønn', grey: 'grå', black: 'svart', white: 'hvit'},
+  fi: {red: 'punainen', blue: 'sininen', yellow: 'keltainen', green: 'vihreä', orange: 'oranssi', purple: 'violetti', brown: 'ruskea', pink: 'vaaleanpunainen', lightblue: 'vaaleansininen', lightgreen: 'vaaleanvihreä', grey: 'harmaa', black: 'musta', white: 'valkoinen'},
 };
 
 module.exports = { COLOR_WORDS };

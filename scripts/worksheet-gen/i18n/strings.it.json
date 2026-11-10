@@ -4536,5 +4536,229 @@
   "K-578": {
     "title": "Bingo di forme e colori: carte da estrarre",
     "instruction": "Ritaglia le carte e mescolale. Prendi una carta alla volta e leggi la forma e il colore ad alta voce. Tieni da parte le carte già estratte per controllare ogni bingo."
+  },
+  "K-579": {
+    "title": "Alfabeto da colorare: {U}",
+    "instruction": "Colora la pagina. Rendila più bella e vivace che puoi."
+  },
+  "K-580": {
+    "title": "Numeri da colorare: {U}",
+    "instruction": "Colora tutto quello che c’è sulla pagina. Conta le stelle."
+  },
+  "K-581": {
+    "title": "Colora il tuo nome",
+    "instruction": "Colora ogni lettera del tuo nome."
+  },
+  "K-582": {
+    "title": "Colora e conta",
+    "instruction": "Colora le figure. Conta ogni tipo e scrivi quante sono."
+  },
+  "K-583": {
+    "title": "Segnalibri da colorare",
+    "instruction": "Colora i segnalibri. Ritagliali lungo le linee tratteggiate."
+  },
+  "K-584": {
+    "title": "Unisci i puntini: lettera {U}",
+    "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l’ordine dei numeri per formare la lettera. Poi colorala."
+  },
+  "K-585": {
+    "title": "Unisci i puntini: numero {U}",
+    "instruction": "Parti dal punto arancione. Unisci i puntini seguendo l’ordine dei numeri per formare il numero. Poi coloralo."
+  },
+  "K-586": {
+    "title": "Due piccoli disegni da unire",
+    "instruction": "In ogni disegno parti dal punto arancione. Unisci i puntini seguendo l’ordine dei numeri."
+  },
+  "G1-547": {
+    "title": "Unisci i puntini e scrivi la parola",
+    "instruction": "Unisci i puntini seguendo l’ordine dei numeri. Poi scrivi il nome del disegno."
+  },
+  "K-587": {
+    "title": "Colora con le addizioni: {UNIT}",
+    "instruction": "Calcola ogni addizione della legenda. Colora ogni parte con il colore del risultato."
+  },
+  "K-588": {
+    "title": "Colora con le lettere: {UNIT}",
+    "instruction": "Colora ogni parte con il colore della sua lettera."
+  },
+  "K-591": {
+    "title": "Griglia di lettere: trova le differenze",
+    "instruction": "Guarda la griglia in alto. Trova le {N} lettere che sono cambiate nella griglia in basso. Colorale."
+  },
+  "K-592": {
+    "title": "Griglia di numeri: trova le differenze",
+    "instruction": "Guarda la griglia in alto. Trova i {N} numeri che sono cambiati nella griglia in basso. Colorali."
+  },
+  "G1-548": {
+    "title": "Griglia di immagini: trova le differenze",
+    "instruction": "Guarda la griglia in alto. Trova le {N} immagini che sono cambiate nella griglia in basso. Cerchiale."
+  },
+  "K-593": {
+    "title": "Chi guarda dall’altra parte?",
+    "instruction": "In ogni riga un’immagine guarda dall’altra parte. Cerchiala."
+  },
+  "K-594": {
+    "title": "Quale ha una grandezza diversa?",
+    "instruction": "In ogni riga un’immagine ha una grandezza diversa. Cerchiala."
+  },
+  "K-595": {
+    "title": "Tira il dado e disegna un mostro",
+    "instruction": "Tira il dado per ogni riga. Disegna nel riquadro la parte sotto il tuo numero."
+  },
+  "K-596": {
+    "title": "Tira il dado e disegna un robot",
+    "instruction": "Tira il dado per ogni riga. Disegna nel riquadro la parte sotto il tuo numero."
+  },
+  "K-597": {
+    "title": "Tira il dado e disegna un insetto",
+    "instruction": "Tira il dado per ogni riga. Disegna nel riquadro la parte sotto il tuo numero."
+  },
+  "K-598": {
+    "title": "Poster: come si disegna",
+    "instruction": "Guarda i passaggi in ordine. Colora il nome e il disegno finito."
+  },
+  "G1-549": {
+    "title": "Disegnalo tre volte",
+    "instruction": "Segui i passaggi. Disegna la figura grande, poi più piccola e poi piccolissima."
+  },
+  "K-599": {
+    "title": "Due disegni da ripassare",
+    "instruction": "Ripassa tutte le linee dei due disegni. Comincia dai punti neri."
+  },
+  "K-600": {
+    "title": "Ripassa il percorso",
+    "instruction": "In ogni riga comincia dal punto nero. Ripassa il percorso fino all’altra figura."
+  },
+  "K-601": {
+    "title": "Ripassa la cornice",
+    "instruction": "Comincia dal punto nero e ripassa la cornice. Poi disegna dentro qualcosa che ti piace."
+  },
+  "K-602": {
+    "title": "Ripassa la lettera gigante: {U}",
+    "instruction": "Comincia dal punto nero. Ripassa il contorno. Poi colora la lettera."
+  },
+  "K-609": {
+    "title": "Ripassa il numero gigante: {U}",
+    "instruction": "Comincia dal punto nero. Ripassa il contorno. Poi colora il numero."
+  },
+  "K-603": {
+    "title": "Conta e colora il numero",
+    "instruction": "Conta le figure di ogni riga. Colora il numero che dice quante sono."
+  },
+  "K-604": {
+    "title": "Il percorso dei numeri",
+    "instruction": "Trova l’1. Colora i numeri in ordine fino a {N}, uno accanto all’altro, per formare un percorso."
+  },
+  "K-606": {
+    "title": "Colora il numero maggiore",
+    "instruction": "Guarda i due numeri in ogni riquadro. Colora il maggiore."
+  },
+  "K-607": {
+    "title": "Calcola e colora il risultato",
+    "instruction": "Calcola ogni operazione. Colora il numero che è il risultato."
+  },
+  "G2-499": {
+    "title": "Colora i multipli",
+    "instruction": "Colora tutti i numeri che dici contando di {N} in {N}."
+  },
+  "K-608": {
+    "title": "Colora la coppia",
+    "instruction": "In ogni riga colora i due numeri che insieme fanno {N}."
+  },
+  "G1-551": {
+    "title": "Colora le decine",
+    "instruction": "In ogni numero colora la cifra delle decine."
+  },
+  "K-610": {
+    "title": "Colora e ripassa: {U}",
+    "instruction": "Colora il numero grande. Poi ripassa i numeri sulle righe."
+  },
+  "K-611": {
+    "title": "Il mio poster del numero: {U}",
+    "instruction": "Colora il numero e il suo nome. Poi colora altrettanti quadretti nella griglia."
+  },
+  "K-612": {
+    "title": "Colora il numero e riempi la griglia",
+    "instruction": "Colora ogni numero. Poi colora altrettanti quadretti nella sua griglia."
+  },
+  "K-613": {
+    "title": "Colora i giorni",
+    "instruction": "Ogni giorno colora il numero di oggi, finché tutto il mese è colorato."
+  },
+  "K-614": {
+    "title": "Colora la sequenza di lettere",
+    "instruction": "Colora le lettere uguali dello stesso colore. Scrivi la lettera che viene dopo."
+  },
+  "K-615": {
+    "title": "Lettere o numeri?",
+    "instruction": "Colora tutte le lettere. Lascia bianchi i numeri."
+  },
+  "K-616": {
+    "title": "Trova e colora: {U}",
+    "instruction": "Guarda la lettera in alto. Trovala nella griglia e colorala ogni volta."
+  },
+  "K-617": {
+    "title": "Colora e ripassa: {U}",
+    "instruction": "Colora le lettere grandi. Poi ripassa le lettere sulle righe."
+  },
+  "K-618": {
+    "title": "Colora la prima lettera",
+    "instruction": "Di’ il nome di ogni figura. Colora la lettera con cui comincia."
+  },
+  "K-619": {
+    "title": "Colora la parola: {U}",
+    "instruction": "Leggi la parola. Colorala ogni volta che la trovi."
+  },
+  "G1-552": {
+    "title": "Colora la parola giusta",
+    "instruction": "Guarda ogni figura. Colora la parola scritta bene."
+  },
+  "K-620": {
+    "title": "Colora le sillabe",
+    "instruction": "Di’ ogni parola e batti le mani per ogni sillaba. Colora ogni sillaba di un colore diverso."
+  },
+  "K-621": {
+    "title": "Colora e scrivi la parola",
+    "instruction": "Di’ la parola. Colora le lettere grandi. Poi scrivi la parola sulla riga."
+  },
+  "K-622": {
+    "title": "Cerca parole da colorare",
+    "instruction": "Trova ogni parola nella griglia e colora le sue lettere. Usa un colore nuovo per ogni parola."
+  },
+  "K-623": {
+    "title": "Tombola da colorare",
+    "instruction": "Prendi una cartella. Ascolta i numeri da 1 a {N}. Colora ogni numero che senti. Vince chi ne ha tre in fila."
+  },
+  "K-624": {
+    "title": "Carte dell’alfabeto da colorare",
+    "instruction": "Colora ogni carta. Poi ritaglia le carte lungo le linee tratteggiate."
+  },
+  "K-625": {
+    "title": "Il mio poster del nome",
+    "instruction": "Colora le lettere del tuo nome. Disegnati nel riquadro."
+  },
+  "K-626": {
+    "title": "Colora la lettera al suo posto",
+    "instruction": "In ogni riga, parti dalla freccia e conta i posti. Colora la lettera al posto indicato."
+  },
+  "G3-480": {
+    "title": "Unisci i puntini: conta a salti",
+    "instruction": "Parti dal punto arancione. Conta di {N} in {N} e unisci i puntini in ordine."
+  },
+  "G3-479": {
+    "title": "Colora con le moltiplicazioni: {UNIT}",
+    "instruction": "Calcola ogni moltiplicazione della legenda. Colora ogni parte con il colore del risultato."
+  },
+  "G1-555": {
+    "title": "Disegno misterioso a quadretti",
+    "instruction": "Colora ogni quadretto con il colore del suo numero. Quale disegno appare?"
+  },
+  "G1-553": {
+    "title": "La lettera nascosta",
+    "instruction": "Colora ogni quadretto con un numero dispari. Quale lettera vedi? Scrivila nel riquadro."
+  },
+  "G1-554": {
+    "title": "Colora i numeri dispari",
+    "instruction": "Colora tutti i numeri dispari. Lascia bianchi i numeri pari."
   }
 }

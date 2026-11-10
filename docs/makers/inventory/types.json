@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03",
- "count": 1134,
+ "generated": "2026-11-07",
+ "count": 1190,
  "failures": [],
  "rows": [
   {
@@ -3896,7 +3896,8 @@
     "primitives/trace-path.js",
     "lib/b2-common.js",
     "lib/picture-refusals.js",
-    "lib/picture-word-review.js"
+    "lib/picture-word-review.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:word-sentence-tracing",
    "skill": "Trace and copy whole words (first words, long words, capitals, sight words) and short sentences, left to right with spaces between words",
@@ -3929,7 +3930,9 @@
     "data/b2/figures.js",
     "primitives/scene-dot-figure.js",
     "lib/platform/index.js",
+    "lib/fl-art.js",
     "data/d2d/review.js",
+    "path",
     "path",
     "path",
     "path",
@@ -3995,6 +3998,7 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "primitives/trace-path.js",
     "templates/components-b2.js",
     "lib/b2-common.js",
@@ -4034,7 +4038,10 @@
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/articles.js",
+    "data/b2/article-name-risk.js",
     "data/b2/labels.js",
+    "primitives/bankword-width.js",
+    "lib/slot.js",
     "image-cache/resolve.js",
     "image-cache/resolve.js",
     "lib/answer-slots.js"
@@ -4719,10 +4726,10 @@
     "templates/components-b3.js",
     "data/literacy/letter-knowledge.json",
     "data/tracing/letter-strokes.js",
+    "lib/platform/index.js",
     "path",
-    "fs",
-    "fs",
-    "lib/b3-common.js"
+    "lib/b3-common.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:beginning-sounds",
    "skill": "Identify and sort by the beginning sound (letter of the week, m or n)",
@@ -4768,8 +4775,10 @@
     "lib/b3-common.js",
     "lib/sound-boxes.js",
     "lib/picture-refusals.js",
+    "lib/rng.js",
     "lib/sound-boxes-screen.js",
     "lib/read-and-color.js",
+    "lib/slot.js",
     "lib/answer-slots.js"
    ],
    "teachingPoint": "K:segment-phonemes",
@@ -4804,8 +4813,9 @@
     "lib/b3-common.js",
     "lib/b2-common.js",
     "templates/components-b3.js",
-    "fs",
+    "lib/platform/index.js",
     "path",
+    "lib/slot.js",
     "lib/b3-common.js"
    ],
    "teachingPoint": "K:feelings",
@@ -4848,6 +4858,7 @@
    "uses": [
     "lib/b2-common.js",
     "lib/distinct-pictures.js",
+    "lib/slot.js",
     "lib/b3-common.js",
     "templates/components-b3.js",
     "lib/ordinal-numbers-screen.js",
@@ -4975,6 +4986,7 @@
     "image-cache/resolve.js",
     "data/color-words.js",
     "primitives/bankword-width.js",
+    "lib/slot.js",
     "data/b3/all-about-me.js"
    ],
    "teachingPoint": "K:all-about-me-personal",
@@ -5014,6 +5026,7 @@
     "data/b2/articles.js",
     "primitives/_svg.js",
     "templates/components-b3.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": "K:word-picture-match",
@@ -7663,6 +7676,7 @@
    "interactive": true,
    "uses": [
     "lib/b7-common.js",
+    "lib/fl-art.js",
     "data/b7/find-the-differences.js",
     "lib/fd-scene.js",
     "lib/fd-compose.js",
@@ -7704,6 +7718,8 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/fl-art.js",
+    "lib/fl-forms.js",
     "lib/b7-common.js",
     "data/b7/how-to-draw.js",
     "lib/htd-steps.js",
@@ -8376,9 +8392,14 @@
     "data/b9/face-scenes.js",
     "data/b9/picture-tracing.js",
     "lib/ptx.js",
+    "lib/fl-art.js",
     "data/ptx/words.js",
     "data/b9/picture-tracing.js",
     "lib/b9-common.js",
+    "lib/fl-art.js",
+    "lib/fl-art.js",
+    "lib/fl-art.js",
+    "data/ptx/text.js",
     "lib/ptx.js",
     "data/ptx/text.js"
    ],
@@ -10189,7 +10210,8 @@
    "uses": [
     "primitives/_tokens.js",
     "image-cache/resolve.js",
-    "lib/distinct-pictures.js"
+    "lib/distinct-pictures.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:mazes",
    "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
@@ -10215,7 +10237,8 @@
    ],
    "interactive": false,
    "uses": [
-    "lib/fd-faces.js"
+    "lib/fd-faces.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -10245,7 +10268,8 @@
    "interactive": false,
    "uses": [
     "lib/fd-faces.js",
-    "templates/components-b7.js"
+    "templates/components-b7.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -10272,7 +10296,8 @@
    "uses": [
     "lib/fd-faces.js",
     "templates/components-b7.js",
-    "./K-395-find-the-differences.js"
+    "./K-395-find-the-differences.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -10300,7 +10325,8 @@
    "interactive": false,
    "uses": [
     "lib/fd-faces.js",
-    "templates/components-b7.js"
+    "templates/components-b7.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -10326,7 +10352,8 @@
    ],
    "interactive": false,
    "uses": [
-    "lib/fd-faces.js"
+    "lib/fd-faces.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:spot-the-difference",
    "skill": "Compare two pictures and find what changed / what is missing",
@@ -10383,7 +10410,8 @@
    "interactive": false,
    "uses": [
     "lib/htd-faces.js",
-    "templates/components-b7.js"
+    "templates/components-b7.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:how-to-draw",
    "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
@@ -10468,7 +10496,8 @@
     "lib/htd-faces.js",
     "lib/htd-steps.js",
     "templates/components-b7.js",
-    "primitives/_tokens.js"
+    "primitives/_tokens.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "K:how-to-draw",
    "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
@@ -10492,7 +10521,8 @@
    ],
    "interactive": false,
    "uses": [
-    "lib/pt-faces.js"
+    "lib/pt-faces.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -10524,7 +10554,9 @@
     "data/tracing/letter-strokes.js",
     "lib/b2-common.js",
     "lib/picture-word-review.js",
-    "primitives/_tokens.js"
+    "lib/fl-forms.js",
+    "primitives/_tokens.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -11501,6 +11533,7 @@
    "uses": [
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js",
     "templates/layouts/card-grid.js"
    ],
@@ -11531,6 +11564,7 @@
    "uses": [
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -11561,6 +11595,8 @@
     "image-cache/resolve.js",
     "_shared/key-number.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
+    "_shared/rhyme-slots.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -11590,6 +11626,8 @@
     "lib/b3-common.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
+    "_shared/rhyme-slots.js",
     "templates/layouts/card-grid.js"
    ],
    "teachingPoint": null,
@@ -11619,6 +11657,8 @@
     "image-cache/resolve.js",
     "_shared/key-number.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
+    "_shared/rhyme-slots.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -11704,6 +11744,7 @@
    "interactive": false,
    "uses": [
     "_shared/picture-word-pool.js",
+    "lib/slot.js",
     "image-cache/resolve.js",
     "_shared/key-number.js",
     "_shared/alphabet-more.js",
@@ -11733,6 +11774,7 @@
    "interactive": false,
    "uses": [
     "_shared/picture-word-pool.js",
+    "lib/slot.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -11762,6 +11804,7 @@
    "interactive": false,
    "uses": [
     "_shared/picture-word-pool.js",
+    "lib/slot.js",
     "data/b2/collation.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
@@ -11793,6 +11836,7 @@
    "interactive": false,
    "uses": [
     "_shared/picture-word-pool.js",
+    "lib/slot.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -11821,6 +11865,7 @@
    "uses": [
     "_shared/position-scenes.js",
     "_shared/position-items.js",
+    "lib/slot.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
    ],
@@ -11848,6 +11893,7 @@
    "uses": [
     "_shared/position-scenes.js",
     "_shared/position-items.js",
+    "lib/slot.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
    ],
@@ -11875,6 +11921,7 @@
    "uses": [
     "_shared/position-scenes.js",
     "_shared/position-items.js",
+    "lib/slot.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
    ],
@@ -11902,6 +11949,7 @@
    "uses": [
     "_shared/position-scenes.js",
     "_shared/position-items.js",
+    "lib/slot.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
    ],
@@ -11934,6 +11982,7 @@
     "data/word-meaning/word-meaning-new.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -11965,6 +12014,7 @@
     "image-cache/resolve.js",
     "_shared/key-number.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -12021,6 +12071,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "_shared/sentence-items.js",
     "primitives/trace-path.js",
     "lib/key-on-row.js",
@@ -12172,6 +12223,7 @@
     "data/ordinal-numbers/shelf.js",
     "_shared/ordinal-more.js",
     "lib/b3-common.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -12200,6 +12252,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/spelling-words.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -12229,6 +12282,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/noun-forms.js",
+    "lib/slot.js",
     "lib/number-words-1000.js",
     "primitives/_tokens.js"
    ],
@@ -12257,6 +12311,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/noun-forms.js",
+    "lib/slot.js",
     "data/b2/labels.js",
     "primitives/_tokens.js"
    ],
@@ -12343,7 +12398,8 @@
     "lib/b2-common.js",
     "lib/b3-common.js",
     "data/feelings/feelings-new.js",
-    "primitives/_tokens.js"
+    "primitives/_tokens.js",
+    "lib/slot.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -12696,6 +12752,1001 @@
    "interactive": false,
    "uses": [
     "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-579",
+   "file": "scripts/worksheet-gen/types/k/K-579-color-the-letter.js",
+   "grade": "K",
+   "slug": "color-the-letter",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Coloring Alphabet: {U}",
+   "instruction": "Color the page. Make it as bright and beautiful as you can.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-580",
+   "file": "scripts/worksheet-gen/types/k/K-580-color-the-number.js",
+   "grade": "K",
+   "slug": "color-the-number",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Coloring Numbers: {U}",
+   "instruction": "Color everything on the page. Count the stars.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-581",
+   "file": "scripts/worksheet-gen/types/k/K-581-color-your-name.js",
+   "grade": "K",
+   "slug": "color-your-name",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color Your Name",
+   "instruction": "Color every letter of your name.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-582",
+   "file": "scripts/worksheet-gen/types/k/K-582-color-and-count.js",
+   "grade": "K",
+   "slug": "color-and-count",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Color and Count",
+   "instruction": "Color the pictures. Count each kind and write how many.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-583",
+   "file": "scripts/worksheet-gen/types/k/K-583-coloring-bookmarks.js",
+   "grade": "K",
+   "slug": "coloring-bookmarks",
+   "family": "coloring-page",
+   "variationOf": null,
+   "title": "Coloring Bookmarks",
+   "instruction": "Color the bookmarks. Cut them out along the dashed lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-584",
+   "file": "scripts/worksheet-gen/types/k/K-584-letter-dot-to-dot.js",
+   "grade": "K",
+   "slug": "letter-dot-to-dot",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Letter Dot-to-Dot: {U}",
+   "instruction": "Start at the orange dot. Connect the dots in number order to make the letter. Then color it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-585",
+   "file": "scripts/worksheet-gen/types/k/K-585-number-dot-to-dot.js",
+   "grade": "K",
+   "slug": "number-dot-to-dot",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Number Dot-to-Dot: {U}",
+   "instruction": "Start at the orange dot. Connect the dots in number order to make the number. Then color it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-586",
+   "file": "scripts/worksheet-gen/types/k/K-586-two-mini-dot-to-dots.js",
+   "grade": "K",
+   "slug": "two-mini-dot-to-dots",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Two Mini Dot-to-Dots",
+   "instruction": "Start at the orange dot in each picture. Connect the dots in number order.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-587",
+   "file": "scripts/worksheet-gen/types/k/K-587-color-by-sums-picture.js",
+   "grade": "K",
+   "slug": "color-by-sums-picture",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Color by Addition: {UNIT}",
+   "instruction": "Solve each addition problem in the key. Color each part with the color of its answer.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": true,
+   "uses": [
+    "lib/cbn-type.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-588",
+   "file": "scripts/worksheet-gen/types/k/K-588-color-by-letters-picture.js",
+   "grade": "K",
+   "slug": "color-by-letters-picture",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Color by Letters: {UNIT}",
+   "instruction": "Color each part with the color of its letter.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": true,
+   "uses": [
+    "lib/cbn-type.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-591",
+   "file": "scripts/worksheet-gen/types/k/K-591-letter-grid-differences.js",
+   "grade": "K",
+   "slug": "letter-grid-differences",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Letter Grid: Find the Differences",
+   "instruction": "Look at the top grid. Find the {N} letters that changed in the bottom grid. Color them.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-592",
+   "file": "scripts/worksheet-gen/types/k/K-592-number-grid-differences.js",
+   "grade": "K",
+   "slug": "number-grid-differences",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Number Grid: Find the Differences",
+   "instruction": "Look at the top grid. Find the {N} numbers that changed in the bottom grid. Color them.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-593",
+   "file": "scripts/worksheet-gen/types/k/K-593-flip-find.js",
+   "grade": "K",
+   "slug": "flip-find",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Which One Faces the Other Way?",
+   "instruction": "In each row one picture faces the other way. Circle it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-594",
+   "file": "scripts/worksheet-gen/types/k/K-594-odd-size-in-the-row.js",
+   "grade": "K",
+   "slug": "odd-size-in-the-row",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Which Size Is Different?",
+   "instruction": "In each row one picture has a different size. Circle it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-595",
+   "file": "scripts/worksheet-gen/types/k/K-595-roll-and-draw-a-monster.js",
+   "grade": "K",
+   "slug": "roll-and-draw-a-monster",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Roll and Draw a Monster",
+   "instruction": "Roll a die for each row. Draw the part under your number in the empty box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-596",
+   "file": "scripts/worksheet-gen/types/k/K-596-roll-and-draw-a-robot.js",
+   "grade": "K",
+   "slug": "roll-and-draw-a-robot",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Roll and Draw a Robot",
+   "instruction": "Roll a die for each row. Draw the part under your number in the empty box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-597",
+   "file": "scripts/worksheet-gen/types/k/K-597-roll-and-draw-a-bug.js",
+   "grade": "K",
+   "slug": "roll-and-draw-a-bug",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Roll and Draw a Bug",
+   "instruction": "Roll a die for each row. Draw the part under your number in the empty box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-598",
+   "file": "scripts/worksheet-gen/types/k/K-598-how-to-draw-poster.js",
+   "grade": "K",
+   "slug": "how-to-draw-poster",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "How to Draw Poster",
+   "instruction": "Look at the steps in order. Color the name and the finished picture.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-599",
+   "file": "scripts/worksheet-gen/types/k/K-599-two-pictures-to-trace.js",
+   "grade": "K",
+   "slug": "two-pictures-to-trace",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Two Pictures to Trace",
+   "instruction": "Trace all the lines of both pictures. Start at the black dots.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-600",
+   "file": "scripts/worksheet-gen/types/k/K-600-trace-the-path.js",
+   "grade": "K",
+   "slug": "trace-the-path",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace the Path",
+   "instruction": "In each row, start at the black dot. Trace the path to the other picture.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-601",
+   "file": "scripts/worksheet-gen/types/k/K-601-trace-the-frame.js",
+   "grade": "K",
+   "slug": "trace-the-frame",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace the Frame",
+   "instruction": "Start at the black dot and trace the frame. Then draw something you like inside it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-602",
+   "file": "scripts/worksheet-gen/types/k/K-602-trace-the-giant-letter.js",
+   "grade": "K",
+   "slug": "trace-the-giant-letter",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace the Giant Letter: {U}",
+   "instruction": "Start at the black dot. Trace the outline. Then color the letter.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-603",
+   "file": "scripts/worksheet-gen/types/k/K-603-count-and-color-the-number.js",
+   "grade": "K",
+   "slug": "count-and-color-the-number",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Count and Color the Number",
+   "instruction": "Count the pictures in each row. Color the number that tells how many.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-604",
+   "file": "scripts/worksheet-gen/types/k/K-604-color-the-number-path.js",
+   "grade": "K",
+   "slug": "color-the-number-path",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "Color the Number Path",
+   "instruction": "Find 1. Color the numbers in order up to {N}, one next to the other, to make a path.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-606",
+   "file": "scripts/worksheet-gen/types/k/K-606-color-the-bigger-number.js",
+   "grade": "K",
+   "slug": "color-the-bigger-number",
+   "family": "comparing-numbers",
+   "variationOf": null,
+   "title": "Color the Greater Number",
+   "instruction": "Look at the two numbers in each box. Color the greater number.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-607",
+   "file": "scripts/worksheet-gen/types/k/K-607-solve-and-color-the-answer.js",
+   "grade": "K",
+   "slug": "solve-and-color-the-answer",
+   "family": "mental-math",
+   "variationOf": null,
+   "title": "Solve and Color the Answer",
+   "instruction": "Solve each problem. Color the number that is the answer.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-608",
+   "file": "scripts/worksheet-gen/types/k/K-608-color-the-pair.js",
+   "grade": "K",
+   "slug": "color-the-pair",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "Color the Pair",
+   "instruction": "Color the two numbers in each row that make {N} together.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-609",
+   "file": "scripts/worksheet-gen/types/k/K-609-trace-the-giant-number.js",
+   "grade": "K",
+   "slug": "trace-the-giant-number",
+   "family": "picture-tracing",
+   "variationOf": null,
+   "title": "Trace the Giant Number: {U}",
+   "instruction": "Start at the black dot. Trace the outline. Then color the number.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-610",
+   "file": "scripts/worksheet-gen/types/k/K-610-color-and-trace-the-number.js",
+   "grade": "K",
+   "slug": "color-and-trace-the-number",
+   "family": "number-tracing",
+   "variationOf": null,
+   "title": "Color and Trace: {U}",
+   "instruction": "Color the big number. Then trace the numbers on the lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-611",
+   "file": "scripts/worksheet-gen/types/k/K-611-my-number-poster.js",
+   "grade": "K",
+   "slug": "my-number-poster",
+   "family": "number-of-the-day",
+   "variationOf": null,
+   "title": "My Number Poster: {U}",
+   "instruction": "Color the number and its word. Then color that many squares in the frame.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-612",
+   "file": "scripts/worksheet-gen/types/k/K-612-color-the-number-fill-the-frame.js",
+   "grade": "K",
+   "slug": "color-the-number-fill-the-frame",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Color the Number, Fill the Frame",
+   "instruction": "Color each number. Then color that many squares in its frame.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-613",
+   "file": "scripts/worksheet-gen/types/k/K-613-color-the-days.js",
+   "grade": "K",
+   "slug": "color-the-days",
+   "family": "calendar",
+   "variationOf": null,
+   "title": "Color the Days",
+   "instruction": "Color today’s number every day until the whole month is colored.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-614",
+   "file": "scripts/worksheet-gen/types/k/K-614-color-the-letter-pattern.js",
+   "grade": "K",
+   "slug": "color-the-letter-pattern",
+   "family": "patterns",
+   "variationOf": null,
+   "title": "Color the Letter Pattern",
+   "instruction": "Color the same letters the same color. Write the letter that comes next.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-615",
+   "file": "scripts/worksheet-gen/types/k/K-615-color-the-letters.js",
+   "grade": "K",
+   "slug": "color-the-letters",
+   "family": "sorting-categories",
+   "variationOf": null,
+   "title": "Letters or Numbers?",
+   "instruction": "Color all the letters. Leave the numbers white.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-616",
+   "file": "scripts/worksheet-gen/types/k/K-616-find-and-color-the-letter.js",
+   "grade": "K",
+   "slug": "find-and-color-the-letter",
+   "family": "letter-knowledge",
+   "variationOf": null,
+   "title": "Find and Color: {U}",
+   "instruction": "Look at the letter at the top. Find it in the grid and color it every time.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-617",
+   "file": "scripts/worksheet-gen/types/k/K-617-color-and-trace-the-letter.js",
+   "grade": "K",
+   "slug": "color-and-trace-the-letter",
+   "family": "letter-tracing",
+   "variationOf": null,
+   "title": "Color and Trace: {U}",
+   "instruction": "Color the big letters. Then trace the letters on the lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-618",
+   "file": "scripts/worksheet-gen/types/k/K-618-color-the-first-letter.js",
+   "grade": "K",
+   "slug": "color-the-first-letter",
+   "family": "beginning-sounds",
+   "variationOf": null,
+   "title": "Color the First Letter",
+   "instruction": "Say the name of each picture. Color the letter it starts with.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-619",
+   "file": "scripts/worksheet-gen/types/k/K-619-color-the-sight-word.js",
+   "grade": "K",
+   "slug": "color-the-sight-word",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Color the Sight Word: {U}",
+   "instruction": "Read the word. Color it every time you find it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-620",
+   "file": "scripts/worksheet-gen/types/k/K-620-color-the-syllables.js",
+   "grade": "K",
+   "slug": "color-the-syllables",
+   "family": "syllable-split",
+   "variationOf": null,
+   "title": "Color the Syllables",
+   "instruction": "Say each word and clap its parts. Color each part a different color.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-621",
+   "file": "scripts/worksheet-gen/types/k/K-621-color-and-write-the-word.js",
+   "grade": "K",
+   "slug": "color-and-write-the-word",
+   "family": "write-the-word",
+   "variationOf": null,
+   "title": "Color and Write the Word",
+   "instruction": "Say the word. Color the big letters. Then write the word on the line.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-622",
+   "file": "scripts/worksheet-gen/types/k/K-622-coloring-word-search.js",
+   "grade": "K",
+   "slug": "coloring-word-search",
+   "family": "word-search",
+   "variationOf": null,
+   "title": "Coloring Word Search",
+   "instruction": "Find each word in the grid and color its letters. Use a new color for each word.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "k",
+    "dirs",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/word-search.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-623",
+   "file": "scripts/worksheet-gen/types/k/K-623-color-bingo.js",
+   "grade": "K",
+   "slug": "color-bingo",
+   "family": "bingo",
+   "variationOf": null,
+   "title": "Color Bingo",
+   "instruction": "Take one card. Listen to the numbers from 1 to {N}. Color each number you hear. Three in a row wins.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-624",
+   "file": "scripts/worksheet-gen/types/k/K-624-alphabet-coloring-cards.js",
+   "grade": "K",
+   "slug": "alphabet-coloring-cards",
+   "family": "picture-word-cards",
+   "variationOf": null,
+   "title": "Alphabet Coloring Cards",
+   "instruction": "Color each card. Then cut out the cards along the dashed lines.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-625",
+   "file": "scripts/worksheet-gen/types/k/K-625-my-name-poster.js",
+   "grade": "K",
+   "slug": "my-name-poster",
+   "family": "all-about-me",
+   "variationOf": null,
+   "title": "My Name Poster",
+   "instruction": "Color the letters of your name. Draw yourself in the box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-626",
+   "file": "scripts/worksheet-gen/types/k/K-626-color-the-letter-in-its-place.js",
+   "grade": "K",
+   "slug": "color-the-letter-in-its-place",
+   "family": "ordinal-numbers",
+   "variationOf": null,
+   "title": "Color the Letter in Its Place",
+   "instruction": "Start at the arrow and count the places. Color the letter in the place shown.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -14257,6 +15308,7 @@
    "uses": [
     "image-cache/resolve.js",
     "templates/components.js",
+    "lib/slot.js",
     "data/word-problems/frames.js",
     "lib/word-problems-levelset.js"
    ],
@@ -15098,6 +16150,7 @@
     "data/b2/sentences.js",
     "data/color-words.js",
     "lib/sentence-bank.js",
+    "lib/slot.js",
     "lib/read-and-color.js",
     "lib/read-and-color.js",
     "lib/read-and-color.js"
@@ -15178,7 +16231,9 @@
     "lib/b2-common.js",
     "data/b2/collation.js",
     "data/tracing/letter-strokes.js",
-    "lib/picture-word-review.js"
+    "lib/picture-word-review.js",
+    "lib/slot.js",
+    "lib/picture-name-risk.js"
    ],
    "teachingPoint": "1:spell-picture-words",
    "skill": "Spell picture words (with first letter, word bank, letter boxes, plain lines)",
@@ -15211,6 +16266,7 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "primitives/trace-path.js",
     "lib/key-on-row.js",
     "templates/components-b2.js",
@@ -15355,14 +16411,16 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/sentences.js",
     "lib/sentence-bank.js",
+    "data/b2/unscramble-second-order.json",
     "lib/sentence-building-screen.js",
     "path",
-    "fs",
-    "fs"
+    "lib/platform/index.js",
+    "lib/platform/index.js"
    ],
    "teachingPoint": "1:unscramble-sentence",
    "skill": "Put scrambled words into a sentence with a capital and an end mark",
@@ -16841,6 +17899,7 @@
     "data/literacy/letter-knowledge.json",
     "lib/picture-refusals.js",
     "lib/key-on-row.js",
+    "lib/slot.js",
     "lib/syllable-split-screen.js",
     "lib/answer-slots.js"
    ],
@@ -16884,12 +17943,14 @@
     "lib/b3-picture-index.js",
     "lib/picture-refusals.js",
     "lib/b2-common.js",
+    "lib/slot.js",
     "templates/layouts/card-grid.js",
     "templates/components-b3.js",
     "templates/components-b2.js",
     "primitives/_tokens.js",
     "primitives/_svg.js",
     "lib/syllable-reading-screen.js",
+    "lib/rng.js",
     "lib/answer-slots.js"
    ],
    "teachingPoint": "1:word-families-syllable-reading",
@@ -16936,8 +17997,10 @@
     "primitives/_tokens.js",
     "lib/opposites-screen.js",
     "path",
-    "fs",
-    "fs"
+    "lib/platform/index.js",
+    "lib/platform/index.js",
+    "lib/slot.js",
+    "lib/rng.js"
    ],
    "teachingPoint": "1:opposites",
    "skill": "Opposites: write / pair / choose the opposite, opposites in a sentence",
@@ -17024,9 +18087,10 @@
     "templates/layouts/card-grid.js",
     "templates/components-b3.js",
     "primitives/_tokens.js",
+    "lib/slot.js",
     "path",
-    "fs",
-    "fs",
+    "lib/platform/index.js",
+    "lib/platform/index.js",
     "lib/rhyming-words-screen.js"
    ],
    "teachingPoint": "1:rhyming",
@@ -18331,7 +19395,8 @@
     "truePerPage",
     "maxPerNoun",
     "statementCap",
-    "chipsW"
+    "chipsW",
+    "countPartNew"
    ],
    "interactive": true,
    "uses": [
@@ -18704,16 +19769,19 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "lib/answer-slots.js",
     "lib/b4-common.js",
+    "lib/picture-name-risk.js",
     "lib/b3-common.js",
     "lib/b2-common.js",
     "lib/b3-instructions.js",
     "data/b2/sentences.js",
     "templates/components-b4.js",
     "path",
-    "fs",
-    "fs"
+    "lib/platform/index.js",
+    "lib/platform/index.js",
+    "lib/rng.js"
    ],
    "teachingPoint": "1:cloze",
    "skill": "Fill the blank in a sentence from a word bank / choose the word / match the sentence to the picture",
@@ -18797,8 +19865,8 @@
     "templates/layouts/card-grid.js",
     "templates/components-b4.js",
     "path",
-    "fs",
-    "fs",
+    "lib/platform/index.js",
+    "lib/platform/index.js",
     "lib/pronouns-screen.js",
     "lib/b3-common.js"
    ],
@@ -19919,11 +20987,12 @@
     "primitives/team-bead.js",
     "primitives/_svg.js",
     "data/b5/digraphs.js",
+    "lib/slot.js",
     "templates/components-b3.js",
     "primitives/font-metrics.json",
     "path",
-    "fs",
-    "fs",
+    "lib/platform/index.js",
+    "lib/platform/index.js",
     "lib/rng.js"
    ],
    "teachingPoint": "1:digraphs",
@@ -22910,7 +23979,8 @@
    "uses": [
     "primitives/scene-dot-figure.js",
     "templates/components.js",
-    "k/K-285-dot-to-dot.js"
+    "k/K-285-dot-to-dot.js",
+    "lib/fl-art.js"
    ],
    "teachingPoint": "1:fluency-within-20",
    "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
@@ -23065,6 +24135,7 @@
    "uses": [
     "lib/b2-common.js",
     "lib/picture-word-review.js",
+    "lib/picture-name-risk.js",
     "lib/picture-name-refusals.js",
     "primitives/trace-path.js",
     "templates/components-b2.js",
@@ -23124,6 +24195,7 @@
     "data/literacy/blends.json",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js",
     "templates/layouts/card-grid.js"
    ],
@@ -23152,6 +24224,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "lib/b3-common.js",
     "lib/b2-common.js",
     "image-cache/resolve.js",
@@ -23184,6 +24257,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "lib/b2-common.js",
     "image-cache/resolve.js",
     "lib/picture-name-refusals.js",
@@ -23220,6 +24294,7 @@
     "./G1-305-syllable-split.js",
     "image-cache/resolve.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -23245,6 +24320,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/grammar/grammar-tables.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -23272,6 +24348,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/grammar/grammar-tables.js",
     "primitives/trace-path.js",
     "_shared/alphabet-more.js",
@@ -23358,6 +24435,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "_shared/sentence-items.js",
     "primitives/trace-path.js",
     "lib/key-on-row.js",
@@ -23387,6 +24465,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "_shared/sentence-items.js",
     "_shared/pic-by-key.js",
     "_shared/alphabet-more.js",
@@ -23415,6 +24494,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "_shared/sentence-items.js",
     "primitives/trace-path.js",
     "_shared/alphabet-more.js",
@@ -23472,6 +24552,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/reading/reading-new.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -23534,7 +24615,9 @@
     "_shared/characters.js",
     "lib/slot.js",
     "_shared/writing-frames.js",
-    "primitives/_tokens.js"
+    "primitives/_tokens.js",
+    "path",
+    "lib/platform/index.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -23560,6 +24643,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/writing/stories-new.js",
     "lib/b2-common.js",
     "_shared/pic-by-key.js",
@@ -23685,6 +24769,7 @@
    "interactive": false,
    "uses": [
     "lib/word-problems-levelset.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -23713,6 +24798,7 @@
    "interactive": false,
    "uses": [
     "lib/word-problems-levelset.js",
+    "lib/slot.js",
     "_shared/writing-frames.js",
     "primitives/_tokens.js"
    ],
@@ -23922,6 +25008,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/spelling-words.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -23975,6 +25062,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/noun-forms.js",
+    "lib/slot.js",
     "data/b2/labels.js",
     "primitives/_tokens.js"
    ],
@@ -23991,7 +25079,7 @@
    "family": "articles",
    "variationOf": null,
    "title": "A or The?",
-   "instruction": "Read the two sentences. Circle the words that fit each one.",
+   "instruction": "Read the two sentences. Circle the words that fit.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 2,
@@ -24004,6 +25092,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/noun-forms.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -24115,6 +25204,7 @@
    "interactive": false,
    "uses": [
     "lib/b2-common.js",
+    "lib/slot.js",
     "data/b2/calendar.js",
     "data/calendar/calendar-new.js",
     "primitives/_tokens.js"
@@ -24143,6 +25233,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "lib/b2-common.js",
     "image-cache/resolve.js",
     "lib/picture-refusals.js",
@@ -24164,7 +25255,7 @@
    "family": "maps",
    "variationOf": null,
    "title": "Give the Directions",
-   "instruction": "Follow the path from the first picture. For each part, circle the way and write how many squares.",
+   "instruction": "Follow the path from the first picture. For each part, circle the direction and write how many squares.",
    "assetClass": "icon-placement",
    "themed": true,
    "levels": 3,
@@ -24175,6 +25266,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "lib/b2-common.js",
     "image-cache/resolve.js",
     "lib/picture-refusals.js",
@@ -24635,6 +25727,182 @@
    "interactive": false,
    "uses": [
     "_shared/bingo.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-547",
+   "file": "scripts/worksheet-gen/types/g1/G1-547-dot-to-dot-write-the-word.js",
+   "grade": "G1",
+   "slug": "dot-to-dot-write-the-word",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Dot-to-Dot, Then Write the Word",
+   "instruction": "Connect the dots in number order. Then write the name of the picture.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-548",
+   "file": "scripts/worksheet-gen/types/g1/G1-548-picture-grid-differences.js",
+   "grade": "G1",
+   "slug": "picture-grid-differences",
+   "family": "find-the-differences",
+   "variationOf": null,
+   "title": "Picture Grid: Find the Differences",
+   "instruction": "Look at the top grid. Find the {N} pictures that changed in the bottom grid. Circle them.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-549",
+   "file": "scripts/worksheet-gen/types/g1/G1-549-draw-it-three-times.js",
+   "grade": "G1",
+   "slug": "draw-it-three-times",
+   "family": "how-to-draw",
+   "variationOf": null,
+   "title": "Draw It Three Times",
+   "instruction": "Follow the steps. Draw the picture big, then smaller, then very small.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-551",
+   "file": "scripts/worksheet-gen/types/g1/G1-551-color-the-tens-digit.js",
+   "grade": "G1",
+   "slug": "color-the-tens-digit",
+   "family": "base-ten",
+   "variationOf": null,
+   "title": "Color the Tens Digit",
+   "instruction": "Color the digit in the tens place of each number.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-552",
+   "file": "scripts/worksheet-gen/types/g1/G1-552-color-the-right-spelling.js",
+   "grade": "G1",
+   "slug": "color-the-right-spelling",
+   "family": "word-building",
+   "variationOf": null,
+   "title": "Color the Right Spelling",
+   "instruction": "Look at each picture. Color the word that is spelled the right way.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-553",
+   "file": "scripts/worksheet-gen/types/g1/G1-553-hidden-letter-mosaic.js",
+   "grade": "G1",
+   "slug": "hidden-letter-mosaic",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Hidden Letter Mosaic",
+   "instruction": "Color every box with an odd number. Which letter do you see? Write it in the answer box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-554",
+   "file": "scripts/worksheet-gen/types/g1/G1-554-color-the-odd-numbers.js",
+   "grade": "G1",
+   "slug": "color-the-odd-numbers",
+   "family": "odd-and-even",
+   "variationOf": null,
+   "title": "Color the Odd Numbers",
+   "instruction": "Color every odd number. Leave the even numbers white.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G1-555",
+   "file": "scripts/worksheet-gen/types/g1/G1-555-mystery-grid-picture.js",
+   "grade": "G1",
+   "slug": "mystery-grid-picture",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Mystery Grid Picture",
+   "instruction": "Color each box with the color of its number. What picture appears?",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/flagship-new.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -26492,6 +27760,7 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/sentences.js",
@@ -26499,8 +27768,8 @@
     "lib/rng.js",
     "primitives/bankword-width.js",
     "path",
-    "fs",
-    "fs"
+    "lib/platform/index.js",
+    "lib/platform/index.js"
    ],
    "teachingPoint": "2:sentence-boundaries",
    "skill": "Capital letter and end mark; choose . or ?; split two run-together sentences",
@@ -26529,10 +27798,12 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/word-classes.js",
-    "lib/word-classes-screen.js"
+    "lib/word-classes-screen.js",
+    "lib/rng.js"
    ],
    "teachingPoint": "2:word-classes",
    "skill": "Sort words into nouns, verbs and adjectives (with and without picture help)",
@@ -26600,6 +27871,7 @@
    "interactive": true,
    "uses": [
     "primitives/calendar.js",
+    "lib/slot.js",
     "templates/components.js",
     "image-cache/resolve.js",
     "lib/b2-common.js",
@@ -26635,6 +27907,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "templates/components-b2.js",
     "lib/b2-common.js",
     "data/b2/labels.js"
@@ -27545,6 +28818,7 @@
     "templates/layouts/card-grid.js",
     "templates/components-b3.js",
     "lib/b2-common.js",
+    "lib/slot.js",
     "lib/b3-picture-index.js",
     "lib/b3-common.js",
     "lib/picture-refusals.js",
@@ -27597,7 +28871,7 @@
     "lib/rng.js",
     "primitives/_svg.js",
     "primitives/_tokens.js",
-    "fs",
+    "lib/platform/index.js",
     "path",
     "templates/components-b3.js"
    ],
@@ -29448,8 +30722,8 @@
     "primitives/_svg.js",
     "lib/word-parts-screen.js",
     "path",
-    "fs",
-    "fs",
+    "lib/platform/index.js",
+    "lib/platform/index.js",
     "data/b4/pronouns.js"
    ],
    "teachingPoint": "2:root-words",
@@ -31650,6 +32924,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/grammar/grammar-tables.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -31677,6 +32952,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/grammar/grammar-tables.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -31742,6 +33018,7 @@
     "_shared/key-number.js",
     "lib/key-on-row.js",
     "_shared/alphabet-more.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -31767,6 +33044,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "data/reading/reading-new.js",
     "_shared/alphabet-more.js",
     "primitives/_tokens.js"
@@ -31797,6 +33075,7 @@
    "interactive": false,
    "uses": [
     "data/word-problems/two-step-frames.js",
+    "lib/slot.js",
     "lib/word-problems-levelset.js",
     "primitives/_tokens.js"
    ],
@@ -31887,6 +33166,7 @@
    "uses": [
     "lib/b2-common.js",
     "_shared/spelling-words.js",
+    "lib/slot.js",
     "primitives/_tokens.js"
    ],
    "teachingPoint": null,
@@ -31912,6 +33192,7 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "lib/b2-common.js",
     "image-cache/resolve.js",
     "lib/picture-refusals.js",
@@ -31997,6 +33278,28 @@
    "interactive": false,
    "uses": [
     "_shared/cryptogram.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G2-499",
+   "file": "scripts/worksheet-gen/types/g2/G2-499-color-the-multiples.js",
+   "grade": "G2",
+   "slug": "color-the-multiples",
+   "family": "arrays-multiplication",
+   "variationOf": null,
+   "title": "Color the Multiples",
+   "instruction": "Color every number you say when you count by {N}s.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": false,
+   "uses": [
+    "_shared/glyph-tasks.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -33563,6 +34866,7 @@
    "interactive": true,
    "uses": [
     "templates/components.js",
+    "lib/slot.js",
     "templates/components-b2.js",
     "image-cache/resolve.js",
     "lib/b2-common.js",
@@ -35326,6 +36630,55 @@
    "teachingPoint": "3:times-tables",
    "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
    "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-479",
+   "file": "scripts/worksheet-gen/types/g3/G3-479-color-by-multiplication-picture.js",
+   "grade": "G3",
+   "slug": "color-by-multiplication-picture",
+   "family": "color-by-number",
+   "variationOf": null,
+   "title": "Color by Multiplication: {UNIT}",
+   "instruction": "Solve each multiplication in the key. Color each part with the color of its answer.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [],
+   "interactive": true,
+   "uses": [
+    "lib/cbn-type.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "G3-480",
+   "file": "scripts/worksheet-gen/types/g3/G3-480-dot-to-dot-skip-counting.js",
+   "grade": "G3",
+   "slug": "dot-to-dot-skip-counting",
+   "family": "dot-to-dot",
+   "variationOf": null,
+   "title": "Dot-to-Dot: Skip Counting",
+   "instruction": "Start at the orange dot. Count by {N}s and connect the dots in order.",
+   "assetClass": "geometry",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "count",
+    "window",
+    "startAt",
+    "chip"
+   ],
+   "interactive": false,
+   "uses": [
+    "k/K-285-dot-to-dot.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
    "science": false
   }
  ]

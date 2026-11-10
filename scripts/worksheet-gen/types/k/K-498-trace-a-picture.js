@@ -34,14 +34,16 @@ module.exports = {
   build({ difficulty }, ctx) {
     const d = this.difficulty[difficulty], L = P.LEVEL[difficulty];
     const H = 700 - ((ctx && ctx.chromeExtra) || 0);
-    const got = P.firstThatFits(P.drawings('K-498', difficulty), ctx, (src) => {
+    const got = P.artFits(P.drawings('K-498', difficulty), ctx, (src) => {
       const decor = d.model ? [{ m: 'roundRect', a: [16, 24, 170, 190, 12] }, ...eyeBadge(101, 24)] : [];
       const items = d.model
-        ? [{ src, x: 101, y: 200, fitBox: [140, 150], render: 'model' }, { src, x: 420, y: Math.round(H / 2), anchor: 'centre', fitBox: [490, H - 30], start: 'top' }]
+        // the picture to trace keeps clear of the model's frame (x 16-186): centred in x 205-665 (flagship visual check
+        // 2026-11-09: a wide picture ran into the frame on 71 of 423 pages, a narwhal's horn under it)
+        ? [{ src, x: 101, y: 200, fitBox: [140, 150], render: 'model' }, { src, x: 435, y: Math.round(H / 2), anchor: 'centre', fitBox: [460, H - 30], start: 'top' }]
         : [{ src, x: 337, y: Math.round(H / 2), anchor: 'centre', fitBox: [620, H - 30], start: 'top' }];   // centred: a wide drawing (an open book) sat on the bottom edge under 60 % empty page (2026-11-03)
       return { out: P.composeFit({ W: 675, H, band: L.band, style: L.style, occlusion: false, decor, items }, L.band) };
     });
-    const body = `<div data-ws-content data-lcs-pt-face="trace-a-picture" data-lcs-pt-src="${got.src}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${got.out.svg}</div>`;
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-pt-face="trace-a-picture" data-lcs-pt-src="${got.src}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${got.out.svg}</div>`;
     return { bodyHtml: body, meta: { picture: got.src, band: L.band, tracedLen: got.out.metrics.tracedLen } };
   },
 

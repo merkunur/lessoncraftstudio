@@ -342,7 +342,7 @@
   "slug": "yhdista-pisteet-tee-omat-tehtavat",
   "metaTitle": "Yhdistä pisteet: tee omat tehtävät – ilmainen | LessonCraftStudio",
   "metaDescription": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Ilmaiset PDF:t.",
-  "lead": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Piilokuva pitää lapset mukana viimeiseen pisteeseen asti.",
+  "lead": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Lapset voivat myös yhdistää pisteet suureksi kirjaimeksi tai numeroksi, tehdä valmiiksi kaksi pientä kuvaa samalla sivulla tai kirjoittaa löytämänsä kuvan nimen. Piilokuva pitää lapset mukana viimeiseen pisteeseen asti.",
   "teaches": [
    "Lukujonon sanominen järjestyksessä",
    "Taaksepäin ja hyppien laskeminen",
@@ -355,7 +355,7 @@
   "slug": "varita-numeroiden-mukaan-tee-omat-tehtavat",
   "metaTitle": "Väritä numeroiden mukaan: tee omat tehtävät – ilmainen | LessonCraftStudio",
   "metaDescription": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut.",
-  "lead": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut. Valmiista kuvasta näkee, onko kaikki oikein.",
+  "lead": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut. Piilotettu kirjain ja salainen ruutukuva tekevät värittämisestä arvoituksen, ja yhteenlaskujen, kirjainten tai kertolaskujen mukaan voi värittää minkä tahansa kuvapankkimme kuvan. Valmiista kuvasta näkee, onko kaikki oikein.",
   "teaches": [
    "Laskujen harjoittelu sisäänrakennetulla tarkistuksella",
    "Värikoodin huolellinen lukeminen",
@@ -367,8 +367,8 @@
   "kw": "Värityskuvat luokkaan: tee omat",
   "slug": "varityskuvat-luokkaan-tee-omat",
   "metaTitle": "Värityskuvat luokkaan: tee omat – ilmaiset tulostettavat | LessonCraftStudio",
-  "metaDescription": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Ilmaiset tulostettavat PDF:t.",
-  "lead": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Taittele pieni värityskirja jokaisesta teemasta, jota käsittelet.",
+  "metaDescription": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Ilmaiset tulostettavat PDF:t ja vastaukset.",
+  "lead": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Mukana on myös värityskuvia jokaisesta kirjaimesta ja luvusta, jokaiselle lapselle oma nimisivu, väritä ja laske -sivuja sekä väritettäviä kirjanmerkkejä. Taittele pieni värityskirja jokaisesta teemasta, jota käsittelet.",
   "teaches": [
    "Kynänhallinnan ja käden voiman kehittäminen",
    "Kuvien yhdistäminen sanoihin",
@@ -433,7 +433,7 @@
   "slug": "etsi-virheet-tee-omat-tehtavat",
   "metaTitle": "Etsi virheet: tee omat tehtävät – ilmaiset tulostettavat | LessonCraftStudio",
   "metaDescription": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Ilmaiset PDF:t.",
-  "lead": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Useimmat toimivat myös näytöllä.",
+  "lead": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Pikaharjoituksissa lapset vertaavat kirjain-, numero- tai kuvaruudukoita tai etsivät jokaiselta riviltä kuvan, joka katsoo toiseen suuntaan tai on erikokoinen. Useimmat toimivat myös näytöllä.",
   "teaches": [
    "Kuvan tutkiminen järjestelmällisesti",
    "Muutoksen nimeäminen",
@@ -446,7 +446,7 @@
   "slug": "piirra-vaihe-vaiheelta-tee-omat-tehtavat",
   "metaTitle": "Piirrä vaihe vaiheelta: tee omat tehtävät – ilmainen | LessonCraftStudio",
   "metaDescription": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Ilmaiset tulostettavat PDF:t ja vastaukset.",
-  "lead": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Lapset seuraavat, jäljentävät, viimeistelevät ja lopuksi piirtävät muistista, ja mukana on sana- ja lausesivuja.",
+  "lead": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Lapset seuraavat, jäljentävät, viimeistelevät ja lopuksi piirtävät muistista, ja mukana on sana- ja lausesivuja. Heitä ja piirrä -peleissä hirviö, robotti tai ötökkä syntyy heitto kerrallaan, juliste näyttää kaikki vaiheet yhdellä sivulla, ja lapset piirtävät kuvan isona, pienempänä ja aivan pienenä.",
   "teaches": [
    "Kuvan jakaminen yksinkertaisiin muotoihin",
    "Vaiheiden seuraaminen järjestyksessä",
@@ -472,7 +472,7 @@
   "slug": "piirra-katkoviivoja-pitkin-tee-omat-tehtavat",
   "metaTitle": "Piirrä katkoviivoja pitkin: tee omat tehtävät – ilmainen | LessonCraftStudio",
   "metaDescription": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Ilmaiset tulostettavat PDF:t ja vastaukset.",
-  "lead": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Suorista viivoista, siksakeista, spiraaleista ja silmukoista syntyy oikea kuva.",
+  "lead": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Lapset jäljentävät myös kaksi kuvaa samalla sivulla, reitin kuvasta toiseen, kehyksen, jonka sisään he piirtävät, sekä jättikirjaimen ja jättinumeron. Suorista viivoista, siksakeista, spiraaleista ja silmukoista syntyy oikea kuva.",
   "teaches": [
    "Kynän ohjaaminen viivaa pitkin",
    "Suorien, kaarevien ja silmukkamaisten viivojen piirtäminen",

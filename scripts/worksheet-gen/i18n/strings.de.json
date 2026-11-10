@@ -4560,5 +4560,229 @@
   "K-578": {
     "title": "Formen-und-Farben-Bingo: Ansagekarten",
     "instruction": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und lies die Form mit ihrer Farbe vor. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo."
+  },
+  "K-579": {
+    "title": "Ausmal-Alphabet: {U}",
+    "instruction": "Male die Seite aus. Mach sie so bunt und schön, wie du kannst."
+  },
+  "K-580": {
+    "title": "Zahlen zum Ausmalen: {U}",
+    "instruction": "Male alles auf der Seite aus. Zähle die Sterne."
+  },
+  "K-581": {
+    "title": "Male deinen Namen aus",
+    "instruction": "Male jeden Buchstaben deines Namens aus."
+  },
+  "K-582": {
+    "title": "Ausmalen und zählen",
+    "instruction": "Male die Bilder aus. Zähle jede Sorte und schreibe auf, wie viele es sind."
+  },
+  "K-583": {
+    "title": "Lesezeichen zum Ausmalen",
+    "instruction": "Male die Lesezeichen aus. Schneide sie an den gestrichelten Linien aus."
+  },
+  "K-584": {
+    "title": "Buchstaben von Punkt zu Punkt: {U}",
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis der Buchstabe fertig ist. Male ihn dann aus."
+  },
+  "K-585": {
+    "title": "Zahlen von Punkt zu Punkt: {U}",
+    "instruction": "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis die Zahl fertig ist. Male sie dann aus."
+  },
+  "K-586": {
+    "title": "Zwei kleine Punkt-zu-Punkt-Bilder",
+    "instruction": "Beginne in jedem Bild am orangen Punkt. Verbinde die Punkte der Reihe nach."
+  },
+  "G1-547": {
+    "title": "Punkte verbinden und das Wort schreiben",
+    "instruction": "Verbinde die Punkte der Reihe nach. Schreibe dann auf, wie das Bild heißt."
+  },
+  "K-587": {
+    "title": "Malen nach Plusaufgaben: {UNIT}",
+    "instruction": "Rechne jede Aufgabe im Farbschlüssel. Male jede Fläche in der Farbe ihrer Lösung aus."
+  },
+  "K-588": {
+    "title": "Malen nach Buchstaben: {UNIT}",
+    "instruction": "Male jede Fläche in der Farbe ihres Buchstabens aus."
+  },
+  "K-591": {
+    "title": "Buchstabengitter: Finde die Unterschiede",
+    "instruction": "Schau dir das obere Gitter an. Finde die {N} Buchstaben, die sich im unteren Gitter geändert haben. Male sie aus."
+  },
+  "K-592": {
+    "title": "Zahlengitter: Finde die Unterschiede",
+    "instruction": "Schau dir das obere Gitter an. Finde die {N} Zahlen, die sich im unteren Gitter geändert haben. Male sie aus."
+  },
+  "G1-548": {
+    "title": "Bildergitter: Finde die Unterschiede",
+    "instruction": "Schau dir das obere Gitter an. Finde die {N} Bilder, die sich im unteren Gitter geändert haben. Kreise sie ein."
+  },
+  "K-593": {
+    "title": "Wer schaut andersherum?",
+    "instruction": "In jeder Reihe schaut ein Bild in die andere Richtung. Kreise es ein."
+  },
+  "K-594": {
+    "title": "Welches Bild ist anders groß?",
+    "instruction": "In jeder Reihe hat ein Bild eine andere Größe. Kreise es ein."
+  },
+  "K-595": {
+    "title": "Würfeln und malen: Monster",
+    "instruction": "Würfle für jede Reihe einmal. Zeichne das Teil unter deiner Zahl in den Kasten."
+  },
+  "K-596": {
+    "title": "Würfeln und malen: Roboter",
+    "instruction": "Würfle für jede Reihe einmal. Zeichne das Teil unter deiner Zahl in den Kasten."
+  },
+  "K-597": {
+    "title": "Würfeln und malen: Krabbeltier",
+    "instruction": "Würfle für jede Reihe einmal. Zeichne das Teil unter deiner Zahl in den Kasten."
+  },
+  "K-598": {
+    "title": "Zeichenposter",
+    "instruction": "Schau dir die Schritte der Reihe nach an. Male den Namen und das fertige Bild aus."
+  },
+  "G1-549": {
+    "title": "Dreimal zeichnen",
+    "instruction": "Folge den Schritten. Zeichne das Bild groß, dann kleiner und dann ganz klein."
+  },
+  "K-599": {
+    "title": "Zwei Bilder zum Nachspuren",
+    "instruction": "Spure alle Linien der beiden Bilder nach. Fang bei den schwarzen Punkten an."
+  },
+  "K-600": {
+    "title": "Spure den Weg nach",
+    "instruction": "Fang in jeder Reihe beim schwarzen Punkt an. Spure den Weg zum anderen Bild nach."
+  },
+  "K-601": {
+    "title": "Spure den Rahmen nach",
+    "instruction": "Fang beim schwarzen Punkt an und spure den Rahmen nach. Male dann etwas, das du magst, hinein."
+  },
+  "K-602": {
+    "title": "Spure den Riesenbuchstaben nach: {U}",
+    "instruction": "Fang beim schwarzen Punkt an. Spure den Umriss nach. Male dann den Buchstaben aus."
+  },
+  "K-609": {
+    "title": "Spure die Riesenzahl nach: {U}",
+    "instruction": "Fang beim schwarzen Punkt an. Spure den Umriss nach. Male dann die Zahl aus."
+  },
+  "K-603": {
+    "title": "Zählen und die Zahl ausmalen",
+    "instruction": "Zähle die Bilder in jeder Reihe. Male die passende Zahl aus."
+  },
+  "K-604": {
+    "title": "Der Zahlenweg",
+    "instruction": "Suche die 1. Male die Zahlen bis {N} der Reihe nach aus. Jede Zahl liegt neben der letzten, so entsteht ein Weg."
+  },
+  "K-606": {
+    "title": "Male die größere Zahl aus",
+    "instruction": "Schau dir die beiden Zahlen in jedem Feld an. Male die größere Zahl aus."
+  },
+  "K-607": {
+    "title": "Rechnen und die Lösung ausmalen",
+    "instruction": "Rechne jede Aufgabe. Male die Zahl aus, die die Lösung ist."
+  },
+  "G2-499": {
+    "title": "Male die Vielfachen aus",
+    "instruction": "Male jedes Vielfache von {N} aus."
+  },
+  "K-608": {
+    "title": "Male das Zahlenpaar aus",
+    "instruction": "Male in jeder Reihe die zwei Zahlen aus, die zusammen {N} ergeben."
+  },
+  "G1-551": {
+    "title": "Male die Zehnerstelle aus",
+    "instruction": "Male bei jeder Zahl die Ziffer an der Zehnerstelle aus."
+  },
+  "K-610": {
+    "title": "Ausmalen und nachspuren: {U}",
+    "instruction": "Male die große Zahl aus. Spure dann die Zahlen auf den Linien nach."
+  },
+  "K-611": {
+    "title": "Mein Zahlenposter: {U}",
+    "instruction": "Male die Zahl und das Zahlwort aus. Male dann so viele Kästchen im Zehnerfeld aus."
+  },
+  "K-612": {
+    "title": "Zahl ausmalen, Feld füllen",
+    "instruction": "Male jede Zahl aus. Male dann so viele Kästchen in ihrem Zehnerfeld aus."
+  },
+  "K-613": {
+    "title": "Male die Tage aus",
+    "instruction": "Male jeden Tag die Zahl von heute aus, bis der ganze Monat bunt ist."
+  },
+  "K-614": {
+    "title": "Buchstabenmuster ausmalen",
+    "instruction": "Male gleiche Buchstaben in der gleichen Farbe aus. Schreibe den Buchstaben, der als Nächstes kommt."
+  },
+  "K-615": {
+    "title": "Buchstaben oder Zahlen?",
+    "instruction": "Male alle Buchstaben aus. Lass die Zahlen weiß."
+  },
+  "K-616": {
+    "title": "Finden und ausmalen: {U}",
+    "instruction": "Schau dir den Buchstaben oben an. Finde ihn im Gitter und male ihn jedes Mal aus."
+  },
+  "K-617": {
+    "title": "Ausmalen und nachspuren: {U}",
+    "instruction": "Male die großen Buchstaben aus. Spure dann die Buchstaben auf den Linien nach."
+  },
+  "K-618": {
+    "title": "Male den Anfangsbuchstaben aus",
+    "instruction": "Sag, wie jedes Bild heißt. Male den Buchstaben aus, mit dem das Wort anfängt."
+  },
+  "K-619": {
+    "title": "Male das Lernwort aus: {U}",
+    "instruction": "Lies das Wort. Male es jedes Mal aus, wenn du es findest."
+  },
+  "G1-552": {
+    "title": "Male die richtige Schreibweise aus",
+    "instruction": "Schau dir jedes Bild an. Male das Wort aus, das richtig geschrieben ist."
+  },
+  "K-620": {
+    "title": "Male die Silben aus",
+    "instruction": "Sprich jedes Wort und klatsche die Silben. Male jede Silbe in einer anderen Farbe aus."
+  },
+  "K-621": {
+    "title": "Ausmalen und das Wort schreiben",
+    "instruction": "Sprich das Wort. Male die großen Buchstaben aus. Schreibe das Wort dann auf die Linie."
+  },
+  "K-622": {
+    "title": "Ausmal-Suchsel",
+    "instruction": "Finde jedes Wort im Gitter und male seine Buchstaben aus. Nimm für jedes Wort eine neue Farbe."
+  },
+  "K-623": {
+    "title": "Ausmal-Bingo",
+    "instruction": "Nimm eine Karte. Hör auf die Zahlen von 1 bis {N}. Male jede Zahl aus, die du hörst. Drei in einer Reihe gewinnen."
+  },
+  "K-624": {
+    "title": "ABC-Karten zum Ausmalen",
+    "instruction": "Male jede Karte aus. Schneide die Karten dann an den gestrichelten Linien aus."
+  },
+  "K-625": {
+    "title": "Mein Namensposter",
+    "instruction": "Male die Buchstaben deines Namens aus. Zeichne dich selbst in den Kasten."
+  },
+  "K-626": {
+    "title": "Den Buchstaben am richtigen Platz ausmalen",
+    "instruction": "Beginne in jeder Reihe beim Pfeil und zähle die Plätze. Male den Buchstaben an dem Platz aus, der angegeben ist."
+  },
+  "G3-480": {
+    "title": "Punkt zu Punkt: in Schritten zählen",
+    "instruction": "Beginne am orangen Punkt. Zähle in {N}er-Schritten und verbinde die Punkte der Reihe nach."
+  },
+  "G3-479": {
+    "title": "Malen nach Malaufgaben: {UNIT}",
+    "instruction": "Rechne jede Malaufgabe im Farbschlüssel. Male jede Fläche in der Farbe ihrer Lösung aus."
+  },
+  "G1-555": {
+    "title": "Geheimbild im Gitter",
+    "instruction": "Male jedes Kästchen in der Farbe seiner Zahl aus. Welches Bild erscheint?"
+  },
+  "G1-553": {
+    "title": "Versteckter Buchstabe",
+    "instruction": "Male jedes Kästchen mit einer ungeraden Zahl aus. Welchen Buchstaben siehst du? Schreibe ihn in das Feld."
+  },
+  "G1-554": {
+    "title": "Male die ungeraden Zahlen aus",
+    "instruction": "Male jede ungerade Zahl aus. Lass die geraden Zahlen weiß."
   }
 }

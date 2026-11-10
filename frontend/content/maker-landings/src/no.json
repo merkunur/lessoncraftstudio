@@ -261,7 +261,7 @@
  },
  "dot-to-dot": {
   "kw": "Lag prikk til prikk-oppgaver",
-  "lead": "Lag prikk til prikk-ark der barna teller til 20, teller bakover, teller med hopp, følger alfabetet eller løser regnestykker. Det skjulte bildet holder barna i gang til siste prikk.",
+  "lead": "Lag prikk til prikk-ark der barna teller til 20, teller bakover, teller med hopp, følger alfabetet eller løser regnestykker. Barna kan også binde sammen prikkene til en stor bokstav eller et stort tall, gjøre ferdig to små bilder på samme ark eller skrive navnet på bildet de finner. Det skjulte bildet holder barna i gang til siste prikk.",
   "teaches": [
    "Si tallrekka i rekkefølge",
    "Telle bakover og med hopp",
@@ -271,7 +271,7 @@
  },
  "color-by-number": {
   "kw": "Lag oppgaver med mal etter tall",
-  "lead": "Lag ark med mal etter tall og kode der hver farge er et svar: pluss, minus, høyfrekvente ord, førstelyder og gangetabeller. Det ferdige bildet viser om alt stemmer.",
+  "lead": "Lag ark med mal etter tall og kode der hver farge er et svar: pluss, minus, høyfrekvente ord, førstelyder og gangetabeller. Den skjulte bokstaven og det hemmelige rutebildet gjør fargeleggingen til en gåte, og fargelegging med plusstykker, bokstaver eller gangestykker fungerer med alle bilder fra bildebiblioteket vårt. Det ferdige bildet viser om alt stemmer.",
   "teaches": [
    "Øve regning med innebygd kontroll",
    "Lese en fargekode nøye",
@@ -281,7 +281,7 @@
  },
  "coloring-pages": {
   "kw": "Lag fargeleggingsark til klassen",
-  "lead": "Lag fargeleggingsark fra bildebiblioteket vårt, med ord å spore, en setning å skrive eller en fargekode. Brett et lite fargeleggingshefte til hvert tema du jobber med.",
+  "lead": "Lag fargeleggingsark fra bildebiblioteket vårt, med ord å spore, en setning å skrive eller en fargekode. Det finnes også fargeleggingsark for hver bokstav og hvert tall, et ark med sitt eget navn til hvert barn, ark der barna fargelegger og teller, og bokmerker til fargelegging. Brett et lite fargeleggingshefte til hvert tema du jobber med.",
   "teaches": [
    "Bygge blyantkontroll og styrke i hånda",
    "Knytte bilder til ord",
@@ -331,7 +331,7 @@
  },
  "find-the-differences": {
   "kw": "Lag finn forskjellene-oppgaver",
-  "lead": "Lag finn forskjellene-ark med 3, 5, 7 eller 10 endringer i ekte bilder, pluss ting som mangler, fargeforskjeller og speilbilder. De fleste kan også spilles på skjermen.",
+  "lead": "Lag finn forskjellene-ark med 3, 5, 7 eller 10 endringer i ekte bilder, pluss ting som mangler, fargeforskjeller og speilbilder. Til en rask øvelse sammenligner barna rutenett med bokstaver, tall eller bilder, eller de finner bildet i hver rad som ser den andre veien eller har en annen størrelse. De fleste kan også spilles på skjermen.",
   "teaches": [
    "Søke gjennom et bilde med system",
    "Si hva som er endret",
@@ -341,7 +341,7 @@
  },
  "how-to-draw": {
   "kw": "Lag oppgaver om å tegne steg for steg",
-  "lead": "Lag tegneark steg for steg der hver nye strek vises i farge, så barna ser nøyaktig hva som kommer. De følger, sporer, gjør ferdig og tegner til slutt etter hukommelsen.",
+  "lead": "Lag tegneark steg for steg der hver nye strek vises i farge, så barna ser nøyaktig hva som kommer. De følger, sporer, gjør ferdig og tegner til slutt etter hukommelsen. I spillene «Kast og tegn» vokser et monster, en robot eller et insekt fram kast for kast, en plakat viser alle stegene på ett ark, og barna tegner et bilde stort, mindre og helt lite.",
   "teaches": [
    "Dele en tegning opp i enkle former",
    "Følge steg i rekkefølge",
@@ -361,7 +361,7 @@
  },
  "picture-tracing": {
   "kw": "Lag oppgaver med bilder å tegne over",
-  "lead": "Lag bilder å tegne over, fra store runde former for de minste til prikkede bybilder for 1. trinn. Rette streker, sikksakk, spiraler og løkker blir til et ekte bilde.",
+  "lead": "Lag bilder å tegne over, fra store runde former for de minste til prikkede bybilder for 1. trinn. Barna tegner også over to bilder på samme ark, en vei fra bilde til bilde, en ramme å tegne i eller en kjempebokstav og et kjempetall. Rette streker, sikksakk, spiraler og løkker blir til et ekte bilde.",
   "teaches": [
    "Styre blyanten langs en strek",
    "Tegne rette, buede og løkkede streker",

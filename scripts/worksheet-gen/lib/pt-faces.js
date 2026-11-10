@@ -15,6 +15,7 @@
 const { composeSceneSync } = require('./pt-scene.js');
 const { makeRng } = require('./rng.js');
 const { refusedPicture } = require('./picture-refusals.js');
+const FL = require('./fl-art.js');
 const INDEX = require('../data/pt/index.json');
 const BUDGET = { PreK: 4500, K: 11000, G1: 15000 };   // K-418 BUDGET (the traced length a page may ask of a child)
 const MINPIC = { PreK: 300, K: 130, G1: 80 };          // K-418 MINPIC (the smallest traced picture of a band)
@@ -30,7 +31,9 @@ function drawings(face, level, extra) {
   if (!_lists.has(k)) {
     const bands = new Set(LEVEL[level].bands);
     const ok = Object.keys(INDEX).filter((src) => bands.has(INDEX[src].band) && !refusedPicture(src.split('/')[0], src.split('/')[1]) && (!extra || extra(src))).sort();
-    _lists.set(k, makeRng('pt-faces|' + face + '|' + level).shuffle(ok));
+    // the new drawings of the flagship library follow the library's own (docs/makers/FLAGSHIP.md; these templates are maker-only)
+    const old = new Set(ok), more = FL.keys('pt', (b) => bands.has(b)).filter((src) => !old.has(src) && (!extra || extra(src)));
+    _lists.set(k, makeRng('pt-faces|' + face + '|' + level).shuffle(ok).concat(more));
   }
   return _lists.get(k);
 }
@@ -48,14 +51,37 @@ function composeFit(scene, band) {
 }
 const copyOf = (ctx) => Math.max(1, parseInt(String((ctx && ctx.variant) || 1), 10) || 1);
 /** copy n = the n-th entry of the list that fn(src) composes (walking on past a drawing that cannot) */
-function firstThatFits(list, ctx, fn) {
+/**
+ * may a page show this picture? The flagship review's refusals for tracing (data/fl/review.js pt: a printed word, a false
+ * name) are carried by the flagship index — a refused picture has no pt there (every picture of data/pt/index.json missing
+ * from the index is refused by picture-refusals too: measured, 70 of 70). Flagship visual check 2026-11-08: these faces read
+ * data/pt/index.json directly and the refused TAXI still reached them. The lists keep their order (a saved copy keeps its
+ * picture); a copy that lands on a refused picture walks on to the next.
+ */
+let _allowed = null;
+const allowed = (src) => (_allowed = _allowed || new Set(FL.keys('pt'))).has(src);
+// allow: which entries of the list may be shown. The default is the flagship index (a list of library drawings); K-501's
+// list is reviewed Color by Number designs, not drawings, and passes its own (2026-11-09: the default skipped every
+// design name, so K-501 built no page at all)
+function firstThatFits(list, ctx, fn, allow = allowed) {
   const n = copyOf(ctx);
   let err;
   for (let k = 0; k < Math.min(40, list.length); k++) {
     const src = list[(n - 1 + k) % list.length];
+    if (!allow(src)) continue;
     try { return { src, ...fn(src) }; } catch (e) { err = e; if (!/pt-faces|pt-scene/.test(e.message)) throw e; }
   }
   throw new Error('pt-faces: no drawing fits (' + (err && err.message) + ')');
+}
+/** firstThatFits for a page of ONE library picture: the teacher's picture or theme first, and the pool reported to the screen */
+function artFits(list, ctx, fn) {
+  const w = FL.wish(ctx);
+  let scope = list;
+  if (w.key && list.includes(w.key) && allowed(w.key)) scope = [w.key];
+  else if (w.group) { const mine = list.filter((k) => FL.groupOf(k) === w.group); if (mine.length) scope = mine; }
+  const got = firstThatFits(scope, ctx, fn);
+  FL.report(ctx, list.filter(allowed), got.src);
+  return got;
 }
 /** the band rules on the rendered page: every traced scene within its band's budget and floor */
 async function checkPage(page) {
@@ -75,4 +101,4 @@ async function checkPage(page) {
     return f;
   }, BUDGET, MINPIC);
 }
-module.exports = { LEVEL, INDEX, BUDGET, MINPIC, drawings, composeFit, firstThatFits, copyOf, checkPage };
+module.exports = { LEVEL, INDEX, BUDGET, MINPIC, drawings, composeFit, firstThatFits, artFits, copyOf, checkPage, allowed };

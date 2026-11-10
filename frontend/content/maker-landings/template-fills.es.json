@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "El camino de los números",
+   "Busca el 1. Colorea los números en orden hasta el 15, uno junto al otro, para formar un camino."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Colorea la pareja",
+   "En cada fila, colorea los dos números que juntos suman 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Colorea los múltiplos",
+   "Colorea los números que dices al contar de 4 en 4."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Mi cartel del número: 1",
+   "Colorea el número y su nombre. Luego colorea esa cantidad de cuadritos en el marco."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Colorea y repasa: 1",
+   "Colorea el número grande. Luego repasa los números en las líneas."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Une los puntos: letra A",
+   "Empieza en el punto naranja. Une los puntos siguiendo el orden de los números hasta formar la letra. Luego coloréala."
+  ],
+  "K-585": [
+   "Une los puntos: número 1",
+   "Empieza en el punto naranja. Une los puntos siguiendo el orden de los números hasta formar el número. Luego coloréalo."
+  ],
+  "G3-480": [
+   "Une los puntos: series numéricas",
+   "Empieza en el punto naranja. Cuenta de 4 en 4 y une los puntos en orden."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Colorea con sumas: Venado",
+   "Resuelve cada suma del código. Colorea cada parte con el color de su resultado."
+  ],
+  "K-588": [
+   "Colorea por letras: Venado",
+   "Colorea cada parte con el color de su letra."
+  ],
+  "G3-479": [
+   "Colorea con multiplicaciones: Venado",
+   "Resuelve cada multiplicación del código. Colorea cada parte con el color de su resultado."
+  ],
+  "K-393": [
+   "Colorea por números: Oveja en la granja",
+   "Colorea cada parte con el color de su número."
+  ],
+  "K-394": [
+   "Colorea por números: Venado",
+   "Colorea cada parte con el color de su número."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Abecedario para colorear: A",
+   "Colorea la página. Déjala tan bonita y llena de color como puedas."
+  ],
+  "K-580": [
+   "Números para colorear: 1",
+   "Colorea todo lo que hay en la página. Cuenta las estrellas."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Cuadrícula de letras: encuentra las diferencias",
+   "Mira la cuadrícula de arriba. Encuentra las 5 letras que cambiaron en la de abajo. Coloréalas."
+  ],
+  "K-592": [
+   "Cuadrícula de números: encuentra las diferencias",
+   "Mira la cuadrícula de arriba. Encuentra los 5 números que cambiaron en la de abajo. Coloréalos."
+  ],
+  "G1-548": [
+   "Cuadrícula de dibujos: encuentra las diferencias",
+   "Mira la cuadrícula de arriba. Encuentra los 5 dibujos que cambiaron en la de abajo. Enciérralos en un círculo."
+  ],
+  "K-395": [
+   "Busca las 5 diferencias: Cisne en el estanque",
+   "Compara la imagen 1 con la imagen 2 de abajo, encierra en un círculo las 5 cosas diferentes y marca un cuadrito por cada una."
+  ],
+  "K-397": [
+   "Encuentra las 3 diferencias: Guajolote en la granja",
+   "Busca las 3 cosas grandes que cambiaron en la imagen de abajo, enciérralas en un círculo y marca los 3 cuadritos."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Repasa la letra gigante: A",
+   "Empieza en el punto negro. Repasa el contorno. Luego colorea la letra."
+  ],
+  "K-609": [
+   "Repasa el número gigante: 1",
+   "Empieza en el punto negro. Repasa el contorno. Luego colorea el número."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Colorea y repasa: A",
+   "Colorea las letras grandes. Luego repasa las letras en las líneas."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Busca y colorea: A",
+   "Mira la letra de arriba. Búscala en la cuadrícula y coloréala cada vez que la veas."
+  ],
+  "K-317": [
+   "La letra Ll: repasa, busca y escribe",
+   "Repasa la letra mayúscula y la minúscula, rodea los cuatro dibujos que empiezan con L y escribe una fila de cada una."
+  ],
+  "K-325": [
+   "Palabras con L: el sonido en cualquier lugar",
+   "Repasa la letra y rodea los cuatro dibujos que tienen el sonido L dentro de la palabra, no al principio."
+  ],
+  "K-326": [
+   "¿Al principio, en medio o al final? La letra L",
+   "Di el nombre de cada dibujo. Colorea el recuadro que muestra dónde suena la L: al principio, en medio o al final."
+  ],
+  "K-327": [
+   "Rodea la L en las palabras y cuenta",
+   "Busca todas las L y l de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
+  ],
+  "G1-311": [
+   "Dos letras, un solo sonido: Ll",
+   "Repasa ll, rodea los cuatro dibujos que tienen el sonido ll y escribe una fila."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Colorea la palabra: el",
+   "Lee la palabra. Coloréala cada vez que la encuentres."
+  ],
+  "K-388": [
+   "Palabra del día: el",
+   "Lee la palabra. Repásala, escríbela y úsala en oraciones."
+  ],
+  "K-389": [
+   "Palabras frecuentes en oraciones: el",
+   "Lee cada oración. Escribe la palabra «el» en la línea."
+  ],
+  "K-390": [
+   "Una oración con el",
+   "Trabaja una oración paso a paso."
+  ],
+  "K-391": [
+   "Repasa las oraciones: el",
+   "Repasa cada oración. Luego escríbela en la línea de abajo."
+  ],
+  "K-392": [
+   "Encuentra la palabra: el",
+   "Colorea cada recuadro con la palabra «el». Cuéntalos y escribe el número."
+  ],
+  "K-433": [
+   "Lee, repasa y escribe: el",
+   "Lee la palabra. Repásala. Escríbela. Luego escríbela en cada oración."
+  ],
+  "K-434": [
+   "Repasa la palabra y la oración: el",
+   "Repasa la palabra. Luego repasa la oración en cada renglón."
+  ],
+  "K-435": [
+   "Lee y dibuja: el",
+   "Lee la oración. Repásala. Luego dibuja lo que dice."
+  ],
+  "K-436": [
+   "Encuentra y cuenta: el",
+   "Encierra en un círculo la palabra “el” cada vez que la veas. ¿Cuántas veces la encontraste?"
+  ],
+  "K-438": [
+   "Arma la palabra: el",
+   "Recorta las letras. Pégalas en el orden correcto para armar la palabra."
+  ],
+  "K-439": [
+   "Escritura arcoíris: el",
+   "Repasa cada palabra tres veces, cada vez de un color diferente. Luego escríbela."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Bingo para colorear",
+   "Toma una tarjeta. Escucha los números del 1 al 20. Colorea cada número que oigas. Gana quien tenga tres en línea."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Detective de números",
@@ -9,30 +205,10 @@
    "En cada fila y cada columna deben estar el 1, el 2, el 3 y el 4 una sola vez. Los números dentro de una jaula de borde grueso suman el numerito de su esquina."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Colorea por números: Oveja en la granja",
-   "Colorea cada parte con el color de su número."
-  ],
-  "K-394": [
-   "Colorea por números: Venado",
-   "Colorea cada parte con el color de su número."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Salta por el panal en orden alfabético",
    "Empieza en la celda que señala la flecha. Colorea la siguiente letra del abecedario en una celda vecina, hasta llegar a la X."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Busca las 5 diferencias: Cisne en el estanque",
-   "Compara la imagen 1 con la imagen 2 de abajo, encierra en un círculo las 5 cosas diferentes y marca un cuadrito por cada una."
-  ],
-  "K-397": [
-   "Encuentra las 3 diferencias: Guajolote en la granja",
-   "Busca las 3 cosas grandes que cambiaron en la imagen de abajo, enciérralas en un círculo y marca los 3 cuadritos."
   ]
  },
  "how-to-draw": {
@@ -81,28 +257,6 @@
    "Mira la imagen, dobla la hoja hacia atrás por la línea punteada para que ya no la veas y dibújala de memoria en el recuadro grande."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "La letra Ll: repasa, busca y escribe",
-   "Repasa la letra mayúscula y la minúscula, rodea los cuatro dibujos que empiezan con L y escribe una fila de cada una."
-  ],
-  "K-325": [
-   "Palabras con L: el sonido en cualquier lugar",
-   "Repasa la letra y rodea los cuatro dibujos que tienen el sonido L dentro de la palabra, no al principio."
-  ],
-  "K-326": [
-   "¿Al principio, en medio o al final? La letra L",
-   "Di el nombre de cada dibujo. Colorea el recuadro que muestra dónde suena la L: al principio, en medio o al final."
-  ],
-  "K-327": [
-   "Rodea la L en las palabras y cuenta",
-   "Busca todas las L y l de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
-  ],
-  "G1-311": [
-   "Dos letras, un solo sonido: Ll",
-   "Repasa ll, rodea los cuatro dibujos que tienen el sonido ll y escribe una fila."
-  ]
- },
  "syllables": {
   "G1-306": [
    "Sílabas directas: ma me mi mo mu",
@@ -115,52 +269,6 @@
   "G1-333": [
    "Sílabas trabadas: trac trom pla plan plu",
    "Lee las sílabas trabadas y escribe la primera."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Palabra del día: el",
-   "Lee la palabra. Repásala, escríbela y úsala en oraciones."
-  ],
-  "K-389": [
-   "Palabras frecuentes en oraciones: el",
-   "Lee cada oración. Escribe la palabra «el» en la línea."
-  ],
-  "K-390": [
-   "Una oración con el",
-   "Trabaja una oración paso a paso."
-  ],
-  "K-391": [
-   "Repasa las oraciones: el",
-   "Repasa cada oración. Luego escríbela en la línea de abajo."
-  ],
-  "K-392": [
-   "Encuentra la palabra: el",
-   "Colorea cada recuadro con la palabra «el». Cuéntalos y escribe el número."
-  ],
-  "K-433": [
-   "Lee, repasa y escribe: el",
-   "Lee la palabra. Repásala. Escríbela. Luego escríbela en cada oración."
-  ],
-  "K-434": [
-   "Repasa la palabra y la oración: el",
-   "Repasa la palabra. Luego repasa la oración en cada renglón."
-  ],
-  "K-435": [
-   "Lee y dibuja: el",
-   "Lee la oración. Repásala. Luego dibuja lo que dice."
-  ],
-  "K-436": [
-   "Encuentra y cuenta: el",
-   "Encierra en un círculo la palabra “el” cada vez que la veas. ¿Cuántas veces la encontraste?"
-  ],
-  "K-438": [
-   "Arma la palabra: el",
-   "Recorta las letras. Pégalas en el orden correcto para armar la palabra."
-  ],
-  "K-439": [
-   "Escritura arcoíris: el",
-   "Repasa cada palabra tres veces, cada vez de un color diferente. Luego escríbela."
   ]
  },
  "spelling": {

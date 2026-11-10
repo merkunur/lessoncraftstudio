@@ -261,7 +261,7 @@
  },
  "dot-to-dot": {
   "kw": "Skapa arbetsblad med prick till prick",
-  "lead": "Skapa prick-till-prick-blad där eleverna räknar till 20, räknar bakåt, räknar med hopp, följer alfabetet eller löser uppgifter. Den dolda bilden håller eleverna igång till sista pricken.",
+  "lead": "Skapa prick-till-prick-blad där eleverna räknar till 20, räknar bakåt, räknar med hopp, följer alfabetet eller löser uppgifter. Eleverna kan också binda ihop prickarna till en stor bokstav eller siffra, göra klart två små bilder på samma blad eller skriva namnet på bilden de hittar. Den dolda bilden håller eleverna igång till sista pricken.",
   "teaches": [
    "Säga talraden i ordning",
    "Räkna bakåt och med hopp",
@@ -271,7 +271,7 @@
  },
  "color-by-number": {
   "kw": "Skapa arbetsblad med måla efter nummer",
-  "lead": "Skapa blad med måla efter nummer och kod där varje färg är ett svar: addition, subtraktion, högfrekventa ord, första ljud och tabeller. Den färdiga bilden visar om allt stämmer.",
+  "lead": "Skapa blad med måla efter nummer och kod där varje färg är ett svar: addition, subtraktion, högfrekventa ord, första ljud och tabeller. Den gömda bokstaven och den hemliga rutbilden gör målandet till en gåta att lösa, och bladen där man målar med additioner, efter bokstäver eller med multiplikation fungerar med vilken bild som helst ur vårt bildbibliotek. Den färdiga bilden visar om allt stämmer.",
   "teaches": [
    "Öva räkning med inbyggd kontroll",
    "Läsa en färgkod noga",
@@ -281,7 +281,7 @@
  },
  "coloring-pages": {
   "kw": "Skapa målarbilder till klassen",
-  "lead": "Skapa målarbilder ur vårt bildbibliotek, med ord att spåra, en mening att skriva eller en färgkod. Vik ett litet målarhäfte till varje tema du arbetar med.",
+  "lead": "Skapa målarbilder ur vårt bildbibliotek, med ord att spåra, en mening att skriva eller en färgkod. Det finns också målarbilder för varje bokstav och varje tal, ett blad med sitt eget namn för varje elev, blad där man målar och räknar och bokmärken att måla. Vik ett litet målarhäfte till varje tema du arbetar med.",
   "teaches": [
    "Bygga pennkontroll och styrka i handen",
    "Koppla bilder till ord",
@@ -331,7 +331,7 @@
  },
  "find-the-differences": {
   "kw": "Skapa arbetsblad med hitta felen",
-  "lead": "Skapa hitta-felen-blad med 3, 5, 7 eller 10 ändringar i riktiga bilder, plus saker som saknas, färgskillnader och spegelbilder. De flesta går också att spela på skärm.",
+  "lead": "Skapa hitta-felen-blad med 3, 5, 7 eller 10 ändringar i riktiga bilder, plus saker som saknas, färgskillnader och spegelbilder. Som en snabb övning jämför eleverna rutnät med bokstäver, siffror eller bilder, eller letar i varje rad upp den bild som tittar åt andra hållet eller har en annan storlek. De flesta går också att spela på skärm.",
   "teaches": [
    "Söka igenom en bild med ordning",
    "Säga vad som ändrats",
@@ -341,7 +341,7 @@
  },
  "how-to-draw": {
   "kw": "Skapa arbetsblad om att rita steg för steg",
-  "lead": "Skapa ritblad steg för steg där varje ny linje visas i färg. Eleverna följer, spårar, gör klart och ritar till sist ur minnet, med ord- och meningsblad för skrivandet.",
+  "lead": "Skapa ritblad steg för steg där varje ny linje visas i färg. Eleverna följer, spårar, gör klart och ritar till sist ur minnet, med ord- och meningsblad för skrivandet. I tärningsspelen Slå och rita växer ett monster, en robot eller en insekt fram kast för kast, en affisch visar alla steg på ett blad, och eleverna ritar en bild stor, mindre och mycket liten.",
   "teaches": [
    "Dela upp en bild i enkla former",
    "Följa steg i ordning",
@@ -361,7 +361,7 @@
  },
  "picture-tracing": {
   "kw": "Skapa arbetsblad med bilder att spåra",
-  "lead": "Skapa bilder att spåra, från stora runda former för de yngsta till prickade stadsbilder för åk 1. Raka linjer, sicksack, spiraler och öglor blir till en riktig bild.",
+  "lead": "Skapa bilder att spåra, från stora runda former för de yngsta till prickade stadsbilder för åk 1. Eleverna spårar också två bilder på samma blad, en väg från bild till bild, en ram att rita i eller en jättebokstav och ett jättetal. Raka linjer, sicksack, spiraler och öglor blir till en riktig bild.",
   "teaches": [
    "Styra pennan längs en linje",
    "Dra raka, runda och öglade linjer",

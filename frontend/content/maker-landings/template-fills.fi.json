@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Lukupolku",
+   "Etsi 1. Väritä luvut järjestyksessä lukuun 15 asti vierekkäin, niin syntyy polku."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Väritä lukupari",
+   "Väritä joka riviltä kaksi lukua, jotka ovat yhdessä 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Väritä kertotaulu",
+   "Väritä kaikki 4:n kertotaulun luvut."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Oma lukujulisteeni: 1",
+   "Väritä luku ja sen nimi. Väritä sitten ruudukkoon yhtä monta ruutua."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Väritä ja jäljennä: 1",
+   "Väritä iso numero. Jäljennä sitten numerot viivoilla."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Yhdistä pisteet: kirjain A",
+   "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin kirjain valmistuu. Väritä se sitten."
+  ],
+  "K-585": [
+   "Yhdistä pisteet: numero 1",
+   "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin numero valmistuu. Väritä se sitten."
+  ],
+  "G3-480": [
+   "Yhdistä pisteet: lukujonoja",
+   "Aloita oranssista pisteestä. Laske 4:n välein ja yhdistä pisteet järjestyksessä."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Väritä yhteenlaskujen avulla: Peura",
+   "Laske värikoodin yhteenlaskut. Väritä jokainen osa vastauksen värillä."
+  ],
+  "K-588": [
+   "Väritä kirjainten mukaan: Peura",
+   "Väritä jokainen osa sen kirjaimen värillä."
+  ],
+  "G3-479": [
+   "Väritä kertolaskujen avulla: Peura",
+   "Laske värikoodin kertolaskut. Väritä jokainen osa vastauksen värillä."
+  ],
+  "K-393": [
+   "Väritä numeroiden mukaan: Lammas maatilalla",
+   "Väritä jokainen osa sen numeron värillä."
+  ],
+  "K-394": [
+   "Väritä numeroiden mukaan: Peura",
+   "Väritä jokainen osa sen numeron värillä."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Väritettävä kirjain: A",
+   "Väritä sivu. Tee siitä niin värikäs ja kaunis kuin osaat."
+  ],
+  "K-580": [
+   "Väritettävä luku: 1",
+   "Väritä kaikki sivulla. Laske tähdet."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Kirjainruudukko: etsi erot",
+   "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta 5 kirjainta, jotka ovat muuttuneet. Väritä ne."
+  ],
+  "K-592": [
+   "Numeroruudukko: etsi erot",
+   "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta 5 numeroa, jotka ovat muuttuneet. Väritä ne."
+  ],
+  "G1-548": [
+   "Kuvaruudukko: etsi erot",
+   "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta 5 kuvaa, jotka ovat muuttuneet. Ympyröi ne."
+  ],
+  "K-395": [
+   "Etsi viisi virhettä: Joutsen lammella",
+   "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
+  ],
+  "K-397": [
+   "Etsi kolme virhettä: Kalkkuna maatilalla",
+   "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Jäljennä jättikirjain: A",
+   "Aloita mustasta pisteestä. Jäljennä ääriviiva. Väritä sitten kirjain."
+  ],
+  "K-609": [
+   "Jäljennä jättinumero: 1",
+   "Aloita mustasta pisteestä. Jäljennä ääriviiva. Väritä sitten numero."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Väritä ja jäljennä: A",
+   "Väritä isot kirjaimet. Jäljennä sitten kirjaimet viivoilla."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Etsi ja väritä: A",
+   "Katso kirjainta ylhäällä. Etsi se ruudukosta ja väritä se joka kerta."
+  ],
+  "K-317": [
+   "Viikon kirjain Nn: kirjainjahti",
+   "Jäljennä iso ja pieni kirjain. Ympyröi neljä kuvaa, joiden nimi alkaa N-kirjaimella, ja kirjoita sitten rivi kumpaakin."
+  ],
+  "K-325": [
+   "Kuuluuko N? Äänne sanan sisällä",
+   "Jäljennä kirjain. Ympyröi neljä kuvaa, joiden nimessä N-äänne kuuluu sanan sisällä, ei alussa."
+  ],
+  "K-326": [
+   "Missä tavussa N kuuluu?",
+   "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa N kuuluu: alussa, keskellä vai lopussa."
+  ],
+  "K-327": [
+   "Ympyröi N sanoista ja laske",
+   "Etsi jokaisesta sanasta kaikki N- ja n-kirjaimet ja ympyröi ne. Kirjoita ruutuun, montako löysit."
+  ],
+  "G1-311": [
+   "Kaksoiskonsonantti kk: pitkä äänne",
+   "Jäljennä kk. Ympyröi neljä kuvaa, joiden nimessä kuuluu pitkä kk-äänne, ja kirjoita sitten rivi."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Väritä sana: ja",
+   "Lue sana. Väritä se aina, kun löydät sen."
+  ],
+  "K-388": [
+   "Päivän sana: ja",
+   "Lue sana. Jäljennä se, kirjoita se ja käytä sitä lauseissa."
+  ],
+  "K-389": [
+   "Tuttu sana lauseissa: ja",
+   "Lue jokainen lause. Kirjoita sana ”ja” viivalle."
+  ],
+  "K-390": [
+   "Lause, jossa on sana ja",
+   "Harjoittele yhtä lausetta vaihe vaiheelta."
+  ],
+  "K-391": [
+   "Jäljennä lauseet: ja",
+   "Jäljennä jokainen lause. Kirjoita se sitten alla olevalle viivalle."
+  ],
+  "K-392": [
+   "Etsi sana: ja",
+   "Väritä jokainen ruutu, jossa on sana ”ja”. Laske ne ja kirjoita luku."
+  ],
+  "K-433": [
+   "Lue, jäljennä, kirjoita: ja",
+   "Lue sana. Jäljennä se. Kirjoita se. Kirjoita se sitten jokaiseen lauseeseen."
+  ],
+  "K-434": [
+   "Jäljennä sana ja lause: ja",
+   "Jäljennä sana. Jäljennä sitten lause jokaisella rivillä."
+  ],
+  "K-435": [
+   "Lue ja piirrä: ja",
+   "Lue lause. Jäljennä se. Piirrä sitten, mitä lauseessa sanotaan."
+  ],
+  "K-436": [
+   "Etsi ja laske: ja",
+   "Ympyröi sana ”ja” aina, kun näet sen. Montako kertaa löysit sen?"
+  ],
+  "K-438": [
+   "Rakenna sana: ja",
+   "Leikkaa kirjaimet irti. Liimaa ne oikeaan järjestykseen niin, että niistä tulee sana."
+  ],
+  "K-439": [
+   "Sateenkaarikirjoitus: ja",
+   "Jäljennä jokainen sana kolme kertaa, joka kerta eri värillä. Kirjoita se sitten."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Väritysbingo",
+   "Ota yksi lappu. Kuuntele lukuja 1–20. Väritä jokainen luku, jonka kuulet. Kolme rivissä voittaa."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Lukuetsivä",
@@ -9,30 +205,10 @@
    "Jokaisella rivillä ja jokaisessa sarakkeessa on numerot 1, 2, 3 ja 4 täsmälleen kerran. Paksureunaisen häkin numeroiden summa on häkin kulmassa oleva pieni luku."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Väritä numeroiden mukaan: Lammas maatilalla",
-   "Väritä jokainen osa sen numeron värillä."
-  ],
-  "K-394": [
-   "Väritä numeroiden mukaan: Peura",
-   "Väritä jokainen osa sen numeron värillä."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Hypi hunajakennon läpi aakkosjärjestyksessä",
    "Aloita ruudusta, johon nuoli osoittaa. Väritä aina aakkosten seuraava kirjain viereisessä ruudussa, kirjaimeen Ö asti."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Etsi viisi virhettä: Joutsen lammella",
-   "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
-  ],
-  "K-397": [
-   "Etsi kolme virhettä: Kalkkuna maatilalla",
-   "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
   ]
  },
  "how-to-draw": {
@@ -79,74 +255,6 @@
   "G2-391": [
    "Piirrä hiekkalinna muistista",
    "Katso kuvaa, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isoon ruutuun."
-  ]
- },
- "alphabet": {
-  "K-317": [
-   "Viikon kirjain Nn: kirjainjahti",
-   "Jäljennä iso ja pieni kirjain. Ympyröi neljä kuvaa, joiden nimi alkaa N-kirjaimella, ja kirjoita sitten rivi kumpaakin."
-  ],
-  "K-325": [
-   "Kuuluuko N? Äänne sanan sisällä",
-   "Jäljennä kirjain. Ympyröi neljä kuvaa, joiden nimessä N-äänne kuuluu sanan sisällä, ei alussa."
-  ],
-  "K-326": [
-   "Missä tavussa N kuuluu?",
-   "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa N kuuluu: alussa, keskellä vai lopussa."
-  ],
-  "K-327": [
-   "Ympyröi N sanoista ja laske",
-   "Etsi jokaisesta sanasta kaikki N- ja n-kirjaimet ja ympyröi ne. Kirjoita ruutuun, montako löysit."
-  ],
-  "G1-311": [
-   "Kaksoiskonsonantti kk: pitkä äänne",
-   "Jäljennä kk. Ympyröi neljä kuvaa, joiden nimessä kuuluu pitkä kk-äänne, ja kirjoita sitten rivi."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Päivän sana: ja",
-   "Lue sana. Jäljennä se, kirjoita se ja käytä sitä lauseissa."
-  ],
-  "K-389": [
-   "Tuttu sana lauseissa: ja",
-   "Lue jokainen lause. Kirjoita sana ”ja” viivalle."
-  ],
-  "K-390": [
-   "Lause, jossa on sana ja",
-   "Harjoittele yhtä lausetta vaihe vaiheelta."
-  ],
-  "K-391": [
-   "Jäljennä lauseet: ja",
-   "Jäljennä jokainen lause. Kirjoita se sitten alla olevalle viivalle."
-  ],
-  "K-392": [
-   "Etsi sana: ja",
-   "Väritä jokainen ruutu, jossa on sana ”ja”. Laske ne ja kirjoita luku."
-  ],
-  "K-433": [
-   "Lue, jäljennä, kirjoita: ja",
-   "Lue sana. Jäljennä se. Kirjoita se. Kirjoita se sitten jokaiseen lauseeseen."
-  ],
-  "K-434": [
-   "Jäljennä sana ja lause: ja",
-   "Jäljennä sana. Jäljennä sitten lause jokaisella rivillä."
-  ],
-  "K-435": [
-   "Lue ja piirrä: ja",
-   "Lue lause. Jäljennä se. Piirrä sitten, mitä lauseessa sanotaan."
-  ],
-  "K-436": [
-   "Etsi ja laske: ja",
-   "Ympyröi sana ”ja” aina, kun näet sen. Montako kertaa löysit sen?"
-  ],
-  "K-438": [
-   "Rakenna sana: ja",
-   "Leikkaa kirjaimet irti. Liimaa ne oikeaan järjestykseen niin, että niistä tulee sana."
-  ],
-  "K-439": [
-   "Sateenkaarikirjoitus: ja",
-   "Jäljennä jokainen sana kolme kertaa, joka kerta eri värillä. Kirjoita se sitten."
   ]
  },
  "spelling": {

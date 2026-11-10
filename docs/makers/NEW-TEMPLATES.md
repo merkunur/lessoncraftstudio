@@ -4088,6 +4088,10 @@ The engine (Part 3 §D) makes unique cards + caller cards from any item pool; ea
 
 ---
 
+### 61. The flagship templates (2026-11-07, docs/makers/FLAGSHIP.md) — 56 new
+
+Five new templates in each of the six flagship makers and the colouring-alphabet templates of 26 other makers. The table is `scripts/worksheet-gen/data/fl/new-templates.js` (id, slug, family, grade, mode, title, instruction); `docs/makers/COLORING-GLYPHS-ANALYSIS.md` records why each maker takes them or not. K-587, K-588, G3-479 live in `lib/cbn-type.js` (code), G3-480 on K-285, K-622 on `types/_shared/word-search.js` (bubble).
+
 ## For the operator
 
 Only real choices; each with my recommendation and the cost of each option. Nothing here blocks the platform or the pilot. The pedagogical content of every template above is fixed by the brief's rules (native + pedagogy review before publish; mistakes fixed everywhere) and is not a choice.

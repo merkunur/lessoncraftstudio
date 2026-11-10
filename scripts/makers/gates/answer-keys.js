@@ -53,6 +53,14 @@ const NO_KEY = {
   'K-468': 'trace the number words: the word to trace is printed on the page (handwriting)',
   // number tracing (2026-11-02): every number to trace or write is printed on its own row — the page is its own key
   'K-237': 'number tracing: each row prints the number it traces', 'K-249': 'number tracing 0-4: the numbers are printed on the page',
+  // the flagship templates (docs/makers/FLAGSHIP.md): colouring and drawing are open, tracing prints what the child traces
+  'K-579': 'a coloring page: any colours are right', 'K-580': 'a coloring page: the stars are as many as the printed number', 'K-581': 'a coloring page of the child\'s name',
+  'K-583': 'bookmarks to color and cut', 'K-595': 'a drawing page: the child rolls and draws', 'K-596': 'a drawing page: the child rolls and draws', 'K-597': 'a drawing page: the child rolls and draws',
+  'K-598': 'a poster: the steps and the picture are printed', 'G1-549': 'a drawing page: the child draws the picture', 'K-599': 'tracing: the lines are printed', 'K-600': 'tracing: the way is printed',
+  'K-601': 'tracing and a free drawing', 'K-602': 'tracing: the letter is printed', 'K-609': 'tracing: the number is printed', 'K-610': 'color and trace: the number is printed',
+  'K-611': 'a poster: the number is printed and the child colors that many', 'K-612': 'the number is printed and the child colors that many', 'K-613': 'a month to color day by day',
+  'K-617': 'color and trace: the letter is printed', 'K-620': 'the syllables are printed apart; any colours are right', 'K-621': 'color and write: the word is printed', 'K-623': 'a bingo game: the teacher calls the numbers',
+  'K-624': 'cards to color and cut', 'K-625': 'a poster of the child\'s name and a free drawing',
   'K-250': 'number tracing 5-9: the numbers are printed on the page', 'K-251': 'trace and write: each row prints the number the child writes',
   'K-252': 'number tracing 1-10: the numbers are printed on the page', 'K-253': 'teen numbers: the numbers are printed on the page',
   'K-466': 'make your own pattern: an empty train and pictures to cut out — the child invents the pattern (material)',

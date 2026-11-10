@@ -53,6 +53,9 @@ const DATA_DEFECT = /fix data\/|data defect/i;
 const dataDefects = new Set();
 const noteDefect = (e, where) => { if (e && DATA_DEFECT.test(String(e.message))) dataDefects.add(where + ': ' + String(e.message).slice(0, 200)); };
 const isBwTheme = (t) => /bw(\s+\d+)?$/i.test(t);
+// a gallery card names the worksheet TYPE (shell.js cardTitle): where the title's word slot sits mid-sentence, dropping it
+// broke the label ("Circle the in the Words and Count"), so those cards carry their own native label (2026-11-09)
+const CARD_TITLES = JSON.parse(fs.readFileSync(path.join(__dirname, 'card-titles.json'), 'utf8'));
 function themesFor(spec) {
   if (!spec.themeAxis || !spec.themeAxis.applicable) return [null];
   const man = JSON.parse(fs.readFileSync(path.join(WG, 'cache', 'manifest.json'), 'utf8')).themes;
@@ -61,7 +64,8 @@ function themesFor(spec) {
   const ok = Object.keys(man).sort((x, y) => isBwTheme(x) - isBwTheme(y)).filter((t) => Object.values(man[t].nouns).filter((n) => n.vocabKey).length >= ((spec.themeAxis && spec.themeAxis.minNouns) || 6));
   // a colouring template prints outlines whatever theme it is given (themeAxis.needsBwSibling): offer it the black-and-white
   // themes only, so the theme tiles show what the child will colour (a colour tile would print its outline sibling)
-  return spec.themeAxis.needsBwSibling ? ok.filter(isBwTheme) : ok;
+  // (and the flagship drawings' themes, which no word-based maker offers: their pictures have no vocabulary key)
+  return spec.themeAxis.needsBwSibling ? ok.filter(isBwTheme).concat(Object.keys(man).filter((t) => man[t].fl)) : ok;
 }
 
 /** Step 1 + 2: record reads and resolve strings in Node. */
@@ -171,6 +175,7 @@ function record(types) {
         const { unitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
         // a unit drawn for one level (Color by Number's designs): the screen lists a page's level's units only
+        if (spec.unitAxis.hideInMaker) entry.hideUnits = true;
         if (spec.unitAxis.levelOf) entry.unitLevels = Object.assign(entry.unitLevels || {}, Object.fromEntries(entry.units[loc].map((u) => [u.id, spec.unitAxis.levelOf(u.id)])));
         // a unit is offered at the levels where a page builds with it (2026-11-03: the level checks above build the
         // DEFAULT unit only — the sv G1-343 sample drew the rhyme family "att", which cannot carry the sort face, and en
@@ -193,7 +198,8 @@ function record(types) {
           (entry.localeUnitLevels = entry.localeUnitLevels || {})[loc] = Object.fromEntries(entry.units[loc].map((u) => [u.id, ul[u.id]]));
         }
       }
-      (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
+      const card = (CARD_TITLES[spec.id] || {})[loc];
+      (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(card ? { cardTitle: card } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
     // the levels offered in some language (in order); the themes good in some language — a language whose own list
     // differs gets localeThemes
@@ -404,10 +410,14 @@ async function main() {
     const themeNames = {};
     for (const th of new Set(rec.templates.flatMap((t) => t.themes))) {
       const k = Object.keys(tax).find((x) => norm(x) === norm(th));
-      if (!k) throw new Error('theme without a taxonomy name: ' + th);
-      for (const loc of LOCALES) (themeNames[loc] = themeNames[loc] || {})[th] = tax[k].name[loc];
+      // a flagship theme is named by its picture group (data/fl/groups.js)
+      const grp = !k && require(path.join(WG, 'data', 'fl', 'groups.js')).GROUPS.find((g) => g.themes.includes(th));
+      if (!k && !grp) throw new Error('theme without a taxonomy name: ' + th);
+      for (const loc of LOCALES) (themeNames[loc] = themeNames[loc] || {})[th] = k ? tax[k].name[loc] : grp.names[loc];
     }
-    fs.writeFileSync(path.join(dir, 'templates.json'), JSON.stringify({ maker: id, version, answerKey: ANSWER_KEY, themeNames, templates: rec.templates }, null, 1));
+    // the flagship picture makers: the teacher's picture groups (data/fl/groups.js), read by the theme tiles and the picker
+    const flGroups = mk && mk.flagship ? (() => { const { GROUPS } = require(path.join(WG, 'data', 'fl', 'groups.js')); return { order: GROUPS.map((g) => g.id), themes: Object.fromEntries(GROUPS.flatMap((g) => g.themes.map((t) => [t, g.id]))), names: Object.fromEntries(GROUPS.map((g) => [g.id, g.names])) }; })() : null;
+    fs.writeFileSync(path.join(dir, 'templates.json'), JSON.stringify({ maker: id, version, answerKey: ANSWER_KEY, themeNames, ...(flGroups ? { artGroups: flGroups } : {}), templates: rec.templates }, null, 1));
     fs.writeFileSync(path.join(dir, 'data-manifest.json'), JSON.stringify(rec.manifest, null, 1));
     for (const [loc, s] of Object.entries(rec.strings)) fs.writeFileSync(path.join(dir, 'strings.' + loc + '.json'), JSON.stringify(s));
     rec.manifest.files.forEach((f) => allData.add(f));
@@ -419,6 +429,14 @@ async function main() {
     // a level a language cannot build is not offered there (the rest of the template is): named, never silent
     for (const t of rec.templates) if (t.levelRefused) report.push(`   ${t.id} levels: ${Object.entries(t.levelRefused).map(([l, by]) => l + ' ' + Object.entries(by).map(([d, w]) => 'L' + d + (w ? ' (' + w.slice(0, 90) + ')' : '')).join(' ')).join(', ')}`);
     if (dataDefects.size) throw new Error(id + ': ' + dataDefects.size + ' data defect(s) — a bank disagrees with the vocabulary, fix the data:\n  ' + [...dataDefects].join('\n  '));
+    // a title whose word slot sits mid-sentence needs its gallery label (card-titles.json): the card would read "Circle the in…"
+    const noCard = [];
+    for (const [loc, byId] of Object.entries(rec.strings)) for (const [tid, s] of Object.entries(byId)) {
+      const raw = s.printTitle || s.title || '';
+      if (/\{/.test(raw.replace(/\s*[:–—-]\s*[«“„‘”']?\{(UNIT|U|L|N)\}[»”“’']?\s*$/, '')) && !s.cardTitle) noCard.push(`${tid} ${loc}: ${raw}`);
+      if (s.cardTitle && /[{}]/.test(s.cardTitle)) noCard.push(`${tid} ${loc}: card label keeps a slot: ${s.cardTitle}`);
+    }
+    if (noCard.length) throw new Error(id + ': ' + noCard.length + ' gallery card(s) without a label — add them to scripts/makers/card-titles.json:\n  ' + noCard.join('\n  '));
     fs.writeFileSync(path.join(OUT, id, 'current.txt'), version);
     built[id] = version;
   }

@@ -23,16 +23,18 @@ const D = {
 };
 const _lists = new Map();
 /** the level's traced drawings that have a reviewed word in the language (picture → word) */
-function named(level, loc) {
-  const k = level + '|' + loc;
+function named(level, loc, lib) {
+  const k = level + '|' + loc + '|' + (lib ? 1 : 0);
   if (!_lists.has(k)) {
     const d = D[level], words = new Map();
-    for (const src of P.drawings('K-499', level)) {
+    for (const fresh of lib ? [false, true] : [false]) for (const src of P.drawings('K-499', level)) {
       const [theme, noun] = src.split('/');
       let e;
-      try { e = entriesFor(theme, loc).find((x) => x.noun === noun); } catch (err) { continue; }
-      if (!e || !freshKeep(theme, e, loc)) continue;
-      const w = displayWord(e.singular, loc);
+      try { e = entriesFor(theme, loc).find((x) => x.noun === noun); } catch (err) { if (!fresh) continue; }
+      // a maker page only, after the library's own: a drawing of the flagship set with its reviewed word (lib/fl-forms.js: one traceable word, or none)
+      const fw = fresh && !e ? (require('../../lib/fl-forms.js').formOf(src, loc) || {}).word : null;
+      if (fresh ? !fw : !e || !freshKeep(theme, e, loc)) continue;
+      const w = fw || displayWord(e.singular, loc);
       if (!/^\p{L}+$/u.test(w) || [...w].length > d.maxLen) continue;
       try { letterStrokes.textGlyphs(w); } catch (err) { continue; }
       words.set(src, w);
@@ -60,12 +62,12 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty], L = P.LEVEL[difficulty];
     const loc = String(locale || 'en').slice(0, 2);
-    const words = named(difficulty, loc);
+    const words = named(difficulty, loc, !!(ctx && ctx.slotsOut));
     if (!words.size) throw new Error(`K-499: no named drawing at level ${difficulty} in ${loc}`);
     const extra = (ctx && ctx.chromeExtra) || 0;
     const rowH = 76, rows = 1 + d.reps + d.empties, laneH = rows * rowH + (rows - 1) * 2;
     const picH = 700 - extra - laneH - 16;
-    const got = P.firstThatFits([...words.keys()], ctx, (src) => ({ out: P.composeFit({ W: 675, H: picH, band: L.band, style: L.style, occlusion: false, items: [{ src, x: 337, y: picH - 4, fitBox: [600, picH - 14], start: 'top' }] }, L.band) }));
+    const got = P.artFits([...words.keys()], ctx, (src) => ({ out: P.composeFit({ W: 675, H: picH, band: L.band, style: L.style, occlusion: false, items: [{ src, x: 337, y: picH - 4, fitBox: [600, picH - 14], start: 'top' }] }, L.band) }));
     const word = words.get(got.src);
     // the lane: the solid model, the traced copies, the empty lines to write on (school lines, the page's full width)
     const model = strokeWordLane({ text: word, w: 600, h: rowH, glyphH: 48, reps: 1, stack: true, align: 'left' });
@@ -76,7 +78,7 @@ module.exports = {
     const ink = require('../../primitives/_tokens.js').color.inkSoft;
     const dark = (svg) => svg.replace(/<(?!line\b)[a-z]+\b[^>]*>/g, (t) => t.replace(/stroke="#C8BFAE"/gi, `stroke="${ink}"`));
     const lane = `<div data-lcs-pt-word="${word}" data-lcs-pt-rows="${rows}" style="display:flex;flex-direction:column;gap:2px;width:600px">${model.svg}${rest ? dark(rest.svg) : ''}${extraEmpty ? extraEmpty.svg : ''}</div>`;
-    const body = `<div data-ws-content data-lcs-pt-face="picture-word" data-lcs-pt-src="${got.src}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px">${got.out.svg}${lane}</div>`;
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-pt-face="picture-word" data-lcs-pt-src="${got.src}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px">${got.out.svg}${lane}</div>`;
     return { bodyHtml: body, meta: { picture: got.src, word, band: L.band } };
   },
 

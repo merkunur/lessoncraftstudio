@@ -65,6 +65,7 @@ module.exports = {
     let pages = null, bk = null, err;
     for (let k = 0; k < Math.min(30, list.length) && !pages; k++) {
       bk = list[(n - 1 + k) % list.length];
+      if (!bk.srcs.every(P.allowed)) continue;   // a booklet with a refused picture (lib/pt-faces.js allowed): the next one
       try { pages = bk.srcs.map((src) => P.composeFit({ W: cellW - 10, H: cellH - 10, band: L.band, style: L.style, occlusion: false, items: [{ src, x: (cellW - 10) / 2, y: cellH - 18, fitBox: [cellW - 40, cellH - 40], start: 'top' }] }, L.band)); }
       catch (e) { err = e; pages = null; if (!/pt-faces|pt-scene/.test(e.message)) throw e; }
     }

@@ -23,6 +23,7 @@ const { evalSource } = require('./fd-browser-diff.js');
 const platform = require('./platform/index.js');
 const path = require('path');
 
+const FL = require('./fl-art.js');
 const W = FD.W, H = FD.H;   // 600 × 560 picture units
 const TRIES = 40;
 
@@ -59,12 +60,23 @@ function pinned(faceKey, level) {
  * refuse the copy's own seed)
  */
 function sceneFor(faceKey, level, ctx, fn) {
-  const ids = pinned(faceKey, level) || sceneOrder(faceKey);
+  let ids = pinned(faceKey, level) || sceneOrder(faceKey);
   const n = Math.max(1, parseInt(String((ctx && ctx.variant) || 1), 10) || 1);
+  // a maker page: the teacher's picture or theme, then the face's pinned scenes, then the library's scenes (docs/makers/FLAGSHIP.md)
+  // only the library scenes the face is pinned to at this level reach the picker and the theme tiles: a picture whose
+  // scenes cannot carry the face was offered and then refused (flagship visual check 2026-11-08: 3,002 of 18,621 picks);
+  // past the pinned scenes New version goes round them again, never into scenes that fail
+  const pinSet = pinned(faceKey, level) ? new Set(pinned(faceKey, level)) : null;
+  const lib = ctx && ctx.slotsOut ? sceneOrder(faceKey).filter((id) => B.heroOf(id) && (!pinSet || pinSet.has(id))) : [], heroes = [...new Set(lib.map(B.heroOf))];
+  let at = n - 1;
+  if (lib.length) {
+    const hit = FL.choose(ctx, heroes, n);
+    if (hit) { const own = lib.filter((id) => B.heroOf(id) === hit); const pins = pinned(faceKey, level) || [], r = pins.length ? (n - 1) % pins.length : 0; ids = FL.wish(ctx).key ? own : [...new Set([...own, ...lib.filter((id) => FL.groupOf(B.heroOf(id)) === FL.groupOf(hit)).slice(0, 6), ...pins.slice(r), ...pins.slice(0, r), ...lib])]; at = 0; } else if (n > ids.length) { if (pinSet) at = (n - 1) % ids.length; else { const seen = new Set(ids); ids = lib.filter((id) => !seen.has(id)); at = n - 1 - (pinned(faceKey, level) || []).length; } }
+  }
   let err;
   for (let k = 0; k < Math.min(TRIES, ids.length); k++) {
-    const id = ids[(n - 1 + k) % ids.length];
-    try { return { id, ...fn(loadScene(id), id) }; } catch (e) { err = e; if (!/fd-compose|fd-faces/.test(e.message)) throw e; }
+    const id = ids[(at + k) % ids.length];
+    try { const got = { id, ...fn(loadScene(id), id) }; if (lib.length) FL.report(ctx, heroes, B.heroOf(id) || null); return got; } catch (e) { err = e; if (!/fd-compose|fd-faces/.test(e.message)) throw e; }
   }
   throw new Error(`fd-faces: no scene carries ${faceKey} (last: ${err && err.message})`);
 }

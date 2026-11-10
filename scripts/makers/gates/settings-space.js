@@ -54,6 +54,8 @@ const EXEMPT = {
   'K-008': [/^(imgs|area)-max$/, 'circle the group that has MORE: the most pictures IS the answer'],
   'K-009': [/^(imgs|area)-min$/, 'circle the group that has FEWER: the fewest pictures IS the answer'],
   'G1-455': [/^alternate-/, 'colour every even number on a chart: even numbers alternate on any number row'],
+  'G1-551': [/^slot-0$/, 'colour the tens digit (2026-11-09): in a two-digit number the tens digit IS the left one — where it sits is the place-value lesson (1.NBT.B.2), as K-064; level 3 mixes in three-digit numbers, so there the place moves and slot-1 is still measured'],
+  'G2-499': [/^alternate-/, 'colour the multiples on a number chart in counting order (2026-11-09): the numbers you say counting by N sit in a fixed rhythm on the chart (every other number for 2s) — seeing that rhythm IS skip counting, as G1-455'],
   'K-044': [/^area-(max|min)$/, 'circle the picture of a different SIZE: the different one is always the biggest or the smallest in its row (half each) — comparing sizes is the task, not a guess'],
   'G3-356': [/^const-(0|15|30|45)$/, 'add and subtract whole hours (level 1), half hours (level 2) or quarter hours (level 3): the minutes of every answer are :00, :30 or a quarter by the level — keeping the minutes is part of the skill; the screen grades them in their own box, pooled here with the hours 1-12'],
   'G1-479': [/^(first-half|second-half|alternate-[01])$/, 'shade the quarters the minute hand has passed: they always start at 12 and run clockwise (quarter past = the top right, half past = the right half) — where the shaded quarters sit IS the lesson'],

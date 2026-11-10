@@ -57,7 +57,7 @@ module.exports = {
     const cells = Array.from({ length: d.panels }, (_, i) => cell(i));
     // rows of two (three pictures: one on top, centred, then two)
     const rows = d.panels === 3 ? [[cells[0]], [cells[1], cells[2]]] : [[cells[0], cells[1]], [cells[2], cells[3]]];
-    const body = `<div data-ws-content data-lcs-fd-face="odd" data-lcs-fd-unit="${got.id}" data-lcs-fd-odd="${odd + 1}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">` +
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-fd-face="odd" data-lcs-fd-unit="${got.id}" data-lcs-fd-odd="${odd + 1}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">` +
       rows.map((r) => `<div style="display:flex;gap:15px;justify-content:center;width:675px">${r.join('')}</div>`).join('') + `</div>`;
     return { bodyHtml: body, meta: { unit: got.id, odd: odd + 1, op: got.r.ops.map((c) => c.kind).join(',') } };
   },

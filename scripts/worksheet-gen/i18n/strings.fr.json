@@ -4549,5 +4549,229 @@
   "K-578": {
     "title": "Loto des formes et des couleurs : cartes du meneur",
     "instruction": "Découpe les cartes et mélange-les. Prends une carte à la fois et lis la forme et sa couleur à voix haute. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »."
+  },
+  "K-579": {
+    "title": "Alphabet à colorier : {U}",
+    "instruction": "Colorie la page. Rends-la aussi belle et colorée que tu peux."
+  },
+  "K-580": {
+    "title": "Nombres à colorier : {U}",
+    "instruction": "Colorie tout ce qu’il y a sur la page. Compte les étoiles."
+  },
+  "K-581": {
+    "title": "Colorie ton prénom",
+    "instruction": "Colorie chaque lettre de ton prénom."
+  },
+  "K-582": {
+    "title": "Colorie et compte",
+    "instruction": "Colorie les images. Compte chaque sorte et écris combien il y en a."
+  },
+  "K-583": {
+    "title": "Marque-pages à colorier",
+    "instruction": "Colorie les marque-pages. Découpe-les en suivant les pointillés."
+  },
+  "K-584": {
+    "title": "Lettre à relier : {U}",
+    "instruction": "Pars du point orange. Relie les points dans l’ordre des nombres pour faire la lettre. Puis colorie-la."
+  },
+  "K-585": {
+    "title": "Chiffre à relier : {U}",
+    "instruction": "Pars du point orange. Relie les points dans l’ordre des nombres pour faire le chiffre. Puis colorie-le."
+  },
+  "K-586": {
+    "title": "Deux petits dessins à relier",
+    "instruction": "Dans chaque image, pars du point orange. Relie les points dans l’ordre des nombres."
+  },
+  "G1-547": {
+    "title": "Relie les points, puis écris le mot",
+    "instruction": "Relie les points dans l’ordre des nombres. Puis écris le nom du dessin."
+  },
+  "K-587": {
+    "title": "Coloriage magique (additions) : {UNIT}",
+    "instruction": "Calcule chaque addition du code. Colorie chaque partie avec la couleur de son résultat."
+  },
+  "K-588": {
+    "title": "Coloriage magique (lettres) : {UNIT}",
+    "instruction": "Colorie chaque partie avec la couleur de sa lettre."
+  },
+  "K-591": {
+    "title": "Grille de lettres : trouve les différences",
+    "instruction": "Regarde la grille du haut. Trouve les {N} lettres qui ont changé dans la grille du bas. Colorie-les."
+  },
+  "K-592": {
+    "title": "Grille de chiffres : trouve les différences",
+    "instruction": "Regarde la grille du haut. Trouve les {N} chiffres qui ont changé dans la grille du bas. Colorie-les."
+  },
+  "G1-548": {
+    "title": "Grille d’images : trouve les différences",
+    "instruction": "Regarde la grille du haut. Trouve les {N} images qui ont changé dans la grille du bas. Entoure-les."
+  },
+  "K-593": {
+    "title": "Qui regarde de l’autre côté ?",
+    "instruction": "Dans chaque rangée, une image regarde de l’autre côté. Entoure-la."
+  },
+  "K-594": {
+    "title": "Quelle image n’a pas la même taille ?",
+    "instruction": "Dans chaque rangée, une image n’a pas la même taille. Entoure-la."
+  },
+  "K-595": {
+    "title": "Lance le dé et dessine un monstre",
+    "instruction": "Lance le dé pour chaque rangée. Dessine dans le cadre la partie qui est sous ton nombre."
+  },
+  "K-596": {
+    "title": "Lance le dé et dessine un robot",
+    "instruction": "Lance le dé pour chaque rangée. Dessine dans le cadre la partie qui est sous ton nombre."
+  },
+  "K-597": {
+    "title": "Lance le dé et dessine un insecte",
+    "instruction": "Lance le dé pour chaque rangée. Dessine dans le cadre la partie qui est sous ton nombre."
+  },
+  "K-598": {
+    "title": "Affiche : comment dessiner",
+    "instruction": "Regarde les étapes dans l’ordre. Colorie le nom et le dessin terminé."
+  },
+  "G1-549": {
+    "title": "Dessine-le trois fois",
+    "instruction": "Suis les étapes. Fais le dessin en grand, puis plus petit, puis tout petit."
+  },
+  "K-599": {
+    "title": "Deux dessins à repasser",
+    "instruction": "Repasse toutes les lignes des deux dessins. Commence aux points noirs."
+  },
+  "K-600": {
+    "title": "Repasse le chemin",
+    "instruction": "Dans chaque rangée, commence au point noir. Repasse le chemin jusqu’à l’autre image."
+  },
+  "K-601": {
+    "title": "Repasse le cadre",
+    "instruction": "Commence au point noir et repasse le cadre. Puis dessine à l’intérieur quelque chose que tu aimes."
+  },
+  "K-602": {
+    "title": "Repasse la lettre géante : {U}",
+    "instruction": "Commence au point noir. Repasse le contour. Puis colorie la lettre."
+  },
+  "K-609": {
+    "title": "Repasse le nombre géant : {U}",
+    "instruction": "Commence au point noir. Repasse le contour. Puis colorie le nombre."
+  },
+  "K-603": {
+    "title": "Compte et colorie le nombre",
+    "instruction": "Compte les images de chaque rangée. Colorie le nombre qui dit combien il y en a."
+  },
+  "K-604": {
+    "title": "Le chemin des nombres",
+    "instruction": "Trouve le 1. Colorie les nombres dans l’ordre jusqu’à {N}, côte à côte, pour faire un chemin."
+  },
+  "K-606": {
+    "title": "Colorie le plus grand nombre",
+    "instruction": "Regarde les deux nombres de chaque case. Colorie le plus grand."
+  },
+  "K-607": {
+    "title": "Calcule et colorie la réponse",
+    "instruction": "Calcule chaque opération. Colorie le nombre qui est la réponse."
+  },
+  "G2-499": {
+    "title": "Colorie les multiples",
+    "instruction": "Colorie tous les nombres que tu dis en comptant de {N} en {N}."
+  },
+  "K-608": {
+    "title": "Colorie la paire",
+    "instruction": "Dans chaque rangée, colorie les deux nombres qui font {N} ensemble."
+  },
+  "G1-551": {
+    "title": "Colorie le chiffre des dizaines",
+    "instruction": "Dans chaque nombre, colorie le chiffre des dizaines."
+  },
+  "K-610": {
+    "title": "Colorie et repasse : {U}",
+    "instruction": "Colorie le grand nombre. Puis repasse les nombres sur les lignes."
+  },
+  "K-611": {
+    "title": "Mon affiche du nombre : {U}",
+    "instruction": "Colorie le nombre en chiffres et en lettres. Puis colorie autant de cases dans la grille."
+  },
+  "K-612": {
+    "title": "Colorie le nombre, remplis la grille",
+    "instruction": "Colorie chaque nombre. Puis colorie autant de cases dans sa grille."
+  },
+  "K-613": {
+    "title": "Colorie les jours",
+    "instruction": "Chaque jour, colorie le nombre du jour, jusqu’à ce que tout le mois soit colorié."
+  },
+  "K-614": {
+    "title": "Colorie la suite de lettres",
+    "instruction": "Colorie les mêmes lettres de la même couleur. Écris la lettre qui vient ensuite."
+  },
+  "K-615": {
+    "title": "Lettres ou chiffres ?",
+    "instruction": "Colorie toutes les lettres. Laisse les chiffres en blanc."
+  },
+  "K-616": {
+    "title": "Trouve et colorie : {U}",
+    "instruction": "Regarde la lettre en haut. Trouve-la dans la grille et colorie-la à chaque fois."
+  },
+  "K-617": {
+    "title": "Colorie et repasse : {U}",
+    "instruction": "Colorie les grandes lettres. Puis repasse les lettres sur les lignes."
+  },
+  "K-618": {
+    "title": "Colorie la première lettre",
+    "instruction": "Dis le nom de chaque image. Colorie la lettre par laquelle il commence."
+  },
+  "K-619": {
+    "title": "Colorie le mot-outil : {U}",
+    "instruction": "Lis le mot. Colorie-le chaque fois que tu le trouves."
+  },
+  "G1-552": {
+    "title": "Colorie le mot bien écrit",
+    "instruction": "Regarde chaque image. Colorie le mot qui est bien écrit."
+  },
+  "K-620": {
+    "title": "Colorie les syllabes",
+    "instruction": "Dis chaque mot et frappe ses syllabes. Colorie chaque syllabe d’une couleur différente."
+  },
+  "K-621": {
+    "title": "Colorie et écris le mot",
+    "instruction": "Dis le mot. Colorie les grandes lettres. Puis écris le mot sur la ligne."
+  },
+  "K-622": {
+    "title": "Mots mêlés à colorier",
+    "instruction": "Trouve chaque mot dans la grille et colorie ses lettres. Change de couleur pour chaque mot."
+  },
+  "K-623": {
+    "title": "Loto à colorier",
+    "instruction": "Prends un carton. Écoute les nombres de 1 à {N}. Colorie chaque nombre que tu entends. Trois alignés, c’est gagné."
+  },
+  "K-624": {
+    "title": "Cartes de l’alphabet à colorier",
+    "instruction": "Colorie chaque carte. Puis découpe les cartes en suivant les pointillés."
+  },
+  "K-625": {
+    "title": "Mon affiche prénom",
+    "instruction": "Colorie les lettres de ton prénom. Dessine-toi dans le cadre."
+  },
+  "K-626": {
+    "title": "Colorie la lettre à la bonne place",
+    "instruction": "Dans chaque rangée, pars de la flèche et compte les places. Colorie la lettre à la place indiquée."
+  },
+  "G3-480": {
+    "title": "Points à relier : compter par bonds",
+    "instruction": "Pars du point orange. Compte de {N} en {N} et relie les points dans l’ordre."
+  },
+  "G3-479": {
+    "title": "Coloriage magique (multiplications) : {UNIT}",
+    "instruction": "Calcule chaque multiplication du code. Colorie chaque partie avec la couleur de son résultat."
+  },
+  "G1-555": {
+    "title": "Image mystère en quadrillage",
+    "instruction": "Colorie chaque case avec la couleur de son nombre. Quelle image apparaît ?"
+  },
+  "G1-553": {
+    "title": "La lettre cachée",
+    "instruction": "Colorie chaque case qui contient un nombre impair. Quelle lettre vois-tu ? Écris-la dans la case du bas."
+  },
+  "G1-554": {
+    "title": "Colorie les nombres impairs",
+    "instruction": "Colorie tous les nombres impairs. Laisse les nombres pairs en blanc."
   }
 }

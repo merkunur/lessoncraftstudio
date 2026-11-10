@@ -22,7 +22,8 @@ const isBw = (t) => /bw(\s+\d+)?$/i.test(t);
   const OUT = path.join(__dirname, '..', '..', '..', 'out', 'makers');
   const v = fs.readFileSync(path.join(OUT, 'counting', 'current.txt'), 'utf8').trim();
   const tj = JSON.parse(fs.readFileSync(path.join(OUT, 'counting', v, 'templates.json'), 'utf8'));
-  const allBw = Object.keys(JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'worksheet-gen', 'cache', 'manifest.json'), 'utf8')).themes).filter(isBw);
+  const allThemes = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'worksheet-gen', 'cache', 'manifest.json'), 'utf8')).themes;
+  const allBw = Object.keys(allThemes).filter((t) => isBw(t) && !allThemes[t].fl);   // (the flagship themes carry no words, so word-based templates never offer them)
   let fails = 0;
   const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok || extra === undefined ? '' : ' — ' + JSON.stringify(extra).slice(0, 300))); };
 

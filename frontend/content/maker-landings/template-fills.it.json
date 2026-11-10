@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Il percorso dei numeri",
+   "Trova l’1. Colora i numeri in ordine fino al 15, uno accanto all’altro, per formare un percorso."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Colora la coppia",
+   "In ogni riga colora i due numeri che insieme fanno 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Colora i multipli",
+   "Colora tutti i numeri che dici contando di 4 in 4."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Il mio poster del numero: 1",
+   "Colora il numero e il suo nome. Poi colora altrettanti quadretti nella griglia."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Colora e ripassa: 1",
+   "Colora il numero grande. Poi ripassa i numeri sulle righe."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Unisci i puntini: lettera A",
+   "Parti dal punto arancione. Unisci i puntini seguendo l’ordine dei numeri per formare la lettera. Poi colorala."
+  ],
+  "K-585": [
+   "Unisci i puntini: numero 1",
+   "Parti dal punto arancione. Unisci i puntini seguendo l’ordine dei numeri per formare il numero. Poi coloralo."
+  ],
+  "G3-480": [
+   "Unisci i puntini: conta a salti",
+   "Parti dal punto arancione. Conta di 4 in 4 e unisci i puntini in ordine."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Colora con le addizioni: Cervo",
+   "Calcola ogni addizione della legenda. Colora ogni parte con il colore del risultato."
+  ],
+  "K-588": [
+   "Colora con le lettere: Cervo",
+   "Colora ogni parte con il colore della sua lettera."
+  ],
+  "G3-479": [
+   "Colora con le moltiplicazioni: Cervo",
+   "Calcola ogni moltiplicazione della legenda. Colora ogni parte con il colore del risultato."
+  ],
+  "K-393": [
+   "Colora con i numeri: Pecora in fattoria",
+   "Colora ogni parte con il colore del suo numero."
+  ],
+  "K-394": [
+   "Colora con i numeri: Cervo",
+   "Colora ogni parte con il colore del suo numero."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alfabeto da colorare: A",
+   "Colora la pagina. Rendila più bella e vivace che puoi."
+  ],
+  "K-580": [
+   "Numeri da colorare: 1",
+   "Colora tutto quello che c’è sulla pagina. Conta le stelle."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Griglia di lettere: trova le differenze",
+   "Guarda la griglia in alto. Trova le 5 lettere che sono cambiate nella griglia in basso. Colorale."
+  ],
+  "K-592": [
+   "Griglia di numeri: trova le differenze",
+   "Guarda la griglia in alto. Trova i 5 numeri che sono cambiati nella griglia in basso. Colorali."
+  ],
+  "G1-548": [
+   "Griglia di immagini: trova le differenze",
+   "Guarda la griglia in alto. Trova le 5 immagini che sono cambiate nella griglia in basso. Cerchiale."
+  ],
+  "K-395": [
+   "Trova le 5 differenze: Cigno sullo stagno",
+   "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+  ],
+  "K-397": [
+   "Trova le 3 grandi differenze: Tacchino in fattoria",
+   "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Ripassa la lettera gigante: A",
+   "Comincia dal punto nero. Ripassa il contorno. Poi colora la lettera."
+  ],
+  "K-609": [
+   "Ripassa il numero gigante: 1",
+   "Comincia dal punto nero. Ripassa il contorno. Poi colora il numero."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Colora e ripassa: A",
+   "Colora le lettere grandi. Poi ripassa le lettere sulle righe."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Trova e colora: A",
+   "Guarda la lettera in alto. Trovala nella griglia e colorala ogni volta."
+  ],
+  "K-317": [
+   "La lettera Aa: ripassa, cerchia e scrivi",
+   "Ripassa la lettera grande e quella piccola, cerchia i quattro disegni che iniziano con A e scrivi una riga di ognuna."
+  ],
+  "K-325": [
+   "Parole con la A: il suono in mezzo o alla fine",
+   "Ripassa la lettera, poi cerchia i quattro disegni che hanno il suono A dentro la parola, non all'inizio."
+  ],
+  "K-326": [
+   "All'inizio, in mezzo o alla fine? Dove senti la A",
+   "Di' il nome di ogni disegno. Colora la casella che mostra dove senti la A: all'inizio, in mezzo o alla fine."
+  ],
+  "K-327": [
+   "Cerchia la A nelle parole e conta",
+   "Cerca tutte le A e le a in ogni parola e cerchiale. Poi scrivi nel quadratino quante ne hai trovate."
+  ],
+  "G1-311": [
+   "Suoni difficili: il suono GN",
+   "Ripassa GN e gn, cerchia i quattro disegni che hanno il suono GN e scrivi una riga."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Colora la parola: io",
+   "Leggi la parola. Colorala ogni volta che la trovi."
+  ],
+  "K-388": [
+   "La parola del giorno: io",
+   "Leggi la parola. Ripassala, scrivila e usala nelle frasi."
+  ],
+  "K-389": [
+   "Parole frequenti nelle frasi: io",
+   "Leggi ogni frase. Scrivi la parola «io» sulla riga."
+  ],
+  "K-390": [
+   "Una frase con io",
+   "Lavora su una frase, un passo alla volta."
+  ],
+  "K-391": [
+   "Ripassa le frasi: io",
+   "Ripassa ogni frase. Poi scrivila sulla riga sotto."
+  ],
+  "K-392": [
+   "Trova la parola: io",
+   "Colora ogni casella con la parola «io». Contale e scrivi il numero."
+  ],
+  "K-433": [
+   "Leggi, ripassa, scrivi: io",
+   "Leggi la parola. Ripassala. Scrivila. Poi scrivila in ogni frase."
+  ],
+  "K-434": [
+   "Ripassa la parola e la frase: io",
+   "Ripassa la parola. Poi ripassa la frase su ogni riga."
+  ],
+  "K-435": [
+   "Leggi e disegna: io",
+   "Leggi la frase. Ripassala. Poi disegna quello che dice la frase."
+  ],
+  "K-436": [
+   "Trova e conta: noi",
+   "Cerchia la parola «noi» ogni volta che la vedi. Quante volte l’hai trovata?"
+  ],
+  "K-438": [
+   "Costruisci la parola: io",
+   "Ritaglia le lettere. Incollale nell’ordine giusto per formare la parola."
+  ],
+  "K-439": [
+   "Scrittura arcobaleno: io",
+   "Ripassa ogni parola tre volte, ogni volta con un colore diverso. Poi scrivila."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Tombola da colorare",
+   "Prendi una cartella. Ascolta i numeri da 1 a 20. Colora ogni numero che senti. Vince chi ne ha tre in fila."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Detective dei numeri",
@@ -9,30 +205,10 @@
    "In ogni riga e in ogni colonna ci sono 1, 2, 3 e 4 una sola volta. I numeri dentro una gabbia dal bordo spesso, sommati, danno il numerino nell'angolo."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Colora con i numeri: Pecora in fattoria",
-   "Colora ogni parte con il colore del suo numero."
-  ],
-  "K-394": [
-   "Colora con i numeri: Cervo",
-   "Colora ogni parte con il colore del suo numero."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Salta nel favo in ordine alfabetico",
    "Parti dalla cella indicata dalla freccia. Colora la lettera successiva dell'alfabeto in una cella vicina, fino alla T."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Trova le 5 differenze: Cigno sullo stagno",
-   "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
-  ],
-  "K-397": [
-   "Trova le 3 grandi differenze: Tacchino in fattoria",
-   "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
   ]
  },
  "how-to-draw": {
@@ -81,28 +257,6 @@
    "Guarda bene la figura, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "La lettera Aa: ripassa, cerchia e scrivi",
-   "Ripassa la lettera grande e quella piccola, cerchia i quattro disegni che iniziano con A e scrivi una riga di ognuna."
-  ],
-  "K-325": [
-   "Parole con la A: il suono in mezzo o alla fine",
-   "Ripassa la lettera, poi cerchia i quattro disegni che hanno il suono A dentro la parola, non all'inizio."
-  ],
-  "K-326": [
-   "All'inizio, in mezzo o alla fine? Dove senti la A",
-   "Di' il nome di ogni disegno. Colora la casella che mostra dove senti la A: all'inizio, in mezzo o alla fine."
-  ],
-  "K-327": [
-   "Cerchia la A nelle parole e conta",
-   "Cerca tutte le A e le a in ogni parola e cerchiale. Poi scrivi nel quadratino quante ne hai trovate."
-  ],
-  "G1-311": [
-   "Suoni difficili: il suono GN",
-   "Ripassa GN e gn, cerchia i quattro disegni che hanno il suono GN e scrivi una riga."
-  ]
- },
  "syllables": {
   "G1-306": [
    "Sillabe da leggere: ma me mi mo mu",
@@ -115,52 +269,6 @@
   "G1-333": [
    "Sillabe complesse: tra tre tri trom trat",
    "Leggi le sillabe della tabella. Di' il nome di ogni disegno, cercalo nella tabella e scrivi la sua prima sillaba sulla riga."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "La parola del giorno: io",
-   "Leggi la parola. Ripassala, scrivila e usala nelle frasi."
-  ],
-  "K-389": [
-   "Parole frequenti nelle frasi: io",
-   "Leggi ogni frase. Scrivi la parola «io» sulla riga."
-  ],
-  "K-390": [
-   "Una frase con io",
-   "Lavora su una frase, un passo alla volta."
-  ],
-  "K-391": [
-   "Ripassa le frasi: io",
-   "Ripassa ogni frase. Poi scrivila sulla riga sotto."
-  ],
-  "K-392": [
-   "Trova la parola: io",
-   "Colora ogni casella con la parola «io». Contale e scrivi il numero."
-  ],
-  "K-433": [
-   "Leggi, ripassa, scrivi: io",
-   "Leggi la parola. Ripassala. Scrivila. Poi scrivila in ogni frase."
-  ],
-  "K-434": [
-   "Ripassa la parola e la frase: io",
-   "Ripassa la parola. Poi ripassa la frase su ogni riga."
-  ],
-  "K-435": [
-   "Leggi e disegna: io",
-   "Leggi la frase. Ripassala. Poi disegna quello che dice la frase."
-  ],
-  "K-436": [
-   "Trova e conta: noi",
-   "Cerchia la parola «noi» ogni volta che la vedi. Quante volte l’hai trovata?"
-  ],
-  "K-438": [
-   "Costruisci la parola: io",
-   "Ritaglia le lettere. Incollale nell’ordine giusto per formare la parola."
-  ],
-  "K-439": [
-   "Scrittura arcobaleno: io",
-   "Ripassa ogni parola tre volte, ogni volta con un colore diverso. Poi scrivila."
   ]
  },
  "spelling": {

@@ -12,12 +12,23 @@
  *      (lineart-colours.js); everything else is a failure.
  * Writes a marked image per failing design ($TEMP/spl/unpainted/<id>.png, every flagged area circled red) and exits 1
  * when any design has an unpainted piece.
- *   node tools/cbn-unpainted.js [--only=id,id] [--quiet] [--poison]
+ *   node tools/cbn-unpainted.js [--only=id,id] [--quiet] [--poison] [--library]
+ * --library checks every library picture of the flagship maker (data/fl/cbn/<id>.json, the ones tools/fl-cbn.js passed)
+ * instead of the 200 designs; marked images go to $TEMP/spl/unpainted-library.
  * --poison proves it can fail: it un-paints one coloured part of the first design and must flag it.
  */
 'use strict';
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
-const { DESIGNS, build, pieceColours } = require('../data/cbn/designs.js');
+const { DESIGNS, build, pieceColours, isLib } = require('../data/cbn/designs.js');
+const LIBRARY = process.argv.includes('--library');
+/** the pictures to check: the 200 designs, or every library picture whose record passed its gates */
+function designList() {
+  if (!LIBRARY) return DESIGNS;
+  const dir = path.join(__dirname, '..', 'data', 'fl', 'cbn');
+  // a picture refused for Color by Number (data/fl/review.js) never reaches the maker: not a finding
+  const FL = require('../lib/fl-art.js'), refused = new Set(Object.keys(require('../data/fl/review.js').cbn || {}).map((k) => FL.slugOf(k)));
+  return fs.readdirSync(dir).filter((f) => !refused.has(f.slice(0, -5))).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)).filter((id) => JSON.parse(fs.readFileSync(path.join(dir, id + '.json'), 'utf8')).ok).sort().map((id) => ({ id, kind: 'picture' }));
+}
 const R = require('../lib/cbn-render.js');
 const { WHITE, WHITE_AT } = require('../data/cbn/lineart-colours.js');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
@@ -37,7 +48,7 @@ const SPILL_OK = {
   pumpkin: ['m0'],                                     // the green stem
   'beach-bucket': ['s1', 's8'],                        // sea seen through the spade grip, sand inside the handle
 };
-const OUTDIR = path.join(process.env.TEMP || '/tmp', 'spl', 'unpainted');
+const OUTDIR = path.join(process.env.TEMP || '/tmp', 'spl', LIBRARY ? 'unpainted-library' : 'unpainted');
 
 const idRgb = (i) => { const n = i + 1; return [((n >> 8) & 15) * 16 + 8, ((n >> 4) & 15) * 16 + 8, (n & 15) * 16 + 8]; };
 const idOf = (r, g, b) => ((r & 15) !== 8 || (g & 15) !== 8 || (b & 15) !== 8) ? -1 : ((r >> 4) << 8) + ((g >> 4) << 4) + (b >> 4) - 1;
@@ -50,7 +61,7 @@ async function check(d, poison) {
   const W = art.w * S, H = art.h * S;
   const key = await raster(R.toSvg(art, { mode: 'colour', width: W, height: H }), W, H);
   // every piece the segmenter found, in id colours (parts, then mid, then small)
-  const j = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'cbn', 'lineart', d.id + '.json'), 'utf8'));
+  const j = JSON.parse(fs.readFileSync(isLib(d.id) ? path.join(__dirname, '..', 'data', 'fl', 'cbn', d.id + '.json') : path.join(__dirname, '..', 'data', 'cbn', 'lineart', d.id + '.json'), 'utf8'));
   const pieces = [...j.parts.map((p, i) => ({ ...p, kind: 'part', i })), ...(j.mid || []).map((p, i) => ({ ...p, kind: 'mid', i })), ...(j.small || []).map((p, i) => ({ ...p, kind: 'small', i }))];
   const idSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${art.w} ${art.h}" width="${W}" height="${H}" shape-rendering="crispEdges">` +
     pieces.map((p, i) => `<path d="${p.d}" fill="rgb(${idRgb(i).join(',')})" fill-rule="evenodd"/>`).join('') + '</svg>';
@@ -100,7 +111,7 @@ async function check(d, poison) {
     const p = best >= 0 ? pieces[best] : null;
     const cx = (q[(t / 2) | 0] % W) / S, cy = (((q[(t / 2) | 0]) / W) | 0) / S;
     // allowed natural whites
-    if (p && p.hero && p.thick >= EYE_THICK) continue;
+    if (p && p.hero && p.thick >= EYE_THICK && p.eye !== false) continue;   // a library piece measured NOT an eye (fl-cbn.js eyeFlags) must be painted
     if (p && p.src && NATURAL_WHITE_SRC.has(p.src)) continue;
     if (p && p.kind === 'part' && whiteSet.has(String(p.i))) continue;
     // a deliberate natural white: a part a colour list makes white ('none' — sheep wool, a penguin's belly), or a piece
@@ -146,8 +157,11 @@ async function check(d, poison) {
   if (!only) for (const f of fs.readdirSync(OUTDIR)) if (f.endsWith('.png')) fs.unlinkSync(path.join(OUTDIR, f));
   let bad = 0, total = 0;
   const summary = [];
-  for (const d of DESIGNS) {
+  const list = designList();
+  let n = 0;
+  for (const d of list) {
     if (only && !only.has(d.id)) continue;
+    if (++n % 100 === 0) console.log(`  ${n} / ${list.length}`);
     const { flags, key, W, H } = await check(d);
     if (!flags.length) continue;
     bad++; total += flags.length;

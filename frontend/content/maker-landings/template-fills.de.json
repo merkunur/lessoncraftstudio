@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Der Zahlenweg",
+   "Suche die 1. Male die Zahlen bis 15 der Reihe nach aus. Jede Zahl liegt neben der letzten, so entsteht ein Weg."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Male das Zahlenpaar aus",
+   "Male in jeder Reihe die zwei Zahlen aus, die zusammen 6 ergeben."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Male die Vielfachen aus",
+   "Male jedes Vielfache von 4 aus."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Mein Zahlenposter: 1",
+   "Male die Zahl und ihr Wort aus. Male dann so viele Kästchen im Zehnerfeld aus."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Ausmalen und nachspuren: 1",
+   "Male die große Zahl aus. Spure dann die Zahlen auf den Linien nach."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Buchstaben von Punkt zu Punkt: A",
+   "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis der Buchstabe fertig ist. Male ihn dann aus."
+  ],
+  "K-585": [
+   "Zahlen von Punkt zu Punkt: 1",
+   "Beginne am orangen Punkt. Verbinde die Punkte der Reihe nach, bis die Zahl fertig ist. Male sie dann aus."
+  ],
+  "G3-480": [
+   "Punkt zu Punkt: in Schritten zählen",
+   "Beginne am orangen Punkt. Zähle in 4er-Schritten und verbinde die Punkte der Reihe nach."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Malen nach Plusaufgaben: Hirsch",
+   "Rechne jede Aufgabe im Farbschlüssel. Male jede Fläche in der Farbe ihrer Lösung aus."
+  ],
+  "K-588": [
+   "Malen nach Buchstaben: Hirsch",
+   "Male jede Fläche in der Farbe ihres Buchstabens aus."
+  ],
+  "G3-479": [
+   "Malen nach Malaufgaben: Hirsch",
+   "Rechne jede Malaufgabe im Farbschlüssel. Male jede Fläche in der Farbe ihrer Lösung aus."
+  ],
+  "K-393": [
+   "Malen nach Zahlen: Schaf auf dem Bauernhof",
+   "Male jeden Teil in der Farbe seiner Zahl aus."
+  ],
+  "K-394": [
+   "Malen nach Zahlen: Hirsch",
+   "Male jeden Teil in der Farbe seiner Zahl aus."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Ausmal-Alphabet: A",
+   "Male die Seite aus. Mach sie so bunt und schön, wie du kannst."
+  ],
+  "K-580": [
+   "Zahlen zum Ausmalen: 1",
+   "Male alles auf der Seite aus. Zähle die Sterne."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Buchstabengitter: Finde die Unterschiede",
+   "Schau dir das obere Gitter an. Finde die 5 Buchstaben, die sich im unteren Gitter geändert haben. Male sie aus."
+  ],
+  "K-592": [
+   "Zahlengitter: Finde die Unterschiede",
+   "Schau dir das obere Gitter an. Finde die 5 Zahlen, die sich im unteren Gitter geändert haben. Male sie aus."
+  ],
+  "G1-548": [
+   "Bildergitter: Finde die Unterschiede",
+   "Schau dir das obere Gitter an. Finde die 5 Bilder, die sich im unteren Gitter geändert haben. Kreise sie ein."
+  ],
+  "K-395": [
+   "Finde 5 Unterschiede: Schwan auf dem Teich",
+   "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+  ],
+  "K-397": [
+   "Finde 3 Unterschiede: Truthahn auf dem Bauernhof",
+   "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Spure den Riesenbuchstaben nach: A",
+   "Fang beim schwarzen Punkt an. Spure den Umriss nach. Male dann den Buchstaben aus."
+  ],
+  "K-609": [
+   "Spure die Riesenzahl nach: 1",
+   "Fang beim schwarzen Punkt an. Spure den Umriss nach. Male dann die Zahl aus."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Ausmalen und nachspuren: A",
+   "Male die großen Buchstaben aus. Spure dann die Buchstaben auf den Linien nach."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Finden und ausmalen: A",
+   "Schau dir den Buchstaben oben an. Finde ihn im Gitter und male ihn jedes Mal aus."
+  ],
+  "K-317": [
+   "Der Buchstabe M m",
+   "Spure das große und das kleine M nach. Kreise die vier Bilder ein, die mit M beginnen, und schreibe dann jede Form eine Reihe lang."
+  ],
+  "K-325": [
+   "Wörter mit M: Hörst du das M im Wort?",
+   "Spure den Buchstaben nach. Kreise dann die vier Bilder ein, in denen du M irgendwo im Wort hörst, aber nicht am Anfang."
+  ],
+  "K-326": [
+   "Anlaut, Inlaut, Auslaut: Wo hörst du das M?",
+   "Sprich jedes Bildwort laut. Male das Kästchen an, das zeigt, wo du M hörst: am Anfang, in der Mitte oder am Ende."
+  ],
+  "K-327": [
+   "M in Wörtern finden und zählen",
+   "Suche in jedem Wort jedes M oder m und kreise es ein. Schreibe dann in das Kästchen, wie viele du gefunden hast."
+  ],
+  "G1-311": [
+   "Laut der Woche: sch",
+   "Spure sch nach, kreise die vier Bilder ein, in denen du sch hörst, und schreibe dann eine Reihe davon."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Male das Lernwort aus: und",
+   "Lies das Wort. Male es jedes Mal aus, wenn du es findest."
+  ],
+  "K-388": [
+   "Wort des Tages: und",
+   "Lies das Wort. Spure es nach, schreibe es und setze es in Sätze ein."
+  ],
+  "K-389": [
+   "Häufige Wörter in Sätzen: und",
+   "Lies jeden Satz. Schreibe das Wort „und“ auf die Linie."
+  ],
+  "K-390": [
+   "Ein Satz mit und",
+   "Arbeite Schritt für Schritt mit einem Satz."
+  ],
+  "K-391": [
+   "Sätze nachspuren: und",
+   "Spure jeden Satz nach. Schreibe ihn dann auf die Linie darunter."
+  ],
+  "K-392": [
+   "Finde das Wort: und",
+   "Male jedes Kästchen mit dem Wort „und“ an. Zähle sie und schreibe die Zahl auf."
+  ],
+  "K-433": [
+   "Lesen, nachspuren, schreiben: und",
+   "Lies das Wort. Spure es nach. Schreibe es. Schreibe es dann in jeden Satz."
+  ],
+  "K-434": [
+   "Wort und Satz nachspuren: und",
+   "Spure das Wort nach. Spure dann den Satz auf jeder Linie nach."
+  ],
+  "K-435": [
+   "Lesen und malen: und",
+   "Lies den Satz. Spure ihn nach. Male dann, was im Satz steht."
+  ],
+  "K-436": [
+   "Finde und zähle: und",
+   "Kreise das Wort „und“ jedes Mal ein, wenn du es siehst. Wie oft hast du es gefunden?"
+  ],
+  "K-438": [
+   "Baue das Wort: und",
+   "Schneide die Buchstaben aus. Klebe sie in der richtigen Reihenfolge auf."
+  ],
+  "K-439": [
+   "Regenbogenschreiben: und",
+   "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe. Schreibe es dann."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Ausmal-Bingo",
+   "Nimm eine Karte. Hör auf die Zahlen von 1 bis 20. Male jede Zahl aus, die du hörst. Drei in einer Reihe gewinnen."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Zahlendetektiv",
@@ -9,30 +205,10 @@
    "In jeder Reihe und Spalte steht jede Zahl von 1 bis 4 genau einmal. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Malen nach Zahlen: Schaf auf dem Bauernhof",
-   "Male jeden Teil in der Farbe seiner Zahl aus."
-  ],
-  "K-394": [
-   "Malen nach Zahlen: Hirsch",
-   "Male jeden Teil in der Farbe seiner Zahl aus."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Hüpf im ABC durch die Honigwaben",
    "Beginne in der Wabe, auf die der Pfeil zeigt. Male immer den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum S."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Finde 5 Unterschiede: Schwan auf dem Teich",
-   "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
-  ],
-  "K-397": [
-   "Finde 3 Unterschiede: Truthahn auf dem Bauernhof",
-   "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
   ]
  },
  "how-to-draw": {
@@ -123,28 +299,6 @@
    "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "Der Buchstabe M m",
-   "Spure das große und das kleine M nach. Kreise die vier Bilder ein, die mit M beginnen, und schreibe dann jede Form eine Reihe lang."
-  ],
-  "K-325": [
-   "Wörter mit M: Hörst du das M im Wort?",
-   "Spure den Buchstaben nach. Kreise dann die vier Bilder ein, in denen du M irgendwo im Wort hörst, aber nicht am Anfang."
-  ],
-  "K-326": [
-   "Anlaut, Inlaut, Auslaut: Wo hörst du das M?",
-   "Sprich jedes Bildwort laut. Male das Kästchen an, das zeigt, wo du M hörst: am Anfang, in der Mitte oder am Ende."
-  ],
-  "K-327": [
-   "M in Wörtern finden und zählen",
-   "Suche in jedem Wort jedes M oder m und kreise es ein. Schreibe dann in das Kästchen, wie viele du gefunden hast."
-  ],
-  "G1-311": [
-   "Laut der Woche: sch",
-   "Spure sch nach, kreise die vier Bilder ein, in denen du sch hörst, und schreibe dann eine Reihe davon."
-  ]
- },
  "syllables": {
   "G1-306": [
    "Silbenteppich: ka ke ki ko ku",
@@ -153,52 +307,6 @@
   "G1-333": [
    "Schwere Silben lesen: fla fle fli flo flu",
    "Lies alle Silben auf dem Teppich laut. Sprich jedes Bildwort, finde seine erste Silbe und schreibe sie auf die Linie."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Wort des Tages: und",
-   "Lies das Wort. Spure es nach, schreibe es und setze es in Sätze ein."
-  ],
-  "K-389": [
-   "Häufige Wörter in Sätzen: und",
-   "Lies jeden Satz. Schreibe das Wort „und“ auf die Linie."
-  ],
-  "K-390": [
-   "Ein Satz mit und",
-   "Arbeite Schritt für Schritt mit einem Satz."
-  ],
-  "K-391": [
-   "Sätze nachspuren: und",
-   "Spure jeden Satz nach. Schreibe ihn dann auf die Linie darunter."
-  ],
-  "K-392": [
-   "Finde das Wort: und",
-   "Male jedes Kästchen mit dem Wort „und“ an. Zähle sie und schreibe die Zahl auf."
-  ],
-  "K-433": [
-   "Lesen, nachspuren, schreiben: und",
-   "Lies das Wort. Spure es nach. Schreibe es. Schreibe es dann in jeden Satz."
-  ],
-  "K-434": [
-   "Wort und Satz nachspuren: und",
-   "Spure das Wort nach. Spure dann den Satz auf jeder Linie nach."
-  ],
-  "K-435": [
-   "Lesen und malen: und",
-   "Lies den Satz. Spure ihn nach. Male dann, was im Satz steht."
-  ],
-  "K-436": [
-   "Finde und zähle: und",
-   "Kreise das Wort „und“ jedes Mal ein, wenn du es siehst. Wie oft hast du es gefunden?"
-  ],
-  "K-438": [
-   "Baue das Wort: und",
-   "Schneide die Buchstaben aus. Klebe sie in der richtigen Reihenfolge auf."
-  ],
-  "K-439": [
-   "Regenbogenschreiben: und",
-   "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe. Schreibe es dann."
   ]
  },
  "spelling": {

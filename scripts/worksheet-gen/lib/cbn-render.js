@@ -26,6 +26,14 @@ const INK = '#262626';
 const MIN_R = 8.5;        // picture units: room for a single-digit number (13+ units tall) with a margin
 const MIN_R_COMPACT = 5.5;  // picture units: a compact number (font 9-12, ~2.4-3.2 mm printed): a 9-unit digit is ~5 wide x 6.4 tall (half-diagonal 4.1) — 5.5 leaves a margin. For a piece too small for the full number (operator 2026-10-05: paint every piece)
 const SEAM_W = 3;         // picture units: the own-colour stroke that closes the gap between a line-art fill and its ink
+// a section 3.6-5.5 units across (1-1.5 mm printed) takes a small number: a child sees it as a section, and without a
+// number it is one the key paints and the page never asked for (flagship visual check 2026-11-08). Its font is 9, the
+// page floor (qa/lints.js refuses text under 9 px; font 8 failed every sample page). Measured 2026-11-09 in Chromium with
+// Baloo 2 over 30 pictures: a font-9 digit puts 4 of 18,428 glyph pixels on the outline (0.02 %); a two-digit code puts
+// 6.5 % (so sums / products keys take only pictures with no section this small, lib/cbn-type.js); a plain capital
+// 0.2-0.7 %, but W and the accented capitals 2-5 % (so the letters key never uses them, lib/cbn-type.js codeFor).
+const MIN_R_TINY = 3.6;
+const TINY_FONT = 9;
 const CRUMB_AREA = 14;    // picture units²: visible bits smaller than this are outline junctions, not parts
 const HAIRLINE_R = 2.5;   // a visible bit narrower than ~5 units is a hairline gap where outlines meet, not a part
 const LEVEL_CAPS = { 1: { colours: [3, 5], regions: 16 }, 2: { colours: [5, 7], regions: 30 }, 3: { colours: [6, 8], regions: 48 } };
@@ -63,7 +71,7 @@ function toSvg(art, opts = {}) {
   let text = '';
   if (mode === 'line' && opts.labels) {
     text = opts.labels.map((l) => {
-      const fs = l.r >= MIN_R ? Math.max(14, Math.min(28, l.r * 1.25)) : Math.max(9, Math.min(12, l.r * 1.45));
+      const fs = l.r >= MIN_R ? Math.max(14, Math.min(28, l.r * 1.25)) : l.r >= MIN_R_COMPACT ? Math.max(9, Math.min(12, l.r * 1.45)) : TINY_FONT;
       return `<text x="${l.x.toFixed(1)}" y="${(l.y + fs * 0.36).toFixed(1)}" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-weight="700" font-size="${fs.toFixed(1)}" fill="#3A3A3A" data-lcs-num="${l.n}">${l.n}</text>`;
     }).join('');
   }
@@ -71,9 +79,10 @@ function toSvg(art, opts = {}) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${art.w} ${art.h}" width="${opts.width || art.w}" height="${opts.height || Math.round((opts.width || art.w) * art.h / art.w)}"${attrs} data-lcs-prim="cbn-art">${parts.join('')}${text}</svg>`;
 }
 
-/** label a drawing in the browser (page = a puppeteer page). Scale 2 → 0.5 picture-unit precision. */
-async function labelArt(page, art, S = 2) {
-  const svg = toSvg(art, { mode: 'id', width: art.w * S, height: art.h * S });
+/** label a drawing in the browser (page = a puppeteer page). Scale 2 → 0.5 picture-unit precision. overlay: extra black
+ *  lines in picture units drawn over the region map (tools/k501-labels.js: the traced page's own lines split its parts) */
+async function labelArt(page, art, S = 2, overlay = '') {
+  const svg = overlay ? toSvg(art, { mode: 'id', width: art.w * S, height: art.h * S }).replace('</svg>', overlay + '</svg>') : toSvg(art, { mode: 'id', width: art.w * S, height: art.h * S });
   const n = art.regions.length;
   const out = await page.evaluate(async ({ svg, W, H, n, S }) => {
     const img = new Image();
@@ -155,8 +164,8 @@ function labelsAndGate(art, pieces, level) {
     if (p.area < CRUMB_AREA || p.r < HAIRLINE_R) continue;
     visibleRegions.add(p.region);
     if (p.colour === 'none') continue;
-    if (p.r < MIN_R_COMPACT) { small.push(p); continue; }
-    labels.push({ x: p.x, y: p.y, r: p.r, n: num[p.colour], region: p.region });
+    if (p.r < MIN_R_TINY) { small.push(p); continue; }
+    labels.push({ x: p.x, y: p.y, r: p.r, n: num[p.colour], region: p.region, ...(p.r < MIN_R_COMPACT ? { tiny: true } : {}) });
   }
   // a small piece is allowed only as an ATTACHED detail of a region whose main piece carries the number (line-art
   // designs: a tail, a hoof, a spot coloured and painted with its part); a small region on its own has no number
@@ -168,7 +177,7 @@ function labelsAndGate(art, pieces, level) {
   art.regions.forEach((r, i) => { if (!visibleRegions.has(i)) fails.push(`region ${i}${r.name ? ' (' + r.name + ')' : ''}: not visible at all (hidden by later parts)`); });
   const k = Object.keys(num).length;
   const cap = LEVEL_CAPS[level];
-  const nRegions = labels.length;
+  const nRegions = labels.filter((l) => !l.tiny).length;   // the small numbers of a section's slivers do not raise the level
   if (cap) {
     if (k < cap.colours[0] || k > cap.colours[1]) fails.push(`level ${level}: ${k} colours (want ${cap.colours[0]}-${cap.colours[1]})`);
     if (nRegions > cap.regions) fails.push(`level ${level}: ${nRegions} numbered parts > ${cap.regions}`);
@@ -227,4 +236,4 @@ async function checkSolid(page, art, S = 2) {
   return fails;
 }
 
-module.exports = { PALETTE, INK, MIN_R, MIN_R_COMPACT, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate, checkSolid };
+module.exports = { PALETTE, INK, MIN_R, MIN_R_COMPACT, MIN_R_TINY, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate, checkSolid };

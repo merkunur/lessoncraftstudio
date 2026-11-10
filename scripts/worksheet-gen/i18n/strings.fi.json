@@ -4502,5 +4502,229 @@
   "K-578": {
     "title": "Muoto- ja väribingo: arvontakortit",
     "instruction": "Leikkaa kortit irti ja sekoita ne. Ota yksi kortti kerrallaan ja lue muoto ja väri ääneen. Säästä huudetut kortit, niin voit tarkistaa jokaisen bingon."
+  },
+  "K-579": {
+    "title": "Väritettävä kirjain: {U}",
+    "instruction": "Väritä sivu. Tee siitä niin värikäs ja kaunis kuin osaat."
+  },
+  "K-580": {
+    "title": "Väritettävä luku: {U}",
+    "instruction": "Väritä kaikki, mitä sivulla on. Laske tähdet."
+  },
+  "K-581": {
+    "title": "Väritä nimesi",
+    "instruction": "Väritä nimesi jokainen kirjain."
+  },
+  "K-582": {
+    "title": "Väritä ja laske",
+    "instruction": "Väritä kuvat. Laske, montako kutakin kuvaa on, ja kirjoita määrä."
+  },
+  "K-583": {
+    "title": "Väritettävät kirjanmerkit",
+    "instruction": "Väritä kirjanmerkit. Leikkaa ne irti katkoviivoja pitkin."
+  },
+  "K-584": {
+    "title": "Yhdistä pisteet: kirjain {U}",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin kirjain valmistuu. Väritä se sitten."
+  },
+  "K-585": {
+    "title": "Yhdistä pisteet: numero {U}",
+    "instruction": "Aloita oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä, niin numero valmistuu. Väritä se sitten."
+  },
+  "K-586": {
+    "title": "Kaksi pientä pisteestä pisteeseen -kuvaa",
+    "instruction": "Aloita kummassakin kuvassa oranssista pisteestä. Yhdistä pisteet numerojärjestyksessä."
+  },
+  "G1-547": {
+    "title": "Yhdistä pisteet ja kirjoita sana",
+    "instruction": "Yhdistä pisteet numerojärjestyksessä. Kirjoita sitten, mitä kuvassa on."
+  },
+  "K-587": {
+    "title": "Väritä yhteenlaskujen avulla: {UNIT}",
+    "instruction": "Laske värikoodin yhteenlaskut. Väritä jokainen osa vastauksen värillä."
+  },
+  "K-588": {
+    "title": "Väritä kirjainten mukaan: {UNIT}",
+    "instruction": "Väritä jokainen osa sen kirjaimen värillä."
+  },
+  "K-591": {
+    "title": "Kirjainruudukko: etsi erot",
+    "instruction": "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta {N} kirjainta, jotka ovat muuttuneet. Väritä ne."
+  },
+  "K-592": {
+    "title": "Numeroruudukko: etsi erot",
+    "instruction": "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta {N} numeroa, jotka ovat muuttuneet. Väritä ne."
+  },
+  "G1-548": {
+    "title": "Kuvaruudukko: etsi erot",
+    "instruction": "Katso ylempää ruudukkoa. Etsi alemmasta ruudukosta {N} kuvaa, jotka ovat muuttuneet. Ympyröi ne."
+  },
+  "K-593": {
+    "title": "Kuka katsoo toiseen suuntaan?",
+    "instruction": "Joka rivillä yksi kuva katsoo toiseen suuntaan. Ympyröi se."
+  },
+  "K-594": {
+    "title": "Mikä kuva on erikokoinen?",
+    "instruction": "Joka rivillä yksi kuva on erikokoinen. Ympyröi se."
+  },
+  "K-595": {
+    "title": "Heitä ja piirrä hirviö",
+    "instruction": "Heitä noppaa joka riville. Piirrä ruutuun osa, joka on silmälukusi kohdalla."
+  },
+  "K-596": {
+    "title": "Heitä ja piirrä robotti",
+    "instruction": "Heitä noppaa joka riville. Piirrä ruutuun osa, joka on silmälukusi kohdalla."
+  },
+  "K-597": {
+    "title": "Heitä ja piirrä ötökkä",
+    "instruction": "Heitä noppaa joka riville. Piirrä ruutuun osa, joka on silmälukusi kohdalla."
+  },
+  "K-598": {
+    "title": "Piirustusjuliste",
+    "instruction": "Katso vaiheet järjestyksessä. Väritä nimi ja valmis kuva."
+  },
+  "G1-549": {
+    "title": "Piirrä kolme kertaa",
+    "instruction": "Seuraa vaiheita. Piirrä kuva isona, sitten pienempänä ja lopuksi ihan pienenä."
+  },
+  "K-599": {
+    "title": "Kaksi jäljennettävää kuvaa",
+    "instruction": "Jäljennä kummankin kuvan kaikki katkoviivat. Aloita mustista pisteistä."
+  },
+  "K-600": {
+    "title": "Jäljennä reitti",
+    "instruction": "Aloita joka rivillä mustasta pisteestä. Jäljennä reitti toisen kuvan luo."
+  },
+  "K-601": {
+    "title": "Jäljennä kehys",
+    "instruction": "Aloita mustasta pisteestä ja jäljennä kehys. Piirrä sitten sen sisään jotain, mistä pidät."
+  },
+  "K-602": {
+    "title": "Jäljennä jättikirjain: {U}",
+    "instruction": "Aloita mustasta pisteestä. Jäljennä ääriviiva. Väritä sitten kirjain."
+  },
+  "K-609": {
+    "title": "Jäljennä jättinumero: {U}",
+    "instruction": "Aloita mustasta pisteestä. Jäljennä ääriviiva. Väritä sitten numero."
+  },
+  "K-603": {
+    "title": "Laske ja väritä luku",
+    "instruction": "Laske joka rivin kuvat. Väritä luku, joka kertoo, montako niitä on."
+  },
+  "K-604": {
+    "title": "Lukupolku",
+    "instruction": "Etsi 1. Väritä luvut järjestyksessä lukuun {N} asti vierekkäin, niin syntyy polku."
+  },
+  "K-606": {
+    "title": "Väritä suurempi luku",
+    "instruction": "Katso jokaisen laatikon kahta lukua. Väritä suurempi."
+  },
+  "K-607": {
+    "title": "Laske ja väritä vastaus",
+    "instruction": "Laske jokainen lasku. Väritä luku, joka on vastaus."
+  },
+  "G2-499": {
+    "title": "Väritä lukujono",
+    "instruction": "Väritä kaikki luvut, jotka sanot, kun lasket {N}:n välein."
+  },
+  "K-608": {
+    "title": "Väritä lukupari",
+    "instruction": "Väritä joka riviltä kaksi lukua, jotka ovat yhdessä {N}."
+  },
+  "G1-551": {
+    "title": "Väritä kymmenet",
+    "instruction": "Väritä jokaisesta luvusta kymmenten numero."
+  },
+  "K-610": {
+    "title": "Väritä ja jäljennä: {U}",
+    "instruction": "Väritä iso numero. Jäljennä sitten numerot viivoilla."
+  },
+  "K-611": {
+    "title": "Oma lukujulisteeni: {U}",
+    "instruction": "Väritä luku ja sen nimi. Väritä sitten ruudukkoon yhtä monta ruutua."
+  },
+  "K-612": {
+    "title": "Väritä luku ja täytä ruudukko",
+    "instruction": "Väritä jokainen luku. Väritä sitten sen ruudukkoon yhtä monta ruutua."
+  },
+  "K-613": {
+    "title": "Väritä päivät",
+    "instruction": "Väritä joka päivä tämän päivän numero, kunnes koko kuukausi on väritetty."
+  },
+  "K-614": {
+    "title": "Väritä kirjainkuvio",
+    "instruction": "Väritä samat kirjaimet samalla värillä. Kirjoita seuraava kirjain."
+  },
+  "K-615": {
+    "title": "Kirjaimia vai numeroita?",
+    "instruction": "Väritä kaikki kirjaimet. Jätä numerot valkoisiksi."
+  },
+  "K-616": {
+    "title": "Etsi ja väritä: {U}",
+    "instruction": "Katso kirjainta ylhäällä. Etsi se ruudukosta ja väritä se joka kerta."
+  },
+  "K-617": {
+    "title": "Väritä ja jäljennä: {U}",
+    "instruction": "Väritä isot kirjaimet. Jäljennä sitten kirjaimet viivoilla."
+  },
+  "K-618": {
+    "title": "Väritä ensimmäinen kirjain",
+    "instruction": "Sano, mitä kuvassa on. Väritä kirjain, jolla sana alkaa."
+  },
+  "K-619": {
+    "title": "Väritä sana: {U}",
+    "instruction": "Lue sana. Väritä se aina, kun löydät sen."
+  },
+  "G1-552": {
+    "title": "Väritä oikein kirjoitettu sana",
+    "instruction": "Katso jokaista kuvaa. Väritä sana, joka on kirjoitettu oikein."
+  },
+  "K-620": {
+    "title": "Väritä tavut",
+    "instruction": "Sano jokainen sana ja taputa sen tavut. Väritä jokainen tavu eri värillä."
+  },
+  "K-621": {
+    "title": "Väritä ja kirjoita sana",
+    "instruction": "Sano sana. Väritä isot kirjaimet. Kirjoita sitten sana viivalle."
+  },
+  "K-622": {
+    "title": "Väritettävä sanaetsintä",
+    "instruction": "Etsi jokainen sana ruudukosta ja väritä sen kirjaimet. Käytä jokaiseen sanaan uutta väriä."
+  },
+  "K-623": {
+    "title": "Väritysbingo",
+    "instruction": "Ota yksi lappu. Kuuntele lukuja 1–{N}. Väritä jokainen luku, jonka kuulet. Kolme rivissä voittaa."
+  },
+  "K-624": {
+    "title": "Väritettävät aakkoskortit",
+    "instruction": "Väritä jokainen kortti. Leikkaa sitten kortit irti katkoviivoja pitkin."
+  },
+  "K-625": {
+    "title": "Oma nimijulisteeni",
+    "instruction": "Väritä nimesi kirjaimet. Piirrä itsesi ruutuun."
+  },
+  "K-626": {
+    "title": "Väritä kirjain merkityltä paikalta",
+    "instruction": "Aloita joka rivillä nuolesta ja laske paikat. Väritä kirjain, joka on merkityllä paikalla."
+  },
+  "G3-480": {
+    "title": "Yhdistä pisteet: lukujonoja",
+    "instruction": "Aloita oranssista pisteestä. Laske {N}:n välein ja yhdistä pisteet järjestyksessä."
+  },
+  "G3-479": {
+    "title": "Väritä kertolaskujen avulla: {UNIT}",
+    "instruction": "Laske värikoodin kertolaskut. Väritä jokainen osa vastauksen värillä."
+  },
+  "G1-555": {
+    "title": "Salainen ruutukuva",
+    "instruction": "Väritä jokainen ruutu sen numeron värillä. Mikä kuva paljastuu?"
+  },
+  "G1-553": {
+    "title": "Piilotettu kirjain",
+    "instruction": "Väritä jokainen ruutu, jossa on pariton luku. Minkä kirjaimen näet? Kirjoita se vastausruutuun."
+  },
+  "G1-554": {
+    "title": "Väritä parittomat luvut",
+    "instruction": "Väritä kaikki parittomat luvut. Jätä parilliset luvut valkoisiksi."
   }
 }

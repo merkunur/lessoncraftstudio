@@ -19,10 +19,13 @@
 const fs = require('fs'); const path = require('path');
 const L = require('../lib/cbn-lineart.js');
 const sceneDotFigure = require('../primitives/scene-dot-figure.js');
-const { LINEART } = require('../data/cbn/lineart-designs.js');
-const OUT = path.join(__dirname, '..', 'data', 'd2d');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
-const only = arg('only') ? new Set(arg('only').split(',')) : null;
+// --designs=<module> --out=<dir>: the flagship library pictures (one drawing each, docs/makers/FLAGSHIP.md); their record
+// keeps only the hero's own art (lite): the scene and the hero alone are the same picture, K-285's loader restores art/ink
+const FL = !!arg('designs');
+const { LINEART } = require(FL ? path.resolve(arg('designs')) : '../data/cbn/lineart-designs.js');
+const OUT = arg('out') ? path.resolve(arg('out')) : path.join(__dirname, '..', 'data', 'd2d');
+const only = arg('only-file') ? new Set(fs.readFileSync(arg('only-file'), 'utf8').split(',')) : arg('only') ? new Set(arg('only').split(',')) : null;
 
 const W = L.CW, H = L.CH, U = L.UNIT;
 const BAND = 18;            // px: at least this far around the stretch the outline is erased
@@ -289,6 +292,7 @@ function greedy(R, N, startLen, smax) {
         // (two digits at 20 px on the full scene; the level-1 page tests its own 24 px on the hero alone); a stretch into a notch (stem, ears, tail) fails here
         if (!process.env.D2D_LOOSE) try { sceneDotFigure({ scene: { v: 2, id: d.id, obj: objGrid, body: coreGrid, fit: { [N]: cand } }, count: N, startAt: 88, step: 0, labelPx: 20 }); }
         catch (e) { why = 'numbers do not fit outside the picture'; if (process.env.D2D_DEBUG) console.error(d.id, N, best.s, (best.arc || []).map((x) => Math.round(x)).join('-'), e.message.replace(/.*number /, '#')); continue; }
+        if (FL) { delete cand.art; delete cand.ink; }
         fit[N] = cand; break;
       }
       if (!fit[N]) fit[N] = { ok: false, why };

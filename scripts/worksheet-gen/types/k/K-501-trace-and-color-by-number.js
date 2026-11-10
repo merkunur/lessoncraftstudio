@@ -20,6 +20,7 @@ const { DESIGNS, build: buildArt } = require('../../data/cbn/designs.js');
 const { LINEART } = require('../../data/cbn/lineart-designs.js');
 const { sample } = require('../../lib/htd-vector.js');
 const platform = require('../../lib/platform/index.js');
+const { refusedPicture } = require('../../lib/picture-refusals.js');
 const path = require('path');
 
 const BAND = { 1: { band: 'K', style: 'P2' }, 2: { band: 'K', style: 'P2' }, 3: { band: 'G1', style: 'P3' } };
@@ -59,9 +60,41 @@ const LEVEL_DESIGNS = {
   3: ['cat', 'hen', 'cow', 'puppy', 'scarecrow', 'police-car', 'ladybug', 'mouse', 'nest', 'rooster', 'sheep', 'dump-truck', 'bee', 'peacock', 'turkey', 'beach-ball', 'sea-turtle', 'snail', 'robot', 'rocking-horse', 'toy-train', 'spinning-top', 'pinwheel', 'kite', 'telephone', 'xylophone', 'school-bus', 'airplane', 'hot-air-balloon', 'rocket', 'fire-truck', 'tractor', 'sundae', 'pumpkin', 'house', 'flower-pot', 'sandcastle'],
 };
 const designs = (level) => LEVEL_DESIGNS[level];
+/**
+ * may this design be shown? Its list holds Color by Number designs (published pictures, their parts and numbers reviewed),
+ * not library drawings. A design is shown when every drawing in it is one the tracing review keeps (pt-faces allowed,
+ * the flagship index), or a drawing that is in the tracing store and left that index only because a page must not NAME it
+ * (lib/picture-refusals.js): K-501 never names its drawings. Measured 2026-11-09: of the 69 designs' drawings the only one
+ * outside the index is the plain sun of 41 designs (beach bw/sun, a circle and rays, refused for naming pages), traced
+ * at level 3; none is refused by the tracing review itself (data/fl/review.js pt — the taxi with its printed word is in
+ * no K-501 design).
+ */
+/**
+ * the numbers of the TRACED page (tools/k501-labels.js → data/cbn/k501-labels.json): the Color by Number design's colours
+ * on the parts the traced lines enclose. The reviewed numbers (labels.json) are placed for the Color by Number page, whose
+ * lines are not these: a small shell or starfish is traced with every ridge and dot, so its number sat on the lines a
+ * child traces (15 of 69 designs, flagship check 2026-11-09). A design without traced-page numbers is not offered.
+ */
+let _traced = null;
+function tracedLabels(id) {
+  if (!_traced) _traced = platform.readJson(path.join(__dirname, '..', '..', 'data', 'cbn', 'k501-labels.json'));
+  const l = _traced[id];
+  return l && l.ok === true ? l : null;
+}
+function traceable(id) {
+  const spec = LINEART.find((x) => x.id === id);
+  if (!spec || !tracedLabels(id)) return false;
+  return (spec.items || []).every((it) => {
+    if (P.allowed(it.src)) return true;
+    const [theme, noun] = it.src.split('/');
+    return !!P.INDEX[it.src] && refusedPicture(theme, noun);
+  });
+}
 
 module.exports = {
   ...base,
+  /** for tools/k501-labels.js: the traced scene of a design, and the levels' designs */
+  traceScene: { sceneOf, LEVEL_DESIGNS, BAND },
   id: 'K-501',
   slug: 'trace-and-color-by-number',
   exerciseType: 'picture-tracing',
@@ -80,17 +113,21 @@ module.exports = {
       const out = composeSceneSync(sceneOf(id, lv));
       if (out.problems.length) throw new Error('pt-faces: ' + out.problems.join('; '));
       if (out.metrics.tracedLen > P.BUDGET[L.band]) throw new Error(`pt-faces: ${id} traced length ${out.metrics.tracedLen} over the ${L.band} budget`);
-      return { out, labels: labelsFor(id) };
-    });
+      return { out, labels: labelsFor(id), traced: tracedLabels(id) };
+    }, traceable);
     const id = got.src;
     // the screen and the key are the Color by Number pages of the same design (the screen paints the parts; the key colours them)
     if (ctx && (ctx.interactive || ctx.answerKey)) {
       const own = DESIGNS.find((x) => x.id === id).level;   // the Color by Number page is built at the design's own level
-      const r = base.build.call(this, { difficulty: own, locale, unit: id }, ctx);
+      const r = base.build.call(this, { difficulty: own, locale, unit: id, fixed: true }, ctx);
       return { bodyHtml: r.bodyHtml, meta: { design: id, colours: Object.keys(got.labels.num), band: L.band } };   // the page's meta: one design
     }
     const pw = 600, k = pw / 600;
-    const nums = got.labels.labels.map(([x, y, r, n]) => `<text x="${x}" y="${(y + 7).toFixed(1)}" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="${Math.max(16, Math.min(24, r * 1.1)).toFixed(0)}" fill="#2E2E2E" data-lcs-num="${n}">${n}</text>`).join('');
+    // a big part takes the big tracing-page number (16-24); a part under MIN_R takes the Color by Number page's own size
+    // (compact 9-12, tiny 9 — lib/cbn-render.js): a 16-unit number in a tiny part covers the dashed lines the child traces
+    // (flagship check 2026-11-09: the reviewed numbers now include the tiny parts, 13.5 % of a font-16 number on the lines)
+    const fsOf = (r) => (r >= R.MIN_R ? Math.max(16, Math.min(24, r * 1.1)) : r >= R.MIN_R_COMPACT ? Math.max(9, Math.min(12, r * 1.45)) : 9);
+    const nums = got.traced.labels.map(([x, y, r, n]) => { const f = fsOf(r); return `<text x="${x}" y="${(r >= R.MIN_R ? y + 7 : y + f * 0.36).toFixed(1)}" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="${r >= R.MIN_R ? f.toFixed(0) : f.toFixed(1)}" fill="#2E2E2E" data-lcs-num="${n}">${n}</text>`; }).join('');
     const svg = got.out.svg.replace(/<\/svg>\s*$/, `<g data-lcs-cbn-numbers="1">${nums}</g></svg>`).replace(/ width="600" height="560"/, ` width="${pw}" height="${Math.round(560 * k)}"`);
     const body = `<div data-ws-content data-lcs-type="K-501" data-lcs-design="${id}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px">` +
       `<div style="border:3px solid #2E2E2E;border-radius:22px;overflow:hidden;line-height:0;background:#FFF">${svg}</div>${keyRow(got.labels.num, loc, false)}</div>`;

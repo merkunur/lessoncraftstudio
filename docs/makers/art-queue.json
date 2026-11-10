@@ -1,0 +1,792 @@
+{
+ "rule": "two artist agents at a time (operator 2026-11-07); every drawing reviewed against docs/makers/ART-BRIEF.md before it is marked done Owner 2026-11-08: two artist agents at a time again.",
+ "trial": [
+  "broccoli",
+  "child_with_kite",
+  "dolphin",
+  "excavator",
+  "firefighter",
+  "fox",
+  "magic_lamp",
+  "mammoth",
+  "pony",
+  "rose",
+  "t_rex",
+  "violin"
+ ],
+ "batches": [
+  {
+   "n": 1,
+   "theme": "farm friends bw",
+   "nouns": [
+    "baby_chick",
+    "barn",
+    "chicken",
+    "cow",
+    "donkey",
+    "duck",
+    "egg_basket",
+    "farm_cat",
+    "farm_fence",
+    "goat",
+    "goose"
+   ],
+   "status": "done: reviewed; six redrawn and passed"
+  },
+  {
+   "n": 2,
+   "theme": "farm friends bw",
+   "nouns": [
+    "hay_bale",
+    "horse",
+    "milk_can",
+    "pig",
+    "rooster",
+    "scarecrow",
+    "sheep",
+    "sheep_dog",
+    "tractor",
+    "turkey",
+    "wheelbarrow"
+   ],
+   "status": "done: sheep_dog moved to the next pets batch (stiff body, awkward neck)"
+  },
+  {
+   "n": 3,
+   "theme": "forest friends bw",
+   "nouns": [
+    "bear",
+    "beaver",
+    "bird_nest",
+    "campfire",
+    "camping_tent",
+    "chipmunk",
+    "deer",
+    "hedgehog",
+    "lantern",
+    "mole",
+    "moose"
+   ],
+   "status": "done: chipmunk moved to batch 4"
+  },
+  {
+   "n": 4,
+   "theme": "forest friends bw",
+   "nouns": [
+    "owl",
+    "pine_tree",
+    "pinecone",
+    "raccoon",
+    "skunk",
+    "squirrel",
+    "tree_stump",
+    "wolf",
+    "wood_log",
+    "woodpecker",
+    "chipmunk"
+   ],
+   "status": "done: skunk, chipmunk, wolf sent back"
+  },
+  {
+   "n": 5,
+   "theme": "pets bw",
+   "nouns": [
+    "bunny",
+    "cat_and_mouse",
+    "dog_house",
+    "fish_bowl",
+    "gecko",
+    "goldfish",
+    "guinea_pig",
+    "hamster",
+    "kitten",
+    "kitten_in_a_box",
+    "sheep_dog"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 6,
+   "theme": "pets bw",
+   "nouns": [
+    "mouse",
+    "parrot",
+    "pet_bowl",
+    "pet_collar",
+    "puppy",
+    "puppy_in_a_basket",
+    "sleeping_puppy",
+    "turtle",
+    "yarn_ball"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 7,
+   "theme": "safari friends bw",
+   "nouns": [
+    "baobab",
+    "camel",
+    "chameleon",
+    "cheetah",
+    "elephant",
+    "flamingo",
+    "giraffe",
+    "hippo",
+    "kangaroo",
+    "koala",
+    "lion"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 8,
+   "theme": "safari friends bw",
+   "nouns": [
+    "monkey",
+    "ostrich",
+    "palm_tree",
+    "panda",
+    "rhino",
+    "safari_jeep",
+    "sloth",
+    "snake",
+    "tiger",
+    "toucan",
+    "zebra"
+   ],
+   "status": "done: zebra and sloth sent back"
+  },
+  {
+   "n": 9,
+   "theme": "ocean friends bw",
+   "nouns": [
+    "anchor",
+    "clownfish",
+    "coral_reef",
+    "crab",
+    "hermit_crab",
+    "jellyfish",
+    "life_ring",
+    "mermaid",
+    "narwhal",
+    "octopus",
+    "pufferfish"
+   ],
+   "status": "done: crab, hermit_crab, narwhal sent back"
+  },
+  {
+   "n": 10,
+   "theme": "ocean friends bw",
+   "nouns": [
+    "sea_otter",
+    "sea_shell",
+    "sea_turtle",
+    "seahorse",
+    "shark",
+    "squid",
+    "starfish",
+    "submarine",
+    "treasure_chest",
+    "whale"
+   ],
+   "status": "done: sea_otter, treasure_chest sent back"
+  },
+  {
+   "n": 11,
+   "theme": "polar friends bw",
+   "nouns": [
+    "arctic_fox",
+    "husky",
+    "ice_cave",
+    "ice_skate",
+    "igloo",
+    "mitten_pair",
+    "penguin",
+    "penguin_family",
+    "polar_bear"
+   ],
+   "status": "done: husky, penguin_family, zebra, sloth sent back"
+  },
+  {
+   "n": 12,
+   "theme": "polar friends bw",
+   "nouns": [
+    "reindeer",
+    "seal",
+    "sled",
+    "snowflake",
+    "snowman",
+    "snowy_owl",
+    "walrus",
+    "winter_hat"
+   ],
+   "status": "done: snowman, snowy_owl sent back"
+  },
+  {
+   "n": 13,
+   "theme": "dinosaurs bw",
+   "nouns": [
+    "ankylosaurus",
+    "baby_dinosaur",
+    "brachiosaurus",
+    "dino_friends",
+    "dino_in_a_hat",
+    "dinosaur_egg",
+    "dinosaur_footprint",
+    "diplodocus",
+    "fern"
+   ],
+   "status": "done: ankylosaurus, dino_friends, diplodocus sent back"
+  },
+  {
+   "n": 14,
+   "theme": "dinosaurs bw",
+   "nouns": [
+    "fossil",
+    "parasaurolophus",
+    "plesiosaur",
+    "pterodactyl",
+    "spinosaurus",
+    "stegosaurus",
+    "triceratops",
+    "velociraptor",
+    "volcano"
+   ],
+   "status": "done: velociraptor, sloth sent back"
+  },
+  {
+   "n": 15,
+   "theme": "children bw",
+   "nouns": [
+    "baby",
+    "boy_waving",
+    "child_painting",
+    "child_with_balloon",
+    "friends_holding_hands",
+    "girl_jumping",
+    "grandparents",
+    "reading_child"
+   ],
+   "status": "done: reading_child sent back"
+  },
+  {
+   "n": 16,
+   "theme": "helpers bw",
+   "nouns": [
+    "baker",
+    "builder",
+    "bus_driver",
+    "chef",
+    "dentist",
+    "doctor",
+    "farmer",
+    "gardener",
+    "librarian",
+    "lifeguard"
+   ],
+   "status": "done: p1 baker,builder,bus_driver,chef and p2 doctor,farmer,gardener,librarian,lifeguard (+alien_baby) passed (doctor bun and librarian books fixed in review); dentist moved to batch 17"
+  },
+  {
+   "n": 17,
+   "theme": "helpers bw",
+   "nouns": [
+    "mail_carrier",
+    "musician",
+    "nurse",
+    "painter",
+    "pilot",
+    "police_officer",
+    "scientist",
+    "teacher",
+    "veterinarian",
+    "dentist"
+   ],
+   "status": "done: all helpers passed (police_officer, scientist, teacher, veterinarian in p5)"
+  },
+  {
+   "n": 18,
+   "theme": "bugs bw",
+   "nouns": [
+    "acorn",
+    "ant",
+    "bee",
+    "bee_hive",
+    "beetle",
+    "butterfly",
+    "caterpillar",
+    "dragonfly",
+    "firefly",
+    "flower_friend",
+    "garden_gnome"
+   ],
+   "status": "done: firefly sent back"
+  },
+  {
+   "n": 19,
+   "theme": "bugs bw",
+   "nouns": [
+    "grasshopper",
+    "ladybug",
+    "leaf_friend",
+    "moth",
+    "mushroom_friend",
+    "praying_mantis",
+    "snail",
+    "spider",
+    "watering_can",
+    "worm"
+   ],
+   "status": "done: limbed creatures held for the construction sheet"
+  },
+  {
+   "n": 20,
+   "theme": "fairy tales bw",
+   "nouns": [
+    "castle",
+    "cottage_in_the_woods",
+    "crown",
+    "dragon",
+    "fairy",
+    "flying_carpet",
+    "frog_prince",
+    "glass_slipper",
+    "knight",
+    "magic_mirror",
+    "magic_wand"
+   ],
+   "status": "done: castle, cottage_in_the_woods, crown, flying_carpet, glass_slipper, magic_mirror, magic_wand passed; dragon back (belly plates run from the chin into the front leg: neck and leg read as one striped tube; long low body reads as a dachshund); fairy, frog_prince, knight in batch p4"
+  },
+  {
+   "n": 21,
+   "theme": "fairy tales bw",
+   "nouns": [
+    "mushroom_house",
+    "pegasus",
+    "prince",
+    "princess",
+    "pumpkin_carriage",
+    "storybook",
+    "tooth_fairy",
+    "treasure_key",
+    "unicorn",
+    "wizard"
+   ],
+   "status": "done: mushroom_house, pumpkin_carriage, storybook, treasure_key passed; pegasus, unicorn, dragon back (horse bodies with a ruler-straight belly and four table-leg tubes; the pegasus far wing reads as a doubled wing; the dragon front leg is a stump and only three legs show)"
+  },
+  {
+   "n": 22,
+   "theme": "robots and monsters bw",
+   "nouns": [
+    "fuzzy_monster",
+    "horned_monster",
+    "jelly_monster",
+    "little_monster",
+    "one_eyed_monster",
+    "robot_dog",
+    "robot_friend",
+    "round_robot",
+    "tall_robot",
+    "tentacle_monster"
+   ],
+   "status": "done (robot_dog + tall_robot redrawn in a second round)"
+  },
+  {
+   "n": 23,
+   "theme": "shape friends bw",
+   "nouns": [
+    "circle",
+    "crescent",
+    "cube",
+    "diamond",
+    "hexagon",
+    "octagon",
+    "oval",
+    "pentagon",
+    "rectangle",
+    "square",
+    "triangle"
+   ],
+   "status": "done (crescent + pentagon re-posed)"
+  },
+  {
+   "n": 24,
+   "theme": "yummy food bw",
+   "nouns": [
+    "apple",
+    "avocado",
+    "banana",
+    "birthday_cake",
+    "burger",
+    "carrot",
+    "cheese",
+    "cherries",
+    "cookie",
+    "corn",
+    "cupcake",
+    "donut"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 25,
+   "theme": "yummy food bw",
+   "nouns": [
+    "egg",
+    "fried_egg",
+    "honey_pot",
+    "hot_dog",
+    "ice_cream_cone",
+    "juice_box",
+    "lollipop",
+    "milk_carton",
+    "orange",
+    "pancakes",
+    "pear",
+    "pineapple"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 26,
+   "theme": "yummy food bw",
+   "nouns": [
+    "pizza",
+    "popsicle",
+    "pretzel",
+    "soup_bowl",
+    "strawberry",
+    "sushi_roll",
+    "taco",
+    "toast",
+    "tomato",
+    "watermelon"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 27,
+   "theme": "things that go bw",
+   "nouns": [
+    "airplane",
+    "ambulance",
+    "bicycle",
+    "bulldozer",
+    "bus",
+    "cable_car",
+    "car",
+    "cement_mixer",
+    "crane_truck"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 28,
+   "theme": "things that go bw",
+   "nouns": [
+    "dump_truck",
+    "fire_truck",
+    "garbage_truck",
+    "helicopter",
+    "hot_air_balloon",
+    "ice_cream_van",
+    "motorcycle",
+    "police_car",
+    "race_car"
+   ],
+   "status": "done: race_car sent back"
+  },
+  {
+   "n": 29,
+   "theme": "things that go bw",
+   "nouns": [
+    "rocket_car",
+    "sailboat",
+    "school_bus",
+    "scooter",
+    "steam_train_car",
+    "tow_truck",
+    "train",
+    "tugboat"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 30,
+   "theme": "school friends bw",
+   "nouns": [
+    "backpack",
+    "book",
+    "calculator_friend",
+    "chalk_board",
+    "crayon",
+    "eraser",
+    "globe",
+    "glue_bottle",
+    "graduation_hat",
+    "guitar",
+    "lunch_box",
+    "magnifying_glass"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 31,
+   "theme": "school friends bw",
+   "nouns": [
+    "notebook",
+    "paint_brush",
+    "paint_palette",
+    "pencil",
+    "pencil_case",
+    "pencil_holder",
+    "ruler",
+    "school_desk",
+    "school_house",
+    "scissors",
+    "teacher_apple",
+    "race_car"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 32,
+   "theme": "home friends bw",
+   "nouns": [
+    "alarm_clock",
+    "armchair",
+    "bath_tub",
+    "bed",
+    "cozy_socks",
+    "cup",
+    "cushion_friend",
+    "door_friend",
+    "flower_pot"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 33,
+   "theme": "home friends bw",
+   "nouns": [
+    "house",
+    "plate",
+    "spoon_and_fork",
+    "table",
+    "table_lamp",
+    "teapot",
+    "toilet_paper_friend",
+    "toothbrush_friend",
+    "tree"
+   ],
+   "status": "done: tree sent back"
+  },
+  {
+   "n": 34,
+   "theme": "music bw",
+   "nouns": [
+    "drum",
+    "flute",
+    "harp",
+    "maracas",
+    "music_notes",
+    "piano",
+    "tambourine",
+    "teddy_bear",
+    "trumpet",
+    "xylophone"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 35,
+   "theme": "nature friends bw",
+   "nouns": [
+    "apple_tree",
+    "cactus",
+    "cloud",
+    "flame_friend",
+    "lightning",
+    "mountain",
+    "rain_drop",
+    "stone_friend",
+    "sunflower",
+    "water_lily"
+   ],
+   "status": "done: mountain sent back"
+  },
+  {
+   "n": 36,
+   "theme": "seasons bw",
+   "nouns": [
+    "autumn_leaf",
+    "beach_ball",
+    "bird_house",
+    "bucket_and_spade",
+    "pumpkin",
+    "rain_boots",
+    "rain_cloud",
+    "rainbow",
+    "sandcastle",
+    "tree"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 37,
+   "theme": "seasons bw",
+   "nouns": [
+    "scarf_and_hat",
+    "snow_globe",
+    "spring_flowers",
+    "sun_hat",
+    "sunglasses",
+    "tulip_friend",
+    "umbrella",
+    "windy_day",
+    "mountain"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 38,
+   "theme": "celebrations bw",
+   "nouns": [
+    "balloons",
+    "birthday_hat",
+    "candy_basket",
+    "christmas_stocking",
+    "christmas_tree",
+    "easter_egg",
+    "fireworks",
+    "gift_box"
+   ],
+   "status": "done: gift_box sent back"
+  },
+  {
+   "n": 39,
+   "theme": "celebrations bw",
+   "nouns": [
+    "halloween_ghost",
+    "jack_o_lantern",
+    "love_letter",
+    "paper_lantern",
+    "party_popper",
+    "santa_hat",
+    "valentine_heart",
+    "witch_hat"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 40,
+   "theme": "space friends bw",
+   "nouns": [
+    "comet",
+    "earth",
+    "meteor_shower",
+    "moon_friend",
+    "moon_rover",
+    "planet",
+    "rocket",
+    "rocket_launch",
+    "satellite",
+    "gift_box"
+   ],
+   "status": "done: comet (tail reads as a feather or claw) and meteor_shower (one-crater rocks with fin-like flames read as fish with an eye) sent back"
+  },
+  {
+   "n": 41,
+   "theme": "space friends bw",
+   "nouns": [
+    "space_helmet",
+    "space_station",
+    "star_friend",
+    "sun_friend",
+    "telescope",
+    "ufo",
+    "baseball_glove",
+    "basketball",
+    "jump_rope",
+    "medal"
+   ],
+   "status": "done"
+  },
+  {
+   "n": 42,
+   "theme": "sports and play bw",
+   "nouns": [
+    "skateboard",
+    "slide",
+    "soccer_ball",
+    "swing",
+    "tennis_racket",
+    "trophy",
+    "comet",
+    "meteor_shower"
+   ],
+   "status": "done: skateboard, slide, soccer_ball, swing, tennis_racket, trophy, comet passed; meteor_shower passed on its redraw (p5)"
+  },
+  {
+   "n": 43,
+   "theme": "toys and play bw",
+   "nouns": [
+    "doll",
+    "jack_in_the_box",
+    "kite_friend",
+    "rocking_horse",
+    "rubber_duck",
+    "spinning_top",
+    "toy_blocks",
+    "toy_robot",
+    "toy_train"
+   ],
+   "status": "done (toy_robot, rocking_horse redrawn; sea_otter fourth try passed)"
+  },
+  {
+   "n": "p4",
+   "theme": "people",
+   "nouns": [
+    "reading_child",
+    "fairy",
+    "frog_prince",
+    "knight",
+    "prince",
+    "princess",
+    "wizard",
+    "tooth_fairy"
+   ],
+   "status": "done: all eight passed; reading_child legs redrawn as a real cross-legged sit (owner fix)"
+  },
+  {
+   "n": "c1",
+   "theme": "creatures",
+   "nouns": [
+    "pegasus",
+    "unicorn",
+    "dragon"
+   ],
+   "status": "done: pegasus, unicorn, dragon passed; sea_otter held (thin tube body)"
+  }
+ ],
+ "redo": [],
+ "hold": {
+  "nouns": [],
+  "why": "operator 2026-11-07: strikingly unnatural and ugly: objects just behind the hand, limbs out of proportion, one ear",
+  "status": "h5 passed child_with_balloon,reading_child,astronaut,alien; alien_baby back (fist drawn as three stacked bars, rattle reads as a wand) -> with helpers part two; sea_otter deferred to the end",
+  "otter": "sea_otter failed four times (bear in a bath; fish-tail feet; a small flat hamster; a bag with a rat-like head). Try once more at the very end with a fresh approach, or ask the owner whether to drop it."
+ },
+ "accepted": 305,
+ "ownerFixes": [
+  {
+   "noun": "doctor",
+   "said": "the doctor is holding the object in a wron way",
+   "status": "fixed 2026-11-08: the fingers were a flat block stuck on the clipboard's face with no thumb; now the side of the hand shows beside the board, thumb in front, fingers behind. Unlocked; shown on the page for the owner"
+  },
+  {
+   "noun": "reading_child",
+   "said": "the legs of the reading child also don't look right",
+   "status": "fixed 2026-11-08 (batch p4): knees out, the near shin crossing in front of the far one, each foot tucked under the opposite knee, sole towards us. Shown on the page for the owner"
+  }
+ ]
+}

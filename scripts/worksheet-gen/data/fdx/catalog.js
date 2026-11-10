@@ -1423,6 +1423,7 @@ module.exports.RANK_PLANS = {
   'classroom bw/globe': ['blue', 'green', 'green', 'blue', 'blue', 'green', 'blue', 'green', 'green'],
 };
 
+
 // the plans the scenes use: every rank plan as its point plan (tools/fdx-plan-points.js → plan-points.json), point plans as written
 {
   let PP = {}; try { PP = require('./plan-points.json'); } catch (e) { PP = {}; }

@@ -39,13 +39,25 @@ module.exports = {
     const loc = String(locale || 'en').slice(0, 2);
     const PTX = require('../../lib/ptx.js');
     // the maker (no unit): copy n = the n-th unit of this face at this level (null = the published page; makers 2026-11-02)
-    let picked = null;
+    let picked = null, art = null, artOthers = [];
+    // the pictures that fit none of this face's scenes at this level never reach the picker (data/fl/pt-fit.json,
+    // tools/build-pt-fit.js; flagship visual check 2026-11-08)
+    const PTFIT = ctx && ctx.slotsOut ? require('../../data/fl/pt-fit.json') : null;
+    const noFit = new Set((PTFIT && PTFIT.refused[d.mode + '|' + difficulty]) || []);
+    const pool = ctx && ctx.slotsOut ? PTX.artPool(d.mode, difficulty).filter((k) => !noFit.has(k)) : [];
     if (!unit && ctx && ctx.slotsOut) {
       const list = PTX.makerUnits(this.id, difficulty);
       const v = String((ctx.seedVariant || ctx.variant) || 1);
       const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
       picked = list[(n - 1) % list.length] || null;
       if (picked) unit = picked;
+      // the teacher's picture or theme, and past the face's own pages the library (docs/makers/FLAGSHIP.md)
+      const FL = require('../../lib/fl-art.js'), w = FL.wish(ctx);
+      art = FL.choose(ctx, pool, n) || (n > list.length && pool.length ? pool[(n - 1 - list.length) % pool.length] : null);
+      if (art) {
+        if (!unit) unit = picked = list.find(Boolean);
+        if (w.group) artOthers = pool.filter((k) => FL.groupOf(k) === w.group && k !== art).slice(0, 6);
+      }
     }
     // F17 prints the locale's OWN four picture names (the bank's `words`; a locale without them REFUSES, never English)
     let words;
@@ -63,11 +75,39 @@ module.exports = {
     if (PTX.isPtx(unit)) {
       const r = PTX.resolvePtx(unit, { words });
       if (r.mode !== d.mode) throw new Error(`K-418: unit ${unit} belongs to face ${r.entry.face}, not ${this.id}`);
-      if (r.entry.level !== difficulty) throw new Error(`K-418: unit ${unit} is a level-${r.entry.level} scene, asked at level ${difficulty}`);
+      if (r.entry.level !== difficulty && !(picked === unit && Math.abs(r.entry.level - difficulty) === 1)) throw new Error(`K-418: unit ${unit} is a level-${r.entry.level} scene, asked at level ${difficulty}`);
       sc = r.scene;
     } else sc = sceneFor(d.mode, { words });
     if (!sc) throw new Error('K-418: no scene for mode ' + d.mode);
-    const out = composeSceneSync(sc);
+    let out = null;
+    // a picture that cannot stand in this scene's place gives way to the next one (never the teacher's own choice: that is refused)
+    if (art) {
+      const FLc = require('../../lib/fl-art.js'), own = FLc.wish(ctx).key === art, at = pool.indexOf(art), tries = own ? [art] : pool.slice(at, at + 16);
+      // data/fl/pt-fit.json lists, for a picture that fits only SOME of the face's scenes, the scenes it fits (its drawing
+      // inside the porthole's frame, its band rules kept): a scene it does not fit is never used, even when it composes
+      const unitsAll = PTX.makerUnits(this.id, difficulty), hereAt = unitsAll.indexOf(unit === undefined ? null : unit);
+      const fitMap = (PTFIT && PTFIT.fit[d.mode + '|' + difficulty]) || {};
+      const fitsHere = (cand) => hereAt < 0 || !fitMap[cand] || fitMap[cand].includes(hereAt);
+      for (const cand of tries) {
+        if (!fitsHere(cand)) continue;
+        const s2 = PTX.reskin(sc, cand, artOthers), o = composeSceneSync(s2);
+        if (!o.problems.length && !checkMetrics(o.metrics, {}).length) { sc = s2; out = o; art = cand; break; }
+      }
+      // the teacher's own picture that cannot stand in this copy's scene goes to the next scene of this face and level it
+      // fits (data/fl/pt-fit.json) instead of being refused: a picture the picker offers always makes a page (2026-11-08)
+      if (!out && own && PTFIT) {
+        const units = PTX.makerUnits(this.id, difficulty), L = units.length, here = Math.max(0, units.indexOf(unit));
+        const fits = (PTFIT.fit[d.mode + '|' + difficulty] || {})[art] || units.map((u, i) => i);
+        for (const i of fits.slice().sort((x, y) => ((x - here + L) % L) - ((y - here + L) % L))) {
+          const u = units[i]; if (!u) continue;
+          const r = PTX.resolvePtx(u, { words }); if (r.mode !== d.mode) continue;
+          const s2 = PTX.reskin(r.scene, art, artOthers), o = composeSceneSync(s2);
+          if (!o.problems.length && !checkMetrics(o.metrics, {}).length) { sc = s2; out = o; unit = picked = u; break; }
+        }
+      }
+      if (!out) { if (own) throw new Error('K-418: this picture does not fit this scene'); art = null; }
+    }
+    if (!out) out = composeSceneSync(sc);
     if (out.problems.length) throw new Error('K-418: scene ' + d.mode + ': ' + out.problems.join('; '));
     // the answer key (makers 2026-11-02): the three faces whose page has an answer draw it over the scene, the page itself
     // unchanged — the count in its box (K-427), a ring round each hidden animal (G1-433), every circle coloured (K-430)
@@ -78,9 +118,15 @@ module.exports = {
     // a Level Set copy balances its instruction lines (same line count, never a one-word last line — the measured widow gate in
     // tools/level-set/ptl-render.js); the published page keeps its bytes
     const ptxStyle = PTX.isPtx(unit) ? '<style>[data-lcs-instruction]{text-wrap:balance}</style>' : '';
-    const bodyHtml = `${ptxStyle}<div data-ws-content data-lcs-pt-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${out.svg}</div>`;
+    const bodyHtml = `${ptxStyle}<div data-ws-content${pool.length ? require('../../lib/fl-art.js').tap(ctx) : ''} data-lcs-pt-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${out.svg}</div>`;
     // a maker copy carries its own unit and the Level Set strings of that copy (title with its scene's name, its instruction)
-    const copy = picked ? { unit: picked, strings: this.copyStrings({}, { unit: picked, locale: loc }) } : {};
+    const FL2 = require('../../lib/fl-art.js');
+    // a copy with no picture chosen reports its scene's own main drawing when the picker offers it: else the picker showed no
+    // current picture and offered that one as a change that changes nothing (own-input 2026-11-10: K-420 level 1 copy 1 is
+    // a garden pond whose main drawing is the duck the gate then chose)
+    const hs = art ? null : PTX.heroSrc(sc);
+    if (pool.length) FL2.report(ctx, pool, art || (hs && pool.includes(hs) ? hs : null));
+    const copy = picked ? { unit: picked, strings: art ? require('../../data/ptx/text.js').stringsFor(picked, loc, {}, FL2.nameOf(art, loc)) : this.copyStrings({}, { unit: picked, locale: loc }) } : {};
     return { bodyHtml, meta: { mode: d.mode, pictures: out.placed.filter((p) => !p.motif).map((p) => p.src), metrics: out.metrics }, ...copy };
   },
 

@@ -54,6 +54,11 @@ prune_dumps() {
 say "=== deck backup pull start (dry-run=$DRY) → $OUT"
 $SSH 'true' || fail "cannot reach $HOST with $KEY"
 
+# Every image of the site, before the deck stream so a failed deck pull never skips them (operator 2026-11-08: "all
+# the images should also backed up locally on this computer"). Incremental: only new or changed pictures travel.
+if [ $DRY = 1 ]; then bash "$(dirname "$0")/backup-images.sh" --dry-run; else bash "$(dirname "$0")/backup-images.sh"; fi \
+  || say "WARN: the image backup reported a problem (see $BACKUP_DIR/images/images.log); the deck pull goes on"
+
 # Live count BEFORE the pull (the tarball may contain a few more if a publish runs meanwhile).
 LIVE_DECKS=$($SSH 'find /var/www/lcs-media/decks -type f -name deck.html | wc -l' | tr -dc '0-9')
 LIVE_GB=$($SSH 'du -sb --exclude="deck.html.bak.*" /var/www/lcs-media/decks | cut -f1' | awk '{printf "%.1f", $1/1e9}')

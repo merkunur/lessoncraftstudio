@@ -85,7 +85,10 @@ for (const loc of locales) {
     const hasKey = m.templates.some((t) => t.key && (!t.locales || t.locales.includes(loc)));
     // the first candidate that fits the search-result window, longest promise first
     const s1 = firstSentence(c.lead), tail = hasKey ? st.key : st.noKey, short = SHORT_TAIL[loc];
-    const candidates = [s1 + tail, c.lead, c.lead + short, s1 + short, s1];
+    // (the lead's first two sentences after the whole lead: a sentence added at the end of a lead whose whole text was its
+    // description keeps that description, flagship templates 2026-11-08)
+    const s2 = firstSentence(c.lead.slice(s1.length).trimStart());
+    const candidates = [s1 + tail, c.lead, s1 + ' ' + s2, c.lead + short, s1 + short, s1];
     const metaDescription = candidates.find((d) => d.length >= 120 && d.length <= 165) || candidates.find((d) => d.length >= 105 && d.length <= 170) || '';
     if (!metaDescription) fail(`${loc} ${id}: no description fits (first sentence ${s1.length} chars, lead ${c.lead.length})`);
     for (const [map, val, what] of [[slugs, slug, 'slug'], [titles, metaTitle, 'title'], [metas, metaDescription, 'description']]) {

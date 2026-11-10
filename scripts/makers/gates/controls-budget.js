@@ -19,6 +19,7 @@ const path = require('path');
 const http = require('http');
 
 const ROOT = path.join(__dirname, '..', '..', '..');
+const FLAG = new Set(require('../topic-map.js').MAKERS.filter((m) => m.flagship).map((m) => m.id));
 const OUT = path.join(ROOT, 'out', 'makers');
 const BUDGET = 7;
 
@@ -30,16 +31,34 @@ function declared(t, loc) {
   const levels = (t.localeLevels && t.localeLevels[loc]) || t.levels;
   const themes = (t.localeThemes && t.localeThemes[loc]) || t.themes || [];
   if (levels.length > 1) list.push('level');
-  if (t.themed && themes.length > 1) list.push('pictures');
-  if (t.units && t.units[loc] && t.units[loc].length) list.push('word');
+  if ((t.themed && themes.length > 1) || t.art) list.push('pictures');   // t.art: the theme tiles and picture picker (shell artControl)
+  // hideUnits (unitAxis.hideInMaker): the shell shows no word list there (shell.js, `!pt.hideUnits`) — the Color by Number
+  // picture templates, whose theme tiles and picture picker replace it (2026-11-09: K-394/K-587/K-588/G3-479 declared a
+  // word the screen rightly hides)
+  if (!t.hideUnits && t.units && t.units[loc] && t.units[loc].length) list.push('word');
   for (const c of t.controls || []) list.push('control:' + c);
   return list;
+}
+
+/** a page that reports an art slot shows the shell's art control: asked of the page itself, at the level the screen opens on */
+function markArt(tj) {
+  const { makePage } = require('../runtime.js');
+  const { resolveStrings } = require(path.join(ROOT, 'scripts/worksheet-gen/i18n/strings.js'));
+  for (const t of tj.templates) {
+    try {
+      const type = require(path.join(ROOT, t.file)), levels = (t.localeLevels && t.localeLevels.en) || t.levels;
+      const b = makePage({ type, strings: resolveStrings(t.id, 'en', type), locale: 'en', difficulty: levels.includes(2) ? 2 : levels[0], theme: t.themed ? (t.themes || [])[0] : null, unit: null, variant: 1 });
+      if (b.slots && b.slots.art) t.art = true;
+    } catch (e) { /* a page that cannot be built here is the build gates' to report */ }
+  }
 }
 
 function makers() {
   return fs.readdirSync(OUT).filter((m) => fs.existsSync(path.join(OUT, m, 'current.txt')) && fs.existsSync(path.join(OUT, m, fs.readFileSync(path.join(OUT, m, 'current.txt'), 'utf8').trim(), 'templates.json'))).map((m) => {
     const v = fs.readFileSync(path.join(OUT, m, 'current.txt'), 'utf8').trim();
-    return { maker: m, tj: JSON.parse(fs.readFileSync(path.join(OUT, m, v, 'templates.json'), 'utf8')) };
+    const tj = JSON.parse(fs.readFileSync(path.join(OUT, m, v, 'templates.json'), 'utf8'));
+    if (FLAG.has(m)) markArt(tj);
+    return { maker: m, tj };
   });
 }
 
@@ -72,6 +91,13 @@ function checkDeclared(list) {
   const dSv = declared(per, 'sv').join(','), dEn = declared(per, 'en').join(',');
   if (dSv !== '' || dEn !== 'level,pictures') { console.log(`FAIL poison: per-language lists → sv "${dSv}" (want ""), en "${dEn}" (want "level,pictures")`); fails++; }
 
+  // poison: the art control counts as Pictures, on a page with no theme axis too
+  if (declared({ levels: [2], art: true, locales: ['en'] }, 'en').join(',') !== 'pictures') { console.log('FAIL poison: an art page must declare Pictures'); fails++; }
+  if (declared({ levels: [2], locales: ['en'] }, 'en').length) { console.log('FAIL poison: a page with no art and one level declares nothing'); fails++; }
+  // poison: a word list the shell hides is no control; the same list shown is one
+  const wl = { levels: [2], units: { en: [{ id: 'w' }] }, locales: ['en'] };
+  if (declared({ ...wl, hideUnits: true }, 'en').length || declared(wl, 'en').join(',') !== 'word') { console.log('FAIL poison: a hidden word list must declare nothing, a shown one "word"'); fails++; }
+
   const dec = checkDeclared(list);
   dec.fails.slice(0, 20).forEach((f) => console.log('FAIL ' + f));
   fails += dec.fails.length;
@@ -95,6 +121,10 @@ function checkDeclared(list) {
         for (const t of tj.templates.filter((x) => x.locales.includes(loc))) {
           await p.evaluate((id) => document.querySelector(`.mk-card[data-id="${id}"]`).click(), t.id);
           await p.waitForFunction(() => document.querySelector('.mk-sheet iframe, .mk-note'), { timeout: 20000 });
+          // the picture control (shell artControl) and the tap hint are added when the FIRST PAGE RESULT arrives, after the
+          // sheet: count once the hint is there (2026-11-10: 300 ms after the sheet counted 13 templates' Pictures as missing
+          // while three gates ran at once — it came 0.5-3 s later); a refused page shows its note instead
+          await p.waitForFunction(() => document.querySelector('#mk-controls .mk-tap-hint, .mk-note'), { timeout: 30000 });
           await new Promise((r) => setTimeout(r, 300));
           const seen = await p.evaluate(() => {
             const c = document.getElementById('mk-controls');

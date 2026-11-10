@@ -95,7 +95,7 @@ module.exports = {
       `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;width:140px">${icon(k)}<span style="font-family:Nunito,sans-serif;font-weight:800;font-size:18px;line-height:1.1;color:#3A3530;text-align:center">${L[k]}</span></div>` +
       `<span class="ws-answerbox" data-lcs-answer="${got.c.counts[i]}" data-lcs-label="${L[k]}" style="display:inline-block;width:68px;height:60px;box-sizing:border-box;border:2.5px solid #146B5E;border-radius:12px;background:#FFFFFF;font-family:'Baloo 2',cursive;font-weight:700;font-size:36px;line-height:56px;text-align:center"></span></div>`; }).join('');
     const right = `<div style="padding-top:${ph + 12 + 20}px;display:flex;flex-direction:column;gap:22px">${rows}</div>`;
-    const body = `<div data-ws-content data-lcs-fd-face="kinds" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.c.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-fd-face="kinds" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.c.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
       C7.fdColumns({ cells: [C7.fdStack({ p1, p2 }), '', '', right], widths: [pw, 30, 6, 230] }) + `</div>`;
     return { bodyHtml: body, meta: { unit: got.id, counts: d.kinds.map((k, i) => k + ':' + got.c.counts[i]).join(',') } };
   },

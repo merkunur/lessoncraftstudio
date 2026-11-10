@@ -261,7 +261,7 @@
   },
   "dot-to-dot": {
     "kw": "Yhdistä pisteet: tee omat tehtävät",
-    "lead": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Piilokuva pitää lapset mukana viimeiseen pisteeseen asti.",
+    "lead": "Tee yhdistä pisteet -tehtäviä, joissa lasketaan kahteenkymmeneen, taaksepäin, hyppien, seurataan aakkosia tai ratkaistaan laskuja. Lapset voivat myös yhdistää pisteet suureksi kirjaimeksi tai numeroksi, tehdä valmiiksi kaksi pientä kuvaa samalla sivulla tai kirjoittaa löytämänsä kuvan nimen. Piilokuva pitää lapset mukana viimeiseen pisteeseen asti.",
     "teaches": [
       "Lukujonon sanominen järjestyksessä",
       "Taaksepäin ja hyppien laskeminen",
@@ -271,7 +271,7 @@
   },
   "color-by-number": {
     "kw": "Väritä numeroiden mukaan: tee omat tehtävät",
-    "lead": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut. Valmiista kuvasta näkee, onko kaikki oikein.",
+    "lead": "Tee väritystehtäviä numeroiden ja koodin mukaan niin, että jokainen väri on vastaus: yhteen- ja vähennyslaskut, yleisimmät sanat, alkuäänteet ja kertotaulut. Piilotettu kirjain ja salainen ruutukuva tekevät värittämisestä arvoituksen, ja yhteenlaskujen, kirjainten tai kertolaskujen mukaan voi värittää minkä tahansa kuvapankkimme kuvan. Valmiista kuvasta näkee, onko kaikki oikein.",
     "teaches": [
       "Laskujen harjoittelu sisäänrakennetulla tarkistuksella",
       "Värikoodin huolellinen lukeminen",
@@ -281,7 +281,7 @@
   },
   "coloring-pages": {
     "kw": "Värityskuvat luokkaan: tee omat",
-    "lead": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Taittele pieni värityskirja jokaisesta teemasta, jota käsittelet.",
+    "lead": "Tee värityskuvia kuvapankistamme, ja lisää niihin sanoja jäljennettäväksi, kirjoitettava lause tai värikoodi. Mukana on myös värityskuvia jokaisesta kirjaimesta ja luvusta, jokaiselle lapselle oma nimisivu, väritä ja laske -sivuja sekä väritettäviä kirjanmerkkejä. Taittele pieni värityskirja jokaisesta teemasta, jota käsittelet.",
     "teaches": [
       "Kynänhallinnan ja käden voiman kehittäminen",
       "Kuvien yhdistäminen sanoihin",
@@ -331,7 +331,7 @@
   },
   "find-the-differences": {
     "kw": "Etsi virheet: tee omat tehtävät",
-    "lead": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Useimmat toimivat myös näytöllä.",
+    "lead": "Tee etsi virheet -tehtäviä, joissa on 3, 5, 7 tai 10 muutosta oikeissa kuvissa, sekä puuttuvia esineitä, värimuutoksia ja peilikuvia. Pikaharjoituksissa lapset vertaavat kirjain-, numero- tai kuvaruudukoita tai etsivät jokaiselta riviltä kuvan, joka katsoo toiseen suuntaan tai on erikokoinen. Useimmat toimivat myös näytöllä.",
     "teaches": [
       "Kuvan tutkiminen järjestelmällisesti",
       "Muutoksen nimeäminen",
@@ -341,7 +341,7 @@
   },
   "how-to-draw": {
     "kw": "Piirrä vaihe vaiheelta: tee omat tehtävät",
-    "lead": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Lapset seuraavat, jäljentävät, viimeistelevät ja lopuksi piirtävät muistista, ja mukana on sana- ja lausesivuja.",
+    "lead": "Tee piirustusmonisteita vaihe vaiheelta niin, että jokainen uusi viiva näkyy värillisenä. Lapset seuraavat, jäljentävät, viimeistelevät ja lopuksi piirtävät muistista, ja mukana on sana- ja lausesivuja. Heitä ja piirrä -peleissä hirviö, robotti tai ötökkä syntyy heitto kerrallaan, juliste näyttää kaikki vaiheet yhdellä sivulla, ja lapset piirtävät kuvan isona, pienempänä ja aivan pienenä.",
     "teaches": [
       "Kuvan jakaminen yksinkertaisiin muotoihin",
       "Vaiheiden seuraaminen järjestyksessä",
@@ -361,7 +361,7 @@
   },
   "picture-tracing": {
     "kw": "Piirrä katkoviivoja pitkin: tee omat tehtävät",
-    "lead": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Suorista viivoista, siksakeista, spiraaleista ja silmukoista syntyy oikea kuva.",
+    "lead": "Tee jäljennettäviä kuvia suurista pyöreistä muodoista pienimmille pisteviivoilla tehtyihin kaupunkikuviin ykkösluokalle. Lapset jäljentävät myös kaksi kuvaa samalla sivulla, reitin kuvasta toiseen, kehyksen, jonka sisään he piirtävät, sekä jättikirjaimen ja jättinumeron. Suorista viivoista, siksakeista, spiraaleista ja silmukoista syntyy oikea kuva.",
     "teaches": [
       "Kynän ohjaaminen viivaa pitkin",
       "Suorien, kaarevien ja silmukkamaisten viivojen piirtäminen",

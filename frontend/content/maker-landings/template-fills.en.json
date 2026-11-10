@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Color the Number Path",
+   "Find 1. Color the numbers in order up to 15, one next to the other, to make a path."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Color the Pair",
+   "Color the two numbers in each row that make 6 together."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Color the Multiples",
+   "Color every number you say when you count by 4s."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "My Number Poster: 1",
+   "Color the number and its word. Then color that many squares in the frame."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Color and Trace: 1",
+   "Color the big number. Then trace the numbers on the lines."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Letter Dot-to-Dot: A",
+   "Start at the orange dot. Connect the dots in number order to make the letter. Then color it."
+  ],
+  "K-585": [
+   "Number Dot-to-Dot: 1",
+   "Start at the orange dot. Connect the dots in number order to make the number. Then color it."
+  ],
+  "G3-480": [
+   "Dot-to-Dot: Skip Counting",
+   "Start at the orange dot. Count by 4s and connect the dots in order."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Color by Addition: Deer",
+   "Solve each addition problem in the key. Color each part with the color of its answer."
+  ],
+  "K-588": [
+   "Color by Letters: Deer",
+   "Color each part with the color of its letter."
+  ],
+  "G3-479": [
+   "Color by Multiplication: Deer",
+   "Solve each multiplication in the key. Color each part with the color of its answer."
+  ],
+  "K-393": [
+   "Color by Number: Sheep on the Farm",
+   "Color each part with the color of its number."
+  ],
+  "K-394": [
+   "Color by Number: Deer",
+   "Color each part with the color of its number."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Coloring Alphabet: A",
+   "Color the page. Make it as bright and beautiful as you can."
+  ],
+  "K-580": [
+   "Coloring Numbers: 1",
+   "Color everything on the page. Count the stars."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Letter Grid: Find the Differences",
+   "Look at the top grid. Find the 5 letters that changed in the bottom grid. Color them."
+  ],
+  "K-592": [
+   "Number Grid: Find the Differences",
+   "Look at the top grid. Find the 5 numbers that changed in the bottom grid. Color them."
+  ],
+  "G1-548": [
+   "Picture Grid: Find the Differences",
+   "Look at the top grid. Find the 5 pictures that changed in the bottom grid. Circle them."
+  ],
+  "K-395": [
+   "Find 5 Differences: Swan on the Pond",
+   "Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one."
+  ],
+  "K-397": [
+   "Find 3 Differences: Turkey on the Farm",
+   "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Trace the Giant Letter: A",
+   "Start at the black dot. Trace the outline. Then color the letter."
+  ],
+  "K-609": [
+   "Trace the Giant Number: 1",
+   "Start at the black dot. Trace the outline. Then color the number."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Color and Trace: A",
+   "Color the big letters. Then trace the letters on the lines."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Find and Color: A",
+   "Look at the letter at the top. Find it in the grid and color it every time."
+  ],
+  "K-317": [
+   "Letter of the Week: Mm",
+   "Trace the big and small letter, circle the four pictures whose name begins with M, then write a row of each."
+  ],
+  "K-325": [
+   "Words with M: Hear It Anywhere",
+   "Trace the letter, then circle the four pictures that have the M sound somewhere inside the word, not at the start."
+  ],
+  "K-326": [
+   "Beginning, Middle or End: Where Is the M?",
+   "Say each picture. Color the box that shows where you hear M: at the beginning, in the middle or at the end."
+  ],
+  "K-327": [
+   "Circle the M in the Words and Count",
+   "Find every M or m in each word and circle it. Then write in the box how many you found."
+  ],
+  "G1-311": [
+   "Sound of the Week: sh",
+   "Trace sh, circle the four pictures that have the sh sound, then write a row of it."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Color the Sight Word: the",
+   "Read the word. Color it every time you find it."
+  ],
+  "K-388": [
+   "Sight Word of the Day: the",
+   "Read the word. Trace it, write it, and use it in sentences."
+  ],
+  "K-389": [
+   "Sight Word in Sentences: the",
+   "Read each sentence. Write the word “the” on the line."
+  ],
+  "K-390": [
+   "Sight Word Sentence: the",
+   "Work through one sentence, step by step."
+  ],
+  "K-391": [
+   "Trace the Sentences: the",
+   "Trace each sentence. Then write it on the line below."
+  ],
+  "K-392": [
+   "Find the Sight Word: the",
+   "Color every box with the word “the”. Count them and write the number."
+  ],
+  "K-433": [
+   "Read, Trace, Write: the",
+   "Read the word. Trace it. Write it. Then write it in each sentence."
+  ],
+  "K-434": [
+   "Word and Sentence Tracing: the",
+   "Trace the word. Then trace the sentence on each line."
+  ],
+  "K-435": [
+   "Read and Draw: the",
+   "Read the sentence. Trace it. Then draw what the sentence says."
+  ],
+  "K-436": [
+   "Find and Count: the",
+   "Circle the word “the” every time you see it. How many times did you find it?"
+  ],
+  "K-438": [
+   "Build the Word: the",
+   "Cut out the letters. Glue them in the right order to build the word."
+  ],
+  "K-439": [
+   "Rainbow Writing: the",
+   "Trace each word three times, with a different color each time. Then write it."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Color Bingo",
+   "Take one card. Listen to the numbers from 1 to 20. Color each number you hear. Three in a row wins."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Number Detective",
@@ -9,30 +205,10 @@
    "Every row and column needs 1, 2, 3, and 4 once. The numbers inside a thick-lined cage add up to the small number in its corner."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Color by Number: Sheep on the Farm",
-   "Color each part with the color of its number."
-  ],
-  "K-394": [
-   "Color by Number: Deer",
-   "Color each part with the color of its number."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Hop Through the Honeycomb in ABC Order",
    "Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to S."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Find 5 Differences: Swan on the Pond",
-   "Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one."
-  ],
-  "K-397": [
-   "Find 3 Differences: Turkey on the Farm",
-   "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
   ]
  },
  "how-to-draw": {
@@ -79,74 +255,6 @@
   "G2-391": [
    "Draw a Sandcastle from Memory",
    "Look at the picture, fold the page back on the dotted line so you cannot see it, and draw it from memory in the big box."
-  ]
- },
- "alphabet": {
-  "K-317": [
-   "Letter of the Week: Mm",
-   "Trace the big and small letter, circle the four pictures whose name begins with M, then write a row of each."
-  ],
-  "K-325": [
-   "Words with M: Hear It Anywhere",
-   "Trace the letter, then circle the four pictures that have the M sound somewhere inside the word, not at the start."
-  ],
-  "K-326": [
-   "Beginning, Middle or End: Where Is the M?",
-   "Say each picture. Color the box that shows where you hear M: at the beginning, in the middle or at the end."
-  ],
-  "K-327": [
-   "Circle the M in the Words and Count",
-   "Find every M or m in each word and circle it. Then write in the box how many you found."
-  ],
-  "G1-311": [
-   "Sound of the Week: sh",
-   "Trace sh, circle the four pictures that have the sh sound, then write a row of it."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Sight Word of the Day: the",
-   "Read the word. Trace it, write it, and use it in sentences."
-  ],
-  "K-389": [
-   "Sight Word in Sentences: the",
-   "Read each sentence. Write the word “the” on the line."
-  ],
-  "K-390": [
-   "Sight Word Sentence: the",
-   "Work through one sentence, step by step."
-  ],
-  "K-391": [
-   "Trace the Sentences: the",
-   "Trace each sentence. Then write it on the line below."
-  ],
-  "K-392": [
-   "Find the Sight Word: the",
-   "Color every box with the word “the”. Count them and write the number."
-  ],
-  "K-433": [
-   "Read, Trace, Write: the",
-   "Read the word. Trace it. Write it. Then write it in each sentence."
-  ],
-  "K-434": [
-   "Word and Sentence Tracing: the",
-   "Trace the word. Then trace the sentence on each line."
-  ],
-  "K-435": [
-   "Read and Draw: the",
-   "Read the sentence. Trace it. Then draw what the sentence says."
-  ],
-  "K-436": [
-   "Find and Count: the",
-   "Circle the word “the” every time you see it. How many times did you find it?"
-  ],
-  "K-438": [
-   "Build the Word: the",
-   "Cut out the letters. Glue them in the right order to build the word."
-  ],
-  "K-439": [
-   "Rainbow Writing: the",
-   "Trace each word three times, with a different color each time. Then write it."
   ]
  },
  "spelling": {

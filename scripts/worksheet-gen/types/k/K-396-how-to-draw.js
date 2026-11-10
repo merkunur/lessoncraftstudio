@@ -13,6 +13,8 @@
  * Nothing is sampled on any face but the order face's permutation (SCRAMBLE5 / SCRAMBLE4, locale-neutral seed).
  */
 'use strict';
+const FL = require('../../lib/fl-art.js');
+const { formOf } = require('../../lib/fl-forms.js');
 const { bank } = require('../../lib/b7-common.js');
 const B = require('../../data/b7/how-to-draw.js');
 const Hd = require('../../lib/htd-steps.js');
@@ -86,6 +88,16 @@ function root(d, unitSlug, inner) {
   return `<div data-ws-content data-lcs-how-to-draw data-lcs-htd-mode="${d.mode}" data-lcs-htd-unit="${unitSlug}" data-lcs-htd-orient="${d.orient || 'none'}" data-lcs-htd-rail="${d.rail || 'left'}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:0">${inner}</div>`;
 }
 
+// the faces that keep their own lessons: a dotted-shape page needs a drawn lesson, a scene page a scene
+const LESSON_ONLY = new Set(['shapes', 'scene']);
+const _libL = new Map();
+/** the library lessons a face can print in this language: the word face needs a word to trace, every title its noun */
+function libLessons(mode, loc) {
+  const k = mode + '|' + loc;
+  if (!_libL.has(k)) _libL.set(k, FL.keys('htd').filter((key) => { const f = formOf(key, loc); return !!f && (mode !== 'word' || !!f.word); }));
+  return _libL.get(k);
+}
+
 module.exports = {
   id: 'K-396',
   slug: 'how-to-draw',
@@ -132,17 +144,25 @@ module.exports = {
     const mode = d.mode || 'base';
     if (!B.FACES[mode]) throw new Error(`K-396: unknown mode "${mode}"`);
     // the maker (no unit): copy n = the n-th unit of this face at this level (null = the face's published lesson)
-    let picked = null;
+    let picked = null, artTap = '';
     if (!unit && ctx && ctx.slotsOut) {
       const list = B.makerUnits(this.id, difficulty);
       const v = String((ctx.seedVariant || ctx.variant) || 1);
       const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
-      picked = list[(n - 1) % list.length] || null;
+      // the teacher's picture or theme, then the face's published and Level Set lessons, then the library (docs/makers/FLAGSHIP.md).
+      // A face that prints dotted shapes or draws into a scene keeps its own lessons: they need a drawn lesson or a scene.
+      const canLib = !LESSON_ONLY.has(mode) && !(d.guideShapes || d.hintShapes);
+      const lib = canLib ? libLessons(mode, loc) : [];
+      const hit = FL.choose(ctx, lib, n);
+      picked = hit ? 'lib-' + FL.slugOf(hit) : n > list.length && lib.length ? 'lib-' + FL.slugOf(lib[(n - 1 - list.length) % lib.length]) : list[(n - 1) % list.length] || null;
       if (picked) unit = picked;
+      if (canLib) artTap = FL.tap(ctx);
+      if (canLib) FL.report(ctx, lib, picked ? B.unitRecord(picked).src || null : (B.UNITS.find((u) => u.slug === (d.unit || B.unitFor(blk, mode))) || {}).src || null);
     }
     const unitSlug = unit || d.unit || B.unitFor(blk, mode);
     const ls = B.isLs(unitSlug);
     if (ls) d = { ...d, ...((LS_LEVELS[mode === 'copy-steps' ? 'copy' : mode] || {})[difficulty] || {}) };
+    if (ls && mode === 'memory' && d.hintShapes && !B.VECTOR[String(unitSlug).replace(/^lsx-/, '')]) d = { ...d, hintShapes: false };
     const bigShapes = (S0) => { const [x0, y0, x1, y1] = S0.bbox, A = (x1 - x0) * (y1 - y0); return S0.shapes.filter((g) => g.kind && (g.kind === 'ellipse' ? Math.PI * g.rx * g.ry : g.box.w * g.box.h) >= 0.04 * A); };
     B.formFor(blk, unitSlug, loc);   // the title form must exist for this locale (refusal, never a fallback)
     // a page that prints DOTTED SHAPES draws a lesson drawn FROM the shapes (data/htdv, lib/htd-vector.js): every dotted
@@ -311,7 +331,7 @@ module.exports = {
     } else throw new Error(`K-396: mode "${mode}" is not built`);
 
     // only a drawn-lesson page carries the marker: every other page stays byte-identical to its published build
-    return { bodyHtml: S.lesson === 'vector' ? root(d, unitSlug, body).replace('data-lcs-how-to-draw ', 'data-lcs-how-to-draw data-lcs-htd-lesson="vector" ') : root(d, unitSlug, body), meta,
+    return { bodyHtml: (S.lesson === 'vector' ? root(d, unitSlug, body).replace('data-lcs-how-to-draw ', 'data-lcs-how-to-draw data-lcs-htd-lesson="vector" ') : root(d, unitSlug, body)).replace('<div data-ws-content', '<div data-ws-content' + artTap), meta,
       // a maker copy that picked its unit: the unit (the title's tokens) and a Level Set copy's own title and instruction
       ...(picked ? (() => { const s = this.copyStrings({ title: '\u0000', instruction: '\u0000' }, { unit: picked, locale, difficulty }); return { unit: picked, ...(s.title !== '\u0000' ? { strings: { title: s.title, printTitle: s.title, instruction: s.instruction } } : {}) }; })() : {}) };
   },
@@ -341,7 +361,7 @@ module.exports = {
         if (!inside(byStep[i])) fails.push(`card ${stepOf(byStep[i])} outside the page`);
       }
       const n = cards.length;
-      const lsPage = /^lsx-/.test(R.dataset.lcsHtdUnit || '');
+      const lsPage = /^(lsx|lib)-/.test(R.dataset.lcsHtdUnit || '');
       if (!['grid', 'memory', 'finish'].includes(mode) && (n < (lsPage ? 3 : 4) || n > 5)) fails.push(`${n} step cards`);
       if (['grid', 'memory', 'finish'].includes(mode) && n) fails.push('a step card on a no-card face');
       // badges: n digits on step faces, none on order

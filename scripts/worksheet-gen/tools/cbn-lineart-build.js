@@ -10,10 +10,11 @@
 'use strict';
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
 const L = require('../lib/cbn-lineart.js');
-const { LINEART } = require('../data/cbn/lineart-designs.js');
-const OUT = path.join(__dirname, '..', 'data', 'cbn', 'lineart');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
-const only = arg('only') ? new Set(arg('only').split(',')) : null;
+// --designs=<module> --out=<dir>: the flagship library pictures (lib/fl-art.js) go through this same builder, into their own store
+const { LINEART } = require(arg('designs') ? path.resolve(arg('designs')) : '../data/cbn/lineart-designs.js');
+const OUT = arg('out') ? path.resolve(arg('out')) : path.join(__dirname, '..', 'data', 'cbn', 'lineart');
+const only = arg('only-file') ? new Set(fs.readFileSync(arg('only-file'), 'utf8').split(',')) : arg('only') ? new Set(arg('only').split(',')) : null;
 const MIN_PART_R = 9;   // a full-size number (lib/cbn-render.js MIN_R 8.5 + margin)
 const MID_R = 6.5;      // a compact number (lib/cbn-render.js MIN_R_COMPACT 6 + margin: the render measures a piece slightly smaller)
 const PROBE_PX = 24;    // canvas px across an outline (7-unit stroke = 14 px, closed by the segmenter) to the next part

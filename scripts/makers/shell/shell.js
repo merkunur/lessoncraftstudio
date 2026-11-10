@@ -145,7 +145,7 @@ async function boot() {
   offeredCount = offered.length;
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, vocabOf: (theme, noun) => ((((picManifest.themes || {})[theme] || {}).nouns || {})[noun] || {}).vocabKey || null, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, result: (i) => pageResult(i), vocabOf: (theme, noun) => ((((picManifest.themes || {})[theme] || {}).nouns || {})[noun] || {}).vocabKey || null, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor, preset: () => presetFrom,
     // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
     sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); window.__lcsMaker.lastSampleFails = r.ok ? [] : r.fails; return r.ok ? r.html : null; } };
   await loadAccess();
@@ -190,9 +190,12 @@ async function boot() {
     const a = state.active;
     if (!copiesDifferAt(a)) return;
     padPages();
-    state.pages[a] = nextVariant(); state.edits[a] = {}; state.ink[a] = undefined;
+    // (the picture theme she picked stays: New version walks that theme's pictures)
+    const keepTheme = state.edits[a] && state.edits[a].artTheme;
+    state.pages[a] = nextVariant(); state.edits[a] = keepTheme ? { artTheme: keepTheme } : {}; state.ink[a] = undefined;
     if (drawingPage === a) drawingPage = null;
     render();
+    buildControls(tplOf(a));
   });
   // Add page: a new page of the selected page's template and level, selected at once — the gallery then changes it to
   // any template of this maker (a worksheet may mix them)
@@ -657,7 +660,7 @@ async function render(scrollToSelected) {
       // with several pages each header names its page's template (pages may use different ones)
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` }), multi ? el('span', { class: 'mk-page-tpl', text: cardTitle(pt.id) }) : null]);
       const pageUnits = unitsOf(pt, state.lvls[i]);
-      if (canEdit() && pageUnits.length) {
+      if (canEdit() && pageUnits.length && !pt.hideUnits) {
         const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === state.active) syncActive(); render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
@@ -748,9 +751,12 @@ async function openPicker(i, role, idx) {
   // is greyed: the page never shows one picture twice
   const onPage = new Set(Object.values(r.slots).filter((x) => !!x.multi === multi && (x.theme || null) === (slotInfo.theme || null)).flatMap((x) => x.values));
   // a long multi list (any picture of the library) is shown one theme at a time, its themes as chips
-  const themesIn = multi ? [...new Set(slotInfo.pool.map((k) => split(k)[0]))] : [];
+  // (a flagship picture pool, lib/fl-art.js: by the teacher's own groups — Animals, not "animals bw 3")
+  const pageOf = (key) => (slotInfo.art ? artGroupOf(split(key)[0]) : split(key)[0]);
+  const themesIn = multi ? [...new Set(slotInfo.pool.map(pageOf))] : [];
   const paged = multi && slotInfo.pool.length > 60 && themesIn.length > 1;
-  let shown = paged ? (themesIn.includes(split(current)[0]) ? split(current)[0] : themesIn[0]) : null;
+  const startAt = current ? pageOf(current) : (state.edits[i] && state.edits[i].artTheme) || null;
+  let shown = paged ? (themesIn.includes(startAt) ? startAt : themesIn[0]) : null;
   const grid = el('div', { class: isPic ? 'mk-pick-grid' : 'mk-pick-words' });
   // the choices that fit this item (lib/slot.js fits(); fitsLater() is worked out once the picker is open — a crossword lays
   // its grid out again for each choice, ~1 s — and every choice waits greyed until then)
@@ -760,7 +766,7 @@ async function openPicker(i, role, idx) {
   const fill = () => {
     grid.replaceChildren();
     for (const key of slotInfo.pool) {
-      if (paged && split(key)[0] !== shown) continue;
+      if (paged && pageOf(key) !== shown) continue;
       const used = onPage.has(key) && key !== current;
       // a choice the page's own rule would refuse at this item (lib/slot.js fits()) is greyed like a used one
       const unfit = !used && key !== current && !!fitAt && !fitAt.includes(key);
@@ -772,7 +778,7 @@ async function openPicker(i, role, idx) {
     }
     grid.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   };
-  const themeChips = paged ? el('div', { class: 'mk-pick-themes', role: 'group', 'aria-label': UI.pictures }, themesIn.map((th) => el('button', { type: 'button', class: 'mk-chip', 'aria-pressed': String(th === shown), text: themeLabel(th), on: { click: (e) => { shown = th; e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); fill(); } } }))) : null;
+  const themeChips = paged ? el('div', { class: 'mk-pick-themes', role: 'group', 'aria-label': UI.pictures }, themesIn.map((th) => el('button', { type: 'button', class: 'mk-chip', 'aria-pressed': String(th === shown), text: slotInfo.art ? artGroupName(th) : themeLabel(th), on: { click: (e) => { shown = th; e.currentTarget.parentNode.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget))); fill(); } } }))) : null;
   fill();
   dlg.replaceChildren(
     el('div', { class: 'mk-pick-head' }, [el('h2', { text: isPic ? UI.choosePicture : UI.chooseWord }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
@@ -869,6 +875,31 @@ async function choosePick(i, role, idx, key) {
   render();
 }
 
+/* ---------- the flagship picture makers (docs/makers/FLAGSHIP.md): choose a theme, choose a picture ---------- */
+const artGroupOf = (theme) => (tj.artGroups && tj.artGroups.themes[theme]) || theme;
+const artGroupName = (g) => (tj.artGroups && tj.artGroups.names[g] && tj.artGroups.names[g][LANG]) || g;
+/** the theme tiles and the picker button of the selected page, built from the pool the page reported (slot role "art") */
+let controlsBuild = 0;       // buildControls' own count: a page result answers only the latest build
+const lastArt = new Map();   // template → the last page's picture pool: a refused page keeps its theme tiles
+function artControl(t, info) {
+  const a = state.active, ed = state.edits[a] || {}, want = ed.artTheme || null;
+  const row = el('div', { class: 'mk-themes mk-art-themes' });
+  const pick = (g) => { const e = { ...(state.edits[a] || {}) }; delete e.art; if (g) e.artTheme = g; else delete e.artTheme; state.edits[a] = e; state.ink[a] = undefined; if (drawingPage === a) drawingPage = null; buildControls(t); render(); };
+  const firstOf = new Map();
+  for (const k of info.pool) { const g = artGroupOf(k.slice(0, k.indexOf('/'))); if (!firstOf.has(g)) firstOf.set(g, k); }
+  const urlOf = (k) => { const j = k.indexOf('/'), th = k.slice(0, j), n = ((picManifest.themes[th] || {}).nouns || {})[k.slice(j + 1)]; return n ? `/makers-assets/themes-512/${encodeURIComponent(th)}/${encodeURIComponent(n.files[0])}` : ''; };
+  const tile = (g, name, key) => el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String((g || null) === want), title: name, on: { click: () => { if ((g || null) !== want) pick(g); } } },
+    [el('span', { class: 'mk-theme-pic', style: key ? `background-image:url("${urlOf(key)}")` : '' }), el('span', { class: 'mk-theme-name', text: name })]);
+  row.append(tile(null, UI.allThemes, info.pool[0]));
+  const order = (tj.artGroups && tj.artGroups.order) || [...firstOf.keys()];
+  for (const g of order) if (firstOf.has(g)) row.append(tile(g, artGroupName(g), firstOf.get(g)));
+  const n = info.pool.length;
+  return el('div', { class: 'mk-group mk-art', role: 'group', 'aria-label': UI.pictures }, [
+    el('span', { class: 'mk-label', text: UI.pictures }), row,
+    el('button', { type: 'button', class: 'mk-btn mk-art-pick', text: UI.choosePicture, 'data-art-count': String(n), on: { click: () => openPicker(a, 'art', 0) } }),
+  ]);
+}
+
 function chipGroup(label, values, current, onPick, fmt) {
   const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': label }, [el('span', { class: 'mk-label', text: label })]);
   for (const v of values) g.append(el('button', { type: 'button', class: 'mk-chip', 'aria-pressed': String(v === current), text: fmt ? fmt(v) : String(v), on: { click: () => { onPick(v); } } }));
@@ -877,6 +908,10 @@ function chipGroup(label, values, current, onPick, fmt) {
 
 function buildControls(t) {
   const c = $('mk-controls');
+  // a page result that arrives after the controls were built again (another template clicked, a setting changed) belongs
+  // to the old controls: dropped below, or a slow page put its Pictures control on the next template (controls-budget,
+  // 2026-11-09: K-500, which has no pictures, showed K-499's picker)
+  const build = ++controlsBuild;
   if (shared) { c.replaceChildren(sharedCard()); return; }
   if (!isOpen(t.id)) { c.replaceChildren(el('span', { class: 'mk-label', text: UI.sample }), accessCard()); return; }
   const kids = [];
@@ -929,11 +964,19 @@ function buildControls(t) {
   c.replaceChildren(...kids);
   // say once that the page can be tapped — only where this template exposes slots (filled in after the first page)
   // the hint names only what this template lets her tap: pictures/words where it has slots, the title + instruction always
-  pageResult(state.active).then((r) => { if (r.ok && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: r.slots && Object.keys(r.slots).length ? UI.tapHint : UI.tapHintText })); });
+  pageResult(state.active).then((r) => {
+    if (build !== controlsBuild) return;
+    if (r.ok && r.slots && r.slots.art) lastArt.set(t.id, r.slots.art);
+    const artInfo = (r.ok && r.slots && r.slots.art) || lastArt.get(t.id);
+    if (artInfo && isOpen(t.id) && !c.querySelector('.mk-art')) { const more = c.querySelector('.mk-more'); c.insertBefore(artControl(t, artInfo), more); const on = c.querySelector('.mk-art-themes [aria-pressed="true"]'); if (on) on.parentNode.scrollTop = Math.max(0, on.offsetTop - on.parentNode.offsetTop - 8); }
+    if (r.ok && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: r.slots && Object.keys(r.slots).length ? UI.tapHint : UI.tapHintText }));
+  });
 }
 
 /** A gallery card names the worksheet TYPE: the slot for one page's word ({UNIT}, with its ': ' or quotes) is dropped. */
 function cardTitle(id) {
+  // a title whose slot sits mid-sentence has its own label (scripts/makers/card-titles.json, written into the strings)
+  if (strings[id] && strings[id].cardTitle) return strings[id].cardTitle;
   const raw = (strings[id] && (strings[id].printTitle || strings[id].title)) || id;
   return raw.replace(/\s*[:–—-]?\s*[«“„‘”']?\{(UNIT|U|L)\}[»”“’']?/g, '').trim();
 }

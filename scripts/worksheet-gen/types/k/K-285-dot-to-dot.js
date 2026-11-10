@@ -15,6 +15,7 @@ const { COLLATION } = require('../../data/b2/collation.js');
 const { DOT_FIGURES } = require('../../data/b2/figures.js');
 const sceneDotFigure = require('../../primitives/scene-dot-figure.js');
 const platform = require('../../lib/platform/index.js');
+const FL = require('../../lib/fl-art.js');
 
 // ---------------------------------------------------------------- Level Set (2026-10-06): the 200 scene pictures
 // The published page of every face (level 2, copy 1) is built exactly as before. Every NEW page takes its picture from
@@ -135,6 +136,64 @@ function d2dPool(sc, n, fig, alphaLen) {
   return ok.slice(Math.floor(lo * ok.length), Math.floor(hi * ok.length)).filter(fits);
 }
 
+/** a picture of the flagship library (docs/makers/FLAGSHIP.md): one drawing, its own lines are the whole picture */
+function libScene(key) {
+  const sc = platform.readJson(require('path').join(FL.DIR, 'd2d', FL.slugOf(key) + '.json'));
+  for (const v of Object.values(sc.fit)) if (v.ok && !v.ink) { v.art = v.lite; v.ink = v.liteInk; }
+  return sc;
+}
+/** does the figure keep this level's rules? (fig.minGap: G1-486, K-505 … the dots keep that many px apart) */
+function figureOf(scene, fig) {
+  const f = sceneDotFigure({ scene, ...fig });
+  if (fig.minGap) for (let i = 0; i < f.points.length; i++) for (let j = i + 1; j < f.points.length; j++) if (Math.hypot(f.points[i][0] - f.points[j][0], f.points[i][1] - f.points[j][1]) < fig.minGap) throw new Error('dots too close');
+  return f;
+}
+/**
+ * The picture of a page: the teacher's own choice, else the next of her theme, else the copy's place in the published pool
+ * (a published copy is drawn as it always was), and past that pool the next picture of the library, so New version never
+ * runs dry. Reports the library pool to the screen (role "art": the picker and the theme tiles).
+ * → { scene, f } or null when only the caller's hand figures are left
+ */
+const _libFigs = new Map();   // every figure setting a library page was asked for (tools/build-d2d-index.js measures each)
+/** the library slugs refused at a figure setting: index.libRefused = { slugs, sets: { <figKey>: base64 bitset over slugs } } */
+const _libBad = new Map();
+function libRefusedFor(key) {
+  if (_libBad.has(key)) return _libBad.get(key);
+  const R = d2dIndex().libRefused, out = new Set();
+  const b64 = R && R.sets && R.sets[key];
+  if (b64) {
+    const bin = typeof atob === 'function' ? atob(b64) : Buffer.from(b64, 'base64').toString('binary');
+    for (let i = 0; i < R.slugs.length; i++) if (bin.charCodeAt(i >> 3) & (1 << (i & 7))) out.add(R.slugs[i]);
+  }
+  _libBad.set(key, out);
+  return out;
+}
+function pageScene(pool, at, n, fig, ctx, sv, keep) {   // keep(key): a template's own condition on a picture (G1-547: a one-word name)
+  // the library pictures whose numbers find no free place with THIS figure setting never reach the picker or the theme
+  // tiles (flagship visual check 2026-11-08: a teacher's pick of such a picture was refused, e.g. kitchen bw/saucepan at
+  // 10 dots); measured per setting by tools/build-d2d-index.js (index.libRefused), a setting it does not know is gated
+  _libFigs.set(figKey(fig), fig);
+  const bad = libRefusedFor(figKey(fig));
+  const lib = FL.keys('d2d', (fit) => fit[n] != null).filter((k) => !bad.has(FL.slugOf(k)) && (!keep || keep(k)));
+  const walk = (list, start) => {
+    for (let k = 0; k < Math.min(24, list.length); k++) {
+      const scene = libScene(list[(start + k) % list.length]);   // a file not fetched yet throws to the platform's retry
+      try { return { scene, f: figureOf(scene, fig) }; } catch (e) { /* no room for a number here: the next picture */ }
+    }
+    return null;
+  };
+  const w = FL.wish(ctx), hit = FL.choose(ctx, lib, sv);
+  let got = null;
+  if (hit && hit === w.key) { const scene = libScene(hit); got = { scene, f: figureOf(scene, fig) }; }
+  else if (hit) { const mine = lib.filter((k) => FL.groupOf(k) === w.group); got = walk(mine, mine.indexOf(hit)); }
+  else if (sv - 1 >= pool.length) got = walk(lib, sv - 1 - pool.length);
+  if (!got && pool.length && sv - 1 < pool.length) {
+    const tries = Math.min(24, pool.length);
+    for (let k = 0; k < tries && !got; k++) { const scene = fullScene(pool[(at + k) % pool.length]); try { got = { scene, f: sceneDotFigure({ scene, ...fig }) }; } catch (e) { if (k === tries - 1) throw e; } }
+  }
+  FL.report(ctx, lib, got ? got.scene.hero : null);
+  return got;
+}
 
 module.exports = {
   id: 'K-285',
@@ -164,7 +223,8 @@ module.exports = {
     // the published page (level 2, copy 1) is built as before — EXCEPT the faces that printed a grey pre-drawn remainder
     // (window): the operator's review 2026-10-07 ("the drawn part … as if the continuation of the connected dots"); those
     // published pages are rebuilt as a scene page and republished in place
-    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1) || !!(this.difficulty[2] && this.difficulty[2].window);
+    const w0 = FL.wish(ctx);
+    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1) || !!(this.difficulty[2] && this.difficulty[2].window) || !!(w0.key || w0.group);
     const lsKnobs = fresh && LEVEL_SET[this.id] && LEVEL_SET[this.id][difficulty];
     if (lsKnobs) return this._buildScene({ ...this.difficulty[2], ...lsKnobs }, (locale || 'en').slice(0, 2), ctx);
     const d = this.difficulty[difficulty];
@@ -219,9 +279,10 @@ module.exports = {
     // only the figures whose outline takes this many dots (29 letters: 7 of the 16); none takes 10, so a 10-dot level goes
     // round its scene pool again instead (2026-11-05, operator: "This page couldn't be created" after a few New versions —
     // six templates refused every copy past their pool; the gates had only built copies 1-12)
-    const takes = sv - 1 >= pool.length ? DOT_FIGURES.filter((f) => { try { dotFigure({ figure: f, count, size: 560 }); return true; } catch (e) { return false; } }) : [];
-    if (sv - 1 >= pool.length && !takes.length && !pool.length) throw new Error(`${this.id}: no picture for ${count} dots — REFUSED`);
-    if (sv - 1 >= pool.length && takes.length) {
+    const page = pageScene(pool, (sc.offset || 0) + sv - 1, n, figOpts, ctx, sv);
+    const takes = !page && sv - 1 >= pool.length ? DOT_FIGURES.filter((f) => { try { dotFigure({ figure: f, count, size: 560 }); return true; } catch (e) { return false; } }) : [];
+    if (!page && !takes.length && !pool.length) throw new Error(`${this.id}: no picture for ${count} dots — REFUSED`);
+    if (!page && takes.length) {
       const figure = takes[((sc.offset || 0) + sv - 1 - pool.length) % takes.length];
       const hand = dotFigure({ figure, count, step: d.step || 1, startAt: d.startAt, window: null, size: 560, values });
       const hstrip = d.strip === false ? '' : numberStrip({ values: hand.labels, chip: d.chip });
@@ -233,13 +294,12 @@ module.exports = {
         meta: { figure: figure.key, labels: hand.labels },
       };
     }
-    const scene = fullScene(pool[((sc.offset || 0) + sv - 1) % pool.length]);
-    const fig = sceneDotFigure({ scene, ...figOpts });
+    const { scene, f: fig } = page || (() => { const sc0 = fullScene(pool[((sc.offset || 0) + sv - 1) % pool.length]); return { scene: sc0, f: sceneDotFigure({ scene: sc0, ...figOpts }) }; })();
     const strip = d.strip === false ? '' : numberStrip({ values: fig.labels, chip: d.chip });
     return {
       bodyHtml:
         `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:14px" data-ws-content${d.strip === false ? ' data-lcs-nostrip="1"' : ''}>` +
-        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:6px">${ctx && ctx.answerKey ? withPath(fig, !/data-lcs-open="1"/.test(fig.svg)) : fig.svg}</div>` +
+        `<div class="ws-card"${FL.tap(ctx)} style="width:660px;align-items:center;justify-content:center;padding:6px">${ctx && ctx.answerKey ? withPath(fig, !/data-lcs-open="1"/.test(fig.svg)) : fig.svg}</div>` +
         (strip ? `<div class="ws-card" style="width:660px;padding:12px 10px;align-items:center">${strip}</div>` : '') + `</div>`,
       meta: { figure: scene.id, scene: scene.id, labels: fig.labels },
     };
@@ -351,4 +411,4 @@ module.exports = {
   },
 };
 // the scene pool and its bands, for the other dot-to-dot builders (G1-486 Dot-to-Dot with Sums)
-Object.defineProperty(module.exports, 'd2d', { value: { d2dPool, LS_BANDS, fullScene, figKey, copyOf, withPath, placeable: _placeable } });
+Object.defineProperty(module.exports, 'd2d', { value: { d2dPool, LS_BANDS, fullScene, figKey, copyOf, withPath, placeable: _placeable, pageScene, libFigs: _libFigs, libScene, figureOf } });

@@ -18,6 +18,7 @@
  */
 'use strict';
 const { bank } = require('../../lib/b7-common.js');
+const FL = require('../../lib/fl-art.js');
 const B = require('../../data/b7/find-the-differences.js');
 const FD = require('../../lib/fd-scene.js');
 const { pickOps, gap: boxGap } = require('../../lib/fd-compose.js');
@@ -80,7 +81,7 @@ function clipDecoy(box, diffs) {
  * bigger than the Color by Number scenes, so their window shows 1.15 × as much of the scene — printed at the same size
  * (the panel's width is fixed, the viewBox scales). Published units keep the published window.
  */
-const winOf = (d, unit) => { const w = d.window || [260, 200]; return /^fdx-/.test(String(unit || '')) ? [Math.round(w[0] * 1.15), Math.round(w[1] * 1.15)] : w; };
+const winOf = (d, unit) => { const w = d.window || [260, 200]; return /^fd[xl]-/.test(String(unit || '')) ? [Math.round(w[0] * 1.15), Math.round(w[1] * 1.15)] : w; };
 /** a maker copy that picked its unit (makers 2026-11-02): the unit (runtime.makePage names it in the title) and, for the
  *  two-pair faces, the Level Set copy's own title (copyStrings) */
 function makerCopy(spec, picked, locale) {
@@ -242,6 +243,23 @@ function screenHotspots(panel, pIdx, meta, window) {
   return hots;
 }
 
+/**
+ * does a composition make a tap screen? The screen needs at least one drawing to leave (a decoy) besides the differences
+ * (interactive-runtime: tap-select needs both kinds of item). A scene whose few drawings are ALL changed, or whose unchanged
+ * drawings sit under the differences' rings, makes none (flagship visual check 2026-11-08: a teacher's pick of a fishbowl,
+ * a cupcake or a colander on K-395 / K-397 printed a page whose screen could not be built). Faces without a tap screen pass.
+ */
+function screenable(mode, comp, wins, loc, d) {
+  if (mode === 'how-many') return true;
+  // the word face's screen taps WORDS: it needs a changed word and an unchanged one (d.minUnticked) in the list; a scene
+  // whose every listed noun changed (a teacher's jellyfish, G1-414) leaves nothing to leave unticked
+  if (mode === 'what-changed') {
+    try { const w = wordsFor(comp.panels[0], loc || 'en', makeRng('screenable')); return w.some((x) => x.changed) && w.filter((x) => !x.changed).length >= ((d && d.minUnticked) || 1); } catch (e) { return false; }
+  }
+  if (mode === 'pairs') { const p = comp.panels[0]; return (wins || []).some((wn, i) => screenHotspots({ ...p, ops: [p.ops[wn.op]], rings: [p.rings[wn.op]], hotspots: [p.hotspots[wn.op]] }, i, {}, wn.box).some((h) => !h.diff)); }
+  return comp.panels.some((p, i) => screenHotspots(p, i, {}).some((h) => !h.diff));
+}
+
 function root(d, mode, units, count, inner, extra = '') {
   return `<div data-ws-content class="fd-page" data-lcs-fd-count="${count}" data-lcs-fd-mode="${mode}" data-lcs-fd-unit="${esc(units.join('|'))}" data-lcs-fd-layout="${d.layout || 'stack'}" ${extra} style="width:${PAGE_W}px;display:flex;flex-direction:column;align-items:center;flex:0 0 auto">${inner}</div>`;
 }
@@ -305,23 +323,50 @@ module.exports = {
     if (!B.MODES.includes(mode)) throw new Error(`K-395: unknown mode "${mode}"`);
     const rng = ctx.rng;
     const seed = rng.seed;
+    let rngUse = rng, seedUse = seed;   // a teacher's own picture may need a seed of its own (below); else the copy's
     // the maker (no unit): copy n = the n-th unit of this face at this level (null = the face's published unit)
     let picked = null;
     if (!unit && ctx && ctx.slotsOut) {
       const list = B.makerUnits(this.id, difficulty);
       const v = String((ctx.seedVariant || ctx.variant) || 1);
       const n = /^\d+$/.test(v) ? +v : (+v.split('.')[0] || 1) + (+v.split('.')[1] || 0);
-      picked = list[(n - 1) % list.length] || null;
+      // the teacher's picture or theme, the face's reviewed copies, then every other scene that builds on this face
+      // a scene with too few drawings for its differences leaves nothing to tap but the differences, so its screen cannot be
+      // built (flagship visual check 2026-11-08: a fishbowl scene of five drawings on a five-difference face): the picker
+      // offers only scenes with at least two drawings beyond the differences, on the faces that have a tap screen
+      // the word face taps WORDS: its scene needs more nameable things than differences (d.minUnticked more), or every
+      // listed word is a changed one (a jellyfish scene of a jellyfish, a starfish and a fish, flagship check 2026-11-08)
+      const tapScreen = mode !== 'how-many' && mode !== 'what-changed';
+      // (the counts come from the pins file — B.sceneFacts: the browser has not fetched the scene files yet)
+      const roomy = (u) => mode === 'how-many' || String(u).split('|').every((id) => { try { const f = B.sceneFacts(id) || (() => { const sc = B.loadScene(id); return { n: sc.items.length, listable: listableNouns(sc, id) }; })(); return mode === 'what-changed' ? f.listable >= (d.count || 3) + (d.minUnticked || 1) : !tapScreen || f.n >= (d.count || 3) + 2; } catch (e) { return false; } });
+      const more = B.makerPins(this.id, difficulty).filter(roomy), heroes = [...new Set(more.map(B.heroOf).filter(Boolean))];
+      const hit = FL.choose(ctx, heroes, n);
+      picked = hit ? more.find((u) => B.heroOf(u) === hit) : n > list.length && more.length ? more[(n - 1 - list.length) % more.length] : list[(n - 1) % list.length] || null;
+      // a scene can refuse one copy's seed (the pins tried two): the picture's other scenes, then its theme's, take its place
+      if (hit || n > list.length) {
+        const h0 = hit || B.heroOf(picked), g0 = FL.groupOf(h0), same = more.filter((u) => B.heroOf(u) === h0), kin = more.filter((u) => FL.groupOf(B.heroOf(u)) === g0);
+        // (the teacher's own picture: only its scenes; the next seed tries again, and the page says when it does not fit)
+        const cands = (FL.wish(ctx).key ? [...new Set([picked, ...same])] : [...new Set([picked, ...same, ...kin, ...more])]).slice(0, 14);
+        // ("K-395 pairs: … cannot place … windows" is a scene that does not fit too, flagship visual check 2026-11-08)
+        // (and a page that makes no tap screen does not fit either: screenable)
+        const first = (s) => { for (const u of cands) { try { const cw = composeWithWindows(planFor(d, mode, String(u).includes('|') ? String(u).split('|') : u), makeRng(s)); if (!screenable(mode, cw.comp, cw.wins, loc, d)) continue; return u; } catch (e) { if (!/^(fd-|K-395 pairs)/.test(e.message)) throw e; } } return null; };
+        let got = first(rng.seed);
+        // the teacher's own picture that no scene of it carries at this seed: the page takes a seed of its own (the maker
+        // never retries an edited page; a picture the picker offers always makes a page). Published pages keep their seed.
+        if (!got && FL.wish(ctx).key) for (let k = 1; k <= 8 && !got; k++) { const s = rng.seed + '/' + k; got = first(s); if (got) { seedUse = s; rngUse = makeRng(s); } }
+        if (got) picked = got;
+      }
       if (picked) unit = picked;
+      if (heroes.length) FL.report(ctx, heroes, picked ? B.heroOf(picked) : null);
     }
     const unitArg = unit ? (String(unit).includes('|') ? String(unit).split('|') : unit) : null;
     const plan = planFor(d, mode, unitArg);
-    const { comp, wins: pairWins } = composeWithWindows(plan, rng);   // the FIRST rng use: the oracle replays it
+    const { comp, wins: pairWins } = composeWithWindows(plan, rngUse);   // the FIRST rng use: the oracle replays it
     const units = comp.panels.map((p) => p.unit);
     const count = comp.count;
     const screen = !!(ctx && ctx.interactive), key = !!(ctx && ctx.answerKey);
     const meta = { mode, unit: units.join('|'), count, ops: comp.panels.map((p) => p.ops.map((c) => c.kind + ':' + c.item + (c.src ? ':' + c.src : '')).join(',')).join(';') };
-    const planMeta = { 'data-lcs-fd-seed': seed, 'data-lcs-fd-plan': JSON.stringify(plan) };
+    const planMeta = { 'data-lcs-fd-seed': seedUse, 'data-lcs-fd-plan': JSON.stringify(plan) };
     const layout = d.layout || 'stack';
     let wins = null;
     if (mode === 'pairs') { wins = pairWins; meta.cells = wins.map((w) => w.cell).join(''); }
@@ -360,7 +405,7 @@ module.exports = {
         const p = comp.panels[0];
         const p1 = panelSvg(p, { width: sw, clipId: 'fds1', attrs: ' data-lcs-fd-panel="1" data-lcs-fd-pair="0"', ops: false });
         const p2 = panelSvg(p, { width: sw, clipId: 'fds2', attrs: ' data-lcs-fd-panel="2" data-lcs-fd-pair="0"', ops: true });
-        const words = wordsFor(p, loc, rng);
+        const words = wordsFor(p, loc, rngUse);
         const m = Object.entries(planMeta).map(([k, v]) => ` ${k}="${esc(v)}"`).join('');
         const rows = words.map((x) => `<div data-lcs-fd-hotspot="w-${esc(x.k)}" data-lcs-fd-word="${esc(x.k)}" data-lcs-label="${esc(x.text)}"${x.changed ? ' data-lcs-fd-diff="1"' : ''}${m} style="display:flex;align-items:center;justify-content:center;width:675px;height:96px;box-sizing:border-box;border:2px solid #146B5E;border-radius:14px;background:#FFFFFF;font-family:Nunito,sans-serif;font-weight:800;font-size:30px;color:#3A3530">${esc(x.text)}</div>`);
         body = C7.fdScreenStack({ panels: [p1, p2, `<div style="display:flex;flex-direction:column;gap:8px;width:675px;padding-top:4px">${rows.join('')}</div>`] });
@@ -397,7 +442,7 @@ module.exports = {
         right = `<div style="padding-top:${ph + 12}px">${C7.fdCountBox({ w: rightW, h: (d.box && d.box.h) || 64, answer: key ? String(count) : '' })}</div>`;
       } else if (mode === 'what-changed') {
         rightW = 232;   // the word column narrowed so the 384-wide stack fits beside it (the longest shipped word, nl lieveheersbeestje, needs ~165)
-        const words = wordsFor(p, loc, rng);
+        const words = wordsFor(p, loc, rngUse);
         right = C7.fdWordTicks({ words, box: d.box || 28, w: rightW, ticks: key ? words.map((x) => (x.changed ? 1 : 0)) : null, stamp: key });
       } else {
         rightW = 118;
@@ -457,7 +502,7 @@ module.exports = {
       // the top row's tabs: "1" over window 1 and "2" over window 2 (one tab per column, the first row only)
       body = `<div style="display:flex;flex-direction:column;gap:20px;align-items:center;width:${PAGE_W}px">${rows.join('')}</div>`;
     } else throw new Error(`K-395: layout "${layout}" is not built`);
-    return { bodyHtml: root(d, mode, units, count, body, key ? 'data-lcs-fd-key="1"' : ''), meta, ...makerCopy(this, picked, locale) };
+    return { bodyHtml: root(d, mode, units, count, body, (key ? 'data-lcs-fd-key="1"' : '') + FL.tap(ctx)), meta, ...makerCopy(this, picked, locale) };
   },
 
   async verify(page) {
@@ -538,6 +583,9 @@ module.exports = {
     return fails.concat(dom);
   },
 };
+
+/** how many distinct nouns of a scene the word list can name (wordsFor's rules: no clashing word, no misnamed drawing) */
+const listableNouns = (scene, unit) => B.listableNouns(scene, unit);   // (data/b7/find-the-differences.js: the pins tool counts with it too)
 
 /** the what-changed / write word list: the DISTINCT nouns of picture 1 in a seeded shuffle, each with its vocab key */
 function wordsFor(panel, loc, rng, o = {}) {

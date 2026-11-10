@@ -4530,5 +4530,229 @@
   "K-578": {
     "title": "Figur- og farvebanko: opråbskort",
     "instruction": "Klip kortene ud, og bland dem. Tag ét kort ad gangen, og læs figuren og farven højt. Gem de kort, du har råbt op, så du kan tjekke hver banko."
+  },
+  "K-579": {
+    "title": "Alfabetet til farvelægning: {U}",
+    "instruction": "Farvelæg siden. Gør den så flot og farverig, du kan."
+  },
+  "K-580": {
+    "title": "Tal til farvelægning: {U}",
+    "instruction": "Farvelæg alt på siden. Tæl stjernerne."
+  },
+  "K-581": {
+    "title": "Farvelæg dit navn",
+    "instruction": "Farvelæg hvert bogstav i dit navn."
+  },
+  "K-582": {
+    "title": "Farvelæg og tæl",
+    "instruction": "Farvelæg billederne. Tæl hver slags, og skriv, hvor mange der er."
+  },
+  "K-583": {
+    "title": "Bogmærker til farvelægning",
+    "instruction": "Farvelæg bogmærkerne. Klip dem ud langs de stiplede linjer."
+  },
+  "K-584": {
+    "title": "Prik til prik: bogstavet {U}",
+    "instruction": "Start ved den orange prik. Tegn streger fra prik til prik i den rigtige rækkefølge, til bogstavet kommer frem. Farvelæg det så."
+  },
+  "K-585": {
+    "title": "Prik til prik: tallet {U}",
+    "instruction": "Start ved den orange prik. Tegn streger fra prik til prik i den rigtige rækkefølge, til tallet kommer frem. Farvelæg det så."
+  },
+  "K-586": {
+    "title": "To små prik-til-prik-billeder",
+    "instruction": "Start ved den orange prik i hvert billede. Tegn streger fra prik til prik i den rigtige rækkefølge."
+  },
+  "G1-547": {
+    "title": "Prik til prik og skriv ordet",
+    "instruction": "Tegn streger fra prik til prik i den rigtige rækkefølge. Skriv så, hvad billedet viser."
+  },
+  "K-587": {
+    "title": "Farvelæg med plusstykker: {UNIT}",
+    "instruction": "Regn hvert plusstykke i koden ud. Farvelæg hver del med svarets farve."
+  },
+  "K-588": {
+    "title": "Farvelæg efter bogstaver: {UNIT}",
+    "instruction": "Farvelæg hver del med den farve, der hører til bogstavet."
+  },
+  "K-591": {
+    "title": "Bogstavgitter: find forskellene",
+    "instruction": "Se på det øverste gitter. Find de {N} bogstaver, der er ændret i det nederste gitter. Farvelæg dem."
+  },
+  "K-592": {
+    "title": "Talgitter: find forskellene",
+    "instruction": "Se på det øverste gitter. Find de {N} tal, der er ændret i det nederste gitter. Farvelæg dem."
+  },
+  "G1-548": {
+    "title": "Billedgitter: find forskellene",
+    "instruction": "Se på det øverste gitter. Find de {N} billeder, der er ændret i det nederste gitter. Sæt ring om dem."
+  },
+  "K-593": {
+    "title": "Hvem kigger den anden vej?",
+    "instruction": "I hver række kigger ét billede den anden vej. Sæt ring om det."
+  },
+  "K-594": {
+    "title": "Hvilket billede har en anden størrelse?",
+    "instruction": "I hver række har ét billede en anden størrelse. Sæt ring om det."
+  },
+  "K-595": {
+    "title": "Slå og tegn et monster",
+    "instruction": "Slå med terningen for hver række. Tegn delen under dit tal i feltet."
+  },
+  "K-596": {
+    "title": "Slå og tegn en robot",
+    "instruction": "Slå med terningen for hver række. Tegn delen under dit tal i feltet."
+  },
+  "K-597": {
+    "title": "Slå og tegn et insekt",
+    "instruction": "Slå med terningen for hver række. Tegn delen under dit tal i feltet."
+  },
+  "K-598": {
+    "title": "Tegneplakat",
+    "instruction": "Se på trinene i rækkefølge. Farvelæg navnet og den færdige tegning."
+  },
+  "G1-549": {
+    "title": "Tegn det tre gange",
+    "instruction": "Følg trinene. Tegn billedet stort, så mindre og så helt lille."
+  },
+  "K-599": {
+    "title": "To billeder at tegne efter",
+    "instruction": "Tegn efter alle de stiplede streger i begge billeder. Begynd ved de sorte prikker."
+  },
+  "K-600": {
+    "title": "Tegn efter vejen",
+    "instruction": "Begynd ved den sorte prik i hver række. Tegn efter vejen hen til det andet billede."
+  },
+  "K-601": {
+    "title": "Tegn efter rammen",
+    "instruction": "Begynd ved den sorte prik, og tegn efter rammen. Tegn så noget, du kan lide, inden i den."
+  },
+  "K-602": {
+    "title": "Tegn efter kæmpebogstavet: {U}",
+    "instruction": "Begynd ved den sorte prik. Tegn efter omridset. Farvelæg så bogstavet."
+  },
+  "K-609": {
+    "title": "Tegn efter kæmpetallet: {U}",
+    "instruction": "Begynd ved den sorte prik. Tegn efter omridset. Farvelæg så tallet."
+  },
+  "K-603": {
+    "title": "Tæl og farvelæg tallet",
+    "instruction": "Tæl billederne i hver række. Farvelæg det tal, der viser, hvor mange der er."
+  },
+  "K-604": {
+    "title": "Talstien",
+    "instruction": "Find 1. Farvelæg tallene i rækkefølge op til {N}, det ene ved siden af det andet, så der bliver en sti."
+  },
+  "K-606": {
+    "title": "Farvelæg det største tal",
+    "instruction": "Se på de to tal i hvert felt. Farvelæg det største tal."
+  },
+  "K-607": {
+    "title": "Regn og farvelæg svaret",
+    "instruction": "Regn hvert stykke ud. Farvelæg det tal, der er svaret."
+  },
+  "G2-499": {
+    "title": "Tæl i spring og farvelæg",
+    "instruction": "Farvelæg alle de tal, du siger, når du tæller i spring på {N}."
+  },
+  "K-608": {
+    "title": "Farvelæg talparret",
+    "instruction": "Farvelæg de to tal i hver række, der tilsammen giver {N}."
+  },
+  "G1-551": {
+    "title": "Farvelæg tierne",
+    "instruction": "Farvelæg cifferet på tiernes plads i hvert tal."
+  },
+  "K-610": {
+    "title": "Farvelæg og skriv oven i: {U}",
+    "instruction": "Farvelæg det store tal. Skriv så oven i tallene på linjerne."
+  },
+  "K-611": {
+    "title": "Min talplakat: {U}",
+    "instruction": "Farvelæg tallet og ordet. Farvelæg så lige så mange felter i rammen."
+  },
+  "K-612": {
+    "title": "Farvelæg tallet og fyld rammen",
+    "instruction": "Farvelæg hvert tal. Farvelæg så lige så mange felter i rammen."
+  },
+  "K-613": {
+    "title": "Farvelæg dagene",
+    "instruction": "Farvelæg dagens tal hver dag, til hele måneden er farvelagt."
+  },
+  "K-614": {
+    "title": "Farvelæg bogstavmønsteret",
+    "instruction": "Farvelæg ens bogstaver med samme farve. Skriv det bogstav, der kommer bagefter."
+  },
+  "K-615": {
+    "title": "Bogstaver eller tal?",
+    "instruction": "Farvelæg alle bogstaverne. Lad tallene være hvide."
+  },
+  "K-616": {
+    "title": "Find og farvelæg: {U}",
+    "instruction": "Se på bogstavet øverst. Find det i gitteret, og farvelæg det hver gang."
+  },
+  "K-617": {
+    "title": "Farvelæg og skriv oven i: {U}",
+    "instruction": "Farvelæg de store bogstaver. Skriv så oven i bogstaverne på linjerne."
+  },
+  "K-618": {
+    "title": "Farvelæg det første bogstav",
+    "instruction": "Sig, hvad hvert billede hedder. Farvelæg det bogstav, ordet begynder med."
+  },
+  "K-619": {
+    "title": "Farvelæg det hyppige ord: {U}",
+    "instruction": "Læs ordet. Farvelæg det, hver gang du finder det."
+  },
+  "G1-552": {
+    "title": "Farvelæg den rigtige stavemåde",
+    "instruction": "Se på hvert billede. Farvelæg det ord, der er stavet rigtigt."
+  },
+  "K-620": {
+    "title": "Farvelæg stavelserne",
+    "instruction": "Sig hvert ord, og klap stavelserne. Farvelæg hver stavelse med sin egen farve."
+  },
+  "K-621": {
+    "title": "Farvelæg og skriv ordet",
+    "instruction": "Sig ordet. Farvelæg de store bogstaver. Skriv så ordet på linjen."
+  },
+  "K-622": {
+    "title": "Ordjagt til farvelægning",
+    "instruction": "Find hvert ord i gitteret, og farvelæg bogstaverne. Brug en ny farve til hvert ord."
+  },
+  "K-623": {
+    "title": "Farvebanko",
+    "instruction": "Tag en plade. Lyt til tallene fra 1 til {N}. Farvelæg hvert tal, du hører. Tre på stribe vinder."
+  },
+  "K-624": {
+    "title": "Alfabetkort til farvelægning",
+    "instruction": "Farvelæg hvert kort. Klip så kortene ud langs de stiplede linjer."
+  },
+  "K-625": {
+    "title": "Min navneplakat",
+    "instruction": "Farvelæg bogstaverne i dit navn. Tegn dig selv i feltet."
+  },
+  "K-626": {
+    "title": "Farvelæg bogstavet på den rigtige plads",
+    "instruction": "Start ved pilen på hver række, og tæl pladserne. Farvelæg bogstavet på den plads, der er vist."
+  },
+  "G3-480": {
+    "title": "Prik til prik: tæl i spring",
+    "instruction": "Start ved den orange prik. Tæl i spring på {N}, og tegn streger fra prik til prik."
+  },
+  "G3-479": {
+    "title": "Farvelæg med gangestykker: {UNIT}",
+    "instruction": "Regn hvert gangestykke i koden ud. Farvelæg hver del med svarets farve."
+  },
+  "G1-555": {
+    "title": "Hemmeligt billede i tern",
+    "instruction": "Farvelæg hvert tern med tallets farve. Hvilket billede kommer frem?"
+  },
+  "G1-553": {
+    "title": "Det skjulte bogstav",
+    "instruction": "Farvelæg hvert tern med et ulige tal. Hvilket bogstav ser du? Skriv det i feltet."
+  },
+  "G1-554": {
+    "title": "Farvelæg de ulige tal",
+    "instruction": "Farvelæg alle ulige tal. Lad de lige tal være hvide."
   }
 }

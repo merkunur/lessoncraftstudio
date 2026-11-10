@@ -190,6 +190,9 @@ C:temp*
 C:Users*
 image library/
 image-library-webp/
+# The flagship drawings (art-src: the hand-drawn SVG masters) are images: never in git, protected like the image library
+# (operator 2026-11-08). Masters: the PC + lcs-backups/flagship-art + the server's isolated /var/www/lcs-media/flagship-art.
+scripts/worksheet-gen/art-src/
 
 # Junction artifacts of scripts/swap-dev-images-to-canonical.js (ran ~2026-04-24), which
 # rebuilt frontend/public/images/ out of Windows junctions.

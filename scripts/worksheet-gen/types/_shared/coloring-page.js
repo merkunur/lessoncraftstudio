@@ -22,6 +22,7 @@
  */
 'use strict';
 const slot = require('../../lib/slot.js');
+const FL = require('../../lib/fl-art.js');
 const { entriesFor, displayWord, traceable, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
 const { WORD_EXCLUDE, isPhrase, isNonNoun } = require('../../lib/picture-word-review.js');
@@ -61,7 +62,11 @@ const KEY_HEX = { red: tokens.codeColors.codeRed, blue: tokens.codeColors.codeBl
 /** the drawings of a B&W theme a page may use (refused drawings out); `named`: only those with a plain, traceable name */
 function poolFor(theme, loc, named, maxLetters) {
   if (!isBw(theme)) throw new Error(`coloring-page: ${theme} is a colour theme — coloring pages print line art only (refused)`);
-  let pool = entriesFor(theme, loc).filter((e) => !refusedPicture(theme, e.noun));
+  // a theme of the flagship set (docs/makers/FLAGSHIP.md): its drawings have no vocabulary key; their words are lib/fl-art.js's
+  const themeRec = manifest().themes[theme];
+  let pool = themeRec && themeRec.fl
+    ? Object.keys(themeRec.nouns).map((noun) => ({ noun, vocabKey: noun, px: themeRec.nouns[noun].px, singular: FL.nameOf(theme + '/' + noun, loc), plural: '', gender: null })).filter((e) => e.singular)
+    : entriesFor(theme, loc).filter((e) => !refusedPicture(theme, e.noun));
   if (named) {
     pool = pool.map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
       .filter((e) => !WORD_EXCLUDE.all.includes(e.vocabKey) && !(WORD_EXCLUDE[loc] || []).includes(e.vocabKey) && !isNonNoun(e.vocabKey) && !isPhrase(e.word))

@@ -49,7 +49,7 @@ module.exports = {
     const svg2 = key ? F.panel(got.scene, [], { width: pw, clipId: 'fdm2', attrs: ' data-lcs-fd-panel="2"', rings: got.r.rings })
       : F.panel(got.scene, got.r.ops, { width: pw, clipId: 'fdm2', attrs: ' data-lcs-fd-panel="2"', dashed: d.guides ? got.r.rings : null });
     const p2 = C7.fdPicture({ svg: svg2, w: pw, h: ph, tab: 2 });
-    const body = `<div data-ws-content data-lcs-fd-face="missing-draw" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.r.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-fd-face="missing-draw" data-lcs-fd-unit="${got.id}" data-lcs-fd-count="${got.r.ops.length}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">` +
       `<div data-lcs-key-sample="picture" style="display:flex;justify-content:center;width:675px;padding-right:30px;box-sizing:border-box">${C7.fdStack({ p1, p2 })}</div></div>`;
     return { bodyHtml: body, meta: { unit: got.id, gone: got.r.ops.map((c) => c.item).join(',') } };
   },

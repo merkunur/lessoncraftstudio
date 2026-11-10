@@ -1,4 +1,204 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Tallstien",
+   "Finn 1. Fargelegg tallene i rekkefølge opp til 15, det ene ved siden av det andre, så det blir en sti."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Fargelegg tallparet",
+   "Fargelegg de to tallene i hver rad som til sammen blir 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Fargelegg gangetabellen",
+   "Fargelegg alle tallene i 4-gangen."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Min tallplakat: 1",
+   "Fargelegg tallet og ordet. Fargelegg så like mange ruter i rammen."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Fargelegg og skriv over: 1",
+   "Fargelegg det store tallet. Skriv så over tallene på linjene."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Prikk til prikk: bokstaven A",
+   "Start på den oransje prikken. Trekk strek fra prikk til prikk i riktig rekkefølge til bokstaven kommer fram. Fargelegg den så."
+  ],
+  "K-585": [
+   "Prikk til prikk: tallet 1",
+   "Start på den oransje prikken. Trekk strek fra prikk til prikk i riktig rekkefølge til tallet kommer fram. Fargelegg det så."
+  ],
+  "G3-480": [
+   "Prikk til prikk: tell med hopp",
+   "Start på den oransje prikken. Tell med 4 om gangen og trekk strek fra prikk til prikk."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Fargelegg med plusstykker: Hjort",
+   "Regn ut hvert plusstykke i koden. Fargelegg hver del med fargen til svaret."
+  ],
+  "K-588": [
+   "Fargelegg etter bokstaver: Hjort",
+   "Fargelegg hver del med fargen som hører til bokstaven."
+  ],
+  "G3-479": [
+   "Fargelegg med gangestykker: Hjort",
+   "Regn ut hvert gangestykke i koden. Fargelegg hver del med fargen til svaret."
+  ],
+  "K-393": [
+   "Fargelegg etter tall: Sau på gården",
+   "Fargelegg hver del med fargen som hører til tallet."
+  ],
+  "K-394": [
+   "Fargelegg etter tall: Hjort",
+   "Fargelegg hver del med fargen som hører til tallet."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alfabetet til fargelegging: A",
+   "Fargelegg siden. Gjør den så fin og fargerik du kan."
+  ],
+  "K-580": [
+   "Tall til fargelegging: 1",
+   "Fargelegg alt på siden. Tell stjernene."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Bokstavrutenett: finn forskjellene",
+   "Se på det øverste rutenettet. Finn de 5 bokstavene som er endret i det nederste rutenettet. Fargelegg dem."
+  ],
+  "K-592": [
+   "Tallrutenett: finn forskjellene",
+   "Se på det øverste rutenettet. Finn de 5 tallene som er endret i det nederste rutenettet. Fargelegg dem."
+  ],
+  "G1-548": [
+   "Bilderutenett: finn forskjellene",
+   "Se på det øverste rutenettet. Finn de 5 bildene som er endret i det nederste rutenettet. Sett ring rundt dem."
+  ],
+  "K-395": [
+   "Finn fem feil: Svane på dammen",
+   "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+  ],
+  "K-397": [
+   "Finn tre feil: Kalkun på gården",
+   "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Tegn over kjempebokstaven: A",
+   "Begynn ved den svarte prikken. Tegn over omrisset. Fargelegg så bokstaven."
+  ],
+  "K-609": [
+   "Tegn over kjempetallet: 1",
+   "Begynn ved den svarte prikken. Tegn over omrisset. Fargelegg så tallet."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Fargelegg og skriv over: A",
+   "Fargelegg de store bokstavene. Skriv så over bokstavene på linjene."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Finn og fargelegg: A",
+   "Se på bokstaven øverst. Finn den i rutenettet og fargelegg den hver gang."
+  ],
+  "K-317": [
+   "Ukens bokstav: S s",
+   "Spor stor og liten S. Sett ring rundt de fire bildene som begynner med s, og skriv så en rad av hver bokstav."
+  ],
+  "K-325": [
+   "Ord med S: Hører du s inni ordet?",
+   "Spor bokstaven. Sett ring rundt de fire bildene der du hører s et sted inni ordet, ikke først."
+  ],
+  "K-326": [
+   "Først, i midten eller sist: Hvor hører du S?",
+   "Si hvert ord høyt. Fargelegg ruten som viser hvor du hører s: først, i midten eller sist i ordet."
+  ],
+  "K-327": [
+   "Finn S i ordene og tell",
+   "Let etter hver S og s i ordene og sett ring rundt dem. Skriv så i ruten hvor mange du fant."
+  ],
+  "K-328": [
+   "Begynner ordet med S eller F? Velg riktig bokstav",
+   "Si hvert ord høyt. Sett ring rundt bokstaven som ordet begynner med: s eller f."
+  ],
+  "G1-311": [
+   "Ukens lyd: ng",
+   "Spor ng, sett ring rundt de fire bildene der du hører ng, og skriv så en rad."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Fargelegg det høyfrekvente ordet: og",
+   "Les ordet. Fargelegg det hver gang du finner det."
+  ],
+  "K-388": [
+   "Dagens ord: og",
+   "Les ordet. Spor det, skriv det og bruk det i setninger."
+  ],
+  "K-389": [
+   "Høyfrekvente ord i setninger: og",
+   "Les hver setning. Skriv ordet «og» på streken."
+  ],
+  "K-390": [
+   "En setning med og",
+   "Arbeid med én setning, steg for steg."
+  ],
+  "K-391": [
+   "Spor setningene: og",
+   "Spor hver setning. Skriv den så på streken under."
+  ],
+  "K-392": [
+   "Finn ordet: og",
+   "Fargelegg hver rute med ordet «og». Tell dem og skriv tallet."
+  ],
+  "K-433": [
+   "Les, spor, skriv: og",
+   "Les ordet. Spor det. Skriv det. Skriv det så i hver setning."
+  ],
+  "K-434": [
+   "Spor ordet og setningen: og",
+   "Spor ordet. Spor så setningen på hver linje."
+  ],
+  "K-435": [
+   "Les og tegn: og",
+   "Les setningen. Spor den. Tegn så det setningen forteller."
+  ],
+  "K-436": [
+   "Finn og tell: og",
+   "Sett ring rundt ordet «og» hver gang du ser det. Hvor mange ganger fant du det?"
+  ],
+  "K-438": [
+   "Bygg ordet: og",
+   "Klipp ut bokstavene. Lim dem på i riktig rekkefølge, så de blir til ordet."
+  ],
+  "K-439": [
+   "Regnbueskriving: og",
+   "Spor hvert ord tre ganger, med en ny farge hver gang. Skriv det så."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Fargebingo",
+   "Ta et brett. Lytt til tallene fra 1 til 20. Fargelegg hvert tall du hører. Tre på rad vinner."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Talldetektiven",
@@ -9,30 +209,10 @@
    "I hver rad og hver kolonne skal 1, 2, 3 og 4 stå én gang. Tallene i et bur med tykk kant blir til sammen det lille tallet i hjørnet."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Fargelegg etter tall: Sau på gården",
-   "Fargelegg hver del med fargen som hører til tallet."
-  ],
-  "K-394": [
-   "Fargelegg etter tall: Hjort",
-   "Fargelegg hver del med fargen som hører til tallet."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Hopp gjennom bikaken i alfabetisk rekkefølge",
    "Start i ruten som pilen peker på. Fargelegg neste bokstav i alfabetet i en rute ved siden av, helt til Å."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Finn fem feil: Svane på dammen",
-   "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
-  ],
-  "K-397": [
-   "Finn tre feil: Kalkun på gården",
-   "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
   ]
  },
  "how-to-draw": {
@@ -81,82 +261,10 @@
    "Se på bildet, brett arket bakover langs den stiplede linja så du ikke ser det, og tegn det etter hukommelsen i den store ruta."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "Ukens bokstav: S s",
-   "Spor stor og liten S. Sett ring rundt de fire bildene som begynner med s, og skriv så en rad av hver bokstav."
-  ],
-  "K-325": [
-   "Ord med S: Hører du s inni ordet?",
-   "Spor bokstaven. Sett ring rundt de fire bildene der du hører s et sted inni ordet, ikke først."
-  ],
-  "K-326": [
-   "Først, i midten eller sist: Hvor hører du S?",
-   "Si hvert ord høyt. Fargelegg ruten som viser hvor du hører s: først, i midten eller sist i ordet."
-  ],
-  "K-327": [
-   "Finn S i ordene og tell",
-   "Let etter hver S og s i ordene og sett ring rundt dem. Skriv så i ruten hvor mange du fant."
-  ],
-  "K-328": [
-   "Begynner ordet med S eller F? Velg riktig bokstav",
-   "Si hvert ord høyt. Sett ring rundt bokstaven som ordet begynner med: s eller f."
-  ],
-  "G1-311": [
-   "Ukens lyd: ng",
-   "Spor ng, sett ring rundt de fire bildene der du hører ng, og skriv så en rad."
-  ]
- },
  "syllables": {
   "G1-333": [
    "Vanskeligere lydrette ord: ord med dobbel konsonant",
    "Les alle ordene på leseteppet høyt. Si ordet til hvert bilde, finn det på teppet og skriv det på linja."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Dagens ord: og",
-   "Les ordet. Spor det, skriv det og bruk det i setninger."
-  ],
-  "K-389": [
-   "Høyfrekvente ord i setninger: og",
-   "Les hver setning. Skriv ordet «og» på streken."
-  ],
-  "K-390": [
-   "En setning med og",
-   "Arbeid med én setning, steg for steg."
-  ],
-  "K-391": [
-   "Spor setningene: og",
-   "Spor hver setning. Skriv den så på streken under."
-  ],
-  "K-392": [
-   "Finn ordet: og",
-   "Fargelegg hver rute med ordet «og». Tell dem og skriv tallet."
-  ],
-  "K-433": [
-   "Les, spor, skriv: og",
-   "Les ordet. Spor det. Skriv det. Skriv det så i hver setning."
-  ],
-  "K-434": [
-   "Spor ordet og setningen: og",
-   "Spor ordet. Spor så setningen på hver linje."
-  ],
-  "K-435": [
-   "Les og tegn: og",
-   "Les setningen. Spor den. Tegn så det setningen forteller."
-  ],
-  "K-436": [
-   "Finn og tell: og",
-   "Sett ring rundt ordet «og» hver gang du ser det. Hvor mange ganger fant du det?"
-  ],
-  "K-438": [
-   "Bygg ordet: og",
-   "Klipp ut bokstavene. Lim dem på i riktig rekkefølge, så de blir til ordet."
-  ],
-  "K-439": [
-   "Regnbueskriving: og",
-   "Spor hvert ord tre ganger, med en ny farge hver gang. Skriv det så."
   ]
  },
  "spelling": {

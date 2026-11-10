@@ -4559,5 +4559,229 @@
   "K-578": {
     "title": "Bingo de formas e cores: cartas para sortear",
     "instruction": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e leia a forma e a cor em voz alta. Guarde as cartas já sorteadas para conferir cada bingo."
+  },
+  "K-579": {
+    "title": "Alfabeto para colorir: {U}",
+    "instruction": "Pinte a página. Deixe tudo bem colorido e bonito."
+  },
+  "K-580": {
+    "title": "Números para colorir: {U}",
+    "instruction": "Pinte tudo o que há na página. Conte as estrelas."
+  },
+  "K-581": {
+    "title": "Pinte o seu nome",
+    "instruction": "Pinte cada letra do seu nome."
+  },
+  "K-582": {
+    "title": "Pinte e conte",
+    "instruction": "Pinte as figuras. Conte cada tipo e escreva quantas há."
+  },
+  "K-583": {
+    "title": "Marcadores de página para colorir",
+    "instruction": "Pinte os marcadores de página. Recorte-os nas linhas tracejadas."
+  },
+  "K-584": {
+    "title": "Ligue os pontos: letra {U}",
+    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem dos números para formar a letra. Depois pinte a letra."
+  },
+  "K-585": {
+    "title": "Ligue os pontos: número {U}",
+    "instruction": "Comece no ponto laranja. Ligue os pontos na ordem dos números para formar o número. Depois pinte o número."
+  },
+  "K-586": {
+    "title": "Dois desenhos de ligar os pontos",
+    "instruction": "Em cada desenho, comece no ponto laranja. Ligue os pontos na ordem dos números."
+  },
+  "G1-547": {
+    "title": "Ligue os pontos e escreva a palavra",
+    "instruction": "Ligue os pontos na ordem dos números. Depois escreva o nome da figura."
+  },
+  "K-587": {
+    "title": "Pinte com adições: {UNIT}",
+    "instruction": "Resolva cada adição da legenda. Pinte cada parte com a cor do resultado."
+  },
+  "K-588": {
+    "title": "Pinte por letras: {UNIT}",
+    "instruction": "Pinte cada parte com a cor da letra dela."
+  },
+  "K-591": {
+    "title": "Grade de letras: encontre as diferenças",
+    "instruction": "Olhe a grade de cima. Encontre as {N} letras que mudaram na grade de baixo. Pinte essas letras."
+  },
+  "K-592": {
+    "title": "Grade de números: encontre as diferenças",
+    "instruction": "Olhe a grade de cima. Encontre os {N} números que mudaram na grade de baixo. Pinte esses números."
+  },
+  "G1-548": {
+    "title": "Grade de figuras: encontre as diferenças",
+    "instruction": "Olhe a grade de cima. Encontre as {N} figuras que mudaram na grade de baixo. Circule essas figuras."
+  },
+  "K-593": {
+    "title": "Quem olha para o outro lado?",
+    "instruction": "Em cada fileira, uma figura está virada para o outro lado. Circule essa figura."
+  },
+  "K-594": {
+    "title": "Qual tem tamanho diferente?",
+    "instruction": "Em cada fileira, uma figura tem tamanho diferente. Circule essa figura."
+  },
+  "K-595": {
+    "title": "Jogue o dado e desenhe um monstro",
+    "instruction": "Jogue o dado uma vez para cada fileira. Desenhe no quadro a parte que está embaixo do seu número."
+  },
+  "K-596": {
+    "title": "Jogue o dado e desenhe um robô",
+    "instruction": "Jogue o dado uma vez para cada fileira. Desenhe no quadro a parte que está embaixo do seu número."
+  },
+  "K-597": {
+    "title": "Jogue o dado e desenhe um inseto",
+    "instruction": "Jogue o dado uma vez para cada fileira. Desenhe no quadro a parte que está embaixo do seu número."
+  },
+  "K-598": {
+    "title": "Cartaz de como desenhar",
+    "instruction": "Olhe os passos em ordem. Pinte o nome e o desenho pronto."
+  },
+  "G1-549": {
+    "title": "Desenhe três vezes",
+    "instruction": "Siga os passos. Desenhe a figura grande, depois menor e depois bem pequena."
+  },
+  "K-599": {
+    "title": "Dois desenhos para cobrir",
+    "instruction": "Cubra todas as linhas dos dois desenhos. Comece nos pontos pretos."
+  },
+  "K-600": {
+    "title": "Cubra o caminho",
+    "instruction": "Em cada fileira, comece no ponto preto. Cubra o caminho até a outra figura."
+  },
+  "K-601": {
+    "title": "Cubra a moldura",
+    "instruction": "Comece no ponto preto e cubra a moldura. Depois desenhe dentro dela algo de que você gosta."
+  },
+  "K-602": {
+    "title": "Cubra a letra gigante: {U}",
+    "instruction": "Comece no ponto preto. Cubra o contorno. Depois pinte a letra."
+  },
+  "K-609": {
+    "title": "Cubra o número gigante: {U}",
+    "instruction": "Comece no ponto preto. Cubra o contorno. Depois pinte o número."
+  },
+  "K-603": {
+    "title": "Conte e pinte o número",
+    "instruction": "Conte as figuras de cada fileira. Pinte o número que mostra quantas são."
+  },
+  "K-604": {
+    "title": "O caminho dos números",
+    "instruction": "Encontre o 1. Pinte os números em ordem até o {N}, um ao lado do outro, para formar um caminho."
+  },
+  "K-606": {
+    "title": "Pinte o número maior",
+    "instruction": "Olhe os dois números de cada quadro. Pinte o maior."
+  },
+  "K-607": {
+    "title": "Resolva e pinte a resposta",
+    "instruction": "Resolva cada conta. Pinte o número que é a resposta."
+  },
+  "G2-499": {
+    "title": "Pinte os múltiplos",
+    "instruction": "Pinte os números que você diz ao contar de {N} em {N}."
+  },
+  "K-608": {
+    "title": "Pinte o par",
+    "instruction": "Em cada fileira, pinte os dois números que juntos fazem {N}."
+  },
+  "G1-551": {
+    "title": "Pinte a dezena",
+    "instruction": "Em cada número, pinte o algarismo das dezenas."
+  },
+  "K-610": {
+    "title": "Pinte e cubra: {U}",
+    "instruction": "Pinte o número grande. Depois cubra os números nas linhas."
+  },
+  "K-611": {
+    "title": "Meu cartaz do número: {U}",
+    "instruction": "Pinte o número e o nome dele. Depois pinte essa quantidade de quadradinhos no quadro."
+  },
+  "K-612": {
+    "title": "Pinte o número e preencha o quadro",
+    "instruction": "Pinte cada número. Depois pinte essa quantidade de quadradinhos no quadro."
+  },
+  "K-613": {
+    "title": "Pinte os dias",
+    "instruction": "Todo dia, pinte o número de hoje até o mês inteiro ficar colorido."
+  },
+  "K-614": {
+    "title": "Pinte a sequência de letras",
+    "instruction": "Pinte as letras iguais da mesma cor. Escreva a letra que vem depois."
+  },
+  "K-615": {
+    "title": "Letras ou números?",
+    "instruction": "Pinte todas as letras. Deixe os números em branco."
+  },
+  "K-616": {
+    "title": "Encontre e pinte: {U}",
+    "instruction": "Olhe a letra lá em cima. Encontre essa letra na grade e pinte todas as vezes."
+  },
+  "K-617": {
+    "title": "Pinte e cubra: {U}",
+    "instruction": "Pinte as letras grandes. Depois cubra as letras nas linhas."
+  },
+  "K-618": {
+    "title": "Pinte a primeira letra",
+    "instruction": "Diga o nome de cada figura. Pinte a letra com que ele começa."
+  },
+  "K-619": {
+    "title": "Pinte a palavra: {U}",
+    "instruction": "Leia a palavra. Pinte-a toda vez que a encontrar."
+  },
+  "G1-552": {
+    "title": "Pinte a palavra certa",
+    "instruction": "Olhe cada figura. Pinte a palavra que está escrita do jeito certo."
+  },
+  "K-620": {
+    "title": "Pinte as sílabas",
+    "instruction": "Diga cada palavra e bata palmas para cada sílaba. Pinte cada sílaba de uma cor diferente."
+  },
+  "K-621": {
+    "title": "Pinte e escreva a palavra",
+    "instruction": "Diga a palavra. Pinte as letras grandes. Depois escreva a palavra na linha."
+  },
+  "K-622": {
+    "title": "Caça-palavras para colorir",
+    "instruction": "Encontre cada palavra na grade e pinte as letras dela. Use uma cor nova para cada palavra."
+  },
+  "K-623": {
+    "title": "Bingo para colorir",
+    "instruction": "Pegue uma cartela. Ouça os números de 1 a {N}. Pinte cada número que ouvir. Quem fizer três em linha ganha."
+  },
+  "K-624": {
+    "title": "Cartões do alfabeto para colorir",
+    "instruction": "Pinte cada cartão. Depois recorte os cartões nas linhas tracejadas."
+  },
+  "K-625": {
+    "title": "Meu cartaz com meu nome",
+    "instruction": "Pinte as letras do seu nome. Faça seu autorretrato no quadro."
+  },
+  "K-626": {
+    "title": "Pinte a letra no lugar certo",
+    "instruction": "Em cada fileira, comece na seta e conte os lugares. Pinte a letra que está no lugar indicado."
+  },
+  "G3-480": {
+    "title": "Ligue os pontos: contar de tantos em tantos",
+    "instruction": "Comece no ponto laranja. Conte de {N} em {N} e ligue os pontos em ordem."
+  },
+  "G3-479": {
+    "title": "Pinte com multiplicações: {UNIT}",
+    "instruction": "Resolva cada multiplicação da legenda. Pinte cada parte com a cor do resultado."
+  },
+  "G1-555": {
+    "title": "Figura misteriosa na grade",
+    "instruction": "Pinte cada quadradinho com a cor do número dele. Que figura aparece?"
+  },
+  "G1-553": {
+    "title": "A letra escondida",
+    "instruction": "Pinte cada quadradinho com número ímpar. Que letra você vê? Escreva no quadro."
+  },
+  "G1-554": {
+    "title": "Pinte os números ímpares",
+    "instruction": "Pinte todos os números ímpares. Deixe os pares em branco."
   }
 }

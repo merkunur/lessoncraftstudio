@@ -17,14 +17,14 @@ const LS = require('./text-ls.js');
 let NAMES = null;
 const names = () => NAMES || (NAMES = require('./names-i18n.js').NAMES);
 
-function stringsFor(unit, loc, s0) {
+function stringsFor(unit, loc, s0, ownName) {
   const { catalog, MODE_OF } = require('../../lib/ptx.js');
   const e = catalog().get(String(unit));
   if (!e) throw new Error('ptx text: unknown unit ' + unit);
   const mode = MODE_OF[e.face];
   const t = LS[mode];
   if (!t || !t.title[loc] || !t.instruction[loc]) throw new Error(`ptx text: no Level Set strings for ${mode} in ${loc}`);
-  const n = (names()[unit] || {})[loc];
+  const n = ownName || (names()[unit] || {})[loc];   // ownName: the teacher's picture (lib/ptx.js reskin)
   if (!n) throw new Error(`ptx text: no name for ${unit} in ${loc}`);
   const fill = (s) => s.replace(/\{NAME\}/g, n);
   // after the colon of a catalogue title the name continues the sentence: lower-case its first letter where the language
@@ -35,7 +35,7 @@ function stringsFor(unit, loc, s0) {
   const inTitle = LOWER_AFTER_COLON.has(loc) && afterColon ? n.replace(/^(\P{L}*)(\p{Lu})/u, (m, p, c) => p + c.toLocaleLowerCase(loc)) : n;
   // a copy whose instruction must name its OWN content (K-428 the missing parts, K-427 the counted animal, G1-431 what
   // goes in the empty space) carries INSTR[unit][loc]; every other copy takes the face's instruction
-  const own = ((require('./names-i18n.js').INSTR || {})[unit] || {})[loc];
+  const own = ownName ? null : ((require('./names-i18n.js').INSTR || {})[unit] || {})[loc];
   const out = { ...s0, title: t.title[loc].replace(/\{NAME\}/g, inTitle), instruction: own || fill(t.instruction[loc]) };
   if (t.printTitle && t.printTitle[loc]) out.printTitle = fill(t.printTitle[loc]);
   return out;

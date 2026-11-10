@@ -48,7 +48,7 @@ const lineCount = () => {
   const makers = MP.builtMakers(A.makers);
   const m = await new MP.Mounter({ base }).open();   // the independent Node-side check (pictures from the gate's own server)
   const puppeteer = require(path.join(MP.REPO, 'node_modules', 'puppeteer'));
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ protocolTimeout: 1800000 });   // one evaluate sweeps a whole maker: the picture makers outlast the 3-minute default
   const p = await browser.newPage();
   const errs = [];
   p.on('pageerror', (e) => errs.push(e.message));
@@ -157,7 +157,9 @@ const lineCount = () => {
       if (!tj.templates.some((x) => x.locales.includes(loc))) continue;
       await p.goto(`${base}/makers/app/?maker=${maker}&lang=${loc}`, { waitUntil: 'networkidle0' });
       await p.waitForFunction(() => window.__lcsMaker, { timeout: 60000 });
-      const res = await p.evaluate(async ({ PER, sample, IDS }) => {
+      // ONE evaluate per TEMPLATE (2026-11-10): one evaluate per maker outlasted even the 30-minute protocol timeout on
+      // find-the-differences, so every full run since 2026-11-09 died there and part B never reached the 32 makers after it
+      const sweep = async ({ PER, sample, IDS }) => {
         const M = window.__lcsMaker;
         const out = [];
         for (const t of M.tj.templates.filter((x) => x.locales.includes(M.LANG) && (!IDS || IDS.includes(x.id)))) {
@@ -282,7 +284,16 @@ const lineCount = () => {
           }
         }
         return out;
-      }, { PER, sample: loc === 'en' ? 0 : 1, IDS });
+      };
+      const res = [];
+      const tids = tj.templates.filter((x) => x.locales.includes(loc) && (!IDS || IDS.includes(x.id))).map((x) => x.id);
+      if (!tids.length) fail(`${maker} ${loc}: part B found no template to sweep (a vacuous run)`);
+      for (const tid of tids) {
+        const t0 = Date.now();
+        res.push(...await p.evaluate(sweep, { PER, sample: loc === 'en' ? 0 : 1, IDS: [tid] }));
+        const s = Math.round((Date.now() - t0) / 1000);
+        if (s > 120) console.log(`slow ${maker} ${tid} ${loc}: part B took ${s} s`);
+      }
       for (const r of res) {
         if (!r.base) { console.log(`note ${maker} ${r.id} ${loc} L${r.d}: the base page is refused (live gate)`); continue; }
         n++;

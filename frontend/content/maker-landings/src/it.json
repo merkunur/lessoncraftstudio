@@ -261,7 +261,7 @@
   },
   "dot-to-dot": {
     "kw": "Generatore di schede unisci i puntini",
-    "lead": "Crea schede unisci i puntini per contare fino a 20, all'indietro o di 2 in 2, seguire l'alfabeto o risolvere operazioni. Il disegno nascosto porta i bambini fino all'ultimo punto.",
+    "lead": "Crea schede unisci i puntini per contare fino a 20, all'indietro o di 2 in 2, seguire l'alfabeto o risolvere operazioni. I bambini possono anche unire i puntini di una lettera o di un numero gigante, completare due piccoli disegni sulla stessa pagina o scrivere il nome del disegno che scoprono. Il disegno nascosto porta i bambini fino all'ultimo punto.",
     "teaches": [
       "Dire la sequenza dei numeri in ordine",
       "Contare all'indietro e di 2 in 2",
@@ -271,7 +271,7 @@
   },
   "color-by-number": {
     "kw": "Generatore di schede colora con i numeri",
-    "lead": "Crea schede colora con i numeri e con il codice in cui ogni colore è una risposta: addizioni, sottrazioni, parole frequenti, primi suoni e tabelline. Il disegno finito mostra se è tutto giusto.",
+    "lead": "Crea schede colora con i numeri e con il codice in cui ogni colore è una risposta: addizioni, sottrazioni, parole frequenti, primi suoni e tabelline. La lettera nascosta e il disegno misterioso a quadretti aggiungono un enigma, e colorare con le addizioni, le lettere o le moltiplicazioni funziona con qualsiasi immagine della nostra raccolta. Il disegno finito mostra se è tutto giusto.",
     "teaches": [
       "Esercitarsi nel calcolo con un controllo integrato",
       "Leggere con attenzione una legenda dei colori",
@@ -281,7 +281,7 @@
   },
   "coloring-pages": {
     "kw": "Generatore di disegni da colorare per la classe",
-    "lead": "Crea disegni da colorare dalla nostra raccolta di immagini, con parole da ripassare, una frase da scrivere o una legenda. Piega un mini libro da colorare per ogni tema che stai trattando.",
+    "lead": "Crea disegni da colorare dalla nostra raccolta di immagini, con parole da ripassare, una frase da scrivere o una legenda. Ci sono anche disegni da colorare per ogni lettera e ogni numero, per ogni bambino una pagina con il suo nome, pagine per colorare e contare e segnalibri da colorare. Piega un mini libro da colorare per ogni tema che stai trattando.",
     "teaches": [
       "Sviluppare il controllo della matita e la forza della mano",
       "Collegare le immagini alle parole",
@@ -331,7 +331,7 @@
   },
   "find-the-differences": {
     "kw": "Generatore di schede trova le differenze",
-    "lead": "Crea schede trova le differenze con 3, 5, 7 o 10 cambiamenti in scene vere, oltre a oggetti mancanti, cambi di colore e immagini speculari. La maggior parte funziona anche sullo schermo.",
+    "lead": "Crea schede trova le differenze con 3, 5, 7 o 10 cambiamenti in scene vere, oltre a oggetti mancanti, cambi di colore e immagini speculari. Per un esercizio veloce, i bambini confrontano griglie di lettere, numeri o immagini, oppure trovano in ogni riga l'immagine che guarda dall'altra parte o che ha una grandezza diversa. La maggior parte funziona anche sullo schermo.",
     "teaches": [
       "Esplorare un'immagine con metodo",
       "Dire cosa è cambiato",
@@ -341,7 +341,7 @@
   },
   "how-to-draw": {
     "kw": "Generatore di schede per imparare a disegnare",
-    "lead": "Crea schede di disegno passo passo in cui ogni linea nuova appare a colori. I bambini seguono, ripassano, finiscono e poi disegnano a memoria, con pagine di parole e frasi per scrivere.",
+    "lead": "Crea schede di disegno passo passo in cui ogni linea nuova appare a colori. I bambini seguono, ripassano, finiscono e poi disegnano a memoria, con pagine di parole e frasi per scrivere. Con i giochi del dado si costruisce un mostro, un robot o un insetto un lancio alla volta, un poster mostra tutti i passaggi in una pagina e i bambini disegnano un soggetto grande, più piccolo e piccolissimo.",
     "teaches": [
       "Dividere un disegno in forme semplici",
       "Seguire i passaggi in ordine",
@@ -361,7 +361,7 @@
   },
   "picture-tracing": {
     "kw": "Generatore di schede di disegni da ripassare",
-    "lead": "Crea disegni da ripassare, dalle grandi forme rotonde per i più piccoli alle scene di città tratteggiate per la classe prima. Linee dritte, zigzag, spirali e riccioli diventano un disegno vero.",
+    "lead": "Crea disegni da ripassare, dalle grandi forme rotonde per i più piccoli alle scene di città tratteggiate per la classe prima. I bambini ripassano anche due disegni sulla stessa pagina, un percorso da un'immagine all'altra, una cornice in cui poi disegnare, o una lettera e un numero giganti. Linee dritte, zigzag, spirali e riccioli diventano un disegno vero.",
     "teaches": [
       "Guidare la matita lungo una linea",
       "Tracciare linee dritte, curve e riccioli",

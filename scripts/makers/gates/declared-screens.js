@@ -37,6 +37,11 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => { const m = a.m
 const QUICK = !!args.quick;
 const LOCS = String(args.locales || (QUICK ? 'en' : 'en,fi')).split(',');
 const COPIES = QUICK ? [1] : [1, 2];
+// --pool (flagship visual check 2026-11-08): instead of copies 1-2, every picture of the template's picker pool at the level
+// (out/flagship-check/pools.json) as the teacher's pick, copy 1; the new flagship drawings only with --with-new — every screen a flagship picture can make; --templates=a,b
+const POOL = args.pool ? JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'flagship-check', 'pools.json'), 'utf8')) : null;
+const ONLY_T = args.templates ? new Set(String(args.templates).split(',')) : null;
+const IDX = args.pool ? JSON.parse(fs.readFileSync(path.join(REPO, 'scripts', 'worksheet-gen', 'data', 'fl', 'index.json'), 'utf8')).pictures : null;
 
 /** (3) the data-lcs-* attributes on the served page outside the structural allow-list */
 const leakedMarks = (html) => {
@@ -80,6 +85,7 @@ async function main() {
   for (const { maker, tj } of makers) {
     for (const t of tj.templates) {
       if (t.screen !== 'declared') continue;
+      if (ONLY_T && !ONLY_T.has(t.id)) continue;
       templates++;
       process.stderr.write(`declared-screens: ${maker} ${t.id}\n`);   // progress: where a slow run is
       const type = require(path.join(REPO, t.file));
@@ -89,11 +95,12 @@ async function main() {
       for (const loc of t.locales) for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) if (!(t.screenInstructions && t.screenInstructions[loc] && t.screenInstructions[loc][d])) fails.push(`${maker} ${t.id} L${d} ${loc}: no screen instruction`);
       for (const loc of LOCS) {
         if (!t.locales.includes(loc)) continue;
-        for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) for (const v of COPIES) {
+        for (const d of t.screenLevels.filter((x) => lvIn(loc).includes(x))) for (const pick of (POOL ? (((POOL[maker] || {})[t.id] || {})[d] || { pool: [] }).pool.filter((k) => args['with-new'] || !(IDX[k] && IDX[k].n === 1)) : COPIES)) {
+          const v = POOL ? 1 : pick, ov = POOL ? { overrides: { art: [pick] } } : {};
           const theme = t.themed ? (((t.localeThemes && t.localeThemes[loc]) || t.themes).find((x) => !/\bbw\b/i.test(x)) || ((t.localeThemes && t.localeThemes[loc]) || t.themes)[0]) : null;
           const lu = ((t.units && t.units[loc]) || []).filter((u) => (!t.unitLevels || t.unitLevels[u.id] === d) && (!t.localeUnitLevels || !t.localeUnitLevels[loc] || (t.localeUnitLevels[loc][u.id] || []).includes(d)));   // the level's units
           const unit = lu.length ? lu[0].id : null;
-          const tag = `${maker} ${t.id} L${d} ${loc} copy ${v}`;
+          const tag = `${maker} ${t.id} L${d} ${loc} ${POOL ? 'pick ' + pick : 'copy ' + v}`;
           checked++;
           // thousands of mounts on one page wear the browser out: fresh pages every 150 cases
           if (checked % 150 === 0) await freshPages();
@@ -103,13 +110,13 @@ async function main() {
             // the attempt the maker's page used (runtime.generate's seed ladder — the screen replays it, shell.js
             // screenHtmlFor): the first fresh-seed retry the page builds with (2026-11-02: G2-261 level 3 builds only
             // on a retry; the gate built the bare seed and reported a screen the maker never shows)
-            const sv = [null, '.1', '.2', '.3', '.4'].find((x) => { try { runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...(x ? { seedVariant: v + x } : {}) }); return true; } catch (e) { return false; } });
+            const sv = [null, '.1', '.2', '.3', '.4'].find((x) => { try { runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...ov, ...(x ? { seedVariant: v + x } : {}) }); return true; } catch (e) { return false; } });
             const att = sv ? { seedVariant: v + sv } : {};
             // the shared decision (runtime.js screenFor): declared, else the page's marks (the published face)
-            got = await runtime.screenFor({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, tpl: t, runtimeStrings: runtimeStrings(loc), marksInstructions: SCREEN_I18N[loc] }, mount);
+            got = await runtime.screenFor({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...ov, ...att, tpl: t, runtimeStrings: runtimeStrings(loc), marksInstructions: SCREEN_I18N[loc] }, mount);
             if (got.path === 'declared') {
               // the same build again, for its measured items (screenFor returns the document only)
-              const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...att, declared: true, screenInstruction: t.screenInstructions[loc][d] });
+              const r = runtime.makePage({ type, strings: s, locale: loc, difficulty: d, theme, unit, variant: v, ...ov, ...att, declared: true, screenInstruction: t.screenInstructions[loc][d] });
               sc = await screen.buildDeclaredScreen({ html: r.declaredHtml, type, theme, difficulty: d, locale: loc, unit: r.unit, design: r.meta && r.meta.design, strings: runtimeStrings(loc), mount });
             }
           } catch (e) {

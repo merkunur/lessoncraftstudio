@@ -253,7 +253,7 @@ const MAKERS = [
     newTemplates: [['Code addition (pictures stand for numbers)', 'the old code-addition app'], ['Number sudoku 4×4 and 6×6 with numerals', 'only picture sudoku exists'], ['KenKen-style cage puzzle (small)', 'arithmetic logic for G2-3']],
     fable: ['Puzzle generators must guarantee ONE solution (sudoku, logic grids, magic squares, code addition) for any teacher setting — confirm each existing engine proves uniqueness and that the browser can do it fast enough.'],
   },
-  { id: 'dot-to-dot', name: 'Dot to Dot', group: 'math', families: ['dot-to-dot'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/d2d'],
+  { id: 'dot-to-dot', flagship: true, name: 'Dot to Dot', group: 'math', families: ['dot-to-dot'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/d2d', 'scripts/worksheet-gen/data/fl/d2d'],
     // built 2026-11-02: K-473 ABC Dot-to-Dot: Capital Letters (the locale's own capitals; K-309 is the lowercase face, its
     // level 3 already the whole alphabet) and G1-486 Math Dot-to-Dot (the dots carry the answers of a numbered list of
     // problems in a scrambled order — the problems give the joining order; write-in answers = the screen). The scenes are
@@ -263,7 +263,7 @@ const MAKERS = [
     newTemplates: [['Dot to dot by the alphabet in the chosen language (å ä ö / æ ø å)', 'today\'s letters run a to t'], ['Dot to dot with sums (join the answers in order)', 'arithmetic practice']],
     fable: ['Dot-to-dot figures are precomputed (data/d2d, 30 MB). Can a dot-to-dot be made from ANY library picture (or the teacher\'s photo) in the browser, with numbers placed legibly and no crossing confusion? If not, define the precomputed set and how it grows.'],
   },
-  { id: 'color-by-number', name: 'Color by Number & Code', group: 'math', families: ['color-by-number'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/cbn/lineart'],
+  { id: 'color-by-number', flagship: true, name: 'Color by Number & Code', group: 'math', families: ['color-by-number'], oldApps: [], lang: 'little', art: ['scripts/worksheet-gen/data/cbn/lineart', 'scripts/worksheet-gen/data/fl/cbn'],
     // built 2026-11-02: K-474 Color by Sight Word (a sight word in every shape), K-475 Color by First Sound (a picture in
     // every shape, the code the letter its name starts with — the reviewed first-sound bins) and G3-478 Color by
     // Multiplication Fact (every product reached by two facts) — K-241's engine, new modes; the five code faces got real
@@ -274,7 +274,7 @@ const MAKERS = [
     newTemplates: [['Color by sight word', 'literacy version'], ['Color by multiplication fact', 'G3 practice'], ['Color by letter sound (picture starts with)', 'phonics version']],
     fable: ['Colour-by-number line art is precomputed (data/cbn, 47 MB, regions + keys). Can any library picture become a colour-by-code page in the browser (region detection, label placement in small regions, the fully-painted rule)?'],
   },
-  { id: 'coloring-pages', name: 'Coloring Pages', group: 'art', families: ['coloring-page'], oldApps: ['coloring'], oldAppTemplates: { coloring: 'K-476' }, lang: 'little',
+  { id: 'coloring-pages', flagship: true, name: 'Coloring Pages', group: 'art', families: ['coloring-page'], oldApps: ['coloring'], oldAppTemplates: { coloring: 'K-476' }, lang: 'little',
     // built 2026-11-02 (types/_shared/coloring-page.js, ENGINES Part 3 §E): K-476 Coloring Page (1 / 2 / 4 drawings — the
     // old `coloring` app), K-477 Color and Trace the Word (the drawing's name in dashed school letters; level 3 also
     // written), K-478 Color the Scene (drawings of one theme standing together, never overlapping), K-479 Color by the Key
@@ -327,7 +327,7 @@ const MAKERS = [
     newTemplates: [['Grid maze with the teacher\'s start and goal pictures', 'personalised'], ['Picture path: step only on pictures of a kind (old picture-path)', 'keep the old app\'s rule']],
     fable: ['The handmade maze engine (lib/hm-*) verifies solvability with a raster oracle on the rendered page (Puppeteer). Can that oracle run in the browser per generation, and how fast?'],
   },
-  { id: 'find-the-differences', name: 'Find the Differences', group: 'visual', families: ['find-the-differences'], oldApps: [], lang: 'little',
+  { id: 'find-the-differences', flagship: true, name: 'Find the Differences', group: 'visual', families: ['find-the-differences'], oldApps: [], lang: 'little',
     art: [{ dir: 'scripts/worksheet-gen/data/fd', only: ['scripts/worksheet-gen/data/b7/find-the-differences.js', 'makerScenes'] }],
     // built 2026-11-02: no scene list — copy n of a face at a level is B.makerUnits (level 2 starts with the published
     // scene, then the face's Level Set copies of that level: data/fdx/allocation.json); the page reports its unit, so the
@@ -337,7 +337,7 @@ const MAKERS = [
     newTemplates: [], // dropped 2026-11-01 (no own-image upload): differences between two of the teacher's own photos
     fable: ['FD scenes are 427 MB precomputed and every difference passes a raster diff gate. In the browser: ship which scenes, how big, and can the diff gate run client-side (lib/fd-browser-diff.js suggests yes)?'],
   },
-  { id: 'how-to-draw', art: ['scripts/worksheet-gen/data/htd', { dir: 'scripts/worksheet-gen/data/htdx', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerHtdx'] }, 'scripts/worksheet-gen/data/htdv',
+  { id: 'how-to-draw', flagship: true, art: ['scripts/worksheet-gen/data/fl/htd', 'scripts/worksheet-gen/data/htd', { dir: 'scripts/worksheet-gen/data/htdx', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerHtdx'] }, 'scripts/worksheet-gen/data/htdv',
     { dir: 'scripts/worksheet-gen/data/fd', only: ['scripts/worksheet-gen/data/b7/how-to-draw.js', 'makerFdScenes'] }],   // the scene face's scenes
     // built 2026-11-02: no picture list — copy n of a face at a level is B.makerUnits (level 2 starts with the published
     // lesson, then the face's Level Set copies of that level: data/htdx/allocation.json); a Level Set copy prints its own
@@ -352,7 +352,7 @@ const MAKERS = [
     newTemplates: [['Make your own figure (blank board + pieces)', 'open task']],
     fable: [],
   },
-  { id: 'picture-tracing', name: 'Picture Tracing', group: 'writing', families: ['picture-tracing'], oldApps: [], lang: 'little',
+  { id: 'picture-tracing', flagship: true, name: 'Picture Tracing', group: 'writing', families: ['picture-tracing'], oldApps: [], lang: 'little',
     // built 2026-11-02: the traces come from the store (data/pt/traces, lib/pt-store.js: one file per library drawing,
     // fetched when a page places it); copy n of a face at a level = lib/ptx.js makerUnits (level 2 starts with the
     // published page, then the face's Level Set scenes)

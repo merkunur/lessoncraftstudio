@@ -54,6 +54,8 @@ const FD_DIR = path.join(__dirname, '..', 'fd');
 const vocabKeyOf = (src) => String(src || '').split('/').pop().replace(/_\d+$/, '').toLowerCase();
 const baseIdOf = (unit) => String(unit).replace(/-rich$/, '');
 function sceneName(unit, loc) {
+  // a flagship scene (docs/makers/FLAGSHIP.md) is called after its main picture
+  if (/^fdl-/.test(String(unit))) { const F = require('../../lib/fl-art.js'), n = F.nameOf(heroOf(baseIdOf(unit)), loc); if (n) return n; throw new Error(`find-the-differences: no name for ${unit} in ${loc}`); }
   // the Level Set scenes (data/fdx, 2026-10-10) carry their own names, authored per locale in data/fdx/names-i18n.js
   if (/^fdx-/.test(String(unit))) {
     let N = {}; try { N = require('../fdx/names-i18n.js').NAMES; } catch (e) { N = {}; }
@@ -81,8 +83,34 @@ function makerUnits(faceId, level) {
   const l = (A[String(level)] || []).map((c) => c.unit);
   return Number(level) === 2 || !l.length ? [null].concat(l) : l;
 }
+/**
+ * The flagship pool of a face at a level (data/fl/fd-pins.json, tools/fl-fd-pins.js): every scene that builds on this face, after
+ * its reviewed copies. heroOf = the picture a scene is known by in the picker.
+ */
+let _pins = null;
+const pins = () => (_pins = _pins || platform.readJson(path.join(__dirname, '..', 'fl', 'fd-pins.json')));
+const makerPins = (faceId, level) => ((pins().faces[faceId] || {})[String(level)] || []);
+const heroOf = (unit) => { const h = pins().heroes[String(unit).split('|')[0].replace(/@c$/, '')]; return (h && h.src) || h || null; };
+/**
+ * what the maker's picture list asks of a scene — { n: its drawings, listable: its nameable nouns } — read from data/fl/fd-pins.json
+ * (tools/fl-fd-pins.js --facts), never from the scene file: in the browser the list is built before the scene files are
+ * fetched, and a scene opened there threw 'not preloaded' into the list's own try, so it dropped out (2026-11-10: G1-412 and
+ * G1-415 offered no picture picker at all, their pools empty; the other faces offered only the scenes already fetched).
+ * null = no facts for this scene (the caller then reads the scene itself, as Node can).
+ */
+const sceneFacts = (id) => (((pins().scenes || {})[String(id).replace(/@c$/, '')]) || null);
+/** the DISTINCT nameable nouns of a scene (its words face lists them): the clash keys and the Level Set's no-word drawings out */
+function listableNouns(scene, unit) {
+  const keys = scene.items.map((l) => vocabKeyOf(l.src));
+  const clash = clashKeysFor(keys, unit);
+  let NOWORD = null;
+  if (/^fdx-/.test(unit)) { const { CATALOG } = require('../fdx/catalog.js'); NOWORD = new Set([...CATALOG.values()].filter((x) => x.noword).map((x) => x.src)); }
+  return new Set(scene.items.filter((l) => !(NOWORD && NOWORD.has(l.src))).map((l) => vocabKeyOf(l.src)).filter((k) => !clash.has(k))).size;
+}
 function makerScenes() {
   const ids = new Set();
+  // every scene some face can print (the picker reaches them all)
+  try { for (const f of Object.values(require('../fl/fd-pins.json').faces)) for (const l of Object.values(f)) for (const u of l) for (const x of String(u).split('|')) ids.add(x.replace(/@c$/, '')); } catch (e) { /* before the first pins run */ }
   const add = (u) => { if (u) for (const x of String(u).split('|')) ids.add(x.replace(/@c$/, '')); };
   for (const f of Object.values(require('../fdx/allocation.json').faces || {})) for (const l of Object.values(f)) for (const c of l) add(c.unit);
   for (const v of Object.values(UNITS)) (Array.isArray(v) ? v : [v]).forEach(add);
@@ -152,9 +180,9 @@ const FDX_FAMILY = { ...WORD_FAMILY, boat: 'boat', sailboat: 'boat', yacht: 'boa
   car: 'car', van: 'car', jeep: 'car', suv: 'car', taxi: 'car', pickup: 'car', police_car: 'car',
   bus: 'bus', minibus: 'bus', 'double-decker': 'bus', truck: 'truck', delivery_truck: 'truck', tanker_truck: 'truck', garbage_truck: 'truck', tow_truck: 'truck', fire_truck: 'truck', mixer_truck: 'truck', monster_truck: 'truck',
   tree: 'tree', palm_tree: 'tree', christmas_tree: 'tree', fish: 'fish', clown_fish: 'fish', puffer: 'fish', fruit: 'fruit', vegetables: 'vegetables' };
-const wordFamilyFor = (k, unit) => (/^fdx-/.test(String(unit)) ? FDX_FAMILY[k] || k : wordFamily(k));
+const wordFamilyFor = (k, unit) => (/^fd[xl]-/.test(String(unit)) ? FDX_FAMILY[k] || k : wordFamily(k));
 function clashKeysFor(keys, unit) {
-  if (!/^fdx-/.test(String(unit))) return clashKeys(keys);
+  if (!/^fd[xl]-/.test(String(unit))) return clashKeys(keys);
   const byFam = new Map();
   for (const k of new Set(keys)) { const f = FDX_FAMILY[k] || k; if (!byFam.has(f)) byFam.set(f, new Set()); byFam.get(f).add(k); }
   const out = new Set();
@@ -291,4 +319,4 @@ const LS_PAIR_TITLES = {
   seven: { en: 'Find 7 Differences: {UNIT}', de: 'Finde 7 Unterschiede: {UNIT}', fr: 'Jeu des 7 erreurs : {UNIT}', es: 'Busca las 7 diferencias: {UNIT}', pt: 'Jogo dos 7 erros: {UNIT}', it: 'Trova le 7 differenze: {UNIT}', nl: 'Zoek de 7 verschillen: {UNIT}', sv: 'Finn sju fel: {UNIT}', da: 'Find syv fejl: {UNIT}', no: 'Finn sju feil: {UNIT}', fi: 'Etsi seitsemän virhettä: {UNIT}' },
   'ten-pairs': { en: 'Find 10 Differences: {UNIT}', de: 'Finde 10 Unterschiede: {UNIT}', fr: 'Trouve les 10 erreurs : {UNIT}', es: 'Encuentra las 10 diferencias: {UNIT}', pt: 'Jogo dos 10 erros: {UNIT}', it: 'Trova le 10 differenze: {UNIT}', nl: 'Zoek de 10 verschillen: {UNIT}', sv: 'Finn tio fel: {UNIT}', da: 'Find ti fejl: {UNIT}', no: 'Finn ti feil: {UNIT}', fi: 'Etsi kymmenen virhettä: {UNIT}' },
 };
-module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, wordFamilyFor, clashKeysFor, LS_PAIR_TITLES, makerUnits, makerScenes };
+module.exports = { FIND_THE_DIFFERENCES, makerPins, heroOf, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, wordFamilyFor, clashKeysFor, LS_PAIR_TITLES, makerUnits, makerScenes, sceneFacts, listableNouns };

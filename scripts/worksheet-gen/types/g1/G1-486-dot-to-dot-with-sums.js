@@ -59,8 +59,9 @@ module.exports = {
     // minGap: the dots keep verify's 22 px at this width (level 3 draws 20 dots at 470 px: night-tent crowded, 2026-11-02)
     const probe = { count: L.n, values: Array.from({ length: L.n }, () => '20'), lite: true, labelPx: L.labelPx, width: L.n > 10 ? 470 : 560, minGap: 22 };
     const pool = d2d.d2dPool({ band: L.band }, L.n, probe, null);
-    if (!pool.length) throw new Error('G1-486: no picture for ' + L.n + ' dots — REFUSED');
-    const scene = d2d.fullScene(pool[(L.offset + d2d.copyOf(ctx) - 1) % pool.length]);
+    const sv = d2d.copyOf(ctx), page = d2d.pageScene(pool, L.offset + sv - 1, L.n, probe, ctx, sv);   // the teacher's picture or theme, the published pool, then the library
+    if (!page && !pool.length) throw new Error('G1-486: no picture for ' + L.n + ' dots — REFUSED');
+    const scene = page ? page.scene : d2d.fullScene(pool[(L.offset + sv - 1) % pool.length]);
     const fig = sceneDotFigure({ scene, count: L.n, values, lite: true, labelPx: L.labelPx, width: probe.width });
     const key = !!(ctx && ctx.answerKey);
     const cell = (p, i) =>
@@ -72,7 +73,7 @@ module.exports = {
     return {
       bodyHtml:
         `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;gap:10px" data-ws-content data-lcs-sums="${L.n}">` +
-        `<div class="ws-card" style="width:660px;align-items:center;justify-content:center;padding:4px">${svg}</div>` +
+        `<div class="ws-card"${require('../../lib/fl-art.js').tap(ctx)} style="width:660px;align-items:center;justify-content:center;padding:4px">${svg}</div>` +
         `<div class="ws-card" style="width:660px;padding:10px 8px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px 6px;justify-items:start;padding-left:18px">${problems.map(cell).join('')}</div></div>`,
       meta: { scene: scene.id, answers },
     };

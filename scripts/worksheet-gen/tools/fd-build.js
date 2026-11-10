@@ -14,6 +14,7 @@
  *   node tools/fd-build.js [--only=id,id] [--limit=N]
  */
 'use strict';
+require('../data/fl/fd-catalog-node.js');
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
 const F = require('../lib/fd-scene.js');
 const L = require('../lib/cbn-lineart.js');
@@ -21,7 +22,8 @@ const { SCENES, SECOND } = require('../data/cbn/lineart-scenes.js');
 const { PROPS, THEME_PROPS } = require('../data/fd/props.js');
 // --set=fdx: the ORIGINAL Level Set scenes (data/fdx/scenes.js laid out by lib/fdx-layout.js); their swap / add partners
 // come from the read catalogue (data/fdx/catalog.js) instead of data/fd/props.js. The CBN set builds exactly as before.
-const FDX = (process.argv.find((a) => a.startsWith('--set=')) || '') === '--set=fdx';
+const SET = (process.argv.find((a) => a.startsWith('--set=')) || '').slice(6);   // fdl: the flagship scenes (data/fl/fd-scenes.json), built like fdx
+const FDX = SET === 'fdx' || SET === 'fdl';
 const FX = FDX ? { ...require('../data/fdx/catalog.js'), ...require('../lib/fdx-layout.js'), TAGS: require('../lib/fdx-scenery.js').TAGS } : null;
 /** a catalogue drawing as a prop record { place, h, colour, alt } */
 function fxProp(src, spec) {
@@ -321,7 +323,7 @@ async function densify(spec) {
 
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
-  const all = FDX ? require('../data/fdx/scenes.js').SCENES.map((s) => FX.layoutScene(s)) : [...SCENES, ...SECOND];
+  const all = FDX ? (SET === 'fdl' ? require('../data/fl/fd-scenes.json') : require('../data/fdx/scenes.js').SCENES).map((s) => FX.layoutScene(s)) : [...SCENES, ...SECOND];
   const rich = process.argv.includes('--rich');
   let n = 0;
   for (const base of all) {

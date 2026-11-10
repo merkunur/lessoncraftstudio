@@ -80,6 +80,30 @@ echo "✅ Image library protected"
 echo ""
 
 # ============================================
+# FLAGSHIP DRAWINGS PROTECTION - ISOLATED STORAGE (operator 2026-11-08)
+# ============================================
+# The accepted flagship drawings get the image library's protection: isolated masters in
+# /var/www/lcs-media/flagship-art/drawn (never in git), lcs-media-owned, chattr +i, and their served renders
+# (makers-assets/themes-512/...) chattr +i. Every protected file is checked by SHA-1 here and again after the deploy.
+# Installed by scripts/ops/upload-flagship-art.sh → server-scripts/protect-flagship-art.sh; a deliberate fix:
+# server-scripts/update-flagship-art.sh.
+FA_DIR=/var/www/lcs-media/flagship-art
+FA_COUNT=0; FA_RENDERS=0
+if [ -f "$FA_DIR/masters.sha1" ]; then
+    echo "🔒 Flagship drawings protection check..."
+    FA_COUNT=$(grep -c . "$FA_DIR/masters.sha1")
+    ( cd "$FA_DIR/drawn" && sha1sum -c --quiet ../masters.sha1 ) || { echo "⛔ CRITICAL: a protected flagship drawing is missing or changed in $FA_DIR/drawn"; exit 1; }
+    if [ -s "$FA_DIR/renders.protected.sha1" ]; then
+        FA_RENDERS=$(grep -c . "$FA_DIR/renders.protected.sha1")
+        ( cd /var/www/lcs-media && sha1sum -c --quiet flagship-art/renders.protected.sha1 ) || { echo "⛔ CRITICAL: a protected flagship render is missing or changed under /var/www/lcs-media/makers-assets"; exit 1; }
+    fi
+    echo "✅ Flagship drawings protected: $FA_COUNT masters, $FA_RENDERS served renders"
+else
+    echo "   (flagship drawings not installed on the server yet — scripts/ops/upload-flagship-art.sh)"
+fi
+echo ""
+
+# ============================================
 # WORKSHEET & CONTENT MANAGER PROTECTION - ISOLATED STORAGE
 # ============================================
 echo "🔒 Worksheet generator protection check..."
@@ -205,6 +229,10 @@ node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landing
 # Runs BEFORE the Next build (§20.4). Then gate 13 `registration` over the SERVED tree, HARD once a tree exists.
 echo "🧩 Worksheet makers release..."
 node scripts/makers/install-release.js || { echo "ERROR: the staged worksheet-makers release did not install — see scripts/makers/install-release.js"; exit 1; }
+# the flagship renders this release just brought are locked in the same deploy (server-scripts/protect-flagship-art.sh)
+if [ -f /var/www/lcs-media/flagship-art/renders.wanted.sha1 ]; then
+    bash server-scripts/protect-flagship-art.sh --renders-only || echo "⚠️  WARNING: a served flagship render differs from its accepted drawing — install the right one with server-scripts/update-flagship-art.sh"
+fi
 if [ -f /var/www/lcs-media/makers/versions.json ]; then
     echo "🔎 Worksheet makers registration check..."
     node scripts/makers/gates/registration.js --served=/var/www/lcs-media/makers || { echo "ERROR: a released worksheet maker is incompletely registered — see scripts/makers/gates/registration.js"; exit 1; }
@@ -691,6 +719,19 @@ if [ "$POST_IMAGE_LIB_COUNT" -lt "$IMAGE_LIB_COUNT" ]; then
     echo "    Investigate immediately."
 else
     echo "✅ Image library verified in isolated storage"
+fi
+
+# FLAGSHIP DRAWINGS VERIFICATION (ISOLATED STORAGE) — the same SHA-1 check as before the deploy
+if [ -f "$FA_DIR/masters.sha1" ]; then
+    echo ""
+    echo "🔒 Verifying flagship drawings in isolated storage..."
+    if ( cd "$FA_DIR/drawn" && sha1sum -c --quiet ../masters.sha1 ) && { [ ! -s "$FA_DIR/renders.protected.sha1" ] || ( cd /var/www/lcs-media && sha1sum -c --quiet flagship-art/renders.protected.sha1 ); }; then
+        echo "✅ Flagship drawings verified: $(grep -c . "$FA_DIR/masters.sha1") masters (was $FA_COUNT), $(grep -c . "$FA_DIR/renders.protected.sha1" 2>/dev/null || echo 0) served renders (was $FA_RENDERS)"
+    else
+        echo ""
+        echo "⚠️  WARNING: a protected flagship drawing or render is missing or changed after this deploy!"
+        echo "    This should NOT happen - they are immutable in isolated storage. Investigate immediately."
+    fi
 fi
 
 # ============================================

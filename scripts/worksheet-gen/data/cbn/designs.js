@@ -18,10 +18,14 @@ const W = 600, H = 560;
 const DIR = path.join(__dirname, 'lineart');
 const letter = (i) => (i >= 26 ? String.fromCharCode(97 + Math.floor(i / 26) - 1) : '') + String.fromCharCode(97 + (i % 26));
 
+const FLDIR = path.join(__dirname, '..', 'fl', 'cbn');
+/** a picture of the flagship library (docs/makers/FLAGSHIP.md): one drawing, its parts and crayons in data/fl/cbn/<id>.json */
+const isLib = (id) => /(^|-)bw(-\d+)?-/.test(String(id));
+const specOf = (id) => LINEART.find((x) => x.id === id) || { id, fixed: [] };
 const _cache = new Map();
 function load(id) {
   if (!_cache.has(id)) {
-    const f = path.join(DIR, id + '.json');
+    const f = path.join(isLib(id) ? FLDIR : DIR, id + '.json');
     if (!platform.exists(f)) throw new Error(`cbn: ${id} is not built (node tools/cbn-lineart-build.js --only=${id})`);
     _cache.set(id, platform.readJson(f));
   }
@@ -32,8 +36,8 @@ function load(id) {
  *  follows BG by its own part order, a part no drawing owns is sky above the horizon and ground below it */
 function partColours(d) {
   const j = load(d.id);
-  const spec = LINEART.find((x) => x.id === d.id);
-  const hero = HERO[d.id] || [], ov = OVERRIDE[d.id] || {};
+  const spec = specOf(d.id);
+  const hero = j.hero || HERO[d.id] || [], ov = OVERRIDE[d.id] || {};
   const fx = Object.fromEntries((spec.fixed || []).map((f) => [f.name, f.colour]));
   const rank = new Map();
   return j.parts.map((p, i) => {
@@ -42,6 +46,10 @@ function partColours(d) {
     if (ov[i] !== undefined) return ov[i];
     if (p.hero) return hero[k] === undefined ? null : hero[k];
     if (p.src && BG[p.src]) { const plan = BG[p.src]; return plan[Math.min(k, plan.length - 1)]; }
+    // a library picture on its mound (data/fl/designs-all.js): a closed pocket of background between the drawing and the
+    // mound (between a duck's legs, under a table) is the grass seen behind it, so it takes the mound's colour; left white
+    // it was a section the key never painted (flagship visual check, 2026-11-08). The 200 designs are unchanged.
+    if (p.item == null && isLib(d.id) && !p.outside) { const g = j.parts.find((q) => q.fixed === 'ground'); return g ? g.colour : null; }
     if (p.item == null) return p.y < (spec.hy || 0) ? fx.sky || null : fx.ground || null;
     return null;
   });
@@ -49,6 +57,8 @@ function partColours(d) {
 
 /** level from the colours used and the parts to colour (lib/cbn-render.js LEVEL_CAPS):
  *  L1 = up to 4 colours, or 5 colours on fewer than 10 parts · L3 = 7-8 colours, or 6 colours on 14+ parts · L2 = the rest */
+let _levels = null;
+const storedLevels = () => { if (!_levels) { const f = path.join(__dirname, 'design-levels.json'); _levels = platform.exists(f) ? platform.readJson(f) : {}; } return _levels; };
 function levelOf(d) {
   if (d.levelFixed) return d.levelFixed;
   const pc = pieceColours(d);
@@ -70,7 +80,7 @@ function levelOf(d) {
 const EYE_THICK = 10;   // canvas px from the middle of the ink: an outline is ~7, a pupil 10+
 function pieceColours(d) {
   const j = load(d.id);
-  const spec = LINEART.find((x) => x.id === d.id);
+  const spec = specOf(d.id);
   const cs = partColours(d);
   const mids = j.mid || [], smalls = j.small || [];
   const fixedKey = (c) => { const k = j.parts.findIndex((p, i) => p.fixed && (p.fixed === c || cs[i] === c)); return k >= 0 ? 'p' + k : null; };
@@ -104,7 +114,9 @@ function pieceColours(d) {
   }
   for (const [k, p] of pieces) {
     if (res.has(k)) continue;
-    if (p.hero && p.thick >= EYE_THICK) { res.set(k, { colour: 'none', anchor: null, eye: true }); continue; }   // an eye white / shine
+    // an eye white / shine; a library piece carries its measured verdict (tools/fl-cbn.js eyeFlags): eye === false means a
+    // piece beside a heavy junction, painted like any other (a duck's foot, a mane tuft, 2026-11-08)
+    if (p.hero && p.thick >= EYE_THICK && p.eye !== false) { res.set(k, { colour: 'none', anchor: null, eye: true }); continue; }
     let rule = p.src && !p.hero && SMALL_RULE[p.src];   // scenery only: a main picture has its own colours
     if (!rule) continue;
     if (typeof rule === 'object' && rule.split != null) {   // { split, bottom, fallback }: a flower's stem and leaves
@@ -204,6 +216,9 @@ function build(design, opts = {}) {
   const extra = new Map();   // anchor key (p<i> / m<i>) -> the small pieces painted with it
   // opts.noSmall: the small pieces left unpainted (tools/cbn-unpainted.js --poison proves the detector sees them)
   if (!opts.noSmall) (j.small || []).forEach((s, i) => { const r = pc.small[i]; if (!r) return; if (!extra.has(r.to)) extra.set(r.to, []); extra.get(r.to).push(s.d); });
+  // a library picture's white specks (tools/fl-cbn-specks.js): a tiny hole in a knot of lines that no piece covers is
+  // painted with the region it sits in, so the key and the finished screen keep no white spot (2026-11-08)
+  if (!opts.noSpecks && isLib(design.id)) for (const [x, y, r, k] of j.specks || []) { if (!extra.has(k)) extra.set(k, []); extra.get(k).push(`M${(x - r).toFixed(1)} ${y}a${r} ${r} 0 1 0 ${(2 * r).toFixed(1)} 0a${r} ${r} 0 1 0 ${(-2 * r).toFixed(1)} 0Z`); }
   j.parts.forEach((p, i) => {
     const c = cs[i];
     if (c == null) return;
@@ -229,8 +244,9 @@ function build(design, opts = {}) {
 const { NAMES } = require('./names-i18n.js');
 const DESIGNS = LINEART.map((d) => {
   const out = { id: d.id, kind: d.kind, names: { ...d.names, ...(NAMES[d.id] || {}) } };
-  Object.defineProperty(out, 'level', { enumerable: true, get: () => levelOf(d) });
+  // the measured levels are stored (data/cbn/design-levels.json, tools/cbn-levels.js): reading a design's level must not fetch its drawing
+  Object.defineProperty(out, 'level', { enumerable: true, get: () => { const l = storedLevels()[d.id]; return l != null ? l : levelOf(d); } });
   return out;
 });
 
-module.exports = { DESIGNS, build, W, H, levelOf, partColours, pieceColours };
+module.exports = { DESIGNS, build, W, H, levelOf, partColours, pieceColours, load, isLib, clearCache: () => _cache.clear() };

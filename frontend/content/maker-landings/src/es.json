@@ -261,7 +261,7 @@
   },
   "dot-to-dot": {
     "kw": "Generador de hojas de une los puntos",
-    "lead": "Crea hojas de unir puntos para contar hasta 20, hacia atrás o de 2 en 2, seguir el abecedario o resolver operaciones. El dibujo escondido mantiene a los niños atentos hasta el último punto.",
+    "lead": "Crea hojas de unir puntos para contar hasta 20, hacia atrás o de 2 en 2, seguir el abecedario o resolver operaciones. Los niños también pueden unir los puntos de una letra o un número gigante, terminar dos dibujos pequeños en una misma hoja o escribir el nombre del dibujo que descubren. El dibujo escondido mantiene a los niños atentos hasta el último punto.",
     "teaches": [
       "Decir la serie numérica en orden",
       "Contar hacia atrás y de 2 en 2",
@@ -271,7 +271,7 @@
   },
   "color-by-number": {
     "kw": "Generador de hojas de colorear por número",
-    "lead": "Crea hojas de colorear por número y por código donde cada color es una respuesta: sumas, restas, palabras frecuentes, primeros sonidos y tablas. El dibujo terminado muestra si todo está bien.",
+    "lead": "Crea hojas de colorear por número y por código donde cada color es una respuesta: sumas, restas, palabras frecuentes, primeros sonidos y tablas. La letra escondida y el dibujo misterioso en cuadrícula agregan un acertijo, y colorear con sumas, letras o multiplicaciones funciona con cualquier imagen de nuestra biblioteca. El dibujo terminado muestra si todo está bien.",
     "teaches": [
       "Practicar operaciones con revisión integrada",
       "Leer con cuidado una clave de colores",
@@ -281,7 +281,7 @@
   },
   "coloring-pages": {
     "kw": "Generador de dibujos para colorear en el salón",
-    "lead": "Crea dibujos para colorear de nuestra biblioteca de imágenes, con palabras para repasar, una oración para escribir o una clave. Dobla un minilibro para colorear de cualquier tema que estés viendo.",
+    "lead": "Crea dibujos para colorear de nuestra biblioteca de imágenes, con palabras para repasar, una oración para escribir o una clave. También hay hojas para colorear cada letra y cada número, una hoja con su propio nombre para cada niño, hojas para colorear y contar, y separadores para colorear. Dobla un minilibro para colorear de cualquier tema que estés viendo.",
     "teaches": [
       "Desarrollar el control del lápiz y la fuerza de la mano",
       "Relacionar dibujos con palabras",
@@ -331,7 +331,7 @@
   },
   "find-the-differences": {
     "kw": "Generador de hojas para encontrar las diferencias",
-    "lead": "Crea hojas para encontrar las diferencias con 3, 5, 7 o 10 cambios en escenas ilustradas, además de objetos que faltan, cambios de color e imágenes en espejo. La mayoría también se juega en pantalla.",
+    "lead": "Crea hojas para encontrar las diferencias con 3, 5, 7 o 10 cambios en escenas ilustradas, además de objetos que faltan, cambios de color e imágenes en espejo. Para practicar rápido, los niños comparan cuadrículas de letras, números o dibujos, o encuentran en cada fila el dibujo que mira al otro lado o que tiene otro tamaño. La mayoría también se juega en pantalla.",
     "teaches": [
       "Recorrer una imagen con orden",
       "Decir qué cambió",
@@ -341,7 +341,7 @@
   },
   "how-to-draw": {
     "kw": "Generador de hojas de cómo dibujar",
-    "lead": "Crea hojas de dibujo paso a paso donde cada línea nueva aparece en color. Los niños siguen, repasan, terminan y luego dibujan de memoria, con hojas de palabras y oraciones para escribir.",
+    "lead": "Crea hojas de dibujo paso a paso donde cada línea nueva aparece en color. Los niños siguen, repasan, terminan y luego dibujan de memoria, con hojas de palabras y oraciones para escribir. Con los juegos de tirar el dado se arma un monstruo, un robot o un insecto tiro a tiro, un cartel muestra todos los pasos en una sola hoja y los niños dibujan la misma imagen grande, más pequeña y muy pequeña.",
     "teaches": [
       "Separar un dibujo en figuras simples",
       "Seguir pasos en orden",
@@ -361,7 +361,7 @@
   },
   "picture-tracing": {
     "kw": "Generador de hojas para repasar dibujos",
-    "lead": "Crea hojas para repasar dibujos, desde figuras grandes y redondas para preescolar hasta escenas de ciudad punteadas para primer grado. Líneas rectas, zigzags, espirales y bucles se vuelven un dibujo real.",
+    "lead": "Crea hojas para repasar dibujos, desde figuras grandes y redondas para preescolar hasta escenas de ciudad punteadas para primer grado. Los niños también repasan dos dibujos en una misma hoja, un camino de un dibujo a otro, un marco para dibujar adentro o una letra y un número gigantes. Líneas rectas, zigzags, espirales y bucles se vuelven un dibujo real.",
     "teaches": [
       "Guiar el lápiz por una línea",
       "Trazar líneas rectas, curvas y bucles",

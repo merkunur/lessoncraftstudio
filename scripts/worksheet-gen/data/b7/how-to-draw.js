@@ -97,7 +97,10 @@ const HTD_DIR = path.join(__dirname, '..', 'htd');
 const _steps = new Map();
 /* ---- the LEVEL SET units (2026-10-11): 'lsx-<slug>' = a lesson of data/htdx (the interior engine, read on contact sheets,
    data/htdx/review.js), named in data/htdx/names.js. The eleven published units above never resolve here. */
-const isLs = (slug) => /^lsx-/.test(String(slug || ''));
+// 'lib-<slug>' = a lesson of the flagship library (data/fl/htd, docs/makers/FLAGSHIP.md): it behaves as a Level Set unit, its
+// name comes from lib/fl-forms.js
+const isLib = (slug) => /^lib-/.test(String(slug || ''));
+const isLs = (slug) => /^(lsx|lib)-/.test(String(slug || ''));
 let _ls = null;
 function lsData() {
   // literal requires: the How to Draw maker bundles both tables (makers 2026-11-02)
@@ -106,6 +109,7 @@ function lsData() {
 }
 function lsUnits() { return lsData().units; }
 function lsName(unit, loc) {
+  if (isLib(unit)) { const e = require('../../lib/fl-forms.js').formOf(unitRecord(unit).src, String(loc || '').slice(0, 2)); if (!e) throw new Error(`how-to-draw: ${unit} has no title form in "${loc}"`); return e; }
   const u = unitRecord(unit), e = (lsData().names[u.key] || {})[String(loc || '').slice(0, 2)];
   if (!e) throw new Error(`how-to-draw: no Level Set name for ${unit} (${u.key}) in "${loc}"`);
   return e;
@@ -130,6 +134,7 @@ function lsStarters(unit, loc) {
   }
 }
 function unitRecord(slug) {
+  if (isLib(slug)) { const src = require('../../lib/fl-art.js').keyOf(slug.slice(4)); if (!src) throw new Error(`how-to-draw: "${slug}" is not a library lesson`); return { slug, src, lib: true }; }
   if (isLs(slug)) { const u = lsUnits().find((x) => x.slug === slug); if (!u) throw new Error(`how-to-draw: "${slug}" is not a Level Set unit (data/htdx/units.js)`); return u; }
   const u = UNITS.find((x) => x.slug === slug);
   if (!u) throw new Error(`how-to-draw: "${slug}" is not a unit of the family`);
@@ -169,12 +174,13 @@ function makerFdScenes() {
 function stepsFor(slug) {
   if (_steps.has(slug)) return _steps.get(slug);
   const rec = unitRecord(slug);
-  const f = isLs(slug) ? path.join(__dirname, '..', 'htdx', rec.htdx + '.json') : path.join(HTD_DIR, slug + '.json');
+  const f = rec.lib ? path.join(__dirname, '..', 'fl', 'htd', slug.slice(4) + '.json') : isLs(slug) ? path.join(__dirname, '..', 'htdx', rec.htdx + '.json') : path.join(HTD_DIR, slug + '.json');
   // read through the platform (the How to Draw maker fetches one lesson per page, 2026-11-02)
   if (!platform.exists(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htd-build.js${isLs(slug) ? ' --set=htdx' : ''} --only=${isLs(slug) ? rec.htdx : slug})`);
   const S = platform.readJson(f);
   if (S.refused) throw new Error(`how-to-draw: ${slug} is REFUSED in data/htd/review.js: ${S.refused}`);
   if (!S.stats || S.stats.missing || S.stats.extra || S.stats.dup) throw new Error(`how-to-draw: ${slug} steps do not partition the drawing (missing ${S.stats && S.stats.missing}, extra ${S.stats && S.stats.extra})`);
+  if (rec.lib) { S.lib = true; if (S.full == null) S.full = S.steps.map((x) => x.d).join(''); }   // the library's lessons carry their steps only (tools/fl-slim.js)
   _steps.set(slug, S);
   return S;
 }
@@ -298,4 +304,4 @@ function validateBank(block, loc) {
   return errs;
 }
 
-module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, vectorStepsFor, VECTOR, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank, makerUnits, makerHtdx, makerFdScenes };
+module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, isLib, unitRecord, lsUnits, lsName, lsStarters, stepsFor, vectorStepsFor, VECTOR, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank, makerUnits, makerHtdx, makerFdScenes };

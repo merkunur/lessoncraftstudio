@@ -86,19 +86,15 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // Dot to Dot (2026-11-02): the picture IS the dots — a scene whose outline takes the level's number of dots and whose
   // numbers all find a free place (the d2d index), or a hand-drawn figure; it is not a library picture, so no picker can
   // offer it — "New version" moves through the level's pictures. The numbers / letters come from the level
-  'K-285', 'K-294', 'K-295', 'K-296', 'K-308', 'K-309', 'G1-285', 'G1-294', 'G2-304', 'G2-314', 'K-473', 'G1-486',
-  'K-505', 'K-506', 'K-507',
-  // Color by Number (2026-11-02): the code faces draw shapes and numerals / sums / facts by code (the Level control and
+      // Color by Number (2026-11-02): the code faces draw shapes and numerals / sums / facts by code (the Level control and
   // "New version" change them); the illustrated pictures (K-393 / K-394) are one drawn design each — the design is the page
-  'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'K-394', 'G1-487', 'K-513',
+  'K-241', 'K-265', 'K-266', 'K-267', 'K-268', 'K-269', 'G3-478', 'K-393', 'G1-487', 'K-513',
   // the composed-scene makers (2026-11-02): a Find the Differences scene, a How to Draw lesson and a Picture Tracing scene
   // are each ONE reviewed composition (the differences, the steps, the occlusion depend on every drawing in it) — "New
   // version" walks the face's published and Level Set copies; a single drawing is never swapped
-  'K-395', 'K-397', 'K-398', 'K-399', 'K-400', 'G1-412', 'G1-413', 'G1-414', 'G1-415', 'G2-388', 'G2-389',
-  'K-396', 'K-401', 'K-402', 'K-403', 'K-404', 'G1-416', 'G1-417', 'G1-418', 'G1-419', 'G2-390', 'G2-391',
-  'K-418', 'K-419', 'K-420', 'K-421', 'K-422', 'K-423', 'K-424', 'K-425', 'K-426', 'K-427', 'K-428', 'K-429', 'K-430', 'K-431', 'K-432',
+    'K-401', 'G1-417',   'K-418', 'K-421', 'K-422', 'K-423', 'K-424', 'K-425', 'K-426', 'K-427', 'K-428', 'K-429', 'K-430', 'K-431', 'K-432',
   'G1-429', 'G1-430', 'G1-431', 'G1-432', 'G1-433',
-  'K-488', 'K-489', 'K-490', 'K-491', 'K-492', 'K-493', 'K-494', 'K-495', 'K-496', 'K-497', 'K-498', 'K-499', 'K-500', 'K-501',
+  'K-493', 'K-495', 'K-496', 'K-500', 'K-501',
   // Same & Different (2026-11-02): K-509's pictures are chosen TOGETHER so that no two outlines are alike — a swapped picture
   // could hide behind another's outline (two right answers)
   'K-509',
@@ -202,6 +198,14 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // Animal Fact File (G2-318, G2-339..343) draws an animal with its true facts against the other animals' profiles;
   // the Story Map (G1-506) and Postcard (G1-510) are frames the child fills — Regenerate draws another page
   'K-379', 'K-381', 'G1-400', 'G1-401', 'G1-402', 'G2-378', 'G2-318', 'G2-339', 'G2-340', 'G2-341', 'G2-342', 'G2-343', 'G1-506', 'G1-510',
+  // the colouring alphabet and numbers (docs/makers/FLAGSHIP.md): the letter, number or word is set by the Word control
+  'K-619', 'K-584', 'K-585', 'G1-553', 'K-579', 'K-580', 'K-602', 'K-609', 'K-617', 'K-611', 'K-616',
+  // numerals, letters and a calendar only; New version deals another page
+  'K-606', 'G1-554', 'G1-551', 'G2-499', 'K-615', 'K-591', 'K-592', 'K-623', 'K-626', 'K-613',
+  // drawn for the page: hand pixel pictures, the roll-and-draw parts, a traced path and frame
+  'G1-555', 'K-595', 'K-596', 'K-597', 'K-600', 'K-601',
+  // pictures chosen by the page's own rule (a word that spells or splits right, a first letter, a count): swapping one could break it; New version deals another page
+  'K-603', 'K-621', 'K-624', 'K-620', 'G1-552', 'K-618',
 ]);
 // a template whose theme pictures are DECORATION only (themeAxis.decorative: a corner flourish on a numeral page) has
 // nothing a teacher would swap — no slot is required

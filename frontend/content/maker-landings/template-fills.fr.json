@@ -1,4 +1,200 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Le chemin des nombres",
+   "Trouve le 1. Colorie les nombres dans l’ordre jusqu’à 15, côte à côte, pour faire un chemin."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Colorie la paire",
+   "Dans chaque rangée, colorie les deux nombres qui font 6 ensemble."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Colorie les multiples",
+   "Colorie tous les nombres de la table de 4."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Mon affiche du nombre : 1",
+   "Colorie le nombre et son mot. Puis colorie autant de cases dans la grille."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Colorie et repasse : 1",
+   "Colorie le grand nombre. Puis repasse les nombres sur les lignes."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Lettre à relier : A",
+   "Pars du point orange. Relie les points dans l’ordre des nombres pour faire la lettre. Puis colorie-la."
+  ],
+  "K-585": [
+   "Chiffre à relier : 1",
+   "Pars du point orange. Relie les points dans l’ordre des nombres pour faire le chiffre. Puis colorie-le."
+  ],
+  "G3-480": [
+   "Points à relier : compter par bonds",
+   "Pars du point orange. Compte de 4 en 4 et relie les points dans l’ordre."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Coloriage magique (additions) : Cerf",
+   "Calcule chaque addition du code. Colorie chaque partie avec la couleur de son résultat."
+  ],
+  "K-588": [
+   "Coloriage magique (lettres) : Cerf",
+   "Colorie chaque partie avec la couleur de sa lettre."
+  ],
+  "G3-479": [
+   "Coloriage magique (multiplications) : Cerf",
+   "Calcule chaque multiplication du code. Colorie chaque partie avec la couleur de son résultat."
+  ],
+  "K-393": [
+   "Coloriage magique : Mouton à la ferme",
+   "Colorie chaque partie avec la couleur de son numéro."
+  ],
+  "K-394": [
+   "Coloriage magique : Cerf",
+   "Colorie chaque partie avec la couleur de son numéro."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alphabet à colorier : A",
+   "Colorie la page. Rends-la aussi belle et colorée que tu peux."
+  ],
+  "K-580": [
+   "Nombres à colorier : 1",
+   "Colorie tout ce qu’il y a sur la page. Compte les étoiles."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Grille de lettres : trouve les différences",
+   "Regarde la grille du haut. Trouve les 5 lettres qui ont changé dans la grille du bas. Colorie-les."
+  ],
+  "K-592": [
+   "Grille de chiffres : trouve les différences",
+   "Regarde la grille du haut. Trouve les 5 chiffres qui ont changé dans la grille du bas. Colorie-les."
+  ],
+  "G1-548": [
+   "Grille d’images : trouve les différences",
+   "Regarde la grille du haut. Trouve les 5 images qui ont changé dans la grille du bas. Entoure-les."
+  ],
+  "K-395": [
+   "Jeu des 5 différences : Cygne sur la mare",
+   "Compare l'image 1 et l'image 2, entoure les 5 choses qui ont changé dans l'image 2, puis coche une case pour chacune."
+  ],
+  "K-397": [
+   "Cherche les 3 grandes différences : Dinde à la ferme",
+   "Regarde bien l'image du haut, entoure les 3 grandes différences dans l'image du bas, puis coche les 3 cases."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Repasse la lettre géante : A",
+   "Commence au point noir. Repasse le contour. Puis colorie la lettre."
+  ],
+  "K-609": [
+   "Repasse le nombre géant : 1",
+   "Commence au point noir. Repasse le contour. Puis colorie le nombre."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Colorie et repasse : A",
+   "Colorie les grandes lettres. Puis repasse les lettres sur les lignes."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Trouve et colorie : A",
+   "Regarde la lettre en haut. Trouve-la dans la grille et colorie-la à chaque fois."
+  ],
+  "K-317": [
+   "La lettre L",
+   "Repasse le grand L et le petit l. Entoure les quatre images dont le nom commence par l, puis écris une ligne de chaque lettre."
+  ],
+  "K-325": [
+   "Des mots avec L : le l caché dans le mot",
+   "Repasse la lettre, puis entoure les quatre images dont le nom cache un l au milieu ou à la fin, pas au début."
+  ],
+  "K-326": [
+   "Au début, au milieu ou à la fin ? La lettre L",
+   "Lis le mot avec l'image. Colorie la case qui montre où se trouve la lettre l : au début, au milieu ou à la fin."
+  ],
+  "K-327": [
+   "Entoure les L dans les mots et compte",
+   "Cherche chaque L ou l dans le mot et entoure-le. Puis écris dans la case combien tu en as trouvé."
+  ],
+  "G1-311": [
+   "Le son de la semaine : [ou]",
+   "Repasse le son ou, entoure les quatre images dont le nom contient le son [ou], puis écris toute une ligne de ou sur les lignes d'écriture."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Colorie le mot-outil : le",
+   "Lis le mot. Colorie-le chaque fois que tu le trouves."
+  ],
+  "K-388": [
+   "Le mot du jour : le",
+   "Lis le mot. Repasse-le, écris-le et utilise-le dans des phrases."
+  ],
+  "K-389": [
+   "Mots-outils en phrases : le",
+   "Lis chaque phrase. Écris le mot « le » sur la ligne."
+  ],
+  "K-390": [
+   "Une phrase avec le",
+   "Travaille une phrase, étape par étape."
+  ],
+  "K-391": [
+   "Repasse les phrases : le",
+   "Repasse chaque phrase. Puis écris-la sur la ligne en dessous."
+  ],
+  "K-392": [
+   "Trouve le mot : le",
+   "Colorie chaque case qui contient le mot « le ». Compte-les et écris le nombre."
+  ],
+  "K-433": [
+   "Lis, repasse, écris : le",
+   "Lis le mot. Repasse-le. Écris-le. Puis écris-le dans chaque phrase."
+  ],
+  "K-434": [
+   "Repasse le mot et la phrase : le",
+   "Repasse le mot. Puis repasse la phrase sur chaque ligne."
+  ],
+  "K-435": [
+   "Lis et dessine : le",
+   "Lis la phrase. Repasse-la. Puis dessine ce que dit la phrase."
+  ],
+  "K-436": [
+   "Trouve et compte : le",
+   "Entoure le mot « le » chaque fois que tu le vois. Combien de fois l’as-tu trouvé ?"
+  ],
+  "K-438": [
+   "Construis le mot : le",
+   "Découpe les lettres. Colle-les dans le bon ordre pour former le mot."
+  ],
+  "K-439": [
+   "Écriture arc-en-ciel : le",
+   "Repasse chaque mot trois fois, avec une couleur différente à chaque fois. Puis écris-le."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Loto à colorier",
+   "Prends une carte. Écoute les nombres de 1 à 20. Colorie chaque nombre que tu entends. Trois alignés, c’est gagné."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Détective des nombres",
@@ -9,30 +205,10 @@
    "Chaque ligne et chaque colonne doit contenir 1, 2, 3 et 4 une seule fois. Les nombres d'une cage au trait épais additionnés donnent le petit nombre écrit dans son coin."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Coloriage magique : Mouton à la ferme",
-   "Colorie chaque partie avec la couleur de son numéro."
-  ],
-  "K-394": [
-   "Coloriage magique : Cerf",
-   "Colorie chaque partie avec la couleur de son numéro."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Saute d'alvéole en alvéole dans l'ordre alphabétique",
    "Commence dans l'alvéole montrée par la flèche. Colorie à chaque fois la lettre suivante dans une alvéole voisine, jusqu'au S."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Jeu des 5 différences : Cygne sur la mare",
-   "Compare l'image 1 et l'image 2, entoure les 5 choses qui ont changé dans l'image 2, puis coche une case pour chacune."
-  ],
-  "K-397": [
-   "Cherche les 3 grandes différences : Dinde à la ferme",
-   "Regarde bien l'image du haut, entoure les 3 grandes différences dans l'image du bas, puis coche les 3 cases."
   ]
  },
  "how-to-draw": {
@@ -81,28 +257,6 @@
    "Regarde bien l'image, plie la page sur la ligne en pointillés pour la cacher, puis dessine-la de mémoire dans le grand cadre."
   ]
  },
- "alphabet": {
-  "K-317": [
-   "La lettre L",
-   "Repasse le grand L et le petit l. Entoure les quatre images dont le nom commence par l, puis écris une ligne de chaque lettre."
-  ],
-  "K-325": [
-   "Des mots avec L : le l caché dans le mot",
-   "Repasse la lettre, puis entoure les quatre images dont le nom cache un l au milieu ou à la fin, pas au début."
-  ],
-  "K-326": [
-   "Au début, au milieu ou à la fin ? La lettre L",
-   "Lis le mot avec l'image. Colorie la case qui montre où se trouve la lettre l : au début, au milieu ou à la fin."
-  ],
-  "K-327": [
-   "Entoure les L dans les mots et compte",
-   "Cherche chaque L ou l dans le mot et entoure-le. Puis écris dans la case combien tu en as trouvé."
-  ],
-  "G1-311": [
-   "Le son de la semaine : [ou]",
-   "Repasse le son ou, entoure les quatre images dont le nom contient le son [ou], puis écris toute une ligne de ou sur les lignes d'écriture."
-  ]
- },
  "syllables": {
   "G1-306": [
    "Lecture de syllabes : ma me mi mo mu",
@@ -115,52 +269,6 @@
   "G1-333": [
    "Syllabes complexes : br, bl et cr",
    "Lis les syllabes à deux consonnes à voix haute. Dis le nom de l'image, puis écris sa première syllabe sur la ligne."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Le mot du jour : le",
-   "Lis le mot. Repasse-le, écris-le et utilise-le dans des phrases."
-  ],
-  "K-389": [
-   "Mots-outils en phrases : le",
-   "Lis chaque phrase. Écris le mot « le » sur la ligne."
-  ],
-  "K-390": [
-   "Une phrase avec le",
-   "Travaille une phrase, étape par étape."
-  ],
-  "K-391": [
-   "Repasse les phrases : le",
-   "Repasse chaque phrase. Puis écris-la sur la ligne en dessous."
-  ],
-  "K-392": [
-   "Trouve le mot : le",
-   "Colorie chaque case qui contient le mot « le ». Compte-les et écris le nombre."
-  ],
-  "K-433": [
-   "Lis, repasse, écris : le",
-   "Lis le mot. Repasse-le. Écris-le. Puis écris-le dans chaque phrase."
-  ],
-  "K-434": [
-   "Repasse le mot et la phrase : le",
-   "Repasse le mot. Puis repasse la phrase sur chaque ligne."
-  ],
-  "K-435": [
-   "Lis et dessine : le",
-   "Lis la phrase. Repasse-la. Puis dessine ce que dit la phrase."
-  ],
-  "K-436": [
-   "Trouve et compte : le",
-   "Entoure le mot « le » chaque fois que tu le vois. Combien de fois l’as-tu trouvé ?"
-  ],
-  "K-438": [
-   "Construis le mot : le",
-   "Découpe les lettres. Colle-les dans le bon ordre pour former le mot."
-  ],
-  "K-439": [
-   "Écriture arc-en-ciel : le",
-   "Repasse chaque mot trois fois, avec une couleur différente à chaque fois. Puis écris-le."
   ]
  },
  "spelling": {

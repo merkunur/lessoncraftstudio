@@ -91,7 +91,9 @@ function main() {
   if (DRY) return 0;
   // 6. ownership + the stage
   if (process.platform !== 'win32' && process.getuid && process.getuid() === 0) {
-    for (const d of ['makers', 'makers-assets']) if (fs.existsSync(path.join(ROOT, d))) { try { execFileSync('chown', ['-R', 'lcs-media:lcs-media', path.join(ROOT, d)]); } catch (e) { console.log('makers: chown failed (' + e.message + ')'); } }
+    // only what is not lcs-media's yet: the protected flagship renders are immutable (chattr +i), and a chown -R over them
+    // would fail (server-scripts/protect-flagship-art.sh)
+    for (const d of ['makers', 'makers-assets']) if (fs.existsSync(path.join(ROOT, d))) { try { execFileSync('find', [path.join(ROOT, d), '(', '!', '-user', 'lcs-media', '-o', '!', '-group', 'lcs-media', ')', '-exec', 'chown', 'lcs-media:lcs-media', '{}', '+']); } catch (e) { console.log('makers: chown failed (' + e.message + ')'); } }
   }
   if (!args['keep-stage']) { fs.rmSync(STAGE, { recursive: true, force: true }); console.log('makers: staging folder removed'); }
   return 0;

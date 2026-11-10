@@ -4554,5 +4554,229 @@
   "K-578": {
     "title": "Vormen- en kleurenbingo: voorleeskaartjes",
     "instruction": "Knip de kaartjes uit en schud ze. Pak steeds één kaartje en lees de vorm en de kleur voor. Leg de gebruikte kaartjes apart: zo kun je elke bingo controleren."
+  },
+  "K-579": {
+    "title": "Alfabet kleuren: {U}",
+    "instruction": "Kleur de bladzijde. Maak er iets moois en vrolijks van."
+  },
+  "K-580": {
+    "title": "Getallen kleuren: {U}",
+    "instruction": "Kleur alles op de bladzijde. Tel de sterren."
+  },
+  "K-581": {
+    "title": "Kleur je naam",
+    "instruction": "Kleur elke letter van je naam."
+  },
+  "K-582": {
+    "title": "Kleur en tel",
+    "instruction": "Kleur de plaatjes. Tel elke soort en schrijf op hoeveel het er zijn."
+  },
+  "K-583": {
+    "title": "Boekenleggers kleuren",
+    "instruction": "Kleur de boekenleggers. Knip ze uit langs de stippellijnen."
+  },
+  "K-584": {
+    "title": "Letter van stip naar stip: {U}",
+    "instruction": "Begin bij de oranje stip. Verbind de stippen op volgorde van de getallen tot je de letter ziet. Kleur hem daarna."
+  },
+  "K-585": {
+    "title": "Getal van stip naar stip: {U}",
+    "instruction": "Begin bij de oranje stip. Verbind de stippen op volgorde van de getallen tot je het getal ziet. Kleur het daarna."
+  },
+  "K-586": {
+    "title": "Twee kleine stip-naar-stip-plaatjes",
+    "instruction": "Begin in elk plaatje bij de oranje stip. Verbind de stippen op volgorde van de getallen."
+  },
+  "G1-547": {
+    "title": "Verbind de stippen en schrijf het woord",
+    "instruction": "Verbind de stippen op volgorde van de getallen. Schrijf daarna op wat je ziet."
+  },
+  "K-587": {
+    "title": "Kleuren met sommen: {UNIT}",
+    "instruction": "Reken elke som in de code uit. Kleur elk deel met de kleur van het antwoord."
+  },
+  "K-588": {
+    "title": "Kleuren op letter: {UNIT}",
+    "instruction": "Kleur elk deel met de kleur die bij de letter hoort."
+  },
+  "K-591": {
+    "title": "Letterrooster: zoek de verschillen",
+    "instruction": "Kijk naar het bovenste rooster. Zoek de {N} letters die in het onderste rooster zijn veranderd. Kleur ze."
+  },
+  "K-592": {
+    "title": "Getallenrooster: zoek de verschillen",
+    "instruction": "Kijk naar het bovenste rooster. Zoek de {N} getallen die in het onderste rooster zijn veranderd. Kleur ze."
+  },
+  "G1-548": {
+    "title": "Plaatjesrooster: zoek de verschillen",
+    "instruction": "Kijk naar het bovenste rooster. Zoek de {N} plaatjes die in het onderste rooster zijn veranderd. Omcirkel ze."
+  },
+  "K-593": {
+    "title": "Wie kijkt de andere kant op?",
+    "instruction": "In elke rij kijkt één plaatje de andere kant op. Omcirkel het."
+  },
+  "K-594": {
+    "title": "Welk plaatje is anders van grootte?",
+    "instruction": "In elke rij heeft één plaatje een andere grootte. Omcirkel het."
+  },
+  "K-595": {
+    "title": "Gooi en teken een monster",
+    "instruction": "Gooi voor elke rij met de dobbelsteen. Teken het deel onder jouw getal in het vak."
+  },
+  "K-596": {
+    "title": "Gooi en teken een robot",
+    "instruction": "Gooi voor elke rij met de dobbelsteen. Teken het deel onder jouw getal in het vak."
+  },
+  "K-597": {
+    "title": "Gooi en teken een insect",
+    "instruction": "Gooi voor elke rij met de dobbelsteen. Teken het deel onder jouw getal in het vak."
+  },
+  "K-598": {
+    "title": "Tekenposter",
+    "instruction": "Bekijk de stappen op volgorde. Kleur de naam en de afgemaakte tekening."
+  },
+  "G1-549": {
+    "title": "Teken het drie keer",
+    "instruction": "Volg de stappen. Teken het plaatje groot, dan kleiner en dan heel klein."
+  },
+  "K-599": {
+    "title": "Twee tekeningen overtrekken",
+    "instruction": "Trek alle lijnen van beide tekeningen over. Begin bij de zwarte stippen."
+  },
+  "K-600": {
+    "title": "Trek de weg over",
+    "instruction": "Begin in elke rij bij de zwarte stip. Trek de weg over naar het andere plaatje."
+  },
+  "K-601": {
+    "title": "Trek de lijst over",
+    "instruction": "Begin bij de zwarte stip en trek de lijst over. Teken er daarna iets in wat je leuk vindt."
+  },
+  "K-602": {
+    "title": "Trek de reuzenletter over: {U}",
+    "instruction": "Begin bij de zwarte stip. Trek de omtrek over. Kleur daarna de letter."
+  },
+  "K-609": {
+    "title": "Trek het reuzengetal over: {U}",
+    "instruction": "Begin bij de zwarte stip. Trek de omtrek over. Kleur daarna het getal."
+  },
+  "K-603": {
+    "title": "Tel en kleur het getal",
+    "instruction": "Tel de plaatjes in elke rij. Kleur het getal dat zegt hoeveel het er zijn."
+  },
+  "K-604": {
+    "title": "Het getallenpad",
+    "instruction": "Zoek de 1. Kleur de getallen op volgorde tot en met {N}, steeds naast elkaar, zodat er een pad ontstaat."
+  },
+  "K-606": {
+    "title": "Kleur het grootste getal",
+    "instruction": "Kijk naar de twee getallen in elk vak. Kleur het grootste getal."
+  },
+  "K-607": {
+    "title": "Reken en kleur het antwoord",
+    "instruction": "Reken elke som uit. Kleur het getal dat het antwoord is."
+  },
+  "G2-499": {
+    "title": "Kleur de veelvouden",
+    "instruction": "Kleur alle getallen die je zegt als je met sprongen van {N} telt."
+  },
+  "K-608": {
+    "title": "Kleur het paar",
+    "instruction": "Kleur in elke rij de twee getallen die samen {N} zijn."
+  },
+  "G1-551": {
+    "title": "Kleur het tiental",
+    "instruction": "Kleur in elk getal het cijfer op de plaats van de tientallen."
+  },
+  "K-610": {
+    "title": "Kleur en trek over: {U}",
+    "instruction": "Kleur het grote getal. Trek daarna de getallen op de lijnen over."
+  },
+  "K-611": {
+    "title": "Mijn getalposter: {U}",
+    "instruction": "Kleur het getal en het woord. Kleur daarna evenveel hokjes in het veld."
+  },
+  "K-612": {
+    "title": "Kleur het getal en vul het veld",
+    "instruction": "Kleur elk getal. Kleur daarna evenveel hokjes in het veld."
+  },
+  "K-613": {
+    "title": "Kleur de dagen",
+    "instruction": "Kleur elke dag het getal van vandaag, tot de hele maand gekleurd is."
+  },
+  "K-614": {
+    "title": "Kleur het letterpatroon",
+    "instruction": "Kleur dezelfde letters in dezelfde kleur. Schrijf de letter die daarna komt."
+  },
+  "K-615": {
+    "title": "Letters of cijfers?",
+    "instruction": "Kleur alle letters. Laat de cijfers wit."
+  },
+  "K-616": {
+    "title": "Zoek en kleur: {U}",
+    "instruction": "Kijk naar de letter bovenaan. Zoek hem in het rooster en kleur hem elke keer."
+  },
+  "K-617": {
+    "title": "Kleur en trek over: {U}",
+    "instruction": "Kleur de grote letters. Trek daarna de letters op de lijnen over."
+  },
+  "K-618": {
+    "title": "Kleur de eerste letter",
+    "instruction": "Zeg wat je op elk plaatje ziet. Kleur de letter waarmee het woord begint."
+  },
+  "K-619": {
+    "title": "Kleur het flitswoord: {U}",
+    "instruction": "Lees het woord. Kleur het elke keer dat je het vindt."
+  },
+  "G1-552": {
+    "title": "Kleur het goede woord",
+    "instruction": "Kijk naar elk plaatje. Kleur het woord dat goed geschreven is."
+  },
+  "K-620": {
+    "title": "Kleur de klankgroepen",
+    "instruction": "Zeg elk woord en klap de klankgroepen. Kleur elke klankgroep in een andere kleur."
+  },
+  "K-621": {
+    "title": "Kleur en schrijf het woord",
+    "instruction": "Zeg het woord. Kleur de grote letters. Schrijf het woord daarna op de lijn."
+  },
+  "K-622": {
+    "title": "Woordzoeker om te kleuren",
+    "instruction": "Zoek elk woord in het rooster en kleur de letters. Neem voor elk woord een nieuwe kleur."
+  },
+  "K-623": {
+    "title": "Kleurbingo",
+    "instruction": "Pak een kaart. Luister naar de getallen van 1 tot en met {N}. Kleur elk getal dat je hoort. Drie op een rij wint."
+  },
+  "K-624": {
+    "title": "Alfabetkaarten om te kleuren",
+    "instruction": "Kleur elke kaart. Knip de kaarten daarna uit langs de stippellijnen."
+  },
+  "K-625": {
+    "title": "Mijn naamposter",
+    "instruction": "Kleur de letters van je naam. Teken jezelf in het vak."
+  },
+  "K-626": {
+    "title": "Kleur de letter op de juiste plaats",
+    "instruction": "Begin in elke rij bij de pijl en tel de plaatsen. Kleur de letter op de plaats die erbij staat."
+  },
+  "G3-480": {
+    "title": "Van stip naar stip: sprongen tellen",
+    "instruction": "Begin bij de oranje stip. Tel met sprongen van {N} en verbind de stippen op volgorde."
+  },
+  "G3-479": {
+    "title": "Kleuren met keersommen: {UNIT}",
+    "instruction": "Reken elke keersom in de code uit. Kleur elk deel met de kleur van het antwoord."
+  },
+  "G1-555": {
+    "title": "Geheime ruitjestekening",
+    "instruction": "Kleur elk hokje met de kleur van het getal. Welk plaatje verschijnt er?"
+  },
+  "G1-553": {
+    "title": "De verborgen letter",
+    "instruction": "Kleur elk hokje met een oneven getal. Welke letter zie je? Schrijf hem in het antwoordvak."
+  },
+  "G1-554": {
+    "title": "Kleur de oneven getallen",
+    "instruction": "Kleur alle oneven getallen. Laat de even getallen wit."
   }
 }

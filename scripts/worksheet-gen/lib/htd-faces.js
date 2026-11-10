@@ -38,7 +38,14 @@ function pinned(face, level) {
 const copyOf = (ctx) => Math.max(1, parseInt(String((ctx && ctx.variant) || 1), 10) || 1);
 /** the n-th entry of a list (copy n of the page) */
 const nth = (list, ctx, k = 0) => list[(copyOf(ctx) - 1 + k) % list.length];
+/** the page's lesson (a maker page): the teacher's picture or theme, the face's own list, then the library; ok(steps) narrows it */
+function pick(list, ctx, ok) {
+  const FL = require('./fl-art.js'), lib = ctx && ctx.slotsOut ? FL.keys('htd', ok) : [], n = copyOf(ctx), hit = FL.choose(ctx, lib, n);
+  const unit = hit ? 'lib-' + FL.slugOf(hit) : lib.length && n > list.length ? 'lib-' + FL.slugOf(lib[(n - 1 - list.length) % lib.length]) : nth(list, ctx);
+  if (lib.length) FL.report(ctx, lib, /^lib-/.test(unit) ? FL.keyOf(unit.slice(4)) : (B.unitRecord(unit).src || null));
+  return unit;
+}
 function root(face, unit, inner, extra = '') {
   return `<div data-ws-content data-lcs-htd-face="${face}" data-lcs-htd-unit="${unit}" ${extra} style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:0">${inner}</div>`;
 }
-module.exports = { pool, order, pinned, copyOf, nth, root, B };
+module.exports = { pool, order, pinned, copyOf, nth, pick, root, B };

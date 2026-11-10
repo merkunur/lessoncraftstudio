@@ -1,4 +1,204 @@
 {
+ "number-sequences": {
+  "K-604": [
+   "Talstigen",
+   "Hitta 1. Måla talen i ordning fram till 15, ett bredvid det andra, så att det blir en stig."
+  ]
+ },
+ "number-bonds": {
+  "K-608": [
+   "Måla talparet",
+   "Måla de två talen i varje rad som tillsammans blir 6."
+  ]
+ },
+ "multiplication-division": {
+  "G2-499": [
+   "Måla multiplerna",
+   "Måla alla tal i 4:ans tabell."
+  ]
+ },
+ "number-of-the-day": {
+  "K-611": [
+   "Min talaffisch: 1",
+   "Måla talet och ordet. Måla sedan lika många rutor i ramen."
+  ]
+ },
+ "number-tracing": {
+  "K-610": [
+   "Måla och spåra: 1",
+   "Måla det stora talet. Spåra sedan talen på linjerna."
+  ]
+ },
+ "dot-to-dot": {
+  "K-584": [
+   "Prick till prick: bokstaven A",
+   "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills bokstaven kommer fram. Måla den sedan."
+  ],
+  "K-585": [
+   "Prick till prick: siffran 1",
+   "Börja vid den orangea pricken. Dra streck från prick till prick i rätt ordning tills siffran kommer fram. Måla den sedan."
+  ],
+  "G3-480": [
+   "Prick till prick: räkna med hopp",
+   "Börja vid den orangea pricken. Räkna 4 steg i taget och dra streck från prick till prick."
+  ]
+ },
+ "color-by-number": {
+  "K-587": [
+   "Måla med additioner: Hjort",
+   "Räkna ut varje addition i koden. Måla varje del med svarets färg."
+  ],
+  "K-588": [
+   "Måla efter bokstäver: Hjort",
+   "Måla varje del med den färg som bokstaven visar."
+  ],
+  "G3-479": [
+   "Måla med multiplikation: Hjort",
+   "Räkna ut varje multiplikation i koden. Måla varje del med svarets färg."
+  ],
+  "K-393": [
+   "Måla efter nummer: Får på bondgården",
+   "Måla varje del med färgen som hör till dess nummer."
+  ],
+  "K-394": [
+   "Måla efter nummer: Hjort",
+   "Måla varje del med färgen som hör till dess nummer."
+  ]
+ },
+ "coloring-pages": {
+  "K-579": [
+   "Alfabetet att måla: A",
+   "Måla sidan. Gör den så färgglad och fin du kan."
+  ],
+  "K-580": [
+   "Tal att måla: 1",
+   "Måla allt på sidan. Räkna stjärnorna."
+  ]
+ },
+ "find-the-differences": {
+  "K-591": [
+   "Bokstavsrutnät: hitta skillnaderna",
+   "Titta på det övre rutnätet. Hitta de 5 bokstäver som har ändrats i det nedre rutnätet. Måla dem."
+  ],
+  "K-592": [
+   "Sifferrutnät: hitta skillnaderna",
+   "Titta på det övre rutnätet. Hitta de 5 siffror som har ändrats i det nedre rutnätet. Måla dem."
+  ],
+  "G1-548": [
+   "Bildrutnät: hitta skillnaderna",
+   "Titta på det övre rutnätet. Hitta de 5 bilder som har ändrats i det nedre rutnätet. Ringa in dem."
+  ],
+  "K-395": [
+   "Finn fem fel: Svan på dammen",
+   "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
+  ],
+  "K-397": [
+   "Finn tre fel: Kalkon på gården",
+   "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
+  ]
+ },
+ "picture-tracing": {
+  "K-602": [
+   "Spåra jättebokstaven: A",
+   "Börja vid den svarta pricken. Spåra konturen. Måla sedan bokstaven."
+  ],
+  "K-609": [
+   "Spåra jättetalet: 1",
+   "Börja vid den svarta pricken. Spåra konturen. Måla sedan talet."
+  ]
+ },
+ "letter-tracing": {
+  "K-617": [
+   "Måla och spåra: A",
+   "Måla de stora bokstäverna. Spåra sedan bokstäverna på linjerna."
+  ]
+ },
+ "alphabet": {
+  "K-616": [
+   "Hitta och måla: A",
+   "Titta på bokstaven högst upp. Hitta den i rutnätet och måla den varje gång."
+  ],
+  "K-317": [
+   "Veckans bokstav: M m",
+   "Spåra stora och lilla M, ringa in de fyra bilderna som börjar på m och skriv sedan en rad av varje bokstav."
+  ],
+  "K-325": [
+   "Ord med M: hör du m inne i ordet?",
+   "Spåra bokstaven. Ringa in de fyra bilderna där du hör m någonstans inne i ordet, inte först."
+  ],
+  "K-326": [
+   "Först, i mitten eller sist: var hör du M?",
+   "Säg varje ord. Färglägg rutan som visar var du hör m: först, i mitten eller sist i ordet."
+  ],
+  "K-327": [
+   "Ringa in M i orden och räkna",
+   "Leta upp varje M och m i orden och ringa in dem. Skriv sedan i rutan hur många du hittade."
+  ],
+  "K-328": [
+   "Börjar ordet på M eller N? Välj rätt bokstav",
+   "Säg varje ord. Ringa in den bokstav som ordet börjar på: m eller n."
+  ],
+  "G1-311": [
+   "Veckans ljud: ng",
+   "Spåra ng, ringa in de fyra bilderna där du hör ng och skriv sedan en rad."
+  ]
+ },
+ "sight-words": {
+  "K-619": [
+   "Måla ordbilden: och",
+   "Läs ordet. Måla det varje gång du hittar det."
+  ],
+  "K-388": [
+   "Dagens ord: och",
+   "Läs ordet. Spåra det, skriv det och använd det i meningar."
+  ],
+  "K-389": [
+   "Vanliga ord i meningar: och",
+   "Läs varje mening. Skriv ordet ”och” på linjen."
+  ],
+  "K-390": [
+   "En mening med och",
+   "Arbeta med en mening, steg för steg."
+  ],
+  "K-391": [
+   "Spåra meningarna: och",
+   "Spåra varje mening. Skriv den sedan på linjen under."
+  ],
+  "K-392": [
+   "Hitta ordet: och",
+   "Färglägg varje ruta med ordet ”och”. Räkna dem och skriv antalet."
+  ],
+  "K-433": [
+   "Läs, spåra, skriv: och",
+   "Läs ordet. Spåra det. Skriv det. Skriv det sedan i varje mening."
+  ],
+  "K-434": [
+   "Spåra ordet och meningen: och",
+   "Spåra ordet. Spåra sedan meningen på varje rad."
+  ],
+  "K-435": [
+   "Läs och rita: och",
+   "Läs meningen. Spåra den. Rita sedan det som meningen säger."
+  ],
+  "K-436": [
+   "Hitta och räkna: och",
+   "Ringa in ordet ”och” varje gång du ser det. Hur många gånger hittade du det?"
+  ],
+  "K-438": [
+   "Bygg ordet: och",
+   "Klipp ut bokstäverna. Klistra fast dem i rätt ordning så att de bildar ordet."
+  ],
+  "K-439": [
+   "Regnbågsskrivning: och",
+   "Spåra varje ord tre gånger, med en ny färg varje gång. Skriv det sedan."
+  ]
+ },
+ "bingo": {
+  "K-623": [
+   "Målarbingo",
+   "Ta en bricka. Lyssna på talen från 1 till 20. Måla varje tal du hör. Tre i rad vinner."
+  ]
+ },
  "logic-puzzles": {
   "G1-476": [
    "Taldetektiven",
@@ -9,30 +209,10 @@
    "I varje rad och varje kolumn ska 1, 2, 3 och 4 finnas en gång. Talen i en bur med tjock kant blir tillsammans det lilla talet i hörnet."
   ]
  },
- "color-by-number": {
-  "K-393": [
-   "Måla efter nummer: Får på bondgården",
-   "Måla varje del med färgen som hör till dess nummer."
-  ],
-  "K-394": [
-   "Måla efter nummer: Hjort",
-   "Måla varje del med färgen som hör till dess nummer."
-  ]
- },
  "mazes": {
   "G1-426": [
    "Hoppa genom bikakan i bokstavsordning",
    "Börja i rutan som pilen pekar på. Färglägg hela tiden nästa bokstav i alfabetet i en ruta bredvid, ända till Ö."
-  ]
- },
- "find-the-differences": {
-  "K-395": [
-   "Finn fem fel: Svan på dammen",
-   "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
-  ],
-  "K-397": [
-   "Finn tre fel: Kalkon på gården",
-   "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
   ]
  },
  "how-to-draw": {
@@ -79,78 +259,6 @@
   "G2-391": [
    "Rita ett sandslott ur minnet",
    "Titta på bilden, vik pappret bakåt längs den streckade linjen så att du inte ser bilden, och rita den ur minnet i den stora rutan."
-  ]
- },
- "alphabet": {
-  "K-317": [
-   "Veckans bokstav: M m",
-   "Spåra stora och lilla M, ringa in de fyra bilderna som börjar på m och skriv sedan en rad av varje bokstav."
-  ],
-  "K-325": [
-   "Ord med M: hör du m inne i ordet?",
-   "Spåra bokstaven. Ringa in de fyra bilderna där du hör m någonstans inne i ordet, inte först."
-  ],
-  "K-326": [
-   "Först, i mitten eller sist: var hör du M?",
-   "Säg varje ord. Färglägg rutan som visar var du hör m: först, i mitten eller sist i ordet."
-  ],
-  "K-327": [
-   "Ringa in M i orden och räkna",
-   "Leta upp varje M och m i orden och ringa in dem. Skriv sedan i rutan hur många du hittade."
-  ],
-  "K-328": [
-   "Börjar ordet på M eller N? Välj rätt bokstav",
-   "Säg varje ord. Ringa in den bokstav som ordet börjar på: m eller n."
-  ],
-  "G1-311": [
-   "Veckans ljud: ng",
-   "Spåra ng, ringa in de fyra bilderna där du hör ng och skriv sedan en rad."
-  ]
- },
- "sight-words": {
-  "K-388": [
-   "Dagens ord: och",
-   "Läs ordet. Spåra det, skriv det och använd det i meningar."
-  ],
-  "K-389": [
-   "Vanliga ord i meningar: och",
-   "Läs varje mening. Skriv ordet ”och” på linjen."
-  ],
-  "K-390": [
-   "En mening med och",
-   "Arbeta med en mening, steg för steg."
-  ],
-  "K-391": [
-   "Spåra meningarna: och",
-   "Spåra varje mening. Skriv den sedan på linjen under."
-  ],
-  "K-392": [
-   "Hitta ordet: och",
-   "Färglägg varje ruta med ordet ”och”. Räkna dem och skriv antalet."
-  ],
-  "K-433": [
-   "Läs, spåra, skriv: och",
-   "Läs ordet. Spåra det. Skriv det. Skriv det sedan i varje mening."
-  ],
-  "K-434": [
-   "Spåra ordet och meningen: och",
-   "Spåra ordet. Spåra sedan meningen på varje rad."
-  ],
-  "K-435": [
-   "Läs och rita: och",
-   "Läs meningen. Spåra den. Rita sedan det som meningen säger."
-  ],
-  "K-436": [
-   "Hitta och räkna: och",
-   "Ringa in ordet ”och” varje gång du ser det. Hur många gånger hittade du det?"
-  ],
-  "K-438": [
-   "Bygg ordet: och",
-   "Klipp ut bokstäverna. Klistra fast dem i rätt ordning så att de bildar ordet."
-  ],
-  "K-439": [
-   "Regnbågsskrivning: och",
-   "Spåra varje ord tre gånger, med en ny färg varje gång. Skriv det sedan."
   ]
  },
  "spelling": {

@@ -64,7 +64,7 @@ module.exports = {
     const cells = Array.from({ length: d.panels }, (_, i) => cell(i));
     const rows = [];
     for (let i = 0; i < cells.length; i += 2) rows.push(cells.slice(i, i + 2));
-    const body = `<div data-ws-content data-lcs-fd-face="twins" data-lcs-fd-unit="${got.id}" data-lcs-fd-twins="${twins.map((t) => t + 1).join(',')}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:${above ? 18 : 14}px">` +
+    const body = `<div data-ws-content${require('../../lib/fl-art.js').tap(ctx)} data-lcs-fd-face="twins" data-lcs-fd-unit="${got.id}" data-lcs-fd-twins="${twins.map((t) => t + 1).join(',')}"${key ? ' data-lcs-fd-key="1"' : ''} style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:${above ? 18 : 14}px">` +
       rows.map((r) => `<div style="display:flex;gap:${above ? 15 : 22}px;justify-content:center;width:675px">${r.join('')}</div>`).join('') + `</div>`;
     return { bodyHtml: body, meta: { unit: got.id, twins: twins.map((t) => t + 1).join(','), ops: got.r.ops.map((c) => c.kind).join(',') } };
   },

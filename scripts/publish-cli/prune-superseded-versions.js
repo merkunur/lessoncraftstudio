@@ -16,8 +16,10 @@ const map = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const ROOT = '/var/www/lcs-media/decks';
 const byLoc = {};
 for (const [zip, slug] of Object.entries(map)) {
-  const loc = zip.match(/-(\w\w)-v\d+/)[1];
-  (byLoc[loc] = byLoc[loc] || []).push(slug);
+  // "<…>-<loc>-v<N>.zip" (variant > 1) or "<…>-<loc>.zip" (variant 1, e.g. wsg-wb2varen-k295-nothm-d2-en.zip)
+  const m = zip.match(/-([a-z]{2})(?:-v\d+)?\.zip$/);
+  if (!m) { console.error(`cannot read the locale from "${zip}" — nothing deleted`); process.exit(1); }
+  (byLoc[m[1]] = byLoc[m[1]] || []).push(slug);
 }
 const bad = [], del = [];
 let live = 0;

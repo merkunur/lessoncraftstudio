@@ -38,8 +38,9 @@ function html(unit) {
   const grade = messages.seo.educational_level[LEVEL_KEY[unit.grade]] || unit.grade;
   const subject = ui['subject_' + unit.subject] || unit.subject;
   // (the table at a glance lists a lesson's OWN standards; what it reviews or reaches ahead to is on the lesson's page)
-  const std = (l) => l.standards.filter((s) => s.rel === 'teaches').map((s) => [s.framework, s.code].filter(Boolean).join(' ')).filter(Boolean);
-  const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s">' + esc(std(l).join(', ')) + '</td></tr>').join('');
+  // (a framework without codes, such as the German Bildungsstandards, is named by the heading the objective stands under)
+  const std = (l) => [...new Set(l.standards.filter((s) => s.rel === 'teaches').map((s) => (s.code ? [s.framework, s.code].join(' ') : (s.title || s.framework))).filter(Boolean))];
+  const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
   const cover = '<section class="page cover"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.unitWord].join(' · ')) + '</p><h1>' + esc(unit.title) + '</h1><p class="kind">' + esc(ui.guideTitle) + '</p>'
     + '<p class="facts">' + esc(fill(ui.factLessons, { n: unit.lessons.length })) + ' · ' + esc(unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })) + '</p>'
     + '<h2>' + esc(ui.guideGlance) + '</h2><table class="glance"><thead><tr><th></th><th>' + esc(ui.guideColLesson) + '</th><th>' + esc(ui.guideColPages) + '</th><th>' + esc(ui.standardTeaches) + '</th></tr></thead><tbody>' + glance + '</tbody></table>'
@@ -89,6 +90,7 @@ table { border-collapse: collapse; width: 100%; }
 .glance td { padding: 2.2mm 3mm 2.2mm 0; border-bottom: 0.5pt solid #b9c7c3; vertical-align: top; }
 .glance td.n { font-family: 'Baloo 2', sans-serif; font-weight: 700; width: 8mm; color: #146b5e; }
 .glance td.s { white-space: nowrap; font-size: 9.5pt; }
+.glance td.s.w { white-space: normal; width: 50mm; }
 .cover .where { position: absolute; bottom: 0; left: 0; font-size: 9pt; color: #46625b; }
 .lesson .no { font-size: 11pt; font-weight: 700; color: #146b5e; letter-spacing: 0.04em; text-transform: uppercase; }
 .lesson h2 { font-size: 24pt; margin-top: 1mm; }

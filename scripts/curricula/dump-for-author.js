@@ -47,7 +47,7 @@ for (const k of frameworks) {
     // mixes them inside a table, so the band stands beside each objective
     const single = /^(?:K|\d)$/.test(n.grade);
     if (single && n.grade !== grade) { grade = n.grade; md += '\n#### grade ' + grade + '\n'; }
-    md += (n.kind === 'strand' || n.kind === 'area' || n.kind === 'subarea' ? '\n' : '') + n.id + ' [' + n.kind + (single ? '' : ', years ' + n.grade) + '] ' + n.text + '\n';
+    md += (n.kind === 'strand' || n.kind === 'area' || n.kind === 'subarea' ? '\n' : '') + n.id + ' [' + n.kind + (single ? '' : ', years ' + n.grade) + '] ' + (n.domain ? '(' + n.domain + ') ' : '') + n.text + '\n';
   }
 }
 const out = path.join(REPO, 'out', 'curricula', reg, 'author-' + name + '.md');

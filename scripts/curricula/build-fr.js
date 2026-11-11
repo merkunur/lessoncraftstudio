@@ -1,0 +1,227 @@
+#!/usr/bin/env node
+/**
+ * The French registry (Daily Teaching System, Part 2): the programmes of the école maternelle (from age 4) and of the
+ * cycle 2 (CP, CE1, CE2) for français and mathématiques (arrêté of 22 October 2024, in force from the rentrée 2025),
+ * and the themes of the cycle 2 programme of histoire-géographie (2026).
+ *
+ *   node scripts/curricula/build-fr.js            → frontend/content/curricula/fr/framework.json (+ crosswalk.json when
+ *                                                   crosswalk-authored.json exists)
+ *   node scripts/curricula/build-fr.js --check | --list
+ *
+ * Nothing is written from memory: the wording is read from the annexes of the Bulletin officiel as the Ministry
+ * publishes them (PDF, fetched into out/curricula/fr/). The programmes of 2024 print, for each year, tables of two
+ * columns: the binding "Objectifs d'apprentissage" on the left and "Exemples de réussite" on the right.
+ *
+ *   Nombres, calcul et résolution de problèmes            the theme (bold, large)
+ *   Cours préparatoire                                    the year
+ *   Le calcul mental / Mémoriser des faits numériques     the part of the theme (bold)
+ *   | - Connaitre dans les deux sens les tables d'addition. | L'élève sait donner … |   → node M.CP.31 (kind standard)
+ *
+ * Only the LEFT column is read (the examples are illustrations). The programmes number nothing: the ids are this
+ * registry's (document, year, place in the year); `domain` keeps the theme and the part the objective stands under.
+ * Years: CP = 1, CE1 = 2, CE2 = 3; in the école maternelle the programme speaks of ages ("à partir de 4 ans",
+ * "à partir de 5 ans"), kept as M4 and M5 (M5 is the grande section, the year before CP).
+ *
+ * The columns are told apart by where each word stands on the page (scripts/curricula/pdf-words.py, Python with
+ * PyMuPDF); the border of a table is where its own header prints "Exemples de réussite". Checks: every year of
+ * every document holds objectives; every objective begins as a printed line of pdftotext's reading of the same PDF.
+ *
+ * NOT read: the cycle 2 programme "Sciences et technologie" of 2026 (the Ministry's PDF is a scan: it holds no text)
+ * — see the README for what stands in for science.
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const { REPO, sha256, crosswalkFromAuthored, writeRegistry, fetchRaw, flat } = require('./lib.js');
+const REG = 'fr';
+const ACCESSED = '2026-11-11';
+const B = 'https://www.education.gouv.fr/sites/default/files/document/';
+const DIR = path.join(REPO, 'out', 'curricula', REG);
+const DOCS = [
+  { key: 'programme-2024-maternelle-langage', letter: 'ML', file: 'c1-langage.pdf', kind: 'cycle1', subject: 'ela', title: 'Programme d’enseignement pour le développement et la structuration du langage oral et écrit de l’école maternelle (cycle 1)', bo: 'arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 1',
+    url: B + 'Annexe%201%20%E2%80%93%20Programme%20d%E2%80%98enseignement%20pour%20le%20d%C3%A9veloppement%20et%20la%20structuration%20du%20langage%20oral%20et%20%C3%A9crit%20du%20cycle%201-403812.pdf' },
+  { key: 'programme-2024-maternelle-mathematiques', letter: 'MM', file: 'c1-maths.pdf', kind: 'cycle1', subject: 'math', title: 'Programme d’enseignement pour l’acquisition des premiers outils mathématiques de l’école maternelle (cycle 1)', bo: 'arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 2',
+    url: B + 'Annexe%202%20%E2%80%93%20Programme%20d%E2%80%99enseignement%20pour%20l%E2%80%99acquisition%20des%20premiers%20outils%20math%C3%A9matiques%20du%20cycle%201-403815.pdf' },
+  { key: 'programme-2024-francais-cycle2', letter: 'F', file: 'c2-francais.pdf', kind: 'cycle2', subject: 'ela', title: 'Programme de français du cycle 2', bo: 'arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 3',
+    url: B + 'Annexe%203%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20du%20cycle%202-403818.pdf' },
+  { key: 'programme-2024-mathematiques-cycle2', letter: 'M', file: 'c2-maths.pdf', kind: 'cycle2', subject: 'math', title: 'Programme de mathématiques du cycle 2', bo: 'arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 4',
+    url: B + 'Annexe%204%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20du%20cycle%202-403821.pdf' },
+];
+const HISTGEO = { key: 'programme-2026-histoire-geographie-cycle2', letter: 'HG', file: 'c2-histgeo.pdf', subject: 'social', title: 'Programme d’histoire-géographie pour le cycle 2', bo: 'BO n° 22 du 28 mai 2026, annexe 3', url: B + 'annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf' };
+const YEARS = [[/^Cours préparatoire\b/, 'CP', '1'], [/^Cours élémentaire première année\b/, 'CE1', '2'], [/^Cours élémentaire deuxième année\b/, 'CE2', '3']];
+const STAGES = [[/À aborder avant 4 ans/, 'M3', 'M3'], [/À partir de 4 ans/, 'M4', 'M4'], [/À partir de 5 ans/, 'M5', 'M5']];
+
+function sources(file) {
+  const words = path.join(DIR, file.replace(/\.pdf$/, '.words.json'));
+  let ok = fs.existsSync(words);
+  if (ok) { const first = JSON.parse(fs.readFileSync(words, 'utf8')).pages.find((p) => p.words.length); ok = !!first && first.words[0].length >= 7; }   // an older dump has no font sizes
+  if (!ok) require('child_process').execFileSync('python', ['-I', path.join(__dirname, 'pdf-words.py'), path.join(DIR, file), words], { stdio: 'ignore' });
+  const plain = path.join(DIR, file.replace(/\.pdf$/, '.txt'));
+  if (!fs.existsSync(plain)) require('child_process').execFileSync('python', ['-I', '-c', 'import pymupdf,sys\nd=pymupdf.open(sys.argv[1])\nopen(sys.argv[2],"w",encoding="utf-8").write("\\n".join(p.get_text() for p in d))', path.join(DIR, file), plain], { stdio: 'ignore' });
+  return { pages: JSON.parse(fs.readFileSync(words, 'utf8')).pages, plain: fs.readFileSync(plain, 'utf8') };
+}
+function rowsOf(p) {
+  const rows = [];
+  let row = null;
+  for (const w of p.words.slice().sort((a, b) => a[1] - b[1] || a[0] - b[0])) {
+    // (the dash of a list item stands a few points lower than its text: 5 points still keeps two printed lines apart)
+    if (!row || Math.abs(w[1] - row.y) > 5) { row = { y: w[1], words: [] }; rows.push(row); }
+    row.words.push(w);
+  }
+  for (const r of rows) { r.words.sort((a, b) => a[0] - b[0]); r.text = r.words.map((w) => w[4]).join(' '); }
+  return rows;
+}
+const join = (lines) => lines.map((s) => s.trim()).join('\n').replace(/-\n/g, '-').replace(/\n/g, ' ').replace(/\s+/g, ' ').replace(/ ([.,;])/g, '$1').trim();
+
+function parse(doc, pages) {
+  const nodes = [], problems = [];
+  let theme = null, year = null, part = null, when = null, inTable = false, border = 0, cur = null;
+  const counts = {};
+  for (const p of pages) {
+    for (const r of rowsOf(p)) {
+      if (r.y > p.height - 30) continue;   // the page number
+      const first = r.words[0];
+      const allBold = r.words.every((w) => w[5]);
+      const big = first[6] >= 10.5;
+      const margin = first[0] < 45;
+      // the table's header: where "Exemples de réussite" starts is the border between the columns
+      if (allBold && /^Objectifs d’apprentissage\s+Exemples de réussite$/.test(r.text)) { inTable = true; border = r.words.find((w) => w[4] === 'Exemples')[0] - 2; cur = null; when = null; continue; }
+      if (margin && big && allBold) { theme = r.text === 'Principes' ? null : r.text; part = null; inTable = false; cur = null; if (doc.kind === 'cycle2') year = null; continue; }
+      const y = doc.kind === 'cycle2' && margin && big && !allBold ? YEARS.find(([re]) => re.test(r.text)) : null;
+      if (y) { year = y; part = null; inTable = false; cur = null; continue; }
+      const st = doc.kind === 'cycle1' && margin && allBold ? STAGES.find(([re]) => re.test(r.text)) : null;
+      if (st) { year = st; inTable = false; cur = null; continue; }
+      if (margin && allBold && /^(Introduction|Points de vigilance)/.test(r.text)) { inTable = false; cur = null; continue; }   // a note for the teacher inside a part
+      if (margin && allBold) { part = r.text; inTable = false; cur = null; if (doc.kind === 'cycle1') year = null; continue; }
+      if (margin) { inTable = false; cur = null; continue; }   // a paragraph: the table before it is over
+      if (!inTable || !theme || !year) continue;
+      const left = r.words.filter((w) => w[0] < border);
+      if (!left.length) continue;
+      if (left.every((w) => w[5])) { when = left.map((w) => w[4]).join(' '); cur = null; continue; }   // "En fin de période 1", "En cours d'année" …
+      if (left[0][4] === '-' || left[0][4] === '–') {
+        const n = (counts[year[1]] = (counts[year[1]] || 0) + 1);
+        cur = { id: doc.letter + '.' + year[1] + '.' + n, f: doc.key, kind: 'standard', grade: year[2], parent: doc.letter + '.' + year[1], domain: [theme, part, when].filter(Boolean).join(' › '), text: '', _lines: [left.slice(1).map((w) => w[4]).join(' ')] };
+        nodes.push(cur);
+      } else if (cur) cur._lines.push(left.map((w) => w[4]).join(' '));
+    }
+  }
+  for (const n of nodes) { n.text = join(n._lines); delete n._lines; }
+  return { nodes, problems };
+}
+
+(async () => {
+  const frameworks = [], nodes = [], problems = [];
+  for (const doc of DOCS) {
+    const buf = await fetchRaw(REG, doc.file, doc.url);
+    const { pages, plain } = sources(doc.file);
+    const r = parse(doc, pages);
+    problems.push(...r.problems);
+    const wanted = doc.kind === 'cycle2' ? YEARS.map((y) => [y[1], y[2], 'cycle 2, ' + y[1]]) : STAGES.slice(1).map((s) => [s[1], s[2], s[1] === 'M4' ? 'école maternelle, à partir de 4 ans' : 'école maternelle, à partir de 5 ans']);
+    const kept = r.nodes.filter((n) => wanted.some((w) => n.parent === doc.letter + '.' + w[0]));
+    const plainFlat = flat(plain);
+    const notFound = kept.filter((n) => !plainFlat.includes(flat(n.text).slice(0, 14))).map((n) => n.id);
+    if (notFound.length) problems.push(doc.key + ': ' + notFound.length + ' objective(s) do not begin as any line of a second reading: ' + notFound.slice(0, 15).join(', '));
+    for (const [code, grade, label] of wanted) {
+      const mine = kept.filter((n) => n.parent === doc.letter + '.' + code);
+      if (!mine.length) problems.push(doc.key + ': no objective read for ' + code);
+      nodes.push({ id: doc.letter + '.' + code, f: doc.key, kind: 'area', grade, text: doc.title + ' — ' + label }, ...mine);
+    }
+    for (const n of kept) { if (n.text.length < 12) problems.push(n.id + ': wording too short: "' + n.text + '"'); if (!/^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(n.text)) problems.push(n.id + ': an objective that does not open with a capital: "' + n.text.slice(0, 40) + '"'); }
+    frameworks.push({ key: doc.key, short: 'Programmes', subject: doc.subject, title: doc.title, publisher: 'Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale)', year: '2024', officialDocument: 'https://www.education.gouv.fr/bo/2024/Hebdo41/MENE2415135A', readFrom: doc.url, accessed: ACCESSED, sha256: sha256(buf),
+      version: doc.bo + '; in force from the rentrée 2025', band: doc.kind === 'cycle2' ? 'single years: CP (1), CE1 (2), CE2 (3)' : 'the programme speaks of ages: from 4 (M4), from 5 (M5, the year before CP)', ids: 'this registry\'s own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under',
+      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: kept.length + ' objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF' });
+  }
+  // histoire-géographie: the programme is prose; what is read is the list of its themes, year by year
+  {
+    const doc = HISTGEO;
+    const buf = await fetchRaw(REG, doc.file, doc.url);
+    const { pages } = sources(doc.file);
+    let disc = null, year = null, n = 0, cur = null;
+    const mine = [];
+    for (const p of pages) for (const r of rowsOf(p)) {
+      const first = r.words[0], allBold = r.words.every((w) => w[5]);
+      if (first[0] > 45) continue;
+      if (first[6] >= 13 && /^(Histoire|Géographie)$/.test(r.text)) { disc = r.text; year = null; cur = null; continue; }
+      const y = allBold && first[6] >= 10.5 ? YEARS.find(([re]) => re.test(r.text)) : null;
+      if (y && disc) { year = y; n = 0; cur = null; if (!mine.some((x) => x.id === doc.letter + '.' + y[1])) mine.push({ id: doc.letter + '.' + y[1], f: doc.key, kind: 'area', grade: y[2], text: doc.title + ' — ' + y[1] }); continue; }
+      if (!disc || !year) continue;
+      if (allBold && /^Thème \d+ :/.test(r.text)) { cur = { id: doc.letter + '.' + year[1] + '.' + (disc === 'Histoire' ? 'H' : 'G') + (++n), f: doc.key, kind: 'content', grade: year[2], parent: doc.letter + '.' + year[1], domain: disc, text: r.text }; mine.push(cur); continue; }
+      if (allBold && cur && first[6] === cur._size) continue;
+      if (allBold && cur && first[6] >= 9.5 && first[6] < 10.5) { cur.text += ' ' + r.text; continue; }   // a theme's title that runs on to a second line
+      cur = null;
+    }
+    for (const [, code] of YEARS) for (const d of ['H', 'G']) if (!mine.some((x) => x.id.startsWith(doc.letter + '.' + code + '.' + d))) problems.push(doc.key + ': no theme read for ' + code + ' (' + d + ')');
+    for (const [, code] of YEARS) { const a = mine.find((x) => x.id === doc.letter + '.' + code); if (a) nodes.push(a, ...mine.filter((x) => x.parent === a.id)); }
+    frameworks.push({ key: doc.key, short: 'Programmes', subject: doc.subject, title: doc.title, publisher: 'Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale)', year: '2026', officialDocument: doc.url, readFrom: doc.url, accessed: ACCESSED, sha256: sha256(buf),
+      version: doc.bo + '; listed by the Ministry among the cycle 2 programmes of the rentrée 2026', band: 'single years: CP (1), CE1 (2), CE2 (3)', ids: 'this registry\'s own: year, H (histoire) or G (géographie), the theme\'s own number',
+      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: mine.filter((x) => x.kind === 'content').length + ' themes read (their titles only: the programme describes each theme in prose)' });
+  }
+  // Science. The cycle 2 programme "Sciences et technologie" of 2026 is published as a scan (no text to read). What
+  // the Ministry still lists beside it for the rentrée 2026 is the part "Questionner le monde du vivant, de la matière
+  // et des objets" of the cycle 2 programme of 2020: its "attendus de fin de cycle" and, from its tables, the left
+  // column "Connaissances et compétences associées".
+  {
+    const doc = { key: 'programme-2020-questionner-le-monde', letter: 'QM', file: 'c2-2020.pdf', url: 'https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf' };
+    const buf = await fetchRaw(REG, doc.file, doc.url);
+    const { pages } = sources(doc.file);
+    const mine = [];
+    let on = false, section = null, sNo = 0, mode = null, border = 0, cur = null, a = 0, c = 0, done = false;
+    for (const p of pages) {
+      if (done) break;
+      for (const r of rowsOf(p)) {
+        if (r.y > p.height - 70 && /Ministère/.test(r.text)) continue;
+        const first = r.words[0], allBold = r.words.some((w) => w[5]) && r.words.every((w) => w[5] || !/[A-Za-zÀ-ÿ0-9]/.test(w[4]));   // a bullet sign before a bold title is not set in bold
+        if (first[6] >= 13) { if (/^Questionner le monde du vivant, de la matière et des objets/.test(r.text)) { on = true; continue; } if (on) { done = true; break; } }
+        if (!on) continue;
+        const exemples = r.words.find((w) => w[4] === 'Exemples' && w[5]);
+        if (exemples) border = exemples[0] - 8;
+        if (allBold) {
+          const t = r.words.filter((w) => w[5]).map((w) => w[4]).join(' ');
+          if (/\?$/.test(t) && first[0] < 95 && section && !mine.some((n) => n.parent === section.id)) { section.text += ' ' + t; continue; }   // a title of two lines
+          if (/\?$/.test(t) && first[0] < 95) { section = { id: doc.letter + '.' + (++sNo), f: doc.key, kind: 'area', grade: '1-3', text: t }; mine.push(section); mode = null; cur = null; a = c = 0; continue; }
+          if (/^Attendus de fin de cycle/.test(t)) { mode = 'attendus'; cur = null; continue; }
+          if (/Connaissances et compétences associées/.test(t)) { mode = 'table'; cur = null; continue; }
+          if (/^Repères de progressivité/.test(t)) { mode = null; cur = null; continue; }
+          if (mode === 'table') cur = null;   // the attendu repeated as a title across the table, or the rest of the header
+          continue;
+        }
+        if (!section || !mode) continue;
+        if (mode === 'attendus') {
+          const dash = r.words[0][4] === '-';
+          const text = r.words.slice(dash ? 1 : 0).map((w) => w[4]).join(' ');
+          if (dash) { cur = { id: section.id + '.A' + (++a), f: doc.key, kind: 'standard', grade: '1-3', parent: section.id, text: '', _lines: [text] }; mine.push(cur); } else if (cur) cur._lines.push(text);
+          continue;
+        }
+        const left = r.words.filter((w) => w[0] < border);
+        if (!left.length) continue;
+        const dash = left[0][4] === '-';
+        const text = left.slice(dash ? 1 : 0).map((w) => w[4]).join(' ');
+        const ended = !cur || /[.!?]$/.test(cur._lines[cur._lines.length - 1].trim());
+        if (dash || (left[0][0] < 78 && ended)) { cur = { id: section.id + '.C' + (++c), f: doc.key, kind: 'content', grade: '1-3', parent: section.id, text: '', _lines: [text] }; mine.push(cur); } else if (cur) cur._lines.push(text);
+      }
+    }
+    for (const n of mine) if (n._lines) { n.text = join(n._lines); delete n._lines; }
+    if (mine.filter((n) => n.kind === 'area').length < 3) problems.push(doc.key + ': fewer than three sections read');
+    for (const s of mine.filter((n) => n.kind === 'area')) { if (!mine.some((n) => n.parent === s.id && n.kind === 'standard')) problems.push(s.id + ' ("' + s.text + '"): no attendu de fin de cycle read'); if (!mine.some((n) => n.parent === s.id && n.kind === 'content')) problems.push(s.id + ': nothing read from its table'); }
+    for (const n of mine) if (n.kind !== 'area' && (n.text.length < 12 || !/^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(n.text))) problems.push(n.id + ': not a full statement: "' + n.text.slice(0, 50) + '"');
+    nodes.push(...mine);
+    frameworks.push({ key: doc.key, short: 'Programmes', subject: 'science', title: 'Programme du cycle 2 (2020), Questionner le monde du vivant, de la matière et des objets', publisher: 'Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale)', year: '2020', officialDocument: doc.url, readFrom: doc.url, accessed: ACCESSED, sha256: sha256(buf),
+      version: 'BO n° 31 du 30 juillet 2020; for the rentrée 2026 the Ministry lists it beside the new programme "Sciences et technologie" (BO n° 24 du 11 juin 2026), which is published as a scan and could not be read', band: 'the cycle 2 as a whole (CP to CE2): 1-3', ids: 'this registry\'s own: section, A (attendu de fin de cycle) or C (connaissances et compétences associées), place',
+      citation: 'Programme du cycle 2, en vigueur à la rentrée 2020. BO n° 31 du 30 juillet 2020.', checkedAgainstPdf: mine.filter((n) => n.kind === 'standard').length + ' attendus de fin de cycle and ' + mine.filter((n) => n.kind === 'content').length + ' statements of the left column read, in ' + mine.filter((n) => n.kind === 'area').length + ' sections' });
+  }
+  const seen = new Set();
+  for (const n of nodes) { if (seen.has(n.id)) problems.push('two nodes share the id ' + n.id); seen.add(n.id); }
+  if (process.argv.includes('--list')) for (const n of nodes) console.log((n.kind === 'area' ? '' : '    ') + n.id + ' [' + n.grade + ']  ' + (n.domain ? '(' + n.domain + ') ' : '') + n.text);
+  const cw = crosswalkFromAuthored(REG, nodes);
+  problems.push(...cw.problems);
+  for (const m of problems.slice(0, 50)) console.log('FAIL  ' + m);
+  const framework = { $comment: 'GENERATED by scripts/curricula/build-fr.js from the annexes of the Bulletin officiel named under `frameworks`. The wording of every node is the programme\'s own; it is stored for reference and is never shown to a visitor as a quotation. The ids are this registry\'s. Do not edit by hand.', locale: 'fr', country: 'FR', frameworks, nodes };
+  const crosswalk = cw.rows ? { $comment: 'GENERATED by scripts/curricula/build-fr.js from crosswalk-authored.json (written from the official text by reviewers who teach in a French école primaire): every teaching point → the objectives it teaches, prepares or extends, with the year of each.', locale: 'fr', points: cw.rows } : null;
+  let diff = 0;
+  if (!problems.length) diff = writeRegistry(REG, framework, crosswalk, process.argv.includes('--check'));
+  const by = {};
+  for (const n of nodes) by[n.f + ' ' + n.kind] = (by[n.f + ' ' + n.kind] || 0) + 1;
+  console.log('fr framework: ' + nodes.length + ' nodes (' + Object.entries(by).map(([k, v]) => k + ' ' + v).join(', ') + ')');
+  console.log(cw.rows ? 'fr crosswalk: ' + cw.authored + ' points mapped, ' + cw.none + ' with no counterpart' : 'fr: no crosswalk yet');
+  if (problems.length || diff) { console.log((problems.length + diff) + ' problem(s)'); process.exit(1); }
+})().catch((e) => { console.error(e.stack || e.message); process.exit(1); });

@@ -2026,7 +2026,7 @@
     {
      "n": 4,
      "point": "K:heavy-light",
-     "title": "Heavier or lighter?",
+     "title": "Which is heavier?",
      "objective": "Children look at two things from everyday life and circle the one that is heavier.",
      "standards": [
       {
@@ -2064,7 +2064,7 @@
      "note": {
       "mistake": "Children circle the bigger picture. A big balloon is chosen over a small rock, because bigger has always meant more.",
       "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pulls down on your hand.\"",
-      "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down."
+      "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance."
      }
     },
     {
@@ -6212,12 +6212,18 @@
      "n": 5,
      "point": "3:input-output",
      "title": "Number machines",
-     "objective": "Children find the rule a number machine uses, such as add 5 or times 3, and fill in the numbers that are missing going in or coming out.",
+     "objective": "Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Common Core",
        "code": "3.OA.D.9",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "4.OA.C.5",
        "title": "Operations and Algebraic Thinking"
       }
      ],
@@ -6247,9 +6253,9 @@
       "template": "G3-328"
      },
      "note": {
-      "mistake": "Children find the rule from the first pair and do not test it on the next one, so \"+ 4\" is written where the rule is \"× 2\" (2 goes in, 4 comes out fits both). When the number that went IN is missing, they apply the rule forward again and do not undo it.",
-      "words": "Ask: \"What happened to 2 to make 4? Does the same thing turn 5 into 10?\" Have children write the rule on the machine. For a missing input: \"12 came out. The machine adds 5. What went in? Undo it: 12 take away 5.\"",
-      "watch": "Give a pair that fits two rules (2 → 4) and see who asks for a second pair before deciding. Check the rows where the missing number is the one going in; those need the opposite operation."
+      "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.",
+      "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out: \"5 goes in. Add 7. What comes out?\" For a number going in: \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" Ask: \"How can you check? Put your number in and run the machine.\"",
+      "watch": "Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right."
      }
     }
    ]
@@ -6890,13 +6896,13 @@
   },
   {
    "id": "g3-area-perimeter-volume",
-   "slug": "area-perimeter-and-volume-grade-3-unit",
+   "slug": "area-and-perimeter-grade-3-unit",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Area, Perimeter, and Volume",
-   "metaTitle": "Grade 3 Math Lesson Plans: Area, Perimeter, and Volume",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on area as rows times columns, perimeter as the distance around, and counting the cubes in a solid, with teacher notes.",
+   "title": "Area and Perimeter",
+   "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
+   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on area as rows times columns and perimeter as the distance around, and an extra lesson on counting the cubes in a solid.",
    "weeks": 1,
    "lessons": [
     {
@@ -7126,7 +7132,7 @@
      },
      "note": {
       "mistake": "Children count only the cubes they can see in the drawing and leave out the hidden ones at the back and underneath. Or they count the square faces they see and get a number that is far too big.",
-      "words": "Build the tower with real cubes first: \"How many can you see from here? Now pick it up and count them all.\" Say: \"Count layer by layer. How many cubes in the bottom layer? How many layers?\" Ask: \"A cube on top must be sitting on something. What is under it?\"",
+      "words": "Build the tower with snap cubes first: \"How many can you see from here? Now turn it around and take it apart. Count them all.\" Say: \"Count layer by layer. How many cubes in the bottom layer? In the next one? Add the layers.\" Ask: \"A cube on top must be sitting on something. What is under it?\" Give the word: \"The number of cubes that fill a shape is its volume.\"",
       "watch": "Have each child build one tower from the page with cubes and compare the count with the written answer. A child who counts by layers (\"6 and 6 and 6\") is ready for volume as layers times the cubes in a layer."
      }
     }
@@ -7332,7 +7338,7 @@
      },
      "note": {
       "mistake": "Children count the tick marks, the ones at 0 and at 1 included, and take that for the bottom number: a line cut into 4 equal spaces has 5 marks and becomes \"fifths.\" Or they count the marks up to the dot, starting with 1 at zero.",
-      "words": "Say: \"Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth.\" Then hop from zero: \"One fourth, two fourths, three fourths. The dot is at three fourths.\" Ask: \"Where is zero fourths? Where is four fourths?\"",
+      "words": "Say: \"Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth. So the denominator, the bottom number, is 4.\" Then hop from zero: \"One fourth, two fourths, three fourths. The dot is at three fourths.\" Ask: \"Where is zero fourths? Where is four fourths?\"",
       "watch": "Ask a child how they found the bottom number. \"I counted the lines\" means the marks were counted; fold a paper strip into fourths and lay it under the line to show the four spaces."
      }
     },
@@ -7445,6 +7451,18 @@
       {
        "rel": "teaches",
        "framework": "Common Core",
+       "code": "3.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "4.NF.B.4",
+       "title": "Number and Operations—Fractions"
+      },
+      {
+       "rel": "extends",
+       "framework": "Common Core",
        "code": "3.NF.A.1",
        "title": "Number and Operations—Fractions"
       }
@@ -7475,8 +7493,8 @@
      },
      "note": {
       "mistake": "Children circle as many pictures as the bottom number says: 3 pictures for one third. With a top number above 1 (two thirds), they find one group and stop.",
-      "words": "Say: \"The bottom number tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups.\" Link it to division: \"12 in 3 equal groups: 4 in each. One third of 12 is 4.\" For two thirds: \"Two of the groups: 4 and 4.\"",
-      "watch": "Check that the groups a child rings are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division."
+      "words": "Say: \"The denominator, the bottom number, tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups.\" Link it to division: \"12 in 3 equal groups: 4 in each. One third of 12 is 4.\" For two thirds: \"The numerator, the top number, tells how many groups to take. Two of the groups: 4 and 4, that is 8.\"",
+      "watch": "Check that the groups a child circles are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division; have that child deal 12 counters into 3 equal groups first."
      }
     }
    ]
@@ -7748,7 +7766,7 @@
     {
      "n": 1,
      "point": "K:pre-writing-strokes",
-     "title": "Lines, curves, and loops",
+     "title": "Lines, zigzags, and curves",
      "objective": "Children trace straight lines, zigzags, waves, and curves from the starting dot in the direction of the arrow.",
      "standards": [
       {
@@ -7788,8 +7806,8 @@
      },
      "note": {
       "mistake": "Children start wherever the pencil lands and trace against the arrow, or they lift the pencil at every bend. Many hold the pencil in a fist and press so hard that the hand is tired after two lines.",
-      "words": "Say: \"Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends.\" For the grip: \"Pinch the pencil with your thumb and pointer finger; let it rest on your tall finger.\" Name each stroke: \"down, across, slant, around.\"",
-      "watch": "Watch the starting point and the direction, not how neat the line is. A child who goes right to left or bottom to top here will form letters the same way; correct it now, one line at a time."
+      "words": "Say: \"Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends.\" For the grip: \"Pinch the pencil with your thumb and pointer finger; let it rest on your middle finger.\" Name each stroke as the child traces it: \"straight across, zigzag, wave, curve around.\"",
+      "watch": "Watch the starting point and the direction, not how neat the line is. A child who starts at the wrong end or traces against the arrow here will form letters the same way; correct it now, one line at a time, by putting the child's finger on the orange dot before the pencil goes down."
      }
     },
     {
@@ -7830,7 +7848,7 @@
      },
      "note": {
       "mistake": "Children circle b, d, p, and q as the same letter: a stick and a ball. Turning a toy does not change what it is, so they do not expect turning a letter to change it.",
-      "words": "Say: \"Letters are special. Turn a b around and it is a different letter.\" Give each one a short cue and keep it all year: \"b: stick first, then the ball. d: ball first, then the stick.\" Ask: \"Which side is the ball on?\"",
+      "words": "Say: \"Letters are special. Turn a b around and it is a different letter.\" Give each one a short cue and keep it all year: \"b: stick first, then the ball. d: ball first, then the stick. p: the stick hangs down below the line, then the ball. q: ball first, then the stick hangs down.\" Ask: \"What comes first, the stick or the ball? Does the stick go up or hang down?\"",
       "watch": "Have the child name each letter they circle. A child who circles correctly and cannot name the letters is matching shapes; one who names d as b needs the cue, not more circling."
      }
     },
@@ -7872,7 +7890,7 @@
      },
      "note": {
       "mistake": "Children match the pairs that look alike (C c, S s, O o) and guess at the ones that do not: A a, G g, R r, Q q. The small letters b, d, p, and q get the wrong partners.",
-      "words": "Say: \"Every letter has two shapes, a capital and a small one. They have the same name and make the same sound.\" Point to both: \"Capital G, small g.\" Ask: \"Which pairs look alike? Which look different?\"",
+      "words": "Say: \"Every letter has two shapes, a capital and a small one. We also call them uppercase and lowercase. They have the same name and stand for the same sound.\" Point to both: \"Capital G, small g.\" Ask: \"Which pairs look alike? Which look different?\"",
       "watch": "Note which pairs each child misses and practice only those. The pairs that look different have to be learned one at a time; there is no trick for them."
      }
     },
@@ -7927,7 +7945,7 @@
       "template": "K-238"
      },
      "note": {
-      "mistake": "Children draw letters from the bottom up or in pieces, so that an M is four separate lines and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later.",
+      "mistake": "Children draw letters from the bottom up or in pieces, so that an M is four lines drawn in any order and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later.",
       "words": "Say the path aloud for each letter and use the same words every time: \"Capital B: down, back to the top, around, around.\" Ask: \"Where does it start? Which way does the arrow go first?\" Write the letter big in the air together before the pencil touches the page.",
       "watch": "Stand where you can see the hand moving. Check the letter the child writes alone on the empty line; that one shows whether the path was learned or only followed."
      }
@@ -7936,7 +7954,7 @@
      "n": 5,
      "point": "K:alphabet-order",
      "title": "The alphabet in order",
-     "objective": "Children say the alphabet in order, write the letters that are missing, and join dots in alphabet order.",
+     "objective": "Children say the alphabet in order, write the letters that are missing, and connect dots in alphabet order.",
      "standards": [
       {
        "rel": "teaches",
@@ -7991,7 +8009,7 @@
       {
        "rel": "teaches",
        "framework": "Common Core",
-       "code": "RF.K.1.c",
+       "code": "RF.K.3.c",
        "title": null
       }
      ],
@@ -8030,8 +8048,8 @@
       "template": "K-289"
      },
      "note": {
-      "mistake": "Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, the letters drift apart or run into the next word.",
-      "words": "Say: \"Read it first. Now trace it and say each letter. Now write it and read it again.\" For spacing: \"Letters in one word sit close together, like friends. Leave a finger space before the next word.\"",
+      "mistake": "Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, they leave out a letter, change the order of the letters, or spread the letters so far apart that the word looks like two.",
+      "words": "Say: \"Read it first. Now trace it, and say each sound as you trace its letter. Now write it and read it again.\" For a sight word that does not sound out: \"Spell it as you trace: t-h-e, the.\" For spacing: \"Letters in one word sit close together, like friends. If you write the word twice, leave a finger space between.\"",
       "watch": "Ask the child to read back what was written. Look at the word written alone: are the letters in order, close together, and sitting on the line?"
      }
     },
@@ -8073,7 +8091,7 @@
       "template": "K-323"
      },
      "note": {
-      "mistake": "Children write their name in all capitals or with letters out of order, and some do not yet know their age as a number. Copying a word, they skip a letter or lose their place and start it over.",
+      "mistake": "Children write their name in all capitals or with letters out of order, and some cannot yet write the numeral for their age. Copying a word, they skip a letter or lose their place and start it over.",
       "words": "Say: \"Your name starts with a capital letter. The other letters are small.\" For copying: \"Look at the first letter. Write it. Look at the next one.\" Ask each child about the drawing: \"Tell me about your picture.\"",
       "watch": "This page has no wrong answers about the child's life; correct only the name and the copied words. Listen to what children say about their drawings, and write their words under the picture if they ask."
      }
@@ -8088,7 +8106,7 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Literacy Lesson Plans: First Words to Read",
-   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, sh and ch, one and many, and a or an, each with a teacher note.",
+   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -8197,64 +8215,13 @@
       "template": "K-389"
      },
      "note": {
-      "mistake": "Children mix up words that look alike (was and saw, on and no, the and then), or they sound a sight word out letter by letter and get a word that does not exist.",
-      "words": "Say: \"Most of this word plays by the rules. One part you have to know by heart.\" Point to that part: \"In 'said,' the a-i says /e/.\" Have children read the word, spell it aloud, and read it again: \"said, s-a-i-d, said.\"",
+      "mistake": "Children mix up words that look alike (was and saw, on and no, the and they). With a word that has one irregular part, they sound out that part as it is spelled, say \"sayd\" for said or \"wass\" for was, and do not notice that it is not a word they know.",
+      "words": "Say: \"Sound out the parts that play by the rules. One part you have to know by heart.\" Point to that part: \"In 'said,' s and d say their sounds; the a-i says /e/, and that is the heart part.\" For a word with no tricky part: \"This one plays by the rules all the way: /o/ /n/, on.\" Have children read the word, spell it aloud, and read it again: \"said, s-a-i-d, said.\"",
       "watch": "Check the look-alike boxes on the coloring page: they show which words a child confuses. Have the child read the finished sentences aloud; writing the word in is not the same as reading it."
      }
     },
     {
      "n": 3,
-     "point": "K:digraphs-k",
-     "title": "sh and ch",
-     "objective": "Children say a picture's name and decide whether it begins with the sound of sh or the sound of ch.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.K.2.d",
-       "title": null
-      },
-      {
-       "rel": "prepares",
-       "framework": "Common Core",
-       "code": "RF.1.3.a",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "K-378",
-       "title": "Digraph Sort for Kindergarten: sh or ch",
-       "core": "digraphs-k378",
-       "easy": "digraphs-easy-k378-9",
-       "hard": "digraphs-hard-k378-17",
-       "landing": "digraph-sort-sh-or-ch"
-      }
-     ],
-     "screen": {
-      "kind": "activity",
-      "id": "cvc-builder.build-blend-word.rf-1-3",
-      "slug": "build-blend-and-digraph-words",
-      "title": "Build Blend and Digraph Words"
-     },
-     "exit": {
-      "slug": "digraphs-k378-2",
-      "title": "Digraph Sort for Kindergarten: sh or ch"
-     },
-     "maker": {
-      "id": "phonics",
-      "name": "Phonics & Sounds",
-      "slug": "phonics-worksheet-maker",
-      "template": "K-378"
-     },
-     "note": {
-      "mistake": "Children hear sh and ch as the same sound, or they listen for the letter names s, c, and h. A word like \"chair\" is sorted by its first letter as a c word.",
-      "words": "Say: \"Two letters, one sound. sh says /sh/, the quiet sound. ch says /ch/, like a sneeze.\" Stretch the first sound: \"shhhh-ip.\" You can hold /sh/; you cannot hold /ch/. Ask: \"Can you hold the sound?\"",
-      "watch": "Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together: ship, chip."
-     }
-    },
-    {
-     "n": 4,
      "point": "K:singular-plural",
      "title": "One and many",
      "objective": "Children tell the word for one from the word for more than one and write the plural with s.",
@@ -8302,18 +8269,18 @@
      },
      "note": {
       "mistake": "Children say the plural when they talk and leave the s off when they write. They have not noticed that the s at the end is what tells \"more than one.\"",
-      "words": "Say: \"One cat. Two cats. What did I add? Listen to the end.\" Have children say both and hold the last sound: \"cats-s-s.\" Ask: \"Is it one or more than one? Does your word have its s?\"",
+      "words": "Say: \"One cat. Two cats. What did I add? Listen to the end.\" Have children say both and hold the last sound: \"cats-s-s.\" Tell them once: \"In 'dogs' the end sounds like /z/, but we still write s.\" Ask: \"Is it one or more than one? Does your word have its s?\"",
       "watch": "Read the child's written plural and check the last letter. Irregular plurals (feet, mice) come later; if a child says \"foots,\" accept it for now and say the right word back."
      }
     },
     {
-     "n": 5,
+     "n": 4,
      "point": "K:articles",
      "title": "A or an?",
      "objective": "Children say a picture word aloud and choose a or an to go in front of it.",
      "standards": [
       {
-       "rel": "prepares",
+       "rel": "ahead",
        "framework": "Common Core",
        "code": "L.1.1.h",
        "title": null
@@ -8352,20 +8319,70 @@
      },
      "note": {
       "mistake": "Children always circle \"a,\" or they guess. They have not noticed that \"a apple\" is hard to say, because nobody has asked them to listen for it.",
-      "words": "Say both and let children hear it: \"a apple… an apple. Which one is easier to say?\" Give the rule in child words: \"If the word starts with a vowel sound, use an.\" Have them say the whole pair: \"an egg, a dog.\"",
+      "words": "Say both and let children hear it: \"a apple… an apple. Which one is easier to say?\" Give the rule in child words: \"If the word starts with a vowel sound, like the first sound in apple, egg, igloo, octopus, or umbrella, use an.\" Have them say the whole pair: \"an egg, a dog.\"",
       "watch": "Make sure children say the words aloud; this page cannot be done silently at this age. For children who speak another language at home, a and an may be new and need more spoken practice."
+     }
+    },
+    {
+     "n": 5,
+     "point": "K:digraphs-k",
+     "title": "sh and ch",
+     "objective": "Children say a picture's name and decide whether it begins with the sound of sh or the sound of ch.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.K.2.d",
+       "title": null
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "RF.1.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-378",
+       "title": "Digraph Sort for Kindergarten: sh or ch",
+       "core": "digraphs-k378",
+       "easy": "digraphs-easy-k378-9",
+       "hard": "digraphs-hard-k378-17",
+       "landing": "digraph-sort-sh-or-ch"
+      }
+     ],
+     "screen": {
+      "kind": "page",
+      "slug": "digraphs-k378-3",
+      "title": "Digraph Sort for Kindergarten: sh or ch"
+     },
+     "exit": {
+      "slug": "digraphs-k378-2",
+      "title": "Digraph Sort for Kindergarten: sh or ch"
+     },
+     "maker": {
+      "id": "phonics",
+      "name": "Phonics & Sounds",
+      "slug": "phonics-worksheet-maker",
+      "template": "K-378"
+     },
+     "note": {
+      "mistake": "Children hear /sh/ and /ch/ as the same sound, or say one for the other: \"shair\" for chair, \"chip\" for ship. This is most common in children whose home language has only one of the two sounds, such as Spanish. Others name the picture with a different word (boat for ship) and then cannot find its sound.",
+      "words": "Say: \"Two letters, one sound. sh says /sh/, the quiet sound. ch says /ch/, like a sneeze.\" Stretch the first sound: \"shhhh-ip.\" You can hold /sh/; you cannot hold /ch/. Ask: \"Can you hold the sound?\"",
+      "watch": "Name every picture together before anyone draws a line, so that all children sort the same words. Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together and feel the mouth: ship, chip; shoe, chew."
      }
     }
    ]
   },
   {
    "id": "k-sorting-words-telling-stories",
-   "slug": "sorting-words-and-telling-stories-kindergarten-unit",
+   "slug": "sorting-opposites-and-story-order-kindergarten-unit",
    "status": "pilot",
    "grade": "K",
    "subject": "literacy",
-   "title": "Sorting Words and Telling Stories",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Sorting Words and Telling Stories",
+   "title": "Sorting, Opposites, and Story Order",
+   "metaTitle": "Kindergarten Lesson Plans: Sorting, Opposites, and Story Order",
    "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
    "weeks": 1,
    "lessons": [
@@ -8504,7 +8521,7 @@
       "template": "K-351"
      },
      "note": {
-      "mistake": "Children match two pictures that go together (hot and sun) and not two that are opposite. Some think the opposite of a word is \"not\" that word: the opposite of big is \"not big.\"",
+      "mistake": "Children match two pictures that go together (hot and the sun, night and a bed) and not two that are opposite. Or they join a picture to the nearest picture without looking at the word printed with it.",
       "words": "Act them out: \"Stand up… sit down. Open… shut.\" Say: \"Opposites are as different as they can be.\" Ask with a sentence to finish: \"The soup is hot. The ice is…?\"",
       "watch": "Have children say both words of each pair they join. A child who can act out the opposite and cannot name it needs the words; that is a vocabulary matter, not a thinking one."
      }
@@ -8577,7 +8594,7 @@
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
    "metaTitle": "Grade 1 Literacy Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A two-week Grade 1 unit: 6 lessons on rhymes, sound boxes, sh, ch, and th, spelling picture words, syllables, and word families, each with a teacher note.",
+   "metaDescription": "A two-week Grade 1 unit on short vowels and letter teams: 6 lessons on rhymes, word families, sound boxes, sh, ch, and th, spelling picture words, and syllables.",
    "weeks": 2,
    "lessons": [
     {
@@ -8629,12 +8646,70 @@
      },
      "note": {
       "mistake": "Children match words that start with the same sound (cat and cup) and call it a rhyme. Others go by spelling and miss rhymes that are spelled differently, such as bear and chair.",
-      "words": "Say: \"Rhyming words sound the same at the END. Cat, hat. Listen: -at, -at.\" Have children say both words and then only the ending. Ask: \"Do cat and cup end the same? Say the endings.\"",
+      "words": "Say: \"Rhyming words sound the same from the middle to the end. Only the beginning changes. Cat, hat. Listen: -at, -at.\" Have children say both words and then only the part after the first sound. Ask: \"Cat and cup: say the parts after /k/. -at, -up. Are they the same?\"",
       "watch": "Have each child say the pair aloud before circling; rhyming is done with the ears, not the eyes. A child who keeps picking the same first sound should hear and say endings before writing anything."
      }
     },
     {
      "n": 2,
+     "point": "1:word-families-syllable-reading",
+     "title": "Word families",
+     "objective": "Children read the words of a word family, find the one that names a picture, and write its beginning before the ending.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-330",
+       "title": "Word Families: Read and Circle",
+       "core": "syllable-reading-g1330",
+       "easy": "syllable-reading-easy-g1330-5",
+       "hard": "syllable-reading-hard-g1330-10-ock",
+       "landing": "word-families-read-and-circle"
+      },
+      {
+       "type": "G1-306",
+       "title": "Word Families: Read and Write",
+       "core": "syllable-reading-g1306",
+       "easy": "syllable-reading-easy-g1306-8-an",
+       "hard": "syllable-reading-hard-g1306-11-at",
+       "landing": "word-families-read-and-write"
+      }
+     ],
+     "tool": {
+      "key": "blending-board",
+      "slug": "blending-board",
+      "name": "Blending Board"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.read-cvc-word.rf-k-3",
+      "slug": "read-the-word-tap-the-picture",
+      "title": "Read the Word, Tap the Picture — Decoding CVC Words"
+     },
+     "exit": {
+      "slug": "syllable-reading-g1330-2-at",
+      "title": "Word Families: Read and Circle"
+     },
+     "maker": {
+      "id": "syllables",
+      "name": "Syllables",
+      "slug": "syllable-worksheet-maker",
+      "template": "G1-330"
+     },
+     "note": {
+      "mistake": "Children read the first word of a family and say the rest by rhyming, without looking at the first letter. Or they sound out every word from scratch and never use the ending they just read.",
+      "words": "Say: \"These words all end the same: -at. Only the beginning changes. c-at, h-at, m-at.\" Cover the ending and ask: \"What does this one start with?\" Then: \"If you can read 'cat,' you can read 'flat.'\"",
+      "watch": "Point to words out of order and listen. A child who reads them in a row and stumbles when you skip around was reciting; mix the order and add one word from another family."
+     }
+    },
+    {
+     "n": 3,
      "point": "1:phoneme-boxes",
      "title": "Sound boxes",
      "objective": "Children say a word slowly, write one sound in each box, and blend the sounds in the boxes back into a word.",
@@ -8697,7 +8772,7 @@
      }
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:digraphs",
      "title": "sh, ch, and th",
      "objective": "Children hear which letter team a picture word has, sh, ch, or th, and write the missing team in the word.",
@@ -8750,12 +8825,12 @@
      },
      "note": {
       "mistake": "Children mix up th with f or d (\"fumb,\" \"dis\") because that is how they say the words. They write a single letter for the team: \"s\" for sh, \"c\" for ch.",
-      "words": "Say: \"A letter team is two letters that make one new sound.\" Show the mouth for th: \"Put your tongue between your teeth and blow: th.\" Compare: \"Thumb. Not fumb. Feel your tongue.\"",
-      "watch": "Listen to how each child says the th words; a child who says \"f\" will write f. Use a small mirror for th. On the writing page, check that both letters of the team are there."
+      "words": "Say: \"A letter team is two letters that make one new sound.\" Show the mouth for th: \"Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue.\" Compare: \"Thumb. Not fumb. Feel your tongue.\"",
+      "watch": "Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child's family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there."
      }
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:spell-picture-words",
      "title": "Spell the picture word",
      "objective": "Children say a picture word, listen for its sounds, and write the word, first with the first letter given and then on their own.",
@@ -8813,13 +8888,13 @@
       "template": "G1-258"
      },
      "note": {
-      "mistake": "Children write the first and the last sound and skip the middle: \"ct\" for cat, \"fg\" for frog. Short vowels are mixed up, e and i most of all (\"pin\" for pen).",
-      "words": "Say: \"Say the word slowly. Tap each sound on your fingers. Write a letter for every tap.\" Ask: \"What is the sound in the middle? Say it again.\" After writing: \"Touch each letter and read what you wrote. Is it the word?\"",
+      "mistake": "Children write the first and the last sound and skip the middle: \"ct\" for cat, \"fg\" for frog. Short vowels are mixed up, e and i most of all (\"pin\" for pen). Where pin and pen are said alike, as in much of the South, a child cannot hear the difference and has to learn which words take e.",
+      "words": "Say: \"Say the word slowly. Tap each sound on your fingers. Write the letter or the letter team for every tap.\" Ask: \"What is the sound in the middle? Say it again.\" After writing: \"Touch each letter and read what you wrote. Is it the word?\"",
       "watch": "Have children read their own spelling back; it catches a missing vowel better than you can. Spelling by sound that can be read (\"frend\") is progress at this age; correct the words that are in the word bank."
      }
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:syllables-split",
      "title": "Syllables",
      "objective": "Children clap the parts of a word, mark each syllable, and write a word with a dash between its syllables.",
@@ -8828,6 +8903,12 @@
        "rel": "teaches",
        "framework": "Common Core",
        "code": "RF.1.3.e",
+       "title": null
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.d",
        "title": null
       },
       {
@@ -8878,72 +8959,8 @@
      },
      "note": {
       "mistake": "Children clap once for each sound or each letter, or they stretch a one-syllable word into two claps (\"ca-at\"). In writing they put the dash anywhere, often after the first letter.",
-      "words": "Say: \"Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two.\" Then: \"Every syllable has a vowel sound. Find the vowels first.\" Say words in a robot voice: \"pen-cil.\"",
-      "watch": "Use the chin check with children who clap too many. On the dash page, check that each part has a vowel; a part without one cannot be a syllable."
-     }
-    },
-    {
-     "n": 6,
-     "point": "1:word-families-syllable-reading",
-     "title": "Word families",
-     "objective": "Children read the words of a word family, find the one that names a picture, and write its beginning before the ending.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.1.3.b",
-       "title": null
-      },
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.1.3.e",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G1-330",
-       "title": "Word Families: Read and Circle",
-       "core": "syllable-reading-g1330",
-       "easy": "syllable-reading-easy-g1330-5",
-       "hard": "syllable-reading-hard-g1330-10-ock",
-       "landing": "word-families-read-and-circle"
-      },
-      {
-       "type": "G1-306",
-       "title": "Word Families: Read and Write",
-       "core": "syllable-reading-g1306",
-       "easy": "syllable-reading-easy-g1306-8-an",
-       "hard": "syllable-reading-hard-g1306-11-at",
-       "landing": "word-families-read-and-write"
-      }
-     ],
-     "tool": {
-      "key": "blending-board",
-      "slug": "blending-board",
-      "name": "Blending Board"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "choice-board.read-cvc-word.rf-k-3",
-      "slug": "read-the-word-tap-the-picture",
-      "title": "Read the Word, Tap the Picture — Decoding CVC Words"
-     },
-     "exit": {
-      "slug": "syllable-reading-g1330-2-at",
-      "title": "Word Families: Read and Circle"
-     },
-     "maker": {
-      "id": "syllables",
-      "name": "Syllables",
-      "slug": "syllable-worksheet-maker",
-      "template": "G1-330"
-     },
-     "note": {
-      "mistake": "Children read the first word of a family and say the rest by rhyming, without looking at the first letter. Or they sound out every word from scratch and never use the ending they just read.",
-      "words": "Say: \"These words all end the same: -at. Only the beginning changes. c-at, h-at, m-at.\" Cover the ending and ask: \"What does this one start with?\" Then: \"If you can read 'cat,' you can read 'flat.'\"",
-      "watch": "Point to words out of order and listen. A child who reads them in a row and stumbles when you skip around was reciting; mix the order and add one word from another family."
+      "words": "Say: \"Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two.\" Then: \"Every syllable has one vowel sound. Two consonants between the vowels? Split between them: rab-bit, pen-cil.\" Say words in a robot voice: \"pen-cil.\"",
+      "watch": "Use the chin check with children who clap too many, and have children who clap too few hum the word; the chin hardly moves on sounds like ee (ba-by, bun-ny). On the dash page, check that each part has a vowel letter, and count y as a vowel at the end of a word (pup-py, can-dy); a part with no vowel cannot be a syllable."
      }
     }
    ]
@@ -9008,7 +9025,7 @@
      },
      "note": {
       "mistake": "Children read the first words, catch the name of a picture, and color it any color. The small words carry the meaning and are skipped: \"two,\" \"red,\" \"not,\" \"last.\"",
-      "words": "Say: \"Read the whole sentence before you pick up a crayon. Then tell me: WHAT do you color? HOW MANY? Which COLOR?\" Have the child underline the color word and the number word. \"Read it again and check your work.\"",
+      "words": "Say: \"Read the whole sentence before you pick up a crayon or a pencil. Then tell me: WHAT do you color or circle? HOW MANY? Which COLOR?\" Have the child underline the number word and the color word. \"Read it again and check your work.\"",
       "watch": "The page checks itself: a wrong color or count shows which word was missed. Sit with a child for one sentence and note whether the trouble is reading the words or keeping the sentence in mind."
      }
     },
@@ -9016,7 +9033,7 @@
      "n": 2,
      "point": "1:cloze",
      "title": "Fill in the missing word",
-     "objective": "Children read a sentence with a gap, look at the picture, and choose the word that makes sense.",
+     "objective": "Children read a sentence with a blank and choose the word or the picture that makes sense in it.",
      "standards": [
       {
        "rel": "teaches",
@@ -9067,7 +9084,7 @@
      },
      "note": {
       "mistake": "Children pick a word that goes with the picture and do not read the sentence to the end, so the word does not fit. Or they take the next unused word from the word bank.",
-      "words": "Say: \"Read the sentence and say 'blank' at the gap. Then try a word: does it sound right? Does it make sense?\" Have children read the finished sentence aloud. \"Every sentence has to make sense when you read it.\"",
+      "words": "Say: \"Read every word in the word bank first. Now read the sentence and say 'blank' at the empty spot. Try a word: does it make sense? Does it sound right?\" Have children read the finished sentence aloud. \"Every sentence has to make sense when you read it.\"",
       "watch": "Listen to the child read a finished sentence. A sentence that makes no sense and does not bother the child is the real finding; that child is reading words, not meaning."
      }
     },
@@ -9126,7 +9143,7 @@
      },
      "note": {
       "mistake": "Children copy the words in the order they are printed. When they do find the order, they forget the capital letter at the start or the mark at the end.",
-      "words": "Say: \"Find the word with the capital letter: it goes first. Find the word with the period: it goes last.\" Then: \"Who or what is the sentence about? What happens?\" Have children say the sentence aloud before they write it.",
+      "words": "Say: \"Find the word with the capital letter: it most likely goes first. A name and the word I have a capital too, so check. Find the word with the end mark: it goes last.\" Then: \"Who or what is the sentence about? What happens?\" Have children say the sentence aloud before they write it.",
       "watch": "Have the child read the written sentence aloud. Check three things in order: does it make sense, does it start with a capital, does it end with a mark."
      }
     },
@@ -9140,12 +9157,6 @@
        "rel": "reviews",
        "framework": "Common Core",
        "code": "L.K.1.d",
-       "title": null
-      },
-      {
-       "rel": "prepares",
-       "framework": "Common Core",
-       "code": "L.1.1.j",
        "title": null
       }
      ],
@@ -9202,15 +9213,15 @@
        "title": null
       },
       {
-       "rel": "reviews",
+       "rel": "teaches",
        "framework": "Common Core",
-       "code": "RL.K.2",
+       "code": "RL.1.2",
        "title": null
       },
       {
-       "rel": "prepares",
+       "rel": "reviews",
        "framework": "Common Core",
-       "code": "W.1.3",
+       "code": "RL.K.2",
        "title": null
       }
      ],
@@ -9269,7 +9280,7 @@
    "subject": "literacy",
    "title": "Words and How They Work",
    "metaTitle": "Grade 1 Literacy Lesson Plans: Words and How They Work",
-   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, and root words, with teacher notes.",
+   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
    "weeks": 2,
    "lessons": [
     {
@@ -9327,7 +9338,7 @@
      "note": {
       "mistake": "Children order the words by where they think the letter comes in the song and lose track in the middle of the alphabet. When two words start with the same letter, they stop or order them by length.",
       "words": "Say: \"Look only at the first letter. Find each one on the alphabet strip. Which comes first on the strip?\" For a tie: \"Both start with b. Cover the b. Now look at the next letter.\"",
-      "watch": "Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who writes \"bed, bat\" has not moved on to the second letter."
+      "watch": "Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who numbers \"bed\" before \"bat\" has not moved on to the second letter; cover the first letters and ask again."
      }
     },
     {
@@ -9368,10 +9379,9 @@
       }
      ],
      "screen": {
-      "kind": "activity",
-      "id": "wordclass.adjective-adverb.l-2-1-e",
-      "slug": "adjectives-and-adverbs",
-      "title": "Glim's Describing Words — Adjectives & Adverbs"
+      "kind": "page",
+      "slug": "word-classes-clothing-g1293-3",
+      "title": "Nouns and Verbs: Two Bins"
      },
      "exit": {
       "slug": "word-classes-reptiles-and-amphibians-g1293-2",
@@ -9384,8 +9394,8 @@
       "template": "G1-293"
      },
      "note": {
-      "mistake": "Children sort by what a word makes them think of: \"run\" goes with the nouns because they think of a runner. Words that can be both (a walk, to walk) confuse them, as they should.",
-      "words": "Give each kind a test: \"A noun is a person, place, animal, or thing: can you put 'the' in front? The dog. A verb is something you can do: can you say 'I can…'? I can jump. An adjective tells what something is like: the ___ dog.\"",
+      "mistake": "Children sort by what a word makes them think of: \"party\" and \"game\" go with the verbs because you do something there, and \"fast\" or \"hungry\" goes with the verbs because it happens to you. Words that can be both (a walk, to walk) confuse them, and rightly so.",
+      "words": "Give each kind a test sentence: \"A noun is a person, place, animal, or thing. Try it here: 'I see the ___.' I see the dog. A verb is something you can do. Try it here: 'I can ___.' I can jump. An adjective tells what something is like. Try it here: 'The dog is very ___.' The dog is very big.\"",
       "watch": "Have children use the test aloud for the hard words. If a child argues that \"paint\" can be both, the child is right; say so and ask for a sentence each way."
      }
     },
@@ -9437,8 +9447,8 @@
       "template": "G1-352"
      },
      "note": {
-      "mistake": "Children use \"he\" for everyone or mix up \"he\" and \"she,\" and they use \"they\" only for a crowd, not for two people. In the second sentence they write the name again.",
-      "words": "Say: \"We do not say the name over and over. 'Ben has a kite. Ben flies the kite' becomes 'Ben has a kite. HE flies it.'\" Ask: \"Who is 'he' in this sentence? Point to the name.\" For two people: \"Ben and Mia: they.\"",
+      "mistake": "Children write the name again in the second sentence, or use \"they\" only for a crowd and not for two people. They are unsure about \"it\" for an animal or a thing. Children who are learning English may use \"he\" for everyone or mix up \"he\" and \"she.\"",
+      "words": "Say: \"We do not say the name over and over. 'Ben has a kite. Ben flies the kite' becomes 'Ben has a kite. HE flies it.'\" Ask: \"Who is 'he' in this sentence? Point to the name.\" For two people: \"Ben and Mia: they.\" For a thing: \"The kite: it.\"",
       "watch": "Have the child read both sentences aloud and tell you who the pronoun means. Children learning English may not have he and she in their home language; give them more spoken practice."
      }
     },
@@ -9480,8 +9490,8 @@
       "template": "G1-292"
      },
      "note": {
-      "mistake": "Children sort by the first letter they see and not by the sound they say, or they put every word under \"a.\" Short words that begin with a vowel (egg, ant) are the ones they miss.",
-      "words": "Say: \"Say it out loud with 'a' and with 'an.' Which one is easy to say? A egg… an egg.\" Give the rule: \"Before a vowel sound, we say an.\" Have children read each finished group aloud: \"an apple, an egg, an owl.\"",
+      "mistake": "Children put every word under \"a,\" because \"a\" is the word they use most, or they stop reading and fill the two groups evenly. A child who sorts correctly by the first letter has the right answers here and will go wrong later on words such as \"hour\" and \"unicorn,\" where the letter and the sound do not agree.",
+      "words": "Say: \"Read the word. Say its first sound. Is it a vowel sound? Then it goes under an.\" Check by ear: \"A egg… an egg. Which one do we say?\" Have children read each finished group aloud: \"an apple, an egg, an owl.\"",
       "watch": "Listen to the child read the finished lists with the article in front. A wrong word stands out at once when it is said aloud; have the child find it by ear, not by rule."
      }
     },
@@ -9539,8 +9549,8 @@
       "template": "G1-307"
      },
      "note": {
-      "mistake": "Children circle the word that means the same, because it is the word that \"goes with\" the first one. Asked for the opposite of \"happy,\" they write \"not happy.\"",
-      "words": "Say: \"Opposite means as different as can be. Hot, cold. Same means nearly alike. Big, large.\" Test with a sentence: \"The soup is not hot. It is…?\" Ask: \"Is that word the opposite, or does it mean the same?\"",
+      "mistake": "Children circle the word that means the same, because it is the word that \"goes with\" the first one. On the word bank page they take a word that is about the same thing and is not the opposite, such as \"warm\" for \"hot.\"",
+      "words": "Say: \"Opposite means as different as can be: hot, cold. Same means nearly alike: big, large.\" Test a word with \"not\": \"If the door is not open, it is… shut. So open and shut are opposites.\" Ask: \"Is that word the opposite, or does it mean the same?\"",
       "watch": "On the three-word page, a child who circles the same-meaning word knows the words are related and has not sorted out how. Ask for both: \"Which one means the same? Which one is the opposite?\""
      }
     },
@@ -9585,7 +9595,7 @@
      "note": {
       "mistake": "Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.",
       "words": "Say: \"Words that mean the same can trade places. The big dog, the large dog: same picture in your head.\" Test a pair in one sentence: \"The elephant is big. The elephant is large. Same? The elephant is gray. Same?\" Call them \"words that mean the same,\" and give the word \"synonyms\" once.",
-      "watch": "Have the child say both circled words in one sentence about the picture. If the sentence changes its meaning, the words are not synonyms; let the child try the third word."
+      "watch": "Have the child say both circled words in one sentence about the picture. If the meaning changes from one sentence to the other, the words are not synonyms; have the child keep one word and test it against each of the others."
      }
     },
     {
@@ -9673,8 +9683,8 @@
       "template": "G1-397"
      },
      "note": {
-      "mistake": "Children circle a word that only starts with the same letters and has nothing to do with the picture word: \"car\" in \"carrot,\" \"pan\" in \"panda.\"",
-      "words": "Say: \"A root word is a small word inside a bigger word, and the meaning stays. Rain, rainy, raining: all about rain.\" Test it: \"Is a carrot a kind of car? No. So 'car' is not its root.\"",
+      "mistake": "Children circle a word that only starts with the same letters as the picture word and has nothing to do with it: \"carrot\" for the picture of a car, \"panda\" for the picture of a pan.",
+      "words": "Say: \"A root word is the word a longer word is built from, and the meaning stays. Rain, rainy, raining: all about rain.\" Test it: \"Does a carrot have anything to do with a car? No. So 'carrot' is not built from 'car.'\"",
       "watch": "Ask the child what the long word means. If the meaning has the picture word in it (a teacher teaches), the root is right; if not, the letters match by accident."
      }
     }
@@ -9751,7 +9761,7 @@
      },
      "note": {
       "mistake": "Children add the period and forget the capital, or the other way around. With two sentences run together, they put the period where they would take a breath, and one of the two \"sentences\" has no verb.",
-      "words": "Say: \"A sentence starts with a capital letter and ends with a mark. Both, every time.\" For run-together sentences: \"Read it aloud. Where does the first idea stop? Who is the second sentence about?\" Test each part: \"Does it tell who or what, and what happens?\"",
+      "words": "Say: \"A sentence starts with a capital letter and ends with a mark. Both, every time.\" For run-on sentences: \"Read it aloud. Where does the first idea stop? Who is the second sentence about?\" Test each part: \"Does it tell who or what, and what happens?\"",
       "watch": "Have the child read each of the two new sentences alone. If one of them does not make sense by itself, the break is in the wrong place. Check that the second sentence got its own capital letter."
      }
     },
@@ -9815,7 +9825,7 @@
      },
      "note": {
       "mistake": "Children put a word in a bin by a feeling (\"happy\" is a verb because you can \"be happy\"). Words that can be two things (a drink, to drink; a play, to play) are sorted one way with no second thought.",
-      "words": "Give three tests: \"Noun: can you say 'two ___s'? Verb: can you say 'yesterday I ___ed'? Adjective: can you say 'very ___'?\" For a word that fits two bins: \"Use it in a sentence. Now which is it?\"",
+      "words": "Give three test sentences: \"Noun: can you say 'I see the ___' or 'I have some ___'? Verb: can you say 'I can ___' or 'She ___s every day'? Adjective: can you say 'The thing is very ___'?\" For a word that fits two bins: \"Use it in a sentence. Now which is it?\"",
       "watch": "Ask for a sentence with any word a child placed in a surprising bin; a good sentence can make the child right. Adjectives are the weakest bin for most children, so check that bin first."
      }
     },
@@ -9865,8 +9875,8 @@
       "template": "G2-349"
      },
      "note": {
-      "mistake": "Children add -s to everything: \"foxs,\" \"mouses,\" \"childs.\" The opposite also happens: after learning \"mice,\" a child writes \"hice\" for houses.",
-      "words": "Say the plural aloud first: \"One fox, two foxes. Do you hear the extra beat? Then it is -es.\" For the ones that change: \"These you have to know: one mouse, two mice; one child, two children; one foot, two feet.\" Keep a class list of them.",
+      "mistake": "Children add -s to everything: \"foxs,\" \"mouses,\" \"childs.\" The opposite also happens: after learning the new word, a child marks the plural twice and writes \"mices,\" \"feets,\" or \"childrens.\"",
+      "words": "Say the plural aloud first: \"One fox, two foxes. Do you hear the extra beat? Then it needs -es. If the word already ends in e, as in horse, just add s.\" For the ones that change: \"These you have to know: one mouse, two mice; one child, two children; one foot, two feet.\" Keep a class list of them.",
       "watch": "Sort a child's errors: -s where -es belongs is a spelling rule to teach; \"mouses\" is a word to learn by heart. The two need different help."
      }
     },
@@ -9926,7 +9936,7 @@
      "note": {
       "mistake": "Children add -ed to every verb: \"goed,\" \"runned,\" \"haved.\" With \"be\" they do not see that am, is, are, was, and were are all one verb.",
       "words": "Use two sentence frames all through: \"Today I ___. Yesterday I ___.\" Say them aloud: \"Today I go. Yesterday I went.\" For be: \"Today I am, you are, she is. Yesterday I was, you were, she was.\" Ask: \"Does it sound right?\"",
-      "watch": "Listen for the forms children use when they talk; many write \"goed\" and say \"went.\" Have them read their sentence aloud and trust their ear, then fix the spelling."
+      "watch": "Listen for the forms children use when they talk; many say \"went\" and still write \"goed\" when a page asks for an ending. Have them read their sentence aloud and listen. The ear helps only children who hear these forms every day; for children learning English, or whose home speech uses other forms (\"he do,\" \"we was\"), teach the forms from a class chart without calling the home form wrong. In the sentences, check has, does, and goes after he, she, or it."
      }
     },
     {
@@ -9977,7 +9987,7 @@
      },
      "note": {
       "mistake": "Children link a pronoun to the nearest name, not to the one it means: in \"Sam gave Lily his book,\" \"his\" is tied to Lily. When rewriting, they pick the wrong form (\"Him went home\").",
-      "words": "Ask: \"Who is 'she' here? Put the name back in. Does the sentence still say the same thing?\" For rewriting: \"Is the person doing the action? Then he, she, or they. Is something done to the person? Then him, her, or them.\"",
+      "words": "Ask: \"Who is 'she' here? Put the name back in. Does the sentence still say the same thing?\" For rewriting: \"Is the person doing the action? Then he, she, or they. Is something done to the person? Then him, her, or them. Does something belong to the person? Then his, her, or their.\"",
       "watch": "Use the put-the-name-back test on each line a child drew. Read rewritten sentences aloud together; \"Him went home\" sounds wrong to most children once they hear it."
      }
     },
@@ -9987,6 +9997,18 @@
      "title": "Write the question",
      "objective": "Children write a question that asks for a given answer, choosing among who, what, where, when, why, and how.",
      "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.2.1.f",
+       "title": null
+      },
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "L.1.1.j",
+       "title": null
+      },
       {
        "rel": "reviews",
        "framework": "Common Core",
@@ -10028,8 +10050,8 @@
       "template": "G2-356"
      },
      "note": {
-      "mistake": "Children write a statement with a question mark at the end (\"The dog is in the garden?\"), or they start with the right question word and keep the word order of a statement (\"Where the dog is?\").",
-      "words": "Say: \"The highlighted words are the ANSWER. Which question word asks for a place? A reason? A way of doing it?\" Build it aloud: \"The dog is in the garden. Where… is the dog?\" Point out the turn: \"is the dog,\" not \"the dog is.\"",
+      "mistake": "Children write a statement with a question mark at the end (\"The dog is in the yard?\"), or they start with the right question word and keep the word order of a statement (\"Where the dog is?\"). When the sentence has an action verb, they leave out \"does\" or \"did\" (\"What Maya eats?\").",
+      "words": "Say: \"The highlighted words are the ANSWER. Which question word asks for a place? A reason? A way of doing it?\" Build it aloud: \"The dog is in the yard. Where… is the dog?\" Point out the switch: \"is the dog,\" not \"the dog is.\" With an action verb: \"Maya eats an apple. What DOES Maya eat?\"",
       "watch": "Read a child's question and answer it yourself with the highlighted words. If your answer does not fit the question, the question word is wrong. Check for the question mark last."
      }
     }
@@ -10037,19 +10059,19 @@
   },
   {
    "id": "g2-spelling-and-word-building",
-   "slug": "spelling-and-word-building-grade-2-unit",
+   "slug": "spelling-word-building-and-word-choice-grade-2-unit",
    "status": "pilot",
    "grade": "2",
    "subject": "literacy",
-   "title": "Spelling and Word Building",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Spelling and Word Building",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on sh in sentences, spelling rules, compound words, root words, synonyms, and better words for said, with teacher notes.",
+   "title": "Spelling, Word Building, and Word Choice",
+   "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on a review of sh, spelling rules, compound words, root words, synonyms, and more exact words for said, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
      "n": 1,
      "point": "2:digraphs",
-     "title": "Find sh in sentences",
+     "title": "Review: find sh in sentences",
      "objective": "Children read sentences, circle every sh, including the ones in the middle and at the end of a word, and count them.",
      "standards": [
       {
@@ -10086,7 +10108,7 @@
      },
      "note": {
       "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, wherever they are.",
-      "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\"",
+      "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
       "watch": "Compare the number in the box with the circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
      }
     },
@@ -10151,7 +10173,7 @@
      },
      "note": {
       "mistake": "Children spell a sound the same way everywhere: \"duk\" and \"bike\" both get a plain k. They can say the rule as a sentence and do not check the sound that comes before.",
-      "words": "Read the rule on the page together and turn it into a question to ask each time. For ck and k, for example: \"Is the vowel before it short or long?\" Say: \"Short vowel, then ck: duck, sock. Anything else, just k: bike, milk.\" Have children say the word, then the vowel sound, then the spelling.",
+      "words": "Read the rule on the page together and turn it into a question to ask each time. For ck and k, for example: \"What comes right before the /k/ sound? One short vowel?\" Say: \"Right after one short vowel, ck: duck, sock. After anything else, just k: milk, book, bike.\" Have children say the word, then the sound just before /k/, then the spelling.",
       "watch": "Ask the child why a word got its letters. \"Because of the rule\" is not enough; the child should name the sound that comes before. Each page practices one rule; mix the rules only after each has been practiced alone."
      }
     },
@@ -10202,7 +10224,7 @@
       "template": "G2-331"
      },
      "note": {
-      "mistake": "Children split a word wherever they see a small word inside it: \"car-pet,\" \"but-ton.\" In a real compound they cut after the first few letters and not where the second word begins.",
+      "mistake": "Children split a word wherever they see a small word inside it: \"car-pet,\" \"but-ton.\" In a real compound they cut after the first few letters and not where the second word begins. On the matching page they join two pictures that go together in life (sun and moon) and not two that make a word (sun and flower).",
       "words": "Say: \"A compound word is two whole words stuck together, and both still mean something: rain + coat, a coat for the rain.\" Test a split: \"Is 'car' a word? Is 'pet' a word? Is a carpet a pet in a car? Then it is not a compound.\"",
       "watch": "Have the child say both halves and tell what the whole word means with both halves in it (\"a brush for teeth\"). A split that leaves a half that is not a word shows at once."
      }
@@ -10255,9 +10277,9 @@
       "template": "G2-375"
      },
      "note": {
-      "mistake": "Children circle letters the words share by chance (the \"er\" in baker, teacher, and farmer) and not the part that carries the meaning. Or they keep a letter that was only added for spelling: the root of \"running\" becomes \"runn.\"",
-      "words": "Say: \"The root is the part that means the same in all three: play, player, playing. What do they all have to do with?\" Cover the endings with a finger. For a changed spelling: \"Running comes from run. The extra n is there for the spelling.\"",
-      "watch": "Ask what the three words have in common in MEANING before the child circles. A child who circles an ending has found a pattern and missed the root; ask what a baker and a farmer have to do with each other."
+      "mistake": "Children circle only the letters that are printed the same in all three words, so the root of \"baker, baking, baked\" becomes \"bak.\" Or they keep a letter that was only added for spelling: the root of \"running\" becomes \"runn.\"",
+      "words": "Say: \"The root is the part that means the same in all three: play, player, playing. What do they all have to do with?\" Cover the endings with a finger. For a changed spelling: \"Running comes from run; the extra n is there for the spelling. Baking comes from bake; the e was dropped. Write the root the way it is spelled when it stands alone.\"",
+      "watch": "Ask what the three words have in common in MEANING before the child circles. Then have the child read the root written in the stone: is it a real word by itself? \"Bak\" and \"runn\" are not, so the child goes back and repairs the spelling."
      }
     },
     {
@@ -10313,7 +10335,7 @@
       "template": "G2-358"
      },
      "note": {
-      "mistake": "Children pick a word that often goes with the first word (cold and ice, big and house) and not one that could take its place. Opposites are chosen too, because they \"go together.\"",
+      "mistake": "Children pick a word that often goes with the first word (cold and ice, big and house) and not one that could take its place. On the matching page they join the easy pairs and then link the leftover words without reading them.",
       "words": "Give the swap test: \"Put the new word in the sentence where the old one was. Does the sentence still mean the same?\" Try it: \"I am glad. I am happy. Same. I am glad. I am sad. Not the same.\" Use the word \"synonym.\"",
       "watch": "Note the words nobody knew; those are vocabulary to teach first, because no test finds a synonym for a word a child has never met. Ask a child to use both words of one pair in the same sentence."
      }
@@ -10321,7 +10343,7 @@
     {
      "n": 6,
      "point": "2:synonyms~doing-stage",
-     "title": "Better words for said",
+     "title": "More exact words for said",
      "objective": "Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.",
      "standards": [
       {
@@ -10364,21 +10386,21 @@
      },
      "note": {
       "mistake": "Children take the words in the order they are printed in the bubble, or use one favorite (\"shouted\") everywhere. They do not look for the clue in the sentence that tells how something was said.",
-      "words": "Ask: \"HOW did the person say it? Look for a clue: a question mark, an exclamation mark, a word like 'quietly.'\" Act it out: \"Say it in a whisper. Now shout it. Which word fits what happened?\"",
-      "watch": "Have the child read the finished sentence in the voice the new word calls for. If \"whispered\" comes before a sentence with an exclamation mark, the child will hear the clash."
+      "words": "Ask: \"HOW did the person say it? Look for a clue: a question mark, an exclamation point, a word like 'quietly.'\" Act it out: \"Say it in a whisper. Now shout it. Which word fits what happened?\"",
+      "watch": "Have the child read the finished sentence in the voice the new word calls for. If \"whispered\" comes before a sentence with an exclamation point, the child will hear the clash."
      }
     }
    ]
   },
   {
    "id": "g2-stories-facts-and-writing",
-   "slug": "stories-facts-and-writing-grade-2-unit",
+   "slug": "reading-stories-and-writing-grade-2-unit",
    "status": "pilot",
    "grade": "2",
    "subject": "literacy",
-   "title": "Stories, Facts, and Writing",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Stories, Facts, and Writing",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact file, and cursive.",
+   "title": "Reading Stories and Writing",
+   "metaTitle": "Grade 2 Literacy Lesson Plans: Reading Stories and Writing",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact sheet, and cursive.",
    "weeks": 2,
    "lessons": [
     {
@@ -10437,7 +10459,7 @@
      "n": 2,
      "point": "2:cloze-context",
      "title": "Fill in the story's missing words",
-     "objective": "Children read a whole short story and use what happens in it to choose the word that belongs in each gap.",
+     "objective": "Children read a whole short story and use what happens in it to choose the word that belongs in each blank.",
      "standards": [
       {
        "rel": "teaches",
@@ -10479,16 +10501,16 @@
       "template": "G2-350"
      },
      "note": {
-      "mistake": "Children fill the first gap after reading only up to it, and choose a word that fits that one sentence and not the story. A word used wrongly early leaves the wrong word for the last gap.",
-      "words": "Say: \"Read the WHOLE story first and say 'blank' at each gap. What is the story about?\" Then: \"Try a word. Read on to the next sentence. Does it still make sense?\" Teach looking ahead as well as back for a clue.",
-      "watch": "See whether a child reads to the end before writing. Have the finished story read aloud; a word in the wrong gap makes a sentence that sounds odd, and most children catch it by ear."
+      "mistake": "Children fill the first blank after reading only up to it, and choose a word that fits that one sentence and not the story. A word used wrongly early leaves the wrong word for the last blank.",
+      "words": "Say: \"Read the WHOLE story first and say 'blank' at each empty box. What is the story about?\" Then: \"Try a word. Read on to the next sentence. Does it still make sense?\" Add: \"Sometimes the clue comes after the blank, so read ahead as well as back.\"",
+      "watch": "See whether a child reads to the end before writing. Have the finished story read aloud; a word in the wrong blank makes a sentence that sounds odd, and most children catch it by ear."
      }
     },
     {
      "n": 3,
      "point": "2:describe-a-picture",
      "title": "Write about a picture",
-     "objective": "Children write sentences about a picture, first with sentence starters and a word bank and then in their own words.",
+     "objective": "Children write sentences about a picture with sentence starters and a word bank, and then write their own short story about a picture with the word bank only.",
      "standards": [
       {
        "rel": "teaches",
@@ -10500,6 +10522,12 @@
        "rel": "prepares",
        "framework": "Common Core",
        "code": "W.2.2",
+       "title": null
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "W.2.3",
        "title": null
       }
      ],
@@ -10584,15 +10612,9 @@
     {
      "n": 5,
      "point": "2:animal-fact-file",
-     "title": "An animal fact file",
-     "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them in a fact file.",
+     "title": "An animal fact sheet",
+     "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "W.2.7",
-       "title": null
-      },
       {
        "rel": "teaches",
        "framework": "Common Core",
@@ -10600,9 +10622,9 @@
        "title": null
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Common Core",
-       "code": "RI.2.1",
+       "code": "W.2.7",
        "title": null
       }
      ],
@@ -10627,16 +10649,16 @@
       "template": "G2-339"
      },
      "note": {
-      "mistake": "Children write what they like about the animal or what happens in a story (\"bears like honey and wear hats\"), not facts. A fact lands in the wrong row: what the animal eats is written under where it lives.",
+      "mistake": "Children circle what they know from stories and cartoons and not what is true: honey for the bear, cheese for the mouse. When copying from the word bank, a fact lands in the wrong row: what the animal eats is written under where it lives.",
       "words": "Say: \"A fact is true, and we can check it in a book or by looking.\" Read the row names first: \"What does this row ask for? Food, home, or how it moves?\" Ask: \"How do you know that? Where could we check?\"",
-      "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books at hand and let children check one fact each."
+      "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books on hand and let children check one fact each."
      }
     },
     {
      "n": 6,
      "point": "2:cursive-writing",
      "title": "Cursive letters and joins",
-     "objective": "Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil.",
+     "objective": "Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil (for states that teach cursive in Grade 2).",
      "standards": [
       {
        "rel": "extends",
@@ -10675,8 +10697,8 @@
      },
      "note": {
       "mistake": "Children lift the pencil after every letter and add the joining stroke afterward, so the row is print letters with tails. The dot of the i and the cross of the t are added in the middle of a word, which breaks the flow.",
-      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" Write big in the air first, then on the page.",
-      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Left-handed children may need the paper turned the other way."
+      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends up high, so the next letter starts from up there, not from the line.\" Write big in the air first, then on the page.",
+      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
      }
     }
    ]
@@ -10696,8 +10718,20 @@
      "n": 1,
      "point": "2:prefixes",
      "title": "Prefixes change the meaning",
-     "objective": "Children add a prefix such as un-, re-, or mis- to a word and tell what the new word means.",
+     "objective": "Children add a prefix such as un-, dis-, re-, or mis- to a word and tell what the new word means.",
      "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.4.b",
+       "title": null
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.3.3.a",
+       "title": null
+      },
       {
        "rel": "reviews",
        "framework": "Common Core",
@@ -10741,8 +10775,8 @@
      },
      "note": {
       "mistake": "Children put any prefix on any word (\"unhonest,\" \"dishappy\"), or they see a prefix in a word that has none: \"uncle\" and \"under\" are taken apart. They can build the word and cannot say what it means.",
-      "words": "Give each prefix a meaning to say: \"un- means not. re- means again. pre- means before. mis- means wrongly.\" Use it: \"Unlock: not locked. Reread: read again.\" Test a doubtful word: \"Take off un-. Is 'cle' a word? Then 'uncle' has no prefix.\"",
-      "watch": "Have the child explain each new word with the prefix's meaning in it. For un-, dis-, and in-, only some pairs exist; children learn those by hearing them, so say the right word back (\"dishonest\") and give no rule."
+      "words": "Give each prefix a meaning to say: \"un-, dis-, and in- mean not or the opposite of. re- means again. pre- means before. mis- means wrong or badly.\" Use it: \"Unhappy: not happy. Dishonest: not honest. Incorrect: not correct. Reread: read again. Preheat: heat before. Misspell: spell wrong.\" Test a doubtful word: \"Take off un-. Is 'cle' a word? Then 'uncle' has no prefix.\"",
+      "watch": "Have the child explain each new word with the prefix's meaning in it. For un-, dis-, and in-, only some pairs exist; children learn those by hearing them, so say the right word back (\"dishonest\") and give no rule. Watch for words where in- means \"in\" and not \"not\" (inside, indoors); tell the child that this in- is a different one."
      }
     },
     {
@@ -10755,12 +10789,6 @@
        "rel": "reviews",
        "framework": "Common Core",
        "code": "L.2.5.b",
-       "title": null
-      },
-      {
-       "rel": "prepares",
-       "framework": "Common Core",
-       "code": "L.3.5.c",
        "title": null
       }
      ],
@@ -10813,6 +10841,12 @@
        "framework": "Common Core",
        "code": "RF.3.3.a",
        "title": null
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.2.e",
+       "title": null
       }
      ],
      "paper": [
@@ -10843,7 +10877,7 @@
      },
      "note": {
       "mistake": "Children add -er without the spelling change: \"runer,\" \"bakeer,\" \"swimer.\" They also take every word that ends in -er for a person word, such as \"water\" and \"finger.\"",
-      "words": "Say: \"A baker is a person who bakes. A runner is a person who runs.\" Give the two spelling moves: \"Bake already has an e: just add r. Run has a short vowel and one last letter: double it, runner.\" Test a word: \"Is a finger a person who fings?\"",
+      "words": "Say: \"A baker is a person who bakes. A runner is a person who runs.\" Give the two spelling moves: \"Bake ends in e: drop the e, then add -er. Baker. Run has one short vowel and one consonant at the end: double the consonant, then add -er. Runner.\" Test a word: \"Is a finger a person who fings?\"",
       "watch": "Have the child say the meaning as \"a person who…\" for each new word. Check the doubled letters (runner, swimmer) and the dropped e (baker, writer); those are the two places where errors gather."
      }
     },
@@ -10855,6 +10889,18 @@
      "standards": [
       {
        "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.e",
+       "title": null
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.a",
+       "title": null
+      },
+      {
+       "rel": "extends",
        "framework": "Common Core",
        "code": "L.3.4.c",
        "title": null
@@ -10887,10 +10933,864 @@
       "template": "G3-399"
      },
      "note": {
-      "mistake": "Children put the words into the gaps in the order they are printed. They choose by meaning alone, which all four words share, and do not listen for what the sentence needs: a person, an action now, or an action that is over.",
-      "words": "Ask what the gap needs: \"Is it a person? Something happening now? Something that already happened?\" Read the sentence aloud with each word: \"Yesterday she… bake? baker? baked. Which one sounds right?\" Cross off each word as it is used.",
+      "mistake": "Children put the words into the blanks in the order they are printed. They choose by meaning alone, which all four words share, and do not listen for what the sentence needs: a person, an action now, or an action that is over.",
+      "words": "Ask what the blank needs: \"Is it a person? Something that is happening, after is or are? Something that already happened? Or the plain word, after to, will, or can?\" Read the sentence aloud with each word: \"Yesterday she… bake? baker? baked. Which one sounds right?\" Cross off each word as it is used.",
       "watch": "Have the child read all four finished sentences aloud. One wrong word forces a second one, so two sentences will sound wrong together; let the child trade the two words."
      }
+    }
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "id": "plan-k-math",
+   "slug": "kindergarten-math-scope-and-sequence",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Kindergarten Math Scope and Sequence",
+   "metaTitle": "Kindergarten Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Kindergarten math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "weeks": 7,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "k-position-size-patterns",
+     "slug": "position-words-size-and-patterns-kindergarten-unit",
+     "title": "Position Words, Size, and Patterns",
+     "weeks": 1,
+     "from": 1,
+     "to": 1,
+     "lessons": [
+      "Position words",
+      "Find every one like it",
+      "Biggest and tallest",
+      "Put them in order by size",
+      "What comes next?"
+     ],
+     "standards": [
+      "K.G.A.1",
+      "K.MD.A.2"
+     ]
+    },
+    {
+     "id": "k-counting-to-10",
+     "slug": "counting-to-10-kindergarten-unit",
+     "title": "Counting to 10",
+     "weeks": 2,
+     "from": 2,
+     "to": 3,
+     "lessons": [
+      "One for each",
+      "Write the numbers 0 to 9",
+      "Count and write how many",
+      "Make a group of that many",
+      "Color by number",
+      "How many? Look fast",
+      "More and fewer"
+     ],
+     "standards": [
+      "K.CC.A.3",
+      "K.CC.B.5",
+      "K.CC.B.4.b",
+      "K.CC.C.6"
+     ]
+    },
+    {
+     "id": "k-shapes",
+     "slug": "shapes-all-around-kindergarten-unit",
+     "title": "Shapes All Around",
+     "weeks": 1,
+     "from": 4,
+     "to": 4,
+     "lessons": [
+      "Name the shape",
+      "Count the sides",
+      "Build shapes from pieces",
+      "Mirror pictures"
+     ],
+     "standards": [
+      "K.G.A.2",
+      "K.G.B.4",
+      "K.G.B.6"
+     ]
+    },
+    {
+     "id": "k-counting-in-order-to-20",
+     "slug": "counting-in-order-to-20-kindergarten-unit",
+     "title": "Counting in Order to 20",
+     "weeks": 1,
+     "from": 5,
+     "to": 5,
+     "lessons": [
+      "Fill in the missing numbers",
+      "Connect the dots in order",
+      "Before, after, and counting back",
+      "First, second, third"
+     ],
+     "standards": [
+      "K.CC.A.2",
+      "K.CC.A.3",
+      "K.CC.B.4.c"
+     ]
+    },
+    {
+     "id": "k-sorting-tallies-days",
+     "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
+     "title": "Sorting, Tallies, and the Days of the Week",
+     "weeks": 1,
+     "from": 6,
+     "to": 6,
+     "lessons": [
+      "Count each kind",
+      "Tally marks",
+      "Take a good guess",
+      "Which is heavier?",
+      "The days of the week"
+     ],
+     "standards": [
+      "K.MD.B.3",
+      "K.CC.B.5",
+      "K.MD.A.2"
+     ]
+    },
+    {
+     "id": "k-putting-together-number-bonds",
+     "slug": "putting-together-and-number-bonds-kindergarten-unit",
+     "title": "Putting Together and Number Bonds",
+     "weeks": 1,
+     "from": 7,
+     "to": 7,
+     "lessons": [
+      "How many altogether?",
+      "Number bonds to 5 and to 10",
+      "Add and subtract to color",
+      "Partners that make 20",
+      "Odd or even?"
+     ],
+     "standards": [
+      "K.OA.A.1",
+      "K.OA.A.3",
+      "K.OA.A.4",
+      "K.OA.A.5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-1-math",
+   "slug": "grade-1-math-scope-and-sequence",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Grade 1 Math Scope and Sequence",
+   "metaTitle": "Grade 1 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 1 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "weeks": 8,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "g1-add-subtract-within-10",
+     "slug": "addition-and-subtraction-within-10-grade-1-unit",
+     "title": "Addition and Subtraction Within 10",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Add two groups",
+      "Take away: how many are left?",
+      "Partners that make 10",
+      "Count on and count back on a number line",
+      "Fact families to 10",
+      "Find the missing number",
+      "Word problems within 10",
+      "Fluent facts within 10"
+     ],
+     "standards": [
+      "1.OA.C.6",
+      "1.OA.C.5",
+      "1.OA.B.3",
+      "1.OA.B.4",
+      "1.OA.D.8",
+      "1.OA.A.1"
+     ]
+    },
+    {
+     "id": "g1-doubles-three-addends-number-walls",
+     "slug": "doubles-three-addends-and-number-walls-grade-1-unit",
+     "title": "Doubles, Three Addends, and Number Walls",
+     "weeks": 1,
+     "from": 3,
+     "to": 3,
+     "lessons": [
+      "Doubles and halves",
+      "Odd and even numbers",
+      "Add three groups",
+      "Number walls (addition pyramids)"
+     ],
+     "standards": [
+      "1.OA.C.6",
+      "1.OA.B.3",
+      "1.OA.D.8"
+     ]
+    },
+    {
+     "id": "g1-tens-and-ones",
+     "slug": "tens-and-ones-grade-1-unit",
+     "title": "Tens and Ones",
+     "weeks": 1,
+     "from": 4,
+     "to": 4,
+     "lessons": [
+      "Tens and ones",
+      "Number words",
+      "Compare and order two-digit numbers",
+      "Number of the day"
+     ],
+     "standards": [
+      "1.NBT.B.2",
+      "1.NBT.B.3",
+      "1.NBT.C.5"
+     ]
+    },
+    {
+     "id": "g1-hundreds-chart-skip-counting",
+     "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
+     "title": "The Hundreds Chart and Skip Counting",
+     "weeks": 1,
+     "from": 5,
+     "to": 5,
+     "lessons": [
+      "Find a number on the number line",
+      "The hundreds chart",
+      "1 more, 1 less, 10 more, 10 less",
+      "Count by tens, fives, and twos"
+     ],
+     "standards": [
+      "1.NBT.A.1",
+      "1.NBT.C.5"
+     ]
+    },
+    {
+     "id": "g1-time-calendar-coins",
+     "slug": "time-calendar-and-coins-grade-1-unit",
+     "title": "Time, Calendar, and Coins",
+     "weeks": 1,
+     "from": 6,
+     "to": 6,
+     "lessons": [
+      "Tell time to the hour and half hour",
+      "Draw the clock hands",
+      "Yesterday, today, tomorrow, and the months",
+      "Ordinal numbers to tenth",
+      "Count coins"
+     ],
+     "standards": [
+      "1.MD.B.3"
+     ]
+    },
+    {
+     "id": "g1-shapes-measuring-graphs",
+     "slug": "shapes-measuring-and-graphs-grade-1-unit",
+     "title": "Shapes, Measuring, and Graphs",
+     "weeks": 2,
+     "from": 7,
+     "to": 8,
+     "lessons": [
+      "What makes a shape that shape?",
+      "Tangram puzzles",
+      "Measure with unit squares",
+      "Sort into three groups",
+      "Sort, count, and read a picture graph",
+      "Read and make a bar graph",
+      "Two are missing"
+     ],
+     "standards": [
+      "1.G.A.1",
+      "1.G.A.2",
+      "1.MD.A.1",
+      "1.MD.A.2",
+      "1.MD.C.4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-2-math",
+   "slug": "grade-2-math-scope-and-sequence",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Grade 2 Math Scope and Sequence",
+   "metaTitle": "Grade 2 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 2 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "weeks": 9,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "g2-place-value-to-1000",
+     "slug": "place-value-to-1000-grade-2-unit",
+     "title": "Place Value to 1,000",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Bundle ten ones",
+      "Count by fives and tens",
+      "A number line that does not start at zero",
+      "Jumps on the hundreds chart",
+      "Hundreds, tens, and ones",
+      "Expanded form and the value of a digit",
+      "Compare and order three-digit numbers",
+      "100 more, 100 less"
+     ],
+     "standards": [
+      "2.NBT.A.2",
+      "2.MD.B.6",
+      "2.NBT.B.5",
+      "2.NBT.A.1",
+      "2.NBT.A.3",
+      "2.NBT.A.4",
+      "2.NBT.B.8"
+     ]
+    },
+    {
+     "id": "g2-add-subtract-within-1000",
+     "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+     "title": "Adding and Subtracting Within 100 and 1,000",
+     "weeks": 1,
+     "from": 3,
+     "to": 3,
+     "lessons": [
+      "Add with blocks",
+      "Subtract with blocks",
+      "Add and subtract in columns",
+      "Add and subtract within 100"
+     ],
+     "standards": [
+      "2.NBT.B.7",
+      "2.NBT.B.5"
+     ]
+    },
+    {
+     "id": "g2-measurement-time-money",
+     "slug": "measurement-time-and-money-grade-2-unit",
+     "title": "Measurement, Time, and Money",
+     "weeks": 1,
+     "from": 4,
+     "to": 4,
+     "lessons": [
+      "Measure with a ruler",
+      "How much longer?",
+      "Tell time to five minutes",
+      "Read a calendar",
+      "Shopping with money"
+     ],
+     "standards": [
+      "2.MD.A.1",
+      "2.MD.A.4",
+      "2.MD.C.7",
+      "2.MD.C.8"
+     ]
+    },
+    {
+     "id": "g2-graphs-and-grids",
+     "slug": "graphs-and-grids-grade-2-unit",
+     "title": "Graphs and Grids",
+     "weeks": 1,
+     "from": 5,
+     "to": 5,
+     "lessons": [
+      "From a tally to a bar graph",
+      "Read a line plot",
+      "Each picture counts as two",
+      "Find a square on a grid"
+     ],
+     "standards": [
+      "2.MD.D.10",
+      "2.MD.D.9"
+     ]
+    },
+    {
+     "id": "g2-equal-groups-equal-shares",
+     "slug": "equal-groups-and-equal-shares-grade-2-unit",
+     "title": "Equal Groups and Equal Shares",
+     "weeks": 2,
+     "from": 6,
+     "to": 7,
+     "lessons": [
+      "Odd and even with equal parts",
+      "Equal groups",
+      "Rows and columns",
+      "Count by threes and fours",
+      "Share fairly and make groups",
+      "Halves, thirds, and fourths",
+      "A fraction of a group"
+     ],
+     "standards": [
+      "2.OA.C.3",
+      "2.OA.C.4",
+      "2.G.A.3"
+     ]
+    },
+    {
+     "id": "g2-shapes-solids-symmetry",
+     "slug": "shapes-solids-and-symmetry-grade-2-unit",
+     "title": "Shapes, Solids, and Symmetry",
+     "weeks": 2,
+     "from": 8,
+     "to": 9,
+     "lessons": [
+      "Sort shapes by sides",
+      "Solid shapes around us",
+      "Faces, edges, and corners",
+      "Is it a mirror line?",
+      "Finish the other half",
+      "Which one matches the shadow?"
+     ],
+     "standards": [
+      "2.G.A.1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-3-math",
+   "slug": "grade-3-math-scope-and-sequence",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Grade 3 Math Scope and Sequence",
+   "metaTitle": "Grade 3 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 3 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "weeks": 10,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "g3-rounding-adding-subtracting",
+     "slug": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
+     "title": "Rounding, Adding, and Subtracting Within 1,000",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Round to the nearest ten",
+      "Round to the nearest hundred",
+      "Round, then estimate the sum",
+      "Add and subtract with regrouping",
+      "Make it balance",
+      "Is the sum odd or even?",
+      "Find the rule of a number pattern"
+     ],
+     "standards": [
+      "3.NBT.A.1",
+      "3.NBT.A.2",
+      "3.OA.D.9"
+     ]
+    },
+    {
+     "id": "g3-starting-multiplication",
+     "slug": "starting-multiplication-grade-3-unit",
+     "title": "Starting Multiplication",
+     "weeks": 1,
+     "from": 3,
+     "to": 3,
+     "lessons": [
+      "Multiplication as equal groups",
+      "Multiplication hops",
+      "Turn the array around",
+      "The 2 and 5 times tables",
+      "Number machines"
+     ],
+     "standards": [
+      "3.OA.A.1",
+      "3.OA.B.5",
+      "3.OA.C.7",
+      "3.OA.D.9"
+     ]
+    },
+    {
+     "id": "g3-division",
+     "slug": "division-grade-3-unit",
+     "title": "Division",
+     "weeks": 1,
+     "from": 4,
+     "to": 4,
+     "lessons": [
+      "Divide by sharing",
+      "Divide by hopping back",
+      "The missing factor and fact families",
+      "Multiplication and division word problems",
+      "Division with a remainder"
+     ],
+     "standards": [
+      "3.OA.A.2",
+      "3.OA.B.6",
+      "3.OA.A.4",
+      "3.OA.A.3"
+     ]
+    },
+    {
+     "id": "g3-time-temperature-mass-volume",
+     "slug": "time-temperature-mass-and-volume-grade-3-unit",
+     "title": "Time, Temperature, Mass, and Volume",
+     "weeks": 2,
+     "from": 5,
+     "to": 6,
+     "lessons": [
+      "Tell time to the minute",
+      "How much time passed?",
+      "Add and subtract time",
+      "12-hour and 24-hour time",
+      "Read a thermometer",
+      "Read a scale in grams",
+      "Read a measuring cup"
+     ],
+     "standards": [
+      "3.MD.A.1",
+      "3.MD.A.2"
+     ]
+    },
+    {
+     "id": "g3-area-perimeter-volume",
+     "slug": "area-and-perimeter-grade-3-unit",
+     "title": "Area and Perimeter",
+     "weeks": 1,
+     "from": 7,
+     "to": 7,
+     "lessons": [
+      "Area: count the squares",
+      "Same area, different shape",
+      "Perimeter: walk the edge",
+      "Same perimeter, different area",
+      "Count the cubes"
+     ],
+     "standards": [
+      "3.MD.C.7.a",
+      "3.MD.C.6",
+      "3.MD.D.8"
+     ]
+    },
+    {
+     "id": "g3-fractions",
+     "slug": "fractions-grade-3-unit",
+     "title": "Fractions",
+     "weeks": 2,
+     "from": 8,
+     "to": 9,
+     "lessons": [
+      "Equal pieces",
+      "Name and shade a fraction",
+      "Find the whole",
+      "Fractions on a number line",
+      "Which fraction is greater?",
+      "Equivalent fractions: different names, same amount",
+      "A fraction of a group"
+     ],
+     "standards": [
+      "3.G.A.2",
+      "3.NF.A.1",
+      "3.NF.A.2",
+      "3.NF.A.3.d",
+      "3.NF.A.3.a",
+      "3.NF.A.3.b",
+      "3.OA.A.2"
+     ]
+    },
+    {
+     "id": "g3-shapes-and-data",
+     "slug": "shapes-and-data-grade-3-unit",
+     "title": "Shapes and Data",
+     "weeks": 1,
+     "from": 10,
+     "to": 10,
+     "lessons": [
+      "Right angles",
+      "Is it a rectangle?",
+      "How many mirror lines?",
+      "Graphs with a scale",
+      "A line plot with halves"
+     ],
+     "standards": [
+      "3.G.A.1",
+      "3.MD.B.3",
+      "3.MD.B.4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-k-literacy",
+   "slug": "kindergarten-reading-and-writing-scope-and-sequence",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Kindergarten Reading and Writing Scope and Sequence",
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Kindergarten reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "weeks": 7,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "k-hearing-sounds-in-words",
+     "slug": "hearing-sounds-in-words-kindergarten-unit",
+     "title": "Hearing Sounds in Words",
+     "weeks": 3,
+     "from": 1,
+     "to": 3,
+     "lessons": [
+      "Hear the rhyme",
+      "Clap the syllables",
+      "Beginning sounds",
+      "Ending sounds and middle sounds",
+      "Say it slowly: one sound, one box",
+      "Build the word"
+     ],
+     "standards": [
+      "RF.K.2.a",
+      "RF.K.2.b",
+      "RF.K.3.a",
+      "RF.K.2.d",
+      "RF.K.3.b",
+      "L.K.2.d",
+      "L.K.2.c"
+     ]
+    },
+    {
+     "id": "k-letters-and-handwriting",
+     "slug": "letters-and-handwriting-kindergarten-unit",
+     "title": "Letters and Handwriting",
+     "weeks": 2,
+     "from": 4,
+     "to": 5,
+     "lessons": [
+      "Lines, zigzags, and curves",
+      "Find the letter",
+      "Capital and small letters",
+      "Write the letters",
+      "The alphabet in order",
+      "Trace and write words",
+      "All about me"
+     ],
+     "standards": [
+      "RF.K.1.d",
+      "L.K.1.a",
+      "RF.K.3.c",
+      "W.K.2"
+     ]
+    },
+    {
+     "id": "k-first-words-to-read",
+     "slug": "first-words-to-read-kindergarten-unit",
+     "title": "First Words to Read",
+     "weeks": 1,
+     "from": 6,
+     "to": 6,
+     "lessons": [
+      "Match words to pictures",
+      "Sight words",
+      "One and many",
+      "A or an?",
+      "sh and ch"
+     ],
+     "standards": [
+      "RF.K.3",
+      "RF.K.3.c",
+      "L.K.1.c",
+      "RF.K.2.d"
+     ]
+    },
+    {
+     "id": "k-sorting-words-telling-stories",
+     "slug": "sorting-opposites-and-story-order-kindergarten-unit",
+     "title": "Sorting, Opposites, and Story Order",
+     "weeks": 1,
+     "from": 7,
+     "to": 7,
+     "lessons": [
+      "Sort into groups",
+      "Which one does not belong?",
+      "Opposites",
+      "First, next, last"
+     ],
+     "standards": [
+      "L.K.5.a",
+      "L.K.5.b",
+      "RL.K.2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-1-literacy",
+   "slug": "grade-1-reading-and-writing-scope-and-sequence",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Grade 1 Reading and Writing Scope and Sequence",
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Grade 1 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "weeks": 5,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "g1-sounds-spelling-syllables",
+     "slug": "sounds-spelling-and-syllables-grade-1-unit",
+     "title": "Sounds, Spelling, and Syllables",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Rhyming words",
+      "Word families",
+      "Sound boxes",
+      "sh, ch, and th",
+      "Spell the picture word",
+      "Syllables"
+     ],
+     "standards": [
+      "RF.1.3.b",
+      "RF.1.2.b",
+      "RF.1.2.d",
+      "RF.1.3.a",
+      "L.1.2.e",
+      "L.1.2.d",
+      "RF.1.3.e",
+      "RF.1.3.d"
+     ]
+    },
+    {
+     "id": "g1-reading-sentences-and-stories",
+     "slug": "reading-sentences-and-stories-grade-1-unit",
+     "title": "Reading Sentences and Stories",
+     "weeks": 1,
+     "from": 3,
+     "to": 3,
+     "lessons": [
+      "Read and do",
+      "Fill in the missing word",
+      "Unscramble the sentence",
+      "Who, what, where",
+      "What happens next?"
+     ],
+     "standards": [
+      "RF.1.4.a",
+      "RF.1.4.c",
+      "L.1.4.a",
+      "L.1.1.j",
+      "L.1.2.b",
+      "RL.1.7",
+      "RL.1.2"
+     ]
+    },
+    {
+     "id": "g1-words-and-how-they-work",
+     "slug": "words-and-how-they-work-grade-1-unit",
+     "title": "Words and How They Work",
+     "weeks": 2,
+     "from": 4,
+     "to": 5,
+     "lessons": [
+      "ABC order",
+      "Nouns, verbs, and adjectives",
+      "He, she, it, they",
+      "A or an: sort the words",
+      "Write the opposite",
+      "Two words that mean the same",
+      "From a little to a lot",
+      "Find the root word"
+     ],
+     "standards": [
+      "L.1.1.f",
+      "L.1.1.d",
+      "L.1.1.h",
+      "L.1.5",
+      "L.1.5.d",
+      "L.1.4.c"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plan-2-literacy",
+   "slug": "grade-2-reading-and-writing-scope-and-sequence",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Grade 2 Reading and Writing Scope and Sequence",
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Grade 2 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "weeks": 6,
+   "framework": "Common Core",
+   "units": [
+    {
+     "id": "g2-sentences-and-grammar",
+     "slug": "sentences-and-grammar-grade-2-unit",
+     "title": "Sentences and Grammar",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Capital letters and end marks",
+      "Nouns, verbs, and adjectives: three bins",
+      "More than one: plural nouns",
+      "Today and yesterday: verb forms",
+      "Who does the pronoun mean?",
+      "Write the question"
+     ],
+     "standards": [
+      "L.2.1.f",
+      "L.2.1.b",
+      "L.2.1.d"
+     ]
+    },
+    {
+     "id": "g2-spelling-and-word-building",
+     "slug": "spelling-word-building-and-word-choice-grade-2-unit",
+     "title": "Spelling, Word Building, and Word Choice",
+     "weeks": 2,
+     "from": 3,
+     "to": 4,
+     "lessons": [
+      "Review: find sh in sentences",
+      "Spelling rules: which letters go here?",
+      "Compound words",
+      "Root words and word families",
+      "Synonyms",
+      "More exact words for said"
+     ],
+     "standards": [
+      "L.2.2.d",
+      "RF.2.3",
+      "L.2.4.d",
+      "L.2.4.c",
+      "L.2.5",
+      "L.2.5.b"
+     ]
+    },
+    {
+     "id": "g2-stories-facts-and-writing",
+     "slug": "reading-stories-and-writing-grade-2-unit",
+     "title": "Reading Stories and Writing",
+     "weeks": 2,
+     "from": 5,
+     "to": 6,
+     "lessons": [
+      "Read a story and answer questions",
+      "Fill in the story's missing words",
+      "Write about a picture",
+      "Retell a story: first, next, then, at the end",
+      "An animal fact sheet",
+      "Cursive letters and joins"
+     ],
+     "standards": [
+      "RL.2.1",
+      "RF.2.4.c",
+      "L.2.4.a",
+      "L.2.1.f",
+      "W.2.3",
+      "W.2.8"
+     ]
     }
    ]
   }

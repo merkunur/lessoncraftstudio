@@ -26,6 +26,8 @@ const REPO = path.join(__dirname, '..', '..');
 const C = path.join(REPO, 'frontend', 'content');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
+// words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
+const WHOLE_YEAR = { en: /\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i };
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
@@ -35,7 +37,7 @@ function load() {
     const units = readJson(path.join(C, 'units', 'units.' + l + '.json'));
     const packs = readJson(path.join(C, 'sub-plans', 'packs.' + l + '.json'));
     if (!units && !packs) continue;
-    d.loc[l] = { units: units ? units.units : [], packs: packs ? packs.packs : [], uiU: readJson(path.join(C, 'units', 'ui.' + l + '.json')), uiS: readJson(path.join(C, 'sub-plans', 'ui.' + l + '.json')) };
+    d.loc[l] = { units: units ? units.units : [], plans: units && units.plans ? units.plans : [], packs: packs ? packs.packs : [], uiU: readJson(path.join(C, 'units', 'ui.' + l + '.json')), uiS: readJson(path.join(C, 'sub-plans', 'ui.' + l + '.json')) };
   }
   return d;
 }
@@ -83,6 +85,41 @@ function run(d) {
     }
     const ps = [...notes];
     for (let i = 0; i < ps.length; i++) for (let j = i + 1; j < ps.length; j++) { const s = jaccard(ps[i][1], ps[j][1]); if (s >= 0.5) fail('P3', l + ': the notes of ' + ps[i][0] + ' and ' + ps[j][0] + ' are nearly the same (' + s.toFixed(2) + ')'); }
+    // year plans (scope and sequence): P7
+    const unitSlugs = new Set(L.units.map((u) => u.slug));
+    const inPlan = new Map();
+    const planIds = new Set(), planSlugs = new Set();
+    for (const p of L.plans) {
+      const w = l + ' plan ' + p.id;
+      if (planIds.has(p.id)) fail('P7', w + ': id used twice'); planIds.add(p.id);
+      if (planSlugs.has(p.slug) || unitSlugs.has(p.slug)) fail('P7', w + ': its slug is the slug of another page'); planSlugs.add(p.slug);
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug || '')) fail('P7', w + ': slug is not url-safe');
+      if (!/^plan-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.id || '')) fail('P7', w + ': id is not "plan-…" in lower-case letters, digits and hyphens (it names a Teacher-only file)');
+      if (!p.title || !p.metaTitle || !p.metaDescription) fail('P7', w + ': title or metadata missing');
+      else {
+        if (p.metaTitle.length > 70) fail('P7', w + ': meta title has ' + p.metaTitle.length + ' characters (70 at most)');
+        if (p.metaDescription.length < 110 || p.metaDescription.length > 170) fail('P7', w + ': meta description has ' + p.metaDescription.length + ' characters (110 to 170)');
+      }
+      for (const t of [p.title, p.metaTitle, p.metaDescription]) {
+        if (t && FREE[l].test(t)) fail('P5', w + ': "' + t.slice(0, 60) + '" says free');
+        // a plan says how many weeks its lessons take; it never claims the school year
+        if (t && WHOLE_YEAR[l] && WHOLE_YEAR[l].test(t)) fail('P7', w + ': "' + t.slice(0, 60) + '" claims a whole school year');
+      }
+      if (p.units.length < 3) fail('P7', w + ': ' + p.units.length + ' units (at least 3)');
+      let week = 0;
+      for (const r of p.units) {
+        const u = L.units.find((x) => x.id === r.id);
+        if (!u) { fail('P7', w + ': ' + r.id + ' is no unit'); continue; }
+        if (u.grade !== p.grade || u.subject !== p.subject) fail('P7', w + ': ' + r.id + ' is a unit of another grade or subject');
+        if (inPlan.has(r.id)) fail('P7', w + ': ' + r.id + ' is in two plans'); inPlan.set(r.id, p.id);
+        if (r.slug !== u.slug || r.title !== u.title || r.weeks !== u.weeks || r.lessons.join('|') !== u.lessons.map((x) => x.title).join('|')) fail('P7', w + ': the row of ' + r.id + ' is not what the unit says');
+        if (r.from !== week + 1 || r.to !== week + r.weeks) fail('P7', w + ': the weeks of ' + r.id + ' do not follow the unit before it');
+        week = r.to;
+        if (p.status === 'live' && u.status !== 'live') fail('P7', w + ': the plan is live and its unit ' + r.id + ' is not');
+      }
+      if (p.weeks !== week) fail('P7', w + ': ' + p.weeks + ' weeks, its units add up to ' + week);
+      for (const u of L.units) if (u.grade === p.grade && u.subject === p.subject && !p.units.some((r) => r.id === u.id)) fail('P7', w + ': the unit ' + u.id + ' of this grade and subject is missing');
+    }
     // sub packs
     for (const p of L.packs) {
       const w = l + ' pack ' + p.id;
@@ -120,6 +157,14 @@ const POISONS = [
   ['a lesson whose only screen practice is the very page it hands out', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; x.screen = { kind: 'page', slug: x.paper[0].core, title: x.paper[0].title }; }],
   ['a note whose words to use quote nothing', 'P3', (d) => { d.loc.en.units[0].lessons[1].note.words = 'Use clear language and encourage the children to explain their thinking.'; }],
   ['two points with the same note', 'P3', (d) => { const a = d.loc.en.units[0].lessons; a[2].note = clone(a[3].note); }],
+  ['a year plan with a unit of another grade', 'P7', (d) => { const p = d.loc.en.plans[0]; const other = d.loc.en.plans[1].units[0]; p.units[1] = clone(other); }],
+  ['a year plan of two units', 'P7', (d) => { d.loc.en.plans[0].units.length = 2; }],
+  ['a year plan whose weeks skip one', 'P7', (d) => { const r = d.loc.en.plans[0].units[1]; r.from += 1; r.to += 1; }],
+  ['a year plan with the slug of a unit', 'P7', (d) => { d.loc.en.plans[0].slug = d.loc.en.units[0].slug; }],
+  ['a live year plan with a unit that is not live', 'P7', (d) => { const p = d.loc.en.plans[0]; p.status = 'live'; d.loc.en.units.find((u) => u.id === p.units[0].id).status = 'pilot'; }],
+  ['a year plan that leaves a unit of its grade out', 'P7', (d) => { d.loc.en.plans[0].units.pop(); d.loc.en.plans[0].weeks = d.loc.en.plans[0].units.reduce((n, r) => n + r.weeks, 0); }],
+  ['a year plan that claims the whole year', 'P7', (d) => { d.loc.en.plans[0].metaTitle = 'Kindergarten Math Curriculum Map for the Whole Year'; }],
+  ['a year plan row that is not what its unit says', 'P7', (d) => { d.loc.en.plans[0].units[0].lessons[0] += ' again'; }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],
   ['a string that says free', 'P5', (d) => { d.loc.en.uiU.teacherLead = 'Download the whole unit free.'; }],

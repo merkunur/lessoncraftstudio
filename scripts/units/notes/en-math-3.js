@@ -323,11 +323,11 @@ module.exports = {
     },
     '3:input-output': {
       title: 'Number machines',
-      objective: 'Children find the rule a number machine uses, such as add 5 or times 3, and fill in the numbers that are missing going in or coming out.',
+      objective: 'Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.',
       note: {
-        mistake: 'Children find the rule from the first pair and do not test it on the next one, so "+ 4" is written where the rule is "× 2" (2 goes in, 4 comes out fits both). When the number that went IN is missing, they apply the rule forward again and do not undo it.',
-        words: 'Ask: "What happened to 2 to make 4? Does the same thing turn 5 into 10?" Have children write the rule on the machine. For a missing input: "12 came out. The machine adds 5. What went in? Undo it: 12 take away 5."',
-        watch: 'Give a pair that fits two rules (2 → 4) and see who asks for a second pair before deciding. Check the rows where the missing number is the one going in; those need the opposite operation.',
+        mistake: 'Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.',
+        words: 'Have children read the rule aloud first: "This machine adds 7 to every number." For a number coming out: "5 goes in. Add 7. What comes out?" For a number going in: "12 came out. The machine added 7. What went in? Undo it: 12 minus 7." Ask: "How can you check? Put your number in and run the machine."',
+        watch: 'Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right.',
       },
     },
     '3:volume-cubes': {
@@ -335,7 +335,7 @@ module.exports = {
       objective: 'Children count all the unit cubes in a tower, also the ones they cannot see, and write the total.',
       note: {
         mistake: 'Children count only the cubes they can see in the drawing and leave out the hidden ones at the back and underneath. Or they count the square faces they see and get a number that is far too big.',
-        words: 'Build the tower with real cubes first: "How many can you see from here? Now pick it up and count them all." Say: "Count layer by layer. How many cubes in the bottom layer? How many layers?" Ask: "A cube on top must be sitting on something. What is under it?"',
+        words: 'Build the tower with snap cubes first: "How many can you see from here? Now turn it around and take it apart. Count them all." Say: "Count layer by layer. How many cubes in the bottom layer? In the next one? Add the layers." Ask: "A cube on top must be sitting on something. What is under it?" Give the word: "The number of cubes that fill a shape is its volume."',
         watch: 'Have each child build one tower from the page with cubes and compare the count with the written answer. A child who counts by layers ("6 and 6 and 6") is ready for volume as layers times the cubes in a layer.',
       },
     },
@@ -344,7 +344,7 @@ module.exports = {
       objective: 'Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.',
       note: {
         mistake: 'Children count the tick marks, the ones at 0 and at 1 included, and take that for the bottom number: a line cut into 4 equal spaces has 5 marks and becomes "fifths." Or they count the marks up to the dot, starting with 1 at zero.',
-        words: 'Say: "Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth." Then hop from zero: "One fourth, two fourths, three fourths. The dot is at three fourths." Ask: "Where is zero fourths? Where is four fourths?"',
+        words: 'Say: "Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth. So the denominator, the bottom number, is 4." Then hop from zero: "One fourth, two fourths, three fourths. The dot is at three fourths." Ask: "Where is zero fourths? Where is four fourths?"',
         watch: 'Ask a child how they found the bottom number. "I counted the lines" means the marks were counted; fold a paper strip into fourths and lay it under the line to show the four spaces.',
       },
     },
@@ -353,8 +353,8 @@ module.exports = {
       objective: 'Children circle a fraction of a group of pictures, such as one third of 12, and write how many that is.',
       note: {
         mistake: 'Children circle as many pictures as the bottom number says: 3 pictures for one third. With a top number above 1 (two thirds), they find one group and stop.',
-        words: 'Say: "The bottom number tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups." Link it to division: "12 in 3 equal groups: 4 in each. One third of 12 is 4." For two thirds: "Two of the groups: 4 and 4."',
-        watch: 'Check that the groups a child rings are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division.',
+        words: 'Say: "The denominator, the bottom number, tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups." Link it to division: "12 in 3 equal groups: 4 in each. One third of 12 is 4." For two thirds: "The numerator, the top number, tells how many groups to take. Two of the groups: 4 and 4, that is 8."',
+        watch: 'Check that the groups a child circles are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division; have that child deal 12 counters into 3 equal groups first.',
       },
     },
   },

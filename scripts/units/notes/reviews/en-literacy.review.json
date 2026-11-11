@@ -1,0 +1,189 @@
+{
+ "K:pre-writing-strokes": {
+  "title": "Lines, zigzags, and curves",
+  "words": "Say: \"Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends.\" For the grip: \"Pinch the pencil with your thumb and pointer finger; let it rest on your middle finger.\" Name each stroke as the child traces it: \"straight across, zigzag, wave, curve around.\"",
+  "watch": "Watch the starting point and the direction, not how neat the line is. A child who starts at the wrong end or traces against the arrow here will form letters the same way; correct it now, one line at a time, by putting the child's finger on the orange dot before the pencil goes down."
+ },
+ "K:letter-identification": {
+  "words": "Say: \"Letters are special. Turn a b around and it is a different letter.\" Give each one a short cue and keep it all year: \"b: stick first, then the ball. d: ball first, then the stick. p: the stick hangs down below the line, then the ball. q: ball first, then the stick hangs down.\" Ask: \"What comes first, the stick or the ball? Does the stick go up or hang down?\""
+ },
+ "K:letter-case": {
+  "words": "Say: \"Every letter has two shapes, a capital and a small one. We also call them uppercase and lowercase. They have the same name and stand for the same sound.\" Point to both: \"Capital G, small g.\" Ask: \"Which pairs look alike? Which look different?\""
+ },
+ "K:letter-formation": {
+  "mistake": "Children draw letters from the bottom up or in pieces, so that an M is four lines drawn in any order and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later."
+ },
+ "K:alphabet-order": {
+  "objective": "Children say the alphabet in order, write the letters that are missing, and connect dots in alphabet order."
+ },
+ "K:word-sentence-tracing": {
+  "mistake": "Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, they leave out a letter, change the order of the letters, or spread the letters so far apart that the word looks like two.",
+  "words": "Say: \"Read it first. Now trace it, and say each sound as you trace its letter. Now write it and read it again.\" For a sight word that does not sound out: \"Spell it as you trace: t-h-e, the.\" For spacing: \"Letters in one word sit close together, like friends. If you write the word twice, leave a finger space between.\""
+ },
+ "K:all-about-me-personal": {
+  "mistake": "Children write their name in all capitals or with letters out of order, and some cannot yet write the numeral for their age. Copying a word, they skip a letter or lose their place and start it over."
+ },
+ "K:sight-words-reading": {
+  "mistake": "Children mix up words that look alike (was and saw, on and no, the and they). With a word that has one irregular part, they sound out that part as it is spelled, say \"sayd\" for said or \"wass\" for was, and do not notice that it is not a word they know.",
+  "words": "Say: \"Sound out the parts that play by the rules. One part you have to know by heart.\" Point to that part: \"In 'said,' s and d say their sounds; the a-i says /e/, and that is the heart part.\" For a word with no tricky part: \"This one plays by the rules all the way: /o/ /n/, on.\" Have children read the word, spell it aloud, and read it again: \"said, s-a-i-d, said.\""
+ },
+ "K:digraphs-k": {
+  "mistake": "Children hear /sh/ and /ch/ as the same sound, or say one for the other: \"shair\" for chair, \"chip\" for ship. This is most common in children whose home language has only one of the two sounds, such as Spanish. Others name the picture with a different word (boat for ship) and then cannot find its sound.",
+  "watch": "Name every picture together before anyone draws a line, so that all children sort the same words. Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together and feel the mouth: ship, chip; shoe, chew."
+ },
+ "K:singular-plural": {
+  "words": "Say: \"One cat. Two cats. What did I add? Listen to the end.\" Have children say both and hold the last sound: \"cats-s-s.\" Tell them once: \"In 'dogs' the end sounds like /z/, but we still write s.\" Ask: \"Is it one or more than one? Does your word have its s?\""
+ },
+ "K:articles": {
+  "words": "Say both and let children hear it: \"a apple… an apple. Which one is easier to say?\" Give the rule in child words: \"If the word starts with a vowel sound, like the first sound in apple, egg, igloo, octopus, or umbrella, use an.\" Have them say the whole pair: \"an egg, a dog.\""
+ },
+ "K:opposites": {
+  "mistake": "Children match two pictures that go together (hot and the sun, night and a bed) and not two that are opposite. Or they join a picture to the nearest picture without looking at the word printed with it."
+ },
+ "1:rhyming": {
+  "words": "Say: \"Rhyming words sound the same from the middle to the end. Only the beginning changes. Cat, hat. Listen: -at, -at.\" Have children say both words and then only the part after the first sound. Ask: \"Cat and cup: say the parts after /k/. -at, -up. Are they the same?\""
+ },
+ "1:digraphs": {
+  "words": "Say: \"A letter team is two letters that make one new sound.\" Show the mouth for th: \"Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue.\" Compare: \"Thumb. Not fumb. Feel your tongue.\"",
+  "watch": "Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child's family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there."
+ },
+ "1:spell-picture-words": {
+  "mistake": "Children write the first and the last sound and skip the middle: \"ct\" for cat, \"fg\" for frog. Short vowels are mixed up, e and i most of all (\"pin\" for pen). Where pin and pen are said alike, as in much of the South, a child cannot hear the difference and has to learn which words take e.",
+  "words": "Say: \"Say the word slowly. Tap each sound on your fingers. Write the letter or the letter team for every tap.\" Ask: \"What is the sound in the middle? Say it again.\" After writing: \"Touch each letter and read what you wrote. Is it the word?\""
+ },
+ "1:syllables-split": {
+  "words": "Say: \"Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two.\" Then: \"Every syllable has one vowel sound. Two consonants between the vowels? Split between them: rab-bit, pen-cil.\" Say words in a robot voice: \"pen-cil.\"",
+  "watch": "Use the chin check with children who clap too many, and have children who clap too few hum the word; the chin hardly moves on sounds like ee (ba-by, bun-ny). On the dash page, check that each part has a vowel letter, and count y as a vowel at the end of a word (pup-py, can-dy); a part with no vowel cannot be a syllable."
+ },
+ "1:read-and-follow": {
+  "words": "Say: \"Read the whole sentence before you pick up a crayon or a pencil. Then tell me: WHAT do you color or circle? HOW MANY? Which COLOR?\" Have the child underline the number word and the color word. \"Read it again and check your work.\""
+ },
+ "1:cloze": {
+  "objective": "Children read a sentence with a blank and choose the word or the picture that makes sense in it.",
+  "words": "Say: \"Read every word in the word bank first. Now read the sentence and say 'blank' at the empty spot. Try a word: does it make sense? Does it sound right?\" Have children read the finished sentence aloud. \"Every sentence has to make sense when you read it.\""
+ },
+ "1:unscramble-sentence": {
+  "words": "Say: \"Find the word with the capital letter: it most likely goes first. A name and the word I have a capital too, so check. Find the word with the end mark: it goes last.\" Then: \"Who or what is the sentence about? What happens?\" Have children say the sentence aloud before they write it."
+ },
+ "1:alphabetical-order": {
+  "watch": "Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who numbers \"bed\" before \"bat\" has not moved on to the second letter; cover the first letters and ask again."
+ },
+ "1:word-classes": {
+  "mistake": "Children sort by what a word makes them think of: \"party\" and \"game\" go with the verbs because you do something there, and \"fast\" or \"hungry\" goes with the verbs because it happens to you. Words that can be both (a walk, to walk) confuse them, and rightly so.",
+  "words": "Give each kind a test sentence: \"A noun is a person, place, animal, or thing. Try it here: 'I see the ___.' I see the dog. A verb is something you can do. Try it here: 'I can ___.' I can jump. An adjective tells what something is like. Try it here: 'The dog is very ___.' The dog is very big.\""
+ },
+ "1:pronouns": {
+  "mistake": "Children write the name again in the second sentence, or use \"they\" only for a crowd and not for two people. They are unsure about \"it\" for an animal or a thing. Children who are learning English may use \"he\" for everyone or mix up \"he\" and \"she.\"",
+  "words": "Say: \"We do not say the name over and over. 'Ben has a kite. Ben flies the kite' becomes 'Ben has a kite. HE flies it.'\" Ask: \"Who is 'he' in this sentence? Point to the name.\" For two people: \"Ben and Mia: they.\" For a thing: \"The kite: it.\""
+ },
+ "1:articles": {
+  "mistake": "Children put every word under \"a,\" because \"a\" is the word they use most, or they stop reading and fill the two groups evenly. A child who sorts correctly by the first letter has the right answers here and will go wrong later on words such as \"hour\" and \"unicorn,\" where the letter and the sound do not agree.",
+  "words": "Say: \"Read the word. Say its first sound. Is it a vowel sound? Then it goes under an.\" Check by ear: \"A egg… an egg. Which one do we say?\" Have children read each finished group aloud: \"an apple, an egg, an owl.\""
+ },
+ "1:opposites": {
+  "mistake": "Children circle the word that means the same, because it is the word that \"goes with\" the first one. On the word bank page they take a word that is about the same thing and is not the opposite, such as \"warm\" for \"hot.\"",
+  "words": "Say: \"Opposite means as different as can be: hot, cold. Same means nearly alike: big, large.\" Test a word with \"not\": \"If the door is not open, it is… shut. So open and shut are opposites.\" Ask: \"Is that word the opposite, or does it mean the same?\""
+ },
+ "1:synonyms": {
+  "watch": "Have the child say both circled words in one sentence about the picture. If the meaning changes from one sentence to the other, the words are not synonyms; have the child keep one word and test it against each of the others."
+ },
+ "1:root-words": {
+  "mistake": "Children circle a word that only starts with the same letters as the picture word and has nothing to do with it: \"carrot\" for the picture of a car, \"panda\" for the picture of a pan.",
+  "words": "Say: \"A root word is the word a longer word is built from, and the meaning stays. Rain, rainy, raining: all about rain.\" Test it: \"Does a carrot have anything to do with a car? No. So 'carrot' is not built from 'car.'\""
+ },
+ "2:sentence-boundaries": {
+  "words": "Say: \"A sentence starts with a capital letter and ends with a mark. Both, every time.\" For run-on sentences: \"Read it aloud. Where does the first idea stop? Who is the second sentence about?\" Test each part: \"Does it tell who or what, and what happens?\""
+ },
+ "2:word-classes": {
+  "words": "Give three test sentences: \"Noun: can you say 'I see the ___' or 'I have some ___'? Verb: can you say 'I can ___' or 'She ___s every day'? Adjective: can you say 'The thing is very ___'?\" For a word that fits two bins: \"Use it in a sentence. Now which is it?\""
+ },
+ "2:plural-nouns": {
+  "mistake": "Children add -s to everything: \"foxs,\" \"mouses,\" \"childs.\" The opposite also happens: after learning the new word, a child marks the plural twice and writes \"mices,\" \"feets,\" or \"childrens.\"",
+  "words": "Say the plural aloud first: \"One fox, two foxes. Do you hear the extra beat? Then it needs -es. If the word already ends in e, as in horse, just add s.\" For the ones that change: \"These you have to know: one mouse, two mice; one child, two children; one foot, two feet.\" Keep a class list of them."
+ },
+ "2:verb-forms": {
+  "watch": "Listen for the forms children use when they talk; many say \"went\" and still write \"goed\" when a page asks for an ending. Have them read their sentence aloud and listen. The ear helps only children who hear these forms every day; for children learning English, or whose home speech uses other forms (\"he do,\" \"we was\"), teach the forms from a class chart without calling the home form wrong. In the sentences, check has, does, and goes after he, she, or it."
+ },
+ "2:pronouns": {
+  "words": "Ask: \"Who is 'she' here? Put the name back in. Does the sentence still say the same thing?\" For rewriting: \"Is the person doing the action? Then he, she, or they. Is something done to the person? Then him, her, or them. Does something belong to the person? Then his, her, or their.\""
+ },
+ "2:question-words": {
+  "mistake": "Children write a statement with a question mark at the end (\"The dog is in the yard?\"), or they start with the right question word and keep the word order of a statement (\"Where the dog is?\"). When the sentence has an action verb, they leave out \"does\" or \"did\" (\"What Maya eats?\").",
+  "words": "Say: \"The highlighted words are the ANSWER. Which question word asks for a place? A reason? A way of doing it?\" Build it aloud: \"The dog is in the yard. Where… is the dog?\" Point out the switch: \"is the dog,\" not \"the dog is.\" With an action verb: \"Maya eats an apple. What DOES Maya eat?\""
+ },
+ "2:digraphs": {
+  "title": "Review: find sh in sentences",
+  "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\""
+ },
+ "2:spelling-rules": {
+  "words": "Read the rule on the page together and turn it into a question to ask each time. For ck and k, for example: \"What comes right before the /k/ sound? One short vowel?\" Say: \"Right after one short vowel, ck: duck, sock. After anything else, just k: milk, book, bike.\" Have children say the word, then the sound just before /k/, then the spelling."
+ },
+ "2:compound-words": {
+  "mistake": "Children split a word wherever they see a small word inside it: \"car-pet,\" \"but-ton.\" In a real compound they cut after the first few letters and not where the second word begins. On the matching page they join two pictures that go together in life (sun and moon) and not two that make a word (sun and flower)."
+ },
+ "2:root-words": {
+  "mistake": "Children circle only the letters that are printed the same in all three words, so the root of \"baker, baking, baked\" becomes \"bak.\" Or they keep a letter that was only added for spelling: the root of \"running\" becomes \"runn.\"",
+  "words": "Say: \"The root is the part that means the same in all three: play, player, playing. What do they all have to do with?\" Cover the endings with a finger. For a changed spelling: \"Running comes from run; the extra n is there for the spelling. Baking comes from bake; the e was dropped. Write the root the way it is spelled when it stands alone.\"",
+  "watch": "Ask what the three words have in common in MEANING before the child circles. Then have the child read the root written in the stone: is it a real word by itself? \"Bak\" and \"runn\" are not, so the child goes back and repairs the spelling."
+ },
+ "2:synonyms": {
+  "mistake": "Children pick a word that often goes with the first word (cold and ice, big and house) and not one that could take its place. On the matching page they join the easy pairs and then link the leftover words without reading them."
+ },
+ "2:synonyms~doing-stage": {
+  "title": "More exact words for said",
+  "words": "Ask: \"HOW did the person say it? Look for a clue: a question mark, an exclamation point, a word like 'quietly.'\" Act it out: \"Say it in a whisper. Now shout it. Which word fits what happened?\"",
+  "watch": "Have the child read the finished sentence in the voice the new word calls for. If \"whispered\" comes before a sentence with an exclamation point, the child will hear the clash."
+ },
+ "2:cloze-context": {
+  "objective": "Children read a whole short story and use what happens in it to choose the word that belongs in each blank.",
+  "mistake": "Children fill the first blank after reading only up to it, and choose a word that fits that one sentence and not the story. A word used wrongly early leaves the wrong word for the last blank.",
+  "words": "Say: \"Read the WHOLE story first and say 'blank' at each empty box. What is the story about?\" Then: \"Try a word. Read on to the next sentence. Does it still make sense?\" Add: \"Sometimes the clue comes after the blank, so read ahead as well as back.\"",
+  "watch": "See whether a child reads to the end before writing. Have the finished story read aloud; a word in the wrong blank makes a sentence that sounds odd, and most children catch it by ear."
+ },
+ "2:describe-a-picture": {
+  "objective": "Children write sentences about a picture with sentence starters and a word bank, and then write their own short story about a picture with the word bank only."
+ },
+ "2:animal-fact-file": {
+  "title": "An animal fact sheet",
+  "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
+  "mistake": "Children circle what they know from stories and cartoons and not what is true: honey for the bear, cheese for the mouse. When copying from the word bank, a fact lands in the wrong row: what the animal eats is written under where it lives.",
+  "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books on hand and let children check one fact each."
+ },
+ "2:cursive-writing": {
+  "objective": "Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil (for states that teach cursive in Grade 2).",
+  "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends up high, so the next letter starts from up there, not from the line.\" Write big in the air first, then on the page.",
+  "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+ },
+ "2:prefixes": {
+  "objective": "Children add a prefix such as un-, dis-, re-, or mis- to a word and tell what the new word means.",
+  "words": "Give each prefix a meaning to say: \"un-, dis-, and in- mean not or the opposite of. re- means again. pre- means before. mis- means wrong or badly.\" Use it: \"Unhappy: not happy. Dishonest: not honest. Incorrect: not correct. Reread: read again. Preheat: heat before. Misspell: spell wrong.\" Test a doubtful word: \"Take off un-. Is 'cle' a word? Then 'uncle' has no prefix.\"",
+  "watch": "Have the child explain each new word with the prefix's meaning in it. For un-, dis-, and in-, only some pairs exist; children learn those by hearing them, so say the right word back (\"dishonest\") and give no rule. Watch for words where in- means \"in\" and not \"not\" (inside, indoors); tell the child that this in- is a different one."
+ },
+ "3:person-words": {
+  "words": "Say: \"A baker is a person who bakes. A runner is a person who runs.\" Give the two spelling moves: \"Bake ends in e: drop the e, then add -er. Baker. Run has one short vowel and one consonant at the end: double the consonant, then add -er. Runner.\" Test a word: \"Is a finger a person who fings?\""
+ },
+ "3:root-words-in-context": {
+  "mistake": "Children put the words into the blanks in the order they are printed. They choose by meaning alone, which all four words share, and do not listen for what the sentence needs: a person, an action now, or an action that is over.",
+  "words": "Ask what the blank needs: \"Is it a person? Something that is happening, after is or are? Something that already happened? Or the plain word, after to, will, or can?\" Read the sentence aloud with each word: \"Yesterday she… bake? baker? baked. Which one sounds right?\" Cross off each word as it is used."
+ },
+ "3:input-output": {
+  "objective": "Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.",
+  "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.",
+  "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out: \"5 goes in. Add 7. What comes out?\" For a number going in: \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" Ask: \"How can you check? Put your number in and run the machine.\"",
+  "watch": "Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right."
+ },
+ "3:volume-cubes": {
+  "words": "Build the tower with snap cubes first: \"How many can you see from here? Now turn it around and take it apart. Count them all.\" Say: \"Count layer by layer. How many cubes in the bottom layer? In the next one? Add the layers.\" Ask: \"A cube on top must be sitting on something. What is under it?\" Give the word: \"The number of cubes that fill a shape is its volume.\""
+ },
+ "3:fraction-number-line": {
+  "words": "Say: \"Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth. So the denominator, the bottom number, is 4.\" Then hop from zero: \"One fourth, two fourths, three fourths. The dot is at three fourths.\" Ask: \"Where is zero fourths? Where is four fourths?\""
+ },
+ "3:fraction-of-set": {
+  "words": "Say: \"The denominator, the bottom number, tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups.\" Link it to division: \"12 in 3 equal groups: 4 in each. One third of 12 is 4.\" For two thirds: \"The numerator, the top number, tells how many groups to take. Two of the groups: 4 and 4, that is 8.\"",
+  "watch": "Check that the groups a child circles are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division; have that child deal 12 counters into 3 equal groups first."
+ },
+ "K:heavy-light": {
+  "title": "Which is heavier?",
+  "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance."
+ }
+}

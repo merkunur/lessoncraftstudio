@@ -1193,13 +1193,13 @@
   },
   {
    "id": "g3-area-perimeter-volume",
-   "slug": "area-perimeter-and-volume-grade-3-unit",
+   "slug": "area-and-perimeter-grade-3-unit",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Area, Perimeter, and Volume",
-   "metaTitle": "Grade 3 Math Lesson Plans: Area, Perimeter, and Volume",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on area as rows times columns, perimeter as the distance around, and counting the cubes in a solid, with teacher notes.",
+   "title": "Area and Perimeter",
+   "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
+   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on area as rows times columns and perimeter as the distance around, and an extra lesson on counting the cubes in a solid.",
    "weeks": 1,
    "lessons": [
     {
@@ -1386,6 +1386,10 @@
      "types": [
       "K-289",
       "K-239"
+     ],
+     "standards": [
+      "L.K.1.a",
+      "RF.K.3.c"
      ]
     },
     {
@@ -1405,7 +1409,7 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Literacy Lesson Plans: First Words to Read",
-   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, sh and ch, one and many, and a or an, each with a teacher note.",
+   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -1423,12 +1427,6 @@
      ]
     },
     {
-     "point": "K:digraphs-k",
-     "types": [
-      "K-378"
-     ]
-    },
-    {
      "point": "K:singular-plural",
      "types": [
       "K-302",
@@ -1441,17 +1439,24 @@
       "K-288",
       "K-306"
      ]
+    },
+    {
+     "point": "K:digraphs-k",
+     "types": [
+      "K-378"
+     ],
+     "activity": null
     }
    ]
   },
   {
    "id": "k-sorting-words-telling-stories",
-   "slug": "sorting-words-and-telling-stories-kindergarten-unit",
+   "slug": "sorting-opposites-and-story-order-kindergarten-unit",
    "status": "pilot",
    "grade": "K",
    "subject": "literacy",
-   "title": "Sorting Words and Telling Stories",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Sorting Words and Telling Stories",
+   "title": "Sorting, Opposites, and Story Order",
+   "metaTitle": "Kindergarten Lesson Plans: Sorting, Opposites, and Story Order",
    "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
    "weeks": 1,
    "lessons": [
@@ -1491,7 +1496,7 @@
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
    "metaTitle": "Grade 1 Literacy Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A two-week Grade 1 unit: 6 lessons on rhymes, sound boxes, sh, ch, and th, spelling picture words, syllables, and word families, each with a teacher note.",
+   "metaDescription": "A two-week Grade 1 unit on short vowels and letter teams: 6 lessons on rhymes, word families, sound boxes, sh, ch, and th, spelling picture words, and syllables.",
    "weeks": 2,
    "lessons": [
     {
@@ -1499,6 +1504,16 @@
      "types": [
       "G1-309",
       "G1-343"
+     ]
+    },
+    {
+     "point": "1:word-families-syllable-reading",
+     "types": [
+      "G1-330",
+      "G1-306"
+     ],
+     "standards": [
+      "RF.1.3.b"
      ]
     },
     {
@@ -1527,13 +1542,6 @@
      "types": [
       "G1-305",
       "G1-325"
-     ]
-    },
-    {
-     "point": "1:word-families-syllable-reading",
-     "types": [
-      "G1-330",
-      "G1-306"
      ]
     }
    ]
@@ -1575,6 +1583,9 @@
      "types": [
       "G1-353",
       "G1-373"
+     ],
+     "standards": [
+      "L.K.1.d"
      ]
     },
     {
@@ -1594,7 +1605,7 @@
    "subject": "literacy",
    "title": "Words and How They Work",
    "metaTitle": "Grade 1 Literacy Lesson Plans: Words and How They Work",
-   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, and root words, with teacher notes.",
+   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
    "weeks": 2,
    "lessons": [
     {
@@ -1609,7 +1620,8 @@
      "types": [
       "G1-293",
       "G1-300"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "1:pronouns",
@@ -1713,13 +1725,13 @@
   },
   {
    "id": "g2-spelling-and-word-building",
-   "slug": "spelling-and-word-building-grade-2-unit",
+   "slug": "spelling-word-building-and-word-choice-grade-2-unit",
    "status": "pilot",
    "grade": "2",
    "subject": "literacy",
-   "title": "Spelling and Word Building",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Spelling and Word Building",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on sh in sentences, spelling rules, compound words, root words, synonyms, and better words for said, with teacher notes.",
+   "title": "Spelling, Word Building, and Word Choice",
+   "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on a review of sh, spelling rules, compound words, root words, synonyms, and more exact words for said, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -1768,13 +1780,13 @@
   },
   {
    "id": "g2-stories-facts-and-writing",
-   "slug": "stories-facts-and-writing-grade-2-unit",
+   "slug": "reading-stories-and-writing-grade-2-unit",
    "status": "pilot",
    "grade": "2",
    "subject": "literacy",
-   "title": "Stories, Facts, and Writing",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Stories, Facts, and Writing",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact file, and cursive.",
+   "title": "Reading Stories and Writing",
+   "metaTitle": "Grade 2 Literacy Lesson Plans: Reading Stories and Writing",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact sheet, and cursive.",
    "weeks": 2,
    "lessons": [
     {
@@ -1868,6 +1880,120 @@
       "G3-399"
      ]
     }
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "id": "plan-k-math",
+   "slug": "kindergarten-math-scope-and-sequence",
+   "grade": "K",
+   "subject": "math",
+   "title": "Kindergarten Math Scope and Sequence",
+   "metaTitle": "Kindergarten Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Kindergarten math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "units": [
+    "k-position-size-patterns",
+    "k-counting-to-10",
+    "k-shapes",
+    "k-counting-in-order-to-20",
+    "k-sorting-tallies-days",
+    "k-putting-together-number-bonds"
+   ]
+  },
+  {
+   "id": "plan-1-math",
+   "slug": "grade-1-math-scope-and-sequence",
+   "grade": "1",
+   "subject": "math",
+   "title": "Grade 1 Math Scope and Sequence",
+   "metaTitle": "Grade 1 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 1 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "units": [
+    "g1-add-subtract-within-10",
+    "g1-doubles-three-addends-number-walls",
+    "g1-tens-and-ones",
+    "g1-hundreds-chart-skip-counting",
+    "g1-time-calendar-coins",
+    "g1-shapes-measuring-graphs"
+   ]
+  },
+  {
+   "id": "plan-2-math",
+   "slug": "grade-2-math-scope-and-sequence",
+   "grade": "2",
+   "subject": "math",
+   "title": "Grade 2 Math Scope and Sequence",
+   "metaTitle": "Grade 2 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 2 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "units": [
+    "g2-place-value-to-1000",
+    "g2-add-subtract-within-1000",
+    "g2-measurement-time-money",
+    "g2-graphs-and-grids",
+    "g2-equal-groups-equal-shares",
+    "g2-shapes-solids-symmetry"
+   ]
+  },
+  {
+   "id": "plan-3-math",
+   "slug": "grade-3-math-scope-and-sequence",
+   "grade": "3",
+   "subject": "math",
+   "title": "Grade 3 Math Scope and Sequence",
+   "metaTitle": "Grade 3 Math Scope and Sequence and Pacing Guide",
+   "metaDescription": "Our Grade 3 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "units": [
+    "g3-rounding-adding-subtracting",
+    "g3-starting-multiplication",
+    "g3-division",
+    "g3-time-temperature-mass-volume",
+    "g3-area-perimeter-volume",
+    "g3-fractions",
+    "g3-shapes-and-data"
+   ]
+  },
+  {
+   "id": "plan-k-literacy",
+   "slug": "kindergarten-reading-and-writing-scope-and-sequence",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Kindergarten Reading and Writing Scope and Sequence",
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Kindergarten reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "units": [
+    "k-hearing-sounds-in-words",
+    "k-letters-and-handwriting",
+    "k-first-words-to-read",
+    "k-sorting-words-telling-stories"
+   ]
+  },
+  {
+   "id": "plan-1-literacy",
+   "slug": "grade-1-reading-and-writing-scope-and-sequence",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Grade 1 Reading and Writing Scope and Sequence",
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Grade 1 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "units": [
+    "g1-sounds-spelling-syllables",
+    "g1-reading-sentences-and-stories",
+    "g1-words-and-how-they-work"
+   ]
+  },
+  {
+   "id": "plan-2-literacy",
+   "slug": "grade-2-reading-and-writing-scope-and-sequence",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Grade 2 Reading and Writing Scope and Sequence",
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing",
+   "metaDescription": "Our Grade 2 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "units": [
+    "g2-sentences-and-grammar",
+    "g2-spelling-and-word-building",
+    "g2-stories-facts-and-writing"
    ]
   }
  ]

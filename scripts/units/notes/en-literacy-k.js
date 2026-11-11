@@ -8,12 +8,12 @@ module.exports = {
   loc: 'en',
   points: {
     'K:pre-writing-strokes': {
-      title: 'Lines, curves, and loops',
+      title: 'Lines, zigzags, and curves',
       objective: 'Children trace straight lines, zigzags, waves, and curves from the starting dot in the direction of the arrow.',
       note: {
         mistake: 'Children start wherever the pencil lands and trace against the arrow, or they lift the pencil at every bend. Many hold the pencil in a fist and press so hard that the hand is tired after two lines.',
-        words: 'Say: "Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends." For the grip: "Pinch the pencil with your thumb and pointer finger; let it rest on your tall finger." Name each stroke: "down, across, slant, around."',
-        watch: 'Watch the starting point and the direction, not how neat the line is. A child who goes right to left or bottom to top here will form letters the same way; correct it now, one line at a time.',
+        words: 'Say: "Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends." For the grip: "Pinch the pencil with your thumb and pointer finger; let it rest on your middle finger." Name each stroke as the child traces it: "straight across, zigzag, wave, curve around."',
+        watch: 'Watch the starting point and the direction, not how neat the line is. A child who starts at the wrong end or traces against the arrow here will form letters the same way; correct it now, one line at a time, by putting the child\'s finger on the orange dot before the pencil goes down.',
       },
     },
     'K:letter-identification': {
@@ -21,7 +21,7 @@ module.exports = {
       objective: 'Children find every copy of a letter among letters that look like it, such as b, d, p, and q.',
       note: {
         mistake: 'Children circle b, d, p, and q as the same letter: a stick and a ball. Turning a toy does not change what it is, so they do not expect turning a letter to change it.',
-        words: 'Say: "Letters are special. Turn a b around and it is a different letter." Give each one a short cue and keep it all year: "b: stick first, then the ball. d: ball first, then the stick." Ask: "Which side is the ball on?"',
+        words: 'Say: "Letters are special. Turn a b around and it is a different letter." Give each one a short cue and keep it all year: "b: stick first, then the ball. d: ball first, then the stick. p: the stick hangs down below the line, then the ball. q: ball first, then the stick hangs down." Ask: "What comes first, the stick or the ball? Does the stick go up or hang down?"',
         watch: 'Have the child name each letter they circle. A child who circles correctly and cannot name the letters is matching shapes; one who names d as b needs the cue, not more circling.',
       },
     },
@@ -30,7 +30,7 @@ module.exports = {
       objective: 'Children match each capital letter to its small letter.',
       note: {
         mistake: 'Children match the pairs that look alike (C c, S s, O o) and guess at the ones that do not: A a, G g, R r, Q q. The small letters b, d, p, and q get the wrong partners.',
-        words: 'Say: "Every letter has two shapes, a capital and a small one. They have the same name and make the same sound." Point to both: "Capital G, small g." Ask: "Which pairs look alike? Which look different?"',
+        words: 'Say: "Every letter has two shapes, a capital and a small one. We also call them uppercase and lowercase. They have the same name and stand for the same sound." Point to both: "Capital G, small g." Ask: "Which pairs look alike? Which look different?"',
         watch: 'Note which pairs each child misses and practice only those. The pairs that look different have to be learned one at a time; there is no trick for them.',
       },
     },
@@ -38,14 +38,14 @@ module.exports = {
       title: 'Write the letters',
       objective: 'Children trace each letter from its starting dot in the direction of the arrows and write one on their own.',
       note: {
-        mistake: 'Children draw letters from the bottom up or in pieces, so that an M is four separate lines and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later.',
+        mistake: 'Children draw letters from the bottom up or in pieces, so that an M is four lines drawn in any order and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later.',
         words: 'Say the path aloud for each letter and use the same words every time: "Capital B: down, back to the top, around, around." Ask: "Where does it start? Which way does the arrow go first?" Write the letter big in the air together before the pencil touches the page.',
         watch: 'Stand where you can see the hand moving. Check the letter the child writes alone on the empty line; that one shows whether the path was learned or only followed.',
       },
     },
     'K:alphabet-order': {
       title: 'The alphabet in order',
-      objective: 'Children say the alphabet in order, write the letters that are missing, and join dots in alphabet order.',
+      objective: 'Children say the alphabet in order, write the letters that are missing, and connect dots in alphabet order.',
       note: {
         mistake: 'Children can sing the alphabet and cannot say what comes after a letter in the middle without starting from A. "L, M, N, O, P" is sung as one word, so those letters get lost.',
         words: 'Say the alphabet slowly while pointing to each letter, and stop: "…F, G. What comes next?" Ask: "What comes after K? What comes before K?" Slow down at "L, M, N, O, P" and tap each letter.',
@@ -56,8 +56,8 @@ module.exports = {
       title: 'Trace and write words',
       objective: 'Children trace a short word, read it, and write it on their own from left to right.',
       note: {
-        mistake: 'Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, the letters drift apart or run into the next word.',
-        words: 'Say: "Read it first. Now trace it and say each letter. Now write it and read it again." For spacing: "Letters in one word sit close together, like friends. Leave a finger space before the next word."',
+        mistake: 'Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, they leave out a letter, change the order of the letters, or spread the letters so far apart that the word looks like two.',
+        words: 'Say: "Read it first. Now trace it, and say each sound as you trace its letter. Now write it and read it again." For a sight word that does not sound out: "Spell it as you trace: t-h-e, the." For spacing: "Letters in one word sit close together, like friends. If you write the word twice, leave a finger space between."',
         watch: 'Ask the child to read back what was written. Look at the word written alone: are the letters in order, close together, and sitting on the line?',
       },
     },
@@ -65,7 +65,7 @@ module.exports = {
       title: 'All about me',
       objective: 'Children write their name and age, draw themselves and their favorite things, and copy the words for things they like.',
       note: {
-        mistake: 'Children write their name in all capitals or with letters out of order, and some do not yet know their age as a number. Copying a word, they skip a letter or lose their place and start it over.',
+        mistake: 'Children write their name in all capitals or with letters out of order, and some cannot yet write the numeral for their age. Copying a word, they skip a letter or lose their place and start it over.',
         words: 'Say: "Your name starts with a capital letter. The other letters are small." For copying: "Look at the first letter. Write it. Look at the next one." Ask each child about the drawing: "Tell me about your picture."',
         watch: 'This page has no wrong answers about the child\'s life; correct only the name and the copied words. Listen to what children say about their drawings, and write their words under the picture if they ask.',
       },
@@ -83,8 +83,8 @@ module.exports = {
       title: 'Sight words',
       objective: 'Children read a common word at a glance, find it among words that look like it, and write it in a sentence.',
       note: {
-        mistake: 'Children mix up words that look alike (was and saw, on and no, the and then), or they sound a sight word out letter by letter and get a word that does not exist.',
-        words: 'Say: "Most of this word plays by the rules. One part you have to know by heart." Point to that part: "In \'said,\' the a-i says /e/." Have children read the word, spell it aloud, and read it again: "said, s-a-i-d, said."',
+        mistake: 'Children mix up words that look alike (was and saw, on and no, the and they). With a word that has one irregular part, they sound out that part as it is spelled, say "sayd" for said or "wass" for was, and do not notice that it is not a word they know.',
+        words: 'Say: "Sound out the parts that play by the rules. One part you have to know by heart." Point to that part: "In \'said,\' s and d say their sounds; the a-i says /e/, and that is the heart part." For a word with no tricky part: "This one plays by the rules all the way: /o/ /n/, on." Have children read the word, spell it aloud, and read it again: "said, s-a-i-d, said."',
         watch: 'Check the look-alike boxes on the coloring page: they show which words a child confuses. Have the child read the finished sentences aloud; writing the word in is not the same as reading it.',
       },
     },
@@ -92,9 +92,9 @@ module.exports = {
       title: 'sh and ch',
       objective: 'Children say a picture\'s name and decide whether it begins with the sound of sh or the sound of ch.',
       note: {
-        mistake: 'Children hear sh and ch as the same sound, or they listen for the letter names s, c, and h. A word like "chair" is sorted by its first letter as a c word.',
+        mistake: 'Children hear /sh/ and /ch/ as the same sound, or say one for the other: "shair" for chair, "chip" for ship. This is most common in children whose home language has only one of the two sounds, such as Spanish. Others name the picture with a different word (boat for ship) and then cannot find its sound.',
         words: 'Say: "Two letters, one sound. sh says /sh/, the quiet sound. ch says /ch/, like a sneeze." Stretch the first sound: "shhhh-ip." You can hold /sh/; you cannot hold /ch/. Ask: "Can you hold the sound?"',
-        watch: 'Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together: ship, chip.',
+        watch: 'Name every picture together before anyone draws a line, so that all children sort the same words. Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together and feel the mouth: ship, chip; shoe, chew.',
       },
     },
     'K:singular-plural': {
@@ -102,7 +102,7 @@ module.exports = {
       objective: 'Children tell the word for one from the word for more than one and write the plural with s.',
       note: {
         mistake: 'Children say the plural when they talk and leave the s off when they write. They have not noticed that the s at the end is what tells "more than one."',
-        words: 'Say: "One cat. Two cats. What did I add? Listen to the end." Have children say both and hold the last sound: "cats-s-s." Ask: "Is it one or more than one? Does your word have its s?"',
+        words: 'Say: "One cat. Two cats. What did I add? Listen to the end." Have children say both and hold the last sound: "cats-s-s." Tell them once: "In \'dogs\' the end sounds like /z/, but we still write s." Ask: "Is it one or more than one? Does your word have its s?"',
         watch: 'Read the child\'s written plural and check the last letter. Irregular plurals (feet, mice) come later; if a child says "foots," accept it for now and say the right word back.',
       },
     },
@@ -111,7 +111,7 @@ module.exports = {
       objective: 'Children say a picture word aloud and choose a or an to go in front of it.',
       note: {
         mistake: 'Children always circle "a," or they guess. They have not noticed that "a apple" is hard to say, because nobody has asked them to listen for it.',
-        words: 'Say both and let children hear it: "a apple… an apple. Which one is easier to say?" Give the rule in child words: "If the word starts with a vowel sound, use an." Have them say the whole pair: "an egg, a dog."',
+        words: 'Say both and let children hear it: "a apple… an apple. Which one is easier to say?" Give the rule in child words: "If the word starts with a vowel sound, like the first sound in apple, egg, igloo, octopus, or umbrella, use an." Have them say the whole pair: "an egg, a dog."',
         watch: 'Make sure children say the words aloud; this page cannot be done silently at this age. For children who speak another language at home, a and an may be new and need more spoken practice.',
       },
     },
@@ -137,7 +137,7 @@ module.exports = {
       title: 'Opposites',
       objective: 'Children match a picture to the picture that shows its opposite, such as big and small or hot and cold.',
       note: {
-        mistake: 'Children match two pictures that go together (hot and sun) and not two that are opposite. Some think the opposite of a word is "not" that word: the opposite of big is "not big."',
+        mistake: 'Children match two pictures that go together (hot and the sun, night and a bed) and not two that are opposite. Or they join a picture to the nearest picture without looking at the word printed with it.',
         words: 'Act them out: "Stand up… sit down. Open… shut." Say: "Opposites are as different as they can be." Ask with a sentence to finish: "The soup is hot. The ice is…?"',
         watch: 'Have children say both words of each pair they join. A child who can act out the opposite and cannot name it needs the words; that is a vocabulary matter, not a thinking one.',
       },

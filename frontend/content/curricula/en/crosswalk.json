@@ -1601,9 +1601,14 @@
      "id": "3.OA.D.9",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "4.OA.C.5",
+     "rel": "prepares",
+     "grade": "4"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:balance-equations": {
    "rows": [
@@ -1792,12 +1797,22 @@
   "3:fraction-of-set": {
    "rows": [
     {
-     "id": "3.NF.A.1",
+     "id": "3.OA.A.2",
      "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "4.NF.B.4",
+     "rel": "teaches",
+     "grade": "4"
+    },
+    {
+     "id": "3.NF.A.1",
+     "rel": "extends",
      "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:line-plot-halves": {
    "rows": [
@@ -2051,14 +2066,14 @@
   "K:digraphs-k": {
    "rows": [
     {
-     "id": "RF.1.3.a",
-     "rel": "prepares",
-     "grade": "1"
-    },
-    {
      "id": "RF.K.2.d",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "RF.1.3.a",
+     "rel": "teaches",
+     "grade": "1"
     }
    ],
    "by": "review"
@@ -2081,6 +2096,11 @@
      "grade": "K"
     },
     {
+     "id": "RF.K.3.c",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
      "id": "RF.K.1.c",
      "rel": "teaches",
      "grade": "K"
@@ -2092,11 +2112,11 @@
    "rows": [
     {
      "id": "L.1.1.h",
-     "rel": "prepares",
+     "rel": "teaches",
      "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:rhyming": {
    "rows": [
@@ -2152,6 +2172,11 @@
    "rows": [
     {
      "id": "RF.1.3.e",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "RF.1.3.d",
      "rel": "teaches",
      "grade": "1"
     },
@@ -2301,6 +2326,11 @@
      "grade": "1"
     },
     {
+     "id": "RL.1.2",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
      "id": "RL.K.2",
      "rel": "teaches",
      "grade": "K"
@@ -2436,12 +2466,22 @@
   "2:question-words": {
    "rows": [
     {
+     "id": "L.2.1.f",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "L.1.1.j",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
      "id": "L.K.1.d",
      "rel": "teaches",
      "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:read-and-answer": {
    "rows": [
@@ -2462,6 +2502,11 @@
     },
     {
      "id": "W.2.2",
+     "rel": "prepares",
+     "grade": "2"
+    },
+    {
+     "id": "W.2.3",
      "rel": "prepares",
      "grade": "2"
     }
@@ -2608,9 +2653,19 @@
      "id": "L.2.4.b",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "L.3.4.b",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "RF.3.3.a",
+     "rel": "teaches",
+     "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:retell-with-starters": {
    "rows": [
@@ -2640,18 +2695,13 @@
   "2:animal-fact-file": {
    "rows": [
     {
-     "id": "W.2.7",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
      "id": "W.2.8",
      "rel": "teaches",
      "grade": "2"
     },
     {
-     "id": "RI.2.1",
-     "rel": "teaches",
+     "id": "W.2.7",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
@@ -2683,11 +2733,6 @@
      "id": "L.2.5.b",
      "rel": "teaches",
      "grade": "2"
-    },
-    {
-     "id": "L.3.5.c",
-     "rel": "prepares",
-     "grade": "3"
     }
    ],
    "by": "review"
@@ -2703,6 +2748,11 @@
      "id": "RF.3.3.a",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "L.3.2.e",
+     "rel": "teaches",
+     "grade": "3"
     }
    ],
    "by": "review"
@@ -2710,12 +2760,22 @@
   "3:root-words-in-context": {
    "rows": [
     {
-     "id": "L.3.4.c",
+     "id": "L.3.1.e",
      "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "L.3.1.a",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "L.3.4.c",
+     "rel": "extends",
      "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:human-body": {
    "rows": [

@@ -672,6 +672,20 @@
    "why": "Finding an unknown factor in an equation relating three numbers is 3.OA.A.4, which was missing.",
    "review": "review-math"
   },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "3.OA.D.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.OA.C.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): a table that follows a printed rule is named outright at 4.OA.C.5 (a pattern that follows a given rule); 3.OA.D.9 stays.",
+   "review": "own-audit-units-3"
+  },
   "3:balance-equations": {
    "rows": [
     {
@@ -704,6 +718,24 @@
    ],
    "why": "The parent standard also covers comparing fractions; recognising equivalent fractions as the same amount is exactly components 3.NF.A.3.a and 3.NF.A.3.b.",
    "review": "review-math"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "3.OA.A.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.NF.B.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.NF.A.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): 3.NF.A.1 is a fraction of one whole cut into equal parts; one third of 12 is equal sharing (3.OA.A.2) in Grade 3 and first appears as a fraction of a set at 4.NF.B.4.",
+   "review": "own-audit-units-3"
   },
   "K:pre-writing-strokes": {
    "rows": [
@@ -810,16 +842,30 @@
   "K:digraphs-k": {
    "rows": [
     {
-     "id": "RF.1.3.a",
-     "rel": "prepares"
+     "id": "RF.K.2.d",
+     "rel": "teaches"
     },
     {
-     "id": "RF.K.2.d",
+     "id": "RF.1.3.a",
      "rel": "teaches"
     }
    ],
-   "why": "Kindergarten phonics names no digraphs; hearing sh/ch at the start is initial-sound isolation and a readiness step toward the grade 1 digraph standard.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): sorting pictures under the letter teams sh and ch teaches the digraph spellings themselves, which is the Grade 1 standard RF.1.3.a; in a Kindergarten unit it is shown as a later grade, not as \"prepares\".",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "RF.1.3.a",
+      "rel": "prepares"
+     },
+     {
+      "id": "RF.K.2.d",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Kindergarten phonics names no digraphs; hearing sh/ch at the start is initial-sound isolation and a readiness step toward the grade 1 digraph standard.",
+    "review": "review-ela-science"
+   }
   },
   "K:word-sentence-tracing": {
    "rows": [
@@ -828,12 +874,40 @@
      "rel": "teaches"
     },
     {
+     "id": "RF.K.3.c",
+     "rel": "teaches"
+    },
+    {
      "id": "RF.K.1.c",
      "rel": "teaches"
     }
    ],
-   "why": "The skill explicitly practises spaces between words; the print-concept standard RF.K.1.c was missing.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the sight-word page (read the word, trace it, write it) is RF.K.3.c, which the rows left out. RF.K.1.c stays for the sentence pages of the point; the unit lesson hands out one-word pages and names L.K.1.a and RF.K.3.c only.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "L.K.1.a",
+      "rel": "teaches"
+     },
+     {
+      "id": "RF.K.1.c",
+      "rel": "teaches"
+     }
+    ],
+    "why": "The skill explicitly practises spaces between words; the print-concept standard RF.K.1.c was missing.",
+    "review": "review-ela-science"
+   }
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "L.1.1.h",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): a and an is the Grade 1 standard L.1.1.h and the pages teach it outright; in a Kindergarten unit it is shown as a later grade.",
+   "review": "own-audit-units-3"
   },
   "1:spell-picture-words": {
    "rows": [
@@ -856,12 +930,30 @@
      "rel": "teaches"
     },
     {
+     "id": "RF.1.3.d",
+     "rel": "teaches"
+    },
+    {
      "id": "RF.K.2.b",
      "rel": "teaches"
     }
    ],
-   "why": "Clapping and counting syllables is the spoken-syllable standard RF.K.2.b, which was missing.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the lesson teaches that every syllable has a vowel sound, which is RF.1.3.d.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "RF.1.3.e",
+      "rel": "teaches"
+     },
+     {
+      "id": "RF.K.2.b",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Clapping and counting syllables is the spoken-syllable standard RF.K.2.b, which was missing.",
+    "review": "review-ela-science"
+   }
   },
   "1:alphabetical-order": {
    "rows": [
@@ -922,6 +1014,10 @@
      "rel": "teaches"
     },
     {
+     "id": "RL.1.2",
+     "rel": "teaches"
+    },
+    {
      "id": "RL.K.2",
      "rel": "teaches"
     },
@@ -930,8 +1026,26 @@
      "rel": "prepares"
     }
    ],
-   "why": "Ordering pictures and sentences is not writing a narrative; it is a readiness step toward W.1.3.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the child retells the whole story in order, which is RL.1.2.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "RL.1.7",
+      "rel": "teaches"
+     },
+     {
+      "id": "RL.K.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "W.1.3",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Ordering pictures and sentences is not writing a narrative; it is a readiness step toward W.1.3.",
+    "review": "review-ela-science"
+   }
   },
   "1:word-classes": {
    "rows": [
@@ -983,6 +1097,24 @@
    "why": "Common Core handwriting stops at printing all letters; cursive goes beyond that standard on the same line and was left unmapped.",
    "review": "review-ela-science"
   },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "L.2.1.f",
+     "rel": "teaches"
+    },
+    {
+     "id": "L.1.1.j",
+     "rel": "teaches"
+    },
+    {
+     "id": "L.K.1.d",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): writing whole questions is producing complete interrogative sentences: L.1.1.j, and L.2.1.f in Grade 2; only the Kindergarten question-word standard was listed.",
+   "review": "own-audit-units-3"
+  },
   "2:describe-a-picture": {
    "rows": [
     {
@@ -992,10 +1124,28 @@
     {
      "id": "W.2.2",
      "rel": "prepares"
+    },
+    {
+     "id": "W.2.3",
+     "rel": "prepares"
     }
    ],
-   "why": "Sentences from starters and a word bank are sentence production, not yet an informative text with a topic, developed points and a conclusion.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the second page asks for the child's own short story about the picture, which prepares narrative writing (W.2.3).",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "L.2.1.f",
+      "rel": "teaches"
+     },
+     {
+      "id": "W.2.2",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Sentences from starters and a word bank are sentence production, not yet an informative text with a topic, developed points and a conclusion.",
+    "review": "review-ela-science"
+   }
   },
   "2:word-classes": {
    "rows": [
@@ -1052,6 +1202,24 @@
    "why": "RF.2.3 was attached only because the word 'read' appears; the skill is script recognition.",
    "review": "review-ela-science"
   },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "L.2.4.b",
+     "rel": "teaches"
+    },
+    {
+     "id": "L.3.4.b",
+     "rel": "teaches"
+    },
+    {
+     "id": "RF.3.3.a",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): un-, dis-, in-, re-, pre- and mis- are L.2.4.b in Grade 2 and L.3.4.b and RF.3.3.a in Grade 3; the lesson sits in a Grade 3 unit and carried only the Grade 2 code.",
+   "review": "own-audit-units-3"
+  },
   "2:mystery-animal": {
    "rows": [
     {
@@ -1069,20 +1237,34 @@
   "2:animal-fact-file": {
    "rows": [
     {
-     "id": "W.2.7",
-     "rel": "teaches"
-    },
-    {
      "id": "W.2.8",
      "rel": "teaches"
     },
     {
-     "id": "RI.2.1",
-     "rel": "teaches"
+     "id": "W.2.7",
+     "rel": "prepares"
     }
    ],
-   "why": "Gathering facts from a provided source to fill a fact file is exactly W.2.8, which was missing.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): no text is read on either page, so RI.2.1 is not taught; W.2.7 (shared research) holds only when the class checks a fact in a book, so it prepares.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "W.2.7",
+      "rel": "teaches"
+     },
+     {
+      "id": "W.2.8",
+      "rel": "teaches"
+     },
+     {
+      "id": "RI.2.1",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Gathering facts from a provided source to fill a fact file is exactly W.2.8, which was missing.",
+    "review": "review-ela-science"
+   }
   },
   "2:compare-two-animals": {
    "rows": [
@@ -1109,14 +1291,24 @@
     {
      "id": "L.2.5.b",
      "rel": "teaches"
-    },
-    {
-     "id": "L.3.5.c",
-     "rel": "prepares"
     }
    ],
-   "why": "L.3.5.c is about words for states of mind and degrees of certainty; telling apart closely related action verbs (stroll/dash, glance/stare) is L.2.5.b.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): L.3.5.c is about words for states of mind and degrees of certainty (knew, believed, suspected), not verbs for go and look; the content is L.2.5.b.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "L.2.5.b",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.3.5.c",
+      "rel": "prepares"
+     }
+    ],
+    "why": "L.3.5.c is about words for states of mind and degrees of certainty; telling apart closely related action verbs (stroll/dash, glance/stare) is L.2.5.b.",
+    "review": "review-ela-science"
+   }
   },
   "3:person-words": {
    "rows": [
@@ -1127,10 +1319,46 @@
     {
      "id": "RF.3.3.a",
      "rel": "teaches"
+    },
+    {
+     "id": "L.3.2.e",
+     "rel": "teaches"
     }
    ],
-   "why": "Knowing the meaning of a common derivational suffix (-er) is also RF.3.3.a, which was missing.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the lesson is mostly the spelling changes when -er is added (drop the e, double the consonant), which is L.3.2.e.",
+   "review": "own-audit-units-3",
+   "was": {
+    "rows": [
+     {
+      "id": "L.3.4.b",
+      "rel": "teaches"
+     },
+     {
+      "id": "RF.3.3.a",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Knowing the meaning of a common derivational suffix (-er) is also RF.3.3.a, which was missing.",
+    "review": "review-ela-science"
+   }
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "L.3.1.e",
+     "rel": "teaches"
+    },
+    {
+     "id": "L.3.1.a",
+     "rel": "teaches"
+    },
+    {
+     "id": "L.3.4.c",
+     "rel": "extends"
+    }
+   ],
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): choosing among bake, baker, baking and baked is choosing the grammatical form a sentence needs (L.3.1.a, L.3.1.e); L.3.4.c is using a root to work out an unknown word, which the page only reaches toward.",
+   "review": "own-audit-units-3"
   },
   "K:human-body": {
    "rows": [

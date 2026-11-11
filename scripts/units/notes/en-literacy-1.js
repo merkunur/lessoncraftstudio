@@ -11,7 +11,7 @@ module.exports = {
       objective: 'Children say picture words aloud, find the ones that rhyme, and write the rhyming words.',
       note: {
         mistake: 'Children match words that start with the same sound (cat and cup) and call it a rhyme. Others go by spelling and miss rhymes that are spelled differently, such as bear and chair.',
-        words: 'Say: "Rhyming words sound the same at the END. Cat, hat. Listen: -at, -at." Have children say both words and then only the ending. Ask: "Do cat and cup end the same? Say the endings."',
+        words: 'Say: "Rhyming words sound the same from the middle to the end. Only the beginning changes. Cat, hat. Listen: -at, -at." Have children say both words and then only the part after the first sound. Ask: "Cat and cup: say the parts after /k/. -at, -up. Are they the same?"',
         watch: 'Have each child say the pair aloud before circling; rhyming is done with the ears, not the eyes. A child who keeps picking the same first sound should hear and say endings before writing anything.',
       },
     },
@@ -29,16 +29,16 @@ module.exports = {
       objective: 'Children hear which letter team a picture word has, sh, ch, or th, and write the missing team in the word.',
       note: {
         mistake: 'Children mix up th with f or d ("fumb," "dis") because that is how they say the words. They write a single letter for the team: "s" for sh, "c" for ch.',
-        words: 'Say: "A letter team is two letters that make one new sound." Show the mouth for th: "Put your tongue between your teeth and blow: th." Compare: "Thumb. Not fumb. Feel your tongue."',
-        watch: 'Listen to how each child says the th words; a child who says "f" will write f. Use a small mirror for th. On the writing page, check that both letters of the team are there.',
+        words: 'Say: "A letter team is two letters that make one new sound." Show the mouth for th: "Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue." Compare: "Thumb. Not fumb. Feel your tongue."',
+        watch: 'Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child\'s family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there.',
       },
     },
     '1:spell-picture-words': {
       title: 'Spell the picture word',
       objective: 'Children say a picture word, listen for its sounds, and write the word, first with the first letter given and then on their own.',
       note: {
-        mistake: 'Children write the first and the last sound and skip the middle: "ct" for cat, "fg" for frog. Short vowels are mixed up, e and i most of all ("pin" for pen).',
-        words: 'Say: "Say the word slowly. Tap each sound on your fingers. Write a letter for every tap." Ask: "What is the sound in the middle? Say it again." After writing: "Touch each letter and read what you wrote. Is it the word?"',
+        mistake: 'Children write the first and the last sound and skip the middle: "ct" for cat, "fg" for frog. Short vowels are mixed up, e and i most of all ("pin" for pen). Where pin and pen are said alike, as in much of the South, a child cannot hear the difference and has to learn which words take e.',
+        words: 'Say: "Say the word slowly. Tap each sound on your fingers. Write the letter or the letter team for every tap." Ask: "What is the sound in the middle? Say it again." After writing: "Touch each letter and read what you wrote. Is it the word?"',
         watch: 'Have children read their own spelling back; it catches a missing vowel better than you can. Spelling by sound that can be read ("frend") is progress at this age; correct the words that are in the word bank.',
       },
     },
@@ -47,8 +47,8 @@ module.exports = {
       objective: 'Children clap the parts of a word, mark each syllable, and write a word with a dash between its syllables.',
       note: {
         mistake: 'Children clap once for each sound or each letter, or they stretch a one-syllable word into two claps ("ca-at"). In writing they put the dash anywhere, often after the first letter.',
-        words: 'Say: "Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two." Then: "Every syllable has a vowel sound. Find the vowels first." Say words in a robot voice: "pen-cil."',
-        watch: 'Use the chin check with children who clap too many. On the dash page, check that each part has a vowel; a part without one cannot be a syllable.',
+        words: 'Say: "Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two." Then: "Every syllable has one vowel sound. Two consonants between the vowels? Split between them: rab-bit, pen-cil." Say words in a robot voice: "pen-cil."',
+        watch: 'Use the chin check with children who clap too many, and have children who clap too few hum the word; the chin hardly moves on sounds like ee (ba-by, bun-ny). On the dash page, check that each part has a vowel letter, and count y as a vowel at the end of a word (pup-py, can-dy); a part with no vowel cannot be a syllable.',
       },
     },
     '1:word-families-syllable-reading': {
@@ -65,16 +65,16 @@ module.exports = {
       objective: 'Children read a sentence and do exactly what it says: color or circle the pictures it names.',
       note: {
         mistake: 'Children read the first words, catch the name of a picture, and color it any color. The small words carry the meaning and are skipped: "two," "red," "not," "last."',
-        words: 'Say: "Read the whole sentence before you pick up a crayon. Then tell me: WHAT do you color? HOW MANY? Which COLOR?" Have the child underline the color word and the number word. "Read it again and check your work."',
+        words: 'Say: "Read the whole sentence before you pick up a crayon or a pencil. Then tell me: WHAT do you color or circle? HOW MANY? Which COLOR?" Have the child underline the number word and the color word. "Read it again and check your work."',
         watch: 'The page checks itself: a wrong color or count shows which word was missed. Sit with a child for one sentence and note whether the trouble is reading the words or keeping the sentence in mind.',
       },
     },
     '1:cloze': {
       title: 'Fill in the missing word',
-      objective: 'Children read a sentence with a gap, look at the picture, and choose the word that makes sense.',
+      objective: 'Children read a sentence with a blank and choose the word or the picture that makes sense in it.',
       note: {
         mistake: 'Children pick a word that goes with the picture and do not read the sentence to the end, so the word does not fit. Or they take the next unused word from the word bank.',
-        words: 'Say: "Read the sentence and say \'blank\' at the gap. Then try a word: does it sound right? Does it make sense?" Have children read the finished sentence aloud. "Every sentence has to make sense when you read it."',
+        words: 'Say: "Read every word in the word bank first. Now read the sentence and say \'blank\' at the empty spot. Try a word: does it make sense? Does it sound right?" Have children read the finished sentence aloud. "Every sentence has to make sense when you read it."',
         watch: 'Listen to the child read a finished sentence. A sentence that makes no sense and does not bother the child is the real finding; that child is reading words, not meaning.',
       },
     },
@@ -83,7 +83,7 @@ module.exports = {
       objective: 'Children put mixed-up words in order and write the sentence with a capital letter and an end mark.',
       note: {
         mistake: 'Children copy the words in the order they are printed. When they do find the order, they forget the capital letter at the start or the mark at the end.',
-        words: 'Say: "Find the word with the capital letter: it goes first. Find the word with the period: it goes last." Then: "Who or what is the sentence about? What happens?" Have children say the sentence aloud before they write it.',
+        words: 'Say: "Find the word with the capital letter: it most likely goes first. A name and the word I have a capital too, so check. Find the word with the end mark: it goes last." Then: "Who or what is the sentence about? What happens?" Have children say the sentence aloud before they write it.',
         watch: 'Have the child read the written sentence aloud. Check three things in order: does it make sense, does it start with a capital, does it end with a mark.',
       },
     },
@@ -111,15 +111,15 @@ module.exports = {
       note: {
         mistake: 'Children order the words by where they think the letter comes in the song and lose track in the middle of the alphabet. When two words start with the same letter, they stop or order them by length.',
         words: 'Say: "Look only at the first letter. Find each one on the alphabet strip. Which comes first on the strip?" For a tie: "Both start with b. Cover the b. Now look at the next letter."',
-        watch: 'Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who writes "bed, bat" has not moved on to the second letter.',
+        watch: 'Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who numbers "bed" before "bat" has not moved on to the second letter; cover the first letters and ask again.',
       },
     },
     '1:word-classes': {
       title: 'Nouns, verbs, and adjectives',
       objective: 'Children sort words into nouns and verbs, and into nouns and adjectives.',
       note: {
-        mistake: 'Children sort by what a word makes them think of: "run" goes with the nouns because they think of a runner. Words that can be both (a walk, to walk) confuse them, as they should.',
-        words: 'Give each kind a test: "A noun is a person, place, animal, or thing: can you put \'the\' in front? The dog. A verb is something you can do: can you say \'I can…\'? I can jump. An adjective tells what something is like: the ___ dog."',
+        mistake: 'Children sort by what a word makes them think of: "party" and "game" go with the verbs because you do something there, and "fast" or "hungry" goes with the verbs because it happens to you. Words that can be both (a walk, to walk) confuse them, and rightly so.',
+        words: 'Give each kind a test sentence: "A noun is a person, place, animal, or thing. Try it here: \'I see the ___.\' I see the dog. A verb is something you can do. Try it here: \'I can ___.\' I can jump. An adjective tells what something is like. Try it here: \'The dog is very ___.\' The dog is very big."',
         watch: 'Have children use the test aloud for the hard words. If a child argues that "paint" can be both, the child is right; say so and ask for a sentence each way.',
       },
     },
@@ -127,8 +127,8 @@ module.exports = {
       title: 'He, she, it, they',
       objective: 'Children choose the pronoun that takes the place of a name and write it in a sentence.',
       note: {
-        mistake: 'Children use "he" for everyone or mix up "he" and "she," and they use "they" only for a crowd, not for two people. In the second sentence they write the name again.',
-        words: 'Say: "We do not say the name over and over. \'Ben has a kite. Ben flies the kite\' becomes \'Ben has a kite. HE flies it.\'" Ask: "Who is \'he\' in this sentence? Point to the name." For two people: "Ben and Mia: they."',
+        mistake: 'Children write the name again in the second sentence, or use "they" only for a crowd and not for two people. They are unsure about "it" for an animal or a thing. Children who are learning English may use "he" for everyone or mix up "he" and "she."',
+        words: 'Say: "We do not say the name over and over. \'Ben has a kite. Ben flies the kite\' becomes \'Ben has a kite. HE flies it.\'" Ask: "Who is \'he\' in this sentence? Point to the name." For two people: "Ben and Mia: they." For a thing: "The kite: it."',
         watch: 'Have the child read both sentences aloud and tell you who the pronoun means. Children learning English may not have he and she in their home language; give them more spoken practice.',
       },
     },
@@ -136,8 +136,8 @@ module.exports = {
       title: 'Write the opposite',
       objective: 'Children find the opposite of a word in a word bank and tell an opposite from a word that means the same.',
       note: {
-        mistake: 'Children circle the word that means the same, because it is the word that "goes with" the first one. Asked for the opposite of "happy," they write "not happy."',
-        words: 'Say: "Opposite means as different as can be. Hot, cold. Same means nearly alike. Big, large." Test with a sentence: "The soup is not hot. It is…?" Ask: "Is that word the opposite, or does it mean the same?"',
+        mistake: 'Children circle the word that means the same, because it is the word that "goes with" the first one. On the word bank page they take a word that is about the same thing and is not the opposite, such as "warm" for "hot."',
+        words: 'Say: "Opposite means as different as can be: hot, cold. Same means nearly alike: big, large." Test a word with "not": "If the door is not open, it is… shut. So open and shut are opposites." Ask: "Is that word the opposite, or does it mean the same?"',
         watch: 'On the three-word page, a child who circles the same-meaning word knows the words are related and has not sorted out how. Ask for both: "Which one means the same? Which one is the opposite?"',
       },
     },
@@ -154,8 +154,8 @@ module.exports = {
       title: 'Find the root word',
       objective: 'Children name a picture and find the longer word that is built from that word, such as rain in rainy.',
       note: {
-        mistake: 'Children circle a word that only starts with the same letters and has nothing to do with the picture word: "car" in "carrot," "pan" in "panda."',
-        words: 'Say: "A root word is a small word inside a bigger word, and the meaning stays. Rain, rainy, raining: all about rain." Test it: "Is a carrot a kind of car? No. So \'car\' is not its root."',
+        mistake: 'Children circle a word that only starts with the same letters as the picture word and has nothing to do with it: "carrot" for the picture of a car, "panda" for the picture of a pan.',
+        words: 'Say: "A root word is the word a longer word is built from, and the meaning stays. Rain, rainy, raining: all about rain." Test it: "Does a carrot have anything to do with a car? No. So \'carrot\' is not built from \'car.\'"',
         watch: 'Ask the child what the long word means. If the meaning has the picture word in it (a teacher teaches), the root is right; if not, the letters match by accident.',
       },
     },
@@ -163,8 +163,8 @@ module.exports = {
       title: 'A or an: sort the words',
       objective: 'Children read a word, decide whether a or an belongs in front of it, and write it in the right group.',
       note: {
-        mistake: 'Children sort by the first letter they see and not by the sound they say, or they put every word under "a." Short words that begin with a vowel (egg, ant) are the ones they miss.',
-        words: 'Say: "Say it out loud with \'a\' and with \'an.\' Which one is easy to say? A egg… an egg." Give the rule: "Before a vowel sound, we say an." Have children read each finished group aloud: "an apple, an egg, an owl."',
+        mistake: 'Children put every word under "a," because "a" is the word they use most, or they stop reading and fill the two groups evenly. A child who sorts correctly by the first letter has the right answers here and will go wrong later on words such as "hour" and "unicorn," where the letter and the sound do not agree.',
+        words: 'Say: "Read the word. Say its first sound. Is it a vowel sound? Then it goes under an." Check by ear: "A egg… an egg. Which one do we say?" Have children read each finished group aloud: "an apple, an egg, an owl."',
         watch: 'Listen to the child read the finished lists with the article in front. A wrong word stands out at once when it is said aloud; have the child find it by ear, not by rule.',
       },
     },
@@ -174,7 +174,7 @@ module.exports = {
       note: {
         mistake: 'Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.',
         words: 'Say: "Words that mean the same can trade places. The big dog, the large dog: same picture in your head." Test a pair in one sentence: "The elephant is big. The elephant is large. Same? The elephant is gray. Same?" Call them "words that mean the same," and give the word "synonyms" once.',
-        watch: 'Have the child say both circled words in one sentence about the picture. If the sentence changes its meaning, the words are not synonyms; let the child try the third word.',
+        watch: 'Have the child say both circled words in one sentence about the picture. If the meaning changes from one sentence to the other, the words are not synonyms; have the child keep one word and test it against each of the others.',
       },
     },
   },

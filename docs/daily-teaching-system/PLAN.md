@@ -188,7 +188,7 @@ The size column is my estimate, not a measurement. The pilot inside each part pr
 3. Corrections to `strand-names.ts` where the registry proves a row wrong (additive correction of visible labels on activity pages; never a title or slug change).
 4. A gate: every node cites a source; every crosswalk row points at existing ids; official wording is stored verbatim and is never shown as a quotation in metadata (framework name and objective label only, per §20.10).
 
-**Order:** en → de → sv (the three the note names) → es → pt → fr → nl → fi → no → da → it, adjusted by the Part 0 harvest.
+**Order:** en → de → sv (the three the note names) → es → pt → fr → nl → fi → no → da → it. **State layers (decided 2026-11-11, §11):** Texas (TEKS) is built straight after the US national registry; Bavaria, NRW and Saxony straight after the German one. **Preschool stage (decided 2026-11-11):** the pt, es and nl registries include their preschool stage, because those three markets get preschool units in the first wave.
 **SEO:** no public surface in this part.
 **Review budget:** one native teacher-reviewer per locale over the crosswalk (a table dump), briefed as an audit: "find the rows a teacher in your country would call wrong".
 **Done when:** 11 registries pass the gate and each has a reviewer's record.
@@ -251,6 +251,7 @@ The size column is my estimate, not a measurement. The pilot inside each part pr
 - **4.2** Teacher notes for en math points; en math units published noindex for operator review; then indexed.
 - **4.3** en literacy: unit list, notes, units. (US phonics sequence; the reading slot uses existing passages until Part 8.)
 - **4.4** en year plans, units hub, additive blocks on existing pages, four-week measurement stop.
+- **Preschool in the first wave (decided 2026-11-11, §11):** the pt, es and nl sub-parts also build theme units for the preschool band as each country defines it. All other markets build preschool in the second wave.
 - **4.5–4.14** one locale per sub-part, in the Part 2 order: unit list re-sequenced by that country's crosswalk, native teacher notes, native naming, one reviewer, publish. es is built for Mexico (SEP grades, pesos in money units), pt for Brazil (BNCC, reais).
 
 **Size estimate:** 12–16 units per grade and subject pair is my working number (about 60–70 units per locale). The en pilot fixes the real number.
@@ -481,6 +482,12 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 4. One shared reporter in the script every interactive deck already loads; no mass rewrite of deck files; old app decks that cannot be read show "finished" only.
 5. Legal texts are drafted in the session and checked once by a data-protection lawyer before launch. The launch waits for that check.
 
+**2026-11-11, standing delegation (operator, verbatim): "Don't flag anymore. Make the decisions yourself."** From here on, a choice inside this programme is decided in the session by what the evidence and the rulings above support, recorded here with its reason, and reported in one line. It is not put to the operator as a question. Unchanged: actions that are hard to undo or that touch the live site are still announced before they run, and the legal texts of Part 9 still wait for the lawyer's check.
+
+**2026-11-11, two decisions made under that delegation (from the Part 0 harvest):**
+1. **Preschool units are first wave in Brazil, Mexico and the Netherlands.** Reason: there the preschool band is the widest lesson-plan search of all ("plano de aula educação infantil", "planeación preescolar", "thema kleuters"), and much of what those countries call preschool is the age band the catalogue already serves as kindergarten. Form: theme units, which is how those teachers search. In the other eight markets preschool stays second wave, as ruled. Part 2's crosswalk for pt, es and nl therefore includes the preschool stage of each curriculum (BNCC Educação Infantil, SEP fase 2, groep 1–2).
+2. **State curricula: national first, then a fixed short list of states.** Germany: KMK standards, then Bavaria, North Rhine-Westphalia and Saxony, in that order (the three states that ride on German curriculum searches most often). United States: Common Core, then Texas (TEKS), the largest state that does not use Common Core and one teachers search by name. Each state is a crosswalk layer on top of the national one, built in Part 2 straight after that country's national registry, so Part 6 can give each its own page. No other state is added until four weeks of data from these pages exist. A state page is published only where a real crosswalk was built; a Common Core state is never given a page that merely renames the national list.
+
 **2026-11-11, the remaining open items (operator: "agreed"). These seven points are rulings. C3 is settled by point 1. Nothing in Part 0.1 is left open; Part 0 now consists of the SEO baseline (0.2) and the demand harvest (0.3) only.**
 1. **Teacher-only items: yes, and the caps stay untouched.** Whole-unit bundles, teacher guide PDFs, printable year plans, sub pack PDFs, test keys, scoring sheets, class grids and "what next" pages are Teacher-only through the existing subscriber check. A free account cannot spend one of its 3 monthly downloads on them. Test student pages and single readers stay ordinary metered printables. Every lesson plan is readable on the unit page by everyone: it is the page's depth for search and the proof of quality, and a free account still cannot run a unit on 3 downloads a month.
 2. **No trial class for free accounts.** Instead, a demo dashboard with sample data on the feature and pricing pages. Reason: children's data should exist only under a paid account, where the school agreement applies.
@@ -510,6 +517,6 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
   3. Part 5 is per market: full day (en, fr) · single lesson by grade and subject (de) · review booklet (es) · minimal (pt, it) · no indexable pack pages (nl, sv, da, no, fi) unless a native reviewer supplies search words that the harvest then confirms.
   4. Part 6: per-grade objective lists and checklists are the page type with a job; Germany and the US search curricula by state.
   5. Part 8: every book also as a one-page text with questions; a letter-style setting for it and pt; no AVI labels in nl without a basis.
-- **Two items put to the operator (no ruling changed):** (a) preschool units are second wave by ruling, yet preschool is the widest lesson-plan face in Brazil and Mexico and "thema kleuters" is the widest Dutch phrase; (b) state curricula (Bavaria, NRW, Texas, California) are where the German and US curriculum searches are, while the plan aligns nationally first.
+- **Two decisions that followed from the harvest (made 2026-11-11 under the operator's delegation, recorded in §11):** preschool units join the first wave in Brazil, Mexico and the Netherlands; state layers are added for Bavaria, NRW and Saxony in Germany and for Texas in the US.
 - Trap paid for: five harvest processes at once got the PC's address refused by the autocomplete service for about an hour. One process at a time; the script resumes where it stopped. Do not route around a refusal (other addresses, other endpoints); wait.
 - Use from now on: before and after every deploy of this programme, `node scripts/seo/identity-snapshot.js --compare=docs/SEO/daily-system-baseline/baseline.json`; exit 3 (unmeasured) is not a pass.

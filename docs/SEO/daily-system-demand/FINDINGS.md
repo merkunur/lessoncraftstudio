@@ -119,12 +119,12 @@ Reading:
 
 ## What this changes in the plan
 
-Recorded here and in PLAN.md §12. None of these overturns a ruling; two are put to the operator.
+Recorded here and in PLAN.md §12. Points 6 and 7 were decided on 2026-11-11 under the operator's delegation (PLAN.md §11).
 
 1. **Part 7 (tests) has the clearest search case in every market.** Worth weighing when the order of Parts 4–7 comes up; no change proposed now.
 2. **Naming:** unit pages lead with each language's lesson-plan word; English test pages use "beginning-of-year / mid-year / end-of-year assessment"; reader hubs in English are cut by phonics skill.
 3. **Part 5 becomes per market:** full day (en, fr), single lesson (de), review booklet (es), minimal (pt, it), none indexable (nl, sv, da, no, fi) unless a native reviewer finds the words.
 4. **Part 6:** per-grade objective lists and checklists are the page type with a job; Germany and the US are searched by state, which a national-only alignment does not answer.
 5. **Part 8:** one-page text layout beside the folded book; a letter-style setting for it and pt; no AVI labels in nl without a basis.
-6. **For the operator — preschool.** The ruling puts preschool units in the second wave. In Brazil and Mexico the preschool phrases are the widest of all ("plano de aula educação infantil", "planeación preescolar", "evaluación diagnóstica preescolar"), and Dutch "thema kleuters" is the widest Dutch phrase. The ruling can stand; the cost is that those three markets start without their largest search face.
-7. **For the operator — state curricula.** Germany and the US search curricula by state. The plan aligns nationally first (KMK, Common Core). Adding Bavaria, NRW, Texas or California later is possible and is where the search words are.
+6. **Preschool — DECIDED: first wave in Brazil, Mexico and the Netherlands, second wave elsewhere.** The earlier ruling put preschool units in the second wave. In Brazil and Mexico the preschool phrases are the widest of all ("plano de aula educação infantil", "planeación preescolar", "evaluación diagnóstica preescolar"), and Dutch "thema kleuters" is the widest Dutch phrase. So those three markets get preschool theme units in the first wave.
+7. **State curricula — DECIDED: national first, then Bavaria, NRW and Saxony (Germany) and Texas (US).** Germany and the US search curricula by state. California and other Common Core states get no separate page, because it would only rename the national list.

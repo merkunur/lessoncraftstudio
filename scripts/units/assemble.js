@@ -140,12 +140,19 @@ function assemble(loc, opt = {}) {
       let maker = null;
       const mk = paper.length && assets.types[paper[0].type] && assets.types[paper[0].type].maker;
       if (mk && makerNames[mk] && makerCopy[mk]) maker = { id: mk, name: makerNames[mk], slug: makerCopy[mk].slug, template: paper[0].type };
-      // the national objective: rows that say "teaches" first, at most two, shown as the site shows an objective
+      // The national objective, at most three, shown as the site shows an objective. A row that says "teaches" is true
+      // AT THE YEAR OF ITS OBJECTIVE: in a unit of another year it is shown for what it is there — an objective of an
+      // earlier year is one the unit REVIEWS, an objective of a later year is one the lesson reaches AHEAD to (a
+      // Kindergarten code in a Grade 1 unit is not that unit's alignment). Order: the unit's own year, then reviewed,
+      // then ahead, then the rows that only prepare or extend.
       const e = cw[L.point] || {};
-      // (an objective of the unit's own year stands before one of another year)
-      const own = (r) => (String(r.grade || '').split('-').includes(String(d.grade)) ? 0 : 1);
-      const rows = (e.rows || []).slice().sort((a, b) => ((a.rel === 'teaches' ? 0 : 1) - (b.rel === 'teaches' ? 0 : 1)) || (own(a) - own(b))).slice(0, 2);
-      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.rel, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; });
+      const YEARS = ['P', 'K', '1', '2', '3', '4', '5', '6'];
+      const span = (g) => { const xs = String(g || '').split('-').map((x) => YEARS.indexOf(x)); return xs.length && xs.every((x) => x >= 0) ? [Math.min(...xs), Math.max(...xs)] : null; };
+      const unitYear = YEARS.indexOf(String(d.grade));
+      const relIn = (r) => { if (r.rel !== 'teaches') return r.rel; const s = span(r.grade); if (!s || unitYear < 0) return 'teaches'; return s[1] < unitYear ? 'reviews' : s[0] > unitYear ? 'ahead' : 'teaches'; };
+      const RANK = { teaches: 0, reviews: 1, ahead: 2, prepares: 3, extends: 4 };
+      const rows = (e.rows || []).map((r) => Object.assign({}, r, { shown: relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
+      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; });
 
       const real = paper.length + (tool ? 1 : 0) + (screen && screen.kind === 'activity' ? 1 : 0);
       if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');

@@ -1,6 +1,6 @@
 # Reviewers' notes: registry `en`
 
-Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`). 96 teaching points carry a reviewer's row; the reason for each is in `frontend/content/curricula/en/crosswalk-overrides.json`.
+Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`). 98 teaching points carry a reviewer's row; the reason for each is in `frontend/content/curricula/en/crosswalk-overrides.json`.
 
 ## review-math
 
@@ -31,3 +31,7 @@ Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`).
 
 - The builder's own reading of a sample (every sixth corrected point against the official wording, every 'teaches' row two or more grades from its point, every point left without a counterpart): one row changed (3:thermometer). 2:plant-parts keeps 'teaches 1-LS1-1': the standard's performance is a design task, but its content is that plants have parts that help them survive and grow, which is what the sheets teach.
 - The 49 points without a counterpart are ordinal numbers, the calendar, 24-hour time, social studies, health, drawing and the thinking-skills puzzles: the Common Core and the NGSS do not hold them. A US teacher's page for these points names no standard.
+
+## own-audit-units
+
+- Three rows corrected after the first units were reviewed (2026-11-11): the reviewer read each lesson's standards beside its worksheets' printed instructions. Lesson for the crosswalk: a row derived from a point's code names what the point is ABOUT; the pages' own instructions can ask for more (writing the letter, not only hearing the sound).

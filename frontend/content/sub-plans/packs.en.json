@@ -3,15 +3,15 @@
  "locale": "en",
  "packs": [
   {
-   "id": "g1-full-day-midyear-1",
-   "slug": "first-grade-sub-plans-full-day",
+   "id": "g1-day-of-review-midyear-1",
+   "slug": "first-grade-sub-plans-day-of-review",
    "status": "pilot",
    "grade": "1",
    "position": "middle",
-   "title": "First Grade Sub Plans: A Full Day",
-   "metaTitle": "First Grade Sub Plans: A Full Day, Ready to Print",
-   "metaDescription": "Emergency sub plans for first grade: a full day of review in reading, writing and math, with a script for the guest teacher, early-finisher pages and class forms.",
-   "minutes": 190,
+   "title": "First Grade Sub Plans: A Day of Review",
+   "metaTitle": "First Grade Sub Plans: A Day of Review, Ready to Print",
+   "metaDescription": "Emergency sub plans for first grade: eight review blocks in reading, word work, writing, and math, with a guest teacher script, early-finisher pages, and class forms.",
+   "minutes": 145,
    "blocks": [
     {
      "key": "morning",
@@ -24,30 +24,30 @@
      "hard": "alphabetical-order-hard-desserts-and-sweets-g1245",
      "easy": "alphabetical-order-easy-tools-g1245",
      "script": {
-      "say": "\"Good morning. Your first job is on your desk. We are going to put words in ABC order, the order of the alphabet.\"",
-      "first": "Point to the alphabet strip at the top of the page. Read the six picture words aloud with the class. Ask: \"Which of these words starts with the letter that comes first in the alphabet?\" Write a 1 beside it together, then let the children go on alone.",
-      "stuck": "Have the child put a finger on the alphabet strip and slide along it, stopping at the first letter that starts one of the words. That word is next."
+      "say": "\"We are going to put words in ABC order, the order of the alphabet.\"",
+      "first": "Point to the alphabet strip at the top of the page. Read the six picture words aloud with the class. Ask: \"Which of these words starts with the letter that comes first in the alphabet?\" Write a 1 next to it together. Tell the children to number the other words 2 to 6 and then write all six words in order on the lines.",
+      "stuck": "Have the child put a finger on the alphabet strip and slide along it, stopping at the first letter that starts one of the words. That word is next. Cross out each word once it has a number."
      }
     },
     {
      "key": "reading",
-     "minutes": 30,
-     "point": "1:story-sequencing",
-     "type": "G1-400",
-     "title": "Story Sequencing: What Happens Next?",
-     "instruction": "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame.",
-     "core": "story-sequencing-g1400",
-     "hard": "story-sequencing-hard-g1400-12",
-     "easy": "story-sequencing-easy-g1400-7",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-251",
+     "title": "Read and Color: Four Sentences",
+     "instruction": "Read each sentence, then color exactly what it asks for.",
+     "core": "read-and-color-animals-bw-g1251",
+     "hard": "read-and-color-hard-apparel-bw-g1251",
+     "easy": "read-and-color-easy-household-bw-g1251",
      "script": {
-      "say": "\"Each row on this page is a little story told in pictures. One picture is missing. You are going to decide which picture finishes the story.\"",
-      "first": "Do the first story together. Ask a child to tell what happens in the first picture, another child the second, and so on. Then ask: \"What would happen next?\" Look at the choices and circle the one the class agrees on.",
-      "stuck": "Ask the child to tell you the story aloud, picture by picture, starting with \"First…\". Most children find the answer while they are telling it."
+      "say": "\"Now it is time to read. Each sentence on this page tells you what to color. Read the sentence, then color exactly what it says.\"",
+      "first": "Make sure every child has crayons or colored pencils. Read the first sentence aloud together, pointing to each word. Ask: \"What does the sentence tell us to color? Which color?\" Color it together. Then the children read the other sentences on their own.",
+      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what to color before picking up a crayon."
      }
     },
     {
      "key": "phonics",
-     "minutes": 25,
+     "minutes": 20,
      "point": "1:rhyming",
      "type": "G1-309",
      "title": "Rhyming Words: Rhyme and Write",
@@ -57,13 +57,13 @@
      "easy": "rhyming-words-easy-g1309-10-og",
      "script": {
       "say": "\"Rhyming words sound the same at the end, like cat and hat. On this page you find the picture that rhymes, then you write its word.\"",
-      "first": "Name the pictures of the first row together, so that everyone uses the same words. Say the first word, then say it again with each choice after it. Ask which pair sounds the same at the end. Circle that picture together and write its word on the line.",
-      "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT\". If the endings sound the same, they rhyme. If the child does not know a picture's name, tell them."
+      "first": "Name the pictures of the first row together, so that everyone uses the same words. Say the first word, then say it again with each choice after it. Ask which pair sounds the same at the end. Circle that picture together. Say its word slowly, ask the class for its sounds one at a time, and write the word on the board; the children write it on the line.",
+      "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the endings sound the same, they rhyme. If the child does not know a picture's name, tell them. For spelling, have the child say the word slowly and write a letter for each sound; a careful try is enough, so do not spell the word for them."
      }
     },
     {
      "key": "writing",
-     "minutes": 30,
+     "minutes": 25,
      "point": "1:unscramble-sentence",
      "type": "G1-249",
      "title": "Unscramble the Sentence",
@@ -72,14 +72,14 @@
      "hard": "sentence-building-hard-forest-creatures-g1249",
      "easy": "sentence-building-easy-tools-g1249",
      "script": {
-      "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with a period or a question mark.\"",
-      "first": "Write the mixed-up words of the first sentence on the board. Ask: \"Which word has a capital letter? That one goes first.\" Build the sentence aloud with the class, then write it on the board with its end mark.",
-      "stuck": "Have the child read the words aloud in any order, then ask: \"Who or what is the sentence about?\" Start with that word, and read what is written so far after each new word."
+      "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with an end mark: a period, a question mark, or an exclamation point.\"",
+      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
+      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
      }
     },
     {
      "key": "math",
-     "minutes": 30,
+     "minutes": 20,
      "point": "1:fluency-within-20",
      "type": "G1-214",
      "title": "Mental Math to 10",
@@ -88,14 +88,14 @@
      "hard": "mental-math-hard-g1214-12",
      "easy": "mental-math-easy-g1214-7",
      "script": {
-      "say": "\"This is math you already know: adding and taking away with numbers up to 10. Work quietly and do the ones you know first.\"",
-      "first": "Do the first two problems on the board. Ask how the children worked them out and accept every way that gives the right answer: fingers, counting on, or just knowing it.",
-      "stuck": "Let the child use fingers or draw dots. Read a problem with an empty box as a question, for example: \"Four plus what number makes nine?\""
+      "say": "\"This is math you already know: adding and taking away with numbers up to 10. Do the ones you know first. If you need your fingers for the others, that is fine.\"",
+      "first": "Do the first two problems on the board. Ask how the children got their answers and accept every way that gives the right answer: fingers, counting on, or just knowing it.",
+      "stuck": "Let the child use fingers or draw dots; that is fine even where the page says to solve the problems in your head. Read a problem with an empty box as a question, for example: \"Four plus what number makes nine?\""
      }
     },
     {
      "key": "problems",
-     "minutes": 25,
+     "minutes": 20,
      "point": "1:word-problems",
      "type": "G1-240",
      "title": "Word Problems Within 10",
@@ -104,14 +104,14 @@
      "hard": "word-problems-hard-vegetables-g1240",
      "easy": "word-problems-easy-classroom-g1240",
      "script": {
-      "say": "\"Each problem on this page is a short story with numbers. Read the story, look at the picture, and write the answer in the box.\"",
-      "first": "Read the first story aloud twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Work out the answer together and write it in the box.",
-      "stuck": "Read the story aloud to the child and ask them to tell it back in their own words. Let them count on the picture. Reading is not what this page practices, so read any story aloud if a child asks."
+      "say": "\"Each problem on this page is a short story with numbers. I will read each story aloud. Listen, look at the picture, and write the answer in the box.\"",
+      "first": "Read the first story aloud twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then read each of the other stories aloud twice, and give the children time to answer before you read the next one.",
+      "stuck": "Read the story to the child again and ask them to tell it back in their own words. Let them touch and count the pictures, or draw dots."
      }
     },
     {
      "key": "logic",
-     "minutes": 20,
+     "minutes": 15,
      "point": "1:mazes",
      "type": "G1-420",
      "title": "Help the Orangutan Find the Banana Tree",
@@ -122,12 +122,12 @@
      "script": {
       "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
       "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
-      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; the child goes back to the last crossing and tries the other way."
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
      }
     },
     {
      "key": "closing",
-     "minutes": 15,
+     "minutes": 10,
      "point": "1:find-the-differences",
      "type": "G1-412",
      "title": "Find 7 Differences at the Pond",
@@ -136,9 +136,9 @@
      "hard": "find-the-differences-hard-g1412-18",
      "easy": "find-the-differences-easy-g1412-2",
      "script": {
-      "say": "\"We end the day with a looking puzzle. The two pictures look the same, but they are not. Find what is different and circle it.\"",
-      "first": "Find one difference together: ask a child to point to it and say what changed. Show how to circle it and tick one box, so that everyone knows how many are still to find.",
-      "stuck": "Have the child cover part of both pictures with a hand and compare one small part at a time, from top to bottom."
+      "say": "\"Here is a spot-the-difference puzzle. There are two pairs of pictures. The pictures in each pair look the same, but they are not. Find 4 differences in the left pair and 3 in the right pair, and circle each one.\"",
+      "first": "Find one difference in the left pair together: ask a child to point to it and say what changed. Show how to circle it and check off one box, so that everyone can see how many are still left to find.",
+      "stuck": "Have the child cover part of both pictures of a pair with a hand and compare one small part at a time, from top to bottom."
      }
     }
    ]

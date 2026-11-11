@@ -12,7 +12,8 @@
  */
 import { deckAssets } from '@/lib/seo/landing-content';
 
-export interface UnitStandard { rel: 'teaches' | 'prepares' | 'extends'; framework: string; code: string | null; title: string | null }
+/** rel as it reads IN THE UNIT: 'reviews' = an objective of an earlier year, 'ahead' = of a later year (scripts/units/assemble.js) */
+export interface UnitStandard { rel: 'teaches' | 'reviews' | 'ahead' | 'prepares' | 'extends'; framework: string; code: string | null; title: string | null }
 export interface UnitPaper { type: string; title: string; core: string; easy?: string; hard?: string; screen?: 1; landing?: string }
 export interface UnitLesson {
   n: number;

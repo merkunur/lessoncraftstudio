@@ -1,22 +1,22 @@
 {
- "$comment": "What a teacher wrote about a teaching point, in this language (US English): the lesson's title, its objective, and the teacher note (the usual mistake, the words to use, what to watch for). One entry per teaching point; every unit that teaches the point shows the same note. Written natively per language, never translated.",
+ "$comment": "What a teacher wrote about a teaching point, in this language (American English, serial comma, periods and commas inside closing quotation marks): the lesson's title, its objective, and the teacher note (common mistakes, the words to use, what to watch for). One entry per teaching point; every unit that teaches the point shows the same note. Written natively per language, never translated. Before writing a note, read the printed instruction of every worksheet of the point (scripts/units/dump-for-review.js prints them side by side): a note must never describe an action the page does not ask for.",
  "points": {
   "1:add-within-10-models": {
    "title": "Add two groups",
-   "objective": "Children join two groups with a total of up to 10, count how many there are altogether and write the total as a number.",
+   "objective": "Children join two groups with a total of up to 10, count how many there are altogether, and write the total as a number.",
    "note": {
-    "mistake": "Many children count the first group, then start again at 1 for the second group and lose track of the total. Others count one picture twice or skip one.",
-    "words": "Ask: \"How many in this group? How many in that group? How many altogether?\" Point to the signs and say \"plus\" and \"equals\"; use \"altogether\" and \"in all\" for the total.",
+    "mistake": "Many children count the first group, start again at 1 for the second group, and write that second number as the total. Others count one picture twice or skip one.",
+    "words": "Ask: \"How many in this group? How many in that group? How many altogether?\" Point to the plus sign and the equal sign and say \"plus\" and \"equals\"; tell the children that \"equals\" means \"is the same as.\" Use \"altogether\" and \"in all\" for the total.",
     "watch": "Watch who touches each picture once while counting. A child who says the first number and counts on from it (\"four… five, six\") is ready for the harder page."
    }
   },
   "1:subtract-cross-out": {
-   "title": "Take away and cross out",
-   "objective": "Children take a number of objects away from a group of up to 10 by crossing them out, and write how many are left.",
+   "title": "Take away: how many are left?",
+   "objective": "Children look at a group of up to 10 pictures with some crossed out, count how many are left, and write that number.",
    "note": {
-    "mistake": "Children cross out the right number of pictures and then count the crossed-out ones instead of the ones left. Some cross out pictures here and there and can no longer see what is left.",
-    "words": "Say: \"Start with six. Take away two. How many are left?\" Read 6 − 2 as \"six take away two\" first, then as \"six minus two\".",
-    "watch": "Ask each child to point to what is left before writing the answer. Crossing out from one end of the row keeps the rest together."
+    "mistake": "Children count the crossed-out pictures instead of the ones left, or count every picture, crossed out or not, and write the number they started with.",
+    "words": "Say: \"Start with six. Take away two. How many are left?\" Read 6 − 2 as \"six take away two\" first, then as \"six minus two.\"",
+    "watch": "Ask each child to point to the pictures that are left before writing the answer. A child who is unsure can act it out first: lay out six counters, slide two away, and count the ones that stay."
    }
   },
   "1:make-10": {
@@ -24,7 +24,7 @@
    "objective": "Children find the number that goes with a given number to make 10, and know the pairs that make 10.",
    "note": {
     "mistake": "Children know 5 + 5 and 9 + 1 but count from 1 for the other pairs. Many do not see that 3 + 7 and 7 + 3 are the same pair.",
-    "words": "Ask: \"What goes with 6 to make 10?\" Call the two numbers \"partners of 10\". On a ten frame: \"Six are full. How many are empty?\"",
+    "words": "Ask: \"What goes with 6 to make 10?\" Call the two numbers \"partners of 10.\" On a ten frame: \"Six are full. How many are empty?\"",
     "watch": "Who answers from the empty spaces without counting the full ones again? Those children can go on to the maze; the others stay with the ten frame."
    }
   },
@@ -32,9 +32,9 @@
    "title": "Count on and count back on a number line",
    "objective": "Children add by hopping forward and subtract by hopping back on a number line, starting from the first number.",
    "note": {
-    "mistake": "The usual slip is counting the starting number as the first hop, so 5 + 3 lands on 7. Counting back, children land one too high for the same reason.",
-    "words": "Say: \"Put your finger on 5. Do not say 5 again. Hop: six, seven, eight.\" Use \"hop forward\" for adding and \"hop back\" for subtracting.",
-    "watch": "Watch the first hop. If a child says the starting number while moving, have them say it with the finger still and only then hop."
+    "mistake": "Children count the starting number as the first hop, so 5 + 3 lands on 7. Counting back, they land one too high for the same reason.",
+    "words": "Say: \"Put your finger on 5 and say five. Now hop three times and count as you land: six, seven, eight.\" Use \"hop forward\" for adding and \"hop back\" for subtracting.",
+    "watch": "Watch the first hop. A child who says the starting number while moving lands one short. Have the child draw each hop as an arc and count the arcs, not the marks: three arcs for + 3."
    }
   },
   "1:fact-families": {
@@ -43,34 +43,34 @@
    "note": {
     "mistake": "Children write 3 + 7 = 10 and 7 + 3 = 10 easily, then write 3 − 7 = 10 or 7 − 10 = 3, because they move the numbers around without thinking about which one is the whole.",
     "words": "Ask: \"Which number is the whole? Which two are the parts?\" Then: \"The parts add up to the whole. The whole take away one part leaves the other part.\"",
-    "watch": "Check that each subtraction fact begins with the largest number. If it does not, go back to the three numbers on a number bond and cover one part."
+    "watch": "Check that each subtraction fact starts from the whole. If it does not, go back to the three numbers on a number bond, cover one part, and ask what is left."
    }
   },
   "1:missing-number-equations": {
    "title": "Find the missing number",
-   "objective": "Children find the unknown number in an addition or subtraction equation within 10, wherever the unknown stands.",
+   "objective": "Children find the unknown number in an addition or subtraction equation within 10, in any position.",
    "note": {
     "mistake": "Children add the two numbers they can see: for 4 + □ = 9 they write 13. For □ − 3 = 5 many write 2.",
-    "words": "Read the box as \"what number\": \"Four plus what number makes nine?\" Read the equal sign as \"is the same as\".",
+    "words": "Read the box as \"what number\": \"Four plus what number makes nine?\" Read the equal sign as \"is the same as.\"",
     "watch": "Have the child read the finished equation aloud and say whether it is true. A child who counts up from 4 to 9 on fingers has understood the idea."
    }
   },
   "1:word-problems": {
    "title": "Word problems within 10",
-   "objective": "Children solve addition and subtraction story problems within 10 and write the equation that tells the story.",
+   "objective": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
    "note": {
-    "mistake": "Children pick out the two numbers and add them whatever the story says, or look for one word such as \"more\" and choose the operation from it.",
-    "words": "Ask: \"What happens in the story? Are things joining or leaving?\" Have the child retell the story before any number is written. Then: \"Write the equation that tells the story.\"",
+    "mistake": "Children pick out the two numbers and add them no matter what the story says, or look for one word such as \"more\" and choose the operation from it.",
+    "words": "Ask: \"What happens in the story? Are things joining or leaving?\" Have the child retell the story before any number is written. Then: \"Write the equation that tells the story.\" The page has a box for the answer only, so have the children write the equation next to the picture.",
     "watch": "Listen to the retelling. A child who can act the story out with counters but writes the wrong sign needs the link from the action to the sign, not more counting."
    }
   },
   "1:fluency-within-20": {
-   "title": "Facts to 10 from memory",
-   "objective": "Children add and subtract within 10 without counting every time, from facts they know and facts they can work out.",
+   "title": "Fluent facts within 10",
+   "objective": "Children add and subtract within 10 without counting every time, using facts they know and facts they can figure out.",
    "note": {
-    "mistake": "Children who still count every fact from 1 are slow but usually right. The risk is that they are pushed to be fast and start to guess.",
-    "words": "Ask: \"Which facts do you just know? Which ones can you work out from a fact you know?\" For example: \"I know 4 + 4, so 4 + 5 is one more.\"",
-    "watch": "Note which facts each child still counts for; these go on the easier page tomorrow. Do not time this page."
+    "mistake": "Children count every fact from 1, even 5 + 1 or 4 + 4, because counting has always given them the right answer. When they are pushed to be fast, they stop counting and guess.",
+    "words": "Ask: \"Which facts do you just know? Which ones can you figure out from a fact you know?\" For example: \"I know 4 + 4, so 4 + 5 is one more.\"",
+    "watch": "Note which facts each child still counts for. A child who counts most of them gets the easier page for more practice; write the facts on the class record so you know what to come back to. Do not time this page."
    }
   },
   "K:rhyme": {
@@ -93,36 +93,36 @@
   },
   "K:beginning-sounds": {
    "title": "Beginning sounds",
-   "objective": "Children say a picture word, hear its first sound and match it to the letter.",
+   "objective": "Children say a picture word, hear its first sound, and match it to the letter.",
    "note": {
     "mistake": "Children say the letter name instead of the sound, or give the whole first syllable (\"ba\" for banana).",
-    "words": "Ask: \"What is the very first sound your mouth makes? Mmm… moon.\" Keep the sound short and clean: /m/, not \"muh\".",
+    "words": "Ask: \"What is the very first sound your mouth makes? Mmm… moon.\" Say the sound without adding \"uh\": hold /m/ as \"mmm,\" not \"muh\"; make /b/ quick and quiet, not \"buh.\"",
     "watch": "Ask: \"Say it. What sound did you start with?\" A child who can say the sound but not find the letter needs letter practice, not more listening."
    }
   },
   "K:sound-position": {
    "title": "Ending sounds and middle sounds",
-   "objective": "Children hear the last sound of a word and the vowel in the middle of a three-sound word.",
+   "objective": "Children say a picture word, listen for its last sound or for the vowel in the middle, and write the letter for that sound.",
    "note": {
-    "mistake": "After weeks of first sounds, children keep answering with the first sound. The middle vowel is the hardest part: short e and short i are mixed up most.",
+    "mistake": "Children who have just learned to listen for the first sound keep answering with it. The middle vowel is the hardest part: short e and short i are mixed up most.",
     "words": "Say: \"Say the word. What is the last sound you hear? Bus… /s/.\" For the middle: \"Stretch it: sss-uuu-nnn. What is in the middle?\"",
-    "watch": "A child who writes the first letter for every picture has not moved to the end of the word yet. Go back to saying the word together and catching its last sound."
+    "watch": "A child who writes the first letter for every picture has not moved to the end of the word yet. Go back to saying the word together and catching its last sound. Give ending sounds and middle sounds a day each."
    }
   },
   "K:segment-phonemes": {
    "title": "Say it slowly: one sound, one box",
-   "objective": "Children say a word slowly, count its sounds and put one sound in each box.",
+   "objective": "Children say a word slowly, count its sounds, and put one sound in each box.",
    "note": {
-    "mistake": "Children count letters instead of sounds: \"ship\" gets four dots because it has four letters. Others run the last two sounds of a word together into one box.",
-    "words": "Say: \"Touch a box for each sound: /sh/ /i/ /p/. Three sounds.\" Say \"sound\", not \"letter\", all through this lesson.",
-    "watch": "Watch the fingers, not the paper: one touch for each sound. Words with two letters for one sound show who is counting sounds and who is spelling."
+    "mistake": "Children give the beats from the syllable lesson instead of the sounds, so \"ship\" gets one dot. Others break the word into two parts only, /sh/ and \"ip,\" and run the last two sounds together in one box. Children who already know how a word is spelled may count its letters: four dots for \"ship.\"",
+    "words": "Warm up by blending. Say the sounds of a word one at a time, /s/ /u/ /n/, and ask: \"What word?\" Do five words before the children open the page. Then say: \"Touch a box for each sound: /sh/ /i/ /p/. Three sounds.\" On the Count the Sounds page say \"sound,\" never \"letter.\" On the Sound Boxes page say: \"Now write the letter or letters for each sound. Sh is two letters and one sound, so both go in the wide box.\"",
+    "watch": "Watch the fingers, not the paper: one touch for each sound. Words with two letters for one sound show who is counting sounds and who is spelling; keep those words for the children who are ready for the harder page."
    }
   },
   "K:cvc-build": {
    "title": "Build the word",
    "objective": "Children build a three-sound word for a picture from its letters, in the order of its sounds.",
    "note": {
-    "mistake": "Children write the first and last sound and leave out the vowel, or write the sounds in the order they notice them instead of the order they hear them.",
+    "mistake": "Children write the first and last sound and leave out the vowel (\"ct\" for cat), or put the letters in the wrong order (\"cta\").",
     "words": "Ask: \"Say the word. First sound? Next sound? Last sound?\" After writing: \"Touch and say each sound, then read the whole word.\"",
     "watch": "Have each child read back what they built. A child who reads \"ct\" as \"cat\" is reading from the picture; cover the picture and ask again."
    }

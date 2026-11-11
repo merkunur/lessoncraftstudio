@@ -82,7 +82,7 @@
 .un-standard-rel { color: var(--ink-soft); }
 .un-standard-code { font-weight: 700; }
 .un-standard-title { color: var(--ink-soft); }
-.un-standard-prepares, .un-standard-extends { border-style: dashed; }
+.un-standard-prepares, .un-standard-extends, .un-standard-reviews, .un-standard-ahead { border-style: dashed; }
 
 .un-slots { margin-top: 18px; display: grid; gap: 14px; }
 .un-slot-name { font-family: var(--font-nunito), system-ui, sans-serif; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); }

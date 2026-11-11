@@ -21,7 +21,7 @@ const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '
 
 function Standards({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   if (!lesson.standards.length) return null;
-  const label = { teaches: ui.standardTeaches, prepares: ui.standardPrepares, extends: ui.standardExtends };
+  const label = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
   return (
     <ul className="un-standards">
       {lesson.standards.map((s, i) => (

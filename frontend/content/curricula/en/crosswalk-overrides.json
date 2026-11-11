@@ -229,6 +229,24 @@
    "why": "Deciding odd or even by pairing objects and checking for a leftover is exactly what 2.OA.C.3 asks; it was marked readiness only because of the grade, while the same skill in K is marked teaches.",
    "review": "review-math"
   },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "1.OA.B.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.OA.B.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.OA.C.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the first units (an American K-1 teacher): the two addition facts of a fact family are the commutative property, 1.OA.B.3 'Apply properties of operations as strategies to add and subtract', which the derived rows left out. The two rows from the point's own codes stay.",
+   "review": "own-audit-units"
+  },
   "1:bar-model": {
    "rows": [
     {
@@ -570,6 +588,24 @@
    "why": "Sorting pictures by beginning sound is also isolating the initial phoneme; RF.K.2.d was missing.",
    "review": "review-ela-science"
   },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "RF.K.2.d",
+     "rel": "teaches"
+    },
+    {
+     "id": "RF.K.3.a",
+     "rel": "teaches"
+    },
+    {
+     "id": "RF.K.3.b",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the first units: the pages of this point do not stop at hearing. They ask the child to WRITE the letter a picture ends with and the vowel in its middle, which is RF.K.3.a and RF.K.3.b beside the phoneme work of RF.K.2.d.",
+   "review": "own-audit-units"
+  },
   "K:vowels-consonants": {
    "rows": [
     {
@@ -601,12 +637,34 @@
      "rel": "teaches"
     },
     {
-     "id": "RF.K.3",
+     "id": "L.K.2.c",
+     "rel": "teaches"
+    },
+    {
+     "id": "RF.K.3.a",
+     "rel": "teaches"
+    },
+    {
+     "id": "RF.K.3.b",
      "rel": "teaches"
     }
    ],
-   "why": "Building and completing CVC words from letters is phonetic spelling (encoding); L.K.2.d was missing.",
-   "review": "review-ela-science"
+   "why": "Found by the reviewer of the first units: RF.K.3 is the heading of its group, not a standard a teacher cites. Building a three-sound word from letters is L.K.2.d (spell simple words phonetically) and L.K.2.c (write a letter for most consonant and short-vowel sounds), and uses RF.K.3.a (letter-sound correspondences for consonants) and RF.K.3.b (the short vowels).",
+   "review": "own-audit-units",
+   "was": {
+    "rows": [
+     {
+      "id": "L.K.2.d",
+      "rel": "teaches"
+     },
+     {
+      "id": "RF.K.3",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Building and completing CVC words from letters is phonetic spelling (encoding); L.K.2.d was missing.",
+    "review": "review-ela-science"
+   }
   },
   "K:digraphs-k": {
    "rows": [

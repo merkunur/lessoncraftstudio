@@ -37,7 +37,8 @@ const thumb = (slug) => HOST + '/' + loc + '/decks/' + slug + '/thumbnail.png';
 function html(unit) {
   const grade = messages.seo.educational_level[LEVEL_KEY[unit.grade]] || unit.grade;
   const subject = ui['subject_' + unit.subject] || unit.subject;
-  const std = (l) => l.standards.map((s) => [s.framework, s.code].filter(Boolean).join(' ')).filter(Boolean);
+  // (the table at a glance lists a lesson's OWN standards; what it reviews or reaches ahead to is on the lesson's page)
+  const std = (l) => l.standards.filter((s) => s.rel === 'teaches').map((s) => [s.framework, s.code].filter(Boolean).join(' ')).filter(Boolean);
   const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s">' + esc(std(l).join(', ')) + '</td></tr>').join('');
   const cover = '<section class="page cover"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.unitWord].join(' · ')) + '</p><h1>' + esc(unit.title) + '</h1><p class="kind">' + esc(ui.guideTitle) + '</p>'
     + '<p class="facts">' + esc(fill(ui.factLessons, { n: unit.lessons.length })) + ' · ' + esc(unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })) + '</p>'
@@ -51,7 +52,7 @@ function html(unit) {
     if (l.exit) need.push('<li><b>' + esc(ui.slotExit) + ':</b> ' + esc(fill(ui.slotExitText, { title: l.exit.title })) + '</li>');
     if (l.maker) need.push('<li><b>' + esc(ui.slotMaker) + ':</b> ' + esc(fill(ui.slotMakerText, { name: l.maker.name })) + '</li>');
     const pics = l.paper.map((p) => '<figure><img src="' + thumb(p.core) + '" alt=""><figcaption>' + esc(p.title) + '</figcaption></figure>').join('');
-    const rel = { teaches: ui.standardTeaches, prepares: ui.standardPrepares, extends: ui.standardExtends };
+    const rel = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
     const stds = l.standards.map((s) => '<span class="std"><i>' + esc(rel[s.rel]) + '</i> <b>' + esc([s.framework, s.code].filter(Boolean).join(' ')) + '</b>' + (s.title ? ' ' + esc(s.title) : '') + '</span>').join('');
     return '<section class="page lesson"><header><p class="no">' + esc(fill(ui.lessonWord, { n: l.n })) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
       + '<div class="cols"><div><h3>' + esc(ui.guideNeed) + '</h3><ul class="need">' + need.join('') + '</ul></div><div class="pics">' + pics + '</div></div>'

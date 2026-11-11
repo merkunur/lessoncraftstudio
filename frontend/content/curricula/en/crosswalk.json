@@ -592,6 +592,11 @@
   "1:fact-families": {
    "rows": [
     {
+     "id": "1.OA.B.3",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
      "id": "1.OA.B.4",
      "rel": "teaches",
      "grade": "1"
@@ -602,7 +607,7 @@
      "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:missing-number-equations": {
    "rows": [
@@ -1951,9 +1956,19 @@
      "id": "RF.K.2.d",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "RF.K.3.a",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "RF.K.3.b",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:vowels-consonants": {
    "rows": [
@@ -1992,7 +2007,17 @@
      "grade": "K"
     },
     {
-     "id": "RF.K.3",
+     "id": "L.K.2.c",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "RF.K.3.a",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "RF.K.3.b",
      "rel": "teaches",
      "grade": "K"
     }

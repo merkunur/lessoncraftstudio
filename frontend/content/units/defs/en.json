@@ -1,5 +1,5 @@
 {
- "$comment": "The units of this language: which teaching points, in which order, with which worksheet types. Everything else in a unit is filled by scripts/units/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere.",
+ "$comment": "The units of this language: which teaching points, in which order, with which worksheet types. Everything else in a unit is filled by scripts/units/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere. A lesson's screen activity must not run ahead of the teaching (an activity with subtraction before the subtraction lesson): name it per lesson (\"activity\") or set it to null to use a page of the lesson that checks the answers.",
  "units": [
   {
    "id": "g1-add-subtract-within-10",
@@ -9,11 +9,11 @@
    "subject": "math",
    "title": "Addition and Subtraction Within 10",
    "metaTitle": "Addition and Subtraction Within 10: Grade 1 Unit Plan",
-   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages at three levels and a screen activity.",
+   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and practice on screen.",
    "weeks": 2,
    "lessons": [
-    { "point": "1:add-within-10-models", "types": ["G1-101", "G1-110"] },
-    { "point": "1:subtract-cross-out", "types": ["G1-103", "G1-104"], "activity": "ten-frame.solve-the-story.k-oa-a-2" },
+    { "point": "1:add-within-10-models", "types": ["G1-101", "G1-110"], "activity": null },
+    { "point": "1:subtract-cross-out", "types": ["G1-103", "G1-104"], "activity": "ten-frame.show-the-operation.k-oa-a-1" },
     { "point": "1:make-10", "types": ["G1-106", "G1-427"], "tool": "ten-frame" },
     { "point": "1:count-on-back-hops", "types": ["G1-116", "G1-117"], "tool": "number-line" },
     { "point": "1:fact-families", "types": ["G1-219", "G1-221"] },
@@ -29,9 +29,9 @@
    "grade": "K",
    "subject": "literacy",
    "title": "Hearing Sounds in Words",
-   "metaTitle": "Hearing Sounds in Words: Kindergarten Phonemic Awareness Unit",
-   "metaDescription": "A Kindergarten phonological awareness unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words, with teacher notes and practice pages.",
-   "weeks": 2,
+   "metaTitle": "Hearing Sounds in Words: Kindergarten Phonological Awareness Unit",
+   "metaDescription": "A Kindergarten review unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words, with teacher notes, for children who know most letter sounds.",
+   "weeks": 3,
    "lessons": [
     { "point": "K:rhyme", "types": ["K-352", "K-232"] },
     { "point": "K:count-syllables", "types": ["K-233", "K-234"], "tool": "syllable-splitter" },

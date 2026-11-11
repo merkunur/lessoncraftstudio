@@ -52,7 +52,9 @@ function assemble(loc, opt = {}) {
       // a day of review: nothing from a later grade than the pack's
       if ('K123'.indexOf(p.grade) > 'K123'.indexOf(String(d.grade))) bad(bw + ': the teaching point is of grade ' + p.grade + ', later than the pack\'s grade');
       if (!p.types.includes(b.type)) { bad(bw + ': type ' + b.type + ' does not belong to ' + b.point); continue; }
-      const sc = scripts[b.point];
+      // the point's script, with the sentences that are true of this worksheet type only
+      const base = scripts[b.point];
+      const sc = base ? Object.assign({}, base, (base.byType || {})[b.type] || {}) : null;
       if (!sc || !sc.say || !sc.first || !sc.stuck) { bad(bw + ': the point has no full script (say, first, stuck) in scripts/' + loc + '.json'); continue; }
       const pg = pages.get(b.type), s = strings[b.type];
       if (!pg || !pg.core.length || !s || !s.title || !s.instruction) { bad(bw + ': type ' + b.type + ' has no published core page, title or instruction in this language'); continue; }

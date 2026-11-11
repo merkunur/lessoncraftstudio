@@ -1,0 +1,1154 @@
+{
+ "built": "2026-11-11",
+ "perShard": 24,
+ "urls": [
+  {
+   "url": "https://www.lessoncraftstudio.com/da/decks/addition-billede-billede-4-juli-4144/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/decks/sorter-i-naturen-k204-3/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/bildpfad-klassisches-labyrinth-berufe-e068/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/mehr-weniger-ankreuzen-und-durchstreichen-ostern-7a59/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/suchen-und-zaehlen-buchstaben-suchen-formen-488d/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/chart-count/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/phonological-awareness-k234/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/science-sort-k210/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/busqueda-del-tesoro-puntos-cardinales-accesorios-5a6e/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/criptograma-8078/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/formar-palabras-k224/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/sudoku-de-imagenes-dificil-utensilios-de-cocina-7e74/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/decks/kryptogrammi-3324/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/decks/yhteenlasku-kuva-kuva-aktiviteetit-ccd5/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/decks/logique-visuelle-g3350/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/addizione-codificata-emozioni-4af1/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/crittogramma-fd0a/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/trova-e-conta-trova-lettere-animali/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/decks/natuur-sorteren-k204-3/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/decks/bildeordforraad-k225-5/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/decks/sortere-i-naturfag-k208-5/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/decks/conhecimento-das-letras-k230-2/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/decks/subtracao-riscar-inverno-ecb3/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/decks/matteblad-3-symboler-add-sub-gronsaker-88d0/",
+   "shard": "/sitemap/0.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/decks/addition-billede-billede-farver-f325/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/decks/sorter-i-naturen-g1202-5/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/bildersortierung-accessories-vs-post-office-b1e1/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/mehr-weniger-ankreuzen-und-durchstreichen-baume-a665/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/decks/suchen-und-zaehlen-versteckte-objekte-berufe-59cd/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/counting-pictures-animals-k059/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/picture-sort-4th-of-july-vs-shapes/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/decks/treasure-hunt-compass-trees/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/clasificar-ciencias-k208-2/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/empareja-sombras-emparejar-la-sombra-alrededor-de-la-casa-98be/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/mas-o-menos-imagen-imagen-vida-marina-98a8/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/decks/suma-codificada-palabra-secreta-verduras-5f73/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/decks/laske-kuvat-elaimet-k028/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/decks/calcul-illustre-jouets-g1102/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/decks/soustraction-image-nombre-couleurs-9295/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/addizione-codificata-utensili-da-cucina-748b/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/decine-e-unita-g2206/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/decks/trova-e-conta-oggetti-nascosti-parti-del-corpo-732c/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/decks/meer-minder-beeld-beeld-zomer-869a/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/decks/visuele-waarneming-speelgoed-k062/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/decks/preposisjoner-fyll-inn-4-juli-8046/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/decks/classificar-ciencias-k211/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/decks/qual-e-diferente-mesmo-tema-4-de-julho-5199/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/decks/matteblad-2-symboler-add-sub-frukter-eab8/",
+   "shard": "/sitemap/1.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/topic/1-klasse/billedregning",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/topic/bornehaveklasse/manglende-brikker",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/topic/paske/bornehaveklasse",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/topic/kindergarten/bildpfad",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/topic/tiere/subtraktion",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/topic/fruits/kindergarten",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/topic/kindergarten/science-sort",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/topic/animales/resta",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/topic/jardin-infantil/criptograma",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/topic/1-luokka/kaaviot",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/topic/esiopetus/kokojen-vertailu",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/topic/talvi/esiopetus",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/topic/cp-cours-preparatoire/lettres-melangees",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/topic/meubles/ecole-maternelle-grande-section-5-7-ans",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/topic/giocattoli/scuola-dell-infanzia-5-7-anni",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/topic/scuola-dell-infanzia-5-7-anni/trova-gli-oggetti",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/topic/dieren/meer-minder",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/topic/kleuterklas/ontbrekende-stukken",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/topic/2-trinn/geometri",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/topic/dyr/barnehage-3-5-ar",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/topic/2-ano-fundamental/fracoes",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/topic/educacao-infantil-pre-escola-5-7-anos/adicao-com-codigo",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/topic/4-juli/arskurs-1",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/topic/forskola/stor-liten",
+   "shard": "/sitemap/2.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/topic/diverse",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/topic/tallinje",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/topic/bauernhoftiere-sw",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/topic/strand",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/standards/L.K.1.F",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/topic/number-charts",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/standards/K.CC.B.4",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/topic/familias-de-operaciones",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/standards/2.MD.A.1",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/topic/keittiovalineet",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheet-makers",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/topic/comptage-graphique",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/topic/soleil-terre-lune-planetes",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/topic/al-supermercato",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/topic/raccolta-differenziata",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/standards/RF.K.3.d",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/topic/rekenwerkblad",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/standards/L.2.2.a",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/topic/matematikk/3-trinn/online",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/standards/K.CC.C.6",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/topic/fazenda-pb",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/standards/2.MD.A.1",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/topic/havsliv",
+   "shard": "/sitemap/3.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/3-tabellen",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/match-skygger-gor-hel-rundt-i-huset-0407",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/subtraktion-blandet-havliv-e508",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/mathe-arbeitsblatt-zootiere",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/wort-raten-normal-weihnachten-acb4",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/fact-families-missing-partner",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/pattern-train-aabb-occupations",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/adivina-la-palabra-normal-accesorios-77fc",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/portugues-sopa-de-letras-navidad-5877",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/arvaa-sana-helppo-ruumiinosat-876f",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/lajittele-kuvat-forest-creatures-vs-dinosaurs-0dbb",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/yhteenlasku-kuva-numero-leipomo-efe6",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/lire-l-ecriture-cursive-relier-mot-image",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/trier-les-images-animals-vs-furniture-ced4",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/inglese-cerca-parole-vita-oceanica-fa48",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/treno-dei-modelli-abc-mobili-352b",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/maanden-van-het-jaar-op-volgorde",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/voorzetsels-meerkeuze-insecten-en-beestjes-8f90",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/gjett-ordet-lett-gardsdyr-1ec1",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/regnefortellinger-addisjon",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/bingo-pela-casa-d174",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/palavras-para-perguntar",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/addition-blandat-verktyg-5337",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/mer-mindre-bild-nummer-blommor-2f5c",
+   "shard": "/sitemap/4.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/4-tabellen",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/manglende-brikker-2-manglende-brikker-dinosaurer-e30b",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/spoerg-om-billedet-hvorfor-og-hvordan",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/mathe-raetsel-addition-kleidung-814e",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/wortsuche-wetter",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/find-objects-i-spy-forest-creatures-3075",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/picture-maze-hedgehog-apple-tree",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/busqueda-del-tesoro-primavera",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/problemas-hasta-10",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/enemman-vahemman-kuva-numero-lemmikit-e584",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/lukujonot-2-luokka",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/addition-image-nombre-insectes-et-bestioles-17ff",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/mots-meles-animaux-3654",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/trouve-et-compte-objets-caches-animaux-du-zoo-28eb",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/inglese-cerca-parole-abbigliamento-1711",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/treno-dei-modelli-abb-colori-3d9f",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/koppelen-letter-desserts-en-snoep-806e",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/voorzetsels-meerkeuze-kerstmis-3f35",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/gjett-ordet-normal-camping-7b47",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/regeldetektiv-dobbel-konsonant",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/como-evitar-os-germes-1o-ano",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/pareamento-de-sombras-complete-passaros-2-5d83",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/alfabetstaget-sjukhus-b0ec",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/mer-mindre-bild-bild-i-snabbkopet-50a1",
+   "shard": "/sitemap/5.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/10-tabellen",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/manglende-brikker-1-manglende-brik-kropsdele-b034",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/stor-lille-find-den-store-ting-der-flyver-b63f",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/mathe-arbeitsblatt-kleidung",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/addition-image-image-flowers",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/first-small-letters-tracing",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/picture-trail-desserts-and-sweets",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/colorear-sumas-y-restas",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/resta-imagen-numero-animales-808f",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/englanti-ristikko-postitoimisto-17fa",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/matematiikkapulma-sekoitettu-metsan-elaimet-10f5",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/addition-image-nombre-noel-e562",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/mots-croises-bureau-de-poste-b5a6",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/la-vocale-di-ogni-sillaba-giocattoli",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/trova-gli-oggetti-trova-il-diverso-musica-1e4f",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/objecten-zoeken-ik-zie-ik-zie-strand-b799",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/woordzoeker-kerstmis-1e96",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/kodeaddisjon-paske-a7d8",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/skriv-ordet-bokstavruter-og-forste-bokstav",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/caminho-ilustrado-labirinto-classico-cores-3e1a",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/pareamento-nomes-9188",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/bildsudoku-latt-leksaker-4da8",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/monsterblad-jul-f95a",
+   "shard": "/sitemap/6.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/2-tabellen",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/laes-og-goer-foerste-anden-og-mellem",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheets/sorter-billeder-vegetables-vs-dinosaurs-10c8",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/kreuzwortraetsel-weltraum-2d35",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/wortsuche-musik",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/find-and-count-weather",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/odd-one-out-animals-kindergarten",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/weather-symbols-match-symbol-to-word",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheets/mis-primeras-letras-a-b-c-d",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/aakkosjuna-huonekalut-5add",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/kuviojuna-jalkiruoat-ja-makeiset-28aa",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets/yhdistaminen-kirjain-kiitospaiva-047e",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/l-intrus-meme-theme-meubles-b340",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheets/train-de-modeles-aabb-printemps-0383",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/il-mese-prima-e-il-mese-dopo-classe-prima",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheets/treno-dei-modelli-aab-alberi-1296",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/koppelen-letter-rond-het-huis-bc48",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheets/van-stip-naar-stip-terugtellen-vanaf-10",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheets/preposisjoner-flervalg-frokost-adc5",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/bingo-cores-5b34",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheets/palavras-cruzadas-d024",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/alfabetstaget-bokstavsledtrad-tillbehor-83af",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheets/mer-mindre-bild-nummer-tillbehor-0bc9",
+   "shard": "/sitemap/7.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/activities/24-timers-ur-omregn-klokkeslaet-3-klasse",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/activities/lige-dele-halvdele-og-fjerdedele",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/activities/addieren-und-subtrahieren-am-zahlenstrahl-bis-100-klasse-2",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/activities/laute-zusammenschleifen-klasse-1",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/activities/zahlen-11-bis-19",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/activities/fern-clue-garden",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/activities/same-size-different-shape",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/activities/contar-de-10-en-10-hasta-100-decenas-primer-grado",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/activities/numeros-del-11-al-19-decenas-y-unidades-primer-grado",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/activities/aseta-kello",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/activities/mimin-muistikorit-lajittele-asiat-esiopetus",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/activities/ajouter-et-retrancher-10-et-100-jusqu-a-1000-ce1",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/activities/le-pluriel-des-noms-marque-s-et-x-ce1",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/activities/trier-formes-cotes",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/activities/famiglie-di-parole-la-radice-classe-seconda",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/activities/scrivere-numeri-0-a-20-con-frutta",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/activities/hoeveel-zijn-er",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/activities/tellen-tot-20-met-fruit",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/activities/finn-formen-trekanter-firkanter-femkanter-sekskanter",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/activities/raske-regnefakta-til-5",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/activities/comparar-numeros-de-dois-digitos",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/activities/monte-a-matriz",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/activities/addition-och-subtraktion-pa-tioram",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/activities/ljudladorna-forsta-mittersta-och-sista-ljudet",
+   "shard": "/sitemap/8.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/tools",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/tools/lydbokse",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/tools/tierramme",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/tools/laermpegel-klassenzimmer",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/tools/woerter-raten-ersteller",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/tools/estimation-jar",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/tools/picture-word-wall",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/tools/cual-no-encaja",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/tools/la-figura-de-goma-girar-no-cambia-nada-inclinar-si-primaria-1",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/tools/kaksinkertaistaminen-ja-puolittaminen-nappuloilla-alkuopetus",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/tools/nollan-alapuolella-lampomittari-alkuopetus",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/tools/atelier-des-mesures",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/tools/generateur-fiches-sequences-logiques",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/tools/tableau-pour-se-faire-comprendre",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/tools/generatore-pagine-colorare",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/tools/secchielli-da-dieci-valore-posizionale",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/tools/klankdozen",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/tools/tafelluik-tafels-leren-automatiseren-groep-4-5",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/tools/finn-gjenstandene-skaper",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/tools/preposisjoner-arbeidsark-skaper",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/tools/decompor-numeros",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/tools/ler-por-grupos-de-palavras",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/tools/bildordvagg",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/tools/moenster-arbetsblad-skapare",
+   "shard": "/sitemap/9.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheet-makers/lav-billedkort-og-opgaver-om-ordforraad",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheet-makers/lav-opgaver-om-ental-flertal-og-kendeord",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/da/worksheet-makers/lav-opgaver-om-talraekker-og-hundredtavlen",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheet-makers/kalender-wochentage-und-monate-arbeitsblaetter-erstellen",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheet-makers/woertersuchraetsel-fuer-kinder-arbeitsblaetter-erstellen",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheet-makers/graph-and-data-worksheet-maker",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheet-makers/same-and-different-worksheet-maker",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheet-makers/generador-de-hojas-de-figuras-y-geometria",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es/worksheet-makers/generador-de-hojas-de-sonidos-y-conciencia-fonologica",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheet-makers/kaaviot-ja-tiedot-tee-omat-tehtavat",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheet-makers/parilliset-ja-parittomat-luvut-tee-omat-tehtavat",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheet-makers/creer-des-fiches-de-cartes-et-de-reperage",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheet-makers/creer-des-fiches-pour-comparer-des-nombres",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr/worksheet-makers/generateur-de-fiches-sur-les-fractions",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheet-makers/generatore-di-schede-per-classificare",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it/worksheet-makers/generatore-di-schede-sulle-parole-frequenti",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheet-makers/werkbladen-klokkijken-maken",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl/worksheet-makers/werkbladen-van-stip-naar-stip-maken",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheet-makers/lag-oppgaver-med-tierruter-og-tellestreker",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no/worksheet-makers/lag-oppgaver-om-ordklasser-og-grammatikk",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheet-makers/gerador-de-atividades-de-consciencia-fonologica",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt/worksheet-makers/gerador-de-atividades-de-pintar-por-numero",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheet-makers/skapa-arbetsblad-med-labyrinter",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/worksheet-makers/skapa-arbetsblad-om-lasforstaelse",
+   "shard": "/sitemap/10.xml"
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi/worksheets",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/sets",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/activities",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv/activities",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/tools",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheet-makers",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/pricing",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/pricing",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/standards/K.CC.B.4",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fr",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/es",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/pt",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/it",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/nl",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/sv",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/no",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/fi",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/en/worksheets/sets/k002",
+   "shard": null
+  },
+  {
+   "url": "https://www.lessoncraftstudio.com/de/worksheets/sets/g1245",
+   "shard": null
+  }
+ ]
+}

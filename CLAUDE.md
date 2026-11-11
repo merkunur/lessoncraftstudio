@@ -72,6 +72,16 @@ Operator ruling, verbatim: **"The local ai should not have anything to do with t
 
 ---
 
+## [AMENDMENT 2026-11-11] Daily Teaching System — lesson plans and progress tracking are BACK IN SCOPE
+
+Operator ruling, verbatim: *"Lesson plans should be built. Progress tracking should be built as mentioned in the indispensable daily teaching system file."*
+
+- **Lesson plans are rebuilt** inside curriculum units. The "STOP and ask" instruction of the 2026-05-17 amendment below does not apply to this programme. The bar from 2026-10-28 holds: a plan is assembled from the real content it links to; no generic filler.
+- **Progress tracking is built**: optional, a paid account creates a session link, children's results on interactive sheets go to a teacher dashboard. This supersedes "NO progress tracking" / "no session tracking" in §3.4, §4.4, §11 and the historical games text. Still in force: no student accounts, and no score, streak, timer or ranking on the child's screen.
+- **Master plan + trigger:** `docs/daily-teaching-system/PLAN.md`; "implement Part N" starts a part. PLANNED ONLY as of 2026-11-11; the remaining activities are built last.
+
+---
+
 ## [AMENDMENT 2026-05-17] Teaching-packages domain removed
 
 Per operator commission this date, the **lesson-plans / teaching-packages / themed-bundles domain** was nuked in full (commits `[D-1 inventory]` → `[D-2 code+UI removal]` → `920aebbc` "[REMOVE][SCHEMA] DROP teaching-packages domain tables"). The removal covers:

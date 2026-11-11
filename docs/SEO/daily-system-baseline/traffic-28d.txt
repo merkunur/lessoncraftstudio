@@ -1,0 +1,108 @@
+== Daily Teaching System baseline — captured 2026-11-11T05:18Z ==
+== window: the 28 complete days before today (UTC) ==
+
+-- 1. site totals (28 days) and per-day averages
+ sessions | pageviews | sessions_per_day | google_sessions | google_sessions_per_day 
+----------+-----------+------------------+-----------------+-------------------------
+    77361 |    172248 |           2762.9 |            8599 |                   307.1
+(1 row)
+
+-- 2. Google-referred sessions per week (oldest first)
+ week_starting | google_sessions 
+---------------+-----------------
+ 2026-10-14    |            1883
+ 2026-10-21    |            1952
+ 2026-10-28    |            2311
+ 2026-11-04    |            2604
+(4 rows)
+
+-- 3. by page family: pageviews, sessions that viewed it, Google-referred sessions that LANDED on it
+             surface              | pageviews | sessions | visits_starting_here | google_visits_starting_here 
+----------------------------------+-----------+----------+----------------------+-----------------------------
+ 01 deck page                     |     40355 |    29648 |                25665 |                         537
+ 02 level set page                |      1172 |      682 |                  328 |                           1
+ 03 worksheet landing or hub page |        73 |       62 |                   57 |                           3
+ 04 worksheets hub                |     25165 |    12882 |                 9705 |                          25
+ 05 topic page (2 axes)           |     15844 |    11606 |                11680 |                        1819
+ 06 topic page                    |     26288 |    14656 |                14099 |                        3380
+ 07 activity page                 |      7939 |     3825 |                 3378 |                         690
+ 08 activities hub                |      3542 |      504 |                  211 |                          10
+ 09 tool page                     |      6937 |     4566 |                 4281 |                        1612
+ 10 tools hub                     |       568 |      324 |                   54 |                           7
+ 11 maker landing                 |       955 |      609 |                  286 |                          39
+ 12 makers hub                    |       601 |      397 |                   63 |                           1
+ 14 standards page                |       621 |      474 |                  368 |                          15
+ 15 pricing                       |      2603 |     1221 |                   75 |                           0
+ 16 sign-in, sign-up, subscribe   |     23552 |    16491 |                12248 |                          56
+ 17 workspace                     |      3442 |     2020 |                  107 |                          23
+ 19 homepage                      |      7445 |     3095 |                 2213 |                         450
+ 20 other                         |      5146 |     2220 |                  577 |                          22
+(18 rows)
+
+-- 4. by language (first path segment): sessions and Google-referred sessions
+ lang | sessions | google_sessions 
+------+----------+-----------------
+ en   |    16740 |            1253
+ fr   |    11795 |            1245
+ it   |    10292 |             807
+ de   |     9625 |             936
+ es   |     7436 |             446
+ sv   |     7266 |            1457
+ nl   |     4810 |             793
+ pt   |     3957 |             226
+ no   |     3097 |             865
+ fi   |     2544 |             489
+ da   |     2379 |             209
+      |      968 |               0
+(12 rows)
+
+-- 5. conversion events (28 days): how many, and from how many sessions
+    event_name     | events | sessions 
+-------------------+--------+----------
+ meter-wall-shown  |   1700 |     1019
+ signup            |   1277 |     1246
+ checkout-started  |     50 |       28
+ pack-locked-click |     13 |        6
+(4 rows)
+
+-- 6. where the paywall was shown (page family of the wall event)
+        surface         | walls | sessions 
+------------------------+-------+----------
+ 06 topic page          |   949 |      641
+ 05 topic page (2 axes) |   523 |      338
+ 07 activity page       |   183 |       45
+ 09 tool page           |    25 |       14
+ 20 other               |    20 |       13
+(5 rows)
+
+-- 7. sessions that saw a wall and then opened pricing / started checkout
+ walled_sessions | of_which_opened_pricing | of_which_started_checkout 
+-----------------+-------------------------+---------------------------
+            1019 |                     158 |                         6
+(1 row)
+
+-- 8. accounts and subscriptions (application database, counts only)
+ accounts_total | accounts_created_28d 
+----------------+----------------------
+           4387 |                 1913
+(1 row)
+
+  status  | count 
+----------+-------
+ active   |    11
+ canceled |     5
+ past_due |     2
+(3 rows)
+
+ subscriptions_created_28d 
+---------------------------
+                         6
+(1 row)
+
+-- 9. the teacher features the new programme extends (rows that exist today)
+ deck_play_links | activity_play_links | hosted_worksheets | maker_recipes | maker_share_links | collections 
+-----------------+---------------------+-------------------+---------------+-------------------+-------------
+               5 |                   1 |                 7 |             9 |                 4 |           4
+(1 row)
+
+== end ==

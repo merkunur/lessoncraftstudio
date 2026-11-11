@@ -36,6 +36,7 @@ const REG = 'es';
 const ACCESSED = '2026-11-11';
 const DIR = path.join(REPO, 'out', 'curricula', REG);
 const FASES = [
+  { no: 2, grades: ['P1', 'P2', 'P3'], stage: '1°, 2° y 3° de preescolar', file: 'fase2.pdf', url: 'https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase-2.pdf' },
   { no: 3, grades: ['1', '2'], file: 'fase3.pdf', url: 'https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase_3.pdf' },
   { no: 4, grades: ['3', '4'], file: 'fase4.pdf', url: 'https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase_4.pdf' },
 ];
@@ -45,7 +46,7 @@ const CAMPOS = [
   { code: 'ENS', name: 'Ética, Naturaleza y Sociedades', key: 'nem-etica-naturaleza-y-sociedades', subject: 'social' },
   { code: 'HC', name: 'De lo Humano y lo Comunitario', key: 'nem-de-lo-humano-y-lo-comunitario', subject: 'health' },
 ];
-const GRADE_ROW = /^(?:Primer|Segundo|Tercer|Cuarto) grado(?: (?:Primer|Segundo|Tercer|Cuarto) grado)?$/;
+const GRADE_ROW = /^(?:Primer|Segundo|Tercer|Cuarto) grado(?: (?:Primer|Segundo|Tercer|Cuarto) grado)?$|^1° 2° 3°$/;
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z]/g, '');
 
 function wordsOf(file) {
@@ -71,7 +72,9 @@ const join = (lines) => lines.map((s) => s.trim()).join('\n').replace(/([a-záé
 function parse(fase, pages) {
   const nodes = [], problems = [];
   let campo = null, inTables = false, contenido = null, cNo = 0;
-  const last = [null, null, null];   // the paragraph each column is still writing, with the y of its last line
+  const N = fase.grades.length + 1;   // the contenidos column and one column per grade (two in primaria, three in preescolar)
+  const last = new Array(N).fill(null);   // the paragraph each column is still writing, with the y of its last line
+  const knownCols = {};   // where the columns stand on left pages and on right pages
   const counts = {};
   for (const p of pages) {
     const rows = rowsOf(p.words).filter((r) => r.y < p.height - 45);
@@ -88,17 +91,34 @@ function parse(fase, pages) {
     const header = rows.filter((r) => r.words.every((w) => w[5]) && /Procesos|Contenidos|grado/.test(r.text)).map((r) => r.y).concat(gradeRows);
     if (header.length) { const top = Math.max(...header); for (let i = body.length - 1; i >= 0; i--) if (body[i].y < top) body.splice(i, 1); }
     if (!body.length) continue;
-    // where the three columns begin on this page: the three places where most line segments start
+    // where the columns begin on this page: the places where most line pieces start (counted in bins of 3 points)
     const starts = new Map();
     for (const r of body) r.words.forEach((w, i) => { if (i === 0 || w[0] - r.words[i - 1][2] > 9) { const k = Math.round(w[0] / 3) * 3; starts.set(k, (starts.get(k) || 0) + 1); } });
-    const cols = [...starts].sort((a, b) => b[1] - a[1]).slice(0, 3).map((x) => x[0]).sort((a, b) => a - b);
-    if (cols.length < 3) { problems.push('fase ' + fase.no + ' page ' + p.n + ': the table\'s three columns were not found'); continue; }
-    const colOf = (x) => (x < cols[1] - 5 ? 0 : x < cols[2] - 5 ? 1 : 2);
-    // every row gives up to three line pieces; a contenido opens when the first column starts a new paragraph
+    let cols = [...starts].sort((a, b) => b[1] - a[1]).slice(0, N).map((x) => x[0]).sort((a, b) => a - b);
+    // A page that holds little (the end of a table) does not show every column, or shows the indent of a list more
+    // often than a column: the table stands at the same place as on the page before it of the same side (left or
+    // right page), so that page's columns are used when this one's are not all there or do not agree with them.
+    const known = knownCols[p.n % 2] || knownCols[(p.n + 1) % 2];
+    const agrees = known && cols.length === N && cols.every((x, i) => Math.abs(x - known[i]) <= 8);
+    if (cols.length === N && (!known || agrees)) knownCols[p.n % 2] = cols;
+    else if (knownCols[p.n % 2]) cols = knownCols[p.n % 2];
+    else if (cols.length < N && known) cols = known;
+    if (cols.length < N) { problems.push('fase ' + fase.no + ' page ' + p.n + ': the ' + N + ' columns of the table were not found'); continue; }
+    // a word stands in the last column that begins at or left of it; the beginnings are known to about 5 points
+    const colOf = (x) => { let c = 0; for (let i = 1; i < N; i++) if (x >= cols[i] - 5) c = i; return c; };
+    // every row gives a line piece per column; a contenido opens when the first column starts a new paragraph
     for (const r of body) {
-      const pieces = [[], [], []];
-      for (const w of r.words) pieces[colOf(w[0])].push(w[4]);
-      for (let c = 0; c < 3; c++) {
+      const placed = cols.map(() => []);
+      for (const w of r.words) placed[colOf(w[0])].push(w);
+      // One case the 5 points get wrong: a full line of the cell to the left whose LAST word ("y", "de") ends up just
+      // left of the next column's beginning and is taken for that column. It is known by standing alone there, a
+      // normal word space after the left cell's last word.
+      for (let c = 1; c < N; c++) {
+        const lone = placed[c].length === 1 ? placed[c][0] : null, left = placed[c - 1];
+        if (lone && lone[0] < cols[c] - 0.8 && left.length && lone[0] - left[left.length - 1][2] <= 4) { left.push(lone); placed[c] = []; }
+      }
+      const pieces = placed.map((ws) => ws.map((w) => w[4]));
+      for (let c = 0; c < N; c++) {
         if (!pieces[c].length) continue;
         const text = pieces[c].join(' ');
         const prev = last[c];
@@ -110,8 +130,8 @@ function parse(fase, pages) {
         const inner = c > 0 && prev && prev.node.parent === (contenido && contenido.id) && (/:$/.test(prevLine) || /^[-–•]/.test(text) || /^[a-záéíóúñü]/.test(text) || !/[.;!?)]$/.test(prevLine));
         if (cont || inner) { prev.node._lines.push(text); prev.y = r.y; prev.page = p.n; continue; }
         if (c === 0) {
-          contenido = { id: 'F' + fase.no + '.' + campo.code + '.' + (++cNo), f: campo.key, kind: 'content', grade: fase.grades.join('-'), parent: 'F' + fase.no + '.' + campo.code, text: '', _lines: [text] };
-          nodes.push(contenido); counts[contenido.id] = [0, 0, 0];
+          contenido = { id: 'F' + fase.no + '.' + campo.code + '.' + (++cNo), f: campo.key, kind: 'content', grade: fase.grades[0] + '-' + fase.grades[fase.grades.length - 1], parent: 'F' + fase.no + '.' + campo.code, text: '', _lines: [text] };
+          nodes.push(contenido); counts[contenido.id] = new Array(N).fill(0);
           last[0] = { node: contenido, y: r.y, page: p.n };
         } else {
           if (!contenido) { problems.push('fase ' + fase.no + ' page ' + p.n + ': a process before any contenido: "' + text.slice(0, 50) + '"'); continue; }
@@ -151,7 +171,7 @@ function panorama(pages) {
     const r = parse(fase, pages);
     problems.push(...r.problems);
     for (const c of CAMPOS) {
-      const area = { id: 'F' + fase.no + '.' + c.code, f: c.key, kind: 'area', grade: fase.grades.join('-'), text: c.name + ' — Fase ' + fase.no + ' (' + fase.grades.map((g) => g + '°').join(' y ') + ' de primaria)' };
+      const area = { id: 'F' + fase.no + '.' + c.code, f: c.key, kind: 'area', grade: fase.grades[0] + '-' + fase.grades[fase.grades.length - 1], text: c.name + ' — Fase ' + fase.no + ' (' + (fase.stage || fase.grades.map((g) => g + '°').join(' y ') + ' de primaria') + ')' };
       const mine = r.nodes.filter((n) => n.f === c.key);
       const contents = mine.filter((n) => n.kind === 'content');
       if (contents.length < 3) problems.push('fase ' + fase.no + ' ' + c.name + ': ' + contents.length + ' contenidos read');
@@ -168,9 +188,9 @@ function panorama(pages) {
   }
   for (const c of CAMPOS) {
     const pc = perCampo.get(c.key);
-    frameworks.push({ key: c.key, short: 'Plan de Estudio 2022', subject: c.subject, title: 'Programa Sintético, Campo formativo ' + c.name + ' (Fases 3 y 4)', publisher: 'Secretaría de Educación Pública (México)', year: '2024', officialDocument: pc.urls.join(' '), readFrom: pc.urls.join(' '), accessed: ACCESSED, sha256: pc.hashes.join(' '),
-      version: 'Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024', band: 'Fase 3 = 1° and 2° de primaria, Fase 4 = 3° and 4°; a contenido belongs to the fase, a process to one grade', ids: 'this registry\'s own (the programme numbers nothing): fase, campo, contenido, grade, process',
-      citation: 'Secretaría de Educación Pública (2024). Programa de Estudio para la Educación Primaria: Programa Sintético de la Fase 3 y de la Fase 4.', checkedAgainstPdf: pc.contents + ' contenidos and ' + pc.processes + ' procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence' });
+    frameworks.push({ key: c.key, short: 'Plan de Estudio 2022', subject: c.subject, title: 'Programa Sintético, Campo formativo ' + c.name + ' (Fases 2, 3 y 4)', publisher: 'Secretaría de Educación Pública (México)', year: '2024', officialDocument: pc.urls.join(' '), readFrom: pc.urls.join(' '), accessed: ACCESSED, sha256: pc.hashes.join(' '),
+      version: 'Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024', band: 'Fase 2 = preescolar (P1, P2, P3), Fase 3 = 1° and 2° de primaria, Fase 4 = 3° and 4°; a contenido belongs to the fase, a process to one grade', ids: 'this registry\'s own (the programme numbers nothing): fase, campo, contenido, grade, process',
+      citation: 'Secretaría de Educación Pública (2024). Programa Sintético de la Fase 2 (preescolar), de la Fase 3 y de la Fase 4 (primaria).', checkedAgainstPdf: pc.contents + ' contenidos and ' + pc.processes + ' procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence' });
   }
   const seen = new Set();
   for (const n of nodes) { if (seen.has(n.id)) problems.push('two nodes share the id ' + n.id); seen.add(n.id); }

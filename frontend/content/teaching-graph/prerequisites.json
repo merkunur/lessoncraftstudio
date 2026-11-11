@@ -1,0 +1,725 @@
+{
+ "$comment": "What a child must already be able to do before a point makes sense: real dependencies only, the nearest ones, at most three (Daily Teaching System Part 1; authored and reviewed 2026-11-11 with order.json). build-points.js checks every id, that no prerequisite is of a higher grade or later in the order, and that there is no cycle. A point not listed has none. Science, social studies, health, arts and SEL points carry none: their topics do not build on one another in a fixed order.",
+ "points": {
+  "K:order-by-size": [
+   "K:compare-size-extremes"
+  ],
+  "K:compare-groups": [
+   "K:one-to-one"
+  ],
+  "K:count-how-many": [
+   "K:one-to-one"
+  ],
+  "K:conservation": [
+   "K:count-how-many"
+  ],
+  "K:count-out-n": [
+   "K:count-how-many"
+  ],
+  "K:colour-by-number": [
+   "K:numeral-formation"
+  ],
+  "K:classify-count-kinds": [
+   "K:count-how-many"
+  ],
+  "K:count-sides": [
+   "K:shape-naming",
+   "K:count-how-many"
+  ],
+  "K:count-forward-missing": [
+   "K:numeral-formation",
+   "K:count-how-many"
+  ],
+  "K:dot-to-dot-sequence": [
+   "K:numeral-formation",
+   "K:count-how-many"
+  ],
+  "K:one-more-one-less": [
+   "K:count-how-many"
+  ],
+  "K:before-after-back": [
+   "K:count-forward-missing"
+  ],
+  "K:ordinal-position": [
+   "K:count-how-many"
+  ],
+  "K:tally-marks": [
+   "K:count-how-many"
+  ],
+  "K:estimate": [
+   "K:count-how-many"
+  ],
+  "K:heavy-light": [
+   "K:compare-size-extremes"
+  ],
+  "K:draw-shapes": [
+   "K:count-sides"
+  ],
+  "K:combine-groups": [
+   "K:count-how-many"
+  ],
+  "K:take-away": [
+   "K:count-how-many"
+  ],
+  "K:count-on": [
+   "K:combine-groups",
+   "K:count-forward-missing"
+  ],
+  "K:number-bonds-k": [
+   "K:combine-groups"
+  ],
+  "K:compose-shapes": [
+   "K:shape-naming"
+  ],
+  "K:odd-even-pairing": [
+   "K:one-to-one"
+  ],
+  "K:teen-numbers": [
+   "K:count-on"
+  ],
+  "K:fact-fluency-colour-code": [
+   "K:number-bonds-k",
+   "K:take-away",
+   "K:colour-by-number"
+  ],
+  "K:number-bonds-20": [
+   "K:number-bonds-k",
+   "K:teen-numbers"
+  ],
+  "1:add-within-10-models": [
+   "K:combine-groups"
+  ],
+  "1:subtract-cross-out": [
+   "K:take-away"
+  ],
+  "1:write-the-equation": [
+   "1:add-within-10-models",
+   "1:subtract-cross-out"
+  ],
+  "1:patterns-missing": [
+   "K:patterns"
+  ],
+  "1:sort-three-groups": [
+   "K:classify-count-kinds"
+  ],
+  "1:make-10": [
+   "K:number-bonds-k"
+  ],
+  "1:shape-attributes": [
+   "K:shape-naming",
+   "K:count-sides"
+  ],
+  "1:ordinal-numbers": [
+   "K:ordinal-position"
+  ],
+  "1:number-line-placement": [
+   "K:before-after-back"
+  ],
+  "1:count-on-back-hops": [
+   "1:number-line-placement",
+   "K:count-on"
+  ],
+  "1:word-problems": [
+   "1:write-the-equation"
+  ],
+  "1:picture-graphs-sort-count": [
+   "1:sort-three-groups",
+   "K:compare-groups"
+  ],
+  "1:doubles-halves": [
+   "1:add-within-10-models"
+  ],
+  "1:odd-even-pairs": [
+   "K:odd-even-pairing"
+  ],
+  "1:near-doubles": [
+   "1:doubles-halves"
+  ],
+  "1:add-three-addends": [
+   "1:add-within-10-models"
+  ],
+  "1:fact-families": [
+   "1:write-the-equation"
+  ],
+  "1:missing-number-equations": [
+   "1:write-the-equation"
+  ],
+  "1:true-false-equations": [
+   "1:write-the-equation"
+  ],
+  "1:bar-model": [
+   "1:missing-number-equations"
+  ],
+  "1:tangram-compose": [
+   "K:compose-shapes"
+  ],
+  "1:days-months-seasons": [
+   "K:days-of-week"
+  ],
+  "1:days-months-seasons~season-wheel": [
+   "1:days-months-seasons"
+  ],
+  "1:measure-length-units": [
+   "K:order-by-size",
+   "K:count-how-many"
+  ],
+  "1:fluency-within-20": [
+   "1:make-10",
+   "1:near-doubles",
+   "K:teen-numbers"
+  ],
+  "1:number-walls": [
+   "1:fluency-within-20",
+   "1:missing-number-equations"
+  ],
+  "1:check-answers": [
+   "1:fluency-within-20",
+   "1:true-false-equations"
+  ],
+  "1:bar-graphs": [
+   "1:picture-graphs-sort-count"
+  ],
+  "1:tens-and-ones": [
+   "K:teen-numbers"
+  ],
+  "1:number-words": [
+   "1:tens-and-ones"
+  ],
+  "1:compare-order-two-digit": [
+   "1:tens-and-ones"
+  ],
+  "1:hundreds-chart": [
+   "1:tens-and-ones"
+  ],
+  "1:one-ten-more-less": [
+   "1:hundreds-chart"
+  ],
+  "1:number-of-the-day": [
+   "1:tens-and-ones",
+   "1:one-ten-more-less",
+   "1:number-words"
+  ],
+  "1:skip-counting": [
+   "1:hundreds-chart"
+  ],
+  "1:time-set-hands": [
+   "1:time-read",
+   "1:skip-counting"
+  ],
+  "1:coins": [
+   "1:skip-counting",
+   "1:compare-order-two-digit"
+  ],
+  "1:open-number-line": [
+   "1:count-on-back-hops",
+   "1:one-ten-more-less",
+   "1:make-10"
+  ],
+  "1:mental-math-to-100": [
+   "1:one-ten-more-less",
+   "1:fluency-within-20"
+  ],
+  "1:bonds-to-100": [
+   "1:make-10",
+   "1:mental-math-to-100"
+  ],
+  "2:bundle-ten-ones": [
+   "K:teen-numbers"
+  ],
+  "2:hundreds-chart-moves": [
+   "1:one-ten-more-less"
+  ],
+  "2:odd-even": [
+   "1:odd-even-pairs",
+   "1:doubles-halves"
+  ],
+  "2:number-line-not-from-zero": [
+   "1:number-line-placement"
+  ],
+  "2:2d-attributes": [
+   "1:shape-attributes"
+  ],
+  "2:add-sub-within-100-practice": [
+   "1:mental-math-to-100",
+   "1:number-walls"
+  ],
+  "2:two-step-word-problems": [
+   "1:word-problems",
+   "1:mental-math-to-100"
+  ],
+  "2:measure-with-ruler": [
+   "1:measure-length-units"
+  ],
+  "2:compare-lengths": [
+   "2:measure-with-ruler"
+  ],
+  "2:read-build-3-digit": [
+   "1:tens-and-ones",
+   "2:bundle-ten-ones"
+  ],
+  "2:expanded-form-digit-value": [
+   "2:read-build-3-digit"
+  ],
+  "2:chart-within-1000": [
+   "2:read-build-3-digit"
+  ],
+  "2:skip-count-5-10-100": [
+   "1:skip-counting",
+   "2:read-build-3-digit"
+  ],
+  "2:compare-order-3-digit": [
+   "2:read-build-3-digit",
+   "1:compare-order-two-digit"
+  ],
+  "2:hundred-more-less": [
+   "2:read-build-3-digit",
+   "1:one-ten-more-less"
+  ],
+  "2:time-5-min-quarter": [
+   "1:time-read",
+   "1:skip-counting"
+  ],
+  "2:calendar": [
+   "1:days-months-seasons"
+  ],
+  "2:flat-or-solid": [
+   "K:shape-naming"
+  ],
+  "2:solids-in-real-life": [
+   "2:flat-or-solid"
+  ],
+  "2:3d-faces-edges-vertices": [
+   "2:solids-in-real-life"
+  ],
+  "2:add-with-blocks": [
+   "2:read-build-3-digit"
+  ],
+  "2:subtract-with-blocks": [
+   "2:read-build-3-digit"
+  ],
+  "2:column-method": [
+   "2:add-with-blocks",
+   "2:subtract-with-blocks",
+   "1:fluency-within-20"
+  ],
+  "2:shopping-money": [
+   "1:coins",
+   "2:add-sub-within-100-practice"
+  ],
+  "2:bar-graphs": [
+   "1:bar-graphs",
+   "K:tally-marks"
+  ],
+  "2:line-plots": [
+   "1:picture-graphs-sort-count",
+   "1:number-line-placement"
+  ],
+  "2:round-to-ten": [
+   "2:number-line-not-from-zero"
+  ],
+  "2:mass-grams": [
+   "2:number-line-not-from-zero",
+   "2:skip-count-5-10-100"
+  ],
+  "2:read-jugs": [
+   "2:number-line-not-from-zero",
+   "2:skip-count-5-10-100"
+  ],
+  "2:choose-units": [
+   "2:measure-with-ruler",
+   "2:mass-grams",
+   "2:read-jugs"
+  ],
+  "2:equal-groups-times": [
+   "1:skip-counting"
+  ],
+  "2:arrays": [
+   "2:equal-groups-times"
+  ],
+  "2:skip-count-3-4": [
+   "1:skip-counting"
+  ],
+  "2:scaled-pictograph": [
+   "1:picture-graphs-sort-count",
+   "1:skip-counting"
+  ],
+  "2:share-and-group": [
+   "2:equal-groups-times"
+  ],
+  "2:equal-shares-shapes": [
+   "1:doubles-halves"
+  ],
+  "2:fraction-of-a-set": [
+   "2:equal-shares-shapes",
+   "2:share-and-group"
+  ],
+  "2:symmetry-line": [
+   "K:mirror-image"
+  ],
+  "2:symmetry-complete": [
+   "2:symmetry-line"
+  ],
+  "2:tangram-orientation": [
+   "1:tangram-compose"
+  ],
+  "3:compare-4-digit": [
+   "2:compare-order-3-digit"
+  ],
+  "3:rounding": [
+   "2:round-to-ten"
+  ],
+  "3:column-regrouping": [
+   "2:column-method"
+  ],
+  "3:estimate-by-rounding": [
+   "3:rounding"
+  ],
+  "3:magic-squares": [
+   "2:add-sub-within-100-practice"
+  ],
+  "3:parity-of-sums": [
+   "2:odd-even"
+  ],
+  "3:arithmetic-patterns": [
+   "2:skip-count-5-10-100",
+   "2:skip-count-3-4"
+  ],
+  "3:time-to-minute": [
+   "2:time-5-min-quarter"
+  ],
+  "3:mult-equal-groups": [
+   "2:equal-groups-times",
+   "2:arrays"
+  ],
+  "3:mult-number-line": [
+   "3:mult-equal-groups",
+   "2:skip-count-3-4"
+  ],
+  "3:commutative": [
+   "3:mult-equal-groups"
+  ],
+  "3:times-tables": [
+   "3:mult-number-line",
+   "3:commutative"
+  ],
+  "3:scaled-graphs": [
+   "2:scaled-pictograph",
+   "2:bar-graphs"
+  ],
+  "3:thermometer": [
+   "2:number-line-not-from-zero",
+   "2:skip-count-5-10-100"
+  ],
+  "3:division-sharing": [
+   "2:share-and-group",
+   "3:mult-equal-groups"
+  ],
+  "3:division-repeated-subtraction": [
+   "3:mult-number-line",
+   "2:share-and-group"
+  ],
+  "3:mult-div-relationship": [
+   "3:times-tables",
+   "3:division-sharing"
+  ],
+  "3:muldiv-word-problems": [
+   "3:division-sharing",
+   "3:division-repeated-subtraction",
+   "3:times-tables"
+  ],
+  "3:input-output": [
+   "3:arithmetic-patterns",
+   "3:mult-div-relationship"
+  ],
+  "3:balance-equations": [
+   "1:true-false-equations",
+   "3:mult-div-relationship"
+  ],
+  "3:add-subtract-time": [
+   "3:time-to-minute"
+  ],
+  "3:elapsed-duration": [
+   "3:add-subtract-time"
+  ],
+  "3:time-12-24": [
+   "2:time-5-min-quarter"
+  ],
+  "3:area-model": [
+   "3:mult-equal-groups"
+  ],
+  "3:same-area": [
+   "3:area-model"
+  ],
+  "3:perimeter": [
+   "2:measure-with-ruler"
+  ],
+  "3:same-perimeter": [
+   "3:perimeter",
+   "3:same-area"
+  ],
+  "3:division-remainder": [
+   "3:division-sharing",
+   "3:times-tables"
+  ],
+  "3:classify-quadrilaterals": [
+   "3:right-angles",
+   "2:2d-attributes"
+  ],
+  "3:symmetry": [
+   "2:symmetry-line"
+  ],
+  "3:partition-equal-areas": [
+   "2:equal-shares-shapes"
+  ],
+  "3:fraction-unit-build": [
+   "3:partition-equal-areas"
+  ],
+  "3:whole-from-unit": [
+   "3:fraction-unit-build"
+  ],
+  "3:fraction-number-line": [
+   "3:fraction-unit-build"
+  ],
+  "3:compare-fractions": [
+   "3:fraction-unit-build"
+  ],
+  "3:equivalent-fractions": [
+   "3:fraction-unit-build"
+  ],
+  "3:fraction-of-set": [
+   "2:fraction-of-a-set",
+   "3:division-sharing"
+  ],
+  "3:line-plot-halves": [
+   "2:line-plots",
+   "3:fraction-number-line",
+   "2:measure-with-ruler"
+  ],
+  "3:volume-cubes": [
+   "3:area-model"
+  ],
+  "K:letter-formation": [
+   "K:pre-writing-strokes"
+  ],
+  "K:letter-case": [
+   "K:letter-identification"
+  ],
+  "K:beginning-sounds": [
+   "K:letter-identification"
+  ],
+  "K:category-odd-one-out": [
+   "K:category-sort"
+  ],
+  "K:alphabet-order": [
+   "K:letter-identification",
+   "K:letter-formation"
+  ],
+  "K:sound-position": [
+   "K:beginning-sounds"
+  ],
+  "K:vowels-consonants": [
+   "K:letter-identification"
+  ],
+  "K:segment-phonemes": [
+   "K:sound-position"
+  ],
+  "K:cvc-build": [
+   "K:segment-phonemes"
+  ],
+  "K:word-picture-match": [
+   "K:cvc-build"
+  ],
+  "K:digraphs-k": [
+   "K:beginning-sounds"
+  ],
+  "K:sight-words-reading": [
+   "K:letter-identification"
+  ],
+  "K:word-sentence-tracing": [
+   "K:letter-formation"
+  ],
+  "1:rhyming": [
+   "K:rhyme"
+  ],
+  "1:phoneme-boxes": [
+   "K:segment-phonemes"
+  ],
+  "1:digraphs": [
+   "K:digraphs-k"
+  ],
+  "1:spell-picture-words": [
+   "1:phoneme-boxes",
+   "K:cvc-build"
+  ],
+  "1:syllables-split": [
+   "K:count-syllables"
+  ],
+  "1:syllable-vowel": [
+   "1:syllables-split",
+   "K:vowels-consonants"
+  ],
+  "1:word-families-syllable-reading": [
+   "1:syllables-split",
+   "K:cvc-build"
+  ],
+  "1:alphabetical-order": [
+   "K:alphabet-order"
+  ],
+  "1:opposites": [
+   "K:opposites"
+  ],
+  "1:articles": [
+   "K:articles"
+  ],
+  "1:read-and-follow": [
+   "1:word-families-syllable-reading",
+   "K:sight-words-reading"
+  ],
+  "1:cloze": [
+   "1:word-families-syllable-reading",
+   "K:sight-words-reading"
+  ],
+  "1:synonyms": [
+   "K:word-picture-match"
+  ],
+  "1:unscramble-sentence": [
+   "1:cloze",
+   "K:word-sentence-tracing"
+  ],
+  "1:question-words": [
+   "1:read-and-follow"
+  ],
+  "1:story-sequencing": [
+   "K:story-sequencing",
+   "1:read-and-follow"
+  ],
+  "1:word-classes": [
+   "1:cloze"
+  ],
+  "1:pronouns": [
+   "1:cloze"
+  ],
+  "1:shades-of-meaning": [
+   "1:synonyms"
+  ],
+  "1:root-words": [
+   "1:word-families-syllable-reading"
+  ],
+  "1:story-writing": [
+   "1:story-sequencing",
+   "1:unscramble-sentence",
+   "1:spell-picture-words"
+  ],
+  "2:digraphs": [
+   "1:digraphs"
+  ],
+  "2:sentence-boundaries": [
+   "1:unscramble-sentence"
+  ],
+  "2:cursive-writing": [
+   "K:letter-formation"
+  ],
+  "2:cloze-context": [
+   "1:cloze"
+  ],
+  "2:question-words": [
+   "1:question-words"
+  ],
+  "2:read-and-answer": [
+   "2:question-words",
+   "2:cloze-context"
+  ],
+  "2:describe-a-picture": [
+   "2:sentence-boundaries"
+  ],
+  "2:word-classes": [
+   "1:word-classes"
+  ],
+  "2:plural-nouns": [
+   "K:singular-plural",
+   "1:spell-picture-words"
+  ],
+  "2:spelling-rules": [
+   "1:spell-picture-words",
+   "1:digraphs"
+  ],
+  "2:synonyms": [
+   "1:synonyms"
+  ],
+  "2:synonyms~doing-stage": [
+   "1:synonyms"
+  ],
+  "2:verb-forms": [
+   "2:word-classes"
+  ],
+  "2:pronouns": [
+   "1:pronouns"
+  ],
+  "2:read-cursive": [
+   "2:cursive-writing"
+  ],
+  "2:compound-words": [
+   "1:word-families-syllable-reading"
+  ],
+  "2:root-words": [
+   "1:root-words"
+  ],
+  "2:prefixes": [
+   "2:root-words"
+  ],
+  "2:retell-with-starters": [
+   "1:story-writing",
+   "2:sentence-boundaries"
+  ],
+  "2:mystery-animal": [
+   "1:read-and-follow"
+  ],
+  "2:animal-fact-file": [
+   "2:read-and-answer"
+  ],
+  "2:compare-two-animals": [
+   "2:animal-fact-file"
+  ],
+  "3:cursive-sentences": [
+   "2:cursive-writing"
+  ],
+  "3:word-fields": [
+   "2:synonyms",
+   "1:shades-of-meaning"
+  ],
+  "3:person-words": [
+   "2:root-words"
+  ],
+  "3:root-words-in-context": [
+   "3:person-words",
+   "2:verb-forms"
+  ],
+  "K:spot-the-difference": [
+   "K:same-different-visual"
+  ],
+  "1:find-the-differences": [
+   "K:spot-the-difference"
+  ],
+  "1:mazes": [
+   "K:mazes"
+  ],
+  "1:grid-copy": [
+   "K:grid-copy"
+  ],
+  "1:picture-sudoku": [
+   "K:matrix-logic"
+  ],
+  "2:find-differences": [
+   "1:find-the-differences"
+  ],
+  "2:logic-grid": [
+   "1:logic-picture-clues"
+  ],
+  "3:logic-grids": [
+   "2:logic-grid"
+  ],
+  "3:latin-square-sudoku": [
+   "1:picture-sudoku"
+  ]
+ }
+}

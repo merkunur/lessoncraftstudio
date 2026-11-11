@@ -1,0 +1,275 @@
+{
+  "$comment": "Daily Teaching System, Part 1: every free-text strand of docs/activities-rebuild/coverage/coverage-map.json → ONE strand key of frontend/lib/seo/strand-names.ts (the national domain names ×11) and ONE subject. Hand-written; scripts/teaching-graph/build-points.js fails on a strand that is not listed here, on a key that STRAND_NAMES does not hold, and on a subject outside SUBJECTS.",
+  "subjects": [
+    "math",
+    "literacy",
+    "science",
+    "social",
+    "health",
+    "arts",
+    "thinking",
+    "sel"
+  ],
+  "strands": {
+    "Art": [
+      "Art",
+      "arts"
+    ],
+    "Art / Fine Motor": [
+      "Art",
+      "arts"
+    ],
+    "Counting & Cardinality": [
+      "Counting & Cardinality",
+      "math"
+    ],
+    "Counting & Cardinality (readiness)": [
+      "Counting & Cardinality",
+      "math"
+    ],
+    "Fine motor / numeral recognition": [
+      "Counting & Cardinality",
+      "math"
+    ],
+    "Operations & Algebraic Thinking": [
+      "Operations & Algebraic Thinking",
+      "math"
+    ],
+    "Patterning": [
+      "Operations & Algebraic Thinking",
+      "math"
+    ],
+    "Patterns & Algebraic Readiness": [
+      "Operations & Algebraic Thinking",
+      "math"
+    ],
+    "Number & Operations in Base Ten": [
+      "Number & Operations in Base Ten",
+      "math"
+    ],
+    "Fractions": [
+      "Number & Operations—Fractions",
+      "math"
+    ],
+    "Measurement & Data": [
+      "Measurement & Data",
+      "math"
+    ],
+    "Measurement & Data (time)": [
+      "Measurement & Data",
+      "math"
+    ],
+    "Days and Months": [
+      "Measurement & Data",
+      "math"
+    ],
+    "Geometry": [
+      "Geometry",
+      "math"
+    ],
+    "Geometry / Visual Perception": [
+      "Geometry",
+      "math"
+    ],
+    "Visual Perception / Geometry": [
+      "Geometry",
+      "math"
+    ],
+    "Visual Perception": [
+      "Visual Perception",
+      "thinking"
+    ],
+    "Visual Perception & Pencil Control": [
+      "Visual Perception",
+      "thinking"
+    ],
+    "Spatial Reasoning": [
+      "Logic & Visual Thinking",
+      "thinking"
+    ],
+    "Visual-Spatial": [
+      "Logic & Visual Thinking",
+      "thinking"
+    ],
+    "Logical Reasoning": [
+      "Logical Reasoning",
+      "thinking"
+    ],
+    "Logical reasoning": [
+      "Logical Reasoning",
+      "thinking"
+    ],
+    "Phonological Awareness": [
+      "Phonological Awareness",
+      "literacy"
+    ],
+    "Foundational Skills": [
+      "Reading: Foundational Skills",
+      "literacy"
+    ],
+    "Foundational Skills / Vocabulary": [
+      "Reading: Foundational Skills",
+      "literacy"
+    ],
+    "Reading: Foundational Skills": [
+      "Reading: Foundational Skills",
+      "literacy"
+    ],
+    "Language / Phonics": [
+      "Reading: Foundational Skills",
+      "literacy"
+    ],
+    "Handwriting / Foundational Skills": [
+      "Handwriting",
+      "literacy"
+    ],
+    "Handwriting & Letter Formation": [
+      "Handwriting",
+      "literacy"
+    ],
+    "Handwriting": [
+      "Handwriting",
+      "literacy"
+    ],
+    "Fine Motor & Pre-Writing": [
+      "Handwriting",
+      "literacy"
+    ],
+    "Writing": [
+      "Writing",
+      "literacy"
+    ],
+    "Writing / SEL": [
+      "Writing",
+      "literacy"
+    ],
+    "Language": [
+      "Language",
+      "literacy"
+    ],
+    "Language / Vocabulary": [
+      "Language",
+      "literacy"
+    ],
+    "Vocabulary": [
+      "Vocabulary Acquisition and Use",
+      "literacy"
+    ],
+    "Vocabulary Acquisition and Use": [
+      "Vocabulary Acquisition and Use",
+      "literacy"
+    ],
+    "Reading: Literature": [
+      "Reading: Literature",
+      "literacy"
+    ],
+    "Reading: Informational Text": [
+      "Reading: Informational Text",
+      "literacy"
+    ],
+    "Science": [
+      "Science",
+      "science"
+    ],
+    "Science / Health": [
+      "Science",
+      "science"
+    ],
+    "Science — Animals": [
+      "Science",
+      "science"
+    ],
+    "Science — Animals & Habitats": [
+      "Science",
+      "science"
+    ],
+    "Science — Five Senses": [
+      "Science",
+      "science"
+    ],
+    "Science — Human Body": [
+      "Science",
+      "science"
+    ],
+    "Science — Life": [
+      "Science",
+      "science"
+    ],
+    "Science — Materials": [
+      "Science",
+      "science"
+    ],
+    "Science — Materials & Recycling": [
+      "Science",
+      "science"
+    ],
+    "Science — Plants": [
+      "Science",
+      "science"
+    ],
+    "Science — Seasons": [
+      "Science",
+      "science"
+    ],
+    "Science — Sky": [
+      "Science",
+      "science"
+    ],
+    "Science — Weather": [
+      "Science",
+      "science"
+    ],
+    "Life Science": [
+      "Science",
+      "science"
+    ],
+    "Physical Science": [
+      "Science",
+      "science"
+    ],
+    "Earth Science": [
+      "Science",
+      "science"
+    ],
+    "Earth & Space Science": [
+      "Science",
+      "science"
+    ],
+    "Social Studies": [
+      "Social Studies",
+      "social"
+    ],
+    "Social Studies: Family": [
+      "Social Studies",
+      "social"
+    ],
+    "Social Studies / Science": [
+      "Social Studies",
+      "social"
+    ],
+    "Social Studies / Spatial": [
+      "Social Studies",
+      "social"
+    ],
+    "Social Studies / Safety": [
+      "Health & Safety",
+      "health"
+    ],
+    "Road Safety": [
+      "Health & Safety",
+      "health"
+    ],
+    "Health": [
+      "Health",
+      "health"
+    ],
+    "Health — Nutrition": [
+      "Health",
+      "health"
+    ],
+    "Social-Emotional Learning": [
+      "Social-Emotional Learning",
+      "sel"
+    ]
+  }
+}

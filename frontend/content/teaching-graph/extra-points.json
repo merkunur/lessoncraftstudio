@@ -1,0 +1,26 @@
+{
+ "$comment": "Teaching points the coverage map does not hold, because the worksheet types under them were made after it. Same fields as a coverage-map point (tp, grade, skill, code, strand). Kept few: a new type normally joins an existing point.",
+ "points": [
+  {
+   "tp": "1:story-writing",
+   "grade": "1",
+   "strand": "Writing",
+   "code": "W.1.3",
+   "skill": "Plan and write a short story or message: a story map, a comic strip, a character description, a postcard"
+  },
+  {
+   "tp": "2:two-step-word-problems",
+   "grade": "2",
+   "strand": "Operations & Algebraic Thinking",
+   "code": "2.OA.A.1",
+   "skill": "Solve one- and two-step addition and subtraction word problems within 100"
+  },
+  {
+   "tp": "1:secret-code",
+   "grade": "1",
+   "strand": "Logical Reasoning",
+   "code": "READINESS:logic",
+   "skill": "Decode and encode a message with a key (picture code, number code, complete the key, make your own)"
+  }
+ ]
+}

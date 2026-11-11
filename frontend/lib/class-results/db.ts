@@ -28,8 +28,9 @@ const DECKS_DIR = process.env.DECKS_DIR || '/var/www/lcs-media/decks';
 /**
  * Does the published page give a child something to check on screen? Read from THE PAGE ITSELF (its Check button or
  * its celebration) rather than from the hand-kept list of interactive families (lib/level-sets.ts pageIsInteractive).
- * The two agree on every indexable published page (48,552 measured 2026-11-11, 0 disagreements); reading the page
- * means the lookup cannot drift from the pages when a family gains or loses its screen version. Unreadable file =
+ * Measured over all 172,996 published pages (docs/daily-teaching-system/graph/FINDINGS.md): the list is right, but on
+ * 143 pages whose address carries a unit after the type code the site cannot read the code and calls a print-only page
+ * playable. Reading the page has no such gap and cannot drift when a family gains or loses its screen. Unreadable file =
  * no (a refusal can be retried; a child stuck on a page cannot).
  */
 export function pageHasScreen(locale: string, slug: string): boolean {

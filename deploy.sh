@@ -338,6 +338,10 @@ node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERRO
 # "the right answer is always the middle value" had shipped in 12 activities). Browser-free static pass.
 node /opt/lessoncraftstudio/scripts/audit-activity-answer-rank.js || { echo "ERROR: an activity's right answer always sits at the same rank among its options — node scripts/audit-activity-answer-rank.js"; exit 1; }
 node /opt/lessoncraftstudio/scripts/audit-activity-coverage.js > /tmp/lcs-activity-coverage.txt 2>&1 && tail -6 /tmp/lcs-activity-coverage.txt || { echo "⚠️  WARNING: activity coverage map out of date — node scripts/audit-activity-coverage.js"; tail -12 /tmp/lcs-activity-coverage.txt; }
+# WARN-only (Daily Teaching System, Part 1): the content graph — every worksheet type under a teaching point, the
+# authored order and prerequisites consistent, every tool, activity and landing the 11 language indexes name exists.
+# It becomes a hard gate when units ship (Part 3). docs/daily-teaching-system/graph/README.md
+node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-teaching-graph.txt 2>&1; tail -4 /tmp/lcs-teaching-graph.txt
 
 # Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
 # gates page_title + page_intro — the search-results surface — and nothing gated the

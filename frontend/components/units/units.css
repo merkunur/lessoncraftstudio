@@ -135,7 +135,10 @@
 .un-plan-standards-name { font-weight: 700; color: var(--ink); }
 .un-plan-pdf { margin-top: 36px; max-width: 520px; }
 .un-plan-back { margin-top: 28px; font-weight: 700; }
-.un-plan-back a, .un-in-plan a { display: inline-block; padding: 10px 0; }
+.un-plan-back a { display: inline-block; padding: 10px 0; }
+/* inline, so the link flows inside its sentence; the vertical padding makes it a full tap target */
+.un-in-plan { line-height: 2; }
+.un-in-plan a { padding: 12px 0; }
 
 .un-in-plan { margin-top: 10px; font-weight: 600; }
 .un-around { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line); display: grid; gap: 10px; }

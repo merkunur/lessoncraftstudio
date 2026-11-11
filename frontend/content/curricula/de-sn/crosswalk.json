@@ -1222,7 +1222,7 @@
     },
     {
      "id": "MA.3.2.2.1",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     }
    ],
@@ -1427,7 +1427,7 @@
     },
     {
      "id": "MA.1-2.2.2.1",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1-2"
     }
    ],
@@ -1782,7 +1782,7 @@
    "rows": [
     {
      "id": "MA.3.2.8",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
@@ -1802,12 +1802,12 @@
    "rows": [
     {
      "id": "MA.3.4.1.1",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
      "id": "MA.3.4.1.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
@@ -2017,13 +2017,18 @@
    "rows": [
     {
      "id": "MA.1-2.1.3.2",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1-2"
     },
     {
      "id": "MA.4.1.4.2",
      "rel": "prepares",
      "grade": "4"
+    },
+    {
+     "id": "MA.3.1.2",
+     "rel": "prepares",
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -2131,16 +2136,6 @@
   "3:line-plot-halves": {
    "rows": [
     {
-     "id": "MA.3.3.2.1",
-     "rel": "teaches",
-     "grade": "3"
-    },
-    {
-     "id": "MA.3.3.2.2",
-     "rel": "teaches",
-     "grade": "3"
-    },
-    {
      "id": "MA.3.4.1",
      "rel": "teaches",
      "grade": "3"
@@ -2152,7 +2147,7 @@
    "rows": [
     {
      "id": "MA.3.1.1.3",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
@@ -2492,7 +2487,7 @@
     },
     {
      "id": "DE.1-2.4.6.5",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1-2"
     }
    ],
@@ -2552,7 +2547,7 @@
    "rows": [
     {
      "id": "DE.1-2.3.2.3",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1-2"
     },
     {
@@ -2562,6 +2557,11 @@
     },
     {
      "id": "DE.1-2.2.14.3",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "DE.1-2.2.4",
      "rel": "teaches",
      "grade": "1-2"
     }
@@ -2724,11 +2724,6 @@
      "id": "DE.1-2.2.12",
      "rel": "prepares",
      "grade": "1-2"
-    },
-    {
-     "id": "DE.1-2.1.1.1",
-     "rel": "prepares",
-     "grade": "1-2"
     }
    ],
    "by": "authored"
@@ -2742,11 +2737,6 @@
     },
     {
      "id": "DE.1-2.5.4.1",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "DE.1-2.5.4.4",
      "rel": "teaches",
      "grade": "1-2"
     }
@@ -3093,11 +3083,6 @@
     {
      "id": "DE.1-2.2.12",
      "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "DE.1-2.1.1.1",
-     "rel": "prepares",
      "grade": "1-2"
     }
    ],

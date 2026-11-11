@@ -10,19 +10,31 @@
  */
 export interface CurriculumLesson { unit: string; unitTitle: string; unitGrade: string; n: number; title: string }
 export interface CurriculumPaper { title: string; core: string }
+/** the lessons of one unit under a part of a document (a page of a framework without public codes) */
+export interface CurriculumUnitLessons { unit: string; unitTitle: string; unitGrade: string; lessons: { n: number; title: string }[] }
+export interface CurriculumPart { code: string; title: string; key: string }
 export interface CurriculumItem {
+  /** the objective's official code; on a page of parts the plan's own number of the part, or '' */
   code: string;
   state: 'taught' | 'near';
   rel?: 'prepares' | 'extends';
-  text: string;
+  text?: string;
   lessons?: CurriculumLesson[];
   papers?: CurriculumPaper[];
+  /** a page of parts: the part's own title, its anchor, the objectives it holds and how many have a lesson */
+  title?: string;
+  key?: string;
+  counts?: { objectives: number; taught: number };
+  units?: CurriculumUnitLessons[];
 }
-export interface CurriculumGroup { title: string; items: CurriculumItem[]; open?: string[] }
+export interface CurriculumGroup { title: string; items: CurriculumItem[]; open?: string[]; openParts?: CurriculumPart[] }
 export interface CurriculumPageData {
   id: string;
   slug: string;
   status: 'pilot' | 'live';
+  /** 'parts': a framework without public codes; a line is a part of the document (scripts/curriculum-pages/assemble.js) */
+  mode?: 'parts';
+  gradeLabel?: string;
   registry: string;
   framework: string;
   frameworkShort: string;
@@ -35,7 +47,7 @@ export interface CurriculumPageData {
   title: string;
   metaTitle: string;
   metaDescription: string;
-  counts: { objectives: number; taught: number; near: number; open: number; lessons: number };
+  counts: { objectives: number; taught: number; near: number; open: number; lessons: number; parts?: number; partsTaught?: number };
   groups: CurriculumGroup[];
 }
 export type CurriculumUi = Record<string, string>;
@@ -73,6 +85,8 @@ export async function listedCurriculumPages(locale: string): Promise<{ live: boo
 }
 
 /** the fragment of a code on its curriculum page */
+/** the fragment of a group (an area of the document) on its page */
+export const groupAnchor = (s: string) => 'area-' + s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const codeAnchor = (code: string) => 'code-' + code.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 /**
@@ -84,7 +98,13 @@ export async function curriculumCodeLinks(locale: string): Promise<Record<string
   const out: Record<string, string> = {};
   for (const p of await getCurriculumPages(locale)) {
     if (p.status !== 'live') continue;
-    for (const g of p.groups) for (const it of g.items) { const k = `${p.frameworkShort} ${it.code}`; if (!out[k]) out[k] = `/${locale}/curriculum/${p.slug}#${codeAnchor(it.code)}`; }
+    for (const g of p.groups) for (const it of g.items) {
+      // a page of parts is found by the title a unit page shows ("Bildungsstandards (KMK) · Zahlen und Operationen")
+      const k = p.mode === 'parts' ? `${p.frameworkShort} · ${it.title}` : `${p.frameworkShort} ${it.code}`;
+      if (!out[k]) out[k] = `/${locale}/curriculum/${p.slug}#${p.mode === 'parts' ? it.key : codeAnchor(it.code)}`;
+    }
+    // a unit page may name a whole area of the document: it links to the area's place on the page
+    if (p.mode === 'parts') for (const g of p.groups) { const k = `${p.frameworkShort} · ${g.title}`; if (!out[k]) out[k] = `/${locale}/curriculum/${p.slug}#${groupAnchor(g.title)}`; }
   }
   return out;
 }
@@ -93,7 +113,8 @@ export async function curriculumCodeLinks(locale: string): Promise<Record<string
 export function curriculumSets(pages: CurriculumPageData[]): { key: string; frameworkShort: string; subject: string; pages: CurriculumPageData[] }[] {
   const out: { key: string; frameworkShort: string; subject: string; pages: CurriculumPageData[] }[] = [];
   for (const p of pages) {
-    const key = p.framework;
+    // the pages of a country's code-less documents are listed by document family (the registry), the others by framework
+    const key = p.mode === 'parts' ? p.registry : p.framework;
     let set = out.find((s) => s.key === key);
     if (!set) { set = { key, frameworkShort: p.frameworkShort, subject: p.subject, pages: [] }; out.push(set); }
     set.pages.push(p);

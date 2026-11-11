@@ -15,10 +15,39 @@ import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { fill, pageHref } from '@/lib/units';
-import { CurriculumPageData, CurriculumUi, codeAnchor } from '@/lib/curriculum-pages';
+import { CurriculumPageData, CurriculumUi, codeAnchor, CurriculumItem, groupAnchor } from '@/lib/curriculum-pages';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
-const anchor = (s: string) => 'area-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const anchor = groupAnchor;
+
+/** a line of a page of parts: the part's own number and title, how many of its objectives have a lesson, and the
+ *  lessons by unit (a framework without public codes; the wording of its objectives is never shown) */
+function PartItem({ it, locale, ui, s, gradeLabel }: { it: CurriculumItem; locale: string; ui: CurriculumUi; s: (key: string) => string; gradeLabel: (g: string) => string }) {
+  return (
+    <li id={it.key} className={`cu-item cu-part cu-item-${it.state}`}>
+      <h4 className="cu-part-title">{it.code ? <span className="cu-part-code">{it.code}</span> : null}{it.title}</h4>
+      <div className="cu-body">
+        {it.state === 'near' && it.rel ? <p className="cu-rel">{ui[`rel_${it.rel}`]}</p> : null}
+        {it.state === 'taught' && it.counts && it.counts.taught ? <p className="cu-part-count">{fill(s('partCount'), { taught: it.counts.taught, objectives: it.counts.objectives })}</p> : null}
+        {it.text ? <p className="cu-text">{it.text}</p> : null}
+        {(it.units || []).map((u) => (
+          <div key={u.unit} className="cu-unit-block">
+            <p className="cu-unit-title"><a href={`/${locale}/units/${u.unit}`}>{fill(ui.unitLine, { unit: u.unitTitle, grade: gradeLabel(u.unitGrade) })}</a></p>
+            <ul className="cu-links" aria-label={ui.lessonsLabel}>
+              {u.lessons.map((l) => <li key={l.n}><a href={`/${locale}/units/${u.unit}#lesson-${l.n}`}>{fill(ui.lessonLink, { n: l.n, title: l.title })}</a></li>)}
+            </ul>
+          </div>
+        ))}
+        {it.papers && it.papers.length ? (
+          <p className="cu-papers"><span className="cu-papers-label">{ui.papersLabel}:</span>{' '}
+            {it.papers.map((p, i) => <span key={p.core}>{i ? ' · ' : ''}<a href={pageHref(locale, p.core)}>{p.title}</a></span>)}
+          </p>
+        ) : null}
+      </div>
+    </li>
+  );
+}
+
 
 export default async function CurriculumPage({ locale, page, ui, others, hubCodes }: {
   locale: string;
@@ -34,11 +63,14 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
   ]);
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
-  const grade = gradeLabel(page.grade);
+  const isParts = page.mode === 'parts';
+  const single = isParts && page.groups.length === 1;
+  const grade = page.gradeLabel || gradeLabel(page.grade);
   const url = canonicalUrl(localePath(locale, 'curriculum', page.slug));
   // a framework family may have its own wording of a string (the Texas pages speak of student expectations)
-  const family = page.framework.split('-')[0];
-  const s = (key: string) => ui[`${key}_${family}`] || ui[key];
+  // (the key of the framework, then of its family: "lp-nrw-mathematik", "lp-nrw", "lp")
+  const families = page.framework.split('-').map((_, i, a) => a.slice(0, a.length - i).join('-'));
+  const s = (key: string) => { for (const f of families) if (ui[`${key}_${f}`]) return ui[`${key}_${f}`]; return ui[key]; };
   const subject = s(`subject_${page.subject}`) || page.subject;
   const taughtItems = page.groups.flatMap((g) => g.items.filter((i) => i.state === 'taught'));
 
@@ -57,8 +89,9 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
       itemListElement: taughtItems.map((it, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        name: `${page.frameworkShort} ${it.code}`,
+        name: isParts ? `${page.frameworkShort}: ${it.title}` : `${page.frameworkShort} ${it.code}`,
         ...(it.lessons && it.lessons[0] ? { url: canonicalUrl(localePath(locale, 'units', it.lessons[0].unit)) + `#lesson-${it.lessons[0].n}` } : {}),
+        ...(it.units && it.units[0] ? { url: canonicalUrl(localePath(locale, 'units', it.units[0].unit)) } : {}),
       })),
     },
   };
@@ -79,7 +112,8 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
           <h1 className="un-title un-title-wide">{page.title}</h1>
           <p className="un-hub-lead">{fill(s('lead'), { framework: page.frameworkShort, subject, grade })}</p>
           <p className="un-facts">
-            <span>{fill(s('factTaught'), { n: page.counts.taught })}</span>
+            {isParts ? <span>{fill(s('factParts'), { n: page.counts.partsTaught ?? 0, m: page.counts.parts ?? 0 })}</span> : null}
+            {isParts ? <span>{fill(s('factObjectives'), { n: page.counts.taught, m: page.counts.objectives })}</span> : <span>{fill(s('factTaught'), { n: page.counts.taught })}</span>}
             {page.counts.near ? <span>{fill(ui.factNear, { n: page.counts.near })}</span> : null}
             {page.counts.open ? <span>{fill(ui.factOpen, { n: page.counts.open })}</span> : null}
             <span>{fill(ui.factLessons, { n: page.counts.lessons })}</span>
@@ -94,24 +128,27 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
 
         <section className="cu-how" aria-labelledby="cu-how-title">
           <h2 id="cu-how-title">{ui.howTitle}</h2>
-          <p>{ui.howText}</p>
-          <p>{ui.officialLead} <a href={page.officialDocument} rel="noopener">{fill(ui.officialLink, { title: page.frameworkTitle, year: page.year })}</a></p>
+          <p>{s('howText')}</p>
+          <p>{s('officialLead')} <a href={page.officialDocument} rel="noopener">{fill(ui.officialLink, { title: page.frameworkTitle, year: page.year })}</a></p>
         </section>
 
         <section aria-labelledby="cu-groups-title">
           <h2 id="cu-groups-title" className="cu-groups-title">{s('groupsTitle')}</h2>
-          <nav className="un-hub-jump" aria-label={ui.groupsTitle}>
-            <ul>
-              {page.groups.map((g) => <li key={g.title}><a href={`#${anchor(g.title)}`}>{g.title}</a></li>)}
-            </ul>
-          </nav>
+          {single ? null : (
+            <nav className="un-hub-jump" aria-label={ui.groupsTitle}>
+              <ul>
+                {page.groups.map((g) => <li key={g.title}><a href={`#${anchor(g.title)}`}>{g.title}</a></li>)}
+              </ul>
+            </nav>
+          )}
 
           {page.groups.map((g) => (
-            <section key={g.title} className="cu-group" id={anchor(g.title)} aria-labelledby={`${anchor(g.title)}-title`}>
-              <h3 id={`${anchor(g.title)}-title`} className="cu-group-title">{g.title}</h3>
+            <section key={g.title} className={single ? 'cu-group cu-group-single' : 'cu-group'} id={anchor(g.title)} aria-labelledby={single ? 'cu-groups-title' : `${anchor(g.title)}-title`}>
+              {single ? null : <h3 id={`${anchor(g.title)}-title`} className="cu-group-title">{g.title}</h3>}
               {g.items.length ? (
                 <ul className="cu-items">
                   {g.items.map((it) => {
+                    if (isParts) return <PartItem key={it.key} it={it} locale={locale} ui={ui} s={s} gradeLabel={gradeLabel} />;
                     const hub = hubCodes[it.code.toLowerCase()];
                     return (
                       <li key={it.code} id={codeAnchor(it.code)} className={`cu-item cu-item-${it.state}`}>
@@ -144,8 +181,15 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
               {g.open && g.open.length ? (
                 <div className="cu-open">
                   <h4 className="cu-open-title">{ui.openTitle}</h4>
-                  <p>{ui.openLead}</p>
+                  <p>{s('openLead')}</p>
                   <ul className="cu-open-codes">{g.open.map((c) => <li key={c}>{c}</li>)}</ul>
+                </div>
+              ) : null}
+              {g.openParts && g.openParts.length ? (
+                <div className="cu-open">
+                  <h4 className="cu-open-title">{ui.openTitle}</h4>
+                  <p>{s('openLead')}</p>
+                  <ul className="cu-open-parts">{g.openParts.map((c) => <li key={c.key} id={c.key}>{c.code ? <span className="cu-part-code">{c.code}</span> : null}{c.title}</li>)}</ul>
                 </div>
               ) : null}
             </section>

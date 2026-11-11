@@ -1,0 +1,64 @@
+{
+  "lines": [
+    {
+      "id": "nw-math / part-m-1-1 / L63 / 6",
+      "verdict": "teaches",
+      "why": "Die Kinder stellen dreistellige Zahlen mit Hunderterplatten, Zehnerstangen und Einerwürfeln und in der Stellenwerttafel dar, also nach Bündelung und Stellenwertschreibweise im erweiterten Zahlenraum."
+    },
+    {
+      "id": "nw-math / part-m-1-1 / L63 / 8",
+      "verdict": "teaches",
+      "why": "Die Kinder wechseln von der Darstellung mit Material zur Stellenwerttafel und zur Zahl, also zwischen Darstellungsformen im Zahlenraum über 100."
+    },
+    {
+      "id": "nw-math / part-m-1-1 / L64 / 6",
+      "verdict": "teaches",
+      "why": "Dreistellige Zahlen werden in Hunderter, Zehner und Einer zerlegt und der Wert einer Ziffer wird bestimmt; das ist die Struktur des Zehnersystems im erweiterten Zahlenraum."
+    },
+    {
+      "id": "nw-math / part-m-1-1 / L65 / 13",
+      "verdict": "teaches",
+      "why": "Die Kinder vergleichen dreistellige Zahlen mit den Zeichen für größer, kleiner und gleich und ordnen vier Zahlen; das ist Ordnen und Vergleichen im Zahlenraum über 100."
+    },
+    {
+      "id": "nw-math / part-m-1-5 / L72 / 2",
+      "verdict": "teaches",
+      "why": "Die Kinder führen das schriftliche Addieren und Subtrahieren stellenweise untereinander aus, zunächst ohne Übertrag; das ist das schriftliche Verfahren auf der Einstiegsstufe."
+    },
+    {
+      "id": "nw-math / part-m-3-1 / L86 / 2",
+      "verdict": "teaches",
+      "why": "Die Kinder ermitteln einen Rauminhalt mit dem Messgerät Messbecher, indem sie die Skala in Millilitern ablesen."
+    },
+    {
+      "id": "nw-math / part-m-3-1 / L86 / 10",
+      "verdict": "teaches",
+      "why": "Die Stunde arbeitet mit der Einheit Milliliter für Volumina, die in Klasse 3 und 4 neu dazukommt."
+    },
+    {
+      "id": "nw-math / part-m-3-1 / L87 / 2",
+      "verdict": "teaches",
+      "why": "Die Kinder ermitteln Gewichte an der Waage und Rauminhalte am Messbecher, also Größen mit geeigneten Messgeräten."
+    },
+    {
+      "id": "nw-math / part-m-3-1 / L87 / 10",
+      "verdict": "teaches",
+      "why": "Die Kinder schreiben jede abgelesene Menge mit ihrer Einheit Gramm oder Milliliter auf und verwenden damit die neuen Einheiten für Gewichte und Volumina."
+    },
+    {
+      "id": "by-math-12 / part-m1-2-2-5 / L90 / 2",
+      "verdict": "teaches",
+      "why": "Die Kinder bestimmen den Umfang von Rechtecken im Kästchengitter, indem sie die Kästchenkanten einmal rundherum zählen; das ist die Grundlage des Umfangsvergleichs, den L91 im selben Abschnitt fortsetzt."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-2-2 / L94 / 1",
+      "verdict": "teaches",
+      "why": "Die Kinder entscheiden an Seiten und rechten Winkeln, ob ein Viereck ein Rechteck ist, und verwenden damit den Begriff rechter Winkel bei der Beschreibung von Rechteck und Quadrat."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-1 / L93 / 4",
+      "verdict": "prepares",
+      "why": "Die Kinder erkennen rechte Winkel an Formen, zeichnen aber nicht; das bereitet das Zeichnen zueinander senkrechter Geraden und Strecken vor."
+    }
+  ]
+}

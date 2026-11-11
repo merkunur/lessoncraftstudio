@@ -1,0 +1,141 @@
+{
+  "pages": {},
+  "lines": [
+    {
+      "id": "kmk-math / part-m-2-1 / L97 / 4",
+      "verdict": "prepares",
+      "why": "Die Kinder zählen Kreuze über einem Zahlenstrahl mit halben Schritten; Brüche an Größen (1/2 m, Dreiviertelstunde, 1/4 l) kommen nicht vor, das Ablesen von Halben ist höchstens eine Vorstufe."
+    },
+    {
+      "id": "kmk-math / part-m-2-2 / L97 / 2",
+      "verdict": "drop",
+      "why": "In der Stunde wird ein Diagramm gelesen, es wird nichts mit einem Messgerät gemessen; das ist Leitidee Daten, nicht Messen."
+    },
+    {
+      "id": "by-math-12 / part-m1-2-1-2 / L48 / 4",
+      "verdict": "prepares",
+      "why": "Die Stunde übt die Kernaufgaben der 2er- und 5er-Reihe selbst; das Ableiten weiterer Einmaleinsaufgaben aus den Kernaufgaben, um das es hier geht, findet nicht statt."
+    },
+    {
+      "id": "by-math-12 / part-m1-2-1-2 / L76 / 1",
+      "verdict": "extends",
+      "why": "Aufteilen und Verteilen passt, aber die Division mit Rest ist in Bayern Stoff der Jahrgangsstufen 3/4 und geht über 1/2 hinaus."
+    },
+    {
+      "id": "by-math-12 / part-m1-2-2-1 / L55 / 4",
+      "verdict": "drop",
+      "why": "Hälfte, Drittel und Viertel einer Form anmalen ist Bruchvorstellung und keine Raumorientierung; die Übereinstimmung besteht nur im Wort „Zerlegen“, Drittel und Viertel stehen im LehrplanPLUS 1/2 gar nicht."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-1-1 / L47 / 1",
+      "verdict": "prepares",
+      "why": "Eine Stunde aus Klasse 2 zur Malaufgabe als gleich große Sprünge im kleinen Zahlenraum; das Zählen in Schritten im Zahlenraum bis zur Million bereitet sie nur vor."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-1-2 / L46 / 4",
+      "verdict": "prepares",
+      "why": "Die Tauschaufgabe am Punktefeld ist eine Strategie aus M1/2 (dort ausdrücklich genannt); für das Erklären, Vergleichen und Bewerten von Rechenwegen in 3/4 ist sie nur Grundlage."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-1-2 / L48 / 1",
+      "verdict": "prepares",
+      "why": "Die 2er- und 5er-Reihe sind die Kernaufgaben aus Jahrgangsstufe 2; hier geht es um das automatisierte Beherrschen aller Einmaleinssätze und ihrer Umkehrungen."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-1-3 / L80 / 5",
+      "verdict": "drop",
+      "why": "Zahlenmaschinen sind reines Rechnen nach vorgegebener Regel ohne Sachsituation; mit Problemlösestrategien in Sachaufgaben hat die Stunde nichts zu tun."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-3-2 / L97 / 3",
+      "verdict": "prepares",
+      "why": "Die Kinder lesen ein Diagramm mit halben Schritten ab; Bruchzahlen bei Größenangaben (1/2 l, 3/4 h) und deren Darstellung in anderen Einheiten werden nicht behandelt."
+    },
+    {
+      "id": "by-math-34 / part-m3-4-3-3 / L80 / 4",
+      "verdict": "drop",
+      "why": "Eine Zahlenmaschine ohne Größen und ohne Alltagssituation gehört nicht zu „Mit Größen in Sachsituationen umgehen“, auch nicht als Vorbereitung."
+    },
+    {
+      "id": "nw-math / part-m-1-3 / L48 / 5",
+      "verdict": "prepares",
+      "why": "Die Stunde aus Klasse 2 deckt die Kernaufgaben (Erwartung 1–2) ab; für „alle Zahlensätze des kleinen Einmaleins“ am Ende von Klasse 4 ist sie nur Vorbereitung."
+    },
+    {
+      "id": "nw-math / part-m-3-1 / L97 / 2",
+      "verdict": "drop",
+      "why": "Es wird kein Messgerät benutzt und keine Größe ermittelt; die Kinder zählen Kreuze in einem Diagramm."
+    },
+    {
+      "id": "nw-math / part-m-4-1 / L96 / 3",
+      "verdict": "prepares",
+      "why": "Die Kinder lesen Säulen- und Bilddiagramme nur ab (dafür passt Erwartung 4); selbst dargestellt werden Daten in dieser Stunde nicht."
+    },
+    {
+      "id": "nw-math / part-m-4-1 / L97 / 3",
+      "verdict": "prepares",
+      "why": "Auch hier wird das Diagramm nur gelesen, nicht erstellt; die Stunde gehört zum Entnehmen von Daten (Erwartung 4), nicht zum Darstellen."
+    },
+    {
+      "id": "sn-math-12 / part-ma-1-2-1 / L93 / 8",
+      "verdict": "extends",
+      "why": "Rechte Winkel an Formen zu finden ist in Sachsen Stoff der Klassenstufe 3 und keine Lagebeziehung zwischen linearen Figuren, wie sie in 1/2 gemeint ist."
+    },
+    {
+      "id": "sn-math-12 / part-ma-1-2-2 / L67 / 5",
+      "verdict": "extends",
+      "why": "Der Nachbarzehner gehört zu 1/2, das Runden selbst ist in Sachsen erst Fachbegriff und Inhalt der Klassenstufe 3."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-1 / L92 / 3",
+      "verdict": "prepares",
+      "why": "Die Kinder zählen die Würfel eines abgebildeten Gebäudes; mit Bauplänen wird weder gebaut noch ein Gebäude einem Bauplan zugeordnet."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-2 / L33 / 3",
+      "verdict": "prepares",
+      "why": "Zählen in Fünfer- und Zehnerschritten bis 100 ist Klassenstufe 2 und liegt unter dem Zahlenraum bis 1000 der Klassenstufe 3."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-2 / L48 / 18",
+      "verdict": "prepares",
+      "why": "Malaufgaben mit 2 und 5 sind im sächsischen Lehrplan ausdrücklich Stoff der Klassenstufen 1/2; das automatisierte Beherrschen aller Grundaufgaben der Multiplikation und Division leistet die Stunde nicht."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-3 / L97 / 3",
+      "verdict": "drop",
+      "why": "In der Stunde kommen keine Längen vor (kein Kilometer, keine Kommaschreibweise, kein Vergleichen von Längen); es wird ein Diagramm gelesen."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-3 / L97 / 4",
+      "verdict": "drop",
+      "why": "Es wird nichts gemessen; die Kinder zählen Kreuze über einem Zahlenstrahl."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-4 / L96 / 1",
+      "verdict": "prepares",
+      "why": "Die Kinder lesen fertige Säulendiagramme mit Fünferskala ab; angefertigt wird kein Diagramm."
+    },
+    {
+      "id": "sn-math-3 / part-ma-3-4 / L96 / 2",
+      "verdict": "prepares",
+      "why": "Balkendiagramme kommen in der Stunde nicht vor (Säulen- und Bilddiagramme), und es wird nur abgelesen, nicht angefertigt."
+    }
+  ],
+  "notes": [
+    "L97 („Ein Diagramm mit Kreuzen“) ist auf allen Seiten zusätzlich bei Größen/Messen und Brüchen eingeordnet; nach der Stundenbeschreibung ist es eine reine Daten-Stunde, nur die Zuordnungen zu Daten passen wirklich.",
+    "Zahl in „Stunden zu N von M“ passt nicht zu den mit + markierten Zielen: kmk-math part-m-4-1 (3 von 3, aber nur Ziel 2 und 3 markiert), kmk-math part-m-4-2 (5 von 5, aber Ziel 5 nicht markiert), by-math-12 part-m1-2-1-3 (4 von 6, aber nur 2, 3, 5 markiert).",
+    "kmk-math part-m-p-3 zeigt „Stunden zu 1 von 3“, obwohl dort keine Stunde steht, nur Arbeitsblätter; wenn Arbeitsblätter mitzählen, ist das Wort „Stunden“ in der Zählzeile irreführend.",
+    "Nach meinen Urteilen müssen die Zählungen neu gerechnet werden: sn-math-3 LB 3 verliert Ziel 3 und 4, sn-math-3 LB 4 hat dann keine Stunde mehr, die ein Ziel wirklich unterrichtet, by-math-34 3.2 und 1.3 verlieren je ein Ziel.",
+    "nw-math Zahlverständnis: Die Klasse-3-Stunden L63, L64 (Stellenwert bis 1000; Erwartungen 6 und 8) und L65 (Vergleichen und Ordnen; Erwartung 13) fehlen dort, obwohl sie auf KMK-, Bayern- und Sachsen-Seite stehen.",
+    "nw-math Ziffernrechnen: L72 („Schriftlich addieren und subtrahieren ohne Übertrag“) fehlt neben L73.",
+    "nw-math Größenvorstellung und Umgang mit Größen: L86 und L87 (Messbecher und Waage ablesen, ml und g) fehlen; sie gehören zu Erwartung 2 und 10 (Klasse 3–4).",
+    "by-math-12 M1/2 2.5: L90 („Umfang: einmal rundherum“) fehlt neben L91 bei Ziel 2 und steht auf keiner der beiden Bayern-Seiten.",
+    "by-math-34: L94 („Ist es ein Rechteck?“ über Seiten und rechte Winkel) gehört auch zu M3/4 2.2 Ziel 1, und L76 („Teilen mit Rest“) gehört auf die Seite 3/4 (M3/4 1.2), nicht nur als Erweiterung auf 1/2.",
+    "Sachsen: L93 („Rechte Winkel finden“) erwarte ich auf der Seite Klasse 3 (LB 1, senkrecht zueinander/Vierecke), nicht auf 1/2; L77 („Gleichungen im Gleichgewicht“, Klasse 3) steht nur auf 1/2 als Erweiterung und fehlt auf der Seite Klasse 3.",
+    "by-math-34: Die Beschreibung spricht von „Unterrichtsstunden für Klasse 3“, gezeigt werden aber auch Stunden aus Klasse 2 (L46, L47, L48); nach meinen Urteilen sind diese nur noch Vorbereitung.",
+    "Bitte am LehrplanPLUS prüfen: Der Umfang (Ziel 2 von „M1/2 2.5 Flächeninhalte/Umfänge“) und die Nummer „M3/4 2.5 Rauminhalte“; ich kenne Umfang als Inhalt der Jahrgangsstufen 3/4 und würde dort einen eigenen Abschnitt zu Flächeninhalt und Umfang vor den Rauminhalten erwarten.",
+    "nw-math: Der vierte Bereich heißt im Lehrplan „Daten, Häufigkeiten und Wahrscheinlichkeiten“ (mit „und“); die Überschrift auf der Seite bitte am Dokument prüfen.",
+    "Titel, Title-Tag und Beschreibung aller sechs Seiten sind sprachlich in Ordnung und verwenden die richtigen Begriffe (Jahrgangsstufen in Bayern, Klassenstufen in Sachsen, Primarstufe und Bereiche/Schwerpunkte in NRW); „Klasse 1 und 2“ im Bayern-Titel ist für Lehrkräfte üblich und kann bleiben."
+  ]
+}

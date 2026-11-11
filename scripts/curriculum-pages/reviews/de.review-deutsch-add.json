@@ -1,0 +1,44 @@
+{
+  "lines": [
+    {
+      "id": "nw-deutsch / part-d-4-2 / L107 / 3",
+      "verdict": "teaches",
+      "why": "The children work with question sentences and match them to the answer sentences, which is distinguishing Fragesatz and Aussagesatz at class-1 level (the Sachsen page lists the same lesson under Satzarten)."
+    },
+    {
+      "id": "nw-deutsch / part-d-4-2 / L117 / 3",
+      "verdict": "teaches",
+      "why": "The children write the question that belongs to a given answer sentence and complete warum- and wie-questions, so they produce and tell apart Fragesatz and Aussagesatz."
+    },
+    {
+      "id": "nw-deutsch / part-d-4-2 / L107 / 4",
+      "verdict": "prepares",
+      "why": "Finding the question word that asks for the marked words of a sentence is the Frageprobe in its first form and leads up to distinguishing Satzglieder (the KMK page rates the lesson the same way)."
+    },
+    {
+      "id": "nw-deutsch / part-d-4-2 / L117 / 4",
+      "verdict": "prepares",
+      "why": "Writing the question that asks for the marked words of an answer is the precursor of identifying Satzglieder by asking for them; Satzglieder themselves are not named or rearranged."
+    },
+    {
+      "id": "nw-deutsch / part-d-3-1 / L138 / 6",
+      "verdict": "teaches",
+      "why": "Working out which name a pronoun stands for is exactly the linking of information between neighbouring sentences (lokale Kohärenz); the KMK page already counts the lesson for Leseverstehen."
+    },
+    {
+      "id": "by-deutsch-12 / part-d1-2-4-3 / L124 / 8",
+      "verdict": "teaches",
+      "why": "Finding the two words that mean the same thing for a picture builds word alternatives for common words in the same way as L125, which is listed here."
+    },
+    {
+      "id": "sn-deutsch-12 / part-de-1-2-2 / L99 / 10",
+      "verdict": "teaches",
+      "why": "Clapping the syllables and writing words syllable by syllable is the first spelling strategy of class 1 (silbierendes Mitsprechen), so the lesson teaches a Rechtschreibstrategie directly."
+    },
+    {
+      "id": "kmk-deutsch / part-d-5-4 / L106 / 4",
+      "verdict": "prepares",
+      "why": "Putting jumbled words into the order of a sentence gives a first experience of word order and leads up to examining sentence structure; the NRW page rates the same lesson as preparation for Satzglieder."
+    }
+  ]
+}

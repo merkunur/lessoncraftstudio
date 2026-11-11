@@ -89,6 +89,59 @@ Measured locally under the print media type (Letter): no navigation, footer, but
 - The pricing page's own list of the Teacher plan does not yet name the unit files and the sub plan pages; that is a string in eleven languages and is left for the pricing texts of the Part 9 launch (`PART-9-DESIGN.md` §9 item 2), when the list is rewritten anyway.
 - The request counter is per process and is emptied by a restart.
 
+## 3. Parts 6.2 and 6.3 (built 2026-11-12): German and Swedish — frameworks without public codes
+
+### A second kind of page: a line is a PART of the document
+
+The German Bildungsstandards and state plans and the Swedish Lgr22 have no public codes (`display.json`: `show` = `area` or `label`). An objective can then not be a line: nothing stands for it but its wording, and the wording is not ours to print. On such a page (`mode: parts`, `partsPage` in `assemble.js`) a line is the lowest HEADING the objectives stand under (Kompetenzbereich, Lernbereich, Schwerpunkt, kunskapsområde), with the plan's own number where it numbers its parts (Bavaria "M1/2 1.1", Saxony "Kl. 1/2, LB 1"). Under it stand the lessons whose teaching point has a `teaches` row for an objective of the part, by unit and with the unit's class, and a count "lessons for N of M" of the part's objectives. A part with nothing is listed as such. Gate Q3 holds a part's title to the headings of the registry, so an objective's wording can never become a title.
+
+- **The count is lessons only.** An objective that only a worksheet stands for is not counted (the first build counted it, and three counts did not match what a reader could see: found by the mathematics reviewer).
+- **A page covers the grade bands its document has** (defs: `grades`): the KMK standards one page per subject (they describe the end of class 4); Bavaria per Jahrgangsstufen 1/2 and 3/4; NRW one page per subject (both stages); Saxony per Klassenstufe band; Lgr22 årskurs 1–3. A lesson of a lower or higher class under a band is shown with its class.
+- **A document with one level of parts** (Saxony, Lgr22) has one group: its title and the jump list are left out.
+- **Wording by document family** (`ui[key_<framework key>]`, then `_<family>`: `_kmk`, `_lpplus`, `_lp-nrw`, `_lp-sn`): Teilbereich and Standard for the KMK, Lernbereich and Kompetenzerwartung for Bavaria, Schwerpunkt for NRW, Lernziele und Inhalte for Saxony.
+- **The hub** lists such pages by document family (`set_<registry>`).
+- **Unit pages:** a chip of a framework without codes links to its part by the title it shows; two objectives under one heading no longer print the same chip twice.
+
+### The pages (same rule: at least 15 objectives with a lesson; `MIN_TAUGHT` unchanged)
+
+| Page | Band | Parts with lessons | Objectives with a lesson | Lessons |
+|---|---|---|---|---|
+| `bildungsstandards-mathematik-grundschule` | Klasse 1 bis 4 | 16 of 19 | 35 of 65 | 95 |
+| `bildungsstandards-deutsch-grundschule` | Klasse 1 bis 4 | 9 of 26 | 23 of 114 | 40 |
+| `lehrplan-mathematik-bayern-klasse-1-2` | Jahrgangsstufen 1 und 2 | 12 of 13 | 35 of 55 | 69 |
+| `lehrplan-mathematik-bayern-klasse-3-4` | Jahrgangsstufen 3 und 4 | 9 of 13 | 18 of 54 | 27 |
+| `lehrplan-deutsch-bayern-klasse-1-2` | Jahrgangsstufen 1 und 2 | 9 of 20 | 28 of 112 | 32 |
+| `lehrplan-mathematik-nrw-grundschule` | Klasse 1 bis 4 | 13 of 16 | 50 of 91 | 91 |
+| `lehrplan-deutsch-nrw-grundschule` | Klasse 1 bis 4 | 5 of 14 | 22 of 117 | 40 |
+| `lehrplan-mathematik-sachsen-klasse-1-2` | Klassenstufen 1 und 2 | 4 of 4 | 44 of 85 | 65 |
+| `lehrplan-mathematik-sachsen-klasse-3` | Klassenstufe 3 | 4 of 4 | 22 of 79 | 31 |
+| `lehrplan-deutsch-sachsen-klasse-1-2` | Klassenstufen 1 und 2 | 4 of 5 | 28 of 97 | 36 |
+| `centralt-innehall-matematik-ak-1-3` | årskurs 1–3 | 6 of 6 | 15 of 22 | 102 |
+
+No page: Bavaria Deutsch 3/4, Saxony Deutsch 3 and 4, Saxony Mathematik 4, Sachunterricht and HSU everywhere (too few lessons); Lgr22 svenska (10 of 22 points; below the minimum). The Swedish page stands exactly at the minimum (15).
+
+### The review (rule #2)
+
+- **German, two readers as German primary teachers** (mathematics pages; German pages with all strings and the schools page), each over a compact dump: the lessons once with their own objectives, then per part the official objectives (for the reader only) and each lesson with the numbers of the objectives it is mapped to. About 900 pairs read. **67 rulings on a pair of lesson and objective** (15 drop, 33 prepares, 3 extends, 16 teaches for lessons that were missing under a part), applied to the four registries (`crosswalk-authored.json`, 64 rows). The clearest faults: one data lesson mapped to measuring and to fractions on every page; worksheet lessons listed under "Sprechen und Zuhören"; class-2 lessons counted for class-3 objectives.
+- **Two doubts of a reader were checked against the official sources and the registry stands:** LehrplanPLUS 1/2 does head 2.5 "Flächeninhalte/Umfänge bestimmen und vergleichen"; the NRW document heads the area "Daten, Häufigkeiten, Wahrscheinlichkeiten".
+- **Swedish, one reader as a lågstadielärare:** about 120 pairs, 5 rulings (2 prepares, 3 teaches), one string. Her note changed four sentences: with the wording hidden a page shows HOW MANY points have lessons, not which are missing, so no sentence promises "what is missing" where no part is listed as missing (also the two Saxon mathematics pages).
+- **What the German reader found on the schools page was also wrong in English (live):** "matched to your standards" promised a match for any school (now: the Common Core standards and the Texas TEKS); "for one classroom" where the plan is per teacher; a step that spoke of "your list" which no step asked for (now the school sends the addresses when it accepts the quote).
+- After the rulings: registries, units files, skill index and the German and Swedish teacher guides were rebuilt.
+
+### The German schools page (`/de/schools`)
+
+In the Sie form (it speaks to a Schulleitung). It names what is matched (the Bildungsstandards of the KMK and the plans of Bavaria, NRW and Saxony) and nothing more. Swedish has no schools page yet.
+
+### Also in this deploy
+
+The breadcrumb's home link on every page pointed to `/<locale>/`, which answers with a redirect to `/<locale>`; it now points to the final address (found by the schools live check).
+
+### Known limits
+
+- A reader sees how many objectives of a part have a lesson, not which; that is the price of not printing the wording.
+- The lessons two reviewers left out for want of a clear objective (Bavaria 3/4 "Teilen mit Rest", Saxony class 3 "Gleichungen im Gleichgewicht") are not listed on those pages.
+- The mapping of the 306 teaching points to these four German documents and to Lgr22 was read here only where a live lesson uses it.
+
 ### Still to build in Part 6
 
-One locale each in Part 2 order (de first: KMK, then the Bavaria, North Rhine-Westphalia and Saxony layers, whose display rule is `label` or `area`, not `code`), each with its schools page.
+Nothing until more languages have units: a checklist needs lessons behind it (French, Spanish, Portuguese and Italian after their units, PLAN §5 rule 12). A Swedish schools page when a Swedish school asks.

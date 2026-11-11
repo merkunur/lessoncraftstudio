@@ -12,6 +12,10 @@
  *
  *   node scripts/curriculum-pages/assemble.js --loc=en [--check]
  *
+ * Two kinds of page. A framework with public codes (Common Core, TEKS): a line is an objective, shown by its code.
+ * A framework without them (the German Bildungsstandards and state plans): a line is a PART of the document with the
+ * lessons under it (see partsPage below).
+ *
  * What a line shows (Part 2 rule, scripts/curricula/show.js): the objective's own official code, never its wording.
  * The description of a line is OURS: the objective of the first lesson that teaches it, or the skill of the teaching
  * point. A line is "taught" when a crosswalk row says `teaches`, "near" when the content only prepares for it or goes
@@ -80,18 +84,114 @@ function assemble(loc) {
     return regs.get(reg);
   };
 
+
+  // ---- A FRAMEWORK WITHOUT PUBLIC CODES (show = area or label: the German Bildungsstandards and state plans) ----
+  // A line of such a page is a PART of the document (the lowest heading the objectives stand under: a
+  // Kompetenzbereich, a Lernbereich), named by its own title and, where the plan numbers its parts, by that number.
+  // An objective itself is never a line: it has no code to stand for it, and its wording is not ours to print. Under
+  // a part stand the lessons whose teaching point has a `teaches` row for an objective of the part, by unit, and a
+  // count of the part's objectives that such a row names. A page covers one or more grade bands of the registry
+  // (defs: `grades`).
+  const partKey = (id) => 'part-' + id.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const partsPage = (d, R, meta, where) => {
+    const grades = (d.grades || [d.grade]).map(String);
+    const nodes = R.fw.nodes.filter((n) => n.f === d.framework && grades.includes(String(n.grade)));
+    const up = (n) => (n.parent ? R.byId.get(n.parent) : null);
+    const headOf = (n) => { for (let x = up(n), g = 0; x && g < 12; x = up(x), g++) if (HEADINGS.has(x.kind)) return x; return null; };
+    const topOf = (n) => { let t = n; for (let g = 0; up(t) && g < 12; g++) t = up(t); return t; };
+    const order = new Map(R.fw.nodes.map((n, i) => [n.id, i]));
+    const unitIndex = new Map(unitsFile.units.map((u, i) => [u.slug, i]));
+    // the parts, in the order of the document, each with the objectives that stand under it in these grades
+    const parts = new Map();
+    for (const n of nodes) {
+      if (HEADINGS.has(n.kind)) continue;
+      const h = headOf(n);
+      if (!h) { bad(where + ': ' + n.id + ' stands under no part of the document'); continue; }
+      if (!parts.has(h.id)) parts.set(h.id, { node: h, members: [] });
+      parts.get(h.id).members.push(n);
+    }
+    // a row may name a part itself (the whole Kompetenzbereich): it counts for the part, not for an objective
+    for (const n of R.fw.nodes) if (n.f === d.framework && HEADINGS.has(n.kind) && parts.has(n.id) && (R.rowsOf.get(n.id) || []).length) parts.get(n.id).own = true;
+    const groups = [], byKey = new Map();
+    let objectives = 0, taught = 0, nTaught = 0, nNear = 0, nOpen = 0;
+    const lessonKeys = new Set();
+    for (const part of [...parts.values()].sort((a, b) => order.get(a.node.id) - order.get(b.node.id))) {
+      const top = topOf(part.node);
+      const gKey = top.id === part.node.id ? '_own' : top.id;
+      if (!byKey.has(gKey)) { const g = { title: gKey === '_own' ? d.partsTitle || meta.short : top.text, items: [], open: [] }; byKey.set(gKey, g); groups.push(g); }
+      const g = byKey.get(gKey);
+      const s = shown(R.registry, part.node);
+      const leaves = part.members.filter((n) => !R.hasChild.has(n.id));
+      objectives += leaves.length;
+      const found = { teaches: new Map(), near: new Map() }, papers = [];
+      let nearRel = null, partTaught = 0;
+      for (const n of [part.node, ...part.members]) {
+        let leafTaught = false;
+        for (const r of R.rowsOf.get(n.id) || []) {
+          const p = points.get(r.point);
+          if (!p) { bad(where + ': ' + n.id + ' names the point ' + r.point + ', which the graph does not have'); continue; }
+          const ls = (lessonsOf.get(r.point) || []).filter((l) => !l.own || d.registry !== loc || l.own.includes(n.id));
+          const into = r.rel === 'teaches' ? found.teaches : found.near;
+          for (const l of ls) into.set(l.unit + '#' + l.n, { unit: l.unit, unitTitle: l.unitTitle, unitGrade: l.unitGrade, n: l.n, title: l.title });
+          if (r.rel !== 'teaches' && ls.length && !nearRel) nearRel = r.rel;
+          let paper = false;
+          if (!ls.length && r.rel === 'teaches') for (const t of p.types) { const a = assets.types[t], st = strings[t]; if (a && a.p && a.p[1] > 0 && a.base && st && st.title && !/\{[A-Za-z_]+\}/.test(st.printTitle || st.title)) { paper = true; if (papers.length < 4 && !papers.some((x) => x.core === a.base)) papers.push({ title: st.printTitle || st.title, core: a.base }); } }
+          // the count a part shows is "lessons for N of M": an objective that only a worksheet stands for is not in
+          // it (the page shows a part's worksheets only when the part has no lesson, and then without a count)
+          if (r.rel === 'teaches' && ls.length) leafTaught = true;
+        }
+        if (leafTaught && n !== part.node && !R.hasChild.has(n.id)) partTaught++;
+      }
+      const rKey = d.id + ' / ' + partKey(part.node.id);
+      const ruling = rulings[rKey];
+      if (ruling) usedRulings.add(rKey);
+      // a lesson the reviewer took out of a part (the claim itself is corrected in the registry by apply-review.js;
+      // this only holds until the registry is rebuilt)
+      const dropped = (k) => { const r = rulings[rKey + ' / ' + k]; if (r) usedRulings.add(rKey + ' / ' + k); return !!r && r.verdict === 'drop'; };
+      for (const k of [...found.teaches.keys()]) if (dropped(k)) found.teaches.delete(k);
+      for (const k of [...found.near.keys()]) if (dropped(k) || found.teaches.has(k)) found.near.delete(k);
+      const label = { code: s.code || '', title: part.node.text, key: partKey(part.node.id) };
+      const state = ruling && ruling.verdict === 'drop' ? null : found.teaches.size || papers.length ? 'taught' : found.near.size ? 'near' : null;
+      if (!state) { g.open.push(label); nOpen++; continue; }
+      const use = state === 'taught' ? found.teaches : found.near;
+      const units = [];
+      for (const l of [...use.values()].sort((a, b) => unitIndex.get(a.unit) - unitIndex.get(b.unit) || a.n - b.n)) {
+        let u = units.find((x) => x.unit === l.unit);
+        if (!u) { u = { unit: l.unit, unitTitle: l.unitTitle, unitGrade: l.unitGrade, lessons: [] }; units.push(u); }
+        u.lessons.push({ n: l.n, title: l.title });
+        lessonKeys.add(l.unit + '#' + l.n);
+      }
+      const item = Object.assign({}, label, { state, counts: { objectives: leaves.length, taught: state === 'taught' ? partTaught : 0 } });
+      if (state === 'near') item.rel = nearRel === 'extends' ? 'extends' : 'prepares';
+      if (ruling && ruling.text) item.text = ruling.text;
+      if (units.length) item.units = units;
+      if (papers.length && !units.length) item.papers = papers;
+      g.items.push(item);
+      if (state === 'taught') { nTaught++; taught += partTaught; } else nNear++;
+    }
+    const kept = groups.filter((g) => g.items.length || g.open.length).map((g) => { const o = { title: g.title, items: g.items }; if (g.open.length) o.openParts = g.open; return o; });
+    if (taught < MIN_TAUGHT) bad(where + ': ' + taught + ' taught objectives (a page needs ' + MIN_TAUGHT + ')');
+    for (const k of ['gradeLabel']) if (!d[k]) bad(where + ': no ' + k);
+    return {
+      id: d.id, slug: d.slug, status: d.status || 'pilot', mode: 'parts', registry: d.registry, framework: d.framework, frameworkShort: meta.short, frameworkTitle: meta.title, publisher: meta.publisher, year: meta.year, officialDocument: String(meta.officialDocument).split(' ')[grades.length === 1 && d.documentIndex ? d.documentIndex : 0],
+      grade: grades.join(','), gradeLabel: d.gradeLabel, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription,
+      counts: { objectives, taught, near: nNear, open: nOpen, lessons: lessonKeys.size, parts: nTaught + nNear + nOpen, partsTaught: nTaught }, groups: kept,
+    };
+  };
+
   const pages = [], seen = new Set();
   for (const d of defs) {
     const where = loc + ' page ' + d.id;
     if (seen.has(d.id) || seen.has('/' + d.slug)) bad(where + ': id or slug used twice');
     seen.add(d.id); seen.add('/' + d.slug);
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.slug || '')) bad(where + ': slug "' + d.slug + '" is not url-safe');
-    for (const k of ['title', 'metaTitle', 'metaDescription', 'registry', 'framework', 'grade', 'subject']) if (!d[k]) bad(where + ': no ' + k);
+    for (const k of ['title', 'metaTitle', 'metaDescription', 'registry', 'framework', 'subject']) if (!d[k]) bad(where + ': no ' + k);
+    if (!d.grade && !d.grades) bad(where + ': no grade');
     if (!display[d.registry]) { bad(where + ': no registry ' + d.registry); continue; }
     const R = registryOf(d.registry);
     const meta = R.fw.frameworks.find((f) => f.key === d.framework);
     if (!meta) { bad(where + ': the registry has no framework ' + d.framework); continue; }
-    if ((display[d.registry].frameworks[d.framework] || {}).show !== 'code') { bad(where + ': the framework is not shown by code'); continue; }
+    if ((display[d.registry].frameworks[d.framework] || {}).show !== 'code') { pages.push(partsPage(d, R, meta, where)); continue; }
     const nodes = R.fw.nodes.filter((n) => n.f === d.framework && String(n.grade) === String(d.grade));
     const groups = [], byTitle = new Map();
     const groupOf = (n) => {
@@ -182,7 +282,7 @@ if (require.main === module) {
   } else {
     fs.writeFileSync(out, fileText(file));
     console.log(loc + ': ' + file.pages.length + ' page(s) → ' + path.relative(REPO, out));
-    for (const p of file.pages) console.log('  ' + p.id.padEnd(16) + ' taught ' + String(p.counts.taught).padStart(3) + ' · near ' + String(p.counts.near).padStart(2) + ' · open ' + String(p.counts.open).padStart(3) + ' · lessons ' + p.counts.lessons);
+    for (const p of file.pages) console.log('  ' + p.id.padEnd(16) + (p.mode === 'parts' ? ' parts ' + String(p.counts.partsTaught).padStart(2) + '/' + String(p.counts.parts).padEnd(3) : '') + ' taught ' + String(p.counts.taught).padStart(3) + ' · near ' + String(p.counts.near).padStart(2) + ' · open ' + String(p.counts.open).padStart(3) + ' · lessons ' + p.counts.lessons);
   }
 }
 module.exports = { assemble, fileText, MIN_TAUGHT };

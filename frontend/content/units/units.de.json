@@ -5498,13 +5498,7 @@
        "title": "Mit Daten umgehen"
       },
       {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Größen messen und Maßangaben bestimmen"
-      },
-      {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Über Größenvorstellungen verfügen"
@@ -5627,7 +5621,7 @@
        "title": "Orthografisch schreiben"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Lesefertigkeiten: Flüssig lesen"
@@ -6604,7 +6598,7 @@
        "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Orthografisch schreiben"
@@ -7167,7 +7161,7 @@
        "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Texte verfassen — Texte planen und strukturieren"
@@ -7712,7 +7706,7 @@
        "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Orthografisch schreiben"
@@ -7762,7 +7756,7 @@
        "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Orthografisch schreiben"

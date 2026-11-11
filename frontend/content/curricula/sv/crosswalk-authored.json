@@ -303,11 +303,23 @@
     },
     {
      "id": "MA.1-3.3.3",
-     "rel": "prepares"
+     "rel": "teaches"
     }
    ],
-   "why": "F.3.3 names «tid» among what the förskoleklass describes with mathematical concepts; the weekdays are the first time units before «Mätning av ... tid» in årskurs 1–3.",
-   "review": "author-all"
+   "why": "F.3.3 names «tid» among what the förskoleklass describes with mathematical concepts; the weekdays are the first time units before «Mätning av ... tid» in årskurs 1–3. [pages-review sv.review.json, MA.1-3.3.3 teaches] The days of the week in order are part of time and its units in year 1, the same content as L65 (yesterday, today, tomorrow and the months), which is already listed under this point.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "F.3.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-3.3.3",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:tally-marks": {
    "rows": [
@@ -461,11 +473,23 @@
     },
     {
      "id": "MA.1-3.1.1",
-     "rel": "prepares"
+     "rel": "teaches"
     }
    ],
-   "why": "Odd and even are «egenskaper» of natural numbers, named in both F.3.2 and MA 1–3; pairing up is the förskoleklass way in.",
-   "review": "author-all"
+   "why": "Odd and even are «egenskaper» of natural numbers, named in both F.3.2 and MA 1–3; pairing up is the förskoleklass way in. [pages-review sv.review.json, MA.1-3.1.1 teaches] Pairing up to decide odd or even is a property of natural numbers at year 1 level, exactly like its sister lesson L63, which is already listed under this point.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "F.3.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-3.1.1",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:teen-numbers": {
    "rows": [
@@ -1523,11 +1547,23 @@
     },
     {
      "id": "MA.1-3.1.8",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "«överslagsräkning» (1.7) used for «Rimlighetsbedömning vid uppskattningar och beräkningar» (1.8).",
-   "review": "author-all"
+   "why": "«överslagsräkning» (1.7) used for «Rimlighetsbedömning vid uppskattningar och beräkningar» (1.8). [pages-review sv.review.json, MA.1-3.1.8 prepares] The lesson makes an estimate of a sum by rounding (överslagsräkning, point 7) but the pupils never judge whether an answer or an estimate is reasonable, which is what rimlighetsbedömning means; the estimate is only the tool for it.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.1-3.1.7",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-3.1.8",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:magic-squares": {
    "rows": [
@@ -1810,10 +1846,22 @@
     {
      "id": "MA.4-6.3.3",
      "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
     }
    ],
-   "why": "Telling perimeter and area apart is 4–6 content («omkrets och area hos ... tvådimensionella geometriska figurer»); nothing in 1–3 names either.",
-   "review": "author-all"
+   "why": "Telling perimeter and area apart is 4–6 content («omkrets och area hos ... tvådimensionella geometriska figurer»); nothing in 1–3 names either. [pages-review sv.review.json, MA.1-3.3.3 teaches] From the reviewer's note: L179 (same perimeter, other area) fits Geometri point 3 in the same way as its siblings L176 and L178, as a comparison of quantities by counting squares; entered by the build session because the pair was not in the reviewed file.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.4-6.3.3",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:division-remainder": {
    "rows": [
@@ -1975,15 +2023,27 @@
    "rows": [
     {
      "id": "MA.1-3.3.3",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "MA.4-6.3.2",
      "rel": "prepares"
     }
    ],
-   "why": "Counting cubes compares and measures «volym» with an informal unit (1–3, where volume is usually litres and decilitres); volume of solids in standard units is 4–6.",
-   "review": "author-all"
+   "why": "Counting cubes compares and measures «volym» with an informal unit (1–3, where volume is usually litres and decilitres); volume of solids in standard units is 4–6. [pages-review sv.review.json, MA.1-3.3.3 prepares] Counting the cubes in a tower, including hidden ones, is spatial counting: nothing is compared or estimated as a quantity and no volume is measured with a unit (litre, decilitre), so it only leads up to the point.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.1-3.3.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.4-6.3.2",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:pre-writing-strokes": {
    "rows": [

@@ -51,11 +51,40 @@ const registryOf = (reg) => {
   return regs.get(reg);
 };
 
-const problems = [], describe = {}, relation = [];
+// ---- a page of parts (a framework without public codes): a ruling names ONE lesson and ONE objective of a part,
+// "<page id> / <part key> / L<number> / <objective number | part>", as scripts/curriculum-pages/dump-for-review.js
+// numbers them. It changes the row of the lesson's teaching point for that objective in the registry.
+const partKey = (id) => 'part-' + id.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const lessonPoint = new Map();
+{ let i = 0; for (const u of readJson(path.join(C, 'units', 'units.' + loc + '.json')).units) { if (u.status !== 'live') continue; for (const l of u.lessons) lessonPoint.set('L' + (++i), { point: l.point, key: u.slug + '#' + l.n }); } }
+function pairOf(l, p, seg) {
+  const R = registryOf(p.registry);
+  if (!R.fwNodes) { const fw = readJson(path.join(C, 'curricula', p.registry, 'framework.json')); R.fwNodes = fw.nodes; R.byId = new Map(fw.nodes.map((n) => [n.id, n])); R.hasChild = new Set(fw.nodes.map((n) => n.parent).filter(Boolean)); }
+  const part = R.fwNodes.find((n) => n.f === p.framework && HEADINGS.has(n.kind) && partKey(n.id) === seg[1]);
+  if (!part) return l.id + ': the document has no part ' + seg[1];
+  const lesson = lessonPoint.get(seg[2]);
+  if (!lesson) return l.id + ': no lesson ' + seg[2];
+  const grades = p.grade.split(',');
+  const headOf = (n) => { for (let x = n.parent ? R.byId.get(n.parent) : null, g = 0; x && g < 12; x = x.parent ? R.byId.get(x.parent) : null, g++) if (HEADINGS.has(x.kind)) return x; return null; };
+  const leaves = R.fwNodes.filter((n) => n.f === p.framework && !HEADINGS.has(n.kind) && !R.hasChild.has(n.id) && grades.includes(String(n.grade)) && (headOf(n) || {}).id === part.id);
+  const node = seg[3] === 'part' ? part : leaves[Number(seg[3]) - 1];
+  if (!node) return l.id + ': the part has no objective number ' + seg[3];
+  if (!['drop', 'prepares', 'extends', 'teaches'].includes(l.verdict) || !l.why) return l.id + ': not a verdict with its reason';
+  // "teaches" (and a "prepares" for a pair the page does not show) ADDS a row: a lesson the reviewer missed under
+  // a part. Every other verdict needs the row it rules on.
+  const has = ((R.cw[lesson.point] || {}).rows || []).some((r) => r.id === node.id);
+  if (!has && !['teaches', 'prepares'].includes(l.verdict)) return l.id + ': the point ' + lesson.point + ' has no row for ' + node.id;
+  if (!R.cw[lesson.point]) return l.id + ': the registry has no point ' + lesson.point;
+  return { l, R, node, point: lesson.point, add: !has };
+}
+
+const problems = [], describe = {}, relation = [], pairs = [];
 for (const l of review.lines || []) {
-  const [pid, code] = l.id.split(' / ');
+  const seg = l.id.split(' / ');
+  const [pid, code] = seg;
   const p = pages.get(pid);
   if (!p) { problems.push(l.id + ': no such page'); continue; }
+  if (seg.length === 4) { const r = pairOf(l, p, seg); if (typeof r === 'string') problems.push(r); else pairs.push(r); continue; }
   if (!['drop', 'prepares', 'extends', 'teaches', 'describe'].includes(l.verdict) || !l.why) { problems.push(l.id + ': not a verdict with its reason'); continue; }
   const R = registryOf(p.registry);
   const node = R.byCode.get(p.framework + ' ' + code);
@@ -89,6 +118,24 @@ for (const { l, R, node } of relation) {
     changed++;
   }
 }
+// the pairs of the pages of parts: one point, one objective
+let pairRows = 0;
+for (const { l, R, node, point, add } of pairs) {
+  const to = l.verdict === 'drop' ? null : l.verdict;
+  const cur = R.store.points[point];
+  const base = (cur && cur.rows ? cur.rows : R.cw[point].rows || []).map((r) => ({ id: r.id, rel: r.rel }));
+  const next = base.filter((r) => !(r.id === node.id && to === null)).map((r) => (r.id === node.id && to ? Object.assign({}, r, { rel: to }) : r));
+  if (add && !next.some((r) => r.id === node.id)) next.push({ id: node.id, rel: to });
+  if (JSON.stringify(next) === JSON.stringify(base)) continue;          // the same ruling, applied before
+  const entry = Object.assign({}, cur || {}, { rows: next });
+  entry.why = [(cur && cur.why) || null, '[' + tag + ', ' + node.id + ' ' + (to || 'removed') + '] ' + l.why].filter(Boolean).join(' ');
+  if (!entry.was) entry.was = { rows: base };
+  if (!next.length) entry.none = l.why;
+  if (!R.authored) entry.review = entry.review || tag;
+  R.store.points[point] = entry;
+  R.dirty = true;
+  pairRows++;
+}
 for (const [reg, R] of regs) if (R.dirty) { writeJson(R.file, R.store); console.log('rewritten  ' + path.relative(REPO, R.file)); }
 
 // the sentences
@@ -104,4 +151,12 @@ const ui = readJson(uiFile);
 let strings = 0;
 for (const [k, v] of Object.entries(review.ui || {})) { if (!(k in ui)) { console.log('ERROR  ui.' + k + ' is no string of the pages'); process.exit(1); } ui[k] = v; strings++; }
 writeJson(uiFile, ui);
-console.log(Object.keys(describe).length + ' sentence(s), ' + relation.length + ' ruling(s) on a claim (' + changed + ' point rows changed in the registry), ' + strings + ' string(s)');
+// the strings of the "For schools" page, when the same reviewer read them (review.schools)
+let schoolStrings = 0;
+if (review.schools && Object.keys(review.schools).length) {
+  const sFile = path.join(C, 'schools', 'ui.' + loc + '.json');
+  const sUi = readJson(sFile);
+  for (const [k, v] of Object.entries(review.schools)) { if (!(k in sUi) || k === 'status') { console.log('ERROR  schools.' + k + ' is no string of the page'); process.exit(1); } sUi[k] = v; schoolStrings++; }
+  writeJson(sFile, sUi);
+}
+console.log(Object.keys(describe).length + ' sentence(s), ' + relation.length + ' ruling(s) on a claim (' + changed + ' point rows changed in the registry), ' + pairs.length + ' ruling(s) on a lesson of a part (' + pairRows + ' rows changed), ' + strings + ' string(s), ' + schoolStrings + ' string(s) of the schools page');

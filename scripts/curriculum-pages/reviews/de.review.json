@@ -1,0 +1,378 @@
+{
+ "$comment": "The review of the German curriculum pages (Daily Teaching System, Part 6.2): two readers as German primary teachers, one for the mathematics pages (de.review-math.json), one for the German pages, the page strings and the schools page (de.review-deutsch.json). Merged by hand of the build session; applied by scripts/curriculum-pages/apply-review.js.",
+ "ui": {},
+ "schools": {
+  "lead": "Unterrichtseinheiten, Arbeitsblätter und Vertretungsstunden für die Klassen 1 bis 3. Die Unterrichtsstunden sind den Bildungsstandards der KMK und bisher den Lehrplänen von Bayern, Nordrhein-Westfalen und Sachsen zugeordnet. Schreiben Sie uns, wie viele Lehrkräfte den Tarif {plan} brauchen: Sie bekommen ein Angebot und eine Rechnung für die ganze Schule.",
+  "planLead": "Der Tarif {plan} ist ein Zugang pro Lehrkraft. Jede Lehrkraft, für die Sie den Tarif bestellen, bekommt:",
+  "planOne": "Sie brauchen den Tarif nur für eine Lehrkraft? Dann können Sie ihn auf der Preisseite direkt mit Karte buchen.",
+  "seeUnitsNote": "Jede Einheit ist eine Folge von Stunden mit Hinweisen für die Lehrkraft, Arbeitsblättern und Übungen am Bildschirm."
+ },
+ "pages": {},
+ "lines": [
+  {
+   "id": "kmk-math / part-m-2-1 / L97 / 4",
+   "verdict": "prepares",
+   "why": "Die Kinder zählen Kreuze über einem Zahlenstrahl mit halben Schritten; Brüche an Größen (1/2 m, Dreiviertelstunde, 1/4 l) kommen nicht vor, das Ablesen von Halben ist höchstens eine Vorstufe."
+  },
+  {
+   "id": "kmk-math / part-m-2-2 / L97 / 2",
+   "verdict": "drop",
+   "why": "In der Stunde wird ein Diagramm gelesen, es wird nichts mit einem Messgerät gemessen; das ist Leitidee Daten, nicht Messen."
+  },
+  {
+   "id": "by-math-12 / part-m1-2-1-2 / L48 / 4",
+   "verdict": "prepares",
+   "why": "Die Stunde übt die Kernaufgaben der 2er- und 5er-Reihe selbst; das Ableiten weiterer Einmaleinsaufgaben aus den Kernaufgaben, um das es hier geht, findet nicht statt."
+  },
+  {
+   "id": "by-math-12 / part-m1-2-1-2 / L76 / 1",
+   "verdict": "extends",
+   "why": "Aufteilen und Verteilen passt, aber die Division mit Rest ist in Bayern Stoff der Jahrgangsstufen 3/4 und geht über 1/2 hinaus."
+  },
+  {
+   "id": "by-math-12 / part-m1-2-2-1 / L55 / 4",
+   "verdict": "drop",
+   "why": "Hälfte, Drittel und Viertel einer Form anmalen ist Bruchvorstellung und keine Raumorientierung; die Übereinstimmung besteht nur im Wort „Zerlegen“, Drittel und Viertel stehen im LehrplanPLUS 1/2 gar nicht."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-1-1 / L47 / 1",
+   "verdict": "prepares",
+   "why": "Eine Stunde aus Klasse 2 zur Malaufgabe als gleich große Sprünge im kleinen Zahlenraum; das Zählen in Schritten im Zahlenraum bis zur Million bereitet sie nur vor."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-1-2 / L46 / 4",
+   "verdict": "prepares",
+   "why": "Die Tauschaufgabe am Punktefeld ist eine Strategie aus M1/2 (dort ausdrücklich genannt); für das Erklären, Vergleichen und Bewerten von Rechenwegen in 3/4 ist sie nur Grundlage."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-1-2 / L48 / 1",
+   "verdict": "prepares",
+   "why": "Die 2er- und 5er-Reihe sind die Kernaufgaben aus Jahrgangsstufe 2; hier geht es um das automatisierte Beherrschen aller Einmaleinssätze und ihrer Umkehrungen."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-1-3 / L80 / 5",
+   "verdict": "drop",
+   "why": "Zahlenmaschinen sind reines Rechnen nach vorgegebener Regel ohne Sachsituation; mit Problemlösestrategien in Sachaufgaben hat die Stunde nichts zu tun."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-3-2 / L97 / 3",
+   "verdict": "prepares",
+   "why": "Die Kinder lesen ein Diagramm mit halben Schritten ab; Bruchzahlen bei Größenangaben (1/2 l, 3/4 h) und deren Darstellung in anderen Einheiten werden nicht behandelt."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-3-3 / L80 / 4",
+   "verdict": "drop",
+   "why": "Eine Zahlenmaschine ohne Größen und ohne Alltagssituation gehört nicht zu „Mit Größen in Sachsituationen umgehen“, auch nicht als Vorbereitung."
+  },
+  {
+   "id": "nw-math / part-m-1-3 / L48 / 5",
+   "verdict": "prepares",
+   "why": "Die Stunde aus Klasse 2 deckt die Kernaufgaben (Erwartung 1–2) ab; für „alle Zahlensätze des kleinen Einmaleins“ am Ende von Klasse 4 ist sie nur Vorbereitung."
+  },
+  {
+   "id": "nw-math / part-m-3-1 / L97 / 2",
+   "verdict": "drop",
+   "why": "Es wird kein Messgerät benutzt und keine Größe ermittelt; die Kinder zählen Kreuze in einem Diagramm."
+  },
+  {
+   "id": "nw-math / part-m-4-1 / L96 / 3",
+   "verdict": "prepares",
+   "why": "Die Kinder lesen Säulen- und Bilddiagramme nur ab (dafür passt Erwartung 4); selbst dargestellt werden Daten in dieser Stunde nicht."
+  },
+  {
+   "id": "nw-math / part-m-4-1 / L97 / 3",
+   "verdict": "prepares",
+   "why": "Auch hier wird das Diagramm nur gelesen, nicht erstellt; die Stunde gehört zum Entnehmen von Daten (Erwartung 4), nicht zum Darstellen."
+  },
+  {
+   "id": "sn-math-12 / part-ma-1-2-1 / L93 / 8",
+   "verdict": "extends",
+   "why": "Rechte Winkel an Formen zu finden ist in Sachsen Stoff der Klassenstufe 3 und keine Lagebeziehung zwischen linearen Figuren, wie sie in 1/2 gemeint ist."
+  },
+  {
+   "id": "sn-math-12 / part-ma-1-2-2 / L67 / 5",
+   "verdict": "extends",
+   "why": "Der Nachbarzehner gehört zu 1/2, das Runden selbst ist in Sachsen erst Fachbegriff und Inhalt der Klassenstufe 3."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-1 / L92 / 3",
+   "verdict": "prepares",
+   "why": "Die Kinder zählen die Würfel eines abgebildeten Gebäudes; mit Bauplänen wird weder gebaut noch ein Gebäude einem Bauplan zugeordnet."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-2 / L33 / 3",
+   "verdict": "prepares",
+   "why": "Zählen in Fünfer- und Zehnerschritten bis 100 ist Klassenstufe 2 und liegt unter dem Zahlenraum bis 1000 der Klassenstufe 3."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-2 / L48 / 18",
+   "verdict": "prepares",
+   "why": "Malaufgaben mit 2 und 5 sind im sächsischen Lehrplan ausdrücklich Stoff der Klassenstufen 1/2; das automatisierte Beherrschen aller Grundaufgaben der Multiplikation und Division leistet die Stunde nicht."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-3 / L97 / 3",
+   "verdict": "drop",
+   "why": "In der Stunde kommen keine Längen vor (kein Kilometer, keine Kommaschreibweise, kein Vergleichen von Längen); es wird ein Diagramm gelesen."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-3 / L97 / 4",
+   "verdict": "drop",
+   "why": "Es wird nichts gemessen; die Kinder zählen Kreuze über einem Zahlenstrahl."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-4 / L96 / 1",
+   "verdict": "prepares",
+   "why": "Die Kinder lesen fertige Säulendiagramme mit Fünferskala ab; angefertigt wird kein Diagramm."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-4 / L96 / 2",
+   "verdict": "prepares",
+   "why": "Balkendiagramme kommen in der Stunde nicht vor (Säulen- und Bilddiagramme), und es wird nur abgelesen, nicht angefertigt."
+  },
+  {
+   "id": "nw-math / part-m-1-1 / L63 / 6",
+   "verdict": "teaches",
+   "why": "Die Kinder stellen dreistellige Zahlen mit Hunderterplatten, Zehnerstangen und Einerwürfeln und in der Stellenwerttafel dar, also nach Bündelung und Stellenwertschreibweise im erweiterten Zahlenraum."
+  },
+  {
+   "id": "nw-math / part-m-1-1 / L63 / 8",
+   "verdict": "teaches",
+   "why": "Die Kinder wechseln von der Darstellung mit Material zur Stellenwerttafel und zur Zahl, also zwischen Darstellungsformen im Zahlenraum über 100."
+  },
+  {
+   "id": "nw-math / part-m-1-1 / L64 / 6",
+   "verdict": "teaches",
+   "why": "Dreistellige Zahlen werden in Hunderter, Zehner und Einer zerlegt und der Wert einer Ziffer wird bestimmt; das ist die Struktur des Zehnersystems im erweiterten Zahlenraum."
+  },
+  {
+   "id": "nw-math / part-m-1-1 / L65 / 13",
+   "verdict": "teaches",
+   "why": "Die Kinder vergleichen dreistellige Zahlen mit den Zeichen für größer, kleiner und gleich und ordnen vier Zahlen; das ist Ordnen und Vergleichen im Zahlenraum über 100."
+  },
+  {
+   "id": "nw-math / part-m-1-5 / L72 / 2",
+   "verdict": "teaches",
+   "why": "Die Kinder führen das schriftliche Addieren und Subtrahieren stellenweise untereinander aus, zunächst ohne Übertrag; das ist das schriftliche Verfahren auf der Einstiegsstufe."
+  },
+  {
+   "id": "nw-math / part-m-3-1 / L86 / 2",
+   "verdict": "teaches",
+   "why": "Die Kinder ermitteln einen Rauminhalt mit dem Messgerät Messbecher, indem sie die Skala in Millilitern ablesen."
+  },
+  {
+   "id": "nw-math / part-m-3-1 / L86 / 10",
+   "verdict": "teaches",
+   "why": "Die Stunde arbeitet mit der Einheit Milliliter für Volumina, die in Klasse 3 und 4 neu dazukommt."
+  },
+  {
+   "id": "nw-math / part-m-3-1 / L87 / 2",
+   "verdict": "teaches",
+   "why": "Die Kinder ermitteln Gewichte an der Waage und Rauminhalte am Messbecher, also Größen mit geeigneten Messgeräten."
+  },
+  {
+   "id": "nw-math / part-m-3-1 / L87 / 10",
+   "verdict": "teaches",
+   "why": "Die Kinder schreiben jede abgelesene Menge mit ihrer Einheit Gramm oder Milliliter auf und verwenden damit die neuen Einheiten für Gewichte und Volumina."
+  },
+  {
+   "id": "by-math-12 / part-m1-2-2-5 / L90 / 2",
+   "verdict": "teaches",
+   "why": "Die Kinder bestimmen den Umfang von Rechtecken im Kästchengitter, indem sie die Kästchenkanten einmal rundherum zählen; das ist die Grundlage des Umfangsvergleichs, den L91 im selben Abschnitt fortsetzt."
+  },
+  {
+   "id": "by-math-34 / part-m3-4-2-2 / L94 / 1",
+   "verdict": "teaches",
+   "why": "Die Kinder entscheiden an Seiten und rechten Winkeln, ob ein Viereck ein Rechteck ist, und verwenden damit den Begriff rechter Winkel bei der Beschreibung von Rechteck und Quadrat."
+  },
+  {
+   "id": "sn-math-3 / part-ma-3-1 / L93 / 4",
+   "verdict": "prepares",
+   "why": "Die Kinder erkennen rechte Winkel an Formen, zeichnen aber nicht; das bereitet das Zeichnen zueinander senkrechter Geraden und Strecken vor."
+  },
+  {
+   "id": "kmk-deutsch / part-d-2-2 / L115 / 1",
+   "verdict": "prepares",
+   "why": "The children form and write plurals as a grammar task; the plural is not used as a spelling strategy (Verlängern) to settle a doubtful spelling, so the lesson only lays the ground for it."
+  },
+  {
+   "id": "kmk-deutsch / part-d-2-2 / L135 / 1",
+   "verdict": "prepares",
+   "why": "Building person nouns with -er/-erin and explaining their meaning is word formation (already listed under Sprache untersuchen); no spelling strategy is applied, the morpheme knowledge is only a precursor."
+  },
+  {
+   "id": "kmk-deutsch / part-d-2-2 / L136 / 1",
+   "verdict": "prepares",
+   "why": "Choosing which word of a word family fits a sentence is vocabulary and grammar work; knowing the family is a precondition for Ableiten, but no spelling is derived or checked in the lesson."
+  },
+  {
+   "id": "kmk-deutsch / part-d-2-3 / L125 / 2",
+   "verdict": "prepares",
+   "why": "Matching synonym pairs widens vocabulary, but nothing is collected for a text the children are going to write; the word-field lessons L127 and L134 carry this standard, this one only leads up to it."
+  },
+  {
+   "id": "kmk-deutsch / part-d-3-1 / L99 / 3",
+   "verdict": "prepares",
+   "why": "The children clap syllables, draw syllable arcs and write words with a stroke between syllables; they segment and write, they do not decode unfamiliar words by syllables, which is what L100 does."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-2-2 / L102 / 2",
+   "verdict": "prepares",
+   "why": "Hearing a sound in a picture word and inserting sch, ch or au is a sound-to-letter writing task; recognising letter groups at a glance while reading is done in L100 and L118, not here."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-2-3 / L105 / 6",
+   "verdict": "drop",
+   "why": "In this lesson a picture is one of the answer options for the gap, not an illustration in a text that the children use to check what they have read or as a memory aid; the match is only the shared word Bild."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-3-2 / L131 / 3",
+   "verdict": "prepares",
+   "why": "The opening word is already printed on the first line; the children use a given narrative element but do not collect typical story elements for their own writing, which is what this Kompetenzerwartung asks for."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-4-4 / L109 / 5",
+   "verdict": "prepares",
+   "why": "Putting four words in Abc order by their first letter is the precursor skill; nobody looks anything up in a Wörterverzeichnis or Wörterbuch (the KMK page already rates the same lesson as preparation)."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-4-4-b / L115 / 1",
+   "verdict": "prepares",
+   "why": "Writing the plural of a pictured noun is grammar; the lesson does not compare one- and two-syllable forms to find the common stem and justify an Umlaut or a final-consonant spelling."
+  },
+  {
+   "id": "nw-deutsch / part-d-1-2 / L108 / 2",
+   "verdict": "drop",
+   "why": "Choosing the next picture and ordering printed sentences is silent reading work on paper; nobody retells or continues a story aloud in front of others, so it does not belong under Vor anderen sprechen, not even as preparation."
+  },
+  {
+   "id": "nw-deutsch / part-d-1-2 / L131 / 2",
+   "verdict": "drop",
+   "why": "Writing down a picture story is text production (correctly listed under Schreiben); it is not oral retelling before an audience and should not appear under Sprechen und Zuhören."
+  },
+  {
+   "id": "nw-deutsch / part-d-2-3 / L109 / 5",
+   "verdict": "prepares",
+   "why": "Ordering four words alphabetically prepares for finding words in a Wörterverzeichnis, but the children do not look up a single word in the lesson."
+  },
+  {
+   "id": "nw-deutsch / part-d-3-1 / L100 / 3",
+   "verdict": "prepares",
+   "why": "A Silbenteppich is read syllable by syllable; no words in sentences and no text are read, so the lesson builds the precursor (syllables at a glance, objective 1) but not the reading of texts."
+  },
+  {
+   "id": "nw-deutsch / part-d-3-1 / L122 / 1",
+   "verdict": "prepares",
+   "why": "Circling the common stem of three related words is language analysis on paper; it builds the morpheme knowledge, but recognising morphemes at a glance while reading is not practised."
+  },
+  {
+   "id": "nw-deutsch / part-d-3-1 / L123 / 1",
+   "verdict": "prepares",
+   "why": "Attaching a prefix and writing the new word is word formation; the prefixes are not trained as sight units for fluent reading, so the lesson only leads up to this reading expectation."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-1 / L125 / 5",
+   "verdict": "drop",
+   "why": "Matching words with the same meaning says nothing about the effect of linguistic means in communication; the Schwerpunkt is about how understanding between speakers works, and the link is only the word Wörter."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-1 / L134 / 5",
+   "verdict": "drop",
+   "why": "Sorting verbs into the word fields gehen and sehen is vocabulary structure (correctly listed under An Wörtern, Sätzen und Texten arbeiten); the children do not describe what a word choice does to a listener or reader."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-1 / L108 / 1",
+   "verdict": "drop",
+   "why": "A reading worksheet on picture stories contains no oral Erzählen; listing it under Sprechen und Zuhören suggests coverage of a Lernbereich that the lesson does not touch."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-1 / L131 / 1",
+   "verdict": "drop",
+   "why": "Writing a picture story is written text production (it stands correctly under Schreiben, Ausdrücken von Erlebtem, Erdachtem); it is not oral storytelling and does not prepare speaking before others."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-3 / L99 / 5",
+   "verdict": "prepares",
+   "why": "Clapping syllables, drawing arcs and writing words with syllable strokes trains segmentation (objective 3 fits); reading words by syllables is not what the children do, that is L100 and L101."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-4 / L98 / 17",
+   "verdict": "prepares",
+   "why": "Hearing which picture words rhyme is phonological awareness in class 1; the Fachbegriff Reim in this Lernbereich belongs to work on poems (with Vers, Strophe, Zeile), for which the lesson is only a first step."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-5 / L110 / 10",
+   "verdict": "drop",
+   "why": "The lesson sorts words into Nomen and Verb only; adjectives do not occur in it (they first appear in L114), so the mapping to Adjektiv is simply wrong."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-2 / L107 / 3",
+   "verdict": "teaches",
+   "why": "The children work with question sentences and match them to the answer sentences, which is distinguishing Fragesatz and Aussagesatz at class-1 level (the Sachsen page lists the same lesson under Satzarten)."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-2 / L117 / 3",
+   "verdict": "teaches",
+   "why": "The children write the question that belongs to a given answer sentence and complete warum- and wie-questions, so they produce and tell apart Fragesatz and Aussagesatz."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-2 / L107 / 4",
+   "verdict": "prepares",
+   "why": "Finding the question word that asks for the marked words of a sentence is the Frageprobe in its first form and leads up to distinguishing Satzglieder (the KMK page rates the lesson the same way)."
+  },
+  {
+   "id": "nw-deutsch / part-d-4-2 / L117 / 4",
+   "verdict": "prepares",
+   "why": "Writing the question that asks for the marked words of an answer is the precursor of identifying Satzglieder by asking for them; Satzglieder themselves are not named or rearranged."
+  },
+  {
+   "id": "nw-deutsch / part-d-3-1 / L138 / 6",
+   "verdict": "teaches",
+   "why": "Working out which name a pronoun stands for is exactly the linking of information between neighbouring sentences (lokale Kohärenz); the KMK page already counts the lesson for Leseverstehen."
+  },
+  {
+   "id": "by-deutsch-12 / part-d1-2-4-3 / L124 / 8",
+   "verdict": "teaches",
+   "why": "Finding the two words that mean the same thing for a picture builds word alternatives for common words in the same way as L125, which is listed here."
+  },
+  {
+   "id": "sn-deutsch-12 / part-de-1-2-2 / L99 / 10",
+   "verdict": "teaches",
+   "why": "Clapping the syllables and writing words syllable by syllable is the first spelling strategy of class 1 (silbierendes Mitsprechen), so the lesson teaches a Rechtschreibstrategie directly."
+  },
+  {
+   "id": "kmk-deutsch / part-d-5-4 / L106 / 4",
+   "verdict": "prepares",
+   "why": "Putting jumbled words into the order of a sentence gives a first experience of word order and leads up to examining sentence structure; the NRW page rates the same lesson as preparation for Satzglieder."
+  }
+ ],
+ "notes": [
+  "[math] L97 („Ein Diagramm mit Kreuzen“) ist auf allen Seiten zusätzlich bei Größen/Messen und Brüchen eingeordnet; nach der Stundenbeschreibung ist es eine reine Daten-Stunde, nur die Zuordnungen zu Daten passen wirklich.",
+  "[math] Zahl in „Stunden zu N von M“ passt nicht zu den mit + markierten Zielen: kmk-math part-m-4-1 (3 von 3, aber nur Ziel 2 und 3 markiert), kmk-math part-m-4-2 (5 von 5, aber Ziel 5 nicht markiert), by-math-12 part-m1-2-1-3 (4 von 6, aber nur 2, 3, 5 markiert).",
+  "[math] kmk-math part-m-p-3 zeigt „Stunden zu 1 von 3“, obwohl dort keine Stunde steht, nur Arbeitsblätter; wenn Arbeitsblätter mitzählen, ist das Wort „Stunden“ in der Zählzeile irreführend.",
+  "[math] Nach meinen Urteilen müssen die Zählungen neu gerechnet werden: sn-math-3 LB 3 verliert Ziel 3 und 4, sn-math-3 LB 4 hat dann keine Stunde mehr, die ein Ziel wirklich unterrichtet, by-math-34 3.2 und 1.3 verlieren je ein Ziel.",
+  "[math] nw-math Zahlverständnis: Die Klasse-3-Stunden L63, L64 (Stellenwert bis 1000; Erwartungen 6 und 8) und L65 (Vergleichen und Ordnen; Erwartung 13) fehlen dort, obwohl sie auf KMK-, Bayern- und Sachsen-Seite stehen.",
+  "[math] nw-math Ziffernrechnen: L72 („Schriftlich addieren und subtrahieren ohne Übertrag“) fehlt neben L73.",
+  "[math] nw-math Größenvorstellung und Umgang mit Größen: L86 und L87 (Messbecher und Waage ablesen, ml und g) fehlen; sie gehören zu Erwartung 2 und 10 (Klasse 3–4).",
+  "[math] by-math-12 M1/2 2.5: L90 („Umfang: einmal rundherum“) fehlt neben L91 bei Ziel 2 und steht auf keiner der beiden Bayern-Seiten.",
+  "[math] by-math-34: L94 („Ist es ein Rechteck?“ über Seiten und rechte Winkel) gehört auch zu M3/4 2.2 Ziel 1, und L76 („Teilen mit Rest“) gehört auf die Seite 3/4 (M3/4 1.2), nicht nur als Erweiterung auf 1/2.",
+  "[math] Sachsen: L93 („Rechte Winkel finden“) erwarte ich auf der Seite Klasse 3 (LB 1, senkrecht zueinander/Vierecke), nicht auf 1/2; L77 („Gleichungen im Gleichgewicht“, Klasse 3) steht nur auf 1/2 als Erweiterung und fehlt auf der Seite Klasse 3.",
+  "[math] by-math-34: Die Beschreibung spricht von „Unterrichtsstunden für Klasse 3“, gezeigt werden aber auch Stunden aus Klasse 2 (L46, L47, L48); nach meinen Urteilen sind diese nur noch Vorbereitung.",
+  "[math] Bitte am LehrplanPLUS prüfen: Der Umfang (Ziel 2 von „M1/2 2.5 Flächeninhalte/Umfänge“) und die Nummer „M3/4 2.5 Rauminhalte“; ich kenne Umfang als Inhalt der Jahrgangsstufen 3/4 und würde dort einen eigenen Abschnitt zu Flächeninhalt und Umfang vor den Rauminhalten erwarten.",
+  "[math] nw-math: Der vierte Bereich heißt im Lehrplan „Daten, Häufigkeiten und Wahrscheinlichkeiten“ (mit „und“); die Überschrift auf der Seite bitte am Dokument prüfen.",
+  "[math] Titel, Title-Tag und Beschreibung aller sechs Seiten sind sprachlich in Ordnung und verwenden die richtigen Begriffe (Jahrgangsstufen in Bayern, Klassenstufen in Sachsen, Primarstufe und Bereiche/Schwerpunkte in NRW); „Klasse 1 und 2“ im Bayern-Titel ist für Lehrkräfte üblich und kann bleiben.",
+  "[deutsch] If the rulings are applied, these shown counts change: Bayern D1/2 2.3 from 3 to 2 of 11, Bayern D1/2 3.2 from 5 to 4 of 8, Bayern D1/2 4.4 Richtig schreiben from 1 to 0 (the part then only 'prepares'), NRW Rechtschreibstrategien from 4 to 3 of 7, Sachsen Sich mit Texten und anderen Medien auseinandersetzen from 3 to 2 of 17; all other counts stay as they are because another lesson still carries the objective.",
+  "[deutsch] With the four drops under Sprechen und Zuhören, NRW 'Vor anderen sprechen' and Sachsen 'Sprechen und Zuhören' become 'noch ohne Material'; that is the honest state, because all 40 lessons are paper lessons and none trains speaking or listening.",
+  "[deutsch] NRW 'Sprachliche Verständigung erforschen' stays 'prepares' only through L126 and L127 (strength and precision of a word in a sentence can lead to talking about its effect); if you prefer a clean page, this Schwerpunkt could also go to 'noch ohne Material' without any loss.",
+  "[deutsch] On the NRW page L107 (W-Fragen) and L117 (Fragesätze schreiben) are not listed at all, although they fit 'An Wörtern, Sätzen und Texten arbeiten' objective 3 (Satzarten unterscheiden) at least as well as L113 and are listed under Satzarten on the Sachsen page.",
+  "[deutsch] NRW wording: the row count says 'Kompetenzerwartungen dieses Schwerpunkts', but the default howText calls the same row a 'Bereich'; in the NRW Lehrplan Bereich and Schwerpunkt are two different levels, so an own howText_lp-nrw would be correct: 'Jede Zeile ist ein Schwerpunkt des Lehrplans mit seiner eigenen Überschrift. … zu wie vielen Kompetenzerwartungen dieses Schwerpunkts …'.",
+  "[deutsch] lead_lpplus and lead_lp-sn read 'für die {grade}': this is only grammatical if {grade} is filled with the official plural term ('Jahrgangsstufen 1 und 2' in Bayern, 'Klassenstufen 1 und 2' in Sachsen) and not with 'Klasse 1 und 2'; please check the rendered sentence, also for single-grade mathematics pages ('für die Jahrgangsstufe 3').",
+  "[deutsch] The Bavarian page title and H1 say 'Klasse 1 und 2' while the official term is 'Jahrgangsstufen 1/2'; this is acceptable in a title because teachers search and speak that way, and the description and lead use the official term.",
+  "[deutsch] Für Schulen, lead: 'passend zu Ihrem Lehrplan' was a false promise for every school outside Bayern, NRW and Sachsen (the form even accepts other countries), so the replacement names exactly what is mapped.",
+  "[deutsch] Für Schulen, planOne: 'nur für eine Klasse' contradicted 'ein Zugang pro Lehrkraft' two lines above; the plan is sold per teacher, not per class.",
+  "[deutsch] Für Schulen, howStep4 speaks of 'Ihrer Liste', but no step and no form field asks for the teachers' e-mail addresses; if that is the real process, step 3 should say that the school sends the list of addresses when it accepts the offer.",
+  "[deutsch] Für Schulen, metaDescription 'passend zu Bildungsstandards und Lehrplan' is vaguer than the old lead and can stay, but 'den Bildungsstandards zugeordnet' would be the safer claim.",
+  "[deutsch] Sachsen Schreiben: L99 is counted for objective 32 (Verwenden der Fachbegriffe … Silbe); it would fit objective 10 (Kennen von Rechtschreibstrategien, silbierendes Mitsprechen) better, the mapping was kept because the term Silbe is really used.",
+  "[deutsch] KMK 'Über Schreibfertigkeiten verfügen': L103 → 1 and L133 → 2 were kept as class-level steps towards fluent writing and legible handwriting, but they are the weakest kept pairs on the KMK page; neither changes the count.",
+  "[deutsch] The fixed strings of the Lehrplan-Übersichten (section 3) are correct, natural German with consistent du and correct Land terms; no replacement was needed, and hubNote states clearly that ministries, KMK and Landesinstitute did not create, check or approve the pages."
+ ]
+}

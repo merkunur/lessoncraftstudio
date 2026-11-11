@@ -1155,11 +1155,23 @@
     },
     {
      "id": "MA.3.2.2.1",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "By 5s and 10s to 100 is 'Zählen in Schritten' of Klasse 1/2; by 100s (and 5s, 10s past 100) is 'Vorwärts- und Rückwärtszählen in Schritten' bis 1 000, Klassenstufe 3.",
-   "review": "author-math"
+   "why": "By 5s and 10s to 100 is 'Zählen in Schritten' of Klasse 1/2; by 100s (and 5s, 10s past 100) is 'Vorwärts- und Rückwärtszählen in Schritten' bis 1 000, Klassenstufe 3. [pages-review de.review.json, MA.3.2.2.1 prepares] Zählen in Fünfer- und Zehnerschritten bis 100 ist Klassenstufe 2 und liegt unter dem Zahlenraum bis 1000 der Klassenstufe 3.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.1-2.2.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.3.2.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:compare-order-3-digit": {
    "rows": [
@@ -1347,11 +1359,23 @@
     },
     {
      "id": "MA.1-2.2.2.1",
-     "rel": "teaches"
+     "rel": "extends"
     }
    ],
-   "why": "'Runden' appears first in Klassenstufe 3 (with the Fachbegriff 'Runden'); Klasse 1/2 asks only the 'Nachbarzehner', which the number-line sheets use.",
-   "review": "author-math"
+   "why": "'Runden' appears first in Klassenstufe 3 (with the Fachbegriff 'Runden'); Klasse 1/2 asks only the 'Nachbarzehner', which the number-line sheets use. [pages-review de.review.json, MA.1-2.2.2.1 extends] Der Nachbarzehner gehört zu 1/2, das Runden selbst ist in Sachsen erst Fachbegriff und Inhalt der Klassenstufe 3.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.3.2.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-2.2.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:mass-grams": {
    "rows": [
@@ -1683,7 +1707,7 @@
    "rows": [
     {
      "id": "MA.3.2.8",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "MA.1-2.2.6.2",
@@ -1694,26 +1718,58 @@
      "rel": "teaches"
     }
    ],
-   "why": "'Beherrschen der Grundaufgaben der Multiplikation und Division · automatisiertes Lösen' is Klassenstufe 3; deriving from neighbours is 'Kernaufgaben ... Nachbaraufgaben' of Klasse 2, where the tables of 2, 5 and 10 must already be mastered.",
-   "review": "author-math"
+   "why": "'Beherrschen der Grundaufgaben der Multiplikation und Division · automatisiertes Lösen' is Klassenstufe 3; deriving from neighbours is 'Kernaufgaben ... Nachbaraufgaben' of Klasse 2, where the tables of 2, 5 and 10 must already be mastered. [pages-review de.review.json, MA.3.2.8 prepares] Malaufgaben mit 2 und 5 sind im sächsischen Lehrplan ausdrücklich Stoff der Klassenstufen 1/2; das automatisierte Beherrschen aller Grundaufgaben der Multiplikation und Division leistet die Stunde nicht.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.3.2.8",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-2.2.6.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.1-2.2.7.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:scaled-graphs": {
    "rows": [
     {
      "id": "MA.3.4.1.1",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "MA.3.4.1.2",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "MA.3.4.2",
      "rel": "teaches"
     }
    ],
-   "why": "'Anfertigen von Säulendiagrammen' / '... Balkendiagrammen' and the goal 'Lesen und Interpretieren von Tabellen und Diagrammen'. Scaled steps and pictographs are not named but are how such diagrams are made in Klasse 3.",
-   "review": "author-math"
+   "why": "'Anfertigen von Säulendiagrammen' / '... Balkendiagrammen' and the goal 'Lesen und Interpretieren von Tabellen und Diagrammen'. Scaled steps and pictographs are not named but are how such diagrams are made in Klasse 3. [pages-review de.review.json, MA.3.4.1.1 prepares] Die Kinder lesen fertige Säulendiagramme mit Fünferskala ab; angefertigt wird kein Diagramm. [pages-review de.review.json, MA.3.4.1.2 prepares] Balkendiagramme kommen in der Stunde nicht vor (Säulen- und Bilddiagramme), und es wird nur abgelesen, nicht angefertigt.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.3.4.1.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.3.4.1.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.3.4.2",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:thermometer": {
    "rows": [
@@ -1911,15 +1967,31 @@
    "rows": [
     {
      "id": "MA.1-2.1.3.2",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "MA.4.1.4.2",
      "rel": "prepares"
+    },
+    {
+     "id": "MA.3.1.2",
+     "rel": "prepares"
     }
    ],
-   "why": "Saxony names the 'rechter Winkel' already in Klasse 1/2 (with 'zueinander senkrecht'); Klassenstufe 4 uses it for 'Dreiecke mit und ohne rechten Winkel'. Angles smaller or bigger than a right angle are not in the Grundschule plan.",
-   "review": "author-math"
+   "why": "Saxony names the 'rechter Winkel' already in Klasse 1/2 (with 'zueinander senkrecht'); Klassenstufe 4 uses it for 'Dreiecke mit und ohne rechten Winkel'. Angles smaller or bigger than a right angle are not in the Grundschule plan. [pages-review de.review.json, MA.1-2.1.3.2 extends] Rechte Winkel an Formen zu finden ist in Sachsen Stoff der Klassenstufe 3 und keine Lagebeziehung zwischen linearen Figuren, wie sie in 1/2 gemeint ist. [pages-review de.review.json, MA.3.1.2 prepares] Die Kinder erkennen rechte Winkel an Formen, zeichnen aber nicht; das bereitet das Zeichnen zueinander senkrechter Geraden und Strecken vor.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.1-2.1.3.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.4.1.4.2",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "3:classify-quadrilaterals": {
    "rows": [
@@ -2022,34 +2094,54 @@
   "3:line-plot-halves": {
    "rows": [
     {
-     "id": "MA.3.3.2.1",
-     "rel": "teaches"
-    },
-    {
-     "id": "MA.3.3.2.2",
-     "rel": "teaches"
-    },
-    {
      "id": "MA.3.4.1",
      "rel": "teaches"
     }
    ],
-   "why": "'Bruchteile 1/2 cm' and 'sachadäquates Messen von Längen'; showing the data fits the goal 'Sammeln und Darstellen von Daten', though its dash lines name only Säulen- and Balkendiagramm, not a line plot.",
-   "review": "author-math"
+   "why": "'Bruchteile 1/2 cm' and 'sachadäquates Messen von Längen'; showing the data fits the goal 'Sammeln und Darstellen von Daten', though its dash lines name only Säulen- and Balkendiagramm, not a line plot. [pages-review de.review.json, MA.3.3.2.1 removed] In der Stunde kommen keine Längen vor (kein Kilometer, keine Kommaschreibweise, kein Vergleichen von Längen); es wird ein Diagramm gelesen. [pages-review de.review.json, MA.3.3.2.2 removed] Es wird nichts gemessen; die Kinder zählen Kreuze über einem Zahlenstrahl.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.3.3.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.3.3.2.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.3.4.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:volume-cubes": {
    "rows": [
     {
      "id": "MA.3.1.1.3",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "MA.4.1.6.2",
      "rel": "prepares"
     }
    ],
-   "why": "Klassenstufe 3: 'Würfelgebäude ... Ergänzen zum vollständigen Quader ... Bestimmen von Anzahlen' (hidden cubes). As volume it is Klassenstufe 4: 'Bestimmen von Volumina durch Ermitteln der Anzahl von Einheitswürfeln in Quadern'.",
-   "review": "author-math"
+   "why": "Klassenstufe 3: 'Würfelgebäude ... Ergänzen zum vollständigen Quader ... Bestimmen von Anzahlen' (hidden cubes). As volume it is Klassenstufe 4: 'Bestimmen von Volumina durch Ermitteln der Anzahl von Einheitswürfeln in Quadern'. [pages-review de.review.json, MA.3.1.1.3 prepares] Die Kinder zählen die Würfel eines abgebildeten Gebäudes; mit Bauplänen wird weder gebaut noch ein Gebäude einem Bauplan zugeordnet.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "MA.3.1.1.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "MA.4.1.6.2",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:pre-writing-strokes": {
    "rows": [
@@ -2363,11 +2455,23 @@
     },
     {
      "id": "DE.1-2.4.6.5",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Hearing, sorting and making rhymes works on the 'auditiv · rhythmisch und melodisch' perception line at Klasse 1 level and uses the term 'Reim' from the Fachbegriffe list.",
-   "review": "author-rest"
+   "why": "Hearing, sorting and making rhymes works on the 'auditiv · rhythmisch und melodisch' perception line at Klasse 1 level and uses the term 'Reim' from the Fachbegriffe list. [pages-review de.review.json, DE.1-2.4.6.5 prepares] Hearing which picture words rhyme is phonological awareness in class 1; the Fachbegriff Reim in this Lernbereich belongs to work on poems (with Vers, Strophe, Zeile), for which the lesson is only a first step.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "DE.1-2.3.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.4.6.5",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:phoneme-boxes": {
    "rows": [
@@ -2419,7 +2523,7 @@
    "rows": [
     {
      "id": "DE.1-2.3.2.3",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "DE.1-2.3.2.1",
@@ -2428,10 +2532,30 @@
     {
      "id": "DE.1-2.2.14.3",
      "rel": "teaches"
+    },
+    {
+     "id": "DE.1-2.2.4",
+     "rel": "teaches"
     }
    ],
-   "why": "Splitting, completing and reassembling words by syllable is 'Lesen von Wörtern · Silben', rests on the 'rhythmisch' perception line and uses the term 'Silbe' from the Fachbegriffe list.",
-   "review": "author-rest"
+   "why": "Splitting, completing and reassembling words by syllable is 'Lesen von Wörtern · Silben', rests on the 'rhythmisch' perception line and uses the term 'Silbe' from the Fachbegriffe list. [pages-review de.review.json, DE.1-2.3.2.3 prepares] Clapping syllables, drawing arcs and writing words with syllable strokes trains segmentation (objective 3 fits); reading words by syllables is not what the children do, that is L100 and L101. [pages-review de.review.json, DE.1-2.2.4 teaches] Clapping the syllables and writing words syllable by syllable is the first spelling strategy of class 1 (silbierendes Mitsprechen), so the lesson teaches a Rechtschreibstrategie directly.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "DE.1-2.3.2.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.3.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.2.14.3",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:syllable-vowel": {
    "rows": [
@@ -2578,14 +2702,26 @@
     {
      "id": "DE.1-2.2.12",
      "rel": "prepares"
-    },
-    {
-     "id": "DE.1-2.1.1.1",
-     "rel": "prepares"
     }
    ],
-   "why": "Ordering sentences to pictures is 'sinnverstehendes Lesen · Verknüpfen von Informationen · strukturiertes Lesen'; the sequence itself is the step before planning a text and before telling the story aloud.",
-   "review": "author-rest"
+   "why": "Ordering sentences to pictures is 'sinnverstehendes Lesen · Verknüpfen von Informationen · strukturiertes Lesen'; the sequence itself is the step before planning a text and before telling the story aloud. [pages-review de.review.json, DE.1-2.1.1.1 removed] A reading worksheet on picture stories contains no oral Erzählen; listing it under Sprechen und Zuhören suggests coverage of a Lernbereich that the lesson does not touch.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "DE.1-2.3.4.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.2.12",
+      "rel": "prepares"
+     },
+     {
+      "id": "DE.1-2.1.1.1",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:word-classes": {
    "rows": [
@@ -2596,14 +2732,26 @@
     {
      "id": "DE.1-2.5.4.1",
      "rel": "teaches"
-    },
-    {
-     "id": "DE.1-2.5.4.4",
-     "rel": "teaches"
     }
    ],
-   "why": "Telling Nomen from Verb and from Adjektiv uses the marks the three dash lines give: Konkreta with an article, 'Bezeichnen von Tätigkeiten', 'Kennzeichnung von Eigenschaften'.",
-   "review": "author-rest"
+   "why": "Telling Nomen from Verb and from Adjektiv uses the marks the three dash lines give: Konkreta with an article, 'Bezeichnen von Tätigkeiten', 'Kennzeichnung von Eigenschaften'. [pages-review de.review.json, DE.1-2.5.4.4 removed] The lesson sorts words into Nomen and Verb only; adjectives do not occur in it (they first appear in L114), so the mapping to Adjektiv is simply wrong.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "DE.1-2.5.4.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.5.4.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.5.4.4",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:pronouns": {
    "rows": [
@@ -2922,14 +3070,26 @@
     {
      "id": "DE.1-2.2.12",
      "rel": "teaches"
-    },
-    {
-     "id": "DE.1-2.1.1.1",
-     "rel": "prepares"
     }
    ],
-   "why": "Writing a picture story in order is 'Ausdrücken von Erlebtem, Erdachtem'; the time-order starters are a means of 'Planen und Strukturieren von Texten'. Oral 'Erzählen' is only prepared by a sheet.",
-   "review": "author-rest"
+   "why": "Writing a picture story in order is 'Ausdrücken von Erlebtem, Erdachtem'; the time-order starters are a means of 'Planen und Strukturieren von Texten'. Oral 'Erzählen' is only prepared by a sheet. [pages-review de.review.json, DE.1-2.1.1.1 removed] Writing a picture story is written text production (it stands correctly under Schreiben, Ausdrücken von Erlebtem, Erdachtem); it is not oral storytelling and does not prepare speaking before others.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "DE.1-2.2.13.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.2.12",
+      "rel": "teaches"
+     },
+     {
+      "id": "DE.1-2.1.1.1",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:mystery-animal": {
    "rows": [

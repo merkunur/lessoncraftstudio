@@ -1,0 +1,47 @@
+{
+ "ui": {
+  "pilotBanner": "Förhandsvisning av formatet. Inga andra sidor länkar hit, och sökmotorer ombeds att inte ta med sidan."
+ },
+ "pages": {},
+ "lines": [
+  {
+   "id": "lgr22-matematik-13 / part-ma-1-3-1 / L147 / 8",
+   "verdict": "prepares",
+   "why": "The lesson makes an estimate of a sum by rounding (överslagsräkning, point 7) but the pupils never judge whether an answer or an estimate is reasonable, which is what rimlighetsbedömning means; the estimate is only the tool for it."
+  },
+  {
+   "id": "lgr22-matematik-13 / part-ma-1-3-3 / L180 / 3",
+   "verdict": "prepares",
+   "why": "Counting the cubes in a tower, including hidden ones, is spatial counting: nothing is compared or estimated as a quantity and no volume is measured with a unit (litre, decilitre), so it only leads up to the point."
+  },
+  {
+   "id": "lgr22-matematik-13 / part-ma-1-3-1 / L62 / 1",
+   "verdict": "teaches",
+   "why": "Pairing up to decide odd or even is a property of natural numbers at year 1 level, exactly like its sister lesson L63, which is already listed under this point."
+  },
+  {
+   "id": "lgr22-matematik-13 / part-ma-1-3-3 / L64 / 3",
+   "verdict": "teaches",
+   "why": "The days of the week in order are part of time and its units in year 1, the same content as L65 (yesterday, today, tomorrow and the months), which is already listed under this point."
+  },
+  {
+   "id": "lgr22-matematik-13 / part-ma-1-3-3 / L179 / 3",
+   "verdict": "teaches",
+   "why": "From the reviewer's note: L179 (same perimeter, other area) fits Geometri point 3 in the same way as its siblings L176 and L178, as a comparison of quantities by counting squares; entered by the build session because the pair was not in the reviewed file."
+  }
+ ],
+ "notes": [
+  "If the L147 ruling is applied, no lesson teaches point 8 (rimlighetsbedömning) any more and Taluppfattning och tals användning reads 6 of 8, not 7 of 8.",
+  "The three lessons under Problemlösning (L46, L98, L155) are räknehändelser, that is routine story sums; I kept them because the pupils interpret a situation and choose the operation, but L98 is the thinnest of the three and the claim for this area should not be made any stronger than it is.",
+  "For L145 and L146 the file shows '→ 1, 7 (prepares)'; I read it as point 1 taught and point 7 (överslagsräkning) prepared, which is right; if both were meant as 'prepares', point 1 is still correctly marked taught by other lessons.",
+  "The clock, calendar, weight and measuring-jug lessons under Geometri point 3 are correctly placed: in Lgr22 measuring time, mass and volume belongs to Geometri for årskurs 1–3; leaving L161 (thermometer) out is also right, because temperature is not among the quantities named for årskurs 1–3.",
+  "Perimeter and area (L176, L178) are kept under Geometri point 3 as comparisons of quantities by counting squares; determining perimeter and area with methods is årskurs 4–6, so these should not be described anywhere as teaching omkrets and area as such.",
+  "L179 (same perimeter, other area) is not listed under any area although its siblings L176 and L178 are under Geometri point 3; it fits there in the same way, I did not add it only because the pair was not in the file.",
+  "L70 (tally marks) and L69 (sort into three groups) are not listed anywhere; they lead up to Sannolikhet och statistik point 2 (tables, sorting data) but do not work with data from an investigation, so leaving them out is acceptable.",
+  "L117 (find the square B2 in a grid) is correctly not listed: it is neither lägesord (Geometri point 1) nor stepwise instructions for programming (Algebra point 4).",
+  "The points without any lesson are correctly unmarked: number symbols in history, programming, lägesord, scale, random events and formulating own mathematical questions have no årskurs 1–3 lesson in the list.",
+  "The page description, hubMetaDescription, hubLead and printNote say the teacher sees 'det som ännu saknas'; since the wording of Lgr22 is not shown, the page can only show how many points lack lessons, not which ones, so check that the rendered page does not promise more than the count.",
+  "All Lgr22 terms are used correctly (centralt innehåll, kunskapsområde, kursplan, årskurs 1–3, arbetsområde), the address is consistently du, the word gratis does not occur, and hubNote states clearly that Skolverket has not produced, reviewed or approved the overviews.",
+  "'NO' and 'SO' in hubMissing are fine for årskurs 1–3, where Lgr22 gives the centralt innehåll jointly for the NO subjects and for the SO subjects."
+ ]
+}

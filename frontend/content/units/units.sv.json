@@ -3458,7 +3458,7 @@
        "title": "Matematiska resonemang och uttrycksformer"
       },
       {
-       "rel": "prepares",
+       "rel": "teaches",
        "framework": "Lgr22",
        "code": null,
        "title": "Taluppfattning och tals användning"
@@ -3582,7 +3582,7 @@
        "title": "Matematiska resonemang och uttrycksformer"
       },
       {
-       "rel": "prepares",
+       "rel": "teaches",
        "framework": "Lgr22",
        "code": null,
        "title": "Geometri"
@@ -8271,7 +8271,7 @@
        "title": "Taluppfattning och tals användning"
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Lgr22",
        "code": null,
        "title": "Taluppfattning och tals användning"
@@ -10028,6 +10028,12 @@
      "objective": "Eleverna jämför rektanglar och ringar in den som har samma omkrets som en annan.",
      "standards": [
       {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Geometri"
+      },
+      {
        "rel": "ahead",
        "framework": "Lgr22",
        "code": null,
@@ -10071,7 +10077,7 @@
      "objective": "Eleverna räknar alla kuber i ett torn, också dem som inte syns, och skriver hur många det är.",
      "standards": [
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Lgr22",
        "code": null,
        "title": "Geometri"

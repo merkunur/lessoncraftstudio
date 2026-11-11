@@ -9,6 +9,7 @@
  *   Q4  not thin    a page has at least MIN_TAUGHT taught objectives, every line has a description and a lesson or a
  *                   worksheet
  *   Q5  tier truth  no visible string says the material is free
+ *   Q8  strings     a language has every string its pages read
  *   Q6  no claim    no string says the pages are approved, endorsed or published by the authors of a framework
  *                   (the one sentence that says they are NOT is the hub note)
  *
@@ -28,10 +29,14 @@ const C = path.join(REPO, 'frontend', 'content');
 const DUMP = path.join(REPO, 'out', 'teaching-graph', 'decks.tsv');
 const haveDump = () => fs.existsSync(DUMP);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
-const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i };
+const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i };
 // one official code as the name of a page: K.CC.A.1, 2.NBT.B.5, RF.1.3.a, 1.2.B
 const ONE_CODE = /(^|[\s(])(?:[K1-5]\.[A-Z]{1,3}\.[A-Z]\.\d+|[A-Z]{1,2}\.[K1-5]\.\d+(?:\.[a-z])?|[K1-5]\.\d+\.[A-Z])(?=$|[\s),:])/;
-const CLAIM = /\b(approved|endorsed|certified|published|authorized) by\b/i;
+const CLAIM = /\b(approved|endorsed|certified|published|authorized) by\b|\b(genehmigt|geprüft|zugelassen|anerkannt|empfohlen|herausgegeben) (von|vom|durch)\b|\b(godkän\w+|granskad\w*|rekommendera\w+|utgiv\w+) av\b/i;
+// the hub note says that the pages are NOT the publishers' (the word that says so, per language)
+const NOT = { en: /\bnot\b/i, de: /\bnicht\b/i, sv: /\binte\b/i };
+// the strings a page of parts reads (a framework without public codes), besides the ones every page reads
+const PARTS_KEYS = ['factParts', 'factObjectives', 'partCount', 'unitLine', 'hubPageFactsParts'];
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9äöüßåéèáíóúñç]+/gi, ' ').trim();
 
 function load() {
@@ -49,6 +54,12 @@ function wordingOf(reg) {
   return wordings.get(reg);
 }
 
+const headings = new Map();
+function headingsOf(reg) {
+  if (!headings.has(reg)) headings.set(reg, new Set(readJson(path.join(C, 'curricula', reg, 'framework.json')).nodes.filter((n) => ['domain', 'cluster', 'strand', 'topic', 'area', 'subarea'].includes(n.kind)).map((n) => n.text)));
+  return headings.get(reg);
+}
+
 function run(d, opt = {}) {
   const fails = [];
   const titles = new Map();
@@ -63,7 +74,10 @@ function run(d, opt = {}) {
       if (FREE[loc] && FREE[loc].test(v)) fail('Q5', loc + ' ui.' + k + ' says free');
       if (CLAIM.test(v) && k !== 'hubNote') fail('Q6', loc + ' ui.' + k + ' claims an approval');
     }
-    if (L.ui.hubNote && !/\bnot\b/i.test(L.ui.hubNote) && loc === 'en') fail('Q6', loc + ' ui.hubNote does not say that the pages are NOT approved');
+    if (!L.ui.hubNote || (NOT[loc] && !NOT[loc].test(L.ui.hubNote))) fail('Q6', loc + ' ui.hubNote does not say that the pages are NOT approved');
+    // Q8: a language has every string its pages read (a missing one renders an empty heading or button)
+    for (const k of Object.keys(d.en ? d.en.ui : {})) if (!/_[a-z]+(-[a-z]+)*$/.test(k) && !(k in L.ui)) fail('Q8', loc + ' ui.' + k + ' is missing');
+    if (L.pages.some((p) => p.mode === 'parts')) { for (const k of PARTS_KEYS) if (!L.ui[k]) fail('Q8', loc + ' ui.' + k + ' is missing (a page of parts reads it)'); for (const r of new Set(L.pages.filter((p) => p.mode === 'parts').map((p) => p.registry))) if (!L.ui['set_' + r]) fail('Q8', loc + ' ui.set_' + r + ' is missing'); }
     for (const p of L.pages) {
       const w = loc + ' page ' + p.id;
       const official = wordingOf(p.registry);
@@ -74,10 +88,14 @@ function run(d, opt = {}) {
       if (titles.has(loc + ' ' + p.metaTitle)) fail('Q7', w + ': the title of ' + titles.get(loc + ' ' + p.metaTitle)); else titles.set(loc + ' ' + p.metaTitle, p.id);
       for (const s of [p.title, p.metaTitle, p.metaDescription]) { if (FREE[loc] && FREE[loc].test(s)) fail('Q5', w + ': "' + s.slice(0, 50) + '" says free'); if (CLAIM.test(s)) fail('Q6', w + ': "' + s.slice(0, 50) + '" claims an approval'); }
       for (const g of p.groups) for (const it of g.items) {
-        const iw = w + ' ' + it.code;
-        if (!it.text) fail('Q4', iw + ': no description');
-        if (!(it.lessons && it.lessons.length) && !(it.papers && it.papers.length)) fail('Q4', iw + ': neither a lesson nor a worksheet');
-        for (const l of it.lessons || []) if (!lessons.has(l.unit + '#' + l.n)) fail('Q2', iw + ': lesson ' + l.n + ' of ' + l.unit + ' is no lesson of a live unit');
+        const parts = p.mode === 'parts';
+        const iw = w + ' ' + (parts ? it.key : it.code);
+        if (!parts && !it.text) fail('Q4', iw + ': no description');
+        // a page of parts: the line is named by a HEADING of the document, never by the wording of an objective
+        if (parts) { if (!it.title || !it.key) fail('Q4', iw + ': a part without its title or anchor'); else if (!headingsOf(p.registry).has(it.title)) fail('Q3', iw + ': "' + it.title.slice(0, 40) + '" is not a heading of the document'); }
+        const itemLessons = parts ? (it.units || []).flatMap((u) => u.lessons.map((l) => ({ unit: u.unit, n: l.n }))) : it.lessons || [];
+        if (!itemLessons.length && !(it.papers && it.papers.length)) fail('Q4', iw + ': neither a lesson nor a worksheet');
+        for (const l of itemLessons) if (!lessons.has(l.unit + '#' + l.n)) fail('Q2', iw + ': lesson ' + l.n + ' of ' + l.unit + ' is no lesson of a live unit');
         if (slugs) for (const x of it.papers || []) if (!slugs.has(x.core)) fail('Q2', iw + ': the worksheet ' + x.core + ' is not published');
         const t = norm(it.text || '');
         if (t.length >= 40 && official.some((o) => o.includes(t) || t.includes(o))) fail('Q3', iw + ': the description is the wording of an objective');
@@ -98,6 +116,11 @@ const POISONS = [
   ['a title that says free', 'Q5', (d) => { d.en.pages[0].metaTitle = 'Free ' + d.en.pages[0].metaTitle; }, { skipGenerated: true }],
   ['a title that names one code', 'Q7', (d) => { d.en.pages[0].metaTitle = 'K.CC.A.1 Activities and Worksheets'; }, { skipGenerated: true }],
   ['two checklists with one title', 'Q7', (d) => { d.en.pages[1].metaTitle = d.en.pages[0].metaTitle; }, { skipGenerated: true }],
+  ['the wording of an objective as the title of a part', 'Q3', (d) => { if (!d.de) return 'skip'; const p = d.de.pages[0]; const n = readJson(path.join(C, 'curricula', p.registry, 'framework.json')).nodes.find((x) => x.kind === 'standard'); p.groups[0].items[0].title = n.text; }, { skipGenerated: true }],
+  ['a part with nothing behind it', 'Q4', (d) => { if (!d.de) return 'skip'; const it = d.de.pages[0].groups[0].items[0]; delete it.units; delete it.papers; }, { skipGenerated: true }],
+  ['a lesson of a part that does not exist', 'Q2', (d) => { if (!d.de) return 'skip'; d.de.pages[0].groups.flatMap((g) => g.items).find((i) => i.units).units[0].lessons[0].n = 99; }, { skipGenerated: true }],
+  ['a missing string', 'Q8', (d) => { if (!d.de) return 'skip'; delete d.de.ui.partCount; }, { skipGenerated: true }],
+  ['a hub note that does not say not', 'Q6', (d) => { d.en.ui.hubNote = 'These checklists match lessons to standards.'; }, { skipGenerated: true }],
   ['a string that claims an approval', 'Q6', (d) => { d.en.ui.hubLead += ' Approved by the state.'; }, { skipGenerated: true }],
 ];
 
@@ -112,7 +135,7 @@ if (require.main === module) {
     if (!haveDump()) { console.log('the poisons need the catalogue dump (PC only)'); process.exit(1); }
     for (const [name, gate, breakIt, opt] of POISONS) {
       const copy = load();
-      breakIt(copy);
+      if (breakIt(copy) === 'skip') { console.log('POISON SKIPPED  ' + name + ' (no page of that kind)'); continue; }
       const got = run(copy, opt);
       if (!got.some((f) => f.startsWith(gate + ' '))) { console.log('POISON NOT CAUGHT  ' + name + ' (' + gate + ')'); process.exit(1); }
     }

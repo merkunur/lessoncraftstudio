@@ -22,19 +22,26 @@ const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '
 
 function Standards({ lesson, ui, codeLinks }: { lesson: UnitLesson; ui: UnitUi; codeLinks: Record<string, string> }) {
   if (!lesson.standards.length) return null;
+  // two objectives under one heading of a framework without codes would show the same chip twice: once is enough
+  const shown = lesson.standards.filter((x, i, all) => all.findIndex((y) => y.rel === x.rel && y.framework === x.framework && y.code === x.code && y.title === x.title) === i);
   const label = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
   return (
     <ul className="un-standards">
-      {lesson.standards.map((s, i) => (
-        <li key={i} className={`un-standard un-standard-${s.rel}`}>
-          <span className="un-standard-rel">{label[s.rel]}</span>
-          {/* a code that stands on a live curriculum page of the language links to its line there (Part 6) */}
-          {s.code && codeLinks[`${s.framework} ${s.code}`]
-            ? <a className="un-standard-code un-standard-link" href={codeLinks[`${s.framework} ${s.code}`]}>{[s.framework, s.code].filter(Boolean).join(' ')}</a>
-            : <span className="un-standard-code">{[s.framework, s.code].filter(Boolean).join(' ')}</span>}
-          {s.title ? <span className="un-standard-title">{s.title}</span> : null}
-        </li>
-      ))}
+      {shown.map((s, i) => {
+        // a code that stands on a live curriculum page of the language links to its line there (Part 6); a framework
+        // without codes is found by the title of the part the objective stands under
+        const byCode = s.code ? codeLinks[`${s.framework} ${s.code}`] : undefined;
+        const byTitle = !s.code && s.title ? codeLinks[`${s.framework} · ${s.title}`] : undefined;
+        return (
+          <li key={i} className={`un-standard un-standard-${s.rel}`}>
+            <span className="un-standard-rel">{label[s.rel]}</span>
+            {byCode
+              ? <a className="un-standard-code un-standard-link" href={byCode}>{[s.framework, s.code].filter(Boolean).join(' ')}</a>
+              : <span className="un-standard-code">{[s.framework, s.code].filter(Boolean).join(' ')}</span>}
+            {s.title ? (byTitle ? <a className="un-standard-title un-standard-link" href={byTitle}>{s.title}</a> : <span className="un-standard-title">{s.title}</span>) : null}
+          </li>
+        );
+      })}
     </ul>
   );
 }

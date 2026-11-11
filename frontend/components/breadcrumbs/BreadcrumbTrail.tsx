@@ -35,7 +35,7 @@ export default async function BreadcrumbTrail({
   const homeLabel = t("home");
 
   const items: BreadcrumbCrumb[] = [
-    { href: `/${locale}/`, label: homeLabel },
+    { href: `/${locale}`, label: homeLabel },
     ...trail,
   ];
 

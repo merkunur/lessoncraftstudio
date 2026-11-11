@@ -1912,16 +1912,28 @@
      "rel": "teaches"
     },
     {
-     "id": "M.2.2.2",
-     "rel": "teaches"
-    },
-    {
      "id": "M.2.1.4",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Measuring lengths, showing the data in a diagram, and the half unit is a fraction 'im Zusammenhang mit Größen' like the '1/2 m' of the wording.",
-   "review": "author-all"
+   "why": "Measuring lengths, showing the data in a diagram, and the half unit is a fraction 'im Zusammenhang mit Größen' like the '1/2 m' of the wording. [pages-review de.review.json, M.2.1.4 prepares] Die Kinder zählen Kreuze über einem Zahlenstrahl mit halben Schritten; Brüche an Größen (1/2 m, Dreiviertelstunde, 1/4 l) kommen nicht vor, das Ablesen von Halben ist höchstens eine Vorstufe. [pages-review de.review.json, M.2.2.2 removed] In der Stunde wird ein Diagramm gelesen, es wird nichts mit einem Messgerät gemessen; das ist Leitidee Daten, nicht Messen.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "M.5.1.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.2.2.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.2.1.4",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:volume-cubes": {
    "rows": [
@@ -2269,11 +2281,23 @@
     },
     {
      "id": "D.3.1.3",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "The wording names it twice: the spelling strategy 'gliedern in Silben' and reading 'anhand größerer Einheiten wie Silbe'.",
-   "review": "author-all"
+   "why": "The wording names it twice: the spelling strategy 'gliedern in Silben' and reading 'anhand größerer Einheiten wie Silbe'. [pages-review de.review.json, D.3.1.3 prepares] The children clap syllables, draw syllable arcs and write words with a stroke between syllables; they segment and write, they do not decode unfamiliar words by syllables, which is what L100 does.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "D.2.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D.3.1.3",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:syllable-vowel": {
    "rows": [
@@ -2615,11 +2639,23 @@
     },
     {
      "id": "D.2.2.1",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Forming the Mehrzahl is a basic grammatical operation; the wording uses it as a spelling strategy too ('verlängern, flektieren'; 'Hund/Hunde').",
-   "review": "author-all"
+   "why": "Forming the Mehrzahl is a basic grammatical operation; the wording uses it as a spelling strategy too ('verlängern, flektieren'; 'Hund/Hunde'). [pages-review de.review.json, D.2.2.1 prepares] The children form and write plurals as a grammar task; the plural is not used as a spelling strategy (Verlängern) to settle a doubtful spelling, so the lesson only lays the ground for it.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "D.5.4.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "D.2.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:spelling-rules": {
    "rows": [
@@ -2647,11 +2683,23 @@
     },
     {
      "id": "D.2.3.2",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Words with the same meaning widen the vocabulary; the Wortfeld 'sagen' is the classic case of 'sammeln erste sprachliche Mittel: Wörter und Wortfelder'.",
-   "review": "author-all"
+   "why": "Words with the same meaning widen the vocabulary; the Wortfeld 'sagen' is the classic case of 'sammeln erste sprachliche Mittel: Wörter und Wortfelder'. [pages-review de.review.json, D.2.3.2 prepares] Matching synonym pairs widens vocabulary, but nothing is collected for a text the children are going to write; the word-field lessons L127 and L134 carry this standard, this one only leads up to it.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "D.5.4.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "D.2.3.2",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:synonyms~doing-stage": {
    "rows": [
@@ -2831,11 +2879,23 @@
     },
     {
      "id": "D.2.2.1",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "backen to Bäcker, laufen to Läufer: word formation by 'Ableitung' with the Wortbaustein -er, and the spelling of ä / äu found by 'ableiten'.",
-   "review": "author-all"
+   "why": "backen to Bäcker, laufen to Läufer: word formation by 'Ableitung' with the Wortbaustein -er, and the spelling of ä / äu found by 'ableiten'. [pages-review de.review.json, D.2.2.1 prepares] Building person nouns with -er/-erin and explaining their meaning is word formation (already listed under Sprache untersuchen); no spelling strategy is applied, the morpheme knowledge is only a precursor.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "D.5.4.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D.2.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:root-words-in-context": {
    "rows": [
@@ -2845,11 +2905,23 @@
     },
     {
      "id": "D.2.2.1",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Choosing the right form of a word family for a sentence uses the Wortstamm and its Wortbausteine; the family is also the spelling help ('ableiten').",
-   "review": "author-all"
+   "why": "Choosing the right form of a word family for a sentence uses the Wortstamm and its Wortbausteine; the family is also the spelling help ('ableiten'). [pages-review de.review.json, D.2.2.1 prepares] Choosing which word of a word family fits a sentence is vocabulary and grammar work; knowing the family is a precondition for Ableiten, but no spelling is derived or checked in the lesson.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "D.5.4.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D.2.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "K:human-body": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",

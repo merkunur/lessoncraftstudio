@@ -73,9 +73,13 @@ const unescape = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace
     if (p.status === 'live') { check(!/noindex/.test(robots), w + ': live and noindex'); check(listed.includes('https://www.lessoncraftstudio.com' + pp + '<'), w + ': live and in no sitemap'); }
     else { check(/noindex/.test(robots), w + ': a pilot must be noindex'); check(!listed.includes(pp + '<'), w + ': a pilot is in the sitemap'); }
     const text = ((/<main[\s\S]*<\/main>/.exec(r.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
-    check(text.length > 1500 && !/\bfree\b/i.test(text), w + ': its content is missing or says free');
+    const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i };
+    check(text.length > 1500 && !(FREE[loc] && FREE[loc].test(text)), w + ': its content is missing or says free');
     const items = p.groups.flatMap((g) => g.items);
-    check(items.every((it) => r.body.includes('>' + it.code + '<')), w + ': a code of the file is not on the page');
+    // a page of codes shows every code; a page of parts (a framework without public codes) has an anchor per part
+    if (p.mode === 'parts') check(items.every((it) => r.body.includes('id="' + it.key + '"')), w + ': a part of the file is not on the page');
+    else check(items.every((it) => r.body.includes('>' + it.code + '<')), w + ': a code of the file is not on the page');
+    for (const it of items) for (const u of it.units || []) for (const l of u.lessons) { check(r.body.includes('href="/' + loc + '/units/' + u.unit + '#lesson-' + l.n + '"'), w + ' ' + it.key + ': no link to lesson ' + l.n + ' of ' + u.unit); lessonUrls.add('/' + loc + '/units/' + u.unit); }
     for (const it of items) for (const l of it.lessons || []) { check(r.body.includes('href="/' + loc + '/units/' + l.unit + '#lesson-' + l.n + '"'), w + ' ' + it.code + ': no link to lesson ' + l.n + ' of ' + l.unit); lessonUrls.add('/' + loc + '/units/' + l.unit); }
     check(r.body.includes('href="' + p.officialDocument.replace(/&/g, '&amp;') + '"'), w + ': no link to the official document');
     // the worksheets a line names: every link of the page into the worksheets or the decks of the language

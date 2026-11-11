@@ -27,7 +27,8 @@ export default async function CurriculumHub({ locale, ui, pages, live }: { local
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
   const url = canonicalUrl(localePath(locale, 'curriculum'));
   const sets = curriculumSets(pages);
-  const setTitle = (s: { key: string; frameworkShort: string; subject: string }) => `${s.frameworkShort} · ${ui[`subject_${s.subject}_${s.key.split('-')[0]}`] || ui[`subject_${s.subject}`] || s.subject}`;
+  // a set of code-less documents is one document family (ui: set_<registry>); the others are a framework and a subject
+  const setTitle = (s: { key: string; frameworkShort: string; subject: string }) => ui[`set_${s.key}`] || `${s.frameworkShort} · ${ui[`subject_${s.subject}_${s.key.split('-')[0]}`] || ui[`subject_${s.subject}`] || s.subject}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -74,7 +75,7 @@ export default async function CurriculumHub({ locale, ui, pages, live }: { local
               {s.pages.map((p) => (
                 <li key={p.id} className="un-hub-unit">
                   <h3 className="un-hub-unit-title"><a href={`/${locale}/curriculum/${p.slug}`}>{p.title}</a></h3>
-                  <p className="un-hub-unit-facts">{gradeLabel(p.grade)} · {fill(ui.hubPageFacts, { taught: p.counts.taught, objectives: p.counts.objectives })}</p>
+                  <p className="un-hub-unit-facts">{p.gradeLabel || gradeLabel(p.grade)} · {p.mode === 'parts' ? fill(ui.hubPageFactsParts, { taught: p.counts.partsTaught ?? 0, parts: p.counts.parts ?? 0 }) : fill(ui.hubPageFacts, { taught: p.counts.taught, objectives: p.counts.objectives })}</p>
                   <p className="un-hub-unit-lessons">{p.groups.filter((g) => g.items.length).map((g) => g.title).join(' · ')}</p>
                 </li>
               ))}

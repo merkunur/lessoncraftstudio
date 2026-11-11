@@ -1450,16 +1450,24 @@
   "2:equal-shares-shapes": {
    "rows": [
     {
-     "id": "M1/2.2.1.4",
-     "rel": "teaches"
-    },
-    {
      "id": "M3/4.3.2.3",
      "rel": "prepares"
     }
    ],
-   "why": "Cutting a shape into equal parts and judging equal or unequal is 'Ergebnisse von Handlungen (z. B. Falten, Zerlegen ...) an Flächenformen'. Fractions appear in the Bavarian Grundschule only as 'im Alltag gebräuchliche einfache Bruchzahlen ... im Zusammenhang mit Größen' in M3/4; thirds and fraction notation for shapes are outside the plan.",
-   "review": "author-math"
+   "why": "Cutting a shape into equal parts and judging equal or unequal is 'Ergebnisse von Handlungen (z. B. Falten, Zerlegen ...) an Flächenformen'. Fractions appear in the Bavarian Grundschule only as 'im Alltag gebräuchliche einfache Bruchzahlen ... im Zusammenhang mit Größen' in M3/4; thirds and fraction notation for shapes are outside the plan. [pages-review de.review.json, M1/2.2.1.4 removed] Hälfte, Drittel und Viertel einer Form anmalen ist Bruchvorstellung und keine Raumorientierung; die Übereinstimmung besteht nur im Wort „Zerlegen“, Drittel und Viertel stehen im LehrplanPLUS 1/2 gar nicht.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.2.1.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.3.2.3",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:fraction-of-a-set": {
    "rows": [
@@ -1637,11 +1645,23 @@
     },
     {
      "id": "M3/4.1.1.1",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Equal jumps from 0 are the 'zeitlich-sukzessives Vervielfachen' of M1/2. Seeing the landing points as multiples is 'begründen Beziehungen zwischen Zahlen (z. B. Teiler, Vielfache)' at the number line in M3/4.",
-   "review": "author-math"
+   "why": "Equal jumps from 0 are the 'zeitlich-sukzessives Vervielfachen' of M1/2. Seeing the landing points as multiples is 'begründen Beziehungen zwischen Zahlen (z. B. Teiler, Vielfache)' at the number line in M3/4. [pages-review de.review.json, M3/4.1.1.1 prepares] Eine Stunde aus Klasse 2 zur Malaufgabe als gleich große Sprünge im kleinen Zahlenraum; das Zählen in Schritten im Zahlenraum bis zur Million bereitet sie nur vor.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.1.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.1.1.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:commutative": {
    "rows": [
@@ -1651,29 +1671,57 @@
     },
     {
      "id": "M3/4.1.2.4",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "a × b = b × a is the 'Tauschaufgabe', a named strategy of M1/2 (multiplication is Jahrgangsstufe 2 in Bavaria); turning the array is the reason given. In M3/4 it is one of the strategies children 'nutzen und erklären'.",
-   "review": "author-math"
+   "why": "a × b = b × a is the 'Tauschaufgabe', a named strategy of M1/2 (multiplication is Jahrgangsstufe 2 in Bavaria); turning the array is the reason given. In M3/4 it is one of the strategies children 'nutzen und erklären'. [pages-review de.review.json, M3/4.1.2.4 prepares] Die Tauschaufgabe am Punktefeld ist eine Strategie aus M1/2 (dort ausdrücklich genannt); für das Erklären, Vergleichen und Bewerten von Rechenwegen in 3/4 ist sie nur Grundlage.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.1.2.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.1.2.4",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:times-tables": {
    "rows": [
     {
      "id": "M3/4.1.2.1",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "M1/2.1.2.4",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "M1/2.1.2.3",
      "rel": "teaches"
     }
    ],
-   "why": "All tables from memory is 'Zahlensätze des kleinen Einmaleins ... automatisiert' (M3/4). Deriving a fact from a neighbour is 'nutzen die Kernaufgaben ... zur Lösung weiterer Aufgaben', and the tables of 2, 5, 10 and the squares are the Kernaufgaben of M1/2.",
-   "review": "author-math"
+   "why": "All tables from memory is 'Zahlensätze des kleinen Einmaleins ... automatisiert' (M3/4). Deriving a fact from a neighbour is 'nutzen die Kernaufgaben ... zur Lösung weiterer Aufgaben', and the tables of 2, 5, 10 and the squares are the Kernaufgaben of M1/2. [pages-review de.review.json, M1/2.1.2.4 prepares] Die Stunde übt die Kernaufgaben der 2er- und 5er-Reihe selbst; das Ableiten weiterer Einmaleinsaufgaben aus den Kernaufgaben, um das es hier geht, findet nicht statt. [pages-review de.review.json, M3/4.1.2.1 prepares] Die 2er- und 5er-Reihe sind die Kernaufgaben aus Jahrgangsstufe 2; hier geht es um das automatisierte Beherrschen aller Einmaleinssätze und ihrer Umkehrungen.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M3/4.1.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "M1/2.1.2.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "M1/2.1.2.3",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:scaled-graphs": {
    "rows": [
@@ -1764,18 +1812,26 @@
     {
      "id": "M3/4.1.2.8",
      "rel": "teaches"
-    },
-    {
-     "id": "M3/4.1.3.5",
-     "rel": "teaches"
-    },
-    {
-     "id": "M3/4.3.3.4",
-     "rel": "prepares"
     }
    ],
-   "why": "Finding the rule of the machine is 'beschreiben arithmetische Muster und deren Gesetzmäßigkeit'; using it both ways is 'Vorwärts- oder Rückwärtsarbeiten'. Input-output tables also prepare 'funktionale Beziehungen', which the plan ties to everyday situations.",
-   "review": "author-math"
+   "why": "Finding the rule of the machine is 'beschreiben arithmetische Muster und deren Gesetzmäßigkeit'; using it both ways is 'Vorwärts- oder Rückwärtsarbeiten'. Input-output tables also prepare 'funktionale Beziehungen', which the plan ties to everyday situations. [pages-review de.review.json, M3/4.1.3.5 removed] Zahlenmaschinen sind reines Rechnen nach vorgegebener Regel ohne Sachsituation; mit Problemlösestrategien in Sachaufgaben hat die Stunde nichts zu tun. [pages-review de.review.json, M3/4.3.3.4 removed] Eine Zahlenmaschine ohne Größen und ohne Alltagssituation gehört nicht zu „Mit Größen in Sachsituationen umgehen“, auch nicht als Vorbereitung.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M3/4.1.2.8",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.1.3.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.3.3.4",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "3:balance-equations": {
    "rows": [
@@ -1857,11 +1913,19 @@
    "rows": [
     {
      "id": "M1/2.2.5.2",
-     "rel": "extends"
+     "rel": "teaches"
     }
    ],
-   "why": "The plan only asks to compare 'den Umfang ebener Figuren ... durch Nachlegen ... oder durch Nachzeichnen am Gitternetz' (M1/2); there is no M3/4 expectation on perimeter. Finding the perimeter as a number goes beyond the comparing. If the sheets only count grid units around the shape, read this as teaches.",
-   "review": "author-math"
+   "why": "The plan only asks to compare 'den Umfang ebener Figuren ... durch Nachlegen ... oder durch Nachzeichnen am Gitternetz' (M1/2); there is no M3/4 expectation on perimeter. Finding the perimeter as a number goes beyond the comparing. If the sheets only count grid units around the shape, read this as teaches. [pages-review de.review.json, M1/2.2.5.2 teaches] Die Kinder bestimmen den Umfang von Rechtecken im Kästchengitter, indem sie die Kästchenkanten einmal rundherum zählen; das ist die Grundlage des Umfangsvergleichs, den L91 im selben Abschnitt fortsetzt.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.2.5.2",
+      "rel": "extends"
+     }
+    ]
+   }
   },
   "3:same-perimeter": {
    "rows": [
@@ -1881,15 +1945,27 @@
    "rows": [
     {
      "id": "M1/2.1.2.1",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "M3/4.1.2.6",
      "rel": "prepares"
     }
    ],
-   "why": "The M1/2 wording already has 'Division – auch mit Rest – als Aufteilen oder Verteilen'. The remainder returns in M3/4 in the written method ('Divisoren bis einschließlich 10, auch mit Rest'), for which these sheets are a step before.",
-   "review": "author-math"
+   "why": "The M1/2 wording already has 'Division – auch mit Rest – als Aufteilen oder Verteilen'. The remainder returns in M3/4 in the written method ('Divisoren bis einschließlich 10, auch mit Rest'), for which these sheets are a step before. [pages-review de.review.json, M1/2.1.2.1 extends] Aufteilen und Verteilen passt, aber die Division mit Rest ist in Bayern Stoff der Jahrgangsstufen 3/4 und geht über 1/2 hinaus.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.1.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.1.2.6",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "3:right-angles": {
    "rows": [
@@ -1906,10 +1982,22 @@
     {
      "id": "M1/2.2.2.4",
      "rel": "teaches"
+    },
+    {
+     "id": "M3/4.2.2.1",
+     "rel": "teaches"
     }
    ],
-   "why": "'beschreiben Gemeinsamkeiten und Unterschiede von Vierecken und bestimmen Rechtecke als besondere Vierecke sowie Quadrate als besondere Rechtecke' stands in M1/2. The rhombus (and other named quadrilaterals) go beyond the Bavarian Grundschule.",
-   "review": "author-math"
+   "why": "'beschreiben Gemeinsamkeiten und Unterschiede von Vierecken und bestimmen Rechtecke als besondere Vierecke sowie Quadrate als besondere Rechtecke' stands in M1/2. The rhombus (and other named quadrilaterals) go beyond the Bavarian Grundschule. [pages-review de.review.json, M3/4.2.2.1 teaches] Die Kinder entscheiden an Seiten und rechten Winkeln, ob ein Viereck ein Rechteck ist, und verwenden damit den Begriff rechter Winkel bei der Beschreibung von Rechteck und Quadrat.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M1/2.2.2.4",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:symmetry": {
    "rows": [
@@ -2007,11 +2095,23 @@
     },
     {
      "id": "M3/4.3.2.3",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Measured data shown in a diagram is 'sammeln ... Daten ... und stellen sie ... in ... Diagrammen ... strukturiert dar'; lengths to the half unit use a simple fraction 'im Zusammenhang mit Größen'. Only for sheets in half centimetres; Bavarian children would normally write 3 cm 5 mm.",
-   "review": "author-math"
+   "why": "Measured data shown in a diagram is 'sammeln ... Daten ... und stellen sie ... in ... Diagrammen ... strukturiert dar'; lengths to the half unit use a simple fraction 'im Zusammenhang mit Größen'. Only for sheets in half centimetres; Bavarian children would normally write 3 cm 5 mm. [pages-review de.review.json, M3/4.3.2.3 prepares] Die Kinder lesen ein Diagramm mit halben Schritten ab; Bruchzahlen bei Größenangaben (1/2 l, 3/4 h) und deren Darstellung in anderen Einheiten werden nicht behandelt.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "M3/4.4.1.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "M3/4.3.2.3",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:volume-cubes": {
    "rows": [
@@ -2365,11 +2465,23 @@
     },
     {
      "id": "D1/2.2.2.2",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "In German the letter teams are sch, ch, st / sp, ei, au, eu (th has no counterpart). Hearing and writing them meets 'beachten die Verschiedenheit von Schreibung und Aussprache bei Buchstabengruppen (z. B. <St>/<st>, <Ei>/<ei>)'; reading and matching them meets 'erfassen beim Lesen häufige Buchstabenverbindungen'.",
-   "review": "author-rest"
+   "why": "In German the letter teams are sch, ch, st / sp, ei, au, eu (th has no counterpart). Hearing and writing them meets 'beachten die Verschiedenheit von Schreibung und Aussprache bei Buchstabengruppen (z. B. <St>/<st>, <Ei>/<ei>)'; reading and matching them meets 'erfassen beim Lesen häufige Buchstabenverbindungen'. [pages-review de.review.json, D1/2.2.2.2 prepares] Hearing a sound in a picture word and inserting sch, ch or au is a sound-to-letter writing task; recognising letter groups at a glance while reading is done in L100 and L118, not here.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.4.4.a.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.2.2.2",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:spell-picture-words": {
    "rows": [
@@ -2427,11 +2539,19 @@
    "rows": [
     {
      "id": "D1/2.4.4.5",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Ordering words by first and then second letter is the skill needed to 'nutzen das Alphabet beim Nachschlagen in Wörterverzeichnissen und Wörterbüchern'; the sheet teaches that part, the looking-up itself needs a word list.",
-   "review": "author-rest"
+   "why": "Ordering words by first and then second letter is the skill needed to 'nutzen das Alphabet beim Nachschlagen in Wörterverzeichnissen und Wörterbüchern'; the sheet teaches that part, the looking-up itself needs a word list. [pages-review de.review.json, D1/2.4.4.5 prepares] Putting four words in Abc order by their first letter is the precursor skill; nobody looks anything up in a Wörterverzeichnis or Wörterbuch (the KMK page already rates the same lesson as preparation).",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.4.4.5",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:opposites": {
    "rows": [
@@ -2472,24 +2592,40 @@
     {
      "id": "D1/2.2.2.1",
      "rel": "teaches"
-    },
-    {
-     "id": "D1/2.2.3.6",
-     "rel": "teaches"
     }
    ],
-   "why": "Choosing the word that makes the sentence true is reading for information at sentence level; matching the sentence to the picture is 'nutzen Bilder und Illustrationen im Text, um das Gelesene zu überprüfen'.",
-   "review": "author-rest"
+   "why": "Choosing the word that makes the sentence true is reading for information at sentence level; matching the sentence to the picture is 'nutzen Bilder und Illustrationen im Text, um das Gelesene zu überprüfen'. [pages-review de.review.json, D1/2.2.3.6 removed] In this lesson a picture is one of the answer options for the gap, not an illustration in a text that the children use to check what they have read or as a memory aid; the match is only the shared word Bild.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.2.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.2.3.6",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:synonyms": {
    "rows": [
     {
      "id": "D1/2.4.3.8",
-     "rel": "prepares"
+     "rel": "teaches"
     }
    ],
-   "why": "The line is 'nutzen Wortschatzalternativen in Bezug auf häufig gebrauchte Wörter (z. B. Wortfelder gehen, sagen)'. Two nouns for one picture show that two words can mean the same, a step before choosing alternatives in own sentences.",
-   "review": "author-rest"
+   "why": "The line is 'nutzen Wortschatzalternativen in Bezug auf häufig gebrauchte Wörter (z. B. Wortfelder gehen, sagen)'. Two nouns for one picture show that two words can mean the same, a step before choosing alternatives in own sentences. [pages-review de.review.json, D1/2.4.3.8 teaches] Finding the two words that mean the same thing for a picture builds word alternatives for common words in the same way as L125, which is listed here.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.4.3.8",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:unscramble-sentence": {
    "rows": [
@@ -2751,15 +2887,31 @@
     },
     {
      "id": "D1/2.4.4.b.1",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "D1/2.4.3.7",
      "rel": "teaches"
     }
    ],
-   "why": "Forming the plural is the named noun strategy ('die Mehrzahl bilden', 'in die Mehrzahl setzen'), and the German plurals with Umlaut are the plan's own example: 'schreiben Umlaute … richtig (… Haus – Häuser …)'.",
-   "review": "author-rest"
+   "why": "Forming the plural is the named noun strategy ('die Mehrzahl bilden', 'in die Mehrzahl setzen'), and the German plurals with Umlaut are the plan's own example: 'schreiben Umlaute … richtig (… Haus – Häuser …)'. [pages-review de.review.json, D1/2.4.4.b.1 prepares] Writing the plural of a pictured noun is grammar; the lesson does not compare one- and two-syllable forms to find the common stem and justify an Umlaut or a final-consonant spelling.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.4.4.c.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.4.4.b.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.4.3.7",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:spelling-rules": {
    "rows": [
@@ -2903,15 +3055,31 @@
     },
     {
      "id": "D1/2.3.2.3",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "D1/2.3.2.1",
      "rel": "teaches"
     }
    ],
-   "why": "Writing a picture story is a 'kurzer erzählender Text' written 'nach Impulsen (… zu Bildern)'; the time-order starters are the 'einleitende Redewendungen … abschließende Sätze' the plan has children collect for their own writing.",
-   "review": "author-rest"
+   "why": "Writing a picture story is a 'kurzer erzählender Text' written 'nach Impulsen (… zu Bildern)'; the time-order starters are the 'einleitende Redewendungen … abschließende Sätze' the plan has children collect for their own writing. [pages-review de.review.json, D1/2.3.2.3 prepares] The opening word is already printed on the first line; the children use a given narrative element but do not collect typical story elements for their own writing, which is what this Kompetenzerwartung asks for.",
+   "review": "author-rest",
+   "was": {
+    "rows": [
+     {
+      "id": "D1/2.3.2.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.3.2.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "D1/2.3.2.1",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:mystery-animal": {
    "rows": [

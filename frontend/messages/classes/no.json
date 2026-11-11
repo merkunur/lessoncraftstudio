@@ -135,7 +135,7 @@
   "deleteClass": "Slett denne klassen",
   "deleteClassConfirm": "Klassen, elevene og alle resultatene slettes for godt. Fortsette?",
   "retention": "Resultater slettes når du sletter dem, når en klasse ikke har vært brukt på 14 måneder, eller 60 dager etter at pakken din er avsluttet.",
-  "tabSkills": "Etter læreplan",
+  "tabSkills": "Etter læreplanen",
   "skillsIntro": "Klassens arbeid under læreplanens overskrifter. For hver elev teller det nyeste resultatet under en overskrift.",
   "skillsCurriculum": "Læreplan",
   "skillsEmpty": "Ingenting å vise ennå. Legg til et arbeidsark, et nivåsett eller en aktivitet under «Arbeidsark».",
@@ -153,7 +153,7 @@
   "skillsPrintChildren": "Skriv ut én side per elev",
   "skillsPrintHint": "Velg å lagre som PDF i utskriftsvinduet hvis du vil ha en fil.",
   "reportTitle": "Dette har {name} øvd på",
-  "reportIntro": "Siden viser hva barnet ditt har øvd på på skjerm i klassen, og hvordan det gikk på første forsøk. Det er ett tegn blant mange, ikke en karakter.",
+  "reportIntro": "Siden viser hva barnet ditt har jobbet med på skjerm i klassen, og hvordan det gikk på første forsøk. Det er en pekepinn blant flere, ikke en karakter.",
   "reportHeadSkill": "Hva som ble øvd på",
   "reportHeadResult": "Hvordan det gikk",
   "reportDate": "Status per {date}"

@@ -137,7 +137,7 @@
   "retention": "Resultater slettes, når du sletter dem, når en klasse ikke har været brugt i 14 måneder, eller 60 dage efter at din pakke er udløbet.",
   "tabSkills": "Efter Fælles Mål",
   "skillsIntro": "Klassens arbejde under overskrifterne i Fælles Mål. For hver elev tæller det nyeste resultat under en overskrift.",
-  "skillsCurriculum": "Læseplan",
+  "skillsCurriculum": "Fælles Mål",
   "skillsEmpty": "Der er ikke noget at vise endnu. Tilføj et arbejdsark, et niveausæt eller en aktivitet under »Arbejdsark«.",
   "skillsOutside": "Ikke nævnt i Fælles Mål for disse klassetrin",
   "skillsNotYet": "Ikke lavet endnu",
@@ -152,9 +152,9 @@
   "skillsPrintClass": "Udskriv klasseoversigten",
   "skillsPrintChildren": "Udskriv én side pr. elev",
   "skillsPrintHint": "Vælg at gemme som PDF i udskriftsvinduet, hvis du vil have en fil.",
-  "reportTitle": "Det har {name} øvet",
-  "reportIntro": "Siden viser, hvad dit barn har øvet på skærmen i klassen, og hvordan det gik i første forsøg. Det er ét tegn blandt mange, ikke en karakter.",
+  "reportTitle": "Det har {name} øvet sig i",
+  "reportIntro": "Siden viser, hvad dit barn har øvet på skærmen i klassen, og hvordan det gik i første forsøg. Det er ét fingerpeg blandt mange, ikke en bedømmelse af dit barn.",
   "reportHeadSkill": "Hvad der blev øvet",
   "reportHeadResult": "Hvordan det gik",
-  "reportDate": "Status den {date}"
+  "reportDate": "Status pr. {date}"
 }

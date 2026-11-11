@@ -53,6 +53,7 @@ function memDb(opt) {
     async resolveLadder(l, c) { return copy(ladders[l + '/' + c]) || null; },
     async resolveLanding(l, s) { if (opt.resolveLanding) return opt.resolveLanding(l, s); return l === 'en' && s === 'count-the-animals' ? { slug: 'count-k002' } : null; },
     async resolvePlayLink(i) { return i === 'a1b2c3d4e5' ? { locale: 'en', slug: 'count-k002' } : null; },
+    async resolveActivity(l, s) { const a = (opt.activities || {})[l + '/' + s]; return a ? { id: a.id, slug: s, title: a.title } : null; },
     async resolveMakerLink(i, t) { if (opt.resolveMakerLink) return opt.resolveMakerLink(i, t); const m = makers[i]; return m && m.teacherId === t ? { linkId: i, title: m.title } : null; },
     now: clock,
   };

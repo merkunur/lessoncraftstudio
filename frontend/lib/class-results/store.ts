@@ -79,7 +79,9 @@ export const SEAT_ICONS: readonly string[] = [
 export type AssignmentContent =
   | { kind: 'deck'; locale: string; slug: string }
   | { kind: 'ladder'; locale: string; code: string; levels: Record<Level, string[]> }
-  | { kind: 'maker'; linkId: string };
+  | { kind: 'maker'; linkId: string }
+  /** release 2: an activity (/<locale>/activities/<slug>); `activity` is its id in the manifests */
+  | { kind: 'activity'; locale: string; slug: string; activity: string };
 export type AssignmentKind = AssignmentContent['kind'];
 
 export interface ClassRow {
@@ -180,6 +182,8 @@ export interface ClassDb {
   resolvePlayLink(linkId: string): Promise<{ locale: string; slug: string } | null>;
   /** a maker student link, only when it is this teacher's own and live */
   resolveMakerLink(linkId: string, teacherId: string): Promise<{ linkId: string; title: string } | null>;
+  /** an activity page of this language that is live (release 2) */
+  resolveActivity(locale: string, slug: string): Promise<{ id: string; slug: string; title: string } | null>;
 }
 
 export interface Reply { status: number; body: unknown }
@@ -234,7 +238,8 @@ export type ParsedLink =
   | { kind: 'set'; locale: string; code: string }
   | { kind: 'landing'; locale: string; slug: string }
   | { kind: 'maker'; linkId: string }
-  | { kind: 'play'; linkId: string };
+  | { kind: 'play'; linkId: string }
+  | { kind: 'activity'; locale: string; slug: string };
 
 /**
  * What a pasted address points at, by its shape alone (the database decides whether it exists): a deck page, a
@@ -257,6 +262,7 @@ export function parseAssignmentLink(raw: unknown): ParsedLink | null {
   if (parts[0] === 'play' && parts.length === 2 && /^[a-z0-9]{6,20}$/i.test(parts[1])) return { kind: 'play', linkId: parts[1] };
   if (!loc) return null;
   if (parts[1] === 'decks' && parts.length === 3 && slugOk(parts[2])) return { kind: 'deck', locale: loc, slug: parts[2] };
+  if (parts[1] === 'activities' && parts.length === 3 && slugOk(parts[2])) return { kind: 'activity', locale: loc, slug: parts[2] };
   if (parts[1] === 'worksheets') {
     const setParam = /(?:^|&)set=((?:k|g\d)\d{3})(?:&|$)/.exec(query);
     if (parts.length === 2 && setParam) return { kind: 'set', locale: loc, code: setParam[1] };
@@ -269,6 +275,7 @@ export function parseAssignmentLink(raw: unknown): ParsedLink | null {
 /** where a child is sent to play one attempt; the token rides after '#', so it never reaches a server log or a cache key */
 export function playUrl(content: AssignmentContent, pageRef: string, token: string): string {
   if (content.kind === 'maker') return `/s/${content.linkId}#lcs=${token}`;
+  if (content.kind === 'activity') return `/${content.locale}/activities/${content.slug}#lcs=${token}`;
   return `/${content.locale}/decks/${pageRef}/#lcs=${token}`;
 }
 
@@ -544,6 +551,10 @@ export async function addAssignment(db: ClassDb, me: Caller, id: string, body: u
     const m = await db.resolveMakerLink(p.linkId, me.userId);
     if (!m) return json(404, { error: 'link_not_found' });
     made = { kind: 'maker', title: m.title, content: { kind: 'maker', linkId: m.linkId } };
+  } else if (p.kind === 'activity') {
+    const act = await db.resolveActivity(p.locale, p.slug);
+    if (!act) return json(404, { error: 'link_not_found' });
+    made = { kind: 'activity', title: act.title, content: { kind: 'activity', locale: p.locale, slug: act.slug, activity: act.id } };
   }
   if (!made) return json(400, { error: 'bad_link' });
   const have = await db.listAssignments(c.id);
@@ -556,7 +567,7 @@ export async function addAssignment(db: ClassDb, me: Caller, id: string, body: u
   return json(201, { id: a.id, kind: a.kind, title: a.title });
 }
 /** what makes two assignments the same thing (a ladder's page list may differ from one day to the next) */
-const refOf = (c: AssignmentContent) => (c.kind === 'ladder' ? ['ladder', c.locale, c.code] : c.kind === 'deck' ? ['deck', c.locale, c.slug] : ['maker', c.linkId]);
+const refOf = (c: AssignmentContent) => (c.kind === 'ladder' ? ['ladder', c.locale, c.code] : c.kind === 'deck' ? ['deck', c.locale, c.slug] : c.kind === 'activity' ? ['activity', c.locale, c.slug] : ['maker', c.linkId]);
 
 async function ownAssignment(db: ClassDb, c: ClassRow, aid: string): Promise<AssignmentRow | null> {
   if (!ID_RE.test(aid)) return null;
@@ -682,7 +693,7 @@ async function mint(db: ClassDb, a: AssignmentRow, seat: SeatRow, history: Attem
     const step = nextLadderStep(a.content.levels, history, now);
     if ('done' in step) return { done: step.done };
     pageRef = step.page.slug; level = step.page.level;
-  } else pageRef = a.content.kind === 'deck' ? a.content.slug : a.content.linkId;
+  } else pageRef = a.content.kind === 'deck' || a.content.kind === 'activity' ? a.content.slug : a.content.linkId;
   const open = history.find((h) => !h.reportedAt && h.pageRef === pageRef && h.level === level && now.getTime() - ms(h.createdAt) < REUSE_OPEN_ATTEMPT_HOURS * HOUR);
   if (open) return { url: playUrl(a.content, pageRef, open.token) };
   if (history.length >= ATTEMPTS_PER_SEAT_AND_ASSIGNMENT) return json(429, { error: 'attempt_cap' });

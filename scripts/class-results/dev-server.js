@@ -11,6 +11,8 @@
  * lcs-meter.js and lcs-class.js swapped in — a child can tap a seat, play a real page and the result lands on the
  * dashboard.
  *
+ *   /<loc>/activities/<slug>         an activity page: the REAL class mode (components/activities/ActivityClassMode.tsx,
+ *                                    bundled with React) over the local working copy of the activity in "mini tools/"
  *   /teacher                         the teacher screen (as a subscriber)
  *   /c/<code>                        a class link
  *   /api/classes/*  /api/class/*     the two APIs
@@ -51,6 +53,41 @@ const LADDERS = {
   } },
 };
 
+/** every activity of the local manifests: '<loc>/<slug>' → { id, title, tool } (the lookup lib/activities.ts does on the site) */
+function activityIndex() {
+  const dir = path.join(REPO, 'mini tools'), out = {};
+  for (const f of fs.readdirSync(dir).filter((x) => /-activities\.json$/.test(x))) {
+    let m; try { m = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch (e) { continue; }
+    for (const row of (m.activities || m)) {
+      if (!row || !row.id || !row.tool || !row.slug) continue;
+      for (const loc of LOCALES) {
+        const slug = row.slug[loc], title = row.page_title && row.page_title[loc];
+        if (slug && title && !out[loc + '/' + slug]) out[loc + '/' + slug] = { id: row.id, tool: row.tool, title: title.replace(/\s*\([^()]*\)\s*$/, '').slice(0, 200) };
+      }
+    }
+  }
+  return out;
+}
+
+/** the class mode of an activity page, bundled for the browser. poison: the rule "a Check the activity pressed itself gives no marks" is taken out */
+function buildActivityMode(poison) {
+  fs.mkdirSync(OUT, { recursive: true });
+  const srcFile = path.join(REPO, 'frontend', 'components', 'activities', 'ActivityClassMode.tsx');
+  let src = fs.readFileSync(srcFile, 'utf8');
+  if (poison) {
+    const needle = 'if (!real && !said) marks = false;';
+    if (src.split(needle).length !== 2) throw new Error('the poison needle is gone from ActivityClassMode.tsx');
+    src = src.replace(needle, '');
+  }
+  const copy = path.join(OUT, 'ActivityClassMode.tsx');
+  fs.writeFileSync(copy, src);
+  const q = (x) => JSON.stringify(x.split(path.sep).join('/'));
+  fs.writeFileSync(path.join(OUT, 'activity-mode-entry.tsx'),
+    'import React from "react";\nimport { createRoot } from "react-dom/client";\nimport ActivityClassMode from ' + q(copy) + ';\nimport { CLASS_BACK_LABEL } from ' + q(path.join(LIB, 'back-label.ts')) + ';\n'
+    + 'const loc = document.documentElement.lang;\ncreateRoot(document.getElementById("lcs-class-mode-host") as HTMLElement).render(React.createElement(ActivityClassMode, { backLabel: CLASS_BACK_LABEL[loc] || CLASS_BACK_LABEL.en }));\n');
+  esbuild.buildSync({ entryPoints: [path.join(OUT, 'activity-mode-entry.tsx')], bundle: true, platform: 'browser', format: 'iife', target: 'es2017', jsx: 'automatic', nodePaths: [path.join(REPO, 'frontend', 'node_modules')], define: { 'process.env.NODE_ENV': '"production"' }, outfile: path.join(OUT, 'activity-mode.js'), logLevel: 'error' });
+}
+
 function build() {
   fs.mkdirSync(OUT, { recursive: true });
   const server = path.join(OUT, 'server.bundle.js');
@@ -62,9 +99,11 @@ function build() {
   return require(server);
 }
 
-function start({ port = 0, seed = false } = {}) {
+function start({ port = 0, seed = false, poisonActivity = false } = {}) {
   process.env.CLASS_RESULTS_ENABLED = '1';
   const B = build();
+  buildActivityMode(poisonActivity);
+  const ACTIVITIES = activityIndex();
   const S = B.store;
   const makers = require(path.join(REPO, 'scripts', 'makers', 'serve.js'));
   const localStore = require(path.join(REPO, 'scripts', 'makers', 'local-store.js'));
@@ -73,7 +112,7 @@ function start({ port = 0, seed = false } = {}) {
   const now = () => new Date(Date.now() + state.skew);
   const usable = new Set([TEACHER]);
   const db = memDb({
-    now, usable, decks: DECKS, ladders: LADDERS,
+    now, usable, decks: DECKS, ladders: LADDERS, activities: ACTIVITIES,
     resolveLanding: () => null,
     resolveMakerLink: (linkId, teacherId) => { const l = teacherId === TEACHER ? localStore.readLink(linkId) : null; return l && l.kind === 'student' ? { linkId, title: (typeof l.title === 'string' && l.title) || (l.recipe && l.recipe.title) || 'Worksheet' } : null; },
   });
@@ -128,6 +167,18 @@ function start({ port = 0, seed = false } = {}) {
     + 'fetch("/__class/strings?lang=' + lang + '").then(function(r){return r.json()}).then(function(s){window.__classes=LCSClasses.mountClasses(document.getElementById("lcs-classes-root"),{locale:"' + lang + '",strings:s,origin:location.origin,signedIn:' + (state.who !== 'anon') + ',usable:' + (state.who === 'sub') + ',pricingUrl:"/' + lang + '/pricing",signInUrl:"/' + lang + '/auth/signin",qrUrl:function(u){return "/api/qr?u="+encodeURIComponent(u.replace(location.origin,"https://www.lessoncraftstudio.com"))}})});'
     + '</script></body></html>';
 
+  /** the activity page as the site builds it, reduced to what class mode touches: the site's header and footer, the frame in its wrapper, the class mode */
+  const plain = (t) => String(t).replace(/[<>&"]/g, '');
+  const ACTIVITY_HOST = (loc, a) => '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>' + plain(a.title) + ' (local preview)</title>'
+    + '<style>body{margin:0;background:#FBF3E4;font-family:system-ui,sans-serif}header,footer{padding:16px;background:#146B5E}header a,footer a{color:#fff}.lcs-prototype-iframe-wrapper{max-width:760px;margin:16px auto}.lcs-prototype-iframe-wrapper iframe{display:block;width:100%;border:0;min-height:320px}</style></head>'
+    + '<body><header><a id="site-home" href="/' + loc + '">LessonCraftStudio</a></header>'
+    + '<div class="lcs-prototype-iframe-wrapper"><iframe id="act" title="' + plain(a.title) + '" scrolling="no" style="height:420px" src="/mini-tools/' + a.tool + '.html?activity=' + encodeURIComponent(a.id) + '&lang=' + loc + '&embed=1"></iframe><div id="lcs-class-mode-host"></div></div>'
+    + '<footer><a id="site-foot" href="/' + loc + '/worksheets">Worksheets</a></footer>'
+    + '<script>addEventListener("message",function(e){var d=e.data;if(d&&d.type==="lcs-activity-resize"&&d.height>0)document.getElementById("act").style.height=Math.max(320,Math.ceil(d.height))+"px"});</script>'
+    + '<script src="/__class/activity-mode.js"></script></body></html>';
+  const MINI = path.join(REPO, 'mini tools');
+  const MINI_MIME = { '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.html': 'text/html; charset=utf-8', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png', '.woff2': 'font/woff2', '.mp3': 'audio/mpeg' };
+
   async function handler(req, res) {
     try {
       const [rawPath, rawQuery] = req.url.split('?');
@@ -139,6 +190,7 @@ function start({ port = 0, seed = false } = {}) {
         if (parts[1] === 'clock') { state.skew += (Number(query.get('hours')) || 0) * 3600 * 1000; return send(res, 200, { now: now().toISOString() }); }
         if (parts[1] === 'state') return send(res, 200, { who: state.who, now: now().toISOString(), classes: [...db.classes.values()], seats: [...db.seats.values()], assignments: [...db.assignments.values()], attempts: [...db.attempts.values()] });
         if (parts[1] === 'teacher-app.js') { const f = path.join(OUT, 'teacher-app.js'); return fs.existsSync(f) ? send(res, 200, fs.readFileSync(f, 'utf8'), { 'content-type': 'text/javascript; charset=utf-8' }) : send(res, 404, 'not built', { 'content-type': 'text/plain' }); }
+        if (parts[1] === 'activity-mode.js') return send(res, 200, fs.readFileSync(path.join(OUT, 'activity-mode.js'), 'utf8'), { 'content-type': 'text/javascript; charset=utf-8' });
         if (parts[1] === 'strings') { const l = LOCALES.includes(query.get('lang')) ? query.get('lang') : 'en'; const f = path.join(REPO, 'frontend', 'messages', 'classes', l + '.json'); return fs.existsSync(f) ? send(res, 200, fs.readFileSync(f, 'utf8')) : send(res, 404, {}); }
         return send(res, 404, { error: 'not_found' });
       }
@@ -153,6 +205,15 @@ function start({ port = 0, seed = false } = {}) {
         return send(res, 404, 'not found', { 'content-type': 'text/plain' });
       }
       if (LOCALES.includes(parts[0]) && parts[1] === 'decks' && parts.length === 3) return deck(res, '/' + parts[0] + '/decks/' + parts[2] + '/');
+      if (LOCALES.includes(parts[0]) && parts[1] === 'activities' && parts.length === 3) {
+        const a = ACTIVITIES[parts[0] + '/' + parts[2]];
+        return a ? send(res, 200, ACTIVITY_HOST(parts[0], a), { 'content-type': 'text/html; charset=utf-8' }) : send(res, 404, 'not found', { 'content-type': 'text/plain' });
+      }
+      if (parts[0] === 'mini-tools' && parts.length >= 2) {
+        const f = path.join(MINI, parts.slice(1).join('/'));
+        if (f.startsWith(MINI + path.sep) && fs.existsSync(f) && fs.statSync(f).isFile()) { res.writeHead(200, { 'content-type': MINI_MIME[path.extname(f)] || 'application/octet-stream', 'cache-control': 'no-store' }); return fs.createReadStream(f).pipe(res); }
+        return send(res, 404, 'not found', { 'content-type': 'text/plain' });
+      }
       return makers.handler(req, res);
     } catch (e) { console.error(e); try { send(res, 500, { error: 'server_error' }); } catch (e2) { /* sent */ } }
   }

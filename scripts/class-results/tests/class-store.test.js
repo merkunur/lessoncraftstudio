@@ -282,6 +282,48 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
   eq((await S.createClass(db, SUB, { name: 'twentieth' }, newCode)).status, 201, 'the twentieth class is accepted');
   eq((await S.createClass(db, SUB, { name: 'twenty-first' }, newCode)).status, 429, 'the twenty-first is refused');
 
+  // ── release 2: an activity as an assignment ──
+  eq(S.parseAssignmentLink('https://www.lessoncraftstudio.com/en/activities/make-10'), { kind: 'activity', locale: 'en', slug: 'make-10' }, 'an activity address');
+  eq(S.parseAssignmentLink('/de/activities/verliebte-zahlen/'), { kind: 'activity', locale: 'de', slug: 'verliebte-zahlen' }, 'an activity path without the host, with a closing slash');
+  eq(S.parseAssignmentLink('https://www.lessoncraftstudio.com/en/activities'), null, 'the list of activities is not an activity');
+  eq(S.parseAssignmentLink('https://www.lessoncraftstudio.com/en/activities/make-10/more'), null, 'a longer path under an activity is refused');
+  {
+    const adb = makeDb({ now: () => new Date(T), activities: { 'en/make-10': { id: 'number-bond.make-10', title: 'Make 10' }, 'en/set-the-clock': { id: 'clock.set-the-clock', title: 'Set the Clock' } } });
+    let q = await S.createClass(adb, SUB, { name: 'Class 1C', namesMode: 'names', locale: 'en', names: 'Max\nLea' }, newCode);
+    const acid = q.body.id, acode = q.body.code;
+    const [amax, alea] = (await S.getClass(adb, SUB, acid)).body.seats.map((s) => s.id);
+    eq((await S.addAssignment(adb, SUB, acid, { link: '/en/activities/no-such-activity' }, now())).status, 404, 'an activity that does not exist is refused');
+    eq((await S.addAssignment(adb, SUB, acid, { link: '/de/activities/make-10' }, now())).status, 404, 'an activity address in a language it does not have is refused');
+    eq((await S.addAssignment(adb, FREE, acid, { link: '/en/activities/make-10' }, now())).status, 403, 'a free account cannot assign an activity');
+    q = await S.addAssignment(adb, SUB, acid, { link: 'https://www.lessoncraftstudio.com/en/activities/make-10' }, now());
+    eq([q.status, q.body.kind, q.body.title], [201, 'activity', 'Make 10'], 'an activity is assigned under its own title');
+    const actA = q.body.id;
+    eq((await S.addAssignment(adb, SUB, acid, { link: '/en/activities/make-10/' }, now())).body.existing, true, 'the same activity twice is the same assignment');
+    q = await S.addAssignment(adb, SUB, acid, { link: '/en/activities/set-the-clock' }, now());
+    eq([q.status, q.body.existing || false, q.body.title], [201, false, 'Set the Clock'], 'another activity is another assignment');
+    eq((await adb.getAssignment(actA)).content, { kind: 'activity', locale: 'en', slug: 'make-10', activity: 'number-bond.make-10' }, 'the assignment keeps the address AND the id of the activity');
+    q = await S.startAttempt(adb, { code: acode, seatId: amax, assignmentId: actA }, newToken, now());
+    ok(q.status === 200 && /^\/en\/activities\/make-10#lcs=[a-z2-9]{20}$/.test(q.body.url), 'a child starts an activity: the activity page with the token after #');
+    const atok = q.body.url.split('#lcs=')[1];
+    eq((await adb.getAttempt(atok)).pageRef, 'make-10', "the attempt's page is the activity");
+    eq(await S.tokenSkipsMeter(adb, atok), true, 'a class token on an activity skips the play meter');
+    // the page reports once: seven solved tasks, one mark each (right at its first Check or not)
+    q = await S.report(adb, { token: atok, right: 5, total: 7, items: [1, 1, 0, 1, 1, 0, 1], finished: true }, newToken, now());
+    eq([q.status, q.body.done, q.body.back], [200, true, '/c/' + acode], 'a sitting of seven tasks is stored and sends the child back to the class page');
+    const aatt = await adb.getAttempt(atok);
+    eq([aatt.right, aatt.total, aatt.items, aatt.finished], [5, 7, [1, 1, 0, 1, 1, 0, 1], true], 'the result is the seven first Checks');
+    q = await S.seatPage(adb, acode, amax, now());
+    eq(q.body.assignments.find((a) => a.id === actA).state, 'done', "the child's page shows the activity as done");
+    q = await S.seatPage(adb, acode, alea, now());
+    eq(q.body.assignments.find((a) => a.id === actA).state, 'new', 'a child who has not played it sees it as new');
+    q = await S.classResults(adb, SUB, acid);
+    const cell = q.body.cells[amax][actA];
+    eq([cell.plays, cell.first.right, cell.first.total, cell.first.band, cell.first.finished, cell.ladder], [1, 5, 7, 'mid', true, null], "the class sheet shows the activity's result and its band");
+    ok(!q.body.cells[alea][actA], "a child who has not played has no cell");
+    eq(q.body.assignments.find((x) => x.id === actA).kind, 'activity', "the class sheet names the assignment's kind");
+    eq((await S.classResults(adb, SUB2, acid)).status, 404, "another teacher cannot read an activity's results");
+  }
+
   // ── retention ──
   const day = 24 * 3600 * 1000, t0 = new Date('2026-01-01T00:00:00Z');
   const at = (d) => new Date(t0.getTime() + d * day);

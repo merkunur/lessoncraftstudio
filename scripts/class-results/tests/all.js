@@ -2,7 +2,7 @@
 /**
  * Every check of class links and results, in order; stops at the first that fails.
  *
- *   node scripts/class-results/tests/all.js            the local checks (about four minutes; three of them open a browser)
+ *   node scripts/class-results/tests/all.js            the local checks (about six minutes; four of them open a browser)
  *   node scripts/class-results/tests/all.js --live     also the reporter on 26 published decks of the live site (read only)
  *   node scripts/class-results/tests/all.js --quick    only the checks without a browser
  *
@@ -15,7 +15,7 @@ const D = __dirname;
 const QUICK = process.argv.includes('--quick'), LIVE = process.argv.includes('--live');
 const list = [
   ['the rules', 'class-store.test.js'],
-  ['the rules, 37 planted faults', 'mutate-class-store.js'],
+  ['the rules, 42 planted faults', 'mutate-class-store.js'],
   ['the retention job and the backup step', 'retention.test.js'],
   ['the texts in 11 languages', 'strings.js'],
   ['the 40 seat pictures', '../seat-icons-sheet.js'],
@@ -24,6 +24,7 @@ if (!QUICK) list.push(
   ['the reporter on a maker worksheet', 'reporter-maker.js'], ['… poisoned', 'reporter-maker.js', '--poison'],
   ['the children\'s class page', 'class-page.js'], ['… poisoned', 'class-page.js', '--poison'],
   ['the teacher screen', 'teacher-app.js'], ['… poisoned', 'teacher-app.js', '--poison'],
+  ['an activity through a class link', 'activity-class.js'], ['… poisoned', 'activity-class.js', '--poison'],
 );
 if (LIVE) list.push(['the reporter on 26 live decks', 'reporter-live.js'], ['… poisoned', 'reporter-live.js', '--poison']);
 

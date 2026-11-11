@@ -3,6 +3,7 @@
  * class_attempts; migration 20271111000000_add_class_results) and the catalogue lookups a pasted link needs.
  * The teacher's subscription is read WITH the class, so "is this class link live" is decided at request time.
  */
+import { resolveActivitySlug } from '@/lib/activities';
 import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
@@ -172,6 +173,12 @@ export const prismaClassDb: ClassDb = {
     const l = await prisma.makerShareLink.findUnique({ where: { linkId }, select: { kind: true, teacherId: true, revokedAt: true, recipe: { select: { title: true, deletedAt: true } } } });
     if (!l || l.kind !== 'student' || l.revokedAt || l.teacherId !== teacherId || l.recipe.deletedAt) return null;
     return { linkId, title: l.recipe.title };
+  },
+  async resolveActivity(locale, slug) {
+    // the same lookup the activity page itself uses: a slug of this language in the registered manifests
+    const row = await resolveActivitySlug(slug, locale);
+    const title = row && row.page_title ? row.page_title[locale] : null;
+    return row && title ? { id: row.id, slug, title: title.replace(/\s*\([^()]*\)\s*$/, '').slice(0, 200) } : null;   // (a page title often ends in its grade: "… (Grade 2)")
   },
 };
 

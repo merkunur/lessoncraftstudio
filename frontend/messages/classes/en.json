@@ -111,6 +111,7 @@
   "kindDeck": "Worksheet",
   "kindLadder": "Level Set",
   "kindMaker": "My worksheet",
+  "kindActivity": "Activity",
   "workHide": "Hide from children",
   "workShow": "Show to children",
   "workHidden": "Hidden",

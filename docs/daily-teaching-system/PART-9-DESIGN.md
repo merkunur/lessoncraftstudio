@@ -168,4 +168,26 @@ Rollback, should it ever be needed: the reporter does nothing without a class to
 
 ## 10. Not in release 1 (release 2, after Parts 1 and 2)
 
-Activities reporting through the shared shell; the skill view (results by teaching point and by national objective, from the content graph); "what to practise next"; a robot for type-a-word, crossword, picture sort and sudoku pages (their marks are read from code only today).
+Activities reporting through the shared shell (built 2026-11-11, §11); the skill view (results by teaching point and by national objective, from the content graph); "what to practise next"; a robot for type-a-word, crossword, picture sort and sudoku pages (their marks are read from code only today).
+
+## 11. Release 2, step 9.5: an activity as an assignment (built 2026-11-11, behind the same switch)
+
+**What a teacher does.** She pastes an activity's address (`/<language>/activities/<slug>`) where she pastes a worksheet's. The class page lists it like any other assignment; a child taps it and plays.
+
+**What the child sees.** The activity fills the screen (the site's header, footer and every link out are covered). After seven solved tasks one round button with a house appears UNDER the activity and leads back to the class page. No score, streak, timer or ranking.
+
+**What is stored.** One sitting = seven solved tasks = one report, through the same `/api/class/report` and the same rules as a worksheet (the first report of an attempt is its result). A child who stops before the seventh task leaves no result: the sheet shows "started", never a partial number. No new table and no migration (`kind` is a text column; `content` holds `{ kind: 'activity', locale, slug, activity }`, the address and the id of the activity in the manifests).
+
+**The finding that changed the design.** The plan said "an emitter in the activity shell". The shell already has one (`window.LCS_TRACK(event, payload)`, called on every press of its Check), so no line of the shell or of any activity changes. But measured over the 203 activities: **in 167 the activity judges a try itself**, keeps a wrong try to itself and presses the shell's Check only once the task is solved. The shell hears "right" for every task; marks read from it would be 7 of 7 for every child. Only 36 activities let the shell judge every Check.
+
+**The rule (`frontend/components/activities/ActivityClassMode.tsx`): a mark is never invented.** A solved task counts toward marks only when its tries are known:
+- **the shell judged it:** every Check the shell heard was a real press by the child (a click the browser marks as trusted; a press the activity made itself is not), so each wrong try was heard; or
+- **the activity said so itself — the contract for an activity that judges its own tries:** it calls `api.track('task:try', { ok })` on every try, right or wrong, before it presses the shell's Check.
+
+One task with unknown tries makes the whole sitting **"Finished" with no number** (the sheet's existing chip for a page that is not scored). So today: 36 activities give marks (the seven first tries), 167 give "Finished". **Part 10 follow-up, decided:** every new activity follows the contract from its first day (two lines at its own Check), and the 167 are retrofitted when each is next touched; each activity already counts its misses in its own state.
+
+**Files.** `components/activities/ActivityClassMode.tsx` (class mode, the listener, the one report, the back button) · `lib/class-results/back-label.ts` (the button's label ×11, the same texts as the worksheet reporter's) · `app/[locale]/activities/[slug]/page.tsx` mounts it only while `CLASS_RESULTS_ENABLED=1` · `lib/class-results/store.ts` (`activity` kind: link parsing, the play address, the assignment, "the same thing twice") · `db.ts` `resolveActivity` (the lookup the activity page itself uses) · `lib/client-meter.ts` sends the class token with the play check, so a class of thirty on six tablets does not meet the per-device wall (the server ignores any token that is not a live class's) · one new teacher text `kindActivity` ×11 (in the next native review, with step 9.6's texts).
+
+**Checks.** Rules: 172 checks, 42 planted faults all caught (five new: a longer path taken for an activity, a missing activity assigned anyway, an activity opened as a worksheet page, two activities taken for one, the id forgotten). Robot `scripts/class-results/tests/activity-class.js` on the local class preview, which now serves activity pages with the REAL class mode over the local activities: **A** Block Towers (the shell judges): seven tasks by real taps, two wrong first → 5 of 7 with the marks 1 0 1 1 0 1 1, one report, the back button under the activity and in view, the class page's mark, the teacher's sheet; **B** Build an Array (the activity judges): one task wrong first → "finished", no number; **C** the same activity following the contract → 6 of 7; an activity page with no token, or a malformed one, is the ordinary page. Poisoned (the rule taken out): B fails with 7 of 7, as it must. My own reading: the phone and tablet renders (the first version of the back button floated over the activity and covered its message at phone width; it now sits in the page's flow).
+
+**Not verified:** the activity page as Next renders it with the switch on (the robot uses the same component over a reduced page; the switch is off on the server and stays off until the launch checklist of §9).

@@ -40,7 +40,7 @@ export interface ClassesOptions {
 
 interface ClassView { id: string; name: string; code: string; namesMode: 'names' | 'numbers'; locale: string; lastUsedAt: string }
 interface SeatView { id: string; seatNo: number; displayName: string | null; icon: string }
-interface AssignmentView { id: string; kind: 'deck' | 'ladder' | 'maker'; title: string; closed: boolean; position: number; levels: string[] | null }
+interface AssignmentView { id: string; kind: 'deck' | 'ladder' | 'maker' | 'activity'; title: string; closed: boolean; position: number; levels: string[] | null }
 interface ClassData { class: ClassView; seats: SeatView[]; assignments: AssignmentView[]; canEdit?: boolean }
 interface Results extends ClassData { cells: Record<string, Record<string, Cell>> }
 interface ListItem { id: string; name: string; code: string; namesMode: string; locale: string; seats: number; assignments: number; lastUsedAt: string }
@@ -294,7 +294,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
       box.append(cols);
     } else {
       const head = h('tr', null, h('th', { class: 'c-who', scope: 'col', text: t('colChild') }));
-      for (const a of d.assignments) head.append(h('th', { scope: 'col' }, h('span', { text: a.title }), h('small', { text: (a.kind === 'ladder' ? t('kindLadder') : a.kind === 'maker' ? t('kindMaker') : t('kindDeck')) + (a.closed ? ' · ' + t('workHidden') : '') })));
+      for (const a of d.assignments) head.append(h('th', { scope: 'col' }, h('span', { text: a.title }), h('small', { text: (a.kind === 'ladder' ? t('kindLadder') : a.kind === 'maker' ? t('kindMaker') : a.kind === 'activity' ? t('kindActivity') : t('kindDeck')) + (a.closed ? ' · ' + t('workHidden') : '') })));
       const body = h('tbody');
       for (const s of d.seats) {
         const row = h('tr', { 'data-seat': s.id });
@@ -555,7 +555,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
       for (const a of d.assignments) {
         const row = h('div', { class: 'c-seatrow', 'data-assignment': a.id },
           h('span', { class: 'c-no', text: String(d.assignments.indexOf(a) + 1) }),
-          h('span', { class: 'c-grow' }, h('b', { text: a.title }), h('span', { class: 'c-muted', style: 'display:block', text: (a.kind === 'ladder' ? t('kindLadder') : a.kind === 'maker' ? t('kindMaker') : t('kindDeck')) + (a.closed ? ' · ' + t('workHidden') : '') })));
+          h('span', { class: 'c-grow' }, h('b', { text: a.title }), h('span', { class: 'c-muted', style: 'display:block', text: (a.kind === 'ladder' ? t('kindLadder') : a.kind === 'maker' ? t('kindMaker') : a.kind === 'activity' ? t('kindActivity') : t('kindDeck')) + (a.closed ? ' · ' + t('workHidden') : '') })));
         if (edit) row.append(h('button', { type: 'button', 'data-act': 'toggle', text: a.closed ? t('workShow') : t('workHide'), onclick: async () => { await api('PATCH', '/api/classes/' + id + '/assignments/' + a.id, { closed: !a.closed }); again('work'); } }));
         row.append(confirmButton(t('workRemove'), t('workRemoveConfirm'), async () => { await api('DELETE', '/api/classes/' + id + '/assignments/' + a.id); again('work'); }));
         card.append(row);

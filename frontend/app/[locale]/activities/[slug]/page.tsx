@@ -276,6 +276,8 @@ import {
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
+import ActivityClassMode from '@/components/activities/ActivityClassMode';
+import { CLASS_BACK_LABEL } from '@/lib/class-results/back-label';
 import ActivityShareButton from '@/components/activities/ActivityShareButton';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
@@ -708,6 +710,9 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           }} />
           <div className="lcs-prototype-iframe-wrapper relative z-10">
             <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
+            {/* Class results, release 2: rendered only while the feature is switched on; it does nothing without an
+                attempt token after '#', which only a class page hands out (components/activities/ActivityClassMode.tsx). */}
+            {process.env.CLASS_RESULTS_ENABLED === '1' ? <ActivityClassMode backLabel={CLASS_BACK_LABEL[params.locale] || CLASS_BACK_LABEL.en} /> : null}
           </div>
 
           {/* Soft cream wave at the base of the field — gentle "foam"

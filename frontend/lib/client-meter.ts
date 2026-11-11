@@ -20,6 +20,8 @@ export interface MeterOutcome {
   };
 }
 
+const CLASS_TOKEN_IN_HASH = /[#&]lcs=([a-z2-9]{20})(?:&|$)/;
+
 export async function meterAction(kind: 'download' | 'play'): Promise<MeterOutcome> {
   try {
     // This app authenticates via a JWT in localStorage sent as a Bearer header
@@ -32,13 +34,23 @@ export async function meterAction(kind: 'download' | 'play'): Promise<MeterOutco
     } catch {
       /* localStorage unavailable (private mode / SSR) → proceed unauthenticated */
     }
+    let classToken: string | null = null;
+    try {
+      const m = kind === 'play' && typeof window !== 'undefined' ? CLASS_TOKEN_IN_HASH.exec(window.location.hash || '') : null;
+      classToken = m ? m[1] : null;
+    } catch {
+      /* no hash to read → an ordinary play */
+    }
     const res = await fetch('/api/quota/check-and-increment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         ...(token ? { Authorization: `Bearer ${token}` } : {}),
       },
-      body: JSON.stringify({ kind }),
+      // a play opened through a class link carries its attempt token after '#'; the server does not meter a play of
+      // a live class (thirty children on six shared tablets must not meet the per-device wall) and ignores any
+      // other token (app/api/quota/check-and-increment)
+      body: JSON.stringify(classToken ? { kind, classToken } : { kind }),
       credentials: 'include',
       cache: 'no-store',
     });

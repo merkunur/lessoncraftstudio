@@ -59,6 +59,12 @@ const M = [
   ['a lapsed teacher can rename', '  if (!me.usable && !onlyRemoval) return SUBSCRIBE;\n', '\n'],
   ['a lapsed teacher cannot switch to numbers only', 'const onlyRemoval = toNumbers && Object.keys(patch).length === 1 && !b.newCode;', 'const onlyRemoval = false;'],
   ['the dashboard counts an unfinished start as a play', 'const h = reported(by.get(a.id + \'|\' + s.id) || []);\n      if (!h.length) continue;', 'const h = (by.get(a.id + \'|\' + s.id) || []);\n      if (!h.length) continue;'],
+  // release 2: an activity as an assignment
+  ['a longer path under an activity is taken for the activity', "if (parts[1] === 'activities' && parts.length === 3 && slugOk(parts[2]))", "if (parts[1] === 'activities' && parts.length >= 3 && slugOk(parts[2]))"],
+  ['an activity that does not exist is assigned anyway', "    if (!act) return json(404, { error: 'link_not_found' });\n", ''],
+  ['an activity is opened as a deck page', "  if (content.kind === 'activity') return `/${content.locale}/activities/${content.slug}#lcs=${token}`;\n", ''],
+  ['two different activities are the same assignment', "c.kind === 'activity' ? ['activity', c.locale, c.slug]", "c.kind === 'activity' ? ['activity', c.locale]"],
+  ['the assignment forgets the id of the activity', "content: { kind: 'activity', locale: p.locale, slug: act.slug, activity: act.id } };", "content: { kind: 'activity', locale: p.locale, slug: act.slug, activity: '' } };"],
 ];
 
 let survived = 0, faults = 0, killed = 0;

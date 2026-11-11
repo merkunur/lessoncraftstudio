@@ -17,7 +17,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `pt` Brasil (BNCC) | 7 | 580 | 210 | 84 | 12 |
 | `fr` France (programmes) | 6 | 710 | 228 | 51 | 27 |
 | `nl` Nederland (kerndoelen) | 4 | 75 | 249 | 52 | 5 |
-| `fi` Suomi (OPS 2014) | 4 | 154 | — | — | — |
+| `fi` Suomi (OPS 2014) | 4 | 154 | 198 | 100 | 8 |
 | `no` Norge (LK20) | 6 | 160 | — | — | — |
 | `da` Danmark (Fælles Mål) | 8 | 56 | — | — | — |
 | `it` Italia (Indicazioni nazionali) | 7 | 199 | — | — | — |
@@ -221,3 +221,21 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | arts | 3 | 1 | 2 | 0 |
 | thinking | 19 | 8 | 6 | 5 |
 | sel | 1 | 1 | 0 | 0 |
+
+## `fi` — Suomi (OPS 2014)
+
+- **Perusopetuksen opetussuunnitelman perusteet 2014: Matematiikka** (Opetushallitus, 2014). Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15. Read from https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550 on 2026-11-11. Checked: 26 objectives and 9 content areas read; numbered without a gap in each unit; every objective names content areas of its own unit.
+- **Perusopetuksen opetussuunnitelman perusteet 2014: Suomen kieli ja kirjallisuus** (Opetushallitus, 2014). Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15. Read from https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550 on 2026-11-11. Checked: 29 objectives and 8 content areas read; numbered without a gap in each unit; every objective names content areas of its own unit.
+- **Perusopetuksen opetussuunnitelman perusteet 2014: Ympäristöoppi** (Opetushallitus, 2014). Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15. Read from https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550 on 2026-11-11. Checked: 34 objectives and 12 content areas read; numbered without a gap in each unit; every objective names content areas of its own unit.
+- **Perusopetuksen opetussuunnitelman perusteet 2014: Kuvataide** (Opetushallitus, 2014). Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15. Read from https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550 on 2026-11-11. Checked: 22 objectives and 6 content areas read; numbered without a gap in each unit; every objective names content areas of its own unit.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 117 | 41 | 0 |
+| literacy | 71 | 39 | 27 | 5 |
+| science | 35 | 20 | 15 | 0 |
+| social | 11 | 5 | 6 | 0 |
+| health | 8 | 5 | 3 | 0 |
+| arts | 3 | 2 | 1 | 0 |
+| thinking | 19 | 10 | 6 | 3 |
+| sel | 1 | 0 | 1 | 0 |

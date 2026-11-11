@@ -1,0 +1,3845 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Harjoitellaan suunta- ja sijaintikäsitteiden käyttöä' names exactly these words; an esiopetus sheet is the step before the 1–2 content.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding every one like the target is 'löytää yhtäläisyyksiä, eroja' (S1); the shape of everyday objects is 'hahmottaa kolmiulotteista ympäristöä ja havaita siinä tason geometriaa' (S3).",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Vertaillaan' (S1); comparing length and height by eye comes before the quantity 'pituus' and measuring in S3.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'Vertaillaan, luokitellaan ja asetetaan järjestykseen'; ordering 3–5 pictures is the readiness form.",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'löytää yhtäläisyyksiä, eroja ja säännönmukaisuuksia'; picture patterns are the step before number regularities.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing one to one is a foundation of 'lukukäsitteen kehittymisessä' (T6); the wording does not name it separately.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'taitoa vertailla ja asettaa lukuja järjestykseen'; more / fewer / equal with groups comes before comparing numbers.",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'lukumäärän, lukusanan ja numeromerkinnän välisen yhteyden' is this link; to 10–20 in esiopetus it prepares the work of 1. luokka.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'laskemalla, hahmottamalla ja arvioimalla lukumääriä': 'hahmottamalla' is seeing an amount without counting.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Number conservation belongs to 'lukukäsitteen kehittymisessä' (T6); no content sentence names it.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Making a set for a numeral is the 'lukumäärän ... ja numeromerkinnän välisen yhteyden' of S2, in the small range of esiopetus.",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Tutkitaan yhdessä kappaleita ja tasokuvioita ... Tunnistamisen lisäksi'; T9 'tutustuttaa oppilas geometrisiin muotoihin'.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the numerals serves the 'numeromerkinnän' side of S2; the wording has no separate sentence on forming digits.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the numeral reading counts: 'numeromerkinnän' in S2. The colouring itself is not curriculum content.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'luokitellaan' (S1), then 'laskemalla ... lukumääriä' (S2); it is also the first step toward collecting data.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'löytämään ja nimeämään ominaisuuksia, joiden mukaan kappaleita ja tasokuviota myös luokitellaan': the number of sides is such a property.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Harjoitellaan lukujonotaitoja'; to 10 / 20 in esiopetus.",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in counting order is a 'lukujonotaitoja' exercise (S2).",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The successor idea is part of 'lukujonotaitoja' (S2) and 'lukukäsitteen kehittymisessä' (T6), and the idea of adding before its formal form.",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja' includes the number before, after, between and counting backward.",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 names the use of numbers 'lukumäärän, järjestyksen ja mittaustuloksen ilmaisemisessa': 'järjestyksen' is the ordinal use.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Harjoitellaan kellonaikoja ja ajanyksiköitä' is the only wording that holds the week; ympäristöoppi's wording names the seasons but not the weekdays.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "MA.1-2.S4",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is a way to 'kerätä ja tallentaa tietoja' (S4) and links an amount to a number (S2).",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'laskemalla, hahmottamalla ja arvioimalla lukumääriä' names estimating amounts.",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 treats the quantity 'massa'; comparing heavier / lighter is the step before measuring it (T10 'mittaamisen periaate').",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Tunnistamisen lisäksi rakennetaan ja piirretään' plane figures.",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting all of two groups is addition before its formal form: T7 'peruslaskutoimitusten periaatteisiin', S2 'yhteen- ja vähennyslaskutaitoja ensin lukualueella 0 – 20'.",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting the rest is subtraction before its formal form (T7, S2 add and subtract in 0–20).",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on is the first of the 'päässälaskustrategioita' of T8 / S2, here still with objects.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Perehdytään lukujen 1 – 10 hajotelmiin' is word for word this skill. Finland does it in 1. luokka; esiopetus only plays with it.",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Tutkitaan yhdessä kappaleita ja tasokuvioita. Tunnistamisen lisäksi rakennetaan': building figures from pieces.",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Nothing in 1–2 names reflection; it is 'yhtäläisyyksiä, eroja' (S1) now and a far first step to 'Tarkastellaan symmetriaa suoran suhteen' (3–6 S4).",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Tutkitaan lukujen ominaisuuksia kuten parillisuutta'; pairing objects is the idea before the term.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'kymmenjärjestelmän periaatteen ymmärtämisessä' (T6), 'konkreettisten mallien avulla' (S2): ten and some more is its first step.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'yhteen- ja vähennyslaskutaitoja ensin lukualueella 0 – 20' and T8 'sujuvaa peruslaskutaitoa': this is 1. luokka work in Finland, not esiopetus.",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bonds to 20 are addition and subtraction 'lukualueella 0 – 20' (S2), beyond the named 'lukujen 1 – 10 hajotelmiin'; a 1. luokka skill in Finland.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 addition 'ensin lukualueella 0 – 20', made concrete with models; T7 'peruslaskutoimitusten periaatteisiin'.",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 subtraction in the range 0–20 with a concrete model; T7 the principle of the operation.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "MA.1-2.T5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T5 'ymmärtämään matemaattisia käsitteitä ja merkintätapoja': writing the whole number sentence with its sign for a picture.",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'löytää yhtäläisyyksiä, eroja ja säännönmukaisuuksia'.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'Vertaillaan, luokitellaan ja asetetaan järjestykseen'.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Perehdytään lukujen 1 – 10 hajotelmiin'; the pairs of ten (kymppiparit) are the core of it.",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'löytämään ja nimeämään ominaisuuksia, joiden mukaan ... tasokuviota myös luokitellaan'; T9 'havainnoimaan niiden ominaisuuksia'.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2: using numbers 'lukumäärän, järjestyksen ja mittaustuloksen ilmaisemisessa'.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja sekä taitoa vertailla ja asettaa lukuja järjestykseen'; a number line to 50 fits the 0–100 range of the two years.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Harjoitellaan erilaisia päässälaskustrategioita'; counting on and back on a number line in 0–20.",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Yhteen- ja vähennyslaskut konkretisoidaan erilaisissa sovellustilanteissa'; T4 'päättely- ja ongelmanratkaisutaitojaan'.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "MA.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Laaditaan ja tulkitaan yksinkertaisia taulukoita ja pylväsdiagrammeja'; a one-picture-per-thing graph is the simplest diagram of T11.",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujen ominaisuuksia kuten parillisuutta, monikertoja ja puolittamista'.",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujen ominaisuuksia kuten parillisuutta'.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T8 'käyttämään erilaisia päässälaskustrategioita'; a double plus one is such a strategy within 0–20.",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opitaan hyödyntämään vaihdannaisuutta ja liitännäisyyttä yhteenlaskussa': three addends is where grouping is used.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 'peruslaskutoimitusten periaatteisiin ja ... ominaisuuksiin': addition and subtraction as inverse, with 'vaihdannaisuutta' of S2.",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The unknown part is the 'hajotelmiin' and add / subtract in 0–20 of S2; it prepares 'Tutustutaan tuntemattoman käsitteeseen' (3–6 S3).",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "MA.1-2.T5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The meaning of the equal sign is 'matemaattisia käsitteitä ja merkintätapoja' (T5); it prepares 'Tutkitaan yhtälöä' (3–6 S3).",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Part and whole is the 'hajotelmiin' and add / subtract content of S2; the bar is a drawing for a solution, T3 'piirroksin'.",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Tutkitaan yhdessä kappaleita ja tasokuvioita. Tunnistamisen lisäksi rakennetaan ja piirretään.'",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Harjoitellaan kellonaikoja ja ajanyksiköitä' (day, week, month); the seasons are observed in YM S3 'kaikkina vuodenaikoina', which a sheet only prepares.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same content as its parent: time units in MA S3 'ajanyksiköitä'; the season part prepares YM S3 'Havainnoidaan luonnon ominaispiirteitä ... kaikkina vuodenaikoina'.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T10 'ymmärtämään mittaamisen periaate': measuring with a repeated unit before cm; S3 'suureita pituus'.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Harjoitellaan kellonaikoja ja ajanyksiköitä'; hours and half hours are the 1. luokka level.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T8 'sujuvaa peruslaskutaitoa ... erilaisia päässälaskustrategioita'; S2 'ensin lukualueella 0 – 20'.",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition and subtraction practice in the S2 range, with working backward as 'päättely- ja ongelmanratkaisutaitojaan' (T4).",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recomputing worked sums is the add / subtract practice of S2; judging answers prepares 'arvioida ratkaisun järkevyyttä ja tuloksen mielekkyyttä' (3–6 T6).",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "MA.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Laaditaan ja tulkitaan yksinkertaisia taulukoita ja pylväsdiagrammeja'.",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Perehdytään kymmenjärjestelmän periaatteeseen konkreettisten mallien avulla': rods and cubes.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukumäärän, lukusanan ja numeromerkinnän välisen yhteyden': 'lukusanan' is the number word.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'taitoa vertailla ja asettaa lukuja järjestykseen'; the signs > < = are 'merkintätapoja' (T5).",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja' and the base-ten principle (+1 right, +10 down) in the range 0–100.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T6 'kymmenjärjestelmän periaatteen ymmärtämisessä': one more / ten more changes the ones or the tens.",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number as amount, word, numeral, tens and ones: S2 'lukumäärän, lukusanan ja numeromerkinnän välisen yhteyden' and the base-ten principle.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja' and 'lukujen ominaisuuksia kuten ... monikertoja'; 2s, 5s and 10s also lead to 'kertotaulut 1-5 ja 10'.",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Harjoitellaan kellonaikoja'; the wording sets no precision, quarter hours and five minutes are usually 2. luokka in Finland.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording never names money; counting coins is adding 'erilaisissa sovellustilanteissa' and using numbers 'eri tilanteissa' (S2). Judged by the year: sums within 100.",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 add and subtract 'sitten lukualueella 0 – 100' with 'erilaisia päässälaskustrategioita'; the drawn jumps are T3-style notes of the strategy.",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T8 'päässälaskustrategioita', S2 'sitten lukualueella 0 – 100'. Most Finnish classes reach this in 2. luokka.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Complements to 100 are addition and subtraction 'lukualueella 0 – 100' (S2); 2. luokka level in Finland.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Perehdytään kymmenjärjestelmän periaatteeseen konkreettisten mallien avulla'.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lukujonotaitoja' and the base-ten principle on the chart, within the 0–100 range of S2.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Tutkitaan lukujen ominaisuuksia kuten parillisuutta, monikertoja ja puolittamista'.",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja sekä taitoa vertailla ja asettaa lukuja järjestykseen' in 0–100.",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'ominaisuuksia, joiden mukaan kappaleita ja tasokuviota myös luokitellaan'.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 add and subtract 'sitten lukualueella 0 – 100'; the puzzle format is only the dress.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'konkretisoidaan erilaisissa sovellustilanteissa' within 0–100; T4 problem solving.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Harjoitellaan mittaamista ... Keskeisiä mittayksiköitä ovat metri ja senttimetri'; starting at 0 is the 'mittaamisen periaate' (T10).",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring two lengths in cm (S3) and using the 'mittaustuloksen' in a subtraction (S2 names measured results as a use of numbers).",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'kymmenjärjestelmän periaatteeseen konkreettisten mallien avulla' (S2) sets no number range; only calculating is limited to 0–100. Finnish 2. luokka meets hundreds in spring.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of a digit is the 'kymmenjärjestelmän periaatteen ymmärtämisessä' of T6; the wording gives no range for it.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lukujonotaitoja' (S2) carried into the hundreds; the wording limits only calculation to 0–100, so judged by the year.",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'lukujonotaitoja' and 'monikertoja'; 5s and 10s also serve 'kertotaulut 1-5 ja 10'.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'taitoa vertailla ja asettaa lukuja järjestykseen'; no range is given for comparing, three digits is the top of 2. luokka.",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "As a calculation it passes the 'lukualueella 0 – 100' of S2; it prepares 'Syvennetään ja varmennetaan oppilaiden ymmärrys kymmenjärjestelmästä' (3–6 S2).",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Harjoitellaan kellonaikoja ja ajanyksiköitä'.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'ajanyksiköitä': day, week and month on a calendar.",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Tutkitaan yhdessä kappaleita ja tasokuvioita': telling a solid (kappale) from a plane figure (tasokuvio).",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'hahmottaa kolmiulotteista ympäristöä'; the names prepare 3–6 S4 'suorakulmaiseen särmiöön, ympyrälieriöön, ympyräpohjaiseen kartioon ja pyramidiin'.",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T9",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'löytämään ja nimeämään ominaisuuksia' of solids; a closer study of prism, cylinder, cone and pyramid is 3–6 S4.",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 limits addition to 'lukualueella 0 – 100'; within 1000 with blocks goes beyond it and prepares 'yhteen- ja vähennyslaskualgoritmeja' (3–6 S2).",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Subtraction within 1000 passes the 0–100 range of S2; the block model prepares the written algorithm of 3–6 S2.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T10",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S2",
+     "rel": "extends"
+    }
+   ],
+   "why": "'Harjoitellaan yhteen- ja vähennyslaskualgoritmeja' stands in 3–6 S2 (T10 'kirjallisesti'), not in 1–2: in Finland allekkainlasku is 3. luokka content.",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Money is not named; shopping is add / subtract 'erilaisissa sovellustilanteissa' (S2). Holds only for whole-euro prices within 100; prices with cents are decimals of 3–6.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "MA.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Laaditaan ja tulkitaan yksinkertaisia taulukoita ja pylväsdiagrammeja' from collected data.",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "MA.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T11 'tutustuttaa oppilas taulukoihin ja diagrammeihin'; S4 names only tables and bar charts, and the X-mark line plot is not a diagram type of Finnish books.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Oppilaita ohjataan pyöristämään lukuja' stands only in 3–6 S2; nothing in 1–2 names rounding, so this is 3. luokka content in Finland.",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'suureita pituus, massa, tilavuus ... kilogramma ja gramma'; reading a scale is the measuring practice.",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    }
+   ],
+   "why": "S3 treats 'tilavuus' but names 'litra ja desilitra' as the central units; millilitres go beyond the 1–2 wording (Finnish sheets should read dl).",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'mittayksiköiden käyttöä ... metri ja senttimetri, kilogramma ja gramma sekä litra ja desilitra'; choosing the fitting unit is named in 3–6 T12. Inches, feet and mL are outside it.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'ymmärtämään kertolaskun käsite konkretian avulla': equal groups, repeated addition, then the multiplication.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'kertolaskun käsite konkretian avulla' and 'Hyödynnetään vaihdannaisuutta kertolaskussa': rows and columns show both.",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'monikertoja' and 'opetellaan kertotaulut 1-5 ja 10': the sequences of 3 and 4 are those tables.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "MA.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T11 'taulukoihin ja diagrammeihin'; a picture standing for 2 uses the doubles of S2. S4 itself names only tables and bar charts.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Luodaan pohja ymmärtää jakolasku sekä kerto- ja jakolaskun yhteys': sharing and grouping with objects.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Pohjustetaan murtoluvun käsitettä jakamalla kokonainen yhtä suuriin osiin'.",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "MA.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'jakamalla kokonainen yhtä suuriin osiin' with a set as the whole, joined to 'puolittamista' and the basis of division.",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Tarkastellaan symmetriaa suoran suhteen' stands only in 3–6 S4; the 1–2 wording has no symmetry.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Completing a picture over a mirror line is 'symmetriaa suoran suhteen' (3–6 S4); not named in 1–2.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A letter-number code goes beyond 'suunta- ja sijaintikäsitteiden käyttöä' (S3) and prepares 'Käsitellään koordinaatistosta ensin ensimmäinen neljännes' (3–6 S4).",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Plane figures built and compared (S3 'tasokuvioita ... rakennetaan'); rejecting turned or flipped ones is 'yhtäläisyyksiä, eroja' (S1).",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "MA.3-6.T8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Syvennetään ja varmennetaan oppilaiden ymmärrys kymmenjärjestelmästä'; comparing by place value from the left.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Oppilaita ohjataan pyöristämään lukuja'.",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Harjoitellaan yhteen- ja vähennyslaskualgoritmeja sekä varmistetaan niiden osaaminen'; T10 'sujuva laskutaito päässä ja kirjallisesti'.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'pyöristämään lukuja ja laskemaan likiarvoilla siten, että he oppivat arvioimaan tuloksen suuruusluokan'; T6 'tuloksen mielekkyyttä'.",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "MA.3-6.T5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Mental addition (S2 'laskea peruslaskutoimituksia päässä') inside a problem to solve (T5 'ongelmanratkaisutaitojen').",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Käsitystä lukujen rakenteesta, yhteyksistä ja jaollisuudesta monipuolistetaan tutkimalla ja luokittelemalla lukuja'; predicting is T3 'perusteltuja päätelmiä'.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "MA.3-6.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Tutkitaan lukujonon säännönmukaisuutta sekä jatketaan lukujonoa säännön mukaan'.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    }
+   ],
+   "why": "The 3–6 wording in this registry names no clock time; reading to the minute continues 'Harjoitellaan kellonaikoja' of 1–2 S3.",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Varmistetaan kertolaskun käsitteen ymmärtäminen'.",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal jumps are another model of 'kertolaskun käsitteen ymmärtäminen' (S2) and show multiples.",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Hyödynnetään laskutoimitusten ominaisuuksia'; commutativity of multiplication is first met in 1–2 S2 and secured here.",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'opitaan kertotaulut 6-9. Varmistetaan kertotaulujen 1-10 osaaminen'. Tables 1–5 and 10 are already 2. luokka content (1–2 S2).",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "MA.3-6.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'Tallennetaan ja esitetään tietoa taulukoiden ja diagrammien avulla'; T13 'laatimaan ja tulkitsemaan taulukoita ja diagrammeja'.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a scale is 'Harjoitellaan mittaamista ja kiinnitetään huomiota mittaustarkkuuteen' (MA S4); YM S5 names 'Lämpötilan mittaamisen'. Finnish thermometers also need the degrees below zero.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opiskellaan jakolaskua sekä sisältö- että ositusjakotilanteissa': sharing is ositusjako.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'sisältö- että ositusjakotilanteissa': how many hops of a size is sisältöjako.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Hyödynnetään laskutoimitusten ominaisuuksia ja niiden välisiä yhteyksiä'; the unknown factor is S3 'tuntemattoman käsitteeseen'.",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 division 'sekä sisältö- että ositusjakotilanteissa' and 'Kaikkia laskutoimituksia harjoitellaan monipuolisissa tilanteissa'; T5 problem solving.",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "MA.3-6.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the rule is 'löytää ... säännönmukaisuuksia' (S1); applying it backward is a first 'tuntemattoman' task (S3).",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "MA.3-6.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Tutkitaan yhtälöä ja etsitään yhtälön ratkaisuja päättelemällä ja kokeilemalla'.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Clock time is named only in 1–2 S3 'kellonaikoja ja ajanyksiköitä'; calculating with hours and minutes is a case of 3–6 S4 'yksikönmuunnoksia yleisimmin käytetyillä mittayksiköillä'.",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Durations continue 'kellonaikoja ja ajanyksiköitä' (1–2 S3) and need hour–minute conversion (3–6 S4 'yksikönmuunnoksia'); the 3–6 text has no sentence on time itself.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Only 1–2 S3 names 'kellonaikoja'; the 24-hour form goes beyond it. In Finland the 24-hour clock is the everyday written form and there is no a.m. / p.m.",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Mitataan ja lasketaan erimuotoisten kuvioiden piirejä ja pinta-aloja'; in Finland area is usually 4.–5. luokka within the 3–6 unit.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'erimuotoisten kuvioiden ... pinta-aloja': the same area in differently shaped figures.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Mitataan ja lasketaan erimuotoisten kuvioiden piirejä'.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'kuvioiden piirejä ja pinta-aloja', compared with each other.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opiskellaan jakolaskua ...'; the remainder (jakojäännös) is not named but belongs to division with natural numbers.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Perehdytään pisteen, janan, suoran ja kulman käsitteisiin. Harjoitellaan kulmien piirtämistä, mittaamista ja luokittelemista': right, acute, obtuse.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Luokitellaan tasokuviot monikulmioihin ... Perehdytään tarkemmin kolmioihin, nelikulmioihin ja ympyrään'.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'Tarkastellaan symmetriaa suoran suhteen'.",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opitaan murtoluvun käsite'; T9 extends the number concept 'positiivisiin rationaalilukuihin'.",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opitaan murtoluvun käsite': a/b as a copies of the unit piece.",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rebuilding the whole from one part is the 'murtoluvun käsite' of S2 read backward.",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A fraction as a number on the line: T9 'lukukäsitteen kehittymisessä positiivisiin rationaalilukuihin'.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing fractions belongs to 'Opitaan murtoluvun käsite' (S2); the wording does not single it out.",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The same amount under two names is part of 'murtoluvun käsite' (S2); formal laventaminen and supistaminen come in 4.–5. luokka.",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'harjoitellaan murtolukujen peruslaskutoimituksia eri tilanteissa'; a third of 12 joins the fraction concept to division.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "MA.3-6.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'kiinnitetään huomiota mittaustarkkuuteen' (the half unit), S5 'esitetään tietoa ... diagrammien avulla'. The line plot itself is not a Finnish diagram type.",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "MA.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting unit cubes is the step before 'Mitataan ja lasketaan ... suorakulmaisten särmiöiden tilavuuksia' (S4), which Finland teaches in 5.–6. luokka.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hand control before S3 'isojen ja pienten tekstauskirjainten piirtämistä' and T11 'käsinkirjoittamisen taitoa'.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "AI.1-2.T9",
+     "rel": "prepares"
+    },
+    {
+     "id": "KU.1-2.T3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "AI T9 'kuvaamaan kokemuksiaan puhumalla, kirjoittamalla ja kuvien avulla'; KU T3 'ilmaisemaan havaintojaan ja ajatuksiaan' in pictures.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "AI.1-2.S4",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'leikitellään kielellä lorujen, runojen ja sanaleikkien avulla'; S3 'fonologisen tietoisuuden harjoitteiden'.",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting is 'luokitellaan' (MA S1); naming the category builds the 'käsitevarantoa' of AI S2.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan ja harjoitellaan siinä tarvittavia käsitteitä äänne, kirjain ...': knowing the letters apart comes first.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Opetellaan isojen ja pienten tekstauskirjainten piirtämistä'; in esiopetus tracing is preparation. The Finnish alphabet also has Å, Ä, Ö.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 names the concept 'tavu'; clapping syllables is the 'fonologisen tietoisuuden harjoitteiden' of S3 and the base of Finnish reading instruction.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'isojen ja pienten tekstauskirjainten'; S2 the concept 'kirjain'.",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'äänne, kirjain'; hearing the first sound is S3 'fonologisen tietoisuuden harjoitteiden' before sound–letter reading.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'löytää yhtäläisyyksiä, eroja ... luokitellaan' (MA S1); the category words widen the 'käsitevarantoa' (AI S2).",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Pohditaan sanojen ja sanontojen merkityksiä ... ja laajennetaan käsitevarantoa'; with pictures it is the pre-reading form.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The wording never names aakkosjärjestys; the sheet only strengthens the concept 'kirjain' of S2. Finnish order ends ... X, Y, Z, Å, Ä, Ö.",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'tapoihin ilmaista aikaa, järjestystä ... juoni'; S3 'kertomuksen perusrakenteeseen'. Picture order is the step before text.",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 concept 'äänne'; S3 'fonologisen tietoisuuden harjoitteiden'.",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T12 'kielen peruskäsitteiden tuntemusta'; vokaali and konsonantti are sorted formally in 1. luokka on top of S2 'äänne, kirjain'.",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "AI.1-2.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'Tehdään havaintoja ... koulussa ja vapaa-ajalla esillä olevista kielistä'. The registry holds no foreign-language or suomi toisena kielenä syllabus, where such cards belong.",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'äänne, kirjain'; S3 'fonologisen tietoisuuden harjoitteiden'. In Finnish the two-letters-one-sound case is the long sound (aa, kk) and ng.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan ... äänne, kirjain, tavu, sana'. CVC is an English notion; the Finnish counterpart is building short words from sounds and syllables (isi, ase, talo).",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan' with the concepts 'sana ... ja kuva'; in esiopetus first word reading is preparation.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "AI.1-2.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'Vahvistetaan kielellistä tietoisuutta tekemällä havaintoja puhutusta kielestä'; yksikkö and monikko as terms come with word forms in 3–6.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "sh / ch do not exist in Finnish; holds only if the Finnish sheets use the counterpart, one sound written with two letters (ng, long vowels and consonants): S2 'äänne, kirjain'.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan ... sana, virke'. Finnish reading is taught by sound and syllable, not by sight words; short frequent words (ja, on, ei) are the nearest thing.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'tekstauskirjainten piirtämistä sekä niillä kirjoittamista' and the conventions 'sanaväli ... virke'.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "none": "Finnish has no articles.",
+   "why": "No a / an or der / die / das exists in Finnish, so no wording of PART 2 can hold this skill.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "AI.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S4 'leikitellään kielellä lorujen, runojen ja sanaleikkien avulla'; S3 'fonologisen tietoisuuden harjoitteiden'.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan ... äänne, kirjain'; segmenting and blending is S3 'oikeinkirjoitustaidon kehittymistä fonologisen tietoisuuden harjoitteiden ... avulla'.",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "sh / ch / th are not Finnish. Holds only for the Finnish counterpart (äng-äänne ng / nk, double letters for long sounds): S2 'äänne, kirjain', S3 'oikeinkirjoituksen perusasioita'.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Tuetaan oikeinkirjoitustaidon kehittymistä'; T11 'tuntemaan oikeinkirjoituksen perusasioita'.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 concept 'tavu'; S3 names 'tavutus' among the conventions to practise. Syllables are the centre of 1. luokka reading in Finland.",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T12",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 concepts 'äänne, kirjain, tavu'; T12 'kielen peruskäsitteiden tuntemusta'.",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Opetellaan lukemaan ... tavu, sana'; reading syllabified words (ta-lo) is the Finnish method. English word families have no counterpart.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "AI.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "PART 2 never names aakkosjärjestys; it is a tool for T7 'hakemaan tietoa eri tavoin' (word lists, library), so at most preparation.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Pohditaan sanojen ja sanontojen merkityksiä ... ja laajennetaan käsitevarantoa'; T6 'sana- ja käsitevarantoaan'.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "none": "Finnish has no articles.",
+   "why": "Finnish nouns carry no article and no grammatical gender, so nothing in PART 2 can hold this skill.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T12",
+     "rel": "teaches"
+    }
+   ],
+   "why": "AI S2 'tekstinymmärtämisen taitoja' with 'ohjaavissa teksteissä'; MA T12 'toimimaan ohjeen mukaan'.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'Tuetaan tekstinymmärtämisen taitoja' at the level of 'sana, virke'.",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Pohditaan sanojen ja sanontojen merkityksiä sekä sananvalintoja'; the term synonyymi itself stands in 3–6 S2.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'virke ja sen lopetusmerkit, iso alkukirjain virkkeen alussa'.",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching question and answer is 'tekstinymmärtämisen taitoja' (S2); S1 'kysymistä, vastaamista' is spoken interaction, which a sheet only prepares.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'aikaa, järjestystä ... juoni'; knowing the order prepares S3 'kertomuksen perusrakenteeseen' in own texts.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.T12",
+     "rel": "extends"
+    }
+   ],
+   "why": "'Luokitellaan sanoja merkityksen ja muodon perusteella (sanaluokat)' stands in 3–6 S2; the basic concepts of 1–2 stop at sound, letter, syllable, word, sentence.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pronouns are a word class of 3–6 S2 '(sanaluokat)'. Sorting into he / she has no Finnish counterpart: hän covers both, so only name → hän / he works.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Pohditaan sanojen ... merkityksiä sekä sananvalintoja'; ordering by strength prepares 'merkityksiä ja niiden hierarkioita' (3–6 S2).",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Word formation is not named in PART 2; the nearest wording is S2 'Pohditaan sanojen ... merkityksiä ... ja laajennetaan käsitevarantoa'. A loose fit; in Finnish this is kantasana and johdos (kirja → kirjasto).",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'Harjoitellaan tuottamaan tekstejä ... harjoitellaan tekstin suunnittelua'; T10 'yksinkertaisia kertovia, kuvaavia ja muita tekstejä'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "sh is not Finnish. Holds only for the Finnish counterpart (finding ng / nk or double letters in sentences): S2 'äänne, kirjain ... virke'.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'virke ja sen lopetusmerkit, iso alkukirjain virkkeen alussa ja tutuissa erisnimissä'.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "none": "The curriculum teaches print letters only; joined handwriting is not in it.",
+   "why": "S3 names only 'isojen ja pienten tekstauskirjainten piirtämistä'. Cursive (kaunokirjoitus) left the national curriculum with these 2014 perusteet.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'harjoitellaan tekstinymmärtämisen strategioita': using context is one.",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding which question a sentence part answers is 'tekstinymmärtämisen taitoja' (S2); S1 'kysymistä, vastaamista' is oral and only prepared.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'tekstinymmärtämisen taitoja' with 'päähenkilö, tapahtumapaikka ja -aika ja juoni': who, where, when, what.",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'kuvaamaan omia ... havaintoja ja ajatuksia ... kirjoittamalla'; T10 'kuvaavia ... tekstejä'.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T12",
+     "rel": "extends"
+    }
+   ],
+   "why": "'Luokitellaan sanoja merkityksen ja muodon perusteella (sanaluokat)' is 3–6 S2: Finland starts substantiivi, verbi, adjektiivi in 3. luokka.",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "AI.1-2.T12",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T12 'tekemään havaintoja puhutusta ja kirjoitetusta kielestä'; word form is 3–6 S2 'muodon perusteella'. Finnish plural is regular -t (kukka → kukat); there is no irregular list.",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The English rules have no counterpart. Holds only for the Finnish one, single or double letter and ng / nk (tuli, tuuli, tulli): S3 'oikeinkirjoituksen perusasioita'.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'sanojen ... merkityksiä sekä sananvalintoja teksteissä' (a better word for sanoi); 'synonyymien' as a term is 3–6 S2.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same content as its parent: word meanings and word choice in S2; the term synonyymi in 3–6 S2.",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T12",
+     "rel": "extends"
+    }
+   ],
+   "why": "'opitaan verbien taipuminen persoona- ja aikamuodoissa' stands in 3–6 S2; preesens and imperfekti are 3.–4. luokka. Finnish has no irregular list like be / have / do / go.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pronouns are a word class of 3–6 S2 '(sanaluokat)'; nothing in 1–2 names them. Finnish possession is minun + a suffix (minun kirjani).",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "none": "Joined handwriting is not in the curriculum.",
+   "why": "PART 2 names only 'tekstauskirjainten' (print letters); reading cursive is not asked for in any year.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Yhdyssanat are not named; meaning is S2 'Pohditaan sanojen ... merkityksiä', writing them as one word is S3 'oikeinkirjoituksen perusasioita ... kuten sanaväli'.",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Loose fit: PART 2 has no sentence on word formation; sorting word families (sanaperhe) is S2 'Pohditaan sanojen ... merkityksiä ... laajennetaan käsitevarantoa'.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Loose fit. Finnish builds words with suffixes and compounds; epä- is nearly the only prefix (selvä → epäselvä). The meaning change is S2 'Pohditaan sanojen ... merkityksiä'.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.T10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'ajan ja paikan ilmaisutapoihin ja kertomuksen perusrakenteeseen ... omissa teksteissä'; S2 'harjoitellaan tekstin kertomista omin sanoin'.",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading clues and concluding is 'tekstinymmärtämisen strategioita' (AI S2); the animal knowledge prepares YM T7 'kuvailemaan, vertailemaan ja luokittelemaan ... eliöitä'.",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "AI.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "AI T7 'hakemaan tietoa eri tavoin', S2 'tiedon etsintää ... tulkitsemalla kuvia ja kirjoitettuja tekstejä'; YM T7 'kuvailemaan ... eliöitä'.",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "YM T7 'kuvailemaan, vertailemaan ja luokittelemaan monipuolisesti eliöitä'; the facts are read from 'yksinkertaisten tietotekstien' (AI S2).",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "none": "Joined handwriting is not in the curriculum.",
+   "why": "3–6 S3 says only 'Sujuvoitetaan käsinkirjoittamista' and 1–2 teaches 'tekstauskirjainten'; no wording asks for a joined script. The same copying task in print letters would teach AI.3-6.S3.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.T6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'selittämään, vertailemaan ja pohtimaan sanojen, niiden synonyymien ... merkityksiä ja niiden hierarkioita'; T6 'sana- ja käsitevarantoaan'.",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "AI.3-6.T13",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tekijännimet (leipoa → leipuri, juosta → juoksija): T13 'tutkimaan ja tarkkailemaan kieltä ... ja sen rakenteista'; S2 'Luokitellaan sanoja merkityksen ja muodon perusteella'.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "AI.3-6.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.3-6.T13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the form a sentence needs is S2 'opitaan verbien taipuminen persoona- ja aikamuodoissa' and word form 'muodon perusteella'; T13 language structures.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'ymmärrys ihmisen kehon osista ja elintoiminnoista'.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.3-6.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'luokittelemaan monipuolisesti eliöitä ... ilmiöitä, materiaaleja'; the pair itself is named in 3–6 S4 'elolliseen ja elottomaan luontoon'.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting plants we eat: T7 'luokittelemaan'; S5 'Tutustutaan ravinnontuotantoon'.",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'luokittelemaan ... eliöitä, elinympäristöjä'; S3 'yleisimpiä eliölajeja ja niiden elinympäristöjä'.",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'kuvailemaan, vertailemaan ja luokittelemaan monipuolisesti eliöitä': parent and young, alike and different.",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'luonnon ominaispiirteitä, ilmiöitä ja ominaisuuksia kaikkina vuodenaikoina'; clothes by season is S2 'säänmukaista pukeutumista'.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'luokittelemaan ... ilmiöitä'; the topic itself, 'päivän ja yön vaihteluun', stands in 3–6 S5.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'Ympäristöä ja sen ilmiöitä kuten säätä kuvataan ... käsitteiden avulla'.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S3 'luonnonympäristöissä ja rakennetuissa ympäristöissä ... rakennetun ympäristön kohteita'; T7 classifying.",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'kehon osista ja elintoiminnoista'; T6 observing 'eri aisteja ... käyttäen'.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "YM.1-2.S6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S6 'opitaan kierrättämään tavaroita ja lajittelemaan jätteitä'. Finnish bins: bio, paperi, kartonki, lasi, metalli, muovi, sekajäte.",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S5 'elämän perusedellytyksiin ravinnon, veden, ilman, lämmön'; S4 small studies 'kasveja kasvattamalla'.",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "YM.1-2.S4",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'Pienimuotoisia kokeiluja ja tutkimuksia'; T6 'tekemään havaintoja ja kokeiluja'. A sorting sheet is only the step before a real test.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 'kuvailemaan, vertailemaan ja luokittelemaan monipuolisesti eliöitä ... sekä nimeämään niitä'.",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'eliöitä, elinympäristöjä'; S5 'elämän perusedellytyksiin ravinnon, veden ...'; S3 asks to recognise them 'maastossa', which a sheet prepares.",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'kuvailemaan ... eliöitä ... ilmiöitä'; development from egg to adult prepares 3–6 S5 'eläinten ja kasvien lisääntymiseen'.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "YM.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'harjoitellaan tutkimuksen tekemisen eri vaiheita': predict, test, record. T6 needs the real experiment, the sheet is its record.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'ymmärrys ihmisen kehon osista'.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'kehon osista ja elintoiminnoista'; T6 asks to use 'eri aisteja' in real observation.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "YM.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S3 'ilmiöitä kuten säätä kuvataan ympäristöopin eri tiedonalojen käsitteiden avulla'.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 'luokittelemaan ... materiaaleja'; S6 'lajittelemaan jätteitä'.",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T12",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 'kuvailemaan ... eliöitä ... sekä nimeämään'; T12 'käsitteiden avulla' (juuri, varsi, lehti, kukka).",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Perehdytään lähiavaruuteen' stands only in 3–6 S5; the 1–2 wording has nothing on space.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 'luokittelemaan ... materiaaleja'; S6 'opitaan kierrättämään tavaroita ja lajittelemaan jätteitä'.",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T7 naming and describing 'eliöitä'; which part we eat is S5 'Tutustutaan ravinnontuotantoon'.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'kuvailemaan, vertailemaan ... eliöitä'; prepares 3–6 S5 'eläinten ja kasvien lisääntymiseen'.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only 3–6 S5 'Perehdytään lähiavaruuteen' holds the Moon; naming the phases in 2. luokka is ahead of the Finnish placing.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3–6 S5 'Perehdytään lähiavaruuteen, vuodenaikoihin, päivän ja yön vaihteluun': exactly this, but placed in 3.–6. luokka.",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.3-6.T15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T7 'eliöitä, elinympäristöjä'; S3 wants them recognised 'maastossa'; body features that fit a habitat lead to 3–6 T15 'ekologiseen ajatteluun'.",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "YM.1-2.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'harjoitellaan tutkimuksen tekemisen eri vaiheita ... kokeillaan ja keksitään yhdessä vaihtoehtoja' (the clay boat); T6 needs the real test.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'Palaminen, yhteyttäminen ja veden kiertokulku'.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.T15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'eläinten ja kasvien lisääntymiseen': the parts of the flower and their jobs; T15 'luonnon tutkimiseen, eliöiden ... tunnistamiseen'.",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.T15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'Tutustutaan ... eläinten ja kasvien lisääntymiseen', compared between two animals.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "YM.3-6.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'Perehdytään lähiavaruuteen'; Finnish schools usually do the planets in 5.–6. luokka.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "YM.3-6.S4",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.T5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S4 'harjoitellaan tutkimuksen tekemisen eri vaiheita'; T6 'tekemään johtopäätöksiä tuloksistaan'; planning one's own study (T5) is only prepared by a given test.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "YM.1-2.T13",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T13 'yksinkertaisia kuvia, malleja ja karttoja ympäristön kuvaajina'; S3 'opitaan ymmärtämään kartan idea'.",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "YM.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "AI.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The family is not named in PART 2; nearest are YM S2 'kotona ... toimimiseen' and the naming words of AI S2 'käsitevarantoa'. A loose fit.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "YM.1-2.T7",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting vehicles is T7 'luokittelemaan'; they are 'arjen teknologiaan' (T9).",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S5 'elämän perusedellytyksiin ravinnon, veden, ilman, lämmön ja huolenpidon osalta': what a person needs.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "YM.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Occupations are not named in grades 1–2 (yhteiskuntaoppi starts in 4.–6. luokka, not in this registry); nearest is S2 'turvataitoihin ... avun hakemista': who helps.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "YM.1-2.T13",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T13 'ymmärtämään yksinkertaisia kuvia, malleja ja karttoja'; S3 'opitaan ymmärtämään kartan idea'.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'ymmärrys ... elämänkulusta ja oman ikäkauden kasvusta': generations from oldest to youngest. The family tree itself is not named.",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "YM.1-2.T13",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.T16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T13 'karttoja ympäristön kuvaajina'; ilmansuunnat are not named in 1–2 and lead to 3–6 T16 'kartankäyttö- ja muita geomediataitoja'.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "YM.3-6.S3",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.3-6.T16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The world map belongs to 3–6: S3 'Euroopan ja muiden maanosien', T16 'hahmottamaan omaa ympäristöä ja koko maailmaa'. Years 1–2 stay in the lähiympäristö.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "AI.1-2.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Kinship words from riddles are AI S2 'Pohditaan sanojen ... merkityksiä ... laajennetaan käsitevarantoa'; ympäristöoppi's wording does not name the family.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "YM.3-6.T16",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.3-6.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T16 'hahmottamaan ... koko maailmaa sekä harjaannuttamaan kartankäyttö-'; S3 'muiden maanosien ... käytetään monipuolisesti karttoja'.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S5 'Perehdytään arjen terveystottumuksiin'; T15 'terveyttä ja hyvinvointia tukevia tekijöitä'.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.S2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S5 'arjen terveystottumuksiin ja harjoitellaan niihin liittyviä taitoja'; S2 'arjen pieniä itsehoitotaitoja'.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "YM.1-2.S2",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S2 'Harjoitellaan turvallista toimimista lähiympäristössä ja liikenteessä'; T8 'toimimaan turvallisesti, noudattamaan annettuja ohjeita'.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'arjen terveystottumuksiin' and 'ravinnon'. No food model is named; Finnish schools use the lautasmalli and the ruokakolmio, not four food groups.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "YM.1-2.S5",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S5 'Perehdytään arjen terveystottumuksiin ja harjoitellaan niihin liittyviä taitoja'.",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "YM.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 'turvallista toimimista ... liikenteessä. Perehdytään ... turvallisuusohjeisiin ja niiden perusteluihin'. The signs must be the Finnish ones.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "YM.1-2.T15",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T15 'pohtimaan ... terveyttä ja hyvinvointia tukevia tekijöitä': the reason behind each habit.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "YM.1-2.S2",
+     "rel": "teaches"
+    },
+    {
+     "id": "YM.1-2.T8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S2 traffic safety with 'turvallisuusohjeisiin ja niiden perusteluihin'; T8 'hahmottamaan niiden perusteluita'.",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "KU.1-2.T4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "T4 'harjoittelemaan kuvallisia ilmaisutapoja'. Finnish kuvataide aims at the child's own expression; a copy-the-steps drawing serves only the technique part.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "KU.1-2.T4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T12",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KU T4 'kokeilemaan ... tekniikoita sekä harjoittelemaan kuvallisia ilmaisutapoja'; ordering and following the steps is MA T12 'vaiheittaisia toimintaohjeita ... toimimaan ohjeen mukaan'.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "KU.1-2.T4",
+     "rel": "teaches"
+    },
+    {
+     "id": "KU.1-2.T3",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KU T4 drawing technique; drawing from memory is T3 'ilmaisemaan havaintojaan ja ajatuksiaan'; writing about it is AI S3 'kirjoittamalla ja kuvien avulla'.",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'mahdollisuuksia löytää yhtäläisyyksiä, eroja'.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "none": "Path-finding puzzle; no wording of PART 2 fits.",
+   "why": "MA S1 names similarities, differences, regularities, comparing, classifying and ordering, none of which is finding a way through a maze; the letter and number routes are only its dress.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a picture to its shadow or to a part is 'löytää yhtäläisyyksiä, eroja' (S1); a loose fit, visual perception is not a curriculum heading.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'löytää yhtäläisyyksiä, eroja ... Vertaillaan'.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'säännönmukaisuuksia ... luokitellaan'; finding the piece that fits is early 'päättely' (T4).",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying square by square uses place in rows and columns, S3 'suunta- ja sijaintikäsitteiden käyttöä ... piirretään'; a loose fit.",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'Oppilaille tarjotaan mahdollisuuksia löytää yhtäläisyyksiä, eroja'; the mirror version adds comparing 'eri näkökulmista'.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "Path-finding puzzle; no wording of PART 2 fits.",
+   "why": "Nothing in MA S1 or elsewhere names route finding; even the shortest-way maze has no measuring or counting in its skill line.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "MA.1-2.S3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Row and column tracking is a step toward S3 'suunta- ja sijaintikäsitteiden käyttöä' and drawing figures; the wording does not name grid copying.",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'löytää yhtäläisyyksiä, eroja ja säännönmukaisuuksia ... syy- ja seuraussuhteita': the relation between A and B carried to C.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "none": "Substitution-code puzzle; no wording of PART 2 fits.",
+   "why": "Looking symbols up in a key is not comparing, classifying, ordering or finding a regularity (MA S1), and it is not reading instruction in AI either.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "rows": [
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T4 'päättely- ja ongelmanratkaisutaitojaan'; S1 'havaitaan syy- ja seuraussuhteita' (if it is here, it cannot be there).",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "rows": [
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T4 'päättely- ja ongelmanratkaisutaitojaan'; S1 'syy- ja seuraussuhteita' drawn from clues.",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "AI.1-2.S3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "MA S1 'löytää yhtäläisyyksiä, eroja'; the sentence about each difference is AI S3 'kuvaamaan ... havaintoja ... kirjoittamalla'.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "rows": [
+    {
+     "id": "MA.1-2.T4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "T4 'päättely- ja ongelmanratkaisutaitojaan'; S1 'havaitaan syy- ja seuraussuhteita'.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "MA.3-6.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'Syvennetään taitoa vertailla, luokitella ja asettaa järjestykseen': two attributes at once is the deepening.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "MA.3-6.S1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same content as its parent: S1 'Syvennetään taitoa vertailla, luokitella'.",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "rows": [
+    {
+     "id": "MA.3-6.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'etsiä vaihtoehtoja systemaattisesti, havaita syy- ja seuraussuhteita'; T3 'tehdä perusteltuja päätelmiä'.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "rows": [
+    {
+     "id": "MA.3-6.S1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "S1 'etsiä vaihtoehtoja systemaattisesti'; T5 'ongelmanratkaisutaitojen kehittämisessä'.",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "YM.1-2.S1",
+     "rel": "prepares"
+    },
+    {
+     "id": "YM.1-2.T10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "S1 'Harjoitellaan tunnetaitoja ja mielen hyvinvoinnin edistämistä'; T10 'ryhmässä toimimisen taitoja ja tunnetaitoja'.",
+   "review": "author-all"
+  }
+ }
+}

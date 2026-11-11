@@ -61,7 +61,7 @@ const txt = (s) => ent(String(s || '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g,
         const name = txt((c.nimi || {}).fi), m = /^S(\d+)\s+(.*)$/.exec(name);
         if (!m) { problems.push(s.key + ' ' + band + ': a content area without its number: "' + name.slice(0, 50) + '"'); continue; }
         contentIds.set(String(c.id), 'S' + m[1]);
-        cs.push({ no: Number(m[1]), node: { id: area.id + '.S' + m[1], f: s.key, kind: 'content', grade: band, parent: area.id, label: 'S' + m[1], text: m[2] + ': ' + txt((c.kuvaus || {}).fi) } });
+        cs.push({ no: Number(m[1]), node: { id: area.id + '.S' + m[1], f: s.key, kind: 'content', grade: band, parent: area.id, label: 'S' + m[1], text: m[2].replace(/:\s*$/, '') + ': ' + txt((c.kuvaus || {}).fi).replace(new RegExp('^S' + m[1] + '\\s+[^:]{3,60}:\\s*'), '') } });   // (the service's description sometimes repeats the heading, and a name may end in a colon)
       }
       const gs = [];
       for (const t of v.tavoitteet || []) {
@@ -80,7 +80,7 @@ const txt = (s) => ent(String(s || '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g,
       goals += gs.length; contents += cs.length;
     }
     frameworks.push({ key: s.key, short: 'OPS 2014', subject: s.subject, title: 'Perusopetuksen opetussuunnitelman perusteet 2014: ' + (s.syllabus || s.name), publisher: 'Opetushallitus', year: '2014', officialDocument: 'https://eperusteet.opintopolku.fi/#/fi/perusopetus/' + ID + '/tiedot', readFrom: URL, accessed: ACCESSED, sha256: sha256(buf),
-      version: 'Määräys ' + doc.diaarinumero + ', in force since ' + new Date(doc.voimassaoloAlkaa).toISOString().slice(0, 10) + '; the service\'s publication of ' + new Date(doc.viimeisinJulkaisuAika || doc.muokattu).toISOString().slice(0, 10), band: 'units of grades: vuosiluokat 1–2 and 3–6',
+      version: 'Määräys ' + doc.diaarinumero + ', valid from ' + new Date(doc.voimassaoloAlkaa).toISOString().slice(0, 10) + ' according to the service (the date of the order; schools took it into use later)' + '; the service\'s publication of ' + new Date(doc.viimeisinJulkaisuAika || doc.muokattu).toISOString().slice(0, 10), band: 'units of grades: vuosiluokat 1–2 and 3–6',
       ids: 'T (tavoite) and S (sisältöalue) with their numbers are the curriculum\'s own; the subject letters and the band are this registry\'s', citation: 'Perusopetuksen opetussuunnitelman perusteet 2014. Opetushallitus. Määräykset ja ohjeet 2014:96.',
       checkedAgainstPdf: goals + ' objectives and ' + contents + ' content areas read; numbered without a gap in each unit; every objective names content areas of its own unit' });
   }

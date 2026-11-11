@@ -14,7 +14,7 @@
    "readFrom": "https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550",
    "accessed": "2026-11-11",
    "sha256": "cc0a34234d4ff572b708e6502303c996180214d9bb137c847906e0b175f1f54d",
-   "version": "Määräys 104/011/2014, in force since 2014-12-31; the service's publication of 2026-09-15",
+   "version": "Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15",
    "band": "units of grades: vuosiluokat 1–2 and 3–6",
    "ids": "T (tavoite) and S (sisältöalue) with their numbers are the curriculum's own; the subject letters and the band are this registry's",
    "citation": "Perusopetuksen opetussuunnitelman perusteet 2014. Opetushallitus. Määräykset ja ohjeet 2014:96.",
@@ -31,7 +31,7 @@
    "readFrom": "https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550",
    "accessed": "2026-11-11",
    "sha256": "cc0a34234d4ff572b708e6502303c996180214d9bb137c847906e0b175f1f54d",
-   "version": "Määräys 104/011/2014, in force since 2014-12-31; the service's publication of 2026-09-15",
+   "version": "Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15",
    "band": "units of grades: vuosiluokat 1–2 and 3–6",
    "ids": "T (tavoite) and S (sisältöalue) with their numbers are the curriculum's own; the subject letters and the band are this registry's",
    "citation": "Perusopetuksen opetussuunnitelman perusteet 2014. Opetushallitus. Määräykset ja ohjeet 2014:96.",
@@ -48,7 +48,7 @@
    "readFrom": "https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550",
    "accessed": "2026-11-11",
    "sha256": "cc0a34234d4ff572b708e6502303c996180214d9bb137c847906e0b175f1f54d",
-   "version": "Määräys 104/011/2014, in force since 2014-12-31; the service's publication of 2026-09-15",
+   "version": "Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15",
    "band": "units of grades: vuosiluokat 1–2 and 3–6",
    "ids": "T (tavoite) and S (sisältöalue) with their numbers are the curriculum's own; the subject letters and the band are this registry's",
    "citation": "Perusopetuksen opetussuunnitelman perusteet 2014. Opetushallitus. Määräykset ja ohjeet 2014:96.",
@@ -65,7 +65,7 @@
    "readFrom": "https://eperusteet.opintopolku.fi/eperusteet-service/api/external/peruste/419550",
    "accessed": "2026-11-11",
    "sha256": "cc0a34234d4ff572b708e6502303c996180214d9bb137c847906e0b175f1f54d",
-   "version": "Määräys 104/011/2014, in force since 2014-12-31; the service's publication of 2026-09-15",
+   "version": "Määräys 104/011/2014, valid from 2014-12-31 according to the service (the date of the order; schools took it into use later); the service's publication of 2026-09-15",
    "band": "units of grades: vuosiluokat 1–2 and 3–6",
    "ids": "T (tavoite) and S (sisältöalue) with their numbers are the curriculum's own; the subject letters and the band are this registry's",
    "citation": "Perusopetuksen opetussuunnitelman perusteet 2014. Opetushallitus. Määräykset ja ohjeet 2014:96.",
@@ -1993,7 +1993,7 @@
    "grade": "3-6",
    "parent": "KU.3-6",
    "label": "S1",
-   "text": "Omat kuvakulttuurit: S1 Omat kuvakulttuurit: Opetuksen sisällöiksi valitaan oppilaiden tekemiä kuvia ja kuvakulttuureja, joihin he osallistuvat omaehtoisesti. Oppilaiden kuvakulttuureja tarkastellaan suhteessa muihin kuvakulttuureihin. Omia kuvakulttuureja käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään omien kuvakulttuurien merkitystä oppilaiden osallistumiselle eri yhteisöissä, ympäristöissä ja yhteyksissä."
+   "text": "Omat kuvakulttuurit: Opetuksen sisällöiksi valitaan oppilaiden tekemiä kuvia ja kuvakulttuureja, joihin he osallistuvat omaehtoisesti. Oppilaiden kuvakulttuureja tarkastellaan suhteessa muihin kuvakulttuureihin. Omia kuvakulttuureja käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään omien kuvakulttuurien merkitystä oppilaiden osallistumiselle eri yhteisöissä, ympäristöissä ja yhteyksissä."
   },
   {
    "id": "KU.3-6.S2",
@@ -2002,7 +2002,7 @@
    "grade": "3-6",
    "parent": "KU.3-6",
    "label": "S2",
-   "text": "Ympäristön kuvakulttuurit: S2 Ympäristön kuvakulttuurit: Opetuksen sisällöt valitaan erilaisista ympäristöistä, esineistä, mediakulttuureista ja virtuaalimaailmoista. Sisältöjä valitaan monipuolisesti rakennetuista ja luonnon ympäristöistä sekä mediasta. Opetuksen sisältöjä valitaan myös vakiintuneita kuvakulttuureja uudistavista, erilaisten yhteisöjen ja ryhmien tuottamista kuvista ja visuaalisen kulttuurin ilmiöistä. Ympäristön kuvakulttuureja käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään oppilaiden laajenevaa elinpiiriä ja medioiden merkitystä yhteiskunnassa."
+   "text": "Ympäristön kuvakulttuurit: Opetuksen sisällöt valitaan erilaisista ympäristöistä, esineistä, mediakulttuureista ja virtuaalimaailmoista. Sisältöjä valitaan monipuolisesti rakennetuista ja luonnon ympäristöistä sekä mediasta. Opetuksen sisältöjä valitaan myös vakiintuneita kuvakulttuureja uudistavista, erilaisten yhteisöjen ja ryhmien tuottamista kuvista ja visuaalisen kulttuurin ilmiöistä. Ympäristön kuvakulttuureja käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään oppilaiden laajenevaa elinpiiriä ja medioiden merkitystä yhteiskunnassa."
   },
   {
    "id": "KU.3-6.S3",
@@ -2011,7 +2011,7 @@
    "grade": "3-6",
    "parent": "KU.3-6",
    "label": "S3",
-   "text": "Taiteen maailmat:: S3 Taiteen maailmat: Opetuksen sisällöt valitaan eri aikoina, eri ympäristöissä ja eri kulttuureissa tuotetusta kuvataiteesta. Oppilaat perehtyvät taiteelle ominaisiin toimintatapoihin, taiteen eri lajeihin sekä erilaisiin käsityksiin taiteesta. Taideteoksia käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään kulttuuri-identiteetin vaikutusta taiteen tekemiseen ja vastaanottamiseen."
+   "text": "Taiteen maailmat: Opetuksen sisällöt valitaan eri aikoina, eri ympäristöissä ja eri kulttuureissa tuotetusta kuvataiteesta. Oppilaat perehtyvät taiteelle ominaisiin toimintatapoihin, taiteen eri lajeihin sekä erilaisiin käsityksiin taiteesta. Taideteoksia käytetään kuvallisen työskentelyn lähtökohtana. Opetuksessa käsitellään kulttuuri-identiteetin vaikutusta taiteen tekemiseen ja vastaanottamiseen."
   }
  ]
 }

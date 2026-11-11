@@ -35,7 +35,7 @@
    "band": "Fase 2 = preescolar (P1, P2, P3), Fase 3 = 1° and 2° de primaria, Fase 4 = 3° and 4°; a contenido belongs to the fase, a process to one grade",
    "ids": "this registry's own (the programme numbers nothing): fase, campo, contenido, grade, process",
    "citation": "Secretaría de Educación Pública (2024). Programa Sintético de la Fase 2 (preescolar), de la Fase 3 y de la Fase 4 (primaria).",
-   "checkedAgainstPdf": "44 contenidos and 303 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence"
+   "checkedAgainstPdf": "44 contenidos and 304 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence"
   },
   {
    "key": "nem-etica-naturaleza-y-sociedades",
@@ -965,7 +965,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.1",
-   "text": "Consulta diferentes fuentes de información, digitales o impresas, para ampliar lo que sabe intuye."
+   "text": "Consulta diferentes fuentes de información, digitales o impresas, para ampliar lo que sabe o intuye."
   },
   {
    "id": "F2.SPC.1.GP3.5",
@@ -973,7 +973,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.1",
-   "text": "Explica con sus palao bras y en su lengua materna, procesos, fenómenos naturales y experimentos; los representa con recursos gráficos."
+   "text": "Explica con sus palabras y en su lengua materna, procesos, fenómenos naturales y experimentos; los representa con recursos gráficos."
   },
   {
    "id": "F2.SPC.1.GP2.6",
@@ -1005,7 +1005,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.2",
-   "text": "Selecciona saberes familiares y comunitarios útiles, para resolver situaciones diversas, los compara con los de sus pares cuida su integridad y la de los demás."
+   "text": "Selecciona saberes familiares y comunitarios útiles, para resolver situaciones diversas, los compara con los de sus pares y cuida su integridad y la de los demás."
   },
   {
    "id": "F2.SPC.2.GP3.1",
@@ -1013,7 +1013,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.2",
-   "text": "Propone algunos saberes familiares y comunitarios, para resolver necesidades y situaciones en y su hogar, escuela y comunidad."
+   "text": "Propone algunos saberes familiares y comunitarios, para resolver necesidades y situaciones en su hogar, escuela y comunidad."
   },
   {
    "id": "F2.SPC.2.GP1.2",
@@ -1141,7 +1141,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.3",
-   "text": "Muestra interés sobre lo que sus pares saben acerca de fenómenos y procesos de la naturaleza, y reconoce que todas todos pueden participar en la resolución de dudas."
+   "text": "Muestra interés sobre lo que sus pares saben acerca de fenómenos y procesos de la naturaleza, y reconoce que todas y todos pueden participar en la resolución de dudas."
   },
   {
    "id": "F2.SPC.3.GP3.3",
@@ -1149,7 +1149,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.3",
-   "text": "Expresa lo que supone sucedería si y se alteran las condiciones de la naturaleza por las acciones de las personas, por ejemplo, al contaminarla o dañarla."
+   "text": "Expresa lo que supone sucedería si se alteran las condiciones de la naturaleza por las acciones de las personas, por ejemplo, al contaminarla o dañarla."
   },
   {
    "id": "F2.SPC.3.GP1.5",
@@ -1253,7 +1253,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.4",
-   "text": "Construye colecciones y las compara y mediante distintas estrategias para determinar cuál tiene más o menos elementos."
+   "text": "Construye colecciones y las compara mediante distintas estrategias para determinar cuál tiene más o menos elementos."
   },
   {
    "id": "F2.SPC.4.GP2.4",
@@ -1261,7 +1261,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.4",
-   "text": "Compara colecciones de pocos elementos las representa con dibujos o símbolos personales."
+   "text": "Compara colecciones de pocos elementos y las representa con dibujos o símbolos personales."
   },
   {
    "id": "F2.SPC.4.GP1.3",
@@ -1293,7 +1293,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.4",
-   "text": "Representa cantidades, con dibujos, símbolos personales y numerales e interpreta los registros de sus pares. y Construye y compara colecciones, usando distintas estrategias."
+   "text": "Representa cantidades, con dibujos, símbolos personales y numerales e interpreta los registros de sus pares."
   },
   {
    "id": "F2.SPC.4.GP1.5",
@@ -1309,10 +1309,18 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.4",
-   "text": "Resuelve de manera colaborativa situaciones sencillas que involucran números que implican juntar, agregar, separar o quitar elementos."
+   "text": "Resuelve de manera colaborativa situaciones sencillas que involucran números y que implican juntar, agregar, separar o quitar elementos."
   },
   {
    "id": "F2.SPC.4.GP3.5",
+   "f": "nem-saberes-y-pensamiento-cientifico",
+   "kind": "standard",
+   "grade": "P3",
+   "parent": "F2.SPC.4",
+   "text": "Construye y compara colecciones, usando distintas estrategias."
+  },
+  {
+   "id": "F2.SPC.4.GP3.6",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1336,7 +1344,7 @@
    "text": "Intercambia con sus pares lo que ha aprendido sobre los números, para reconocer maneras más eficientes de usarlos en su entorno sociocultural en diversas situaciones."
   },
   {
-   "id": "F2.SPC.4.GP3.6",
+   "id": "F2.SPC.4.GP3.7",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1344,7 +1352,7 @@
    "text": "Organiza y registra información en tablas o cuadros sencillos."
   },
   {
-   "id": "F2.SPC.4.GP3.7",
+   "id": "F2.SPC.4.GP3.8",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1352,7 +1360,7 @@
    "text": "Propone, de manera colaborativa, formas de resolver situaciones cotidianas e imaginarias que involucran acciones de agregar, juntar, quitar, separar, comparar e igualar cantidades."
   },
   {
-   "id": "F2.SPC.4.GP3.8",
+   "id": "F2.SPC.4.GP3.9",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1360,7 +1368,7 @@
    "text": "Reconoce el valor de monedas y billetes al usarlos en situaciones reales y de juego y estima para qué le alcanza."
   },
   {
-   "id": "F2.SPC.4.GP3.9",
+   "id": "F2.SPC.4.GP3.10",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1368,7 +1376,7 @@
    "text": "Intercambia con sus pares, saberes numéricos para plantear problemas y encontrar distintas estrategias para resolverlos de formas diversas y equitativas."
   },
   {
-   "id": "F2.SPC.4.GP3.10",
+   "id": "F2.SPC.4.GP3.11",
    "f": "nem-saberes-y-pensamiento-cientifico",
    "kind": "standard",
    "grade": "P3",
@@ -1621,7 +1629,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.6",
-   "text": "Mide objetos, áreas o distancias con unidades no convencionales que tiene al o alcance y explica por qué son apropiadas; las representa de manera gráfica."
+   "text": "Mide objetos, áreas o distancias con unidades no convencionales que tiene al alcance y explica por qué son apropiadas; las representa de manera gráfica."
   },
   {
    "id": "F2.SPC.6.GP2.3",
@@ -1629,7 +1637,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.6",
-   "text": "Sopesa dos o más objetos para comparar su peso y dice cuál es más pesado ligero que otro."
+   "text": "Sopesa dos o más objetos para comparar su peso y dice cuál es más pesado o ligero que otro."
   },
   {
    "id": "F2.SPC.6.GP1.5",
@@ -1645,7 +1653,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.SPC.6",
-   "text": "Organiza actividades y juegos con sus pares, estableciendo una secuencia en su duración al llevarlas cabo."
+   "text": "Organiza actividades y juegos con sus pares, estableciendo una secuencia en su duración al llevarlas a cabo."
   },
   {
    "id": "F2.SPC.6.GP3.3",
@@ -1653,7 +1661,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.SPC.6",
-   "text": "Usa balanzas o básculas para comparar a el peso de dos o más objetos."
+   "text": "Usa balanzas o básculas para comparar el peso de dos o más objetos."
   },
   {
    "id": "F2.SPC.6.GP2.5",
@@ -2020,7 +2028,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.ENS.1",
-   "text": "Aprecia la diversidad de características de los seres vivos y no vivos que hay en la naturaleza y sugiere formas de cuidarlos preservarlos."
+   "text": "Aprecia la diversidad de características de los seres vivos y no vivos que hay en la naturaleza y sugiere formas de cuidarlos y preservarlos."
   },
   {
    "id": "F2.ENS.1.GP3.2",
@@ -2028,7 +2036,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.ENS.1",
-   "text": "Manifiesta interés por cuidar a la naturaleza y encuentra formas creativas de y resolver problemas socioambientales de su comunidad, como la contaminación, la deforestación, el cambio climático, el deshielo o la sobreexplotación de los recursos naturales."
+   "text": "Manifiesta interés por cuidar a la naturaleza y encuentra formas creativas de resolver problemas socioambientales de su comunidad, como la contaminación, la deforestación, el cambio climático, el deshielo o la sobreexplotación de los recursos naturales."
   },
   {
    "id": "F2.ENS.1.GP1.3",
@@ -3043,7 +3051,7 @@
    "kind": "standard",
    "grade": "P2",
    "parent": "F2.HC.5",
-   "text": "Manifiesta disposición para establecer acuerdos que beneficien a todas y todos a fin de convivir con respeto y tolerancia las diferencias."
+   "text": "Manifiesta disposición para establecer acuerdos que beneficien a todas y todos a fin de convivir con respeto y tolerancia a las diferencias."
   },
   {
    "id": "F2.HC.5.GP3.3",
@@ -3051,7 +3059,7 @@
    "kind": "standard",
    "grade": "P3",
    "parent": "F2.HC.5",
-   "text": "Asume actitudes prosociales como compartir, ayudar y colaborar, al participar y mejorar a las relaciones de convivencia con las demás personas."
+   "text": "Asume actitudes prosociales como compartir, ayudar y colaborar, al participar y mejorar las relaciones de convivencia con las demás personas."
   },
   {
    "id": "F2.HC.5.GP1.3",
@@ -8669,7 +8677,7 @@
    "kind": "standard",
    "grade": "4",
    "parent": "F4.SPC.2",
-   "text": "Comprende que la menstruación es un ciclo natural de desa rrollo físico de las niñas a partir de describir y representar sus fases; explica la diversidad de síntomas físicos y sensaciones que se pueden experimentar, algunas creencias y tabúes alrededor de ésta, así como medidas de cuidado e higiene personal."
+   "text": "Comprende que la menstruación es un ciclo natural de desarrollo físico de las niñas a partir de describir y representar sus fases; explica la diversidad de síntomas físicos y sensaciones que se pueden experimentar, algunas creencias y tabúes alrededor de ésta, así como medidas de cuidado e higiene personal."
   },
   {
    "id": "F4.SPC.2.G4.4",

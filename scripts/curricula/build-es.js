@@ -96,6 +96,9 @@ const join = (lines) => lines.map((s) => s.trim()).join('\n')
     if (a.length >= 4 && b.length >= 4 && VOCAB.has(a.toLowerCase()) && VOCAB.has(b)) return a + '-' + b;
     return a + b;
   })
+  // a word broken over a page WITHOUT its hyphen ("desa" / "rrollo"): the second piece is no word of the document
+  // and the two together are one
+  .replace(new RegExp('([' + LETTERS + ']+)\\n([a-záéíóúñü]+)', 'g'), (m, a, b) => (!VOCAB.has(b) && VOCAB.has((a + b).toLowerCase()) ? a + b : m))
   .replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
 
 function parse(fase, pages) {
@@ -140,12 +143,15 @@ function parse(fase, pages) {
     for (const r of body) {
       const placed = cols.map(() => []);
       for (const w of r.words) placed[colOf(w[0])].push(w);
-      // One case the 5 points get wrong: a full line of the cell to the left whose LAST word ("y", "de") ends up just
-      // left of the next column's beginning and is taken for that column. It is known by standing alone there, a
-      // normal word space after the left cell's last word.
+      // One case the 5 points get wrong: a full line of the cell to the left whose LAST word ("y", "o", "de") ends up
+      // just left of the next column's beginning and is taken for that column. It is known by standing a normal
+      // word space after the left cell's last word (the gutter between two columns is far wider), left of where the
+      // column really begins. The next column may print a line of its own on the same row: that line then begins
+      // MORE than a word space after the stray word (where the column begins), which tells it from a column's own
+      // first word followed by its second ("Valora su …").
       for (let c = 1; c < N; c++) {
-        const lone = placed[c].length === 1 ? placed[c][0] : null, left = placed[c - 1];
-        if (lone && lone[0] < cols[c] - 0.8 && left.length && lone[0] - left[left.length - 1][2] <= 4) { left.push(lone); placed[c] = []; }
+        const head = placed[c][0], next = placed[c][1], left = placed[c - 1];
+        if (head && head[0] < cols[c] - 0.8 && left.length && head[0] - left[left.length - 1][2] <= 4 && (!next || next[0] - head[2] > 3.5)) { left.push(head); placed[c].shift(); }
       }
       const pieces = placed.map((ws) => ws.map((w) => w[4]));
       for (let c = 0; c < N; c++) {

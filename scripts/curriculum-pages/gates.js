@@ -22,6 +22,11 @@ const REPO = path.join(__dirname, '..', '..');
 const { assemble, fileText, MIN_TAUGHT } = require('./assemble.js');
 const { pagesOf } = require('../units/catalog.js');
 const C = path.join(REPO, 'frontend', 'content');
+// The worksheet half of Q2 reads the catalogue dump (out/teaching-graph/decks.tsv, written on the PC by
+// scripts/teaching-graph/pull-decks.sh). The server has no such file: there this half is NOT run and the gate says
+// so; after the deploy scripts/curriculum-pages/live-check.js asks the live site for every worksheet a page links.
+const DUMP = path.join(REPO, 'out', 'teaching-graph', 'decks.tsv');
+const haveDump = () => fs.existsSync(DUMP);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i };
 // one official code as the name of a page: K.CC.A.1, 2.NBT.B.5, RF.1.3.a, 1.2.B
@@ -52,9 +57,8 @@ function run(d, opt = {}) {
     if (!opt.skipGenerated) { const a = assemble(loc); if (a.problems.length) fail('Q1', loc + ': ' + a.problems[0]); else if (fileText(a.file) !== L.text) fail('Q1', loc + ': pages.' + loc + '.json is not what assemble.js writes'); }
     const lessons = new Set();
     for (const u of L.units) if (u.status === 'live') for (const l of u.lessons) lessons.add(u.slug + '#' + l.n);
-    const published = pagesOf(loc);
-    const slugs = new Set();
-    for (const [, pg] of published) for (const r of ['core', 'easy', 'hard']) for (const x of pg[r] || []) slugs.add(x.slug);
+    const slugs = haveDump() ? new Set() : null;
+    if (slugs) for (const [, pg] of pagesOf(loc)) for (const r of ['core', 'easy', 'hard']) for (const x of pg[r] || []) slugs.add(x.slug);
     for (const [k, v] of Object.entries(L.ui)) {
       if (FREE[loc] && FREE[loc].test(v)) fail('Q5', loc + ' ui.' + k + ' says free');
       if (CLAIM.test(v) && k !== 'hubNote') fail('Q6', loc + ' ui.' + k + ' claims an approval');
@@ -74,7 +78,7 @@ function run(d, opt = {}) {
         if (!it.text) fail('Q4', iw + ': no description');
         if (!(it.lessons && it.lessons.length) && !(it.papers && it.papers.length)) fail('Q4', iw + ': neither a lesson nor a worksheet');
         for (const l of it.lessons || []) if (!lessons.has(l.unit + '#' + l.n)) fail('Q2', iw + ': lesson ' + l.n + ' of ' + l.unit + ' is no lesson of a live unit');
-        for (const x of it.papers || []) if (!slugs.has(x.core)) fail('Q2', iw + ': the worksheet ' + x.core + ' is not published');
+        if (slugs) for (const x of it.papers || []) if (!slugs.has(x.core)) fail('Q2', iw + ': the worksheet ' + x.core + ' is not published');
         const t = norm(it.text || '');
         if (t.length >= 40 && official.some((o) => o.includes(t) || t.includes(o))) fail('Q3', iw + ': the description is the wording of an objective');
         if (FREE[loc] && FREE[loc].test(it.text || '')) fail('Q5', iw + ': the description says free');
@@ -103,7 +107,9 @@ if (require.main === module) {
   for (const f of fails) console.log('FAIL  ' + f);
   if (fails.length) { console.log(fails.length + ' problem(s)'); process.exit(1); }
   let pages = 0; for (const L of Object.values(d)) pages += L.pages.length;
+  if (!haveDump()) console.log('curriculum pages: the worksheet half of Q2 was NOT run (this machine has no catalogue dump; it runs on the PC before a deploy, and the live check follows every worksheet link)');
   if (process.argv.includes('--poison')) {
+    if (!haveDump()) { console.log('the poisons need the catalogue dump (PC only)'); process.exit(1); }
     for (const [name, gate, breakIt, opt] of POISONS) {
       const copy = load();
       breakIt(copy);

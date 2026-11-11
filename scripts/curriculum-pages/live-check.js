@@ -59,6 +59,7 @@ const unescape = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace
   } else check(/noindex/.test(hubRobots) && !listed.includes(hp + '<'), 'hub: a hub of pilots must be noindex and in no sitemap');
 
   const lessonUrls = new Set();
+  const paperUrls = new Set();
   for (const p of pages) {
     const w = 'page ' + p.id;
     const pp = '/' + loc + '/curriculum/' + p.slug;
@@ -77,11 +78,20 @@ const unescape = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace
     check(items.every((it) => r.body.includes('>' + it.code + '<')), w + ': a code of the file is not on the page');
     for (const it of items) for (const l of it.lessons || []) { check(r.body.includes('href="/' + loc + '/units/' + l.unit + '#lesson-' + l.n + '"'), w + ' ' + it.code + ': no link to lesson ' + l.n + ' of ' + l.unit); lessonUrls.add('/' + loc + '/units/' + l.unit); }
     check(r.body.includes('href="' + p.officialDocument.replace(/&/g, '&amp;') + '"'), w + ': no link to the official document');
+    // the worksheets a line names: every link of the page into the worksheets or the decks of the language
+    for (const m of r.body.matchAll(new RegExp('href="(/' + loc + '/(?:worksheets|decks)/[^"#]+)"', 'g'))) paperUrls.add(m[1]);
+    const named = items.reduce((k, it) => k + (it.papers || []).length, 0);
+    if (named) check(paperUrls.size > 0, w + ': the file names ' + named + ' worksheets and the page links none');
   }
   // every unit a page links answers and has the lesson anchors it is linked by
   for (const u of lessonUrls) {
     const r = await req(u);
     check(r.status === 200, 'unit ' + u + ' answers ' + r.status);
+  }
+  // every worksheet a page links answers (the half of gate Q2 that the server cannot run)
+  for (const u of paperUrls) {
+    const r = await req(u);
+    check(r.status === 200, 'worksheet ' + u + ' answers ' + r.status);
   }
   console.log(loc + ' curriculum pages: ' + n + ' checks on the live site; ' + (bad ? bad + ' FAILED' : 'all pass'));
   process.exit(bad ? 1 : 0);

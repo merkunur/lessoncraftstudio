@@ -355,10 +355,8 @@ node /opt/lessoncraftstudio/scripts/class-results/build-skill-index.js --check >
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
-# WARN-only (Part 4.4): the committed units file of each language is what assemble.js writes from today's definitions,
-# notes, content graph and registry (a stale file shows a lesson its sources no longer describe). Hard once it has
-# passed on the server.
-for UL in /opt/lessoncraftstudio/frontend/content/units/defs/*.json; do UL="$(basename "$UL" .json)"; node /opt/lessoncraftstudio/scripts/units/assemble.js --loc="$UL" --check 2>&1 | tail -1 || true; done
+# PC ONLY, before a deploy (it reads the deck catalog dump out/teaching-graph/decks.tsv, which the server does not have):
+#   node scripts/units/assemble.js --loc=<loc> --check   the committed units file is what the assembler writes today
 
 # Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
 # gates page_title + page_intro — the search-results surface — and nothing gated the

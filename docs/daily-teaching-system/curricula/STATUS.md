@@ -14,7 +14,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `de-sn` Sachsen (Lehrplan Grundschule) | 3 | 862 | 179 | 103 | 24 |
 | `sv` Sverige (Lgr22) | 8 | 296 | 281 | 21 | 4 |
 | `es` México (Plan de Estudio 2022) | 4 | 1381 | — | — | — |
-| `pt` Brasil (BNCC) | 7 | 580 | — | — | — |
+| `pt` Brasil (BNCC) | 7 | 580 | 210 | 84 | 12 |
 | `fr` France (programmes) | 6 | 516 | — | — | — |
 | `nl` Nederland (kerndoelen) | 4 | 75 | — | — | — |
 | `fi` Suomi (OPS 2014) | 4 | 154 | — | — | — |
@@ -143,4 +143,25 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | health | 8 | 7 | 1 | 0 |
 | arts | 3 | 3 | 0 | 0 |
 | thinking | 19 | 10 | 5 | 4 |
+| sel | 1 | 1 | 0 | 0 |
+
+## `pt` — Brasil (BNCC)
+
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 32 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 206 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 126 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 48 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 56 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 52 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+- **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 26 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 126 | 32 | 0 |
+| literacy | 71 | 47 | 23 | 1 |
+| science | 35 | 22 | 12 | 1 |
+| social | 11 | 3 | 7 | 1 |
+| health | 8 | 3 | 5 | 0 |
+| arts | 3 | 3 | 0 | 0 |
+| thinking | 19 | 5 | 5 | 9 |
 | sel | 1 | 1 | 0 | 0 |

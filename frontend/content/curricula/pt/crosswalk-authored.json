@@ -1,0 +1,4007 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "EF01MA12",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No EI03 objective names position words. EF01MA12 asks the child to 'descrever a localização ... segundo um dado ponto de referência' with 'direita, esquerda, em cima, em baixo', and EF01MA11 uses 'à direita, à esquerda, em frente, atrás'; the pre-school sheets practise the words on pictures before the child describes and states the reference.",
+   "review": "author-math"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding every picture like the target is 'estabelecer relações de comparação entre objetos, observando suas propriedades'. The shape sheets are a step before 'identificar e nomear figuras planas ... em diferentes disposições' (EF01MA14): the child finds the shapes but does not name them.",
+   "review": "author-math"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picking the biggest / tallest / longest is comparison of objects by a property (EI03ET01). EF01MA15 uses the same terms ('mais alto, mais comprido') but 'para ordenar objetos', so the pre-school sheet is the step before.",
+   "review": "author-math"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA09",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seriating by size compares objects by a property (EI03ET01). The 1º ano asks to 'ordenar ... representações por figuras, por meio de atributos, tais como ... medida' (EF01MA09) and to compare lengths 'para ordenar objetos' (EF01MA15); 3 to 5 pictures in pre-school is the step before.",
+   "review": "author-math"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "EF01MA10",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA11",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No EI03 objective names patterns. The BNCC puts missing elements of 'sequências recursivas' (growing patterns) in the 1º ano (EF01MA10) and of 'sequências repetitivas' (AB, ABC) in the 2º ano (EF02MA11); making a pattern by picture, size or shape is organising 'por meio de atributos, tais como cor, forma e medida' (EF01MA09). The pre-school sheets are the first step on all three.",
+   "review": "author-math"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "EF01MA03",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01MA03 compares two sets 'por correspondência (um a um ...)' and EF01MA02 counts with 'o pareamento'; giving each one a partner is the idea these two use, before any comparison or count is asked.",
+   "review": "author-math"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "EF01MA03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01MA03: compare two sets 'para indicar tem mais, tem menos ou tem a mesma quantidade', but with sets 'em torno de 20 elementos'. The skill line gives no range; pre-school sets are small (to about 10), so it prepares.",
+   "review": "author-math"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting a set and naming / writing its number is 'relacionar números às suas respectivas quantidades' (EI03ET07). EF01MA04 asks the same with a written record but for collections 'até 100 unidades'; to 10-20 is the step before.",
+   "review": "author-math"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a dot, dice or frame arrangement as its number relates numbers to quantities (EI03ET07). Seeing groups at a glance is a first form of counting with 'outros agrupamentos' (EF01MA02).",
+   "review": "author-math"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child counts both arrangements and gives each the same number: 'relacionar números às suas respectivas quantidades' (EI03ET07). It is the idea behind saying two sets have 'a mesma quantidade' (EF01MA03).",
+   "review": "author-math"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Colouring exactly N goes from the number to its quantity (EI03ET07). It prepares the use of numbers 'como indicador de quantidade' (EF01MA01).",
+   "review": "author-math"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "EF01MA14",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA14 is 'identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos apresentados em diferentes disposições', which is what these sheets ask; the BNCC places it in the 1º ano. Treating all triangles as one kind whatever their turn or proportion is 'classificar ... figuras de acordo com suas semelhanças e diferenças' (EI03ET05).",
+   "review": "author-math"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "EI03ET04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names forming numerals. Writing them is the tool for 'registro por números' (EI03ET04) and for the 'registros ... simbólicos' of a count (EF01MA04), so it prepares both.",
+   "review": "author-math"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The sheets train reading numerals, a step before relating them to quantities (EI03ET07). In the key the numeral is neither a count nor an order but a code for a colour, the idea EF01MA01 names ('código de identificação'), here in a game and not in an everyday situation.",
+   "review": "author-math"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting the scene into kinds is 'classificar objetos e figuras' (EI03ET05) and counting each kind relates numbers to quantities (EI03ET07). Classify-then-count is the organising step of the small survey of EF01MA22, which the sheet does not carry out.",
+   "review": "author-math"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting shapes by number of sides classifies figures by 'semelhanças e diferenças' (EI03ET05). It prepares recognising and comparing plane figures 'por meio de características comuns' (EF02MA15).",
+   "review": "author-math"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling gaps in the count is 'identificar o antes, o depois e o entre em uma sequência' (EI03ET07). EF01MA10 asks for 'os elementos ausentes em sequências recursivas de números naturais' after stating the pattern; counting by ones to 20 is the first case.",
+   "review": "author-math"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "To join the dots the child must find the number that comes after each one: 'identificar ... o depois ... em uma sequência' (EI03ET07). The range to 30 is judged from the skill line.",
+   "review": "author-math"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting the group and naming the number after or before it is EI03ET07 ('relacionar números às ... quantidades', 'o antes, o depois'). Adding one or taking one away is the first case of 'acrescentar' and 'retirar' in EF01MA08.",
+   "review": "author-math"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EI03ET07 names it word for word: 'identificar o antes, o depois e o entre em uma sequência'.",
+   "review": "author-math"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "EF01MA01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA01: 'utilizar números naturais como indicador de quantidade ou de ordem'. The sheets teach the 'ordem' part (1st to 10th in a line); the BNCC places it in the 1º ano and no EI03 objective names ordinals.",
+   "review": "author-math"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "EF01MA17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA17: 'reconhecer e relacionar períodos do dia, dias da semana e meses do ano'. The sheets cover the 'dias da semana' part only; the BNCC places it in the 1º ano and no EI03 objective names the week.",
+   "review": "author-math"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "EI03ET04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is a record of a count in another 'linguagem' (EI03ET04: 'registrar ... usando múltiplas linguagens') and reading it back relates a number to its quantity (EI03ET07). Bundles of five prepare counting with 'outros agrupamentos' (EF01MA02).",
+   "review": "author-math"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The check by counting relates the number to the quantity (EI03ET07). Estimating first is the start of 'contar de maneira exata ou aproximada' (EF01MA02) and of 'fazer estimativas ... e registrar o resultado da contagem' (EF02MA02, there up to 1000).",
+   "review": "author-math"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Heavier / lighter is comparison of objects by a property (EI03ET01). EF01MA15 compares 'massas' with 'mais pesado, mais leve' in order to put objects in order, the next step.",
+   "review": "author-math"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "EF01MA14",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective of these years asks the child to draw shapes. Drawing a named shape from its sides and corners prepares 'identificar e nomear figuras planas' (EF01MA14) and recognising them 'por meio de características comuns' (EF02MA15).",
+   "review": "author-math"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting all gives the number of the joined quantity (EI03ET07). It is the meaning 'juntar' of EF01MA08 'com o suporte de imagens', before any problem is stated.",
+   "review": "author-math"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting what is left relates the number to the quantity (EI03ET07). Crossing out is the meaning 'retirar' of EF01MA08 with picture support, before a problem is stated.",
+   "review": "author-math"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known group is a first calculation procedure on the way to 'construir fatos básicos da adição' (EF01MA06) and one of the 'diferentes estratégias' of counting in EF01MA02.",
+   "review": "author-math"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting numbers to 10 into two parts and making ten builds the 'fatos básicos da adição' (EF01MA06, placed in the 1º ano). EF01MA07 composes and decomposes numbers 'de até duas ordens' to understand the decimal system; bonds of one-digit numbers are the step before.",
+   "review": "author-math"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "EF01MA14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective of these years names composing figures. Fitting tangram pieces makes the child see triangles and squares 'em diferentes disposições', a step before identifying and naming them (EF01MA14).",
+   "review": "author-math"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "EF04MA19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only objective on reflection is EF04MA19, 'reconhecer simetria de reflexão em figuras e em pares de figuras', in the 4º ano; recognising a mirrored picture is an early step toward it.",
+   "review": "author-math"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade in PART 2 names odd and even ('par / ímpar'). The sheet practises 'o pareamento', the grouping strategy EF01MA02 names for counting.",
+   "review": "author-math"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "EI03ET07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting 13 on two ten-frames relates the number to its quantity (EI03ET07). Seeing 13 as 10 + 3 is the first case of 'compor e decompor número de até duas ordens ... contribuindo para a compreensão ... do sistema de numeração decimal' (EF01MA07).",
+   "review": "author-math"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC places addition facts in the 1º ano: 'construir fatos básicos da adição e utilizá-los em procedimentos de cálculo' (EF01MA06). Subtraction facts and their use in mental calculation come in the 2º ano (EF02MA05).",
+   "review": "author-math"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bonds to 20 decompose a two-digit number 'por meio de diferentes adições' (EF01MA07) and are basic addition facts (EF01MA06); both are 1º ano habilidades.",
+   "review": "author-math"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding two pictured groups builds the 'fatos básicos da adição' (EF01MA06) and is addition with the meaning 'juntar ... com o suporte de imagens' (EF01MA08).",
+   "review": "author-math"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "EF01MA08",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out on a picture is subtraction with the meaning 'retirar ... com o suporte de imagens' (EF01MA08). Subtraction facts as such are named only in the 2º ano (EF02MA05).",
+   "review": "author-math"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "EF01MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA08: addition and subtraction with the meanings 'juntar, acrescentar, separar e retirar, com o suporte de imagens'. The objective accepts 'formas de registro pessoais'; the sheet asks for the standard equation, which is the school form of that record.",
+   "review": "author-math"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "EF02MA11",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC puts missing elements of 'sequências repetitivas ... de objetos ou figuras' in the 2º ano (EF02MA11). The 1º ano objective (EF01MA10) speaks only of 'sequências recursivas'; the repeating pattern is the easier step toward it.",
+   "review": "author-math"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "EF01MA09",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA09: 'organizar ... objetos familiares ou representações por figuras, por meio de atributos'. The skill line does not name the attribute; judged as sorting pictures by a common feature.",
+   "review": "author-math"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The partners of 10 are basic addition facts (EF01MA06) and decompose a two-digit number 'por meio de diferentes adições' (EF01MA07).",
+   "review": "author-math"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "EF01MA14",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the shapes is EF01MA14. Telling a real triangle from a false one by its defining attributes is recognising figures 'por meio de características comuns', which the BNCC places in the 2º ano (EF02MA15).",
+   "review": "author-math"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "EF01MA01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA01: natural numbers 'como indicador de ... ordem'. The sheets teach this part (places in a line or a race, ordinal words).",
+   "review": "author-math"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "EF03MA04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC names the link between numbers and points of the line only in the 3º ano (EF03MA04: 'estabelecer a relação entre números naturais e pontos da reta numérica'); lines to 50 are the step before. They also give the 'suporte da reta numérica' that EF01MA05 uses for comparing.",
+   "review": "author-math"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hops on the line are a calculation procedure for the basic facts (EF01MA06) and are what EF03MA04 describes: 'construção de fatos da adição e da subtração, relacionando-os com deslocamentos para a direita ou para a esquerda' (placed in the 3º ano). Counting back builds toward the subtraction facts of EF02MA05.",
+   "review": "author-math"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "EF01MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA08: 'resolver ... problemas de adição e de subtração, envolvendo números de até dois algarismos ... com o suporte de imagens'. The sheets solve; they do not ask the child to write problems ('elaborar').",
+   "review": "author-math"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "EF01MA21",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA22",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a table and a one-picture-per-thing graph is 'ler dados expressos em tabelas e em gráficos de colunas simples' (EF01MA21; the picture columns are read as simple columns). Sorting into a table is the organising step of the survey in EF01MA22, and 'how many more' starts the comparison of information of EF02MA22.",
+   "review": "author-math"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "EF02MA08",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The BNCC places 'dobro, metade ... com o suporte de imagens' in the 2º ano (EF02MA08); the sheets cover that part (not triplo and terça parte). Doubles to 20 are also basic addition facts (EF01MA06).",
+   "review": "author-math"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "EF01MA02",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade in PART 2 names odd and even. Circling in pairs practises 'o pareamento' of EF01MA02, and sharing fairly between two is the idea of 'metade' in EF02MA08.",
+   "review": "author-math"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Solving 6 + 7 from 6 + 6 is to 'construir fatos básicos da adição e utilizá-los em procedimentos de cálculo' (EF01MA06) and to use facts 'no cálculo mental' (EF02MA05).",
+   "review": "author-math"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding three small numbers uses the basic facts 'em procedimentos de cálculo' (EF01MA06). No objective names three addends as such.",
+   "review": "author-math"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The four facts are 'fatos básicos da adição e subtração' (EF02MA05, 2º ano). That the two operations undo each other is named only in the 4º ano: 'relações inversas entre as operações de adição e de subtração' (EF04MA13).",
+   "review": "author-math"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the gap uses addition and subtraction facts 'no cálculo mental ou escrito' (EF02MA05). 'Determinar o número desconhecido que torna verdadeira uma igualdade' is a 4º ano habilidade (EF04MA15); within 10/20 it is the step before.",
+   "review": "author-math"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "EF03MA11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF03MA11 (3º ano): 'compreender a ideia de igualdade para escrever diferentes sentenças de adições ou de subtrações ... que resultem na mesma soma ou diferença'. Judging 9 - 2 = 3 + 4 true or false builds that idea before the child writes such sentences.",
+   "review": "author-math"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A part-part-whole bar composes and decomposes a number by additions (EF01MA07; the bar stands in for the 'material manipulável'). Comparing two bars and finding the missing part are the meanings 'comparar e completar quantidades', which the BNCC names in the 3º ano (EF03MA06).",
+   "review": "author-math"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "EF03MA16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective of these years names composing figures. Choosing the piece that fills a gap is matching by laying one shape over another, a step toward 'reconhecer figuras congruentes, usando sobreposição' (EF03MA16).",
+   "review": "author-math"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "EF01MA17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA17: 'reconhecer e relacionar ... dias da semana e meses do ano, utilizando calendário'. The seasons are not in the mathematics objectives.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "EF01MA17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The months part is EF01MA17 ('meses do ano'). The seasons are not in the mathematics objectives of PART 2, so only the months are counted.",
+   "review": "author-math"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "EF01MA15",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering three objects by length is EF01MA15 ('comparar comprimentos ... para ordenar objetos'). Measuring with cubes uses 'unidades de medida não padronizadas', which EF02MA16 asks for sides of rooms and polygons together with metre and centimetre.",
+   "review": "author-math"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "EF03MA23",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC places reading clocks in the 3º ano: 'ler horas em relógios digitais e em relógios analógicos e reconhecer a relação entre hora e minutos' (EF03MA23); hours and half hours are the step before. Matching to a digital time prepares the use of the 'relógio digital' in EF02MA19.",
+   "review": "author-math"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition facts are EF01MA06; subtraction facts and their use 'no cálculo mental' are EF02MA05 (2º ano).",
+   "review": "author-math"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each brick uses an addition fact (EF01MA06); finding a missing brick by subtracting uses the facts of 'adição e subtração ... no cálculo mental ou escrito' (EF02MA05).",
+   "review": "author-math"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "EF01MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking and correcting worked sums and differences uses the addition facts (EF01MA06) and the addition and subtraction facts 'no cálculo ... escrito' (EF02MA05). No objective names checking as such.",
+   "review": "author-math"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "EF01MA21",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA23",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a bar graph is 'ler dados expressos em ... gráficos de colunas simples' (EF01MA21). Colouring a graph from counts prepares organising data in 'gráficos de colunas simples' (EF02MA23), which there follows a survey the class runs.",
+   "review": "author-math"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF01MA07: 'compor e decompor número de até duas ordens, por meio de diferentes adições, com o suporte de material manipulável', for understanding the decimal system; rods and cubes and expanded form (30 + 4) do this.",
+   "review": "author-math"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "EF03MA01",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The link between numerals and number words is named in the 3º ano: 'estabelecendo relações entre os registros numéricos e em língua materna' (EF03MA01, numbers to the thousands); words to 100 are the step before. They also serve the 'registros verbais e simbólicos' of EF01MA04.",
+   "review": "author-math"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "EF01MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01MA05: 'comparar números naturais de até duas ordens'. The picture-group sheets are EF01MA03 ('tem mais, tem menos ou tem a mesma quantidade'). Ordering by place value is asked in the 2º ano for numbers to the hundreds (EF02MA01).",
+   "review": "author-math"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "EF01MA10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Missing numbers and wrong numbers in the chart are 'os elementos ausentes em sequências recursivas de números naturais' (EF01MA10). The +1 / +10 puzzle pieces prepare building sequences 'a partir de um número qualquer, utilizando uma regularidade estabelecida' (EF02MA09).",
+   "review": "author-math"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names 1 more / 10 more as such. One step up or down is the unit of the sequences of EF02MA09 ('ordem crescente ou decrescente a partir de um número qualquer'), and adding or removing a ten supports the understanding of the decimal system in EF01MA07.",
+   "review": "author-math"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Showing one number as tens and ones, on a ten-frame and in other forms is composing and decomposing a two-digit number (EF01MA07). The tally and the number word are the 'registros verbais e simbólicos' of EF01MA04, here without a collection to count.",
+   "review": "author-math"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "EF01MA02",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting equal groups with a running total is counting with 'outros agrupamentos' (EF01MA02). The 2s, 5s and 10s are number sequences built with 'uma regularidade estabelecida' (EF02MA09, 2º ano), and they prepare multiplication by 2 and 5 as 'adição de parcelas iguais' (EF02MA07).",
+   "review": "author-math"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "EF03MA23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA23 (3º ano): 'ler horas em relógios digitais e em relógios analógicos e reconhecer a relação entre hora e minutos'. Setting the hands is reading in reverse, and the upper levels (quarter hours, five minutes) need the hour-minute relation; the o'clock and half-past sheets alone would only prepare it.",
+   "review": "author-math"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "EF01MA19",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01MA19: 'reconhecer e relacionar valores de moedas e cédulas do sistema monetário brasileiro'; this holds only if the Brazilian sheets show real and centavo coins (judged so). Adding up mixed coins prepares 'estabelecer a equivalência de valores entre moedas e cédulas' (EF02MA20).",
+   "review": "author-math"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "EF03MA04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child's own jumps are additions and subtractions shown as 'deslocamentos para a direita ou para a esquerda' on the line (EF03MA04, 3º ano). Jumping tens then ones is one of the 'diferentes procedimentos de cálculo mental e escrito' of EF03MA05, here without a problem to solve.",
+   "review": "author-math"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "34 + 20 and 56 - 4 use the basic facts 'no cálculo mental' (EF02MA05). The 3º ano asks for 'diferentes procedimentos de cálculo mental' to solve problems (EF03MA05).",
+   "review": "author-math"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "EF02MA04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA07",
+     "rel": "extends"
+    }
+   ],
+   "why": "The partners of 100 decompose a three-digit number 'por meio de diferentes adições' (EF02MA04, 2º ano). It goes beyond the two-digit numbers of EF01MA07 on the same line.",
+   "review": "author-math"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "EF01MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA02",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The BNCC places this in the 1º ano: composing two-digit numbers for 'a compreensão de características do sistema de numeração decimal' (EF01MA07) and counting with 'agrupamentos' (EF01MA02).",
+   "review": "author-math"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Moving by +1 and +10 from any square builds sequences 'a partir de um número qualquer, utilizando uma regularidade estabelecida' (EF02MA09). Reading the arrows as rules prepares describing a pattern 'por meio de palavras, símbolos ou desenhos' (EF02MA10).",
+   "review": "author-math"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "EF02MA08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade in PART 2 names odd and even. Two equal addends are the 'dobro' and 'metade' of EF02MA08, and odd / even are the two remainder classes of division by 2 that EF04MA12 has pupils find ('divisões por um determinado número resultam em restos iguais').",
+   "review": "author-math"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "EF03MA04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA04 (3º ano): 'estabelecer a relação entre números naturais e pontos da reta numérica'. The sheets teach this part on lines that do not start at 0; they do not use the line for facts.",
+   "review": "author-math"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "EF02MA15",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting by number of sides is comparing plane figures 'por meio de características comuns' (EF02MA15). The 3º ano classifies 'em relação a seus lados (quantidade, posições relativas e comprimento) e vértices' (EF03MA15).",
+   "review": "author-math"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The puzzles are practice in using the facts 'no cálculo mental ou escrito' (EF02MA05). The procedures for two-digit numbers are named in the 3º ano (EF03MA05), there for solving problems.",
+   "review": "author-math"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "EF02MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA06: 'resolver ... problemas de adição e de subtração, envolvendo números de até três ordens, com os significados de juntar, acrescentar, separar, retirar'. The 3º ano adds 'comparar e completar quantidades' (EF03MA06).",
+   "review": "author-math"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "EF02MA16",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA16: measure lengths with 'unidades de medida ... padronizadas (metro, centímetro e milímetro) e instrumentos adequados'. The 3º ano repeats it with estimation and 'diversos instrumentos' (EF03MA19).",
+   "review": "author-math"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "EF02MA16",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA16 is 'estimar, medir e comparar comprimentos' with standard units; measuring two objects and finding the difference does the 'medir e comparar' part. EF03MA19 continues the line.",
+   "review": "author-math"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "EF02MA04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA04: 'compor e decompor números naturais de até três ordens, com suporte de material manipulável'. Reading and writing numbers is named in the 3º ano up to the thousands (EF03MA01).",
+   "review": "author-math"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "EF02MA04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA01",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03MA02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Expanded form is decomposing a three-digit number 'por meio de diferentes adições' (EF02MA04). The value of a digit is the 'valor posicional' that EF02MA01 uses to compare and order, and that EF03MA02 identifies up to four digits.",
+   "review": "author-math"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on a chart from 301 builds number sequences 'a partir de um número qualquer' with a rule (EF02MA09). Seeing which digit stays supports the 'valor posicional' of EF02MA01.",
+   "review": "author-math"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting by 5s, 10s and 100s is building sequences with 'uma regularidade estabelecida' (EF02MA09). Finding the rule and the next elements of sequences made by 'adições ... sucessivas, por um mesmo número' is the 3º ano form (EF03MA10).",
+   "review": "author-math"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "EF02MA01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF02MA01: 'comparar e ordenar números naturais (até a ordem de centenas) pela compreensão de características do sistema de numeração decimal'.",
+   "review": "author-math"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names 100 more / 100 less as such. It is one step of the sequences of EF02MA09 and rests on composing three-digit numbers by additions (EF02MA04).",
+   "review": "author-math"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "EF03MA23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA23: 'ler horas em relógios digitais e em relógios analógicos e reconhecer a relação entre hora e minutos'; the BNCC places clock reading in the 3º ano.",
+   "review": "author-math"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "EF01MA18",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The weekday of a date is 'indicar o dia da semana de uma data, consultando calendários' (EF01MA18). Days between two dates is 'indicar a duração de intervalos de tempo entre duas datas ... utilizando calendário' (EF02MA18).",
+   "review": "author-math"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "EF02MA14",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The sort needs the child to 'reconhecer' the spatial figures (EF02MA14) and the plane figures (EF02MA15); it covers the recognising part of both, not the naming.",
+   "review": "author-math"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "EF02MA14",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA13",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The same demand appears in three years: relate 'cones, cilindros, esferas e blocos retangulares' to familiar objects (EF01MA13), the six solids with objects of the physical world (EF02MA14), and associate and name them (EF03MA13). The sheet's six solids are the list of EF02MA14.",
+   "review": "author-math"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "EF03MA14",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA14",
+     "rel": "extends"
+    }
+   ],
+   "why": "Counting faces, edges and vertices is 'descrever características de algumas figuras geométricas espaciais (prismas retos, pirâmides, cilindros, cones)' (EF03MA14); the link to nets ('planificações') in the same objective is not covered. It goes beyond recognising and naming the solids (EF02MA14).",
+   "review": "author-math"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "EF02MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups of blocks together is addition with 'números de até três ordens' and the meaning 'juntar', by a non-standard strategy (EF02MA06). It prepares the written procedures of EF03MA05.",
+   "review": "author-math"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "EF02MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Taking blocks away is subtraction with 'números de até três ordens' and the meaning 'retirar' (EF02MA06). It prepares the written procedures of EF03MA05.",
+   "review": "author-math"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "EF03MA05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The BNCC names the standard algorithm in the 3º ano: 'procedimentos de cálculo mental e escrito, inclusive os convencionais' (EF03MA05). Each column uses the basic facts 'no cálculo ... escrito' (EF02MA05).",
+   "review": "author-math"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "EF03MA24",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA25",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA20",
+     "rel": "extends"
+    }
+   ],
+   "why": "Enough money or not and how much more are 'comparação ... de valores monetários ... em situações de compra' (EF03MA24, 3º ano). Change is named in the 4º ano ('termos como troco', EF04MA25). The sheets go beyond the coin-and-note equivalences of EF02MA20.",
+   "review": "author-math"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "EF02MA22",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA26",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA23",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The compare questions are 'comparar informações ... em gráficos de colunas simples ou barras' (EF02MA22) and the put-together questions are problems 'cujos dados estão apresentados em ... gráficos de barras ou de colunas' (EF03MA26). Drawing the graph from given data prepares EF02MA23, where the class collects the data in a survey.",
+   "review": "author-math"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "EF02MA22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC of these years names only tables and column or bar graphs; a line plot is not named. Reading columns of X marks is close to reading a simple column graph, so it is counted as a step toward EF02MA22 and no more.",
+   "review": "author-math"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "EF03MA06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade names rounding. It is the tool for the 'cálculo ... aproximado' that EF03MA06 lists among the strategies for addition and subtraction problems.",
+   "review": "author-math"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "EF02MA17",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA17: 'estimar, medir e comparar ... massa, utilizando ... unidades de medida ... padronizadas (... grama e quilograma)'. The 3º ano continues with labels and milligrams (EF03MA20).",
+   "review": "author-math"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "EF02MA17",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF02MA17: measure 'capacidade' with 'litro, mililitro'. EF03MA20 continues the line in the 3º ano.",
+   "review": "author-math"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "EF03MA18",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA16",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA17",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF03MA18 (3º ano): 'escolher a unidade de medida e o instrumento mais apropriado para medições de comprimento, tempo e capacidade'; mass is not in its list, and the sheets do not choose instruments. Knowing which unit fits supports the measuring of EF02MA16 and EF02MA17. Inches and feet have no place in the Brazilian version.",
+   "review": "author-math"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "EF02MA07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF02MA07: multiplication 'por 2, 3, 4 e 5' with 'a ideia de adição de parcelas iguais', with picture support. The skill line gives no factors; judged by the year as groups of 2 to 5.",
+   "review": "author-math"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The BNCC names 'elementos apresentados em disposição retangular' in the 3º ano (EF03MA07). Reading an array row by row is 'adição de parcelas iguais' with picture support (EF02MA07). Factors are not given in the skill line; judged as 2 to 5 and 10.",
+   "review": "author-math"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "EF02MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA11",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting by 3s and 4s builds sequences with a rule (EF02MA09), and filling the gaps is 'os elementos ausentes em ... sequências recursivas de números naturais' (EF02MA11). It prepares multiplication by 3 and 4 (EF02MA07).",
+   "review": "author-math"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "EF02MA22",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA27",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC names picture graphs ('gráficos ... pictóricos') only in the 4º ano (EF04MA27); the 2º ano names tables and column or bar graphs (EF02MA22). A picture that stands for 2 uses doubling, a first use of multiplication by 2 (EF02MA07).",
+   "review": "author-math"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "EF03MA08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02MA08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sharing into bins and counting equal groups are the two meanings of division, 'repartição equitativa e de medida', named in the 3º ano (EF03MA08); the sheets are readiness, without division sentences. Sharing between 2 or 3 is the idea of 'metade' and 'terça parte' (EF02MA08); the skill line does not give the number of bins.",
+   "review": "author-math"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "EF02MA08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03MA09",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC has no fractions of shapes in the 2º ano: it names 'metade' and 'terça parte' in number problems (EF02MA08), 'metade, terça, quarta ... partes' as quotients (EF03MA09) and the unit fractions 1/2, 1/3, 1/4 only in the 4º ano (EF04MA09). Equal parts of a shape are the picture idea before all three.",
+   "review": "author-math"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "EF02MA08",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Half and a third of a set of pictures is EF02MA08: 'metade ... e terça parte, com o suporte de imagens'. The quarter belongs to EF03MA09 ('quarta parte' as the quotient of a division by 4).",
+   "review": "author-math"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "EF04MA19",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF04MA19: 'reconhecer simetria de reflexão em figuras'. The sheets do the recognising part; the BNCC places it in the 4º ano.",
+   "review": "author-math"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "EF04MA19",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF04MA19: recognise reflection symmetry 'e utilizá-la na construção de figuras ... com o uso de malhas quadriculadas'. Completing the other half on a grid is that construction; the BNCC places it in the 4º ano.",
+   "review": "author-math"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "EF02MA12",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA16",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF05MA14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A code such as B2 records a place with two references, a small case of 'registrar ... a localização ... considerando mais de um ponto de referência' (EF02MA12). Location on 'malhas quadriculadas' is named in the 4º ano (EF04MA16), and letter-number cells ('células em planilhas eletrônicas') in the 5º ano (EF05MA14).",
+   "review": "author-math"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "EF03MA16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child judges whether two figures coincide when one is laid over the other, the test of 'reconhecer figuras congruentes, usando sobreposição' (EF03MA16). The sheet rejects turned and flipped copies, which are still congruent, so it only prepares.",
+   "review": "author-math"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "EF03MA01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA01",
+     "rel": "extends"
+    }
+   ],
+   "why": "EF03MA01: 'comparar números naturais de até a ordem de unidade de milhar'. It carries the place-value comparison of EF02MA01 (hundreds) one order further.",
+   "review": "author-math"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "EF03MA06",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade names rounding. It is the tool for the 'cálculo ... aproximado' of EF03MA06 and for 'fazer estimativas do resultado' in EF04MA03.",
+   "review": "author-math"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "EF03MA05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA05: 'procedimentos de cálculo mental e escrito, inclusive os convencionais' for addition and subtraction; the column method with carrying and borrowing is the conventional one. The sheets practise the procedure, with or without a problem context.",
+   "review": "author-math"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "EF03MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding rounded numbers is the 'cálculo ... aproximado' that EF03MA06 lists among its strategies. Judging an exact answer against the estimate is 'fazer estimativas do resultado', named in the 4º ano (EF04MA03).",
+   "review": "author-math"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "EF03MA03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The square is practice in using addition facts 'para o cálculo mental ou escrito' (EF03MA03). Rows and columns are different additions with the same sum, the idea of EF03MA11 ('diferentes sentenças de adições ... que resultem na mesma soma'), there with two numbers and written by the child.",
+   "review": "author-math"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "EF04MA12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No habilidade names odd and even. Odd and even numbers are the two groups with equal remainders in division by 2, the regularity EF04MA12 has pupils find ('divisões por um determinado número resultam em restos iguais').",
+   "review": "author-math"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "EF03MA10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA10: sequences 'resultantes da realização de adições ou subtrações sucessivas, por um mesmo número, descrever uma regra de formação ... e determinar elementos faltantes ou seguintes'.",
+   "review": "author-math"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "EF03MA23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA23: 'ler horas em ... relógios analógicos e reconhecer a relação entre hora e minutos'.",
+   "review": "author-math"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF03MA07: multiplication with the meanings 'adição de parcelas iguais e elementos apresentados em disposição retangular', but only 'por 2, 3, 4, 5 e 10'. Products with 6 to 9 belong to the 4º ano objective without that limit (EF04MA06).",
+   "review": "author-math"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal jumps are 'adição de parcelas iguais' (EF03MA07) and form a sequence made by 'adições ... sucessivas, por um mesmo número' (EF03MA10). 'Sequências numéricas compostas por múltiplos de um número natural' are named in the 4º ano (EF04MA11).",
+   "review": "author-math"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Turning the array works with the 'disposição retangular' meaning of EF03MA07. The property as a tool is named in the 4º ano: 'utilizar as propriedades das operações para desenvolver estratégias de cálculo' (EF04MA05).",
+   "review": "author-math"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "EF03MA03",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA03: 'construir e utilizar fatos básicos da adição e da multiplicação para o cálculo mental ou escrito'. The wording gives no range for the facts; the problems of the 3º ano go only to 2, 3, 4, 5 and 10 (EF03MA07), so the tables of 6 to 9 run ahead of them.",
+   "review": "author-math"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "EF03MA27",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA28",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading scaled bar graphs is 'ler, interpretar e comparar dados apresentados em ... gráficos de barras ou de colunas' (EF03MA27). Building one prepares EF03MA28, where the data come from a class survey. Picture graphs are named in the 4º ano (EF04MA27).",
+   "review": "author-math"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "EF04MA23",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA24",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Temperature appears only in the 4º ano: 'reconhecer temperatura como grandeza e o grau Celsius como unidade' (EF04MA23) and recording daily temperatures (EF04MA24). Reading the scale is the step before both; the Brazilian sheets must be in degrees Celsius.",
+   "review": "author-math"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "EF03MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA08: division 'de um número natural por outro (até 10) ... com os significados de repartição equitativa'.",
+   "review": "author-math"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "EF03MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA08 names the second meaning of division, 'de medida': how many equal groups (hops) fit in N.",
+   "review": "author-math"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "EF03MA03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA13",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04MA15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The four related facts use the 'fatos básicos ... da multiplicação' (EF03MA03). The inverse relation between multiplication and division (EF04MA13) and finding 'o número desconhecido que torna verdadeira uma igualdade' (EF04MA15) are 4º ano habilidades.",
+   "review": "author-math"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Multiplication problems with equal groups (EF03MA07) and division problems with the meanings 'repartição equitativa e de medida' (EF03MA08). EF03MA07 limits the factors to 2, 3, 4, 5 and 10.",
+   "review": "author-math"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "EF03MA10",
+     "rel": "extends"
+    },
+    {
+     "id": "EF04MA13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding and stating the rule of a machine goes beyond 'descrever uma regra de formação da sequência' (EF03MA10): the rule links pairs, not neighbours in a sequence. Running the rule backwards uses the inverse relations of EF04MA13. The skill line does not say which operations the rules use.",
+   "review": "author-math"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "EF03MA11",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA15",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF03MA11: 'compreender a ideia de igualdade' for different additions or subtractions with the same result. Finding the missing number is 'determinar o número desconhecido que torna verdadeira uma igualdade' (EF04MA15, 4º ano), here with addition and subtraction. That the equality holds when the same number is added to both sides is EF04MA14.",
+   "review": "author-math"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "EF03MA22",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "From a start time and a duration to the end time is the content of EF03MA22 ('horários de início e término ... e sua duração'). Crossing the hour needs 'a relação entre hora e minutos' (EF03MA23).",
+   "review": "author-math"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "EF03MA22",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF03MA22: 'ler e registrar medidas e intervalos de tempo, utilizando relógios ... para informar os horários de início e término ... e sua duração'. The 4º ano repeats it with seconds (EF04MA22).",
+   "review": "author-math"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "EF03MA23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording does not name the 24-hour clock, but 'ler horas em relógios digitais e em relógios analógicos' needs it in Brazil, where digital clocks run from 0 to 23 h; judged as part of EF03MA23.",
+   "review": "author-math"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "EF04MA21",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA21",
+     "rel": "extends"
+    }
+   ],
+   "why": "Measuring area on a grid 'pela contagem dos quadradinhos' is a 4º ano habilidade (EF04MA21). Rows times columns is the 'disposição retangular' of EF03MA07 (limited to 2, 3, 4, 5 and 10). The 3º ano only compares areas 'visualmente ou por superposição' (EF03MA21); the sheets go beyond it.",
+   "review": "author-math"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "EF04MA21",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA21",
+     "rel": "extends"
+    }
+   ],
+   "why": "EF04MA21 says it in its last clause: 'reconhecendo que duas figuras com formatos diferentes podem ter a mesma medida de área'. It goes beyond the visual comparison of areas of EF03MA21.",
+   "review": "author-math"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "EF04MA20",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA16",
+     "rel": "extends"
+    }
+   ],
+   "why": "The word perimeter appears in the 4º ano: 'medir e estimar comprimentos (incluindo perímetros)' (EF04MA20). The 2º ano has the outline as a length to measure ('incluindo contorno', EF02MA16); adding the sides goes beyond it.",
+   "review": "author-math"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "EF05MA20",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF05MA20 names this content: 'figuras de perímetros iguais podem ter áreas diferentes e ... figuras que têm a mesma área podem ter perímetros diferentes'. The BNCC places it in the 5º ano, reached through investigation; the sheet leads to the same finding on paper.",
+   "review": "author-math"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "EF03MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA08: division by a number up to 10 'com resto zero e com resto diferente de zero'.",
+   "review": "author-math"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "EF04MA18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF04MA18: 'reconhecer ângulos retos e não retos em figuras poligonais' (4º ano). The objective adds 'com o uso de dobraduras, esquadros ou softwares'; the sheet teaches the recognition, and the folded corner or set square is for the teacher to add.",
+   "review": "author-math"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "EF03MA15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA15: 'classificar e comparar figuras planas (triângulo, quadrado, retângulo, trapézio e paralelogramo) em relação a seus lados (quantidade, posições relativas e comprimento) e vértices'. The rhombus is not in its list.",
+   "review": "author-math"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "EF04MA19",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF04MA19: 'reconhecer simetria de reflexão em figuras'; finding and counting the lines is the recognising part. The BNCC places it in the 4º ano.",
+   "review": "author-math"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "EF04MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming each equal part as 1/2, 1/3, 1/4 is 'reconhecer as frações unitárias mais usuais ... como unidades ... menores do que uma unidade' (EF04MA09, 4º ano), here on shapes and not on the number line the objective names as a resource. The 3º ano has only the words 'metade, terça, quarta ... partes' as quotients (EF03MA09).",
+   "review": "author-math"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "EF05MA03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA09",
+     "rel": "extends"
+    }
+   ],
+   "why": "Naming and shading a/b is 'identificar e representar frações (menores ... que a unidade), associando-as ... à ideia de parte de um todo' (EF05MA03, 5º ano); fractions above one and the division meaning are not covered. It goes beyond the unit fractions of EF04MA09.",
+   "review": "author-math"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "EF04MA09",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Repeating the piece 1/b until the whole is rebuilt treats the unit fraction as a unit that measures the whole: 'frações unitárias ... como unidades de medida menores do que uma unidade' (EF04MA09, 4º ano).",
+   "review": "author-math"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "EF04MA09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF05MA03",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF04MA09 recognises unit fractions 'utilizando a reta numérica como recurso' (4º ano); placing other fractions below 1 on the line is the part of EF05MA03 that represents fractions 'utilizando a reta numérica' (5º ano).",
+   "review": "author-math"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "EF05MA05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC compares fractions only in the 5º ano: 'comparar e ordenar números racionais positivos (representações fracionária e decimal)' (EF05MA05). Same numerator or same denominator is the first step.",
+   "review": "author-math"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "EF05MA04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF05MA04: 'identificar frações equivalentes'. The BNCC places it in the 5º ano; the sheets do it with pictures of the same amount.",
+   "review": "author-math"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "EF03MA09",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF03MA09: 'associar o quociente de uma divisão com resto zero ... por 2, 3, 4, 5 e 10 às ideias de metade, terça, quarta, quinta e décima partes'; a third of 12 is 12 divided by 3.",
+   "review": "author-math"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "EF03MA19",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA28",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Measuring to the half unit is 'medir ... comprimentos, utilizando unidades ... padronizadas (metro, centímetro e milímetro)' (EF03MA19): half a centimetre is 5 mm. The line plot is not named by the BNCC; showing the data on it is counted as a step toward the graphs of EF03MA28.",
+   "review": "author-math"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "EF05MA21",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF05MA21: 'medir volumes por meio de empilhamento de cubos, utilizando, preferencialmente, objetos concretos' (5º ano). The sheets do it on drawings of stacked cubes.",
+   "review": "author-math"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "EI03CG05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lines, zigzags, loops and paths are fine-motor practice: 'Coordenar suas habilidades manuais'. No Educação Infantil objective names pre-writing strokes themselves.",
+   "review": "author-rest"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "EI03EF01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03TS02",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03EO02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EI03EF01 asks the child to 'expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita..., de fotos, desenhos'; the self-portrait is free drawing (EI03TS02). 'Things I can do' is a step towards 'reconhecendo suas conquistas e limitações', which is an attitude, not a page.",
+   "review": "author-rest"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "EI03EF02",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01LP13",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF12LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EI03EF02 asks the child to invent, 'criando rimas'; hearing whether two words rhyme is the step before. It also readies the 1º ano comparison of 'sons de sílabas mediais e finais' and the identification of rimas in cantigas and parlendas (EF12LP07).",
+   "review": "author-rest"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Classificar objetos e figuras de acordo com suas semelhanças e diferenças' is exactly sorting pictures into groups.",
+   "review": "author-rest"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "EF01LP11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling b / d / p / q apart is the 'diferenciar ... letras em formato imprensa' part of EF01LP11 (print only, no cursive). The Educação Infantil has no letter objective, so the skill sits in the 1º ano.",
+   "review": "author-rest"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "EI03CG05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing is manual coordination (EI03CG05). It readies 'Conhecer, diferenciar e relacionar letras ... maiúsculas e minúsculas' of the 1º ano; the BNCC has no objective for forming print letters as such.",
+   "review": "author-rest"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "EF01LP06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting the syllables of a pictured word is 'Segmentar oralmente palavras em sílabas', which the BNCC places in the 1º ano. Sorting by syllable count is the idea before 'Identificar o número de sílabas ... classificando-as em monossílabas, dissílabas...' (3º ano).",
+   "review": "author-rest"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "EF01LP11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching capital and small letters is the 'relacionar letras ... maiúsculas e minúsculas' part of EF01LP11 (print only).",
+   "review": "author-rest"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "EF01LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03EF02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Letter of the week links a sound to its letter ('Identificar fonemas e sua representação por letras'); sorting by the first sound is comparing words by 'sons de sílabas iniciais'. Hearing a shared first sound is the step before 'criando ... aliterações' of the Educação Infantil.",
+   "review": "author-rest"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the one that does not belong is classifying figures 'de acordo com suas semelhanças e diferenças'.",
+   "review": "author-rest"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01LP15 asks to 'separar palavras pelo critério de oposição de significado (antonímia)'; matching opposite pictures is the idea before it is done with words. No Educação Infantil objective names opposites.",
+   "review": "author-rest"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "EF01LP10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Filling the missing letters and joining dots a to t uses 'a ordem das letras' of 'recitá-lo na ordem das letras'; the worksheet covers the order, not the oral reciting.",
+   "review": "author-rest"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "EI03EF04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01LP26",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering story pictures builds the 'estrutura da história' the child needs to 'recontar histórias ouvidas' (an oral, collective objective, so prepares) and the 'enredo' of EF01LP26.",
+   "review": "author-rest"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "EF01LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing where a sound sits and which vowel is in the middle is 'Identificar fonemas e sua representação por letras'; ending and middle sounds are the 'sons de sílabas mediais e finais' of EF01LP13 (the BNCC words it by syllable, the worksheet by single sound). Both are 1º ano objectives.",
+   "review": "author-rest"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "EF02LP04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective asks to tell vowels from consonants by itself; it is the knowledge needed for 'identificando que existem vogais em todas as sílabas' (2º ano).",
+   "review": "author-rest"
+  },
+  "K:bilingual-cards": {
+   "none": "No objective for a second language in the Educação Infantil or the anos iniciais in this registry.",
+   "why": "The objectives given cover Língua Portuguesa only; bilingual word cards have no counterpart.",
+   "review": "author-rest"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "EF01LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One sound per box is 'Identificar fonemas e sua representação por letras'; two letters sharing a box is relating 'elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita'. Both belong to the 1º ano.",
+   "review": "author-rest"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "EF01LP02",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building a word from letters is writing 'de forma alfabética – usando letras/grafemas que representem fonemas' (1º ano). It is a first step to 'Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV' (2º ano); in Portuguese the first words are mostly CV-CV, not CVC.",
+   "review": "author-rest"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "EF12LP01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03EF03",
+     "rel": "extends"
+    }
+   ],
+   "why": "Reading a word to find its picture is 'Ler palavras novas com precisão na decodificação' or, for frequent words, 'ler globalmente'. It goes beyond the Educação Infantil's 'tentando identificar palavras conhecidas'.",
+   "review": "author-rest"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "EF04LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC has no objective for singular and plural alone; number first appears inside 'a concordância entre artigo, substantivo e adjetivo' (4º ano), for which one-and-many is the idea before.",
+   "review": "author-rest"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "EF01LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing a sound at the start of a word and linking it to its spelling is 'Identificar fonemas e sua representação'. In Portuguese the digraph is ch (with lh, nh), which the BNCC places in the 3º ano: 'palavras com os dígrafos lh, nh, ch'.",
+   "review": "author-rest"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "EF12LP01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF12LP01: 'no caso de palavras de uso frequente, ler globalmente, por memorização' is sight-word reading; the BNCC places it in the 1º e 2º anos.",
+   "review": "author-rest"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "EI03CG05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP12",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF12LP03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The skill line names 'left to right' (EF01LP01) and 'spaces between words' (EF01LP12: 'separação das palavras, na escrita, por espaços em branco'); tracing is manual coordination. Copying words and one sentence is the step before 'Copiar textos breves'.",
+   "review": "author-rest"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "EF04LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "In Portuguese this is o / a, um / uma. The only objective that names the article is 'concordância entre artigo, substantivo e adjetivo' (4º ano); choosing the article for a noun is the idea before it.",
+   "review": "author-rest"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "EF01LP13",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF12LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting and matching rhyming words is comparing words by 'sons de sílabas mediais e finais'. EF12LP07 asks to 'Identificar e (re)produzir ... rimas' inside cantigas, quadrinhas and parlendas; word-level rhyme is the step before those texts.",
+   "review": "author-rest"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "EF01LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP08",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sound boxes are 'Identificar fonemas e sua representação por letras' and relating 'fonemas ... com sua representação escrita'; segmenting and blending show 'o sistema de escrita alfabética como representação dos sons da fala'.",
+   "review": "author-rest"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "EF03LP03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing, writing and reading words with a letter team is 'Ler e escrever corretamente palavras com os dígrafos lh, nh, ch' (the Portuguese digraphs), which the BNCC places in the 3º ano, two years above these worksheets. It is also relating 'partes de palavras' to their written form (1º ano).",
+   "review": "author-rest"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "EF01LP02",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Escrever ... palavras ... de forma alfabética – usando letras/grafemas que representem fonemas' is spelling a pictured word.",
+   "review": "author-rest"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "EF01LP06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP02",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Clapping is 'Segmentar oralmente palavras em sílabas'; splitting written words, the missing syllable and the scramble are the 'Segmentar palavras em sílabas' part of EF02LP02 (it does not create new words by swapping syllables). '2 or 3 syllables' is the step before classifying 'monossílabas, dissílabas, trissílabas'.",
+   "review": "author-rest"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "EF02LP04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The clause 'identificando que existem vogais em todas as sílabas' of EF02LP04 is this skill word for word; the BNCC places it in the 2º ano.",
+   "review": "author-rest"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "EF12LP01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading syllabified words is 'Ler palavras novas com precisão na decodificação'; words with blends are the CCV syllables of 'palavras com sílabas CV, V, CVC, CCV' (reading side); joining syllables relates 'sílabas ... com sua representação escrita'.",
+   "review": "author-rest"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "EF01LP10",
+     "rel": "extends"
+    },
+    {
+     "id": "EF04LP03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01LP10 stops at reciting the alphabet 'na ordem das letras'; ordering words by first and second letter goes beyond it and is the skill needed to 'Localizar palavras no dicionário' (4º ano).",
+   "review": "author-rest"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'separar palavras pelo critério de oposição de significado (antonímia)'.",
+   "review": "author-rest"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "EF04LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns by o / a, um / uma is the gender knowledge behind 'concordância entre artigo, substantivo e adjetivo' (4º ano); no earlier objective names the article.",
+   "review": "author-rest"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "EF12LP17",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15LP03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The sentences are 'enunciados de tarefas escolares' the child must read and understand; doing exactly what they say means to 'Localizar informações explícitas' (here in a sentence, the 1º ano size of text). One- and two-step instructions come before the 'textos injuntivos instrucionais' of the 3º ano.",
+   "review": "author-rest"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "EF15LP18",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF12LP01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching a sentence to its picture is 'Relacionar texto com ilustrações'; choosing the word for the blank requires reading the words of the bank accurately (EF12LP01).",
+   "review": "author-rest"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Agrupar palavras pelo critério de aproximação de significado (sinonímia)'.",
+   "review": "author-rest"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "EF01LP12",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP01",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02LP09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rebuilding a sentence word by word works on 'a separação das palavras, na escrita, por espaços em branco'. The capital letter and end mark are those of EF02LP01 and EF02LP09, which ask the child to use them in a text of their own; here the sentence is given.",
+   "review": "author-rest"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "EF15LP03",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF15LP10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names the question words (quem, o que, onde). Knowing what each asks for is the step before locating 'informações explícitas' in a text and before 'formulando perguntas pertinentes' (oral, so prepares at most).",
+   "review": "author-rest"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "EF01LP26",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15LP18",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15LP19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering what happens is identifying the 'enredo' among the 'elementos de uma narrativa'; ordering sentences to pictures is 'Relacionar texto com ilustrações'. It readies 'Recontar oralmente, com e sem apoio de imagem' (oral).",
+   "review": "author-rest"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "EF03LP08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03LP09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC places 'substantivos e verbos' and 'adjetivos' in the 3º ano and asks for them 'em textos' with their function; sorting single words is the step before.",
+   "review": "author-rest"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "EF35LP14",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF35LP06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Personal pronouns appear only in the 3º ao 5º ano block, as 'recurso coesivo anafórico' and as 'substituições ... pronominais' in a text; replacing one name in one sentence is the idea before.",
+   "review": "author-rest"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "extends"
+    },
+    {
+     "id": "EF02LP10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering near-synonyms by strength goes beyond grouping by 'aproximação de significado' and is the step before 'Identificar sinônimos de palavras de texto lido, determinando a diferença de sentido entre eles'.",
+   "review": "author-rest"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "EF03LP10",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF05LP08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the word built from a root is the idea before 'prefixos e sufixos produtivos na formação de palavras derivadas' (3º ano) and 'Diferenciar palavras primitivas, derivadas e compostas' (5º ano).",
+   "review": "author-rest"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "EF12LP05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15LP05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP13",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP25",
+     "rel": "extends"
+    }
+   ],
+   "why": "EF12LP05 names 'tiras e histórias em quadrinhos' and '(re)contagens de histórias'; the story map is planning 'o texto que será produzido'; the postcard is among the 'bilhetes e cartas' of EF02LP13. EF01LP25 has 'o professor como escriba' and the 'personagens, enredo, tempo e espaço' of the story map; the child writing alone goes beyond it.",
+   "review": "author-rest"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "EF03LP03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding and counting ch (lh, nh) in sentences is recognition only, the step before 'Ler e escrever corretamente palavras com os dígrafos lh, nh, ch' (3º ano).",
+   "review": "author-rest"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "EF02LP09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Usar adequadamente ponto final, ponto de interrogação...' and 'letras maiúsculas em início de frases ... ponto final, ponto de interrogação' of EF02LP01. The exclamation mark is not in the skill line.",
+   "review": "author-rest"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "EF02LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Escrever palavras, frases, textos curtos nas formas imprensa e cursiva' (the cursive, word-level part) and 'Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas'.",
+   "review": "author-rest"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "EF02LP26",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF35LP04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the word a story needs shows the child can 'Ler e compreender, com certa autonomia' a short narrative. Using the context to decide is the step before 'Inferir informações implícitas nos textos lidos' (3º ao 5º ano).",
+   "review": "author-rest"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "EF15LP10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names the interrogative words. Choosing the word that asks for a given answer is groundwork for 'formulando perguntas pertinentes', an oral objective, so prepares at most.",
+   "review": "author-rest"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "EF15LP03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP26",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP26",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF35LP04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Answering with details from the text is 'Localizar informações explícitas em textos' and reading a story 'com certa autonomia'; who / where / when are the 'personagens ... tempo e espaço' of EF01LP26. 'Why' questions start the inference of EF35LP04.",
+   "review": "author-rest"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "EF02LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP08",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child writes 'frases, textos curtos' (EF02LP07), must 'Segmentar corretamente as palavras ao escrever frases' and use 'grafia correta de palavras conhecidas', capitals and end marks 'ao produzir o texto' (EF02LP01). The word bank and starters are support the wording allows.",
+   "review": "author-rest"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "EF03LP08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03LP09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The objectives belong to the 3º ano and ask for nouns, verbs and adjectives 'em textos' with their function ('agente, ação', 'atribuição de propriedades'); sorting word lists is the step before.",
+   "review": "author-rest"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "EF04LP07",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF35LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective asks to form plurals; they are needed for 'concordância entre artigo, substantivo e adjetivo' (4º ano) and 'regras básicas de concordância nominal' when writing (3º ao 5º ano).",
+   "review": "author-rest"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "EF02LP03",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The English patterns have no counterpart; the Portuguese position-dependent rules are the 'correspondências regulares contextuais' (c e q; final e / o) of the 2º ano and 'c/qu; g/gu; r/rr; s/ss' of the 3º ano. This holds only if the Portuguese edition drills those pairs; the skill line does not say.",
+   "review": "author-rest"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF35LP22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching words of the same meaning is grouping by 'sinonímia' and the 'Identificar sinônimos ..., determinando a diferença de sentido entre eles' part of EF02LP10 (word lists and sentences, not a text read). Synonyms for 'said' (disse) lead to the 'verbos de enunciação' of EF35LP22.",
+   "review": "author-rest"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "EF01LP15",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF35LP22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill as 2:synonyms: grouping by 'sinonímia', 'Identificar sinônimos ..., determinando a diferença de sentido entre eles', and a first look at the 'verbos de enunciação'.",
+   "review": "author-rest"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "EF05LP05",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03LP08",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04LP06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC places verb tense in the 5º ano ('a expressão de presente, passado e futuro em tempos verbais do modo indicativo'); these sheets take present and past only. Finding the verb comes before 'Identificar e diferenciar ... substantivos e verbos' (3º ano); choosing the form for a sentence comes before 'concordância verbal' (4º ano).",
+   "review": "author-rest"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "EF35LP06",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF35LP14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Linking a pronoun to its name is the sentence-level form of 'identificando substituições ... pronominais (... pessoais, possessivos, demonstrativos)' and of using pronouns 'como recurso coesivo anafórico'; both sit in the 3º ao 5º ano and work on whole texts.",
+   "review": "author-rest"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "EF01LP11",
+     "rel": "extends"
+    },
+    {
+     "id": "EF02LP07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EF01LP11 asks to relate 'letras em formato imprensa e cursiva'; reading whole cursive words goes beyond letters. Reading cursive comes before writing 'palavras, frases ... nas formas imprensa e cursiva'.",
+   "review": "author-rest"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "EF05LP08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only objective that names compounds is 'Diferenciar palavras primitivas, derivadas e compostas' (5º ano); building and splitting them (guarda-chuva, girassol) is the step before.",
+   "review": "author-rest"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "EF03LP10",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF05LP08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the shared root is the step before recognising 'prefixos e sufixos produtivos na formação de palavras derivadas' (3º ano) and telling 'palavras primitivas, derivadas' apart (5º ano).",
+   "review": "author-rest"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "EF02LP10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "EF02LP10: 'formar antônimos ... pelo acréscimo do prefixo de negação in-/im-' (the words are not taken from a text read). Other prefixes (des-, re-, pre-) are the 'prefixos ... produtivos ..., utilizando-os para compreender palavras e para formar novas palavras' of the 3º ano.",
+   "review": "author-rest"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "EF12LP05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP17",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF35LP25",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A written retelling is the '(re)contagens de histórias' of EF12LP05. The time-order starters are the 'expressões que marquem a passagem do tempo' of EF02LP17, but that objective names 'relatos de experiências pessoais', not a picture story; and the 'sequências de eventos ... e marcadores de tempo' of EF35LP25.",
+   "review": "author-rest"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "EF35LP04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Combining clues to reach an answer that is not written is the step before 'Inferir informações implícitas'. The clues are animal 'características' of EF02CI04, which the child recognises but does not describe. The skill line does not say which clues, so this is judged by the year.",
+   "review": "author-rest"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "EF02LP22",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03CI04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A fact file is a small 'verbete de enciclopédia infantil' (EF02LP22). Its headings are the BNCC's own list: 'o que comem, como se reproduzem, como se deslocam' (EF03CI04) and 'local onde se desenvolvem' (EF02CI04).",
+   "review": "author-rest"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "EF02CI04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03CI06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting facts as same or different is working with the 'características de plantas e animais' of EF02CI04. Comparing two animals is the step before 'Comparar alguns animais e organizar grupos com base em características externas comuns' (3º ano).",
+   "review": "author-rest"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "EF02LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF12LP03",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Escrever palavras, frases ... nas formas imprensa e cursiva' (the BNCC places it in the 2º ano) and copying while keeping 'espaçamento entre as palavras, escrita das palavras e pontuação' (a sentence, the short end of 'textos breves').",
+   "review": "author-rest"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "EF02LP10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01LP15",
+     "rel": "extends"
+    }
+   ],
+   "why": "Telling close words apart is 'determinando a diferença de sentido entre eles' of EF02LP10 (not from a text read). Grouping verbs into fields goes beyond the 1º ano's grouping 'pelo critério de aproximação de significado'.",
+   "review": "author-rest"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "EF03LP10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Reconhecer prefixos e sufixos produtivos na formação de palavras derivadas de substantivos, de adjetivos e de verbos, utilizando-os para compreender palavras e para formar novas palavras' (padeiro, corredor).",
+   "review": "author-rest"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "EF03LP10",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF05LP08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the family form uses suffixes 'para compreender palavras e para formar novas palavras'. It comes before 'Diferenciar palavras primitivas, derivadas' (5º ano).",
+   "review": "author-rest"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03EO05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming and labelling is the 'Localizar, nomear ... partes do corpo humano' part of EF01CI02 (1º ano); the functions are not covered. Knowing one's body is a step to 'valorização das características de seu corpo'.",
+   "review": "author-rest"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "As a task it is classifying figures 'de acordo com suas semelhanças e diferenças'. No objective of the 1º to 3º ano asks to tell living from non-living things.",
+   "review": "author-rest"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02CI06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting fruits and vegetables is classification (EI03ET05). Which part of the plant we eat is a step to 'Identificar as principais partes de uma planta (raiz, caule, folhas, flores e frutos)' (2º ano).",
+   "review": "author-rest"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pets, farm and wild is classification of figures. Where animals live is a step to relating animals 'ao ambiente em que eles vivem' (2º ano).",
+   "review": "author-rest"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "EF02CI04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03CI05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching young to parents is the idea before the 'fase da vida' named in EF02CI04 and before describing 'as alterações que ocorrem desde o nascimento em animais' (3º ano). No Educação Infantil objective fits.",
+   "review": "author-rest"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "EF01GE11",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01GE05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting clothes by season is to 'Associar mudanças de vestuário ... ao longo do ano, decorrentes da variação de temperatura e umidade'. The cycle of the year is a step to 'ritmos naturais ... em diferentes escalas ... temporais'. The BNCC never names the four seasons in these years.",
+   "review": "author-rest"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "EF01CI05",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03CI08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Day sky and night sky is the idea before naming 'os períodos diários (manhã, tarde, noite)' and before recording 'os períodos diários (dia e/ou noite) em que o Sol, demais estrelas, Lua e planetas estão visíveis no céu' (3º ano, by observation).",
+   "review": "author-rest"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "EI03ET04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01GE10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A week of weather is 'Registrar observações ... usando múltiplas linguagens' if the child fills it from what they see; hot and cold things compare objects 'observando suas propriedades'. Weather words come before describing 'ritmos da natureza (chuva, vento, calor etc.)'.",
+   "review": "author-rest"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting natural from made is classification of figures; it is the idea before 'discutindo sua origem' of materials in EF01CI01.",
+   "review": "author-rest"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which body part serves each sense is a first step to 'partes do corpo humano e explicar suas funções' (1º ano). No Educação Infantil objective names the senses.",
+   "review": "author-rest"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing a bin is classifying objects by likeness. It comes before the 1º ano's 'os modos como são descartados e como podem ser usados de forma mais consciente'.",
+   "review": "author-rest"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "EF02CI05",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The content is the same as 'a importância da água e da luz para a manutenção da vida de plantas', but that 2º ano objective asks the child to investigate; a pre-school picture page is the step before.",
+   "review": "author-rest"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF05CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting what floats from what sinks compares objects 'observando suas propriedades' and classifies them. The only objective naming the property behind it is 'densidade' in the 5º ano.",
+   "review": "author-rest"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "EF03CI06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Comparar alguns animais e organizar grupos com base em características externas comuns (presença de penas, pelos, escamas...)' is this skill; the BNCC places it in the 3º ano, two years above the worksheets.",
+   "review": "author-rest"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "EF02CI04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03CI04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Where animals live is relating them 'ao ambiente em que eles vivem' (2º ano); what they eat is 'características sobre o modo de vida (o que comem...)' (3º ano).",
+   "review": "author-rest"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "EF03CI05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering the stages of chicken, butterfly and frog shows 'as alterações que ocorrem desde o nascimento em animais de diferentes meios terrestres ou aquáticos' (3º ano; ordering pictures, not describing). The plant cycle and 'fase da vida' connect to EF02CI04.",
+   "review": "author-rest"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "EF05CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Heavier does not mean it sinks' is the idea before 'propriedades físicas dos materiais – como densidade' (5º ano). No objective of the 1º to 3º ano names floating and sinking.",
+   "review": "author-rest"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Localizar, nomear e representar graficamente ... partes do corpo humano'; labelling covers locating and naming, not the functions.",
+   "review": "author-rest"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the body part for each sense is the 'explicar suas funções' part of EF01CI02 for eyes, ears, nose, tongue and skin.",
+   "review": "author-rest"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "EF01GE10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Weather symbols and words give the vocabulary to 'Descrever características de seus lugares de vivência relacionadas aos ritmos da natureza (chuva, vento, calor etc.)'; the worksheet reads a forecast, it does not describe the child's own place.",
+   "review": "author-rest"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "EF02CI01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Identificar de que materiais (metais, madeira, vidro etc.) são feitos os objetos' (2º ano) is the skill. EF01CI01 asks to compare the materials' characteristics and discuss 'os modos como são descartados'; naming the material and what is recycled is the step before.",
+   "review": "author-rest"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "EF02CI06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Identificar as principais partes de uma planta (raiz, caule, folhas, flores e frutos) e a função desempenhada por cada uma delas' (2º ano); the second half, on relations with the environment, is not covered.",
+   "review": "author-rest"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "EF05CI12",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03CI07",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Moon phases in order come before 'Concluir sobre a periodicidade das fases da Lua' (5º ano, from two months of observation). Earth facts come before 'Identificar características da Terra (como seu formato esférico, a presença de água, solo etc.)' (3º ano).",
+   "review": "author-rest"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "EF02CI01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping things by material is 'Identificar de que materiais (metais, madeira, vidro etc.) são feitos os objetos'. Doing it for recycling touches 'os modos como são descartados' of EF01CI01, which asks for comparison and discussion.",
+   "review": "author-rest"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "EF02CI06",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'as principais partes de uma planta (raiz, caule, folhas, flores e frutos) e a função desempenhada por cada uma delas'; which part we eat applies it.",
+   "review": "author-rest"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "EF03CI05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The butterfly cycle and young-to-adult matching show 'as alterações que ocorrem desde o nascimento em animais' (3º ano). The 2º ano names only 'fase da vida' among the characteristics to describe.",
+   "review": "author-rest"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "EF05CI12",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04CI11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming the phases comes before concluding on 'a periodicidade das fases da Lua' (5º ano) and before linking 'os movimentos cíclicos da Lua e da Terra a períodos de tempo regulares' (4º ano).",
+   "review": "author-rest"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "EF05CI11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC explains the sky by the Earth's turning only in the 5º ano: 'Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra'. Day and night from the turning Earth is the first form of that idea.",
+   "review": "author-rest"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "EF02CI04",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Descrever características de plantas e animais ... e relacioná-las ao ambiente em que eles vivem': a body feature that helps an animal live in its habitat is this relation.",
+   "review": "author-rest"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "EF05CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The clay boat shows that floating is not about the material alone, an idea before 'propriedades físicas dos materiais – como densidade' (5º ano). Nothing in the 1º to 3º ano names it.",
+   "review": "author-rest"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "EF05CI02",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04CI03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The BNCC places 'o ciclo hidrológico' in the 5º ano, where the child must explain it from 'as mudanças de estado físico da água' (named in the 4º ano). Naming the four stages is the step before both.",
+   "review": "author-rest"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "EF02CI06",
+     "rel": "extends"
+    }
+   ],
+   "why": "EF02CI06 stops at the main parts of a plant, 'flores' being one of them; naming the parts inside a flower and what each does goes beyond it. No objective of the 1º to 5º ano asks for flower parts.",
+   "review": "author-rest"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "EF03CI05",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Descrever e comunicar as alterações que ocorrem desde o nascimento em animais de diferentes meios terrestres ou aquáticos': butterfly and frog are one of each, compared stage by stage.",
+   "review": "author-rest"
+  },
+  "3:planets": {
+   "none": "No objective of the 1º to 5º ano asks for the order or the kinds of planets.",
+   "why": "EF03CI08 mentions planets only as bodies 'visíveis no céu' by day or night; ordering and sorting the planets is a different content, so no row.",
+   "review": "author-rest"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "EF02LP22",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03LP26",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF05CI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recording a test and its conclusion is a 'pequeno relato de experimento' (EF02LP22). The given sheet shows the form of a 'relatório de observação' ('passos ..., tabelas, ... resumo dos resultados') before the child reproduces it alone. The content, sink or float, leads to 'densidade' (5º ano). No Ciências objective names the fair test itself.",
+   "review": "author-rest"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "EF02GE09",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01GE09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a side view to the view from above is the idea before identifying objects 'em imagens aéreas e mapas (visão vertical) e fotografias (visão oblíqua)' (2º ano) and before 'mapas simples' (1º ano).",
+   "review": "author-rest"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "EI03ET06",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01HI02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Family words on a tree give the names needed to 'Relatar fatos importantes sobre ... a história dos seus familiares' (oral) and, in the 1º ano, to see 'a relação entre as suas histórias e as histórias de sua família'.",
+   "review": "author-rest"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02GE03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Land, water and air is classification of figures. It comes before 'Comparar diferentes meios de transporte ..., indicando o seu papel na conexão entre lugares' (2º ano).",
+   "review": "author-rest"
+  },
+  "K:wants-needs": {
+   "none": "No objective on wants and needs (consumption, money choices) in the Educação Infantil or in these components.",
+   "why": "The nearest wording, 'consumo consciente' in EF03GE08, is about waste in the 3º ano and too far from a pre-school sort to claim.",
+   "review": "author-rest"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "EF01GE07",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02HI10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing workers and their tools comes before 'Descrever atividades de trabalho relacionadas com o dia a dia da sua comunidade' (1º ano) and 'Identificar diferentes formas de trabalho existentes na comunidade' (2º ano), which are about the child's own community.",
+   "review": "author-rest"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "EF03GE07",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a key and finding its symbols is the 'Reconhecer ... legendas com símbolos' part of EF03GE07 (not making a legend, not different scales). The BNCC places it in the 3º ano, two years above the worksheets.",
+   "review": "author-rest"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "EF01HI02",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF02HI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child's own family tree and the generations lead to 'a relação entre as suas histórias e as histórias de sua família' (which asks for histories, not a diagram) and to the 'grupos ... de parentesco' of the 2º ano.",
+   "review": "author-rest"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "EF04GE09",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02GE10",
+     "rel": "extends"
+    },
+    {
+     "id": "EF04CI09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Using the four directions on a map is 'Utilizar as direções cardeais na localização de componentes' (4º ano, two years above). It goes beyond the 2º ano's body-based 'frente e atrás, esquerda e direita'. Knowing the names comes before finding 'os pontos cardeais' from the Sun and a shadow.",
+   "review": "author-rest"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "EF03CI07",
+     "rel": "extends"
+    }
+   ],
+   "why": "No objective of the 1º to 5º ano names the continents. The nearest is 'Identificar características da Terra (... a presença de água, solo etc.), com base na ... comparação de diferentes formas de representação do planeta (mapas, globos...)'; naming the land masses on the world map goes beyond it.",
+   "review": "author-rest"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "EF02HI01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Kinship words give the vocabulary for the 'grupos sociais ou de parentesco' of EF02HI01, which asks why people come together or apart, not for the words themselves.",
+   "review": "author-rest"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "EF03CI07",
+     "rel": "extends"
+    }
+   ],
+   "why": "EF03CI07 asks for the Earth's features ('a presença de água, solo') read from 'mapas, globos'; locating seven continents and five oceans goes beyond it. No Geografia objective of the 1º to 5º ano names them.",
+   "review": "author-rest"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "EI03CG04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "EI03CG04 asks the child to 'Adotar hábitos de autocuidado relacionados a higiene, alimentação'; a page gives the knowledge behind the habit, not the habit.",
+   "review": "author-rest"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "EI03CG04",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF01CI03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hand-washing steps and body-care tools are the knowledge behind 'hábitos de autocuidado relacionados a higiene' and come before the 1º ano's reasons why 'lavar as mãos antes de comer, escovar os dentes...' are needed.",
+   "review": "author-rest"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "EF02GE03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names traffic rules. The nearest is the 2º ano's 'meios de transporte ..., e discutir os riscos para a vida ... e seu uso responsável'; crossing safely is a first step to it.",
+   "review": "author-rest"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "EF05CI08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Food groups appear only in the 5º ano: 'Organizar um cardápio equilibrado com base nas características dos grupos alimentares'. Sorting foods into groups is the step before.",
+   "review": "author-rest"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "EF01CI03",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF04CI08",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The habits are those of EF01CI03 ('lavar as mãos ..., escovar os dentes'), but that objective asks for the reasons; these sheets practise the habit itself. 'Stop the germs' comes before 'atitudes e medidas adequadas para prevenção de doenças' from microorganisms (4º ano).",
+   "review": "author-rest"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "EF15LP01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02GE03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Road signs are texts that circulate in 'a rua'; saying what each means is 'reconhecendo para que foram produzidos ... e a quem se destinam'. As road safety it is a step to 'os riscos para a vida ... e seu uso responsável' of transport (2º ano).",
+   "review": "author-rest"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "EF01CI03",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'as razões pelas quais os hábitos de higiene do corpo ... são necessários para a manutenção da saúde' is the content of this point (what each habit protects); the BNCC places it in the 1º ano and asks for it as discussion.",
+   "review": "author-rest"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "EF15LP01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15LP04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02GE03",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Signs are texts of the street with a 'função social' (EF15LP01); sorting them into warning, must-not and information by shape and colour is the 'efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais'. Choosing the sign for a situation is a step to the 'uso responsável' of transport.",
+   "review": "author-rest"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "EI03CG05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03TS02",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Step-by-step drawing trains the hand (EI03CG05). EI03TS02 asks to 'Expressar-se livremente por meio de desenho'; guided steps are a help towards free drawing, not free drawing.",
+   "review": "author-rest"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "EF15AR04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15AR02",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child tries 'desenho' with a conventional technique (EF15AR04) and builds figures from the 'elementos constitutivos das artes visuais (ponto, linha, forma...)'. Following steps is not the free creation of EF15AR05, so that is not claimed.",
+   "review": "author-rest"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "EF15AR04",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF15AR06",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing by steps and from memory is experimenting 'desenho' (EF15AR04). Writing about the drawing is a step to 'Dialogar sobre a sua criação', which is spoken and shared.",
+   "review": "author-rest"
+  },
+  "K:same-different-visual": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the identical pair and the one that differs in detail, size or shape is 'estabelecer relações de comparação entre objetos, observando suas propriedades' (EI03ET01).",
+   "review": "author-math"
+  },
+  "K:mazes": {
+   "none": "No objective names finding a path through a maze.",
+   "why": "The route objectives (EF02MA13, EF03MA12) ask the child to sketch and describe routes in real spaces, and the fine-motor objective EI03CG05 is too general to claim. The letters, numbers and sounds along some routes belong to other points.",
+   "review": "author-math"
+  },
+  "K:shadow-closure": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching a picture to its shadow compares objects by one property, the outline (EI03ET01: 'relações de comparação entre objetos, observando suas propriedades'). Recognising a whole from a part is not named anywhere.",
+   "review": "author-math"
+  },
+  "K:spot-the-difference": {
+   "rows": [
+    {
+     "id": "EI03ET01",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing two pictures and finding what changed is comparison by observing properties (EI03ET01).",
+   "review": "author-math"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF01MA09",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each row holds one kind, so the child must 'classificar ... figuras de acordo com suas semelhanças e diferenças' (EI03ET05). It prepares organising pictures 'por meio de atributos' (EF01MA09).",
+   "review": "author-math"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "EF03MA16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The copy is a figure of the same shape and size drawn on a squared grid, an early step toward 'figuras congruentes, usando ... desenhos em malhas quadriculadas' (EF03MA16). No pre-school objective fits.",
+   "review": "author-math"
+  },
+  "1:find-the-differences": {
+   "none": "No Ensino Fundamental objective in PART 2 names visual discrimination.",
+   "why": "Comparison by observing properties is a pre-school objective (EI03ET01); the mathematics habilidades of the 1º ano have no counterpart.",
+   "review": "author-math"
+  },
+  "1:mazes": {
+   "none": "No objective names finding a path through a maze.",
+   "why": "EF02MA12 and EF02MA13 ask the child to record and sketch routes in real spaces with points of reference, which a maze does not do.",
+   "review": "author-math"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "EF03MA16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The copy is a figure of the same shape and size drawn on a squared grid, a step toward 'reconhecer figuras congruentes, usando sobreposição e desenhos em malhas quadriculadas' (EF03MA16).",
+   "review": "author-math"
+  },
+  "1:picture-analogies": {
+   "none": "No objective names reasoning by analogy.",
+   "why": "The nearest wording, organising pictures by attributes (EF01MA09), does not cover a relation carried from one pair to another.",
+   "review": "author-math"
+  },
+  "1:secret-code": {
+   "rows": [
+    {
+     "id": "EF01MA01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the number-code sheets touch the curriculum: there numbers 'não indicam contagem nem ordem, mas sim código' (EF01MA01), though the objective means everyday identification codes and not ciphers. The picture codes have no objective.",
+   "review": "author-math"
+  },
+  "1:picture-sudoku": {
+   "none": "No objective names sudoku or this kind of deduction.",
+   "why": "Nothing in the wording of PART 2 covers placing each picture once in every row, column and box.",
+   "review": "author-math"
+  },
+  "1:logic-picture-clues": {
+   "none": "No objective names deduction from clues.",
+   "why": "The tables of the 1º ano (EF01MA21) are for reading data, not for ruling out possibilities.",
+   "review": "author-math"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "EF02LP07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02LP01",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The mathematics reviewer had only Matemática and left this point without a counterpart, saying the sentence writing belongs to Língua Portuguesa. It does: the page asks the child to write one sentence about each difference, which is 'Escrever palavras, frases, textos curtos' (EF02LP07, 2º ano); capitals and the full stop of EF02LP01 are practised on the way. Finding the differences itself has no objective.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "No mathematics objective names visual discrimination; the sentence writing belongs to Língua Portuguesa, which this registry part does not hold.",
+    "why": "Nothing in the EF02MA wording covers finding differences between two pictures.",
+    "review": "author-math"
+   }
+  },
+  "2:logic-grid": {
+   "none": "No objective names deduction from clues.",
+   "why": "The double-entry tables of EF02MA22 hold survey data to compare; a logic grid is used to rule out possibilities, which is a different demand.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "EF03MA28",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03MA27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A row-by-column sort is a 'tabela de dupla entrada': it prepares organising data by two variables in such a table (EF03MA28, there after a survey) and reading one (EF03MA27). The Venn diagram is not named by the BNCC.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "EF03MA28",
+     "rel": "prepares"
+    },
+    {
+     "id": "EF03MA27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same content as 3:two-attribute-sort: classifying by two attributes in a row-by-column table prepares the 'tabelas ... de dupla entrada' of EF03MA28 and EF03MA27.",
+   "review": "author-math"
+  },
+  "3:logic-grids": {
+   "none": "No objective names deduction from clues.",
+   "why": "The tables of EF03MA26 and EF03MA27 hold data to read and compare; a logic grid is a different demand.",
+   "review": "author-math"
+  },
+  "3:latin-square-sudoku": {
+   "none": "No objective names sudoku or this kind of deduction.",
+   "why": "Nothing in the wording of PART 2 covers placing each picture once in every row, column and box.",
+   "review": "author-math"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "EI03EF01",
+     "rel": "teaches"
+    },
+    {
+     "id": "EI03EO01",
+     "rel": "prepares"
+    },
+    {
+     "id": "EI03EO04",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming how I feel on paper is to 'Expressar ... sentimentos sobre suas vivências, por meio da linguagem oral e escrita ..., desenhos'. Reading feelings in faces is the 'percebendo que as pessoas têm diferentes sentimentos' needed for empathy, and feeling words are needed to 'Comunicar ... sentimentos'; both are lived with others, so prepares.",
+   "review": "author-rest"
+  }
+ }
+}

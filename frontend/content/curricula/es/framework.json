@@ -69,7 +69,7 @@
    "band": "Fase 2 = preescolar (P1, P2, P3), Fase 3 = 1° and 2° de primaria, Fase 4 = 3° and 4°; a contenido belongs to the fase, a process to one grade",
    "ids": "this registry's own (the programme numbers nothing): fase, campo, contenido, grade, process",
    "citation": "Secretaría de Educación Pública (2024). Programa Sintético de la Fase 2 (preescolar), de la Fase 3 y de la Fase 4 (primaria).",
-   "checkedAgainstPdf": "48 contenidos and 207 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence"
+   "checkedAgainstPdf": "48 contenidos and 208 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence"
   }
  ],
  "nodes": [
@@ -6735,7 +6735,7 @@
    "kind": "standard",
    "grade": "2",
    "parent": "F3.HC.19",
-   "text": "Comparte y organiza la información investigada con sus compañeras y compañeros. Considera las reacciones emocionales para la toma de decisiones de forma asertiva ante situaciones de la vida diaria, con el fin de lograr bienestar individual y colectivo."
+   "text": "Comparte y organiza la información investigada con sus compañeras y compañeros."
   },
   {
    "id": "F3.HC.20",
@@ -6754,6 +6754,14 @@
    "text": "Conoce las emociones básicas, su función y reacciones fisiológicas, para interactuar con sus pares."
   },
   {
+   "id": "F3.HC.20.G2.1",
+   "f": "nem-de-lo-humano-y-lo-comunitario",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "F3.HC.20",
+   "text": "Considera las reacciones emocionales para la toma de decisiones de forma asertiva ante situaciones de la vida diaria, con el fin de lograr bienestar individual y colectivo."
+  },
+  {
    "id": "F3.HC.20.G1.2",
    "f": "nem-de-lo-humano-y-lo-comunitario",
    "kind": "standard",
@@ -6762,7 +6770,7 @@
    "text": "Reconoce emociones básicas en él o ella y en las demás personas, con el fin de identificar situaciones donde se necesite pedir u ofrecer ayuda."
   },
   {
-   "id": "F3.HC.20.G2.1",
+   "id": "F3.HC.20.G2.2",
    "f": "nem-de-lo-humano-y-lo-comunitario",
    "kind": "standard",
    "grade": "2",

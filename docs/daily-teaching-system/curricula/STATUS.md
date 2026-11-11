@@ -13,10 +13,10 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `de-nw` Nordrhein-Westfalen (Lehrpläne Primarstufe) | 3 | 367 | 176 | 114 | 16 |
 | `de-sn` Sachsen (Lehrplan Grundschule) | 3 | 862 | 179 | 103 | 24 |
 | `sv` Sverige (Lgr22) | 8 | 296 | 281 | 21 | 4 |
-| `es` México (Plan de Estudio 2022) | 4 | 1381 | — | — | — |
+| `es` México (Plan de Estudio 2022) | 4 | 1383 | 197 | 76 | 33 |
 | `pt` Brasil (BNCC) | 7 | 580 | 210 | 84 | 12 |
-| `fr` France (programmes) | 6 | 624 | 203 | 68 | 35 |
-| `nl` Nederland (kerndoelen) | 4 | 75 | — | — | — |
+| `fr` France (programmes) | 6 | 710 | 219 | 55 | 32 |
+| `nl` Nederland (kerndoelen) | 4 | 75 | 249 | 52 | 5 |
 | `fi` Suomi (OPS 2014) | 4 | 154 | — | — | — |
 | `no` Norge (LK20) | 6 | 160 | — | — | — |
 | `da` Danmark (Fælles Mål) | 8 | 56 | — | — | — |
@@ -145,6 +145,24 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | thinking | 19 | 10 | 5 | 4 |
 | sel | 1 | 1 | 0 | 0 |
 
+## `es` — México (Plan de Estudio 2022)
+
+- **Programa Sintético, Campo formativo Lenguajes (Fases 2, 3 y 4)** (Secretaría de Educación Pública (México), 2024). Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024. Read from https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase-2.pdf and 2 more on 2026-11-11. Checked: 60 contenidos and 435 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence.
+- **Programa Sintético, Campo formativo Saberes y Pensamiento Científico (Fases 2, 3 y 4)** (Secretaría de Educación Pública (México), 2024). Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024. Read from https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase-2.pdf and 2 more on 2026-11-11. Checked: 44 contenidos and 304 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence.
+- **Programa Sintético, Campo formativo Ética, Naturaleza y Sociedades (Fases 2, 3 y 4)** (Secretaría de Educación Pública (México), 2024). Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024. Read from https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase-2.pdf and 2 more on 2026-11-11. Checked: 44 contenidos and 228 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence.
+- **Programa Sintético, Campo formativo De lo Humano y lo Comunitario (Fases 2, 3 y 4)** (Secretaría de Educación Pública (México), 2024). Plan de Estudio para la educación preescolar, primaria y secundaria 2022; Programas Sintéticos as published by the SEP in June 2024. Read from https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/06/Programa_Sintetico_Fase-2.pdf and 2 more on 2026-11-11. Checked: 48 contenidos and 208 procesos de desarrollo de aprendizaje read; every contenido holds a process; every process is a full sentence.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 132 | 21 | 5 |
+| literacy | 71 | 30 | 31 | 10 |
+| science | 35 | 24 | 10 | 1 |
+| social | 11 | 4 | 5 | 2 |
+| health | 8 | 4 | 4 | 0 |
+| arts | 3 | 2 | 1 | 0 |
+| thinking | 19 | 0 | 4 | 15 |
+| sel | 1 | 1 | 0 | 0 |
+
 ## `pt` — Brasil (BNCC)
 
 - **Base Nacional Comum Curricular (Educação Infantil e Ensino Fundamental)** (Ministério da Educação (Brasil), 2018). the final version published by the Ministry (file BNCC_EI_EF_110518_versaofinal_site.pdf). Read from https://cdn.mec.gov.br/basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf on 2026-11-11. Checked: 32 objectives read, each from its own column under its code; the codes of every group run without a gap; every wording ends as a sentence.
@@ -172,16 +190,34 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 - **Programme d’enseignement pour l’acquisition des premiers outils mathématiques de l’école maternelle (cycle 1)** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 2; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20d%E2%80%99enseignement%20pour%20l%E2%80%99acquisition%20des%20premiers%20outils%20math%C3%A9matiques%20du%20cycle%201-403815.pdf on 2026-11-11. Checked: 63 objectives read from the left column of 17 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
 - **Programme de français du cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 3; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%203%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20du%20cycle%202-403818.pdf on 2026-11-11. Checked: 182 objectives read from the left column of 51 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
 - **Programme de mathématiques du cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 4; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%204%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20du%20cycle%202-403821.pdf on 2026-11-11. Checked: 226 objectives read from the left column of 44 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
-- **Programme d’histoire-géographie pour le cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2026). BO n° 22 du 28 mai 2026, annexe 3; listed by the Ministry among the cycle 2 programmes of the rentrée 2026. Read from https://www.education.gouv.fr/sites/default/files/document/annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf on 2026-11-11. Checked: 16 themes read (their titles only: the programme describes each theme in prose).
+- **Programme d’histoire-géographie pour le cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2026). BO n° 22 du 28 mai 2026, annexe 3; listed by the Ministry among the cycle 2 programmes of the rentrée 2026. Read from https://www.education.gouv.fr/sites/default/files/document/annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf on 2026-11-11. Checked: 16 themes and 86 attendus read (the two columns of "Attendus (connaissances et compétences)"; the "Repères" beside them are not read); every theme holds at least two attendus; each begins as a printed line of a second reading of the PDF.
 - **Programme du cycle 2 (2020), Questionner le monde du vivant, de la matière et des objets** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2020). BO n° 31 du 30 juillet 2020; for the rentrée 2026 the Ministry lists it beside the new programme "Sciences et technologie" (BO n° 24 du 11 juin 2026), which is published as a scan and could not be read. Read from https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf on 2026-11-11. Checked: 7 attendus de fin de cycle and 38 statements of the left column read, in 3 sections.
 
 | Subject | Points | Taught | Near | None |
 |---|---:|---:|---:|---:|
-| math | 158 | 129 | 20 | 9 |
-| literacy | 71 | 47 | 23 | 1 |
+| math | 158 | 133 | 18 | 7 |
+| literacy | 71 | 59 | 11 | 1 |
 | science | 35 | 13 | 18 | 4 |
 | social | 11 | 5 | 5 | 1 |
 | health | 8 | 3 | 2 | 3 |
 | arts | 3 | 1 | 0 | 2 |
 | thinking | 19 | 5 | 0 | 14 |
-| sel | 1 | 0 | 0 | 1 |
+| sel | 1 | 0 | 1 | 0 |
+
+## `nl` — Nederland (kerndoelen)
+
+- **Besluit kerndoelen primair en speciaal onderwijs 2026, bijlage 1: Nederlands** (Ministerie van Onderwijs, Cultuur en Wetenschap (Staatsblad van het Koninkrijk der Nederlanden), 2026). Staatsblad 2026, 198 (Besluit van 10 juni 2026,); in force since 1 August 2026. Read from https://zoek.officielebekendmakingen.nl/stb-2026-198.html on 2026-11-11. Checked: 9 kerndoelen and 19 parts read; the kerndoelen run 1 to 18 without a gap.
+- **Besluit kerndoelen primair en speciaal onderwijs 2026, bijlage 1: Rekenen en wiskunde** (Ministerie van Onderwijs, Cultuur en Wetenschap (Staatsblad van het Koninkrijk der Nederlanden), 2026). Staatsblad 2026, 198 (Besluit van 10 juni 2026,); in force since 1 August 2026. Read from https://zoek.officielebekendmakingen.nl/stb-2026-198.html on 2026-11-11. Checked: 9 kerndoelen and 15 parts read; the kerndoelen run 1 to 18 without a gap.
+- **Besluit vernieuwde kerndoelen WPO, bijlage: Oriëntatie op jezelf en de wereld** (Ministerie van Onderwijs, Cultuur en Wetenschap, 2006). Besluit van 8 oktober 2005 (Stb. 2005, 551), the consolidated text valid from 01-08-2026 to today. Read from https://wetten.overheid.nl/BWBR0018844/ on 2026-11-11. Checked: 20 kerndoelen read (34 to 53, without a gap).
+- **Besluit vernieuwde kerndoelen WPO, bijlage: Kunstzinnige oriëntatie** (Ministerie van Onderwijs, Cultuur en Wetenschap, 2006). Besluit van 8 oktober 2005 (Stb. 2005, 551), the consolidated text valid from 01-08-2026 to today. Read from https://wetten.overheid.nl/BWBR0018844/ on 2026-11-11. Checked: 3 kerndoelen read (54 to 56, without a gap).
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 142 | 16 | 0 |
+| literacy | 71 | 55 | 16 | 0 |
+| science | 35 | 27 | 8 | 0 |
+| social | 11 | 7 | 4 | 0 |
+| health | 8 | 8 | 0 | 0 |
+| arts | 3 | 1 | 2 | 0 |
+| thinking | 19 | 8 | 6 | 5 |
+| sel | 1 | 1 | 0 | 0 |

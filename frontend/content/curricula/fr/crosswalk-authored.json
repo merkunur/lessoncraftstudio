@@ -349,10 +349,28 @@
     {
      "id": "MM.M4.24",
      "rel": "teaches"
+    },
+    {
+     "id": "M.CP.40",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CP.39",
+     "rel": "prepares"
     }
    ],
-   "why": "« Comparer les masses de deux objets » names this content (placed from 4 years). On paper the child reads a pictured balance or uses what he knows of the objects; the real comparison by hand or on a balance stays a classroom activity.",
-   "review": "author-math"
+   "why": "The cycle 2 mass objectives are now in the list: the sheets lead to « Comparer des objets selon leur masse » and to « Utiliser le lexique associé aux masses » (heavier, lighter) of CP. The maternelle row of the first reading stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "MM.M4.24",
+      "rel": "teaches"
+     }
+    ],
+    "why": "« Comparer les masses de deux objets » names this content (placed from 4 years). On paper the child reads a pictured balance or uses what he knows of the objects; the real comparison by hand or on a balance stays a classroom activity.",
+    "review": "author-math"
+   }
   },
   "K:draw-shapes": {
    "rows": [
@@ -821,12 +839,26 @@
      "rel": "teaches"
     },
     {
-     "id": "M.CE2.57",
-     "rel": "prepares"
+     "id": "M.CE1.59",
+     "rel": "teaches"
     }
    ],
-   "why": "CP asks only for « une heure donnée en heures entières »; the hour sheets teach it. Half hours are past the CP wording and lead to « Lire l'heure sur une horloge à aiguilles », which PART 2 holds only in CE2.",
-   "review": "author-math"
+   "why": "CE1 now has « Lire l’heure sur une horloge à aiguilles (lorsque l’heure est donnée en heures entières, en heures et demi-heure ou en heures et quarts d’heure) »: the half-hour sheets do that part, so the vague CE2 row (prepares) is replaced by this exact one. Whole hours stay with CP.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.46",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE2.57",
+      "rel": "prepares"
+     }
+    ],
+    "why": "CP asks only for « une heure donnée en heures entières »; the hour sheets teach it. Half hours are past the CP wording and lead to « Lire l'heure sur une horloge à aiguilles », which PART 2 holds only in CE2.",
+    "review": "author-math"
+   }
   },
   "1:fluency-within-20": {
    "rows": [
@@ -993,12 +1025,30 @@
      "rel": "teaches"
     },
     {
+     "id": "M.CE1.60",
+     "rel": "teaches"
+    },
+    {
      "id": "M.CE2.58",
      "rel": "teaches"
     }
    ],
-   "why": "CP: « Positionner les aiguilles … (uniquement des heures entières inférieures ou égales à douze) » covers the o'clock sheets only. Half past, quarters and five minutes are « en heures et minutes », which PART 2 places in CE2.",
-   "review": "author-math"
+   "why": "Half past and quarter hours are now named at CE1: « Positionner les aiguilles [...] en heures entières, en heures et demi-heure ou en heures et quart d’heure ». Added between the CP row (whole hours) and the CE2 row (hours and minutes: the five-minute sheets).",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.47",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE2.58",
+      "rel": "teaches"
+     }
+    ],
+    "why": "CP: « Positionner les aiguilles … (uniquement des heures entières inférieures ou égales à douze) » covers the o'clock sheets only. Half past, quarters and five minutes are « en heures et minutes », which PART 2 places in CE2.",
+    "review": "author-math"
+   }
   },
   "1:coins": {
    "rows": [
@@ -1047,12 +1097,34 @@
      "rel": "teaches"
     },
     {
+     "id": "M.CE1.33",
+     "rel": "teaches"
+    },
+    {
      "id": "M.CP.28",
      "rel": "prepares"
     }
    ],
-   "why": "34 + 20 is « Ajouter ou soustraire 20, 30 … 90 à un nombre »; adding ones across a ten is « Ajouter un nombre inférieur à 9 à un nombre ». 56 − 4 stays inside the ten and comes before « Soustraire un nombre inférieur à 10 à un nombre entier de dizaines ».",
-   "review": "author-math"
+   "why": "56 − 4 is « Soustraire un nombre inférieur à 9 à un nombre », a CE1 mental-calculation objective that was missing; CP only names subtracting from a whole number of tens (M.CP.28). The three rows of the first reading stay.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.22",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.24",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.28",
+      "rel": "prepares"
+     }
+    ],
+    "why": "34 + 20 is « Ajouter ou soustraire 20, 30 … 90 à un nombre »; adding ones across a ten is « Ajouter un nombre inférieur à 9 à un nombre ». 56 − 4 stays inside the ten and comes before « Soustraire un nombre inférieur à 10 à un nombre entier de dizaines ».",
+    "review": "author-math"
+   }
   },
   "1:bonds-to-100": {
    "rows": [
@@ -1085,6 +1157,10 @@
   "2:hundreds-chart-moves": {
    "rows": [
     {
+     "id": "M.CE1.29",
+     "rel": "teaches"
+    },
+    {
      "id": "M.CP.21",
      "rel": "teaches"
     },
@@ -1093,8 +1169,22 @@
      "rel": "teaches"
     }
    ],
-   "why": "Down = 10 more and right = 1 more on the chart to 100 are CP content (« Ajouter ou soustraire 10 à un nombre », « la suite écrite … jusqu'à cent »); CE1 in PART 2 holds no mental-calculation objective for it.",
-   "review": "author-math"
+   "why": "Several steps down the chart add a whole number of tens: « Ajouter ou soustraire un nombre entier de dizaines à un nombre » is now listed at CE1, the year of the sheets. The point had only CP rows; they stay.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.21",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.3",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Down = 10 more and right = 1 more on the chart to 100 are CP content (« Ajouter ou soustraire 10 à un nombre », « la suite écrite … jusqu'à cent »); CE1 in PART 2 holds no mental-calculation objective for it.",
+    "review": "author-math"
+   }
   },
   "2:odd-even": {
    "rows": [
@@ -1263,30 +1353,58 @@
   "2:hundred-more-less": {
    "rows": [
     {
-     "id": "M.CE1.6",
+     "id": "M.CE1.29",
      "rel": "teaches"
     },
     {
-     "id": "M.CP.21",
-     "rel": "extends"
+     "id": "M.CE1.6",
+     "rel": "teaches"
     }
    ],
-   "why": "100 more or less changes only the hundreds digit (« valeur des chiffres en fonction de leur position »). PART 2 names the mental procedure only for 10 in CP; ±100 goes beyond it.",
-   "review": "author-math"
+   "why": "« Ajouter ou soustraire un nombre entier de centaines à un nombre » (second sentence of M.CE1.29) is 100 more and 100 less. It replaces the 'extends' row to the CP objective about adding 10; the place-value row stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.6",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.21",
+      "rel": "extends"
+     }
+    ],
+    "why": "100 more or less changes only the hundreds digit (« valeur des chiffres en fonction de leur position »). PART 2 names the mental procedure only for 10 in CP; ±100 goes beyond it.",
+    "review": "author-math"
+   }
   },
   "2:time-5-min-quarter": {
    "rows": [
     {
-     "id": "M.CE2.57",
+     "id": "M.CE1.59",
      "rel": "teaches"
     },
     {
-     "id": "M.CP.46",
-     "rel": "extends"
+     "id": "M.CE2.57",
+     "rel": "teaches"
     }
    ],
-   "why": "PART 2 holds no time objective for CE1: after the CP whole hours, « Lire l'heure sur une horloge à aiguilles » stands in CE2, and five-minute reading meets it.",
-   "review": "author-math"
+   "why": "The quarter-hour sheets are CE1 now that « Lire l’heure [...] en heures et quarts d’heure » is in the list; five-minute reading stays with the CE2 objective, which has no limit. The 'extends' row to the CP whole-hour objective is no longer needed.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE2.57",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.46",
+      "rel": "extends"
+     }
+    ],
+    "why": "PART 2 holds no time objective for CE1: after the CP whole hours, « Lire l'heure sur une horloge à aiguilles » stands in CE2, and five-minute reading meets it.",
+    "review": "author-math"
+   }
   },
   "2:calendar": {
    "none": "Reading a calendar is not in the mathematics objectives listed (in France: questioning the world, time).",
@@ -1422,24 +1540,64 @@
    "review": "author-math"
   },
   "2:mass-grams": {
-   "none": "PART 2 holds no mass objective for cycle 2 (only the maternelle comparisons of masses).",
-   "why": "Under « Grandeurs et mesures » the listed CP–CE2 objectives cover lengths, money and time only; nothing names grams or the balance.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "M.CE1.49",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point had no home because the mass objectives were missing. Reading a mass in grams on a balance or a scale is « Connaitre et utiliser les unités gramme et kilogramme et les symboles associés (g, kg) », CE1, the year of the sheets.",
+   "review": "second-reading",
+   "was": {
+    "rows": [],
+    "none": "PART 2 holds no mass objective for cycle 2 (only the maternelle comparisons of masses).",
+    "why": "Under « Grandeurs et mesures » the listed CP–CE2 objectives cover lengths, money and time only; nothing names grams or the balance.",
+    "review": "author-math"
+   }
   },
   "2:read-jugs": {
-   "none": "PART 2 holds no capacity objective (litres, millilitres).",
-   "why": "Under « Grandeurs et mesures » the listed objectives cover lengths, money and time only.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "M.CE2.52",
+     "rel": "extends"
+    }
+   ],
+   "why": "Capacity is now in the list, but only at CE2 and only with « les unités litre, décilitre et centilitre [...] (L, dL et cL) »: the millilitre is not a cycle 2 unit, so reading a jug in ml goes beyond the objective on the same line. The point had no row before.",
+   "review": "second-reading",
+   "was": {
+    "rows": [],
+    "none": "PART 2 holds no capacity objective (litres, millilitres).",
+    "why": "Under « Grandeurs et mesures » the listed objectives cover lengths, money and time only.",
+    "review": "author-math"
+   }
   },
   "2:choose-units": {
    "rows": [
     {
      "id": "M.CE1.42",
      "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.49",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.46",
+     "rel": "prepares"
     }
    ],
-   "why": "« Choisir l'unité la mieux adaptée pour exprimer une longueur » covers cm or m only; the mass and capacity choices have no objective in PART 2, and inches and feet are not French units.",
-   "review": "author-math"
+   "why": "The g-or-kg items now have a home: they use « les unités gramme et kilogramme » (CE1) and lead to « Choisir l’unité la mieux adaptée pour exprimer une masse », which the text places at CE2 with the tonne. The length row stays; mL or L has no cycle 2 objective that names the millilitre.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.42",
+      "rel": "teaches"
+     }
+    ],
+    "why": "« Choisir l'unité la mieux adaptée pour exprimer une longueur » covers cm or m only; the mass and capacity choices have no objective in PART 2, and inches and feet are not French units.",
+    "review": "author-math"
+   }
   },
   "2:equal-groups-times": {
    "rows": [
@@ -1524,12 +1682,26 @@
      "rel": "extends"
     },
     {
-     "id": "M.CP.27",
+     "id": "M.CE1.34",
      "rel": "teaches"
     }
    ],
-   "why": "The CE1 wording reads unit fractions as parts of one whole; taking 1/3 or 1/4 of a collection and giving a number goes beyond it. The 1/2 case is « Déterminer la moitié d'un nombre pair ».",
-   "review": "author-math"
+   "why": "« Déterminer la moitié d’un nombre pair » is now listed at CE1 too, the year of the sheets; it replaces the same sentence of CP (M.CP.27). The fraction row is unchanged.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.16",
+      "rel": "extends"
+     },
+     {
+      "id": "M.CP.27",
+      "rel": "teaches"
+     }
+    ],
+    "why": "The CE1 wording reads unit fractions as parts of one whole; taking 1/3 or 1/4 of a collection and giving a number goes beyond it. The 1/2 case is « Déterminer la moitié d'un nombre pair ».",
+    "review": "author-math"
+   }
   },
   "2:symmetry-line": {
    "rows": [
@@ -1578,22 +1750,46 @@
   "3:compare-4-digit": {
    "rows": [
     {
-     "id": "M.CE1.7",
-     "rel": "extends"
+     "id": "M.CE2.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.6",
+     "rel": "teaches"
     }
    ],
-   "why": "PART 2 lists no whole-number objective for CE2; the comparison objective stands in CE1 with numbers « jusqu'à mille », so four-digit numbers extend it.",
-   "review": "author-math"
+   "why": "The CE2 whole-number objectives (numbers « jusqu’à dix-mille ») were missing, so the first reading could only 'extend' CE1. Comparing four-digit numbers is « Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles (=, <, >) » at CE2, done here through « la valeur des chiffres en fonction de leur position ».",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.7",
+      "rel": "extends"
+     }
+    ],
+    "why": "PART 2 lists no whole-number objective for CE2; the comparison objective stands in CE1 with numbers « jusqu'à mille », so four-digit numbers extend it.",
+    "review": "author-math"
+   }
   },
   "3:rounding": {
    "rows": [
     {
-     "id": "M.CE1.7",
+     "id": "M.CE2.7",
      "rel": "extends"
     }
    ],
-   "why": "Rounding is not named anywhere in PART 2; it builds on « encadrer … des nombres entiers » between two tens or two hundreds.",
-   "review": "author-math"
+   "why": "Rounding is still not named in cycle 2; the nearest wording is « encadrer » a number (between two tens or two hundreds), and choosing the nearer one goes beyond it. The row moves from the CE1 objective to the same sentence of CE2, the year of the sheets.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.7",
+      "rel": "extends"
+     }
+    ],
+    "why": "Rounding is not named anywhere in PART 2; it builds on « encadrer … des nombres entiers » between two tens or two hundreds.",
+    "review": "author-math"
+   }
   },
   "3:column-regrouping": {
    "rows": [
@@ -1633,12 +1829,26 @@
   "3:arithmetic-patterns": {
    "rows": [
     {
+     "id": "M.CE2.4",
+     "rel": "teaches"
+    },
+    {
      "id": "M.CE1.15",
      "rel": "prepares"
     }
    ],
-   "why": "The programme meets number sequences through ordinals (« Utiliser les nombres ordinaux dans le cadre de suite … de nombres »); finding the step and continuing is the work on which naming the nth term rests.",
-   "review": "author-math"
+   "why": "Counting on and back by a constant step (25s, 50s, 100s) works on « la suite écrite et la suite orale des nombres jusqu’à dix-mille », now in the list for CE2, as the skip-counting sheets of year 2 do for the CE1 sentence. The row of the first reading stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.15",
+      "rel": "prepares"
+     }
+    ],
+    "why": "The programme meets number sequences through ordinals (« Utiliser les nombres ordinaux dans le cadre de suite … de nombres »); finding the step and continuing is the work on which naming the nth term rests.",
+    "review": "author-math"
+   }
   },
   "3:time-to-minute": {
    "rows": [
@@ -1705,26 +1915,50 @@
   "3:scaled-graphs": {
    "rows": [
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches"
     },
     {
-     "id": "M.CE1.81",
+     "id": "M.CE2.74",
      "rel": "teaches"
     }
    ],
-   "why": "PART 2 lists no data objective for CE2; the CE1 wording on reading and producing a « diagramme en barres » sets no limit on the scale. Pictographs are not named.",
-   "review": "author-math"
+   "why": "The CE2 data objectives were missing; « Lire et interpréter les données [...] d’un diagramme en barres » and « Produire un tableau ou un diagramme en barres » of CE2 replace the same sentences of CE1, a year below the sheets.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.82",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE1.81",
+      "rel": "teaches"
+     }
+    ],
+    "why": "PART 2 lists no data objective for CE2; the CE1 wording on reading and producing a « diagramme en barres » sets no limit on the scale. Pictographs are not named.",
+    "review": "author-math"
+   }
   },
   "3:thermometer": {
    "rows": [
     {
-     "id": "M.CE1.10",
+     "id": "M.CE2.10",
      "rel": "teaches"
     }
    ],
-   "why": "Temperature is not a magnitude of the listed objectives; what the child does is read a graduated scale in steps of 2, 5 or 10, the skill of the « demi-droite graduée ».",
-   "review": "author-math"
+   "why": "« Savoir placer des nombres sur une demi-droite graduée » now exists at CE2, the year of the sheets (a scale in steps of 2, 5 or 10); it replaces the identical CE1 sentence.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.10",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Temperature is not a magnitude of the listed objectives; what the child does is read a graduated scale in steps of 2, 5 or 10, the skill of the « demi-droite graduée ».",
+    "review": "author-math"
+   }
   },
   "3:division-sharing": {
    "rows": [
@@ -1812,12 +2046,22 @@
   "3:time-12-24": {
    "rows": [
     {
-     "id": "M.CP.48",
-     "rel": "extends"
+     "id": "M.CE1.61",
+     "rel": "teaches"
     }
    ],
-   "why": "No objective names the two ways of writing the afternoon hours. The nearest line is « Associer une heure à un moment de la journée »; passing from 3 o'clock in the afternoon to 15 h goes beyond it.",
-   "review": "author-math"
+   "why": "« Connaitre, utiliser et distinguer les heures du matin et celles de l’après-midi » (CE1, new in the list) is what passing between 3 o'clock in the afternoon and 15 h does. It replaces the 'extends' row to the CP objective about moments of the day.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.48",
+      "rel": "extends"
+     }
+    ],
+    "why": "No objective names the two ways of writing the afternoon hours. The nearest line is « Associer une heure à un moment de la journée »; passing from 3 o'clock in the afternoon to 15 h goes beyond it.",
+    "review": "author-math"
+   }
   },
   "3:area-model": {
    "rows": [
@@ -1999,12 +2243,26 @@
      "rel": "teaches"
     },
     {
-     "id": "M.CE1.81",
+     "id": "M.CE2.74",
      "rel": "prepares"
     }
    ],
-   "why": "Measuring to the half unit is « mesurer des longueurs non entières par rapport à cette unité ». The line plot is not a named representation; it is a simple way to « présenter des données recueillies ».",
-   "review": "author-math"
+   "why": "The data row moves from CE1 to the same sentence now listed at CE2, « Produire un tableau ou un diagramme en barres pour présenter des données recueillies »; a line plot is not a bar chart, so it stays 'prepares'. The fraction row is unchanged.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE2.12",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE1.81",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Measuring to the half unit is « mesurer des longueurs non entières par rapport à cette unité ». The line plot is not a named representation; it is a simple way to « présenter des données recueillies ».",
+    "review": "author-math"
+   }
   },
   "3:volume-cubes": {
    "rows": [
@@ -2038,12 +2296,26 @@
   "K:rhyme": {
    "rows": [
     {
+     "id": "ML.M5.15",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CP.1",
      "rel": "prepares"
     }
    ],
-   "why": "PART 2 holds no phonological-awareness objective for the maternelle; hearing rhymes is readiness for 'Décoder et encoder 12 à 15 correspondances grapho-phonémiques' at the start of CP.",
-   "review": "author-rest"
+   "why": "The grande section objective now in the list names the skill itself: « Repérer et produire des rimes et des assonances »; the sheets do the 'repérer' half (rhyming pairs, rhyme or not). The first reading had only the CP decoding objective, which stays as the step after.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "PART 2 holds no phonological-awareness objective for the maternelle; hearing rhymes is readiness for 'Décoder et encoder 12 à 15 correspondances grapho-phonémiques' at the start of CP.",
+    "review": "author-rest"
+   }
   },
   "K:category-sort": {
    "rows": [
@@ -2062,12 +2334,30 @@
   "K:letter-identification": {
    "rows": [
     {
+     "id": "ML.M5.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.17",
+     "rel": "prepares"
+    },
+    {
      "id": "F.CP.1",
      "rel": "prepares"
     }
    ],
-   "why": "No letter-knowledge objective is listed for the maternelle in PART 2; telling b / d / p / q apart is a step before decoding the first correspondances grapho-phonémiques in CP.",
-   "review": "author-rest"
+   "why": "« Distinguer des lettres visuellement proches (b/d, c/e/o, p/q) » is the sheet's own content (find a letter among b / d / p / q); the child tells them apart in print, not 'grâce à leur écriture cursive', and does not name them aloud, so « Connaitre le nom des lettres de l’alphabet » is only prepared. The first reading had the CP objective alone.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "No letter-knowledge objective is listed for the maternelle in PART 2; telling b / d / p / q apart is a step before decoding the first correspondances grapho-phonémiques in CP.",
+    "review": "author-rest"
+   }
   },
   "K:letter-formation": {
    "rows": [
@@ -2086,32 +2376,86 @@
   "K:count-syllables": {
    "rows": [
     {
+     "id": "ML.M5.31",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M4.14",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CP.2",
      "rel": "prepares"
     }
    ],
-   "why": "Counting oral syllables is the readiness step before 'Déchiffrer des syllabes, des mots puis des phrases'; PART 2 lists no syllable objective for the maternelle.",
-   "review": "author-rest"
+   "why": "Counting the syllables of a picture word is the middle part of « Segmenter l’oral en mots, les mots en syllabes, quelques syllabes en phonèmes » (5 ans) and what « Scander les syllabes d’un mot » (4 ans) asks; both are maternelle homes nearer to the sheets than the CP deciphering objective, which is kept as the step after.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.2",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Counting oral syllables is the readiness step before 'Déchiffrer des syllabes, des mots puis des phrases'; PART 2 lists no syllable objective for the maternelle.",
+    "review": "author-rest"
+   }
   },
   "K:letter-case": {
    "rows": [
+    {
+     "id": "ML.M5.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M4.18",
+     "rel": "teaches"
+    },
     {
      "id": "F.CE1.19",
      "rel": "prepares"
     }
    ],
-   "why": "'Reconnaitre les lettres dans les quatre écritures : minuscules (scripte et cursive), majuscules (scripte ou cursive)' is the full form of this skill; matching print capitals to print small letters is two of the four.",
-   "review": "author-rest"
+   "why": "Matching capital and small letters is the print part of « Connaitre les différentes graphies d’une même lettre (majuscule lettre capitale; minuscules scriptes; cursives) » and of « la correspondance entre les lettres scriptes majuscules et minuscules et les lettres cursives minuscules »; the cursive form is not on the sheets. The first reading could only point two years ahead to CE1.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.19",
+      "rel": "prepares"
+     }
+    ],
+    "why": "'Reconnaitre les lettres dans les quatre écritures : minuscules (scripte et cursive), majuscules (scripte ou cursive)' is the full form of this skill; matching print capitals to print small letters is two of the four.",
+    "review": "author-rest"
+   }
   },
   "K:beginning-sounds": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.20",
+     "rel": "teaches"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares"
     }
    ],
-   "why": "Hearing the first sound of a word and linking it to a letter is the idea behind the first 'correspondances grapho-phonémiques régulières, fréquentes et aisément prononçables' of CP period 1.",
-   "review": "author-rest"
+   "why": "Sorting pictures by their first sound is « Entendre, discriminer [...] des phonèmes », and doing it under a letter (letter of the week, m or n) uses the « valeur sonore » of letters named in ML.M5.20. These grande section objectives are the home; the CP objective stays as the step after.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Hearing the first sound of a word and linking it to a letter is the idea behind the first 'correspondances grapho-phonémiques régulières, fréquentes et aisément prononçables' of CP period 1.",
+    "review": "author-rest"
+   }
   },
   "K:category-odd-one-out": {
    "rows": [
@@ -2140,32 +2484,74 @@
   "K:alphabet-order": {
    "rows": [
     {
+     "id": "ML.M5.36",
+     "rel": "prepares"
+    },
+    {
      "id": "F.CP.49",
      "rel": "prepares"
     }
    ],
-   "why": "Knowing the order of the letters comes before 'Commencer à mobiliser l'ordre alphabétique pour utiliser un dictionnaire adapté' (CP).",
-   "review": "author-rest"
+   "why": "« Se repérer dans l’alphabet pour retrouver l’écriture d’une lettre » needs the order of the alphabet that the sheets practise, but the objective is about using it while writing, so 'prepares'. Added beside the CP dictionary objective because it is the same year as the sheets.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.49",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Knowing the order of the letters comes before 'Commencer à mobiliser l'ordre alphabétique pour utiliser un dictionnaire adapté' (CP).",
+    "review": "author-rest"
+   }
   },
   "K:story-sequencing": {
    "rows": [
+    {
+     "id": "ML.M5.25",
+     "rel": "prepares"
+    },
     {
      "id": "F.CP.14",
      "rel": "prepares"
     }
    ],
-   "why": "Ordering the pictures of a story shows its overall sense without text; it is a step before 'Dégager le sens global d'un texte entendu ou lu'.",
-   "review": "author-rest"
+   "why": "« Comprendre des histoires où l’enchainement des actions est lié au destin de personnages » is about stories read by the teacher; putting story pictures in order practises the 'enchainement des actions' without a text, so it prepares it. Added as the grande section home beside the CP objective.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.14",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Ordering the pictures of a story shows its overall sense without text; it is a step before 'Dégager le sens global d'un texte entendu ou lu'.",
+    "review": "author-rest"
+   }
   },
   "K:sound-position": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares"
     }
    ],
-   "why": "Locating a sound at the start, middle or end of a word is phonemic readiness for decoding and encoding the first correspondances in CP; no ML.M5 objective in PART 2 names it.",
-   "review": "author-rest"
+   "why": "Hearing where a sound sits in a word (beginning, middle, end) is « Entendre, discriminer, manipuler des phonèmes », now in the list for 5-year-olds; the first reading had only the CP objective it prepares.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Locating a sound at the start, middle or end of a word is phonemic readiness for decoding and encoding the first correspondances in CP; no ML.M5 objective in PART 2 names it.",
+    "review": "author-rest"
+   }
   },
   "K:vowels-consonants": {
    "rows": [
@@ -2182,34 +2568,80 @@
     {
      "id": "ML.M5.1",
      "rel": "prepares"
+    },
+    {
+     "id": "ML.M4.20",
+     "rel": "prepares"
     }
    ],
-   "why": "Picture word cards support 'Comprendre, mémoriser, réemployer les mots des corpus enseignés', but cards on a wall are a resource, not the oral work the objective asks; the second language has no objective in this registry.",
-   "review": "author-rest"
+   "why": "The new section « S’éveiller à la diversité linguistique » is the home of two-language material; its objective « Participer à des jeux dans une autre langue : [...] jeux de cartes » is about playing, so the cards only prepare it. Added beside the vocabulary objective.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "ML.M5.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Picture word cards support 'Comprendre, mémoriser, réemployer les mots des corpus enseignés', but cards on a wall are a resource, not the oral work the objective asks; the second language has no objective in this registry.",
+    "review": "author-rest"
+   }
   },
   "K:segment-phonemes": {
    "rows": [
     {
-     "id": "F.CP.1",
-     "rel": "prepares"
+     "id": "ML.M5.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.31",
+     "rel": "extends"
     },
     {
      "id": "F.CP.27",
      "rel": "prepares"
     }
    ],
-   "why": "One sound per box, with two letters sharing a box, is the step before 'Encoder des syllabes simples puis des mots selon la progression des CGP' and before the correspondances themselves.",
-   "review": "author-rest"
+   "why": "Putting one sound in each box is « Entendre, discriminer, manipuler des phonèmes »; it goes beyond « quelques syllabes en phonèmes » because whole words are segmented and two-letter graphemes share a box. The encoding objective of CP stays as the step after; F.CP.1 is dropped because F.CP.27 says the same more exactly.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     },
+     {
+      "id": "F.CP.27",
+      "rel": "prepares"
+     }
+    ],
+    "why": "One sound per box, with two letters sharing a box, is the step before 'Encoder des syllabes simples puis des mots selon la progression des CGP' and before the correspondances themselves.",
+    "review": "author-rest"
+   }
   },
   "K:cvc-build": {
    "rows": [
+    {
+     "id": "ML.M5.35",
+     "rel": "teaches"
+    },
     {
      "id": "F.CP.27",
      "rel": "prepares"
     }
    ],
-   "why": "Building short words from letters is encoding; the programme opens it in CP ('Encoder des syllabes simples puis des mots'), so in the grande section it is a first step with the simplest words.",
-   "review": "author-rest"
+   "why": "Building a regular three-letter word from letters is a first use of the alphabetic principle to write: « Réinvestir ses premières connaissances relatives au principe alphabétique pour produire un écrit ». This grande section objective is now the home; CP encoding stays as the step after.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.27",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Building short words from letters is encoding; the programme opens it in CP ('Encoder des syllabes simples puis des mots'), so in the grande section it is a first step with the simplest words.",
+    "review": "author-rest"
+   }
   },
   "K:word-picture-match": {
    "rows": [
@@ -2224,15 +2656,29 @@
   "K:singular-plural": {
    "rows": [
     {
-     "id": "F.CE1.22",
+     "id": "F.CP.66",
      "rel": "prepares"
     }
    ],
-   "why": "One and many is the idea before 'Réaliser des accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'. In French the plural is mostly heard in the article (le / les), not in the noun.",
-   "review": "author-rest"
+   "why": "CP now has « Comprendre les notions de singulier et de pluriel (plusieurs, plus qu’un) », which is exactly 'one and many' and one year after the sheets; it replaces the CE1 agreement objective, two years away and about writing agreements.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.22",
+      "rel": "prepares"
+     }
+    ],
+    "why": "One and many is the idea before 'Réaliser des accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'. In French the plural is mostly heard in the article (le / les), not in the noun.",
+    "review": "author-rest"
+   }
   },
   "K:digraphs-k": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches"
+    },
     {
      "id": "ML.M5.6",
      "rel": "prepares"
@@ -2242,8 +2688,22 @@
      "rel": "prepares"
     }
    ],
-   "why": "Hearing 'ch' at the start of a word is the listening side of 'Prononcer correctement les couples de consonnes proches suivants : ch/s, ch/j, ch/z', and readiness for the digraph among the '25 à 30 CGP' of mid-CP.",
-   "review": "author-rest"
+   "why": "Hearing the sound at the start of a word is « Entendre, discriminer [...] des phonèmes », now listed for 5-year-olds; the two rows of the first reading (pronouncing ch/s, ch/j, ch/z; the CP correspondences) stay as 'prepares'.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "ML.M5.6",
+      "rel": "prepares"
+     },
+     {
+      "id": "F.CP.3",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Hearing 'ch' at the start of a word is the listening side of 'Prononcer correctement les couples de consonnes proches suivants : ch/s, ch/j, ch/z', and readiness for the digraph among the '25 à 30 CGP' of mid-CP.",
+    "review": "author-rest"
+   }
   },
   "K:sight-words-reading": {
    "rows": [
@@ -2276,25 +2736,57 @@
   "K:articles": {
    "rows": [
     {
-     "id": "F.CE1.22",
+     "id": "F.CP.65",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.67",
      "rel": "prepares"
     }
    ],
-   "why": "Choosing le / la for a noun is the gender of the noun, the idea before 'accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'.",
-   "review": "author-rest"
+   "why": "Choosing le or la is the idea behind « Comprendre les notions de masculin et de féminin » and the first link of the « chaine d’accords » (déterminant/nom) that CP now names. Both are one year after the sheets and replace the CE1 objective about writing agreements.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.22",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Choosing le / la for a noun is the gender of the noun, the idea before 'accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'.",
+    "review": "author-rest"
+   }
   },
   "1:rhyming": {
    "rows": [
+    {
+     "id": "ML.M5.15",
+     "rel": "teaches"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares"
     }
    ],
-   "why": "The CP programme in PART 2 has no rhyme objective; hearing and producing rhymes is sound awareness that serves 'Décoder et encoder ... correspondances grapho-phonémiques'.",
-   "review": "author-rest"
+   "why": "« Repérer et produire des rimes et des assonances » names all the sheets do (hear, sort, finish, produce); in France this is a grande section objective, a year before the sheets. The first reading had only the CP decoding objective, kept as 'prepares'.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "The CP programme in PART 2 has no rhyme objective; hearing and producing rhymes is sound awareness that serves 'Décoder et encoder ... correspondances grapho-phonémiques'.",
+    "review": "author-rest"
+   }
   },
   "1:phoneme-boxes": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches"
+    },
     {
      "id": "F.CP.27",
      "rel": "prepares"
@@ -2304,8 +2796,22 @@
      "rel": "prepares"
     }
    ],
-   "why": "Cutting a word into its sounds is the oral step before 'Encoder des syllabes simples puis des mots'; blending sounds into a word is the oral step before 'Déchiffrer des syllabes, des mots'.",
-   "review": "author-rest"
+   "why": "Segmenting a word into its sounds and blending them back is « Entendre, discriminer, manipuler des phonèmes »; the point had no 'teaches' row before. The two CP rows are kept as they were.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.27",
+      "rel": "prepares"
+     },
+     {
+      "id": "F.CP.2",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Cutting a word into its sounds is the oral step before 'Encoder des syllabes simples puis des mots'; blending sounds into a word is the oral step before 'Déchiffrer des syllabes, des mots'.",
+    "review": "author-rest"
+   }
   },
   "1:digraphs": {
    "rows": [
@@ -2334,6 +2840,14 @@
   "1:syllables-split": {
    "rows": [
     {
+     "id": "ML.M5.31",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.14",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CP.2",
      "rel": "teaches"
     },
@@ -2342,8 +2856,22 @@
      "rel": "prepares"
     }
    ],
-   "why": "Missing syllables, scrambled syllables and syllable cards are 'Déchiffrer des syllabes, des mots'; clapping and counting syllables is the oral step before 'Encoder des syllabes simples'.",
-   "review": "author-rest"
+   "why": "Splitting words into syllables is « Segmenter [...] les mots en syllabes », and the missing-syllable and scramble sheets are « Supprimer, ajouter, remplacer, inverser [...] les syllabes d’un mot »; both are now in the list (grande section). The CP rows of the first reading stay.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CP.27",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Missing syllables, scrambled syllables and syllable cards are 'Déchiffrer des syllabes, des mots'; clapping and counting syllables is the oral step before 'Encoder des syllabes simples'.",
+    "review": "author-rest"
+   }
   },
   "1:syllable-vowel": {
    "rows": [
@@ -2396,16 +2924,34 @@
   "1:articles": {
    "rows": [
     {
-     "id": "F.CE1.22",
+     "id": "F.CP.65",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.67",
      "rel": "prepares"
     },
     {
-     "id": "F.CE1.56",
+     "id": "F.CE1.22",
      "rel": "prepares"
     }
    ],
-   "why": "Sorting nouns by un / une is the gender of the noun before 'accords en genre et en nombre dans le groupe nominal' and before naming 'le déterminant, le nom commun' (CE1). PART 2 lists no grammar objective for CP.",
-   "review": "author-rest"
+   "why": "Sorting nouns under un / une is « Comprendre les notions de masculin et de féminin », a CP objective that was missing; it also starts « repérer [...] les régularités des marques de genre » of the chaine d’accords. The CE1 word-class row is dropped: the sheets do not name classes.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.22",
+      "rel": "prepares"
+     },
+     {
+      "id": "F.CE1.56",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Sorting nouns by un / une is the gender of the noun before 'accords en genre et en nombre dans le groupe nominal' and before naming 'le déterminant, le nom commun' (CE1). PART 2 lists no grammar objective for CP.",
+    "review": "author-rest"
+   }
   },
   "1:read-and-follow": {
    "rows": [
@@ -2448,6 +2994,10 @@
   "1:unscramble-sentence": {
    "rows": [
     {
+     "id": "F.CP.60",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CP.35",
      "rel": "teaches"
     },
@@ -2456,18 +3006,46 @@
      "rel": "prepares"
     }
    ],
-   "why": "Putting known words into a sentence and writing it is 'Écrire ... des mots puis quelques phrases ... à partir des mots connus et déchiffrés'; the capital and the end mark are the idea of the sentence before 'Identifier la phrase simple' (CE1).",
-   "review": "author-rest"
+   "why": "A sentence that makes sense, with a capital and an end mark, is word for word « la notion de phrase simple et ses trois marqueurs essentiels : majuscule initiale, ponctuation finale forte et sens ». This CP objective was missing in the first reading; its rows are kept.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.35",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE1.53",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Putting known words into a sentence and writing it is 'Écrire ... des mots puis quelques phrases ... à partir des mots connus et déchiffrés'; the capital and the end mark are the idea of the sentence before 'Identifier la phrase simple' (CE1).",
+    "review": "author-rest"
+   }
   },
   "1:question-words": {
    "rows": [
+    {
+     "id": "F.CP.62",
+     "rel": "prepares"
+    },
     {
      "id": "F.CE1.54",
      "rel": "prepares"
     }
    ],
-   "why": "Qui / quoi / où and matching a question to its answer come before 'Reconnaitre et utiliser les trois types de phrases ... interrogative' (CE1); PART 2 has no CP objective on questions.",
-   "review": "author-rest"
+   "why": "CP now has its own objective on sentence types, « reconnaitre les trois types de phrases (déclarative, interrogative et impérative) »; the sheets work on questions through the question word, not through punctuation, so they prepare it. Added as the nearer year beside the CE1 row.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.54",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Qui / quoi / où and matching a question to its answer come before 'Reconnaitre et utiliser les trois types de phrases ... interrogative' (CE1); PART 2 has no CP objective on questions.",
+    "review": "author-rest"
+   }
   },
   "1:story-sequencing": {
    "rows": [
@@ -2486,6 +3064,10 @@
   "1:word-classes": {
    "rows": [
     {
+     "id": "F.CP.64",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CP.50",
      "rel": "teaches"
     },
@@ -2494,8 +3076,22 @@
      "rel": "prepares"
     }
    ],
-   "why": "Sorting words into nouns and verbs is 'Constituer des répertoires de mots ... par classe grammaticale' (CP); naming the classes ('Différencier et nommer les principales classes de mots') is CE1.",
-   "review": "author-rest"
+   "why": "Sorting words into nouns and verbs, nouns and adjectives is « Constituer des corpus par classe de mots : noms, verbes, déterminants, adjectifs, pronoms personnels », the CP grammar objective that was missing. The vocabulary row and the CE1 row stay.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.50",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE1.56",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Sorting words into nouns and verbs is 'Constituer des répertoires de mots ... par classe grammaticale' (CP); naming the classes ('Différencier et nommer les principales classes de mots') is CE1.",
+    "review": "author-rest"
+   }
   },
   "1:pronouns": {
    "rows": [
@@ -2504,12 +3100,30 @@
      "rel": "teaches"
     },
     {
+     "id": "F.CP.64",
+     "rel": "prepares"
+    },
+    {
      "id": "F.CE1.56",
      "rel": "prepares"
     }
    ],
-   "why": "Replacing a name by il / elle / ils / elles is the link the CP objective describes, 'qui relie un nom à sa ou ses reprise(s) pronominale(s)'; naming 'le pronom personnel sujet' is CE1.",
-   "review": "author-rest"
+   "why": "The CP grammar objective now in the list names « pronoms personnels » among the classes of words to collect; replacing a name by a pronoun is a step before collecting the class, so 'prepares'. Added as the CP form of the CE1 row; the reading row stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.16",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE1.56",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Replacing a name by il / elle / ils / elles is the link the CP objective describes, 'qui relie un nom à sa ou ses reprise(s) pronominale(s)'; naming 'le pronom personnel sujet' is CE1.",
+    "review": "author-rest"
+   }
   },
   "1:shades-of-meaning": {
    "rows": [
@@ -2562,7 +3176,7 @@
   "2:sentence-boundaries": {
    "rows": [
     {
-     "id": "F.CE1.53",
+     "id": "F.CP.60",
      "rel": "teaches"
     },
     {
@@ -2570,12 +3184,34 @@
      "rel": "teaches"
     },
     {
+     "id": "F.CE1.53",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CE2.48",
      "rel": "prepares"
     }
    ],
-   "why": "Splitting run-together sentences is 'Identifier la phrase simple'; choosing . or ? is 'les trois types de phrases, en lien avec la ponctuation'. 'Utiliser la ponctuation de fin de phrase (. ! ?)' is worded for CE2, so here it is prepared with two of the three marks.",
-   "review": "author-rest"
+   "why": "Capital letter, end mark and cutting two run-together sentences is exactly the CP objective « phrase simple et ses trois marqueurs essentiels : majuscule initiale, ponctuation finale forte et sens », which was missing; it is a closer home than the CE1 objective about the constituents of the sentence. The old rows are kept.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.53",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE1.54",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE2.48",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Splitting run-together sentences is 'Identifier la phrase simple'; choosing . or ? is 'les trois types de phrases, en lien avec la ponctuation'. 'Utiliser la ponctuation de fin de phrase (. ! ?)' is worded for CE2, so here it is prepared with two of the three marks.",
+    "review": "author-rest"
+   }
   },
   "2:cursive-writing": {
    "rows": [
@@ -2720,6 +3356,14 @@
   "2:verb-forms": {
    "rows": [
     {
+     "id": "F.CE1.60",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.58",
+     "rel": "teaches"
+    },
+    {
      "id": "F.CE1.56",
      "rel": "teaches"
     },
@@ -2728,8 +3372,22 @@
      "rel": "prepares"
     }
    ],
-   "why": "Finding the verb is 'Différencier et nommer ... le verbe'. PART 2 lists no conjugation objective for CE1; the only one, 'conjuguer au présent, à l'imparfait, au futur et au passé composé ... être et avoir ... faire, aller', is CE2, so the present and past forms prepare it.",
-   "review": "author-rest"
+   "why": "CE1 conjugation was missing: « conjuguer au présent, à l’imparfait, au futur puis au passé composé [...] être et avoir et les verbes du premier groupe » is the home of present and past forms, and choosing the form that fits a sentence is « Identifier la relation sujet-verbe [...] changement de temps et de personne ». The irregular do / go (faire, aller) are CE2, so that row stays 'prepares'.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.56",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CE2.51",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Finding the verb is 'Différencier et nommer ... le verbe'. PART 2 lists no conjugation objective for CE1; the only one, 'conjuguer au présent, à l'imparfait, au futur et au passé composé ... être et avoir ... faire, aller', is CE2, so the present and past forms prepare it.",
+    "review": "author-rest"
+   }
   },
   "2:pronouns": {
    "rows": [
@@ -3625,12 +4283,26 @@
      "rel": "teaches"
     },
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches"
     }
    ],
-   "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1); the programme places it earlier than the sheets. The Venn form is not named.",
-   "review": "author-math"
+   "why": "« Lire et interpréter les données d’un tableau à double entrée » is now listed at CE2, the year of the sheets, and replaces the same wording of CE1. Building and completing the table is named only at CP, so that row stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.68",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE1.82",
+      "rel": "teaches"
+     }
+    ],
+    "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1); the programme places it earlier than the sheets. The Venn form is not named.",
+    "review": "author-math"
+   }
   },
   "3:two-attribute-sort~logic-cabinet": {
    "rows": [
@@ -3639,17 +4311,31 @@
      "rel": "teaches"
     },
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches"
     }
    ],
-   "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1). The Venn form is not named.",
-   "review": "author-math"
+   "why": "Same as the point it was split from: the CE2 sentence « Lire et interpréter les données d’un tableau à double entrée » replaces the CE1 one; the CP row for completing the table stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CP.68",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CE1.82",
+      "rel": "teaches"
+     }
+    ],
+    "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1). The Venn form is not named.",
+    "review": "author-math"
+   }
   },
   "3:logic-grids": {
    "rows": [
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches"
     },
     {
@@ -3657,8 +4343,22 @@
      "rel": "teaches"
     }
    ],
-   "why": "The logic grid is worked as a double-entry table that the child completes and reads; the deduction from clues is not itself an objective in PART 2.",
-   "review": "author-math"
+   "why": "The grid is a double-entry table read and filled from clues; the reading objective now exists at CE2 (« tableau à double entrée »), the year of the sheets, and replaces the CE1 sentence. The CP row for completing the table stays.",
+   "review": "second-reading",
+   "was": {
+    "rows": [
+     {
+      "id": "M.CE1.82",
+      "rel": "teaches"
+     },
+     {
+      "id": "M.CP.68",
+      "rel": "teaches"
+     }
+    ],
+    "why": "The logic grid is worked as a double-entry table that the child completes and reads; the deduction from clues is not itself an objective in PART 2.",
+    "review": "author-math"
+   }
   },
   "3:latin-square-sudoku": {
    "none": "Sudoku is not named by any objective in PART 2.",
@@ -3666,9 +4366,20 @@
    "review": "author-math"
   },
   "K:feelings": {
-   "none": "Feelings: the registry holds no enseignement moral et civique and no maternelle domain for it.",
-   "why": "Recognising and naming emotions is not named in the language objectives of PART 2.",
-   "review": "author-rest"
+   "rows": [
+    {
+     "id": "ML.M5.26",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The point had no home. « Comprendre les émotions, les intentions et les sentiments qui animent les personnages » is about stories read by the teacher; recognising a feeling in a face and matching it to its word is the step before, so 'prepares' only.",
+   "review": "second-reading",
+   "was": {
+    "rows": [],
+    "none": "Feelings: the registry holds no enseignement moral et civique and no maternelle domain for it.",
+    "why": "Recognising and naming emotions is not named in the language objectives of PART 2.",
+    "review": "author-rest"
+   }
   }
  }
 }

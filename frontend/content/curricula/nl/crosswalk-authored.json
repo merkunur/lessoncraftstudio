@@ -1,0 +1,3400 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A: 'redeneert over meetkundige figuren en plaatsbepalingen' — op/onder/naast, links/rechts, binnen/buiten are the plaatsbepaling words of groep 1-2.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a given shape among others comes before K14.A point a 'redeneren met en over eigenschappen van meetkundige figuren'; the child only recognises, it does not yet reason about properties.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K11.A names 'lengte' as a grootheid but asks 'meet, redeneert en rekent met grootheden en bijpassende eenheden'; comparing by eye without a unit is the step before.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seriating by size or height is direct comparison of 'lengte' without units, the precursor of K11.A ('grootheden en bijpassende eenheden').",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K13.A point a: 'herkennen, beschrijven en voortzetten van patronen in rijen getallen en figuren' — extending and completing picture patterns is exactly this.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One-to-one correspondence is the idea under counting and under 'vergelijken' in K10.A point a, before numbers are used.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point a lists 'vergelijken' among the bewerkingen with gehele getallen; more/fewer/equal of two counted groups is that at kleuter level.",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting a set and naming or writing the number to 20 is working with 'gehele getallen' (K10.A) at the level of groep 2.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Getalbeelden (dice, ten-frame) are the base on which 'memoriseren van getalrelaties, splitsingen van getallen tot 20' (K10.A point b) is built; not yet that memorisation.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Conservation of number is a condition for reasoning with gehele getallen (K10.A), not itself named in the wording.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Making a set of a given number is working with gehele getallen (K10.A) at groep-2 level.",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A point a: 'eigenschappen van meetkundige figuren en begrippen' — naming cirkel, vierkant, driehoek, rechthoek in any position is the begrippen part.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K16.A point a: 'gebruiken van wiskundige symbolen, notaties en begrippen' — writing the cijfers is the first of these symbols.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a numeral key is recognising the symbols before using them as notation (K16.A point a 'gebruiken van wiskundige symbolen').",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting each kind is K10.A (gehele getallen); sorting a mixed set into kinds first is the step before 'invullen van tabellen bij data' (K12.A point a).",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The number of sides is an 'eigenschap van meetkundige figuren' (K14.A point a).",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Filling the telrij to 10/20 is 'ordenen' of gehele getallen (K10.A point a).",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining dots in counting order practises the order of the gehele getallen to 30 ('ordenen', K10.A point a).",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One more / one less is the first 'optellen, aftrekken' and a getalrelatie (K10.A points a and b) at groep-2 level.",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Buurgetallen and counting back are 'ordenen' of gehele getallen (K10.A point a).",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rangtelwoorden (eerste … tiende) are whole numbers used for 'ordenen' (K10.A point a); the wording does not name them separately.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "teaches"
+    },
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD51: 'aanduidingen van tijd en tijdsindeling te hanteren' — the days of the week in order; for K11.A ('tijd' as grootheid with eenheden) it is the knowledge before measuring and calculating.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Turven is a notation and a second representation of a number (K16.A points a and e); it is also the recording technique that comes before tables and graphs of data (K12.A).",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K10.A point d names 'schattend rekenen'; estimating a quantity and checking by counting is the idea before estimating in calculations.",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K11.A names 'gewicht (massa)'; comparing heavier/lighter without a unit is the step before measuring with 'bijpassende eenheden'.",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a named shape from its sides and corners uses the 'eigenschappen van meetkundige figuren' (K14.A point a).",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is the idea of 'optellen' (K10.A point a) before its formal form with a sum; in Dutch schools formal sums start in groep 3.",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is the idea of 'aftrekken' (K10.A point a) before the formal sum.",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known group (doortellen) is the strategy that leads to 'optellen' in K10.A point a; not yet the bewerking itself.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point b names it word for word: 'splitsingen van getallen tot 20'; these are the splitsingen to 10 (in Dutch schools groep 3 content).",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Building a figure from tangram pieces is reasoning with properties of figures and turning them (K14.A points a and e 'draaien').",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K14.A point e names 'spiegelen' but asks the child to carry out transformations; recognising a mirror image is the step before.",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Even/oneven is an 'eigenschap van getallen' (K10.A point e); pairing objects with one left over is the idea before the number property.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "13 = 10 + 3 is one of the 'splitsingen van getallen tot 20' (K10.A point b) and the structure of gehele getallen.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A points a and b: 'optellen, aftrekken' and 'vlot en wendbaar toepassen' of memorised number facts to 20; in Dutch schools this is groep 3, not groep 2.",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point b: 'memoriseren van … splitsingen van getallen tot 20' — exactly the range.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Optellen' with gehele getallen (K10.A point a) within 10-12 with a model, groep-3 level.",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Aftrekken' (K10.A point a) within 10 with a picture model.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "K15.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.B point b: 'weergeven van een situatie in wiskundetaal'; K16.A point a: 'gebruiken van wiskundige symbolen, notaties'; the content is optellen/aftrekken (K10.A).",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K13.A point a: 'herkennen … en voortzetten van patronen in rijen … figuren'.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting into groups is ordering data before a table (K12.A point a 'invullen van tabellen bij data'); no data representation yet.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The vriendjes van 10 are 'splitsingen van getallen tot 20' to memorise (K10.A point b).",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a real triangle from a not-real one by its defining attributes is 'redeneren met en over eigenschappen van meetkundige figuren' (K14.A point a).",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rangtelwoorden order with whole numbers ('ordenen', K10.A point a); the wording does not name them separately.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing numbers on the getallenlijn is 'vergelijken, ordenen' of gehele getallen (K10.A point a), to 50 in groep 3.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Optellen/aftrekken (K10.A) shown as hops on a number line: K15.B point d 'gebruiken van abstracte modellen om rekenaanpakken te laten zien'.",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A: 'lost wiskundige problemen en toepassings-problemen op', point c 'bewerken van de uitkomsten van berekeningen tot een oplossing'; the sums are K10.A within 20.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A points a, c and d: 'invullen van tabellen bij data', graphical representations 'en daaruit conclusies trekken' (most, how many more).",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Dubbelen and halveren to 20 are 'getalrelaties' to memorise (K10.A point b).",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Even and oneven are 'eigenschappen van getallen' (K10.A point e), found here by fair sharing between two.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bijna-dubbelen is a rekenwijze 'met eigenschappen van getallen en bewerkingen' and 'vlot en wendbaar toepassen' of known facts (K10.A points b and e).",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Optellen' with gehele getallen (K10.A point a), three addends.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The four related sums use the inverse relation of optellen and aftrekken: 'eigenschappen van … bewerkingen' and 'getalrelaties' (K10.A points b and e).",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Stipsommen within 10/20 are optellen/aftrekken with use of getalrelaties and splitsingen (K10.A points a and b).",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The meaning of the is-teken is K16.A point a 'gebruiken van wiskundige symbolen, notaties en begrippen'; checking each side is optellen/aftrekken (K10.A).",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "K15.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The strookmodel is K15.B points a and d: 'schematisch weergeven van een situatie', 'gebruiken van abstracte modellen om … problemen op te lossen'; the missing part is a sum of K10.A.",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Composing figures from pieces: properties of figures and 'draaien' (K14.A points a and e).",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "teaches"
+    },
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD51: 'aanduidingen van tijd en tijdsindeling te hanteren' (gisteren/vandaag/morgen, months, seasons); for K11.A ('tijd' with eenheden) this is the calendar knowledge before calculating with time.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD46",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Months and seasons are 'tijdsindeling' (KD51); KD46 names 'seizoenen' as a natuurverschijnsel but asks for the cause (position of the earth), which these sheets do not treat.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A: 'meet … met grootheden en bijpassende eenheden', point a 'lengte'; measuring with a natural unit and ordering by length is groep-3 measuring.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point a names 'tijd', point b 'meten met passende meetinstrumenten' (the clock); hele en halve uren, analog and digital.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A points b and d: memorised number facts 'vlot en wendbaar toepassen' and 'hoofdrekenen'; the make-a-ten strategy uses the splitsingen.",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Optellen and aftrekken as inverse operations in a rekenmuur (K10.A points a and e).",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking worked sums is optellen/aftrekken plus K10.A point c 'reflecteren op de … uitvoering'.",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A points c, d and e: 'maken van grafische representaties van data', interpreting them; 'diagrammen' (staafdiagram).",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tientallen and eenheden are the structure of the gehele getallen with which K10.A asks the child to reason and calculate; the wording does not name the positiestelsel separately.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number words and numerals are two notations of the same number: K16.A points a and e ('relaties leggen tussen verschillende representaties'); the numbers to 100 are K10.A.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point a: 'vergelijken, ordenen'; the signs > < = are 'wiskundige symbolen' (K16.A point a).",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering the numbers to 100 (K10.A point a) and using the +1/+10 regularity: K13.A point a 'patronen in rijen getallen'.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1 and 10 more or less are getalrelaties and optellen/aftrekken with gehele getallen (K10.A points a and b).",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K16.A point e: 'relaties leggen tussen verschillende representaties van een wiskundig concept' — one number as tens/ones, ten-frame, tally and words.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting in jumps of 2, 5 and 10 builds the 'tafels van vermenigvuldiging' (K10.A point b) and is 'voortzetten van patronen in rijen getallen' (K13.A point a).",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Tijd' in K11.A point a, with the clock as meetinstrument; quarter hours and five minutes are groep-4 content in Dutch schools.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point a names 'geld'; counting and comparing amounts of coins is calculating with that grootheid.",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The lege getallenlijn is the model 'om rekenaanpakken te laten zien' (K15.B point d) for optellen/aftrekken (K10.A).",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point d: 'hoofdrekenen' with gehele getallen; to 100 is groep-4 content in Dutch schools (judged by the skill line, not by the year).",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Aanvullen tot 100 is a 'getalrelatie' to apply 'vlot en wendbaar' (K10.A point b); the memorised splitsingen themselves stop at 20 in the wording.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bundling ten ones into a ten is the structure of the gehele getallen of K10.A.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Moves of +1 and +10 on the honderdveld are optellen with gehele getallen and getalrelaties (K10.A points a and b).",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Even/oneven decided by the ones digit is 'rekenen met eigenschappen van getallen' (K10.A point e).",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing numbers on a part of the getallenlijn is 'vergelijken, ordenen' (K10.A point a).",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by number of sides uses 'eigenschappen van meetkundige figuren' (K14.A point a).",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Optellen, aftrekken' with gehele getallen to 100 (K10.A point a), groep-4 range.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A: 'lost … toepassings-problemen op' with points a and c (an approach in two steps, turning results into a solution); the sums are K10.A within 100.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point b: 'meten met passende meetinstrumenten' (lengte); K16.B point c: 'gebruiken van een instrument en de bijbehorende wiskundetaal'.",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A: 'meet, redeneert en rekent met grootheden' — two lengths measured and their difference calculated; the ruler is the instrument of K16.B.",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Honderdtallen, tientallen and eenheden are the structure of the gehele getallen of K10.A; numbers to 1000 are groep-5 content in Dutch schools.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of a digit is the base of reasoning with gehele getallen (K10.A); to 1000 is groep 5 in the Netherlands.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering numbers to 1000 (K10.A point a) by the regularity of the chart: 'patronen in rijen getallen' (K13.A point a).",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Jumps of 5, 10 and 100: number relations and the base of the tafels (K10.A point b), and 'voortzetten van patronen in rijen getallen' (K13.A point a).",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point a: 'vergelijken, ordenen'; < > = are 'wiskundige symbolen' (K16.A point a).",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "100 more or less is optellen/aftrekken with the structure of gehele getallen (K10.A).",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Tijd' in K11.A point a, read from the clock (point b); kwartieren and five minutes are groep 4-5 content.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD51",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD51: 'aanduidingen van tijd en tijdsindeling te hanteren' (reading the kalender); counting days and weeks between dates is calculating with 'tijd' and its units (K11.A points a and e).",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Flat versus solid is a property of 'meetkundige figuren' (K14.A point a) and touches point d, the relation between two- and three-dimensional figures.",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming bol, kubus, cilinder, kegel, balk and piramide and finding them in objects: 'meetkundige figuren en begrippen' (K14.A point a).",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Vlakken, ribben and hoekpunten are 'eigenschappen van meetkundige figuren' (K14.A point a), read from a drawing of a solid (point d).",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Optellen' with gehele getallen (K10.A point a) with a block model; to 1000 is groep 5 in Dutch schools.",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Aftrekken' with gehele getallen (K10.A point a) with a block model; to 1000 is groep 5 in Dutch schools.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A points d and e: 'schriftelijk rekenen' with 'standaardprocedures' (cijferen); Dutch schools reach this in groep 5-6, after rijgen and kolomsgewijs rekenen.",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K18.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Geld' in K11.A point a; K18.A points a and c: numbers 'in concrete, voor de leerling relevante situaties' and 'wiskunde gebruiken bij het nemen van beslissingen' (is there enough money); the sums are K10.A.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A point c: 'maken van grafische representaties van data en daaruit conclusies trekken' (staafdiagram from a turftabel).",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A point d: 'interpreteren van grafische representaties'; a line plot is a simple diagram of data (the form itself is little used in Dutch methods).",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Afronden op tientallen is the base technique of 'schattend rekenen' (K10.A point d) and uses ordering on the number line (point a).",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A points a and b: 'gewicht (massa)' and 'meten met passende meetinstrumenten'; reading the scale is K16.B points c and d ('bepalen, interpreteren … van het resultaat').",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Inhoud' in K11.A point a, read from a maatbeker (point b; K16.B point c 'gebruiken van een instrument').",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A points d and e: 'referentiematen' and 'relaties leggen tussen grootheden en eenheden' — which unit fits what is measured; only the metric pairs (cm/m, g/kg, ml/l) exist in Dutch schools.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Vermenigvuldigen' (K10.A point a) introduced from equal groups and herhaald optellen, as in groep 4.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The rechthoekmodel (rows × columns) for 'vermenigvuldigen' (K10.A point a).",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The rows of 3 and 4 are the 'tafels van vermenigvuldiging' in the making (K10.A point b) and 'patronen in rijen getallen' (K13.A point a).",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A points c and d: making and interpreting a beelddiagram where one picture stands for 2.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Eerlijk verdelen and making equal groups with objects is the idea of 'delen' (K10.A point a) before the division sum; the skill line itself calls it readiness.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B point a: 'stambreuken' — halves, thirds and fourths of a shape and the fraction that belongs to a picture; Dutch schools write fractions formally from groep 6, groep 4-5 say 'de helft', 'een kwart'.",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B points c and e: 'relaties leggen tussen breuken en delingen' and 'rekenen met breuken in concrete situaties, ondersteund met een model' (1/3 of a set of pictures).",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A point e: 'spiegelen'; judging whether a line is a spiegellijn is reasoning about that transformation.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A: 'voert meetkundige transformaties uit', point e 'spiegelen' — the child draws the mirrored half.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A: 'plaatsbepalingen' — a square found by its letter-number code (B2), as on a plattegrond (point c).",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rejecting turned or flipped figures is reasoning about 'draaien, spiegelen' (K14.A point e).",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point a: 'vergelijken, ordenen' of gehele getallen; to 10 000 is groep 5-6 content.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Afronden op tientallen en honderdtallen is the technique of 'schattend rekenen' (K10.A point d).",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A points d and e: 'schriftelijk rekenen' with 'standaardprocedures'; in Dutch schools cijferend optellen/aftrekken sits in groep 5-6.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point d: 'schattend rekenen', and point c: 'reflecteren op de keuze en uitvoering' (is the exact answer reasonable).",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sums with gehele getallen (K10.A) in a puzzle that needs an approach of its own: K15.A point a 'een aanpak voor een niet-routinematig oplosbaar probleem'.",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point e: 'rekenen met eigenschappen van getallen en bewerkingen' — even + oneven = oneven, reasoned without adding.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K13.A point a: 'herkennen, beschrijven en voortzetten van patronen in rijen getallen'; the steps of 25, 50, 100 are sums of K10.A.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Tijd' in K11.A point a, read from the analog clock to the minute (point b).",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Vermenigvuldigen' (K10.A point a) as equal groups or a rectangle.",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Vermenigvuldigen' as equal jumps; the multiples are the 'tafels van vermenigvuldiging' (K10.A points a and b).",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The omkeereigenschap is one of the 'eigenschappen van … bewerkingen' of K10.A point e.",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.A point b names it: 'memoriseren van … de tafels van vermenigvuldiging, en deze kennis vlot en wendbaar toepassen' (in Dutch schools the tables 1-10 are groep 4-5).",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A points c, d and e: making and interpreting 'diagrammen' with a scale of 2, 5 or 10.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K16.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Temperatuur' is named in K11.A point a; reading the scale of the thermometer is 'meten met passende meetinstrumenten' (point b) and K16.B point c.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Delen' (K10.A point a) as verdelen over a given number of groups.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Delen' (K10.A point a) as opdelen: how many equal jumps back to 0.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division from the tables: 'getalrelaties' and 'eigenschappen van … bewerkingen' (K10.A points b and e).",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A: 'lost … toepassings-problemen op'; choosing between verdelen and opdelen is the modelling, the sums are vermenigvuldigen/delen (K10.A).",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "K13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K13.A: 'redeneert over patronen en verbanden' — finding the rule between in and out (point c: a verband shown in a table); applying it is a sum of K10.A.",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "K16.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The is-teken as 'the same amount on both sides' is K16.A point a ('wiskundige symbolen, notaties en begrippen'); finding the number is K10.A.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A: 'rekent met grootheden en bijpassende eenheden', 'tijd' (point a), minutes and hours (point e).",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Calculating a tijdsduur between two clock times: K11.A 'rekent met grootheden', 'tijd'.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two notations of 'tijd' (K11.A point a, relations of point e); the 24-hour notation is everyday in the Netherlands.",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point c: 'bepalen van omtrek, oppervlakte en inhoud van rechthoekige figuren' — area as rows × columns.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point c: 'oppervlakte … van rechthoekige figuren', reasoned over rectangles of different shape.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A point c: 'bepalen van omtrek'.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K11.A points c and e: omtrek and oppervlakte and the relation 'tussen grootheden onderling'.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Delen' with a rest (K10.A point a); Dutch schools treat it in groep 5.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The rechte hoek is one of the 'meetkundige … begrippen' and a property of figures (K14.A point a); angles are groep 6-7 content in Dutch methods.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K14.A point a: 'redeneren met en over eigenschappen van meetkundige figuren' (a vierkant is also a rechthoek).",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Spiegellijnen: K14.A point e 'spiegelen' and point a (a property of the figure).",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B point a: 'stambreuken' — each of the equal parts named as 1/b.",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B point a: 'stambreuken, echte breuken' — a/b as a times 1/b.",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reasoning with a stambreuk and its whole (K10.B point a; 'redeneert … met breuken').",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B: 'breuken als getal' — a fraction as a point on the number line between 0 and 1.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B point d: 'beredeneerd ordenen … en vergelijken van breuken'.",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Gelijkwaardige breuken are the base of K10.B point d ('vereenvoudigen en vergelijken van breuken').",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "K10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K10.B points c and e: fraction and division (1/3 of 12 = 12 : 3), 'in concrete situaties, ondersteund met een model'.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring a length to the half unit (K11.A points a and b) and 'maken van grafische representaties van data' (K12.A point c).",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "K11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Inhoud' (K11.A points a and c) counted in cubes; seeing the hidden cubes is K14.A point d: 'interpreteren van tweedimensionale representaties van driedimensionale figuren'.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K3.A point d: 'schrijven op letter-, schrift- en tekstniveau met een leesbaar handschrift'; schrijfpatronen are the voorbereidend schrijven before letters.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "KD54",
+     "rel": "teaches"
+    },
+    {
+     "id": "K3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD54: 'beelden … te gebruiken om er gevoelens en ervaringen mee uit te drukken' (self-portrait, favourite things); for K3.B point b ('verwoorden van eigen ideeën, … ervaringen') the drawing comes before the words.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K9.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing rhyme is fonologisch bewustzijn, readiness for reading (K2.A point a 'vloeiend lezen'); K9.B point b names 'rijm en ritme' but as naming features of literary genres, which comes later.",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures by category builds the 'woordenschat … en kennis van de wereld' that K2.A point b uses for understanding texts; kleuter readiness, no text yet.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling b/d/p/q apart is letter knowledge before reading (K2.A point a 'aandachtig vloeiend lezen').",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.A point d: 'schrijven op letter-… niveau met een leesbaar handschrift'; Dutch schools teach the letter forms in groep 3 and the capitals later.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Klappen van lettergrepen is fonologisch bewustzijn before reading (K2.A) and a first look at 'klemtoon … en ritme' of words (K6.A point a), not yet tied to meaning or spelling.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching hoofdletter and kleine letter is letter knowledge before reading (K2.A point a).",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing the beginklank and tying it to a letter is fonemisch bewustzijn before 'vloeiend lezen' (K2.A point a); K6.A point a ('verkennen hoe letterklanken … samenhangen met de betekenis') is touched by the m-or-n contrast only.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which one does not belong is category knowledge: 'woordenschat … en kennis van de wereld' (K2.A point b) with pictures, before texts.",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tegenstellingen with pictures widen the 'woordenschat' of K2.A point b; with pictures only it is readiness.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The order of the alphabet is letter knowledge (before K2.A) and the condition for 'inzetten van hulpmiddelen en bronnen' such as a woordenboek (K6.B point e).",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "K9.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering story pictures is the step before K9.A point a ('hoe het verhaal zich ontwikkelt') and before 'tekststructuren' in K2.A point c; no text is read yet.",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing a sound at the beginning, middle or end is the auditory analysis before reading (K2.A) and before spelling (K6.B).",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Klinker and medeklinker are the 'taalkundige begrippen' of K6.A point e ('bij het denken en praten over spelling'); Dutch schools introduce them in groep 3-4.",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "K7.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two languages side by side on a word card is the step before K7.B point c ('overeenkomsten en verschillen tussen het Nederlands en andere talen … op … woord… niveau') and widens woordenschat (K2.A point b).",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hakken in klanken (with tweetekenklanken in one box) is the auditory analysis on which spelling (K6.B) and decoding (K2.A point a) rest.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building mkm-woorden from letters is the first klankzuivere spelling (K6.B: 'regels en procedures voor spelling', point c spellingbewustzijn); in the Netherlands this is groep 3.",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a word and tying it to its meaning is K2.A (point a 'lezen', point b 'woordenschat') at the first level; in the Netherlands groep 3.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point b: 'inzicht tonen in de opbouw van basale woorden om de betekenis af te leiden' — enkelvoud and meervoud.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing one sound written with two letters at the start of a word (Dutch: sch, ch, and the tweetekenklanken oe, ie, eu, ui) is readiness for reading (K2.A point a); sh/th do not exist in Dutch.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading hoogfrequente woorden at sight, alone and in sentences, is the road to 'aandachtig vloeiend lezen' (K2.A point a); in the Netherlands groep 3.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.A point d: 'schrijven op letter-, schrift- en tekstniveau met een leesbaar handschrift' — words and short sentences with spaces.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "De or het with a noun is K6.B point a: 'correct formuleren op woord-… niveau'.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "K3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K9.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finishing and making rhymes is K3.B point c: 'experimenteren met klanken, woorden'; K9.B point b ('rijm en ritme' as a genre feature) comes later.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hakken en plakken is the core of aanvankelijk lezen (towards 'vloeiend lezen', K2.A point a) and of klankzuivere spelling (K6.B) in groep 3; the new kerndoelen do not name it apart.",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Letter teams for one sound are read (K2.A point a) and written (K6.B, spelling); the Dutch counterpart is ch, sch, ng, nk and the tweetekenklanken — sh and th are not Dutch.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.B: 'regels en procedures voor spelling', point c 'ontwikkelen van spellingbewustzijn'.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading and building words by lettergrepen is groep-3 reading (K2.A point a); the klankgroepen are the base for the spelling rules of groep 4 (K6.B).",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Klinker and lettergreep used as 'taalkundige begrippen … bij het denken en praten over spelling' (K6.A point e); it prepares the open/gesloten-lettergreep rule (K6.B).",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Decoding words and finding their meaning (picture): K2.A point a 'vloeiend lezen' at groep-3 level.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "ABC order by first and second letter is what K6.B point e ('inzetten van hulpmiddelen en bronnen', the woordenboek) needs; the wording does not name it.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K2.A point b: 'inzetten en uitbreiden van woordenschat' — tegenstellingen read, written and used in a sentence.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "De-woorden and het-woorden: 'correct formuleren op woord-… niveau' (K6.B point a), with the begrip lidwoord (K6.A point e).",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K2.A: 'toont begrip van … teksten' — the child shows understanding of a sentence by doing what it says (point a, aandachtig lezen).",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word that fits the sentence shows understanding and uses woordenschat (K2.A points a and b).",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K2.A point b: 'inzetten en uitbreiden van woordenschat' — two words for one meaning.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point c: 'hoe woordvolgorde … de betekenis van een zin bepalen'; hoofdletter and punt are K6.B ('interpunctie', 'correct formuleren op … zinsniveau').",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a wie/wat/waar question to its answer is understanding sentences (K2.A); it prepares K6.A point c (which zinsdeel answers which question).",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K9.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering sentences of a story uses 'tekststructuren' (K2.A point c); K9.A point a asks to describe 'hoe het verhaal zich ontwikkelt', for which ordering is the step before.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point e: 'functioneel gebruiken van taalkundige begrippen' (zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord); Dutch methods start this in groep 4-5.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Replacing a name by hij/zij/ze: a taalkundig begrip in use (K6.A point e) and 'correct formuleren op woord-, zins-… niveau' (K6.B point a).",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering words from weak to strong widens woordenschat (K2.A point b) and is K6.A point d: 'verkennen hoe woordgebruik … de betekenis beïnvloeden'.",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point b: 'inzicht tonen in de opbouw van basale woorden om de betekenis af te leiden'.",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K3.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.A points a and c: an approach (story map) and 'tekstsoorten' (story, postcard); K3.B point b: 'verwoorden van eigen ideeën, … ervaringen, … fantasieën'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Spotting a letter team in sentences is 'ontwikkelen van spellingbewustzijn' (K6.B point c); in Dutch the pattern would be sch, ch, ng or a tweetekenklank, not sh.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.B: 'regels en procedures voor spelling, formulering en interpunctie' — hoofdletter, punt, vraagteken, sentence limits.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.A point d: 'schrijven op letter-, schrift-… niveau met een leesbaar handschrift'; Dutch schools that teach verbonden schrift do so from groep 3.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using the context of a story to find a word: K2.A points b and f ('begripsverhogende strategieën').",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the question that asks for a marked answer is understanding the sentence (K2.A) and the step before K6.A point c ('hoe woordvolgorde en zinsdelen de betekenis van een zin bepalen').",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K9.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K2.A: 'toont begrip van … literaire teksten', point e (meaning of the text); who/where/when are K9.A points b and d ('waar, wanneer … een verhaal zich afspeelt').",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing sentences for a reader about a picture (K3.A, point d 'schrijven op … tekstniveau') and 'correct formuleren op … zinsniveau' (K6.B point a).",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point e: 'taalkundige begrippen' — zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord (groep 4-5 in Dutch methods).",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the meervoud (-en, -s, -'s, with doubling or single vowel) is a spelling rule (K6.B) built on 'de opbouw van basale woorden' (K6.A point b).",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.B: 'inzicht in regels en procedures voor spelling'; the English patterns have Dutch counterparts of the same kind (open/gesloten lettergreep, ei/ij, au/ou, -d/-t by lengthening, meervoud).",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Synoniemen widen woordenschat (K2.A point b); choosing another word for 'zei' is K6.A point d: 'hoe woordgebruik … de betekenis beïnvloeden'.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same content as 2:synonyms: woordenschat (K2.A point b) and the effect of word choice (K6.A point d).",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the right verb form is 'correct formuleren op woord-, zins-… niveau' (K6.B point a); finding the werkwoord and naming tegenwoordige/verleden tijd uses the begrippen of K6.A point e.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Linking a verwijswoord to its name is a begripsstrategie (K2.A point f) and uses the begrip voornaamwoord (K6.A point e).",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words in verbonden schrift is technical reading (K2.A point a); the wording does not name script types.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Samenstellingen: K6.A point b ('opbouw van … woorden om de betekenis af te leiden') and K6.B point b ('verbinden van vorm en betekenis om de correcte spelling te achterhalen', the tussen-n and tussen-s).",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point b: the shared stam shows 'de opbouw van basale woorden'.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point b: a voorvoegsel changes the meaning (Dutch: on-, her-, ver-, be-, ont-).",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K9.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing a retelling in order with signaalwoorden (Eerst, Daarna, Toen, Tot slot) is K3.A point c ('tekststructuren'); it prepares K9.A point a ('hoe het verhaal zich ontwikkelt').",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD40",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading clues and combining them shows understanding of a short zakelijke tekst (K2.A points b and e); telling animals apart by features supports KD40 ('dieren onderscheiden en benoemen').",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "K3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.C point c: 'ordenen van … kennis in een tekst of schema'; the facts are KD40 ('hoe ze functioneren in hun leefomgeving': food, home) and KD41 ('bouw van … dieren': body covering).",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "K3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    },
+    {
+     "id": "K2.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering same and different facts in a schema (K3.C point c) about animals (KD40); it is the step before K2.B point b ('verschillen en overeenkomsten in feiten' between texts).",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "K3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K3.A point d: 'schrijven op letter-, schrift- en tekstniveau met een leesbaar handschrift'.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Woordvelden widen woordenschat (K2.A point b); telling close words apart is K6.A point d ('hoe woordgebruik … de betekenis beïnvloeden').",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K6.A point b: word build with an achtervoegsel (bakken → bakker) 'om de betekenis af te leiden'.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "K6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The stam and its family forms (K6.A point b), chosen so that the sentence is right: 'correct formuleren op woord-, zins-… niveau' (K6.B point a).",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'de bouw van … mensen en … de vorm en functie van hun onderdelen'.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Living versus non-living is the distinction before KD40 ('planten en dieren onderscheiden en benoemen'); the wording does not name it.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Which part of the plant we eat is KD41 ('bouw van planten … en hun onderdelen'); naming common fruits and vegetables is KD40 ('planten … onderscheiden en benoemen').",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD40: 'dieren onderscheiden en benoemen en … hoe ze functioneren in hun leefomgeving' (pets, farm, wild; where they live).",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD41",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming animals and their young is KD40 ('onderscheiden en benoemen'); alike and different between young and parent is a first look at 'de bouw van … dieren' (KD41).",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD46",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The seasons in order are 'tijdsindeling' (KD51); KD46 names 'seizoenen' as a natuurverschijnsel caused by the position of the earth — the sheets describe the seasons, not the cause.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD46 names 'dag-/nachtritme' but as a consequence of 'de positie van de aarde ten opzichte van de zon'; kleuters only describe day and night.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "KD43",
+     "rel": "teaches"
+    },
+    {
+     "id": "K11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD43: 'weer … beschrijven met behulp van temperatuur, neerslag en wind' (symbols, a week of weather); cold/warm/hot on a thermometer comes before measuring 'temperatuur' (K11.A point a).",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "KD44",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Natural or made by people is the first distinction before KD44 ('bij producten uit hun eigen omgeving relaties te leggen tussen de werking, de vorm en het materiaalgebruik').",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'vorm en functie van hun onderdelen' — which body part (zintuig) serves which experience.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "KD39",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD39: 'met zorg om te gaan met het milieu' — afval scheiden.",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD40: 'hoe ze functioneren in hun leefomgeving' — a plant needs water and light.",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD42 asks 'onderzoek doen aan materialen en natuurkundige verschijnselen'; sorting pictures into drijven and zinken on paper is knowledge before the investigation.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping animals is KD40 ('dieren onderscheiden en benoemen'); by fur, feathers or scales is KD41 ('de bouw van … dieren').",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD40: 'hoe ze functioneren in hun leefomgeving' — where animals live, what they eat and need.",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "How an animal or plant grows and reproduces belongs to 'hoe ze functioneren' in KD40; the wording does not name levenscyclus separately.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD42: 'onderzoek doen aan materialen en natuurkundige verschijnselen, zoals … kracht' — the sheet is the predict-and-test record of a drijven/zinken experiment.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'de bouw van … mensen'.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'vorm en functie van hun onderdelen' — the zintuigen and what each is for.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "KD43",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD43: 'hoe je weer … kunt beschrijven met behulp van temperatuur, neerslag en wind' — symbols and a weekly forecast.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "KD44",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD39",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD44: 'bij producten uit hun eigen omgeving … het materiaalgebruik'; what I recycle is KD39 ('zorg … voor het milieu').",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'de bouw van planten … en de vorm en functie van hun onderdelen' (wortel, stengel, blad, bloem).",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD46 is about 'de positie van de aarde ten opzichte van de zon' and its effects; facts about sun, earth and moon are the knowledge before, and the moon is not named in the wording.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "KD44",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD39",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD44: 'het materiaalgebruik' of everyday products; grouping them for recycling is KD39 (milieu).",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'bouw van planten … vorm en functie van hun onderdelen', with the part we eat.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The development from young stage to adult animal is part of 'hoe ze functioneren' (KD40); levenscyclus is not named separately.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "extends"
+    }
+   ],
+   "why": "KD46 gives 'natuurverschijnselen zoals seizoenen en dag-/nachtritme' from the position of earth and sun; the schijngestalten of the moon lie on the same line but are not named — in Dutch schools groep 6-8 content.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD46 word for word: 'dat de positie van de aarde ten opzichte van de zon leidt tot … dag-/nachtritme'.",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD40: plants and animals 'in hun leefomgeving'; the body feature that helps is KD41 ('vorm en functie van hun onderdelen').",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD42: 'onderzoek doen aan materialen en natuurkundige verschijnselen' — predict, test, and the effect of shape (the clay boat).",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "KD43",
+     "rel": "extends"
+    },
+    {
+     "id": "KD42",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD43 asks to describe weather with 'temperatuur, neerslag en wind'; the waterkringloop explains where neerslag comes from, a step further. Verdampen and condenseren are 'natuurkundige verschijnselen' (KD42), here named, not investigated.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD41: 'bouw van planten … vorm en functie van hun onderdelen' (meeldraad, stamper, kroonblad).",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing how butterfly and frog develop is 'hoe ze functioneren' (KD40).",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "extends"
+    }
+   ],
+   "why": "KD46 stays with earth and sun; the order and kinds of the planets go beyond it on the same line (zonnestelsel, groep 7-8 in Dutch schools).",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD42: 'De leerlingen leren onderzoek doen aan materialen en natuurkundige verschijnselen' — predict, test, record, conclude.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "KD50",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Side view against top view is K14.A point d ('relaties leggen tussen twee- en driedimensionale representaties') and the idea of a plattegrond (point c); it comes before 'omgaan met kaart en atlas' (KD50).",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No kerndoel in PART 2 names the family; the family words are 'woordenschat … en kennis van de wereld' (K2.A point b) at kleuter level. KD34-KD39 do not fit by their wording.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "KD47",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD47 looks at the own surroundings 'vanuit de perspectieven … verkeer'; sorting vehicles by land, water and air is first knowledge for that, far from the comparison the kerndoel asks.",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "KD35",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD35: 'zich redzaam te gedragen … als consument'; telling what you need from what you want is the first step.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "KD47",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD47 names the perspective 'werken' in 'de eigen omgeving'; knowing the jobs of the neighbourhood and their tools is first knowledge for it.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "KD50",
+     "rel": "teaches"
+    },
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD50: 'leren omgaan met kaart' — the legenda; K14.A point c: 'interpreteren van plattegronden'.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "prepares"
+    },
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering generations from oldest to youngest and a stamboom of the own family is a first step to 'aanduidingen van tijd' and simple sources of the own past (KD51); filling the tree from written clues is reading with understanding (K2.A).",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "KD50",
+     "rel": "teaches"
+    },
+    {
+     "id": "K14.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD50: 'omgaan met kaart en atlas' — the windrichtingen on a map; K14.A: 'plaatsbepalingen', point c 'routebeschrijvingen'.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "KD50",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD50: 'de basistopografie van Nederland, Europa en de rest van de wereld'; the werelddelen come in groep 7-8 in Dutch schools, after Nederland and Europa.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Solving riddles about tante, neef, oma is reading with understanding and woordenschat (K2.A points b and e); no KD kerndoel names family relations.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "KD50",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD50: 'basistopografie van … de rest van de wereld' and 'een eigentijds geografisch wereldbeeld'.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34: 'zorg te dragen voor de lichamelijke … gezondheid van henzelf' — healthy eating.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34: 'zorg te dragen voor de lichamelijke … gezondheid' — handen wassen, tanden poetsen.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "KD35",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD35: 'zich redzaam te gedragen … als verkeersdeelnemer' — the traffic light and crossing the road.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34 (lichamelijke gezondheid); Dutch schools use the Schijf van Vijf with five vakken, not four food groups.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34: 'zorg te dragen voor de lichamelijke … gezondheid van henzelf en anderen' — teeth, germs, daily habits.",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "KD35",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD35: 'redzaam … als verkeersdeelnemer' — verkeersborden and their meaning.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34: caring for health with the reason for each habit.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "KD35",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD35: 'redzaam … als verkeersdeelnemer' — kinds of signs (waarschuwing, verbod, aanwijzing) and their use in a situation.",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "KD54",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KD54: 'beelden … te gebruiken om er gevoelens en ervaringen mee uit te drukken en om er mee te communiceren'; drawing by given steps trains the technique, the expression of the child's own comes after.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "KD54",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Following and ordering drawing steps is technique in the service of KD54 ('beelden … te gebruiken om … uit te drukken'), not yet expression of the child's own.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "KD54",
+     "rel": "teaches"
+    },
+    {
+     "id": "K3.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing from memory and writing about the own drawing uses 'beelden, taal' to communicate (KD54); the writing is K3.B point b ('verwoorden van eigen ideeën, … ervaringen').",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Visual discrimination is kleuter readiness for telling letters and words apart (reading, K2.A point a); the wording itself does not name it.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "none": "A maze is fine-motor and route practice; no kerndoel in PART 2 has wording that fits.",
+   "why": "K15.A asks for a 'wiskundig' problem and K14.A point c for 'routebeschrijvingen'; following a maze is neither.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a figure to its outline or to a part is recognition of form before 'redeneren met en over eigenschappen van meetkundige figuren' (K14.A point a).",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "rows": [
+    {
+     "id": "K2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Close visual comparison is kleuter readiness for reading (K2.A point a); not named in the wording.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "K13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the piece that fits a row of one kind is noticing a regularity, the step before K13.A point a ('patronen in rijen … figuren').",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying square by square needs the place of each square in the grid, a step before 'plaatsbepalingen' with codes (K14.A).",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "A visual puzzle; in groep 3 it is no longer reading readiness and no wording in PART 2 names it.",
+   "why": "The mirror variant touches 'spiegelen' (K14.A point e) too lightly to defend a row.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "Picture mazes: no kerndoel in PART 2 has wording that fits.",
+   "why": "Finding a way through a drawing is not a 'wiskundig probleem' (K15.A) nor a 'routebeschrijving' (K14.A point c).",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "K14.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Row/column tracking in a grid is the step before 'plaatsbepalingen' with coordinates (K14.A).",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "Analogies (A is to B as C is to ?) are not named by any kerndoel in PART 2.",
+   "why": "K13.A is about patterns and verbanden 'in rijen getallen en figuren' and 'datasets'; an analogy between pictures is general reasoning, not that.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "none": "Decoding with a key fits no wording in PART 2.",
+   "why": "K15.C is about describing and devising 'algoritmes' and K16.A about mathematical symbols; a substitution code for letters is neither.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A points a and b: 'een aanpak voor een niet-routinematig oplosbaar probleem' and 'gebruiken van heuristieken' (exclusion by row, column and box).",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A points a and b: a non-routine problem solved by systematic exclusion (a heuristic).",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "K6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the writing part fits: a sentence about each difference is 'correct formuleren op … zinsniveau' (K6.B point a); the search itself fits no kerndoel.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A points a, b and d: an approach for a non-routine problem, a heuristic (cross out what cannot be), and checking the solution.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K12.A points a and e: 'invullen van tabellen bij data' (row × column) and 'diagrammen' (the Venn diagram).",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "K12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same content as 3:two-attribute-sort: a table by two attributes and a Venn diagram (K12.A points a and e).",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A points a and b: non-routine problem, heuristic of exclusion.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K15.A points a and b: 'een aanpak voor een niet-routinematig oplosbaar probleem', 'heuristieken'.",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "KD34: 'zorg te dragen voor de … psychische gezondheid van henzelf en anderen' — recognising and naming feelings is its content in groep 1-2.",
+   "review": "author-all"
+  }
+ }
+}

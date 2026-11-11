@@ -79,12 +79,12 @@ function stackedFractions(words) {
   }
   return out.filter((w) => !gone.has(w));
 }
-function rowsOf(p) {
+function rowsOf(p, liftMaxX = 60) {
   const rows = [];
   let row = null;
   // the dash of a list item stands lower than its text (by two to six points): it is lifted by three before the lines
   // are told apart, so that it never falls onto a line of its own below its objective
-  const lifted = p.words.map((w) => { if ((w[4] !== '-' && w[4] !== '–') || w[0] > 60) return w; const c = w.slice(); c[1] = w[1] - 3; return c; });   // (a minus sign inside a line is left alone)
+  const lifted = p.words.map((w) => { if ((w[4] !== '-' && w[4] !== '–') || w[0] > liftMaxX) return w; const c = w.slice(); c[1] = w[1] - 3; return c; });   // (a minus sign inside a line is left alone)
   for (const w of stackedFractions(lifted.sort((a, b) => a[1] - b[1] || a[0] - b[0]))) {
     // (5 points still keeps two printed lines apart)
     if (!row || Math.abs(w[1] - row.y) > 5) { row = { y: w[1], words: [] }; rows.push(row); }
@@ -197,31 +197,72 @@ function parse(doc, pages) {
       version: doc.bo + '; in force from the rentrée 2025', band: doc.kind === 'cycle2' ? 'single years: CP (1), CE1 (2), CE2 (3)' : 'the programme speaks of ages: from 4 (M4), from 5 (M5, the year before CP)', ids: 'this registry\'s own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under',
       citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: kept.length + ' objectives read from the left column of ' + r.tables + ' tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF' });
   }
-  // histoire-géographie: the programme is prose; what is read is the list of its themes, year by year
+  // histoire-géographie: each theme prints a table "Objectifs d'apprentissage": the "Attendus (connaissances et
+  // compétences)" as dash items in TWO columns side by side (read down the first, then down the second) and, to their
+  // right, the "Repères" (dates and names to know: not read). A theme is a node, and each attendu a node under it.
   {
     const doc = HISTGEO;
     const buf = await fetchRaw(REG, doc.file, doc.url);
-    const { pages } = sources(doc.file);
-    let disc = null, year = null, n = 0, cur = null;
+    const { pages, plain } = sources(doc.file);
+    // where the columns stand, from the document itself: the second column of attendus begins where its dashes
+    // stand; the Repères begin where most lines right of it begin
+    const mode = (xs) => { const c = new Map(); for (const x of xs) { const k = Math.round(x); c.set(k, (c.get(k) || 0) + 1); } return [...c].sort((p, q) => q[1] - p[1])[0]; };
+    const allWords = pages.flatMap((p) => p.words);
+    const bDash = mode(allWords.filter((w) => (w[4] === '-' || w[4] === '–') && w[0] > 150 && w[0] < 330).map((w) => w[0]));
+    const rStartM = bDash ? mode(allWords.filter((w) => w[0] > bDash[0] + 120 && w[0] < bDash[0] + 230).map((w) => w[0])) : null;
+    if (!bDash || !rStartM || bDash[1] < 20) problems.push(doc.key + ': the two columns of attendus were not found');
+    const bStart = bDash ? bDash[0] - 3 : 0, rStart = rStartM ? rStartM[0] - 2 : 9999;
+    let disc = null, year = null, n = 0, theme = null, title = null, inTable = false, colA = [], colB = [], curA = null, curB = null;
     const mine = [];
-    for (const p of pages) for (const r of rowsOf(p)) {
+    const flush = () => {
+      if (theme) [...colA, ...colB].forEach((lines, i) => mine.push({ id: theme.id + '.' + (i + 1), f: doc.key, kind: 'standard', grade: theme.grade, parent: theme.id, text: join(lines) }));
+      colA = []; colB = []; curA = curB = null; inTable = false;
+    };
+    for (const p of pages) for (const r of rowsOf(p, 330)) {
+      if (r.y > p.height - 30) continue;
       const first = r.words[0], allBold = r.words.every((w) => w[5]);
-      if (first[0] > 45) continue;
-      if (first[6] >= 13 && /^(Histoire|Géographie)$/.test(r.text)) { disc = r.text; year = null; cur = null; continue; }
-      const y = allBold && first[6] >= 10.5 ? YEARS.find(([re]) => re.test(r.text)) : null;
-      if (y && disc) { year = y; n = 0; cur = null; if (!mine.some((x) => x.id === doc.letter + '.' + y[1])) mine.push({ id: doc.letter + '.' + y[1], f: doc.key, kind: 'area', grade: y[2], text: doc.title + ' — ' + y[1] }); continue; }
+      if (first[0] <= 45 && first[6] >= 13 && /^(Histoire|Géographie)$/.test(r.text)) { flush(); theme = null; disc = r.text; year = null; title = null; continue; }
+      const y = first[0] <= 45 && allBold && first[6] >= 10.5 ? YEARS.find(([re]) => re.test(r.text)) : null;
+      if (y && disc) { flush(); theme = null; year = y; n = 0; title = null; if (!mine.some((x) => x.id === doc.letter + '.' + y[1])) mine.push({ id: doc.letter + '.' + y[1], f: doc.key, kind: 'area', grade: y[2], text: doc.title + ' — ' + y[1] }); continue; }
       if (!disc || !year) continue;
-      if (allBold && /^Thème \d+ :/.test(r.text)) { cur = { id: doc.letter + '.' + year[1] + '.' + (disc === 'Histoire' ? 'H' : 'G') + (++n), f: doc.key, kind: 'content', grade: year[2], parent: doc.letter + '.' + year[1], domain: disc, text: r.text }; mine.push(cur); continue; }
-      if (allBold && cur && first[6] === cur._size) continue;
-      if (allBold && cur && first[6] >= 9.5 && first[6] < 10.5) { cur.text += ' ' + r.text; continue; }   // a theme's title that runs on to a second line
-      cur = null;
+      if (first[0] <= 45 && allBold && /^Thème \d+ :/.test(r.text)) {
+        flush();
+        theme = { id: doc.letter + '.' + year[1] + '.' + (disc === 'Histoire' ? 'H' : 'G') + (++n), f: doc.key, kind: 'subarea', grade: year[2], parent: doc.letter + '.' + year[1], domain: disc, text: r.text };
+        mine.push(theme); title = theme;
+        continue;
+      }
+      if (first[0] <= 45 && allBold && title && first[6] >= 9.5 && first[6] < 10.5) { title.text += ' ' + r.text; continue; }   // a theme's title that runs on to a second line
+      title = null;
+      if (!theme) continue;
+      if (allBold && /Attendus/.test(r.text)) { inTable = true; continue; }   // the table's header
+      if (allBold) continue;                                                  // the rest of the header ("compétences)")
+      if (first[0] <= 37.5 && !/^[-–]$/.test(first[4])) { if (/^Mots-clés/.test(r.text)) flush(); continue; }   // "Question : …", "Mots-clés : …", a paragraph
+      if (!inTable) continue;
+      const A = r.words.filter((w) => w[0] < bStart), B = r.words.filter((w) => w[0] >= bStart && w[0] < rStart);
+      for (const [ws, col, which] of [[A, colA, 'A'], [B, colB, 'B']]) {
+        if (!ws.length) continue;
+        const dash = ws[0][4] === '-' || ws[0][4] === '–';
+        const text = ws.slice(dash ? 1 : 0).map((w) => w[4]).join(' ');
+        if (dash) { const lines = [text]; col.push(lines); if (which === 'A') curA = lines; else curB = lines; }
+        else { const cur = which === 'A' ? curA : curB; if (cur) cur.push(text); }
+      }
     }
-    for (const [, code] of YEARS) for (const d of ['H', 'G']) if (!mine.some((x) => x.id.startsWith(doc.letter + '.' + code + '.' + d))) problems.push(doc.key + ': no theme read for ' + code + ' (' + d + ')');
-    for (const [, code] of YEARS) { const a = mine.find((x) => x.id === doc.letter + '.' + code); if (a) nodes.push(a, ...mine.filter((x) => x.parent === a.id)); }
+    flush();
+    const themes = mine.filter((x) => x.kind === 'subarea'), attendus = mine.filter((x) => x.kind === 'standard');
+    for (const [, code] of YEARS) for (const d of ['H', 'G']) if (!themes.some((x) => x.id.startsWith(doc.letter + '.' + code + '.' + d))) problems.push(doc.key + ': no theme read for ' + code + ' (' + d + ')');
+    for (const t of themes) if (attendus.filter((x) => x.parent === t.id).length < 2) problems.push(t.id + ' ("' + t.text.slice(0, 50) + '"): fewer than two attendus read');
+    const plainFlat = flat(plain);
+    for (const x of attendus) {
+      if (x.text.length < 12 || !/^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(x.text)) problems.push(x.id + ': not a full statement: "' + x.text.slice(0, 50) + '"');
+      else if (!plainFlat.includes(flat(x.text).slice(0, 14))) problems.push(x.id + ': does not begin as any line of a second reading: "' + x.text.slice(0, 40) + '"');
+    }
+    // the document prints every attendu as a line that opens with a dash: the count of such lines under the themes is the count read
+    for (const [, code] of YEARS) { const a = mine.find((x) => x.id === doc.letter + '.' + code); if (a) nodes.push(a, ...themes.filter((x) => x.parent === a.id).flatMap((t) => [t, ...attendus.filter((x) => x.parent === t.id)])); }
     frameworks.push({ key: doc.key, short: 'Programmes', subject: doc.subject, title: doc.title, publisher: 'Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale)', year: '2026', officialDocument: doc.url, readFrom: doc.url, accessed: ACCESSED, sha256: sha256(buf),
-      version: doc.bo + '; listed by the Ministry among the cycle 2 programmes of the rentrée 2026', band: 'single years: CP (1), CE1 (2), CE2 (3)', ids: 'this registry\'s own: year, H (histoire) or G (géographie), the theme\'s own number',
-      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: mine.filter((x) => x.kind === 'content').length + ' themes read (their titles only: the programme describes each theme in prose)' });
+      version: doc.bo + '; listed by the Ministry among the cycle 2 programmes of the rentrée 2026', band: 'single years: CP (1), CE1 (2), CE2 (3)', ids: 'this registry\'s own: year, H (histoire) or G (géographie), the theme\'s own number, then the place of the attendu in its theme',
+      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: themes.length + ' themes and ' + attendus.length + ' attendus read (the two columns of "Attendus (connaissances et compétences)"; the "Repères" beside them are not read); every theme holds at least two attendus; each begins as a printed line of a second reading of the PDF' });
   }
+
   // Science. The cycle 2 programme "Sciences et technologie" of 2026 is published as a scan (no text to read). What
   // the Ministry still lists beside it for the rentrée 2026 is the part "Questionner le monde du vivant, de la matière
   // et des objets" of the cycle 2 programme of 2020: its "attendus de fin de cycle" and, from its tables, the left

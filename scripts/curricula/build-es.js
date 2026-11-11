@@ -169,6 +169,9 @@ function parse(fase, pages) {
           contenido = { id: 'F' + fase.no + '.' + campo.code + '.' + (++cNo), f: campo.key, kind: 'content', grade: fase.grades[0] + '-' + fase.grades[fase.grades.length - 1], parent: 'F' + fase.no + '.' + campo.code, text: '', _lines: [text] };
           nodes.push(contenido); counts[contenido.id] = new Array(N).fill(0);
           last[0] = { node: contenido, y: r.y, page: p.n };
+          // a new contenido is a new row of the table: every grade's cell begins anew on this line, however close the
+          // line stands to the last line of the row above (a process of the next contenido is no continuation)
+          for (let k = 1; k < N; k++) last[k] = null;
         } else {
           if (!contenido) { problems.push('fase ' + fase.no + ' page ' + p.n + ': a process before any contenido: "' + text.slice(0, 50) + '"'); continue; }
           const node = { id: contenido.id + '.G' + fase.grades[c - 1] + '.' + (++counts[contenido.id][c]), f: campo.key, kind: 'standard', grade: fase.grades[c - 1], parent: contenido.id, text: '', _lines: [text] };

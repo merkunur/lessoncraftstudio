@@ -1,0 +1,3842 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "GP3 asks the child to express 'la posición y ubicación de objetos ... con respecto a su cuerpo y a otros objetos; usa gradualmente referentes convencionales', which is what on/under/left/right sheets practise. First grade then uses the same 'referencias espaciales (enfrente, detrás, derecha, izquierda ...)' in drawings and croquis.",
+   "review": "author-math"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the shape sheets fit: 'Observa y reconoce atributos geométricos en objetos y elementos de su entorno' (finding every object with a given shape). Plain picture search has no objective of its own.",
+   "review": "author-math"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "F2.SPC.6.GP1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.6.GP3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picking the longest/tallest by eye is 'Compara a ojo y de manera perceptiva la longitud ... y dice cuál es más largo o corto' (1° de preescolar). GP3 wants the comparison 'con apoyo de un intermediario', which a picture row does not ask, so it only prepares it.",
+   "review": "author-math"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.6.GP3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Ordena elementos de una serie' is the seriation itself (the ordinal half of that process is not used). Ordering by height is a step toward comparing lengths of 'dos o más objetos' and saying which is 'más largo, más corto'.",
+   "review": "author-math"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP2.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.5.GP3.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Extending and filling a pattern is 'Distingue y reproduce patrones de repetición o crecimiento en una secuencia' (2° de preescolar). GP3 asks the child to create patterns ('Crea patrones de repetición y crecimiento'), which completing a given one only prepares.",
+   "review": "author-math"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing one to one is one of the 'distintas estrategias' by which collections are compared 'para determinar cuál tiene más o menos elementos'; the sheets practise the strategy before the comparison is asked.",
+   "review": "author-math"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'las compara ... para determinar cuál tiene más o menos elementos' is the skill; the 2° de preescolar process 'Compara colecciones de pocos elementos' is the same task with small sets.",
+   "review": "author-math"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Cuenta objetos y elementos de su entorno' plus 'Representa cantidades, con dibujos, símbolos personales y numerales' cover counting and writing the number. First grade asks for the same ('cuenta ... lee y escribe la cantidad de elementos de una colección') but 'paulatinamente de hasta 100 elementos', so a 10–20 range prepares it.",
+   "review": "author-math"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No process names recognising a quantity at a glance; it is a readiness for 'Cuenta objetos y elementos de su entorno ... con diversos propósitos' (telling how many without counting one by one).",
+   "review": "author-math"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Conservation is not named; it is the idea a child needs before 'Construye colecciones y las compara mediante distintas estrategias' can give a reliable more/fewer/same answer for collections arranged differently.",
+   "review": "author-math"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Colouring exactly N is 'Construye colecciones' of a given size, and it is counting 'con diversos propósitos' (to make a set, not only to say how many).",
+   "review": "author-math"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "GP3: 'reconoce atributos geométricos ... y los describe con sus palabras y con términos convencionales' (naming the shapes). First grade asks to 'reconocer y describir ... sus nombres y propiedades (forma y número de lados y vértices)' with tangram figures, which this prepares.",
+   "review": "author-math"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing numerals is the graphic step before 'Representa cantidades, con ... numerales' (preescolar) and before 'lee y escribe la cantidad de elementos de una colección' (1°); on its own it represents no quantity.",
+   "review": "author-math"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a numeral as a colour key is 'Usa números con distintos propósitos y en distintas situaciones' (the number as a code, not a count). No GP3 process is more exact.",
+   "review": "author-math"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.16.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child counts each kind ('Cuenta objetos ... con diversos propósitos') and writes the counts by kind, i.e. 'Organiza y registra información en tablas o cuadros sencillos'. That is the step before first grade's 'Elabora registros de datos mediante ... pictogramas o tablas'.",
+   "review": "author-math"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.13.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sides are 'atributos geométricos' the GP3 child recognises and describes. Counting them prepares 'propiedades (forma y número de lados y vértices)' in 1° and sorting by them prepares 'Clasifica y describe polígonos por el número de lados' in 2°.",
+   "review": "author-math"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The content is the number series in order: 'Dice la serie numérica en orden y amplía su rango de conteo' (the sheet asks it in writing). First grade takes the same series 'primero hasta 20, luego hasta 40 ... hasta 120'.",
+   "review": "author-math"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in counting order uses 'la serie numérica en orden' and widens the 'rango de conteo' (to 20 and 30). Counting on from 11 prepares first grade's 'de manera ascendente ... a partir de un número dado'.",
+   "review": "author-math"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding one or taking one away from a counted group is a situation of 'agregar ... quitar' in the sense of GP3. It prepares first grade's 'situaciones que implican agregar, quitar ...' that lead to suma and resta.",
+   "review": "author-math"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Before/after/between rests on 'la serie numérica en orden'. Counting backward is only asked in 1° ('de manera ascendente y descendente a partir de un número dado'), so that part prepares it.",
+   "review": "author-math"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Ordena elementos de una serie y usa números ordinales para expresar el lugar que ocupa cada elemento' is exactly this. The programme returns to ordinals only in 3° ('colección de hasta diez elementos', 'en español'), which the K sheets prepare.",
+   "review": "author-math"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "F3.SPC.15.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G1.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F2.SPC.6.GP3.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme places the days in 1° de primaria: 'reconoce que la semana está integrada por siete días que ocurren cíclicamente'. Knowing 'los nombres y orden de los días de la semana' is what F3.SPC.8.G1.2 uses to record changes, and preschool only asks the use of 'calendarios'.",
+   "review": "author-math"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.16.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tallies are a way to 'Representa cantidades, con dibujos, símbolos personales y numerales' and to read a record back ('interpreta los registros'). They prepare the 'registros de datos' of first grade.",
+   "review": "author-math"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The only wording on estimating a number is 'Interpreta situaciones numéricas que se le plantean y estima sus resultados' (1° de preescolar); the check is 'Cuenta objetos ... con diversos propósitos'.",
+   "review": "author-math"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "F2.SPC.6.GP1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.6.GP3.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.14.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Distingue objetos pesados y ligeros' is the paper task. GP3 ('Usa balanzas o básculas para comparar el peso') and 1° ('Sopesa objetos ... comprueba su estimación con el apoyo de una balanza') need real objects, so a pictured balance only prepares them.",
+   "review": "author-math"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP2.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing named shapes is 'Identifica formas geométricas ... y los representa con dibujos y líneas'. Building them on dot paper by sides and corners prepares 2°: 'los construye sobre retículas de cuadrados o puntos'.",
+   "review": "author-math"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is the action 'juntar' of GP3. It prepares 1°: 'la suma es el total de dos o más cantidades'.",
+   "review": "author-math"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is the action 'quitar' of GP3. It prepares 1°: 'la resta, como la pérdida de elementos en una colección'.",
+   "review": "author-math"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A known group plus loose ones is a situation of 'agregar' (GP3). Counting on from the group size prepares first grade's series 'a partir de un número dado' and the idea of suma as a total.",
+   "review": "author-math"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting a number in two parts and finding the missing part are the actions 'juntar, ... separar, ... igualar cantidades' of GP3. They prepare first grade's situations of 'juntar ... y completar'.",
+   "review": "author-math"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.5.GP2.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Representa y reproduce objetos, animales y plantas con el tangram' (GP3) and 'Juega con el tangram para hacer composiciones' (2° de preescolar) name the tangram directly. First grade continues it with names and properties of the pieces.",
+   "review": "author-math"
+  },
+  "K:mirror-image": {
+   "none": "Reflection is not named before 3° de primaria (simetría, F4.SPC.15.G3.1); too far from a preschool picture task.",
+   "why": "No process of Fase 2 or Fase 3 mentions mirror images or symmetry.",
+   "review": "author-math"
+  },
+  "K:odd-even-pairing": {
+   "none": "Par / impar is not named anywhere in Fases 2 to 4.",
+   "why": "The only mention of an even number in PART 2 is incidental ('la mitad de un número natural par', 4°); pairing objects fits no preschool process.",
+   "review": "author-math"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two ten-frames are a way to 'Representa cantidades, con dibujos ... y numerales'. Ten and some more prepares first grade's 'representa de diferentes formas ... la cantidad de elementos' up to 100.",
+   "review": "author-math"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "extends"
+    }
+   ],
+   "why": "Written sums and restas are first-grade work in Mexico: 'calcular mentalmente sumas o restas con números naturales de una cifra'. Against preschool's collaborative 'agregar, juntar, quitar, separar' with objects the sheets go further.",
+   "review": "author-math"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.8",
+     "rel": "extends"
+    }
+   ],
+   "why": "Bonds to 20 are part-whole work for 1°: situations of 'juntar ... y completar' showing that 'la suma es el total de dos o más cantidades'. The range is beyond what preschool's GP3.7 expects.",
+   "review": "author-math"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining two pictured groups shows 'la suma es el total de dos o más cantidades'; the models are the 'representaciones gráficas' with which G1.2 asks sums to be represented.",
+   "review": "author-math"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Crossing out is 'quitar' and shows 'la resta, como la pérdida de elementos en una colección'; the picture model is one of the 'representaciones gráficas' of G1.2.",
+   "review": "author-math"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'representa de diversas formas ... sumas y restas, incluyendo los signos +, −, = y numerales' is writing the whole equation for a picture.",
+   "review": "author-math"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP2.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Picture patterns live only in preschool: 'Distingue y reproduce patrones de repetición o crecimiento en una secuencia'. Fase 3 has no process on figure patterns (its 'regularidades' are about the number sequence).",
+   "review": "author-math"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.5.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Compara y organiza elementos del entorno ... de acuerdo con uno o dos criterios' is sorting by a given criterion. First grade asks to classify real objects by characteristics 'con base en criterios propios o consensuados', which sorting pictures prepares. The skill line does not say what is sorted.",
+   "review": "author-math"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Partners of 10 are mental 'sumas o restas con números naturales de una cifra', and finding the partner is a situation of 'completar'.",
+   "review": "author-math"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "F3.SPC.13.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'reconocer y describir ... sus nombres y propiedades (forma y número de lados y vértices), utilizando paulatinamente un lenguaje formal' is naming shapes and judging them by defining attributes.",
+   "review": "author-math"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "F2.SPC.4.GP3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Fase 3 has no ordinal process. Preschool: 'usa números ordinales para expresar el lugar que ocupa cada elemento'; 3° de primaria: 'Identifica y usa los números ordinales, en español ... colección de hasta diez elementos', which the ordinal-word sheets meet.",
+   "review": "author-math"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Placing a number between its neighbours is 'ordena, representa de diferentes formas' quantities up to 100. Reading the line prepares 2°: 'avanzar (suma) y retroceder (resta) en la recta numérica'.",
+   "review": "author-math"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme names this in 2°: 'avanzar (suma) y retroceder (resta) en la recta numérica'. In 1° the hops are one of the 'diversas formas' of representing sums and restas, and counting back from 20 practises the series 'de manera ... descendente a partir de un número dado' (asked orally).",
+   "review": "author-math"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Resuelve problemas vinculados a su contexto que implican sumas o restas (sin hacer uso del algoritmo convencional) con cantidades de hasta dos dígitos; representa de diversas formas' is the task; the problem types are those of G1.1 ('agregar, quitar, juntar, comparar y completar').",
+   "review": "author-math"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "F3.SPC.16.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.16.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting into a table is 'Elabora registros de datos mediante ... pictogramas o tablas para responder preguntas'. Reading the picture graph for most / how many more is the 'interpreta datos en tablas o pictogramas' part of the 2° process.",
+   "review": "author-math"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G4.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Doubles to 20 are sums of one-digit numbers done in the head (G1.3). The programme names 'el doble ... y la mitad de un número natural par de dos cifras' only in 4°, which these prepare.",
+   "review": "author-math"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Par / impar is not named in Fases 2 to 4. Sharing a group fairly between two is a first 'reparto', the step before 2°: 'problemas que implican repartos con divisores menores que 10'.",
+   "review": "author-math"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A double plus one is exactly a strategy in the sense of 'Utiliza, explica y comprueba sus estrategias para calcular mentalmente sumas o restas con números naturales de una cifra'.",
+   "review": "author-math"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'la suma es el total de dos o más cantidades' covers three addends; the groups and the written sum are the representations of G1.2.",
+   "review": "author-math"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "F3.SPC.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No single process states the inverse relation, but the contenido is named 'Construcción de la noción de suma y resta, y su relación como operaciones inversas'. Writing the four facts uses 'los signos +, −, = y numerales' of G1.2.",
+   "review": "author-math"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "An unknown in a sum or resta within 20 is a problem 'con cantidades de hasta dos dígitos' written with the signs (G1.2); finding the missing amount is a situation of 'completar' (G1.1).",
+   "review": "author-math"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The meaning of '=' belongs to 'incluyendo los signos +, −, = y numerales'. Seeing 9 − 2 = 3 + 4 as two names for one amount prepares 2°: 'Representa con diferentes expresiones aditivas (suma y resta) cantidades'.",
+   "review": "author-math"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Part-part-whole and comparison bars are the situations 'juntar, comparar y completar' of G1.1, shown in the 'representaciones gráficas' of G1.2.",
+   "review": "author-math"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "F3.SPC.13.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Representa animales, plantas u objetos utilizando el tangram y otras figuras geométricas' is the task. It prepares 2°: 'composiciones geométricas cada vez más complejas ... con el uso del tangram'.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "F3.SPC.15.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.15.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1°: 'Utiliza términos como antes, después, hoy, ayer, mañana ... con el apoyo de calendarios; ... la semana está integrada por siete días'. Months in order belong to 2°: 'el año está integrado por doce meses que ocurren cíclicamente'. The same words serve F3.SPC.8.G1.2 to record natural changes.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "F3.SPC.15.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.6.GP3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The months-and-seasons part: 'el año está integrado por doce meses que ocurren cíclicamente' (2°) and preschool's 'cambios en la naturaleza, como ... las estaciones del año'. It prepares 2°: 'fenómenos naturales que ocurren durante los meses y el año ... para establecer regularidades'. Primary school has no process that names the four seasons before 3° (traslación).",
+   "review": "author-math"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "F3.SPC.14.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.14.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.6.GP3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring with cubes and ordering three objects is 2°: 'Estima, mide, compara, ordena y registra longitudes, usando unidades arbitrarias'. 1° asks to compare lengths 'con apoyo de un intermediario ... cuál es el mayor, el menor', and preschool already 'Mide objetos ... con unidades no convencionales'.",
+   "review": "author-math"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F2.SPC.6.GP3.6",
+     "rel": "extends"
+    }
+   ],
+   "why": "Clock reading is placed in 3° de primaria: 'Lee relojes de manecillas y digitales ... usando la hora, media hora, cuarto de hora y los minutos'; hour and half hour are its first part. Preschool only asks the use of 'relojes ... digitales y análogos' as instruments. Fase 3 has no clock process.",
+   "review": "author-math"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'estrategias para calcular mentalmente sumas o restas con números naturales de una cifra' (make-a-ten is such a strategy). It prepares 2°: the same 'con números naturales de hasta dos cifras'.",
+   "review": "author-math"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The bricks are mental sums (range judged by the year: one-digit addends). Finding a missing brick by subtracting is the contenido itself: suma and resta 'y su relación como operaciones inversas'.",
+   "review": "author-math"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking and correcting worked sums is the 'comprueba' of 'Utiliza, explica y comprueba sus estrategias para calcular mentalmente sumas o restas'.",
+   "review": "author-math"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "F3.SPC.16.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Colouring bars from counts is a record of data in the sense of 'Elabora registros de datos mediante distintos recursos como pictogramas o tablas'. The programme names 'gráficas de barras' only in 4° ('Interpreta tablas de frecuencias y gráficas de barras').",
+   "review": "author-math"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rods and cubes are 'representa de diferentes formas ... hasta 100 elementos'. The words decenas and unidades appear in 2°: 'regularidades en los números que representan unidades, decenas y centenas'.",
+   "review": "author-math"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'interpreta, lee y escribe la cantidad de elementos de una colección ... paulatinamente de hasta 100' includes reading and writing the number names.",
+   "review": "author-math"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The signs are a 2° process: 'Utiliza los símbolos <, > o = para comparar u ordenar dos números'. Ordering numbers up to 100 is the 'ordena' of 1°.",
+   "review": "author-math"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Identifica regularidades en la sucesión numérica hasta 100' is the hundreds-chart work (+1 to the right, +10 down).",
+   "review": "author-math"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1 and 10 more or less are regularities 'en la sucesión numérica hasta 100'. They prepare mental sums and restas 'con números naturales de hasta dos cifras' (2°).",
+   "review": "author-math"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'representa de diferentes formas, interpreta, lee y escribe la cantidad' is the whole idea of one number shown many ways.",
+   "review": "author-math"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting by 2s, 5s and 10s is a regularity 'en la sucesión numérica hasta 100'. The running total of equal groups prepares 2°: multiplication through 'sumas iteradas'.",
+   "review": "author-math"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Setting hands for the hour, half hour, quarter hours and five minutes needs what 3° asks: 'Lee relojes de manecillas ... usando la hora, media hora, cuarto de hora y los minutos'. The programme places it two years after the worksheets.",
+   "review": "author-math"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.9",
+     "rel": "extends"
+    }
+   ],
+   "why": "Fase 3 has no money process; adding coins is a problem 'vinculado a su contexto' with sums 'de hasta dos dígitos'. Preschool: 'Reconoce el valor de monedas y billetes ... y estima para qué le alcanza'; totalling and comparing two purses goes beyond it.",
+   "review": "author-math"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'avanzar (suma) y retroceder (resta) en la recta numérica' (2°). The jumps of tens and ones written down are the support for the mental strategies 'con números naturales de hasta dos cifras'.",
+   "review": "author-math"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2°: 'calcular mentalmente sumas o restas con números naturales de hasta dos cifras'. 1° already asks sums and restas 'sin hacer uso del algoritmo convencional ... con cantidades de hasta dos dígitos'.",
+   "review": "author-math"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Complements to 100 are mental sums and restas with two-digit numbers (2°), and each pair is one of the 'diferentes expresiones aditivas' of a quantity.",
+   "review": "author-math"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.10.G2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bundling tens is a way to count and 'representa de diferentes formas' up to 100 (1°). It prepares the 2° reading of 'unidades, decenas y centenas' and the sums 'utilizando agrupamientos'.",
+   "review": "author-math"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Moves of 1 and 10 on the chart are 'regularidades en la sucesión numérica hasta 100'. Counting the jumps between two numbers prepares mental restas with two-digit numbers.",
+   "review": "author-math"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Loose fit: par / impar is never named in Fases 2 to 4. The only wording that holds it is 'Identifica regularidades en la sucesión numérica hasta 100' (the ones-digit rule for numbers under 100 is such a regularity).",
+   "review": "author-math"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Locating a number between labelled ticks is 'ordena, representa de diferentes formas' numbers up to 100. It prepares the use of 'la recta numérica' to add and subtract in 2°.",
+   "review": "author-math"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "F3.SPC.13.G2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Clasifica y describe polígonos por el número de lados en triángulos, cuadriláteros, pentágonos, hexágonos y octágonos'.",
+   "review": "author-math"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number walls and mazes are practice of 'sumas o restas con números naturales de hasta dos cifras' without a context problem, so the mental-calculation process is the exact one.",
+   "review": "author-math"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2°: 'situaciones problemáticas vinculadas a su contexto que implican sumas ... con números de hasta dos cifras'; that process names only sums, so the subtraction problems rest on 1°: 'sumas o restas ... con cantidades de hasta dos dígitos'. Two steps are not mentioned in either.",
+   "review": "author-math"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "F4.SPC.16.G3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.14.G2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "2° measures with 'unidades arbitrarias'; the ruler in centimetres goes beyond it. Conventional units come in 3°: 'medición, estimación y comparación, de longitudes ... con el uso del metro ... el decímetro y centímetro', which one reading on a ruler prepares.",
+   "review": "author-math"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "F4.SPC.16.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.14.G2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Measuring two objects and finding the difference is 'medición ... y comparación, de longitudes' with the centímetro (3°). Against 2° ('mide, compara ... usando unidades arbitrarias') the standard unit goes further.",
+   "review": "author-math"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'representa de diferentes formas, interpreta, lee y escribe la cantidad de elementos de colecciones con menos de 1000 elementos; ... unidades, decenas y centenas'.",
+   "review": "author-math"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of a digit is 'los números que representan unidades, decenas y centenas'; the expanded form is one of the 'diferentes expresiones aditivas' for 'cantidades menores a 1000'.",
+   "review": "author-math"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The chart shows 'regularidades en los números que representan unidades, decenas y centenas' and is the 'sucesión numérica hasta 1000' in written form (the process asks it orally).",
+   "review": "author-math"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting by 10s and 100s shows the regularities of 'decenas y centenas' below 1000; the 5s and 10s up to 100 are 'regularidades en la sucesión numérica hasta 100'.",
+   "review": "author-math"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Utiliza los símbolos <, > o = para comparar u ordenar dos números' and the 'ordena' of collections 'con menos de 1000 elementos'.",
+   "review": "author-math"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "100 more or less changes only the hundreds: 'regularidades en los números que representan unidades, decenas y centenas'. It prepares 3°: mental sums and restas 'de hasta tres cifras'.",
+   "review": "author-math"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Lee relojes de manecillas y digitales ... usando la hora, media hora, cuarto de hora y los minutos' (3° de primaria; Fase 3 has no clock process).",
+   "review": "author-math"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "F3.SPC.15.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.15.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Both processes work 'con el apoyo de calendarios': 1° on the week ('siete días que ocurren cíclicamente', so one week later is the same weekday), 2° on 'periodos (día, semana, mes y año)'.",
+   "review": "author-math"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "F3.SPC.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.12.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No process asks to tell figures from bodies, but the programme splits them into two contenidos and this one is 'Cuerpos geométricos y sus características'. Sorting flat from solid comes before 'Clasifica ... cuerpos geométricos de acuerdo con distintos criterios (caras planas o curvas, caras iguales)'.",
+   "review": "author-math"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "F2.SPC.5.GP1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.12.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only wording on matching objects to solids is in preschool: 'características de forma en objetos cotidianos y las asocia con cuerpos geométricos'. In 2° the same objects and bodies are classified by their faces, which the matching prepares.",
+   "review": "author-math"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "F4.SPC.14.G4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.12.G2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Counting them is a 4° process: 'características de distintos prismas rectos (números de vértices y aristas, número y formas de caras)'; pyramids, cylinders and cones are not named there. 2° only classifies by 'caras planas o curvas, caras iguales'.",
+   "review": "author-math"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.3",
+     "rel": "extends"
+    },
+    {
+     "id": "F4.SPC.12.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2° adds 'utilizando agrupamientos ... con números de hasta dos cifras'; blocks within 1000 go beyond that range. Sums 'de hasta tres cifras' are a 3° process, with the algorithm, which the block model prepares.",
+   "review": "author-math"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'restas de números naturales de hasta tres cifras utilizando agrupamientos y el algoritmo convencional' is 3°; taking blocks away is its model before the algorithm. Fase 3 has no process for subtraction with regrouping.",
+   "review": "author-math"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2° names only the addition algorithm with 'números de hasta dos cifras'. Three-digit sums and every written subtraction ('restas ... de hasta tres cifras utilizando ... el algoritmo convencional') are 3°. All three ask it inside context problems; the sheets give the bare calculation.",
+   "review": "author-math"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.10.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.4.GP3.9",
+     "rel": "extends"
+    }
+   ],
+   "why": "Prices are 'situaciones problemáticas vinculadas a su contexto' with sums (2°) and restas of two-digit amounts (1° wording, for change and how much more). 'estima para qué le alcanza' is the preschool start of the same line.",
+   "review": "author-math"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "F3.SPC.16.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child 'organiza, representa e interpreta datos' from a tally table to answer questions (2°), though the programme's 2° forms are 'tablas o pictogramas'. 'gráficas de barras' are named in 4°.",
+   "review": "author-math"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "F3.SPC.16.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A row of X marks above each value is read like a pictogram: 'interpreta datos en tablas o pictogramas'. It prepares the 'tablas de frecuencias' of 3°. The line plot itself is not a form Mexican programmes name.",
+   "review": "author-math"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Redondeo is not named in Fases 2 to 4. Finding the nearest ten is a readiness for the 'estrategias para calcular mentalmente sumas o restas con números naturales de hasta dos cifras'.",
+   "review": "author-math"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "F4.SPC.16.G3.1",
+     "rel": "extends"
+    },
+    {
+     "id": "F3.SPC.14.G2.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "2° compares masses with 'unidades de medida de la comunidad, o unidades arbitrarias'; 3° measures with the 'kilogramo, ... medios y cuartos de estas unidades'. Reading grams on a scale is finer than either wording.",
+   "review": "author-math"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "F4.SPC.16.G3.1",
+     "rel": "extends"
+    },
+    {
+     "id": "F3.SPC.14.G2.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Capacity is compared with arbitrary units in 2° and measured with the 'litro, medios y cuartos' in 3°. Millilitres are not named in Fases 2 to 4.",
+   "review": "author-math"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "F4.SPC.7.G3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.16.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3°: 'Reconoce al kilogramo (kg) como la unidad básica de medida de la masa, y al metro (m) como la unidad básica de medición de la longitud ... así como otras unidades'. Choosing a fitting unit prepares measuring with 'metro, kilogramo, litro ... decímetro y centímetro'. Inches and feet have no place here.",
+   "review": "author-math"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'sumas iteradas ...; reconoce a la multiplicación como la operación que resuelve problemas en los que siempre se suma la misma cantidad y utiliza el signo × (por)'. Writing the repeated addition is the base for telling 'sumandos iguales' from 'sumandos diferentes'.",
+   "review": "author-math"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'multiplicar con apoyo de ... arreglos rectangulares, que involucran números menores o iguales a 10'.",
+   "review": "author-math"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting by 3s and 4s is a regularity of the number sequence up to 100. It prepares 'calcular mentalmente multiplicaciones de números naturales menores que 10'.",
+   "review": "author-math"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "F3.SPC.16.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Recolecta, organiza, representa e interpreta datos en tablas o pictogramas' (2°); a picture worth 2 is not mentioned but stays inside the pictogram. The same work continues in 3° with 'tablas de frecuencias o pictogramas'.",
+   "review": "author-math"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'problemas que implican repartos con divisores menores que 10 y dividendo de dos cifras' (2°). Counting how many equal groups is the 'agrupamiento' sense that 3° names beside 'reparto'.",
+   "review": "author-math"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G4.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Fractions begin in 3°: 'Representa, con apoyo de ... modelos gráficos, fracciones: medios, cuartos, octavos, dieciseisavos'. Thirds are a 4° fraction ('tercios, quintos, sextos ...'). Fase 3 has no fraction process at all.",
+   "review": "author-math"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G4.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A half or a quarter of a set is a fraction used 'para expresar el resultado de ... repartos' (3°: medios, cuartos); a third belongs to the 4° list.",
+   "review": "author-math"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "F4.SPC.15.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Symmetry first appears in 3°: 'analiza y clasifica figuras geométricas a partir de sus lados y su simetría'. Judging a mirror line on pictures is the idea before that analysis.",
+   "review": "author-math"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "F4.SPC.15.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Completing a half picture on a grid is a first use of 'retículas de ... cuadrados' to build a symmetric figure, before 3° asks to 'construye, analiza y clasifica figuras ... a partir de ... su simetría'.",
+   "review": "author-math"
+  },
+  "2:grid-coordinates": {
+   "none": "No process of Fases 2 to 4 names locating a cell by a letter-number code.",
+   "why": "The spatial processes of these phases are about body references, routes and croquis, not about coordinates on a grid.",
+   "review": "author-math"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "F3.SPC.13.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Construye composiciones geométricas cada vez más complejas ... con el uso del tangram'; choosing the composition that fits a shadow is analysis of a composition, not its construction.",
+   "review": "author-math"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G2.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "'interpreta, ordena, lee y escribe números naturales de hasta cuatro cifras; identifica regularidades en los números que representan decenas, centenas y millares'. The comparison signs were taught in 2° with smaller numbers.",
+   "review": "author-math"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Redondeo is not named in Fase 4. Rounding to 10 and 100 is a readiness for the 'estrategias para calcular mentalmente sumas o restas de números naturales de hasta tres cifras'.",
+   "review": "author-math"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'sumas de números naturales de hasta tres cifras utilizando el algoritmo convencional' and 'restas ... de hasta tres cifras utilizando agrupamientos y el algoritmo convencional' (both set inside context problems).",
+   "review": "author-math"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding rounded numbers and judging an exact answer is to use and check a mental strategy: 'Utiliza, explica y comprueba sus estrategias para calcular mentalmente sumas o restas ... de hasta tres cifras'.",
+   "review": "author-math"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The skill line gives no range; judged by the usual small numbers of a magic square, it is mental practice of 'sumas o restas con números naturales de hasta dos cifras', with the equal sums as the check ('comprueba').",
+   "review": "author-math"
+  },
+  "3:parity-of-sums": {
+   "none": "Par / impar and their behaviour in sums are not named in Fases 2 to 4.",
+   "why": "No process of 'Estudio de los números' or 'Suma y resta' mentions parity.",
+   "review": "author-math"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.9.G1.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Sequences with a constant step of 25, 50 or 100 show 'regularidades en los números que representan decenas, centenas y millares'. They continue the 'regularidades en la sucesión numérica hasta 100' of 1°.",
+   "review": "author-math"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Lee relojes de manecillas y digitales ... usando la hora, media hora, cuarto de hora y los minutos'.",
+   "review": "author-math"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme places this in 2°: multiplying 'con apoyo de ... sumas iteradas o arreglos rectangulares'. It prepares the 3° 'repertorio multiplicativo de factores de una cifra'.",
+   "review": "author-math"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal jumps from 0 are 'sumas iteradas' ('siempre se suma la misma cantidad', 2°). The multiples they give are the facts of the 3° 'repertorio multiplicativo'.",
+   "review": "author-math"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The property is not named; turning the array is a strategy in the sense of 'Utiliza, explica y comprueba sus estrategias para calcular mentalmente productos de números naturales de una cifra', and it halves the 'repertorio multiplicativo' to be built.",
+   "review": "author-math"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Construye y usa un repertorio multiplicativo de factores de una cifra' is knowing the tables; deriving a fact from its neighbours is one of the 'estrategias para calcular mentalmente productos de números naturales de una cifra'.",
+   "review": "author-math"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "F4.SPC.19.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3°: 'organiza, representa e interpreta datos en tablas de frecuencias o pictogramas' (the scaled pictographs). Bar graphs are a 4° form: 'Interpreta tablas de frecuencias y gráficas de barras'.",
+   "review": "author-math"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "F3.SPC.5.G2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The thermometer appears in 2° science: 'reconoce que este instrumento permite realizar mediciones de temperatura más precisas'. Reading a graduated scale by 2, 5 or 10 goes beyond it; no mathematics process of Fase 4 names it.",
+   "review": "author-math"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'divisiones (reparto y agrupamiento), mediante diversos procedimientos' (3°); sharing a pile is the 'reparto', already asked in 2° with 'divisores menores que 10'.",
+   "review": "author-math"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal hops back to 0 are the 'agrupamiento' sense of division and answer 'cuántas veces está contenido el divisor en el dividendo'.",
+   "review": "author-math"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The repertoire is used 'para resolver multiplicaciones y divisiones', and divisions are solved 'en particular con la multiplicación; representa la división como: a ÷ b = c' (the four related facts).",
+   "review": "author-math"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'situaciones problemáticas ... que implican divisiones (reparto y agrupamiento)' is the share vs make-groups distinction. The multiplication problems with equal groups are worded in 2° (numbers up to 10); 3° has no process for simple multiplication problems.",
+   "review": "author-math"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "F4.SPC.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No process names a rule machine. Applying a rule both ways is the idea in the titles of the two contenidos: 'Suma y resta, su relación como operaciones inversas' and 'Multiplicación y división, su relación como operaciones inversas' (the skill line does not say which operations; judged by the year, both).",
+   "review": "author-math"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "F3.SPC.10.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two sides of the same amount are 'diferentes expresiones aditivas (suma y resta)' of one quantity (a 2° process). Finding the missing number uses suma and resta 'como operaciones inversas' (contenido of Fase 4).",
+   "review": "author-math"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "extends"
+    },
+    {
+     "id": "F4.SPC.18.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3° reads clocks and compares durations 'usando la hora, media hora, cuarto de hora y los minutos'; computing a new time goes beyond it. It prepares 4°: 'equivalencias entre diferentes escalas de tiempo: día, hora, minuto y segundo'.",
+   "review": "author-math"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.18.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'compara y ordena la duración de diferentes actividades cotidianas ... usando la hora, media hora, cuarto de hora y los minutos' needs the duration between two clock times. Hours and minutes mixed prepare the equivalences of 4°.",
+   "review": "author-math"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "F4.SPC.18.G3.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The 24-hour format is not named; it goes beyond 'Lee relojes de manecillas y digitales' on the same line.",
+   "review": "author-math"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "F4.SPC.17.G4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.11.G2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Area is a 4° contenido: 'área como la medida de la superficie; estima y compara áreas ... con retículas de cuadrados'. Counting the squares as rows × columns carries the 'arreglos rectangulares' of 2° further.",
+   "review": "author-math"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "F4.SPC.17.G4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'estima y compara áreas de manera directa, con unidades no convencionales y con retículas de cuadrados' (4°).",
+   "review": "author-math"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "F4.SPC.17.G4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'reconoce al perímetro como la suma de las longitudes de sus lados' (4°; Fase 4 has no 3° process on perimeter).",
+   "review": "author-math"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "F4.SPC.17.G4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Distingue entre contorno y superficie ...; reconoce al perímetro ... y área como la medida de la superficie' is the distinction these sheets make.",
+   "review": "author-math"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "F4.SPC.13.G4.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "The remainder is named in 4°: 'reconoce al cociente y al residuo como resultado de una división', there with an algorithm for three-digit dividends. Against the 3° divisions (reparto y agrupamiento) the sheets go one step further.",
+   "review": "author-math"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "F4.SPC.15.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Angles enter in 4°: 'clasifica cuadriláteros a partir de sus lados, ángulos y diagonales'. Recognising a right angle is the idea before that classification.",
+   "review": "author-math"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "F4.SPC.15.G4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.13.G2.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "'construye, analiza y clasifica cuadriláteros a partir de sus lados, ángulos y diagonales; explica los criterios' (4°; the sheets do the analysis and classification, not the construction with instruments). 2° only names 'cuadriláteros' as the four-sided polygons.",
+   "review": "author-math"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "F4.SPC.15.G3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'analiza y clasifica figuras geométricas a partir de sus lados y su simetría'.",
+   "review": "author-math"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G4.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3°: 'Representa, con apoyo de ... modelos gráficos, fracciones: medios, cuartos, octavos, dieciseisavos'. Thirds and sixths, if the sheets use them, are in the 4° list ('tercios, quintos, sextos, novenos y décimos').",
+   "review": "author-math"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G3.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming and shading a/b is representing fractions with 'modelos gráficos'. Seeing it as copies of 1/b is the step before 'Propone expresiones aditivas equivalentes de medios, cuartos, octavos'.",
+   "review": "author-math"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G4.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "4°: 'Identifica y representa la unidad de referencia, a partir de una fracción dada de esta'. 3° asks to identify 'la unidad de referencia en representaciones de medios, cuartos, octavos'.",
+   "review": "author-math"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The number line is a 'modelo gráfico' of fractions that express 'el resultado de mediciones'; the wording does not name the line itself.",
+   "review": "author-math"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G4.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'compara fracciones (con igual numerador o igual denominador) utilizando los signos >, < o =': in 3° for medios, cuartos, octavos; the same sentence in 4° for tercios, sextos and the rest.",
+   "review": "author-math"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G4.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 3° wording on equivalence is 'Propone expresiones aditivas equivalentes de medios, cuartos, octavos o dieciseisavos' and the '=' between fractions. 4° then uses 'en particular, la equivalencia' to add and subtract.",
+   "review": "author-math"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.11.G4.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A fraction of a group expresses 'el resultado de ... repartos': halves and quarters in 3°, thirds (the example 1/3 of 12) in the 4° list.",
+   "review": "author-math"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "F4.SPC.11.G3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.19.G3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Half units are 'medios ... para expresar el resultado de mediciones', and the plot is a way to 'organiza, representa e interpreta datos' (X marks read like a pictogram; the line plot is not named).",
+   "review": "author-math"
+  },
+  "3:volume-cubes": {
+   "none": "Volume is not named in Fases 2 to 4.",
+   "why": "Fase 4 measures length, mass, capacity, time, perimeter and area; counting cubes of a solid fits none of those wordings.",
+   "review": "author-math"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Fase 2 has no grafomotricidad process; controlled strokes are the step before 'Usa grafías para representar su nombre y otras palabras conocidas' (3° de preescolar).",
+   "review": "author-lit"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "F2.LEN.6.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.LEN.1.GP3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A self-portrait and drawings of what I like and can do are 'la representación de emociones y experiencias' with 'recursos gráficos'; GP3.1 of contenido 1 asks the same content ('vivencias, gustos, preferencias') but 'de manera oral', so a page only prepares it.",
+   "review": "author-lit"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "F2.LEN.3.GP3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.23.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Preescolar asks children to create 'juegos del lenguaje como adivinanzas, trabalenguas, canciones, rimas' orally; hearing whether two words rhyme is the step before, and before 1°'s 'Reconoce la función y características de la rima'.",
+   "review": "author-lit"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.7.GP2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.7.GP3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The Lenguajes reviewer left this point without a counterpart and said that sorting by category belongs to Saberes y Pensamiento Científico, which her part did not hold. It does: contenido F2.SPC.7 is 'Clasificación y experimentación con objetos y elementos del entorno'. Sorting pictures into groups is 'Compara y organiza elementos del entorno … de acuerdo con uno o dos criterios' (2° de preescolar) and 'Organiza por sus semejanzas, objetos y elementos de su entorno' (2° de preescolar); it prepares 'definir criterios de clasificación' of 3° de preescolar, where the children set the criterion themselves. The mathematics reviewer mapped the sister point 1:sort-three-groups to the same contenido.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Classifying pictures by category is not a Lenguajes content; it belongs to Saberes y pensamiento científico, which this part does not hold.",
+    "why": "No contenido of Fase 2 Lenguajes names grouping or classifying objects.",
+    "review": "author-lit"
+   }
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.6.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Reconoce las letras de su nombre en textos impresos y digitales' is the same act (finding a given letter in print), though the programme limits it to the letters of the child's name; 1° then asks to tell letters from numbers and other marks.",
+   "review": "author-lit"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP3.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.6.G1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing A-Z is a step before 'Usa grafías para representar su nombre y otras palabras conocidas', and before 1°'s 'cada letra tiene varias posibilidades de escritura: mayúsculas, minúsculas'. Preescolar itself prescribes no letter-by-letter tracing.",
+   "review": "author-lit"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme never names the syllable in Fases 2-3; cutting a spoken word into syllables is readiness for 1°'s 'Establece correspondencias entre la oralidad y la escritura'.",
+   "review": "author-lit"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching capital and small letters is exactly 'Comprende que cada letra tiene varias posibilidades de escritura: mayúsculas, minúsculas'; the programme places it in 1° de primaria, not in preescolar.",
+   "review": "author-lit"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.1.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures by first sound under a letter (m or n) is 'Asocia ... los sonidos consonánticos más significativos ... con sus letras', which the programme places in 1°; it also readies 'nombres que empiezan o terminan con la misma letra que el propio'.",
+   "review": "author-lit"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.7.GP2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Left without a counterpart by the Lenguajes reviewer for the same reason. Finding the one that does not belong is 'establece con sus pares, semejanzas y diferencias' between objects (F2.SPC.7.GP1.2, 1° de preescolar); it prepares organising by likeness (F2.SPC.7.GP2.2).",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Odd-one-out by category is classification, not a Lenguajes content.",
+    "why": "Nothing in Fase 2 Lenguajes names classifying or excluding by category.",
+    "review": "author-lit"
+   }
+  },
+  "K:opposites": {
+   "none": "Antónimos are named only once, in 4° de primaria (F4.LEN.9.G4.1), inside an oral exposition process; too far from a preschool picture match.",
+   "why": "Fase 2 and Fase 3 hold no process on opposite meanings.",
+   "review": "author-lit"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "F4.LEN.5.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only process on the alphabet sequence is 3°'s 'Reflexiona sobre el orden alfabético en diccionarios e índices'; knowing the order of the letters is its first step. Nothing in preescolar or 1°-2° asks for it, so this is a distant 'prepares'.",
+   "review": "author-lit"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "F2.LEN.2.GP3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.3.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering pictures first-next-last is the step before 'Narra historias ... considerando los momentos de inicio, desarrollo y final' (oral, 3° de preescolar) and before 1°'s 'Identifica la secuencia de acciones ... en una historia'.",
+   "review": "author-lit"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.4.G1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing a sound at the start, middle or end is phonological readiness for 1°'s 'Asocia los sonidos vocálicos ... y consonánticos ... con sus letras' and 'Descubre el valor sonoro convencional de las letras'; preescolar has no such process.",
+   "review": "author-lit"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 1° process separates 'sonidos vocálicos' from 'sonidos consonánticos' when linking them to letters; sorting letters into vowels and consonants is the idea before that link.",
+   "review": "author-lit"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "F2.LEN.4.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.LEN.7.GP3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picture cards with the word in two languages serve 'Identifica y utiliza algunas palabras, frases o señas de la diversidad lingüística' (the identifying half; use in speech is the teacher's part), and a word wall is one of the 'diversos textos para copiar palabras'.",
+   "review": "author-lit"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.4.G1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One sound per box (ch, ll, rr, qu sharing a box in Spanish) is the analysis a child needs to 'descubre el valor sonoro convencional de las letras' and to set 'correspondencias entre la oralidad y la escritura', both placed in 1°.",
+   "review": "author-lit"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.4.G1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building short known words (sol, pan, mar) from letters is 'Usa grafías para representar ... otras palabras conocidas'; doing it by the sound of each letter prepares 1°'s 'valor sonoro convencional de las letras ... como criterio para organizar su escritura'.",
+   "review": "author-lit"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP1.3",
+     "rel": "extends"
+    },
+    {
+     "id": "F3.LEN.2.G1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Preescolar only asks to identify 'su nombre escrito y otras palabras' on personal objects (1° de preescolar); matching any written word to its picture goes beyond that and readies 1°'s 'correspondencias entre oralidad y escritura'.",
+   "review": "author-lit"
+  },
+  "K:singular-plural": {
+   "none": "Number of nouns is named only as 'concordancia de género y número' in 4° de primaria (F4.LEN.7.G4.5); nothing in Fase 2 or in 1°.",
+   "why": "No process of preescolar or Fase 3 names singular and plural.",
+   "review": "author-lit"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "In Spanish the counterpart is hearing ch or ll at the start of a word; it readies 1°'s association of 'los sonidos consonánticos ... más usuales en su lengua' with their letters. Judged by the Spanish digraphs, not sh.",
+   "review": "author-lit"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.2.G1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a frequent word on sight is the step before 1°'s 'Identifica palabras que se repiten en distintos textos ... y descubre que se escriben de la misma forma' and before reading short messages aloud. Spanish schools do not teach a sight-word list as such.",
+   "review": "author-lit"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "F2.LEN.7.GP3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.6.G1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Recurre a diversos textos para copiar palabras' is the copying itself; left to right with spaces between words is 1°'s 'Reconoce espacios, alineación y direccionalidad (izquierda-derecha y arriba-abajo) entre palabras y entre enunciados'.",
+   "review": "author-lit"
+  },
+  "K:articles": {
+   "none": "Choosing el/la or un/una is gender agreement, named only in 4° ('concordancia de género y número', F4.LEN.7.G4.5); nothing in Fase 2 or in 1°.",
+   "why": "No preschool or Fase 3 process names articles or gender.",
+   "review": "author-lit"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "F3.LEN.23.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.23.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing and sorting rhymes is 'Reconoce ... características de la rima ... así como la semejanza gráfica entre las palabras que riman'; finishing and making rhymes is 'Produce rimas sencillas' (the everyday situation is the teacher's frame).",
+   "review": "author-lit"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.4.G1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sound boxes and blending are the alphabetic principle the programme words as 'Descubre el valor sonoro convencional de las letras y lo utiliza como criterio para organizar su escritura' and 'Establece correspondencias entre la oralidad y la escritura'.",
+   "review": "author-lit"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.1.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "For Spanish this is ch, ll, rr, qu, gu: part of 'los sonidos consonánticos ... más usuales en su lengua' with their letters (1°); 2° then compares 'll, k, q, r, rr' and other letters by name. Judged by the Spanish digraphs, not sh/th.",
+   "review": "author-lit"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the name of a picture letter by letter uses 'el valor sonoro convencional de las letras ... como criterio para organizar su escritura' and the sound-letter association of F3.LEN.6.",
+   "review": "author-lit"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The programme does not name the syllable in Fase 3; splitting, completing and reordering written syllables is the usual Mexican way to 'Establece correspondencias entre la oralidad y la escritura', the only wording it can sit under.",
+   "review": "author-lit"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the vowel letter in each written syllable applies 'Asocia los sonidos vocálicos con sus letras correspondientes'; the rule that every syllable has a vowel is not worded anywhere in the programme.",
+   "review": "author-lit"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "F3.LEN.2.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.2.G1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining syllables and reading the word to find its picture is 'Establece correspondencias entre oralidad y escritura'; it is the step before 'Lee en voz alta letreros, carteles, recados, mensajes', which asks for real texts.",
+   "review": "author-lit"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "F4.LEN.5.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering words by first and second letter is the technique behind 'Reflexiona sobre el orden alfabético en diccionarios e índices ... y lo emplea para localizar información', which the programme places in 3°.",
+   "review": "author-lit"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "F4.LEN.9.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only place the programme names opposites is 4°: 'Reflexionar sobre el uso de sinónimos y antónimos' when preparing an exposition. A distant 'prepares'; nothing in Fase 3 fits.",
+   "review": "author-lit"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "F4.LEN.7.G4.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns under el / la (un / una) is the idea of gender agreement, which the programme words only in 4°: 'Revisa y corrige errores de concordancia de género y número'. A distant 'prepares'.",
+   "review": "author-lit"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "F3.LEN.9.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.9.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Sigue instrucciones, orales o escritas, para ... participar en un juego o alguna otra actividad' is met by reading a sentence and doing what it says; 2° asks the same from whole instructivos.",
+   "review": "author-lit"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "F3.LEN.2.G1.6",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.2.G2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading one sentence for meaning is a step before reading whole short texts ('letreros, carteles, recados, mensajes' in 1°; 'para otros y para sí, diversos textos' in 2°). No process asks for sentence completion as such.",
+   "review": "author-lit"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.9.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing two words for one thing readies 2°'s 'identifica palabras que se repiten y da sugerencias para sustituirlas' and, much later, 4°'s 'Reflexionar sobre el uso de sinónimos y antónimos'.",
+   "review": "author-lit"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.6.G2.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.2.G3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Closing the sentence with its mark is 'Identifica de manera inicial otros signos que acompañan las letras'; using punctuation in one's own writing is 2° ('comienza a hacer uso de signos de puntuación') and the capital at the start of a sentence is first worded in 3° ('Usa mayúsculas al inicio de las oraciones').",
+   "review": "author-lit"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "F3.LEN.15.G1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.12.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing quién / qué / dónde is the tool for 'Formula preguntas acordes al tema' (oral, with an invited person) and for 3°'s 'Identifica qué, quién, cómo, cuándo, dónde y por qué en una nota informativa'.",
+   "review": "author-lit"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "F3.LEN.3.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.3.G1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Identifica la secuencia de acciones ... en una historia' is the task itself; drawing the middle and matching sentences to pictures readies 'una historia personal con viñetas conformadas de dibujo y texto, cuidando el orden lógico'.",
+   "review": "author-lit"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "F4.LEN.2.G3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.8.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme never names the sustantivo; adjectives first appear in 3° ('adjetivos, adverbios y frases adverbiales' to describe) and verbs in 3° ('verbos en infinitivo o en imperativo' in instructivos). A 1° sort is two years early.",
+   "review": "author-lit"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.9.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Replacing a name with él / ella / ellos readies 2°'s 'identifica palabras que se repiten y da sugerencias para sustituirlas'; pronouns are named only in 3° ('Usar pronombres y nexos' in an exposition).",
+   "review": "author-lit"
+  },
+  "1:shades-of-meaning": {
+   "none": "No process asks to grade words by strength of meaning; the nearest wording (sinónimos, 4°) is about substitution, not intensity.",
+   "why": "Nothing in Fases 3-4 names degrees of meaning.",
+   "review": "author-lit"
+  },
+  "1:root-words": {
+   "none": "The programme holds no word-formation content (familias de palabras, palabra primitiva y derivada) in Fases 2-4.",
+   "why": "No wording in PART 2 names word families or derived words.",
+   "review": "author-lit"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "F3.LEN.25.G1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.25.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.5.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.14.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each sheet has its own process: the comic strip is 'Crea cómics a partir de una experiencia personal o de una lectura'; the story map is 'características principales de diferentes historias (nudo, personajes, tiempo y espacio)'; the character description is 'Describe de manera oral y/o escrita ... seres vivos reales o ficticios'; the postcard is 'un texto para alguien que vive en otro lugar ... escritura autónoma'.",
+   "review": "author-lit"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.1.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Spotting ch, ll, rr or qu in sentences is part of 'asocia los sonidos vocálicos y consonánticos con sus letras correspondientes' (2°) and readies 'Compara características de ... ll, k, q, r, rr'. Judged by the Spanish digraphs, not sh.",
+   "review": "author-lit"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.4.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.LEN.2.G3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.LEN.1.G3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2° asks to 'comienza a hacer uso de signos de puntuación' and to identify 'interrogación, exclamación, puntos'; the capital at the start of a sentence is worded only in 3° ('Usa mayúsculas al inicio de las oraciones'), and splitting two sentences is a first step to 'Usa el punto y el punto y seguido para separar oraciones en un párrafo'. In Spanish the question needs both marks (¿ ?).",
+   "review": "author-lit"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "The programme only asks to understand that a letter has 'variaciones de estilo' (1°); it prescribes no cursive. Writing joined letters goes beyond that on the same line.",
+   "review": "author-lit"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "F3.LEN.2.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.LEN.1.G4.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child reads a short story to himself ('Lee ... para otros y para sí, diversos textos, como cuentos'); choosing the word from context readies 4°'s 'Infiere el significado de las palabras, a partir de la información contextual de un texto'.",
+   "review": "author-lit"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "F3.LEN.15.G2.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.12.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picking the question word that matches the answer wanted is the tool for 'Formula y ajusta sus preguntas en función de la información que requiere' (the child does not yet write whole questions) and for 3°'s 'qué, quién, cómo, cuándo, dónde y por qué'.",
+   "review": "author-lit"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "F3.LEN.2.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.2.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.22.G2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.LEN.12.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a story alone is 'Lee ... para sí ... cuentos'; answering with details sends the child back to the text ('Relee ... algún fragmento o pasaje para comprender mejor'); the who question is 'Identifica las historias y personajes principales de los cuentos ... leídos'. The same six questions on a news text come in 3°.",
+   "review": "author-lit"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "F3.LEN.5.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Describe de forma oral y escrita, en su lengua materna, objetos, lugares y seres vivos de su entorno natural y social': the written half, with support.",
+   "review": "author-lit"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "F4.LEN.2.G3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.8.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Word classes enter in 3°, and only by use: 'adjetivos, adverbios y frases adverbiales' to describe, 'verbos en infinitivo o en imperativo' in instructivos. The sustantivo is never named.",
+   "review": "author-lit"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "F4.LEN.7.G4.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Forming plurals (-s, -es, z to -ces) is the knowledge behind 4°'s 'Revisa y corrige errores de concordancia de género y número'; no earlier process names number.",
+   "review": "author-lit"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.1.G2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The Spanish counterparts (c/qu, g/gu, r/rr, z to c) are 'letras que pueden relacionarse con sonidos diferentes, así como sonidos equivalentes que pueden relacionarse con letras distintas' and 'Compara características de c, s, z, b, v, h, g, j ... q, r, rr'. The skill line gives English patterns; judged by the grade and the Spanish rules.",
+   "review": "author-lit"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.9.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing another word for 'dijo' is the knowledge behind 'identifica palabras que se repiten y da sugerencias para sustituirlas', which the programme sets inside the revision of a dictated text; sinónimos are named in 4°.",
+   "review": "author-lit"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.9.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill as 2:synonyms: it readies substituting repeated words in a revised text (2°) and 4°'s 'sinónimos y antónimos'.",
+   "review": "author-lit"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "F4.LEN.1.G4.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.8.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Verb tenses are a 4° reflection ('los tiempos presente, pretérito y copretérito, para narrar sucesos') and finding the verb is first asked in 3° ('verbos en infinitivo o en imperativo'). Spanish irregulars are ser, estar, tener, hacer, ir.",
+   "review": "author-lit"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "F3.LEN.4.G2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.9.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Replacing a repeated name with a pronoun readies 'identifica palabras que se repiten y da sugerencias para sustituirlas' (2°); pronouns are named in 3° ('Usar pronombres y nexos'). Possessives are not named at all.",
+   "review": "author-lit"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the same words in joined script shows that 'cada letra tiene varias posibilidades de escritura: ... variaciones de estilo'; the programme puts this in 1°.",
+   "review": "author-lit"
+  },
+  "2:compound-words": {
+   "none": "The programme holds no word-formation content; palabras compuestas are not named in Fases 2-4.",
+   "why": "No wording in PART 2 names compound words.",
+   "review": "author-lit"
+  },
+  "2:root-words": {
+   "none": "Familias de palabras are not named anywhere in Fases 2-4.",
+   "why": "No wording in PART 2 names word families or roots.",
+   "review": "author-lit"
+  },
+  "2:prefixes": {
+   "none": "Prefijos (des-, in-, re-) are not named anywhere in Fases 2-4.",
+   "why": "No wording in PART 2 names prefixes or how a word changes meaning by its parts.",
+   "review": "author-lit"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "F3.LEN.3.G2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.3.G2.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.LEN.2.G3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pictures plus the child's sentences in time order is 'viñetas constituidas por dibujo y texto, cuidando el orden temporal y causal' (the programme's story is a school event, the sheet's is given); oral narration 'empleando una organización temporal' and 3°'s texts 'en orden cronológico' are only prepared.",
+   "review": "author-lit"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "F4.LEN.19.G3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading clues to find the answer is the work of 'Realiza inferencias de sentido y significado, a partir de la lectura ... de ... adivinanzas, refranes y acertijos', placed in 3°.",
+   "review": "author-lit"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "F3.LEN.8.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.5.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A fact file is 'Registra y organiza información a través de la escritura ... esquematización ... sobre temas de su interés'; what the animal eats, where it lives and its covering is a written description of 'seres vivos de su entorno natural'.",
+   "review": "author-lit"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "F3.LEN.8.G2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.LEN.4.G3.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting facts into same and different organises recorded information (2°); it readies 3°'s expository text of 'comparación-contraste' and its 'palabras y frases que impliquen comparación'.",
+   "review": "author-lit"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G1.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Fase 4 has no handwriting process; the only wording on letter styles is 1°'s 'variaciones de estilo'. Copying sentences in joined script goes beyond it.",
+   "review": "author-lit"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "F4.LEN.9.G4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling close verbs apart (caminar / correr, mirar / observar) readies 4°'s 'Reflexionar sobre el uso de sinónimos y antónimos'; campos semánticos are not named in 3°.",
+   "review": "author-lit"
+  },
+  "3:person-words": {
+   "none": "Sufijos and derived words (panadero, corredor) are not named anywhere in Fase 4.",
+   "why": "No wording in PART 2 names suffixes or word formation.",
+   "review": "author-lit"
+  },
+  "3:root-words-in-context": {
+   "none": "Word families are not named in Fase 4; the nearest wordings (tiempos verbales, concordancia, both 4°) are about verbs and agreement, not about choosing a derived form.",
+   "why": "No wording in PART 2 names roots or families of words.",
+   "review": "author-lit"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "F2.SPC.3.GP1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.1.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Observa y nombra ... las partes de su cuerpo' (preschool). First grade asks to 'Compara y representa las partes externas del cuerpo humano, explica su funcionamiento'.",
+   "review": "author-math"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting living from non-living is one of the 'formas de organizar a los seres vivos y elementos de la naturaleza para establecer semejanzas y diferencias'. The wording never says 'seres vivos y no vivos', so the fit is by content.",
+   "review": "author-math"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.2.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which part of the plant we eat widens 'su conocimiento acerca de las plantas'. Knowing frutas and verduras prepares 1°: 'beneficios de consumir alimentos saludables (frutas, verduras, ...)'.",
+   "review": "author-math"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.1.GP3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'animales de su entorno: cómo son, ... dónde viven' and the GP3 'formas de organizar a los seres vivos'. Pets, farm and wild prepare 1°: 'si son domésticos o silvestres ... para clasificarlos'.",
+   "review": "author-math"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.1.GP3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'cómo son, cómo crecen' covers the young and the adult; alike and different is 'establecer semejanzas y diferencias' among living things.",
+   "review": "author-math"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "F2.SPC.6.GP3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Percibe el paso del tiempo mediante ... cambios en la naturaleza, como el día y la noche, las estaciones del año'. It prepares 2°: 'fenómenos naturales que ocurren durante los meses y el año ... para establecer regularidades'.",
+   "review": "author-math"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "F2.SPC.6.GP3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Day and night are named in GP3.5 as changes in nature. First grade: 'Reconoce la sucesión del día y la noche ... teniendo como referencia la presencia del Sol y la Luna'.",
+   "review": "author-math"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.5.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Distingue algunas características del entorno natural: ... clima'. A week of weather prepares 1°: 'registra ... si hace frío o calor, frecuencia de lluvias'; cold / warm / hot things prepare 2°: ordering objects 'de los más fríos a los más calientes' with the thermometer.",
+   "review": "author-math"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "F2.SPC.8.GP3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Distingue los materiales de la naturaleza, de los fabricados por el ser humano'.",
+   "review": "author-math"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "F2.SPC.3.GP1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.1.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Preschool names the body parts 'e intuye su funcionamiento'. The senses as such are a 2° de primaria process: 'Reconoce y describe los órganos de los sentidos y su función'.",
+   "review": "author-math"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "F3.SPC.4.G1.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F2.SPC.8.GP3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recycling is not named. Sorting waste is a readiness for 'acciones ... que favorecen el cuidado del entorno natural' (1°), and choosing the bin rests on 'las características de los objetos y materiales'.",
+   "review": "author-math"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.3.GP3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'plantas: su proceso de crecimiento, lo que necesitan para vivir' (2° de preescolar). GP3 asks the child to explain 'la importancia del aire, el agua, el suelo y el sol para todos los seres vivos'.",
+   "review": "author-math"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "F2.SPC.8.GP3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating is not named; the process is an experiment ('Experimenta con distintos objetos para reconocer sus características y propiedades'), which a sheet can only prepare or follow up.",
+   "review": "author-math"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.4.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'características de plantas y animales, como color, estructura y cubierta corporal ... para clasificarlos'. The class names (mammal, bird ...) are not in the wording; formal classification comes in 3° with 'vertebrados e invertebrados'.",
+   "review": "author-math"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2°: 'lugar donde habitan, cómo se desplazan, qué comen o qué necesitan para vivir'. It prepares the comparison of 'diferentes lugares de México como desiertos, selvas ... los animales que viven en los lugares, o de qué se alimentan'.",
+   "review": "author-math"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.1",
+     "rel": "extends"
+    },
+    {
+     "id": "F2.SPC.1.GP2.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Life cycles are not named in Fases 2 to 4. The line starts in preschool with animals ('cómo crecen') and plants ('su proceso de crecimiento'); ordering the stages goes beyond those.",
+   "review": "author-math"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "F3.SPC.5.G1.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.SPC.14.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating is not named. The sheets touch a property that 1° explores by experiment ('ligero o pesado') and the use of 'una balanza' to check which object has more mass; both are hands-on, so the paper only prepares them.",
+   "review": "author-math"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "F3.SPC.1.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.SPC.3.GP1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Labelling the figure is to 'representa las partes externas del cuerpo humano' (the care and functioning parts of that process are not covered), and the naming asked since preschool.",
+   "review": "author-math"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "F3.SPC.1.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Reconoce y describe los órganos de los sentidos y su función' (a 2° process; the risk-and-care half is not covered).",
+   "review": "author-math"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Distingue, describe y registra ... si hace frío o calor, frecuencia de lluvias'. Reading a weekly chart prepares 'registra de manera cronológica cambios y regularidades del entorno natural ... a lo largo de una semana'.",
+   "review": "author-math"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "F3.SPC.5.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.4.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'material de qué están hechos (madera, vidrio, metal, plástico) ... para clasificarlos'. The recycling half prepares 'acciones ... que favorecen el cuidado del entorno natural'.",
+   "review": "author-math"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.4.G4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'si ... tienen flores, frutos o tienen espinas, raíces u hojas' names the parts. What each part does prepares 4°: 'el proceso de nutrición de plantas'.",
+   "review": "author-math"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "F3.SPC.8.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.10.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1°: Sun and Moon by 'características perceptibles como forma, cambio de posición, y emisión de luz y calor'. Ordering the Moon's shapes is 2°: 'los cambios en la forma de la Luna a lo largo de un mes'. Their explanation comes in 3°.",
+   "review": "author-math"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "F3.SPC.5.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.4.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping by material is the 1° process ('madera, vidrio, metal, plástico ... para clasificarlos'). Doing it for recycling prepares 2°: 'acciones ... para disminuir el impacto ... y cuidar el entorno natural'.",
+   "review": "author-math"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G2.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F4.SPC.4.G4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The parts are in the 1° wording ('flores, frutos ... raíces u hojas'). Which part we eat prepares 'cómo las personas aprovechan los componentes naturales para ... alimentación' (2°); what each part does prepares plant nutrition (4°).",
+   "review": "author-math"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Life cycles and metamorphosis are not named in Fases 2 to 4; the only related wording is preschool's animals, 'cómo crecen', which these sheets take much further.",
+   "review": "author-math"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "F3.SPC.8.G2.2",
+     "rel": "extends"
+    },
+    {
+     "id": "F4.SPC.10.G3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2° observes the Moon's changing shape 'sin pretender que reconozca los nombres de las fases lunares', so naming the phases goes beyond it on purpose. 3° relates the Moon's movement 'con sus fases'.",
+   "review": "author-math"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "F4.SPC.10.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.8.G1.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The cause is a 3° process: 'los movimientos de rotación y traslación de la Tierra, y los asocia con la sucesión del día y la noche'. 1° only recognises the succession by the presence of Sun and Moon.",
+   "review": "author-math"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.3.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.4.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'diferentes lugares de México como desiertos, selvas ... cómo son las plantas y los animales que viven en los lugares' and 'lugar donde habitan, cómo se desplazan'. Body features that help prepare 3°: locomotion 'y su relación con las características del lugar donde viven'.",
+   "review": "author-math"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "F3.SPC.5.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating is not named in Fases 2 to 4. The sheets accompany experiments on the properties of materials ('Explora y experimenta con diversos materiales para explicar sus propiedades'); paper alone only prepares that.",
+   "review": "author-math"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "F4.SPC.7.G4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.SPC.5.G2.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "4°: 'los cambios físicos del ciclo del agua: evaporación, condensación, solidificación'. The programme lists solidificación and does not name precipitation or collection. 2° only identifies 'los estados físicos del agua'.",
+   "review": "author-math"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "F3.SPC.3.G1.2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Flower parts are not named in Fases 2 to 4. The only wording is that plants 'tienen flores, frutos' (1°), which these sheets take further.",
+   "review": "author-math"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "F2.SPC.1.GP2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Life cycles are not named in Fases 2 to 4; the only related wording is preschool's 'cómo crecen' for animals. A weak anchor: teachers of 3° will not find this content in their programme.",
+   "review": "author-math"
+  },
+  "3:planets": {
+   "none": "Fase 4 studies only the 'Sistema Tierra-Luna-Sol'; planets are not named.",
+   "why": "No process of F4.SPC.10 mentions the planets or the solar system.",
+   "review": "author-math"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "F4.SPC.7.G3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F2.SPC.8.GP3.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "3° describes measurable properties 'a partir de experimentar con distintos objetos y materiales ... y establece relaciones entre el material, tamaño y forma'; a recording sheet supports that experiment. Predict / test / conclude is the pattern of preschool's 'Explica los resultados de sus experimentos ... confirma o modifica sus suposiciones iniciales', here in a formal version.",
+   "review": "author-math"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "F3.ENS.1.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No preescolar process in PART 2 names plans, croquis or views from above. The first place the programme asks for a view from above is 1° de primaria: \"los representa en dibujos y croquis\". Matching a side view to its top view is the idea a child needs before drawing or reading a croquis, so it is a step before that process.",
+   "review": "author-soc"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "F2.ENS.7.GP3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.ENS.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 3° de preescolar process is a conversation: \"Conversa con sus pares acerca de lo que significa pertenecer a una familia … reconoce que se conforman de diferente manera\"; naming the members on a tree gives the words and the picture for it but is not the conversation (rule 5). In 1° the child must \"construir la historia personal y familiar y la representa por medio de dibujos y gráficos\"; a ready-made family tree is a step before that.",
+   "review": "author-soc"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "F3.ENS.17.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Transport is named only once in Fases 2 to 4, in 2° de primaria: changes and continuities in the community \"con relación a las comunicaciones y los transportes\". Sorting transport into land, water and air is the prior knowledge for that enquiry, not the enquiry about change over time. Nothing in preescolar names means of transport.",
+   "review": "author-soc"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "F2.ENS.2.GP2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.ENS.6.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "\"Reconoce que todas las personas tienen necesidades básicas, como la alimentación, el vestido y la vivienda\" is the first half of the 2° de preescolar process and is what a child does when telling a need from a want (the second half, that needs are met with resources of nature, is not covered). The programme places it one year below the worksheets. In 1° de primaria the same needs are tied to rights (\"Relaciona la atención de sus necesidades básicas (alimentación, salud, y vivienda, entre otras) que forman parte del ejercicio de sus derechos humanos\"), which the worksheets only prepare.",
+   "review": "author-soc"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "F2.ENS.5.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.ENS.5.GP3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching helpers to their tools is identifying that \"las personas realizan actividades diversas y ofrecen distintos servicios\" (2° de preescolar). The 3° de preescolar process asks more than knowing the jobs: \"Aprecia las labores y servicios que existen en la comunidad y valora el impacto que tienen para el bienestar común\"; the worksheets give the knowledge it starts from.",
+   "review": "author-soc"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "F3.ENS.1.G1.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.ENS.16.G2.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.ENS.1.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 1° process asks the child to locate places of the place where he or she lives \"con referencias básicas\" and draw them \"en dibujos y croquis\"; finding symbols on a ready-made map is a step before locating and drawing one's own. A key of symbols is first named in 2°: \"croquis con el uso de referencias básicas espaciales y de símbolos propios\", and 2° also asks \"se ubica espacialmente a través de croquis y mapas\". No process asks for reading a printed map key as such.",
+   "review": "author-soc"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "F3.ENS.10.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.ENS.16.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing my own family tree and ordering the generations is a stated part of the 1° process: \"construir la historia personal y familiar y la representa por medio de dibujos y gráficos como la línea del tiempo\" (the enquiry in sources and the comparison with classmates are not on the sheet). In 2° the child compares community life over \"tres generaciones: abuelos, padres y actual\"; ordering generations prepares it.",
+   "review": "author-soc"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "F3.ENS.1.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.ENS.1.G3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Using directions on a map is the second clause of the 2° process: \"se ubica espacialmente a través de croquis y mapas\". The cardinal points themselves are first named in 3°: \"Elabora representaciones cartográficas de la localidad o pueblo donde vive, considerando los puntos cardinales\"; the worksheets use the four points on a given map but do not make a map, so they prepare it.",
+   "review": "author-soc"
+  },
+  "2:continents": {
+   "none": "No objective of Fases 2 to 4 names the continents or a world map; the territory studied ends at México.",
+   "why": "Every map objective in PART 2 stays within \"la localidad\", \"la entidad\" or \"el territorio nacional\" (for example F4.ENS.6.G4.1 \"características del territorio de México\"). Nothing asks to name or locate continents.",
+   "review": "author-soc"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "F3.ENS.10.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The contenido is \"Historia personal y familiar, diversidad de familias y el derecho a pertenecer a una\". Kinship words (tía, primo, abuela) are what a child needs to \"construir la historia personal y familiar\" and to chart it; the riddles train the words, not the family history. The 2° processes of this contenido are about valuing and rights (\"Valora la diversidad de familias\"), which a vocabulary riddle does not reach.",
+   "review": "author-soc"
+  },
+  "3:continents-oceans": {
+   "none": "No objective of Fases 2 to 4 names continents, oceans or a world map; 3° and 4° work on the community, the entidad and México.",
+   "why": "The widest territory in the Fase 4 wording is the country: \"Localiza y reconoce características del territorio de México … límites terrestres, marítimos y aéreos\" (F4.ENS.6.G4.1). Continents and oceans do not appear.",
+   "review": "author-soc"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "F2.HC.7.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.HC.7.GP3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.HC.14.G2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting everyday foods from sometimes foods is \"Distingue alimentos y bebidas que son saludables, así como los que ponen en riesgo la salud\", which the programme places in 2° de preescolar. The 3° de preescolar process asks the child to obtain information \"de diversas fuentes\" about \"el consumo de alimentos nutritivos y de agua simple potable\" (the sheet gives the idea, not the enquiry), and 2° de primaria compares \"alimentos naturales y frescos, procesados y ultraprocesados\", a finer sorting on the same line.",
+   "review": "author-soc"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "F2.HC.6.GP3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.HC.14.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering the hand-washing steps and choosing the right tool is the hygiene part of \"Propone acciones que contribuyen a mantener su salud y bienestar, relacionadas con higiene personal, limpieza y actividad física\" (3° de preescolar), at the level of choosing the right action on paper. 1° de primaria asks for the reason: \"Reconoce la importancia de la práctica de hábitos de higiene y limpieza … prevención de problemas de salud\"; knowing the habits comes before.",
+   "review": "author-soc"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "F2.HC.8.GP3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F2.HC.8.GP2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No process names the street, the traffic light or crossing. The nearest are in the contenido \"Medidas de prevención de accidentes y situaciones de riesgo\": \"Propone y lleva a cabo, acciones de seguridad\" (3° de preescolar) and \"Lleva a cabo acciones para prevenir accidentes y salvaguardar su bienestar y seguridad\" (2° de preescolar). Both ask the child to act; knowing the steps on paper prepares it (rule 5).",
+   "review": "author-soc"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "F3.HC.14.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 1° process is \"Explica la importancia de incluir alimentos saludables de los distintos grupos\". Sorting foods into groups is the knowledge the explanation needs, in the same grade, but the child does not explain why each group matters. The wording gives no number of groups.",
+   "review": "author-soc"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "F3.HC.14.G1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.HC.14.G2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tooth-brushing steps, the habit chart and choosing the healthy action against germs are \"la práctica de hábitos de higiene y limpieza en el cuidado personal … con la intención de contribuir a la prevención de problemas de salud\" (1°). The 2° process, \"Reflexiona acerca de situaciones y comportamientos que ponen en riesgo la salud\", is the next step that the stop-the-germs choices prepare.",
+   "review": "author-soc"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "F3.HC.14.G1.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.HC.14.G2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Traffic signs are not named anywhere in PART 2. The line they belong to is risk and accident prevention: 1° \"Intercambia experiencias acerca de situaciones de riesgo, para compartir acciones encaminadas a su prevención\" and 2° \"alternativas de solución ante riesgo de accidentes\". Both are spoken exchanges; knowing what the signs mean is the knowledge behind them, so prepares.",
+   "review": "author-soc"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "F3.HC.14.G2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.HC.14.G1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying what each habit protects is reflecting on \"situaciones y comportamientos que ponen en riesgo la salud, para promover acciones orientadas a los cuidados personales\" (2°). It is also exactly the reason asked in 1°: \"Reconoce la importancia de la práctica de hábitos de higiene y limpieza … prevención de problemas de salud\", which the programme places a year below the worksheets.",
+   "review": "author-soc"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "F3.HC.14.G2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only 2° process about accidents is \"Socializa alternativas de solución ante riesgo de accidentes, dependencias y formas de violencia\". Choosing the sign that fits a situation is knowledge for it; the process itself is a sharing of solutions and does not name road signs or their kinds.",
+   "review": "author-soc"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "F2.LEN.9.GP3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.LEN.5.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Guided drawing gives the child the 'líneas ... formas, imágenes' that GP3.1 expects in 'producciones creativas de expresión gráfica', but copying a model is not yet a creative production; 1° asks to 'Representa objetos, lugares y seres vivos de forma plástica'.",
+   "review": "author-lit"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "F3.LEN.5.G1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.9.G1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing an animal or object and placing it in a scene is 'Representa objetos, lugares y seres vivos de forma plástica'; following and ordering picture steps readies 'Sigue instrucciones, orales o escritas' (the steps here are pictures, not text).",
+   "review": "author-lit"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "F3.LEN.5.G2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F3.LEN.5.G2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The drawing is 'Representa objetos, lugares y seres vivos de forma plástica' and the sentences about it are 'Describe de forma oral y escrita ... objetos, lugares y seres vivos' (written half), both 2°.",
+   "review": "author-lit"
+  },
+  "K:same-different-visual": {
+   "none": "Visual discrimination is not an objective of this campo.",
+   "why": "The processes on 'semejanzas y diferencias' are about objects and living things of the environment, not about matching identical pictures.",
+   "review": "author-math"
+  },
+  "K:mazes": {
+   "none": "Mazes are not named; the route processes are about real paths in the community.",
+   "why": "'recorridos y trayectorias con referentes espaciales' asks for interpreting and telling routes with near/far/left/right, which tracing a maze does not do.",
+   "review": "author-math"
+  },
+  "K:shadow-closure": {
+   "none": "Visual closure and shadow matching are not objectives of this campo.",
+   "why": "Nothing in Fase 2 names matching a picture to its silhouette.",
+   "review": "author-math"
+  },
+  "K:spot-the-difference": {
+   "none": "Visual comparison of two pictures is not an objective of this campo.",
+   "why": "No wording of Fase 2 fits finding what changed between two drawings.",
+   "review": "author-math"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing that each row holds one kind is sorting by one criterion on paper, a step toward 'Compara y organiza elementos del entorno ... de acuerdo con uno o dos criterios ...: color, forma, tamaño'.",
+   "review": "author-math"
+  },
+  "K:grid-copy": {
+   "none": "Copying a picture on a grid is not named in Fase 2.",
+   "why": "Grids ('retículas') appear only in primary school, for building polygons.",
+   "review": "author-math"
+  },
+  "1:find-the-differences": {
+   "none": "Visual discrimination is not an objective of this campo.",
+   "why": "No process of Fase 3 fits finding differences between two pictures.",
+   "review": "author-math"
+  },
+  "1:mazes": {
+   "none": "Mazes are not named in Fase 3.",
+   "why": "The spatial wording of 1° is about croquis of the surroundings with spatial references, not about paths in a puzzle.",
+   "review": "author-math"
+  },
+  "1:grid-copy": {
+   "none": "Copying a picture square by square is not named in Fase 3.",
+   "why": "The 'retículas de cuadrados o puntos' of 2° are for building polygons, not for copying drawings.",
+   "review": "author-math"
+  },
+  "1:picture-analogies": {
+   "none": "Analogies are not an objective of this campo.",
+   "why": "No wording on regularities, classification or data fits A is to B as C is to ?.",
+   "review": "author-math"
+  },
+  "1:secret-code": {
+   "none": "Decoding with a key is not an objective of this campo.",
+   "why": "The only 'códigos' in PART 2 are personal codes 'para representar datos en forma gráfica' (preschool), a different thing.",
+   "review": "author-math"
+  },
+  "1:picture-sudoku": {
+   "none": "Logic puzzles are not named in Fase 3.",
+   "why": "No process fits a sudoku.",
+   "review": "author-math"
+  },
+  "1:logic-picture-clues": {
+   "none": "Logic grids are not named in Fase 3.",
+   "why": "The data processes ask for records of collected data, not deduction from clues.",
+   "review": "author-math"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "F3.LEN.6.G2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The mathematics reviewer left this point without a counterpart and said the sentence writing belongs to Lenguajes. The page asks for one written sentence about each difference; the only 2° process on writing conventions is F3.LEN.6.G2.4 (capitals, spaces between words, first punctuation marks), which the sentences practise without being its content: prepares. Finding the differences itself has no process.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Visual discrimination is not an objective of this campo (the sentence writing belongs to Lenguajes).",
+    "why": "No process of Fase 3 in this campo fits.",
+    "review": "author-math"
+   }
+  },
+  "2:logic-grid": {
+   "none": "Logic grids are not named in Fase 3.",
+   "why": "Reading a table of yes/no marks is not the 'organiza, representa e interpreta datos' of collected data.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The only wording on classifying by two criteria is in preschool: 'de acuerdo con uno o dos criterios definidos con sus pares: color, forma, tamaño'. Venn circles and two-way tables are a far more formal version; Fase 4 has no process on classification as such.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "F2.SPC.7.GP2.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Same skill as 3:two-attribute-sort: 'uno o dos criterios' (preschool) is the only classification wording, and the sheets go well beyond it.",
+   "review": "author-math"
+  },
+  "3:logic-grids": {
+   "none": "Logic grids are not named in Fase 4.",
+   "why": "No process fits deduction from clues.",
+   "review": "author-math"
+  },
+  "3:latin-square-sudoku": {
+   "none": "Logic puzzles are not named in Fase 4.",
+   "why": "No process fits a sudoku.",
+   "review": "author-math"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "F2.HC.4.GP2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F2.HC.4.GP3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F3.HC.20.G1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a face to a feeling word and naming how I feel is \"nombra las emociones que experimenta, como: alegría, tristeza, sorpresa, miedo o enojo\" (2° de preescolar; the part about body changes is not on the sheet). 3° de preescolar asks for an exchange with classmates about \"formas de actuar, expresar, nombrar y controlar las emociones\", and 1° de primaria asks to recognise \"emociones básicas en él o ella y en las demás personas\" in order to ask for or offer help; the worksheets are a step before both.",
+   "review": "author-soc"
+  }
+ }
+}

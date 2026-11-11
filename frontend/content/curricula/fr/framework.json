@@ -84,9 +84,9 @@
    "sha256": "4aa0fe43808a5e4da8304135eb3bdc2ea638d759bb8c9932cf1f99287f500762",
    "version": "BO n° 22 du 28 mai 2026, annexe 3; listed by the Ministry among the cycle 2 programmes of the rentrée 2026",
    "band": "single years: CP (1), CE1 (2), CE2 (3)",
-   "ids": "this registry's own: year, H (histoire) or G (géographie), the theme's own number",
+   "ids": "this registry's own: year, H (histoire) or G (géographie), the theme's own number, then the place of the attendu in its theme",
    "citation": "Programme d’histoire-géographie pour le cycle 2. BO n° 22 du 28 mai 2026, annexe 3.",
-   "checkedAgainstPdf": "16 themes read (their titles only: the programme describes each theme in prose)"
+   "checkedAgainstPdf": "16 themes and 86 attendus read (the two columns of \"Attendus (connaissances et compétences)\"; the \"Repères\" beside them are not read); every theme holds at least two attendus; each begins as a printed line of a second reading of the PDF"
   },
   {
    "key": "programme-2020-questionner-le-monde",
@@ -5110,47 +5110,311 @@
   {
    "id": "HG.CP.H1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "1",
    "parent": "HG.CP",
    "domain": "Histoire",
    "text": "Thème 1 : Les manifestations naturelles du temps"
   },
   {
+   "id": "HG.CP.H1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H1",
+   "text": "Observer des manifestations naturelles du temps."
+  },
+  {
+   "id": "HG.CP.H1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H1",
+   "text": "Expliquer l’alternance du jour et de la nuit en manipulant un globe terrestre."
+  },
+  {
+   "id": "HG.CP.H1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H1",
+   "text": "Nommer les saisons, donner leurs caractéristiques."
+  },
+  {
    "id": "HG.CP.H2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "1",
    "parent": "HG.CP",
    "domain": "Histoire",
    "text": "Thème 2 : Les représentations humaines du temps"
   },
   {
+   "id": "HG.CP.H2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Connaitre la structure du calendrier grégorien."
+  },
+  {
+   "id": "HG.CP.H2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Découvrir différentes représentations du temps : linéaire et cyclique."
+  },
+  {
+   "id": "HG.CP.H2.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Connaitre des outils de mesure du temps."
+  },
+  {
+   "id": "HG.CP.H2.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Savoir que l’année est divisée en mois, le mois en semaines, la semaine en jours, la journée en heures."
+  },
+  {
+   "id": "HG.CP.H2.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Repérer, ordonner et nommer les jours de la semaine."
+  },
+  {
+   "id": "HG.CP.H2.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Utiliser divers types de calendriers : emploi du temps de la journée, éphéméride, calendrier, roue des jours."
+  },
+  {
+   "id": "HG.CP.H2.7",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H2",
+   "text": "Observer et utiliser des outils de mesure du temps : sablier, pendule, montre et réveil (analogiques et numériques)."
+  },
+  {
    "id": "HG.CP.H3",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "1",
    "parent": "HG.CP",
    "domain": "Histoire",
    "text": "Thème 3 : Situer des évènements dans le temps"
   },
   {
+   "id": "HG.CP.H3.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H3",
+   "text": "Connaitre les notions d’antériorité, de simultanéité, de postériorité."
+  },
+  {
+   "id": "HG.CP.H3.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H3",
+   "text": "Comprendre la représentation du temps passé et son irréversibilité."
+  },
+  {
+   "id": "HG.CP.H3.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H3",
+   "text": "Situer et planifier sur un calendrier des évènements particuliers ou récurrents en utilisant les temps verbaux adaptés (passé, présent, futur) et les marqueurs temporels adaptés (hier, avant-hier, il y a un mois, etc. / demain, après-demain, dans un mois, etc.)."
+  },
+  {
+   "id": "HG.CP.H3.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H3",
+   "text": "Se repérer au travers des différentes générations à partir d’exemples d’arbres généalogiques."
+  },
+  {
+   "id": "HG.CP.H3.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.H3",
+   "text": "Compléter une frise chronologique de la journée, de la vie de l’élève, voire générationnelle."
+  },
+  {
    "id": "HG.CP.G1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "1",
    "parent": "HG.CP",
    "domain": "Géographie",
    "text": "Thème 1 : Autour de l’école (trois périodes)"
   },
   {
+   "id": "HG.CP.G1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Connaitre les éléments d’organisation de la classe et de l’école."
+  },
+  {
+   "id": "HG.CP.G1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Comprendre que l’espace se représente."
+  },
+  {
+   "id": "HG.CP.G1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Explorer les locaux de l’école pour s’y repérer."
+  },
+  {
+   "id": "HG.CP.G1.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Identifier les différents repères autour de l’école, du quartier ou de la commune."
+  },
+  {
+   "id": "HG.CP.G1.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Nommer les éléments d’organisation de la classe et les situer les uns par rapport aux autres."
+  },
+  {
+   "id": "HG.CP.G1.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Faire le plan de la classe et le comparer à celui d’une autre classe."
+  },
+  {
+   "id": "HG.CP.G1.7",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Se déplacer dans l’école en s’orientant et en utilisant un plan."
+  },
+  {
+   "id": "HG.CP.G1.8",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Décrire l’usage des différents lieux de l’école."
+  },
+  {
+   "id": "HG.CP.G1.9",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Décrire et/ou représenter un trajet, par exemple entre un lieu de l’espace proche (domicile, bâtiment public, équipement sportif, etc.) et l’école."
+  },
+  {
+   "id": "HG.CP.G1.10",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G1",
+   "text": "Reconnaitre des lieux familiers représentés sous différents angles de vue."
+  },
+  {
    "id": "HG.CP.G2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "1",
    "parent": "HG.CP",
    "domain": "Géographie",
    "text": "Thème 2 : Des représentations du monde (deux périodes)"
+  },
+  {
+   "id": "HG.CP.G2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Identifier la différence entre continents et océans."
+  },
+  {
+   "id": "HG.CP.G2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Comprendre comment et pourquoi passer du globe au planisphère."
+  },
+  {
+   "id": "HG.CP.G2.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Comprendre que le monde est peuplé."
+  },
+  {
+   "id": "HG.CP.G2.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Reconnaitre un planisphère."
+  },
+  {
+   "id": "HG.CP.G2.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Reconnaitre et localiser les continents et les océans sur un planisphère."
+  },
+  {
+   "id": "HG.CP.G2.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Comprendre la continuité entre les océans et identifier les continents par la manipulation d’un globe terrestre / le planisphère."
+  },
+  {
+   "id": "HG.CP.G2.7",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Situer la France."
+  },
+  {
+   "id": "HG.CP.G2.8",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "HG.CP.G2",
+   "text": "Localiser les grands foyers de peuplement."
   },
   {
    "id": "HG.CE1",
@@ -5162,47 +5426,255 @@
   {
    "id": "HG.CE1.H1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "2",
    "parent": "HG.CE1",
    "domain": "Histoire",
    "text": "Thème 1 : Du passé proche au passé lointain"
   },
   {
+   "id": "HG.CE1.H1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H1",
+   "text": "Comprendre la différence entre le passé proche et le passé lointain."
+  },
+  {
+   "id": "HG.CE1.H1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H1",
+   "text": "Employer le lexique relatif au temps (hier, autrefois, il y a dix jours, dix ans, cent ans, etc.)."
+  },
+  {
+   "id": "HG.CE1.H1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H1",
+   "text": "Identifier et positionner sur une frise chronologique des évènements récents et des évènements qui appartiennent à des périodes plus anciennes (éléments temporels proches et lointains de la vie de l’élève par exemple)."
+  },
+  {
    "id": "HG.CE1.H2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "2",
    "parent": "HG.CE1",
    "domain": "Histoire",
    "text": "Thème 2 : Les grandes périodes de l’histoire"
   },
   {
+   "id": "HG.CE1.H2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H2",
+   "text": "Construire une première représentation du temps long et savoir distinguer de grandes périodes historiques."
+  },
+  {
+   "id": "HG.CE1.H2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H2",
+   "text": "Connaitre des figures de chaque période historique."
+  },
+  {
+   "id": "HG.CE1.H2.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H2",
+   "text": "Situer sur une frise chronologique des figures de chaque période historique."
+  },
+  {
+   "id": "HG.CE1.H2.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H2",
+   "text": "Repérer et mémoriser sur une frise les grandes périodes de l’histoire."
+  },
+  {
    "id": "HG.CE1.H3",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "2",
    "parent": "HG.CE1",
    "domain": "Histoire",
    "text": "Thème 3 : Les traces du passé"
   },
   {
+   "id": "HG.CE1.H3.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H3",
+   "text": "Comprendre que le passé laisse des traces."
+  },
+  {
+   "id": "HG.CE1.H3.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H3",
+   "text": "Utiliser les traces du passé pour le comprendre."
+  },
+  {
+   "id": "HG.CE1.H3.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H3",
+   "text": "Connaitre les métiers d’archéologue, d’historien et d’historienne."
+  },
+  {
+   "id": "HG.CE1.H3.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.H3",
+   "text": "Identifier et situer dans le temps les traces du passé issues de l’environnement proche de l’élève ou au travers de documents de différentes natures :  fossiles;  ossements;  grottes (préhistoire);  ruines;  monuments;  objets;  écrits;  images;  œuvres d’art;  témoignages."
+  },
+  {
    "id": "HG.CE1.G1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "2",
    "parent": "HG.CE1",
    "domain": "Géographie",
    "text": "Thème 1 : La Terre est peuplée (une ou deux périodes)"
   },
   {
+   "id": "HG.CE1.G1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Connaitre les grands foyers de peuplement (fortes densités) en remobilisant les repères acquis depuis le CP."
+  },
+  {
+   "id": "HG.CE1.G1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Connaitre les principales villes dans le monde."
+  },
+  {
+   "id": "HG.CE1.G1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Comprendre la différence entre ville et campagne à partir d’une approche paysagère."
+  },
+  {
+   "id": "HG.CE1.G1.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Localiser les grands foyers de peuplement sur un planisphère."
+  },
+  {
+   "id": "HG.CE1.G1.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Mémoriser et localiser les principales villes à l’échelle mondiale."
+  },
+  {
+   "id": "HG.CE1.G1.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G1",
+   "text": "Expliquer la différence entre ville et village."
+  },
+  {
    "id": "HG.CE1.G2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "2",
    "parent": "HG.CE1",
    "domain": "Géographie",
    "text": "Thème 2 : Découvrir les lieux où vivent les êtres humains (trois ou quatre périodes)"
+  },
+  {
+   "id": "HG.CE1.G2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Connaitre les trois grandes zones climatiques (tropicale, tempérée, froide)."
+  },
+  {
+   "id": "HG.CE1.G2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Connaitre les principaux types de végétation (forêt, prairie, désert)."
+  },
+  {
+   "id": "HG.CE1.G2.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Connaitre les différents types de relief (montagne, plaine, plateau et vallée)."
+  },
+  {
+   "id": "HG.CE1.G2.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Connaitre la différence entre un fleuve et une rivière."
+  },
+  {
+   "id": "HG.CE1.G2.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Comprendre que les êtres humains vivent dans des milieux différents."
+  },
+  {
+   "id": "HG.CE1.G2.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Caractériser :  les trois principales zones climatiques; les grands types de végétation;   les différents types de relief."
+  },
+  {
+   "id": "HG.CE1.G2.7",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Sur un planisphère, localiser et nommer : les trois principales zones  climatiques; les grandes chaines de montagne;   les principaux déserts; quelques grands fleuves. "
+  },
+  {
+   "id": "HG.CE1.G2.8",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Reconnaitre une forêt tempérée et une forêt tropicale, un désert chaud et un désert froid, une prairie et une savane."
+  },
+  {
+   "id": "HG.CE1.G2.9",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "HG.CE1.G2",
+   "text": "Décrire un paysage à partir d’une photographie ou d’une observation directe, à l’oral et/ou avec une production graphique."
   },
   {
    "id": "HG.CE2",
@@ -5214,56 +5686,272 @@
   {
    "id": "HG.CE2.H1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Histoire",
    "text": "Thème 1 : La vie des femmes et des hommes au Paléolithique et au Néolithique (environ 3 millions d'années à 3000 av. J.-C.) (première période)"
   },
   {
+   "id": "HG.CE2.H1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H1",
+   "text": "Connaitre le mode de vie nomade au Paléolithique."
+  },
+  {
+   "id": "HG.CE2.H1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H1",
+   "text": "Comprendre le mode de vie sédentaire au Néolithique : agriculture (culture et élevage), utilisation des premiers métaux."
+  },
+  {
+   "id": "HG.CE2.H1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H1",
+   "text": "Décrire le mode de vie des chasseurs-cueilleurs au Paléolithique."
+  },
+  {
+   "id": "HG.CE2.H1.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H1",
+   "text": "Décrire une peinture pariétale ou une gravure rupestre."
+  },
+  {
+   "id": "HG.CE2.H1.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H1",
+   "text": "Expliquer les différences de mode de vie des femmes et des hommes entre le Paléolithique et le Néolithique."
+  },
+  {
    "id": "HG.CE2.H2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Histoire",
    "text": "Thème 2 : Vivre à Rome et en Gaule romaine du Ier siècle avant J.-C. au IIe siècle après J.-C. (deuxième et troisième périodes)"
   },
   {
+   "id": "HG.CE2.H2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Connaitre la vie quotidienne des habitantes et des habitants de Rome : se loger, se nourrir, se déplacer, se divertir."
+  },
+  {
+   "id": "HG.CE2.H2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Comprendre que la société antique est hiérarchisée (hommes, femmes, esclaves, étrangers, etc.)"
+  },
+  {
+   "id": "HG.CE2.H2.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Connaitre l’étendue de l’empire romain au IIe siècle après J.-C."
+  },
+  {
+   "id": "HG.CE2.H2.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Connaitre la vie quotidienne des habitantes et des habitants de la Gaule romaine."
+  },
+  {
+   "id": "HG.CE2.H2.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Définir l’usage d’un monument ou d’un aménagement caractéristique de la ville de Rome."
+  },
+  {
+   "id": "HG.CE2.H2.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Repérer sur une carte l’étendue de l’empire romain à son apogée."
+  },
+  {
+   "id": "HG.CE2.H2.7",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Localiser la Gaule dans l’empire."
+  },
+  {
+   "id": "HG.CE2.H2.8",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H2",
+   "text": "Expliquer que le monde gallo-romain mêle les cultures gauloise et romaine."
+  },
+  {
    "id": "HG.CE2.H3",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Histoire",
    "text": "Thème 3 : La construction du royaume de France (Xe – XVe siècles) (quatrième et cinquième périodes)"
   },
   {
+   "id": "HG.CE2.H3.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Les grandes étapes de la construction du royaume de France."
+  },
+  {
+   "id": "HG.CE2.H3.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Les moyens d’affirmation de l’autorité du roi."
+  },
+  {
+   "id": "HG.CE2.H3.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Repérer les grandes étapes de la construction du royaume de France à partir de cartes."
+  },
+  {
+   "id": "HG.CE2.H3.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Décrire la cérémonie du sacre."
+  },
+  {
+   "id": "HG.CE2.H3.5",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Citer les moyens utilisés par les rois de France pour affirmer leur autorité sur leur royaume."
+  },
+  {
+   "id": "HG.CE2.H3.6",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.H3",
+   "text": "Nommer et situer sur une frise chronologique les dynasties royales : Capétiens, Valois, quelques rois (Philippe Auguste, etc.) et quelques grandes figures féminines (Aliénor d’Aquitaine, Blanche de Castille, etc.)"
+  },
+  {
    "id": "HG.CE2.G1",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Géographie",
    "text": "Thème 1 : L’inégale répartition de la population en France (une période)"
   },
   {
+   "id": "HG.CE2.G1.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G1",
+   "text": "Connaitre la répartition de la population en France."
+  },
+  {
+   "id": "HG.CE2.G1.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G1",
+   "text": "Localiser les espaces de fortes et de faibles densités."
+  },
+  {
+   "id": "HG.CE2.G1.3",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G1",
+   "text": "Localiser et nommer les cinq principales agglomérations à l’échelle nationale et, le cas échéant, la principale agglomération à proximité de l’école."
+  },
+  {
+   "id": "HG.CE2.G1.4",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G1",
+   "text": "Localiser et nommer les grandes chaines de montagne et quelques grands fleuves."
+  },
+  {
    "id": "HG.CE2.G2",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Géographie",
    "text": "Thème 2 : Se loger en France (deux périodes)"
   },
   {
+   "id": "HG.CE2.G2.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G2",
+   "text": "Connaitre et comprendre la diversité des paysages résidentiels en France."
+  },
+  {
+   "id": "HG.CE2.G2.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G2",
+   "text": "Reconnaitre et décrire les éléments constitutifs des espaces résidentiels."
+  },
+  {
    "id": "HG.CE2.G3",
    "f": "programme-2026-histoire-geographie-cycle2",
-   "kind": "content",
+   "kind": "subarea",
    "grade": "3",
    "parent": "HG.CE2",
    "domain": "Géographie",
    "text": "Thème 3 : Travailler en France (deux périodes)"
+  },
+  {
+   "id": "HG.CE2.G3.1",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G3",
+   "text": "Connaitre et comprendre la diversité paysagère des activités en France."
+  },
+  {
+   "id": "HG.CE2.G3.2",
+   "f": "programme-2026-histoire-geographie-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "HG.CE2.G3",
+   "text": "Reconnaitre et décrire un paysage :  industriel;  agricole;  d’activité commerciale;  de quartier d’affaires;  de station touristique."
   },
   {
    "id": "QM.1",

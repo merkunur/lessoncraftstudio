@@ -377,6 +377,16 @@
      "id": "MM.M4.24",
      "rel": "teaches",
      "grade": "M4"
+    },
+    {
+     "id": "M.CP.40",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "M.CP.39",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -877,9 +887,9 @@
      "grade": "1"
     },
     {
-     "id": "M.CE2.57",
-     "rel": "prepares",
-     "grade": "3"
+     "id": "M.CE1.59",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -1062,6 +1072,11 @@
      "grade": "1"
     },
     {
+     "id": "M.CE1.60",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
      "id": "M.CE2.58",
      "rel": "teaches",
      "grade": "3"
@@ -1122,6 +1137,11 @@
      "grade": "1"
     },
     {
+     "id": "M.CE1.33",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
      "id": "M.CP.28",
      "rel": "prepares",
      "grade": "1"
@@ -1161,6 +1181,11 @@
   },
   "2:hundreds-chart-moves": {
    "rows": [
+    {
+     "id": "M.CE1.29",
+     "rel": "teaches",
+     "grade": "2"
+    },
     {
      "id": "M.CP.21",
      "rel": "teaches",
@@ -1352,14 +1377,14 @@
   "2:hundred-more-less": {
    "rows": [
     {
-     "id": "M.CE1.6",
+     "id": "M.CE1.29",
      "rel": "teaches",
      "grade": "2"
     },
     {
-     "id": "M.CP.21",
-     "rel": "extends",
-     "grade": "1"
+     "id": "M.CE1.6",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -1367,14 +1392,14 @@
   "2:time-5-min-quarter": {
    "rows": [
     {
+     "id": "M.CE1.59",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
      "id": "M.CE2.57",
      "rel": "teaches",
      "grade": "3"
-    },
-    {
-     "id": "M.CP.46",
-     "rel": "extends",
-     "grade": "1"
     }
    ],
    "by": "authored"
@@ -1519,11 +1544,23 @@
    "by": "authored"
   },
   "2:mass-grams": {
-   "none": "PART 2 holds no mass objective for cycle 2 (only the maternelle comparisons of masses).",
+   "rows": [
+    {
+     "id": "M.CE1.49",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "2:read-jugs": {
-   "none": "PART 2 holds no capacity objective (litres, millilitres).",
+   "rows": [
+    {
+     "id": "M.CE2.52",
+     "rel": "extends",
+     "grade": "3"
+    }
+   ],
    "by": "authored"
   },
   "2:choose-units": {
@@ -1532,6 +1569,16 @@
      "id": "M.CE1.42",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "M.CE1.49",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "M.CE2.46",
+     "rel": "prepares",
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -1624,9 +1671,9 @@
      "grade": "2"
     },
     {
-     "id": "M.CP.27",
+     "id": "M.CE1.34",
      "rel": "teaches",
-     "grade": "1"
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -1679,9 +1726,14 @@
   "3:compare-4-digit": {
    "rows": [
     {
-     "id": "M.CE1.7",
-     "rel": "extends",
-     "grade": "2"
+     "id": "M.CE2.7",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "M.CE2.6",
+     "rel": "teaches",
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -1689,9 +1741,9 @@
   "3:rounding": {
    "rows": [
     {
-     "id": "M.CE1.7",
+     "id": "M.CE2.7",
      "rel": "extends",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -1732,6 +1784,11 @@
   },
   "3:arithmetic-patterns": {
    "rows": [
+    {
+     "id": "M.CE2.4",
+     "rel": "teaches",
+     "grade": "3"
+    },
     {
      "id": "M.CE1.15",
      "rel": "prepares",
@@ -1808,14 +1865,14 @@
   "3:scaled-graphs": {
    "rows": [
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     },
     {
-     "id": "M.CE1.81",
+     "id": "M.CE2.74",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -1823,9 +1880,9 @@
   "3:thermometer": {
    "rows": [
     {
-     "id": "M.CE1.10",
+     "id": "M.CE2.10",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -1917,9 +1974,9 @@
   "3:time-12-24": {
    "rows": [
     {
-     "id": "M.CP.48",
-     "rel": "extends",
-     "grade": "1"
+     "id": "M.CE1.61",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -2111,9 +2168,9 @@
      "grade": "3"
     },
     {
-     "id": "M.CE1.81",
+     "id": "M.CE2.74",
      "rel": "prepares",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -2150,6 +2207,11 @@
   "K:rhyme": {
    "rows": [
     {
+     "id": "ML.M5.15",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
      "id": "F.CP.1",
      "rel": "prepares",
      "grade": "1"
@@ -2174,6 +2236,16 @@
   },
   "K:letter-identification": {
    "rows": [
+    {
+     "id": "ML.M5.19",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M5.17",
+     "rel": "prepares",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares",
@@ -2200,6 +2272,16 @@
   "K:count-syllables": {
    "rows": [
     {
+     "id": "ML.M5.31",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M4.14",
+     "rel": "teaches",
+     "grade": "M4"
+    },
+    {
      "id": "F.CP.2",
      "rel": "prepares",
      "grade": "1"
@@ -2210,6 +2292,16 @@
   "K:letter-case": {
    "rows": [
     {
+     "id": "ML.M5.18",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M4.18",
+     "rel": "teaches",
+     "grade": "M4"
+    },
+    {
      "id": "F.CE1.19",
      "rel": "prepares",
      "grade": "2"
@@ -2219,6 +2311,16 @@
   },
   "K:beginning-sounds": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M5.20",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares",
@@ -2255,6 +2357,11 @@
   "K:alphabet-order": {
    "rows": [
     {
+     "id": "ML.M5.36",
+     "rel": "prepares",
+     "grade": "M5"
+    },
+    {
      "id": "F.CP.49",
      "rel": "prepares",
      "grade": "1"
@@ -2265,6 +2372,11 @@
   "K:story-sequencing": {
    "rows": [
     {
+     "id": "ML.M5.25",
+     "rel": "prepares",
+     "grade": "M5"
+    },
+    {
      "id": "F.CP.14",
      "rel": "prepares",
      "grade": "1"
@@ -2274,6 +2386,11 @@
   },
   "K:sound-position": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares",
@@ -2298,6 +2415,11 @@
      "id": "ML.M5.1",
      "rel": "prepares",
      "grade": "M5"
+    },
+    {
+     "id": "ML.M4.20",
+     "rel": "prepares",
+     "grade": "M4"
     }
    ],
    "by": "authored"
@@ -2305,9 +2427,14 @@
   "K:segment-phonemes": {
    "rows": [
     {
-     "id": "F.CP.1",
-     "rel": "prepares",
-     "grade": "1"
+     "id": "ML.M5.16",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M5.31",
+     "rel": "extends",
+     "grade": "M5"
     },
     {
      "id": "F.CP.27",
@@ -2319,6 +2446,11 @@
   },
   "K:cvc-build": {
    "rows": [
+    {
+     "id": "ML.M5.35",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.27",
      "rel": "prepares",
@@ -2340,15 +2472,20 @@
   "K:singular-plural": {
    "rows": [
     {
-     "id": "F.CE1.22",
+     "id": "F.CP.66",
      "rel": "prepares",
-     "grade": "2"
+     "grade": "1"
     }
    ],
    "by": "authored"
   },
   "K:digraphs-k": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "ML.M5.6",
      "rel": "prepares",
@@ -2395,15 +2532,25 @@
   "K:articles": {
    "rows": [
     {
-     "id": "F.CE1.22",
+     "id": "F.CP.65",
      "rel": "prepares",
-     "grade": "2"
+     "grade": "1"
+    },
+    {
+     "id": "F.CP.67",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
   },
   "1:rhyming": {
    "rows": [
+    {
+     "id": "ML.M5.15",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.1",
      "rel": "prepares",
@@ -2414,6 +2561,11 @@
   },
   "1:phoneme-boxes": {
    "rows": [
+    {
+     "id": "ML.M5.16",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.27",
      "rel": "prepares",
@@ -2454,6 +2606,16 @@
   },
   "1:syllables-split": {
    "rows": [
+    {
+     "id": "ML.M5.31",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "ML.M5.14",
+     "rel": "teaches",
+     "grade": "M5"
+    },
     {
      "id": "F.CP.2",
      "rel": "teaches",
@@ -2520,12 +2682,17 @@
   "1:articles": {
    "rows": [
     {
-     "id": "F.CE1.22",
-     "rel": "prepares",
-     "grade": "2"
+     "id": "F.CP.65",
+     "rel": "teaches",
+     "grade": "1"
     },
     {
-     "id": "F.CE1.56",
+     "id": "F.CP.67",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "F.CE1.22",
      "rel": "prepares",
      "grade": "2"
     }
@@ -2575,6 +2742,11 @@
   "1:unscramble-sentence": {
    "rows": [
     {
+     "id": "F.CP.60",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
      "id": "F.CP.35",
      "rel": "teaches",
      "grade": "1"
@@ -2589,6 +2761,11 @@
   },
   "1:question-words": {
    "rows": [
+    {
+     "id": "F.CP.62",
+     "rel": "prepares",
+     "grade": "1"
+    },
     {
      "id": "F.CE1.54",
      "rel": "prepares",
@@ -2615,6 +2792,11 @@
   "1:word-classes": {
    "rows": [
     {
+     "id": "F.CP.64",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
      "id": "F.CP.50",
      "rel": "teaches",
      "grade": "1"
@@ -2632,6 +2814,11 @@
     {
      "id": "F.CP.16",
      "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "F.CP.64",
+     "rel": "prepares",
      "grade": "1"
     },
     {
@@ -2695,12 +2882,17 @@
   "2:sentence-boundaries": {
    "rows": [
     {
-     "id": "F.CE1.53",
+     "id": "F.CP.60",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "F.CE1.54",
      "rel": "teaches",
      "grade": "2"
     },
     {
-     "id": "F.CE1.54",
+     "id": "F.CE1.53",
      "rel": "teaches",
      "grade": "2"
     },
@@ -2864,6 +3056,16 @@
   },
   "2:verb-forms": {
    "rows": [
+    {
+     "id": "F.CE1.60",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "F.CE1.58",
+     "rel": "teaches",
+     "grade": "2"
+    },
     {
      "id": "F.CE1.56",
      "rel": "teaches",
@@ -3787,9 +3989,9 @@
      "grade": "1"
     },
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -3802,9 +4004,9 @@
      "grade": "1"
     },
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -3812,9 +4014,9 @@
   "3:logic-grids": {
    "rows": [
     {
-     "id": "M.CE1.82",
+     "id": "M.CE2.75",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "3"
     },
     {
      "id": "M.CP.68",
@@ -3829,7 +4031,13 @@
    "by": "authored"
   },
   "K:feelings": {
-   "none": "Feelings: the registry holds no enseignement moral et civique and no maternelle domain for it.",
+   "rows": [
+    {
+     "id": "ML.M5.26",
+     "rel": "prepares",
+     "grade": "M5"
+    }
+   ],
    "by": "authored"
   }
  }

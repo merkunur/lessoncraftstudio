@@ -15,6 +15,7 @@ import { makerAppUrl } from '@/lib/makers/landings';
 import { teacherFileHref } from '@/lib/teacher-files';
 import { Unit, UnitLesson, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
+import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -207,6 +208,7 @@ export default async function UnitPage({ locale, unit, ui }: { locale: string; u
               labels={{ button: ui.bundleBtn, working: ui.bundleWorking, done: ui.bundleDone, failed: ui.bundleFailed }}
             />
             <a className="un-btn un-btn-ghost" href={guideHref} rel="nofollow">{ui.guideBtn}</a>
+            <SaveToCollectionsButton locale={locale} kind="unit" slug={unit.slug} labels={{ button: ui.saveBtn, done: ui.saveDone, open: ui.saveOpen, failed: ui.saveFailed }} />
             <p className="un-teacher-plan">{fill(ui.planNote, { plan })}</p>
             <p className="un-teacher-how">{ui.bundleHow}</p>
           </section>

@@ -61,6 +61,8 @@
 .un .un-btn-ghost:hover { border-color: #fff; color: #fff; background: rgba(255, 255, 255, 0.08); }
 .un-bundle-status { min-height: 1.5em; margin-top: 6px; font-size: 0.9375rem; font-weight: 600; color: #fff; }
 .un-bundle-status:empty { display: none; }
+.un-bundle-status a { color: #fff; }
+.un-save { display: grid; }
 .un-teacher .un-teacher-plan { font-weight: 700; color: #fff; }
 .un-teacher .un-teacher-how { font-size: 0.875rem; }
 

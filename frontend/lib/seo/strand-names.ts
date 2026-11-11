@@ -425,6 +425,7 @@ export const STRAND_LABEL_CORRECTIONS: Record<string, Partial<Record<string, str
   },
   'Measurement & Data': {
     nl: 'Meten en data', // the kerndoelen Rekenen en wiskunde of 2026 say « data », not « gegevens »
+    da: 'Måling og statistik', // Fælles Mål says « statistik »: the competence areas are « Geometri og måling » and « Statistik og sandsynlighed »
   },
   'Number & Operations—Fractions': {
     nl: 'Breuken', // the kerndoelen of 2026 keep « breuken » apart from « verhoudingen » (procenten, schaal)

@@ -19,7 +19,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `nl` Nederland (kerndoelen) | 4 | 75 | 249 | 52 | 5 |
 | `fi` Suomi (OPS 2014) | 4 | 154 | 198 | 100 | 8 |
 | `no` Norge (LK20) | 6 | 171 | 140 | 135 | 31 |
-| `da` Danmark (Fælles Mål) | 8 | 56 | — | — | — |
+| `da` Danmark (Fælles Mål) | 8 | 56 | 228 | 63 | 15 |
 | `it` Italia (Indicazioni nazionali) | 7 | 199 | — | — | — |
 
 ## `en` — United States (Common Core, NGSS)
@@ -259,3 +259,25 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | arts | 3 | 2 | 1 | 0 |
 | thinking | 19 | 3 | 5 | 11 |
 | sel | 1 | 0 | 1 | 0 |
+
+## `da` — Danmark (Fælles Mål)
+
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter i børnehaveklassen (Fælles Mål), Bilag 1: Børnehaveklassen** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1716 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1716/xml on 2026-11-11. Checked: 8 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 1: Dansk** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 13 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 11: Matematik** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 7 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 12: Natur/teknologi** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 8 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 4: Historie** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 3 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 8: Billedkunst** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 3 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 20: Færdselslære** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 2 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+- **Bekendtgørelse om formål, kompetencemål og opmærksomhedspunkter for folkeskolens fag og emner (Fælles Mål), Bilag 21: Sundheds- og seksualundervisning og familiekundskab** (Børne- og Undervisningsministeriet (Styrelsen for Undervisning og Kvalitet), 2024). BEK nr 1715 af 30/12/2024, in force from 1 January 2025; Retsinformation marks it "Valid" (its record there was last brought up to date on 2026-10-09: the dates of the record are those of its last change, not an end of validity). Read from https://www.retsinformation.dk/eli/lta/2024/1715/xml on 2026-11-11. Checked: 2 goals and points read from the annex; each competence area of each klassetrin holds exactly one goal; only the binding text is read (the advisory færdigheds- og vidensmål are not in the order).
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 136 | 22 | 0 |
+| literacy | 71 | 41 | 30 | 0 |
+| science | 35 | 33 | 2 | 0 |
+| social | 11 | 4 | 5 | 2 |
+| health | 8 | 6 | 2 | 0 |
+| arts | 3 | 3 | 0 | 0 |
+| thinking | 19 | 4 | 2 | 13 |
+| sel | 1 | 1 | 0 | 0 |

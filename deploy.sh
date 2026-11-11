@@ -342,6 +342,14 @@ node /opt/lessoncraftstudio/scripts/audit-activity-coverage.js > /tmp/lcs-activi
 # authored order and prerequisites consistent, every tool, activity and landing the 11 language indexes name exists.
 # It becomes a hard gate when units ship (Part 3). docs/daily-teaching-system/graph/README.md
 node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-teaching-graph.txt 2>&1; tail -4 /tmp/lcs-teaching-graph.txt
+# WARN-only (Daily Teaching System, Part 2): the curriculum registries — every node cites its source, every
+# crosswalk row names an existing objective and can be shown without an invented id. It reads committed files only.
+# It becomes a hard gate once a public page shows a national objective (Parts 4 and 6). docs/daily-teaching-system/curricula/README.md
+node /opt/lessoncraftstudio/scripts/curricula/gates.js > /tmp/lcs-curricula.txt 2>&1; tail -3 /tmp/lcs-curricula.txt
+# HARD (Daily Teaching System, Part 3): units and sub packs — shape, teaching points, the filler lints (a teacher note
+# names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
+# teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
+node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
 
 # Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
 # gates page_title + page_intro — the search-results surface — and nothing gated the
@@ -908,6 +916,19 @@ echo "💳 Payment webhook canary (signed activation + tier-bridge + bad-sig rej
   set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a
   node /opt/lessoncraftstudio/scripts/payments/smoke-payment-webhook.js
   [ $? -ne 0 ] && echo "   !!! PAYMENT CANARY FAILED — live purchases may NOT be activating. Investigate the webhook/secret NOW."
+) || true
+
+# Post-flip (Daily Teaching System, PLAN.md §5 rule 1): did an EXISTING indexed page keep its search identity? The
+# script fetches a fixed sample of about 280 live URLs (every sitemap shard + the hubs) from nginx directly and compares
+# title, meta description, canonical, robots, h1 and hreflang, and the URL count of every shard, with the committed
+# baseline. Cannot un-deploy post-flip, so loud "!!!" (never silent). Exit 3 = a URL could not be measured (not a
+# difference). nginx caches static landings for up to an hour: a landing change shows on the next run at the latest.
+# After an INTENDED change (operator sign-off): node scripts/seo/identity-snapshot.js --capture --out=docs/SEO/daily-system-baseline/baseline.json
+( set +e
+  node /opt/lessoncraftstudio/scripts/seo/identity-snapshot.js --compare=/opt/lessoncraftstudio/docs/SEO/daily-system-baseline/baseline.json --origin=127.0.0.1 > /tmp/lcs-identity.txt 2>&1
+  rc=$?; tail -6 /tmp/lcs-identity.txt
+  [ $rc -eq 1 ] && echo "   !!! SEARCH IDENTITY CHANGED on an existing indexed page (or a sitemap shard lost URLs) — see /tmp/lcs-identity.txt and PLAN.md §5 rule 1."
+  [ $rc -eq 3 ] && echo "   ⚠️  identity snapshot inconclusive (a URL could not be measured) — run it again."
 ) || true
 
 # Post-flip WARN-only: every SERVABLE saved worksheet must be free of the publish-only

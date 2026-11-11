@@ -1,0 +1,3626 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Position words are the 'geometrisk sprog i hverdagssituationer' the børnehaveklasse goal names; they come before 'anvende geometriske begreber' efter 3. klassetrin.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the shape sheets fit: finding the shape of everyday objects is 'geometrisk sprog i hverdagssituationer'; the plain picture search is visual attention and has no goal.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Biggest / tallest / longest is the comparing language of 'geometrisk sprog i hverdagssituationer'; direct comparison comes before 'måle' in MAT.3.K3.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering by size or height uses the size language of the goal 'geometrisk sprog i hverdagssituationer' and is a step before measuring (MAT.3.K3 'måle').",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Patterns by shape, size and position are standard content of 'Matematisk opmærksomhed' and are described with 'geometrisk sprog'; no goal efter 3. klassetrin names patterns, so no second row.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "prepares"
+    },
+    {
+     "id": "BH.0.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing one to one uses no number yet; it is the step before 'antalsbestemmelse' in the point of attention and before 'anvende tal'.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "More / fewer / equal is 'anvende tal ... i hverdagssituationer'; done without numerals it only prepares 'ordne talsymbolerne'.",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting a set and writing or matching the numeral is exactly 'genkende ... talsymbolerne og anvende dem til antalsbestemmelse'; to 10-20 it is a smaller range than 'trecifrede tal til at beskrive antal'.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing a small quantity at a glance is using number ('anvende tal'); it supports 'antalsbestemmelse' but the sheets need no numeral.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That the number stays the same however the things lie is part of using number in børnehaveklassen; it underlies 'antalsbestemmelse'.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child reads a numeral and makes that many: 'genkende ... talsymbolerne og anvende dem til antalsbestemmelse'.",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming circle, triangle, square is 'geometrisk sprog'; it prepares 'anvende geometriske begreber' efter 3. klassetrin.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point of attention asks the child to 'genkende ... talsymbolerne'; tracing and writing 0-20 practises the symbols (writing itself is not named, recognition is).",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Following a numeral key is recognising the number symbols: 'genkende ... talsymbolerne'.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting each kind is 'antalsbestemmelse' in an everyday scene; sort-then-count is the first step toward 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting the sides of a shape joins both halves of the goal: 'tal og geometrisk sprog'.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling a count strip is 'genkende og ordne talsymbolerne'; to 20 it prepares 'beskrive ... rækkefølge' with larger numbers.",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining numbered dots in order is 'ordne talsymbolerne' (the 11-30 sheets go a little beyond what most børnehaveklasser reach).",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Count, add one, name the new number: number order used for 'antalsbestemmelse'; it is the idea before calculation methods in MAT.3.K2.",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Before / after / between and counting back is 'ordne talsymbolerne'.",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the 3rd in a line is using number for order in an everyday situation; MAT.3.O1 names 'rækkefølge' but with three-digit numbers.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The børnehaveklasse wording names only number and geometric language; the weekdays are a first step toward 'tid i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a tally back as a number is 'antalsbestemmelse' with number symbols; tallying is the recording step of 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Guessing a quantity and checking by counting is using number and 'antalsbestemmelse'.",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The børnehaveklasse goal names 'tal og geometrisk sprog', not weight; comparing heavier and lighter is the step before 'anslå og måle ... vægt'.",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing named shapes with their sides and corners uses 'geometrisk sprog'.",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is 'anvende tal'; it is the idea of addition before the methods of MAT.3.K2.",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is 'anvende tal'; it is the idea of subtraction before the methods of MAT.3.K2.",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known group is using number at børnehaveklasse level and the first calculation strategy toward 'metoder til beregninger'.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting numbers to 10 into two parts (talvenner) is using number; in Danish schools the systematic work sits in 1. klasse, where it founds 'metoder til beregninger'.",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building figures from tangram pieces uses shape language ('geometrisk sprog').",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a mirror image needs no number or shape word, so the børnehaveklasse wording does not cover it; it prepares the concept of spejling under 'geometriske begreber'.",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing up and seeing one left over is using number with objects; lige og ulige tal as a number property belongs to 1.-2. klasse.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading 11-19 and using them for a quantity is 'talsymbolerne ... til antalsbestemmelse'; seeing them as ten and some more is the first step of place value toward 'trecifrede tal'.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "extends"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Fluent adding and subtracting goes beyond 'anvende tal ... i hverdagssituationer'; it is the content of 'addere og subtrahere enkle naturlige tal med hovedregning', which Danish schools place in 1. klasse.",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "BH.0.K2",
+     "rel": "extends"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number bonds to 20 are beyond the børnehaveklasse goal; they are a 1. klasse basis for 'metoder til beregninger med naturlige tal'.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding with a picture, ten-frame or dice model is 'udvikle metoder til beregninger'; it comes before 'hovedregning'.",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Subtracting by crossing out a picture model is an early method ('udvikle metoder til beregninger') before 'hovedregning'.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the whole number sentence for a picture belongs to 'Tal og algebra': the written form of the calculation.",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No goal names patterns; finding the rule of a pattern and filling the gaps is mathematical reasoning, the nearest wording is 'handle hensigtsmæssigt i situationer med matematik'.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting into groups is the step before counting and showing data in 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tiervenner are the basis of the calculation methods of 1. klasse and of 'hovedregning'.",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming shapes by their defining properties is 'anvende geometriske begreber'.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordinal numbers describe 'rækkefølge', but with small numbers, not the 'trecifrede tal' the point names.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Placing numbers to 50 on a number line is 'beskrive ... rækkefølge' in a smaller range than 'trecifrede tal'.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hops on a number line are a method in the sense of 'udvikle metoder til beregninger'; with the drawn line it is not yet 'hovedregning'.",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A word problem is a 'situation med matematik' the pupil must act sensibly in, solved with addition and subtraction of natural numbers.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting into a table, reading a picture graph and finding the most is 'udføre enkle statistiske undersøgelser' at 1. klasse level.",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Doubling and halving to 20 are calculation methods ('metoder til beregninger med naturlige tal').",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lige og ulige tal by sharing between two belongs to 'Tal og algebra'; the fair sharing is an early halving method. The wording does not name odd and even.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Solving 6 + 7 as a double plus one is a mental strategy: 'udvikle metoder' and 'addere ... med hovedregning'.",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding three numbers is calculation with natural numbers at 1. klasse level.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using that addition and subtraction undo each other is a method for calculating ('udvikle metoder til beregninger').",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the unknown in a number sentence is early algebra under 'Tal og algebra', solved by calculation within 20.",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The meaning of the equal sign belongs to 'Tal og algebra'; the child calculates both sides. The goal's wording itself only names calculation.",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A part-part-whole bar is a drawn method for addition and subtraction ('udvikle metoder til beregninger').",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Composing figures from shapes is 'anvende geometriske begreber'.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "prepares"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Days and months are calendar knowledge before 'anslå og måle ... tid'; the seasons part is 'genkende natur ... i sin hverdag'.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The season wheel is 'genkende natur ... i sin hverdag' (årstiderne); the months in order prepare 'tid i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Measuring with unit cubes is 'måle' at 1. klasse level; it comes before measuring length in standard units as the point of attention expects.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the clock to the hour and half hour is 'måle ... tid i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Mental addition and subtraction within 20 is 'addere og subtrahere enkle naturlige tal med hovedregning'.",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number walls (talmure) practise addition and finding a missing part by subtraction: calculation with natural numbers.",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking and correcting worked sums is calculation plus judging a result, which is to 'handle hensigtsmæssigt i situationer med matematik'.",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and colouring a bar graph from counts is part of 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tens and ones is place value with two-digit numbers, the range below 'trecifrede tal', and the ground the calculation methods stand on.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Number names to 100 belong to knowing the numbers before 'trecifrede tal'. Danish number words (halvtreds, tres ...) are hard and deserve their own care.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing and ordering is 'beskrive antal og rækkefølge', here with two-digit numbers, not yet three-digit.",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The hundred chart shows the order of the numbers to 100: the range below 'trecifrede tal'.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1 and 10 more or less is a first calculation method with place value; the number range is below 'trecifrede tal'.",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Showing one two-digit number in many ways is 'anvende ... tal til at beskrive antal' in a smaller range.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting in 2s, 5s and 10s with equal groups is a calculation method (a running total) and number order within 100.",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Setting the clock hands is 'måle ... tid'; quarter hours and five minutes are usually 2. klasse in Denmark.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting coins in a purse is a 'situation med matematik' from everyday life, solved by adding natural numbers (in Danish kroner: no cents).",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The empty number line, where the child draws the jumps, is exactly 'udvikle metoder til beregninger'; it leads to 'hovedregning'.",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "34 + 20 and 56 - 4 in the head is 'addere og subtrahere enkle naturlige tal med hovedregning'; most Danish classes do this in 2. klasse.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the partner to 100 is mental calculation with simple natural numbers.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bundling ten ones is place value with two-digit numbers, the step before 'trecifrede tal' and before written calculation methods.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Moves of +1 and +10 on the chart are a calculation method; the numbers stay under 100.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lige og ulige tal as two equal addends and by the ones digit belongs to 'Tal og algebra' (the wording itself only names calculation).",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Placing two-digit numbers on a cut number line is number order below the 'trecifrede tal' of the point.",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting shapes by number of sides is 'anvende geometriske begreber'.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding and subtracting within 100 in number walls and mazes is calculation with natural numbers, mostly in the head.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One- and two-step problems are 'situationer med matematik' to act sensibly in, solved by calculation within 100.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring with a ruler from 0 is 'måle længde' (in centimetres in Denmark).",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring two objects and finding the difference is 'måle længde i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and building three-digit numbers is the content of 'anvende trecifrede tal til at beskrive antal'.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of each digit in a three-digit number is what 'anvende trecifrede tal' requires.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting on a chart 301-400 is 'trecifrede tal til at beskrive ... rækkefølge'.",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting in 5s, 10s and 100s is a calculation method and, by hundreds, order among three-digit numbers.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing and ordering three-digit numbers is 'trecifrede tal til at beskrive antal og rækkefølge'.",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "100 more and 100 less uses the hundreds place of three-digit numbers and is a mental calculation method.",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the clock to five minutes and the quarter hour is 'måle ... tid'.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the weekday of a date and the days between two dates is 'måle ... tid i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling plane figures from solids is 'anvende geometriske begreber'.",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching kugle, terning, cylinder, kegle, kasse and pyramide to real things is using geometric concepts.",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting flader, kanter and hjørner is 'anvende geometriske begreber' on solids.",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding with base-ten blocks is a concrete calculation method with three-digit numbers.",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Taking away base-ten blocks is a concrete calculation method with three-digit numbers.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The column method is one method for 'beregninger med naturlige tal'; note the goal says 'udvikle metoder', so Danish teaching starts from the pupils' own methods and often meets the standard algorithm in 3. klasse.",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Prices, enough money and change are everyday 'situationer med matematik', solved by adding and subtracting.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Making a bar graph from a tally and answering questions about it is 'udføre enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a diagram of marks above numbers (prikdiagram) is reading data in a simple statistical investigation.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rounding to the nearest ten is a tool for estimating calculations (overslag) under 'Tal og algebra'; in Denmark it is more often met in 3. klasse.",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading grams on a balance or scale is 'måle ... vægt'.",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a measuring jug is 'måle'; the point of attention names only 'længde, tid og vægt', so volume sits under the goal alone.",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing a fitting unit is part of 'anslå og måle'. The Danish sheets must use cm/m, g/kg, ml/l only (no inches or feet).",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "From equal groups to repeated addition to the multiplication sentence is 'udvikle metoder til beregninger med naturlige tal'.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rows and columns as a model for multiplication is a calculation method with natural numbers.",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting in 3s and 4s builds the tables: a method for calculating.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and making a pictograph where a picture stands for 2 is part of 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sharing equally and making equal groups is the start of division: 'metoder til beregninger med naturlige tal'.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Cutting shapes into equal parts uses geometric concepts; naming the parts as fractions goes beyond 'beregninger med naturlige tal' (brøker belong to the goals efter 6. klassetrin, not in this list).",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "The sharing itself is division with natural numbers, but the fraction notation 1/2, 1/3, 1/4 is beyond 'naturlige tal'.",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a line is a mirror line is 'anvende geometriske begreber' (spejlingsakse).",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Completing a symmetrical grid picture is using the concept of spejling.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a square by its code B2 is describing position in a grid, a geometric concept of indskolingen.",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a turned or flipped figure from the same one uses the concepts of drejning and spejling.",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.O1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The point names 'trecifrede tal'; four-digit numbers go one place further on the same line.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rounding to 10 and 100 serves estimating calculations with natural numbers ('Tal og algebra').",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Written addition and subtraction within 1000 is a method for 'beregninger med naturlige tal' at 3. klasse level.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Overslag is a calculation method, and judging whether an answer is reasonable is to 'handle hensigtsmæssigt i situationer med matematik'.",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A magic square is addition and finding missing addends with natural numbers.",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reasoning about odd and even sums belongs to 'Tal og algebra'; the wording itself names only calculation.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the constant step of a number pattern and continuing it is counting in steps: calculation with natural numbers under 'Tal og algebra'.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the analog clock to the minute is 'måle ... tid'.",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a product as equal groups or an array is a method for multiplication with natural numbers.",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal jumps on a number line are a method for multiplication.",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "That a x b equals b x a is a property pupils use when they 'udvikle metoder til beregninger'.",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The tables, with unknown facts derived from known ones, are 'metoder til beregninger med naturlige tal'; the point of attention names only addition and subtraction.",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and building scaled bar graphs and pictographs is 'udføre enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a scale is 'måle'; temperature is not among 'længde, tid og vægt' of the point of attention.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division by equal sharing is a method for calculating with natural numbers.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division as equal hops back is a method for calculating with natural numbers.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using the tables for division and for an unknown factor is 'udvikle metoder til beregninger'.",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Modelling a story as groups or group size is acting sensibly in a 'situation med matematik', then calculating.",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A number machine (regnemaskine) asks for the rule and its inverse: early algebra under 'Tal og algebra', done by calculating.",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equations with an operation on both sides are early algebra under 'Tal og algebra'; the child calculates both sides.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding minutes and hours to a clock time is working with 'tid i enkle hverdagssammenhænge'.",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding how much time passed is 'måle ... tid'.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "MAT.3.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Denmark writes digital time on the 24-hour clock, so moving between 'klokken 3 om eftermiddagen' and 15.00 is 'tid i enkle hverdagssammenhænge' (there is no a.m./p.m. in Danish).",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Area by counting squares is 'måle', and rows x columns is a multiplication method.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rectangles with the same area and another shape: the concept of areal under 'Geometri og måling'.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Omkreds as the distance around a shape is a geometric concept that is measured as a length.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling omkreds from areal is 'anvende geometriske begreber og måle'.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division with a remainder is calculation with natural numbers; many Danish classes meet it first in 4. klasse.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ret vinkel, and smaller or bigger than it, is a geometric concept.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting firkanter by their properties is 'anvende geometriske begreber'; the rhombus and the class inclusion (a square is a rectangle) are at the top of what indskolingen does.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding and counting symmetriakser is using a geometric concept.",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Dividing a shape into equal areas uses geometric concepts; naming each part as a unit fraction goes beyond 'naturlige tal'.",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Fractions a/b are not 'naturlige tal'; brøker belong to the goals efter 6. klassetrin, which this list does not hold.",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Rebuilding the whole from a unit fraction is fraction work beyond 'beregninger med naturlige tal'.",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Fractions on the number line between 0 and 1 go beyond the natural numbers the goal names.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Comparing fractions goes beyond the natural numbers the goal names.",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "Equivalent fractions go beyond the natural numbers the goal names; in Denmark this is 4.-5. klasse content.",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "MAT.3.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "1/3 of 12 is solved by dividing natural numbers, but the fraction notation is beyond 'naturlige tal'.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child measures lengths ('måle') and shows the data in a diagram ('enkle statistiske undersøgelser'); half units are at the top of the level.",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting unit cubes in a solid, hidden ones too, is measuring rumfang and using spatial concepts.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lines, loops and zigzags come before 'bogstavernes form' and before expressing oneself 'i skrift'.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "BH.0.K4",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A self-portrait and 'my favourite things' is 'udtrykke sig i billeder'; it prepares expressing oneself 'i skrift ... og billede i nære og velkendte situationer'.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing rhyme is attention to the sound side of language (the 'Sprog' goal); it prepares the letter-sound knowledge of the point of attention.",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting pictures under category words is vocabulary and concept work in the 'Sprog' area; the goal's wording is broad and does not name vocabulary.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a letter among look-alikes is 'genkende alle bogstavernes form'. Note the point excludes q (and w, x, z), so b/d/p should carry the Danish sheets.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing capitals and small letters fixes 'bogstavernes form'. The Danish alphabet has 29 letters: æ, ø, å must be in the set.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Clapping stavelser is language attention in børnehaveklassen; it prepares reading 'ord på to stavelser'.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching capital and small letters is 'genkende alle bogstavernes form'.",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Forlyd linked to a letter is 'bogstavernes ... lyd'.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying which one does not belong uses category words: vocabulary work in the 'Sprog' area (the wording does not name it).",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Modsætninger are word-meaning work in the 'Sprog' area (the wording is broad and does not name it).",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The point asks for the letters' 'form, navn og lyd'; their order goes one step further on the same line. In Danish the alphabet ends with æ, ø, å.",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering story pictures is working with narrative, one of the 'måder at anvende sprog på'; it prepares understanding 'enkle tekster'.",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing where a sound sits and naming the middle vowel uses 'bogstavernes ... lyd'; it prepares spelling 'lydrette' words.",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "extends"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting letters into vokaler and konsonanter goes beyond 'form, navn og lyd'. Danish has nine vowels: a, e, i, o, u, y, æ, ø, å.",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Seeing one word in two languages is being 'opmærksom på forskellige måder at anvende sprog på'.",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting a word into its sounds is language attention; it is the step before reading and spelling 'lydrette' words.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "extends"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building words like 'bil' and 'bus' goes beyond single letters' sound and is the start of 'stave til lydrette' words (fx 'ti, bil').",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Meeting written words for pictures is attention to written language; it prepares 'læse lydrette' words.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ental og flertal is attention to how a word changes form: language attention in the 'Sprog' area.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The point names single letters' sound. sh/ch/th are English; a Danish version can only use the few Danish letter teams at the start of a word (sj- in 'sjov', ch- in loan words), which goes beyond the point.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading frequent words (og, jeg, er, det) at sight is a first step toward 'almindelige ikke-lydrette ord' and 'læse enkle tekster'; børnehaveklassen has no reading goal.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing words practises 'bogstavernes form'; writing left to right with spaces prepares 'udtrykke sig i skrift'.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing en or et for a noun is attention to the form of the language ('Sprog'); the wording does not name grammar.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rhyme is sound awareness, a step before reading and spelling 'lydrette' words; no goal efter 2. klassetrin names it.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sound by sound is how 'lydrette' words are spelled (segmenting) and read (blending).",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only if rebuilt for Danish: sh/ch/th do not exist, but two letters for one sound (ng, sj, hv, hj, nd, ld) make the 'almindelige ikke-lydrette ord' the points name.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the word for a picture is 'stave til lydrette ... ord' (fx 'ti, bil og kano').",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting and joining stavelser is how pupils read 'ord på to stavelser'.",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Every syllable has a vowel' is a rule that supports reading and spelling two-syllable words; it is not itself what the points ask.",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading two-syllable words by their syllables is 'læse lydrette ... ord på to stavelser'; word reading prepares 'enkle tekster'.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "BH.0.O1",
+     "rel": "extends"
+    }
+   ],
+   "why": "No goal names alphabetical order; it builds on the letter knowledge of BH.0.O1 and goes beyond it. Danish order ends ... x, y, z, æ, ø, å.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Word-meaning work supports reading 'enkle tekster' and 'opmærksomhed på sprog'; no binding goal names vocabulary.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns by en / et (fælleskøn, intetkøn) is attention to language; the goal itself is about communicating.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading an instruction and doing what it says is to 'læse enkle tekster sikkert og bruge dem'.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word that fits a sentence shows the child reads simple text with understanding.",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Words that mean the same are vocabulary work that supports reading and 'opmærksomhed på sprog'; no goal names it.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building one given sentence with capital letter and full stop is the step before one's own 'sammenhængende tekster på mindst 3 linjer'.",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading hvem / hvad / hvor questions and matching answers is reading simple text with understanding; asking questions prepares communication.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering sentences to pictures is reading 'enkle tekster'; story structure prepares the talk about literature in 'Fortolkning'.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Navneord, udsagnsord and tillægsord give 'opmærksomhed på sprog', but the goal is about communicating; the binding text no longer names ordklasser.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Replacing a name with han / hun / de is attention to language; no goal names stedord.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering words from weak to strong is word-meaning work; it supports 'opmærksomhed på sprog' and reading.",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing the root in a longer word helps reading and spelling 'ikke-lydrette' words; morphemes are usually 2.-3. klasse work.",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A short story, a postcard or a description is 'sammenhængende tekster ... i en kendt teksttype' and 'udtrykke sig i skrift ... og billede'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "DAN.2.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only if rebuilt for Danish (ng, sj, hv, nd, ld; there is no sh): finding the letter team while reading sentences is reading 'almindelige ikke-lydrette ord'.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Stort begyndelsesbogstav and punktum or spørgsmålstegn are part of expressing oneself 'i skrift'; they are needed for a 'sammenhængende tekst'.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joined handwriting is a tool for 'udtrykke sig i skrift'; the binding text does not name håndskrift, and many Danish schools teach it in 2.-3. klasse or only lightly.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using the story to choose the missing word is reading 'enkle tekster' with understanding.",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the question that fits a marked answer needs reading with understanding; forming questions prepares communication.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a short story and answering from the text is to 'læse enkle tekster sikkert'; 'Fortolkning' asks for conversation, which a sheet only prepares.",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sentences about a picture are a description: 'sammenhængende tekster på mindst 3 linjer i en kendt teksttype'.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting into navneord, udsagnsord and tillægsord gives 'opmærksomhed på sprog'; the goal is about communicating and no goal names ordklasser.",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing flertal (-er, -e, -r and irregular: mand - mænd, barn - børn) is spelling common, partly 'ikke-lydrette' word forms.",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The English rules named do not exist in Danish; rebuilt with Danish rules (dobbeltkonsonant after a short vowel, stumt d in nd/ld, stumt h in hv/hj) it is spelling 'almindelige ikke-lydrette ord'.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Synonyms, and other words for 'sagde', are vocabulary for reading and for one's own writing; no goal names it.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Synonyms, and other words for 'sagde', are vocabulary for reading and for one's own writing; no goal names it.",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Nutid and datid (er - var, har - havde, gør - gjorde, går - gik) is attention to language; these forms are among the 'almindelige ikke-lydrette ord' (the point's own example is 'siger').",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Linking a pronoun to its name helps the reading of connected text and is attention to language; no goal names stedord.",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading joined handwriting is not named anywhere; it serves reading simple everyday texts written by hand.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sammensatte ord, written as one word and sometimes with a joining s or e, are a central part of Danish spelling of common words.",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "DAN.2.O3",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the shared root supports reading and spelling 'ikke-lydrette' words; the points do not name morphemes.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "DAN.2.K4",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Forstavelser (u-, mis-, gen-, for-) are attention to how words are built; in Denmark usually 3.-4. klasse work, and no goal names it.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.O2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A retelling in order with 'Først, Så, Derefter, Til sidst' is a 'sammenhængende tekst ... i en kendt teksttype'.",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading clues one at a time and using them is to 'læse enkle tekster ... og bruge dem'; the animal knowledge touches natur/teknologi.",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.4.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing facts about an animal is expressing oneself 'i skrift' about a well-known subject and knowledge of nature; a fact file prepares writing 'i velkendte faglige situationer'.",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing facts about two animals is knowledge of nature read from simple fact sentences.",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "DAN.4.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joined handwriting is a tool for 'udtrykke sig i skrift'; the binding text does not name håndskrift.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "DAN.4.K2",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.4.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling close verbs apart (gå - slentre - styrte) is vocabulary for precise writing and for reading; no goal names it.",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "DAN.4.K1",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Forming bage - bager, løbe - løber is word building: it supports reading new words and goes beyond the spelling of common words in the point efter 2. klassetrin.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "DAN.4.K2",
+     "rel": "prepares"
+    },
+    {
+     "id": "DAN.2.O3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Choosing bage / bager / bagning / bagte for a sentence is word-form knowledge for writing; it goes beyond the spelling point efter 2. klassetrin.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "BH.0.K5",
+     "rel": "prepares"
+    },
+    {
+     "id": "NT.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming body parts comes before choices 'der styrker og udvikler kroppen' and before labelling a lifelike model of the body in natur/teknologi; BH.0.K3 speaks only of moving observantly in nature.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling living from non-living is the 'viden' a child needs to 'færdes iagttagende i naturen'.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which part of the plant we eat is knowledge about plants for observing nature; it prepares 'genkende natur ... i sin hverdag'.",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing animals and where they live is the 'viden' for 'færdes iagttagende i naturen'.",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Animal young and their parents is knowledge about animals for observing nature.",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Årstiderne and a tree through the year is exactly observing nature 'ud fra viden og erfaring'.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Day sky and night sky is a 'naturfagligt fænomen' the child observes.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Observing the weather over a week is 'færdes iagttagende i naturen'.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Natural or made by people is the very distinction of 'genkende natur og teknologi i sin hverdag', one year early.",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The senses are how a child is 'iagttagende'; knowing them belongs to the 'naturfaglige fænomener' area.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting waste is technology and nature in everyday life ('genkende natur og teknologi i sin hverdag'); the børnehaveklasse goal speaks only of nature.",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "What a plant needs is knowledge for observing nature; it prepares simple investigations (growing cress).",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "BH.0.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating and sinking is a 'naturfagligt fænomen' met through experience; it prepares 'enkle undersøgelser'.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping animals by fur, feathers, scales or skin is recognising nature in an ordered way ('genkende natur ... i sin hverdag').",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Where animals live and what they need is knowledge of nature around the child.",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A drawn life cycle of chicken, butterfly, frog or plant is a 'naturtro model' the child uses to say what comes next.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "NT.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Predict and test is 'udføre enkle undersøgelser' when the test is really done with objects; writing down what happened prepares 'beskrive egne undersøgelser'.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SSF.3.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Labelling a figure of the body is using a 'naturtro model'; the body words are needed for the talk about 'krop' in SSF.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which sense for which thing is knowledge about one's own body in everyday life; the senses are the tools of 'enkle undersøgelser'.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Weather symbols and a weekly forecast are nature and technology met in everyday life.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "What things are made of and what is recycled is 'genkende natur og teknologi i sin hverdag'.",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A labelled plant drawing is a 'naturtro model'; root, stem, leaf and flower are met in everyday nature.",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Pictures of sun, earth and the moon's phases are lifelike models; the moon is nature the child sees. In Denmark the solar system is more often 3.-4. klasse.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping things by material for recycling is 'genkende natur og teknologi i sin hverdag'.",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The labelled plant is a 'naturtro model'; which part we eat ties it to everyday life.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering the butterfly's life cycle uses a lifelike model of something seen in nature.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Pictures of the moon's phases are a lifelike model of what the child can see in the sky.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.4.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The turning Earth and the Sun (globe and lamp) is a lifelike model; explaining a cause with it leads to 'modeller med stigende abstraktionsgrad'.",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.4.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Who lives in a habitat is recognising nature; linking a body feature to the place prepares 'relatere natur ... til andre kontekster'.",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "NT.2.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.2.K4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Predicting, testing and changing the shape of the clay is 'udføre enkle undersøgelser' when really done; the record prepares 'beskrive egne undersøgelser'.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Vandets kredsløb is a model that shows what cannot be seen at once: 'modeller med stigende abstraktionsgrad'.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A flower diagram with the job of each part is using a model beyond the plain lifelike picture.",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing two life-cycle diagrams is using models at a more abstract level.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The order of the planets is read from a model of the solar system: 'modeller med stigende abstraktionsgrad'.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "NT.4.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Predict, test, record and conclude is 'gennemføre enkle undersøgelser på baggrund af egne forventninger', when the sheet is the record of a real test.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    },
+    {
+     "id": "NT.2.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a side view to the view from above is spatial readiness for geometry and for using a map as a model; no børnehaveklasse wording covers it.",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "BH.0.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "HIS.4.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Family words are vocabulary work in the 'Sprog' area; a family tree prepares history's link to 'eget liv' over time.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "NT.2.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Vehicles on land, water and in the air are technology in everyday life ('genkende ... teknologi i sin hverdag'); the børnehaveklasse goals do not name technology.",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "none": "No subject of these years holds economics or civics (samfundsfag starts in 8. klasse).",
+   "why": "Nothing in the listed wording speaks of wants and needs.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "none": "No goal of these years names jobs or community helpers (samfundsfag starts in 8. klasse).",
+   "why": "BH.0.K6 is about the child's own contribution to the group, not about knowing professions.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A simple picture map with a key is a model of a place the child reads: 'anvende naturtro modeller'. The binding text no longer names maps.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "HIS.4.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Generations and one's own family tree are the first step toward relating change 'over tid til eget liv'; history itself starts in 3. klasse.",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "NT.2.K2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NT.4.K2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Using nord, syd, øst and vest on a simple map is using a model; the map with directions leads to more abstract models.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "prepares"
+    },
+    {
+     "id": "NT.2.K2",
+     "rel": "extends"
+    }
+   ],
+   "why": "A world map is a more abstract model than the 'naturtro modeller' efter 2. klassetrin; verdensdelene are usually 3.-4. klasse in Denmark.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "HIS.4.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Kinship words (moster / faster, fætter / kusine, mormor / farmor) prepare talking about family over time; no goal names them.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "NT.4.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Locating continents and oceans on a world map is using a model 'med stigende abstraktionsgrad'.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "BH.0.K5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SSF.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Everyday foods and sometimes foods are about 'valg, der styrker og udvikler kroppen'.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "BH.0.K6",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.K5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SSF.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hand washing and body care is to 'drage omsorg for sig selv' and a choice that keeps the body well.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "FAE.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading the signal and crossing in the right steps is the start of 'færdes sikkert i trafikken'; the list places the goal in years 1-3, so the K sheets prepare it.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "SSF.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting foods into groups is knowledge behind 'hvad der fremmer sundhed'; the sheet sorts and does not yet explain. Danish schools use De officielle Kostråd, not four food groups.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "SSF.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tooth brushing, stopping germs and a habit chart of one's own week are 'hvad der fremmer sundhed og trivsel i eget liv'.",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "FAE.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Knowing what traffic signs mean is needed to 'færdes sikkert i trafikken i lokalområdet'.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "SSF.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying what each habit protects is to 'forklare, hvad der fremmer sundhed'.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "FAE.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Kinds of signs (advarselstavler, forbudstavler, oplysningstavler) and which fits a situation is knowledge for 'færdes sikkert i trafikken'.",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "BH.0.K4",
+     "rel": "teaches"
+    },
+    {
+     "id": "BIL.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing a picture is to 'udtrykke sig i billeder'; step-by-step drawing is technique more than free expression.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "BIL.3.K1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a figure and placing it in a scene is making 'plane ... billeder'; copying steps is technique, the scene is the expression.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "BIL.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing and then writing about it is 'udtrykke sig i plane ... billeder' and 'i skrift ... og billede'.",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "none": "Visual discrimination of pictures is not a goal of børnehaveklassen.",
+   "why": "It is readiness for seeing letter and number forms, but no wording names it.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "rows": [
+    {
+     "id": "BH.0.O2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BH.0.O1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the number routes ('ordne talsymbolerne') and the letter and beginning-sound routes ('bogstavernes form ... og lyd') fit; the plain mazes have no goal.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "none": "Shadow matching and visual closure are perception puzzles with no goal.",
+   "why": "No wording of børnehaveklassen names visual perception.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "none": "Spot-the-difference is a perception puzzle with no goal.",
+   "why": "No wording of børnehaveklassen names visual comparison of pictures.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "none": "A picture-logic grid is a thinking puzzle with no goal.",
+   "why": "It uses neither number nor geometric language, so BH.0.K2 does not fit.",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying square by square trains position in a grid, a step before 'anvende geometriske begreber'; no børnehaveklasse wording covers it.",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "Finding differences between two pictures is a perception puzzle with no goal.",
+   "why": "Neither Danish nor mathematics names visual discrimination.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "Picture mazes are puzzles with no goal.",
+   "why": "Finding a way through a maze is not 'en situation med matematik' in the sense of MAT.3.K1.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "MAT.3.K3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying a picture on squared paper by rows and columns prepares work with position and figures under 'geometriske begreber'.",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "Picture analogies are a reasoning puzzle with no goal.",
+   "why": "No wording in Danish or mathematics names analogies.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "none": "Decoding with a key is a puzzle with no goal.",
+   "why": "It is neither reading of words in the sense of DAN.2.O1 nor calculation.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "none": "Picture sudoku is a logic puzzle with no goal.",
+   "why": "It has no numbers or geometric content, so MAT.3.K1 does not really fit.",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "none": "A logic grid with picture clues is a puzzle with no goal.",
+   "why": "Deduction from clues is not named by any wording.",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "DAN.2.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the writing part fits: a sentence about each difference is to 'udtrykke sig i skrift'; the search itself has no goal.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "none": "A logic grid is a deduction puzzle with no goal.",
+   "why": "The clues are read, but the skill is deduction, which no wording names.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by two properties in a table or a Venn diagram is ordering data, part of 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by two properties in a table or a Venn diagram is ordering data, part of 'enkle statistiske undersøgelser'.",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "none": "A logic grid is a deduction puzzle with no goal.",
+   "why": "Deduction from clues is not named by any wording.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "none": "A 6x6 picture sudoku is a logic puzzle with no goal.",
+   "why": "It has no number or geometric content, so MAT.3.K1 does not really fit.",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "BH.0.K6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SSF.3.K1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising and naming feelings is needed to 'drage omsorg for sig selv og andre'; it prepares 'trivsel i eget liv'.",
+   "review": "author-all"
+  }
+ }
+}

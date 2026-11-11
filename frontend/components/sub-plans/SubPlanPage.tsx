@@ -15,6 +15,7 @@ import { teacherFileHref } from '@/lib/teacher-files';
 import { fill, pageHref, pageThumb } from '@/lib/units';
 import { SubPack, SubUi, subPackPdfList, subPackScriptFile } from '@/lib/sub-plans';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
+import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -87,6 +88,7 @@ export default async function SubPlanPage({ locale, pack, ui }: { locale: string
               labels={{ button: ui.bundleBtn, working: ui.bundleWorking, done: ui.bundleDone, failed: ui.bundleFailed }}
             />
             <a className="un-btn un-btn-ghost" href={scriptHref} rel="nofollow">{ui.scriptBtn}</a>
+            <SaveToCollectionsButton locale={locale} kind="sub-plan" slug={pack.slug} labels={{ button: ui.saveBtn, done: ui.saveDone, open: ui.saveOpen, failed: ui.saveFailed }} />
             <p className="un-teacher-plan">{fill(ui.planNote, { plan })}</p>
             <p className="un-teacher-how">{ui.bundleHow}</p>
           </section>

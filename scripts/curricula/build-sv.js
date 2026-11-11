@@ -113,7 +113,13 @@ function contentNodes(nodes, problems, f, prefix, band, html, fromHeading) {
     if (s.criteria) {
       const k = (sub.knowledgeRequirements || []).find((r) => String(r.year) === '3');
       if (!k) problems.push(s.key + ': no criteria for the end of årskurs 3');
-      else for (const o of outline(k.text)) if (o.tag === 'p') mine.push({ id: s.letter + '.K3.' + (++crit), f: s.key, kind: 'criterion', grade: '3', text: o.text });
+      else {
+        // the criteria stand under their own heading ("Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3")
+        const head = outline(k.text).find((o) => /^h/.test(o.tag));
+        if (!head) problems.push(s.key + ': the criteria for årskurs 3 have no heading');
+        mine.push({ id: s.letter + '.K3', f: s.key, kind: 'area', grade: '3', text: head ? head.text : 'Kriterier för bedömning i slutet av årskurs 3' });
+        for (const o of outline(k.text)) if (o.tag === 'p') mine.push({ id: s.letter + '.K3.' + (++crit), f: s.key, kind: 'criterion', grade: '3', parent: s.letter + '.K3', text: o.text });
+      }
       if (k && !crit) problems.push(s.key + ': the criteria for årskurs 3 hold no paragraph');
     }
     nodes.push(...mine);

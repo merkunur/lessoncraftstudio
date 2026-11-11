@@ -893,10 +893,18 @@
    "text": "Formulering av matematiska frågeställningar utifrån vardagliga situationer."
   },
   {
+   "id": "MA.K3",
+   "f": "lgr22-matematik",
+   "kind": "area",
+   "grade": "3",
+   "text": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+  },
+  {
    "id": "MA.K3.1",
    "f": "lgr22-matematik",
    "kind": "criterion",
    "grade": "3",
+   "parent": "MA.K3",
    "text": "Eleven visar grundläggande kunskaper om matematiska begrepp och använder dem med tillfredsställande säkerhet. Eleven ger även exempel på hur några begrepp relaterar till varandra. Eleven visar grundläggande kunskaper om naturliga tal och beskriver tals inbördes relation samt delar upp tal. Eleven visar grundläggande kunskaper om tal i bråkform och delar upp helheter i delar samt jämför och namnger delarna som enkla bråk. Eleven använder och beskriver geometriska mönster och mönster i talföljder. Dessutom använder eleven grundläggande geometriska begrepp och vanliga lägesord för att beskriva geometriska objekts egenskaper, läge och inbördes relationer. Eleven använder och ger exempel på enkla proportionella samband."
   },
   {
@@ -904,6 +912,7 @@
    "f": "lgr22-matematik",
    "kind": "criterion",
    "grade": "3",
+   "parent": "MA.K3",
    "text": "Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra enkla beräkningar med naturliga tal och lösa enkla rutinuppgifter med tillfredsställande säkerhet. Eleven använder huvudräkning för att genomföra beräkningar med de fyra räknesätten. Vid addition och subtraktion väljer och använder eleven skriftliga räknemetoder med tillfredsställande säkerhet. Eleven hanterar enkla matematiska likheter och använder då likhetstecknet på ett fungerande sätt. Eleven avbildar och, utifrån instruktioner, konstruerar enkla geometriska objekt. Eleven gör enkla mätningar, jämförelser och uppskattningar av längder, massor, volymer och tider och använder vanliga måttenheter. Vid olika undersökningar avläser och skapar eleven enkla tabeller och diagram för att sortera och redovisa resultat."
   },
   {
@@ -911,6 +920,7 @@
    "f": "lgr22-matematik",
    "kind": "criterion",
    "grade": "3",
+   "parent": "MA.K3",
    "text": "Eleven löser enkla problem genom att välja och använda någon strategi med viss anpassning till problemets karaktär. Eleven beskriver tillvägagångssätt och ger enkla omdömen om resultatens rimlighet."
   },
   {
@@ -918,6 +928,7 @@
    "f": "lgr22-matematik",
    "kind": "criterion",
    "grade": "3",
+   "parent": "MA.K3",
    "text": "Eleven för och följer matematiska resonemang genom att ställa och besvara frågor som i huvudsak hör till ämnet."
   },
   {
@@ -925,6 +936,7 @@
    "f": "lgr22-matematik",
    "kind": "criterion",
    "grade": "3",
+   "parent": "MA.K3",
    "text": "Eleven beskriver och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då konkret material, bilder, symboler och andra matematiska uttrycksformer."
   },
   {
@@ -1342,10 +1354,18 @@
    "text": "Hur man jämför källor och prövar deras tillförlitlighet med ett källkritiskt förhållningssätt."
   },
   {
+   "id": "SV.K3",
+   "f": "lgr22-svenska",
+   "kind": "area",
+   "grade": "3",
+   "text": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+  },
+  {
    "id": "SV.K3.1",
    "f": "lgr22-svenska",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SV.K3",
    "text": "Eleven samtalar om elevnära frågor och ämnen och ställer frågor, ger kommentarer och framför egna åsikter. När eleven berättar om vardagliga händelser beskriver eleven dem så att innehållet tydligt framgår. Dessutom ger och tar eleven enkla muntliga instruktioner."
   },
   {
@@ -1353,6 +1373,7 @@
    "f": "lgr22-svenska",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SV.K3",
    "text": "Eleven skriver enkla texter med läslig handstil och med digitala verktyg. I texterna använder eleven stor bokstav, punkt och frågetecken samt kan stava ord som eleven själv ofta använder och som är vanligt förekommande i elevnära texter. De berättande texter eleven skriver har tydlig inledning, handling och avslutning."
   },
   {
@@ -1360,6 +1381,7 @@
    "f": "lgr22-svenska",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SV.K3",
    "text": "Eleven läser bekanta och elevnära texter med flyt genom att använda lässtrategier på ett i huvudsak fungerande sätt. Eleven kommenterar och återger delar av innehållet och visar grundläggande läsförståelse. Eleven för också enkla resonemang om tydligt framträdande budskap i texterna."
   },
   {
@@ -1367,6 +1389,7 @@
    "f": "lgr22-svenska",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SV.K3",
    "text": "Eleven söker information ur någon anvisad källa och återger grundläggande delar av informationen i enkla faktatexter. Texterna innehåller egna formuleringar och grundläggande ämnesspecifika ord och begrepp som används så att innehållet klart framgår."
   },
   {
@@ -1509,10 +1532,18 @@
    "text": "Några berättelser om hur naturvetenskaplig kunskap vuxit fram."
   },
   {
+   "id": "NO.K3",
+   "f": "lgr22-no",
+   "kind": "area",
+   "grade": "3",
+   "text": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+  },
+  {
    "id": "NO.K3.1",
    "f": "lgr22-no",
    "kind": "criterion",
    "grade": "3",
+   "parent": "NO.K3",
    "text": "Eleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment."
   },
   {
@@ -1744,10 +1775,18 @@
    "text": "Tidslinjer och tidsbegreppen dåtid, nutid och framtid."
   },
   {
+   "id": "SO.K3",
+   "f": "lgr22-so",
+   "kind": "area",
+   "grade": "3",
+   "text": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+  },
+  {
    "id": "SO.K3.1",
    "f": "lgr22-so",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SO.K3",
    "text": "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv."
   },
   {
@@ -1755,6 +1794,7 @@
    "f": "lgr22-so",
    "kind": "criterion",
    "grade": "3",
+   "parent": "SO.K3",
    "text": "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
   },
   {

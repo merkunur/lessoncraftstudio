@@ -17,6 +17,8 @@
  *   C5  a row that came from review says so, and its file of overrides names only points and nodes that exist
  *   C6  display.json says, for every framework of every registry, how it is shown (code, label or area); a framework
  *       shown by label has labelled nodes; nothing stands in display.json that is not a registry
+ *   C7  every crosswalk row can be shown to a teacher (show.js): a code or at least the title of a part, and never
+ *       an id this registry invented
  */
 'use strict';
 const fs = require('fs');
@@ -26,6 +28,7 @@ const ROOT = path.join(REPO, 'frontend', 'content', 'curricula');
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const RELS = ['teaches', 'prepares', 'extends'];
+const { shown } = require('./show.js');
 
 function load() {
   const points = readJson(path.join(REPO, 'frontend', 'content', 'teaching-graph', 'points.json')).points.map((p) => p.id);
@@ -110,6 +113,25 @@ function run(d) {
       for (const k of Object.keys(R.frameworks || {})) if (!(L.framework.frameworks || []).some((f) => f.key === k)) fail('C6', loc + ': display.json names a framework that does not exist (' + k + ')');
     }
     for (const loc of Object.keys(disp.registries)) if (!d.locales[loc]) fail('C6', 'display.json names a registry that does not exist (' + loc + ')');
+    // C7: what a teacher would be shown for every row
+    for (const [loc, L] of Object.entries(d.locales)) {
+      const R = disp.registries[loc];
+      if (!R || !L.crosswalk) continue;
+      const reg = { framework: L.framework, display: R };
+      const byId = new Map((L.framework.nodes || []).map((n) => [n.id, n]));
+      const done = new Set();
+      for (const [pid, e] of Object.entries(L.crosswalk.points)) for (const r of e.rows || []) {
+        const n = byId.get(r.id);
+        if (!n || done.has(n.id)) continue;
+        done.add(n.id);
+        const e2 = (R.frameworks || {})[n.f] || {};
+        const s = shown(reg, n);
+        if (!s.framework) fail('C7', loc + ': ' + r.id + ' (for ' + pid + ') has no framework name to show');
+        if (!s.code && !s.titles.length) fail('C7', loc + ': ' + r.id + ' (for ' + pid + ') can be shown neither by a code nor by the title of a part');
+        if (e2.show !== 'code' && [s.code].concat(s.titles).filter(Boolean).some((t) => t === n.id)) fail('C7', loc + ': ' + r.id + ' would be shown by an id this registry invented');
+        if (e2.show === 'code' && !s.code) fail('C7', loc + ': ' + r.id + ' has no code to show');
+      }
+    }
   }
   return fails;
 }
@@ -130,6 +152,7 @@ const POISONS = [
   ['a framework that display.json does not hold', 'C6', (d) => { const R = d.display.registries[first(d)]; delete R.frameworks[Object.keys(R.frameworks)[0]]; }],
   ['a framework shown in a way that does not exist', 'C6', (d) => { const R = d.display.registries[first(d)]; Object.values(R.frameworks)[0].show = 'wording'; }],
   ['a registry in display.json that does not exist', 'C6', (d) => { d.display.registries['xx'] = { name: 'x', frameworks: {} }; }],
+  ['a row that could be shown by nothing', 'C7', (d) => { const L = d.locales[first(d)]; const R = d.display.registries[first(d)]; for (const f of Object.values(R.frameworks)) { f.show = 'area'; f.titleKinds = ['nothing']; } for (const n of L.framework.nodes) delete n.domain; }],
 ];
 
 if (require.main === module) {

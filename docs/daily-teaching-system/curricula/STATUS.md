@@ -11,9 +11,9 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `de` Deutschland (Bildungsstandards der KMK) | 2 | 235 | 206 | 48 | 52 |
 | `de-by` Bayern (LehrplanPLUS) | 3 | 687 | 178 | 112 | 16 |
 | `de-nw` Nordrhein-Westfalen (Lehrpläne Primarstufe) | 3 | 367 | 176 | 114 | 16 |
-| `de-sn` Sachsen (Lehrplan Grundschule) | 3 | 862 | — | — | — |
+| `de-sn` Sachsen (Lehrplan Grundschule) | 3 | 862 | 179 | 103 | 24 |
 | `sv` Sverige (Lgr22) | 8 | 296 | 281 | 21 | 4 |
-| `es` México (Plan de Estudio 2022) | 4 | 971 | — | — | — |
+| `es` México (Plan de Estudio 2022) | 4 | 1381 | — | — | — |
 | `pt` Brasil (BNCC) | 7 | 580 | — | — | — |
 | `fr` France (programmes) | 6 | 516 | — | — | — |
 | `nl` Nederland (kerndoelen) | 4 | 75 | — | — | — |
@@ -104,6 +104,23 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | health | 8 | 5 | 3 | 0 |
 | arts | 3 | 1 | 0 | 2 |
 | thinking | 19 | 3 | 3 | 13 |
+| sel | 1 | 0 | 1 | 0 |
+
+## `de-sn` — Sachsen (Lehrplan Grundschule)
+
+- **Lehrplan Grundschule Deutsch** (Sächsisches Staatsministerium für Kultus, 2026). Lehrplan Grundschule Deutsch 2004/2009/2019/2025/2026. Read from https://www.schulportal.sachsen.de/lplandb/lehrplan/file/908/1tblk6cNNahu0dAWKRuO on 2026-11-11. Checked: 342 goals and dash lines read from the left column; each begins as a printed line of a second reading of the PDF.
+- **Lehrplan Grundschule Mathematik** (Sächsisches Staatsministerium für Kultus, 2026). Lehrplan Grundschule Mathematik 2004/2009/2019/2025/2026. Read from https://www.schulportal.sachsen.de/lplandb/lehrplan/file/912/Mpk0iAibe4ONjV3PndYR on 2026-11-11. Checked: 302 goals and dash lines read from the left column; each begins as a printed line of a second reading of the PDF.
+- **Lehrplan Grundschule Sachunterricht** (Sächsisches Staatsministerium für Kultus, 2019). Lehrplan Grundschule Sachunterricht 2004/2009/2019. Read from https://www.schulportal.sachsen.de/lplandb/lehrplan/file/80/2DYw4je6s74vCaxRHqx6 on 2026-11-11. Checked: 173 goals and dash lines read from the left column; each begins as a printed line of a second reading of the PDF.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 115 | 43 | 0 |
+| literacy | 71 | 45 | 26 | 0 |
+| science | 35 | 8 | 19 | 8 |
+| social | 11 | 2 | 5 | 4 |
+| health | 8 | 3 | 5 | 0 |
+| arts | 3 | 1 | 0 | 2 |
+| thinking | 19 | 5 | 4 | 10 |
 | sel | 1 | 0 | 1 | 0 |
 
 ## `sv` — Sverige (Lgr22)

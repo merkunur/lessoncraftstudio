@@ -79,6 +79,27 @@ const BRIEFS = {
     routing: 'Science, nature, body, health: scienze. Family, time, calendar: storia. Maps, places, position in space: geografia. Drawing: arte e immagine (classe quinta: usually "prepares"). Thinking-skills puzzles: a matematica objective only where the wording fits (relazioni, dati e previsioni; classificare; regolarità); otherwise none.' },
 };
 
+/** the strand names the site shows today in a language: { "<English strand>": "<name shown>" } (read from strand-names.ts) */
+function strandNames(locale) {
+  const src = fs.readFileSync(path.join(REPO, 'frontend', 'lib', 'seo', 'strand-names.ts'), 'utf8').replace(/\r\n/g, '\n');
+  const out = {};
+  for (const block of src.split("\n  '").slice(1)) {
+    const key = block.slice(0, block.indexOf("'"));
+    const end = block.indexOf('\n  },');
+    const body = end < 0 ? block : block.slice(0, end);
+    for (const line of body.split('\n')) {
+      const t = line.trim();
+      if (!t.startsWith(locale + ': ')) continue;
+      const q = t.charAt(locale.length + 2);
+      const rest = t.slice(locale.length + 3);
+      let value = '';
+      for (let i = 0; i < rest.length; i++) { if (rest[i] === '\\') { value += rest[++i]; continue; } if (rest[i] === q) break; value += rest[i]; }
+      out[key] = value;
+    }
+  }
+  return out;
+}
+
 function make(reg, name) {
   const b = BRIEFS[reg + '/' + name];
   if (!b) throw new Error('no brief for ' + reg + '/' + name);
@@ -87,6 +108,19 @@ function make(reg, name) {
   const text = fs.readFileSync(dump, 'utf8');
   const n = (text.match(/^### /gm) || []).length - (text.slice(text.indexOf('## PART 2')).match(/^### /gm) || []).length;
   const kb = Math.round(text.length / 1024);
+  // one more question for the reviewer: the names of the strands the site shows in this language today
+  const names = strandNames(reg.split('-')[0]);
+  const tick = String.fromCharCode(96);
+  const strands = !Object.keys(names).length ? '' : [
+    '## One more question: the names of our strands',
+    '',
+    'On its pages the site shows, beside each activity, the name of the part of the curriculum it belongs to. These are the names shown today in your language (left: our internal English name; right: what a teacher sees):',
+    '',
+    ...Object.entries(names).map(([k, v]) => '- ' + k + ' → "' + v + '"'),
+    '',
+    'For the strands of the subjects in THIS brief only, say whether the name is the one your curriculum (the documents in PART 2) uses for that part, or a name a teacher in your country would find wrong or foreign. Add to your JSON file a key ' + tick + '"strandNames"' + tick + ': an object with one entry per strand you judged, either ' + tick + '{"keep": true}' + tick + ' or ' + tick + '{"change": "<the name your curriculum uses>", "why": "<one sentence, naming the heading of PART 2 that proves it>"}' + tick + '. Change a name only when PART 2 proves another one; a name that is not word for word a heading but that every teacher uses stays.',
+    '',
+  ].join('\n');
   const md = `# Brief: the crosswalk of registry \`${reg}\` (part "${name}")
 
 You are ${b.who}. Your job: for each "teaching point" of a worksheet site, say which objectives of your curriculum it teaches, prepares or extends. This is a careful reading task. Do it yourself: do not launch other agents, and run no script other than a short one to check your own output file.
@@ -140,6 +174,7 @@ in exactly this shape:
 
 All ${n} point ids of PART 1 must be keys of "points", each with a "why". Before you finish, check with a short node command that the file parses as JSON, holds ${n} points whose keys are exactly the ids of PART 1 (the lines starting with "### " in PART 1), and that every row id is written in PART 2 (search the dump for the id followed by " ["). Fix anything that fails.
 
+${strands}
 Your final message: one line saying the file is written, how many points have rows and how many have none.
 `;
   const f = path.join(REPO, 'out', 'curricula', reg, 'brief-' + name + '.md');

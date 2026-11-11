@@ -32,7 +32,16 @@ const uiU = readJson(path.join(C, 'units', 'ui.' + loc + '.json'), {});
 const uiS = readJson(path.join(C, 'sub-plans', 'ui.' + loc + '.json'), {});
 const packs = readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
 
-function req(p, method = 'GET', body = null) {
+// The site limits how fast one address may ask. A 429 is waited out (30 s, at most four times) and then reported;
+// it is never worked around.
+async function req(p, method = 'GET', body = null) {
+  for (let i = 0; ; i++) {
+    const r = await req1(p, method, body);
+    if (r.status !== 429 || i === 4) return r;
+    await new Promise((res) => setTimeout(res, 30000));
+  }
+}
+function req1(p, method = 'GET', body = null) {
   return new Promise((resolve) => {
     const headers = Object.assign({ 'User-Agent': 'Mozilla/5.0 (lcs-units-live-check)', Accept: '*/*' }, QA, body ? { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) } : {});
     const r = https.request({ host: HOST, path: p, method, timeout: 60000, headers }, (res) => { const chunks = []; res.on('data', (c) => chunks.push(c)); res.on('end', () => resolve({ status: res.statusCode, headers: res.headers, body: Buffer.concat(chunks).toString('utf8') })); });

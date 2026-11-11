@@ -117,6 +117,142 @@
     "K:story-sequencing",
     "K:bilingual-cards"
    ]
+  },
+  {
+   "grade": "1",
+   "subject": "literacy",
+   "id": "g1-sounds-spelling-syllables",
+   "title": "Sounds, Spelling, and Syllables",
+   "metaDescription": "A two-week Grade 1 unit: 6 lessons on rhymes, sound boxes, sh, ch, and th, spelling picture words, syllables, and word families, each with a teacher note.",
+   "points": [
+    {
+     "point": "1:rhyming",
+     "types": [
+      "G1-309",
+      "G1-343"
+     ]
+    },
+    {
+     "point": "1:phoneme-boxes",
+     "types": [
+      "G1-312",
+      "G1-314"
+     ]
+    },
+    {
+     "point": "1:digraphs",
+     "types": [
+      "G1-380",
+      "G1-392"
+     ]
+    },
+    {
+     "point": "1:spell-picture-words",
+     "types": [
+      "G1-258",
+      "G1-260"
+     ]
+    },
+    {
+     "point": "1:syllables-split",
+     "types": [
+      "G1-305",
+      "G1-325"
+     ]
+    },
+    {
+     "point": "1:word-families-syllable-reading",
+     "types": [
+      "G1-330",
+      "G1-306"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": "1",
+   "subject": "literacy",
+   "id": "g1-reading-sentences-and-stories",
+   "title": "Reading Sentences and Stories",
+   "metaDescription": "A one-week Grade 1 unit: 5 lessons on reading and following a sentence, missing words, mixed-up sentences, question words, and story order, with teacher notes.",
+   "points": [
+    {
+     "point": "1:read-and-follow",
+     "types": [
+      "G1-251",
+      "G1-338"
+     ]
+    },
+    {
+     "point": "1:cloze",
+     "types": [
+      "G1-350",
+      "G1-368"
+     ]
+    },
+    {
+     "point": "1:unscramble-sentence",
+     "types": [
+      "G1-282",
+      "G1-249"
+     ]
+    },
+    {
+     "point": "1:question-words",
+     "types": [
+      "G1-353",
+      "G1-373"
+     ]
+    },
+    {
+     "point": "1:story-sequencing",
+     "types": [
+      "G1-400",
+      "G1-402"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": "1",
+   "subject": "literacy",
+   "id": "g1-words-and-how-they-work",
+   "title": "Words and How They Work",
+   "metaDescription": "A two-week Grade 1 unit: 6 lessons on ABC order, nouns, verbs, and adjectives, pronouns, opposites, strong and weak words, and root words.",
+   "points": [
+    {
+     "point": "1:alphabetical-order",
+     "types": [
+      "G1-262",
+      "G1-264"
+     ]
+    },
+    {
+     "point": "1:word-classes",
+     "types": [
+      "G1-293",
+      "G1-300"
+     ]
+    },
+    {
+     "point": "1:pronouns",
+     "types": [
+      "G1-352",
+      "G1-371"
+     ]
+    },
+    {
+     "point": "1:opposites",
+     "types": [
+      "G1-307",
+      "G1-337"
+     ]
+    },
+    "1:shades-of-meaning",
+    "1:root-words",
+    "1:articles",
+    "1:synonyms"
+   ]
   }
  ]
 }

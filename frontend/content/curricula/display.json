@@ -122,7 +122,8 @@
    "frameworks": {
     "ccss-math": {
      "short": "Common Core",
-     "show": "code"
+     "show": "code",
+     "titleKinds": ["domain"]
     },
     "ccss-ela": {
      "short": "Common Core",
@@ -130,7 +131,8 @@
     },
     "ngss": {
      "short": "NGSS",
-     "show": "code"
+     "show": "code",
+     "titleKinds": ["topic"]
     }
    }
   },

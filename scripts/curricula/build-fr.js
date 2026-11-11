@@ -60,11 +60,33 @@ function sources(file) {
   if (!fs.existsSync(plain)) require('child_process').execFileSync('python', ['-I', '-c', 'import pymupdf,sys\nd=pymupdf.open(sys.argv[1])\nopen(sys.argv[2],"w",encoding="utf-8").write("\\n".join(p.get_text() for p in d))', path.join(DIR, file), plain], { stdio: 'ignore' });
   return { pages: JSON.parse(fs.readFileSync(words, 'utf8')).pages, plain: fs.readFileSync(plain, 'utf8') };
 }
+/**
+ * A fraction is printed as two small numerals, one above the other (size 6, about nine points apart). Read word by
+ * word they fall apart ("les fractions 1, 1, 1 et 1. 2 3 4 10"). They are put back together here, and only where the
+ * page shows them: a small numeral with another small numeral straight below it becomes "1/2".
+ */
+function stackedFractions(words) {
+  const small = (w) => w[6] < 7.5 && /^\d{1,3}$/.test(w[4]);
+  const gone = new Set();
+  const out = [];
+  for (const a of words) {
+    if (gone.has(a)) continue;
+    if (small(a)) {
+      const b = words.find((x) => x !== a && !gone.has(x) && small(x) && x[1] - a[1] > 6 && x[1] - a[1] < 12 && Math.abs((x[0] + x[2]) / 2 - (a[0] + a[2]) / 2) <= 3);
+      if (b) { gone.add(b); const c = a.slice(); c[4] = a[4] + '/' + b[4]; out.push(c); continue; }
+    }
+    out.push(a);
+  }
+  return out.filter((w) => !gone.has(w));
+}
 function rowsOf(p) {
   const rows = [];
   let row = null;
-  for (const w of p.words.slice().sort((a, b) => a[1] - b[1] || a[0] - b[0])) {
-    // (the dash of a list item stands a few points lower than its text: 5 points still keeps two printed lines apart)
+  // the dash of a list item stands lower than its text (by two to six points): it is lifted by three before the lines
+  // are told apart, so that it never falls onto a line of its own below its objective
+  const lifted = p.words.map((w) => { if ((w[4] !== '-' && w[4] !== '–') || w[0] > 60) return w; const c = w.slice(); c[1] = w[1] - 3; return c; });   // (a minus sign inside a line is left alone)
+  for (const w of stackedFractions(lifted.sort((a, b) => a[1] - b[1] || a[0] - b[0]))) {
+    // (5 points still keeps two printed lines apart)
     if (!row || Math.abs(w[1] - row.y) > 5) { row = { y: w[1], words: [] }; rows.push(row); }
     row.words.push(w);
   }
@@ -74,39 +96,83 @@ function rowsOf(p) {
 const join = (lines) => lines.map((s) => s.trim()).join('\n').replace(/-\n/g, '-').replace(/\n/g, ' ').replace(/\s+/g, ' ').replace(/ ([.,;])/g, '$1').trim();
 
 function parse(doc, pages) {
-  const nodes = [], problems = [];
-  let theme = null, year = null, part = null, when = null, inTable = false, border = 0, cur = null;
+  const nodes = [], problems = [], tables = [];
+  // In the école maternelle a part is laid out in one of two orders: part → age → table, or part → age → several
+  // sub-parts, each with its table. A bold heading that comes while an age is open is therefore a sub-part IF a table
+  // follows it directly; if a paragraph or a note follows, it was the next part and the age is over (`pending`).
+  let theme = null, year = null, part = null, sub = null, when = null, inTable = false, border = 0, cur = null, table = null, stageLive = false, pending = false;
+  // A few tables are printed WITHOUT their header row: the objectives follow the part's heading or its paragraph
+  // directly. A line at the left column's edge that starts with a dash and a capital then opens the table (with the
+  // border of the tables before it). Such a line under no theme or year is reported (`stray`).
+  let open = false;
+  const stray = [];
   const counts = {};
-  for (const p of pages) {
+  const promote = () => { if (pending) { part = sub; sub = null; year = null; stageLive = false; pending = false; } };
+  pages.forEach((p, pi) => {
     for (const r of rowsOf(p)) {
       if (r.y > p.height - 30) continue;   // the page number
       const first = r.words[0];
       const allBold = r.words.every((w) => w[5]);
       const big = first[6] >= 10.5;
       const margin = first[0] < 45;
-      // the table's header: where "Exemples de réussite" starts is the border between the columns
-      if (allBold && /^Objectifs d’apprentissage\s+Exemples de réussite$/.test(r.text)) { inTable = true; border = r.words.find((w) => w[4] === 'Exemples')[0] - 2; cur = null; when = null; continue; }
-      if (margin && big && allBold) { theme = r.text === 'Principes' ? null : r.text; part = null; inTable = false; cur = null; if (doc.kind === 'cycle2') year = null; continue; }
+      // the table's header ("Objectifs d'apprentissage | Exemples de réussite"; three tables print "Objectifs" alone):
+      // where "Exemples de réussite" starts is the border between the columns
+      if (!margin && /^Objectifs( d’apprentissage)? Exemples de réussite$/.test(r.text)) {   // (one header is not set in bold)
+        pending = false;
+        inTable = true; border = r.words.find((w) => w[4] === 'Exemples')[0] - 2; cur = null; when = null;
+        table = { where: 'page ' + (pi + 1) + ', "' + [theme, part, sub].filter(Boolean).join(' › ') + '"', theme, year: year && year[1], n: 0 };
+        tables.push(table);
+        continue;
+      }
+      if (margin && big && allBold) { theme = r.text === 'Principes' ? null : r.text; part = null; sub = null; inTable = false; cur = null; year = null; stageLive = false; pending = false; continue; }
       const y = doc.kind === 'cycle2' && margin && big && !allBold ? YEARS.find(([re]) => re.test(r.text)) : null;
-      if (y) { year = y; part = null; inTable = false; cur = null; continue; }
+      if (y) { year = y; part = null; sub = null; inTable = false; open = false; cur = null; continue; }
       const st = doc.kind === 'cycle1' && margin && allBold ? STAGES.find(([re]) => re.test(r.text)) : null;
-      if (st) { year = st; inTable = false; cur = null; continue; }
-      if (margin && allBold && /^(Introduction|Points de vigilance)/.test(r.text)) { inTable = false; cur = null; continue; }   // a note for the teacher inside a part
-      if (margin && allBold) { part = r.text; inTable = false; cur = null; if (doc.kind === 'cycle1') year = null; continue; }
-      if (margin) { inTable = false; cur = null; continue; }   // a paragraph: the table before it is over
+      if (st) { promote(); year = st; sub = null; stageLive = true; inTable = false; open = true; cur = null; continue; }
+      if (margin && allBold && /^(Introduction|Points de vigilance)/.test(r.text)) { promote(); inTable = false; open = false; cur = null; if (doc.kind === 'cycle1') { year = null; stageLive = false; } continue; }   // a note for the teacher inside a part
+      if (margin && allBold) {
+        inTable = false; cur = null; open = true;
+        if (doc.kind === 'cycle1' && stageLive) { promote(); sub = r.text; pending = true; } else { part = r.text; sub = null; if (doc.kind === 'cycle1') year = null; }
+        continue;
+      }
+      if (margin) { promote(); inTable = false; open = false; cur = null; continue; }   // a paragraph: the table before it is over
+      const dashLeft = border && first[0] < border && first[0] < 52 && (first[4] === '-' || first[4] === '–');
+      if (!inTable && dashLeft && r.words[1] && /^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(r.words[1][4])) {   // (a lower-case item belongs to the tables "Tous les jours, chaque élève …", which describe the timetable)
+        if (theme && year) {   // a table without its header row
+          pending = false; inTable = true; when = null; cur = null;
+          table = { where: 'page ' + (pi + 1) + ', "' + [theme, part, sub].filter(Boolean).join(' › ') + '" (printed without a header)', theme, year: year[1], n: 0 };
+          tables.push(table);
+        } else stray.push('page ' + (pi + 1) + ': "' + r.text.slice(0, 50) + '"');
+      }
       if (!inTable || !theme || !year) continue;
       const left = r.words.filter((w) => w[0] < border);
       if (!left.length) continue;
       if (left.every((w) => w[5])) { when = left.map((w) => w[4]).join(' '); cur = null; continue; }   // "En fin de période 1", "En cours d'année" …
-      if (left[0][4] === '-' || left[0][4] === '–') {
+      const dash = (left[0][4] === '-' || left[0][4] === '–') && left[0][0] < 52;
+      // One table (data, CE2) prints its objectives WITHOUT dashes, as short paragraphs at the column's edge: there a
+      // new objective begins on a capital after a full stop or after a wider gap than a line's.
+      if (!dash && !table.dashes && left[0][0] < 52 && /^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(left[0][4])) {
+        const last = cur && cur._lines[cur._lines.length - 1].trim();
+        if (!cur || /[.]$/.test(last) || r.y - cur._y > 16) table.plain = true;
+      }
+      const starts = dash || (table.plain && !table.dashes && left[0][0] < 52 && /^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(left[0][4]) && (!cur || /[.]$/.test(cur._lines[cur._lines.length - 1].trim()) || r.y - cur._y > 16));
+      if (starts) {
+        if (dash) table.dashes = true;
         const n = (counts[year[1]] = (counts[year[1]] || 0) + 1);
-        cur = { id: doc.letter + '.' + year[1] + '.' + n, f: doc.key, kind: 'standard', grade: year[2], parent: doc.letter + '.' + year[1], domain: [theme, part, when].filter(Boolean).join(' › '), text: '', _lines: [left.slice(1).map((w) => w[4]).join(' ')] };
+        cur = { id: doc.letter + '.' + year[1] + '.' + n, f: doc.key, kind: 'standard', grade: year[2], parent: doc.letter + '.' + year[1], domain: [theme, part, sub, when].filter(Boolean).join(' › '), text: '', _y: r.y, _lines: [left.slice(dash ? 1 : 0).map((w) => w[4]).join(' ')] };
         nodes.push(cur);
-      } else if (cur) cur._lines.push(left.map((w) => w[4]).join(' '));
+        table.n++;
+      } else if (cur) { cur._lines.push(left.map((w) => w[4]).join(' ')); cur._y = r.y; }
     }
+  });
+  for (const n of nodes) { n.text = join(n._lines); delete n._lines; delete n._y; }
+  // completeness: every table the document prints is read, under a theme and a year, and gives at least one objective
+  for (const t of tables) {
+    if (!t.theme || !t.year) problems.push(doc.key + ': a table stands under no ' + (!t.theme ? 'theme' : 'year') + ' (' + t.where + ')');
+    else if (!t.n) problems.push(doc.key + ': a table gave no objective (' + t.where + ')');
   }
-  for (const n of nodes) { n.text = join(n._lines); delete n._lines; }
-  return { nodes, problems };
+  if (stray.length) problems.push(doc.key + ': ' + stray.length + ' line(s) that look like objectives stand outside every table: ' + stray.slice(0, 6).join(' · '));
+  return { nodes, problems, tables: tables.length };
 }
 
 (async () => {
@@ -129,7 +195,7 @@ function parse(doc, pages) {
     for (const n of kept) { if (n.text.length < 12) problems.push(n.id + ': wording too short: "' + n.text + '"'); if (!/^[A-ZÉÈÀÂÊÎÔÛÇ]/.test(n.text)) problems.push(n.id + ': an objective that does not open with a capital: "' + n.text.slice(0, 40) + '"'); }
     frameworks.push({ key: doc.key, short: 'Programmes', subject: doc.subject, title: doc.title, publisher: 'Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale)', year: '2024', officialDocument: 'https://www.education.gouv.fr/bo/2024/Hebdo41/MENE2415135A', readFrom: doc.url, accessed: ACCESSED, sha256: sha256(buf),
       version: doc.bo + '; in force from the rentrée 2025', band: doc.kind === 'cycle2' ? 'single years: CP (1), CE1 (2), CE2 (3)' : 'the programme speaks of ages: from 4 (M4), from 5 (M5, the year before CP)', ids: 'this registry\'s own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under',
-      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: kept.length + ' objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF' });
+      citation: doc.title + '. ' + doc.bo + '.', checkedAgainstPdf: kept.length + ' objectives read from the left column of ' + r.tables + ' tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF' });
   }
   // histoire-géographie: the programme is prose; what is read is the list of its themes, year by year
   {

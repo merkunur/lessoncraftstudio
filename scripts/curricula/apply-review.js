@@ -31,8 +31,11 @@ const dir = path.join(REPO, 'frontend', 'content', 'curricula', reg);
 const nodes = new Set(JSON.parse(fs.readFileSync(path.join(dir, 'framework.json'), 'utf8')).nodes.map((n) => n.id));
 const pointIds = new Set(JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'teaching-graph', 'points.json'), 'utf8')).points.map((p) => p.id));
 const out = {}, notes = [], problems = [];
-const isAudit = (f) => /^own-audit/.test(path.basename(f));
-for (const f of files.slice().sort((a, b) => isAudit(a) - isAudit(b))) {
+// applied in this order: the reviewers' files, then a second reading (second-reading.js: a reviewer's corrections
+// after the framework was re-read), then the builder's own audit. The two later kinds may replace an entry.
+const rank = (f) => (/^own-audit/.test(path.basename(f)) ? 2 : /^second-reading/.test(path.basename(f)) ? 1 : 0);
+const isAudit = (f) => rank(f) > 0;
+for (const f of files.slice().sort((a, b) => rank(a) - rank(b))) {
   const d = JSON.parse(fs.readFileSync(f, 'utf8'));
   const name = path.basename(f).replace(/\.out\.json$/, '');
   const audit = isAudit(f);

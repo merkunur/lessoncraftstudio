@@ -18,7 +18,7 @@
    "band": "the programme speaks of ages: from 4 (M4), from 5 (M5, the year before CP)",
    "ids": "this registry's own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under",
    "citation": "Programme d’enseignement pour le développement et la structuration du langage oral et écrit de l’école maternelle (cycle 1). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 1.",
-   "checkedAgainstPdf": "30 objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF"
+   "checkedAgainstPdf": "76 objectives read from the left column of 40 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF"
   },
   {
    "key": "programme-2024-maternelle-mathematiques",
@@ -35,7 +35,7 @@
    "band": "the programme speaks of ages: from 4 (M4), from 5 (M5, the year before CP)",
    "ids": "this registry's own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under",
    "citation": "Programme d’enseignement pour l’acquisition des premiers outils mathématiques de l’école maternelle (cycle 1). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 2.",
-   "checkedAgainstPdf": "63 objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF"
+   "checkedAgainstPdf": "63 objectives read from the left column of 17 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF"
   },
   {
    "key": "programme-2024-francais-cycle2",
@@ -52,7 +52,7 @@
    "band": "single years: CP (1), CE1 (2), CE2 (3)",
    "ids": "this registry's own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under",
    "citation": "Programme de français du cycle 2. arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 3.",
-   "checkedAgainstPdf": "167 objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF"
+   "checkedAgainstPdf": "182 objectives read from the left column of 51 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF"
   },
   {
    "key": "programme-2024-mathematiques-cycle2",
@@ -69,7 +69,7 @@
    "band": "single years: CP (1), CE1 (2), CE2 (3)",
    "ids": "this registry's own (the programme numbers nothing): document, year, place in the year; `domain` is the theme and the part the objective stands under",
    "citation": "Programme de mathématiques du cycle 2. arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 4.",
-   "checkedAgainstPdf": "179 objectives read from the left column of the tables (the examples of the right column are not read); each begins as a printed line of a second reading of the PDF"
+   "checkedAgainstPdf": "226 objectives read from the left column of 44 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF"
   },
   {
    "key": "programme-2026-histoire-geographie-cycle2",
@@ -219,11 +219,146 @@
    "kind": "standard",
    "grade": "M4",
    "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Utiliser la voix parlée, chantée et les possibilités vocales (imitation de sons, onomatopées) afin d’expérimenter différents sons."
+  },
+  {
+   "id": "ML.M4.13",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Entendre, discriminer des phonèmes."
+  },
+  {
+   "id": "ML.M4.14",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Scander les syllabes d’un mot."
+  },
+  {
+   "id": "ML.M4.15",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Manipuler les syllabes d’un mot (ajout, suppression, permutation, répétition, fusion, substitution)."
+  },
+  {
+   "id": "ML.M4.16",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Dire des comptines courtes comprenant des phonèmes proches."
+  },
+  {
+   "id": "ML.M4.17",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le nom des lettres",
+   "text": "Nommer les lettres de son prénom et quelques lettres de mots connus (le professeur nomme systématiquement les lettres)."
+  },
+  {
+   "id": "ML.M4.18",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le nom des lettres",
+   "text": "Connaitre la correspondance entre les lettres scriptes majuscules et minuscules et les lettres cursives minuscules."
+  },
+  {
+   "id": "ML.M4.19",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le son des lettres",
+   "text": "Donner les valeurs sonores de quelques lettres de mots simples connus."
+  },
+  {
+   "id": "ML.M4.20",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › S’éveiller à la diversité linguistique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Participer à des jeux dans une autre langue : jeux de doigts, rondes, jeux dansés, mimes, jeux de cour, jeux de cartes."
+  },
+  {
+   "id": "ML.M4.21",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › S’éveiller à la diversité linguistique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Comparer des histoires lues en français et dans une autre langue."
+  },
+  {
+   "id": "ML.M4.22",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Découvrir les supports de l’écrit",
+   "text": "Reconnaitre, nommer et identifier la fonction de différents écrits rencontrés dans la vie courante."
+  },
+  {
+   "id": "ML.M4.23",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Découvrir les supports de l’écrit",
+   "text": "Prendre conscience de la notion de destinataire et de contenu de la requête adressée par un écrit."
+  },
+  {
+   "id": "ML.M4.24",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Découvrir les supports de l’écrit",
+   "text": "Identifier et utiliser quotidiennement des outils fonctionnels pour se repérer, s’organiser, ranger."
+  },
+  {
+   "id": "ML.M4.25",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Identifier et décrire le personnage principal et les personnages secondaires."
+  },
+  {
+   "id": "ML.M4.26",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Comprendre des histoires dont les actions sont organisées autour d’une structure répétitive (rencontres successives) et commencer à comprendre les informations implicites (émotions, états et sentiments des personnages)."
+  },
+  {
+   "id": "ML.M4.27",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
    "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Apprendre le geste d’écriture",
    "text": "Adopter une posture adaptée au geste d’écriture."
   },
   {
-   "id": "ML.M4.13",
+   "id": "ML.M4.28",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M4",
@@ -232,7 +367,7 @@
    "text": "Adopter une préhension correcte du stylo et s’entrainer à ne pas le lever en écrivant."
   },
   {
-   "id": "ML.M4.14",
+   "id": "ML.M4.29",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M4",
@@ -241,7 +376,7 @@
    "text": "Utiliser de façon coordonnée les quatre articulations qui servent à tenir et guider le crayon (épaule, coude, poignet, doigts)."
   },
   {
-   "id": "ML.M4.15",
+   "id": "ML.M4.30",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M4",
@@ -250,13 +385,67 @@
    "text": "Tracer des lettres capitales."
   },
   {
-   "id": "ML.M4.16",
+   "id": "ML.M4.31",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M4",
    "parent": "ML.M4",
    "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Apprendre le geste d’écriture",
    "text": "S’initier aux tracés de l’écriture cursive."
+  },
+  {
+   "id": "ML.M4.32",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Comprendre que lorsque l’adulte lit un même écrit plusieurs fois, ce qu’il lit est toujours identique."
+  },
+  {
+   "id": "ML.M4.33",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Comprendre que l’écrit code des sons."
+  },
+  {
+   "id": "ML.M4.34",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Proposer au professeur, lors d’une activité de dictée à l’adulte, le contenu d’un court message, stabiliser un énoncé oral et le mémoriser pour pouvoir ensuite le dicter au professeur."
+  },
+  {
+   "id": "ML.M4.35",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Comparer la longueur d’un texte écrit et la durée du texte entendu."
+  },
+  {
+   "id": "ML.M4.36",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Savoir que le sens de la lecture est de gauche à droite et de haut en bas."
+  },
+  {
+   "id": "ML.M4.37",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M4",
+   "parent": "ML.M4",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Chercher parmi les outils à sa disposition des modèles qui seront réutilisés dans un essai d’écriture."
   },
   {
    "id": "ML.M5",
@@ -370,11 +559,155 @@
    "kind": "standard",
    "grade": "M5",
    "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Utiliser les possibilités sonores de la voix."
+  },
+  {
+   "id": "ML.M5.13",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Écouter, identifier, discriminer et reproduire des sons",
+   "text": "Augmenter sa mémoire auditive et sa capacité de concentration."
+  },
+  {
+   "id": "ML.M5.14",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Supprimer, ajouter, remplacer, inverser, substituer, fusionner les syllabes d’un mot."
+  },
+  {
+   "id": "ML.M5.15",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Repérer et produire des rimes et des assonances."
+  },
+  {
+   "id": "ML.M5.16",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Manipuler des syllabes orales puis des phonèmes",
+   "text": "Entendre, discriminer, manipuler des phonèmes."
+  },
+  {
+   "id": "ML.M5.17",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le nom des lettres",
+   "text": "Connaitre le nom des lettres de l’alphabet."
+  },
+  {
+   "id": "ML.M5.18",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le nom des lettres",
+   "text": "Connaitre les différentes graphies d’une même lettre (majuscule lettre capitale; minuscules scriptes; cursives)."
+  },
+  {
+   "id": "ML.M5.19",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le nom des lettres",
+   "text": "Distinguer des lettres visuellement proches (b/d, c/e/o, p/q) grâce à leur écriture cursive et les nommer correctement."
+  },
+  {
+   "id": "ML.M5.20",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le son des lettres",
+   "text": "Connaitre le nom des lettres de l’alphabet et leur valeur sonore hormis les occlusives."
+  },
+  {
+   "id": "ML.M5.21",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Acquérir les habiletés phonologiques et le principe alphabétique › Connaitre le son des lettres",
+   "text": "Discriminer des mots auditivement proches."
+  },
+  {
+   "id": "ML.M5.22",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Découvrir les supports de l’écrit",
+   "text": "Différencier les types d’écrits et associer un écrit à un projet d’écriture ou de communication."
+  },
+  {
+   "id": "ML.M5.23",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Découvrir les supports de l’écrit",
+   "text": "Repérer et dégager la structure et l’organisation (mise en page, typographie) de formes d’écrits fréquemment utilisés en classe (structure de la lettre, de la recette, du conte, d’un écrit documentaire, d’une notice de fabrication)."
+  },
+  {
+   "id": "ML.M5.24",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Construire les caractéristiques des personnages archétypaux (loup, princesse, ogre, sorcière, renard, fée, etc.)."
+  },
+  {
+   "id": "ML.M5.25",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Comprendre des histoires où l’enchainement des actions est lié au destin de personnages centraux ou secondaires qui évoluent et interagissent, dans des lieux diversifiés."
+  },
+  {
+   "id": "ML.M5.26",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Comprendre les émotions, les intentions et les sentiments qui animent les personnages."
+  },
+  {
+   "id": "ML.M5.27",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à lire › Initier un parcours de lecteur et une première culture littéraire › Comprendre des textes lus par le professeur",
+   "text": "Établir un lien entre la lecture effectuée et sa propre expérience."
+  },
+  {
+   "id": "ML.M5.28",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
    "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Apprendre le geste d’écriture",
    "text": "Tenir correctement son stylo par la pince des doigts et utiliser de façon coordonnée les quatre articulations (épaule, coude, poignet, doigts)."
   },
   {
-   "id": "ML.M5.13",
+   "id": "ML.M5.29",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M5",
@@ -383,13 +716,94 @@
    "text": "Travailler la ligature entre deux lettres."
   },
   {
-   "id": "ML.M5.14",
+   "id": "ML.M5.30",
    "f": "programme-2024-maternelle-langage",
    "kind": "standard",
    "grade": "M5",
    "parent": "ML.M5",
    "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Apprendre le geste d’écriture",
    "text": "Tracer des lettres en écriture cursive, les enchainer."
+  },
+  {
+   "id": "ML.M5.31",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Segmenter l’oral en mots, les mots en syllabes, quelques syllabes en phonèmes."
+  },
+  {
+   "id": "ML.M5.32",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Comprendre que l’écrit encode l’oral et que les sons de la langue sont codés par des lettres."
+  },
+  {
+   "id": "ML.M5.33",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Passer de l’oral à l’écrit",
+   "text": "Suivre la trace écrite des yeux lors d’une relecture par l’adulte d’un message produit lors d’une dictée à l’adulte."
+  },
+  {
+   "id": "ML.M5.34",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Mémoriser la graphie d’un mot transparent, en s’appuyant sur la connaissance des lettres et la conscience phonologique et le retranscrire sur un support."
+  },
+  {
+   "id": "ML.M5.35",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Réinvestir ses premières connaissances relatives au principe alphabétique pour produire un écrit."
+  },
+  {
+   "id": "ML.M5.36",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Se repérer dans l’alphabet pour retrouver l’écriture d’une lettre nécessaire pour produire un écrit."
+  },
+  {
+   "id": "ML.M5.37",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Mémoriser l’écriture de mots transparents ou de syllabes connues pour les réutiliser dans une production d’écrit."
+  },
+  {
+   "id": "ML.M5.38",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Comprendre qu’il existe une norme pour écrire : ponctuation, majuscules, mise en page, etc."
+  },
+  {
+   "id": "ML.M5.39",
+   "f": "programme-2024-maternelle-langage",
+   "kind": "standard",
+   "grade": "M5",
+   "parent": "ML.M5",
+   "domain": "Passer de l’oral à l’écrit : se préparer à apprendre à écrire › Produire de premiers écrits › Produire des écrits",
+   "text": "Persévérer pour mener la production d’écrit à son terme : préparation, énonciation et révision."
   },
   {
    "id": "MM.M4",
@@ -1511,6 +1925,105 @@
    "text": "Être capable de comprendre la présence d’une lettre muette finale à l’aide d’un mot de la même famille : chat/chaton, gros/grossir, etc."
   },
   {
+   "id": "F.CP.60",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
+   "text": "S’approprier progressivement la notion de phrase simple et ses trois marqueurs essentiels : majuscule initiale, ponctuation finale forte et sens."
+  },
+  {
+   "id": "F.CP.61",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
+   "text": "Comprendre que certains éléments (sujet/verbe et déterminants/noms/adjectifs) fonctionnent ensemble et constituent un système."
+  },
+  {
+   "id": "F.CP.62",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
+   "text": "S’appuyer sur la ponctuation pour reconnaitre les trois types de phrases (déclarative, interrogative et impérative)."
+  },
+  {
+   "id": "F.CP.63",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
+   "text": "Reconnaitre les formes négative et exclamative."
+  },
+  {
+   "id": "F.CP.64",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
+   "text": "Constituer des corpus par classe de mots : noms, verbes, déterminants, adjectifs, pronoms personnels."
+  },
+  {
+   "id": "F.CP.65",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Comprendre les notions de masculin et de féminin."
+  },
+  {
+   "id": "F.CP.66",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Comprendre les notions de singulier et de pluriel (plusieurs, plus qu’un)."
+  },
+  {
+   "id": "F.CP.67",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Se familiariser avec la notion de « chaine d’accords » (déterminant/nom/adjectif) en repérant et en identifiant les régularités des marques de genre et de nombre."
+  },
+  {
+   "id": "F.CP.68",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "S’initier à l’identification de la relation sujet-verbe à partir du sens et de l’observation des effets des transformations liées aux temps et aux personnes."
+  },
+  {
+   "id": "F.CP.69",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Observer les différentes formes verbales fréquentes et régulières."
+  },
+  {
+   "id": "F.CP.70",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "F.CP",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Apprendre à conjuguer être et avoir au présent de l’indicatif et commencer à les mobiliser à l’écrit."
+  },
+  {
    "id": "F.CE1",
    "f": "programme-2024-francais-cycle2",
    "kind": "area",
@@ -2020,6 +2533,42 @@
    "parent": "F.CE1",
    "domain": "Grammaire et orthographe › Se repérer dans la phrase simple",
    "text": "Différencier et nommer les principales classes de mots : le déterminant, le nom commun, le nom propre, l’adjectif, le verbe, le pronom personnel sujet."
+  },
+  {
+   "id": "F.CE1.57",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "F.CE1",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Reconnaitre le GN (déterminant/nom/adjectif) et, en écoutant des transformations de phrases à l’oral puis en les observant à l’écrit, comprendre le lien entre le déterminant, le nom et l’adjectif dans la « chaine d’accords »."
+  },
+  {
+   "id": "F.CE1.58",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "F.CE1",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Identifier la relation sujet-verbe à partir de l’observation des effets des transformations liées au changement de temps et de personne dans des situations simples (groupe sujet + verbe)."
+  },
+  {
+   "id": "F.CE1.59",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "F.CE1",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Identifier le radical et la terminaison d’un verbe du premier groupe conjugué et trouver son infinitif."
+  },
+  {
+   "id": "F.CE1.60",
+   "f": "programme-2024-francais-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "F.CE1",
+   "domain": "Grammaire et orthographe › Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+   "text": "Apprendre à conjuguer au présent, à l’imparfait, au futur puis au passé composé de l’indicatif être et avoir et les verbes du premier groupe."
   },
   {
    "id": "F.CE2",
@@ -2851,8 +3400,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Grandeurs et mesures › La monnaie",
-   "text": "Utiliser le lexique spécifique lié à la monnaie."
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Utiliser le lexique associé aux masses."
   },
   {
    "id": "M.CP.40",
@@ -2860,8 +3409,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Grandeurs et mesures › La monnaie",
-   "text": "Comparer les valeurs de deux ensembles constitués de pièces de monnaie ou de deux ensembles constitués de pièces et de billets."
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Comparer des objets selon leur masse."
   },
   {
    "id": "M.CP.41",
@@ -2870,7 +3419,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Grandeurs et mesures › La monnaie",
-   "text": "Déterminer la valeur en euro d’un ensemble constitué de pièces et de billets."
+   "text": "Utiliser le lexique spécifique lié à la monnaie."
   },
   {
    "id": "M.CP.42",
@@ -2879,7 +3428,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Grandeurs et mesures › La monnaie",
-   "text": "Constituer une somme d’argent donnée avec des pièces et des billets."
+   "text": "Comparer les valeurs de deux ensembles constitués de pièces de monnaie ou de deux ensembles constitués de pièces et de billets."
   },
   {
    "id": "M.CP.43",
@@ -2888,7 +3437,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Grandeurs et mesures › La monnaie",
-   "text": "Simuler des achats en manipulant des pièces et des billets fictifs. Rendre la monnaie."
+   "text": "Déterminer la valeur en euro d’un ensemble constitué de pièces et de billets."
   },
   {
    "id": "M.CP.44",
@@ -2896,8 +3445,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Grandeurs et mesures › Le repérage dans le temps",
-   "text": "Lire sur une horloge à aiguilles une heure donnée en heures entières."
+   "domain": "Grandeurs et mesures › La monnaie",
+   "text": "Constituer une somme d’argent donnée avec des pièces et des billets."
   },
   {
    "id": "M.CP.45",
@@ -2905,8 +3454,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Grandeurs et mesures › Le repérage dans le temps",
-   "text": "Positionner les aiguilles d’une horloge correspondant à une heure donnée (uniquement des heures entières inférieures ou égales à douze)."
+   "domain": "Grandeurs et mesures › La monnaie",
+   "text": "Simuler des achats en manipulant des pièces et des billets fictifs. Rendre la monnaie."
   },
   {
    "id": "M.CP.46",
@@ -2915,7 +3464,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Grandeurs et mesures › Le repérage dans le temps",
-   "text": "Associer une heure à un moment de la journée."
+   "text": "Lire sur une horloge à aiguilles une heure donnée en heures entières."
   },
   {
    "id": "M.CP.47",
@@ -2923,8 +3472,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › Les solides",
-   "text": "Reconnaitre les solides usuels suivants : cube, boule, cône, cylindre, pavé."
+   "domain": "Grandeurs et mesures › Le repérage dans le temps",
+   "text": "Positionner les aiguilles d’une horloge correspondant à une heure donnée (uniquement des heures entières inférieures ou égales à douze)."
   },
   {
    "id": "M.CP.48",
@@ -2932,8 +3481,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › Les solides",
-   "text": "Nommer un cube, un pavé et une boule."
+   "domain": "Grandeurs et mesures › Le repérage dans le temps",
+   "text": "Associer une heure à un moment de la journée."
   },
   {
    "id": "M.CP.49",
@@ -2942,7 +3491,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Les solides",
-   "text": "Décrire un cube ou un pavé en utilisant le terme « face ». Connaitre le nombre et la nature des faces d’un cube et d’un pavé."
+   "text": "Reconnaitre les solides usuels suivants : cube, boule, cône, cylindre, pavé."
   },
   {
    "id": "M.CP.50",
@@ -2951,7 +3500,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Les solides",
-   "text": "Construire des cubes et des pavés."
+   "text": "Nommer un cube, un pavé et une boule."
   },
   {
    "id": "M.CP.51",
@@ -2959,8 +3508,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Reconnaitre des formes planes (disque, carré, rectangle et triangle) dans un assemblage et dans son environnement proche."
+   "domain": "Espace et géométrie › Les solides",
+   "text": "Décrire un cube ou un pavé en utilisant le terme « face ». Connaitre le nombre et la nature des faces d’un cube et d’un pavé."
   },
   {
    "id": "M.CP.52",
@@ -2968,8 +3517,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Nommer le disque, le carré, le rectangle et le triangle."
+   "domain": "Espace et géométrie › Les solides",
+   "text": "Construire des cubes et des pavés."
   },
   {
    "id": "M.CP.53",
@@ -2978,7 +3527,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Donner une première description du carré, du rectangle, du triangle en utilisant les termes « sommet » et « côté »."
+   "text": "Reconnaitre des formes planes (disque, carré, rectangle et triangle) dans un assemblage et dans son environnement proche."
   },
   {
    "id": "M.CP.54",
@@ -2987,7 +3536,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Repérer visuellement des alignements."
+   "text": "Nommer le disque, le carré, le rectangle et le triangle."
   },
   {
    "id": "M.CP.55",
@@ -2996,7 +3545,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Utiliser la règle pour repérer ou vérifier des alignements."
+   "text": "Donner une première description du carré, du rectangle, du triangle en utilisant les termes « sommet » et « côté »."
   },
   {
    "id": "M.CP.56",
@@ -3005,7 +3554,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Utiliser la règle comme instrument de tracé."
+   "text": "Repérer visuellement des alignements."
   },
   {
    "id": "M.CP.57",
@@ -3014,7 +3563,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › La géométrie plane",
-   "text": "Construire un carré, un rectangle, un triangle ou un assemblage de ces figures sur du papier quadrillé ou pointé."
+   "text": "Utiliser la règle pour repérer ou vérifier des alignements."
   },
   {
    "id": "M.CP.58",
@@ -3022,8 +3571,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Connaitre et utiliser le vocabulaire lié aux positions relatives."
+   "domain": "Espace et géométrie › La géométrie plane",
+   "text": "Utiliser la règle comme instrument de tracé."
   },
   {
    "id": "M.CP.59",
@@ -3031,8 +3580,8 @@
    "kind": "standard",
    "grade": "1",
    "parent": "M.CP",
-   "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Situer des personnes ou des objets les uns par rapport aux autres ou par rapport à d’autres repères dans la classe."
+   "domain": "Espace et géométrie › La géométrie plane",
+   "text": "Construire un carré, un rectangle, un triangle ou un assemblage de ces figures sur du papier quadrillé ou pointé."
   },
   {
    "id": "M.CP.60",
@@ -3041,7 +3590,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Construire et utiliser des représentations de la classe pour localiser, mémoriser et communiquer un emplacement."
+   "text": "Connaitre et utiliser le vocabulaire lié aux positions relatives."
   },
   {
    "id": "M.CP.61",
@@ -3050,7 +3599,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Construire et reproduire des assemblages de solides à partir d’un modèle en trois dimensions ou de représentations planes."
+   "text": "Situer des personnes ou des objets les uns par rapport aux autres ou par rapport à d’autres repères dans la classe."
   },
   {
    "id": "M.CP.62",
@@ -3059,7 +3608,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Se déplacer et décrire des déplacements dans la classe en s’orientant et en utilisant des repères."
+   "text": "Construire et utiliser des représentations de la classe pour localiser, mémoriser et communiquer un emplacement."
   },
   {
    "id": "M.CP.63",
@@ -3068,7 +3617,7 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Construire et utiliser un plan de la classe pour communiquer un déplacement."
+   "text": "Construire et reproduire des assemblages de solides à partir d’un modèle en trois dimensions ou de représentations planes."
   },
   {
    "id": "M.CP.64",
@@ -3077,10 +3626,28 @@
    "grade": "1",
    "parent": "M.CP",
    "domain": "Espace et géométrie › Le repérage dans l’espace",
-   "text": "Utiliser et produire une suite d’instructions qui codent un déplacement en utilisant un vocabulaire spatial précis."
+   "text": "Se déplacer et décrire des déplacements dans la classe en s’orientant et en utilisant des repères."
   },
   {
    "id": "M.CP.65",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "M.CP",
+   "domain": "Espace et géométrie › Le repérage dans l’espace",
+   "text": "Construire et utiliser un plan de la classe pour communiquer un déplacement."
+  },
+  {
+   "id": "M.CP.66",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "1",
+   "parent": "M.CP",
+   "domain": "Espace et géométrie › Le repérage dans l’espace",
+   "text": "Utiliser et produire une suite d’instructions qui codent un déplacement en utilisant un vocabulaire spatial précis."
+  },
+  {
+   "id": "M.CP.67",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "1",
@@ -3089,7 +3656,7 @@
    "text": "Collecter des données et présenter ces données sous forme d’un tableau ou d’un diagramme en barres."
   },
   {
-   "id": "M.CP.66",
+   "id": "M.CP.68",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "1",
@@ -3246,7 +3813,7 @@
    "grade": "2",
    "parent": "M.CE1",
    "domain": "Nombres, calcul et résolution de problèmes › Les fractions",
-   "text": "Savoir interpréter, représenter, écrire et lire les fractions 1, 1, 1, 1, 1, 1 et 1. 2 3 4 5 6 8 10"
+   "text": "Savoir interpréter, représenter, écrire et lire les fractions 1/2, 1/3, 1/4, 1/5, 1/6, 1/8 et 1/10."
   },
   {
    "id": "M.CE1.17",
@@ -3362,11 +3929,74 @@
    "kind": "standard",
    "grade": "2",
    "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Utiliser ses connaissances en numération pour calculer mentalement",
+   "text": "Ajouter ou soustraire un nombre entier de dizaines à un nombre. Ajouter ou soustraire un nombre entier de centaines à un nombre."
+  },
+  {
+   "id": "M.CE1.30",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Utiliser ses connaissances en numération pour calculer mentalement",
+   "text": "Multiplier par 10 un nombre inférieur à 100."
+  },
+  {
+   "id": "M.CE1.31",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Ajouter 9, 19 ou 29 à un nombre."
+  },
+  {
+   "id": "M.CE1.32",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Soustraire 9 à un nombre."
+  },
+  {
+   "id": "M.CE1.33",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Soustraire un nombre inférieur à 9 à un nombre."
+  },
+  {
+   "id": "M.CE1.34",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Déterminer la moitié d’un nombre pair."
+  },
+  {
+   "id": "M.CE1.35",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Calculer le produit d’un nombre compris entre 11 et 19 par un nombre inférieur à 10 en décomposant le plus grand des deux facteurs en la somme de deux nombres (propriété de distributivité de la multiplication par rapport à l’addition)."
+  },
+  {
+   "id": "M.CE1.36",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
    "domain": "Nombres, calcul et résolution de problèmes › La résolution de problèmes",
    "text": "Résoudre des problèmes additifs en une étape de type parties-tout."
   },
   {
-   "id": "M.CE1.30",
+   "id": "M.CE1.37",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3375,7 +4005,7 @@
    "text": "Résoudre des problèmes additifs de comparaison en une étape."
   },
   {
-   "id": "M.CE1.31",
+   "id": "M.CE1.38",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3384,7 +4014,7 @@
    "text": "Résoudre des problèmes additifs en deux étapes."
   },
   {
-   "id": "M.CE1.32",
+   "id": "M.CE1.39",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3393,7 +4023,7 @@
    "text": "Résoudre des problèmes multiplicatifs en une étape."
   },
   {
-   "id": "M.CE1.33",
+   "id": "M.CE1.40",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3402,7 +4032,7 @@
    "text": "Résoudre des problèmes mixtes en deux étapes (une étape additive et une étape multiplicative)."
   },
   {
-   "id": "M.CE1.34",
+   "id": "M.CE1.41",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3411,7 +4041,7 @@
    "text": "Connaitre et utiliser les unités mètre, centimètre, kilomètre et les symboles associés (m, cm et km)."
   },
   {
-   "id": "M.CE1.35",
+   "id": "M.CE1.42",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3420,7 +4050,7 @@
    "text": "Choisir l’unité la mieux adaptée pour exprimer une longueur."
   },
   {
-   "id": "M.CE1.36",
+   "id": "M.CE1.43",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3429,7 +4059,7 @@
    "text": "Connaitre les relations entre les unités de longueur usuelles."
   },
   {
-   "id": "M.CE1.37",
+   "id": "M.CE1.44",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3438,7 +4068,7 @@
    "text": "Savoir mesurer la longueur d’un segment en utilisant une règle graduée."
   },
   {
-   "id": "M.CE1.38",
+   "id": "M.CE1.45",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3447,7 +4077,7 @@
    "text": "Comparer des longueurs."
   },
   {
-   "id": "M.CE1.39",
+   "id": "M.CE1.46",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3456,7 +4086,7 @@
    "text": "Connaitre quelques longueurs de référence."
   },
   {
-   "id": "M.CE1.40",
+   "id": "M.CE1.47",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3465,7 +4095,52 @@
    "text": "Estimer la longueur d’un objet du quotidien."
   },
   {
-   "id": "M.CE1.41",
+   "id": "M.CE1.48",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Savoir identifier l’objet le plus léger (ou le plus lourd) parmi deux ou trois objets de volumes proches en les soupesant ou en utilisant une balance pour les peser."
+  },
+  {
+   "id": "M.CE1.49",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Connaitre et utiliser les unités gramme et kilogramme et les symboles associés (g, kg)."
+  },
+  {
+   "id": "M.CE1.50",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Savoir que 1 kg est égal à 1 000 g."
+  },
+  {
+   "id": "M.CE1.51",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Comparer des masses."
+  },
+  {
+   "id": "M.CE1.52",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Disposer de quelques masses de référence. Estimer la masse d’objets du quotidien en gramme ou en kilogramme."
+  },
+  {
+   "id": "M.CE1.53",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3474,7 +4149,7 @@
    "text": "Connaitre le lien entre les euros et les centimes."
   },
   {
-   "id": "M.CE1.42",
+   "id": "M.CE1.54",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3483,7 +4158,7 @@
    "text": "Comparer les valeurs en euro de deux ensembles constitués de pièces et de billets."
   },
   {
-   "id": "M.CE1.43",
+   "id": "M.CE1.55",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3492,7 +4167,7 @@
    "text": "Déterminer la valeur en euro et centime d’euro d’un ensemble constitué de pièces et de billets."
   },
   {
-   "id": "M.CE1.44",
+   "id": "M.CE1.56",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3501,7 +4176,7 @@
    "text": "Constituer avec des euros et des centimes d’euro une somme d’argent d’une valeur donnée."
   },
   {
-   "id": "M.CE1.45",
+   "id": "M.CE1.57",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3510,7 +4185,7 @@
    "text": "Simuler des achats en manipulant des pièces et des billets fictifs. Rendre la monnaie."
   },
   {
-   "id": "M.CE1.46",
+   "id": "M.CE1.58",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3519,7 +4194,52 @@
    "text": "Connaitre le sens de l’écriture à virgule d’une somme d’argent."
   },
   {
-   "id": "M.CE1.47",
+   "id": "M.CE1.59",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Le repérage dans le temps et les durées",
+   "text": "Lire l’heure sur une horloge à aiguilles (lorsque l’heure est donnée en heures entières, en heures et demi-heure ou en heures et quarts d’heure)."
+  },
+  {
+   "id": "M.CE1.60",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Le repérage dans le temps et les durées",
+   "text": "Positionner les aiguilles d’une horloge correspondant à une heure donnée en heures entières, en heures et demi-heure ou en heures et quart d’heure."
+  },
+  {
+   "id": "M.CE1.61",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Le repérage dans le temps et les durées",
+   "text": "Connaitre, utiliser et distinguer les heures du matin et celles de l’après-midi."
+  },
+  {
+   "id": "M.CE1.62",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Le repérage dans le temps et les durées",
+   "text": "Connaitre les unités de mesure de durée, heure et minute, et les symboles associés (h et min)."
+  },
+  {
+   "id": "M.CE1.63",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "2",
+   "parent": "M.CE1",
+   "domain": "Grandeurs et mesures › Le repérage dans le temps et les durées",
+   "text": "Comparer et mesurer des durées écoulées entre deux instants affichés sur une horloge (pour des intervalles de temps situés dans une même journée, avec des heures données en heures entières, en heures et demi-heure ou en heures et quarts d’heure)."
+  },
+  {
+   "id": "M.CE1.64",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3528,7 +4248,7 @@
    "text": "Reconnaitre les solides usuels suivants : cube, boule, cône, pyramide, cylindre, pavé."
   },
   {
-   "id": "M.CE1.48",
+   "id": "M.CE1.65",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3537,7 +4257,7 @@
    "text": "Nommer un cube, une boule, un pavé, un cône ou une pyramide."
   },
   {
-   "id": "M.CE1.49",
+   "id": "M.CE1.66",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3546,7 +4266,7 @@
    "text": "Décrire un cube, un pavé ou une pyramide en utilisant les termes « face », « sommet » et « arête »."
   },
   {
-   "id": "M.CE1.50",
+   "id": "M.CE1.67",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3555,7 +4275,7 @@
    "text": "Connaitre le nombre et la nature des faces d’un cube ou d’un pavé."
   },
   {
-   "id": "M.CE1.51",
+   "id": "M.CE1.68",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3564,7 +4284,7 @@
    "text": "Construire un cube, un pavé droit ou une pyramide."
   },
   {
-   "id": "M.CE1.52",
+   "id": "M.CE1.69",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3573,7 +4293,7 @@
    "text": "Utiliser le vocabulaire géométrique approprié."
   },
   {
-   "id": "M.CE1.53",
+   "id": "M.CE1.70",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3582,7 +4302,7 @@
    "text": "Reconnaitre, nommer et décrire un cercle, un carré, un rectangle, un triangle, un triangle rectangle en utilisant le vocabulaire approprié."
   },
   {
-   "id": "M.CE1.54",
+   "id": "M.CE1.71",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3591,7 +4311,7 @@
    "text": "Connaitre les propriétés des angles et des égalités de longueur pour les carrés et les rectangles."
   },
   {
-   "id": "M.CE1.55",
+   "id": "M.CE1.72",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3600,7 +4320,7 @@
    "text": "Reproduire ou construire un carré, un rectangle, un triangle, un triangle rectangle et un cercle ou un assemblage de ces figures."
   },
   {
-   "id": "M.CE1.56",
+   "id": "M.CE1.73",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3609,7 +4329,7 @@
    "text": "Utiliser la règle pour vérifier des alignements et l’équerre pour vérifier qu’un angle est droit."
   },
   {
-   "id": "M.CE1.57",
+   "id": "M.CE1.74",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3618,7 +4338,7 @@
    "text": "Utiliser la règle graduée, l’équerre et le compas comme instruments de tracé."
   },
   {
-   "id": "M.CE1.58",
+   "id": "M.CE1.75",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3627,7 +4347,7 @@
    "text": "Connaitre et utiliser le code pour les angles droits."
   },
   {
-   "id": "M.CE1.59",
+   "id": "M.CE1.76",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3636,7 +4356,7 @@
    "text": "Connaitre et utiliser le vocabulaire lié aux positions relatives."
   },
   {
-   "id": "M.CE1.60",
+   "id": "M.CE1.77",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3645,7 +4365,7 @@
    "text": "Situer des personnes ou des objets les uns par rapport aux autres ou par rapport à d’autres repères dans un espace familier."
   },
   {
-   "id": "M.CE1.61",
+   "id": "M.CE1.78",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3654,7 +4374,7 @@
    "text": "Construire et utiliser des représentations d’un espace familier pour localiser, mémoriser ou communiquer un emplacement."
   },
   {
-   "id": "M.CE1.62",
+   "id": "M.CE1.79",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3663,7 +4383,7 @@
    "text": "Construire des assemblages de cubes et de pavés."
   },
   {
-   "id": "M.CE1.63",
+   "id": "M.CE1.80",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3672,7 +4392,7 @@
    "text": "Comprendre, utiliser et produire une suite d’instructions qui codent un déplacement en utilisant un vocabulaire spatial précis."
   },
   {
-   "id": "M.CE1.64",
+   "id": "M.CE1.81",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3681,7 +4401,7 @@
    "text": "Produire un tableau ou un diagramme en barres pour présenter des données recueillies."
   },
   {
-   "id": "M.CE1.65",
+   "id": "M.CE1.82",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "2",
@@ -3702,11 +4422,101 @@
    "kind": "standard",
    "grade": "3",
    "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Dénombrer des collections."
+  },
+  {
+   "id": "M.CE2.2",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Construire des collections de cardinal donné."
+  },
+  {
+   "id": "M.CE2.3",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Connaitre et utiliser les relations entre les unités de numération."
+  },
+  {
+   "id": "M.CE2.4",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Connaitre la suite écrite et la suite orale des nombres jusqu’à dix-mille."
+  },
+  {
+   "id": "M.CE2.5",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Connaitre et utiliser diverses représentations d’un nombre et passer de l’une à l’autre."
+  },
+  {
+   "id": "M.CE2.6",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Connaitre la valeur des chiffres en fonction de leur position dans un nombre."
+  },
+  {
+   "id": "M.CE2.7",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles (=, <, >)."
+  },
+  {
+   "id": "M.CE2.8",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Ordonner des nombres dans l’ordre croissant ou décroissant."
+  },
+  {
+   "id": "M.CE2.9",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Comprendre et savoir utiliser les expressions « égal à », « supérieur à », « inférieur à », « compris entre … et … »."
+  },
+  {
+   "id": "M.CE2.10",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Les nombres entiers",
+   "text": "Savoir placer des nombres sur une demi-droite graduée."
+  },
+  {
+   "id": "M.CE2.11",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
    "domain": "Nombres, calcul et résolution de problèmes › Les fractions",
    "text": "Savoir établir des égalités de fractions inférieures ou égales à 1."
   },
   {
-   "id": "M.CE2.2",
+   "id": "M.CE2.12",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3715,7 +4525,7 @@
    "text": "Partager une unité de longueur en fractions d’unité et mesurer des longueurs non entières par rapport à cette unité."
   },
   {
-   "id": "M.CE2.3",
+   "id": "M.CE2.13",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3724,7 +4534,7 @@
    "text": "Comparer des fractions inférieures à 1."
   },
   {
-   "id": "M.CE2.4",
+   "id": "M.CE2.14",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3733,7 +4543,7 @@
    "text": "Additionner et soustraire des fractions."
   },
   {
-   "id": "M.CE2.5",
+   "id": "M.CE2.15",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3742,7 +4552,7 @@
    "text": "Comprendre et utiliser les mots « terme », « somme » et « différence »."
   },
   {
-   "id": "M.CE2.6",
+   "id": "M.CE2.16",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3751,7 +4561,7 @@
    "text": "Poser et effectuer des additions et des soustractions en colonnes."
   },
   {
-   "id": "M.CE2.7",
+   "id": "M.CE2.17",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3760,7 +4570,7 @@
    "text": "Comprendre et utiliser les mots « facteur », « produit » et « multiple »."
   },
   {
-   "id": "M.CE2.8",
+   "id": "M.CE2.18",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3769,7 +4579,7 @@
    "text": "Comprendre le sens de la division et utiliser le symbole « ÷ »."
   },
   {
-   "id": "M.CE2.9",
+   "id": "M.CE2.19",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3778,7 +4588,7 @@
    "text": "Poser et effectuer des multiplications d’un nombre à deux ou trois chiffres par un nombre à un ou deux chiffres."
   },
   {
-   "id": "M.CE2.10",
+   "id": "M.CE2.20",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3787,7 +4597,7 @@
    "text": "Connaitre dans les deux sens les tables d’addition."
   },
   {
-   "id": "M.CE2.11",
+   "id": "M.CE2.21",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3796,7 +4606,7 @@
    "text": "Connaitre dans les deux sens les tables de multiplication."
   },
   {
-   "id": "M.CE2.12",
+   "id": "M.CE2.22",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3805,7 +4615,61 @@
    "text": "Connaitre des faits multiplicatifs usuels."
   },
   {
-   "id": "M.CE2.13",
+   "id": "M.CE2.23",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Utiliser ses connaissances en numération pour calculer mentalement",
+   "text": "Multiplier un nombre entier par 10 ou 100."
+  },
+  {
+   "id": "M.CE2.24",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Ajouter 8, 9, 18, 19, 28, 29, 38 ou 39 à un nombre."
+  },
+  {
+   "id": "M.CE2.25",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Soustraire 9, 19, 29 ou 39 à un nombre."
+  },
+  {
+   "id": "M.CE2.26",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Multiplier un nombre entier par 4 ou par 8."
+  },
+  {
+   "id": "M.CE2.27",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Multiplier un nombre inférieur à 10 par un nombre entier de dizaines."
+  },
+  {
+   "id": "M.CE2.28",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Nombres, calcul et résolution de problèmes › Apprendre des procédures de calcul mental",
+   "text": "Calculer le produit d’un nombre compris entre 11 et 99 par un nombre inférieur à 10 en décomposant le plus grand des deux facteurs en la somme de deux nombres (propriété de distributivité de la multiplication par rapport à l’addition)."
+  },
+  {
+   "id": "M.CE2.29",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3814,7 +4678,7 @@
    "text": "Résoudre des problèmes additifs en une étape de types parties-tout et comparaison."
   },
   {
-   "id": "M.CE2.14",
+   "id": "M.CE2.30",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3823,7 +4687,7 @@
    "text": "Résoudre des problèmes additifs en deux étapes."
   },
   {
-   "id": "M.CE2.15",
+   "id": "M.CE2.31",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3832,7 +4696,7 @@
    "text": "Résoudre des problèmes multiplicatifs en une étape."
   },
   {
-   "id": "M.CE2.16",
+   "id": "M.CE2.32",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3841,7 +4705,7 @@
    "text": "Résoudre des problèmes mixtes en deux ou trois étapes."
   },
   {
-   "id": "M.CE2.17",
+   "id": "M.CE2.33",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3850,7 +4714,7 @@
    "text": "Résoudre des problèmes de comparaison multiplicative en une étape."
   },
   {
-   "id": "M.CE2.18",
+   "id": "M.CE2.34",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3859,7 +4723,7 @@
    "text": "Résoudre des problèmes mettant en jeu des produits cartésiens."
   },
   {
-   "id": "M.CE2.19",
+   "id": "M.CE2.35",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3868,7 +4732,7 @@
    "text": "Connaitre et utiliser les unités mètre, décimètre, centimètre, millimètre, kilomètre et les symboles associés (m, dm, cm, mm, km)."
   },
   {
-   "id": "M.CE2.20",
+   "id": "M.CE2.36",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3877,7 +4741,7 @@
    "text": "Connaitre les relations entre les unités de longueur."
   },
   {
-   "id": "M.CE2.21",
+   "id": "M.CE2.37",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3886,7 +4750,7 @@
    "text": "Choisir l’unité la mieux adaptée pour exprimer une longueur."
   },
   {
-   "id": "M.CE2.22",
+   "id": "M.CE2.38",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3895,7 +4759,7 @@
    "text": "Comparer des longueurs."
   },
   {
-   "id": "M.CE2.23",
+   "id": "M.CE2.39",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3904,7 +4768,7 @@
    "text": "Tracer un segment de longueur donnée."
   },
   {
-   "id": "M.CE2.24",
+   "id": "M.CE2.40",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3913,7 +4777,7 @@
    "text": "Disposer de quelques longueurs de référence."
   },
   {
-   "id": "M.CE2.25",
+   "id": "M.CE2.41",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3922,7 +4786,7 @@
    "text": "Estimer la longueur d’un objet ou une distance."
   },
   {
-   "id": "M.CE2.26",
+   "id": "M.CE2.42",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3931,7 +4795,7 @@
    "text": "Savoir ce qu’est le périmètre d’une figure plane."
   },
   {
-   "id": "M.CE2.27",
+   "id": "M.CE2.43",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3940,7 +4804,7 @@
    "text": "Comparer le périmètre de plusieurs polygones sans règle graduée, en utilisant un compas."
   },
   {
-   "id": "M.CE2.28",
+   "id": "M.CE2.44",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3949,7 +4813,88 @@
    "text": "Déterminer le périmètre d’un polygone en utilisant une règle graduée."
   },
   {
-   "id": "M.CE2.29",
+   "id": "M.CE2.45",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Connaitre et utiliser les unités gramme, kilogramme et tonne et les symboles associés (g, kg, t)."
+  },
+  {
+   "id": "M.CE2.46",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Choisir l’unité la mieux adaptée pour exprimer une masse."
+  },
+  {
+   "id": "M.CE2.47",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Connaitre les relations entre les unités de masse usuelles."
+  },
+  {
+   "id": "M.CE2.48",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Comparer des masses."
+  },
+  {
+   "id": "M.CE2.49",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Disposer de quelques masses de référence."
+  },
+  {
+   "id": "M.CE2.50",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les masses",
+   "text": "Estimer la masse d’un objet."
+  },
+  {
+   "id": "M.CE2.51",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les contenances",
+   "text": "Comparer les contenances de différents objets."
+  },
+  {
+   "id": "M.CE2.52",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les contenances",
+   "text": "Connaitre et utiliser les unités litre, décilitre et centilitre et les symboles associés (L, dL et cL)."
+  },
+  {
+   "id": "M.CE2.53",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Grandeurs et mesures › Les contenances",
+   "text": "Savoir que 1 L est égal à 10 dL et également à 100 cL."
+  },
+  {
+   "id": "M.CE2.54",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3958,7 +4903,7 @@
    "text": "Simuler des achats en manipulant des pièces et des billets fictifs. Rendre la monnaie."
   },
   {
-   "id": "M.CE2.30",
+   "id": "M.CE2.55",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3967,7 +4912,7 @@
    "text": "Poser et effectuer des additions de montants en euro."
   },
   {
-   "id": "M.CE2.31",
+   "id": "M.CE2.56",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3976,7 +4921,7 @@
    "text": "Poser et effectuer des soustractions de montants en euro."
   },
   {
-   "id": "M.CE2.32",
+   "id": "M.CE2.57",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3985,7 +4930,7 @@
    "text": "Lire l’heure sur une horloge à aiguilles."
   },
   {
-   "id": "M.CE2.33",
+   "id": "M.CE2.58",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -3994,7 +4939,7 @@
    "text": "Positionner les aiguilles d’une horloge correspondant à une heure donnée en heures entières ou en heures et minutes."
   },
   {
-   "id": "M.CE2.34",
+   "id": "M.CE2.59",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4003,7 +4948,7 @@
    "text": "Comparer et mesurer des durées écoulées entre deux instants affichés sur une horloge (pour des intervalles de temps situés dans une même journée)."
   },
   {
-   "id": "M.CE2.35",
+   "id": "M.CE2.60",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4012,7 +4957,7 @@
    "text": "Résoudre des problèmes à une ou deux étapes impliquant des durées."
   },
   {
-   "id": "M.CE2.36",
+   "id": "M.CE2.61",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4021,7 +4966,7 @@
    "text": "Nommer un cube, une boule, un pavé, un cône, une pyramide ou un cylindre."
   },
   {
-   "id": "M.CE2.37",
+   "id": "M.CE2.62",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4030,7 +4975,7 @@
    "text": "Décrire un cube, un pavé ou une pyramide en utilisant les termes « face », « sommet » et « arête »."
   },
   {
-   "id": "M.CE2.38",
+   "id": "M.CE2.63",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4039,7 +4984,7 @@
    "text": "Connaitre le nombre et la nature des faces d’un cube ou d’un pavé."
   },
   {
-   "id": "M.CE2.39",
+   "id": "M.CE2.64",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4048,7 +4993,7 @@
    "text": "Connaitre la nature des faces d’une pyramide."
   },
   {
-   "id": "M.CE2.40",
+   "id": "M.CE2.65",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4057,7 +5002,7 @@
    "text": "Construire un cube, un pavé ou une pyramide."
   },
   {
-   "id": "M.CE2.41",
+   "id": "M.CE2.66",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4066,7 +5011,7 @@
    "text": "Construire un cube à partir d’un patron."
   },
   {
-   "id": "M.CE2.42",
+   "id": "M.CE2.67",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4075,7 +5020,7 @@
    "text": "Utiliser le vocabulaire géométrique approprié."
   },
   {
-   "id": "M.CE2.43",
+   "id": "M.CE2.68",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4084,7 +5029,7 @@
    "text": "Reconnaitre, nommer et décrire le carré, le rectangle, le triangle, le triangle rectangle et le losange."
   },
   {
-   "id": "M.CE2.44",
+   "id": "M.CE2.69",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4093,7 +5038,7 @@
    "text": "Connaitre les propriétés des angles et les égalités de longueur pour les carrés, les rectangles et les losanges."
   },
   {
-   "id": "M.CE2.45",
+   "id": "M.CE2.70",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4102,7 +5047,7 @@
    "text": "Reproduire ou construire un carré, un rectangle, un triangle, un triangle rectangle et un cercle ou des assemblages de ces figures sur tout support (papier quadrillé ou pointé ou papier uni), avec une règle graduée, une équerre ou un compas."
   },
   {
-   "id": "M.CE2.46",
+   "id": "M.CE2.71",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4111,7 +5056,7 @@
    "text": "Connaitre et utiliser le codage d’un angle droit et celui qui indique que des segments ont la même longueur."
   },
   {
-   "id": "M.CE2.47",
+   "id": "M.CE2.72",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
@@ -4120,13 +5065,40 @@
    "text": "Reconnaitre si une figure possède un ou plusieurs axes de symétrie en utilisant des pliages ou du papier calque."
   },
   {
-   "id": "M.CE2.48",
+   "id": "M.CE2.73",
    "f": "programme-2024-mathematiques-cycle2",
    "kind": "standard",
    "grade": "3",
    "parent": "M.CE2",
    "domain": "Espace et géométrie › La géométrie plane",
    "text": "Compléter, sur une feuille quadrillée ou pointée, une figure simple pour la rendre symétrique par rapport à un axe donné."
+  },
+  {
+   "id": "M.CE2.74",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Organisation et gestion de données",
+   "text": "Produire un tableau ou un diagramme en barres pour présenter des données recueillies."
+  },
+  {
+   "id": "M.CE2.75",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Organisation et gestion de données",
+   "text": "Lire et interpréter les données d’un tableau à double entrée ou d’un diagramme en barres."
+  },
+  {
+   "id": "M.CE2.76",
+   "f": "programme-2024-mathematiques-cycle2",
+   "kind": "standard",
+   "grade": "3",
+   "parent": "M.CE2",
+   "domain": "Organisation et gestion de données",
+   "text": "Résoudre des problèmes en utilisant les données d’un tableau à double entrée ou d’un diagramme en barre."
   },
   {
    "id": "HG.CP",

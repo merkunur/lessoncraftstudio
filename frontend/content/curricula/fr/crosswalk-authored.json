@@ -1,0 +1,3674 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "M.CP.60",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.61",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The maternelle mathematics programme in PART 2 holds no position objective; the first wording that names this content is CP « Connaitre et utiliser le vocabulaire lié aux positions relatives », which these sheets practise. Situating real people and objects « dans la classe » is done in the room, so the sheet only prepares it.",
+   "review": "author-math"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "MM.M5.24",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.53",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the shape sheets count: finding every shape like the target whatever its size or turn is « Reconnaitre, trier et classer des formes géométriques planes, indépendamment d'autres critères comme la couleur, la taille, l'orientation ». Seeing the shape of everyday objects is a step toward CP « dans un assemblage et dans son environnement proche ».",
+   "review": "author-math"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "MM.M4.21",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picking the longest or tallest in a row is a direct comparison of lengths (« Comparer directement des longueurs d'objets rectilignes »), which the programme places from 4 years; it comes before CP « Comparer des objets selon leur longueur ». 'Biggest' in general is not a magnitude the wording names.",
+   "review": "author-math"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "MM.M5.29",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Ordonner des objets rectilignes selon leur longueur (au maximum cinq) »: the sheets seriate 3 to 5 pictures by height or length, the same limit of five.",
+   "review": "author-math"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "MM.M4.28",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.34",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Extending a repeating pattern is « Prolonger l'amorce d'un motif répétitif »; working AB / ABC / AABB with pictures, sizes, positions and shapes is identifying the structure « indépendamment des éléments physiques qui le composent ». The growing patterns only prepare M5.33, which asks the child to describe the structure orally.",
+   "review": "author-math"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "MM.M5.6",
+     "rel": "prepares"
+    },
+    {
+     "id": "MM.M5.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Giving each one a partner is the procedure under « Comparer des quantités » but the sheet does not yet state which group has more; taking each element once and only once is the same care as « en passant une et une seule fois par chacun de ses éléments ».",
+   "review": "author-math"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "MM.M5.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Comparer des quantités » is exactly more / fewer / equal between two groups; CP continues with « Comparer et dénombrer des collections en les organisant ».",
+   "review": "author-math"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "MM.M5.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Dénombrer une collection d'objets (jusqu'à dix, voire au-delà) » covers counting to 10–20; naming, writing and matching the number is « Associer une quantité, le nom d'un nombre et une écriture chiffrée »; scattered sets need the « stratégies de parcours ». Counting framed and array sets leads to the CP « en les organisant ».",
+   "review": "author-math"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "MM.M5.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a dot, dice or frame arrangement and saying its number links a quantity to its name and numeral (« Associer une quantité, le nom d'un nombre et une écriture chiffrée »). Seeing a frame as five and some more is the idea before « Composer et décomposer des nombres inférieurs ou égaux à dix ».",
+   "review": "author-math"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "MM.M5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Word for word the objective: « une quantité d'objets ne dépend ni de la nature de ces objets ni de leur organisation spatiale ».",
+   "review": "author-math"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "MM.M5.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Constituer une collection d'un cardinal donné (jusqu'à dix, voire au-delà) » is colouring exactly N or filling the frame; CP repeats it with larger numbers (« Construire des collections de cardinal donné »).",
+   "review": "author-math"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "MM.M5.25",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.24",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.53",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Décrire et nommer quelques figures géométriques simples : carré, rectangle, triangle, disque » and recognising them « indépendamment … [de] la taille, l'orientation » are both met. Counting the triangles and squares inside a figure is a first step toward CP « Reconnaitre des formes planes … dans un assemblage ».",
+   "review": "author-math"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "MM.M5.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Écrire en chiffres les nombres de un à dix » is the grande section demand; writing 11–20 goes past it and prepares the CP « suite écrite … des nombres jusqu'à cent ».",
+   "review": "author-math"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "MM.M5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child only reads numerals and matches them to a key; no quantity is involved, so it is a step before « Associer une quantité, le nom d'un nombre et une écriture chiffrée ».",
+   "review": "author-math"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "MM.M5.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.67",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each kind is a collection to count (« Dénombrer une collection d'objets ») and a mixed scene demands a strategy to pass « une et une seule fois » over each element. Sorting then counting is the step before CP « Collecter des données et présenter ces données sous forme d'un tableau ».",
+   "review": "author-math"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "MM.M5.25",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.24",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.55",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting sides is a way to « décrire » simple figures and sorting by number of sides is « trier et classer des formes géométriques planes ». The CP objective asks for a description with both words « sommet » et « côté », so the sheet prepares it.",
+   "review": "author-math"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "MM.M5.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling a strip to 10 is « Construire la bande numérique jusqu'à dix »; to 20 it uses « la comptine numérique jusqu'à trente ». The written sequence beyond ten is the CP objective.",
+   "review": "author-math"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "MM.M5.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in order to 30 is « Connaitre et utiliser la comptine numérique jusqu'à trente »; reading the written numerals 11–30 in order prepares the CP « suite écrite … jusqu'à cent ».",
+   "review": "author-math"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "MM.M5.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« si on ajoute un objet à une collection, le nombre qui désigne sa quantité est le suivant » is the skill; one less and the mental form are CP « Ajouter ou soustraire 1 ou 2 à un nombre ».",
+   "review": "author-math"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "MM.M5.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Before / after and counting back use the number sequence (« Connaitre et utiliser la comptine numérique »); the number between two others is the idea before CP « encadrer, intercaler des nombres entiers ».",
+   "review": "author-math"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "MM.M5.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Comprendre la notion de rang d'un objet » is the grande section objective. Finding the 1st–10th from a marked end already meets CP « Repérer un rang ou une position dans une file orientée »; the ordinal words stop at tenth, short of « jusqu'à vingtième ».",
+   "review": "author-math"
+  },
+  "K:days-of-week": {
+   "none": "The days of the week are not in the mathematics programmes listed (in France they belong to exploring / questioning the world: time).",
+   "why": "PART 2 holds only clock objectives under « Le repérage dans le temps »; nothing names the days.",
+   "review": "author-math"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "MM.M5.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a tally back is counting a collection of marks (« Dénombrer une collection »). The tally as another way to show a number, in bundles of five, prepares CP « diverses représentations d'un nombre et passer de l'une à l'autre »; the wording does not name tallies.",
+   "review": "author-math"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "MM.M5.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the checking half is in the wording (« Dénombrer une collection d'objets (jusqu'à dix, voire au-delà) »); no objective in PART 2 names estimating a quantity.",
+   "review": "author-math"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "MM.M4.24",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comparer les masses de deux objets » names this content (placed from 4 years). On paper the child reads a pictured balance or uses what he knows of the objects; the real comparison by hand or on a balance stays a classroom activity.",
+   "review": "author-math"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "M.CP.59",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.55",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme places this in CP: « Construire un carré, un rectangle, un triangle … sur du papier quadrillé ou pointé » is the same task on the same paper. Attending to sides and corners prepares the description with « sommet » and « côté ».",
+   "review": "author-math"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "MM.M5.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is « Déterminer le tout … dans un problème de parties-tout (d'abord deux parties…) »; it prepares CP « Comprendre le sens de l'addition ».",
+   "review": "author-math"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "MM.M5.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "With the whole shown and one part crossed out, the child finds the other part (« Déterminer le tout ou une partie dans un problème de parties-tout »); it prepares CP « le sens … de la soustraction ».",
+   "review": "author-math"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "MM.M5.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Surcompter (c'est-à-dire compter de un en un à partir d'un nombre donné) » is exactly counting on from a closed group.",
+   "review": "author-math"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "MM.M5.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Composer et décomposer des nombres inférieurs ou égaux à dix » and finding « le tout ou une partie » are the grande section objectives; knowing these bonds by heart is the CP « tables d'addition ».",
+   "review": "author-math"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "MM.M5.26",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A tangram figure is an assembly of at most seven flat shapes: « Reproduire des assemblages … de formes planes (au maximum huit) ».",
+   "review": "author-math"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "M.CE2.72",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Nothing in the maternelle or CP wording names reflection; symmetry first appears in CE2 (« axes de symétrie »). Recognising a mirror image is a distant readiness step for it.",
+   "review": "author-math"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "M.CE1.25",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme places « la notion de parité d'un nombre » in CE1; pairing up small groups is the idea before it.",
+   "review": "author-math"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "MM.M5.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "13 = 10 + 3 is a decomposition in the « voire au-delà » of « Composer et décomposer des nombres inférieurs ou égaux à dix, voire au-delà »; it prepares CP « la valeur des chiffres en fonction de leur position (unités, dizaines) ».",
+   "review": "author-math"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.15",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "Written sums and differences with + − = are CP content: « Connaitre dans les deux sens les tables d'addition » and « Comprendre et utiliser les symboles + − = ». For the grande section they go beyond composing and decomposing numbers to ten.",
+   "review": "author-math"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "The skill line gives no detail; judged as bonds of the numbers to 20 and partners that make 20. These are CP addition facts (« tables d'addition ») and « le complément d'un nombre à la dizaine supérieure », beyond the grande section decompositions.",
+   "review": "author-math"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "M.CP.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining two groups shown by a model is « Comprendre le sens de l'addition »; the facts are still counted, not known, so the addition tables are only prepared.",
+   "review": "author-math"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "M.CP.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out is the take-away meaning in « Comprendre le sens … de la soustraction »; knowing the facts « dans les deux sens » comes after.",
+   "review": "author-math"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "M.CP.15",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the whole number sentence for a picture is « Comprendre et utiliser les symboles + − = » tied to the meaning of the two operations.",
+   "review": "author-math"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "MM.M5.34",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme places repeating patterns in the maternelle (« Identifier la structure d'un motif répétitif »). The CP objective on sequences asks for ordinal numbers (« Utiliser les nombres ordinaux dans le cadre de l'étude de suites de symboles, de formes… »), which the sheet does not use.",
+   "review": "author-math"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "M.CP.67",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures into groups is the step before « Collecter des données et présenter ces données sous forme d'un tableau »; the skill line does not say what the groups are.",
+   "review": "author-math"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Partners of 10 are addition-table facts known both ways and the first case of « Trouver le complément d'un nombre à la dizaine supérieure ».",
+   "review": "author-math"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "M.CP.54",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.55",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Nommer le disque, le carré, le rectangle et le triangle » and « Donner une première description … en utilisant les termes sommet et côté »: deciding real from not-real by sides and corners and solving riddles is that description.",
+   "review": "author-math"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "M.CP.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The three CP ordinal objectives: knowing the ordinals (« jusqu'à vingtième »; the skill line gives no range, judged by the year), understanding and using them, and finding a place in an oriented line (the race).",
+   "review": "author-math"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "M.CP.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir placer des nombres sur une demi-droite graduée de un en un »: the lines are marked in ones with only some numbers printed.",
+   "review": "author-math"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "M.CP.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.15",
+     "rel": "extends"
+    }
+   ],
+   "why": "Hops forward and back give addition and subtraction their meaning on the « demi-droite graduée de un en un ». It carries on the grande section « lien entre un ajout et un avancement et celui entre un retrait et un recul » with CP numbers.",
+   "review": "author-math"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "M.CP.29",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Résoudre des problèmes additifs en une étape du type parties-tout » is the CP wording for one-step add / subtract problems; the numbers within 10/20 fit the year.",
+   "review": "author-math"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "M.CP.67",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CE1.37",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting a set into a table is « présenter ces données sous forme d'un tableau ». Reading a graph and asking 'how many more' come before the CE1 objectives on reading a « diagramme en barres » and on « problèmes additifs de comparaison ».",
+   "review": "author-math"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "M.CP.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.27",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre les doubles et les moitiés de nombres usuels » and « Déterminer la moitié d'un nombre pair », with numbers to 20.",
+   "review": "author-math"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "M.CE1.25",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Parity is a CE1 objective (« Connaitre la notion de parité d'un nombre »); sharing between two and looking for a leftover is the idea before its formal form.",
+   "review": "author-math"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.19",
+     "rel": "extends"
+    }
+   ],
+   "why": "6 + 7 is an addition-table fact, reached here from a known double; the sheets go one step beyond « Connaitre les doubles ».",
+   "review": "author-math"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "M.CP.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.17",
+     "rel": "extends"
+    }
+   ],
+   "why": "No objective names three addends; joining three groups belongs to « Comprendre le sens de l'addition » and carries on the grande section parts-whole problems « d'abord deux parties, puis éventuellement trois ».",
+   "review": "author-math"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre dans les deux sens les tables d'addition »: 'dans les deux sens' is the link between the addition and the subtraction facts that a fact family writes out with + − =.",
+   "review": "author-math"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the unknown in 5 + ? = 8 is knowing the tables « dans les deux sens » and using the signs with understanding.",
+   "review": "author-math"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "M.CP.15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comprendre et utiliser les symboles + − = »: judging 8 = 5 + 3 or 9 − 2 = 3 + 4 is understanding the equal sign.",
+   "review": "author-math"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "M.CP.29",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.37",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The part-part-whole bar is the model of « problèmes additifs en une étape du type parties-tout ». Comparing two bars prepares the CE1 « problèmes additifs de comparaison ».",
+   "review": "author-math"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "M.CP.53",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M5.26",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the missing piece is « Reconnaitre des formes planes … dans un assemblage »; composing the figure is the assembly of flat shapes the programme places in the grande section.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons": {
+   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+   "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+   "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
+   "review": "author-math"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "M.CP.33",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.35",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering three objects is « Comparer des objets selon leur longueur ». Measuring with cubes is the step before « mesurer la longueur d'un segment en utilisant une règle graduée ».",
+   "review": "author-math"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "M.CP.46",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.57",
+     "rel": "prepares"
+    }
+   ],
+   "why": "CP asks only for « une heure donnée en heures entières »; the hour sheets teach it. Half hours are past the CP wording and lead to « Lire l'heure sur une horloge à aiguilles », which PART 2 holds only in CE2.",
+   "review": "author-math"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.24",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition tables both ways; the make-a-ten strategy is the procedure of « Ajouter un nombre inférieur à 9 à un nombre » and rests on « le complément … à la dizaine supérieure ».",
+   "review": "author-math"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each brick is a sum and a missing brick a subtraction: the addition tables « dans les deux sens ». The number range is not given; judged by the year as small sums.",
+   "review": "author-math"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "M.CP.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking and correcting worked sums uses the known facts of the addition tables both ways; no objective names checking as such.",
+   "review": "author-math"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "M.CP.67",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Colouring a bar graph from counts is « présenter ces données sous forme … d'un diagramme en barres »; reading and interpreting one is named in CE1.",
+   "review": "author-math"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "M.CP.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre la valeur des chiffres en fonction de leur position (unités, dizaines) » and passing between representations (rods and cubes, numeral, expanded form).",
+   "review": "author-math"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "M.CP.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching numerals to number words is passing between « diverses représentations d'un nombre »; the programme goes to 100 in CP.",
+   "review": "author-math"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "M.CP.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comparer … des nombres entiers en utilisant les symboles =, < et > », « Ordonner des nombres dans l'ordre croissant ou décroissant », and comparing picture groups (« Comparer et dénombrer des collections »).",
+   "review": "author-math"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "M.CP.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.21",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The chart is « la suite écrite … des nombres jusqu'à cent ». The +10 down structure supports, but is not yet, the mental « Ajouter ou soustraire 10 à un nombre ».",
+   "review": "author-math"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "M.CP.20",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.21",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Ajouter ou soustraire 1 ou 2 à un nombre » and « Ajouter ou soustraire 10 à un nombre ».",
+   "review": "author-math"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "M.CP.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.21",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number in many forms is « diverses représentations d'un nombre »; tens and ones is the value of the digits; 10 more / less is « Ajouter ou soustraire 10 ».",
+   "review": "author-math"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "M.CP.17",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CE1.27",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CE1.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "PART 2 has no objective that names counting in 2s, 5s and 10s. Equal groups with a running total come before « Comprendre le sens de la multiplication » and the tables; a line whose ticks are worth 5 or 10 is no longer « graduée de un en un » and prepares the CE1 line.",
+   "review": "author-math"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "M.CP.47",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.58",
+     "rel": "teaches"
+    }
+   ],
+   "why": "CP: « Positionner les aiguilles … (uniquement des heures entières inférieures ou égales à douze) » covers the o'clock sheets only. Half past, quarters and five minutes are « en heures et minutes », which PART 2 places in CE2.",
+   "review": "author-math"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "M.CP.43",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.42",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.55",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Déterminer la valeur en euro d'un ensemble constitué de pièces et de billets » and « Comparer les valeurs de deux ensembles » hold if the purses are in whole euros. Purses with cent coins lead to the CE1 « valeur en euro et centime d'euro ».",
+   "review": "author-math"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "M.CP.26",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.22",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Jumps of tens then ones are the procedures « Ajouter deux nombres inférieurs à 100 » and « Ajouter ou soustraire 20, 30 … 90 »; 'to the ten, then the rest' is « le complément … à la dizaine supérieure ». Subtracting two two-digit numbers has no mental objective in PART 2.",
+   "review": "author-math"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "M.CP.22",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.24",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.28",
+     "rel": "prepares"
+    }
+   ],
+   "why": "34 + 20 is « Ajouter ou soustraire 20, 30 … 90 à un nombre »; adding ones across a ten is « Ajouter un nombre inférieur à 9 à un nombre ». 56 − 4 stays inside the ten and comes before « Soustraire un nombre inférieur à 10 à un nombre entier de dizaines ».",
+   "review": "author-math"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "M.CP.22",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.23",
+     "rel": "extends"
+    }
+   ],
+   "why": "Tens partners (30 + 70) are sums of whole tens. PART 2 names only « le complément … à la dizaine supérieure »; complements to 100 with fives and any numbers go beyond it.",
+   "review": "author-math"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "M.CE1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre et utiliser la relation entre unités et dizaines »; reading tens and ones is the CP « valeur des chiffres … (unités, dizaines) », so the programme places this content a year earlier than the sheets.",
+   "review": "author-math"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "M.CP.21",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Down = 10 more and right = 1 more on the chart to 100 are CP content (« Ajouter ou soustraire 10 à un nombre », « la suite écrite … jusqu'à cent »); CE1 in PART 2 holds no mental-calculation objective for it.",
+   "review": "author-math"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "M.CE1.25",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre la notion de parité d'un nombre » — by pairing, by two equal parts and by the ones digit.",
+   "review": "author-math"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "M.CE1.10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir placer des nombres sur une demi-droite graduée » (CE1 drops the CP limit « de un en un » and the start at zero).",
+   "review": "author-math"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "M.CP.55",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.70",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by number of sides is describing figures with the word « côté » (CP) and « Reconnaitre, nommer et décrire » (CE1). The wording names only square, rectangle, triangle and circle; five- and six-sided shapes are not named in cycle 2.",
+   "review": "author-math"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "M.CP.26",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The additions are « Ajouter deux nombres inférieurs à 100 ». For subtraction within 100 PART 2 offers only the CE1 column method (« Poser et effectuer »), which the puzzle formats do not ask the child to set out.",
+   "review": "author-math"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.CE1.36",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.38",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Résoudre des problèmes additifs en une étape de type parties-tout » and « … en deux étapes ».",
+   "review": "author-math"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "M.CE1.44",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.35",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir mesurer la longueur d'un segment en utilisant une règle graduée » stands with the same words in CP and CE1.",
+   "review": "author-math"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "M.CE1.45",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.44",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.37",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring both objects with the ruler, « Comparer des longueurs », and 'how much longer' as a one-step « problème additif de comparaison ».",
+   "review": "author-math"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "M.CE1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Value of the digits by position, passing between blocks, chart and numeral (« diverses représentations »), and the relations between ones, tens and hundreds.",
+   "review": "author-math"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "M.CE1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre la valeur des chiffres en fonction de leur position dans un nombre »; the expanded form is one of the representations to pass between.",
+   "review": "author-math"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "M.CE1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre la suite écrite et la suite orale des nombres jusqu'à mille ».",
+   "review": "author-math"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "M.CE1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on in 10s and 100s moves through « la suite … des nombres jusqu'à mille »; the 5s and 10s are the step before the multiplication tables. No objective in PART 2 names skip counting itself.",
+   "review": "author-math"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "M.CE1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comparer … en utilisant les symboles (=, <, >) » and « Ordonner des nombres dans l'ordre croissant ou décroissant ».",
+   "review": "author-math"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "M.CE1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.21",
+     "rel": "extends"
+    }
+   ],
+   "why": "100 more or less changes only the hundreds digit (« valeur des chiffres en fonction de leur position »). PART 2 names the mental procedure only for 10 in CP; ±100 goes beyond it.",
+   "review": "author-math"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "M.CE2.57",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.46",
+     "rel": "extends"
+    }
+   ],
+   "why": "PART 2 holds no time objective for CE1: after the CP whole hours, « Lire l'heure sur une horloge à aiguilles » stands in CE2, and five-minute reading meets it.",
+   "review": "author-math"
+  },
+  "2:calendar": {
+   "none": "Reading a calendar is not in the mathematics objectives listed (in France: questioning the world, time).",
+   "why": "The only duration objectives of PART 2 (CE2) are between two clock times « dans une même journée ».",
+   "review": "author-math"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "M.CE1.64",
+     "rel": "teaches"
+    },
+    {
+     "id": "MM.M4.19",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a solid from a flat shape is recognising the usual solids (« Reconnaitre les solides usuels »); the maternelle already asks to « Reconnaitre et classer des solides … et des formes géométriques planes ».",
+   "review": "author-math"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "M.CE1.64",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Reconnaitre les solides usuels suivants : cube, boule, cône, pyramide, cylindre, pavé » — the same six solids as the sheets.",
+   "review": "author-math"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "M.CE1.66",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.67",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Décrire un cube, un pavé ou une pyramide en utilisant les termes face, sommet et arête » and the number of faces of a cube or pavé. The wording stops at these three solids: counting on cylinders and cones goes past it.",
+   "review": "author-math"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "M.CE1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding blocks and exchanging uses « la relation entre unités et dizaines, entre dizaines et centaines »; it is the model that comes before « Poser et effectuer des additions … en colonnes ».",
+   "review": "author-math"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "M.CE1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Taking away blocks, with exchange of a ten or a hundred, uses the relations between units, tens and hundreds and comes before the column subtraction.",
+   "review": "author-math"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "M.CE1.22",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Poser et effectuer des additions et des soustractions en colonnes ».",
+   "review": "author-math"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "M.CE1.57",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.37",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.55",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Simuler des achats … Rendre la monnaie » names the content; 'how much more' is a comparison problem. Adding several prices comes before the CE2 « additions de montants en euro ».",
+   "review": "author-math"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "M.CE1.81",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Produire un tableau ou un diagramme en barres pour présenter des données recueillies » and « Lire et interpréter les données d'un diagramme en barres ».",
+   "review": "author-math"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "M.CE1.82",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The line plot is not a representation the programme names; reading columns of X marks above numbers is close to, and simpler than, reading a « diagramme en barres ».",
+   "review": "author-math"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "M.CE1.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "PART 2 never names rounding. The nearest objective is « encadrer … des nombres entiers » (placing a number between two tens); choosing the nearer ten goes beyond it.",
+   "review": "author-math"
+  },
+  "2:mass-grams": {
+   "none": "PART 2 holds no mass objective for cycle 2 (only the maternelle comparisons of masses).",
+   "why": "Under « Grandeurs et mesures » the listed CP–CE2 objectives cover lengths, money and time only; nothing names grams or the balance.",
+   "review": "author-math"
+  },
+  "2:read-jugs": {
+   "none": "PART 2 holds no capacity objective (litres, millilitres).",
+   "why": "Under « Grandeurs et mesures » the listed objectives cover lengths, money and time only.",
+   "review": "author-math"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "M.CE1.42",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Choisir l'unité la mieux adaptée pour exprimer une longueur » covers cm or m only; the mass and capacity choices have no objective in PART 2, and inches and feet are not French units.",
+   "review": "author-math"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "M.CE1.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "From repeated addition to the sentence with × is « Comprendre et utiliser le symbole × »; counting equal groups is the CP « sens de la multiplication ».",
+   "review": "author-math"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "M.CE1.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.24",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching an array to a multiplication is using the × sign with meaning; rows and columns are the picture behind « la multiplication est commutative ».",
+   "review": "author-math"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "M.CE1.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting in 3s and 4s is the step before « Connaitre dans les deux sens les tables de multiplication ».",
+   "review": "author-math"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "M.CE1.82",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CE1.81",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme names only tables and the « diagramme en barres »; a pictograph with a key of 2 is a neighbouring form that readies the child to read and make bar graphs.",
+   "review": "author-math"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "M.CE1.39",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal sharing and making equal groups are one-step « problèmes multiplicatifs » solved by acting on pictures; the division itself (« le sens de la division … le symbole ÷ ») is CE2.",
+   "review": "author-math"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "M.CE1.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir interpréter, représenter, écrire et lire les fractions » 1/2, 1/3, 1/4 …: equal parts of a shape and the fraction that names one part.",
+   "review": "author-math"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "M.CE1.16",
+     "rel": "extends"
+    },
+    {
+     "id": "M.CP.27",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The CE1 wording reads unit fractions as parts of one whole; taking 1/3 or 1/4 of a collection and giving a number goes beyond it. The 1/2 case is « Déterminer la moitié d'un nombre pair ».",
+   "review": "author-math"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "M.CE2.72",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The programme places symmetry in CE2: « Reconnaitre si une figure possède un ou plusieurs axes de symétrie » — here the child judges a proposed line, by eye rather than by folding.",
+   "review": "author-math"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "M.CE2.73",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Compléter, sur une feuille quadrillée ou pointée, une figure simple pour la rendre symétrique par rapport à un axe donné » — a CE2 objective.",
+   "review": "author-math"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "M.CE1.78",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names coded squares on a grid. A letter-number code is a first way to « localiser … ou communiquer un emplacement » on a representation, and crossing a column with a row is the reading skill of a « tableau à double entrée ».",
+   "review": "author-math"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "MM.M5.26",
+     "rel": "extends"
+    }
+   ],
+   "why": "The only wording on assemblies of flat shapes is the maternelle « Reproduire des assemblages … de formes planes »; judging turned and flipped solutions goes beyond it. Nothing in cycle 2 names this.",
+   "review": "author-math"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "M.CE1.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "PART 2 lists no whole-number objective for CE2; the comparison objective stands in CE1 with numbers « jusqu'à mille », so four-digit numbers extend it.",
+   "review": "author-math"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "M.CE1.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "Rounding is not named anywhere in PART 2; it builds on « encadrer … des nombres entiers » between two tens or two hundreds.",
+   "review": "author-math"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "M.CE2.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Poser et effectuer des additions et des soustractions en colonnes ».",
+   "review": "author-math"
+  },
+  "3:estimate-by-rounding": {
+   "none": "No objective in PART 2 names estimating a result or its order of magnitude.",
+   "why": "The CE2 objectives on addition are the column method and the tables; nothing asks to judge whether a result is reasonable.",
+   "review": "author-math"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "M.CE2.20",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The puzzle itself is not in the programme; what the child does is find sums and missing addends, i.e. the addition tables « dans les deux sens ». The size of the numbers is not given.",
+   "review": "author-math"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "M.CE1.25",
+     "rel": "extends"
+    }
+   ],
+   "why": "« Connaitre la notion de parité d'un nombre » is the only parity wording; predicting the parity of a sum goes beyond it.",
+   "review": "author-math"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "M.CE1.15",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The programme meets number sequences through ordinals (« Utiliser les nombres ordinaux dans le cadre de suite … de nombres »); finding the step and continuing is the work on which naming the nth term rests.",
+   "review": "author-math"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "M.CE2.57",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Lire l'heure sur une horloge à aiguilles ».",
+   "review": "author-math"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "M.CE1.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a product as equal groups or an array is « Comprendre le sens de la multiplication » (CP) and « Comprendre et utiliser le symbole × » (CE1): the programme places it earlier than the sheets.",
+   "review": "author-math"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "M.CE2.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.21",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal jumps from 0 land on the multiples: « Comprendre et utiliser les mots facteur, produit et multiple »; it supports the tables.",
+   "review": "author-math"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "M.CE1.24",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comprendre et savoir que la multiplication est commutative » — a CE1 objective.",
+   "review": "author-math"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "M.CE2.21",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.27",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Connaitre dans les deux sens les tables de multiplication » stands in CE1 and again in CE2; the wording does not say which tables belong to which year.",
+   "review": "author-math"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.81",
+     "rel": "teaches"
+    }
+   ],
+   "why": "PART 2 lists no data objective for CE2; the CE1 wording on reading and producing a « diagramme en barres » sets no limit on the scale. Pictographs are not named.",
+   "review": "author-math"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "M.CE1.10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Temperature is not a magnitude of the listed objectives; what the child does is read a graduated scale in steps of 2, 5 or 10, the skill of the « demi-droite graduée ».",
+   "review": "author-math"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comprendre le sens de la division et utiliser le symbole ÷ » — the sharing meaning.",
+   "review": "author-math"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comprendre le sens de la division » — the grouping (how many times) meaning.",
+   "review": "author-math"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "M.CE2.21",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "An unknown factor and the four related facts are the tables « dans les deux sens » and the meaning of division.",
+   "review": "author-math"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "M.CE2.31",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Résoudre des problèmes multiplicatifs en une étape »; telling sharing from making groups is the meaning of division.",
+   "review": "author-math"
+  },
+  "3:input-output": {
+   "none": "No objective in PART 2 asks to find the rule that links two lists of numbers.",
+   "why": "The calculations inside the machine are ordinary facts, but finding and reversing a rule is not named in the wording.",
+   "review": "author-math"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "M.CP.15",
+     "rel": "extends"
+    }
+   ],
+   "why": "The equal sign is met in CP (« Comprendre et utiliser les symboles + − = »); an operation on both sides goes beyond that objective and no later one names it.",
+   "review": "author-math"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "M.CE2.60",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Résoudre des problèmes à une ou deux étapes impliquant des durées ».",
+   "review": "author-math"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "M.CE2.59",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comparer et mesurer des durées écoulées entre deux instants affichés sur une horloge (… dans une même journée) ».",
+   "review": "author-math"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "M.CP.48",
+     "rel": "extends"
+    }
+   ],
+   "why": "No objective names the two ways of writing the afternoon hours. The nearest line is « Associer une heure à un moment de la journée »; passing from 3 o'clock in the afternoon to 15 h goes beyond it.",
+   "review": "author-math"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "M.CE1.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Area is not a magnitude of the cycle 2 objectives listed. What the sheet practises from the wording is the rectangular meaning of « × » (rows × columns).",
+   "review": "author-math"
+  },
+  "3:same-area": {
+   "none": "Area is not in the cycle 2 objectives of PART 2.",
+   "why": "« Grandeurs et mesures » lists lengths (with perimeter), money and time only.",
+   "review": "author-math"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "M.CE2.42",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.44",
+     "rel": "prepares"
+    }
+   ],
+   "why": "« Savoir ce qu'est le périmètre d'une figure plane ». Adding given side lengths is half of « Déterminer le périmètre d'un polygone en utilisant une règle graduée »: the measuring with the ruler is not asked.",
+   "review": "author-math"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "M.CE2.42",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.43",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing what the perimeter is and comparing the perimeters of several polygons — here by counting, where the objective asks for the compass. The area side has no objective.",
+   "review": "author-math"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Comprendre le sens de la division »: the wording does not name the remainder, but sharing with something left over belongs to that meaning.",
+   "review": "author-math"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "M.CE1.73",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The right angle is CE1 content: « l'équerre pour vérifier qu'un angle est droit ». Angles smaller or bigger than a right angle are not named in cycle 2.",
+   "review": "author-math"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "M.CE2.68",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.69",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Reconnaitre, nommer et décrire le carré, le rectangle … et le losange » and their properties of angles and equal lengths. Other quadrilaterals are not named.",
+   "review": "author-math"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "M.CE2.72",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Reconnaitre si une figure possède un ou plusieurs axes de symétrie ».",
+   "review": "author-math"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "M.CE1.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal parts named as unit fractions is the CE1 objective on the fractions with numerator 1.",
+   "review": "author-math"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "M.CE1.17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir interpréter, représenter, écrire et lire des fractions inférieures ou égales à 1 » — a/b as a pieces of 1/b. A CE1 objective.",
+   "review": "author-math"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "M.CE1.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rebuilding the whole from one piece is interpreting a unit fraction (the whole is b such pieces).",
+   "review": "author-math"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "M.CE2.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.17",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The line from 0 to 1 cut into equal spaces is « Partager une unité de longueur en fractions d'unité »; placing the fraction is representing a fraction not greater than 1.",
+   "review": "author-math"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "M.CE1.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.20",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same denominator and numerator 1 are the two CE1 cases; a same numerator other than 1 falls under CE2 « Comparer des fractions inférieures à 1 ».",
+   "review": "author-math"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "M.CE2.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "« Savoir établir des égalités de fractions inférieures ou égales à 1 ».",
+   "review": "author-math"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "M.CE1.16",
+     "rel": "extends"
+    },
+    {
+     "id": "M.CE2.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No objective names the fraction of a collection; it goes beyond reading a unit fraction of one whole. Finding 1/3 of 12 is sharing 12 into 3 equal parts, the meaning of division.",
+   "review": "author-math"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "M.CE2.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.81",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Measuring to the half unit is « mesurer des longueurs non entières par rapport à cette unité ». The line plot is not a named representation; it is a simple way to « présenter des données recueillies ».",
+   "review": "author-math"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "M.CE1.79",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Volume is not in the cycle 2 objectives. Reading a drawing of stacked cubes, hidden ones included, supports « Construire des assemblages de cubes et de pavés », which is done with real cubes.",
+   "review": "author-math"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "ML.M4.31",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.30",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Loops, waves, zigzags and spirals are the 'tracés de l'écriture cursive' the programme names from 4 years on ('S'initier aux tracés de l'écriture cursive'); they come before 'Tracer des lettres en écriture cursive, les enchainer' of the grande section. The programme places the strokes one year earlier than the worksheets.",
+   "review": "author-rest"
+  },
+  "K:all-about-me-personal": {
+   "none": "Drawing and personal expression: the registry holds no arts programme, and the maternelle language objectives are about speaking.",
+   "why": "A self-portrait and 'my favourite things' page is drawing; the ML.M5 objectives that come near ('Se faire comprendre ... d'un adulte') ask for oral language, which a sheet done alone does not give.",
+   "review": "author-rest"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "PART 2 holds no phonological-awareness objective for the maternelle; hearing rhymes is readiness for 'Décoder et encoder 12 à 15 correspondances grapho-phonémiques' at the start of CP.",
+   "review": "author-rest"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.51",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Organiser les mots en catégorie et en réseau' is exactly sorting named pictures into categories; it comes before 'Savoir proposer et justifier une catégorisation du corpus de mots étudié' in CP.",
+   "review": "author-rest"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No letter-knowledge objective is listed for the maternelle in PART 2; telling b / d / p / q apart is a step before decoding the first correspondances grapho-phonémiques in CP.",
+   "review": "author-rest"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "ML.M4.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "ML.M5.30",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Tracer des lettres capitales' (from 4 years) is the capital-letter half. For lowercase the programme only knows cursive ('Tracer des lettres en écriture cursive, les enchainer'); tracing print lowercase letters is at most a step toward it.",
+   "review": "author-rest"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting oral syllables is the readiness step before 'Déchiffrer des syllabes, des mots puis des phrases'; PART 2 lists no syllable objective for the maternelle.",
+   "review": "author-rest"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "F.CE1.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Reconnaitre les lettres dans les quatre écritures : minuscules (scripte et cursive), majuscules (scripte ou cursive)' is the full form of this skill; matching print capitals to print small letters is two of the four.",
+   "review": "author-rest"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing the first sound of a word and linking it to a letter is the idea behind the first 'correspondances grapho-phonémiques régulières, fréquentes et aisément prononçables' of CP period 1.",
+   "review": "author-rest"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the picture that does not belong uses the category of the others: 'Organiser les mots en catégorie et en réseau'.",
+   "review": "author-rest"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.52",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairs of opposites are a relation in the word network ('en réseau'); the formal objective 'Savoir trouver des synonymes et des antonymes' belongs to CP.",
+   "review": "author-rest"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "F.CP.49",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing the order of the letters comes before 'Commencer à mobiliser l'ordre alphabétique pour utiliser un dictionnaire adapté' (CP).",
+   "review": "author-rest"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "F.CP.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering the pictures of a story shows its overall sense without text; it is a step before 'Dégager le sens global d'un texte entendu ou lu'.",
+   "review": "author-rest"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Locating a sound at the start, middle or end of a word is phonemic readiness for decoding and encoding the first correspondances in CP; no ML.M5 objective in PART 2 names it.",
+   "review": "author-rest"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling vowels from consonants is knowledge used when the first correspondances are decoded and put together into syllables in CP; PART 2 has nothing on it for the maternelle.",
+   "review": "author-rest"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "ML.M5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picture word cards support 'Comprendre, mémoriser, réemployer les mots des corpus enseignés', but cards on a wall are a resource, not the oral work the objective asks; the second language has no objective in this registry.",
+   "review": "author-rest"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One sound per box, with two letters sharing a box, is the step before 'Encoder des syllabes simples puis des mots selon la progression des CGP' and before the correspondances themselves.",
+   "review": "author-rest"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "F.CP.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building short words from letters is encoding; the programme opens it in CP ('Encoder des syllabes simples puis des mots'), so in the grande section it is a first step with the simplest words.",
+   "review": "author-rest"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a written word to its picture is a first reading of words before 'Déchiffrer des syllabes, des mots puis des phrases', which the programme places in CP.",
+   "review": "author-rest"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "F.CE1.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One and many is the idea before 'Réaliser des accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'. In French the plural is mostly heard in the article (le / les), not in the noun.",
+   "review": "author-rest"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "ML.M5.6",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing 'ch' at the start of a word is the listening side of 'Prononcer correctement les couples de consonnes proches suivants : ch/s, ch/j, ch/z', and readiness for the digraph among the '25 à 30 CGP' of mid-CP.",
+   "review": "author-rest"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "F.CP.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Mémoriser les mots fréquents et réguliers' is a CP mid-year objective; a small set of mots outils read in the grande section is a step before it.",
+   "review": "author-rest"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "ML.M4.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.30",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.31",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Words traced in capitals do 'Tracer des lettres capitales'; copying whole words and a short sentence comes before 'Copier des syllabes simples puis des mots' and 'Copier une phrase' of CP. If the models are in cursive, ML.M5.30 would also be taught; the skill line does not say.",
+   "review": "author-rest"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "F.CE1.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing le / la for a noun is the gender of the noun, the idea before 'accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'.",
+   "review": "author-rest"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "F.CP.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The CP programme in PART 2 has no rhyme objective; hearing and producing rhymes is sound awareness that serves 'Décoder et encoder ... correspondances grapho-phonémiques'.",
+   "review": "author-rest"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "F.CP.27",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Cutting a word into its sounds is the oral step before 'Encoder des syllabes simples puis des mots'; blending sounds into a word is the oral step before 'Déchiffrer des syllabes, des mots'.",
+   "review": "author-rest"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "F.CP.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing, writing and reading a two-letter grapheme is part of 'Décoder et encoder de 25 à 30 CGP' (mid-CP). In French the letter teams are ch, ou, on, an, in, oi, gn and the like, not sh / th.",
+   "review": "author-rest"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "F.CP.27",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.56",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the word for a picture is 'Encoder ... des mots selon la progression des CGP' and trains 'Mémoriser l'orthographe des mots réguliers fréquemment rencontrés'; the picture stands in for the dictation the second objective names.",
+   "review": "author-rest"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Missing syllables, scrambled syllables and syllable cards are 'Déchiffrer des syllabes, des mots'; clapping and counting syllables is the oral step before 'Encoder des syllabes simples'.",
+   "review": "author-rest"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CP.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That every syllable holds a vowel is knowledge behind deciphering and encoding syllables; no objective of PART 2 states it as such.",
+   "review": "author-rest"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining syllables and reading syllabified words to find the picture is 'Déchiffrer des syllabes, des mots puis des phrases en fonction de la progression de l'apprentissage des CGP'.",
+   "review": "author-rest"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "F.CP.49",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.42",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Commencer à mobiliser l'ordre alphabétique pour utiliser un dictionnaire adapté' is this skill; ordering by the second letter is what 'consulter des articles de dictionnaire' needs in CE1.",
+   "review": "author-rest"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "F.CP.52",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Savoir trouver des synonymes et des antonymes': the antonym half, in CP.",
+   "review": "author-rest"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "F.CE1.22",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.CE1.56",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns by un / une is the gender of the noun before 'accords en genre et en nombre dans le groupe nominal' and before naming 'le déterminant, le nom commun' (CE1). PART 2 lists no grammar objective for CP.",
+   "review": "author-rest"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a sentence and doing what it says is deciphering 'des phrases' with understanding; one or two sentences are a step before 'un texte ... prescriptif d'une dizaine de lignes'.",
+   "review": "author-rest"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "F.CP.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the word that fits a sentence, or the picture that fits it, is reading sentences for sense ('Déchiffrer ... des phrases'); single sentences come before the ten-line text of F.CP.19.",
+   "review": "author-rest"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "F.CP.52",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Savoir trouver des synonymes et des antonymes': the synonym half, in CP.",
+   "review": "author-rest"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "F.CP.35",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.53",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting known words into a sentence and writing it is 'Écrire ... des mots puis quelques phrases ... à partir des mots connus et déchiffrés'; the capital and the end mark are the idea of the sentence before 'Identifier la phrase simple' (CE1).",
+   "review": "author-rest"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "F.CE1.54",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Qui / quoi / où and matching a question to its answer come before 'Reconnaitre et utiliser les trois types de phrases ... interrogative' (CE1); PART 2 has no CP objective on questions.",
+   "review": "author-rest"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "F.CP.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering the sentences of a story and saying what happens next is 'Dégager le sens global d'un texte entendu ou lu de façon autonome'; a few sentences are less than the 'dizaine de lignes' of F.CP.19.",
+   "review": "author-rest"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "F.CP.50",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.56",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting words into nouns and verbs is 'Constituer des répertoires de mots ... par classe grammaticale' (CP); naming the classes ('Différencier et nommer les principales classes de mots') is CE1.",
+   "review": "author-rest"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "F.CP.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.56",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Replacing a name by il / elle / ils / elles is the link the CP objective describes, 'qui relie un nom à sa ou ses reprise(s) pronominale(s)'; naming 'le pronom personnel sujet' is CE1.",
+   "review": "author-rest"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "F.CP.52",
+     "rel": "extends"
+    }
+   ],
+   "why": "Ordering near-synonyms by strength goes beyond 'Savoir trouver des synonymes'; no objective of PART 2 names intensity.",
+   "review": "author-rest"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "F.CP.50",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.41",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Constituer des répertoires de mots ... par famille de mots, par analogies morphologiques' is finding the word built from a root; using the morphology to find the meaning is CE1.",
+   "review": "author-rest"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "F.CP.36",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.39",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A postcard or short story is 'Produire des écrits courts porteurs de sens, d'une à cinq lignes'; the story map is the 'planification' of 'Commencer à acquérir une méthodologie de production écrite'.",
+   "review": "author-rest"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "F.CE1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Spotting a grapheme learnt in CP inside sentences is revision work for 'Automatiser le décodage des correspondances graphophonémiques (CGP) apprises au CP'. The French sheets must hunt a French grapheme (ch, ou, on ...).",
+   "review": "author-rest"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "F.CE1.53",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.54",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.48",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting run-together sentences is 'Identifier la phrase simple'; choosing . or ? is 'les trois types de phrases, en lien avec la ponctuation'. 'Utiliser la ponctuation de fin de phrase (. ! ?)' is worded for CE2, so here it is prepared with two of the three marks.",
+   "review": "author-rest"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "F.CE1.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.20",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.26",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Mémoriser le tracé normé ... en lettres minuscules cursives' and 'le tracé normé des lettres majuscules cursives' are CE1; the joins and whole words are 'Apprendre à les enchainer ... dans des syllabes, mots, phrases', which the programme already asks in CP.",
+   "review": "author-rest"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "F.CE1.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the missing word from the story context is a simple inference ('Comprendre ce qui est implicite dans le texte (inférences) dans des cas simples'); the skill line gives no text length, so the 'quinzaine de lignes' of F.CE1.13 is only prepared.",
+   "review": "author-rest"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "F.CE1.54",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the question word that asks for a given answer is using the interrogative sentence: 'Reconnaitre et utiliser les trois types de phrases ... interrogative'.",
+   "review": "author-rest"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "F.CE1.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Lire et comprendre en autonomie un texte narratif' (length judged by the year: about fifteen lines), answers 'with details from the text' = 'Justifier ses réponses par un retour au texte', and the why-questions ask for simple inferences.",
+   "review": "author-rest"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "F.CE1.29",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.28",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sentences about a picture are 'Écrire un texte court de une à trois phrases'; the sentence starters work like 'Rédiger une phrase simple à partir d'une phrase prototypique, en changeant un puis plusieurs mots'.",
+   "review": "author-rest"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "F.CE1.56",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Différencier et nommer les principales classes de mots : ... le nom commun, ... l'adjectif, le verbe': three of the six classes named.",
+   "review": "author-rest"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "F.CE1.22",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.49",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the plural mark of the noun is part of 'Réaliser des accords en genre et en nombre dans le groupe nominal (article, nom, adjectif)'; the irregular plurals (-al / -aux, -eau / -eaux) lead on to 'les marques d'accord au sein du groupe nominal' of CE2.",
+   "review": "author-rest"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "F.CE1.51",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CP.58",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The English patterns (ck / k, tch / ch) do not exist in French; the French position rules are those of 'graphèmes à prononciation variable : s prononcé –ss ou –z, c prononcé –ss ou –k, g prononcé –j ou –g' (CE1) and 'la composition de certains graphèmes selon la lettre qui suit (an/am, en/em, on/om, in/im)' (CP). The rows hold only if the French sheets use these rules.",
+   "review": "author-rest"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "F.CP.52",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.48",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching words of the same meaning is 'Savoir trouver des synonymes' (worded for CP); choosing another verb for 'dire' is 'Utiliser les relations établies entre les mots ... pour varier et adapter son expression' (CE1).",
+   "review": "author-rest"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "F.CP.52",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.48",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill as 2:synonyms: 'Savoir trouver des synonymes' (CP wording) and, for the verbs that replace 'dire', 'varier et adapter son expression' (CE1).",
+   "review": "author-rest"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "F.CE1.56",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.51",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the verb is 'Différencier et nommer ... le verbe'. PART 2 lists no conjugation objective for CE1; the only one, 'conjuguer au présent, à l'imparfait, au futur et au passé composé ... être et avoir ... faire, aller', is CE2, so the present and past forms prepare it.",
+   "review": "author-rest"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "F.CE1.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.56",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Linking a pronoun to its name is 'Se repérer dans la chaine anaphorique (qui relie un nom à sa ou ses reprise(s) pronominale(s))'; replacing a name is using 'le pronom personnel sujet'. The possessives (mon, ton, son) are determiners in French grammar and have no objective here.",
+   "review": "author-rest"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "F.CE1.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Reconnaitre les lettres dans les quatre écritures : minuscules (scripte et cursive)' and 'Avoir mémorisé l'ensemble des CGP dans tous les types d'écriture' both ask for reading in cursive.",
+   "review": "author-rest"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "F.CE1.41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Splitting a compound to find its meaning is 'S'appuyer sur la morphologie des mots pour en trouver le sens'. PART 2 never names mots composés (its morphology is prefixes and suffixes), and French has no joining letter: the compounds are few and mostly hyphenated.",
+   "review": "author-rest"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "F.CE1.46",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting words by their shared root is 'Trier et apparier les mots et leurs dérivés en fonction des préfixes et suffixes identifiés', and serves 'S'appuyer sur la morphologie des mots pour en trouver le sens'.",
+   "review": "author-rest"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "F.CE1.46",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.41",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding a prefix and saying how the meaning changes is 'Trier et apparier les mots et leurs dérivés en fonction des préfixes ... identifiés' and 'S'appuyer sur la morphologie des mots pour en trouver le sens' (French: dé-, in- / im-, re-, pré-, mal-).",
+   "review": "author-rest"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "F.CE1.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.33",
+     "rel": "teaches"
+    }
+   ],
+   "why": "D'abord, Ensuite, Puis, À la fin are the connecteurs of 'Insérer des connecteurs pour rendre cohérent l'enchainement de plusieurs phrases'; a retelling in four parts is a text within 'six ou sept phrases maximum en assurant la cohérence ... logique'.",
+   "review": "author-rest"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "F.CE1.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Putting clues together one at a time to name the animal is 'Comprendre ce qui est implicite dans le texte (inférences) dans des cas simples'.",
+   "review": "author-rest"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "What an animal eats, where it lives, how it moves are 'des caractéristiques du monde vivant' and 'Régimes alimentaires de quelques animaux'. The fact file is the form of an informative text; the skill line does not say that the child reads one of fifteen lines, so F.CE1.13 is only prepared.",
+   "review": "author-rest"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same and different facts about two animals: 'Connaître des caractéristiques du monde vivant, ses interactions, sa diversité'.",
+   "review": "author-rest"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "F.CE2.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Automatiser l'écriture de toutes les lettres minuscules et majuscules en cursive' is done by copying sentences; one sentence is a step before 'Copier une dizaine de lignes sans erreur'.",
+   "review": "author-rest"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "F.CE2.33",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.37",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping verbs under a general verb (marcher: flâner, foncer) is 'hiérarchiser les termes génériques de base et spécifiques'; telling close words apart is 'Employer à bon escient et rigoureusement les mots étudiés, en référence à leur contexte d'emploi'.",
+   "review": "author-rest"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "F.CE2.36",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.43",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Forming the name of the person with a suffix (-eur, -ier, -iste) is 'Trier et apparier des mots et leurs dérivés en fonction des ... suffixes', knowing what it means is 'S'appuyer sur la morphologie des mots pour en trouver le sens', and writing it uses 'des critères morphologiques (radical, préfixe et suffixe)'.",
+   "review": "author-rest"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "F.CE2.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE2.36",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the member of a word family that fits the sentence rests on 'la morphologie des mots pour en trouver le sens' and on 'mots et leurs dérivés'. In French the verb forms of the family (the -ing / -ed forms of the English line) are conjugation, not derivation.",
+   "review": "author-rest"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "QM.2.C11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming the parts of the body comes before 'Repérer les éléments permettant la réalisation d'un mouvement corporel' (cycle 2). The maternelle domain that holds the body is not in this registry.",
+   "review": "author-rest"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "QM.2.C1",
+     "rel": "prepares"
+    },
+    {
+     "id": "QM.2.A1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Living or not living is the idea before 'Identifier ce qui est animal, végétal, minéral ou élaboré par des êtres vivants' and 'Connaître des caractéristiques du monde vivant' (cycle 2 band; the worksheets sit below it).",
+   "review": "author-rest"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "QM.2.C16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Fruits, vegetables and the part of the plant we eat lead to 'Catégories d'aliments, leur origine' of cycle 2.",
+   "review": "author-rest"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pets, farm animals and wild animals are categories of words ('Organiser les mots en catégorie'); where animals live comes before 'Diversité des organismes vivants présents dans un milieu' of cycle 2.",
+   "review": "author-rest"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "QM.2.C2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a young animal to its parent is a first look at 'Développement d'animaux et de végétaux' (cycle 2).",
+   "review": "author-rest"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "HG.CP.H1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The cycle of the seasons is one of 'Les manifestations naturelles du temps' (CP history, theme 1); PART 2 gives only the title, and the worksheets sit one year before.",
+   "review": "author-rest"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "HG.CP.H1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Day and night are the first of 'Les manifestations naturelles du temps' (CP); title only, and the worksheets sit in the grande section.",
+   "review": "author-rest"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "QM.1.C2",
+     "rel": "prepares"
+    },
+    {
+     "id": "QM.1.C1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rain, snow and ice in the weather come before 'Reconnaître les états de l'eau et leur manifestation dans divers phénomènes naturels'; cold / warm / hot on a thermometer comes before 'Comparer et mesurer la température'. PART 2 has no weather objective as such.",
+   "review": "author-rest"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "QM.2.C1",
+     "rel": "prepares"
+    },
+    {
+     "id": "QM.3.A1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Natural or made by people is the first sort behind 'Identifier ce qui est animal, végétal, minéral ou élaboré par des êtres vivants' and behind the notion of 'objets fabriqués'.",
+   "review": "author-rest"
+  },
+  "K:five-senses": {
+   "none": "No objective of PART 2 names the senses; they belong to the maternelle domain 'Explorer le monde', which this registry does not hold.",
+   "why": "The cycle 2 list on the body speaks of movement, growth, teeth, food and hygiene only.",
+   "review": "author-rest"
+  },
+  "K:recycling": {
+   "none": "No objective of PART 2 is about waste or sorting it; in France this is éducation au développement durable, outside the documents held here.",
+   "why": "Nothing in QM.1 to QM.3 names waste, bins or recycling.",
+   "review": "author-rest"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "QM.2.C5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Quelques besoins vitaux des végétaux' is this content word for word, but it belongs to cycle 2 and the worksheets sit in the grande section.",
+   "review": "author-rest"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "QM.1.C3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting things that float and sink is a first step toward 'Mettre en œuvre des expériences simples impliquant l'eau et/ou l'air' (cycle 2).",
+   "review": "author-rest"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping animals by what covers their body is 'Connaître des caractéristiques du monde vivant, ses interactions, sa diversité'.",
+   "review": "author-rest"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "QM.2.C7",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C4",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Who lives here: 'Diversité des organismes vivants présents dans un milieu'; what animals eat: 'Régimes alimentaires de quelques animaux'; food and a home: 'interactions des êtres vivants ... avec leur milieu'.",
+   "review": "author-rest"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "QM.2.C3",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Le cycle de vie des êtres vivants' and 'Développement d'animaux et de végétaux': the chicken, butterfly, frog and plant in order.",
+   "review": "author-rest"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "QM.1.C3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Predict then test with water is one of the 'expériences simples impliquant l'eau' the objective asks to carry out; the row holds when the objects are really tested and the sheet is the record.",
+   "review": "author-rest"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "QM.2.C11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Labelling the parts of the body comes before 'Repérer les éléments permettant la réalisation d'un mouvement corporel', which asks for joints and what makes the body move.",
+   "review": "author-rest"
+  },
+  "1:five-senses": {
+   "none": "No objective of PART 2 names the senses (the 2020 cycle 2 programme leaves them to the maternelle).",
+   "why": "QM.2 on the body covers movement, growth, teeth, food and hygiene, not the senses.",
+   "review": "author-rest"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "QM.1.C2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rain, snow, frost and fog as weather words come before 'Reconnaître les états de l'eau et leur manifestation dans divers phénomènes naturels'; reading a forecast has no objective in PART 2.",
+   "review": "author-rest"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "QM.3.C7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "PART 2 has no objective on materials as such; telling metal, plastic, glass and wood apart is what a child must know before 'Exemples de bon conducteurs et d'isolants'. Recycling itself has no objective.",
+   "review": "author-rest"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Root, stem, leaf and flower are 'des caractéristiques du monde vivant'; what each part does (the root takes in water, the leaf uses light) is the content of 'Quelques besoins vitaux des végétaux'.",
+   "review": "author-rest"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "HG.CP.H1",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.G2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The phases of the Moon in order are a natural rhythm of time ('Les manifestations naturelles du temps') and the Earth as a globe belongs with 'Des représentations du monde'; PART 2 gives titles only and holds no astronomy objective, so no more than 'prepares'.",
+   "review": "author-rest"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "QM.3.C7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping objects by material is the knowledge needed before 'Exemples de bon conducteurs et d'isolants'; PART 2 has no objective on materials or on recycling as such.",
+   "review": "author-rest"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C5",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Plant parts are 'des caractéristiques du monde vivant'; what each does ties to 'Quelques besoins vitaux des végétaux'; which part we eat is the 'origine' in 'Catégories d'aliments, leur origine'.",
+   "review": "author-rest"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "QM.2.C3",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Le cycle de vie des êtres vivants'; matching the young stage to the adult is 'Développement d'animaux'.",
+   "review": "author-rest"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "HG.CP.H1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The lunar cycle is one of 'Les manifestations naturelles du temps' (a CP theme, title only); naming each phase in CE1 goes further on that line. No astronomy objective is held in PART 2.",
+   "review": "author-rest"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "HG.CP.H1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The CP theme 'Les manifestations naturelles du temps' has day and night as something observed; explaining them by the turning Earth goes beyond it. PART 2 holds no astronomy objective.",
+   "review": "author-rest"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "QM.2.C7",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Diversité des organismes vivants présents dans un milieu' and 'Identifier les interactions des êtres vivants entre eux et avec leur milieu': the body feature that helps an animal live there is such an interaction.",
+   "review": "author-rest"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "QM.1.C3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The clay ball and the clay boat are one of the 'expériences simples impliquant l'eau'; the row holds when the test is really done and the sheet records it.",
+   "review": "author-rest"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "QM.1.C2",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.1.C5",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.1.A2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Evaporation, condensation and rain are 'les états de l'eau et leur manifestation dans divers phénomènes naturels' and 'Les changements d'états de la matière, notamment ... condensation'. The cycle as a whole is not named in PART 2; French schools usually treat it in cycle 3.",
+   "review": "author-rest"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "QM.2.C2",
+     "rel": "extends"
+    }
+   ],
+   "why": "The parts of a flower and what each does (pollen, seed) go beyond 'Développement d'animaux et de végétaux'; the cycle 2 wording names no organ of the flower.",
+   "review": "author-rest"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "QM.2.C3",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing the butterfly and the frog is 'Le cycle de vie des êtres vivants' and 'Développement d'animaux'.",
+   "review": "author-rest"
+  },
+  "3:planets": {
+   "none": "PART 2 holds no astronomy objective; the CE2 geography themes are about France.",
+   "why": "The solar system is cycle 3 content in France; 'Des représentations du monde' (CP) is about the Earth, not the planets.",
+   "review": "author-rest"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "QM.1.C3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Predict, test, record and conclude on sink or float is 'Mettre en œuvre des expériences simples impliquant l'eau'; the sheet is the written record of the test.",
+   "review": "author-rest"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "HG.CP.G1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The view from above is the step before the plan of the classroom and the school in 'Autour de l'école' (CP geography, title only).",
+   "review": "author-rest"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "ML.M5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Family words placed on a tree are a word corpus: 'Comprendre, mémoriser, réemployer les mots des corpus enseignés'. No CP history theme is about the family.",
+   "review": "author-rest"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Land, water and air transport is a sort of named things into categories: 'Organiser les mots en catégorie et en réseau'.",
+   "review": "author-rest"
+  },
+  "K:wants-needs": {
+   "none": "No objective of PART 2 is about wants and needs; the registry holds no enseignement moral et civique.",
+   "why": "QM.3 asks 'À quels besoins répondent-ils ?' of technical objects only, which is not this skill.",
+   "review": "author-rest"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "QM.3.C2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Jobs and the tools they use come before 'Identifier des activités de la vie quotidienne ou professionnelle faisant appel à des outils et objets techniques' (cycle 2).",
+   "review": "author-rest"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "HG.CP.G1",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.G2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a legend is a tool for the plans of 'Autour de l'école' and for the maps of 'Des représentations du monde'; PART 2 gives only the titles, so 'prepares'.",
+   "review": "author-rest"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "HG.CP.H3",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CE1.H1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering generations from oldest to youngest is a first way of 'Situer des évènements dans le temps' (CP) and the frame of 'Du passé proche au passé lointain' (CE1); titles only, so 'prepares'.",
+   "review": "author-rest"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "HG.CE1.G2",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.G2",
+     "rel": "extends"
+    }
+   ],
+   "why": "North, south, east and west on a map are a tool for 'Découvrir les lieux où vivent les êtres humains' (CE1) and go further than the CP work on 'Des représentations du monde'; no title names the directions.",
+   "review": "author-rest"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "HG.CP.G2",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CE1.G1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming and locating the continents on a world map is work on 'Des représentations du monde', which the programme places in CP; it is the frame needed for 'La Terre est peuplée' in CE1. Titles only.",
+   "review": "author-rest"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "F.CE1.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CE1.H1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding 'tante' or 'cousin' from a riddle is a simple inference from a short text; the generations (grand-mère) are the family frame of 'Du passé proche au passé lointain' (title only).",
+   "review": "author-rest"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "HG.CP.G2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Continents and oceans on a world map are 'Des représentations du monde', a CP theme (title only); the CE2 geography themes are all about France.",
+   "review": "author-rest"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "QM.2.C15",
+     "rel": "prepares"
+    },
+    {
+     "id": "QM.2.C18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Everyday foods and sometimes foods is the idea before 'variété alimentaire' in the 'règles d'hygiène de vie' and before 'La notion d'équilibre alimentaire' (cycle 2).",
+   "review": "author-rest"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "QM.2.C15",
+     "rel": "prepares"
+    },
+    {
+     "id": "QM.2.A2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'habitudes quotidiennes de propreté (dents, mains, corps)' is this content, but the objective belongs to cycle 2 and the worksheets sit in the grande section.",
+   "review": "author-rest"
+  },
+  "K:road-safety": {
+   "none": "No objective of PART 2 is about road safety (in France it is the attestation de première éducation à la route, outside these documents).",
+   "why": "'Règles élémentaires de sécurité' (QM.3.C9) is about electricity, not the road.",
+   "review": "author-rest"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "QM.2.C16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Catégories d'aliments, leur origine'. French schools sort foods into the seven families of the national nutrition guidance, not into four groups.",
+   "review": "author-rest"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "QM.2.C15",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.A2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Mettre en œuvre et apprécier quelques règles d'hygiène de vie : ... habitudes quotidiennes de propreté (dents, mains, corps)' and 'Reconnaître des comportements favorables à sa santé'.",
+   "review": "author-rest"
+  },
+  "1:road-signs": {
+   "none": "No objective of PART 2 is about road signs or road safety.",
+   "why": "The only safety line (QM.3.C9) belongs to electric circuits.",
+   "review": "author-rest"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "QM.2.A2",
+     "rel": "teaches"
+    },
+    {
+     "id": "QM.2.C15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying what each habit protects is 'Reconnaître des comportements favorables à sa santé' and the 'apprécier' of 'Mettre en œuvre et apprécier quelques règles d'hygiène de vie'.",
+   "review": "author-rest"
+  },
+  "2:road-signs": {
+   "none": "No objective of PART 2 is about road signs or road safety.",
+   "why": "Kinds of signs belong to road-safety education, which these documents do not hold.",
+   "review": "author-rest"
+  },
+  "K:how-to-draw": {
+   "none": "Drawing: the registry holds no arts programme.",
+   "why": "The handwriting objectives of the maternelle are about letters and cursive strokes, not about drawing a picture.",
+   "review": "author-rest"
+  },
+  "1:how-to-draw": {
+   "none": "Drawing: the registry holds no arts programme.",
+   "why": "Following and ordering picture steps is not reading a prescriptive text, so the reading objectives do not apply either.",
+   "review": "author-rest"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "F.CE1.29",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the writing half has an objective: writing about the finished drawing is 'Écrire un texte court de une à trois phrases'. The drawing itself has none (no arts programme in the registry).",
+   "review": "author-rest"
+  },
+  "K:same-different-visual": {
+   "none": "Visual discrimination of pictures is not an objective of the mathematics programmes listed.",
+   "why": "The nearest wording is about sorting geometric shapes, not finding identical or differing pictures.",
+   "review": "author-math"
+  },
+  "K:mazes": {
+   "none": "Mazes are not named by any objective in PART 2.",
+   "why": "No mathematics objective asks for following a path; the letter and sound routes belong to French.",
+   "review": "author-math"
+  },
+  "K:shadow-closure": {
+   "none": "Shadow matching and visual closure are not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "K:spot-the-difference": {
+   "none": "Comparing two pictures for differences is not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "K:matrix-logic": {
+   "none": "A one-kind-per-row picture grid is neither a pattern in the programme's sense nor a double-entry table.",
+   "why": "The « motifs organisés » objectives are about repeating and growing sequences; rows that each hold one kind are a sorting puzzle the wording does not name.",
+   "review": "author-math"
+  },
+  "K:grid-copy": {
+   "none": "Copying a picture on a grid is not named by any objective in PART 2.",
+   "why": "The grid-paper objective (CP) is about constructing squares, rectangles and triangles, not copying pictures.",
+   "review": "author-math"
+  },
+  "1:find-the-differences": {
+   "none": "Finding differences between pictures is not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "1:mazes": {
+   "none": "Mazes are not named by any objective in PART 2.",
+   "why": "The CP space objectives are about moving and coding moves in the classroom, not paths in a picture.",
+   "review": "author-math"
+  },
+  "1:grid-copy": {
+   "none": "Copying a picture on a grid is not named by any objective in PART 2.",
+   "why": "The grid-paper objective is about constructing the named geometric figures.",
+   "review": "author-math"
+  },
+  "1:picture-analogies": {
+   "none": "Analogies are not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "1:secret-code": {
+   "none": "Decoding with a key is not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "1:picture-sudoku": {
+   "none": "Sudoku is not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "1:logic-picture-clues": {
+   "rows": [
+    {
+     "id": "M.CP.68",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The grid of children against things is a double-entry table that the child fills in from clues: « Construire et compléter un tableau à double entrée ». The deduction itself is not an objective.",
+   "review": "author-math"
+  },
+  "2:find-differences": {
+   "none": "Finding differences between pictures is not named by any objective in PART 2; the sentence writing belongs to French.",
+   "why": "Nothing in the mathematics wording asks for it.",
+   "review": "author-math"
+  },
+  "2:logic-grid": {
+   "rows": [
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.68",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a solved grid is « Lire et interpréter les données d'un tableau à double entrée »; filling one from clues is completing such a table. The deduction itself is not an objective.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "M.CP.68",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1); the programme places it earlier than the sheets. The Venn form is not named.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "M.CP.68",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A row × column table and its missing cell are the « tableau à double entrée » (build and complete in CP, read and interpret in CE1). The Venn form is not named.",
+   "review": "author-math"
+  },
+  "3:logic-grids": {
+   "rows": [
+    {
+     "id": "M.CE1.82",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CP.68",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The logic grid is worked as a double-entry table that the child completes and reads; the deduction from clues is not itself an objective in PART 2.",
+   "review": "author-math"
+  },
+  "3:latin-square-sudoku": {
+   "none": "Sudoku is not named by any objective in PART 2.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "author-math"
+  },
+  "K:feelings": {
+   "none": "Feelings: the registry holds no enseignement moral et civique and no maternelle domain for it.",
+   "why": "Recognising and naming emotions is not named in the language objectives of PART 2.",
+   "review": "author-rest"
+  }
+ }
+}

@@ -66,11 +66,41 @@ function rowsOf(words) {
   for (const r of rows) { r.words.sort((a, b) => a[0] - b[0]); r.text = r.words.map((w) => w[4]).join(' '); }
   return rows;
 }
-/** a word broken at a line end ("nom-" / "bres") is put together; the lines of a paragraph become one text */
-const join = (lines) => lines.map((s) => s.trim()).join('\n').replace(/([a-záéíóúñü])-\n([a-záéíóúñü])/g, '$1$2').replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+/**
+ * A word broken at a line end ("nom-" / "bres") is put together; the lines of a paragraph become one text. The
+ * programmes also print real hyphens at a line end ("comparación-" / "contraste", "causa-" / "consecuencia"). The two
+ * are told apart by the document's own words (VOCAB, every unbroken word of the PDFs): when the two pieces together
+ * are a word the document prints elsewhere, the hyphen was a line break; when they are not, but each piece is such a
+ * word, the hyphen is the text's own and stays.
+ */
+const VOCAB = new Set();
+const LETTERS = 'a-záéíóúñüA-ZÁÉÍÓÚÑÜ';
+function learn(pages) {
+  const strip = new RegExp('[^' + LETTERS + '-]', 'g');
+  for (const p of pages) for (const r of rowsOf(p.words)) r.words.forEach((w, i) => {
+    const t = w[4].replace(strip, '').toLowerCase();
+    if (!t) return;
+    const initial = i === 0 || w[0] - r.words[i - 1][2] > 9;   // the first word of a line (of a column's line)
+    const broken = t.endsWith('-');
+    const parts = t.split('-').filter(Boolean);
+    parts.forEach((part, k) => {
+      if (broken && k === parts.length - 1) return;   // the beginning of a broken word
+      if (k === 0 && initial) return;                 // may be the end of a broken word
+      VOCAB.add(part);
+    });
+  });
+}
+const join = (lines) => lines.map((s) => s.trim()).join('\n')
+  .replace(new RegExp('([' + LETTERS + ']+)-\\n([a-záéíóúñü]+)', 'g'), (m, a, b) => {
+    if (VOCAB.has((a + b).toLowerCase())) return a + b;
+    if (a.length >= 4 && b.length >= 4 && VOCAB.has(a.toLowerCase()) && VOCAB.has(b)) return a + '-' + b;
+    return a + b;
+  })
+  .replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
 
 function parse(fase, pages) {
   const nodes = [], problems = [];
+  learn(pages);
   let campo = null, inTables = false, contenido = null, cNo = 0;
   const N = fase.grades.length + 1;   // the contenidos column and one column per grade (two in primaria, three in preescolar)
   const last = new Array(N).fill(null);   // the paragraph each column is still writing, with the y of its last line

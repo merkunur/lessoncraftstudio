@@ -15,7 +15,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `sv` Sverige (Lgr22) | 8 | 296 | 281 | 21 | 4 |
 | `es` México (Plan de Estudio 2022) | 4 | 1381 | — | — | — |
 | `pt` Brasil (BNCC) | 7 | 580 | 210 | 84 | 12 |
-| `fr` France (programmes) | 6 | 516 | — | — | — |
+| `fr` France (programmes) | 6 | 624 | 203 | 68 | 35 |
 | `nl` Nederland (kerndoelen) | 4 | 75 | — | — | — |
 | `fi` Suomi (OPS 2014) | 4 | 154 | — | — | — |
 | `no` Norge (LK20) | 6 | 160 | — | — | — |
@@ -165,3 +165,23 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | arts | 3 | 3 | 0 | 0 |
 | thinking | 19 | 5 | 5 | 9 |
 | sel | 1 | 1 | 0 | 0 |
+
+## `fr` — France (programmes)
+
+- **Programme d’enseignement pour le développement et la structuration du langage oral et écrit de l’école maternelle (cycle 1)** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 1; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20d%E2%80%98enseignement%20pour%20le%20d%C3%A9veloppement%20et%20la%20structuration%20du%20langage%20oral%20et%20%C3%A9crit%20du%20cycle%201-403812.pdf on 2026-11-11. Checked: 76 objectives read from the left column of 40 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
+- **Programme d’enseignement pour l’acquisition des premiers outils mathématiques de l’école maternelle (cycle 1)** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 2; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20d%E2%80%99enseignement%20pour%20l%E2%80%99acquisition%20des%20premiers%20outils%20math%C3%A9matiques%20du%20cycle%201-403815.pdf on 2026-11-11. Checked: 63 objectives read from the left column of 17 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
+- **Programme de français du cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 3; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%203%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20du%20cycle%202-403818.pdf on 2026-11-11. Checked: 182 objectives read from the left column of 51 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
+- **Programme de mathématiques du cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2024). arrêté du 22-10-2024, BO n° 41 du 31 octobre 2024, annexe 4; in force from the rentrée 2025. Read from https://www.education.gouv.fr/sites/default/files/document/Annexe%204%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20du%20cycle%202-403821.pdf on 2026-11-11. Checked: 226 objectives read from the left column of 44 tables (the examples of the right column are not read); every table the document prints stands under a theme and a year and gives at least one objective, also the tables printed without a header row; no line that looks like an objective stands outside a table; each objective begins as a printed line of a second reading of the PDF.
+- **Programme d’histoire-géographie pour le cycle 2** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2026). BO n° 22 du 28 mai 2026, annexe 3; listed by the Ministry among the cycle 2 programmes of the rentrée 2026. Read from https://www.education.gouv.fr/sites/default/files/document/annexe-3-programme-d-histoire-geographie-cycle-2-516776.pdf on 2026-11-11. Checked: 16 themes read (their titles only: the programme describes each theme in prose).
+- **Programme du cycle 2 (2020), Questionner le monde du vivant, de la matière et des objets** (Ministère de l’Éducation nationale (Bulletin officiel de l’éducation nationale), 2020). BO n° 31 du 30 juillet 2020; for the rentrée 2026 the Ministry lists it beside the new programme "Sciences et technologie" (BO n° 24 du 11 juin 2026), which is published as a scan and could not be read. Read from https://cache.media.education.gouv.fr/file/31/88/5/ensel714_annexe1_1312885.pdf on 2026-11-11. Checked: 7 attendus de fin de cycle and 38 statements of the left column read, in 3 sections.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 129 | 20 | 9 |
+| literacy | 71 | 47 | 23 | 1 |
+| science | 35 | 13 | 18 | 4 |
+| social | 11 | 5 | 5 | 1 |
+| health | 8 | 3 | 2 | 3 |
+| arts | 3 | 1 | 0 | 2 |
+| thinking | 19 | 5 | 0 | 14 |
+| sel | 1 | 0 | 0 | 1 |

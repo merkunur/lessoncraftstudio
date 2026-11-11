@@ -54,4 +54,4 @@ for (const g of gradeArg ? [gradeArg] : ['K', '1', '2', '3']) {
 const out = path.join(REPO, 'out', 'units', 'points-' + subject + '-' + loc + (gradeArg ? '-' + gradeArg : '') + '.md');
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, md);
-console.log(path.relative(REPO, out) + ': ' + md.split('\n### ').length - 1 + ' points, ' + (md.length / 1024).toFixed(0) + ' KB');
+console.log(path.relative(REPO, out) + ': ' + (md.split('\n### ').length - 1) + ' points, ' + (md.length / 1024).toFixed(0) + ' KB');

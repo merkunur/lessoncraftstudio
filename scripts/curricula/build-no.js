@@ -28,7 +28,7 @@ const REG = 'no';
 const ACCESSED = '2026-11-11';
 const API = 'https://data.udir.no/kl06/v201906/';
 const SUBJECTS = [
-  { key: 'lk20-matematikk', letter: 'MAT', code: 'MAT01-05', subject: 'math' },
+  { key: 'lk20-matematikk', letter: 'MAT', code: 'MAT01-05', subject: 'math', maxYear: 5 },   // (fractions and symmetry first stand in the aims after year 5: our grade-3 pages need them to say where Norway teaches the skill)
   { key: 'lk20-norsk', letter: 'NOR', code: 'NOR01-07', subject: 'ela' },
   { key: 'lk20-naturfag', letter: 'NAT', code: 'NAT01-04', subject: 'science' },
   { key: 'lk20-samfunnsfag', letter: 'SAF', code: 'SAF01-04', subject: 'social' },
@@ -58,7 +58,7 @@ const get = async (name, url) => { const buf = await fetchRaw(REG, name, url); r
     // The year a set belongs to is read from its title ("Kompetansemål og vurdering 4. trinn"): the service's own
     // year fields disagree with the title for one plan (naturfag after year 4 is filed under year 5), and the title
     // is what the published plan prints. A set covers the years since the set before it.
-    const refs = plan['kompetansemaal-kapittel'].kompetansemaalsett.map((ref) => ({ ref, year: Number((/(\d+)\.\s?trinn/.exec(ref.tittel) || [])[1] || 0) })).filter((x) => x.year > 0 && x.year <= MAX_YEAR).sort((a, b) => a.year - b.year);
+    const refs = plan['kompetansemaal-kapittel'].kompetansemaalsett.map((ref) => ({ ref, year: Number((/(\d+)\.\s?trinn/.exec(ref.tittel) || [])[1] || 0) })).filter((x) => x.year > 0 && x.year <= (s.maxYear || MAX_YEAR)).sort((a, b) => a.year - b.year);
     for (const { ref, year } of refs) {
       const set = (await get(ref.kode + '.json', ref['url-data'])).json;
       const after = [year];

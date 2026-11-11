@@ -18,7 +18,7 @@
    "band": "the aims say what a pupil can do after a year (mathematics: 2, 3, 4; the other subjects: 2 and 4)",
    "ids": "the codes of the aims (KM…) are Utdanningsdirektoratet's own; the ids of the sets are this registry's (subject, year)",
    "citation": "Læreplan i matematikk 1.-10. trinn (MAT01-06). Kunnskapsløftet 2020. Utdanningsdirektoratet.",
-   "checkedAgainstPdf": "37 aims read in 3 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set"
+   "checkedAgainstPdf": "47 aims read in 4 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set"
   },
   {
    "key": "lk20-norsk",
@@ -426,6 +426,94 @@
    "grade": "4",
    "parent": "MAT.4",
    "text": "lage algoritmer og uttrykke dem ved bruk av variabler, vilkår og løkker"
+  },
+  {
+   "id": "MAT.5",
+   "f": "lk20-matematikk",
+   "kind": "area",
+   "grade": "5",
+   "label": "KV1024",
+   "text": "Kompetansemål etter 5. trinn"
+  },
+  {
+   "id": "KM13265",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "bruke tall, tegning og konkreter til å beskrive og utforske sammenhenger mellom brøker, desimaltall og prosenter"
+  },
+  {
+   "id": "KM13266",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "beskrive brøk som del av en hel, som del av en mengde, som en divisjon og som tall på tallinjen"
+  },
+  {
+   "id": "KM13267",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "bruke tall, tekst, tegning, konkreter og praktiske situasjoner for å representere brøker og kunne oversette mellom de ulike representasjonene"
+  },
+  {
+   "id": "KM13268",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "utvikle og bruke ulike strategier for regning med positive tall og brøk og forklare tenkemåtene sine"
+  },
+  {
+   "id": "KM13269",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "formulere og løse problemer som har med brøk å gjøre"
+  },
+  {
+   "id": "KM13270",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "utforske og beskrive tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk"
+  },
+  {
+   "id": "KM13274",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "bruke tall, tekst, tegning og konkreter til å løse ligninger og teste og forklare løsninger"
+  },
+  {
+   "id": "KM13271",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "bruke regneark for å lage og løse oppgaver som handler om personlig økonomi"
+  },
+  {
+   "id": "KM13273",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "lage og løse oppgaver som handler om tid"
+  },
+  {
+   "id": "KM13272",
+   "f": "lk20-matematikk",
+   "kind": "standard",
+   "grade": "5",
+   "parent": "MAT.5",
+   "text": "lage og programmere algoritmer med bruk av variabler, vilkår og løkker"
   },
   {
    "id": "NOR.2",

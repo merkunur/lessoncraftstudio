@@ -18,7 +18,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `fr` France (programmes) | 6 | 710 | 228 | 51 | 27 |
 | `nl` Nederland (kerndoelen) | 4 | 75 | 249 | 52 | 5 |
 | `fi` Suomi (OPS 2014) | 4 | 154 | 198 | 100 | 8 |
-| `no` Norge (LK20) | 6 | 160 | — | — | — |
+| `no` Norge (LK20) | 6 | 171 | 140 | 135 | 31 |
 | `da` Danmark (Fælles Mål) | 8 | 56 | — | — | — |
 | `it` Italia (Indicazioni nazionali) | 7 | 199 | — | — | — |
 
@@ -238,4 +238,24 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | health | 8 | 5 | 3 | 0 |
 | arts | 3 | 2 | 1 | 0 |
 | thinking | 19 | 10 | 6 | 3 |
+| sel | 1 | 0 | 1 | 0 |
+
+## `no` — Norge (LK20)
+
+- **Læreplan i matematikk 1.-10. trinn (MAT01-06)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan MAT01-06 (the successor of MAT01-05, followed through the service's own reference), last changed 2026-06-30. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/MAT01-06 on 2026-11-11. Checked: 47 aims read in 4 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+- **Læreplan i norsk (NOR01-08)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan NOR01-08 (the successor of NOR01-07, followed through the service's own reference), last changed 2026-07-10. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/NOR01-08 on 2026-11-11. Checked: 30 aims read in 2 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+- **Læreplan i naturfag (NAT01-05)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan NAT01-05 (the successor of NAT01-04, followed through the service's own reference), last changed 2026-07-10. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/NAT01-05 on 2026-11-11. Checked: 27 aims read in 2 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+- **Læreplan i samfunnsfag (SAF01-05)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan SAF01-05 (the successor of SAF01-04, followed through the service's own reference), last changed 2026-07-15. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/SAF01-05 on 2026-11-11. Checked: 26 aims read in 2 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+- **Læreplan i mat og helse (MHE01-03)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan MHE01-03 (the successor of MHE01-02, followed through the service's own reference), last changed 2026-07-08. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/MHE01-03 on 2026-11-11. Checked: 9 aims read in 1 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+- **Læreplan i kunst og håndverk (KHV01-03)** (Utdanningsdirektoratet (fastsatt som forskrift av Kunnskapsdepartementet), 2026). Kunnskapsløftet 2020, plan KHV01-03 (the successor of KHV01-02, followed through the service's own reference), last changed 2026-07-08. Read from https://data.udir.no/kl06/v201906/laereplaner-lk20/KHV01-03 on 2026-11-11. Checked: 19 aims read in 2 sets; the plan and every aim are in force in the service; every aim has a bokmål wording and names its set.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 85 | 66 | 7 |
+| literacy | 71 | 35 | 31 | 5 |
+| science | 35 | 9 | 24 | 2 |
+| social | 11 | 4 | 4 | 3 |
+| health | 8 | 2 | 3 | 3 |
+| arts | 3 | 2 | 1 | 0 |
+| thinking | 19 | 3 | 5 | 11 |
 | sel | 1 | 0 | 1 | 0 |

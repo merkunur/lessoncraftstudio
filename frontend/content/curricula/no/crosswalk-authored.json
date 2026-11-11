@@ -1,0 +1,3476 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "none": "No aim in PART 2 names position or direction words (plassering, retning).",
+   "why": "The mathematics aims after 2. trinn speak of tall, mengder, mønstre, figurer, måling and tid; none asks for on/under/beside or left/right, and the coordinate aims after 3. trinn are too far from barnehage.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding shapes in everyday objects is a first step to 'utforske ... geometriske figurer fra sitt eget nærmiljø'; a barnehage point can only prepare it.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Direct comparison (tallest, longest) is the step before 'måle lengde ... med ikke-standardiserte og standardiserte måleenheter'.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering by length or height is comparison before measuring; KM13240 asks for measuring 'lengde' with units.",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "KM13236",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'kjenne igjen og beskrive repeterende enheter i mønstre og lage egne mønstre' is exactly this line of learning; from barnehage it prepares.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One-to-one pairing is the readiness for 'utforske tall, mengder og telling'.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing two 'mengder' (more, fewer, equal) prepares 'utforske tall, mengder og telling'; the aim that names comparing with signs (KM13249) sits after 3. trinn.",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting a set and writing or matching the numeral is the start of 'bruke tallsymboler, tallord, tegning og konkreter til å representere tall og mengder' and of 'telling'.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Dot, dice and frame pictures are representations of 'tall og mengder' that the child translates into a number; from barnehage this prepares.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That the number stays the same however the set is arranged is a base idea for 'utforske tall, mengder og telling'.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Making a set for a given numeral is translating from 'tallsymboler' to a quantity, the idea of KM13241.",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming 2D shapes prepares 'utforske, tegne og beskrive geometriske figurer ... og ... sortere dem ... etter egenskaper'.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the numerals is needed to 'bruke tallsymboler ... til å representere tall og mengder'.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child only reads numerals to follow a key; recognising 'tallsymboler' is a step before KM13241.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Classify, then count, is the readiness for 'gruppere tall og mengder ut fra egenskaper' and for 'telling'.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting sides and sorting by them prepares 'sortere dem ... etter egenskaper' in KM13237.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting forward to 10 or 20 is the first part of 'telle både framlengs og baklengs, velge ulike startpunkter'.",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in counting order, also counting on from 11, prepares 'telle ... framlengs ... velge ulike startpunkter'.",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One more and one less link the count sequence (KM13230) to the first 'addisjon og subtraksjon' (KM13234).",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Before, after, between and counting back from 10 prepare 'telle både framlengs og baklengs'.",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "none": "No aim in PART 2 names ordinal numbers (ordenstall).",
+   "why": "KM13241 speaks of 'tallord' for 'tall og mengder' (cardinal numbers); nothing asks for first to tenth.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The weekdays in order are needed to 'beskrive tid ved hjelp av kalender'.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is a drawn representation of a count that is read back as a number: 'tegning ... til å representere tall og mengder ... og oversette mellom de ulike representasjonene'.",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "KM13229",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Guess, then count, is exploring 'tall, mengder og telling'; the aim that names 'estimere' (KM13259) sits after 4. trinn, too far from barnehage.",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing heavier and lighter is the step before 'måle ... masse ... med ikke-standardiserte og standardiserte måleenheter'.",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KM13237 asks to 'tegne og beskrive geometriske figurer'; drawing named shapes on dot paper prepares it.",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is the idea of addition before 'bruke addisjon og subtraksjon til å ... løse problemer'.",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is the idea of subtraction before KM13234.",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known number is 'velge ulike startpunkter' in counting and the first addition strategy.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting numbers to 10 (tiervenner) shows a number 'på ulike måter' and is the base of addition and subtraction.",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting pieces together into figures is exploring 'geometriske figurer' before describing and sorting them.",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "none": "No aim in PART 2 names mirror images or symmetry (speiling, symmetri).",
+   "why": "The geometry aims after 2. and 4. trinn speak of figures and their properties, not of reflection.",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "KM13231",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing up with one left over is the first look at 'egenskaper ved partall og oddetall'.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "KM13232",
+     "rel": "prepares"
+    }
+   ],
+   "why": "13 as one ten and three ones on ten-frames is the first representation of 'posisjonssystemet'.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bare addition and subtraction facts are the tool KM13234 asks the pupil to use; from barnehage they prepare it.",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13241",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bonds to 20 show a number in parts ('på ulike måter') and carry addition and subtraction; from barnehage this prepares.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13241",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child adds from a picture, ten-frame, domino or dice: 'bruke addisjon' on a pictured situation, and translating between 'tegning og konkreter' and 'tallsymboler'.",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Take-away on a picture model is the subtraction part of 'bruke addisjon og subtraksjon til å ... løse problemer'.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13260",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the whole number sentence for a pictured situation is using addition and subtraction on a problem; 'lage regneuttrykk til praktiske situasjoner' is the aim after 4. trinn it leads to.",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "KM13236",
+     "rel": "teaches"
+    }
+   ],
+   "why": "To fill two gaps the child must 'kjenne igjen ... repeterende enheter i mønstre'.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'gruppere ... mengder ut fra egenskaper' is what sorting pictures into three groups asks; the reflection on other ways of sorting is left to the teacher.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13235",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tiervenner are addition within 10; they are also what the pupil needs to use the 'assosiative egenskaper ved addisjon i hoderegning' (making a ten).",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming shapes and deciding by defining properties is 'beskrive geometriske figurer ... og ... sortere dem ... etter egenskaper'.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "none": "No aim in PART 2 names ordinal numbers (ordenstall).",
+   "why": "The number aims after 2. trinn speak of 'tall og mengder', 'telling' and 'tallord' for quantities; first, second, third are not asked for.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'plassere tall på tallinjen' is the skill itself.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hops on the line are 'bruke tallinjen i regning'; counting back from 20 is 'telle ... baklengs'.",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Solving add and subtract stories is 'bruke addisjon og subtraksjon til å ... løse problemer fra lek og hverdag'.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting a mixed set into a table is 'gruppere ... mengder ut fra egenskaper'. Mathematics has no aim on tables and diagrams through 4. trinn in PART 2; the only aim that names them is naturfag's 'bruke tabeller og figurer til å organisere data' after 4. trinn.",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "KM13254",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bruke dobling og halvering i hoderegning og skriftlig regning' is an aim after 3. trinn; doubles to 20 in 1. trinn prepare it and are themselves additions.",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "KM13231",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sharing between two or circling pairs and looking for a leftover is 'utforske egenskaper ved partall og oddetall'.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13254",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13243",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The sums are additions within 20; solving them from a double leads to 'dobling' and to 'hensiktsmessige strategier for addisjon og subtraksjon', both after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13235",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding three groups is addition; three addends are where the 'assosiative egenskaper ved addisjon' come into use, but the skill line does not say the child regroups.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "KM13235",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13244",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The two addition facts of a family use the 'kommutative ... egenskaper ved addisjon'; the link to the two subtraction facts is 'sammenhenger mellom addisjon og subtraksjon', an aim after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13242",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13250",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the unknown needs addition and subtraction and reading the equal sign as 'to uttrykk har samme verdi'; 'utforske likevekt' follows after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "KM13242",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bruke likhetstegnet som et relasjonelt symbol som viser at to uttrykk har samme verdi' is exactly judging 8 = 5 + 3 and 9 − 2 = 3 + 4.",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13244",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding a missing part or whole and 'how many more' are addition and subtraction problems; the part-part-whole picture shows the 'sammenhenger mellom addisjon og subtraksjon' asked after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building figures from pieces explores geometric figures, but KM13237 asks to describe figures from the surroundings and sort them by properties, which tangrams only lead up to.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13811",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Days, months and yesterday/today/tomorrow are 'beskrive tid ved hjelp av kalender'; months and seasons lead to naturfag's 'hvorfor året deles inn på ulike måter'.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13811",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same content as the parent point: calendar time (KM13238) and the division of the year into seasons (KM13811, which also asks for experience outdoors and the samisk tradition).",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring with cubes or squares is 'måle lengde ... med ikke-standardiserte ... måleenheter'.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive tid ved hjelp av ... analog og digital klokke': hours and half hours, analog matched to digital.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13235",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition and subtraction within 20; the make-a-ten strategy is using the 'assosiative egenskaper ved addisjon i hoderegning'.",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13244",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bricks are sums; finding a missing brick by subtracting uses the 'sammenhenger mellom addisjon og subtraksjon' asked after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13259",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child must add and subtract to check; marking and correcting worked answers is a first step to 'vurdere kritisk egne og andres ... løsninger' (after 4. trinn).",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Mathematics has no aim on søylediagram through 4. trinn in PART 2. The only aim that names 'tabeller og figurer til å organisere data' is naturfag's after 4. trinn, which these sheets prepare.",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rods and cubes, numerals and expanded form are 'tallsymboler ... og konkreter til å representere posisjonssystemet' with translation between them.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching numerals and number words is translating between 'tallsymboler' and 'tallord'.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "KM13249",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only aim that names 'likhets- og ulikhetstegn ... for å sammenligne ... mengder ... og tall' is after 3. trinn; comparing in 1. trinn is a step before it.",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Plus 1 to the right and plus 10 down are 'ulik differanse' and 'mønstre i tellinger'; the rows and columns of the chart show the positional system.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One step of 1 or 10 forward or back from any start ('ulike startpunkter og ulik differanse'), read from the tens and ones digit.",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "KM13241",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number as tens and ones, ten-frame, tally and number word is 'representere tall ... på ulike måter og oversette mellom de ulike representasjonene'.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13245",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting in 2s, 5s and 10s is 'ulik differanse'; the tick-value lines use the number line; equal groups with a running total lead to 'multiplikasjon ved telling og gruppering' (after 3. trinn).",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Setting the hands is describing time with the 'analog ... klokke'; the wording gives no precision, quarter hours and five minutes usually come in 2. trinn.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No aim names money. Counting a purse and comparing two purses is an addition problem 'fra ... hverdag'; the Norwegian sheets must use kroner (1, 5, 10, 20).",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13243",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing the jumps is 'bruke tallinjen i regning og problemløsing'; choosing tens-then-ones or to-the-ten is a step toward 'hensiktsmessige strategier' after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13243",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Addition and subtraction in the head; the wording after 2. trinn gives no number range, and working with tens and ones is a strategy of the kind KM13243 asks after 3. trinn.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the partner to 100 is an addition or subtraction with a missing number; the wording gives no number range (many schools do hundrervenner in 2. trinn).",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bundling ten ones into a ten is 'konkreter til å representere posisjonssystemet'.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13239",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Moves of 1 and 10 are counting with 'ulik differanse' on the positional structure; following arrow paths is a paper form of 'følge ... trinnvise instruksjoner', which the aim places in play and games.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "KM13231",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive og utforske egenskaper ved partall og oddetall': pairs, two equal addends, the ones digit.",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'plassere tall på tallinjen', here on a section of the line with few labels.",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting shapes by number of sides is 'sortere dem ... etter egenskaper'.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number walls and a maths maze are addition and subtraction used in puzzles ('problemer fra lek').",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13243",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'bruke addisjon og subtraksjon til å ... løse problemer fra lek og hverdag'; two steps lead to the strategy aim after 3. trinn.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'måle lengde ... med ... standardiserte måleenheter' (centimetres on a ruler).",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two measurements (KM13240) and the difference between them, a subtraction problem from everyday life (KM13234).",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Blocks and a place-value chart represent 'posisjonssystemet'. The wording gives no number range; schools usually reach 1000 in 3. trinn, so this is early for 2. trinn.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Expanded form and digit value are representations of 'posisjonssystemet' in 'tallsymboler'; three-digit numbers are usually 3. trinn work, the wording sets no range.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting on from other starts and seeing which digit stays is 'forklare mønstre i tellinger' on the positional system; the wording gives no number range.",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13245",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'telle ... velge ulike startpunkter og ulik differanse'; skip counting leads to 'multiplikasjon ved telling' after 3. trinn.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "KM13249",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'bruke likhets- og ulikhetstegn ... for å sammenligne ... tall' is an aim after 3. trinn; a 2. trinn sheet prepares it.",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A step of 100 is counting with 'ulik differanse' and changes only the hundreds digit.",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive tid ved hjelp av ... analog og digital klokke'; five minutes and quarter hours are the usual 2. trinn level.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive tid ved hjelp av kalender': weekday of a date, a week later, days between.",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13261",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting figures by a property (flat or solid) is KM13237; 'to- og tredimensjonale figurer' are named in the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching a solid to a real object is 'geometriske figurer fra sitt eget nærmiljø'.",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13261",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Describing figures by their properties is KM13237; counting 'kanter, hjørner og flater' of three-dimensional figures is the wording of the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition done on 'konkreter' that represent the positional system; within 1000 is usually 3. trinn, the wording sets no range.",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Subtraction done on base-ten blocks, the 'konkreter' of the positional system; the wording sets no number range.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13243",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The sums are addition and subtraction; the written column method is one of the 'hensiktsmessige strategier' the aim after 3. trinn asks for, and schools usually introduce oppstilling in 3. trinn.",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14680",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Prices, enough money and change are addition and subtraction problems 'fra ... hverdag'; samfunnsfag's 'personlig økonomi og forbruk' after 4. trinn is where money is named.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "KM13234",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The put-together and compare questions are addition and subtraction problems; making the diagram itself is only named in naturfag's 'bruke tabeller og figurer til å organisere data' after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No mathematics aim through 4. trinn names diagrams; reading a line plot prepares naturfag's 'bruke tabeller og figurer til å organisere data'. Line plots are not a diagram type Norwegian books use at this age.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "KM13233",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13259",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the nearest ten on the line uses 'plassere tall på tallinjen'; rounding itself is not named, it serves 'estimere, gjøre overslag' after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13621",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'måle ... masse ... med ... standardiserte måleenheter'; reading a scale also prepares mat og helse's 'rom- og vektmål'.",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "KM13264",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13621",
+     "rel": "prepares"
+    }
+   ],
+   "why": "KM13240 names only 'lengde og masse'; 'måle volum ... med ... standardiserte måleenheter' comes after 4. trinn, and mat og helse asks to use 'rommål' in cooking.",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13264",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing cm or m and g or kg belongs to 'standardiserte måleenheter' for 'lengde og masse'; mL or L belongs to the volume aim after 4. trinn. Inches and feet are not used in Norway.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "KM13245",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13247",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'beskrive og utforske multiplikasjon ved telling og gruppering' and representing it in several ways are aims after 3. trinn; in 2. trinn this prepares them.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "KM13247",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13245",
+     "rel": "prepares"
+    }
+   ],
+   "why": "An array matched to a multiplication is one of the representations of KM13247, an aim after 3. trinn.",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13245",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting in 3s and 4s is 'ulik differanse'; it prepares 'multiplikasjon ved telling' after 3. trinn.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13230",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the graph means counting in twos ('ulik differanse'); the diagram itself is only named in naturfag's aim on 'tabeller og figurer' after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13246",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sharing into bins and counting equal groups are the two meanings in 'målings- og delingsdivisjon' (after 4. trinn); division in problems is named after 3. trinn.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "KM13266",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The reviewer had only the aims through 4. trinn and found no fraction among them. The mathematics aims after 5. trinn, added to the registry afterwards, begin fractions: 'beskrive brøk som del av en hel, som del av en mengde, som en divisjon og som tall på tallinjen'. Cutting shapes into equal parts and telling equal from unequal parts is the step before that description: prepares.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "In Norway halves, thirds and fourths of shapes belong to the aims after 5. trinn, which this registry does not hold; KM13254 'halvering' is about numbers in calculation.",
+    "review": "author-all"
+   }
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "KM13254",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13266",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The reviewer's two rows stay; the page also prepares 'brøk … som del av en mengde' (after 5. trinn).",
+   "review": "own-audit",
+   "was": {
+    "rows": [
+     {
+      "id": "KM13254",
+      "rel": "prepares"
+     },
+     {
+      "id": "KM13255",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Half of a set is 'halvering' and a third or fourth of a set is sharing ('delingsdivisjon'); the fraction notation itself has no aim in PART 2.",
+    "review": "author-all"
+   }
+  },
+  "2:symmetry-line": {
+   "none": "No aim in PART 2 names symmetry or mirror lines.",
+   "why": "The geometry aims speak of figures and their properties ('vinkler, kanter, hjørner og flater'); symmetry comes later in the Norwegian plan.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "none": "No aim in PART 2 names symmetry or mirror lines.",
+   "why": "Completing a mirrored grid picture has no counterpart in the aims after 2., 3. or 4. trinn.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "KM13251",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13252",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A letter-number square code is the idea before 'navngi og plassere punkter i koordinatsystemet' and before following instructions 'knyttet til koordinatsystemet' (both after 3. trinn).",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "KM13237",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling a turned or flipped figure from the same one is close study of geometric figures, a step toward describing them by properties; turning and flipping are not named in PART 2.",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "KM13249",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13232",
+     "rel": "extends"
+    }
+   ],
+   "why": "'sammenligne ... tall' with 'likhets- og ulikhetstegn' is the aim after 3. trinn; comparing digit by digit takes the positional system of 2. trinn up to four digits.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "KM13259",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rounding is not named; it is the tool for 'estimere, gjøre overslag' in the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "KM13243",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The column method with carrying and borrowing is a written one of the 'hensiktsmessige strategier for addisjon og subtraksjon'; the aim wants them used on problems, which the bare sums do in part.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "KM13259",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'estimere, gjøre overslag ... og vurdere kritisk ... løsninger' is word for word what the sheet practises, but the aim belongs to 4. trinn.",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "KM13243",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13262",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The square is an addition and subtraction problem 'fra lek' solved with strategies; its equal row and column sums are a 'struktur' of the kind KM13262 asks to explore after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "KM13231",
+     "rel": "extends"
+    }
+   ],
+   "why": "That odd plus odd is even is one of the 'egenskaper ved partall og oddetall', but the aim is after 2. trinn; predicting the parity of sums in 3. trinn goes on from it.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "KM13230",
+     "rel": "extends"
+    },
+    {
+     "id": "KM13262",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the constant step is 'ulik differanse' and 'forklare mønstre i tellinger' beyond 2. trinn (25s, 50s, 100s); it leads to 'strukturer og mønstre' after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "extends"
+    }
+   ],
+   "why": "The only clock aim is after 2. trinn ('analog og digital klokke') and no later aim in PART 2 names time; reading to the minute continues it.",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "KM13245",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13247",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'multiplikasjon ved telling og gruppering', shown as equal groups and arrays ('representere multiplikasjon på ulike måter').",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "KM13247",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13245",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal jumps on the line are another representation of multiplication and are multiplication 'ved telling'.",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "KM13248",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bruke kommutative ... egenskaper ved multiplikasjon': turning the array.",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "KM13248",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13245",
+     "rel": "extends"
+    }
+   ],
+   "why": "Deriving a fact from a neighbour uses the 'distributive egenskaper ved multiplikasjon i hoderegning'; knowing the tables by heart is not asked in the wording and goes beyond 'utforske multiplikasjon ved telling'.",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No mathematics aim through 4. trinn names diagrams. Naturfag's 'bruke tabeller og figurer til å organisere data' (after 4. trinn) wants the pupil's own data explained, so a ready-made graph sheet prepares it.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "KM13823",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'utforske observerbare størrelser som ... temperatur og knytte dem til energi' (after 4. trinn) needs the thermometer to be read; the scale reading alone is a step before it.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "KM13246",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sharing a pile is using 'divisjon' on a problem from everyday life (after 3. trinn); the named 'delingsdivisjon' is an aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13256",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13258",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hops back to 0 are 'målingsdivisjon' shown on a drawing; division as repeated subtraction is one of the 'sammenhenger mellom de fire regneartene'. All three aims are after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "KM13248",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13258",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The two multiplication facts of a family use the commutative property; the link to the division facts is 'sammenhenger mellom de fire regneartene' after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "KM13246",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'bruke multiplikasjon og divisjon til å ... løse problemer fra lek og hverdag'; telling sharing from making groups is 'målings- og delingsdivisjon' after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "KM13262",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding and applying a rule is a 'struktur' or 'mønster' of the kind the aim after 4. trinn asks the pupil to describe; no aim after 3. trinn names rules of this kind.",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "KM13250",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13249",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'utforske likevekt' with number symbols and drawings, and the equal sign as a 'relasjonelt symbol'.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "extends"
+    }
+   ],
+   "why": "The only aim on time is 'beskrive tid ved hjelp av kalender og ... klokke' after 2. trinn; calculating with clock times goes beyond it.",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "extends"
+    }
+   ],
+   "why": "Time passed between two clock times goes beyond describing time with the clock (after 2. trinn); no later aim in PART 2 names time.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "KM13238",
+     "rel": "extends"
+    }
+   ],
+   "why": "'analog og digital klokke' is the wording after 2. trinn; converting between 12-hour and 24-hour time continues it (Norwegian digital time is always 24-hour).",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "KM13253",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13247",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting squares is 'måle arealer ... med ikke-standardiserte ... måleenheter'; rows times columns is a representation of multiplication.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "KM13253",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child measures the areas in squares to see that they are equal: 'måle arealer'.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "extends"
+    }
+   ],
+   "why": "Perimeter (omkrets) is not named in PART 2; it is length measurement, the aim after 2. trinn, taken further.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "KM13253",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13240",
+     "rel": "extends"
+    }
+   ],
+   "why": "The areas are measured in squares (KM13253); the perimeters are lengths, beyond the length aim after 2. trinn.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "KM13257",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Division is named with its strategies and meanings in the aims after 4. trinn; remainders are not named and in Norway usually come in 4. trinn.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "KM13261",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'egenskaper ved to- og tredimensjonale figurer ved å bruke vinkler' is an aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "KM13261",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13237",
+     "rel": "extends"
+    }
+   ],
+   "why": "Sorting figures by properties is the aim after 2. trinn taken further; doing it with 'vinkler, kanter, hjørner' is the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "none": "No aim in PART 2 names symmetry.",
+   "why": "Lines of symmetry are not among the properties the aim after 4. trinn lists ('vinkler, kanter, hjørner og flater'); symmetry comes later in the Norwegian plan.",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "KM13266",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13267",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming each of the equal parts of a shape as a unit fraction is 'beskrive brøk som del av en hel' (after 5. trinn, two years after our grade 3); it prepares 'representere brøker' with drawings and numbers.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "Naming unit fractions belongs to the aims after 5. trinn in Norway, which this registry does not hold.",
+    "review": "author-all"
+   }
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "KM13267",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13266",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming and shading a/b as a copies of 1/b is 'bruke tall, tekst, tegning, konkreter … for å representere brøker og kunne oversette mellom de ulike representasjonene' and 'brøk som del av en hel' (both after 5. trinn).",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "Building a/b from unit pieces has no counterpart in the aims after 3. or 4. trinn.",
+    "review": "author-all"
+   }
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "KM13266",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rebuilding the whole from one unit-fraction piece is the other direction of 'beskrive brøk som del av en hel' (after 5. trinn).",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "Rebuilding a whole from a unit fraction has no counterpart in the aims after 3. or 4. trinn.",
+    "review": "author-all"
+   }
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "KM13266",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13233",
+     "rel": "extends"
+    }
+   ],
+   "why": "The reviewer could only say that the page goes beyond the number line of the first years. The aims after 5. trinn name it: 'beskrive brøk … som tall på tallinjen'.",
+   "review": "own-audit",
+   "was": {
+    "rows": [
+     {
+      "id": "KM13233",
+      "rel": "extends"
+     }
+    ],
+    "why": "Fractions are not named in PART 2; placing them between 0 and 1 takes 'plassere tall på tallinjen' (after 2. trinn) to a new kind of number.",
+    "review": "author-all"
+   }
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "KM13267",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim through 5. trinn names comparing fractions. Comparing two fractions of the same whole on drawings rests on 'representere brøker' with drawings and numbers (after 5. trinn): prepares, and a loose tie.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "KM13249 compares 'størrelser, mengder, uttrykk og tall' at 3. trinn level, which in Norway does not include fractions.",
+    "review": "author-all"
+   }
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "KM13267",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13265",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal amounts written as different fractions are not named through 5. trinn; the nearest wordings are 'representere brøker og kunne oversette mellom de ulike representasjonene' and 'utforske sammenhenger mellom brøker, desimaltall og prosenter', which the worksheets come before.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Fractions (brøk) are not named in any aim through 4. trinn in PART 2.",
+    "why": "Equivalent fractions belong to the middle years in Norway.",
+    "review": "author-all"
+   }
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "KM13266",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13255",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A fraction of a group of objects is 'beskrive brøk … som del av en mengde' (after 5. trinn); the reviewer's row to the division aim after 4. trinn stays as preparation.",
+   "review": "own-audit",
+   "was": {
+    "rows": [
+     {
+      "id": "KM13255",
+      "rel": "prepares"
+     }
+    ],
+    "why": "A third of 12 is found by sharing into three: 'delingsdivisjon' (after 4. trinn). The fraction notation itself has no aim in PART 2.",
+    "review": "author-all"
+   }
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "KM13240",
+     "rel": "extends"
+    },
+    {
+     "id": "KM13817",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Measuring to the half unit goes beyond the length aim after 2. trinn; showing the data prepares naturfag's 'bruke tabeller og figurer til å organisere data'. Line plots are not a diagram type used in Norwegian schools at this age.",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "KM13264",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'måle volum ... med ikke-standardiserte ... måleenheter' (unit cubes) is an aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "KM14147",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lines, loops and paths train the hand for 'skrive tekster for hånd'.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14152",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing and telling about oneself prepares 'beskrive og fortelle muntlig og skriftlig' and 'lage tekster som kombinerer skrift med bilder'.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'leke med rim og rytme'.",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13228",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting by category builds the meaning of group words ('betydningen til ord') and is grouping by properties as in the mathematics aim.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling b, d, p and q apart is needed before the pupil can 'trekke bokstavlyder sammen til ord'.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "KM14147",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14144",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing letters prepares 'skrive ... for hånd' and 'bruke store og små bokstaver'. The Norwegian sheets need the 29 letters, with Æ, Ø, Å.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'lytte ut ... stavelser i ord'.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "KM14144",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching capital and small letters prepares 'bruke store og små bokstaver'.",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'lytte ut språklyder ... i ord': the first sound.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13228",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing which picture does not belong to a category rests on word meaning and on grouping by properties.",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Opposites are part of 'betydningen til ord og uttrykk'.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "none": "No aim in PART 2 names the alphabet or alphabetical order.",
+   "why": "The aims after 2. trinn speak of 'språklyder', 'bokstavlyder' and 'store og små bokstaver', not of the order of the letters.",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting pictures in order is the frame for 'fortelle muntlig og skriftlig'.",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'lytte ut språklyder ... i ord' at the beginning, middle and end.",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Vowels and consonants are kinds of 'språklyder'; the terms themselves are not named in PART 2 (Norwegian has nine vowels: a e i o u y æ ø å).",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picture word cards build 'betydningen til ord'. The aim that fits best, 'sammenligne ord og uttrykk i norsk og andre språk' (KM14168), is after 4. trinn and too far from barnehage.",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14146",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One sound per box is 'lytte ut språklyder' and the reverse of 'trekke bokstavlyder sammen til ord'.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building short regular words from letters is the start of 'trekke bokstavlyder sammen til ord under lesing og skriving'.",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14140",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child blends a word and checks its meaning against a picture: decoding and first 'forståelse'.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One and many shows how an ending changes a word ('oppbygningen av ... ord'); 'bøying av ... substantiv' is named only after 4. trinn.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'lytte ut språklyder': in Norwegian the counterpart of sh/ch is the sj-sound and kj-sound (sj, skj, kj), not English sh and ch.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading common words (høyfrekvente ord) at sight, alone and in sentences, prepares 'lese med sammenheng og forståelse'.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "KM14147",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14144",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying words and sentences prepares 'skrive tekster for hånd' and the use of 'store og små bokstaver'.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "none": "No aim after 2. trinn names the article or the gender of nouns; the only grammar aim (KM14159) is after 4. trinn.",
+   "why": "Choosing en, ei or et is noun grammar; PART 2 names 'bøying av ... substantiv' first after 4. trinn, too far from barnehage.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'leke med rim og rytme'.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sound boxes are 'lytte ut språklyder'; blending is 'trekke bokstavlyder sammen til ord'.",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing a sound written with several letters and reading and writing it belong to 'språklyder' and 'bokstavlyder'. In Norwegian these are sj, skj, kj and ng; th has no counterpart.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14147",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Spelling a pictured word is 'trekke bokstavlyder sammen til ord under ... skriving', written by hand.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lytte ut ... stavelser i ord'.",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the vowel of each syllable works with 'språklyder og stavelser i ord'.",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14145",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining syllables and reading syllabified words is 'trekke bokstavlyder sammen til ord under lesing', by way of 'stavelser'.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "none": "No aim in PART 2 names alphabetical order.",
+   "why": "Ordering words by first and second letter is a dictionary skill that the aims after 2. and 4. trinn in PART 2 do not mention.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'utforske ... betydningen til ord og uttrykk': opposites alone and in a sentence.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns by en, ei and et is the base for 'bøying av ... substantiv' (after 4. trinn); no aim after 2. trinn names gender or article.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Doing exactly what a sentence says shows 'lese med sammenheng og forståelse'.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word that fits and matching a sentence to a picture is reading 'med ... forståelse'.",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two words for one picture: 'betydningen til ord og uttrykk'.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "KM14144",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The capital and end mark are 'bruke store og små bokstaver, punktum, spørsmålstegn'; putting words in order prepares 'setningsoppbygning' (after 4. trinn).",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching question and answer is a simple strategy for 'leseforståelse'; hvem, hva and hvor are words whose meaning the child explores.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering sentences to pictures is reading 'med sammenheng og forståelse'; saying or drawing what happens next is 'fortelle'.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'fagspråk om ... verb, substantiv og adjektiv' is asked after 4. trinn; nothing after 2. trinn names word classes.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "none": "No aim in PART 2 names pronouns.",
+   "why": "KM14159 lists 'verb, substantiv og adjektiv' only; replacing a name by han, hun or de has no aim to rest on.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering words from weak to strong explores 'betydningen til ord og uttrykk'.",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the word built from a root explores 'oppbygningen av ... ord'.",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14147",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14152",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive og fortelle ... skriftlig', 'skrive tekster for hånd', and for the comic strip and postcard 'lage tekster som kombinerer skrift med bilder'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a sound written with two or three letters (in Norwegian sj, skj, kj) in sentences supports blending 'under lesing'; the fit is loose, since the aim speaks of blending and not of spotting letter groups.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "KM14144",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bruke store og små bokstaver, punktum, spørsmålstegn og utropstegn i tekster'.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "KM14147",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14156",
+     "rel": "prepares"
+    }
+   ],
+   "why": "It is 'skrive ... for hånd'; joined writing leads to 'funksjonell håndskrift' (after 4. trinn). The plan does not require a joined script, and many schools no longer teach løkkeskrift.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using the story to choose the word is 'lese med sammenheng og forståelse' with a simple strategy.",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding which question a part of a sentence answers is a strategy for 'leseforståelse' and explores the meaning of the question words.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lese med sammenheng og forståelse ... og bruke enkle strategier for leseforståelse'.",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14147",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beskrive ... skriftlig', in sentences written by hand.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting into nouns, verbs and adjectives prepares 'fagspråk om ... verb, substantiv og adjektiv' (after 4. trinn).",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The plural ending is part of 'oppbygningen av ... ord'; 'bøying av ... substantiv' is the aim after 4. trinn. Norwegian plurals are -er, -e or no ending, with vowel change in some (bok, bøker).",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "extends"
+    }
+   ],
+   "why": "PART 2 holds no aim on rettskriving. Spelling by a rule goes beyond sound-by-sound spelling ('trekke bokstavlyder sammen ... under ... skriving'). The English rules in the skill line have no Norwegian counterpart; the Norwegian ones are double consonant, silent d, g and h, o or å, and the kj and skj spellings.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'utforske ... betydningen til ord og uttrykk': words that mean the same, other words for 'sa'.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same content as the parent point: words that mean the same, 'betydningen til ord og uttrykk'.",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Present and past forms are 'bøying av verb', named after 4. trinn. In Norwegian the irregular ones are strong verbs such as være, ha, gjøre, gå.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "none": "No aim in PART 2 names pronouns.",
+   "why": "KM14159 lists 'verb, substantiv og adjektiv' only; personal and possessive pronouns have no aim to rest on.",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "KM14146",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14156",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading words in another script is still 'trekke bokstavlyder sammen til ord under lesing'; knowing joined writing prepares 'funksjonell håndskrift'. No aim asks for reading løkkeskrift.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'utforske ... oppbygningen av og betydningen til ord': sammensatte ord, also with the joining s or e.",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The shared root shows 'oppbygningen av ... ord'.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A prefix changes both 'oppbygningen' and 'betydningen' of a word; the Norwegian ones are u-, mis-, van-, for-, be-.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14147",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'fortelle ... skriftlig' in order, written by hand.",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading clue after clue and keeping them together is 'lese med sammenheng og forståelse'.",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing down facts is 'beskrive ... skriftlig'; what the animal eats and where it lives prepares naturfag's 'beskrive hvordan noen organismer er tilpasset området'.",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13825",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting read facts into same and different is reading with understanding; comparing two animals prepares 'sammenligne ulike dyre- og plantearters tilpasninger' (naturfag after 4. trinn).",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "KM14156",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'skrive tekster med funksjonell håndskrift' asks for the pupil's own texts; tracing and copying a sentence is practice before that. A joined script is not required by the wording.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "extends"
+    }
+   ],
+   "why": "The aims after 4. trinn in PART 2 have none on word meaning; grouping verbs by meaning and telling near words apart goes on from 'betydningen til ord og uttrykk' (after 2. trinn).",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "KM14148",
+     "rel": "extends"
+    }
+   ],
+   "why": "Forming bake, baker with a suffix is 'oppbygningen av ... ord' (after 2. trinn) taken further; no aim after 4. trinn in PART 2 names word formation.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "KM14159",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14148",
+     "rel": "extends"
+    }
+   ],
+   "why": "Choosing bake, baker, baking or baked for a sentence uses 'bøying av verb, substantiv' (the aim asks for the terms in talk about language, so this prepares) and goes on from word structure after 2. trinn.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "KM14727",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No naturfag aim after 2. trinn in PART 2 names the parts of the body. Having words for the body is needed for samfunnsfag's 'samtale om følelser, kropp ...'.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting things into living and non-living is a first sorting 'etter egenskaper'; the aim itself speaks of 'objekter, materialer og stoffer', so the fit is loose.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "KM13623",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing fruit and vegetables prepares mat og helse's 'fortelle om hva som kjennetegner sunn og variert mat'; which part of the plant we eat has no aim.",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Where animals live prepares 'beskrive hvordan noen organismer er tilpasset området'.",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "none": "No aim in PART 2 is about young animals and their parents.",
+   "why": "The aims after 2. trinn speak of organisms adapted to an area, the seasons, the senses and illness; reproduction is named only for humans after 4. trinn (KM13829).",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "KM13811",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'oppleve naturen til ulike årstider, reflektere over hvordan naturen er i endring': the sheets give the four seasons, the aim also asks for experience outdoors and the samisk division of the year.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sun, moon and stars in the day and night sky are the 'himmelfenomener' the pupil later investigates.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Weather words, a week of weather and cold, warm, hot prepare 'undersøkelser av vær ... og sammenligne målinger, observasjoner'.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Natural or made by people is a property to sort 'objekter, materialer og stoffer' by.",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "KM13813",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'utforske sansene ... og samtale om hvordan sansene brukes til å samle informasjon'.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "KM13815",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13618",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting waste is one of the 'miljøbevisste valg' and is named in mat og helse ('sortere avfall'). The bins must follow Norwegian kildesortering (papir, plast, glass og metall, matavfall, restavfall, pant).",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That plants need water and light is knowledge behind 'hvordan noen organismer er tilpasset området'; no aim names plant needs directly, so the fit is loose.",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating or sinking is an 'observerbar egenskap' of objects to sort by.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names the animal groups. Fur, feathers and scales are body features of the kind the pupil uses to 'beskrive hvordan noen organismer er tilpasset området'.",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13826",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Where animals live and what they eat is the content of 'hvordan noen organismer er tilpasset området og hverandre' (the aim also asks for a real area nearby); what animals need leads to 'hvordan dyrs behov kan ivaretas' after 4. trinn.",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "KM13811",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names life cycles. Egg to chicken, frogspawn to frog and seed to plant are examples for 'reflektere over hvordan naturen er i endring'; the fit is loose.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13806",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'utforske og beskrive observerbare egenskaper til ulike objekter ... og sortere etter egenskaper'; predicting and testing is a paper form of 'undre seg, utforske og lage spørsmål'.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "KM14727",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No naturfag aim after 2. trinn in PART 2 names the parts of the body (after 4. trinn only 'muskler og skjelett'). The words are needed for samfunnsfag's 'samtale om følelser, kropp ...'.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "KM13813",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Which sense tells us what is the content of 'hvordan sansene brukes til å samle informasjon'.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The aim asks the pupil to plan and carry out 'undersøkelser av vær' and compare observations through the year; reading symbols and a forecast is the step before.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13815",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13618",
+     "rel": "prepares"
+    }
+   ],
+   "why": "What a thing is made of is 'egenskaper til ... materialer ... og sortere etter egenskaper'; recycling leads to 'miljøbevisste valg' and to 'sortere avfall' in mat og helse.",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names the parts of a plant. What root, stem and leaf do is knowledge behind 'hvordan noen organismer er tilpasset området'; the fit is loose.",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sun, Moon and the moon's phases are 'himmelfenomener'; the aim asks for the pupil's own observations through the year, so facts on a sheet prepare it.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13815",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13618",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping by material is 'sortere etter egenskaper'; doing it for recycling leads to 'lokale miljøtiltak' and 'sortere avfall'.",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names the parts of a plant; their jobs are background for 'hvordan noen organismer er tilpasset området'. The fit is loose.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "KM13811",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names life cycles; the butterfly's stages are an example of 'hvordan naturen er i endring'. The fit is loose.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The Moon's phases are a 'himmelfenomen' the aim asks the pupil to observe and compare; naming them on paper prepares it.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "extends"
+    }
+   ],
+   "why": "The aim after 2. trinn asks for observing 'himmelfenomener'; explaining day and night by the Earth's turning goes beyond it (in Norway that explanation belongs to the middle years).",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13825",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'beskrive hvordan noen organismer er tilpasset området'; 'tilpasninger til miljø og levesteder' of different species is the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13806",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating is an 'observerbar egenskap' of objects; predicting, testing and changing the shape is a paper frame for 'undre seg, utforske og lage spørsmål'.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "KM13828",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'utforske og beskrive vannets kretsløp': naming the stages in order is the describing part; why water matters for life is not on the sheet.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "KM13825",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No aim names the parts of a flower; what each part does is background for comparing 'plantearters tilpasninger'. The fit is loose.",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "KM13825",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing butterfly and frog is a first 'sammenligne ulike dyre- ... arters tilpasninger til miljø og levesteder' (water, then land), without the discussion the aim asks for.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "none": "The planets and the solar system are not named in any aim through 4. trinn in PART 2.",
+   "why": "After 2. trinn the pupil observes 'himmelfenomener'; ordering and sorting the planets is content for the middle years in Norway.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "KM13816",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13817",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Predict, test and conclude is 'lage hypoteser og utforske disse for å finne svar'; recording and concluding is 'organisere data, lage forklaringer basert på data'.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "KM14718",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing things from above is the idea a map rests on; the aim speaks of 'kart' as a source.",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "KM14728",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Family members and family words prepare 'mangfold ... med vekt på ulike familieformer'; the aim asks for more than one form of family.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "none": "No aim in PART 2 is about means of transport.",
+   "why": "Land, water and air transport appears in none of the samfunnsfag or naturfag aims held here.",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "none": "The only aim on spending (KM14680, 'personlig økonomi og forbruk') is after 4. trinn, too far from barnehage.",
+   "why": "No aim after 2. trinn speaks of wants and needs.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "none": "The only aim near it (KM14678, 'offentlige institusjoner og virksomheter') is after 4. trinn, too far from barnehage.",
+   "why": "No aim after 2. trinn speaks of occupations or services in the community.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "KM14718",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the key and finding the symbols is how 'kart ... kan gi informasjon'; the aim asks the class to talk about it, the sheet does the reading.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "KM14728",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14720",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A family tree, also one's own, gives examples for 'ulike familieformer'; generations are the measure in 'for én til to menneskealdre siden'.",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "KM14718",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14672",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Using north, south, east and west on a map is reading 'kart' for information; the compass directions themselves are not named. Maps return in the aim after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "KM14718",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14729",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child reads a world map (kart as a source); knowing the continents (verdensdeler) is background for 'mennesker i ulike deler av verden'. No aim names the continents.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "KM14728",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM14148",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The riddles work on the meaning of family words (norsk: 'betydningen til ord'); they are background for 'ulike familieformer'. Norwegian has its own words here: mormor, farmor, tante, onkel, søskenbarn.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "KM14718",
+     "rel": "extends"
+    }
+   ],
+   "why": "The aims after 4. trinn in PART 2 speak of 'landskap i Norge', not of the world; locating continents and oceans goes on from map reading after 2. trinn.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "KM13623",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Everyday and sometimes foods prepare 'fortelle om hva som kjennetegner sunn og variert mat'.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "KM13814",
+     "rel": "prepares"
+    },
+    {
+     "id": "KM13616",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hand washing is what one does 'for å verne kroppen mot smittsomme sykdommer' and is the first of the 'prinsipper for god hygiene' in mat og helse.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
+   "why": "None of the aims in PART 2 names trafikk, crossing the road or signals.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "KM13623",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting foods into groups is a step toward telling 'hva som kjennetegner sunn og variert mat' (after 4. trinn). Norwegian schools use Helsedirektoratets kostråd and the plate model, not 'four food groups'.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "KM13814",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13832",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Stopping germs is 'hva man kan gjøre for å verne kroppen mot smittsomme sykdommer'; tooth brushing and a habit chart lead to 'hvordan livsstil ... påvirker helse' after 4. trinn.",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
+   "why": "None of the aims in PART 2 names trafikk or road signs.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "KM13814",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13832",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Why we wash hands and cover a cough is the content of 'verne kroppen mot smittsomme sykdommer'; the other habits lead to 'hvordan livsstil og trivsel påvirker helse' after 4. trinn.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
+   "why": "None of the aims in PART 2 names trafikk or road signs. The sheets must show Norwegian signs (fareskilt, forbudsskilt, opplysningsskilt).",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "KM13519",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'studere form gjennom å tegne': drawing from simple shapes, from barnehage.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "KM13519",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'studere form gjennom å tegne': the child builds a figure from its forms step by step.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "KM13519",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM14152",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing by steps and from memory is 'studere form gjennom å tegne'; drawing and then writing about it is 'lage tekster som kombinerer skrift med bilder' (norsk).",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "none": "Visual discrimination is not an aim of any subject in PART 2.",
+   "why": "Finding identical pictures and the one that differs is readiness work with no wording to rest on.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "none": "Maze solving is not an aim of any subject in PART 2.",
+   "why": "The letter and number routes inside some mazes are covered by their own teaching points; the maze itself fits no wording.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "none": "Visual closure and shadow matching are not aims of any subject in PART 2.",
+   "why": "No wording in mathematics or kunst og håndverk asks for matching a picture to its shadow or a part to the whole.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "none": "Visual discrimination is not an aim of any subject in PART 2.",
+   "why": "Comparing two pictures for changes fits no wording.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each row holds one kind: the child groups by a property and finds what fits, a step toward 'gruppere ... ut fra egenskaper'. The fit is loose.",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "none": "The only aim that fits (KM13251, 'koordinatsystemet') is after 3. trinn, too far from barnehage.",
+   "why": "Copying square by square trains row and column tracking; nothing after 2. trinn names it.",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "Visual discrimination is not an aim of any subject in PART 2.",
+   "why": "Finding differences between two pictures fits no wording, also with the words to tick.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "Maze solving is not an aim of any subject in PART 2.",
+   "why": "Picture mazes and tangled lines fit no wording in mathematics or any other subject held here.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "KM13251",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracking row and column to place each square is the idea before 'plassere punkter i koordinatsystemet' (after 3. trinn).",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "Analogies are not an aim of any subject in PART 2.",
+   "why": "A is to B as C is to ? fits none of the wordings on mønster, sortering or algorithmic thinking.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "rows": [
+    {
+     "id": "KM13239",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Decoding and encoding with a key is following a rule step by step, and making one's own code is making the rule: 'lage og følge regler og trinnvise instruksjoner i lek og spill'.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "rows": [
+    {
+     "id": "KM13239",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13262",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A sudoku is a game solved by keeping to its rule ('følge regler ... i ... spill'); its row, column and box structure leads to 'strukturer og mønstre i lek og spill' after 4. trinn.",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "none": "Deduction from clues is not an aim in PART 2.",
+   "why": "Crossing out what cannot be fits none of the wordings on mønster, sortering or stepwise instructions.",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the differences fits no aim, but writing a sentence about each one is 'beskrive ... skriftlig' (norsk).",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "none": "Deduction from clues is not an aim in PART 2.",
+   "why": "Solving a logic grid from yes, no and either-or clues fits no wording after 2. trinn.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "extends"
+    }
+   ],
+   "why": "'gruppere ... ut fra egenskaper og reflektere over om dette kan gjøres på flere måter' is the aim after 2. trinn; sorting by two properties at once in a Venn diagram or table goes on from it.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "KM13228",
+     "rel": "extends"
+    }
+   ],
+   "why": "Same content as the parent point: sorting by two properties at once goes beyond 'gruppere ... ut fra egenskaper' after 2. trinn.",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "none": "Deduction from clues is not an aim in PART 2.",
+   "why": "The aim after 4. trinn on 'strukturer og mønstre i lek og spill' does not cover clue-based deduction.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "rows": [
+    {
+     "id": "KM13262",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each picture once in every row, column and box is a structure in a game: 'beskrive og utforske strukturer og mønstre i lek og spill' (after 4. trinn).",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "KM14727",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming feelings is needed for 'samtale om følelser ... og hvordan egne og andres grenser kan uttrykkes og respekteres'.",
+   "review": "author-all"
+  }
+ }
+}

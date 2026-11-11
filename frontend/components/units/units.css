@@ -1,0 +1,122 @@
+/* A unit's page: a teacher's plan book. The lessons hang on one line down the page, numbered in order; each lesson's
+   pages are shown as the paper they are, and the teacher note is the note in the margin (the one warm colour of the
+   page). House palette and fonts (Direction A: cream, teal, coral; Baloo 2 + Nunito). No motion: this is a page a
+   teacher reads at a desk and prints from. */
+.un {
+  --cream: #fbf3e4;
+  --cream-deep: #f4e7cd;
+  --paper: #ffffff;
+  --ink: #14332d;
+  --ink-soft: #46625b;
+  --teal: #146b5e;
+  --teal-deep: #0f5a4f;
+  --coral: #f2784b;
+  --coral-deep: #c9552e;
+  --sun: #ffe9a8;
+  --sun-edge: #f2cf5b;
+  --line: #e4d6ba;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.55;
+  overflow-x: clip;
+}
+:where(.un) :where(h1, h2, h3, h4) { font-family: var(--font-baloo-2), system-ui, sans-serif; line-height: 1.15; margin: 0; }
+:where(.un) p { margin: 0; }
+:where(.un) :where(ul, ol, dl, dd) { margin: 0; padding: 0; }
+:where(.un) :where(ul, ol) { list-style: none; }
+.un a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.un a:hover { color: var(--teal-deep); text-decoration-thickness: 2px; }
+.un :focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; border-radius: 6px; }
+
+.un-wrap { max-width: 1040px; margin: 0 auto; padding: 10px 16px 72px; }
+.un-pilot { margin-top: 8px; padding: 8px 12px; border: 1px dashed var(--ink-soft); border-radius: 8px; font-size: 0.875rem; color: var(--ink-soft); background: var(--paper); }
+
+.un-head { padding: 28px 0 20px; }
+.un-eyebrow { font-weight: 700; font-size: 0.875rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--teal); }
+.un-title { font-size: clamp(2rem, 6vw, 3.25rem); font-weight: 700; letter-spacing: -0.015em; margin-top: 6px; max-width: 18ch; text-wrap: balance; }
+.un-facts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.un-facts span { padding: 4px 12px; border-radius: 999px; background: var(--cream-deep); font-weight: 600; font-size: 0.9375rem; }
+
+.un-top { display: grid; gap: 20px; align-items: start; }
+.un-inside, .un-teacher { border-radius: 16px; padding: 20px; }
+.un-inside { background: var(--paper); border: 1px solid var(--line); }
+.un-inside h2, .un-teacher h2 { font-size: 1.375rem; font-weight: 700; }
+.un-inside > ul { margin-top: 12px; display: grid; gap: 8px; }
+.un-inside > ul li { padding-left: 22px; position: relative; }
+.un-inside > ul li::before { content: ''; position: absolute; left: 2px; top: 0.6em; width: 9px; height: 9px; border-radius: 50%; background: var(--teal); }
+.un-jump { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.un-jump ol { counter-reset: jump; display: grid; gap: 0; }
+.un-jump li { counter-increment: jump; display: grid; grid-template-columns: 1.75rem 1fr; align-items: center; }
+.un-jump li::before { content: counter(jump); font-family: var(--font-baloo-2), system-ui, sans-serif; font-weight: 700; color: var(--ink-soft); }
+.un-jump a { padding: 10px 0; }
+
+.un-teacher { background: var(--teal-deep); color: #fff; display: grid; gap: 12px; }
+.un-teacher p { color: #e8f3f0; }
+.un-btn { display: block; width: 100%; min-height: 48px; padding: 12px 18px; border-radius: 12px; border: 2px solid transparent; font: inherit; font-weight: 700; font-size: 1.0625rem; text-align: center; text-decoration: none; cursor: pointer; }
+.un-btn-main { background: var(--coral); color: #2a1206; }
+.un-btn-main:hover { background: #ff8a5e; }
+.un-btn-main[disabled] { opacity: 0.75; cursor: progress; }
+.un .un-btn-ghost { background: transparent; border-color: rgba(255, 255, 255, 0.55); color: #fff; }
+.un .un-btn-ghost:hover { border-color: #fff; color: #fff; background: rgba(255, 255, 255, 0.08); }
+.un-bundle-status { min-height: 1.5em; margin-top: 6px; font-size: 0.9375rem; font-weight: 600; color: #fff; }
+.un-bundle-status:empty { display: none; }
+.un-teacher .un-teacher-plan { font-weight: 700; color: #fff; }
+.un-teacher .un-teacher-how { font-size: 0.875rem; }
+
+.un-lessons-title { font-size: clamp(1.625rem, 4vw, 2.25rem); font-weight: 700; margin: 44px 0 8px; }
+
+/* a lesson: its number rides on the line that runs down the page */
+.un-lesson { position: relative; padding: 24px 0 28px 44px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.un-lesson::before { content: ''; position: absolute; left: 15px; top: 0; bottom: 0; width: 2px; background: var(--line); }
+.un-lesson-no { position: absolute; left: 0; top: 22px; width: 32px; height: 32px; border-radius: 50%; background: var(--teal); color: #fff; font-family: var(--font-baloo-2), system-ui, sans-serif; font-weight: 700; font-size: 0; display: grid; place-items: center; }
+.un-lesson-no::after { content: counter(lesson); font-size: 1.0625rem; }
+.un-wrap { counter-reset: lesson; }
+.un-lesson { counter-increment: lesson; }
+.un-lesson-title { font-size: clamp(1.375rem, 3.4vw, 1.75rem); font-weight: 700; }
+.un-lesson-objective { margin-top: 6px; font-size: 1.0625rem; max-width: 62ch; }
+.un-standards { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.un-standard { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 6px; padding: 3px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font-size: 0.875rem; }
+.un-standard-rel { color: var(--ink-soft); }
+.un-standard-code { font-weight: 700; }
+.un-standard-title { color: var(--ink-soft); }
+.un-standard-prepares, .un-standard-extends { border-style: dashed; }
+
+.un-slots { margin-top: 18px; display: grid; gap: 14px; }
+.un-slot-name { font-family: var(--font-nunito), system-ui, sans-serif; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); }
+.un-slot-text { margin-top: -4px; }
+.un-slot-text a, .un-page-levels a { display: inline-block; padding: 10px 0; }
+.un-pages { margin-top: 8px; display: grid; gap: 12px; }
+.un-page { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: center; }
+.un-page-thumb { display: block; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); box-shadow: 0 1px 0 rgba(20, 51, 45, 0.08), 0 6px 14px -8px rgba(20, 51, 45, 0.35); overflow: hidden; aspect-ratio: 120 / 155; }
+.un-page-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.un-page-title { font-weight: 700; }
+.un-page-levels { display: flex; flex-wrap: wrap; column-gap: 16px; }
+
+/* the note in the margin */
+.un-note { margin-top: 20px; padding: 16px 18px; background: var(--sun); border-left: 5px solid var(--sun-edge); border-radius: 4px 12px 12px 4px; max-width: 70ch; }
+.un-note-title { font-family: var(--font-baloo-2), system-ui, sans-serif; font-weight: 700; font-size: 1.125rem; }
+.un-note dt { margin-top: 10px; font-weight: 700; font-size: 0.875rem; letter-spacing: 0.02em; }
+.un-note dd { margin-top: 1px; }
+
+@media (min-width: 720px) {
+  .un-wrap { padding: 10px 28px 96px; }
+  .un-top { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; }
+  .un-inside, .un-teacher { padding: 26px; }
+  .un-lesson { padding-left: 64px; }
+  .un-lesson::before { left: 21px; }
+  .un-lesson-no { width: 44px; height: 44px; }
+  .un-lesson-no::after { font-size: 1.375rem; }
+  .un-slots { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
+  .un-slot-paper { grid-column: 1 / -1; }
+  .un-pages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .un-page { grid-template-columns: 88px 1fr; }
+}
+@media (min-width: 1000px) {
+  .un-teacher { position: sticky; top: 16px; }
+}
+@media print {
+  .un-teacher, .un-pilot { display: none; }
+  .un { background: #fff; }
+  .un-lesson { break-inside: avoid; }
+}

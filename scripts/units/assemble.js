@@ -1,0 +1,201 @@
+#!/usr/bin/env node
+/**
+ * Assembles the units of one language from the content graph (Daily Teaching System, Parts 3 and 4).
+ *
+ * A unit is a list of lessons; a lesson is ONE teaching point. Nothing in a lesson is written here: every slot is
+ * filled from a registry that already exists, and the only prose is what a teacher wrote for that teaching point
+ * (frontend/content/units/points/<loc>.json: title, objective, note).
+ *
+ *   reads   frontend/content/units/defs/<loc>.json      the units: id, slug, grade, subject, title, metadata, and per
+ *                                                        lesson the teaching point and the worksheet types to use
+ *           frontend/content/units/points/<loc>.json    per teaching point: title, objective, the teacher note
+ *           frontend/content/teaching-graph/…           points, assets/<loc>.json, tools.json
+ *           frontend/content/curricula/<reg>/…          the national objective shown beside a lesson (show.js)
+ *           scripts/worksheet-gen/i18n/strings.<loc>.json   worksheet titles
+ *           out/teaching-graph/decks.tsv                the published pages (which page is which level)
+ *   writes  frontend/content/units/units.<loc>.json     GENERATED; the pages render this file and nothing else
+ *
+ *   node scripts/units/assemble.js --loc=en            write
+ *   node scripts/units/assemble.js --loc=en --check    exit 1 when the committed file is not what this would write
+ *
+ * A lesson slot that cannot be filled is left out (never "coming soon"). A lesson with fewer than two real assets
+ * fails the build, as does a unit with fewer than four lessons (PLAN.md Part 4, the filler gate).
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const REPO = path.join(__dirname, '..', '..');
+const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : d; };
+const has = (k) => process.argv.includes('--' + k);
+const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { if (fallback !== undefined) return fallback; throw new Error('cannot read ' + path.relative(REPO, f) + ': ' + e.message); } };
+
+/** the registry a language's pages cite (a state layer is chosen by the page, not here) */
+const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
+const RUNGS = ['easy', 'core', 'hard'];
+const MIN_LESSONS = 4;
+const codeOfSlug = (slug) => { const all = slug.match(/-(?:k|g[0-9])[0-9]{3}(?=-|$)/g); return all ? all[all.length - 1].slice(1) : null; };
+const typeIdOf = (code) => { const m = /^(k|g\d)(\d{3})$/.exec(code); return m ? m[1].toUpperCase() + '-' + m[2] : null; };
+/** the copy number an address ends in (…-g1116 is copy 1, …-g1116-4 is copy 4); pages made per unit sort by their address */
+const copyOf = (slug) => { const m = /-(\d{1,3})$/.exec(slug); return m ? Number(m[1]) : 1; };
+
+function assemble(loc, opt = {}) {
+  const problems = [];
+  const bad = (m) => problems.push(m);
+  const U = path.join(REPO, 'frontend', 'content', 'units');
+  const G = path.join(REPO, 'frontend', 'content', 'teaching-graph');
+  const C = path.join(REPO, 'frontend', 'content', 'curricula');
+  const defs = readJson(path.join(U, 'defs', loc + '.json')).units;
+  const text = readJson(path.join(U, 'points', loc + '.json')).points;
+  const points = new Map(readJson(path.join(G, 'points.json')).points.map((p) => [p.id, p]));
+  const assets = readJson(path.join(G, 'assets', loc + '.json'));
+  const toolPoints = readJson(path.join(G, 'tools.json')).tools;
+  const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.' + loc + '.json'));
+  const toolContent = readJson(path.join(REPO, 'frontend', 'messages', 'tool-content', loc + '.json'), {});
+  const makerNames = (readJson(path.join(REPO, 'frontend', 'messages', 'makers', loc + '.json'), {}).makers) || {};
+  const makerCopy = readJson(path.join(REPO, 'frontend', 'content', 'maker-landings', 'copy.' + loc + '.json'), {});
+  const reg = REGISTRY_OF[loc];
+  const fw = readJson(path.join(C, reg, 'framework.json'));
+  const cw = readJson(path.join(C, reg, 'crosswalk.json')).points;
+  const registry = { framework: fw, display: readJson(path.join(C, 'display.json')).registries[reg] };
+  const { shown } = require('../curricula/show.js');
+  const nodeById = new Map(fw.nodes.map((n) => [n.id, n]));
+
+  // activities: id → { slug, title } in this language
+  const acts = new Map();
+  for (const f of fs.readdirSync(path.join(REPO, 'mini tools')).filter((x) => x.endsWith('-activities.json'))) {
+    const j = readJson(path.join(REPO, 'mini tools', f));
+    for (const e of (Array.isArray(j) ? j : j.activities || [])) {
+      const slug = e.slug && typeof e.slug === 'object' ? e.slug[loc] : (loc === 'en' && typeof e.slug === 'string' ? e.slug : null);
+      const title = e.page_title && typeof e.page_title === 'object' ? e.page_title[loc] : (loc === 'en' && typeof e.page_title === 'string' ? e.page_title : null);
+      // an activity's page title often ends in its own grade ("… (Grade 2)"); inside a unit of another grade that reads wrong
+      if (slug && title) acts.set(e.id, { slug, title: title.replace(/\s*\([^()]*\)\s*$/, '') });
+    }
+  }
+
+  // the published pages of this language, per type and level, in copy order
+  const tsv = opt.decksText != null ? opt.decksText : fs.readFileSync(path.join(REPO, 'out', 'teaching-graph', 'decks.tsv'), 'utf8');
+  const pages = new Map(); // type id → { easy: [], core: [], hard: [] } of { slug, screen, base }
+  for (const line of tsv.split('\n')) {
+    if (!line.startsWith(loc + '\t')) continue;
+    const [, slug, , mode, idx, screen] = line.split('\t');
+    const code = codeOfSlug(slug);
+    const id = code ? typeIdOf(code) : null;
+    const rung = mode === '-' ? 'core' : RUNGS.includes(mode) ? mode : null;
+    if (!id || !rung) continue;
+    const t = pages.get(id) || { easy: [], core: [], hard: [] };
+    t[rung].push({ slug, screen: screen === '1', base: idx === 't' });
+    pages.set(id, t);
+  }
+  for (const t of pages.values()) for (const r of RUNGS) t[r].sort((a, b) => (b.base - a.base) || (copyOf(a.slug) - copyOf(b.slug)) || a.slug.localeCompare(b.slug));
+
+  const seenSlug = new Set(), seenId = new Set();
+  const units = [];
+  for (const d of defs) {
+    const where = loc + ' unit ' + d.id;
+    if (seenId.has(d.id)) bad(where + ': id used twice'); seenId.add(d.id);
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.slug || '')) bad(where + ': slug "' + d.slug + '" is not url-safe');
+    if (seenSlug.has(d.slug)) bad(where + ': slug used twice'); seenSlug.add(d.slug);
+    for (const k of ['title', 'metaTitle', 'metaDescription', 'grade', 'subject']) if (!d[k]) bad(where + ': no ' + k);
+    const lessons = [];
+    const usedPages = new Set();
+    for (const [i, L] of d.lessons.entries()) {
+      const lw = where + ' lesson ' + (i + 1) + ' (' + L.point + ')';
+      const p = points.get(L.point);
+      if (!p) { bad(lw + ': no such teaching point'); continue; }
+      const tx = text[L.point];
+      if (!tx || !tx.title || !tx.objective || !tx.note || !tx.note.mistake || !tx.note.words || !tx.note.watch) { bad(lw + ': the point has no title, objective and full teacher note in points/' + loc + '.json'); continue; }
+
+      // paper: the worksheet types the unit names, each with its core page and, where published, an easier and a harder one
+      const paper = [];
+      for (const typeId of L.types || []) {
+        if (!p.types.includes(typeId)) { bad(lw + ': type ' + typeId + ' does not belong to this teaching point'); continue; }
+        const pg = pages.get(typeId);
+        const title = strings[typeId] && strings[typeId].title;
+        if (!pg || !pg.core.length || !title) { bad(lw + ': type ' + typeId + ' has no published core page or no title in this language'); continue; }
+        const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
+        const core = pick('core'), easy = pick('easy'), hard = pick('hard');
+        const a = assets.types[typeId] || {};
+        const row = { type: typeId, title, core: core.slug };
+        if (easy) row.easy = easy.slug;
+        if (hard) row.hard = hard.slug;
+        if (core.screen) row.screen = 1;
+        if (a.landing) row.landing = a.landing;
+        paper.push(row);
+      }
+      // exit ticket: one more core page of the lesson's first type that the lesson has not handed out
+      let exit = null;
+      if (paper.length) {
+        const pg = pages.get(paper[0].type);
+        const x = pg.core.find((y) => !usedPages.has(y.slug));
+        if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: paper[0].title }; }
+      }
+      // the tool on the projector: the unit's choice, else the first tool that models this point
+      const toolKey = L.tool === null ? null : (L.tool || Object.keys(toolPoints).find((k) => (toolPoints[k].points || []).includes(L.point)) || null);
+      let tool = null;
+      if (toolKey) {
+        const tc = toolContent[toolKey];
+        if (L.tool && !(toolPoints[toolKey] && (toolPoints[toolKey].points || []).includes(L.point))) bad(lw + ': tool ' + toolKey + ' does not model this teaching point (tools.json)');
+        if (tc && tc.slug && tc.name) tool = { key: toolKey, slug: tc.slug, name: tc.name };
+        else if (L.tool) bad(lw + ': tool ' + toolKey + ' has no page in this language');
+      }
+      // on screen: a live activity of the point (the unit's choice first), else a page of the lesson with a screen version
+      const actId = L.activity === null ? null : (L.activity || (p.activities || []).find((a) => acts.has(a)) || null);
+      let screen = null;
+      if (actId) {
+        if (!(p.activities || []).includes(actId)) bad(lw + ': activity ' + actId + ' does not belong to this teaching point');
+        else if (acts.has(actId)) screen = Object.assign({ kind: 'activity', id: actId }, acts.get(actId));
+        else if (L.activity) bad(lw + ': activity ' + actId + ' is not live in this language');
+      }
+      // (the indexable page of a type is often print-only while its further copies have the Check button)
+      if (!screen) {
+        for (const r of paper) {
+          const x = pages.get(r.type).core.find((y) => y.screen && (y.slug === r.core || !usedPages.has(y.slug)));
+          if (x) { usedPages.add(x.slug); screen = { kind: 'page', slug: x.slug, title: r.title }; break; }
+        }
+      }
+      // make more: the maker of the lesson's first type
+      let maker = null;
+      const mk = paper.length && assets.types[paper[0].type] && assets.types[paper[0].type].maker;
+      if (mk && makerNames[mk] && makerCopy[mk]) maker = { id: mk, name: makerNames[mk], slug: makerCopy[mk].slug, template: paper[0].type };
+      // the national objective: rows that say "teaches" first, at most two, shown as the site shows an objective
+      const e = cw[L.point] || {};
+      // (an objective of the unit's own year stands before one of another year)
+      const own = (r) => (String(r.grade || '').split('-').includes(String(d.grade)) ? 0 : 1);
+      const rows = (e.rows || []).slice().sort((a, b) => ((a.rel === 'teaches' ? 0 : 1) - (b.rel === 'teaches' ? 0 : 1)) || (own(a) - own(b))).slice(0, 2);
+      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.rel, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; });
+
+      const real = paper.length + (tool ? 1 : 0) + (screen && screen.kind === 'activity' ? 1 : 0);
+      if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');
+      const lesson = { n: lessons.length + 1, point: L.point, title: tx.title, objective: tx.objective, standards, paper };
+      if (tool) lesson.tool = tool;
+      if (screen) lesson.screen = screen;
+      if (exit) lesson.exit = exit;
+      if (maker) lesson.maker = maker;
+      lesson.note = { mistake: tx.note.mistake, words: tx.note.words, watch: tx.note.watch };
+      lessons.push(lesson);
+    }
+    if (lessons.length < MIN_LESSONS) bad(where + ': ' + lessons.length + ' lessons (at least ' + MIN_LESSONS + ')');
+    const unit = { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, weeks: d.weeks || Math.max(1, Math.ceil(lessons.length / 4)), lessons };
+    units.push(unit);
+  }
+  return { file: { $comment: 'GENERATED by scripts/units/assemble.js from defs/' + loc + '.json, points/' + loc + '.json, the content graph and the curriculum registry. Do not edit by hand.', locale: loc, units }, problems };
+}
+
+const fileText = (f) => JSON.stringify(f, null, 1) + '\n';
+
+if (require.main === module) {
+  const loc = arg('loc', 'en');
+  const { file, problems } = assemble(loc);
+  for (const p of problems) console.log('FAIL  ' + p);
+  if (problems.length) { console.log(problems.length + ' problem(s); nothing written'); process.exit(1); }
+  const out = path.join(REPO, 'frontend', 'content', 'units', 'units.' + loc + '.json');
+  if (has('check')) {
+    const have = fs.existsSync(out) ? fs.readFileSync(out, 'utf8').replace(/\r\n/g, '\n') : '';
+    if (have !== fileText(file)) { console.log('FAIL  ' + path.relative(REPO, out) + ' is not what assemble.js writes'); process.exit(1); }
+    console.log(loc + ': units file is current');
+  } else {
+    fs.writeFileSync(out, fileText(file));
+    console.log(loc + ': ' + file.units.length + ' unit(s), ' + file.units.reduce((n, u) => n + u.lessons.length, 0) + ' lessons → ' + path.relative(REPO, out));
+  }
+}
+module.exports = { assemble, fileText };

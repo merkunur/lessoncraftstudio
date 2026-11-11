@@ -404,7 +404,7 @@
     },
     {
      "id": "2.OA.B.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
@@ -648,11 +648,11 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:bar-model": {
    "rows": [
@@ -721,7 +721,7 @@
     },
     {
      "id": "2.OA.B.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
@@ -746,7 +746,7 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     }
    ],
@@ -1220,11 +1220,11 @@
    "rows": [
     {
      "id": "2.MD.D.9",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:round-to-ten": {
    "rows": [
@@ -1614,7 +1614,7 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     },
     {
@@ -1818,11 +1818,11 @@
    "rows": [
     {
      "id": "3.MD.B.4",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:volume-cubes": {
    "rows": [
@@ -1963,11 +1963,11 @@
    "rows": [
     {
      "id": "RL.K.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:sound-position": {
    "rows": [
@@ -2327,12 +2327,12 @@
     },
     {
      "id": "RL.1.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1"
     },
     {
      "id": "RL.K.2",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "K"
     },
     {
@@ -2347,7 +2347,7 @@
    "rows": [
     {
      "id": "L.K.1.b",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "K"
     },
     {
@@ -2422,7 +2422,7 @@
     },
     {
      "id": "L.K.2.a",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "K"
     },
     {
@@ -2439,13 +2439,7 @@
    "by": "review"
   },
   "2:cursive-writing": {
-   "rows": [
-    {
-     "id": "L.1.1.a",
-     "rel": "extends",
-     "grade": "1"
-    }
-   ],
+   "none": "A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond.",
    "by": "review"
   },
   "2:cloze-context": {
@@ -2517,7 +2511,7 @@
    "rows": [
     {
      "id": "L.K.1.b",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "K"
     },
     {
@@ -2552,11 +2546,6 @@
    "rows": [
     {
      "id": "L.2.2.d",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "RF.2.3",
      "rel": "teaches",
      "grade": "2"
     },
@@ -2680,13 +2669,8 @@
   "2:mystery-animal": {
    "rows": [
     {
-     "id": "RI.2.1",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
      "id": "L.1.5.b",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1"
     }
    ],
@@ -2718,13 +2702,7 @@
    "by": "review"
   },
   "3:cursive-sentences": {
-   "rows": [
-    {
-     "id": "L.1.1.a",
-     "rel": "extends",
-     "grade": "1"
-    }
-   ],
+   "none": "A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond.",
    "by": "review"
   },
   "3:word-fields": {

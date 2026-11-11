@@ -24,6 +24,8 @@ const { pagesOf } = require('../units/catalog.js');
 const C = path.join(REPO, 'frontend', 'content');
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i };
+// one official code as the name of a page: K.CC.A.1, 2.NBT.B.5, RF.1.3.a, 1.2.B
+const ONE_CODE = /(^|[\s(])(?:[K1-5]\.[A-Z]{1,3}\.[A-Z]\.\d+|[A-Z]{1,2}\.[K1-5]\.\d+(?:\.[a-z])?|[K1-5]\.\d+\.[A-Z])(?=$|[\s),:])/;
 const CLAIM = /\b(approved|endorsed|certified|published|authorized) by\b/i;
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9äöüßåéèáíóúñç]+/gi, ' ').trim();
 
@@ -44,6 +46,7 @@ function wordingOf(reg) {
 
 function run(d, opt = {}) {
   const fails = [];
+  const titles = new Map();
   const fail = (gate, what) => fails.push(gate + '  ' + what);
   for (const [loc, L] of Object.entries(d)) {
     if (!opt.skipGenerated) { const a = assemble(loc); if (a.problems.length) fail('Q1', loc + ': ' + a.problems[0]); else if (fileText(a.file) !== L.text) fail('Q1', loc + ': pages.' + loc + '.json is not what assemble.js writes'); }
@@ -61,6 +64,10 @@ function run(d, opt = {}) {
       const w = loc + ' page ' + p.id;
       const official = wordingOf(p.registry);
       if (p.counts.taught < MIN_TAUGHT) fail('Q4', w + ': ' + p.counts.taught + ' taught objectives');
+      // Q7: the per-code pages (/standards/<code>) own the search for one code; a checklist is named by framework,
+      // grade and subject, and no two checklists share a title
+      for (const s of [p.title, p.metaTitle]) { if (ONE_CODE.test(s)) fail('Q7', w + ': "' + s.slice(0, 50) + '" is titled with one code'); }
+      if (titles.has(loc + ' ' + p.metaTitle)) fail('Q7', w + ': the title of ' + titles.get(loc + ' ' + p.metaTitle)); else titles.set(loc + ' ' + p.metaTitle, p.id);
       for (const s of [p.title, p.metaTitle, p.metaDescription]) { if (FREE[loc] && FREE[loc].test(s)) fail('Q5', w + ': "' + s.slice(0, 50) + '" says free'); if (CLAIM.test(s)) fail('Q6', w + ': "' + s.slice(0, 50) + '" claims an approval'); }
       for (const g of p.groups) for (const it of g.items) {
         const iw = w + ' ' + it.code;
@@ -85,6 +92,8 @@ const POISONS = [
   ['a thin page', 'Q4', (d) => { d.en.pages[0].counts.taught = 3; }, { skipGenerated: true }],
   ['a line with nothing behind it', 'Q4', (d) => { const it = d.en.pages[0].groups[0].items[0]; delete it.lessons; delete it.papers; }, { skipGenerated: true }],
   ['a title that says free', 'Q5', (d) => { d.en.pages[0].metaTitle = 'Free ' + d.en.pages[0].metaTitle; }, { skipGenerated: true }],
+  ['a title that names one code', 'Q7', (d) => { d.en.pages[0].metaTitle = 'K.CC.A.1 Activities and Worksheets'; }, { skipGenerated: true }],
+  ['two checklists with one title', 'Q7', (d) => { d.en.pages[1].metaTitle = d.en.pages[0].metaTitle; }, { skipGenerated: true }],
   ['a string that claims an approval', 'Q6', (d) => { d.en.ui.hubLead += ' Approved by the state.'; }, { skipGenerated: true }],
 ];
 

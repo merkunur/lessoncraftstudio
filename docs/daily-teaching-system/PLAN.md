@@ -628,4 +628,11 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 - **Deploy (commit `7c43ac598`):** 47 Teacher-only files for de (29 units and plans, 18 lessons); the deploy ran clean; `live-check.js --loc=de` **544 checks pass**, `--loc=en` 764; identity snapshot PASS, sitemap shard 3 at 4965 addresses (+19); `live-dark.js` OK.
 - **Known limits:** the German plans the review rule reads are short, and the reviewer's judgement of the start of a school year was stricter than the rule; about 25 printed defects on German worksheets are recorded for the content-fix session; Klasse 3 Deutsch reads Klasse 2 stories at their harder level.
 - **Part 5 stops here until the Search Console read of 2026-12-09:** Swedish gets no indexable pack pages (the harvest found no search words); French, Spanish, Portuguese and Italian packs need the units of their language first (rule 12).
-- **NEXT: Part 6.1** — the curriculum route and the English curriculum pages.
+- **Part 6.1 followed** (entry below).
+
+**Part 6.1 — standards checklists, English (US): BUILT 2026-11-11. Record: `PART-6-DESIGN.md`.**
+- **12 pages and a hub** (`/en/curriculum`): Common Core Math K–3, Common Core ELA K–1, TEKS Math K–3, TEKS ELAR 1–2. Each lists the official codes of one grade and subject in the document's order, with our own description, the lessons and the worksheets; codes with nothing are listed as not covered. Never the official wording; the hub says the checklists were not written or approved by the publishers.
+- **Generated** from the registry, the live units and the content graph (`scripts/curriculum-pages/`), gates Q1–Q7 with 10 poisons in `deploy.sh`.
+- **Review (rule #2):** one reviewer as an American K–3 teacher ruled on 84 of 338 lines (11 drop, 16 prepares, 6 extends, 51 describe). The claim rulings were applied in the registry (51 point rows), so the unit pages, the "by curriculum" tab of the class results and the teacher guide PDFs were corrected with the checklists. Two of the 14 first pages fell below the 15-objective minimum and were taken out; the minimum was not moved.
+- **Links:** standard chips on the unit pages link to their line on the checklist; the units hub links to the checklist hub; the checklists link to the per-code pages `/en/standards/<code>`, which keep their addresses and content (gate Q7 keeps the two page types apart).
+- **NEXT in Part 6:** the open coverage document per grade, the "For schools" page with a quote request (ruling 6), then German (KMK and the three state layers).

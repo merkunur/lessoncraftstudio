@@ -30,7 +30,13 @@ const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const MIN_TAUGHT = 15;
 // the strand names of the Common Core ELA standards by the letters their codes begin with (the site's own strand
 // labels, frontend/lib/seo/strand-names.ts, where the same names are keys)
-const ELA_STRANDS = { RL: 'Reading: Literature', RI: 'Reading: Informational Text', RF: 'Reading: Foundational Skills', W: 'Writing', L: 'Language' };
+const ELA_STRANDS = { RL: 'Reading: Literature', RI: 'Reading: Informational Text', RF: 'Reading: Foundational Skills', W: 'Writing', SL: 'Speaking and Listening', L: 'Language' };
+// the order of the parts in the documents themselves (the registry lists nodes by id): the domains of Common Core
+// Math by the letters their ids end with, the strands of Common Core ELA by the letters their codes begin with
+const MATH_DOMAINS = ['CC', 'OA', 'NBT', 'NF', 'MD', 'G'];
+const HEADINGS = new Set(['domain', 'cluster', 'strand', 'topic', 'area', 'subarea']);
+// codes in the order a teacher reads them: K.CC.A.2 before K.CC.A.10, 1.2.B before 1.10.A
+const natural = (a, b) => { const x = a.split(/[.\-]/), y = b.split(/[.\-]/); for (let i = 0; i < Math.max(x.length, y.length); i++) { const p = x[i] || '', q = y[i] || ''; if (p === q) continue; const R = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10, xi: 11, xii: 12 }; if (R[p] && R[q]) return R[p] - R[q]; const n = Number(p), m = Number(q); if (p !== '' && q !== '' && !Number.isNaN(n) && !Number.isNaN(m)) return n - m; return p < q ? -1 : 1; } return 0; };
 
 function assemble(loc) {
   const problems = [];
@@ -89,29 +95,32 @@ function assemble(loc) {
     const nodes = R.fw.nodes.filter((n) => n.f === d.framework && String(n.grade) === String(d.grade));
     const groups = [], byTitle = new Map();
     const groupOf = (n) => {
-      let title = null;
-      // a strand the site has no name for (no content of ours stands in it) is headed by the letters of its codes
-      if (d.framework === 'ccss-ela') { const pre = n.id.split('.')[0]; title = ELA_STRANDS[pre] && strandNames.includes("'" + ELA_STRANDS[pre] + "'") ? ELA_STRANDS[pre] : pre; }
+      let title = null, order = 0;
+      if (d.framework === 'ccss-ela') { const pre = n.id.split('.')[0]; title = ELA_STRANDS[pre] || pre; order = Object.keys(ELA_STRANDS).indexOf(pre); }
       else {
         let top = n; for (let g = 0; top.parent && g < 12; g++) top = R.byId.get(top.parent);
-        if (top.kind === 'domain') title = top.text;
-        else if (d.framework === 'teks-math') title = top.text.split('.')[0];
-        else title = (d.strandWord || 'Strand') + ' ' + shown(R.registry, top).code.split('.').pop();
+        const number = Number(shown(R.registry, top).code.split('.').pop());
+        if (top.kind === 'domain') { title = top.text; order = MATH_DOMAINS.indexOf(top.id.split('.').pop()); }
+        // TEKS Math: the document's own title of the strand (several numbered statements share one)
+        else if (d.framework === 'teks-math') { title = top.text.split('.')[0]; order = number; }
+        // TEKS ELAR: the numbered "knowledge and skills" statement the expectation stands under (the registry holds
+        // no short title for it, and none is invented)
+        else { title = (d.statementWord || 'Knowledge and skills') + ' (' + number + ')'; order = number; }
       }
-      if (!byTitle.has(title)) { const g = { title, items: [], open: [] }; byTitle.set(title, g); groups.push(g); }
+      if (!byTitle.has(title)) { const g = { title, order, items: [], open: [] }; byTitle.set(title, g); groups.push(g); }
       return byTitle.get(title);
     };
     let taught = 0, near = 0, open = 0;
     const usedText = new Map();
     const lessonKeys = new Set();
     for (const n of nodes) {
+      if (HEADINGS.has(n.kind)) continue;                                     // a part of the document, never a line
       const rows = R.rowsOf.get(n.id) || [];
       const isLeaf = !R.hasChild.has(n.id);
-      if (!rows.length && !isLeaf) continue;                                  // a heading of the document
-      const parentRows = n.parent ? R.rowsOf.get(n.parent) || [] : [];
+      if (!rows.length && !isLeaf) continue;                                  // an objective that only holds its parts
       const g = groupOf(n);
       const code = shown(R.registry, n).code;
-      if (!rows.length) { if (!parentRows.length) { g.open.push(code); open++; } continue; }   // covered through its parent, or open
+      if (!rows.length) { g.open.push(code); open++; continue; }              // nothing of ours names this objective
       const state = rows.some((r) => r.rel === 'teaches') ? 'taught' : 'near';
       const use = rows.filter((r) => (state === 'taught' ? r.rel === 'teaches' : true));
       const lessons = [], papers = [];
@@ -134,7 +143,7 @@ function assemble(loc) {
       const ruling = rulings[d.id + ' / ' + code];
       if (ruling) usedRulings.add(d.id + ' / ' + code);
       if (ruling && ruling.verdict === 'drop') { g.open.push(code); open++; continue; }
-      const item = { code, state: ruling && (ruling.verdict === 'prepares' || ruling.verdict === 'extends') ? 'near' : state, text: (ruling && ruling.verdict === 'describe' && ruling.text) || lessonText || skillText };
+      const item = { code, state: ruling && (ruling.verdict === 'prepares' || ruling.verdict === 'extends') ? 'near' : ruling && ruling.verdict === 'teaches' ? 'taught' : state, text: (ruling && ruling.text) || lessonText || skillText };
       if (item.state === 'near') item.rel = ruling && (ruling.verdict === 'prepares' || ruling.verdict === 'extends') ? ruling.verdict : rows.some((r) => r.rel === 'prepares') ? 'prepares' : 'extends';
       // the lessons of one unit in the order of the unit; the units in the order they were found
       const unitOrder = [...new Set(lessons.map((l) => l.unit))];
@@ -144,6 +153,8 @@ function assemble(loc) {
       g.items.push(item);
       if (item.state === 'taught') taught++; else near++;
     }
+    groups.sort((a, b) => a.order - b.order);
+    for (const g of groups) { g.items.sort((a, b) => natural(a.code, b.code)); g.open.sort(natural); }
     const kept = groups.filter((g) => g.items.length || g.open.length).map((g) => { const o = { title: g.title, items: g.items }; if (g.open.length) o.open = g.open; return o; });
     if (taught < MIN_TAUGHT) bad(where + ': ' + taught + ' taught objectives (a page needs ' + MIN_TAUGHT + ')');
     for (const g of kept) for (const it of g.items) if (!it.text) bad(where + ': ' + it.code + ' has no description');
@@ -153,7 +164,7 @@ function assemble(loc) {
       counts: { objectives: taught + near + open, taught, near, open, lessons: lessonKeys.size }, groups: kept,
     });
   }
-  for (const k of Object.keys(rulings)) { if (!usedRulings.has(k)) bad(loc + ': the ruling for ' + k + ' names no line of a page'); const v = rulings[k]; if (!['drop', 'prepares', 'extends', 'describe'].includes(v.verdict) || (v.verdict === 'describe' && !v.text) || !v.why) bad(loc + ': the ruling for ' + k + ' is not a verdict with its reason'); }
+  for (const k of Object.keys(rulings)) { if (!usedRulings.has(k)) bad(loc + ': the ruling for ' + k + ' names no line of a page'); const v = rulings[k]; if (!['drop', 'prepares', 'extends', 'teaches', 'describe'].includes(v.verdict) || (v.verdict === 'describe' && !v.text) || !v.why) bad(loc + ': the ruling for ' + k + ' is not a verdict with its reason'); }
   return { file: { $comment: 'GENERATED by scripts/curriculum-pages/assemble.js from defs/' + loc + '.json, the curriculum registry, the units and the content graph. Do not edit by hand.', locale: loc, pages }, problems };
 }
 const fileText = (f) => JSON.stringify(f, null, 1) + '\n';

@@ -6,6 +6,7 @@
 import '@/components/units/units.css';
 import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import { getTranslations } from 'next-intl/server';
+import { getCurriculumUi, listedCurriculumPages } from '@/lib/curriculum-pages';
 import { canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
@@ -21,6 +22,8 @@ export default async function UnitsHub({ locale, ui, units, plans, live }: { loc
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
   ]);
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
+  const [cuListed, cuUi] = await Promise.all([listedCurriculumPages(locale), getCurriculumUi(locale)]);
+  const checklists = cuListed.live && cuUi ? cuUi.hubTitle : null;
   const subjectLabel = (s: string) => ui[`subject_${s}`] || s;
   const url = canonicalUrl(localePath(locale, 'units'));
 
@@ -105,6 +108,8 @@ export default async function UnitsHub({ locale, ui, units, plans, live }: { loc
         ))}
 
         <p className="un-hub-note">{fill(ui.hubPlanNote, { plan: tTier('name') })}</p>
+        {/* the standards checklists of the language (Part 6), once they are published */}
+        {checklists ? <p className="un-hub-note"><a href={`/${locale}/curriculum`}>{checklists}</a></p> : null}
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />

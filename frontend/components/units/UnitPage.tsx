@@ -14,12 +14,13 @@ import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { makerAppUrl } from '@/lib/makers/landings';
 import { teacherFileHref } from '@/lib/teacher-files';
 import { Unit, UnitLesson, UnitPlan, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
+import { curriculumCodeLinks } from '@/lib/curriculum-pages';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
-function Standards({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
+function Standards({ lesson, ui, codeLinks }: { lesson: UnitLesson; ui: UnitUi; codeLinks: Record<string, string> }) {
   if (!lesson.standards.length) return null;
   const label = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
   return (
@@ -27,7 +28,10 @@ function Standards({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
       {lesson.standards.map((s, i) => (
         <li key={i} className={`un-standard un-standard-${s.rel}`}>
           <span className="un-standard-rel">{label[s.rel]}</span>
-          <span className="un-standard-code">{[s.framework, s.code].filter(Boolean).join(' ')}</span>
+          {/* a code that stands on a live curriculum page of the language links to its line there (Part 6) */}
+          {s.code && codeLinks[`${s.framework} ${s.code}`]
+            ? <a className="un-standard-code un-standard-link" href={codeLinks[`${s.framework} ${s.code}`]}>{[s.framework, s.code].filter(Boolean).join(' ')}</a>
+            : <span className="un-standard-code">{[s.framework, s.code].filter(Boolean).join(' ')}</span>}
           {s.title ? <span className="un-standard-title">{s.title}</span> : null}
         </li>
       ))}
@@ -35,14 +39,14 @@ function Standards({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   );
 }
 
-function Lesson({ lesson, locale, ui }: { lesson: UnitLesson; locale: string; ui: UnitUi }) {
+function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale: string; ui: UnitUi; codeLinks: Record<string, string> }) {
   return (
     <section className="un-lesson" id={`lesson-${lesson.n}`} aria-labelledby={`lesson-${lesson.n}-title`}>
       <header className="un-lesson-head">
         <p className="un-lesson-no">{fill(ui.lessonWord, { n: lesson.n })}</p>
         <h3 id={`lesson-${lesson.n}-title`} className="un-lesson-title">{lesson.title}</h3>
         <p className="un-lesson-objective">{lesson.objective}</p>
-        <Standards lesson={lesson} ui={ui} />
+        <Standards lesson={lesson} ui={ui} codeLinks={codeLinks} />
       </header>
 
       <div className="un-slots">
@@ -116,6 +120,7 @@ function Lesson({ lesson, locale, ui }: { lesson: UnitLesson; locale: string; ui
 }
 
 export default async function UnitPage({ locale, unit, ui, plan }: { locale: string; unit: Unit; ui: UnitUi; plan: UnitPlan | null }) {
+  const codeLinks = await curriculumCodeLinks(locale);
   const [tLevel, tTier] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
@@ -227,7 +232,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
         </div>
 
         <h2 className="un-lessons-title">{ui.lessonsTitle}</h2>
-        {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} />)}
+        {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} codeLinks={codeLinks} />)}
 
         {prev || next ? (
           <nav className="un-around" aria-label={plan ? plan.title : undefined}>

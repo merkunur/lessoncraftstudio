@@ -708,11 +708,19 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches"
+     "rel": "extends"
     }
    ],
-   "why": "1.5.E: understand that the equal sign represents a relationship where the expressions on each side represent the same value; 8 = 5 + 3 and 9 - 2 = 3 + 4 are the test cases.",
-   "review": "author-math"
+   "why": "1.5.E: understand that the equal sign represents a relationship where the expressions on each side represent the same value; 8 = 5 + 3 and 9 - 2 = 3 + 4 are the test cases. [pages-review en.review.json, 1.5.E extends] The only lesson is a Grade 3 lesson in a within-1,000 unit; nothing at first-grade level teaches the equal sign.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.5.E",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:bar-model": {
    "rows": [
@@ -814,11 +822,23 @@
     },
     {
      "id": "2.4.A",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "The make-a-ten strategy within 20 is named in 1.3.D. Texas places mental fluency itself in grade 2: 2.4.A, recall basic facts to add and subtract within 20 with automaticity.",
-   "review": "author-math"
+   "why": "The make-a-ten strategy within 20 is named in 1.3.D. Texas places mental fluency itself in grade 2: 2.4.A, recall basic facts to add and subtract within 20 with automaticity. [pages-review en.review.json, 2.4.A prepares] The only lesson is a Grade 1 lesson on facts within 10; the expectation is automatic recall within 20.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.3.D",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.4.A",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:number-walls": {
    "rows": [
@@ -838,15 +858,27 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "1.3.D",
      "rel": "teaches"
     }
    ],
-   "why": "Deciding whether a worked equation is right is judging whether both sides of the equal sign have the same value (1.5.E), and the child recomputes the fact (1.3.D). Range judged by grade 1 as within 20.",
-   "review": "author-math"
+   "why": "Deciding whether a worked equation is right is judging whether both sides of the equal sign have the same value (1.5.E), and the child recomputes the fact (1.3.D). Range judged by grade 1 as within 20. [pages-review en.review.json, 1.5.E extends] The only lesson is a Grade 3 lesson in a within-1,000 unit; nothing at first-grade level teaches the equal sign.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.5.E",
+      "rel": "teaches"
+     },
+     {
+      "id": "1.3.D",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:bar-graphs": {
    "rows": [
@@ -1100,7 +1132,7 @@
    "rows": [
     {
      "id": "2.2.E",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "2.2.F",
@@ -1111,8 +1143,24 @@
      "rel": "prepares"
     }
    ],
-   "why": "Locating a number (2.2.E) and naming the number at a point (2.2.F) on a number line. The line here has ticks with only some labels rather than being fully open. Starting at 40 or 60 prepares distances from any given location (2.9.C).",
-   "review": "author-math"
+   "why": "Locating a number (2.2.E) and naming the number at a point (2.2.F) on a number line. The line here has ticks with only some labels rather than being fully open. Starting at 40 or 60 prepares distances from any given location (2.9.C). [pages-review en.review.json, 2.2.E prepares] Children read the number at an arrow, which is 2.2.F; they do not place a given number on an open number line.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.2.E",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.2.F",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.9.C",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:2d-attributes": {
    "rows": [
@@ -1138,15 +1186,27 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "3.4.A",
      "rel": "prepares"
     }
    ],
-   "why": "2.4.C: solve one-step and multi-step word problems involving addition and subtraction; Texas goes to 1,000, the sheets to 100. They prepare the fluent one- and two-step problems within 1,000 of 3.4.A.",
-   "review": "author-math"
+   "why": "2.4.C: solve one-step and multi-step word problems involving addition and subtraction; Texas goes to 1,000, the sheets to 100. They prepare the fluent one- and two-step problems within 1,000 of 3.4.A. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.4.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:measure-with-ruler": {
    "rows": [
@@ -1313,29 +1373,53 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "2.4.B",
      "rel": "extends"
     }
    ],
-   "why": "In grade 2 Texas names addition within 1,000 only in 2.4.C (problems solved with strategies based on place value); the blocks are that strategy, without the word-problem setting. It goes beyond the two-digit numbers of 2.4.B.",
-   "review": "author-math"
+   "why": "In grade 2 Texas names addition within 1,000 only in 2.4.C (problems solved with strategies based on place value); the blocks are that strategy, without the word-problem setting. It goes beyond the two-digit numbers of 2.4.B. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.4.B",
+      "rel": "extends"
+     }
+    ]
+   }
   },
   "2:subtract-with-blocks": {
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "2.4.B",
      "rel": "extends"
     }
    ],
-   "why": "Subtraction within 1,000 with a place-value strategy is the computing part of 2.4.C, here without the word-problem setting; it goes beyond the two-digit subtraction of 2.4.B.",
-   "review": "author-math"
+   "why": "Subtraction within 1,000 with a place-value strategy is the computing part of 2.4.C, here without the word-problem setting; it goes beyond the two-digit subtraction of 2.4.B. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.4.B",
+      "rel": "extends"
+     }
+    ]
+   }
   },
   "2:column-method": {
    "rows": [
@@ -1345,29 +1429,57 @@
     },
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "4.4.A",
      "rel": "prepares"
     }
    ],
-   "why": "2.4.B names algorithms based on place value for two-digit numbers, and 2.4.C names algorithms within 1,000. The column method becomes the standard algorithm of 4.4.A.",
-   "review": "author-math"
+   "why": "2.4.B names algorithms based on place value for two-digit numbers, and 2.4.C names algorithms within 1,000. The column method becomes the standard algorithm of 4.4.A. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.4.B",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "4.4.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:shopping-money": {
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "4.8.C",
      "rel": "prepares"
     }
    ],
-   "why": "Adding prices, finding how much more and making change are one-step and multi-step addition and subtraction problems (2.4.C); Texas names money problems as such in 4.8.C. The skill line does not say coins are counted or how prices are written, so 2.5.A and 2.5.B are not claimed.",
-   "review": "author-math"
+   "why": "Adding prices, finding how much more and making change are one-step and multi-step addition and subtraction problems (2.4.C); Texas names money problems as such in 4.8.C. The skill line does not say coins are counted or how prices are written, so 2.5.A and 2.5.B are not claimed. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "4.8.C",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:bar-graphs": {
    "rows": [
@@ -1631,15 +1743,31 @@
     },
     {
      "id": "2.4.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "4.4.A",
      "rel": "prepares"
     }
    ],
-   "why": "Addition and subtraction within 1,000 with place-value strategies is 3.4.A, and the algorithm is already named in 2.4.C. The standard algorithm itself is named in 4.4.A.",
-   "review": "author-math"
+   "why": "Addition and subtraction within 1,000 with place-value strategies is 3.4.A, and the algorithm is already named in 2.4.C. The standard algorithm itself is named in 4.4.A. [pages-review en.review.json, 2.4.C prepares] The lessons teach adding and subtracting with blocks and in columns, not word problems; the Common Core page lists Grade 2 word problems (2.OA.A.1) as not covered.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "3.4.A",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.4.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "4.4.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "3:estimate-by-rounding": {
    "rows": [
@@ -1674,10 +1802,6 @@
   "3:arithmetic-patterns": {
    "rows": [
     {
-     "id": "3.5",
-     "rel": "teaches"
-    },
-    {
      "id": "4.5.B",
      "rel": "prepares"
     },
@@ -1686,8 +1810,24 @@
      "rel": "extends"
     }
    ],
-   "why": "No single grade 3 expectation asks for continuing a number pattern, but the strand statement 3.5 (analyze and create patterns and relationships) does. It prepares number patterns that follow a given rule (4.5.B) and goes beyond 10 or 100 more or less (2.7.B).",
-   "review": "author-math"
+   "why": "No single grade 3 expectation asks for continuing a number pattern, but the strand statement 3.5 (analyze and create patterns and relationships) does. It prepares number patterns that follow a given rule (4.5.B) and goes beyond 10 or 100 more or less (2.7.B). [pages-review en.review.json, 3.5 removed] '3.5' is the heading statement, not a student expectation; number patterns sit closest to 3.5.E, and 3.5.A and 3.5.C are missing from the page.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "3.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "4.5.B",
+      "rel": "prepares"
+     },
+     {
+      "id": "2.7.B",
+      "rel": "extends"
+     }
+    ]
+   }
   },
   "3:time-to-minute": {
    "rows": [
@@ -1751,15 +1891,27 @@
    "rows": [
     {
      "id": "3.8.A",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "3.8.B",
      "rel": "teaches"
     }
    ],
-   "why": "3.8.A: summarize a data set using a pictograph or bar graph with scaled intervals; reading them to answer questions is 3.8.B.",
-   "review": "author-math"
+   "why": "3.8.A: summarize a data set using a pictograph or bar graph with scaled intervals; reading them to answer questions is 3.8.B. [pages-review en.review.json, 3.8.A prepares] Children read finished scaled graphs (that is 3.8.B); they do not organize a data set into a table or graph themselves.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "3.8.A",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.8.B",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:thermometer": {
    "rows": [
@@ -1845,15 +1997,27 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "1.5.F",
      "rel": "teaches"
     }
    ],
-   "why": "Texas states both ideas in grade 1: the equal sign as the same value on each side (1.5.E) and an unknown as any one of three or four terms (1.5.F). The skill line does not give the operations or the number range used in grade 3.",
-   "review": "author-math"
+   "why": "Texas states both ideas in grade 1: the equal sign as the same value on each side (1.5.E) and an unknown as any one of three or four terms (1.5.F). The skill line does not give the operations or the number range used in grade 3. [pages-review en.review.json, 1.5.E extends] The only lesson is a Grade 3 lesson in a within-1,000 unit; nothing at first-grade level teaches the equal sign.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.5.E",
+      "rel": "teaches"
+     },
+     {
+      "id": "1.5.F",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:add-subtract-time": {
    "rows": [
@@ -2014,15 +2178,27 @@
    "rows": [
     {
      "id": "3.3.D",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "3.3.A",
      "rel": "teaches"
     }
    ],
-   "why": "3.3.D: compose and decompose a fraction a/b as a sum of parts 1/b; shading it is representing the fraction with a pictorial model (3.3.A). Texas limits denominators to 2, 3, 4, 6 and 8.",
-   "review": "author-math"
+   "why": "3.3.D: compose and decompose a fraction a/b as a sum of parts 1/b; shading it is representing the fraction with a pictorial model (3.3.A). Texas limits denominators to 2, 3, 4, 6 and 8. [pages-review en.review.json, 3.3.D prepares] Naming and shading a fraction leads up to this code; children do not write a fraction as a sum of unit fractions.",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "3.3.D",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.3.A",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "3:whole-from-unit": {
    "rows": [
@@ -2050,11 +2226,27 @@
     },
     {
      "id": "3.3.B",
-     "rel": "prepares"
+     "rel": "teaches"
     }
    ],
-   "why": "3.3.A names number lines as a model for fractions between 0 and 1; placing by counting equal spaces from 0 is 3.7.A for halves, fourths and eighths. Reading the fraction at a given point (3.3.B) is the reverse task.",
-   "review": "author-math"
+   "why": "3.3.A names number lines as a model for fractions between 0 and 1; placing by counting equal spaces from 0 is 3.7.A for halves, fourths and eighths. Reading the fraction at a given point (3.3.B) is the reverse task. [pages-review en.review.json, 3.3.B teaches] The lesson does what this code asks (the reviewer: leads up to under-claims).",
+   "review": "author-math",
+   "was": {
+    "rows": [
+     {
+      "id": "3.3.A",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.7.A",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.3.B",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "3:compare-fractions": {
    "rows": [
@@ -2140,15 +2332,27 @@
    "rows": [
     {
      "id": "ELAR.K.10.B",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.K.11.A",
      "rel": "prepares"
     }
    ],
-   "why": "A self-portrait page with favorite things is a draft 'in oral, pictorial, or written form' with ideas organized under prompts; it tells about the child but is not yet a personal narrative, so the composing expectation is only prepared.",
-   "review": "author-elar-science"
+   "why": "A self-portrait page with favorite things is a draft 'in oral, pictorial, or written form' with ideas organized under prompts; it tells about the child but is not yet a personal narrative, so the composing expectation is only prepared. [pages-review en.review.json, ELAR.K.10.B prepares] A fill-in 'All about me' page is not drafting by organizing ideas; the same lesson is already a lead-up under K.11.A.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.K.10.B",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.11.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:rhyme": {
    "rows": [
@@ -2242,15 +2446,27 @@
    "rows": [
     {
      "id": "ELAR.K.3.B",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.2.3.D",
      "rel": "prepares"
     }
    ],
-   "why": "Texas first names antonyms in grade 2 ('identify, use, and explain the meaning of antonyms ... in context'); picture matching is the readiness step, and in kindergarten it is a use of illustrations 'to learn or clarify word meanings'.",
-   "review": "author-elar-science"
+   "why": "Texas first names antonyms in grade 2 ('identify, use, and explain the meaning of antonyms ... in context'); picture matching is the readiness step, and in kindergarten it is a use of illustrations 'to learn or clarify word meanings'. [pages-review en.review.json, ELAR.K.3.B prepares] Matching pictures of opposites builds vocabulary but does not have children use pictures or a text to work out what a word means.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.K.3.B",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.3.D",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:alphabet-order": {
    "rows": [
@@ -2316,15 +2532,27 @@
    "rows": [
     {
      "id": "ELAR.K.3.B",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.K.3.A",
      "rel": "prepares"
     }
    ],
-   "why": "A picture word card is an illustration used 'to learn or clarify word meanings', and a word wall of such cards works like the picture dictionary the child will 'use ... to find words'. The second language itself belongs to Texas's English Language Proficiency Standards, which this registry does not hold.",
-   "review": "author-elar-science"
+   "why": "A picture word card is an illustration used 'to learn or clarify word meanings', and a word wall of such cards works like the picture dictionary the child will 'use ... to find words'. The second language itself belongs to Texas's English Language Proficiency Standards, which this registry does not hold. [pages-review en.review.json, ELAR.K.3.B prepares] Matching pictures of opposites builds vocabulary but does not have children use pictures or a text to work out what a word means.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.K.3.B",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.3.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:segment-phonemes": {
    "rows": [
@@ -2405,16 +2633,28 @@
      "rel": "teaches"
     },
     {
-     "id": "ELAR.K.2.D.iii",
-     "rel": "teaches"
-    },
-    {
      "id": "ELAR.1.2.F",
      "rel": "prepares"
     }
    ],
-   "why": "Tracing and copying words forms letters with directionality and shows that 'sentences are comprised of words separated by spaces'; printing words and sentences legibly with spaces on one's own is the grade 1 handwriting expectation this leads to.",
-   "review": "author-elar-science"
+   "why": "Tracing and copying words forms letters with directionality and shows that 'sentences are comprised of words separated by spaces'; printing words and sentences legibly with spaces on one's own is the grade 1 handwriting expectation this leads to. [pages-review en.review.json, ELAR.K.2.D.iii removed] Tracing and writing single words does not teach that sentences are made of words separated by spaces.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.K.2.E",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.2.D.iii",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.2.F",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "K:articles": {
    "rows": [
@@ -2489,16 +2729,28 @@
      "rel": "teaches"
     },
     {
-     "id": "ELAR.K.2.A.v",
-     "rel": "teaches"
-    },
-    {
      "id": "ELAR.2.2.B.v",
      "rel": "prepares"
     }
    ],
-   "why": "Texas places clapping, segmenting and blending syllables in kindergarten phonological awareness and has no grade 1 expectation for it; splitting written words into syllable cards is the step before grade 2 'decoding words using knowledge of syllable division patterns'.",
-   "review": "author-elar-science"
+   "why": "Texas places clapping, segmenting and blending syllables in kindergarten phonological awareness and has no grade 1 expectation for it; splitting written words into syllable cards is the step before grade 2 'decoding words using knowledge of syllable division patterns'. [pages-review en.review.json, ELAR.K.2.A.v removed] The lesson breaks words into syllables (already claimed under K.2.A.iv and K.2.A.vi); nothing blends syllables into words.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.K.2.A.vi",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.2.A.v",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.2.B.v",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:syllable-vowel": {
    "rows": [
@@ -2565,16 +2817,24 @@
   "1:read-and-follow": {
    "rows": [
     {
-     "id": "ELAR.1.4",
-     "rel": "teaches"
-    },
-    {
      "id": "ELAR.1.3.D",
      "rel": "teaches"
     }
    ],
-   "why": "No single expectation covers read-and-do, but the strand statement 'reads grade-level text with fluency and comprehension' does: the child must read accurately and prove understanding by acting. The first/second/between pages use 'words that name ... positions, sequences'.",
-   "review": "author-elar-science"
+   "why": "No single expectation covers read-and-do, but the strand statement 'reads grade-level text with fluency and comprehension' does: the child must read accurately and prove understanding by acting. The first/second/between pages use 'words that name ... positions, sequences'. [pages-review en.review.json, ELAR.1.4 removed] Reading a sentence and doing what it says checks understanding; it is not practice of reading rate, accuracy, or expression.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.3.D",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:cloze": {
    "rows": [
@@ -2583,16 +2843,28 @@
      "rel": "teaches"
     },
     {
-     "id": "ELAR.1.4",
-     "rel": "teaches"
-    },
-    {
      "id": "ELAR.2.3.B",
      "rel": "prepares"
     }
    ],
-   "why": "Choosing the word that fits a sentence or picture is using 'illustrations and texts the student is able to read ... to learn or clarify word meanings' and reading with comprehension; Texas names sentence context as a strategy in grade 2.",
-   "review": "author-elar-science"
+   "why": "Choosing the word that fits a sentence or picture is using 'illustrations and texts the student is able to read ... to learn or clarify word meanings' and reading with comprehension; Texas names sentence context as a strategy in grade 2. [pages-review en.review.json, ELAR.1.4 removed] Reading a sentence and doing what it says checks understanding; it is not practice of reading rate, accuracy, or expression.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.3.B",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.3.B",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:synonyms": {
    "rows": [
@@ -2631,20 +2903,28 @@
     {
      "id": "ELAR.1.6.B",
      "rel": "prepares"
-    },
-    {
-     "id": "ELAR.1.1.A",
-     "rel": "prepares"
     }
    ],
-   "why": "Texas has no expectation on question words; who, what and where are the tools for 'generate questions about text' and for asking and answering questions in discussion, both of which a paper page can only prepare.",
-   "review": "author-elar-science"
+   "why": "Texas has no expectation on question words; who, what and where are the tools for 'generate questions about text' and for asking and answering questions in discussion, both of which a paper page can only prepare. [pages-review en.review.json, ELAR.1.1.A removed] A written question-word page does not address a listening and speaking expectation; the Common Core pages rightly leave Speaking and Listening uncovered.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.6.B",
+      "rel": "prepares"
+     },
+     {
+      "id": "ELAR.1.1.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:story-sequencing": {
    "rows": [
     {
      "id": "ELAR.1.7.D",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.1.8.C",
@@ -2655,8 +2935,24 @@
      "rel": "prepares"
     }
    ],
-   "why": "Ordering a story's sentences to its pictures retells it 'in ways that maintain meaning'; drawing the middle works on the main events of the plot, and what-happens-next is the first step of making predictions.",
-   "review": "author-elar-science"
+   "why": "Ordering a story's sentences to its pictures retells it 'in ways that maintain meaning'; drawing the middle works on the main events of the plot, and what-happens-next is the first step of making predictions. [pages-review en.review.json, ELAR.1.7.D prepares] Ordering the sentences of a story leads up to retelling; the Kindergarten page rates the same kind of lesson as a lead-up.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.7.D",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.8.C",
+      "rel": "prepares"
+     },
+     {
+      "id": "ELAR.1.6.C",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:word-classes": {
    "rows": [
@@ -2670,15 +2966,35 @@
     },
     {
      "id": "ELAR.K.10.D.ii",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "ELAR.1.3.D",
      "rel": "teaches"
     }
    ],
-   "why": "Texas names the parts of speech only as conventions inside editing: nouns and adjectives in grade 1, plain 'verbs' in kindergarten (the grade 1 verb line is about tense). Telling a verb from a noun is also identifying 'words that name actions'.",
-   "review": "author-elar-science"
+   "why": "Texas names the parts of speech only as conventions inside editing: nouns and adjectives in grade 1, plain 'verbs' in kindergarten (the grade 1 verb line is about tense). Telling a verb from a noun is also identifying 'words that name actions'. [pages-review en.review.json, ELAR.K.10.D.ii extends] Sorting words by part of speech in Grade 1 and Grade 2 lessons goes beyond editing Kindergarten drafts for verbs with adult help.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.11.D.iii",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.11.D.iv",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.10.D.ii",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.3.D",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:pronouns": {
    "rows": [
@@ -2704,15 +3020,27 @@
    "rows": [
     {
      "id": "ELAR.1.3.C",
-     "rel": "prepares"
+     "rel": "extends"
     },
     {
      "id": "ELAR.1.2.B.v",
      "rel": "prepares"
     }
    ],
-   "why": "Seeing the picture word inside a longer word is the idea before 'identify the meaning of words with the affixes -s, -ed, and -ing' and before decoding words with inflectional endings. The skill line does not say which endings are used, so nothing stronger is claimed.",
-   "review": "author-elar-science"
+   "why": "Seeing the picture word inside a longer word is the idea before 'identify the meaning of words with the affixes -s, -ed, and -ing' and before decoding words with inflectional endings. The skill line does not say which endings are used, so nothing stronger is claimed. [pages-review en.review.json, ELAR.1.3.C extends] The only lesson is a Grade 3 lesson that also uses -er word forms; nothing at first-grade level teaches -s, -ed, and -ing.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.1.3.C",
+      "rel": "prepares"
+     },
+     {
+      "id": "ELAR.1.2.B.v",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "1:story-writing": {
    "rows": [
@@ -2793,14 +3121,22 @@
     {
      "id": "ELAR.2.6.B",
      "rel": "prepares"
-    },
-    {
-     "id": "ELAR.2.1.A",
-     "rel": "prepares"
     }
    ],
-   "why": "Texas has no expectation on question words; knowing which word asks for a person, a place, a reason or a way prepares 'generate questions about text' and asking relevant questions.",
-   "review": "author-elar-science"
+   "why": "Texas has no expectation on question words; knowing which word asks for a person, a place, a reason or a way prepares 'generate questions about text' and asking relevant questions. [pages-review en.review.json, ELAR.2.1.A removed] Writing a question on paper does not address a listening and speaking expectation.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.6.B",
+      "rel": "prepares"
+     },
+     {
+      "id": "ELAR.2.1.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:read-and-answer": {
    "rows": [
@@ -2809,16 +3145,28 @@
      "rel": "teaches"
     },
     {
-     "id": "ELAR.2.4",
-     "rel": "teaches"
-    },
-    {
      "id": "ELAR.2.8.C",
      "rel": "prepares"
     }
    ],
-   "why": "Answering with details from the story is 'use text evidence to support an appropriate response' and reading 'with fluency and comprehension'; who, what, where and when are the facts a child needs before describing plot elements.",
-   "review": "author-elar-science"
+   "why": "Answering with details from the story is 'use text evidence to support an appropriate response' and reading 'with fluency and comprehension'; who, what, where and when are the facts a child needs before describing plot elements. [pages-review en.review.json, ELAR.2.4 removed] Answering questions about a story is comprehension, not fluency (rate, accuracy, expression); the Common Core page lists fluency as not covered.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.7.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.8.C",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:describe-a-picture": {
    "rows": [
@@ -2846,15 +3194,35 @@
     },
     {
      "id": "ELAR.K.10.D.ii",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "ELAR.2.11.D.ii",
      "rel": "prepares"
     }
    ],
-   "why": "Nouns and adjectives are grade 2 conventions; the plain convention 'verbs' is worded only in kindergarten, and finding the verb is the step before the grade 2 line on verb tense.",
-   "review": "author-elar-science"
+   "why": "Nouns and adjectives are grade 2 conventions; the plain convention 'verbs' is worded only in kindergarten, and finding the verb is the step before the grade 2 line on verb tense. [pages-review en.review.json, ELAR.K.10.D.ii extends] Sorting words by part of speech in Grade 1 and Grade 2 lessons goes beyond editing Kindergarten drafts for verbs with adult help.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.11.D.iii",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.11.D.iv",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.K.10.D.ii",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.11.D.ii",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:plural-nouns": {
    "rows": [
@@ -3032,35 +3400,63 @@
     },
     {
      "id": "ELAR.2.11.D.v",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.2.12.A",
      "rel": "prepares"
     }
    ],
-   "why": "The strand covers sources that are 'viewed'; retelling the picture story in order is 'retell ... in ways that maintain meaning and logical order'. First, Next, Then organize 'with structure' and are 'adverbs that convey time'; the result is a scaffolded step toward composing a literary text.",
-   "review": "author-elar-science"
+   "why": "The strand covers sources that are 'viewed'; retelling the picture story in order is 'retell ... in ways that maintain meaning and logical order'. First, Next, Then organize 'with structure' and are 'adverbs that convey time'; the result is a scaffolded step toward composing a literary text. [pages-review en.review.json, ELAR.2.11.D.v prepares] Children start sentences with time-order words that are given; adverbs of time and place are not taught as such.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.7.D",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.11.B.i",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.11.D.v",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.12.A",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:mystery-animal": {
    "rows": [
     {
      "id": "ELAR.2.6.F",
      "rel": "teaches"
-    },
-    {
-     "id": "ELAR.2.6.H",
-     "rel": "teaches"
     }
    ],
-   "why": "Each clue is evidence for an inference ('make inferences and use evidence to support understanding'), and putting the clues together to name the animal is 'synthesize information to create new understanding'.",
-   "review": "author-elar-science"
+   "why": "Each clue is evidence for an inference ('make inferences and use evidence to support understanding'), and putting the clues together to name the animal is 'synthesize information to create new understanding'. [pages-review en.review.json, ELAR.2.6.H removed] One riddle worksheet, already claimed under 2.6.F, does not teach synthesizing information from a text.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.6.F",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.6.H",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:animal-fact-file": {
    "rows": [
     {
      "id": "ELAR.2.13.C",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "ELAR.2.13.E",
@@ -3075,8 +3471,28 @@
      "rel": "prepares"
     }
    ],
-   "why": "Collecting facts under set headings is 'gather relevant ... information to answer the questions' and shows 'understanding of information gathered'; the file is the notes for a report. Recording what the animal eats and how it moves is the recording half of the science line on animal structures and behaviors.",
-   "review": "author-elar-science"
+   "why": "Collecting facts under set headings is 'gather relevant ... information to answer the questions' and shows 'understanding of information gathered'; the file is the notes for a report. Recording what the animal eats and how it moves is the recording half of the science line on animal structures and behaviors. [pages-review en.review.json, ELAR.2.13.C prepares] Children choose among facts that are given to them; they do not find or pick sources of information.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.2.13.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.13.E",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.2.12.B",
+      "rel": "prepares"
+     },
+     {
+      "id": "SCI.2.13.B",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:compare-two-animals": {
    "rows": [
@@ -3154,11 +3570,27 @@
     },
     {
      "id": "ELAR.1.3.C",
-     "rel": "teaches"
+     "rel": "extends"
     }
    ],
-   "why": "Choosing bake, baker, baking or baked for a sentence is using words with affixes and reading them by their suffixes; the -ing and -ed forms are affixes whose meaning Texas already asks for in grade 1.",
-   "review": "author-elar-science"
+   "why": "Choosing bake, baker, baking or baked for a sentence is using words with affixes and reading them by their suffixes; the -ing and -ed forms are affixes whose meaning Texas already asks for in grade 1. [pages-review en.review.json, ELAR.1.3.C extends] The only lesson is a Grade 3 lesson that also uses -er word forms; nothing at first-grade level teaches -s, -ed, and -ing.",
+   "review": "author-elar-science",
+   "was": {
+    "rows": [
+     {
+      "id": "ELAR.3.3.C",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.3.2.A.vi",
+      "rel": "teaches"
+     },
+     {
+      "id": "ELAR.1.3.C",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "K:human-body": {
    "rows": [

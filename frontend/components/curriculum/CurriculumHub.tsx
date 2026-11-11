@@ -24,7 +24,7 @@ export default async function CurriculumHub({ locale, ui, pages, live }: { local
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
   const url = canonicalUrl(localePath(locale, 'curriculum'));
   const sets = curriculumSets(pages);
-  const setTitle = (s: { frameworkShort: string; subject: string }) => `${s.frameworkShort} · ${ui[`subject_${s.subject}`] || s.subject}`;
+  const setTitle = (s: { key: string; frameworkShort: string; subject: string }) => `${s.frameworkShort} · ${ui[`subject_${s.subject}_${s.key.split('-')[0]}`] || ui[`subject_${s.subject}`] || s.subject}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',

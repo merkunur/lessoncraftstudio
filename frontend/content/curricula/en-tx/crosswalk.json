@@ -729,7 +729,7 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     }
    ],
@@ -829,7 +829,7 @@
     },
     {
      "id": "2.4.A",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
@@ -854,7 +854,7 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     },
     {
@@ -1139,7 +1139,7 @@
    "rows": [
     {
      "id": "2.2.E",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1179,7 +1179,7 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1363,7 +1363,7 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1378,7 +1378,7 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1398,7 +1398,7 @@
     },
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1413,7 +1413,7 @@
    "rows": [
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1703,7 +1703,7 @@
     },
     {
      "id": "2.4.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -1746,11 +1746,6 @@
   },
   "3:arithmetic-patterns": {
    "rows": [
-    {
-     "id": "3.5",
-     "rel": "teaches",
-     "grade": "3"
-    },
     {
      "id": "4.5.B",
      "rel": "prepares",
@@ -1828,7 +1823,7 @@
    "rows": [
     {
      "id": "3.8.A",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
@@ -1928,7 +1923,7 @@
    "rows": [
     {
      "id": "1.5.E",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     },
     {
@@ -2107,7 +2102,7 @@
    "rows": [
     {
      "id": "3.3.D",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "3"
     },
     {
@@ -2147,7 +2142,7 @@
     },
     {
      "id": "3.3.B",
-     "rel": "prepares",
+     "rel": "teaches",
      "grade": "3"
     }
    ],
@@ -2242,7 +2237,7 @@
    "rows": [
     {
      "id": "ELAR.K.10.B",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "K"
     },
     {
@@ -2347,7 +2342,7 @@
    "rows": [
     {
      "id": "ELAR.K.3.B",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "K"
     },
     {
@@ -2427,7 +2422,7 @@
    "rows": [
     {
      "id": "ELAR.K.3.B",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "K"
     },
     {
@@ -2521,11 +2516,6 @@
      "grade": "K"
     },
     {
-     "id": "ELAR.K.2.D.iii",
-     "rel": "teaches",
-     "grade": "K"
-    },
-    {
      "id": "ELAR.1.2.F",
      "rel": "prepares",
      "grade": "1"
@@ -2611,11 +2601,6 @@
      "grade": "K"
     },
     {
-     "id": "ELAR.K.2.A.v",
-     "rel": "teaches",
-     "grade": "K"
-    },
-    {
      "id": "ELAR.2.2.B.v",
      "rel": "prepares",
      "grade": "2"
@@ -2691,11 +2676,6 @@
   "1:read-and-follow": {
    "rows": [
     {
-     "id": "ELAR.1.4",
-     "rel": "teaches",
-     "grade": "1"
-    },
-    {
      "id": "ELAR.1.3.D",
      "rel": "teaches",
      "grade": "1"
@@ -2707,11 +2687,6 @@
    "rows": [
     {
      "id": "ELAR.1.3.B",
-     "rel": "teaches",
-     "grade": "1"
-    },
-    {
-     "id": "ELAR.1.4",
      "rel": "teaches",
      "grade": "1"
     },
@@ -2764,11 +2739,6 @@
      "id": "ELAR.1.6.B",
      "rel": "prepares",
      "grade": "1"
-    },
-    {
-     "id": "ELAR.1.1.A",
-     "rel": "prepares",
-     "grade": "1"
     }
    ],
    "by": "authored"
@@ -2777,7 +2747,7 @@
    "rows": [
     {
      "id": "ELAR.1.7.D",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1"
     },
     {
@@ -2807,7 +2777,7 @@
     },
     {
      "id": "ELAR.K.10.D.ii",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "K"
     },
     {
@@ -2842,7 +2812,7 @@
    "rows": [
     {
      "id": "ELAR.1.3.C",
-     "rel": "prepares",
+     "rel": "extends",
      "grade": "1"
     },
     {
@@ -2939,11 +2909,6 @@
      "id": "ELAR.2.6.B",
      "rel": "prepares",
      "grade": "2"
-    },
-    {
-     "id": "ELAR.2.1.A",
-     "rel": "prepares",
-     "grade": "2"
     }
    ],
    "by": "authored"
@@ -2952,11 +2917,6 @@
    "rows": [
     {
      "id": "ELAR.2.7.C",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "ELAR.2.4",
      "rel": "teaches",
      "grade": "2"
     },
@@ -2997,7 +2957,7 @@
     },
     {
      "id": "ELAR.K.10.D.ii",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "K"
     },
     {
@@ -3202,7 +3162,7 @@
     },
     {
      "id": "ELAR.2.11.D.v",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -3219,11 +3179,6 @@
      "id": "ELAR.2.6.F",
      "rel": "teaches",
      "grade": "2"
-    },
-    {
-     "id": "ELAR.2.6.H",
-     "rel": "teaches",
-     "grade": "2"
     }
    ],
    "by": "authored"
@@ -3232,7 +3187,7 @@
    "rows": [
     {
      "id": "ELAR.2.13.C",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "2"
     },
     {
@@ -3337,7 +3292,7 @@
     },
     {
      "id": "ELAR.1.3.C",
-     "rel": "teaches",
+     "rel": "extends",
      "grade": "1"
     }
    ],

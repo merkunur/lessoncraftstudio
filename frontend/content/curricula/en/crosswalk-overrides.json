@@ -230,11 +230,27 @@
     },
     {
      "id": "2.OA.B.2",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "K.OA.A.5 covers fluency within 5 only; the within-10 sheets are 1.OA.C.6 and fluency within 20 is 2.OA.B.2.",
-   "review": "review-math"
+   "why": "K.OA.A.5 covers fluency within 5 only; the within-10 sheets are 1.OA.C.6 and fluency within 20 is 2.OA.B.2. [pages-review en.review.json, 2.OA.B.2 prepares] The only lesson is a Grade 1 lesson on facts within 10; the code asks for fluency within 20.",
+   "review": "review-math",
+   "was": {
+    "rows": [
+     {
+      "id": "K.OA.A.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "1.OA.C.6",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.OA.B.2",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:write-the-equation": {
    "rows": [
@@ -357,21 +373,41 @@
     },
     {
      "id": "2.OA.B.2",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Adding and subtracting within 20 mentally and fluently is the wording of 2.OA.B.2, which was missing.",
-   "review": "review-math"
+   "why": "Adding and subtracting within 20 mentally and fluently is the wording of 2.OA.B.2, which was missing. [pages-review en.review.json, 2.OA.B.2 prepares] The only lesson is a Grade 1 lesson on facts within 10; the code asks for fluency within 20.",
+   "review": "review-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.OA.C.6",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.OA.B.2",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:check-answers": {
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "teaches"
+     "rel": "extends"
     }
    ],
-   "why": "2.NBT.B.9 asks children to explain why strategies work using place value; marking worked sums right or wrong is not that, it is the true/false judgment of 1.OA.D.7.",
-   "review": "review-math"
+   "why": "2.NBT.B.9 asks children to explain why strategies work using place value; marking worked sums right or wrong is not that, it is the true/false judgment of 1.OA.D.7. [pages-review en.review.json, 1.OA.D.7 extends] The only lesson is a Grade 3 lesson in a within-1,000 unit, and true-or-false equations are not practiced.",
+   "review": "review-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.OA.D.7",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "1:bar-graphs": {
    "rows": [
@@ -690,15 +726,27 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "3.OA.A.4",
      "rel": "extends"
     }
    ],
-   "why": "The meaning of the equal sign is 1.OA.D.7; 3.OA.A.4 covers equations relating three numbers, so an equation with an operation on both sides goes beyond it.",
-   "review": "review-math"
+   "why": "The meaning of the equal sign is 1.OA.D.7; 3.OA.A.4 covers equations relating three numbers, so an equation with an operation on both sides goes beyond it. [pages-review en.review.json, 1.OA.D.7 extends] The only lesson is a Grade 3 lesson in a within-1,000 unit, and true-or-false equations are not practiced.",
+   "review": "review-math",
+   "was": {
+    "rows": [
+     {
+      "id": "1.OA.D.7",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.OA.A.4",
+      "rel": "extends"
+     }
+    ]
+   }
   },
   "3:time-12-24": {
    "none": "24-hour time is not in the Common Core; 2.MD.C.7 and 3.MD.A.1 use the 12-hour clock with a.m. and p.m. only.",
@@ -1015,18 +1063,18 @@
     },
     {
      "id": "RL.1.2",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "RL.K.2",
-     "rel": "teaches"
+     "rel": "prepares"
     },
     {
      "id": "W.1.3",
      "rel": "prepares"
     }
    ],
-   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the child retells the whole story in order, which is RL.1.2.",
+   "why": "Found by the reviewer of the English literacy units (an American K-3 teacher): the child retells the whole story in order, which is RL.1.2. [pages-review en.review.json, RL.K.2 prepares] Putting story pictures in order leads up to retelling but is not retelling; the TEKS page already rates the same lesson as a lead-up. [pages-review en.review.json, RL.1.2 prepares] Ordering the sentences of a story leads up to retelling; the central message or lesson of a story is not addressed.",
    "review": "own-audit-units-3",
    "was": {
     "rows": [
@@ -1051,7 +1099,7 @@
    "rows": [
     {
      "id": "L.K.1.b",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "L.1.1.f",
@@ -1062,8 +1110,24 @@
      "rel": "prepares"
     }
    ],
-   "why": "L.2.1.e is about choosing between adjectives and adverbs (wrong standard) and L.1.1 is too general; nouns/verbs and adjectives have their own components, and naming word classes leads to L.3.1.a.",
-   "review": "review-ela-science"
+   "why": "L.2.1.e is about choosing between adjectives and adverbs (wrong standard) and L.1.1 is too general; nouns/verbs and adjectives have their own components, and naming word classes leads to L.3.1.a. [pages-review en.review.json, L.K.1.b extends] Sorting words by part of speech in Grade 1 and Grade 2 lessons goes beyond using nouns and verbs in Kindergarten speech and writing.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.K.1.b",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.1.1.f",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.3.1.a",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:sentence-boundaries": {
    "rows": [
@@ -1073,7 +1137,7 @@
     },
     {
      "id": "L.K.2.a",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "L.2.1.f",
@@ -1084,18 +1148,42 @@
      "rel": "prepares"
     }
    ],
-   "why": "The capital-letter standard (L.K.2.a) was missing, and splitting run-together sentences is the readiness step for the run-on standard L.4.1.f.",
-   "review": "review-ela-science"
+   "why": "The capital-letter standard (L.K.2.a) was missing, and splitting run-together sentences is the readiness step for the run-on standard L.4.1.f. [pages-review en.review.json, L.K.2.a extends] The only lesson is a Grade 2 lesson that also splits run-on sentences; nothing addresses the pronoun I.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.1.2.b",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.K.2.a",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.2.1.f",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.4.1.f",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:cursive-writing": {
-   "rows": [
-    {
-     "id": "L.1.1.a",
-     "rel": "extends"
-    }
-   ],
-   "why": "Common Core handwriting stops at printing all letters; cursive goes beyond that standard on the same line and was left unmapped.",
-   "review": "review-ela-science"
+   "rows": [],
+   "why": "Common Core handwriting stops at printing all letters; cursive goes beyond that standard on the same line and was left unmapped. [pages-review en.review.json, L.1.1.a removed] A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.1.1.a",
+      "rel": "extends"
+     }
+    ]
+   },
+   "none": "A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond."
   },
   "2:question-words": {
    "rows": [
@@ -1151,7 +1239,7 @@
    "rows": [
     {
      "id": "L.K.1.b",
-     "rel": "teaches"
+     "rel": "extends"
     },
     {
      "id": "L.1.1.f",
@@ -1162,8 +1250,24 @@
      "rel": "prepares"
     }
    ],
-   "why": "The code named nouns, verbs and adjectives but only the noun component was read; L.2.1 is too general, and sorting by word class leads to L.3.1.a.",
-   "review": "review-ela-science"
+   "why": "The code named nouns, verbs and adjectives but only the noun component was read; L.2.1 is too general, and sorting by word class leads to L.3.1.a. [pages-review en.review.json, L.K.1.b extends] Sorting words by part of speech in Grade 1 and Grade 2 lessons goes beyond using nouns and verbs in Kindergarten speech and writing.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.K.1.b",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.1.1.f",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.3.1.a",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:plural-nouns": {
    "rows": [
@@ -1186,16 +1290,28 @@
      "rel": "teaches"
     },
     {
-     "id": "RF.2.3",
-     "rel": "teaches"
-    },
-    {
      "id": "L.3.2.f",
      "rel": "prepares"
     }
    ],
-   "why": "Position-based spellings and ending rules are named word for word in L.3.2.f, which was missing.",
-   "review": "review-ela-science"
+   "why": "Position-based spellings and ending rules are named word for word in L.3.2.f, which was missing. [pages-review en.review.json, RF.2.3 removed] The only lesson is a spelling lesson already claimed under L.2.2.d; it does not teach decoding, and RF.2.3.a to f are not listed at all.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.2.2.d",
+      "rel": "teaches"
+     },
+     {
+      "id": "RF.2.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.3.2.f",
+      "rel": "prepares"
+     }
+    ]
+   }
   },
   "2:read-cursive": {
    "none": "Common Core has no standard for reading cursive script; RF.2.3 is about phonics and word analysis, not letter style.",
@@ -1223,16 +1339,24 @@
   "2:mystery-animal": {
    "rows": [
     {
-     "id": "RI.2.1",
-     "rel": "teaches"
-    },
-    {
      "id": "L.1.5.b",
-     "rel": "teaches"
+     "rel": "prepares"
     }
    ],
-   "why": "Finding an animal from category and attribute clues is defining by category and key attributes (L.1.5.b), which was missing.",
-   "review": "review-ela-science"
+   "why": "Finding an animal from category and attribute clues is defining by category and key attributes (L.1.5.b), which was missing. [pages-review en.review.json, L.1.5.b prepares] Children read clues to find an animal; they do not define a word by its category and attributes themselves. [pages-review en.review.json, RI.2.1 removed] A who-am-I riddle worksheet is not asking and answering questions about key details of an informational text.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "RI.2.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "L.1.5.b",
+      "rel": "teaches"
+     }
+    ]
+   }
   },
   "2:animal-fact-file": {
    "rows": [
@@ -1277,14 +1401,18 @@
    "review": "review-ela-science"
   },
   "3:cursive-sentences": {
-   "rows": [
-    {
-     "id": "L.1.1.a",
-     "rel": "extends"
-    }
-   ],
-   "why": "Common Core handwriting stops at printing all letters; cursive sentences go beyond that standard on the same line and were left unmapped.",
-   "review": "review-ela-science"
+   "rows": [],
+   "why": "Common Core handwriting stops at printing all letters; cursive sentences go beyond that standard on the same line and were left unmapped. [pages-review en.review.json, L.1.1.a removed] A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond.",
+   "review": "review-ela-science",
+   "was": {
+    "rows": [
+     {
+      "id": "L.1.1.a",
+      "rel": "extends"
+     }
+    ]
+   },
+   "none": "A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond."
   },
   "3:word-fields": {
    "rows": [
@@ -1689,6 +1817,78 @@
    ],
    "why": "One sentence per difference is sentence production, not an informative text with a topic and conclusion; the visual part has no standard.",
    "review": "review-ela-science"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "1.OA.D.7",
+     "rel": "extends"
+    }
+   ],
+   "why": "[pages-review en.review.json, 1.OA.D.7 extends] The only lesson is a Grade 3 lesson in a within-1,000 unit, and true-or-false equations are not practiced.",
+   "was": {
+    "rows": [
+     {
+      "id": "1.OA.D.7",
+      "rel": "teaches"
+     }
+    ]
+   },
+   "review": "pages-review en.review.json"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "2.MD.D.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "[pages-review en.review.json, 2.MD.D.9 prepares] Children only read a finished line plot; they do not measure objects or make the plot, which is what the code asks.",
+   "was": {
+    "rows": [
+     {
+      "id": "2.MD.D.9",
+      "rel": "teaches"
+     }
+    ]
+   },
+   "review": "pages-review en.review.json"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "3.MD.B.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "[pages-review en.review.json, 3.MD.B.4 prepares] Children only read a line plot marked in halves; they do not measure with a ruler or make the plot.",
+   "was": {
+    "rows": [
+     {
+      "id": "3.MD.B.4",
+      "rel": "teaches"
+     }
+    ]
+   },
+   "review": "pages-review en.review.json"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "RL.K.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "[pages-review en.review.json, RL.K.2 prepares] Putting story pictures in order leads up to retelling but is not retelling; the TEKS page already rates the same lesson as a lead-up.",
+   "was": {
+    "rows": [
+     {
+      "id": "RL.K.2",
+      "rel": "teaches"
+     }
+    ]
+   },
+   "review": "pages-review en.review.json"
   }
  }
 }

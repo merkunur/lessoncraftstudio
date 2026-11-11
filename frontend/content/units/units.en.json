@@ -425,7 +425,7 @@
        "title": "Operations and Algebraic Thinking"
       },
       {
-       "rel": "ahead",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "2.OA.B.2",
        "title": "Operations and Algebraic Thinking"
@@ -4750,7 +4750,7 @@
      "objective": "Children count the X marks above each number on a line plot and write how many there are.",
      "standards": [
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "2.MD.D.9",
        "title": "Measurement and Data"
@@ -5837,12 +5837,6 @@
      "title": "Make it balance",
      "objective": "Children use the equal sign as a balance and write the number that makes both sides the same amount.",
      "standards": [
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "1.OA.D.7",
-       "title": "Operations and Algebraic Thinking"
-      },
       {
        "rel": "extends",
        "framework": "Common Core",
@@ -7713,7 +7707,7 @@
      "objective": "Children read a line plot whose number line is marked in halves and write how many X marks stand above each number.",
      "standards": [
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "3.MD.B.4",
        "title": "Measurement and Data"
@@ -8533,7 +8527,7 @@
      "objective": "Children look at the pictures of a short story and put them in the order in which things happen.",
      "standards": [
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "RL.K.2",
        "title": null
@@ -9213,13 +9207,13 @@
        "title": null
       },
       {
-       "rel": "teaches",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "RL.1.2",
        "title": null
       },
       {
-       "rel": "reviews",
+       "rel": "prepares",
        "framework": "Common Core",
        "code": "RL.K.2",
        "title": null
@@ -9354,7 +9348,7 @@
        "title": null
       },
       {
-       "rel": "reviews",
+       "rel": "extends",
        "framework": "Common Core",
        "code": "L.K.1.b",
        "title": null
@@ -9718,12 +9712,6 @@
        "framework": "Common Core",
        "code": "L.1.2.b",
        "title": null
-      },
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "L.K.2.a",
-       "title": null
       }
      ],
      "paper": [
@@ -9771,12 +9759,6 @@
      "title": "Nouns, verbs, and adjectives: three bins",
      "objective": "Children sort words into nouns, verbs, and adjectives and write each word in its bin.",
      "standards": [
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "L.K.1.b",
-       "title": null
-      },
       {
        "rel": "reviews",
        "framework": "Common Core",
@@ -10122,12 +10104,6 @@
        "rel": "teaches",
        "framework": "Common Core",
        "code": "L.2.2.d",
-       "title": null
-      },
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.2.3",
        "title": null
       },
       {
@@ -10659,14 +10635,7 @@
      "point": "2:cursive-writing",
      "title": "Cursive letters and connections",
      "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
-     "standards": [
-      {
-       "rel": "extends",
-       "framework": "Common Core",
-       "code": "L.1.1.a",
-       "title": null
-      }
-     ],
+     "standards": [],
      "paper": [
       {
        "type": "G2-377",
@@ -11307,7 +11276,6 @@
       "Find a square on a grid"
      ],
      "standards": [
-      "2.MD.D.9",
       "2.MD.D.10"
      ]
     },
@@ -11513,8 +11481,7 @@
      ],
      "standards": [
       "3.G.A.1",
-      "3.MD.B.3",
-      "3.MD.B.4"
+      "3.MD.B.3"
      ]
     }
    ]
@@ -11615,8 +11582,7 @@
      ],
      "standards": [
       "L.K.5.a",
-      "L.K.5.b",
-      "RL.K.2"
+      "L.K.5.b"
      ]
     }
    ]
@@ -11679,7 +11645,6 @@
       "L.1.4.a",
       "RF.1.4.a",
       "RF.1.4.c",
-      "RL.1.2",
       "RL.1.7"
      ]
     },
@@ -11764,8 +11729,7 @@
       "L.2.4.c",
       "L.2.4.d",
       "L.2.5",
-      "L.2.5.b",
-      "RF.2.3"
+      "L.2.5.b"
      ]
     },
     {

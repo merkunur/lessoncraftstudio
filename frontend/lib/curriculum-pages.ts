@@ -72,6 +72,23 @@ export async function listedCurriculumPages(locale: string): Promise<{ live: boo
   return { live: false, pages };
 }
 
+/** the fragment of a code on its curriculum page */
+export const codeAnchor = (code: string) => 'code-' + code.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/**
+ * Where an objective is on the LIVE curriculum pages of a language, by what a unit page shows for it ("Common Core
+ * K.CC.A.1"): the label on a unit page links to the line of the checklist (PLAN Part 6: no crawlable filter
+ * parameter, a plain link). A pilot page is linked from nowhere.
+ */
+export async function curriculumCodeLinks(locale: string): Promise<Record<string, string>> {
+  const out: Record<string, string> = {};
+  for (const p of await getCurriculumPages(locale)) {
+    if (p.status !== 'live') continue;
+    for (const g of p.groups) for (const it of g.items) { const k = `${p.frameworkShort} ${it.code}`; if (!out[k]) out[k] = `/${locale}/curriculum/${p.slug}#${codeAnchor(it.code)}`; }
+  }
+  return out;
+}
+
 /** the pages of one framework and subject, in the order of the grades: the sets the hub and the "more" list show */
 export function curriculumSets(pages: CurriculumPageData[]): { key: string; frameworkShort: string; subject: string; pages: CurriculumPageData[] }[] {
   const out: { key: string; frameworkShort: string; subject: string; pages: CurriculumPageData[] }[] = [];

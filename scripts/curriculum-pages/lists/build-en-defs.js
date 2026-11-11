@@ -28,7 +28,7 @@ const SETS = [
     metaTitle: 'Common Core ' + G.short + ' Math Standards: Checklist with Lessons',
     metaDescription: G.word + ' math standards checklist: every Common Core code of the grade with the lessons, worksheets, and activities that teach it, and the codes not covered yet.',
   })],
-  ['en', 'ccss-ela', 'ela', ['K', '1', '2'], 'ccss-ela', (G) => ({
+  ['en', 'ccss-ela', 'ela', ['K', '1'], 'ccss-ela', (G) => ({
     slug: 'common-core-' + G.slug + '-ela-standards', title: 'Common Core ' + G.word + ' ELA Standards: Checklist with Lessons',
     metaTitle: 'Common Core ' + G.short + ' ELA Standards: Checklist with Lessons',
     metaDescription: G.word + ' ELA standards checklist: the Common Core reading, writing, and language codes with the lessons and worksheets that teach them, and the codes not covered yet.',
@@ -38,17 +38,20 @@ const SETS = [
     metaTitle: G.short + ' Math TEKS: Checklist with Lessons and Worksheets',
     metaDescription: G.word + ' math TEKS checklist for Texas: every student expectation of the grade with the lessons, worksheets, and activities that teach it, and the ones not covered yet.',
   })],
-  ['en-tx', 'teks-elar', 'ela', ['K', '1', '2'], 'teks-elar', (G) => ({
+  ['en-tx', 'teks-elar', 'ela', ['1', '2'], 'teks-elar', (G) => ({
     slug: 'teks-' + G.slug + '-elar', title: G.word + ' ELAR TEKS: Checklist with Lessons',
     metaTitle: G.short + ' ELAR TEKS: Checklist with Lessons and Worksheets',
     metaDescription: G.word + ' ELAR TEKS checklist for Texas: the reading and language arts expectations with the lessons and worksheets that teach them, and the ones not covered yet.',
   })],
 ];
 const before = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')).pages : [];
+// the names the reviewer of the pages corrected (scripts/curriculum-pages/reviews/en.review.json → pages)
+const REVIEW = path.join(__dirname, '..', 'reviews', 'en.review.json');
+const reviewed = fs.existsSync(REVIEW) ? JSON.parse(fs.readFileSync(REVIEW, 'utf8')).pages || {} : {};
 const pages = [];
 for (const [registry, framework, subject, grades, part, name] of SETS) for (const grade of grades) {
   const G = GRADES[grade], id = part + '-' + G.id, n = name(G);
-  pages.push(Object.assign({ id, status: (before.find((x) => x.id === id) || {}).status || 'pilot', registry, framework, grade, subject }, n));
+  pages.push(Object.assign({ id, status: (before.find((x) => x.id === id) || {}).status || 'pilot', registry, framework, grade, subject }, n, reviewed[id] || {}));
 }
 for (const p of pages) { if (p.metaTitle.length > 70) throw new Error(p.id + ': metaTitle has ' + p.metaTitle.length + ' characters'); if (p.metaDescription.length < 110 || p.metaDescription.length > 175) throw new Error(p.id + ': the meta description has ' + p.metaDescription.length + ' characters'); }
 const comment = "The curriculum pages of this language: one framework, one grade, one subject each. WRITTEN by scripts/curriculum-pages/lists/build-en-defs.js (edit the lists there). Everything on a page is filled by scripts/curriculum-pages/assemble.js from the curriculum registry and the units. status 'pilot' = noindex, in no sitemap, linked from nowhere.";

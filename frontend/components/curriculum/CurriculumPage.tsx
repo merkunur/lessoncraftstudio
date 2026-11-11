@@ -14,7 +14,7 @@ import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { fill, pageHref } from '@/lib/units';
-import { CurriculumPageData, CurriculumUi } from '@/lib/curriculum-pages';
+import { CurriculumPageData, CurriculumUi, codeAnchor } from '@/lib/curriculum-pages';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 const anchor = (s: string) => 'area-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -35,7 +35,10 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
   const grade = gradeLabel(page.grade);
   const url = canonicalUrl(localePath(locale, 'curriculum', page.slug));
-  const subject = ui[`subject_${page.subject}`] || page.subject;
+  // a framework family may have its own wording of a string (the Texas pages speak of student expectations)
+  const family = page.framework.split('-')[0];
+  const s = (key: string) => ui[`${key}_${family}`] || ui[key];
+  const subject = s(`subject_${page.subject}`) || page.subject;
   const taughtItems = page.groups.flatMap((g) => g.items.filter((i) => i.state === 'taught'));
 
   const jsonLd = {
@@ -73,9 +76,9 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
         <header className="un-head">
           <p className="un-eyebrow">{fill(ui.eyebrow, { framework: page.frameworkShort, grade })}</p>
           <h1 className="un-title un-title-wide">{page.title}</h1>
-          <p className="un-hub-lead">{fill(ui.lead, { framework: page.frameworkShort, subject, grade })}</p>
+          <p className="un-hub-lead">{fill(s('lead'), { framework: page.frameworkShort, subject, grade })}</p>
           <p className="un-facts">
-            <span>{fill(ui.factTaught, { n: page.counts.taught })}</span>
+            <span>{fill(s('factTaught'), { n: page.counts.taught })}</span>
             {page.counts.near ? <span>{fill(ui.factNear, { n: page.counts.near })}</span> : null}
             {page.counts.open ? <span>{fill(ui.factOpen, { n: page.counts.open })}</span> : null}
             <span>{fill(ui.factLessons, { n: page.counts.lessons })}</span>
@@ -89,7 +92,7 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
         </section>
 
         <section aria-labelledby="cu-groups-title">
-          <h2 id="cu-groups-title" className="cu-groups-title">{ui.groupsTitle}</h2>
+          <h2 id="cu-groups-title" className="cu-groups-title">{s('groupsTitle')}</h2>
           <nav className="un-hub-jump" aria-label={ui.groupsTitle}>
             <ul>
               {page.groups.map((g) => <li key={g.title}><a href={`#${anchor(g.title)}`}>{g.title}</a></li>)}
@@ -104,7 +107,7 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
                   {g.items.map((it) => {
                     const hub = hubCodes[it.code.toLowerCase()];
                     return (
-                      <li key={it.code} className={`cu-item cu-item-${it.state}`}>
+                      <li key={it.code} id={codeAnchor(it.code)} className={`cu-item cu-item-${it.state}`}>
                         <p className="cu-code">{it.code}</p>
                         <div className="cu-body">
                           {it.state === 'near' && it.rel ? <p className="cu-rel">{ui[`rel_${it.rel}`]}</p> : null}

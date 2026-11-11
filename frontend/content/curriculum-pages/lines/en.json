@@ -1,0 +1,240 @@
+{
+ "$comment": "What the reviewer of the curriculum pages ruled about single lines: the sentence a line shows (verdict describe). Written by scripts/curriculum-pages/apply-review.js; a ruling about whether the lessons teach an objective is not here but in the curriculum registry.",
+ "lines": {
+  "ccss-math-k / K.CC.A.1": {
+   "verdict": "describe",
+   "text": "Children count by tens and write the missing numbers in a row of tens; the same lesson also counts by fives and by twos.",
+   "why": "Only counting by tens fits this code, so the sentence should lead with it and not suggest counting to 100 by ones."
+  },
+  "ccss-math-k / K.CC.A.3": {
+   "verdict": "describe",
+   "text": "Children write the numerals 0 to 9, write how many pictures they counted, and fill in the missing numbers on a number strip to 20.",
+   "why": "This code is about writing numerals; the shown sentence repeats the 'last number tells how many' line of K.CC.B.4.b."
+  },
+  "ccss-math-k / K.CC.B.5": {
+   "verdict": "describe",
+   "text": "Children count a group of up to 10 pictures to tell how many there are, and color or draw a group to match a given number.",
+   "why": "The shown sentence describes the look-fast lesson (no counting), which is the wrong lesson for a counting code."
+  },
+  "ccss-math-k / K.G.A.3": {
+   "verdict": "describe",
+   "text": "Children sort shapes into flat (two-dimensional) shapes and solid (three-dimensional) shapes.",
+   "why": "The shown text is a note-style fragment, not in the voice of the other lines."
+  },
+  "ccss-math-k / K.G.B.5": {
+   "verdict": "describe",
+   "text": "Children draw named flat shapes on dot paper, joining dots so that each shape has the right number of sides and corners.",
+   "why": "'Draw / build named shapes on dot paper (sides and corners)' reads like an internal note and is unclear to a teacher."
+  },
+  "ccss-math-k / K.OA.A.2": {
+   "verdict": "describe",
+   "text": "Children join two groups or take some away, with totals up to 10, and write how many there are in all or how many are left.",
+   "why": "The shown sentence covers only addition although a linked lesson teaches taking away."
+  },
+  "ccss-math-g1 / 1.MD.A.1": {
+   "verdict": "describe",
+   "text": "Children measure three objects with unit squares and put them in order from shortest to longest.",
+   "why": "The shown sentence describes a Kindergarten lesson on ordering by size, not by length; comparing through a third object is not addressed."
+  },
+  "ccss-math-g1 / 1.MD.C.4": {
+   "verdict": "describe",
+   "text": "Children sort pictures into three groups, count each group, and read a picture graph and a bar graph to tell how many are in each group.",
+   "why": "The sentence stops at sorting; the graph lessons are the ones that address this data code."
+  },
+  "ccss-math-g1 / 1.NBT.A.1": {
+   "verdict": "describe",
+   "text": "Children fill in the missing numbers on a hundreds chart and read numbers on a number line by counting on from a number that is printed.",
+   "why": "A number line to 20 and 30 undersells the claim; the hundreds chart lesson is the stronger match for counting from any number."
+  },
+  "ccss-math-g1 / 1.NBT.C.5": {
+   "verdict": "describe",
+   "text": "Children write the number that is 10 more and 10 less than a two-digit number, using the hundreds chart, where the number one row down is ten more.",
+   "why": "The lesson '1 more, 1 less, 10 more, 10 less' is the direct match and should be the one described."
+  },
+  "ccss-math-g1 / 1.OA.B.3": {
+   "verdict": "describe",
+   "text": "Children add three numbers by adding an easy pair first, and write both addition facts for the same three numbers in a fact family.",
+   "why": "For a properties code the sentence should show the two properties used (grouping and turn-around facts), not the subtraction facts."
+  },
+  "ccss-math-g1 / 1.OA.C.6": {
+   "verdict": "describe",
+   "text": "Children add two groups and take away within 10, practice addition and subtraction facts on color-by-answer pages, and find the pairs that make 20.",
+   "why": "The shown sentence gives no number range; a principal needs to see that the work is mostly within 10."
+  },
+  "ccss-math-g2 / 2.MD.B.6": {
+   "verdict": "describe",
+   "text": "Children read the number an arrow points to on a number line with evenly spaced marks, including lines that start at 40 or 60 and print only some of the numbers.",
+   "why": "The shown sentence describes the Grade 1 line to 30; the part covered (numbers as points, no adding or subtracting on the line) should be clear."
+  },
+  "ccss-math-g2 / 2.MD.C.8": {
+   "verdict": "describe",
+   "text": "Children count a mix of pennies, nickels, dimes, and quarters to find how much money there is, and use money amounts to solve shopping problems.",
+   "why": "The shown sentence is the Grade 1 coin-naming lesson; this code is about solving problems with money."
+  },
+  "ccss-math-g2 / 2.MD.D.10": {
+   "verdict": "describe",
+   "text": "Children read a tally chart, color one box of a bar graph for each one counted, and use the graph to answer questions that put together or compare.",
+   "why": "The Grade 2 lesson with the put-together and compare questions is the one that matches; the shown sentence is the Grade 1 lesson."
+  },
+  "ccss-math-g2 / 2.NBT.A.2": {
+   "verdict": "describe",
+   "text": "Children skip count by fives and by tens and write the missing numbers in each counting row.",
+   "why": "Counting by twos is not part of this code, and the shown sentence is the Grade 1 lesson."
+  },
+  "ccss-math-g2 / 2.NBT.B.5": {
+   "verdict": "describe",
+   "text": "Children add and subtract two-digit numbers within 100, first with jumps of tens and ones on a hundreds chart and then with the numbers written in columns.",
+   "why": "The shown sentence describes only the hundreds-chart warm-up, not the two lessons that add and subtract within 100."
+  },
+  "ccss-math-g2 / 2.NBT.B.7": {
+   "verdict": "describe",
+   "text": "Children add and subtract numbers shown with hundreds, tens, and ones blocks and write the answer.",
+   "why": "The shown sentence leaves out subtraction although a linked lesson teaches it."
+  },
+  "ccss-math-g2 / 2.OA.C.4": {
+   "verdict": "describe",
+   "text": "Children count the rows and columns of an array to find the total, and write the repeated addition for a set of equal groups.",
+   "why": "This code is about arrays; the shown sentence describes only the equal-groups lesson."
+  },
+  "ccss-math-g3 / 3.MD.A.1": {
+   "verdict": "describe",
+   "text": "Children read an analog clock to the exact minute, find how much time has passed, and add or subtract minutes to find a new time.",
+   "why": "Two of the three linked lessons (time passed, adding and subtracting time) are missing from the sentence."
+  },
+  "ccss-math-g3 / 3.MD.B.3": {
+   "verdict": "describe",
+   "text": "Children read bar graphs whose scale counts by 5 and pictographs in which each picture stands for 2 or for 5, and write the real count for each bar or row.",
+   "why": "The shown sentence describes the Grade 2 lesson only; the Grade 3 lesson with scaled bar graphs is the main match."
+  },
+  "ccss-math-g3 / 3.NBT.A.1": {
+   "verdict": "describe",
+   "text": "Children find which ten or which hundred a number is closer to on a number line and round the number to the nearest ten or hundred.",
+   "why": "The sentence mentions only tens although a linked lesson rounds to the nearest hundred."
+  },
+  "ccss-ela-k / RF.K.1.c": {
+   "verdict": "describe",
+   "text": "Children trace and copy words and short sentences from left to right, leaving a space between one word and the next.",
+   "why": "The shown text is a note-style list in parentheses; only the sentence-copying part addresses this code."
+  },
+  "ccss-ela-k / RF.K.2.d": {
+   "verdict": "describe",
+   "text": "Children say a three-sound picture word and listen for its first sound, its last sound, and the vowel sound in the middle.",
+   "why": "The shown sentence covers only the first sound although the linked lessons also teach last and middle sounds."
+  },
+  "ccss-ela-k / RF.K.3.a": {
+   "verdict": "describe",
+   "text": "Children say a picture word, listen for its first or its last sound, and match or write the consonant letter for that sound.",
+   "why": "This code is about consonants; the shown sentence talks about the middle vowel and leaves out the beginning-sounds lesson."
+  },
+  "ccss-ela-k / RF.K.3.b": {
+   "verdict": "describe",
+   "text": "Children listen for the short vowel sound in the middle of a three-sound picture word and write the letter for it.",
+   "why": "Only short vowels are taught; the sentence should say so and not mention the last sound."
+  },
+  "ccss-ela-g1 / L.1.5.a": {
+   "verdict": "describe",
+   "text": "Children sort foods into the food groups they belong to.",
+   "why": "Note-style fragment; also check the worksheet's 'four food groups' against the five groups U.S. schools teach."
+  },
+  "ccss-ela-g1 / RL.1.7": {
+   "verdict": "describe",
+   "text": "Children study the pictures of a story to work out what is happening and choose what happens next.",
+   "why": "For this code the use of the pictures is the point; the sentence-ordering part belongs to other codes."
+  },
+  "teks-math-k / K.2.B": {
+   "verdict": "describe",
+   "text": "Children write the numerals 0 to 9, write how many pictures they counted, color or draw a group for a number they read, and fill in missing numbers to 20.",
+   "why": "The shown sentence covers one of four linked lessons and repeats the K.2.C idea; reading, writing, and representing numbers is the point here."
+  },
+  "teks-math-k / K.2.C": {
+   "verdict": "describe",
+   "text": "Children count a group of up to 10 pictures, say the last number as the number in the group, and write that number.",
+   "why": "The shown sentence describes the count-each-kind lesson; the count-and-write lesson is the match, and 'up to 10' shows the part covered."
+  },
+  "teks-math-k / K.6.F": {
+   "verdict": "describe",
+   "text": "Children draw named flat shapes on dot paper, joining dots so that each shape has the right number of sides and corners.",
+   "why": "'Draw / build named shapes on dot paper (sides and corners)' reads like an internal note."
+  },
+  "teks-math-g1 / 1.3.D": {
+   "verdict": "describe",
+   "text": "Children add by counting on and subtract by counting back on a number line, use fact families to work out related facts, and practice the facts on color-by-answer pages.",
+   "why": "This code is about fact strategies; the sentence should name the strategies taught (making 10 is not among them), not the coloring page."
+  },
+  "teks-math-g1 / 1.5.C": {
+   "verdict": "describe",
+   "text": "Children write the number that is 10 more and 10 less than a two-digit number, using the hundreds chart, where the number one row down is ten more.",
+   "why": "The shown sentence describes a Grade 2 lesson with mixed jumps; the Grade 1 lesson on 10 more and 10 less is the direct match."
+  },
+  "teks-math-g1 / 1.6.C": {
+   "verdict": "describe",
+   "text": "Children draw named flat shapes on dot paper, giving each shape the right number of sides and corners.",
+   "why": "Note-style fragment; rewritten in the voice of the other lines (keep it as a lead-up)."
+  },
+  "teks-math-g2 / 2.2.F": {
+   "verdict": "describe",
+   "text": "Children name the number an arrow points to on a number line, including lines that start at 40 or 60 and print only some of the numbers.",
+   "why": "The shown sentence describes the Grade 1 line to 20 and 30 instead of the Grade 2 lesson."
+  },
+  "teks-math-g2 / 2.4.B": {
+   "verdict": "describe",
+   "text": "Children add and subtract two-digit numbers, with jumps of tens and ones on a hundreds chart and with the numbers written in columns.",
+   "why": "The shown sentence describes only the hundreds-chart lesson; the column lessons are the main match (adding up to four numbers is not covered)."
+  },
+  "teks-math-g3 / 3.2.C": {
+   "verdict": "describe",
+   "text": "Children find the two tens or the two hundreds a number lies between on a number line, see which one is closer, and round to the nearest ten or hundred.",
+   "why": "The sentence mentions only tens although a linked lesson works with hundreds."
+  },
+  "teks-math-g3 / 3.2.D": {
+   "verdict": "describe",
+   "text": "Children compare two four-digit numbers by checking the digits place by place, starting from the left.",
+   "why": "Note-style fragment; rewritten in the voice of the other lines."
+  },
+  "teks-math-g3 / 3.4.K": {
+   "verdict": "describe",
+   "text": "Children solve word problems about equal groups with multiplication or division, and divide by counting equal hops back to zero on a number line.",
+   "why": "The word-problem lesson is the match for a problem-solving code; the shown sentence describes only the number-line hops."
+  },
+  "teks-math-g3 / 3.7.A": {
+   "verdict": "describe",
+   "text": "Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces from zero.",
+   "why": "The shown sentence describes the line-plot lesson; the fractions-on-a-number-line lesson is the match."
+  },
+  "teks-elar-g1 / 1.1.E": {
+   "verdict": "describe",
+   "text": "Children match faces to feeling words, circle the face that shows how they feel, and draw a face for a feeling.",
+   "why": "British spelling ('Recognise') and a note-style list; rewritten in the voice of the other lines (keep it as a lead-up)."
+  },
+  "teks-elar-g1 / 1.2.C.ii": {
+   "verdict": "describe",
+   "text": "Children hear whether a picture word has sh, ch, or th and write the missing letter team in the word.",
+   "why": "The Grade 1 digraph lesson is the match; the shown sentence describes a Grade 2 spelling-rule lesson."
+  },
+  "teks-elar-g2 / 2.2.E": {
+   "verdict": "describe",
+   "text": "Children trace and write rows of four connected cursive letters (i, t, u, and w) and join two letters without lifting the pencil.",
+   "why": "Texas requires cursive in Grade 2, so 'for schools that teach cursive in Grade 2' does not belong here; say plainly that four letters are covered."
+  },
+  "teks-elar-g2 / 2.6.F": {
+   "verdict": "describe",
+   "text": "Children read clues about an animal one at a time and use them together to work out which animal it is.",
+   "why": "Note-style fragment; the sentence should show the inference children make from the clues."
+  },
+  "teks-elar-g2 / 2.11.D.i": {
+   "verdict": "describe",
+   "text": "Children split two sentences that ran together into complete sentences, use the verb form that fits a sentence, and write complete sentences about a picture.",
+   "why": "The shown sentence is about capital letters and end marks; complete sentences and matching verb forms are the point of this code."
+  },
+  "teks-elar-g2 / 2.11.D.iii": {
+   "verdict": "describe",
+   "text": "Children pick out the nouns when they sort words, and write the plural of a noun with -s, with -es, and for nouns that change, such as mouse and mice.",
+   "why": "The plural-nouns lesson is the main match and is missing from the sentence."
+  },
+  "teks-elar-g2 / 2.12.B": {
+   "verdict": "describe",
+   "text": "Children choose true facts about an animal, such as what it eats and where it lives, and write them on a fact sheet.",
+   "why": "The shown sentence describes writing a story, which is not informational writing; the fact sheet is the matching lesson (keep it as a lead-up)."
+  }
+ }
+}

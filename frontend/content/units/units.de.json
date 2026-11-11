@@ -5,7 +5,7 @@
   {
    "id": "g1-add-subtract-within-10",
    "slug": "plus-und-minus-bis-10-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Plus und Minus bis 10",
@@ -476,7 +476,7 @@
   {
    "id": "de1-zahlen-bis-20",
    "slug": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
@@ -709,7 +709,7 @@
   {
    "id": "g1-doubles-three-addends-number-walls",
    "slug": "verdoppeln-drei-summanden-und-zahlenmauern-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Verdoppeln, drei Summanden und Zahlenmauern",
@@ -948,7 +948,7 @@
   {
    "id": "g1-time-calendar-coins",
    "slug": "uhr-kalender-und-geld-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Uhr, Kalender und Geld",
@@ -1209,7 +1209,7 @@
   {
    "id": "g1-shapes-measuring-graphs",
    "slug": "formen-messen-und-diagramme-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
@@ -1553,7 +1553,7 @@
   {
    "id": "de2-zahlen-bis-100",
    "slug": "zahlen-bis-100-buendeln-und-hundertertafel-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Zahlen bis 100: Bündeln und Hundertertafel",
@@ -2082,7 +2082,7 @@
   {
    "id": "de2-groessen-daten",
    "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
@@ -2553,7 +2553,7 @@
   {
    "id": "de2-malnehmen",
    "slug": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
@@ -2962,7 +2962,7 @@
   {
    "id": "de2-teilen",
    "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
@@ -3302,7 +3302,7 @@
   {
    "id": "g2-shapes-solids-symmetry",
    "slug": "formen-koerper-und-symmetrie-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Formen, Körper und Symmetrie",
@@ -3623,7 +3623,7 @@
   {
    "id": "de3-zahlen-bis-1000",
    "slug": "zahlen-bis-1000-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Zahlen bis 1000",
@@ -3837,7 +3837,7 @@
   {
    "id": "de3-runden-schriftlich",
    "slug": "runden-und-schriftlich-rechnen-bis-1000-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Runden und schriftlich rechnen bis 1000",
@@ -4242,7 +4242,7 @@
   {
    "id": "de3-mal-geteilt-gleichungen",
    "slug": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
@@ -4636,7 +4636,7 @@
   {
    "id": "g3-time-temperature-mass-volume",
    "slug": "zeit-temperatur-gewicht-und-hohlmasse-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Zeit, Temperatur, Gewicht und Hohlmaße",
@@ -5014,7 +5014,7 @@
   {
    "id": "g3-area-perimeter-volume",
    "slug": "flaecheninhalt-umfang-und-wuerfelgebaeude-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Flächeninhalt, Umfang und Würfelgebäude",
@@ -5282,7 +5282,7 @@
   {
    "id": "g3-shapes-and-data",
    "slug": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
@@ -5547,7 +5547,7 @@
   {
    "id": "g1-sounds-spelling-syllables",
    "slug": "laute-silben-und-erste-woerter-schreiben-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Laute, Silben und erste Wörter schreiben",
@@ -5939,7 +5939,7 @@
   {
    "id": "g1-reading-sentences-and-stories",
    "slug": "saetze-und-geschichten-lesen-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Sätze und Geschichten lesen",
@@ -6246,7 +6246,7 @@
   {
    "id": "g1-words-and-how-they-work",
    "slug": "abc-nomen-begleiter-und-gegenteile-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Abc, Nomen, Begleiter und Gegenteile",
@@ -6461,7 +6461,7 @@
   {
    "id": "g2-sentences-and-grammar",
    "slug": "saetze-und-grammatik-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Sätze und Grammatik",
@@ -6763,7 +6763,7 @@
   {
    "id": "g2-spelling-and-word-building",
    "slug": "rechtschreiben-und-woerter-bilden-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Rechtschreiben und Wörter bilden",
@@ -7096,7 +7096,7 @@
   {
    "id": "de2-wortschatz",
    "slug": "wortschatz-gleiche-bedeutung-und-wortfelder-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Wortschatz: gleiche Bedeutung und Wortfelder",
@@ -7318,7 +7318,7 @@
   {
    "id": "g2-stories-facts-and-writing",
    "slug": "geschichten-steckbriefe-und-schreibschrift-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Geschichten, Steckbriefe und Schreibschrift",
@@ -7640,7 +7640,7 @@
   {
    "id": "g3-words-and-their-meanings",
    "slug": "wortfelder-wortfamilien-und-pronomen-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "literacy",
    "title": "Wortfelder, Wortfamilien und Pronomen",
@@ -7930,7 +7930,7 @@
   {
    "id": "plan-1-math",
    "slug": "stoffverteilung-mathe-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Mathe Klasse 1: Stoffverteilung für 7 Wochen",
@@ -8025,7 +8025,7 @@
   {
    "id": "plan-2-math",
    "slug": "stoffverteilung-mathe-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Mathe Klasse 2: Stoffverteilung für 10 Wochen",
@@ -8130,7 +8130,7 @@
   {
    "id": "plan-3-math",
    "slug": "stoffverteilung-mathe-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Mathe Klasse 3: Stoffverteilung für 9 Wochen",
@@ -8245,7 +8245,7 @@
   {
    "id": "plan-1-literacy",
    "slug": "stoffverteilung-deutsch-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Deutsch Klasse 1: Stoffverteilung für 4 Wochen",
@@ -8307,7 +8307,7 @@
   {
    "id": "plan-2-literacy",
    "slug": "stoffverteilung-deutsch-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Deutsch Klasse 2: Stoffverteilung für 6 Wochen",

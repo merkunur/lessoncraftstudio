@@ -355,6 +355,9 @@ node /opt/lessoncraftstudio/scripts/class-results/build-skill-index.js --check >
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
+# HARD (Part 4.5): the German teacher notes address the teacher with "du", as the German site does; a formal
+# "Sie" or "Ihre" left by a draft fails. Committed files only.
+node /opt/lessoncraftstudio/scripts/units/notes/de-address.js --check > /tmp/lcs-de-address.txt 2>&1 || { tail -8 /tmp/lcs-de-address.txt; echo "ERROR: a German teacher note addresses the teacher formally — node scripts/units/notes/de-address.js"; exit 1; }
 # PC ONLY, before a deploy (it reads the deck catalog dump out/teaching-graph/decks.tsv, which the server does not have):
 #   node scripts/units/assemble.js --loc=<loc> --check   the committed units file is what the assembler writes today
 

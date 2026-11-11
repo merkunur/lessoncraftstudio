@@ -1,0 +1,45 @@
+{
+ "$comment": "What a guest teacher says and does for a teaching point, in this language (US English): how to open the block (say), how to do the first one together (first), and what to do when a child is stuck (stuck). Written for an adult who has never seen the class and may not be a teacher. One entry per teaching point; every pack that uses the point prints the same script. Written natively per language, never translated.",
+ "points": {
+  "1:alphabetical-order": {
+   "say": "\"Good morning. Your first job is on your desk. We are going to put words in ABC order, the order of the alphabet.\"",
+   "first": "Point to the alphabet strip at the top of the page. Read the six picture words aloud with the class. Ask: \"Which of these words starts with the letter that comes first in the alphabet?\" Write a 1 beside it together, then let the children go on alone.",
+   "stuck": "Have the child put a finger on the alphabet strip and slide along it, stopping at the first letter that starts one of the words. That word is next."
+  },
+  "1:story-sequencing": {
+   "say": "\"Each row on this page is a little story told in pictures. One picture is missing. You are going to decide which picture finishes the story.\"",
+   "first": "Do the first story together. Ask a child to tell what happens in the first picture, another child the second, and so on. Then ask: \"What would happen next?\" Look at the choices and circle the one the class agrees on.",
+   "stuck": "Ask the child to tell you the story aloud, picture by picture, starting with \"First…\". Most children find the answer while they are telling it."
+  },
+  "1:rhyming": {
+   "say": "\"Rhyming words sound the same at the end, like cat and hat. On this page you find the picture that rhymes, then you write its word.\"",
+   "first": "Name the pictures of the first row together, so that everyone uses the same words. Say the first word, then say it again with each choice after it. Ask which pair sounds the same at the end. Circle that picture together and write its word on the line.",
+   "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT\". If the endings sound the same, they rhyme. If the child does not know a picture's name, tell them."
+  },
+  "1:unscramble-sentence": {
+   "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with a period or a question mark.\"",
+   "first": "Write the mixed-up words of the first sentence on the board. Ask: \"Which word has a capital letter? That one goes first.\" Build the sentence aloud with the class, then write it on the board with its end mark.",
+   "stuck": "Have the child read the words aloud in any order, then ask: \"Who or what is the sentence about?\" Start with that word, and read what is written so far after each new word."
+  },
+  "1:fluency-within-20": {
+   "say": "\"This is math you already know: adding and taking away with numbers up to 10. Work quietly and do the ones you know first.\"",
+   "first": "Do the first two problems on the board. Ask how the children worked them out and accept every way that gives the right answer: fingers, counting on, or just knowing it.",
+   "stuck": "Let the child use fingers or draw dots. Read a problem with an empty box as a question, for example: \"Four plus what number makes nine?\""
+  },
+  "1:word-problems": {
+   "say": "\"Each problem on this page is a short story with numbers. Read the story, look at the picture, and write the answer in the box.\"",
+   "first": "Read the first story aloud twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Work out the answer together and write it in the box.",
+   "stuck": "Read the story aloud to the child and ask them to tell it back in their own words. Let them count on the picture. Reading is not what this page practices, so read any story aloud if a child asks."
+  },
+  "1:mazes": {
+   "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
+   "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
+   "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; the child goes back to the last crossing and tries the other way."
+  },
+  "1:find-the-differences": {
+   "say": "\"We end the day with a looking puzzle. The two pictures look the same, but they are not. Find what is different and circle it.\"",
+   "first": "Find one difference together: ask a child to point to it and say what changed. Show how to circle it and tick one box, so that everyone knows how many are still to find.",
+   "stuck": "Have the child cover part of both pictures with a hand and compare one small part at a time, from top to bottom."
+  }
+ }
+}

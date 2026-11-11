@@ -31,12 +31,8 @@ const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, '
 
 /** the registry a language's pages cite (a state layer is chosen by the page, not here) */
 const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
-const RUNGS = ['easy', 'core', 'hard'];
+const { pagesOf } = require('./catalog.js');
 const MIN_LESSONS = 4;
-const codeOfSlug = (slug) => { const all = slug.match(/-(?:k|g[0-9])[0-9]{3}(?=-|$)/g); return all ? all[all.length - 1].slice(1) : null; };
-const typeIdOf = (code) => { const m = /^(k|g\d)(\d{3})$/.exec(code); return m ? m[1].toUpperCase() + '-' + m[2] : null; };
-/** the copy number an address ends in (…-g1116 is copy 1, …-g1116-4 is copy 4); pages made per unit sort by their address */
-const copyOf = (slug) => { const m = /-(\d{1,3})$/.exec(slug); return m ? Number(m[1]) : 1; };
 
 function assemble(loc, opt = {}) {
   const problems = [];
@@ -73,20 +69,7 @@ function assemble(loc, opt = {}) {
   }
 
   // the published pages of this language, per type and level, in copy order
-  const tsv = opt.decksText != null ? opt.decksText : fs.readFileSync(path.join(REPO, 'out', 'teaching-graph', 'decks.tsv'), 'utf8');
-  const pages = new Map(); // type id → { easy: [], core: [], hard: [] } of { slug, screen, base }
-  for (const line of tsv.split('\n')) {
-    if (!line.startsWith(loc + '\t')) continue;
-    const [, slug, , mode, idx, screen] = line.split('\t');
-    const code = codeOfSlug(slug);
-    const id = code ? typeIdOf(code) : null;
-    const rung = mode === '-' ? 'core' : RUNGS.includes(mode) ? mode : null;
-    if (!id || !rung) continue;
-    const t = pages.get(id) || { easy: [], core: [], hard: [] };
-    t[rung].push({ slug, screen: screen === '1', base: idx === 't' });
-    pages.set(id, t);
-  }
-  for (const t of pages.values()) for (const r of RUNGS) t[r].sort((a, b) => (b.base - a.base) || (copyOf(a.slug) - copyOf(b.slug)) || a.slug.localeCompare(b.slug));
+  const pages = pagesOf(loc, opt.decksText);
 
   const seenSlug = new Set(), seenId = new Set();
   const units = [];

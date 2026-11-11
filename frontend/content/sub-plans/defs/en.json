@@ -1,0 +1,25 @@
+{
+ "$comment": "The sub packs of this language: one school day of REVIEW for one grade. Which blocks, how long, which teaching point and worksheet type. Everything else is filled by scripts/sub-plans/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere.",
+ "packs": [
+  {
+   "id": "g1-full-day-midyear-1",
+   "slug": "first-grade-sub-plans-full-day",
+   "status": "pilot",
+   "grade": "1",
+   "position": "middle",
+   "title": "First Grade Sub Plans: A Full Day",
+   "metaTitle": "First Grade Sub Plans: A Full Day, Ready to Print",
+   "metaDescription": "Emergency sub plans for first grade: a full day of review in reading, writing and math, with a script for the guest teacher, early-finisher pages and class forms.",
+   "blocks": [
+    { "key": "morning", "minutes": 15, "point": "1:alphabetical-order", "type": "G1-245" },
+    { "key": "reading", "minutes": 30, "point": "1:story-sequencing", "type": "G1-400" },
+    { "key": "phonics", "minutes": 25, "point": "1:rhyming", "type": "G1-309" },
+    { "key": "writing", "minutes": 30, "point": "1:unscramble-sentence", "type": "G1-249" },
+    { "key": "math", "minutes": 30, "point": "1:fluency-within-20", "type": "G1-214" },
+    { "key": "problems", "minutes": 25, "point": "1:word-problems", "type": "G1-240" },
+    { "key": "logic", "minutes": 20, "point": "1:mazes", "type": "G1-420" },
+    { "key": "closing", "minutes": 15, "point": "1:find-the-differences", "type": "G1-412" }
+   ]
+  }
+ ]
+}

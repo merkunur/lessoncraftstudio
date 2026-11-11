@@ -63,15 +63,17 @@ export const LEVELS: readonly Level[] = ['easy', 'core', 'hard'];
 /**
  * The 40 seat pictures, in seat order: colour library animals a child can tell apart at a glance. Each key is
  * `<theme folder>/<file stem>` under /image-library-webp/themes/. Every picture was opened and checked beside the
- * others before it entered this list (scripts/class-results/seat-icons-sheet.js builds the contact sheet).
+ * others (scripts/class-results/seat-icons-sheet.js builds the contact sheet; read 2026-11-11). Left out on that read:
+ * tiger (too like the cat), fox and squirrel (orange, pointed ears, like the cat), shark (too like the dolphin) and
+ * flamingo (its file has a white box behind it). A new picture enters only after the sheet has been read again.
  */
 export const SEAT_ICONS: readonly string[] = [
-  'animals/cat', 'animals/dog', 'animals/elephant', 'animals/giraffe', 'animals/zebra', 'animals/tiger', 'animals/panda', 'animals/koala',
-  'animals/penguin', 'animals/owl', 'animals/fox', 'animals/rabbit', 'animals/pig', 'animals/sheep', 'animals/horse', 'animals/duck',
+  'animals/cat', 'animals/dog', 'animals/elephant', 'animals/giraffe', 'animals/zebra', 'forest creatures/frog', 'animals/panda', 'animals/koala',
+  'animals/penguin', 'animals/owl', 'forest creatures/eagle', 'animals/rabbit', 'animals/pig', 'animals/sheep', 'animals/horse', 'animals/duck',
   'animals/turtle', 'animals/dolphin', 'animals/whale', 'animals/camel', 'animals/hippopotamus', 'animals/fish', 'farm animals/cow', 'farm animals/hen',
-  'farm animals/goat', 'farm animals/rooster', 'farm animals/bee', 'forest creatures/bear', 'forest creatures/squirrel', 'forest creatures/hedgehog',
+  'farm animals/goat', 'farm animals/rooster', 'farm animals/bee', 'forest creatures/bear', 'birds/peacock', 'forest creatures/hedgehog',
   'forest creatures/butterfly', 'forest creatures/ladybug', 'forest creatures/snail', 'forest creatures/deer', 'ocean life/octopus', 'ocean life/crab',
-  'ocean life/starfish', 'ocean life/shark', 'birds/flamingo', 'birds/parrot',
+  'ocean life/starfish', 'ocean life/sea_horse', 'forest creatures/caterpillar', 'birds/parrot',
 ];
 
 export type AssignmentContent =

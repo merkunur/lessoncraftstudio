@@ -9,6 +9,7 @@ import '@/components/units/units.css';
 import '@/components/curriculum/curriculum.css';
 import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import { getTranslations } from 'next-intl/server';
+import PrintButton from '@/components/curriculum/PrintButton';
 import { canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
@@ -83,6 +84,12 @@ export default async function CurriculumPage({ locale, page, ui, others, hubCode
             {page.counts.open ? <span>{fill(ui.factOpen, { n: page.counts.open })}</span> : null}
             <span>{fill(ui.factLessons, { n: page.counts.lessons })}</span>
           </p>
+          {/* the coverage document for a principal is this page, printed (curriculum.css, @media print) */}
+          <div className="cu-print">
+            <PrintButton label={ui.printButton} />
+            <p className="cu-print-note">{ui.printNote}</p>
+          </div>
+          <p className="cu-print-only">{fill(ui.printSource, { url: url.replace(/^https?:\/\//, '') })}</p>
         </header>
 
         <section className="cu-how" aria-labelledby="cu-how-title">

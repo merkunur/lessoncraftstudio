@@ -6,6 +6,7 @@ import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CheckoutButtons from '@/components/pricing/CheckoutButtons';
 import { MAKER_COUNT } from '@/lib/seo/maker-content';
+import { getSchoolsUi } from '@/lib/schools';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -59,6 +60,7 @@ export default async function PricingPage({
   params: { locale: string };
 }) {
   const t = await getTranslations({ locale, namespace: 'pricingPage' });
+  const schoolsUi = await getSchoolsUi(locale);
 
   const productSchema = {
     '@context': 'https://schema.org',
@@ -151,6 +153,12 @@ export default async function PricingPage({
             ))}
           </ul>
           <CheckoutButtons />
+          {/* a school that buys for several teachers asks for a quote (Daily Teaching System, Part 6) */}
+          {schoolsUi && schoolsUi.status === 'live' ? (
+            <p className="mt-5 text-ink-700">
+              <a className="font-semibold underline" href={`/${locale}/schools`}>{schoolsUi.pricingLink}</a>
+            </p>
+          ) : null}
           {/* familyTeaser removed 2026-07-11 (launch-honesty pass — no Family
               plan exists; the key stays in messages for a future revival). */}
         </section>

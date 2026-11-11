@@ -13,10 +13,13 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { fill } from '@/lib/units';
 import { CurriculumPageData, CurriculumUi, curriculumSets } from '@/lib/curriculum-pages';
+import { getSchoolsUi } from '@/lib/schools';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
 export default async function CurriculumHub({ locale, ui, pages, live }: { locale: string; ui: CurriculumUi; pages: CurriculumPageData[]; live: boolean }) {
+  const schoolsUi = await getSchoolsUi(locale);
+  const schoolsLink = schoolsUi && schoolsUi.status === 'live' ? schoolsUi.checklistLink : null;
   const [tLevel, tBreadcrumb] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
@@ -85,6 +88,8 @@ export default async function CurriculumHub({ locale, ui, pages, live }: { local
             <p>{ui.hubMissing}</p>
           </section>
         ) : null}
+
+        {schoolsLink ? <p className="cu-schools"><a href={`/${locale}/schools`}>{schoolsLink}</a></p> : null}
 
         <p className="un-hub-note">{ui.hubNote}</p>
       </div>

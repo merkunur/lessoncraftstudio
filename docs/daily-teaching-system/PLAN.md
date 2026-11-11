@@ -635,4 +635,11 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 - **Generated** from the registry, the live units and the content graph (`scripts/curriculum-pages/`), gates Q1–Q7 with 10 poisons in `deploy.sh`.
 - **Review (rule #2):** one reviewer as an American K–3 teacher ruled on 84 of 338 lines (11 drop, 16 prepares, 6 extends, 51 describe). The claim rulings were applied in the registry (51 point rows), so the unit pages, the "by curriculum" tab of the class results and the teacher guide PDFs were corrected with the checklists. Two of the 14 first pages fell below the 15-objective minimum and were taken out; the minimum was not moved.
 - **Links:** standard chips on the unit pages link to their line on the checklist; the units hub links to the checklist hub; the checklists link to the per-code pages `/en/standards/<code>`, which keep their addresses and content (gate Q7 keeps the two page types apart).
-- **NEXT in Part 6:** the open coverage document per grade, the "For schools" page with a quote request (ruling 6), then German (KMK and the three state layers).
+- **Deploy (commit `9263863c7`):** see the entry below.
+
+**Part 6.1b — the coverage document and the "For schools" page, English: BUILT 2026-11-11. Record: `PART-6-DESIGN.md` §2.**
+- **The coverage document is the checklist, printed** ("Print this checklist" and a print style sheet): no second copy of the page, no file to keep current, nothing metered.
+- **`/en/schools`:** what each teacher gets (the Teacher plan's items read from the pricing strings; no price on the page), what is open to check first, how buying works (quote, one invoice, the plan turned on per teacher address: the operator's work by hand), and a quote request form.
+- **The form** saves a support ticket (category `school-quote`) and mails the request to the support address with the sender as reply-to; no mail goes back to the sender; three requests an hour per address; a hidden field for form robots.
+- **Gates** `scripts/schools/gates.js` in `deploy.sh` (S1–S6, 9 poisons). Found on the way: the pricing FAQ sentence "We collect no student data at all" must be rewritten in the deploy that switches the class results on (`PART-9-DESIGN.md` §9 item 2).
+- **NEXT in Part 6:** German checklists (KMK and the three state layers) with the German schools page; then Parts 7 and 8.

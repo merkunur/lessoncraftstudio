@@ -66,6 +66,29 @@ Where each ruling went (`apply-review.js`):
 - The worksheet "Sort by Food Group" names four groups and US teaching names five; recorded for the content-fix session.
 - Two lines of a page may carry the same sentence when one lesson teaches two parts of an objective (TEKS 1.2.A.v and 1.2.A.vii).
 
+## 2. The coverage document and the "For schools" page (built 2026-11-11)
+
+### The coverage document is the checklist, printed
+
+PLAN Part 6 item 5 asked for a printable coverage PDF per grade, open to everyone, for a principal. **Decision:** no file is made. Each checklist has a "Print this checklist" button, and the page's own print style sheet (`curriculum.css`, `@media print`) leaves the codes, the descriptions, the lessons and worksheets by name and the codes with nothing, on white, with the page's address under the title; the site's navigation, the links to other checklists and the buttons stay on the screen. Reasons: a PDF with the same content would be a second indexable copy of the page; it would be one more file class to build, upload and keep current after every registry change; and a PDF download is metered on this site, which an open document must not be. The rules that hide the site's navigation are scoped to a page that holds a checklist (`body:has(main.cu)`).
+
+Measured locally under the print media type (Letter): no navigation, footer, button or input visible; all lines and all "Not covered yet" boxes kept; no overflow.
+
+### The "For schools" page (`/<locale>/schools`, ruling 6)
+
+- **What it says:** a school buys the Teacher plan for each of its teachers, on one invoice. The plan's items and its name are read from the pricing page's own strings (`pricingPage.tier`), plus two items for the unit files and the sub plan pages (shown only where the language has them). **The page states no price** (the price is on the pricing page and in the operator's quote) and no discount.
+- **How buying works, as written on the page:** send the form; we email a quote; if the school goes ahead, we send one invoice; when it is paid, we turn on the plan for each teacher's email address. **These four steps are the operator's work by hand** (PLAN §11 ruling 6: no seat management until about 10 requests).
+- **Students:** the page says only that children need no account and no email address. It does not say that no student data is collected: that sentence would turn false when the class results (Part 9) are switched on (gate S6; the same sentence in the pricing FAQ is recorded in `PART-9-DESIGN.md` §9 item 2).
+- **The form** (`components/schools/QuoteForm.tsx` → `POST /api/schools/quote`): name, school or district, work email, state or country, number of teachers, a message. The route saves the request as a support ticket (category `school-quote`, the table the admin panel reads) and mails it to the support address with the sender as reply-to. **No mail goes back to the address in the form** (a form that mails any address a stranger types is a spam relay); the page says that the request arrived. Refused: a body that is not the form's (400), more than three requests an hour from one address (429; counted in memory, the address is not stored), and form robots (a hidden field; answered as if it had worked, nothing saved or sent).
+- **A language has the page when it has the strings** (`frontend/content/schools/ui.<loc>.json`, `status: live` or `pilot`); every other language answers 404. English only for now. Sitemap shard 3; nginx 300 s public cache (prefix `schools`).
+- **Links to it:** the pricing page (one line under the plan's buttons, only in a language that has the page) and the checklist hub.
+- **Gates** `scripts/schools/gates.js` (in `deploy.sh`; 9 poisons, each caught): S1 a language has exactly the English keys · S2 no string says free · S3 no price or currency · S4 the plan is named through `{plan}` · S5 status and no empty sentence · S6 no promise about student data. Live: `scripts/schools/live-check.js --loc=en` (sends no real request).
+
+### Known limits
+
+- The pricing page's own list of the Teacher plan does not yet name the unit files and the sub plan pages; that is a string in eleven languages and is left for the pricing texts of the Part 9 launch (`PART-9-DESIGN.md` §9 item 2), when the list is rewritten anyway.
+- The request counter is per process and is emptied by a restart.
+
 ### Still to build in Part 6
 
-The printable coverage document per grade (open to everyone: its job is to get a budget approved); the "For schools" page with the quote request that reaches the operator by email (ruling 6); then one locale each in Part 2 order (de first: KMK, then the Bavaria, North Rhine-Westphalia and Saxony layers, whose display rule is `label` or `area`, not `code`).
+One locale each in Part 2 order (de first: KMK, then the Bavaria, North Rhine-Westphalia and Saxony layers, whose display rule is `label` or `area`, not `code`), each with its schools page.

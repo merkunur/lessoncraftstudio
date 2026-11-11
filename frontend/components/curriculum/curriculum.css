@@ -33,6 +33,33 @@
   .cu .cu-item { grid-template-columns: 104px minmax(0, 1fr); gap: 16px; }
   .cu .cu-more { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px; }
 }
+.cu .cu-print { margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.cu .cu-print-button { min-height: 48px; padding: 10px 20px; border-radius: 999px; border: 2px solid var(--teal-deep); background: #fff; color: var(--teal-deep); font: inherit; font-weight: 800; cursor: pointer; }
+.cu .cu-print-button:hover, .cu .cu-print-button:focus-visible { background: var(--teal-deep); color: #fff; }
+.cu .cu-print-note { max-width: 52ch; color: var(--ink-soft); font-size: 0.9375rem; }
+.cu .cu-print-only { display: none; }
+.cu .cu-schools { margin-top: 28px; }
+.cu .cu-schools a { display: inline-block; padding: 9px 0; font-weight: 700; text-decoration: underline; }
+/* Printed, a checklist is the coverage document of its grade and subject: the codes, what the children do, the lessons
+   and worksheets by name, and the codes with nothing. The site's navigation, the links to other pages and the buttons
+   stay on the screen. The rules that reach outside .cu are scoped to a page that holds a checklist. */
 @media print {
-  .cu .cu-item { break-inside: avoid; }
+  body:has(main.cu) nav, body:has(main.cu) footer, body:has(main.cu) [role="banner"], body:has(main.cu) [role="search"] { display: none !important; }
+  .cu { background: #fff; font-size: 10.5pt; }
+  .cu .cu-print, .cu .un-around, .cu .un-hub-jump, .cu .cu-hub, .cu .un-pilot { display: none; }
+  .cu .cu-print-only { display: block; margin-top: 6pt; font-size: 9.5pt; }
+  .cu .un-title { font-size: 20pt; }
+  .cu .cu-how { background: none; border: 1px solid #999; padding: 8pt 10pt; margin-top: 12pt; }
+  .cu .cu-group { margin-top: 16pt; padding-top: 8pt; border-top: 1.5pt solid #000; }
+  .cu .cu-group-title, .cu .cu-open-title { break-after: avoid; color: #000; }
+  .cu .cu-items { gap: 6pt; }
+  .cu .cu-item { break-inside: avoid; grid-template-columns: 76pt minmax(0, 1fr); gap: 10pt; padding: 6pt 8pt; border: 0.75pt solid #999; border-radius: 0; }
+  .cu .cu-item-near { border-style: dashed; }
+  .cu .cu-code { font-size: 10.5pt; }
+  .cu .cu-open { break-inside: avoid; border-radius: 0; }
+  .cu .cu-open-codes li { background: none; border: 0.75pt solid #999; }
+  .cu a { color: #000; text-decoration: none; }
+  .cu .cu-links a, .cu .cu-papers a { padding: 0; font-weight: 600; }
+  .cu .cu-links { margin-top: 3pt; }
+  .cu .cu-unit { display: inline; font-size: 9.5pt; }
 }

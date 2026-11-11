@@ -1,0 +1,40 @@
+/* The "For schools" page (Daily Teaching System, Part 6). It uses the look of the units (components/units/units.css,
+   scope .un); this file adds the sections and the quote form. Mobile first: one column; from 640px the form has two. */
+.sc .sc-section { margin-top: 44px; padding-top: 18px; border-top: 3px solid var(--ink); scroll-margin-top: 16px; }
+.sc .sc-section h2 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; }
+.sc .sc-lead { margin-top: 10px; max-width: 66ch; }
+.sc .sc-lead a, .sc .sc-one a, .sc .sc-see a { font-weight: 700; text-decoration: underline; display: inline-block; padding: 9px 0; }
+.sc .sc-list { margin-top: 14px; display: grid; gap: 8px; max-width: 70ch; }
+.sc .sc-list li { position: relative; padding-left: 26px; }
+.sc .sc-list li::before { content: ''; position: absolute; left: 4px; top: 0.6em; width: 10px; height: 10px; border-radius: 50%; background: var(--teal); }
+.sc .sc-one { margin-top: 16px; max-width: 66ch; }
+.sc .sc-see { margin-top: 14px; display: grid; gap: 12px; }
+.sc .sc-see li { padding: 14px 16px; border-radius: 12px; background: #fff; border: 1px solid rgba(0, 0, 0, 0.1); }
+.sc .sc-see h3 { font-size: 1.1875rem; font-weight: 700; }
+.sc .sc-see p { margin-top: 2px; }
+.sc .sc-steps { margin-top: 14px; display: grid; gap: 10px; max-width: 66ch; counter-reset: sc-step; }
+.sc .sc-steps li { position: relative; padding-left: 44px; min-height: 32px; counter-increment: sc-step; }
+.sc .sc-steps li::before { content: counter(sc-step); position: absolute; left: 0; top: -2px; width: 32px; height: 32px; border-radius: 50%; background: var(--teal); color: #fff; font-weight: 800; display: grid; place-items: center; }
+.sc .sc-jump { margin-top: 20px; }
+.sc .sc-button { min-height: 48px; padding: 11px 24px; border-radius: 999px; border: 2px solid var(--teal-deep); background: var(--teal-deep); color: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+.sc .sc-button:hover, .sc .sc-button:focus-visible { background: var(--ink); border-color: var(--ink); color: #fff; }
+.sc .sc-button[disabled] { opacity: 0.6; cursor: default; }
+.sc a.sc-button-link { display: inline-block; text-decoration: none; color: #fff; }
+.sc .sc-quote { padding: 22px 18px 24px; border: 0; border-radius: 16px; background: var(--cream-deep); }
+.sc .sc-form { margin-top: 16px; display: grid; gap: 14px; max-width: 760px; }
+.sc .sc-field { display: grid; gap: 6px; font-weight: 700; }
+.sc .sc-field input, .sc .sc-field textarea { width: 100%; min-height: 48px; padding: 10px 12px; border-radius: 10px; border: 2px solid rgba(20, 51, 45, 0.35); background: #fff; color: var(--ink); font: inherit; font-weight: 400; }
+.sc .sc-field textarea { min-height: 112px; resize: vertical; }
+.sc .sc-field input:focus-visible, .sc .sc-field textarea:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; border-color: var(--teal-deep); }
+/* the trap for form robots: outside the page for people, and outside the tab order */
+.sc .sc-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.sc .sc-send { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.sc .sc-form-privacy { color: var(--ink-soft); font-size: 0.9375rem; max-width: 44ch; }
+.sc .sc-error { padding: 12px 14px; border-radius: 10px; background: #fff; border: 2px solid var(--coral-deep); font-weight: 700; }
+.sc .sc-sent { margin-top: 16px; padding: 16px 18px; border-radius: 12px; background: #fff; border: 2px solid var(--teal); font-weight: 700; max-width: 60ch; }
+@media (min-width: 640px) {
+  .sc .sc-form { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 18px; }
+  .sc .sc-field-wide, .sc .sc-send, .sc .sc-error { grid-column: 1 / -1; }
+  .sc .sc-see { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sc .sc-quote { padding: 28px 28px 30px; }
+}

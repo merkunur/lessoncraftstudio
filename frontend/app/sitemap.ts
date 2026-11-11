@@ -20,6 +20,7 @@ import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { listedUnits, unitSiblings } from '@/lib/units';
 import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 import { listedCurriculumPages } from '@/lib/curriculum-pages';
+import { getSchoolsUi } from '@/lib/schools';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -413,6 +414,17 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     } catch (err) {
       console.warn('[sitemap] curriculum URLs failed; skipping:', (err as Error).message);
+    }
+
+    // THE "FOR SCHOOLS" PAGE (Daily Teaching System, Part 6): one page per language that has the strings and whose
+    // status is live (content/schools/ui.<loc>.json through lib/schools.ts).
+    try {
+      const liveSchools: string[] = [];
+      for (const locale of locales) { const ui = await getSchoolsUi(locale); if (ui && ui.status === 'live') liveSchools.push(locale); }
+      const schoolsAlternates = liveSchools.length > 1 ? buildHreflangAlternates(liveSchools, (l) => `${baseUrl}/${l}/schools`, baseUrl) : undefined;
+      for (const locale of liveSchools) routes.push({ url: `${baseUrl}/${locale}/schools`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'monthly', priority: 0.5, ...(schoolsAlternates ? { alternates: { languages: schoolsAlternates } } : {}) });
+    } catch (err) {
+      console.warn('[sitemap] schools URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

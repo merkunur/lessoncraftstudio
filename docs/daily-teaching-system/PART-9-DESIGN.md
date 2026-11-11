@@ -20,7 +20,7 @@ Nothing is collected from a page opened without a token.
 | The token rides after `#`, not as a query parameter | The fragment is never sent to a server: no new URL variants in logs or caches, nothing for a crawler to find, the deck page's bytes and cache key are unchanged |
 | The reporter is a separate file loaded only when a token is present | Ordinary visitors download nothing new; the shared script every deck already loads changes by a dozen lines; **no deck file is rewritten** |
 | The reporter reads the page's own marks and never grades | Old decks cannot be changed (app decks are never regenerated); what the teacher sees is what the child saw |
-| A page with no readable marks reports "finished" only | Operator ruling: never an invented number |
+| A page with no readable marks reports "played", then "finished" | Operator ruling: never an invented number |
 | First Check = the result; later Checks only count | "Got it right the first time" is what a teacher wants to know; corrections after seeing red marks are not the same fact |
 | A Level Set follows the printed class sheet's five sentences exactly (`nextLevel`, `bandOf`) | One rule on paper and on screen. Bands: almost all right = no errors, or one error from five answers up, or ≥ 85 %; several wrong = two or more errors and under 60 % |
 | Three pages per sitting (six hours), then "done for now" | Young children; and a set's pages last longer |
@@ -49,6 +49,13 @@ Nothing is collected from a page opened without a token.
 | `scripts/class-results/tests/mutate-class-store.js` | 36 planted faults, each must fail the suite |
 | `scripts/class-results/tests/reporter-live.js` | A robot that plays 26 real published decks with the local scripts swapped in and the API mocked; `--poison` |
 | `docs/daily-teaching-system/legal/` | Drafts for the lawyer: facts sheet, privacy section, school agreement, parent note |
+| `frontend/lib/class-results/child-page.ts`, `child-strings.ts`, `app/c/[code]/route.ts` | The children's class page `/c/<code>` and its words ×11 |
+| `frontend/lib/class-results/teacher-app.ts`, `teacher-strings.ts`, `messages/classes/<loc>.json`, `app/[locale]/workspace/classes/` | The teacher screen and its words ×11 |
+| `scripts/makers/play/ssr.js` (`CLASS_LOADER`), `app/s/[id]/route.ts` | The one-line loader on a maker student page, only while the switch is on |
+| `scripts/class-results/retention.js`, `strip-class-data.js` | The daily deletion job; class rows out of old database copies on the PC |
+| `scripts/class-results/dev-server.js`, `mem-db.js` | The local preview: the real rules over an in-memory database |
+| `scripts/class-results/live-db-check.js`, `tests/live-dark.js` | The two checks that run against the server |
+| `scripts/class-results/tests/all.js` | Every local check in order (§7) |
 
 ## 4. What the reporter reads, measured on live decks (2026-11-11)
 
@@ -59,7 +66,8 @@ Run: `node scripts/class-results/tests/reporter-live.js` → 26 decks, no failur
 | Worksheet screens with tap-the-answer (number lines, telling time, number words, cloze, money, fractions, graphs) | right / total and which answers | The robot chose the answers itself, some wrong on purpose; the report matched its own count and marks |
 | Type-a-number, colour-by-code, edit-the-sentence screens | right / total and which answers | Compared with the marks the page drew |
 | Tap-every-difference, logic grid | right / total | Compared with the page's own score line |
-| Mazes (draw the way) | **finished or not, no number** | The page draws no marks and its message is a hint, not a score |
+| Mazes (draw the way) | **played / finished, no number** | The page draws no marks and its message is a hint, not a score |
+| A teacher's own maker worksheet (`/s/<linkId>`), several pages | one result: the sum of the pages' first Checks | `reporter-maker.js`: the robot answered page 1 right and crossed two pairs on page 3; the report matched its own count |
 | Type-a-word screens | not played by the robot (same marking code as type-a-number) | Page code read only |
 | Old app decks: addition, more / less, word scramble | right / total and which answers | Compared with the ticks and crosses the page drew, counted by colour |
 | Old app decks: chart count, find and count, matching, pattern train | right / total | Compared with the page's summary line |
@@ -69,13 +77,91 @@ Run: `node scripts/class-results/tests/reporter-live.js` → 26 decks, no failur
 
 Defects the robot found in my own reporter before anything shipped, each now a standing check: class mode hid the Check bar on old app decks (they use `footer.lcs-footer` for the bar, the newer pages for a credit line); download buttons stayed tappable; the same answers were counted twice (a progress row echoes them); the "is it visible" test failed for fixed-position elements; the button covered the page's own buttons at the end of the page; and number patterns broken by a shell here-document that halves backslashes (write code with the file tools only).
 
-## 5. Still to build in release 1
+## 5. What release 1 added after the first commit (2026-11-11)
 
-1. **Maker worksheets** (9.2b): `/s/<linkId>` renders each page in an embedded frame, so the reporter needs an adapter that watches those frames and reports once every screen page has had its first Check. The rules already accept a maker link as an assignment. Until the adapter exists a maker assignment plays but records nothing — it must be finished or switched off before launch.
-2. **The class page** `/c/<code>` (9.3): seat grid with pictures, the child's assignments with done / rest / mastered states, the 40 seat pictures opened and checked one by one, middleware carve-out, no-store, noindex.
-3. **The workspace "Classes" tab** (9.3): make and edit a class, paste a link to assign, class link + QR, the dashboard by child and by level, delete buttons, a printable class list.
-4. **Strings in 11 languages** for all of the above, written natively, one reviewer (9.4).
-5. **Retention job** `scripts/class-results/retention.js` + cron, and **class tables left out of dumps kept longer than 35 days** (9.4). `legal/FACTS.md` marks both lines as not yet true.
-6. **Privacy page section and pricing copy** in 11 languages, after the lawyer's check (9.4).
-7. **Deploy, dark:** apply the migration, copy `lcs-class.js` and the new `lcs-meter.js` with the server's update helper, deploy, verify with a test subscriber, then set the switch only after the legal check.
-8. Type-a-word, crossword, picture sort and sudoku pages played by a robot (they are read from code only today).
+**Maker worksheets (9.2b).** `/s/<linkId>` shows each page of a teacher's own worksheet in an embedded frame. The reporter reads a worksheet through a page context, so the same code reads a deck page and each frame. It reports **once**, when every page that has a screen version has had its first Check: the sum of those first Checks (per-answer marks only when every page gave them). Between pages the button is the arrow to the next unchecked page; a page made for paper is not waited for; a worksheet with no screen page shows the way back at once and reports nothing. The `/s/` route adds a one-line loader (`ssr.js` `CLASS_LOADER`) only while the switch is on; the bytes are the same for every visitor.
+
+**"Played" (rule change).** A page with no marks to read (a maze, grid match) now reports its Check as `{ finished: false }` and later `{ finished: true }`. Before, nothing was stored until the page was finished, so a teacher could not tell "tried" from "never opened". Still never a number.
+
+**The children's class page (9.3)** — `frontend/lib/class-results/child-page.ts`, served by `app/c/[code]/route.ts`. One static document for every class; it reads its code from its own address. Decisions:
+
+| Decision | Reason |
+|---|---|
+| No third party at all: fonts and pictures from this site, no analytics script | A page children open should call nobody else |
+| `Referrer-Policy: no-referrer` (header and meta) | The class code must not travel to the worksheet page's logs as "where the visitor came from" |
+| The tab remembers the tapped seat for 20 minutes, in `sessionStorage` only | A child comes back from a worksheet to their own list; the next child on a shared tablet does not inherit it |
+| Marks are start · done · done for today; "finished the set" uses the same mark as done | No score, no star, no ranking on a child's screen |
+| The button back to the pictures says "Not me" | Reviewer: a five-year-old says this, not "someone else" |
+| Names are written with `textContent` | A teacher's text is never parsed as markup |
+
+**The teacher screen (9.3)** — `frontend/lib/class-results/teacher-app.ts`, a framework-free DOM module mounted by `app/[locale]/workspace/classes/` (its own page, not a workspace tab: a teacher whose plan has ended must still reach it, and the workspace is behind the subscriber gate). The workspace links to it only while the switch is on. Screens: the class list; a new class (names or numbers only); Results (by child, and for a Level Set by level; a child's row opens the sentence view "Level 2: passed (5 of 5) · Level 3: found it hard (2 of 6) · Now on Level 2"); Children (rename, change picture, add, remove, print the class list); Worksheets (paste an address, hide, remove); Class link (copy, QR code, new link, rename, language, numbers-only switch, delete class). Every removal asks once more in place. Without a plan and without a class: the plan card and an **example dashboard with made-up children** (no trial class). The list reply carries `canEdit`, so the screen shows what the server will allow, not what the page assumed.
+
+**Why framework-free:** the same module runs in the website and in the local preview over an in-memory database, where a robot plays it. There is no local Postgres on the PC, so a React-only screen could not have been tested before it shipped.
+
+**Retention (9.4).** `scripts/class-results/retention.js` (daily, `--apply`): a class unused for 427 days, or whose teacher's plan ended more than 60 days ago, is deleted with everything under it; attempts never checked go after 7 days. It prints counts only. Its plain-JS rule is compared with the website's own (`store.ts` + `entitlements.ts`) over 492 cases in `tests/retention.test.js`. `scripts/class-results/strip-class-data.js` takes class rows out of every database copy on the PC older than 28 days, weekly (called by `pull-deck-backup.sh`): no copy older than 35 days holds class data.
+
+## 6. The texts and their review (rule #2)
+
+156 texts × 11 languages: 135 teacher screen (`frontend/messages/classes/<loc>.json`), 19 class page (`child-strings.ts`), 2 reporter labels. Written natively by the build session, then read on 2026-11-11 by **two native reviewers** (de fr es pt it + the English source; nl sv da no fi + the English source) over a compact dump (`node scripts/class-results/tests/strings.js --dump`). About 110 findings, all applied (140 texts changed). The ones that change how the next texts are written:
+
+- **The English source was wrong in six places and every language had copied it:** "You see who got a page right" (the screen shows a count, not right/wrong); a privacy sentence that said "only X … plus Y"; "Each result is the first time…" (a result is not a time); "Some wrong / Several wrong" (two bands nobody can tell apart; now "Some wrong / Many wrong"); "your children" (reads as a parent's own); British "marks", "go on".
+- A status word describes the level, not the child: "found it hard", fr "a eu du mal", it "ha fatto fatica" — not "en difficulté" / "in difficoltà", which are institutional labels for a child.
+- French agreement follows the noun the label stands for (fiche, page → Terminée, Essayée); "Nom" on a French form means surname.
+- Mexico: "regresar", "configuración", “ ” not « », "1° B"; Brazil: "QR Code", "Terminada" (not "Pronta", which also means "ready").
+- Finnish: the teacher screen says "tehtäväarkki" (the site's word); the child page keeps the shorter "tehtävä"; a limit is "voi olla", a rule "saa olla".
+- Scandinavian: "who got a page right" was a calque in sv, da and no.
+- Observation, not changed here: the worksheets' own button label in Spanish, "Comprobar respuestas", is peninsular (Mexico: "Revisar respuestas"). It is the worksheet runtime's string; the class texts quote it as it is.
+
+Gate: `tests/strings.js` (same keys and placeholders in 11 languages, no empty text, no text left in English, no "free" claim) and `tests/teacher-app.js` (every key the screen asks for exists in `en.json`; no key is unused).
+
+## 7. Checks
+
+`node scripts/class-results/tests/all.js` (about two minutes; `--live` adds the 26 published decks; `--quick` skips the browser):
+
+| Check | What it proves |
+|---|---|
+| `class-store.test.js` — 150 | The rules over an in-memory database, every refusal with a passing twin |
+| `mutate-class-store.js` — 37 of 37 | Each planted fault fails the suite |
+| `retention.test.js` — 23 | The job's rule = the website's rule; what is deleted; the log holds counts only; the backup step leaves every other line byte-identical |
+| `strings.js` | The texts, 11 languages |
+| `seat-icons-sheet.js` | The 40 pictures |
+| `reporter-maker.js` (+ poison) | A three-page maker worksheet: one report, the sum of two first Checks, as the robot answered |
+| `class-page.js` (+ poison) | The class page at 360 / 768 / 1024; a real Level Set walked by taps on live pages (core → harder → finished; three pages → "done for today" → open again seven hours later); numbers-only; closed link; unknown link |
+| `teacher-app.js` (+ poison) | A teacher's whole path by clicks; the dashboard compared with what was played through the rules; lapsed, no plan, signed out; 390 px |
+| `reporter-live.js` (+ poison) | 26 published decks, read only |
+| `live-db-check.js` (on the server) | The Prisma layer and the catalogue lookups against real Postgres, as one throwaway class that is deleted again |
+
+The local preview: `node scripts/class-results/dev-server.js --seed` → http://localhost:8495/teacher (the real rules over an in-memory database; a maker student link plays locally; a published deck is fetched read-only from the live site with the local scripts swapped in).
+
+Defects the robots and my own reading found before anything shipped: every picture chooser on the Children tab was open at once (a `hidden` attribute lost to `display:flex`; found reading the screenshot, the robot had passed it); a pairing page marks the line it draws as well as the two ends, so eight marks for four answers (the reporter now trusts the page's own count and reads the buttons only); the Copy button did nothing in a browser without clipboard permission (now falls back to copying the selected address); a base page of a Level Set with no screen version (the production lookup already leaves it out; my test fixture had not).
+
+## 8. Deploy state (2026-11-11): on the server, switched off
+
+| Step | State | Proof |
+|---|---|---|
+| Code deployed (commit `0a80dca09`) | Done | `deploy.sh` exit 0; smoke tests passed; payment canary OK |
+| Migration `20271111000000_add_class_results` | Applied | four tables, five foreign keys, all `ON DELETE CASCADE`; `prisma migrate status` listed this one migration and no other as pending |
+| `lcs-class.js` (new) and `lcs-meter.js` (updated) | In place through `update-worksheet.sh` | md5 on the server = the working copies; before the copy the live deck script was byte-identical to `REFERENCE TRANSLATIONS/lcs-meter.js`, and the working copy differed from it by the class hook only |
+| The Prisma layer and the catalogue lookups | Checked against real Postgres | `live-db-check.js`: 24 of 24; the throwaway class was deleted and the four tables held 0 rows before and after |
+| Retention job | Scheduled daily 04:20 (server time) in root's crontab; log `/var/log/lcs-class-retention.log` (one line a day, counts only) | dry run and `--apply` both ran with the exact cron command line: 0 classes |
+| Switched off | `CLASS_RESULTS_ENABLED` is not set | `tests/live-dark.js`: all 11 class routes answer 404, the workspace does not mention the screen, an ordinary deck visit requests no reporter and its play check carries no token |
+| Old pages unchanged | — | `identity-snapshot.js --compare` before and after the deploy: 287 pages and 11 shards unchanged |
+
+**One fix is committed but NOT yet on the server** (it rides with the next deploy; harmless while the switch is off): the lookup "does this page have a screen version" now reads the page itself (`pageHasScreen` in `db.ts`). The catalogue's rule calls every indexable page of an interactive family playable, and older first pages of a family are print-only: `/en/decks/number-lines-g1116/` has no Check button, its copies `-2` to `-6` do. With the old lookup that page would have been handed to a child, who could never finish it. The server check above ran the fixed lookup. **Do not set the switch before a deploy that contains `pageHasScreen`.** Observation for the catalogue, not acted on here: the same rule feeds the "play on screen" marks elsewhere on the site, so those may overstate for such first pages.
+
+`tests/live-dark.js` step 5 (a made-up token while switched off) was skipped on the first run because the edge still served the previous deck script (cache up to four hours); run it once more after that.
+
+Rollback, should it ever be needed: the reporter does nothing without a class token; to remove it anyway, put back the previous deck script (git history of `REFERENCE TRANSLATIONS/lcs-meter.js`) with `update-worksheet.sh`. The four tables are empty and can stay.
+
+## 9. Launch checklist (the operator's go; nothing here is done yet)
+
+1. **Legal:** the data-protection lawyer has answered the eight questions in `legal/README.md` and approved or changed the three texts. The data-centre country is confirmed from the Hetzner account (the server's first network hop is `dc1.hel1.hetzner.com`, which is Hetzner's Helsinki site in Finland; that is evidence, not the contract). Company name, address and privacy contact are filled in.
+2. **Texts:** the privacy section is translated natively into the ten other languages and reviewed; the pricing page and the Teacher plan's feature list name class links (no page says "free").
+3. **A deploy that contains `pageHasScreen`**, then `node scripts/class-results/tests/all.js --live`.
+4. **Switch on:** add `CLASS_RESULTS_ENABLED=1` to `frontend/.env.production` on the server and reload the app (`deploy.sh` copies the file into each release).
+5. **Live walk with the operator's own subscriber account:** make a class (numbers only), add a Level Set, a single page and a maker student link; open the class link on a tablet; play each; read the dashboard; delete the class. Then `tests/live-dark.js` must FAIL at step 1 (it proves the switch is really on).
+6. **First week:** read `/var/log/lcs-class-retention.log` once; after the first Sunday backup pull, read its "class data:" lines.
+
+## 10. Not in release 1 (release 2, after Parts 1 and 2)
+
+Activities reporting through the shared shell; the skill view (results by teaching point and by national objective, from the content graph); "what to practise next"; a robot for type-a-word, crossword, picture sort and sudoku pages (their marks are read from code only today).

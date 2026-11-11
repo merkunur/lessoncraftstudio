@@ -4,10 +4,12 @@
  * The teacher's subscription is read WITH the class, so "is this class link live" is decided at request time.
  */
 import crypto from 'crypto';
+import fs from 'fs';
+import path from 'path';
 import { prisma } from '@/lib/prisma';
 import { isSubscriptionUsable } from '@/lib/entitlements';
 import { loadLadder } from '@/lib/level-sets-db';
-import { deckTitleIn, pageIsInteractive, variationCodeOf } from '@/lib/level-sets';
+import { deckTitleIn } from '@/lib/level-sets';
 import { getMonolingualLandings } from '@/lib/seo/landing-content';
 import type { AssignmentContent, AssignmentKind, AssignmentRow, AttemptRow, ClassDb, ClassRow, Level, NamesMode } from './store';
 import { CODE_ALPHABET, LEVELS } from './store';
@@ -20,6 +22,26 @@ const asAssignment = (a: DbAssignment): AssignmentRow => ({ id: a.id, classId: a
 type DbAttempt = { id: string; token: string; assignmentId: string; seatId: string; pageRef: string; level: string | null; right: number | null; total: number | null; items: unknown; checks: number; finished: boolean; createdAt: Date; reportedAt: Date | null };
 const asAttempt = (a: DbAttempt): AttemptRow => ({ id: a.id, token: a.token, assignmentId: a.assignmentId, seatId: a.seatId, pageRef: a.pageRef, level: (a.level as Level | null) || null, right: a.right, total: a.total, items: (a.items as number[] | null) || null, checks: a.checks, finished: a.finished, createdAt: a.createdAt, reportedAt: a.reportedAt });
 const toJson = (x: unknown) => JSON.parse(JSON.stringify(x));
+
+const DECKS_DIR = process.env.DECKS_DIR || '/var/www/lcs-media/decks';
+
+/**
+ * Does the published page give a child something to check on screen? Read from THE PAGE ITSELF (its Check button or
+ * its celebration), not from the catalogue: the catalogue's rule (lib/level-sets.ts pageIsInteractive) calls every
+ * indexable page of an interactive family playable, and older first pages of a family are print-only (measured
+ * 2026-11-11: /en/decks/number-lines-g1116/ has no Check button while its copies -2 … -6 do). A page without one
+ * would be assigned, opened by a child and never report. Unreadable file = no (a refusal can be retried; a child
+ * stuck on a page cannot).
+ */
+export function pageHasScreen(locale: string, slug: string): boolean {
+  if (!/^[a-z]{2}$/.test(locale) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) return false;
+  try {
+    const html = fs.readFileSync(path.join(DECKS_DIR, locale, slug, 'deck.html'), 'utf8');
+    return html.includes('id="lcs-check"') || html.includes('id="lcs-celebration"');
+  } catch {
+    return false;
+  }
+}
 
 export const prismaClassDb: ClassDb = {
   async listClasses(teacherId) {
@@ -122,20 +144,20 @@ export const prismaClassDb: ClassDb = {
   async resolveDeck(locale, slug) {
     const d = await prisma.deck.findFirst({
       where: { language: locale, slug, status: 'published' },
-      select: { slug: true, title: true, exerciseType: true, indexable: true },
+      select: { slug: true, title: true },
     });
     if (!d) return null;
     return {
       slug: d.slug,
       title: deckTitleIn(d.title, locale) || d.slug,
-      interactive: pageIsInteractive(d.exerciseType, variationCodeOf(d.slug) || '', d.indexable),
+      interactive: pageHasScreen(locale, d.slug),
     };
   },
   async resolveLadder(locale, code) {
     const l = await loadLadder(locale, code);
     if (!l) return null;
     const levels = { easy: [], core: [], hard: [] } as Record<Level, string[]>;
-    for (const lv of LEVELS) levels[lv] = l.pages[lv].filter((p) => p.interactive).sort((a, b) => a.copy - b.copy).map((p) => p.slug);
+    for (const lv of LEVELS) levels[lv] = l.pages[lv].filter((p) => pageHasScreen(locale, p.slug)).sort((a, b) => a.copy - b.copy).map((p) => p.slug);
     return { code: l.code, title: l.title, levels };
   },
   async resolveLanding(locale, landingSlug) {

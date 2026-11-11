@@ -14,6 +14,11 @@
  *
  * Optimistic by design (IXL-style: you play, then meet the wall) — the server
  * has already counted the play; the overlay is the nudge, not a hard lock.
+ *
+ * CLASS LINKS (2026-11, docs/daily-teaching-system/PART-9-DESIGN.md): when the page address carries a class
+ * attempt token after '#' (#lcs=<20 chars>) a child opened this page from a teacher's class page. The token is
+ * sent with the play check — a live class of a subscribed teacher is not metered — and the class reporter
+ * (lcs-class.js) is loaded. Without the token nothing here changes and lcs-class.js is never requested.
  */
 (function () {
   'use strict';
@@ -46,6 +51,19 @@
     var C = COPY[LOC] || COPY.en;
     var HOST = 'https://www.lessoncraftstudio.com';
 
+    var CLASS_TOKEN = (function () {
+      var m = /[#&]lcs=([a-z2-9]{20})(?:&|$)/.exec(window.location.hash || '');
+      return m ? m[1] : null;
+    })();
+    function loadClassReporter() {
+      if (!CLASS_TOKEN || document.getElementById('lcs-class-js')) return;
+      var s = document.createElement('script');
+      s.id = 'lcs-class-js';
+      s.defer = true;
+      s.src = HOST + '/worksheet-generators/js/lcs-class.js?v=1';
+      document.head.appendChild(s);
+    }
+
     function showWall() {
       var o = document.createElement('div');
       o.setAttribute('style', 'position:fixed;inset:0;z-index:2147483647;background:rgba(14,84,74,.94);display:flex;align-items:center;justify-content:center;padding:24px;font-family:Nunito,system-ui,sans-serif;text-align:center;');
@@ -59,10 +77,11 @@
     }
 
     function run() {
+      loadClassReporter();
       fetch(HOST + '/api/quota/check-and-increment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ kind: 'play' }),
+        body: JSON.stringify(CLASS_TOKEN ? { kind: 'play', classToken: CLASS_TOKEN } : { kind: 'play' }),
         credentials: 'include',
         cache: 'no-store'
       }).then(function (res) {

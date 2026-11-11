@@ -1,0 +1,1278 @@
+{
+ "$comment": "The German units (Part 4.5). Hand-kept source; first written by scripts/units/lists/build-de-defs.js, which says how the list follows the German state curricula.",
+ "units": [
+  {
+   "id": "g1-add-subtract-within-10",
+   "slug": "plus-und-minus-bis-10-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Plus und Minus bis 10",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Plus und Minus bis 10",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:add-within-10-models",
+     "types": [
+      "G1-101",
+      "G1-110"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:subtract-cross-out",
+     "types": [
+      "G1-103",
+      "G1-104"
+     ],
+     "activity": "ten-frame.show-the-operation.k-oa-a-1"
+    },
+    {
+     "point": "1:make-10",
+     "types": [
+      "G1-106",
+      "G1-427"
+     ]
+    },
+    {
+     "point": "1:count-on-back-hops",
+     "types": [
+      "G1-116",
+      "G1-117"
+     ]
+    },
+    {
+     "point": "1:fact-families",
+     "types": [
+      "G1-219",
+      "G1-221"
+     ]
+    },
+    {
+     "point": "1:missing-number-equations",
+     "types": [
+      "G1-218",
+      "G1-115"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "types": [
+      "G1-240",
+      "G1-238"
+     ]
+    },
+    {
+     "point": "1:fluency-within-20",
+     "types": [
+      "G1-214"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g1-doubles-three-addends-number-walls",
+   "slug": "verdoppeln-drei-summanden-und-zahlenmauern-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Verdoppeln, drei Summanden und Zahlenmauern",
+   "metaTitle": "Mathe Klasse 1: Verdoppeln, drei Summanden und Zahlenmauern",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:doubles-halves",
+     "types": [
+      "G1-287",
+      "G1-288"
+     ]
+    },
+    {
+     "point": "1:odd-even-pairs",
+     "types": [
+      "G1-370",
+      "G1-369"
+     ]
+    },
+    {
+     "point": "1:add-three-addends",
+     "types": [
+      "G1-112"
+     ]
+    },
+    {
+     "point": "1:number-walls",
+     "types": [
+      "G1-266",
+      "G1-268"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-tens-and-ones",
+   "slug": "zehner-und-einer-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Zehner und Einer",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Zehner und Einer",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:tens-and-ones",
+     "types": [
+      "G1-120",
+      "G1-121"
+     ]
+    },
+    {
+     "point": "1:number-words",
+     "types": [
+      "G1-223",
+      "G1-224"
+     ]
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "types": [
+      "G1-137",
+      "G1-135"
+     ]
+    },
+    {
+     "point": "1:number-of-the-day",
+     "types": [
+      "G1-243",
+      "G1-255"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-hundreds-chart-skip-counting",
+   "slug": "zahlenstrahl-hundertertafel-und-zaehlen-in-schritten-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Zahlenstrahl, Hundertertafel und Zählen in Schritten",
+   "metaTitle": "Mathe Klasse 1: Zahlenstrahl, Hundertertafel und Zählen in Schritten",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:number-line-placement",
+     "types": [
+      "G1-275",
+      "G1-276"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "types": [
+      "G1-129",
+      "G1-310"
+     ]
+    },
+    {
+     "point": "1:one-ten-more-less",
+     "types": [
+      "G1-131",
+      "G1-132"
+     ]
+    },
+    {
+     "point": "1:skip-counting",
+     "types": [
+      "G1-123",
+      "G1-124",
+      "G1-125"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-time-calendar-coins",
+   "slug": "uhr-kalender-und-muenzen-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Uhr, Kalender und Münzen",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Uhr, Kalender und Münzen",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:time-read",
+     "types": [
+      "G1-148",
+      "G1-149"
+     ]
+    },
+    {
+     "point": "1:time-set-hands",
+     "types": [
+      "G1-233",
+      "G1-234"
+     ]
+    },
+    {
+     "point": "1:days-months-seasons",
+     "types": [
+      "G1-319",
+      "G1-320"
+     ]
+    },
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
+     ]
+    },
+    {
+     "point": "1:coins",
+     "types": [
+      "G1-228",
+      "G1-211"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-shapes-measuring-graphs",
+   "slug": "formen-messen-und-diagramme-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Formen, Messen und Diagramme",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Formen, Messen und Diagramme",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:shape-attributes",
+     "types": [
+      "G1-381",
+      "G1-382"
+     ]
+    },
+    {
+     "point": "1:tangram-compose",
+     "types": [
+      "G1-354",
+      "G1-355"
+     ]
+    },
+    {
+     "point": "1:measure-length-units",
+     "types": [
+      "G1-139",
+      "G1-140"
+     ]
+    },
+    {
+     "point": "1:picture-graphs-sort-count",
+     "types": [
+      "G1-146",
+      "G1-141"
+     ]
+    },
+    {
+     "point": "1:bar-graphs",
+     "types": [
+      "G1-143",
+      "G1-147"
+     ]
+    },
+    {
+     "point": "1:patterns-missing",
+     "types": [
+      "G1-155"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de2-zahlen-bis-100",
+   "slug": "zahlen-und-rechnen-bis-100-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Zahlen und Rechnen bis 100",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Zahlen und Rechnen bis 100",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:bundle-ten-ones",
+     "types": [
+      "G2-206"
+     ]
+    },
+    {
+     "point": "2:skip-count-5-10-100",
+     "types": [
+      "G2-304",
+      "G2-314"
+     ]
+    },
+    {
+     "point": "2:number-line-not-from-zero",
+     "types": [
+      "G2-305",
+      "G2-310"
+     ]
+    },
+    {
+     "point": "2:hundreds-chart-moves",
+     "types": [
+      "G2-321",
+      "G2-322"
+     ]
+    },
+    {
+     "point": "2:add-sub-within-100-practice",
+     "types": [
+      "G2-313",
+      "G2-393"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de2-groessen-daten",
+   "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Messen, Uhrzeit, Geld und Diagramme",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:measure-with-ruler",
+     "types": [
+      "G2-235"
+     ]
+    },
+    {
+     "point": "2:compare-lengths",
+     "types": [
+      "G2-236"
+     ]
+    },
+    {
+     "point": "2:time-5-min-quarter",
+     "types": [
+      "G2-249",
+      "G2-250"
+     ]
+    },
+    {
+     "point": "2:calendar",
+     "types": [
+      "G2-296",
+      "G2-297"
+     ]
+    },
+    {
+     "point": "2:shopping-money",
+     "types": [
+      "G2-291",
+      "G2-289"
+     ]
+    },
+    {
+     "point": "2:bar-graphs",
+     "types": [
+      "G2-239",
+      "G2-237"
+     ]
+    },
+    {
+     "point": "2:line-plots",
+     "types": [
+      "G2-240"
+     ]
+    },
+    {
+     "point": "2:scaled-pictograph",
+     "types": [
+      "G2-238"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de2-malnehmen",
+   "slug": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
+   "metaTitle": "Mathe Klasse 2: Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:equal-groups-times",
+     "types": [
+      "G2-209",
+      "G2-210"
+     ]
+    },
+    {
+     "point": "2:arrays",
+     "types": [
+      "G2-211",
+      "G2-212"
+     ]
+    },
+    {
+     "point": "3:mult-equal-groups",
+     "types": [
+      "G3-302",
+      "G3-301"
+     ]
+    },
+    {
+     "point": "3:mult-number-line",
+     "types": [
+      "G3-308"
+     ],
+     "activity": "skipcount.fill.2-nbt-a-2"
+    },
+    {
+     "point": "3:commutative",
+     "types": [
+      "G3-314"
+     ]
+    },
+    {
+     "point": "2:skip-count-3-4",
+     "types": [
+      "G2-207",
+      "G2-208"
+     ]
+    },
+    {
+     "point": "3:times-tables",
+     "types": [
+      "G3-364",
+      "G3-365",
+      "G3-358"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de2-teilen",
+   "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
+   "metaTitle": "Mathe Klasse 2: Teilen: Verteilen, Aufteilen und die Hälfte",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:share-and-group",
+     "types": [
+      "G2-216",
+      "G2-217"
+     ]
+    },
+    {
+     "point": "3:division-sharing",
+     "types": [
+      "G3-309"
+     ]
+    },
+    {
+     "point": "3:division-repeated-subtraction",
+     "types": [
+      "G3-310"
+     ]
+    },
+    {
+     "point": "2:odd-even",
+     "types": [
+      "G2-351",
+      "G2-352"
+     ]
+    },
+    {
+     "point": "2:equal-shares-shapes",
+     "types": [
+      "G2-232",
+      "G2-228",
+      "G2-229"
+     ]
+    },
+    {
+     "point": "2:fraction-of-a-set",
+     "types": [
+      "G2-233"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-shapes-solids-symmetry",
+   "slug": "formen-koerper-und-symmetrie-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "math",
+   "title": "Formen, Körper und Symmetrie",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Formen, Körper und Symmetrie",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:2d-attributes",
+     "types": [
+      "G2-241"
+     ]
+    },
+    {
+     "point": "2:solids-in-real-life",
+     "types": [
+      "G2-243"
+     ],
+     "activity": "choice-board.flat-solid.k-g-a-3"
+    },
+    {
+     "point": "2:3d-faces-edges-vertices",
+     "types": [
+      "G2-242",
+      "G2-245",
+      "G2-246"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:symmetry-line",
+     "types": [
+      "G2-247",
+      "G2-248"
+     ]
+    },
+    {
+     "point": "2:symmetry-complete",
+     "types": [
+      "G1-432",
+      "G2-264"
+     ]
+    },
+    {
+     "point": "2:tangram-orientation",
+     "types": [
+      "G2-347"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de3-zahlen-bis-1000",
+   "slug": "zahlen-bis-1000-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Zahlen bis 1000",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 3: Zahlen bis 1000",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:read-build-3-digit",
+     "types": [
+      "G2-222",
+      "G2-224"
+     ]
+    },
+    {
+     "point": "2:expanded-form-digit-value",
+     "types": [
+      "G2-223",
+      "G2-225"
+     ]
+    },
+    {
+     "point": "2:compare-order-3-digit",
+     "types": [
+      "G2-219",
+      "G2-220"
+     ]
+    },
+    {
+     "point": "2:hundred-more-less",
+     "types": [
+      "G2-226"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de3-runden-schriftlich",
+   "slug": "runden-und-schriftlich-rechnen-bis-1000-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Runden und schriftlich rechnen bis 1000",
+   "metaTitle": "Mathe Klasse 3: Runden und schriftlich rechnen bis 1000",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:round-to-ten",
+     "types": [
+      "G2-221",
+      "G2-346"
+     ]
+    },
+    {
+     "point": "3:rounding",
+     "types": [
+      "G3-323",
+      "G3-388"
+     ]
+    },
+    {
+     "point": "3:estimate-by-rounding",
+     "types": [
+      "G3-389"
+     ]
+    },
+    {
+     "point": "2:add-with-blocks",
+     "types": [
+      "G2-203"
+     ]
+    },
+    {
+     "point": "2:subtract-with-blocks",
+     "types": [
+      "G2-205"
+     ]
+    },
+    {
+     "point": "2:column-method",
+     "types": [
+      "G2-255",
+      "G2-256"
+     ]
+    },
+    {
+     "point": "3:column-regrouping",
+     "types": [
+      "G3-359",
+      "G3-360"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de3-mal-geteilt-gleichungen",
+   "slug": "mal-geteilt-gleichungen-und-muster-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Mal, geteilt, Gleichungen und Muster",
+   "metaTitle": "Mathe Klasse 3: Mal, geteilt, Gleichungen und Muster",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:mult-div-relationship",
+     "types": [
+      "G3-312",
+      "G3-311"
+     ]
+    },
+    {
+     "point": "3:muldiv-word-problems",
+     "types": [
+      "G3-371",
+      "G3-372",
+      "G3-373"
+     ]
+    },
+    {
+     "point": "3:division-remainder",
+     "types": [
+      "G3-377",
+      "G3-380"
+     ]
+    },
+    {
+     "point": "3:balance-equations",
+     "types": [
+      "G3-350"
+     ]
+    },
+    {
+     "point": "3:parity-of-sums",
+     "types": [
+      "G3-386"
+     ]
+    },
+    {
+     "point": "3:arithmetic-patterns",
+     "types": [
+      "G3-326",
+      "G3-327"
+     ]
+    },
+    {
+     "point": "3:input-output",
+     "types": [
+      "G3-328"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g3-time-temperature-mass-volume",
+   "slug": "zeit-temperatur-gewicht-und-rauminhalt-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Zeit, Temperatur, Gewicht und Rauminhalt",
+   "metaTitle": "Mathe Klasse 3: Zeit, Temperatur, Gewicht und Rauminhalt",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:time-to-minute",
+     "types": [
+      "G3-354"
+     ]
+    },
+    {
+     "point": "3:elapsed-duration",
+     "types": [
+      "G3-344"
+     ]
+    },
+    {
+     "point": "3:add-subtract-time",
+     "types": [
+      "G3-356"
+     ]
+    },
+    {
+     "point": "3:time-12-24",
+     "types": [
+      "G3-355"
+     ]
+    },
+    {
+     "point": "3:thermometer",
+     "types": [
+      "G3-345"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:mass-grams",
+     "types": [
+      "G2-261",
+      "G2-252"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:read-jugs",
+     "types": [
+      "G2-260",
+      "G2-263"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g3-area-perimeter-volume",
+   "slug": "flaecheninhalt-und-umfang-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Flächeninhalt und Umfang",
+   "metaTitle": "Unterrichtseinheit Mathe Klasse 3: Flächeninhalt und Umfang",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "3:area-model",
+     "types": [
+      "G3-313"
+     ]
+    },
+    {
+     "point": "3:same-area",
+     "types": [
+      "G3-338"
+     ]
+    },
+    {
+     "point": "3:perimeter",
+     "types": [
+      "G3-337"
+     ]
+    },
+    {
+     "point": "3:same-perimeter",
+     "types": [
+      "G3-339"
+     ]
+    },
+    {
+     "point": "3:volume-cubes",
+     "types": [
+      "G3-346"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g3-shapes-and-data",
+   "slug": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "math",
+   "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+   "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "3:right-angles",
+     "types": [
+      "G3-341"
+     ]
+    },
+    {
+     "point": "3:classify-quadrilaterals",
+     "types": [
+      "G3-340"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:symmetry",
+     "types": [
+      "G3-342"
+     ]
+    },
+    {
+     "point": "3:scaled-graphs",
+     "types": [
+      "G3-332",
+      "G3-333"
+     ]
+    },
+    {
+     "point": "3:line-plot-halves",
+     "types": [
+      "G3-335"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-sounds-spelling-syllables",
+   "slug": "laute-silben-und-erste-woerter-schreiben-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Laute, Silben und erste Wörter schreiben",
+   "metaTitle": "Deutsch Klasse 1: Laute, Silben und erste Wörter schreiben",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:rhyming",
+     "types": [
+      "G1-309",
+      "G1-343"
+     ]
+    },
+    {
+     "point": "1:word-families-syllable-reading",
+     "types": [
+      "G1-330",
+      "G1-306"
+     ]
+    },
+    {
+     "point": "1:phoneme-boxes",
+     "types": [
+      "G1-312",
+      "G1-314"
+     ]
+    },
+    {
+     "point": "1:digraphs",
+     "types": [
+      "G1-380",
+      "G1-392"
+     ]
+    },
+    {
+     "point": "1:spell-picture-words",
+     "types": [
+      "G1-258",
+      "G1-260"
+     ]
+    },
+    {
+     "point": "1:syllables-split",
+     "types": [
+      "G1-305",
+      "G1-325"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-reading-sentences-and-stories",
+   "slug": "saetze-und-geschichten-lesen-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Sätze und Geschichten lesen",
+   "metaTitle": "Unterrichtseinheit Deutsch Klasse 1: Sätze und Geschichten lesen",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:read-and-follow",
+     "types": [
+      "G1-251",
+      "G1-338"
+     ]
+    },
+    {
+     "point": "1:cloze",
+     "types": [
+      "G1-350",
+      "G1-368"
+     ]
+    },
+    {
+     "point": "1:unscramble-sentence",
+     "types": [
+      "G1-282",
+      "G1-249"
+     ]
+    },
+    {
+     "point": "1:question-words",
+     "types": [
+      "G1-353",
+      "G1-373"
+     ]
+    },
+    {
+     "point": "1:story-sequencing",
+     "types": [
+      "G1-400",
+      "G1-402"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-words-and-how-they-work",
+   "slug": "woerter-und-wortarten-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Wörter und Wortarten",
+   "metaTitle": "Unterrichtseinheit Deutsch Klasse 1: Wörter und Wortarten",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:alphabetical-order",
+     "types": [
+      "G1-262",
+      "G1-264"
+     ]
+    },
+    {
+     "point": "1:word-classes",
+     "types": [
+      "G1-293",
+      "G1-300"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:articles",
+     "types": [
+      "G1-292"
+     ]
+    },
+    {
+     "point": "1:opposites",
+     "types": [
+      "G1-307",
+      "G1-337"
+     ]
+    },
+    {
+     "point": "1:synonyms",
+     "types": [
+      "G1-395"
+     ]
+    },
+    {
+     "point": "1:shades-of-meaning",
+     "types": [
+      "G1-396"
+     ]
+    },
+    {
+     "point": "1:root-words",
+     "types": [
+      "G1-397"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-sentences-and-grammar",
+   "slug": "saetze-und-grammatik-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Sätze und Grammatik",
+   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Sätze und Grammatik",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:sentence-boundaries",
+     "types": [
+      "G2-274",
+      "G2-307"
+     ],
+     "activity": "sentence-clinic.fix-it.l-2-1"
+    },
+    {
+     "point": "2:word-classes",
+     "types": [
+      "G2-275",
+      "G2-286"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:plural-nouns",
+     "types": [
+      "G2-349"
+     ],
+     "activity": "plural.irregular.l-2-1-b"
+    },
+    {
+     "point": "2:verb-forms",
+     "types": [
+      "G2-317",
+      "G2-336"
+     ],
+     "activity": "rusty-yesterday.irregular-past.l-2-1-d"
+    },
+    {
+     "point": "2:question-words",
+     "types": [
+      "G2-356",
+      "G2-357"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g2-spelling-and-word-building",
+   "slug": "rechtschreiben-und-woerter-bilden-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Rechtschreiben und Wörter bilden",
+   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Rechtschreiben und Wörter bilden",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:digraphs",
+     "types": [
+      "G2-372"
+     ]
+    },
+    {
+     "point": "2:spelling-rules",
+     "types": [
+      "G2-315",
+      "G2-326"
+     ],
+     "activity": "word-clinic.spell-by-ear.l-1-2-e"
+    },
+    {
+     "point": "2:compound-words",
+     "types": [
+      "G2-331",
+      "G2-330"
+     ]
+    },
+    {
+     "point": "2:root-words",
+     "types": [
+      "G2-375",
+      "G2-359"
+     ]
+    },
+    {
+     "point": "2:prefixes",
+     "types": [
+      "G2-320",
+      "G2-376"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "2:synonyms",
+     "types": [
+      "G2-358",
+      "G2-373"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:synonyms~doing-stage",
+     "types": [
+      "G2-374"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-stories-facts-and-writing",
+   "slug": "geschichten-lesen-und-schreiben-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Geschichten lesen und schreiben",
+   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Geschichten lesen und schreiben",
+   "metaDescription": "",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:read-and-answer",
+     "types": [
+      "G2-254",
+      "G2-269"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:cloze-context",
+     "types": [
+      "G2-350"
+     ],
+     "activity": "fern-clue-garden.context-clues.l-2-4-a"
+    },
+    {
+     "point": "2:describe-a-picture",
+     "types": [
+      "G2-299",
+      "G2-300"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:retell-with-starters",
+     "types": [
+      "G2-378"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:animal-fact-file",
+     "types": [
+      "G2-339",
+      "G2-340"
+     ],
+     "activity": null,
+     "titles": {
+      "G2-339": "Animal Fact File: Circle the True Facts",
+      "G2-340": "Animal Fact File with a Word Bank"
+     }
+    },
+    {
+     "point": "2:cursive-writing",
+     "types": [
+      "G2-377",
+      "G2-385"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g3-words-and-their-meanings",
+   "slug": "wortfelder-wortfamilien-und-pronomen-klasse-3",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Wortfelder, Wortfamilien und Pronomen",
+   "metaTitle": "Deutsch Klasse 3: Wortfelder, Wortfamilien und Pronomen",
+   "metaDescription": "",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "3:word-fields",
+     "types": [
+      "G3-397"
+     ],
+     "activity": "roary-roar-meter.shades.l-2-5-b"
+    },
+    {
+     "point": "3:person-words",
+     "types": [
+      "G3-398"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "3:root-words-in-context",
+     "types": [
+      "G3-399"
+     ]
+    },
+    {
+     "point": "1:pronouns",
+     "types": [
+      "G1-352",
+      "G1-371"
+     ]
+    },
+    {
+     "point": "2:pronouns",
+     "types": [
+      "G2-353",
+      "G2-355"
+     ],
+     "activity": null
+    }
+   ]
+  }
+ ],
+ "plans": []
+}

@@ -1,0 +1,73 @@
+{
+  "K:order-by-size": {
+    "watch": "Se vilka som börjar om med ”den minsta av dem som är kvar” varje gång. Ett barn som gör så har en metod och klarar fem bilder; ett barn som gissar stannar vid tre."
+  },
+  "K:mirror-image": {
+    "mistake": "Barnen ringar in bilden som är precis likadan, eller den som är upp och ner. De ser ännu inte att en spegel byter plats på vänster och höger men låter upp och ner vara som det är."
+  },
+  "K:dot-to-dot-sequence": {
+    "words": "Säg: ”Säg talet du står på. Vad kommer sedan? Leta upp det INNAN du drar.” Låt barnen hålla ett finger på pricken de står på och leta efter nästa tal med ögonen."
+  },
+  "K:combine-groups": {
+    "watch": "Se vad som händer vid mellanrummet mellan grupperna. Ett barn som räknar vidare har lagt ihop dem. Ett barn som säger det första talet och räknar vidare därifrån använder redan en strategi från åk 1; låt barnet fortsätta så."
+  },
+  "1:word-problems": {
+    "watch": "Lyssna på återberättandet. En elev som kan spela upp händelsen med plockmaterial men skriver fel tecken behöver kopplingen mellan handlingen och tecknet, inte mer räkning."
+  },
+  "1:fluency-within-20": {
+    "words": "Fråga: ”Vilka kan du utantill? Vilka kan du tänka ut från en du redan kan?” Till exempel: ”Jag kan 4 + 4. Då är 4 + 5 ett mer.” Kalla 4 + 4 en dubbla och 4 + 5 en ”dubbla plus ett”."
+  },
+  "1:add-three-addends": {
+    "mistake": "Eleverna adderar de två första grupperna, skriver det talet och glömmer den tredje. Eller så räknar de varje bild från 1 och använder aldrig något de kan, som en dubbla.",
+    "words": "Säg: ”Tre grupper. Lägg ihop två av dem först, sedan den tredje.” Fråga: ”Vilka två är lätta att börja med? Ser du en dubbla?” Visa att man får välja: ”2 + 4 + 2. Jag tar 2 och 2 först. Det är 4. Och 4 till är 8.”"
+  },
+  "1:number-line-placement": {
+    "watch": "Se var en elev börjar för en pil vid 18. Den som räknar två steg bakåt från 20 använder linjen; att räkna upp från 0 fungerar men tar tid. Ett svar som är precis ett för stort betyder att eleven räknade streck. Tallinjen till 30 är en utmaning för dem som är säkra till 20."
+  },
+  "K:number-bonds-20": {
+    "mistake": "Elever som kan tiokamraterna använder dem inte här: för 13 och vilket tal blir 20 räknar de upp ett i taget från 13 och hamnar ofta ett steg fel. De ser inte att 13 är 10 och 3, så att kamraten är densamma som till 3."
+  },
+  "1:doubles-halves": {
+    "watch": "Se vilka som kan dubblorna till 5 + 5 utan att räkna och vilka som räknar varje bild; bladet går vidare till 7 + 7. De som räknar bygger varje dubbla med två händer eller i två rader i en tioram."
+  },
+  "1:odd-even-pairs": {
+    "words": "Fråga: ”Kan två kompisar dela lika? Blir en över?” Säg: ”Jämna tal går att dela lika på två. Udda tal ger en över.” Knyt det till dubblorna: ”8 är 4 och 4. Varje jämnt tal är en dubbla.” Låt eleverna räkna två i taget medan de ringar in: ”2, 4, 6 … och en till blir 7.”"
+  },
+  "1:sort-three-groups": {
+    "mistake": "Eleverna sorterar efter något eget (färg, eller vad de tycker om) och inte efter bladets tre grupper. Vid en bild som kan passa på två ställen kör de fast, eller så får bilden två streck."
+  },
+  "K:tally-marks": {
+    "title": "Räkna med streck: fem i varje knippe"
+  },
+  "1:bar-graphs": {
+    "mistake": "Eleverna räknar rutorna i en stapel och hoppar över den nedersta, eller räknar linjen högst upp som en till, så talet blir ett för litet eller ett för stort. De följer inte stapelns topp över till talet vid sidan."
+  },
+  "1:hundreds-chart": {
+    "mistake": "Eleverna fyller en lucka genom att räkna från radens början, eller från 1. På en pusselbit skriver de nästa tal i talraden i rutan under (35 under 34), för de ser inte att ett steg ner är tio mer."
+  },
+  "1:one-ten-more-less": {
+    "mistake": "För 10 mer räknar eleverna upp tio steg på fingrarna och hamnar ofta ett steg fel. För 10 mindre ändrar de fel siffra. Ett mer än 29 skrivs 210, för eleven säger ”tjugotio”."
+  },
+  "2:number-line-not-from-zero": {
+    "mistake": "Eleverna räknar strecken från vänster som 1, 2, 3, som om linjen började på noll. Eller så börjar de på ett utsatt tal och räknar det strecket som första hoppet, och hamnar ett steg fel."
+  },
+  "2:measure-with-ruler": {
+    "words": "Säg: ”Börja vid noll. Noll betyder ingen längd än. Räkna mellanrummen: ett, två, tre.” Sedan: ”Pennan slutar vid 6, så den är 6 enheter lång.” Bladet säger enheter; med en riktig linjal säger ni centimeter: ”Pennan är 6 centimeter lång.” Fråga: ”Var sitter nollan på din linjal? Den sitter inte alltid vid kanten.”"
+  },
+  "2:compare-lengths": {
+    "words": "Säg: ”Bandet är 9 enheter långt. Snöret är 6 enheter långt. Lägg dem under varandra. Var tar snöret slut? Biten som sticker ut är hur mycket LÄNGRE bandet är.” Skriv: ”9 − 6 = 3. Bandet är 3 enheter längre.” Kalla svaret skillnaden."
+  },
+  "2:time-5-min-quarter": {
+    "words": "Räkna fem i taget runt klockan och peka på varje tal: ”5, 10, 15, 20.” Säg: ”På högra halvan säger vi ÖVER: fem över, tio över, kvart över, tjugo över. På vänstra halvan säger vi I: tjugo i, kvart i, tio i, fem i. Då nämner vi timmen som kommer, precis som vid halv.” Visa de två särskilda, som räknas från halv: ”Fem i halv tre är fem minuter innan halv tre, alltså 2.25. Fem över halv tre är fem minuter efter halv tre, alltså 2.35. Båda sägs med tre, timmen som kommer.”"
+  },
+  "1:skip-counting": {
+    "mistake": "Eleverna säger hoppramsan rätt och skriver sedan nästa tal i talraden i luckan (10, 20, 21). I 2-hopp halkar de över på de udda talen efter ett fel och märker det inte."
+  },
+  "2:3d-faces-edges-vertices": {
+    "watch": "Ge varje par en riktig kropp och klisterlappar för att märka det som är räknat. Fråga efter det som är dolt på teckningen: ”Baksidan då? Botten?” Lektionen är krävande för åk 2 och passar på vårterminen."
+  },
+  "2:line-plots": {
+    "mistake": "Eleverna blandar ihop de två sorternas tal: talet under en stapel kryss (vad som mättes) och antalet kryss (hur många gånger). På frågan ”hur många är 5 cm långa” svarar de ”5”.",
+    "words": "Säg: ”Talen på linjen berättar VAD som mättes. Kryssen berättar HUR MÅNGA gånger.” Fråga: ”Hur många pennor var 5 cm långa? Räkna kryssen ovanför 5:an.” Sedan: ”Vilken längd var vanligast?”"
+  }
+}

@@ -35,6 +35,18 @@ const { pagesOf } = require('./catalog.js');
 const MIN_LESSONS = 4;
 const MIN_PLAN_UNITS = 3; // a year plan of one or two units is a thin page: those units are found on the hub
 
+/** The name of a Swedish activity without the school year its page title carries (see the call). */
+function svActivityName(title) {
+  const YEAR = '(?:åk|årskurs) ?[1-3]|förskoleklass(?:en)?';
+  let t = String(title).split(' | ')[0];                                             // "… | Åk 1", "… | övning", "… | Tilda"
+  const em = t.split(' — ');                                                         // "Räkna sidorna — Geometri i förskoleklass"
+  if (em.length === 2 && new RegExp(YEAR, 'i').test(em[1])) t = em[0];
+  t = t.replace(new RegExp('\\s*[–,]\\s*(?:' + YEAR + ')(?: matematik)?\\s*$', 'i'), '')   // "… – åk 1", "…, åk 2", "… – åk 1 matematik"
+    .replace(new RegExp('\\s+(?:för|i)\\s+(?:' + YEAR + ')(?![\\p{L}0-9])', 'giu'), '')        // "… för åk 2", "Rim i förskoleklass – …"
+    .replace(new RegExp('\\s+(?:' + YEAR + ')(?=\\s+[–—])', 'gi'), '');                      // "Läs vanliga ord åk 1 – …"
+  return t.replace(/\s{2,}/g, ' ').replace(/\s*[–—,]\s*$/, '').trim();
+}
+
 function assemble(loc, opt = {}) {
   const problems = [];
   const bad = (m) => problems.push(m);
@@ -141,6 +153,10 @@ function assemble(loc, opt = {}) {
           const cut = screen.title.split(' — ');
           const GW = { K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' }[d.grade] || null;
           if (cut.length === 2 && /Kindergarten|Grade [0-9]/.test(cut[1])) screen.title = GW && cut[1].includes(GW) ? (cut[0] + ' — ' + cut[1].split(GW).join('').replace(/\s*\|\s*$|\s+for\s*$|^\s*\|\s*/g, '').replace(/\s{2,}/g, ' ').trim()).replace(/ — $/, '') : cut[0];
+          // Swedish: an activity's page title carries a year ("… för åk 2", "… i förskoleklass", "| Åk 1"), and the
+          // Swedish units place a lesson by Swedish practice, often in another year than that title names. The year
+          // is on the unit page already, so the lesson shows the activity's name without it.
+          if (loc === 'sv') screen.title = svActivityName(screen.title);
         }
         else if (L.activity) bad(lw + ': activity ' + actId + ' is not live in this language');
       }

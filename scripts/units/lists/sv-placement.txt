@@ -1,0 +1,235 @@
+# A Swedish lågstadielärare placed every lesson of the placement sheet (2026-11-11). Lesson lines: id | year (F, 1, 2, 3, X) | order in its arbetsområde | key | remark. Then one line per arbetsområde: key | year | ma or sv | position in the year | Swedish name.
+`1:add-within-10-models` | 1 | 1 | 1-ma-add-sub-0-10 |
+`1:subtract-cross-out` | 1 | 2 | 1-ma-add-sub-0-10 | the two sheets are the same task
+`1:make-10` | 1 | 1 | 1-ma-talkamrater | tiokamrater, core of åk 1 autumn; labyrinth sheet last in the lesson
+`1:count-on-back-hops` | 1 | 3 | 1-ma-add-sub-0-10 |
+`1:fact-families` | 1 | 2 | 1-ma-talkamrater | Swedish term is talfamiljer
+`1:missing-number-equations` | 1 | 3 | 1-ma-talkamrater | carries the meaning of the equals sign
+`1:word-problems` | 1 | 5 | 1-ma-add-sub-0-10 | teacher reads aloud in autumn, most pupils cannot yet read the text
+`1:fluency-within-20` | 1 | 6 | 1-ma-add-sub-0-10 | only 0–10; nothing for 11–20
+`K:rhyme` | F | 1 | F-sv-spraklekar |
+`K:count-syllables` | F | 2 | F-sv-spraklekar |
+`K:beginning-sounds` | F | 3 | F-sv-spraklekar | writing the letter: spring term
+`K:sound-position` | F | 4 | F-sv-spraklekar | “Ljudet i mitten” only late spring
+`K:segment-phonemes` | F | 5 | F-sv-spraklekar | only “Räkna ljuden i ordet” stays in F; “Ljuda ord i ljudrutor” (two-letter sounds) is åk 1
+`K:cvc-build` | 1 | 1 | 1-sv-ljuda-stava | reading and spelling whole words starts in åk 1, not F
+`K:position-words` | F | 1 | F-ma-lage-storlek-monster |
+`K:scene-search` | F | 2 | F-ma-lage-storlek-monster |
+`K:compare-size-extremes` | F | 3 | F-ma-lage-storlek-monster |
+`K:order-by-size` | F | 4 | F-ma-lage-storlek-monster |
+`K:patterns` | F | 6 | F-ma-lage-storlek-monster |
+`K:one-to-one` | F | 1 | F-ma-antal-0-10 |
+`K:numeral-formation` | F | 6 | F-ma-antal-0-10 | repeated in åk 1 autumn
+`K:count-how-many` | F | 2 | F-ma-antal-0-10 |
+`K:count-out-n` | F | 3 | F-ma-antal-0-10 |
+`K:colour-by-number` | F | 7 | F-ma-antal-0-10 |
+`K:subitize` | F | 4 | F-ma-antal-0-10 |
+`K:compare-groups` | F | 5 | F-ma-antal-0-10 |
+`K:shape-naming` | F | 1 | F-ma-former | teacher reads the shape names; “Måla efter figurkod” suits F best
+`K:count-sides` | F | 2 | F-ma-former |
+`K:compose-shapes` | F | 3 | F-ma-former | only “Lätta tangramfigurer av 2 och 3 bitar: rita linjerna” stays; the seven-piece cut-out is åk 1
+`K:mirror-image` | F | 4 | F-ma-former |
+`K:count-forward-missing` | F | 1 | F-ma-talraden-20 | “Tal som saknas till 20” in spring
+`K:dot-to-dot-sequence` | F | 3 | F-ma-talraden-20 |
+`K:before-after-back` | F | 2 | F-ma-talraden-20 |
+`K:ordinal-position` | F | 4 | F-ma-talraden-20 |
+`K:classify-count-kinds` | F | 1 | F-ma-sortera-dela-upp |
+`K:tally-marks` | 1 | 2 | 1-ma-diagram | tally tables belong with tabeller och diagram in åk 1
+`K:estimate` | F | 2 | F-ma-sortera-dela-upp |
+`K:heavy-light` | F | 5 | F-ma-lage-storlek-monster | comparing weight belongs with comparing size
+`K:days-of-week` | 1 | 1 | 1-ma-klockan-almanackan | needs reading and copying weekday names; in F weekdays are oral only
+`K:combine-groups` | F | 3 | F-ma-sortera-dela-upp |
+`K:number-bonds-k` | F | 4 | F-ma-sortera-dela-upp | only “Femkompisar med prickar” stays; “Talkamrater upp till 10” is åk 1 autumn
+`K:fact-fluency-colour-code` | 1 | 4 | 1-ma-add-sub-0-10 | written plus and minus is åk 1
+`K:number-bonds-20` | 1 | 4 | 1-ma-tal-0-20 | spring term
+`K:odd-even-pairing` | 1 | 6 | 1-ma-tal-0-20 | udda/jämnt is åk 1, not F
+`1:doubles-halves` | 1 | 5 | 1-ma-tal-0-20 |
+`1:odd-even-pairs` | 1 | 7 | 1-ma-tal-0-20 |
+`1:add-three-addends` | 1 | 4 | 1-ma-talkamrater | assumes sums up to 10; if up to 20, move after 1-ma-tal-0-20
+`1:number-walls` | 1 | 5 | 1-ma-talkamrater |
+`1:tens-and-ones` | 2 | 2 | 2-ma-tal-0-100 | two-digit numbers above 20 are åk 2
+`1:number-words` | 1 | 3 | 1-ma-tal-0-20 | only “Tal med bokstäver till 20” stays; “Hela tiotal: 10 till 100” is åk 2
+`1:compare-order-two-digit` | 2 | 7 | 2-ma-tal-0-100 |
+`1:number-of-the-day` | 1 | 2 | 1-ma-tal-0-20 | “Dagens tal: 11 till 20” in spring
+`1:number-line-placement` | 1 | 1 | 1-ma-tal-0-20 | “Läs av tallinjen 0 till 30” as extension
+`1:hundreds-chart` | 2 | 3 | 2-ma-tal-0-100 |
+`1:one-ten-more-less` | 2 | 4 | 2-ma-tal-0-100 | “1 mer, 1 mindre” is already åk 1 level; “10 mer, 10 mindre” is åk 2
+`1:skip-counting` | 2 | 1 | 2-ma-multiplikation | 2-, 5-, 10-hopp as the way into the tables
+`1:time-read` | 1 | 4 | 1-ma-klockan-almanackan | hel och halv timme is åk 1
+`1:time-set-hands` | 1 | 5 | 1-ma-klockan-almanackan |
+`1:days-months-seasons` | 1 | 2 | 1-ma-klockan-almanackan |
+`1:ordinal-numbers` | 1 | 3 | 1-ma-klockan-almanackan | ordinals are needed for dates
+`1:coins` | 2 | 4 | 2-ma-add-sub-0-100 | sums probably pass 20; “Räkna mynt: första stegen” can be used in åk 1 if sums stay within 20
+`1:shape-attributes` | 1 | 1 | 1-ma-former-monster-langd | “skriv namnen” in spring
+`1:tangram-compose` | 1 | 2 | 1-ma-former-monster-langd |
+`1:measure-length-units` | 1 | 4 | 1-ma-former-monster-langd | non-standard units, correct for åk 1
+`1:sort-three-groups` | 1 | 1 | 1-ma-diagram |
+`1:picture-graphs-sort-count` | 1 | 3 | 1-ma-diagram |
+`1:bar-graphs` | 1 | 4 | 1-ma-diagram |
+`1:patterns-missing` | 1 | 3 | 1-ma-former-monster-langd |
+`2:bundle-ten-ones` | 2 | 1 | 2-ma-tal-0-100 |
+`2:skip-count-5-10-100` | 2 | 2 | 2-ma-multiplikation |
+`2:number-line-not-from-zero` | 2 | 6 | 2-ma-tal-0-100 |
+`2:hundreds-chart-moves` | 2 | 5 | 2-ma-tal-0-100 |
+`2:read-build-3-digit` | 3 | 1 | 3-ma-tal-0-1000 | three-digit numbers are åk 3
+`2:expanded-form-digit-value` | 3 | 2 | 3-ma-tal-0-1000 |
+`2:compare-order-3-digit` | 3 | 3 | 3-ma-tal-0-1000 |
+`2:hundred-more-less` | 3 | 4 | 3-ma-tal-0-1000 |
+`2:add-with-blocks` | 2 | 1 | 2-ma-add-sub-0-100 | assumes two-digit numbers; if the blocks show hundreds, move to åk 3
+`2:subtract-with-blocks` | 2 | 2 | 2-ma-add-sub-0-100 | same assumption
+`2:column-method` | 3 | 4 | 3-ma-avrundning-uppstallning | uppställning is åk 3 in most schools (some läromedel start late åk 2)
+`2:add-sub-within-100-practice` | 2 | 3 | 2-ma-add-sub-0-100 |
+`2:measure-with-ruler` | 2 | 1 | 2-ma-langd-tid | sheet says “enheter”, Swedish åk 2 measures in cm
+`2:compare-lengths` | 2 | 2 | 2-ma-langd-tid | same
+`2:time-5-min-quarter` | 2 | 3 | 2-ma-langd-tid | teach “Kvart över, halv och kvart i” first; “Vad är klockan?” (five minutes) late åk 2
+`2:calendar` | 2 | 4 | 2-ma-langd-tid |
+`2:shopping-money` | 2 | 5 | 2-ma-add-sub-0-100 |
+`2:bar-graphs` | 2 | 1 | 2-ma-diagram |
+`2:line-plots` | 2 | 4 | 2-ma-diagram | not a Swedish diagram type; usable only as "read a table of crosses"; the term punktdiagram is wrong
+`2:scaled-pictograph` | 2 | 2 | 2-ma-diagram | after dubbelt / 2:ans tabell
+`2:grid-coordinates` | 2 | 7 | 2-ma-geometri | not in åk 1–3 central content (koordinatsystem is 4–6); usable as a rutnät activity
+`2:odd-even` | 2 | 8 | 2-ma-tal-0-100 |
+`2:equal-groups-times` | 2 | 3 | 2-ma-multiplikation |
+`2:arrays` | 2 | 5 | 2-ma-multiplikation |
+`2:skip-count-3-4` | 3 | 1 | 3-ma-mult-division | 3- and 4-hopp lead to 3:ans and 4:ans tabell (åk 3; some schools late åk 2)
+`2:share-and-group` | 3 | 2 | 3-ma-mult-division | delningsdivision and innehållsdivision
+`2:equal-shares-shapes` | 3 | 2 | 3-ma-brak | “Lika delar?” and “Hälften och hälften” are åk 2 level; kept here because åk 2 has too few fraction lessons for a unit
+`2:fraction-of-a-set` | 3 | 6 | 3-ma-brak | del av antal
+`2:2d-attributes` | 2 | 1 | 2-ma-geometri |
+`2:solids-in-real-life` | 2 | 2 | 2-ma-geometri |
+`2:3d-faces-edges-vertices` | 2 | 3 | 2-ma-geometri | demanding for åk 2; spring term
+`2:symmetry-line` | 2 | 4 | 2-ma-geometri |
+`2:symmetry-complete` | 2 | 5 | 2-ma-geometri |
+`2:tangram-orientation` | 2 | 6 | 2-ma-geometri |
+`2:round-to-ten` | 3 | 1 | 3-ma-avrundning-uppstallning | avrundning is åk 3
+`3:rounding` | 3 | 2 | 3-ma-avrundning-uppstallning |
+`3:estimate-by-rounding` | 3 | 3 | 3-ma-avrundning-uppstallning | överslagsräkning
+`3:column-regrouping` | 3 | 5 | 3-ma-avrundning-uppstallning |
+`3:balance-equations` | 3 | 1 | 3-ma-algebra |
+`3:parity-of-sums` | 3 | 4 | 3-ma-algebra | enrichment; not something a Swedish teacher expects
+`3:arithmetic-patterns` | 3 | 2 | 3-ma-algebra | talföljder
+`3:mult-equal-groups` | 2 | 4 | 2-ma-multiplikation | multiplication starts in åk 2 in Sweden
+`3:mult-number-line` | 2 | 7 | 2-ma-multiplikation |
+`3:commutative` | 2 | 6 | 2-ma-multiplikation |
+`3:times-tables` | 2 | 8 | 2-ma-multiplikation | “2:ans tabell” and “5:ans tabell” stay; “Träna multiplikationstabellerna” only if it holds 2, 5, 10, otherwise åk 3
+`3:input-output` | 3 | 3 | 3-ma-algebra |
+`3:division-sharing` | 3 | 3 | 3-ma-mult-division | same task as “Dela lika” in `2:share-and-group`
+`3:division-repeated-subtraction` | 3 | 4 | 3-ma-mult-division |
+`3:mult-div-relationship` | 3 | 5 | 3-ma-mult-division |
+`3:muldiv-word-problems` | 3 | 6 | 3-ma-mult-division |
+`3:division-remainder` | 3 | 7 | 3-ma-mult-division | extension; many schools leave remainders to åk 4
+`3:time-to-minute` | 3 | 1 | 3-ma-matning |
+`3:elapsed-duration` | 3 | 3 | 3-ma-matning |
+`3:add-subtract-time` | 3 | 4 | 3-ma-matning |
+`3:time-12-24` | 3 | 2 | 3-ma-matning | teach as analog and digital time; Sweden has no am/pm
+`3:thermometer` | 3 | 7 | 3-ma-matning | if it shows minus degrees, note that negative numbers are not åk 1–3 content
+`2:mass-grams` | 3 | 5 | 3-ma-matning | gram reading is åk 3; kg comes first in Sweden
+`2:read-jugs` | 3 | 6 | 3-ma-matning | Swedish lågstadium measures in liter and deciliter; millilitres are unusual before åk 4
+`3:area-model` | 3 | 5 | 3-ma-geometri | area by counting squares, late åk 3; formal area is åk 4–6
+`3:same-area` | 3 | 6 | 3-ma-geometri |
+`3:perimeter` | 3 | 4 | 3-ma-geometri | omkrets by counting, åk 3
+`3:same-perimeter` | 3 | 7 | 3-ma-geometri | extension; registry places it in 4–6
+`3:volume-cubes` | 3 | 8 | 3-ma-geometri | counting cubes as spatial sense; volume in cubes is formally 4–6
+`3:partition-equal-areas` | 3 | 1 | 3-ma-brak | same task as “Lika delar?” in `2:equal-shares-shapes`
+`3:fraction-unit-build` | 3 | 3 | 3-ma-brak |
+`3:whole-from-unit` | 3 | 4 | 3-ma-brak |
+`3:fraction-number-line` | X | - | - | fractions on the number line are åk 4–6
+`3:compare-fractions` | 3 | 5 | 3-ma-brak |
+`3:equivalent-fractions` | X | - | - | equivalent fractions are åk 4–6
+`3:fraction-of-set` | 3 | 7 | 3-ma-brak |
+`3:right-angles` | 3 | 2 | 3-ma-geometri | only the notion "rät vinkel"; angles as such are 4–6
+`3:classify-quadrilaterals` | 3 | 1 | 3-ma-geometri |
+`3:symmetry` | 3 | 3 | 3-ma-geometri |
+`3:scaled-graphs` | 2 | 3 | 2-ma-diagram | late åk 2, after 5-hopp; may equally be used in åk 3
+`3:line-plot-halves` | X | - | - | this diagram type with halves on the axis is not taught in åk 1–3
+`K:pre-writing-strokes` | F | 1 | F-sv-bokstaver |
+`K:letter-identification` | F | 2 | F-sv-bokstaver |
+`K:letter-case` | F | 3 | F-sv-bokstaver |
+`K:letter-formation` | F | 4 | F-sv-bokstaver | introduced in F; taught systematically letter by letter in åk 1
+`K:alphabet-order` | F | 7 | F-sv-bokstaver | late spring; also fits åk 1 autumn
+`K:word-sentence-tracing` | F | 5 | F-sv-bokstaver |
+`K:all-about-me-personal` | F | 6 | F-sv-bokstaver | “Det här är jag” can be done at school start; “Mina favoritsaker: ringa in och skriv” in spring
+`K:word-picture-match` | 1 | 1 | 1-sv-ord-meningar | reading words is åk 1
+`K:sight-words-reading` | 1 | 2 | 1-sv-ord-meningar | högfrekventa ord, åk 1
+`K:singular-plural` | 2 | 3 | 2-sv-substantiv | the terms singular/plural belong with substantiv in åk 2; tracing is easy for åk 2
+`K:articles` | 2 | 1 | 2-sv-substantiv | trivial for native speakers; useful as entry to substantiv and for svenska som andraspråk
+`K:digraphs-k` | X | - | - | no Swedish sheet; sh/ch are English spelling
+`K:category-sort` | F | 1 | F-sv-ord-berattande |
+`K:category-odd-one-out` | F | 2 | F-sv-ord-berattande |
+`K:opposites` | F | 3 | F-sv-ord-berattande | teacher reads the words
+`K:story-sequencing` | F | 4 | F-sv-ord-berattande |
+`1:rhyming` | 1 | 5 | 1-sv-ljuda-stava |
+`1:word-families-syllable-reading` | 1 | 3 | 1-sv-ljuda-stava | Swedish sheets are sound blending (ljuda ihop), which is right for åk 1
+`1:phoneme-boxes` | 1 | 2 | 1-sv-ljuda-stava |
+`1:digraphs` | X | - | - | no Swedish sheet; sh/ch/th are English spelling
+`1:spell-picture-words` | 1 | 4 | 1-sv-ljuda-stava | “Skriv ordet utan ordbank” in spring
+`1:syllables-split` | 1 | 6 | 1-sv-ljuda-stava | “Skriv ordet i stavelser” (hyphen) is late åk 1 or åk 2
+`1:read-and-follow` | 1 | 3 | 1-sv-ord-meningar | spring term
+`1:cloze` | 1 | 4 | 1-sv-ord-meningar |
+`1:unscramble-sentence` | 1 | 5 | 1-sv-ord-meningar |
+`1:question-words` | 1 | 6 | 1-sv-ord-meningar |
+`1:story-sequencing` | 1 | 7 | 1-sv-ord-meningar |
+`1:alphabetical-order` | 2 | 1 | 2-sv-ordkunskap | sorting words alphabetically is åk 2; “andra bokstaven” late åk 2
+`1:word-classes` | 2 | 5 | 2-sv-substantiv | word classes start in åk 2 in Sweden, not åk 1
+`1:pronouns` | 3 | 3 | 3-sv-ordklasser | pronomen as a term is 4–6; in åk 3 only as "avoid repeating the name"
+`1:articles` | 2 | 2 | 2-sv-substantiv | en-ord/ett-ord as a test for substantiv
+`1:opposites` | 2 | 2 | 2-sv-ordkunskap | could also end åk 1
+`1:synonyms` | 2 | 3 | 2-sv-ordkunskap |
+`1:shades-of-meaning` | 2 | 5 | 2-sv-ordkunskap |
+`1:root-words` | 2 | 7 | 2-sv-ordkunskap |
+`2:sentence-boundaries` | 2 | 1 | 2-sv-lasa-skriva-texter |
+`2:word-classes` | 3 | 1 | 3-sv-ordklasser | all three classes without pictures is åk 3
+`2:plural-nouns` | 2 | 4 | 2-sv-substantiv |
+`2:verb-forms` | 3 | 2 | 3-sv-ordklasser | tempus (nu/då) is åk 3
+`2:pronouns` | 3 | 4 | 3-sv-ordklasser |
+`2:question-words` | 2 | 2 | 2-sv-lasa-skriva-texter |
+`2:digraphs` | X | - | - | no Swedish sheet
+`2:spelling-rules` | 3 | 1 | 3-sv-stavning-ordbildning | depends on the rule: dubbelteckning, ck and ng are åk 2; sj-, tj- and j-ljudet are åk 3
+`2:compound-words` | 2 | 6 | 2-sv-ordkunskap |
+`2:root-words` | 3 | 2 | 3-sv-stavning-ordbildning | the term ordstam is 4–6; say "släktord" to the pupils
+`2:synonyms` | 2 | 4 | 2-sv-ordkunskap |
+`2:synonyms~doing-stage` | 3 | 7 | 3-sv-stavning-ordbildning | goes with writing dialogue in åk 3
+`2:read-and-answer` | 2 | 3 | 2-sv-lasa-skriva-texter |
+`2:cloze-context` | 2 | 4 | 2-sv-lasa-skriva-texter |
+`2:describe-a-picture` | 2 | 5 | 2-sv-lasa-skriva-texter |
+`2:retell-with-starters` | 2 | 6 | 2-sv-lasa-skriva-texter |
+`2:animal-fact-file` | 2 | 7 | 2-sv-lasa-skriva-texter | faktatext, spring term
+`2:cursive-writing` | X | - | - | no Swedish sheet; joined handwriting is not required by Lgr22
+`2:prefixes` | 3 | 4 | 3-sv-stavning-ordbildning | “Motsatsord med förstavelsen o-” fits åk 3; åter-/miss-/över- is extension
+`3:word-fields` | 3 | 6 | 3-sv-stavning-ordbildning |
+`3:person-words` | 3 | 5 | 3-sv-stavning-ordbildning |
+`3:root-words-in-context` | 3 | 3 | 3-sv-stavning-ordbildning |
+F-ma-lage-storlek-monster | F | ma | 1 | Läge, storlek och mönster
+F-ma-antal-0-10 | F | ma | 2 | Antal och siffror 0–10
+F-ma-former | F | ma | 3 | Geometriska former och spegelbilder
+F-ma-talraden-20 | F | ma | 4 | Talraden till 20 och ordningstal
+F-ma-sortera-dela-upp | F | ma | 5 | Sortera, uppskatta och dela upp tal
+F-sv-spraklekar | F | sv | 1 | Språklekar: rim, stavelser och ljud
+F-sv-ord-berattande | F | sv | 2 | Ord, begrepp och berättande
+F-sv-bokstaver | F | sv | 3 | Bokstäver och första skrivandet
+1-ma-add-sub-0-10 | 1 | ma | 1 | Addition och subtraktion 0–10
+1-ma-talkamrater | 1 | ma | 2 | Talkamrater och likhetstecknet
+1-ma-former-monster-langd | 1 | ma | 3 | Former, mönster och längd
+1-ma-tal-0-20 | 1 | ma | 4 | Talen 0–20: dubbelt, hälften, udda och jämnt
+1-ma-klockan-almanackan | 1 | ma | 5 | Klockan och almanackan
+1-ma-diagram | 1 | ma | 6 | Sortera, tabeller och diagram
+1-sv-ljuda-stava | 1 | sv | 1 | Ljuda, läsa och stava ord
+1-sv-ord-meningar | 1 | sv | 2 | Läsa och skriva ord och meningar
+2-ma-tal-0-100 | 2 | ma | 1 | Talen 0–100: tiotal och ental
+2-ma-add-sub-0-100 | 2 | ma | 2 | Addition och subtraktion 0–100 med pengar
+2-ma-langd-tid | 2 | ma | 3 | Längd, klockan och almanackan
+2-ma-multiplikation | 2 | ma | 4 | Multiplikation: lika grupper, 2:an och 5:an
+2-ma-geometri | 2 | ma | 5 | Geometriska objekt, symmetri och rutnät
+2-ma-diagram | 2 | ma | 6 | Tabeller och diagram
+2-sv-ordkunskap | 2 | sv | 1 | Ordkunskap och alfabetisk ordning
+2-sv-lasa-skriva-texter | 2 | sv | 2 | Läsa, förstå och skriva texter
+2-sv-substantiv | 2 | sv | 3 | Substantiv, verb och adjektiv
+3-ma-tal-0-1000 | 3 | ma | 1 | Talen 0–1000: hundratal, tiotal och ental
+3-ma-avrundning-uppstallning | 3 | ma | 2 | Avrundning, överslag och uppställning
+3-ma-mult-division | 3 | ma | 3 | Multiplikation och division
+3-ma-matning | 3 | ma | 4 | Mätning: tid, massa, volym och temperatur
+3-ma-brak | 3 | ma | 5 | Bråk: del av helhet och del av antal
+3-ma-algebra | 3 | ma | 6 | Likheter, talföljder och talmaskiner
+3-ma-geometri | 3 | ma | 7 | Fyrhörningar, symmetri, omkrets och area
+3-sv-ordklasser | 3 | sv | 1 | Ordklasser, tempus och pronomen
+3-sv-stavning-ordbildning | 3 | sv | 2 | Stavning, ordbildning och ordval

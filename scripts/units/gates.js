@@ -28,7 +28,10 @@ const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
 const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i,
-  de: /(?<!kein )(?<!keinem )\b(ganze[sn]?|gesamte[sn]?|komplette[sn]?|volle[sn]?) (Schul)?jahr\b|\bfürs ganze Jahr\b|\b(36|38|40) Wochen\b/i };
+  de: /(?<!kein )(?<!keinem )\b(ganze[sn]?|gesamte[sn]?|komplette[sn]?|volle[sn]?) (Schul)?jahr\b|\bfürs ganze Jahr\b|\b(36|38|40) Wochen\b/i,
+  // "årsplanering" names the plan of a whole school year: a plan of ours never carries that name (it may say that it
+  // goes INTO the teacher's own årsplanering)
+  sv: /(?<!inte ett )(?<![\p{L}])(hela|helt) (läsår|läsåret|skolår|skolåret|året)(?![\p{L}])|(?<![\p{L}])(läsårsplanering|helårsplanering)(?![\p{L}])|(?<!din egen )(?<!din )(?<![\p{L}])årsplanering(?![\p{L}])|(?<![0-9])(36|38|40) veckor/iu };
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 

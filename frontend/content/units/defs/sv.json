@@ -1,0 +1,1866 @@
+{
+ "$comment": "The Swedish units (Part 4.6). Hand-kept source; first written by scripts/units/lists/build-sv-defs.js from a Swedish teacher's placement of every lesson (lists/sv-placement.txt).",
+ "units": [
+  {
+   "id": "sv-f-ma-lage-storlek-monster",
+   "slug": "lage-storlek-och-monster-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Läge, storlek och mönster",
+   "metaTitle": "Matematik förskoleklass: Läge, storlek och mönster | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Läge, storlek och mönster”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:position-words",
+     "types": [
+      "K-064",
+      "K-065"
+     ]
+    },
+    {
+     "point": "K:scene-search",
+     "types": [
+      "K-059",
+      "K-070"
+     ]
+    },
+    {
+     "point": "K:compare-size-extremes",
+     "types": [
+      "K-032",
+      "K-035"
+     ]
+    },
+    {
+     "point": "K:order-by-size",
+     "types": [
+      "K-033",
+      "K-034"
+     ]
+    },
+    {
+     "point": "K:heavy-light",
+     "types": [
+      "K-038"
+     ]
+    },
+    {
+     "point": "K:patterns",
+     "types": [
+      "K-046",
+      "K-047"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-f-ma-antal-0-10",
+   "slug": "antal-och-siffror-0-10-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Antal och siffror 0–10",
+   "metaTitle": "Matematik förskoleklass: Antal och siffror 0–10 | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Antal och siffror 0–10”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:one-to-one",
+     "types": [
+      "K-012"
+     ],
+     "activity": "twinsies.count-twin.k-cc-b-5"
+    },
+    {
+     "point": "K:count-how-many",
+     "types": [
+      "K-006",
+      "K-004"
+     ]
+    },
+    {
+     "point": "K:count-out-n",
+     "types": [
+      "K-011",
+      "K-005"
+     ]
+    },
+    {
+     "point": "K:subitize",
+     "types": [
+      "K-018",
+      "K-017"
+     ]
+    },
+    {
+     "point": "K:compare-groups",
+     "types": [
+      "K-008",
+      "K-009"
+     ]
+    },
+    {
+     "point": "K:numeral-formation",
+     "types": [
+      "K-237",
+      "K-251"
+     ]
+    },
+    {
+     "point": "K:colour-by-number",
+     "types": [
+      "K-393",
+      "K-266"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-f-ma-former",
+   "slug": "geometriska-former-och-spegelbilder-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Geometriska former och spegelbilder",
+   "metaTitle": "Matematik förskoleklass: Geometriska former och spegelbilder",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Geometriska former och spegelbilder”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:shape-naming",
+     "types": [
+      "K-368",
+      "K-265"
+     ]
+    },
+    {
+     "point": "K:count-sides",
+     "types": [
+      "K-075",
+      "K-076"
+     ]
+    },
+    {
+     "point": "K:compose-shapes",
+     "types": [
+      "K-358"
+     ]
+    },
+    {
+     "point": "K:mirror-image",
+     "types": [
+      "K-063"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-f-ma-talraden-20",
+   "slug": "talraden-till-20-och-ordningstal-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Talraden till 20 och ordningstal",
+   "metaTitle": "Matematik förskoleklass: Talraden till 20 och ordningstal",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Talraden till 20 och ordningstal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:count-forward-missing",
+     "types": [
+      "K-019",
+      "K-020"
+     ]
+    },
+    {
+     "point": "K:before-after-back",
+     "types": [
+      "K-021",
+      "K-023"
+     ]
+    },
+    {
+     "point": "K:dot-to-dot-sequence",
+     "types": [
+      "K-294",
+      "K-295"
+     ]
+    },
+    {
+     "point": "K:ordinal-position",
+     "types": [
+      "K-030",
+      "K-320"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-f-ma-sortera-dela-upp",
+   "slug": "sortera-uppskatta-och-dela-upp-tal-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Sortera, uppskatta och dela upp tal",
+   "metaTitle": "Matematik förskoleklass: Sortera, uppskatta och dela upp tal",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Sortera, uppskatta och dela upp tal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:classify-count-kinds",
+     "types": [
+      "K-013",
+      "K-060"
+     ]
+    },
+    {
+     "point": "K:estimate",
+     "types": [
+      "K-029"
+     ]
+    },
+    {
+     "point": "K:combine-groups",
+     "types": [
+      "K-028"
+     ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "types": [
+      "K-273"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-f-sv-spraklekar",
+   "slug": "spraklekar-rim-stavelser-och-ljud-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Språklekar: rim, stavelser och ljud",
+   "metaTitle": "Svenska förskoleklass: Språklekar – rim, stavelser och ljud",
+   "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Språklekar: rim, stavelser och ljud”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:rhyme",
+     "types": [
+      "K-352",
+      "K-232"
+     ]
+    },
+    {
+     "point": "K:count-syllables",
+     "types": [
+      "K-233",
+      "K-234"
+     ]
+    },
+    {
+     "point": "K:beginning-sounds",
+     "types": [
+      "K-228",
+      "K-221"
+     ]
+    },
+    {
+     "point": "K:sound-position",
+     "types": [
+      "K-226",
+      "K-227"
+     ]
+    },
+    {
+     "point": "K:segment-phonemes",
+     "types": [
+      "K-329"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-f-sv-ord-berattande",
+   "slug": "ord-begrepp-och-berattande-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Ord, begrepp och berättande",
+   "metaTitle": "Svenska förskoleklass: Ord, begrepp och berättande | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Ord, begrepp och berättande”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:category-sort",
+     "types": [
+      "K-042",
+      "K-235"
+     ]
+    },
+    {
+     "point": "K:category-odd-one-out",
+     "types": [
+      "K-043"
+     ]
+    },
+    {
+     "point": "K:opposites",
+     "types": [
+      "K-351"
+     ]
+    },
+    {
+     "point": "K:story-sequencing",
+     "types": [
+      "K-379",
+      "K-381"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-f-sv-bokstaver",
+   "slug": "bokstaver-och-forsta-skrivandet-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Bokstäver och första skrivandet",
+   "metaTitle": "Svenska förskoleklass: Bokstäver och första skrivandet",
+   "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Bokstäver och första skrivandet”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:pre-writing-strokes",
+     "types": [
+      "K-244",
+      "K-245"
+     ]
+    },
+    {
+     "point": "K:letter-identification",
+     "types": [
+      "K-229"
+     ]
+    },
+    {
+     "point": "K:letter-case",
+     "types": [
+      "K-222"
+     ]
+    },
+    {
+     "point": "K:letter-formation",
+     "types": [
+      "K-238",
+      "K-278"
+     ]
+    },
+    {
+     "point": "K:word-sentence-tracing",
+     "types": [
+      "K-289",
+      "K-239"
+     ]
+    },
+    {
+     "point": "K:all-about-me-personal",
+     "types": [
+      "K-323",
+      "K-342"
+     ]
+    },
+    {
+     "point": "K:alphabet-order",
+     "types": [
+      "K-223",
+      "K-309"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-add-sub-0-10",
+   "slug": "addition-och-subtraktion-0-10-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Addition och subtraktion 0–10",
+   "metaTitle": "Matematik åk 1: Addition och subtraktion 0–10 | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Addition och subtraktion 0–10”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:add-within-10-models",
+     "types": [
+      "G1-101",
+      "G1-110"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:subtract-cross-out",
+     "types": [
+      "G1-103",
+      "G1-104"
+     ],
+     "activity": "ten-frame.show-the-operation.k-oa-a-1"
+    },
+    {
+     "point": "1:count-on-back-hops",
+     "types": [
+      "G1-116",
+      "G1-117"
+     ],
+     "activity": null
+    },
+    {
+     "point": "K:fact-fluency-colour-code",
+     "types": [
+      "K-268",
+      "K-267"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "types": [
+      "G1-240",
+      "G1-238"
+     ]
+    },
+    {
+     "point": "1:fluency-within-20",
+     "types": [
+      "G1-214"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-talkamrater",
+   "slug": "talkamrater-och-likhetstecknet-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Talkamrater och likhetstecknet",
+   "metaTitle": "Matematik åk 1: Talkamrater och likhetstecknet | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talkamrater och likhetstecknet”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:make-10",
+     "types": [
+      "G1-106",
+      "G1-427"
+     ]
+    },
+    {
+     "point": "1:fact-families",
+     "types": [
+      "G1-219",
+      "G1-221"
+     ]
+    },
+    {
+     "point": "1:missing-number-equations",
+     "types": [
+      "G1-218",
+      "G1-115"
+     ]
+    },
+    {
+     "point": "1:add-three-addends",
+     "types": [
+      "G1-112"
+     ]
+    },
+    {
+     "point": "1:number-walls",
+     "types": [
+      "G1-266",
+      "G1-268"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-former-monster-langd",
+   "slug": "former-monster-och-langd-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Former, mönster och längd",
+   "metaTitle": "Matematik åk 1: Former, mönster och längd | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:shape-attributes",
+     "types": [
+      "G1-381",
+      "G1-382"
+     ]
+    },
+    {
+     "point": "1:tangram-compose",
+     "types": [
+      "G1-354",
+      "G1-355"
+     ]
+    },
+    {
+     "point": "1:patterns-missing",
+     "types": [
+      "G1-155"
+     ]
+    },
+    {
+     "point": "1:measure-length-units",
+     "types": [
+      "G1-139",
+      "G1-140"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-tal-0-20",
+   "slug": "talen-0-20-dubbelt-halften-udda-och-jamnt-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Talen 0–20: dubbelt, hälften, udda och jämnt",
+   "metaTitle": "Matematik åk 1: Talen 0–20 – dubbelt, hälften, udda och jämnt",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talen 0–20: dubbelt, hälften, udda och jämnt”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:number-line-placement",
+     "types": [
+      "G1-275",
+      "G1-276"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:number-of-the-day",
+     "types": [
+      "G1-255"
+     ]
+    },
+    {
+     "point": "1:number-words",
+     "types": [
+      "G1-223"
+     ]
+    },
+    {
+     "point": "K:number-bonds-20",
+     "types": [
+      "K-275"
+     ]
+    },
+    {
+     "point": "1:doubles-halves",
+     "types": [
+      "G1-287",
+      "G1-288"
+     ]
+    },
+    {
+     "point": "K:odd-even-pairing",
+     "types": [
+      "K-016"
+     ]
+    },
+    {
+     "point": "1:odd-even-pairs",
+     "types": [
+      "G1-370",
+      "G1-369"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-klockan-almanackan",
+   "slug": "klockan-och-almanackan-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Klockan och almanackan",
+   "metaTitle": "Matematik åk 1: Klockan och almanackan | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:days-of-week",
+     "types": [
+      "K-321",
+      "K-337"
+     ]
+    },
+    {
+     "point": "1:days-months-seasons",
+     "types": [
+      "G1-319",
+      "G1-320"
+     ]
+    },
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
+     ]
+    },
+    {
+     "point": "1:time-read",
+     "types": [
+      "G1-148",
+      "G1-149"
+     ]
+    },
+    {
+     "point": "1:time-set-hands",
+     "types": [
+      "G1-233",
+      "G1-234"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-diagram",
+   "slug": "sortera-tabeller-och-diagram-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Sortera, tabeller och diagram",
+   "metaTitle": "Matematik åk 1: Sortera, tabeller och diagram | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Sortera, tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:sort-three-groups",
+     "types": [
+      "G1-160"
+     ]
+    },
+    {
+     "point": "K:tally-marks",
+     "types": [
+      "K-014",
+      "K-015"
+     ]
+    },
+    {
+     "point": "1:picture-graphs-sort-count",
+     "types": [
+      "G1-146",
+      "G1-141"
+     ]
+    },
+    {
+     "point": "1:bar-graphs",
+     "types": [
+      "G1-143",
+      "G1-147"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-sv-ljuda-stava",
+   "slug": "ljuda-lasa-och-stava-ord-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Ljuda, läsa och stava ord",
+   "metaTitle": "Svenska åk 1: Ljuda, läsa och stava ord | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Ljuda, läsa och stava ord”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:cvc-build",
+     "types": [
+      "K-231",
+      "K-224"
+     ]
+    },
+    {
+     "point": "1:phoneme-boxes",
+     "types": [
+      "G1-312",
+      "G1-314"
+     ]
+    },
+    {
+     "point": "1:word-families-syllable-reading",
+     "types": [
+      "G1-330",
+      "G1-306"
+     ]
+    },
+    {
+     "point": "1:spell-picture-words",
+     "types": [
+      "G1-258",
+      "G1-260"
+     ]
+    },
+    {
+     "point": "1:rhyming",
+     "types": [
+      "G1-309",
+      "G1-343"
+     ]
+    },
+    {
+     "point": "1:syllables-split",
+     "types": [
+      "G1-305",
+      "G1-325"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-sv-ord-meningar",
+   "slug": "lasa-och-skriva-ord-och-meningar-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Läsa och skriva ord och meningar",
+   "metaTitle": "Svenska åk 1: Läsa och skriva ord och meningar | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Läsa och skriva ord och meningar”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:word-picture-match",
+     "types": [
+      "K-225",
+      "K-347"
+     ]
+    },
+    {
+     "point": "K:sight-words-reading",
+     "types": [
+      "K-389",
+      "K-392"
+     ]
+    },
+    {
+     "point": "1:read-and-follow",
+     "types": [
+      "G1-251",
+      "G1-338"
+     ]
+    },
+    {
+     "point": "1:cloze",
+     "types": [
+      "G1-350",
+      "G1-368"
+     ]
+    },
+    {
+     "point": "1:unscramble-sentence",
+     "types": [
+      "G1-282",
+      "G1-249"
+     ]
+    },
+    {
+     "point": "1:question-words",
+     "types": [
+      "G1-353",
+      "G1-373"
+     ]
+    },
+    {
+     "point": "1:story-sequencing",
+     "types": [
+      "G1-400",
+      "G1-402"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-tal-0-100",
+   "slug": "talen-0-100-tiotal-och-ental-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Talen 0–100: tiotal och ental",
+   "metaTitle": "Matematik åk 2: Talen 0–100 – tiotal och ental | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Talen 0–100: tiotal och ental”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:bundle-ten-ones",
+     "types": [
+      "G2-206"
+     ]
+    },
+    {
+     "point": "1:tens-and-ones",
+     "types": [
+      "G1-120",
+      "G1-121"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "types": [
+      "G1-129",
+      "G1-310"
+     ]
+    },
+    {
+     "point": "1:one-ten-more-less",
+     "types": [
+      "G1-131",
+      "G1-132"
+     ]
+    },
+    {
+     "point": "2:hundreds-chart-moves",
+     "types": [
+      "G2-321",
+      "G2-322"
+     ]
+    },
+    {
+     "point": "2:number-line-not-from-zero",
+     "types": [
+      "G2-305",
+      "G2-310"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "types": [
+      "G1-137",
+      "G1-135"
+     ]
+    },
+    {
+     "point": "2:odd-even",
+     "types": [
+      "G2-351",
+      "G2-352"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-add-sub-0-100",
+   "slug": "addition-och-subtraktion-0-100-med-pengar-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Addition och subtraktion 0–100 med pengar",
+   "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:add-with-blocks",
+     "types": [
+      "G2-203"
+     ],
+     "activity": "place-value-regroup.add-compose-ten.1-nbt-c-4"
+    },
+    {
+     "point": "2:subtract-with-blocks",
+     "types": [
+      "G2-205"
+     ]
+    },
+    {
+     "point": "2:add-sub-within-100-practice",
+     "types": [
+      "G2-313",
+      "G2-393"
+     ]
+    },
+    {
+     "point": "1:coins",
+     "types": [
+      "G1-228",
+      "G1-211"
+     ]
+    },
+    {
+     "point": "2:shopping-money",
+     "types": [
+      "G2-291",
+      "G2-289"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-langd-tid",
+   "slug": "langd-klockan-och-almanackan-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Längd, klockan och almanackan",
+   "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:measure-with-ruler",
+     "types": [
+      "G2-235"
+     ]
+    },
+    {
+     "point": "2:compare-lengths",
+     "types": [
+      "G2-236"
+     ]
+    },
+    {
+     "point": "2:time-5-min-quarter",
+     "types": [
+      "G2-249",
+      "G2-250"
+     ]
+    },
+    {
+     "point": "2:calendar",
+     "types": [
+      "G2-296",
+      "G2-297"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-multiplikation",
+   "slug": "multiplikation-lika-grupper-2an-och-5an-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Multiplikation: lika grupper, 2:an och 5:an",
+   "metaTitle": "Matematik åk 2: Multiplikation – lika grupper, 2:an och 5:an",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Multiplikation: lika grupper, 2:an och 5:an”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:skip-counting",
+     "types": [
+      "G1-123",
+      "G1-124",
+      "G1-125"
+     ]
+    },
+    {
+     "point": "2:skip-count-5-10-100",
+     "types": [
+      "G2-304",
+      "G2-314"
+     ]
+    },
+    {
+     "point": "2:equal-groups-times",
+     "types": [
+      "G2-209",
+      "G2-210"
+     ]
+    },
+    {
+     "point": "3:mult-equal-groups",
+     "types": [
+      "G3-302",
+      "G3-301"
+     ]
+    },
+    {
+     "point": "2:arrays",
+     "types": [
+      "G2-211",
+      "G2-212"
+     ]
+    },
+    {
+     "point": "3:commutative",
+     "types": [
+      "G3-314"
+     ]
+    },
+    {
+     "point": "3:mult-number-line",
+     "types": [
+      "G3-308"
+     ],
+     "activity": "skipcount.fill.2-nbt-a-2"
+    },
+    {
+     "point": "3:times-tables",
+     "types": [
+      "G3-364",
+      "G3-365"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-geometri",
+   "slug": "geometriska-objekt-symmetri-och-rutnat-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Geometriska objekt, symmetri och rutnät",
+   "metaTitle": "Matematik åk 2: Geometriska objekt, symmetri och rutnät",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:2d-attributes",
+     "types": [
+      "G2-241"
+     ]
+    },
+    {
+     "point": "2:solids-in-real-life",
+     "types": [
+      "G2-243"
+     ],
+     "activity": "choice-board.flat-solid.k-g-a-3"
+    },
+    {
+     "point": "2:3d-faces-edges-vertices",
+     "types": [
+      "G2-242",
+      "G2-245",
+      "G2-246"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:symmetry-line",
+     "types": [
+      "G2-247",
+      "G2-248"
+     ]
+    },
+    {
+     "point": "2:symmetry-complete",
+     "types": [
+      "G1-432",
+      "G2-264"
+     ]
+    },
+    {
+     "point": "2:tangram-orientation",
+     "types": [
+      "G2-347"
+     ]
+    },
+    {
+     "point": "2:grid-coordinates",
+     "types": [
+      "G2-279",
+      "G2-308"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-diagram",
+   "slug": "tabeller-och-diagram-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Tabeller och diagram",
+   "metaTitle": "Matematik åk 2: Tabeller och diagram | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:bar-graphs",
+     "types": [
+      "G2-239",
+      "G2-237"
+     ]
+    },
+    {
+     "point": "2:scaled-pictograph",
+     "types": [
+      "G2-238"
+     ]
+    },
+    {
+     "point": "3:scaled-graphs",
+     "types": [
+      "G3-332",
+      "G3-333"
+     ]
+    },
+    {
+     "point": "2:line-plots",
+     "types": [
+      "G2-240"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-sv-ordkunskap",
+   "slug": "ordkunskap-och-alfabetisk-ordning-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Ordkunskap och alfabetisk ordning",
+   "metaTitle": "Svenska åk 2: Ordkunskap och alfabetisk ordning | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Ordkunskap och alfabetisk ordning”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:alphabetical-order",
+     "types": [
+      "G1-262",
+      "G1-264"
+     ]
+    },
+    {
+     "point": "1:opposites",
+     "types": [
+      "G1-307",
+      "G1-337"
+     ]
+    },
+    {
+     "point": "1:synonyms",
+     "types": [
+      "G1-395"
+     ]
+    },
+    {
+     "point": "2:synonyms",
+     "types": [
+      "G2-358",
+      "G2-373"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:shades-of-meaning",
+     "types": [
+      "G1-396"
+     ]
+    },
+    {
+     "point": "2:compound-words",
+     "types": [
+      "G2-331",
+      "G2-330"
+     ]
+    },
+    {
+     "point": "1:root-words",
+     "types": [
+      "G1-397"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-2-sv-lasa-skriva-texter",
+   "slug": "lasa-forsta-och-skriva-texter-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Läsa, förstå och skriva texter",
+   "metaTitle": "Svenska åk 2: Läsa, förstå och skriva texter | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Läsa, förstå och skriva texter”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:sentence-boundaries",
+     "types": [
+      "G2-274",
+      "G2-307"
+     ],
+     "activity": "sentence-clinic.fix-it.l-2-1"
+    },
+    {
+     "point": "2:question-words",
+     "types": [
+      "G2-356",
+      "G2-357"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:read-and-answer",
+     "types": [
+      "G2-254",
+      "G2-269"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:cloze-context",
+     "types": [
+      "G2-350"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:describe-a-picture",
+     "types": [
+      "G2-299",
+      "G2-300"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:retell-with-starters",
+     "types": [
+      "G2-378"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:animal-fact-file",
+     "types": [
+      "G2-339",
+      "G2-340"
+     ],
+     "activity": null,
+     "titles": {
+      "G2-339": "Faktablad om ett djur: ringa in rätt fakta",
+      "G2-340": "Faktablad om ett djur med ordbank"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sv-2-sv-substantiv",
+   "slug": "substantiv-verb-och-adjektiv-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Substantiv, verb och adjektiv",
+   "metaTitle": "Svenska åk 2: Substantiv, verb och adjektiv | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Substantiv, verb och adjektiv”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:articles",
+     "types": [
+      "K-288",
+      "K-306"
+     ]
+    },
+    {
+     "point": "1:articles",
+     "types": [
+      "G1-292"
+     ]
+    },
+    {
+     "point": "K:singular-plural",
+     "types": [
+      "K-302",
+      "K-287"
+     ]
+    },
+    {
+     "point": "2:plural-nouns",
+     "types": [
+      "G2-349"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:word-classes",
+     "types": [
+      "G1-293",
+      "G1-300"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-tal-0-1000",
+   "slug": "talen-0-1000-hundratal-tiotal-och-ental-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Talen 0–1000: hundratal, tiotal och ental",
+   "metaTitle": "Matematik åk 3: Talen 0–1000 – hundratal, tiotal och ental",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Talen 0–1000: hundratal, tiotal och ental”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:read-build-3-digit",
+     "types": [
+      "G2-222",
+      "G2-224"
+     ]
+    },
+    {
+     "point": "2:expanded-form-digit-value",
+     "types": [
+      "G2-223",
+      "G2-225"
+     ]
+    },
+    {
+     "point": "2:compare-order-3-digit",
+     "types": [
+      "G2-219",
+      "G2-220"
+     ]
+    },
+    {
+     "point": "2:hundred-more-less",
+     "types": [
+      "G2-226"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-avrundning-uppstallning",
+   "slug": "avrundning-overslag-och-uppstallning-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Avrundning, överslag och uppställning",
+   "metaTitle": "Matematik åk 3: Avrundning, överslag och uppställning",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:round-to-ten",
+     "types": [
+      "G2-221",
+      "G2-346"
+     ]
+    },
+    {
+     "point": "3:rounding",
+     "types": [
+      "G3-323",
+      "G3-388"
+     ]
+    },
+    {
+     "point": "3:estimate-by-rounding",
+     "types": [
+      "G3-389"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:column-method",
+     "types": [
+      "G2-255",
+      "G2-256"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:column-regrouping",
+     "types": [
+      "G3-359",
+      "G3-360"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-mult-division",
+   "slug": "multiplikation-och-division-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Multiplikation och division",
+   "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:skip-count-3-4",
+     "types": [
+      "G2-207",
+      "G2-208"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:share-and-group",
+     "types": [
+      "G2-216",
+      "G2-217"
+     ]
+    },
+    {
+     "point": "3:division-sharing",
+     "types": [
+      "G3-309"
+     ]
+    },
+    {
+     "point": "3:division-repeated-subtraction",
+     "types": [
+      "G3-310"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:mult-div-relationship",
+     "types": [
+      "G3-312",
+      "G3-311"
+     ]
+    },
+    {
+     "point": "3:muldiv-word-problems",
+     "types": [
+      "G3-371",
+      "G3-372",
+      "G3-373"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:division-remainder",
+     "types": [
+      "G3-377",
+      "G3-380"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-matning",
+   "slug": "matning-tid-massa-volym-och-temperatur-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Mätning: tid, massa, volym och temperatur",
+   "metaTitle": "Matematik åk 3: Mätning – tid, massa, volym och temperatur",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Mätning: tid, massa, volym och temperatur”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "3:time-to-minute",
+     "types": [
+      "G3-354"
+     ]
+    },
+    {
+     "point": "3:time-12-24",
+     "types": [
+      "G3-355"
+     ]
+    },
+    {
+     "point": "2:mass-grams",
+     "types": [
+      "G2-261",
+      "G2-252"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:read-jugs",
+     "types": [
+      "G2-260",
+      "G2-263"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:thermometer",
+     "types": [
+      "G3-345"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-brak",
+   "slug": "brak-del-av-helhet-och-del-av-antal-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Bråk: del av helhet och del av antal",
+   "metaTitle": "Matematik åk 3: Bråk – del av helhet och del av antal",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Bråk: del av helhet och del av antal”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:partition-equal-areas",
+     "types": [
+      "G3-343"
+     ]
+    },
+    {
+     "point": "2:equal-shares-shapes",
+     "types": [
+      "G2-232",
+      "G2-228",
+      "G2-229"
+     ]
+    },
+    {
+     "point": "3:fraction-unit-build",
+     "types": [
+      "G3-315",
+      "G3-316"
+     ]
+    },
+    {
+     "point": "3:whole-from-unit",
+     "types": [
+      "G3-321"
+     ]
+    },
+    {
+     "point": "3:compare-fractions",
+     "types": [
+      "G3-319"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:fraction-of-a-set",
+     "types": [
+      "G2-233"
+     ]
+    },
+    {
+     "point": "3:fraction-of-set",
+     "types": [
+      "G3-320"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-algebra",
+   "slug": "likheter-talfoljder-och-talmaskiner-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Likheter, talföljder och talmaskiner",
+   "metaTitle": "Matematik åk 3: Likheter, talföljder och talmaskiner",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Likheter, talföljder och talmaskiner”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "3:balance-equations",
+     "types": [
+      "G3-350"
+     ]
+    },
+    {
+     "point": "3:arithmetic-patterns",
+     "types": [
+      "G3-326",
+      "G3-327"
+     ]
+    },
+    {
+     "point": "3:input-output",
+     "types": [
+      "G3-328"
+     ]
+    },
+    {
+     "point": "3:parity-of-sums",
+     "types": [
+      "G3-386"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-geometri",
+   "slug": "fyrhorningar-symmetri-omkrets-och-area-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Fyrhörningar, symmetri, omkrets och area",
+   "metaTitle": "Matematik åk 3: Fyrhörningar, symmetri, omkrets och area",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Fyrhörningar, symmetri, omkrets och area”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:classify-quadrilaterals",
+     "types": [
+      "G3-340"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:right-angles",
+     "types": [
+      "G3-341"
+     ]
+    },
+    {
+     "point": "3:symmetry",
+     "types": [
+      "G3-342"
+     ]
+    },
+    {
+     "point": "3:perimeter",
+     "types": [
+      "G3-337"
+     ]
+    },
+    {
+     "point": "3:area-model",
+     "types": [
+      "G3-313"
+     ]
+    },
+    {
+     "point": "3:same-area",
+     "types": [
+      "G3-338"
+     ]
+    },
+    {
+     "point": "3:same-perimeter",
+     "types": [
+      "G3-339"
+     ]
+    },
+    {
+     "point": "3:volume-cubes",
+     "types": [
+      "G3-346"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-sv-ordklasser",
+   "slug": "ordklasser-tempus-och-pronomen-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Ordklasser, tempus och pronomen",
+   "metaTitle": "Svenska åk 3: Ordklasser, tempus och pronomen | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Ordklasser, tempus och pronomen”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:word-classes",
+     "types": [
+      "G2-275",
+      "G2-286"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:verb-forms",
+     "types": [
+      "G2-317",
+      "G2-336"
+     ],
+     "activity": "rusty-yesterday.irregular-past.l-2-1-d"
+    },
+    {
+     "point": "1:pronouns",
+     "types": [
+      "G1-352",
+      "G1-371"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:pronouns",
+     "types": [
+      "G2-353",
+      "G2-355"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-3-sv-stavning-ordbildning",
+   "slug": "stavning-ordbildning-och-ordval-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Stavning, ordbildning och ordval",
+   "metaTitle": "Svenska åk 3: Stavning, ordbildning och ordval | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Stavning, ordbildning och ordval”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:spelling-rules",
+     "types": [
+      "G2-315",
+      "G2-326"
+     ],
+     "activity": "word-clinic.spell-by-ear.l-1-2-e"
+    },
+    {
+     "point": "2:root-words",
+     "types": [
+      "G2-375",
+      "G2-359"
+     ]
+    },
+    {
+     "point": "3:root-words-in-context",
+     "types": [
+      "G3-399"
+     ]
+    },
+    {
+     "point": "2:prefixes",
+     "types": [
+      "G2-320",
+      "G2-376"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "3:person-words",
+     "types": [
+      "G3-398"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "3:word-fields",
+     "types": [
+      "G3-397"
+     ],
+     "activity": "roary-roar-meter.shades.l-2-5-b"
+    },
+    {
+     "point": "2:synonyms~doing-stage",
+     "types": [
+      "G2-374"
+     ]
+    }
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "id": "plan-k-math",
+   "slug": "planering-matematik-forskoleklass",
+   "grade": "K",
+   "subject": "math",
+   "title": "Matematik förskoleklass: planering för {weeks} veckor",
+   "metaTitle": "Matematik förskoleklass: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i matematik för förskoleklass i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-f-ma-lage-storlek-monster",
+    "sv-f-ma-antal-0-10",
+    "sv-f-ma-former",
+    "sv-f-ma-talraden-20",
+    "sv-f-ma-sortera-dela-upp"
+   ]
+  },
+  {
+   "id": "plan-k-literacy",
+   "slug": "planering-svenska-forskoleklass",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Svenska förskoleklass: planering för {weeks} veckor",
+   "metaTitle": "Svenska förskoleklass: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i svenska för förskoleklass i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-f-sv-spraklekar",
+    "sv-f-sv-ord-berattande",
+    "sv-f-sv-bokstaver"
+   ]
+  },
+  {
+   "id": "plan-1-math",
+   "slug": "planering-matematik-ak-1",
+   "grade": "1",
+   "subject": "math",
+   "title": "Matematik åk 1: planering för {weeks} veckor",
+   "metaTitle": "Matematik åk 1: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i matematik för åk 1 i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-1-ma-add-sub-0-10",
+    "sv-1-ma-talkamrater",
+    "sv-1-ma-former-monster-langd",
+    "sv-1-ma-tal-0-20",
+    "sv-1-ma-klockan-almanackan",
+    "sv-1-ma-diagram"
+   ]
+  },
+  {
+   "id": "plan-2-math",
+   "slug": "planering-matematik-ak-2",
+   "grade": "2",
+   "subject": "math",
+   "title": "Matematik åk 2: planering för {weeks} veckor",
+   "metaTitle": "Matematik åk 2: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i matematik för åk 2 i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-2-ma-tal-0-100",
+    "sv-2-ma-add-sub-0-100",
+    "sv-2-ma-langd-tid",
+    "sv-2-ma-multiplikation",
+    "sv-2-ma-geometri",
+    "sv-2-ma-diagram"
+   ]
+  },
+  {
+   "id": "plan-2-literacy",
+   "slug": "planering-svenska-ak-2",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Svenska åk 2: planering för {weeks} veckor",
+   "metaTitle": "Svenska åk 2: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i svenska för åk 2 i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-2-sv-ordkunskap",
+    "sv-2-sv-lasa-skriva-texter",
+    "sv-2-sv-substantiv"
+   ]
+  },
+  {
+   "id": "plan-3-math",
+   "slug": "planering-matematik-ak-3",
+   "grade": "3",
+   "subject": "math",
+   "title": "Matematik åk 3: planering för {weeks} veckor",
+   "metaTitle": "Matematik åk 3: planering för {weeks} veckor ({units} arbetsområden)",
+   "metaDescription": "{units} arbetsområden i matematik för åk 3 i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "units": [
+    "sv-3-ma-tal-0-1000",
+    "sv-3-ma-avrundning-uppstallning",
+    "sv-3-ma-mult-division",
+    "sv-3-ma-matning",
+    "sv-3-ma-brak",
+    "sv-3-ma-algebra",
+    "sv-3-ma-geometri"
+   ]
+  }
+ ]
+}

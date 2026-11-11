@@ -1,0 +1,53 @@
+{
+  "K:rhyme": {
+    "words": "Säg: ”Ord som rimmar låter likadant på slutet. Hus, mus: -us, -us.” Säg paret och dra sedan ut slutet. Lek först utan papper: du säger ett ord, barnen hittar på rim, och nonsensord är välkomna: ”hus, lus, krus, fnus”."
+  },
+  "K:count-syllables": {
+    "mistake": "Barnen klappar en gång för varje ljud (tre klappar för ”sol”), eller drar ut ordet och lägger till stavelser som inte finns."
+  },
+  "K:beginning-sounds": {
+    "words": "Fråga: ”Vilket är det allra första ljudet munnen gör? Mmm … mus.” Säg ljudet rent, utan vokal efter: håll ut ”mmm” och ”sss”, och säg b och d så kort du kan. Säg ”ordet börjar på ljudet …”; det är ordet som börjar på ljudet, inte bilden."
+  },
+  "K:cvc-build": {
+    "objective": "Eleverna bygger ett ord med tre ljud till en bild genom att lägga bokstäverna i samma ordning som ljuden hörs."
+  },
+  "1:rhyming": {
+    "mistake": "Eleverna parar ihop ord som börjar på samma ljud (katt och kam) och kallar det rim. Andra går efter stavningen och missar rim som stavas olika, som häst och fest.",
+    "watch": "Låt varje elev säga paret högt innan den ringar in; man rimmar med öronen, inte med ögonen. En elev som gång på gång väljer ord med samma första ljud får höra och säga ordens slut innan något skrivs."
+  },
+  "1:syllables-split": {
+    "mistake": "Eleverna klappar en gång för varje ljud eller bokstav, eller drar ut ett ord med en stavelse till två klappar (”bi-il”). I skrift sätter de bindestrecket var som helst, ofta efter första bokstaven."
+  },
+  "K:sight-words-reading": {
+    "words": "Säg: ”Ljuda det som går att ljuda. En del av ordet måste du kunna utantill.” Peka på den delen: ”I ’mig’ låter m som vanligt; i-g låter ’ej’. Det får man lära sig.” Om ett ord utan svår del: ”Det här ordet låter precis som det stavas.” Samla orden ni har lärt er på en lista på väggen."
+  },
+  "2:describe-a-picture": {
+    "objective": "Eleverna skriver meningar om en bild med hjälp av meningsstartare och en ordbank, och skriver sedan en egen kort text om en bild.",
+    "words": "Be om en hel tanke: ”Vem eller vad finns på bilden? Vad gör den? Var?” Säg en mening tillsammans innan den skrivs: ”Hunden springer efter bollen.” Ge nya meningsstartare: ”Bredvid trädet …”, ”En flicka …”, ”På himlen …” Bladet kallar dem meningsstarter.",
+    "watch": "Räkna hur många olika sätt att börja en mening eleven har på sitt blad. Låt eleven läsa sin text högt och peka på varje punkt; ett verb som saknas hörs när meningen läses."
+  },
+  "1:pronouns": {
+    "mistake": "Eleverna skriver namnet en gång till i den andra meningen, eller använder ”de” bara om många och inte om två personer. De skriver ”dom” som det låter. Om saker och djur är de osäkra på den och det (en-ord blir ”den”, ett-ord blir ”det”)."
+  },
+  "2:read-build-3-digit": {
+    "watch": "Kontrollera först alla tal med en nolla bland tiotalen eller entalen. En elev som skriver 26 för två plattor och sex kuber får ha tabellen med talsorterna bredvid varje tal tills vidare."
+  },
+  "2:skip-count-3-4": {
+    "mistake": "I 3-hopp och 4-hopp finns inget enkelt mönster i entalssiffran, så eleverna räknar vidare på fingrarna och hamnar ett tal fel. Ett enda fel följer med genom resten av raden."
+  },
+  "3:mult-div-relationship": {
+    "watch": "Ge eleven en division och se om eleven tänker på multiplikationen. Kontrollera talens ordning i varje division: hela antalet, hela rutnätet, står först."
+  },
+  "3:muldiv-word-problems": {
+    "mistake": "Eleverna plockar ut de två talen och multiplicerar varje gång, eller väljer räknesätt efter ett enda ord som ”varje”. De frågar sig inte vad svaret kommer att vara: hela antalet, antalet i varje grupp eller antalet grupper."
+  },
+  "2:mass-grams": {
+    "watch": "Kontrollera att varje svar har sin enhet. Fråga vad ett litet steg är värt innan en elev läser av en skala; den frågan är hela kunskapen. I vardagen säger vi vikt; ordet i matematiken är massa."
+  },
+  "3:right-angles": {
+    "mistake": "Eleverna ser en rät vinkel bara när det ena benet ligger vågrätt och det andra står lodrätt. En rät vinkel i en figur som ligger snett missas, och en vinkel som är nästan rät godtas."
+  },
+  "3:same-perimeter": {
+    "mistake": "Eleverna tror att rektanglar med samma omkrets måste ha samma area, eller jämför areor, eftersom det var rutor de räknade senast. En lång och smal rektangel bedöms ha det längre staketet."
+  }
+}

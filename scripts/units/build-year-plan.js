@@ -36,15 +36,18 @@ function html(plan) {
   const subject = ui['subject_' + plan.subject] || plan.subject;
   const lessons = plan.units.reduce((n, r) => n + r.lessons.length, 0);
   const weeksOf = (r) => (r.from === r.to ? fill(ui.planWeekOne, { n: r.from }) : fill(ui.planWeeksRange, { from: r.from, to: r.to }));
+  // the standards column is printed only when a unit of the plan names a standard (a framework without codes names
+  // none in a plan row: an empty column under a heading reads as something left out)
+  const withStandards = plan.units.some((r) => r.standards.length);
   const rows = plan.units.map((r, i) => '<tr><td class="w">' + esc(weeksOf(r)) + '</td>'
     + '<td class="u"><b>' + (i + 1) + '. ' + esc(r.title) + '</b><ol>' + r.lessons.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ol></td>'
-    + '<td class="s">' + esc(r.standards.join(', ')) + '</td><td class="d"></td><td class="t"><i></i></td></tr>').join('');
+    + (withStandards ? '<td class="s">' + esc(r.standards.join(', ')) + '</td>' : '') + '<td class="d"></td><td class="t"><i></i></td></tr>').join('');
   return '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(plan.title) + '</title>'
     + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
     + '<style>' + CSS + '</style></head><body>'
     + '<header><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.planEyebrow].join(' · ')) + '</p><h1>' + esc(plan.title) + '</h1>'
     + '<p class="lead">' + esc(fill(ui.planLead, { units: plan.units.length, lessons, weeks: plan.weeks })) + ' ' + esc(ui.planHonest) + '</p></header>'
-    + '<table><thead><tr><th>' + esc(ui.planColWeeks) + '</th><th>' + esc(ui.planColUnit) + ' · ' + esc(ui.planColLessons) + '</th><th>' + esc([ui.planColStandards, plan.framework].filter(Boolean).join(', ')) + '</th><th>' + esc(ui.planPdfColDates) + '</th><th>' + esc(ui.planPdfColDone) + '</th></tr></thead><tbody>' + rows + '</tbody></table>'
+    + '<table><thead><tr><th>' + esc(ui.planColWeeks) + '</th><th>' + esc(ui.planColUnit) + ' · ' + esc(ui.planColLessons) + '</th>' + (withStandards ? '<th>' + esc([ui.planColStandards, plan.framework].filter(Boolean).join(', ')) + '</th>' : '') + '<th>' + esc(ui.planPdfColDates) + '</th><th>' + esc(ui.planPdfColDone) + '</th></tr></thead><tbody>' + rows + '</tbody></table>'
     + '<p class="where">' + esc(HOST.replace('https://', '') + '/' + loc + '/units/' + plan.slug) + '</p></body></html>';
 }
 

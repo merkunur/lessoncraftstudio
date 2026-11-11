@@ -8,7 +8,7 @@
    "grade": "1",
    "subject": "math",
    "title": "Plus und Minus bis 10",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Plus und Minus bis 10",
+   "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
    "metaDescription": "Zwei Wochen Mathe Klasse 1: 8 Stunden zu Plus und Minus bis 10, jede mit Lehrerhinweis, Arbeitsblättern (meist in drei Stufen) und einer Übung am Bildschirm.",
    "weeks": 2,
    "lessons": [
@@ -26,7 +26,7 @@
       "G1-103",
       "G1-104"
      ],
-     "activity": "ten-frame.show-the-operation.k-oa-a-1"
+     "activity": null
     },
     {
      "point": "1:make-10",
@@ -40,7 +40,8 @@
      "types": [
       "G1-116",
       "G1-117"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "1:fact-families",
@@ -61,12 +62,53 @@
      "types": [
       "G1-240",
       "G1-238"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "1:fluency-within-20",
      "types": [
       "G1-214"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "de1-zahlen-bis-20",
+   "slug": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+   "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zahlwörter und Zahlenstrahl",
+   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zu Ordnungszahlen, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl bis 20 und 30.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
+     ]
+    },
+    {
+     "point": "1:number-of-the-day",
+     "types": [
+      "G1-255"
+     ]
+    },
+    {
+     "point": "1:number-words",
+     "types": [
+      "G1-223"
+     ]
+    },
+    {
+     "point": "1:number-line-placement",
+     "types": [
+      "G1-275",
+      "G1-276"
      ],
      "activity": null
     }
@@ -95,7 +137,8 @@
      "types": [
       "G1-370",
       "G1-369"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "1:add-three-addends",
@@ -113,97 +156,14 @@
    ]
   },
   {
-   "id": "g1-tens-and-ones",
-   "slug": "zehner-und-einer-klasse-1",
-   "status": "pilot",
-   "grade": "1",
-   "subject": "math",
-   "title": "Zehner und Einer",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Zehner und Einer",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zu Zehnern und Einern, Zahlwörtern, zum Vergleichen zweistelliger Zahlen und zur Zahl des Tages, jede mit Lehrerhinweis.",
-   "weeks": 1,
-   "lessons": [
-    {
-     "point": "1:tens-and-ones",
-     "types": [
-      "G1-120",
-      "G1-121"
-     ]
-    },
-    {
-     "point": "1:number-words",
-     "types": [
-      "G1-223",
-      "G1-224"
-     ]
-    },
-    {
-     "point": "1:compare-order-two-digit",
-     "types": [
-      "G1-137",
-      "G1-135"
-     ]
-    },
-    {
-     "point": "1:number-of-the-day",
-     "types": [
-      "G1-243",
-      "G1-255"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "g1-hundreds-chart-skip-counting",
-   "slug": "zahlenstrahl-hundertertafel-und-zaehlen-in-schritten-klasse-1",
-   "status": "pilot",
-   "grade": "1",
-   "subject": "math",
-   "title": "Zahlenstrahl, Hundertertafel und Zählen in Schritten",
-   "metaTitle": "Mathe Klasse 1: Zahlenstrahl, Hundertertafel und Zählen in Schritten",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zum Zahlenstrahl, zur Hundertertafel, zu 1 und 10 mehr oder weniger und zum Zählen in Schritten, jede mit Lehrerhinweis.",
-   "weeks": 1,
-   "lessons": [
-    {
-     "point": "1:number-line-placement",
-     "types": [
-      "G1-275",
-      "G1-276"
-     ]
-    },
-    {
-     "point": "1:hundreds-chart",
-     "types": [
-      "G1-129",
-      "G1-310"
-     ]
-    },
-    {
-     "point": "1:one-ten-more-less",
-     "types": [
-      "G1-131",
-      "G1-132"
-     ]
-    },
-    {
-     "point": "1:skip-counting",
-     "types": [
-      "G1-123",
-      "G1-124",
-      "G1-125"
-     ]
-    }
-   ]
-  },
-  {
    "id": "g1-time-calendar-coins",
-   "slug": "uhr-kalender-und-muenzen-klasse-1",
+   "slug": "uhr-kalender-und-geld-klasse-1",
    "status": "pilot",
    "grade": "1",
    "subject": "math",
-   "title": "Uhr, Kalender und Münzen",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Uhr, Kalender und Münzen",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 5 Stunden zur Uhr mit vollen und halben Stunden, zu Wochentagen und Monaten, Ordnungszahlen und Münzen, jede mit Lehrerhinweis.",
+   "title": "Uhr, Kalender und Geld",
+   "metaTitle": "Mathe Klasse 1: Uhr, Kalender und Geld | Unterrichtseinheit",
+   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen und Monaten und zu Geldbeträgen mit Münzen.",
    "weeks": 1,
    "lessons": [
     {
@@ -228,13 +188,6 @@
      ]
     },
     {
-     "point": "1:ordinal-numbers",
-     "types": [
-      "G1-315",
-      "G1-316"
-     ]
-    },
-    {
      "point": "1:coins",
      "types": [
       "G1-228",
@@ -250,8 +203,8 @@
    "grade": "1",
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 1: Formen, Messen und Diagramme",
-   "metaDescription": "Zwei Wochen Mathe Klasse 1: 6 Stunden zu Formen, Tangram, Längen messen mit Kästchen, Bild- und Säulendiagrammen und Mustern, jede mit Lehrerhinweis.",
+   "metaTitle": "Mathe Klasse 1: Formen, Messen und Diagramme | Unterrichtseinheit",
+   "metaDescription": "Zwei Wochen Mathe Klasse 1: 6 Stunden zu Formen, zum Tangram, zum Messen von Längen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern, mit Lehrerhinweisen.",
    "weeks": 2,
    "lessons": [
     {
@@ -299,14 +252,14 @@
   },
   {
    "id": "de2-zahlen-bis-100",
-   "slug": "zahlen-und-rechnen-bis-100-klasse-2",
+   "slug": "zahlen-bis-100-buendeln-und-hundertertafel-klasse-2",
    "status": "pilot",
    "grade": "2",
    "subject": "math",
-   "title": "Zahlen und Rechnen bis 100",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Zahlen und Rechnen bis 100",
-   "metaDescription": "Eine Woche Mathe Klasse 2: 5 Stunden zum Bündeln, zum Zählen in Schritten, zum Zahlenstrahl, zur Hundertertafel und zu Plus und Minus bis 100, mit Lehrerhinweisen.",
-   "weeks": 1,
+   "title": "Zahlen bis 100: Bündeln und Hundertertafel",
+   "metaTitle": "Mathe Klasse 2: Zahlen bis 100 – Bündeln und Hundertertafel",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 9 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Üben von Plus und Minus bis 100.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "2:bundle-ten-ones",
@@ -315,10 +268,31 @@
      ]
     },
     {
-     "point": "2:skip-count-5-10-100",
+     "point": "1:tens-and-ones",
      "types": [
-      "G2-304",
-      "G2-314"
+      "G1-120",
+      "G1-121"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "types": [
+      "G1-129",
+      "G1-310"
+     ]
+    },
+    {
+     "point": "1:one-ten-more-less",
+     "types": [
+      "G1-131",
+      "G1-132"
+     ]
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "types": [
+      "G1-137",
+      "G1-135"
      ]
     },
     {
@@ -326,6 +300,13 @@
      "types": [
       "G2-305",
       "G2-310"
+     ]
+    },
+    {
+     "point": "2:skip-count-5-10-100",
+     "types": [
+      "G2-304",
+      "G2-314"
      ]
     },
     {
@@ -351,7 +332,7 @@
    "grade": "2",
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
+   "metaTitle": "Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
    "metaDescription": "Zwei Wochen Mathe Klasse 2: 8 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Strichlisten und Diagrammen.",
    "weeks": 2,
    "lessons": [
@@ -416,8 +397,8 @@
    "grade": "2",
    "subject": "math",
    "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
-   "metaTitle": "Mathe Klasse 2: Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Mal-Sprüngen, Tauschaufgaben und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
+   "metaTitle": "Mathe Klasse 2: Malnehmen – Gruppen, Felder und erste Einmaleinsreihen",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
    "weeks": 2,
    "lessons": [
     {
@@ -435,10 +416,9 @@
      ]
     },
     {
-     "point": "3:mult-equal-groups",
+     "point": "3:commutative",
      "types": [
-      "G3-302",
-      "G3-301"
+      "G3-314"
      ]
     },
     {
@@ -449,9 +429,11 @@
      "activity": "skipcount.fill.2-nbt-a-2"
     },
     {
-     "point": "3:commutative",
+     "point": "3:times-tables",
      "types": [
-      "G3-314"
+      "G3-364",
+      "G3-365",
+      "G3-358"
      ]
     },
     {
@@ -462,11 +444,10 @@
      ]
     },
     {
-     "point": "3:times-tables",
+     "point": "3:mult-equal-groups",
      "types": [
-      "G3-364",
-      "G3-365",
-      "G3-358"
+      "G3-302",
+      "G3-301"
      ]
     }
    ]
@@ -478,8 +459,8 @@
    "grade": "2",
    "subject": "math",
    "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
-   "metaTitle": "Mathe Klasse 2: Teilen: Verteilen, Aufteilen und die Hälfte",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu Sprüngen bis zur Null, geraden und ungeraden Zahlen, Hälften, Dritteln und Vierteln.",
+   "metaTitle": "Mathe Klasse 2: Teilen – Verteilen, Aufteilen und die Hälfte",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften, Dritteln und Vierteln.",
    "weeks": 2,
    "lessons": [
     {
@@ -531,8 +512,8 @@
    "grade": "2",
    "subject": "math",
    "title": "Formen, Körper und Symmetrie",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 2: Formen, Körper und Symmetrie",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram, mit Lehrerhinweisen.",
+   "metaTitle": "Mathe Klasse 2: Formen, Körper und Symmetrie | Unterrichtseinheit",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Ecken und Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram.",
    "weeks": 2,
    "lessons": [
     {
@@ -586,7 +567,7 @@
    "grade": "3",
    "subject": "math",
    "title": "Zahlen bis 1000",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 3: Zahlen bis 1000",
+   "metaTitle": "Mathe Klasse 3: Zahlen bis 1000 | Unterrichtseinheit",
    "metaDescription": "Eine Woche Mathe Klasse 3: 4 Stunden zu Hundertern, Zehnern und Einern, zum Zerlegen, Vergleichen und Ordnen dreistelliger Zahlen und zu 100 mehr und weniger.",
    "weeks": 1,
    "lessons": [
@@ -667,7 +648,8 @@
      "types": [
       "G2-255",
       "G2-256"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "3:column-regrouping",
@@ -680,13 +662,13 @@
   },
   {
    "id": "de3-mal-geteilt-gleichungen",
-   "slug": "mal-geteilt-gleichungen-und-muster-klasse-3",
+   "slug": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Mal, geteilt, Gleichungen und Muster",
-   "metaTitle": "Mathe Klasse 3: Mal, geteilt, Gleichungen und Muster",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zu Mal-Familien, Sachaufgaben, Teilen mit Rest, Gleichungen im Gleichgewicht, Zahlenfolgen und Zahlenmaschinen.",
+   "title": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
+   "metaTitle": "Mathe Klasse 3: Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
+   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zu Aufgabenfamilien, Sachaufgaben, Teilen mit Rest, Gleichungen an der Waage, Zahlenfolgen und Zahlenmaschinen.",
    "weeks": 2,
    "lessons": [
     {
@@ -740,19 +722,25 @@
   },
   {
    "id": "g3-time-temperature-mass-volume",
-   "slug": "zeit-temperatur-gewicht-und-rauminhalt-klasse-3",
+   "slug": "zeit-temperatur-gewicht-und-hohlmasse-klasse-3",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Zeit, Temperatur, Gewicht und Rauminhalt",
-   "metaTitle": "Mathe Klasse 3: Zeit, Temperatur, Gewicht und Rauminhalt",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zur Uhr auf die Minute, zu Zeitspannen, der 24-Stunden-Zeit, dem Thermometer, Gramm an der Waage und Millilitern im Messbecher.",
+   "title": "Zeit, Temperatur, Gewicht und Hohlmaße",
+   "metaTitle": "Mathe Klasse 3: Zeit, Temperatur, Gewicht und Hohlmaße",
+   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zur Uhr auf die Minute genau, zur 24-Stunden-Zeit, zu Zeitspannen, zum Thermometer, zu Millilitern und Gramm.",
    "weeks": 2,
    "lessons": [
     {
      "point": "3:time-to-minute",
      "types": [
       "G3-354"
+     ]
+    },
+    {
+     "point": "3:time-12-24",
+     "types": [
+      "G3-355"
      ]
     },
     {
@@ -768,23 +756,9 @@
      ]
     },
     {
-     "point": "3:time-12-24",
-     "types": [
-      "G3-355"
-     ]
-    },
-    {
      "point": "3:thermometer",
      "types": [
       "G3-345"
-     ],
-     "activity": null
-    },
-    {
-     "point": "2:mass-grams",
-     "types": [
-      "G2-261",
-      "G2-252"
      ],
      "activity": null
     },
@@ -794,18 +768,26 @@
       "G2-260",
       "G2-263"
      ]
+    },
+    {
+     "point": "2:mass-grams",
+     "types": [
+      "G2-261",
+      "G2-252"
+     ],
+     "activity": null
     }
    ]
   },
   {
    "id": "g3-area-perimeter-volume",
-   "slug": "flaecheninhalt-und-umfang-klasse-3",
+   "slug": "flaecheninhalt-umfang-und-wuerfelgebaeude-klasse-3",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Flächeninhalt und Umfang",
-   "metaTitle": "Unterrichtseinheit Mathe Klasse 3: Flächeninhalt und Umfang",
-   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zum Flächeninhalt in Kästchen, zum Umfang als Weg rundherum und zu Würfeltürmen, jede mit Lehrerhinweis und Arbeitsblättern.",
+   "title": "Flächeninhalt, Umfang und Würfelgebäude",
+   "metaTitle": "Mathe Klasse 3: Flächeninhalt, Umfang und Würfelgebäude",
+   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zum Flächeninhalt in Kästchen, zum Umfang als Weg rundherum und zu Würfelgebäuden, jede mit Lehrerhinweis und Arbeitsblättern.",
    "weeks": 1,
    "lessons": [
     {
@@ -848,7 +830,7 @@
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
    "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und X-Diagrammen mit halben Schritten.",
+   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und einem Diagramm mit halben Schritten.",
    "weeks": 1,
    "lessons": [
     {
@@ -893,7 +875,7 @@
    "subject": "literacy",
    "title": "Laute, Silben und erste Wörter schreiben",
    "metaTitle": "Deutsch Klasse 1: Laute, Silben und erste Wörter schreiben",
-   "metaDescription": "Zwei Wochen Deutsch Klasse 1: 6 Stunden zu Reimwörtern, Silbenteppich, Lautstreifen, sch, ch und au, zum Beschriften von Bildern und zu Silbenbögen.",
+   "metaDescription": "Deutsch Klasse 1: 6 Stunden, verteilt über das erste Schuljahr, zu Reimwörtern, Silbenbögen, Silbenteppich, Lautstreifen, sch, ch, au und zum Beschriften von Bildern.",
    "weeks": 2,
    "lessons": [
     {
@@ -901,6 +883,13 @@
      "types": [
       "G1-309",
       "G1-343"
+     ]
+    },
+    {
+     "point": "1:syllables-split",
+     "types": [
+      "G1-305",
+      "G1-325"
      ]
     },
     {
@@ -933,13 +922,6 @@
       "G1-258",
       "G1-260"
      ]
-    },
-    {
-     "point": "1:syllables-split",
-     "types": [
-      "G1-305",
-      "G1-325"
-     ]
     }
    ]
   },
@@ -950,7 +932,7 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Sätze und Geschichten lesen",
-   "metaTitle": "Unterrichtseinheit Deutsch Klasse 1: Sätze und Geschichten lesen",
+   "metaTitle": "Deutsch Klasse 1: Sätze und Geschichten lesen | Unterrichtseinheit",
    "metaDescription": "Eine Woche Deutsch Klasse 1: 5 Stunden mit Leseaufträgen, Lückensätzen, Schüttelsätzen, W-Fragen und Bildergeschichten, jede mit Lehrerhinweis und Arbeitsblättern.",
    "weeks": 1,
    "lessons": [
@@ -993,27 +975,25 @@
   },
   {
    "id": "g1-words-and-how-they-work",
-   "slug": "woerter-und-wortarten-klasse-1",
+   "slug": "abc-nomen-begleiter-und-gegenteile-klasse-1",
    "status": "pilot",
    "grade": "1",
    "subject": "literacy",
-   "title": "Wörter und Wortarten",
-   "metaTitle": "Unterrichtseinheit Deutsch Klasse 1: Wörter und Wortarten",
-   "metaDescription": "Zwei Wochen Deutsch Klasse 1: 7 Stunden zum Abc, zu Nomen, Verben und Adjektiven, der, die, das, Gegenteilen, gleichbedeutenden Wörtern und Wortfamilien.",
-   "weeks": 2,
+   "title": "Abc, Nomen, Begleiter und Gegenteile",
+   "metaTitle": "Deutsch Klasse 1: Abc, Nomen, Begleiter und Gegenteile",
+   "metaDescription": "Eine Woche Deutsch Klasse 1: 4 Stunden zum Ordnen nach dem Abc, zu Nomen und Verben, zu der, die, das und zu Gegenteilen, jede mit Lehrerhinweis und Arbeitsblättern.",
+   "weeks": 1,
    "lessons": [
     {
      "point": "1:alphabetical-order",
      "types": [
-      "G1-262",
-      "G1-264"
+      "G1-262"
      ]
     },
     {
      "point": "1:word-classes",
      "types": [
-      "G1-293",
-      "G1-300"
+      "G1-293"
      ],
      "activity": null
     },
@@ -1029,24 +1009,6 @@
       "G1-307",
       "G1-337"
      ]
-    },
-    {
-     "point": "1:synonyms",
-     "types": [
-      "G1-395"
-     ]
-    },
-    {
-     "point": "1:shades-of-meaning",
-     "types": [
-      "G1-396"
-     ]
-    },
-    {
-     "point": "1:root-words",
-     "types": [
-      "G1-397"
-     ]
     }
    ]
   },
@@ -1057,7 +1019,7 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Sätze und Grammatik",
-   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Sätze und Grammatik",
+   "metaTitle": "Deutsch Klasse 2: Sätze und Grammatik | Unterrichtseinheit",
    "metaDescription": "Eine Woche Deutsch Klasse 2: 5 Stunden zu Satzanfang und Satzzeichen, Wortarten, Einzahl und Mehrzahl, Personalformen der Verben und Fragesätzen.",
    "weeks": 1,
    "lessons": [
@@ -1090,7 +1052,7 @@
       "G2-317",
       "G2-336"
      ],
-     "activity": "rusty-yesterday.irregular-past.l-2-1-d"
+     "activity": null
     },
     {
      "point": "2:question-words",
@@ -1109,8 +1071,8 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Rechtschreiben und Wörter bilden",
-   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Rechtschreiben und Wörter bilden",
-   "metaDescription": "Zwei Wochen Deutsch Klasse 2: 7 Stunden zu sch, doppelten Mitlauten, ck und ie, zusammengesetzten Nomen, Wortstamm, Vorsilben und dem Wortfeld sagen.",
+   "metaTitle": "Deutsch Klasse 2: Rechtschreiben und Wörter bilden",
+   "metaDescription": "Zwei Wochen Deutsch Klasse 2: 6 Stunden zu sch, doppelten Mitlauten, ck und ie, zusammengesetzten Nomen, Wortfamilien, Wortstamm und Vorsilben, mit Lehrerhinweisen.",
    "weeks": 2,
    "lessons": [
     {
@@ -1135,6 +1097,12 @@
      ]
     },
     {
+     "point": "1:root-words",
+     "types": [
+      "G1-397"
+     ]
+    },
+    {
      "point": "2:root-words",
      "types": [
       "G2-375",
@@ -1148,6 +1116,25 @@
       "G2-376"
      ],
      "activity": "affix.apply.l-2-4-b"
+    }
+   ]
+  },
+  {
+   "id": "de2-wortschatz",
+   "slug": "wortschatz-gleiche-bedeutung-und-wortfelder-klasse-2",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Wortschatz: gleiche Bedeutung und Wortfelder",
+   "metaTitle": "Deutsch Klasse 2: Wortschatz – gleiche Bedeutung und Wortfelder",
+   "metaDescription": "Eine Woche Deutsch Klasse 2: 4 Stunden zu Wörtern mit gleicher Bedeutung, zu Abstufungen von schwach bis stark und zum Wortfeld „sagen“, jede mit Lehrerhinweis.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:synonyms",
+     "types": [
+      "G1-395"
+     ]
     },
     {
      "point": "2:synonyms",
@@ -1156,6 +1143,12 @@
       "G2-373"
      ],
      "activity": null
+    },
+    {
+     "point": "1:shades-of-meaning",
+     "types": [
+      "G1-396"
+     ]
     },
     {
      "point": "2:synonyms~doing-stage",
@@ -1167,12 +1160,12 @@
   },
   {
    "id": "g2-stories-facts-and-writing",
-   "slug": "geschichten-lesen-und-schreiben-klasse-2",
+   "slug": "geschichten-steckbriefe-und-schreibschrift-klasse-2",
    "status": "pilot",
    "grade": "2",
    "subject": "literacy",
-   "title": "Geschichten lesen und schreiben",
-   "metaTitle": "Unterrichtseinheit Deutsch Klasse 2: Geschichten lesen und schreiben",
+   "title": "Geschichten, Steckbriefe und Schreibschrift",
+   "metaTitle": "Deutsch Klasse 2: Geschichten, Steckbriefe und Schreibschrift",
    "metaDescription": "Zwei Wochen Deutsch Klasse 2: 6 Stunden zum Lesen mit Fragen, zu Lückengeschichten, zum Schreiben zu Bildern, zum Tier-Steckbrief und zur Schreibschrift.",
    "weeks": 2,
    "lessons": [
@@ -1189,7 +1182,7 @@
      "types": [
       "G2-350"
      ],
-     "activity": "fern-clue-garden.context-clues.l-2-4-a"
+     "activity": null
     },
     {
      "point": "2:describe-a-picture",
@@ -1240,7 +1233,7 @@
    "subject": "literacy",
    "title": "Wortfelder, Wortfamilien und Pronomen",
    "metaTitle": "Deutsch Klasse 3: Wortfelder, Wortfamilien und Pronomen",
-   "metaDescription": "Eine Woche Deutsch Klasse 3: 5 Stunden zu den Wortfeldern gehen und sehen, Personenwörtern mit -er und -erin, Wortfamilien im Satz und den Pronomen er, sie, es.",
+   "metaDescription": "Eine Woche Deutsch Klasse 3: 5 Stunden zu den Wortfeldern „gehen“ und „sehen“, Personenbezeichnungen auf -er und -erin, Wortfamilien im Satz und den Pronomen er, sie, es.",
    "weeks": 1,
    "lessons": [
     {
@@ -1284,29 +1277,28 @@
  "plans": [
   {
    "id": "plan-1-math",
-   "slug": "stoffverteilungsplan-mathe-klasse-1",
+   "slug": "stoffverteilung-mathe-klasse-1",
    "grade": "1",
    "subject": "math",
-   "title": "Stoffverteilungsplan Mathe Klasse 1",
-   "metaTitle": "Stoffverteilungsplan Mathe Klasse 1: {units} Einheiten, {weeks} Wochen",
-   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit und dem Lehrplanbezug.",
+   "title": "Mathe Klasse 1: Stoffverteilung für {weeks} Wochen",
+   "metaTitle": "Mathe Klasse 1: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
+   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "g1-add-subtract-within-10",
+    "de1-zahlen-bis-20",
     "g1-doubles-three-addends-number-walls",
-    "g1-tens-and-ones",
-    "g1-hundreds-chart-skip-counting",
     "g1-time-calendar-coins",
     "g1-shapes-measuring-graphs"
    ]
   },
   {
    "id": "plan-2-math",
-   "slug": "stoffverteilungsplan-mathe-klasse-2",
+   "slug": "stoffverteilung-mathe-klasse-2",
    "grade": "2",
    "subject": "math",
-   "title": "Stoffverteilungsplan Mathe Klasse 2",
-   "metaTitle": "Stoffverteilungsplan Mathe Klasse 2: {units} Einheiten, {weeks} Wochen",
-   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit und dem Lehrplanbezug.",
+   "title": "Mathe Klasse 2: Stoffverteilung für {weeks} Wochen",
+   "metaTitle": "Mathe Klasse 2: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
+   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "de2-zahlen-bis-100",
     "de2-groessen-daten",
@@ -1317,12 +1309,12 @@
   },
   {
    "id": "plan-3-math",
-   "slug": "stoffverteilungsplan-mathe-klasse-3",
+   "slug": "stoffverteilung-mathe-klasse-3",
    "grade": "3",
    "subject": "math",
-   "title": "Stoffverteilungsplan Mathe Klasse 3",
-   "metaTitle": "Stoffverteilungsplan Mathe Klasse 3: {units} Einheiten, {weeks} Wochen",
-   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 3 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit und dem Lehrplanbezug.",
+   "title": "Mathe Klasse 3: Stoffverteilung für {weeks} Wochen",
+   "metaTitle": "Mathe Klasse 3: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
+   "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 3 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "de3-zahlen-bis-1000",
     "de3-runden-schriftlich",
@@ -1334,12 +1326,12 @@
   },
   {
    "id": "plan-1-literacy",
-   "slug": "stoffverteilungsplan-deutsch-klasse-1",
+   "slug": "stoffverteilung-deutsch-klasse-1",
    "grade": "1",
    "subject": "literacy",
-   "title": "Stoffverteilungsplan Deutsch Klasse 1",
-   "metaTitle": "Stoffverteilungsplan Deutsch Klasse 1: {units} Einheiten, {weeks} Wochen",
-   "metaDescription": "{units} Unterrichtseinheiten für Deutsch Klasse 1 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit und dem Lehrplanbezug.",
+   "title": "Deutsch Klasse 1: Stoffverteilung für {weeks} Wochen",
+   "metaTitle": "Deutsch Klasse 1: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
+   "metaDescription": "{units} Unterrichtseinheiten für Deutsch Klasse 1 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "g1-sounds-spelling-syllables",
     "g1-reading-sentences-and-stories",
@@ -1348,15 +1340,16 @@
   },
   {
    "id": "plan-2-literacy",
-   "slug": "stoffverteilungsplan-deutsch-klasse-2",
+   "slug": "stoffverteilung-deutsch-klasse-2",
    "grade": "2",
    "subject": "literacy",
-   "title": "Stoffverteilungsplan Deutsch Klasse 2",
-   "metaTitle": "Stoffverteilungsplan Deutsch Klasse 2: {units} Einheiten, {weeks} Wochen",
-   "metaDescription": "{units} Unterrichtseinheiten für Deutsch Klasse 2 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit und dem Lehrplanbezug.",
+   "title": "Deutsch Klasse 2: Stoffverteilung für {weeks} Wochen",
+   "metaTitle": "Deutsch Klasse 2: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
+   "metaDescription": "{units} Unterrichtseinheiten für Deutsch Klasse 2 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "g2-sentences-and-grammar",
     "g2-spelling-and-word-building",
+    "de2-wortschatz",
     "g2-stories-facts-and-writing"
    ]
   }

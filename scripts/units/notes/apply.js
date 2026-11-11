@@ -32,8 +32,9 @@ if (bad) { console.log(bad + ' problem(s); nothing written'); process.exit(1); }
 let stale = 0;
 for (const loc of Object.keys(byLoc)) {
   const file = path.join(REPO, 'frontend', 'content', 'units', 'points', loc + '.json');
-  const raw = fs.readFileSync(file, 'utf8');
-  const j = JSON.parse(raw);
+  // a language's first notes: its points file starts empty and holds only what the note files give it
+  const raw = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  const j = raw ? JSON.parse(raw) : { $comment: 'Teacher notes of the units, language ' + loc + ': the merge of scripts/units/notes/' + loc + '-*.js (node scripts/units/notes/apply.js). Do not edit by hand.', locale: loc, points: {} };
   for (const [id, n] of Object.entries(byLoc[loc].points)) j.points[id] = n;
   const text = JSON.stringify(j, null, 1) + '\n';
   if (CHECK) { if (text !== raw.replace(/\r\n/g, '\n')) { stale++; console.log('STALE  ' + path.relative(REPO, file)); } }

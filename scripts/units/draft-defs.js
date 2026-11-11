@@ -8,6 +8,7 @@
  *   node scripts/units/draft-defs.js --loc=en --list=frontend/content/units/lists/en-math.json            report only
  *   node scripts/units/draft-defs.js --loc=en --list=… --write                                            add the new units
  *
+ * A list file is a drafting input and is not kept: once a unit is in defs/<loc>.json the definition is the source.
  * The list: { units: [{ id, title, grade, points: [<point id> | { point, types: [<type id>, …] }…], metaTitle?, metaDescription? }] }.
  * --types also prints the worksheet types each lesson takes. --only=<id prefix> drafts only the units whose id starts so.
  * A lesson takes up to two worksheet types of its point: first those whose pages form a Level Set with all three
@@ -63,7 +64,9 @@ for (const u of list) {
     // type and neither a tool nor an activity is left out and reported, never padded
     const hasTool = Object.keys(toolPoints).some((k) => (toolPoints[k].points || []).includes(pid) && toolContent[k] && toolContent[k].slug && toolContent[k].name);
     const hasAct = (p.activities || []).some((a) => assets.activities[a]);
-    if (types.length + (hasTool ? 1 : 0) + (hasAct ? 1 : 0) < 2) { gaps.push(u.id + ': ' + pid + ' has one worksheet type and no tool or activity in ' + loc + ' (' + types.join(' ') + ')'); usedPoints.delete(pid); continue; }
+    // practice on screen also counts when a type has a second core page with a Check button (the assembler's rule)
+    const screenCopy = types.some((t) => assets.types[t].s[1] > 0 && assets.types[t].p[1] > 1);
+    if (types.length + (hasTool ? 1 : 0) + (hasAct || screenCopy ? 1 : 0) < 2) { gaps.push(u.id + ': ' + pid + ' has one worksheet type and no tool or activity in ' + loc + ' (' + types.join(' ') + ')'); usedPoints.delete(pid); continue; }
     lessons.push({ point: pid, types });
   }
   const three = lessons.filter((l) => l.types.some((t) => assets.types[t].p.every((n) => n > 0))).length;

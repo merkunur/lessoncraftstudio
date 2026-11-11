@@ -159,5 +159,23 @@ module.exports = {
         watch: 'Ask the child what the long word means. If the meaning has the picture word in it (a teacher teaches), the root is right; if not, the letters match by accident.',
       },
     },
+    '1:articles': {
+      title: 'A or an: sort the words',
+      objective: 'Children read a word, decide whether a or an belongs in front of it, and write it in the right group.',
+      note: {
+        mistake: 'Children sort by the first letter they see and not by the sound they say, or they put every word under "a." Short words that begin with a vowel (egg, ant) are the ones they miss.',
+        words: 'Say: "Say it out loud with \'a\' and with \'an.\' Which one is easy to say? A egg… an egg." Give the rule: "Before a vowel sound, we say an." Have children read each finished group aloud: "an apple, an egg, an owl."',
+        watch: 'Listen to the child read the finished lists with the article in front. A wrong word stands out at once when it is said aloud; have the child find it by ear, not by rule.',
+      },
+    },
+    '1:synonyms': {
+      title: 'Two words that mean the same',
+      objective: 'Children look at a picture and circle the two words under it that mean the same and tell about the picture.',
+      note: {
+        mistake: 'Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.',
+        words: 'Say: "Words that mean the same can trade places. The big dog, the large dog: same picture in your head." Test a pair in one sentence: "The elephant is big. The elephant is large. Same? The elephant is gray. Same?" Call them "words that mean the same," and give the word "synonyms" once.',
+        watch: 'Have the child say both circled words in one sentence about the picture. If the sentence changes its meaning, the words are not synonyms; let the child try the third word.',
+      },
+    },
   },
 };

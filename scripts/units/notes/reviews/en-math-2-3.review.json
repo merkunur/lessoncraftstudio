@@ -1,0 +1,261 @@
+{
+ "2:bundle-ten-ones": {
+  "words": "Say: \"Ten ones make one ten. Circle exactly ten. Check.\" Then: \"The ones inside the circle are a ten now. Count only the ones that are left outside.\" Ask: \"Can you make another ten? How do you know?\" Finish with the second-grade step: \"Ten tens make one hundred.\""
+ },
+ "2:read-build-3-digit": {
+  "mistake": "Children write the counts they see and skip an empty place: two flats and six cubes become 26. When a number is read aloud, the same children write what they hear, and two hundred six becomes 2006."
+ },
+ "2:expanded-form-digit-value": {
+  "objective": "Children match a set of hundreds, tens, and ones blocks to its expanded form and tell what an underlined digit is worth.",
+  "mistake": "Children say an underlined 4 is worth \"4\" wherever it is. For 345 they pick 300 + 4 + 5, treating the tens digit as ones.",
+  "words": "Ask: \"What place is the digit in? The tens place, so it is 4 tens. What are 4 tens worth?\" (40.) Say a number in parts: \"345 is 300 and 40 and 5.\" Write it both ways and read it both ways."
+ },
+ "2:compare-order-3-digit": {
+  "words": "Say: \"Start on the left. Compare the hundreds. Same? Then the tens. Same? Then the ones.\" Read the finished line aloud: \"402 is greater than 398.\" For ordering: \"Find the least number and write 1 by it. Then find the least of the ones that are left.\""
+ },
+ "2:hundred-more-less": {
+  "words": "Ask: \"A hundred more. Which digit changes? Which two stay the same?\" Say: \"Only the hundreds digit changes. 347, 447.\" Count by hundreds from any number: \"26, 126, 226, 326.\" Then try ten: \"347, 357. Which digit changed this time?\""
+ },
+ "2:skip-count-5-10-100": {
+  "watch": "Stop a child in the middle of the picture and ask what comes next. A child who starts the chant over from 5 knows a song; counting on from 35 is the skill. The pages stop at 50 and at 100, and second graders skip count to 1,000, so end with a spoken round that starts past 100: \"285, 290, 295…\", \"340, 350, 360…\", \"200, 300, 400…\"."
+ },
+ "2:hundreds-chart-moves": {
+  "watch": "Notice who has to look at the chart and who can make the jump mentally. Check the up arrows first; a child who adds on an up arrow is thinking \"higher is more,\" as on a thermometer."
+ },
+ "2:round-to-ten": {
+  "words": "Ask first: \"Which two tens is 47 between?\" (40 and 50.) \"Which one is it closer to?\" Say: \"The ones digit decides. 0 to 4, round down. 5 to 9, round up.\" For 45: \"It is exactly in the middle. Everyone has agreed to round up, so 45 rounds to 50.\""
+ },
+ "2:number-line-not-from-zero": {
+  "watch": "Look for answers such as 3 or 7 on a line from 40 to 60; that child ignored the printed numbers. Have each child tell you the start number and the size of one jump before writing."
+ },
+ "2:add-sub-within-100-practice": {
+  "watch": "Let children show their steps beside the wall. A child with the lower bricks right and one brick near the top wrong made a single adding mistake that carried upward; a child with nothing right may not see which two bricks to add."
+ },
+ "2:add-with-blocks": {
+  "mistake": "Children count each kind of block and write the three counts side by side, even when there are 12 ones or 11 tens: 2 hundreds, 4 tens, and 12 ones become 2412."
+ },
+ "2:subtract-with-blocks": {
+  "words": "Say: \"I need to take 7 ones and I have only 2. Trade one ten for ten ones. Now I have 12 ones.\" Ask: \"How many tens are left after the trade?\" Cross out blocks on the page as they are taken away."
+ },
+ "2:column-method": {
+  "mistake": "Children write a two-digit sum under the ones column (27 + 15 becomes 312), or they write the new ten and forget to add it. Children who add the tens first have nowhere to put the new ten and leave the tens digit as it was. In subtraction they still take the smaller digit from the bigger one, as with the blocks.",
+  "words": "Say: \"Ones first. 7 and 5 is 12 ones: 1 ten and 2 ones. Write the 2, and write the new ten above the tens.\" In subtraction: \"2 ones take away 7? Not enough ones. Trade one ten for ten ones: now there are 12 ones.\" Have children say what the small 1 means: \"one ten,\" not \"one.\""
+ },
+ "2:odd-even": {
+  "objective": "Children pair dots, write a number as two equal parts with 0 or 1 left over, and decide from the ones digit whether a number under 100 is odd or even."
+ },
+ "2:measure-with-ruler": {
+  "words": "Say: \"Start at zero. Zero means no length yet. Count the spaces: one, two, three.\" Then: \"The end of the pencil is at the 6, so it is 6 units long.\" With a real ruler: \"Find the 0 mark. It is not always at the edge. Are we using the inch side or the centimeter side? Say the unit: 6 inches.\""
+ },
+ "2:compare-lengths": {
+  "words": "Say: \"The ribbon is 9 units long. The string is 6 units long. Line them up. Where does the string stop? The extra part is how much LONGER.\" Write it: \"9 − 6 = 3. The ribbon is 3 units longer.\""
+ },
+ "2:mass-grams": {
+  "objective": "Children add the gram weights on a balance to find how much an object weighs, and read amounts on balance scales and measuring cups, writing each amount with its unit.",
+  "mistake": "Children count the weights (\"three weights, so 3\") and do not add what is written on them. On a measuring cup they read the nearest printed number and ignore the small steps in between, or they write grams for a liquid.",
+  "words": "Say: \"Read each weight: 100, 50, 20. Add them: 170 grams.\" On a measuring cup: \"Look at two printed numbers next to each other. How many steps are between them? So what is one step worth?\" Always say the unit: \"170 grams,\" \"300 milliliters.\""
+ },
+ "2:read-jugs": {
+  "title": "Read a measuring cup",
+  "objective": "Children read from the scale on a measuring cup how many milliliters of liquid are inside.",
+  "mistake": "Children read the top of the cup or the nearest printed number, not the level of the liquid. When the scale goes up by 100 or 200, they count each line as 1.",
+  "words": "Say: \"Put your finger on the top of the liquid. Slide it across to the scale.\" Ask: \"The numbers go 200, 400, 600. What number belongs on the line halfway between 200 and 400?\" Say the unit: \"300 milliliters.\"",
+  "watch": "Use a real measuring cup and water once; children must bring their eyes down to the level of the liquid. On the page, check the cups where the liquid stops between two printed numbers."
+ },
+ "2:time-5-min-quarter": {
+  "words": "Count by fives around the clock, touching each number: \"5, 10, 15, 20.\" Say: \"The 4 means 20 minutes.\" For the hour: \"Has the short hand passed the 3 yet? No, so it is still 2.\" Use both names: \"2:15\" and \"quarter past two.\" Add the half of the day: \"School ends at 2:15. Is that a.m. or p.m.?\""
+ },
+ "2:shopping-money": {
+  "objective": "Children read prices from a shelf, add the prices of the things in a basket, and solve two story problems with those prices.",
+  "mistake": "Children add numbers without checking which thing the story names, or take the price of the wrong thing from the shelf. With three things in a basket they add two prices and forget the third.",
+  "words": "Say: \"First find each thing on the shelf and say its price. Write the prices down. Then add.\" Ask: \"How much does it cost altogether?\" Say amounts with the unit: \"45 cents.\"",
+  "watch": "Have children underline what is being bought before they look at the shelf. Check that totals carry a cent sign or a dollar sign; a bare number is half an answer. Have one child in each group lay out a total with coins on the Money Mat, because the pages never show a coin."
+ },
+ "2:line-plots": {
+  "watch": "Ask one question each way: \"How many Xs are above the 7?\" and \"Which number has 3 Xs?\" A child who can answer both understands the plot. Then have the class measure six pencils and add an X for each; making a plot from your own measurements is the other half of this skill."
+ },
+ "2:scaled-pictograph": {
+  "mistake": "Children count the pictures and write that number, because until now one picture has always meant one thing. The key goes unread."
+ },
+ "2:grid-coordinates": {
+  "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\""
+ },
+ "2:equal-groups-times": {
+  "mistake": "Children mix up the number of groups and the number in each group: 3 groups of 4 is written 3 + 4, or 3 + 3 + 3 + 3. Or they count every picture one by one and ignore the circles around the groups.",
+  "watch": "Check that the addition has as many addends as there are groups. Ask a child to draw \"2 groups of 5\" and then \"5 groups of 2\": the same total, two different pictures."
+ },
+ "2:arrays": {
+  "mistake": "Children do not know which way a row goes and which way a column goes. They count all the dots one by one, or, counting along two edges, they will not count the corner dot a second time and come up one short: a 3 by 5 array becomes \"3 rows and 4 columns.\"",
+  "words": "Say: \"Rows go across, like rows of seats. Columns go up and down, like the columns of a building.\" Ask: \"How many rows? How many in each row?\" Then: \"3 rows of 5: 5 + 5 + 5. 5, 10, 15.\""
+ },
+ "2:share-and-group": {
+  "words": "Say: \"One for each bin, then one more for each, until the pile is gone. Are all the bins the same?\" Ask the two questions apart: \"How many does each one get?\" and \"How many equal groups are there?\""
+ },
+ "2:equal-shares-shapes": {
+  "mistake": "Children call any shape cut into two pieces \"halves,\" even when one piece is bigger. They think equal parts must look alike, so a square cut corner to corner and a square cut straight across cannot both show halves.",
+  "words": "Ask: \"Are the parts EQUAL? Would it be fair to share it this way?\" Say: \"Two equal parts are halves. Three equal parts are thirds. Four equal parts are fourths, or quarters.\" Cut the parts out and lay one on top of the other, turning it if you need to. Do not check by folding: a rectangle cut corner to corner has two equal halves that do not fold onto each other."
+ },
+ "2:fraction-of-a-set": {
+  "watch": "Look for an answer that equals the bottom number of the fraction. Have that child share the pictures into cups first and then lift one cup. Fractions of a group, and fractions written with two numbers, come after second grade: keep saying the words \"one third\" and treat the page as a first look."
+ },
+ "2:solids-in-real-life": {
+  "words": "Name each solid with a thing: \"A can is a cylinder. A ball is a sphere. A party hat is a cone.\" Ask what sets two apart: \"A cone's flat bottom is a circle, and its side is curved. A pyramid's flat bottom has straight sides and corners, and its other faces are flat triangles.\"",
+  "mistake": "Children match by size or color, or by one feature: anything pointed is a cone, so a pyramid and a cone are mixed up. A can lying on its side is not seen as a cylinder. Some still call a ball a circle and a box a square: the solid gets the name of its flat face."
+ },
+ "2:3d-faces-edges-vertices": {
+  "words": "Use three words and keep them apart: \"A face is a flat surface. An edge is where two faces meet. A corner, or vertex, is where edges meet.\" On a real box: \"Touch a face. Run your finger along an edge. Point to a vertex.\" For a can or a cone: \"Is this part flat or curved? Only the flat parts are faces.\""
+ },
+ "2:symmetry-line": {
+  "words": "Say: \"A mirror line is a fold line. Fold along it: do the two sides land exactly on top of each other?\" Cut out a long paper rectangle (not a square) and fold it corner to corner to show a line that cuts it into two equal parts and is not a mirror line.",
+  "watch": "Use the folding test with paper for the first few. Listen to what children answer for slanted lines; that is where equal halves and mirror halves come apart. Fold a square corner to corner as well, so that \"slanted lines are never mirror lines\" does not become the rule."
+ },
+ "2:symmetry-complete": {
+  "mistake": "On the grid page children copy the half as it is, sliding it across the line instead of flipping it: a square two boxes from the line is colored two boxes from the far edge. On the tracing page the other half is already there, so children trace without noticing that every part has a partner across the line.",
+  "watch": "Look at the squares farthest from the line; a slid copy puts them next to the line. Give a mirror to any child whose picture looks shifted and let the child find the difference. On the tracing page, have the child point to one part and then to its partner on the other side."
+ },
+ "2:tangram-orientation": {
+  "words": "Say: \"A shape that is turned or flipped is still the same shape. This puzzle asks for more: it must STAND the same way as the shadow.\" Ask: \"Which way does the point face in the shadow? Left or right? Up or down?\" Have children trace the outline of the shadow with a finger and then the outline of each choice."
+ },
+ "3:column-regrouping": {
+  "mistake": "Children forget to add the new ten or hundred, or they write it and add it twice. In subtraction they trade a ten for ten ones and forget to make the tens one smaller; with a zero in the tens place (402 − 178) they do not know where the ten ones can come from.",
+  "words": "Say each step: \"8 and 7 is 15 ones. That is 1 ten and 5 ones. Write the 5, and write the new ten above the tens.\" For a zero: \"No tens to trade. Go to the hundreds: trade one hundred for ten tens. Now trade one of those tens for ten ones.\"",
+  "watch": "Check subtraction across a zero first. Have children add the answer back to check a subtraction, and ask \"About how much should it be?\" before they compute."
+ },
+ "3:estimate-by-rounding": {
+  "objective": "Children round two numbers to the nearest ten and add the rounded numbers to estimate the sum; with the teacher, they use an estimate to judge whether an exact answer is reasonable."
+ },
+ "3:parity-of-sums": {
+  "words": "Try small numbers first and collect the results: \"3 + 5 = 8. Odd plus odd… even!\" Ask why: \"Each odd number has one left over. The two leftovers make a pair.\" Build the three rules together: even + even, odd + odd, even + odd.",
+  "watch": "Ask a child to explain odd plus odd with counters laid out in pairs. A child who can only recite the table will forget it; one who sees the two leftovers pair up will not."
+ },
+ "3:balance-equations": {
+  "watch": "Give three quick true-or-false cards: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. A child who calls them wrong \"because the answer is on the wrong side\" still reads the sign as \"the answer comes next\"; that child should work with a real or a drawn balance and smaller numbers."
+ },
+ "3:mult-equal-groups": {
+  "mistake": "Children count every picture by ones and never use the groups. In the equation they write the total where a factor belongs."
+ },
+ "3:commutative": {
+  "objective": "Children see that an array turned on its side shows the same total, and write both multiplication equations."
+ },
+ "3:times-tables": {
+  "title": "The 2 and 5 times tables",
+  "objective": "Children write the products for the 2 and 5 times tables and practice a mix of multiplication facts.",
+  "words": "Start from a fact the child knows: \"You know 5 × 5 is 25. So 6 × 5 is one more five: 30.\" Use doubles for the 2s, and half of the tens fact for the 5s: \"8 × 10 is 80, so 8 × 5 is half of that, 40.\""
+ },
+ "3:division-sharing": {
+  "words": "Say: \"12 shared among 3 is a division: 12 ÷ 3.\" Then deal: \"One for each, again, again, until none are left. Each gets 4.\" Check with multiplication: \"3 bins of 4 make 12.\" Read the sign as \"divided by.\""
+ },
+ "3:division-repeated-subtraction": {
+  "mistake": "Children write the size of the hop as the answer, or they count every mark they touch, the starting number included, which gives one too many. They do not see that this is division too."
+ },
+ "3:mult-div-relationship": {
+  "words": "Say: \"Division asks for the missing factor. 24 ÷ 4 asks: 4 times what is 24?\" Point to the array: \"In a fact family the total is the number we divide: 24 ÷ 4, not 4 ÷ 24.\" Have children read all four facts of one array aloud.",
+  "watch": "Ask a division and see whether the child thinks of the multiplication. Check the order of the numbers in each division: the total, the whole array, comes first. Say \"the total,\" never \"the biggest number\"; later on children will divide a smaller number by a bigger one."
+ },
+ "3:muldiv-word-problems": {
+  "watch": "Read a child's answer sentence, not only the number. A bare \"4\" does not show whether the child knows it is 4 stickers each or 4 bags. Each page holds one kind of story, so the page decides for the child: read one story from each page aloud, in mixed order and without the picture, and ask which of the three is missing."
+ },
+ "3:division-remainder": {
+  "objective": "Children make equal groups from a pile or deal it into boxes, write how many groups there are or how many each box gets, and write how many are left over.",
+  "mistake": "Children leave too many over: as many as a group or more on the grouping page, as many as the number of boxes or more on the sharing page, when one more group or one more round could be made. Or they drop the leftovers and write only the number of groups.",
+  "words": "Say: \"14 in groups of 4: three groups, and 2 left over.\" Ask: \"Can you make another group from what is left? No? Then that is the remainder.\" On the sharing page: \"14 into 4 boxes. Is there enough left to give every box one more?\" State the rule together: \"The remainder is always smaller than the number you divide by.\"",
+  "watch": "Check each remainder against the number the pile was divided by: the size of a group on the grouping page, the number of boxes on the sharing page. A remainder of 5 with groups of 4 means one group is still hiding in the leftovers. Remainders are a fourth-grade standard: keep the words \"left over\" and treat this lesson as a first look."
+ },
+ "3:add-subtract-time": {
+  "words": "Say: \"An hour has 60 minutes, not 100.\" Jump to the full hour first: \"3:45 plus 30 minutes. 15 minutes takes us to 4:00. 15 more: 4:15.\" Draw the jumps on an open number line with the times written on it."
+ },
+ "3:time-12-24": {
+  "words": "Say: \"After 12 noon the 24-hour clock keeps counting: 13, 14, 15.\" Give the rule both ways: \"From 1:00 p.m. to 11:59 p.m., add 12 to the hour. From 24-hour time: if the hour is more than 12, subtract 12 and say p.m.\" Ask: \"Is 08:00 morning or evening? How do you know?\"",
+  "watch": "Check noon and the hour after it, such as 12:30 p.m., which stays 12:30, and midnight, which is 00:00. Most clocks around the children show a.m. and p.m.; point out a bus schedule or a plane ticket that uses 24-hour time. This lesson goes beyond the Common Core; many Americans know 24-hour time as \"military time.\""
+ },
+ "3:thermometer": {
+  "words": "Ask first: \"This scale does not count by ones. What do the printed numbers count by? So what is each small mark worth?\" Then: \"Find the top of the line. Which printed number is just below it? Count up from there.\" Say the temperature with its unit, as the page prints it: \"70 degrees.\"",
+  "watch": "Compare two thermometers with different scales that show the same temperature, and ask which one was harder to read and why."
+ },
+ "3:area-model": {
+  "words": "Say: \"Area is how many squares cover the shape with no gaps and no overlaps.\" Ask: \"How many squares in one row? How many rows? 4 rows of 6 is 24 squares.\" Say the unit: \"24 square units.\""
+ },
+ "3:partition-equal-areas": {
+  "objective": "Children decide whether a shape is cut into equal parts; with the teacher, they name one of the equal parts as a unit fraction.",
+  "mistake": "This page reviews second grade. Children count the parts and do not compare them: four parts are \"fourths\" even when the parts differ in size. Parts that are equal in size and different in shape are turned down.",
+  "watch": "Look at the circles with one thin slice and the rectangles with unequal strips. A child who circles them is counting parts. Cut paper and lay the parts on top of each other; when two parts have different shapes, cut one of them and rearrange its pieces to cover the other."
+ },
+ "3:compare-fractions": {
+  "title": "Which fraction is greater?",
+  "objective": "Children compare two fractions of the same whole with fraction bars and circle the greater one.",
+  "words": "Ask: \"Would you get more pizza if it is shared among 4 people or among 8?\" Say: \"More parts means smaller parts.\" With the same bottom number: \"Three fifths and two fifths: the pieces are the same size, so more pieces is more.\" Always add: \"We can only compare fractions of wholes that are the same size.\""
+ },
+ "3:equivalent-fractions": {
+  "title": "Equivalent fractions: different names, same amount",
+  "words": "Fold a paper strip in half, then in half again: \"One half is the same amount as two fourths. Nothing was added.\" Say: \"Different name, same amount. We call them equivalent fractions.\" Ask: \"How many sixths cover the same space as one half?\""
+ },
+ "3:classify-quadrilaterals": {
+  "objective": "Children decide whether a four-sided shape is a rectangle by checking its sides and its angles, knowing that a square is also a rectangle."
+ },
+ "3:symmetry": {
+  "mistake": "Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a long rectangle, which are not mirror lines.",
+  "words": "Say: \"Try every fold: up and down, across, corner to corner.\" Use cut-out shapes: \"Fold it. Do the halves match exactly?\" Ask: \"A square has 4 mirror lines. Why does a rectangle that is not a square have only 2?\"",
+  "watch": "Hand out paper shapes to fold. Check the long rectangle: a child who writes 4 for it has not folded it along a diagonal."
+ },
+ "3:scaled-graphs": {
+  "mistake": "Children count the grid lines or the pictures as ones and ignore the scale. A bar that ends at a line with no number is read as the printed number below it.",
+  "words": "Ask first: \"What does the scale count by? What does one picture stand for?\" Count along: \"5, 10, 15, 20.\" For a bar that stops at a line with no number: \"The printed numbers on each side are 10 and 20. What is this line worth?\"",
+  "watch": "Have the child read the key or the scale aloud before the first answer. Ask one compare question (\"how many more\") to see whether the child uses the scaled numbers or counts pictures."
+ },
+ "K:heavy-light": {
+  "__file": "en-math-k.js",
+  "title": "Heavier or lighter?",
+  "objective": "Children look at two things from everyday life and circle the one that is heavier.",
+  "mistake": "Children circle the bigger picture. A big balloon is chosen over a small rock, because bigger has always meant more.",
+  "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pulls down on your hand.\"",
+  "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down."
+ },
+ "3:input-output": {
+  "__file": "en-math-3.js",
+  "title": "Number machines",
+  "objective": "Children find the rule a number machine uses, such as add 5 or times 3, and fill in the numbers that are missing going in or coming out.",
+  "mistake": "Children find the rule from the first pair and do not test it on the next one, so \"+ 4\" is written where the rule is \"× 2\" (2 goes in, 4 comes out fits both). When the number that went IN is missing, they apply the rule forward again and do not undo it.",
+  "words": "Ask: \"What happened to 2 to make 4? Does the same thing turn 5 into 10?\" Have children write the rule on the machine. For a missing input: \"12 came out. The machine adds 5. What went in? Undo it: 12 take away 5.\"",
+  "watch": "Give a pair that fits two rules (2 → 4) and see who asks for a second pair before deciding. Check the rows where the missing number is the one going in; those need the opposite operation."
+ },
+ "3:volume-cubes": {
+  "__file": "en-math-3.js",
+  "title": "Count the cubes",
+  "objective": "Children count all the unit cubes in a tower, also the ones they cannot see, and write the total.",
+  "mistake": "Children count only the cubes they can see in the drawing and leave out the hidden ones at the back and underneath. Or they count the square faces they see and get a number that is far too big.",
+  "words": "Build the tower with real cubes first: \"How many can you see from here? Now pick it up and count them all.\" Say: \"Count layer by layer. How many cubes in the bottom layer? How many layers?\" Ask: \"A cube on top must be sitting on something. What is under it?\"",
+  "watch": "Have each child build one tower from the page with cubes and compare the count with the written answer. A child who counts by layers (\"6 and 6 and 6\") is ready for volume as layers times the cubes in a layer."
+ },
+ "3:fraction-number-line": {
+  "__file": "en-math-3.js",
+  "title": "Fractions on a number line",
+  "objective": "Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.",
+  "mistake": "Children count the tick marks, the ones at 0 and at 1 included, and take that for the bottom number: a line cut into 4 equal spaces has 5 marks and becomes \"fifths.\" Or they count the marks up to the dot, starting with 1 at zero.",
+  "words": "Say: \"Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth.\" Then hop from zero: \"One fourth, two fourths, three fourths. The dot is at three fourths.\" Ask: \"Where is zero fourths? Where is four fourths?\"",
+  "watch": "Ask a child how they found the bottom number. \"I counted the lines\" means the marks were counted; fold a paper strip into fourths and lay it under the line to show the four spaces."
+ },
+ "3:fraction-of-set": {
+  "__file": "en-math-3.js",
+  "title": "A fraction of a group",
+  "objective": "Children circle a fraction of a group of pictures, such as one third of 12, and write how many that is.",
+  "mistake": "Children circle as many pictures as the bottom number says: 3 pictures for one third. With a top number above 1 (two thirds), they find one group and stop.",
+  "words": "Say: \"The bottom number tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups.\" Link it to division: \"12 in 3 equal groups: 4 in each. One third of 12 is 4.\" For two thirds: \"Two of the groups: 4 and 4.\"",
+  "watch": "Check that the groups a child rings are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division."
+ },
+ "1:articles": {
+  "__file": "en-literacy-1.js",
+  "title": "A or an: sort the words",
+  "objective": "Children read a word, decide whether a or an belongs in front of it, and write it in the right group.",
+  "mistake": "Children sort by the first letter they see and not by the sound they say, or they put every word under \"a.\" Short words that begin with a vowel (egg, ant) are the ones they miss.",
+  "words": "Say: \"Say it out loud with 'a' and with 'an.' Which one is easy to say? A egg… an egg.\" Give the rule: \"Before a vowel sound, we say an.\" Have children read each finished group aloud: \"an apple, an egg, an owl.\"",
+  "watch": "Listen to the child read the finished lists with the article in front. A wrong word stands out at once when it is said aloud; have the child find it by ear, not by rule."
+ },
+ "1:synonyms": {
+  "__file": "en-literacy-1.js",
+  "title": "Two words that mean the same",
+  "objective": "Children look at a picture and circle the two words under it that mean the same and tell about the picture.",
+  "mistake": "Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.",
+  "words": "Say: \"Words that mean the same can trade places. The big dog, the large dog: same picture in your head.\" Test a pair in one sentence: \"The elephant is big. The elephant is large. Same? The elephant is gray. Same?\" Call them \"words that mean the same,\" and give the word \"synonyms\" once.",
+  "watch": "Have the child say both circled words in one sentence about the picture. If the sentence changes its meaning, the words are not synonyms; let the child try the third word."
+ }
+}

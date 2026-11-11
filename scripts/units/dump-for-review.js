@@ -27,7 +27,7 @@ const uiS = readJson(path.join(C, 'sub-plans', 'ui.' + loc + '.json'), {});
 let md = '# Units and sub packs, language `' + loc + '`: everything a teacher reads\n\n';
 md += 'Ids in `code` are what to cite in a finding. A worksheet\'s own title and instruction (printed on the page the children get) are given so that a note or a script can be checked against it; they are not under review themselves.\n';
 for (const u of units) {
-  md += '\n## UNIT `' + u.id + '` — ' + u.title + ' (grade ' + u.grade + ', ' + u.subject + ', about ' + u.weeks + ' weeks)\n\n- page title: ' + u.metaTitle + '\n- page description: ' + u.metaDescription + '\n';
+  md += '\n## UNIT `' + u.id + '` — ' + u.title + ' (grade ' + u.grade + ', ' + u.subject + ', about ' + u.weeks + (u.weeks === 1 ? ' week)' : ' weeks)') + '\n\n- page title: ' + u.metaTitle + '\n- page description: ' + u.metaDescription + '\n';
   for (const l of u.lessons) {
     md += '\n### `' + u.id + ' / lesson ' + l.n + '` (teaching point `' + l.point + '`) — ' + l.title + '\n\n';
     md += '- objective: ' + l.objective + '\n';

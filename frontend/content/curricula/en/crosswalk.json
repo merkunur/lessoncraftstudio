@@ -90,6 +90,11 @@
      "grade": "K"
     },
     {
+     "id": "K.CC.B.4.b",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
      "id": "K.CC.A.3",
      "rel": "teaches",
      "grade": "K"
@@ -183,9 +188,14 @@
      "id": "K.CC.A.2",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "K.CC.A.3",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:dot-to-dot-sequence": {
    "rows": [
@@ -218,9 +228,14 @@
      "id": "K.CC.A.2",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "K.CC.B.4.c",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:ordinal-position": {
    "none": "Ordinal numbers (1st to 10th) are not in the Common Core State Standards for Mathematics at any grade.",
@@ -236,9 +251,14 @@
      "id": "K.CC.B.5",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "1.MD.C.4",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:estimate": {
    "rows": [
@@ -458,17 +478,17 @@
   "1:sort-three-groups": {
    "rows": [
     {
-     "id": "K.MD.B.3",
+     "id": "1.MD.C.4",
      "rel": "teaches",
-     "grade": "K"
+     "grade": "1"
     },
     {
-     "id": "L.K.5.a",
+     "id": "K.MD.B.3",
      "rel": "teaches",
      "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:make-10": {
    "rows": [
@@ -582,12 +602,17 @@
   "1:add-three-addends": {
    "rows": [
     {
-     "id": "1.OA.A.2",
+     "id": "1.OA.B.3",
      "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "1.OA.A.2",
+     "rel": "prepares",
      "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:fact-families": {
    "rows": [
@@ -1114,19 +1139,14 @@
   "2:solids-in-real-life": {
    "rows": [
     {
-     "id": "K.G.A.1",
-     "rel": "teaches",
-     "grade": "K"
-    },
-    {
      "id": "K.G.A.2",
      "rel": "teaches",
      "grade": "K"
     },
     {
-     "id": "2.G.A.1",
+     "id": "K.G.A.1",
      "rel": "teaches",
-     "grade": "2"
+     "grade": "K"
     }
    ],
    "by": "review"
@@ -1322,14 +1342,9 @@
      "id": "3.OA.A.2",
      "rel": "teaches",
      "grade": "3"
-    },
-    {
-     "id": "2.OA.C.4",
-     "rel": "prepares",
-     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:equal-shares-shapes": {
    "rows": [
@@ -1387,14 +1402,8 @@
    "by": "code"
   },
   "2:tangram-orientation": {
-   "rows": [
-    {
-     "id": "1.G.A.2",
-     "rel": "teaches",
-     "grade": "1"
-    }
-   ],
-   "by": "code"
+   "none": "The page compares the orientation of finished tangram figures with a shadow; nothing is composed, so 1.G.A.2 (compose shapes) does not describe it, and Common Core names no standard for orientation in these grades.",
+   "by": "review"
   },
   "3:compare-4-digit": {
    "rows": [
@@ -1429,13 +1438,13 @@
   "3:estimate-by-rounding": {
    "rows": [
     {
-     "id": "3.OA.D.8",
+     "id": "3.NBT.A.1",
      "rel": "teaches",
      "grade": "3"
     },
     {
-     "id": "3.NBT.A.1",
-     "rel": "teaches",
+     "id": "3.OA.D.8",
+     "rel": "prepares",
      "grade": "3"
     }
    ],
@@ -1535,11 +1544,6 @@
    "rows": [
     {
      "id": "3-ESS2-1",
-     "rel": "prepares",
-     "grade": "3"
-    },
-    {
-     "id": "3.MD.B.3",
      "rel": "prepares",
      "grade": "3"
     }

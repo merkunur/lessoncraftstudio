@@ -28,14 +28,14 @@ module.exports = {
       title: 'Add and subtract with regrouping',
       objective: 'Children add and subtract in columns within 1,000, regrouping when a place has more than nine or not enough to take away.',
       note: {
-        mistake: 'Children forget to add the carried digit, or they write it and add it twice. In subtraction they borrow and forget to make the next place one smaller; with a zero in the tens place (402 − 178) they do not know where to borrow from.',
-        words: 'Say each step: "8 and 7 is 15 ones. That is 1 ten and 5 ones. Write the 5, carry the ten." For a zero: "No tens to open. Go to the hundreds: one hundred becomes ten tens. Now open one of those tens."',
-        watch: 'Check subtraction across a zero first. Have children estimate before they compute ("about 200") and add the answer back to check a subtraction.',
+        mistake: 'Children forget to add the new ten or hundred, or they write it and add it twice. In subtraction they trade a ten for ten ones and forget to make the tens one smaller; with a zero in the tens place (402 − 178) they do not know where the ten ones can come from.',
+        words: 'Say each step: "8 and 7 is 15 ones. That is 1 ten and 5 ones. Write the 5, and write the new ten above the tens." For a zero: "No tens to trade. Go to the hundreds: trade one hundred for ten tens. Now trade one of those tens for ten ones."',
+        watch: 'Check subtraction across a zero first. Have children add the answer back to check a subtraction, and ask "About how much should it be?" before they compute.',
       },
     },
     '3:estimate-by-rounding': {
       title: 'Round, then estimate the sum',
-      objective: 'Children round two numbers to the nearest ten, add the rounded numbers, and use the estimate to judge an exact answer.',
+      objective: 'Children round two numbers to the nearest ten and add the rounded numbers to estimate the sum; with the teacher, they use an estimate to judge whether an exact answer is reasonable.',
       note: {
         mistake: 'Children work out the exact sum first and then round the answer, which defeats the purpose. Or they round only one of the two numbers.',
         words: 'Say: "Round first, then add. An estimate is fast and close, not exact." Show it: "48 + 31 is about 50 + 30. About 80." Then: "Someone got 109 for 48 + 31. Can that be right? How do you know without adding?"',
@@ -47,8 +47,8 @@ module.exports = {
       objective: 'Children decide whether a sum will be odd or even by looking at the ones digits of the two numbers, without adding.',
       note: {
         mistake: 'Children add anyway and then look at the answer. Or they guess a rule that feels right: "odd plus odd must be odd."',
-        words: 'Try small numbers first and collect the results: "3 + 5 = 8. Odd plus odd… even!" Ask why: "Each odd number has one left over. Two left-overs make a pair." Build the three rules together: even + even, odd + odd, even + odd.',
-        watch: 'Ask a child to explain odd plus odd with counters laid out in pairs. A child who can only recite the table will forget it; one who sees the two left-overs pair up will not.',
+        words: 'Try small numbers first and collect the results: "3 + 5 = 8. Odd plus odd… even!" Ask why: "Each odd number has one left over. The two leftovers make a pair." Build the three rules together: even + even, odd + odd, even + odd.',
+        watch: 'Ask a child to explain odd plus odd with counters laid out in pairs. A child who can only recite the table will forget it; one who sees the two leftovers pair up will not.',
       },
     },
     '3:arithmetic-patterns': {
@@ -64,7 +64,7 @@ module.exports = {
       title: 'Multiplication as equal groups',
       objective: 'Children read a picture of equal groups or an array, finish the multiplication, and find the total.',
       note: {
-        mistake: 'Children count every picture by ones and never use the groups. In the number sentence they write the total where a factor belongs.',
+        mistake: 'Children count every picture by ones and never use the groups. In the equation they write the total where a factor belongs.',
         words: 'Say: "6 groups of 4 is 6 times 4." Find the total from a fact you know: "5 groups of 4 is 20, one more group is 24." Use the words "factor" for the numbers you multiply and "product" for the total.',
         watch: 'Ask how the child found the total. Counting by ones gives a right answer and no progress; a child who says "five of them and one more" is building the tables.',
       },
@@ -80,7 +80,7 @@ module.exports = {
     },
     '3:commutative': {
       title: 'Turn the array around',
-      objective: 'Children see that an array turned on its side shows the same total, and write both multiplication sentences.',
+      objective: 'Children see that an array turned on its side shows the same total, and write both multiplication equations.',
       note: {
         mistake: 'Children count both arrays from scratch as two separate problems and do not notice that the totals match. Some believe 3 × 7 and 7 × 3 are two different facts that both have to be learned.',
         words: 'Turn a paper array a quarter turn and ask: "Did I add any? Did I take any away? So what is the total now?" Say: "3 rows of 7 and 7 rows of 3 are the same amount. If you know one, you know the other."',
@@ -88,11 +88,11 @@ module.exports = {
       },
     },
     '3:times-tables': {
-      title: 'Times tables',
-      objective: 'Children write the products of the times tables of 2 and of 5 and practice a mix of multiplication facts.',
+      title: 'The 2 and 5 times tables',
+      objective: 'Children write the products for the 2 and 5 times tables and practice a mix of multiplication facts.',
       note: {
         mistake: 'Children skip count from the start for every fact and lose track around the sixth or seventh number. They mix up neighbors: 6 × 5 is answered with 35.',
-        words: 'Start from a fact the child knows: "You know 5 × 5 is 25. So 6 × 5 is one more five: 30." Use doubles for the table of 2, and halves of the tens for the table of 5: "8 × 10 is 80, so 8 × 5 is 40."',
+        words: 'Start from a fact the child knows: "You know 5 × 5 is 25. So 6 × 5 is one more five: 30." Use doubles for the 2s, and half of the tens fact for the 5s: "8 × 10 is 80, so 8 × 5 is half of that, 40."',
         watch: 'Listen for how a child gets a fact: from memory, from a neighbor fact, or by counting from the start. Practice a few facts each day; a page finished by skip counting has not built memory.',
       },
     },
@@ -101,7 +101,7 @@ module.exports = {
       objective: 'Children share a pile equally into a given number of bins and write how many each bin gets.',
       note: {
         mistake: 'Children write the number of bins or the size of the pile as the answer. Without counters they guess how many go in each bin and do not check that the bins use up the pile.',
-        words: 'Say: "12 shared among 3. One for each, again, again, until none are left. Each gets 4." Write it: "12 ÷ 3 = 4." Check with multiplication: "3 bins of 4 make 12." Read the sign as "divided by."',
+        words: 'Say: "12 shared among 3 is a division: 12 ÷ 3." Then deal: "One for each, again, again, until none are left. Each gets 4." Check with multiplication: "3 bins of 4 make 12." Read the sign as "divided by."',
         watch: 'Ask every child to check one answer by multiplying. A child who sees that 3 × 4 = 12 answers 12 ÷ 3 has found the shortcut that makes division easy.',
       },
     },
@@ -109,7 +109,7 @@ module.exports = {
       title: 'Divide by hopping back',
       objective: 'Children find how many equal hops it takes to get from a number back to zero on a number line.',
       note: {
-        mistake: 'Children write the size of the hop as the answer, or count the marks they land on and not the hops, which gives one too many. They do not see that this is division too.',
+        mistake: 'Children write the size of the hop as the answer, or they count every mark they touch, the starting number included, which gives one too many. They do not see that this is division too.',
         words: 'Say: "Start at 15. Hop back 3 each time: 12, 9, 6, 3, 0. How many hops? Five." Write it: "15 ÷ 3 = 5. There are five 3s in 15." Ask: "How many 3s fit into 15?"',
         watch: 'Have children count hops with a finger on each arc, not on the marks. Put the two meanings side by side once: 15 shared among 3, and how many 3s are in 15.',
       },
@@ -119,8 +119,8 @@ module.exports = {
       objective: 'Children find the missing factor of an array and write the two multiplications and the two divisions that belong to it.',
       note: {
         mistake: 'Children treat a division as a new problem and do not use the multiplication they just wrote. In a fact family they write a division that starts with a small number, such as 4 ÷ 24 = 6.',
-        words: 'Say: "Division asks for the missing factor. 24 ÷ 4 asks: 4 times what is 24?" Point to the array: "The total always comes first in a division." Have children read all four facts of one array aloud.',
-        watch: 'Ask a division and see whether the child thinks of the multiplication. Check the order of the numbers in each division; the biggest number, the total, stands first.',
+        words: 'Say: "Division asks for the missing factor. 24 ÷ 4 asks: 4 times what is 24?" Point to the array: "In a fact family the total is the number we divide: 24 ÷ 4, not 4 ÷ 24." Have children read all four facts of one array aloud.',
+        watch: 'Ask a division and see whether the child thinks of the multiplication. Check the order of the numbers in each division: the total, the whole array, comes first. Say "the total," never "the biggest number"; later on children will divide a smaller number by a bigger one.',
       },
     },
     '3:muldiv-word-problems': {
@@ -129,7 +129,7 @@ module.exports = {
       note: {
         mistake: 'Children pick out the two numbers and multiply every time, or choose the operation from one word such as "each." They do not ask what the answer will be: a total, a share, or a number of groups.',
         words: 'Ask three questions about every story: "Do we know how many groups? Do we know how many in each group? Do we know the total?" Then: "Which of the three is missing?" Have children finish with a sentence: "Each child gets 4 stickers."',
-        watch: 'Read a child\'s answer sentence, not only the number. A bare "4" does not show whether the child knows it is 4 stickers each or 4 bags.',
+        watch: 'Read a child\'s answer sentence, not only the number. A bare "4" does not show whether the child knows it is 4 stickers each or 4 bags. Each page holds one kind of story, so the page decides for the child: read one story from each page aloud, in mixed order and without the picture, and ask which of the three is missing.',
       },
     },
     '3:balance-equations': {
@@ -138,16 +138,16 @@ module.exports = {
       note: {
         mistake: 'Children read the equal sign as "the answer comes next." In 8 + 4 = __ + 5 they write 12 in the blank, or 17 by adding everything.',
         words: 'Say: "The equal sign means the SAME on both sides, like a balance." Work out one side first: "8 + 4 is 12. So the other side must be 12 too. What plus 5 makes 12?" Read the sign as "is the same as."',
-        watch: 'Look for 12 in the blank of a problem like 8 + 4 = __ + 5. That child should work with a real or a drawn balance and smaller numbers before doing more of these.',
+        watch: 'Give three quick true-or-false cards: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. A child who calls them wrong "because the answer is on the wrong side" still reads the sign as "the answer comes next"; that child should work with a real or a drawn balance and smaller numbers.',
       },
     },
     '3:division-remainder': {
       title: 'Division with a remainder',
-      objective: 'Children make equal groups from a pile, write how many groups there are, and write how many are left over.',
+      objective: 'Children make equal groups from a pile or deal it into boxes, write how many groups there are or how many each box gets, and write how many are left over.',
       note: {
-        mistake: 'Children leave a remainder that is as big as a group or bigger, when one more group could be made. Or they drop the left-over ones and write only the number of groups.',
-        words: 'Say: "14 in groups of 4: three groups, and 2 left over." Ask: "Can you make another group from what is left? No? Then that is the remainder." State the rule together: "The remainder is always smaller than the size of a group."',
-        watch: 'Check each remainder against the size of the group. A remainder of 5 when the groups are 4 means one group is still hiding in the left-overs.',
+        mistake: 'Children leave too many over: as many as a group or more on the grouping page, as many as the number of boxes or more on the sharing page, when one more group or one more round could be made. Or they drop the leftovers and write only the number of groups.',
+        words: 'Say: "14 in groups of 4: three groups, and 2 left over." Ask: "Can you make another group from what is left? No? Then that is the remainder." On the sharing page: "14 into 4 boxes. Is there enough left to give every box one more?" State the rule together: "The remainder is always smaller than the number you divide by."',
+        watch: 'Check each remainder against the number the pile was divided by: the size of a group on the grouping page, the number of boxes on the sharing page. A remainder of 5 with groups of 4 means one group is still hiding in the leftovers. Remainders are a fourth-grade standard: keep the words "left over" and treat this lesson as a first look.',
       },
     },
     '3:time-to-minute': {
@@ -164,7 +164,7 @@ module.exports = {
       objective: 'Children start at a clock time, add or subtract minutes or hours, and write the new time.',
       note: {
         mistake: 'Children add the minutes as plain numbers and write a time that does not exist, such as 3:75. Going back across the hour, they change the minutes and forget to change the hour.',
-        words: 'Say: "An hour has 60 minutes, not 100." Jump to the full hour first: "3:45 plus 30 minutes. 15 minutes takes us to 4:00. 15 more: 4:15." Draw the jumps on an empty number line with the times written on it.',
+        words: 'Say: "An hour has 60 minutes, not 100." Jump to the full hour first: "3:45 plus 30 minutes. 15 minutes takes us to 4:00. 15 more: 4:15." Draw the jumps on an open number line with the times written on it.',
         watch: 'Look for minutes of 60 or more in an answer. Have children show the jump to the next full hour on a clock or on a line before they write.',
       },
     },
@@ -182,8 +182,8 @@ module.exports = {
       objective: 'Children match a time on the 12-hour clock to the same time on the 24-hour clock.',
       note: {
         mistake: 'Children add 12 to morning times as well, or they drop the first digit, so that 15:00 becomes 5:00. Noon and midnight are confused.',
-        words: 'Say: "After 12 noon the 24-hour clock keeps counting: 13, 14, 15." Give the rule both ways: "Afternoon: add 12. From 24-hour time: if the hour is more than 12, subtract 12." Ask: "Is 08:00 morning or evening? How do you know?"',
-        watch: 'Check 12:00 and the times just after noon, such as 12:30, which do not change. Most clocks around the children show a.m. and p.m.; point out a timetable or a ticket that uses 24-hour time.',
+        words: 'Say: "After 12 noon the 24-hour clock keeps counting: 13, 14, 15." Give the rule both ways: "From 1:00 p.m. to 11:59 p.m., add 12 to the hour. From 24-hour time: if the hour is more than 12, subtract 12 and say p.m." Ask: "Is 08:00 morning or evening? How do you know?"',
+        watch: 'Check noon and the hour after it, such as 12:30 p.m., which stays 12:30, and midnight, which is 00:00. Most clocks around the children show a.m. and p.m.; point out a bus schedule or a plane ticket that uses 24-hour time. This lesson goes beyond the Common Core; many Americans know 24-hour time as "military time."',
       },
     },
     '3:thermometer': {
@@ -191,8 +191,8 @@ module.exports = {
       objective: 'Children read the temperature on a thermometer whose scale counts by 2, by 5, or by 10.',
       note: {
         mistake: 'Children count every mark as one degree, whatever the scale. They read the nearest printed number and ignore the marks between, or look at the top of the tube and not at the top of the colored line.',
-        words: 'Ask first: "What do the printed numbers count by? How many marks are between two of them? So what is each mark worth?" Then: "Find the top of the line. Which printed number is just below it? Count up from there." Say the unit: "70 degrees."',
-        watch: 'Have the child tell you what one mark is worth before reading. Compare two thermometers with different scales that show the same temperature.',
+        words: 'Ask first: "This scale does not count by ones. What do the printed numbers count by? So what is each small mark worth?" Then: "Find the top of the line. Which printed number is just below it? Count up from there." Say the temperature with its unit, as the page prints it: "70 degrees."',
+        watch: 'Compare two thermometers with different scales that show the same temperature, and ask which one was harder to read and why.',
       },
     },
     '3:area-model': {
@@ -200,7 +200,7 @@ module.exports = {
       objective: 'Children find the area of a rectangle by counting its squares in rows and finish the multiplication for it.',
       note: {
         mistake: 'Children count the squares one by one and miscount in a big rectangle. Others count the squares along two sides and add them, which gives a number that has nothing to do with the area.',
-        words: 'Say: "Area is how many squares cover the shape." Ask: "How many squares in one row? How many rows? 4 rows of 6 is 24 squares." Say the unit: "24 square units."',
+        words: 'Say: "Area is how many squares cover the shape with no gaps and no overlaps." Ask: "How many squares in one row? How many rows? 4 rows of 6 is 24 squares." Say the unit: "24 square units."',
         watch: 'Ask how the child counted. Rows times columns is the goal; counting one by one is the starting point. Listen for the word "square" in the unit.',
       },
     },
@@ -233,11 +233,11 @@ module.exports = {
     },
     '3:partition-equal-areas': {
       title: 'Equal pieces',
-      objective: 'Children decide whether a shape is cut into equal parts and name one of the equal parts as a unit fraction.',
+      objective: 'Children decide whether a shape is cut into equal parts; with the teacher, they name one of the equal parts as a unit fraction.',
       note: {
-        mistake: 'Children count the parts and do not compare them: four parts are "fourths" even when the parts differ in size. Parts that are equal in size and different in shape are turned down.',
+        mistake: 'This page reviews second grade. Children count the parts and do not compare them: four parts are "fourths" even when the parts differ in size. Parts that are equal in size and different in shape are turned down.',
         words: 'Ask: "Does every part cover the same amount?" Say: "Only equal parts get a fraction name. Four EQUAL parts: each one is one fourth." Show a square cut into four triangles and one cut into four small squares: "Different shapes, same amount."',
-        watch: 'Look at the circles with one thin slice and the rectangles with unequal strips. A child who circles them is counting parts. Cut paper and lay the parts on top of each other.',
+        watch: 'Look at the circles with one thin slice and the rectangles with unequal strips. A child who circles them is counting parts. Cut paper and lay the parts on top of each other; when two parts have different shapes, cut one of them and rearrange its pieces to cover the other.',
       },
     },
     '3:fraction-unit-build': {
@@ -259,20 +259,20 @@ module.exports = {
       },
     },
     '3:compare-fractions': {
-      title: 'Which fraction is bigger?',
-      objective: 'Children compare two fractions of the same whole with fraction bars and circle the bigger one.',
+      title: 'Which fraction is greater?',
+      objective: 'Children compare two fractions of the same whole with fraction bars and circle the greater one.',
       note: {
         mistake: 'Children think a bigger bottom number means a bigger fraction: one eighth is taken to be more than one fourth, because 8 is more than 4.',
-        words: 'Ask: "Would you get more pizza if it is shared among 4 people or among 8?" Say: "More parts means smaller parts." With the same bottom number: "Three fifths and two fifths: the pieces are the same size, so more pieces is more."',
+        words: 'Ask: "Would you get more pizza if it is shared among 4 people or among 8?" Say: "More parts means smaller parts." With the same bottom number: "Three fifths and two fifths: the pieces are the same size, so more pieces is more." Always add: "We can only compare fractions of wholes that are the same size."',
         watch: 'Use 1/4 and 1/8 as the test. A child who picks 1/8 is comparing whole numbers; go back to two equal bars, one cut into fourths and one into eighths.',
       },
     },
     '3:equivalent-fractions': {
-      title: 'Fractions that are the same amount',
+      title: 'Equivalent fractions: different names, same amount',
       objective: 'Children match a picture to a fraction that shows the same amount, such as one half and two fourths.',
       note: {
         mistake: 'Children look for a fraction with the same numbers as the picture and find none. Two fractions with different numbers cannot be equal, they think, so 1/2 and 2/4 are different amounts.',
-        words: 'Fold a paper strip in half, then in half again: "One half is the same as two fourths. Nothing was added." Say: "Different name, same amount." Ask: "How many sixths cover the same space as one half?"',
+        words: 'Fold a paper strip in half, then in half again: "One half is the same amount as two fourths. Nothing was added." Say: "Different name, same amount. We call them equivalent fractions." Ask: "How many sixths cover the same space as one half?"',
         watch: 'Have children lay two fraction strips one above the other and compare where the shading ends. A child who needs the numbers to match should fold paper before working on the page.',
       },
     },
@@ -287,7 +287,7 @@ module.exports = {
     },
     '3:classify-quadrilaterals': {
       title: 'Is it a rectangle?',
-      objective: 'Children sort four-sided shapes by their sides and corners, knowing that a square is also a rectangle.',
+      objective: 'Children decide whether a four-sided shape is a rectangle by checking its sides and its angles, knowing that a square is also a rectangle.',
       note: {
         mistake: 'Children say a square is not a rectangle because "a rectangle has two long sides and two short sides." A tilted rectangle is not accepted, and a leaning parallelogram is taken for one.',
         words: 'Ask: "What makes a rectangle? Four sides and four right angles." Then: "Does a square have four sides and four right angles? Then it is a rectangle, a special one." Test corners with the corner of a card.',
@@ -298,18 +298,18 @@ module.exports = {
       title: 'How many mirror lines?',
       objective: 'Children find all the lines of symmetry of a shape and write how many there are.',
       note: {
-        mistake: 'Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a rectangle, which are not mirror lines.',
-        words: 'Say: "Try every fold: up and down, across, corner to corner." Use cut-out shapes: "Fold it. Do the halves match exactly?" Ask: "A square has 4 mirror lines. Why does a rectangle have only 2?"',
-        watch: 'Hand out paper shapes to fold. Check the rectangle: a child who writes 4 for it has not folded it along a diagonal.',
+        mistake: 'Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a long rectangle, which are not mirror lines.',
+        words: 'Say: "Try every fold: up and down, across, corner to corner." Use cut-out shapes: "Fold it. Do the halves match exactly?" Ask: "A square has 4 mirror lines. Why does a rectangle that is not a square have only 2?"',
+        watch: 'Hand out paper shapes to fold. Check the long rectangle: a child who writes 4 for it has not folded it along a diagonal.',
       },
     },
     '3:scaled-graphs': {
       title: 'Graphs with a scale',
       objective: 'Children read bar graphs whose scale counts by 5 and pictographs in which each picture stands for 5.',
       note: {
-        mistake: 'Children count the grid lines or the pictures as ones and ignore the scale. A bar that ends between two lines is read as the lower line.',
-        words: 'Ask first: "What does the scale count by? What does one picture stand for?" Count along: "5, 10, 15, 20." For a bar between two lines: "It is halfway between 10 and 20. What is halfway?"',
-        watch: 'Have the child read the key or the scale aloud before the first answer. Ask one compare question ("how many more") to see whether the scaled numbers are used.',
+        mistake: 'Children count the grid lines or the pictures as ones and ignore the scale. A bar that ends at a line with no number is read as the printed number below it.',
+        words: 'Ask first: "What does the scale count by? What does one picture stand for?" Count along: "5, 10, 15, 20." For a bar that stops at a line with no number: "The printed numbers on each side are 10 and 20. What is this line worth?"',
+        watch: 'Have the child read the key or the scale aloud before the first answer. Ask one compare question ("how many more") to see whether the child uses the scaled numbers or counts pictures.',
       },
     },
     '3:line-plot-halves': {
@@ -319,6 +319,42 @@ module.exports = {
         mistake: 'Children skip the half marks and read only the whole numbers, moving an X at 2½ to 2 or to 3. They also mix up the measurement under a stack with the number of Xs in it.',
         words: 'Read the line aloud together: "1, one and a half, 2, two and a half." Ask: "How many things were two and a half units long? Count the Xs above that mark." Then: "How many were longer than 2?"',
         watch: 'Ask a question whose answer sits on a half mark. A child who answers for the nearest whole number is not yet reading the halves on the line.',
+      },
+    },
+    '3:input-output': {
+      title: 'Number machines',
+      objective: 'Children find the rule a number machine uses, such as add 5 or times 3, and fill in the numbers that are missing going in or coming out.',
+      note: {
+        mistake: 'Children find the rule from the first pair and do not test it on the next one, so "+ 4" is written where the rule is "× 2" (2 goes in, 4 comes out fits both). When the number that went IN is missing, they apply the rule forward again and do not undo it.',
+        words: 'Ask: "What happened to 2 to make 4? Does the same thing turn 5 into 10?" Have children write the rule on the machine. For a missing input: "12 came out. The machine adds 5. What went in? Undo it: 12 take away 5."',
+        watch: 'Give a pair that fits two rules (2 → 4) and see who asks for a second pair before deciding. Check the rows where the missing number is the one going in; those need the opposite operation.',
+      },
+    },
+    '3:volume-cubes': {
+      title: 'Count the cubes',
+      objective: 'Children count all the unit cubes in a tower, also the ones they cannot see, and write the total.',
+      note: {
+        mistake: 'Children count only the cubes they can see in the drawing and leave out the hidden ones at the back and underneath. Or they count the square faces they see and get a number that is far too big.',
+        words: 'Build the tower with real cubes first: "How many can you see from here? Now pick it up and count them all." Say: "Count layer by layer. How many cubes in the bottom layer? How many layers?" Ask: "A cube on top must be sitting on something. What is under it?"',
+        watch: 'Have each child build one tower from the page with cubes and compare the count with the written answer. A child who counts by layers ("6 and 6 and 6") is ready for volume as layers times the cubes in a layer.',
+      },
+    },
+    '3:fraction-number-line': {
+      title: 'Fractions on a number line',
+      objective: 'Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.',
+      note: {
+        mistake: 'Children count the tick marks, the ones at 0 and at 1 included, and take that for the bottom number: a line cut into 4 equal spaces has 5 marks and becomes "fifths." Or they count the marks up to the dot, starting with 1 at zero.',
+        words: 'Say: "Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth." Then hop from zero: "One fourth, two fourths, three fourths. The dot is at three fourths." Ask: "Where is zero fourths? Where is four fourths?"',
+        watch: 'Ask a child how they found the bottom number. "I counted the lines" means the marks were counted; fold a paper strip into fourths and lay it under the line to show the four spaces.',
+      },
+    },
+    '3:fraction-of-set': {
+      title: 'A fraction of a group',
+      objective: 'Children circle a fraction of a group of pictures, such as one third of 12, and write how many that is.',
+      note: {
+        mistake: 'Children circle as many pictures as the bottom number says: 3 pictures for one third. With a top number above 1 (two thirds), they find one group and stop.',
+        words: 'Say: "The bottom number tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups." Link it to division: "12 in 3 equal groups: 4 in each. One third of 12 is 4." For two thirds: "Two of the groups: 4 and 4."',
+        watch: 'Check that the groups a child rings are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division.',
       },
     },
   },

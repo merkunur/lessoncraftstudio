@@ -56,12 +56,30 @@
      "rel": "teaches"
     },
     {
+     "id": "K.CC.B.4.b",
+     "rel": "teaches"
+    },
+    {
      "id": "K.CC.A.3",
      "rel": "teaches"
     }
    ],
-   "why": "Writing the numeral for a counted set is also K.CC.A.3 (represent a number of objects with a written numeral), which was missing.",
-   "review": "review-math"
+   "why": "Found by the reviewer of the English math units (an American K-1 teacher and math coach): saying the last number as how many there are is K.CC.B.4.b, which the rows left out. The two rows from the point's own codes stay.",
+   "review": "own-audit-units-2",
+   "was": {
+    "rows": [
+     {
+      "id": "K.CC.B.5",
+      "rel": "teaches"
+     },
+     {
+      "id": "K.CC.A.3",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Writing the numeral for a counted set is also K.CC.A.3 (represent a number of objects with a written numeral), which was missing.",
+    "review": "review-math"
+   }
   },
   "K:colour-by-number": {
    "rows": [
@@ -72,6 +90,20 @@
    ],
    "why": "Colour-by-number is numeral recognition; the child writes no numerals and represents no count, so it only prepares K.CC.A.3.",
    "review": "review-math"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "K.CC.A.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.CC.A.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: the pages have the child WRITE the missing numbers to 20, which is K.CC.A.3 (write numbers from 0 to 20) beside K.CC.A.2.",
+   "review": "own-audit-units-2"
   },
   "K:dot-to-dot-sequence": {
    "rows": [
@@ -87,10 +119,38 @@
    "why": "Joining dots from 1 practises the count sequence by ones (K.CC.A.1); only the sheets that start at 11 count forward from a given number (K.CC.A.2).",
    "review": "review-math"
   },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "K.CC.A.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.CC.B.4.c",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: the number after is one more and the number before is one less, K.CC.B.4.c ('each successive number name refers to a quantity that is one larger'). K.CC.A.2 (count forward from a given number) stays.",
+   "review": "own-audit-units-2"
+  },
   "K:ordinal-position": {
    "none": "Ordinal numbers (1st to 10th) are not in the Common Core State Standards for Mathematics at any grade.",
    "why": "K.CC.B.4 is about cardinality (counting tells how many); ordinal position is a different idea and is not a readiness step toward it.",
    "review": "review-math"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "K.CC.B.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.MD.C.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: tally marks are not named in Kindergarten; they first serve the Grade 1 data work (1.MD.C.4, organize and represent data). The counting itself stays K.CC.B.5.",
+   "review": "own-audit-units-2"
   },
   "K:combine-groups": {
    "rows": [
@@ -200,6 +260,20 @@
    "why": "Mapped to nothing while K:patterns was mapped; completing a repeating pattern is readiness for 4.OA.C.5 (shape patterns that follow a rule), the same as the Kindergarten point.",
    "review": "review-math"
   },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "1.MD.C.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.MD.B.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: sorting into three categories and asking which has the most and the fewest is 1.MD.C.4 (data with up to three categories), which the rows left out; K.MD.B.3 is the Kindergarten step it reviews. L.K.5.a (sort words into categories) is a language standard and does not belong on a math point.",
+   "review": "own-audit-units-2"
+  },
   "1:ordinal-numbers": {
    "none": "Ordinal numbers and ordinal words are not in the Common Core State Standards for Mathematics at any grade.",
    "why": "The Counting and Cardinality domain has no ordinal content, and grade 1 work cannot be readiness for a Kindergarten domain.",
@@ -228,6 +302,20 @@
    ],
    "why": "Deciding odd or even by pairing objects and checking for a leftover is exactly what 2.OA.C.3 asks; it was marked readiness only because of the grade, while the same skill in K is marked teaches.",
    "review": "review-math"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "1.OA.B.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.OA.A.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: the page adds three groups of pictures and has no word problem, so it is not 1.OA.A.2 (word problems with three addends); adding an easy pair first is the associative property, 1.OA.B.3. It prepares 1.OA.A.2.",
+   "review": "own-audit-units-2"
   },
   "1:fact-families": {
    "rows": [
@@ -398,20 +486,34 @@
   "2:solids-in-real-life": {
    "rows": [
     {
-     "id": "K.G.A.1",
-     "rel": "teaches"
-    },
-    {
      "id": "K.G.A.2",
      "rel": "teaches"
     },
     {
-     "id": "2.G.A.1",
+     "id": "K.G.A.1",
      "rel": "teaches"
     }
    ],
-   "why": "Matching a real object to the solid it is shaped like is K.G.A.1 (describe objects in the environment using names of shapes), the most exact standard, which was missing.",
-   "review": "review-math"
+   "why": "Found by the reviewer of the English math units: matching named solids to objects is Kindergarten work (K.G.A.1, K.G.A.2). 2.G.A.1 names only the cube among solids and asks for drawing shapes from attributes, which the page does not do.",
+   "review": "own-audit-units-2",
+   "was": {
+    "rows": [
+     {
+      "id": "K.G.A.1",
+      "rel": "teaches"
+     },
+     {
+      "id": "K.G.A.2",
+      "rel": "teaches"
+     },
+     {
+      "id": "2.G.A.1",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Matching a real object to the solid it is shaped like is K.G.A.1 (describe objects in the environment using names of shapes), the most exact standard, which was missing.",
+    "review": "review-math"
+   }
   },
   "2:read-jugs": {
    "rows": [
@@ -469,6 +571,16 @@
    "why": "Matching an array to a multiplication is 3.OA.A.1, which was missing; 2.OA.C.4 only asks for a sum of equal addends.",
    "review": "review-math"
   },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "3.OA.A.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Found by the reviewer of the English math units: sharing a pile into equal groups is 3.OA.A.2. It does not prepare 2.OA.C.4 (arrays as repeated addition), which the same Grade 2 unit teaches before it.",
+   "review": "own-audit-units-2"
+  },
   "2:symmetry-line": {
    "rows": [
     {
@@ -489,33 +601,62 @@
    "why": "Drawing the missing half of a figure is not a readiness step: it goes beyond 4.G.A.3, which only asks to recognise and draw lines of symmetry.",
    "review": "review-math"
   },
+  "2:tangram-orientation": {
+   "none": "The page compares the orientation of finished tangram figures with a shadow; nothing is composed, so 1.G.A.2 (compose shapes) does not describe it, and Common Core names no standard for orientation in these grades.",
+   "why": "Found by the reviewer of the English math units.",
+   "review": "own-audit-units-2"
+  },
   "3:estimate-by-rounding": {
    "rows": [
     {
-     "id": "3.OA.D.8",
+     "id": "3.NBT.A.1",
      "rel": "teaches"
     },
     {
-     "id": "3.NBT.A.1",
-     "rel": "teaches"
+     "id": "3.OA.D.8",
+     "rel": "prepares"
     }
    ],
-   "why": "Rounding the addends to the nearest 10 or 100 is 3.NBT.A.1, which was missing.",
-   "review": "review-math"
+   "why": "Found by the reviewer of the English math units: the page rounds two numbers and adds them (3.NBT.A.1). 3.OA.D.8 is two-step word problems whose answers are checked by estimation; the page has no word problem, so it only prepares that standard.",
+   "review": "own-audit-units-2",
+   "was": {
+    "rows": [
+     {
+      "id": "3.OA.D.8",
+      "rel": "teaches"
+     },
+     {
+      "id": "3.NBT.A.1",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Rounding the addends to the nearest 10 or 100 is 3.NBT.A.1, which was missing.",
+    "review": "review-math"
+   }
   },
   "3:thermometer": {
    "rows": [
     {
      "id": "3-ESS2-1",
      "rel": "prepares"
-    },
-    {
-     "id": "3.MD.B.3",
-     "rel": "prepares"
     }
    ],
-   "why": "Reading a temperature off a scale is not yet representing weather data in tables and graphs (3-ESS2-1); in mathematics the nearest standard is reading a scaled graph, 3.MD.B.3. Both are prepared, neither is taught (the mathematics reviewer's note, applied by the builder's own audit).",
-   "review": "review-own-audit"
+   "why": "Found by the reviewer of the English math units: reading a thermometer does not lead to 3.MD.B.3 (scaled picture and bar graphs). It prepares the weather data of NGSS 3-ESS2-1 only.",
+   "review": "own-audit-units-2",
+   "was": {
+    "rows": [
+     {
+      "id": "3-ESS2-1",
+      "rel": "prepares"
+     },
+     {
+      "id": "3.MD.B.3",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Reading a temperature off a scale is not yet representing weather data in tables and graphs (3-ESS2-1); in mathematics the nearest standard is reading a scaled graph, 3.MD.B.3. Both are prepared, neither is taught (the mathematics reviewer's note, applied by the builder's own audit).",
+    "review": "review-own-audit"
+   }
   },
   "3:mult-div-relationship": {
    "rows": [

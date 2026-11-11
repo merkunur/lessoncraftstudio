@@ -11,7 +11,7 @@
  *   P1  shape      ids and slugs unique and url-safe per language; status pilot | live; title, metadata present;
  *                  meta description 110–170 characters, meta title at most 70
  *   P2  points     every lesson and block names a teaching point of the content graph
- *   P3  no filler  a unit has at least 4 lessons; a lesson at least two real assets (pages, a tool, an activity);
+ *   P3  no filler  a unit has at least 4 lessons; a lesson at least two real assets (worksheet types, a tool, practice on screen that is not the handed-out page);
  *                  a teacher note says a mistake, gives WORDS (something in quotation marks) and what to watch for;
  *                  no two teaching points share a note (word 3-grams, Jaccard 0.5 or more)
  *   P4  scripts    a sub pack has at least 5 blocks with reading, writing and math; every block's script has what to
@@ -70,7 +70,8 @@ function run(d) {
       for (const x of u.lessons) {
         const lw = w + ' lesson ' + x.n;
         if (!d.points.has(x.point)) fail('P2', lw + ': ' + x.point + ' is no teaching point');
-        const real = x.paper.length + (x.tool ? 1 : 0) + (x.screen && x.screen.kind === 'activity' ? 1 : 0);
+        // practice on screen counts when it is an activity, or a page other than the pages handed out on paper
+        const real = x.paper.length + (x.tool ? 1 : 0) + (x.screen && (x.screen.kind === 'activity' || !x.paper.some((r) => r.core === x.screen.slug)) ? 1 : 0);
         if (real < 2) fail('P3', lw + ': fewer than two real assets');
         const n = x.note || {};
         if (!n.mistake || n.mistake.length < 60) fail('P3', lw + ': the note names no mistake');
@@ -116,6 +117,7 @@ const POISONS = [
   ['a block on a teaching point that does not exist', 'P2', (d) => { d.loc.en.packs[0].blocks[0].point = '9:nothing'; }],
   ['a unit of three lessons', 'P3', (d) => { d.loc.en.units[0].lessons.length = 3; }],
   ['a lesson with one worksheet and nothing else', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; delete x.screen; }],
+  ['a lesson whose only screen practice is the very page it hands out', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; x.screen = { kind: 'page', slug: x.paper[0].core, title: x.paper[0].title }; }],
   ['a note whose words to use quote nothing', 'P3', (d) => { d.loc.en.units[0].lessons[1].note.words = 'Use clear language and encourage the children to explain their thinking.'; }],
   ['two points with the same note', 'P3', (d) => { const a = d.loc.en.units[0].lessons; a[2].note = clone(a[3].note); }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],

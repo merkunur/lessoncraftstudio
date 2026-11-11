@@ -144,7 +144,7 @@
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
    "metaTitle": "Position Words, Size, and Patterns: Kindergarten Unit Plan",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, comparing sizes, and repeating patterns, each with a teacher note and practice pages.",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -158,8 +158,9 @@
      "point": "K:scene-search",
      "types": [
       "K-059",
-      "K-371"
-     ]
+      "K-070"
+     ],
+     "standards": []
     },
     {
      "point": "K:compare-size-extremes",
@@ -192,20 +193,21 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Counting to 10: Kindergarten Unit Plan",
-   "metaDescription": "A two-week Kindergarten math unit: 6 lessons on counting to 10, comparing groups, and writing numbers, each with a teacher note and practice pages.",
+   "metaDescription": "A two-week Kindergarten math unit: 7 lessons on matching one to one, writing numbers, counting to 10, quick looks, and comparing groups, each with a teacher note.",
    "weeks": 2,
    "lessons": [
     {
      "point": "K:one-to-one",
      "types": [
       "K-012"
-     ]
+     ],
+     "activity": "twinsies.count-twin.k-cc-b-5"
     },
     {
-     "point": "K:compare-groups",
+     "point": "K:numeral-formation",
      "types": [
-      "K-008",
-      "K-009"
+      "K-237",
+      "K-251"
      ]
     },
     {
@@ -216,13 +218,6 @@
      ]
     },
     {
-     "point": "K:subitize",
-     "types": [
-      "K-018",
-      "K-017"
-     ]
-    },
-    {
      "point": "K:count-out-n",
      "types": [
       "K-011",
@@ -230,10 +225,28 @@
      ]
     },
     {
-     "point": "K:numeral-formation",
+     "point": "K:colour-by-number",
      "types": [
-      "K-237",
-      "K-251"
+      "K-393",
+      "K-266"
+     ],
+     "titles": {
+      "K-393": "Color by Number: Picture Scenes",
+      "K-266": "Color by Number: Shapes with a Code"
+     }
+    },
+    {
+     "point": "K:subitize",
+     "types": [
+      "K-018",
+      "K-017"
+     ]
+    },
+    {
+     "point": "K:compare-groups",
+     "types": [
+      "K-008",
+      "K-009"
      ]
     }
    ]
@@ -266,8 +279,8 @@
     {
      "point": "K:compose-shapes",
      "types": [
-      "K-353",
-      "K-358"
+      "K-358",
+      "K-353"
      ]
     },
     {
@@ -286,7 +299,7 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Counting in Order to 20: Kindergarten Unit Plan",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting in order to 20, forward and back, each with a teacher note, practice pages, and practice on screen.",
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting forward to 20, connecting dots in order, counting back from 10, and first, second, third.",
    "weeks": 1,
    "lessons": [
     {
@@ -301,6 +314,9 @@
      "types": [
       "K-294",
       "K-295"
+     ],
+     "standards": [
+      "K.CC.A.2"
      ]
     },
     {
@@ -316,13 +332,6 @@
       "K-030",
       "K-320"
      ]
-    },
-    {
-     "point": "K:colour-by-number",
-     "types": [
-      "K-393",
-      "K-266"
-     ]
     }
    ]
   },
@@ -334,7 +343,7 @@
    "subject": "math",
    "title": "Sorting, Tallies, and the Days of the Week",
    "metaTitle": "Sorting, Tallies, and the Days of the Week: Kindergarten Unit Plan",
-   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting each kind, tally marks, estimating, and the days of the week, each with a teacher note.",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting each kind, tally marks, estimating, heavier and lighter, and the days of the week, with teacher notes.",
    "weeks": 1,
    "lessons": [
     {
@@ -358,6 +367,12 @@
      ]
     },
     {
+     "point": "K:heavy-light",
+     "types": [
+      "K-038"
+     ]
+    },
+    {
      "point": "K:days-of-week",
      "types": [
       "K-321",
@@ -367,20 +382,23 @@
    ]
   },
   {
-   "id": "k-putting-together-taking-apart",
-   "slug": "putting-together-and-taking-apart-kindergarten-unit",
+   "id": "k-putting-together-number-bonds",
+   "slug": "putting-together-and-number-bonds-kindergarten-unit",
    "status": "pilot",
    "grade": "K",
    "subject": "math",
-   "title": "Putting Together and Taking Apart",
-   "metaTitle": "Putting Together and Taking Apart: Kindergarten Unit Plan",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, and first addition and subtraction facts.",
+   "title": "Putting Together and Number Bonds",
+   "metaTitle": "Putting Together and Number Bonds: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, first addition and subtraction facts, partners of 20, and odd and even.",
    "weeks": 1,
    "lessons": [
     {
      "point": "K:combine-groups",
      "types": [
       "K-028"
+     ],
+     "standards": [
+      "K.OA.A.1"
      ]
     },
     {
@@ -391,16 +409,14 @@
      ]
     },
     {
-     "point": "K:odd-even-pairing",
-     "types": [
-      "K-016"
-     ]
-    },
-    {
      "point": "K:fact-fluency-colour-code",
      "types": [
       "K-268",
       "K-267"
+     ],
+     "standards": [
+      "K.OA.A.5",
+      "1.OA.C.6"
      ]
     },
     {
@@ -408,18 +424,24 @@
      "types": [
       "K-275"
      ]
+    },
+    {
+     "point": "K:odd-even-pairing",
+     "types": [
+      "K-016"
+     ]
     }
    ]
   },
   {
-   "id": "g1-addition-strategies-within-20",
-   "slug": "addition-strategies-within-20-grade-1-unit",
+   "id": "g1-doubles-three-addends-number-walls",
+   "slug": "doubles-three-addends-and-number-walls-grade-1-unit",
    "status": "pilot",
    "grade": "1",
    "subject": "math",
-   "title": "Addition Strategies Within 20",
-   "metaTitle": "Addition Strategies Within 20: Grade 1 Unit Plan",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three numbers, and number walls, each with a teacher note.",
+   "title": "Doubles, Three Addends, and Number Walls",
+   "metaTitle": "Doubles, Three Addends, and Number Walls: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and number walls, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -459,7 +481,7 @@
    "subject": "math",
    "title": "Tens and Ones",
    "metaTitle": "Tens and Ones: Grade 1 Unit Plan",
-   "metaDescription": "A one-week Grade 1 math unit: 5 lessons on tens and ones, number words, comparing two-digit numbers, and ordinal numbers, each with a teacher note.",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on tens and ones, number words, comparing two-digit numbers, and the number of the day, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -489,13 +511,6 @@
       "G1-243",
       "G1-255"
      ]
-    },
-    {
-     "point": "1:ordinal-numbers",
-     "types": [
-      "G1-315",
-      "G1-316"
-     ]
     }
    ]
   },
@@ -513,8 +528,8 @@
     {
      "point": "1:number-line-placement",
      "types": [
-      "G1-274",
-      "G1-275"
+      "G1-275",
+      "G1-276"
      ]
     },
     {
@@ -549,7 +564,7 @@
    "subject": "math",
    "title": "Time, Calendar, and Coins",
    "metaTitle": "Time, Calendar, and Coins: Grade 1 Unit Plan",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on telling time to the hour and half hour, the calendar, and counting coins, each with a teacher note.",
+   "metaDescription": "A one-week Grade 1 math unit: 5 lessons on time to the hour and half hour, the calendar, ordinal numbers, and counting coins, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -564,6 +579,9 @@
      "types": [
       "G1-233",
       "G1-234"
+     ],
+     "standards": [
+      "1.MD.B.3"
      ]
     },
     {
@@ -571,6 +589,13 @@
      "types": [
       "G1-319",
       "G1-320"
+     ]
+    },
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
      ]
     },
     {
@@ -590,7 +615,7 @@
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
    "metaTitle": "Shapes, Measuring, and Graphs: Grade 1 Unit Plan",
-   "metaDescription": "A two-week Grade 1 math unit: 7 lessons on shapes, measuring length, sorting, picture graphs, and bar graphs, each with a teacher note and practice pages.",
+   "metaDescription": "A two-week Grade 1 math unit: 7 lessons on shapes, tangram puzzles, measuring length, sorting, picture graphs, bar graphs, and patterns, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -650,13 +675,34 @@
    "subject": "math",
    "title": "Place Value to 1,000",
    "metaTitle": "Place Value to 1,000: Grade 2 Unit Plan",
-   "metaDescription": "A two-week Grade 2 math unit: 8 lessons on hundreds, tens, and ones, comparing three-digit numbers, skip counting, and rounding, each with a teacher note.",
+   "metaDescription": "A two-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, tens, and ones, comparing, and 100 more and 100 less.",
    "weeks": 2,
    "lessons": [
     {
      "point": "2:bundle-ten-ones",
      "types": [
       "G2-206"
+     ]
+    },
+    {
+     "point": "2:skip-count-5-10-100",
+     "types": [
+      "G2-304",
+      "G2-314"
+     ]
+    },
+    {
+     "point": "2:number-line-not-from-zero",
+     "types": [
+      "G2-305",
+      "G2-310"
+     ]
+    },
+    {
+     "point": "2:hundreds-chart-moves",
+     "types": [
+      "G2-321",
+      "G2-322"
      ]
     },
     {
@@ -685,48 +731,20 @@
      "types": [
       "G2-226"
      ]
-    },
-    {
-     "point": "2:skip-count-5-10-100",
-     "types": [
-      "G2-304",
-      "G2-314"
-     ]
-    },
-    {
-     "point": "2:hundreds-chart-moves",
-     "types": [
-      "G2-321",
-      "G2-322"
-     ]
-    },
-    {
-     "point": "2:round-to-ten",
-     "types": [
-      "G2-221",
-      "G2-346"
-     ]
     }
    ]
   },
   {
    "id": "g2-add-subtract-within-1000",
-   "slug": "adding-and-subtracting-within-1000-grade-2-unit",
+   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
    "status": "pilot",
    "grade": "2",
    "subject": "math",
-   "title": "Adding and Subtracting Within 1,000",
-   "metaTitle": "Adding and Subtracting Within 1,000: Grade 2 Unit Plan",
-   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on adding and subtracting with blocks and in columns, odd and even numbers, and the number line, with teacher notes.",
-   "weeks": 2,
+   "title": "Adding and Subtracting Within 100 and 1,000",
+   "metaTitle": "Adding and Subtracting Within 100 and 1,000: Grade 2 Unit Plan",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, in columns, and in number walls and a maze, each with a teacher note.",
+   "weeks": 1,
    "lessons": [
-    {
-     "point": "2:add-sub-within-100-practice",
-     "types": [
-      "G2-313",
-      "G2-393"
-     ]
-    },
     {
      "point": "2:add-with-blocks",
      "types": [
@@ -744,20 +762,16 @@
      "types": [
       "G2-255",
       "G2-256"
+     ],
+     "standards": [
+      "2.NBT.B.5"
      ]
     },
     {
-     "point": "2:odd-even",
+     "point": "2:add-sub-within-100-practice",
      "types": [
-      "G2-351",
-      "G2-352"
-     ]
-    },
-    {
-     "point": "2:number-line-not-from-zero",
-     "types": [
-      "G2-305",
-      "G2-310"
+      "G2-313",
+      "G2-393"
      ]
     }
    ]
@@ -770,8 +784,8 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Measurement, Time, and Money: Grade 2 Unit Plan",
-   "metaDescription": "A two-week Grade 2 math unit: 7 lessons on measuring with a ruler, grams and milliliters, time to five minutes, the calendar, and money, with teacher notes.",
-   "weeks": 2,
+   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to five minutes, the calendar, and money, each with a teacher note and pages at three levels.",
+   "weeks": 1,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
@@ -783,20 +797,6 @@
      "point": "2:compare-lengths",
      "types": [
       "G2-236"
-     ]
-    },
-    {
-     "point": "2:mass-grams",
-     "types": [
-      "G2-261",
-      "G2-252"
-     ]
-    },
-    {
-     "point": "2:read-jugs",
-     "types": [
-      "G2-260",
-      "G2-263"
      ]
     },
     {
@@ -830,7 +830,7 @@
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Graphs and Grids: Grade 2 Unit Plan",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs, line plots, pictographs, and grid coordinates, each with a teacher note and pages at three levels.",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, with a first look at pictographs with a key and at grid squares, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -857,7 +857,8 @@
      "types": [
       "G2-279",
       "G2-308"
-     ]
+     ],
+     "activity": null
     }
    ]
   },
@@ -869,9 +870,16 @@
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
    "metaTitle": "Equal Groups and Equal Shares: Grade 2 Unit Plan",
-   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on equal groups, arrays, sharing, and halves, thirds, and fourths, each with a teacher note and pages at three levels.",
+   "metaDescription": "A two-week Grade 2 math unit: 7 lessons on odd and even, equal groups, arrays, sharing, and halves, thirds, and fourths, with a first look at the multiplication sign.",
    "weeks": 2,
    "lessons": [
+    {
+     "point": "2:odd-even",
+     "types": [
+      "G2-351",
+      "G2-352"
+     ]
+    },
     {
      "point": "2:equal-groups-times",
      "types": [
@@ -924,7 +932,7 @@
    "subject": "math",
    "title": "Shapes, Solids, and Symmetry",
    "metaTitle": "Shapes, Solids, and Symmetry: Grade 2 Unit Plan",
-   "metaDescription": "A two-week Grade 2 math unit: 7 lessons on sorting shapes, solid shapes, faces and edges, and symmetry, each with a teacher note and practice pages.",
+   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides, solid shapes and their faces, edges, and vertices, and a first look at symmetry, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -934,16 +942,11 @@
      ]
     },
     {
-     "point": "2:flat-or-solid",
-     "types": [
-      "G2-244"
-     ]
-    },
-    {
      "point": "2:solids-in-real-life",
      "types": [
       "G2-243"
-     ]
+     ],
+     "activity": "choice-board.flat-solid.k-g-a-3"
     },
     {
      "point": "2:3d-faces-edges-vertices",
@@ -951,7 +954,8 @@
       "G2-242",
       "G2-245",
       "G2-246"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "2:symmetry-line",
@@ -983,13 +987,14 @@
    "subject": "math",
    "title": "Rounding, Adding, and Subtracting Within 1,000",
    "metaTitle": "Rounding, Adding, and Subtracting Within 1,000: Grade 3 Unit Plan",
-   "metaDescription": "A two-week Grade 3 math unit: 6 lessons on rounding, adding and subtracting with regrouping, estimating sums, and number patterns, each with a teacher note.",
+   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on rounding to the nearest ten and hundred, estimating sums, regrouping, the equal sign, odd and even sums, and patterns.",
    "weeks": 2,
    "lessons": [
     {
-     "point": "3:compare-4-digit",
+     "point": "2:round-to-ten",
      "types": [
-      "G3-325"
+      "G2-221",
+      "G2-346"
      ]
     },
     {
@@ -1000,6 +1005,12 @@
      ]
     },
     {
+     "point": "3:estimate-by-rounding",
+     "types": [
+      "G3-389"
+     ]
+    },
+    {
      "point": "3:column-regrouping",
      "types": [
       "G3-359",
@@ -1007,9 +1018,9 @@
      ]
     },
     {
-     "point": "3:estimate-by-rounding",
+     "point": "3:balance-equations",
      "types": [
-      "G3-389"
+      "G3-350"
      ]
     },
     {
@@ -1028,14 +1039,14 @@
    ]
   },
   {
-   "id": "g3-multiplication",
-   "slug": "multiplication-grade-3-unit",
+   "id": "g3-starting-multiplication",
+   "slug": "starting-multiplication-grade-3-unit",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Multiplication",
-   "metaTitle": "Multiplication: Grade 3 Unit Plan",
-   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on equal groups and arrays, hops on a number line, turning an array around, and the times tables, with teacher notes.",
+   "title": "Starting Multiplication",
+   "metaTitle": "Starting Multiplication: Grade 3 Unit Plan",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on equal groups and arrays, hops on a number line, turning an array, the 2 and 5 times tables, and number machines.",
    "weeks": 1,
    "lessons": [
     {
@@ -1049,7 +1060,8 @@
      "point": "3:mult-number-line",
      "types": [
       "G3-308"
-     ]
+     ],
+     "activity": "skipcount.fill.2-nbt-a-2"
     },
     {
      "point": "3:commutative",
@@ -1064,6 +1076,12 @@
       "G3-365",
       "G3-358"
      ]
+    },
+    {
+     "point": "3:input-output",
+     "types": [
+      "G3-328"
+     ]
     }
    ]
   },
@@ -1075,8 +1093,8 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Division: Grade 3 Unit Plan",
-   "metaDescription": "A two-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, word problems, and remainders, each with a teacher note and practice pages.",
-   "weeks": 2,
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a fourth-grade standard.",
+   "weeks": 1,
    "lessons": [
     {
      "point": "3:division-sharing",
@@ -1106,12 +1124,6 @@
      ]
     },
     {
-     "point": "3:balance-equations",
-     "types": [
-      "G3-350"
-     ]
-    },
-    {
      "point": "3:division-remainder",
      "types": [
       "G3-377",
@@ -1121,15 +1133,15 @@
    ]
   },
   {
-   "id": "g3-time-and-temperature",
-   "slug": "time-and-temperature-grade-3-unit",
+   "id": "g3-time-temperature-mass-volume",
+   "slug": "time-temperature-mass-and-volume-grade-3-unit",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Time and Temperature",
-   "metaTitle": "Time and Temperature: Grade 3 Unit Plan",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on telling time to the minute, adding and subtracting time, time passed, 24-hour time, and reading a thermometer.",
-   "weeks": 1,
+   "title": "Time, Temperature, Mass, and Volume",
+   "metaTitle": "Time, Temperature, Mass, and Volume: Grade 3 Unit Plan",
+   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, time passed, 24-hour time, reading a thermometer, grams on a balance, and milliliters in a cup.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "3:time-to-minute",
@@ -1138,15 +1150,15 @@
      ]
     },
     {
-     "point": "3:add-subtract-time",
-     "types": [
-      "G3-356"
-     ]
-    },
-    {
      "point": "3:elapsed-duration",
      "types": [
       "G3-344"
+     ]
+    },
+    {
+     "point": "3:add-subtract-time",
+     "types": [
+      "G3-356"
      ]
     },
     {
@@ -1159,19 +1171,35 @@
      "point": "3:thermometer",
      "types": [
       "G3-345"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:mass-grams",
+     "types": [
+      "G2-261",
+      "G2-252"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:read-jugs",
+     "types": [
+      "G2-260",
+      "G2-263"
      ]
     }
    ]
   },
   {
-   "id": "g3-area-and-perimeter",
-   "slug": "area-and-perimeter-grade-3-unit",
+   "id": "g3-area-perimeter-volume",
+   "slug": "area-perimeter-and-volume-grade-3-unit",
    "status": "pilot",
    "grade": "3",
    "subject": "math",
-   "title": "Area and Perimeter",
-   "metaTitle": "Area and Perimeter: Grade 3 Unit Plan",
-   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on area as rows times columns, perimeter as the distance around, and rectangles with the same area or perimeter.",
+   "title": "Area, Perimeter, and Volume",
+   "metaTitle": "Area, Perimeter, and Volume: Grade 3 Unit Plan",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on area as rows times columns, perimeter as the distance around, and counting the cubes in a solid, with teacher notes.",
    "weeks": 1,
    "lessons": [
     {
@@ -1197,6 +1225,12 @@
      "types": [
       "G3-339"
      ]
+    },
+    {
+     "point": "3:volume-cubes",
+     "types": [
+      "G3-346"
+     ]
     }
    ]
   },
@@ -1208,8 +1242,8 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Fractions: Grade 3 Unit Plan",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on equal parts, naming and shading fractions, finding the whole, comparing fractions, and equal fractions.",
-   "weeks": 1,
+   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "3:partition-equal-areas",
@@ -1231,16 +1265,29 @@
      ]
     },
     {
+     "point": "3:fraction-number-line",
+     "types": [
+      "G3-317"
+     ]
+    },
+    {
      "point": "3:compare-fractions",
      "types": [
       "G3-319"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "3:equivalent-fractions",
      "types": [
       "G3-318",
       "G3-322"
+     ]
+    },
+    {
+     "point": "3:fraction-of-set",
+     "types": [
+      "G3-320"
      ]
     }
    ]
@@ -1253,7 +1300,7 @@
    "subject": "math",
    "title": "Shapes and Data",
    "metaTitle": "Shapes and Data: Grade 3 Unit Plan",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on right angles, quadrilaterals, lines of symmetry, scaled graphs, and line plots, each with a teacher note.",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on right angles, rectangles and squares, scaled graphs, and line plots, with a first look at lines of symmetry.",
    "weeks": 1,
    "lessons": [
     {
@@ -1266,7 +1313,8 @@
      "point": "3:classify-quadrilaterals",
      "types": [
       "G3-340"
-     ]
+     ],
+     "activity": null
     },
     {
      "point": "3:symmetry",
@@ -1546,7 +1594,7 @@
    "subject": "literacy",
    "title": "Words and How They Work",
    "metaTitle": "Words and How They Work: Grade 1 Unit Plan",
-   "metaDescription": "A two-week Grade 1 unit: 6 lessons on ABC order, nouns, verbs, and adjectives, pronouns, opposites, strong and weak words, and root words.",
+   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, and root words, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -1571,10 +1619,22 @@
      ]
     },
     {
+     "point": "1:articles",
+     "types": [
+      "G1-292"
+     ]
+    },
+    {
      "point": "1:opposites",
      "types": [
       "G1-307",
       "G1-337"
+     ]
+    },
+    {
+     "point": "1:synonyms",
+     "types": [
+      "G1-395"
      ]
     },
     {

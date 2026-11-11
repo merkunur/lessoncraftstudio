@@ -1,6 +1,6 @@
 # Reviewers' notes: registry `en`
 
-Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`). 98 teaching points carry a reviewer's row; the reason for each is in `frontend/content/curricula/en/crosswalk-overrides.json`.
+Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`). 105 teaching points carry a reviewer's row; the reason for each is in `frontend/content/curricula/en/crosswalk-overrides.json`.
 
 ## review-math
 
@@ -35,3 +35,8 @@ Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`).
 ## own-audit-units
 
 - Three rows corrected after the first units were reviewed (2026-11-11): the reviewer read each lesson's standards beside its worksheets' printed instructions. Lesson for the crosswalk: a row derived from a point's code names what the point is ABOUT; the pages' own instructions can ask for more (writing the letter, not only hearing the sound).
+
+## own-audit-units-2
+
+- The review of the 24 new English math units (two American teacher-reviewers, K-1 and 2-3) questioned eleven rows; each was checked against the worksheet's printed instruction before it was changed here.
+- Not changed although questioned: K:number-bonds-20 keeps 1.OA.C.6. The reviewer proposed K.NBT.A.1 from the teacher note; the page (K-275) asks for the partner that makes exactly 20, which is not composing a teen number from ten ones and some more. The note was wrong and was rewritten from the page.

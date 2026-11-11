@@ -101,13 +101,15 @@ function assemble(loc, opt = {}) {
         const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
         const core = pick('core'), easy = pick('easy'), hard = pick('hard');
         const a = assets.types[typeId] || {};
-        const row = { type: typeId, title, core: core.slug };
+        // a lesson may give a page a label of its own (`titles`), where two of its pages print the same title
+        const row = { type: typeId, title: (L.titles && L.titles[typeId]) || title, core: core.slug };
         if (easy) row.easy = easy.slug;
         if (hard) row.hard = hard.slug;
         if (core.screen) row.screen = 1;
         if (a.landing) row.landing = a.landing;
         paper.push(row);
       }
+      for (const a of paper) if (paper.some((b) => b !== a && b.title === a.title)) { bad(lw + ': two worksheets carry the title "' + a.title + '" (give one a label of its own: `titles` in the definition)'); break; }
       // exit ticket: one more core page of the lesson's first type that the lesson has not handed out
       let exit = null;
       if (paper.length) {
@@ -129,13 +131,22 @@ function assemble(loc, opt = {}) {
       let screen = null;
       if (actId) {
         if (!(p.activities || []).includes(actId)) bad(lw + ': activity ' + actId + ' does not belong to this teaching point');
-        else if (acts.has(actId)) screen = Object.assign({ kind: 'activity', id: actId }, acts.get(actId));
+        else if (acts.has(actId)) {
+          screen = Object.assign({ kind: 'activity', id: actId }, acts.get(actId));
+          // "Even or Odd? — Number Sense for Grade 2" in a Kindergarten unit: when the part after the dash names
+          // another grade, only the activity's name is shown; the unit's own grade word is dropped as needless
+          const cut = screen.title.split(' — ');
+          const GW = { K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' }[d.grade] || null;
+          if (cut.length === 2 && /Kindergarten|Grade [0-9]/.test(cut[1])) screen.title = GW && cut[1].includes(GW) ? (cut[0] + ' — ' + cut[1].split(GW).join('').replace(/\s*\|\s*$|\s+for\s*$|^\s*\|\s*/g, '').replace(/\s{2,}/g, ' ').trim()).replace(/ — $/, '') : cut[0];
+        }
         else if (L.activity) bad(lw + ': activity ' + actId + ' is not live in this language');
       }
       // (the indexable page of a type is often print-only while its further copies have the Check button)
       if (!screen) {
         for (const r of paper) {
-          const x = pages.get(r.type).core.find((y) => y.screen && (y.slug === r.core || !usedPages.has(y.slug)));
+          // a page the lesson has not handed out comes first: it is something more to do, not the same page twice
+          const pool = pages.get(r.type).core;
+          const x = pool.find((y) => y.screen && !usedPages.has(y.slug)) || pool.find((y) => y.screen && y.slug === r.core);
           if (x) { usedPages.add(x.slug); screen = { kind: 'page', slug: x.slug, title: r.title }; break; }
         }
       }
@@ -154,10 +165,17 @@ function assemble(loc, opt = {}) {
       const unitYear = YEARS.indexOf(String(d.grade));
       const relIn = (r) => { if (r.rel !== 'teaches') return r.rel; const s = span(r.grade); if (!s || unitYear < 0) return 'teaches'; return s[1] < unitYear ? 'reviews' : s[0] > unitYear ? 'ahead' : 'teaches'; };
       const RANK = { teaches: 0, reviews: 1, ahead: 2, prepares: 3, extends: 4 };
-      const rows = (e.rows || []).map((r) => Object.assign({}, r, { shown: relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
+      // A row that only prepares for or extends an objective two or more years away is not shown (a Grade 4 code on a
+      // Kindergarten lesson reads as a mistake). A lesson may also NAME the objectives its own pages teach (`standards`:
+      // ids of the point's crosswalk rows), because a point is wider than the two or three pages one lesson hands out.
+      const far = (r) => { if (r.rel === 'teaches') return false; const sp = span(r.grade); return !!sp && unitYear >= 0 && (sp[0] - unitYear >= 2 || unitYear - sp[1] >= 2); };
+      if (L.standards) for (const id of L.standards) if (!(e.rows || []).some((r) => r.id === id)) bad(lw + ': ' + id + ' is not an objective of this teaching point in the registry');
+      const rows = (e.rows || []).filter((r) => (L.standards ? L.standards.includes(r.id) : !far(r))).map((r) => Object.assign({}, r, { shown: relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
       const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; });
 
-      const real = paper.length + (tool ? 1 : 0) + (screen && screen.kind === 'activity' ? 1 : 0);
+      // two real assets: worksheet types, a tool, practice on screen. Practice on screen is an activity, or a page with
+      // a Check button that is NOT one of the pages the lesson hands out on paper (the same page twice is one asset).
+      const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0);
       if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');
       const lesson = { n: lessons.length + 1, point: L.point, title: tx.title, objective: tx.objective, standards, paper };
       if (tool) lesson.tool = tool;

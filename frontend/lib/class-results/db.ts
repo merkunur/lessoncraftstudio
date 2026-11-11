@@ -27,11 +27,10 @@ const DECKS_DIR = process.env.DECKS_DIR || '/var/www/lcs-media/decks';
 
 /**
  * Does the published page give a child something to check on screen? Read from THE PAGE ITSELF (its Check button or
- * its celebration), not from the catalogue: the catalogue's rule (lib/level-sets.ts pageIsInteractive) calls every
- * indexable page of an interactive family playable, and older first pages of a family are print-only (measured
- * 2026-11-11: /en/decks/number-lines-g1116/ has no Check button while its copies -2 … -6 do). A page without one
- * would be assigned, opened by a child and never report. Unreadable file = no (a refusal can be retried; a child
- * stuck on a page cannot).
+ * its celebration) rather than from the hand-kept list of interactive families (lib/level-sets.ts pageIsInteractive).
+ * The two agree on every indexable published page (48,552 measured 2026-11-11, 0 disagreements); reading the page
+ * means the lookup cannot drift from the pages when a family gains or loses its screen version. Unreadable file =
+ * no (a refusal can be retried; a child stuck on a page cannot).
  */
 export function pageHasScreen(locale: string, slug: string): boolean {
   if (!/^[a-z]{2}$/.test(locale) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) return false;

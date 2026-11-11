@@ -16,6 +16,8 @@ import { teacherFileHref } from '@/lib/teacher-files';
 import { Unit, UnitLesson, UnitPlan, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
 import { curriculumCodeLinks } from '@/lib/curriculum-pages';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
+import UnitCheckSection from '@/components/units/UnitCheckSection';
+import { getAssessmentUi, getUnitCheck } from '@/lib/assessments';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
@@ -128,6 +130,8 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
 
 export default async function UnitPage({ locale, unit, ui, plan }: { locale: string; unit: Unit; ui: UnitUi; plan: UnitPlan | null }) {
   const codeLinks = await curriculumCodeLinks(locale);
+  // the unit check of this unit (Part 7), when one is live in the language
+  const [check, checkUi] = await Promise.all([getUnitCheck(locale, unit.id), getAssessmentUi(locale)]);
   const [tLevel, tTier] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
@@ -240,6 +244,8 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
 
         <h2 className="un-lessons-title">{ui.lessonsTitle}</h2>
         {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} codeLinks={codeLinks} />)}
+
+        {check && checkUi ? <UnitCheckSection locale={locale} check={check} ui={checkUi} planName={planName} /> : null}
 
         {prev || next ? (
           <nav className="un-around" aria-label={plan ? plan.title : undefined}>

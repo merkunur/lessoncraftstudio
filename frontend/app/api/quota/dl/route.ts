@@ -9,7 +9,7 @@ import { canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { existsSync } from 'fs';
 import { readFile } from 'fs/promises';
 import { LEVEL_SETS_DIR } from '@/lib/level-sets';
-import { teacherFilePath } from '@/lib/teacher-files';
+import { teacherFilePath, checkFormPath } from '@/lib/teacher-files';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -38,6 +38,33 @@ async function teacherFile(request: NextRequest, loc: string, file: string, prob
 }
 
 /**
+ * kind=form (Daily Teaching System, Part 7): a student form of a unit check. A printable like any worksheet: it is
+ * counted as a download, with the same counters and the same answers as a deck PDF (a visitor who is not signed in →
+ * sign-up; a free account over its month → pricing; otherwise the file). The file lies outside every folder nginx
+ * serves, so it is sent from here. Only check-a and check-b can be asked for (lib/teacher-files.ts: checkFormPath),
+ * so an answer key can never be fetched as a form.
+ */
+async function checkForm(request: NextRequest, loc: string, file: string): Promise<NextResponse> {
+  const disk = checkFormPath(loc, file);
+  if (!disk) return new NextResponse('Bad request', { status: 400 });
+  if (!existsSync(disk)) return new NextResponse('Not found', { status: 404 });
+  const identity = await resolveQuotaIdentity(request);
+  const result = await checkAndIncrementQuota(identity, 'download');
+  let res: NextResponse;
+  if (result.allowed) {
+    const body = await readFile(disk);
+    res = new NextResponse(new Uint8Array(body), { status: 200, headers: { 'Content-Type': 'application/pdf', 'Content-Length': String(body.length), 'Content-Disposition': `inline; filename="${file.split('/').slice(1).join('-')}.pdf"` } });
+  } else {
+    res = NextResponse.redirect(`https://www.lessoncraftstudio.com/${loc}/${result.reason === 'signup_required' ? 'auth/signup?from=download' : 'pricing?from=download-limit'}`, { status: 302 });
+  }
+  res.headers.set('Cache-Control', 'private, no-store');
+  res.headers.set('X-Robots-Tag', 'noindex');
+  const cookie = anonCookieSetHeader(identity);
+  if (cookie) res.headers.append('Set-Cookie', cookie);
+  return res;
+}
+
+/**
  * GET /api/quota/dl?loc=<locale>&slug=<deckSlug>&kind=pdf|answer
  * Slug-keyed metered download proxy for the STATIC landing pages (which know a
  * deck by (locale, canonicalDeckSlug), not its DB id). Same semantics as the
@@ -51,6 +78,7 @@ export async function GET(request: NextRequest) {
     const slug = searchParams.get('slug') || '';
     const kindParam = searchParams.get('kind');
     if (kindParam === 'teacher') return await teacherFile(request, loc, searchParams.get('file') || '', searchParams.get('probe') === '1');
+    if (kindParam === 'form') return await checkForm(request, loc, searchParams.get('file') || '');
     const kind = kindParam === 'answer' ? 'answerKey' : kindParam === 'record' ? 'record' : 'pdf';
     if (!loc || !slug) return new NextResponse('Bad request', { status: 400 });
 

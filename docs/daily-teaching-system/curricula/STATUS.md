@@ -20,7 +20,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `fi` Suomi (OPS 2014) | 4 | 154 | 198 | 100 | 8 |
 | `no` Norge (LK20) | 6 | 171 | 140 | 135 | 31 |
 | `da` Danmark (Fælles Mål) | 8 | 56 | 228 | 63 | 15 |
-| `it` Italia (Indicazioni nazionali) | 7 | 199 | — | — | — |
+| `it` Italia (Indicazioni nazionali) | 7 | 199 | 166 | 125 | 15 |
 
 ## `en` — United States (Common Core, NGSS)
 
@@ -281,3 +281,24 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | arts | 3 | 3 | 0 | 0 |
 | thinking | 19 | 4 | 2 | 13 |
 | sel | 1 | 1 | 0 | 0 |
+
+## `it` — Italia (Indicazioni nazionali)
+
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Italiano** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 60 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Storia** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 21 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Geografia** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 15 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Matematica** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 41 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Scienze** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 24 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Arte e immagine** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 10 objectives read; each begins as a printed line of a second reading of the PDF.
+- **Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione (2012): Tecnologia** (Ministero dell’Istruzione, dell’Università e della Ricerca, 2012). D.M. 16 novembre 2012, n. 254; in 2026/27 still the text for classes 2 to 5 (a new text, D.M. 221/2025, replaces it class by class from the first class). Read from https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf on 2026-11-11. Checked: 16 objectives read; each begins as a printed line of a second reading of the PDF.
+
+| Subject | Points | Taught | Near | None |
+|---|---:|---:|---:|---:|
+| math | 158 | 105 | 53 | 0 |
+| literacy | 71 | 36 | 35 | 0 |
+| science | 35 | 15 | 20 | 0 |
+| social | 11 | 3 | 7 | 1 |
+| health | 8 | 0 | 5 | 3 |
+| arts | 3 | 1 | 2 | 0 |
+| thinking | 19 | 6 | 3 | 10 |
+| sel | 1 | 0 | 0 | 1 |

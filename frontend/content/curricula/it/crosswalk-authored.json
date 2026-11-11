@@ -1,0 +1,3626 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "MAT.3.7",
+     "rel": "prepares"
+    },
+    {
+     "id": "GEO.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "MAT.3.7 asks to communicate position 'usando termini adeguati (sopra/sotto, davanti/dietro, destra/sinistra, dentro/fuori)' and GEO.3.1 names the 'indicatori topologici'; an infanzia sheet can only prepare both.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the shape part fits: finding the shape of everyday objects is a first step to 'Riconoscere ... figure geometriche'. The pure picture search has no objective.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Direct comparison of length and height is the step before 'Misurare grandezze (lunghezze, ...)' with arbitrary units.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "SCI.3.2 says 'Seriare e classificare oggetti in base alle loro proprietà'; seriating pictures by size is the readiness form, and it precedes measuring lengths (MAT.3.14).",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "MAT.5.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The only objective on patterns is 'Riconoscere e descrivere regolarità in una sequenza di numeri o di figure' (end of classe quinta); no classe-terza objective names regolarità.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One-to-one correspondence is the idea under 'Contare oggetti o eventi'.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "More / fewer / equal between two groups prepares 'confrontarli e ordinarli' of MAT.3.2 and rests on counting objects (MAT.3.1).",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Contare oggetti' and 'Leggere e scrivere i numeri naturali', here only to 10-20 and before school.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing small quantities at a glance supports 'Contare oggetti ... a voce e mentalmente'.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Conservation of quantity is a prerequisite of counting objects; no objective states it.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Making a set of N is counting objects in the other direction ('Contare oggetti').",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riconoscere, denominare e descrivere figure geometriche', at infanzia level.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the digits prepares 'Leggere e scrivere i numeri naturali in notazione decimale'; the tracing is the 'capacità manuali ... necessarie per l'apprendimento della scrittura'.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child must read numerals to follow the key: a step toward 'Leggere ... i numeri naturali'.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Classificare ... oggetti in base a una o più proprietà' and then 'Contare oggetti'.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting sides is a first way to 'descrivere figure geometriche'; sorting by number of sides is 'Classificare ... figure ... in base a una ... proprietà'.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting 'in senso progressivo' and writing the numbers in order, to 20 only.",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Following the counting order ('in senso progressivo') while reading the numerals to 30.",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each next number is one more: counting forward and backward, and the idea before 'semplici operazioni' (+1, -1).",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'in senso progressivo e regressivo' (count back from 10) and ordering numbers ('ordinarli').",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names ordinal numbers; finding the Nth in a line is counting objects from a given end ('Contare oggetti o eventi').",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "STO.3.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The week is one of the 'cicli temporali' with its 'relazioni di successione' (STO.3.4) and the base of the calendar (STO.3.5); in Italy this is storia, not matematica.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is a first way to 'rappresentare ... dati' and to record a count.",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Estimating a quantity and checking by counting supports 'Contare oggetti'; the objectives on estimating (MAT.3.6 distances and volumes, MAT.5.4 result of an operation) are about other things.",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing weights directly comes before 'Misurare grandezze'; weight is one of the 'proprietà' by which SCI.3.2 has objects seriated.",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "MAT.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Disegnare figure geometriche', here on dot paper at infanzia level.",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all is addition before its formal form ('semplici operazioni con i numeri naturali').",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is subtraction before its formal form.",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known number is counting 'in senso progressivo' used as the first addition strategy.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Decomposing numbers to 10 (gli amici del 10) is the base of 'Eseguire mentalmente semplici operazioni'.",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "MAT.3.10",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.3.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tangram figures prepare 'costruire modelli materiali' and recognising figures inside a figure.",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "MAT.5.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riconoscere figure ruotate, traslate e riflesse' is asked only by the end of classe quinta; no classe-terza objective names reflection.",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pari / dispari is a way to 'Classificare numeri ... in base a una ... proprietà'; here by pairing objects.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ten and some more ones is the first 'consapevolezza della notazione posizionale'.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Eseguire mentalmente semplici operazioni con i numeri naturali'; a year-K sheet can only prepare it (within 20 this is classe prima work in Italy).",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bonds to 20 feed mental calculation (MAT.3.3); in Italy this is classe prima content.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition within 10-12 is among the 'semplici operazioni con i numeri naturali'; the models are counted ('Contare oggetti'). The wording gives no number range; judged by classe prima.",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Subtraction within 10 is a 'semplice operazione'; the picture model is the classe prima way to it.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the whole addition or subtraction for a situation is doing and stating a 'semplice operazione' ('verbalizzare le procedure di calcolo' in written form).",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "MAT.5.27",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riconoscere e descrivere regolarità in una sequenza ... di figure' is a classe-quinta objective; a repeating picture pattern is its early form.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Classificare ... oggetti in base a una o più proprietà'.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bonds to 10 are the core of mental calculation in classe prima ('Eseguire mentalmente semplici operazioni').",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Riconoscere, denominare e descrivere figure geometriche': naming, telling by attributes, riddles that describe.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The Indicazioni name no objective on ordinal numbers; the nearest is counting objects or events in order ('Contare oggetti o eventi'). Writing ordinal words is beyond the wording.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "MAT.3.2: 'confrontarli e ordinarli, anche rappresentandoli sulla retta'.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting 'in senso progressivo e regressivo' on the line, used to add and subtract.",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The classe-terza objectives hold no line on problems (problem solving is in the traguardi, not in this registry); the operation done is a 'semplice operazione' within 20.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e rappresentare relazioni e dati con diagrammi, schemi e tabelle' after a classification (MAT.3.11).",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Il doppio e la metà to 20 are mental 'semplici operazioni'.",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Pari e dispari: 'Classificare numeri ... in base a una ... proprietà'.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A mental strategy made explicit: 'Eseguire mentalmente semplici operazioni ... e verbalizzare le procedure di calcolo'.",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding three small numbers is a 'semplice operazione' done mentally.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition and subtraction as inverse operations on three numbers: part of doing and explaining simple operations (MAT.3.3).",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the missing term within 10/20 is mental calculation with natural numbers.",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Judging an equality needs the operations on both sides done mentally (MAT.3.3); the meaning of the equal sign has no objective of its own.",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The bar is a 'schema' that represents a relation between numbers ('Leggere e rappresentare relazioni ... con diagrammi, schemi'); the missing part is found by a simple operation.",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising the pieces inside a figure is 'Riconoscere ... figure geometriche'; on paper it only prepares 'costruire modelli materiali'.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "STO.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'relazioni di successione ... cicli temporali' (days, months, seasons) and the calendar among the 'strumenti convenzionali per la misurazione e la rappresentazione del tempo'. Storia in Italy, not matematica.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "STO.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.3.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "As the parent point; the season wheel also meets 'la periodicità dei fenomeni celesti (dì/notte, percorsi del sole, stagioni)'.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Misurare grandezze (lunghezze, ...) utilizzando sia unità arbitrarie ...': unit cubes are the arbitrary unit.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "MAT.3.14 names 'tempo' and 'orologio'; STO.3.5 asks 'la funzione e l'uso degli strumenti convenzionali per la misurazione ... del tempo (orologio, ...)'.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Eseguire mentalmente semplici operazioni con i numeri naturali e verbalizzare le procedure di calcolo' (the make-a-ten strategy).",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sums and differences done mentally in a puzzle frame.",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking a calculation means redoing the simple operation mentally.",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e rappresentare relazioni e dati con diagrammi, schemi e tabelle'.",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Decine e unità: 'avendo consapevolezza della notazione posizionale'.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e scrivere i numeri naturali', in digits and in words.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'confrontarli e ordinarli' with > < =.",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The structure of the chart is the positional notation to 100; counting patterns are counting 'per salti'.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "+1, -1, +10, -10 are mental operations that rest on tens and ones.",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number read, written and decomposed many ways: 'Leggere e scrivere i numeri naturali in notazione decimale, avendo consapevolezza della notazione posizionale'.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Contare ... per salti di due, tre, ...'.",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Use of the clock ('orologio' in both MAT.3.14 and STO.3.5). Five-minute times are classe seconda work in Italy; the wording sets no step.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding coin values is a simple operation; MAT.3.5 uses coins for decimal numbers ('anche con riferimento alle monete'), which whole-value purses only prepare. Skill line gives no values; judged by classe prima.",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The drawn jumps are the written trace of 'verbalizzare le procedure di calcolo' for a mental operation.",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Eseguire mentalmente semplici operazioni con i numeri naturali', without columns.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Complements to 100 are mental calculation (MAT.3.3); in Italy usually classe seconda.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Il cambio: ten ones for one ten is the 'consapevolezza della notazione posizionale'.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Moves of +1 and +10 on the chart: positional notation and mental addition.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Classificare numeri ... in base a una o più proprietà' (pari / dispari, also by the ones digit).",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'anche rappresentandoli sulla retta'.",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Classificare ... figure ... in base a una ... proprietà' (number of sides), which also describes the figures.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition and subtraction within 100 done mentally in puzzle formats.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No classe-terza objective is about problems (they are in the traguardi); the calculation within 100 is MAT.3.3.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Misurare grandezze (lunghezze ...) utilizzando ... unità e strumenti convenzionali (metro ...)'.",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two measures with the ruler and their difference: measuring lengths with conventional units.",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Centinaia, decine, unità: reading and writing numbers with positional awareness. The wording sets no range; to 1000 is classe terza in most Italian schools.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of a digit is exactly the 'consapevolezza della notazione posizionale'.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting forward within 1000 and reading the numbers by place.",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Contare ... per salti di due, tre, ...'.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'confrontarli e ordinarli'.",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "+100 / -100 as a mental operation on the hundreds place.",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the clock: 'orologio' in MAT.3.14 and STO.3.5.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "STO.3.5 names the 'calendario' among the instruments to measure and represent time; days between two dates is measuring 'tempo' (MAT.3.14).",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Recognising figures and classifying them by a property (piane / solide).",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Riconoscere, denominare ... figure geometriche', here the solids in objects.",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Facce, spigoli e vertici are how a solid is described ('descrivere figure geometriche').",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding with base-ten blocks works on place value and is the step before 'gli algoritmi scritti usuali'.",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "As for addition: the block model precedes the written algorithm of MAT.3.4.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Eseguire le operazioni con i numeri naturali con gli algoritmi scritti usuali' (addizione e sottrazione in colonna con riporto e prestito).",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The skill line gives no prices; in classe seconda they are whole euros or cents, so the sums are MAT.3.3 and they prepare 'semplici addizioni e sottrazioni, anche con riferimento alle monete' with decimals. With prices such as 2,50 € it would teach MAT.3.5.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e rappresentare relazioni e dati con diagrammi, schemi e tabelle'.",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A line plot is a diagram of data to read (MAT.3.13); the format itself is not usual in Italian books.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names rounding. On the number line the child compares a number with the two tens ('confrontarli ... anche rappresentandoli sulla retta'); rounding serves 'Stimare il risultato di una operazione' (classe quinta).",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.24",
+     "rel": "prepares"
+    }
+   ],
+   "why": "MAT.3.14: 'Misurare grandezze (lunghezze, tempo, ecc.) utilizzando ... unità e strumenti convenzionali'; mass is named only in MAT.5.24 ('masse, pesi').",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.24",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Capacity with a conventional unit falls under the 'ecc.' of MAT.3.14; 'volumi/capacità' are named in MAT.5.24 and reading a jug is using 'scale graduate' (MAT.5.8).",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "SCI.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "SCI.3.3 says it word for word: 'Individuare strumenti e unità di misura appropriati alle situazioni'. Inches and feet do not exist in the Italian version.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Multiplication as repeated addition is a 'semplice operazione'; it comes before 'Conoscere con sicurezza le tabelline'.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Gli schieramenti: the meaning of multiplication, before the tables are known by heart.",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'per salti di due, tre, ...' and the numerazioni that become the tabelline.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and making an ideogramma: 'Leggere e rappresentare ... dati con diagrammi'.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sharing and grouping without the division sign is the idea before division as a 'semplice operazione'.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 2012 objectives name fractions only for the end of classe quinta ('Operare con le frazioni e riconoscere frazioni equivalenti'); the classe-terza list has none.",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A unit fraction of a set is the first step of 'Operare con le frazioni' (classe quinta); nothing in the classe-terza list.",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "MAT.5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Symmetry is named only in MAT.5.10 ('identificando elementi significativi e simmetrie'); deciding whether a line is a mirror line is its first step.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "MAT.5.14",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing the reflected half prepares 'Riconoscere figure ... riflesse' and the 'simmetrie' of MAT.5.10; both classe quinta.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "MAT.5.12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Letter-number squares (as in battaglia navale) come before 'Utilizzare il piano cartesiano per localizzare punti'.",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "MAT.5.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child must tell the identical figure from turned and flipped ones: 'Riconoscere figure ruotate, traslate e riflesse', asked only by the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'confrontarli e ordinarli' with 'consapevolezza della notazione posizionale'; the wording sets no range and classe terza works to the thousands.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "MAT.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names rounding: the number-line work is MAT.3.2 ('rappresentandoli sulla retta'), the purpose is 'Stimare il risultato di una operazione' (classe quinta).",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Eseguire le operazioni con i numeri naturali con gli algoritmi scritti usuali'.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "MAT.5.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Stimare il risultato di una operazione': the demand is met, though the objective is placed at the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sums and missing addends done mentally.",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "extends"
+    }
+   ],
+   "why": "Goes beyond 'Classificare numeri ... in base a una ... proprietà': the child reasons on the parity of a sum without calculating.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "MAT.5.27",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Riconoscere e descrivere regolarità in una sequenza di numeri' (classe quinta, demand met) and counting forward and back 'per salti'.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring time with the clock (MAT.3.14) and its use (STO.3.5).",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The meaning of a product (groups, array) is a simple operation understood; it supports 'le tabelline'.",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Equal jumps from 0 are counting 'per salti di due, tre, ...'; the numbers reached are the multiples of 'individuare multipli e divisori di un numero'.",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The commutative property is used and stated in mental calculation ('verbalizzare le procedure di calcolo') and halves the tables to learn.",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Conoscere con sicurezza le tabelline della moltiplicazione dei numeri fino a 10'.",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e rappresentare relazioni e dati con diagrammi, schemi e tabelle', with a scale.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Temperature read on a conventional instrument (the 'ecc.' of MAT.3.14); 'utilizzare scale graduate in contesti significativi per le scienze' is MAT.5.8.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division as sharing (ripartizione) is one of the 'semplici operazioni con i numeri naturali' of classe terza.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division as grouping (contenenza), done by counting back 'in senso ... regressivo e per salti'.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Division as the inverse of multiplication, solved through the tables ('le tabelline ... fino a 10').",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No objective on problems in the classe-terza list (traguardi only); the multiplications and divisions use the tables.",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The machine with its table is a relation read and represented ('Leggere e rappresentare relazioni ... con ... tabelle'); the rule is applied mentally.",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equalities with an operation on both sides are solved by mental calculation; the objectives do not name equality as such.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "extends"
+    },
+    {
+     "id": "MAT.5.24",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Calculating with clock times goes beyond measuring time with the clock (MAT.3.14) toward 'intervalli temporali' of MAT.5.24.",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.24",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding how long between two clock times is measuring 'tempo' with the 'orologio' (MAT.3.14); 'intervalli temporali' is named in MAT.5.24.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "STO.3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'la funzione e l'uso degli strumenti convenzionali per la misurazione ... del tempo (orologio ...)'; the 24-hour form is the everyday written form in Italy.",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting unit squares measures a grandezza with an arbitrary unit (MAT.3.14); 'Determinare l'area di rettangoli' is asked by the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Area in unit squares compared across shapes (figure equiestese): before MAT.5.19.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "MAT.5.18",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Determinare il perimetro di una figura utilizzando le più comuni formule o altri procedimenti': adding the sides is one of the 'altri procedimenti'. Placed at the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "MAT.5.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.19",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Perimeter is found (MAT.5.18) and set against area counted in squares (before MAT.5.19): isoperimetria ed equiestensione.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Eseguire la divisione con resto fra numeri naturali' is a classe-quinta objective; within the tables it is a simple operation of classe terza.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "MAT.5.15",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Angles appear only in classe quinta ('Confrontare e misurare angoli'; 'perpendicolarità'); comparing with a square corner is the first step.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "MAT.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming and describing figures and 'Classificare ... figure ... in base a una o più proprietà'; the inclusive classification (a square is a rectangle) points to MAT.5.10.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "MAT.5.10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "MAT.5.10: 'identificando elementi significativi e simmetrie' - a clearly stated part, asked by the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Unit fractions of a shape: fractions are named only in the classe-quinta objectives ('Operare con le frazioni').",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "a/b as a copies of 1/b is the concept before 'Operare con le frazioni'.",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "From the unit fraction to the whole: fraction concept before MAT.5.5.",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "MAT.5.8",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Rappresentare i numeri conosciuti sulla retta' (classe quinta), here fractions between 0 and 1.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing fractions with pictures is a first way of working with fractions (MAT.5.5).",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'riconoscere frazioni equivalenti' is in MAT.5.5; with picture models in classe terza it is its first step.",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "MAT.5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The fraction as operator on a quantity (1/3 of 12) belongs to 'Operare con le frazioni'.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring lengths and representing the data in a diagram. Italian schools would measure in cm and mm (decimals), not in half units.",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "MAT.3.14",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.24",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Unit cubes are an arbitrary unit for a grandezza (MAT.3.14); 'volumi' are named in MAT.5.24, and seeing hidden cubes in a drawing is 'Riconoscere rappresentazioni piane di oggetti tridimensionali'.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pregrafismo: 'Acquisire le capacità manuali, percettive e cognitive necessarie per l'apprendimento della scrittura'.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "ART.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A self-portrait and drawings of what I like are early 'produzioni personali ... per esprimere sensazioni ed emozioni; rappresentare ... la realtà percepita'.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names rhyme; hearing rhymes belongs to the 'capacità ... percettive e cognitive necessarie per l'apprendimento della scrittura' (phonological awareness).",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Classificare ... oggetti in base a una o più proprietà'.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling b / d / p / q apart is perceptual readiness for writing and for 'la lettura strumentale (di decifrazione)'.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing letters builds the 'capacità manuali ... necessarie per l'apprendimento della scrittura'.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The syllable is the unit Italian children learn to read and write with; counting syllables is readiness for both.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching maiuscolo and minuscolo is letter knowledge before decoding.",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The first sound and its letter (corrispondenza suono-segno) come before reading and writing words.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the intruder is classification by a property.",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "ITA.3.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picture opposites widen vocabulary ('Ampliare il patrimonio lessicale'); meaning relations between words are named only in the classe-quinta objectives.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.5.31",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing the letters prepares decoding; alphabetical order has no objective of its own and serves 'Utilizzare il dizionario' (classe quinta).",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "ITA.3.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "STO.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering story pictures prepares telling 'rispettando l'ordine cronologico' and 'relazioni di successione' (prima, dopo, infine).",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing where a sound sits in a word is phonological readiness for writing and decoding.",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Vocali e consonanti is the first letter knowledge of classe prima, before syllables are read.",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "ITA.3.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picture word cards widen vocabulary; the second-language side would belong to the lingua inglese objectives, which this registry does not hold.",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.23",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Analysing a word into sounds is the cognitive base of writing; two letters for one sound (ch, gh, gn, gl, sc) is the start of 'attenzione alla grafia delle parole'.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building first words from letters prepares reading and writing. Italian has almost no CVC words; the Italian sheets must use two-syllable words (mela, sole).",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a word and linking it to its picture is the first 'lettura strumentale'.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Number of the noun is one of the 'principali tratti grammaticali' of ITA.5.36; no classe-terza objective names it.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.23",
+     "rel": "prepares"
+    }
+   ],
+   "why": "English sh / ch have Italian counterparts in the digrammi (sc, gn, gl, ch, gh): hearing them prepares writing and later orthography.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading very frequent words at sight supports 'la lettura strumentale'; sight-word teaching is an English method (Italian spelling is regular), so the fit is loose.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing and copying words left to right with spaces: 'capacità manuali, percettive e cognitive necessarie per l'apprendimento della scrittura'.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The article (il / lo / la, un / uno / una) is a part of speech; 'Riconoscere ... le parti del discorso' is stated only for the end of classe quinta.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.23",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rhyme work trains the perceptual and cognitive abilities needed for writing (ITA.3.13); producing rhymes prepares 'testi creativi sulla base di modelli dati (filastrocche ...)'.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Segmenting is the cognitive ability under writing; blending is the step into 'lettura ... di decifrazione'.",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "In Italian these are the digrammi and trigrammi (ch, gh, gn, gl, sc): 'Prestare attenzione alla grafia delle parole' and reading them correctly. English th has no counterpart.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing words correctly from a picture (autodettato) applies 'le conoscenze ortografiche' and prepares 'Scrivere sotto dettatura curando ... l'ortografia'.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Syllables are the core of learning to write in Italian (ITA.3.13); dividing a word into syllables is also an orthographic convention (andare a capo).",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Knowing that each syllable holds a vowel is part of the cognitive base of syllabic writing.",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Padroneggiare la lettura strumentale (di decifrazione)': joining syllables, reading words with consonant groups.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "ITA.5.31",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Alphabetical order is needed for 'Utilizzare il dizionario come strumento di consultazione' (classe quinta); the classe-terza list has nothing on it.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.34",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the opposite for a sentence is 'Usare in modo appropriato le parole'; opposites as a meaning relation ('somiglianze, differenze') are in ITA.5.34.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting nouns by article works on gender and number, 'i principali tratti grammaticali' of ITA.5.36; Italian schools do this in classe prima and seconda although the objective is written for classe quinta.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "ITA.3.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Silent reading to do something: 'Comprendere testi di tipo diverso ... in vista di scopi pratici'; 'Seguire istruzioni scritte' is the classe-quinta form.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The right word for the sentence ('Usare in modo appropriato le parole man mano apprese') after reading it.",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "ITA.3.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.34",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two words for one picture widens vocabulary through reading (ITA.3.18); synonymy as a relation ('somiglianze') is ITA.5.34.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'frasi semplici e compiute ... che rispettino le convenzioni ortografiche e di interpunzione' (capital, end mark); it prepares judging whether a sentence is complete.",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Chi / che cosa / dove on single sentences prepares finding 'le informazioni principali' in a text and the 'elementi essenziali' of a sentence.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering sentences to pictures finds the information 'e le loro relazioni'; 'relazioni di successione ... in ... esperienze vissute e narrate'; it prepares oral telling in chronological order.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riconoscere ... le parti del discorso' is stated only for the end of classe quinta; nomi, verbi, aggettivi sorted in classe prima are its start.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Personal pronouns are a part of speech (ITA.5.36). In Italian the sort is lui / lei / loro.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "ITA.5.34",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering near-synonyms by strength works on 'relazioni di significato tra le parole (somiglianze, differenze ...)'.",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "ITA.3.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "ITA.3.17 names 'la conoscenza intuitiva delle famiglie di parole'; derivation as a mechanism is ITA.5.33.",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "ITA.3.15",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.16",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Produrre semplici testi funzionali, narrativi e descrittivi legati a scopi concreti' (story, description, postcard); the story map prepares 'pianificare la traccia di un racconto'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Prestare attenzione alla grafia delle parole nei testi': finding a digramma (sc, gn, gl, ch, gh) in sentences.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.22",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'convenzioni ortografiche e di interpunzione' (capital, full stop, question mark) and 'Riconoscere se una frase è o no completa' when two sentences are split.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Acquisire le capacità manuali ... necessarie per l'apprendimento della scrittura'. In Italy corsivo is taught in classe prima.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.17",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a text for its information and relations, then using the fitting word; relying on context prepares 'basandosi ... sul contesto' for unknown words.",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "ITA.3.22",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The question word that asks for a part of the sentence (chi, dove, perché, come) leads to its 'elementi essenziali (soggetto, verbo, complementi necessari)' and to questions on a text.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere testi (narrativi ...) cogliendo l'argomento ... e individuando le informazioni principali e le loro relazioni'; a short story read for its sense.",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "ITA.3.15",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Simple 'testi ... descrittivi' made of 'frasi semplici e compiute'.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting isolated words into nomi, verbi, aggettivi comes before 'Riconoscere in una frase o in un testo le parti del discorso' (classe quinta).",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing Italian plurals is orthography (-chi / -ghi, -cie / -gie, uomo-uomini): 'applicare le conoscenze ortografiche'; number as a grammatical trait is ITA.5.36.",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "ITA.3.23",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.14",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The English rules named have no Italian counterpart; the Italian position rules (c / g dolce e dura with h, cu / qu / cqu, mb / mp, plurals in -cie / -gie) are 'conoscenze ortografiche' and prepare dictation.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.34",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing a more exact word for 'dire' is 'Usare in modo appropriato le parole'; synonymy as a relation is ITA.5.34.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.34",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill line as 2:synonyms.",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.22",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tense is a grammatical trait of the verb (ITA.5.36, classe quinta); finding the verb prepares the 'elementi essenziali (soggetto, verbo ...)' of ITA.3.22. In Italian: essere, avere, fare, andare, presente and passato prossimo / imperfetto.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "ITA.5.36",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Personal and possessive pronouns are parts of speech (ITA.5.36).",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "ITA.3.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Padroneggiare la lettura strumentale (di decifrazione)' includes reading every script, corsivo too.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Conoscere i principali meccanismi di formazione delle parole (parole semplici, derivate, composte)' is a classe-quinta objective. Italian compounds have no joining letter (portacenere, pescespada).",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "ITA.3.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'conoscenza intuitiva delle famiglie di parole' (ITA.3.17); the formal view of derived words is ITA.5.33.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "ITA.3.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A prefixed word understood from its family (felice / infelice, fare / rifare) fits ITA.3.17; prefixation as a mechanism is 'parole ... derivate' in ITA.5.33.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "ITA.3.15",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A short written 'testo ... narrativo' in complete sentences; the time-order starters also train 'rispettando l'ordine cronologico' for oral telling.",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The clues are a short text read 'individuando le informazioni principali e le loro relazioni'.",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "ITA.3.12",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere semplici testi di divulgazione per ricavarne informazioni' and write them in a functional text ('per ricordare').",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "ITA.3.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Information and its relations (same / different) in informative texts; 'Leggere e confrontare informazioni provenienti da testi diversi' is the classe-quinta form.",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "ITA.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Fluent corsivo: the manual abilities for writing (ITA.3.13).",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "ITA.5.34",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Comprendere le principali relazioni di significato tra le parole (somiglianze, differenze, appartenenza a un campo semantico)': the demand is met, though placed at the end of classe quinta.",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "ITA.3.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Forno / fornaio, giardino / giardiniere: word families (ITA.3.17) and one mechanism of the 'parole ... derivate' (ITA.5.33).",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "ITA.3.17",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.3.19",
+     "rel": "teaches"
+    },
+    {
+     "id": "ITA.5.33",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The family of a word used to pick the right form for a sentence: 'famiglie di parole', 'Usare in modo appropriato le parole'; derivation is ITA.5.33.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming the parts of the body comes before 'prestare attenzione al funzionamento del proprio corpo'.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling the living from the non-living prepares 'Riconoscere in altri organismi viventi ... bisogni analoghi ai propri' and is a classification by properties.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.5.12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A classification by properties; the plant view prepares 'i primi elementi di classificazione ... vegetale'. No objective names the parts of the plant.",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.5.12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Animals 'in relazione con i loro ambienti' (SCI.3.11) and a first grouping of animals (SCI.5.12).",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'i momenti significativi nella vita di ... animali' and 'somiglianze e differenze nei percorsi di sviluppo'.",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "prepares"
+    },
+    {
+     "id": "STO.3.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'la periodicità dei fenomeni celesti (... stagioni)', the 'cicli temporali' of storia, and a tree through the year as a 'trasformazione ambientale naturale'.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'la periodicità dei fenomeni celesti (dì/notte ...)'.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'la variabilità dei fenomeni atmosferici (venti, nuvole, pioggia, ecc.)'; hot and cold things touch the everyday phenomena 'legati ... al calore'.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naturale / artificiale is a classification of objects 'in base alle loro proprietà'.",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The senses are the first look at 'il funzionamento del proprio corpo'.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "GEO.3.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting waste classifies objects by material; GEO.3.7 speaks of 'gli interventi positivi e negativi dell'uomo ... esercitando la cittadinanza attiva'. In Italy this is mainly educazione civica, which the registry does not hold.",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riconoscere in altri organismi viventi ... bisogni analoghi ai propri' (water, light) and the life of plants observed in 'semine'.",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.3.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'semplici fenomeni della vita quotidiana legati ai liquidi'; sorting floaters and sinkers is classifying by a property.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "SCI.5.12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Elaborare i primi elementi di classificazione animale ...' is a classe-quinta objective; no classe-terza objective is about classifying animals (SCI.3.2 is about objects).",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Riconoscere in altri organismi viventi, in relazione con i loro ambienti, bisogni analoghi ai propri' (food, a home).",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'i momenti significativi nella vita di piante e animali ... percorsi di sviluppo di organismi animali e vegetali': the content is taught, the rearing and sowing the objective also asks is class work.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Descrivere semplici fenomeni della vita quotidiana legati ai liquidi ... alle forze'; that heavy does not mean sinking leads to 'peso, peso specifico' of SCI.5.1.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The objective is about how the body works ('funzionamento del proprio corpo'); naming its parts is the step before.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Which sense and which organ for each experience is paying attention 'al funzionamento del proprio corpo (... freddo e caldo, ecc.)'.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Avere familiarità con la variabilità dei fenomeni atmosferici'; the weekly forecast is a table of data to read.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "TEC.5.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Seriare e classificare oggetti in base alle loro proprietà' (the material); tecnologia asks 'le proprietà dei materiali più comuni' by classe quinta.",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names the parts of a plant; knowing them and their jobs prepares observing 'la vita di piante' and seeing that plants have needs like ours.",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'la periodicità dei fenomeni celesti' (the Moon's phases are one, though the list in brackets names only dì/notte, sun paths, seasons); 'il movimento dei diversi oggetti celesti' is SCI.5.8.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "TEC.5.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Seriare e classificare oggetti in base alle loro proprietà'; materials are also a tecnologia topic (TEC.5.4).",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "As in classe prima: the wording of the classe-terza objectives does not name plant parts; this is the knowledge that observing plants and their needs builds on.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'momenti significativi nella vita di ... animali' and their 'percorsi di sviluppo' (bruco-farfalla, girino-rana).",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A periodic celestial phenomenon (SCI.3.8); the Moon's movement is interpreted in SCI.5.8.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "extends"
+    },
+    {
+     "id": "SCI.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "SCI.3.8 asks only familiarity with 'dì/notte'; explaining it by the Earth's rotation goes beyond, toward 'Ricostruire e interpretare il movimento dei diversi oggetti celesti'.",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'organismi viventi, in relazione con i loro ambienti'.",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A phenomenon 'legato ai liquidi ... alle forze'; shape and floating lead toward 'peso specifico ... pressione' of SCI.5.1.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "SCI.3.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.5.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.5.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'trasformazioni ambientali naturali (ad opera del sole, di agenti atmosferici, dell'acqua ...)'; the changes of state and 'il ruolo [dell'acqua] nell'ambiente' are classe quinta.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.5.12",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective names the parts of the flower; they serve the 'momenti significativi nella vita di piante' (flowering, seed) and later plant classification.",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Exactly 'Individuare somiglianze e differenze nei percorsi di sviluppo di organismi animali'.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "SCI.5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The solar system is classe-quinta matter ('i diversi oggetti celesti'); SCI.3.8 covers only day, sun paths and seasons.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "SCI.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "TEC.5.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The phenomenon described is one 'legato ai liquidi' (SCI.3.4); recording the test prepares 'Rappresentare i dati dell'osservazione attraverso tabelle ... testi'. The method itself (ipotesi, prova, conclusione) is in the traguardi, not in the objectives.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "GEO.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MAT.5.20",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Rappresentare in prospettiva verticale oggetti e ambienti noti'; matematica asks 'punti di vista diversi di uno stesso oggetto (dall'alto, di fronte, ecc.)' by classe quinta.",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "STO.3.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.18",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The family tree is the first frame for 'il proprio passato, della generazione degli adulti'; the family words widen vocabulary.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No objective on means of transport; the sheet is a classification of objects by a property (where they move).",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "none": "Economic ideas (bisogni e desideri) have no objective in the disciplines of this registry; in Italy they fall under educazione civica.",
+   "why": "Nothing in storia, geografia or scienze speaks of wants and needs of people; SCI.3.11 is about the needs of other living beings.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "SCI.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the tools part fits: matching a tool to its job is 'riconoscerne funzioni e modi d'uso'. The jobs themselves (i mestieri) have no objective here; they are educazione civica.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "GEO.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Leggere e interpretare la pianta dello spazio vicino': the key (legenda) and its symbols.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "STO.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Generations in order are 'relazioni di successione'; the tree is a 'semplice schema temporale'; my own tree prepares producing knowledge 'sul proprio passato, della generazione degli adulti'.",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "GEO.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Orientarsi utilizzando la bussola e i punti cardinali' is a classe-quinta objective and asks real orientation; on paper it is prepared. Italian classes meet the punti cardinali in classe terza.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "GEO.5.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "GEO.5.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'i grandi caratteri dei diversi continenti e degli oceani' and mental maps extended 'ai diversi continenti' are classe quinta; classes 1-3 work on the near space only.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "ITA.3.18",
+     "rel": "teaches"
+    },
+    {
+     "id": "STO.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Zia, cugino, nonna from riddles: vocabulary widened through reading; kinship is the frame for the history of one's own family.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "GEO.5.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "GEO.5.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Locating continents and oceans on the planisfero is the first step of GEO.5.5 (classe quinta), which asks their physical regions and main features too.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Avere cura della propria salute anche dal punto di vista alimentare' (classe quinta); SCI.3.4 names everyday phenomena 'legati ... al cibo'.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Avere cura della propria salute'; care of the body starts from attention to one's own body (SCI.3.10).",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "none": "Educazione stradale is not in the disciplines of this registry (in Italy: educazione civica, and the 'sicurezza' part of educazione fisica).",
+   "why": "No objective of PART 2 speaks of traffic or safety on the road.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Avere cura della propria salute anche dal punto di vista alimentare'. Italian schools teach the piramide alimentare or five gruppi alimentari, not four groups.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Daily hygiene habits prepare 'Avere cura della propria salute' (classe quinta).",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "none": "Educazione stradale is not in the disciplines of this registry (educazione civica in Italy).",
+   "why": "No objective of PART 2 names road signs or road behaviour.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Why a habit protects the body links 'Avere cura della propria salute' with 'il funzionamento del proprio corpo'.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "none": "Educazione stradale is not in the disciplines of this registry (educazione civica in Italy).",
+   "why": "No objective of PART 2 names road signs; sorting them by kind is not one of the classifications matematica means.",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "ART.5.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Guided drawing prepares 'rappresentare e comunicare la realtà percepita'; tracing then drawing also trains the hand for writing.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "ART.5.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "ART.5.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Arte e immagine has objectives only for the end of classe quinta: drawing by steps prepares 'rappresentare ... la realtà percepita' and is one of the 'tecniche ... per realizzare prodotti grafici'.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "ART.5.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "ITA.3.15",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The drawing prepares ART.5.1; writing about it is a simple 'testo ... descrittivo'.",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "none": "Visual discrimination puzzle; no objective of PART 2 asks it.",
+   "why": "It is perceptual training; the only objective on perception (ITA.3.13) is about writing, and the sheet works on pictures, not letters.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "none": "Mazes: no objective fits (MAT.3.8 is about walking and describing a real route).",
+   "why": "'Eseguire un semplice percorso partendo dalla descrizione verbale o dal disegno' is a movement in physical space, not finding the way through a maze.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "none": "Visual perception puzzle; no objective of PART 2 asks it.",
+   "why": "Matching a picture to its shadow is not recognising geometric figures and nothing else in the wording fits.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "none": "Visual comparison puzzle; no objective of PART 2 asks it.",
+   "why": "No matematica wording (relazioni, classificare, regolarità) fits finding differences between two pictures.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Each row holds one kind: the gap is filled by a classification 'in base a una ... proprietà' laid out in a grid.",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "MAT.5.17",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Riprodurre in scala una figura assegnata (utilizzando, ad esempio, la carta a quadretti)': copying square by square is its 1:1 beginning.",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "Visual discrimination puzzle; no objective of PART 2 asks it.",
+   "why": "Nothing in the matematica or italiano wording fits finding differences between pictures.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "Mazes: no objective fits (MAT.3.8 is about real routes walked and described).",
+   "why": "The percorsi of MAT.3.8 and GEO.3.2 are done in the space around the child.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "MAT.5.17",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying on squared paper prepares 'Riprodurre in scala una figura assegnata (... la carta a quadretti)'.",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "Analogy puzzle; no objective of PART 2 asks it.",
+   "why": "The 'relazioni' of MAT.3.13 are relations and data shown in diagrams and tables, not analogies between pictures.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "none": "Code puzzle; no objective of PART 2 asks it.",
+   "why": "Decoding with a key is neither reading a text nor one of the relations, classifications or regularities matematica names.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "none": "Sudoku: no objective of PART 2 asks it.",
+   "why": "A logic puzzle with no counterpart in the wording.",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The grid is a double-entry table that represents a relation (who has what): 'Leggere e rappresentare relazioni e dati con diagrammi, schemi e tabelle'.",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "ITA.3.16",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the writing part fits: one complete sentence per difference ('Comunicare con frasi semplici e compiute'). The search itself has no objective.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A relation between two sets read and filled in a table from clues ('relazioni ... con ... tabelle').",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Classificare ... in base a una o più proprietà, utilizzando rappresentazioni opportune' (Venn, tabella a doppia entrata).",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "MAT.3.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill line as 3:two-attribute-sort.",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "rows": [
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Relations represented and read in a table.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "none": "Sudoku: no objective of PART 2 asks it.",
+   "why": "A logic puzzle with no counterpart in the wording.",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "none": "Emotional education is not in the disciplines of this registry (infanzia: campo di esperienza 'Il sé e l'altro'; primaria: educazione civica).",
+   "why": "The only wordings that name emotions are about making art (ART.5.1) or a diary (ITA.5.19), not about recognising feelings.",
+   "review": "author-all"
+  }
+ }
+}

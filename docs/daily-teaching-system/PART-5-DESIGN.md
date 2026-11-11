@@ -78,7 +78,7 @@ One reviewer in two roles (an American K–1 teacher; a guest teacher who has on
 
 ## 3. Measurement (rule 12 of the plan)
 
-Sub plans are live in English only. Nothing is built for another market before the Search Console read of **2026-12-09** (the same read as the units):
+Sub plans are live in English. Rule 12 allows two more markets before the read; a pack needs the units of its language for the review rule, so the only markets that can follow now are German (5.3: single lessons by grade and subject, the form the harvest found there) and Swedish (no indexable pack pages unless a native reviewer finds the search words). French full days wait for the French units. The Search Console read is on **2026-12-09** (the same read as the units):
 
 - **Pages:** `/en/sub-plans` and the 24 pack pages (sitemap shard 3).
 - **Read:** impressions, clicks and average position per page; the queries that show a pack page (expected heads: "emergency sub plans" with a grade, "sub plans" with a grade, "no prep sub plans"); beside them the 28-day numbers of the baseline (`docs/SEO/daily-system-baseline/`), to see that no old page lost what a pack page gained.

@@ -342,10 +342,11 @@ node /opt/lessoncraftstudio/scripts/audit-activity-coverage.js > /tmp/lcs-activi
 # authored order and prerequisites consistent, every tool, activity and landing the 11 language indexes name exists.
 # It becomes a hard gate when units ship (Part 3). docs/daily-teaching-system/graph/README.md
 node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-teaching-graph.txt 2>&1; tail -4 /tmp/lcs-teaching-graph.txt
-# WARN-only (Daily Teaching System, Part 2): the curriculum registries — every node cites its source, every
-# crosswalk row names an existing objective and can be shown without an invented id. It reads committed files only.
-# It becomes a hard gate once a public page shows a national objective (Parts 4 and 6). docs/daily-teaching-system/curricula/README.md
-node /opt/lessoncraftstudio/scripts/curricula/gates.js > /tmp/lcs-curricula.txt 2>&1; tail -3 /tmp/lcs-curricula.txt
+# HARD since Part 4.4 (2026-11-11: live unit pages show national objectives; it was WARN-only in Part 2): the
+# curriculum registries — every node cites its source, every crosswalk row names an existing objective and can be
+# shown without an invented id. It reads committed files only. docs/daily-teaching-system/curricula/README.md
+node /opt/lessoncraftstudio/scripts/curricula/gates.js > /tmp/lcs-curricula.txt 2>&1 || { tail -12 /tmp/lcs-curricula.txt; echo "ERROR: a curriculum registry fails its gates — node scripts/curricula/gates.js"; exit 1; }
+tail -3 /tmp/lcs-curricula.txt
 # WARN-only (Part 9 release 2): the skill index of class results is the build of today's content graph and curriculum
 # registries (a stale file would place a result under the wrong heading). Committed files only. It becomes a hard
 # gate when class results are switched on. docs/daily-teaching-system/PART-9-DESIGN.md §12
@@ -354,6 +355,10 @@ node /opt/lessoncraftstudio/scripts/class-results/build-skill-index.js --check >
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
+# WARN-only (Part 4.4): the committed units file of each language is what assemble.js writes from today's definitions,
+# notes, content graph and registry (a stale file shows a lesson its sources no longer describe). Hard once it has
+# passed on the server.
+for UL in /opt/lessoncraftstudio/frontend/content/units/defs/*.json; do UL="$(basename "$UL" .json)"; node /opt/lessoncraftstudio/scripts/units/assemble.js --loc="$UL" --check 2>&1 | tail -1 || true; done
 
 # Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
 # gates page_title + page_intro — the search-results surface — and nothing gated the

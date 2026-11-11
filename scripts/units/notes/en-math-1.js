@@ -35,7 +35,7 @@ module.exports = {
       },
     },
     '1:number-walls': {
-      title: 'Number walls (addition pyramids)',
+      title: 'Addition pyramids (number walls)',
       objective: 'Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.',
       note: {
         mistake: 'Children add two bricks that sit side by side and write the sum next to them, not above them. When a bottom brick is missing, they add the two numbers they can see and do not ask what is missing.',
@@ -179,7 +179,7 @@ module.exports = {
       },
     },
     '1:measure-length-units': {
-      title: 'Measure with unit squares',
+      title: 'Measure length with squares',
       objective: 'Children measure the length of an object by counting the unit squares under it, and put three objects in order from shortest to longest.',
       note: {
         mistake: 'Children count every square in the row, also the ones the object does not reach, or they count the lines and not the squares. When ordering, they go by where an object ends on the page and not by how long it is.',
@@ -215,7 +215,7 @@ module.exports = {
       },
     },
     '1:patterns-missing': {
-      title: 'Two are missing',
+      title: 'Patterns: two are missing',
       objective: 'Children find the part that repeats in a pattern and fill in two missing pictures.',
       note: {
         mistake: 'Children fill both empty boxes with the same picture, or look only at the picture right before each gap. A gap in the middle of the row is harder than one at the end.',

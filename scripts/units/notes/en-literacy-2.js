@@ -43,7 +43,7 @@ module.exports = {
       },
     },
     '2:pronouns': {
-      title: 'Who does the pronoun mean?',
+      title: 'Who does the pronoun stand for?',
       objective: 'Children find the name a pronoun stands for and rewrite a sentence with a pronoun in place of the name.',
       note: {
         mistake: 'Children link a pronoun to the nearest name, not to the one it means: in "Sam gave Lily his book," "his" is tied to Lily. When rewriting, they pick the wrong form ("Him went home").',
@@ -64,9 +64,9 @@ module.exports = {
       title: 'Review: find sh in sentences',
       objective: 'Children read sentences, circle every sh, including the ones in the middle and at the end of a word, and count them.',
       note: {
-        mistake: 'Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, wherever they are.',
+        mistake: 'Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.',
         words: 'Say: "sh is a team: the two letters are side by side and make one sound." Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: "Now find it with your eyes. Beginning, middle, or end?" Add: "If you hear /sh/ and cannot find sh, as in \'sure,\' tell me: that word spells the sound another way."',
-        watch: 'Compare the number in the box with the circles. A child who reads silently misses more; have that child whisper the sentence. Check words like "fish" and "washing," where the team is not at the start.',
+        watch: 'Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like "fish" and "washing," where the team is not at the start.',
       },
     },
     '2:spelling-rules': {
@@ -106,7 +106,7 @@ module.exports = {
       },
     },
     '2:synonyms~doing-stage': {
-      title: 'More exact words for said',
+      title: 'More exact words for "said"',
       objective: 'Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.',
       note: {
         mistake: 'Children take the words in the order they are printed in the bubble, or use one favorite ("shouted") everywhere. They do not look for the clue in the sentence that tells how something was said.',
@@ -160,12 +160,12 @@ module.exports = {
       },
     },
     '2:cursive-writing': {
-      title: 'Cursive letters and joins',
-      objective: 'Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil (for states that teach cursive in Grade 2).',
+      title: 'Cursive letters and connections',
+      objective: 'Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).',
       note: {
-        mistake: 'Children lift the pencil after every letter and add the joining stroke afterward, so the row is print letters with tails. The dot of the i and the cross of the t are added in the middle of a word, which breaks the flow.',
-        words: 'Say: "Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t." Name the strokes: "up, down, and out to the next letter." For w: "W ends up high, so the next letter starts from up there, not from the line." Write big in the air first, then on the page.',
-        watch: 'Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing.',
+        mistake: 'Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.',
+        words: 'Say: "Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t." Name the strokes: "up, down, and out to the next letter." For w: "W ends high, at the middle line, so the next letter starts from up there, not from the bottom line." Write it big in the air first, then on the page.',
+        watch: 'Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing.',
       },
     },
     '2:prefixes': {

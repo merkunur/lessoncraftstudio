@@ -13,7 +13,7 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { makerAppUrl } from '@/lib/makers/landings';
 import { teacherFileHref } from '@/lib/teacher-files';
-import { Unit, UnitLesson, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
+import { Unit, UnitLesson, UnitPlan, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 
@@ -115,12 +115,12 @@ function Lesson({ lesson, locale, ui }: { lesson: UnitLesson; locale: string; ui
   );
 }
 
-export default async function UnitPage({ locale, unit, ui }: { locale: string; unit: Unit; ui: UnitUi }) {
+export default async function UnitPage({ locale, unit, ui, plan }: { locale: string; unit: Unit; ui: UnitUi; plan: UnitPlan | null }) {
   const [tLevel, tTier] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
   ]);
-  const plan = tTier('name');
+  const planName = tTier('name');
   const gradeLabel = LEVEL_KEY[unit.grade] ? tLevel(LEVEL_KEY[unit.grade]) : unit.grade;
   const subjectLabel = ui[`subject_${unit.subject}`] || unit.subject;
   const url = canonicalUrl(localePath(locale, 'units', unit.slug));
@@ -168,13 +168,18 @@ export default async function UnitPage({ locale, unit, ui }: { locale: string; u
   const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: tBreadcrumb('home'), path: localePath(locale) },
+    { name: ui.hubCrumb, path: localePath(locale, 'units') },
     { name: unit.title, path: localePath(locale, 'units', unit.slug) },
   ]);
+  // the unit's place in its year plan (a plan lists its units in teaching order)
+  const at = plan ? plan.units.findIndex((r) => r.id === unit.id) : -1;
+  const prev = plan && at > 0 ? plan.units[at - 1] : null;
+  const next = plan && at >= 0 && at < plan.units.length - 1 ? plan.units[at + 1] : null;
 
   return (
     <main className={`un ${baloo2.variable} ${nunito.variable}`}>
       <div className="un-wrap">
-        <BreadcrumbTrail locale={locale} trail={[{ label: unit.title }]} />
+        <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: `/${locale}/units` }, { label: unit.title }]} />
         {unit.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}
 
         <header className="un-head">
@@ -184,6 +189,13 @@ export default async function UnitPage({ locale, unit, ui }: { locale: string; u
             <span>{fill(ui.factLessons, { n: count.lessons })}</span>
             <span>{unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })}</span>
           </p>
+          {plan && at >= 0 ? (
+            <p className="un-in-plan">
+              {ui.unitInPlan.split('{plan}').map((raw) => fill(raw, { n: at + 1, total: plan.units.length })).map((part, i) => (
+                i === 0 ? <span key={i}>{part}</span> : <span key={i}><a href={`/${locale}/units/${plan.slug}`}>{plan.title}</a>{part}</span>
+              ))}
+            </p>
+          ) : null}
         </header>
 
         <div className="un-top">
@@ -209,13 +221,20 @@ export default async function UnitPage({ locale, unit, ui }: { locale: string; u
             />
             <a className="un-btn un-btn-ghost" href={guideHref} rel="nofollow">{ui.guideBtn}</a>
             <SaveToCollectionsButton locale={locale} kind="unit" slug={unit.slug} labels={{ button: ui.saveBtn, done: ui.saveDone, open: ui.saveOpen, failed: ui.saveFailed }} />
-            <p className="un-teacher-plan">{fill(ui.planNote, { plan })}</p>
+            <p className="un-teacher-plan">{fill(ui.planNote, { plan: planName })}</p>
             <p className="un-teacher-how">{ui.bundleHow}</p>
           </section>
         </div>
 
         <h2 className="un-lessons-title">{ui.lessonsTitle}</h2>
         {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} />)}
+
+        {prev || next ? (
+          <nav className="un-around" aria-label={plan ? plan.title : undefined}>
+            {prev ? <a className="un-around-prev" href={`/${locale}/units/${prev.slug}`}>{fill(ui.unitPrev, { title: prev.title })}</a> : <span />}
+            {next ? <a className="un-around-next" href={`/${locale}/units/${next.slug}`}>{fill(ui.unitNext, { title: next.title })}</a> : null}
+          </nav>
+        ) : null}
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />

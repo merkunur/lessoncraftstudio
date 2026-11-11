@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { getUnitUi, unitsForActivity } from '@/lib/units';
 import { isCcss, frameworkNameEn, hasExternalStandard, displayCode } from '@/lib/frameworks';
 import path from 'path';
 import { Metadata } from 'next';
@@ -605,6 +606,8 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
 
   // Internal-link mesh (Part 2) — ships for all 11 locales (navigation).
   const related = await listRelatedActivities(row, params.locale);
+  // the LIVE units whose lesson uses this activity as its screen practice (Daily Teaching System, Part 4.4)
+  const [inUnits, unitUi] = await Promise.all([unitsForActivity(params.locale, params.slug), getUnitUi(params.locale)]);
   const otherLangs = await otherLocalesForRow(row, params.locale);
   const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
   /* only Common Core rows have a standards hub (lib/frameworks.ts) */
@@ -871,6 +874,25 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               <span aria-hidden="true">→</span>
             </Link>
           </section>
+          )}
+
+          {/* In a lesson plan: additive, only for an activity that a live unit uses. */}
+          {inUnits.length > 0 && unitUi?.partOfTitle && unitUi?.partOfActivity && (
+            <section aria-labelledby="activity-unit-heading" className="mb-8 rounded-r-xl border-l-4 border-teal-700 bg-cream-100 px-5 py-4">
+              <h2 id="activity-unit-heading" className="font-display text-lg md:text-xl font-semibold text-ink-900 mb-1">
+                {unitUi.partOfTitle}
+              </h2>
+              {inUnits.slice(0, 2).map((r) => {
+                const [before, after] = unitUi.partOfActivity.replace('{n}', String(r.lesson)).replace('{lesson}', r.lessonTitle).split('{unit}');
+                return (
+                  <p key={r.slug} className="text-ink-700 leading-relaxed [&+p]:mt-2">
+                    {before}
+                    <a href={`/${params.locale}/units/${r.slug}#lesson-${r.lesson}`} className="py-2 font-semibold text-teal-700 underline underline-offset-2">{r.title}</a>
+                    {after}
+                  </p>
+                );
+              })}
+            </section>
           )}
 
           {/* Related activities — same strand, then same grade. */}

@@ -271,10 +271,10 @@ module.exports = {
     },
     'K:heavy-light': {
       title: 'Which is heavier?',
-      objective: 'Children look at two things from everyday life and circle the one that is heavier.',
+      objective: 'Children look at two everyday objects and circle the one that is heavier.',
       note: {
-        mistake: 'Children circle the bigger picture. A big balloon is chosen over a small rock, because bigger has always meant more.',
-        words: 'Bring a balloon and a rock, or a big empty box and a small full bottle: "Which is bigger? Which is heavier? Hold one in each hand." Say: "Big is how much room it takes up. Heavy is how hard it pulls down on your hand."',
+        mistake: 'Children circle the thing that looks bigger. A big balloon is chosen over a small rock, because to them bigger has always meant more.',
+        words: 'Bring a balloon and a rock, or a big empty box and a small full bottle: "Which is bigger? Which is heavier? Hold one in each hand." Say: "Big is how much room it takes up. Heavy is how hard it pushes down on your hand."',
         watch: 'Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance.',
       },
     },

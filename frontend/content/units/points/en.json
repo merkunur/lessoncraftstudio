@@ -65,7 +65,7 @@
    }
   },
   "1:fluency-within-20": {
-   "title": "Fluent facts within 10",
+   "title": "Fact fluency within 10",
    "objective": "Children add and subtract within 10 without counting every time, using facts they know and facts they can figure out.",
    "note": {
     "mistake": "Children count every fact from 1, even 5 + 1 or 4 + 4, because counting has always given them the right answer. When they are pushed to be fast, they stop counting and guess.",
@@ -416,7 +416,7 @@
    }
   },
   "1:number-walls": {
-   "title": "Number walls (addition pyramids)",
+   "title": "Addition pyramids (number walls)",
    "objective": "Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.",
    "note": {
     "mistake": "Children add two bricks that sit side by side and write the sum next to them, not above them. When a bottom brick is missing, they add the two numbers they can see and do not ask what is missing.",
@@ -560,7 +560,7 @@
    }
   },
   "1:measure-length-units": {
-   "title": "Measure with unit squares",
+   "title": "Measure length with squares",
    "objective": "Children measure the length of an object by counting the unit squares under it, and put three objects in order from shortest to longest.",
    "note": {
     "mistake": "Children count every square in the row, also the ones the object does not reach, or they count the lines and not the squares. When ordering, they go by where an object ends on the page and not by how long it is.",
@@ -596,7 +596,7 @@
    }
   },
   "1:patterns-missing": {
-   "title": "Two are missing",
+   "title": "Patterns: two are missing",
    "objective": "Children find the part that repeats in a pattern and fill in two missing pictures.",
    "note": {
     "mistake": "Children fill both empty boxes with the same picture, or look only at the picture right before each gap. A gap in the middle of the row is harder than one at the end.",
@@ -704,7 +704,7 @@
    }
   },
   "2:column-method": {
-   "title": "Add and subtract in columns",
+   "title": "Add and subtract vertically",
    "objective": "Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.",
    "note": {
     "mistake": "Children write a two-digit sum under the ones column (27 + 15 becomes 312), or they write the new ten and forget to add it. Children who add the tens first have nowhere to put the new ten and leave the tens digit as it was. In subtraction they still take the smaller digit from the bigger one, as with the blocks.",
@@ -767,7 +767,7 @@
    }
   },
   "2:time-5-min-quarter": {
-   "title": "Tell time to five minutes",
+   "title": "Tell time to the nearest five minutes",
    "objective": "Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.",
    "note": {
     "mistake": "Children read the number the minute hand points to as the minutes: a hand on the 4 is \"4 minutes,\" and 2:20 becomes 2:04. Near the end of an hour they name the next hour: 2:50 is read as 3:50.",
@@ -794,7 +794,7 @@
    }
   },
   "2:bar-graphs": {
-   "title": "From a tally to a bar graph",
+   "title": "From tally marks to a bar graph",
    "objective": "Children read a tally chart, color a bar for each count, and use a bar graph to answer questions that put together or compare.",
    "note": {
     "mistake": "Children read a tally bundle as 4 or 6 and color a bar to the wrong height. For \"how many more\" they give the number of the taller bar; for \"how many altogether\" they read one bar and stop.",
@@ -911,7 +911,7 @@
    }
   },
   "2:3d-faces-edges-vertices": {
-   "title": "Faces, edges, and corners",
+   "title": "Faces, edges, and vertices (corners)",
    "objective": "Children count the flat faces, the edges, and the corners of solid shapes and write the numbers.",
    "note": {
     "mistake": "Children count only what they can see in the drawing: three faces of a cube. Going around a solid they lose track and count an edge twice, and they say \"side\" for a face and for an edge alike.",
@@ -920,7 +920,7 @@
    }
   },
   "2:symmetry-line": {
-   "title": "Is it a mirror line?",
+   "title": "Is it a line of symmetry?",
    "objective": "Children decide whether a dashed line cuts a picture into two matching halves, and pick the picture that is the same on both sides.",
    "note": {
     "mistake": "Children think any line that cuts a shape into two equal parts is a mirror line. The slanted line across a rectangle makes two equal halves that do not fold onto each other, and children circle the check.",
@@ -1028,7 +1028,7 @@
    }
   },
   "3:times-tables": {
-   "title": "The 2 and 5 times tables",
+   "title": "Multiplication facts for 2 and 5",
    "objective": "Children write the products for the 2 and 5 times tables and practice a mix of multiplication facts.",
    "note": {
     "mistake": "Children skip count from the start for every fact and lose track around the sixth or seventh number. They mix up neighbors: 6 × 5 is answered with 35.",
@@ -1235,7 +1235,7 @@
    }
   },
   "3:symmetry": {
-   "title": "How many mirror lines?",
+   "title": "How many lines of symmetry?",
    "objective": "Children find all the lines of symmetry of a shape and write how many there are.",
    "note": {
     "mistake": "Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a long rectangle, which are not mirror lines.",
@@ -1280,7 +1280,7 @@
    }
   },
   "K:letter-case": {
-   "title": "Capital and small letters",
+   "title": "Uppercase and lowercase letters",
    "objective": "Children match each capital letter to its small letter.",
    "note": {
     "mistake": "Children match the pairs that look alike (C c, S s, O o) and guess at the ones that do not: A a, G g, R r, Q q. The small letters b, d, p, and q get the wrong partners.",
@@ -1568,7 +1568,7 @@
    }
   },
   "1:synonyms": {
-   "title": "Two words that mean the same",
+   "title": "Two words that mean the same thing",
    "objective": "Children look at a picture and circle the two words under it that mean the same and tell about the picture.",
    "note": {
     "mistake": "Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.",
@@ -1578,10 +1578,10 @@
   },
   "3:input-output": {
    "title": "Number machines",
-   "objective": "Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.",
+   "objective": "Children use the rule printed on a number machine, such as + 7, − 4, or × 5, to fill in the missing numbers going in and coming out.",
    "note": {
-    "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.",
-    "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out: \"5 goes in. Add 7. What comes out?\" For a number going in: \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" Ask: \"How can you check? Put your number in and run the machine.\"",
+    "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5; on a × 5 machine with 30 coming out they write 150, not 6. Some read a minus rule as plus.",
+    "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out (the output): \"5 goes in. Add 7. What comes out?\" For a number going in (the input): \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" On a times machine: \"30 came out. The machine multiplied by 5. What number times 5 makes 30?\" Ask: \"How can you check? Put your number in and run the machine.\"",
     "watch": "Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right."
    }
   },
@@ -1614,10 +1614,10 @@
   },
   "K:heavy-light": {
    "title": "Which is heavier?",
-   "objective": "Children look at two things from everyday life and circle the one that is heavier.",
+   "objective": "Children look at two everyday objects and circle the one that is heavier.",
    "note": {
-    "mistake": "Children circle the bigger picture. A big balloon is chosen over a small rock, because bigger has always meant more.",
-    "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pulls down on your hand.\"",
+    "mistake": "Children circle the thing that looks bigger. A big balloon is chosen over a small rock, because to them bigger has always meant more.",
+    "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pushes down on your hand.\"",
     "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance."
    }
   },
@@ -1658,7 +1658,7 @@
    }
   },
   "2:pronouns": {
-   "title": "Who does the pronoun mean?",
+   "title": "Who does the pronoun stand for?",
    "objective": "Children find the name a pronoun stands for and rewrite a sentence with a pronoun in place of the name.",
    "note": {
     "mistake": "Children link a pronoun to the nearest name, not to the one it means: in \"Sam gave Lily his book,\" \"his\" is tied to Lily. When rewriting, they pick the wrong form (\"Him went home\").",
@@ -1679,9 +1679,9 @@
    "title": "Review: find sh in sentences",
    "objective": "Children read sentences, circle every sh, including the ones in the middle and at the end of a word, and count them.",
    "note": {
-    "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, wherever they are.",
+    "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
     "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
-    "watch": "Compare the number in the box with the circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
+    "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
    }
   },
   "2:spelling-rules": {
@@ -1721,7 +1721,7 @@
    }
   },
   "2:synonyms~doing-stage": {
-   "title": "More exact words for said",
+   "title": "More exact words for \"said\"",
    "objective": "Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.",
    "note": {
     "mistake": "Children take the words in the order they are printed in the bubble, or use one favorite (\"shouted\") everywhere. They do not look for the clue in the sentence that tells how something was said.",
@@ -1775,12 +1775,12 @@
    }
   },
   "2:cursive-writing": {
-   "title": "Cursive letters and joins",
-   "objective": "Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil (for states that teach cursive in Grade 2).",
+   "title": "Cursive letters and connections",
+   "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
    "note": {
-    "mistake": "Children lift the pencil after every letter and add the joining stroke afterward, so the row is print letters with tails. The dot of the i and the cross of the t are added in the middle of a word, which breaks the flow.",
-    "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends up high, so the next letter starts from up there, not from the line.\" Write big in the air first, then on the page.",
-    "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+    "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
+    "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
+    "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
    }
   },
   "2:prefixes": {

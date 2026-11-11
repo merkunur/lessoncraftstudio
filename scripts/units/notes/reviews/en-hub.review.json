@@ -1,0 +1,38 @@
+{
+ "1:fluency-within-20": { "title": "Fact fluency within 10" },
+ "1:number-walls": { "title": "Addition pyramids (number walls)" },
+ "1:measure-length-units": { "title": "Measure length with squares" },
+ "1:patterns-missing": { "title": "Patterns: two are missing" },
+ "2:column-method": { "title": "Add and subtract vertically" },
+ "2:time-5-min-quarter": { "title": "Tell time to the nearest five minutes" },
+ "2:bar-graphs": { "title": "From tally marks to a bar graph" },
+ "2:3d-faces-edges-vertices": { "title": "Faces, edges, and vertices (corners)" },
+ "2:symmetry-line": { "title": "Is it a line of symmetry?" },
+ "3:times-tables": { "title": "Multiplication facts for 2 and 5" },
+ "3:symmetry": { "title": "How many lines of symmetry?" },
+ "K:letter-case": { "title": "Uppercase and lowercase letters" },
+ "1:synonyms": { "title": "Two words that mean the same thing" },
+ "2:pronouns": { "title": "Who does the pronoun stand for?" },
+ "2:synonyms~doing-stage": { "title": "More exact words for \"said\"" },
+ "K:heavy-light": {
+  "objective": "Children look at two everyday objects and circle the one that is heavier.",
+  "mistake": "Children circle the thing that looks bigger. A big balloon is chosen over a small rock, because to them bigger has always meant more.",
+  "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pushes down on your hand.\""
+ },
+ "3:input-output": {
+  "objective": "Children use the rule printed on a number machine, such as + 7, − 4, or × 5, to fill in the missing numbers going in and coming out.",
+  "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5; on a × 5 machine with 30 coming out they write 150, not 6. Some read a minus rule as plus.",
+  "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out (the output): \"5 goes in. Add 7. What comes out?\" For a number going in (the input): \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" On a times machine: \"30 came out. The machine multiplied by 5. What number times 5 makes 30?\" Ask: \"How can you check? Put your number in and run the machine.\""
+ },
+ "2:digraphs": {
+  "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
+  "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
+ },
+ "2:cursive-writing": {
+  "title": "Cursive letters and connections",
+  "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
+  "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
+  "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
+  "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+ }
+}

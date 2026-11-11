@@ -106,7 +106,7 @@ module.exports = {
       },
     },
     '2:column-method': {
-      title: 'Add and subtract in columns',
+      title: 'Add and subtract vertically',
       objective: 'Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.',
       note: {
         mistake: 'Children write a two-digit sum under the ones column (27 + 15 becomes 312), or they write the new ten and forget to add it. Children who add the tens first have nowhere to put the new ten and leave the tens digit as it was. In subtraction they still take the smaller digit from the bigger one, as with the blocks.',
@@ -169,7 +169,7 @@ module.exports = {
       },
     },
     '2:time-5-min-quarter': {
-      title: 'Tell time to five minutes',
+      title: 'Tell time to the nearest five minutes',
       objective: 'Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.',
       note: {
         mistake: 'Children read the number the minute hand points to as the minutes: a hand on the 4 is "4 minutes," and 2:20 becomes 2:04. Near the end of an hour they name the next hour: 2:50 is read as 3:50.',
@@ -196,7 +196,7 @@ module.exports = {
       },
     },
     '2:bar-graphs': {
-      title: 'From a tally to a bar graph',
+      title: 'From tally marks to a bar graph',
       objective: 'Children read a tally chart, color a bar for each count, and use a bar graph to answer questions that put together or compare.',
       note: {
         mistake: 'Children read a tally bundle as 4 or 6 and color a bar to the wrong height. For "how many more" they give the number of the taller bar; for "how many altogether" they read one bar and stop.',
@@ -313,7 +313,7 @@ module.exports = {
       },
     },
     '2:3d-faces-edges-vertices': {
-      title: 'Faces, edges, and corners',
+      title: 'Faces, edges, and vertices (corners)',
       objective: 'Children count the flat faces, the edges, and the corners of solid shapes and write the numbers.',
       note: {
         mistake: 'Children count only what they can see in the drawing: three faces of a cube. Going around a solid they lose track and count an edge twice, and they say "side" for a face and for an edge alike.',
@@ -322,7 +322,7 @@ module.exports = {
       },
     },
     '2:symmetry-line': {
-      title: 'Is it a mirror line?',
+      title: 'Is it a line of symmetry?',
       objective: 'Children decide whether a dashed line cuts a picture into two matching halves, and pick the picture that is the same on both sides.',
       note: {
         mistake: 'Children think any line that cuts a shape into two equal parts is a mirror line. The slanted line across a rectangle makes two equal halves that do not fold onto each other, and children circle the check.',

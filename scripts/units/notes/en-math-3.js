@@ -88,7 +88,7 @@ module.exports = {
       },
     },
     '3:times-tables': {
-      title: 'The 2 and 5 times tables',
+      title: 'Multiplication facts for 2 and 5',
       objective: 'Children write the products for the 2 and 5 times tables and practice a mix of multiplication facts.',
       note: {
         mistake: 'Children skip count from the start for every fact and lose track around the sixth or seventh number. They mix up neighbors: 6 × 5 is answered with 35.',
@@ -295,7 +295,7 @@ module.exports = {
       },
     },
     '3:symmetry': {
-      title: 'How many mirror lines?',
+      title: 'How many lines of symmetry?',
       objective: 'Children find all the lines of symmetry of a shape and write how many there are.',
       note: {
         mistake: 'Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a long rectangle, which are not mirror lines.',
@@ -323,10 +323,10 @@ module.exports = {
     },
     '3:input-output': {
       title: 'Number machines',
-      objective: 'Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.',
+      objective: 'Children use the rule printed on a number machine, such as + 7, − 4, or × 5, to fill in the missing numbers going in and coming out.',
       note: {
-        mistake: 'Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.',
-        words: 'Have children read the rule aloud first: "This machine adds 7 to every number." For a number coming out: "5 goes in. Add 7. What comes out?" For a number going in: "12 came out. The machine added 7. What went in? Undo it: 12 minus 7." Ask: "How can you check? Put your number in and run the machine."',
+        mistake: 'Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5; on a × 5 machine with 30 coming out they write 150, not 6. Some read a minus rule as plus.',
+        words: 'Have children read the rule aloud first: "This machine adds 7 to every number." For a number coming out (the output): "5 goes in. Add 7. What comes out?" For a number going in (the input): "12 came out. The machine added 7. What went in? Undo it: 12 minus 7." On a times machine: "30 came out. The machine multiplied by 5. What number times 5 makes 30?" Ask: "How can you check? Put your number in and run the machine."',
         watch: 'Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right.',
       },
     },

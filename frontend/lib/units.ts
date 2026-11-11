@@ -9,6 +9,9 @@
  *   content/units/ui.<loc>.json      the page's own strings (written natively per language)
  *
  * status 'pilot' = noindex, in no sitemap, linked from nowhere (the format pilots of Part 3).
+ *
+ * The same file carries the YEAR PLANS (Part 4.4): the units of one grade and subject in teaching order with the
+ * weeks each takes, shown at /<locale>/units/<plan-slug>; and /<locale>/units is the hub that lists everything.
  */
 import { deckAssets } from '@/lib/seo/landing-content';
 
@@ -40,6 +43,23 @@ export interface Unit {
   weeks: number;
   lessons: UnitLesson[];
 }
+/** one unit inside a year plan: weeks `from`–`to` of the plan, its lesson titles, the standards it teaches */
+export interface PlanRow { id: string; slug: string; title: string; weeks: number; from: number; to: number; lessons: string[]; standards: string[] }
+export interface UnitPlan {
+  id: string;
+  slug: string;
+  /** 'live' only when every unit of the plan is live */
+  status: 'pilot' | 'live';
+  grade: string;
+  subject: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  weeks: number;
+  /** the name the standards of its units are shown under ("Common Core"); null when no unit shows a standard */
+  framework: string | null;
+  units: PlanRow[];
+}
 export type UnitUi = Record<string, string>;
 
 const cache = new Map<string, unknown>();
@@ -54,10 +74,49 @@ async function load<T>(key: string, importer: () => Promise<{ default: unknown }
     return null;
   }
 }
+interface UnitsFile { units: Unit[]; plans?: UnitPlan[] }
+const file = (locale: string) => load<UnitsFile>(`units.${locale}`, () => import(`@/content/units/units.${locale}.json`));
 export async function getUnits(locale: string): Promise<Unit[]> {
-  const f = await load<{ units: Unit[] }>(`units.${locale}`, () => import(`@/content/units/units.${locale}.json`));
-  return f?.units ?? [];
+  return (await file(locale))?.units ?? [];
 }
+export async function getPlans(locale: string): Promise<UnitPlan[]> {
+  return (await file(locale))?.plans ?? [];
+}
+export async function getPlan(locale: string, slug: string): Promise<UnitPlan | null> {
+  return (await getPlans(locale)).find((p) => p.slug === slug) ?? null;
+}
+
+/**
+ * What the hub of a language lists. Live units when there are any; a language whose units are all pilots shows its
+ * pilots on a noindex hub (that is how a new language is read before it is published); no units = no hub (404).
+ */
+export async function listedUnits(locale: string): Promise<{ live: boolean; units: Unit[]; plans: UnitPlan[] }> {
+  const [units, plans] = await Promise.all([getUnits(locale), getPlans(locale)]);
+  const liveUnits = units.filter((u) => u.status === 'live');
+  if (liveUnits.length) return { live: true, units: liveUnits, plans: plans.filter((p) => p.status === 'live') };
+  return { live: false, units, plans };
+}
+
+/** grades in school order, for every list of units */
+export const GRADE_ORDER = ['P', 'K', '1', '2', '3', '4', '5'];
+export const SUBJECT_ORDER = ['math', 'literacy', 'science', 'social', 'health', 'arts', 'thinking', 'sel'];
+
+export interface UnitRef { slug: string; title: string; lesson: number; lessonTitle: string }
+/**
+ * The LIVE units that use a page of the site, for the "Part of the unit" block on that page (a worksheet landing or
+ * an activity page). A pilot unit is linked from nowhere, so it never appears here.
+ */
+async function unitRefs(locale: string, test: (l: UnitLesson) => boolean): Promise<UnitRef[]> {
+  const out: UnitRef[] = [];
+  for (const u of await getUnits(locale)) {
+    if (u.status !== 'live') continue;
+    const l = u.lessons.find(test);
+    if (l) out.push({ slug: u.slug, title: u.title, lesson: l.n, lessonTitle: l.title });
+  }
+  return out;
+}
+export const unitsForLanding = (locale: string, landingSlug: string) => unitRefs(locale, (l) => l.paper.some((p) => p.landing === landingSlug));
+export const unitsForActivity = (locale: string, activitySlug: string) => unitRefs(locale, (l) => l.screen?.kind === 'activity' && l.screen.slug === activitySlug);
 export const getUnitUi = (locale: string) => load<UnitUi>(`ui.${locale}`, () => import(`@/content/units/ui.${locale}.json`));
 
 export async function getUnit(locale: string, slug: string): Promise<Unit | null> {
@@ -95,3 +154,5 @@ export function unitPdfList(locale: string, unit: Unit): string[] {
 
 /** the Teacher-only file of a unit, as the gate knows it (lib/teacher-files.ts) */
 export const unitGuideFile = (unit: Unit) => `units/${unit.id}/teacher-guide`;
+/** the Teacher-only printable year plan (scripts/units/build-year-plan.js); a plan id is "plan-<grade>-<subject>" */
+export const planFile = (plan: UnitPlan) => `units/${plan.id}/scope-and-sequence`;

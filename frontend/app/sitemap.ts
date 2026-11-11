@@ -16,6 +16,8 @@ import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, i
 // and omitted here (single SoT shared with the [secondary] route).
 import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
+import { buildHreflangAlternates } from '@/lib/seo/hreflang';
+import { listedUnits, unitSiblings } from '@/lib/units';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -348,6 +350,29 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
           alternates: { languages: allLocaleAlternates(page.path) },
         });
       }
+    }
+
+    // UNITS (Daily Teaching System, Part 4.4): the hub, every LIVE unit and every LIVE year plan of a language.
+    // DB-free: read from content/units/units.<loc>.json through lib/units.ts, the file the routes render from, so a
+    // page is here exactly when it is indexable there (a pilot unit is noindex and never listed). hreflang mirrors
+    // the routes: the hub between the languages whose hub is live, a unit between its live siblings, a year plan
+    // none (each country orders its own units).
+    try {
+      const liveHubs: string[] = [];
+      for (const locale of locales) if ((await listedUnits(locale)).live) liveHubs.push(locale);
+      const hubAlternates = liveHubs.length > 1 ? buildHreflangAlternates(liveHubs, (l) => `${baseUrl}/${l}/units`, baseUrl) : undefined;
+      for (const locale of liveHubs) {
+        const listed = await listedUnits(locale);
+        routes.push({ url: `${baseUrl}/${locale}/units`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.7, ...(hubAlternates ? { alternates: { languages: hubAlternates } } : {}) });
+        for (const plan of listed.plans) routes.push({ url: `${baseUrl}/${locale}/units/${plan.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6 });
+        for (const unit of listed.units) {
+          const siblings = await unitSiblings(unit.id, locales);
+          const languages = Object.keys(siblings).length > 1 ? buildHreflangAlternates(Object.keys(siblings), (l) => `${baseUrl}/${l}/units/${siblings[l]}`, baseUrl) : undefined;
+          routes.push({ url: `${baseUrl}/${locale}/units/${unit.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6, ...(languages ? { alternates: { languages } } : {}) });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] unit URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

@@ -169,7 +169,7 @@ module.exports = {
       },
     },
     '1:synonyms': {
-      title: 'Two words that mean the same',
+      title: 'Two words that mean the same thing',
       objective: 'Children look at a picture and circle the two words under it that mean the same and tell about the picture.',
       note: {
         mistake: 'Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.',

@@ -138,6 +138,46 @@ function loadLevelsAugment(locale) {
   _lvlCache[locale] = data;
   return data;
 }
+/* -------- "In a lesson plan" block (Daily Teaching System, Part 4.4) --------
+ * A landing whose worksheet is handed out in a lesson of a LIVE unit says so and links to the unit
+ * (frontend/content/units/units.<locale>.json, the file the unit pages render from; the words are the unit pages'
+ * own strings, ui.<locale>.json). Additive: the block carries its own inline styles, so <head> is untouched and a
+ * landing in no live unit stays byte-identical.
+ * A pilot unit is linked from nowhere, so it never appears here. */
+const _unitRefs = {};
+function unitRefsFor(locale) {
+  if (locale in _unitRefs) return _unitRefs[locale];
+  const dir = path.join(ROOT, 'frontend', 'content', 'units');
+  const out = { ui: null, bySlug: new Map() };
+  try {
+    const file = JSON.parse(fs.readFileSync(path.join(dir, 'units.' + locale + '.json'), 'utf8'));
+    out.ui = JSON.parse(fs.readFileSync(path.join(dir, 'ui.' + locale + '.json'), 'utf8'));
+    for (const u of file.units || []) {
+      if (u.status !== 'live') continue;
+      for (const le of u.lessons) for (const p of le.paper) {
+        if (!p.landing) continue;
+        const list = out.bySlug.get(p.landing) || [];
+        if (!list.some((r) => r.slug === u.slug)) list.push({ slug: u.slug, title: u.title, lesson: le.n, lessonTitle: le.title });
+        out.bySlug.set(p.landing, list);
+      }
+    }
+  } catch (e) { /* a language without units has no block */ }
+  return (_unitRefs[locale] = out);
+}
+function unitBlockHtml(locale, slug) {
+  const { ui, bySlug } = unitRefsFor(locale);
+  const refs = bySlug.get(slug);
+  if (!ui || !refs || !ui.partOfTitle || !ui.partOfLanding) return '';
+  const line = (r) => {
+    const [before, after] = ui.partOfLanding.replace('{n}', String(r.lesson)).replace('{lesson}', r.lessonTitle).split('{unit}');
+    return `  <p style="color:var(--ink-700);font-size:.9375rem;line-height:1.7;margin-top:.25rem">${esc(before)}<a style="color:var(--teal-deep);font-weight:700;padding:.5rem 0" href="/${locale}/units/${esc(r.slug)}#lesson-${r.lesson}">${esc(r.title)}</a>${esc(after || '')}</p>`;
+  };
+  return `
+<section class="in-unit" style="max-width:48rem;background:var(--teal-soft);border-left:5px solid var(--teal-deep);border-radius:.25rem .75rem .75rem .25rem;padding:1rem 1.25rem;margin-bottom:3rem">
+  <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:1.125rem;color:var(--ink-900);margin-bottom:.375rem">${esc(ui.partOfTitle)}</h2>
+${refs.slice(0, 2).map(line).join('\n')}
+</section>`;
+}
 /** The "three levels" block for a landing, or '' when its face has no ladder. */
 function levelsBlockHtml(locale, lv, type) {
   if (!lv || !lv.code || !Array.isArray(lv.rungs) || lv.rungs.length < 2) return '';
@@ -1395,7 +1435,7 @@ ${printOnly
       <p>${esc(l.p3)}</p>
     </section>
 ${factsHtml}
-${levelsHtml}
+${levelsHtml}${unitBlockHtml(locale, l.slug)}
 ${wordsHtml}
 ${problemsHtml}
 ${printOnly ? '' : `    <section class="play-section">

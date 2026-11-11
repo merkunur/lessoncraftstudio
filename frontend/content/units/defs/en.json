@@ -4,12 +4,12 @@
   {
    "id": "g1-add-subtract-within-10",
    "slug": "addition-and-subtraction-within-10-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Addition and Subtraction Within 10",
    "metaTitle": "Grade 1 Math Lesson Plans: Addition and Subtraction Within 10",
-   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and practice on screen.",
+   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
    "weeks": 2,
    "lessons": [
     {
@@ -80,12 +80,12 @@
   {
    "id": "k-hearing-sounds-in-words",
    "slug": "hearing-sounds-in-words-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Hearing Sounds in Words",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Hearing Sounds in Words",
-   "metaDescription": "A Kindergarten review unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words, with teacher notes, for children who know most letter sounds.",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Hearing Sounds in Words",
+   "metaDescription": "A three-week Kindergarten unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words. The last two are for children who know most letter sounds.",
    "weeks": 3,
    "lessons": [
     {
@@ -139,7 +139,7 @@
   {
    "id": "k-position-size-patterns",
    "slug": "position-words-size-and-patterns-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
@@ -188,7 +188,7 @@
   {
    "id": "k-counting-to-10",
    "slug": "counting-to-10-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Counting to 10",
@@ -254,7 +254,7 @@
   {
    "id": "k-shapes",
    "slug": "shapes-all-around-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Shapes All Around",
@@ -294,7 +294,7 @@
   {
    "id": "k-counting-in-order-to-20",
    "slug": "counting-in-order-to-20-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Counting in Order to 20",
@@ -338,11 +338,11 @@
   {
    "id": "k-sorting-tallies-days",
    "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Sorting, Tallies, and the Days of the Week",
-   "metaTitle": "Kindergarten Lesson Plans: Sorting, Tallies, and the Days of the Week",
+   "metaTitle": "Kindergarten Math Lesson Plans: Sorting, Tallies, and Days of the Week",
    "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting each kind, tally marks, estimating, heavier and lighter, and the days of the week, with teacher notes.",
    "weeks": 1,
    "lessons": [
@@ -384,12 +384,12 @@
   {
    "id": "k-putting-together-number-bonds",
    "slug": "putting-together-and-number-bonds-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Putting Together and Number Bonds",
    "metaTitle": "Kindergarten Math Lesson Plans: Putting Together and Number Bonds",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, first addition and subtraction facts, partners of 20, and odd and even.",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
    "weeks": 1,
    "lessons": [
     {
@@ -435,13 +435,13 @@
   },
   {
    "id": "g1-doubles-three-addends-number-walls",
-   "slug": "doubles-three-addends-and-number-walls-grade-1-unit",
-   "status": "pilot",
+   "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+   "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Doubles, Three Addends, and Number Walls",
-   "metaTitle": "Grade 1 Math Lesson Plans: Doubles, Three Addends, and Number Walls",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and number walls, each with a teacher note.",
+   "title": "Doubles, Three Addends, and Addition Pyramids",
+   "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
    "weeks": 1,
    "lessons": [
     {
@@ -476,7 +476,7 @@
   {
    "id": "g1-tens-and-ones",
    "slug": "tens-and-ones-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Tens and Ones",
@@ -517,7 +517,7 @@
   {
    "id": "g1-hundreds-chart-skip-counting",
    "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "The Hundreds Chart and Skip Counting",
@@ -559,7 +559,7 @@
   {
    "id": "g1-time-calendar-coins",
    "slug": "time-calendar-and-coins-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Time, Calendar, and Coins",
@@ -610,7 +610,7 @@
   {
    "id": "g1-shapes-measuring-graphs",
    "slug": "shapes-measuring-and-graphs-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
@@ -670,7 +670,7 @@
   {
    "id": "g2-place-value-to-1000",
    "slug": "place-value-to-1000-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Place Value to 1,000",
@@ -737,12 +737,12 @@
   {
    "id": "g2-add-subtract-within-1000",
    "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Adding and Subtracting Within 100 and 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100 and 1,000",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, in columns, and in number walls and a maze, each with a teacher note.",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -779,12 +779,12 @@
   {
    "id": "g2-measurement-time-money",
    "slug": "measurement-time-and-money-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to five minutes, the calendar, and money, each with a teacher note and pages at three levels.",
+   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -825,12 +825,12 @@
   {
    "id": "g2-graphs-and-grids",
    "slug": "graphs-and-grids-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, with a first look at pictographs with a key and at grid squares, each with a teacher note.",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -865,7 +865,7 @@
   {
    "id": "g2-equal-groups-equal-shares",
    "slug": "equal-groups-and-equal-shares-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
@@ -927,12 +927,12 @@
   {
    "id": "g2-shapes-solids-symmetry",
    "slug": "shapes-solids-and-symmetry-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Shapes, Solids, and Symmetry",
    "metaTitle": "Grade 2 Math Lesson Plans: Shapes, Solids, and Symmetry",
-   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides, solid shapes and their faces, edges, and vertices, and a first look at symmetry, with teacher notes.",
+   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides; solid shapes and their faces, edges, and vertices; and a first look at symmetry, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -982,7 +982,7 @@
   {
    "id": "g3-rounding-adding-subtracting",
    "slug": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Rounding, Adding, and Subtracting Within 1,000",
@@ -1041,7 +1041,7 @@
   {
    "id": "g3-starting-multiplication",
    "slug": "starting-multiplication-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Starting Multiplication",
@@ -1088,12 +1088,12 @@
   {
    "id": "g3-division",
    "slug": "division-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a fourth-grade standard.",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
    "weeks": 1,
    "lessons": [
     {
@@ -1134,13 +1134,13 @@
   },
   {
    "id": "g3-time-temperature-mass-volume",
-   "slug": "time-temperature-mass-and-volume-grade-3-unit",
-   "status": "pilot",
+   "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
+   "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Time, Temperature, Mass, and Volume",
-   "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Volume",
-   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, time passed, 24-hour time, reading a thermometer, grams on a balance, and milliliters in a cup.",
+   "title": "Time, Temperature, Mass, and Liquid Volume",
+   "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Liquid Volume",
+   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, and milliliters in a cup, with a first look at 24-hour time.",
    "weeks": 2,
    "lessons": [
     {
@@ -1194,12 +1194,12 @@
   {
    "id": "g3-area-perimeter-volume",
    "slug": "area-and-perimeter-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Area and Perimeter",
    "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
-   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on area as rows times columns and perimeter as the distance around, and an extra lesson on counting the cubes in a solid.",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons, four on area as rows times columns and perimeter as the distance around, and one extra lesson on counting the cubes in a solid.",
    "weeks": 1,
    "lessons": [
     {
@@ -1237,7 +1237,7 @@
   {
    "id": "g3-fractions",
    "slug": "fractions-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Fractions",
@@ -1295,7 +1295,7 @@
   {
    "id": "g3-shapes-and-data",
    "slug": "shapes-and-data-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Shapes and Data",
@@ -1340,12 +1340,12 @@
   {
    "id": "k-letters-and-handwriting",
    "slug": "letters-and-handwriting-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Letters and Handwriting",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Letters and Handwriting",
-   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil lines, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Letters and Handwriting",
+   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil strokes, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
    "weeks": 2,
    "lessons": [
     {
@@ -1404,11 +1404,11 @@
   {
    "id": "k-first-words-to-read",
    "slug": "first-words-to-read-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "First Words to Read",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: First Words to Read",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
    "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
    "weeks": 1,
    "lessons": [
@@ -1452,11 +1452,11 @@
   {
    "id": "k-sorting-words-telling-stories",
    "slug": "sorting-opposites-and-story-order-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
-   "metaTitle": "Kindergarten Lesson Plans: Sorting, Opposites, and Story Order",
+   "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
    "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
    "weeks": 1,
    "lessons": [
@@ -1491,12 +1491,12 @@
   {
    "id": "g1-sounds-spelling-syllables",
    "slug": "sounds-spelling-and-syllables-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A two-week Grade 1 unit on short vowels and letter teams: 6 lessons on rhymes, word families, sound boxes, sh, ch, and th, spelling picture words, and syllables.",
+   "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
+   "metaDescription": "A two-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, and th, spelling picture words, and syllables.",
    "weeks": 2,
    "lessons": [
     {
@@ -1549,11 +1549,11 @@
   {
    "id": "g1-reading-sentences-and-stories",
    "slug": "reading-sentences-and-stories-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Reading Sentences and Stories",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Reading Sentences and Stories",
+   "metaTitle": "Grade 1 Lesson Plans: Reading Sentences and Stories",
    "metaDescription": "A one-week Grade 1 unit: 5 lessons on reading and following a sentence, missing words, mixed-up sentences, question words, and story order, with teacher notes.",
    "weeks": 1,
    "lessons": [
@@ -1600,12 +1600,12 @@
   {
    "id": "g1-words-and-how-they-work",
    "slug": "words-and-how-they-work-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Words and How They Work",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Words and How They Work",
-   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
+   "metaTitle": "Grade 1 Reading and Writing Lesson Plans: Words and How They Work",
+   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
    "weeks": 2,
    "lessons": [
     {
@@ -1666,12 +1666,12 @@
   {
    "id": "g2-sentences-and-grammar",
    "slug": "sentences-and-grammar-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Sentences and Grammar",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Sentences and Grammar",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, nouns, verbs, and adjectives, plurals, verb forms, pronouns, and writing questions.",
+   "metaTitle": "Grade 2 Reading and Writing Lesson Plans: Sentences and Grammar",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, parts of speech (nouns, verbs, and adjectives), plurals, verb forms, pronouns, and writing questions.",
    "weeks": 2,
    "lessons": [
     {
@@ -1726,12 +1726,12 @@
   {
    "id": "g2-spelling-and-word-building",
    "slug": "spelling-word-building-and-word-choice-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on a review of sh, spelling rules, compound words, root words, synonyms, and more exact words for said, with teacher notes.",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
    "weeks": 2,
    "lessons": [
     {
@@ -1781,12 +1781,12 @@
   {
    "id": "g2-stories-facts-and-writing",
    "slug": "reading-stories-and-writing-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Reading Stories and Writing",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact sheet, and cursive.",
+   "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
    "weeks": 2,
    "lessons": [
     {
@@ -1844,12 +1844,12 @@
   {
    "id": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "literacy",
    "title": "Words and Their Meanings",
-   "metaTitle": "Grade 3 Literacy Lesson Plans: Words and Their Meanings",
-   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, words for go and look, person words such as baker, and choosing the right form of a word, with teacher notes.",
+   "metaTitle": "Grade 3 Reading and Writing Lesson Plans: Words and Their Meanings",
+   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, more exact words for \"go\" and \"look,\" words that name a person, such as \"baker,\" and choosing the right form of a word.",
    "weeks": 1,
    "lessons": [
     {
@@ -1890,8 +1890,8 @@
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Kindergarten math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Kindergarten math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "k-position-size-patterns",
     "k-counting-to-10",
@@ -1907,8 +1907,8 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 1 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 1 math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g1-add-subtract-within-10",
     "g1-doubles-three-addends-number-walls",
@@ -1924,8 +1924,8 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 2 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 2 math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g2-place-value-to-1000",
     "g2-add-subtract-within-1000",
@@ -1941,8 +1941,8 @@
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 3 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 3 math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g3-rounding-adding-subtracting",
     "g3-starting-multiplication",
@@ -1959,23 +1959,23 @@
    "grade": "K",
    "subject": "literacy",
    "title": "Kindergarten Reading and Writing Scope and Sequence",
-   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Kindergarten reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing ({weeks} Weeks)",
+   "metaDescription": "{units} Kindergarten reading and writing units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
-    "k-hearing-sounds-in-words",
     "k-letters-and-handwriting",
+    "k-hearing-sounds-in-words",
     "k-first-words-to-read",
     "k-sorting-words-telling-stories"
    ]
   },
   {
    "id": "plan-1-literacy",
-   "slug": "grade-1-reading-and-writing-scope-and-sequence",
+   "slug": "grade-1-reading-and-language-scope-and-sequence",
    "grade": "1",
    "subject": "literacy",
-   "title": "Grade 1 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Grade 1 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "title": "Grade 1 Reading and Language Scope and Sequence",
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 1 reading and language units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g1-sounds-spelling-syllables",
     "g1-reading-sentences-and-stories",
@@ -1988,8 +1988,8 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Grade 2 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 2 reading and writing units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g2-sentences-and-grammar",
     "g2-spelling-and-word-building",

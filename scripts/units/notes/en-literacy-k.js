@@ -26,7 +26,7 @@ module.exports = {
       },
     },
     'K:letter-case': {
-      title: 'Capital and small letters',
+      title: 'Uppercase and lowercase letters',
       objective: 'Children match each capital letter to its small letter.',
       note: {
         mistake: 'Children match the pairs that look alike (C c, S s, O o) and guess at the ones that do not: A a, G g, R r, Q q. The small letters b, d, p, and q get the wrong partners.',

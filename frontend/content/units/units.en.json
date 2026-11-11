@@ -5,12 +5,12 @@
   {
    "id": "g1-add-subtract-within-10",
    "slug": "addition-and-subtraction-within-10-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Addition and Subtraction Within 10",
    "metaTitle": "Grade 1 Math Lesson Plans: Addition and Subtraction Within 10",
-   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and practice on screen.",
+   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
    "weeks": 2,
    "lessons": [
     {
@@ -415,7 +415,7 @@
     {
      "n": 8,
      "point": "1:fluency-within-20",
-     "title": "Fluent facts within 10",
+     "title": "Fact fluency within 10",
      "objective": "Children add and subtract within 10 without counting every time, using facts they know and facts they can figure out.",
      "standards": [
       {
@@ -472,12 +472,12 @@
   {
    "id": "k-hearing-sounds-in-words",
    "slug": "hearing-sounds-in-words-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Hearing Sounds in Words",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Hearing Sounds in Words",
-   "metaDescription": "A Kindergarten review unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words, with teacher notes, for children who know most letter sounds.",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Hearing Sounds in Words",
+   "metaDescription": "A three-week Kindergarten unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words. The last two are for children who know most letter sounds.",
    "weeks": 3,
    "lessons": [
     {
@@ -825,7 +825,7 @@
   {
    "id": "k-position-size-patterns",
    "slug": "position-words-size-and-patterns-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
@@ -1058,7 +1058,7 @@
   {
    "id": "k-counting-to-10",
    "slug": "counting-to-10-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Counting to 10",
@@ -1442,7 +1442,7 @@
   {
    "id": "k-shapes",
    "slug": "shapes-all-around-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Shapes All Around",
@@ -1642,7 +1642,7 @@
   {
    "id": "k-counting-in-order-to-20",
    "slug": "counting-in-order-to-20-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Counting in Order to 20",
@@ -1874,11 +1874,11 @@
   {
    "id": "k-sorting-tallies-days",
    "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Sorting, Tallies, and the Days of the Week",
-   "metaTitle": "Kindergarten Lesson Plans: Sorting, Tallies, and the Days of the Week",
+   "metaTitle": "Kindergarten Math Lesson Plans: Sorting, Tallies, and Days of the Week",
    "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting each kind, tally marks, estimating, heavier and lighter, and the days of the week, with teacher notes.",
    "weeks": 1,
    "lessons": [
@@ -2027,7 +2027,7 @@
      "n": 4,
      "point": "K:heavy-light",
      "title": "Which is heavier?",
-     "objective": "Children look at two things from everyday life and circle the one that is heavier.",
+     "objective": "Children look at two everyday objects and circle the one that is heavier.",
      "standards": [
       {
        "rel": "teaches",
@@ -2062,8 +2062,8 @@
       "template": "K-038"
      },
      "note": {
-      "mistake": "Children circle the bigger picture. A big balloon is chosen over a small rock, because bigger has always meant more.",
-      "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pulls down on your hand.\"",
+      "mistake": "Children circle the thing that looks bigger. A big balloon is chosen over a small rock, because to them bigger has always meant more.",
+      "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pushes down on your hand.\"",
       "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance."
      }
     },
@@ -2122,12 +2122,12 @@
   {
    "id": "k-putting-together-number-bonds",
    "slug": "putting-together-and-number-bonds-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Putting Together and Number Bonds",
    "metaTitle": "Kindergarten Math Lesson Plans: Putting Together and Number Bonds",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, first addition and subtraction facts, partners of 20, and odd and even.",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
    "weeks": 1,
    "lessons": [
     {
@@ -2379,13 +2379,13 @@
   },
   {
    "id": "g1-doubles-three-addends-number-walls",
-   "slug": "doubles-three-addends-and-number-walls-grade-1-unit",
-   "status": "pilot",
+   "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+   "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Doubles, Three Addends, and Number Walls",
-   "metaTitle": "Grade 1 Math Lesson Plans: Doubles, Three Addends, and Number Walls",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and number walls, each with a teacher note.",
+   "title": "Doubles, Three Addends, and Addition Pyramids",
+   "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
    "weeks": 1,
    "lessons": [
     {
@@ -2554,7 +2554,7 @@
     {
      "n": 4,
      "point": "1:number-walls",
-     "title": "Number walls (addition pyramids)",
+     "title": "Addition pyramids (number walls)",
      "objective": "Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.",
      "standards": [
       {
@@ -2614,7 +2614,7 @@
   {
    "id": "g1-tens-and-ones",
    "slug": "tens-and-ones-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Tens and Ones",
@@ -2840,7 +2840,7 @@
   {
    "id": "g1-hundreds-chart-skip-counting",
    "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "The Hundreds Chart and Skip Counting",
@@ -3104,7 +3104,7 @@
   {
    "id": "g1-time-calendar-coins",
    "slug": "time-calendar-and-coins-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Time, Calendar, and Coins",
@@ -3384,7 +3384,7 @@
   {
    "id": "g1-shapes-measuring-graphs",
    "slug": "shapes-measuring-and-graphs-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
@@ -3504,7 +3504,7 @@
     {
      "n": 3,
      "point": "1:measure-length-units",
-     "title": "Measure with unit squares",
+     "title": "Measure length with squares",
      "objective": "Children measure the length of an object by counting the unit squares under it, and put three objects in order from shortest to longest.",
      "standards": [
       {
@@ -3733,7 +3733,7 @@
     {
      "n": 7,
      "point": "1:patterns-missing",
-     "title": "Two are missing",
+     "title": "Patterns: two are missing",
      "objective": "Children find the part that repeats in a pattern and fill in two missing pictures.",
      "standards": [],
      "paper": [
@@ -3769,7 +3769,7 @@
   {
    "id": "g2-place-value-to-1000",
    "slug": "place-value-to-1000-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Place Value to 1,000",
@@ -4200,12 +4200,12 @@
   {
    "id": "g2-add-subtract-within-1000",
    "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Adding and Subtracting Within 100 and 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100 and 1,000",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, in columns, and in number walls and a maze, each with a teacher note.",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -4287,7 +4287,7 @@
     {
      "n": 3,
      "point": "2:column-method",
-     "title": "Add and subtract in columns",
+     "title": "Add and subtract vertically",
      "objective": "Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.",
      "standards": [
       {
@@ -4401,12 +4401,12 @@
   {
    "id": "g2-measurement-time-money",
    "slug": "measurement-time-and-money-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to five minutes, the calendar, and money, each with a teacher note and pages at three levels.",
+   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
@@ -4511,7 +4511,7 @@
     {
      "n": 3,
      "point": "2:time-5-min-quarter",
-     "title": "Tell time to five minutes",
+     "title": "Tell time to the nearest five minutes",
      "objective": "Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.",
      "standards": [
       {
@@ -4678,18 +4678,18 @@
   {
    "id": "g2-graphs-and-grids",
    "slug": "graphs-and-grids-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, with a first look at pictographs with a key and at grid squares, each with a teacher note.",
+   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
    "weeks": 1,
    "lessons": [
     {
      "n": 1,
      "point": "2:bar-graphs",
-     "title": "From a tally to a bar graph",
+     "title": "From tally marks to a bar graph",
      "objective": "Children read a tally chart, color a bar for each count, and use a bar graph to answer questions that put together or compare.",
      "standards": [
       {
@@ -4882,7 +4882,7 @@
   {
    "id": "g2-equal-groups-equal-shares",
    "slug": "equal-groups-and-equal-shares-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
@@ -5305,12 +5305,12 @@
   {
    "id": "g2-shapes-solids-symmetry",
    "slug": "shapes-solids-and-symmetry-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Shapes, Solids, and Symmetry",
    "metaTitle": "Grade 2 Math Lesson Plans: Shapes, Solids, and Symmetry",
-   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides, solid shapes and their faces, edges, and vertices, and a first look at symmetry, with teacher notes.",
+   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides; solid shapes and their faces, edges, and vertices; and a first look at symmetry, with teacher notes.",
    "weeks": 2,
    "lessons": [
     {
@@ -5411,7 +5411,7 @@
     {
      "n": 3,
      "point": "2:3d-faces-edges-vertices",
-     "title": "Faces, edges, and corners",
+     "title": "Faces, edges, and vertices (corners)",
      "objective": "Children count the flat faces, the edges, and the corners of solid shapes and write the numbers.",
      "standards": [
       {
@@ -5468,7 +5468,7 @@
     {
      "n": 4,
      "point": "2:symmetry-line",
-     "title": "Is it a mirror line?",
+     "title": "Is it a line of symmetry?",
      "objective": "Children decide whether a dashed line cuts a picture into two matching halves, and pick the picture that is the same on both sides.",
      "standards": [
       {
@@ -5600,7 +5600,7 @@
   {
    "id": "g3-rounding-adding-subtracting",
    "slug": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Rounding, Adding, and Subtracting Within 1,000",
@@ -5986,7 +5986,7 @@
   {
    "id": "g3-starting-multiplication",
    "slug": "starting-multiplication-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Starting Multiplication",
@@ -6145,7 +6145,7 @@
     {
      "n": 4,
      "point": "3:times-tables",
-     "title": "The 2 and 5 times tables",
+     "title": "Multiplication facts for 2 and 5",
      "objective": "Children write the products for the 2 and 5 times tables and practice a mix of multiplication facts.",
      "standards": [
       {
@@ -6212,7 +6212,7 @@
      "n": 5,
      "point": "3:input-output",
      "title": "Number machines",
-     "objective": "Children use the rule printed on a number machine, such as add 7 or subtract 4, to fill in the numbers that are missing going in or coming out.",
+     "objective": "Children use the rule printed on a number machine, such as + 7, − 4, or × 5, to fill in the missing numbers going in and coming out.",
      "standards": [
       {
        "rel": "teaches",
@@ -6253,8 +6253,8 @@
       "template": "G3-328"
      },
      "note": {
-      "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5. Some read a minus rule as plus.",
-      "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out: \"5 goes in. Add 7. What comes out?\" For a number going in: \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" Ask: \"How can you check? Put your number in and run the machine.\"",
+      "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5; on a × 5 machine with 30 coming out they write 150, not 6. Some read a minus rule as plus.",
+      "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out (the output): \"5 goes in. Add 7. What comes out?\" For a number going in (the input): \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" On a times machine: \"30 came out. The machine multiplied by 5. What number times 5 makes 30?\" Ask: \"How can you check? Put your number in and run the machine.\"",
       "watch": "Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right."
      }
     }
@@ -6263,12 +6263,12 @@
   {
    "id": "g3-division",
    "slug": "division-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a fourth-grade standard.",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
    "weeks": 1,
    "lessons": [
     {
@@ -6543,13 +6543,13 @@
   },
   {
    "id": "g3-time-temperature-mass-volume",
-   "slug": "time-temperature-mass-and-volume-grade-3-unit",
-   "status": "pilot",
+   "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
+   "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Time, Temperature, Mass, and Volume",
-   "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Volume",
-   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, time passed, 24-hour time, reading a thermometer, grams on a balance, and milliliters in a cup.",
+   "title": "Time, Temperature, Mass, and Liquid Volume",
+   "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Liquid Volume",
+   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, and milliliters in a cup, with a first look at 24-hour time.",
    "weeks": 2,
    "lessons": [
     {
@@ -6897,12 +6897,12 @@
   {
    "id": "g3-area-perimeter-volume",
    "slug": "area-and-perimeter-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Area and Perimeter",
    "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
-   "metaDescription": "A one-week Grade 3 math unit: 4 lessons on area as rows times columns and perimeter as the distance around, and an extra lesson on counting the cubes in a solid.",
+   "metaDescription": "A one-week Grade 3 math unit: 5 lessons, four on area as rows times columns and perimeter as the distance around, and one extra lesson on counting the cubes in a solid.",
    "weeks": 1,
    "lessons": [
     {
@@ -7141,7 +7141,7 @@
   {
    "id": "g3-fractions",
    "slug": "fractions-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Fractions",
@@ -7502,7 +7502,7 @@
   {
    "id": "g3-shapes-and-data",
    "slug": "shapes-and-data-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Shapes and Data",
@@ -7609,7 +7609,7 @@
     {
      "n": 3,
      "point": "3:symmetry",
-     "title": "How many mirror lines?",
+     "title": "How many lines of symmetry?",
      "objective": "Children find all the lines of symmetry of a shape and write how many there are.",
      "standards": [
       {
@@ -7755,12 +7755,12 @@
   {
    "id": "k-letters-and-handwriting",
    "slug": "letters-and-handwriting-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Letters and Handwriting",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: Letters and Handwriting",
-   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil lines, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Letters and Handwriting",
+   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil strokes, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
    "weeks": 2,
    "lessons": [
     {
@@ -7855,7 +7855,7 @@
     {
      "n": 3,
      "point": "K:letter-case",
-     "title": "Capital and small letters",
+     "title": "Uppercase and lowercase letters",
      "objective": "Children match each capital letter to its small letter.",
      "standards": [
       {
@@ -8101,11 +8101,11 @@
   {
    "id": "k-first-words-to-read",
    "slug": "first-words-to-read-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "First Words to Read",
-   "metaTitle": "Kindergarten Literacy Lesson Plans: First Words to Read",
+   "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
    "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
    "weeks": 1,
    "lessons": [
@@ -8378,11 +8378,11 @@
   {
    "id": "k-sorting-words-telling-stories",
    "slug": "sorting-opposites-and-story-order-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
-   "metaTitle": "Kindergarten Lesson Plans: Sorting, Opposites, and Story Order",
+   "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
    "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
    "weeks": 1,
    "lessons": [
@@ -8589,12 +8589,12 @@
   {
    "id": "g1-sounds-spelling-syllables",
    "slug": "sounds-spelling-and-syllables-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A two-week Grade 1 unit on short vowels and letter teams: 6 lessons on rhymes, word families, sound boxes, sh, ch, and th, spelling picture words, and syllables.",
+   "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
+   "metaDescription": "A two-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, and th, spelling picture words, and syllables.",
    "weeks": 2,
    "lessons": [
     {
@@ -8968,11 +8968,11 @@
   {
    "id": "g1-reading-sentences-and-stories",
    "slug": "reading-sentences-and-stories-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Reading Sentences and Stories",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Reading Sentences and Stories",
+   "metaTitle": "Grade 1 Lesson Plans: Reading Sentences and Stories",
    "metaDescription": "A one-week Grade 1 unit: 5 lessons on reading and following a sentence, missing words, mixed-up sentences, question words, and story order, with teacher notes.",
    "weeks": 1,
    "lessons": [
@@ -9275,12 +9275,12 @@
   {
    "id": "g1-words-and-how-they-work",
    "slug": "words-and-how-they-work-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
    "title": "Words and How They Work",
-   "metaTitle": "Grade 1 Literacy Lesson Plans: Words and How They Work",
-   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
+   "metaTitle": "Grade 1 Reading and Writing Lesson Plans: Words and How They Work",
+   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
    "weeks": 2,
    "lessons": [
     {
@@ -9557,7 +9557,7 @@
     {
      "n": 6,
      "point": "1:synonyms",
-     "title": "Two words that mean the same",
+     "title": "Two words that mean the same thing",
      "objective": "Children look at a picture and circle the two words under it that mean the same and tell about the picture.",
      "standards": [
       {
@@ -9693,12 +9693,12 @@
   {
    "id": "g2-sentences-and-grammar",
    "slug": "sentences-and-grammar-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Sentences and Grammar",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Sentences and Grammar",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, nouns, verbs, and adjectives, plurals, verb forms, pronouns, and writing questions.",
+   "metaTitle": "Grade 2 Reading and Writing Lesson Plans: Sentences and Grammar",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, parts of speech (nouns, verbs, and adjectives), plurals, verb forms, pronouns, and writing questions.",
    "weeks": 2,
    "lessons": [
     {
@@ -9942,7 +9942,7 @@
     {
      "n": 5,
      "point": "2:pronouns",
-     "title": "Who does the pronoun mean?",
+     "title": "Who does the pronoun stand for?",
      "objective": "Children find the name a pronoun stands for and rewrite a sentence with a pronoun in place of the name.",
      "standards": [
       {
@@ -10060,12 +10060,12 @@
   {
    "id": "g2-spelling-and-word-building",
    "slug": "spelling-word-building-and-word-choice-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on a review of sh, spelling rules, compound words, root words, synonyms, and more exact words for said, with teacher notes.",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
    "weeks": 2,
    "lessons": [
     {
@@ -10107,9 +10107,9 @@
       "template": "G2-372"
      },
      "note": {
-      "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, wherever they are.",
+      "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
       "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
-      "watch": "Compare the number in the box with the circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
+      "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
      }
     },
     {
@@ -10343,7 +10343,7 @@
     {
      "n": 6,
      "point": "2:synonyms~doing-stage",
-     "title": "More exact words for said",
+     "title": "More exact words for \"said\"",
      "objective": "Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.",
      "standards": [
       {
@@ -10395,12 +10395,12 @@
   {
    "id": "g2-stories-facts-and-writing",
    "slug": "reading-stories-and-writing-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Reading Stories and Writing",
-   "metaTitle": "Grade 2 Literacy Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact sheet, and cursive.",
+   "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
    "weeks": 2,
    "lessons": [
     {
@@ -10657,8 +10657,8 @@
     {
      "n": 6,
      "point": "2:cursive-writing",
-     "title": "Cursive letters and joins",
-     "objective": "Children trace and write cursive letters in a joined row and connect two letters without lifting the pencil (for states that teach cursive in Grade 2).",
+     "title": "Cursive letters and connections",
+     "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
      "standards": [
       {
        "rel": "extends",
@@ -10696,9 +10696,9 @@
       "template": "G2-377"
      },
      "note": {
-      "mistake": "Children lift the pencil after every letter and add the joining stroke afterward, so the row is print letters with tails. The dot of the i and the cross of the t are added in the middle of a word, which breaks the flow.",
-      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends up high, so the next letter starts from up there, not from the line.\" Write big in the air first, then on the page.",
-      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each join starts where the last letter ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+      "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
+      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
+      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
      }
     }
    ]
@@ -10706,12 +10706,12 @@
   {
    "id": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "literacy",
    "title": "Words and Their Meanings",
-   "metaTitle": "Grade 3 Literacy Lesson Plans: Words and Their Meanings",
-   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, words for go and look, person words such as baker, and choosing the right form of a word, with teacher notes.",
+   "metaTitle": "Grade 3 Reading and Writing Lesson Plans: Words and Their Meanings",
+   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, more exact words for \"go\" and \"look,\" words that name a person, such as \"baker,\" and choosing the right form of a word.",
    "weeks": 1,
    "lessons": [
     {
@@ -10945,12 +10945,12 @@
   {
    "id": "plan-k-math",
    "slug": "kindergarten-math-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Kindergarten math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (7 Weeks)",
+   "metaDescription": "6 Kindergarten math units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 7,
    "framework": "Common Core",
    "units": [
@@ -10991,8 +10991,8 @@
      ],
      "standards": [
       "K.CC.A.3",
-      "K.CC.B.5",
       "K.CC.B.4.b",
+      "K.CC.B.5",
       "K.CC.C.6"
      ]
     },
@@ -11049,9 +11049,9 @@
       "The days of the week"
      ],
      "standards": [
-      "K.MD.B.3",
       "K.CC.B.5",
-      "K.MD.A.2"
+      "K.MD.A.2",
+      "K.MD.B.3"
      ]
     },
     {
@@ -11080,12 +11080,12 @@
   {
    "id": "plan-1-math",
    "slug": "grade-1-math-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 1 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (8 Weeks)",
+   "metaDescription": "6 Grade 1 math units in teaching order, about 8 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 8,
    "framework": "Common Core",
    "units": [
@@ -11104,21 +11104,21 @@
       "Fact families to 10",
       "Find the missing number",
       "Word problems within 10",
-      "Fluent facts within 10"
+      "Fact fluency within 10"
      ],
      "standards": [
-      "1.OA.C.6",
-      "1.OA.C.5",
+      "1.OA.A.1",
       "1.OA.B.3",
       "1.OA.B.4",
-      "1.OA.D.8",
-      "1.OA.A.1"
+      "1.OA.C.5",
+      "1.OA.C.6",
+      "1.OA.D.8"
      ]
     },
     {
      "id": "g1-doubles-three-addends-number-walls",
-     "slug": "doubles-three-addends-and-number-walls-grade-1-unit",
-     "title": "Doubles, Three Addends, and Number Walls",
+     "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+     "title": "Doubles, Three Addends, and Addition Pyramids",
      "weeks": 1,
      "from": 3,
      "to": 3,
@@ -11126,11 +11126,11 @@
       "Doubles and halves",
       "Odd and even numbers",
       "Add three groups",
-      "Number walls (addition pyramids)"
+      "Addition pyramids (number walls)"
      ],
      "standards": [
-      "1.OA.C.6",
       "1.OA.B.3",
+      "1.OA.C.6",
       "1.OA.D.8"
      ]
     },
@@ -11199,11 +11199,11 @@
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",
-      "Measure with unit squares",
+      "Measure length with squares",
       "Sort into three groups",
       "Sort, count, and read a picture graph",
       "Read and make a bar graph",
-      "Two are missing"
+      "Patterns: two are missing"
      ],
      "standards": [
       "1.G.A.1",
@@ -11218,12 +11218,12 @@
   {
    "id": "plan-2-math",
    "slug": "grade-2-math-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 2 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (9 Weeks)",
+   "metaDescription": "6 Grade 2 math units in teaching order, about 9 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 9,
    "framework": "Common Core",
    "units": [
@@ -11245,12 +11245,12 @@
       "100 more, 100 less"
      ],
      "standards": [
-      "2.NBT.A.2",
       "2.MD.B.6",
-      "2.NBT.B.5",
       "2.NBT.A.1",
+      "2.NBT.A.2",
       "2.NBT.A.3",
       "2.NBT.A.4",
+      "2.NBT.B.5",
       "2.NBT.B.8"
      ]
     },
@@ -11264,12 +11264,12 @@
      "lessons": [
       "Add with blocks",
       "Subtract with blocks",
-      "Add and subtract in columns",
+      "Add and subtract vertically",
       "Add and subtract within 100"
      ],
      "standards": [
-      "2.NBT.B.7",
-      "2.NBT.B.5"
+      "2.NBT.B.5",
+      "2.NBT.B.7"
      ]
     },
     {
@@ -11282,7 +11282,7 @@
      "lessons": [
       "Measure with a ruler",
       "How much longer?",
-      "Tell time to five minutes",
+      "Tell time to the nearest five minutes",
       "Read a calendar",
       "Shopping with money"
      ],
@@ -11301,14 +11301,14 @@
      "from": 5,
      "to": 5,
      "lessons": [
-      "From a tally to a bar graph",
+      "From tally marks to a bar graph",
       "Read a line plot",
       "Each picture counts as two",
       "Find a square on a grid"
      ],
      "standards": [
-      "2.MD.D.10",
-      "2.MD.D.9"
+      "2.MD.D.9",
+      "2.MD.D.10"
      ]
     },
     {
@@ -11328,9 +11328,9 @@
       "A fraction of a group"
      ],
      "standards": [
+      "2.G.A.3",
       "2.OA.C.3",
-      "2.OA.C.4",
-      "2.G.A.3"
+      "2.OA.C.4"
      ]
     },
     {
@@ -11343,8 +11343,8 @@
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",
-      "Faces, edges, and corners",
-      "Is it a mirror line?",
+      "Faces, edges, and vertices (corners)",
+      "Is it a line of symmetry?",
       "Finish the other half",
       "Which one matches the shadow?"
      ],
@@ -11357,12 +11357,12 @@
   {
    "id": "plan-3-math",
    "slug": "grade-3-math-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence and Pacing Guide",
-   "metaDescription": "Our Grade 3 math units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and a link to every lesson plan.",
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (10 Weeks)",
+   "metaDescription": "7 Grade 3 math units in teaching order, about 10 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 10,
    "framework": "Common Core",
    "units": [
@@ -11399,7 +11399,7 @@
       "Multiplication as equal groups",
       "Multiplication hops",
       "Turn the array around",
-      "The 2 and 5 times tables",
+      "Multiplication facts for 2 and 5",
       "Number machines"
      ],
      "standards": [
@@ -11425,15 +11425,15 @@
      ],
      "standards": [
       "3.OA.A.2",
-      "3.OA.B.6",
+      "3.OA.A.3",
       "3.OA.A.4",
-      "3.OA.A.3"
+      "3.OA.B.6"
      ]
     },
     {
      "id": "g3-time-temperature-mass-volume",
-     "slug": "time-temperature-mass-and-volume-grade-3-unit",
-     "title": "Time, Temperature, Mass, and Volume",
+     "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
+     "title": "Time, Temperature, Mass, and Liquid Volume",
      "weeks": 2,
      "from": 5,
      "to": 6,
@@ -11466,8 +11466,8 @@
       "Count the cubes"
      ],
      "standards": [
-      "3.MD.C.7.a",
       "3.MD.C.6",
+      "3.MD.C.7.a",
       "3.MD.D.8"
      ]
     },
@@ -11491,9 +11491,9 @@
       "3.G.A.2",
       "3.NF.A.1",
       "3.NF.A.2",
-      "3.NF.A.3.d",
       "3.NF.A.3.a",
       "3.NF.A.3.b",
+      "3.NF.A.3.d",
       "3.OA.A.2"
      ]
     },
@@ -11507,7 +11507,7 @@
      "lessons": [
       "Right angles",
       "Is it a rectangle?",
-      "How many mirror lines?",
+      "How many lines of symmetry?",
       "Graphs with a scale",
       "A line plot with halves"
      ],
@@ -11522,22 +11522,45 @@
   {
    "id": "plan-k-literacy",
    "slug": "kindergarten-reading-and-writing-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "literacy",
    "title": "Kindergarten Reading and Writing Scope and Sequence",
-   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Kindergarten reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (7 Weeks)",
+   "metaDescription": "4 Kindergarten reading and writing units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 7,
    "framework": "Common Core",
    "units": [
+    {
+     "id": "k-letters-and-handwriting",
+     "slug": "letters-and-handwriting-kindergarten-unit",
+     "title": "Letters and Handwriting",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Lines, zigzags, and curves",
+      "Find the letter",
+      "Uppercase and lowercase letters",
+      "Write the letters",
+      "The alphabet in order",
+      "Trace and write words",
+      "All about me"
+     ],
+     "standards": [
+      "L.K.1.a",
+      "RF.K.1.d",
+      "RF.K.3.c",
+      "W.K.2"
+     ]
+    },
     {
      "id": "k-hearing-sounds-in-words",
      "slug": "hearing-sounds-in-words-kindergarten-unit",
      "title": "Hearing Sounds in Words",
      "weeks": 3,
-     "from": 1,
-     "to": 3,
+     "from": 3,
+     "to": 5,
      "lessons": [
       "Hear the rhyme",
       "Clap the syllables",
@@ -11547,36 +11570,13 @@
       "Build the word"
      ],
      "standards": [
+      "L.K.2.c",
+      "L.K.2.d",
       "RF.K.2.a",
       "RF.K.2.b",
-      "RF.K.3.a",
       "RF.K.2.d",
-      "RF.K.3.b",
-      "L.K.2.d",
-      "L.K.2.c"
-     ]
-    },
-    {
-     "id": "k-letters-and-handwriting",
-     "slug": "letters-and-handwriting-kindergarten-unit",
-     "title": "Letters and Handwriting",
-     "weeks": 2,
-     "from": 4,
-     "to": 5,
-     "lessons": [
-      "Lines, zigzags, and curves",
-      "Find the letter",
-      "Capital and small letters",
-      "Write the letters",
-      "The alphabet in order",
-      "Trace and write words",
-      "All about me"
-     ],
-     "standards": [
-      "RF.K.1.d",
-      "L.K.1.a",
-      "RF.K.3.c",
-      "W.K.2"
+      "RF.K.3.a",
+      "RF.K.3.b"
      ]
     },
     {
@@ -11594,10 +11594,10 @@
       "sh and ch"
      ],
      "standards": [
-      "RF.K.3",
-      "RF.K.3.c",
       "L.K.1.c",
-      "RF.K.2.d"
+      "RF.K.2.d",
+      "RF.K.3",
+      "RF.K.3.c"
      ]
     },
     {
@@ -11623,13 +11623,13 @@
   },
   {
    "id": "plan-1-literacy",
-   "slug": "grade-1-reading-and-writing-scope-and-sequence",
-   "status": "pilot",
+   "slug": "grade-1-reading-and-language-scope-and-sequence",
+   "status": "live",
    "grade": "1",
    "subject": "literacy",
-   "title": "Grade 1 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Grade 1 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "title": "Grade 1 Reading and Language Scope and Sequence",
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (5 Weeks)",
+   "metaDescription": "3 Grade 1 reading and language units in teaching order, about 5 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 5,
    "framework": "Common Core",
    "units": [
@@ -11649,14 +11649,14 @@
       "Syllables"
      ],
      "standards": [
-      "RF.1.3.b",
+      "L.1.2.d",
+      "L.1.2.e",
       "RF.1.2.b",
       "RF.1.2.d",
       "RF.1.3.a",
-      "L.1.2.e",
-      "L.1.2.d",
-      "RF.1.3.e",
-      "RF.1.3.d"
+      "RF.1.3.b",
+      "RF.1.3.d",
+      "RF.1.3.e"
      ]
     },
     {
@@ -11674,13 +11674,13 @@
       "What happens next?"
      ],
      "standards": [
-      "RF.1.4.a",
-      "RF.1.4.c",
-      "L.1.4.a",
       "L.1.1.j",
       "L.1.2.b",
-      "RL.1.7",
-      "RL.1.2"
+      "L.1.4.a",
+      "RF.1.4.a",
+      "RF.1.4.c",
+      "RL.1.2",
+      "RL.1.7"
      ]
     },
     {
@@ -11696,17 +11696,17 @@
       "He, she, it, they",
       "A or an: sort the words",
       "Write the opposite",
-      "Two words that mean the same",
+      "Two words that mean the same thing",
       "From a little to a lot",
       "Find the root word"
      ],
      "standards": [
-      "L.1.1.f",
       "L.1.1.d",
+      "L.1.1.f",
       "L.1.1.h",
+      "L.1.4.c",
       "L.1.5",
-      "L.1.5.d",
-      "L.1.4.c"
+      "L.1.5.d"
      ]
     }
    ]
@@ -11714,12 +11714,12 @@
   {
    "id": "plan-2-literacy",
    "slug": "grade-2-reading-and-writing-scope-and-sequence",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing",
-   "metaDescription": "Our Grade 2 reading and writing units in teaching order, week by week: the lessons in each unit, the Common Core standards it teaches, and every lesson plan.",
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (6 Weeks)",
+   "metaDescription": "3 Grade 2 reading and writing units in teaching order, about 6 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "weeks": 6,
    "framework": "Common Core",
    "units": [
@@ -11735,13 +11735,13 @@
       "Nouns, verbs, and adjectives: three bins",
       "More than one: plural nouns",
       "Today and yesterday: verb forms",
-      "Who does the pronoun mean?",
+      "Who does the pronoun stand for?",
       "Write the question"
      ],
      "standards": [
-      "L.2.1.f",
       "L.2.1.b",
-      "L.2.1.d"
+      "L.2.1.d",
+      "L.2.1.f"
      ]
     },
     {
@@ -11757,15 +11757,15 @@
       "Compound words",
       "Root words and word families",
       "Synonyms",
-      "More exact words for said"
+      "More exact words for \"said\""
      ],
      "standards": [
       "L.2.2.d",
-      "RF.2.3",
-      "L.2.4.d",
       "L.2.4.c",
+      "L.2.4.d",
       "L.2.5",
-      "L.2.5.b"
+      "L.2.5.b",
+      "RF.2.3"
      ]
     },
     {
@@ -11781,13 +11781,13 @@
       "Write about a picture",
       "Retell a story: first, next, then, at the end",
       "An animal fact sheet",
-      "Cursive letters and joins"
+      "Cursive letters and connections"
      ],
      "standards": [
-      "RL.2.1",
-      "RF.2.4.c",
-      "L.2.4.a",
       "L.2.1.f",
+      "L.2.4.a",
+      "RF.2.4.c",
+      "RL.2.1",
       "W.2.3",
       "W.2.8"
      ]

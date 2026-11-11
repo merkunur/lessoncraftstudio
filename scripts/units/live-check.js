@@ -25,7 +25,10 @@ const QA = require('../lib/qa-header').headers();
 const HOST = 'www.lessoncraftstudio.com';
 const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { return d; } };
 const C = path.join(REPO, 'frontend', 'content');
-const units = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] }).units;
+const unitsFile = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] });
+const units = unitsFile.units;
+const plans = unitsFile.plans || [];
+const uiU = readJson(path.join(C, 'units', 'ui.' + loc + '.json'), {});
 const packs = readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
 
 function req(p, method = 'GET', body = null) {
@@ -49,7 +52,7 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
   let listed = '';
   for (const s of shards) listed += (await req(s)).body;
 
-  const pages = [...units.map((u) => ['units', u, 'units/' + u.id + '/teacher-guide']), ...packs.map((p) => ['sub-plans', p, 'sub-plans/' + p.id + '/guest-teacher-pages'])];
+  const pages = [...units.map((u) => ['units', u, 'units/' + u.id + '/teacher-guide']), ...plans.map((p) => ['units', p, 'units/' + p.id + '/scope-and-sequence']), ...packs.map((p) => ['sub-plans', p, 'sub-plans/' + p.id + '/guest-teacher-pages'])];
   for (const [seg, x, file] of pages) {
     const p = '/' + loc + '/' + seg + '/' + x.slug;
     const r = await req(p);
@@ -61,7 +64,7 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     check(r.body.includes('<link rel="canonical" href="https://www.lessoncraftstudio.com' + p + '"'), who + ': canonical is not the page itself');
     const robots = (/<meta name="robots" content="([^"]*)"/.exec(r.body) || [])[1] || '';
     if (x.status === 'pilot') { check(/noindex/.test(robots) && /follow/.test(robots) && !/nofollow/.test(robots), who + ': a pilot must be noindex, follow; robots is "' + robots + '"'); check(!listed.includes(p + '<'), who + ': a pilot is in a sitemap'); }
-    else check(!/noindex/.test(robots), who + ': a live page is noindex');
+    else { check(!/noindex/.test(robots), who + ': a live page is noindex'); check(listed.includes('https://www.lessoncraftstudio.com' + p + '<'), who + ': a live page is in no sitemap'); }
     // tier truth: nothing a visitor reads in the page's own content says free
     const mainText = ((/<main[\s\S]*<\/main>/.exec(r.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
     check(mainText.length > 500 && !/\bfree\b/i.test(mainText), who + ': the page\'s content is missing or says free');
@@ -74,6 +77,37 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     check(dl.status === 302 && /\/auth\/signup/.test(dl.headers.location || '') && !/pdf/.test(dl.headers['content-type'] || ''), who + ': the file for an anonymous visitor answers ' + dl.status + ' ' + (dl.headers['content-type'] || '') + ' → ' + (dl.headers.location || ''));
     check(/noindex/.test(dl.headers['x-robots-tag'] || ''), who + ': the gate does not say noindex');
   }
+  // the hub (Part 4.4): it lists every live unit and plan; with no live unit it is noindex and in no sitemap
+  const liveUnits = units.filter((u) => u.status === 'live');
+  if (units.length) {
+    const hp = '/' + loc + '/units';
+    const hub = await req(hp);
+    check(hub.status === 200, 'hub: page answers ' + hub.status);
+    check(((/<title>([^<]*)<\/title>/.exec(hub.body) || [])[1] || '').replace(/&amp;/g, '&') === uiU.hubMetaTitle, 'hub: its title is not the hub title');
+    check((hub.body.match(/<h1[\s>]/g) || []).length === 1, 'hub: ' + (hub.body.match(/<h1[\s>]/g) || []).length + ' h1');
+    check(hub.body.includes('<link rel="canonical" href="https://www.lessoncraftstudio.com' + hp + '"'), 'hub: canonical is not the page itself');
+    const hubRobots = (/<meta name="robots" content="([^"]*)"/.exec(hub.body) || [])[1] || '';
+    if (liveUnits.length) {
+      check(!/noindex/.test(hubRobots), 'hub: live units and a noindex hub');
+      check(listed.includes('https://www.lessoncraftstudio.com' + hp + '<'), 'hub: it is in no sitemap');
+      for (const u of liveUnits) check(hub.body.includes('href="/' + loc + '/units/' + u.slug + '"'), 'hub: no link to the unit ' + u.id);
+      for (const u of units.filter((x) => x.status !== 'live')) check(!hub.body.includes('/units/' + u.slug + '"'), 'hub: it links to the pilot ' + u.id);
+      for (const p of plans.filter((x) => x.status === 'live')) check(hub.body.includes('href="/' + loc + '/units/' + p.slug + '"'), 'hub: no link to the plan ' + p.id);
+    } else check(/noindex/.test(hubRobots) && !listed.includes(hp + '<'), 'hub: a hub of pilots must be noindex and in no sitemap');
+    const hubText = ((/<main[\s\S]*<\/main>/.exec(hub.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
+    check(hubText.length > 500 && !/\bfree\b/i.test(hubText), 'hub: its content is missing or says free');
+  }
+  // the "in a lesson plan" block: on one worksheet landing and one activity page of a live unit, and on no page of a pilot
+  let land = null, act = null;
+  for (const u of liveUnits) for (const l of u.lessons) {
+    if (!land) { const p = l.paper.find((x) => x.landing); if (p) land = { slug: p.landing, unit: u }; }
+    if (!act && l.screen && l.screen.kind === 'activity') act = { slug: l.screen.slug, unit: u };
+  }
+  if (land) { const r = await req('/' + loc + '/worksheets/' + land.slug); check(r.status === 200 && r.body.includes('/' + loc + '/units/' + land.unit.slug + '#lesson-'), 'the worksheet page ' + land.slug + ' does not link to its unit (' + r.status + ')'); }
+  if (act) { const r = await req('/' + loc + '/activities/' + act.slug); check(r.status === 200 && r.body.includes('/' + loc + '/units/' + act.unit.slug + '#lesson-'), 'the activity page ' + act.slug + ' does not link to its unit (' + r.status + ')'); }
+  // a language without units has no hub
+  const other = ['fi', 'da', 'no'].find((l) => l !== loc && !fs.existsSync(path.join(C, 'units', 'units.' + l + '.json')));
+  if (other) { const r = await req('/' + other + '/units'); check(r.status === 404, 'the hub of a language without units (' + other + ') answers ' + r.status); }
   const none = await req('/' + loc + '/units/no-such-unit-here');
   check(none.status === 404, 'an address that names no unit answers ' + none.status);
   const none2 = await req('/' + loc + '/sub-plans/no-such-pack-here');

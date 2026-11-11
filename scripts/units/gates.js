@@ -27,7 +27,7 @@ const C = path.join(REPO, 'frontend', 'content');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
-const WHOLE_YEAR = { en: /\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i };
+const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i };
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
@@ -164,6 +164,7 @@ const POISONS = [
   ['a live year plan with a unit that is not live', 'P7', (d) => { const p = d.loc.en.plans[0]; p.status = 'live'; d.loc.en.units.find((u) => u.id === p.units[0].id).status = 'pilot'; }],
   ['a year plan that leaves a unit of its grade out', 'P7', (d) => { d.loc.en.plans[0].units.pop(); d.loc.en.plans[0].weeks = d.loc.en.plans[0].units.reduce((n, r) => n + r.weeks, 0); }],
   ['a year plan that claims the whole year', 'P7', (d) => { d.loc.en.plans[0].metaTitle = 'Kindergarten Math Curriculum Map for the Whole Year'; }],
+  ['a year plan that claims a full year in its description', 'P7', (d) => { d.loc.en.plans[0].metaDescription = d.loc.en.plans[0].metaDescription.replace('(not a full year)', 'for a full year'); }],
   ['a year plan row that is not what its unit says', 'P7', (d) => { d.loc.en.plans[0].units[0].lessons[0] += ' again'; }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],

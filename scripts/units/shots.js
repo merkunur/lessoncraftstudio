@@ -38,7 +38,7 @@ const OUT = path.join(REPO, 'out', 'units', 'shots');
         const fsz = parseFloat(getComputedStyle(el).fontSize);
         if (fsz && fsz < 13.9 && getComputedStyle(el).fontSize !== '0px') small.push((el.className || el.tagName) + ' ' + fsz);
       }
-      for (const el of root.querySelectorAll('.un-head a, .un-top a, .un-top button, .un-lesson a, .sp-day a, .sp-samples a')) {
+      for (const el of root.querySelectorAll('.un-head a, .un-top a, .un-top button, .un-lesson a, .un-hub-grade a, .un-plan a, .un-plan-pdf a, .un-plan-back a, .un-around a, .sp-day a, .sp-samples a')) {
         const r = el.getBoundingClientRect();
         if (!r.width || el.getAttribute('aria-hidden') === 'true') continue;
         if (r.height < 43.5) taps.push((el.className || 'a') + ' "' + el.textContent.trim().slice(0, 24) + '" ' + Math.round(r.height));

@@ -4,18 +4,20 @@ Master plan: `PLAN.md` Part 4. The unit and sub pack formats, the delivery (page
 
 ## 1. Where it stands (2026-11-11)
 
-English: **32 units, 178 lessons**, every one a `pilot` (noindex, in no sitemap).
+English: **36 units, 200 lessons, 7 year plans, one hub**, all `live` (indexable, in sitemap shard 3) since Part 4.4.
 
-| | Units | Lessons |
-|---|---|---|
-| Math, Kindergarten | 6 | 30 |
-| Math, Grade 1 | 6 (one is the Part 3 pilot) | 32 |
-| Math, Grade 2 | 6 | 34 |
-| Math, Grade 3 | 7 | 41 |
-| Literacy, Kindergarten | 4 (one is the Part 3 pilot) | 22 |
-| Literacy, Grade 1 | 3 | 19 |
+| | Units | Lessons | Weeks | Year plan |
+|---|---|---|---|---|
+| Math, Kindergarten | 6 | 30 | 7 | yes |
+| Math, Grade 1 | 6 | 32 | 8 | yes |
+| Math, Grade 2 | 6 | 34 | 9 | yes |
+| Math, Grade 3 | 7 | 41 | 10 | yes |
+| Literacy, Kindergarten | 4 | 22 | 7 | yes |
+| Literacy, Grade 1 | 3 | 19 | 5 | yes |
+| Literacy, Grade 2 | 3 | 18 | 6 | yes |
+| Literacy, Grade 3 | 1 | 4 | 1 | no (a plan needs three units) |
 
-Not built yet: literacy Grades 2 and 3 (about 20 lessons), the year plans, the units hub, the additive "Part of the unit" blocks on existing pages, the teacher guides of the new units (PDF), the other ten languages.
+Not built yet: the other ten languages (4.5–4.14). What the English units lack is listed in `units/GAPS.en.md` and in §5 below (topics a US teacher expects under a title and the site has no page for).
 
 ## 2. How a unit is made
 
@@ -51,6 +53,50 @@ What they found that no gate could:
 
 Not taken as given: a Kindergarten-standard claim built on my wrong note (§3, last rule); quoting a browser's or a page's exact label where I could not see it; the wish to split one teaching point over two lessons (a lesson is one point: the page in question left the lesson instead).
 
-## 5. Not reviewed yet
+## 5. The review of the English literacy units (rule #2)
 
-The literacy notes of Kindergarten and Grade 1 (35 lessons) and the seven notes added after the review (heavier or lighter, number machines, cube towers, fractions on a number line, a fraction of a group, a or an, synonyms). They go to one reviewer together with the literacy of Grades 2 and 3. No unit is indexed before that.
+One reviewer, an American K-3 teacher, over one text file: the ten literacy units and the five math lessons written after the math review (62 lessons, 740 lines; read in full). About 110 findings, twelve of them errors a teacher would meet in class. **87 note texts corrected** (`scripts/units/notes/reviews/en-literacy.review.json`), **14 rows of the US registry** corrected through the registry's review path (`out/curricula/en/own-audit-units-3.out.json`, reasons in `curricula/REVIEW-NOTES.en.md`), units reordered and retitled.
+
+What the reviewer found that no gate could:
+
+- **Rules that fail as stated.** "Yesterday I ___ed" as the test for a verb teaches "goed", the very mistake the unit names two lessons later. "Is the vowel before it short or long?" for ck gives "milck". "Write a letter for every tap" contradicts the lesson before it (sh is one tap and two letters). "Each part has a vowel" marks pup-py wrong unless y counts. "Unlock: not locked" is false (on a verb un- means undo).
+- **An arithmetic error in a note:** 2 → 4 was given as fitting "+ 4".
+- **Mistakes the page cannot produce.** "Chair is sorted as a c word" on a page with pictures and two letter teams only; "not big" as an answer on a draw-a-line page; "wear hats" on a circle-the-choice page. A note's mistake is now checked against what the child can physically do on the page.
+- **A method named as the mistake.** Sounding out sight words was called the error; most Kindergarten sight words are decodable, and only the irregular part is learned by heart.
+- **Standards of the wrong grade or kind.** A Grade 3 prefix lesson carried only the Grade 2 code; a and an in Kindergarten was "prepares" though the page teaches the Grade 1 standard outright; a research standard on pages where nothing is read.
+- **Speech that is not an error.** /f/ or /d/ for th, pin and pen said alike, "he do" and "we was": the notes now tell the teacher to teach the spelling or the school form without calling the home form wrong.
+- **Two grades saying the same thing.** The Grade 1 and Grade 2 notes on opposites, synonyms, a and an and missing words were near copies; the later grade's note now starts where the earlier one ends.
+- **Titles and order.** Loops were promised on pages without loops; "Stories, Facts, and Writing" had one fact lesson and no text to read (now "Reading Stories and Writing"); word families came after sound boxes with digraphs (now before); sh and ch, the hardest Kindergarten lesson, sat in the middle of its unit (now last).
+
+Checked in the generator where the reviewer could not see the page: the number machines PRINT their rule (the lesson is using a rule, not finding it; objective and note rewritten); the English word-family pages are one-syllable rime families (the two-syllable standard left the lesson).
+
+Not changed, and why: an activity that practices the next lesson's skill stays where removing it would leave the lesson with one asset (Find the letter); the same activity under two grades stays where no other exists; cursive stays in Grade 2 with "(for states that teach cursive in Grade 2)" in its objective.
+
+**Topics a US teacher expects under a title and the site has no page for** (no teaching point with worksheets; they join the gap report's reasons and Part 10): Kindergarten letter sounds as their own lesson; Grade 1 long vowels and silent e, blends, endings; Grade 2 contractions and possessive apostrophes, adverbs, collective nouns, reflexive pronouns, an informational text to read, opinion writing; Grade 3 suffixes, multiple-meaning words and homophones, literal and nonliteral meaning, dictionary use. Grade 3 literacy is one unit of four lessons.
+
+**Printed worksheet wording that is British or not American** (Join the dots, grey, gap, naming word, Word Classes, Word Fields, Fact File, Soup Stall) is on the published pages, not in the notes; it is recorded for the dedicated wording session (memory `project_post_launch_content_fixes.md`).
+
+## 6. Part 4.4: the hub, the year plans, the blocks on existing pages
+
+- **Year plans** are data: `plans` in `defs/<loc>.json` (id, slug, titles, the unit ids in teaching order); `assemble.js` writes them into `units.<loc>.json` with each unit's weeks, lessons and the standards it teaches. A plan needs three units; its status is `live` only when every unit is. Page: `/<loc>/units/<plan-slug>` (the same route as a unit; a slug is unique across both lists). Gate P7 with eight poisons: a unit of another grade, two units, weeks that skip, a slug of a unit, a live plan over a pilot unit, a unit left out, a row that is not what its unit says, a title that claims the whole year.
+- **A plan says how many weeks its lessons take and that they do not fill a school year, in the search result too.** To an American teacher "scope and sequence" and "pacing guide" mean the whole year, and the line on the page that says otherwise is not in a search result (the reviewer of §7). So the page title carries the weeks ("Kindergarten Math Scope and Sequence with Pacing Guide (7 Weeks)", "Grade 1 ELA Scope and Sequence: Reading and Language (5 Weeks)") and the description says "about 7 weeks in all (not a full year)". `{units}` and `{weeks}` in a plan's title and description are filled in by the assembler, so they always say what the plan holds; when a unit is added the number moves with it. The gate refuses a title that claims the year and lets a denial pass ("not a full year"); both directions are poisoned.
+- **The printable plan** is a Teacher-only file (`scripts/units/build-year-plan.js` → `units/<plan id>/scope-and-sequence.pdf`): the same table with a column for the teacher's dates and a box to check. `--shot=<folder>` writes a picture of the sheet to read it.
+- **The hub** `/<loc>/units`: every unit by grade and subject, in the plan's order, each with its lesson titles; a link to each plan. A language without units has no hub (404); a language whose units are all pilots has a noindex hub that lists them (how a new language is read before it is published).
+- **Unit pages** gained the hub in the breadcrumb, "Unit n of N in the <plan>", and links to the unit before and after.
+- **Sitemap shard 3** lists the hub, the live units and the live plans of a language, read from the same file the routes render (a pilot is never listed). hreflang as on the routes: only between live siblings.
+- **"In a lesson plan" blocks**: on a worksheet landing (the static renderer `scripts/seo-landing/render-landing-html.js`; inline styles, so a landing in no live unit is byte-identical and every `<head>` is untouched: measured on one landing of each kind) and on an activity page. English: 197 landings and 102 activities link to their unit and lesson. Level Set hub pages and deck pages do not carry the block (a deck page would need a republish of every deck).
+- **Decided here (standing delegation):** the 36 English units went live after both reviews were applied; the site navigation gets no "Lesson plans" entry yet (it is baked into 200,000 deck pages; the entry comes when sub packs and tests give that menu more than one item, Part 5 or 7); the Search Console read for units, plans and hub is due **2026-12-09** (four weeks), together with the pages that gained a block.
+
+## 7. The review of the hub, the year plans and the new strings (rule #2)
+
+One reviewer, an American K-3 teacher and US copy editor, over one text file (`scripts/units/dump-hub-for-review.js`: the 34 new strings as they render, the seven plans, the 36 units' titles and descriptions, the four notes rewritten after their review; 28 KB, read in full). About 70 findings, three of them "must". Applied: 12 strings, the seven plans' titles and descriptions, 18 unit descriptions, two unit titles, 15 lesson titles, the four notes (`scripts/units/notes/reviews/en-hub.review.json`), the order of the Kindergarten literacy plan.
+
+- **A search result must not promise a year.** See §6: weeks in the plan's page title, "not a full year" in its description, "addresses" a standard, not "teaches" it.
+- **Tier truth, said plainly.** "Every lesson plan is open to read" was not English and hid two facts. Now: anyone can read every lesson plan; without a paid plan the number of worksheets you can print is limited; the three files come with the paid Teacher plan.
+- **One thing, one name.** "Practice on a screen", "the screen practice" and "practice on screen" became "on-screen practice"; "Literacy" in page titles became "Reading and Writing", the name the pages carry (the subject word is dropped where the title would pass 70 characters).
+- **British and un-American words in lesson and unit titles:** mirror line (line of symmetry), number walls (addition pyramids, with the page's own name in parentheses because the worksheet prints "Number Walls"), joins (connections), capital and small letters (uppercase and lowercase), time to five minutes (to the nearest five minutes), in columns (vertically), time passed (elapsed time), "K to 3" (through).
+- **Order:** the Kindergarten literacy plan put the unit that needs letter sounds two weeks before the unit that teaches letters. Letters and Handwriting is first now.
+- **Content above the grade is labeled in the description** ("a first look at"): partners that make 20 and odd and even in Kindergarten, 24-hour time in Grade 3.
+- **Checked against the page where the reviewer could not see it:** the cursive pages have children trace AND write (the objective keeps "write"); all eight lessons of the first Grade 1 unit have on-screen practice ("each" stays).
+- **The downloaded file's name is read by the teacher too:** the printable plan is `scope-and-sequence.pdf`, not "year-plan".
+- **Not taken:** "Introduction to Multiplication" for "Starting Multiplication" and "verb tenses" for "verb forms" (the lesson also covers has, does, goes, which is agreement, not tense).

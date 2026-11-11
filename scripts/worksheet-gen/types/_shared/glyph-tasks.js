@@ -360,16 +360,32 @@ const MODES = {
     const card = () => { const v = rng.sample(Array.from({ length: M }, (_, i) => i + 1), 9); return `<div style="display:grid;grid-template-columns:repeat(3,108px);grid-auto-rows:106px;border:3px solid ${T.ink};border-radius:12px;justify-items:center;align-items:center">${v.map((n) => `<span style="border:1.5px solid ${T.ink};width:100%;height:100%;display:flex;align-items:center;justify-content:center">${CG.word(String(n), { h: 84, maxW: 96, skin: 'plain' }).svg}</span>`).join('')}</div>`; };
     return page('bingo-color', `<div style="display:flex;flex-direction:row;gap:16px;flex-wrap:wrap;justify-content:center;width:660px">${card()}${card()}</div>`);
   },
-  /** a month to colour day by day */
-  month({ lv, loc, rng }) {
-    const C = require('../../data/b2/calendar.js').CALENDAR[loc], days = { 1: 28, 2: 30, 3: 31 }[lv], start = rng.int(0, 6), cells = [];
+  /** a month to colour day by day: the real month the teacher picked ("YYYY-MM"), so the first day sits under its own
+   *  weekday (in the language's own week, Monday or Sunday first) and the month has its own length, February 29 too */
+  month({ loc, unit }) {
+    const C = require('../../data/b2/calendar.js').CALENDAR[loc], { y, m } = monthOf(unit), cells = [];
+    const days = new Date(Date.UTC(y, m, 0)).getUTCDate(), start = (new Date(Date.UTC(y, m - 1, 1)).getUTCDay() - C.weekStart + 7) % 7;
     const head = Array.from({ length: 7 }, (_, i) => C.dayAbbr[(i + C.weekStart) % 7]);
     for (const d of head) cells.push(`<span style="${FONT};font-size:20px;display:flex;align-items:center;justify-content:center">${esc(d)}</span>`);
     for (let i = 0; i < start; i++) cells.push('<span></span>');
     for (let d = 1; d <= days; d++) cells.push(`<span style="display:flex;align-items:center;justify-content:center">${CG.word(String(d), { h: 86, maxW: 76, skin: 'plain' }).svg}</span>`);   // 86 (was 74): the month fills the page; maxW 76 in a 92 px column (2026-11-10: at 88 two-digit days ran together, 23242526… read as one number)
-    return page('month', `<div style="display:grid;grid-template-columns:repeat(7,92px);grid-auto-rows:minmax(40px,auto);row-gap:6px;border:3px solid ${T.ink};border-radius:10px;padding:6px">${cells.join('')}</div>`);
+    const title = `<div data-lcs-month="${esc(unit)}" style="${FONT};font-size:30px;font-weight:700;text-align:center;margin:0 0 8px">${esc(monthName(loc, unit))}</div>`;
+    return page('month', `<div>${title}<div style="display:grid;grid-template-columns:repeat(7,92px);grid-auto-rows:minmax(40px,auto);row-gap:6px;border:3px solid ${T.ink};border-radius:10px;padding:6px">${cells.join('')}</div></div>`);
   },
 };
+/** the months a teacher can pick for a calendar page ("YYYY-MM"), January 2026 to December 2029 */
+const MONTHS = [];
+for (let y = 2026; y <= 2029; y++) for (let m = 1; m <= 12; m++) MONTHS.push(`${y}-${String(m).padStart(2, '0')}`);
+function monthOf(id) {
+  const r = /^(\d{4})-(\d{2})$/.exec(String(id || ''));
+  if (!r || +r[2] < 1 || +r[2] > 12) throw new Error('glyph-tasks: not a month: ' + id);
+  return { y: +r[1], m: +r[2] };
+}
+/** "November 2026" in the page's language: the calendar's own month name, its first letter capitalized (a heading) */
+function monthName(loc, id) {
+  const C = require('../../data/b2/calendar.js').CALENDAR[loc], { y, m } = monthOf(id), n = C.monthNames[m - 1];
+  return `${n.charAt(0).toLocaleUpperCase(loc)}${n.slice(1)} ${y}`;
+}
 
 /** the pictures whose word a child can spell, in the page's language (the Alphabet chart's reviewed words) */
 const NOT_A_THING = new Set(['christmas', 'halloween', 'thanksgiving', 'easter', 'valentine', 'summer', 'winter', 'autumn', 'spring', 'birthday', 'boy', 'girl', 'man', 'woman', 'child', 'cocktail', 'wine', 'beer', 'biscuit', 'nutcracker', 'dumbbell', 'yacht', 'narwhal', 'forklift', 'eggplant', 'aubergine']);
@@ -458,8 +474,11 @@ function walk(C, R, n, rng) {
 }
 
 /** the template factory. unit: 'letters' | 'numbers' | undefined */
-function makeGlyphTask({ id, slug, exerciseType, gradeBand, mode, unit, unitMax, i18n }) {
-  const axis = unit === 'sight'
+function makeGlyphTask({ id, slug, exerciseType, gradeBand, mode, unit, unitMax, levels, i18n }) {
+  const axis = unit === 'months'
+    // now: the maker opens on the visitor's current month (shell.js unitIn); the sample page is a fixed month
+    ? { applicable: true, now: 'month', units: () => MONTHS.slice(), exemplar: () => '2026-09', tokens: (u, loc) => { const s = monthName((loc || 'en').slice(0, 2), u); return { U: s, L: s, UNIT: s }; } }
+    : unit === 'sight'
     ? { applicable: true, units: (loc) => SW.words((loc || 'en').slice(0, 2)).filter((w) => CG.has(w)).slice(0, 60), exemplar: (loc) => SW.words((loc || 'en').slice(0, 2)).filter((w) => CG.has(w))[0], tokens: (u) => ({ U: u, L: u, UNIT: u }) }
     : unit === 'letters'
     ? { applicable: true, units: (loc) => units(loc || 'en'), exemplar: (loc) => units(loc || 'en')[0], tokens: (u, loc) => { const f = unitForms(u, (loc || 'en').slice(0, 2)); return { U: f.cap, L: f.low, UNIT: u }; } }
@@ -470,7 +489,7 @@ function makeGlyphTask({ id, slug, exerciseType, gradeBand, mode, unit, unitMax,
     id, slug, gradeBand: gradeBand || 'K', assetClass: 'icon-placement', exerciseType,
     themeAxis: { applicable: false },
     ...(axis ? { unitAxis: axis } : {}),
-    difficulty: { 1: {}, 2: {}, 3: {} },
+    difficulty: Object.fromEntries((levels || [1, 2, 3]).map((l) => [l, {}])),
     i18n,
     build({ difficulty, locale, unit: u }, ctx) {
       const loc = String(locale || 'en').slice(0, 2), lv = Number(difficulty) || 2;

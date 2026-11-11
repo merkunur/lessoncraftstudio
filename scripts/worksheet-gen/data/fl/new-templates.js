@@ -28,7 +28,9 @@ const G = [
   ['K-624', 'alphabet-coloring-cards', 'picture-word-cards', 'K', 'letter-cards', null, 'Alphabet Coloring Cards', 'Color each card. Then cut out the cards along the dashed lines.'],
   ['K-625', 'my-name-poster', 'all-about-me', 'K', 'name-poster', null, 'My Name Poster', 'Color the letters of your name. Draw yourself in the box.'],
   ['K-626', 'color-the-letter-in-its-place', 'ordinal-numbers', 'K', 'ordinal', null, 'Color the Letter in Its Place', 'Start at the arrow in each row and count the places. Color the letter in the place shown.'],
-  ['K-613', 'color-the-days', 'calendar', 'K', 'month', null, 'Color the Days', 'Color today’s number every day until the whole month is colored.'],
+  // operator 2026-11-10: the teacher picks the real month, so the page starts on its own weekday and has its own number
+  // of days (leap years too); the old levels only chose 28 / 30 / 31 days with a random start, so one level is left
+  ['K-613', 'color-the-days', 'calendar', 'K', 'month', 'months', 'Color the Days', 'Color today’s number every day until the whole month is colored.', { levels: [2] }],
   ['K-619', 'color-the-sight-word', 'sight-words', 'K', 'sight-word', 'sight', 'Color the Sight Word: {U}', 'Read the word. Color it every time you find it.'],
   ['G1-552', 'color-the-right-spelling', 'word-building', 'G1', 'right-spelling', null, 'Color the Right Spelling', 'Look at each picture. Color the word that is spelled the right way.'],
   ['K-620', 'color-the-syllables', 'syllable-split', 'K', 'syllables', null, 'Color the Syllables', 'Say each word and clap its parts. Color each part a different color.'],

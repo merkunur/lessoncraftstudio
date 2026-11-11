@@ -176,6 +176,9 @@ function record(types) {
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
         // a unit drawn for one level (Color by Number's designs): the screen lists a page's level's units only
         if (spec.unitAxis.hideInMaker) entry.hideUnits = true;
+        // a calendar month axis (K-613 Color the Days, 2026-11-10): the screen opens on the visitor's current month and
+        // names the choice "Month", not "Word"
+        if (spec.unitAxis.now === 'month') { entry.unitNow = 'month'; entry.unitLabel = 'month'; }
         if (spec.unitAxis.levelOf) entry.unitLevels = Object.assign(entry.unitLevels || {}, Object.fromEntries(entry.units[loc].map((u) => [u.id, spec.unitAxis.levelOf(u.id)])));
         // a unit is offered at the levels where a page builds with it (2026-11-03: the level checks above build the
         // DEFAULT unit only — the sv G1-343 sample drew the rhyme family "att", which cannot carry the sort face, and en

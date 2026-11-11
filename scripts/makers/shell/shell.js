@@ -299,7 +299,9 @@ const unitsOf = (t, level) => {
   const lu = t.localeUnitLevels && t.localeUnitLevels[LANG];
   return lu && level != null ? u.filter((x) => (lu[x.id] || []).includes(level)) : u;
 };
-const unitIn = (t, want, level) => { const u = level == null ? (t.units && t.units[LANG]) || [] : unitsOf(t, level); return u.length ? (u.some((x) => x.id === want) ? want : u[0].id) : null; };
+// a calendar month axis (t.unitNow, K-613): with no month chosen yet the page opens on the visitor's current month
+const unitNowId = (t, u) => { if (t.unitNow !== 'month') return null; const d = new Date(), id = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`; return u.some((x) => x.id === id) ? id : null; };
+const unitIn = (t, want, level) => { const u = level == null ? (t.units && t.units[LANG]) || [] : unitsOf(t, level); return u.length ? (u.some((x) => x.id === want) ? want : (unitNowId(t, u) || u[0].id)) : null; };
 const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
 /** the theme a page of template t shows: the teacher's pick, else the same subject in the kind this template offers (a
  *  colouring template offers only black-and-white: animals → animals bw), else the template's first */
@@ -661,9 +663,10 @@ async function render(scrollToSelected) {
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` }), multi ? el('span', { class: 'mk-page-tpl', text: cardTitle(pt.id) }) : null]);
       const pageUnits = unitsOf(pt, state.lvls[i]);
       if (canEdit() && pageUnits.length && !pt.hideUnits) {
-        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === state.active) syncActive(); render(); } } });
+        const unitLabel = (pt.unitLabel && UI[pt.unitLabel]) || UI.word;
+        const sel = el('select', { class: 'mk-select', 'aria-label': `${unitLabel} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === state.active) syncActive(); render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
-        head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
+        head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: unitLabel }), sel]));
       }
       if (canEdit()) {
         const tools = el('span', { class: 'mk-page-tools' });

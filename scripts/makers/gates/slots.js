@@ -198,10 +198,11 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // Animal Fact File (G2-318, G2-339..343) draws an animal with its true facts against the other animals' profiles;
   // the Story Map (G1-506) and Postcard (G1-510) are frames the child fills — Regenerate draws another page
   'K-379', 'K-381', 'G1-400', 'G1-401', 'G1-402', 'G2-378', 'G2-318', 'G2-339', 'G2-340', 'G2-341', 'G2-342', 'G2-343', 'G1-506', 'G1-510',
-  // the colouring alphabet and numbers (docs/makers/FLAGSHIP.md): the letter, number or word is set by the Word control
-  'K-619', 'K-584', 'K-585', 'G1-553', 'K-579', 'K-580', 'K-602', 'K-609', 'K-617', 'K-611', 'K-616',
-  // numerals, letters and a calendar only; New version deals another page
-  'K-606', 'G1-554', 'G1-551', 'G2-499', 'K-615', 'K-591', 'K-592', 'K-623', 'K-626', 'K-613',
+  // the colouring alphabet and numbers (docs/makers/FLAGSHIP.md): the letter, number or word is set by the Word control;
+  // Color the Days (K-613): the month is set by the Month control (2026-11-10)
+  'K-619', 'K-584', 'K-585', 'G1-553', 'K-579', 'K-580', 'K-602', 'K-609', 'K-617', 'K-611', 'K-616', 'K-613',
+  // numerals and letters only; New version deals another page
+  'K-606', 'G1-554', 'G1-551', 'G2-499', 'K-615', 'K-591', 'K-592', 'K-623', 'K-626',
   // drawn for the page: hand pixel pictures, the roll-and-draw parts, a traced path and frame
   'G1-555', 'K-595', 'K-596', 'K-597', 'K-600', 'K-601',
   // pictures chosen by the page's own rule (a word that spells or splits right, a first letter, a count): swapping one could break it; New version deals another page

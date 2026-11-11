@@ -59,10 +59,21 @@ async function fetchRaw(reg, name, url) {
   fs.mkdirSync(dir, { recursive: true });
   const f = path.join(dir, name);
   if (!fs.existsSync(f)) {
-    const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (compatible; curriculum-reader)' } });
+    // a public service is asked slowly: a pause after every answer, and when it says "too many requests" a long
+    // wait and another try (never a way around its limit)
+    const sleep = (ms) => new Promise((ok) => setTimeout(ok, ms));
+    let r = null;
+    for (let attempt = 0; attempt < 5; attempt++) {
+      r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (compatible; curriculum-reader)', accept: 'application/json, text/html, application/pdf, */*' } });
+      if (r.status !== 429 && r.status !== 503) break;
+      const wait = Number(r.headers.get('retry-after')) || 30;
+      console.log(name + ': the server asks to wait (' + r.status + '); waiting ' + wait + ' s');
+      await sleep(wait * 1000);
+    }
     if (!r.ok) throw new Error(url + ' answered ' + r.status);
     fs.writeFileSync(f, Buffer.from(await r.arrayBuffer()));
     console.log('fetched ' + name);
+    await sleep(700);
   }
   return fs.readFileSync(f);
 }

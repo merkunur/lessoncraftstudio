@@ -1,0 +1,3737 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "M.2.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The expectation asks children to describe 'Lagebeziehungen (u. a. rechts, links, über, unter, hinter, vor)' between pictured objects; the pre-school sheets build exactly these position words before school.",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "M.2.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the shape sheets count: finding a given shape in a scene and in everyday objects is a first step to 'identifizieren die geometrischen Grundformen'. The plain picture-search sheets have no counterpart in the plan.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "M.3.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the longest / tallest is direct comparison of lengths, the step before 'vergleichen und ordnen Längen' with units.",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "M.3.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seriation by size or height is the pre-school form of 'vergleichen und ordnen Längen'.",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "M.2.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'stellen Muster durch Legen und Fortsetzen her' is what the child does when extending AB / ABC patterns; describing and inventing own patterns, which the expectation also asks, comes in school.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One-to-one matching is the basis of counting ('zählen') and of comparing quantities ('ordnen und vergleichen Zahlen'); it comes before both.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "M.1.1.s6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "More / fewer / equal with picture groups is the step before 'ordnen und vergleichen Zahlen im Zahlenraum bis 100'.",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting a set and naming / writing / matching the number to 20 is the small-range start of 'zählen', 'benennen und schreiben Zahlen' and of switching between picture and numeral ('Anzahlerfassung ... Darstellungsformen') in the Zahlenraum bis 100.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "M.1.1.s5",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Dice, dot and frame pictures are the first 'Strukturen in Zahldarstellungen zur Anzahlerfassung'; the mental-maths expectation names 'erfassen schnell strukturierte Anzahlen'.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "M.1.1.s4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That a number stays the same in any arrangement is a precondition for 'Anzahlerfassung' across different pictures of the same number; the plan does not name it on its own.",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "M.1.1.s4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Making a set for a given numeral is the change from the symbolic to the pictorial form ('wechseln bei der Zahldarstellung ... zwischen den verschiedenen Darstellungsformen'), in a range to 10-20.",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "M.2.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'identifizieren die geometrischen Grundformen (Rechteck, Quadrat, Dreieck, Kreis)' is the target; the pre-school sheets name the shapes but do not yet describe them with 'Seite, Ecke'.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "M.1.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the numerals 0-9 and 11-20 is the first part of 'benennen und schreiben Zahlen im Zahlenraum bis 100'.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "M.1.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child only has to read numerals from a key; that is a small step toward 'benennen ... Zahlen'. No more of the plan is touched.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.4.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting each kind in a mixed scene is counting plus finding frequencies, the step before 'stellen Daten und Häufigkeiten in Diagrammen und Tabellen dar'.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "M.2.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting sides prepares describing the Grundformen 'mit Fachbegriffen (Seite, Ecke ...)'.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'zählen ... vorwärts' in a range to 20; the expectation asks for the Zahlenraum bis 100, backward, in steps and from any start number.",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in counting order to 30, also from 11, practises the number sequence 'vorwärts ... beliebige Startzahl' in a small range.",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'ist der Vorgänger/Nachfolger von', 'ist um x kleiner/größer als': the sheets build the one-more / one-less idea with pictures before it is described with numbers.",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Before / after / between is 'Vorgänger/Nachfolger'; counting backward from 10 is the start of 'zählen ... rückwärts'.",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "M.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No expectation in the list names ordinal numbers (Ordnungszahlen); they belong to the Schwerpunkt 'Zahlverständnis' as one aspect of number, so only the Schwerpunkt is given.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "SU.6.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sachunterricht asks to 'benennen unterschiedliche Zeiteinteilungen' (calendar), Mathematik to use the time units 'Tag, Woche'; knowing the weekdays in order comes before both.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "M.4.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally (Strichliste) is the first way to 'stellen Daten und Häufigkeiten ... dar'; the bundles of five are a structure used for 'Anzahlerfassung'.",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "M.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Estimating a quantity and checking by counting belongs to the Schwerpunkt 'Zahlverständnis'; the listed expectations name counting and structured counting but not estimating a number of things (M.1.6 is about results of calculations, M.3.1.s3 about measures).",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "M.3.1.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Weights appear only in the Klasse 4 column: 'vergleichen und ordnen Größen (u. a. ... Gewichte (Masse))'. Direct heavier / lighter comparison is an early step toward it.",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "M.2.5.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.2.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'zeichnen Linien, ebene Figuren ... mit Hilfsmitteln (u. a. ... Gitterpapier)' and the terms 'Seite, Ecke' are the school targets of drawing named shapes on dot paper.",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "M.1.2.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together is the 'Situation des ... Vereinigens'; the expectation asks to match such situations with Additionsaufgaben, which the pre-school sheets do not yet write.",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "M.1.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting the rest is the 'Situation des Abziehens' before it is matched with a Subtraktionsaufgabe.",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "M.1.2.g1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known group is 'Hinzufügen' and counting from 'beliebige Startzahl' in a small range.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "M.1.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The mental-maths expectation names 'zerlegen Zahlen bis 10' and 'ergänzen auf Stufenzahlen'; the pre-school sheets do this with pictures, not yet as quick mental work.",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "M.2.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'stellen ebene Figuren her durch Legen, Nachlegen und Auslegen, Zerlegen und Zusammensetzen' is what tangram work leads to.",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "M.2.4.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising a mirror image comes before 'identifizieren ... Eigenschaften der Achsensymmetrie (u. a. durch ... Spiegeln mit dem Spiegel)'.",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The plan does not name gerade / ungerade Zahlen; pairing up is the picture stage of the relation 'ist die Hälfte/das Doppelte von'.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "M.1.1.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "13 as one ten and three ones is the first case of 'Struktur des Zehnersystems (Prinzip der Bündelung, Stellenwertschreibweise)'.",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'geben die Zahlensätze des kleinen Einspluseins automatisiert wieder' is an end-of-Klasse-2 demand; these sheets sit a year before school, so they can only prepare it.",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Bonds to 20 are facts of the 'kleines Einspluseins' and their reversals; before school this is preparation.",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "M.1.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child matches a picture of two groups with an addition ('ordnen Situationen des ... Vereinigens und Additionsaufgaben einander zu') and moves between picture and number sentence ('wechseln zwischen verschiedenen Darstellungsformen von Operationen').",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "M.1.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Crossing out is the 'Situation des Abziehens' matched with a Subtraktionsaufgabe, shown 'bildlich' and 'symbolisch'.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the whole equation for a picture is the change from the pictorial to the symbolic form of an operation, for adding and for taking away.",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "M.2.2.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Completing a repeating pattern is the 'Fortsetzen' part of 'stellen Muster durch Legen und Fortsetzen her'; describing and inventing patterns is not on the sheet.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "M.4.1.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures into groups is the step before 'strukturieren Daten ... mithilfe von Tabellen'; the sheet has no table or count yet.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: 'zerlegen Zahlen bis 10, ergänzen auf Stufenzahlen'.",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "M.2.2.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the Grundformen and deciding by sides and corners whether a figure really is one is 'identifizieren ... und beschreiben diese mit Fachbegriffen (Seite, Ecke ...)'.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "M.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordinal numbers are part of the Schwerpunkt 'Zahlverständnis' in Klasse 1, but no single listed expectation names them, so the Schwerpunkt id is used.",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "M.1.1.s6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing and reading numbers on a number line is 'ordnen ... Zahlen' and a change of representation; the range to 50 is a part of the Zahlenraum bis 100.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hops on the number line are counting 'vorwärts, rückwärts' and a pictorial form of adding and subtracting ('Darstellungsformen von Operationen').",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "M.3.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.2.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'einfache Sachaufgaben (u. a. Rechengeschichten oder Bildsachaufgaben) ... lösen' with 'Zeichnungen' as help; the child matches the situation with an addition or subtraction. Asking own questions, also in the wording, is not on the sheet.",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "M.4.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting into a table, showing counts in a picture graph and reading 'most / how many more' from it are the three data expectations: 'strukturieren ... mithilfe von Tabellen', 'stellen ... in Diagrammen und Tabellen dar', 'entnehmen ... Diagrammen und Tabellen Daten'.",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'verdoppeln und halbieren' is named in the mental-maths expectation, 'ist die Hälfte/das Doppelte von' in the number-relations one; to 20 is a part of the range.",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The plan does not name gerade / ungerade; sharing fairly between two works on 'ist die Hälfte ... von' and is the hands-on step before mental 'halbieren'.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "M.1.4.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "6 + 7 from 6 + 6 is 'rechnen vorteilhaft mithilfe von Zahlbeziehungen (u. a. Nachbarzahlen)' and a way to derive facts of the kleines Einspluseins.",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "M.1.4.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding three numbers within 20 is a part of addition 'im Zahlenraum bis 100 unter Ausnutzung von Rechengesetzen'; it gives the examples on which the Assoziativgesetz is later described.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Four facts from three numbers is 'nutzen ... die Zusammenhänge der Operationen untereinander' and 'leiten deren Umkehrungen sicher ab'.",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the unknown uses the link between addition and subtraction and the reversals of the Einspluseins facts within 20.",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The listed content expectations do not name the meaning of the equal sign; what the child practises in their terms is the facts of the kleines Einspluseins on both sides of the sign.",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A part-whole bar is a pictorial form of the operation; missing part and 'how many more' are 'Ergänzen, Vergleichen'. As a sketch it prepares 'Bearbeitungshilfen wie Zeichnungen, Skizzen' for Sachaufgaben.",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "M.2.2.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Nachlegen und Auslegen, Zerlegen und Zusammensetzen und Vervollständigen' of plane figures is the tangram work itself.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "SU.6.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'benennen unterschiedliche Zeiteinteilungen ... (Jahreszeiten, ... Jahreskalender)' is met; the maths expectation on the time units 'Tag, Woche, Monat, Jahr' also asks for converting, which the sheets do not do.",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "SU.6.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The season part: 'Zeiteinteilungen ... (Jahreszeiten, ... Jahreskalender)'.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "M.3.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering three objects by length is 'vergleichen und ordnen Längen'; measuring with cubes comes before 'ermitteln Längen mit Messgeräten (u. a. Lineal ...)'.",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "M.3.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.6.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'benennen einfache Uhrzeiten (u. a. volle Stunde, halbe Stunde ...) auf analogen und digitalen Uhren': the hour and half-hour part; quarter hours are still missing here.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.4.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The facts of the 'kleines Einspluseins' and the make-a-ten strategy ('Zerlegungsstrategien'), for the part of the range up to 20.",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Zahlenmauern practise the addition facts and, for a missing brick, their reversal ('Umkehrungen', 'Zusammenhänge der Operationen'); the range is judged from the year (within 20).",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "M.1.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding and correcting wrong results needs the Einspluseins facts; the range is judged from the year. Checking as such is a process competence, not listed.",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "M.4.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Colouring a bar graph from counts is 'stellen Daten und Häufigkeiten in Diagrammen ... dar'; reading the tallest bar is 'entnehmen ... Diagrammen ... Daten'.",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "M.1.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'stellen Zahlen im Zahlenraum bis 100 unter Anwendung der Struktur des Zehnersystems dar (Prinzip der Bündelung, Stellenwertschreibweise)' with rods and cubes, changing between material picture and numeral.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "M.1.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Number words are the 'sprachliche' form of a number; matching them with numerals is the change of representation and 'benennen und schreiben Zahlen'.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "M.1.1.s6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen und vergleichen Zahlen im Zahlenraum bis 100', word for word.",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hundertertafel work: counting in the Zahlenraum bis 100 also in steps, the relations +1 / +10 between neighbours ('um x kleiner/größer als'), and putting numbers in order.",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ist der Vorgänger/Nachfolger von', 'ist um x kleiner/größer als' for x = 1 and 10.",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "M.1.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number in many forms is 'wechseln ... zwischen den verschiedenen Darstellungsformen'; tens/ones is the Zehnersystem; 10 more / less is a number relation.",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'zählen ... in Schritten' is named in both expectations; equal groups with a running total are the 'Situation des Wiederholens' before it is written as a multiplication.",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "M.3.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The s-expectation stops at 'volle Stunde, halbe Stunde, Viertelstunde, Dreiviertelstunde ... und stellen diese ein'; the five-minute and mixed sheets go toward the Klasse 4 expectation with any time.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "M.3.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting coins is 'rechnen mit Größen (nur ganzzahlige Maßzahlen)' with 'ct, €'; comparing two purses is 'vergleichen ... Geldbeträge'.",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "M.1.4.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.4.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The Rechenstrich is the usual 'halbschriftlich' way to add and subtract in the Zahlenraum bis 100 with 'Zerlegungsstrategien', and the drawn jumps are a written record of the own 'Rechenweg'.",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "M.1.4.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lösen Additions- und Subtraktionsaufgaben im Zahlenraum bis 100 ... mündlich oder halbschriftlich'; 34 + 20 is 'rechnen mit Zehnerzahlen'. In NRW this is Klasse 2 content, see notes.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ergänzen auf Stufenzahlen' in the Zahlenraum bis 100: the partner to 100.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "M.1.1.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Prinzip der Bündelung' is named in the expectation.",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Moves on the Hundertertafel are the relations 'um x kleiner/größer als' (1 and 10) and counting in steps in the Zahlenraum bis 100.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Gerade / ungerade is not named in the list; an even number as n + n is the relation 'ist ... das Doppelte von', which is the nearest wording.",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "M.1.1.s6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.s4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing numbers on a part of the Zahlenstrahl to 100 is 'ordnen ... Zahlen' and work with a pictorial form of the number.",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "M.2.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.2.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting by sides uses the term 'Seite' on the Grundformen; if five- and six-sided shapes are in the set, that leads on to 'weitere ebene Figuren (u. a. Sechseck ...)' of Klasse 4.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "M.1.4.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lösen Additions- und Subtraktionsaufgaben im Zahlenraum bis 100'; the puzzle form does not change the content.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.3.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'einfache Sachaufgaben ... lösen' within 100, matching each step with an addition or subtraction; two steps are the upper edge of 'einfach'.",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "M.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ermitteln Längen mit Messgeräten (u. a. Lineal ...)' in cm.",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "M.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measure, compare ('vergleichen ... Längen') and find the difference ('rechnen mit Größen (nur ganzzahlige Maßzahlen)').",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "M.1.1.k3",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s3",
+     "rel": "extends"
+    }
+   ],
+   "why": "By the end of Klasse 2 NRW asks only for the 'Zahlenraum bis 100'; three-digit numbers go beyond that and are a first step toward the Klasse 4 expectation 'bis 1.000.000'. In NRW this is Klasse 3 work.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "M.1.1.k3",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s3",
+     "rel": "extends"
+    }
+   ],
+   "why": "'Stellenwertschreibweise' with hundreds: beyond the Zahlenraum bis 100 of the Schuleingangsphase, a first part of the Klasse 4 range.",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "M.1.1.k1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Counting within 1000 is beyond 'zählen im Zahlenraum bis 100' and a first part of 'zählen im Zahlenraum bis 1.000.000'.",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Steps of 5 and 10 are 'zählen ... in Schritten' within 100; steps of 100 leave that range and prepare the Klasse 4 expectation.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "M.1.1.k7",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.1.s6",
+     "rel": "extends"
+    }
+   ],
+   "why": "Same line of learning as 'ordnen und vergleichen Zahlen', but beyond 100; a first part of the range 'bis 1.000.000'.",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'ist um x kleiner/größer als' has no range in its wording and runs through all four years; with three-digit numbers it is first mental work 'im erweiterten Zahlenraum'.",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "M.3.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Viertelstunde, Dreiviertelstunde' are in the s-expectation; times to five minutes are not 'einfache Uhrzeiten' and lead to the Klasse 4 expectation.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.6.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'entnehmen Kalendern ... Daten' is named in Mathematik, 'Jahreskalender' in Sachunterricht; a week later and days between use the units 'Tag, Woche'.",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "M.2.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.2.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling plane figures from solids is part of identifying Grundformen and Körper and of 'sortieren sie nach Eigenschaften'.",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "M.2.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.3.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'identifizieren die geometrischen Körper Würfel, Quader und Kugel (auch in der Umwelt)' is met; cylinder, cone and pyramid belong to the Klasse 4 expectation ('u. a. Pyramide, Zylinder').",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "M.2.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.3.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Describing cube and Quader 'mit Fachbegriffen' (Fläche, Kante, Ecke) is the s-expectation; the same for pyramids, cylinders and cones is Klasse 3/4.",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.4.s1",
+     "rel": "extends"
+    },
+    {
+     "id": "M.1.4.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding with block pictures is a change between forms of an operation; within 1000 it goes beyond 'im Zahlenraum bis 100' and prepares the Klasse 3/4 arithmetic.",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.4.s1",
+     "rel": "extends"
+    },
+    {
+     "id": "M.1.4.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "As for adding with blocks: pictorial form of the operation, beyond the Zahlenraum bis 100.",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "M.1.5.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'schriftliche Rechenverfahren' appear only in the Klasse 4 column; NRW starts them in Klasse 3, so a Klasse 2 sheet is a first step, not the secure use the wording asks ('sicher ausführen').",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "M.3.1.s6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.1.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding prices, comparing with the money at hand and making change are 'rechnen mit Größen', 'vergleichen ... Geldbeträge' in a Sachsituation, as long as the prices are whole euro or whole cent ('nur ganzzahlige Maßzahlen'); 'enough money?' prepares Sachunterricht's 'Bedeutung der verfügbaren Mittel für Kaufentscheidungen'.",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "M.4.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Making a bar graph from a tally and answering questions from it: 'stellen Daten ... in Diagrammen und Tabellen dar', 'entnehmen ... Diagrammen ... Daten und interpretieren sie'.",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A line plot is one kind of Diagramm from which data are read; the form itself is unusual in German books.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "M.1.6.k1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.1.6.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'runden' is named only in the Klasse 4 expectation; rounding to the ten is the tool needed before a child can 'die ungefähre Größenordnung der Ergebnisse ... angeben'.",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "M.3.1.k1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.3.1.k5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Weights and the units 'g, kg' appear only in the Klasse 4 column ('ermitteln Größen (u. a. ... Gewichte (Masse)) mit geeigneten Messgeräten'); reading pictured scales in Klasse 2 is a step toward it.",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "M.3.1.k1",
+     "rel": "prepares"
+    },
+    {
+     "id": "M.3.1.k5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Rauminhalte' and 'Volumina (ml, l)' are Klasse 3/4 in NRW; reading a pictured measuring jug is a step toward measuring with the real one.",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "M.3.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "cm or m is 'Stützpunktvorstellungen (für 1cm, 1m ...)' and use of the length units; g / kg and ml / l are units of the Klasse 4 column. Inches and feet have no place in a German sheet.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen Situationen des Wiederholens, Zusammenfassens ... und Multiplikationsaufgaben einander zu', moving from picture to repeated addition to the multiplication sentence. In NRW this is Klasse 2.",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A Punktefeld is the standard picture for multiplication; matching it with a Malaufgabe is the change of representation.",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "M.1.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'zählen ... in Schritten'; the rows of 3 and 4 prepare the Einmaleins facts that are derived from the Kernaufgaben.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "M.4.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and making a picture graph is showing and reading 'Daten und Häufigkeiten in Diagrammen'; one picture for 2 is a small rise in demand, still inside the wording.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "M.1.2.g4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sharing into bins is 'Verteilen', counting equal groups is 'Aufteilen'; the expectation links both with Divisionsaufgaben, which NRW begins in Klasse 2.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The NRW primary plan has no fraction strand; its only fraction wording is 'im Alltag gebräuchliche Bruchzahlen bei Größenangaben ... (¼, ½, ¾)' in Klasse 3/4. Halves and fourths of shapes are the idea before that; thirds are outside it.",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Half of a set is 'ist die Hälfte ... von'; a third and a fourth of a set have no expectation of their own and only prepare the everyday fractions of Klasse 3/4.",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "M.2.4.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a line is a mirror line is 'identifizieren bei einfachen ebenen Figuren Eigenschaften der Achsensymmetrie'.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "M.2.4.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.5.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.4.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Completing a half picture uses the properties of the mirror line and is drawing on 'Gitterpapier'; making symmetric figures ('Zeichnen von Spiegelbildern auf Gitterpapier') is worded as a Klasse 4 expectation, so the Klasse 2 sheet prepares it.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "M.2.1.k2",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.4.1.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No expectation of classes 1/2 names grid codes; finding square B2 is a step toward describing positions from 'Plänen' and toward finding places on maps (Planquadrate) in Klasse 3/4.",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "M.2.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.1.k3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a laid figure to its outline is 'Nachlegen und Auslegen'; rejecting turned and flipped ones needs moving figures in the mind, which the plan asks by Klasse 4 ('verändern die Lage von ebenen Figuren ... in der Vorstellung').",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "M.1.1.k7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen und vergleichen Zahlen im Zahlenraum bis 1.000.000': the four-digit part.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "M.1.6.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The 'runden' named in the Klasse 4 expectation, for tens and hundreds.",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "M.1.5.k2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.5.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'führen die schriftlichen Rechenverfahren der Addition, Subtraktion ... sicher aus': the addition and subtraction part within 1000 (multiplication is missing). Explaining the steps in words, the other expectation, is not what the sheets ask.",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "M.1.6.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.6.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'geben die ungefähre Größenordnung der Ergebnisse ... an, runden' and 'prüfen sie auf Plausibilität': exactly the Überschlag and the check of the exact answer.",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A Zauberquadrat is practice of adding and finding the missing addend in a puzzle form; only the addition / subtraction part of 'Aufgaben aller vier Grundrechenarten' is met, and the range is judged from the year.",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The list has no wording for even / odd rules; predicting the parity of a sum goes beyond 'beschreiben Beziehungen zwischen Zahlen' into reasoning about number patterns (in NRW a process competence).",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beschreiben Beziehungen ... in Zahlenfolgen' and 'zählen ... in Schritten' in the wider number range (steps of 25, 50, 100).",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "M.3.1.k4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'benennen Uhrzeiten auf analogen und auf digitalen Uhren' with no limit to simple times.",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Product as equal groups or an array: 'Situationen des Wiederholens, Zusammenfassens ... und Multiplikationsaufgaben einander zuordnen'. NRW begins this in Klasse 2.",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal jumps are a pictorial form of multiplication ('Wiederholen').",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "M.1.2.g6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'nutzen und beschreiben Rechengesetze an Beispielen (Kommutativgesetz ...)'; turning the array is the usual example (Tauschaufgabe).",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "M.1.3.k2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'geben alle Zahlensätze des kleinen Einmaleins automatisiert wieder' (Klasse 4); deriving facts from neighbours is what NRW already asks at the end of Klasse 2: 'leiten weitere Aufgaben des kleinen Einmaleins daraus ab'.",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "M.4.1.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Building and reading bar graphs and pictographs with a scale: 'stellen Daten und Häufigkeiten in Diagrammen und Tabellen dar', 'entnehmen ... Diagrammen ... Daten'.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "M.3.1.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a scale that counts in 2s, 5s or 10s is part of 'ermitteln Größen (u. a. ...) mit geeigneten Messgeräten'; temperature is covered only by the 'u. a.', it is not one of the named measures.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "M.1.2.g4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Situationen des ... Verteilens und Divisionsaufgaben einander zuordnen'.",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "M.1.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "How many equal hops is 'Aufteilen', shown on the number line as a pictorial form of the division.",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.3.k2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'nutzen und erklären die Zusammenhänge der Operationen untereinander' and 'leiten deren Umkehraufgaben sicher ab'.",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "M.3.2.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sachaufgaben solved by deciding between groups and group size: the situations of multiplying, 'Aufteilen' and 'Verteilen'.",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the rule is describing a relation between numbers ('ist um x kleiner/größer als', double); working backward uses the reverse operation.",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The plan's content list has no wording for the equal sign; finding the missing number by the reverse operation is 'nutzen ... die Zusammenhänge der Operationen'.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "M.3.1.k7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'rechnen mit Größen' with hours and minutes, reading and setting any clock time.",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "M.3.1.k7",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a Zeitspanne between two clock times is calculating with time measures after reading both clocks.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "M.3.1.k4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming times 'auf analogen und auf digitalen Uhren' includes the 24-hour form of the digital clock.",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "M.2.2.k3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bestimmen ... den Flächeninhalt ebener Figuren ... (u. a. durch Auslegen mit Einheitsquadraten)'; rows times columns links it with multiplication.",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "M.2.2.k3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bestimmen und vergleichen den Flächeninhalt ebener Figuren'.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "M.2.2.k3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The same expectation names 'deren Umfang'.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "M.2.2.k3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing 'Flächeninhalt ... und deren Umfang' of figures against each other.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.5.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Division with a remainder in the Einmaleins range is part of 'Aufgaben aller vier Grundrechenarten ... mündlich oder halbschriftlich'; it prepares the written division 'mit Verwendung der Restschreibweise' of Klasse 4.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "M.2.2.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beschreiben diese mit Fachbegriffen (u. a. senkrecht, waagerecht, parallel, rechter Winkel)'.",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "M.2.2.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'identifizieren weitere ebene Figuren (u. a. ... Parallelogramm) und beschreiben diese mit Fachbegriffen'; that a square is also a rectangle is at the top of what the wording asks.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "M.2.4.s1",
+     "rel": "extends"
+    },
+    {
+     "id": "M.2.4.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding all mirror lines goes beyond the s-expectation's 'einfache ebene Figuren'; the Klasse 4 expectation asks for making symmetric figures, for which this is the groundwork.",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "NRW names fractions only as 'im Alltag gebräuchliche Bruchzahlen bei Größenangaben ... (¼, ½, ¾)'; equal parts of shapes named as unit fractions are the idea behind them.",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Three quarters as three pieces of one quarter is the understanding needed for ¾ in measures; other fractions are outside the NRW primary plan.",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That four quarters make the whole is what a child needs to 'wandeln diese in kleinere Einheiten um' (¼ h = 15 min); the plan has no fraction expectation beyond that.",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "extends"
+    }
+   ],
+   "why": "Fractions as numbers on a number line go beyond the everyday fractions with measures that NRW asks in primary school; this is Klasse 5/6 content in Germany.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "extends"
+    }
+   ],
+   "why": "Comparing fractions is not in the NRW primary plan; it lies beyond 'gebräuchliche Bruchzahlen bei Größenangaben' on the same line.",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "extends"
+    }
+   ],
+   "why": "Equivalent fractions are secondary-school content in NRW; only 2/4 = ½ touches the everyday fractions named.",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A fraction of a number of things is the same thinking as turning ½ or ¼ of a unit into smaller units, but with thirds and other fractions the plan does not name.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "M.4.1.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Measuring lengths and showing the data in a diagram are both Klasse 3/4 expectations; half units are a use of '½ ... bei Größenangaben'. The line plot form is not usual in German books.",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "M.2.3.k4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'bestimmen und vergleichen den Rauminhalt von Körpern mit Einheitswürfeln'.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "D.2.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.2.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Schwungübungen train the pencil hold and the strokes needed before 'schreiben flüssig und formklar in Druckschrift'.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "D.2.2.g9",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.1.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing and telling about oneself comes before 'schreiben freie Texte zu eigenen Interessen und Erlebnissen' and before naming 'eigene Gefühle, Bedürfnisse und Interessen'.",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.g5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing rhymes is phonological awareness, the ground for the 'Lautprinzip'; it is also first play with the sound of language ('gehen experimentell und kreativ mit Sprache um').",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures under a heading (Oberbegriff) prepares 'Wortsammlungen nach thematischen ... Gesichtspunkten'.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling letters apart, also inside words, is the first part of 'unterscheiden Buchstaben, Silben, Wörter und Sätze'.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "D.2.1.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.2.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing the print letters comes before writing 'flüssig und formklar in Druckschrift'.",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.2.3.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Clapping and counting Silben prepares telling 'Silben' from letters and words and the spelling strategy 'silbierendes Sprechen'.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing each letter in both forms is letter knowledge needed before reading and writing; the plan has no wording of its own for it.",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing the Anlaut and linking it with a letter is the start of the 'Lautprinzip der deutschen Orthographie'.",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Deciding which picture does not fit a category builds the Oberbegriffe behind thematic 'Wortsammlungen'; a weak but real link.",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairs of opposites are vocabulary ordered by meaning, a step toward the 'Aufbau eines individuellen Wortschatzes'.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "D.2.3.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing the order of the alphabet is the base of 'finden auf Grundlage des Alphabets Wörter in Wörterverzeichnissen'.",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "D.1.2.g2",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.3.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering story pictures prepares retelling 'gestützt durch ... Bilder' and describing the 'Handlungsverlauf' of short texts.",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing where a sound sits in a word (Anlaut, Inlaut, Auslaut) is needed before writing by sound.",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.s4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Selbstlaute and Mitlaute are first technical terms about words ('Fachbegriffe') and help with writing by sound and by syllable.",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "D.4.3.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.g4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Word cards in two languages give the 'Erfahrungen mit verschiedenen Sprachen' the expectation builds on and are a first word collection.",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One sound per box, with sch / ch sharing a box, is the analysis behind 'beherrschen sicher das Lautprinzip'.",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.3.1.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building short sound-true words from letters is first writing by the Lautprinzip and first word reading.",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "D.3.1.s3",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.3.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading single words and matching them to pictures comes before 'erlesen Texte durch die Identifikation von Wörtern und Sätzen'.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Einzahl and Mehrzahl is the first thing children find out about Nomen, before words are sorted into Wortarten.",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "For German this means hearing sch / ch at the start of a word: one sound written with several letters, part of the Lautprinzip.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "D.3.1.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.3.1.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'identifizieren vertraute Wörter auf einen Blick (Sichtwortschatz)' is the school target; before school it is preparation.",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "D.2.1.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.g1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing words and sentences in print with gaps between words prepares Druckschrift and the difference between 'Wörter und Sätze'.",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The expectation names 'Artikel' among the Wortarten; choosing der / die / das for a noun is its first step.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "D.4.2.g5",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finishing and making rhymes is 'gehen experimentell und kreativ mit Sprache um (u. a. poetische Sprache)'; hearing word endings also supports writing by sound.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Splitting a word into its sounds and blending them is the work on the 'Lautprinzip der deutschen Orthographie'.",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "In German: sch, ch (and others such as ei, au, eu) as letter groups for one sound, part of the Lautprinzip. 'th' has no German counterpart.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing sound-true picture words is the core task behind 'beherrschen sicher das Lautprinzip'.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.3.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'unterscheiden Buchstaben, Silben, Wörter' and the strategies 'silbierendes Sprechen', 'Wörter zerlegen'.",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.3.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the vowel in each syllable is work on the Silbe as a unit and the check that goes with 'silbierendes Sprechen' when writing.",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "D.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'identifizieren ... Silben auf einen Blick' and reading words from them; the English word-family sheets correspond to German syllable reading.",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "D.2.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordering words by first and second letter is the skill behind 'finden auf Grundlage des Alphabets Wörter in Wörterverzeichnissen'; the lookup in a real word list is not on the sheet.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Pairs of opposites are vocabulary collected by meaning ('für den Aufbau eines individuellen Wortschatzes'); only this vocabulary part of the expectation is met.",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen Wörtern Wortarten (u. a. Nomen ... Artikel) zu': sorting nouns by der / die / das.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "D.3.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child reads sentences ('Identifikation von Wörtern und Sätzen') and must take out each single piece of information to act on it.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "D.3.1.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word that fits a sentence and matching sentence and picture is reading at word and sentence level.",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Words with the same meaning are a word collection by meaning; the vocabulary part of the expectation.",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "D.4.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.g3",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.2.3.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building a sentence from words works on 'Wörter und Sätze'; moving words about prepares flexible sentence building with Satzglieder; capital at the start and end mark are first cases of 'Groß- und Kleinschreibung, Zeichensetzung', worded for Klasse 4.",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "D.4.2.g3",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "W-Fragen (wer, was, wo) are the tool with which Satzglieder are later found, and the question is one of the 'Satzarten'; the sheets do neither formally yet.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "D.3.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.1.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering sentences and pictures of a story is work on the 'Handlungsverlauf von kurzen literarischen Texten'; it prepares oral retelling with pictures.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen Wörtern Wortarten (u. a. Nomen, Verben, Adjektive ...) zu'.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pronouns fall under the 'u. a.' of the Wortarten; replacing a name by er / sie is a first 'Ersetzen', which the plan names as a Sprachprobe for Klasse 4. NRW schools usually treat pronouns in Klasse 3/4.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.1.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering near-synonyms by strength is vocabulary work by meaning and prepares 'beschreiben die Wirkung von sprachlichen Mitteln'.",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "D.4.2.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the word built from a stem is 'identifizieren Wortbausteine' (Wortstamm); it prepares using the stem for spelling ('Ableiten').",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "D.2.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.2.g8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A story map is a 'Strukturierungs- und Planungshilfe', the child then writes from it, and story, description and postcard are 'Texte mit verschiedenen Textfunktionen'.",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "D.2.3.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "In German: finding sch (or ch, ei ...) in sentences, a letter group for one sound; part of the Lautprinzip.",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "D.4.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.3.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing . or ? is 'unterscheiden verschiedene Satzarten'; finding where a sentence ends is telling 'Sätze' apart; capital and end mark are first cases of the Klasse 4 wording 'Groß- und Kleinschreibung, Zeichensetzung'.",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "D.2.1.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The Schuleingangsphase expectation is 'Druckschrift'; a 'gut lesbare verbundene Handschrift' is asked only by the end of Klasse 4, so letters and joins in Klasse 2 are the way toward it.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "D.3.1.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.s4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word from the story context is 'verknüpfen Informationen in Texten (lokale Kohärenz)' while reading a simple text.",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "D.4.2.g3",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Asking for a highlighted part of a sentence with wer / wo / warum / wie is the informal step before 'unterscheiden Satzglieder'; it also works with the question as a sentence type.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "D.3.1.s4",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'lesen einfache Texte', 'identifizieren Einzelinformationen in Texten' (who, what, where, when) and, for why, linking information.",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "D.2.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.2.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing with word bank and sentence starters is writing with 'sprachlichen Mustern ... nach Vorgaben'; the picture is the 'Impuls' for ideas.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.s4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'ordnen Wörtern Wortarten (u. a. Nomen, Verben, Adjektive ...) zu', using the terms.",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Forming the Mehrzahl is work on the Nomen; German plurals with Umlaut (Haus / Häuser) and the long form (Hund / Hunde) prepare 'Ableiten' and 'Verlängern' as spelling helps.",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "D.2.3.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "For German this means patterns such as ck / k, tz / z, ie: 'identifizieren anhand prototypischer Beispiele die Grundprinzipien der deutschen Orthographie'; applying rules ('wenden orthografische ... Regeln an') is worded for Klasse 4. The English patterns in the skill line (tch, dge, ai / ay, -ies) have no German counterpart.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.1.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching words of the same meaning is vocabulary work by meaning; choosing another word for 'sagen' (Wortfeld sagen) prepares 'beschreiben die Wirkung von sprachlichen Mitteln'.",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.1.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill as 2:synonyms: word collection by meaning; the Wortfeld 'sagen' prepares work on the effect of word choice.",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the verb is Wortarten work; present and past forms (sein, haben, gehen ...) are grammar that the plan words for Klasse 4 ('wenden ... grammatische Regeln an'). NRW schools treat Zeitformen in Klasse 3/4.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "D.4.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pronouns come under the 'u. a.' of the Wortarten; replacing a name is the Sprachprobe 'Ersetzen' named for Klasse 4.",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "D.2.1.k2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The plan has no reading expectation for joined script; being able to read it is a step toward writing 'in einer gut lesbaren verbundenen Handschrift'.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "D.4.2.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.3.g1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building and splitting zusammengesetzte Nomen is 'identifizieren Wortbausteine' and the strategy 'Wörter zerlegen'; naming 'Zusammensetzung' as a way of word formation is the Klasse 4 expectation.",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "D.4.2.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Wortfamilien: finding the shared Wortstamm ('Wortbausteine', 'bekannte Stamm-Morpheme') and sorting by it, the base of 'Ableiten und Analogiebildung'.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "D.4.2.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "German sheets use ver-, vor-, un-, be- ...: 'identifizieren Wortbausteine' and 'häufig wiederkehrende Morpheme (u. a. ver-, vor-, nach- als Präfixe)'; 'Ableitung' as word formation is Klasse 4.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "D.2.2.g3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.2.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.1.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing a picture story with given sentence openers (Zuerst, Dann, Danach, Am Ende) uses 'sprachliche Muster' and a structure help; the oral retelling 'gestützt durch ... Bilder' is prepared, not done.",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "D.3.1.g2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child links several read clues ('verknüpfen Informationen') and tells animals apart by body and food ('unterscheiden typische Tiere ... (u. a. Körperbau, Ernährung)').",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.2.2.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A Steckbrief on food, habitat, movement and body is Sachunterricht content on typical animals and a text written 'nach Vorgaben'.",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.3.2.g2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'unterscheiden typische Tiere' by their features; sorting facts into same / different prepares the reading strategy 'Informationen sortieren, passende Strukturhilfen nutzen'.",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "D.2.1.k2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'schreiben flüssig ... in einer gut lesbaren verbundenen Handschrift': copying whole sentences in joined writing.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "D.4.2.g4",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.1.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Wortfelder (gehen, sehen) are 'Wortsammlungen nach thematischen ... Gesichtspunkten'; telling close words apart prepares describing the effect of word choice.",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "D.4.2.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "backen - Bäcker, laufen - Läufer: 'unterscheiden Möglichkeiten der Wortbildung (... Ableitung ...)'.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "D.4.2.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D.4.2.k2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the right member of a Wortfamilie for a sentence needs 'strukturieren Wörter' by stem and endings and the use of grammar rules.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "SU.2.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'beschreiben Körperteile des Menschen und deren Funktion (u. a. Kopf, Rumpf, Gliedmaßen ...)': naming the parts comes first.",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "SU.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No single expectation names living / non-living; the idea is the ground for the whole Schwerpunkt 'Tiere, Pflanzen, Lebensräume'.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.2.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which part of the plant we eat leads to 'Teile der Pflanze'; fruit and vegetables lead to 'gesunde Ernährung'.",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.3.1.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pets, farm and wild animals and their homes prepare 'unterscheiden typische Tiere in deren Lebensräumen' and their dependence on the habitat.",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching young and parents by how they look is a first look at 'Körperbau' of typical animals.",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "SU.6.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'benennen unterschiedliche Zeiteinteilungen ... (Jahreszeiten ...)'.",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.6.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Day and night is a first 'Naturphänomen' to name and the most basic division of time.",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The plan does not name weather; it falls under 'benennen und beschreiben Naturphänomene', whose only example is Magnetismus.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "SU.3.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'ordnen Materialien und Gegenstände aus ihrem Alltag nach ausgewählten Aspekten': natural or made is one such aspect.",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "SU.2.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'untersuchen Leistung und Aufgaben der eigenen Sinne': knowing which organ does what comes first.",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "SU.3.2.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.3.1.k3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting waste is ordering things by material and a first action for 'Natur- und Umweltschutz', which the plan words for Klasse 4.",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "SU.3.1.s3",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.3.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Water and light are the first 'Abhängigkeiten von ... Pflanzen von ihrem Lebensraum' and part of plant 'Entwicklung'.",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "SU.3.2.s2",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.3.2.s3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Schwimmen und Sinken is a phenomenon to name and later to examine 'in Versuchen'; a sorting sheet comes before the experiment.",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'unterscheiden typische Tiere ... (u. a. Körperbau ...)': grouping by fur, feathers, scales.",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'typische Tiere in deren Lebensräumen (u. a. ... Ernährung)' and 'Abhängigkeiten von Tieren ... von ihrem Lebensraum'.",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The plant cycle is the 'Entwicklung' named for plants; animal development (chicken, butterfly, frog) is covered only by the 'u. a.' of the animal expectation.",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The sheet names and describes the phenomenon; 'untersuchen in Versuchen ... Eigenschaften von Stoffen' needs the real test with water, which a sheet can only frame.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "SU.2.2.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'beschreiben Körperteile des Menschen': the naming part; functions are only touched.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "SU.2.2.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The 'Aufgaben der eigenen Sinne' part of the expectation; testing what the senses can do ('Leistung') needs practical work.",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.4.1.g2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Weather is not named in the NRW plan; it is a 'Naturphänomen' to name and describe. Reading a week forecast is taking data from a table.",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "SU.3.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.k3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'ordnen Materialien und Gegenstände aus ihrem Alltag nach ausgewählten Aspekten' (what it is made of); recycling prepares the Klasse 4 expectation on Umweltschutz.",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'typische Pflanzen ... (Teile der Pflanze ...)'.",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the moon-phase sheets fit, as a 'Naturphänomen' to name and describe; Sun, Earth and Moon facts are not in the NRW Sachunterricht plan.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "SU.3.2.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.k3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping things by material is the s-expectation; doing it for recycling prepares the Umweltschutz expectation of Klasse 4.",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Teile der Pflanze' with their jobs; which part we eat is an application.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Development of animals is not named, only 'u. a. Körperbau, Ernährung'; matching young stages to the adult animal is telling typical animals apart.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'benennen und beschreiben Naturphänomene'; the moon is not named in the plan, so the link rests on the open wording.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.2.k5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Describing day and night is the s-expectation; explaining it by the turning Earth goes toward 'Naturphänomene im Hinblick auf physikalische ... Gesetzmäßigkeiten' of Klasse 4.",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.1.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Animals and plants of a habitat and their dependence on it are s-expectations; the body feature that helps is a first case of 'Prinzip der Angepasstheit' (Klasse 4).",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Describing that shape changes floating is describing the phenomenon; the examination 'in Versuchen' is the real clay-boat test the sheet goes with.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "SU.3.2.k2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'untersuchen Stoffkreisläufe': the Wasserkreislauf is the standard example in Klasse 3/4, although the wording names only 'Atmung'; the sheet covers the naming part.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "extends"
+    }
+   ],
+   "why": "The plan asks for 'Teile der Pflanze' by Klasse 2 and names nothing finer; parts of the flower go beyond it on the same line.",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "extends"
+    }
+   ],
+   "why": "Comparing two development cycles goes beyond telling typical animals apart; no Klasse 4 expectation names animal development.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "none": "the solar system is not in the NRW Sachunterricht plan",
+   "why": "No expectation in the list names planets or space; SU.4.1.k3 stops at 'Welt'.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "SU.3.2.k5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.3.2.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Predict, test, record and conclude on floating is 'untersuchen Naturphänomene im Hinblick auf physikalische ... Gesetzmäßigkeiten', provided the test is really done; planning own 'Versuche und Experimente' is named for stoffliche Umwandlung.",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "SU.4.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing things from above is the idea needed before 'lesen und zeichnen einfache Pläne'.",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "SU.1.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Family words come before describing 'Lebenssituationen ... (u. a. Familienformen ...)'.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "SU.4.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting vehicles by land, water and air prepares 'beschreiben verschiedene Formen von Mobilität'.",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "SU.1.2.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'unterscheiden eigene Bedürfnisse und Wünsche'.",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "SU.5.3.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "SU.5.2.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Known jobs and their tools prepare 'aus dem Alltag bekannte Berufe' and 'Funktion ausgewählter ... Werkzeuge und Geräte für die Arbeitswelt'.",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "SU.4.1.s2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.4.1.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading symbols from a key is part of 'lesen ... einfache Pläne'; the plan means plans of places the child knows, and real map work comes in Klasse 3/4.",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "SU.1.3.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.6.1.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The own family tree is a way to describe 'Familienformen'; ordering generations by age prepares the timeline of the own life story.",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "SU.4.1.k1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'orientieren sich mit ... Karten und anderen Hilfsmittel ... (Sonnenstand ... Kompass ...)' is a Klasse 4 expectation; NRW has nothing on compass directions in classes 1/2.",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "SU.4.1.k3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'größere räumliche Einheiten (Nordrhein-Westfalen, Deutschland, Europa, Welt)' is Klasse 3/4 and starts from the child's own surroundings; a continents sheet in Klasse 2 is early.",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "SU.1.3.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Words such as Tante, Cousin, Großmutter are needed to describe 'Familienformen'; the riddles do not yet compare ways of living.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "SU.4.1.k3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The 'Welt' part of 'größere räumliche Einheiten'; NRW, Deutschland and Europa, named first in the wording, are not on these sheets.",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Grundsätze ... der gesunden Lebensführung (u. a. ... gesunde Ernährung ...)'.",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'Grundsätze der Körperpflege ... (u. a. Mundhygiene und Zahnpflege ...)'.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "SU.4.3.s2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'berücksichtigen wichtige Verkehrsregeln und Verkehrszeichen'; traffic light and crossing steps are the first rules.",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The 'gesunde Ernährung' part of the expectation.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.2.1.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'Mundhygiene und Zahnpflege' is named; choosing the healthy action is 'beurteilen den individuellen Einfluss auf die Gesundheit'.",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "SU.4.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Knowing 'Verkehrszeichen' and what they mean is the knowledge part of the expectation; acting on it in traffic is practised outside.",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SU.2.1.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Giving the reason for each habit is describing the 'Grundsätze' and judging the own influence on health.",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "SU.4.3.s2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Kinds of signs and the sign for a situation: 'wichtige Verkehrsregeln und Verkehrszeichen'.",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "none": "drawing by steps belongs to Kunst, which is not among the three plans",
+   "why": "Deutsch, Mathematik and Sachunterricht have no expectation for drawing a picture; M.2.5.s1 means geometric lines and figures, not pictures.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "none": "drawing by steps belongs to Kunst, which is not among the three plans",
+   "why": "No expectation of the three plans asks for drawing a figure from steps.",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "D.2.2.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Only the 'write about it' part counts: the own drawing is the 'Impuls' for ideas before writing ('Bilder ... als Impulse'). Drawing itself is Kunst.",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "none": "visual discrimination is a readiness skill, not named in the plans",
+   "why": "No expectation asks for finding identical or different pictures.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "none": "a maze is not in the NRW plans",
+   "why": "The number and letter routes repeat counting and the alphabet, but the task itself is a puzzle with no expectation.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "none": "visual perception training is not named in the plans",
+   "why": "Matching shadows and parts to wholes is pre-school perception work with no expectation behind it.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "none": "spot-the-difference is not in the NRW plans",
+   "why": "Comparing two pictures is perception training; no wording covers it.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "none": "logic puzzles are not content expectations",
+   "why": "Completing a picture grid is logical reasoning, a process competence that is not in the list.",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "M.2.5.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Copying on a grid prepares 'zeichnen ... ebene Figuren und Muster ... mit Hilfsmitteln (u. a. ... Gitterpapier)'.",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "spot-the-difference is not in the NRW plans",
+   "why": "Visual discrimination has no expectation in Deutsch, Mathematik or Sachunterricht.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "a maze is not in the NRW plans",
+   "why": "Finding a way through a picture maze is a puzzle; M.2.1.s2 asks for describing ways in words, which a maze does not do.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "M.2.5.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "'zeichnen Linien, ebene Figuren und Muster ... mit Hilfsmitteln (u. a. ... Gitterpapier)': copying square by square on a grid.",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "analogies are reasoning tasks, not content of the plans",
+   "why": "No expectation names A is to B as C is to ?.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "rows": [
+    {
+     "id": "SU.1.1.k6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Coding and decoding with a key is the experience behind 'unterscheiden zwischen Codierung und Verschlüsselung von Daten', a Klasse 4 expectation.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "none": "sudoku is not in the NRW plans",
+   "why": "A logic puzzle; the content expectations of Mathematik do not include it.",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "none": "logic grids are not content expectations",
+   "why": "Reasoning from clues is a process competence, which is not in the list.",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "D.2.2.g3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the differences has no expectation; only the face where the child writes a sentence about each difference is a small step toward writing texts with given patterns.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "none": "logic grids are not content expectations",
+   "why": "Solving from yes / no clues is reasoning; nothing in the three plans' content lists covers it.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "M.4.1.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A row-by-column table for two attributes is 'strukturieren Daten ... mithilfe von Tabellen'; the Venn form is not named but does the same job.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "M.4.1.g3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill as 3:two-attribute-sort: ordering things in a two-way table.",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "none": "logic grids are not content expectations",
+   "why": "Reasoning from clues is a process competence, which is not in the list.",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "none": "sudoku is not in the NRW plans",
+   "why": "A logic puzzle without number or geometry content.",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "SU.1.1.s1",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.1.1.s3",
+     "rel": "prepares"
+    },
+    {
+     "id": "D.4.1.s1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "'benennen ... eigene Gefühle', 'beschreiben eigene Gefühle auch unterstützt durch visuelle Hilfsmittel (Symbole)' and 'deuten Mimik': face and feeling-word sheets come before all three.",
+   "review": "author-all"
+  }
+ }
+}

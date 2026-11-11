@@ -347,10 +347,9 @@ node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-te
 # shown without an invented id. It reads committed files only. docs/daily-teaching-system/curricula/README.md
 node /opt/lessoncraftstudio/scripts/curricula/gates.js > /tmp/lcs-curricula.txt 2>&1 || { tail -12 /tmp/lcs-curricula.txt; echo "ERROR: a curriculum registry fails its gates — node scripts/curricula/gates.js"; exit 1; }
 tail -3 /tmp/lcs-curricula.txt
-# WARN-only (Part 9 release 2): the skill index of class results is the build of today's content graph and curriculum
-# registries (a stale file would place a result under the wrong heading). Committed files only. It becomes a hard
-# gate when class results are switched on. docs/daily-teaching-system/PART-9-DESIGN.md §12
-node /opt/lessoncraftstudio/scripts/class-results/build-skill-index.js --check > /tmp/lcs-skill-index.txt 2>&1; tail -3 /tmp/lcs-skill-index.txt
+# PC ONLY, before a deploy (it compiles a TypeScript module with esbuild, which the server does not have; on the
+# server the call failed and, under set -e, stopped the deploy of 2026-11-11):
+#   node scripts/class-results/build-skill-index.js --check   the skill index of class results is the build of today's sources
 # HARD (Daily Teaching System, Part 3): units and sub packs — shape, teaching points, the filler lints (a teacher note
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.

@@ -21,6 +21,13 @@ const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'st
 const ONLY = arg('units', null);
 const NAME = arg('name', null);
 const units = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] }).units.filter((u) => !ONLY || ONLY.split(',').some((x) => u.id.startsWith(x)));
+// --also=<point id>[,<point id>…] adds single lessons of other units (notes written after their unit was reviewed)
+const ALSO = (arg('also', '') || '').split(',').filter(Boolean);
+if (ONLY && ALSO.length) for (const u of readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] }).units) {
+  if (units.includes(u) || units.some((x) => x.id === u.id)) continue;
+  const lessons = u.lessons.filter((l) => ALSO.includes(l.point));
+  if (lessons.length) units.push(Object.assign({}, u, { lessons, title: u.title + ' (ONLY the lessons below are under review)' }));
+}
 const packs = ONLY ? [] : readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
 const uiU = readJson(path.join(C, 'units', 'ui.' + loc + '.json'), {});
 const uiS = readJson(path.join(C, 'sub-plans', 'ui.' + loc + '.json'), {});

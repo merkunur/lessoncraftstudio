@@ -1650,6 +1650,225 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g2-sentences-and-grammar",
+   "slug": "sentences-and-grammar-grade-2-unit",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Sentences and Grammar",
+   "metaTitle": "Sentences and Grammar: Grade 2 Unit Plan",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, nouns, verbs, and adjectives, plurals, verb forms, pronouns, and writing questions.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:sentence-boundaries",
+     "types": [
+      "G2-274",
+      "G2-307"
+     ],
+     "activity": "sentence-clinic.fix-it.l-2-1"
+    },
+    {
+     "point": "2:word-classes",
+     "types": [
+      "G2-275",
+      "G2-286"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:plural-nouns",
+     "types": [
+      "G2-349"
+     ],
+     "activity": "plural.irregular.l-2-1-b"
+    },
+    {
+     "point": "2:verb-forms",
+     "types": [
+      "G2-317",
+      "G2-336"
+     ],
+     "activity": "rusty-yesterday.irregular-past.l-2-1-d"
+    },
+    {
+     "point": "2:pronouns",
+     "types": [
+      "G2-353",
+      "G2-355"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:question-words",
+     "types": [
+      "G2-356",
+      "G2-357"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g2-spelling-and-word-building",
+   "slug": "spelling-and-word-building-grade-2-unit",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Spelling and Word Building",
+   "metaTitle": "Spelling and Word Building: Grade 2 Unit Plan",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on sh in sentences, spelling rules, compound words, root words, synonyms, and better words for said, with teacher notes.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:digraphs",
+     "types": [
+      "G2-372"
+     ]
+    },
+    {
+     "point": "2:spelling-rules",
+     "types": [
+      "G2-315",
+      "G2-326"
+     ],
+     "activity": "word-clinic.spell-by-ear.l-1-2-e"
+    },
+    {
+     "point": "2:compound-words",
+     "types": [
+      "G2-331",
+      "G2-330"
+     ]
+    },
+    {
+     "point": "2:root-words",
+     "types": [
+      "G2-375",
+      "G2-359"
+     ]
+    },
+    {
+     "point": "2:synonyms",
+     "types": [
+      "G2-358",
+      "G2-373"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:synonyms~doing-stage",
+     "types": [
+      "G2-374"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-stories-facts-and-writing",
+   "slug": "stories-facts-and-writing-grade-2-unit",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Stories, Facts, and Writing",
+   "metaTitle": "Stories, Facts, and Writing: Grade 2 Unit Plan",
+   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering questions about a story, missing words, writing about a picture, retelling, an animal fact file, and cursive.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:read-and-answer",
+     "types": [
+      "G2-254",
+      "G2-269"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:cloze-context",
+     "types": [
+      "G2-350"
+     ],
+     "activity": "fern-clue-garden.context-clues.l-2-4-a"
+    },
+    {
+     "point": "2:describe-a-picture",
+     "types": [
+      "G2-299",
+      "G2-300"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:retell-with-starters",
+     "types": [
+      "G2-378"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:animal-fact-file",
+     "types": [
+      "G2-339",
+      "G2-340"
+     ],
+     "activity": null,
+     "titles": {
+      "G2-339": "Animal Fact File: Circle the True Facts",
+      "G2-340": "Animal Fact File with a Word Bank"
+     }
+    },
+    {
+     "point": "2:cursive-writing",
+     "types": [
+      "G2-377",
+      "G2-385"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g3-words-and-their-meanings",
+   "slug": "words-and-their-meanings-grade-3-unit",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Words and Their Meanings",
+   "metaTitle": "Words and Their Meanings: Grade 3 Unit Plan",
+   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, words for go and look, person words such as baker, and choosing the right form of a word, with teacher notes.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "2:prefixes",
+     "types": [
+      "G2-320",
+      "G2-376"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "3:word-fields",
+     "types": [
+      "G3-397"
+     ],
+     "activity": "roary-roar-meter.shades.l-2-5-b"
+    },
+    {
+     "point": "3:person-words",
+     "types": [
+      "G3-398"
+     ],
+     "activity": "affix.apply.l-2-4-b"
+    },
+    {
+     "point": "3:root-words-in-context",
+     "types": [
+      "G3-399"
+     ]
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,1922 @@
+# Daily Teaching System — search demand, market `en`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 13 | 321 |
+| National curriculum | 11 | 11 | 331 |
+| Assessments and tests | 14 | 13 | 464 |
+| Substitute-teacher packs | 11 | 11 | 207 |
+| First readers and mini-books | 14 | 14 | 464 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| kindergarten scope and sequence | shallow | 1 / 1 | 10 |
+| first grade scope and sequence | shallow | 1 / 1 | 10 |
+| homeschool kindergarten curriculum | shallow | 1 / 1 | 10 |
+| 3rd grade lesson plans | shallow | 1 / 1 | 7 |
+| kindergarten pacing guide | shallow | 1 / 1 | 7 |
+| kindergarten curriculum map | shallow | 1 / 1 | 7 |
+| first grade math curriculum | shallow | 1 / 1 | 7 |
+| 2nd grade lesson plans | shallow | 1 / 1 | 5 |
+| unit plans for kindergarten | shallow | 1 / 1 | 1 |
+| phonics scope and sequence | deep | 25 / 27 | 136 |
+| kindergarten lesson plans | deep | 22 / 27 | 64 |
+| first grade lesson plans | deep | 20 / 27 | 49 |
+| kindergarten math unit | deep | 4 / 27 | 8 |
+| weekly lesson plans kindergarten | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): pdf 35 · for 24 · reading 24 · free 21 · of 20 · grade 13 · math 12 · term 11 · jolly 11 · download 10 · year 9 · week 9 · kindergarten 9 · plus 7 · the 6 · whole 6 · science 6 · english 6 · first 6 · ufli 6 · and 5 · hmh 5 · language 5 · ckla 5 · saxon 5 · is 4 · day 4 · additional 4 · illustrative 4 · nsw 4 · benchmark 4 · core 4 · 95 4 · instruction 4 · homeschool 3 · printable 3 · what 3 · comprehension 3 · social 3 · studies 3
+
+**Phrases** (all 321, by how many lookups returned them)
+
+- scope and sequence for phonics instruction  ×9
+- first grade lesson plans for the first week of school  ×6
+- first grade science lesson plans on living and nonliving things  ×6
+- first grade lesson plans for reading comprehension  ×4
+- phonics scope and sequence by grade level  ×4
+- phonics scope and sequence science of reading  ×4
+- phonics scope and sequence pdf free download  ×4
+- kindergarten lesson plans for the whole year pdf  ×4
+- first grade math lesson plans addition and subtraction  ×3
+- guided reading first grade lesson plans pdf  ×3
+- hmh into reading first grade lesson plans  ×3
+- kindergarten lesson plans for the whole year pdf free  ×3
+- kindergarten lesson plans for the year  ×3
+- kindergarten lesson plans pdf free download  ×3
+- first grade reading comprehension lesson plans pdf  ×3
+- first grade small group reading lesson plans  ×3
+- jolly phonics scope and sequence grade 1 term 3  ×3
+- lesson plans for first grade  ×3
+- phonics scope and sequence science of reading pdf  ×3
+- jolly phonics scope and sequence grade 1 term 2  ×3
+- first week of second grade lesson plans  ×3
+- first week of third grade lesson plans  ×3
+- jolly phonics scope and sequence grade 2 term 2  ×3
+- jolly phonics scope and sequence pdf free download  ×3
+- kindergarten lesson plans for the whole year pdf free download  ×3
+- wiley blevins phonics scope and sequence pdf  ×3
+- hmh into reading phonics scope and sequence  ×3
+- jolly phonics scope and sequence grade 2 term 3  ×3
+- jolly phonics scope and sequence grade 2 term 4  ×3
+- letrs phonics scope and sequence pdf free download  ×3
+- jolly phonics scope and sequence grade 1 term 1  ×3
+- jolly phonics scope and sequence grade 1 term 4  ×3
+- first day of first grade lesson plans  ×2
+- first grade lesson plans math  ×2
+- first grade lesson plans pdf  ×2
+- kindergarten and first grade lesson plans  ×2
+- kindergarten lesson plans homeschool  ×2
+- kindergarten lesson plans math  ×2
+- kindergarten lesson plans pdf  ×2
+- kindergarten lesson plans science  ×2
+- kindergarten math unit plans  ×2
+- phonics scope and sequence first grade  ×2
+- phonics scope and sequence k-2  ×2
+- phonics scope and sequence nsw  ×2
+- phonics scope and sequence pdf  ×2
+- phonics scope and sequence ufli  ×2
+- sample kindergarten lesson plans with goals and objectives  ×2
+- first day of second grade lesson plans  ×2
+- jolly phonics scope and sequence pdf  ×2
+- kindergarten lesson plans free  ×2
+- needs vs wants kindergarten lesson plans  ×2
+- nsw det phonics scope and sequence  ×2
+- orton gillingham phonics scope and sequence chart  ×2
+- phonics scope and sequence kindergarten  ×2
+- west virginia phonics scope and sequence  ×2
+- first day of third grade lesson plans  ×2
+- first grade language arts lesson plans  ×2
+- first grade lesson plans free  ×2
+- first week of first grade lesson plans  ×2
+- hooked on phonics scope and sequence  ×2
+- kindergarten lesson plans printable  ×2
+- phonics and morphology scope and sequence  ×2
+- saxon phonics scope and sequence kindergarten  ×2
+- victorian curriculum phonics scope and sequence  ×2
+- hooked on phonics scope and sequence pdf  ×2
+- jolly phonics scope and sequence grade 1  ×2
+- nsw department of education phonics scope and sequence  ×2
+- phonics books uk scope and sequence  ×2
+- reveal math first grade lesson plans  ×2
+- kindergarten lesson plans for the whole year pdf free english  ×2
+- kindergarten lesson plans free printable  ×2
+- phonics for reading scope and sequence pdf  ×2
+- reading universe phonics scope and sequence  ×2
+- tara west phonics scope and sequence  ×2
+- australian curriculum phonics scope and sequence  ×2
+- benchmark advance phonics scope and sequence  ×2
+- first week of 5th grade lesson plans  ×2
+- into reading phonics scope and sequence  ×2
+- saxon phonics scope and sequence grade 1  ×2
+- benchmark phonics intervention scope and sequence  ×2
+- first week of 2nd grade lesson plans  ×2
+- phonics first scope and sequence pdf free download  ×2
+- first week of 4th grade lesson plans  ×2
+- benchmark phonics kindergarten scope and sequence  ×2
+- open court phonics scope and sequence  ×2
+- what is a phonics scope and sequence provide a definition  ×2
+- 2nd grade lesson plans
+- 3rd grade lesson plans
+- abeka phonics scope and sequence
+- bridges math kindergarten unit 1
+- es1 phonics scope and sequence
+- first grade esl lesson plans
+- first grade homeschool lesson plans
+- first grade lesson plans
+- first grade literacy lesson plans
+- first grade math curriculum
+- first grade scope and sequence
+- first grade tutoring lesson plans
+- first grade weather lesson plans
+- first grade year lesson plans
+- hmh phonics scope and sequence
+- homeschool kindergarten curriculum
+- illustrative math kindergarten unit 1
+- january kindergarten lesson plans
+- jolly phonics scope and sequence
+- kindergarten curriculum map
+- kindergarten gym lesson plans
+- kindergarten lesson plans
+- kindergarten lesson plans art
+- kindergarten lesson plans examples
+- kindergarten lesson plans numbers 11 20
+- kindergarten lesson plans ontario
+- kindergarten lesson plans template
+- kindergarten pacing guide
+- kindergarten project based learning lesson plans
+- kindergarten reading lesson plans pdf
+- kindergarten scope and sequence
+- kindergarten visual arts lesson plans
+- kodaly kindergarten lesson plans
+- myview phonics scope and sequence
+- phonics plus scope and sequence level 1
+- phonics plus scope and sequence year 1
+- phonics scope and sequence
+- phonics scope and sequence chart
+- phonics scope and sequence definition
+- phonics scope.and.sequence victoria
+- sample first grade lesson plans
+- scope and sequence phonics instruction
+- teaching phonics scope and sequence
+- ufli kindergarten lesson plans
+- unit plans for kindergarten
+- what is kindergarten lesson plans
+- wonders phonics scope and sequence
+- zoo phonics scope and sequence
+- 2nd grade lesson plans pdf
+- 3rd grade lesson plans pdf
+- 4th of july kindergarten lesson plans
+- alphabetic phonics scope and sequence
+- benchmark phonics scope and sequence
+- bridges math kindergarten unit 2
+- first grade art lesson plans
+- first grade civics lesson plans
+- first grade ela lesson plans
+- first grade math curriculum homeschool
+- first grade scope and sequence ufli
+- first grade teacher lesson plans
+- heggerty kindergarten lesson plans
+- heggerty phonics scope and sequence
+- homeschool kindergarten curriculum free
+- illustrative math kindergarten unit 2
+- kindergarten curriculum map pdf
+- kindergarten drama lesson plans
+- kindergarten gymnastics lesson plans
+- kindergarten lesson plans english
+- kindergarten lesson plans music
+- kindergarten lesson plans social studies
+- kindergarten math unit 1
+- kindergarten nutrition lesson plans
+- kindergarten pacing guide pdf
+- kindergarten readiness lesson plans
+- kindergarten scope and sequence pdf
+- measured mom phonics scope and sequence
+- phonics international scope and sequence
+- phonics plus scope and sequence f 2
+- phonics scope and sequence det
+- pre k kindergarten lesson plans
+- scope and sequence for phonics elements
+- ultimate phonics scope and sequence
+- whole phonics scope and sequence
+- 2nd grade lesson plans for reading
+- 3rd grade lesson plans free
+- abeka first grade lesson plans
+- amplify phonics scope and sequence
+- ckla phonics scope and sequence
+- department of education phonics scope and sequence
+- first grade english lesson plans
+- first grade math curriculum pdf
+- first grade music lesson plans
+- first grade scope and sequence fundations
+- geodes kindergarten lesson plans
+- hmh kindergarten lesson plans
+- homeschool kindergarten curriculum pdf
+- illustrative math kindergarten unit 4
+- imse phonics scope and sequence
+- kindergarten curriculum map template
+- kindergarten pacing guide nc
+- kindergarten reading lesson plans pdf free download
+- kindergarten scope and sequence math
+- letrs phonics scope and sequence
+- november kindergarten lesson plans
+- phonics books scope and sequence
+- rainbow phonics scope and sequence
+- saxon phonics scope and sequence
+- scope and sequence of phonics
+- speld nsw phonics scope and sequence
+- uk phonics scope and sequence
+- very hungry caterpillar kindergarten lesson plans
+- wilson phonics scope and sequence
+- 2nd grade lesson plans for math
+- 3rd grade lesson plans for reading
+- 95 phonics scope and sequence kindergarten
+- arc phonics scope and sequence
+- best phonics scope and sequence
+- doe phonics scope and sequence
+- first day of school lesson plans first grade
+- first grade math curriculum free
+- first grade pe lesson plans
+- first grade social studies lesson plans
+- habitats kindergarten lesson plans
+- homeschool kindergarten curriculum free printable
+- illustrative math kindergarten unit 7
+- iready phonics scope and sequence
+- kindergarten math lesson plans pdf
+- kindergarten scope and sequence texas
+- kindergarten yearly curriculum map
+- lem phonics scope and sequence
+- lesson plans for kindergarten reading and writing
+- ngss kindergarten lesson plans
+- phonics companion scope and sequence
+- phonics for reading scope and sequence
+- phonics plus scope and sequence foundation
+- reading eggs fast phonics scope and sequence
+- scope and sequence of phonics instruction
+- spanish phonics scope and sequence
+- ufli kindergarten pacing guide
+- victoria’s phonics plus scope and sequence (f–2)
+- wonders first grade scope and sequence
+- 2nd grade lesson plans free
+- 3rd grade lesson plans for social studies
+- core phonics scope and sequence
+- dfe phonics scope and sequence
+- digraphs lesson plans first grade
+- first grade math curriculum california
+- first grade phonics scope and sequence
+- first grade solar system lesson plans
+- halloween kindergarten lesson plans
+- homeschool kindergarten curriculum christian
+- kindergarten garden lesson plans
+- kindergarten math curriculum map
+- kindergarten math pacing guide
+- kindergarten rhyming words lesson plans
+- kindergarten scope and sequence ufli
+- letters phonics scope and sequence
+- native american kindergarten lesson plans
+- og phonics scope and sequence
+- phonics and spelling scope and sequence
+- phonics first kindergarten scope and sequence
+- phonics first scope and sequence pdf
+- scope and sequence for phonics
+- scope and sequence in phonics
+- systematic phonics scope and sequence
+- 3rd grade lesson plans math
+- a recommended scope and sequence for phonics elements is
+- afrikaans first additional language grade 2 lesson plans term 3
+- ckla kindergarten curriculum map
+- ckla kindergarten phonics scope and sequence
+- department phonics scope and sequence
+- fast phonics scope and sequence
+- first grade math curriculum texas
+- georgia kindergarten lesson plans
+- homeschool kindergarten curriculum texas
+- kindergarten curriculum pacing guide
+- kindergarten dental health lesson plans
+- kindergarten lesson plans for math
+- kindergarten reading comprehension lesson plans
+- kindergarten scope and sequence phonics
+- kindergarten whole year lesson plans
+- orton gillingham phonics scope and sequence
+- phonics launch scope and sequence
+- teaching numbers to kindergarten lesson plans
+- ufli first grade scope and sequence pdf free download
+- 3rd grade lesson plans science
+- 95 core phonics scope and sequence
+- first grade math curriculum reddit
+- first grade math scope and sequence
+- georgia kindergarten curriculum map
+- getting ready for kindergarten lesson plans
+- homeschool kindergarten curriculum books
+- kindergarten lesson plans first week
+- kindergarten scope and sequence fundations
+- kindergarten year long lesson plans
+- reading rockets phonics scope and sequence
+- saxon phonics kindergarten scope and sequence pdf
+- what is phonics scope and sequence
+- wonders kindergarten pacing guide
+- amplify ckla phonics scope and sequence
+- bug club phonics scope and sequence
+- grade 3 english first additional language lesson plans term 3
+- hmh first grade scope and sequence
+- homeschool kindergarten curriculum florida
+- keys to literacy phonics scope and sequence
+- kindergarten lesson plans for reading
+- kindergarten scope and sequence pdf free download
+- kindergarten small group reading lesson plans
+- phonics first scope and sequence
+- phonics for reading scope and sequence pdf free download
+- phonics lesson library scope and sequence
+- phonics skills scope and sequence
+- saxon phonics scope and sequence pdf
+- tara west guided phonics scope and sequence
+- abeka first grade scope and sequence
+- farmer loves phonics scope and sequence
+- first week of 1st grade lesson plans
+- free phonics scope and sequence
+- grade 3 english first additional language lesson plans term 4
+- homeschool kindergarten curriculum schedule
+- kindergarten scope and sequence ontario
+- oxford phonics world scope and sequence
+- spire phonics scope and sequence
+- spld scope and sequence of phonics instruction
+- 95 core phonics kindergarten scope and sequence
+- 95 core phonics scope and sequence 3rd grade
+- arc phonics plus scope and sequence
+- ckla first grade scope and sequence
+- grade 3 english first additional language lesson plans term 1
+- homeschool kindergarten curriculum canada
+- kindergarten lesson plans for science
+- kindergarten scope and sequence reading
+- phonics plus level 2 scope and sequence
+- sunshine phonics scope and sequence
+- third grade phonics scope and sequence
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| teks kindergarten | shallow | 1 / 1 | 10 |
+| common core worksheets | shallow | 1 / 1 | 10 |
+| common core 2nd grade math | shallow | 1 / 1 | 9 |
+| kindergarten standards checklist | shallow | 1 / 1 | 8 |
+| common core 3rd grade math | shallow | 1 / 1 | 7 |
+| first grade standards checklist | shallow | 1 / 1 | 4 |
+| teks first grade math | shallow | 1 / 1 | 2 |
+| ccss ela kindergarten | shallow | 1 / 1 | 2 |
+| kindergarten standards | deep | 25 / 27 | 189 |
+| common core kindergarten | deep | 19 / 27 | 83 |
+| common core first grade math | deep | 6 / 27 | 9 |
+
+**Words people add** (how many distinct phrases carry the word): standards 75 · math 31 · pdf 27 · california 21 · for 19 · ela 18 · reading 16 · writing 13 · state 11 · nc 11 · science 10 · learning 10 · ohio 10 · michigan 8 · georgia 7 · florida 7 · language 6 · illinois 6 · worksheets 6 · of 6 · arts 5 · best 5 · in 5 · new 5 · and 4 · curriculum 4 · nys 4 · grade 4 · utah 4 · checklist 3 · english 3 · literacy 3 · pa 3 · sight 3 · words 3 · washington 3 · social 3 · studies 3 · common 3 · core 3
+
+**Phrases** (all 331, by how many lookups returned them)
+
+- kindergarten best standards  ×4
+- what are kindergarten standards  ×4
+- kindergarten content standards  ×4
+- envision math common core kindergarten answer key  ×3
+- first grade math common core standards pdf  ×3
+- kindergarten standards checklist  ×3
+- common core kindergarten math standards pdf  ×3
+- first grade common core math standards printable  ×3
+- california common core standards kindergarten language arts  ×3
+- common core first grade math standards  ×2
+- common core first grade math worksheets  ×2
+- common core kindergarten assessment  ×2
+- common core kindergarten ela standards  ×2
+- common core kindergarten math standards  ×2
+- common core kindergarten reading standards  ×2
+- common core kindergarten standards  ×2
+- common core kindergarten writing standards  ×2
+- first grade math scope and sequence common core  ×2
+- kindergarten standards ela  ×2
+- kindergarten standards for reading  ×2
+- kindergarten standards georgia  ×2
+- kindergarten standards math  ×2
+- kindergarten standards new jersey  ×2
+- kindergarten standards pa  ×2
+- kindergarten standards social studies  ×2
+- kindergarten standards tn  ×2
+- common core kindergarten ela  ×2
+- common core kindergarten language arts  ×2
+- common core standards kindergarten phonics  ×2
+- common core state standards first grade math  ×2
+- kindergarten standards checklist pdf  ×2
+- kindergarten standards end of year  ×2
+- kindergarten standards florida  ×2
+- kindergarten standards south dakota  ×2
+- common core kindergarten math  ×2
+- common core kindergarten sight words  ×2
+- common core math curriculum kindergarten  ×2
+- kindergarten standards and benchmarks  ×2
+- envision mathematics common core kindergarten  ×2
+- kindergarten common core standards checklist pdf  ×2
+- california kindergarten common core standards pdf  ×2
+- ccss ela kindergarten
+- common core 2nd grade math
+- common core 3rd grade math standards
+- common core for kindergarten
+- common core kindergarten curriculum
+- common core kindergarten literacy standards
+- common core standards for first grade math
+- common core standards for transitional kindergarten
+- common core standards illinois kindergarten
+- common core standards kindergarten pdf
+- common core worksheets
+- first grade standards checklist
+- hawaii common core standards kindergarten
+- journeys common core kindergarten
+- kindergarten design standards
+- kindergarten national quality standards
+- kindergarten standards
+- kindergarten standards alabama
+- kindergarten standards based report card
+- kindergarten standards hawaii
+- kindergarten standards illinois
+- kindergarten standards kentucky
+- kindergarten standards louisiana
+- kindergarten standards new york
+- kindergarten standards nys
+- kindergarten standards ohio
+- kindergarten standards reading
+- kindergarten standards utah
+- kindergarten standards virginia
+- kindergarten standards washington state
+- nc common core standards kindergarten
+- ohio common core standards kindergarten
+- teks first grade math
+- teks kindergarten
+- us common core standards kindergarten
+- california common core standards transitional kindergarten
+- california first grade standards checklist
+- ccss ela standards kindergarten
+- common core 2nd grade math standards
+- common core 3rd grade math
+- common core first grade math
+- common core kindergarten reading
+- common core kindergarten standards math
+- common core kindergarten worksheets
+- common core math for first grade
+- common core math standards illinois kindergarten
+- common core standards for kindergarten
+- common core standards kindergarten california
+- common core worksheets math
+- kindergarten history standards
+- kindergarten readiness standards
+- kindergarten standards az
+- kindergarten standards california
+- kindergarten standards ga pdf
+- kindergarten standards indiana
+- kindergarten standards kansas
+- kindergarten standards list
+- kindergarten standards mn
+- kindergarten standards nevada
+- kindergarten standards oklahoma
+- kindergarten standards pdf
+- kindergarten standards science
+- kindergarten standards texas
+- kindergarten standards va
+- kindergarten standards wv
+- nc kindergarten standards unpacked pdf
+- nys common core standards kindergarten
+- teks kindergarten checklist
+- texas teks first grade math
+- common core 2nd grade math worksheets
+- common core 3rd grade math worksheets
+- common core kindergarten
+- common core kindergarten ela standards pdf
+- common core kindergarten writing
+- common core standards for kindergarten math
+- common core state standards kindergarten reading
+- common core worksheets spelling
+- georgia kindergarten standards checklist
+- iowa common core standards kindergarten
+- kindergarten best standards ela
+- kindergarten ela standards nc
+- kindergarten health standards
+- kindergarten math standards kansas
+- kindergarten math standards new york
+- kindergarten reading standards california
+- kindergarten school design standards
+- kindergarten standards arkansas
+- kindergarten standards ca
+- kindergarten standards for social studies
+- kindergarten standards gadoe
+- kindergarten standards iowa
+- kindergarten standards language arts
+- kindergarten standards massachusetts
+- kindergarten standards nc
+- kindergarten standards of learning math
+- kindergarten standards phonics
+- kindergarten standards sc
+- kindergarten standards tennessee
+- kindergarten standards wisconsin
+- kindergarten virginia standards of learning
+- nc kindergarten standards unpacked
+- nm common core standards kindergarten
+- ohio first grade standards checklist
+- teks kindergarten social studies
+- california first grade standards checklist pdf
+- california kindergarten standards checklist
+- common core 2nd grade math examples
+- common core kindergarten standards ela
+- common core math for kindergarten
+- common core standards english kindergarten
+- common core standards language arts kindergarten
+- common core standards patterns kindergarten
+- common core standards speaking and listening kindergarten
+- common core state standards kindergarten math
+- common core worksheets english
+- dese kindergarten standards
+- kindergarten best standards math
+- kindergarten common core checklist
+- kindergarten education standards
+- kindergarten handwriting standards
+- kindergarten math standards kentucky
+- kindergarten math standards utah
+- kindergarten pe standards
+- kindergarten reading standards ohio
+- kindergarten science standards new york
+- kindergarten standards california pdf
+- kindergarten standards for math
+- kindergarten standards ga math
+- kindergarten standards idaho
+- kindergarten standards literacy
+- kindergarten standards michigan
+- kindergarten standards nyc
+- kindergarten standards oregon
+- kindergarten standards tn pdf
+- kindergarten standards writing
+- kindergarten vapa standards
+- michigan common core standards 3rd grade math
+- nj common core standards kindergarten
+- teks kindergarten standards
+- california common core standards ela kindergarten
+- california common core standards kindergarten math
+- common core kindergarten standards pdf
+- common core learning standards kindergarten
+- common core math 3rd grade multiplication
+- common core math standards california kindergarten
+- common core standards ela kindergarten pdf
+- common core standards for kindergarten reading
+- common core state standards 2nd grade math
+- common core state standards kindergarten writing
+- common core worksheets 5th grade
+- doe kindergarten standards
+- kindergarten best standards florida
+- kindergarten eld standards
+- kindergarten geometry standards
+- kindergarten homeschool standards
+- kindergarten learning standards
+- kindergarten nyc standards
+- kindergarten pe standards california
+- kindergarten reading standards nc
+- kindergarten science standards utah
+- kindergarten standards alabama pdf
+- kindergarten standards california math
+- kindergarten standards for science
+- kindergarten standards in california
+- kindergarten standards mississippi
+- kindergarten standards of learning virginia
+- kindergarten state standards
+- kindergarten toilet standards
+- kindergarten vocabulary standards
+- kindergarten writing standards california
+- ksde kindergarten standards
+- nevada common core standards kindergarten
+- ohio kindergarten standards checklist
+- teks kindergarten science
+- common core language arts standards kindergarten
+- common core math sheets 3rd grade
+- common core math worksheets kindergarten
+- common core standards for kindergarten writing
+- common core standards kindergarten reading
+- common core worksheets free
+- dcps kindergarten standards
+- illinois kindergarten standards checklist
+- kindergarten art standards
+- kindergarten best standards pdf
+- kindergarten common core math worksheets
+- kindergarten common core standards pdf free download
+- kindergarten common core standards speaking and listening
+- kindergarten english standards
+- kindergarten georgia standards of excellence
+- kindergarten learning standards ohio
+- kindergarten priority standards
+- kindergarten reading standards indiana
+- kindergarten science standards california
+- kindergarten standards colorado
+- kindergarten standards for writing
+- kindergarten standards in georgia
+- kindergarten standards maryland
+- kindergarten standards ohio pdf
+- kindergarten toilet standards pdf
+- kindergarten vdoe standards
+- kindergarten writing standards common core
+- kindergarten writing standards utah
+- ks kindergarten standards
+- michigan common core standards 2nd grade math
+- nh common core standards kindergarten
+- teks kindergarten curriculum
+- common core math subtraction 2nd grade
+- common core math subtraction 3rd grade
+- common core standards for kindergarten ela
+- common core standards kindergarten writing
+- common core state standards michigan kindergarten
+- common core state standards washington kindergarten
+- common core worksheets pdf
+- dodea kindergarten standards
+- georgia kindergarten standards checklist pdf
+- kindergarten academic standards
+- kindergarten ela standards california
+- kindergarten grammar standards
+- kindergarten learning standards nys
+- kindergarten math standards va
+- kindergarten pattern standards
+- kindergarten reading standards florida
+- kindergarten science standards ga
+- kindergarten standards common core
+- kindergarten standards florida math
+- kindergarten standards in florida
+- kindergarten standards missouri
+- kindergarten standards nc ela
+- kindergarten standards of learning
+- kindergarten teaching standards
+- kindergarten wida standards
+- michigan common core standards ela kindergarten
+- nc kindergarten ela standards unpacked
+- nys common core mathematics curriculum kindergarten
+- pa common core standards kindergarten
+- teks kindergarten reading
+- common core math sheets 2nd grade
+- common core standards for kindergarten science
+- common core standards kindergarten literacy
+- common core standards kindergarten sight words
+- common core worksheets multiplication
+- ct common core standards kindergarten
+- delaware kindergarten standards
+- kindergarten architecture standards pdf
+- kindergarten ela standards az
+- kindergarten florida standards checklist
+- kindergarten grade standards
+- kindergarten language standards
+- kindergarten reading standards washington state
+- kindergarten standards ct
+- kindergarten standards florida pdf
+- kindergarten standards in tennessee
+- kindergarten standards maine
+- kindergarten standards nebraska
+- kindergarten standards ohio math
+- kindergarten state standards california
+- kindergarten technology standards
+- kindergarten writing standards nc
+- teks kindergarten pdf
+- uen kindergarten standards
+- common core math book 2nd grade
+- common core standards for kindergarten pdf
+- common core worksheets by grade
+- kindergarten art standards california
+- kindergarten ela standards michigan
+- kindergarten geography standards
+- kindergarten learning standards illinois
+- kindergarten ohio standards ela
+- kindergarten reading standards illinois
+- kindergarten science standards nc
+- kindergarten standards for ela
+- kindergarten standards in texas
+- kindergarten standards montana
+- kindergarten standards new mexico
+- kindergarten teks standards
+- kindergarten writing standards ohio
+- michigan common core standards math kindergarten
+- teks kindergarten sight words
+- common core worksheets 3rd grade
+- kindergarten addition standards
+- kindergarten learning standards pa
+- kindergarten reading standards michigan
+- kindergarten science standards common core
+- kindergarten standards cheat sheet
+- kindergarten standards for georgia
+- kindergarten standards indiana pdf
+- kindergarten standards ma
+- kindergarten standards nc math
+- kindergarten writing standards georgia
+- teks kindergarten math
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| kindergarten math assessment | shallow | 1 / 1 | 10 |
+| 3rd grade math assessment | shallow | 1 / 1 | 10 |
+| kindergarten readiness assessment | shallow | 1 / 1 | 10 |
+| sight word assessment | shallow | 1 / 1 | 10 |
+| math diagnostic test | shallow | 1 / 1 | 10 |
+| 2nd grade math assessment | shallow | 1 / 1 | 8 |
+| end of year assessment kindergarten | shallow | 1 / 1 | 7 |
+| first grade reading assessment | shallow | 1 / 1 | 4 |
+| kindergarten benchmark assessment | shallow | 1 / 1 | 4 |
+| kindergarten assessment | deep | 25 / 27 | 171 |
+| phonics assessment | deep | 25 / 27 | 165 |
+| beginning of the year assessment | deep | 13 / 27 | 37 |
+| first grade math assessment | deep | 13 / 27 | 22 |
+| pre and post test kindergarten | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): pdf 69 · free 44 · year 35 · grade 31 · test 26 · for 20 · of 19 · kindergarten 14 · printable 13 · math 13 · end 11 · checklist 10 · beginning 9 · reading 8 · jolly 8 · quarter 7 · and 7 · 2nd 7 · school 6 · baseline 6 · health 6 · ufli 6 · diagnostic 5 · heggerty 5 · readiness 5 · online 5 · sheet 5 · worksheets 5 · download 5 · examples 4 · form 4 · what 4 · mid 4 · 4th 4 · 3rd 4 · 1st 4 · phase 4 · core 4 · sample 3 · book 3
+
+**Phrases** (all 464, by how many lookups returned them)
+
+- first grade math assessment beginning of year pdf  ×4
+- first grade math assessment end of year  ×4
+- beginning of the year assessment for pre k  ×4
+- what is a phonics assessment  ×4
+- beginning of the year assessment for first grade  ×3
+- first grade math assessment mid year  ×3
+- end of first grade math assessment free  ×3
+- phonics assessment for older students  ×3
+- first grade beginning of the year math assessment  ×3
+- 2nd grade beginning of the year assessment pdf free  ×3
+- kindergarten beginning of the year assessment free  ×3
+- 3rd grade beginning of the year assessment pdf free  ×3
+- kindergarten assessment test beginning of year  ×3
+- assessment at the beginning of the school year  ×2
+- beginning of the year assessment for kindergarten  ×2
+- beginning of the year assessment for second grade  ×2
+- beginning of the year math assessment  ×2
+- first grade math assessment free  ×2
+- first grade math assessment pdf  ×2
+- first grade math assessment test pdf  ×2
+- first grade math assessment worksheets  ×2
+- heggerty beginning of the year assessment kindergarten  ×2
+- kindergarten assessment beginning of year  ×2
+- kindergarten assessment checklist  ×2
+- kindergarten assessment examples  ×2
+- kindergarten assessment mid year  ×2
+- kindergarten assessment pdf  ×2
+- kindergarten assessment test  ×2
+- kindergarten benchmark assessment  ×2
+- phonics assessment examples  ×2
+- phonics assessment free  ×2
+- phonics assessment highland literacy  ×2
+- phonics assessment junior infants  ×2
+- phonics assessment kindergarten  ×2
+- phonics assessment pdf  ×2
+- phonics assessment test  ×2
+- phonics assessment year 1  ×2
+- beginning of the school year assessment  ×2
+- beginning of the year math assessment 4th grade  ×2
+- end of first grade math assessment  ×2
+- kindergarten assessment end of year  ×2
+- kindergarten assessment test pdf free  ×2
+- kindergarten benchmark assessment pdf  ×2
+- beginning of the year math assessment 2nd grade  ×2
+- kindergarten assessment test pdf  ×2
+- kindergarten math assessment pdf  ×2
+- phonics assessment letters and sounds  ×2
+- phonics assessment pass mark  ×2
+- phonics assessment senior infants  ×2
+- what is a kindergarten assessment  ×2
+- beginning of the year math assessment 1st grade  ×2
+- kindergarten assessment test printable free  ×2
+- phonics assessment for middle school  ×2
+- phonics assessment gov uk  ×2
+- phonics assessment science of reading  ×2
+- kindergarten assessment test sample pdf  ×2
+- phonics check assessment materials  ×2
+- 3rd grade beginning of the year assessment pdf  ×2
+- els phonics assessment tracker  ×2
+- kindergarten beginning of the year assessment free printable  ×2
+- kindergarten beginning of the year math assessment  ×2
+- kindergarten math assessment free  ×2
+- 4th grade beginning of the year math assessment pdf  ×2
+- jolly phonics assessment checklist  ×2
+- kindergarten assessment test free  ×2
+- phonics assessment phase 2 and 3  ×2
+- prek beginning of the year assessment  ×2
+- 5th grade beginning of the year math assessment pdf  ×2
+- 2nd grade math assessment test pdf free
+- 3rd grade beginning of the year reading assessment pdf
+- 3rd grade math assessment test pdf free
+- 4th grade beginning of the year ela assessment
+- acadience beginning of the year assessment
+- beginning of the year assessment kindergarten
+- beginning of the year preschool assessment
+- core phonics vocabulary assessment
+- end of year assessment kindergarten
+- first grade cumulative math assessment
+- first grade math readiness assessment
+- first grade math skills assessment
+- first grade reading assessment
+- junior kindergarten assessment checklist
+- kindergarten assessment alberta
+- kindergarten assessment deped
+- kindergarten assessment free
+- kindergarten assessment guide
+- kindergarten assessment homeschool
+- kindergarten assessment indiana
+- kindergarten assessment letters and sounds
+- kindergarten assessment mn
+- kindergarten assessment nc
+- kindergarten assessment ontario
+- kindergarten assessment questions
+- kindergarten assessment report
+- kindergarten assessment sheet
+- kindergarten assessment utah
+- kindergarten assessment worksheets
+- kindergarten math assessment
+- kindergarten readiness assessment
+- kindergarten readiness assessment kra
+- kindergarten vocabulary assessment
+- math diagnostic test
+- phonics assessment
+- phonics assessment and reporting arrangements
+- phonics assessment book
+- phonics assessment checklist
+- phonics assessment date
+- phonics assessment grade 1
+- phonics assessment little wandle
+- phonics assessment meaning
+- phonics assessment nz
+- phonics assessment online
+- phonics assessment read write inc
+- phonics assessment sheet
+- phonics assessment uk
+- phonics assessment worksheet
+- phonics inventory assessment pdf
+- quick phonics assessment
+- sight word assessment
+- ufli beginning of the year assessment
+- 2nd grade beginning of the year reading assessment
+- 2nd grade math assessment
+- 3rd grade math assessment
+- beginning first grade math assessment
+- beginning of the year 2nd grade assessment
+- beginning of the year assessment
+- beginning of the year kindergarten assessment pdf
+- end of year kindergarten assessment pdf
+- first grade math assessment
+- first grade math assessment test
+- first grade math pre assessment
+- first grade reading assessment free
+- heggerty phonics assessment
+- hmh beginning of the year assessment
+- junior kindergarten assessment
+- kindergarten assessment
+- kindergarten assessment activities
+- kindergarten assessment before school starts
+- kindergarten assessment checklist pdf
+- kindergarten assessment day
+- kindergarten assessment form
+- kindergarten assessment guide 2026
+- kindergarten assessment literacy
+- kindergarten assessment math
+- kindergarten assessment nsw
+- kindergarten assessment ohio
+- kindergarten assessment practice test
+- kindergarten assessment quarter 2
+- kindergarten assessment reading
+- kindergarten assessment sample
+- kindergarten assessment worksheets pdf
+- kindergarten beginning of the year assessment pdf
+- kindergarten health assessment form
+- kindergarten initial assessment
+- kindergarten math assessment beginning of year
+- kindergarten mid year assessment pdf
+- kindergarten readiness assessment kentucky
+- kindergarten readiness assessment pdf
+- kindergarten readiness assessment virginia
+- kindergarten ufli assessment
+- math diagnostic test free
+- phonics assessment australia
+- phonics assessment check
+- phonics assessment eyfs
+- phonics assessment grade 2
+- phonics assessment jolly phonics
+- phonics assessment ks1
+- phonics assessment login
+- phonics assessment materials
+- phonics assessment nonsense words
+- phonics assessment online free
+- phonics assessment printable
+- phonics assessment rwi
+- phonics assessment sheet pdf
+- phonics assessment tracker
+- phonics assessment ufli
+- phonics assessment week
+- phonics assessment year 2
+- phonics baseline assessment
+- phonics diagnostic assessment
+- phonics inventory assessment
+- quick phonics assessment pdf
+- sight word assessment pdf
+- starfall first grade math assessment
+- 2nd grade math assessment pdf
+- 3rd grade math assessment pdf
+- beginning of the year 3rd grade assessment
+- core phonics assessment ufli
+- end of year kindergarten assessment free
+- first grade reading assessment free printable
+- free first grade math assessment test
+- heggerty phonics assessment pdf
+- jolly phonics assessment pdf
+- kindergarten alphabet assessment
+- kindergarten assessment binder
+- kindergarten assessment california
+- kindergarten assessment exam
+- kindergarten assessment first quarter
+- kindergarten assessment matatag curriculum
+- kindergarten assessment nj
+- kindergarten assessment online free
+- kindergarten assessment printable
+- kindergarten assessment quarter 3
+- kindergarten assessment rubric
+- kindergarten assessment scores
+- kindergarten dibels assessment
+- kindergarten entry assessment kea
+- kindergarten gifted assessment
+- kindergarten health assessment
+- kindergarten iready assessment
+- kindergarten letter assessment
+- kindergarten math benchmark assessment
+- kindergarten readiness assessment printable
+- kindergarten readiness assessment should used to
+- kindergarten writing assessment
+- math diagnostic test pdf
+- neps phonics assessment
+- phonics assessment 1st grade
+- phonics assessment codes
+- phonics assessment elementary
+- phonics assessment for grade 1
+- phonics assessment grade 3
+- phonics assessment kindergarten pdf
+- phonics assessment phase 2
+- phonics assessment reception
+- phonics assessment tool
+- phonics assessment week 2026
+- phonics assessment year 1 2026
+- phonics awareness assessment
+- phonics benchmark assessment
+- phonics diagnostic assessment pdf
+- phonics international assessment
+- qps phonics assessment
+- sight word assessment kindergarten
+- summative assessment for first grade math
+- 2nd grade math assessment beginning year
+- 3rd grade math assessment test
+- beginning of first grade math assessment
+- dibels kindergarten benchmark assessment
+- els phonics assessment
+- first grade reading assessment pdf
+- heggerty end of year assessment kindergarten
+- highland phonics assessment
+- jolly phonics assessment pdf free download
+- kindergarten acadience assessment
+- kindergarten assessment book
+- kindergarten assessment comments
+- kindergarten assessment examples pdf
+- kindergarten assessment first quarter quarter 1
+- kindergarten assessment online
+- kindergarten assessment pdf free
+- kindergarten assessment quarter 4
+- kindergarten assessment results
+- kindergarten assessment shapes
+- kindergarten diagnostic assessment
+- kindergarten graduation assessment
+- kindergarten heggerty assessment
+- kindergarten iowa assessment
+- kindergarten language assessment
+- kindergarten math assessment end of year
+- kindergarten numeracy assessment
+- kindergarten oral health assessment koha
+- kindergarten readiness assessment practice test
+- kindergarten writing assessment pdf
+- math diagnostic test ucla
+- national phonics assessment
+- phonics assessment checklist pdf
+- phonics assessment for kindergarten
+- phonics assessment guidance
+- phonics assessment ks2
+- phonics assessment past papers
+- phonics assessment reception pdf
+- phonics assessment score
+- phonics assessment template
+- phonics assessment words
+- phonics assessment year 1 past papers
+- phonics baseline assessment year 1
+- phonics decoding assessment
+- phonics informal assessment
+- phonics level assessment
+- sight word assessment 1st grade
+- star math assessment first grade
+- ufli kindergarten assessment pdf
+- what to expect at a kindergarten assessment
+- 2nd grade math assessment end of year
+- 3rd grade math assessment test pdf
+- 8th grade beginning of the year assessment math
+- end of year math assessment kindergarten
+- english phonics assessment
+- jolly phonics assessment sheet
+- kea kindergarten assessment
+- kindergarten assessment brigance screen iii
+- kindergarten assessment checklist for teachers
+- kindergarten assessment free printable
+- kindergarten assessment meaning
+- kindergarten assessment printable free
+- kindergarten assessment questions pdf
+- kindergarten assessment reddit
+- kindergarten assessment second quarter
+- kindergarten dibels assessment pdf
+- kindergarten entry assessment
+- kindergarten geometry assessment
+- kindergarten health assessment form nc
+- kindergarten letter assessment printable free
+- kindergarten math assessment test
+- kindergarten mid year assessment free
+- kindergarten number assessment
+- kindergarten oral assessment
+- kindergarten readiness assessment free
+- kindergarten weekly assessment
+- math diagnostic test for elementary students
+- nursery phonics assessment
+- phonics assessment framework
+- phonics assessment grid
+- phonics assessment results
+- phonics assessment sheet pdf free download
+- phonics assessment third grade
+- phonics assessment tracker little wandle
+- phonics assessment year 1 pdf
+- phonics assessment year 1 uk
+- phonics assessment year one
+- phonics blending assessment
+- phonics core assessment
+- phonics diagnostic assessment free
+- phonics inventory assessment free
+- phonics knowledge assessment
+- phonics screening check assessment and reporting arrangements
+- phonics written assessment
+- sight word assessment 2nd grade
+- what is kindergarten assessment test
+- 2nd grade math assessment free
+- 3rd grade math assessment test pdf free california
+- assessment of phonics
+- end of year kindergarten assessment test pdf
+- fft phonics assessment login
+- jackson phonics assessment pdf
+- jolly phonics autumn assessment
+- kids kindergarten assessment
+- kindergarten assessment class
+- kindergarten assessment for private school
+- kindergarten assessment michigan
+- kindergarten assessment prep
+- kindergarten assessment quarter 1
+- kindergarten assessment report card
+- kindergarten assessment strategies
+- kindergarten diagnostic assessment pdf
+- kindergarten end of year assessment pdf free download
+- kindergarten entry assessment pdf
+- kindergarten handwriting assessment
+- kindergarten literacy assessment pdf
+- kindergarten number assessment 1 20
+- kindergarten readiness assessment south carolina
+- math diagnostic test iready scores
+- monster phonics assessment
+- nfer phonics assessment
+- phonics assessment 2nd grade
+- phonics assessment for kids
+- phonics assessment game
+- phonics assessment practice
+- phonics assessment resources
+- phonics assessment strategies
+- phonics assessment year 3
+- phonics baseline assessment reception
+- phonics decoding assessment pdf
+- phonics initial assessment
+- phonics writing assessment
+- sight word assessment free
+- ufli phonics assessment pdf
+- 2nd grade math assessment worksheets
+- 3rd grade math assessment end of year
+- core phonics assessment book
+- early phonics assessment
+- end of year kindergarten assessment test
+- kindergarten assessment ct
+- kindergarten assessment free printable pdf
+- kindergarten assessment methods
+- kindergarten assessment pages
+- kindergarten assessment skills
+- kindergarten baseline assessment
+- kindergarten decoding assessment
+- kindergarten end of year assessment pdf
+- kindergarten entrance assessment
+- kindergarten health assessment form pdf
+- kindergarten learning assessment
+- kindergarten math assessment printable
+- kindergarten numeracy assessment pdf
+- kindergarten quick assessment
+- kindergarten readiness assessment (kra)
+- kindergarten ready assessment
+- math assessment for kindergarten beginning of the year
+- math diagnostic test iready
+- phonics assessment gov
+- phonics assessment phase 3
+- phonics assessment sounds
+- phonics assessment test for kindergarten
+- phonics assessment year 1 date
+- phonics companion assessment
+- phonics dyslexia assessment
+- phonics reading assessment
+- sight word assessment checklist
+- 2nd grade math assessment free printable
+- 3rd grade math assessment free
+- alpaca phonics assessment
+- jolly phonics assessment free
+- kindergarten assessment florida
+- kindergarten assessment program
+- kindergarten assessment test online free with answers
+- kindergarten checklist assessment deped
+- kindergarten dental assessment
+- kindergarten ecd assessment
+- kindergarten end of year assessment pdf free
+- kindergarten health assessment nc
+- kindergarten level assessment
+- kindergarten math assessment checklist
+- kindergarten number assessment 1 10
+- kindergarten quarterly assessment 2025
+- kindergarten readiness assessment login
+- kindergarten reading assessment pdf
+- kindergarten summative assessment examples
+- math diagnostic test scores
+- monster phonics baseline assessment
+- phonics assessment for year 1
+- phonics assessment preschool
+- phonics assessment test for 5 year olds
+- phonics assessment year 1 score
+- rnz phonics assessment data
+- sight word assessment and progress monitoring
+- 3rd grade math assessment beginning year
+- 6th grade beginning of the year math assessment pdf
+- advanced phonics assessment
+- grade 1 beginning of the year assessment
+- jackson phonics assessment
+- kindergarten assessment forms pdf
+- kindergarten assessment private school
+- kindergarten assessment template
+- kindergarten boy assessment
+- kindergarten comprehension assessment
+- kindergarten eccd assessment tool
+- kindergarten math assessment end of year pdf
+- kindergarten quarterly assessment
+- kindergarten readiness assessment pdf free download
+- kindergarten reading assessment free
+- math diagnostic test grade 10
+- phonics assessment 1st class
+- phonics assessment for grade 2
+- phonics assessment phase 5
+- phonics assessment scotland
+- phonics assessment year 1 2024
+- sight word assessment template
+- 3rd grade math assessment california
+- jolly phonics assessment worksheets
+- kindergarten assessment for reading
+- kindergarten assessment packet
+- kindergarten assessment test sample
+- kindergarten baseline assessment pdf
+- kindergarten math assessment free download
+- kindergarten readiness assessment mississippi
+- math diagnostic test grade 6
+- phonics and phonemic awareness assessment
+- phonics assessment 2nd class
+- phonics assessment for 4th grade
+- phonics assessment year 1 2025
+- phonics screening assessment
+- sight word assessment printable
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| sub binder | shallow | 1 / 1 | 10 |
+| no prep sub plans | shallow | 1 / 1 | 9 |
+| sub tub | shallow | 1 / 1 | 7 |
+| 2nd grade sub plans | shallow | 1 / 1 | 4 |
+| first grade sub plans | shallow | 1 / 1 | 3 |
+| 3rd grade sub plans | shallow | 1 / 1 | 3 |
+| substitute teacher worksheets | shallow | 1 / 1 | 2 |
+| substitute lesson plans elementary | shallow | 1 / 1 | 2 |
+| sub plans | deep | 21 / 27 | 70 |
+| emergency sub plans | deep | 19 / 27 | 86 |
+| kindergarten sub plans | deep | 15 / 27 | 13 |
+
+**Words people add** (how many distinct phrases carry the word): grade 28 · school 25 · for 22 · art 19 · free 17 · middle 16 · elementary 12 · music 11 · pdf 11 · high 9 · template 7 · ela 7 · kindergarten 6 · tpt 6 · math 6 · science 5 · cover 5 · 4th 4 · to 4 · 5th 4 · how 4 · 2nd 3 · 1st 3 · class 3 · emergency 3 · reddit 3 · what 3 · 3rd 3 · easy 3 · example 2 · binder 2 · box 2 · first 2 · english 2 · rit 2 · regional 2 · second 2 · teachers 2 · are 2 · spanish 2
+
+**Phrases** (all 207, by how many lookups returned them)
+
+- how to make emergency sub plans  ×11
+- kindergarten music sub plans  ×10
+- easy sub plans for kindergarten  ×9
+- emergency sub plans middle school  ×3
+- emergency sub plans middle school art  ×3
+- emergency sub plans binder cover  ×2
+- emergency sub plans high school  ×2
+- emergency sub plans kindergarten  ×2
+- emergency sub plans pdf free  ×2
+- emergency sub plans pdf free download  ×2
+- emergency sub plans template  ×2
+- kindergarten sub plans art  ×2
+- kindergarten sub plans free  ×2
+- kindergarten sub plans pdf  ×2
+- sub plans example  ×2
+- sub plans for kindergarten  ×2
+- sub plans template  ×2
+- what are emergency sub plans  ×2
+- what should emergency sub plans look like  ×2
+- emergency sub plans for spanish class  ×2
+- emergency sub plans high school math  ×2
+- emergency sub plans kindergarten free  ×2
+- emergency sub plans middle school science  ×2
+- no prep emergency sub plans  ×2
+- sub plans for middle school  ×2
+- sub plans template free  ×2
+- world history emergency sub plans  ×2
+- emergency sub plans middle school ela  ×2
+- sub plans for elementary music  ×2
+- emergency sub plans 4th grade  ×2
+- emergency sub plans middle school math free  ×2
+- how to write emergency sub plans  ×2
+- sub plans for art  ×2
+- emergency sub plans ela high school  ×2
+- sub plans for 2nd grade  ×2
+- emergency sub plans 3rd grade  ×2
+- emergency sub plans 3rd grade pdf  ×2
+- emergency sub plans 8th grade ela  ×2
+- emergency sub plans middle school math pdf  ×2
+- emergency sub plans 5th grade  ×2
+- emergency sub plans for special education  ×2
+- 2nd grade sub plans
+- 3rd grade sub plans
+- elementary music sub plans videos
+- emergency sub plans
+- emergency sub plans art elementary
+- emergency sub plans example
+- emergency sub plans first grade
+- emergency sub plans grade 3
+- emergency sub plans reddit
+- emergency sub plans second grade
+- first grade sub plans
+- how many pages are kindergarten sub plans reddit
+- journalism sub plans
+- kindergarten emergency sub plans
+- kindergarten sub plans
+- long term sub plans
+- no prep sub plans
+- nsw emergency sub plans
+- quick sub plans
+- sub binder
+- sub plans
+- sub plans art
+- sub plans binder
+- sub plans clipart
+- sub plans for ufli
+- sub plans high school
+- sub plans kindergarten
+- sub plans meaning
+- sub plans outline
+- sub plans rit kosovo
+- sub plans second grade
+- sub plans x1
+- sub tub jersey mike's
+- substitute lesson plans for elementary
+- substitute teacher worksheets
+- tpt kindergarten sub plans
+- youtube sub plans
+- zee5 sub plans
+- 2nd grade sub plans free
+- 3 day emergency sub plans
+- 3rd grade sub plans pdf
+- biology emergency sub plans
+- easy kindergarten sub plans
+- emergency sub lesson plans
+- emergency sub plans art
+- emergency sub plans elementary music
+- emergency sub plans for 1st grade
+- emergency sub plans grade 1
+- emergency sub plans pdf
+- emergency sub plans social studies
+- emergency sub plans tpt
+- first grade sub plans free
+- jiohotstar sub plans
+- no prep sub plans kindergarten
+- qobuz sub plans
+- sub binder template
+- sub box plans
+- sub plans art class
+- sub plans canva
+- sub plans elementary art
+- sub plans high school art
+- sub plans kindergarten art
+- sub plans middle school
+- sub plans rit
+- sub plans science
+- sub plans template kindergarten
+- sub tub recipe
+- substitute teacher lesson plans elementary
+- substitute teacher worksheets free
+- verizon sub plans
+- xero sub plans
+- yearbook sub plans
+- 2nd grade sub plans pdf
+- 3rd grade sub plans free
+- best emergency sub plans
+- chemistry emergency sub plans
+- emergency sub plans 2nd grade
+- emergency sub plans algebra 1
+- emergency sub plans ela
+- emergency sub plans for art
+- emergency sub plans grade 4
+- emergency sub plans high school english
+- emergency sub plans kinder
+- emergency sub plans spanish
+- first grade sub plans free printable
+- library emergency sub plans
+- no prep sub plans middle school
+- nsw emergency management sub plans
+- quaver sub plans
+- sub binder template free
+- sub box plans free
+- sub plans art middle school
+- sub plans elementary music
+- sub plans high school english
+- sub plans music
+- sub plans reddit
+- sub plans tpt
+- sub tub for teachers
+- teacher emergency sub plans
+- x sub plans
+- 2nd grade emergency sub plans
+- 5th grade emergency sub plans pdf
+- easy kindergarten art sub plans
+- emergency sub plans elementary art
+- emergency sub plans grade 2
+- emergency sub plans high school science
+- emergency sub plans science
+- how to create emergency sub plans
+- no prep sub plans elementary music
+- pre k emergency sub plans
+- sub binder cover
+- sub plans art elementary
+- sub plans elementary
+- sub plans middle school art
+- sub plans template high school
+- sub regional plans alberta
+- sub tub salad
+- tk emergency sub plans
+- xbox sub plans
+- 4th grade emergency sub plans pdf free
+- emergency sub plans 1st grade
+- emergency sub plans for kindergarten
+- my no prep sub plans
+- sub binder checklist
+- sub plans emergency
+- sub plans middle school science
+- sub plans teachers pay teachers
+- sub rosa plans
+- sub tub label
+- tpt emergency sub plans 3rd grade
+- what to include in sub plans
+- emergency sub plans for 2nd grade
+- no prep music sub plans
+- sub binder cover free
+- sub plans ela
+- sub plans for elementary art
+- sub plans music class
+- sub regional plans
+- sub tub ideas
+- tpt emergency sub plans 4th grade
+- emergency sub plans 7th grade ela
+- emergency sub plans for elementary music
+- emergency sub plans math
+- no prep stem sub plans
+- preschool emergency sub plans
+- sub binder ideas
+- sub plans for first grade
+- sub plans maternity leave
+- sub tub dressing
+- emergency sub plans free
+- emergency sub plans music
+- no prep art sub plans
+- sub binder tpt
+- sub plans 1st grade
+- sub plans for paraprofessionals
+- emergency sub plans 6th grade math
+- emergency sub plans for 5th grade
+- emergency sub plans middle school math
+- prek emergency sub plans
+- sub binder cover page
+- sub plans for 4th grade
+- emergency sub plans 5th grade ela
+- emergency sub plans middle school social studies
+- free emergency sub plans middle school pdf
+- sub binder cover sheet
+- sub plans for middle school art
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| decodable passages | shallow | 1 / 1 | 10 |
+| sight word books printable | shallow | 1 / 1 | 10 |
+| cvc books | shallow | 1 / 1 | 10 |
+| short a decodable | shallow | 1 / 1 | 10 |
+| first grade decodable readers | shallow | 1 / 1 | 6 |
+| printable decodable books | shallow | 1 / 1 | 5 |
+| kindergarten reading books printable | shallow | 1 / 1 | 5 |
+| guided reading books printable | shallow | 1 / 1 | 3 |
+| mini books for kindergarten | shallow | 1 / 1 | 2 |
+| foldable books | shallow | 1 / 1 | 1 |
+| decodable readers | deep | 26 / 27 | 179 |
+| decodable books | deep | 26 / 27 | 157 |
+| printable mini books | deep | 15 / 27 | 44 |
+| emergent readers | deep | 14 / 27 | 23 |
+
+**Words people add** (how many distinct phrases carry the word): free 61 · for 50 · pdf 40 · grade 32 · kindergarten 25 · australia 25 · level 15 · with 15 · online 13 · kids 10 · reading 10 · year 9 · printable 8 · ufli 8 · download 7 · phonics 7 · to 7 · vs 7 · coloring 7 · 2nd 6 · students 6 · words 6 · set 6 · journeys 6 · login 5 · and 5 · blends 5 · comprehension 5 · questions 5 · are 5 · vowels 5 · first 4 · older 4 · levels 4 · books 4 · cvc 4 · definition 4 · dyslexia 4 · early 4 · high 4
+
+**Phrases** (all 464, by how many lookups returned them)
+
+- decodable books for 2nd grade  ×6
+- printable mini books for kindergarten  ×5
+- decodable books for 3rd grade  ×5
+- printable mini books for 1st grade  ×4
+- printable mini books for kids  ×4
+- printable mini books for preschoolers  ×4
+- decodable books for kindergarten  ×3
+- decodable books pdf  ×3
+- emergent readers letter sound relationship  ×3
+- printable mini books covers  ×3
+- printable mini books pdf  ×3
+- printable mini coloring books for kids  ×3
+- decodable books free  ×3
+- decodable books  ×2
+- decodable books barnes and noble  ×2
+- decodable books meaning  ×2
+- decodable books nz  ×2
+- decodable books that align with ufli  ×2
+- decodable books with comprehension questions  ×2
+- decodable readers first grade  ×2
+- decodable readers kindergarten  ×2
+- decodable readers pdf  ×2
+- decodable readers ufli  ×2
+- decodable readers with questions  ×2
+- emergent readers age  ×2
+- emergent readers books  ×2
+- emergent readers definition  ×2
+- emergent readers free pdf  ×2
+- emergent readers meaning  ×2
+- emergent readers pdf  ×2
+- emergent readers series  ×2
+- free printable valentine's day mini books  ×2
+- mini printable books for dolls  ×2
+- printable mini bible story books  ×2
+- printable mini books  ×2
+- reading printable mini books pdf  ×2
+- decodable books online  ×2
+- decodable readers free  ×2
+- decodable readers high interest  ×2
+- decodable readers mcgraw hill  ×2
+- decodable readers printable  ×2
+- decodable readers with comprehension questions  ×2
+- emergent readers and writers should be encouraged to  ×2
+- free printable mini books for adults  ×2
+- printable mini books pdf free download  ×2
+- what are decodable readers  ×2
+- decodable books 1st grade  ×2
+- decodable books australia  ×2
+- decodable readers for older students  ×2
+- free printable mini books pdf kindergarten  ×2
+- decodable books charge into reading  ×2
+- decodable books mcgraw hill  ×2
+- decodable readers passages mega bundle  ×2
+- free printable mini books pdf for kids  ×2
+- simple words decodable chapter books  ×2
+- decodable books for older students  ×2
+- decodable books short vowels  ×2
+- decodable readers free pdf  ×2
+- free printable mini books for kindergarten  ×2
+- decodable books with long vowels  ×2
+- free printable mini coloring books for kids  ×2
+- decodable books for kids  ×2
+- cvc books
+- decodable books aligned with ufli
+- decodable books canada
+- decodable books definition
+- decodable books examples
+- decodable books grade 1
+- decodable books harcourt
+- decodable books in spanish
+- decodable books kindergarten
+- decodable books library
+- decodable books online free
+- decodable books reddit
+- decodable books series
+- decodable books ufli aligned
+- decodable books vs leveled readers
+- decodable books what are they
+- decodable books year 1
+- decodable passages
+- decodable readers
+- decodable readers australia
+- decodable readers books
+- decodable readers canada
+- decodable readers dandelion
+- decodable readers extended code
+- decodable readers grade 1
+- decodable readers heggerty
+- decodable readers ireland
+- decodable readers jolly phonics
+- decodable readers login
+- decodable readers meaning
+- decodable readers new zealand
+- decodable readers nz
+- decodable readers online free
+- decodable readers reddit
+- decodable readers scholastic
+- decodable readers that align with ufli
+- decodable readers vs leveled readers
+- decodable readers what are they
+- decodable readers year 1
+- early emergent readers
+- emergent readers
+- emergent readers kindergarten
+- emergent readers vs beginning readers
+- emergent vs transitional readers
+- first grade decodable readers pdf
+- foldable books
+- free printable halloween mini books
+- guided reading printable books
+- jolly.phonics decodable books
+- kindergarten reading books printable
+- mini books for kindergarten
+- mini letter books printable
+- printable decodable books
+- printable mini activity books
+- printable mini story books
+- short a decodable reader
+- sight word books printable free
+- cvc books for kindergarten
+- decodable books amazon
+- decodable books big w
+- decodable books cvc
+- decodable books dyslexia
+- decodable books grade 2
+- decodable books heggerty
+- decodable books in french
+- decodable books kids
+- decodable books list
+- decodable books measured mom
+- decodable books near me
+- decodable books printable
+- decodable books reading
+- decodable books scholastic
+- decodable books toddlers can read
+- decodable books uk
+- decodable books vk
+- decodable books with digraphs
+- decodable books year 2
+- decodable passages 1st grade
+- decodable readers australia login
+- decodable readers big w
+- decodable readers characters
+- decodable readers download
+- decodable readers example
+- decodable readers grade 2
+- decodable readers in spanish
+- decodable readers junior infants
+- decodable readers kindergarten free
+- decodable readers level 1
+- decodable readers non fiction
+- decodable readers online
+- decodable readers red squirrel
+- decodable readers speld
+- decodable readers theatre
+- decodable readers ufli aligned
+- decodable readers vs predictable text
+- decodable readers worksheets
+- decodable readers year 2
+- emergent readers for kindergarten
+- emergent readers letter sound relationship definition
+- emergent readers printable
+- emergent readers synonym
+- emergent readers vs early readers
+- first grade decodable readers
+- free emergent readers for kindergarten
+- free printable bible mini books
+- free printable mini books for 2nd grade
+- free printable mini books pdf
+- guided reading level e printable books free
+- how to fold printable mini books
+- jump decodable books
+- kindergarten reading books online free printable
+- mini reading books printable
+- printable decodable books free
+- printable mini coloring books
+- short a decodable passage
+- sight word books printable
+- bible mini books printable
+- cvc books for kids
+- decodable books bob
+- decodable books cvc words
+- decodable books download
+- decodable books for 1st grade
+- decodable books for home
+- decodable books grade 3
+- decodable books indigenous
+- decodable books kindergarten free
+- decodable books level 1
+- decodable books middle school
+- decodable books nonfiction
+- decodable books orton gillingham
+- decodable books pdf free download
+- decodable books read aloud
+- decodable books set
+- decodable books tpt
+- decodable books ufli
+- decodable books vs phonics
+- decodable books youtube
+- decodable early readers
+- decodable home readers
+- decodable passages 2nd grade
+- decodable readers australia levels
+- decodable readers buy
+- decodable readers cvc
+- decodable readers definition
+- decodable readers grade 3
+- decodable readers imse
+- decodable readers journeys
+- decodable readers kmart
+- decodable readers levels
+- decodable readers minecraft
+- decodable readers nsw
+- decodable readers online login
+- decodable readers pdf free
+- decodable readers r controlled vowels
+- decodable readers sight words
+- decodable readers tpt
+- decodable readers uk
+- decodable readers vault
+- decodable readers youtube
+- dltk free printable mini books
+- emergent readers are
+- emergent readers for preschool
+- free printable alphabet mini books
+- free printable guided reading books
+- free printable mini bible story books
+- halloween mini books printable
+- kindergarten reading books online free printable pdf
+- printable decodable books pdf
+- short a decodable reader pdf
+- sight word books printable free pdf
+- wonders first grade decodable readers
+- cvc books pdf free
+- decodable books adalah
+- decodable books best
+- decodable books classroom set
+- decodable books for 5 year olds
+- decodable books for first grade
+- decodable books for high school students
+- decodable books grade 4
+- decodable books kmart
+- decodable books levels
+- decodable books older students
+- decodable books phonics
+- decodable books reception
+- decodable books spanish
+- decodable books to print
+- decodable books used
+- decodable books vowel teams
+- decodable books with blends
+- decodable digraph books
+- decodable easy readers
+- decodable home readers australia
+- decodable passages for kindergarten
+- decodable readers australia free
+- decodable readers australia jobs
+- decodable readers blends
+- decodable readers cvc words
+- decodable readers dyslexia
+- decodable readers for kindergarten
+- decodable readers grade 1 pdf
+- decodable readers initialit
+- decodable readers kindergarten pdf
+- decodable readers level 4
+- decodable readers no pictures
+- decodable readers older students
+- decodable readers printable free
+- decodable readers resources
+- decodable readers south africa
+- decodable readers theater free
+- decodable readers upper primary
+- decodable readers vowel teams
+- decodable readers with digraphs
+- decodable readers year 3
+- emergent readers free
+- free printable mini coloring books
+- journeys first grade decodable readers
+- kindergarten sight word books printable free
+- printable book covers for mini books
+- printable decodable books for kindergarten
+- printable kindergarten reading books pdf
+- short a decodable
+- cvc books for beginning readers
+- decodable beginner readers
+- decodable books at the library
+- decodable books blends
+- decodable books contain
+- decodable books for 7 year olds
+- decodable books for upper elementary
+- decodable books grade 2 pdf
+- decodable books kindergarten pdf
+- decodable books level 2
+- decodable books oxford
+- decodable books preschool
+- decodable books reading az
+- decodable books second grade
+- decodable books to read online
+- decodable books with pictures
+- decodable e readers
+- decodable mini books
+- decodable passages pdf
+- decodable readers 2nd grade
+- decodable readers australia level 1
+- decodable readers australia non fiction
+- decodable readers australia resources
+- decodable readers australia year 1
+- decodable readers classroom set
+- decodable readers digital
+- decodable readers for middle school
+- decodable readers grade 4
+- decodable readers kindergarten printable
+- decodable readers level 2
+- decodable readers log in
+- decodable readers online australia
+- decodable readers phonics
+- decodable readers scope and sequence
+- decodable readers second hand
+- decodable readers short vowels
+- decodable readers to buy
+- decodable readers website
+- free first grade decodable readers
+- free printable kindergarten reading books pdf
+- free printable mini books pdf kindergarten free download
+- journeys decodable readers grade 1 pdf
+- nessy decodable books
+- pre decodable books harcourt
+- printable decodable books for first grade
+- printable mini christmas coloring books
+- short a decodable sentences
+- sight word reading books printable
+- why are decodable books important
+- ckla first grade decodable readers
+- cvc books printable
+- decodable books about animals
+- decodable books boring useful or both
+- decodable books grade 5
+- decodable books kinder
+- decodable books little wandle
+- decodable books online for kids
+- decodable books reading rockets
+- decodable books science of reading
+- decodable books to print for free
+- decodable books with vowel teams
+- decodable minecraft books
+- decodable passages with comprehension questions
+- decodable readers australia extended code
+- decodable readers australia phone number
+- decodable readers australia review
+- decodable readers australia scope and sequence
+- decodable readers australia videos
+- decodable readers australia youtube
+- decodable readers curriculum
+- decodable readers digraphs
+- decodable readers free printable
+- decodable readers games
+- decodable readers kindle
+- decodable readers level 3
+- decodable readers orton gillingham
+- decodable readers pdf free download
+- decodable readers set
+- decodable readers theatre scripts
+- free printable mini books for kids
+- imse decodable books
+- journeys decodable readers grade 2 pdf
+- kindergarten sight word books printable free pdf
+- pre k decodable books
+- short a decodable text
+- cvc books for kindergarten pdf
+- decodable books about sports
+- decodable books bulk
+- decodable books class set
+- decodable books early readers
+- decodable books kindle
+- decodable books on epic
+- decodable books pre k
+- decodable books satpin
+- decodable books the measured mom
+- decodable books walmart
+- decodable little books
+- decodable mystery books
+- decodable passages 3rd grade
+- decodable reader books
+- decodable readers australia level 4
+- decodable readers australia year 2
+- decodable readers consonant blends
+- decodable readers for 2nd grade
+- decodable readers for high school students
+- decodable readers free download
+- decodable readers kids
+- decodable readers level 8
+- decodable readers long vowels
+- decodable readers online library
+- decodable readers pip and tim
+- decodable readers student login
+- decodable readers talisman
+- decodable readers workbooks
+- dolch sight word books printable
+- free printable mini books pdf for preschoolers
+- free printable mini coloring books pdf
+- jolly decodable readers
+- nelson decodable readers
+- short a decodable books
+- cvc books for kindergarten free
+- decodable big books
+- decodable books app
+- decodable books on amazon
+- decodable books public library
+- decodable books tcr
+- decodable passages free
+- decodable readers australia high frequency words
+- decodable readers australia online
+- decodable readers comprehension
+- decodable readers for 4th grade
+- decodable readers kinder
+- decodable readers level 4 age
+- decodable readers of australia
+- decodable readers satpin
+- decodable readers teacher login
+- decodable readers wonders
+- decodable reading books pdf
+- decodable.books k-2
+- free printable mini christmas books
+- journeys decodable readers pdf
+- pre k printable mini books
+- short a decodable reader free
+- sight word books for kindergarten printable
+- cvc books online
+- decodable biscuit books
+- decodable books for 2nd grade pdf
+- decodable books sample
+- decodable books toddler
+- decodable kindergarten books free printable
+- decodable passages ufli
+- decodable picture books
+- decodable readers australia levels pdf
+- decodable readers class set
+- decodable readers for dyslexia
+- decodable readers level 6
+- decodable readers phonics workbook level 1
+- decodable readers spanish
+- decodable readers to print
+- decodable readers with blends
+- decodable reading books for kindergarten
+- decodable word books
+- free printable halloween mini coloring books
+- free printable mini books for preschoolers
+- journeys decodable readers grade 1 unit 2
+- short a decodable story
+- sight word mini books free printable
+- cvc books free
+- decodable books for dyslexia
+- decodable books spencer
+- decodable books target
+- decodable passages with comprehension questions pdf
+- decodable phonics books pdf
+- decodable readers australia level 3
+- decodable readers com
+- decodable readers first grade free
+- decodable readers level 5
+- decodable readers phase 1
+- decodable readers sounds write
+- short a decodable words
+- sight word decodable books free printable

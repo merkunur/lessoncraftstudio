@@ -1,0 +1,684 @@
+{
+ "en": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 321,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "kindergarten scope and sequence (1/1, tail 10)",
+    "first grade scope and sequence (1/1, tail 10)",
+    "homeschool kindergarten curriculum (1/1, tail 10)",
+    "3rd grade lesson plans (1/1, tail 7)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 331,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "teks kindergarten (1/1, tail 10)",
+    "common core worksheets (1/1, tail 10)",
+    "common core 2nd grade math (1/1, tail 9)",
+    "kindergarten standards checklist (1/1, tail 8)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 464,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "kindergarten math assessment (1/1, tail 10)",
+    "3rd grade math assessment (1/1, tail 10)",
+    "kindergarten readiness assessment (1/1, tail 10)",
+    "sight word assessment (1/1, tail 10)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 207,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "sub binder (1/1, tail 10)",
+    "no prep sub plans (1/1, tail 9)",
+    "sub tub (1/1, tail 7)",
+    "2nd grade sub plans (1/1, tail 4)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 464,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "decodable passages (1/1, tail 10)",
+    "sight word books printable (1/1, tail 10)",
+    "cvc books (1/1, tail 10)",
+    "short a decodable (1/1, tail 10)"
+   ]
+  }
+ },
+ "de": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 280,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "jahresplanung grundschule (1/1, tail 10)",
+    "unterrichtsplanung grundschule (1/1, tail 10)",
+    "unterrichtsmaterial klasse 2 (1/1, tail 10)",
+    "stoffverteilungsplan deutsch klasse 1 (1/1, tail 9)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 10,
+   "distinctPhrases": 323,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lehrplan mathe grundschule (1/1, tail 10)",
+    "lehrplan nrw grundschule (1/1, tail 10)",
+    "kerncurriculum grundschule (1/1, tail 10)",
+    "bildungsplan grundschule (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 397,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "vera 3 übungen (1/1, tail 10)",
+    "probe mathe 2. klasse (1/1, tail 10)",
+    "klassenarbeit mathe klasse 2 (1/1, tail 10)",
+    "lesetest klasse 2 (1/1, tail 10)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 10,
+   "distinctPhrases": 217,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "vertretungsstunde grundschule (1/1, tail 10)",
+    "vertretungsstunde mathe (1/1, tail 10)",
+    "vertretungsstunde deutsch (1/1, tail 10)",
+    "vertretungsstunde klasse 3 (1/1, tail 10)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 283,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lies mal hefte (1/1, tail 10)",
+    "erstlesebuch (1/1, tail 10)",
+    "lesetexte klasse 2 (1/1, tail 10)",
+    "erstleser texte (1/1, tail 5)"
+   ]
+  }
+ },
+ "fr": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 617,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "programmation maths cp (1/1, tail 10)",
+    "progression maths ce1 (1/1, tail 10)",
+    "séquence maternelle (1/1, tail 10)",
+    "programmation maternelle (1/1, tail 10)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 516,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "attendus de fin de cp (1/1, tail 10)",
+    "programme maternelle (1/1, tail 10)",
+    "programme ce2 (1/1, tail 10)",
+    "nouveaux programmes cycle 2 (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 674,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "évaluation diagnostique cp (1/1, tail 10)",
+    "évaluation maths ce1 (1/1, tail 10)",
+    "évaluation nationale cp (1/1, tail 10)",
+    "évaluation ce2 (1/1, tail 10)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 9,
+   "distinctPhrases": 126,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "remplacement maternelle (1/1, tail 10)",
+    "remplacement ce1 (1/1, tail 10)",
+    "remplacement ce2 (1/1, tail 10)",
+    "travail en autonomie cp (1/1, tail 10)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 9,
+   "distinctPhrases": 249,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lecture cp (27/27, tail 218)",
+    "lecture ce1 (1/1, tail 10)",
+    "lecture syllabique cp (1/1, tail 5)",
+    "premières lectures cp (1/1, tail 5)"
+   ]
+  }
+ },
+ "es": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 795,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "secuencia didáctica (27/27, tail 245)",
+    "planeación segundo grado (1/1, tail 10)",
+    "dosificación primer grado (1/1, tail 10)",
+    "proyectos primer grado (1/1, tail 10)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 540,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "programa sintético fase 3 (1/1, tail 10)",
+    "contenidos y pda fase 3 (1/1, tail 10)",
+    "aprendizajes esperados primer grado (1/1, tail 10)",
+    "campos formativos preescolar (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 812,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "examen diagnóstico (27/27, tail 229)",
+    "examen diagnóstico primer grado (1/1, tail 10)",
+    "evaluación diagnóstica segundo grado (1/1, tail 10)",
+    "examen diagnóstico preescolar (1/1, tail 10)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 6,
+   "distinctPhrases": 275,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "cuadernillo de actividades primer grado (1/1, tail 10)",
+    "actividades de repaso primer grado (1/1, tail 10)",
+    "cuadernillo de repaso segundo grado (1/1, tail 10)",
+    "cuadernillo de actividades (25/27, tail 226)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 866,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lecturas cortas (27/27, tail 237)",
+    "lecturas cortas primer grado (1/1, tail 10)",
+    "cuadernillo de lectoescritura (1/1, tail 10)",
+    "lecturas con sílabas (1/1, tail 10)"
+   ]
+  }
+ },
+ "pt": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 753,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "plano de aula educação infantil (27/27, tail 239)",
+    "sequência didática (27/27, tail 238)",
+    "sequência didática matemática (1/1, tail 10)",
+    "planejamento semanal educação infantil (1/1, tail 10)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 8,
+   "distinctPhrases": 451,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "campos de experiência bncc (1/1, tail 10)",
+    "códigos bncc (1/1, tail 10)",
+    "atividades bncc (1/1, tail 5)",
+    "bncc 3º ano (1/1, tail 4)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 503,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "avaliação diagnóstica educação infantil (1/1, tail 10)",
+    "sondagem de escrita (1/1, tail 10)",
+    "simulado 2º ano (1/1, tail 9)",
+    "avaliação de matemática 1º ano (1/1, tail 7)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 8,
+   "distinctPhrases": 456,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "aula emergencial (1/1, tail 2)",
+    "apostila 1º ano (1/1, tail 2)",
+    "atividades para professor substituto (1/1, tail 1)",
+    "professor eventual atividades (1/1, tail 1)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 414,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "livrinho de leitura (1/1, tail 10)",
+    "textos curtos alfabetização (1/1, tail 10)",
+    "textos com sílabas simples (1/1, tail 10)",
+    "leitura para alfabetização (1/1, tail 10)"
+   ]
+  }
+ },
+ "it": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 499,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "uda classe seconda (1/1, tail 10)",
+    "programmazione annuale classe prima (1/1, tail 10)",
+    "programmazione classe terza (1/1, tail 10)",
+    "uda infanzia (1/1, tail 10)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 494,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "indicazioni nazionali primaria (1/1, tail 10)",
+    "indicazioni nazionali infanzia (1/1, tail 10)",
+    "curricolo verticale primaria (1/1, tail 10)",
+    "nuove indicazioni nazionali (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 14,
+   "distinctPhrases": 484,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "prove d'ingresso classe seconda (1/1, tail 10)",
+    "prove d'ingresso classe prima (1/1, tail 10)",
+    "verifica italiano classe terza (1/1, tail 10)",
+    "prove d'ingresso classe terza (1/1, tail 10)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 7,
+   "distinctPhrases": 219,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "ore di supplenza cosa fare (1/1, tail 7)",
+    "supplenza classe prima (1/1, tail 2)",
+    "supplenza primaria attività (1/1, tail 1)",
+    "giochi per supplenze (1/1, tail 1)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 245,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "letture classe seconda (1/1, tail 10)",
+    "letture stampato maiuscolo (1/1, tail 10)",
+    "leggere le sillabe (1/1, tail 9)",
+    "storie brevi classe prima (1/1, tail 6)"
+   ]
+  }
+ },
+ "nl": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 10,
+   "distinctPhrases": 367,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "thema groep 1 2 (1/1, tail 10)",
+    "jaarplanning groep 4 (1/1, tail 10)",
+    "jaarplanning groep 5 (1/1, tail 7)",
+    "weekplanning groep 3 (1/1, tail 3)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 11,
+   "distinctPhrases": 494,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "kerndoelen rekenen (1/1, tail 10)",
+    "kerndoelen groep 3 (1/1, tail 10)",
+    "slo doelen groep 3 (1/1, tail 10)",
+    "doelen groep 4 (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 357,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "cito oefenen groep 3 (1/1, tail 10)",
+    "cito groep 4 oefenen (1/1, tail 10)",
+    "tempotoets rekenen (1/1, tail 10)",
+    "toets rekenen groep 3 (1/1, tail 4)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 4,
+   "distinctPhrases": 125,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "invallen kleuters (1/1, tail 3)",
+    "invallen groep 3 (1/1, tail 1)",
+    "invaller (24/27, tail 114)",
+    "invallen groep (3/27, tail 8)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 12,
+   "distinctPhrases": 285,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "eerste leesboekjes (1/1, tail 10)",
+    "vouwboekje (1/1, tail 9)",
+    "avi start boekjes (1/1, tail 8)",
+    "avi m3 teksten (1/1, tail 2)"
+   ]
+  }
+ },
+ "sv": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 8,
+   "distinctPhrases": 128,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "terminsplanering åk 1 (1/1, tail 4)",
+    "lektionsplanering åk 3 (1/1, tail 3)",
+    "lektionsplanering matematik (1/1, tail 2)",
+    "årsplanering förskoleklass (1/1, tail 1)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 10,
+   "distinctPhrases": 187,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "kunskapskrav åk 3 (1/1, tail 8)",
+    "läroplan förskoleklass (1/1, tail 6)",
+    "centralt innehåll matematik 1-3 (1/1, tail 2)",
+    "lgr22 förskoleklass (1/1, tail 2)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 218,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "nationella prov åk 3 (1/1, tail 10)",
+    "skolverkets bedömningsstöd (1/1, tail 10)",
+    "hitta matematiken (1/1, tail 10)",
+    "bedömningsstöd åk 1 (1/1, tail 9)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 4,
+   "distinctPhrases": 12,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "vikariepärm (1/1, tail 7)",
+    "vikarieuppgifter (1/1, tail 3)",
+    "vikarie lågstadiet (1/1, tail 1)",
+    "vikarie lektion (3/27, tail 1)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 7,
+   "distinctPhrases": 34,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "ljudenliga ord (1/1, tail 4)",
+    "läsebok åk 1 (1/1, tail 3)",
+    "läsförståelse åk 1 gratis (1/1, tail 1)",
+    "lättlästa texter (10/27, tail 14)"
+   ]
+  }
+ },
+ "da": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 12,
+   "distinctPhrases": 429,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "forløb indskoling (1/1, tail 10)",
+    "årsplan 2. klasse (1/1, tail 10)",
+    "årsplan 3. klasse (1/1, tail 10)",
+    "forløb 1. klasse (1/1, tail 8)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 10,
+   "distinctPhrases": 150,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "nye fagplaner (1/1, tail 10)",
+    "fælles mål 1. klasse (1/1, tail 7)",
+    "fælles mål indskoling (1/1, tail 5)",
+    "læseplan matematik (1/1, tail 3)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 10,
+   "distinctPhrases": 454,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "mat test (1/1, tail 10)",
+    "folkeskolens nationale færdighedstest (1/1, tail 10)",
+    "nationale test 2. klasse (1/1, tail 6)",
+    "læsetest 1. klasse (1/1, tail 5)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 4,
+   "distinctPhrases": 24,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "vikar 0. klasse (1/1, tail 1)",
+    "vikartimer (14/27, tail 21)",
+    "vikar materiale (1/27, tail 1)",
+    "vikar indskoling (1/27, tail 1)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 12,
+   "distinctPhrases": 109,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "læs let bøger (1/1, tail 10)",
+    "lydrette ord (1/1, tail 10)",
+    "foldebog (1/1, tail 10)",
+    "lydret læsning (1/1, tail 7)"
+   ]
+  }
+ },
+ "no": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 11,
+   "distinctPhrases": 275,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "årsplan 3. trinn (1/1, tail 10)",
+    "årsplan 2. trinn (1/1, tail 10)",
+    "undervisningsopplegg 1. trinn (1/1, tail 7)",
+    "undervisningsopplegg matematikk (1/1, tail 3)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 10,
+   "distinctPhrases": 410,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lk20 matematikk (1/1, tail 10)",
+    "læreplan matematikk (1/1, tail 10)",
+    "kompetansemål 4. trinn (1/1, tail 10)",
+    "kompetansemål etter 2. trinn (1/1, tail 10)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 13,
+   "distinctPhrases": 215,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "nasjonale prøver (1/1, tail 10)",
+    "alle teller (1/1, tail 10)",
+    "halvårsprøve matematikk (1/1, tail 7)",
+    "multi halvårsprøve (1/1, tail 7)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 3,
+   "distinctPhrases": 41,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "vikartimer (14/27, tail 21)",
+    "vikaropplegg (9/27, tail 9)",
+    "vikar barneskole (8/27, tail 11)",
+    "vikartime tips (0/1, tail 0)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 9,
+   "distinctPhrases": 33,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "lydrette ord (1/1, tail 9)",
+    "lettleste tekster (1/1, tail 5)",
+    "brettebok (1/1, tail 3)",
+    "lesetekster 2. trinn (1/1, tail 2)"
+   ]
+  }
+ },
+ "fi": {
+  "units": {
+   "headsProbed": 14,
+   "headsAlive": 4,
+   "distinctPhrases": 75,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "esiopetuksen vuosisuunnitelma (1/1, tail 1)",
+    "vuosisuunnitelma (16/27, tail 44)",
+    "tuntisuunnitelma (13/27, tail 24)",
+    "jaksosuunnitelma (6/27, tail 7)"
+   ]
+  },
+  "curriculum": {
+   "headsProbed": 11,
+   "headsAlive": 7,
+   "distinctPhrases": 232,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "opetussuunnitelman perusteet (1/1, tail 10)",
+    "esiopetuksen opetussuunnitelma (1/1, tail 3)",
+    "arviointikriteerit alakoulu (1/1, tail 2)",
+    "opetussuunnitelma 1. luokka (1/1, tail 1)"
+   ]
+  },
+  "assessments": {
+   "headsProbed": 14,
+   "headsAlive": 10,
+   "distinctPhrases": 109,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "allu lukutesti (1/1, tail 3)",
+    "makeko (1/1, tail 2)",
+    "lukemisen arviointi (1/1, tail 2)",
+    "lukutesti 1. luokka (1/1, tail 1)"
+   ]
+  },
+  "sub": {
+   "headsProbed": 11,
+   "headsAlive": 5,
+   "distinctPhrases": 92,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "sijaisen tehtävät (1/1, tail 3)",
+    "sijaiskansio (1/1, tail 1)",
+    "sijaisen ohjeet (1/1, tail 1)",
+    "sijaisen (14/27, tail 88)"
+   ]
+  },
+  "readers": {
+   "headsProbed": 14,
+   "headsAlive": 7,
+   "distinctPhrases": 57,
+   "incompleteHeads": 0,
+   "topHeads": [
+    "minikirja (1/1, tail 5)",
+    "tavulukeminen (1/1, tail 1)",
+    "tavutetut tarinat (1/1, tail 1)",
+    "lukemaan oppiminen tehtäviä (1/1, tail 1)"
+   ]
+  }
+ }
+}

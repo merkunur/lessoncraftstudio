@@ -1,0 +1,2712 @@
+# Daily Teaching System — search demand, market `pt`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 14 | 753 |
+| National curriculum | 11 | 8 | 451 |
+| Assessments and tests | 14 | 13 | 503 |
+| Substitute-teacher packs | 11 | 8 | 456 |
+| First readers and mini-books | 14 | 14 | 414 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| plano de aula educação infantil | deep | 27 / 27 | 239 |
+| sequência didática | deep | 27 / 27 | 238 |
+| sequência didática matemática | shallow | 1 / 1 | 10 |
+| planejamento semanal educação infantil | shallow | 1 / 1 | 10 |
+| projeto educação infantil | shallow | 1 / 1 | 10 |
+| planejamento anual educação infantil | shallow | 1 / 1 | 10 |
+| plano de aula alfabetização | shallow | 1 / 1 | 10 |
+| plano de aula 2º ano | shallow | 1 / 1 | 4 |
+| plano de aula 3º ano | shallow | 1 / 1 | 3 |
+| sequência didática 1º ano | shallow | 1 / 1 | 1 |
+| planejamento anual 1º ano | shallow | 1 / 1 | 1 |
+| sequência didática 2º ano | shallow | 1 / 1 | 1 |
+| planejamento anual | deep | 24 / 27 | 217 |
+| plano de aula 1º ano | deep | 2 / 27 | 5 |
+
+**Words people add** (how many distinct phrases carry the word): ano 160 · de 92 · infantil 81 · bncc 74 · educacao 73 · ensino 44 · pdf 41 · com 38 · do 38 · fundamental 33 · acordo 32 · para 28 · letra 27 · anos 24 · historia 22 · dia 20 · medio 20 · folclore 19 · xadrez 16 · word 16 · jardim 13 · lingua 13 · da 12 · gato 12 · ao 12 · geografia 12 · as 11 · joao 11 · 2026 11 · maternal 10 · das 10 · na 9 · sobre 9 · um 9 · portuguesa 9 · imprimir 8 · cores 8 · dos 8 · em 8 · os 8
+
+**Phrases** (all 753, by how many lookups returned them)
+
+- planejamento anual educação infantil  ×3
+- planejamento anual educação infantil pdf  ×3
+- planejamento anual o que é  ×2
+- planejamento anual pronto de acordo com a bncc  ×2
+- plano de aula 1o ano ensino fundamental alfabetização pdf  ×2
+- plano de aula educação infantil bncc  ×2
+- plano de aula educação infantil folclore  ×2
+- plano de aula educação infantil independencia do brasil  ×2
+- plano de aula educação infantil números e quantidades  ×2
+- plano de aula educação infantil pdf grátis  ×2
+- sequência didática a lagarta comilona pdf  ×2
+- sequência didática folclore educação infantil  ×2
+- sequência didática gato xadrez pdf  ×2
+- sequência didática matemática 1 ano  ×2
+- sequência didática pronta pdf  ×2
+- sequência didática uma zebra fora do padrão  ×2
+- planejamento anual ensino religioso 6 ao 9 ano bncc  ×2
+- plano de aula 1o ano ensino fundamental alfabetização  ×2
+- plano de aula educação infantil gato xadrez  ×2
+- plano de aula educação infantil pronto  ×2
+- plano de aula educação infantil vogal u  ×2
+- sequência didática a cesta da dona maricota pdf  ×2
+- sequência didática folclore 2 ano  ×2
+- planejamento anual educação infantil 5 anos por bimestre  ×2
+- plano de aula 1o ano ensino fundamental alfabetização matemática  ×2
+- sequência didática a lagarta comilona educação infantil  ×2
+- sequência didática folclore 1 ano  ×2
+- planejamento anual educação infantil 4 anos de acordo com a bncc  ×2
+- plano de aula 1o ano ensino fundamental  ×2
+- plano de aula educação infantil letra q  ×2
+- sequência didática alfabetização 1o ano pdf  ×2
+- sequência didática gato xadrez para imprimir  ×2
+- planejamento anual educação infantil 5 anos de acordo com a bncc pdf  ×2
+- plano de aula educação infantil festa junina  ×2
+- sequência didática a mala maluca  ×2
+- plano de aula educação infantil corpo humano  ×2
+- plano de aula educação infantil festa junina bncc  ×2
+- sequência didática gato xadrez educação infantil  ×2
+- plano de aula educação infantil encontro vocálico  ×2
+- plano de aula educação infantil letra inicial do nome  ×2
+- planejamento anual
+- planejamento anual 1o ano do ensino fundamental
+- planejamento anual aee
+- planejamento anual berçário de acordo com a bncc
+- planejamento anual ciências 3 ano ensino fundamental bncc
+- planejamento anual de acordo com a bncc 2 ano para imprimir
+- planejamento anual financeiro
+- planejamento anual geografia 9 ano pdf
+- planejamento anual historia 6 ano ensino fundamental
+- planejamento anual inglês educação infantil bncc
+- planejamento anual jardim 1 pdf
+- planejamento anual kids
+- planejamento anual lingua portuguesa 6 ao 9 ano bncc
+- planejamento anual ministério infantil pdf 2026
+- planejamento anual notion
+- planejamento anual quadro
+- planejamento anual rh
+- planejamento anual sed sc
+- planejamento anual terceiro ano fundamental
+- planejamento anual ufabc 2027
+- planejamento anual vida organizada
+- planejamento anual word
+- planejamento semanal educação infantil
+- plano de aula 2o ano
+- plano de aula 3o ano
+- plano de aula alfabetização pronto
+- plano de aula educação infantil
+- plano de aula educação infantil alfabeto
+- plano de aula educação infantil corpo gesto e movimento
+- plano de aula educação infantil dia da árvore
+- plano de aula educação infantil educação fisica
+- plano de aula educação infantil grande e pequeno
+- plano de aula educação infantil higiene pessoal
+- plano de aula educação infantil jogos e brincadeiras
+- plano de aula educação infantil letra k
+- plano de aula educação infantil letra r
+- plano de aula educação infantil letra x
+- plano de aula educação infantil letra y
+- plano de aula educação infantil letra z
+- plano de aula educação infantil meios de transporte
+- plano de aula educação infantil o eu o outro e o nós
+- plano de aula educação infantil quem sou eu
+- plano de aula educação infantil rotina diaria
+- plano de aula educação infantil setembro amarelo
+- plano de aula educação infantil transito
+- plano de aula educação infantil uninter
+- plano de aula educação infantil volta as aulas
+- plano de aula educação infantil word
+- projeto educação infantil
+- sequência didática
+- sequência didática 1o ano
+- sequência didática 2o ano
+- sequência didática branca de neve educação infantil
+- sequência didática chapeuzinho vermelho 1 ano
+- sequência didática dia da árvore educação infantil
+- sequencia didatica educação infantil
+- sequencia didatica filme wall e
+- sequência didática história em quadrinhos 2 ano
+- sequência didática independência do brasil educação infantil
+- sequência didática joão e o pé de feijão educação infantil
+- sequência didática kabá darebu
+- sequencia didatica letra y
+- sequência didática livro perigoso
+- sequência didática menina bonita do laço de fita educação infantil
+- sequência didática na educação infantil
+- sequência didática o grande rabanete educação infantil
+- sequência didática quadrinhas 1 ano
+- sequência didática receita 1 ano
+- sequência didática sobre o folclore
+- sequência didática tirinha 2 ano
+- sequência didática viviana a rainha do pijama 2o ano
+- sequencia didatica x plano de aula
+- sequência didática zabala
+- modelo plano de aula educação infantil word
+- planejamento anual 5o ano para imprimir
+- planejamento anual apae
+- planejamento anual berçário 2
+- planejamento anual clube de aventureiros pdf
+- planejamento anual de educação física 6 ao 9 ano pdf
+- planejamento anual de vendas
+- planejamento anual desbravadores word
+- planejamento anual fundamental 1
+- planejamento anual geografia 1 ano ensino medio
+- planejamento anual história 7 ano ensino fundamental
+- planejamento anual igreja
+- planejamento anual jardim 1 de acordo com a bncc
+- planejamento anual lingua portuguesa 6 ano
+- planejamento anual ministério infantil 2026
+- planejamento anual na educação infantil
+- planejamento anual online
+- planejamento anual pré 2 de acordo com a bncc
+- planejamento anual quinto ano bncc
+- planejamento anual see mg 2026
+- planejamento anual terceiro ano
+- planejamento anual ufabc
+- planejamento semanal educação infantil para imprimir
+- plano de aula 2o ano arte
+- plano de aula 3o ano português
+- plano de aula alfabetização
+- plano de aula educação infantil alimentação saudável
+- plano de aula educação infantil berçário
+- plano de aula educação infantil como fazer
+- plano de aula educação infantil dia das crianças
+- plano de aula educação infantil escuta fala pensamento e imaginação
+- plano de aula educação infantil formas geometricas
+- plano de aula educação infantil geografia
+- plano de aula educação infantil higiene bucal
+- plano de aula educação infantil identidade
+- plano de aula educação infantil jardim 1
+- plano de aula educação infantil letra l
+- plano de aula educação infantil modelo
+- plano de aula educação infantil nome próprio
+- plano de aula educação infantil os números
+- plano de aula educação infantil quantidade
+- plano de aula educação infantil rimas
+- plano de aula educação infantil semana da patria
+- plano de aula educação infantil tema folclore
+- plano de aula educação infantil vogais
+- plano de aula kabuletê educação infantil
+- plano de aula zoológico educação infantil
+- projeto educação infantil pdf
+- quadro planejamento anual kalunga
+- sequência didática bruxa bruxa venha a minha festa educação infantil
+- sequência didática cantigas de roda educação infantil
+- sequência didática dia das crianças
+- sequência didática educação infantil para imprimir
+- sequência didática gênero textual notícia 4 ano
+- sequência didática história em quadrinhos 4 ano
+- sequência didática investigativa
+- sequência didática joão e maria
+- sequencia didatica katia teixeira
+- sequência didática leilão de jardim em pdf
+- sequencia didatica letra w
+- sequência didática marcelo marmelo martelo 3 ano
+- sequência didática matemática
+- sequência didática números educação infantil
+- sequência didática os três porquinhos educação infantil
+- sequência didática para educação infantil de acordo com a bncc
+- sequência didática quem mora na casinha
+- sequência didática rima maluca
+- sequência didática semana da pátria
+- sequência didática tirinhas 3 ano
+- sequência didática uma proposta metodológica de ensino-aprendizagem
+- sequência didática varal das letras
+- sequencia didatica x
+- sequência didática zabala pdf
+- youtube plano de aula educação infantil
+- modelo sequência didática word
+- planejamento anual 4 ano de acordo com a bncc word 2026
+- planejamento anual aventureiros
+- planejamento anual aventureiros word
+- planejamento anual berçário
+- planejamento anual ciencias 6 ano bncc
+- planejamento anual de artes 6 ao 9 ano de acordo com a bncc
+- planejamento anual de psicomotricidade na educação infantil
+- planejamento anual de voleibol
+- planejamento anual ensino religioso 3 ano fundamental bncc
+- planejamento anual familiar
+- planejamento anual geografia 6 ano bncc
+- planejamento anual historia 8 ano ensino fundamental
+- planejamento anual igreja evangelica
+- planejamento anual jardim 1
+- planejamento anual literatura 1 ano ensino médio
+- planejamento anual maternal 2 de acordo com a bncc
+- planejamento anual para eja de acordo com a bncc
+- planejamento anual quimica 1 ano ensino medio
+- planejamento anual see mg
+- planejamento anual trimestral
+- planejamento anual ufabc 2026
+- planejamento orçamentário anual
+- planejamento semanal educação infantil bncc
+- plano de aula 2o ano matemática
+- plano de aula 3o ano fundamental
+- plano de aula alfabetização e letramento
+- plano de aula educação infantil 4 anos de acordo com a bncc
+- plano de aula educação infantil animais
+- plano de aula educação infantil brincadeiras
+- plano de aula educação infantil coordenação motora
+- plano de aula educação infantil dia do estudante
+- plano de aula educação infantil estações do ano
+- plano de aula educação infantil folclore brasileiro
+- plano de aula educação infantil grupo 5
+- plano de aula educação infantil historia os tres porquinhos
+- plano de aula educação infantil identidade e autonomia
+- plano de aula educação infantil jardim 2
+- plano de aula educação infantil letra p
+- plano de aula educação infantil letra w
+- plano de aula educação infantil maternal 2
+- plano de aula educação infantil numeros de 0 a 5
+- plano de aula educação infantil outubro rosa
+- plano de aula educação infantil primavera
+- plano de aula educação infantil quebra cabeça
+- plano de aula educação infantil recreação
+- plano de aula educação infantil sobre a primavera
+- plano de aula educação infantil traços sons cores e formas
+- plano de aula educação infantil volta das férias
+- plano de aula karaoke educação infantil
+- plano de aula letra y educação infantil bncc
+- plano de aula número zero educação infantil
+- plano de aula ubuntu educação infantil
+- plano de aula xilogravura educação infantil
+- projeto educação infantil 5 anos
+- sequência didática bilhete 1 ano
+- sequência didática chapeuzinho vermelho educação infantil
+- sequência didática de acordo com a bncc
+- sequência didática elmer o elefante xadrez atividades educação infantil
+- sequência didática grandezas e medidas 1 ano
+- sequência didática história em quadrinhos 1 ano
+- sequência didática ivan cruz educação infantil
+- sequência didática joão e maria educação infantil
+- sequencia didática kiriku e a feiticeira
+- sequência didática lagarta comilona educação infantil
+- sequência didática matemática 2 ano
+- sequência didática nome próprio educação infantil pdf
+- sequência didática os três porquinhos em pdf
+- sequência didática pronta para imprimir 3o ano português
+- sequência didática quem vai ficar com o pêssego
+- sequência didática rimas educação infantil
+- sequência didática sobre a primavera para educação infantil
+- sequência didática trânsito na educação infantil
+- sequência didática um bichinho diferente
+- sequência didática viviana a rainha do pijama
+- sequencia didatica zumbi dos palmares
+- planejamento anual artes 6 ano
+- planejamento anual bncc
+- planejamento anual clube de desbravadores pdf
+- planejamento anual de inglês 8 ano de acordo com a bncc
+- planejamento anual de redação 6 ao 9 ano
+- planejamento anual de vida
+- planejamento anual disciplinas ufabc
+- planejamento anual educação infantil word
+- planejamento anual ensino fundamental 1 ao 5 ano
+- planejamento anual filosofia ensino médio
+- planejamento anual geografia 7 ano bncc
+- planejamento anual historia 9 ano ensino fundamental
+- planejamento anual infantil 4
+- planejamento anual jardim 2
+- planejamento anual lingua portuguesa 9 ano
+- planejamento anual maternal 2
+- planejamento anual para creche de acordo com a bncc
+- planejamento anual quarto ano ensino fundamental
+- planejamento anual scfv
+- planejamento anual traços sons cores e formas educação infantil
+- planejamento orçamento anual
+- planejamento semanal educação infantil 5 anos
+- plano de aula 1o ano
+- plano de aula 2o ano fundamental
+- plano de aula alfabetização e letramento pdf
+- plano de aula educação infantil a casa sonolenta
+- plano de aula educação infantil bncc 2026
+- plano de aula educação infantil cabelo maluco
+- plano de aula educação infantil dia dos pais
+- plano de aula educação infantil emoções
+- plano de aula educação infantil folclore parlendas
+- plano de aula educação infantil grupo 4
+- plano de aula educação infantil higiene
+- plano de aula educação infantil inverno
+- plano de aula educação infantil jogos
+- plano de aula educação infantil letra t
+- plano de aula educação infantil maternal
+- plano de aula educação infantil natureza e sociedade
+- plano de aula educação infantil outubro
+- plano de aula educação infantil pdf
+- plano de aula educação infantil reciclagem
+- plano de aula educação infantil sobre o folclore
+- plano de aula educação infantil transito bncc
+- plano de aula educação infantil vogal a
+- plano de aula letra k educação infantil bncc
+- plano de aula letra x educação infantil bncc
+- plano de aula letra z educação infantil bncc
+- plano de aula word download educação infantil
+- plano de aula yoga na educação infantil
+- projeto educação infantil meio ambiente
+- sequência didática brinquedos e brincadeiras ivan cruz
+- sequência didática cantigas de roda 1 ano
+- sequência didática dia dos pais educação infantil
+- sequencia didática eleição dos bichos
+- sequência didática folclore educação infantil bncc
+- sequencia didatica hoje é domingo
+- sequência didática independência do brasil
+- sequencia didatica israela kotona
+- sequência didática joão e o pé de feijão
+- sequencia didatica leilão de jardim educação infantil
+- sequência didática marcelo marmelo martelo 2 ano
+- sequência didática matemática 5 ano
+- sequência didática nome próprio educação infantil
+- sequência didática o gato xadrez
+- sequência didática para alfabetização pdf
+- sequência didática quem vai ficar com o pêssego 1 ano
+- sequência didática rapunzel educação infantil
+- sequência didática sc para windows
+- sequência didática sobre o dia da árvore para educação infantil
+- sequência didática trava-língua 2 ano
+- sequência didática um amor de família educação infantil
+- sequência didática volta às aulas educação infantil
+- sequencia didatica zootopia
+- um plano de aula educação infantil
+- modelo de planejamento anual word
+- planejamento anual artes ensino fundamental 2
+- planejamento anual bncc educação infantil
+- planejamento anual cras
+- planejamento anual de acordo com a bncc educação infantil pdf
+- planejamento anual de redação 9 ano
+- planejamento anual de uma empresa
+- planejamento anual fisica 1 ano ensino medio
+- planejamento anual grupo 5 educação infantil
+- planejamento anual historia 3 ano ensino fundamental
+- planejamento anual infantil 2
+- planejamento anual jardim 2 bncc
+- planejamento anual língua inglesa 1 ao 5 ano bncc
+- planejamento anual maternal 1
+- planejamento anual pré 2 pdf
+- planejamento anual projeto de vida 6 ano
+- planejamento anual quimica 2 ano ensino medio
+- planejamento anual segundo ano fundamental
+- planejamento anual todas as disciplinas 3 ano ensino fundamental
+- planejamento operacional anual
+- planejamento semanal educação infantil word
+- plano de aula a zebrinha preocupada educação infantil
+- plano de aula alfabetização 1 ano bncc
+- plano de aula editável word educação infantil
+- plano de aula educação infantil adição
+- plano de aula educação infantil berçario 2
+- plano de aula educação infantil consciência negra
+- plano de aula educação infantil dia do soldado
+- plano de aula educação infantil emoções e sentimentos
+- plano de aula educação infantil folclore bncc
+- plano de aula educação infantil grupo 3
+- plano de aula educação infantil história
+- plano de aula educação infantil instrumentos musicais
+- plano de aula educação infantil letras do alfabeto
+- plano de aula educação infantil maternal 1
+- plano de aula educação infantil natal
+- plano de aula educação infantil os três porquinhos
+- plano de aula educação infantil pré 2
+- plano de aula educação infantil recorte e colagem
+- plano de aula educação infantil semana da criança
+- plano de aula educação infantil tema natal
+- plano de aula educação infantil vogais bncc
+- plano de aula história gato xadrez educação infantil bncc
+- plano de aula letra k educação infantil 4 anos
+- plano de aula vogal u educação infantil bncc
+- projeto educação infantil primavera
+- sequência didática borboletinha educação infantil
+- sequência didática chapeuzinho vermelho educação infantil pdf
+- sequência didática de dolz noverraz e schneuwly
+- sequência didática exemplo
+- sequência didática folclore 3 ano
+- sequencia didatica gato xadrez
+- sequência didática gênero textual notícia 5 ano
+- sequência didática história em quadrinhos 5 ano
+- sequência didática interdisciplinar
+- sequência didática joão e o pé de feijão 1 ano
+- sequência didática leilão de jardim 2 ano
+- sequencia didatica letra k
+- sequência didática matemática 4 ano
+- sequência didática meio ambiente educação infantil
+- sequência didática números e quantidades educação infantil
+- sequência didática o novelo das emoções
+- sequência didática para alfabetização 2 ano
+- sequencia didatica qual é a cor do amor
+- sequência didática receita 2 ano
+- sequência didática sucolandia
+- sequência didática texto instrucional 2 ano
+- sequencia didatica uma lagarta muito comilona
+- sequência didática vaca amarela
+- planejamento anual 3 ano fundamental word
+- planejamento anual 4 ano de acordo com a bncc word
+- planejamento anual artes ensino fundamental 1
+- planejamento anual biologia 1 ano ensino medio
+- planejamento anual como fazer
+- planejamento anual de geografia 6 ao 9 ano de acordo com a bncc
+- planejamento anual de oferta de disciplinas ufabc 2026
+- planejamento anual de religião do 6 ao 9 ano
+- planejamento anual de uma escola
+- planejamento anual educação infantil de acordo com a bncc
+- planejamento anual eja 1 segmento bncc
+- planejamento anual fundamental 2 alinhado a bncc
+- planejamento anual geografia 8 ano
+- planejamento anual historia 1 ano ensino medio
+- planejamento anual ingles 6 ano
+- planejamento anual jornada com deus
+- planejamento anual lingua portuguesa 7 ano
+- planejamento anual maternal 3 de acordo com a bncc
+- planejamento anual projeto de vida ensino médio
+- planejamento anual pronto
+- planejamento anual quadro branco
+- planejamento anual sala de recursos multifuncional
+- planejamento anual tabela
+- planejamento semanal educação infantil 3 anos
+- plano de aula alfabetização 1 ano
+- plano de aula de xadrez para educação infantil
+- plano de aula educação infantil 5 anos de acordo com a bncc
+- plano de aula educação infantil alimentação saudável bncc
+- plano de aula educação infantil bullying
+- plano de aula educação infantil de acordo com a bncc
+- plano de aula educação infantil escrita do nome
+- plano de aula educação infantil grupo 2
+- plano de aula educação infantil higiene corporal
+- plano de aula educação infantil ivan cruz
+- plano de aula educação infantil musicalização
+- plano de aula educação infantil numeros
+- plano de aula educação infantil outono
+- plano de aula educação infantil pré 1
+- plano de aula educação infantil quem cuida de mim
+- plano de aula educação infantil receita
+- plano de aula educação infantil sobre a independência do brasil
+- plano de aula educação infantil tema carnaval
+- plano de aula frida kahlo educação infantil
+- plano de aula letra w educação infantil bncc
+- plano de aula ultima semana educação infantil
+- plano de aula zumbi dos palmares educação infantil
+- projeto educação infantil alimentação saudável
+- sequência didática a casa e seu dono para imprimir
+- sequência didática atividade letra k educação infantil
+- sequência didática borboletinha 1 ano
+- sequência didática chapeuzinho vermelho 2 ano
+- sequência didática dia dos pais
+- sequência didática elmer o elefante xadrez
+- sequência didática folclore
+- sequência didática história em quadrinhos 3 ano
+- sequência didática interdisciplinar 5 ano
+- sequência didática joão e o pé de feijão 2 ano
+- sequencia didatica letra z
+- sequência didática livro dos números bichos e flores educação infantil
+- sequência didática matemática educação infantil 5 anos
+- sequencia didatica menina bonita do laço de fita
+- sequência didática notícia 3 ano
+- sequência didática o monstro das cores educação infantil
+- sequência didática para o 3 ano em pdf
+- sequência didática quem sou eu educação infantil
+- sequência didática receita 3 ano
+- sequência didática setembro amarelo
+- sequência didática trava língua educação infantil
+- sequencia didatica uniasselvi
+- sequência didática viviana a rainha do pijama 1 ano
+- planejamento anual 2 ano fundamental pdf
+- planejamento anual 2 ano fundamental word
+- planejamento anual anos iniciais
+- planejamento anual biologia 3 ano ensino medio
+- planejamento anual cadastro unico
+- planejamento anual creche
+- planejamento anual de geografia 8 ano de acordo com a bncc
+- planejamento anual de química 3 ano ensino médio pdf
+- planejamento anual de redação 7 ano
+- planejamento anual educação infantil pdf 2026
+- planejamento anual eja anos iniciais
+- planejamento anual fundamental 2
+- planejamento anual geografia 3 ano ensino medio
+- planejamento anual história
+- planejamento anual ingles
+- planejamento anual jardim 3
+- planejamento anual lingua portuguesa 1 ano ensino fundamental
+- planejamento anual modelo
+- planejamento anual para o 5 ano do ensino fundamental
+- planejamento anual pré 1 de acordo com a bncc
+- planejamento anual projeto de vida
+- planejamento anual secretaria de assistencia social
+- planejamento anual thais godinho
+- planejamento semanal educação infantil 4 anos
+- plano de aula alfabetização metodo fonico
+- plano de aula educação infantil artes
+- plano de aula educação infantil bncc 3 anos
+- plano de aula educação infantil carnaval
+- plano de aula educação infantil dia do professor
+- plano de aula educação infantil espaço tempo quantidade
+- plano de aula educação infantil familia
+- plano de aula educação infantil grandezas e medidas
+- plano de aula educação infantil história pinóquio
+- plano de aula educação infantil letra n
+- plano de aula educação infantil meio ambiente
+- plano de aula educação infantil nova escola
+- plano de aula educação infantil o grande rabanete
+- plano de aula educação infantil parlendas
+- plano de aula educação infantil resgatando brincadeiras antigas
+- plano de aula educação infantil são joão
+- plano de aula educação infantil semana do transito
+- plano de aula educação infantil tema festa junina
+- plano de aula educação infantil valores
+- plano de aula história gato xadrez educação infantil
+- plano de aula visita ao zoológico educação infantil
+- projeto educação infantil 3 anos
+- sequência didática a cesta da dona maricota educação infantil
+- sequencia didatica antoni zabala
+- sequência didática bom dia todas as cores 2 ano
+- sequência didática carta pessoal 3 ano
+- sequência didática dia das crianças educação infantil
+- sequência didática educação infantil 4 anos
+- sequência didática folclore 1 ano pdf
+- sequência didática galinha ruiva educação infantil
+- sequencia didatica higiene educação infantil
+- sequência didática independência do brasil 1 ano
+- sequência didática joão e o pé de feijão 3o ano
+- sequencia didatica leilão de jardim
+- sequencia didatica letra x
+- sequência didática matemática 3 ano
+- sequência didática monstro das cores para imprimir
+- sequência didática nome e sobrenome
+- sequência didática o pequeno príncipe preto educação infantil
+- sequência didática pronta para 2o ano
+- sequência didática quem mora na casa torta
+- sequência didática resenha crítica
+- sequência didática saci pererê educação infantil
+- sequência didática texto dissertativo argumentativo
+- sequencia didatica um dois feijão com arroz
+- sequência didática volta às aulas 3 ano
+- unidade tematica plano de aula educação infantil
+- planejamento anual 1 ano fundamental pdf
+- planejamento anual aee 2026
+- planejamento anual bncc 3 ano fundamental
+- planejamento anual clube de aventureiros
+- planejamento anual de inglês 6 ao 9 ano de acordo com a bncc
+- planejamento anual de oferta de disciplinas ufabc
+- planejamento anual de um clube de aventureiros
+- planejamento anual educação infantil 4 a 5 anos bncc
+- planejamento anual eja 2 segmento língua portuguesa
+- planejamento anual ensino religioso 5 ano
+- planejamento anual ftd
+- planejamento anual geografia
+- planejamento anual história ensino médio
+- planejamento anual ingles 8 ano
+- planejamento anual lingua portuguesa 8 ano bncc
+- planejamento anual maternal 2 a 3 anos de acordo com a bncc
+- planejamento anual para educação infantil de acordo com a bncc
+- planejamento anual para jovens evangélicos
+- planejamento anual projeto de vida 1 ano ensino médio
+- planejamento anual serviço de convivencia e fortalecimento de vinculos
+- planejamento semanal educação infantil 2 anos
+- planejamento tributário anual
+- plano de aula alfabetização 2 ano
+- plano de aula educação infantil 5 anos
+- plano de aula educação infantil as vogais
+- plano de aula educação infantil bncc pdf
+- plano de aula educação infantil chapeuzinho vermelho
+- plano de aula educação infantil cores
+- plano de aula educação infantil dia do transito
+- plano de aula educação infantil exemplo
+- plano de aula educação infantil gratis
+- plano de aula educação infantil historia cachinhos dourados
+- plano de aula educação infantil leilão de jardim
+- plano de aula educação infantil letra j
+- plano de aula educação infantil matemática
+- plano de aula educação infantil natal bncc
+- plano de aula educação infantil os animais
+- plano de aula educação infantil povos indígenas
+- plano de aula educação infantil primeira semana
+- plano de aula educação infantil rótulo
+- plano de aula educação infantil semana do folclore
+- plano de aula educação infantil tema primavera
+- plano de aula elmer o elefante xadrez educação infantil
+- plano de aula quilombolas educação infantil
+- plano de aula sobre união educação infantil
+- plano de aula zona rural e urbana educação infantil
+- projeto educação infantil fundo do mar
+- sequência didática a joaninha que perdeu as pintinhas educação infantil
+- sequência didática borboletinha
+- sequência didática chapeuzinho vermelho
+- sequencia didatica deu zebra no abc
+- sequência didática do livro perigoso
+- sequência didática educação infantil pdf
+- sequência didática folclore pdf
+- sequência didática gato xadrez
+- sequencia didatica gato xadrez 2 ano
+- sequencia didatica higiene pessoal educação infantil
+- sequência didática independência do brasil 2 ano
+- sequência didática joão e maria 1 ano
+- sequência didática livro amoras
+- sequência didática marcelo marmelo martelo 1 ano
+- sequência didática matemática 1 ano ensino médio
+- sequência didática na ludicidade
+- sequência didática o grande rabanete
+- sequência didática pronta para 1o ano
+- sequencia didatica quanta africa tem no dia de alguem
+- sequência didática receita
+- sequência didática semana do trânsito educação infantil
+- sequência didática texto instrucional 3 ano
+- sequência didática um amor de família
+- sequência didática volta às aulas 2 ano
+- como montar um plano de aula educação infantil
+- planejamento anual assistencia social
+- planejamento anual berçário 1
+- planejamento anual creas
+- planejamento anual de disciplinas ufabc 2026
+- planejamento anual de história 6 ao 9 ano
+- planejamento anual de inglês 6 ano de acordo com a bncc
+- planejamento anual de quimica ensino medio
+- planejamento anual de redação 8 ano
+- planejamento anual educação infantil 4 anos por bimestre
+- planejamento anual fisica 2 ano ensino medio
+- planejamento anual geografia 6 ano
+- planejamento anual infantil 3
+- planejamento anual língua portuguesa 1 ano ensino médio
+- planejamento anual ministério infantil pdf
+- planejamento anual ministério jovem
+- planejamento anual para berçário 2 de acordo com a bncc
+- planejamento anual para o 3 ano do ensino fundamental
+- planejamento anual para turmas multisseriadas
+- planejamento anual projeto de vida 9 ano
+- planejamento anual see mg 2025
+- planejamento semanal educação infantil pdf
+- plano de aula alfabetização e letramento 2 ano
+- plano de aula educação fisica infantil jogos e brincadeiras
+- plano de aula educação infantil 4 anos
+- plano de aula educação infantil antirracista
+- plano de aula educação infantil bandeira do brasil
+- plano de aula educação infantil creche
+- plano de aula educação infantil dia dos avós
+- plano de aula educação infantil dia internacional da mulher
+- plano de aula educação infantil elementos da natureza
+- plano de aula educação infantil formas geometricas e cores
+- plano de aula educação infantil grosso e fino
+- plano de aula educação infantil horta
+- plano de aula educação infantil letra a
+- plano de aula educação infantil mês de setembro
+- plano de aula educação infantil número 2
+- plano de aula educação infantil os sentidos
+- plano de aula educação infantil pascoa
+- plano de aula educação infantil respeitando as diferenças
+- plano de aula educação infantil setembro
+- plano de aula educação infantil tema
+- plano de aula o gato xadrez para educação infantil bncc
+- plano de aula quadrado educação infantil
+- projeto educação infantil cantigas de roda
+- sequência didática a lagarta comilona 1 ano
+- sequência didática branca de neve 1 ano
+- sequência didática com livros literários
+- sequência didática do folclore
+- sequência didática educação infantil 5 anos
+- sequência didática folclore 4 ano
+- sequência didática galinha ruiva
+- sequência didática gato xadrez 1 ano
+- sequência didática halloween
+- sequência didática infantil
+- sequência didática joão e o pé de feijão maternal
+- sequência didática lendas folclóricas
+- sequência didática matemática 6 ano
+- sequência didática modelo
+- sequencia didatica natal educação infantil
+- sequencia didatica o que é
+- sequência didática parlenda hoje é domingo
+- sequencia didatica qual é a cor do amor educação infantil
+- sequencia didatica rei capitão
+- sequencia didatica segundo zabala
+- sequência didática sobre fábulas 2 ano
+- sequência didática trava língua 1 ano
+- sequência didática um bichinho diferente educação infantil
+- sequência didática viviana a rainha do pijama educação infantil
+- planejamento anual 2026 jornada com deus
+- planejamento anual 5 ano de acordo com a bncc word
+- planejamento anual agenda
+- planejamento anual bncc 1 ano
+- planejamento anual clube de desbravadores
+- planejamento anual de história 5 ano alinhado a bncc
+- planejamento anual de inglês 9 ano de acordo com a bncc
+- planejamento anual de quimica
+- planejamento anual de redação 6 ano
+- planejamento anual educação infantil 4 e 5 anos
+- planejamento anual filosofia
+- planejamento anual geografia 7 ano
+- planejamento anual infantil
+- planejamento anual lingua portuguesa
+- planejamento anual matemática 9 ano pdf
+- planejamento anual para o 1 ano do ensino fundamental
+- planejamento anual pdf
+- planejamento anual produção textual 6 ano
+- planejamento anual projeto de vida 2 ano ensino medio
+- planejamento anual sociologia ensino médio
+- planejamento educacional anual de unidade de aula
+- planejamento semanal educação infantil folclore
+- plano de aula alfabetização e letramento 1 ano
+- plano de aula educação infantil a casa e seu dono
+- plano de aula educação infantil brinquedos e brincadeiras
+- plano de aula educação infantil copa do mundo
+- plano de aula educação infantil de matemática
+- plano de aula educação infantil eu sou assim
+- plano de aula educação infantil fundo do mar
+- plano de aula educação infantil mês de agosto
+- plano de aula educação infantil numero 1
+- plano de aula educação infantil os cinco sentidos
+- plano de aula educação infantil professora jussara ferreira
+- plano de aula educação infantil profissões
+- plano de aula educação infantil revisão das vogais
+- plano de aula educação infantil seres vivos e não vivos
+- plano de aula educação infantil sobre o dia da arvore
+- plano de aula educação infantil trabalhando as vogais
+- plano de aula educação infantil vogal i
+- plano de aula quinzenal educação infantil bncc
+- plano de aula usando tecnologia na educação infantil
+- projeto educação infantil ivan cruz
+- sequência didática a casa e seu dono educação infantil
+- sequencia didatica a zebrinha preocupada
+- sequência didática bom dia todas as cores maternal
+- sequência didática conto de fadas 2 ano
+- sequência didática dia da árvore
+- sequência didática e plano de aula é a mesma coisa
+- sequência didática fábulas pdf
+- sequência didática gêneros textuais
+- sequência didática história infantil
+- sequência didática inclusão no coração
+- sequência didática joão e maria 2o ano
+- sequencia didatica letra x 1 ano
+- sequência didática livro não confunda
+- sequência didática macaca sofia pdf
+- sequência didática matemática 9 ano
+- sequencia didatica natal
+- sequência didática o varal das letras
+- sequência didática parlenda 1 ano
+- sequência didática quadrinhas 2 ano
+- sequência didática rimas 2 ano
+- sequência didática sítio do picapau amarelo educação infantil
+- sequência didática trânsito 1 ano
+- sequência didática um amor de confusão educação infantil
+- sequência didática você troca
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| campos de experiência bncc | shallow | 1 / 1 | 10 |
+| códigos bncc | shallow | 1 / 1 | 10 |
+| atividades bncc | shallow | 1 / 1 | 5 |
+| bncc 3º ano | shallow | 1 / 1 | 4 |
+| bncc 2º ano | shallow | 1 / 1 | 3 |
+| habilidades bncc | deep | 25 / 27 | 220 |
+| bncc educação infantil | deep | 24 / 27 | 195 |
+| bncc 1º ano | deep | 5 / 27 | 5 |
+| habilidades bncc matemática 1º ano | shallow | 0 / 1 | 0 |
+| ef01ma | shallow | 0 / 1 | 0 |
+| ef01lp | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): ano 122 · educacao 31 · infantil 28 · ensino 27 · de 27 · fundamental 26 · pdf 21 · anos 18 · codigo 15 · para 14 · historia 14 · numeros 14 · matematica 13 · medio 13 · lingua 12 · geografia 12 · portuguesa 10 · jogos 10 · ciencias 10 · imprimir 9 · formas 9 · habilidades 9 · portugues 8 · ingles 8 · texto 7 · verbos 7 · brincadeiras 6 · geometricas 6 · leitura 6 · quantidades 6 · ortografia 6 · atualizada 6 · fisica 5 · adicao 5 · subtracao 5 · divisao 5 · do 5 · sistema 5 · vogais 5 · ao 4
+
+**Phrases** (all 451, by how many lookups returned them)
+
+- bncc 1o ano ensino fundamental  ×2
+- bncc 1o ano lingua portuguesa  ×2
+- bncc 1o ano matemática  ×2
+- bncc educação infantil atualizada 2026 pdf  ×2
+- bncc educação infantil campos de experiência  ×2
+- bncc educação infantil pdf  ×2
+- bncc educação infantil traços sons cores e formas  ×2
+- bncc educação infantil ultima versão  ×2
+- habilidades bncc adição e subtração 2 ano  ×2
+- habilidades bncc educação infantil 4 e 5 anos  ×2
+- bncc educação infantil atualizada 2026  ×2
+- bncc educação infantil codigos  ×2
+- bncc educação infantil pdf para imprimir  ×2
+- bncc educação infantil referencia bibliografica  ×2
+- habilidades bncc educação infantil  ×2
+- bncc educação infantil corpo gestos e movimentos  ×2
+- bncc educação infantil o que é  ×2
+- habilidades bncc ensino fundamental  ×2
+- bncc educação infantil crianças bem pequenas  ×2
+- bncc educação infantil escuta fala pensamento e imaginação  ×2
+- bncc educação infantil tudo sala de aula  ×2
+- habilidades bncc educação física 1 ao 5 ano  ×2
+- bncc educação infantil festa junina  ×2
+- bncc educação infantil para imprimir  ×2
+- bncc educação infantil o que significa  ×2
+- códigos bncc educação infantil para imprimir  ×2
+- bncc educação infantil espaços tempos quantidades relações e transformações  ×2
+- bncc educação infantil minas gerais  ×2
+- atividades bncc
+- bncc 1o ano fundamental
+- bncc 2o ano
+- bncc 3o ano fundamental
+- bncc educação infantil
+- bncc educação infantil baixar
+- bncc educação infantil direitos de aprendizagem
+- bncc educação infantil educação fisica
+- bncc educação infantil folclore
+- bncc educação infantil gov
+- bncc educação infantil habilidades
+- bncc educação infantil ingles
+- bncc educação infantil joel oliveira
+- bncc educação infantil livro
+- bncc educação infantil mec
+- bncc educação infantil numeros e quantidades
+- bncc educação infantil objetivos
+- bncc educação infantil questões comentadas
+- bncc educação infantil resumo
+- bncc educação infantil site
+- bncc educação infantil video aula
+- bncc educação infantil word
+- bncc educação infantil youtube
+- campos de experiência bncc
+- códigos bncc educação infantil pdf
+- habilidades bncc
+- habilidades bncc biologia ensino médio
+- habilidades bncc ciencias 7 ano
+- habilidades bncc dia e noite educação infantil
+- habilidades bncc formas geométricas educação infantil
+- habilidades bncc geografia 6 ao 9 ano
+- habilidades bncc história 8 ano
+- habilidades bncc informática
+- habilidades bncc jogos de tabuleiro
+- habilidades bncc lingua portuguesa
+- habilidades bncc multiplicação 3 ano
+- habilidades bncc números educação infantil
+- habilidades bncc ortografia 4 ano
+- habilidades bncc produção de texto 4 ano
+- habilidades bncc química ensino médio
+- habilidades bncc rimas 2 ano
+- habilidades bncc separação de sílabas 2 ano
+- habilidades bncc tecnologia
+- habilidades bncc uso dos porques 5 ano
+- habilidades bncc verbos
+- habilidades bncc wh questions
+- habilidades bncc xadrez
+- habilidades bncc zona rural e urbana
+- atividades bncc educação infantil
+- bncc 1o ano
+- bncc 2o ano ensino fundamental
+- bncc 3o ano
+- bncc educação infantil bebes
+- bncc educação infantil download
+- bncc educação infantil e ensino fundamental
+- bncc educação infantil fabiana firmino
+- bncc educação infantil geografia
+- bncc educação infantil habilidades e competencias
+- bncc educação infantil interações e brincadeiras
+- bncc educação infantil joinville
+- bncc educação infantil leitura
+- bncc educação infantil matematica
+- bncc educação infantil numeros
+- bncc educação infantil objetivos de aprendizagem
+- bncc educação infantil questões
+- bncc educação infantil saberes e conhecimentos
+- bncc educação infantil tecnologia
+- bncc educação infantil video
+- campos de experiência bncc educação infantil
+- códigos bncc educação infantil 4 e 5 anos
+- habilidades bncc adição e subtração 3 ano
+- habilidades bncc berçário
+- habilidades bncc ciencias 5 ano
+- habilidades bncc dia dos pais educação infantil
+- habilidades bncc formas geométricas 4 ano
+- habilidades bncc geografia 6 ano
+- habilidades bncc historia 1 ano ensino fundamental
+- habilidades bncc inglês 9 ano
+- habilidades bncc jogos matemáticos 3 ano
+- habilidades bncc leitura e interpretação de texto 3 ano
+- habilidades bncc matemática 3 ano
+- habilidades bncc numeros decimais 5 ano
+- habilidades bncc ortografia 2 ano
+- habilidades bncc produção de texto 5 ano
+- habilidades bncc quimica
+- habilidades bncc raciocínio lógico matemático 3 ano
+- habilidades bncc sistema solar 3 ano
+- habilidades bncc trânsito 2 ano
+- habilidades bncc uso dos porquês
+- habilidades bncc vogais educação infantil
+- habilidades bncc xilogravura
+- unidade temática bncc educação infantil
+- atividades bncc educação infantil 4 anos
+- bncc 2o ano matemática
+- bncc 3o ano matemática
+- bncc educação infantil 4 e 5 anos pdf
+- bncc educação infantil atualizada
+- bncc educação infantil baixar pdf
+- bncc educação infantil documento oficial
+- bncc educação infantil em pdf
+- bncc educação infantil faixa etária
+- bncc educação infantil grupo 3
+- bncc educação infantil habilidades pdf
+- bncc educação infantil idades
+- bncc educação infantil jogos e brincadeiras
+- bncc educação infantil lingua inglesa
+- bncc educação infantil mapa mental
+- bncc educação infantil navegação
+- bncc educação infantil pdf atualizada
+- bncc educação infantil quando foi criada
+- bncc educação infantil rio grande do sul
+- bncc educação infantil significado
+- bncc educação infantil tabela
+- bncc educação infantil vogais
+- campos de experiência bncc educação infantil pdf
+- códigos bncc
+- habilidades bncc arte
+- habilidades bncc basquetebol
+- habilidades bncc ciencias
+- habilidades bncc divisão 3 ano
+- habilidades bncc frações 5 ano
+- habilidades bncc geografia 1 ano ensino fundamental
+- habilidades bncc história 2 ano fundamental
+- habilidades bncc inglês 7 ano
+- habilidades bncc jogos e brincadeiras
+- habilidades bncc lingua portuguesa 1 ano
+- habilidades bncc matemática 5 ano
+- habilidades bncc numeros e quantidades educação infantil
+- habilidades bncc ortografia 5 ano
+- habilidades bncc produção de texto 3 ano
+- habilidades bncc quarto ano
+- habilidades bncc reciclagem educação infantil
+- habilidades bncc singular e plural 3 ano
+- habilidades bncc sons do x
+- habilidades bncc tudo sala de aula
+- habilidades bncc unidades de medida
+- habilidades bncc verbos 4 ano
+- atividades bncc 1 ano
+- bncc 3o ano lingua portuguesa
+- bncc educação infantil ano
+- bncc educação infantil brincadeiras
+- bncc educação infantil digital
+- bncc educação infantil formas geometricas
+- bncc educação infantil grupo 5
+- bncc educação infantil história
+- bncc educação infantil identidade
+- bncc educação infantil jardim 1
+- bncc educação infantil lei
+- bncc educação infantil maternal 1
+- bncc educação infantil nova escola
+- bncc educação infantil online
+- bncc educação infantil pdf resumo
+- bncc educação infantil qual ano
+- bncc educação infantil rn
+- bncc educação infantil simulado
+- campos de experiência bncc educação infantil 4 e 5 anos
+- codigo bncc educação infantil vogais
+- códigos bncc educação infantil pdf para imprimir
+- habilidades bncc 1 ao 5 ano língua portuguesa
+- habilidades bncc adição e subtração 1 ano
+- habilidades bncc bullying
+- habilidades bncc ciencias 6 ano
+- habilidades bncc ditado de palavras 1 ano
+- habilidades bncc fontes de energia 5 ano
+- habilidades bncc geografia ensino médio
+- habilidades bncc história ensino médio
+- habilidades bncc inglês 8 ano
+- habilidades bncc jogo da memória
+- habilidades bncc linguagens ensino médio
+- habilidades bncc matemática
+- habilidades bncc numeros
+- habilidades bncc ortografia 3 ano
+- habilidades bncc portugues 5 ano
+- habilidades bncc química orgânica
+- habilidades bncc reprodução humana
+- habilidades bncc singular e plural 2 ano
+- habilidades bncc tecnologia ensino médio
+- habilidades bncc unidade dezena e centena
+- habilidades bncc variação linguística ensino fundamental
+- atividades bncc 2 anos
+- bncc educação infantil artes
+- bncc educação infantil campos de experiência e habilidades
+- bncc educação infantil datas comemorativas
+- bncc educação infantil e ensino fundamental pdf
+- bncc educação infantil grupo 2
+- bncc educação infantil historia e geografia
+- bncc educação infantil jogos
+- bncc educação infantil lingua portuguesa
+- bncc educação infantil maternal 2
+- bncc educação infantil natureza e sociedade
+- bncc educação infantil o eu o outro e o nos
+- bncc educação infantil para concurso
+- bncc educação infantil referencial gaucho
+- bncc educação infantil siglas
+- bncc educação infantil teatro
+- campos de experiência bncc educação infantil para imprimir
+- codigos bncc educação infantil
+- habilidade bncc educação infantil vogais
+- habilidades bncc 2 ano português
+- habilidades bncc arte ensino médio
+- habilidades bncc berçário 1
+- habilidades bncc ciencias 1 ano ensino fundamental
+- habilidades bncc dia das crianças
+- habilidades bncc educação infantil 4 e 5 anos para imprimir
+- habilidades bncc fração 4 ano
+- habilidades bncc geografia
+- habilidades bncc história 5 ano
+- habilidades bncc inglês 6 ano
+- habilidades bncc juros simples e compostos
+- habilidades bncc lingua inglesa 6 ano
+- habilidades bncc matemática 1 ano ensino fundamental
+- habilidades bncc números decimais
+- habilidades bncc ortografia
+- habilidades bncc portugues 4 ano
+- habilidades bncc quimica 1 ano
+- habilidades bncc raciocínio lógico matemático 4 ano
+- habilidades bncc sólidos geométricos 3 ano
+- habilidades bncc teatro
+- habilidades bncc urbanização
+- habilidades bncc verbos 5 ano
+- bncc educação física infantil
+- bncc educação infantil artes visuais
+- bncc educação infantil atividades
+- bncc educação infantil concurso
+- bncc educação infantil documento
+- bncc educação infantil eu o outro e nós
+- bncc educação infantil goias
+- bncc educação infantil higiene
+- bncc educação infantil leitura e escrita
+- bncc educação infantil mec pdf
+- bncc educação infantil natureza
+- bncc educação infantil para imprimir pdf
+- bncc educação infantil rs
+- bncc educação infantil slide
+- bncc educação infantil transito
+- campos de experiência bncc pdf
+- código bncc educação infantil jogo da memória
+- habilidades bncc adição e subtração 5 ano
+- habilidades bncc biologia 2 ano ensino medio
+- habilidades bncc ciências 4 ano
+- habilidades bncc ditado de palavras 2 ano
+- habilidades bncc educação infantil 3 anos
+- habilidades bncc formas geométricas educação infantil 5 anos
+- habilidades bncc geografia 3 ano fundamental
+- habilidades bncc história 9 ano
+- habilidades bncc inglês anos iniciais
+- habilidades bncc jogos matemáticos 5 ano
+- habilidades bncc lingua portuguesa 8 ano
+- habilidades bncc matemática 7 ano
+- habilidades bncc números em inglês
+- habilidades bncc ortografia 7 ano lingua portuguesa
+- habilidades bncc portugues 1 ano ensino fundamental
+- habilidades bncc quem sou eu
+- habilidades bncc raciocínio lógico matemático 5 ano
+- habilidades bncc sistema circulatório 8 ano
+- habilidades bncc tabelas e gráficos
+- habilidades bncc unidade de milhar
+- habilidades bncc verbos 3 ano
+- bncc educação infantil 4 e 5 anos
+- bncc educação infantil alimentação saudavel
+- bncc educação infantil ciencias
+- bncc educação infantil dança
+- bncc educação infantil e anos iniciais
+- bncc educação infantil grupo 4
+- bncc educação infantil habilidades 3 anos
+- bncc educação infantil letras
+- bncc educação infantil meio ambiente
+- bncc educação infantil nome próprio
+- bncc educação infantil objetivos de aprendizagem e desenvolvimento
+- bncc educação infantil pdf 2026
+- bncc educação infantil referencia
+- bncc educação infantil significa
+- campos de experiência bncc ensino fundamental 1
+- codigo bncc educação infantil brincadeiras
+- codigo bncc educação infantil identidade
+- codigo bncc educação infantil quebra cabeça
+- codigo bncc educação infantil traços sons cores e formas
+- codigo bncc educação infantil video
+- códigos bncc 1 ano fundamental
+- habilidades bncc artes 1 ano ensino fundamental
+- habilidades bncc biomas 5 ano
+- habilidades bncc cores educação infantil
+- habilidades bncc divisão 5 ano
+- habilidades bncc ensino médio
+- habilidades bncc filosofia ensino médio
+- habilidades bncc geografia 7 ano
+- habilidades bncc história
+- habilidades bncc ingles
+- habilidades bncc jogos de tabuleiro 4 ano
+- habilidades bncc lingua portuguesa 5 ano
+- habilidades bncc matemática 4 ano
+- habilidades bncc nome e sobrenome
+- habilidades bncc ordem alfabética 2 ano
+- habilidades bncc produção de texto 2 ano
+- habilidades bncc quinto ano
+- habilidades bncc revolução industrial
+- habilidades bncc sociologia ensino médio
+- habilidades bncc teorema de pitagoras
+- habilidades bncc universo
+- habilidades bncc vogais
+- bncc educação infantil anos iniciais
+- bncc educação infantil bncc
+- bncc educação infantil crianças pequenas
+- bncc educação infantil desenho livre
+- bncc educação infantil espaço tempos quantidades relações e transformações
+- bncc educação infantil letra cursiva
+- bncc educação infantil musicalização
+- bncc educação infantil o que mudou
+- bncc educação infantil objetivos pdf
+- bncc educação infantil pdf para baixar
+- bncc educação infantil professor joel
+- bncc educação infantil resumo pdf
+- bncc educação infantil socioemocional
+- campos de experiência bncc educação infantil 3 anos
+- codigo bncc educação infantil formas geometricas
+- codigo bncc educação infantil higiene
+- codigo bncc educação infantil numeros
+- códigos bncc escuta fala pensamento e imaginação
+- habilidades bncc arte 7 ano
+- habilidades bncc biografia e autobiografia
+- habilidades bncc ciências 8 ano
+- habilidades bncc divisão 4 ano
+- habilidades bncc educação física 6 ao 9 ano
+- habilidades bncc família silábica educação infantil
+- habilidades bncc geografia 4 ano
+- habilidades bncc historia 4 ano fundamental
+- habilidades bncc independencia do brasil 4 ano
+- habilidades bncc jogos matemáticos 4 ano
+- habilidades bncc leitura e interpretação
+- habilidades bncc matemática 2 ano fundamental
+- habilidades bncc numeros ordinais 2 ano
+- habilidades bncc orações subordinadas adverbiais
+- habilidades bncc porcentagem 5 ano
+- habilidades bncc quantidades
+- habilidades bncc redação
+- habilidades bncc setembro amarelo
+- habilidades bncc sistema urinario 8 ano
+- habilidades bncc teorema de tales
+- habilidades bncc verbos 7 ano
+- bncc brincar na educação infantil
+- bncc educação infantil 3 anos
+- bncc educação infantil atualizada 2025
+- bncc educação infantil competencias e habilidades
+- bncc educação infantil direitos
+- bncc educação infantil eixos estruturantes
+- bncc educação infantil literatura
+- bncc educação infantil organizador curricular
+- bncc educação infantil planalto
+- bncc educação infantil resumo para imprimir
+- campos de experiência bncc educação infantil siglas
+- chaveiro bncc educação infantil para imprimir
+- codigo bncc educação infantil festa junina
+- codigo bncc educação infantil historia
+- código bncc educação infantil números e quantidades
+- codigo bncc educação infantil quantidade
+- códigos bncc ensino médio
+- curso bncc educação infantil gratuito
+- habilidade bncc educação infantil formas geométricas
+- habilidades bncc 4 ano português
+- habilidades bncc adição e subtração 4 ano
+- habilidades bncc brincadeiras e jogos
+- habilidades bncc ciências 2 ano fundamental
+- habilidades bncc danças urbanas
+- habilidades bncc divisão 2 ano
+- habilidades bncc educação física
+- habilidades bncc educação infantil traços sons cores e formas
+- habilidades bncc fundamental 1
+- habilidades bncc geografia 8 ano
+- habilidades bncc história 4 ano
+- habilidades bncc independencia do brasil
+- habilidades bncc juros simples
+- habilidades bncc lingua portuguesa 4 ano
+- habilidades bncc matemática 8 ano
+- habilidades bncc numeros pares e impares 3 ano
+- habilidades bncc o eu o outro e o nos
+- habilidades bncc para leitura e interpretação de texto
+- habilidades bncc quebra cabeça
+- habilidades bncc rimas
+- habilidades bncc sistema respiratório 8 ano
+- habilidades bncc tabuada 3 ano
+- habilidades bncc verbos 6 ano
+- verbos bncc educação infantil
+- bncc educação infantil atualizada 2025 pdf
+- bncc educação infantil canoas
+- bncc educação infantil contação de história
+- bncc educação infantil divisão
+- bncc educação infantil e fundamental
+- bncc educação infantil educação infantil
+- bncc educação infantil ei02eo01
+- bncc educação infantil linguagem
+- bncc educação infantil musica
+- bncc educação infantil para baixar
+- bncc educação infantil recorte e colagem
+- bncc transição da educação infantil para o ensino fundamental
+- bncc vogal e educação infantil
+- campos de experiência bncc educação infantil 2 anos
+- codigo bncc brinquedos educação infantil
+- codigos bncc educação infantil 3 anos
+- habilidade bncc educação infantil numeros
+- habilidades bncc 3 ano português
+- habilidades bncc artes 3 ano fundamental
+- habilidades bncc ciencias 3 ano
+- habilidades bncc crianças bem pequenas
+- habilidades bncc dia do soldado
+- habilidades bncc educação infantil festa junina
+- habilidades bncc educação infantil tudo sala de aula
+- habilidades bncc expressões numéricas 5 ano
+- habilidades bncc figuras de linguagem ensino médio
+- habilidades bncc geografia 2 ano fundamental
+- habilidades bncc história 6 ano
+- habilidades bncc interpretação de texto
+- habilidades bncc jogos matemáticos
+- habilidades bncc leitura
+- habilidades bncc matematica 1 ano
+- habilidades bncc numeros naturais
+- habilidades bncc orações subordinadas adjetivas
+- habilidades bncc português 1 ano
+- habilidades bncc quarto ano português
+- habilidades bncc razão e proporção
+- habilidades bncc singular e plural 4 ano
+- habilidades bncc sistema urinario
+- habilidades bncc transitividade verbal
+- habilidades bncc variação linguística
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| avaliação diagnóstica educação infantil | shallow | 1 / 1 | 10 |
+| sondagem de escrita | shallow | 1 / 1 | 10 |
+| simulado 2º ano | shallow | 1 / 1 | 9 |
+| avaliação de matemática 1º ano | shallow | 1 / 1 | 7 |
+| prova 3º ano | shallow | 1 / 1 | 4 |
+| avaliação diagnóstica 1º ano | shallow | 1 / 1 | 3 |
+| sondagem 1º ano | shallow | 1 / 1 | 2 |
+| avaliação diagnóstica 3º ano | shallow | 1 / 1 | 2 |
+| avaliação diagnóstica 2º ano | shallow | 1 / 1 | 1 |
+| sondagem | deep | 26 / 27 | 237 |
+| avaliação diagnóstica | deep | 24 / 27 | 217 |
+| avaliação 1º ano | deep | 5 / 27 | 6 |
+| prova 2º ano | deep | 4 / 27 | 4 |
+| avaliação bimestral 2º ano | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): ano 105 · de 41 · matematica 29 · para 25 · fundamental 20 · portugues 19 · lingua 19 · portuguesa 19 · ensino 18 · pdf 16 · infantil 16 · vesical 16 · medio 14 · alfabetizacao 13 · anos 11 · historia 11 · em 11 · formativa 10 · 2026 10 · imprimir 9 · com 9 · geografia 9 · spt 9 · kit 9 · gabarito 8 · educacao 8 · escrita 8 · uretral 8 · somativa 7 · do 7 · na 7 · rotativa 7 · trado 7 · word 6 · 3o 6 · inicial 6 · biologia 5 · como 5 · pre 5 · quarto 5
+
+**Phrases** (all 503, by how many lookups returned them)
+
+- sondagem de escrita  ×3
+- sondagem spt  ×3
+- avaliação 1o ano fundamental  ×2
+- avaliação 1o ano lingua portuguesa  ×2
+- avaliação 1o ano matemática  ×2
+- avaliação 1o ano portugues  ×2
+- avaliação diagnóstica educação infantil para imprimir  ×2
+- avaliação diagnóstica formativa e somativa  ×2
+- prova 2o ano fundamental  ×2
+- prova 2o ano matemática  ×2
+- sondagem a percussão  ×2
+- sondagem de solo  ×2
+- sondagem nasogastrica  ×2
+- sondagem rotativa  ×2
+- sondagem vesical  ×2
+- avaliação diagnóstica educação infantil 5 anos pdf  ×2
+- sondagem a trado  ×2
+- sondagem de escrita para 1o ano  ×2
+- sondagem vesical de demora  ×2
+- avaliação diagnóstica educação infantil 4 anos pdf  ×2
+- avaliação diagnóstica blog professor warles  ×2
+- avaliação diagnóstica educação infantil bncc  ×2
+- avaliação diagnóstica para o 1o ano  ×2
+- avaliação diagnóstica rio de janeiro  ×2
+- avaliação diagnóstica 3 ano português word  ×2
+- avaliação diagnóstica educação infantil 5 anos para imprimir  ×2
+- avaliação diagnóstica 2 ano português word  ×2
+- avaliação diagnóstica educação infantil 5 anos português  ×2
+- avaliação diagnostica educação infantil  ×2
+- avaliação diagnóstica 1 ano português word  ×2
+- avaliação 1o ano
+- avaliação de matemática 1o ano
+- avaliação diagnóstica
+- avaliação diagnóstica 1o ano
+- avaliação diagnóstica 2o ano
+- avaliação diagnóstica 3o ano
+- avaliação diagnóstica alfabetização para imprimir
+- avaliação diagnóstica biologia 1o ano ensino médio
+- avaliação diagnóstica caed 2026
+- avaliação diagnóstica de língua portuguesa 6 ao 9 ano com gabarito
+- avaliação diagnóstica geografia
+- avaliação diagnóstica história 6 ano
+- avaliação diagnóstica infantil 4 anos
+- avaliação diagnostica israela kotona
+- avaliação diagnóstica jardim 2
+- avaliação diagnóstica lingua portuguesa 3 ano fundamental
+- avaliação diagnóstica matemática
+- avaliação diagnóstica na educação infantil
+- avaliação diagnóstica o que é
+- avaliação diagnóstica pdf
+- avaliação diagnóstica professor warles
+- avaliação diagnóstica questionário 2
+- avaliação diagnóstica reforço escolar
+- avaliação diagnóstica sala de recursos pdf
+- avaliação diagnóstica tem como objetivo
+- avaliação diagnóstica unifor
+- avaliação diagnóstica vale nota
+- prova 2o ano
+- prova 2o ano ensino fundamental
+- prova 3o ano
+- simulado 2o ano
+- sondagem
+- sondagem 1o ano
+- sondagem brasileira
+- sondagem cptu
+- sondagem enteral
+- sondagem feminina
+- sondagem gastrica
+- sondagem hipoteses de escrita
+- sondagem intermitente
+- sondagem jejunal
+- sondagem kaio jorge
+- sondagem lacrimal
+- sondagem mista
+- sondagem o que é
+- sondagem periodontal
+- sondagem quarto ano
+- sondagem terreno
+- sondagem uretral
+- sondagem xixi
+- sondagem yuri alberto
+- wireline sondagem
+- avaliação de matemática 1o ano 3o bimestre
+- avaliação diagnostica 1 ano israela kotona
+- avaliação diagnóstica 1o ano português
+- avaliação diagnóstica 3o ano matemática
+- avaliação diagnóstica alfabetização
+- avaliação diagnóstica bncc
+- avaliação diagnóstica caed
+- avaliação diagnóstica de matemática 5 ano para imprimir
+- avaliação diagnóstica formativa e somativa segundo luckesi
+- avaliação diagnóstica geografia 6o ano
+- avaliação diagnóstica história 9 ano
+- avaliação diagnóstica inicial de câncer de mama
+- avaliação diagnóstica jardim 1
+- avaliação diagnóstica leitura e escrita
+- avaliação diagnóstica matemática ensino médio pdf
+- avaliação diagnóstica na educação física
+- avaliação diagnóstica objetivo
+- avaliação diagnóstica pré 2
+- avaliação diagnóstica professor warles 2o ano
+- avaliação diagnóstica quarto ano
+- avaliação diagnóstica rs 2026
+- avaliação diagnóstica sedu 2026
+- avaliação diagnóstica tudo sala de aula
+- avaliação diagnóstica ufbra
+- avaliação diagnóstica vale ponto
+- kit sondagem vesical
+- prova 3o ano matemática
+- simulado 2o ano matemática
+- sondagem 1o ano alfabetização
+- sondagem brinquedos
+- sondagem cpt
+- sondagem educação infantil
+- sondagem femea canina
+- sondagem geotécnica
+- sondagem hollow auger
+- sondagem inicial
+- sondagem jardim 2
+- sondagem leitura e escrita
+- sondagem matemática 1 ano
+- sondagem nasoenteral
+- sondagem orogástrica
+- sondagem para 1 ano
+- sondagem quantos furos por metro quadrado
+- sondagem retal
+- sondagem significado
+- sondagem transgengival
+- sondagem uretral cadelas
+- sondagem wyoming
+- sondagem xanxere
+- avaliação 1o ano 3o bimestre
+- avaliação de matemática 1o ano fundamental
+- avaliação diagnóstica 1 ano para imprimir
+- avaliação diagnóstica 1o ano matemática
+- avaliação diagnóstica alfabetização pdf
+- avaliação diagnóstica bahia 2021
+- avaliação diagnóstica colorretal
+- avaliação diagnóstica de língua portuguesa
+- avaliação diagnóstica formativa
+- avaliação diagnóstica geografia 1o ano ensino médio
+- avaliação diagnóstica história 7 ano
+- avaliação diagnóstica infantil
+- avaliação diagnóstica jussara hoffmann
+- avaliação diagnóstica lingua portuguesa 2 ano fundamental
+- avaliação diagnóstica matemática 1 ano fundamental
+- avaliação diagnóstica na escola
+- avaliação diagnóstica ocorre quando
+- avaliação diagnóstica para 1 ano do ensino fundamental
+- avaliação diagnóstica professor warles 3o ano
+- avaliação diagnóstica quinto ano
+- avaliação diagnóstica rs
+- avaliação diagnóstica saeb 2026
+- avaliação diagnóstica tem como principal objetivo
+- avaliação diagnóstica unip
+- avaliação diagnóstica volta as aulas
+- kit sondagem
+- prova 3o ano fundamental
+- raio x sondagem
+- simulado 2o ano português
+- sondagem alfabetização
+- sondagem bh
+- sondagem campo semântico
+- sondagem das vias lacrimais
+- sondagem de escrita 2 ano
+- sondagem em ingles
+- sondagem fgv
+- sondagem geofísica
+- sondagem hipótese de alfabetização
+- sondagem industrial
+- sondagem joinville
+- sondagem linear
+- sondagem matemática 2 ano
+- sondagem nasogástrica e nasoenteral
+- sondagem odontologia
+- sondagem percussão
+- sondagem quinto ano
+- sondagem rotativa em rocha
+- sondagem solo
+- sondagem trado
+- sondagem uretral em gatos
+- sondagem vesical de alivio
+- sondagem whatsapp
+- avaliação de matemática 1o ano 2o bimestre
+- avaliação diagnóstica 3 ano para imprimir
+- avaliação diagnóstica avaliação formativa e avaliação somativa
+- avaliação diagnóstica biologia 2o ano ensino médio
+- avaliação diagnóstica caed pernambuco
+- avaliação diagnóstica de matemática
+- avaliação diagnóstica exemplo
+- avaliação diagnóstica formativa e somativa pdf
+- avaliação diagnostica geografia 5 ano
+- avaliação diagnostica historia 1 ano ensino medio
+- avaliação diagnóstica inicial síndrome coronariana crônica
+- avaliação diagnóstica língua portuguesa
+- avaliação diagnóstica maternal 2
+- avaliação diagnostica niveis de escrita
+- avaliação diagnóstica ou sondagem
+- avaliação diagnóstica quimica 1 ano
+- avaliação diagnóstica redação ensino médio
+- avaliação diagnóstica significado
+- avaliação diagnóstica terceiro ano
+- avaliação diagnóstica unibta
+- avaliação diagnóstica vale
+- como fazer sondagem whatsapp
+- kit sondagem vesical de demora
+- profundidade de sondagem x margem gengival
+- prova 3o ano português
+- simulado 2o ano fundamental
+- sondagem a percussão spt
+- sondagem blumenau
+- sondagem canal lacrimal
+- sondagem de escrita 3 ano
+- sondagem de solo preço
+- sondagem escrita
+- sondagem femea
+- sondagem geológica
+- sondagem hulk
+- sondagem industrial cni
+- sondagem joao pessoa
+- sondagem leitura e escrita 1 ano
+- sondagem mista rotativa
+- sondagem nasogastrica em equinos
+- sondagem ou soldagem
+- sondagem pedagógica
+- sondagem quadrática
+- sondagem rc
+- sondagem sinonimo
+- sondagem tipos
+- sondagem uretral em caes
+- sondagem vesical masculina
+- avaliação de matemática 1o ano adição e subtração
+- avaliação diagnóstica 2 ano para imprimir
+- avaliação diagnóstica aee
+- avaliação diagnostica biologia 3 ano ensino medio
+- avaliação diagnóstica como fazer
+- avaliação diagnóstica de história 5 ano com gabarito
+- avaliação diagnóstica formativa ou somativa
+- avaliação diagnóstica geografia 8 ano pdf
+- avaliação diagnóstica história ensino médio
+- avaliação diagnóstica infantil 5 anos
+- avaliação diagnostica lingua portuguesa 6 ano
+- avaliação diagnóstica matemática 9o ano com gabarito
+- avaliação diagnóstica na alfabetização
+- avaliação diagnostica para o 5 ano do ensino fundamental
+- avaliação diagnóstica pré escolar 5 anos
+- avaliação diagnóstica questionário 1
+- avaliação diagnóstica recomposição da aprendizagem
+- avaliação diagnóstica see mg 2026 pdf
+- avaliação diagnóstica terceiro ano fundamental
+- avaliação diagnóstica vogais
+- goma xantana sondagem
+- kit sondagem vesical preço
+- prova avaliação diagnóstica unip
+- simulado 2o ano tudo sala de aula
+- sondagem a trado manual
+- sondagem big brother all stars
+- sondagem canal lacrimal bebê
+- sondagem de alivio
+- sondagem de escrita emilia ferreiro
+- sondagem educação infantil pdf
+- sondagem frutas
+- sondagem gengival
+- sondagem hollow stem auger
+- sondagem infantil
+- sondagem juiz de fora
+- sondagem lingua portuguesa
+- sondagem matemática 4 ano
+- sondagem nasoenteral passo a passo
+- sondagem obra
+- sondagem primeiro ano fundamental
+- sondagem quantos furos
+- sondagem rotopercussiva
+- sondagem spt preço
+- sondagem terreno preço
+- sondagem uretral masculina
+- sondagem vesical de demora masculina
+- sondagem whatsapp android
+- avaliação de matemática 1o ano tudo sala de aula
+- avaliação diagnóstica alfabetização 1 ano
+- avaliação diagnóstica berçário
+- avaliação diagnostica ciencias 6 ano
+- avaliação diagnóstica de matemática 3o ano
+- avaliação diagnóstica é uma prova
+- avaliação diagnóstica formativa e processual
+- avaliação diagnostica geografia 7 ano
+- avaliação diagnostica hipotese de escrita
+- avaliação diagnóstica infantil 4
+- avaliação diagnostica lingua portuguesa 5 ano
+- avaliação diagnóstica matemática 3o ano
+- avaliação diagnóstica nono ano
+- avaliação diagnóstica para eja fundamental
+- avaliação diagnóstica para o 2o ano
+- avaliação diagnóstica quinto ano matemática
+- avaliação diagnóstica resumo
+- avaliação diagnóstica seduc 2026
+- avaliação diagnóstica tea
+- avaliação diagnóstica vark
+- kit sondagem vesical kolplast
+- simulado 2o ano saeb
+- sondagem avaliação diagnóstica 3 ano português para imprimir
+- sondagem big brother
+- sondagem cni
+- sondagem de escrita 4 ano
+- sondagem de terreno
+- sondagem escrita 1 ano
+- sondagem furca
+- sondagem gastrointestinal
+- sondagem hospitalar
+- sondagem infantil 5
+- sondagem jundiai
+- sondagem lingua portuguesa 4 ano
+- sondagem matemática 5 ano
+- sondagem nasoentérica
+- sondagem orogastrica em rn
+- sondagem psicológica
+- sondagem quadratica hash
+- sondagem rotativa diamantada
+- sondagem seguro x ventura
+- sondagem spt significado
+- sondagem tipo spt
+- sondagem urinaria
+- sondagem vesical feminina
+- willemita sondagem
+- avaliação de matemática 1o ano quarto bimestre
+- avaliação diagnóstica 2 ano português pdf
+- avaliação diagnóstica 4 ano português word
+- avaliação diagnóstica alfabetização eja
+- avaliação diagnóstica berçário 2
+- avaliação diagnostica ciencias 7 ano
+- avaliação diagnóstica de matemática 5 ano
+- avaliação diagnóstica e formativa
+- avaliação diagnóstica é utilizada para
+- avaliação diagnóstica formativa e somativa alinhada à bncc
+- avaliação diagnostica geografia 2 ano ensino medio
+- avaliação diagnóstica história 5 ano
+- avaliação diagnóstica infantil 3 anos
+- avaliação diagnóstica infantil v
+- avaliação diagnóstica lingua portuguesa 4 ano
+- avaliação diagnostica matematica 5 ano
+- avaliação diagnóstica no aee
+- avaliação diagnóstica pré 2 português
+- avaliação diagnostica quarto ano matematica
+- avaliação diagnóstica redação
+- avaliação diagnóstica see/mg 2026
+- avaliação diagnóstica tdah
+- kit sondagem vesical estéril descartável
+- simulado 2o ano língua portuguesa
+- sondagem alfabetização 1 ano
+- sondagem brasil
+- sondagem cbr
+- sondagem de escrita para o 5o ano
+- sondagem elétrica vertical
+- sondagem florianopolis
+- sondagem geoelétrica
+- sondagem hollow
+- sondagem indireta
+- sondagem jardim 1
+- sondagem ltda
+- sondagem mineral
+- sondagem na educação infantil
+- sondagem orogastrica em bovinos
+- sondagem pré 2
+- sondagem quem faz
+- sondagem rotativa em solo
+- sondagem spt como funciona
+- sondagem trado manual
+- sondagem uretral gata femea
+- sondagem vesical de demora passo a passo
+- wordwall sondagem
+- avaliação diagnóstica 1 ano português pdf
+- avaliação diagnóstica anos finais
+- avaliação diagnostica biologia
+- avaliação diagnostica ciencias 8 ano
+- avaliação diagnóstica de matemática 6 ao 9o ano com gabarito
+- avaliação diagnóstica educação infantil pdf
+- avaliação diagnóstica final
+- avaliação diagnostica geografia 9 ano
+- avaliação diagnóstica história 8 ano
+- avaliação diagnóstica inicial de saúde da mulher ginecologia i
+- avaliação diagnóstica língua portuguesa ensino médio com gabarito
+- avaliação diagnostica matematica 1 ano
+- avaliação diagnóstica na educação
+- avaliação diagnóstica para o 4o ano
+- avaliação diagnóstica pode valer nota
+- avaliação diagnóstica pré 1
+- avaliação diagnóstica quimica 2 ano
+- avaliação diagnóstica rs 2025
+- avaliação diagnóstica seduc
+- avaliação diagnóstica tudo sala de aula 2025
+- kit sondagem vesical de alívio
+- simulado 2o ano adonis
+- sondagem a trado mecanizado
+- sondagem big brother verão 2026
+- sondagem curitiba
+- sondagem de escrita para imprimir
+- sondagem diagnóstica
+- sondagem escolar
+- sondagem folclore
+- sondagem gato macho
+- sondagem historia 4 ano
+- sondagem infantil 4
+- sondagem jet probe
+- sondagem lingua portuguesa 2 ano
+- sondagem matemática
+- sondagem nasogastrica em gatos
+- sondagem oliveira
+- sondagem presidenciais brasil 2026
+- sondagem quem sai no domingo do big brother
+- sondagem rotativa norma
+- sondagem sp
+- sondagem terceiro ano fundamental
+- sondagem uretral femea
+- sondagem vesical de demora feminina
+- uma avaliação diagnóstica
+- wc sondagem
+- a avaliação diagnóstica representa um desafio para muitos professores
+- a avaliação diagnóstica visa
+- avaliação diagnóstica 5 ano português word
+- avaliação diagnóstica atividades de matemática 1 ano alfabetização
+- avaliação diagnóstica biologia ensino médio
+- avaliação diagnóstica caed 2025
+- avaliação diagnóstica de português para eja com gabarito
+- avaliação diagnóstica educação infantil 5 anos
+- avaliação diagnóstica fundamental 2
+- avaliação diagnostica grupo 5
+- avaliação diagnóstica história
+- avaliação diagnostica infantil 5
+- avaliação diagnostica lingua portuguesa 7 ano
+- avaliação diagnóstica matemática 2 ano fundamental
+- avaliação diagnóstica nova escola
+- avaliação diagnóstica para o 3o ano
+- avaliação diagnóstica pode ser realizada em qualquer momento do ano letivo
+- avaliação diagnóstica quarto ano português
+- avaliação diagnóstica seduc sp
+- avaliação diagnóstica tea adulto
+- kit sondagem de alivio
+- simulado 2o ano spaece
+- sondagem alfabetização pdf
+- sondagem brasil 2026
+- sondagem com trado
+- sondagem de escrita 2 ano fundamental
+- sondagem de solo spt
+- sondagem enfermagem
+- sondagem festa de aniversario
+- sondagem gastrica e vesical
+- sondagem hq
+- sondagem inicial 1 ano
+- sondagem junina
+- sondagem lingua portuguesa 1 ano
+- sondagem medicina
+- sondagem na escola
+- sondagem offshore
+- sondagem para 2 ano
+- sondagem quem sai no domingo do secret story
+- sondagem retal e lavagem intestinal
+- sondagem spt pdf
+- sondagem trado mecanizado
+- sondagem uretral feminina
+- sondagem vesical de alívio masculino
+- wfs sondagem ltda
+- a avaliação diagnóstica constitui um processo investigativo que visa
+- avaliação diagnóstica 4 ano português word com gabarito
+- avaliação diagnóstica curitiba
+- avaliação diagnóstica de ciências do 6 ao 9 ano
+- avaliação diagnóstica de rede
+- avaliação diagnóstica educação infantil 3 anos pdf
+- avaliação diagnóstica ensino médio língua portuguesa com gabarito
+- avaliação diagnóstica formativa e somativa educação física
+- avaliação diagnóstica geografia ensino médio
+- avaliação diagnóstica história 2 ano ensino médio
+- avaliação diagnostica inicial 1 ano
+- avaliação diagnóstica lingua portuguesa 8 ano
+- avaliação diagnostica matematica 4 ano
+- avaliação diagnóstica nono ano portugues
+- avaliação diagnóstica para alfabetização
+- avaliação diagnóstica para o 1 ano do ensino fundamental
+- avaliação diagnóstica qual o objetivo
+- avaliação diagnóstica seduc ce
+- avaliação diagnóstica tem nota
+- kit sondagem spt
+- sondagem ambiental
+- sondagem big brother hoje
+- sondagem circulação reversa
+- sondagem de escrita educação infantil
+- sondagem de leitura
+- sondagem esofagica em gatos
+- sondagem festa junina
+- sondagem gastrica passo a passo
+- sondagem hortolandia
+- sondagem infantil 3
+- sondagem joao monlevade
+- sondagem lingua portuguesa 5 ano
+- sondagem matematica 3 ano fundamental
+- sondagem oroenteral
+- sondagem portugues 1 ano
+- sondagem quem vai vencer o desafio final
+- sondagem rotativa mista
+- sondagem sonica
+- sondagem tema primavera
+- sondagem uberlandia
+- sondagem vias lacrimais
+- wdw sondagem
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| aula emergencial | shallow | 1 / 1 | 2 |
+| apostila 1º ano | shallow | 1 / 1 | 2 |
+| atividades para professor substituto | shallow | 1 / 1 | 1 |
+| professor eventual atividades | shallow | 1 / 1 | 1 |
+| plano de aula emergencial | shallow | 1 / 1 | 1 |
+| professor substituto | deep | 26 / 27 | 211 |
+| atividades prontas | deep | 23 / 27 | 101 |
+| professor eventual | deep | 21 / 27 | 138 |
+| atividades para aula vaga | shallow | 0 / 1 | 0 |
+| atividades prontas 1º ano | shallow | 0 / 1 | 0 |
+| atividades de revisão 2º ano | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): de 53 · para 33 · 2026 29 · 2025 18 · estado 17 · sp 17 · no 17 · ano 16 · tem 15 · guarulhos 15 · imprimir 14 · direito 11 · prefeitura 11 · recebe 11 · historia 10 · ensino 10 · pode 9 · fundamental 9 · matematica 8 · em 7 · quanto 7 · complementares 7 · filme 6 · do 6 · geografia 6 · educacao 6 · ganha 6 · ser 6 · quimica 6 · jacarei 6 · sorocaba 6 · inscricao 6 · maua 6 · alfabetizacao 6 · chris 5 · concurso 5 · mg 5 · decimo 5 · terceiro 5 · ifba 5
+
+**Phrases** (all 456, by how many lookups returned them)
+
+- professor eventual o que faz  ×4
+- atividades prontas para imprimir  ×3
+- professor eventual como funciona  ×3
+- professor eventual precisa ser formado  ×3
+- professor eventual recebe vale alimentação  ×3
+- professor substituto todo mundo odeia o chris  ×3
+- atividades prontas para imprimir educação infantil  ×3
+- atividades prontas para editar word  ×3
+- atividades prontas para imprimir para 5 anos  ×3
+- atividades prontas para imprimir alfabetização  ×3
+- atividades escolares prontas com br  ×3
+- atividades prontas de matemática para o 2o ano  ×3
+- professor eventual tem direito a ferias  ×3
+- atividades prontas de português  ×2
+- atividades prontas educação infantil  ×2
+- atividades prontas ensino religioso  ×2
+- atividades prontas no word para imprimir alfabetização  ×2
+- atividades prontas online  ×2
+- plano de aula emergencial  ×2
+- professor eventual do estado de são paulo  ×2
+- professor eventual hora aula  ×2
+- professor eventual jacareí 2026  ×2
+- professor eventual mauá 2026 inscrições  ×2
+- professor eventual santo andré 2026  ×2
+- professor eventual sp  ×2
+- professor substituto chris  ×2
+- professor substituto em ingles  ×2
+- professor substituto filme  ×2
+- professor substituto joao xxiii  ×2
+- professor substituto onde assistir  ×2
+- professor substituto univasf  ×2
+- atividades prontas com br  ×2
+- atividades prontas de geografia  ×2
+- atividades prontas ensino fundamental 1  ×2
+- atividades prontas letra b  ×2
+- atividades prontas no wordwall  ×2
+- professor eventual o que é  ×2
+- professor eventual prefeitura de guarulhos 2027  ×2
+- professor eventual recebe décimo terceiro  ×2
+- professor eventual sjc 2026  ×2
+- professor substituto filme 2018  ×2
+- professor substituto ufrpe  ×2
+- atividades prontas educação física  ×2
+- atividades prontas ensino médio  ×2
+- atividades prontas no word para imprimir  ×2
+- atividades prontas para alfabetização  ×2
+- professor eventual recebe ale  ×2
+- professor eventual recebe bonus  ×2
+- professor eventual tem direito a carteira nacional docente  ×2
+- professor substituto o que é  ×2
+- professor substituto pode orientar tcc  ×2
+- professor substituto ufal  ×2
+- atividades prontas de alfabetização para imprimir  ×2
+- atividades prontas de matematica para o 5o ano  ×2
+- atividades prontas ensino fundamental  ×2
+- professor eventual categoria v  ×2
+- professor eventual recebe ferias  ×2
+- professor eventual recebe vale transporte  ×2
+- professor substituto pode ser orientador de tcc  ×2
+- professor eventual categoria o  ×2
+- professor eventual tem fgts  ×2
+- professor substituto pode virar efetivo  ×2
+- professor eventual prefeitura de guarulhos 2026  ×2
+- atividades prontas de ingles para ensino fundamental  ×2
+- atividades prontas para imprimir de matematica 4o ano  ×2
+- professor eventual desconta inss  ×2
+- professor eventual prefeitura de são paulo  ×2
+- professor eventual see mg  ×2
+- atividades prontas para alunos especiais  ×2
+- professor substituto bom jesus da lapa  ×2
+- professor eventual prefeitura de guarulhos 2025  ×2
+- professor eventual é registrado  ×2
+- apostila 1o ano
+- atividades para professor substituto
+- atividades professor eventual
+- atividades prontas
+- atividades prontas alfabetização
+- atividades prontas biologia
+- atividades prontas com
+- atividades prontas de filosofia
+- atividades prontas de quimica
+- atividades prontas geografia
+- atividades prontas história
+- atividades prontas lingua portuguesa
+- atividades prontas matematica
+- atividades prontas para imprimir jardim 1
+- atividades prontas para tdah
+- atividades prontas sobre
+- atividades prontas vogais
+- atividades unicesumar prontas
+- aula emergencial
+- professor eventual
+- professor eventual barueri
+- professor eventual estado sp
+- professor eventual fieb
+- professor eventual guarulhos 2027
+- professor eventual itaquaquecetuba
+- professor eventual leste 4
+- professor eventual no estado de sp
+- professor eventual quanto ganha
+- professor eventual tem decimo terceiro
+- professor eventual vagas
+- professor substituto
+- professor substituto arquitetura
+- professor substituto biologia
+- professor substituto do chris
+- professor substituto geografia
+- professor substituto história
+- professor substituto if
+- professor substituto jornalismo
+- professor substituto key and peele
+- professor substituto literatura
+- professor substituto matemática
+- professor substituto no colégio pedro ii
+- professor substituto pode ser efetivado
+- professor substituto química
+- professor substituto recebe decimo terceiro
+- professor substituto salario
+- professor substituto vagas
+- professor substituto zootecnia
+- um professor substituto youtube
+- apostila 1o ano alfabetização
+- atividades complementares unip prontas
+- atividades prontas artes
+- atividades prontas ciencias
+- atividades prontas de história 6o ano
+- atividades prontas de interpretação de texto
+- atividades prontas maternal
+- atividades prontas para o 5°ano
+- atividades prontas projeto de vida
+- atividades prontas site
+- holerite professor eventual sorocaba
+- khronos professor substituto
+- professor eventual catanduva
+- professor eventual de guarulhos
+- professor eventual em guarulhos
+- professor eventual guarulhos
+- professor eventual ibitinga
+- professor eventual jacarei
+- professor eventual leste 2
+- professor eventual maua
+- professor eventual na prefeitura de sp
+- professor eventual santo andré 2025
+- professor eventual são bernardo do campo
+- professor eventual taubaté 2026
+- professor eventual votorantim
+- professor substituto administração
+- professor substituto bahia
+- professor substituto concurso
+- professor substituto direito
+- professor substituto edital
+- professor substituto ganha quanto
+- professor substituto história 2026
+- professor substituto ifes
+- professor substituto joão pessoa
+- professor substituto letras
+- professor substituto mg
+- professor substituto netflix
+- professor substituto o filme
+- professor substituto pode ficar mais de 2 anos
+- professor substituto química 2026
+- professor substituto rs
+- professor substituto sociologia
+- professor substituto tem fgts
+- professor substituto veterinária
+- professor substituto zoologia
+- atividades complementares unip prontas pedagogia
+- atividades prontas autismo
+- atividades prontas de ensino religioso
+- atividades prontas de lingua portuguesa ensino medio
+- atividades prontas meio ambiente
+- atividades prontas no canva
+- atividades prontas para berçário
+- atividades prontas para o eja
+- atividades prontas sociologia
+- concurso professor substituto historia
+- holerite professor eventual
+- professor eventual carapicuiba
+- professor eventual do estado
+- professor eventual estado
+- professor eventual guarulhos 2026
+- professor eventual inscrição
+- professor eventual jacareí 2025
+- professor eventual leste 3
+- professor eventual mauá 2025 inscrições
+- professor eventual no estado
+- professor eventual osasco
+- professor eventual pode faltar
+- professor eventual prefeitura de sorocaba
+- professor eventual sorocaba
+- professor substituto antropologia
+- professor substituto biologia 2026
+- professor substituto ceará
+- professor substituto df 2026
+- professor substituto engenharia civil
+- professor substituto filme dublado
+- professor substituto goiania
+- professor substituto ifrn zona norte
+- professor substituto ifsp
+- professor substituto juiz de fora
+- professor substituto libras
+- professor substituto mecânica 2026
+- professor substituto nutrição
+- professor substituto quanto ganha
+- professor substituto recebe rescisão
+- professor substituto serviço social
+- professor substituto todo mundo odeia o chris ator
+- professor substituto vinculo empregaticio
+- atividades adaptadas prontas
+- atividades complementares prontas pdf
+- atividades complementares unip prontas administração
+- atividades prontas de português para o 6o ano
+- atividades prontas para baixar
+- edital professor substituto história
+- holerite professor eventual sp
+- legislação professor eventual sp
+- professor eventual direitos
+- professor eventual em sorocaba
+- professor eventual guarulhos 2025
+- professor eventual itapeva sp
+- professor eventual jundiai
+- professor eventual mogi das cruzes
+- professor eventual no sesi
+- professor eventual ou substituto
+- professor eventual presidente prudente
+- professor eventual santo andré
+- professor eventual suzano
+- professor eventual taubaté 2025
+- professor substituto administração 2026
+- professor substituto bh
+- professor substituto colegio pedro ii
+- professor substituto de todo mundo odeia o chris
+- professor substituto estado sp
+- professor substituto filme 1996
+- professor substituto geologia
+- professor substituto instituto federal
+- professor substituto lei
+- professor substituto musica
+- professor substituto nutrição 2026
+- professor substituto odontologia
+- professor substituto química 2025
+- professor substituto rj
+- professor substituto seduc
+- professor substituto tem direito a ferias
+- professor substituto uerj
+- professor substituto valparaiso
+- atividades complementares prontas pdf pedagogia
+- atividades de extensão unicesumar prontas
+- atividades prontas 3 ano fundamental
+- atividades prontas 5 ano
+- atividades prontas de projeto de vida
+- atividades prontas eja
+- atividades prontas para imprimir pdf
+- como encontrar atividades prontas no canva
+- inscrição professor eventual jacarei
+- professor eventual da prefeitura de guarulhos
+- professor eventual em barueri
+- professor eventual ganha quanto
+- professor eventual itapetininga
+- professor eventual municipal
+- professor eventual no estado de sp quanto ganha
+- professor eventual presidente prudente 2026
+- professor eventual recebe 13
+- professor eventual sesi 2026
+- professor eventual taubaté
+- professor substituto agronomia
+- professor substituto bauru
+- professor substituto cefet mg
+- professor substituto df
+- professor substituto enfermagem
+- professor substituto filme onde assistir
+- professor substituto gastronomia
+- professor substituto ifba jequie
+- professor substituto ifba vitoria da conquista
+- professor substituto ifmt
+- professor substituto letras 2026
+- professor substituto manaus
+- professor substituto não pode fazer concurso
+- professor substituto quadrix
+- professor substituto relações internacionais
+- professor substituto sesi
+- professor substituto tem direito a licenca maternidade
+- professor substituto ufrj historia
+- professor substituto universidade federal
+- um professor substituto online
+- www atividades prontas com
+- atividades complementares prontas
+- atividades de extensão uniasselvi prontas
+- atividades prontas de arte
+- atividades prontas para ensino fundamental 2
+- como ser professor eventual no estado de sp
+- inscrição professor eventual guarulhos 2025
+- legislação professor substituto
+- professor eventual caçapava
+- professor eventual diadema
+- professor eventual estado sp 2026
+- professor eventual itapecerica da serra
+- professor eventual mg
+- professor eventual sao jose dos campos
+- professor eventual sorocaba 2026
+- professor eventual taubaté 2025 inscrição
+- professor eventual tem direito a décimo terceiro
+- professor eventual tem vinculo empregaticio
+- professor substituto agronomia 2026
+- professor substituto barueri
+- professor substituto cp2
+- professor substituto de fortaleza 2025
+- professor substituto economia
+- professor substituto física
+- professor substituto goias
+- professor substituto ifba jacobina
+- professor substituto ifce
+- professor substituto ifes vitoria
+- professor substituto moda
+- professor substituto nei ufrn
+- professor substituto pode ficar quanto tempo
+- professor substituto recebe ferias
+- professor substituto sp
+- professor substituto tem hifen
+- professor substituto temporário - edital no 36/2025
+- professor substituto ufal 2026
+- atividades complementares prontas administração
+- atividades prontas 1 ano
+- atividades prontas 1 ano fundamental
+- atividades prontas de matematica para 7o ano
+- atividades prontas de português para o 4o ano
+- cadastro professor eventual jacarei
+- inscrição para professor eventual no estado de são paulo
+- professor eventual cadastro
+- professor eventual estado sp 2025
+- professor eventual mauá 2026
+- professor eventual paga inss
+- professor eventual tem direito a vale alimentação
+- professor substituto 20 horas
+- professor substituto artes
+- professor substituto brasilia
+- professor substituto cpii
+- professor substituto df 2025
+- professor substituto engenharia quimica
+- professor substituto estado
+- professor substituto filosofia
+- professor substituto geografia 2026
+- professor substituto ifba valença
+- professor substituto iffar julio de castilhos
+- professor substituto ifsc
+- professor substituto limeira
+- professor substituto microbiologia
+- professor substituto no estado
+- professor substituto pedro ii
+- professor substituto recebe fgts
+- professor substituto sedf
+- professor substituto tem direito a carteira nacional docente
+- professor substituto ufrn
+- resultado professor eventual guarulhos 2025
+- vaga professor eventual sp
+- atividades prontas de educação fisica para ensino fundamental
+- atividades prontas de inglês
+- atividades prontas de matemática
+- atividades prontas de matemática 1 ano
+- atividades prontas em ingles
+- atividades prontas para o dia das crianças
+- cadastro professor eventual itapeva sp
+- cap uerj professor substituto história
+- como ser professor eventual no estado
+- concurso professor substituto quimica
+- inscrição professor eventual guarulhos 2026
+- o professor substituto netflix
+- professor eventual campinas
+- professor eventual em jacarei
+- professor eventual pindamonhangaba
+- professor eventual ribeirão preto
+- professor eventual sesi
+- professor substituto alimentos
+- professor substituto bioquimica
+- professor substituto cefet
+- professor substituto de fortaleza
+- professor substituto estado mg
+- professor substituto fortaleza
+- professor substituto ganha decimo terceiro
+- professor substituto ifpe
+- professor substituto letras ufrj
+- professor substituto medicina veterinaria
+- professor substituto nome
+- professor substituto prefeitura de florianopolis
+- professor substituto rural
+- professor substituto seduc pi
+- professor substituto tem direito a seguro desemprego
+- professor substituto unb
+- vunesp professor eventual
+- atividades escolares prontas
+- atividades prontas 2 ano fundamental
+- atividades prontas 3 ano
+- atividades prontas para comprar
+- atividades prontas para imprimir eja
+- atividades prontas para imprimir maternal 1
+- concurso professor substituto jornalismo
+- função do professor eventual na escola
+- inscrições professor eventual guarulhos
+- processo seletivo professor substituto história
+- professor de apoio eventual
+- professor eventual caraguatatuba
+- professor eventual em taubaté
+- professor eventual prefeitura de mauá
+- professor eventual ribeirão pires
+- professor eventual tem direito a vale transporte
+- professor substituto arquitetura e urbanismo
+- professor substituto biblioteconomia
+- professor substituto cap uerj
+- professor substituto de geografia
+- professor substituto educação física
+- professor substituto faetec
+- professor substituto fica quanto tempo
+- professor substituto gastronomia ifrj
+- professor substituto ifba
+- professor substituto ifro vilhena
+- professor substituto letras uerj
+- professor substituto maracanaú
+- professor substituto natal
+- professor substituto pedro ii 2026
+- professor substituto rj 2026
+- professor substituto serie
+- professor substituto temporário edital no 36 2025 convocação
+- professor substituto unifei
+- vagas professor eventual prefeitura sp
+- atividades prontas 4 ano
+- atividades prontas de ciencias ensino fundamental
+- atividades prontas de educação financeira
+- atividades prontas de história
+- atividades prontas para imprimir maternal 2
+- atividades prontas para imprimir pré escola
+- como ser professor eventual na prefeitura
+- convocação de professor eventual mauá
+- o professor substituto 2
+- portal professor eventual guarulhos
+- professor eventual catanduva sp
+- professor eventual presidente prudente 2025
+- professor eventual sorocaba 2025
+- professor substituto anime
+- professor substituto artes visuais
+- professor substituto cefet rj
+- professor substituto do estado
+- professor substituto engenharia civil 2026
+- professor substituto fortaleza 2026
+- professor substituto geografia 2025
+- professor substituto ifma
+- professor substituto licença maternidade
+- professor substituto meio ambiente
+- professor substituto no lattes
+- professor substituto o que faz
+- professor substituto pode ter carteira nacional docente
+- professor substituto rn
+- professor substituto sedf 2026
+- professor substituto tem direito a hora atividade
+- professor substituto temporário
+- professor substituto uepb
+- professor substituto ufsc joinville
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| livrinho de leitura | shallow | 1 / 1 | 10 |
+| textos curtos alfabetização | shallow | 1 / 1 | 10 |
+| textos com sílabas simples | shallow | 1 / 1 | 10 |
+| leitura para alfabetização | shallow | 1 / 1 | 10 |
+| mini livro para imprimir | shallow | 1 / 1 | 10 |
+| caderno de leitura | shallow | 1 / 1 | 10 |
+| leitura de sílabas | shallow | 1 / 1 | 10 |
+| livros decodificáveis | shallow | 1 / 1 | 9 |
+| livrinho dobrável | shallow | 1 / 1 | 4 |
+| textos pequenos 1º ano | shallow | 1 / 1 | 1 |
+| fichas de leitura | deep | 26 / 27 | 187 |
+| textos para alfabetização | deep | 20 / 27 | 106 |
+| livrinhos para imprimir | deep | 15 / 27 | 37 |
+| leitura 1º ano | deep | 3 / 27 | 3 |
+
+**Words people add** (how many distinct phrases carry the word): para 62 · letra 46 · imprimir 44 · pdf 42 · ano 41 · com 40 · pequenos 30 · de 29 · simples 23 · colorir 17 · gratis 17 · silabas 16 · leitura 15 · alfabetizacao 14 · cursiva 14 · interpretacao 13 · em 12 · infantil 11 · textos 10 · complexas 9 · frases 7 · palavras 7 · trabalhar 6 · na 6 · letramento 5 · mini 4 · adultos 4 · eja 4 · wordwall 4 · bobbie 3 · goods 3 · bastao 3 · curtos 3 · tudo 3 · sala 3 · aula 3 · nh 3 · rr 3 · alfabeto 3 · do 3
+
+**Phrases** (all 414, by how many lookups returned them)
+
+- livrinhos para colorir e imprimir grátis stitch  ×4
+- mini livrinhos para colorir e imprimir  ×4
+- livrinhos para colorir e imprimir grátis bobbie goods  ×4
+- livrinhos para colorir e imprimir grátis patrulha canina  ×4
+- textos para alfabetização de adultos  ×3
+- textos para alfabetização de jovens e adultos  ×3
+- textos para alfabetização e letramento  ×3
+- textos para alfabetização tudo sala de aula  ×3
+- livrinhos para colorir e imprimir grátis pdf  ×3
+- livrinhos para imprimir e colorir grátis  ×3
+- fichas de leitura pdf grátis  ×3
+- fichas de leitura para imprimir pdf  ×3
+- livrinhos para colorir e imprimir pdf  ×3
+- a revolta dos livrinhos para imprimir  ×2
+- fichas de leitura para imprimir  ×2
+- fichas de leitura sílabas simples pdf grátis  ×2
+- leitura 1o ano alfabetização  ×2
+- leitura 1o ano fundamental  ×2
+- livrinhos biblicos para imprimir  ×2
+- livrinhos de atividades para imprimir  ×2
+- livrinhos de historinhas para imprimir  ×2
+- livrinhos de leitura para imprimir  ×2
+- livrinhos de oração para imprimir  ×2
+- livrinhos infantis para imprimir  ×2
+- livrinhos para imprimir e colorir  ×2
+- livrinhos para imprimir pdf  ×2
+- mini livrinhos para imprimir  ×2
+- textos para alfabetização letra b  ×2
+- textos para alfabetização para imprimir  ×2
+- fichas de leitura para alfabetização  ×2
+- livrinhos bobbie goods para imprimir  ×2
+- livrinhos de cordel para imprimir  ×2
+- livrinhos de história infantil para imprimir  ×2
+- livrinhos pequenos para imprimir  ×2
+- textos para alfabetização 1 ano  ×2
+- textos para alfabetização com silabas complexas  ×2
+- textos para alfabetização e letramento pdf  ×2
+- textos para alfabetização pdf  ×2
+- fichas de leitura prontas para imprimir  ×2
+- imagens de livrinhos para imprimir  ×2
+- modelos de livrinhos para imprimir  ×2
+- textos curtos para alfabetização e letramento  ×2
+- textos para alfabetização com a letra f  ×2
+- textos para alfabetização com a letra m  ×2
+- textos para trabalhar alfabetização e letramento  ×2
+- fichas de leitura an en in on un  ×2
+- textos curtos para alfabetização e letramento pdf  ×2
+- textos para alfabetização 2 ano  ×2
+- textos para alfabetização com a letra b  ×2
+- textos para alfabetização de idosos  ×2
+- textos para alfabetização educação infantil  ×2
+- textos para leitura alfabetização pdf  ×2
+- fichas de leitura as es is os us  ×2
+- fichas de leitura letra b  ×2
+- fichas de leitura para alfabetização em pdf  ×2
+- livrinhos de pintura para imprimir  ×2
+- o que são fichas de leitura em uma pesquisa científica  ×2
+- textos curtos para alfabetização pdf  ×2
+- textos para alfabetização 3 ano  ×2
+- fichas de leitura ar er ir or ur  ×2
+- fichas de leitura com encontros vocálicos para imprimir  ×2
+- fichas de leitura letra g  ×2
+- fichas de leitura letra n  ×2
+- fichas de leitura para maleta viajante  ×2
+- textos para alfabetização 4 ano  ×2
+- textos simples para alfabetização pdf  ×2
+- fichas de leitura am em im om um  ×2
+- textos para alfabetização 1 ano pdf  ×2
+- livrinhos educativos para imprimir  ×2
+- fichas de leitura textos grandes  ×2
+- caderno de leitura
+- fichas de leitura
+- fichas de leitura alfabetização
+- fichas de leitura bra bre bri bro bru
+- fichas de leitura com pequenos textos pdf
+- fichas de leitura de palavras simples
+- fichas de leitura educação infantil
+- fichas de leitura frases
+- fichas de leitura gratis
+- fichas de leitura h
+- fichas de leitura interativa
+- fichas de leitura j
+- fichas de leitura letra cursiva pdf grátis
+- fichas de leitura letra k
+- fichas de leitura letra x
+- fichas de leitura letra z
+- fichas de leitura método fônico
+- fichas de leitura nh
+- fichas de leitura onomatopeias
+- fichas de leitura quarto ano
+- fichas de leitura r
+- fichas de leitura textos
+- fichas de leitura uma aventura
+- fichas de leitura vogais
+- fichas de leitura wordwall
+- leitura 1o ano
+- leitura de sílabas
+- leitura para alfabetização
+- livrinho de leitura
+- livrinho dobrável
+- livrinhos de colorir para imprimir
+- livrinhos para colorir e imprimir grátis
+- livrinhos para colorir imprimir
+- livrinhos para imprimir
+- livros decodificáveis
+- mini livro para imprimir
+- mini textos para alfabetização
+- pequenos textos de alfabetização para o 2 ano
+- pequenos textos para alfabetização com a letra q
+- pequenos textos para alfabetização com a letra v
+- textos com sílabas simples para imprimir
+- textos curtos alfabetização
+- textos faceis para alfabetização
+- textos interativos para alfabetização grátis
+- textos para a alfabetização
+- textos para alfabetização
+- textos para alfabetização com interpretação
+- textos para alfabetização infantil
+- textos para alfabetização letra cursiva
+- textos para alfabetização silabas simples
+- textos para leitura na alfabetização
+- textos pequenos 1o ano
+- textos repetitivos para alfabetização
+- caderno de leitura para imprimir
+- fichas de leitura alfabetização pdf
+- fichas de leitura ba be bi bo bu
+- fichas de leitura com frases para imprimir pdf
+- fichas de leitura com x
+- fichas de leitura com z
+- fichas de leitura de frases para imprimir
+- fichas de leitura e escrita
+- fichas de leitura fluencia leitora
+- fichas de leitura gratis para imprimir
+- fichas de leitura interativa para imprimir
+- fichas de leitura jardim 2
+- fichas de leitura letra cursiva pdf
+- fichas de leitura letra h
+- fichas de leitura letra w
+- fichas de leitura m
+- fichas de leitura na letra cursiva
+- fichas de leitura objetivo
+- fichas de leitura quinto ano
+- fichas de leitura repetida
+- fichas de leitura silabas simples
+- fichas de leitura textos para imprimir
+- fichas de leitura universidade
+- fichas de leitura via carreira
+- kit fichas de leitura
+- leitura de sílabas simples
+- leitura para alfabetização 1 ano
+- livrinho de leitura para imprimir
+- livrinho dobrável para imprimir
+- livrinhos de alfabetização para imprimir
+- livrinhos interativos para imprimir
+- livros decodificáveis pdf grátis
+- melhores textos para alfabetização
+- mini livro para imprimir e colorir
+- pequenos textos para alfabetização com a letra j
+- pequenos textos para alfabetização letra b
+- textos com rimas para alfabetização
+- textos com sílabas simples para leitura
+- textos curtos alfabetização interpretação
+- textos fonologicos para alfabetização
+- textos grandes para alfabetização
+- textos para imprimir alfabetização
+- textos para o 1 ano alfabetização
+- textos para trabalhar alfabetização
+- textos para trabalhar na alfabetização
+- caderno de leitura para imprimir pdf
+- fichas de leitura alfabetização para imprimir
+- fichas de leitura b
+- fichas de leitura com pequenos textos para imprimir
+- fichas de leitura de frases
+- fichas de leitura em piramide
+- fichas de leitura frases simples
+- fichas de leitura generos textuais
+- fichas de leitura infantil
+- fichas de leitura letra cursiva para imprimir
+- fichas de leitura letra j
+- fichas de leitura letra u
+- fichas de leitura modelos
+- fichas de leitura n
+- fichas de leitura online
+- fichas de leitura que
+- fichas de leitura rr
+- fichas de leitura silabas complexas
+- fichas de leitura tudo sala de aula
+- fichas de leitura v
+- leitura de sílabas complexas
+- leitura para alfabetização pdf
+- livrinho de leitura para alfabetização
+- livrinho dobravel para colorir
+- livrinhos prontos para imprimir
+- livros decodificáveis para alfabetização
+- mini livro para imprimir pdf
+- pequenos textos para alfabetização com a letra g
+- pequenos textos para alfabetização com letra bastão
+- textos com rr para alfabetização
+- textos com sílabas simples 1 ano
+- textos para ajudar na alfabetização
+- textos para alfabetização com letra cursiva
+- textos para alfabetização de crianças
+- textos para alfabetização e interpretação
+- textos para alfabetização leitura
+- textos para alfabetização pinterest
+- textos para interpretação alfabetização
+- caderno de leitura pdf
+- fichas de leitura alfabeto
+- fichas de leitura bel cardozo
+- fichas de leitura com sílabas simples
+- fichas de leitura de palavras
+- fichas de leitura e interpretação
+- fichas de leitura encontros vocalicos
+- fichas de leitura familia silabica para imprimir
+- fichas de leitura grafismo fonetico
+- fichas de leitura imprimir
+- fichas de leitura letra cursiva
+- fichas de leitura letra q
+- fichas de leitura mistura da alegria
+- fichas de leitura natal
+- fichas de leitura para o 1o ano
+- fichas de leitura re rr
+- fichas de leitura simples
+- fichas de leitura textos simples
+- leitura de sílabas e palavras
+- leitura para alfabetização para imprimir
+- livrinho de colorir dobrável
+- livrinho de leitura infantil
+- livrinhos para colorir para imprimir
+- livros decodificáveis grátis
+- mini livro para imprimir e montar
+- molde de livrinhos para imprimir
+- pequenos textos para alfabetização silabas simples
+- pequenos textos para alfabetização tudo sala de aula
+- textos com nh para alfabetização
+- textos com sílabas simples e interpretação 1 ano
+- textos de memória para alfabetização
+- textos foneticos para alfabetização
+- textos para alfabetização letra c
+- textos para iniciar alfabetização
+- textos pequenos para alfabetização 1 ano letra b
+- caderno de leitura pdf grátis
+- fichas de leitura alfabeto para imprimir
+- fichas de leitura br
+- fichas de leitura ch nh lh
+- fichas de leitura com sílabas complexas
+- fichas de leitura do folclore
+- fichas de leitura em pdf
+- fichas de leitura folclore
+- fichas de leitura grande
+- fichas de leitura iniciante
+- fichas de leitura letra m
+- fichas de leitura letra v
+- fichas de leitura para o 2o ano
+- fichas de leitura resumo
+- fichas de leitura sílabas simples para imprimir
+- fichas de leitura textos pdf
+- frases e textos para alfabetização
+- leitura de sílabas para imprimir
+- leitura para alfabetização 2 ano
+- livrinho de leitura para bebe
+- livros decodificáveis série 1 pdf
+- mini livro para imprimir bobbie goods
+- mini textos para leitura alfabetização
+- pequenos textos para alfabetização de adultos
+- pequenos textos para leitura na alfabetização
+- pequenos textos para trabalhar alfabetização
+- textos com sílabas simples e interpretação 2 ano
+- textos curtos para alfabetização 2 ano
+- textos para alfabetização curtos
+- textos para alfabetização eja
+- textos para interpretar alfabetização
+- textos silabicos para alfabetização
+- caderno de leitura alfabetização
+- capa de livrinhos para imprimir
+- fichas de leitura biblioteca
+- fichas de leitura de livros
+- fichas de leitura em pdf para imprimir
+- fichas de leitura fluencia leitora para imprimir
+- fichas de leitura g
+- fichas de leitura inicial
+- fichas de leitura letra r
+- fichas de leitura para o 3o ano
+- fichas de leitura sílabas complexas para imprimir
+- fichas de leitura textos curtos
+- leitura de sílabas wordwall
+- leitura para alfabetização 3 ano
+- livrinho de leitura pdf
+- livros decodificáveis pdf
+- mini livro infantil para imprimir e colorir
+- mistura de alegria textos para alfabetização
+- pequenos textos fatiados para alfabetização
+- pequenos textos para alfabetização com sílabas simples com interpretação
+- pequenos textos para trabalhar na alfabetização
+- quais são fichas de leitura
+- textos com sílabas simples
+- textos curtos para alfabetização com interpretação
+- textos curtos para alfabetização de adultos
+- textos para alfabetização em pdf
+- textos para leitura alfabetização 1o ano
+- textos para treinar leitura alfabetização
+- caderno de leitura 1 ano
+- coletânea de textos para alfabetização pdf
+- fichas com pequenos textos para alfabetização
+- fichas de leitura bastao
+- fichas de leitura com palavras simples
+- fichas de leitura com rimas
+- fichas de leitura de textos
+- fichas de leitura em letra cursiva
+- fichas de leitura frases para imprimir
+- fichas de leitura ilustrada para imprimir
+- fichas de leitura letra s
+- fichas de leitura para alfabetização vogais
+- fichas de leitura para o 5 ano
+- fichas de leitura prontas para imprimir pdf
+- fichas de leitura sílabas simples pdf
+- fichas de leitura textos pequenos
+- fichas de leitura toda materia
+- fichas de matemática leitura de números
+- leitura de sílabas simples wordwall
+- leitura para alfabetização 4 ano
+- livrinho de leitura 1 ano
+- livrinhos de papel para imprimir
+- livros decodificáveis para imprimir
+- mini livro infantil para imprimir
+- o'que são fichas de leitura
+- pequenos textos natalinos para alfabetização
+- pequenos textos para alfabetização infantil
+- textos com sílabas simples para alfabetização
+- textos curtos para alfabetização para imprimir
+- textos para leitura alfabetização eja
+- textos para leitura de alfabetização
+- tipos de textos para alfabetização
+- caderno de leitura alfabetização pdf
+- fichas de leitura 1 ano para imprimir
+- fichas de leitura al el il ol ul
+- fichas de leitura bolacha pedagogica
+- fichas de leitura com letra cursiva
+- fichas de leitura criar recriar ensinar
+- fichas de leitura de a a z
+- fichas de leitura e interpretação 3o ano
+- fichas de leitura fatiada
+- fichas de leitura infantil 5
+- fichas de leitura letra imprensa
+- fichas de leitura letra maiúscula
+- fichas de leitura para o 4 ano
+- fichas de leitura primeiro ano
+- fichas de leitura simples para imprimir
+- fichas de leitura trava lingua
+- fichas de matemática 3o ano leitura de números
+- leitura de sílabas e palavras simples
+- leitura para alfabetização 6 anos
+- livrinho de leitura diaria
+- livros decodificáveis para leitura
+- mini livro folclore para imprimir
+- pequenos textos para alfabetização com a letra f
+- pequenos textos para alfabetização com a letra n
+- textos com sílabas simples e interpretação
+- textos em tirinhas para alfabetização
+- textos para copiar alfabetização
+- textos para leitura alfabetização com letra cursiva
+- caderno de leitura 3 ano para imprimir
+- fichas de leitura cursiva
+- fichas de leitura de palavras para imprimir
+- fichas de leitura em caixa alta para imprimir
+- fichas de leitura fluente
+- fichas de leitura interpretação
+- fichas de leitura letra d
+- fichas de leitura letra minúscula
+- fichas de leitura palavras simples
+- fichas de leitura para o 3 ano
+- fichas de leitura para responder
+- fichas de leitura pdf grátis 5 ano
+- fichas de leitura sílabas complexas pdf
+- fichas de verificação de leitura memorial do convento
+- leitura de silabas complexas wordwall
+- leitura para alfabetização com silabas simples
+- livrinhos para colorir é imprimir grátis pdf
+- livros decodificáveis para alfabetização pdf
+- meu livrinho de leitura
+- mini livro stitch para imprimir
+- pequenos textos para alfabetização com sílabas simples
+- tarefas com textos para alfabetização
+- textos com silabas simples 2 ano
+- textos curtos para alfabetização 1 ano
+- textos para alfabetização com a letra c
+- textos para leitura alfabetização 5 ano
+- textos para leitura infantil alfabetização
+- caderno de leitura capa
+- fichas de leitura 2 ano para imprimir
+- fichas de leitura abacada
+- fichas de leitura com repetição
+- fichas de leitura cursiva para imprimir
+- fichas de leitura dificuldades ortograficas
+- fichas de leitura do alfabeto
+- fichas de leitura em cursiva
+- fichas de leitura famílias silábicas simples e complexas em pdf
+- fichas de leitura letra bastão
+- fichas de leitura pdf
+- fichas de leitura sílabas simples e complexas para imprimir
+- fichas de leitura terceiro ano
+- fichas de leitura turma da monica para imprimir
+- fichas de verificação de leitura dos maias com soluções
+- leitura de silabas 1 ano
+- leitura para alfabetização 7 anos
+- meu livrinho de leitura para imprimir
+- mini livro bluey para imprimir
+- pequenos textos alfabetização para imprimir
+- pequenos textos com sílabas simples
+- pequenos textos para alfabetização com interpretação 2 ano
+- pequenos textos para alfabetização eja
+- textos curtos para alfabetização com letra cursiva
+- textos para alfabetização 5 ano
+- textos para trabalhar com eja alfabetização

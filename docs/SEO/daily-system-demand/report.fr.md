@@ -1,0 +1,2317 @@
+# Daily Teaching System — search demand, market `fr`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 14 | 617 |
+| National curriculum | 11 | 11 | 516 |
+| Assessments and tests | 14 | 14 | 674 |
+| Substitute-teacher packs | 11 | 9 | 126 |
+| First readers and mini-books | 14 | 9 | 249 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| programmation maths cp | shallow | 1 / 1 | 10 |
+| progression maths ce1 | shallow | 1 / 1 | 10 |
+| séquence maternelle | shallow | 1 / 1 | 10 |
+| programmation maternelle | shallow | 1 / 1 | 10 |
+| emploi du temps cp | shallow | 1 / 1 | 10 |
+| séquence ce2 | shallow | 1 / 1 | 10 |
+| progression cp | shallow | 1 / 1 | 10 |
+| programmations ce2 | shallow | 1 / 1 | 9 |
+| séquence maths cp | shallow | 1 / 1 | 2 |
+| séquence français ce1 | shallow | 1 / 1 | 1 |
+| cahier journal | deep | 26 / 27 | 227 |
+| progression ce1 | deep | 23 / 27 | 110 |
+| programmation cp | deep | 21 / 27 | 137 |
+| séquence cp | deep | 16 / 27 | 65 |
+
+**Words people add** (how many distinct phrases carry the word): 2026 53 · ce1 44 · ce2 42 · 2025 41 · de 33 · rentree 25 · nouveaux 24 · programmes 24 · jour 20 · francais 17 · le 16 · qlm 15 · maths 14 · maternelle 14 · histoire 13 · gs 13 · enseignant 13 · la 12 · pdf 12 · en 12 · 2027 11 · cp 11 · vierge 11 · les 10 · sciences 10 · acces 10 · bout 10 · gomme 10 · cm1 10 · ms 10 · anglais 9 · monde 9 · vocabulaire 9 · niveau 9 · ps 9 · temps 8 · et 8 · geographie 8 · grammaire 8 · modifiable 8
+
+**Phrases** (all 617, by how many lookups returned them)
+
+- progression ce1 ce2 nouveaux programmes  ×5
+- progression ce1 ce2  ×4
+- progression ce1 nouveaux programmes  ×3
+- séquence cp alternance jour nuit  ×3
+- séquence cp les jours de la semaine  ×3
+- progression ce1 nouveaux programmes 2025  ×3
+- progression ce1 ce2 nouveaux programmes 2025  ×3
+- progression maths ce1 nouveaux programmes 2025  ×3
+- progression ce1 ce2 questionner le monde  ×3
+- progression ce1 ce2 orthographe  ×3
+- cahier journal double niveau  ×2
+- cahier journal enseignant  ×2
+- cahier journal lutin bazar  ×2
+- cahier journal maternelle  ×2
+- cahier journal prof des écoles  ×2
+- cahier journal vierge  ×2
+- programmation cp ce1 2026  ×2
+- programmation cp français  ×2
+- programmation cp histoire géographie 2026  ×2
+- programmation cp nouveaux programmes  ×2
+- progression ce1 chaque jour compte  ×2
+- progression ce1 maths  ×2
+- progression ce1 pdf  ×2
+- progression ce1 qlm  ×2
+- séquence cp ce1 se repérer dans l espace  ×2
+- séquence cp histoire  ×2
+- séquence cp jour nuit  ×2
+- séquence cp se repérer dans le temps  ×2
+- séquence cp vivant non vivant  ×2
+- cahier journal à imprimer  ×2
+- cahier journal double niveau modifiable  ×2
+- cahier journal en ligne  ×2
+- cahier journal maternelle modifiable  ×2
+- programmation cp ce1  ×2
+- programmation cp chaque jour compte  ×2
+- programmation cp histoire géographie  ×2
+- progression ce1 questionner le monde  ×2
+- progression maths ce1 bout de gomme  ×2
+- séquence cp ce1 vivant non vivant  ×2
+- séquence cp les manifestations naturelles du temps  ×2
+- cahier journal du remplaçant pdf  ×2
+- programmation cp ce1 2026 2027  ×2
+- programmation maths cp bout de gomme  ×2
+- progression ce1 nouveaux programmes 2026  ×2
+- progression français ce1 nouveaux programmes 2025  ×2
+- cahier journal du remplaçant  ×2
+- cahier journal triple niveau  ×2
+- cahier weekend journal de québec  ×2
+- programmation cp arts visuels  ×2
+- progression ce1 calcul mental  ×2
+- progression français ce1 nouveaux programmes  ×2
+- progression ce1 ce2 qlm  ×2
+- programmation maths cp chaque jour compte  ×2
+- progression ce1 ce2 vocabulaire  ×2
+- progression ce1 ce2 anglais  ×2
+- progression ce1 ce2 emc  ×2
+- cahier journal + xl
+- cahier journal automatisé
+- cahier journal brigade
+- cahier journal cp
+- cahier journal facile
+- cahier journal gs
+- cahier journal hebdomadaire
+- cahier journal intime
+- cahier journal jour de rentrée ce2
+- cahier journal numérique gratuit
+- cahier journal obligatoire
+- cahier journal que fait la maitresse
+- cahier journal remplaçant
+- cahier journal sobelle
+- cahier journal trame
+- cahier journal ulis
+- cahier journal word
+- cahier journal zil
+- emploi du temps cp
+- komentar cahier journal
+- programmation cp 2026
+- programmation cp anglais
+- programmation cp bout de gomme
+- programmation cp decouverte du monde
+- programmation cp emc
+- programmation cp géographie 2026
+- programmation cp jocatop
+- programmation cp kit et siam
+- programmation cp lecture piano
+- programmation cp maths
+- programmation cp outils pour les maths
+- programmation cp piano
+- programmation cp questionner le monde
+- programmation cp rentrée 2026
+- programmation cp sciences
+- programmation cp taoki
+- programmation cp vocabulaire
+- programmation maternelle 2026
+- programmation maths cp
+- programmations ce2
+- progression ce1
+- progression ce1 anglais
+- progression ce1 bout de gomme
+- progression ce1 decouverte du monde
+- progression ce1 eps
+- progression ce1 français
+- progression ce1 grammaire
+- progression ce1 histoire
+- progression ce1 lecture
+- progression ce1 orthographe
+- progression ce1 réussir son entrée en grammaire
+- progression ce1 sciences
+- progression ce1 vocabulaire
+- progression cp
+- progression informatique ce1
+- progression maths ce1
+- progression tandem ce1 ce2
+- séquence ce2
+- séquence cp eps
+- séquence cp mathématiques
+- séquence cp natation
+- séquence cp tracer à la règle
+- séquence cp unité et diversité du vivant
+- séquence danse cp
+- séquence français ce1
+- séquence intimité cp
+- séquence maternelle
+- séquence maths cp
+- séquence yoga cp
+- cahier journal
+- cahier journal bilingue
+- cahier journal cp ce1
+- cahier journal français primaire
+- cahier journal gs période 1
+- cahier journal hatier
+- cahier journal inspection
+- cahier journal jour de rentrée cp
+- cahier journal lutin bazar maternelle
+- cahier journal numérique
+- cahier journal obligatoire ou non
+- cahier journal petite section période 1
+- cahier journal quotidien
+- cahier journal rentrée petite section
+- cahier journal semaine
+- cahier journal type
+- cahier journal ulis ecole
+- cahier journal vierge à imprimer
+- cahier journal what is
+- cahier journal xxl
+- cahier journal zone b
+- emploi du temps cp ce1
+- moleskine plain cahier kraft journal
+- programmation bulle cp
+- programmation cp
+- programmation cp acces maths
+- programmation cp eps
+- programmation cp français 2026
+- programmation cp grammaire
+- programmation cp lecture
+- programmation cp musique
+- programmation cp nouveaux programmes 2026
+- programmation cp période 1
+- programmation cp questionner le monde 2026
+- programmation cp sciences et technologie
+- programmation cp taoki 2025
+- programmation cp vivre les maths 2025
+- programmation dumont cp
+- programmation kimamila cp
+- programmation maternelle 2026 2027
+- programmation maths cp 2026
+- programmation oral cp 2025
+- programmation ribambelle cp
+- programmations ce2 2026
+- progression ce1 arts visuels
+- progression ce1 cote d'ivoire
+- progression ce1 evar
+- progression ce1 français 2025
+- progression ce1 graphemo
+- progression ce1 le temps
+- progression ce1 maths acces
+- progression ce1 periode 1
+- progression cp nouveaux programmes
+- progression dictée ce1
+- progression histoire ce1 2026
+- progression maths ce1 ce2 nouveaux programmes
+- progression orthographe ce1 2025
+- progression rseeg ce1 2025
+- progression sons ce1
+- progression vocabulaire ce1 2025
+- séquence ce2 histoire
+- séquence cp alimentation
+- séquence cp emc
+- séquence cp masculin féminin
+- séquence dents cp
+- séquence journée cp
+- séquence maternelle moyenne section
+- séquence maths cp numération
+- séquence nom cp
+- séquence se repérer dans l'espace cp
+- séquence ultimate cp
+- séquence yoga cp ce1
+- cahier journal à remplir
+- cahier journal bleu
+- cahier journal cm2
+- cahier journal enseignant pdf
+- cahier journal français cem
+- cahier journal gratuit
+- cahier journal hachette
+- cahier journal ime
+- cahier journal jour de rentrée ce1
+- cahier journal lutin bazar elementaire
+- cahier journal ms gs
+- cahier journal numérique enseignant
+- cahier journal ou cahier de journal
+- cahier journal ps ms période 1
+- cahier journal quadruple niveau
+- cahier journal rentrée
+- cahier journal segpa
+- cahier journal tps
+- cahier journal ulis collège
+- cahier journal vierge modifiable
+- cahier weekend journal de montréal
+- cahier zeste journal de montréal menu à petit prix
+- emploi du temps cp 2026
+- moleskine subject cahier journal xl
+- programmation cp 2026 2027
+- programmation cp anglais 2026
+- programmation cp chaque jour compte 2025
+- programmation cp evar
+- programmation cp fil et lulu
+- programmation cp géographie
+- programmation cp histoire
+- programmation cp langage oral
+- programmation cp maths acces
+- programmation cp nouveaux programmes 2025
+- programmation cp pilotis
+- programmation cp qlm
+- programmation cp sciences 2026
+- programmation cp taoki 2026
+- programmation cp vocabulaire 2025
+- programmation de cp
+- programmation maternelle
+- programmation maths cp nouveaux programmes
+- programmation orthographe cp 2025
+- programmation robot cp
+- programmations ce2 cm1
+- progression anglais ce1 ce2
+- progression ce1 2026
+- progression ce1 géométrie
+- progression ce1 lutin bazar
+- progression ce1 pnapas
+- progression ce1 qlm 2026
+- progression cp 2026
+- progression dumont ce1
+- progression en ce1
+- progression français ce1 bout de gomme
+- progression orthographe ce1 ce2
+- progression rseeg ce1
+- progression sciences ce1 ce2
+- progression vocabulaire ce1 ce2
+- séquence ce2 géographie
+- séquence cp anglais
+- séquence cp corps humain
+- sequence cp espace
+- séquence cp le corps humain
+- séquence cp musique
+- séquence cp solide liquide
+- séquence danse cp ce1
+- séquence dizaine unité cp
+- séquence eps cp jeux collectifs
+- séquence how are you cp
+- séquence maternelle la couleur des émotions
+- séquence natation cp ce1
+- cahier journal amazon
+- cahier journal bureau vallée
+- cahier journal ce1
+- cahier journal en ligne gratuit
+- cahier journal enseignant mais que fait la maitresse
+- cahier journal français lycée
+- cahier journal gs cp
+- cahier journal hebdomadaire modifiable
+- cahier journal imprimable
+- cahier journal jour de rentrée
+- cahier journal lmeb
+- cahier journal maitresse
+- cahier journal numérique enseignant gratuit
+- cahier journal obligatoire inspection
+- cahier journal ps ms
+- cahier journal rentrée cp
+- cahier journal semaine maternelle
+- cahier journal upe2a
+- cahier journal vierge maternelle
+- emploi du temps cp ce1 2026
+- moleskine cahier journal excel
+- programmation cp ce1 histoire géographie
+- programmation cp eps 2026
+- programmation cp français 2025
+- programmation cp grammaire 2025
+- programmation cp histoire 2026
+- programmation cp le blog du chat noir
+- programmation cp le temps
+- programmation cp mhm
+- programmation cp néo
+- programmation cp pilotis 2026
+- programmation cp qlm 2026
+- programmation cp sciences et technologie 2026
+- programmation cp timini
+- programmation cp vivre les maths
+- programmation ddm cp ce1
+- programmation maternelle nouveaux programmes
+- programmation maths cp 2025
+- programmation maths cp jocatop
+- programmations ce2 cm1 2026
+- progression annuelle ce1
+- progression ce1 ce2 2026
+- progression ce1 numération
+- progression cp ce1
+- progression ddm ce1
+- progression graphisme ce1
+- progression lexique ce1
+- progression maths ce1 2026
+- progression maths en ce1
+- progression phonologie ce1 bout de gomme
+- progression qlm ce1 ce2
+- progression retz ce1 grammaire
+- progression sport ce1
+- séquence ce2 la préhistoire
+- séquence cp animal végétal minéral
+- séquence cp evar
+- séquence cp la journée
+- séquence dras cp
+- séquence evar cp ce1
+- séquence maternelle corps humain
+- séquence monnaie cp
+- séquence numération cp
+- séquence sommeil cp
+- cahier journal aesh
+- cahier journal bout de gomme
+- cahier journal c'est quoi
+- cahier journal ce1 ce2
+- cahier journal de rentrée
+- cahier journal exemple
+- cahier journal français
+- cahier journal gratuit en ligne
+- cahier journal harry potter
+- cahier journal interactif
+- cahier journal jour de rentrée cm1
+- cahier journal les maitresses en basket
+- cahier journal modifiable
+- cahier journal notion
+- cahier journal oxford
+- cahier journal primaire word
+- cahier journal prof des écoles à imprimer
+- cahier journal rentrée ms
+- cahier journal semaine vierge
+- cahier journal trs
+- cahier journal ulis tsa
+- cahier journal vierge remplaçant
+- emploi du temps cp 2026 2027
+- moleskine cahier journal xxl
+- programmation cp arts plastiques
+- programmation cp ce1 questionner le monde
+- programmation cp emc 2026
+- programmation cp géométrie
+- programmation cp histoire géographie sciences
+- programmation cp lutin bazar
+- programmation cp mhm 2025
+- programmation cp numération
+- programmation cp pilotis 2025
+- programmation cp questionner le monde 2025
+- programmation cp salto
+- programmation dictée cp piano
+- programmation maternelle nouveaux programmes 2026
+- programmation sami et julie cp
+- programmation taoki cp lutin bazar
+- programmation vocabulaire cp ce1
+- programmations ce2 2026 2027
+- progression acces ce1
+- progression ce1 nouveaux programmes 2025 2026
+- progression cp pdf
+- progression dictée ce1 ce2
+- progression graphemo ce1 ce2
+- progression littérature ce1
+- progression maths ce1 nouveaux programmes
+- progression orthographe ce1 bout de gomme
+- progression qlm ce1 2025
+- progression singapour ce1
+- séquence anglais cp ce1
+- séquence ce2 se repérer dans le temps
+- séquence cp
+- séquence cp le jour et la nuit
+- séquence dents cp ce1
+- séquence maternelle vivant non vivant
+- séquence narramus cp
+- séquence plan de classe cp
+- séquence sciences cp
+- cahier journal application
+- cahier journal bebe
+- cahier journal canva
+- cahier journal de la maitresse
+- cahier journal enseignant à imprimer
+- cahier journal français collège
+- cahier journal gs cp modifiable
+- cahier journal hebdomadaire maternelle
+- cahier journal ia
+- cahier journal jour de rentrée cp ce1
+- cahier journal larousse
+- cahier journal ms gs période 1
+- cahier journal numérique maternelle
+- cahier journal objectif
+- cahier journal ps
+- cahier journal rentrée cm2
+- cahier journal semainier
+- cahier journal tarl word
+- cahier journal triple niveau maternelle
+- cahier journal ulis rentrée
+- cahier journal vierge double niveau
+- dpfc progression primaire ce1
+- emploi du temps cp ce1 2026 2027
+- moleskine cahier journal xl dotted
+- programmation cp acces
+- programmation cp ce1 ce2
+- programmation cp emc 2025
+- programmation cp grandeurs et mesures
+- programmation cp lecture piano 2025
+- programmation cp maths acces 2025
+- programmation cp picbille
+- programmation cp qlm 2025
+- programmation cp singapour
+- programmation ddm cp 2026
+- programmation écriture cp lutin bazar
+- programmation histoire cp ce1
+- programmation maternelle nouveaux programmes 2025
+- programmation maths cp acces
+- programmation noums cp 2025
+- programmation vocabulaire cp 2026
+- programmations ce2 nouveaux programmes
+- progression acces ce1 2025
+- progression ce1 ce2 2026 2027
+- progression cp histoire géographie
+- progression dras ce1
+- progression grammaire ce1 2025
+- progression lecture ce1 ce2
+- progression maths ce1 ce2
+- progression qlm ce1 bout de gomme
+- progression qlm ce1 ce2 2025
+- progression sciences ce1 2026
+- séquence ce2 passé présent futur
+- séquence cp les masses
+- séquence déterminant cp
+- séquence maternelle les 5 sens
+- séquence noel cp
+- séquence saisons cp
+- cahier journal action
+- cahier journal bien rempli
+- cahier journal ce2
+- cahier journal double niveau ps ms
+- cahier journal enseignant maternelle
+- cahier journal enseignant word
+- cahier journal français primaire pdf
+- cahier journal grande section pdf
+- cahier journal holder
+- cahier journal image
+- cahier journal jour de rentrée ce1 ce2
+- cahier journal l'école pionnière
+- cahier journal maternelle à imprimer
+- cahier journal orphéecole
+- cahier journal pdf
+- cahier journal rentrée ms gs
+- cahier journal simple
+- cahier journal tps ps
+- cahier journal une page par jour
+- cahier journal vierge pdf
+- emploi du temps cp éduscol
+- moleskine cahier journal 5 x 8.25
+- programmation cp arts
+- programmation cp eduscol
+- programmation cp lecture compréhension
+- programmation cp maths 2026
+- programmation cp poésie
+- programmation gs cp
+- programmation histoire cp ce1 2026
+- programmation maternelle acces
+- programmation maths cp 2026 2027
+- programmation noums cp
+- programmation qlm cp ce1
+- programmation vocabulaire cp ce1 2025
+- programmations ce2 français
+- progression anglais ce1 2026
+- progression cp 2026 2027
+- progression ddm ce1 ce2
+- progression grammaire ce1 retz
+- progression lexique ce1 ce2
+- progression singapour ce1 ce2
+- séquence ce2 l'inégale répartition de la population en france
+- séquence cp les dents
+- séquence déchets cp
+- séquence maternelle motricité
+- séquence natation cp non nageurs
+- séquence sciences cp ce1
+- trame cahier journal mais que fait la maitresse
+- cahier journal à télécharger
+- cahier journal bullet
+- cahier journal cem word
+- cahier journal cm1
+- cahier journal de bord
+- cahier journal enseignant c est quoi
+- cahier journal enseignant en ligne
+- cahier journal français tarl
+- cahier journal gs rentrée
+- cahier journal in english
+- cahier journal jour de rentrée cm2
+- cahier journal lycée pdf
+- cahier journal maitresse en basket
+- cahier journal pe
+- cahier journal rentrée ps ms
+- cahier journal semainier maternelle
+- cahier journal sylvie hanot
+- cahier journal type maternelle
+- cahier journal uema
+- cahier journal vierge ulis
+- emploi du temps cp/ce1
+- moleskine cahier journal xlarge
+- programmation cp alfi
+- programmation cp ce1 nouveaux programmes
+- programmation cp education musicale
+- programmation cp maths 2025
+- programmation cp pdf
+- programmation littérature cp
+- programmation maternelle gs 2026
+- programmation maths cp acces 2025
+- programmation qlm cp ce1 ce2
+- programmations ce2 cm1 cm2
+- progression annuelle ce1 nouveaux programmes
+- progression ce1 ce2 français
+- progression cp ce1 2026
+- progression cp ce1 questionner le monde
+- progression de ce1
+- progression lecture ce1 2025
+- progression maths ce1 ce2 nouveaux programmes 2025
+- progression reussir en grammaire ce1
+- progression sons ce1 j entends je vois j écris
+- séquence ce2 emc
+- séquence cp le vivant
+- séquence dizaine cp
+- séquence maternelle automne
+- cahier bullet journal action
+- cahier casa journal de québec
+- cahier journal 2026 2027 à imprimer
+- cahier journal à imprimer pdf
+- cahier journal atsem
+- cahier journal cm1 cm2
+- cahier journal de rentrée cm1 cm2
+- cahier journal double niveau ce2 cm1
+- cahier journal enseignant hachette
+- cahier journal enseignant numérique gratuit
+- cahier journal fnac
+- cahier journal gs cp rentrée
+- cahier journal intime adulte
+- cahier journal jour 1 cp
+- cahier journal lycée
+- cahier journal modèle
+- cahier journal premier jour ce1
+- cahier journal rentrée gs
+- cahier journal semaine rentrée ps ms
+- cahier journal tps ps ms
+- cahier journal vierge word
+- couverture cahier journal word
+- emploi du temps cp ce1 ce2
+- moleskine student cahier journal xxl
+- programmation cp arts plastiques 2026
+- programmation cp calimots
+- programmation cp edl
+- programmation cp modifiable
+- programmation cp picbille 2025
+- programmation maternelle ps
+- programmation maths cp ce1
+- programmation qlm cp ce1 2026
+- programmations ce2 cm1 2026 2027
+- progression apprentilangue ce1
+- progression cp maths
+- progression littérature ce1 ce2
+- progression maths ce1 chaque jour compte
+- progression sport ce1 ce2
+- séquence ce2 l'air
+- séquence cp le temps
+- séquence dentition cp
+- séquence maternelle lancer
+- cahier bullet journal a4
+- cahier journal à compléter
+- cahier journal à la semaine
+- cahier journal ce1 ce2 modifiable
+- cahier journal double niveau cm1 cm2
+- cahier journal enseignant en ligne gratuit
+- cahier journal format word
+- cahier journal gs/cp
+- cahier journal informatique
+- cahier journal jour 1 ce1
+- cahier journal maternelle pdf
+- cahier journal petite section
+- cahier journal rentrée ce2
+- cahier journal rimbaud hatier
+- cahier journal semaine de rentrée ce1 ce2
+- cahier journal trame maternelle
+- cahier journal vierge à remplir
+- emploi du temps cp ce2
+- programmation cp anglais 2025
+- programmation cp ce1 qlm
+- programmation cp espace temps
+- programmation cp production d écrit
+- programmation maternelle evar
+- programmation qlm cp ce1 2025
+- progression ce1 cote d ivoire
+- progression cp période 1
+- progression écriture ce1 nouveaux programmes
+- progression maths ce1 2025
+- progression son ce1 bout de gomme
+- quel cahier journal choisir
+- séquence ce2 temps
+- séquence cp les saisons
+- séquence maternelle evar
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| attendus de fin de cp | shallow | 1 / 1 | 10 |
+| programme maternelle | shallow | 1 / 1 | 10 |
+| programme ce2 | shallow | 1 / 1 | 10 |
+| nouveaux programmes cycle 2 | shallow | 1 / 1 | 10 |
+| programme ce1 | shallow | 1 / 1 | 10 |
+| programme maths ce1 | shallow | 1 / 1 | 9 |
+| compétences cp | shallow | 1 / 1 | 6 |
+| repères de progression cp | shallow | 1 / 1 | 3 |
+| programme cp | deep | 22 / 27 | 146 |
+| programme cycle 2 | deep | 21 / 27 | 158 |
+| attendus de fin de | deep | 20 / 27 | 148 |
+
+**Words people add** (how many distinct phrases carry the word): cycle 62 · 2026 44 · 2025 28 · eduscol 26 · maths 25 · francais 25 · le 23 · histoire 22 · pdf 20 · monde 20 · ce1 18 · questionner 18 · eps 14 · section 14 · qlm 12 · anglais 11 · ce2 11 · du 11 · lycee 11 · sciences 10 · et 10 · nouveau 10 · annee 10 · arts 8 · bo 8 · de 8 · geographie 8 · temps 8 · nouveaux 8 · programmes 8 · gs 7 · officiel 7 · resume 7 · rentree 7 · vocabulaire 7 · formation 7 · lecture 6 · cm1 6 · petite 6 · gratuit 5
+
+**Phrases** (all 516, by how many lookups returned them)
+
+- attendus de fin de cp  ×3
+- programme cycle 2 histoire géographie  ×3
+- attendus de fin de cycle 1 nouveaux programmes  ×3
+- nouveau programme cycle 2 histoire géographie  ×3
+- attendus de fin de cycle 1  ×2
+- attendus de fin de cycle relais vitesse  ×2
+- attendus de fin de formation inspe lille  ×2
+- attendus de fin de lycée professionnel eps  ×2
+- attendus de fin de petite section  ×2
+- programme cp eduscol  ×2
+- programme cp français  ×2
+- programme cp histoire geo  ×2
+- programme cp maths  ×2
+- programme cp pdf gratuit  ×2
+- programme cp sciences  ×2
+- programme cycle 2 bo juillet 2020  ×2
+- programme cycle 2 eduscol  ×2
+- programme cycle 2 français  ×2
+- programme cycle 2 maths  ×2
+- programme cycle 2 pdf  ×2
+- programme cycle 2 questionner le monde  ×2
+- programme cycle 2 sciences  ×2
+- attendus de fin de cycle 2  ×2
+- attendus de fin de cycle 4 relais vitesse  ×2
+- attendus de fin de formation inspe  ×2
+- attendus de fin de grande section  ×2
+- attendus de fin de lycée eps  ×2
+- attendus de fin de moyenne section  ×2
+- programme cp gratuit imprimer  ×2
+- programme cycle 2 arts plastiques  ×2
+- programme cycle 2 eps  ×2
+- programme cycle 2 sciences et technologie  ×2
+- programme cycle 2 volume horaire  ×2
+- attendus de fin de cycle 3  ×2
+- attendus de fin de formation inspe second degré  ×2
+- attendus de fin de gs nouveaux programmes  ×2
+- programme cp a imprimer  ×2
+- programme neu cp banque de france  ×2
+- attendus de fin de cycle 3 relais vitesse  ×2
+- attendus de fin de ps eduscol  ×2
+- programme cycle 2 arts visuels  ×2
+- programme cycle 2 bulletin officiel  ×2
+- programme cycle 2 histoire géographie 2026  ×2
+- programme cycle 2 objets techniques  ×2
+- programme cycle 2 résolution de problèmes  ×2
+- attendus de fin de ce1  ×2
+- attendus de fin de cp eduscol  ×2
+- attendus de fin de maternelle nouveaux programmes  ×2
+- attendus de fin de petite section 2025  ×2
+- programme cycle 2 education nationale  ×2
+- programme cycle 2 langage oral  ×2
+- programme cycle 2 production d écrit  ×2
+- programme cycle 2 qlm temps  ×2
+- programme cycle 2 recherche google  ×2
+- attendus de fin de cp anglais  ×2
+- attendus de fin de cp nouveaux programmes  ×2
+- programme cp sami et julie  ×2
+- programme cycle 2 chat noir  ×2
+- programme cycle 2 questionner le temps  ×2
+- attendus de fin de cycle 1 pdf  ×2
+- attendus de fin de lycée pro  ×2
+- attendus de fin de cycle 4 eps  ×2
+- attendus de fin de lycée natation  ×2
+- attendus de fin de cycle 1 2026  ×2
+- programme cycle 2 enseignement artistique  ×2
+- attendus de fin de ce2  ×2
+- attendus de fin de cycle 1 langage oral
+- attendus de fin de cycle 4 volley
+- attendus de fin de cycle anglais
+- attendus de fin de cycle badminton
+- attendus de fin de cycle demi fond
+- attendus de fin de cycle eps
+- attendus de fin de cycle handball
+- attendus de fin de gs
+- attendus de fin de ms
+- attendus de fin de niveau
+- attendus de fin de quatrième maths
+- attendus de fin de seconde maths
+- attendus de fin de troisième maths
+- compétences cp
+- nouveaux programmes cycle 2 2026
+- programme ce1
+- programme ce2
+- programme cp
+- programme cp anglais
+- programme cp bilingue allemand
+- programme cp ce1
+- programme cp découverte du monde
+- programme cp geographie
+- programme cp lecture
+- programme cp nouveau
+- programme cp organisation et gestion des données
+- programme cp questionner le monde
+- programme cp résumé
+- programme cp temps
+- programme cp vocabulaire
+- programme cycle 2
+- programme cycle 2 anglais
+- programme cycle 2 bo
+- programme cycle 2 cp
+- programme cycle 2 découverte du monde
+- programme cycle 2 géographie
+- programme cycle 2 informatique
+- programme cycle 2 lecture
+- programme cycle 2 nouveau
+- programme cycle 2 oral
+- programme cycle 2 rentrée 2026
+- programme cycle 2 temps
+- programme cycle 2 vocabulaire
+- programme informatique cp
+- programme journée cp
+- programme maternelle 2026
+- programme maths ce1
+- programme ulis cp
+- repères de progression cp
+- attendus de fin d année ce1
+- attendus de fin de ce1 nouveaux programmes
+- attendus de fin de cp maths
+- attendus de fin de cycle 4 basket
+- attendus de fin de cycle acrosport
+- attendus de fin de cycle course d orientation
+- attendus de fin de cycle histoire cycle 3
+- attendus de fin de formation master meef
+- attendus de fin de ps
+- attendus de fin de quatrième
+- attendus de fin de sixième mathématiques
+- attendus de fin de troisième
+- compétences cp 2026
+- nouveaux programmes cycle 2
+- programme ce1 2026
+- programme ce2 maths
+- programme cp 2026
+- programme cp anglais 2026
+- programme cp bo
+- programme cp ce1 2026
+- programme cp dictée
+- programme cp education nationale
+- programme cp français pdf
+- programme cp grammaire
+- programme cp histoire
+- programme cp livre
+- programme cp maths pdf
+- programme cp natation
+- programme cp officiel
+- programme cp pdf
+- programme cp qlm
+- programme cp rentrée 2026
+- programme cp sciences 2026
+- programme cp volume horaire
+- programme cycle 2 belgique
+- programme cycle 2 ce2
+- programme cycle 2 date
+- programme cycle 2 français 2026
+- programme cycle 2 grammaire
+- programme cycle 2 histoire
+- programme cycle 2 lve
+- programme cycle 2 musique
+- programme cycle 2 numérique
+- programme cycle 2 orthographe
+- programme cycle 2 pdf 2026
+- programme cycle 2 qlm
+- programme cycle 2 résumé
+- programme cycle 2 temps et espace
+- programme du jour cp ce1
+- programme journée cycle 2
+- programme maternelle
+- programme maths ce1 pdf
+- programme technologie cp
+- repères annuels de progression cp
+- attendus de fin d année
+- attendus de fin de ce2 questionner le monde
+- attendus de fin de cm1 anglais
+- attendus de fin de cm1 histoire
+- attendus de fin de cp français
+- attendus de fin de cycle 2 résumé
+- attendus de fin de cycle 2 vocabulaire
+- attendus de fin de cycle 3 badminton
+- attendus de fin de cycle 4 course d orientation
+- attendus de fin de cycle eps cycle 4
+- attendus de fin de formation
+- attendus de fin de lycée
+- attendus de fin de maternelle
+- attendus de fin de petite section 2026
+- attendus de fin de sixième français
+- attendus de fin de troisième français
+- compétences cp lecture
+- nouveaux programmes cycle 2 questionner le monde
+- programme ce1 français
+- programme ce2 2026
+- programme cp arts visuels
+- programme cp cycle 2
+- programme cp ddm
+- programme cp emc
+- programme cp français 2026
+- programme cp horaires
+- programme cp langage oral
+- programme cp maths 2026
+- programme cp numération
+- programme cp orthographe
+- programme cp periode 1
+- programme cp questionner le monde 2025
+- programme cp sciences et technologie
+- programme cp vivant
+- programme cycle 2 2026
+- programme cycle 2 arts
+- programme cycle 2 bo 2025
+- programme cycle 2 ce1
+- programme cycle 2 ddm
+- programme cycle 2 emc
+- programme cycle 2 français 2025
+- programme cycle 2 géométrie
+- programme cycle 2 horaires
+- programme cycle 2 le temps
+- programme cycle 2 maths 2026
+- programme cycle 2 natation
+- programme cycle 2 organisation et gestion des données
+- programme cycle 2 pdf 2025
+- programme cycle 2 questionner le monde du vivant
+- programme cycle 2 répartition horaire
+- programme cycle 2 sciences 2026
+- programme cycle 2 tableau
+- programme cycle 2 vivant
+- programme du jour cp affichage
+- programme du jour cycle 2
+- programme maternelle eduscol
+- programme maths ce1 pdf 2025
+- programme revision cp
+- repères annuels de progression cp français
+- attendus de fin d année cm1
+- attendus de fin de ce1 questionner le monde
+- attendus de fin de cm2 anglais
+- attendus de fin de cm2 histoire
+- attendus de fin de collège eps
+- attendus de fin de cp 2026
+- attendus de fin de cycle 3 basket
+- attendus de fin de cycle 3 course d orientation
+- attendus de fin de cycle 3 vocabulaire
+- attendus de fin de cycle natation
+- attendus de fin de gs 2026
+- attendus de fin de lycée champ d apprentissage 4
+- attendus de fin de moyenne section eduscol
+- attendus de fin de sixième
+- attendus fin de tps
+- compétences cp maths
+- nouveaux programmes cycle 2 histoire géographie
+- programme ce1 maths
+- programme ce2 français
+- programme cp conjugaison
+- programme cp eps
+- programme cp exercices a imprimer
+- programme cp français 2025
+- programme cp géométrie
+- programme cp histoire 2026
+- programme cp langue vivante
+- programme cp musique
+- programme cp nathan
+- programme cp oral
+- programme cp premier trimestre
+- programme cp qlm 2026
+- programme cp sport
+- programme cycle 2 conjugaison
+- programme cycle 2 découvrir le monde
+- programme cycle 2 et 3
+- programme cycle 2 fractions
+- programme cycle 2 grandeurs et mesures
+- programme cycle 2 langues vivantes
+- programme cycle 2 mathématiques 2025
+- programme cycle 2 nc
+- programme cycle 2 poésie
+- programme cycle 2 questionner le monde 2026
+- programme cycle 2 sport
+- programme cycle 2 technologie
+- programme cycle 2 vivre ensemble
+- programme de cp
+- programme du jour cp modifiable
+- programme maternelle 2025
+- programme maths ce1 2026
+- programme rentrée cp
+- programme vocabulaire cp eduscol
+- attendus de fin d année ce2
+- attendus de fin de ce1 qlm
+- attendus de fin de cycle 1 tableau
+- attendus de fin de cycle 3 handball
+- attendus de fin de cycle 4 badminton
+- attendus de fin de cycle athlétisme
+- attendus de fin de cycle eps cycle 3
+- attendus de fin de formation master meef lille
+- attendus de fin de grande section eduscol
+- attendus de fin de lycée musculation
+- attendus de fin de seconde
+- compétences cp français
+- cp programme ib
+- nouveaux programmes cycle 2 ce qui change
+- ou trouver les attendus de fin de cycle
+- programme ce1 pdf
+- programme ce2 histoire
+- programme cp 2025 résumé
+- programme cp arts plastiques
+- programme cp calcul
+- programme cp eduscol 2026
+- programme cp français maroc
+- programme cp gratuit
+- programme cp histoire geo sciences
+- programme cp lecture 2025
+- programme cp mathematique
+- programme cp nombres
+- programme cp poesie
+- programme cp questionner le monde 2026
+- programme cp simplifié
+- programme cycle 2 anglais 2026
+- programme cycle 2 chat d école
+- programme cycle 2 domaine
+- programme cycle 2 evar
+- programme cycle 2 français 2024
+- programme cycle 2 histoire des arts
+- programme cycle 2 langue vivante
+- programme cycle 2 littérature
+- programme cycle 2 maths pdf
+- programme cycle 2 qlm 2026
+- programme cycle 2 svt
+- programme de cp exercices
+- programme du jour cp 2026
+- programme maternelle petite section
+- programme maths ce1 2025
+- programme officiel cp 2025
+- résumé attendus de fin de cycle 1
+- attendus de fin d année cp
+- attendus de fin de cp qlm
+- attendus de fin de cycle 4 boxe française
+- attendus de fin de cycle 4 handball
+- attendus de fin de cycle edd
+- attendus de fin de cycle tennis de table
+- attendus de fin de formation meef
+- attendus de fin de gs 2025
+- attendus de fin de lycée ca4
+- attendus de fin de maternelle 2025
+- attendus de fin de seconde français
+- compétences cp nouveaux programmes
+- nouveau programme cp rentrée 2026
+- nouveaux programmes cycle 2 2025
+- programme ce1 pdf gratuit
+- programme ce2 gratuit imprimer
+- programme cp au senegal
+- programme cp calcul mental
+- programme cp en france
+- programme cp fluence
+- programme cp grandeurs et mesures
+- programme cp heure
+- programme cp le vivant
+- programme cp maths 2025
+- programme cp pour les parents
+- programme cp qlm 2025
+- programme cp sénégal pdf
+- programme cycle 2 alimentation
+- programme cycle 2 changement
+- programme cycle 2 danse
+- programme cycle 2 français eduscol
+- programme cycle 2 hg
+- programme cycle 2 lexique
+- programme cycle 2 maitresse lunicole
+- programme cycle 2 polynésie française
+- programme cycle 2 rentrée 2025
+- programme cycle 2 synthèse
+- programme de cp 2026
+- programme maternelle grande section
+- programme maths ce1 éduscol
+- programme maths cycle 2 bo
+- programme neu cp
+- programme officiel cp 2026
+- résumé attendus de fin de cycle
+- attendus de fin d année cm2
+- attendus de fin d année et repères annuels de progression
+- attendus de fin de 3e anglais
+- attendus de fin de cp 2025
+- attendus de fin de cycle 2 questionner le monde
+- attendus de fin de cycle 3 histoire géographie
+- attendus de fin de cycle gs
+- attendus de fin de cycle nouveaux programmes
+- attendus de fin de lycée tennis de table
+- attendus de fin de ms 2025
+- eduscol programme cycle 2 anglais
+- eduscol programme cycle 2 bo
+- nouveau programme cycle 2 vocabulaire
+- nouveaux programmes cycle 2 sciences
+- programme ce1 eduscol
+- programme ce2 pdf
+- programme cp à la maison
+- programme cp au maroc
+- programme cp ce1 questionner le monde
+- programme cp ecriture
+- programme cp français grammaire
+- programme cp maroc
+- programme cp primaire
+- programme cp senegal
+- programme cycle 2 2025 résumé
+- programme cycle 2 développement durable
+- programme cycle 2 eps 2026
+- programme cycle 2 fr
+- programme cycle 2 histoire eduscol
+- programme cycle 2 lecture compréhension
+- programme cycle 2 mathématiques eduscol
+- programme cycle 2 physique chimie
+- programme cycle 2 questionner le monde 2025
+- programme cycle 2 simplifié
+- programme de cp 2025
+- programme gs cp
+- programme histoire cp ce1
+- programme maternelle pdf
+- programme maths ce1 ce2
+- programme national cp
+- programme officiel cycle 2
+- programme qlm cp ce1
+- attendus de fin d année cm1 maths
+- attendus de fin de ce1 français
+- attendus de fin de ce2 anglais
+- attendus de fin de cm2 maths
+- attendus de fin de cp fluence
+- attendus de fin de cycle 2 qlm
+- attendus de fin de cycle 4 histoire
+- attendus de fin de cycle eduscol
+- attendus de fin de cycle grande section
+- attendus de fin de cycle ps
+- attendus de fin de lycée ca5
+- eduscol programme cycle 2 arts plastiques
+- nouveau programme cycle 2 bo
+- nouveau programme cycle 2 questionner le monde
+- nouveau programme cycle 2 rentrée 2026
+- nouveaux programmes cycle 2 sciences 2026
+- objectifs programme cycle 2
+- programme ce1 ce2
+- programme ce2 questionner le monde
+- programme cp au sénégal pdf
+- programme cp ce1 2025
+- programme cp evar
+- programme cp fraction
+- programme cp piscine
+- programme cp soustraction
+- programme cycle 2 cp 2026
+- programme cycle 2 dictée
+- programme cycle 2 en vigueur
+- programme cycle 2 espace temps
+- programme cycle 2 fluence
+- programme cycle 2 histoire 2026
+- programme cycle 2 monnaie
+- programme cycle 2 qlm 2025
+- programme cycle 2 socle commun
+- programme du cp en france
+- programme géométrie cp 2025
+- programme histoire cp ce1 ce2
+- programme maternelle moyenne section
+- programme maths ce1 tables de multiplication
+- programme qlm cp eduscol
+- tableau attendus de fin de cycle 2
+- attendus de fin d année ce1 maths
+- attendus de fin de ce2 français
+- attendus de fin de cm1 maths
+- attendus de fin de cp lecture
+- attendus de fin de cycle 4 histoire géographie
+- attendus de fin de cycle 4 tennis de table
+- attendus de fin de cycle acrosport cycle 4
+- attendus de fin de cycle eps cycle 1
+- attendus de fin de cycle petite section
+- attendus fin de cp questionner le monde
+- attendus fin de grande section maternelle
+- eduscol programme cycle 2 rentrée 2026
+- eduscol programme cycle 2 vocabulaire
+- nouveau programme cycle 2 maths
+- nouveaux programmes cycle 2 2026 eduscol
+- programme ce1 histoire
+- programme ce2 sciences
+- programme cp 2026 2027
+- programme cp arabe
+- programme cp ce1 ce2
+- programme cp espace
+- programme cp français eduscol
+- programme cycle 2 cycle 3
+- programme cycle 2 français pdf
+- programme cycle 2 le vivant
+- programme cycle 2 questionner le monde espace
+- programme cycle 2 se repérer dans le temps
+- programme du cp education nationale
+- programme eps cycle 2 bo
+- programme maternelle cycle 1
+- programme maths ce1 fractions
+- programme maths cycle 2 pdf
+- programme niveau cp
+- programme officiel cycle 2 2025
+- attendus de fin d année ce2 français
+- attendus de fin de ce1 maths
+- attendus de fin de cm1 français
+- attendus de fin de cycle 2 nouveaux programmes
+- attendus de fin de cycle 3 tennis de table
+- attendus de fin de cycle arts du cirque
+- attendus de fin de lycée ca3
+- attendus fin de gs maths
+- attendus fin de ps maths
+- boen programme cycle 2
+- eduscol programme cycle 2 volume horaire
+- nouveau programme cycle 2 pdf
+- nouveaux programmes cycle 2 horaires
+- programme ce1 questionner le monde
+- programme ce2 eduscol
+- programme cp art
+- programme cp complet
+- programme cp exercice
+- programme cp svt
+- programme cycle 2 3
+- programme cycle 2 calcul mental
+- programme cycle 2 espace
+- programme cycle 2 fran9ais
+- programme cycle 2 luxembourg
+- programme de cp maths
+- programme eps cycle 2 athlétisme
+- programme maternelle 2026 eduscol
+- programme officiel eps cycle 2
+- quels sont les attendus de fin de petite section
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| évaluation diagnostique cp | shallow | 1 / 1 | 10 |
+| évaluation maths ce1 | shallow | 1 / 1 | 10 |
+| évaluation nationale cp | shallow | 1 / 1 | 10 |
+| évaluation ce2 | shallow | 1 / 1 | 10 |
+| évaluation fin d'année cp | shallow | 1 / 1 | 10 |
+| évaluation grande section | shallow | 1 / 1 | 10 |
+| évaluation lecture cp | shallow | 1 / 1 | 10 |
+| évaluation diagnostique ce2 | shallow | 1 / 1 | 10 |
+| évaluation début d'année ce1 | shallow | 1 / 1 | 5 |
+| bilan cp | shallow | 1 / 1 | 1 |
+| évaluation ce1 | deep | 25 / 27 | 200 |
+| évaluation cp | deep | 23 / 27 | 167 |
+| évaluation diagnostique | deep | 20 / 27 | 139 |
+| évaluation maternelle | deep | 20 / 27 | 89 |
+
+**Words people add** (how many distinct phrases carry the word): pdf 61 · periode 42 · de 41 · maths 35 · francais 33 · et 25 · ce2 25 · 2026 22 · 2025 20 · la 20 · janvier 19 · debut 18 · lecture 18 · trimestre 18 · imprimer 16 · annee 16 · cm2 16 · cm1 15 · les 14 · ce1 14 · en 14 · verbe 13 · nationale 12 · bout 12 · gomme 12 · rentree 12 · nombres 12 · section 12 · septembre 11 · commun 11 · fin 10 · geometrie 10 · phrase 10 · gs 10 · tronc 9 · anglais 8 · jour 8 · grammaire 8 · jusqu 8 · 5eme 8
+
+**Phrases** (all 674, by how many lookups returned them)
+
+- évaluation diagnostique ce2  ×3
+- évaluation diagnostique cp  ×3
+- évaluation maternelle moyenne section  ×3
+- évaluation ce1 à imprimer  ×2
+- évaluation ce1 à imprimer pdf  ×2
+- évaluation ce1 la phrase  ×2
+- évaluation ce1 ordre alphabétique  ×2
+- évaluation ce1 passé présent futur  ×2
+- évaluation cp début d'année  ×2
+- évaluation cp maths période 1  ×2
+- évaluation cp nationale  ×2
+- évaluation cp période 1  ×2
+- évaluation cp septembre 2026  ×2
+- évaluation cp vivant non vivant  ×2
+- évaluation diagnostique gs  ×2
+- évaluation diagnostique maternelle  ×2
+- evaluation maternelle eduscol  ×2
+- évaluation maternelle gs  ×2
+- evaluation maternelle janvier  ×2
+- evaluation maternelle ms  ×2
+- evaluation maternelle nouveaux programmes  ×2
+- évaluation maternelle ps  ×2
+- évaluation ce1 la phrase et les signes de ponctuation  ×2
+- évaluation ce1 période 1  ×2
+- évaluation cp à imprimer 2025  ×2
+- évaluation cp corps humain  ×2
+- évaluation cp dizaines unités  ×2
+- évaluation cp ovipare vivipare  ×2
+- évaluation cp pdf  ×2
+- évaluation diagnostique ce2 pdf  ×2
+- évaluation diagnostique cm1  ×2
+- evaluation ce1 dizaine unité  ×2
+- évaluation ce1 les types de phrases  ×2
+- évaluation diagnostique ce1  ×2
+- evaluation gs maternelle janvier  ×2
+- evaluation ps maternelle juin  ×2
+- évaluation nationale cp à imprimer  ×2
+- evaluation ps maternelle janvier  ×2
+- fiche évaluation maternelle moyenne section  ×2
+- evaluation ce1 adjectif qualificatif  ×2
+- evaluation cp fin d année 2025  ×2
+- évaluation diagnostique cm2  ×2
+- évaluation diagnostique cm2 pdf  ×2
+- évaluation nationale cp à imprimer 2026  ×2
+- bilan cp
+- évaluation assistante maternelle
+- évaluation ce1 addition posée avec et sans retenue
+- évaluation ce1 bout de gomme période 5
+- evaluation ce1 ce2
+- évaluation ce1 comparer et ranger des nombres
+- évaluation ce1 droite et segment
+- evaluation ce1 eduscol
+- évaluation ce1 français pdf
+- évaluation ce1 grammaire période 1
+- evaluation ce1 heure
+- evaluation ce1 imparfait
+- evaluation ce1 janvier
+- évaluation ce1 maths
+- évaluation ce1 nationale
+- evaluation ce1 questionner le monde
+- évaluation ce1 réussir son entrée en grammaire
+- évaluation ce1 sur la phrase
+- évaluation ce1 types de phrases
+- évaluation ce1 unités de mesure
+- évaluation ce1 verbe
+- évaluation ce2
+- evaluation corps humain maternelle
+- évaluation couleurs maternelle
+- évaluation cp
+- evaluation cp a imprimer
+- evaluation cp bout de gomme
+- évaluation cp ce1
+- evaluation cp eduscol
+- évaluation cp fin d'année
+- évaluation cp groupement par 10
+- evaluation cp heure
+- evaluation cp imprimer
+- évaluation cp jour nuit
+- evaluation cp kaly
+- évaluation cp le jour et la nuit
+- évaluation cp ordre alphabétique
+- evaluation cp rentrée
+- évaluation cp tracer à la règle
+- évaluation d école questionnaire maternelle
+- évaluation début d'année ce1
+- évaluation diagnostique
+- évaluation diagnostique anglais 6ème
+- évaluation diagnostique badminton
+- évaluation diagnostique cp word
+- évaluation diagnostique début gs
+- évaluation diagnostique exemple
+- évaluation diagnostique français cm2
+- évaluation diagnostique histoire géographie 5ème
+- évaluation diagnostique ime
+- évaluation diagnostique lecture ce1
+- évaluation diagnostique ms
+- évaluation diagnostique numération cm1
+- évaluation diagnostique ou diagnostic
+- évaluation diagnostique ps
+- évaluation diagnostique rased
+- évaluation diagnostique segpa 5ème
+- évaluation diagnostique tables de multiplication
+- évaluation diagnostique ulis cycle 2
+- évaluation diagnostique vocabulaire ce2
+- evaluation fin d année cp
+- evaluation fin maternelle
+- évaluation grande section à imprimer
+- évaluation kolos ce1
+- evaluation langage maternelle
+- évaluation langage oral maternelle
+- évaluation lecture cp période 1
+- évaluation maternelle
+- evaluation maternelle belgique
+- évaluation maths ce1 période 1 pdf
+- évaluation nationale cp pdf 2026
+- evaluation solides maternelle
+- évaluation topologie maternelle
+- évaluation ulis cp
+- évaluation vocabulaire maternelle
+- image evaluation maternelle
+- evaluation alphabet maternelle
+- evaluation bonhomme maternelle
+- évaluation ce1
+- évaluation ce1 alphabet ordre alphabétique
+- évaluation ce1 bout de gomme période 2
+- evaluation ce1 ce2 ordre alphabétique
+- évaluation ce1 centaines dizaines unités
+- evaluation ce1 debut d année pdf
+- evaluation ce1 deuxieme trimestre
+- evaluation ce1 espace
+- évaluation ce1 français
+- évaluation ce1 géométrie
+- évaluation ce1 homophones a à et est
+- evaluation ce1 janvier 2026
+- évaluation ce1 maths 2ème trimestre pdf
+- évaluation ce1 nombres jusqu à 99
+- évaluation ce1 ordre alphabétique et dictionnaire
+- évaluation ce1 quadrillage
+- évaluation ce1 rentrée
+- évaluation ce1 se repérer dans l espace
+- evaluation ce1 son s et z
+- évaluation ce1 tracer à la règle
+- evaluation ce1 verbe etre et avoir au present
+- évaluation ce2 pdf
+- évaluation cm m km ce1
+- evaluation corps maternelle
+- évaluation cp 2026
+- evaluation cp addition posée
+- evaluation cp blog chat noir
+- evaluation cp en janvier
+- évaluation cp français
+- évaluation cp géométrie
+- évaluation cp jour de la semaine
+- évaluation cp les nombres jusqu à 10
+- évaluation cp maths
+- évaluation cp nombres jusqu à 100
+- évaluation cp repérage dans l espace
+- évaluation cp septembre 2025
+- évaluation cp taoki période 1
+- évaluation cp vocabulaire spatial
+- évaluation diagnostique anglais cm1
+- évaluation diagnostique bac
+- évaluation diagnostique cp début d'année
+- évaluation diagnostique début ce1
+- évaluation diagnostique entrée cm2
+- évaluation diagnostique français 5ème pdf
+- évaluation diagnostique grande section début d'année
+- évaluation diagnostique informatique tronc commun
+- évaluation diagnostique lecture compréhension cm1
+- evaluation diagnostique maternelle gs
+- évaluation diagnostique moyenne section
+- évaluation diagnostique numération ce2
+- évaluation diagnostique orthographe ce2
+- évaluation diagnostique ps début d'année
+- évaluation diagnostique rentrée ce2
+- évaluation diagnostique seconde français
+- évaluation diagnostique tronc commun français pdf
+- évaluation diagnostique ulis au quotidien
+- évaluation diagnostique vocabulaire cm2
+- évaluation en maternelle
+- évaluation fin d année cp mathématiques
+- évaluation français maternelle
+- évaluation grande section
+- evaluation graphisme maternelle
+- évaluation hygiène cp
+- évaluation imparfait ce1 pdf
+- evaluation juin maternelle
+- évaluation kimamila cp période 1
+- évaluation lecture cp
+- evaluation lettres maternelle
+- évaluation maternelle nouveaux programmes 2025
+- évaluation maternelle pdf
+- évaluation maths ce1 pdf
+- évaluation nationale cp
+- évaluation sommative maternelle
+- évaluation urashima ce1
+- evaluation visage maternelle
+- livret évaluation tps maternelle
+- outil évaluation maternelle
+- évaluation afrique de zigomar ce1
+- evaluation algorithme maternelle
+- evaluation bilan cp
+- évaluation ce1 avec correction pdf
+- evaluation ce1 bout de gomme periode 1
+- evaluation ce1 ce2 grammaire
+- évaluation ce1 compléments à 10
+- evaluation ce1 determinant
+- evaluation ce1 etre avoir
+- évaluation ce1 français période 1
+- évaluation ce1 géométrie tracer à la règle
+- evaluation ce1 horloge
+- évaluation ce1 jours mois saisons
+- evaluation ce1 maths période 1
+- évaluation ce1 numération période 1
+- évaluation ce1 orthographe période 1
+- évaluation ce1 pdf
+- evaluation ce1 qlm
+- evaluation ce1 rseeg
+- évaluation ce1 sur la ponctuation
+- evaluation ce1 table de multiplication 2 3 4 5
+- evaluation ce1 verbe en er
+- évaluation ce2 passé présent futur
+- evaluation coloriage maternelle
+- évaluation cp à imprimer
+- evaluation cp alimentation
+- évaluation cp comparer des nombres
+- évaluation cp date
+- évaluation cp français période 1
+- evaluation cp guide enseignant
+- évaluation cp janvier
+- évaluation cp lecture période 1
+- évaluation cp mhm période 1
+- évaluation cp numération
+- evaluation cp octobre
+- évaluation cp période 1 pdf
+- evaluation cp resultat
+- évaluation cp saisons
+- evaluation cp troisième trimestre
+- evaluation cp verbe
+- évaluation découpage maternelle
+- évaluation dessin du bonhomme maternelle
+- évaluation diagnostique anglais seconde générale
+- évaluation diagnostique ce2 2025
+- évaluation diagnostique cp maths
+- évaluation diagnostique début cp
+- évaluation diagnostique entrée 5ème maths pdf
+- évaluation diagnostique français 4ème segpa
+- évaluation diagnostique gs septembre
+- évaluation diagnostique informatique 1ac
+- évaluation diagnostique lecture compréhension ce2
+- évaluation diagnostique maths ce2
+- évaluation diagnostique natation ce2
+- évaluation diagnostique objectif
+- évaluation diagnostique pdf
+- évaluation diagnostique rentrée ce1
+- évaluation diagnostique septembre ms
+- évaluation diagnostique tronc commun français
+- evaluation ecole maternelle
+- évaluation entrée cp
+- évaluation fin d année cp français
+- évaluation formative maternelle
+- évaluation grande section pdf
+- evaluation histoire cp
+- évaluation infinitif ce1 pdf
+- évaluation lecture ce1 début d année
+- évaluation lecture cp période 1 taoki
+- evaluation lexique maternelle
+- évaluation maths ce1
+- evaluation maths maternelle
+- évaluation nationale cp 2026
+- evaluation nationale cp interpretation
+- evaluation nationale maternelle
+- évaluation prononciation maternelle
+- evaluation vocabulaire maternelle pdf
+- tampon evaluation maternelle
+- evaluation articulation maternelle
+- évaluation ce1 alternance jour nuit
+- évaluation ce1 bout de gomme période 3
+- evaluation ce1 ce2 mysticlolly
+- evaluation ce1 conjugaison
+- evaluation ce1 dictionnaire
+- évaluation ce1 en français
+- evaluation ce1 encadrer un nombre
+- évaluation ce1 fin d'année
+- evaluation ce1 grammaire
+- evaluation ce1 homonymes
+- evaluation ce1 janvier 2025
+- évaluation ce1 les groupes dans la phrase
+- évaluation ce1 maths 3ème trimestre pdf
+- évaluation ce1 numération
+- évaluation ce1 orthographe
+- évaluation ce1 phrase et ponctuation
+- evaluation ce1 repere
+- évaluation ce1 septembre 2026
+- evaluation ce1 troisieme trimestre
+- evaluation ce1 vocabulaire
+- évaluation ce2 ordre alphabétique
+- evaluation competences maternelle
+- évaluation cp à imprimer maths
+- evaluation cp acces maths
+- evaluation cp chaque jour compte
+- évaluation cp début d année pdf
+- evaluation cp francais 1er trimestre
+- évaluation cp grammaire
+- évaluation cp jours mois saisons
+- évaluation cp la phrase
+- évaluation cp mhm
+- evaluation cp nom propre nom commun
+- évaluation cp période 2
+- evaluation cp reperes
+- évaluation cp sénégal
+- evaluation cp taoki
+- evaluation cp vocabulaire
+- évaluation de maternelle
+- évaluation diagnostique anglais cm2
+- évaluation diagnostique ce1 début d année pdf
+- évaluation diagnostique ce2 maths
+- évaluation diagnostique cp pdf
+- évaluation diagnostique début ce2
+- évaluation diagnostique entrée ce2
+- évaluation diagnostique français cm1
+- évaluation diagnostique gs 2025
+- évaluation diagnostique lecture
+- évaluation diagnostique maths ce1
+- évaluation diagnostique natation cycle 3
+- évaluation diagnostique orthographe cm1
+- évaluation diagnostique phonologie gs
+- évaluation diagnostique rentrée cm2
+- évaluation diagnostique seconde maths
+- évaluation diagnostique tronc commun maths
+- evaluation en cp
+- evaluation enfant maternelle
+- evaluation fin d année cp maths
+- évaluation formes maternelle
+- évaluation grande section début d'année
+- evaluation hiver cp
+- évaluation lecture cp période 5
+- evaluation maternelle grande section
+- évaluation maths ce1 1er trimestre pdf
+- evaluation nationale cp bonjour les enfants
+- evaluation nationale maternelle 2025
+- evaluation orthographe cp
+- évaluation positive maternelle
+- évaluation quadrilatère ce1
+- fiche évaluation lettres maternelle
+- tableau évaluation maternelle
+- évaluation à la maternelle
+- évaluation ce1 addition posée sans retenue
+- évaluation ce1 bout de gomme période 4
+- evaluation ce1 ce2 imparfait
+- évaluation ce1 conjugaison présent 1er groupe
+- evaluation ce1 determinant et nom
+- évaluation ce1 français 1er trimestre
+- evaluation ce1 groupe nominal
+- evaluation ce1 histoire
+- evaluation ce1 jour mois année
+- évaluation ce1 le verbe
+- évaluation ce1 maths pdf
+- évaluation ce1 nombres de 0 à 99
+- évaluation ce1 ovipare vivipare
+- évaluation ce1 phrase
+- évaluation ce1 résolution de problèmes
+- évaluation ce1 sur le verbe
+- evaluation ce1 table d addition
+- evaluation ce1 verbe conjugué et infinitif
+- évaluation ce2 les types de phrases
+- evaluation comportement maternelle
+- evaluation cp addition
+- évaluation cp droite gauche
+- évaluation cp géométrie tracer à la règle
+- evaluation cp janvier 2026
+- évaluation cp les jours de la semaine
+- évaluation cp maths 3ème trimestre
+- évaluation cp nombres jusqu à 59
+- évaluation cp p1
+- évaluation cp régime alimentaire
+- evaluation cp septembre 2025 pdf
+- evaluation cp toile d araignée
+- evaluation cp voyelles
+- évaluation diagnostique 5ème pdf
+- évaluation diagnostique anglais 5ème
+- évaluation diagnostique ce1 début d année
+- évaluation diagnostique ce2 2026
+- évaluation diagnostique cp 2025
+- evaluation diagnostique cp bout de gomme
+- évaluation diagnostique définition
+- évaluation diagnostique en anglais
+- évaluation diagnostique formative sommative
+- évaluation diagnostique géométrie ce1
+- évaluation diagnostique lecture cm2
+- évaluation diagnostique natation cycle 2
+- évaluation diagnostique orthographe cm2
+- évaluation diagnostique petite section
+- évaluation diagnostique rentrée gs
+- évaluation diagnostique seconde physique chimie
+- évaluation diagnostique tronc commun maths pdf
+- evaluation ecole maternelle exemple
+- evaluation en ce1
+- evaluation fiche maternelle
+- evaluation fin d année cp 2026
+- evaluation fin de maternelle
+- évaluation grande section maternelle
+- evaluation heure cp ce1
+- évaluation lecture cp période 2
+- evaluation maternelle 2025
+- évaluation maternelle petite section
+- évaluation maths ce1 période 1
+- évaluation nationale cp pdf
+- évaluation numération maternelle
+- évaluation oura cp
+- evaluation pta maternelle
+- grille d évaluation maternelle ms
+- évaluation 5 sens maternelle
+- evaluation ce1 adjectif
+- evaluation ce1 bdg
+- evaluation ce1 ce2 les familles de mots
+- evaluation ce1 contraire
+- evaluation ce1 futur
+- évaluation ce1 genre et nombre
+- evaluation ce1 juin
+- évaluation ce1 le verbe et son infinitif
+- évaluation ce1 mois de l année
+- évaluation ce1 nombres jusqu à 999
+- evaluation ce1 oceans et continents
+- évaluation ce1 passé présent futur bout de gomme
+- evaluation ce1 retz grammaire
+- évaluation ce1 sur les types de phrases
+- evaluation ce1 triangle rectangle
+- evaluation ce1 verbe 1er groupe present
+- évaluation ce2 à imprimer
+- évaluation compréhension maternelle
+- evaluation cp anglais
+- évaluation cp deuxième trimestre
+- évaluation cp formes géométriques
+- evaluation cp guide du maitre
+- evaluation cp janvier 2025
+- évaluation cp lecture
+- evaluation cp mi parcours
+- evaluation cp novembre decembre
+- évaluation cp période 2 pdf
+- evaluation cp reperes 2025
+- evaluation cp septembre
+- evaluation cp temps
+- evaluation cp vivant
+- évaluation diagnostique anglais 3ème
+- évaluation diagnostique ce2 français
+- évaluation diagnostique cp français
+- évaluation diagnostique début cm1
+- évaluation diagnostique entrée 6e maths
+- évaluation diagnostique français ce2
+- évaluation diagnostique géométrie cm2
+- évaluation diagnostique lecture cp
+- évaluation diagnostique maths cm1 début d'année
+- évaluation diagnostique physique chimie seconde pdf
+- évaluation diagnostique rentrée ms
+- évaluation diagnostique sommative formative
+- évaluation diagnostique tronc commun
+- évaluation en maternelle grande section
+- évaluation grande section septembre
+- évaluation heure ce1 pdf
+- evaluation janvier ms maternelle
+- évaluation lecture cp période 4
+- évaluation lecture fin d année cp
+- évaluation maths ce1 à imprimer
+- évaluation maths cp bout de gomme
+- evaluation moyenne section maternelle janvier
+- evaluation nationale ce1 quand
+- evaluation of cp
+- évaluation pour cp à imprimer pdf
+- grille évaluation langage maternelle
+- evaluation ce1 bilan
+- evaluation ce1 calcul
+- évaluation ce1 ce2 la phrase
+- evaluation ce1 dents
+- evaluation ce1 fraction
+- evaluation ce1 groupe sujet
+- evaluation ce1 jour de la semaine
+- évaluation ce1 les jours de la semaine
+- evaluation ce1 monnaie
+- évaluation ce1 nombres jusqu à 69
+- évaluation ce1 outils pour les maths
+- évaluation ce1 période 1 français
+- evaluation ce1 resultat
+- évaluation ce1 se repérer dans le temps
+- evaluation ce1 table de multiplication
+- evaluation ce1 verbe et infinitif
+- évaluation ce2 la phrase et les signes de ponctuation
+- evaluation chiffres maternelle
+- évaluation cp alphabet
+- évaluation cp doubles et moitiés
+- évaluation cp féminin masculin
+- evaluation cp gauche droite
+- evaluation cp janvier 2025 pdf
+- évaluation cp lecture piano
+- evaluation cp lire l heure
+- évaluation cp maths période 2
+- evaluation cp nationale janvier
+- évaluation cp période 1 maths
+- evaluation cp septembre 2024
+- évaluation diagnostique ce2 lecture compréhension
+- évaluation diagnostique cm1 pdf
+- évaluation diagnostique cp ce1
+- évaluation diagnostique début ms
+- évaluation diagnostique entrée cm1
+- évaluation diagnostique fluence ce1
+- évaluation diagnostique géométrie cm1
+- évaluation diagnostique lecture ce2
+- évaluation diagnostique maths ce2 pdf
+- évaluation diagnostique primaire
+- évaluation diagnostique rentrée cm1
+- évaluation diagnostique svt tronc commun
+- évaluation diagnostique tronc commun physique avec correction
+- évaluation en maternelle moyenne section
+- evaluation fin ms maternelle
+- évaluation géométrie ce1 quadrillage
+- évaluation grande section 2026
+- évaluation heure ce1 bout de gomme
+- évaluation lecture cp période 3
+- évaluation maths ce1 période 3 pdf
+- évaluation nationale cp 2026 2027
+- evaluation petite section maternelle janvier
+- evaluation rentrée cp bout de gomme
+- evaluation reperes cp saisie des resultats
+- évaluation taoki cp pdf
+- fiche evaluation maternelle grande section
+- livret évaluation maternelle nouveaux programmes 2025
+- évaluation bd ce1
+- évaluation ce1 1er trimestre pdf
+- evaluation ce1 accord sujet verbe
+- évaluation ce1 ce2 passé présent futur
+- evaluation ce1 chaque jour compte
+- evaluation ce1 diagnostique
+- évaluation ce1 famille de mots
+- evaluation ce1 germination
+- evaluation ce1 janvier 2024
+- évaluation ce1 lutin bazar
+- evaluation ce1 multiplication
+- evaluation ce1 nom propre nom commun
+- évaluation ce1 période 2
+- évaluation ce1 sur l'ordre alphabétique
+- evaluation ce1 tables de multiplication 2 et 5
+- evaluation ce1 verbe etre et avoir
+- évaluation ce2 les nombres jusqu à 999
+- évaluation cp 2ème trimestre sénégal pdf
+- evaluation cp decembre
+- evaluation cp fin d année 2024
+- evaluation cp francais 3eme trimestre
+- evaluation cp grandeurs et mesures
+- evaluation cp juin
+- evaluation cp la journée
+- evaluation cp mi parcours 2026
+- évaluation cp nombres 0 20
+- évaluation cp période 1 taoki
+- évaluation cp semestre 1
+- évaluation début cp à imprimer
+- évaluation diagnostique ce1 maths
+- évaluation diagnostique ce2 cm1
+- évaluation diagnostique cp 2026
+- évaluation diagnostique début 6ème français
+- évaluation diagnostique en arabe
+- évaluation diagnostique français cm2 début d'année
+- évaluation diagnostique géométrie ce2
+- évaluation diagnostique lecture compréhension ce1
+- évaluation diagnostique maths
+- évaluation diagnostique première année collège
+- evaluation diagnostique rentrée cp
+- évaluation diagnostique svt 2bac pc
+- évaluation diagnostique tronc commun svt
+- évaluation en maternelle belgique
+- evaluation fin cp blog du chat noir
+- évaluation grande section pdf 2026
+- évaluation heure ce1 lutin bazar
+- evaluation lecture cp fin d année
+- évaluation maths ce1 période 5 pdf
+- évaluation nationale cp livret élève
+- évaluation orthographe ce1 pdf
+- evaluation piscine maternelle
+- évaluation repere ce1 livret élève
+- evaluation repere cp ce1
+- évaluation alimentation cp pdf
+- evaluation bilan ce1 français
+- évaluation ce1 2026
+- evaluation ce1 angle droit
+- evaluation ce1 ce2 dictionnaire
+- évaluation ce1 compréhension de texte
+- evaluation ce1 debut
+- évaluation ce1 futur être et avoir
+- evaluation ce1 grammaire retz
+- evaluation ce1 jardin d alysse
+- évaluation ce1 lecture
+- evaluation ce1 masculin feminin
+- evaluation ce1 nom et determinant
+- évaluation ce1 points alignés
+- evaluation ce1 temps
+- evaluation ce1 verbe sujet
+- évaluation ce2 la phrase
+- évaluation cp 1er trimestre
+- evaluation cp dernier trimestre
+- évaluation cp français 2ème trimestre
+- evaluation cp gratuit
+- evaluation cp juin 2026
+- évaluation cp les saisons
+- evaluation cp moyenne nationale
+- évaluation cp nombres jusqu à 69
+- évaluation cp période 4
+- evaluation cp singulier pluriel
+- évaluation diagnostique 5ème maths pdf
+- évaluation diagnostique ce2 géométrie
+- évaluation diagnostique cp français pdf
+- évaluation diagnostique de rentrée ce2
+- évaluation diagnostique en français
+- evaluation diagnostique français 6ème
+- évaluation diagnostique grammaire cm2
+- évaluation diagnostique lecture compréhension cm2
+- évaluation diagnostique maths 6ème pdf
+- évaluation diagnostique physique 2ac
+- évaluation diagnostique résolution de problèmes cm2
+- évaluation diagnostique svt 2ac
+- évaluation diagnostique tc français
+- evaluation escalier maternelle
+- évaluation fin cp à imprimer
+- evaluation grande section janvier
+- evaluation homophone ce1
+- evaluation lecture cp blog de chat noir
+- evaluation lecture cp janvier
+- evaluation maternelle 2026
+- évaluation maths ce1 période 4 pdf
+- evaluation nationale cp fin d année
+- évaluation nationale cp pdf 2025
+- evaluation pour maternelle
+- evaluation repere cp moyenne nationale
+- évaluation rseeg ce1 2025
+- evaluation ce1 alimentation
+- évaluation ce1 calendrier
+- evaluation ce1 ce2 mhm
+- evaluation ce1 double
+- evaluation ce1 feminin masculin
+- évaluation ce1 le nom
+- évaluation ce1 maths 1ème trimestre pdf
+- evaluation ce1 nom
+- évaluation ce1 période 1 maths
+- evaluation ce1 table de multiplication 2 3 4 5 10
+- évaluation ce1 ville campagne
+- évaluation ce2 types et formes de phrases
+- évaluation cp 3ème trimestre sénégal pdf
+- evaluation cp dents
+- evaluation cp fin d année maths
+- evaluation cp genre et nombre
+- evaluation cp janvier 2026 pdf
+- évaluation cp masculin féminin
+- evaluation cp nationale 2026
+- évaluation cp période 1 2025
+- evaluation cp saisie des résultats
+- évaluation diagnostique ce1 2026
+- évaluation diagnostique ce2 français pdf
+- évaluation diagnostique cp à imprimer
+- évaluation diagnostique début ce2 français
+- évaluation diagnostique en mathématiques
+- évaluation diagnostique français cm2 avec correction pdf
+- évaluation diagnostique gs septembre 2025
+- évaluation diagnostique lecture cm1
+- évaluation diagnostique maths 5ème pdf
+- évaluation diagnostique production écrite
+- évaluation diagnostique rentrée cm1 cm2
+- évaluation diagnostique svt
+- évaluation diagnostique tc
+- évaluation fluence cp fin d année
+- evaluation grande section fin d année
+- evaluation jocatop ce1
+- évaluation lecture cp période 2 pdf
+- évaluation maths ce1 période 2 pdf
+- évaluation monnaie ce1 bout de gomme
+- évaluation nationale cp septembre 2026
+- evaluation reperes ce1 2025
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| remplacement maternelle | shallow | 1 / 1 | 10 |
+| remplacement ce1 | shallow | 1 / 1 | 10 |
+| remplacement ce2 | shallow | 1 / 1 | 10 |
+| travail en autonomie cp | shallow | 1 / 1 | 10 |
+| brigade remplacement | shallow | 1 / 1 | 7 |
+| kit remplaçant | shallow | 1 / 1 | 1 |
+| remplacement cp | deep | 14 / 27 | 47 |
+| journée de remplacement | deep | 8 / 27 | 25 |
+| remplaçant école | deep | 3 / 27 | 6 |
+| journée clé en main cp | shallow | 0 / 1 | 0 |
+| fiches remplacement | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): periode 30 · en 23 · une 16 · ce1 15 · cm2 10 · ce2 10 · cm1 9 · journee 8 · gs 5 · primaire 4 · au 3 · court 3 · de 3 · fiche 3 · section 3 · cp 3 · activite 2 · classe 2 · jour 2 · grande 2 · maternelle 2 · ps 2 · ms 2 · luxembourg 2 · p1 1 · badge 1 · du 1 · exercice 1 · eps 1 · janvier 1 · un 1 · malette 1 · p3 1 · p5 1 · p2 1 · p4 1 · ressources 1 · sans 1 · photocopie 1 · petite 1
+
+**Phrases** (all 126, by how many lookups returned them)
+
+- remplacement cp ce1 une journée  ×4
+- journée de remplacement en maternelle  ×3
+- une journée de remplacement en ps ms  ×3
+- journée de remplacement cp  ×2
+- journée de remplacement en ps  ×2
+- remplaçant école primaire  ×2
+- remplacement cp au cm2  ×2
+- remplacement cp période 1  ×2
+- remplacement cp une journée  ×2
+- une journée de remplacement en petite section  ×2
+- journée de remplacement en ms  ×2
+- remplaçant école primaire luxembourg  ×2
+- remplacement cp ce1  ×2
+- remplacement cp p1  ×2
+- activité remplacement cp ce1  ×2
+- une journée de remplacement en cm2  ×2
+- une journée de remplacement en cm1  ×2
+- brigade remplacement rentrée
+- fiche remplacement cp
+- journée de remplacement gs
+- kit remplaçant
+- malette remplacement cp
+- remplacant ecole geneve
+- remplacement ce1
+- remplacement ce2
+- remplacement cp
+- remplacement cp badge
+- remplacement cp journée
+- remplacement cp sans photocopie
+- remplacement du cp au cm2
+- remplacement en cp
+- remplacement gs cp
+- remplacement maternelle
+- ressources remplacement cp
+- travail en autonomie cp
+- une journée de remplacement en cp
+- brigade remplacement école
+- journée de remplacement cm2
+- remplacement au cp
+- remplacement ce1 une journée
+- remplacement ce2 période 1
+- remplacement classe de cp
+- remplacement cp janvier
+- remplacement en cp ce1
+- remplacement grande section cp
+- remplacement gs cp ce1
+- remplacement maternelle période 1
+- travail en autonomie cp période 1
+- une journée de remplacement en grande section
+- une journée de remplacement en maternelle
+- activité remplacement cp
+- brigade remplacement
+- enseignant remplaçant école primaire
+- journée de remplacement
+- journée de remplacement cm1 cm2
+- journée de remplacement en cp
+- journée remplacement gs cp
+- remplaçant école primaire luxembourg salaire
+- remplacement ce1 ce2
+- remplacement ce2 cm1
+- remplacement cp 1 jour
+- remplacement cp ce1 ce2
+- remplacement cp période 5
+- remplacement en cp ce1 ce2
+- remplacement maternelle activités
+- travail en autonomie cp période 3
+- une journée de remplacement en ce1
+- fiche remplaçant école
+- journée de remplacement ce2
+- journée de remplacement en ce2
+- remplacement brigade education nationale
+- remplacement ce1 période 1
+- remplacement ce2 cm1 cm2
+- remplacement court en cp
+- remplacement cp ce1 période 1
+- remplacement cp période 2
+- remplacement maternelle album
+- travail en autonomie cp période 2
+- brigade de remplacement aesh
+- journée de remplacement cm1
+- journée de remplacement en cm1 cm2
+- remplacement ce1 ce2 journée
+- remplacement ce2 periode 3
+- remplacement cp ce1 periode 3
+- remplacement cp période 3
+- remplacement maternelle période 5
+- remplacement un jour cp
+- remplacement une journée en cp
+- travail en autonomie cp période 4
+- une journée de remplacement en cm1 cm2
+- exercice remplacement cp
+- fiche remplacement brigade
+- remplacement ce1 période 5
+- remplacement ce2 période 5
+- remplacement cp ce1 période 5
+- remplacement cp période 4
+- remplacement maternelle période 3
+- travail en autonomie cp ce1
+- brigade départementale de remplacement
+- eps remplacement cp
+- journée de remplacement en ce1
+- remplacement ce1 ce2 période 3
+- remplacement ce2 periode 4
+- remplacement cp ce1 période 2
+- remplacement cp p3
+- remplacement maternelle période 4
+- travail en autonomie cp période 5
+- remplacement ce1 ce2 période 5
+- remplacement ce2 cm2
+- remplacement court cp
+- remplacement cp p5
+- remplacement maternelle période 2
+- travail en autonomie cp pdf
+- une journée de remplacement en gs
+- remplacement ce1 periode 4
+- remplacement ce2 periode 2
+- remplacement court cp ce1
+- remplacement cp p2
+- remplacement maternelle une journée
+- travail en autonomie cp la classe
+- remplacement ce1 ce2 cm1 cm2
+- remplacement ce2 cm1 période 5
+- remplacement cp p4
+- remplacement maternelle noel
+- travail en autonomie cp lecture
+- une journée de remplacement en ce2
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| lecture cp | deep | 27 / 27 | 218 |
+| lecture ce1 | shallow | 1 / 1 | 10 |
+| lecture syllabique cp | shallow | 1 / 1 | 5 |
+| premières lectures cp | shallow | 1 / 1 | 5 |
+| livret de lecture cp | shallow | 1 / 1 | 3 |
+| histoires à lire cp | shallow | 1 / 1 | 2 |
+| textes de lecture cp | shallow | 1 / 1 | 1 |
+| mini livre maternelle | shallow | 1 / 1 | 1 |
+| petit livre à imprimer | deep | 5 / 27 | 4 |
+| petits livres cp | deep | 0 / 27 | 0 |
+| textes déchiffrables | deep | 0 / 27 | 0 |
+| livres déchiffrables cp | shallow | 0 / 1 | 0 |
+| lecture déchiffrable | shallow | 0 / 1 | 0 |
+| petits livres à plier | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): pdf 16 · son 13 · et 10 · en 9 · imprimer 8 · fiche 7 · vacances 7 · exercices 6 · lettre 6 · periode 5 · niveau 5 · annee 5 · piano 5 · ligne 4 · ce1 4 · livre 4 · comprehension 4 · gratuit 4 · je 4 · lis 4 · zaubette 4 · difficulte 3 · de 3 · histoire 3 · kimamila 3 · kit 3 · siam 3 · noel 3 · texte 3 · pour 2 · eleve 2 · automne 2 · image 2 · chat 2 · noir 2 · ch 2 · pilotis 2 · debut 2 · fin 2 · fevrier 2
+
+**Phrases** (all 249, by how many lookups returned them)
+
+- lecture cp à imprimer  ×3
+- fabriquer un petit livre à imprimer  ×2
+- lecture cp ce1  ×2
+- lecture cp en ligne  ×2
+- lecture cp livre  ×2
+- lecture cp niveau 1  ×2
+- lecture cp période 1  ×2
+- petit livre cp à imprimer  ×2
+- lecture cp pour élève en difficulté pdf  ×2
+- lecture cp pdf  ×2
+- lecture cp à imprimer pdf  ×2
+- histoires à lire cp
+- lecture ce1
+- lecture cp
+- lecture cp acces
+- lecture cp bout de gomme
+- lecture cp début d'année
+- lecture cp facile
+- lecture cp gratuit
+- lecture cp halloween
+- lecture cp ipotame
+- lecture cp jeu
+- lecture cp kimamila
+- lecture cp manuel
+- lecture cp octobre
+- lecture cp questions
+- lecture cp rentrée
+- lecture cp son a
+- lecture cp texte
+- lecture cp ulis
+- lecture cp vacances toussaint
+- lecture cp w
+- lecture cp x
+- lecture cp zaubette
+- lecture syllabique cp pdf
+- livret de lecture cp
+- mini livre maternelle
+- petit livre a imprimer
+- petit livre à imprimer
+- premières lectures cp
+- textes de lecture cp
+- youtube lecture cp
+- lecture ce1 pour élève en difficulté pdf
+- lecture cp autonomie
+- lecture cp borel maisonny
+- lecture cp compréhension
+- lecture cp debutant
+- lecture cp en ligne gratuit
+- lecture cp fluence
+- lecture cp gratuit pdf
+- lecture cp histoire
+- lecture cp in
+- lecture cp janvier
+- lecture cp l
+- lecture cp lettre w
+- lecture cp lettre x
+- lecture cp methode
+- lecture cp niveau 1 pdf
+- lecture cp oi
+- lecture cp ratus
+- lecture cp sami et julie
+- lecture cp taoki
+- lecture cp u
+- lecture cp voyelles
+- lecture cp y
+- lecture cp z
+- lecture piano cp kaly
+- lecture syllabique cp
+- livret de lecture cp pdf
+- petites histoires à lire cp
+- premières lectures cp pdf
+- fiche lecture cp ulis
+- fiche lecture cp w
+- lecture ce1 ce2
+- lecture cp atelier
+- lecture cp b et d
+- lecture cp chat noir
+- lecture cp dys
+- lecture cp exercices
+- lecture cp fil et lulu
+- lecture cp guide orange
+- lecture cp hippopotame
+- lecture cp jeu en ligne
+- lecture cp lettre l
+- lecture cp mots simples
+- lecture cp noel
+- lecture cp ou
+- lecture cp r
+- lecture cp son x
+- lecture cp syllabes
+- lecture cp toussaint
+- lecture cp vers ce1
+- lecture inférence cp
+- lecture piano cp zaubette
+- lecture syllabique cp à imprimer
+- livre lecture cp yves et beatrice
+- livret de lecture cp à imprimer
+- methode lecture cp kit et siam
+- premieres lectures cp nathan
+- fiche lecture x cp
+- lecture ce1 à imprimer
+- lecture cp a
+- lecture cp bd
+- lecture cp ce1 à imprimer
+- lecture cp dyslexique
+- lecture cp eduscol
+- lecture cp fiche
+- lecture cp guide
+- lecture cp hiver
+- lecture cp je lis je fais
+- lecture cp lecteur
+- lecture cp monstres en classe
+- lecture cp niveau 2
+- lecture cp objectif
+- lecture cp période 1 pdf
+- lecture cp remplacement
+- lecture cp son z
+- lecture cp sons complexes
+- lecture cp tapuscrit
+- lecture cp vacances automne
+- lecture implicite cp
+- lecture piano cp kaly et ses secrets
+- lecture son w cp
+- lecture son y cp
+- lecture syllabique cp pdf free download
+- mes premières lectures cp
+- fiche lecture cp zaubette
+- lecture ce1 compréhension
+- lecture cp alpha
+- lecture cp bl cl fl gl pl
+- lecture cp coccinelle
+- lecture cp disney
+- lecture cp exercices pdf
+- lecture cp fichier
+- lecture cp galette des rois
+- lecture cp hatier
+- lecture cp je lis je dessine
+- lecture cp les alphas
+- lecture cp maitre lucas
+- lecture cp nathan
+- lecture cp o
+- lecture cp piano
+- lecture cp retz
+- lecture cp son e
+- lecture cp texte court
+- lecture cp vacances février
+- lecture lettre y cp
+- lecture syllabique cp exercices
+- livres premières lectures cp
+- manuel lecture cp kit et siam
+- wordwall lecture cp
+- fiche lecture y cp
+- lecture ce1 rentrée
+- lecture cp automne
+- lecture cp blog de chat noir
+- lecture cp ch
+- lecture cp dinosaure
+- lecture cp en difficulté
+- lecture cp fin période 1
+- lecture cp galette
+- lecture cp hachette
+- lecture cp j
+- lecture cp le son a
+- lecture cp milieu d année
+- lecture cp niveau 3
+- lecture cp on om
+- lecture cp pilotis
+- lecture cp revision
+- lecture cp sami et julie gratuit
+- lecture cp son k
+- lecture cp taoki pdf
+- lecture cp vacances
+- lecture du soir cp zaubette
+- livre lecture cp star wars
+- lecture ce1 pdf
+- lecture cp bon appétit monsieur lapin
+- lecture cp codeo
+- lecture cp dix mois
+- lecture cp en pdf
+- lecture cp fin d'année
+- lecture cp g
+- lecture cp histoire courte
+- lecture cp juin
+- lecture cp lettre r
+- lecture cp montessori
+- lecture cp noel tapuscrit
+- lecture cp oin
+- lecture cp p1
+- lecture cp rased
+- lecture cp son ch
+- lecture cp son in
+- lecture cp ti si
+- lecture cp vacances printemps
+- lecture lettre z cp
+- rallye lecture cp kimamila
+- fiche lecture kimamila cp
+- lecture ce1 période 1
+- lecture cp album
+- lecture cp bonne année
+- lecture cp collection pilotis cahier d'exercices edition 2019
+- lecture cp documentaire
+- lecture cp exercices à imprimer
+- lecture cp f
+- lecture cp genially
+- lecture cp harry potter
+- lecture cp je lis je colorie
+- lecture cp le son m
+- lecture cp mots
+- lecture cp nouveaux programmes
+- lecture cp période 5
+- lecture cp roman
+- lecture cp son r
+- lecture cp timini
+- lecture cp vacances noel
+- lecture sons cp ipotame
+- lecture ce1 début d'année
+- lecture compréhension cp à imprimer
+- lecture cp associer image et phrase
+- lecture cp br cr dr
+- lecture cp ce1 compréhension
+- lecture cp difficultés
+- lecture cp entrainement
+- lecture cp foot
+- lecture cp gafi
+- lecture cp huby
+- lecture cp je lis je comprends
+- lecture cp les petites poules
+- lecture cp mot image
+- lecture cp novembre
+- lecture cp paris
+- lecture cp recette
+- lecture cp son o
+- lecture cp texte pdf
+- lecture cp vacances été
+- livre de lecture cp kit et siam
+- lecture ce1 exercice
+- lecture cp avec méli
+- lecture cp bulle
+- lecture cp devoirs
+- lecture cp en ligne histoire
+- lecture cp fevrier
+- lecture cp gn
+- lecture cp librairie des ecoles
+- lecture cp moyen age
+- lecture cp niveau
+- lecture cp piano exercices
+- lecture cp syllabes simples
+- lecture cp tout terrain
+- lecture cp vitesse

@@ -1,0 +1,1763 @@
+# Daily Teaching System — search demand, market `nl`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 10 | 367 |
+| National curriculum | 11 | 11 | 494 |
+| Assessments and tests | 14 | 13 | 357 |
+| Substitute-teacher packs | 11 | 4 | 125 |
+| First readers and mini-books | 14 | 12 | 285 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| thema groep 1 2 | shallow | 1 / 1 | 10 |
+| jaarplanning groep 4 | shallow | 1 / 1 | 10 |
+| jaarplanning groep 5 | shallow | 1 / 1 | 7 |
+| weekplanning groep 3 | shallow | 1 / 1 | 3 |
+| themaplanning kleuters | shallow | 1 / 1 | 3 |
+| jaarplanning kleuters | shallow | 1 / 1 | 3 |
+| thema kleuters | deep | 24 / 27 | 227 |
+| lesplan | deep | 21 / 27 | 90 |
+| jaarplanning groep 3 | deep | 9 / 27 | 10 |
+| weekplanning groep | deep | 1 / 27 | 9 |
+| lesplan groep 3 | shallow | 0 / 1 | 0 |
+| lesvoorbereiding rekenen | shallow | 0 / 1 | 0 |
+| lessenserie groep 5 | shallow | 0 / 1 | 0 |
+| lesvoorbereiding groep 3 | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): voorbeeld 9 · staal 6 · in 5 · knutselen 5 · pluspunt 4 · wig 4 · achteruit 4 · pdf 4 · jongste 4 · winter 4 · ruimte 4 · pennenstreken 3 · rijinstructeur 3 · maken 3 · parkeren 3 · van 3 · steken 3 · com 3 · links 3 · de 3 · format 3 · restaurant 3 · lichaam 3 · op 3 · avontuur 3 · juf 3 · kunst 3 · lente 3 · klinkers 2 · wereld 2 · ibki 2 · keren 2 · file 2 · ai 2 · auto 2 · bocht 2 · brandweer 2 · educational 2 · services 2 · engels 2
+
+**Phrases** (all 367, by how many lookups returned them)
+
+- jaarplanning wereld in getallen groep 3  ×4
+- lesplan keren door middel van steken  ×4
+- jaarplanning veilig leren lezen groep 3  ×3
+- lesplan achteruit vak parkeren  ×3
+- lesplan what in the world  ×3
+- jaarplanning wig 5 groep 3  ×3
+- lesplan achteruit file parkeren  ×3
+- jaarplanning pluspunt 4 groep 3  ×3
+- lesplan what in the world pdf  ×3
+- lesplan educational services ltd  ×3
+- lesplan templaat free download  ×3
+- jaarplanning klinkers groep 3  ×2
+- jaarplanning pennenstreken groep 3  ×2
+- jaarplanning staal groep 3  ×2
+- jaarplanning wig groep 3  ×2
+- lesplan educational services  ×2
+- lesplan ibki  ×2
+- lesplan je fantastische elastische brein  ×2
+- lesplan maken  ×2
+- lesplan rijinstructeur voorbeeld  ×2
+- lesplan voorbeeld  ×2
+- thema kleuters dit ben ik  ×2
+- thema kleuters familie  ×2
+- thema kleuters herfst  ×2
+- thema kleuters januari  ×2
+- thema kleuters op reis  ×2
+- thema kleuters start schooljaar  ×2
+- thema kleuters theater  ×2
+- weekplanning groep 3  ×2
+- jaarplanning pluspunt groep 3  ×2
+- jaarplanning staal 2 groep 3  ×2
+- lesplan maken rijinstructeur  ×2
+- thema kleuters het lichaam  ×2
+- voorbeeld lesplan nt2  ×2
+- weekplanning groep 3 4  ×2
+- lesplan file parkeren  ×2
+- lesplan keren dmv steken  ×2
+- lesplan oranje kruis  ×2
+- lesplan rechts afslaan  ×2
+- lesplan template pdf  ×2
+- voorbeeld lesplan kruispunten  ×2
+- weekplanning groep 2-3  ×2
+- lesplan 3 keer steken  ×2
+- lesplan format word  ×2
+- lesplan maken voorbeeld  ×2
+- lesplan vir kleuters pdf  ×2
+- info lesplan com  ×2
+- ingevuld lesplan als voorbeeld  ×2
+- lesplan ai kosten  ×2
+- restaurant lesplan saint paul trois châteaux  ×2
+- jaarplanning kleuters
+- jaarplanning pluspunt groep 4
+- jaarplanning staal groep 5
+- lesplan
+- lesplan brandweer
+- lesplan code 95
+- lesplan docent
+- lesplan formulier
+- lesplan gym
+- lesplan login
+- lesplan nt2
+- lesplan opstellen
+- lesplan paardrijden
+- lesplan schrijven
+- lesplan template
+- thema afval kleuters
+- thema egypte kleuters
+- thema gezondheid kleuters
+- thema insecten kleuters
+- thema kleuters
+- thema kleuters begin schooljaar
+- thema kleuters camping
+- thema kleuters kunst
+- thema kleuters lente
+- thema kleuters mijn lichaam
+- thema kleuters nederland
+- thema kleuters restaurant
+- thema kleuters vroeger en nu
+- thema kleuters winter
+- thema kleuters zomer
+- thema pasen kleuters
+- thema uitvinders kleuters
+- thema's groep 1 2
+- themaplanning kleuters
+- da lesplan
+- jaarplanning pennenstreken groep 4
+- jaarplanning pluspunt groep 5
+- jaarplanning thema's kleuters
+- lesplan betekenis
+- lesplan cbr
+- lesplan engels
+- lesplan format
+- lesplan ibki examen
+- lesplan kruispunten
+- lesplan links
+- lesplan nederlands
+- lesplan opzet
+- lesplan pdf
+- lesplan rijinstructeur
+- lesplan sjabloon
+- lesplan thuisonderwijs
+- lesplan van gelder
+- lesplan wiskunde
+- thema avontuur kleuters
+- thema circus kleuters
+- thema eten kleuters
+- thema gevoelens kleuters
+- thema indianen kleuters
+- thema kleuters bouwen
+- thema kleuters de bakker
+- thema kleuters februari
+- thema kleuters jungle
+- thema kleuters kriebelbeestjes
+- thema kleuters lichaam
+- thema kleuters muziek
+- thema kleuters op avontuur
+- thema kleuters supermarkt
+- thema kleuters tuincentrum
+- thema kleuters vroeger
+- thema kleuters wij gaan op berenjacht
+- thema kleuters ziek zijn
+- thema natuur kleuters
+- thema post kleuters
+- thema ruimte kleuters
+- thema uitvindingen groep 1 2
+- thema uitvindingen kleuters
+- voorbeeld themaplanning kleuters
+- weekplanning groep 4
+- dynamisch lesplan
+- format themaplanning kleuters
+- jaarplanning doelen kleuters
+- jaarplanning pennenstreken groep 5
+- jaarplanning staal groep 4
+- leeg lesplan
+- lesplan ai
+- lesplan basisschool
+- lesplan com links
+- lesplan ehbo
+- lesplan in engels
+- lesplan mindset
+- thema afrika kleuters
+- thema carnaval kleuters
+- thema emoties kleuters
+- thema grootouders kleuters
+- thema ijsjes kleuters
+- thema kleuters boerderij
+- thema kleuters dino
+- thema kleuters feest
+- thema kleuters hulpdiensten
+- thema kleuters kleding
+- thema kleuters maart
+- thema kleuters onderwaterwereld
+- thema kleuters sinterklaas
+- thema kleuters vogels in de winter
+- thema kleuters water
+- thema landen kleuters
+- thema nieuwjaar kleuters
+- thema piraten kleuters
+- thema roodkapje kleuters
+- thema theater groep 1 2
+- thema tijd kleuters
+- thema uilen kleuters
+- thema ziekenhuis kleuters
+- thema's jongste kleuters
+- weekplanning groep 1 2
+- de lesplan
+- jaarplanning klinkers groep 4
+- lesplan autorijles
+- lesplan building bridges
+- lesplan canadian reader
+- lesplan edi
+- lesplan invoegen
+- lesplan onderwijs
+- lesplan rijles
+- lesplan wrm praktijk
+- thema appels kleuters
+- thema cijfers kleuters
+- thema dierentuin kleuters
+- thema dinosaurussen groep 1 2
+- thema eieren kleuters
+- thema fruit kleuters
+- thema groenten kleuters
+- thema italie kleuters
+- thema japan kleuters
+- thema kleuters beroepen
+- thema kleuters het weer
+- thema kleuters kerst
+- thema kleuters mei
+- thema kleuters sprookjes
+- thema kleuters verkeer
+- thema letters kleuters
+- thema noordpool kleuters
+- thema onderwater kleuters
+- thema politie kleuters
+- thema reizen kleuters
+- thema tandarts kleuters
+- thema uitwerken kleuters
+- thema wonen kleuters
+- thema zintuigen kleuters
+- bazalt lesplan
+- jaarplanning semsom groep 4
+- jaarplanning wig 5 groep 4
+- kleuters thema naar school
+- lesplan formaat
+- lesplan model
+- lesplan rijschool
+- thema apotheek kleuters
+- thema avontuur groep 1 2
+- thema communicatie kleuters
+- thema dokter kleuters
+- thema elmer kleuters
+- thema fiets kleuters
+- thema groeien kleuters
+- thema huisdieren kleuters
+- thema ijssalon kleuters
+- thema kerst kleuters juf janneke
+- thema kleuters boeken
+- thema kleuters kamperen
+- thema kleuters vervoer
+- thema laboratorium kleuters
+- thema museum kleuters
+- thema oertijd kleuters
+- thema prehistorie kleuters
+- thema ruimte kleuters kringactiviteiten
+- thema sport kleuters
+- thema trouwen kleuters
+- thema unicorn kleuters
+- thema winkel kleuters
+- thema zee kleuters
+- voorbeeld van lesplan
+- www lesplan com links
+- jaarplanning taaljacht groep 4
+- jaarplanning wig 5 groep 5
+- lesplan auto
+- lesplan ris
+- thema auto kleuters
+- thema bakker kleuters
+- thema china kleuters
+- thema dieren kleuters
+- thema engeland kleuters
+- thema frankrijk kleuters
+- thema geschiedenis kleuters
+- thema huis kleuters
+- thema ideeën kleuters
+- thema kapper kleuters
+- thema lieveheersbeestjes kleuters
+- thema moederdag kleuters
+- thema nippertje kleuters
+- thema ontdekkingsreizigers kleuters
+- thema pizzeria kleuters
+- thema ruimte kleuters woordkaarten
+- thema schoenen kleuters
+- thema techniek kleuters
+- thema vakantie kleuters
+- thema verkeer groep 1 2
+- thema wereld kleuters
+- thema winter kleuters juf janneke
+- thema zwembad kleuters
+- uitdagende thema's kleuters
+- wced lesplan
+- weekplanning groep 8
+- 5 minuten lesplan
+- jaarplanning karakter groep 4
+- jaarplanning staal spelling groep 5
+- lesplan bocht achteruit
+- lesplan halve draai
+- thema ambulance kleuters
+- thema boerderij kleuters juf anke
+- thema brandweer kleuters
+- thema circus groep 1 2
+- thema consultatiebureau kleuters
+- thema dierenarts kleuters
+- thema europa kleuters
+- thema feest kleuters knutselen
+- thema geld kleuters
+- thema halloween kleuters
+- thema ik kleuters
+- thema koningsdag kleuters
+- thema liefde kleuters
+- thema moestuin kleuters
+- thema nachtdieren kleuters
+- thema oceaan kleuters
+- thema paddenstoelen kleuters
+- thema robots kleuters
+- thema school kleuters
+- thema trein kleuters
+- thema vogels kleuters
+- thema weer kleuters
+- thema zwemmen kleuters
+- weekplanning groep 5
+- weskaap lesplan
+- jaarplanning estafette groep 4
+- thema aarde kleuters
+- thema bloemen kleuters
+- thema chocolade kleuters
+- thema duurzaamheid kleuters
+- thema egel kleuters
+- thema fietsenmaker kleuters
+- thema gruffalo kleuters
+- thema heksen kleuters
+- thema ijsbeer kleuters
+- thema kleuren kleuters
+- thema kunst jongste kleuters
+- thema letterwinkeltje kleuters
+- thema markt kleuters
+- thema november kleuters
+- thema paarden kleuters
+- thema restaurant groep 1 2
+- thema ridders kleuters
+- thema safari kleuters
+- thema talenten kleuters
+- thema vormen kleuters
+- thema welkom kleuters
+- thema zeedieren kleuters
+- thema's oudste kleuters
+- voorbeeld lesplan rijles
+- weekplanning groep 7
+- jaarplanning staal spelling groep 4
+- lesplan bocht achteruit rijden
+- thema astronaut kleuters
+- thema bijen kleuters
+- thema cultuur kleuters
+- thema dozen kleuters
+- thema eenhoorn kleuters
+- thema fotograaf kleuters
+- thema geboorte kleuters
+- thema herfst jongste kleuters
+- thema holbewoners kleuters
+- thema india kleuters
+- thema kermis kleuters
+- thema lente kleuters knutselen
+- thema mensen kleuters
+- thema olifant kleuters
+- thema postbode kleuters
+- thema romeinen kleuters
+- thema ruimte groep 1 2
+- thema rupsje nooitgenoeg kleuters
+- thema superhelden kleuters
+- thema tuin kleuters
+- thema vriendschap kleuters
+- thema winter kleuters knutselen
+- thema zomervakantie kleuters
+- weekplanning groep 6
+- afrikaans lesplan
+- knutselen thema nederland kleuters
+- thema australie kleuters
+- thema baby kleuters
+- thema carnaval jongste kleuters
+- thema cowboys kleuters
+- thema dromen kleuters
+- thema elektriciteit kleuters
+- thema fantasie kleuters
+- thema goudlokje kleuters
+- thema haven kleuters
+- thema israel kleuters
+- thema kabouters kleuters
+- thema kunst groep 1 2
+- thema lente kleuters taal
+- thema machines kleuters
+- thema oerwoud kleuters
+- thema planeten kleuters
+- thema ruimtevaart kleuters
+- thema sneeuwwitje kleuters
+- thema tuinieren kleuters
+- thema vliegtuig kleuters
+- thema wk kleuters
+- thema zomer kleuters knutselen
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| kerndoelen rekenen | shallow | 1 / 1 | 10 |
+| kerndoelen groep 3 | shallow | 1 / 1 | 10 |
+| slo doelen groep 3 | shallow | 1 / 1 | 10 |
+| doelen groep 4 | shallow | 1 / 1 | 10 |
+| leerlijnen kleuters | shallow | 1 / 1 | 10 |
+| referentieniveaus rekenen | shallow | 1 / 1 | 8 |
+| tule slo | shallow | 1 / 1 | 4 |
+| leerlijn rekenen groep 3 | shallow | 1 / 1 | 2 |
+| slo doelen | deep | 24 / 27 | 186 |
+| kerndoelen | deep | 23 / 27 | 213 |
+| leerlijn rekenen | deep | 17 / 27 | 51 |
+
+**Words people add** (how many distinct phrases carry the word): groep 58 · slo 36 · en 30 · kleuters 22 · onderwijs 21 · taal 19 · basisonderwijs 16 · vo 16 · rekenen 16 · lezen 15 · aardrijkskunde 14 · po 13 · engels 13 · nederlands 11 · onderbouw 11 · jonge 11 · kind 11 · vmbo 10 · motoriek 10 · digitale 8 · burgerschap 8 · 2026 8 · techniek 8 · wiskunde 8 · peuters 8 · primair 7 · geletterdheid 6 · voortgezet 6 · geschiedenis 6 · in 6 · natuur 6 · wereldorientatie 6 · spelling 6 · mbo 5 · nieuwe 5 · wereld 5 · muziek 5 · zml 5 · bewegingsonderwijs 4 · fijne 4
+
+**Phrases** (all 494, by how many lookups returned them)
+
+- kerndoelen rekenen  ×3
+- leerlijn rekenen groep 3  ×3
+- slo doelen groep 3  ×3
+- leerlijn rekenen groep 5 wereld in getallen  ×3
+- slo doelen voor het jonge kind  ×3
+- slo doelen wat is dat  ×3
+- kerndoelen burgerschap  ×2
+- kerndoelen digitale geletterdheid  ×2
+- kerndoelen groep 3  ×2
+- kerndoelen nederlands  ×2
+- kerndoelen primair onderwijs  ×2
+- kerndoelen slo  ×2
+- kerndoelen voortgezet onderwijs  ×2
+- leerlijn rekenen basisonderwijs  ×2
+- leerlijn rekenen kleuters  ×2
+- leerlijn rekenen primair onderwijs  ×2
+- leerlijn rekenen slo  ×2
+- leerlijn rekenen wereld in getallen  ×2
+- slo doelen burgerschap  ×2
+- slo doelen digitale geletterdheid  ×2
+- slo doelen groep 2  ×2
+- slo doelen jonge kind  ×2
+- slo doelen kleuters  ×2
+- slo doelen peuters  ×2
+- slo doelen rekenen  ×2
+- slo doelen taal  ×2
+- kerndoelen basisonderwijs  ×2
+- kerndoelen primair onderwijs 2026  ×2
+- kerndoelen rekenen slo  ×2
+- leerlijn rekenen groep 3 slo  ×2
+- leerlijn rekenen groep 4  ×2
+- slo leerlijn rekenen kleuters  ×2
+- kerndoelen rekenen en wiskunde  ×2
+- kerndoelen wereldorientatie groep 3  ×2
+- leerlijn rekenen groep 4 wereld in getallen  ×2
+- leerlijn rekenen groep 6  ×2
+- overzicht leerlijn rekenen basisonderwijs  ×2
+- slo doelen executieve functies  ×2
+- slo doelen het jonge kind  ×2
+- kerndoelen rekenen po  ×2
+- kerndoelen taal groep 3  ×2
+- leerlijn rekenen groep 5  ×2
+- slo doelen orientatie op jezelf en de wereld  ×2
+- slo doelen wereldorientatie groep 3  ×2
+- kerndoelen rekenen groep 3  ×2
+- leerlijn rekenen groep 7  ×2
+- slo doelen groep 4 rekenen  ×2
+- slo doelen pre fase  ×2
+- kerndoelen lezen groep 3  ×2
+- kerndoelen orientatie op jezelf en de wereld  ×2
+- kerndoelen rekenen kleuters  ×2
+- leerlijn rekenen groep 8  ×2
+- slo doelen aardrijkskunde groep 3  ×2
+- slo doelen kunstzinnige orientatie  ×2
+- kerndoelen rekenen 2026  ×2
+- kerndoelen rekenen groep 7  ×2
+- kerndoelen rekenen groep 5  ×2
+- slo doelen peuters motoriek  ×2
+- slo doelen technisch lezen groep 3  ×2
+- doelen groep 4
+- doorlopende leerlijn rekenen
+- hoofdfasen leerlijn rekenen
+- kerndoelen aardrijkskunde
+- kerndoelen cultuureducatie
+- kerndoelen engels
+- kerndoelen fries
+- kerndoelen geschiedenis
+- kerndoelen handschriftonderwijs
+- kerndoelen ict
+- kerndoelen jonge kind
+- kerndoelen kunst en cultuur
+- kerndoelen lezen basisonderwijs
+- kerndoelen mens en maatschappij
+- kerndoelen onderwijs
+- kerndoelen taal
+- kerndoelen wereldorientatie
+- kerndoelen zorg en welzijn
+- leerlijn automatiseren rekenen
+- leerlijn cijferend rekenen
+- leerlijn realistisch rekenen
+- leerlijn rekenen
+- leerlijn rekenen groep 1 en 2
+- leerlijn rekenen montessori
+- leerlijn rekenen po
+- leerlijn rekenen wiskunde
+- leerlijnen kleuters
+- lowan leerlijn rekenen
+- referentieniveaus rekenen
+- slo doelen
+- slo doelen aardrijkskunde
+- slo doelen creatief
+- slo doelen engels basisonderwijs
+- slo doelen fijne motoriek groep 1 en 2
+- slo doelen handvaardigheid
+- slo doelen ict
+- slo doelen lezen
+- slo doelen motoriek
+- slo doelen natuur en techniek
+- slo doelen ojw
+- slo doelen sociaal emotioneel
+- slo doelen uk en puk
+- slo doelen vve
+- slo doelen wereldorientatie
+- slo doelen zml
+- tule slo
+- doelen groep 4 rekenen
+- doorgaande leerlijn rekenen
+- eigen leerlijn rekenen
+- hoofdfase leerlijn rekenen
+- kerndoelen
+- kerndoelen aardrijkskunde vo
+- kerndoelen ckv
+- kerndoelen digitale geletterdheid po
+- kerndoelen engels basisonderwijs
+- kerndoelen frans
+- kerndoelen geschiedenis vo
+- kerndoelen groep 3 rekenen
+- kerndoelen handschrift
+- kerndoelen ict basisonderwijs
+- kerndoelen jeugdliteratuur
+- kerndoelen kleuters
+- kerndoelen lo
+- kerndoelen mens en natuur
+- kerndoelen nederlands vo
+- kerndoelen onderbouw voortgezet onderwijs
+- kerndoelen slo vo
+- kerndoelen taal slo
+- kerndoelen vso
+- kerndoelen wiskunde vmbo
+- kerndoelen zml
+- leerlijn rekenen basisschool
+- leerlijn rekenen met geld
+- leerlijn rekenen praktijkonderwijs
+- leerlijn rekenen splitsen
+- leerlijn rekenen wig 5
+- leerlijnen kleuters rekenen
+- opbouw leerlijn rekenen
+- referentieniveaus rekenen 1f 1s
+- slo doelen afkorting
+- slo doelen begrijpend lezen
+- slo doelen cultuureducatie
+- slo doelen dans
+- slo doelen eind groep 2
+- slo doelen fijne motoriek
+- slo doelen groep 3 taal
+- slo doelen hb
+- slo doelen inhoudslijnen
+- slo doelen jonge kind rekenen
+- slo doelen kinderopvang
+- slo doelen leren leren
+- slo doelen motoriek groep 1 en 2
+- slo doelen nieuw
+- slo doelen onderbouw
+- slo doelen praktijkonderwijs
+- slo doelen rekenen groep 3
+- slo doelen sociaal emotioneel kleuters
+- slo doelen taal kleuters
+- slo doelen vo
+- slo doelen wo
+- slo doelen zaakvakken
+- tule slo doelen
+- doelen groep 4 pluspunt
+- eigen leerlijn rekenen groep 6
+- kerndoelen aardrijkskunde basisonderwijs
+- kerndoelen burgerschap po
+- kerndoelen ckv vmbo
+- kerndoelen duits
+- kerndoelen engels po
+- kerndoelen financiele educatie
+- kerndoelen groep 3 slo
+- kerndoelen havo
+- kerndoelen isk
+- kerndoelen kunstzinnige orientatie
+- kerndoelen lezen
+- kerndoelen muziek
+- kerndoelen nederlands po
+- kerndoelen onderwijs 2026
+- kerndoelen po
+- kerndoelen slo rekenen
+- kerndoelen taal po
+- kerndoelen voortgezet onderwijs slo
+- kerndoelen zaakvakken
+- leerlijn rekenen breuken
+- leerlijn rekenen meten
+- leerlijn schriftelijk rekenen
+- leerlijnen kleuters parnassys
+- referentieniveaus rekenen vo
+- slo doelen ak
+- slo doelen betekenis
+- slo doelen ckv
+- slo doelen drama kleuters
+- slo doelen fonemisch bewustzijn
+- slo doelen groep 1
+- slo doelen groep 3 lezen
+- slo doelen inhoudskaarten
+- slo doelen jonge kind taal
+- slo doelen kleuters rekenen
+- slo doelen levensbeschouwing
+- slo doelen muziek groep 1 en 2
+- slo doelen nederlands kleuters
+- slo doelen overgang groep 2 naar 3
+- slo doelen per leerjaar
+- slo doelen rekenen groep 2
+- slo doelen sociaal emotionele ontwikkeling
+- slo doelen tule
+- slo doelen wiskunde
+- slo doelen zelfredzaamheid
+- slo kerndoelen jonge kind
+- tule slo kerndoelen burgerschap
+- kerndoelen ak
+- kerndoelen burgerschap vo
+- kerndoelen creatieve vakken
+- kerndoelen dg
+- kerndoelen economie
+- kerndoelen frans onderbouw
+- kerndoelen geschiedenis po
+- kerndoelen herziening
+- kerndoelen ict slo
+- kerndoelen kunst en cultuur po
+- kerndoelen lichamelijke opvoeding
+- kerndoelen mbo
+- kerndoelen nederlands slo
+- kerndoelen onderbouw vo
+- kerndoelen praktijkonderwijs
+- kerndoelen slo 2026
+- kerndoelen techniek basisonderwijs
+- kerndoelen vo slo
+- kerndoelen wo
+- leerlijn rekenen pluspunt
+- leerlijn snappet rekenen
+- leerlijnen kleuters slo
+- nieuwe kerndoelen jeugdliteratuur
+- nieuwe kerndoelen zml
+- referentieniveaus rekenen basisonderwijs
+- slo doelen aardrijkskunde basisonderwijs
+- slo doelen begrijpend lezen groep 5
+- slo doelen ced
+- slo doelen dreumes
+- slo doelen engels kleuters
+- slo doelen fijne motoriek kleuters
+- slo doelen geschiedenis
+- slo doelen groep 4
+- slo doelen handschrift
+- slo doelen jonge kind motoriek
+- slo doelen kleuters 2026
+- slo doelen leerlijnen
+- slo doelen mediawijsheid
+- slo doelen nt2
+- slo doelen peuters taal
+- slo doelen rekenen groep 4
+- slo doelen spelling
+- slo doelen taal basisonderwijs
+- slo doelen voor peuters
+- slo doelen wetenschap en techniek
+- tule slo kleuters
+- welke slo doelen zijn er
+- kerndoelen aardrijkskunde po
+- kerndoelen basisonderwijs 2026
+- kerndoelen cultuuronderwijs
+- kerndoelen digitale geletterdheid slo
+- kerndoelen en eindtermen
+- kerndoelen funderend onderwijs curacao
+- kerndoelen groep 1 en 2
+- kerndoelen handvaardigheid
+- kerndoelen informatica
+- kerndoelen klassieke talen
+- kerndoelen lob
+- kerndoelen maatschappijleer
+- kerndoelen natuur en techniek
+- kerndoelen ojw
+- kerndoelen po 2026
+- kerndoelen slo taal
+- kerndoelen tule
+- kerndoelen vmbo nederlands
+- kerndoelen vmbo zorg en welzijn
+- kerndoelen wetenschap en technologie
+- leerlijn rekenen groep 5 pluspunt
+- leerlijn schattend rekenen
+- leerlijnen kleuters gym
+- nieuwe kerndoelen jonge kind
+- referentieniveaus rekenen mbo
+- slo doelen automatiseren rekenen
+- slo doelen begrijpend lezen groep 6
+- slo doelen cognitieve ontwikkeling
+- slo doelen digitale geletterdheid peuters
+- slo doelen en vaardigheden voor ontwikkeling
+- slo doelen fase 1
+- slo doelen groep 5
+- slo doelen handschriftonderwijs
+- slo doelen jonge kinderen
+- slo doelen kleuters taal
+- slo doelen lichamelijke opvoeding
+- slo doelen middelbare school
+- slo doelen natuur en techniek groep 3
+- slo doelen overzicht
+- slo doelen rekenen groep 1
+- slo doelen speciaal onderwijs
+- slo doelen spelling groep 3
+- slo doelen techniek
+- slo doelen verkeer
+- zijn slo doelen verplicht
+- doelen rekenroute groep 4
+- hoeveel kerndoelen zijn er
+- kerndoelen aardrijkskunde slo
+- kerndoelen bewegingsonderwijs
+- kerndoelen curriculum
+- kerndoelen digitale
+- kerndoelen economie vmbo
+- kerndoelen fijne motoriek
+- kerndoelen groep 1
+- kerndoelen havo vwo
+- kerndoelen in het engels
+- kerndoelen kunst en cultuur vo
+- kerndoelen levensbeschouwing
+- kerndoelen mvt
+- kerndoelen nieuw
+- kerndoelen onderbouw
+- kerndoelen po nederlands
+- kerndoelen speciaal onderwijs
+- kerndoelen technisch lezen
+- kerndoelen vmbo
+- kerndoelen wereldorientatie basisonderwijs
+- leerlijn rekenen groep 4 pluspunt
+- leerlijnen kleuters taal
+- referentieniveaus rekenen slo
+- slo doelen begrijpend lezen groep 4
+- slo doelen creatief schrijven
+- slo doelen duurzaamheid
+- slo doelen engels groep 8
+- slo doelen fries
+- slo doelen geschiedenis groep 3
+- slo doelen groep 1 en 2
+- slo doelen handschriftontwikkeling
+- slo doelen lezen groep 3
+- slo doelen motorische ontwikkeling
+- slo doelen natuurkunde
+- slo doelen onderzoekend leren
+- slo doelen peuters sociaal emotioneel
+- slo doelen rekenen groep 5
+- slo doelen schrijven kleuters
+- slo doelen technisch lezen
+- slo doelen vso
+- slo doelen wereldorientatie groep 4
+- concretisering referentieniveaus rekenen 1f 1s
+- herziene kerndoelen
+- kerndoelen actualisatie
+- kerndoelen burgerschap slo
+- kerndoelen caribisch nederland
+- kerndoelen duits onderbouw
+- kerndoelen engels vmbo
+- kerndoelen fries slo
+- kerndoelen groep 2
+- kerndoelen in het onderwijs
+- kerndoelen kleuters slo
+- kerndoelen leesonderwijs
+- kerndoelen muziek vo
+- kerndoelen nederlands vmbo
+- kerndoelen per leerjaar
+- kerndoelen schrijven groep 3
+- kerndoelen slo aardrijkskunde
+- kerndoelen vo onderbouw
+- kerndoelen wiskunde slo
+- leerlijn rekenen groep 2
+- lowan leerlijnen kleuters
+- slo cruciale doelen
+- slo doelen aardrijkskunde groep 7
+- slo doelen bewegingsonderwijs kleuters
+- slo doelen digitale
+- slo doelen economie
+- slo doelen gym
+- slo doelen klokkijken
+- slo doelen lezen groep 4
+- slo doelen mbo
+- slo doelen natuur en techniek groep 4
+- slo doelen onderbouw vo
+- slo doelen peuters rekenen
+- slo doelen spelling groep 5
+- slo doelen taal jonge kind
+- slo doelen ve
+- slo doelen werkwoordspelling
+- slo kerndoelen zaakvakken
+- wig doelen groep 4
+- huidige kerndoelen nederlands
+- kerndoelen aardrijkskunde groep 3
+- kerndoelen aruba
+- kerndoelen bewegen en sport
+- kerndoelen burgerschap zml
+- kerndoelen concept
+- kerndoelen drama
+- kerndoelen engels onderbouw voortgezet onderwijs
+- kerndoelen funderend onderwijs
+- kerndoelen groep 4
+- kerndoelen in engels
+- kerndoelen kleuteronderwijs
+- kerndoelen mondelinge taalvaardigheid
+- kerndoelen nederlands mbo
+- kerndoelen onderwijs vo
+- kerndoelen primair onderwijs boek
+- kerndoelen slo engels
+- kerndoelen topografie basisonderwijs
+- kerndoelen vo 2006
+- kerndoelen wiskunde onderbouw
+- leerlijn rekenen groep 1 2
+- leerlijnen bewegingsonderwijs kleuters
+- poster referentieniveaus rekenen
+- slo doelen 0 4 jaar
+- slo doelen aardrijkskunde groep 6
+- slo doelen dans en drama
+- slo doelen engels groep 6
+- slo doelen groep 6
+- slo doelen kijk
+- slo doelen kunst en cultuur
+- slo doelen lentekriebels
+- slo doelen muziek kleuters
+- slo doelen nl
+- slo doelen oudere kind
+- slo doelen per groep
+- slo doelen schrijven groep 3
+- slo doelen spelling groep 4
+- slo doelen taal peuters
+- slo doelen vmbo
+- slo doelen w&t
+- slo leerlijn rekenen groep 5
+- staal doelen groep 4
+- ced leerlijnen kleuters
+- doelen spelling groep 4
+- huidige kerndoelen
+- implementatie kerndoelen
+- kerndoelen ai
+- kerndoelen burgerschap mbo
+- kerndoelen creatief
+- kerndoelen dienstverlening en producten
+- kerndoelen friese taal
+- kerndoelen groep 5
+- kerndoelen kinderopvang
+- kerndoelen leesvaardigheid
+- kerndoelen meertaligheid
+- kerndoelen nieuwe
+- kerndoelen o&o
+- kerndoelen primair onderwijs 2026 boek
+- kerndoelen slo bewegingsonderwijs
+- kerndoelen spelling groep 3
+- kerndoelen techniek
+- kerndoelen voortgezet onderwijs 2006
+- kerndoelen woordenschat
+- leerlijn rekenen groep 1
+- nieuwe slo doelen digitale geletterdheid
+- slo doelen aardrijkskunde kleuters
+- slo doelen engels groep 7
+- slo doelen groep 1/2
+- slo doelen kleuters motoriek
+- slo doelen letterkennis groep 2
+- slo doelen muziek groep 3
+- slo doelen nederlandse taal
+- slo doelen seksuele vorming
+- slo doelen tekenen
+- slo doelen vermenigvuldigen
+- slo kerndoelen zml
+- slo leerlijn rekenen groep 4
+- doelen taal groep 4
+- huidige kerndoelen vo
+- internetconsultatie kerndoelen
+- kerndoelen aardrijkskunde vmbo
+- kerndoelen basisvaardigheden
+- kerndoelen cluster 3
+- kerndoelen duits slo
+- kerndoelen filosofie
+- kerndoelen geschiedenis onderbouw
+- kerndoelen lo basisonderwijs
+- kerndoelen mediawijsheid
+- kerndoelen natuurkunde
+- kerndoelen nederlands groep 3
+- kerndoelen ojw slo
+- kerndoelen primair onderwijs 2006
+- kerndoelen rekenen 2006
+- kerndoelen rekenonderwijs
+- kerndoelen slo voortgezet onderwijs
+- kerndoelen taal kleuters
+- kerndoelen verkeer
+- kerndoelen wiskunde havo
+- leerlijnen motoriek kleuters
+- slo doelen 2 tot 4 jaar
+- slo doelen aanvankelijk lezen
+- slo doelen kerndoelen
+- slo doelen leesbevordering
+- slo doelen mens en natuur
+- slo doelen nto
+- slo doelen piramide
+- slo doelen primair onderwijs
+- slo doelen rekenen wiskunde
+- slo doelen stellen
+- slo erk doelen
+- slo leerlijn rekenen groep 8
+- wat zijn kerndoelen
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| cito oefenen groep 3 | shallow | 1 / 1 | 10 |
+| cito groep 4 oefenen | shallow | 1 / 1 | 10 |
+| tempotoets rekenen | shallow | 1 / 1 | 10 |
+| toets rekenen groep 3 | shallow | 1 / 1 | 4 |
+| toets spelling groep 4 | shallow | 1 / 1 | 4 |
+| rekentoets groep 5 | shallow | 1 / 1 | 2 |
+| toets begrijpend lezen groep 4 | shallow | 1 / 1 | 2 |
+| signaleringstoets | shallow | 1 / 1 | 1 |
+| kleutertoets | shallow | 1 / 1 | 1 |
+| toets groep 4 | deep | 20 / 27 | 55 |
+| toets groep 3 | deep | 19 / 27 | 61 |
+| cito oefenen | deep | 18 / 27 | 127 |
+| toets rekenen | deep | 18 / 27 | 81 |
+| beginsituatie groep 3 | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): groep 89 · cito 50 · iep 33 · oefenen 30 · rekenen 21 · lezen 20 · gratis 17 · werkbladen 17 · begrijpend 16 · spelling 16 · toets 12 · pabo 12 · dmt 11 · minuten 11 · eind 10 · voorbeeld 9 · voor 9 · leerjaar 9 · score 8 · dia 7 · nl 7 · woordenschat 6 · online 6 · toa 5 · avi 4 · pdf 4 · wanneer 4 · uitslag 4 · lib 4 · leestekens 4 · midden 4 · metend 4 · boom 3 · drie 3 · junior 3 · einstein 3 · mbo 3 · werkblad 3 · april 2 · bareka 2
+
+**Phrases** (all 357, by how many lookups returned them)
+
+- cito oefenen groep 3 werkbladen gratis  ×4
+- cito toets groep 4 oefenen gratis  ×4
+- cito toets groep 4 pdf free download  ×4
+- cito toets groep 4 spelling oefenen  ×4
+- iep toets groep 4 oefenen gratis  ×4
+- iep toets rekenen groep 3  ×4
+- cito oefenen begrijpend lezen  ×3
+- cito toets groep 3 oefenen gratis  ×3
+- cito toets groep 3 pdf  ×3
+- cito toets groep 3 voorbeeld  ×3
+- cito toets groep 4 begrijpend lezen  ×3
+- cito toets groep 4 pdf  ×3
+- dmt toets groep 3 hoeveel woorden  ×3
+- iep toets groep 3 score  ×3
+- iep toets groep 4 score  ×3
+- cito oefenen groep 7 junior einstein  ×3
+- cito toets groep 3 oefenen  ×3
+- dia toets rekenen middelbare school  ×3
+- drie minuten toets groep 4 oefenen  ×3
+- iep toets groep 3 oefenen gratis  ×3
+- cito toets groep 3 rekenen oefenen  ×3
+- cito toets groep 4 oefenen  ×3
+- cito toets rekenen groep 4 oefenen  ×3
+- cito oefenen voortgezet onderwijs  ×2
+- cito toets groep 3  ×2
+- cito toets groep 3 dmt  ×2
+- cito toets groep 3 m3  ×2
+- cito toets groep 3 rekenen  ×2
+- cito toets groep 3 uitslag  ×2
+- cito toets groep 3 wanneer  ×2
+- cito toets groep 4  ×2
+- cito toets groep 4 uitslag  ×2
+- cito toets groep 4 wanneer  ×2
+- cito toets rekenen groep 8  ×2
+- dia toets rekenen score  ×2
+- drie minuten toets groep 4  ×2
+- iep toets groep 3  ×2
+- iep toets groep 4  ×2
+- iep toets rekenen kaal  ×2
+- jij toets rekenen oefenen  ×2
+- tempo toets rekenen werkblad  ×2
+- toets groep 4 rekenen  ×2
+- toets rekenen 2de leerjaar  ×2
+- toets rekenen groep 3  ×2
+- toets rekenen groep 6  ×2
+- toets rekenen pabo  ×2
+- avi toets groep 3  ×2
+- avi toets groep 3 voorbeeld  ×2
+- cito oefenen groep 7  ×2
+- cito toets groep 4 rekenen  ×2
+- cito toets rekenen groep 3  ×2
+- dia toets rekenen oefenen  ×2
+- diagnostische toets rekenen basisonderwijs  ×2
+- dmt toets groep 3  ×2
+- dmt toets groep 4  ×2
+- iep toets eind groep 4  ×2
+- iep toets groep 3 score 11  ×2
+- iep toets groep 3 uitslag  ×2
+- iep toets groep 4 uitslag  ×2
+- kennisbasis toets rekenen pabo  ×2
+- toets rekenen 4de leerjaar  ×2
+- toets rekenen groep 7  ×2
+- voorbeeld dmt toets groep 4  ×2
+- begrijpend lezen toets groep 3  ×2
+- cito oefenen groep 6  ×2
+- cito toets oefenen groep 4 woordenschat  ×2
+- cito toets rekenen groep 7  ×2
+- dmt toets groep 3 voorbeeld  ×2
+- dmt toets groep 4 oefenen  ×2
+- dmt toets groep 4 score  ×2
+- drie minuten toets groep 3  ×2
+- iep toets groep 3 oefenen  ×2
+- iep toets groep 3 score 19  ×2
+- iep toets groep 4 oefenen  ×2
+- iep toets groep 4 rekenen  ×2
+- iep toets spelling groep 4  ×2
+- tempo toets rekenen van teije de vos  ×2
+- toets rekenen 1ste leerjaar  ×2
+- toets rekenen 3de leerjaar  ×2
+- toets rekenen groep 4  ×2
+- voorbeeld iep toets groep 4  ×2
+- voorbeeld toets rekenen pabo  ×2
+- begrijpend lezen toets groep 4  ×2
+- cito oefenen groep 5  ×2
+- cito toets rekenen groep 6  ×2
+- dmt toets groep 3 score  ×2
+- toa toets rekenen oefenen 1f  ×2
+- toets metend rekenen 6de leerjaar  ×2
+- wanneer iep toets groep 4  ×2
+- cito oefenen groep 8 online  ×2
+- cito toets rekenen groep 5  ×2
+- cito toets rekenen oefenen  ×2
+- dmt toets groep 3 oefenen  ×2
+- pabo toets rekenen oefenen  ×2
+- spelling toets groep 4  ×2
+- toets metend rekenen 4de leerjaar  ×2
+- voorbeeld iep toets groep 3  ×2
+- wanneer iep toets groep 3  ×2
+- wat is iep toets groep 4  ×2
+- cito oefenen eind groep 3  ×2
+- cito oefenen groep 8 rekenen  ×2
+- toa toets rekenen oefenen  ×2
+- 3 minuten toets groep 7 oefenen  ×2
+- 3 minuten toets groep 5 oefenen  ×2
+- cito oefenen groep 8 gratis  ×2
+- iep toets rekenen oefenen  ×2
+- avi toets groep 4
+- boom toets groep 3
+- cito groep 4 oefenen
+- cito oefenen
+- cito oefenen 1e klas
+- cito oefenen doorstroomtoets
+- cito oefenen eind groep 7
+- cito oefenen groep 8
+- cito oefenen junior einstein
+- cito oefenen leestekens
+- cito oefenen middelbare school
+- cito oefenen nl
+- cito oefenen online
+- cito oefenen rekenen
+- cito oefenen squla
+- cito oefenen taal
+- cito oefenen werkbladen
+- cito pabo oefenen
+- cito toets eind groep 3
+- cito toets eind groep 4
+- cito toets groep 3 avi
+- cito toets groep 3 gratis oefenen
+- cito toets groep 3 lezen
+- cito toets groep 4 dmt
+- cito toets groep 4 voorbeeld
+- dia toets rekenen
+- iep cito oefenen
+- iep toets rekenen groep 7
+- jij toets rekenen
+- kleutertoets rekenen
+- nscct toets groep 4
+- rekentoets groep 5
+- rnt toets rekenen
+- signaleringstoets dyslexie
+- taal toets groep 4
+- tempotoets rekenen
+- toa toets rekenen 3f oefenen
+- toets automatiseren rekenen
+- toets basisvaardigheden rekenen
+- toets begrijpend lezen groep 4
+- toets groep 3
+- toets groep 4
+- toets meander groep 7 thema 3
+- toets rekenen
+- toets rekenen mbo
+- toets spelling groep 4
+- toets van rekenen
+- atlantis toets groep 4
+- atr toets rekenen
+- bareka toets groep 3
+- cito doorstroomtoets oefenen groep 8
+- cito groep 4 oefenen gratis
+- cito leestekens oefenen groep 6
+- cito oefenen begrijpend lezen groep 5
+- cito oefenen eind groep 6
+- cito oefenen groep 3 werkbladen
+- cito oefenen midden groep 6
+- cito oefenen nl groep 7
+- cito oefenen rekenen groep 7
+- cito oefenen spelling
+- cito opgaven oefenen
+- cito rekentoets pabo oefenen
+- cito toets begrijpend lezen groep 4
+- cito toets groep 3 resultaten
+- cito toets groep 3 woordenschat
+- cito toets groep 4 boek
+- cito toets oefenen
+- cito toets rekenen
+- cito toets spelling groep 4
+- cito vragen oefenen
+- cito woordenschat oefenen groep 7 gratis
+- iep toets eind groep 3
+- iep toets rekenen groep 8
+- lvs toets groep 3
+- lvs toets groep 4
+- m toets groep 3
+- rekenen wiskunde toets pabo
+- rekentoets groep 7 blok 5
+- tempotoets rekenen groep 6
+- toets brandaan groep 7 thema 3
+- toets medisch rekenen
+- toets verpleegkundig rekenen
+- woordenschat toets groep 4
+- 1 april toets groep 4
+- bareka toets groep 4
+- boom toets rekenen
+- cito 3 minuten toets groep 4
+- cito aardrijkskunde pabo oefenen
+- cito luistertoets oefenen
+- cito oefenen begrijpend lezen groep 6
+- cito oefenen eind groep 5
+- cito oefenen groep 3 rekenen
+- cito oefenen groep 8 junior einstein
+- cito oefenen m7
+- cito oefenen nl groep 6
+- cito oefenen rekenen groep 5
+- cito oefenen spelling groep 5
+- cito toets oefenen groep 8
+- cito vraagstelling oefenen
+- cito woordenschat oefenen
+- dia toets groep 3
+- iep toets rekenen groep 6
+- kennisbasis toets rekenen
+- lib toets groep 3
+- lib toets groep 4
+- mbo toets rekenen oefenen
+- rekenen toets mbo 4
+- rekenen wiskunde toets
+- tempotoets rekenen groep 7
+- toa toets rekenen 2f oefenen
+- 1 april toets groep 3
+- 3 minuten toets groep 5
+- boom toets rekenen groep 7
+- cito leestekens oefenen groep 7
+- cito oefenen begrijpend lezen groep 8
+- cito oefenen e4
+- cito oefenen midden groep 7
+- cito oefenen nl groep 8
+- cito oefenen rekenen groep 4
+- cito oefenen spelling groep 7
+- cito oefenen.nl
+- cito spelling groep 4 oefenen werkblad
+- cito toelatingstoets pabo oefenen
+- cito toets groep 4 spelling
+- cito toets midden groep 4
+- cito toets oefenen groep 3
+- cito toets online oefenen gratis
+- cito toetsen oefenen
+- cito wiscat oefenen
+- dia toets groep 4
+- iep toets rekenen
+- landelijke toets rekenen pabo
+- lees toets groep 4
+- oefenen voor cito groep 7
+- rekenen toets groep 3
+- tempotoets rekenen groep 4 werkbladen
+- toets rekenen groep 5
+- toets voor groep 3
+- tta toets rekenen
+- woordenschat toets groep 3
+- 3 minuten toets groep 4
+- cito eind groep 4 oefenen
+- cito lib oefenen
+- cito oefenen boek
+- cito oefenen eind groep 4
+- cito oefenen m4
+- cito oefenen rekenen groep 6
+- cito oefenen spelling groep 6
+- cito oefenen.nl groep 5
+- cito toets groep 3 score
+- cito toets oefenen groep 7
+- cito toets pabo oefenen
+- cito werkwoordspelling oefenen
+- dle toets rekenen
+- gratis cito oefenen groep 3
+- iep toets lezen groep 3
+- oefenen voor cito groep 8
+- tempotoets rekenen groep 3
+- toa toets rekenen
+- toets rekenen 5de leerjaar
+- cito 3 minuten toets groep 3
+- cito geschiedenis pabo oefenen
+- cito luisteren oefenen
+- cito oefenen begrijpend lezen groep 4
+- cito oefenen e7
+- cito oefenen groep 7 online
+- cito oefenen m6
+- cito oefenen nl groep 4
+- cito oefenen rekenen groep 8
+- cito rekenen groep 4 oefenen
+- cito spelling oefenen groep 7 werkbladen
+- cito toets lezen groep 4
+- cito toets oefenen gratis
+- diagnostische toets rekenen
+- iep toets rekenen 1s
+- lkt toets rekenen
+- oefenen voor cito
+- spelling toets groep 3
+- staal toets groep 4
+- tempotoets rekenen groep 6 werkbladen
+- toets dictee groep 4
+- toets metend rekenen 3de leerjaar
+- toets rekenen groep 8
+- 3 minuten toets groep 6
+- begrijpend lezen cito oefenen groep 3
+- cito leestekens oefenen groep 8
+- cito nederlands oefenen
+- cito oefenen groep 5 werkbladen
+- cito oefenen groep 8 pdf
+- cito oefenen m3
+- cito oefenen rwt
+- cito sommen oefenen
+- cito spelling groep 4 oefenen
+- cito toets groep 8 oefenen online gratis
+- cito toets oefenen groep 6
+- cito toets spelling groep 3
+- oefenen cito begrijpend lezen groep 4 werkbladen
+- oefenen voor cito groep 6
+- tempotoets rekenen groep 8
+- toets metend rekenen 5de leerjaar
+- ttr toets rekenen
+- cito b8 oefenen
+- cito begrijpend lezen groep 4 oefenen
+- cito examens oefenen
+- cito lezen oefenen
+- cito oefenen groep 6 werkbladen
+- cito oefenen m5
+- cito oefenen redactiesommen
+- cito spelling groep 3 oefenen werkbladen
+- cito spelling oefenen groep 5 werkbladen
+- cito toets oefenen groep 5
+- cito toets rekenen groep 4
+- landelijke toets rekenen
+- nieuwsbegrip cito oefenen groep 7
+- oefenen voor cito groep 5
+- online cito oefenen groep 5
+- tempotoets rekenen teije de vos
+- 2f toets rekenen oefenen
+- 3 minuten toets groep 7
+- cito e3 oefenen
+- cito m8 oefenen
+- cito oefenen groep 4 rekenen gratis
+- cito oefenen rekenen groep 3
+- cito spelling oefenen groep 4
+- cito spelling werkwoorden oefenen groep 7 werkbladen
+- cito toets oefenen groep 4
+- iep toets rekenen groep 4
+- oefenen cito begrijpend lezen groep 7 werkbladen
+- oefenen voor cito begrijpend lezen
+- oefenen voor cito groep 3
+- tempotoets rekenen tafels
+- toets rekenen 3f
+- voorbeeld toets medisch rekenen
+- cito brugklas oefenen
+- cito eindtoets oefenen
+- cito oefenen begrijpend lezen groep 7
+- cito oefenen groep 4 begrijpend lezen gratis
+- cito oefenen groep 7 werkbladen
+- cito oefenen groep 8 werkbladen
+- cito rekenen midden groep 3 oefenen
+- cito rekenen oefenen groep 7 werkbladen
+- cito spelling oefenen groep 6 werkbladen
+- cito toets oefenen groep 8 begrijpend lezen gratis
+- cito toets rekenen groep 7 oefenen gratis
+- dia toets oefenen groep 4
+- iep toets rekenen groep 5
+- lib toets rekenen
+- mijlpalen toets rekenen
+- oefenen cito m7 rekenen
+- oefenen voor cito rekenen
+- tempotoets rekenen werkblad
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| invallen kleuters | shallow | 1 / 1 | 3 |
+| invallen groep 3 | shallow | 1 / 1 | 1 |
+| invaller | deep | 24 / 27 | 114 |
+| invallen groep | deep | 3 / 27 | 8 |
+| invalmap | deep | 0 / 27 | 0 |
+| invaller lesideeën | shallow | 0 / 1 | 0 |
+| noodplan groep 4 | shallow | 0 / 1 | 0 |
+| inval lessen basisschool | shallow | 0 / 1 | 0 |
+| invalwerk groep 5 | shallow | 0 / 1 | 0 |
+| invallen groep 4 | shallow | 0 / 1 | 0 |
+| invalklapper | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): letters 11 · de 11 · in 6 · engels 5 · het 5 · litouwen 5 · die 4 · niets 4 · te 4 · vertellen 4 · heeft 4 · rene 4 · amsterdam 3 · voetbal 3 · voor 3 · cryptisch 3 · competitie 3 · appel 3 · wordt 3 · gespaard 3 · met 3 · van 3 · k3 3 · tips 2 · brobbey 2 · kinderopvang 2 · keeper 2 · basisonderwijs 2 · bij 2 · bruno 2 · bruins 2 · belgie 2 · knltb 2 · cryptogram 2 · english 2 · translate 2 · feyenoord 2 · nederland 2 · gepensioneerde 2 · geld 2
+
+**Phrases** (all 125, by how many lookups returned them)
+
+- invaller die niets te vertellen heeft  ×3
+- invaller in het team van sinterklaas  ×3
+- invaller die niets te vertellen heeft 13 letters  ×3
+- invaller op het spoor  ×3
+- invaller op het spoor cryptogram  ×3
+- invallen groep 3  ×2
+- invallen groep 8 tips  ×2
+- invaller 7 letters  ×2
+- invaller ander woord  ×2
+- invaller brobbey  ×2
+- invaller engels  ×2
+- invaller in het engels  ×2
+- invaller nederlands elftal  ×2
+- invaller ruud de wild  ×2
+- invaller synoniem  ×2
+- invaller voor brobbey  ×2
+- invaller wilfred genee  ×2
+- de invaller wordt gespaard 7 letters  ×2
+- invaller engels translate  ×2
+- invaller freddie mercury  ×2
+- invaller goedemorgen nederland  ×2
+- invaller litouwen voetbal  ×2
+- invaller negen letters  ×2
+- jongste invaller feyenoord  ×2
+- zzp invaller onderwijs  ×2
+- de invaller wordt gespaard  ×2
+- deze invaller zorgde voor de derde belgische goal tegen de vs  ×2
+- gepensioneerde invaller met geld 15 letters  ×2
+- invaller eva jinek  ×2
+- invaller kinderopvang amsterdam  ×2
+- invaller litouwen nederland  ×2
+- invaller ngf competitie  ×2
+- invaller pauw en de wit  ×2
+- invaller rick nieman  ×2
+- de invaller rene appel  ×2
+- gepensioneerde invaller met geld  ×2
+- invaller die niets te vertellen heeft cryptisch  ×2
+- invaller keeper amsterdam  ×2
+- invaller of invalster  ×2
+- invaller padel competitie  ×2
+- salaris invaller basisonderwijs  ×2
+- invaller vandaag inside  ×2
+- slowaakse invaller wk  ×2
+- invaller bing gtst  ×2
+- slowaakse invaller wk wielrennen  ×2
+- invallen groep 7
+- invallen in groep 3
+- invallen kleuters
+- invaller courtois
+- invaller feyenoord
+- invaller gezocht
+- invaller hanne
+- invaller k3
+- invaller litouwen
+- invaller marthe k3
+- invaller onderwijs
+- invaller puzzel
+- invaller queen
+- invaller translate
+- invaller zeven letters
+- jonge invaller litouwen
+- invallen bij kleuters
+- invallen groep 8
+- invallen in groep 7
+- invaller acht letters
+- invaller basisonderwijs
+- invaller cryptisch
+- invaller die niets te vertellen heeft cryptogram
+- invaller english
+- invaller huisarts
+- invaller kinderopvang
+- invaller met 7 letters
+- invaller onderwijsassistent
+- invaller psv
+- invaller rene van der gijp
+- invaller spaans
+- invaller vertaling engels
+- invaller ajax
+- invaller bij voetbal
+- invaller frank visser
+- invaller helene hendriks
+- invaller in english
+- invaller meaning
+- invaller spanje
+- invaller voetbal
+- tips invallen kleuters
+- invaller
+- invaller amsterdam
+- invaller betekenis
+- invaller duits
+- invaller frans
+- invaller litouwen leeftijd
+- invaller partou
+- invaller vertaling
+- de invaller rene appel einde
+- de invaller wordt gespaard cryptisch
+- groenewoud invaller
+- invallen groep 6
+- invaller artinya
+- invaller bruno bruins
+- invaller docent
+- invaller keeper belgie
+- invaller leerkracht
+- invaller vacature
+- knltb competitie invaller
+- invallen groep 1 2
+- invaller 8 letters
+- invaller oranje
+- k3 invaller marthe
+- picto invaller
+- wat is invaller in het engels
+- invaller 9 letters
+- invaller basisschool
+- invaller voor bruno bruins
+- kindergarden invaller
+- knltb toernooi invaller
+- obt invaller
+- de invaller kortverhaal
+- invaller belgie
+- invaller vi
+- marijke groenewoud invaller
+- werken als invaller
+- de invaller
+- de invaller van rene appel
+- invaller 6 letters
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| eerste leesboekjes | shallow | 1 / 1 | 10 |
+| vouwboekje | shallow | 1 / 1 | 9 |
+| avi start boekjes | shallow | 1 / 1 | 8 |
+| avi m3 teksten | shallow | 1 / 1 | 2 |
+| mkm woorden lezen | shallow | 1 / 1 | 1 |
+| mini boekjes kleuters | shallow | 1 / 1 | 1 |
+| leesboekjes kern 1 | shallow | 1 / 1 | 1 |
+| leesteksten kern 3 | shallow | 1 / 1 | 1 |
+| avi start | deep | 23 / 27 | 143 |
+| mini boekjes | deep | 22 / 27 | 87 |
+| leesteksten groep 3 | deep | 15 / 27 | 19 |
+| leesboekjes groep 3 | deep | 9 / 27 | 13 |
+| leesboekjes printen | shallow | 0 / 1 | 0 |
+| klankzuivere teksten | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): loco 25 · lezen 13 · groep 13 · boekjes 12 · jaar 12 · en 9 · m3 6 · zoete 6 · zusjes 6 · ik 5 · maken 5 · avi 4 · leren 4 · zwijsen 4 · dieren 4 · disney 4 · boek 4 · online 4 · printen 4 · start 3 · voor 3 · lees 3 · bibliotheek 3 · is 3 · dino 3 · welke 3 · jongens 3 · leeftijd 3 · baby 3 · gouden 3 · veilig 2 · leuke 2 · begin 2 · midden 2 · sinterklaas 2 · kerst 2 · dolfje 2 · downloaden 2 · vit 2 · aid 2
+
+**Phrases** (all 285, by how many lookups returned them)
+
+- avi start kom in de hut  ×4
+- avi start boekjes downloaden  ×4
+- avi start boekjes  ×3
+- avi start dolfje weerwolfje  ×3
+- avi start fien en teun  ×3
+- avi start vos en haas  ×3
+- eerste leesboekjes groep 3  ×3
+- leesboekjes groep 3 avi start  ×3
+- leesboekjes groep 3 veilig leren lezen  ×3
+- mini boekjes fien en teun  ×3
+- mini boekjes ridder zonder billen  ×3
+- mini boekjes woezel en pip  ×3
+- avi start boekjes groep 3  ×3
+- avi vit start aid chick gel  ×3
+- avi start boekjes m3  ×3
+- avi start lees je mee  ×3
+- avi start suske en wiske  ×3
+- avi start boekjes tweedehands  ×3
+- avi start boekjes zwijsen  ×3
+- avi start boekjes lezen is leuk  ×3
+- avi start agent en boef  ×2
+- avi start leesboekjes  ×2
+- avi start m3  ×2
+- avi start paul van loon  ×2
+- avi start tekst  ×2
+- avi start verhaaltjes  ×2
+- avi start zoete zusjes  ×2
+- juf linda leesteksten groep 3  ×2
+- leesteksten groep 3 dieren  ×2
+- leesteksten groep 3 en 4  ×2
+- leesteksten groep 3 gratis  ×2
+- leesteksten groep 3 herfst  ×2
+- leesteksten groep 3 kerst  ×2
+- leesteksten groep 3 lijn 3  ×2
+- leesteksten groep 3 sinterklaas  ×2
+- leesteksten groep 3 winter  ×2
+- leesteksten groep 3 zomer  ×2
+- mini boekjes action  ×2
+- mini boekjes baby  ×2
+- mini boekjes dikkie dik  ×2
+- mini boekjes jip en janneke  ×2
+- mini boekjes knutselen  ×2
+- mini boekjes little dutch  ×2
+- mini boekjes maken  ×2
+- mini boekjes traktatie  ×2
+- mini boekjes volwassenen  ×2
+- mini loco boekjes kleuters  ×2
+- zwijsen leesboekjes groep 3  ×2
+- avi leesboekjes groep 3  ×2
+- avi start ik ga lezen  ×2
+- avi start kobo plus  ×2
+- avi start m3 e3  ×2
+- avi start teksten printen  ×2
+- leesboekjes start groep 3  ×2
+- leuke leesboekjes groep 3  ×2
+- mini boekjes adventskalender  ×2
+- mini boekjes kopen  ×2
+- mini boekjes rupsje nooitgenoeg  ×2
+- avi start ik lees al  ×2
+- mini gouden boekjes disney  ×2
+- mini gouden boekjes traktatiebox  ×2
+- mini loco boekjes 6 jaar  ×2
+- mini loco boekjes downloaden  ×2
+- zelf mini boekjes maken  ×2
+- avi start boekjes bibliotheek  ×2
+- avi start geronimo stilton  ×2
+- mini loco boekjes 5 jaar  ×2
+- avi start lezen is leuk  ×2
+- avi start welke groep  ×2
+- mini loco boekjes 7 jaar  ×2
+- mini loco boekjes groep 3  ×2
+- mini loco boekjes 3 jaar  ×2
+- avi start mijn eerste leesboek  ×2
+- avi start vanaf welke leeftijd  ×2
+- mini loco boekjes 4 jaar  ×2
+- avi m3 teksten printen
+- avi start camille
+- avi start eenhoorn
+- avi start groep 3
+- avi start ik leer lezen
+- avi start jongens
+- avi start kluitman
+- avi start niveau
+- avi start oefeningen
+- avi start strip
+- avi start unicorn
+- avi start werkbladen
+- borre leesboekjes groep 3
+- eerste leesboekjes
+- leesboekjes groep 3
+- leesboekjes kern 1
+- leesboekjes midden groep 3
+- leesteksten begin groep 3
+- leesteksten groep 3
+- leesteksten kern 3
+- leesteksten midden groep 3
+- leesteksten voor groep 3
+- mini boekjes
+- mini boekjes cadeau
+- mini boekjes gonnie
+- mini boekjes hema
+- mini boekjes nijntje
+- mini boekjes peuter
+- mini boekjes uitdelen
+- mini informatie boekjes
+- mini loco boekjes zoete zusjes
+- mkm woorden lezen
+- rijke leesteksten groep 3
+- vouwboekje
+- avi m3 teksten
+- avi start
+- avi start app
+- avi start cito
+- avi start dino
+- avi start e3
+- avi start frozen
+- avi start groep 2
+- avi start jommeke
+- avi start lezen
+- avi start nachtwacht
+- avi start online lezen
+- avi start pakket
+- avi start spelletjes
+- avi start up
+- avi start voorbeeld
+- avi start woorden
+- avi start zwijsen
+- begrijpend leesteksten groep 3
+- korte leesteksten groep 3
+- leesboekjes begin groep 3
+- leesboekjes voor groep 3
+- leesteksten eind groep 3
+- leuke leesteksten groep.3
+- mini boekjes bobbi
+- mini boekjes disney
+- mini boekjes muis
+- mini boekjes printen
+- mini boekjes vouwen
+- mini color boekjes
+- mini gouden boekjes
+- mini informatie junior boekjes
+- mini loco boekjes
+- mini loco boekjes intertoys
+- mini loco boekjes tweedehands
+- vouwboekje maken
+- avi se start hone wale name
+- avi start boekjes bol com
+- avi start dieren
+- avi start ebook
+- avi start groeiboek
+- avi start kern 1
+- avi start leeftijd
+- avi start moppenboek
+- avi start online
+- avi start pokemon
+- avi start sinterklaas
+- avi start toets
+- avi start veilig leren lezen
+- avi start woordjes
+- avi start zeemeermin
+- boekjes voor mini loco
+- christelijke mini boekjes
+- eerste leesboekjes avi start
+- foeksia avi start
+- leesboek avi start jongens
+- mini aquarel boekjes
+- mini boekjes boer boris
+- mini boekjes drukken
+- mini boekjes kind
+- mini boekjes paw patrol
+- mini loco boekjes rekenen
+- mini me boekjes
+- vouwboekje foto's
+- wat is avi start niveau
+- avi start boekjes abonnement
+- avi start boekjes jongens
+- avi start disney
+- avi start ik lees een boek
+- avi start kleuters
+- avi start lezen online
+- avi start of m3
+- avi start pdf
+- avi start stripboek
+- avi start toets kaart
+- avi start voetbal
+- avi start wanneer
+- avi start zinnen
+- avi start-m4
+- cars mini boekjes
+- eerste leesboekjes groep 2
+- leesboekjes groep 3 4
+- mini boekjes bumba
+- mini boekjes dreumes
+- mini boekjes kruidvat
+- mini boekjes poppenhuis
+- mini loco boekjes 4 6 jaar
+- mini loco boekjes aanbieding
+- mini loco boekjes marktplaats
+- vouwboekje maken word
+- avi start avi m3
+- avi start dolfje
+- avi start groep 4
+- avi start kerst
+- avi start leesteksten
+- avi start minecraft
+- avi start of avi 1
+- avi start paarden
+- avi start test
+- avi start zoekboek
+- eerste leesboekjes groep 1
+- mini boekjes bestellen
+- mini boekjes kikker
+- mini dua boekjes
+- terra mini boekjes
+- verschil avi start en m3
+- vouwboekje zoete zusjes
+- zoete zusjes mini boekjes printen
+- avi start 5 jaar
+- avi start bibliotheek
+- avi start boeken groep 3
+- avi start boeken online
+- avi start leren lezen
+- avi start moppen
+- avi start paw patrol
+- avi start samen lezen
+- avi start volgorde
+- avi start werkboekje
+- eerste leesboekjes bibliotheek
+- mini boekjes bruna
+- mini designer boekjes
+- mini koran boekjes
+- mini loco boekjes groep 4
+- vouwboekje baby
+- zoete zusjes mini boekjes maken
+- avi start 4 jaar
+- avi start avi 1
+- avi start boek dieren
+- avi start boek over dieren
+- avi start boekjes ik leer lezen
+- avi start boekjes zoete zusjes
+- avi start k3
+- avi start leesfeest
+- avi start prinses
+- avi start stickerboek
+- eerste leesboekjes avi 1
+- japans vouwboekje
+- mini boekenkast met boekjes
+- mini dino boekjes
+- mini kartonnen boekjes
+- mini loco bambino boekjes
+- mini loco boekjes groep 5
+- avi start boekjes dino
+- avi start boekjes groep 2
+- avi start boekjes marktplaats
+- avi start boekjes welke leeftijd
+- avi start kwartet
+- avi start leesniveau
+- avi start set
+- avi vit start aid
+- eerste leesboekjes baby
+- geschiedenis vouwboekje
+- joep avi start
+- mini loco boekjes 8 jaar
+- mini loco boekjes groep 2
+- mini loco boekjes kikker
+- muizenhuis mini boekjes
+- toneellezen avi start
+- avi start boekjes disney
+- avi start boekjes pakket
+- avi start kern 2
+- bluey mini boekjes
+- eerste leesboekjes 6 jaar
+- leren lezen avi start in de hut
+- mini loco boekjes 9 jaar
+- tiny avi start
+- vliegtuig vouwboekje
+- avi start boekjes voetbal
+- avi start kobo
+- bing mini boekjes
+- eerste leesboekjes zwijsen
+- grote avi start boek
+- how to start avi schwartzman missions
+- kleine mini boekjes
+- mini loco boekjes 2 jaar
+- theaterlezen avi start

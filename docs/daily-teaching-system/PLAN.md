@@ -270,7 +270,7 @@ Contents: a one-page note for the guest teacher (the day at a glance, time-boxed
 - Every page comes from the graph; the only new writing is the guest-teacher script and forms. The script is authored natively per language and reviewed; it must be usable by an adult who has never seen the class.
 - Themed so the day feels whole (the theme axis the catalogue already has), with printable pages that do not need colour.
 
-**Count:** per locale, 4 grades × 3 positions × 2 themes = 24 packs to start; more themes later if the packs convert.
+**Count:** per locale, 4 grades × 3 positions × 2 themes = 24 packs to start; more themes later if the packs convert. **The Part 0 harvest makes the form a per-market decision** (§12, Part 0.3, point 3): a full day in en and fr, single lessons by grade and subject in de, a review booklet in es, a minimal set in pt and it, and no indexable pack pages in nl, sv, da, no and fi unless a native reviewer finds the search words.
 **Pages and SEO:** one indexable page per pack and one hub per locale under `/<loc>/sub-plans/`. Demand is strongest in the US ("emergency sub plans kindergarten"); the Part 0 harvest decides which other markets get indexable pack pages and what they are called there. The page previews the day plan and two sample pages; the pack PDF is Teacher-only (this is the 6:00 AM purchase the note describes, so the page states plainly what is in the pack and that it prints in one click).
 **Sub-parts:** 5.1 pack assembler + en K and G1; 5.2 en G2 and G3 + hub + measurement; 5.3 onward one locale each.
 **Review budget:** one reviewer per sub-part reads every script as a guest teacher would ("where would you be stuck?").
@@ -500,4 +500,16 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 - `scripts/seo/daily-system-baseline.sh` (read-only, run over ssh stdin): 28-day traffic and conversion numbers in `traffic-28d.txt`; the reading of them in `BASELINE.md`.
 - Headline numbers: 2,763 sessions a day, 307 a day from Google (rising four weeks in a row), 68 new accounts a day, 6 new subscriptions in 28 days, 11 active subscriptions.
 - NOT done here, by design: the compare is not yet wired into `deploy.sh` (Part 3 does that, when the first programme deploy exists). NOT measurable here: Search Console, and the static worksheet landings (no analytics beacon).
+
+**Part 0.3 — demand harvest — DONE 2026-11-11. PART 0 IS COMPLETE.**
+- 532 autocomplete lookups per market × 11 markets × 5 surfaces: `scripts/seo-research/harvest-daily-system-demand.js` (probes in `daily-system-seeds.json`), reports by `build-daily-system-demand-report.js` → `docs/SEO/daily-system-demand/` (`harvest.<loc>.json`, `report.<loc>.md`, `summary.json`).
+- **Read `docs/SEO/daily-system-demand/FINDINGS.md` before naming or scoping any page in Parts 4–8.** Its limits are stated in its first section: no volumes; the probes are mine, not a native reviewer's; I read the heads, the added words and the first answers of every head in every market, not all ~15,000 phrases. The part that builds a market's pages reads that market's full report first.
+- What it changes (details in FINDINGS, last section):
+  1. Tests (Part 7) are the strongest and most uniform search face in every market.
+  2. Names: unit pages lead with each language's lesson-plan word, not "unit"; English tests are "beginning-of-year / mid-year / end-of-year assessment" (not "benchmark", not "pre/post test"); English reader hubs are cut by phonics skill.
+  3. Part 5 is per market: full day (en, fr) · single lesson by grade and subject (de) · review booklet (es) · minimal (pt, it) · no indexable pack pages (nl, sv, da, no, fi) unless a native reviewer supplies search words that the harvest then confirms.
+  4. Part 6: per-grade objective lists and checklists are the page type with a job; Germany and the US search curricula by state.
+  5. Part 8: every book also as a one-page text with questions; a letter-style setting for it and pt; no AVI labels in nl without a basis.
+- **Two items put to the operator (no ruling changed):** (a) preschool units are second wave by ruling, yet preschool is the widest lesson-plan face in Brazil and Mexico and "thema kleuters" is the widest Dutch phrase; (b) state curricula (Bavaria, NRW, Texas, California) are where the German and US curriculum searches are, while the plan aligns nationally first.
+- Trap paid for: five harvest processes at once got the PC's address refused by the autocomplete service for about an hour. One process at a time; the script resumes where it stopped. Do not route around a refusal (other addresses, other endpoints); wait.
 - Use from now on: before and after every deploy of this programme, `node scripts/seo/identity-snapshot.js --compare=docs/SEO/daily-system-baseline/baseline.json`; exit 3 (unmeasured) is not a pass.

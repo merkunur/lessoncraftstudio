@@ -1,0 +1,2076 @@
+# Daily Teaching System — search demand, market `it`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 14 | 499 |
+| National curriculum | 11 | 11 | 494 |
+| Assessments and tests | 14 | 14 | 484 |
+| Substitute-teacher packs | 11 | 7 | 219 |
+| First readers and mini-books | 14 | 13 | 245 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| uda classe seconda | shallow | 1 / 1 | 10 |
+| programmazione annuale classe prima | shallow | 1 / 1 | 10 |
+| programmazione classe terza | shallow | 1 / 1 | 10 |
+| uda infanzia | shallow | 1 / 1 | 10 |
+| programmazione didattica primaria | shallow | 1 / 1 | 10 |
+| uda classe terza | shallow | 1 / 1 | 10 |
+| programmazione annuale infanzia | shallow | 1 / 1 | 10 |
+| uda matematica classe prima | shallow | 1 / 1 | 3 |
+| uda italiano classe seconda | shallow | 1 / 1 | 2 |
+| piano di lavoro classe prima | shallow | 1 / 1 | 1 |
+| programmazione annuale | deep | 21 / 27 | 139 |
+| progettazione didattica | deep | 21 / 27 | 121 |
+| unità di apprendimento | deep | 20 / 27 | 101 |
+| uda classe prima | deep | 19 / 27 | 71 |
+
+**Words people add** (how many distinct phrases carry the word): primaria 168 · classe 100 · scuola 93 · di 29 · seconda 27 · italiano 25 · matematica 23 · pdf 21 · prima 21 · quarta 20 · geografia 19 · infanzia 18 · terza 18 · educazione 17 · quinta 17 · esempi 15 · per 15 · tecnologia 15 · arte 14 · storia 13 · didattica 12 · secondaria 12 · grado 12 · religione 12 · inglese 11 · musica 11 · uda 11 · immagine 11 · secondo 10 · dell 10 · le 10 · scienze 10 · civica 9 · media 9 · in 8 · la 8 · valutazione 8 · fisica 7 · word 7 · innovativa 7
+
+**Phrases** (all 499, by how many lookups returned them)
+
+- uda classe prima scuola secondaria di primo grado  ×4
+- unità di apprendimento e unità didattica  ×4
+- programmazione annuale classe quarta primaria word  ×4
+- uda matematica classe prima anno di prova  ×4
+- programmazione annuale classe quinta primaria word  ×4
+- programmazione annuale classe prima scuola primaria  ×3
+- programmazione annuale classe seconda word  ×3
+- uda classe prima scuola primaria  ×3
+- uda italiano classe prima anno di prova  ×3
+- unità di apprendimento o unità didattica  ×3
+- unità di apprendimento per ritardo mentale  ×3
+- progettazione didattica per la formazione in rete roma tre  ×3
+- progettazione didattica per obiettivi minimi  ×3
+- programmazione annuale classe terza primaria word  ×3
+- progettazione didattica chi la fa  ×3
+- progettazione didattica innovativa anche mediante tecnologie digitali multimediali  ×3
+- progettazione didattica per la.formazione in rete  ×3
+- programmazione annuale scuola infanzia fiabe e favole  ×3
+- unità di apprendimento e unità didattica differenze  ×3
+- unità di apprendimento scuola primaria esempi  ×3
+- esempi di uda classe prima scuola primaria  ×3
+- costruire unità di apprendimento guida alla progettazione a ritroso  ×2
+- progettazione didattica a ritroso  ×2
+- progettazione didattica annuale scuola primaria  ×2
+- progettazione didattica classe quinta primaria  ×2
+- progettazione didattica cos'è  ×2
+- progettazione didattica esempi  ×2
+- progettazione didattica innovativa con tecnologie digitali  ×2
+- progettazione didattica pdf  ×2
+- progettazione didattica scuola infanzia esempi  ×2
+- programmazione annuale classe seconda primaria 2026  ×2
+- programmazione annuale educazione fisica classe seconda primaria  ×2
+- programmazione annuale infanzia  ×2
+- programmazione annuale scuola infanzia  ×2
+- uda classe prima italiano  ×2
+- uda classe prima primaria  ×2
+- uda classe prima primaria matematica  ×2
+- uda educazione civica classe prima primaria  ×2
+- uda forme geometriche classe prima  ×2
+- uda trasversale classe prima primaria  ×2
+- unità di apprendimento classe terza scuola primaria  ×2
+- unità di apprendimento cos'è  ×2
+- unita di apprendimento linee guida  ×2
+- unità di apprendimento quanto dura  ×2
+- unità di apprendimento scuola primaria  ×2
+- volley programmazione annuale under 14 pdf  ×2
+- le unità di apprendimento sono obbligatorie  ×2
+- progettazione didattica a ritroso esempi  ×2
+- progettazione didattica classe terza scuola primaria  ×2
+- progettazione didattica e valutazione unimi  ×2
+- progettazione didattica esempio pdf  ×2
+- progettazione didattica scuola primaria pdf  ×2
+- programmazione annuale per uda scuola primaria  ×2
+- uda classe prima primaria italiano  ×2
+- uda classe prima scuola primaria italiano  ×2
+- uda italiano classe prima media  ×2
+- unità di apprendimento classe quarta scuola primaria  ×2
+- unità di apprendimento esempio  ×2
+- unità di apprendimento italiano l2  ×2
+- unità di apprendimento scuola infanzia  ×2
+- unità di apprendimento storia dell'arte  ×2
+- volley programmazione annuale under 14  ×2
+- baldacci unità di apprendimento e programmazione  ×2
+- costruire unità di apprendimento guida alla progettazione a ritroso pdf  ×2
+- progettazione didattica e intelligenza artificiale generativa per una scuola digitale e inclusiva  ×2
+- progettazione didattica e valutazione  ×2
+- progettazione didattica scuola infanzia  ×2
+- programmazione annuale classe prima in word  ×2
+- uda accoglienza classe prima primaria  ×2
+- uda geografia classe prima media  ×2
+- uda sulla fiaba classe prima media  ×2
+- uda tecnologia classe prima primaria  ×2
+- unità di apprendimento e lezione simulata  ×2
+- unità di apprendimento esempio pdf  ×2
+- unità di apprendimento matematica classe quarta scuola primaria  ×2
+- unità di apprendimento scuola infanzia esempi  ×2
+- unità di apprendimento semplificata le origini di roma  ×2
+- 24 unità di apprendimento per le scienze integrate  ×2
+- programmazione annuale classe prima nuove indicazioni  ×2
+- uda concetti topologici classe prima  ×2
+- uda economia aziendale classe prima  ×2
+- uda educazione fisica classe prima primaria  ×2
+- uda tecnologia classe prima media  ×2
+- unità di apprendimento classe prima primaria  ×2
+- unità di apprendimento educazione civica  ×2
+- unità di apprendimento scuola secondaria di secondo grado  ×2
+- progettazione didattica scienze motorie  ×2
+- progettazione e valutazione didattica nella scuola secondaria di secondo grado  ×2
+- programmazione annuale educazione fisica scuola secondaria di primo grado  ×2
+- programmazione annuale scuola infanzia esempi  ×2
+- uda accoglienza turistica classe prima  ×2
+- uda di matematica classe prima  ×2
+- uda educazione civica classe prima  ×2
+- uda motoria classe prima primaria  ×2
+- unità di apprendimento scuola secondaria di primo grado  ×2
+- 24 unità di apprendimento per le scienze integrate pdf  ×2
+- progettazione didattica e uda sono la stessa cosa  ×2
+- programmazione annuale classe seconda primaria  ×2
+- programmazione annuale della preparazione fisica nella pallavolo  ×2
+- uda musica classe prima primaria  ×2
+- progettazione didattica come si fa  ×2
+- programmazione annuale classe terza primaria italiano  ×2
+- programmazione annuale irc infanzia  ×2
+- programmazione annuale scuola infanzia sulle fiabe  ×2
+- uda arte e immagine classe prima  ×2
+- uda storia classe prima primaria  ×2
+- unità di apprendimento inglese scuola media  ×2
+- unità di apprendimento scuola primaria pdf  ×2
+- unità di apprendimento sul coding scuola primaria  ×2
+- uda arte e immagine classe prima primaria  ×2
+- progettazione didattica comunicazione e linguaggio  ×2
+- progettazione didattica e uda  ×2
+- piano di lavoro classe prima scuola primaria
+- progettazione didattica
+- progettazione didattica b016
+- progettazione didattica definizione
+- progettazione didattica fasi
+- progettazione didattica hr
+- progettazione didattica lezione simulata
+- progettazione didattica musica scuola media
+- progettazione didattica normativa
+- progettazione didattica o uda
+- progettazione didattica secondaria di secondo grado
+- progettazione didattica traduzione inglese
+- progettazione didattica unich
+- progettazione didattica valutazione e documentazione dei processi di inclusione
+- programmazione annuale asilo nido
+- programmazione annuale bodybuilding pdf
+- programmazione annuale di tecnologia classe terza primaria
+- programmazione annuale educazione motoria scuola primaria
+- programmazione annuale geografia classe quinta primaria
+- programmazione annuale lingua inglese scuola primaria
+- programmazione annuale matematica classe seconda primaria
+- programmazione annuale nido
+- programmazione annuale pulcini pdf
+- programmazione annuale quinta primaria
+- programmazione annuale religione cattolica scuola primaria
+- programmazione annuale tecnologia classe quarta primaria
+- programmazione classe terza primaria secondo le nuove indicazioni
+- programmazione didattica primaria
+- programmazione operativa annuale
+- uda classe prima elementare
+- uda classe seconda primaria
+- uda classe terza primaria
+- uda geografia classe prima
+- uda infanzia
+- uda italiano classe seconda primaria
+- uda letto scrittura classe prima
+- uda maggiore minore uguale classe prima
+- uda matematica classe prima
+- uda orto scuola primaria classe prima
+- uda religione classe prima
+- uda secondo quadrimestre classe prima
+- uda sui numeri classe prima
+- uda vocali classe prima
+- unità di apprendimento
+- unità di apprendimento accoglienza scuola infanzia
+- unità di apprendimento balboni
+- unità di apprendimento definizione
+- unità di apprendimento filosofia
+- unità di apprendimento in inglese
+- unità di apprendimento musica scuola infanzia
+- unita di apprendimento primaria
+- unità di apprendimento religione cattolica scuola primaria
+- unità di apprendimento sul natale scuola dell infanzia
+- unità di apprendimento uda
+- unità didattica vs unità di apprendimento
+- format unità di apprendimento
+- in una progettazione didattica quali elementi devono essere strettamente legati
+- indicazioni nazionali unità di apprendimento
+- la programmazione annuale deve essere registrata
+- progettazione didattica classe seconda scuola primaria
+- progettazione didattica della storia unipa
+- progettazione didattica flessibile
+- progettazione didattica innovativa esempi pdf
+- progettazione didattica libri
+- progettazione didattica matematica
+- progettazione didattica nido
+- progettazione didattica orientativa
+- progettazione didattica per competenze
+- progettazione didattica uda
+- programmazione annuale arte e immagine classe quinta primaria
+- programmazione annuale bodybuilding
+- programmazione annuale classe prima scuola primaria tutte le discipline
+- programmazione annuale dell allenamento nella pallavolo under 16 18
+- programmazione annuale di inglese classe quarta scuola primaria
+- programmazione annuale educazione civica classe seconda primaria
+- programmazione annuale educazione fisica classe terza primaria
+- programmazione annuale geografia classe terza primaria
+- programmazione annuale infanzia 3 anni
+- programmazione annuale inglese classe seconda primaria
+- programmazione annuale musica classe quarta primaria
+- programmazione annuale piccoli amici pdf
+- programmazione annuale religione primaria
+- programmazione annuale scuola dell'infanzia con sfondo integratore
+- programmazione annuale tecnologia classe prima primaria
+- programmazione classe terza primaria
+- programmazione didattica scuola primaria con contenuti e attività
+- titoli unità di apprendimento scuola primaria
+- uda classe prima
+- uda classe seconda primaria matematica
+- uda classe terza primaria italiano
+- uda emozioni classe prima primaria
+- uda geografia classe prima primaria
+- uda infanzia esempi
+- uda italiano classe seconda
+- uda le stagioni classe prima
+- uda matematica classe prima primaria
+- uda natale scuola primaria classe prima
+- uda religione classe prima primaria
+- uda su cipì classe prima
+- uda sulla fiaba classe prima
+- uda tecnologia classe prima
+- unità di apprendimento disciplinare
+- unità di apprendimento infanzia
+- unità di apprendimento multidisciplinare
+- unità di apprendimento pdf
+- unità didattica di apprendimento uda
+- unità didattica e unità di apprendimento balboni
+- costruire unità di apprendimento castoldi riassunto
+- differenza tra unità di apprendimento e lezione simulata
+- format unità di apprendimento ecampus
+- format unità di apprendimento uda
+- la progettazione didattica teorie metodi contesti
+- progettazione didattica addie
+- progettazione didattica con intelligenza artificiale
+- progettazione didattica disciplinare
+- progettazione didattica filosofia
+- progettazione didattica indicazioni nazionali
+- progettazione didattica innovativa
+- progettazione didattica manuale
+- progettazione didattica primaria
+- progettazione didattica universale
+- programmazione annuale arte e immagine classe seconda primaria
+- programmazione annuale dell allenamento nella pallavolo under 16 18 pdf
+- programmazione annuale di religione cattolica scuola primaria
+- programmazione annuale educazione civica classe prima primaria
+- programmazione annuale educazione fisica
+- programmazione annuale geografia classe seconda primaria
+- programmazione annuale infanzia 5 anni
+- programmazione annuale italiano classe quinta primaria
+- programmazione annuale musica classe prima primaria
+- programmazione annuale primi calci pdf
+- programmazione annuale religione
+- programmazione annuale scienze classe seconda primaria
+- programmazione annuale tecnologia classe terza primaria
+- programmazione classe terza
+- programmazione didattica scuola primaria secondo le nuove indicazioni nazionali
+- uda cinque sensi classe prima
+- uda classe prima scuola primaria matematica
+- uda classe seconda primaria italiano
+- uda classe terza primaria matematica
+- uda infanzia pdf
+- uda sulle regole classe prima primaria
+- unità di apprendimento classe seconda primaria
+- unità di apprendimento didattica inclusiva
+- unità di apprendimento interdisciplinare
+- unità di apprendimento matematica classe prima primaria
+- differenza tra unità di apprendimento e didattica
+- fasi dell unità di apprendimento
+- m. castoldi (2017). costruire unità di apprendimento. roma carocci
+- progettare unità di apprendimento diana penso
+- progettazione didattica anno di prova
+- progettazione didattica disciplinare per competenze
+- progettazione didattica e lezione simulata
+- progettazione didattica in francese
+- progettazione didattica infanzia pdf
+- progettazione didattica modelli
+- progettazione didattica per obiettivi
+- progettazione didattica personalizzata
+- progettazione didattica scuola secondaria di primo grado
+- progettazione didattica unibo
+- progettazione e valutazione didattica unipa
+- progettazione educativa e didattica nel ptof e riferimenti al rav e al pdm
+- programmazione annuale arte e immagine classe prima primaria
+- programmazione annuale classe prima scuola primaria matematica
+- programmazione annuale classe quinta matematica in word
+- programmazione annuale di arte e immagine classe seconda scuola primaria
+- programmazione annuale educazione fisica scuola primaria
+- programmazione annuale esordienti pdf
+- programmazione annuale giovanissimi calcio pdf
+- programmazione annuale infanzia 4 anni
+- programmazione annuale inglese scuola primaria
+- programmazione annuale musica scuola primaria
+- programmazione annuale primaria
+- programmazione annuale religione infanzia
+- programmazione annuale storia classe seconda primaria
+- programmazione annuale tecnologia classe quinta primaria
+- programmazione classe terza primaria matematica
+- programmazione didattica scuola primaria sedegliano
+- uda addizioni classe prima
+- uda classe seconda primaria storia
+- uda classe terza
+- uda infanzia accoglienza
+- uda inglese classe prima primaria
+- uda programmazione annuale
+- uda sulla decina classe prima
+- unità di apprendimento scuola primaria classe quinta sul mare
+- unità di apprendimento secondaria secondo grado
+- unità didattica di apprendimento pdf
+- come fare un unità di apprendimento
+- come si abbrevia unità di apprendimento
+- l unità di apprendimento
+- la teca didattica unità di apprendimento
+- ogni progettazione didattica deve essere
+- progettazione didattica di una lezione simulata
+- progettazione didattica innovativa esempi
+- progettazione didattica innovativa format
+- progettazione didattica pei
+- progettazione didattica scuola primaria
+- progettazione didattica unimi
+- progettazione e valutazione didattica dei percorsi socio pedagogici
+- programmazione annuale arte e immagine classe terza primaria
+- programmazione annuale classe prima scuola primaria italiano
+- programmazione annuale classe quarta primaria matematica
+- programmazione annuale di geografia classe quinta scuola primaria
+- programmazione annuale geografia classe quarta primaria
+- programmazione annuale italiano classe terza primaria
+- programmazione annuale matematica classe terza primaria
+- programmazione annuale pallavolo
+- programmazione annuale religione classe prima
+- programmazione annuale tecnologia classe seconda primaria
+- programmazione classe terza primaria italiano
+- programmazione didattica annuale asilo nido
+- programmazione didattica scuola primaria classe prima
+- uda autunno classe prima
+- uda classe seconda primaria scienze
+- uda classe terza primaria storia
+- uda infanzia autunno
+- uda tecnologia classe prima scuola primaria
+- uda unità di apprendimento esempio
+- unità di apprendimento cosa sono
+- unità di apprendimento esempi scuola primaria
+- unità di apprendimento inverno scuola dell infanzia
+- unità di apprendimento scienze motorie
+- unità di apprendimento scuola dell infanzia
+- unità di apprendimento scuola secondaria primo grado
+- app per creare unità di apprendimento
+- esempio unità di apprendimento secondaria secondo grado
+- nella progettazione didattica un approccio iterativo significa
+- progettazione didattica annuale
+- progettazione didattica classe prima
+- progettazione didattica differenziata
+- progettazione didattica inclusiva
+- progettazione didattica scuola media
+- progettazione didattica sinonimo
+- progettazione didattica unipr
+- progettazione e valutazione didattica dei percorsi socio pedagogici pegaso
+- programmazione annuale arte e immagine classe seconda
+- programmazione annuale classe prima
+- programmazione annuale classe quarta primaria
+- programmazione annuale classe seconda primaria word
+- programmazione annuale di musica classe seconda scuola primaria
+- programmazione annuale di religione cattolica scuola dell infanzia
+- programmazione annuale educazione civica classe quarta primaria
+- programmazione annuale geografia classe prima primaria
+- programmazione annuale inglese classe quarta primaria
+- programmazione annuale musica classe seconda primaria
+- programmazione annuale terza primaria
+- programmazione classe terza matematica
+- programmazione didattica scuola primaria classe seconda
+- tyler progettazione didattica
+- uda arte classe prima
+- uda classe seconda
+- uda classe terza primaria interdisciplinare
+- uda coding scuola primaria classe prima
+- uda di italiano classe prima primaria
+- uda geografia classe prima scuola primaria
+- uda infanzia colori ppt
+- uda interdisciplinare classe prima.primaria
+- uda storia e geografia classe prima
+- uda sulle emozioni classe prima
+- unità di apprendimento emozioni scuola dell infanzia
+- unità di apprendimento infanzia esempi
+- unità di apprendimento sulla misura scuola primaria
+- costruttivismo progettazione didattica e tecnologie
+- le unità di apprendimento si presentano come modello basilare
+- progettazione didattica a018
+- progettazione didattica di storia
+- progettazione didattica educativa
+- progettazione didattica in inglese
+- progettazione didattica italiano l2
+- progettazione didattica pegaso
+- progettazione didattica prof marangi
+- progettazione didattica scuola secondaria di secondo grado
+- progettazione didattica udl
+- programmazione annuale arte e immagine classe quinta
+- programmazione annuale classe prima scuola primaria 2026
+- programmazione annuale classe quinta primaria
+- programmazione annuale di geografia classe terza primaria
+- programmazione annuale di religione
+- programmazione annuale educazione civica classe terza primaria
+- programmazione annuale geografia classe prima
+- programmazione annuale italiano classe seconda primaria
+- programmazione annuale musica classe terza primaria
+- programmazione annuale prima primaria
+- programmazione annuale scuola infanzia sulle emozioni
+- programmazione annuale scuola primaria
+- programmazione annuale tecnologia classe seconda
+- programmazione classe terza italiano
+- programmazione didattica scuola primaria pdf
+- uda alimentazione classe prima primaria
+- uda classe seconda matematica
+- uda classe terza primaria sulla preistoria
+- uda infanzia sostegno
+- uda inglese classe prima
+- uda sul tempo classe prima
+- unità di apprendimento classe prima
+- unità di apprendimento indire
+- unità di apprendimento scuola media
+- unita di apprendimento svolte
+- il docente progettista progettazione didattica valutazione e inclusione
+- le unità di apprendimento
+- progettazione didattica arte e immagine
+- progettazione didattica diritto
+- progettazione didattica esempi scuola secondaria di secondo grado
+- progettazione didattica inclusiva esempio
+- progettazione didattica innovativa latino
+- progettazione didattica pei esempi
+- progettazione didattica significato
+- progettazione unità didattica
+- programmazione annuale alternativa alla religione
+- programmazione annuale attività alternativa scuola primaria classe prima
+- programmazione annuale classe prima italiano
+- programmazione annuale classe quarta primaria italiano
+- programmazione annuale classe seconda primaria matematica
+- programmazione annuale di storia classe quinta scuola primaria
+- programmazione annuale educazione civica classe quinta primaria
+- programmazione annuale geografia classe quarta
+- programmazione annuale matematica classe prima primaria
+- programmazione annuale palestra
+- programmazione annuale storia classe quinta scuola primaria
+- programmazione annuale tecnologia classe 5
+- programmazione classe terza primaria storia
+- programmazione didattica quarta primaria
+- uda accoglienza classe prima
+- uda anno di prova classe prima
+- uda classe seconda primaria geografia
+- uda classe terza primaria educazione civica
+- uda infanzia concorso
+- un'unità di apprendimento
+- unità di apprendimento castoldi
+- unità didattica di apprendimento esempi
+- format programmazione annuale scuola primaria
+- progettazione didattica a030
+- progettazione didattica classe prima scuola primaria
+- progettazione didattica della classe
+- progettazione didattica e intelligenza artificiale
+- progettazione didattica infanzia
+- progettazione didattica italiano scuola media
+- progettazione didattica per l'anno successivo
+- programmazione annuale arte classe seconda primaria
+- programmazione annuale classe prima matematica
+- programmazione annuale classe quinta
+- programmazione annuale classe seconda primaria italiano
+- programmazione annuale di musica classe terza primaria
+- programmazione annuale geografia classe seconda
+- programmazione annuale italiano classe quarta primaria
+- programmazione annuale matematica classe quarta primaria
+- programmazione annuale primi calci
+- programmazione annuale scienze classe prima
+- programmazione annuale scuola infanzia da scaricare
+- programmazione annuale tecnologia classe prima
+- programmazione classe terza primaria scienze
+- programmazione didattica terza primaria
+- rufa programmazione annuale
+- uda classe seconda italiano
+- uda classe terza primaria scienze
+- uda e unità di apprendimento
+- uda infanzia emozioni
+- uda musica classe prima
+- uda scienze classe prima scuola primaria
+- unità di apprendimento di italiano per la scuola primaria
+- unità di apprendimento italiano per stranieri
+- unità di apprendimento significato
+- costruire un'unità di apprendimento
+- format progettazione didattica
+- modello unità di apprendimento
+- progettazione didattica adhd
+- progettazione didattica della matematica
+- progettazione didattica sostegno
+- programmazione annuale arte e immagine classe quarta primaria
+- programmazione annuale classe quarta
+- programmazione annuale classe terza primaria matematica
+- programmazione annuale di tecnologia classe quarta scuola primaria
+- programmazione annuale educazione motoria classe prima
+- programmazione annuale geografia classe prima scuola primaria
+- programmazione annuale irc primaria
+- programmazione annuale matematica classe quinta primaria
+- programmazione annuale pulcini calcio
+- programmazione annuale storia classe prima
+- programmazione annuale tecnologia classe quarta
+- programmazione classe terza primaria geografia
+- programmazione didattica classe seconda primaria
+- uda accoglienza classe seconda primaria
+- uda classe terza primaria geografia
+- uda infanzia primavera
+- uda storia classe prima
+- unità di apprendimento inclusiva
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| indicazioni nazionali primaria | shallow | 1 / 1 | 10 |
+| indicazioni nazionali infanzia | shallow | 1 / 1 | 10 |
+| curricolo verticale primaria | shallow | 1 / 1 | 10 |
+| nuove indicazioni nazionali | shallow | 1 / 1 | 10 |
+| obiettivi matematica classe seconda | shallow | 1 / 1 | 10 |
+| obiettivi di apprendimento classe prima | shallow | 1 / 1 | 5 |
+| traguardi di competenza matematica | shallow | 1 / 1 | 2 |
+| traguardi italiano primaria | shallow | 1 / 1 | 1 |
+| indicazioni nazionali | deep | 25 / 27 | 222 |
+| obiettivi di apprendimento | deep | 21 / 27 | 163 |
+| traguardi di competenza | deep | 17 / 27 | 61 |
+
+**Words people add** (how many distinct phrases carry the word): scuola 108 · primaria 81 · classe 43 · secondaria 39 · grado 36 · primo 33 · 2026 32 · media 26 · 2025 25 · di 23 · educazione 23 · indicazioni 23 · infanzia 22 · nazionali 22 · specifici 21 · 2012 19 · civica 18 · geografia 18 · per 17 · prima 17 · religione 17 · curricolo 16 · secondo 16 · arte 15 · pdf 14 · matematica 14 · terza 14 · licei 13 · immagine 13 · tecnologia 13 · quinta 12 · cattolica 12 · nuove 11 · sono 10 · scienze 10 · istituti 10 · del 9 · liceo 9 · seconda 9 · irc 9
+
+**Phrases** (all 494, by how many lookups returned them)
+
+- traguardi di competenza previsti dalla normativa per l educazione civica  ×5
+- traguardi di competenza e obiettivi di apprendimento  ×4
+- traguardi di competenza scuola primaria indicazioni nazionali  ×4
+- traguardi di competenza scuola secondaria primo grado  ×4
+- obiettivi di apprendimento classe prima primaria  ×3
+- traguardi di competenza arte e immagine scuola media  ×3
+- traguardi di competenza educazione civica  ×3
+- traguardi di competenza indicazioni nazionali  ×3
+- differenza tra traguardi di competenza e obiettivi  ×3
+- traguardi di competenza educazione civica scuola primaria  ×3
+- traguardi di competenza educazione civica scuola secondaria primo grado  ×3
+- traguardi di competenza la conoscenza del mondo  ×3
+- traguardi di competenza scuola secondaria secondo grado  ×3
+- traguardi di competenza scuola infanzia indicazioni nazionali  ×3
+- indicazioni nazionali infanzia 2026  ×2
+- indicazioni nazionali licei  ×2
+- indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione  ×2
+- indicazioni nazionali primaria 2026  ×2
+- indicazioni nazionali scuola secondaria di primo grado  ×2
+- obiettivi di apprendimento indicazioni nazionali  ×2
+- obiettivi di apprendimento per la valutazione delle competenze stem  ×2
+- obiettivi di apprendimento personalizzati  ×2
+- obiettivi di apprendimento scuola secondaria di primo grado  ×2
+- traguardi di competenza classe quinta primaria  ×2
+- traguardi di competenza classe seconda primaria  ×2
+- traguardi di competenza in uscita  ×2
+- traguardi di competenza matematica scuola primaria  ×2
+- traguardi di competenza scuola primaria  ×2
+- indicazioni nazionali infanzia  ×2
+- indicazioni nazionali licei 2026  ×2
+- indicazioni nazionali primaria  ×2
+- obiettivi di apprendimento classe prima matematica  ×2
+- obiettivi di apprendimento classe seconda primaria  ×2
+- obiettivi di apprendimento della lezione riferimenti normativi  ×2
+- obiettivi di apprendimento filosofia liceo scienze umane  ×2
+- obiettivi di apprendimento liceo scienze umane  ×2
+- obiettivi di apprendimento per bloom  ×2
+- obiettivi di apprendimento per la valutazione delle competenze stem infanzia  ×2
+- obiettivi di apprendimento scuola primaria  ×2
+- obiettivi di apprendimento tecnologia classe prima  ×2
+- traguardi di competenza arte e immagine scuola primaria  ×2
+- traguardi di competenza geografia scuola media  ×2
+- traguardi di competenza indicazioni nazionali 2012  ×2
+- traguardi di competenza lingua inglese scuola primaria  ×2
+- traguardi di competenza matematica  ×2
+- traguardi di competenza per l educazione civica  ×2
+- indicazioni nazionali del 2012 hanno introdotto esplicitamente  ×2
+- obiettivi di apprendimento classe prima  ×2
+- obiettivi di apprendimento per la valutazione delle competenze stem scuola primaria  ×2
+- obiettivi di apprendimento scuola infanzia  ×2
+- traguardi di competenza classe terza primaria  ×2
+- traguardi di competenza tecnologia scuola media  ×2
+- obiettivi di apprendimento geografia classe quarta  ×2
+- obiettivi di apprendimento in forma operativa  ×2
+- obiettivi di apprendimento indicazioni nazionali 2012  ×2
+- obiettivi di apprendimento scuola primaria indicazioni nazionali  ×2
+- traguardi di competenza ed civica  ×2
+- traguardi di competenza scuola media  ×2
+- linee guida traguardi di competenza  ×2
+- obiettivi di apprendimento educazione fisica scuola media  ×2
+- obiettivi di apprendimento scuola infanzia indicazioni nazionali  ×2
+- traguardi di competenza classe prima primaria  ×2
+- traguardi di competenza istituti tecnici  ×2
+- traguardi di competenza scuola infanzia  ×2
+- obiettivi di apprendimento indicazioni nazionali 2025  ×2
+- obiettivi di apprendimento matematica classe quarta primaria  ×2
+- obiettivi di apprendimento storia seconda media  ×2
+- traguardi di competenza classe terza  ×2
+- traguardi di competenza educazione civica scuola secondaria secondo grado  ×2
+- traguardi di competenza scuola primaria classe terza  ×2
+- obiettivi di apprendimento alternativa alla religione  ×2
+- obiettivi di apprendimento e obiettivi formativi  ×2
+- obiettivi di apprendimento indicazioni nazionali secondaria secondo grado  ×2
+- traguardi di competenza il corpo e il movimento  ×2
+- traguardi di competenza scuola primaria educazione civica  ×2
+- curricolo verticale primaria 2026
+- indicazioni nazionali 2012 hanno introdotto
+- indicazioni nazionali 2026
+- indicazioni nazionali arte e immagine scuola media
+- indicazioni nazionali bicocca
+- indicazioni nazionali curricolo scuola secondaria di primo grado
+- indicazioni nazionali del 2012
+- indicazioni nazionali educazione fisica scuola secondaria di primo grado
+- indicazioni nazionali filosofia
+- indicazioni nazionali geografia primaria
+- indicazioni nazionali istituti tecnici
+- indicazioni nazionali musica scuola primaria 2026
+- indicazioni nazionali nuove
+- indicazioni nazionali obiettivi minimi scuola secondaria di primo grado
+- indicazioni nazionali quando entrano in vigore
+- indicazioni nazionali religione cattolica scuola primaria
+- indicazioni nazionali tecnologia scuola secondaria di primo grado
+- indicazioni nazionali ultime
+- indicazioni nazionali valditara
+- indicazioni nazionali web
+- indicazioni nazionali xi licei
+- indicazioni nazionali youtube
+- indicazioni nazionali zanichelli
+- nuove indicazioni nazionali 2026
+- obiettivi di apprendimento
+- obiettivi di apprendimento arte e immagine
+- obiettivi di apprendimento bloom
+- obiettivi di apprendimento disciplinari
+- obiettivi di apprendimento esempi
+- obiettivi di apprendimento filosofia
+- obiettivi di apprendimento geografia scuola media
+- obiettivi di apprendimento lezione simulata
+- obiettivi di apprendimento musica scuola media
+- obiettivi di apprendimento normativa
+- obiettivi di apprendimento osa
+- obiettivi di apprendimento quali sono
+- obiettivi di apprendimento religione cattolica scuola primaria
+- obiettivi di apprendimento tecnologia scuola media
+- obiettivi di apprendimento uda
+- obiettivi matematica classe seconda primaria
+- traguardi di competenza
+- traguardi di competenza da indicazioni nazionali
+- traguardi di competenza geografia scuola primaria
+- traguardi di competenza infanzia
+- traguardi di competenza linguistica
+- traguardi di competenza religione cattolica
+- traguardi di competenza trasversali
+- traguardi italiano scuola primaria
+- zanichelli obiettivi di apprendimento
+- curricolo verticale primaria
+- indicazioni nazionali 2012 hanno introdotto esplicitamente
+- indicazioni nazionali 2012 zanichelli
+- indicazioni nazionali 2025
+- indicazioni nazionali 2025 youtube
+- indicazioni nazionali arte e immagine scuola secondaria di primo grado
+- indicazioni nazionali bocciate
+- indicazioni nazionali curricolo
+- indicazioni nazionali del 2025
+- indicazioni nazionali educazione civica
+- indicazioni nazionali filosofia 2026
+- indicazioni nazionali geografia scuola secondaria di primo grado
+- indicazioni nazionali mim
+- indicazioni nazionali nuove 2026
+- indicazioni nazionali obiettivi specifici di apprendimento
+- indicazioni nazionali per i licei
+- indicazioni nazionali quando nascono
+- indicazioni nazionali religione cattolica
+- indicazioni nazionali scuola secondaria di secondo grado
+- indicazioni nazionali tecnici
+- indicazioni nazionali ultimo aggiornamento
+- indicazioni nazionali vecchie
+- indicazioni nazionali word
+- nuove indicazioni nazionali 2026 pdf
+- obiettivi di apprendimento al termine della classe quinta della scuola primaria
+- obiettivi di apprendimento e traguardi per lo sviluppo delle competenze
+- obiettivi di apprendimento geografia classe terza primaria
+- obiettivi di apprendimento italiano scuola media
+- obiettivi di apprendimento musica scuola primaria
+- obiettivi di apprendimento nelle indicazioni nazionali
+- obiettivi di apprendimento quarta primaria
+- obiettivi di apprendimento religione scuola primaria
+- obiettivi matematica classe seconda
+- obiettivi specifici di apprendimento osa
+- obiettivi specifici di apprendimento uda
+- quali sono i traguardi di competenza
+- traguardi di competenza cosa sono
+- traguardi di competenza disciplinari
+- traguardi di competenza musica scuola primaria
+- traguardi di competenza tecnologia scuola primaria
+- curricolo verticale primaria secondaria
+- indicazioni nazionali 2012 youtube
+- indicazioni nazionali arte e immagine scuola primaria
+- indicazioni nazionali bes
+- indicazioni nazionali curricolo 2026
+- indicazioni nazionali dei licei
+- indicazioni nazionali educazione motoria scuola primaria
+- indicazioni nazionali franca da re
+- indicazioni nazionali geografia
+- indicazioni nazionali infanzia 2025
+- indicazioni nazionali irc
+- indicazioni nazionali licei 2026 pdf
+- indicazioni nazionali musica scuola media
+- indicazioni nazionali nuovo curricolo
+- indicazioni nazionali obiettivi di apprendimento
+- indicazioni nazionali per il curricolo
+- indicazioni nazionali primaria 2025
+- indicazioni nazionali quali sono in vigore
+- indicazioni nazionali religione
+- indicazioni nazionali scuola primaria
+- indicazioni nazionali tecnici 2026
+- indicazioni nazionali ultima versione
+- indicazioni nazionali valditara pdf
+- indicazioni nazionali wikipedia
+- nuove indicazioni nazionali
+- nuove indicazioni nazionali zanichelli
+- obiettivi di apprendimento al termine della classe terza della scuola primaria
+- obiettivi di apprendimento classe quinta primaria
+- obiettivi di apprendimento classe quinta scuola primaria
+- obiettivi di apprendimento della lezione
+- obiettivi di apprendimento educazione civica
+- obiettivi di apprendimento francese scuola media
+- obiettivi di apprendimento generali e specifici
+- obiettivi di apprendimento infanzia
+- obiettivi di apprendimento latino biennio
+- obiettivi di apprendimento linee guida istituti professionali
+- obiettivi di apprendimento matematica classe seconda primaria
+- obiettivi di apprendimento nella scuola dell'infanzia
+- obiettivi di apprendimento primaria
+- obiettivi di apprendimento religione cattolica scuola dell infanzia
+- obiettivi di apprendimento tecnologia
+- obiettivi matematica classe seconda primo quadrimestre
+- obiettivi specifici di apprendimento osa art 8 dpr 275 99
+- traguardi di competenza ambiente
+- traguardi di competenza italiano
+- traguardi di competenza primaria
+- curricolo verticale scuola primaria secondo le nuove indicazioni nazionali
+- indicazioni nazionali 2012
+- indicazioni nazionali 2012 cosa hanno introdotto
+- indicazioni nazionali 2025 zanichelli
+- indicazioni nazionali aggiornate
+- indicazioni nazionali bloccate
+- indicazioni nazionali classe prima primaria
+- indicazioni nazionali del curricolo 2025
+- indicazioni nazionali educazione fisica scuola secondaria di primo grado 2026
+- indicazioni nazionali filosofia e storia
+- indicazioni nazionali geografia secondaria secondo grado
+- indicazioni nazionali infanzia cosa cambia
+- indicazioni nazionali irc pdf
+- indicazioni nazionali liceo scientifico
+- indicazioni nazionali matematica scuola secondaria di primo grado
+- indicazioni nazionali nuove pdf
+- indicazioni nazionali obiettivi specifici di apprendimento scuola secondaria di primo grado
+- indicazioni nazionali per il curricolo scuola secondaria di primo grado
+- indicazioni nazionali primaria storia
+- indicazioni nazionali quali sono
+- indicazioni nazionali religione primaria
+- indicazioni nazionali scuola secondaria di primo grado pdf
+- indicazioni nazionali tecnologia scuola primaria
+- indicazioni nazionali uda
+- indicazioni nazionali valditara 2025
+- indicazioni nazionali webinar
+- nuove indicazioni nazionali scuola primaria 2026 pdf
+- obiettivi di apprendimento arte e immagine classe terza primaria
+- obiettivi di apprendimento classe prima italiano
+- obiettivi di apprendimento classe quinta
+- obiettivi di apprendimento dove si trovano
+- obiettivi di apprendimento educazione civica scuola primaria
+- obiettivi di apprendimento linee guida istituti tecnici
+- obiettivi di apprendimento matematica classe prima
+- obiettivi di apprendimento riferimenti normativi
+- obiettivi di apprendimento tassonomia di bloom
+- obiettivi di apprendimento trasversali
+- obiettivi matematica classe seconda secondo quadrimestre
+- obiettivi specifici di apprendimento filosofia
+- obiettivi specifici di apprendimento scienze umane
+- traguardi di competenza pecup
+- traguardi di competenza scuola dell infanzia
+- verbi per obiettivi di apprendimento
+- bloom obiettivi di apprendimento terminologia
+- curricolo verticale scuola primaria 2025
+- gli obiettivi specifici di apprendimento osa indicano
+- indicazioni nazionali
+- indicazioni nazionali 2012 chi le ha scritte
+- indicazioni nazionali 2012 word
+- indicazioni nazionali arte e immagine
+- indicazioni nazionali bozza
+- indicazioni nazionali curricolo 2025
+- indicazioni nazionali e nuovi scenari 2018
+- indicazioni nazionali file
+- indicazioni nazionali geostoria
+- indicazioni nazionali infanzia e primo ciclo 2025
+- indicazioni nazionali irc primaria
+- indicazioni nazionali licei zanichelli
+- indicazioni nazionali liceo scienze umane
+- indicazioni nazionali matematica primaria
+- indicazioni nazionali nido
+- indicazioni nazionali osa
+- indicazioni nazionali per il curricolo 2026
+- indicazioni nazionali primaria 2012
+- indicazioni nazionali quante sono
+- indicazioni nazionali religione cattolica scuola secondaria secondo grado
+- indicazioni nazionali scuola infanzia
+- indicazioni nazionali tecnologia
+- indicazioni nazionali ufficiali
+- indicazioni nazionali vigenti
+- nuove indicazioni nazionali scuola infanzia 2026
+- obiettivi di apprendimento arte e immagine classe 5
+- obiettivi di apprendimento classe seconda primaria indicazioni nazionali
+- obiettivi di apprendimento definizione
+- obiettivi di apprendimento e competenze
+- obiettivi di apprendimento generali e disciplinari
+- obiettivi di apprendimento in inglese
+- obiettivi di apprendimento liceo scientifico
+- obiettivi di apprendimento matematica classe terza primaria
+- obiettivi di apprendimento prima media
+- obiettivi di apprendimento terza media
+- obiettivi matematica classe seconda media
+- obiettivi specifici di apprendimento quali sono
+- obiettivi specifici di apprendimento riferimenti normativi
+- traguardi di competenza di educazione civica
+- traguardi di competenza educazione civica scuola infanzia
+- valutazione degli obiettivi di apprendimento
+- curricolo verticale infanzia primaria secondaria
+- indicazioni nazionali 2012 pdf zanichelli
+- indicazioni nazionali 2018 traguardi di competenza
+- indicazioni nazionali 2025 chi le ha scritte
+- indicazioni nazionali 2025 pdf
+- indicazioni nazionali attività alternativa
+- indicazioni nazionali bolzano
+- indicazioni nazionali curricolo scuola primaria
+- indicazioni nazionali dei licei 2026
+- indicazioni nazionali e nuovi scenari
+- indicazioni nazionali filosofia licei
+- indicazioni nazionali geografia classe prima
+- indicazioni nazionali infanzia 2012
+- indicazioni nazionali irc word
+- indicazioni nazionali licei 2010
+- indicazioni nazionali miur
+- indicazioni nazionali non multa sed multum
+- indicazioni nazionali obiettivi
+- indicazioni nazionali primaria musica
+- indicazioni nazionali quando sono uscite
+- indicazioni nazionali religione cattolica scuola secondaria primo grado
+- indicazioni nazionali scuola primaria 2026
+- indicazioni nazionali traguardi per lo sviluppo delle competenze
+- indicazioni nazionali unità di apprendimento
+- indicazioni nazionali valutazione
+- nuove indicazioni nazionali scuola secondaria di primo grado
+- obiettivi di apprendimento arte e immagine classe prima
+- obiettivi di apprendimento classe quinta matematica
+- obiettivi di apprendimento classe terza primaria indicazioni nazionali
+- obiettivi di apprendimento diritto ed economia
+- obiettivi di apprendimento e obiettivi specifici
+- obiettivi di apprendimento educazione motoria scuola primaria
+- obiettivi di apprendimento geografia seconda media
+- obiettivi di apprendimento la conoscenza del mondo
+- obiettivi di apprendimento tecnologia classe seconda
+- obiettivi matematica classe seconda primaria indicazioni nazionali
+- obiettivi specifici di apprendimento istituti tecnici secondo biennio
+- obiettivi specifici di apprendimento religione cattolica
+- traguardi di competenza italiano scuola primaria
+- curricolo verticale scuola primaria nuove indicazioni
+- indicazioni nazionali 2025 word
+- indicazioni nazionali alberghiero
+- indicazioni nazionali bibliografia
+- indicazioni nazionali curricolo verticale 2026
+- indicazioni nazionali del primo ciclo di istruzione
+- indicazioni nazionali erickson
+- indicazioni nazionali fisica liceo scientifico
+- indicazioni nazionali geografia prima media
+- indicazioni nazionali infanzia 2018
+- indicazioni nazionali irc secondaria secondo grado
+- indicazioni nazionali licei pdf
+- indicazioni nazionali medie
+- indicazioni nazionali nuclei tematici
+- indicazioni nazionali obiettivi specifici di apprendimento scuola secondaria di secondo grado
+- indicazioni nazionali primaria motoria
+- indicazioni nazionali primo ciclo
+- indicazioni nazionali quinta primaria
+- indicazioni nazionali religione cattolica scuola infanzia
+- indicazioni nazionali scienze umane
+- indicazioni nazionali scuola primaria pdf
+- indicazioni nazionali testo
+- indicazioni nazionali video
+- le indicazioni nazionali 2012 hanno sostituito
+- nuove indicazioni nazionali 2025
+- nuove indicazioni nazionali 2026 zanichelli
+- obiettivi di apprendimento cosa sono
+- obiettivi di apprendimento declinati in conoscenze e abilità
+- obiettivi di apprendimento geografia prima media
+- obiettivi di apprendimento linee guida istituti professionali 2010
+- obiettivi di apprendimento matematica prima media
+- obiettivi di apprendimento prima elementare
+- obiettivi di apprendimento scienze classe quinta primaria
+- obiettivi di apprendimento scuola secondaria di primo grado italiano
+- obiettivi di apprendimento terza primaria
+- obiettivi matematica classe seconda elementare
+- obiettivi specifici di apprendimento fisica liceo scientifico
+- obiettivi specifici di apprendimento istituti professionali secondo biennio
+- traguardi di competenza educazione civica scuola secondaria
+- curricolo verticale scuola primaria secondo le nuove indicazioni nazionali 2026
+- indicazioni nazionali 2025 ultima versione
+- indicazioni nazionali arte e immagine 2026
+- indicazioni nazionali classe quinta primaria
+- indicazioni nazionali di religione cattolica
+- indicazioni nazionali e linee guida scuola secondaria di secondo grado
+- indicazioni nazionali francese
+- indicazioni nazionali geografia 2025
+- indicazioni nazionali infanzia e primo ciclo
+- indicazioni nazionali irc secondaria primo grado
+- indicazioni nazionali latino medie
+- indicazioni nazionali medie 2026
+- indicazioni nazionali nuovi scenari 2018
+- indicazioni nazionali orizzonte scuola
+- indicazioni nazionali per il curricolo 2025
+- indicazioni nazionali primaria educazione motoria
+- indicazioni nazionali quando
+- indicazioni nazionali religione infanzia
+- indicazioni nazionali scuola secondaria di primo grado 2026
+- indicazioni nazionali terza elementare
+- indicazioni nazionali valutazione primaria
+- nuove indicazioni nazionali 2026 pdf mim
+- nuove indicazioni nazionali bicocca
+- nuove indicazioni nazionali webinar
+- obiettivi di apprendimento alberghiero
+- obiettivi di apprendimento conoscenze abilità competenze
+- obiettivi di apprendimento disegno e storia dell'arte
+- obiettivi di apprendimento educazione fisica
+- obiettivi di apprendimento geografia classe prima
+- obiettivi di apprendimento indicazioni nazionali secondaria primo grado
+- obiettivi di apprendimento irc scuola primaria
+- obiettivi di apprendimento lingua inglese scuola secondaria secondo grado
+- obiettivi di apprendimento matematica
+- obiettivi di apprendimento storia classe quinta primaria
+- obiettivi di apprendimento tecnologia classe quinta
+- obiettivi di’apprendimento economia aziendale
+- obiettivi minimi matematica classe seconda primaria
+- obiettivi specifici di apprendimento istituti tecnici primo biennio
+- operazionalizzare gli obiettivi di apprendimento
+- traguardi di competenza scuola secondaria di primo grado
+- curricolo verticale infanzia primaria
+- differenza tra obiettivi di apprendimento e osa
+- indicazioni nazionali 2025 webinar
+- indicazioni nazionali arte
+- indicazioni nazionali cosa sono
+- indicazioni nazionali dicembre 2025
+- indicazioni nazionali educazione civica scuola primaria
+- indicazioni nazionali filosofia e scienze umane
+- indicazioni nazionali gazzetta ufficiale
+- indicazioni nazionali geografia classe seconda primaria
+- indicazioni nazionali infanzia e primaria
+- indicazioni nazionali irc 2025
+- indicazioni nazionali licei bozza
+- indicazioni nazionali lingua inglese scuola secondaria primo grado
+- indicazioni nazionali matematica
+- indicazioni nazionali nuovi scenari
+- indicazioni nazionali o linee guida
+- indicazioni nazionali primaria matematica
+- indicazioni nazionali quarta elementare
+- indicazioni nazionali raffaello
+- indicazioni nazionali scuola infanzia 2026
+- indicazioni nazionali testo definitivo
+- indicazioni nazionali valutazione infanzia
+- nuove indicazioni nazionali 2026 sintesi
+- obiettivi di apprendimento arte e immagine scuola media
+- obiettivi di apprendimento delle indicazioni nazionali
+- obiettivi di apprendimento educazione civica scuola media
+- obiettivi di apprendimento geografia classe prima primaria
+- obiettivi di apprendimento italiano classe prima primaria
+- obiettivi di apprendimento linee guida
+- obiettivi di apprendimento matematica classe prima primaria
+- obiettivi di apprendimento pei
+- obiettivi di apprendimento religione cattolica scuola secondaria di primo grado
+- obiettivi di apprendimento scuola primaria classe prima
+- obiettivi di apprendimento tecnologia classe terza primaria
+- obiettivi minimi matematica classe seconda media
+- obiettivi specifici di apprendimento normativa
+- curricolo verticale irc primaria
+- indicazioni nazionali 2012 bibliografia
+- indicazioni nazionali 2012 word miur
+- indicazioni nazionali 2025 quando entrano in vigore
+- indicazioni nazionali 2026 pdf
+- indicazioni nazionali aggiornate 2025
+- indicazioni nazionali curricolo scuola infanzia
+- indicazioni nazionali del curricolo 2026
+- indicazioni nazionali ed civica
+- indicazioni nazionali fisica
+- indicazioni nazionali infanzia primo ciclo
+- indicazioni nazionali istituti tecnici pdf
+- indicazioni nazionali licei ultimo aggiornamento
+- indicazioni nazionali liceo scienze umane 2026
+- indicazioni nazionali mim 2026
+- indicazioni nazionali nuove 2025
+- indicazioni nazionali orientamento
+- indicazioni nazionali per il curricolo scuola secondaria di secondo grado
+- indicazioni nazionali primaria 2018
+- indicazioni nazionali religione cattolica 2012 scuola primaria
+- indicazioni nazionali storia scuola secondaria primo grado
+- indicazioni nazionali tecnologia classe terza
+- indicazioni nazionali valditara storia
+- nuove indicazioni nazionali scuola primaria
+- obiettivi di apprendimento arte e immagine classe prima primaria
+- obiettivi di apprendimento classe quarta primaria
+- obiettivi di apprendimento dalle indicazioni nazionali
+- obiettivi di apprendimento educazione civica scuola infanzia
+- obiettivi di apprendimento geografia terza media
+- obiettivi di apprendimento indicazioni nazionali scuola primaria
+- obiettivi di apprendimento istituti professionali
+- obiettivi di apprendimento italiano classe quinta primaria
+- obiettivi di apprendimento lingua inglese
+- obiettivi di apprendimento matematica seconda media
+- obiettivi di apprendimento per competenze
+- obiettivi di apprendimento storia scuola media
+- obiettivi di apprendimento tecnologia classe prima primaria
+- obiettivi minimi matematica classe seconda
+- obiettivi specifici di apprendimento in forma operativa
+- obiettivi specifici di apprendimento liceo scientifico opzione scienze applicate
+- rendere operativi gli obiettivi di apprendimento individuati
+- traguardi di competenza scienze scuola primaria
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| prove d'ingresso classe seconda | shallow | 1 / 1 | 10 |
+| prove d'ingresso classe prima | shallow | 1 / 1 | 10 |
+| verifica italiano classe terza | shallow | 1 / 1 | 10 |
+| prove d'ingresso classe terza | shallow | 1 / 1 | 10 |
+| verifiche classe prima | shallow | 1 / 1 | 10 |
+| rubriche valutative primaria | shallow | 1 / 1 | 10 |
+| prove invalsi seconda | shallow | 1 / 1 | 9 |
+| prove intermedie classe seconda | shallow | 1 / 1 | 7 |
+| verifiche matematica classe prima | shallow | 1 / 1 | 4 |
+| prove finali classe prima | shallow | 1 / 1 | 4 |
+| prove finali | deep | 20 / 27 | 123 |
+| prove d'ingresso | deep | 19 / 27 | 149 |
+| verifiche classe seconda | deep | 15 / 27 | 74 |
+| verifiche matematica | deep | 13 / 27 | 65 |
+
+**Words people add** (how many distinct phrases carry the word): classe 113 · primaria 105 · matematica 76 · di 68 · italiano 58 · elementare 55 · terza 44 · quinta 41 · scuola 39 · prima 37 · quadrimestre 37 · quarta 31 · seconda 29 · media 28 · primo 25 · geografia 20 · da 18 · pegaso 18 · storia 17 · stampare 17 · liceo 14 · inglese 13 · secondo 13 · finali 12 · verifica 11 · con 10 · pdf 9 · scienze 9 · scientifico 9 · religione 9 · intermedie 9 · mercatorum 9 · unibg 9 · valutazione 8 · 2026 8 · soluzioni 7 · tesi 7 · ingresso 6 · ingegneria 6 · profitto 6
+
+**Phrases** (all 484, by how many lookups returned them)
+
+- prove d'ingresso classe prima primaria pdf  ×3
+- prove d'ingresso classe seconda primaria  ×3
+- prove d'ingresso classe terza primaria  ×3
+- prove finali san raffaele  ×3
+- verifiche classe seconda primaria matematica  ×3
+- verifiche classe seconda primo quadrimestre  ×3
+- verifiche classe seconda secondo quadrimestre  ×3
+- verifiche matematica classe prima  ×3
+- verifiche matematica seconda elementare da stampare  ×3
+- verifiche matematica terza elementare  ×3
+- prove d'ingresso classe terza la teca didattica  ×3
+- verifiche classe seconda maestra ilaria  ×3
+- verifiche matematica seconda elementare da stampare primo quadrimestre  ×3
+- verifiche classe seconda matematica primo quadrimestre  ×3
+- verifiche intermedie classe seconda matematica  ×3
+- verifiche primo quadrimestre classe seconda storia e geografia  ×3
+- la teca didattica verifiche classe seconda  ×2
+- prove d ingresso liceo scienze umane  ×2
+- prove d'ingresso classe quinta con soluzioni  ×2
+- prove d'ingresso prima media  ×2
+- prove d'ingresso quinta elementare matematica  ×2
+- prove d'ingresso scuola primaria maestra mary  ×2
+- prove finali classe prima italiano  ×2
+- prove finali in presenza pegaso  ×2
+- prove finali ingegneria biomedica unipa  ×2
+- prove finali mercatorum  ×2
+- prove finali pegaso  ×2
+- prove fisiche finali rav  ×2
+- verifiche classe seconda italiano  ×2
+- verifiche classe seconda matematica  ×2
+- verifiche di storia classe seconda elementare da stampare  ×2
+- verifiche finali classe seconda italiano  ×2
+- verifiche geografia classe seconda primaria  ×2
+- verifiche matematica liceo scientifico  ×2
+- verifiche matematica prima media  ×2
+- verifiche matematica quinta elementare  ×2
+- prove d'ingresso classe prima primaria  ×2
+- prove d'ingresso matematica prima media  ×2
+- prove d'ingresso quinta elementare  ×2
+- prove finali classe prima matematica  ×2
+- prove finali classe quarta italiano  ×2
+- prove finali classe terza primaria italiano  ×2
+- prove finali economia aziendale unibg  ×2
+- prove finali in presenza mercatorum  ×2
+- prove finali mercatorum novembre  ×2
+- prove finali pegaso come funziona  ×2
+- prove finali pegaso settembre  ×2
+- prove finali unipd psicologia  ×2
+- verifiche classe seconda primaria  ×2
+- verifiche di matematica quarta elementare da stampare  ×2
+- verifiche di matematica terza elementare da stampare  ×2
+- verifiche finali classe seconda matematica  ×2
+- verifiche italiano classe seconda secondo quadrimestre  ×2
+- verifiche matematica classe prima secondo quadrimestre  ×2
+- verifiche matematica classe seconda  ×2
+- verifiche matematica prima elementare  ×2
+- verifiche secondo quadrimestre classe seconda elementare italiano  ×2
+- prove d'ingresso matematica classe seconda primaria  ×2
+- prove d'ingresso seconda elementare matematica  ×2
+- prove finali classe quinta italiano  ×2
+- prove finali classe terza primaria matematica  ×2
+- prove finali e tesi disei  ×2
+- prove finali pegaso settembre 2026  ×2
+- verifiche di matematica quinta elementare da stampare con soluzioni  ×2
+- verifiche finali classe seconda primaria  ×2
+- verifiche finali geografia classe seconda primaria  ×2
+- verifiche fine anno classe seconda matematica  ×2
+- verifiche matematica classe prima primo quadrimestre  ×2
+- verifiche matematica classe seconda secondo quadrimestre  ×2
+- verifiche matematica prima liceo scientifico  ×2
+- prove finali classe prima primaria italiano  ×2
+- prove finali classe quarta primaria  ×2
+- prove finali e tesi  ×2
+- prove finali pegaso novembre  ×2
+- prove finali seconda posizione economica ata  ×2
+- verifiche di italiano classe seconda elementare da stampare  ×2
+- verifiche di matematica quinta elementare da stampare  ×2
+- verifiche italiano classe seconda primo quadrimestre  ×2
+- verifiche matematica 5 elementare  ×2
+- verifiche matematica primo quadrimestre classe prima  ×2
+- prove d'ingresso classe quarta matematica  ×2
+- prove finali e tesi digspes  ×2
+- prove finali san raffaele roma  ×2
+- prove finali unibg scienze aziendali  ×2
+- verifiche finali classe seconda primaria matematica  ×2
+- prove finali e tesi di laurea unibg  ×2
+- verifiche ingresso classe seconda primaria  ×2
+- verifiche d'ingresso classe seconda matematica  ×2
+- verifiche matematica 4 elementare  ×2
+- prove finali e tesi di laurea  ×2
+- verifiche storia classe seconda primaria  ×2
+- prove d ingresso prima media voti
+- prove d ingresso terza elementare italiano
+- prove d ingresso zanichelli
+- prove d'ingresso ardea
+- prove d'ingresso di matematica prima media
+- prove d'ingresso facilitate classe seconda primaria
+- prove d'ingresso geografia classe seconda
+- prove d'ingresso inglese scuola primaria maestra mary
+- prove d'ingresso liceo scientifico
+- prove d'ingresso matematica classe quinta con soluzioni
+- prove d'ingresso o prove di ingresso
+- prove d'ingresso religione scuola primaria
+- prove d'ingresso terza media italiano da stampare
+- prove di verifica finali classe quinta scuola primaria
+- prove finali ata
+- prove finali di profitto pegaso
+- prove finali esami pegaso
+- prove finali lettere unipa
+- prove finali novembre mercatorum
+- prove finali orali pegaso
+- prove finali quinta elementare
+- prove finali rav esercito
+- prove finali terza elementare
+- prove finali unibg giurisprudenza
+- prove finali unimercatorum
+- prove intermedie classe seconda primaria
+- prove invalsi seconda elementare
+- rubriche valutative primaria
+- verifica italiano classe terza
+- verifiche animali classe seconda
+- verifiche classe prima italiano
+- verifiche di matematica addizioni e sottrazioni
+- verifiche di matematica prima media da stampare con soluzioni
+- verifiche intermedie matematica classe quinta primaria
+- verifiche italiano classe seconda primo bimestre
+- verifiche matematica elementari
+- verifiche matematica operazioni
+- verifiche matematica zanichelli
+- verifiche orologio classe seconda
+- verifiche tabelline classe seconda
+- atlas verifiche matematica
+- prove d ingresso facilitate scuola primaria
+- prove d ingresso liceo scientifico matematica
+- prove d ingresso o di ingresso
+- prove d ingresso seconda elementare
+- prove d'ingresso alla prima media
+- prove d'ingresso classe seconda matematica
+- prove d'ingresso di italiano prima media
+- prove d'ingresso geografia terza elementare
+- prove d'ingresso inglese scuola primaria maestra lidia
+- prove d'ingresso prima media matematica da stampare
+- prove d'ingresso religione classe quinta
+- prove d'ingresso scuola primaria con griglie di valutazione
+- prove d'ingresso terza elementare italiano
+- prove di verifica finali classe quinta scuola primaria matematica
+- prove finali di profitto cosa sono
+- prove finali lingue unibg
+- prove finali novembre pegaso
+- prove finali rav
+- prove finali settembre mercatorum
+- prove finali tfa
+- prove finali unipd giurisprudenza
+- prove intermedie classe seconda
+- prove invalsi seconda elementare pdf matematica 2026
+- prove oggettive finali scuola primaria
+- rubriche valutative scuola primaria
+- soluzioni verifiche zanichelli matematica
+- verbale prove d ingresso scuola primaria
+- verifica italiano classe terza primo quadrimestre
+- verifiche classe prima
+- verifiche classe seconda
+- verifiche di matematica prima elementare da stampare
+- verifiche di storia classe seconda primaria
+- verifiche di tecnologia classe seconda
+- verifiche fine anno classe seconda
+- verifiche geografia classe seconda
+- verifiche intermedie matematica classe quarta
+- verifiche matematica
+- verifiche matematica esame terza media
+- verifiche matematica liceo
+- verifiche online matematica
+- verifiche ortografia classe seconda
+- verifiche primo bimestre classe seconda primaria
+- calendario prove finali ingegneria gestionale unina
+- creare verifiche di matematica online
+- le prove comuni finali fanno media
+- obiettivi prove d'ingresso classe prima
+- prove d ingresso arte e immagine classe terza
+- prove d ingresso fanno media
+- prove d ingresso liceo scientifico primo anno
+- prove d ingresso prima elementare
+- prove d'ingresso classe prima primaria matematica
+- prove d'ingresso classe seconda
+- prove d'ingresso classe terza
+- prove d'ingresso di geografia classe terza primaria
+- prove d'ingresso geografia classe terza
+- prove d'ingresso italiano prima media
+- prove d'ingresso prima media matematica
+- prove d'ingresso quinta elementare italiano
+- prove d'ingresso religione classe terza
+- prove d'ingresso terza elementare
+- prove di verifica finali matematica classe quarta primaria
+- prove finali classe prima
+- prove finali classe seconda primaria
+- prove finali di profitto mercatorum
+- prove finali italiano classe prima
+- prove finali lauree magistrali unipd
+- prove finali mercatorum date
+- prove finali percorsi abilitanti
+- prove finali scuola primaria
+- prove finali unipegaso
+- prove intermedie classe seconda primaria italiano
+- prove invalsi seconda elementare pdf italiano 2026
+- rubriche valutative scuola primaria la spiga
+- valutazione prove d'ingresso scuola primaria
+- verifica italiano classe terza secondo quadrimestre
+- verifiche bimestrali italiano classe seconda
+- verifiche classe prima matematica
+- verifiche di fine anno matematica classe prima elementare
+- verifiche di matematica classe seconda
+- verifiche ingresso matematica classe terza primaria
+- verifiche matematica classe terza
+- verifiche secondo quadrimestre classe seconda elementare matematica
+- obiettivi prove d ingresso classe quinta
+- prove d ingresso arte e immagine classe quarta
+- prove d ingresso francese prima media
+- prove d ingresso liceo classico
+- prove d ingresso terza elementare
+- prove d'ingresso classe prima primaria italiano
+- prove d'ingresso classe seconda primaria matematica
+- prove d'ingresso classe terza matematica
+- prove d'ingresso di matematica classe quinta elementare
+- prove d'ingresso geografia classe quarta
+- prove d'ingresso italiano classe quinta
+- prove d'ingresso matematica classe seconda
+- prove d'ingresso prima elementare
+- prove d'ingresso quarta elementare
+- prove d'ingresso religione classe prima
+- prove d'ingresso seconda elementare italiano
+- prove d'ingresso terza media
+- prove di verifica finali classe quinta scuola primaria italiano
+- prove finali classe terza primaria
+- prove finali di profitto in presenza pegaso
+- prove finali italiano classe quarta
+- prove finali mercatorum settembre
+- prove finali posizioni economiche ata
+- prove finali unipa lingue
+- prove finali unipd
+- prove intermedie classe seconda matematica
+- prove invalsi seconda elementare pdf matematica
+- rubriche valutative scuola primaria 2025
+- valutazione prove d ingresso
+- verifica italiano classe terza primaria
+- verifiche classe prima secondo quadrimestre
+- verifiche di fine anno classe seconda italiano
+- verifiche di italiano classe seconda
+- verifiche finali classe seconda
+- verifiche finali inglese classe seconda scuola primaria
+- verifiche finali matematica classe prima
+- verifiche iniziali matematica classe seconda primaria
+- verifiche matematica classe quarta
+- verifiche matematica seconda liceo scientifico
+- verifiche primo quadrimestre classe seconda italiano
+- verifiche storia e geografia classe seconda
+- obiettivi prove d'ingresso classe quarta
+- prove d ingresso arte e immagine scuola primaria classe quinta
+- prove d ingresso educazione fisica scuola primaria
+- prove d ingresso quarta elementare
+- prove d ingresso raffaello
+- prove d'ingresso classe prima
+- prove d'ingresso classe seconda primaria italiano
+- prove d'ingresso classe terza primaria italiano
+- prove d'ingresso di matematica
+- prove d'ingresso geografia classe quinta
+- prove d'ingresso inglese scuola primaria
+- prove d'ingresso matematica classe quarta
+- prove d'ingresso prima superiore
+- prove d'ingresso quinta elementare inglese
+- prove d'ingresso seconda media
+- prove d'ingresso tecnologia classe quarta
+- prove di verifica finali italiano classe quarta primaria
+- prove finali classe quinta matematica
+- prove finali di profitto in presenza
+- prove finali italiano classe seconda
+- prove finali matematica classe seconda primaria
+- prove finali pegaso date
+- prove finali pegaso recensioni
+- prove finali tesi di laurea unibg
+- prove finali unior
+- prove intermedie italiano classe seconda
+- prove invalsi seconda superiore
+- rubriche valutative scuola primaria nuova valutazione
+- verifica finale italiano classe terza
+- verifica prove d ingresso scuola primaria
+- verifiche classe prima primo quadrimestre
+- verifiche di geografia classe seconda primaria
+- verifiche di matematica
+- verifiche di matematica classe seconda elementare secondo quadrimestre
+- verifiche ingresso matematica classe quinta
+- verifiche matematica 3 liceo scientifico
+- verifiche matematica classe quinta
+- verifiche matematica prima elementare da stampare
+- verifiche secondo quadrimestre classe seconda italiano
+- obiettivi prove d'ingresso classe terza
+- prove d ingresso a cosa servono
+- prove d ingresso religione classe quarta
+- prove d ingresso scienze della formazione primaria
+- prove d'ingresso classe prima matematica
+- prove d'ingresso classe seconda italiano
+- prove d'ingresso classe terza italiano
+- prove d'ingresso di scienze classe terza primaria
+- prove d'ingresso grammatica classe quinta
+- prove d'ingresso inglese prima media
+- prove d'ingresso liceo
+- prove d'ingresso matematica classe terza
+- prove d'ingresso primaria
+- prove d'ingresso quinta
+- prove d'ingresso scuola media
+- prove d'ingresso tecnologia classe terza primaria
+- prove di verifica finali matematica classe terza primaria
+- prove finali dumas
+- prove finali economia unibg
+- prove finali inglese quinta primaria
+- prove finali italiano classe quinta
+- prove finali matematica classe quarta
+- prove finali matematica per l ingegneria
+- prove finali pegaso novembre 2026
+- prove finali seconda elementare
+- prove finali unibg ingegneria
+- prove intermedie inglese classe seconda primaria
+- prove invalsi seconda elementare 2026
+- rubriche valutative scuola primaria esempi
+- verbale prove d'ingresso
+- verifica finale italiano classe terza primaria
+- verifiche 1 quadrimestre classe seconda italiano
+- verifiche classe prima matematica primo quadrimestre
+- verifiche di matematica classe seconda elementare
+- verifiche di matematica classe seconda primaria
+- verifiche di matematica prima liceo scientifico
+- verifiche finali classe seconda primaria italiano
+- verifiche ingresso matematica classe quarta
+- verifiche matematica primo quadrimestre classe quarta elementare
+- verifiche primo quadrimestre classe seconda storia
+- griglia valutazione prove d'ingresso scuola primaria
+- libro verifiche matematica
+- obiettivi prove d'ingresso scuola primaria classe seconda
+- prove d ingresso arte e immagine
+- prove d ingresso primo liceo scientifico
+- prove d ingresso religione cattolica scuola primaria
+- prove d'ingresso classe prima media
+- prove d'ingresso classe quinta italiano
+- prove d'ingresso classe seconda primaria pdf
+- prove d'ingresso classe terza primaria matematica
+- prove d'ingresso di matematica classe seconda primaria
+- prove d'ingresso geografia classe prima
+- prove d'ingresso italiano primo superiore
+- prove d'ingresso matematica classe quinta
+- prove d'ingresso quinta primaria
+- prove d'ingresso scuola primaria
+- prove d'ingresso tecnologia classe quinta
+- prove d'ingresso terza media francese
+- prove di verifica finali classe prima
+- prove finali classe quarta matematica
+- prove finali di profitto
+- prove finali economia unipi
+- prove finali matematica classe terza primaria
+- prove finali matematica per l ingegneria polito
+- prove finali pegaso 2027
+- prove finali settembre pegaso
+- prove finali unipegaso date
+- prove intermedie di matematica classe seconda primaria
+- prove invalsi seconda elementare pdf italiano
+- regolamento prove finali unipd psicologia
+- rubriche valutative scuola primaria 2026
+- verifica intermedia italiano classe terza
+- verifiche classe prima italiano primo quadrimestre
+- verifiche d'ingresso classe seconda
+- verifiche intermedie matematica classe terza primaria
+- verifiche matematica classe quarta primo quadrimestre
+- verifiche matematica classe seconda primo quadrimestre
+- verifiche matematica prima superiore
+- verifiche personalizzate erickson classe seconda
+- verifiche quadrimestrali classe seconda
+- verifiche storia classe seconda
+- prove d ingresso a mente fresca
+- prove d ingresso per la prima media
+- prove d ingresso scuola primaria con griglie di valutazione
+- prove d'ingresso alunni bes
+- prove d'ingresso classe prima italiano
+- prove d'ingresso classe quarta italiano
+- prove d'ingresso classe seconda storia
+- prove d'ingresso classe terza primaria storia
+- prove d'ingresso di geografia classe quinta scuola primaria
+- prove d'ingresso geografia prima media
+- prove d'ingresso inglese classe terza
+- prove d'ingresso matematica classe terza primaria
+- prove d'ingresso quarta
+- prove d'ingresso religione scuola primaria religiocando
+- prove d'ingresso storia classe seconda primaria
+- prove d'ingresso terza media italiano
+- prove di verifica finali classe prima elementare italiano
+- prove finali classe quinta
+- prove finali disei
+- prove finali e tesi uniupo
+- prove finali ecampus
+- prove finali ingegneria unibg
+- prove finali matematica classe prima
+- prove finali pegaso 2026
+- prove finali unipa 2026
+- prove invalsi seconda elementare pdf
+- rubriche valutative scuola primaria 2025 pdf
+- verifica bimestrale italiano classe terza
+- verifiche classe prima italiano secondo quadrimestre
+- verifiche di matematica da stampare classe seconda elementare
+- verifiche di matematica per la prima elementare
+- verifiche di matematica seconda media da stampare con soluzioni
+- verifiche fine quadrimestre classe seconda
+- verifiche intermedie classe seconda italiano
+- verifiche intermedie matematica classe seconda primaria
+- verifiche matematica classe terza primaria secondo quadrimestre
+- verifiche matematica primo quadrimestre classe seconda
+- verifiche scienze classe seconda
+- verifiche storia classe seconda primo quadrimestre
+- fantavolando prove d'ingresso
+- prove d ingresso 2 elementare
+- prove d ingresso classe quarta con griglie di valutazione
+- prove d ingresso italiano l2 scuola primaria
+- prove d'ingresso classe prima inglese
+- prove d'ingresso classe seconda inglese
+- prove d'ingresso classe terza geografia
+- prove d'ingresso di matematica classe terza primaria
+- prove d'ingresso geografia classe seconda primaria
+- prove d'ingresso inglese classe quarta primaria
+- prove d'ingresso matematica classe quarta primaria
+- prove d'ingresso quinta matematica
+- prove d'ingresso religione
+- prove d'ingresso storia classe seconda
+- prove d'ingresso terza primaria matematica
+- prove di verifica finali classe terza scuola primaria
+- prove finali
+- prove finali di matematica classe quarta
+- prove finali esami mercatorum
+- prove finali italiano classe terza primaria
+- prove finali matematica classe quinta
+- prove finali pegaso quando
+- prove finali unipa
+- prove invalsi seconda media
+- prove verifica italiano classe terza
+- rubriche valutative scuola primaria classe quinta
+- verifiche 1 quadrimestre classe seconda matematica
+- verifiche classe prima storia
+- verifiche di matematica da stampare classe terza
+- verifiche finali storia classe seconda
+- verifiche inglese classe seconda primaria
+- verifiche intermedie matematica classe prima
+- verifiche italiano classe seconda 2 quadrimestre
+- verifiche matematica primaria
+- prove comuni finali scuola primaria
+- prove d ingresso classe quinta con griglie di valutazione
+- prove d ingresso matematica liceo classico
+- prove d ingresso quarta elementare matematica
+- prove d ingresso religione classe seconda
+- prove d'ingresso classe prima storia
+- prove d'ingresso classe quinta con soluzioni storia
+- prove d'ingresso classe seconda geografia
+- prove d'ingresso classe terza primaria scienze
+- prove d'ingresso di italiano classe terza primaria
+- prove d'ingresso geografia classe quinta primaria
+- prove d'ingresso italiano
+- prove d'ingresso matematica classe prima primaria
+- prove d'ingresso quarta elementare matematica
+- prove d'ingresso storia e geografia classe terza primaria
+- prove d'ingresso terza media matematica
+- prove di verifica finali matematica classe prima
+- prove finali classe terza
+- prove finali di istituto
+- prove finali italiano classe terza
+- prove finali matematica classe quinta primaria
+- prove finali matematica classe seconda
+- prove test d ingresso scienze della formazione primaria
+- rubriche valutative scuola primaria franca da re
+- verifica di italiano classe terza primaria
+- verifiche classe prima matematica secondo quadrimestre
+- verifiche di matematica da stampare classe quarta
+- verifiche di scienze classe seconda
+- verifiche finali di matematica classe seconda scuola primaria
+- verifiche finali scienze classe seconda
+- verifiche intermedie classe seconda
+- verifiche intermedie matematica classe terza
+- verifiche matematica classe terza primo quadrimestre
+- verifiche matematica primo quadrimestre
+- verifiche matematica seconda elementare
+- verifiche personalizzate erickson pdf classe seconda
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| ore di supplenza cosa fare | shallow | 1 / 1 | 7 |
+| supplenza classe prima | shallow | 1 / 1 | 2 |
+| supplenza primaria attività | shallow | 1 / 1 | 1 |
+| giochi per supplenze | shallow | 1 / 1 | 1 |
+| supplente | deep | 24 / 27 | 185 |
+| supplenza primaria | deep | 13 / 27 | 23 |
+| attività per supplenze | deep | 3 / 27 | 2 |
+| schede per supplenti | shallow | 0 / 1 | 0 |
+| attività tappabuchi primaria | shallow | 0 / 1 | 0 |
+| supplenza infanzia attività | shallow | 0 / 1 | 0 |
+| supplenza classe seconda | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): in 20 · stipendio 17 · di 17 · scuola 17 · breve 14 · la 14 · malattia 13 · un 11 · diritto 10 · ha 9 · nomina 9 · al 8 · alla 8 · il 7 · va 7 · puo 7 · cosa 6 · ore 6 · sostegno 6 · fino 6 · 30 6 · docente 6 · dopo 6 · giorni 6 · primaria 6 · citta 6 · fare 5 · media 5 · pierino 5 · quanti 5 · quando 5 · su 5 · annuale 4 · classe 4 · ata 4 · proroga 4 · collegio 4 · permesso 4 · film 4 · quanto 4
+
+**Phrases** (all 219, by how many lookups returned them)
+
+- supplenza primaria senza titolo di accesso  ×5
+- attività per supplenze scuola media  ×3
+- attività supplenza primaria  ×3
+- supplenza primaria cosa fare  ×3
+- supplenza primaria punteggio secondaria  ×3
+- prima supplenza primaria cosa fare  ×3
+- supplente dopo quanti giorni  ×3
+- supplente ata  ×2
+- supplente collaboratore scolastico  ×2
+- supplente fino al termine attività didattiche  ×2
+- supplente in inglese  ×2
+- supplente o suplente  ×2
+- supplente pierino  ×2
+- supplente quanti giorni di malattia  ×2
+- supplente significato  ×2
+- supplenza breve primaria stipendio  ×2
+- supplenza giornaliera primaria  ×2
+- supplenza primaria stipendio  ×2
+- supplenza scuola primaria requisiti  ×2
+- keje supplente hor  ×2
+- supplente sinonimo  ×2
+- supplenza classe prima primaria  ×2
+- supplenza primaria 24 ore stipendio  ×2
+- un supplente ha diritto alla malattia  ×2
+- la supplente va in città cast  ×2
+- punteggio supplenza primaria  ×2
+- supplente breve e saltuario  ×2
+- supplente in malattia ha diritto alla proroga  ×2
+- supplente scuola  ×2
+- la supplente ok ru  ×2
+- la supplente va in città film  ×2
+- supplente al 30 giugno malattia  ×2
+- una supplente quanto guadagna  ×2
+- supplenza sostegno primaria stipendio  ×2
+- un supplente ha diritto alle ferie  ×2
+- la supplente va in citta 1979  ×2
+- supplente breve visita specialistica  ×2
+- attività per supplenze
+- giochi per supplenze
+- il supplente jublin
+- la supplente va in città
+- la supplente youtube
+- ore di supplenza cosa fare
+- stipendio supplenza annuale primaria
+- supplente
+- supplente breve malattia
+- supplente di pierino
+- supplente etimologia
+- supplente gps
+- supplente ha diritto alla carta docente
+- supplente keje
+- supplente mad
+- supplente nelle scuole
+- supplente rizzi
+- supplente temporaneo
+- supplente va in città
+- supplenza classe prima
+- supplenza classe quarta primaria
+- supplenza primaria 12 ore stipendio
+- una supplente puo mettersi in malattia
+- due ore di supplenza cosa fare
+- la supplente film
+- nomina supplente su ore di allattamento
+- supplente a 21 anni
+- supplente breve permessi
+- supplente collegio 4
+- supplente elementari
+- supplente film
+- supplente giorni di permesso
+- supplente hor en raamdecoratie in één systeem
+- supplente in francese
+- supplente malattia
+- supplente o supplente
+- supplente perpetua
+- supplente rappresentante di lista
+- supplente temporaneo malattia
+- supplente vacanze di natale
+- supplenza classe terza primaria
+- cosa fare durante ore di supplenza scuola media
+- guadagno supplente scuola primaria
+- nomina supplente dopo quanti giorni
+- stipendio supplente quando arriva
+- supplente annuale malattia
+- supplente come si scrive
+- supplente di sostegno
+- supplente e partita iva
+- supplente fino al 30 aprile
+- supplente hor
+- supplente matematica
+- supplente o sostituto
+- supplente puo chiedere aspettativa
+- supplente rientra dopo il 30 aprile
+- supplente traduzione
+- supplente verbo
+- supplenza 5 ore primaria stipendio
+- supplenza scuola primaria
+- una supplente puo assentarsi
+- cosa fare nelle ore di supplenza medie
+- nomina supplente su assenza legge 104
+- stipendio supplente gps
+- supplente breve
+- supplente cruciverba
+- supplente dopo il 30 aprile
+- supplente educazione fisica
+- supplente fino al 30 giugno
+- supplente in spagnolo
+- supplente meaning
+- supplente presidente della repubblica
+- supplente rizzi pierino
+- supplente scuola infanzia
+- supplente temporaneo permessi
+- supplenza primaria
+- supplenza scuola primaria cosa fare
+- un supplente
+- cosa fare durante ore di supplenza scuola secondaria
+- la supplente libro
+- nomina supplente su congedo parentale
+- supplente 18 ore stipendio
+- supplente alle medie a 21 anni
+- supplente analisi grammaticale
+- supplente breve deve partecipare al collegio docenti
+- supplente breve quando viene pagato
+- supplente collegio
+- supplente docente
+- supplente esami terza media
+- supplente film pierino
+- supplente in tedesco
+- supplente mad stipendio
+- supplente pierino contro tutti
+- supplente requisiti
+- supplente scuola primaria stipendio
+- supplente tad
+- un supplente puo interrogare
+- cosa fare in 2 ore di supplenza scuola media
+- la supplente al distretto militare
+- nomina supplente su ricovero ospedaliero
+- rappresentante supplente
+- ricovero ospedaliero supplente breve
+- supplente assistente amministrativo
+- supplente breve e saltuario malattia
+- supplente con laurea triennale
+- supplente di avanti un altro
+- supplente e vacanze di natale
+- supplente fino al termine delle lezioni
+- supplente insegnante di sostegno
+- supplente mestre
+- supplente primaria stipendio
+- supplente quanto guadagna
+- supplente scuola primaria
+- supplente ticino
+- un supplente quanto guadagna
+- cosa fare durante le ore di supplenza
+- la supplente cast
+- la supplente video
+- nomina supplente sostegno
+- paga oraria supplente primaria
+- quando un supplente ha diritto alla proroga
+- revisore supplente
+- supplente al 30 giugno permessi
+- supplente breve permesso non retribuito
+- supplente cosa fa
+- supplente di matematica
+- supplente e rientro del titolare
+- supplente finisce contratto come cosa dire studenti
+- supplente in italiano
+- supplente meme
+- supplente personale ata
+- supplente stipendio
+- supplente treccani
+- la supplente va in città video
+- nomina supplente docente dopo quanti giorni
+- paga oraria supplente scuola superiore
+- quando il supplente ha diritto alla continuità
+- retribuzione supplente scuola primaria
+- supplente avanti un altro
+- supplente breve ferie
+- supplente carta docente
+- supplente definizione
+- supplente esami di stato
+- supplente fino termine attività didattiche
+- supplente il collegio
+- supplente maternità
+- supplente puo assentarsi
+- supplente scuola media stipendio
+- supplente traduzione in inglese
+- un supplente ha diritto alla carta docente
+- la supplente dailymotion
+- malattia supplente breve
+- nomina supplente collaboratore scolastico dopo quanti giorni
+- paga oraria supplente
+- quando il supplente ha diritto alla proroga
+- ral supplente
+- stipendio supplenza scuola primaria 24 ore settimanali
+- supplente annuale
+- supplente coordinatore di classe
+- supplente del presidente della repubblica
+- supplente english
+- supplente fino ad avente diritto
+- supplente in maternità
+- supplente permesso retribuito
+- supplente sostegno stipendio
+- supplente tempo determinato
+- un supplente puo chiedere aspettativa
+- consigliere supplente regione calabria
+- la supplente va in vacanza
+- malattia supplente annuale
+- nomina supplente su aspettativa
+- prima supplenza scuola primaria cosa fare
+- quanto guadagna supplente superiori
+- supplente ata in malattia ha diritto alla proroga
+- supplente breve ata permesso non retribuito
+- supplente congedo parentale
+- supplente docente di sostegno
+- supplente francese
+- supplente in latino
+- supplente part time
+- supplente senza laurea
+- supplente taglia ciocca di capelli
+- un supplente può fare il coordinatore di classe
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| letture classe seconda | shallow | 1 / 1 | 10 |
+| letture stampato maiuscolo | shallow | 1 / 1 | 10 |
+| leggere le sillabe | shallow | 1 / 1 | 9 |
+| storie brevi classe prima | shallow | 1 / 1 | 6 |
+| brevi letture classe prima | shallow | 1 / 1 | 5 |
+| prime letture stampato maiuscolo | shallow | 1 / 1 | 4 |
+| mini libri da stampare | shallow | 1 / 1 | 2 |
+| libricini da costruire | shallow | 1 / 1 | 1 |
+| letture facili classe prima | shallow | 1 / 1 | 1 |
+| mini libri | deep | 23 / 27 | 130 |
+| letture classe prima | deep | 16 / 27 | 70 |
+| libretti da stampare | deep | 5 / 27 | 4 |
+| letture sillabiche | deep | 1 / 27 | 1 |
+| libretto da piegare | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): disney 23 · per 15 · in 13 · da 12 · bambini 11 · con 11 · di 9 · edicola 9 · comprensione 8 · de 8 · agostini 8 · pdf 7 · elementare 6 · stampato 5 · natale 5 · primaria 5 · collezione 5 · maiuscolo 4 · dell 4 · leggere 4 · uscite 4 · hachette 4 · stampare 3 · autunno 3 · prime 3 · semplici 3 · prima 3 · piano 3 · opera 3 · raccolta 3 · classe 3 · giocando 3 · minuscolo 2 · issuu 2 · accoglienza 2 · carnevale 2 · pasqua 2 · primavera 2 · libro 2 · inverno 2
+
+**Phrases** (all 245, by how many lookups returned them)
+
+- letture stampato maiuscolo classe prima pdf  ×4
+- mini libri de agostini uscite  ×4
+- brevi letture classe prima  ×3
+- letture classe prima da stampare  ×3
+- letture classe prima stampato maiuscolo  ×3
+- libretti da stampare per bambini  ×3
+- libretti prima comunione da stampare  ×3
+- brevi letture classe prima elementare  ×3
+- mini libri da leggere  ×3
+- mini libri disney uscite  ×3
+- mini libri letteratura classica in miniatura de agostini it  ×3
+- letture classe prima stampato minuscolo  ×3
+- mini libri de agostini  ×3
+- mini libri disney uscite 2026  ×3
+- letture classe prima elementare  ×2
+- letture classe prima issuu  ×2
+- letture classe prima media  ×2
+- letture con gn classe prima  ×2
+- letture facili classe prima  ×2
+- libretti messa da stampare  ×2
+- mini libri bomboniere  ×2
+- mini libri da stampare  ×2
+- mini libri disney  ×2
+- mini libri fai da te  ×2
+- mini libri per bambini  ×2
+- mini libri tascabili  ×2
+- prime letture stampato maiuscolo pdf  ×2
+- copertine mini libri da stampare  ×2
+- letture classe prima pdf  ×2
+- letture con gli classe prima  ×2
+- mini libri calendario avvento  ×2
+- mini libri re leone  ×2
+- mini libri tascabili bambini  ×2
+- mini libri geronimo stilton  ×2
+- letture di frasi classe prima  ×2
+- letture semplici classe prima stampato maiuscolo  ×2
+- libro di letture classe prima  ×2
+- mini libri con i buchi  ×2
+- mini libri disney hachette uscite  ×2
+- mini libri favole per bambini  ×2
+- mini libri pop up  ×2
+- mini libri toy story  ×2
+- prime letture classe prima stampato maiuscolo  ×2
+- schede prime letture classe prima elementare  ×2
+- libri mini tili toli kirakó  ×2
+- mini libri da leggere bambini  ×2
+- mini libri in miniatura  ×2
+- mini libri per bomboniere  ×2
+- letture con immagini classe prima  ×2
+- letture in corsivo classe prima  ×2
+- mini libri per bambini 2 anni  ×2
+- letture dell'insegnante classe prima  ×2
+- leggere le sillabe
+- letture accoglienza classe prima
+- letture carnevale classe prima
+- letture classe prima
+- letture classe prima primaria
+- letture classe seconda primaria
+- letture con qu classe prima
+- letture facilitate classe prima
+- letture natale classe prima
+- letture sillabiche
+- libri mini könyvesbolt
+- libri mini oscar
+- libri_x mini leeslamp usb oplaadbaar
+- libricini da costruire per bambini
+- mini libri
+- mini libri amazon
+- mini libri classici
+- mini libri edicola
+- mini libri garzanti
+- mini libri hachette
+- mini libri in edicola
+- mini libri letteratura
+- mini libri mondadori
+- mini libri natale
+- mini libri regalo
+- mini libri segnaposto
+- mini libri usborne
+- mini libri venchi
+- mini libri walt disney
+- prime letture classe prima libri
+- storie brevi classe prima
+- wordwall letture classe prima
+- dinosauro letture classe prima
+- leggere le sillabe giocando
+- letture autunno classe prima
+- letture classe prima in stampato maiuscolo
+- letture classe prima scuola primaria
+- letture classe seconda
+- letture comprensione classe prima
+- letture natalizie classe prima
+- letture per classe prima elementare
+- letture per la classe prima primaria
+- letture stampato maiuscolo classe prima
+- libretti da stampare
+- libri mini könyv
+- libri_x mini clip leselicht
+- mini libri antichi
+- mini libri bambini
+- mini libri disney piano dell opera
+- mini libri erickson
+- mini libri feltrinelli
+- mini libri giunti
+- mini libri harry potter
+- mini libri in edicola disney
+- mini libri moda
+- mini libri portachiavi
+- mini libri storie disney
+- mini libri veri
+- prime letture stampato maiuscolo
+- storie brevi per bambini classe prima
+- brevi letture e comprensione classe prima
+- brevi storie da riordinare classe prima
+- fantavolando letture classe prima
+- girafiore classe prima letture
+- leggere le sillabe giocando con il sillaballo
+- letture classe seconda pdf
+- letture consigliate classe prima
+- letture di natale classe prima
+- letture inverno classe prima
+- letture per la classe prima
+- letture stampato maiuscolo
+- libri mini könyvklub
+- libri oscar mini edicola
+- mini brands libri
+- mini lettore libri
+- mini libri collezione
+- mini libri da viaggio
+- mini libri disney edicola
+- mini libri fiabe
+- mini libri hachette disney
+- mini libri italiano
+- mini libri motivazionali
+- mini libri per ragazzi
+- mini libri personalizzati
+- mini libri tutorial
+- mini scaffale libri
+- pianeta bambini letture classe prima
+- prime letture in stampato maiuscolo da stampare
+- brevi letture sul natale classe prima
+- brevi storie di natale classe prima
+- campona libri mini könyvesbolt
+- leggere le sillabe giocando pdf
+- letture classe seconda con domande di comprensione
+- letture di pasqua classe prima
+- letture e comprensione classe prima
+- letture illustrate classe prima
+- letture per bambini classe prima
+- letture stampato maiuscolo pdf
+- libri mini storie
+- mini libri dami editore
+- mini libri gadget
+- mini libri in inglese
+- mini libri peruzzo
+- mini mammut libri
+- prime letture classe prima
+- raccolta mini libri disney
+- brevi letture in stampatello maiuscolo classe prima
+- brevi storie con comprensione classe prima
+- collezione mini libri edicola
+- leggere le sillabe ma me mi mo mu
+- letture classe seconda elementare
+- letture di comprensione classe prima
+- letture e comprensione classe prima elementare
+- letture in classe prima
+- letture semplici classe prima
+- letture stampato maiuscolo erickson
+- libri hu mini
+- libri mini gialli
+- libro letture cantastorie classe prima
+- mini letture classe prima
+- mini libri cartonati
+- mini libri fiabe disney
+- mini libri per calendario avvento
+- mini libri taschen
+- mini mondo libri
+- piccole letture classe prima
+- raccolta mini libri
+- brevi storie da leggere classe prima
+- generale mini libri
+- leggere le sillabe classe prima
+- letture classe seconda issuu
+- letture con le doppie classe prima
+- letture di carnevale classe prima
+- letture estive classe prima
+- letture stampato maiuscolo da stampare
+- mini libri coi buchi
+- mini libri cucina
+- mini libri de agostini piano dell opera
+- mini libri disney edicola 2025
+- mini libri disney libreria
+- mini libri fotografici
+- mini libri piccolo principe
+- mini libri tattili
+- mini moni libri
+- raccolta mini libri de agostini
+- collezione mini libri disney edicola
+- leggere le sillabe app
+- letture accoglienza classe seconda
+- letture semplici classe prima scuola primaria
+- letture stampato maiuscolo classe seconda
+- libri mini mani
+- mini copertine libri
+- mini libri da colorare frozen
+- mini libri de agostini prezzo
+- mini libri disney hachette
+- pepper letture classe prima
+- 100 letture stampato maiuscolo pdf
+- espositore mini libri disney
+- fabio mini libri
+- leggere le sillabe al contrario
+- letture autunno classe seconda
+- letture chi che classe prima
+- letture di primavera classe prima
+- letture primavera classe prima
+- libreria mini libri
+- libri i mini detective
+- libri mini talent
+- mini collezione libri disney
+- mini libri de agostini disney
+- mini libri disney collezione
+- leggere con le sillabe
+- letture comprensione classe seconda
+- letture con sillabe classe prima
+- letture in stampato minuscolo classe prima
+- letture pasqua classe prima
+- libri formato mini
+- libri mini cuccioli
+- mini libri da appendere
+- mini libri disney in edicola
+- mini libri per adulti
+- mini tablet per leggere libri
+- stampa mini libri
+- letture in stampato maiuscolo maestra paola
+- letture inverno classe seconda
+- letture progressive classe prima
+- letture sull autunno classe prima
+- libri mini cucu
+- libri talent mini 2025
+- lista mini libri disney
+- mini libri da colorare bing
+- mini libri de agostini piano dell'opera
+- mini libri disney amazon
+- set mini libri

@@ -1,0 +1,1635 @@
+# Daily Teaching System — search demand, market `de`
+
+Source: Google autocomplete, harvested 2026-11-11. No volumes exist in this data: read it for which phrasings are real, how wide each tail is, and which words people add.
+
+| Surface | Heads probed | Heads people type (bare head answered) | Distinct on-head phrases |
+|---|---|---|---|
+| Units, lesson plans, year plans | 14 | 14 | 280 |
+| National curriculum | 11 | 10 | 323 |
+| Assessments and tests | 14 | 14 | 397 |
+| Substitute-teacher packs | 11 | 10 | 217 |
+| First readers and mini-books | 14 | 14 | 283 |
+
+## Units, lesson plans, year plans
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| jahresplanung grundschule | shallow | 1 / 1 | 10 |
+| unterrichtsplanung grundschule | shallow | 1 / 1 | 10 |
+| unterrichtsmaterial klasse 2 | shallow | 1 / 1 | 10 |
+| stoffverteilungsplan deutsch klasse 1 | shallow | 1 / 1 | 9 |
+| stoffverteilungsplan mathe klasse 1 | shallow | 1 / 1 | 9 |
+| sachunterricht unterrichtseinheit | shallow | 1 / 1 | 2 |
+| unterrichtseinheit mathe klasse 1 | shallow | 1 / 1 | 1 |
+| unterrichtsreihe mathe klasse 2 | shallow | 1 / 1 | 1 |
+| arbeitsplan mathe klasse 1 | shallow | 1 / 1 | 1 |
+| unterrichtseinheit deutsch klasse 1 | shallow | 1 / 1 | 1 |
+| unterrichtseinheit grundschule | deep | 23 / 27 | 134 |
+| wochenplan grundschule | deep | 18 / 27 | 52 |
+| stoffverteilungsplan mathe | deep | 12 / 27 | 38 |
+| unterrichtsentwurf mathe | deep | 6 / 27 | 11 |
+
+**Words people add** (how many distinct phrases carry the word): klasse 36 · und 13 · vorlage 13 · bw 7 · sachsen 6 · flex 5 · der 5 · flo 4 · denken 4 · rechnen 4 · bayern 4 · englisch 4 · musik 4 · religion 4 · erstellen 4 · deutsch 4 · lehrer 4 · welt 3 · zahl 3 · pdf 3 · kostenlos 3 · klett 2 · berlin 2 · grundschule 2 · nrw 2 · baden 2 · wurttemberg 2 · kinderrechte 2 · mose 2 · marchen 2 · daz 2 · ethik 2 · werfen 2 · haustiere 2 · kunst 2 · kalender 2 · langen 2 · martin 2 · zum 2 · ausdrucken 2
+
+**Phrases** (all 280, by how many lookups returned them)
+
+- stoffverteilungsplan mathe klasse 1 welt der zahl  ×5
+- stoffverteilungsplan mathe klasse 1 denken und rechnen  ×5
+- stoffverteilungsplan mathe klasse 1 flex und flo  ×5
+- stoffverteilungsplan mathe klasse 3 flex und flo  ×4
+- stoffverteilungsplan mathe klasse 2 welt der zahl  ×4
+- stoffverteilungsplan mathe klasse 1  ×3
+- wochenplan grundschule vorlage pdf  ×3
+- wochenplan grundschule vorlage word  ×3
+- stoffverteilungsplan mathe klasse 3 welt der zahl  ×3
+- wochenplan grundschule vorlage zum ausdrucken  ×3
+- wochenplan grundschule vorlage kostenlos  ×3
+- stoffverteilungsplan mathe klasse 1 einstern  ×2
+- stoffverteilungsplan mathe klasse 1 minimax  ×2
+- stoffverteilungsplan mathe klasse 2  ×2
+- unterrichtseinheit brücken grundschule  ×2
+- unterrichtseinheit gedichte grundschule  ×2
+- unterrichtseinheit kinderrechte grundschule  ×2
+- unterrichtseinheit märchen grundschule  ×2
+- unterrichtseinheit springen grundschule  ×2
+- unterrichtseinheit wetter grundschule  ×2
+- unterrichtsentwurf mathe beispiel  ×2
+- unterrichtsentwurf mathe klasse 1  ×2
+- wochenplan grundschule erstellen  ×2
+- wochenplan grundschule klasse 3  ×2
+- wochenplan grundschule vorlage  ×2
+- wochenplan grundschule zum ausdrucken  ×2
+- stoffverteilungsplan mathe klasse 1 sachsen  ×2
+- unterrichtseinheit balancieren grundschule  ×2
+- unterrichtseinheit wasser grundschule  ×2
+- unterrichtsentwurf mathe klasse 3  ×2
+- wochenplan grundschule erstellen kostenlos  ×2
+- wochenplan grundschule klasse 1  ×2
+- wochenplan mathematik grundschule vorlage  ×2
+- stoffverteilungsplan mathe klasse 1 bw  ×2
+- stoffverteilungsplan mathe klasse 2 flex und flo  ×2
+- stoffverteilungsplan mathe klasse 3  ×2
+- stoffverteilungsplan mathe klasse 3 denken und rechnen  ×2
+- unterrichtsentwurf mathe klasse 4  ×2
+- wochenplan deutsch grundschule vorlage  ×2
+- wochenplan grundschule klasse 2  ×2
+- stoffverteilungsplan mathe klasse 2 denken und rechnen  ×2
+- stoffverteilungsplan mathe klasse 4  ×2
+- stoffverteilungsplan mathe klasse 4 flex und flo  ×2
+- unterrichtsentwurf mathe klasse 5  ×2
+- wochenplan grundschule klasse 4  ×2
+- stoffverteilungsplan mathe klasse 4 denken und rechnen  ×2
+- unterrichtsentwurf mathe klasse 7  ×2
+- wochenplan für lehrer grundschule erstellen  ×2
+- wochenplan grundschule vorlage eduki  ×2
+- stoffverteilungsplan mathe klasse 1 bayern  ×2
+- arbeitsplan mathe klasse 1
+- ausführlicher unterrichtsentwurf mathe
+- jahresplanung grundschule vorlage
+- klett stoffverteilungsplan mathe nrw
+- rückmeldung wochenplan grundschule
+- sachunterricht unterrichtseinheit
+- stoffverteilungsplan bw mathe
+- stoffverteilungsplan deutsch klasse 1
+- stoffverteilungsplan dreifach mathe
+- stoffverteilungsplan mathe grundschule
+- stoffverteilungsplan mathe klasse 4 sachsen
+- unterrichtseinheit advent grundschule
+- unterrichtseinheit clothes grundschule
+- unterrichtseinheit demokratie grundschule
+- unterrichtseinheit deutsch klasse 1
+- unterrichtseinheit erntedank grundschule
+- unterrichtseinheit feuer grundschule
+- unterrichtseinheit grundschule
+- unterrichtseinheit hohlmaße grundschule
+- unterrichtseinheit igel grundschule
+- unterrichtseinheit judentum grundschule
+- unterrichtseinheit längen grundschule
+- unterrichtseinheit mathe klasse 1
+- unterrichtseinheit notenwerte grundschule
+- unterrichtseinheit pets grundschule
+- unterrichtseinheit rezepte grundschule
+- unterrichtseinheit tanzen grundschule
+- unterrichtseinheit uhrzeit grundschule
+- unterrichtseinheit vulkane grundschule
+- unterrichtseinheit zähne grundschule
+- unterrichtsentwurf beispiel pdf mathe
+- unterrichtsentwurf mathe grundschule
+- unterrichtsmaterial klasse 2
+- unterrichtsplanung grundschule
+- unterrichtsreihe mathe klasse 2
+- wochenplan arbeit grundschule
+- wochenplan gestalten grundschule
+- wochenplan grundschule
+- wochenplan grundschule blanko
+- wochenplan grundschule deutsch
+- wochenplan grundschule ideen
+- wochenplan grundschule lehrer
+- wochenplan grundschule mathe
+- wochenplan grundschule organisation
+- wochenplan grundschule pdf
+- wochenplan hausaufgaben grundschule
+- wochenplan schild grundschule
+- wochenplan weiherhof grundschule
+- individueller wochenplan grundschule
+- jahresplanung grundschule
+- klett stoffverteilungsplan mathe bw
+- stoffverteilungsplan deutsch klasse 1 einsterns schwester
+- unterrichtseinheit achsensymmetrie grundschule
+- unterrichtseinheit deutschland grundschule
+- unterrichtseinheit englisch grundschule
+- unterrichtseinheit fahrrad grundschule
+- unterrichtseinheit fake news grundschule
+- unterrichtseinheit gottesbilder grundschule
+- unterrichtseinheit hockey grundschule
+- unterrichtseinheit islam grundschule
+- unterrichtseinheit jesus grundschule
+- unterrichtseinheit kartoffel grundschule
+- unterrichtseinheit luft grundschule
+- unterrichtseinheit müll grundschule
+- unterrichtseinheit planeten grundschule
+- unterrichtseinheit rhythmus grundschule
+- unterrichtseinheit sachunterricht klasse 1
+- unterrichtseinheit sonnensystem grundschule
+- unterrichtseinheit tangram grundschule
+- unterrichtseinheit vater unser grundschule
+- unterrichtseinheit zuhören grundschule
+- unterrichtsmaterial 2 klasse mathe
+- unterrichtsplanung grundschule vorlage
+- wochenplan aufgaben grundschule
+- wochenplan grundschule beispiele
+- wochenplan grundschule digital
+- wochenplan grundschule literatur
+- wochenplan grundschule zaubereinmaleins
+- wochenplan heft grundschule
+- jahresplanung grundschule 1 klasse
+- noah unterrichtseinheit grundschule
+- stoffverteilungsplan deutsch klasse 1 flex und flora
+- stoffverteilungsplan mathe klasse 2 sachsen
+- unterrichtseinheit achtsamkeit grundschule
+- unterrichtseinheit basketball grundschule
+- unterrichtseinheit daz grundschule
+- unterrichtseinheit engel grundschule
+- unterrichtseinheit flächeninhalt und umfang grundschule
+- unterrichtseinheit freundschaft grundschule
+- unterrichtseinheit glück grundschule
+- unterrichtseinheit hebel grundschule
+- unterrichtseinheit jona grundschule
+- unterrichtseinheit klassensprecher grundschule
+- unterrichtseinheit london grundschule
+- unterrichtseinheit märchen grundschule klasse 3
+- unterrichtseinheit präteritum grundschule
+- unterrichtseinheit rassismus grundschule
+- unterrichtseinheit strom grundschule
+- unterrichtseinheit taufe grundschule
+- unterrichtseinheit wald grundschule
+- unterrichtseinheit zirkel grundschule
+- unterrichtsentwurf mathe
+- unterrichtsmaterial 2 klasse deutsch
+- unterrichtsplanung grundschule buch
+- wochenplan grundschule blog
+- wochenplan grundschule eduki
+- wochenplan lehrer grundschule vorlage
+- wochenplan mappe grundschule
+- jahresplanung sport grundschule
+- ki unterrichtsplanung grundschule
+- kinderrechte unterrichtsmaterial klasse 2
+- stoffverteilungsplan deutsch klasse 1 jojo
+- stoffverteilungsplan mathe klasse 2 bw
+- stoffverteilungsplan mathe klasse 3 baden württemberg
+- stoffverteilungsplan mathe klasse 3 sachsen
+- unterrichtseinheit akrobatik grundschule
+- unterrichtseinheit biene grundschule
+- unterrichtseinheit dinosaurier grundschule
+- unterrichtseinheit europa grundschule
+- unterrichtseinheit fußball grundschule
+- unterrichtseinheit getreide grundschule
+- unterrichtseinheit handstand grundschule
+- unterrichtseinheit körper grundschule
+- unterrichtseinheit löwenzahn grundschule
+- unterrichtseinheit magnetismus grundschule
+- unterrichtseinheit planen grundschule
+- unterrichtseinheit religion grundschule
+- unterrichtseinheit sexualerziehung grundschule
+- unterrichtseinheit turnen grundschule
+- unterrichtseinheit werbung grundschule
+- wochenplan englisch grundschule
+- wochenplan in der grundschule
+- wochenplan lesen grundschule
+- deckblatt wochenplan grundschule
+- digitale unterrichtsplanung grundschule
+- jahresplanung religion grundschule
+- stoffverteilungsplan deutsch klasse 1 abc der tiere
+- stoffverteilungsplan mathe klasse 1 baden württemberg
+- stoffverteilungsplan mathe klasse 3 bw
+- stoffverteilungsplan mathe klasse 5 sachsen
+- unterrichtseinheit abfall grundschule
+- unterrichtseinheit badminton grundschule
+- unterrichtseinheit ethik grundschule
+- unterrichtseinheit feelings grundschule
+- unterrichtseinheit gefühle grundschule
+- unterrichtseinheit haustiere grundschule
+- unterrichtseinheit kartenkunde grundschule
+- unterrichtseinheit leichtathletik grundschule
+- unterrichtseinheit mose grundschule
+- unterrichtseinheit respekt grundschule
+- unterrichtseinheit rheinland pfalz grundschule
+- unterrichtseinheit seilspringen grundschule
+- unterrichtseinheit tod und trauer grundschule
+- unterrichtseinheit weltreligionen grundschule
+- unterrichtsmaterial kalender klasse 2
+- wochenplan einführen grundschule
+- wochenplan grundschule kritik
+- jahresplanung kunst grundschule
+- mose unterrichtseinheit grundschule
+- stoffverteilungsplan deutsch klasse 1 bw
+- stoffverteilungsplan mathe klasse 4 bw
+- unterrichtseinheit apfel grundschule
+- unterrichtseinheit berufe grundschule
+- unterrichtseinheit fabeln grundschule
+- unterrichtseinheit geodreieck grundschule
+- unterrichtseinheit gesunde ernährung grundschule
+- unterrichtseinheit herbst grundschule
+- unterrichtseinheit kontinente grundschule
+- unterrichtseinheit martin luther grundschule
+- unterrichtseinheit mittelalter grundschule
+- unterrichtseinheit regeln grundschule
+- unterrichtseinheit sinne grundschule
+- unterrichtseinheit wasserkreislauf grundschule
+- unterrichtsentwurf mathe klasse 6
+- unterrichtsmaterial haustiere klasse 2
+- unterrichtsplanung englisch grundschule
+- wochenplan grundschule kontrolle
+- wochenplan grundschule vorlage lehrer
+- jahresplanung ethik grundschule
+- stoffverteilungsplan deutsch klasse 1 sachsen
+- stoffverteilungsplan mathe 4 klasse bayern
+- unterrichtseinheit brennball grundschule
+- unterrichtseinheit feuerwehr grundschule
+- unterrichtseinheit geld grundschule
+- unterrichtseinheit halloween englisch grundschule
+- unterrichtseinheit kunst grundschule
+- unterrichtseinheit musik grundschule
+- unterrichtseinheit ostern religion grundschule
+- unterrichtseinheit skelett grundschule
+- unterrichtseinheit soziales lernen grundschule
+- unterrichtseinheit werfen grundschule
+- unterrichtseinheit.handball grundschule
+- unterrichtsmaterial längen klasse 2
+- unterrichtsplanung deutsch grundschule
+- wochenplan grundschule kostenlos
+- jahresplanung daz grundschule
+- stoffverteilungsplan deutsch klasse 1 nrw
+- stoffverteilungsplan mathe
+- stoffverteilungsplan mathe 3 klasse bayern
+- unterrichtseinheit at home grundschule
+- unterrichtseinheit berlin grundschule
+- unterrichtseinheit familie grundschule
+- unterrichtseinheit kirchenjahr grundschule
+- unterrichtseinheit mobbing grundschule
+- unterrichtseinheit obst und gemüse grundschule
+- unterrichtseinheit schall grundschule
+- unterrichtseinheit wiese grundschule
+- unterrichtsmaterial religion klasse 2
+- unterrichtsplanung musik grundschule
+- wochenplan kinder grundschule
+- jahresplanung musik grundschule
+- stoffverteilungsplan deutsch klasse 1 bayern
+- stoffverteilungsplan mathe klasse 5 berlin
+- unterrichtseinheit bibel grundschule
+- unterrichtseinheit frieden grundschule
+- unterrichtseinheit kirche grundschule
+- unterrichtseinheit mozart grundschule
+- unterrichtseinheit steckbrief grundschule
+- unterrichtseinheit weltall grundschule
+- unterrichtsmaterial sachunterricht klasse 2
+- unterrichtsplanung mathematik grundschule
+- jahresplanung werken grundschule
+- unterrichtseinheit beten grundschule
+- unterrichtseinheit kalender grundschule
+- unterrichtseinheit schwimmen grundschule
+- unterrichtseinheit st martin grundschule
+- unterrichtseinheit werfen und fangen grundschule
+- unterrichtsmaterial musik klasse 2
+- unterrichtsplanung sport grundschule
+- wochenplan erstellen vorlage grundschule
+
+## National curriculum
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| lehrplan mathe grundschule | shallow | 1 / 1 | 10 |
+| lehrplan nrw grundschule | shallow | 1 / 1 | 10 |
+| kerncurriculum grundschule | shallow | 1 / 1 | 10 |
+| bildungsplan grundschule | shallow | 1 / 1 | 10 |
+| rahmenlehrplan grundschule | shallow | 1 / 1 | 10 |
+| bildungsstandards mathematik primarbereich | shallow | 1 / 1 | 3 |
+| lehrplan deutsch klasse 1 | shallow | 1 / 1 | 3 |
+| lehrplan grundschule | deep | 21 / 27 | 156 |
+| bildungsstandards grundschule | deep | 14 / 27 | 75 |
+| lehrplanplus grundschule | deep | 14 / 27 | 36 |
+| kompetenzerwartungen mathe klasse 2 | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): bayern 47 · deutsch 44 · nrw 38 · sachsen 38 · sachunterricht 22 · thuringen 21 · hessen 21 · mathematik 19 · mathe 18 · klasse 17 · religion 17 · sport 15 · englisch 15 · anhalt 14 · plus 13 · kunst 12 · kmk 12 · pdf 11 · rlp 10 · niedersachsen 9 · ethik 8 · musik 8 · zitieren 8 · werken 7 · hsu 6 · bw 6 · saarland 5 · baden 4 · wurttemberg 4 · 2026 3 · 2025 3 · evangelische 3 · gestalten 3 · und 3 · hamburg 3 · isb 3 · katholische 3 · mv 3 · berlin 2 · fur 2
+
+**Phrases** (all 323, by how many lookups returned them)
+
+- lehrplan grundschule sachsen anhalt  ×3
+- bildungsstandards grundschule bayern  ×2
+- bildungsstandards grundschule deutsch  ×2
+- bildungsstandards grundschule englisch  ×2
+- bildungsstandards grundschule hessen  ×2
+- bildungsstandards grundschule mathematik  ×2
+- bildungsstandards grundschule nrw  ×2
+- bildungsstandards grundschule rlp  ×2
+- bildungsstandards grundschule sachunterricht  ×2
+- lehrplan grundschule bayern  ×2
+- lehrplan grundschule deutsch  ×2
+- lehrplan grundschule förderschwerpunkt lernen  ×2
+- lehrplan grundschule mathe  ×2
+- lehrplan grundschule nrw  ×2
+- lehrplan grundschule sachunterricht  ×2
+- lehrplan grundschule thüringen  ×2
+- lehrplanplus bayern grundschule heimat und sachunterricht  ×2
+- lehrplanplus grundschule bayern  ×2
+- lehrplanplus grundschule deutsch  ×2
+- lehrplanplus grundschule englisch  ×2
+- lehrplanplus grundschule englisch wortschatz  ×2
+- lehrplanplus grundschule hsu  ×2
+- lehrplanplus grundschule kunst  ×2
+- lehrplanplus grundschule pdf  ×2
+- lehrplanplus grundschule sport  ×2
+- bildungsstandards grundschule sachsen  ×2
+- bildungsstandards mathematik grundschule thüringen  ×2
+- lehrplan grundschule baden württemberg  ×2
+- lehrplan grundschule sport  ×2
+- lehrplanplus grundschule bayern pdf  ×2
+- bildungsstandards deutsch grundschule niedersachsen  ×2
+- bildungsstandards deutsch grundschule rlp  ×2
+- bildungsstandards mathematik grundschule sachsen  ×2
+- lehrplanplus grundschule bayern deutsch  ×2
+- bildungsstandards hsu grundschule bayern  ×2
+- bildungsstandards mathe grundschule rlp  ×2
+- bildungsstandards nrw grundschule englisch  ×2
+- lehrplan grundschule baden württemberg 3 klasse  ×2
+- lehrplan grundschule sachsen  ×2
+- lehrplan grundschule sachsen anhalt mathe  ×2
+- bildungsstandards deutsch grundschule bayern  ×2
+- bildungsstandards hessen grundschule englisch  ×2
+- bildungsstandards hessen grundschule kunst  ×2
+- bildungsstandards sachunterricht grundschule rlp  ×2
+- lehrplan grundschule sachsen anhalt grundsatzband  ×2
+- bildungsstandards hessen grundschule religion  ×2
+- bildungsstandards nrw grundschule kunst  ×2
+- bildungsstandards mathematik grundschule niedersachsen  ×2
+- bildungsstandards deutsch grundschule saarland  ×2
+- lehrplan grundschule bayern werken textiles gestalten  ×2
+- bildungsplan grundschule bw
+- bildungsstandards geographie grundschule
+- bildungsstandards grundschule
+- bildungsstandards grundschule kmk
+- bildungsstandards mathematik grundschule zitieren
+- bildungsstandards mathematik primarbereich
+- bildungsstandards thüringen grundschule
+- bildungsstandards werken grundschule
+- kerncurriculum grundschule
+- lehrplan deutsch klasse 1
+- lehrplan gestalten grundschule sachsen anhalt
+- lehrplan grundschule
+- lehrplan grundschule bayern isb
+- lehrplan grundschule bayern uhrzeit
+- lehrplan grundschule englisch
+- lehrplan grundschule hessen
+- lehrplan grundschule kunst
+- lehrplan grundschule luxemburg
+- lehrplan grundschule pdf
+- lehrplan grundschule rlp
+- lehrplan grundschule werken
+- lehrplan mathe grundschule
+- lehrplan nrw grundschule
+- lehrplan nrw grundschule zitieren
+- lehrplan verkehrserziehung grundschule
+- lehrplanplus bayern grundschule zitieren
+- lehrplanplus grundschule in bayern
+- lehrplanplus grundschule musik
+- lehrplanplus grundschule religion
+- rahmenlehrplan grundschule
+- bildungsplan grundschule hamburg
+- bildungsstandards bw grundschule
+- bildungsstandards deutsch grundschule sachsen
+- bildungsstandards ethik grundschule
+- bildungsstandards grundschule musik
+- bildungsstandards hessen grundschule deutsch
+- bildungsstandards kunst grundschule
+- bildungsstandards nrw grundschule mathe
+- bildungsstandards religion grundschule
+- isb lehrplan grundschule
+- isb lehrplanplus grundschule
+- kerncurriculum grundschule hessen
+- kmk bildungsstandards deutsch grundschule zitieren
+- kmk bildungsstandards mathematik primarbereich
+- lehrplan deutsch klasse 1 sachsen
+- lehrplan französisch grundschule saarland
+- lehrplan geometrie grundschule
+- lehrplan grundschule deutsch sachsen
+- lehrplan grundschule ethik
+- lehrplan grundschule hessen sachunterricht
+- lehrplan grundschule kunst nrw
+- lehrplan grundschule mecklenburg vorpommern
+- lehrplan grundschule musik
+- lehrplan grundschule nrw deutsch
+- lehrplan grundschule plus
+- lehrplan grundschule rlp sachunterricht
+- lehrplan grundschule sachsen anhalt deutsch
+- lehrplan grundschule thüringen mathe
+- lehrplan grundschule werken sachsen
+- lehrplan lesen grundschule nrw
+- lehrplan mathe grundschule sachsen
+- lehrplan nrw grundschule mathe
+- lehrplan plus bayern grundschule zitieren
+- lehrplan thüringen grundschule heimat und sachkunde
+- lehrplanplus bayern grundschule kunst
+- lehrplanplus bayern grundschule pdf
+- lehrplanplus bayern grundschule sport
+- lehrplanplus daz grundschule
+- lehrplanplus grundschule
+- lehrplanplus grundschule mathematik
+- lehrplanplus katholische religion grundschule
+- rahmenlehrplan grundschule niedersachsen
+- bildungsplan grundschule
+- bildungsstandards biologie grundschule
+- bildungsstandards deutsch grundschule kmk
+- bildungsstandards deutsch grundschule thüringen
+- bildungsstandards englisch grundschule niedersachsen
+- bildungsstandards für das fach mathematik primarbereich kmk
+- bildungsstandards hessen grundschule mathe
+- bildungsstandards nrw grundschule deutsch
+- bildungsstandards sport grundschule
+- kerncurriculum grundschule niedersachsen
+- lehrplan deutsch als zweitsprache grundschule
+- lehrplan deutsch klasse 1 nrw
+- lehrplan für grundschule
+- lehrplan geschichte grundschule
+- lehrplan grundschule berlin
+- lehrplan grundschule deutsch hessen
+- lehrplan grundschule evangelische religion
+- lehrplan grundschule hamburg
+- lehrplan grundschule kunst sachsen
+- lehrplan grundschule mathe thüringen
+- lehrplan grundschule niedersachsen
+- lehrplan grundschule religion
+- lehrplan grundschule sachsen anhalt sachunterricht
+- lehrplan grundschule thüringen deutsch
+- lehrplan mathe grundschule nrw
+- lehrplan nrw grundschule sachunterricht
+- lehrplan nrw grundschule verbundene schrift
+- lehrplan plus grundschule bayern
+- lehrplan werken grundschule thüringen
+- lehrplanplus bayern grundschule hsu
+- lehrplanplus bayern grundschule kombinatorik
+- lehrplanplus deutsch grundschule bayern
+- lehrplanplus grundschule ethik
+- lehrplanplus mathe grundschule bayern
+- rahmenlehrplan grundschule deutsch
+- uhrzeit lehrplan grundschule
+- bildungsplan grundschule sachunterricht
+- bildungsstandards deutsch grundschule hessen
+- bildungsstandards hessen grundschule sachunterricht
+- bildungsstandards mathematik grundschule kmk
+- bildungsstandards mathematik grundschule nrw
+- bildungsstandards nrw grundschule sachunterricht
+- bildungsstandards sachunterricht grundschule hessen
+- kerncurriculum grundschule deutsch
+- lehrplan fremdsprachen grundschule thüringen
+- lehrplan grundschule deutsch sachsen anhalt
+- lehrplan grundschule englisch sachsen anhalt
+- lehrplan grundschule hessen mathe
+- lehrplan grundschule katholische religion
+- lehrplan grundschule mathematik sachsen
+- lehrplan grundschule nrw sachunterricht
+- lehrplan grundschule religion sachsen
+- lehrplan grundschule thüringen sport
+- lehrplan mathe grundschule thüringen
+- lehrplan nrw grundschule 2021 zitieren
+- lehrplan nrw grundschule deutsch
+- lehrplan plus bayern grundschule grundwortschatz
+- lehrplan plus bayern grundschule lernwörter
+- lehrplan plus grundschule pdf
+- lehrplan wg grundschule bayern
+- lehrplanplus bayern daz grundschule
+- lehrplanplus bayern grundschule kaufen
+- lehrplanplus bayern grundschule musik
+- lehrplanplus englisch grundschule bayern
+- lehrplanplus grundschule bayern hsu
+- rahmenlehrplan grundschule nrw
+- bildungsplan grundschule baden württemberg
+- bildungsstandards mathematik grundschule 2022
+- bildungsstandards sachunterricht grundschule sachsen
+- kerncurriculum grundschule nrw
+- kombinatorik lehrplanplus grundschule
+- lehrplan grundschule bayern 3 klasse
+- lehrplan grundschule deutsch thüringen
+- lehrplan grundschule englisch sachsen
+- lehrplan grundschule hsu
+- lehrplan grundschule klasse 4
+- lehrplan grundschule mathe nrw
+- lehrplan grundschule nrw mathe
+- lehrplan grundschule religion nrw
+- lehrplan grundschule sachsen anhalt sport
+- lehrplan grundschule sachsen deutsch
+- lehrplan grundschule thüringen 2026
+- lehrplan mathe grundschule sachsen anhalt
+- lehrplan mathematik grundschule nrw zitieren
+- lehrplan nrw grundschule pdf
+- lehrplan plus grundschule deutsch
+- lehrplan werken grundschule bayern
+- lehrplanplus grundschule bayern buch
+- lesen lehrplan grundschule
+- rahmenlehrplan grundschule sachunterricht
+- bildungsplan grundschule bw pdf
+- bildungsstandards deutsch grundschule nrw
+- bildungsstandards mathematik grundschule bayern
+- bildungsstandards mathematik grundschule hessen
+- bildungsstandards niedersachsen grundschule
+- bildungsstandards sport grundschule hessen
+- kerncurriculum grundschule niedersachsen sachunterricht
+- kmk bildungsstandards grundschule englisch
+- lehrplan deutsch als zweitsprache grundschule sachsen
+- lehrplan grundschule bayern deutsch
+- lehrplan grundschule deutsch nrw
+- lehrplan grundschule ethik sachsen
+- lehrplan grundschule hsk thüringen
+- lehrplan grundschule katholische religion nrw
+- lehrplan grundschule mathe sachsen anhalt
+- lehrplan grundschule nrw 2021
+- lehrplan grundschule religion bayern
+- lehrplan grundschule sachsen sachunterricht
+- lehrplan grundschule thüringen 1 klasse
+- lehrplan mathe grundschule sachsen pdf
+- lehrplan nrw grundschule aktuell
+- lehrplan nrw grundschule deutsch pdf
+- lehrplan plus bayern grundschule gebundene ausgabe
+- lehrplan plus grundschule kunst
+- lehrplanplus grundschule bayern sport
+- rahmenlehrplan grundschule hessen
+- bildungsplan grundschule mathematik
+- bildungsstandards deutsch grundschule 2022
+- bildungsstandards deutsch grundschule bw
+- bildungsstandards evangelische religion grundschule
+- bildungsstandards hessen grundschule musik
+- bildungsstandards nrw grundschule sport
+- kerncurriculum grundschule mathematik niedersachsen
+- kmk bildungsstandards kunst grundschule
+- lehrplan deutsch grundschule nrw zitieren
+- lehrplan grundschule brandenburg
+- lehrplan grundschule deutsch sachsen 2025
+- lehrplan grundschule ethik sachsen anhalt
+- lehrplan grundschule hessen englisch
+- lehrplan grundschule klasse 1
+- lehrplan grundschule musik nrw
+- lehrplan grundschule nrw pdf
+- lehrplan grundschule rlp ethik
+- lehrplan grundschule saarland
+- lehrplan grundschule thüringen sachunterricht
+- lehrplan mathe grundschule 2026
+- lehrplan nrw grundschule religion
+- lehrplan plus grundschule sport
+- lehrplan werken und gestalten grundschule bayern
+- rahmenlehrplan grundschule mv
+- bildungsplan grundschule deutsch
+- bildungsstandards geographie bayern grundschule
+- bildungsstandards sachsen grundschule deutsch
+- kerncurriculum grundschule mathematik
+- kmk bildungsstandards grundschule sachunterricht
+- kmk bildungsstandards religion grundschule
+- lehrplan grundschule baden württemberg 1 klasse
+- lehrplan grundschule bayern 1. klasse
+- lehrplan grundschule deutsch saarland
+- lehrplan grundschule erste klasse
+- lehrplan grundschule hsk
+- lehrplan grundschule klasse 2
+- lehrplan grundschule musik sachsen
+- lehrplan grundschule nrw musik
+- lehrplan grundschule rlp sport
+- lehrplan grundschule schleswig holstein
+- lehrplan grundschule thüringen ethik
+- lehrplan mathe grundschule rlp
+- lehrplan nrw grundschule 4 klasse
+- lehrplan nrw grundschule anforderungsbereiche
+- lehrplan plus grundschule hsu
+- rahmenlehrplan grundschule mathematik
+- bildungsplan grundschule bw sachunterricht
+- bildungsstandards deutsch grundschule mv
+- bildungsstandards hessen grundschule sport
+- gedichte lehrplan grundschule
+- kerncurriculum grundschule sachunterricht
+- kmk bildungsstandards grundschule mathe nrw
+- lehrplan grundschule bayern englisch 3 klasse
+- lehrplan grundschule deutschland
+- lehrplan grundschule ethik thüringen
+- lehrplan grundschule hamburg deutsch
+- lehrplan grundschule klasse 3
+- lehrplan grundschule mathe sachsen
+- lehrplan grundschule nrw sport
+- lehrplan grundschule religion bw
+- lehrplan grundschule sachsen anhalt englisch
+- lehrplan grundschule sachsen mathematik
+- lehrplan grundschule thüringen kunst
+- lehrplan mathe grundschule sachsen 2025
+- lehrplan nrw grundschule 1 klasse
+- lehrplan plus grundschule bayern pdf
+- rahmenlehrplan grundschule berlin sachunterricht
+- bildungsplan grundschule religion
+- bildungsstandards mathe grundschule mv
+- kerncurriculum grundschule sport
+- kmk bildungsstandards grundschule nrw
+- lehrplan grundschule bayern 4 klasse mathematik
+- lehrplan grundschule deutsch 2025
+- lehrplan grundschule englisch bayern
+- lehrplan grundschule hessen sport
+- lehrplan grundschule kunst bayern
+- lehrplan grundschule nordrhein westfalen
+- lehrplan grundschule nrw evangelische religion
+- lehrplan grundschule sachsen anhalt 2026
+- lehrplan mathe grundschule saarland
+- lehrplan nrw grundschule mathe 2 klasse
+- lehrplan plus grundschule mathe
+- lehrplan rlp grundschule 3 klasse
+- lehrplan thüringen grundschule 3 klasse
+- rahmenlehrplan grundschule bayern
+
+## Assessments and tests
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| vera 3 übungen | shallow | 1 / 1 | 10 |
+| probe mathe 2. klasse | shallow | 1 / 1 | 10 |
+| klassenarbeit mathe klasse 2 | shallow | 1 / 1 | 10 |
+| lesetest klasse 2 | shallow | 1 / 1 | 10 |
+| klassenarbeit mathe klasse 3 | shallow | 1 / 1 | 10 |
+| lernstandserhebung klasse 1 | shallow | 1 / 1 | 9 |
+| mathe test klasse 1 | shallow | 1 / 1 | 6 |
+| lernstandsdiagnose mathe | shallow | 1 / 1 | 5 |
+| eingangsdiagnostik klasse 1 | shallow | 1 / 1 | 5 |
+| lernstandskontrolle deutsch | shallow | 1 / 1 | 5 |
+| lernstandserhebung | deep | 25 / 27 | 205 |
+| mathe test klasse 2 | deep | 20 / 27 | 48 |
+| diagnose grundschule | deep | 13 / 27 | 38 |
+| lernzielkontrolle mathe | deep | 12 / 27 | 29 |
+
+**Words people add** (how many distinct phrases carry the word): klasse 109 · deutsch 27 · pdf 22 · und 22 · mathe 20 · kostenlos 20 · bayern 19 · online 17 · nrw 13 · hessen 13 · englisch 11 · grundschule 10 · westermann 10 · cornelsen 9 · lesen 8 · vera 8 · bw 7 · gymnasium 7 · login 6 · natur 6 · technik 6 · forderplanung 6 · zahlenraum 6 · bis 6 · mal 6 · anfang 5 · geometrie 5 · 2026 5 · pikas 5 · multiplikation 5 · zum 5 · ausdrucken 5 · division 5 · halbjahr 5 · ende 4 · einmaleins 4 · freiwillige 4 · 2027 4 · baden 4 · wurttemberg 4
+
+**Phrases** (all 397, by how many lookups returned them)
+
+- lernzielkontrolle mathe klasse 3 flex und flo  ×4
+- mathe test klasse 2 zum ausdrucken kostenlos  ×4
+- mathe test 2 klasse mal und geteilt  ×4
+- mathe test 2 klasse pdf mal und geteilt  ×4
+- lernstandserhebung klasse 1 deutsch kostenlos  ×3
+- lernzielkontrolle mathe klasse 2 cornelsen  ×3
+- lernzielkontrolle mathe klasse 2 pdf  ×3
+- lernzielkontrolle mathe klasse 3 cornelsen  ×3
+- lernzielkontrolle mathe klasse 3 pdf  ×3
+- mathe test 2 klasse pdf kostenlos  ×3
+- mathe test 2 klasse zum ausdrucken  ×3
+- online diagnose grundschule erfahrungen  ×3
+- lernstandserhebung natur und technik bayern  ×3
+- mathe test 2 klasse plus und minus  ×3
+- mathe test 2 klasse multiplikation und division  ×3
+- lernstandserhebung natur und technik  ×3
+- diagnose grundschule deutsch  ×2
+- diagnose grundschule mathematik  ×2
+- diagnose grundschule westermann  ×2
+- grundschule diagnose online  ×2
+- lernstandserhebung klasse 5 deutsch aufgaben kostenlos  ×2
+- lernstandserhebung mathe klasse 4 pdf  ×2
+- lernstandserhebung und förderplanung grundstufe  ×2
+- lernzielkontrolle mathe ende klasse 1  ×2
+- lernzielkontrolle mathe klasse 4 zahlenraum bis 1 million  ×2
+- mathe test 2 klasse bis 100  ×2
+- mathe test 2 klasse malaufgaben  ×2
+- mathe test klasse 2 einmaleins  ×2
+- mathe test klasse 2 pdf  ×2
+- mathe test klasse 2 uhrzeit  ×2
+- online diagnose grundschule app  ×2
+- diagnose dyskalkulie grundschule  ×2
+- lernstandserhebung deutsch klasse 5  ×2
+- lernstandserhebung klasse 1  ×2
+- lernstandserhebung mathe klasse 5 pdf  ×2
+- lernstandserhebung und förderplanung klasse 1-4  ×2
+- lernzielkontrolle mathe klasse 3  ×2
+- mathe test 2 klasse pdf download  ×2
+- online diagnose grundschule kostenlos  ×2
+- online diagnose grundschule westermann  ×2
+- westermann diagnose grundschule mathe  ×2
+- lernstandserhebung klasse 5 mathe aufgaben kostenlos  ×2
+- lernstandserhebung klasse 5 mathematik  ×2
+- lernzielkontrolle mathe klasse 2  ×2
+- mathe test 2 klasse kostenlos downloaden  ×2
+- westermann diagnose grundschule login  ×2
+- lernstandserhebung klasse 5  ×2
+- lernzielkontrolle mathe klasse 4  ×2
+- online diagnose grundschule deutsch  ×2
+- online diagnose grundschule login  ×2
+- lrs diagnose grundschule  ×2
+- mathe test 2 klasse pdf mal  ×2
+- klassenarbeit mathe test 2 klasse pdf  ×2
+- lernzielkontrolle mathe klasse 1  ×2
+- lernstandserhebung natur und technik 6 klasse gymnasium bayern lösungen  ×2
+- pikas lernstandserhebung klasse 1  ×2
+- diagnose englisch grundschule
+- diagnose förderung grundschule
+- diagnose grundschule
+- diagnose kalender grundschule
+- diagnose lesen grundschule
+- diagnose rechtschreibung grundschule
+- diagnose schreiben grundschule
+- diagnose test grundschule
+- eingangsdiagnostik klasse 1
+- ilea test klasse 2 mathe
+- klassenarbeit mathe klasse 2
+- klassenarbeit mathe klasse 3
+- lernstandsdiagnose mathe klasse 2
+- lernstandserhebung
+- lernstandserhebung anfang klasse 2
+- lernstandserhebung bw
+- lernstandserhebung cornelsen
+- lernstandserhebung deutsch klasse 3 pdf
+- lernstandserhebung englisch klasse 5
+- lernstandserhebung förderschule
+- lernstandserhebung grundschule
+- lernstandserhebung hessen
+- lernstandserhebung ideenreise
+- lernstandserhebung jahrgang 5 nrw
+- lernstandserhebung lesen
+- lernstandserhebung nrw
+- lernstandserhebung online
+- lernstandserhebung pikas
+- lernstandserhebung rechtschreibung
+- lernstandserhebung schleswig holstein
+- lernstandserhebung test
+- lernstandserhebung vera
+- lernstandserhebung was ist das
+- lernstandserhebung zebra klasse 1
+- lernstandskontrolle deutsch klasse 5
+- lernzielkontrolle 3 klasse mathe längenmaße
+- lernzielkontrolle 4 klasse mathe bayern
+- lernzielkontrolle mathe grundschule
+- lernzielkontrolle mathe klasse 2 multiplikation
+- lesetest klasse 2
+- mathe test 2 klasse division
+- mathe test 2 klasse geld
+- mathe test 2 klasse hundertertafel
+- mathe test 2 klasse kostenlos
+- mathe test 2 klasse längen
+- mathe test 2 klasse online
+- mathe test 2 klasse sachaufgaben
+- mathe test 2 klasse textaufgaben
+- mathe test 2 klasse volksschule
+- mathe test 2 klasse wiederholung
+- mathe test für 2 klasse
+- mathe test klasse 1
+- mathe test klasse 2
+- probe mathe 2. klasse
+- quop lernstandserhebung
+- vera 3 übungen
+- adhs diagnose grundschule
+- daz diagnose test grundschule
+- diagnose lesekompetenz grundschule
+- eingangsdiagnostik klasse 1 deutsch
+- ikea lernstandserhebung
+- klassenarbeit mathe klasse 2 zahlenraum bis 100
+- klassenarbeit mathe klasse 3 kostenlos
+- lernstandsdiagnose mathe klasse 3
+- lernstandserhebung anfang klasse 3
+- lernstandserhebung bw klasse 5
+- lernstandserhebung chemie
+- lernstandserhebung englisch
+- lernstandserhebung förderschwerpunkt lernen
+- lernstandserhebung geometrie grundschule
+- lernstandserhebung hamburg
+- lernstandserhebung jojo 3
+- lernstandserhebung lesen klasse 3
+- lernstandserhebung nrw klasse 5
+- lernstandserhebung pisa
+- lernstandserhebung rlp
+- lernstandserhebung sachsen anhalt
+- lernstandserhebung thüringen
+- lernstandserhebung vorschule
+- lernstandserhebung westermann
+- lernstandserhebung zahlenraum 20
+- lernstandskontrolle deutsch klasse 2
+- lernzielkontrolle 2 klasse mathe bayern
+- lernzielkontrolle mathe 5 klasse gymnasium
+- lernzielkontrolle mathe ende klasse 2
+- lernzielkontrolle mathe klasse 3 mildenberger
+- lernzielkontrolle mathe klasse 4 längen
+- lesetest klasse 2 mit fragen kostenlos
+- mathe probe 2 klasse bayern
+- mathe test 1 klasse pdf
+- mathe test 2 klasse 2 halbjahr
+- mathe test 2 klasse bis 20
+- mathe test 2 klasse geometrie
+- mathe test 2 klasse körper
+- mathe test ende klasse 2
+- onlineportal lernstandserhebung
+- test in mathe 2 klasse
+- vera 3 übungen kostenlos
+- westermann diagnose online grundschule
+- autismus diagnose grundschule
+- cornelsen lernstandserhebung deutsch klasse 2
+- diagnose daz grundschule
+- eingangsdiagnostik klasse 1 mathe
+- klassenarbeit mathe klasse 2 zahlenstrahl
+- klassenarbeit mathe klasse 3 multiplikation und division
+- klett diagnose grundschule
+- lernstandsdiagnose mathe klasse 1
+- lernstandserhebung anfang klasse 1
+- lernstandserhebung bayern realschule 6 klasse
+- lernstandserhebung bw klasse 2
+- lernstandserhebung deutsch
+- lernstandserhebung englisch klasse 7
+- lernstandserhebung französisch
+- lernstandserhebung grundschule klasse 2
+- lernstandserhebung hessen übungen klasse 3 pdf
+- lernstandserhebung igel
+- lernstandserhebung jojo 2
+- lernstandserhebung klasse 1 mathe kostenlos
+- lernstandserhebung lesen klasse 2
+- lernstandserhebung mathe klasse 4 pdf kostenlos
+- lernstandserhebung oder lernstandserhebung
+- lernstandserhebung persen
+- lernstandserhebung sh klasse 5
+- lernstandserhebung und förderplanung
+- lernstandserhebung vera 8
+- lernstandserhebung wald
+- lernstandserhebung zr 20
+- lernstandskontrolle deutsch klasse 1
+- lernzielkontrolle mathe erste klasse
+- lernzielkontrolle mathe klasse 3 geometrie
+- lernzielkontrolle mathe klasse 4 cornelsen
+- lernzielkontrolle mathe klasse 4 pdf
+- lesetest klasse 2 pdf
+- mathe probe 2 klasse mal und geteilt
+- mathe test 1 klasse zum ausdrucken
+- mathe test 2 klasse bayern
+- mathe test 2 klasse grundschule
+- mathe test 2 klasse klett
+- mathe test 2 klasse multiplikation
+- mathe test 2 klasse zahlenstrahl
+- mathe test 3 klasse 2 halbjahr
+- online diagnose mathe grundschule
+- termine lernstandserhebung nrw 2026
+- vera 3 übungen deutsch
+- westermann diagnose tool grundschule
+- ads diagnose grundschule
+- cornelsen lernstandserhebung deutsch klasse 4
+- freiwillige lernstandserhebung natur und technik bayern
+- jojo lernstandserhebung
+- klassenarbeit mathe klasse 2 malaufgaben
+- klassenarbeit mathe klasse 3 wiederholung klasse 2
+- lernstandsdiagnose mathe
+- lernstandserhebung anfang klasse 3 mathe
+- lernstandserhebung bayern
+- lernstandserhebung bayern realschule
+- lernstandserhebung deutsch klasse 3
+- lernstandserhebung englisch klasse 6
+- lernstandserhebung gymnasium klasse 5
+- lernstandserhebung hessen klasse 3 2026
+- lernstandserhebung italienisch
+- lernstandserhebung klasse 1 mildenberger
+- lernstandserhebung login
+- lernstandserhebung mathe klasse 3 pdf
+- lernstandserhebung mathe online
+- lernstandserhebung niedersachsen
+- lernstandserhebung pflege
+- lernstandserhebung sachsen
+- lernstandserhebung und förderplanung klasse 5-10
+- lernstandserhebung volksschule
+- lernstandserhebung welche klasse
+- lernstandserhebung zuhören
+- lernstandskontrolle deutsch klasse 3
+- lernzielkontrolle 1 klasse bayern mathe
+- lernzielkontrolle mathe klasse 1 cornelsen
+- lernzielkontrolle mathe klasse 2 eduki
+- lernzielkontrolle mathe klasse 4 geometrie
+- lesetest klasse 2 kostenlos
+- mathe probe 2 klasse bayern kostenlos
+- mathe test 1 klasse pdf kostenlos
+- mathe test 2 klasse mal
+- mathe test 4 klasse 2 halbjahr
+- pikas eingangsdiagnostik klasse 1
+- tobi lernstandserhebung
+- vera 3 übungen mathe
+- westermann online diagnose grundschule mathe
+- cornelsen lernstandserhebung deutsch klasse 3
+- diagnose und förderung mathematik grundschule
+- eingangsdiagnostik grundschule klasse 1
+- formative lernstandserhebung
+- klassenarbeit mathe klasse 2 addition und subtraktion
+- klassenarbeit mathe klasse 3 punkt vor strichrechnung
+- lernstandsdiagnose mathe klasse 4
+- lernstandserhebung anfang klasse 2 deutsch
+- lernstandserhebung bw klasse 5 deutsch
+- lernstandserhebung deutsch klasse 2
+- lernstandserhebung ende klasse 1 deutsch
+- lernstandserhebung grundschule nrw
+- lernstandserhebung hessen klasse 3 2027
+- lernstandserhebung hessen online
+- lernstandserhebung isb bayern
+- lernstandserhebung klasse 1 deutsch
+- lernstandserhebung klasse 5 realschule
+- lernstandserhebung lesen klasse 4
+- lernstandserhebung mathe klasse 5
+- lernstandserhebung nrw beispielaufgaben
+- lernstandserhebung pdf
+- lernstandserhebung südtirol
+- lernstandserhebung uhr
+- lernstandserhebung vera 3
+- lernstandserhebung wahrscheinlichkeit
+- lernstandserhebung zahlenraum 100
+- lernstandskontrolle deutsch klasse 4
+- lesetest klasse 2 bayern
+- mathe probe 2 klasse geld
+- mathe test 1 klasse bis 20
+- mathe test 2 klasse 1 halbjahr
+- termine lernstandserhebung nrw 2027
+- vera 3 übungen online
+- westermann online diagnose grundschule login
+- www online diagnose grundschule de
+- cornelsen lernstandserhebung englisch
+- freiwillige lernstandserhebung
+- grundschule diagnose westermann de
+- klassenarbeit mathe klasse 2 uhrzeit
+- klassenarbeit mathe klasse 3 division mit rest
+- lernstandserhebung abkürzung
+- lernstandserhebung bayern gymnasium deutsch 6 klasse
+- lernstandserhebung deutsch klasse 4 pdf
+- lernstandserhebung englisch grundschule
+- lernstandserhebung geld
+- lernstandserhebung hessen 2027
+- lernstandserhebung in baden württemberg
+- lernstandserhebung klasse 1 mathe
+- lernstandserhebung klasse 2 deutsch kostenlos
+- lernstandserhebung lesen klasse 1
+- lernstandserhebung mathe
+- lernstandserhebung nrw termine
+- lernstandserhebung nut
+- lernstandserhebung portal
+- lernstandserhebung sachsen klasse 2
+- lernstandserhebung und förderplanung hauptstufe
+- lernstandserhebung vera 8 nrw
+- lernstandserhebung würfelgebäude
+- lernstandserhebung zahlenraum 1000
+- lesetest klasse 2 baden württemberg
+- mathe probe 2 klasse einmaleins
+- mathe test 1 klasse zum ausdrucken kostenlos
+- vera 3 übungen lesen
+- freiwillige lernstandserhebung französisch
+- klassenarbeit mathe klasse 2 geometrie
+- klassenarbeit mathe klasse 3 halbschriftliche multiplikation und division
+- lernstandserhebung auswertung
+- lernstandserhebung bayern mittelschule
+- lernstandserhebung deutsch klasse 5 gymnasium beispiele
+- lernstandserhebung englisch klasse 8
+- lernstandserhebung geistige entwicklung
+- lernstandserhebung hessen übungen
+- lernstandserhebung isb
+- lernstandserhebung klasse 1 sachsen
+- lernstandserhebung klasse 2
+- lernstandserhebung latein
+- lernstandserhebung mathe klasse 4
+- lernstandserhebung nrw klasse 8
+- lernstandserhebung synonym
+- lernstandserhebung uhrzeit
+- lernstandserhebung vera 3 bw
+- lernstandserhebung wortarten
+- lernstandserhebung zebra
+- lesetest klasse 2 zum ausdrucken
+- mathe probe 2 klasse mal
+- pikas lernstandserhebung klasse 2
+- vera 3 übungen pdf
+- freiwillige lernstandserhebung natur und technik
+- isb lernstandserhebung natur und technik
+- klassenarbeit mathe klasse 2 einmaleins
+- klassenarbeit mathe klasse 3 zahlenraum bis 1000
+- klassenarbeit mathe test 2 klasse
+- lernstandserhebung 1 klasse karibu
+- lernstandserhebung auf englisch
+- lernstandserhebung bayern gymnasium englisch 7 klasse
+- lernstandserhebung deutsch klasse 7
+- lernstandserhebung einmaleins
+- lernstandserhebung gymnasium
+- lernstandserhebung hessen 2026
+- lernstandserhebung klasse 3 deutsch kostenlos
+- lernstandserhebung latein bayern
+- lernstandserhebung mathe klasse 8 übungen pdf
+- lernstandserhebung nrw 2027
+- lernstandserhebung schule
+- lernstandserhebung vera 3 klasse
+- lesetest klasse 2 mit fragen
+- mathe probe wiederholung 2 klasse
+- vera übungen 3 klasse
+- www lernstandserhebung bw de
+- zentrale lernstandserhebung
+- 2 mathe probe 4 klasse
+- 5 minuten test mathe klasse 2
+- ibbw lernstandserhebung
+- känguru test mathe 2 klasse
+- klassenarbeit mathe klasse 2 hundertertafel
+- klassenarbeit mathe klasse 3 wiederholung
+- lernstandserhebung aufgaben
+- lernstandserhebung baden württemberg
+- lernstandserhebung bw login
+- lernstandserhebung deutsch klasse 1
+- lernstandserhebung erklärung
+- lernstandserhebung grundschule klasse 1
+- lernstandserhebung hessen 2026 termine
+- lernstandserhebung hessen login
+- lernstandserhebung längen
+- lernstandserhebung mathe klasse 1
+- lernstandserhebung nrw 5
+- lernstandserhebung schweiz
+- lernstandserhebung vera 8 deutsch
+- lesetest klasse 2 eduki
+- pikas lernstandserhebung klasse 3
+- vera 3 sprachgebrauch übungen
+- zentrale lernstandserhebung hessen
+- 10 minuten test mathe 2 klasse
+- 2 mathe probe 4 klasse bayern
+- daz diagnose grundschule
+- iqb lernstandserhebung
+- klassenarbeit mathe klasse 2 kostenlos
+- klassenarbeit mathe klasse 3 1 halbjahr
+- lernstandserhebung abc der tiere
+- lernstandserhebung baden württemberg klasse 5
+- lernstandserhebung beispiel
+- lernstandserhebung deutsch klasse 4
+- lernstandserhebung englisch klasse 4
+- lernstandserhebung geometrische körper
+- lernstandserhebung hessen klasse 3 ergebnisse
+- lernstandserhebung klasse 3
+- lernstandserhebung lesen grundschule
+- lernstandserhebung mathe klasse 3
+- lernstandserhebung sachunterricht
+- lernzielkontrolle mathe klasse 4 klett
+- lesetest klasse 2 wörter pro minute
+- persen lernstandserhebung und förderplanung
+- vera 3 zuhören übungen
+- vera lernstandserhebung nrw
+- zentrale lernstandserhebung hessen 2026
+
+## Substitute-teacher packs
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| vertretungsstunde grundschule | shallow | 1 / 1 | 10 |
+| vertretungsstunde mathe | shallow | 1 / 1 | 10 |
+| vertretungsstunde deutsch | shallow | 1 / 1 | 10 |
+| vertretungsstunde klasse 3 | shallow | 1 / 1 | 10 |
+| vertretungsstunde ideen | shallow | 1 / 1 | 10 |
+| vertretungsstunde klasse 1 | shallow | 1 / 1 | 8 |
+| vertretungsmaterial grundschule | shallow | 1 / 1 | 1 |
+| vertretungsstunde | deep | 24 / 27 | 168 |
+| vertretungsstunden material | deep | 7 / 27 | 8 |
+| vertretungsunterricht grundschule | deep | 5 / 27 | 6 |
+| notfallmappe vertretung | shallow | 0 / 1 | 0 |
+
+**Words people add** (how many distinct phrases carry the word): klasse 80 · englisch 12 · pdf 10 · musik 10 · religion 10 · kunst 9 · sport 8 · franzosisch 6 · biologie 6 · geschichte 5 · informatik 5 · physik 5 · nrw 4 · chemie 4 · ethik 4 · grundschule 4 · deutsch 4 · sachunterricht 4 · kostenlos 3 · auf 3 · geographie 3 · material 3 · nawi 3 · spiele 3 · werken 3 · was 2 · lehrer 2 · netflix 2 · oberstufe 2 · philosophie 2 · und 2 · vor 2 · weihnachten 2 · fur 2 · allgemeinwissen 1 · aufgaben 1 · arbeitsblatt 1 · arbeitslehre 1 · a13 1 · bk 1
+
+**Phrases** (all 217, by how many lookups returned them)
+
+- material vertretungsstunden deutsch  ×2
+- spiele vertretungsunterricht grundschule  ×2
+- vertretungsstunde deutsch  ×2
+- vertretungsstunde englisch  ×2
+- vertretungsstunde grundschule  ×2
+- vertretungsstunde ideen  ×2
+- vertretungsstunde klasse 1  ×2
+- vertretungsstunde klasse 3  ×2
+- vertretungsstunde kunst pdf kostenlos  ×2
+- vertretungsstunde mathe  ×2
+- vertretungsstunde musik pdf  ×2
+- vertretungsstunden material grundschule  ×2
+- vertretungsstunden material kostenlos  ×2
+- vertretungsstunden material pdf  ×2
+- vertretungsstunden material sek 1  ×2
+- vertretungsunterricht grundschule ideen  ×2
+- vertretungsunterricht grundschule material  ×2
+- vertretungsunterricht kunst grundschule  ×2
+- vertretungsstunde deutsch klasse 6  ×2
+- vertretungsstunde ideen grundschule  ×2
+- vertretungsstunde kunst  ×2
+- vertretungsstunde lehrer nrw  ×2
+- vertretungsstunde mathe klasse 7  ×2
+- vertretungsstunde musik klasse 3  ×2
+- vertretungsstunde religion klasse 3  ×2
+- vertretungsstunde werte und normen  ×2
+- vertretungsunterricht musik grundschule  ×2
+- vertretungsstunde deutsch klasse 8  ×2
+- vertretungsstunde deutsch klasse 6 pdf  ×2
+- vertretungsstunde werken und gestalten  ×2
+- vertretungsstunde deutsch klasse 5  ×2
+- vertretungsstunde mathe klasse 3  ×2
+- vertretungsstunde musik klasse 1  ×2
+- vertretungsstunde was tun  ×2
+- vertretungsstunde deutsch klasse 9 pdf  ×2
+- vertretungsstunde englisch klasse 3  ×2
+- vertretungsstunde fake news  ×2
+- vertretungsstunde religion klasse 1  ×2
+- vertretungsstunde a13 nrw  ×2
+- vertretungsstunde deutsch klasse 7  ×2
+- vertretungsstunde sachunterricht klasse 1  ×2
+- vertretungsstunde deutsch klasse 4  ×2
+- vertretungsstunde deutsch klasse 9  ×2
+- vertretungsstunde deutsch klasse 2  ×2
+- material für vertretungsstunden
+- vertretungsmaterial grundschule
+- vertretungsstunde auf englisch
+- vertretungsstunde biologie
+- vertretungsstunde chemie
+- vertretungsstunde französisch
+- vertretungsstunde herbst
+- vertretungsstunde latein
+- vertretungsstunde nawi
+- vertretungsstunde ostern
+- vertretungsstunde pdf
+- vertretungsstunde quiz
+- vertretungsstunde religion
+- vertretungsstunde sport
+- vertretungsstunde technik
+- vertretungsstunde unterrichtsmaterial
+- vertretungsstunde vor den ferien
+- vertretungsstunde wirtschaft
+- vertretungsstunden material
+- vertretungsunterricht grundschule
+- zeichnen vertretungsstunde
+- material für vertretungsstunden grundschule
+- unterricht vertretungsstunde
+- vertretungsstunde
+- vertretungsstunde allgemeinwissen
+- vertretungsstunde biologie klasse 6
+- vertretungsstunde chemie klasse 8
+- vertretungsstunde englisch pdf
+- vertretungsstunde französisch 7 klasse
+- vertretungsstunde geographie
+- vertretungsstunde grundschule klasse 2
+- vertretungsstunde hauswirtschaft
+- vertretungsstunde informatik klasse 7
+- vertretungsstunde klasse 1 2
+- vertretungsstunde musik
+- vertretungsstunde nawi klasse 6
+- vertretungsstunde online
+- vertretungsstunde politik
+- vertretungsstunde spiele
+- vertretungsstunde turnen
+- vertretungsstunde vor weihnachten
+- ideen vertretungsstunde 5 klasse
+- kunst vertretungsstunde klasse 3
+- vertretungsstunde aufgaben
+- vertretungsstunde biologie klasse 9
+- vertretungsstunde chemie klasse 9
+- vertretungsstunde englisch klasse 6
+- vertretungsstunde französisch klasse 6
+- vertretungsstunde geschichte
+- vertretungsstunde grundschule klasse 4
+- vertretungsstunde halloween
+- vertretungsstunde ipad
+- vertretungsstunde klasse 1 kunst
+- vertretungsstunde lehrer
+- vertretungsstunde mathe klasse 5
+- vertretungsstunde musik klasse 4
+- vertretungsstunde nrw bezahlung
+- vertretungsstunde ohne material
+- vertretungsstunde physik klasse 7
+- vertretungsstunde religion klasse 4
+- vertretungsstunde sport klasse 4
+- vertretungsstunde textil
+- vertretungsstunde weihnachten
+- video vertretungsstunde
+- ideen vertretungsstunde 6 klasse
+- lustige vertretungsstunde
+- vergütung vertretungsstunde nrw
+- vertretungsstunde 1 klasse deutsch
+- vertretungsstunde arbeitsblatt
+- vertretungsstunde biologie klasse 5
+- vertretungsstunde chemie klasse 7
+- vertretungsstunde englisch klasse 5
+- vertretungsstunde förderschule
+- vertretungsstunde geschichte klasse 7
+- vertretungsstunde grundschule spiele
+- vertretungsstunde informatik
+- vertretungsstunde klasse 4
+- vertretungsstunde material
+- vertretungsstunde mathe klasse 8
+- vertretungsstunde nawi klasse 5
+- vertretungsstunde oberstufe
+- vertretungsstunde physik klasse 8
+- vertretungsstunde religion klasse 5
+- vertretungsstunde sport klassenraum
+- vertretungsstunde theater
+- vertretungsstunde werken
+- was heißt vertretungsstunde auf englisch
+- coole vertretungsstunde
+- ideen vertretungsstunde 7 klasse
+- vertretungsstunde auf französisch
+- vertretungsstunde biologie klasse 8
+- vertretungsstunde deutsch klasse 3
+- vertretungsstunde deutsch oberstufe
+- vertretungsstunde englisch klasse 5 pdf
+- vertretungsstunde film
+- vertretungsstunde geschichte klasse 6
+- vertretungsstunde grundschule klasse 3
+- vertretungsstunde informatik klasse 6
+- vertretungsstunde klasse 6
+- vertretungsstunde naturwissenschaften
+- vertretungsstunde physik
+- vertretungsstunde religion klasse 9
+- vertretungsstunde soziales lernen
+- vertretungsstunde spanisch
+- ideen vertretungsstunde 1 klasse
+- vertretungsstunde arbeitslehre
+- vertretungsstunde biologie klasse 7
+- vertretungsstunde englisch klasse 7
+- vertretungsstunde geschichte klasse 8
+- vertretungsstunde informatik klasse 5
+- vertretungsstunde klasse 5
+- vertretungsstunde kunst grundschule
+- vertretungsstunde mathe klasse 6
+- vertretungsstunde netflix methode
+- vertretungsstunde physik klasse 9
+- vertretungsstunde religion klasse 2
+- vertretungsstunde sachunterricht klasse 4
+- vertretungsstunde sport theorie
+- vertretungsstunde werken grundschule
+- checker tobi vertretungsstunde
+- ethik vertretungsstunde grundschule
+- ideen vertretungsstunde 8 klasse
+- vertretungsstunde bk
+- vertretungsstunde englisch klasse 9
+- vertretungsstunde ethik klasse 1
+- vertretungsstunde fasching
+- vertretungsstunde geschichte klasse 5
+- vertretungsstunde kunst klasse 9
+- vertretungsstunde mathe klasse 4
+- vertretungsstunde musik klasse 2
+- vertretungsstunde netflix
+- vertretungsstunde philosophie
+- vertretungsstunde religion klasse 7
+- ideen vertretungsstunde kunst
+- vertretungsstunde basteln
+- vertretungsstunde englisch klasse 8
+- vertretungsstunde französisch klasse 8
+- vertretungsstunde geographie klasse 5
+- vertretungsstunde informatik klasse 8
+- vertretungsstunde mathe klasse 2
+- vertretungsstunde musik grundschule kostenlos
+- vertretungsstunde musik klasse 5
+- vertretungsstunde praktische philosophie
+- vertretungsstunde sachunterricht klasse 3
+- vertretungsstunde sport klasse 2
+- vertretungsstunde willkommensklasse
+- fobizz vertretungsstunde
+- ideen vertretungsstunde musik
+- sport vertretungsstunde grundschule
+- vertretungsstunde bio
+- vertretungsstunde ethik klasse 2
+- vertretungsstunde ethik klasse 3
+- vertretungsstunde geographie klasse 7
+- vertretungsstunde in englisch
+- vertretungsstunde klasse 2
+- vertretungsstunde mathe klasse 1
+- vertretungsstunde physik klasse 6
+- vertretungsstunde religion klasse 6
+- vertretungsstunde sport klasse 5
+- vertretungsstunde wg
+- französisch vertretungsstunde pdf
+- ideen vertretungsstunde 10 klasse
+- vertretungsstunde berufsschule
+- vertretungsstunde gemeinschaftskunde
+- vertretungsstunde italienisch
+- vertretungsstunde klasse 8
+- vertretungsstunde mathe klasse 9
+- vertretungsstunde powi
+- vertretungsstunde rätsel
+- vertretungsstunde religion grundschule
+- vertretungsstunde sachunterricht klasse 2
+- vertretungsstunde sport klasse 3
+- weitermalbilder vertretungsstunde kunst pdf
+
+## First readers and mini-books
+
+**Heads** (strength = lookups that came back on-head / lookups made; a deep head makes 27, a shallow head 1)
+
+| Head | Depth | Strength | Tail |
+|---|---|---|---|
+| lies mal hefte | shallow | 1 / 1 | 10 |
+| erstlesebuch | shallow | 1 / 1 | 10 |
+| lesetexte klasse 2 | shallow | 1 / 1 | 10 |
+| erstleser texte | shallow | 1 / 1 | 5 |
+| lesen lernen texte | shallow | 1 / 1 | 5 |
+| faltbuch grundschule | shallow | 1 / 1 | 3 |
+| lesetexte mit silben | shallow | 1 / 1 | 2 |
+| minibuch zum ausdrucken | shallow | 1 / 1 | 2 |
+| leseheft zum ausdrucken | shallow | 1 / 1 | 1 |
+| silbentexte klasse 1 | shallow | 1 / 1 | 1 |
+| lesehefte | deep | 25 / 27 | 173 |
+| silbenlesen | deep | 17 / 27 | 30 |
+| lesetexte klasse 1 | deep | 14 / 27 | 29 |
+| minibuch grundschule | deep | 2 / 27 | 2 |
+
+**Words people add** (how many distinct phrases carry the word): hamburger 54 · klasse 26 · kostenlos 13 · und 13 · pdf 13 · der 12 · fur 8 · grundschule 7 · verlag 7 · woyzeck 7 · zum 7 · mildenberger 6 · anoki 5 · deutsch 4 · die 4 · faust 4 · leseleuchte 4 · silbenschrift 4 · zebra 4 · hueber 3 · als 3 · fremdsprache 3 · krug 3 · erstleser 3 · erste 3 · eduki 3 · kinder 3 · schule 3 · romeo 3 · julia 3 · serie 3 · nathan 3 · online 3 · plus 3 · ausdrucken 3 · mit 3 · rico 2 · flex 2 · flora 2 · tiere 2
+
+**Phrases** (all 283, by how many lookups returned them)
+
+- lesehefte flex und flora  ×3
+- lesehefte rico schnabel  ×3
+- lesetexte klasse 1 mit fragen  ×3
+- lesetexte klasse 1 zum ausdrucken  ×3
+- lesetexte 1 klasse zum ausdrucken kostenlos  ×3
+- leseanfänger erstleser lesetexte 1 klasse kostenlos  ×3
+- lesehefte anton und zora  ×3
+- lesehefte bunte reihe  ×2
+- lesehefte grundschule  ×2
+- lesehefte klasse 1  ×2
+- lesehefte mildenberger  ×2
+- lesetexte klasse 1 frau locke  ×2
+- lesetexte klasse 1 kostenlos  ×2
+- lesetexte klasse 1 pdf  ×2
+- lesetexte klasse 1 silbenschrift  ×2
+- lesetexte klasse 1 zebra  ×2
+- minibuch falten grundschule  ×2
+- silbenlesen arbeitsblatt  ×2
+- silbenlesen material kostenlos  ×2
+- silbenlesen mit werkzeugen  ×2
+- silbenlesen online  ×2
+- silbenlesen pdf  ×2
+- silbenlesen spiel  ×2
+- lesehefte klasse 2  ×2
+- lesehefte mildenberger verlag  ×2
+- lesetexte 1 klasse kostenlos pdf  ×2
+- lesetexte klasse 1 silben  ×2
+- silbenlesen material  ×2
+- hamburger lesehefte woyzeck  ×2
+- lesehefte abc der tiere  ×2
+- lesehefte klasse 3  ×2
+- hamburger lesehefte verlag  ×2
+- lesehefte fara und fu  ×2
+- lesehefte klasse 4  ×2
+- lesetexte für kinder 1 klasse  ×2
+- hamburger lesehefte der zerbrochene krug  ×2
+- hamburger lesehefte romeo und julia  ×2
+- lesehefte klasse 1 kostenlos  ×2
+- hamburger lesehefte faust  ×2
+- hamburger lesehefte emilia galotti  ×2
+- das silbenlesen
+- erstlesebuch
+- erstleser texte pdf
+- faltbuch grundschule
+- hamburger lesehefte odyssee
+- indianer lesehefte
+- leseheft zum ausdrucken
+- lesehefte anoki
+- lesehefte cornelsen
+- lesehefte deutsch als fremdsprache
+- lesehefte eberhart
+- lesehefte hueber
+- lesehefte jandorf
+- lesehefte leseschlau
+- lesehefte pdf
+- lesehefte silbenschrift
+- lesehefte volksschule
+- lesehefte westermann
+- lesehefte zebra
+- lesen lernen texte
+- lesetexte 1 klasse grossbuchstaben
+- lesetexte 1 klasse volksschule
+- lesetexte ende klasse 1
+- lesetexte klasse 1
+- lesetexte klasse 1 differenziert
+- lesetexte klasse 1 und 2
+- lesetexte klasse 2
+- lesetexte mit silben
+- lies mal hefte
+- minibuch grundschule
+- minibuch zum ausdrucken
+- niko lesehefte
+- quiesel lesehefte
+- silbenlesen 1. klasse
+- silbenlesen blitzlesen
+- silbenlesen eduki
+- silbenlesen herbst
+- silbenlesen klasse 1
+- silbenlesen lrs
+- silbenlesen training
+- silbentexte 1 klasse
+- spiele zum silbenlesen
+- tobi lesehefte
+- umi lesehefte
+- was ist silbenlesen
+- youtube silbenlesen
+- bewegtes silbenlesen
+- erste lesetexte klasse 1
+- erstes silbenlesen
+- erstlesebuch mädchen
+- erstleser texte kostenlos
+- faltbuch grundschule anleitung
+- hamburger lesehefte iphigenie auf tauris
+- hamburger lesehefte nathan der weise
+- hamburger lesehefte oder reclam
+- hamburger lesehefte plus
+- jrk lesehefte
+- leichte lesetexte 1 klasse
+- lesehefte a1
+- lesehefte b1
+- lesehefte daz
+- lesehefte erstleser
+- lesehefte für deutsch als fremdsprache
+- lesehefte grundschule klasse 3
+- lesehefte hallo schule
+- lesehefte lies mal
+- lesehefte rotes kreuz
+- lesehefte schule
+- lesehefte verlag
+- lesehefte zum ausdrucken
+- lesen lernen texte 1 klasse
+- lesetexte für die 1 klasse
+- lesetexte grundschule 1 klasse
+- lesetexte klasse 2 kostenlos
+- lesetexte mit farbigen silben
+- lies mal hefte 1 und 2
+- mini lesetexte klasse 1
+- silbenlesen
+- silbenlesen 1 klasse pdf
+- silbenlesen ab
+- silbenlesen karten
+- timetex lesehefte
+- übungen zum silbenlesen
+- vorlage minibuch zum ausdrucken
+- wochen lesehefte
+- erstlesebuch junge
+- erstleser lesetexte klasse 1
+- erstleser texte
+- faltbuch grundschule vorlage
+- hamburger lesehefte
+- hamburger lesehefte in der strafkolonie
+- hamburger lesehefte nr 3 kleider machen leute novelle
+- hamburger lesehefte unterm birnbaum
+- hueber lesehefte pdf
+- jojo lesehefte
+- kleine lesetexte klasse 1
+- lesehefte buchklub
+- lesehefte deutsch als fremdsprache pdf
+- lesehefte erste klasse
+- lesehefte förderschule
+- lesehefte grundschule klasse 2
+- lesehefte lrs
+- lesehefte sternchenverlag
+- lesehefte verlag an der ruhr
+- lesen d lernen texte besser verstehen ein trainingsprogramm
+- lesetexte für klasse 1
+- lesetexte klasse 2 mit fragen
+- lies mal hefte 3 und 4
+- lustige lesetexte 1 klasse
+- mildenberger lesehefte klasse 1
+- regenbogen lesehefte
+- silbenlesen m
+- tinto lesehefte
+- vitamine zum silbenlesen
+- woyzeck hamburger lesehefte online
+- zebra lesehefte klasse 2
+- deutsch lesehefte
+- erstlesebuch fußball
+- erstleser texte online
+- hamburger lesehefte irrungen wirrungen
+- hamburger lesehefte jugend ohne gott
+- hamburger lesehefte nibelungensage
+- hamburger lesehefte pole poppenspäler
+- hamburger lesehefte wilhelm tell
+- lesehefte
+- lesehefte a2
+- lesehefte b2
+- lesehefte englisch
+- lesehefte für leseanfänger
+- lesehefte grundschule klasse 4
+- lesehefte silben
+- lesen lernen kinder texte 1 klasse
+- lesetexte klasse 2 silbenschrift
+- lies mal hefte 5 und 6
+- lux lesehefte
+- mildenberger lesehefte 1
+- rico lesehefte
+- taps lesehefte
+- vom lesehefte
+- zaubereinmaleins lesehefte
+- bausteine lesehefte
+- eberhard lesehefte
+- erstlesebuch pokemon
+- hamburger lesehefte iphigenie
+- hamburger lesehefte nathan
+- hamburger lesehefte plus woyzeck
+- hamburger lesehefte werther
+- hamburger lesehefte zerbrochener krug
+- kurze lesetexte klasse 1
+- lesehefte für kinder
+- lesehefte grundschule kostenlos
+- lesehefte schubi
+- lesen lernen einfache texte
+- lesetexte klasse 2 herbst
+- lies mal hefte klasse 1
+- löwenzahn lesehefte
+- mini lesehefte
+- silbenlesen monster
+- tandem lesehefte
+- texte erstleser download kostenlos
+- anoki lesehefte 2
+- bunte lesehefte
+- erste lesehefte
+- erstlesebuch schule der magischen tiere
+- hamburger lesehefte der prozess
+- hamburger lesehefte nr 29 faust i der tragödie erster teil
+- hamburger lesehefte plus romeo und julia
+- hamburger lesehefte taugenichts
+- hamburger lesehefte verwandlung
+- hamburger lesehefte woyzeck pdf
+- kleine lesehefte grundschule
+- lesehefte für anfänger
+- lesehefte klasse 2 kostenlos
+- lesehefte spatzenpost
+- leseleuchte lesehefte
+- leseleuchte lesehefte zum leseanfang
+- lesetexte klasse 1 2
+- lesetexte klasse 2 differenziert
+- lies mal hefte klasse 2
+- meilensteine lesehefte
+- silbenlesen übungen
+- anoki lesehefte 1
+- bvk lesehefte
+- einfache lesehefte
+- erstlesebuch personalisiert
+- hamburger lesehefte der sandmann
+- hamburger lesehefte goethe
+- hamburger lesehefte prozess
+- hamburger lesehefte romeo und julia auf dem dorfe
+- hamburger lesehefte thalia
+- hamburger lesehefte wallenstein
+- lesehefte karibu
+- leseleuchte lesehefte serie 1 (heinevetter)
+- lesetexte klasse 2 pdf kostenlos
+- lies mal hefte 7 und 8
+- mildenberger lesehefte klasse 2
+- schroedel lesehefte 1 5
+- woyzeck hamburger lesehefte zusammenfassung
+- anoki lesehefte 3
+- eduki lesehefte
+- erstlesebuch pferde
+- filby lesehefte bestellen
+- hamburger lesehefte bahnwärter thiel
+- hamburger lesehefte die verwandlung
+- hamburger lesehefte reihenfolge
+- hamburger lesehefte verlag der zerbrochene krug
+- lesehefte klasse 1 westermann
+- lesehefte kostenlos
+- lesetexte klasse 2 pdf
+- lies mal hefte für welche klasse
+- lola lesehefte
+- montessori lesehefte
+- schroedel lesehefte
+- woyzeck hamburger lesehefte pdf
+- auer lesehefte
+- erstlesebuch silbenschrift
+- faust hamburger lesehefte pdf
+- filby lesehefte
+- hamburger lesehefte die räuber
+- hamburger lesehefte faust 1
+- hamburger lesehefte räuber
+- hamburger lesehefte verlag woyzeck
+- hueber lesehefte b1
+- klett zebra lesehefte
+- lesehefte klasse 1 flex und flora
+- leseleuchte lesehefte serie 1
+- lesetexte klasse 2 eduki
+- lies mal hefte 9 und 10
+- meine welt lesehefte
+- mildenberger lesehefte klasse 3
+- silbenlesen üben
+- anoki lesehefte klasse 2
+- erstlesebuch großbuchstaben
+- hamburger lesehefte besuch der alten dame
+- hamburger lesehefte die leiden des jungen werther
+- hamburger lesehefte effi briest
+- hamburger lesehefte schachnovelle
+- hamburger lesehefte verlag nathan der weise
+- lesehefte klasse 5
+- leseschlau lesehefte serie a
+- lesetexte klasse 2 würfellesen
+- lies mal hefte wie viele gibt es
+- minkt lesehefte

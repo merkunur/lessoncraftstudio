@@ -1,0 +1,14 @@
+{
+ "$comment": "Where the Texas Education Agency's PDF (the law in force) and the machine-readable copy differ, the PDF wins. `wording`: a statement whose wording the State Board has changed since the copy was made. `added`: a statement the copy lost. Each entry is used only if the builder finds its text in the PDF, in the section of its grade; build-en-tx.js then also counts the lettered and numbered lines of every grade in the PDF against the registry.",
+ "wording": {
+  "ELAR.1.6.C": "make and correct or confirm predictions using text features, characteristics of genre, and structures with adult assistance;",
+  "ELAR.2.6.C": "make and correct or confirm predictions using text features, characteristics of genre, and structures;",
+  "ELAR.3.6.C": "make and correct or confirm predictions using text features, characteristics of genre, and structures;",
+  "ELAR.4.6.C": "make and correct or confirm predictions using text features, characteristics of genre, and structures;",
+  "ELAR.5.6.C": "make and correct or confirm predictions using text features, characteristics of genre, and structures;"
+ },
+ "added": [
+  { "id": "ELAR.2.11.C", "text": "revise drafts by adding, deleting, or rearranging words, phrases, or sentences;" },
+  { "id": "ELAR.2.11.D", "text": "edit drafts using standard English conventions, including:" }
+ ]
+}

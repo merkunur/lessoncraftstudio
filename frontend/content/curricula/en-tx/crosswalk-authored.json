@@ -1,0 +1,3835 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "none": "no expectation in the Texas mathematics wording asks for position words",
+   "why": "The kindergarten geometry strand (K.6) is about identifying, sorting and creating shapes and solids; none of its expectations, and no other expectation K-5, names on/under/beside, left/right or inside/outside.",
+   "review": "author-math"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "K.6.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "K.6.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding every shape like the target in a busy scene is a readiness step for identifying two-dimensional shapes (K.6.A) and for recognizing them regardless of orientation or size (K.6.E); the child matches, but does not yet name or sort.",
+   "review": "author-math"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "K.7.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.7.B asks the child to compare objects with a common measurable attribute to see which has more of it; picking the biggest, tallest or longest in a row is that comparison of length and height.",
+   "review": "author-math"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "K.7.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "K.7.B compares two objects by a measurable attribute; putting 3-5 pictures in order of size goes beyond it on the same line. No Texas expectation asks for ordering three or more objects by length.",
+   "review": "author-math"
+  },
+  "K:patterns": {
+   "none": "repeating and growing picture patterns are not in the Texas mathematics wording for K-5",
+   "why": "The only kindergarten pattern expectation (K.5) is the pattern in the number word list (reciting by ones and tens); the later pattern expectations (3.5.E, 4.5.B) are number relationships in tables, not AB/ABC picture patterns.",
+   "review": "author-math"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "K.2.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "K.2.G",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Giving each object a partner is the readiness step under counting a set (K.2.C) and under comparing two sets (K.2.G); the sheets do not yet ask for a number or for comparative language.",
+   "review": "author-math"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "K.2.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.2.G: compare sets of objects up to at least 20 in each set using comparative language; more, fewer and equal is that language.",
+   "review": "author-math"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "K.2.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting a set to 20 in any arrangement is K.2.C; naming, writing and matching the numeral is the read, write and represent of K.2.B.",
+   "review": "author-math"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "K.2.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K.2.D: recognize instantly the quantity of a small group in organized and random arrangements. The dot, dice and frame arrangements are the structured arrangements of 1.2.A, here with small kindergarten quantities.",
+   "review": "author-math"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "K.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.2.C ends with the words that the last number said tells the number of objects regardless of their arrangement or order; that is this skill.",
+   "review": "author-math"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Coloring exactly N or filling a frame represents a whole number with pictures (K.2.B) and generates a set equal to a given number, which is the equal-to part of K.2.E.",
+   "review": "author-math"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "K.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.6.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K.6.A: identify two-dimensional shapes, including circles, triangles, rectangles and squares. Naming them in any orientation or proportion is the regardless-of-orientation-or-size idea that K.6.E then asks the child to sort by.",
+   "review": "author-math"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.2.B: read, write and represent whole numbers from 0 to at least 20; the sheets are the write part.",
+   "review": "author-math"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "K.2.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Following a numeral key is reading numerals, the read part of K.2.B, at a low demand (matching a numeral to a color, not to a quantity).",
+   "review": "author-math"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "K.8.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting a mixed scene into kinds is K.8.A (sort and organize data into two or three categories); counting each kind is K.2.C.",
+   "review": "author-math"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "K.6.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.6.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting sides is identifying an attribute of a two-dimensional shape (K.6.D); sorting the shapes is K.6.E. Sorting by an attribute is what grade 1 asks in 1.6.A, there with regular and irregular shapes.",
+   "review": "author-math"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "K.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.2.A: count forward to at least 20 without objects; the child writes the missing numerals, which is K.2.B.",
+   "review": "author-math"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "K.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots 1-20 in order is counting forward to 20 (K.2.A). Counting on from 11 to 30 starts from a given number, a first step toward K.5 (recite to at least 100 beginning with any given number).",
+   "review": "author-math"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "K.2.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.2.F: generate a number that is one more than or one less than another number up to at least 20.",
+   "review": "author-math"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "K.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting backward from 10 is the backward part of K.2.A; the number before and after is one less and one more (K.2.F).",
+   "review": "author-math"
+  },
+  "K:ordinal-position": {
+   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+   "why": "No expectation in the kindergarten number strands (K.2, K.3) or later names first, second, third or position in a line.",
+   "review": "author-math"
+  },
+  "K:days-of-week": {
+   "none": "days of the week are not in the Texas mathematics wording",
+   "why": "The Texas measurement expectations on time start with telling time on clocks (1.7.E); no expectation K-5 names the days of the week.",
+   "review": "author-math"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.8.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is a way to represent a whole number to 20 and read it back (K.2.B). Texas names tally marks in grade 1 as a way to organize data (1.8.A), which these sheets prepare.",
+   "review": "author-math"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "K.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The check-by-counting half is K.2.C. Estimating a quantity is not named in any kindergarten expectation, so only the counting is mapped.",
+   "review": "author-math"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "K.7.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.7.B: compare two objects with a common measurable attribute to see which has more of or less of it; weight is one of the attributes Texas names in K.7.A.",
+   "review": "author-math"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "K.6.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.6.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K.6.F: create two-dimensional shapes using a variety of materials and drawings. Grade 1 (1.6.C) asks the same with rhombuses and hexagons added.",
+   "review": "author-math"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "K.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting two groups together and counting all models the action of joining (K.3.A). It is the picture step toward K.3.B, which asks for word problems with sums up to 10.",
+   "review": "author-math"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "K.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left models the action of separating (K.3.A); it prepares the differences-within-10 word problems of K.3.B.",
+   "review": "author-math"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "K.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child counts forward with objects (K.2.A), starting from a given number rather than from 1, which is the idea of K.5 in a small range, and which becomes the counting-on fact strategy of 1.3.D.",
+   "review": "author-math"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "K.2.I",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K.2.I: compose and decompose numbers up to 10 with objects and pictures. Making ten with pictures prepares 1.3.C, which asks to compose 10 with and without concrete objects.",
+   "review": "author-math"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "1.6.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 1: 1.6.F asks the child to compose two-dimensional shapes by joining two, three or four figures to produce a target shape. Kindergarten (K.6.F) only asks to create shapes.",
+   "review": "author-math"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "4.6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reflection appears in the Texas wording only as lines of symmetry in grade 4 (4.6.B); recognizing a mirror image is an early readiness step for it.",
+   "review": "author-math"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "2.7.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 2: 2.7.A, determine whether a number up to 40 is even or odd using pairings of objects. The kindergarten sheets use exactly that pairing, with small numbers.",
+   "review": "author-math"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "K.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.2.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two ten-frames represent the numbers 11-19 with pictures (K.2.B). Seeing 13 as one ten and three ones, and writing 13 = 10 + 3, is the start of the tens-and-ones and expanded-form work of 1.2.B and 1.2.C.",
+   "review": "author-math"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no kindergarten fluency expectation; adding and subtracting within 20 is 1.3.D, and the sheets are practice toward the automatic recall of 2.4.A. The within-5 and within-10 sheets sit inside the same range.",
+   "review": "author-math"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.I",
+     "rel": "extends"
+    }
+   ],
+   "why": "Splitting numbers to 20 into two parts is the decomposing named in 1.3.D (add and subtract within 20, including making 10 and decomposing a number leading to a 10); it goes past the up-to-10 limit of K.2.I.",
+   "review": "author-math"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "K.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding two pictured groups models joining (K.3.A). Sums to 12 from ten-frame, domino and dice models are the groundwork for the within-20 fact strategies of 1.3.D.",
+   "review": "author-math"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "K.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out a picture model is the action of separating (K.3.A); within 10 it prepares the subtraction fact strategies of 1.3.D.",
+   "review": "author-math"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "1.5.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.3.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "1.5.D: represent addition and subtraction problems up to 20 using pictorial models and number sentences; the child writes the whole number sentence for a pictured story. That goes beyond modeling the action (K.3.A).",
+   "review": "author-math"
+  },
+  "1:patterns-missing": {
+   "none": "repeating picture patterns are not in the Texas mathematics wording for K-5",
+   "why": "The grade 1 algebraic reasoning strand (1.5) is about number patterns: counting, skip counting, 10 more and 10 less. No expectation asks the child to complete a repeating picture pattern.",
+   "review": "author-math"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "K.8.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.8.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "K.8.A: sort and organize data into two or three categories. Grade 1 (1.8.A) asks the same with a representation such as tally marks or a T-chart, which the skill line does not state.",
+   "review": "author-math"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "1.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.I",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1.3.C: compose 10 with two or more addends. It is also composing numbers up to 10 (K.2.I) and is the making-10 step that 1.3.D uses as a strategy within 20.",
+   "review": "author-math"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "1.6.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming shapes and solving attribute riddles is 1.6.D (identify two-dimensional shapes and describe their attributes); telling real from not-real by defining attributes is 1.6.B.",
+   "review": "author-math"
+  },
+  "1:ordinal-numbers": {
+   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+   "why": "No expectation in the grade 1 number strands (1.2, 1.3) or any other grade names ordinal words or places in a race.",
+   "review": "author-math"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "2.2.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.2.E",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.2.F",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places number-line reading in grade 2: 2.2.F, name the whole number that corresponds to a specific point on a number line. Locating a number on a printed line to 50 prepares the open number line of 2.2.E and 1.2.F.",
+   "review": "author-math"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on and back is a basic fact strategy within 20 (1.3.D); counting back from 20 is K.2.A. Hops on a number line prepare 2.9.C, whole numbers as distances from a given location on a number line.",
+   "review": "author-math"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "1.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.5.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1.3.B: use objects and pictorial models to solve word problems within 20; the within-10 problems are K.3.B. Writing the number sentence (1.5.D) is not stated in the skill line, so that row is prepares.",
+   "review": "author-math"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "1.8.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.8.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.8.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting a mixed set into a table is 1.8.A; finding the most and how many more from a picture graph is drawing conclusions and answering questions (1.8.C, and K.8.C for the simplest readings).",
+   "review": "author-math"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Doubles to 20 are basic fact strategies within 20 (1.3.D). Halving a group separates a set into two equivalent sets, a readiness step for the division situations of 2.6.B.",
+   "review": "author-math"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "2.7.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 2: 2.7.A, determine whether a number up to 40 is even or odd using pairings of objects; circling in pairs and checking for a leftover is that method.",
+   "review": "author-math"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.3.D: apply basic fact strategies to add and subtract within 20; double plus one is such a strategy.",
+   "review": "author-math"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "1.5.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.5.G: apply properties of operations to add and subtract two or three numbers.",
+   "review": "author-math"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "1.5.G",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The two addition facts of a family use the order property (1.5.G); the related subtraction facts are a basic fact strategy within 20 (1.3.D). Texas has no separate expectation that names fact families.",
+   "review": "author-math"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "1.5.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.5.F: determine the unknown whole number in an addition or subtraction equation when the unknown may be any one of the terms.",
+   "review": "author-math"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "1.5.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.5.E: understand that the equal sign represents a relationship where the expressions on each side represent the same value; 8 = 5 + 3 and 9 - 2 = 3 + 4 are the test cases.",
+   "review": "author-math"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "1.5.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "2.7.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the missing part or whole is finding an unknown in any position (1.5.F). The bar is the pictorial model that 1.3.B and 2.7.C use for joining, separating and comparing word problems, here without the story.",
+   "review": "author-math"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "1.6.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.6.F: compose two-dimensional shapes by joining two, three or four figures to produce a target shape.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons": {
+   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+   "why": "The grade 1 time expectation is 1.7.E, telling time to the hour and half hour on clocks; no expectation K-5 names days, months or seasons.",
+   "review": "author-math"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+   "why": "Same as the parent point: 1.7.E is about clocks only, and no expectation K-5 names months or seasons.",
+   "review": "author-math"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "1.7.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.7.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.7.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "Measuring with unit cubes is 1.7.B (length as the number of same-size units laid end to end) and 1.7.D (a length to the nearest whole unit as a number and a unit). Ordering three objects by length goes beyond the two-object comparison of K.7.B; Texas has no ordering expectation.",
+   "review": "author-math"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "1.7.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.7.E: tell time to the hour and half hour using analog and digital clocks.",
+   "review": "author-math"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The make-a-ten strategy within 20 is named in 1.3.D. Texas places mental fluency itself in grade 2: 2.4.A, recall basic facts to add and subtract within 20 with automaticity.",
+   "review": "author-math"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "1.5.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A missing brick is an unknown in an addition or subtraction relation (1.5.F), found with facts within 20 (1.3.D). The skill line gives no range; judged by grade 1 as within 20.",
+   "review": "author-math"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "1.5.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a worked equation is right is judging whether both sides of the equal sign have the same value (1.5.E), and the child recomputes the fact (1.3.D). Range judged by grade 1 as within 20.",
+   "review": "author-math"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "1.8.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.8.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Coloring a bar graph from counts is 1.8.B (use data to create picture and bar-type graphs); reading it and finding the tallest bar is 1.8.C.",
+   "review": "author-math"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "1.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rods and cubes are the concrete and pictorial models of 1.2.B (so many tens and so many ones); expanded form is named in 1.2.C. Texas goes to 120, the sheets to two-digit numbers.",
+   "review": "author-math"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "2.2.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas first asks for word form in grade 2: 2.2.B, use standard, word and expanded forms to represent numbers up to 1,200. Number words to 50 and tens words to 100 are a readiness step.",
+   "review": "author-math"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "1.2.G",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1.2.G: represent the comparison of two numbers to 100 using >, < or =; the comparing itself uses place value (1.2.E); ordering three numbers is the order part of 1.2.F.",
+   "review": "author-math"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "1.5.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.5.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.5.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The +10 down move is 1.5.C (10 more and 10 less), within 100 of the 120 Texas names. Filling missing numbers is the written side of counting from any number (1.5.A, which asks to recite to 120); coloring a counting pattern prepares skip counting (1.5.B).",
+   "review": "author-math"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "1.5.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.2.F",
+     "rel": "extends"
+    }
+   ],
+   "why": "1.5.C: determine the number that is 10 more and 10 less than a given number. One more and one less generates a number greater or less than a given number (1.2.D) and carries K.2.F past 20.",
+   "review": "author-math"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "1.2.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.5.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Showing one number with pictures and forms is 1.2.C, as tens and ones 1.2.B, and its 10 more and 10 less 1.5.C.",
+   "review": "author-math"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "1.5.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "1.5.B: skip count by twos, fives and tens to determine the total number of objects in a set. The equal groups with a running total prepare the joined equivalent sets of 2.6.A.",
+   "review": "author-math"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "1.7.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.G",
+     "rel": "prepares"
+    }
+   ],
+   "why": "O'clock and half past are 1.7.E. Texas has no quarter-hour or five-minute step; grade 2 goes straight to the nearest minute (2.9.G), which the quarter-hour and five-minute sheets prepare.",
+   "review": "author-math"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "1.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.5.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.4.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One-kind and two-kind purses of pennies, nickels and dimes are 1.4.C, and need the coin values of 1.4.A. Purses with all coins (quarters too) are 2.5.A, the value of a collection of coins up to one dollar; the skill line does not give the top amount.",
+   "review": "author-math"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places two-digit addition and subtraction by place-value strategies in grade 2 (2.4.B); jumps of tens then ones are such a strategy. Drawing the jumps shows whole numbers as distances from a given location on a number line (2.9.C).",
+   "review": "author-math"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.A",
+     "rel": "extends"
+    },
+    {
+     "id": "1.5.C",
+     "rel": "extends"
+    }
+   ],
+   "why": "34 + 20 and 56 - 4 in the head are the mental strategies based on place value of 2.4.B. Grade 1 Texas only asks for a multiple of 10 plus a one-digit number (1.3.A) and 10 more or less (1.5.C), so the sheets go beyond both.",
+   "review": "author-math"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.3.C",
+     "rel": "extends"
+    }
+   ],
+   "why": "Finding the partner to 100 is adding and subtracting two-digit numbers with mental strategies (2.4.B); it carries composing 10 (1.3.C) up to 100.",
+   "review": "author-math"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "1.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 1: composing a number as so many tens and so many ones with models (1.2.B) and reading it in standard form (1.2.C).",
+   "review": "author-math"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "1.5.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.7.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Down = 10 more is 1.5.C. Counting the tens and ones jumps between two numbers is a place-value mental strategy for two-digit numbers (2.4.B). 2.7.B asks 10 more or less up to 1,200; the chart stays within 100.",
+   "review": "author-math"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "2.7.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.I",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Pairing objects is 2.7.A (numbers up to 40). Deciding by the ones digit for numbers under 100 is the divisibility rule that Texas names in grade 3 (3.4.I).",
+   "review": "author-math"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "2.2.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.2.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Locating a number (2.2.E) and naming the number at a point (2.2.F) on a number line. The line here has ticks with only some labels rather than being fully open. Starting at 40 or 60 prepares distances from any given location (2.9.C).",
+   "review": "author-math"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "2.8.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.8.C: classify and sort polygons with 12 or fewer sides according to attributes, including identifying the number of sides.",
+   "review": "author-math"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.4.B: add and subtract two-digit numbers using mental strategies and algorithms based on place value; the walls and maze are practice formats for it.",
+   "review": "author-math"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2.4.C: solve one-step and multi-step word problems involving addition and subtraction; Texas goes to 1,000, the sheets to 100. They prepare the fluent one- and two-step problems within 1,000 of 3.4.A.",
+   "review": "author-math"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "2.9.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.9.D: determine the length of an object to the nearest marked unit using rulers.",
+   "review": "author-math"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "2.9.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each object is measured with a ruler (2.9.D); finding how much longer is a problem involving length (2.9.E).",
+   "review": "author-math"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "2.2.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.2.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Blocks and a place-value chart are the models of 2.2.A (hundreds, tens and ones); writing the number is the standard form of 2.2.B. Texas goes to 1,200 and asks for more than one way; the sheets stop at three digits.",
+   "review": "author-math"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "2.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.2.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.2.B names expanded form; the value of a digit is the decomposition into hundreds, tens and ones of 2.2.A.",
+   "review": "author-math"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.7.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.5.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "No single grade 2 expectation asks for counting within 1,000, but the strand statement 2.2 (relative position of whole numbers and relationships within the numeration system related to place value) does. The chart's columns prepare 10 more and less (2.7.B) and carry counting past 120 (1.5.A).",
+   "review": "author-math"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "1.5.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.7.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Skip counting by fives and tens is 1.5.B in Texas (grade 1). Counting by 10s and 100s is repeated 10 more and 100 more, which prepares 2.7.B.",
+   "review": "author-math"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "2.2.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.2.D: use place value to compare and order whole numbers up to 1,200 using comparative language, numbers and symbols (>, <, or =).",
+   "review": "author-math"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "2.7.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.7.B: determine the number that is 10 or 100 more or less than a given number up to 1,200.",
+   "review": "author-math"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "2.9.G",
+     "rel": "prepares"
+    },
+    {
+     "id": "1.7.E",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas grade 2 asks for time to the nearest one-minute increment and a.m./p.m. (2.9.G); five minutes and quarter hours are a step toward it and go beyond hour and half hour (1.7.E).",
+   "review": "author-math"
+  },
+  "2:calendar": {
+   "none": "reading a calendar is not in the Texas mathematics wording",
+   "why": "The grade 2 time expectation (2.9.G) is about clocks; no expectation K-5 names dates, weeks or days between dates.",
+   "review": "author-math"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "K.6.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in kindergarten: K.6.E, classify and sort a variety of two- and three-dimensional figures.",
+   "review": "author-math"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "K.6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.6.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.6.B: identify three-dimensional solids, including cylinders, cones, spheres and cubes, in the real world; rectangular prisms are added in 1.6.E. Pyramids are not in the Texas list for these grades.",
+   "review": "author-math"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "2.8.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.6.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Faces, edges and vertices are the attributes in formal geometric language by which 2.8.B classifies solids and 1.6.E describes them. Pyramids are outside the solids Texas lists.",
+   "review": "author-math"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "In grade 2 Texas names addition within 1,000 only in 2.4.C (problems solved with strategies based on place value); the blocks are that strategy, without the word-problem setting. It goes beyond the two-digit numbers of 2.4.B.",
+   "review": "author-math"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "Subtraction within 1,000 with a place-value strategy is the computing part of 2.4.C, here without the word-problem setting; it goes beyond the two-digit subtraction of 2.4.B.",
+   "review": "author-math"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2.4.B names algorithms based on place value for two-digit numbers, and 2.4.C names algorithms within 1,000. The column method becomes the standard algorithm of 4.4.A.",
+   "review": "author-math"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.8.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding prices, finding how much more and making change are one-step and multi-step addition and subtraction problems (2.4.C); Texas names money problems as such in 4.8.C. The skill line does not say coins are counted or how prices are written, so 2.5.A and 2.5.B are not claimed.",
+   "review": "author-math"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "2.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.10.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.10.B: organize a collection of data using bar graphs; 2.10.C: solve one-step addition or subtraction problems using the data in a bar graph (put-together and compare questions).",
+   "review": "author-math"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "3.8.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "4.9.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas calls this a dot plot and first names it in grade 3 (3.8.B), then with numerical data in grade 4 (4.9.B). Reading X marks above numbers is a readiness step for both; grade 2 Texas has only pictographs and bar graphs.",
+   "review": "author-math"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "3.2.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places rounding in grade 3: 3.2.C, represent a number on a number line as being between two consecutive multiples of 10 in order to round. It prepares rounding to estimate (3.4.B).",
+   "review": "author-math"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "3.7.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 3: 3.7.E, determine liquid volume (capacity) or weight using appropriate units and tools. Grade 2 Texas measurement is length, area and time only.",
+   "review": "author-math"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "3.7.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 3: 3.7.E, determine liquid volume (capacity) using appropriate units and tools.",
+   "review": "author-math"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "3.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.8.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No single expectation asks only for choosing a unit, but the strand statement 3.7 does (select appropriate units to solve problems involving customary and metric measurement). Choosing cm or m rests on the relative sizes of units, which 4.8.A asks the child to identify.",
+   "review": "author-math"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "2.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joined equal sets are 2.6.A. Writing the repeated addition and then the multiplication sentence is 3.4.E (represent multiplication facts by repeated addition and equal-sized groups), and finding the total is 3.4.D.",
+   "review": "author-math"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "3.4.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.6.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas names arrays in grade 3: 3.4.E (represent multiplication facts with arrays) and 3.4.D (total of objects arranged in arrays up to 10 by 10). Matching to a multiplication goes beyond the described situations of 2.6.A.",
+   "review": "author-math"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "1.5.B",
+     "rel": "extends"
+    },
+    {
+     "id": "3.4.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas skip counting is by twos, fives and tens (1.5.B); threes and fours go beyond it and prepare skip counting as a way to represent multiplication facts (3.4.E).",
+   "review": "author-math"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "2.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.8.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "3.8.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "2.10.B allows pictographs with intervals of one or more, so making one where a picture stands for 2 is taught there. Reading and solving with scaled intervals is grade 3 (3.8.A, 3.8.B); a scale of 2 prepares it.",
+   "review": "author-math"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "2.6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.H",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.6.B: division situations in which a set of objects is separated into equivalent sets. Sharing into bins and saying how many in each is 3.4.H.",
+   "review": "author-math"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "2.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.3.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Halves and fourths are 2.3.A (partition and name the parts) and equal versus unequal parts is 2.3.D. Texas grade 2 names halves, fourths and eighths, not thirds; thirds and matching a picture to a written fraction belong to 3.3.A.",
+   "review": "author-math"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "3.3.E",
+     "rel": "prepares"
+    },
+    {
+     "id": "2.3.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas names a fraction of a set of objects in grade 3 (3.3.E, partitioning a set among recipients). Grade 2 (2.3.A) only partitions single objects into equal parts, so the sheets go beyond it.",
+   "review": "author-math"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "4.6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places symmetry in grade 4: 4.6.B, identify and draw lines of symmetry. Judging one given dashed line is a lower-demand step toward it.",
+   "review": "author-math"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "4.6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Completing a picture across a given mirror line builds the idea of a line of symmetry that 4.6.B asks the child to identify and draw in grade 4.",
+   "review": "author-math"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "5.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding a square by a letter-number code is an early readiness step for identifying locations on a coordinate plane (strand 5.8); no single expectation fits because the code names squares, not points with ordered pairs.",
+   "review": "author-math"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "1.6.F",
+     "rel": "extends"
+    }
+   ],
+   "why": "The line of learning is composing a target shape from figures (1.6.F). Checking a finished composition against its shadow and rejecting turned or flipped ones goes beyond it; no later expectation names orientation.",
+   "review": "author-math"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "3.2.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.2.D: compare and order whole numbers up to 100,000 and represent comparisons using >, < or =; four-digit numbers are inside that range.",
+   "review": "author-math"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "3.2.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3.2.C: represent a number on a number line as being between two consecutive multiples of 10 or 100 in order to round. It prepares rounding to estimate sums and differences (3.4.B).",
+   "review": "author-math"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "3.4.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.4.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Addition and subtraction within 1,000 with place-value strategies is 3.4.A, and the algorithm is already named in 2.4.C. The standard algorithm itself is named in 4.4.A.",
+   "review": "author-math"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "3.4.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.B: round to the nearest 10 or 100 to estimate solutions to addition and subtraction problems.",
+   "review": "author-math"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "3.4.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each missing cell needs an addition and then a subtraction, practice for 3.4.A (addition and subtraction within 1,000 using the relationship between the two). The skill line gives no number range; judged by grade 3.",
+   "review": "author-math"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "3.4.I",
+     "rel": "extends"
+    }
+   ],
+   "why": "3.4.I asks the child to determine if a number is even or odd; predicting the parity of a sum without adding goes beyond it on the same line.",
+   "review": "author-math"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.5.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "2.7.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "No single grade 3 expectation asks for continuing a number pattern, but the strand statement 3.5 (analyze and create patterns and relationships) does. It prepares number patterns that follow a given rule (4.5.B) and goes beyond 10 or 100 more or less (2.7.B).",
+   "review": "author-math"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "2.9.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 2: 2.9.G, read and write time to the nearest one-minute increment using analog and digital clocks. The a.m./p.m. part of 2.9.G is not in the skill line.",
+   "review": "author-math"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "3.4.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.D: determine the total number of objects when equally-sized groups are combined or arranged in arrays; 3.4.E: represent multiplication facts with equal-sized groups and arrays.",
+   "review": "author-math"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "3.4.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.E names equal jumps on a number line and skip counting as ways to represent multiplication facts.",
+   "review": "author-math"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "3.4.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.K",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Turning the array is representing a multiplication fact with arrays (3.4.E). Texas has no separate grade 3 expectation for the order property; it prepares the strategies based on properties of operations in 3.4.K.",
+   "review": "author-math"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "3.4.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.F: recall facts to multiply up to 10 by 10 with automaticity. The recall of the matching division facts in 3.4.F is not in the skill line.",
+   "review": "author-math"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "3.8.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.8.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.8.A: summarize a data set using a pictograph or bar graph with scaled intervals; reading them to answer questions is 3.8.B.",
+   "review": "author-math"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "2.2.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.8.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Temperature is not named in the mathematics wording K-5. What the child does is name the number at a point on a scale, a number line (2.2.F), whose ticks count by 2, 5 or 10, which prepares reading scaled intervals on graphs (3.8.B).",
+   "review": "author-math"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "3.4.H",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.H: determine the number of objects in each group when a set of objects is shared equally.",
+   "review": "author-math"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "3.4.K",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.6.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "Equal hops back to 0 are a pictorial strategy for a division within 100 (3.4.K). They go beyond separating concrete objects into equivalent sets (2.6.B); 3.4.H does not fit because it asks for the number in each group, not the number of groups.",
+   "review": "author-math"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "3.5.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.J",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.5.D: determine the unknown whole number in a multiplication or division equation when it is a missing factor or product; 3.4.J: determine a quotient using the relationship between multiplication and division.",
+   "review": "author-math"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "3.4.K",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.5.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.4.K: solve one-step and two-step problems involving multiplication and division within 100 using pictorial models, including equal groups; modeling the groups is the represent part of 3.5.B.",
+   "review": "author-math"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "3.5.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.5.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3.5.E: represent relationships using number pairs in a table and verbal descriptions; the machine's in and out numbers are such pairs and the rule is the description, though the setting is a machine rather than a real-world situation. It prepares the input-output tables of 4.5.B.",
+   "review": "author-math"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "1.5.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.5.F",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states both ideas in grade 1: the equal sign as the same value on each side (1.5.E) and an unknown as any one of three or four terms (1.5.F). The skill line does not give the operations or the number range used in grade 3.",
+   "review": "author-math"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "3.7.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.8.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3.7.C: determine the solutions to problems involving addition and subtraction of time intervals in minutes using pictorial models or tools. Adding hours and problems with intervals of time in general are named in 4.8.C.",
+   "review": "author-math"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "3.7.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.8.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the time between two clock times is a problem with time intervals in minutes (3.7.C); it prepares the intervals-of-time problems of 4.8.C.",
+   "review": "author-math"
+  },
+  "3:time-12-24": {
+   "none": "24-hour time is not in the Texas mathematics wording",
+   "why": "The Texas time expectations stop at a.m. and p.m. (2.9.G) and time intervals (3.7.C); no expectation K-5 names 24-hour time.",
+   "review": "author-math"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "3.6.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.F",
+     "rel": "extends"
+    }
+   ],
+   "why": "3.6.C: determine the area of rectangles using multiplication related to the number of rows times the number of unit squares in each row. It goes beyond covering and counting square units (2.9.F), where Texas starts area in grade 2.",
+   "review": "author-math"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "3.6.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.5.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child determines the area of each rectangle (3.6.C) to see that different shapes can have the same area; it prepares the perimeter and area problems of 4.5.D.",
+   "review": "author-math"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "3.7.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.7.B: determine the perimeter of a polygon. The missing-side part of 3.7.B is not in the skill line.",
+   "review": "author-math"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "3.7.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.6.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "4.5.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child finds the perimeter (3.7.B) and the area (3.6.C) of each shape and compares them; relating the two is the kind of problem 4.5.D asks in grade 4.",
+   "review": "author-math"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "4.4.H",
+     "rel": "prepares"
+    },
+    {
+     "id": "3.4.H",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas first names remainders in grade 4 (4.4.H, including interpreting remainders). The sheets go beyond the equal shares of 3.4.H and are a readiness step for 4.4.H.",
+   "review": "author-math"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "4.6.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "4.6.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places angles in grade 4: identify angles (4.6.A) and apply knowledge of right angles to identify acute, right and obtuse triangles (4.6.C). Recognizing square corners and smaller or bigger angles is the readiness step.",
+   "review": "author-math"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "3.6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "5.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3.6.B: use attributes to recognize rhombuses, parallelograms, trapezoids, rectangles and squares as examples of quadrilaterals. Squares as rectangles and rhombuses is the start of the hierarchy of sets and subsets in 5.5.",
+   "review": "author-math"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "4.6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places this in grade 4: 4.6.B, identify and draw one or more lines of symmetry, if they exist, for a two-dimensional figure.",
+   "review": "author-math"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "3.6.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.6.E: decompose figures into parts with equal areas and express the area of each part as a unit fraction of the whole; naming the part 1/b is 3.3.C.",
+   "review": "author-math"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "3.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.3.D: compose and decompose a fraction a/b as a sum of parts 1/b; shading it is representing the fraction with a pictorial model (3.3.A). Texas limits denominators to 2, 3, 4, 6 and 8.",
+   "review": "author-math"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "3.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rebuilding the whole from one piece uses the meaning of 1/b as one of b equal parts of a whole (3.3.C) and the grade 2 idea of how many parts it takes to equal one whole (2.3.C).",
+   "review": "author-math"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "3.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.7.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "3.3.A names number lines as a model for fractions between 0 and 1; placing by counting equal spaces from 0 is 3.7.A for halves, fourths and eighths. Reading the fraction at a given point (3.3.B) is the reverse task.",
+   "review": "author-math"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "3.3.H",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.3.H: compare two fractions having the same numerator or denominator by reasoning about their sizes.",
+   "review": "author-math"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "3.3.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.3.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.3.F: represent equivalent fractions using pictorial models; seeing them as the same portion of a same-size whole is the idea of 3.3.G.",
+   "review": "author-math"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "3.3.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.H",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3.3.E: solve problems involving partitioning a set of objects using pictorial representations of fractions. Finding 1/3 of 12 gives the number in each equal share (3.4.H).",
+   "review": "author-math"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "4.9.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.7.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.9.D",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas places this in grade 4: 4.9.A, represent data on a dot plot marked with whole numbers and fractions. Measuring to the half unit shows halves as distances from zero (3.7.A) and goes beyond the nearest marked unit (2.9.D).",
+   "review": "author-math"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "5.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "5.6.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places volume in grade 5: 5.6.A, the volume of a three-dimensional figure as the number of unit cubes needed to fill it. Counting hidden cubes layer by layer prepares layers times the base (5.6.B).",
+   "review": "author-math"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lines, slants, loops and paths are the strokes and the directionality a child needs before 'accurately forming all uppercase and lowercase letters using appropriate directionality'; no letters are formed yet, so it is a readiness step.",
+   "review": "author-elar-science"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A self-portrait page with favorite things is a draft 'in oral, pictorial, or written form' with ideas organized under prompts; it tells about the child but is not yet a personal narrative, so the composing expectation is only prepared.",
+   "review": "author-elar-science"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Picking rhyming pairs and judging rhyme or not is the 'identifying' half of 'identifying and producing rhyming words'.",
+   "review": "author-elar-science"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas kindergarten vocabulary asks the child to 'identify and use words that name ... categories'; sorting pictures into named groups is that category work.",
+   "review": "author-elar-science"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.v",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding every copy of a letter among look-alikes is 'identifying all uppercase and lowercase letters'.",
+   "review": "author-elar-science"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tracing capital and lowercase A to Z is the kindergarten handwriting expectation: 'accurately forming all uppercase and lowercase letters using appropriate directionality'.",
+   "review": "author-elar-science"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.A.vi",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting the syllables of a picture word is 'identifying syllables in spoken words', and to count them the child must segment the word into its syllables.",
+   "review": "author-elar-science"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.v",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each capital to its small letter is identifying 'all uppercase and lowercase letters'.",
+   "review": "author-elar-science"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.A.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Letter-of-the-week and m-or-n pages match a letter to the sound it represents; sorting pictures by first sound is recognizing 'groups of words that begin with the same spoken onset or initial sound'.",
+   "review": "author-elar-science"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "To find the one that does not belong the child must identify the category the others share, which is the category part of the kindergarten vocabulary expectation.",
+   "review": "author-elar-science"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas first names antonyms in grade 2 ('identify, use, and explain the meaning of antonyms ... in context'); picture matching is the readiness step, and in kindergarten it is a use of illustrations 'to learn or clarify word meanings'.",
+   "review": "author-elar-science"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.v",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling missing letters and joining dots a to t needs every letter identified; knowing the letter sequence is the step before grade 1 'alphabetize a series of words to the first or second letter'.",
+   "review": "author-elar-science"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.6.D",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.K.7.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "First, next and last are 'words that name ... sequences'; putting story pictures in order is the pictorial step before retelling a text 'in ways that maintain meaning' and describing a plot's main events.",
+   "review": "author-elar-science"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.x",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.K.2.A.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas kindergarten has no separate expectation for locating one sound; hearing the first, middle or last sound is the step before 'segmenting spoken one-syllable words into individual phonemes', and the beginning-sound pages are initial-sound recognition. The skill line does not say whether letters are written, so no phonics row is given.",
+   "review": "author-elar-science"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No Texas expectation asks a child to tell vowels from consonants, but the kindergarten decoding and spelling expectations are worded by vowel and consonant pattern (VC, CVC, CCVC), so the distinction is the idea before them.",
+   "review": "author-elar-science"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.3.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A picture word card is an illustration used 'to learn or clarify word meanings', and a word wall of such cards works like the picture dictionary the child will 'use ... to find words'. The second language itself belongs to Texas's English Language Proficiency Standards, which this registry does not hold.",
+   "review": "author-elar-science"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.x",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.A.vii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One sound per box is 'segmenting spoken one-syllable words into individual phonemes'; grade 1 asks the same for words of three to five phonemes with blends, which these kindergarten pages lead up to.",
+   "review": "author-elar-science"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Building or completing a CVC word from letters is 'spelling words with VC, CVC, and CCVC', and choosing the letter for each sound is 'identifying and matching the common sounds that letters represent'.",
+   "review": "author-elar-science"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child must read the word to match it, which is 'using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words'. The skill line does not say which words; judged as decodable kindergarten words.",
+   "review": "author-elar-science"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states grammar only inside the editing expectation; 'singular and plural nouns' is the kindergarten convention named there, and one-and-many pages practice exactly that convention.",
+   "review": "author-elar-science"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing sh or ch at the start of a word is recognizing words 'that begin with the same spoken onset or initial sound'; Texas places decoding words with digraphs in grade 1, which this prepares.",
+   "review": "author-elar-science"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading sight words alone and in sentences and finding one among look-alikes is 'identifying and reading at least 25 high-frequency words'.",
+   "review": "author-elar-science"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.F",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing and copying words forms letters with directionality and shows that 'sentences are comprised of words separated by spaces'; printing words and sentences legibly with spaces on one's own is the grade 1 handwriting expectation this leads to.",
+   "review": "author-elar-science"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas kindergarten names 'adjectives, including articles' among its conventions; choosing a or an for a noun is that convention.",
+   "review": "author-elar-science"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.A.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing and sorting rhymes is the kindergarten 'identifying and producing rhyming words'; the finish-and-produce pages reach the grade 1 wording 'producing a series of rhyming words' where the child gives more than one rhyme.",
+   "review": "author-elar-science"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.A.vii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.A.v",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sound boxes are 'segmenting spoken one-syllable words of three to five phonemes into individual phonemes', and the blending pages are 'blending spoken phonemes to form one-syllable words'.",
+   "review": "author-elar-science"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and matching sh/ch/th words is 'decoding words with ... digraphs'; writing the letter team is 'spelling words with ... digraphs'.",
+   "review": "author-elar-science"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.C.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Spelling a picture word sound by sound is 'spelling words using sound-spelling patterns'; the words are the closed-syllable and other syllable-type words the first spelling component lists.",
+   "review": "author-elar-science"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.A.v",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places clapping, segmenting and blending syllables in kindergarten phonological awareness and has no grade 1 expectation for it; splitting written words into syllable cards is the step before grade 2 'decoding words using knowledge of syllable division patterns'.",
+   "review": "author-elar-science"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.2.B.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No expectation states that every syllable has a vowel, but it is the idea under the grade 1 syllable types (closed, open, VCe, vowel teams) and under grade 2 syllable division patterns.",
+   "review": "author-elar-science"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading words with blends and words built from closed, open and r-controlled syllables is the grade 1 decoding wording; joining syllables to read words like carpet leads to grade 2 'decoding multisyllabic words'.",
+   "review": "author-elar-science"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording matches the skill: 'alphabetize a series of words to the first or second letter'. Texas places this in grade 1.",
+   "review": "author-elar-science"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing, pairing and choosing opposites, including in a sentence, is the antonym part of 'identify, use, and explain the meaning of antonyms ... in context', which Texas first states in grade 2.",
+   "review": "author-elar-science"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grade 1 conventions name 'adjectives, including articles'; sorting nouns by a or an is that convention.",
+   "review": "author-elar-science"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "ELAR.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "No single expectation covers read-and-do, but the strand statement 'reads grade-level text with fluency and comprehension' does: the child must read accurately and prove understanding by acting. The first/second/between pages use 'words that name ... positions, sequences'.",
+   "review": "author-elar-science"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the word that fits a sentence or picture is using 'illustrations and texts the student is able to read ... to learn or clarify word meanings' and reading with comprehension; Texas names sentence context as a strategy in grade 2.",
+   "review": "author-elar-science"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two words for one picture uses the illustration to clarify word meaning; Texas first names synonyms in grade 2, so the picture work is a readiness step.",
+   "review": "author-elar-science"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.ix",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child builds a 'complete sentence', starts it with a capital ('capitalization for the beginning of sentences') and closes it with the end mark ('punctuation marks at the end of ... sentences').",
+   "review": "author-elar-science"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.6.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.1.1.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no expectation on question words; who, what and where are the tools for 'generate questions about text' and for asking and answering questions in discussion, both of which a paper page can only prepare.",
+   "review": "author-elar-science"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "ELAR.1.7.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.8.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.1.6.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering a story's sentences to its pictures retells it 'in ways that maintain meaning'; drawing the middle works on the main events of the plot, and what-happens-next is the first step of making predictions.",
+   "review": "author-elar-science"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas names the parts of speech only as conventions inside editing: nouns and adjectives in grade 1, plain 'verbs' in kindergarten (the grade 1 verb line is about tense). Telling a verb from a noun is also identifying 'words that name actions'.",
+   "review": "author-elar-science"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Replacing a name with he, she or they is the convention 'pronouns, including subjective, objective, and possessive cases'.",
+   "review": "author-elar-science"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no shades-of-meaning expectation in kindergarten to grade 3; ordering near-synonyms by strength builds toward grade 2 'identify, use, and explain the meaning of ... synonyms'.",
+   "review": "author-elar-science"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.1.2.B.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing the picture word inside a longer word is the idea before 'identify the meaning of words with the affixes -s, -ed, and -ing' and before decoding words with inflectional endings. The skill line does not say which endings are used, so nothing stronger is claimed.",
+   "review": "author-elar-science"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "ELAR.1.12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.12.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A short story or comic is 'compose literary texts', a postcard is 'correspondence such as thank you notes or letters', and the story map is planning 'by generating ideas for writing such as by drawing and brainstorming'.",
+   "review": "author-elar-science"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas places 'decoding words with ... digraphs' in grade 1 and has no digraph line in grade 2; spotting sh inside the words of a sentence is practice for that grade 1 expectation, one grade below where the pages sit.",
+   "review": "author-elar-science"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.4.11.D.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing . or ? is 'end punctuation'; splitting run-together sentences makes 'complete sentences'; the capital at the start is a grade 1 convention in Texas. Avoiding run-ons is named only in grade 4, which this prepares.",
+   "review": "author-elar-science"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas starts cursive in grade 2: 'accurately forming all cursive letters using appropriate strokes when connecting letters'. Writing whole words leads to grade 3 'write complete words, thoughts, and answers legibly in cursive'.",
+   "review": "author-elar-science"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the missing word from the story is 'use context within and beyond a sentence' to settle a word; the reasoning is the same as for an unfamiliar word.",
+   "review": "author-elar-science"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "ELAR.2.6.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.1.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no expectation on question words; knowing which word asks for a person, a place, a reason or a way prepares 'generate questions about text' and asking relevant questions.",
+   "review": "author-elar-science"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "ELAR.2.7.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Answering with details from the story is 'use text evidence to support an appropriate response' and reading 'with fluency and comprehension'; who, what, where and when are the facts a child needs before describing plot elements.",
+   "review": "author-elar-science"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing full sentences from starters practices 'complete sentences with subject-verb agreement'; a few sentences describing a picture are a scaffolded step toward composing informational text.",
+   "review": "author-elar-science"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.ii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Nouns and adjectives are grade 2 conventions; the plain convention 'verbs' is worded only in kindergarten, and finding the verb is the step before the grade 2 line on verb tense.",
+   "review": "author-elar-science"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.4.2.A.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the plural is the convention 'singular, plural ... nouns' and 'spelling words with ... inflectional endings, including -s, -es'. Texas names irregular plurals only in grade 4, so those pages prepare that line.",
+   "review": "author-elar-science"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.xi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Position rules are the 'grade-appropriate orthographic patterns and rules' of the editing line; ai/ay are vowel teams, -s/-es are the named endings, ck/tch/dge are the digraphs and trigraphs Texas puts in grade 1 spelling, and -ies ('changing y to i') is worded in grade 3.",
+   "review": "author-elar-science"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching words that mean the same is the synonym part of 'identify, use, and explain the meaning of antonyms, synonyms ...'; choosing a better word for said is a first step toward revising 'to improve ... word choice'.",
+   "review": "author-elar-science"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill as 2:synonyms: the synonym part of the grade 2 vocabulary expectation, and word choice for said as a step toward grade 3 revising.",
+   "review": "author-elar-science"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.4.11.D.ii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Present and past forms are 'past, present, and future verb tense'; choosing is/are or has/have for a sentence is 'subject-verb agreement'. Texas names 'past tense of irregular verbs' only in grade 4.",
+   "review": "author-elar-science"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Linking pronouns to names and using possessive pronouns is 'pronouns, including subjective, objective, and possessive cases'.",
+   "review": "author-elar-science"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no expectation for reading cursive; knowing the joined letter shapes is a readiness step for forming 'all cursive letters'.",
+   "review": "author-elar-science"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.B.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Splitting and reading compounds is 'decoding compound words', building them is 'spelling compound words', and using the two base words is the grade 1 wording 'using knowledge of base words to decode common compound words'. Texas has no separate line on the meaning of a compound.",
+   "review": "author-elar-science"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.vi",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas does not ask grade 2 children to name a root word; finding the shared base is the analysis under 'decoding words with prefixes ... and inflectional endings' and under the meaning of words with affixes.",
+   "review": "author-elar-science"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.4.3.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "un- and re- are the grade 2 affixes for meaning and decoding; dis-, in- (not) and pre- are named in the grade 3 list; mis- appears only in grade 4, so those pages run ahead of Texas.",
+   "review": "author-elar-science"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "ELAR.2.7.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.v",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The strand covers sources that are 'viewed'; retelling the picture story in order is 'retell ... in ways that maintain meaning and logical order'. First, Next, Then organize 'with structure' and are 'adverbs that convey time'; the result is a scaffolded step toward composing a literary text.",
+   "review": "author-elar-science"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "ELAR.2.6.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.6.H",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each clue is evidence for an inference ('make inferences and use evidence to support understanding'), and putting the clues together to name the animal is 'synthesize information to create new understanding'.",
+   "review": "author-elar-science"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "ELAR.2.13.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.13.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.2.13.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Collecting facts under set headings is 'gather relevant ... information to answer the questions' and shows 'understanding of information gathered'; the file is the notes for a report. Recording what the animal eats and how it moves is the recording half of the science line on animal structures and behaviors.",
+   "review": "author-elar-science"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "ELAR.2.13.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.4.7.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.1.13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting gathered facts into same and different shows 'understanding of information gathered'; Texas names comparing and contrasting only in grade 4 responses. The skill line does not say which facts are compared; if they are body features it is a step toward comparing animals' external structures.",
+   "review": "author-elar-science"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Copying a sentence in joined writing is 'write complete words, thoughts, and answers legibly in cursive leaving appropriate spaces between words', and keeps up the grade 2 letter joins.",
+   "review": "author-elar-science"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Grouping verbs that mean nearly the same and telling stroll from dash is the synonym part of 'identify, use, and explain the meaning of antonyms, synonyms ...'; it feeds revising 'to improve ... word choice'.",
+   "review": "author-elar-science"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.A.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "bake to baker and run to runner are the very base-word changes the wording names ('dropping e ... and doubling final consonants'); knowing what the -er word means is identifying 'the meaning of and use words with affixes'. The grade 2 -er in Texas is the comparative, not this one.",
+   "review": "author-elar-science"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.A.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing bake, baker, baking or baked for a sentence is using words with affixes and reading them by their suffixes; the -ing and -ed forms are affixes whose meaning Texas already asks for in grade 1.",
+   "review": "author-elar-science"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "SCI.K.13.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas science does not ask for the names of human body parts (that sits in the health TEKS); naming eyes, ears, hands and legs is the step before identifying 'structures that animals have that allow them to interact with their environment such as seeing, hearing, moving, and grasping'.",
+   "review": "author-elar-science"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "SCI.1.12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places this in grade 1 and asks for a reason: 'classify living and nonliving things based upon whether they have basic needs and produce young'. The skill line gives no criteria, so a kindergarten sort is judged a readiness step.",
+   "review": "author-elar-science"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "SCI.K.13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying which part of the plant we eat means identifying 'roots, stems, leaves, flowers, and fruits'; fruit and vegetable are two named categories of the vocabulary expectation.",
+   "review": "author-elar-science"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.12.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pets, farm animals and wild animals are categories to name and sort; matching an animal to its home is a first look at the 'dependence of animals on ... space, and shelter', without yet saying why it needs it.",
+   "review": "author-elar-science"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "SCI.1.13.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Alike-and-different between a baby animal and its parent is 'compare ways that young animals resemble their parents', which Texas places in grade 1 (kindergarten has only the plant version).",
+   "review": "author-elar-science"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "SCI.K.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.1.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.1.10.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting by season describes 'weather changes ... over seasons'; the seasons in order and a tree through the year are the grade 1 wording 'order of occurrence and changes in nature'. Clothes by season lead to 'the impact of weather on daily choices'.",
+   "review": "author-elar-science"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "SCI.K.9.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.9.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting what belongs to day and to night identifies 'the patterns of day and night and their observable characteristics' and the 'Sun, Moon, stars, and objects in the sky'.",
+   "review": "author-elar-science"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "SCI.K.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.1.10.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.10.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.2.6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A week of weather is 'weather changes from day to day'; the symbols and words are the grade 1 characteristics 'hot or cold, clear or cloudy ... rainy'. Reading cold, warm, hot on a thermometer leads to measuring temperature, and hot and cold things to classifying by 'relative temperature', both grade 2.",
+   "review": "author-elar-science"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "SCI.2.11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas places 'distinguish between natural and manmade resources' in grade 2; a kindergarten sort of things, not yet resources, is a readiness step.",
+   "review": "author-elar-science"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.K.13.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the body part for each experience identifies 'structures ... that allow them to interact with their environment such as seeing, hearing'. The 2021 science TEKS no longer name the five senses, so this is the nearest wording, applied to the human body.",
+   "review": "author-elar-science"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "SCI.K.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.11.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the bin means identifying an object's 'material' and classifying by it; Texas places recycling itself in grade 2 ('properly dispose of materials such as ... recycling paper, plastic, and metal').",
+   "review": "author-elar-science"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "SCI.K.12.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Water and light are two of the needs named: 'the dependence of plants on air, sunlight, water, nutrients in the soil, and space to grow'.",
+   "review": "author-elar-science"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.K.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.3.6.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting floaters from sinkers is one of the 'ways to classify objects' by a property; Texas names 'the ability to sink or float in water' only in grade 3, where it is measured and tested.",
+   "review": "author-elar-science"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "SCI.1.13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Fur, feathers and scales are 'external structures of different animals'; the pages do the identifying part. Texas does not ask for the class names mammal, bird, fish, reptile, insect in these grades.",
+   "review": "author-elar-science"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "SCI.K.12.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.1.12.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.2.12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Food and a home are the 'food ... and shelter' of the kindergarten needs line; what animals eat leads to grade 1 food chains, and who lives where to grade 2 environments that 'support plants and animals'.",
+   "review": "author-elar-science"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "SCI.1.13.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.13.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.13.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas splits these: the chicken is the bird of the grade 1 'basic life cycles of animals', butterfly and frog are the grade 2 life cycles 'where young animals do not resemble their parents', and seed to plant is the kindergarten plant life cycle.",
+   "review": "author-elar-science"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.1.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.3.6.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.1.5.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The balance-scale pages classify by the grade 1 attribute 'heavier and lighter'; sink or float as a tested property is grade 3 in Texas, and predicting the result is a paper step toward 'investigate and predict cause-and-effect relationships'.",
+   "review": "author-elar-science"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "SCI.1.13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Labeling a human figure is in the health TEKS, not science; naming the parts is only the step before identifying 'external structures' and how they help an animal live and move.",
+   "review": "author-elar-science"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.K.13.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each sense to its body part is the kindergarten line on structures that allow 'seeing, hearing'; grade 1 science in Texas has no senses expectation.",
+   "review": "author-elar-science"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "SCI.1.10.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Symbols and words are the 'observable characteristics of weather, including hot or cold, clear or cloudy, calm or windy, and rainy or icy'; reading a weekly forecast follows 'weather changes from day to day'.",
+   "review": "author-elar-science"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "SCI.K.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.11.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "What-is-it-made-of identifies an object's 'material', a kindergarten property in Texas; things I recycle prepares the grade 2 line on 'recycling paper, plastic, and metal'.",
+   "review": "author-elar-science"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "SCI.K.13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming root, stem, leaf and flower is the kindergarten 'identify the structures of plants'; what each part does leads to grade 2, where children 'compare how those structures help different plants meet their basic needs'. Grade 1 has no plant-parts line.",
+   "review": "author-elar-science"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "SCI.K.9.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.9.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.4.9.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Describing the Sun and Moon is kindergarten content; the facts are not listed in the skill line, so the grade 2 line (the Sun is a star, the Moon reflects its light) is only prepared. Texas places the Moon's changing appearance in grade 4.",
+   "review": "author-elar-science"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "SCI.2.11.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Grouping things by material for recycling is choosing to 'properly dispose of materials such as ... recycling paper, plastic, and metal'; naming the material is the kindergarten property.",
+   "review": "author-elar-science"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "SCI.2.13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.K.13.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the parts and what each does is the identifying part of 'identify the roots, stems, leaves, flowers, fruits, and seeds of plants and compare how those structures help'; which part we eat reuses the kindergarten structures.",
+   "review": "author-elar-science"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "SCI.2.13.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The butterfly life cycle and matching young stages to the adult are the 'unique life cycles of animals where young animals do not resemble their parents, including butterflies and frogs'.",
+   "review": "author-elar-science"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "SCI.4.9.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No Texas expectation in kindergarten to grade 5 asks for the names of the phases; grade 4 studies 'patterns of change in the observable appearance of the Moon', which naming the phases prepares.",
+   "review": "author-elar-science"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "SCI.5.9",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.K.9.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas explains day and night by Earth's rotation only in grade 5 ('rotates on its axis once approximately every 24 hours'); these pages give the idea early and go beyond the kindergarten pattern of day and night.",
+   "review": "author-elar-science"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "SCI.1.13.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.12.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Picking the body feature that helps an animal is 'compare how those structures help different animals live, move, and meet basic needs' (grade 1); who lives in a habitat leads to grade 2 environments that 'support plants and animals', and grade 3 asks the child to explain the feature.",
+   "review": "author-elar-science"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.3.6.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.2.6.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.2.5.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no sink-or-float line before grade 3; the clay boat is a paper version of changing a physical property by reshaping, and predicting the result is the predicting half of 'investigate and predict cause-and-effect relationships'.",
+   "review": "author-elar-science"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "SCI.4.10.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.3.6.C",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas teaches the water cycle in grade 4, with the Sun's role; naming the stages prepares it. In grade 3 the only related line is changes of state such as condensation and water vapor, which these pages carry further.",
+   "review": "author-elar-science"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.5.F",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.13.A",
+     "rel": "extends"
+    },
+    {
+     "id": "SCI.4.13.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas does not name the parts of a flower in kindergarten to grade 5; part and job is the grade 3 theme 'relationship between the structure and function of ... organisms', goes beyond grade 2 where the flower is one plant structure, and leads to grade 4 plant structures and functions.",
+   "review": "author-elar-science"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "SCI.3.13.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.2.13.D",
+     "rel": "extends"
+    }
+   ],
+   "why": "The grade 3 wording is 'explore, illustrate, and compare life cycles in organisms' (its examples are open, 'such as'); comparing goes beyond the grade 2 description of the butterfly and frog cycles.",
+   "review": "author-elar-science"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "SCI.3.9.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording is the skill: 'identify the order of the planets in Earth's solar system in relation to the Sun'. The rocky and giant sort is extra.",
+   "review": "author-elar-science"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "SCI.3.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.3.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SCI.3.1.B",
+     "rel": "prepares"
+    },
+    {
+     "id": "SCI.5.1.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Testing and recording sink or float is named in 'measure, test, and record physical properties of matter, including ... the ability to sink or float in water'; the conclusion is an explanation 'supported by data'. The sheet only guides the investigation itself, and a fair test is an experimental investigation, which Texas names in grade 5.",
+   "review": "author-elar-science"
+  },
+  "K:birds-eye-view": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "A view from above is a first map skill (geography); no ELAR or science wording covers it.",
+   "review": "author-elar-science"
+  },
+  "K:family": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Family members and a family tree are social studies content; the vocabulary expectation names actions, directions, positions, sequences, categories and locations, not kinship words.",
+   "review": "author-elar-science"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The topic is social studies, but the task is a sort into named groups (land, water, air; things that fly), which is the category part of 'identify and use words that name ... categories'.",
+   "review": "author-elar-science"
+  },
+  "K:wants-needs": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Wants and needs is economics in social studies; the science needs lines are about plants and animals, not people's choices.",
+   "review": "author-elar-science"
+  },
+  "K:community-helpers": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Jobs and their tools are social studies content; nothing in ELAR or science names them.",
+   "review": "author-elar-science"
+  },
+  "1:map-key": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Reading a map key is a geography skill; the ELAR line on 'features and simple graphics' is about informational text, and using it here would force the fit.",
+   "review": "author-elar-science"
+  },
+  "1:family-generations": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Generations and family trees are social studies; the clue reading is only the vehicle.",
+   "review": "author-elar-science"
+  },
+  "2:cardinal-directions": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Compass directions on a map are geography.",
+   "review": "author-elar-science"
+  },
+  "2:continents": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Naming and locating continents is geography.",
+   "review": "author-elar-science"
+  },
+  "2:family-relationships": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Kinship words are social studies content; the riddle format alone does not make it a reading expectation.",
+   "review": "author-elar-science"
+  },
+  "3:continents-oceans": {
+   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "why": "Locating continents and oceans is geography.",
+   "review": "author-elar-science"
+  },
+  "K:healthy-food": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Everyday and sometimes foods is a health judgment, not a vocabulary category or a science idea in the wording.",
+   "review": "author-elar-science"
+  },
+  "K:hygiene-habits": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Hand-washing and body-care tools are health content; the ELAR line on 'steps in a sequence' is about informational text read with an adult.",
+   "review": "author-elar-science"
+  },
+  "K:road-safety": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Traffic signals and crossing the road are safety content in health.",
+   "review": "author-elar-science"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The content is health, but sorting foods into four named groups is the category part of 'identify and use words that name ... categories'.",
+   "review": "author-elar-science"
+  },
+  "1:healthy-habits": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Tooth brushing, germs and a habit chart are health content.",
+   "review": "author-elar-science"
+  },
+  "1:road-signs": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Traffic signs and their meaning are safety content in health.",
+   "review": "author-elar-science"
+  },
+  "2:healthy-habits-why": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Why a habit protects the body is health content.",
+   "review": "author-elar-science"
+  },
+  "2:road-signs": {
+   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "why": "Kinds of road signs are safety content in health.",
+   "review": "author-elar-science"
+  },
+  "K:how-to-draw": {
+   "none": "Texas places this in its art TEKS, which this registry does not hold",
+   "why": "Drawing step by step is art; the short write-the-word part is not a composing task.",
+   "review": "author-elar-science"
+  },
+  "1:how-to-draw": {
+   "none": "Texas places this in its art TEKS, which this registry does not hold",
+   "why": "Following and ordering drawing steps is art; no ELAR line on procedural text is really taught by it.",
+   "review": "author-elar-science"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The drawing is art, but drawing first and then writing about it uses the drawing to get ideas, a step toward 'plan a first draft by generating ideas for writing such as drawing and brainstorming'.",
+   "review": "author-elar-science"
+  },
+  "K:same-different-visual": {
+   "none": "visual discrimination of pictures is not in the mathematics TEKS",
+   "why": "No expectation in PART 2 asks the child to find identical or different pictures; the kindergarten geometry strand (K.6) is about shapes and solids and their attributes.",
+   "review": "author-math"
+  },
+  "K:mazes": {
+   "none": "a maze is not in the mathematics TEKS",
+   "why": "Finding a route is not asked by any expectation; the letter and number routes use counting or letters only as labels along the path.",
+   "review": "author-math"
+  },
+  "K:shadow-closure": {
+   "none": "matching a picture to its shadow is not in the mathematics TEKS",
+   "why": "No expectation in PART 2 names silhouettes or recognizing a whole from a part; K.6 is about named shapes and solids.",
+   "review": "author-math"
+  },
+  "K:spot-the-difference": {
+   "none": "spot the difference is not in the mathematics TEKS",
+   "why": "Comparing two pictures for changes is a visual task; K.7.B compares measurable attributes of objects, which this is not.",
+   "review": "author-math"
+  },
+  "K:matrix-logic": {
+   "none": "a picture matrix puzzle is not in the mathematics TEKS",
+   "why": "No expectation in PART 2 asks for completing a picture grid by its row rule; Texas has no picture-pattern expectation.",
+   "review": "author-math"
+  },
+  "K:grid-copy": {
+   "none": "copying a picture on a grid is not in the mathematics TEKS",
+   "why": "No expectation in PART 2 asks for it; the coordinate plane of strand 5.8 is too far away for the copy task to count as a readiness step.",
+   "review": "author-math"
+  },
+  "1:find-the-differences": {
+   "none": "find the differences is not in the mathematics TEKS",
+   "why": "A visual discrimination task; no expectation in PART 2 asks for it, and counting the differences is too slight to claim a counting expectation.",
+   "review": "author-math"
+  },
+  "1:mazes": {
+   "none": "a maze is not in the mathematics TEKS",
+   "why": "No expectation asks for route finding; the shortest-way sheet does not measure length in units (strand 1.7).",
+   "review": "author-math"
+  },
+  "1:grid-copy": {
+   "none": "copying a picture on a grid is not in the mathematics TEKS",
+   "why": "Row and column tracking is a visual-spatial skill that no expectation in PART 2 names.",
+   "review": "author-math"
+  },
+  "1:picture-analogies": {
+   "none": "picture analogies are not in the mathematics TEKS",
+   "why": "No expectation in PART 2 asks for analogical reasoning with pictures.",
+   "review": "author-math"
+  },
+  "1:secret-code": {
+   "none": "decoding a message with a key is not in the mathematics TEKS",
+   "why": "The numbers in a number code are labels for letters, not quantities; no expectation in PART 2 fits.",
+   "review": "author-math"
+  },
+  "1:picture-sudoku": {
+   "none": "sudoku is not in the mathematics TEKS",
+   "why": "A logic puzzle with pictures; no expectation in PART 2 asks for it.",
+   "review": "author-math"
+  },
+  "1:logic-picture-clues": {
+   "none": "a logic grid is not in the mathematics TEKS",
+   "why": "Deduction from clues is not asked by any expectation in PART 2.",
+   "review": "author-math"
+  },
+  "2:find-differences": {
+   "none": "find the differences and writing sentences about them is not in the mathematics TEKS",
+   "why": "The visual task has no mathematics expectation; the sentence writing belongs to language arts, which is outside PART 2.",
+   "review": "author-math"
+  },
+  "2:logic-grid": {
+   "none": "a logic grid is not in the mathematics TEKS",
+   "why": "Deduction from yes/no clues is not asked by any expectation in PART 2.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "1.8.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "The Texas line for sorting into categories is 1.8.A (collect, sort and organize data in up to three categories using a representation); sorting by two attributes at once in a Venn diagram or a table goes beyond it. No grade 3 expectation names Venn diagrams.",
+   "review": "author-math"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "1.8.A",
+     "rel": "extends"
+    }
+   ],
+   "why": "Same as the parent point: classifying by two attributes at once goes beyond sorting into categories (1.8.A); no later expectation names two-attribute sorting.",
+   "review": "author-math"
+  },
+  "3:logic-grids": {
+   "none": "a logic grid is not in the mathematics TEKS",
+   "why": "Deduction from clues is not asked by any expectation in PART 2.",
+   "review": "author-math"
+  },
+  "3:latin-square-sudoku": {
+   "none": "sudoku is not in the mathematics TEKS",
+   "why": "A logic puzzle with pictures; no expectation in PART 2 asks for it.",
+   "review": "author-math"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "ELAR.1.1.E",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Feelings are not an ELAR or science topic, but feeling words are what a child needs for the grade 1 oral language line 'expressing needs and feelings'; a paper page can only prepare a speaking expectation.",
+   "review": "author-elar-science"
+  }
+ }
+}

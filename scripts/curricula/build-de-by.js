@@ -32,7 +32,18 @@ const SUBJECTS = [
 ];
 const BANDS = [['1', '1-2'], ['3', '3-4']];
 const ent = (s) => s.replace(/&nbsp;/g, ' ').replace(/&gt;?/g, '>').replace(/&lt;?/g, '<').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&shy;/g, '').replace(/&#(\d+);/g, (_, d) => String.fromCharCode(Number(d)));
-const txt = (s) => ent(s.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+/**
+ * The plan prints a fraction as a small picture (file …Bruch_1-2.png, alt "Bruch Einhalb"): it is written out as 1/2,
+ * from the picture's own file name. Any other picture inside a sentence is kept as its alt text in square brackets,
+ * so that no sentence silently loses a part.
+ */
+const pictures = (s) => s.replace(/<img\b[^>]*>/g, (tag) => {
+  const f = /Bruch_(\d+)-(\d+)\.png/.exec(tag);
+  if (f) return f[1] + '/' + f[2];
+  const alt = /alt="([^"]*)"/.exec(tag);
+  return alt && alt[1] ? ' [' + alt[1] + '] ' : ' [Bild] ';
+});
+const txt = (s) => ent(pictures(s).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').replace(/\(\s+/g, '(').replace(/\s+\)/g, ')').trim();
 
 function parse(doc, band, html) {
   const nodes = [], problems = [];

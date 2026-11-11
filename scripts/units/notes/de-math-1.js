@@ -13,7 +13,7 @@ module.exports = {
       note: {
         mistake: 'Viele Kinder zählen die erste Gruppe, fangen bei der zweiten wieder bei 1 an und schreiben diese zweite Zahl als Ergebnis auf. Andere zählen ein Bild doppelt oder lassen eines aus.',
         words: 'Frage: „Wie viele sind es hier? Wie viele dort? Wie viele sind es zusammen?“ Zeige auf die Zeichen und sprich „plus“ und „gleich“; „gleich“ heißt „ist genauso viel wie“. Für das Ergebnis sag „zusammen“ und „insgesamt“.',
-        watch: 'Achte darauf, wer beim Zählen jedes Bild genau einmal antippt. Ein Kind, das die erste Zahl nennt und von dort weiterzählt („vier … fünf, sechs“), ist bereit für die schwierigere Seite.',
+        watch: 'Achte darauf, wer beim Zählen jedes Bild genau einmal antippt. Ein Kind, das die erste Zahl nennt und von dort weiterzählt („vier … fünf, sechs“), ist bereit für das schwierigere Arbeitsblatt.',
       },
     },
     '1:subtract-cross-out': {
@@ -66,7 +66,7 @@ module.exports = {
       objective: 'Die Kinder lösen Rechengeschichten zum Dazukommen und Weggehen bis 10 und sagen oder schreiben die Aufgabe, die zur Geschichte passt.',
       note: {
         mistake: 'Die Kinder suchen die zwei Zahlen heraus und zählen sie zusammen, egal was die Geschichte erzählt, oder sie achten nur auf ein Wort wie „mehr“ und wählen danach das Rechenzeichen.',
-        words: 'Frage: „Was passiert in der Geschichte? Kommt etwas dazu oder geht etwas weg?“ Lass das Kind die Geschichte nacherzählen, bevor eine Zahl geschrieben wird. Dann: „Schreibe die Aufgabe, die die Geschichte erzählt.“ Die Seite hat nur ein Kästchen für die Antwort; die Aufgabe schreiben die Kinder neben das Bild.',
+        words: 'Frage: „Was passiert in der Geschichte? Kommt etwas dazu oder geht etwas weg?“ Lass das Kind die Geschichte nacherzählen, bevor eine Zahl geschrieben wird. Dann: „Schreibe die Aufgabe, die die Geschichte erzählt.“ Das Arbeitsblatt hat nur ein Kästchen für die Antwort; die Aufgabe schreiben die Kinder neben das Bild.',
         watch: 'Lies die Geschichten vor, solange die Kinder noch nicht sicher lesen, und höre beim Nacherzählen zu. Ein Kind, das die Geschichte mit Plättchen spielen kann und trotzdem das falsche Zeichen schreibt, braucht die Verbindung von der Handlung zum Zeichen, nicht noch mehr Zählen.',
       },
     },
@@ -76,7 +76,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder zählen bei jeder Aufgabe alles von 1 an ab, sogar bei 5 + 1 oder 4 + 4, weil Zählen bisher immer zum richtigen Ergebnis geführt hat. Wenn es schnell gehen soll, hören sie auf zu zählen und raten.',
         words: 'Frage: „Welche Aufgaben weißt du einfach? Welche kannst du dir aus einer Aufgabe herleiten, die du weißt?“ Zum Beispiel: „Ich weiß 4 + 4, dann ist 4 + 5 eins mehr. Das ist die Nachbaraufgabe.“',
-        watch: 'Notiere, bei welchen Aufgaben ein Kind noch zählt. Wer die meisten zählt, bekommt die leichtere Seite zum Üben; schreibe die Aufgaben in die Klassenliste, damit du weißt, worauf du zurückkommst. Diese Seite wird nicht auf Zeit gerechnet.',
+        watch: 'Notiere, bei welchen Aufgaben ein Kind noch zählt. Wer die meisten zählt, bekommt das leichtere Arbeitsblatt zum Üben; schreibe die Aufgaben in die Klassenliste, damit du weißt, worauf du zurückkommst. Dieses Arbeitsblatt wird nicht auf Zeit gerechnet.',
       },
     },
     '1:doubles-halves': {
@@ -94,7 +94,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder entscheiden danach, wie die Zahl aussieht („11 ist gerade, weil sie zwei Einsen hat“), und lassen das Paaren weg. Beim Verteilen an zwei Kinder vergessen sie, das übrige Bild aufzuschreiben, oder geben es einem der beiden Kinder.',
         words: 'Frage: „Können zwei Kinder gerecht teilen? Bleibt eins übrig?“ Sag: „Bei geraden Zahlen geht es auf. Bei ungeraden Zahlen bleibt eins übrig.“ Verbinde es mit dem Verdoppeln: „8 ist 4 und 4. Jede gerade Zahl ist das Doppelte einer Zahl.“ Beim Einkreisen zählen die Kinder in Zweierschritten: „2, 4, 6 … und eins dazu sind 7.“',
-        watch: 'Achte darauf, wer die Regel an der Einerstelle entdeckt: Zahlen mit 0, 2, 4, 6 oder 8 am Ende sind gerade. Lass die Kinder die Regel an ihren eigenen Seiten finden, bevor du sie aussprichst.',
+        watch: 'Achte darauf, wer die Regel an der Einerstelle entdeckt: Zahlen mit 0, 2, 4, 6 oder 8 am Ende sind gerade. Lass die Kinder die Regel an ihren eigenen Arbeitsblättern finden, bevor du sie aussprichst.',
       },
     },
     '1:add-three-addends': {
@@ -148,7 +148,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder füllen jedes Kästchen als eigene Aufgabe aus und merken nicht, wenn zwei Kästchen sich widersprechen: 15 bei Zehnern und Einern, aber 14 Striche. Eine Zahl zwischen 11 und 19 wird als 1 und 5 geschrieben, ohne dass das Kind weiß, dass die 1 ein Zehner ist.',
         words: 'Frage, wenn das Arbeitsblatt fertig ist: „Zeigen alle deine Kästchen dieselbe Zahl? Beweise es.“ Sag: „Fünfzehn ist ein Zehner und fünf Einer. Zeige mir den Zehner in deinen Zehnerfeldern: ein volles Feld. Zeige mir den Zehner in deiner Strichliste: zwei Fünferbündel.“',
-        watch: 'Nutze die Seite als schnellen Blick darauf, was jedes Kind kann: Welches Kästchen bleibt leer oder kommt zuletzt? Dieses Kästchen zeigt dir, was das Kind als Nächstes lernen muss.',
+        watch: 'Nutze das Arbeitsblatt als schnellen Blick darauf, was jedes Kind kann: Welches Kästchen bleibt leer oder kommt zuletzt? Dieses Kästchen zeigt dir, was das Kind als Nächstes lernen muss.',
       },
     },
     '1:number-line-placement': {
@@ -166,7 +166,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder füllen eine Lücke, indem sie vom Anfang der Zeile oder von 1 an zählen. Auf einem Puzzleteil schreiben sie in das Kästchen darunter die nächste Zahl (35 unter die 34), weil sie nicht sehen, dass eine Zeile tiefer 10 dazukommt.',
         words: 'Fahre mit dem Finger eine Spalte hinunter und lies: „4, 14, 24, 34. Was bleibt gleich? Was ändert sich?“ Sag: „Nach rechts 1 mehr. Nach unten 10 mehr. Nach links 1 weniger. Nach oben 10 weniger.“',
-        watch: 'Sieh dir auf einem Puzzleteil die Kästchen über und unter der gedruckten Zahl an. Ein Kind, das links und rechts richtig hat und oben und unten nicht, braucht die ganze Hundertertafel noch ein paar Tage neben der Seite.',
+        watch: 'Sieh dir auf einem Puzzleteil die Kästchen über und unter der gedruckten Zahl an. Ein Kind, das links und rechts richtig hat und oben und unten nicht, braucht die ganze Hundertertafel noch ein paar Tage neben dem Arbeitsblatt.',
       },
     },
     '1:one-ten-more-less': {
@@ -184,7 +184,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder sagen die Reihe richtig auf und schreiben dann in die Lücke die nächste Zählzahl (10, 20, 21). In Zweierschritten rutschen sie nach einem Fehler auf die ungeraden Zahlen und merken es nicht.',
         words: 'Zähle mit der Klasse laut und halte an: „… 30, 40. Was kommt jetzt? Wie viel mehr ist das?“ Frage nach dem Muster: „Womit hören die Zahlen in Fünferschritten auf?“ (Mit 5 und 0.) „In Zehnerschritten?“ (Immer mit 0.) „In Zweierschritten?“ (Mit 0, 2, 4, 6 oder 8: die geraden Zahlen.)',
-        watch: 'Wer prüft eine Reihe an ihrem Muster („das kann nicht stimmen, die Zahl hört mit 3 auf“)? Beginne manche Reihen mittendrin, bei 40 oder bei 15; ein Kind, das nur vom Anfang an zählen kann, hat einen Vers gelernt, kein Zählen. Drei Seiten sind viel für einen Tag: erst Zehner und Fünfer, die Zweier am nächsten Tag.',
+        watch: 'Wer prüft eine Reihe an ihrem Muster („das kann nicht stimmen, die Zahl hört mit 3 auf“)? Beginne manche Reihen mittendrin, bei 40 oder bei 15; ein Kind, das nur vom Anfang an zählen kann, hat einen Vers gelernt, kein Zählen. Drei Arbeitsblätter sind viel für einen Tag: erst Zehner und Fünfer, die Zweier am nächsten Tag.',
       },
     },
     '1:time-read': {
@@ -229,7 +229,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder zählen die Münzen, nicht die Cent: Drei 10-Cent-Münzen sind „3“. Sie halten die 5-Cent-Münze für mehr wert als die 10-Cent-Münze, weil sie größer ist. Bei zwei Sorten zählen sie alles in Einerschritten.',
         words: 'Halte jede Münze hoch: „Die 10-Cent-Münze ist kleiner als die 5-Cent-Münze und trotzdem doppelt so viel wert. Die Zahl auf der Münze sagt, was sie wert ist.“ Zähle mit dem Wert: „10, 20, 30 Cent.“ Bei zwei Sorten: „Fang mit den Münzen an, die am meisten wert sind. 10, 20 … 25, 30.“',
-        watch: 'Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Fünfern oder Einern in einem Geldbeutel. Kinder, die dort den Faden verlieren, bleiben bei der Seite „erste Schritte“. Nimm zuerst Rechengeld in die Hand; gedruckte Münzen sind schwer zu unterscheiden, wenn Kinder noch wenig mit Geld umgegangen sind.',
+        watch: 'Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Fünfern oder Einern in einem Geldbeutel. Kinder, die dort den Faden verlieren, bleiben beim Arbeitsblatt „erste Schritte“. Nimm zuerst Rechengeld in die Hand; gedruckte Münzen sind schwer zu unterscheiden, wenn Kinder noch wenig mit Geld umgegangen sind.',
       },
     },
     '1:shape-attributes': {
@@ -254,7 +254,7 @@ module.exports = {
       title: 'Längen mit Kästchen messen',
       objective: 'Die Kinder messen die Länge eines Gegenstands, indem sie die Kästchen darunter zählen, und ordnen drei Gegenstände vom kürzesten zum längsten.',
       note: {
-        mistake: 'Die Kinder zählen jedes Kästchen der Reihe, auch die, die der Gegenstand nicht erreicht, oder sie zählen die Linien und nicht die Kästchen. Beim Ordnen gehen sie danach, wo ein Gegenstand auf der Seite endet, nicht danach, wie lang er ist.',
+        mistake: 'Die Kinder zählen jedes Kästchen der Reihe, auch die, die der Gegenstand nicht erreicht, oder sie zählen die Linien und nicht die Kästchen. Beim Ordnen gehen sie danach, wo ein Gegenstand auf dem Blatt endet, nicht danach, wie lang er ist.',
         words: 'Sag: „Zähle nur die Kästchen unter dem Gegenstand, vom Anfang bis zum Ende.“ Nenne jedes Mal die Einheit: „Der Stift ist 6 Kästchen lang.“ Frage: „Was ist länger? Wie viele Kästchen länger?“',
         watch: 'Achte auf Antworten ohne Einheit („6“) und frage: „Sechs was?“ Prüfe einen Gegenstand, der nicht am Rand der Reihe beginnt; dort zählen Kinder zu viele Kästchen.',
       },
@@ -263,7 +263,7 @@ module.exports = {
       title: 'Sortieren, zählen und ein Bilddiagramm lesen',
       objective: 'Die Kinder zählen in einer gemischten Menge jede Sorte, tragen die Anzahlen in eine Tabelle ein und lesen ab, wie viele ein Bilddiagramm in jeder Reihe zeigt.',
       note: {
-        mistake: 'Die Kinder tragen eine Anzahl in die falsche Zeile der Tabelle ein, weil sie nicht auf das Bild am Anfang der Zeile schauen. Die Seiten fragen nur nach Anzahlen; wenn du zusätzlich fragst „Wie viele mehr?“, nennen die Kinder die größere Zahl und nicht den Unterschied.',
+        mistake: 'Die Kinder tragen eine Anzahl in die falsche Zeile der Tabelle ein, weil sie nicht auf das Bild am Anfang der Zeile schauen. Die Arbeitsblätter fragen nur nach Anzahlen; wenn du zusätzlich fragst „Wie viele mehr?“, nennen die Kinder die größere Zahl und nicht den Unterschied.',
         words: 'Sag: „Jedes Bild im Diagramm steht für ein Ding.“ Stelle drei Arten von Fragen: „Wie viele Äpfel? Wovon gibt es am meisten? Wie viele Äpfel MEHR als Birnen?“ Für „wie viele mehr“ lege die beiden Reihen untereinander und zähle die Bilder, die überstehen.',
         watch: 'Stelle jedem Kind eine Frage nach „wie viele mehr“; sie ist die schwierige. Achte darauf, wer zwei Reihen vergleicht, indem es sie untereinanderlegt, und wer nur die größere Zahl abliest.',
       },

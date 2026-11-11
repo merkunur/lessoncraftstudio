@@ -1,0 +1,205 @@
+{
+ "2:read-build-3-digit": {
+  "mistake": "Die Kinder schreiben die Anzahlen auf, die sie sehen, und lassen eine leere Stelle aus: Zwei Platten und sechs Würfel werden zu 26. Beim Zahlendiktat, das nicht auf den Arbeitsblättern steht, schreiben dieselben Kinder, was sie hören: Aus zweihundertsechs wird 2006, und bei „zweihundertvierunddreißig“ vertauschen sie Zehner und Einer zu 243.",
+  "watch": "Prüfe zuerst alle Zahlen mit einer Null an der Zehner- oder Einerstelle. Ein Kind, das für zwei Platten und sechs Würfel 26 schreibt, trägt vorerst jede Zahl in die Stellenwerttafel ein, bevor es sie aufschreibt."
+ },
+ "2:expanded-form-digit-value": {
+  "words": "Frage: „An welcher Stelle steht die Ziffer? An der Zehnerstelle, also sind es 4 Zehner. Was sind 4 Zehner wert?“ (40.) Sprich eine Zahl in Teilen: „345 ist 300 und 40 und 5.“ Schreibe beide Formen an und lies sie vor: 345 und 300 + 40 + 5."
+ },
+ "2:hundred-more-less": {
+  "mistake": "Die Kinder ändern die Zehner- oder die Einerziffer, oder sie zählen in Einern hoch und geben auf. Bei 100 weniger als einer Zahl knapp über 100, etwa 105, bleibt kein Hunderter übrig; die Kinder wissen dann nicht, was sie schreiben sollen.",
+  "watch": "Wer antwortet sofort, indem er eine Ziffer ändert, und wer zählt noch? Gib eine Zahl über 900 vor und sprich mit der Klasse darüber, was nach 9 Hundertern kommt: der Tausender."
+ },
+ "2:subtract-with-blocks": {
+  "words": "Sag: „Ich soll 7 Einer wegnehmen und habe nur 2. Ich tausche einen Zehner in zehn Einer. Jetzt habe ich 12 Einer.“ Frage: „Wie viele Zehner sind nach dem Tauschen noch da?“ Die Kinder streichen die Blöcke durch, die sie wegnehmen. Für dieses Tauschen sagt man auch „entbündeln“.",
+  "watch": "Prüfe die Aufgaben, bei denen die zweite Zahl mehr Einer hat als die erste. Ein Kind, das den Unterschied der Ziffern hinschreibt, tauscht ein paarmal mit echtem Material eine Zehnerstange gegen zehn Einerwürfel."
+ },
+ "2:column-method": {
+  "mistake": "Die Kinder beginnen links bei den Zehnern, weil sie von links lesen. Ohne Übertrag stimmt das Ergebnis trotzdem, aber die Gewohnheit führt auf dem nächsten Arbeitsblatt in den Fehler. Schreiben die Kinder eine Aufgabe selbst ins Heft, stehen die Ziffern oft nicht sauber untereinander. Manche rechnen bei einer Minusaufgabe plus, weil die Aufgaben gleich aussehen.",
+  "words": "Sag: „Einer unter Einer, Zehner unter Zehner. Wir fangen IMMER rechts bei den Einern an.“ Sprich jede Stelle: „4 Einer plus 5 Einer sind 9 Einer. 2 Zehner plus 3 Zehner sind 5 Zehner.“ Beim Minus sprich so, wie das Verfahren an deiner Schule eingeführt wird: beim Abziehen „8 Einer minus 3 Einer sind 5 Einer“, beim Ergänzen „3 Einer plus wie viele Einer sind 8 Einer?“."
+ },
+ "3:column-regrouping": {
+  "words": "Sprich jeden Schritt: „8 Einer plus 7 Einer sind 15 Einer. Das sind 1 Zehner und 5 Einer. Schreibe die 5 und notiere den Zehner als kleine 1 bei den Zehnern.“ Beim Minus sprich das Verfahren so, wie es an deiner Schule eingeführt ist, mit Entbündeln oder mit Ergänzen; die Kinder sagen jedes Mal, was die kleine 1 bedeutet: „ein Zehner“, nicht „eins“."
+ },
+ "3:mult-div-relationship": {
+  "words": "Sag: „Geteilt fragt nach dem fehlenden Faktor. 24 : 4 fragt: 4 mal wie viel ist 24?“ Zeige auf das Punktefeld: „In der Aufgabenfamilie wird die Gesamtzahl geteilt: 24 : 4, nicht 4 : 24.“ Die Kinder lesen alle vier Aufgaben eines Felds laut. Benutze die Wörter, die die Kinder aus Klasse 2 kennen: 6 · 4 ist die Tauschaufgabe zu 4 · 6, die Geteiltaufgaben sind die Umkehraufgaben der Malaufgaben; alle vier zusammen heißen Aufgabenfamilie (auf dem Arbeitsblatt: „Mal-Familie“)."
+ },
+ "3:muldiv-word-problems": {
+  "words": "Stelle zu jeder Aufgabe drei Fragen: „Wissen wir, wie viele Gruppen es sind? Wissen wir, wie viele in jeder Gruppe sind? Kennen wir die Gesamtzahl?“ Dann: „Was von den dreien fehlt?“ Nenne die beiden Arten des Teilens beim Namen: gerecht verteilen (Verteilen) und Gruppen bilden (Aufteilen). Die Kinder schreiben Frage, Rechnung und Antwort; die Antwort ist ein ganzer Satz: „Jedes Kind bekommt 4 Sticker.“"
+ },
+ "3:division-remainder": {
+  "mistake": "Die Kinder hören zu früh auf, und es bleibt zu viel übrig: beim Einkreisen so viele Bilder, dass noch eine Gruppe möglich wäre, beim Verteilen so viele, dass jeder Kasten noch eines bekommen könnte. Oder sie lassen den Rest weg und schreiben nur die Zahl der Gruppen."
+ },
+ "3:balance-equations": {
+  "watch": "Zeige kurz drei Karten und lass entscheiden, wahr oder falsch: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. Ein Kind, das sie falsch nennt, „weil das Ergebnis auf der falschen Seite steht“, liest das Zeichen noch als Rechenbefehl; es arbeitet mit einer echten oder gezeichneten Waage und kleineren Zahlen."
+ },
+ "3:parity-of-sums": {
+  "words": "Probiere es zuerst mit kleinen Zahlen, bevor du das Arbeitsblatt mit der Tabelle austeilst, und sammle die Ergebnisse: „3 + 5 = 8. Ungerade plus ungerade … gerade!“ Frage nach dem Grund: „Bei jeder ungeraden Zahl bleibt ein Plättchen ohne Partner übrig. Die zwei Übrigen bilden zusammen ein Paar.“ Stelle die drei Regeln gemeinsam auf: gerade + gerade, ungerade + ungerade, gerade + ungerade."
+ },
+ "3:arithmetic-patterns": {
+  "mistake": "Die Kinder schauen auf ein Zahlenpaar, legen sich auf eine Regel fest und prüfen sie nicht am Rest der Reihe. Bei Folgen, die kleiner werden, rechnen sie weiter plus. An zwei Lücken hintereinander bleiben sie hängen."
+ },
+ "3:time-to-minute": {
+  "mistake": "Die Kinder lesen auf fünf Minuten genau und hören auf: 4:23 Uhr wird 4:20 Uhr oder 4:25 Uhr. Andere zählen jeden kleinen Strich von der 12 an und verzählen sich auf dem Weg. Steht der Stundenzeiger kurz vor der nächsten Zahl, lesen sie die falsche Stunde: Aus 4:52 Uhr wird 5:52 Uhr."
+ },
+ "3:elapsed-duration": {
+  "watch": "Prüfe die Aufgaben, die über 12 Uhr gehen. Ein Kind, das für 11 Uhr bis 2 Uhr 9 Stunden schreibt, hat abgezogen; dreht gemeinsam den Zeiger einer Lernuhr von der Startzeit zur Endzeit und zählt jede Stunde, die vergeht."
+ },
+ "3:add-subtract-time": {
+  "words": "Sag: „Eine Stunde hat 60 Minuten, nicht 100.“ Springe zuerst zur vollen Stunde: „3:45 Uhr plus 30 Minuten. 15 Minuten bis 4:00 Uhr. Noch 15 dazu: 4:15 Uhr.“ Zeichne die Sprünge an einem Rechenstrich, an dem die Uhrzeiten stehen."
+ },
+ "3:time-12-24": {
+  "watch": "Prüfe die Stunde nach dem Mittag: 12:30 Uhr bleibt 12:30 Uhr, erst ab 13 Uhr wird weitergezählt. Prüfe auch Mitternacht: 0:00 Uhr, am Ende des Tages auch 24:00 Uhr. Nimm einen Fahrplan oder den Stundenplan der Klasse: Dort stehen die Zeiten so, wie die Kinder sie im Alltag lesen müssen.",
+  "words": "Sag: „Der Stundenzeiger läuft am Tag zweimal um die Uhr. Nach 12 Uhr mittags zählen wir weiter: 13, 14, 15.“ Gib die Regel für beide Richtungen: „Am Nachmittag und Abend: 12 dazu. 3 Uhr nachmittags ist 15 Uhr. Von der 24-Stunden-Zeit zurück: 12 ab.“ Frage: „Ist 08:00 Uhr morgens oder abends? Woher weißt du das?“"
+ },
+ "2:mass-grams": {
+  "title": "Waagen und Messbecher ablesen: Gramm und Milliliter",
+  "objective": "Die Kinder rechnen die Gewichtsstücke an einer Waage zusammen und bestimmen, wie viel ein Gegenstand wiegt; dann lesen sie Waagen und Messbecher gemischt ab und schreiben jede Menge mit ihrer Einheit auf.",
+  "words": "Sag: „Lies jedes Gewichtsstück: 100, 50, 20. Rechne zusammen: 170 Gramm.“ Am Messbecher: „Schau auf zwei gedruckte Zahlen nebeneinander. Wie viele Schritte liegen dazwischen? Wie viel ist also ein Schritt wert?“ Die Einheit gehört immer dazu: „170 Gramm“, „300 Milliliter“. Und: „1000 Gramm sind 1 Kilogramm.“"
+ },
+ "2:read-jugs": {
+  "words": "Sag: „Lege den Finger dorthin, wo die Flüssigkeit aufhört. Fahre hinüber zur Skala.“ Frage: „Die Zahlen lauten 200, 400, 600. Welche Zahl gehört an den Strich genau zwischen 200 und 400?“ Sprich die Einheit: „300 Milliliter.“ Bei den großen Bechern: „1000 Milliliter sind 1 Liter.“",
+  "watch": "Nimm einmal einen echten Messbecher mit Wasser; die Kinder müssen in die Hocke gehen und auf Augenhöhe ablesen. Prüfe auf dem Arbeitsblatt die Becher, in denen die Flüssigkeit zwischen zwei gedruckten Zahlen endet."
+ },
+ "3:area-model": {
+  "words": "Sag: „Der Flächeninhalt gibt an, wie viele Kästchen in die Figur passen, ohne Lücke und ohne Überlappung.“ Frage: „Wie viele Kästchen in einer Reihe? Wie viele Reihen? 4 Reihen mit je 6 sind 24 Kästchen.“ Die Einheit gehört dazu: „24 Kästchen.“"
+ },
+ "3:volume-cubes": {
+  "watch": "Jedes Kind baut ein Würfelgebäude vom Arbeitsblatt mit Würfeln nach und vergleicht mit der Zahl, die es aufgeschrieben hat. Ein Kind, das schichtweise zählt („6 und 6 und 6“), ist auf dem Weg zum Rauminhalt als Schichten mal Würfel pro Schicht.",
+  "title": "Würfelgebäude: Wie viele Würfel sind es?",
+  "objective": "Die Kinder zählen alle Würfel eines Würfelgebäudes, auch die, die man nicht sieht, und schreiben die Anzahl auf.",
+  "mistake": "Die Kinder zählen nur die Würfel, die auf der Zeichnung zu sehen sind, und lassen die verdeckten hinten und unten aus. Oder sie zählen die Quadrate, die sie sehen, und kommen auf eine falsche, meist zu große Zahl.",
+  "words": "Baue das Würfelgebäude zuerst mit Steckwürfeln: „Wie viele siehst du von hier? Jetzt drehe es und nimm es auseinander. Zähle alle.“ Sag: „Zähle Schicht für Schicht. Wie viele Würfel in der untersten Schicht? In der nächsten? Rechne die Schichten zusammen.“ Frage: „Ein Würfel oben muss auf etwas liegen. Was ist unter ihm?“ Das Wort dazu: „Die Zahl der Würfel, die einen Körper füllen, ist sein Rauminhalt.“"
+ },
+ "3:right-angles": {
+  "words": "Jedes Kind faltet einen Faltwinkel: ein Blatt einmal falten und dann noch einmal so, dass die Faltkante genau auf sich selbst liegt. „Lege den Faltwinkel in die Ecke. Passt er genau? Dann ist es ein rechter Winkel.“ Sag „kleiner als ein rechter Winkel“ und „größer als ein rechter Winkel“."
+ },
+ "3:symmetry": {
+  "words": "Sag: „Probiere jede Faltung: links auf rechts, oben auf unten, Ecke auf Ecke.“ Mit ausgeschnittenen Formen: „Falte. Liegen die Hälften genau aufeinander?“ Frage: „Ein Quadrat hat 4 Spiegelachsen. Warum hat ein Rechteck, das kein Quadrat ist, nur 2?“"
+ },
+ "3:line-plot-halves": {
+  "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl",
+  "objective": "Die Kinder lesen ein Diagramm, in dem Kreuze über einem Zahlenstrahl mit halben Schritten stehen, und schreiben auf, wie viele Kreuze über jeder Zahl stehen.",
+  "mistake": "Die Kinder überspringen die halben Striche und lesen nur die ganzen Zahlen; ein Kreuz bei 2½ rutscht zur 2 oder zur 3. Außerdem verwechseln sie den Messwert unter einem Stapel mit der Anzahl der Kreuze darin.",
+  "words": "Lies den Zahlenstrahl gemeinsam laut: „1, eineinhalb, 2, zweieinhalb.“ Frage: „Wie viele Dinge waren zweieinhalb Einheiten lang? Zähle die Kreuze über diesem Strich.“ Dann: „Wie viele waren länger als 2?“",
+  "watch": "Stelle eine Frage, deren Antwort auf einem halben Strich liegt. Ein Kind, das für die nächste ganze Zahl antwortet, liest die halben Schritte des Zahlenstrahls noch nicht."
+ },
+ "1:rhyming": {
+  "watch": "Lass jedes Kind die Bildwörter laut sprechen, bevor es einkreist; ein Kind, das nur schaut, reimt nicht. Benenne die Bilder vorher gemeinsam, damit alle dasselbe Wort im Ohr haben; Kinder, die Deutsch als Zweitsprache lernen, kennen manche Bildwörter noch nicht.",
+  "mistake": "Die Kinder wählen ein Bild, das mit demselben Laut anfängt (Haus und Hund), oder eines, das zum ersten Bild gehört (Hund und Katze). Steht das erste Wort gedruckt da, schreiben sie sein Ende ab und verlassen sich darauf, dass Reimwörter gleich geschrieben werden."
+ },
+ "1:word-families-syllable-reading": {
+  "mistake": "Die Kinder lesen eine Silbe Buchstabe für Buchstabe mit den Buchstabennamen („em, a“) und kommen nicht zu „ma“. Oder sie wählen eine Silbe mit dem richtigen ersten Buchstaben und dem falschen Selbstlaut: „mo“ für Maler oder „la“ für Lupe."
+ },
+ "1:phoneme-boxes": {
+  "mistake": "Die Kinder zählen Buchstaben statt Laute: Bei „Fisch“ füllen sie fünf Kästchen, obwohl man nur drei Laute hört. Sie sprechen Buchstabennamen („be“ statt b). Beim Zusammenziehen lesen sie den ersten Laut und raten das Wort.",
+  "words": "Sag: „Sprich das Wort langsam wie ein Roboter. Für jeden Laut tippst du in ein Kästchen.“ Zu sch, ch, au, ei und eu: „Mehrere Buchstaben, aber EIN Laut: Sie wohnen zusammen in einem Kästchen.“ Beim Zusammenziehen: „Lass die Laute nicht einzeln stehen. Schleife sie zusammen: mmm-au-sss, Maus.“",
+  "watch": "Prüfe Wörter mit sch und mit Zwielauten (au, ei, eu): Wer dort ein Kästchen zu viel braucht, schreibt Buchstaben statt Laute. Auf dem Blatt mit den Lautstreifen sind leere Kästchen am Ende richtig, wenn das Wort kurz ist. Auf dem Blatt zum Zusammenziehen liest das Kind das Wort laut, bevor es das Bild einkreist."
+ },
+ "1:digraphs": {
+  "words": "Sag: „Drei Buchstaben, ein Laut: sch wie in Schule. Zwei Buchstaben für einen Laut: ch. In ich und in Buch klingt es verschieden, aber wir schreiben beide Male ch. Und au wie in Haus.“ Lass den Mund fühlen: „Bei sch machst du die Lippen rund. Bei ch in ich lächelst du. Bei ch in Buch kratzt es hinten im Hals.“ Frage: „Welche Buchstabengruppe hörst du? Wo im Wort: vorn, in der Mitte oder hinten?“",
+  "watch": "Benenne alle Bilder gemeinsam, bevor jemand einkreist, und sprich die Wörter dabei deutlich vor. Höre, wie ein Kind die Wörter mit ch spricht; wer „isch“ sagt, schreibt auch sch. Sag nicht, das Sprechen sei falsch; zeige, wie das Wort geschrieben wird. Kindern, die Deutsch als Zweitsprache lernen, fehlt der Laut in „ich“ oft in der ersten Sprache; sprich ihn ihnen mehrmals einzeln vor. Prüfe, ob beim Einsetzen alle Buchstaben der Gruppe dastehen.",
+  "objective": "Die Kinder hören in einem Bildwort den Laut, der mit sch, ch oder au geschrieben wird, und setzen die fehlende Buchstabengruppe ein.",
+  "mistake": "Die Kinder verwechseln sch und ch, weil beide zischen: Kirsche und Kirche. Beim Einsetzen schreiben sie von sch nur einen Teil ab. Das au zerlegen sie in a und u und suchen zwei Stellen dafür."
+ },
+ "1:spell-picture-words": {
+  "mistake": "Die Kinder schreiben den ersten und den letzten Laut und lassen die Mitte aus: „Hs“ für Haus, „Bm“ für Baum. Selbstlaute fehlen, weil die Kinder sie im Buchstabennamen schon mitsprechen: „Esl“ für Esel, „Nte“ für Ente. Mit dem Wortspeicher schreiben sie ein Wort ab, das nur gleich anfängt.",
+  "words": "Sag: „Sprich das Wort langsam. Welchen Laut hörst du zuerst? Welchen dann? Schreibe jeden Laut auf, den du hörst.“ Danach: „Tippe auf jeden Buchstaben und lies, was du geschrieben hast. Ist es das Wort?“ Zum Wortspeicher: „Lies das ganze Wort im Speicher, nicht nur den Anfang.“ Und: „Bilder zeigen Dinge. Ihre Namen schreiben wir groß.“",
+  "watch": "Lies mit dem Kind, was dasteht, nicht was gemeint war: „Hs“ wird als „Hs“ gelesen, und das Kind hört selbst, was fehlt. Auf dem Blatt ohne Wortspeicher zählt, dass kein Laut fehlt; ie, doppelte Mitlaute und das Dehnungs-h kommen später. Schreibe die richtige Schreibweise trotzdem klein daneben, damit sich kein falsches Wortbild festsetzt."
+ },
+ "1:syllables-split": {
+  "words": "Sag: „Schwinge das Wort mit dem Arm: für jede Silbe ein Bogen. Ba-na-ne: drei Bögen.“ Die Probe: „In jeder Silbe steckt ein Selbstlaut (a, e, i, o, u), ein Umlaut (ä, ö, ü) oder ein Zwielaut (au, ei, eu, äu).“ Beim Schreiben: „Stehen zwei gleiche Mitlaute in der Mitte, kommt der Strich dazwischen: Mut-ter, Tan-ne.“"
+ },
+ "1:read-and-follow": {
+  "mistake": "Die Kinder lesen die ersten Wörter, erkennen ein Bild und fangen an: Sie malen alle Bilder an statt drei. Das Zahlwort wird überlesen, und wo der Satz eine Farbe nennt, auch das Farbwort.",
+  "words": "Sag: „Lies den ganzen Satz, bevor du einen Stift nimmst. Dann sag mir: WAS sollst du anmalen oder einkreisen? WIE VIELE?“ Nennt der Satz eine Farbe, frage auch danach. Das Kind unterstreicht das Zahlwort. „Lies den Satz noch einmal und prüfe, was du getan hast.“"
+ },
+ "1:cloze": {
+  "words": "Sag: „Lies zuerst jedes Wort im Kasten. Dann lies den Satz und sage an der leeren Stelle ‚Lücke‘. Probiere ein Wort: Ergibt der Satz einen Sinn?“ Die Kinder lesen den fertigen Satz laut. „Jeder Satz muss einen Sinn ergeben, wenn du ihn liest.“ Kinder, die Deutsch als Zweitsprache lernen, prüfen am Bild und nicht am Klang."
+ },
+ "1:unscramble-sentence": {
+  "words": "Sag: „Auf dem Blatt mit Hilfen steht das Wort mit dem Punkt am Ende. Dann frage: Wer oder was tut etwas? Was tut er? Das Verb, das Tunwort, kommt gleich danach: Der Hund | bellt | laut.“ Die Kinder sprechen den Satz laut, bevor sie schreiben. „Das erste Wort im Satz schreiben wir groß, auch wenn es kein Nomen ist. Am Ende steht ein Satzzeichen.“",
+  "mistake": "Die Kinder halten jedes großgeschriebene Wort für den Satzanfang; im Deutschen werden aber auch alle Nomen großgeschrieben. Sie stellen das Verb ans Ende („Der Hund laut bellt“) oder schreiben die Wörter in der gedruckten Reihenfolge ab.",
+  "watch": "Lass den geschriebenen Satz vorlesen; ein Satz mit dem Verb an der falschen Stelle klingt falsch, und die meisten Kinder hören es. Kinder, die Deutsch als Zweitsprache lernen, hören es oft nicht; ihnen hilft ein Satzstreifen mit drei Feldern, in dem das Verb immer im zweiten Feld steht. Prüfe den großen Satzanfang und den Punkt; beides vergisst, wer noch mit der Reihenfolge beschäftigt ist."
+ },
+ "1:story-sequencing": {
+  "words": "Lass erzählen: „Was passiert auf dem ersten Bild? Und dann? Was muss vorher gewesen sein?“ Gib die Wörter für die Reihenfolge vor: „zuerst, dann, danach, zum Schluss“. Beim Ordnen: „Welcher Satz kann nur am Anfang stehen? Welcher nur am Ende?“"
+ },
+ "1:word-classes": {
+  "mistake": "Die Kinder sortieren danach, woran ein Wort sie denken lässt: „Spiel“ und „Fest“ kommen zu den Verben, weil man dort etwas tut, und „Angst“ oder „Hunger“ kommen zu den Adjektiven, weil man sich so fühlt. Wörter, die es zweimal gibt (das Essen, essen), verwirren sie zu Recht."
+ },
+ "1:articles": {
+  "mistake": "Die Kinder entscheiden nach dem, was das Ding ist: „die Mädchen“, weil ein Mädchen weiblich ist. Kinder, die Deutsch als Zweitsprache lernen, können nicht nach dem Klang gehen; sie raten oder nehmen für alle Wörter denselben Begleiter.",
+  "watch": "Die Kinder lesen jede fertige Gruppe laut mit Begleiter. Achte auf Wörter mit „das“ für Menschen (das Kind, das Mädchen, das Baby). Bei Kindern mit Deutsch als Zweitsprache ist ein falscher Begleiter kein Lesefehler; sie brauchen das Wort mit Begleiter und Bild auf einer Karte. In manchen Gegenden hat ein Wort im Dialekt einen anderen Begleiter (der Butter, das Teller); sag dann, wie es in der Schriftsprache heißt, ohne das Sprechen des Kindes falsch zu nennen."
+ },
+ "1:opposites": {
+  "words": "Sag: „Das Gegenteil ist so verschieden wie möglich: heiß, kalt. Gleiche Bedeutung heißt: fast dasselbe. Schnell, flink.“ Ein Beispiel: „Wenn die Tür nicht offen ist, ist sie … zu. Also sind offen und zu Gegenteile.“ Mache daraus keine feste Probe: Tee, der nicht heiß ist, muss nicht kalt sein. Frage: „Ist das Wort das Gegenteil, oder bedeutet es dasselbe?“"
+ },
+ "1:root-words": {
+  "mistake": "Die Kinder kreisen ein Wort ein, das nur mit denselben Buchstaben anfängt und nichts mit dem Bildwort zu tun hat: zum Bild mit dem Haus „Hase“ statt „Haustür“. Verwandte mit Umlaut erkennen sie nicht: Häuser gehört für sie nicht zu Haus.",
+  "words": "Sag: „Wörter einer Wortfamilie sind verwandt. In jedem steckt dasselbe Stück, und es geht um dieselbe Sache: Haus, Häuser, Haustür.“ Die Probe: „Hat ein Hase etwas mit einem Haus zu tun? Nein. Also gehört er nicht zur Familie.“ Zum Umlaut: „Aus a wird manchmal ä und aus au wird äu: Haus, Häuser. Die Familie bleibt.“"
+ },
+ "2:sentence-boundaries": {
+  "objective": "Die Kinder schreiben einen Satz mit großem Satzanfang, großgeschriebenen Nomen und Satzzeichen richtig auf und finden die Stelle, an der der erste von zwei Sätzen endet."
+ },
+ "2:word-classes": {
+  "mistake": "Die Kinder sortieren nach dem Thema statt nach der Wortart: „Sonne“ und „warm“ kommen zusammen. Bei Wortpaaren wie das Spiel und spielen oder das Essen und essen achten sie nicht auf den Anfangsbuchstaben und schreiben beide in denselben Kasten."
+ },
+ "2:plural-nouns": {
+  "words": "Sprich zuerst: „Ein Apfel, viele … Äpfel. Ein Haus, viele … Häuser. Was hat sich geändert?“ Sag: „Die Mehrzahl hat viele Formen. Manchmal kommt etwas ans Ende, manchmal wird aus a, o, u, au ein ä, ö, ü, äu, manchmal beides, und manchmal bleibt das Wort gleich: ein Löffel, viele Löffel.“ In der Mehrzahl heißt der Begleiter immer „die“.",
+  "watch": "Lass jedes Kind Einzahl und Mehrzahl mit Begleiter sprechen: „der Apfel, die Äpfel“. Führe eine Klassenliste mit den Wörtern, die einen Umlaut bekommen. Kinder mit Deutsch als Zweitsprache lernen die Mehrzahl mit jedem Wort mit; eine sichere Regel dafür gibt es nicht."
+ },
+ "2:verb-forms": {
+  "words": "Sag: „Das Verb richtet sich nach der Person. Der Wortstamm bleibt, die Endung wechselt: ich male, du malst, er malt, wir malen, ihr malt, sie malen.“ Die Kinder markieren die Endung farbig. Zu Verben wie laufen und fahren: „Bei du und er ändert sich hier auch der Selbstlaut: ich laufe, du läufst, er läuft.“ Zu sein und haben: „Diese zwei verändern sich stark. Die lernen wir auswendig: ich bin, du bist, er ist, wir sind, ihr seid, sie sind. Ich habe, du hast, er hat, wir haben, ihr habt, sie haben.“",
+  "watch": "Höre, welche Formen ein Kind beim Sprechen benutzt; viele sagen „er läuft“ und schreiben trotzdem „er lauft“, sobald das Arbeitsblatt nach einer Endung fragt. Wo im Dialekt „er lauft“ und „du fahrst“ gesprochen wird, schreiben die Kinder, was sie sagen; nenne das Sprechen nicht falsch und sag, dass in der Schriftsprache der Umlaut steht. Kinder, die Deutsch als Zweitsprache lernen, üben die Reihe ich, du, er laut mit Bewegung, bevor sie schreiben."
+ },
+ "2:question-words": {
+  "objective": "Die Kinder schreiben zu einer Antwort die Frage, die nach den markierten Wörtern fragt, und schreiben zu einem Bild Fragen zu Ende, die mit warum oder wie beginnen.",
+  "watch": "Lass Frage und Antwort als Gespräch vorlesen. Passt die Antwort nicht zur Frage, hat das Kind das falsche Fragewort gewählt. Prüfe die Stelle des Verbs und das Fragezeichen; Kinder, die Deutsch als Zweitsprache lernen, sprechen das Muster „Wo ist …? Was macht …?“ mehrmals, bevor sie schreiben."
+ },
+ "2:spelling-rules": {
+  "words": "Lies die Regel im Kasten gemeinsam und mache eine Frage daraus: „Ist der Selbstlaut davor kurz oder lang?“ Sprich Paare: „Miete, Mitte. Hüte, Hütte.“ Sag: „Hörst du nach einem kurzen Selbstlaut nur EINEN Mitlaut, schreibst du ihn doppelt: Ball, Sonne. Hörst du zwei verschiedene Mitlaute, bleibt es dabei: Hund, Heft. Statt kk schreiben wir ck. Das lange i schreiben wir meistens ie.“ Arbeitet deine Schule mit Silben, schwinge das Wort: „Son-ne: Das n gehört zu beiden Silben, also schreibst du es zweimal.“ Die Kinder sprechen das Wort, zeigen kurz oder lang mit der Hand und schreiben dann.",
+  "watch": "Lass ein Kind bei jedem Wort den Selbstlaut vor der Lücke nennen und sagen, ob er kurz oder lang klingt. Wer das nicht hört, übt mit Wortpaaren, die sich nur darin unterscheiden; das betrifft oft Kinder, die Deutsch als Zweitsprache lernen oder im Dialekt anders sprechen, denn nicht jede Sprache unterscheidet kurze und lange Selbstlaute. Einsilbige Wörter verlängern die Kinder: Ball, Bäl-le. Jedes Arbeitsblatt übt eine Regel; nimm pro Woche eine.",
+  "mistake": "Die Kinder schreiben, was sie hören, und man hört einen doppelten Mitlaut nicht doppelt: „Bal“, „Sone“, „Bet“. Sie verdoppeln auch nach einem langen Selbstlaut („Schulle“, „Hasse“) oder schreiben kk statt ck. Das lange i schreiben sie mit einfachem i: „Bine“."
+ },
+ "2:compound-words": {
+  "words": "Sag: „Ein zusammengesetztes Nomen besteht aus zwei Wörtern, und beide haben noch ihre Bedeutung: Haus und Tür, die Tür vom Haus.“ Zum Trennen: „Ist der vordere Teil ein Wort? Ist der hintere Teil ein Wort?“ Zu Wörtern wie Sonnenblume: „Manchmal kommt zwischen die zwei Wörter noch ein Buchstabe: Sonne-n-blume.“ Und: „Das letzte Wort bestimmt den Begleiter: die Tür, also die Haustür. Wir schreiben alles in einem Wort.“",
+  "watch": "Das Kind sagt beide Teile und erklärt das ganze Wort mit beiden Teilen („ein Schuh für die Hand“). Eine Trennung, bei der ein Teil kein Wort ist, fällt dabei sofort auf. Prüfe, ob das neue Wort zusammengeschrieben ist und mit einem Großbuchstaben beginnt."
+ },
+ "2:root-words": {
+  "mistake": "Die Kinder kreisen nur die Buchstaben ein, die in allen drei Wörtern genau gleich gedruckt sind, und stolpern über den Umlaut: Bei zählen, Zahl, bezahlen finden sie keinen gemeinsamen Teil. Oder sie nehmen die Vorsilbe oder die Endung mit in den Kreis.",
+  "words": "Sag: „Der Wortstamm ist der Teil, der in allen drei Wörtern dasselbe bedeutet: spielen, Spieler, Spielzeug. Worum geht es bei allen?“ Decke Vorsilben und Endungen mit dem Finger ab. Zum Umlaut: „Aus a kann ä werden. Der Stamm bleibt derselbe: Zahl, zählen.“ Und: „In den Stein schreibst du den Stamm als Nomen, also groß: Spiel, Zahl.“"
+ },
+ "2:prefixes": {
+  "words": "Sag: „Die Vorsilbe un- macht das Gegenteil: glücklich, unglücklich.“ Gib jeder Vorsilbe ein Bild: „ein-: hinein. aus-: hinaus. um-: herum oder anders.“ Spiele es am Bus: „einsteigen, aussteigen, umsteigen.“ Und: „Vorsilbe und Wort schreiben wir zusammen: einsteigen. Im Satz wandert die Vorsilbe oft ans Ende: Ich steige ein.“"
+ },
+ "2:synonyms": {
+  "words": "Sag: „Ein Wort mit gleicher Bedeutung kann den Platz des ersten einnehmen. Probiere es im Satz: Der Weg ist schmal. Der Weg ist eng.“ Frage: „Sagt der Satz noch fast dasselbe?“ Achte darauf, dass die Wortart gleich bleibt: ein Adjektiv für ein Adjektiv, ein Verb für ein Verb."
+ },
+ "2:retell-with-starters": {
+  "mistake": "Die Kinder beschreiben jedes Bild einzeln („Da ist ein Hund“), statt zu erzählen, was geschieht. Sie wechseln mitten in der Geschichte die Zeitform oder lassen das vorgegebene Anfangswort stehen und beginnen daneben einen neuen Satz.",
+  "watch": "Das Kind liest seine Geschichte einem anderen Kind vor, das die Bilder nicht sieht. Versteht das andere Kind, was passiert, ist die Geschichte erzählt. Achte auf Sätze wie „Dann der Hund rennt“; dort steht das Verb an der falschen Stelle, oft bei Kindern, die Deutsch als Zweitsprache lernen."
+ },
+ "2:cursive-writing": {
+  "words": "Sag: „Bei diesen kurzen Wörtern bleibt der Stift auf dem Papier, bis das Wort geschrieben ist. Dann gehst du zurück: i-Punkt, t-Strich.“ Sprich die Bewegung mit: „hinauf, hinunter und hinüber zum nächsten Buchstaben.“ Lass erst groß in die Luft schreiben, dann auf das Blatt. Bei längeren Wörtern dürfen die Kinder später an passenden Stellen absetzen; wichtig ist, dass die Bewegung flüssig bleibt.",
+  "watch": "Schau auf den Stift, nicht auf das Blatt: Wird er im Wort abgesetzt? Prüfe, ob jede Verbindung dort beginnt, wo der Buchstabe davor aufgehört hat, und ob die Buchstaben auf der Linie stehen. Rechtshänder drehen das Blatt mit der oberen Kante nach links, Linkshänder nach rechts, damit die Hand unter dem Geschriebenen bleibt. Die Arbeitsblätter zeigen die Vereinfachte Ausgangsschrift; schreibt deine Schule eine andere Schrift, etwa die Lateinische Ausgangsschrift oder die Schulausgangsschrift, nimm Arbeitsblätter in dieser Schrift."
+ },
+ "3:person-words": {
+  "words": "Sag: „Ein Maler ist ein Mann, der malt. Eine Malerin ist eine Frau, die malt.“ Dann die zwei Regeln: „Aus dem Verb wird ein Nomen, also schreiben wir es groß. Schau auf das Bild: Mann oder Frau? Bei der Frau kommt -in dazu.“ Sprich Wörter mit Umlaut vor: „backen, der Bäcker.“ Zur Probe: „Ist ein Fenster jemand, der etwas tut?“",
+  "watch": "Das Kind erklärt jedes neue Wort mit „jemand, der …“ oder „eine Frau, die …“. Prüfe den großen Anfangsbuchstaben, die Endung -erin und die Wörter mit Umlaut; dort sammeln sich die Fehler. Sprich auch über Wörter wie Wecker und Bohrer: Sie kommen von einem Verb, sind aber Geräte und keine Personen."
+ },
+ "3:root-words-in-context": {
+  "mistake": "Die Kinder schreiben die Wörter in der Reihenfolge der Karten in die Lücken. Sie wählen allein nach der Bedeutung, die alle vier Wörter teilen, und achten nicht darauf, was der Satz braucht: ein Nomen, ein Verb in der passenden Form oder ein Adjektiv.",
+  "words": "Frage, was in die Lücke gehört: „Steht ein Begleiter vor der Lücke, der, die, das, ein oder eine, und folgt kein Nomen? Dann fehlt das Nomen, und es wird großgeschrieben. Fehlt das Wort, das sagt, was jemand tut? Dann brauchst du das Verb.“ Lies den Satz mit jedem Wort laut: „Welches klingt richtig?“ Jedes benutzte Wort wird durchgestrichen. Sag: „Alle vier haben denselben Wortstamm.“",
+  "watch": "Das Kind liest alle vier fertigen Sätze laut. Ein falsches Wort zieht ein zweites nach sich, deshalb klingen meist zwei Sätze falsch; lass das Kind die beiden Wörter tauschen. Prüfe die Groß- und Kleinschreibung: Sie verrät, ob das Kind die Wortart erkannt hat."
+ },
+ "1:pronouns": {
+  "objective": "Die Kinder wählen das Pronomen aus, das für ein Nomen stehen kann, und setzen es in einen Satz ein.",
+  "watch": "Prüfe die Sachen und Tiere mit „der“ und „die“ und Wörter mit „das“ wie Mädchen und Kind; auf diesen Arbeitsblättern entscheidet der Begleiter: das Mädchen, es. Sagt ein Kind beim Erzählen „sie“ für ein Mädchen, ist das im Alltag üblich und kein Fehler. Kinder, die Deutsch als Zweitsprache lernen, brauchen den Begleiter zu jedem Wort: Lass sie Wort und Begleiter immer zusammen sprechen."
+ },
+ "2:pronouns": {
+  "mistake": "Die Kinder verbinden ein Pronomen mit dem nächststehenden Namen und nicht mit dem, der gemeint ist. Das Wort „sie“ halten sie immer für eine einzelne Person, auch wenn es für mehrere steht. Beim Umschreiben ändern sie deshalb das Verb, obwohl es bleiben muss: Aus „Lena und Tim spielen“ wird „Sie spielt“.",
+  "words": "Frage: „Wer ist hier mit sie gemeint? Setze den Namen wieder ein. Sagt der Satz noch dasselbe?“ Beim Umschreiben: „Ein Junge oder ein Wort mit der: er. Ein Mädchen mit Namen oder ein Wort mit die: sie. Mehrere: auch sie. Das Verb bleibt, wie es ist: Lena und Tim spielen. Sie spielen.“",
+  "watch": "Mache bei jeder gezogenen Linie die Probe mit dem eingesetzten Namen. Lies die umgeschriebenen Sätze gemeinsam laut und vergleiche das Verb mit dem ersten Satz: Es darf sich nicht ändern. Ein Satz wie „Sie spielt“ für zwei Kinder klingt den meisten falsch, sobald sie ihn hören."
+ }
+}

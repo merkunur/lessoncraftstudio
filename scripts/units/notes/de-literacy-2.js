@@ -10,7 +10,7 @@ module.exports = {
   points: {
     '2:sentence-boundaries': {
       title: 'Satzanfang, Nomen und Satzzeichen',
-      objective: 'Die Kinder schreiben einen Satz mit großem Satzanfang, großen Nomen und Satzzeichen richtig auf und finden die Stelle, an der der erste von zwei Sätzen endet.',
+      objective: 'Die Kinder schreiben einen Satz mit großem Satzanfang, großgeschriebenen Nomen und Satzzeichen richtig auf und finden die Stelle, an der der erste von zwei Sätzen endet.',
       note: {
         mistake: 'Die Kinder schreiben den Satzanfang groß und vergessen die Nomen, oder umgekehrt. Bei zwei Sätzen ohne Punkt setzen sie den Punkt nach der ersten Zeile oder gar nicht, und der zweite Satz beginnt klein.',
         words: 'Sag: „Zwei Fragen für jeden Großbuchstaben: Ist es das erste Wort im Satz? Ist es ein Nomen, kann also der, die oder das davorstehen?“ Zum Satzende: „Lies laut. Wo machst du eine Pause, weil ein Gedanke fertig ist? Dort steht der Punkt. Von wem erzählt der zweite Satz?“',
@@ -21,9 +21,9 @@ module.exports = {
       title: 'Nomen, Verben und Adjektive sortieren',
       objective: 'Die Kinder entscheiden bei jedem Wort, ob es ein Nomen, ein Verb oder ein Adjektiv ist, und schreiben es in den passenden Kasten.',
       note: {
-        mistake: 'Die Kinder sortieren nach dem Thema statt nach der Wortart: „Sonne“ und „warm“ kommen zusammen. Bei Wörtern, die es als Nomen und als Verb gibt (das Spiel, spielen), verlassen sie sich auf den Anfang des Wortes.',
+        mistake: 'Die Kinder sortieren nach dem Thema statt nach der Wortart: „Sonne“ und „warm“ kommen zusammen. Bei Wortpaaren wie das Spiel und spielen oder das Essen und essen achten sie nicht auf den Anfangsbuchstaben und schreiben beide in denselben Kasten.',
         words: 'Gib drei Proben: „Nomen: Kannst du der, die oder das davorsetzen? Verb: Kannst du ich …, du …, er … sagen: ich male, du malst? Adjektiv: Kannst du fragen, wie etwas ist, und passt es vor ein Nomen: der schnelle Hund?“ Bei einem Wort für zwei Kästen: „Sag einen Satz damit. Welche Wortart ist es in deinem Satz?“',
-        watch: 'Lass dir die Probe zeigen, nicht nur den Kasten. Auf der Seite ohne Bilder verrät der große Anfangsbuchstabe die Nomen; frage deshalb bei den kleingeschriebenen Wörtern nach, ob Verb oder Adjektiv.',
+        watch: 'Lass dir die Probe zeigen, nicht nur den Kasten. Auf dem Arbeitsblatt ohne Bilder verrät der große Anfangsbuchstabe die Nomen; frage deshalb bei den kleingeschriebenen Wörtern nach, ob Verb oder Adjektiv.',
       },
     },
     '2:plural-nouns': {
@@ -31,8 +31,8 @@ module.exports = {
       objective: 'Die Kinder schreiben zu Bildern mit mehreren Dingen die Mehrzahl des Nomens in den Satz.',
       note: {
         mistake: 'Die Kinder hängen an jedes Wort -s oder -en („Apfels“, „Hunden“) oder schreiben die Einzahl noch einmal. Den Umlaut vergessen sie: „Apfel“ statt Äpfel, „Hauser“ statt Häuser.',
-        words: 'Sprich zuerst: „Ein Apfel, viele … Äpfel. Ein Haus, viele … Häuser. Was hat sich geändert?“ Sag: „Die Mehrzahl hat viele Formen. Manchmal kommt etwas ans Ende, manchmal wird aus a, o, u ein ä, ö, ü, manchmal beides.“ In der Mehrzahl heißt der Begleiter immer „die“.',
-        watch: 'Lass jedes Kind Einzahl und Mehrzahl mit Begleiter sprechen: „der Apfel, die Äpfel“. Führe eine Klassenliste mit den Wörtern, die einen Umlaut bekommen. Kinder mit Deutsch als Zweitsprache lernen die Mehrzahl mit jedem Wort mit; eine Regel dafür gibt es nicht.',
+        words: 'Sprich zuerst: „Ein Apfel, viele … Äpfel. Ein Haus, viele … Häuser. Was hat sich geändert?“ Sag: „Die Mehrzahl hat viele Formen. Manchmal kommt etwas ans Ende, manchmal wird aus a, o, u, au ein ä, ö, ü, äu, manchmal beides, und manchmal bleibt das Wort gleich: ein Löffel, viele Löffel.“ In der Mehrzahl heißt der Begleiter immer „die“.',
+        watch: 'Lass jedes Kind Einzahl und Mehrzahl mit Begleiter sprechen: „der Apfel, die Äpfel“. Führe eine Klassenliste mit den Wörtern, die einen Umlaut bekommen. Kinder mit Deutsch als Zweitsprache lernen die Mehrzahl mit jedem Wort mit; eine sichere Regel dafür gibt es nicht.',
       },
     },
     '2:verb-forms': {
@@ -40,17 +40,17 @@ module.exports = {
       objective: 'Die Kinder schreiben die Personalformen eines Verbs auf, setzen sie in Sätze ein und üben die Formen von sein und haben.',
       note: {
         mistake: 'Die Kinder nehmen für jede Person dieselbe Form („du gehen“, „er gehe“) oder vergessen das t bei er, sie, es. Bei Verben, die den Selbstlaut wechseln, schreiben sie „er lauft“ und „du fahrst“. Bei sein verwechseln sie „seid“ und „seit“ und schreiben „du bis“.',
-        words: 'Sag: „Das Verb richtet sich nach der Person. Der Wortstamm bleibt, die Endung wechselt: ich male, du malst, er malt, wir malen, ihr malt, sie malen.“ Die Kinder markieren die Endung farbig. Zu sein und haben: „Diese zwei verändern sich stark. Die lernen wir auswendig: ich bin, du bist, er ist, wir sind, ihr seid, sie sind.“',
-        watch: 'Höre, welche Formen ein Kind beim Sprechen benutzt; viele sagen „er läuft“ und schreiben trotzdem „er lauft“, sobald die Seite nach einer Endung fragt. Kinder, die Deutsch als Zweitsprache lernen, üben die Reihe ich, du, er laut mit Bewegung, bevor sie schreiben.',
+        words: 'Sag: „Das Verb richtet sich nach der Person. Der Wortstamm bleibt, die Endung wechselt: ich male, du malst, er malt, wir malen, ihr malt, sie malen.“ Die Kinder markieren die Endung farbig. Zu Verben wie laufen und fahren: „Bei du und er ändert sich hier auch der Selbstlaut: ich laufe, du läufst, er läuft.“ Zu sein und haben: „Diese zwei verändern sich stark. Die lernen wir auswendig: ich bin, du bist, er ist, wir sind, ihr seid, sie sind. Ich habe, du hast, er hat, wir haben, ihr habt, sie haben.“',
+        watch: 'Höre, welche Formen ein Kind beim Sprechen benutzt; viele sagen „er läuft“ und schreiben trotzdem „er lauft“, sobald das Arbeitsblatt nach einer Endung fragt. Wo im Dialekt „er lauft“ und „du fahrst“ gesprochen wird, schreiben die Kinder, was sie sagen; nenne das Sprechen nicht falsch und sag, dass in der Schriftsprache der Umlaut steht. Kinder, die Deutsch als Zweitsprache lernen, üben die Reihe ich, du, er laut mit Bewegung, bevor sie schreiben.',
       },
     },
     '2:question-words': {
       title: 'Fragesätze schreiben',
-      objective: 'Die Kinder schreiben zu einer Antwort die Frage, die nach den markierten Wörtern fragt, und beenden Fragen mit warum und wie zu einem Bild.',
+      objective: 'Die Kinder schreiben zu einer Antwort die Frage, die nach den markierten Wörtern fragt, und schreiben zu einem Bild Fragen zu Ende, die mit warum oder wie beginnen.',
       note: {
         mistake: 'Die Kinder schreiben einen Aussagesatz mit Fragezeichen („Der Hund ist im Garten?“), oder sie beginnen mit dem richtigen Fragewort und lassen das Verb am Ende („Wo der Hund ist?“). Das Fragezeichen fehlt oft.',
         words: 'Sag: „Die markierten Wörter sind die ANTWORT. Welches Fragewort fragt nach einem Ort? Nach einem Grund? Nach der Art und Weise?“ Baue die Frage laut: „Der Hund ist im Garten. Wo … ist der Hund?“ Zeige den Tausch: „Nach dem Fragewort kommt gleich das Verb: Wo ist der Hund? Am Ende steht das Fragezeichen.“',
-        watch: 'Lass Frage und Antwort als Gespräch vorlesen. Passt die Antwort nicht zur Frage, hat das Kind das falsche Fragewort gewählt. Prüfe die Stelle des Verbs und das Fragezeichen.',
+        watch: 'Lass Frage und Antwort als Gespräch vorlesen. Passt die Antwort nicht zur Frage, hat das Kind das falsche Fragewort gewählt. Prüfe die Stelle des Verbs und das Fragezeichen; Kinder, die Deutsch als Zweitsprache lernen, sprechen das Muster „Wo ist …? Was macht …?“ mehrmals, bevor sie schreiben.',
       },
     },
     '2:digraphs': {
@@ -66,9 +66,9 @@ module.exports = {
       title: 'Rechtschreibregeln: doppelte Mitlaute, ck und ie',
       objective: 'Die Kinder lesen eine Rechtschreibregel, setzen in Bildwörter die fehlenden Buchstaben ein und sortieren Wörter nach ihrer Schreibweise.',
       note: {
-        mistake: 'Die Kinder schreiben, was sie hören, und man hört einen doppelten Mitlaut nicht doppelt: „Bal“, „Sone“, „Bet“. Sie verdoppeln auch nach einem langen Selbstlaut („Bootte“) oder schreiben kk statt ck. Das lange i schreiben sie mit einfachem i: „Bine“.',
-        words: 'Lies die Regel im Kasten gemeinsam und mache eine Frage daraus: „Ist der Selbstlaut davor kurz oder lang?“ Sprich Paare: „Miete, Mitte. Hüte, Hütte.“ Sag: „Nach einem kurzen Selbstlaut kommt der Mitlaut doppelt: Ball, Sonne. Statt kk schreiben wir ck. Das lange i schreiben wir meistens ie.“ Die Kinder sprechen das Wort, zeigen kurz oder lang mit der Hand und schreiben dann.',
-        watch: 'Lass ein Kind bei jedem Wort den Selbstlaut vor der Lücke nennen und sagen, ob er kurz oder lang klingt. Wer das nicht hört, übt mit Wortpaaren, die sich nur darin unterscheiden. Jede Seite übt eine Regel; nimm pro Woche eine.',
+        mistake: 'Die Kinder schreiben, was sie hören, und man hört einen doppelten Mitlaut nicht doppelt: „Bal“, „Sone“, „Bet“. Sie verdoppeln auch nach einem langen Selbstlaut („Schulle“, „Hasse“) oder schreiben kk statt ck. Das lange i schreiben sie mit einfachem i: „Bine“.',
+        words: 'Lies die Regel im Kasten gemeinsam und mache eine Frage daraus: „Ist der Selbstlaut davor kurz oder lang?“ Sprich Paare: „Miete, Mitte. Hüte, Hütte.“ Sag: „Hörst du nach einem kurzen Selbstlaut nur EINEN Mitlaut, schreibst du ihn doppelt: Ball, Sonne. Hörst du zwei verschiedene Mitlaute, bleibt es dabei: Hund, Heft. Statt kk schreiben wir ck. Das lange i schreiben wir meistens ie.“ Arbeitet deine Schule mit Silben, schwinge das Wort: „Son-ne: Das n gehört zu beiden Silben, also schreibst du es zweimal.“ Die Kinder sprechen das Wort, zeigen kurz oder lang mit der Hand und schreiben dann.',
+        watch: 'Lass ein Kind bei jedem Wort den Selbstlaut vor der Lücke nennen und sagen, ob er kurz oder lang klingt. Wer das nicht hört, übt mit Wortpaaren, die sich nur darin unterscheiden; das betrifft oft Kinder, die Deutsch als Zweitsprache lernen oder im Dialekt anders sprechen, denn nicht jede Sprache unterscheidet kurze und lange Selbstlaute. Einsilbige Wörter verlängern die Kinder: Ball, Bäl-le. Jedes Arbeitsblatt übt eine Regel; nimm pro Woche eine.',
       },
     },
     '2:compound-words': {
@@ -76,16 +76,16 @@ module.exports = {
       objective: 'Die Kinder setzen zwei Wörter zu einem zusammengesetzten Nomen zusammen und finden die Stelle, an der ein zusammengesetztes Nomen in seine zwei Wörter zerfällt.',
       note: {
         mistake: 'Die Kinder trennen ein Wort nach den ersten Buchstaben und nicht dort, wo das zweite Wort beginnt („Haust-ür“). Beim Verbinden wählen sie zwei Bilder, die zusammengehören (Sonne und Mond), statt zwei, die ein Wort ergeben (Sonne und Blume). Das neue Wort schreiben sie in zwei Wörtern.',
-        words: 'Sag: „Ein zusammengesetztes Nomen besteht aus zwei ganzen Wörtern, und beide haben noch ihre Bedeutung: Haus und Tür, die Tür vom Haus.“ Zum Trennen: „Ist der vordere Teil ein Wort? Ist der hintere Teil ein Wort?“ Und: „Das letzte Wort bestimmt den Begleiter: die Tür, also die Haustür. Wir schreiben alles in einem Wort.“',
-        watch: 'Das Kind sagt beide Teile und erklärt das ganze Wort mit beiden Teilen („ein Schuh für die Hand“). Eine Trennung, bei der ein Teil kein Wort ist, fällt dabei sofort auf. Prüfe, ob das neue Wort zusammen und groß geschrieben ist.',
+        words: 'Sag: „Ein zusammengesetztes Nomen besteht aus zwei Wörtern, und beide haben noch ihre Bedeutung: Haus und Tür, die Tür vom Haus.“ Zum Trennen: „Ist der vordere Teil ein Wort? Ist der hintere Teil ein Wort?“ Zu Wörtern wie Sonnenblume: „Manchmal kommt zwischen die zwei Wörter noch ein Buchstabe: Sonne-n-blume.“ Und: „Das letzte Wort bestimmt den Begleiter: die Tür, also die Haustür. Wir schreiben alles in einem Wort.“',
+        watch: 'Das Kind sagt beide Teile und erklärt das ganze Wort mit beiden Teilen („ein Schuh für die Hand“). Eine Trennung, bei der ein Teil kein Wort ist, fällt dabei sofort auf. Prüfe, ob das neue Wort zusammengeschrieben ist und mit einem Großbuchstaben beginnt.',
       },
     },
     '2:root-words': {
       title: 'Wortstamm und Wortfamilie',
       objective: 'Die Kinder kreisen den Teil ein, den drei verwandte Wörter gemeinsam haben, schreiben ihn als Nomen auf und sortieren Wörter nach ihrem Wortstamm.',
       note: {
-        mistake: 'Die Kinder kreisen nur die Buchstaben ein, die in allen drei Wörtern genau gleich gedruckt sind, und stolpern über den Umlaut: Bei Bäcker, backen, Gebäck finden sie keinen gemeinsamen Teil. Oder sie nehmen die Vorsilbe oder die Endung mit in den Kreis.',
-        words: 'Sag: „Der Wortstamm ist der Teil, der in allen drei Wörtern dasselbe bedeutet: spielen, Spieler, Spielzeug. Worum geht es bei allen?“ Decke Vorsilben und Endungen mit dem Finger ab. Zum Umlaut: „Aus a kann ä werden. Der Stamm bleibt derselbe: backen, Bäcker.“ Und: „In den Stein schreibst du den Stamm als Nomen, also groß.“',
+        mistake: 'Die Kinder kreisen nur die Buchstaben ein, die in allen drei Wörtern genau gleich gedruckt sind, und stolpern über den Umlaut: Bei zählen, Zahl, bezahlen finden sie keinen gemeinsamen Teil. Oder sie nehmen die Vorsilbe oder die Endung mit in den Kreis.',
+        words: 'Sag: „Der Wortstamm ist der Teil, der in allen drei Wörtern dasselbe bedeutet: spielen, Spieler, Spielzeug. Worum geht es bei allen?“ Decke Vorsilben und Endungen mit dem Finger ab. Zum Umlaut: „Aus a kann ä werden. Der Stamm bleibt derselbe: Zahl, zählen.“ Und: „In den Stein schreibst du den Stamm als Nomen, also groß: Spiel, Zahl.“',
         watch: 'Frage vor dem Einkreisen, was die drei Wörter in der BEDEUTUNG gemeinsam haben. Das Kind liest dann das Wort im Stein: Ist es ein Wort, das es gibt? Wer verwandte Wörter erkennt, hat auch eine Rechtschreibhilfe: Bäcker schreibt man mit ä, weil es von backen kommt.',
       },
     },
@@ -94,7 +94,7 @@ module.exports = {
       objective: 'Die Kinder setzen eine Vorsilbe vor ein Wort, schreiben das neue Wort auf und wählen die Vorsilbe nach der Bedeutung des neuen Wortes.',
       note: {
         mistake: 'Die Kinder schreiben Vorsilbe und Wort getrennt („un glücklich“) oder das Adjektiv plötzlich groß. Bei ein-, aus- und um- raten sie nach dem Klang, ohne zu lesen, was das neue Wort bedeuten soll: einsteigen, aussteigen und umsteigen sind für sie dasselbe.',
-        words: 'Sag: „Die Vorsilbe un- macht das Gegenteil: glücklich, unglücklich.“ Gib jeder Vorsilbe ein Bild: „ein-: hinein. aus-: hinaus. um-: herum oder anders.“ Spiele es am Bus: „Ich steige ein. Ich steige aus. Ich steige um.“ Und: „Vorsilbe und Wort schreiben wir zusammen.“',
+        words: 'Sag: „Die Vorsilbe un- macht das Gegenteil: glücklich, unglücklich.“ Gib jeder Vorsilbe ein Bild: „ein-: hinein. aus-: hinaus. um-: herum oder anders.“ Spiele es am Bus: „einsteigen, aussteigen, umsteigen.“ Und: „Vorsilbe und Wort schreiben wir zusammen: einsteigen. Im Satz wandert die Vorsilbe oft ans Ende: Ich steige ein.“',
         watch: 'Das Kind erklärt jedes neue Wort mit eigenen Worten. Prüfe Wörter, bei denen die Vorsilbe auf denselben Buchstaben trifft, mit dem das Wort beginnt (un-nötig): Dort fehlt gern ein Buchstabe.',
       },
     },
@@ -102,8 +102,8 @@ module.exports = {
       title: 'Wörter mit gleicher Bedeutung',
       objective: 'Die Kinder finden zu einem Wort ein anderes mit gleicher Bedeutung und verbinden Wortpaare, die dasselbe bedeuten.',
       note: {
-        mistake: 'Die Kinder wählen ein Wort, das oft neben dem ersten steht (kalt und Eis, groß und Haus), und nicht eines, das an seiner Stelle stehen könnte. Auf der Seite zum Verbinden verbinden sie die leichten Paare und dann die übrigen Wörter, ohne sie zu lesen.',
-        words: 'Sag: „Ein Wort mit gleicher Bedeutung kann den Platz des ersten einnehmen. Probiere es im Satz: Der Weg ist schmal. Der Weg ist eng.“ Frage: „Sagt der Satz noch fast dasselbe?“ Achte darauf, dass die Wortart gleich bleibt: ein Wiewort für ein Wiewort.',
+        mistake: 'Die Kinder wählen ein Wort, das oft neben dem ersten steht (kalt und Eis, groß und Haus), und nicht eines, das an seiner Stelle stehen könnte. Auf dem Arbeitsblatt zum Verbinden verbinden sie die leichten Paare und dann die übrigen Wörter, ohne sie zu lesen.',
+        words: 'Sag: „Ein Wort mit gleicher Bedeutung kann den Platz des ersten einnehmen. Probiere es im Satz: Der Weg ist schmal. Der Weg ist eng.“ Frage: „Sagt der Satz noch fast dasselbe?“ Achte darauf, dass die Wortart gleich bleibt: ein Adjektiv für ein Adjektiv, ein Verb für ein Verb.',
         watch: 'Lass ein Kind zu einem verbundenen Paar den Satz mit beiden Wörtern sagen. Paare, die übrig geblieben und einfach verbunden worden sind, fallen dabei auf.',
       },
     },
@@ -147,9 +147,9 @@ module.exports = {
       title: 'Eine Bildergeschichte schreiben',
       objective: 'Die Kinder schreiben zu jedem Bild einer Bildergeschichte auf, was passiert, und beginnen mit dem Wort, das auf der ersten Linie schon steht.',
       note: {
-        mistake: 'Die Kinder beschreiben jedes Bild einzeln („Da ist ein Hund“), statt zu erzählen, was geschieht. Sie wechseln mitten in der Geschichte die Zeit oder lassen das vorgegebene Anfangswort stehen und beginnen daneben einen neuen Satz.',
+        mistake: 'Die Kinder beschreiben jedes Bild einzeln („Da ist ein Hund“), statt zu erzählen, was geschieht. Sie wechseln mitten in der Geschichte die Zeitform oder lassen das vorgegebene Anfangswort stehen und beginnen daneben einen neuen Satz.',
         words: 'Lass die Geschichte zuerst erzählen: „Was passiert zuerst? Und dann? Wie geht es aus?“ Sag: „Das Wort auf der Linie ist der Anfang deines Satzes: Zuerst …, Dann …, Danach …, Zum Schluss …“. Nach diesen Wörtern kommt gleich das Verb: „Dann rennt der Hund los.“',
-        watch: 'Das Kind liest seine Geschichte einem anderen Kind vor, das die Bilder nicht sieht. Versteht das andere Kind, was passiert, ist die Geschichte erzählt. Achte auf Sätze wie „Dann der Hund rennt“; dort steht das Verb an der falschen Stelle.',
+        watch: 'Das Kind liest seine Geschichte einem anderen Kind vor, das die Bilder nicht sieht. Versteht das andere Kind, was passiert, ist die Geschichte erzählt. Achte auf Sätze wie „Dann der Hund rennt“; dort steht das Verb an der falschen Stelle, oft bei Kindern, die Deutsch als Zweitsprache lernen.',
       },
     },
     '2:animal-fact-file': {
@@ -166,8 +166,8 @@ module.exports = {
       objective: 'Die Kinder spuren i, u und t in Schreibschrift nach, schreiben sie verbunden weiter und verbinden zwei Buchstaben, ohne den Stift abzusetzen.',
       note: {
         mistake: 'Die Kinder setzen den Stift nach jedem Buchstaben ab und hängen den Verbindungsstrich nachträglich an; die Zeile besteht dann aus Druckbuchstaben mit Schwänzchen. Manche halten mitten im Wort an, um den i-Punkt oder den t-Strich zu setzen, und der Schreibfluss reißt ab.',
-        words: 'Sag: „Der Stift bleibt auf dem Papier, bis das ganze Wort geschrieben ist. Dann gehst du zurück: i-Punkt, t-Strich.“ Sprich die Bewegung mit: „hinauf, hinunter und hinüber zum nächsten Buchstaben.“ Erst groß in die Luft schreiben, dann auf das Blatt.',
-        watch: 'Schaue auf den Stift, nicht auf das Blatt: Wird er im Wort abgesetzt? Prüfe, ob jede Verbindung dort beginnt, wo der Buchstabe davor aufgehört hat, und ob die Buchstaben auf der Linie stehen. Rechtshänder drehen das Blatt mit der oberen Kante nach links, Linkshänder nach rechts, damit die Hand unter dem Geschriebenen bleibt. Die Seiten zeigen die Vereinfachte Ausgangsschrift; schreibt deine Schule eine andere Schrift, nimm die Seiten in dieser Schrift.',
+        words: 'Sag: „Bei diesen kurzen Wörtern bleibt der Stift auf dem Papier, bis das Wort geschrieben ist. Dann gehst du zurück: i-Punkt, t-Strich.“ Sprich die Bewegung mit: „hinauf, hinunter und hinüber zum nächsten Buchstaben.“ Lass erst groß in die Luft schreiben, dann auf das Blatt. Bei längeren Wörtern dürfen die Kinder später an passenden Stellen absetzen; wichtig ist, dass die Bewegung flüssig bleibt.',
+        watch: 'Schau auf den Stift, nicht auf das Blatt: Wird er im Wort abgesetzt? Prüfe, ob jede Verbindung dort beginnt, wo der Buchstabe davor aufgehört hat, und ob die Buchstaben auf der Linie stehen. Rechtshänder drehen das Blatt mit der oberen Kante nach links, Linkshänder nach rechts, damit die Hand unter dem Geschriebenen bleibt. Die Arbeitsblätter zeigen die Vereinfachte Ausgangsschrift; schreibt deine Schule eine andere Schrift, etwa die Lateinische Ausgangsschrift oder die Schulausgangsschrift, nimm Arbeitsblätter in dieser Schrift.',
       },
     },
   },

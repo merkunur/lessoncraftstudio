@@ -12,9 +12,9 @@ module.exports = {
       title: 'Hunderter, Zehner und Einer',
       objective: 'Die Kinder lesen eine dreistellige Zahl ab, die mit Hunderterplatten, Zehnerstangen und Einerwürfeln gelegt ist, und füllen die Stellenwerttafel aus.',
       note: {
-        mistake: 'Die Kinder schreiben die Anzahlen auf, die sie sehen, und lassen eine leere Stelle aus: Zwei Platten und sechs Würfel werden zu 26. Beim Diktat schreiben dieselben Kinder, was sie hören: Aus zweihundertsechs wird 2006, und bei „zweihundertvierunddreißig“ drehen sie Zehner und Einer zu 243.',
+        mistake: 'Die Kinder schreiben die Anzahlen auf, die sie sehen, und lassen eine leere Stelle aus: Zwei Platten und sechs Würfel werden zu 26. Beim Zahlendiktat, das nicht auf den Arbeitsblättern steht, schreiben dieselben Kinder, was sie hören: Aus zweihundertsechs wird 2006, und bei „zweihundertvierunddreißig“ vertauschen sie Zehner und Einer zu 243.',
         words: 'Zähle nach Stellen: „100, 200 … 210, 220 … 221, 222.“ Sag: „Jede Stelle braucht eine Ziffer. Keine Zehner? Dann hält die Null den Platz frei.“ Frage: „Was ist die 2 in 206 wert? Und die 0? Und die 6?“ In der Stellenwerttafel stehen H, Z und E.',
-        watch: 'Prüfe zuerst alle Zahlen mit einer Null an der Zehner- oder Einerstelle. Ein Kind, das für zwei Platten und sechs Würfel 26 schreibt, behält die Stellenwerttafel vorerst neben jeder Zahl.',
+        watch: 'Prüfe zuerst alle Zahlen mit einer Null an der Zehner- oder Einerstelle. Ein Kind, das für zwei Platten und sechs Würfel 26 schreibt, trägt vorerst jede Zahl in die Stellenwerttafel ein, bevor es sie aufschreibt.',
       },
     },
     '2:expanded-form-digit-value': {
@@ -22,7 +22,7 @@ module.exports = {
       objective: 'Die Kinder ordnen einer Menge von Hundertern, Zehnern und Einern die passende Zerlegung zu und sagen, was eine unterstrichene Ziffer wert ist.',
       note: {
         mistake: 'Die Kinder sagen, eine unterstrichene 4 sei „4“ wert, egal wo sie steht. Bei 345 wählen sie 300 + 4 + 5 und behandeln die Zehnerziffer wie Einer.',
-        words: 'Frage: „An welcher Stelle steht die Ziffer? An der Zehnerstelle, also sind es 4 Zehner. Was sind 4 Zehner wert?“ (40.) Sprich eine Zahl in Teilen: „345 ist 300 und 40 und 5.“ Schreiben und lies beide Formen.',
+        words: 'Frage: „An welcher Stelle steht die Ziffer? An der Zehnerstelle, also sind es 4 Zehner. Was sind 4 Zehner wert?“ (40.) Sprich eine Zahl in Teilen: „345 ist 300 und 40 und 5.“ Schreibe beide Formen an und lies sie vor: 345 und 300 + 40 + 5.',
         watch: 'Frage nach dem Wert derselben Ziffer an zwei Stellen, etwa in 44 oder 404. Ein Kind, das beide Male „vier“ antwortet, nennt die Ziffer und nicht ihren Wert.',
       },
     },
@@ -39,9 +39,9 @@ module.exports = {
       title: '100 mehr, 100 weniger',
       objective: 'Die Kinder schreiben zu einer dreistelligen Zahl die Zahl, die 100 weniger ist, und die Zahl, die 100 mehr ist.',
       note: {
-        mistake: 'Die Kinder ändern die Zehner- oder die Einerziffer, oder sie zählen in Einern hoch und geben auf. 100 weniger als eine Zahl knapp über 100, etwa 105, lässt sie ohne Hunderterziffer zurück; sie wissen nicht, was sie schreiben sollen.',
+        mistake: 'Die Kinder ändern die Zehner- oder die Einerziffer, oder sie zählen in Einern hoch und geben auf. Bei 100 weniger als einer Zahl knapp über 100, etwa 105, bleibt kein Hunderter übrig; die Kinder wissen dann nicht, was sie schreiben sollen.',
         words: 'Frage: „100 mehr. Welche Ziffer ändert sich? Welche zwei bleiben gleich?“ Sag: „Nur die Hunderterziffer ändert sich. 347, 447.“ Zähle von einer beliebigen Zahl in Hunderterschritten: „26, 126, 226, 326.“ Dann mit 10: „347, 357. Welche Ziffer hat sich diesmal geändert?“',
-        watch: 'Wer antwortet sofort, indem er eine Ziffer ändert, und wer zählt noch? Gib eine Zahl über 900 und sprich darüber, was nach 9 Hundertern kommt: der Tausender.',
+        watch: 'Wer antwortet sofort, indem er eine Ziffer ändert, und wer zählt noch? Gib eine Zahl über 900 vor und sprich mit der Klasse darüber, was nach 9 Hundertern kommt: der Tausender.',
       },
     },
     '2:round-to-ten': {
@@ -72,7 +72,7 @@ module.exports = {
       },
     },
     '2:add-with-blocks': {
-      title: 'Mit Blöcken addieren',
+      title: 'Mit Platten, Stangen und Würfeln addieren',
       objective: 'Die Kinder legen zwei Mengen aus Hundertern, Zehnern und Einern zusammen und schreiben das Ergebnis auf.',
       note: {
         mistake: 'Die Kinder zählen jede Sorte Blöcke und schreiben die drei Anzahlen nebeneinander, auch wenn es 12 Einer oder 11 Zehner sind: Aus 2 Hundertern, 4 Zehnern und 12 Einern wird 2412.',
@@ -81,20 +81,20 @@ module.exports = {
       },
     },
     '2:subtract-with-blocks': {
-      title: 'Mit Blöcken subtrahieren',
+      title: 'Mit Platten, Stangen und Würfeln subtrahieren',
       objective: 'Die Kinder nehmen eine Menge von Blöcken von einer anderen weg und schreiben auf, wie viel übrig bleibt.',
       note: {
         mistake: 'Reichen die Einer nicht, ziehen die Kinder an jeder Stelle die kleinere Ziffer von der größeren ab (aus 52 − 17 wird 45), oder sie sagen, das gehe nicht.',
-        words: 'Sag: „Ich soll 7 Einer wegnehmen und habe nur 2. Ich tausche einen Zehner in zehn Einer. Jetzt habe ich 12 Einer.“ Frage: „Wie viele Zehner sind nach dem Tauschen noch da?“ Auf der Seite werden die Blöcke durchgestrichen, die weggenommen sind. Für dieses Tauschen sagt man auch „entbündeln“.',
-        watch: 'Prüfe die Aufgaben, bei denen die zweite Zahl mehr Einer hat als die erste. Ein Kind, das den Unterschied der Ziffern hinschreibt, bricht ein paarmal eine echte Zehnerstange in Einer auf.',
+        words: 'Sag: „Ich soll 7 Einer wegnehmen und habe nur 2. Ich tausche einen Zehner in zehn Einer. Jetzt habe ich 12 Einer.“ Frage: „Wie viele Zehner sind nach dem Tauschen noch da?“ Die Kinder streichen die Blöcke durch, die sie wegnehmen. Für dieses Tauschen sagt man auch „entbündeln“.',
+        watch: 'Prüfe die Aufgaben, bei denen die zweite Zahl mehr Einer hat als die erste. Ein Kind, das den Unterschied der Ziffern hinschreibt, tauscht ein paarmal mit echtem Material eine Zehnerstange gegen zehn Einerwürfel.',
       },
     },
     '2:column-method': {
       title: 'Schriftlich addieren und subtrahieren ohne Übertrag',
       objective: 'Die Kinder rechnen zweistellige Aufgaben schriftlich untereinander, Stelle für Stelle: zuerst die Einer, dann die Zehner.',
       note: {
-        mistake: 'Die Kinder beginnen links bei den Zehnern, weil sie von links lesen. Ohne Übertrag stimmt das Ergebnis trotzdem, aber die Gewohnheit führt bei der nächsten Seite in den Fehler. Beim Abschreiben einer Aufgabe stehen die Ziffern nicht sauber untereinander. Beim Minus ziehen manche die obere Ziffer von der unteren ab.',
-        words: 'Sag: „Einer unter Einer, Zehner unter Zehner. Wir fangen IMMER rechts bei den Einern an.“ Sprich jede Stelle: „4 Einer plus 5 Einer sind 9 Einer. 2 Zehner plus 3 Zehner sind 5 Zehner.“ Beim Minus: „Von oben nach unten: 8 Einer minus 3 Einer.“',
+        mistake: 'Die Kinder beginnen links bei den Zehnern, weil sie von links lesen. Ohne Übertrag stimmt das Ergebnis trotzdem, aber die Gewohnheit führt auf dem nächsten Arbeitsblatt in den Fehler. Schreiben die Kinder eine Aufgabe selbst ins Heft, stehen die Ziffern oft nicht sauber untereinander. Manche rechnen bei einer Minusaufgabe plus, weil die Aufgaben gleich aussehen.',
+        words: 'Sag: „Einer unter Einer, Zehner unter Zehner. Wir fangen IMMER rechts bei den Einern an.“ Sprich jede Stelle: „4 Einer plus 5 Einer sind 9 Einer. 2 Zehner plus 3 Zehner sind 5 Zehner.“ Beim Minus sprich so, wie das Verfahren an deiner Schule eingeführt wird: beim Abziehen „8 Einer minus 3 Einer sind 5 Einer“, beim Ergänzen „3 Einer plus wie viele Einer sind 8 Einer?“.',
         watch: 'Sieh zu, an welcher Stelle ein Kind beginnt. Wer bei den Zehnern anfängt, rechnet die Aufgabe noch einmal und spricht dabei jede Stelle laut. Lass vor dem Rechnen überschlagen: „Wie viel wird es ungefähr?“',
       },
     },
@@ -103,17 +103,17 @@ module.exports = {
       objective: 'Die Kinder rechnen bis 1000 schriftlich plus und minus und beachten den Übertrag, wenn an einer Stelle mehr als neun zusammenkommen oder nicht genug da ist.',
       note: {
         mistake: 'Die Kinder vergessen, den Übertrag an der nächsten Stelle mitzurechnen, oder sie schreiben ihn hin und rechnen ihn zweimal. Beim Minus ziehen sie an einer Stelle die kleinere Ziffer von der größeren ab; bei einer Null an der Zehnerstelle (402 − 178) wissen sie nicht weiter.',
-        words: 'Sprich jeden Schritt: „8 Einer plus 7 Einer sind 15 Einer. Das sind 1 Zehner und 5 Einer. Schreibe die 5 und merke den Zehner als kleine 1 bei den Zehnern.“ Beim Minus sprich das Verfahren so, wie es an deiner Schule eingeführt ist, mit Entbündeln oder mit Ergänzen; die Kinder sagen jedes Mal, was die kleine 1 bedeutet: „ein Zehner“, nicht „eins“.',
+        words: 'Sprich jeden Schritt: „8 Einer plus 7 Einer sind 15 Einer. Das sind 1 Zehner und 5 Einer. Schreibe die 5 und notiere den Zehner als kleine 1 bei den Zehnern.“ Beim Minus sprich das Verfahren so, wie es an deiner Schule eingeführt ist, mit Entbündeln oder mit Ergänzen; die Kinder sagen jedes Mal, was die kleine 1 bedeutet: „ein Zehner“, nicht „eins“.',
         watch: 'Prüfe zuerst die Minusaufgaben mit einer Null in der oberen Zahl. Die Kinder machen zu jeder Minusaufgabe die Probe mit der Plusaufgabe, und sie überschlagen vor dem Rechnen: „Wie viel wird es ungefähr?“',
       },
     },
     '3:mult-div-relationship': {
-      title: 'Der fehlende Faktor und Mal-Familien',
-      objective: 'Die Kinder finden den fehlenden Faktor zu einem Punktefeld und schreiben die zwei Malaufgaben und die zwei Geteilt-Aufgaben auf, die zu ihm gehören.',
+      title: 'Wiederholung: Der fehlende Faktor und Aufgabenfamilien',
+      objective: 'Die Kinder finden den fehlenden Faktor zu einem Punktefeld und schreiben die zwei Malaufgaben und die zwei Geteiltaufgaben auf, die zu ihm gehören.',
       note: {
-        mistake: 'Die Kinder behandeln eine Geteilt-Aufgabe als neue Aufgabe und nutzen die Malaufgabe nicht, die sie gerade geschrieben haben. In der Mal-Familie schreiben sie eine Geteilt-Aufgabe, die mit einer kleinen Zahl beginnt, etwa 4 : 24 = 6.',
-        words: 'Sag: „Geteilt fragt nach dem fehlenden Faktor. 24 : 4 fragt: 4 mal wie viel ist 24?“ Zeige auf das Punktefeld: „In der Mal-Familie wird die Gesamtzahl geteilt: 24 : 4, nicht 4 : 24.“ Die Kinder lesen alle vier Aufgaben eines Felds laut. Nenne die Geteilt-Aufgabe die „Umkehraufgabe“ der Malaufgabe.',
-        watch: 'Stelle eine Geteilt-Aufgabe und sieh, ob das Kind an die Malaufgabe denkt. Prüfe die Reihenfolge der Zahlen in jeder Geteilt-Aufgabe: Die Gesamtzahl, das ganze Feld, steht vorn. Sag „die Gesamtzahl“, nie „die größte Zahl“.',
+        mistake: 'Die Kinder behandeln eine Geteiltaufgabe als neue Aufgabe und nutzen die Malaufgabe nicht, die sie gerade geschrieben haben. In der Aufgabenfamilie schreiben sie eine Geteiltaufgabe, die mit einer kleinen Zahl beginnt, etwa 4 : 24 = 6.',
+        words: 'Sag: „Geteilt fragt nach dem fehlenden Faktor. 24 : 4 fragt: 4 mal wie viel ist 24?“ Zeige auf das Punktefeld: „In der Aufgabenfamilie wird die Gesamtzahl geteilt: 24 : 4, nicht 4 : 24.“ Die Kinder lesen alle vier Aufgaben eines Felds laut. Benutze die Wörter, die die Kinder aus Klasse 2 kennen: 6 · 4 ist die Tauschaufgabe zu 4 · 6, die Geteiltaufgaben sind die Umkehraufgaben der Malaufgaben; alle vier zusammen heißen Aufgabenfamilie (auf dem Arbeitsblatt: „Mal-Familie“).',
+        watch: 'Stelle eine Geteiltaufgabe und sieh, ob das Kind an die Malaufgabe denkt. Prüfe die Reihenfolge der Zahlen in jeder Geteiltaufgabe: Die Gesamtzahl, das ganze Feld, steht vorn. Sag „die Gesamtzahl“, nie „die größte Zahl“.',
       },
     },
     '3:muldiv-word-problems': {
@@ -121,15 +121,15 @@ module.exports = {
       objective: 'Die Kinder lösen Sachaufgaben mit gleich großen Gruppen und entscheiden, ob nach der Gesamtzahl, nach der Größe einer Gruppe oder nach der Zahl der Gruppen gefragt ist.',
       note: {
         mistake: 'Die Kinder suchen die zwei Zahlen heraus und rechnen jedes Mal mal, oder sie wählen die Rechenart nach einem Wort wie „je“. Sie fragen nicht, was die Antwort sein wird: eine Gesamtzahl, ein Anteil oder eine Zahl von Gruppen.',
-        words: 'Stelle zu jeder Aufgabe drei Fragen: „Wissen wir, wie viele Gruppen es sind? Wissen wir, wie viele in jeder Gruppe sind? Kennen wir die Gesamtzahl?“ Dann: „Was von den dreien fehlt?“ Die Kinder schreiben Frage, Rechnung und Antwort; der Antwortsatz ist ein ganzer Satz: „Jedes Kind bekommt 4 Sticker.“',
-        watch: 'Lies den Antwortsatz eines Kindes, nicht nur die Zahl. Eine nackte „4“ zeigt nicht, ob das Kind weiß, dass es 4 Sticker für jedes Kind sind oder 4 Tüten. Jede Seite hat nur eine Art von Aufgabe und nimmt dem Kind die Entscheidung ab: Lies von jeder Seite eine Aufgabe vor, gemischt und ohne Bild, und frage, was fehlt.',
+        words: 'Stelle zu jeder Aufgabe drei Fragen: „Wissen wir, wie viele Gruppen es sind? Wissen wir, wie viele in jeder Gruppe sind? Kennen wir die Gesamtzahl?“ Dann: „Was von den dreien fehlt?“ Nenne die beiden Arten des Teilens beim Namen: gerecht verteilen (Verteilen) und Gruppen bilden (Aufteilen). Die Kinder schreiben Frage, Rechnung und Antwort; die Antwort ist ein ganzer Satz: „Jedes Kind bekommt 4 Sticker.“',
+        watch: 'Lies den Antwortsatz eines Kindes, nicht nur die Zahl. Eine nackte „4“ zeigt nicht, ob das Kind weiß, dass es 4 Sticker für jedes Kind sind oder 4 Tüten. Jedes Arbeitsblatt hat nur eine Art von Aufgabe und nimmt dem Kind die Entscheidung ab: Lies von jedem Arbeitsblatt eine Aufgabe vor, gemischt und ohne Bild, und frage, was fehlt.',
       },
     },
     '3:division-remainder': {
       title: 'Teilen mit Rest',
       objective: 'Die Kinder bilden aus einem Haufen gleich große Gruppen oder verteilen ihn auf Kästen, schreiben auf, wie viele Gruppen es sind oder wie viele jeder Kasten bekommt, und schreiben den Rest auf.',
       note: {
-        mistake: 'Die Kinder lassen zu viele übrig: so viele wie eine Gruppe oder mehr auf der Seite zum Einkreisen, so viele wie die Zahl der Kästen oder mehr auf der Seite zum Verteilen, obwohl noch eine Gruppe oder eine Runde möglich wäre. Oder sie lassen den Rest weg und schreiben nur die Zahl der Gruppen.',
+        mistake: 'Die Kinder hören zu früh auf, und es bleibt zu viel übrig: beim Einkreisen so viele Bilder, dass noch eine Gruppe möglich wäre, beim Verteilen so viele, dass jeder Kasten noch eines bekommen könnte. Oder sie lassen den Rest weg und schreiben nur die Zahl der Gruppen.',
         words: 'Sag: „14 in Vierergruppen: drei Gruppen, und 2 bleiben übrig. 14 : 4 = 3 Rest 2.“ Frage: „Kannst du aus dem Rest noch eine Gruppe machen? Nein? Dann ist das der Rest.“ Beim Verteilen: „14 auf 4 Kästen. Reicht der Rest, damit jeder Kasten noch eins bekommt?“ Formuliere die Regel gemeinsam: „Der Rest ist immer kleiner als die Zahl, durch die wir teilen.“',
         watch: 'Vergleiche jeden Rest mit der Zahl, durch die geteilt wurde: der Größe einer Gruppe beim Einkreisen, der Zahl der Kästen beim Verteilen. Ein Rest von 5 bei Vierergruppen heißt: Im Rest steckt noch eine Gruppe. Die Probe: 3 · 4 + 2 = 14.',
       },
@@ -140,7 +140,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder lesen das Gleichheitszeichen als „jetzt kommt das Ergebnis“. Bei 8 + 4 = __ + 5 schreiben sie 12 in die Lücke, oder 17, weil sie alles zusammenrechnen.',
         words: 'Sag: „Das Gleichheitszeichen bedeutet: auf beiden Seiten GLEICH viel, wie bei einer Waage.“ Rechne erst eine Seite aus: „8 + 4 sind 12. Also muss die andere Seite auch 12 sein. Wie viel plus 5 sind 12?“ Lies das Zeichen als „ist genauso viel wie“.',
-        watch: 'Zeige drei schnelle Karten zum Entscheiden, wahr oder falsch: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. Ein Kind, das sie falsch nennt, „weil das Ergebnis auf der falschen Seite steht“, liest das Zeichen noch als Rechenbefehl; es arbeitet mit einer echten oder gezeichneten Waage und kleineren Zahlen.',
+        watch: 'Zeige kurz drei Karten und lass entscheiden, wahr oder falsch: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. Ein Kind, das sie falsch nennt, „weil das Ergebnis auf der falschen Seite steht“, liest das Zeichen noch als Rechenbefehl; es arbeitet mit einer echten oder gezeichneten Waage und kleineren Zahlen.',
       },
     },
     '3:parity-of-sums': {
@@ -148,7 +148,7 @@ module.exports = {
       objective: 'Die Kinder entscheiden an den Einerziffern der beiden Zahlen, ob eine Summe gerade oder ungerade sein wird, ohne zu rechnen.',
       note: {
         mistake: 'Die Kinder rechnen trotzdem und schauen dann auf das Ergebnis. Oder sie raten eine Regel, die sich richtig anfühlt: „Ungerade plus ungerade muss ungerade sein.“',
-        words: 'Probiere zuerst kleine Zahlen und sammle die Ergebnisse: „3 + 5 = 8. Ungerade plus ungerade … gerade!“ Frage nach dem Grund: „Bei jeder ungeraden Zahl bleibt eins übrig. Die zwei Übrigen bilden zusammen ein Paar.“ Stelle die drei Regeln gemeinsam auf: gerade + gerade, ungerade + ungerade, gerade + ungerade.',
+        words: 'Probiere es zuerst mit kleinen Zahlen, bevor du das Arbeitsblatt mit der Tabelle austeilst, und sammle die Ergebnisse: „3 + 5 = 8. Ungerade plus ungerade … gerade!“ Frage nach dem Grund: „Bei jeder ungeraden Zahl bleibt ein Plättchen ohne Partner übrig. Die zwei Übrigen bilden zusammen ein Paar.“ Stelle die drei Regeln gemeinsam auf: gerade + gerade, ungerade + ungerade, gerade + ungerade.',
         watch: 'Lass ein Kind „ungerade plus ungerade“ mit Plättchen erklären, die in Paaren liegen. Wer die Tabelle nur aufsagen kann, vergisst sie wieder; wer sieht, wie die zwei Übrigen ein Paar bilden, nicht.',
       },
     },
@@ -156,7 +156,7 @@ module.exports = {
       title: 'Zahlenfolgen: die Regel finden',
       objective: 'Die Kinder finden heraus, um wie viel eine Zahlenfolge bei jedem Schritt wächst oder kleiner wird, und schreiben die fehlenden Zahlen auf.',
       note: {
-        mistake: 'Die Kinder schauen auf ein Zahlenpaar, legen sich auf eine Regel fest und prüfen sie nicht am Rest der Reihe. Bei Folgen, die kleiner werden, rechnen sie weiter plus. Zwei fehlende Zahlen hintereinander halten sie auf.',
+        mistake: 'Die Kinder schauen auf ein Zahlenpaar, legen sich auf eine Regel fest und prüfen sie nicht am Rest der Reihe. Bei Folgen, die kleiner werden, rechnen sie weiter plus. An zwei Lücken hintereinander bleiben sie hängen.',
         words: 'Frage: „Wie kommst du von dieser Zahl zur nächsten? Ist der Sprung jedes Mal gleich? Prüfe es an drei Paaren.“ Die Kinder schreiben die Regel über die Reihe: „+ 25“ oder „− 4“. Bei einer doppelten Lücke: „Zwei Sprünge führen von 40 zu 60. Wie groß ist ein Sprung?“',
         watch: 'Wer schreibt die Regel auf und prüft sie? Mische wachsende und fallende Folgen; ein Kind, das in einer fallenden Folge plus rechnet, schaut nicht mehr auf die Zahlen.',
       },
@@ -174,7 +174,7 @@ module.exports = {
       title: 'Die Uhr minutengenau lesen',
       objective: 'Die Kinder lesen eine Zeigeruhr auf die Minute genau ab und wählen die passende Uhrzeit aus.',
       note: {
-        mistake: 'Die Kinder lesen auf fünf Minuten genau und hören auf: 4:23 Uhr wird 4:20 Uhr oder 4:25 Uhr. Andere zählen jeden kleinen Strich von der 12 an und verzählen sich auf dem Weg.',
+        mistake: 'Die Kinder lesen auf fünf Minuten genau und hören auf: 4:23 Uhr wird 4:20 Uhr oder 4:25 Uhr. Andere zählen jeden kleinen Strich von der 12 an und verzählen sich auf dem Weg. Steht der Stundenzeiger kurz vor der nächsten Zahl, lesen sie die falsche Stunde: Aus 4:52 Uhr wird 5:52 Uhr.',
         words: 'Sag: „Gehe zu der Zahl kurz vor dem Minutenzeiger und zähle in Fünferschritten bis dorthin: 5, 10, 15, 20. Dann zähle die kleinen Striche einzeln: 21, 22, 23.“ Frage: „Ist der Stundenzeiger an der 4 vorbei? Ein bisschen oder weit?“',
         watch: 'Höre einem Kind beim Zählen zu: erst Fünfer, dann Einer. Prüfe Uhrzeiten im letzten Viertel der Stunde, wenn der Stundenzeiger schon nah an der nächsten Zahl steht.',
       },
@@ -185,7 +185,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder ziehen die beiden Zahlen voneinander ab, ohne an die Uhr zu denken: Von 11 Uhr bis 2 Uhr werden 9 Stunden. Oder sie zählen die Startstunde als erste Stunde mit.',
         words: 'Sag: „Zähle die Sprünge von der Startzeit zur Endzeit: von 11 bis 12 ist eine Stunde, von 12 bis 1 sind zwei, von 1 bis 2 sind drei.“ Mit der 24-Stunden-Zeit geht es als Rechnung: „Von 11 Uhr bis 14 Uhr: 14 − 11 = 3 Stunden.“ Frage: „Passen drei Stunden? Was könntest du in dieser Zeit tun?“',
-        watch: 'Prüfe die Aufgaben, die über 12 Uhr gehen. Ein Kind, das für 11 Uhr bis 2 Uhr 9 Stunden schreibt, hat abgezogen; gehe gemeinsam um eine Lernuhr und zähle jede Stunde, die vergeht.',
+        watch: 'Prüfe die Aufgaben, die über 12 Uhr gehen. Ein Kind, das für 11 Uhr bis 2 Uhr 9 Stunden schreibt, hat abgezogen; dreht gemeinsam den Zeiger einer Lernuhr von der Startzeit zur Endzeit und zählt jede Stunde, die vergeht.',
       },
     },
     '3:add-subtract-time': {
@@ -193,7 +193,7 @@ module.exports = {
       objective: 'Die Kinder gehen von einer Uhrzeit aus, rechnen Minuten oder Stunden dazu oder ab und schreiben die neue Uhrzeit auf.',
       note: {
         mistake: 'Die Kinder rechnen die Minuten wie gewöhnliche Zahlen und schreiben eine Uhrzeit, die es nicht gibt, etwa 3:75 Uhr. Geht es rückwärts über die volle Stunde, ändern sie die Minuten und vergessen die Stunde.',
-        words: 'Sag: „Eine Stunde hat 60 Minuten, nicht 100.“ Springe zuerst zur vollen Stunde: „3:45 Uhr plus 30 Minuten. 15 Minuten bis 4:00 Uhr. Noch 15 dazu: 4:15 Uhr.“ Zeichne die Sprünge an einem leeren Zahlenstrahl mit den Uhrzeiten.',
+        words: 'Sag: „Eine Stunde hat 60 Minuten, nicht 100.“ Springe zuerst zur vollen Stunde: „3:45 Uhr plus 30 Minuten. 15 Minuten bis 4:00 Uhr. Noch 15 dazu: 4:15 Uhr.“ Zeichne die Sprünge an einem Rechenstrich, an dem die Uhrzeiten stehen.',
         watch: 'Achte auf Ergebnisse mit 60 Minuten oder mehr. Die Kinder zeigen den Sprung zur nächsten vollen Stunde an einer Uhr oder am Strahl, bevor sie schreiben.',
       },
     },
@@ -202,8 +202,8 @@ module.exports = {
       objective: 'Die Kinder ordnen einer Uhrzeit am Vormittag oder Nachmittag die passende Schreibweise der 24-Stunden-Zeit zu.',
       note: {
         mistake: 'Die Kinder rechnen auch bei Uhrzeiten am Vormittag 12 dazu, oder sie lassen die erste Ziffer weg: Aus 15:00 Uhr wird 5 Uhr. Mittag und Mitternacht werden verwechselt.',
-        words: 'Sag: „Der Stundenzeiger läuft am Tag zweimal um die Uhr. Nach 12 Uhr mittags zählen wir weiter: 13, 14, 15.“ Gib die Regel in beide Richtungen: „Am Nachmittag und Abend: 12 dazu. 3 Uhr nachmittags ist 15 Uhr. Von der 24-Stunden-Zeit zurück: 12 ab.“ Frage: „Ist 08:00 Uhr morgens oder abends? Woher weißt du das?“',
-        watch: 'Prüfe den Mittag und die Stunde danach, etwa 12:30 Uhr, das 12:30 Uhr bleibt, und Mitternacht, 0:00 Uhr. Nimm einen Fahrplan oder den Stundenplan der Klasse: Dort stehen die Zeiten so, wie die Kinder sie im Alltag lesen müssen.',
+        words: 'Sag: „Der Stundenzeiger läuft am Tag zweimal um die Uhr. Nach 12 Uhr mittags zählen wir weiter: 13, 14, 15.“ Gib die Regel für beide Richtungen: „Am Nachmittag und Abend: 12 dazu. 3 Uhr nachmittags ist 15 Uhr. Von der 24-Stunden-Zeit zurück: 12 ab.“ Frage: „Ist 08:00 Uhr morgens oder abends? Woher weißt du das?“',
+        watch: 'Prüfe die Stunde nach dem Mittag: 12:30 Uhr bleibt 12:30 Uhr, erst ab 13 Uhr wird weitergezählt. Prüfe auch Mitternacht: 0:00 Uhr, am Ende des Tages auch 24:00 Uhr. Nimm einen Fahrplan oder den Stundenplan der Klasse: Dort stehen die Zeiten so, wie die Kinder sie im Alltag lesen müssen.',
       },
     },
     '3:thermometer': {
@@ -216,11 +216,11 @@ module.exports = {
       },
     },
     '2:mass-grams': {
-      title: 'Waagen ablesen: Gramm',
-      objective: 'Die Kinder rechnen die Gewichtsstücke an einer Waage zusammen, um zu bestimmen, wie viel ein Gegenstand wiegt, lesen Waagen und Messbecher ab und schreiben jede Menge mit ihrer Einheit auf.',
+      title: 'Waagen und Messbecher ablesen: Gramm und Milliliter',
+      objective: 'Die Kinder rechnen die Gewichtsstücke an einer Waage zusammen und bestimmen, wie viel ein Gegenstand wiegt; dann lesen sie Waagen und Messbecher gemischt ab und schreiben jede Menge mit ihrer Einheit auf.',
       note: {
         mistake: 'Die Kinder zählen die Gewichtsstücke („drei Gewichte, also 3“) und rechnen nicht zusammen, was auf ihnen steht. Am Messbecher lesen sie die nächste gedruckte Zahl ab und beachten die kleinen Schritte dazwischen nicht, oder sie schreiben Gramm für eine Flüssigkeit.',
-        words: 'Sag: „Lies jedes Gewichtsstück: 100, 50, 20. Rechne zusammen: 170 Gramm.“ Am Messbecher: „Schau auf zwei gedruckte Zahlen nebeneinander. Wie viele Schritte liegen dazwischen? Wie viel ist also ein Schritt wert?“ Die Einheit gehört immer dazu: „170 Gramm“, „300 Milliliter“.',
+        words: 'Sag: „Lies jedes Gewichtsstück: 100, 50, 20. Rechne zusammen: 170 Gramm.“ Am Messbecher: „Schau auf zwei gedruckte Zahlen nebeneinander. Wie viele Schritte liegen dazwischen? Wie viel ist also ein Schritt wert?“ Die Einheit gehört immer dazu: „170 Gramm“, „300 Milliliter“. Und: „1000 Gramm sind 1 Kilogramm.“',
         watch: 'Prüfe, ob bei jeder Antwort die Einheit steht. Bevor ein Kind eine Skala abliest, frage, wie viel ein kleiner Schritt wert ist; in dieser Frage steckt das ganze Können.',
       },
     },
@@ -229,8 +229,8 @@ module.exports = {
       objective: 'Die Kinder lesen an der Skala eines Messbechers ab, wie viele Milliliter Flüssigkeit darin sind.',
       note: {
         mistake: 'Die Kinder lesen den oberen Rand des Bechers oder die nächste gedruckte Zahl ab, nicht den Stand der Flüssigkeit. Zählt die Skala in 100er- oder 200er-Schritten, zählen sie jeden Strich als 1.',
-        words: 'Sag: „Lege den Finger auf den Rand der Flüssigkeit. Fahre hinüber zur Skala.“ Frage: „Die Zahlen lauten 200, 400, 600. Welche Zahl gehört an den Strich genau zwischen 200 und 400?“ Sprich die Einheit: „300 Milliliter.“ Bei den großen Bechern: „1000 Milliliter sind 1 Liter.“',
-        watch: 'Nimm einmal einen echten Messbecher mit Wasser; die Kinder müssen mit den Augen auf die Höhe der Flüssigkeit gehen. Prüfe auf der Seite die Becher, in denen die Flüssigkeit zwischen zwei gedruckten Zahlen endet.',
+        words: 'Sag: „Lege den Finger dorthin, wo die Flüssigkeit aufhört. Fahre hinüber zur Skala.“ Frage: „Die Zahlen lauten 200, 400, 600. Welche Zahl gehört an den Strich genau zwischen 200 und 400?“ Sprich die Einheit: „300 Milliliter.“ Bei den großen Bechern: „1000 Milliliter sind 1 Liter.“',
+        watch: 'Nimm einmal einen echten Messbecher mit Wasser; die Kinder müssen in die Hocke gehen und auf Augenhöhe ablesen. Prüfe auf dem Arbeitsblatt die Becher, in denen die Flüssigkeit zwischen zwei gedruckten Zahlen endet.',
       },
     },
     '3:area-model': {
@@ -238,7 +238,7 @@ module.exports = {
       objective: 'Die Kinder bestimmen den Flächeninhalt eines Rechtecks, indem sie seine Kästchen reihenweise zählen, und ergänzen die Malaufgabe dazu.',
       note: {
         mistake: 'Die Kinder zählen die Kästchen einzeln und verzählen sich in einem großen Rechteck. Andere zählen die Kästchen an zwei Seiten und rechnen sie zusammen; diese Zahl hat mit dem Flächeninhalt nichts zu tun.',
-        words: 'Sag: „Der Flächeninhalt sagt, wie viele Kästchen die Form bedecken, ohne Lücke und ohne Überlappen.“ Frage: „Wie viele Kästchen in einer Reihe? Wie viele Reihen? 4 Reihen mit je 6 sind 24 Kästchen.“ Die Einheit gehört dazu: „24 Kästchen.“',
+        words: 'Sag: „Der Flächeninhalt gibt an, wie viele Kästchen in die Figur passen, ohne Lücke und ohne Überlappung.“ Frage: „Wie viele Kästchen in einer Reihe? Wie viele Reihen? 4 Reihen mit je 6 sind 24 Kästchen.“ Die Einheit gehört dazu: „24 Kästchen.“',
         watch: 'Frage, wie das Kind gezählt hat. Reihen mal Kästchen pro Reihe ist das Ziel; einzeln zählen ist der Anfang. Achte darauf, dass die Einheit genannt wird.',
       },
     },
@@ -270,12 +270,12 @@ module.exports = {
       },
     },
     '3:volume-cubes': {
-      title: 'Würfeltürme: Wie viele Würfel sind es?',
-      objective: 'Die Kinder zählen alle Würfel eines Würfelturms, auch die, die man nicht sieht, und schreiben die Anzahl auf.',
+      title: 'Würfelgebäude: Wie viele Würfel sind es?',
+      objective: 'Die Kinder zählen alle Würfel eines Würfelgebäudes, auch die, die man nicht sieht, und schreiben die Anzahl auf.',
       note: {
-        mistake: 'Die Kinder zählen nur die Würfel, die auf der Zeichnung zu sehen sind, und lassen die verdeckten hinten und unten aus. Oder sie zählen die Quadrate, die sie sehen, und kommen auf eine viel zu große Zahl.',
-        words: 'Baue den Turm zuerst mit Steckwürfeln: „Wie viele siehst du von hier? Jetzt drehe ihn und nimm ihn auseinander. Zähle alle.“ Sag: „Zähle Schicht für Schicht. Wie viele Würfel in der untersten Schicht? In der nächsten? Rechne die Schichten zusammen.“ Frage: „Ein Würfel oben muss auf etwas liegen. Was ist unter ihm?“ Das Wort dazu: „Die Zahl der Würfel, die einen Körper füllen, ist sein Rauminhalt.“',
-        watch: 'Jedes Kind baut einen Turm von der Seite mit Würfeln nach und vergleicht mit der aufgeschriebenen Zahl. Ein Kind, das schichtweise zählt („6 und 6 und 6“), ist auf dem Weg zum Rauminhalt als Schichten mal Würfel pro Schicht.',
+        mistake: 'Die Kinder zählen nur die Würfel, die auf der Zeichnung zu sehen sind, und lassen die verdeckten hinten und unten aus. Oder sie zählen die Quadrate, die sie sehen, und kommen auf eine falsche, meist zu große Zahl.',
+        words: 'Baue das Würfelgebäude zuerst mit Steckwürfeln: „Wie viele siehst du von hier? Jetzt drehe es und nimm es auseinander. Zähle alle.“ Sag: „Zähle Schicht für Schicht. Wie viele Würfel in der untersten Schicht? In der nächsten? Rechne die Schichten zusammen.“ Frage: „Ein Würfel oben muss auf etwas liegen. Was ist unter ihm?“ Das Wort dazu: „Die Zahl der Würfel, die einen Körper füllen, ist sein Rauminhalt.“',
+        watch: 'Jedes Kind baut ein Würfelgebäude vom Arbeitsblatt mit Würfeln nach und vergleicht mit der Zahl, die es aufgeschrieben hat. Ein Kind, das schichtweise zählt („6 und 6 und 6“), ist auf dem Weg zum Rauminhalt als Schichten mal Würfel pro Schicht.',
       },
     },
     '3:right-angles': {
@@ -283,7 +283,7 @@ module.exports = {
       objective: 'Die Kinder finden an Formen die rechten Winkel, also Ecken wie beim Quadrat, und kreisen sie ein.',
       note: {
         mistake: 'Die Kinder erkennen einen rechten Winkel nur, wenn ein Schenkel waagerecht liegt und der andere senkrecht steht. Eine solche Ecke an einer gedrehten Form übersehen sie, und einen Winkel, der fast ein rechter ist, lassen sie gelten.',
-        words: 'Jedes Kind faltet einen Faltwinkel: ein Blatt zweimal falten, sodass Kante auf Kante liegt. „Lege den Faltwinkel in die Ecke. Passt er genau? Dann ist es ein rechter Winkel.“ Sag „kleiner als ein rechter Winkel“ und „größer als ein rechter Winkel“.',
+        words: 'Jedes Kind faltet einen Faltwinkel: ein Blatt einmal falten und dann noch einmal so, dass die Faltkante genau auf sich selbst liegt. „Lege den Faltwinkel in die Ecke. Passt er genau? Dann ist es ein rechter Winkel.“ Sag „kleiner als ein rechter Winkel“ und „größer als ein rechter Winkel“.',
         watch: 'Wer dreht den Faltwinkel oder das Blatt, um eine gedrehte Ecke zu prüfen? Prüfe die Winkel, die fast rechte Winkel sind; nur der Faltwinkel kann sie entscheiden.',
       },
     },
@@ -301,7 +301,7 @@ module.exports = {
       objective: 'Die Kinder finden alle Spiegelachsen einer Form und schreiben auf, wie viele es sind.',
       note: {
         mistake: 'Die Kinder finden die senkrechte Achse und hören auf. Die waagerechte und die schrägen übersehen sie, oder sie zählen die Diagonalen eines langen Rechtecks mit, die keine Spiegelachsen sind.',
-        words: 'Sag: „Probiere jede Faltung: von oben nach unten, quer, von Ecke zu Ecke.“ Mit ausgeschnittenen Formen: „Falte. Liegen die Hälften genau aufeinander?“ Frage: „Ein Quadrat hat 4 Spiegelachsen. Warum hat ein Rechteck, das kein Quadrat ist, nur 2?“',
+        words: 'Sag: „Probiere jede Faltung: links auf rechts, oben auf unten, Ecke auf Ecke.“ Mit ausgeschnittenen Formen: „Falte. Liegen die Hälften genau aufeinander?“ Frage: „Ein Quadrat hat 4 Spiegelachsen. Warum hat ein Rechteck, das kein Quadrat ist, nur 2?“',
         watch: 'Teile Papierformen zum Falten aus. Prüfe das lange Rechteck: Ein Kind, das dafür 4 schreibt, hat es nicht an der Diagonale gefaltet.',
       },
     },
@@ -315,12 +315,12 @@ module.exports = {
       },
     },
     '3:line-plot-halves': {
-      title: 'Ein X-Diagramm mit halben Schritten',
-      objective: 'Die Kinder lesen ein X-Diagramm, dessen Zahlenlinie in halben Schritten eingeteilt ist, und schreiben auf, wie viele X über jeder Zahl stehen.',
+      title: 'Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl',
+      objective: 'Die Kinder lesen ein Diagramm, in dem Kreuze über einem Zahlenstrahl mit halben Schritten stehen, und schreiben auf, wie viele Kreuze über jeder Zahl stehen.',
       note: {
-        mistake: 'Die Kinder überspringen die halben Striche und lesen nur die ganzen Zahlen; ein X bei 2½ rutscht zur 2 oder zur 3. Außerdem verwechseln sie das Maß unter einem Stapel mit der Anzahl der X darin.',
-        words: 'Lies die Linie gemeinsam laut: „1, eineinhalb, 2, zweieinhalb.“ Frage: „Wie viele Dinge waren zweieinhalb Einheiten lang? Zähle die X über diesem Strich.“ Dann: „Wie viele waren länger als 2?“',
-        watch: 'Stelle eine Frage, deren Antwort auf einem halben Strich liegt. Ein Kind, das für die nächste ganze Zahl antwortet, liest die halben Schritte der Linie noch nicht.',
+        mistake: 'Die Kinder überspringen die halben Striche und lesen nur die ganzen Zahlen; ein Kreuz bei 2½ rutscht zur 2 oder zur 3. Außerdem verwechseln sie den Messwert unter einem Stapel mit der Anzahl der Kreuze darin.',
+        words: 'Lies den Zahlenstrahl gemeinsam laut: „1, eineinhalb, 2, zweieinhalb.“ Frage: „Wie viele Dinge waren zweieinhalb Einheiten lang? Zähle die Kreuze über diesem Strich.“ Dann: „Wie viele waren länger als 2?“',
+        watch: 'Stelle eine Frage, deren Antwort auf einem halben Strich liegt. Ein Kind, das für die nächste ganze Zahl antwortet, liest die halben Schritte des Zahlenstrahls noch nicht.',
       },
     },
   },

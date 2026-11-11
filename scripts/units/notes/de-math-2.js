@@ -59,7 +59,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder zählen die Striche mit den Zahlen und nicht die Abstände, sagen also bei der Null schon „eins“ und lesen 1 zu viel ab. Mit einem echten Lineal legen sie den Gegenstand an die Kante des Lineals oder an die 1 an, nicht an die 0.',
         words: 'Sag: „Fang bei null an. Null heißt: noch keine Länge. Zähle die Abstände: eins, zwei, drei.“ Dann: „Das Ende des Stifts liegt bei der 6, er ist also 6 Einheiten lang.“ Auf dem Arbeitsblatt heißt es „Einheiten“; am echten Lineal sind es Zentimeter: „Suche die 0. Sie ist nicht immer am Rand. Lies ab und sag die Einheit dazu: 6 Zentimeter.“',
-        watch: 'Teile echte Lineale aus und sieh, wo die Kinder den Anfang des Gegenstands anlegen. Auf der Seite beginnt alles bei 0; das Lineal aus dem Mäppchen macht das nicht von selbst.',
+        watch: 'Teile echte Lineale aus und sieh, wo die Kinder den Anfang des Gegenstands anlegen. Auf dem Arbeitsblatt beginnt alles bei 0; das Lineal aus dem Mäppchen macht das nicht von selbst.',
       },
     },
     '2:compare-lengths': {
@@ -68,7 +68,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder schreiben die Länge des längeren Gegenstands als Antwort auf „wie viel länger“. Oder sie rechnen beide Längen zusammen, weil zwei Zahlen in einer Aufgabe bisher immer plus bedeutet haben.',
         words: 'Sag: „Das Band ist 9 Einheiten lang, die Schnur 6. Lege sie untereinander. Wo hört die Schnur auf? Das Stück, das übersteht, ist der UNTERSCHIED.“ Schreibe: „9 − 6 = 3. Das Band ist 3 Einheiten länger.“',
-        watch: 'Lass das Kind das überstehende Stück mit zwei Fingern auf der Seite zeigen. Wer es zeigen kann und die Minusaufgabe nicht findet, braucht die Frage: „Wie viele fehlen von 6 bis 9?“',
+        watch: 'Lass das Kind das überstehende Stück mit zwei Fingern auf dem Arbeitsblatt zeigen. Wer es zeigen kann und die Minusaufgabe nicht findet, braucht die Frage: „Wie viele fehlen von 6 bis 9?“',
       },
     },
     '2:time-5-min-quarter': {
@@ -95,7 +95,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder rechnen Zahlen zusammen, ohne zu prüfen, von welchem Ding die Aufgabe spricht, oder sie nehmen den Preis des falschen Dings vom Regal. Liegen drei Dinge im Korb, addieren sie zwei Preise und vergessen den dritten.',
         words: 'Sag: „Suche zuerst jedes Ding im Regal und sage seinen Preis. Schreibe die Preise auf. Dann rechne.“ Frage: „Wie viel kostet das zusammen?“ Sprich Beträge mit der Einheit: „45 Cent“, „3 Euro“.',
-        watch: 'Die Kinder unterstreichen, was gekauft wird, bevor sie zum Regal schauen. Prüfe, ob beim Ergebnis Cent oder Euro steht; eine nackte Zahl ist nur eine halbe Antwort. Lass in jeder Gruppe ein Kind einen Betrag mit Rechengeld legen, denn auf den Seiten ist keine Münze zu sehen.',
+        watch: 'Die Kinder unterstreichen, was gekauft wird, bevor sie zum Regal schauen. Prüfe, ob beim Ergebnis Cent oder Euro steht; eine nackte Zahl ist nur eine halbe Antwort. Lass in jeder Gruppe ein Kind einen Betrag mit Rechengeld legen, denn auf den Arbeitsblättern ist keine Münze zu sehen.',
       },
     },
     '2:bar-graphs': {
@@ -176,7 +176,7 @@ module.exports = {
       note: {
         mistake: 'Beim Zählen in Dreier- und Viererschritten gibt es kein einfaches Muster an der Einerstelle, deshalb rechnen die Kinder mit den Fingern weiter und landen um 1 daneben. Ein Fehler zieht sich durch den Rest der Reihe.',
         words: 'Zähle gemeinsam mit Flüsterzahlen: „1, 2“ flüstern, „3“ laut; „4, 5“ flüstern, „6“ laut. Frage: „Wie weit ist es von einer Zahl zur nächsten? Prüfe den Sprung.“ Verbinde die Vierer mit den Zweiern: „Die Viererreihe ist jede zweite Zahl der Zweierreihe.“',
-        watch: 'Die Kinder prüfen jede Reihe an der Größe ihrer Sprünge, bevor sie abgeben. Ein Kind, das jedes Mal mit den Fingern weiterrechnet, braucht viele kurze Runden, in denen die Reihe laut gesprochen wird, nicht noch mehr Seiten.',
+        watch: 'Die Kinder prüfen jede Reihe an der Größe ihrer Sprünge, bevor sie abgeben. Ein Kind, das jedes Mal mit den Fingern weiterrechnet, braucht viele kurze Runden, in denen die Reihe laut gesprochen wird, nicht noch mehr Arbeitsblätter.',
       },
     },
     '3:times-tables': {
@@ -210,7 +210,7 @@ module.exports = {
       title: 'Wie oft passt die Zahl hinein? Sprünge bis zur Null',
       objective: 'Die Kinder finden heraus, wie viele gleich große Sprünge es am Zahlenstrahl von einer Zahl zurück bis zur Null sind.',
       note: {
-        mistake: 'Die Kinder schreiben die Größe des Sprungs als Antwort, oder sie zählen jeden Strich mit, den sie berühren, auch die Startzahl; das ergibt 1 zu viel. Sie erkennen nicht, dass auch das eine Geteilt-Aufgabe ist.',
+        mistake: 'Die Kinder schreiben die Größe des Sprungs als Antwort, oder sie zählen jeden Strich mit, den sie berühren, auch die Startzahl; das ergibt 1 zu viel. Sie erkennen nicht, dass auch das eine Geteiltaufgabe ist.',
         words: 'Sag: „Start bei 15. Jedes Mal 3 zurück: 12, 9, 6, 3, 0. Wie viele Sprünge? Fünf.“ Schreibe: „15 : 3 = 5. Die 3 passt fünfmal in die 15.“ Frage: „Wie oft passt die 3 in die 15?“',
         watch: 'Die Kinder zählen die Sprünge mit dem Finger auf jedem Bogen, nicht auf den Strichen. Stelle einmal beide Bedeutungen nebeneinander: 15 an 3 Kinder verteilen und 15 in Dreiergruppen aufteilen.',
       },
@@ -282,7 +282,7 @@ module.exports = {
       title: 'Die andere Hälfte ergänzen',
       objective: 'Die Kinder ergänzen ein halb fertiges Bild so, dass beide Seiten der Spiegelachse wie im Spiegel zusammenpassen.',
       note: {
-        mistake: 'Auf der Kästchenseite übertragen die Kinder die Hälfte so, wie sie ist, und verschieben sie über die Achse, statt sie zu spiegeln: Ein Kästchen, das zwei Felder von der Achse entfernt ist, wird zwei Felder vom äußeren Rand angemalt. Auf der Seite zum Nachspuren ist die andere Hälfte schon da; die Kinder spuren nach, ohne zu merken, dass jedes Teil einen Partner auf der anderen Seite hat.',
+        mistake: 'Auf dem Arbeitsblatt mit Kästchen übertragen die Kinder die Hälfte so, wie sie ist, und verschieben sie über die Achse, statt sie zu spiegeln: Ein Kästchen, das zwei Felder von der Achse entfernt ist, wird zwei Felder vom äußeren Rand angemalt. Auf dem Arbeitsblatt zum Nachspuren ist die andere Hälfte schon da; die Kinder spuren nach, ohne zu merken, dass jedes Teil einen Partner auf der anderen Seite hat.',
         words: 'Sag: „Zähle die Kästchen VON DER ACHSE WEG. Zwei Kästchen entfernt auf dieser Seite, zwei Kästchen entfernt auf der anderen.“ Arbeite Zeile für Zeile. Prüfe mit einem kleinen Spiegel auf der Achse: „Zeigt der Spiegel, was du angemalt hast?“',
         watch: 'Sieh auf die Kästchen, die am weitesten von der Achse entfernt sind; bei einer verschobenen Kopie liegen sie direkt an der Achse. Gib einem Kind, dessen Bild verschoben aussieht, einen Spiegel und lass es den Unterschied selbst finden. Beim Nachspuren zeigt das Kind auf ein Teil und dann auf seinen Partner auf der anderen Seite.',
       },

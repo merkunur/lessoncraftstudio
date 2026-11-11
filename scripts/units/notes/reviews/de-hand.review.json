@@ -1,0 +1,28 @@
+{
+ "1:word-classes": {
+  "title": "Nomen und Verben",
+  "objective": "Die Kinder sortieren Wörter nach der Wortart: Nomen oder Verb.",
+  "mistake": "Die Kinder sortieren danach, woran ein Wort sie denken lässt: „Spiel“ und „Fest“ kommen zu den Verben, weil man dort etwas tut. Wörter, die es zweimal gibt (das Essen, essen), verwirren sie zu Recht.",
+  "words": "Gib jeder Wortart eine Probe: „Ein Nomen ist ein Namenwort für Menschen, Tiere, Pflanzen und Dinge. Du kannst der, die oder das davorsetzen, und wir schreiben es groß. Ein Verb ist ein Tunwort. Probiere: ich …, du …: ich laufe, du läufst.“ Bei einem Wort für beide Kästen: „Sag einen Satz damit. Was ist es in deinem Satz?“",
+  "watch": "Lass dir bei einem Wort die Probe vormachen, nicht nur die Spalte zeigen. Auf dem Arbeitsblatt sind die Nomen großgeschrieben; ein Kind, das allein nach dem großen Buchstaben sortiert, hat die halbe Aufgabe gelöst. Frage dieses Kind nach dem Begleiter."
+ },
+ "1:alphabetical-order": {
+  "objective": "Die Kinder ordnen vier Wörter nach ihrem ersten Buchstaben in die Reihenfolge des Abc.",
+  "mistake": "Die Kinder sagen das Abc bei jedem Wort von vorn auf und verlieren die Stelle. Oder sie ordnen nach der Wortlänge oder nach der Reihenfolge, in der die Karten gedruckt sind.",
+  "words": "Sag: „Schau auf den ersten Buchstaben. Welcher kommt im Abc früher?“ Die Buchstabenleiste bleibt sichtbar: „Du musst das Abc nicht aufsagen. Schau nach.“ Frage: „Welcher Buchstabe kommt vor dem M? Welcher danach?“",
+  "watch": "Lass ein Kind erklären, warum es ein Wort an die erste Stelle gesetzt hat. Wer zwei Wörter mit demselben ersten Buchstaben entdeckt und nach dem zweiten fragt, ist weiter als das Arbeitsblatt; das Ordnen nach dem zweiten Buchstaben kommt in Klasse 2."
+ },
+ "3:mult-div-relationship": {
+  "title": "Wiederholung: Der fehlende Faktor und Aufgabenfamilien",
+  "objective": "Die Kinder finden den fehlenden Faktor zu einem Punktefeld und schreiben die zwei Malaufgaben und die zwei Geteiltaufgaben auf, die zu ihm gehören."
+ },
+ "2:add-with-blocks": {
+  "title": "Mit Platten, Stangen und Würfeln addieren"
+ },
+ "2:subtract-with-blocks": {
+  "title": "Mit Platten, Stangen und Würfeln subtrahieren"
+ },
+ "1:phoneme-boxes": {
+  "title": "Lautstreifen: Laute hören und zusammenschleifen"
+ }
+}

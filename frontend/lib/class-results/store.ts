@@ -634,6 +634,136 @@ export async function classResults(db: ClassDb, me: Caller, id: string): Promise
   return json(200, { class: classView(c), seats: seats.map(seatView), assignments: assignments.map(assignmentView), cells });
 }
 
+// ── results by curriculum (release 2, step 9.6) ────────────────────────────────────────────────
+
+/** a heading of the view: what a page may show for a national objective (scripts/curricula/show.js) */
+export interface SkillGroup { fw: string | null; code: string | null; titles: string[]; outside: boolean }
+export interface SkillPoint {
+  g: number; order: number; set: string | null; acts: string[];
+  tool: { slug: string; name: string } | null;
+  unit: { slug: string; n: number; title: string; unit: string } | null;
+}
+/** one registry's skill index (frontend/content/class-skills/<registry>.json, built by scripts/class-results/build-skill-index.js) */
+export interface SkillIndex {
+  registry: string; locale: string; name: string;
+  groups: SkillGroup[]; points: Record<string, SkillPoint>; types: Record<string, string>; activities: Record<string, string>;
+}
+/** the registries a class of this language can be read against (the first is the country's own), and one of them loaded */
+export type SkillPick = (locale: string, wanted: string | null) => Promise<{ index: SkillIndex; choices: Array<{ key: string; name: string }> } | null>;
+
+export type NextStep =
+  | { kind: 'set'; title: string; link: string }
+  | { kind: 'activity'; title: string; link: string }
+  | { kind: 'tool'; title: string; href: string }
+  | { kind: 'unit'; title: string; unit: string; n: number; href: string };
+
+/** the teaching point an assignment practises, by the index: a page's type code, a Level Set's code, an activity's id */
+export function pointOfAssignment(content: AssignmentContent, index: SkillIndex): string | null {
+  if (content.kind === 'ladder') return index.types[content.code.toLowerCase()] || null;
+  if (content.kind === 'deck') {
+    // the LAST code-shaped part of the address (…-g1116, …-g1116-4, …-k393-10-forestrabbit), as scripts/units/catalog.js reads it
+    const all = content.slug.match(/-(?:k|g[0-9])[0-9]{3}(?=-|$)/g);
+    return (all && index.types[all[all.length - 1].slice(1)]) || null;
+  }
+  if (content.kind === 'activity') return index.activities[content.activity] || null;
+  return null; // a teacher's own maker worksheet names no teaching point
+}
+
+/**
+ * What one child has shown on one assignment, for the view by curriculum:
+ *   a single page or an activity → its FIRST play (the same page played again is not new evidence);
+ *   a Level Set → finished = almost all right; otherwise the LAST page played (each page is a different page).
+ * band null = played, with no marks. null = nothing reported yet.
+ */
+function evidence(a: AssignmentRow, history: AttemptRow[]): { band: Band | null; at: number } | null {
+  const h = reported(history);
+  if (!h.length) return null;
+  if (a.content.kind === 'ladder') {
+    const last = h[h.length - 1];
+    if (nextLevel(a.content.levels, history) === null) return { band: 'high', at: ms(last.reportedAt as Date | string) };
+    const marked = h.filter((x) => bandOf(x.right, x.total));
+    const m = marked[marked.length - 1];
+    return m ? { band: bandOf(m.right, m.total), at: ms(m.reportedAt as Date | string) } : { band: null, at: ms(last.reportedAt as Date | string) };
+  }
+  return { band: bandOf(h[0].right, h[0].total), at: ms(h[0].reportedAt as Date | string) };
+}
+
+/**
+ * The dashboard by curriculum: the class's work under the headings of the country's own curriculum, per child the
+ * most recent result under each heading, and for a heading where a child had some or many wrong, the next step.
+ * A next step is offered only for something that exists in the class's language NOW (the Level Set and the activity
+ * are looked up again here) and that the class does not already have.
+ */
+export async function classSkills(db: ClassDb, me: Caller, id: string, wanted: unknown, pick: SkillPick): Promise<Reply> {
+  if (!me) return SIGNIN;
+  const c = await own(db, me, id);
+  if (!c) return NOT_FOUND;
+  const picked = await pick(c.locale, typeof wanted === 'string' && /^[a-z]{2}(?:-[a-z]{2})?$/.test(wanted) ? wanted : null);
+  if (!picked || picked.index.locale !== c.locale) return json(404, { error: 'no_curriculum' });
+  const { index, choices } = picked;
+  const [seats, assignments, attempts] = await Promise.all([db.listSeats(c.id), db.listAssignments(c.id), db.listAttemptsOfClass(c.id)]);
+  const by = new Map<string, AttemptRow[]>();
+  for (const a of attempts) { const k = a.assignmentId + '|' + a.seatId; const l = by.get(k); if (l) l.push(a); else by.set(k, [a]); }
+
+  interface Row { g: number; order: number; work: Array<{ id: string; title: string; kind: AssignmentKind; point: string }>; seats: Record<string, { band: Band | null; at: number }> }
+  const rows = new Map<number, Row>();
+  const other: Array<{ id: string; title: string; kind: AssignmentKind }> = [];
+  for (const a of assignments) {
+    const pid = pointOfAssignment(a.content, index);
+    const pt = pid ? index.points[pid] : null;
+    if (!pid || !pt || !index.groups[pt.g]) { other.push({ id: a.id, title: a.title, kind: a.kind }); continue; }
+    let row = rows.get(pt.g);
+    if (!row) { row = { g: pt.g, order: pt.order, work: [], seats: {} }; rows.set(pt.g, row); }
+    row.order = Math.min(row.order, pt.order);
+    row.work.push({ id: a.id, title: a.title, kind: a.kind, point: pid });
+    for (const s of seats) {
+      const e = evidence(a, by.get(a.id + '|' + s.id) || []);
+      if (!e) continue;
+      const have = row.seats[s.id];
+      // the most recent result under the heading; at the same moment, a result with marks before one without
+      if (!have || e.at > have.at || (e.at === have.at && e.band && !have.band)) row.seats[s.id] = e;
+    }
+  }
+
+  const hasSet = new Set(assignments.map((a) => (a.content.kind === 'ladder' ? a.content.code.toLowerCase() : '')));
+  const hasAct = new Set(assignments.map((a) => (a.content.kind === 'activity' ? a.content.slug : '')));
+  const groups = [];
+  for (const row of [...rows.values()].sort((a, b) => a.order - b.order || a.g - b.g)) {
+    const counts = { high: 0, mid: 0, low: 0, played: 0, none: 0 };
+    const bands: Record<string, Band | 'played'> = {};
+    for (const s of seats) {
+      const e = row.seats[s.id];
+      if (!e) { counts.none++; continue; }
+      const b = e.band || 'played';
+      bands[s.id] = b; counts[b]++;
+    }
+    const next: NextStep[] = [];
+    if (counts.low + counts.mid > 0) {
+      // the points behind this heading's work, in teaching order; one step of each kind
+      const pts = [...new Set(row.work.map((w) => w.point))].map((p) => index.points[p]).sort((a, b) => a.order - b.order);
+      for (const pt of pts) {
+        if (pt.set && !hasSet.has(pt.set) && !next.some((n) => n.kind === 'set')) {
+          const l = await db.resolveLadder(c.locale, pt.set);
+          if (l && LEVELS.some((lv) => l.levels[lv].length > 0)) next.push({ kind: 'set', title: l.title, link: `/${c.locale}/worksheets/sets/${l.code}` });
+        }
+        if (!next.some((n) => n.kind === 'activity')) for (const slug of pt.acts) {
+          if (hasAct.has(slug)) continue;
+          const act = await db.resolveActivity(c.locale, slug);
+          if (act) { next.push({ kind: 'activity', title: act.title, link: `/${c.locale}/activities/${act.slug}` }); break; }
+        }
+        if (pt.tool && !next.some((n) => n.kind === 'tool')) next.push({ kind: 'tool', title: pt.tool.name, href: `/${c.locale}/tools/${pt.tool.slug}` });
+        if (pt.unit && !next.some((n) => n.kind === 'unit')) next.push({ kind: 'unit', title: pt.unit.title, unit: pt.unit.unit, n: pt.unit.n, href: `/${c.locale}/units/${pt.unit.slug}` });
+      }
+    }
+    const g = index.groups[row.g];
+    groups.push({ key: 'g' + row.g, fw: g.fw, code: g.code, titles: g.titles, outside: g.outside, work: row.work.map((w) => ({ id: w.id, title: w.title, kind: w.kind })), bands, counts, next });
+  }
+  return json(200, {
+    class: classView(c), seats: seats.map(seatView), curriculum: { key: index.registry, name: index.name }, curricula: choices,
+    groups, other, canEdit: me.usable,
+  });
+}
+
 // ── child routes ────────────────────────────────────────────────────────────────────────────────────────────────────
 
 /** a class link that exists but whose teacher's plan is not usable: the page says "ask your teacher", stores nothing */

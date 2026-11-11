@@ -14,7 +14,8 @@
  *
  * Also: every text key the screen asks for exists in messages/classes/en.json, and no key in that file is unused.
  *
- * --poison: every result chip is drawn "almost all right"; the colour check must fail.
+ * --poison: every result chip is drawn "almost all right"; the colour check must fail. And the view by curriculum
+ *           lists the WRONG children under a result; its check must fail too.
  */
 'use strict';
 const fs = require('fs');
@@ -54,7 +55,7 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
     if (POISON) {
       await page.setRequestInterception(true);
       page.on('request', (r) => {
-        if (r.url().endsWith('/__class/teacher-app.js')) return r.respond({ status: 200, contentType: 'text/javascript', body: fs.readFileSync(path.join(REPO, 'out', 'class-results', '_dev', 'teacher-app.js'), 'utf8').replace(/"data-band": f\.band \|\| "none"/, '"data-band": "high"') });
+        if (r.url().endsWith('/__class/teacher-app.js')) return r.respond({ status: 200, contentType: 'text/javascript', body: fs.readFileSync(path.join(REPO, 'out', 'class-results', '_dev', 'teacher-app.js'), 'utf8').replace(/"data-band": f\.band \|\| "none"/, '"data-band": "high"').replace('g.bands[x.id] === band', 'g.bands[x.id] !== band') });
         r.continue();
       });
     }
@@ -178,6 +179,69 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
     await page.screenshot({ path: path.join(SHOTS, 'teacher-bylevel-1280.png'), fullPage: true });
     await page.click('[data-mode=child]'); await sleep(250);
 
+    // ── by curriculum (release 2, step 9.6): the same class under the headings of the US curriculum ──
+    await tab(page, 'skills');
+    await page.waitForSelector('[data-skills-view] [data-group]');
+    const skills = () => page.evaluate(() => [...document.querySelectorAll('[data-skills-view] [data-group]')].map((g) => {
+      const h3 = g.querySelector('h3'), code = h3.querySelector('.c-code');
+      const line = (b) => { const l = g.querySelector('[data-band-line="' + b + '"]'); return l ? [...l.children].map((x) => x.textContent.trim()) : null; };
+      return { code: code ? code.textContent : null, title: [...h3.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(''), outside: !!g.querySelector('[data-outside]'), work: g.querySelector('[data-work]').textContent,
+        low: line('low'), mid: line('mid'), rest: line('rest'), bands: [...g.querySelectorAll('.c-chip')].map((c) => c.getAttribute('data-band')),
+        next: [...g.querySelectorAll('[data-next] [data-next-kind]')].map((n) => [n.getAttribute('data-next-kind'), n.tagName, n.textContent, n.getAttribute('href')]) };
+    }));
+    let sk = await skills();
+    const lines = sk.find((g) => g.work === 'Number Lines'), time = sk.find((g) => g.work === 'Telling Time'), maze = sk.find((g) => g.work === 'Maze Puzzles');
+    check('by curriculum: Number Lines stands under "Common Core 1.OA.C.5 · Operations and Algebraic Thinking"', !!lines && lines.code === 'Common Core 1.OA.C.5' && lines.title === 'Operations and Algebraic Thinking' && !lines.outside, lines);
+    check('by curriculum: Max had many wrong on his last page, Lena some wrong; two almost all right; four have not played', !!lines && JSON.stringify([lines.low, lines.mid, lines.rest]) === JSON.stringify([['Many wrong: 1', 'Max'], ['Some wrong: 1', 'Lena'], ['Almost all right: 2', 'Not played yet: 4']]) && JSON.stringify(lines.bands) === JSON.stringify(['low', 'mid', 'high', 'none']), lines);
+    check('by curriculum: a page the curriculum does not name stands under its domain and says so; a page with no marks reads "Played"', !!maze && maze.code === null && maze.outside && JSON.stringify(maze.rest) === JSON.stringify(['Played (this page is not scored): 2', 'Not played yet: 6']) && maze.next.length === 0, maze);
+    check('by curriculum: the next step for number lines: an activity to add (a button), the tool and the unit lesson (links that open apart)', !!lines && JSON.stringify(lines.next.map((n) => [n[0], n[1]])) === JSON.stringify([['activity', 'BUTTON'], ['tool', 'A'], ['unit', 'A']]) && /^Add the activity “Hopper/.test(lines.next[0][2]) && lines.next[1][3] === '/en/tools/number-line' && lines.next[1][2] === 'Show it with the tool “Number Line”' && /^Teach lesson 4 of the unit “Addition and Subtraction Within 10”: /.test(lines.next[2][2]) && lines.next[2][3] === '/en/units/addition-and-subtraction-within-10-grade-1-unit', lines && lines.next);
+    check('by curriculum: Telling Time stands under "Common Core 1.MD.B.3" with Lena under many wrong', !!time && time.code === 'Common Core 1.MD.B.3' && JSON.stringify(time.low) === JSON.stringify(['Many wrong: 1', 'Lena']), time);
+    const truthSkills = (await store.classSkills(db, { userId: teacher, usable: true }, seeded.id, null, S.pick)).body;
+    check('the screen shows what the rules hold (the same headings in the same order)', JSON.stringify(sk.map((g) => g.code)) === JSON.stringify(truthSkills.groups.map((g) => (g.fw ? g.fw + ' ' + g.code : null))), sk.map((g) => g.code));
+    await page.screenshot({ path: path.join(SHOTS, 'teacher-skills-1280.png'), fullPage: true });
+
+    // on paper: the class overview, and one page per child that names no other child
+    await page.evaluate(() => {
+      window.open = () => { const f = document.createElement('iframe'); f.style.display = 'none'; document.body.append(f); const w = f.contentWindow; w.print = () => { window.__printed = (window.__printed || 0) + 1; }; w.focus = () => {}; window.__paper = w.document; return w; };
+    });
+    await page.click('[data-act=print-class]'); await sleep(200);
+    const paperClass = await page.evaluate(() => ({ printed: window.__printed, lang: window.__paper.documentElement.lang, h1: window.__paper.querySelector('h1').textContent, h2: [...window.__paper.querySelectorAll('h2')].map((x) => x.textContent), text: window.__paper.body.textContent }));
+    check('print, class overview: the class name, the curriculum, every heading as one line, the children by result', paperClass.printed === 1 && paperClass.lang === 'en' && paperClass.h1 === 'Class 1B' && paperClass.h2.includes('Common Core 1.OA.C.5 · Operations and Algebraic Thinking') && /United States \(Common Core, NGSS\) · As of /.test(paperClass.text) && paperClass.text.includes('Many wrong (1): Max') && paperClass.text.includes('Not played yet (4): Omar, Yuki, Sofia, Ben'), paperClass);
+    await page.click('[data-act=print-children]'); await sleep(200);
+    const paperKids = await page.evaluate(() => [...window.__paper.querySelectorAll('.pg')].map((p) => ({ h1: p.querySelector('h1').textContent, text: p.textContent, rows: [...p.querySelectorAll('tr')].slice(1).map((tr) => [tr.children[0].children[0].textContent, tr.children[1].textContent]) })));
+    const maxPage = paperKids.find((p) => p.h1 === 'What Max practiced');
+    check('print, one page per child: only children with a result get a page (five)', paperKids.length === 5 && JSON.stringify(paperKids.map((p) => p.h1)) === JSON.stringify(['What Max practiced', 'What Ana María practiced', 'What Tom practiced', 'What Lena practiced', 'What Omar practiced']), paperKids.map((p) => p.h1));
+    check("print, Max's page: his three headings with a word each, the note for parents, and no other child's name", !!maxPage && JSON.stringify(maxPage.rows) === JSON.stringify([[sk[0].code ? sk[0].code + ' · ' + sk[0].title : sk[0].title, 'Played (this page is not scored)'], ['Common Core 1.OA.C.5 · Operations and Algebraic Thinking', 'Many wrong'], ['Common Core 1.MD.B.3 · Measurement and Data', 'Some wrong']]) && maxPage.text.includes('It is one sign among many, not a grade.') && !/Ana|Tom|Lena|Omar|Yuki|Sofia|Ben/.test(maxPage.text), maxPage);
+
+    // the other curriculum of the language: Texas
+    const options = await page.evaluate(() => [...document.querySelectorAll('#c-curriculum option')].map((x) => [x.value, x.textContent, x.selected]));
+    check('the curricula of the language are offered, the country\'s own chosen', JSON.stringify(options) === JSON.stringify([['en', 'United States (Common Core, NGSS)', true], ['en-tx', 'Texas (TEKS)', false]]), options);
+    await page.select('#c-curriculum', 'en-tx');
+    await page.waitForSelector('[data-skills-view="en-tx"] [data-group]');
+    sk = await skills();
+    check('read against Texas: Number Lines stands under a TEKS code', (sk.find((g) => g.work === 'Number Lines') || {}).code === 'TEKS 1.3.D', sk.map((g) => g.code));
+    await tab(page, 'results'); await tab(page, 'skills');
+    await page.waitForSelector('[data-skills-view] [data-group]');
+    check('the chosen curriculum is remembered on this device', (await page.evaluate(() => document.querySelector('[data-skills-view]').getAttribute('data-skills-view'))) === 'en-tx');
+    await page.select('#c-curriculum', 'en');
+    await page.waitForSelector('[data-skills-view="en"] [data-group]');
+
+    if (!POISON) {
+      // the next step is one press: the activity joins the class's worksheets and is not offered again
+      const before = [...db.assignments.values()].filter((a) => a.classId === seeded.id).length;
+      await page.click('[data-group] [data-next-kind=activity]');
+      await page.waitForSelector('[data-note]');
+      await page.waitForSelector('[data-skills-view] [data-group]');
+      const added = [...db.assignments.values()].filter((a) => a.classId === seeded.id);
+      check('"Add the activity": the note says so, the class has one more assignment of the kind "activity"', /^“Hopper.*” was added to the class’s worksheets\.$/.test(await note(page)) && added.length === before + 1 && added[added.length - 1].kind === 'activity', await note(page));
+      sk = await skills();
+      const again2 = sk.find((g) => /Number Lines/.test(g.work));
+      check('the added activity stands under the same heading and is not offered again', !!again2 && /Number Lines · Hopper/.test(again2.work) && !again2.next.some((n) => /Hopper/.test(n[2])), again2);
+      await store.deleteAssignment(db, { userId: teacher, usable: true }, seeded.id, added[added.length - 1].id);
+    }
+    await tab(page, 'results');
+    await page.waitForSelector('[data-results] table');
+
     if (!POISON) {
       // ── delete one child's results ──
       await page.evaluate(() => document.querySelector('[data-detail] [data-confirm] button').click()); await sleep(150);
@@ -195,6 +259,11 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
       await tab(m.page, 'children');
       check('390 px, children tab: no sideways scroll', (await m.page.evaluate(() => document.documentElement.scrollWidth)) <= 390);
       await m.page.screenshot({ path: path.join(SHOTS, 'teacher-children-390.png'), fullPage: true });
+      await tab(m.page, 'skills');
+      await m.page.waitForSelector('[data-skills-view] [data-group]');
+      const phoneSkills = await m.page.evaluate(() => ({ scrollW: document.documentElement.scrollWidth, small: [...document.querySelectorAll('[data-skills] button, [data-skills] select')].filter((b) => b.getClientRects().length > 0 && b.getBoundingClientRect().height < 40).map((b) => b.textContent.trim().slice(0, 24)), cut: [...document.querySelectorAll('[data-skills] button, [data-skills] a, [data-skills] select')].filter((b) => b.getClientRects().length > 0 && b.getBoundingClientRect().right > innerWidth + 1).map((b) => b.textContent.trim().slice(0, 24)) }));
+      check('390 px, by curriculum: no sideways scroll, every button and the curriculum list ≥ 40 px high, nothing runs off the screen', phoneSkills.scrollW <= 390 && !phoneSkills.small.length && !phoneSkills.cut.length, phoneSkills);
+      await m.page.screenshot({ path: path.join(SHOTS, 'teacher-skills-390.png'), fullPage: true });
       check('390 px: no script error', !m.errors.length, m.errors);
       await m.page.close();
 

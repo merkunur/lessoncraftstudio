@@ -346,6 +346,10 @@ node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-te
 # crosswalk row names an existing objective and can be shown without an invented id. It reads committed files only.
 # It becomes a hard gate once a public page shows a national objective (Parts 4 and 6). docs/daily-teaching-system/curricula/README.md
 node /opt/lessoncraftstudio/scripts/curricula/gates.js > /tmp/lcs-curricula.txt 2>&1; tail -3 /tmp/lcs-curricula.txt
+# WARN-only (Part 9 release 2): the skill index of class results is the build of today's content graph and curriculum
+# registries (a stale file would place a result under the wrong heading). Committed files only. It becomes a hard
+# gate when class results are switched on. docs/daily-teaching-system/PART-9-DESIGN.md §12
+node /opt/lessoncraftstudio/scripts/class-results/build-skill-index.js --check > /tmp/lcs-skill-index.txt 2>&1; tail -3 /tmp/lcs-skill-index.txt
 # HARD (Daily Teaching System, Part 3): units and sub packs — shape, teaching points, the filler lints (a teacher note
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.

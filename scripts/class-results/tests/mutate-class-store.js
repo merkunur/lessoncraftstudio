@@ -64,6 +64,20 @@ const M = [
   ['an activity that does not exist is assigned anyway', "    if (!act) return json(404, { error: 'link_not_found' });\n", ''],
   ['an activity is opened as a deck page', "  if (content.kind === 'activity') return `/${content.locale}/activities/${content.slug}#lcs=${token}`;\n", ''],
   ['two different activities are the same assignment', "c.kind === 'activity' ? ['activity', c.locale, c.slug]", "c.kind === 'activity' ? ['activity', c.locale]"],
+  // release 2: the dashboard by curriculum
+  ['another teacher reads the view by curriculum', "  const c = await own(db, me, id);\n  if (!c) return NOT_FOUND;\n  const picked = await pick(", "  const c = await db.getClass(id);\n  if (!c) return NOT_FOUND;\n  const picked = await pick("],
+  ['an index of another language is accepted', "if (!picked || picked.index.locale !== c.locale) return json(404, { error: 'no_curriculum' });", "if (!picked) return json(404, { error: 'no_curriculum' });"],
+  ['any text is passed on as a curriculum key', "typeof wanted === 'string' && /^[a-z]{2}(?:-[a-z]{2})?$/.test(wanted) ? wanted : null", "typeof wanted === 'string' ? wanted : null"],
+  ['the EARLIEST result under a heading counts', "if (!have || e.at > have.at || (e.at === have.at && e.band && !have.band)) row.seats[s.id] = e;", "if (!have || e.at < have.at) row.seats[s.id] = e;"],
+  ['a single page counts by its last play', "  return { band: bandOf(h[0].right, h[0].total), at: ms(h[0].reportedAt as Date | string) };", "  return { band: bandOf(h[h.length - 1].right, h[h.length - 1].total), at: ms(h[h.length - 1].reportedAt as Date | string) };"],
+  ['a Level Set counts by its first page', "    const m = marked[marked.length - 1];", "    const m = marked[0];"],
+  ['a next step is offered when nobody had anything wrong', "    if (counts.low + counts.mid > 0) {", "    if (true) {"],
+  ['a Level Set the class already has is offered again', "if (pt.set && !hasSet.has(pt.set) && !next.some((n) => n.kind === 'set')) {", "if (pt.set && !next.some((n) => n.kind === 'set')) {"],
+  ['an activity the class already has is offered again', "          if (hasAct.has(slug)) continue;\n", ""],
+  ['an activity that is not live is offered', "          if (act) { next.push({ kind: 'activity', title: act.title, link: `/${c.locale}/activities/${act.slug}` }); break; }", "          next.push({ kind: 'activity', title: act ? act.title : slug, link: `/${c.locale}/activities/${slug}` }); break;"],
+  ['a page with no type code is placed under the first heading', "    if (!pid || !pt || !index.groups[pt.g]) { other.push({ id: a.id, title: a.title, kind: a.kind }); continue; }", "    if (!pid || !pt || !index.groups[pt.g]) continue;"],
+  ['headings stand in the order the work was added', "for (const row of [...rows.values()].sort((a, b) => a.order - b.order || a.g - b.g)) {", "for (const row of [...rows.values()]) {"],
+  ['a child who only played counts as almost all right', "      const b = e.band || 'played';", "      const b = e.band || 'high';"],
   ['the assignment forgets the id of the activity', "content: { kind: 'activity', locale: p.locale, slug: act.slug, activity: act.id } };", "content: { kind: 'activity', locale: p.locale, slug: act.slug, activity: '' } };"],
 ];
 

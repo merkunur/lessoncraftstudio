@@ -91,8 +91,8 @@ function buildActivityMode(poison) {
 function build() {
   fs.mkdirSync(OUT, { recursive: true });
   const server = path.join(OUT, 'server.bundle.js');
-  fs.writeFileSync(path.join(OUT, 'server-entry.ts'), "export * as store from '" + path.join(LIB, 'store.ts').replace(/\\/g, '/') + "';\nexport { childPageHtml, CHILD_PAGE_HEADERS } from '" + path.join(LIB, 'child-page.ts').replace(/\\/g, '/') + "';\n");
-  esbuild.buildSync({ entryPoints: [path.join(OUT, 'server-entry.ts')], bundle: true, platform: 'node', format: 'cjs', outfile: server, logLevel: 'error' });
+  fs.writeFileSync(path.join(OUT, 'server-entry.ts'), "export * as store from '" + path.join(LIB, 'store.ts').replace(/\\/g, '/') + "';\nexport { childPageHtml, CHILD_PAGE_HEADERS } from '" + path.join(LIB, 'child-page.ts').replace(/\\/g, '/') + "';\nexport { pickSkillIndex } from '" + path.join(LIB, 'skill-index.ts').replace(/\\/g, '/') + "';\n");
+  esbuild.buildSync({ entryPoints: [path.join(OUT, 'server-entry.ts')], bundle: true, platform: 'node', format: 'cjs', outfile: server, logLevel: 'error', alias: { '@': path.join(REPO, 'frontend') } });
   const teacherSrc = path.join(LIB, 'teacher-app.ts');
   if (fs.existsSync(teacherSrc)) esbuild.buildSync({ entryPoints: [teacherSrc], bundle: true, platform: 'browser', format: 'iife', globalName: 'LCSClasses', target: 'es2017', outfile: path.join(OUT, 'teacher-app.js'), logLevel: 'error' });
   delete require.cache[require.resolve(server)];
@@ -138,6 +138,7 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
       else if (sub === 'assignments' && !subId) r = M === 'POST' ? await S.addAssignment(db, me(), id, body, now()) : null;
       else if (sub === 'assignments') r = M === 'PATCH' ? await S.updateAssignment(db, me(), id, subId, body, now()) : M === 'DELETE' ? await S.deleteAssignment(db, me(), id, subId) : null;
       else if (sub === 'results') r = M === 'GET' ? await S.classResults(db, me(), id) : null;
+      else if (sub === 'skills') r = M === 'GET' ? await S.classSkills(db, me(), id, query.get('curriculum'), B.pickSkillIndex) : null;
     } else if (parts[1] === 'class') {
       if (parts[2] === 'start') r = M === 'POST' ? await S.startAttempt(db, body, newToken, now()) : null;
       else if (parts[2] === 'report') r = M === 'POST' ? await S.report(db, body, newToken, now()) : null;
@@ -248,7 +249,7 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
     srv.listen(port, async () => {
       const base = 'http://localhost:' + srv.address().port;
       const seeded = seed ? await seedData() : null;
-      resolve({ base, srv, db, state, store: S, seeded, seedData, teacher: TEACHER, close: () => new Promise((r) => srv.close(r)) });
+      resolve({ base, srv, db, state, store: S, pick: B.pickSkillIndex, seeded, seedData, teacher: TEACHER, close: () => new Promise((r) => srv.close(r)) });
     });
   });
 }

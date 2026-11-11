@@ -44,7 +44,24 @@ interface AssignmentView { id: string; kind: 'deck' | 'ladder' | 'maker' | 'acti
 interface ClassData { class: ClassView; seats: SeatView[]; assignments: AssignmentView[]; canEdit?: boolean }
 interface Results extends ClassData { cells: Record<string, Record<string, Cell>> }
 interface ListItem { id: string; name: string; code: string; namesMode: string; locale: string; seats: number; assignments: number; lastUsedAt: string }
-type Tab = 'results' | 'children' | 'work' | 'link';
+type Tab = 'results' | 'skills' | 'children' | 'work' | 'link';
+type SkillBand = Band | 'played';
+type NextStep =
+  | { kind: 'set'; title: string; link: string }
+  | { kind: 'activity'; title: string; link: string }
+  | { kind: 'tool'; title: string; href: string }
+  | { kind: 'unit'; title: string; unit: string; n: number; href: string };
+interface SkillGroupView {
+  key: string; fw: string | null; code: string | null; titles: string[]; outside: boolean;
+  work: Array<{ id: string; title: string; kind: string }>;
+  bands: Record<string, SkillBand>;
+  counts: { high: number; mid: number; low: number; played: number; none: number };
+  next: NextStep[];
+}
+interface Skills {
+  class: ClassView; seats: SeatView[]; curriculum: { key: string; name: string }; curricula: Array<{ key: string; name: string }>;
+  groups: SkillGroupView[]; other: Array<{ id: string; title: string; kind: string }>; canEdit?: boolean;
+}
 type Kid = Node | string | null | undefined | false;
 
 const LANGUAGE_NAMES: Record<string, string> = { en: 'English', de: 'Deutsch', fr: 'Français', es: 'Español', pt: 'Português', it: 'Italiano', nl: 'Nederlands', sv: 'Svenska', da: 'Dansk', no: 'Norsk', fi: 'Suomi' };
@@ -103,6 +120,13 @@ export const CLASSES_CSS = `
 .lcsc .c-chip[data-band=mid]{background:#FBEBC8;color:#5C4000}
 .lcsc .c-chip[data-band=low]{background:#F9D9CF;color:#8A2A12}
 .lcsc .c-chip[data-band=none]{background:#ECE7DB;color:#3D4F49}
+.lcsc .c-skill{border-top:1px solid #E3DAC6;padding:16px 0 14px}
+.lcsc .c-skill:first-of-type{border-top:0}
+.lcsc .c-skill h3{margin:0 0 4px;font-size:1.02rem;line-height:1.35;color:#14322D;font-weight:800}
+.lcsc .c-skill h3 .c-code{display:inline-block;background:#146B5E;color:#FBF3E4;border-radius:8px;padding:1px 8px;margin-right:8px;font-size:.84rem;font-weight:700;white-space:nowrap}
+.lcsc .c-skill .c-line{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;margin:6px 0 0}
+.lcsc .c-skill .c-next{margin-top:10px}
+.lcsc .c-skill .c-next a{color:#0F5A47;font-weight:700}
 .lcsc .c-chip[data-now=true]{box-shadow:0 0 0 2px #146B5E}
 .lcsc .c-again{color:#5E706A;font-size:.75rem;white-space:nowrap}
 .lcsc .c-legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:14px 0 0;font-size:.8125rem;color:#3D4F49}
@@ -469,7 +493,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     const body = h('div', { 'data-tab': tab });
     const tabs = h('nav', { class: 'c-tabs', 'aria-label': d.class.name });
     const tabButton = (k: Tab, label: string, n?: number) => h('button', { type: 'button', 'data-tab-button': k, 'aria-current': k === tab ? 'true' : null, onclick: () => { void openClass(id, k); } }, label, n != null ? h('span', { class: 'c-count', text: String(n) }) : null);
-    tabs.append(tabButton('results', t('tabResults')), tabButton('children', t('tabChildren'), d.seats.length), tabButton('work', t('tabWork'), d.assignments.length), tabButton('link', t('tabLink')));
+    tabs.append(tabButton('results', t('tabResults')), tabButton('skills', t('tabSkills')), tabButton('children', t('tabChildren'), d.seats.length), tabButton('work', t('tabWork'), d.assignments.length), tabButton('link', t('tabLink')));
     const top = h('div', null,
       h('p', null, h('button', { type: 'button', class: 'c-quiet', 'data-act': 'back', text: '← ' + t('back'), onclick: () => { void list(); } })),
       h('h1', { text: d.class.name }),
@@ -505,6 +529,30 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
       card.append(h('p', { class: 'c-muted', text: t('loading') }));
       await load(true);
       timer = setInterval(() => { if (!document.hidden) void load(false); }, 30000);
+      return;
+    }
+
+    if (tab === 'skills') {
+      const card = h('section', { class: 'c-card', 'data-skills': '' });
+      body.append(card);
+      let chosen: string | null = null;
+      try { chosen = window.localStorage.getItem('lcs-class-curriculum:' + d.class.locale); } catch { /* no storage: the country's own curriculum */ }
+      const load = async (): Promise<void> => {
+        card.replaceChildren(h('p', { class: 'c-muted', text: t('loading') }));
+        const rr = await api('GET', '/api/classes/' + id + '/skills' + (chosen ? '?curriculum=' + encodeURIComponent(chosen) : ''));
+        if (dead || st.view !== 'class' || st.id !== id || st.tab !== 'skills') return;
+        if (rr.status !== 200) { card.replaceChildren(h('p', { class: 'c-err', text: t('error') }), h('button', { type: 'button', text: t('retry'), onclick: () => { void load(); } })); return; }
+        card.replaceChildren(skillsView(rr.body as Skills, {
+          canEdit: edit,
+          onCurriculum: (key) => { chosen = key; try { window.localStorage.setItem('lcs-class-curriculum:' + d.class.locale, key); } catch { /* not kept */ } void load(); },
+          onAssign: async (step) => {
+            const r2 = await api('POST', '/api/classes/' + id + '/assignments', { link: step.link });
+            if (r2.status === 201 || r2.status === 200) again('skills', t('skillsAssigned', { title: step.title }));
+            else again('skills', errorText(r2));
+          },
+        }));
+      };
+      await load();
       return;
     }
 
@@ -614,6 +662,102 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     danger.append(confirmButton(t('deleteClass'), t('deleteClassConfirm'), async () => { await api('DELETE', '/api/classes/' + id); void list(); }));
     settings.append(danger, h('p', { class: 'c-muted', style: 'margin-top:14px', text: t('retention') }));
     body.append(settings);
+  }
+
+  /** a heading of the curriculum as one line of text: "Common Core 1.OA.C.6 · Operations and Algebraic Thinking" */
+  const headingText = (g: SkillGroupView): string => [[g.fw, g.code].filter(Boolean).join(' '), g.titles.join(' › ')].filter(Boolean).join(' · ');
+  const skillWord = (b: SkillBand | null) => (b === 'high' ? t('legendHigh') : b === 'mid' ? t('legendMid') : b === 'low' ? t('legendLow') : b === 'played' ? t('legendPlayed') : t('skillsNotYet'));
+
+  /** the dashboard by curriculum: the class's work under the curriculum's headings, who needs what, the next step */
+  function skillsView(d: Skills, opt: { canEdit: boolean; onCurriculum: (key: string) => void; onAssign: (step: { title: string; link: string }) => void }): HTMLElement {
+    const box = h('div', { 'data-skills-view': d.curriculum.key });
+    box.append(h('p', { class: 'c-intro', text: t('skillsIntro') }));
+    const top = h('div', { class: 'c-row' });
+    if (d.curricula.length > 1) {
+      const sel = h('select', { id: 'c-curriculum', 'aria-label': t('skillsCurriculum') }) as HTMLSelectElement;
+      for (const c of d.curricula) sel.append(h('option', { value: c.key, selected: c.key === d.curriculum.key ? 'selected' : null, text: c.name }));
+      sel.onchange = () => opt.onCurriculum(sel.value);
+      top.append(h('label', { for: 'c-curriculum', text: t('skillsCurriculum') }), sel);
+    } else top.append(h('b', { 'data-curriculum-name': '', text: d.curriculum.name }));
+    box.append(top);
+    if (!d.groups.length && !d.other.length) { box.append(h('p', { class: 'c-muted', 'data-empty': '', text: t('skillsEmpty') })); return box; }
+    if (d.groups.length) {
+      top.append(
+        h('button', { type: 'button', class: 'c-quiet', 'data-act': 'print-class', text: t('skillsPrintClass'), onclick: () => printSkills(d, 'class') }),
+        h('button', { type: 'button', class: 'c-quiet', 'data-act': 'print-children', text: t('skillsPrintChildren'), onclick: () => printSkills(d, 'children') }));
+      box.append(h('p', { class: 'c-muted', text: t('skillsPrintHint') }));
+    }
+    const names = (g: SkillGroupView, band: SkillBand) => d.seats.filter((x) => g.bands[x.id] === band).map(seatLabel).join(', ');
+    for (const g of d.groups) {
+      const sec = h('section', { class: 'c-skill', 'data-group': g.key });
+      sec.append(h('h3', null, g.fw ? h('span', { class: 'c-code', text: [g.fw, g.code].filter(Boolean).join(' ') }) : null, g.titles.join(' › ')));
+      if (g.outside) sec.append(h('p', { class: 'c-muted', 'data-outside': '', text: t('skillsOutside') }));
+      sec.append(h('p', { class: 'c-muted', 'data-work': '', text: g.work.map((w) => w.title).join(' · ') }));
+      for (const band of ['low', 'mid'] as const) if (g.counts[band]) sec.append(h('p', { class: 'c-line', 'data-band-line': band }, h('span', { class: 'c-chip', 'data-band': band, text: bandWord(band) + ': ' + g.counts[band] }), h('span', { text: names(g, band) })));
+      const rest = h('p', { class: 'c-line', 'data-band-line': 'rest' });
+      if (g.counts.high) rest.append(h('span', { class: 'c-chip', 'data-band': 'high', title: names(g, 'high'), text: t('legendHigh') + ': ' + g.counts.high }));
+      if (g.counts.played) rest.append(h('span', { class: 'c-chip', 'data-band': 'none', title: names(g, 'played'), text: t('legendPlayed') + ': ' + g.counts.played }));
+      if (g.counts.none) rest.append(h('span', { class: 'c-chip', 'data-band': 'none', 'data-not-yet': '', text: t('skillsNotYet') + ': ' + g.counts.none }));
+      if (rest.childNodes.length) sec.append(rest);
+      if (g.next.length) {
+        const next = h('div', { class: 'c-row c-next', 'data-next': '' }, h('b', { text: t('skillsNext') + ':' }));
+        for (const n of g.next) {
+          if (n.kind === 'set' || n.kind === 'activity') {
+            if (!opt.canEdit) continue;
+            next.append(h('button', { type: 'button', 'data-next-kind': n.kind, text: n.kind === 'set' ? t('skillsAssignSet', { title: n.title }) : t('skillsAssignActivity', { title: n.title }), onclick: () => opt.onAssign({ title: n.title, link: n.link }) }));
+          } else if (n.kind === 'tool') next.append(h('a', { href: n.href, target: '_blank', rel: 'noopener', 'data-next-kind': 'tool', text: t('skillsTool', { title: n.title }) }));
+          else next.append(h('a', { href: n.href, target: '_blank', rel: 'noopener', 'data-next-kind': 'unit', text: t('skillsUnit', { n: n.n, unit: n.unit, title: n.title }) }));
+        }
+        if (next.childNodes.length > 1) sec.append(next);
+      }
+      box.append(sec);
+    }
+    if (d.other.length) box.append(h('section', { class: 'c-skill', 'data-other': '' }, h('h3', { text: t('skillsOther') }), h('p', { class: 'c-muted', text: d.other.map((w) => w.title).join(' · ') }), h('p', { class: 'c-muted', text: t('skillsOtherNote') })));
+    return box;
+  }
+
+  /**
+   * The view by curriculum on paper (the browser's print window also saves a PDF): the class overview, or one page
+   * per child for a talk with parents. A child's page names no other child.
+   */
+  function printSkills(d: Skills, what: 'class' | 'children'): void {
+    const w = window.open('', '_blank');
+    if (!w) return;
+    const doc = w.document;
+    doc.title = d.class.name;
+    doc.documentElement.lang = o.locale;
+    const el = (tag: string, text?: string, cls?: string): HTMLElement => { const x = doc.createElement(tag); if (text != null) x.textContent = text; if (cls) x.className = cls; return x; };
+    doc.head.append(Object.assign(doc.createElement('style'), { textContent: "body{font-family:'Nunito',system-ui,sans-serif;margin:24px;color:#14322D;font-size:11.5pt;line-height:1.45}h1{font-size:19pt;margin:0 0 4px}h2{font-size:12.5pt;margin:16px 0 2px}p{margin:0 0 6px}.m{color:#4A5A55}.pg{break-after:page;page-break-after:always}.pg:last-child{break-after:auto;page-break-after:auto}table{border-collapse:collapse;width:100%;margin-top:12px}th,td{text-align:left;vertical-align:top;border-bottom:1px solid #CFC5AE;padding:7px 8px 7px 0}th{font-size:10pt;color:#4A5A55}td.r{white-space:nowrap;font-weight:700}.w{color:#4A5A55;font-size:10pt}" }));
+    const today = t('reportDate', { date: day(new Date().toISOString()) });
+    if (what === 'class') {
+      doc.body.append(el('h1', d.class.name), el('p', d.curriculum.name + ' · ' + today, 'm'));
+      const names = (g: SkillGroupView, band: SkillBand) => d.seats.filter((x) => g.bands[x.id] === band).map(seatLabel).join(', ');
+      for (const g of d.groups) {
+        doc.body.append(el('h2', headingText(g)), el('p', g.work.map((x) => x.title).join(' · '), 'w'));
+        for (const band of ['low', 'mid', 'high', 'played'] as const) if (g.counts[band]) doc.body.append(el('p', skillWord(band) + ' (' + g.counts[band] + '): ' + names(g, band)));
+        if (g.counts.none) doc.body.append(el('p', t('skillsNotYet') + ' (' + g.counts.none + '): ' + d.seats.filter((x) => !g.bands[x.id]).map(seatLabel).join(', ')));
+      }
+    } else {
+      for (const seat of d.seats) {
+        const rows = d.groups.filter((g) => g.bands[seat.id]);
+        if (!rows.length) continue; // a child with no result gets no page
+        const pg = el('div', undefined, 'pg');
+        pg.setAttribute('data-seat', String(seat.seatNo));
+        pg.append(el('h1', t('reportTitle', { name: seatLabel(seat) })), el('p', d.class.name + ' · ' + today, 'm'), el('p', t('reportIntro')));
+        const table = doc.createElement('table'), head = doc.createElement('tr');
+        head.append(el('th', t('reportHeadSkill')), el('th', t('reportHeadResult')));
+        table.append(head);
+        for (const g of rows) {
+          const tr = doc.createElement('tr'), td = doc.createElement('td');
+          td.append(el('div', headingText(g)), el('div', g.work.map((x) => x.title).join(' · '), 'w'));
+          tr.append(td, el('td', skillWord(g.bands[seat.id]), 'r'));
+          table.append(tr);
+        }
+        pg.append(table);
+        doc.body.append(pg);
+      }
+    }
+    try { w.focus(); w.print(); } catch { /* the window stays open to print by hand */ }
   }
 
   /** the class list on paper: one card per child (picture + name or number) and the class link with its QR code */

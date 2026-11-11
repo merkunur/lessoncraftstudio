@@ -324,6 +324,116 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
     eq((await S.classResults(adb, SUB2, acid)).status, 404, "another teacher cannot read an activity's results");
   }
 
+  // ── release 2: the dashboard by curriculum ──
+  {
+    const IX = {
+      registry: 'en', locale: 'en', name: 'United States (Common Core, NGSS)',
+      groups: [
+        { fw: 'Common Core', code: 'K.CC.B.5', titles: ['Counting and Cardinality'], outside: false },
+        { fw: null, code: null, titles: ['Handwriting'], outside: true },
+        { fw: 'Common Core', code: '1.MD.B.3', titles: ['Measurement and Data'], outside: false },
+      ],
+      points: {
+        'K:count': { g: 0, order: 5, set: 'k002', acts: ['retired-activity', 'make-10', 'count-on'], tool: { slug: 'ten-frame', name: 'Ten Frame' }, unit: { slug: 'counting-unit', n: 2, title: 'Count to 10', unit: 'Counting' } },
+        'K:trace': { g: 1, order: 2, set: null, acts: [], tool: null, unit: null },
+        '1:clock': { g: 2, order: 40, set: null, acts: ['set-the-clock'], tool: null, unit: null },
+      },
+      types: { k002: 'K:count', k100: 'K:trace' },
+      activities: { 'number-bond.make-10': 'K:count', 'count.count-on': 'K:count', 'clock.set-the-clock': '1:clock' },
+    };
+    const CHOICES = [{ key: 'en', name: IX.name }, { key: 'en-tx', name: 'Texas (TEKS)' }];
+    const asked = [];
+    const pick = async (locale, wanted) => { asked.push([locale, wanted]); return locale === 'en' ? { index: wanted === 'en-tx' ? Object.assign({}, IX, { registry: 'en-tx', name: 'Texas (TEKS)' }) : IX, choices: CHOICES } : null; };
+    eq(S.pointOfAssignment({ kind: 'deck', locale: 'en', slug: 'count-k002' }, IX), 'K:count', 'a page is placed by the type code its address ends with');
+    eq(S.pointOfAssignment({ kind: 'deck', locale: 'en', slug: 'count-easy-k002-3' }, IX), 'K:count', 'a numbered copy of a page is placed like the page');
+    eq(S.pointOfAssignment({ kind: 'deck', locale: 'en', slug: 'addition-animals' }, IX), null, 'a page with no type code is placed nowhere');
+    eq(S.pointOfAssignment({ kind: 'deck', locale: 'en', slug: 'color-by-number-k002-10-forestrabbit' }, IX), 'K:count', 'a page whose address carries a picture name after the code is placed by the code');
+    eq(S.pointOfAssignment({ kind: 'deck', locale: 'en', slug: 'trace-k100-then-count-k002-3' }, IX), 'K:count', 'the LAST code-shaped part of an address is its type code');
+    eq(S.pointOfAssignment({ kind: 'ladder', locale: 'en', code: 'K002', levels: { easy: [], core: [], hard: [] } }, IX), 'K:count', 'a Level Set is placed by its code');
+    eq(S.pointOfAssignment({ kind: 'activity', locale: 'en', slug: 'make-10', activity: 'number-bond.make-10' }, IX), 'K:count', 'an activity is placed by its id');
+    eq(S.pointOfAssignment({ kind: 'maker', linkId: 'abcdefghjkmn' }, IX), null, "a teacher's own worksheet names no teaching point");
+
+    const sdb = makeDb({ now: () => new Date(T), decks: { 'en/count-k002': { title: 'Count the Animals', interactive: true }, 'en/lines-k100': { title: 'Trace the Lines', interactive: true } }, activities: { 'en/make-10': { id: 'number-bond.make-10', title: 'Make 10' }, 'en/count-on': { id: 'count.count-on', title: 'Count On' }, 'en/set-the-clock': { id: 'clock.set-the-clock', title: 'Set the Clock' } } });
+    let q = await S.createClass(sdb, SUB, { name: 'Class 1D', namesMode: 'names', locale: 'en', names: 'Max\nLea\nTom\nIda' }, newCode);
+    const sid = q.body.id, scode = q.body.code;
+    const [smax, slea, stom, sida] = (await S.getClass(sdb, SUB, sid)).body.seats.map((s) => s.id);
+    const deckS = (await S.addAssignment(sdb, SUB, sid, { link: '/en/decks/count-k002/' }, now())).body.id;
+    const actS = (await S.addAssignment(sdb, SUB, sid, { link: '/en/activities/make-10' }, now())).body.id;
+    const makerS = (await S.addAssignment(sdb, SUB, sid, { link: '/s/abcdefghjkmn' }, now())).body.id;
+    const playS = async (seat, assignment, marks) => {
+      const s = await S.startAttempt(sdb, { code: scode, seatId: seat, assignmentId: assignment }, newToken, now());
+      if (s.body.url) await S.report(sdb, Object.assign({ token: s.body.url.split('#lcs=')[1] }, marks), newToken, now());
+      hours(1);
+    };
+    eq((await S.classSkills(sdb, null, sid, null, pick)).status, 401, 'signed out cannot read the view by curriculum');
+    eq((await S.classSkills(sdb, SUB2, sid, null, pick)).status, 404, 'another teacher cannot read it');
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq([q.status, q.body.groups.length, q.body.other.map((o) => o.id)], [200, 1, [makerS]], 'before any result: one heading with the work under it; the maker worksheet stands apart');
+    eq([q.body.groups[0].counts, q.body.groups[0].next], [{ high: 0, mid: 0, low: 0, played: 0, none: 4 }, []], 'nobody has played: four children "not yet", no next step');
+    eq(q.body.curriculum, { key: 'en', name: IX.name }, "the country's own curriculum is the one shown first");
+    eq(q.body.curricula, CHOICES, 'the other curricula of the language are offered');
+
+    await playS(smax, deckS, { right: 5, total: 5 });
+    await playS(slea, deckS, { right: 2, total: 6 });
+    await playS(stom, actS, { finished: true });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    let g = q.body.groups[0];
+    eq([g.key, g.fw, g.code, g.titles, g.outside], ['g0', 'Common Core', 'K.CC.B.5', ['Counting and Cardinality'], false], 'the heading is the framework, the official code and the title of the part it stands under');
+    eq(g.work.map((w) => [w.id, w.kind]), [[deckS, 'deck'], [actS, 'activity']], 'a page and an activity on the same teaching point stand under one heading');
+    eq(g.bands, { [smax]: 'high', [slea]: 'low', [stom]: 'played' }, 'per child: almost all right, many wrong, played with no marks');
+    eq(g.counts, { high: 1, mid: 0, low: 1, played: 1, none: 1 }, 'the counts add up to the class');
+    eq(g.next, [
+      { kind: 'set', title: 'Count and Write', link: '/en/worksheets/sets/k002' },
+      { kind: 'activity', title: 'Count On', link: '/en/activities/count-on' },
+      { kind: 'tool', title: 'Ten Frame', href: '/en/tools/ten-frame' },
+      { kind: 'unit', title: 'Count to 10', unit: 'Counting', n: 2, href: '/en/units/counting-unit' },
+    ], 'a child had many wrong: the Level Set, an activity the class does not have yet (and that is live: the retired one is passed over), the tool and the unit lesson are offered');
+    ok(!JSON.stringify(q.body).includes('teacherId'), 'the view carries no owner id');
+    eq((await S.addAssignment(sdb, SUB, sid, { link: g.next[0].link }, now())).body.kind, 'ladder', 'the offered Level Set link can be assigned as it is');
+    eq((await S.addAssignment(sdb, SUB, sid, { link: g.next[1].link }, now())).body.kind, 'activity', 'the offered activity link can be assigned as it is');
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    g = q.body.groups[0];
+    eq(g.next.map((n) => n.kind), ['tool', 'unit'], 'what the class now has is not offered again');
+    eq(g.work.length, 4, 'the new work stands under the same heading');
+
+    // the most recent result under a heading counts
+    await playS(slea, actS, { right: 7, total: 7, items: [1, 1, 1, 1, 1, 1, 1] });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups[0].bands[slea], 'high', 'a later result under the same heading replaces the earlier one');
+    eq(q.body.groups[0].next, [], 'no child with some or many wrong: no next step');
+    // the same page played again is not new evidence
+    await playS(smax, deckS, { right: 1, total: 5 });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups[0].bands[smax], 'high', 'a single page counts by its FIRST play');
+    // a Level Set counts by the last page played; a finished set is almost all right
+    const ladS = q.body.groups[0].work.find((w) => w.kind === 'ladder').id;
+    await playS(sida, ladS, { right: 3, total: 10 });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups[0].bands[sida], 'low', 'a Level Set: the last page played');
+    await playS(sida, ladS, { right: 9, total: 10 });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups[0].bands[sida], 'high', 'a Level Set: a later page replaces the earlier one');
+
+    // headings come in teaching order; a point the curriculum does not name stands under its domain
+    const clockS = (await S.addAssignment(sdb, SUB, sid, { link: '/en/activities/set-the-clock' }, now())).body.id;
+    await playS(stom, clockS, { right: 5, total: 7, items: [1, 1, 0, 1, 0, 1, 1] });
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups.map((x) => x.code), ['K.CC.B.5', '1.MD.B.3'], 'headings stand in teaching order');
+    eq([q.body.groups[1].bands, q.body.groups[1].next], [{ [stom]: 'mid' }, []], 'some wrong, and nothing else exists for that point: no step is invented');
+    await S.addAssignment(sdb, SUB, sid, { link: '/en/decks/lines-k100/' }, now());
+    q = await S.classSkills(sdb, SUB, sid, null, pick);
+    eq(q.body.groups.map((x) => [x.code, x.outside, x.titles[0]]), [[null, true, 'Handwriting'], ['K.CC.B.5', false, 'Counting and Cardinality'], ['1.MD.B.3', false, 'Measurement and Data']], 'work added last but taught first stands first; a point the curriculum does not name stands under its domain, marked as outside');
+
+    // another curriculum of the same language; a curriculum of another language is refused
+    q = await S.classSkills(sdb, SUB, sid, 'en-tx', pick);
+    eq(q.body.curriculum.key, 'en-tx', 'the teacher can read the class against Texas');
+    await S.classSkills(sdb, SUB, sid, 'DROP TABLE', pick);
+    eq(asked[asked.length - 1], ['en', null], 'a curriculum key that is not a key is not passed on');
+    eq((await S.classSkills(sdb, SUB, sid, null, async () => ({ index: Object.assign({}, IX, { locale: 'de' }), choices: [] }))).status, 404, 'an index of another language is refused');
+    eq((await S.classSkills(sdb, SUB, sid, null, async () => null)).status, 404, 'a language with no curriculum registry answers "not found", not an error');
+    eq((await S.classSkills(sdb, { userId: 'sub', usable: false }, sid, null, pick)).body.canEdit, false, 'a lapsed teacher can read the view and is told she cannot edit');
+  }
+
   // ── retention ──
   const day = 24 * 3600 * 1000, t0 = new Date('2026-01-01T00:00:00Z');
   const at = (d) => new Date(t0.getTime() + d * day);

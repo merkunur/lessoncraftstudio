@@ -30,10 +30,10 @@ const get = (p, opt) => fetch(HOST + p, Object.assign({ headers: QA, redirect: '
 
 (async () => {
   // 1 — nothing is reachable
-  const routes = [['GET', '/c/abcdefghij'], ['GET', '/api/class/abcdefghij'], ['GET', '/api/class/abcdefghij/seat/s000000001'], ['POST', '/api/class/start'], ['POST', '/api/class/report'], ['GET', '/api/classes'], ['POST', '/api/classes'], ['GET', '/api/classes/c000000001/results'], ['GET', '/en/workspace/classes'], ['GET', '/de/workspace/classes'], ['GET', '/fi/workspace/classes']];
+  const routes = [['GET', '/c/abcdefghij'], ['GET', '/api/class/abcdefghij'], ['GET', '/api/class/abcdefghij/seat/s000000001'], ['POST', '/api/class/start'], ['POST', '/api/class/report'], ['GET', '/api/classes'], ['POST', '/api/classes'], ['GET', '/api/classes/c000000001/results'], ['GET', '/api/classes/c000000001/skills'], ['GET', '/en/workspace/classes'], ['GET', '/de/workspace/classes'], ['GET', '/fi/workspace/classes']];
   const got = [];
   for (const [m, p] of routes) { const r = await get(p, m === 'POST' ? { method: 'POST', headers: Object.assign({ 'content-type': 'application/json' }, QA), body: '{}' } : {}); got.push(m + ' ' + p + ' → ' + r.status); }
-  check('switched off: all 11 class routes answer 404', got.every((x) => x.endsWith('→ 404')), got.filter((x) => !x.endsWith('→ 404')));
+  check('switched off: all 12 class routes answer 404', got.every((x) => x.endsWith('→ 404')), got.filter((x) => !x.endsWith('→ 404')));
   const ws = await (await get('/en/workspace')).text();
   check('the workspace page does not mention the Classes screen', !/workspace\/classes/.test(ws));
 

@@ -86,6 +86,7 @@ model User {
   // Worksheet makers (2026-11, ARCHITECTURE §8.1): saved recipes + student / colleague links. Prisma virtual; emit no SQL.
   makerRecipes       MakerRecipe[]
   makerShareLinks    MakerShareLink[]
+  classrooms         Classroom[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1558,4 +1559,90 @@ model MakerShareLink {
   @@index([recipeId])
   @@index([teacherId])
   @@map("maker_share_links")
+}
+
+// ── Class links and results (Daily Teaching System, Part 9 release 1, 2026-11) ─────────────────────────────────────
+// A subscriber makes a CLASS (a list of seats: a first name or nickname + a picture, or numbers only), ASSIGNS it
+// interactive pages (a deck, a Level Set ladder, a maker worksheet) and shows ONE class link. A child opens the link,
+// taps their own seat and plays; the page they play reports what they got right to an ATTEMPT row. Rules + limits live
+// in frontend/lib/class-results/store.ts; the design in docs/daily-teaching-system/PART-9-DESIGN.md.
+//
+// Privacy by construction: nothing about a child is stored except the display name the teacher typed (optional) and
+// results. No surname field, no birth date, no email, no photo, no IP address, no user agent, no timing beyond a date.
+// Every row hangs off the class with ON DELETE CASCADE: deleting a class, a seat or the teacher's account removes the
+// results with it. Retention (scripts/class-results/retention.js): 14 months unused, or 60 days after the teacher's
+// subscription ended.
+model Classroom {
+  id         String   @id @default(cuid())
+  teacherId  String   @map("teacher_id")
+  name       String   @db.VarChar(60)
+  code       String   @unique @db.VarChar(12) // the class link's key: /c/<code>; the teacher can replace it
+  namesMode  String   @default("names") @map("names_mode") @db.VarChar(8) // names | numbers (no names shown or stored)
+  locale     String   @default("en") @db.VarChar(5) // the language of the children's class page
+  lastUsedAt DateTime @default(now()) @map("last_used_at") // retention clock: a child's play or a teacher's edit
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  teacher     User              @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  seats       ClassSeat[]
+  assignments ClassAssignment[]
+
+  @@index([teacherId])
+  @@index([lastUsedAt])
+  @@map("class_rooms")
+}
+
+model ClassSeat {
+  id          String   @id @default(cuid())
+  classId     String   @map("class_id")
+  seatNo      Int      @map("seat_no") // 1..40, stable for the life of the seat
+  displayName String?  @map("display_name") @db.VarChar(24) // first name or nickname; null in a numbers-only class
+  icon        String   @db.VarChar(24) // a key of SEAT_ICONS (store.ts): the picture beside the name
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  classroom Classroom      @relation(fields: [classId], references: [id], onDelete: Cascade)
+  attempts  ClassAttempt[]
+
+  @@unique([classId, seatNo])
+  @@map("class_seats")
+}
+
+model ClassAssignment {
+  id        String    @id @default(cuid())
+  classId   String    @map("class_id")
+  kind      String    @db.VarChar(8) // deck | ladder | maker
+  title     String    @db.VarChar(200) // what the child and the teacher see, taken at assignment time
+  content   Json // the resolved reference (store.ts AssignmentContent): slug(s), locale, level pages
+  position  Int       @default(0) // order on the class page
+  closedAt  DateTime? @map("closed_at") // hidden from the class page, results kept
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  classroom Classroom      @relation(fields: [classId], references: [id], onDelete: Cascade)
+  attempts  ClassAttempt[]
+
+  @@index([classId])
+  @@map("class_assignments")
+}
+
+model ClassAttempt {
+  id           String    @id @default(cuid())
+  token        String    @unique @db.VarChar(24) // carried in the page address after '#'; the report's key
+  assignmentId String    @map("assignment_id")
+  seatId       String    @map("seat_id")
+  pageRef      String    @map("page_ref") @db.VarChar(200) // the deck slug (or maker link id) this attempt plays
+  level        String?   @db.VarChar(8) // easy | core | hard for a ladder page, else null
+  right        Int? // first Check: answers right
+  total        Int? // first Check: answers asked
+  items        Json? // first Check: 1/0 per answer, when the page exposes it
+  checks       Int       @default(0) // how many times Check was pressed in all
+  finished     Boolean   @default(false) // the page was completed (the only fact for pages that expose no marks)
+  createdAt    DateTime  @default(now()) @map("created_at")
+  reportedAt   DateTime? @map("reported_at")
+
+  assignment ClassAssignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  seat       ClassSeat       @relation(fields: [seatId], references: [id], onDelete: Cascade)
+
+  @@index([assignmentId, seatId])
+  @@index([seatId])
+  @@map("class_attempts")
 }

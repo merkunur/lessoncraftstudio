@@ -27,3 +27,7 @@ Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`).
 - Skill lines too vague to place firmly: K:sound-position (heard only or written with letters), K:word-picture-match (which words), 1:root-words (which endings), 1:sun-earth-moon (which facts), 2:compare-two-animals (which facts), K:living-nonliving and K:natural-made (whether a reason is asked). Each was judged by the grade of the worksheets and given the weaker relation.
 - Nineteen points of social studies, health and art have no rows because Texas holds them in TEKS chapters this registry does not contain (social studies Chapter 113, health Chapter 115, fine arts Chapter 117); body parts and the five senses are also mainly health content in Texas, so their science rows are thin.
 - Bilingual word cards belong to Texas's English Language Proficiency Standards and bilingual program rules rather than to ELAR; only their picture-and-word vocabulary use is mapped.
+
+## own-audit
+
+- The builder's own reading: every 11th point beside the official wording, every 'teaches' row two grades from its point, and the mathematics points left without a counterpart. Five of those have a home in the reading or the science TEKS that the mathematics reviewer could not see (position words, ordinal words, the order of the seasons); they are mapped there. Days of the week, reading a calendar, repeating picture patterns and 24-hour time stay without a counterpart: Texas has them in social studies or not at all.

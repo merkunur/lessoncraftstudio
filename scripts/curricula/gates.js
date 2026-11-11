@@ -15,6 +15,8 @@
  *   C4  a crosswalk row names a node that exists (or a whole area, marked so), has one of the three relations and
  *       carries the node's own grade; a point without rows says why
  *   C5  a row that came from review says so, and its file of overrides names only points and nodes that exist
+ *   C6  display.json says, for every framework of every registry, how it is shown (code, label or area); a framework
+ *       shown by label has labelled nodes; nothing stands in display.json that is not a registry
  */
 'use strict';
 const fs = require('fs');
@@ -37,7 +39,8 @@ function load() {
       overrides: fs.existsSync(path.join(d, 'crosswalk-overrides.json')) ? readJson(path.join(d, 'crosswalk-overrides.json')) : null,
     };
   }
-  return { points, locales };
+  const display = fs.existsSync(path.join(ROOT, 'display.json')) ? readJson(path.join(ROOT, 'display.json')) : null;
+  return { points, locales, display };
 }
 
 function run(d) {
@@ -90,6 +93,24 @@ function run(d) {
       if (cw.points[id] && cw.points[id].by !== 'review') fail('C5', loc + ': ' + id + ' has an override that the crosswalk does not carry (rebuild)');
     }
   }
+  // C6: how each framework is shown
+  const disp = d.display;
+  if (!disp) fail('C6', 'no display.json');
+  else {
+    for (const [loc, L] of Object.entries(d.locales)) {
+      const R = disp.registries[loc];
+      if (!R) { fail('C6', loc + ': not in display.json'); continue; }
+      if (!R.name) fail('C6', loc + ': no name in display.json');
+      for (const f of L.framework.frameworks || []) {
+        const e = (R.frameworks || {})[f.key];
+        if (!e) { fail('C6', loc + ': framework ' + f.key + ' is not in display.json'); continue; }
+        if (!['code', 'label', 'area'].includes(e.show)) fail('C6', loc + ': framework ' + f.key + ' is shown as "' + e.show + '"');
+        if (e.show === 'label' && !(L.framework.nodes || []).some((n) => n.f === f.key && n.label)) fail('C6', loc + ': framework ' + f.key + ' is shown by label, but none of its nodes has one');
+      }
+      for (const k of Object.keys(R.frameworks || {})) if (!(L.framework.frameworks || []).some((f) => f.key === k)) fail('C6', loc + ': display.json names a framework that does not exist (' + k + ')');
+    }
+    for (const loc of Object.keys(disp.registries)) if (!d.locales[loc]) fail('C6', 'display.json names a registry that does not exist (' + loc + ')');
+  }
   return fails;
 }
 
@@ -106,6 +127,9 @@ const POISONS = [
   ['a row with another grade than its node', 'C4', (d) => { const e = Object.values(d.locales[first(d)].crosswalk.points).find((x) => (x.rows || []).length && !x.rows[0].area); e.rows[0].grade = '9'; }],
   ['a point with no row and no reason', 'C4', (d) => { const e = Object.values(d.locales[first(d)].crosswalk.points).find((x) => x.none); delete e.none; }],
   ['a row that does not say where it comes from', 'C5', (d) => { Object.values(d.locales[first(d)].crosswalk.points)[0].by = ''; }],
+  ['a framework that display.json does not hold', 'C6', (d) => { const R = d.display.registries[first(d)]; delete R.frameworks[Object.keys(R.frameworks)[0]]; }],
+  ['a framework shown in a way that does not exist', 'C6', (d) => { const R = d.display.registries[first(d)]; Object.values(R.frameworks)[0].show = 'wording'; }],
+  ['a registry in display.json that does not exist', 'C6', (d) => { d.display.registries['xx'] = { name: 'x', frameworks: {} }; }],
 ];
 
 if (require.main === module) {

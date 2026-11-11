@@ -36,3 +36,7 @@ Written by the reviewers of the crosswalk (`scripts/curricula/apply-review.js`).
 - Family points: the Bavarian wording stresses 'Achtung und Respekt vor unterschiedlichen Lebensbedingungen und Familienformen'. A family tree with one fixed shape (mother, father, grandparents) can sit badly with that; the 'my own family tree' face fits best.
 - 2:synonyms and 2:synonyms~doing-stage carry the same skill line and received the same row.
 - Skill lines too vague to place exactly: 2:healthy-habits-why (which habits; sleep and exercise would add HSU1/2.2.2.3), K:natural-made (objects or places), 2:mystery-animal and 2:animal-fact-file (which animals; native ones would add the HSU animal content).
+
+## own-audit
+
+- The builder's own reading: every 29th point beside the official wording, every 'teaches' row two bands from its point, and every point left without a counterpart. Three calendar points filed under mathematics had no row because the mathematics reviewer was given the Fachlehrplan Mathematik only; Bavaria teaches the calendar in Heimat- und Sachunterricht (HSU1/2 4.1), and they are mapped there.

@@ -1,0 +1,3889 @@
+{
+ "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
+ "points": {
+  "K:position-words": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "F.3.3 names «rum, läge ... riktning» as what the förskoleklass explores with mathematical concepts; the same words return in årskurs 1–3 as «Vanliga lägesord för att beskriva föremåls och objekts läge i rummet».",
+   "review": "author-all"
+  },
+  "K:scene-search": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Only the shape part decides it: finding shapes and the shape of everyday objects is «utforska och beskriva ... form» (F.3.3) and a step toward the basic 2D objects of årskurs 1–3. The plain picture search is visual discrimination, which Lgr22 does not name.",
+   "review": "author-all"
+  },
+  "K:compare-size-extremes": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Biggest / tallest / longest are the «matematiska begrepp» a förskoleklass uses to describe form and space (F.3.3); in årskurs 1–3 the line continues as «Jämförelser och uppskattningar av storheter».",
+   "review": "author-all"
+  },
+  "K:order-by-size": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering by size or height uses comparison concepts for form and change (F.3.3) and prepares «Jämförelser ... av storheter» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:patterns": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "F.3.3 names «mönster» outright; extending and repairing AB/ABC patterns is the step before «enkla geometriska mönster samt hur de konstrueras, beskrivs och uttrycks» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:one-to-one": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "One-to-one pairing is the foundation of using natural numbers «för att ange antal» (F.3.2); the årskurs 1–3 point has the same wording at a higher level.",
+   "review": "author-all"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "More, fewer and equal are properties of quantities expressed by natural numbers: «Naturliga tal och deras egenskaper och hur de kan användas för att ange antal» (F.3.2).",
+   "review": "author-all"
+  },
+  "K:count-how-many": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting a set and giving its number is exactly «hur de kan användas för att ange antal» (F.3.2); the range to 10–20 is what a förskoleklass works in.",
+   "review": "author-all"
+  },
+  "K:subitize": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing a small quantity or dice pattern at a glance is number sense for «ange antal» (F.3.2) and a step toward «hur talen delas upp» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:conservation": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That the number does not change with the arrangement is one of the «egenskaper» of natural numbers used for quantity (F.3.2).",
+   "review": "author-all"
+  },
+  "K:count-out-n": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Making a set of a given number is the reverse use of numbers «för att ange antal» (F.3.2).",
+   "review": "author-all"
+  },
+  "K:shape-naming": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming shapes is «utforska och beskriva ... form» (F.3.3); årskurs 1–3 continues with «Grundläggande geometriska tvådimensionella objekt» and their properties.",
+   "review": "author-all"
+  },
+  "K:numeral-formation": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Numerals are among the «Bokstäver och andra symboler för att förmedla budskap» of the förskoleklass (F.1.4); writing them prepares «Symboler för tal» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:colour-by-number": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child reads a numeral as a symbol that carries a message (the colour key): «andra symboler för att förmedla budskap» (F.1.4). No counting or calculating is asked, so no number point is claimed.",
+   "review": "author-all"
+  },
+  "K:classify-count-kinds": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting each kind is «ange antal» (F.3.2); sorting first and then recording a count per kind is the step before tables and diagrams used «för att sortera data» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:count-sides": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting and sorting by sides describes «form» (F.3.3) and prepares «Egenskaper hos dessa objekt» for the 2D objects of årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:count-forward-missing": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The number sequence to 10/20 is natural numbers used «för att ange ... ordning» (F.3.2).",
+   "review": "author-all"
+  },
+  "K:dot-to-dot-sequence": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Joining dots in counting order practises the order of the natural numbers («ordning», F.3.2); counting on to 30 reaches toward the årskurs 1–3 point.",
+   "review": "author-all"
+  },
+  "K:one-more-one-less": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "That each next number is one more is a basic property of the natural numbers («Naturliga tal och deras egenskaper», F.3.2).",
+   "review": "author-all"
+  },
+  "K:before-after-back": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Neighbour numbers and counting backward are the order of the natural numbers («ordning», F.3.2).",
+   "review": "author-all"
+  },
+  "K:ordinal-position": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordinal numbers are natural numbers used «för att ange ... ordning», named in both F.3.2 and MA 1–3.",
+   "review": "author-all"
+  },
+  "K:days-of-week": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "F.3.3 names «tid» among what the förskoleklass describes with mathematical concepts; the weekdays are the first time units before «Mätning av ... tid» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:tally-marks": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-3.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A tally is another way to state a quantity (F.3.2). It is also the usual first recording for tables and diagrams, and a number symbol other than our digits («Symboler för tal»).",
+   "review": "author-all"
+  },
+  "K:estimate": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Estimating then counting is number sense for «ange antal» (F.3.2) and the step before «Rimlighetsbedömning vid uppskattningar och beräkningar».",
+   "review": "author-all"
+  },
+  "K:heavy-light": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The förskoleklass text names no weight; the nearest is exploring phenomena through «mätningar» (F.4.1), which a paper sheet only prepares. Heavier/lighter is the step before «Jämförelser och uppskattningar av storheter. Mätning av ... massa».",
+   "review": "author-all"
+  },
+  "K:draw-shapes": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing shapes from sides and corners describes «form» (F.3.3) and prepares «Konstruktion av geometriska objekt».",
+   "review": "author-all"
+  },
+  "K:combine-groups": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting all of two groups still uses numbers to state a quantity (F.3.2); it is addition before the sign, so it prepares «De fyra räknesättens ... användning i olika situationer».",
+   "review": "author-all"
+  },
+  "K:take-away": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing out and counting what is left is counting (F.3.2) that prepares subtraction as one of «De fyra räknesätten».",
+   "review": "author-all"
+  },
+  "K:count-on": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting on from a known group is a property of the number sequence (F.3.2) and the first of the «Metoder för beräkningar ... vid huvudräkning» in årskurs 1.",
+   "review": "author-all"
+  },
+  "K:number-bonds-k": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting numbers to 10 is a property of natural numbers (F.3.2, which also names «Del av helhet»); årskurs 1–3 says it outright: «hur talen delas upp».",
+   "review": "author-all"
+  },
+  "K:compose-shapes": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building figures from pieces explores «form» and «läge» (F.3.3) and prepares the 2D objects' «inbördes relationer» and «Konstruktion av geometriska objekt».",
+   "review": "author-all"
+  },
+  "K:mirror-image": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A mirror image changes direction but not form («form, riktning», F.3.3); recognising it is the step before «Symmetri i vardagen».",
+   "review": "author-all"
+  },
+  "K:odd-even-pairing": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Odd and even are «egenskaper» of natural numbers, named in both F.3.2 and MA 1–3; pairing up is the förskoleklass way in.",
+   "review": "author-all"
+  },
+  "K:teen-numbers": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing 13 as ten and three is a property of the numbers 11–19 (F.3.2) and the first step into «Positionssystemet».",
+   "review": "author-all"
+  },
+  "K:fact-fluency-colour-code": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The förskoleklass text names numbers for quantity and order but no calculating, so fluent adding and subtracting to 20 goes beyond F.3.2. It is årskurs 1 content: «Metoder för beräkningar med naturliga tal, vid huvudräkning».",
+   "review": "author-all"
+  },
+  "K:number-bonds-20": {
+   "rows": [
+    {
+     "id": "F.3.2",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Splitting numbers to 20 is beyond what a förskoleklass normally does with F.3.2 and is the årskurs 1–3 wording itself: «hur talen delas upp».",
+   "review": "author-all"
+  },
+  "1:add-within-10-models": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Addition shown with pictures, ten-frames and dice is «De fyra räknesättens ... användning i olika situationer» at the start of the band (sums to 10–12).",
+   "review": "author-all"
+  },
+  "1:subtract-cross-out": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Take-away on a picture model is subtraction as one of «De fyra räknesätten» in a concrete situation.",
+   "review": "author-all"
+  },
+  "1:write-the-equation": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the whole number sentence for a picture links the situation to the operation (1.6) and uses «Matematiska likheter och likhetstecknets betydelse».",
+   "review": "author-all"
+  },
+  "1:patterns-missing": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«enkla geometriska mönster samt hur de konstrueras, beskrivs och uttrycks» — completing a repeating pattern.",
+   "review": "author-all"
+  },
+  "1:sort-three-groups": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting into groups is the step before the point's «tabeller och diagram ... för att sortera data»; no table or diagram is made yet, so it only prepares.",
+   "review": "author-all"
+  },
+  "1:make-10": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Partners of ten are «hur talen delas upp».",
+   "review": "author-all"
+  },
+  "1:shape-attributes": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Grundläggande geometriska tvådimensionella objekt ... Egenskaper hos dessa objekt» — naming by defining attributes.",
+   "review": "author-all"
+  },
+  "1:ordinal-numbers": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordinal numbers are natural numbers used «för att ange ... ordning».",
+   "review": "author-all"
+  },
+  "1:number-line-placement": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing a number between printed neighbours works on the order and relations of natural numbers (1.1); the range to 50 fits årskurs 1.",
+   "review": "author-all"
+  },
+  "1:count-on-back-hops": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Counting on and back in hops is one of the «Metoder för beräkningar med naturliga tal, vid huvudräkning».",
+   "review": "author-all"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Strategier för att lösa matematiska problem i elevnära situationer» (drawing a picture) and the operations' «användning i olika situationer».",
+   "review": "author-all"
+  },
+  "1:picture-graphs-sort-count": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla tabeller och diagram och hur de används för att sortera data och beskriva resultat» — a sorting table and a picture graph are the first forms.",
+   "review": "author-all"
+  },
+  "1:doubles-halves": {
+   "rows": [
+    {
+     "id": "MA.1-3.5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: «Proportionella samband, däribland dubbelt och hälften».",
+   "review": "author-all"
+  },
+  "1:odd-even-pairs": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Odd and even are «egenskaper» of natural numbers.",
+   "review": "author-all"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Double plus one is a mental strategy: «Metoder för beräkningar ... vid huvudräkning».",
+   "review": "author-all"
+  },
+  "1:add-three-addends": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding three numbers in a handy order uses a property of addition («De fyra räknesättens egenskaper») and is a calculation method.",
+   "review": "author-all"
+  },
+  "1:fact-families": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "That addition and subtraction undo each other is «De fyra räknesättens egenskaper och samband».",
+   "review": "author-all"
+  },
+  "1:missing-number-equations": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Obekanta tal och hur de kan betecknas med en symbol» (the empty box) inside a «matematisk likhet».",
+   "review": "author-all"
+  },
+  "1:true-false-equations": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Matematiska likheter och likhetstecknets betydelse» — 8 = 5 + 3 and 9 − 2 = 3 + 4 are the classic checks that the sign means «the same as».",
+   "review": "author-all"
+  },
+  "1:bar-model": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Part-part-whole shows «hur talen delas upp»; the bar model is itself one of the «Strategier för att lösa matematiska problem».",
+   "review": "author-all"
+  },
+  "1:tangram-compose": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Composing figures from pieces works on the 2D objects' «inbördes relationer» and «Konstruktion av geometriska objekt».",
+   "review": "author-all"
+  },
+  "1:days-months-seasons": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "SO.1-3.4.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Days and months are the «vanliga ... måttenheter» of time (3.3). Months to seasons is a step toward «Årstidsväxlingar i naturen»; yesterday/today/tomorrow toward «tidsbegreppen dåtid, nutid och framtid».",
+   "review": "author-all"
+  },
+  "1:days-months-seasons~season-wheel": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill line as its parent; read as the season-wheel part (months placed in the cycle of the four seasons), it works on «Årstidsväxlingar» as well as the months as time units. If the wheel only orders months, drop the NO row to prepares.",
+   "review": "author-all"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Jämförelser ... av storheter. Mätning av längd» — cubes are a non-standard unit, which the point allows («vanliga nutida och äldre måttenheter» come after).",
+   "review": "author-all"
+  },
+  "1:time-read": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... tid» — the clock to the hour and half hour, analog and digital, is the årskurs 1 level.",
+   "review": "author-all"
+  },
+  "1:fluency-within-20": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Metoder för beräkningar ... vid huvudräkning»; the criterion says «Eleven använder huvudräkning för att genomföra beräkningar».",
+   "review": "author-all"
+  },
+  "1:number-walls": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Calculating practice (1.7) where a missing brick is found by subtracting — the «samband» between addition and subtraction (1.6).",
+   "review": "author-all"
+  },
+  "1:check-answers": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.8",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The child recalculates (1.7). Marking wrong answers is a step toward «Rimlighetsbedömning vid ... beräkningar», but the sheet checks by recomputing, not by judging reasonableness.",
+   "review": "author-all"
+  },
+  "1:bar-graphs": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla tabeller och diagram» — reading and colouring a bar graph (stapeldiagram).",
+   "review": "author-all"
+  },
+  "1:tens-and-ones": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Positionssystemet och hur det används för att beskriva naturliga tal» — tens and ones.",
+   "review": "author-all"
+  },
+  "1:number-words": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Linking numeral and number word is basic knowledge of the natural numbers (1.1); writing the number words is «stavning av vanligt förekommande ord» in Swedish.",
+   "review": "author-all"
+  },
+  "1:compare-order-two-digit": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing and ordering is the numbers' «ordning» (1.1), decided by tens before ones (1.2).",
+   "review": "author-all"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "+1 right and +10 down is the place-value structure (1.2); colouring a counting pattern is «Enkla mönster i talföljder».",
+   "review": "author-all"
+  },
+  "1:one-ten-more-less": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "10 more / 10 less changes only the tens digit: «Positionssystemet».",
+   "review": "author-all"
+  },
+  "1:number-of-the-day": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One number shown many ways: «hur talen delas upp och används» (1.1) and tens/ones (1.2).",
+   "review": "author-all"
+  },
+  "1:skip-counting": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting in 2s, 5s and 10s is «Enkla mönster i talföljder»; the running total of equal groups prepares multiplication as one of the four operations.",
+   "review": "author-all"
+  },
+  "1:time-set-hands": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... tid» — drawing the hands; quarter hours and five minutes are still inside the 1–3 band.",
+   "review": "author-all"
+  },
+  "1:coins": {
+   "rows": [
+    {
+     "id": "SO.1-3.3.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Pengars användning och värde» (SO) and «Hur naturliga tal ... används i elevnära situationer» (MA). Swedish sheets must show kronor.",
+   "review": "author-all"
+  },
+  "1:open-number-line": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The empty number line with tens-then-ones jumps is a written support for mental methods: «Metoder för beräkningar ... vid huvudräkning ... och skriftlig beräkning».",
+   "review": "author-all"
+  },
+  "1:mental-math-to-100": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Metoder för beräkningar ... vid huvudräkning»; the criterion asks for «huvudräkning» with the operations. To 100 without columns is årskurs 1–2 work.",
+   "review": "author-all"
+  },
+  "1:bonds-to-100": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Partners of 100 are «hur talen delas upp» and a mental calculation method.",
+   "review": "author-all"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Bundling ten ones into a ten is the idea behind «Positionssystemet».",
+   "review": "author-all"
+  },
+  "2:hundreds-chart-moves": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Down = 10 more, right = 1 more is place value (1.2). Following an arrow path step by step touches «Hur symboler används vid stegvisa instruktioner», but only as a first step.",
+   "review": "author-all"
+  },
+  "2:odd-even": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Naturliga tal och deras egenskaper» — odd/even by pairing, by two equal addends and by the ones digit.",
+   "review": "author-all"
+  },
+  "2:number-line-not-from-zero": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing a number on a line section with few labels works on the numbers' order and relations (1.1).",
+   "review": "author-all"
+  },
+  "2:2d-attributes": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by number of sides uses the «Egenskaper» of the basic 2D objects.",
+   "review": "author-all"
+  },
+  "2:add-sub-within-100-practice": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Practice of «Metoder för beräkningar med naturliga tal»; the puzzle format (number wall, math maze) adds nothing Lgr22 names.",
+   "review": "author-all"
+  },
+  "2:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Strategier för att lösa matematiska problem i elevnära situationer» and choosing the operation: «användning i olika situationer».",
+   "review": "author-all"
+  },
+  "2:measure-with-ruler": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av längd ... med vanliga nutida ... måttenheter»; the criterion says «Eleven gör enkla mätningar ... av längder ... och använder vanliga måttenheter».",
+   "review": "author-all"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Jämförelser ... av storheter. Mätning av längd» — measure two and find the difference.",
+   "review": "author-all"
+  },
+  "2:read-build-3-digit": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Positionssystemet och hur det används för att beskriva naturliga tal» — hundreds, tens, ones.",
+   "review": "author-all"
+  },
+  "2:expanded-form-digit-value": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The value of a digit is the place-value system (1.2); expanded form is one way «talen delas upp» (1.1).",
+   "review": "author-all"
+  },
+  "2:chart-within-1000": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The hundreds digit stays while tens and ones run: place value (1.2) and the number order to 1000 (1.1).",
+   "review": "author-all"
+  },
+  "2:skip-count-5-10-100": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla mönster i talföljder» — steps of 5, 10 and 100.",
+   "review": "author-all"
+  },
+  "2:compare-order-3-digit": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Order of natural numbers (1.1), decided place by place (1.2).",
+   "review": "author-all"
+  },
+  "2:hundred-more-less": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "100 more / less changes only the hundreds digit: «Positionssystemet».",
+   "review": "author-all"
+  },
+  "2:time-5-min-quarter": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... tid» — the clock to five minutes and quarter hours.",
+   "review": "author-all"
+  },
+  "2:calendar": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Day, week and date are the common units of time in «Mätning av ... tid med vanliga ... måttenheter».",
+   "review": "author-all"
+  },
+  "2:flat-or-solid": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point holds both kinds: «tvådimensionella objekt samt objekten klot, kon, cylinder och rätblock».",
+   "review": "author-all"
+  },
+  "2:solids-in-real-life": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Årskurs 1–3 names exactly «klot, kon, cylinder och rätblock» (a cube is a rätblock). The pyramid is not in that list; it belongs to «tredimensionella objekt» in 4–6.",
+   "review": "author-all"
+  },
+  "2:3d-faces-edges-vertices": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Faces, edges and corners are «Egenskaper hos dessa objekt» for cone, cylinder and rätblock; prisms and pyramids go on to the 4–6 point.",
+   "review": "author-all"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A calculation method resting on hundreds, tens and ones: 1.7 and «Positionssystemet».",
+   "review": "author-all"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Subtraction with base-ten blocks: a calculation method (1.7) built on place value (1.2).",
+   "review": "author-all"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Metoder för beräkningar ... skriftlig beräkning»; the criterion: «Vid addition och subtraktion väljer och använder eleven skriftliga räknemetoder».",
+   "review": "author-all"
+  },
+  "2:shopping-money": {
+   "rows": [
+    {
+     "id": "SO.1-3.3.10",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Pengars användning och värde ... vad några vanliga varor ... kan kosta» (SO); numbers used «i elevnära situationer» and problem solving in such a situation (MA).",
+   "review": "author-all"
+  },
+  "2:bar-graphs": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla tabeller och diagram ... för att sortera data och beskriva resultat»; the criterion: «avläser och skapar eleven enkla tabeller och diagram».",
+   "review": "author-all"
+  },
+  "2:line-plots": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A line plot is a simple diagram to read («Enkla tabeller och diagram»). The form is uncommon in Swedish books, where a stapeldiagram or a tally table would be used.",
+   "review": "author-all"
+  },
+  "2:round-to-ten": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 does not name rounding. Finding the nearest ten on a number line is the numbers' order and relations (1.1); rounding is the tool for «överslagsräkning» (1.7), which the sheet prepares.",
+   "review": "author-all"
+  },
+  "2:mass-grams": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... massa ... med vanliga nutida ... måttenheter» — reading grams on a balance and a scale.",
+   "review": "author-all"
+  },
+  "2:read-jugs": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... volym» — reading a measuring jug. Swedish classes use dl and l at least as much as ml.",
+   "review": "author-all"
+  },
+  "2:choose-units": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Jämförelser och uppskattningar av storheter ... med vanliga nutida ... måttenheter» — cm/m, g/kg, ml/l. Inches and feet have no place on a Swedish sheet.",
+   "review": "author-all"
+  },
+  "2:equal-groups-times": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Repeated addition becoming multiplication is «De fyra räknesättens egenskaper och samband».",
+   "review": "author-all"
+  },
+  "2:arrays": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rows and columns as a picture of multiplication: the operation's properties and use (1.6).",
+   "review": "author-all"
+  },
+  "2:skip-count-3-4": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Enkla mönster i talföljder»; the sequences are the 3 and 4 times tables in the making.",
+   "review": "author-all"
+  },
+  "2:scaled-pictograph": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla tabeller och diagram» — a pictograph where a picture stands for 2.",
+   "review": "author-all"
+  },
+  "2:share-and-group": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sharing equally and making equal groups are the two meanings of division, one of «De fyra räknesätten ... användning i olika situationer», here still without the sign.",
+   "review": "author-all"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Tal i bråkform som del av helhet ... hur delarna benämns och uttrycks som enkla bråk»; the criterion: «delar upp helheter i delar samt jämför och namnger delarna som enkla bråk».",
+   "review": "author-all"
+  },
+  "2:fraction-of-a-set": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Tal i bråkform som ... del av antal».",
+   "review": "author-all"
+  },
+  "2:symmetry-line": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Symmetri i vardagen» — deciding whether a line is a mirror line.",
+   "review": "author-all"
+  },
+  "2:symmetry-complete": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«hur symmetri kan konstrueras» — completing the other half on a grid.",
+   "review": "author-all"
+  },
+  "2:grid-coordinates": {
+   "rows": [
+    {
+     "id": "MA.4-6.5.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 names «Koordinatsystem» only for årskurs 4–6. A letter-number square code (B2) is a readiness step toward it; nothing in årskurs 1–3 names it (lägesord are words, not codes).",
+   "review": "author-all"
+  },
+  "2:tangram-orientation": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a figure from its turned or flipped version works on the 2D objects' properties and «inbördes relationer».",
+   "review": "author-all"
+  },
+  "3:compare-4-digit": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing from the left is «Positionssystemet» used to describe natural numbers. Lgr22 gives no number range; thousands at the end of årskurs 3 is normal Swedish practice.",
+   "review": "author-all"
+  },
+  "3:rounding": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Rounding is not named in Lgr22. Nearest ten/hundred on a number line is number relations (1.1); it is the tool for «överslagsräkning» (1.7).",
+   "review": "author-all"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«skriftlig beräkning»; the criterion asks for written methods in addition and subtraction «med tillfredsställande säkerhet».",
+   "review": "author-all"
+  },
+  "3:estimate-by-rounding": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«överslagsräkning» (1.7) used for «Rimlighetsbedömning vid uppskattningar och beräkningar» (1.8).",
+   "review": "author-all"
+  },
+  "3:magic-squares": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Calculation practice (1.7) inside a problem that needs a strategy (6.1).",
+   "review": "author-all"
+  },
+  "3:parity-of-sums": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Naturliga tal och deras egenskaper» — reasoning about odd and even without calculating.",
+   "review": "author-all"
+  },
+  "3:arithmetic-patterns": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla mönster i talföljder ... hur de konstrueras, beskrivs och uttrycks» — finding the constant step.",
+   "review": "author-all"
+  },
+  "3:time-to-minute": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... tid» — the analog clock to the minute.",
+   "review": "author-all"
+  },
+  "3:mult-equal-groups": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Multiplication as equal groups / an array: «De fyra räknesättens egenskaper ... användning i olika situationer».",
+   "review": "author-all"
+  },
+  "3:mult-number-line": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Equal jumps show multiplication as repeated addition (1.6); the landing points are a number sequence (2.3).",
+   "review": "author-all"
+  },
+  "3:commutative": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "a×b = b×a is one of «De fyra räknesättens egenskaper».",
+   "review": "author-all"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Table facts are mental calculation (1.7), derived through the operations' «samband» (1.6); the criterion asks for «huvudräkning ... med de fyra räknesätten». Lgr22 sets no table range; all of 2–10 by heart is at the top of the band.",
+   "review": "author-all"
+  },
+  "3:scaled-graphs": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Enkla tabeller och diagram» — still simple diagrams, now with a scale of 2, 5 or 10.",
+   "review": "author-all"
+  },
+  "3:thermometer": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "extends"
+    }
+   ],
+   "why": "Temperature is not among the measured quantities Lgr22 lists («längd, massa, volym och tid»), in 1–3 or 4–6; reading a graded scale goes beyond the point on the same line. If the scale goes below zero it also meets negative numbers, a 4–6 matter.",
+   "review": "author-all"
+  },
+  "3:division-sharing": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sharing equally (delningsdivision) is division in a situation: «De fyra räknesätten ... användning i olika situationer».",
+   "review": "author-all"
+  },
+  "3:division-repeated-subtraction": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "How many equal hops (innehållsdivision) ties division to subtraction: «egenskaper och samband».",
+   "review": "author-all"
+  },
+  "3:mult-div-relationship": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The four related facts are the «samband» between multiplication and division; the unknown factor is «Obekanta tal».",
+   "review": "author-all"
+  },
+  "3:muldiv-word-problems": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Strategier för att lösa matematiska problem i elevnära situationer», choosing between the two division situations (1.6).",
+   "review": "author-all"
+  },
+  "3:input-output": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding and stating the rule is how a number pattern is «beskrivs och uttrycks» (2.3); running it backward uses the inverse operation (1.6).",
+   "review": "author-all"
+  },
+  "3:balance-equations": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Matematiska likheter och likhetstecknets betydelse» with an unknown number. Doing the same on both sides is a step toward «Metoder ... för att lösa enkla ekvationer» in 4–6.",
+   "review": "author-all"
+  },
+  "3:add-subtract-time": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Working with clock times is «Mätning av ... tid»; crossing the hour needs the minute–hour change that 4–6 names as «enhetsbyten».",
+   "review": "author-all"
+  },
+  "3:elapsed-duration": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "How long something took is measuring time (1–3); longer spans need unit changes, named for 4–6.",
+   "review": "author-all"
+  },
+  "3:time-12-24": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Mätning av ... tid» — Swedish digital time is 24-hour, so reading 15.30 as half past three is årskurs 2–3 work. There is no a.m./p.m. in Swedish.",
+   "review": "author-all"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "MA.4-6.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lgr22 names area only for 4–6: «Metoder för hur ... area hos olika tvådimensionella geometriska figurer kan bestämmas». Rows × columns is that method for a rectangle; it is also multiplication used in an array (1–3).",
+   "review": "author-all"
+  },
+  "3:same-area": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing rectangles by counted squares is a «Jämförelse ... av storheter» (1–3, which lists no quantity for comparing); area as such is 4–6 content, which this prepares.",
+   "review": "author-all"
+  },
+  "3:perimeter": {
+   "rows": [
+    {
+     "id": "MA.4-6.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«omkrets» is named only in 4–6 («Metoder för hur omkrets ... kan bestämmas»); adding the side lengths is that method. It rests on «Mätning av längd» from 1–3.",
+   "review": "author-all"
+  },
+  "3:same-perimeter": {
+   "rows": [
+    {
+     "id": "MA.4-6.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling perimeter and area apart is 4–6 content («omkrets och area hos ... tvådimensionella geometriska figurer»); nothing in 1–3 names either.",
+   "review": "author-all"
+  },
+  "3:division-remainder": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "That a share-out can leave a rest smaller than the divisor is a property of division («De fyra räknesättens egenskaper»); it sits at the top of the band.",
+   "review": "author-all"
+  },
+  "3:right-angles": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The square corner is a property by which rectangles and squares are described (1–3). Comparing angles as such is named for 4–6: «Jämförelse ... av ... vinkel».",
+   "review": "author-all"
+  },
+  "3:classify-quadrilaterals": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Egenskaper hos dessa objekt och deras inbördes relationer» — that a square is a rectangle is such a relation. The rhombus and the full hierarchy go on to the 4–6 point.",
+   "review": "author-all"
+  },
+  "3:symmetry": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Symmetri i vardagen och hur symmetri kan konstrueras»; counting several lines in geometric figures leads on to «Symmetri i planet».",
+   "review": "author-all"
+  },
+  "3:partition-equal-areas": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«del av helhet ... hur delarna benämns och uttrycks som enkla bråk»; the criterion: «delar upp helheter i delar samt ... namnger delarna som enkla bråk».",
+   "review": "author-all"
+  },
+  "3:fraction-unit-build": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming and shading 3/4 as three fourths is «hur delarna benämns och uttrycks som enkla bråk».",
+   "review": "author-all"
+  },
+  "3:whole-from-unit": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Rebuilding the whole from one part is «del av helhet» and «Hur enkla bråk förhåller sig till naturliga tal» (four fourths make one).",
+   "review": "author-all"
+  },
+  "3:fraction-number-line": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Placing a simple fraction between 0 and 1 is «Hur enkla bråk förhåller sig till naturliga tal»; the fraction as a number on the line leads to «Rationella tal» in 4–6.",
+   "review": "author-all"
+  },
+  "3:compare-fractions": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.K3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The criterion says it: the pupil «jämför och namnger delarna som enkla bråk».",
+   "review": "author-all"
+  },
+  "3:equivalent-fractions": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "extends"
+    },
+    {
+     "id": "MA.4-6.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Årskurs 1–3 names simple fractions as parts, not that two fractions can be the same amount; that is a property of «Rationella tal» (4–6), which the picture work prepares.",
+   "review": "author-all"
+  },
+  "3:fraction-of-set": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Tal i bråkform som ... del av antal» — a third of 12.",
+   "review": "author-all"
+  },
+  "3:line-plot-halves": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring length (3.3), showing the results in a simple diagram (4.2), with halves used in a real situation («enkla tal i bråkform används i elevnära situationer»).",
+   "review": "author-all"
+  },
+  "3:volume-cubes": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Counting cubes compares and measures «volym» with an informal unit (1–3, where volume is usually litres and decilitres); volume of solids in standard units is 4–6.",
+   "review": "author-all"
+  },
+  "K:pre-writing-strokes": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lines, loops and zigzags are the hand movements before letter writing: a readiness step toward «Bokstäver och andra symboler» in the förskoleklass and «Handstil» in årskurs 1–3. Neither wording names the strokes themselves.",
+   "review": "author-all"
+  },
+  "K:all-about-me-personal": {
+   "rows": [
+    {
+     "id": "F.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A self-portrait is «Skapande genom ... bild» (F.2.1); my favourites and what I can do use «Ord och begrepp som uttrycker behov, känslor, kunskaper och åsikter» (F.1.8).",
+   "review": "author-all"
+  },
+  "K:rhyme": {
+   "rows": [
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The förskoleklass wording names it: «Rim, ramsor och andra ordlekar». Hearing rhyme is sound awareness, the step before «Sambandet mellan ljud och bokstav».",
+   "review": "author-all"
+  },
+  "K:category-sort": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting by category builds the concept words a reader needs («förstå och tolka ord, begrepp») — a readiness step. The förskoleklass text names sorting only for plants and animals (F.4.7), so no F row unless the categories are those.",
+   "review": "author-all"
+  },
+  "K:letter-identification": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling letters apart is work with «Bokstäver ... för att förmedla budskap» (F.1.4) and prepares the sound–letter link of årskurs 1.",
+   "review": "author-all"
+  },
+  "K:letter-formation": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SV.1-3.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing the letters is «Bokstäver» in the förskoleklass (F.1.4) and prepares «Handstil» and «Alfabetet». A Swedish set needs A–Ö (Å, Ä, Ö included).",
+   "review": "author-all"
+  },
+  "K:count-syllables": {
+   "rows": [
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Clapping and counting stavelser is one of the «andra ordlekar» of the förskoleklass (F.1.5) and prepares decoding strategies in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:letter-case": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching big and small letters is «Bokstäver» (F.1.4); årskurs 1–3 names them as «gemener och versaler».",
+   "review": "author-all"
+  },
+  "K:beginning-sounds": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Listening for the first sound is a sound game («ordlekar», F.1.5) tied to a letter (F.1.4); it prepares «Sambandet mellan ljud och bokstav».",
+   "review": "author-all"
+  },
+  "K:category-odd-one-out": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Like the category sort: concept and vocabulary readiness for «förstå och tolka ord, begrepp». The förskoleklass text has no point for general categorising.",
+   "review": "author-all"
+  },
+  "K:opposites": {
+   "rows": [
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The nearest förskoleklass wording is «andra ordlekar» (F.1.5) — motsatsord are a usual word game there; it is a loose fit, said plainly. It prepares understanding of words and concepts in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:alphabet-order": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Letters in the förskoleklass (F.1.4) leading to «Alfabetet och alfabetisk ordning» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:story-sequencing": {
+   "rows": [
+    {
+     "id": "F.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A picture story is one of the «Berättande texter ... och texter som kombinerar ord, bild» (F.1.3); first/next/last prepares «inledning, händelseförlopp och avslutning».",
+   "review": "author-all"
+  },
+  "K:sound-position": {
+   "rows": [
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing where a sound sits in a word is a sound game (F.1.5, «ordlekar») and the core readiness for «Sambandet mellan ljud och bokstav».",
+   "review": "author-all"
+  },
+  "K:vowels-consonants": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting letters into vokaler and konsonanter is knowledge about «Bokstäver» (F.1.4); Swedish classes usually meet it in årskurs 1 (nine vowels: a e i o u y å ä ö).",
+   "review": "author-all"
+  },
+  "K:bilingual-cards": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A picture word card is a text that combines «ord, bild» (F.1.3) and shows letters carrying a message (F.1.4). The second language has no objective in this registry (modersmål and svenska som andraspråk are not in PART 2).",
+   "review": "author-all"
+  },
+  "K:segment-phonemes": {
+   "rows": [
+    {
+     "id": "F.1.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting a word into sounds is the central sound game of the förskoleklass (F.1.5); boxes with letters tie it to F.1.4. It prepares «Sambandet mellan ljud och bokstav» (in Swedish, sj, tj and ng share a box).",
+   "review": "author-all"
+  },
+  "K:cvc-build": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Building short sound-regular words from letters uses «Bokstäver» (F.1.4) and is the doorstep of årskurs 1: «Sambandet mellan ljud och bokstav».",
+   "review": "author-all"
+  },
+  "K:word-picture-match": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a word to find its picture: letters that «förmedla budskap» (F.1.4), on the way to decoding and understanding words in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:singular-plural": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The förskoleklass text has no grammar point. One and many prepares «Språkliga strukturer och normer» in årskurs 1–3 (Lgr22 names «ords böjningsformer» only for 4–6).",
+   "review": "author-all"
+  },
+  "K:digraphs-k": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A sound written with two letters is letter knowledge (F.1.4) preparing the sound–letter link. The Swedish counterparts of sh/ch are the sj- and tj-sounds and ng, which Swedish schools usually leave to årskurs 1–2.",
+   "review": "author-all"
+  },
+  "K:sight-words-reading": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Recognising whole written words is work with letters as carriers of a message (F.1.4); reading them in sentences is really the årskurs 1 point («Strategier för att avkoda ... ord»). Swedish has no sight-word lists of the English kind; the counterpart is frequent small words (och, är, jag, en).",
+   "review": "author-all"
+  },
+  "K:word-sentence-tracing": {
+   "rows": [
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Tracing words and sentences is letter work in the förskoleklass (F.1.4) that prepares «Handstil» and writing «ord, meningar».",
+   "review": "author-all"
+  },
+  "K:articles": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "En or ett before a noun is a language structure; the förskoleklass text names none. It prepares «Språkliga strukturer och normer». Native speakers pick en/ett by ear, so the sheet matters most for children learning Swedish.",
+   "review": "author-all"
+  },
+  "1:rhyming": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.5",
+     "rel": "extends"
+    }
+   ],
+   "why": "Sorting and writing rhymes ties the sound of a word ending to its letters («Sambandet mellan ljud och bokstav»). Rhyme itself is named only for the förskoleklass (F.1.5), which this goes beyond.",
+   "review": "author-all"
+  },
+  "1:phoneme-boxes": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Segmenting and blending sounds is «Sambandet mellan ljud och bokstav. Strategier för att avkoda».",
+   "review": "author-all"
+  },
+  "1:digraphs": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "One sound written with a letter team is «Sambandet mellan ljud och bokstav»; writing it is spelling (1.6). In Swedish the teams are sj, tj, ng, ck and the like, not sh/ch/th.",
+   "review": "author-all"
+  },
+  "1:spell-picture-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«stavning av vanligt förekommande ord i elevnära texter», resting on the sound–letter link.",
+   "review": "author-all"
+  },
+  "1:syllables-split": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Stavelser are a decoding strategy: «Strategier för att avkoda ... ord».",
+   "review": "author-all"
+  },
+  "1:syllable-vowel": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "That every syllable has a vowel is sound–letter knowledge used for decoding (1.1).",
+   "review": "author-all"
+  },
+  "1:word-families-syllable-reading": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words by syllables and joining them is «Strategier för att avkoda, förstå ... ord».",
+   "review": "author-all"
+  },
+  "1:alphabetical-order": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: «Alfabetet och alfabetisk ordning». In Swedish å, ä, ö come last.",
+   "review": "author-all"
+  },
+  "1:opposites": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Motsatsord are work to «förstå och tolka ord, begrepp» (1.1); a wider vocabulary prepares «Ord och begrepp för att på ett varierat sätt uttrycka» (4.2).",
+   "review": "author-all"
+  },
+  "1:articles": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting nouns by en/ett is a «språklig struktur» (the first words of 1.6). Lgr22 names no word-class or gender content for 1–3, so the fit is with the general wording only.",
+   "review": "author-all"
+  },
+  "1:read-and-follow": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading to understand («enskild läsning ... förstå») a short «instruerande text» and doing what it says.",
+   "review": "author-all"
+  },
+  "1:cloze": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the word that fits is «Strategier för att ... förstå och tolka ord ... och texter».",
+   "review": "author-all"
+  },
+  "1:synonyms": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two words for one thing is vocabulary «för att på ett varierat sätt uttrycka» (4.2) and understanding of words (1.1).",
+   "review": "author-all"
+  },
+  "1:unscramble-sentence": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Word order with a capital and an end mark: «Språkliga strukturer ... versaler, de vanligaste skiljetecknen» and writing «meningar».",
+   "review": "author-all"
+  },
+  "1:question-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing what vem / vad / var asks for is a comprehension strategy (1.1). «ställa frågor» belongs to conversation (2.1), which a paper sheet only prepares.",
+   "review": "author-all"
+  },
+  "1:story-sequencing": {
+   "rows": [
+    {
+     "id": "SV.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Hur en berättande text kan organiseras med inledning, händelseförlopp och avslutning»; ordering sentences to pictures is reading for understanding.",
+   "review": "author-all"
+  },
+  "1:word-classes": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 names «ordklasser» only for 4–6. In 1–3 the sheet fits the general «Språkliga strukturer och normer» and prepares the 4–6 point; Swedish teachers do teach substantiv, verb and adjektiv in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "1:pronouns": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Replacing a name with han / hon / de is a language structure (1.6, general wording); pronouns as a word class are 4–6 content.",
+   "review": "author-all"
+  },
+  "1:shades-of-meaning": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 1–3 wording names «ords nyanser» (4.3) and varied expression (4.2); 4–6 continues with «Ords och begrepps nyanser och värdeladdning».",
+   "review": "author-all"
+  },
+  "1:root-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Seeing a known word inside a longer one is a strategy to «avkoda, förstå och tolka ord». Lgr22 does not name word formation.",
+   "review": "author-all"
+  },
+  "1:story-writing": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Strategier för att skriva ... olika typer av texter ... texter där ord och bild samspelar» (story, postcard, comic strip) with the build of a story and «personbeskrivningar» (3.2).",
+   "review": "author-all"
+  },
+  "2:digraphs": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a letter team in running text is «Sambandet mellan ljud och bokstav» (Swedish: sj, tj, ng, ck).",
+   "review": "author-all"
+  },
+  "2:sentence-boundaries": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.K3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Grundläggande skrivregler, med gemener och versaler, de vanligaste skiljetecknen»; the criterion: «använder eleven stor bokstav, punkt och frågetecken».",
+   "review": "author-all"
+  },
+  "2:cursive-writing": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The only wording is «Handstil». Lgr22 does not ask for joined writing, and Sweden has no set school script, so this is one optional way of working on handwriting.",
+   "review": "author-all"
+  },
+  "2:cloze-context": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Using the context to choose a word is one of the «Strategier för att ... förstå och tolka ord, begrepp och texter».",
+   "review": "author-all"
+  },
+  "2:question-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a question word to the kind of answer is a comprehension strategy (1.1); asking questions in conversation (2.1) is only prepared on paper.",
+   "review": "author-all"
+  },
+  "2:read-and-answer": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.K3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«enskild läsning» with «Att återge delar av innehållet»; the criterion: the pupil «återger delar av innehållet och visar grundläggande läsförståelse».",
+   "review": "author-all"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Strategier för att skriva ord, meningar» with support, producing a short «beskrivande» text.",
+   "review": "author-all"
+  },
+  "2:word-classes": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«ordklasser» are named only in 4–6; in 1–3 the sheet fits «Språkliga strukturer och normer» in general. Sorting substantiv, verb and adjektiv is usual in årskurs 2–3.",
+   "review": "author-all"
+  },
+  "2:plural-nouns": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Plural forms (Swedish: -or, -ar, -er, -n, no ending) are a language structure and spelling matter in 1–3 (1.6); «ords böjningsformer» is named for 4–6.",
+   "review": "author-all"
+  },
+  "2:spelling-rules": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The 1–3 wording covers «stavning av vanligt förekommande ord»; rule-based spelling is «Stavning» in 4–6. The English rules listed do not exist in Swedish — the counterparts are dubbelteckning, ck, ng/nk and the j-, sj- and tj-sounds.",
+   "review": "author-all"
+  },
+  "2:synonyms": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing another word for «sa» is «Ord och begrepp för att på ett varierat sätt uttrycka» (4.2), built on word understanding (1.1).",
+   "review": "author-all"
+  },
+  "2:synonyms~doing-stage": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill line as its parent point, so the same two rows: varied vocabulary (4.2) and understanding words (1.1).",
+   "review": "author-all"
+  },
+  "2:verb-forms": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Present and past forms (är/var, har/hade, går/gick) are a language structure (1.6, general wording); «ords böjningsformer» is named for 4–6.",
+   "review": "author-all"
+  },
+  "2:pronouns": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Linking a pronoun to its name is a language structure that also helps reading; pronouns as «ordklasser» and as text binding are 4–6 content.",
+   "review": "author-all"
+  },
+  "2:read-cursive": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading joined handwriting is decoding (1.1) and supports «Handstil». Joined script is not required in Sweden.",
+   "review": "author-all"
+  },
+  "2:compound-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sammansatta ord: splitting one is a way to «avkoda, förstå och tolka ord» (1.1); writing it as one word with the joining -s- is a Swedish writing norm (1.6).",
+   "review": "author-all"
+  },
+  "2:root-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the shared root is a strategy to understand words (1.1); word kinship later supports spelling (1.6). Lgr22 does not name word formation.",
+   "review": "author-all"
+  },
+  "2:prefixes": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A prefix that changes the meaning (o-, miss-, åter-) is a strategy to «förstå och tolka ord»; no point names prefixes.",
+   "review": "author-all"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing a story in order (1.3) with «inledning, händelseförlopp och avslutning» (3.2); the time-order starters prepare «textbindning med hjälp av sambandsord» (4–6).",
+   "review": "author-all"
+  },
+  "2:mystery-animal": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading clues one at a time and drawing a conclusion is «förstå och tolka ... texter» (1.1); the clues use the features by which animals «kan grupperas» (NO), which it prepares.",
+   "review": "author-all"
+  },
+  "2:animal-fact-file": {
+   "rows": [
+    {
+     "id": "SV.1-3.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.K3.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A fact file is a «beskrivande» «sakprosatext» with organised content (3.4), written by the pupil (1.3) in a graphic model (4.1); the criterion: «återger grundläggande delar av informationen i enkla faktatexter».",
+   "review": "author-all"
+  },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A same/different chart is one of the «grafiska modeller» for learning (SV 4.1); comparing animals' features is how they «kan grupperas» (NO).",
+   "review": "author-all"
+  },
+  "3:cursive-sentences": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Handstil» — the only wording. Joined writing is not required by Lgr22.",
+   "review": "author-all"
+  },
+  "3:word-fields": {
+   "rows": [
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.4.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Close verbs told apart (gå/strosa/rusa): varied expression (4.2) and «ords nyanser» (4.3); 4–6 goes on with «nyanser och värdeladdning».",
+   "review": "author-all"
+  },
+  "3:person-words": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A suffix that makes a person word (baka → bagare, löpa → löpare) is a strategy to «förstå och tolka ord»; Lgr22 names no word formation.",
+   "review": "author-all"
+  },
+  "3:root-words-in-context": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.4-6.1.7",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the family form that fits a sentence uses word understanding (1.1) and language structure (1.6); it prepares «ords böjningsformer och ordklasser» in 4–6.",
+   "review": "author-all"
+  },
+  "K:human-body": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The förskoleklass text has no body point; naming and labelling parts is describing something close to the child «med ord och bilder» (F.4.1). Outer body parts are the step before «Några av människans organ, deras namn».",
+   "review": "author-all"
+  },
+  "K:living-nonliving": {
+   "rows": [
+    {
+     "id": "F.4.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Setting plants and animals apart from things that are not alive is the first «Sortering och gruppering av växter och djur» (F.4.7); it prepares how living things «kan grupperas» in årskurs 1–3.",
+   "review": "author-all"
+  },
+  "K:fruit-vegetable": {
+   "rows": [
+    {
+     "id": "F.4.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting and naming plants we eat is «Sortering och gruppering av växter ... samt namn på några vanligt förekommande arter» (F.4.7).",
+   "review": "author-all"
+  },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "F.4.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pets / farm / wild is «Sortering och gruppering av ... djur» with their names (F.4.7); where animals live points toward «anpassningar till olika livsmiljöer».",
+   "review": "author-all"
+  },
+  "K:animal-babies": {
+   "rows": [
+    {
+     "id": "F.4.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairing young and parent groups animals and names them (F.4.7) and is the first look at «djurs ... livscykler».",
+   "review": "author-all"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The seasons are a «företeelse ... i natur» described with pictures (F.4.1) and a cycle of «tid och förändring» (F.3.3); årskurs 1–3 names «Årstidsväxlingar i naturen».",
+   "review": "author-all"
+  },
+  "K:day-night": {
+   "rows": [
+    {
+     "id": "F.4.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.3.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sun, moon and stars in the sky are the «synliga astronomiska fenomen» of F.4.8; they prepare «Solsystemets himlakroppar och deras rörelser».",
+   "review": "author-all"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.4.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A week of weather is observation recorded in a simple table (F.4.1: «observationer, mätningar ... enkla tabeller»); hot and cold are familiar physical phenomena (F.4.8). It prepares «observationer ... dokumentation» in NO.",
+   "review": "author-all"
+  },
+  "K:natural-made": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling nature's things from made things explores «företeelser ... i natur, teknik och samhälle» (F.4.1) and prepares «Hur material kan sorteras efter några egenskaper».",
+   "review": "author-all"
+  },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No förskoleklass point names the senses; the sheet describes a familiar connection with pictures (F.4.1). Årskurs 1–3 names «upplevelser av ljus, ljud, värme, smak och doft med hjälp av olika sinnen».",
+   "review": "author-all"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "F.4.11",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting waste is one of the «val i vardagen [som] kan bidra till en hållbar utveckling» (F.4.11); årskurs 1–3 adds «Hur materialen kan återvinnas».",
+   "review": "author-all"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Water and light for growth is a «samband i natur» (F.4.1). Lgr22 1–3 does not name plant needs; the nearest line is plants' «livscykler och anpassningar».",
+   "review": "author-all"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "F.4.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floating and sinking is a familiar physical phenomenon (F.4.8); årskurs 1–3 names it: «om de flyter eller sjunker i vatten».",
+   "review": "author-all"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Djur ... hur de kan grupperas» — mammals, birds, fish, reptiles, insects by body covering.",
+   "review": "author-all"
+  },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Where animals live is «anpassningar till olika livsmiljöer»; who eats what is the step before «Enkla näringskedjor».",
+   "review": "author-all"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: «Några djurs och växters livscykler».",
+   "review": "author-all"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Hur material kan sorteras efter ... om de flyter eller sjunker i vatten». Predict-then-test on paper prepares «Enkla ... experiment», which need the real test.",
+   "review": "author-all"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The wording is «Några av människans organ, deras namn och översiktliga funktion». Labelling outer body parts (arm, knee, shoulder) comes before organs, so it only prepares.",
+   "review": "author-all"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Människans upplevelser av ljus, ljud, värme, smak och doft med hjälp av olika sinnen».",
+   "review": "author-all"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 NO 1–3 does not name weather. Reading a weekly forecast is reading a simple table (MA 4.2); weather words prepare talk about «Årstidsväxlingar i naturen».",
+   "review": "author-all"
+  },
+  "1:materials-recycling": {
+   "rows": [
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "TK.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Hur material kan sorteras efter några egenskaper ... Hur materialen kan återvinnas» (NO) and «Materialens egenskaper och hur materialen benämns» (TK).",
+   "review": "author-all"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 1–3 names no plant structure. Root, stem, leaf and flower are needed to describe plants' «livscykler och anpassningar» and to tell plants apart, so the sheet prepares both points without teaching either.",
+   "review": "author-all"
+  },
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "NO.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Solsystemets himlakroppar och deras rörelser» — Sun, Earth, Moon and the Moon's phases.",
+   "review": "author-all"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "TK.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting by material for recycling: «Hur material kan sorteras ... Hur materialen kan återvinnas» (NO); naming materials is also TK content.",
+   "review": "author-all"
+  },
+  "2:plant-parts": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "NO.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "As in årskurs 1: plant parts and their jobs are not named in Lgr22 1–3; they support plants' life cycles and adaptations and the grouping of plants.",
+   "review": "author-all"
+  },
+  "2:life-cycles": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Några djurs ... livscykler» — butterfly stages and young-to-adult matches.",
+   "review": "author-all"
+  },
+  "2:moon-phases": {
+   "rows": [
+    {
+     "id": "NO.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The Moon's phases come from the «himlakroppar och deras rörelser» the point names.",
+   "review": "author-all"
+  },
+  "2:day-and-night": {
+   "rows": [
+    {
+     "id": "NO.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Day and night from the Earth's turning is «Solsystemets himlakroppar och deras rörelser».",
+   "review": "author-all"
+  },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: «anpassningar till olika livsmiljöer».",
+   "review": "author-all"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Floats or sinks is named in 4.1; the clay-boat test is an experiment the sheet frames but cannot carry out, so 5.1 is prepared.",
+   "review": "author-all"
+  },
+  "3:water-cycle": {
+   "rows": [
+    {
+     "id": "NO.1-3.4.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Vattnets olika former ... Avdunstning, kokning, kondensering» — the stages of the cycle are these changes. The water cycle as a whole (vattnets kretslopp) is named in Lgr22 only for årskurs 4–6, which this registry does not hold.",
+   "review": "author-all"
+  },
+  "3:flower-parts": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "extends"
+    }
+   ],
+   "why": "The parts of a flower and their role in making seeds go beyond «växters livscykler» in 1–3; in Sweden this is normally årskurs 4–6 biology (not in PART 2).",
+   "review": "author-all"
+  },
+  "3:life-cycles-compare": {
+   "rows": [
+    {
+     "id": "NO.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing two «djurs ... livscykler»; the criterion for årskurs 3 also speaks of describing simple connections in nature.",
+   "review": "author-all"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "NO.1-3.3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Solsystemets himlakroppar och deras rörelser» — the planets in order.",
+   "review": "author-all"
+  },
+  "3:investigation": {
+   "rows": [
+    {
+     "id": "NO.1-3.5.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The sheet is the record of a real test: «Enkla ... experiment. Utförande och dokumentation av undersökningarna med ord, bilder»; the subject is whether materials float or sink (4.1).",
+   "review": "author-all"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "SO.1-3.4.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "IDH.1-3.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing an object from above is «rum, läge, form» (F.3.3) and the readiness step for maps: «analoga ... kartor» (SO) and «enkla kartors uppbyggnad» (IDH).",
+   "review": "author-all"
+  },
+  "K:family": {
+   "rows": [
+    {
+     "id": "F.4.6",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 names family nowhere in the förskoleklass or SO 1–3 content. The nearest wording is «människors levnadsvillkor ... utifrån elevernas erfarenheter» (F.4.6), which family words only prepare.",
+   "review": "author-all"
+  },
+  "K:transport-flying": {
+   "rows": [
+    {
+     "id": "F.4.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "TK.1-3.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Vehicles are «vanliga tekniska lösningar i elevernas vardag» (F.4.9); the sheet names and sorts them but does not go into how they work, which the TK point would ask.",
+   "review": "author-all"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "F.1.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.4.11",
+     "rel": "prepares"
+    },
+    {
+     "id": "SO.1-3.3.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The concept «behov» is in F.1.8 («Ord och begrepp som uttrycker behov»). Choosing between need and want prepares everyday choices (F.4.11) and «Pengars användning och värde».",
+   "review": "author-all"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SO.1-3.2.5",
+     "rel": "prepares"
+    },
+    {
+     "id": "SO.1-3.2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Helpers and their tools describe connections in «samhälle» with pictures (F.4.1); årskurs 1–3 names «Yrken och verksamheter i närområdet» and «sjukvård, räddningstjänst».",
+   "review": "author-all"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "SO.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "IDH.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading symbols from a key is work with «analoga ... kartor» (SO) and «enkla kartors uppbyggnad» (IDH).",
+   "review": "author-all"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "SO.1-3.4.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "SO 1–3 does not name family. Filling a tree from written clues is reading for understanding (SV); oldest-to-youngest generations are a first step toward «Tidslinjer och tidsbegreppen dåtid, nutid».",
+   "review": "author-all"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "SO.1-3.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "IDH.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names «väderstreck» with maps (SO); IDH has «Begrepp som beskriver läge, avstånd och riktning».",
+   "review": "author-all"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "SO.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Namn och läge på världsdelarna». Swedish schools count the world parts their own way (Europa, Asien, Afrika, Nordamerika, Sydamerika, Oceanien, Antarktis).",
+   "review": "author-all"
+  },
+  "2:family-relationships": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "SO 1–3 has no family content. Working out moster / kusin / farmor from a riddle is «förstå och tolka ord, begrepp och texter». Swedish kinship words differ from English (mormor/farmor, moster/faster), so the riddles must be written for Swedish.",
+   "review": "author-all"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "SO.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Namn och läge på världsdelarna och världshaven».",
+   "review": "author-all"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "F.5.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "NO.1-3.2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Kost ... och hur de påverkar hälsa och välbefinnande» (F.5.4); the same line returns as «Betydelsen av kost ... för att må bra».",
+   "review": "author-all"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "F.5.4 lists «Kost, sömn och fysisk aktivitet» but not hygiene; årskurs 1–3 names «hygien» among what matters «för att må bra», which the förskoleklass sheet prepares.",
+   "review": "author-all"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "F.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.1.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "SO.1-3.1.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Crossing rules are «Normer och regler i elevernas vardag ... varför regler kan behövas» (F.4.2); the red and green figures are «andra symboler för att förmedla budskap» (F.1.4). Årskurs 1–3 names «Trafikregler».",
+   "review": "author-all"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Betydelsen av kost ... för att må bra». Swedish teaching uses kostcirkeln (seven groups) or tallriksmodellen, not four food groups.",
+   "review": "author-all"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tooth-brushing and stopping germs are «hygien» in «Betydelsen av kost, sömn, hygien, motion ... för att må bra».",
+   "review": "author-all"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "SO.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Trafikregler och hur man beter sig i trafiken på ett säkert sätt».",
+   "review": "author-all"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "NO.1-3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point is about the why: «Betydelsen av kost, sömn, hygien, motion ... för att må bra».",
+   "review": "author-all"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "SO.1-3.1.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Kinds of signs and the sign for a situation are «Trafikregler och hur man beter sig i trafiken på ett säkert sätt».",
+   "review": "author-all"
+  },
+  "K:how-to-draw": {
+   "rows": [
+    {
+     "id": "F.2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BL.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing step by step is one of the «tekniker för att skapa och uttrycka sig» (F.2.2); it prepares «Teckning» in Bild.",
+   "review": "author-all"
+  },
+  "1:how-to-draw": {
+   "rows": [
+    {
+     "id": "BL.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "BL.1-3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Teckning» (1.2), building a form from lines and placing a figure in a scene: «element som bygger upp form ... samt för- och bakgrund i en bild, till exempel linjer».",
+   "review": "author-all"
+  },
+  "2:drawing": {
+   "rows": [
+    {
+     "id": "BL.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Teckning» in Bild, and writing about the drawing: «Skapande av texter där ord och bild samspelar» (SV).",
+   "review": "author-all"
+  },
+  "K:same-different-visual": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Lgr22 does not name visual discrimination. Spotting a difference in size or shape is a readiness step for describing «form» (F.3.3), no more.",
+   "review": "author-all"
+  },
+  "K:mazes": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.3.2",
+     "rel": "prepares"
+    },
+    {
+     "id": "F.1.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "A plain maze has no counterpart in Lgr22. Finding a way touches «rum ... riktning» (F.3.3); the number routes rehearse the count order (F.3.2) and the ABC routes the letters (F.1.4) — all as readiness only.",
+   "review": "author-all"
+  },
+  "K:shadow-closure": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a picture to its outline attends to «form» (F.3.3) as readiness; Lgr22 names no visual-perception content.",
+   "review": "author-all"
+  },
+  "K:spot-the-difference": {
+   "none": "visual comparison of two pictures has no counterpart in Lgr22",
+   "why": "Nothing in the förskoleklass content or in årskurs 1–3 names finding differences between pictures; forcing it under F.3.3 would not survive a colleague's reading.",
+   "review": "author-all"
+  },
+  "K:matrix-logic": {
+   "rows": [
+    {
+     "id": "F.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Working out which piece fits a row is «Enkla matematiska resonemang för att undersöka ... problemställningar samt olika sätt att lösa problem» (F.3.1).",
+   "review": "author-all"
+  },
+  "K:grid-copy": {
+   "rows": [
+    {
+     "id": "F.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Copying square by square means finding the same place in another grid: «rum, läge, form» (F.3.3).",
+   "review": "author-all"
+  },
+  "1:find-the-differences": {
+   "none": "visual discrimination has no counterpart in Lgr22",
+   "why": "No point of Matematik, Svenska or Bild 1–3 names finding differences between two pictures; ticking a word for what changed is too thin to count as reading content.",
+   "review": "author-all"
+  },
+  "1:mazes": {
+   "none": "a maze has no counterpart in Lgr22",
+   "why": "Picture mazes are not «matematiska problem i elevnära situationer»; only the shortest-way variant comes near problem solving, too little to claim the point.",
+   "review": "author-all"
+  },
+  "1:grid-copy": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "BL.1-3.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Square-by-square copying at the same size is the method later used for «Skala vid enkel förminskning och förstoring» and a drawing aid («Teckning»); it teaches neither as worded.",
+   "review": "author-all"
+  },
+  "1:picture-analogies": {
+   "none": "analogy reasoning with pictures is not named in Lgr22",
+   "why": "A is to B as C is to ? is general reasoning; no central content in årskurs 1–3 describes it.",
+   "review": "author-all"
+  },
+  "1:secret-code": {
+   "rows": [
+    {
+     "id": "MA.1-3.2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Following a key symbol by symbol, and making one's own, is a step toward «Entydiga stegvisa instruktioner ... Hur symboler används vid stegvisa instruktioner» (the basis for programming); a code key is not yet an instruction sequence.",
+   "review": "author-all"
+  },
+  "1:picture-sudoku": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Problemlösning: the puzzle is solved with a strategy (rule out what cannot be). The wording says «matematiska problem i elevnära situationer»; a sudoku is the usual Swedish classroom example of a logic problem, but pictures stand in for numbers.",
+   "review": "author-all"
+  },
+  "1:logic-picture-clues": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A clue grid is solved by a strategy (cross out, circle): «Strategier för att lösa matematiska problem».",
+   "review": "author-all"
+  },
+  "2:find-differences": {
+   "rows": [
+    {
+     "id": "SV.1-3.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the differences has no counterpart; writing a sentence about each one is «Strategier för att skriva ord, meningar» with picture support.",
+   "review": "author-all"
+  },
+  "2:logic-grid": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Yes/no and either-or clues worked through a grid: «Strategier för att lösa matematiska problem»; the criterion also speaks of following mathematical reasoning.",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A two-circle Venn and a row × column table are «Enkla tabeller och diagram ... för att sortera data».",
+   "review": "author-all"
+  },
+  "3:two-attribute-sort~logic-cabinet": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Same skill line as its parent point: tables and diagrams used «för att sortera data».",
+   "review": "author-all"
+  },
+  "3:logic-grids": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Solving from clues by elimination is a problem-solving strategy (6.1).",
+   "review": "author-all"
+  },
+  "3:latin-square-sudoku": {
+   "rows": [
+    {
+     "id": "MA.1-3.6.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A 6×6 sudoku needs a systematic strategy: «Strategier för att lösa matematiska problem».",
+   "review": "author-all"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "F.1.8",
+     "rel": "teaches"
+    },
+    {
+     "id": "SV.1-3.4.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«Ord och begrepp som uttrycker behov, känslor» (F.1.8); årskurs 1–3 continues with «Ord och begrepp för att på ett varierat sätt uttrycka känslor».",
+   "review": "author-all"
+  }
+ }
+}

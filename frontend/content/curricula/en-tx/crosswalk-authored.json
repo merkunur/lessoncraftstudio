@@ -2,9 +2,20 @@
  "$comment": "The crosswalk as reviewers who teach to this curriculum wrote it, point by point, from the official text (scripts/curricula/apply-review.js --authored). `why` is the reviewer's reason; the registry's builder adds each row's grade and writes crosswalk.json.",
  "points": {
   "K:position-words": {
-   "none": "no expectation in the Texas mathematics wording asks for position words",
-   "why": "The kindergarten geometry strand (K.6) is about identifying, sorting and creating shapes and solids; none of its expectations, and no other expectation K-5, names on/under/beside, left/right or inside/outside.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The mathematics reviewer had only the mathematics TEKS, which do not ask for position words. The reading TEKS do: 'identify and use words that name actions; directions; positions; sequences; categories … and locations' (ELAR K.3.C).",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "no expectation in the Texas mathematics wording asks for position words",
+    "why": "The kindergarten geometry strand (K.6) is about identifying, sorting and creating shapes and solids; none of its expectations, and no other expectation K-5, names on/under/beside, left/right or inside/outside.",
+    "review": "author-math"
+   }
   },
   "K:scene-search": {
    "rows": [
@@ -240,9 +251,20 @@
    "review": "author-math"
   },
   "K:ordinal-position": {
-   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
-   "why": "No expectation in the kindergarten number strands (K.2, K.3) or later names first, second, third or position in a line.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordinal words (first, second, last) are words that name a place in a sequence: 'identify and use words that name … sequences' (ELAR K.3.C). The mathematics TEKS hold no ordinal numbers.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+    "why": "No expectation in the kindergarten number strands (K.2, K.3) or later names first, second, third or position in a line.",
+    "review": "author-math"
+   }
   },
   "K:days-of-week": {
    "none": "days of the week are not in the Texas mathematics wording",
@@ -527,9 +549,20 @@
    "review": "author-math"
   },
   "1:ordinal-numbers": {
-   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
-   "why": "No expectation in the grade 1 number strands (1.2, 1.3) or any other grade names ordinal words or places in a race.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Ordinal words are words that name sequences: 'identify and use words that name actions, directions, positions, sequences, categories, and locations' (ELAR 1.3.D). The mathematics TEKS hold no ordinal numbers.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+    "why": "No expectation in the grade 1 number strands (1.2, 1.3) or any other grade names ordinal words or places in a race.",
+    "review": "author-math"
+   }
   },
   "1:number-line-placement": {
    "rows": [
@@ -710,14 +743,40 @@
    "review": "author-math"
   },
   "1:days-months-seasons": {
-   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
-   "why": "The grade 1 time expectation is 1.7.E, telling time to the hour and half hour on clocks; no expectation K-5 names days, months or seasons.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "SCI.1.9",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.11.D.ix",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Yesterday/today/tomorrow and the order of the months lead to 'the patterns of seasons of the year such as order of occurrence' (science, grade 1) and to writing the names of 'months, days of the week' with a capital (ELAR grade 2). Texas places the calendar itself in social studies, which this registry does not hold.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+    "why": "The grade 1 time expectation is 1.7.E, telling time to the hour and half hour on clocks; no expectation K-5 names days, months or seasons.",
+    "review": "author-math"
+   }
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
-   "why": "Same as the parent point: 1.7.E is about clocks only, and no expectation K-5 names months or seasons.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "SCI.1.9",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The months and seasons in their order are what the grade 1 science TEKS ask: 'describe and predict the patterns of seasons of the year such as order of occurrence and changes in nature'.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+    "why": "Same as the parent point: 1.7.E is about clocks only, and no expectation K-5 names months or seasons.",
+    "review": "author-math"
+   }
   },
   "1:measure-length-units": {
    "rows": [

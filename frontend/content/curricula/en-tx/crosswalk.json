@@ -4,7 +4,13 @@
  "state": "TX",
  "points": {
   "K:position-words": {
-   "none": "no expectation in the Texas mathematics wording asks for position words",
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:scene-search": {
@@ -252,7 +258,13 @@
    "by": "authored"
   },
   "K:ordinal-position": {
-   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:days-of-week": {
@@ -554,7 +566,13 @@
    "by": "authored"
   },
   "1:ordinal-numbers": {
-   "none": "ordinal numbers are not in the Texas mathematics wording for K-5",
+   "rows": [
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:number-line-placement": {
@@ -748,11 +766,28 @@
    "by": "authored"
   },
   "1:days-months-seasons": {
-   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+   "rows": [
+    {
+     "id": "SCI.1.9",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.2.11.D.ix",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "calendar knowledge (days, months, seasons) is not in the Texas mathematics wording",
+   "rows": [
+    {
+     "id": "SCI.1.9",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:measure-length-units": {

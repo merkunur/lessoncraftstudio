@@ -236,9 +236,20 @@
    "review": "author-math"
   },
   "K:days-of-week": {
-   "none": "The order of the weekdays is calendar knowledge that Bavaria teaches in Heimat- und Sachunterricht, not in the Fachlehrplan Mathematik.",
-   "why": "The mathematics plan only uses 'Woche, Monat, Jahr' as units for measuring time spans (M1/2.3.1.2); reciting or completing the days of the week is not asked there.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The mathematics reviewer had only the Fachlehrplan Mathematik and rightly found nothing there; Bavaria teaches the calendar in Heimat- und Sachunterricht: 'verwenden Begriffe zur zeitlichen Einteilung der Lebenswelt zutreffend und orientieren sich daran'. A pre-school sheet on the order of the weekdays prepares it.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "The order of the weekdays is calendar knowledge that Bavaria teaches in Heimat- und Sachunterricht, not in the Fachlehrplan Mathematik.",
+    "why": "The mathematics plan only uses 'Woche, Monat, Jahr' as units for measuring time spans (M1/2.3.1.2); reciting or completing the days of the week is not asked there.",
+    "review": "author-math"
+   }
   },
   "K:tally-marks": {
    "rows": [
@@ -691,14 +702,44 @@
    "review": "author-math"
   },
   "1:days-months-seasons": {
-   "none": "Order of the months, seasons, yesterday/today/tomorrow are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
-   "why": "The mathematics plan uses 'Woche, Monat, Jahr' only as units when time spans are measured with a calendar (M1/2.3.1.2); knowing the names and their order is not asked there.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "HSU1/2.4.1.i1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Yesterday/today/tomorrow, the months in order and the seasons are the 'Begriffe zur zeitlichen Einteilung der Lebenswelt' of HSU 4.1 and its content line 'Tagesablauf und Jahresablauf' (the mathematics reviewer saw only the Fachlehrplan Mathematik).",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Order of the months, seasons, yesterday/today/tomorrow are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
+    "why": "The mathematics plan uses 'Woche, Monat, Jahr' only as units when time spans are measured with a calendar (M1/2.3.1.2); knowing the names and their order is not asked there.",
+    "review": "author-math"
+   }
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "Months and seasons are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
-   "why": "Same skill line as 1:days-months-seasons; nothing in PART 2 asks for the order of months or the seasons.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "HSU1/2.4.1.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Months and seasons are 'Begriffe zur zeitlichen Einteilung der Lebenswelt'; a season wheel prepares 'bringen Zeitspannen (Tag, Monat, Jahr) mit eigenen Beobachtungen zu Veränderungen im Tages- und Jahresablauf in Bezug', which asks for the child's own observations.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Months and seasons are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
+    "why": "Same skill line as 1:days-months-seasons; nothing in PART 2 asks for the order of months or the seasons.",
+    "review": "author-math"
+   }
   },
   "1:measure-length-units": {
    "rows": [

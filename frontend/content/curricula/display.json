@@ -1,0 +1,400 @@
+{
+ "$comment": "How a registry is SHOWN (Daily Teaching System, Part 2). Authored by hand; scripts/curricula/gates.js (C6) checks that every framework of every registry stands here. show = code: the objective's own official code is shown (the node id, without the prefix named in strip); label: the plan's own number of the part the objective stands in is shown (the label of the node or of its nearest parent that has one), with that part's title; area: the document numbers nothing a teacher would recognise, so only the title of the area (the nearest parent, or the node's domain) is shown. An id this registry invented is never shown. The wording of an objective is never shown as a quotation.",
+ "registries": {
+  "da": {
+   "name": "Danmark (Fælles Mål)",
+   "locale": "da",
+   "country": "DK",
+   "frameworks": {
+    "faelles-maal-boernehaveklassen": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-dansk": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-matematik": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-natur-teknologi": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-historie": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-billedkunst": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-faerdselslaere": {
+     "short": "Fælles Mål",
+     "show": "area"
+    },
+    "faelles-maal-sundhed": {
+     "short": "Fælles Mål",
+     "show": "area"
+    }
+   }
+  },
+  "de": {
+   "name": "Deutschland (Bildungsstandards der KMK)",
+   "locale": "de",
+   "country": "DE",
+   "frameworks": {
+    "kmk-deutsch": {
+     "short": "Bildungsstandards (KMK)",
+     "show": "area"
+    },
+    "kmk-mathematik": {
+     "short": "Bildungsstandards (KMK)",
+     "show": "area"
+    }
+   }
+  },
+  "de-by": {
+   "name": "Bayern (LehrplanPLUS)",
+   "locale": "de",
+   "country": "DE",
+   "state": "BY",
+   "frameworks": {
+    "lpplus-deutsch": {
+     "short": "LehrplanPLUS",
+     "show": "label"
+    },
+    "lpplus-mathematik": {
+     "short": "LehrplanPLUS",
+     "show": "label"
+    },
+    "lpplus-hsu": {
+     "short": "LehrplanPLUS",
+     "show": "label"
+    }
+   }
+  },
+  "de-nw": {
+   "name": "Nordrhein-Westfalen (Lehrpläne Primarstufe)",
+   "locale": "de",
+   "country": "DE",
+   "state": "NW",
+   "frameworks": {
+    "lp-nrw-deutsch": {
+     "short": "Lehrplan NRW",
+     "show": "area"
+    },
+    "lp-nrw-mathematik": {
+     "short": "Lehrplan NRW",
+     "show": "area"
+    },
+    "lp-nrw-sachunterricht": {
+     "short": "Lehrplan NRW",
+     "show": "area"
+    }
+   }
+  },
+  "de-sn": {
+   "name": "Sachsen (Lehrplan Grundschule)",
+   "locale": "de",
+   "country": "DE",
+   "state": "SN",
+   "frameworks": {
+    "lp-sn-deutsch": {
+     "short": "Lehrplan Sachsen",
+     "show": "label"
+    },
+    "lp-sn-mathematik": {
+     "short": "Lehrplan Sachsen",
+     "show": "label"
+    },
+    "lp-sn-sachunterricht": {
+     "short": "Lehrplan Sachsen",
+     "show": "label"
+    }
+   }
+  },
+  "en": {
+   "name": "United States (Common Core, NGSS)",
+   "locale": "en",
+   "country": "US",
+   "frameworks": {
+    "ccss-math": {
+     "short": "Common Core",
+     "show": "code"
+    },
+    "ccss-ela": {
+     "short": "Common Core",
+     "show": "code"
+    },
+    "ngss": {
+     "short": "NGSS",
+     "show": "code"
+    }
+   }
+  },
+  "en-tx": {
+   "name": "Texas (TEKS)",
+   "locale": "en",
+   "country": "US",
+   "state": "TX",
+   "frameworks": {
+    "teks-math": {
+     "short": "TEKS",
+     "show": "code"
+    },
+    "teks-elar": {
+     "short": "TEKS",
+     "show": "code",
+     "strip": "ELAR."
+    },
+    "teks-science": {
+     "short": "TEKS",
+     "show": "code",
+     "strip": "SCI."
+    }
+   }
+  },
+  "es": {
+   "name": "México (Plan de Estudio 2022)",
+   "locale": "es",
+   "country": "MX",
+   "frameworks": {
+    "nem-lenguajes": {
+     "short": "Plan de Estudio 2022",
+     "show": "area"
+    },
+    "nem-saberes-y-pensamiento-cientifico": {
+     "short": "Plan de Estudio 2022",
+     "show": "area"
+    },
+    "nem-etica-naturaleza-y-sociedades": {
+     "short": "Plan de Estudio 2022",
+     "show": "area"
+    },
+    "nem-de-lo-humano-y-lo-comunitario": {
+     "short": "Plan de Estudio 2022",
+     "show": "area"
+    }
+   }
+  },
+  "fi": {
+   "name": "Suomi (OPS 2014)",
+   "locale": "fi",
+   "country": "FI",
+   "frameworks": {
+    "ops2014-matematiikka": {
+     "short": "OPS 2014",
+     "show": "label"
+    },
+    "ops2014-aidinkieli": {
+     "short": "OPS 2014",
+     "show": "label"
+    },
+    "ops2014-ymparistooppi": {
+     "short": "OPS 2014",
+     "show": "label"
+    },
+    "ops2014-kuvataide": {
+     "short": "OPS 2014",
+     "show": "label"
+    }
+   }
+  },
+  "fr": {
+   "name": "France (programmes)",
+   "locale": "fr",
+   "country": "FR",
+   "frameworks": {
+    "programme-2024-maternelle-langage": {
+     "short": "Programmes",
+     "show": "area"
+    },
+    "programme-2024-maternelle-mathematiques": {
+     "short": "Programmes",
+     "show": "area"
+    },
+    "programme-2024-francais-cycle2": {
+     "short": "Programmes",
+     "show": "area"
+    },
+    "programme-2024-mathematiques-cycle2": {
+     "short": "Programmes",
+     "show": "area"
+    },
+    "programme-2026-histoire-geographie-cycle2": {
+     "short": "Programmes",
+     "show": "area"
+    },
+    "programme-2020-questionner-le-monde": {
+     "short": "Programmes",
+     "show": "area"
+    }
+   }
+  },
+  "it": {
+   "name": "Italia (Indicazioni nazionali)",
+   "locale": "it",
+   "country": "IT",
+   "frameworks": {
+    "indicazioni-2012-italiano": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-storia": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-geografia": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-matematica": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-scienze": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-arte-e-immagine": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    },
+    "indicazioni-2012-tecnologia": {
+     "short": "Indicazioni nazionali",
+     "show": "area"
+    }
+   }
+  },
+  "nl": {
+   "name": "Nederland (kerndoelen)",
+   "locale": "nl",
+   "country": "NL",
+   "frameworks": {
+    "kerndoelen-2026-nederlands": {
+     "short": "Kerndoelen",
+     "show": "label"
+    },
+    "kerndoelen-2026-rekenen-wiskunde": {
+     "short": "Kerndoelen",
+     "show": "label"
+    },
+    "kerndoelen-2006-orientatie": {
+     "short": "Kerndoelen",
+     "show": "label"
+    },
+    "kerndoelen-2006-kunstzinnige-orientatie": {
+     "short": "Kerndoelen",
+     "show": "label"
+    }
+   }
+  },
+  "no": {
+   "name": "Norge (LK20)",
+   "locale": "no",
+   "country": "NO",
+   "frameworks": {
+    "lk20-matematikk": {
+     "short": "LK20",
+     "show": "area"
+    },
+    "lk20-norsk": {
+     "short": "LK20",
+     "show": "area"
+    },
+    "lk20-naturfag": {
+     "short": "LK20",
+     "show": "area"
+    },
+    "lk20-samfunnsfag": {
+     "short": "LK20",
+     "show": "area"
+    },
+    "lk20-mat-og-helse": {
+     "short": "LK20",
+     "show": "area"
+    },
+    "lk20-kunst-og-handverk": {
+     "short": "LK20",
+     "show": "area"
+    }
+   }
+  },
+  "pt": {
+   "name": "Brasil (BNCC)",
+   "locale": "pt",
+   "country": "BR",
+   "frameworks": {
+    "bncc-educacao-infantil": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-lingua-portuguesa": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-matematica": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-ciencias": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-geografia": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-historia": {
+     "short": "BNCC",
+     "show": "code"
+    },
+    "bncc-arte": {
+     "short": "BNCC",
+     "show": "code"
+    }
+   }
+  },
+  "sv": {
+   "name": "Sverige (Lgr22)",
+   "locale": "sv",
+   "country": "SE",
+   "frameworks": {
+    "lgr22-forskoleklass": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-matematik": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-svenska": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-no": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-so": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-teknik": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-idrott": {
+     "short": "Lgr22",
+     "show": "area"
+    },
+    "lgr22-bild": {
+     "short": "Lgr22",
+     "show": "area"
+    }
+   }
+  }
+ }
+}

@@ -244,7 +244,13 @@
    "by": "authored"
   },
   "K:days-of-week": {
-   "none": "The order of the weekdays is calendar knowledge that Bavaria teaches in Heimat- und Sachunterricht, not in the Fachlehrplan Mathematik.",
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "K:tally-marks": {
@@ -723,11 +729,33 @@
    "by": "authored"
   },
   "1:days-months-seasons": {
-   "none": "Order of the months, seasons, yesterday/today/tomorrow are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "HSU1/2.4.1.i1",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "Months and seasons are calendar knowledge of Heimat- und Sachunterricht in Bavaria, not of the Fachlehrplan Mathematik.",
+   "rows": [
+    {
+     "id": "HSU1/2.4.1.1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "HSU1/2.4.1.2",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "1:measure-length-units": {

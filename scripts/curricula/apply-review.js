@@ -10,6 +10,8 @@
  * frontend/content/curricula/<registry>/crosswalk-overrides.json (the reviewer's reason is kept beside each row)
  * and appends the reviewer's notes to docs/daily-teaching-system/curricula/REVIEW-NOTES.<registry>.md.
  * A point named by two reviews is refused: one of them has to give way by hand.
+ * The exception is a file whose name begins with "own-audit": it is the builder's own reading of a sample (rule #2
+ * asks for both), is applied last, and may replace a reviewer's entry; what it replaced is kept as `was`.
  *
  *   node scripts/curricula/apply-review.js <registry> --authored <author.out.json> [<author.out.json> …]
  *
@@ -29,12 +31,15 @@ const dir = path.join(REPO, 'frontend', 'content', 'curricula', reg);
 const nodes = new Set(JSON.parse(fs.readFileSync(path.join(dir, 'framework.json'), 'utf8')).nodes.map((n) => n.id));
 const pointIds = new Set(JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'teaching-graph', 'points.json'), 'utf8')).points.map((p) => p.id));
 const out = {}, notes = [], problems = [];
-for (const f of files) {
+const isAudit = (f) => /^own-audit/.test(path.basename(f));
+for (const f of files.slice().sort((a, b) => isAudit(a) - isAudit(b))) {
   const d = JSON.parse(fs.readFileSync(f, 'utf8'));
   const name = path.basename(f).replace(/\.out\.json$/, '');
+  const audit = isAudit(f);
   for (const [id, o] of Object.entries(d.points || {})) {
     if (!pointIds.has(id)) { problems.push(name + ': unknown point ' + id); continue; }
-    if (out[id]) { problems.push(id + ' is corrected by two reviews'); continue; }
+    if (out[id] && !audit) { problems.push(id + ' is corrected by two reviews'); continue; }
+    const was = out[id] ? { rows: out[id].rows || [], none: out[id].none, why: out[id].why, review: out[id].review } : undefined;
     const rows = [];
     for (const r of o.rows || []) {
       if (!nodes.has(r.id)) problems.push(name + ': ' + id + ' names ' + r.id + ', which is not a node');
@@ -43,7 +48,7 @@ for (const f of files) {
       else rows.push({ id: r.id, rel: r.rel });
     }
     if (!o.why) problems.push(name + ': ' + id + ' gives no reason');
-    out[id] = rows.length ? { rows, why: o.why, review: name } : { none: o.none || o.why || 'no counterpart in these documents', why: o.why, review: name };
+    out[id] = rows.length ? { rows, why: o.why, review: name, was } : { none: o.none || o.why || 'no counterpart in these documents', why: o.why, review: name, was };
   }
   notes.push([name, Array.isArray(d.notes) ? d.notes : d.notes ? [String(d.notes)] : []]);
 }

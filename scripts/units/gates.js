@@ -37,7 +37,7 @@ const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[-
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
-const { planWeeks, refused, HOLIDAY_PAGE } = require('../sub-plans/position.js');
+const { planWeeks, refused, HOLIDAY_PAGE, packShape } = require('../sub-plans/position.js');
 function load() {
   const all = readJson(path.join(C, 'teaching-graph', 'points.json')).points;
   const d = { points: new Set(all.map((p) => p.id)), pointById: new Map(all.map((p) => [p.id, p])), loc: {} };
@@ -144,8 +144,8 @@ function run(d) {
           if (typeOf.has(k)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' is also in pack ' + typeOf.get(k) + ' of the same grade'); else typeOf.set(k, p.id);
         }
       }
-      if (p.blocks.length < 5) fail('P4', w + ': ' + p.blocks.length + ' blocks (at least 5)');
-      for (const m of ['reading', 'writing', 'math']) if (!p.blocks.some((b) => b.key === m)) fail('P4', w + ': no ' + m + ' block');
+      const shape = packShape(p.form, p.blocks);
+      if (shape) fail('P4', w + ': ' + shape);
       for (const b of p.blocks) {
         const bw = w + ' block ' + b.key;
         if (!d.points.has(b.point)) fail('P2', bw + ': ' + b.point + ' is no teaching point');

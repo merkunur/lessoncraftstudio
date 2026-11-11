@@ -1,0 +1,182 @@
+{
+ "1:alphabetical-order / G1-245": {
+  "say": "„Auf den Karten stehen sechs Tiere. Ordnet sie nach dem Abc. Schreibt zuerst in jeden kleinen Kreis die Nummer von 1 bis 6. Dann schreibt ihr die Wörter in der richtigen Reihenfolge auf die Linien. Die Abc-Leiste oben hilft euch.“",
+  "first": "Lesen Sie die sechs Tiernamen gemeinsam. Fragen Sie: „Mit welchem Buchstaben beginnt jedes Wort? Welcher dieser Buchstaben kommt im Abc zuerst?“ Suchen Sie ihn auf der Abc-Leiste, schreiben Sie eine 1 in den Kreis der Karte und das Wort auf die erste Linie.",
+  "stuck": "Das Kind kreist bei jedem Wort den ersten Buchstaben ein und sucht die Buchstaben der Reihe nach auf der Abc-Leiste, von links nach rechts. Zur Kontrolle auf dem Blatt für alle: Esel, Hund, Jaguar, Koala, Wal, Zebra."
+ },
+ "2:sentence-boundaries / G2-274": {
+  "say": "„In diesen Sätzen ist alles kleingeschrieben, und das Satzzeichen fehlt. Schreibt jeden Satz richtig auf die Linien. Denkt an drei Dinge: Der Satzanfang ist groß. Namen und Nomen sind groß. Am Ende steht ein Punkt.“",
+  "first": "Schreiben Sie den ersten Satz so an die Tafel, wie er gedruckt ist. Fragen Sie: „Was stimmt hier nicht?“ Verbessern Sie gemeinsam: den Satzanfang, den Namen, das Nomen (Probe mit der, die, das) und den Punkt am Ende. Die Kinder schreiben den richtigen Satz auf die Linien.",
+  "stuck": "Das Kind legt den Finger auf das erste Wort, dann auf jeden Namen und auf jedes Wort, vor das man der, die oder das setzen kann, und zum Schluss auf das Satzende. Zur Kontrolle auf dem Blatt für alle: Lina sucht die Segelboote. Die Jeeps sind bunt. Ben und ich mögen die Fahrräder. Ben sieht zwei Kanus. Meine U-Bahnen sind ganz neu."
+ },
+ "2:sentence-boundaries / G2-282": {
+  "say": "„In diesen Sätzen ist alles kleingeschrieben, und das Satzzeichen fehlt. Manche Sätze sind Fragen. Schreibt jeden Satz richtig auf die Linien: Satzanfang groß, Namen und Nomen groß, und am Ende ein Punkt oder ein Fragezeichen.“",
+  "first": "Schreiben Sie den ersten Satz so an die Tafel, wie er gedruckt ist: „siehst du die clementinen“. Verbessern Sie gemeinsam den Satzanfang und das Nomen. Fragen Sie dann: „Wird hier etwas erzählt oder etwas gefragt?“ Es ist eine Frage, also steht am Ende ein Fragezeichen.",
+  "stuck": "Das Kind liest den Satz laut und hört auf die Stimme: Bei einer Frage geht sie am Ende nach oben, und der Satz beginnt mit einem Fragewort oder mit dem Verb. Zur Kontrolle auf dem Blatt für alle: Siehst du die Clementinen? Wo sind die Limetten? Paul und ich mögen die Nektarinen. Paul sucht die Kiwis. Hat Finn die Granatäpfel gesehen?"
+ },
+ "2:word-classes / G2-285": {
+  "say": "„Nomen sind Namen für Menschen, Tiere und Dinge. Verben sagen, was jemand tut. Adjektive sagen, wie etwas ist. Lest die neun Wörter und schreibt jedes in die richtige Spalte.“",
+  "first": "Lesen Sie die neun Wörter gemeinsam. Sortieren Sie je ein Wort an der Tafel und zeigen Sie die Proben: der, die oder das davor für Nomen; „ich …, du …“ für Verben; „Wie ist es?“ für Adjektive. Die Nomen auf diesem Blatt haben ein kleines Bild und sind großgeschrieben.",
+  "stuck": "Lesen Sie dem Kind das Wort vor und lassen Sie es die drei Proben laut ausprobieren. Zur Kontrolle auf dem Blatt für alle: Nomen sind Fledermaus, Möwe und Delfin; Verben sind spielen, laufen und lesen; Adjektive sind langsam, nass und lila."
+ },
+ "1:story-sequencing / G1-401": {
+  "say": "„Jede Geschichte auf diesem Blatt hat einen Anfang und einen Schluss, aber die Mitte fehlt. Schaut genau, was am Schluss anders ist als am Anfang. Dann malt ihr in den großen Rahmen, was dazwischen passiert.“",
+  "first": "Besprechen Sie die erste Geschichte nur mündlich. Ein Kind erzählt, was das erste Bild zeigt, ein anderes, was das letzte zeigt. Fragen Sie: „Was muss dazwischen passiert sein?“ Sammeln Sie zwei oder drei Ideen. Dann malt jedes Kind seine Mitte.",
+  "stuck": "Fragen Sie: „Was ist am Anfang da? Was ist am Schluss anders? Was hat jemand getan?“ Jedes Bild, das vom Anfang zum Schluss führt, ist richtig; schön muss es nicht sein. Wer fertig ist, schreibt zu jeder Geschichte einen Satz auf die Rückseite."
+ },
+ "2:compound-words / G2-330": {
+  "say": "„Ein zusammengesetztes Nomen besteht aus zwei Wörtern, so wie Haus und Tür in Haustür. Hier ist jedes Wort Buchstabe für Buchstabe gedruckt. Malt einen Strich an die Stelle, an der das zweite Wort beginnt.“",
+  "first": "Schreiben Sie „Goldfisch“ mit Abständen zwischen den Buchstaben an die Tafel. Fragen Sie: „Welche zwei Wörter hört ihr?“ Ziehen Sie den Strich zwischen Gold und Fisch und lassen Sie beide Wörter sprechen.",
+  "stuck": "Das Kind spricht das ganze Wort und klatscht einmal für jedes der beiden Wörter. Dann deckt es das Wortende mit dem Finger ab und schiebt ihn, bis vorne ein richtiges Wort steht. Zur Kontrolle auf dem Blatt für alle: Gold-fisch, Hand-schuh, Regen-mantel, Käse-kuchen, Kleider-schrank, Butter-blume, Sonnen-brille, Vogel-haus."
+ },
+ "2:question-words / G2-356": {
+  "say": "„Jeder Satz auf diesem Blatt ist eine Antwort. Einige Wörter sind markiert. Schreibt die Frage auf, die genau nach diesen Wörtern fragt. Beginnt mit einem Fragewort: wer, was, wen, wo, wann oder wie viele.“",
+  "first": "Lösen Sie den ersten und den zweiten Satz an der Tafel. „Emma findet fünf Brombeeren.“ Markiert ist Emma, eine Person, also fragt man mit Wer: „Wer findet fünf Brombeeren?“ Im zweiten Satz ist „in der Hütte“ markiert, ein Ort: „Wo ist Anna?“ Schreiben Sie beide Fragen mit großem Anfang und Fragezeichen.",
+  "stuck": "Fragen Sie, was die markierten Wörter angeben: eine Person (wer, wen), ein Ding oder Tier (was), einen Ort (wo), eine Zeit (wann) oder eine Anzahl (wie viele). Das Kind spricht die Frage, bevor es schreibt. Zur Kontrolle auf dem Blatt für alle passen zum Beispiel: Wer findet fünf Brombeeren? Wo ist Anna? Wie viele Geier sieht Finn? Wen mag Mia? Wer isst um acht Uhr? Was malt Max? Wann schläft Lina? Wo spielt Ben?"
+ },
+ "2:question-words / G2-357": {
+  "say": "„Oben seht ihr vier Bilder. Zu ihnen schreibt ihr Fragen. Auf jeder Linie steht schon das Fragewort: Wer, Was, Wo, Wann, Warum, Wie. Schreibt die Frage zu Ende und setzt ein Fragezeichen.“",
+  "first": "Benennen Sie die vier Bilder gemeinsam: ein Handwerker, eine Birne, ein Haus, eine Uhr. Bilden Sie mündlich eine Frage zur ersten Linie und schreiben Sie sie an die Tafel: „Wer baut das Haus?“ Lassen Sie zwei Kinder eine Was-Frage vorschlagen. Jede Frage, die zu einem Bild passt und mit dem gedruckten Wort beginnt, ist richtig.",
+  "stuck": "Zeigen Sie auf ein Bild und fragen Sie das Kind, was es darüber wissen möchte. Helfen Sie, daraus eine Frage mit dem gedruckten Fragewort zu machen, zum Beispiel: „Wo arbeitet der Handwerker? Wann klingelt die Uhr? Warum ist die Birne gelb und rot? Wie hoch ist das Haus?“"
+ },
+ "2:synonyms / G2-358": {
+  "say": "„Manche Wörter bedeuten dasselbe oder fast dasselbe, so wie beginnen und anfangen. Lest das große Wort auf jeder Karte. Kreist darunter das Wort ein, das dasselbe bedeutet.“",
+  "first": "Lösen Sie die erste Karte gemeinsam. Lesen Sie das große Wort und die vier Wörter darunter. Setzen Sie jedes in einen Satz ein: „Im Zimmer ist es leise. Im Zimmer ist es lustig? Im Zimmer ist es still?“ Eingekreist wird das Wort, bei dem der Satz dasselbe sagt. Lesen Sie die Wörter der anderen Karten einmal vor; einige sind für Zweitklässler neu.",
+  "stuck": "Lesen Sie dem Kind die Wörter der Karte vor und lassen Sie es jedes in denselben kurzen Satz einsetzen. Zur Kontrolle auf dem Blatt für alle: leise und still, schließen und zumachen, brüllen und schreien, lächeln und schmunzeln, erstaunt und verblüfft, lärmend und laut, entspannt und gelassen, zornig und wütend."
+ },
+ "2:synonyms / G2-373": {
+  "say": "„Manche Wörter bedeuten dasselbe oder fast dasselbe. Jedes Wort links hat einen Partner rechts. Verbindet die beiden mit einer Linie.“",
+  "first": "Lesen Sie die Wörter beider Spalten einmal vor. Lösen Sie das erste Paar gemeinsam: „gelassen“. Gehen Sie die rechte Spalte durch und fragen Sie, welches Wort dasselbe bedeutet. Die Kinder beginnen mit den Paaren, bei denen sie sicher sind; die letzten ergeben sich dann fast von selbst.",
+  "stuck": "Lesen Sie dem Kind das Wort vor und lassen Sie es einen kurzen Satz damit bilden. Dann probiert es die Wörter rechts in demselben Satz aus. Zur Kontrolle auf dem Blatt für alle: gelassen und entspannt, tapfer und mutig, helfen und unterstützen, aussuchen und wählen, klug und gescheit, springen und hüpfen, erstaunt und überrascht, simpel und einfach."
+ },
+ "1:mazes / G1-423": {
+  "say": "„Vier Tiere lassen Drachen und einen Ballon steigen, und die Schnüre haben sich verheddert. Folgt jeder Schnur vom Tier bis nach oben. Schreibt dann die Nummer des Tieres in das Kästchen über seinem Drachen.“",
+  "first": "Halten Sie das Blatt hoch und legen Sie den Finger auf das Tier mit der Nummer 1. Fahren Sie seine Schnur langsam nach, an jeder Kreuzung geradeaus weiter, bis nach oben. Schreiben Sie eine 1 in das Kästchen darüber. Die anderen drei Schnüre verfolgen die Kinder allein.",
+  "stuck": "Das Kind fährt die Schnur erst mit dem Finger nach, dann mit einem Buntstift, für jedes Tier in einer anderen Farbe. An einer Kreuzung läuft die Schnur geradeaus weiter; sie biegt nicht auf die andere Schnur ab."
+ },
+ "1:mazes / G1-424": {
+  "say": "„Das Kaninchen möchte zum Eimer und unterwegs alle vier Karotten einsammeln. Es gibt eine Regel: Kein Weg darf zweimal benutzt werden. Kreuzt unten für jede Karotte, die ihr eingesammelt habt, einen Kreis an.“",
+  "first": "Zeigen Sie am hochgehaltenen Blatt das Kaninchen, den Eimer und die vier Karotten. Sagen Sie den Kindern, dass sie den ganzen Weg erst mit dem Finger planen sollen, bevor sie zeichnen: Der erste Weg, den man sieht, lässt oft eine Karotte aus.",
+  "stuck": "Das Kind legt den Finger nacheinander auf jede Karotte und schaut, welche Wege zu ihr führen. Ist der Weg versperrt, weil ein Stück schon benutzt wurde, beginnt es mit dem Finger neu und holt die Karotten in einer anderen Reihenfolge."
+ },
+ "1:mazes / G1-425": {
+  "say": "„Der Eisbär möchte nach Hause zu seinem Iglu. Aber Vorsicht: Auf manchen Wegen liegt ein Walross, und auf manchen ist ein Loch im Eis. Diese Wege darf er nicht nehmen. Zeichnet einen sicheren Weg ein.“",
+  "first": "Zeigen Sie am hochgehaltenen Blatt den Eisbären, das Iglu, ein Walross und ein Loch im Eis. Die Kinder planen den Weg erst mit dem Finger und zeichnen dann.",
+  "stuck": "Das Kind geht mit dem Finger vom Iglu aus rückwärts zum Eisbären; so findet man den freien Weg oft leichter. Jeder Weg ohne Walross und ohne Loch ist richtig."
+ },
+ "2:root-words / G2-375": {
+  "say": "„Die drei Wörter auf jeder Karte gehören zu einer Wortfamilie: In allen steckt derselbe Wortstamm. Kreist den Teil ein, den alle drei gemeinsam haben. Schreibt ihn dann als Nomen, also mit großem Anfangsbuchstaben, in den leeren Stein.“",
+  "first": "Sehen Sie sich die erste Karte gemeinsam an; sie ist schon gelöst: bearbeiten, Arbeitsplatz, Arbeiterin, Arbeit. Lösen Sie die zweite Karte an der Tafel: die drei Wörter lesen, die gemeinsamen Buchstaben einkreisen, den Stamm als Nomen aufschreiben. Der Wortstamm kann am Anfang, in der Mitte oder am Ende des Wortes stehen.",
+  "stuck": "Das Kind deckt Wortanfang und Wortende mit den Fingern ab, bis ein kurzes Wort übrig bleibt, das in allen drei Wörtern steckt. Zur Kontrolle auf dem Blatt für alle: Arbeit, Kauf, Zauber, Salz, Ruf, Glück, Wunder, Freund, Bau."
+ },
+ "2:read-and-answer / G2-254": {
+  "say": "„Jetzt wird gelesen. Lest die Geschichte genau, bis zum letzten Satz. Lest dann jede Frage und kreist die richtige Antwort ein. Alle Antworten stehen in der Geschichte.“",
+  "first": "Die Kinder lesen die Geschichte erst leise für sich; danach liest ein Kind oder lesen Sie sie einmal laut vor. Lösen Sie die erste Frage gemeinsam: Frage lesen, den Satz in der Geschichte suchen, der die Antwort gibt, und die Antwort einkreisen.",
+  "stuck": "Lesen Sie dem Kind die Frage vor und lassen Sie es den Finger auf den Satz legen, in dem die Antwort steht. Wer die Geschichte nicht allein lesen kann, liest sie mit Ihnen zusammen. Zur Kontrolle auf dem Blatt für alle: am Samstag, Papa, Oma mag Brötchen sehr gern."
+ },
+ "2:read-and-answer / G2-269+": {
+  "say": "„Jetzt wird gelesen. Lest die Geschichte genau. Die Antworten auf die Fragen 1 und 2 stehen nicht wörtlich im Text: Ihr müsst nachdenken, was die Geschichte euch verrät. Kreist die richtige Antwort ein. Die Antwort auf Frage 3 schreibt ihr in einem ganzen Satz auf die Linien.“",
+  "first": "Die Kinder lesen die Geschichte erst leise für sich; danach wird sie einmal laut vorgelesen. Lösen Sie die erste Frage gemeinsam und fragen Sie: „Welcher Satz im Text hilft uns?“ (Die Sätze sind nummeriert.) Die zweite Frage und die geschriebene Antwort lösen die Kinder allein. Wer fertig ist, schreibt auf die Rückseite zwei Sätze: Wie geht die Geschichte weiter?",
+  "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Der Igel braucht die Blätter, weil …“ Zur Kontrolle auf dem Blatt für alle: Sie will den Igel nicht erschrecken; Herbst; bei Frage 3 ist jede Antwort richtig, die sagt, dass der Igel ein warmes Nest für den Winter baut."
+ },
+ "2:read-and-answer / G2-270+": {
+  "say": "„Jetzt wird gelesen. Lest die Geschichte genau. Die Antworten auf die Fragen 1 und 2 stehen nicht wörtlich im Text: Ihr müsst nachdenken, was die Geschichte euch verrät. Kreist die richtige Antwort ein. Die Antwort auf Frage 3 schreibt ihr in einem ganzen Satz auf die Linien.“",
+  "first": "Die Kinder lesen die Geschichte erst leise für sich; danach wird sie einmal laut vorgelesen. Lösen Sie die erste Frage gemeinsam und fragen Sie: „Welcher Satz im Text hilft uns?“ (Die Sätze sind nummeriert.) Die zweite Frage und die geschriebene Antwort lösen die Kinder allein. Wer fertig ist, schreibt auf die Rückseite zwei Sätze: Was zeigt der Feuerwehrmann den Kindern als Nächstes?",
+  "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Alle Kinder lachen, weil …“ Zur Kontrolle auf dem Blatt für alle: Er findet es selbst lustig; ein Schulausflug; bei Frage 3 ist jede Antwort richtig, die sagt, dass der Helm so schwer ist, dass Paul fast umkippt."
+ },
+ "2:read-and-answer / G2-271+": {
+  "say": "„Jetzt wird gelesen. Lest die Geschichte genau. Die Antworten auf die Fragen 1 und 2 stehen nicht wörtlich im Text: Ihr müsst nachdenken, was die Geschichte euch verrät. Kreist die richtige Antwort ein. Die Antwort auf Frage 3 schreibt ihr in einem ganzen Satz auf die Linien.“",
+  "first": "Die Kinder lesen die Geschichte erst leise für sich; danach wird sie einmal laut vorgelesen. Lösen Sie die erste Frage gemeinsam und fragen Sie: „Welcher Satz im Text hilft uns?“ (Die Sätze sind nummeriert.) Die zweite Frage und die geschriebene Antwort lösen die Kinder allein. Wer fertig ist, schreibt auf die Rückseite drei Sätze: Was bauen Jonas und Lina am nächsten Tag?",
+  "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Die Welle kann den neuen Turm nicht wegspülen, weil …“ Zur Kontrolle auf dem Blatt für alle: Er hilft seiner Schwester; sie sind zufrieden mit ihrer Burg; bei Frage 3 ist jede Antwort richtig, die sagt, dass der Turm weiter oben steht, wo das Wasser nicht hinkommt."
+ },
+ "2:describe-a-picture / G2-299": {
+  "say": "„Schaut euch das Bild an. Ihr schreibt drei Sätze dazu. Der Anfang jedes Satzes steht schon auf der Linie. Der Wortkasten unter dem Bild verrät euch, wie die Tiere heißen.“",
+  "first": "Betrachten Sie das Bild gemeinsam und lesen Sie den Wortkasten vor. Bilden Sie mündlich einen Satz zum ersten Satzanfang und schreiben Sie ihn an die Tafel: „Ich sehe einen Fuchs und einen Panda.“ Jedes Kind schreibt die Sätze mit eigenen Wörtern zu Ende und setzt einen Punkt.",
+  "stuck": "Stellen Sie dem Kind eine Frage zum Bild: „Welche Tiere siehst du? Was macht der Panda? Wo sitzt der Waschbär?“ Das Kind spricht den Satz, bevor es schreibt. Wer fertig ist, schreibt auf die letzten Linien einen eigenen Satz."
+ },
+ "2:describe-a-picture / G2-300": {
+  "say": "„Schaut euch das Bild mit den Früchten an. Dieses Mal gibt es keine Satzanfänge: Ihr schreibt eure eigenen Sätze auf die sechs Linien. Der Wortkasten unter dem Bild verrät euch, wie die Früchte heißen.“",
+  "first": "Betrachten Sie das Bild gemeinsam und lesen Sie den Wortkasten vor; Kaki und Cranberry kennen nicht alle Kinder. Sammeln Sie Ideen: Welche Frucht ist die größte? Welche Farben seht ihr? Welche würdet ihr gern probieren? Schreiben Sie einen Beispielsatz an die Tafel: „Die Limette ist auf dem Bild größer als die Ananas.“ Jedes Kind schreibt mindestens vier Sätze.",
+  "stuck": "Stellen Sie dem Kind eine Frage zum Bild: „Welche Frucht würdest du nehmen? Welche Farbe hat sie? Was könnte man daraus machen?“ Das Kind spricht den Satz, bevor es schreibt. Die Namen der Früchte schreibt es aus dem Wortkasten ab."
+ },
+ "2:find-differences / G2-388": {
+  "say": "„Das ist ein Fehlersuchbild mit zwei Bildpaaren. In jedem Paar ist das rechte Bild an 5 Stellen anders als das linke. Kreist jeden Unterschied ein und setzt unter dem Paar für jeden gefundenen Unterschied ein Häkchen.“",
+  "first": "Suchen Sie im oberen Paar gemeinsam einen Unterschied: Ein Kind zeigt die Stelle und sagt, was anders ist. Kreisen Sie ihn im rechten Bild ein und setzen Sie ein Häkchen in das erste Kästchen.",
+  "stuck": "Das Kind deckt einen Teil beider Bilder mit der Hand ab und vergleicht immer nur ein kleines Stück, von oben nach unten. Etwas kann fehlen, dazugekommen oder verändert sein."
+ },
+ "2:hundred-more-less / G2-226": {
+  "say": "„In der Mitte steht eine Zahl. Links schreibt ihr die Zahl, die 100 weniger ist. Rechts schreibt ihr die Zahl, die 100 mehr ist.“",
+  "first": "Rechnen Sie die erste Zeile an der Tafel. Fragen Sie: „Hundert mehr. Welche Ziffer ändert sich? Welche beiden bleiben gleich?“ Zeigen Sie: Nur der Hunderter ändert sich, 249, 349, 449. Zählen Sie gemeinsam in Hunderterschritten von einer anderen Zahl aus.",
+  "stuck": "Das Kind deckt Zehner und Einer mit dem Finger ab und schaut nur auf den Hunderter: einer weniger für 100 weniger, einer mehr für 100 mehr. Die beiden abgedeckten Ziffern werden abgeschrieben. Zur Kontrolle auf dem Blatt für alle: 249 und 449, 602 und 802, 760 und 960, 675 und 875, 522 und 722, 514 und 714."
+ },
+ "3:column-regrouping / G3-359": {
+  "say": "„Das sind Plusaufgaben zum schriftlichen Rechnen. Rechnet Stelle für Stelle und beginnt rechts bei den Einern. Wenn eine Stelle zehn oder mehr ergibt, schreibt ihr den Einer hin und den Übertrag in das kleine Kästchen über der nächsten Stelle.“",
+  "first": "Schreiben Sie die zweite Aufgabe so an die Tafel, wie sie gedruckt ist: 18 plus 55. Einer: 8 plus 5 ist 13, die 3 hinschreiben, die 1 als Übertrag über die Zehner. Zehner: 1 plus 5 plus Übertrag 1 ist 7. Lesen Sie das Ergebnis vor: 73. Bei manchen Aufgaben ergeben auch die Zehner zehn oder mehr; dann hat das Ergebnis drei Stellen.",
+  "stuck": "Das Kind deckt alle Spalten bis auf eine ab und sagt die Summe laut. Ist sie zehn oder größer, fragen Sie: „Welche Ziffer bleibt hier stehen, welche wandert weiter?“ Der häufigste Fehler ist der vergessene Übertrag. Zur Kontrolle auf dem Blatt für alle: 149, 73, 123, 134, 117, 54."
+ },
+ "2:round-to-ten / G2-221": {
+  "say": "„Runden heißt: den nächsten glatten Zehner suchen. Jeder Zahlenstrahl geht von einem Zehner zum nächsten. Schaut auf den Punkt. Liegt er näher am linken oder am rechten Zehner? Kreist den Zehner ein, der näher liegt.“",
+  "first": "Zeichnen Sie den ersten Zahlenstrahl an die Tafel, mit 30 und 40 an den Enden und dem Punkt. Markieren Sie die Mitte und fragen Sie, welche Zahl das ist: 35. Fragen Sie: „Liegt der Punkt vor der Mitte oder dahinter?“ Davor, also näher an der 30.",
+  "stuck": "Das Kind legt den Finger auf den Punkt und zählt die kleinen Schritte bis zu jedem Ende; das Ende mit weniger Schritten liegt näher. Zur Kontrolle auf dem Blatt für alle: 30, 10 und 30."
+ },
+ "3:magic-squares / G3-349": {
+  "say": "„In einem magischen Quadrat ergibt jede Reihe und jede Spalte dieselbe Zahl: die magische Zahl. Auf diesem Blatt ist das die 15. Füllt die leeren Felder so aus, dass jede Reihe und jede Spalte zusammen 15 ergibt.“",
+  "first": "Zeichnen Sie das erste Quadrat an die Tafel. Suchen Sie eine Reihe oder Spalte, in der nur ein Feld leer ist: In der obersten Reihe stehen 6 und 1. Fragen Sie: „6 und 1 sind 7. Wie viel fehlt bis 15?“ Tragen Sie die 8 ein. Die Kinder suchen immer als Nächstes eine Reihe oder Spalte mit nur einem leeren Feld.",
+  "stuck": "Das Kind fährt mit dem Finger eine Reihe oder Spalte mit einem leeren Feld entlang, rechnet die beiden Zahlen zusammen und ergänzt bis 15. Zur Kontrolle rechnet es am Ende jede Reihe und jede Spalte nach. Auf dem Blatt für alle lauten die Reihen im ersten Quadrat 6, 1, 8 und 7, 5, 3 und 2, 9, 4; im zweiten 6, 7, 2 und 1, 5, 9 und 8, 3, 4."
+ },
+ "3:times-tables / G3-358": {
+  "say": "„Das ist Einmaleins-Training mit Aufgaben aus verschiedenen Reihen. Rechnet jede Malaufgabe und schreibt das Ergebnis in das Kästchen. Zuerst die Aufgaben, die ihr auswendig wisst, dann die anderen.“",
+  "first": "Rechnen Sie die ersten beiden Aufgaben an der Tafel. Fragen Sie bei 6 mal 3 nach den Wegen: auswendig, sechsmal in Dreierschritten zählen oder die Tauschaufgabe 3 mal 6. Jeder Weg, der stimmt, gilt.",
+  "stuck": "Das Kind nimmt die Tauschaufgabe, wenn sie leichter ist, oder geht von einer Kernaufgabe aus: 5 mal 7 ist 35, zwei Siebener dazu sind 49. Zur Kontrolle auf dem Blatt für alle: 18, 42, 21, 27, 10, 6, 14, 40, 49, 16, 15, 32."
+ },
+ "3:mult-div-relationship / G3-311": {
+  "say": "„Malnehmen und Teilen gehören zusammen. Zu einem Punktefeld gibt es eine ganze Familie von vier Aufgaben: zwei Malaufgaben und zwei Geteiltaufgaben. Vervollständigt zu jedem Feld alle vier Aufgaben.“",
+  "first": "Zeichnen Sie das erste Feld an die Tafel: 2 Reihen mit je 5. Rechnen Sie die beiden Malaufgaben: 2 mal 5 und die Tauschaufgabe 5 mal 2. Fragen Sie dann: „Zehn Formen in 2 gleichen Reihen: Wie viele sind in jeder Reihe?“ 10 geteilt durch 2 ist 5, und 10 geteilt durch 5 ist 2. Alle vier Aufgaben brauchen dieselben drei Zahlen.",
+  "stuck": "Das Kind zählt die Reihen, die Formen in einer Reihe und alle Formen und schreibt diese drei Zahlen neben das Feld. In jeder Aufgabe der Familie kommen nur diese drei Zahlen vor. Zur Kontrolle auf dem Blatt für alle: Die vier Felder haben 10, 30, 15 und 12 Formen."
+ },
+ "3:muldiv-word-problems / G3-371": {
+  "say": "„Das sind Sachaufgaben zum Malnehmen. Jede Geschichte erzählt von gleich großen Gruppen, und das Bild darunter zeigt sie. Lest die Geschichte, schreibt die Malaufgabe in das Rechenfeld, das Ergebnis in das Kästchen und einen Antwortsatz auf die Linien.“",
+  "first": "Lesen Sie die erste Geschichte gemeinsam. Fragen Sie: „Wie viele Tüten? Wie viele in jeder Tüte?“ Schreiben Sie die Rechnung an die Tafel: 3 mal 2 gleich 6. Lassen Sie am Bild nachzählen und formulieren Sie den Antwortsatz: „Es sind zusammen 6 Rentiere.“",
+  "stuck": "Das Kind unterstreicht die beiden Zahlen in der Geschichte und sagt, was jede zählt: die Gruppen oder wie viele in einer Gruppe sind. Am Bild nachzuzählen ist als Kontrolle erlaubt. Zur Kontrolle auf dem Blatt für alle: 6 Rentiere und 16 Zebras."
+ },
+ "3:arithmetic-patterns / G3-326": {
+  "say": "„Jede Zahlenreihe folgt einer Regel: Es geht immer um denselben Schritt weiter. Findet die Regel der Reihe und schreibt die fehlenden Zahlen auf.“",
+  "first": "Schreiben Sie die zweite Reihe so an die Tafel, wie sie gedruckt ist. Suchen Sie zwei Zahlen, die direkt nebeneinanderstehen: 54 und 60. Fragen Sie: „Wie weit ist es von 54 bis 60?“ Sechs. Prüfen Sie die Regel an 60 und 66 und füllen Sie die Lücken, indem Sie immer 6 dazurechnen.",
+  "stuck": "Das Kind sucht zwei Zahlen ohne Lücke dazwischen und zählt von der einen zur anderen. Steht ein leeres Feld dazwischen, sind es zwei Schritte: von 54 bis 66 sind es 12, ein Schritt ist also 6. Zur Kontrolle auf dem Blatt für alle: In jeder Reihe geht es um 6 weiter."
+ },
+ "3:input-output / G3-328+": {
+  "say": "„Jede Zahlenmaschine hat eine Regel; sie steht oben. Links geht eine Zahl hinein, die Maschine rechnet, rechts kommt eine neue Zahl heraus. Eine Maschine nimmt mal 5, die andere zieht 6 ab. Tragt die fehlenden Zahlen ein. Achtung: Manchmal fehlt die Zahl, die hineingegangen ist.“",
+  "first": "Lösen Sie die erste Maschine gemeinsam. Ihre Regel ist mal 5. „6 geht hinein. Was kommt heraus?“ 30. Dann die Zeile, in der links das Feld leer ist: „Eine Zahl ging hinein, die Maschine hat mal 5 gerechnet, 35 kam heraus. Welche Zahl war es?“ Rückwärts rechnen: 35 geteilt durch 5 ist 7. Probe: 7 durch die Maschine schicken.",
+  "stuck": "Fragen Sie: „Fehlt die Zahl vor dem Pfeil oder hinter dem Pfeil?“ Hinter dem Pfeil gilt die Regel. Vor dem Pfeil rechnet das Kind die Umkehraufgabe (geteilt statt mal, plus statt minus) und macht die Probe. Zur Kontrolle auf dem Blatt für alle: erste Maschine 30, 60, 7, 50, 2; zweite Maschine 18, 15, 7, 27, 9."
+ },
+ "3:time-to-minute / G3-354": {
+  "say": "„Auf diesem Blatt lest ihr die Uhr auf die Minute genau ab. Schaut erst auf den kleinen Zeiger für die Stunde, dann auf den großen für die Minuten. Kreist die passende Uhrzeit ein.“",
+  "first": "Zeichnen Sie eine Uhr an die Tafel. Wiederholen Sie: Von einer Zahl zur nächsten sind es 5 Minuten, jeder kleine Strich ist 1 Minute. Lesen Sie die erste Uhr gemeinsam ab: in Fünferschritten bis zur letzten Zahl vor dem großen Zeiger zählen, dann die einzelnen Striche dazu.",
+  "stuck": "Fragen Sie: „An welcher Zahl ist der kleine Zeiger gerade vorbei?“ Das ist die Stunde. Für die Minuten zählt das Kind in Fünferschritten von der 12 aus und dann strichweise weiter. Zwei der drei Uhrzeiten liegen jeweils nur eine Minute auseinander; hier muss genau gezählt werden."
+ },
+ "3:perimeter / G3-337": {
+  "say": "„Der Umfang ist der Weg einmal rund um eine Figur, wie ein Spaziergang am Rand entlang. Jedes Rechteck besteht aus Kästchen. Zählt die Kästchenkanten rundherum am äußeren Rand und schreibt den Umfang in das Feld.“",
+  "first": "Zeichnen Sie das erste Rechteck an die Tafel. Markieren Sie eine Startecke. Zählen Sie die Kanten oben, rechts hinunter, unten und links wieder hinauf bis zur Startecke und machen Sie an jeder gezählten Kante einen kleinen Strich. Zeigen Sie danach die Abkürzung: die vier Seiten zählen und zusammenrechnen.",
+  "stuck": "Das Kind markiert eine Startecke und macht an jeder gezählten Kante einen Strich, damit keine doppelt gezählt wird. Wer die Kästchen innen zählt, bestimmt die Fläche; zeigen Sie auf den Rand. Zur Kontrolle auf dem Blatt für alle: 20, 14, 20 und 22."
+ },
+ "2:grid-coordinates / G2-303": {
+  "say": "„In diesem Gitter versteckt sich ein Bild. Jedes Feld hat einen Namen aus einem Buchstaben und einer Zahl, so wie B2. Die Listen unten sagen euch, welche Felder ihr in welcher Farbe anmalen sollt.“",
+  "first": "Vergewissern Sie sich, dass alle die beiden Farben haben, die in den Listen stehen. Zeigen Sie, wie man ein Feld findet: einen Finger auf den Buchstaben oben, einen auf die Zahl an der Seite, und beide wandern, bis sie sich treffen. Suchen Sie das erste Feld der ersten Liste gemeinsam und malen Sie es an. Jedes erledigte Feld wird in der Liste durchgestrichen.",
+  "stuck": "Das Kind spricht den Feldnamen laut, erst den Buchstaben, sucht dessen Spalte und rutscht mit dem Finger hinunter bis zur Zeile mit der Zahl. Ein falsch angemaltes Feld fällt im Bild auf; dann prüft es den Feldnamen noch einmal."
+ },
+ "3:word-fields / G3-397": {
+  "say": "„Manche Wörter gehören zusammen, weil sie etwas Ähnliches bedeuten: Sie bilden ein Wortfeld. Die zehn Verben oben sind alle eine Art zu gehen oder eine Art zu sehen. Schreibt jedes Wort in das Wortfeld, zu dem es gehört.“",
+  "first": "Lesen Sie die zehn Wörter gemeinsam. Spielen Sie zwei davon vor: Ein Kind bummelt vor der Tafel entlang, alle blinzeln. Fragen Sie: „Ist bummeln eine Art zu gehen oder eine Art zu sehen?“ Schreiben Sie bummeln in das Wortfeld „gehen“. Die Kinder streichen oben jedes Wort durch, das sie eingetragen haben.",
+  "stuck": "Lesen Sie dem Kind das Wort vor und lassen Sie es das Wort vormachen oder in zwei Sätzen ausprobieren: „Ich … durch die Stadt“ und „Ich … aus dem Fenster“. Zur Kontrolle auf dem Blatt für alle: zu „gehen“ gehören spazieren, bummeln, marschieren und rennen; zu „sehen“ gehören betrachten, spähen, schauen, starren, glotzen und blinzeln."
+ },
+ "2:synonyms~doing-stage / G2-374": {
+  "say": "„Wer gut schreibt, schreibt nicht immer nur sagt. Es gibt Wörter, die verraten, wie jemand etwas sagt. Lest jeden Satz. Sucht in der Sprechblase das Wort, das am besten passt, und schreibt es in das Kästchen.“",
+  "first": "Lesen Sie die sechs Wörter in der Sprechblase gemeinsam. Lassen Sie die Klasse „Wartet auf mich!“ einmal rufen und einmal flüstern. Lösen Sie den ersten Satz zusammen: Zwei oder drei Wörter ausprobieren und fragen, welches zu jemandem passt, der dem Bus hinterherläuft. Jedes Wort wird genau einmal gebraucht und danach durchgestrichen.",
+  "stuck": "Lesen Sie dem Kind den Satz vor und fragen Sie, wie die Person das wohl sagt: laut, leise, als Frage? Dann lesen Sie die Wörter vor, die noch übrig sind. Zur Kontrolle auf dem Blatt für alle: ruft, flüstert, fragt, verspricht, erklärt, antwortet."
+ },
+ "3:root-words-in-context / G3-399": {
+  "say": "„Die vier Wörter auf den Karten gehören zu einer Wortfamilie: In allen steckt der Wortstamm, der darunter steht. Jedes Wort passt in einen der vier Sätze. Lest jeden Satz und schreibt das passende Wort in die Lücke. Jedes Wort wird einmal gebraucht.“",
+  "first": "Lesen Sie die vier Wörter der ersten Familie gemeinsam: zaubern, Zauberer, Zauberstab, zauberhaft. Lösen Sie den ersten Satz zusammen, indem Sie die Wörter in die Lücke einsetzen: „Der zaubern trägt einen spitzen Hut? Der Zauberer trägt einen spitzen Hut.“ Die Kinder streichen jedes verwendete Wort durch.",
+  "stuck": "Lesen Sie dem Kind den Satz nacheinander mit jedem Wort vor, das noch übrig ist, und fragen Sie, was richtig klingt. Zur Kontrolle auf dem Blatt für alle: Zauberer, zauberhaft, zaubern, Zauberstab; dann mitspielen, verspielt, Mitspieler, Spielzeug."
+ }
+}

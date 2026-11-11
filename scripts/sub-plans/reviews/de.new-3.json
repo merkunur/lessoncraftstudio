@@ -1,0 +1,47 @@
+{
+ "1:time-read / G1-148": {
+  "say": "„Alle Uhren auf diesem Blatt zeigen eine volle Stunde: Der große Zeiger steht oben auf der 12. Der kleine Zeiger zeigt euch, wie viel Uhr es ist. Lest jede Uhr ab und kreist die passende Uhrzeit ein.“",
+  "first": "Zeichnen Sie eine Uhr an die Tafel, den großen Zeiger auf der 12, den kleinen auf der 7. Fragen Sie: „Auf welche Zahl zeigt der kleine Zeiger?“ Es ist 7 Uhr; geschrieben wird das 7:00. Die erste Uhr auf dem Blatt lesen alle gemeinsam ab.",
+  "stuck": "Das Kind legt den Finger auf den kurzen Zeiger und liest die Zahl, auf die er zeigt. Diese Zahl steht vor dem Doppelpunkt, dahinter stehen zwei Nullen. Zur Kontrolle auf dem Blatt für alle: 7:00, 9:00, 6:00 und 1:00."
+ },
+ "K:pre-writing-strokes / G1-429": {
+  "say": "„Auf diesem Blatt ist ein Bild aus lauter Pünktchen: ein Morgen in der Stadt. Fahrt die gepunkteten Linien mit dem Stift nach, ganz ruhig und genau. Dann seht ihr, was alles in der Stadt zu sehen ist.“",
+  "first": "Betrachten Sie das Bild gemeinsam und lassen Sie die Kinder erzählen, was sie erkennen: die Sonne, eine Wolke, Häuser, einen Bus, ein Auto, einen Hund. Zeigen Sie an der Sonne, wie man eine Linie langsam nachfährt, ohne den Stift oft abzusetzen. Jedes Kind beginnt mit einem Teil, den es sich aussucht.",
+  "stuck": "Das Kind fährt eine Linie zuerst mit dem Finger nach und dann mit dem Stift. Es muss nicht alles schaffen; lieber wenige Dinge genau als viele ungenau. Wer fertig ist, malt das Bild aus."
+ },
+ "1:word-families-syllable-reading / G1-331": {
+  "say": "„Auf jeder Karte stehen zwei Silben. Lest sie nacheinander und sprecht sie zusammen: Dann hört ihr ein Wort. Das Bild darüber hilft euch. Schreibt das ganze Wort auf die Linie.“",
+  "first": "Schreiben Sie die erste Karte an die Tafel: Sche + re. Lassen Sie die Silben erst einzeln lesen und dann zusammenziehen: Schere. Schreiben Sie das Wort als ein Wort an die Tafel, ohne Lücke und ohne Pluszeichen, mit großem Anfangsbuchstaben.",
+  "stuck": "Decken Sie die zweite Silbe ab, lassen Sie das Kind die erste lesen, decken Sie auf und lassen Sie beide Silben immer schneller hintereinander sprechen. Das Bild über der Karte zeigt, welches Wort gemeint ist. Zur Kontrolle auf dem Blatt für alle: Schere, Biene, Lutscher, Pfanne, Welle, Regen."
+ },
+ "1:number-walls / G1-267": {
+  "say": "„Das sind Zahlenmauern mit vier Reihen. Die Regel kennt ihr aus der ersten Klasse: Zwei Steine nebeneinander ergeben zusammen den Stein, der auf ihnen liegt. Fangt unten an und rechnet euch bis zum Deckstein hoch.“",
+  "first": "Zeichnen Sie die erste Mauer an die Tafel. Zeigen Sie auf zwei Steine, die unten nebeneinanderliegen, und auf den Stein darüber. Rechnen Sie die zweite Reihe gemeinsam aus; die dritte Reihe und den Deckstein rechnen die Kinder allein.",
+  "stuck": "Legen Sie zwei Finger auf die beiden Steine unter dem leeren Stein: Nur diese beiden werden zusammengezählt. Ein Fehler unten macht alle Steine darüber falsch, deshalb von unten nach oben prüfen. Zur Kontrolle auf dem Blatt für alle: Die Decksteine sind 15, 13, 14 und 11."
+ },
+ "1:doubles-halves / G1-271": {
+  "say": "„Verdoppeln heißt: dieselbe Zahl noch einmal dazu. Halbieren heißt: eine Zahl in zwei gleiche Teile zerlegen. Auf jedem Feld steht oben, was zu tun ist. Rechnet und schreibt die fehlenden Zahlen in die Kästchen.“",
+  "first": "Lösen Sie die ersten beiden Felder an der Tafel. Verdoppeln: 8 plus 8 ist 16. Halbieren: „16 ist gleich … plus …; welche Zahl passt zweimal hinein?“ 8 und 8. Zeigen Sie, dass im gepunkteten Feld Platz zum Malen von Punkten ist.",
+  "stuck": "Beim Verdoppeln malt das Kind die Punkte zweimal und zählt alle. Beim Halbieren malt es die Punkte der Zahl und verteilt sie abwechselnd auf zwei Häufchen. Zur Kontrolle auf dem Blatt für alle: 16; 8 und 8; 10; 7 und 7; 20; 6 und 6; 12; 5 und 5."
+ },
+ "2:shopping-money / G2-292": {
+  "say": "„Oben seht ihr ein Regal mit fünf Früchten und ihren Preisen. Jede Aufgabe zeigt drei Früchte, die ein Kind kauft. Sucht die drei Preise im Regal, rechnet sie zusammen und schreibt den Gesamtpreis auf.“",
+  "first": "Lesen Sie die fünf Preise im Regal gemeinsam. Lösen Sie die erste Aufgabe zusammen: die drei Früchte im Regal suchen und ihre Preise in das Rechenfeld schreiben. Rechnen Sie erst zwei Preise zusammen, dann den dritten dazu, und schreiben Sie das Ergebnis vor „ct“ in das Kästchen.",
+  "stuck": "Das Kind kreist die drei Früchte im Regal ein und schreibt die Preise untereinander. Es hilft, mit zwei Preisen zu beginnen, die eine glatte Zahl ergeben, zum Beispiel 40 und 10. Zur Kontrolle auf dem Blatt für alle: 95 ct, 75 ct und 80 ct."
+ },
+ "2:skip-count-3-4 / G2-207": {
+  "say": "„Auf diesem Blatt zählt ihr in Dreierschritten: 3, 6, 9, 12. In jeder Reihe fehlen Zahlen. Zählt in Dreierschritten weiter und schreibt die fehlenden Zahlen auf. Nicht jede Reihe beginnt bei 3.“",
+  "first": "Zählen Sie mit der Klasse laut in Dreierschritten bis 30; das ist die Dreierreihe aus dem Einmaleins. Lösen Sie die erste Reihe an der Tafel: Lesen Sie die gedruckten Zahlen und fragen Sie: „Wie weit ist es von einer Zahl zur nächsten?“ Rechnen Sie von der Zahl vor der Lücke drei weiter.",
+  "stuck": "Das Kind rechnet von der Zahl vor der Lücke drei weiter und prüft: Die nächste gedruckte Zahl muss wieder drei mehr sein. Zur Kontrolle auf dem Blatt für alle fehlen in der ersten Reihe 12, 15, 30; in der zweiten 3, 15, 18; in der dritten 12, 15, 21; in der vierten 48, 54, 57; in der fünften 15, 21, 30."
+ },
+ "1:opposites / G1-307": {
+  "say": "„Auf jeder Karte steht ein Wort. Oben in der Wortliste findet ihr sein Gegenteil, so wie bei groß und klein. Schreibt das Gegenteil auf die Linie.“",
+  "first": "Lesen Sie die acht Wörter der Wortliste gemeinsam. Lösen Sie die erste Karte zusammen: „Was ist das Gegenteil von weich?“ Schreiben Sie hart an die Tafel. Die Kinder streichen in der Wortliste jedes Wort durch, das sie verwendet haben.",
+  "stuck": "Lesen Sie dem Kind das Wort vor und bilden Sie einen Satz: „Das Kissen ist weich, der Stein ist …?“ Zur Kontrolle auf dem Blatt für alle: weich und hart, kurz und lang, leicht und schwer, alt und neu, heiß und kalt, dunkel und hell, klein und groß, laut und leise."
+ },
+ "1:synonyms / G1-395": {
+  "say": "„Manche Wörter bedeuten dasselbe oder fast dasselbe. Schaut euch jedes Bild an. Darunter stehen vier Wörter. Zwei davon bedeuten dasselbe und passen zum Bild. Kreist diese beiden ein.“",
+  "first": "Lösen Sie das erste Feld gemeinsam. Fragen Sie: „Wie fühlt sich das Gesicht auf dem Bild?“ Lesen Sie die vier Wörter vor und probieren Sie jedes aus: „Das Gesicht ist riesig? Das Gesicht ist ängstlich?“ Kreisen Sie die beiden Wörter ein, die passen. Lesen Sie die Wörter der anderen Felder einmal vor.",
+  "stuck": "Lesen Sie dem Kind die vier Wörter vor und lassen Sie es zu jedem sagen, ob es zum Bild passt. Zwei bleiben übrig; sie bedeuten dasselbe. Zur Kontrolle auf dem Blatt für alle: ängstlich und verängstigt, riesig und groß, flink und rasch, schläfrig und müde, wütend und zornig, fröhlich und glücklich."
+ }
+}

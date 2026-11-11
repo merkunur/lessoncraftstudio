@@ -1,0 +1,98 @@
+{
+  "K:count-how-many / K-006": {
+    "stuck": "Das Kind macht mit dem Bleistift einen kleinen Punkt in jede Form, die es schon gezählt hat. Wer die Ziffer noch nicht sicher schreiben kann, schaut an der Tafel nach; eine spiegelverkehrte Ziffer ist am Schulanfang kein Fehler, der heute geübt werden muss. Zur Kontrolle auf dem Blatt für alle: 8 Würfel, 5 Kugeln, 9 Sechsecke und 7 Rauten."
+  },
+  "K:patterns / K-046": {
+    "first": "Sprechen Sie das erste Muster gemeinsam im Chor: Die Kinder zeigen auf jedes Bild und sagen dazu seinen Namen oder einfach seine Farbe („rot, gelb, rot, gelb“); die Früchte müssen sie nicht kennen. Am Fragezeichen halten alle an: „Was kommt jetzt?“ Kreisen Sie das Bild in der kleinen Reihe darunter gemeinsam ein.",
+    "stuck": "Lassen Sie das Kind das Muster halblaut aufsagen und dabei mit dem Finger mitgehen; Farben genügen. Beim Sprechen hört es meist von selbst, wie es weitergeht. Zur Kontrolle auf dem Blatt für alle: In jeder Reihe kommt als Nächstes das Bild, mit dem die Reihe beginnt (die rote Frucht, die Heidelbeere und zweimal die aufgeschnittene orange Frucht)."
+  },
+  "1:fluency-within-20 / G1-214": {
+    "first": "Rechnen Sie die ersten beiden Aufgaben an der Tafel. Lassen Sie die Kinder erklären, wie sie gerechnet haben, und lassen Sie jeden Weg gelten, der stimmt: auswendig, weiterzählen oder mit den Fingern. Machen Sie auf das Rechenzeichen aufmerksam: Plus- und Minusaufgaben stehen gemischt auf dem Blatt."
+  },
+  "1:number-walls / G1-266": {
+    "say": "„Das sind Zahlenmauern. Die Regel heißt: Zwei Steine nebeneinander ergeben zusammen den Stein, der auf ihnen liegt. Fangt unten an und rechnet euch bis zum obersten Stein hoch.“",
+    "stuck": "Legen Sie zwei Finger auf die beiden Steine unter dem leeren Stein: Nur diese beiden werden zusammengezählt. Ein Fehler unten macht alle Steine darüber falsch, deshalb von unten nach oben prüfen. Zur Kontrolle auf dem Blatt für alle: In der mittleren Reihe stehen 2 und 2, 3 und 2, 5 und 5, 4 und 4; die Decksteine sind 4, 5, 10 und 8."
+  },
+  "K:count-syllables / K-233": {
+    "say": "„Wörter kann man in Silben sprechen und dazu klatschen: To-ma-te, das sind drei Silben. Sprecht zu jedem Bild das Wort leise, klatscht die Silben und schreibt in das Kästchen, wie viele es sind.“",
+    "first": "Benennen Sie zuerst alle Bilder gemeinsam, damit jedes Kind dasselbe Wort klatscht: Tür, Bär, Koralle, Domino, Mixer, Banane, Bus, Rakete. Klatschen Sie Tür und Koralle zusammen (eine Silbe und drei Silben) und schreiben Sie die Zahlen 1 und 3 an die Tafel. Wenn die Klasse Silben sonst schwingt oder Silbenbögen malt, darf sie das auch heute tun.",
+    "stuck": "Sprechen Sie das Wort mit dem Kind in Silben und lassen Sie es bei jeder Silbe einen Schritt machen oder klatschen. Wer die Ziffer noch nicht schreiben kann, malt für jede Silbe einen Strich in das Kästchen. Zur Kontrolle auf dem Blatt für alle: Tür 1, Bär 1, Koralle 3, Domino 3, Mixer 2, Banane 3, Bus 1, Rakete 3."
+  },
+  "K:letter-formation / K-238": {
+    "first": "Schreiben Sie das A groß an die Tafel und sprechen Sie die Bewegung mit: „schräg hinunter, schräg hinunter, Strich in der Mitte“. Die Kinder schreiben es mit dem Finger in die Luft. Dann fahren alle das erste A auf dem Blatt nach. Die Kinder müssen die Buchstaben A bis F nicht benennen oder lesen können; heute geht es nur um die Bewegung. Hat die Klasse einen Buchstaben schon anders schreiben gelernt, gilt die Schreibweise der Klasse."
+  },
+  "1:word-families-syllable-reading / G1-334": {
+    "first": "Benennen Sie zuerst die acht Bilder der Bildleiste gemeinsam: 1 Handgelenk, 2 Armband, 3 Läuferin, 4 Waage, 5 Kegel, 6 Rakete, 7 Junge, 8 Knoblauch. Lesen Sie das erste Wort zusammen in Silben und dann als ganzes Wort: Ke-gel, Kegel. Suchen Sie das Bild und schreiben Sie seine Nummer in das Kästchen."
+  },
+  "K:rhyme / K-352": {
+    "first": "Benennen Sie zuerst alle Bildpaare gemeinsam, damit jedes Kind dieselben Wörter spricht: Sand und Hand, Schwamm und Lamm, Haus und Zitrone, Hahn und Kahn, Bank und Kuh, Rose und Dose, Kreis und Eis, Lauch und Rakete. Sagen Sie drei Wörter ausdrücklich an, weil die Kinder die Bilder sonst anders nennen: Das Schaf heißt hier Lamm, das Schiff heißt Kahn, und das blaue Bild in Feld 7 zeigt Eis. Lösen Sie das erste Feld zusammen."
+  },
+  "1:alphabetical-order / G1-426": {
+    "first": "Sagen Sie mit der Klasse das Abc auf und schreiben Sie es an die Tafel. Zeigen Sie am hochgehaltenen Blatt die Wabe am Pfeil und fragen Sie: „Welcher Buchstabe steht hier? Welcher kommt im Abc danach?“ Der Weg beginnt nicht beim A, sondern beim G. Neben dem G stehen zwei H; weiter geht es nur vom linken H aus. Malen Sie dieses H gemeinsam aus.",
+    "stuck": "Das Kind sagt das Abc leise bis zu dem Buchstaben, bei dem es gerade ist, und spricht einen weiter; das Abc an der Tafel hilft. Es schaut nur die Waben an, die seine Wabe berühren. Endet der Weg, geht es einen Buchstaben zurück und sucht denselben Buchstaben in einer anderen Nachbarwabe. Zur Kontrolle auf dem Blatt für alle: Der Weg läuft von G über H, I, J, K, L, M, N, O, P, Q, R und S bis zum T in der obersten Reihe."
+  },
+  "2:add-sub-within-100-practice / G2-313": {
+    "say": "„Das sind Zahlenmauern mit vier Reihen. Die Regel kennt ihr: Zwei Steine nebeneinander ergeben zusammen den Stein darüber. Die Zahlen werden größer als 20, deshalb dürft ihr auf einem Zettel nebenher rechnen.“",
+    "stuck": "Legen Sie zwei Finger auf die beiden Steine unter dem leeren Stein; das Kind rechnet diese beiden auf einem Schmierzettel zusammen. Ein Fehler unten macht alle Steine darüber falsch, deshalb von unten nach oben prüfen. Zur Kontrolle auf dem Blatt für alle: Die Decksteine sind 60, 70, 46 und 49; direkt darunter stehen 31 und 29, 34 und 36, 24 und 22, 24 und 25."
+  },
+  "2:shopping-money / G2-291": {
+    "stuck": "Das Kind kreist die beiden Spielsachen im Regal ein, schreibt die zwei Preise als Plusaufgabe auf und rechnet erst die Zehner, dann die Einer. Gemalte Münzen zu 10 ct und 5 ct helfen. Zur Kontrolle auf dem Blatt für alle: Luftballon und Dino 20 ct + 40 ct = 60 ct; Auto und Stifte 45 ct + 25 ct = 70 ct; Lastwagen und Auto 15 ct + 45 ct = 60 ct."
+  },
+  "2:equal-groups-times / G2-209": {
+    "first": "Zeichnen Sie die erste Aufgabe an die Tafel. Fragen Sie: „Wie viele Ringe? Wie viele in jedem Ring?“ Lesen Sie die Plusaufgabe vor und rechnen Sie in Schritten: 4, 8, 12, 16. Kennt die Klasse schon Malaufgaben, sagen Sie es auch so: „4 Ringe mit je 4, das sind 4 mal 4.“ Sonst bleiben Sie bei der Plusaufgabe."
+  },
+  "2:time-5-min-quarter / G2-250": {
+    "stuck": "Fragen Sie: „An welcher Zahl ist der kleine Zeiger gerade vorbei?“ Das ist die Stunde, auch wenn er schon fast bei der nächsten Zahl steht. Zur Kontrolle auf dem Blatt für alle: 11:15, 1:45, 2:45 und 8:45. Je nach Gegend sagen die Kinder „Viertel nach elf“ oder „viertel zwölf“, „Viertel vor zwei“ oder „drei viertel zwei“; beides ist richtig."
+  },
+  "2:sentence-boundaries / G2-274": {
+    "stuck": "Das Kind legt den Finger auf das erste Wort, dann auf jeden Namen und auf jedes Wort, vor das man der, die oder das setzen kann, und zum Schluss auf das Satzende. Zur Kontrolle auf dem Blatt für alle: Lina sucht die Segelboote. Die Jeeps sind bunt. Ben und ich mögen die Fahrräder. Ben sieht zwei Kanus. Meine U-Bahnen sind ganz neu. Bei „U-Bahnen“ werden das U und das B großgeschrieben."
+  },
+  "2:word-classes / G2-285": {
+    "first": "Lesen Sie die neun Wörter gemeinsam. Fragen Sie, wie die Klasse die drei Wortarten nennt; manche Klassen sagen Namenwort, Tunwort und Wiewort statt Nomen, Verb und Adjektiv. Sortieren Sie je ein Wort an der Tafel und zeigen Sie die Proben: der, die oder das davor für Nomen; „ich …, du …“ für Verben; „Wie ist es?“ für Adjektive. Die Nomen auf diesem Blatt haben ein kleines Bild und sind großgeschrieben."
+  },
+  "2:question-words / G2-356": {
+    "stuck": "Fragen Sie, was die markierten Wörter angeben: eine Person (wer, wen), ein Tier (wen oder was), ein Ding (was), einen Ort (wo), eine Zeit (wann) oder eine Anzahl (wie viele). Das Kind spricht die Frage, bevor es schreibt. Zur Kontrolle auf dem Blatt für alle passen zum Beispiel: Wer findet fünf Brombeeren? Wo ist Anna? Wie viele Geier sieht Finn? Wen mag Mia? Wer isst um acht Uhr? Was malt Max? Wann schläft Lina? Wo spielt Ben? Bei den Tieren in Satz 4 und Satz 6 sind „Wen …?“ und „Was …?“ beide richtig; bei Satz 7 gilt auch „Um wie viel Uhr schläft Lina?“."
+  },
+  "1:mazes / G1-423": {
+    "stuck": "Das Kind fährt die Schnur erst mit dem Finger nach, dann mit einem Buntstift, für jedes Tier in einer anderen Farbe. An einer Kreuzung läuft die Schnur geradeaus weiter; sie biegt nicht auf die andere Schnur ab. Zur Kontrolle auf dem Blatt für alle: In den Kästchen stehen von links nach rechts 3, 4, 1 und 2."
+  },
+  "2:read-and-answer / G2-254": {
+    "stuck": "Lesen Sie dem Kind die Frage vor und lassen Sie es den Finger auf den Satz legen, in dem die Antwort steht. Wer die Geschichte nicht allein lesen kann, liest sie mit Ihnen zusammen. Zur Kontrolle auf dem Blatt für alle: 1 C (am Samstag), 2 A (Papa), 3 B (Oma mag Brötchen sehr gern)."
+  },
+  "2:describe-a-picture / G2-299": {
+    "stuck": "Stellen Sie dem Kind eine Frage zum Bild: „Welche Tiere siehst du? Was macht der Panda? Wie viele Waschbären sind es?“ Das Kind spricht den Satz, bevor es schreibt. Wer fertig ist, schreibt auf die letzten Linien einen eigenen Satz."
+  },
+  "2:find-differences / G2-388": {
+    "say": "„Das ist ein Fehlersuchbild mit zwei Bildpaaren, eines links und eines rechts. In jedem Paar steht Bild 1 oben und Bild 2 darunter. Bild 2 ist an 5 Stellen anders als Bild 1. Kreist jeden Unterschied in Bild 2 ein und setzt unten für jeden gefundenen Unterschied ein Häkchen in ein Kästchen.“",
+    "first": "Zeigen Sie am hochgehaltenen Blatt, welche Bilder zusammengehören: links oben und links unten, rechts oben und rechts unten. Suchen Sie im linken Paar gemeinsam einen Unterschied: Ein Kind zeigt die Stelle und sagt, was anders ist, zum Beispiel: Im unteren Bild fehlt die Sonne. Kreisen Sie die Stelle ein und setzen Sie ein Häkchen in das erste Kästchen unter dem Paar.",
+    "stuck": "Das Kind deckt einen Teil beider Bilder mit der Hand ab und vergleicht immer nur ein kleines Stück, von oben nach unten. Etwas kann fehlen, kleiner sein, an einer anderen Stelle stehen oder umgedreht sein. Zur Kontrolle auf dem Blatt für alle: Im linken Paar fehlen unten die Sonne und die Tulpe, der Schmetterling und der Drachen sind kleiner, und der Pilz ist spiegelverkehrt. Im rechten Paar ist unten die Wolke oben links weiter nach links gerückt und die Wolke rechts weiter nach rechts, der obere Kolibri und das obere Vögelchen sind kleiner, und der kleine Käfer fehlt."
+  },
+  "3:column-regrouping / G3-359": {
+    "first": "Schreiben Sie die zweite Aufgabe so an die Tafel, wie sie gedruckt ist: 18 plus 55. Einer: 8 plus 5 ist 13, die 3 hinschreiben, die 1 als Übertrag in das kleine Kästchen über den Zehnern. Zehner: 1 plus 5 plus Übertrag 1 ist 7. Lesen Sie das Ergebnis vor: 73. Bei manchen Aufgaben ergeben auch die Zehner zehn oder mehr; dann hat das Ergebnis drei Stellen. Fragen Sie die Kinder, wo sie die Merkzahl sonst hinschreiben: Viele Klassen notieren sie klein unten vor dem Strich. Das dürfen sie auch hier."
+  },
+  "2:round-to-ten / G2-221": {
+    "say": "„Jeder Zahlenstrahl geht von einem Zehner zum nächsten: Das sind die beiden Nachbarzehner. Schaut auf den Punkt. Liegt er näher am linken oder am rechten Zehner? Kreist den Zehner ein, der näher liegt. So rundet man auf Zehner.“",
+    "stuck": "Das Kind legt den Finger auf den Punkt und zählt die kleinen Schritte bis zu jedem Ende; das Ende mit weniger Schritten liegt näher. Zur Kontrolle auf dem Blatt für alle: 30 (der Punkt liegt bei 33), 10 (bei 12) und 30 (bei 31)."
+  },
+  "3:mult-div-relationship / G3-311": {
+    "stuck": "Das Kind zählt die Reihen, die Formen in einer Reihe und alle Formen und schreibt diese drei Zahlen neben das Feld. In jeder Aufgabe der Familie kommen nur diese drei Zahlen vor. Zur Kontrolle auf dem Blatt für alle: Die vier Felder haben 10, 30, 15 und 12 Formen. Die Geteiltaufgaben: 10 : 2 = 5 und 10 : 5 = 2; 30 : 5 = 6 und 30 : 6 = 5; 15 : 3 = 5 und 15 : 5 = 3; 12 : 4 = 3 und 12 : 3 = 4."
+  },
+  "3:arithmetic-patterns / G3-326": {
+    "stuck": "Das Kind sucht zwei Zahlen ohne Lücke dazwischen und zählt von der einen zur anderen. Steht ein leeres Feld dazwischen, sind es zwei Schritte: von 54 bis 66 sind es 12, ein Schritt ist also 6. Zur Kontrolle auf dem Blatt für alle: In jeder Reihe geht es um 6 weiter. Es fehlen in Reihe 1: 60, 72, 84; in Reihe 2: 72, 84, 90; in Reihe 3: 48, 54, 60; in Reihe 4: 84, 90, 96; in Reihe 5: 96, 102, 114."
+  },
+  "3:time-to-minute / G3-354": {
+    "stuck": "Fragen Sie: „An welcher Zahl ist der kleine Zeiger gerade vorbei?“ Das ist die Stunde. Für die Minuten zählt das Kind in Fünferschritten von der 12 aus und dann strichweise weiter. Zwei der drei Uhrzeiten liegen jeweils nur eine Minute auseinander; hier muss genau gezählt werden. Zur Kontrolle auf dem Blatt für alle: 6:19, 11:52, 3:45 und 6:16."
+  },
+  "3:perimeter / G3-337": {
+    "stuck": "Das Kind markiert eine Startecke und macht an jeder gezählten Kante einen Strich, damit keine doppelt gezählt wird. Wer die Kästchen innen zählt, bestimmt die Fläche; zeigen Sie auf den Rand. Zur Kontrolle auf dem Blatt für alle: 20, 14, 20 und 22 Kästchenkanten (die Rechtecke sind 6 mal 4, 3 mal 4, 7 mal 3 und 6 mal 5 Kästchen groß)."
+  },
+  "2:read-and-answer / G2-269+": {
+    "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Der Igel braucht die Blätter, weil …“ Zur Kontrolle auf dem Blatt für alle: 1 A (sie will den Igel nicht erschrecken); 2 B (Herbst); bei Frage 3 ist jede Antwort richtig, die sagt, dass der Igel ein warmes Nest für den Winter baut."
+  },
+  "2:read-and-answer / G2-270+": {
+    "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Alle Kinder lachen, weil …“ Zur Kontrolle auf dem Blatt für alle: 1 B (er findet es selbst lustig); 2 A (ein Schulausflug); bei Frage 3 ist jede Antwort richtig, die sagt, dass der Helm so schwer ist, dass Paul fast umkippt."
+  },
+  "2:read-and-answer / G2-271+": {
+    "stuck": "Lesen Sie dem Kind die Frage vor und fragen Sie: „In welchem Satz steckt ein Hinweis?“ Für die geschriebene Antwort beginnt das Kind mit einem Teil der Frage: „Die Welle kann den neuen Turm nicht wegspülen, weil …“ Zur Kontrolle auf dem Blatt für alle: 1 B (er hilft seiner Schwester); 2 C (sie sind zufrieden mit ihrer Burg); bei Frage 3 ist jede Antwort richtig, die sagt, dass der Turm weiter oben steht, wo das Wasser nicht hinkommt."
+  }
+}

@@ -28,8 +28,10 @@ const DIR = path.join(__dirname, 'texts');
 const KEYS = ['say', 'first', 'stuck'];
 const NEW = process.argv.includes('--new');
 const patch = JSON.parse(fs.readFileSync(path.resolve(src), 'utf8'));
-const packs = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'sub-plans', 'packs.' + loc + '.json'), 'utf8')).packs;
-const live = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'sub-plans', 'scripts', loc + '.json'), 'utf8')).points || {};
+// a language's first scripts are written before its packs file and its scripts file exist
+const readOr = (f, d) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : d);
+const packs = readOr(path.join(REPO, 'frontend', 'content', 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
+const live = readOr(path.join(REPO, 'frontend', 'content', 'sub-plans', 'scripts', loc + '.json'), { points: {} }).points || {};
 const typesOf = new Map();
 for (const p of packs) for (const b of p.blocks) { if (!typesOf.has(b.point)) typesOf.set(b.point, new Set()); typesOf.get(b.point).add(b.type + (b.level === 'hard' ? '+' : '')); }
 const files = fs.readdirSync(DIR).filter((x) => x.startsWith(loc + '-') && x.endsWith('.js')).sort().map((f) => { const file = path.join(DIR, f); return { f, file, head: fs.readFileSync(file, 'utf8').split('module.exports')[0], mod: require(file), dirty: false }; });
@@ -65,9 +67,12 @@ for (const [id, c] of Object.entries(patch)) {
     m.mod.points[point] = {};
   }
   const p = m.mod.points[point];
-  const own = fresh || (!NEW && p.say && typesOf.get(point).size === 1 && !(p.byType && p.byType[type]));
+  // the script of a harder page ('<type>+') is never the point's own script
+  const own = (fresh && !/[+]$/.test(type)) || (!NEW && p.say && typesOf.get(point).size === 1 && !(p.byType && p.byType[type]));
   for (const [k, v] of Object.entries(c)) {
     if (own) p[k] = v; else { p.byType = p.byType || {}; p.byType[type] = p.byType[type] || {}; p.byType[type][k] = v; }
+    // a new point that is used with its harder page only: that script is also the point's own, so that the point has one
+    if (fresh && !own) p[k] = v;
     n++;
   }
   m.dirty = true;

@@ -84,6 +84,41 @@ Sub plans are live in English. Rule 12 allows two more markets before the read; 
 - **Read:** impressions, clicks and average position per page; the queries that show a pack page (expected heads: "emergency sub plans" with a grade, "sub plans" with a grade, "no prep sub plans"); beside them the 28-day numbers of the baseline (`docs/SEO/daily-system-baseline/`), to see that no old page lost what a pack page gained.
 - **Decides:** which form each market gets in 5.3 (PLAN §12, Part 0.3, point 3), and whether a third day per time of year is worth writing. A pack page with impressions and no clicks gets a new title before anything else is built.
 
+## 4. Part 5.3 (2026-11-11): German, single substitute lessons
+
+**The form follows the market.** Germany does not search for a substitute day; it searches for one lesson by subject and school year ("Vertretungsstunde Mathe Klasse 2", "Vertretungsstunde Deutsch", "Vertretungsstunden Material"; `docs/SEO/daily-system-demand`, FINDINGS §4). A German pack therefore has the form `lesson`: one 45-minute lesson of one subject for one school year and one time of year, four blocks (an opening page, two pages of work, a closing page), 40–45 minutes. **18 lessons** to start: Klasse 1–3 × Mathe and Deutsch × Schuljahresanfang, -mitte, -ende (`lists/build-de-defs.js`, ids `m1-early … d3-late`), hub `/de/sub-plans` ("Vertretungsstunden für die Grundschule").
+
+### What the second language changed in the builder
+
+1. **A point is placed by the language's own units** (`position.js`): the school year in which the German units teach it, not the grade in the point's id. A page of US Kindergarten content that no German unit holds is first-weeks work of Klasse 1; the times tables are Klasse 2 work in Germany because the German unit teaches them there. English packs are unchanged by it (`assemble.js --loc=en --check`).
+2. **`packShape`** (`position.js`, used by the assembler and gate P4): a day needs five blocks with reading, writing and math; a lesson needs three or four blocks, 35–45 minutes, the opening block first and the closing block last.
+3. **Holiday words per language** in `HOLIDAY_PAGE` (weihnacht, ostern, nikolaus, advent, fasching, karneval, st-martin, muttertag).
+4. `apply-review.js` can start a language (no packs file and no scripts file yet), and a point that is used with its harder page only keeps that script as its own.
+5. **`ui.de.json`** has exactly the English keys (gate P6) and is written for one lesson: "Die Stunde im Überblick", "Vor der Stunde", "Während der Stunde", "Wenn Zeit bleibt", "Klasseninfo". The site strings use "du" like the rest of the German site; the pages for the covering teacher use "Sie".
+
+### How the pages were chosen and checked
+
+All 72 German pages were read as pictures (contact sheets) and as the printed text of their PDFs before a script was written. Refused while reading: the initial-sounds page K-221 (a wine glass and a jeep among the pictures, and it asks children of the first school weeks to write letters), K-228 and K-232 (pictures with two possible names, a Christmas tree), the picture sudoku G3-348 (two look-alike red fruits). German specifics the scripts carry: every picture page is named aloud together first, so that each child claps or rhymes the same word; "halb sieben" for 6:30 and both "Viertel vor zwei" and "drei viertel zwei"; nouns are capitalized in the fix-the-sentence pages, which the page's own key does not say.
+
+### The review (rule #2)
+
+**First pass** (one reviewer as a German primary teacher and as the colleague who covers the lesson; `reviews/de.review.json`, `de.ui.review.json`): 29 scripts and 2 strings corrected, every answer checked against the printed text or the page (clock hands and kite strings read from the PDF's vector data), six findings marked "must", after which five lessons were rebuilt:
+
+- **Start of Klasse 2** worked in numbers to 100 (Klasse 1 ends at 20) → number walls and doubling within 20; the hundred-chart pages moved to the middle of the year.
+- **Start of Klasse 3** held three-digit numbers and written addition, both new in Klasse 3 → number walls to 100, shopping with three prices, counting by threes; written addition moved to the end of the year.
+- **Start of Klasse 2 Deutsch** sorted nouns, verbs and adjectives before verbs and adjectives are introduced → opposites; the word-class page opens the first Klasse 3 lesson.
+- **First weeks of Klasse 1** traced six capital letters, which a covering teacher would drill with wrong strokes → a second tracing picture; the letters moved to the middle of the year, the harder reading pages to the end.
+- Half hours became full hours at the end of Klasse 1; the hard synonym cards in the middle of Klasse 2 became synonyms with pictures; one opener of five minutes got ten.
+- One script was wrong against its page (the two find-the-differences pairs are stacked, not side by side).
+
+**Second pass:** the same reviewer on the rebuilt lessons and the nine new scripts (`reviews/de.review2.json`); result in the PLAN entry.
+
+### Known limits (5.3)
+
+- The German plans the review rule reads are short (7 to 10 plan weeks per subject and year); the reviewer's judgement of what a class has met by the start of a year was stricter than the rule and decided the start-of-year lessons.
+- Printed defects on about 25 German worksheets (ambiguous pictures, nouns in lower case on one page, answers that can be read off the position) are recorded for the content-fix session; the scripts name the picture words where a task depends on them.
+- Klasse 3 Deutsch reads Klasse 2 stories at their harder level; they are short for the year.
+
 ### Known limits (5.1)
 
 - No answer key (the worksheets of the printable families ship none); the picture-word lists are true of the page for everyone only.

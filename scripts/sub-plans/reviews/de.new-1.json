@@ -1,0 +1,182 @@
+{
+ "K:dot-to-dot-sequence / K-294": {
+  "say": "„Auf diesem Blatt versteckt sich ein Tier. Ihr findet es, wenn ihr die Punkte der Reihe nach verbindet: von der 1 zur 2, dann zur 3 und immer so weiter bis zur 10. Los geht es am orangen Punkt.“",
+  "first": "Zählen Sie mit der Klasse laut von 1 bis 10. Zeigen Sie am hochgehaltenen Blatt den orangen Punkt bei der 1 und ziehen Sie gemeinsam den ersten Strich zur 2. Die Zahlenreihe unten auf dem Blatt zeigt die Reihenfolge. Wer fertig ist, darf das Tier ausmalen.",
+  "stuck": "Lassen Sie das Kind die Zahl nennen, bei der es gerade ist, und fragen Sie: „Welche Zahl kommt danach?“ Das Kind kann die Zahlen in der Reihe unten nacheinander abhaken."
+ },
+ "K:count-how-many / K-006": {
+  "say": "„In jedem Kästchen liegen Formen. Zählt, wie viele es sind, und schreibt die Zahl in das kleine Feld darunter. Zählt langsam und tippt jede Form nur einmal an.“",
+  "first": "Zählen Sie das erste Kästchen gemeinsam: Die Kinder tippen jede Form mit dem Finger an und zählen laut mit. Schreiben Sie die Zahl groß an die Tafel, damit die Kinder sehen, wie die Ziffer aussieht. Lassen Sie die Ziffern von 1 bis 10 an der Tafel stehen.",
+  "stuck": "Das Kind macht mit dem Bleistift einen kleinen Punkt in jede Form, die es schon gezählt hat. Wer die Ziffer noch nicht sicher schreiben kann, schaut an der Tafel nach; eine spiegelverkehrte Ziffer ist am Schulanfang kein Fehler, der heute geübt werden muss."
+ },
+ "K:compare-groups / K-008": {
+  "say": "„In jeder Reihe seht ihr zwei Gruppen. In einer Gruppe sind mehr. Schaut genau hin und kreist die Gruppe ein, in der MEHR sind.“",
+  "first": "Sehen Sie sich die erste Reihe gemeinsam an. Fragen Sie: „Wo sind mehr? Woran seht ihr das?“ Lassen Sie beide Gruppen zählen und die größere einkreisen. Weisen Sie darauf hin, dass in einer Reihe die beiden Gruppen fast gleich groß sind; dort muss man zählen.",
+  "stuck": "Das Kind zählt beide Gruppen und schreibt die Zahl klein daneben. Dann fragen Sie: „Welche Zahl ist größer?“ Zur Kontrolle auf dem Blatt für alle: In allen drei Reihen ist die linke Gruppe die größere (10 und 2, 10 und 9, 8 und 3)."
+ },
+ "K:patterns / K-046": {
+  "say": "„In jeder Reihe wiederholt sich ein Muster, immer zwei Bilder im Wechsel. Am Ende der Reihe fehlt ein Bild. Überlegt, was als Nächstes kommt, und kreist unten das richtige Bild ein.“",
+  "first": "Sprechen Sie das erste Muster gemeinsam im Chor: Die Kinder zeigen auf jedes Bild und sagen seinen Namen. Am Fragezeichen halten alle an: „Was kommt jetzt?“ Kreisen Sie das Bild gemeinsam ein.",
+  "stuck": "Lassen Sie das Kind das Muster halblaut aufsagen und dabei mit dem Finger mitgehen. Beim Sprechen hört es meist von selbst, wie es weitergeht."
+ },
+ "1:fluency-within-20 / G1-214": {
+  "say": "„Das sind Plus- und Minusaufgaben bis 10, die ihr schon kennt. Rechnet zuerst alle Aufgaben, die ihr sofort wisst. Dann kommen die anderen dran.“",
+  "first": "Rechnen Sie die ersten beiden Aufgaben an der Tafel. Lassen Sie die Kinder erklären, wie sie gerechnet haben, und lassen Sie jeden Weg gelten, der stimmt: auswendig, weiterzählen oder mit den Fingern. Machen Sie auf das Rechenzeichen aufmerksam: Plus und Minus wechseln sich ab.",
+  "stuck": "Finger oder gemalte Punkte sind erlaubt, auch wenn auf dem Blatt „im Kopf“ steht. Lassen Sie das Kind das Rechenzeichen zuerst farbig nachfahren. Zur Kontrolle auf dem Blatt für alle: 6, 4, 9, 10, 9, 9, 5, 10, 8, 9, 3, 3."
+ },
+ "1:fluency-within-20 / G1-216": {
+  "say": "„Das sind Plusaufgaben bis 20. Rechnet zuerst alle Aufgaben, die ihr sofort wisst. Dann kommen die anderen dran.“",
+  "first": "Rechnen Sie die ersten beiden Aufgaben an der Tafel. Fragen Sie nach den Rechenwegen und lassen Sie jeden gelten, der stimmt: von der größeren Zahl weiterzählen, erst bis zur 10 oder 20 rechnen, oder auswendig wissen.",
+  "stuck": "Das Kind beginnt bei der größeren Zahl und zählt die kleinere mit den Fingern dazu: bei 13 + 6 sagt es „13“ und zählt sechs weiter. Zur Kontrolle auf dem Blatt für alle: 18, 19, 19, 19, 18, 20, 12, 17, 20, 10, 18, 14."
+ },
+ "1:fluency-within-20 / G1-217": {
+  "say": "„Das sind Minusaufgaben bis 20. Die könnt ihr schon aus der ersten Klasse. Rechnet zuerst alle Aufgaben, die ihr sofort wisst. Dann kommen die anderen dran.“",
+  "first": "Rechnen Sie die ersten beiden Aufgaben an der Tafel. Fragen Sie nach den Rechenwegen und lassen Sie jeden gelten, der stimmt: zurückzählen, von der kleineren Zahl bis zur größeren ergänzen, oder auswendig wissen.",
+  "stuck": "Das Kind ergänzt von der kleineren Zahl bis zur größeren: bei 17 − 9 sagt es „9“ und zählt mit den Fingern bis 17. Zur Kontrolle auf dem Blatt für alle: 4, 12, 2, 8, 8, 8, 5, 2, 10, 5, 3, 4."
+ },
+ "1:add-within-10-models / G1-110": {
+  "say": "„Jeder Dominostein hat zwei Seiten mit Punkten. Zählt die Punkte auf der linken Seite und auf der rechten Seite. Dann rechnet ihr die Plusaufgabe daneben und schreibt das Ergebnis in das Kästchen.“",
+  "first": "Zeichnen Sie den ersten Dominostein an die Tafel. Zählen Sie beide Seiten gemeinsam, lesen Sie die Plusaufgabe daneben vor und rechnen Sie sie zusammen. Zeigen Sie: Wer nicht rechnen mag, kann auch einfach alle Punkte des Steins zählen.",
+  "stuck": "Das Kind zählt alle Punkte des Steins der Reihe nach und tippt dabei jeden Punkt an. Zur Kontrolle auf dem Blatt für alle: 12, 7, 4, 8."
+ },
+ "1:number-walls / G1-266": {
+  "say": "„Das sind Zahlenmauern. Die Regel kennt ihr: Zwei Steine nebeneinander ergeben zusammen den Stein, der auf ihnen liegt. Fangt unten an und rechnet euch bis zum obersten Stein hoch.“",
+  "first": "Zeichnen Sie die erste Mauer an die Tafel. Zeigen Sie auf zwei Steine, die unten nebeneinanderliegen, und auf den Stein darüber. Rechnen Sie die mittlere Reihe gemeinsam aus, dann den Deckstein.",
+  "stuck": "Legen Sie zwei Finger auf die beiden Steine unter dem leeren Stein: Nur diese beiden werden zusammengezählt. Ein Fehler unten macht alle Steine darüber falsch, deshalb von unten nach oben prüfen. Zur Kontrolle auf dem Blatt für alle: Die Decksteine sind 4, 5, 10 und 8."
+ },
+ "1:make-10 / G1-427": {
+  "say": "„Die Giraffe möchte zum Affenbrotbaum. Auf dem Weg liegen Steine mit Plusaufgaben. Sie darf nur auf Steine treten, bei denen 10 herauskommt. Rechnet die Aufgaben aus und zeichnet den Weg der Giraffe ein.“",
+  "first": "Zeigen Sie am hochgehaltenen Blatt die Giraffe und den Baum. Rechnen Sie zwei Steine in der Nähe der Giraffe gemeinsam aus und fragen Sie: „Darf sie hier drauftreten?“ Erinnern Sie an die Zerlegungen der 10, die die Kinder kennen: 9 und 1, 8 und 2, 7 und 3, 6 und 4, 5 und 5.",
+  "stuck": "Das Kind rechnet jeden Stein aus, bevor es weiterzeichnet, und streicht Steine durch, die nicht 10 ergeben. Führt ein Weg nicht weiter, geht es zum letzten richtigen Stein zurück."
+ },
+ "1:word-problems / G1-240": {
+  "say": "„Auf diesem Blatt stehen zwei Rechengeschichten. Lest jede Geschichte genau. Das Bild darunter zeigt, was passiert. Schreibt eure Rechnung in das große Feld und die Antwort in das Kästchen.“",
+  "first": "Lesen Sie die erste Geschichte gemeinsam. Fragen Sie: „Was wissen wir? Was wollen wir herausfinden? Werden es mehr oder weniger?“ Schreiben Sie die Rechnung an die Tafel und lassen Sie am Bild nachzählen. Die zweite Geschichte lesen Sie nur vor; rechnen sollen die Kinder allein.",
+  "stuck": "Lesen Sie dem Kind die Geschichte Satz für Satz vor und lassen Sie es am Bild zeigen, was passiert: dazulegen oder wegnehmen. Durchgestrichene Bilder bedeuten „weg“. Zur Kontrolle auf dem Blatt für alle: 8 Erdbeeren und 2 Nektarinen."
+ },
+ "1:time-read / G1-149": {
+  "say": "„Alle Uhren auf diesem Blatt zeigen eine halbe Stunde: Der große Zeiger steht unten auf der 6. Lest jede Uhr ab und kreist die passende Uhrzeit ein.“",
+  "first": "Zeichnen Sie eine Uhr an die Tafel, den großen Zeiger auf der 6, den kleinen zwischen 6 und 7. Fragen Sie: „An welcher Zahl ist der kleine Zeiger gerade vorbei?“ Das ist die Stunde, die man in der Digitalzeit schreibt: 6:30. Sagen Sie auch, wie man es spricht: halb sieben.",
+  "stuck": "Fragen Sie: „Zwischen welchen zwei Zahlen steht der kleine Zeiger?“ Die kleinere der beiden steht vor dem Doppelpunkt. Zur Kontrolle auf dem Blatt für alle: 6:30, 1:30, 2:30 und 9:30 (halb sieben, halb zwei, halb drei, halb zehn)."
+ },
+ "1:count-on-back-hops / G1-294": {
+  "say": "„Dieses Mal verbindet ihr die Punkte rückwärts. Ihr beginnt am orangen Punkt bei der 20 und zählt zurück: 20, 19, 18 und immer so weiter bis zur 1. Am Ende seht ihr ein Bild.“",
+  "first": "Zählen Sie mit der Klasse laut rückwärts von 20 bis 1. Suchen Sie gemeinsam den orangen Punkt bei der 20 und ziehen Sie den ersten Strich zur 19. Die Zahlenreihe unten auf dem Blatt zeigt die Reihenfolge.",
+  "stuck": "Das Kind nennt die Zahl, bei der es gerade ist, und fragt sich: „Welche Zahl kommt davor?“ Es kann die Zahlen in der Reihe unten nacheinander abhaken."
+ },
+ "K:pre-writing-strokes / K-244": {
+  "say": "„Heute machen wir Schwungübungen: gerade Linien, Zacken, Bögen und Türmchen. Fahrt jede Linie mit dem Stift nach, ganz ruhig und ohne abzusetzen. Ihr beginnt immer am orangen Punkt und folgt dem Pfeil bis zum Tier.“",
+  "first": "Zeichnen Sie die Zacken groß an die Tafel und lassen Sie die Kinder die Bewegung erst mit dem Finger in der Luft mitmachen, dann mit dem Finger auf dem Blatt. Achten Sie darauf, dass alle den Stift locker halten. Die erste Linie fahren alle gemeinsam nach.",
+  "stuck": "Lassen Sie das Kind die Linie zuerst mehrmals mit dem Finger nachfahren. Es darf langsam arbeiten; wichtig ist, dass der Stift auf der Linie bleibt, nicht dass es schnell geht. Wer fertig ist, zeichnet die Muster auf der Rückseite frei weiter."
+ },
+ "K:count-syllables / K-233": {
+  "say": "„Wörter kann man in Silben sprechen und dazu klatschen: Ba-na-ne, das sind drei Silben. Sprecht jedes Bild leise, klatscht die Silben und schreibt in das Kästchen, wie viele es sind.“",
+  "first": "Benennen Sie zuerst alle Bilder gemeinsam, damit jedes Kind dasselbe Wort klatscht: Tür, Bär, Koralle, Domino, Mixer, Banane, Bus, Rakete. Klatschen Sie die ersten beiden Wörter zusammen und schreiben Sie die Zahlen an die Tafel.",
+  "stuck": "Sprechen Sie das Wort mit dem Kind in Silben und lassen Sie es bei jeder Silbe einen Schritt machen oder klatschen. Zur Kontrolle auf dem Blatt für alle: Tür 1, Bär 1, Koralle 3, Domino 3, Mixer 2, Banane 3, Bus 1, Rakete 3."
+ },
+ "K:letter-formation / K-238": {
+  "say": "„Auf diesem Blatt schreibt ihr große Buchstaben. Fahrt jeden Buchstaben nach: Ihr beginnt am orangen Punkt und folgt den Pfeilen. Am Ende der Zeile schreibt ihr den Buchstaben allein.“",
+  "first": "Schreiben Sie das A groß an die Tafel und sprechen Sie die Bewegung mit: „schräg hinunter, schräg hinunter, Strich in der Mitte“. Die Kinder schreiben es mit dem Finger in die Luft. Dann fahren alle das erste A auf dem Blatt nach.",
+  "stuck": "Zeigen Sie dem Kind den orangen Punkt und fahren Sie den Buchstaben einmal mit seinem Finger nach. Kinder, die mit links schreiben, drehen das Blatt leicht nach rechts. Sauberkeit geht vor Tempo; niemand muss alle Zeilen schaffen."
+ },
+ "K:category-odd-one-out / K-043": {
+  "say": "„In jeder Reihe sind fünf Formen. Vier davon gehören zusammen, eine passt nicht dazu. Schaut genau hin und kreist die Form ein, die nicht passt.“",
+  "first": "Sehen Sie sich die erste Reihe gemeinsam an. Fragen Sie: „Welche Formen sind gleich? Welche ist anders?“ Lassen Sie ein Kind begründen, warum. Kreisen Sie die Form gemeinsam ein.",
+  "stuck": "Das Kind zeigt nacheinander auf jede Form und sagt, wie sie aussieht. Die eine, die anders heißt, wird eingekreist. Zur Kontrolle auf dem Blatt für alle: Es passen nicht die Pyramide, der Kreis, das Oval und der Mond."
+ },
+ "1:phoneme-boxes / G1-314": {
+  "say": "„In den Kästchen stehen die Laute eines Wortes. Lest sie der Reihe nach und zieht sie zu einem Wort zusammen. Daneben sind drei Tiere. Kreist das Tier ein, das zu eurem Wort passt.“",
+  "first": "Schreiben Sie die Kästchen der ersten Reihe an die Tafel: Z-e-b-r-a. Lassen Sie die Laute erst einzeln sprechen, dann immer schneller, bis das Wort zu hören ist. Kreisen Sie das Zebra gemeinsam ein. Zeigen Sie, dass manche Kästchen zwei oder drei Buchstaben haben, die zusammen ein Laut sind: Pf, ch, tz.",
+  "stuck": "Lassen Sie das Kind mit dem Finger von Kästchen zu Kästchen rutschen und die Laute dabei lang ziehen. Zur Kontrolle auf dem Blatt für alle: Zebra, Wolf, Pferd, Kamel, Elch, Katze."
+ },
+ "1:word-families-syllable-reading / G1-334": {
+  "say": "„Diese Wörter sind in Silben geschrieben. Lest jedes Wort Silbe für Silbe. Sucht dann oben in der Bildleiste das passende Bild und schreibt seine Nummer in das Kästchen. Zwei Bilder bleiben übrig.“",
+  "first": "Benennen Sie zuerst die acht Bilder der Bildleiste gemeinsam. Lesen Sie das erste Wort zusammen in Silben und dann als ganzes Wort: Ke-gel, Kegel. Suchen Sie das Bild und schreiben Sie seine Nummer in das Kästchen.",
+  "stuck": "Decken Sie mit dem Finger alles außer der ersten Silbe ab und lassen Sie das Kind Silbe für Silbe aufdecken. Zur Kontrolle auf dem Blatt für alle: Kegel 5, Waage 4, Armband 2, Knoblauch 8, Rakete 6, Handgelenk 1."
+ },
+ "1:spell-picture-words / G1-258": {
+  "say": "„Neben jedem Tier steht schon der erste Buchstabe. Sprecht den Namen des Tieres. Sucht das Wort oben im Wortspeicher und schreibt es nach dem ersten Buchstaben zu Ende.“",
+  "first": "Lesen Sie die sechs Wörter im Wortspeicher gemeinsam. Machen Sie das erste Bild zusammen: „Was ist das für ein Tier? Mit welchem Buchstaben beginnt es?“ Suchen Sie das Wort im Speicher und schreiben Sie es an die Tafel. Drei Tiere beginnen mit E; dort müssen die Kinder genau hinsehen.",
+  "stuck": "Das Kind spricht den Tiernamen langsam und sucht im Wortspeicher ein Wort mit demselben Anfang. Es streicht jedes Wort durch, das es verwendet hat. Zur Kontrolle auf dem Blatt für alle: Tiger, Ente, Esel, Elch, Pferd, Jaguar."
+ },
+ "K:rhyme / K-352": {
+  "say": "„Reimwörter klingen am Ende gleich: Haus und Maus. In jedem Feld seht ihr zwei Bilder. Sprecht beide Wörter laut. Wenn sie sich reimen, kreist ihr den Haken ein. Wenn nicht, das Kreuz.“",
+  "first": "Benennen Sie zuerst alle Bildpaare gemeinsam, damit jedes Kind dieselben Wörter spricht: Sand und Hand, Schwamm und Lamm, Haus und Zitrone, Hahn und Kahn, Bank und Kuh, Rose und Dose, Kreis und Eis, Lauch und Rakete. Lösen Sie das erste Feld zusammen.",
+  "stuck": "Sprechen Sie die beiden Wörter mit dem Kind deutlich nacheinander und fragen Sie: „Klingt das Ende gleich?“ Zur Kontrolle auf dem Blatt für alle: Es reimen sich die Paare 1, 2, 4, 6 und 7; die Paare 3, 5 und 8 reimen sich nicht."
+ },
+ "1:opposites / G1-336": {
+  "say": "„Oben stehen zwölf Wörter. Immer zwei davon sind Gegenteile, so wie groß und klein. Sucht die Paare und schreibt sie auf: ein Wort links vom Pfeil, sein Gegenteil rechts.“",
+  "first": "Lesen Sie die zwölf Wörter gemeinsam. Suchen Sie das erste Paar zusammen: „Was ist das Gegenteil von nass?“ Schreiben Sie nass und trocken an die Tafel, eines links und eines rechts von einem Pfeil. Die Kinder streichen oben jedes Wort durch, das sie aufgeschrieben haben.",
+  "stuck": "Lesen Sie dem Kind ein Wort vor und bilden Sie einen Satz dazu: „Die Schnecke ist langsam, der Hase ist …?“ Zur Kontrolle auf dem Blatt für alle: glatt und rau, dünn und dick, nass und trocken, langsam und schnell, kurz und lang, sauer und süß."
+ },
+ "1:read-and-follow / G1-251": {
+  "say": "„Jetzt wird gelesen. In jedem Feld steht ein Satz. Er sagt euch, welche Tiere ihr anmalen sollt, wie viele und in welcher Farbe. Lest genau und malt nur das an, was im Satz steht.“",
+  "first": "Vergewissern Sie sich, dass alle die vier Farben haben, die oben auf dem Blatt stehen. Lesen Sie den ersten Satz gemeinsam. Fragen Sie: „Welche Tiere? Wie viele? Welche Farbe?“ Malen Sie gemeinsam an. Die anderen drei Sätze lesen die Kinder allein.",
+  "stuck": "Das Kind liest den Satz laut und unterstreicht die Zahl und die Farbe. In jedem Feld sind auch andere Tiere; angemalt werden nur die, die der Satz nennt."
+ },
+ "1:unscramble-sentence / G1-249": {
+  "say": "„Hier sind die Wörter durcheinandergeraten. Ordnet sie zu einem Satz und schreibt ihn auf die Linie. Ein Satz beginnt mit einem großen Buchstaben und hört mit einem Satzzeichen auf.“",
+  "first": "Schreiben Sie die vier Wörter des ersten Satzes durcheinander an die Tafel. Fragen Sie: „Um wen geht es? Was tut er?“ Bauen Sie den Satz gemeinsam: Paul zählt die Eulen. Zeigen Sie auf den großen Anfangsbuchstaben und den Punkt. Sagen Sie dazu: Einer der Sätze ist eine Frage.",
+  "stuck": "Das Kind sucht zuerst den Satzanfang: Das ist der Name des Kindes oder das kleine Wort, das großgeschrieben ist (Wo, Die). Dann spricht es den Satz laut, bevor es schreibt. Zur Kontrolle auf dem Blatt für alle: Paul zählt die Eulen. Wo sind die Fledermäuse? Die Giraffen sind bunt. Mia sucht die Jaguare."
+ },
+ "1:alphabetical-order / G1-426": {
+  "say": "„Der kleine Bär möchte zum Honig. Er hüpft im ABC von Wabe zu Wabe. Ihr beginnt in der Wabe, auf die der Pfeil zeigt, und malt immer den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis ihr beim T seid.“",
+  "first": "Sagen Sie mit der Klasse das Abc auf. Zeigen Sie am hochgehaltenen Blatt die Wabe am Pfeil und fragen Sie: „Welcher Buchstabe steht hier? Welcher kommt im Abc danach?“ Suchen Sie ihn in einer Wabe direkt daneben und malen Sie ihn gemeinsam aus.",
+  "stuck": "Das Kind sagt das Abc leise bis zu dem Buchstaben, bei dem es gerade ist, und spricht einen weiter. Es schaut nur die Waben an, die seine Wabe berühren. Wer das Abc nicht sicher kann, schreibt es sich zuerst an den Blattrand."
+ },
+ "2:hundreds-chart-moves / G2-321": {
+  "say": "„Das ist ein Sprungrätsel auf der Hundertertafel. Jeder Pfeil verändert die Zahl: nach oben 10 weniger, nach unten 10 mehr, nach links 1 weniger, nach rechts 1 mehr. Folgt den drei Pfeilen und schreibt auf, wo ihr landet.“",
+  "first": "Lesen Sie die Pfeilregeln oben auf dem Blatt gemeinsam. Lösen Sie das erste Rätsel an der Tafel, Pfeil für Pfeil, und schreiben Sie nach jedem Pfeil die Zahl auf: „30, eins weniger ist 29, zehn mehr ist 39, eins weniger ist 38.“",
+  "stuck": "Das Kind schreibt über jeden Pfeil die neue Zahl, bevor es zum nächsten geht. Hängt eine Hundertertafel im Raum, legt es den Finger auf die Startzahl und geht für jeden Pfeil ein Feld weiter. Zur Kontrolle auf dem Blatt für alle: 38, 77, 21, 74, 25, 97, 31, 90."
+ },
+ "1:one-ten-more-less / G1-132": {
+  "say": "„In der Mitte steht eine Zahl. Links schreibt ihr die Zahl, die 10 weniger ist. Rechts schreibt ihr die Zahl, die 10 mehr ist.“",
+  "first": "Rechnen Sie die erste Zeile an der Tafel. Fragen Sie: „Zehn mehr als 36. Welche Ziffer ändert sich, der Zehner oder der Einer?“ Zeigen Sie: Nur der Zehner ändert sich, 26, 36, 46. Zählen Sie gemeinsam in Zehnerschritten von einer anderen Zahl aus, zum Beispiel 7, 17, 27, 37.",
+  "stuck": "Das Kind deckt den Einer mit dem Finger ab und verändert nur den Zehner um eins. Auf der Hundertertafel steht die Zahl direkt darüber für 10 weniger, die Zahl direkt darunter für 10 mehr. Zur Kontrolle auf dem Blatt für alle: 26 und 46, 25 und 45, 55 und 75, 14 und 34, 47 und 67, 37 und 57."
+ },
+ "2:skip-count-5-10-100 / G2-314": {
+  "say": "„Auf diesem Blatt versteckt sich ein Tier. Ihr verbindet die Punkte in Zehnerschritten: von der 10 zur 20, dann zur 30 und immer so weiter bis zur 100. Los geht es am orangen Punkt.“",
+  "first": "Zählen Sie mit der Klasse laut in Zehnerschritten von 10 bis 100. Suchen Sie gemeinsam den orangen Punkt bei der 10 und ziehen Sie den ersten Strich zur 20. Die Zahlenreihe unten auf dem Blatt zeigt die Reihenfolge.",
+  "stuck": "Das Kind nennt die Zahl, bei der es gerade ist, und rechnet zehn dazu: Diesen Punkt sucht es. Es kann die Zahlen in der Reihe unten nacheinander abhaken."
+ },
+ "2:skip-count-5-10-100 / G2-392": {
+  "say": "„Der Heißluftballon möchte zum Regenbogen. Er fliegt von Wolke zu Wolke, aber nur in Fünferschritten: 5, 10, 15 und immer so weiter bis 100. Zeichnet seinen Weg ein.“",
+  "first": "Zählen Sie mit der Klasse laut in Fünferschritten bis 100. Suchen Sie gemeinsam den Ballon und die Wolke mit der 5 und ziehen Sie den Strich zur 10. Sagen Sie den Kindern: Manche Zahlen stehen mehrmals auf dem Blatt; richtig ist nur die Wolke, die am Weg liegt.",
+  "stuck": "Das Kind nennt die Zahl, bei der es gerade ist, rechnet fünf dazu und schaut nur die Wolken an, die von dort aus erreichbar sind. Endet der Weg, geht es zur letzten Wolke zurück und sucht dieselbe Zahl an einer anderen Stelle."
+ },
+ "2:add-sub-within-100-practice / G2-313": {
+  "say": "„Das sind Zahlenmauern mit vier Reihen. Die Regel kennt ihr: Zwei Steine nebeneinander ergeben zusammen den Stein darüber. Die Zahlen werden größer als 20, deshalb dürft ihr schriftlich nebenher rechnen.“",
+  "first": "Zeichnen Sie die erste Mauer an die Tafel. Rechnen Sie die zweite Reihe gemeinsam aus und lassen Sie die Kinder dann allein weiterbauen. Erinnern Sie daran, bei den größeren Zahlen erst die Zehner und dann die Einer zu rechnen.",
+  "stuck": "Legen Sie zwei Finger auf die beiden Steine unter dem leeren Stein; das Kind rechnet diese beiden auf einem Schmierzettel zusammen. Ein Fehler unten macht alle Steine darüber falsch, deshalb von unten nach oben prüfen. Zur Kontrolle auf dem Blatt für alle: Die Decksteine sind 60, 70, 46 und 49."
+ },
+ "2:shopping-money / G2-291": {
+  "say": "„Oben seht ihr ein Regal mit fünf Spielsachen und ihren Preisen. Jede Aufgabe zeigt, was ein Kind kauft. Sucht die Preise im Regal, rechnet sie zusammen und schreibt den Gesamtpreis auf.“",
+  "first": "Lesen Sie die fünf Preise im Regal gemeinsam. Lösen Sie die erste Aufgabe zusammen: Die beiden Spielsachen im Regal suchen, ihre Preise in das Rechenfeld schreiben, zusammenrechnen und das Ergebnis vor „ct“ in das Kästchen schreiben.",
+  "stuck": "Das Kind kreist die beiden Spielsachen im Regal ein, schreibt die Preise untereinander und rechnet erst die Zehner, dann die Einer. Gemalte Zehner- und Einermünzen helfen. Zur Kontrolle auf dem Blatt für alle: 60 ct, 70 ct und 60 ct."
+ },
+ "2:equal-groups-times / G2-209": {
+  "say": "„In jedem Ring liegen gleich viele Formen. Zählt, wie viele in einem Ring sind. Dann rechnet ihr die Plusaufgabe darunter aus: immer wieder dieselbe Zahl.“",
+  "first": "Zeichnen Sie die erste Aufgabe an die Tafel. Fragen Sie: „Wie viele Ringe? Wie viele in jedem Ring?“ Lesen Sie die Plusaufgabe vor und rechnen Sie in Schritten: 4, 8, 12, 16. Sagen Sie es auch als Malaufgabe: „4 Ringe mit je 4, das sind 4 mal 4.“",
+  "stuck": "Das Kind tippt jeden Ring an und zählt in Schritten weiter. Alle Formen einzeln zu zählen ist als Kontrolle erlaubt. Zur Kontrolle auf dem Blatt für alle: 16, 12, 9, 6."
+ },
+ "3:times-tables / G3-364": {
+  "say": "„Heute übt ihr das Einmaleins mit der 2. Rechnet jede Malaufgabe und schreibt das Ergebnis in das Kästchen. Wer eine Aufgabe nicht auswendig weiß, verdoppelt einfach die erste Zahl.“",
+  "first": "Sagen Sie mit der Klasse die Zweierreihe auf: 2, 4, 6 bis 20. Rechnen Sie zwei Aufgaben an der Tafel und zeigen Sie den Trick: 7 mal 2 ist das Doppelte von 7.",
+  "stuck": "Das Kind zählt in Zweierschritten und nimmt für jeden Schritt einen Finger: bei 6 mal 2 sechs Finger. Zur Kontrolle auf dem Blatt für alle: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20."
+ },
+ "2:share-and-group / G2-216": {
+  "say": "„Gerecht teilen heißt: Jede Kiste bekommt gleich viel. Verteilt die Dinge auf die Kisten, eins nach dem anderen. Dann schreibt ihr hinter die Geteiltaufgabe, wie viele in einer Kiste sind.“",
+  "first": "Lösen Sie die erste Aufgabe an der Tafel: Zählen Sie die Dinge (10) und die Kisten (2). Verteilen Sie zeichnend: ein Ding durchstreichen und einen Punkt in die erste Kiste malen, dann in die zweite, und so reihum, bis alles verteilt ist. Zählen Sie die Punkte in einer Kiste und schreiben Sie das Ergebnis hinter „10 : 2 =“.",
+  "stuck": "Das Kind streicht jedes Ding durch, sobald sein Punkt gemalt ist, und gibt jeder Kiste einen Punkt, bevor eine Kiste den nächsten bekommt. Am Ende müssen in allen Kisten gleich viele Punkte sein. Zur Kontrolle auf dem Blatt für alle: 5, 5, 4, 2."
+ },
+ "2:time-5-min-quarter / G2-250": {
+  "say": "„Alle Uhren auf diesem Blatt zeigen eine Viertelstunde: Der große Zeiger steht auf der 3 oder auf der 9. Lest jede Uhr ab und kreist die passende Uhrzeit ein.“",
+  "first": "Zeichnen Sie eine Uhr an die Tafel. Zeigen Sie, wo der große Zeiger steht: auf der 3 für 15 Minuten (Viertel nach), auf der 9 für 45 Minuten (Viertel vor). Lesen Sie die erste Uhr gemeinsam ab: erst der kleine Zeiger für die Stunde, dann der große für die Minuten.",
+  "stuck": "Fragen Sie: „An welcher Zahl ist der kleine Zeiger gerade vorbei?“ Das ist die Stunde, auch wenn er schon fast bei der nächsten Zahl steht. Zur Kontrolle auf dem Blatt für alle: 11:15, 1:45, 2:45 und 8:45. Je nach Gegend sagen die Kinder „Viertel vor zwei“ oder „drei viertel zwei“; beides ist richtig."
+ },
+ "2:symmetry-complete / G2-266": {
+  "say": "„Jedes Bild auf diesem Blatt ist nur halb fertig. Die gestrichelte Linie ist die Spiegelachse. Malt auf der leeren Seite die Kästchen so an, dass beide Seiten genau gleich aussehen, wie im Spiegel.“",
+  "first": "Machen Sie die erste Reihe des ersten Bildes gemeinsam: Zählen Sie von der Spiegelachse aus, wie viele Kästchen in dieser Reihe angemalt sind, und malen Sie auf der anderen Seite genauso viele an, wieder von der Achse aus. Die Kinder arbeiten Reihe für Reihe von oben nach unten.",
+  "stuck": "Das Kind legt den Finger in einer Reihe auf die Spiegelachse und zählt die bunten Kästchen von der Achse weg, dann dieselbe Anzahl auf der anderen Seite. Ein Kästchen direkt an der Achse hat sein Partnerkästchen direkt an der Achse."
+ }
+}

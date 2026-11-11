@@ -1,0 +1,693 @@
+{
+ "$comment": "The sub packs of this language: ONE 45-minute lesson of REVIEW for one subject, one school year and one time of year (form 'lesson'). WRITTEN by scripts/sub-plans/lists/build-de-defs.js (edit the lists there). Everything else is filled by scripts/sub-plans/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere.",
+ "packs": [
+  {
+   "id": "m1-early",
+   "slug": "vertretungsstunde-mathe-klasse-1-schuljahresanfang",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 1: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 1: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 1 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-294"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-006"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-008"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-046"
+    }
+   ]
+  },
+  {
+   "id": "m1-middle",
+   "slug": "vertretungsstunde-mathe-klasse-1-schuljahresmitte",
+   "status": "live",
+   "grade": "1",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 1: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 1: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 1 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-214"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:add-within-10-models",
+     "type": "G1-110"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "1:number-walls",
+     "type": "G1-266"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:make-10",
+     "type": "G1-427"
+    }
+   ]
+  },
+  {
+   "id": "m1-late",
+   "slug": "vertretungsstunde-mathe-klasse-1-schuljahresende",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 1: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 1: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 1 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-240"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-148"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:count-on-back-hops",
+     "type": "G1-294"
+    }
+   ]
+  },
+  {
+   "id": "d1-early",
+   "slug": "vertretungsstunde-deutsch-klasse-1-schuljahresanfang",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 1: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 1: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 1 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-244"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:count-syllables",
+     "type": "K-233"
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "G1-429"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:category-odd-one-out",
+     "type": "K-043"
+    }
+   ]
+  },
+  {
+   "id": "d1-middle",
+   "slug": "vertretungsstunde-deutsch-klasse-1-schuljahresmitte",
+   "status": "live",
+   "grade": "1",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 1: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 1: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 1 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:letter-formation",
+     "type": "K-238"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-331"
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "1:spell-picture-words",
+     "type": "G1-258"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-352"
+    }
+   ]
+  },
+  {
+   "id": "d1-late",
+   "slug": "vertretungsstunde-deutsch-klasse-1-schuljahresende",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 1: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 1: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 1 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:phoneme-boxes",
+     "type": "G1-314"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "1:read-and-follow",
+     "type": "G1-251"
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "1:unscramble-sentence",
+     "type": "G1-249"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:opposites",
+     "type": "G1-336"
+    }
+   ]
+  },
+  {
+   "id": "m2-early",
+   "slug": "vertretungsstunde-mathe-klasse-2-schuljahresanfang",
+   "status": "live",
+   "grade": "2",
+   "position": "early",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 2: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 2: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 2 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-217"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:number-walls",
+     "type": "G1-267"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "1:doubles-halves",
+     "type": "G1-271"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-314"
+    }
+   ]
+  },
+  {
+   "id": "m2-middle",
+   "slug": "vertretungsstunde-mathe-klasse-2-schuljahresmitte",
+   "status": "live",
+   "grade": "2",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 2: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 2: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 2 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-321"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "2:shopping-money",
+     "type": "G2-291"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-392"
+    }
+   ]
+  },
+  {
+   "id": "m2-late",
+   "slug": "vertretungsstunde-mathe-klasse-2-schuljahresende",
+   "status": "live",
+   "grade": "2",
+   "position": "late",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 2: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 2: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 2 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-364"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:share-and-group",
+     "type": "G2-216"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-complete",
+     "type": "G2-266"
+    }
+   ]
+  },
+  {
+   "id": "d2-early",
+   "slug": "vertretungsstunde-deutsch-klasse-2-schuljahresanfang",
+   "status": "live",
+   "grade": "2",
+   "position": "early",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 2: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 2: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 2 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:alphabetical-order",
+     "type": "G1-245"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:sentence-boundaries",
+     "type": "G2-274"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "1:opposites",
+     "type": "G1-307"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "d2-middle",
+   "slug": "vertretungsstunde-deutsch-klasse-2-schuljahresmitte",
+   "status": "live",
+   "grade": "2",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 2: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 2: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 2 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:question-words",
+     "type": "G2-356"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "1:synonyms",
+     "type": "G1-395"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-423"
+    }
+   ]
+  },
+  {
+   "id": "d2-late",
+   "slug": "vertretungsstunde-deutsch-klasse-2-schuljahresende",
+   "status": "live",
+   "grade": "2",
+   "position": "late",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 2: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 2: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 2 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:root-words",
+     "type": "G2-375"
+    },
+    {
+     "key": "reading",
+     "minutes": 10,
+     "point": "2:read-and-answer",
+     "type": "G2-254"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:describe-a-picture",
+     "type": "G2-299"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:find-differences",
+     "type": "G2-388"
+    }
+   ]
+  },
+  {
+   "id": "m3-early",
+   "slug": "vertretungsstunde-mathe-klasse-3-schuljahresanfang",
+   "status": "live",
+   "grade": "3",
+   "position": "early",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 3: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 3: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 3 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "2:shopping-money",
+     "type": "G2-292"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-207"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:magic-squares",
+     "type": "G3-349"
+    }
+   ]
+  },
+  {
+   "id": "m3-middle",
+   "slug": "vertretungsstunde-mathe-klasse-3-schuljahresmitte",
+   "status": "live",
+   "grade": "3",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 3: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 3: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 3 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-358"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:mult-div-relationship",
+     "type": "G3-311"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-371"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-326"
+    }
+   ]
+  },
+  {
+   "id": "m3-late",
+   "slug": "vertretungsstunde-mathe-klasse-3-schuljahresende",
+   "status": "live",
+   "grade": "3",
+   "position": "late",
+   "form": "lesson",
+   "subject": "math",
+   "title": "Vertretungsstunde Mathe Klasse 3: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Mathe Klasse 3: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Mathe für Klasse 3 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:input-output",
+     "type": "G3-328",
+     "level": "hard"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-359"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "3:time-to-minute",
+     "type": "G3-354"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:grid-coordinates",
+     "type": "G2-303"
+    }
+   ]
+  },
+  {
+   "id": "d3-early",
+   "slug": "vertretungsstunde-deutsch-klasse-3-schuljahresanfang",
+   "status": "live",
+   "grade": "3",
+   "position": "early",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 3: Schuljahresanfang",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 3: Material für den Schuljahresanfang",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 3 zum Schuljahresanfang: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:word-classes",
+     "type": "G2-285"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-269",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "2:synonyms",
+     "type": "G2-373"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-424"
+    }
+   ]
+  },
+  {
+   "id": "d3-middle",
+   "slug": "vertretungsstunde-deutsch-klasse-3-schuljahresmitte",
+   "status": "live",
+   "grade": "3",
+   "position": "middle",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 3: Schuljahresmitte",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 3: Material für die Schuljahresmitte",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 3 zur Schuljahresmitte: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:word-fields",
+     "type": "G3-397"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-270",
+     "level": "hard"
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "2:question-words",
+     "type": "G2-357"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:synonyms~doing-stage",
+     "type": "G2-374"
+    }
+   ]
+  },
+  {
+   "id": "d3-late",
+   "slug": "vertretungsstunde-deutsch-klasse-3-schuljahresende",
+   "status": "live",
+   "grade": "3",
+   "position": "late",
+   "form": "lesson",
+   "subject": "literacy",
+   "title": "Vertretungsstunde Deutsch Klasse 3: Schuljahresende",
+   "metaTitle": "Vertretungsstunde Deutsch Klasse 3: Material für das Schuljahresende",
+   "metaDescription": "Vertretungsstunde Deutsch für Klasse 3 zum Schuljahresende: 4 Arbeitsblätter zur Wiederholung für 45 Minuten, mit Ablauf und Hinweisen für die Vertretung.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:root-words-in-context",
+     "type": "G3-399"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-271",
+     "level": "hard"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:describe-a-picture",
+     "type": "G2-300"
+    },
+    {
+     "key": "closing",
+     "minutes": 5,
+     "point": "1:mazes",
+     "type": "G1-425"
+    }
+   ]
+  }
+ ]
+}

@@ -24,7 +24,7 @@
    "title": "Verliebte Zahlen: zusammen 10",
    "objective": "Die Kinder finden zu einer Zahl die Partnerzahl, mit der sie zusammen 10 ergibt, und kennen die Zahlenpaare der 10.",
    "note": {
-    "mistake": "Die Kinder wissen 5 + 5 und 9 + 1, zählen aber bei den anderen Paaren von 1 an. Viele sehen nicht, dass 3 + 7 und 7 + 3 dasselbe Paar sind.",
+    "mistake": "Die Kinder wissen 5 + 5 und 9 + 1, zählen bei den anderen Paaren aber die leeren Felder einzeln ab oder zählen mit den Fingern bis 10 weiter. Viele sehen nicht, dass 3 + 7 und 7 + 3 dasselbe Zahlenpaar sind.",
     "words": "Frage: „Welche Zahl passt zu 6, damit es 10 sind?“ Nenne die beiden Zahlen „verliebte Zahlen“ oder „Partnerzahlen der 10“. Am Zehnerfeld: „Sechs Felder sind voll. Wie viele sind noch leer?“ Für 3 + 7 und 7 + 3 sag „Tauschaufgabe“.",
     "watch": "Wer liest die Antwort an den leeren Feldern ab, ohne die vollen noch einmal zu zählen? Diese Kinder gehen weiter zum Rechenlabyrinth; die anderen bleiben beim Zehnerfeld."
    }
@@ -35,7 +35,7 @@
    "note": {
     "mistake": "Die Kinder zählen die Startzahl als ersten Hüpfer mit, deshalb landen sie bei 5 + 3 auf der 7. Beim Rückwärtszählen landen sie aus demselben Grund eine Zahl zu hoch.",
     "words": "Sag: „Lege den Finger auf die 5 und sage fünf. Jetzt hüpfe dreimal und zähle beim Landen: sechs, sieben, acht.“ Sag „vorwärts hüpfen“ für plus und „rückwärts hüpfen“ für minus.",
-    "watch": "Achte auf den ersten Hüpfer. Wer die Startzahl beim Loshüpfen mitspricht, landet eine Zahl zu kurz. Lass das Kind jeden Hüpfer als Bogen zeichnen und die Bögen zählen, nicht die Striche: drei Bögen für + 3."
+    "watch": "Achte auf den ersten Hüpfer. Wer die Startzahl beim Loshüpfen mitspricht, landet eine Zahl zu kurz. Lass das Kind jeden Hüpfer als Bogen zeichnen und die Bögen zählen, nicht die Striche: drei Bögen für + 3. Das Hüpfen in Einerschritten ist nur eine Brücke: Wer sicher ist, macht aus drei kleinen Hüpfern einen großen Sprung („von der 5 drei weiter zur 8“)."
    }
   },
   "1:fact-families": {
@@ -44,7 +44,7 @@
    "note": {
     "mistake": "Die Kinder schreiben 3 + 7 = 10 und 7 + 3 = 10 leicht hin, dann aber 3 − 7 = 10 oder 7 − 10 = 3: Sie schieben die Zahlen herum und überlegen nicht, welche das Ganze ist.",
     "words": "Frage: „Welche Zahl ist das Ganze? Welche zwei sind die Teile?“ Dann: „Die Teile zusammen ergeben das Ganze. Das Ganze minus ein Teil ergibt den anderen Teil.“ Nenne 3 + 7 und 7 + 3 „Tauschaufgaben“ und 10 − 7 die „Umkehraufgabe“.",
-    "watch": "Prüfe, ob jede Minusaufgabe mit dem Ganzen beginnt. Wenn nicht, lege die drei Zahlen noch einmal als Zahlenhaus mit Plättchen, decken einen Teil ab und fragen, was übrig bleibt."
+    "watch": "Prüfe, ob jede Minusaufgabe mit dem Ganzen beginnt. Wenn nicht, lege das Ganze mit Plättchen, decke einen Teil ab und frage, was übrig bleibt."
    }
   },
   "1:missing-number-equations": {
@@ -62,14 +62,14 @@
    "note": {
     "mistake": "Die Kinder suchen die zwei Zahlen heraus und zählen sie zusammen, egal was die Geschichte erzählt, oder sie achten nur auf ein Wort wie „mehr“ und wählen danach das Rechenzeichen.",
     "words": "Frage: „Was passiert in der Geschichte? Kommt etwas dazu oder geht etwas weg?“ Lass das Kind die Geschichte nacherzählen, bevor eine Zahl geschrieben wird. Dann: „Schreibe die Aufgabe, die die Geschichte erzählt.“ Die Seite hat nur ein Kästchen für die Antwort; die Aufgabe schreiben die Kinder neben das Bild.",
-    "watch": "Höre beim Nacherzählen zu. Ein Kind, das die Geschichte mit Plättchen spielen kann und trotzdem das falsche Zeichen schreibt, braucht die Verbindung von der Handlung zum Zeichen, nicht noch mehr Zählen."
+    "watch": "Lies die Geschichten vor, solange die Kinder noch nicht sicher lesen, und höre beim Nacherzählen zu. Ein Kind, das die Geschichte mit Plättchen spielen kann und trotzdem das falsche Zeichen schreibt, braucht die Verbindung von der Handlung zum Zeichen, nicht noch mehr Zählen."
    }
   },
   "1:fluency-within-20": {
    "title": "Kopfrechnen bis 10",
    "objective": "Die Kinder rechnen plus und minus bis 10, ohne jedes Mal zu zählen: Sie nutzen Aufgaben, die sie auswendig wissen, und leiten andere davon ab.",
    "note": {
-    "mistake": "Die Kinder zählen jede Aufgabe von 1 an, sogar 5 + 1 oder 4 + 4, weil Zählen bisher immer zum richtigen Ergebnis geführt hat. Wenn es schnell gehen soll, hören sie auf zu zählen und raten.",
+    "mistake": "Die Kinder zählen bei jeder Aufgabe alles von 1 an ab, sogar bei 5 + 1 oder 4 + 4, weil Zählen bisher immer zum richtigen Ergebnis geführt hat. Wenn es schnell gehen soll, hören sie auf zu zählen und raten.",
     "words": "Frage: „Welche Aufgaben weißt du einfach? Welche kannst du dir aus einer Aufgabe herleiten, die du weißt?“ Zum Beispiel: „Ich weiß 4 + 4, dann ist 4 + 5 eins mehr. Das ist die Nachbaraufgabe.“",
     "watch": "Notiere, bei welchen Aufgaben ein Kind noch zählt. Wer die meisten zählt, bekommt die leichtere Seite zum Üben; schreibe die Aufgaben in die Klassenliste, damit du weißt, worauf du zurückkommst. Diese Seite wird nicht auf Zeit gerechnet."
    }
@@ -80,21 +80,21 @@
    "note": {
     "mistake": "Die Kinder meinen, Verdoppeln heißt 2 dazu: Das Doppelte von 6 wird 8. Beim Halbieren nehmen sie etwas weg und prüfen nicht, ob beide Teile gleich sind: Die Hälfte von 10 wird 4 und 6.",
     "words": "Sag: „Das Doppelte heißt: dasselbe noch einmal. Sechs und noch einmal sechs.“ Mit beiden Händen: „Zeige mir 4 an jeder Hand.“ Zur Hälfte: „Halbieren heißt: zwei GLEICHE Teile. Eins für dich, eins für mich, bis nichts mehr da ist. Sind beide Teile gleich?“",
-    "watch": "Wer weiß die Verdopplungen bis 5 + 5 auswendig, und wer zählt noch jedes Bild? Die Seite geht bis 7 + 7. Kinder, die zählen, legen jede Verdopplung mit zwei Händen oder in zwei Reihen im Zehnerfeld und sprechen dazu: „4 und 4 ist 8.“ Auf der Seite zum Halbieren müssen die beiden Zahlen eines Kindes gleich sein."
+    "watch": "Wer weiß die Verdopplungen bis 5 + 5 auswendig, und wer zählt noch jedes Bild? Das Arbeitsblatt geht bis 7 + 7. Kinder, die zählen, zeigen die Verdopplungen bis 5 + 5 mit beiden Händen und legen die größeren mit Plättchen in zwei gleich langen Reihen im Zwanzigerfeld; dazu sprechen sie: „6 und 6 ist 12.“ Beim Halbieren müssen die beiden Zahlen, die ein Kind aufschreibt, gleich sein."
    }
   },
   "1:odd-even-pairs": {
    "title": "Gerade und ungerade Zahlen",
    "objective": "Die Kinder zählen eine Menge in Paaren oder teilen sie abwechselnd an zwei Kinder aus und sagen, ob die Anzahl gerade oder ungerade ist.",
    "note": {
-    "mistake": "Die Kinder entscheiden danach, wie die Zahl aussieht („11 ist gerade, weil sie zwei Einsen hat“), und lassen das Paaren weg. Beim Aufteilen vergessen sie, das übrige Bild aufzuschreiben, oder geben es einem der beiden Kinder.",
-    "words": "Frage: „Können zwei Kinder gerecht teilen? Bleibt eins übrig?“ Sag: „Gerade Zahlen gehen auf. Bei ungeraden Zahlen bleibt eins übrig.“ Verbinde es mit dem Verdoppeln: „8 ist 4 und 4. Jede gerade Zahl ist ein Doppeltes.“ Beim Einkreisen zählen die Kinder in Zweierschritten: „2, 4, 6 … und eins dazu sind 7.“",
+    "mistake": "Die Kinder entscheiden danach, wie die Zahl aussieht („11 ist gerade, weil sie zwei Einsen hat“), und lassen das Paaren weg. Beim Verteilen an zwei Kinder vergessen sie, das übrige Bild aufzuschreiben, oder geben es einem der beiden Kinder.",
+    "words": "Frage: „Können zwei Kinder gerecht teilen? Bleibt eins übrig?“ Sag: „Bei geraden Zahlen geht es auf. Bei ungeraden Zahlen bleibt eins übrig.“ Verbinde es mit dem Verdoppeln: „8 ist 4 und 4. Jede gerade Zahl ist das Doppelte einer Zahl.“ Beim Einkreisen zählen die Kinder in Zweierschritten: „2, 4, 6 … und eins dazu sind 7.“",
     "watch": "Achte darauf, wer die Regel an der Einerstelle entdeckt: Zahlen mit 0, 2, 4, 6 oder 8 am Ende sind gerade. Lass die Kinder die Regel an ihren eigenen Seiten finden, bevor du sie aussprichst."
    }
   },
   "1:add-three-addends": {
    "title": "Drei Gruppen addieren",
-   "objective": "Die Kinder addieren drei Gruppen von Bildern und schreiben das Ergebnis auf; sie rechnen zuerst zwei Zahlen zusammen, die gut zueinander passen.",
+   "objective": "Die Kinder addieren drei Gruppen von Bildern und schreiben das Ergebnis auf; im Gespräch lernen sie, zuerst zwei Zahlen zusammenzurechnen, die gut zueinander passen.",
    "note": {
     "mistake": "Die Kinder rechnen die ersten beiden Gruppen zusammen, schreiben diese Zahl auf und vergessen die dritte. Oder sie zählen jedes Bild von 1 an und nutzen nie eine Aufgabe, die sie wissen, etwa eine Verdopplung oder ein Paar, das 10 ergibt.",
     "words": "Sag: „Drei Gruppen. Rechne erst zwei zusammen, dann die dritte dazu.“ Frage: „Welche zwei passen gut zusammen? Siehst du ein Doppeltes? Siehst du verliebte Zahlen?“ Zeige, dass man wählen darf: „4 + 3 + 6. Ich rechne zuerst 4 und 6. Das sind 10. Und 3 dazu sind 13.“",
@@ -112,20 +112,20 @@
   },
   "1:tens-and-ones": {
    "title": "Zehner und Einer",
-   "objective": "Die Kinder lesen eine zweistellige Zahl ab, die mit Zehnerstangen und Einerwürfeln gelegt ist, und wählen die Blöcke aus, die eine Zahl zeigen.",
+   "objective": "Die Kinder lesen eine zweistellige Zahl ab, die mit Zehnerstangen und Einerwürfeln gelegt ist, und kreisen das Material ein, das zu einer Zahl passt.",
    "note": {
-    "mistake": "Die Kinder zählen jede Stange als 1, dann sind 3 Stangen und 4 Würfel 7. Oder sie schreiben die Ziffern so, wie man die Zahl spricht: Bei „vierunddreißig“ hören sie die Vier zuerst und schreiben 43. Dieser Zahlendreher ist im Deutschen der häufigste Fehler.",
+    "mistake": "Die Kinder zählen jede Stange als 1, dann sind 3 Stangen und 4 Würfel 7. Oder sie schreiben die Ziffern in der Reihenfolge, in der man die Zahl spricht: Bei „vierunddreißig“ hören sie die Vier zuerst und schreiben 43. Solche Zahlendreher gehören im Deutschen zu den häufigsten Fehlern bei zweistelligen Zahlen.",
     "words": "Zähle die Stangen in Zehnerschritten und die Würfel einzeln: „10, 20, 30 … 31, 32, 33, 34.“ Sag: „3 Zehner und 4 Einer. Wir sprechen vierunddreißig: die Einer zuerst. Aber wir schreiben die Zehner zuerst: 3, dann 4.“ Frage: „Was bedeutet die 3 in 34?“ (Drei Zehner, also dreißig; nicht drei.)",
-    "watch": "Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Einern; dort verzählen sich Kinder. Lass ein Kind, das Zahlen dreht, erst die Zehner schreiben, dann die Einer, und die Zahl danach laut lesen. Prüfe Zahlen wie 40: Wer für vier Stangen nur 4 schreibt, hat die Null vergessen, die den Platz der Einer hält."
+    "watch": "Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Einern; dort verzählen sich Kinder. Lass ein Kind, das Zahlendreher schreibt, erst die Zehner schreiben, dann die Einer, und die Zahl danach laut lesen. Prüfe Zahlen wie 40: Wer für vier Stangen nur 4 schreibt, hat die Null vergessen, die den Platz der Einer hält."
    }
   },
   "1:number-words": {
-   "title": "Zahlwörter: vierzehn oder vierzig?",
-   "objective": "Die Kinder lesen Zahlen und ordnen ihnen das passende Zahlwort zu, bis zwanzig und bei den Zehnerzahlen bis hundert.",
+   "title": "Zahlwörter bis zwanzig",
+   "objective": "Die Kinder lesen die Zahlen bis 20 und ordnen jeder Zahl das passende Zahlwort zu.",
    "note": {
-    "mistake": "Die Kinder verwechseln die Wörter auf -zehn mit den Wörtern auf -zig: dreizehn und dreißig, vierzehn und vierzig. Elf und zwölf werden geraten, weil man in ihnen keine Zehn hört. Sechzehn und siebzehn lesen viele als „sechszehn“ und „siebenzehn“.",
-    "words": "Sprich die Endungen deutlich: „Vier-ZEHN ist eine Zehn und vier. Vier-ZIG sind vier Zehner.“ Frage: „Hört das Wort mit -zehn auf oder mit -zig?“ Die Kinder unterstreichen die Endung, bevor sie einkreisen. Besprich die besonderen Wörter gemeinsam: elf, zwölf, sechzehn, siebzehn, dreißig mit ß.",
-    "watch": "Höre zu, wenn ein Kind die Auswahl laut liest. Wer „vierzig“ für vierzehn liest, schaut nur auf den Wortanfang; decke den Anfang mit dem Finger ab und lies zuerst die Endung. Prüfe zwanzig und dreißig: Sie sehen nicht aus wie „zwei“ und „drei“."
+    "mistake": "Die Kinder raten elf und zwölf, weil man in ihnen keine Zehn hört. Bei den Wörtern auf -zehn schauen sie nur auf den Anfang und verwechseln dreizehn und dreißig oder vierzehn und vierzig, sobald beide zur Auswahl stehen.",
+    "words": "Sprich die Endung deutlich: „Vier-ZEHN ist ein Zehner und vier Einer.“ Frage: „Welche Zahl steckt vorn im Wort? Was sagt das Ende?“ Die Kinder unterstreichen die Endung, bevor sie einkreisen. Besprich die besonderen Wörter gemeinsam: elf, zwölf, sechzehn (ohne s), siebzehn (ohne en), zwanzig.",
+    "watch": "Höre zu, wenn ein Kind die Auswahl laut liest. Wer bei vierzehn nur „vier“ liest, schaut auf den Wortanfang; decke den Anfang mit dem Finger ab und lies zuerst die Endung. Prüfe elf, zwölf und zwanzig: Sie lassen sich nicht aus kleinen Zahlwörtern zusammensetzen."
    }
   },
   "1:compare-order-two-digit": {
@@ -139,10 +139,10 @@
   },
   "1:number-of-the-day": {
    "title": "Zahl des Tages",
-   "objective": "Die Kinder zeigen eine Zahl auf viele Arten: mit Zehnern und Einern, im Zehnerfeld, als Strichliste, als Zahlwort und mit 10 mehr und 10 weniger.",
+   "objective": "Die Kinder zeigen eine Zahl von 11 bis 19 auf mehrere Arten: als Zehner und Einer, im Zehnerfeld und als Strichliste.",
    "note": {
     "mistake": "Die Kinder füllen jedes Kästchen als eigene Aufgabe aus und merken nicht, wenn zwei Kästchen sich widersprechen: 15 bei Zehnern und Einern, aber 14 Striche. Eine Zahl zwischen 11 und 19 wird als 1 und 5 geschrieben, ohne dass das Kind weiß, dass die 1 ein Zehner ist.",
-    "words": "Frage nach der Seite: „Zeigen alle deine Kästchen dieselbe Zahl? Beweise es.“ Sag: „Fünfzehn ist ein Zehner und fünf Einer. Zeige mir den Zehner in deinen Zehnerfeldern: ein volles Feld. Zeige mir den Zehner in deiner Strichliste: zwei Fünferbündel.“",
+    "words": "Frage, wenn das Arbeitsblatt fertig ist: „Zeigen alle deine Kästchen dieselbe Zahl? Beweise es.“ Sag: „Fünfzehn ist ein Zehner und fünf Einer. Zeige mir den Zehner in deinen Zehnerfeldern: ein volles Feld. Zeige mir den Zehner in deiner Strichliste: zwei Fünferbündel.“",
     "watch": "Nutze die Seite als schnellen Blick darauf, was jedes Kind kann: Welches Kästchen bleibt leer oder kommt zuletzt? Dieses Kästchen zeigt dir, was das Kind als Nächstes lernen muss."
    }
   },
@@ -151,7 +151,7 @@
    "objective": "Die Kinder lesen ab, auf welche Zahl ein Pfeil am Zahlenstrahl bis 20 und bis 30 zeigt, und zählen dazu von der nächsten gedruckten Zahl aus weiter.",
    "note": {
     "mistake": "Die Kinder zählen die Striche und beginnen bei der Null mit „eins“, dann ist jede Antwort um 1 zu groß. Stehen nur wenige Zahlen da, zählen sie für jeden Pfeil von 0 an und verzählen sich unterwegs.",
-    "words": "Sag: „Die Null ist der Anfang, nicht die Eins. Zähle die SPRÜNGE, nicht die Striche.“ Wenn nur wenige Zahlen dastehen: „Welche gedruckte Zahl ist dem Pfeil am nächsten? Fang dort an. Du darfst auch rückwärts zählen.“",
+    "words": "Sag: „Die Null ist der Anfang, nicht die Eins. Von Strich zu Strich ist es immer 1 mehr. Zähle die SPRÜNGE, nicht die Striche.“ Wenn nur wenige Zahlen dastehen: „Welche gedruckte Zahl ist dem Pfeil am nächsten? Fang dort an. Du darfst auch rückwärts zählen.“",
     "watch": "Wo beginnt ein Kind bei einem Pfeil auf der 18? Wer von der 20 zwei zurückzählt, nutzt den Zahlenstrahl; von 0 hochzählen geht auch, dauert aber lange. Eine Antwort, die um genau 1 danebenliegt, heißt: Das Kind hat Striche gezählt, nicht Sprünge. Zeichne die Sprünge als Bögen über den Strahl und zähle die Bögen."
    }
   },
@@ -169,7 +169,7 @@
    "objective": "Die Kinder schreiben zu einer zweistelligen Zahl die Zahl, die 1 mehr und 1 weniger ist, und die Zahl, die 10 mehr und 10 weniger ist.",
    "note": {
     "mistake": "Für 10 mehr zählen die Kinder zehn Einer mit den Fingern weiter und liegen oft um 1 daneben. Bei 10 weniger ändern sie die falsche Ziffer. 1 mehr als 29 wird 210 geschrieben, weil das Kind „neunundzwanzig, zehnundzwanzig“ weiterzählt.",
-    "words": "Frage: „10 mehr als 34. Welche Ziffer ändert sich? Welche bleibt?“ Sag: „10 mehr ist ein ZEHNER mehr. Die Einer bleiben gleich.“ An der Hundertertafel prüfen die Kinder erst, wenn die Antwort geschrieben ist.",
+    "words": "Frage: „10 mehr als 34. Welche Ziffer ändert sich? Welche bleibt?“ Sag: „10 mehr ist ein ZEHNER mehr. Die Einer bleiben gleich.“ Nenne die Zahl, die 1 weniger ist, „Vorgänger“ und die Zahl, die 1 mehr ist, „Nachfolger“. An der Hundertertafel prüfen die Kinder erst, wenn die Antwort geschrieben ist.",
     "watch": "Wer zählt für 10 mehr noch in Einern? Prüfe die Zahlen am Zehnerübergang, etwa 1 mehr als 39 und 1 weniger als 40; sprich diese Zahlen gemeinsam, bevor geschrieben wird."
    }
   },
@@ -197,7 +197,7 @@
    "note": {
     "mistake": "Die Kinder zeichnen beide Zeiger gleich lang, dann kann niemand die Uhr lesen. Bei halb setzen sie den Stundenzeiger genau auf die Zahl und nicht in die Mitte zwischen zwei Zahlen; bei „halb fünf“ zeigt er dann auf die 5.",
     "words": "Sag: „Beim LESEN fangen wir mit dem kurzen Zeiger an. Beim ZEICHNEN ist der lange leichter, also zuerst der lange: auf die 12 bei voll, auf die 6 bei halb. Dann der Stundenzeiger: KURZ.“ Zu halb fünf: „Der kurze Zeiger steht in der Mitte zwischen der 4 und der 5.“",
-    "watch": "Sieh auf die Länge der beiden Zeiger und darauf, wo der kurze Zeiger bei halb steht. Das Zeichnen zeigt, was das Lesen verdeckt: Ein Kind kann halb fünf aus einer Liste auswählen und trotzdem nicht wissen, wohin der Stundenzeiger gehört."
+    "watch": "Achte auf die Länge der beiden Zeiger und darauf, wo der kurze Zeiger bei halb steht. Das Zeichnen zeigt, was das Lesen verdeckt: Ein Kind kann halb fünf aus einer Liste auswählen und trotzdem nicht wissen, wohin der Stundenzeiger gehört."
    }
   },
   "1:days-months-seasons": {
@@ -206,20 +206,20 @@
    "note": {
     "mistake": "Die Kinder verwechseln gestern und morgen, und sie stocken, wenn heute Sonntag oder Montag ist, weil die Woche dort aufzuhören scheint. Bei den Monaten stimmt die Reihenfolge nach den ersten paar nicht mehr.",
     "words": "Sag: „Gestern ist der Tag vor heute. Morgen ist der Tag nach heute.“ Zeige, dass die Woche im Kreis geht: „Nach Sonntag kommt wieder Montag.“ Sprich die Monate in vier Dreiergruppen und frage: „In welchem Monat hast du Geburtstag? Welcher Monat kommt davor?“",
-    "watch": "Prüfe die Aufgaben, bei denen heute am Rand der Woche liegt: Vor Montag war Sonntag, nach Sonntag kommt Montag. Bei den Monaten: Wer muss jedes Mal bei Januar anfangen? Sprich die Monate am Kalender, bis die Reihenfolge von jedem Monat aus hält."
+    "watch": "Prüfe die Aufgaben, bei denen heute am Rand der Woche liegt: Vor Montag war Sonntag, nach Sonntag kommt Montag. Bei den Monaten: Wer muss jedes Mal bei Januar anfangen? Sprich die Monate am Kalender, bis die Kinder von jedem Monat aus weitersagen können."
    }
   },
   "1:ordinal-numbers": {
-   "title": "Ordnungszahlen: der Erste bis der Zehnte",
+   "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
    "objective": "Die Kinder schreiben die Ordnungszahlen 1. bis 10. der Reihe nach und ordnen Wörter wie „dritte“ und „fünfte“ einem Platz in einer Reihe zu.",
    "note": {
-    "mistake": "Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“ und suchen den Platz durch Abzählen der Bilder, nicht durch Lesen des Wortes.",
-    "words": "Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der Dritte.“ Lies die Wörter gemeinsam: „der erste, der zweite, der dritte, der vierte.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“",
+    "mistake": "Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“. Beim Verbinden zählen sie vom falschen Ende der Reihe aus und nicht von der Fahne.",
+    "words": "Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der dritte Platz.“ Lies die Wörter gemeinsam: „der erste Platz, der zweite Platz, der dritte Platz, der vierte Platz.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“",
     "watch": "Prüfe den Punkt hinter jeder Ordnungszahl und ob ein Kind von der Fahne aus zählt. Die Ordnungszahl-Wörter zu lesen ist eine Leseaufgabe; lies sie mit den Kindern, die das noch nicht können."
    }
   },
   "1:coins": {
-   "title": "Münzen zählen",
+   "title": "Geldbeträge mit Münzen zählen",
    "objective": "Die Kinder kennen die Cent-Münzen und die Euro-Münzen, sagen, was jede wert ist, und zählen die Münzen in einem Geldbeutel, zuerst in Geldbeuteln mit nur einer Sorte.",
    "note": {
     "mistake": "Die Kinder zählen die Münzen, nicht die Cent: Drei 10-Cent-Münzen sind „3“. Sie halten die 5-Cent-Münze für mehr wert als die 10-Cent-Münze, weil sie größer ist. Bei zwei Sorten zählen sie alles in Einerschritten.",
@@ -228,10 +228,10 @@
    }
   },
   "1:shape-attributes": {
-   "title": "Was macht eine Form zu dieser Form?",
+   "title": "Dreieck, Rechteck, Quadrat: Woran erkenne ich die Form?",
    "objective": "Die Kinder entscheiden an Seiten und Ecken, ob eine Form wirklich ein Dreieck, ein Rechteck oder ein Quadrat ist, und schreiben die Namen der Formen.",
    "note": {
-    "mistake": "Die Kinder lassen eine Form mit einer krummen Seite oder einer offenen Ecke als Dreieck gelten, weil sie „so aussieht“, und lehnen ein echtes Dreieck ab, das lang, schmal oder gedreht ist. Farbe und Größe halten sie für einen Teil dessen, was eine Form ist.",
+    "mistake": "Die Kinder lassen eine Form mit einer krummen Seite oder einer offenen Ecke als Dreieck gelten, weil sie „so aussieht“, und lehnen ein echtes Dreieck ab, das lang, schmal oder gedreht ist. Farbe und Größe halten sie für Merkmale, die zur Form gehören.",
     "words": "Frage: „Was MUSS ein Dreieck haben?“ (Drei gerade Seiten, drei Ecken, und es ist geschlossen.) „Ist es wichtig, ob es groß, rot oder gedreht ist?“ (Nein.) Die Kinder nennen den Grund: „Das ist kein Dreieck, weil diese Seite krumm ist.“",
     "watch": "Achte auf Begründungen, die Seiten und Ecken nennen. Ein Kind, das „zu spitz“ oder „steht auf dem Kopf“ sagt, geht noch nach dem Aussehen. Ein Quadrat ist auch ein Rechteck; lass diese Antwort gelten und sag, warum."
    }
@@ -259,8 +259,8 @@
    "objective": "Die Kinder zählen in einer gemischten Menge jede Sorte, tragen die Anzahlen in eine Tabelle ein und lesen ab, wie viele ein Bilddiagramm in jeder Reihe zeigt.",
    "note": {
     "mistake": "Die Kinder tragen eine Anzahl in die falsche Zeile der Tabelle ein, weil sie nicht auf das Bild am Anfang der Zeile schauen. Die Seiten fragen nur nach Anzahlen; wenn du zusätzlich fragst „Wie viele mehr?“, nennen die Kinder die größere Zahl und nicht den Unterschied.",
-    "words": "Sag: „Jedes Bild im Diagramm steht für ein Ding.“ Stelle drei Arten von Fragen: „Wie viele Äpfel? Wovon gibt es am meisten? Wie viele Äpfel MEHR als Birnen?“ Für „wie viele mehr“ lege die beiden Reihen untereinander und zählen die, die überstehen.",
-    "watch": "Stelle jedem Kind eine Frage nach „wie viele mehr“; sie ist die schwierige. Achte darauf, wer zwei Reihen vergleicht, indem es sie nebeneinanderhält, und wer nur die größere Zahl abliest."
+    "words": "Sag: „Jedes Bild im Diagramm steht für ein Ding.“ Stelle drei Arten von Fragen: „Wie viele Äpfel? Wovon gibt es am meisten? Wie viele Äpfel MEHR als Birnen?“ Für „wie viele mehr“ lege die beiden Reihen untereinander und zähle die Bilder, die überstehen.",
+    "watch": "Stelle jedem Kind eine Frage nach „wie viele mehr“; sie ist die schwierige. Achte darauf, wer zwei Reihen vergleicht, indem es sie untereinanderlegt, und wer nur die größere Zahl abliest."
    }
   },
   "1:bar-graphs": {
@@ -287,7 +287,7 @@
    "note": {
     "mistake": "Die Kinder kreisen ungefähr zehn ein, ohne zu zählen, oder sie bündeln einen Zehner und zählen seine Einer danach noch einmal als Einer mit. Vierzehn wird als 1 Zehner und 14 Einer aufgeschrieben.",
     "words": "Sag: „Zehn Einer sind ein Zehner. Kreise genau zehn ein. Zähle nach.“ Dann: „Die Einer im Kreis sind jetzt ein Zehner. Zähle nur noch die Einer, die draußen übrig sind.“ Frage: „Kannst du noch einen Zehner bündeln? Woher weißt du das?“ Zum Schluss der nächste Schritt: „Zehn Zehner sind ein Hunderter.“",
-    "watch": "Wer zählt nach dem Bündeln nur die losen Einer, und wer zählt alle noch einmal? Mit Steckwürfeln stecken die Kinder zuerst wirklich zehn zusammen; die Seite kommt nach den Händen."
+    "watch": "Wer zählt nach dem Bündeln nur die losen Einer, und wer zählt alle noch einmal? Mit Steckwürfeln stecken die Kinder zuerst wirklich zehn zusammen; das Arbeitsblatt kommt erst nach dem Handeln mit Material."
    }
   },
   "2:skip-count-5-10-100": {
@@ -296,12 +296,12 @@
    "note": {
     "mistake": "Die Kinder können die Reihe vom Anfang an aufsagen, aber nicht von einer Zahl in der Mitte aus weiterzählen. Beim Punktebild verbinden sie den nächstgelegenen Punkt, oder sie halten 15 und 50 für dieselbe Zahl, weil „fünfzehn“ und „fünfzig“ ähnlich klingen.",
     "words": "Sag: „Sprich die Zahl, bei der du bist. Rechne im Kopf fünf dazu. Suche diese Zahl, dann zeichne.“ Zähle an der Hundertertafel in Fünfer- und Zehnerschritten und frage: „Was fällt dir an der Einerstelle auf?“ Probiere Zehnerschritte ab der 3: „3, 13, 23.“",
-    "watch": "Halte ein Kind mitten im Bild an und frage, was als Nächstes kommt. Wer die Reihe wieder bei 5 beginnt, kann einen Vers; von 35 aus weiterzählen ist das Können. Zähle zum Schluss gemeinsam rückwärts: „100, 90, 80 …“ und „50, 45, 40 …“."
+    "watch": "Halte ein Kind mitten im Bild an und frage, was als Nächstes kommt. Wer die Reihe wieder bei 5 beginnt, kann nur einen Vers; von 35 aus weiterzuzählen ist das eigentliche Können. Zähle zum Schluss gemeinsam rückwärts: „100, 90, 80 …“ und „50, 45, 40 …“."
    }
   },
   "2:number-line-not-from-zero": {
-   "title": "Ein Zahlenstrahl, der nicht bei null beginnt",
-   "objective": "Die Kinder lesen ab, auf welche Zahl ein Pfeil zeigt, wenn der Zahlenstrahl bei 40 oder bei 60 beginnt und nur einige Zahlen gedruckt sind.",
+   "title": "Ausschnitte aus dem Zahlenstrahl: Der Anfang ist nicht die Null",
+   "objective": "Die Kinder lesen ab, auf welche Zahl ein Pfeil zeigt, wenn ein Ausschnitt des Zahlenstrahls bei 40 oder bei 60 beginnt und nur einige Zahlen gedruckt sind.",
    "note": {
     "mistake": "Die Kinder zählen die Striche vom linken Ende als 1, 2, 3, als würde der Strahl bei null beginnen. Oder sie starten bei einer gedruckten Zahl und zählen diesen Strich schon als ersten Sprung; dann liegen sie um 1 daneben.",
     "words": "Frage zuerst: „Wo beginnt dieser Zahlenstrahl? Wie viel ist ein Sprung wert?“ Sag: „Suche die nächste gedruckte Zahl. Zähle von dort weiter oder zurück.“ Zur Probe: „Liegt deine Zahl zwischen den beiden gedruckten Zahlen links und rechts?“",
@@ -318,7 +318,7 @@
    }
   },
   "2:add-sub-within-100-practice": {
-   "title": "Plus und Minus bis 100",
+   "title": "Plus und Minus bis 100 üben",
    "objective": "Die Kinder addieren und subtrahieren zweistellige Zahlen, um Zahlenmauern zu füllen und in einem Rechenlabyrinth den richtigen Weg zu finden.",
    "note": {
     "mistake": "Die Kinder rechnen Zehner und Einer getrennt und beachten den Zehnerübergang nicht: Aus 28 + 15 wird 313 oder 33. Im Labyrinth zieht sich ein falscher Schritt durch den ganzen Weg, und sie gehen nicht zurück, um ihn zu suchen.",
@@ -331,7 +331,7 @@
    "objective": "Die Kinder lesen am Lineal ab, wie lang ein Gegenstand ist, der bei 0 beginnt, und schreiben die Länge auf.",
    "note": {
     "mistake": "Die Kinder zählen die Striche mit den Zahlen und nicht die Abstände, sagen also bei der Null schon „eins“ und lesen 1 zu viel ab. Mit einem echten Lineal legen sie den Gegenstand an die Kante des Lineals oder an die 1 an, nicht an die 0.",
-    "words": "Sag: „Fang bei null an. Null heißt: noch keine Länge. Zähle die Abstände: eins, zwei, drei.“ Dann: „Das Ende des Stifts liegt bei der 6, er ist also 6 Einheiten lang.“ Mit dem echten Lineal: „Suche die 0. Sie ist nicht immer am Rand. Sag die Einheit dazu: 6 Zentimeter.“",
+    "words": "Sag: „Fang bei null an. Null heißt: noch keine Länge. Zähle die Abstände: eins, zwei, drei.“ Dann: „Das Ende des Stifts liegt bei der 6, er ist also 6 Einheiten lang.“ Auf dem Arbeitsblatt heißt es „Einheiten“; am echten Lineal sind es Zentimeter: „Suche die 0. Sie ist nicht immer am Rand. Lies ab und sag die Einheit dazu: 6 Zentimeter.“",
     "watch": "Teile echte Lineale aus und sieh, wo die Kinder den Anfang des Gegenstands anlegen. Auf der Seite beginnt alles bei 0; das Lineal aus dem Mäppchen macht das nicht von selbst."
    }
   },
@@ -349,13 +349,13 @@
    "objective": "Die Kinder lesen die Uhr auf fünf Minuten genau und zur Viertelstunde ab und wählen die passende Uhrzeit aus.",
    "note": {
     "mistake": "Die Kinder lesen die Zahl, auf die der Minutenzeiger zeigt, als Minuten: Steht er auf der 4, sind es „4 Minuten“, und aus 2:20 Uhr wird 2:04 Uhr. Kurz vor der vollen Stunde nennen sie schon die nächste Stunde: 2:50 Uhr wird als 3:50 Uhr gelesen.",
-    "words": "Zähle in Fünferschritten um die Uhr und tippe jede Zahl an: „5, 10, 15, 20.“ Sag: „Die 4 bedeutet 20 Minuten.“ Zur Stunde: „Ist der kurze Zeiger schon an der 3 vorbei? Nein, also ist es noch 2 Uhr.“ Nenne beide Formen: „2:15 Uhr“ und „Viertel nach zwei“, „2:45 Uhr“ und „Viertel vor drei“. Am Nachmittag: „Viertel nach zwei ist auch 14:15 Uhr.“",
+    "words": "Zähle in Fünferschritten um die Uhr und tippe jede Zahl an: „5, 10, 15, 20.“ Sag: „Die 4 bedeutet 20 Minuten.“ Zur Stunde: „Ist der kurze Zeiger schon an der 3 vorbei? Nein, also gilt noch die 2: Es ist 2:50 Uhr.“ Nenne beide Formen: „2:15 Uhr“ und „Viertel nach zwei“, „2:45 Uhr“ und „Viertel vor drei“, „2:25 Uhr“ und „fünf vor halb drei“, „2:35 Uhr“ und „fünf nach halb drei“. Am Nachmittag: „Viertel nach zwei ist auch 14:15 Uhr.“",
     "watch": "Prüfe Uhrzeiten nach halb, etwa 2:50 Uhr, wenn der Stundenzeiger fast auf der nächsten Zahl steht. Lass das Kind einmal laut in Fünferschritten zählen; du hörst, wo es falsch läuft. Wo man „viertel drei“ und „drei viertel drei“ sagt, kläre beide Sprechweisen an der Lernuhr."
    }
   },
   "2:calendar": {
    "title": "Den Kalender lesen",
-   "objective": "Die Kinder lesen im Monatskalender ab, auf welchen Wochentag ein Datum fällt, welches Datum eine Woche später ist und wie viele Tage zwischen zwei Daten liegen.",
+   "objective": "Die Kinder lesen im Monatskalender ab, auf welchen Wochentag ein Datum fällt, welches Datum eine Woche später ist und wie viele Tage es von einem Datum bis zu einem anderen sind.",
    "note": {
     "mistake": "Die Kinder suchen den Wochentag in der Zeile und schauen nicht nach oben zum Kopf der Spalte. Für „eine Woche später“ zählen sie sieben Kästchen einzeln ab und zählen dabei oft den Starttag als ersten Tag mit.",
     "words": "Sag: „Suche das Datum. Gehe in der Spalte gerade nach oben. Welcher Tag steht dort?“ Zur Woche später: „Eine Woche später ist das Kästchen direkt darunter. Derselbe Wochentag, 7 mehr.“ Beim Tagezählen: „Zähle den Tag, an dem du anfängst, nicht mit. Zähle die Sprünge.“",
@@ -375,9 +375,9 @@
    "title": "Von der Strichliste zum Säulendiagramm",
    "objective": "Die Kinder lesen eine Strichliste, malen für jede Anzahl eine Säule an und beantworten mit einem Säulendiagramm Fragen, bei denen man zusammenrechnet oder vergleicht.",
    "note": {
-    "mistake": "Die Kinder lesen ein Fünferbündel der Strichliste als 4 oder 6 und malen die Säule falsch hoch an. Bei „wie viele mehr“ nennen sie die Zahl der höheren Säule; bei „wie viele zusammen“ lesen sie eine Säule ab und hören auf.",
+    "mistake": "Die Kinder lesen ein Fünferbündel der Strichliste als 4 oder 6 und malen die Säule zu hoch oder zu niedrig an. Bei „wie viele mehr“ nennen sie die Zahl der höheren Säule; bei „wie viele zusammen“ lesen sie eine Säule ab und hören auf.",
     "words": "Sag: „Zähle bei der Strichliste zuerst die Fünferbündel, dann die einzelnen Striche. Schreibe die Zahl auf, dann male an.“ Bei den Fragen: „Welche zwei Säulen nennt die Frage? Lege auf jede einen Finger.“ Dann: „Wie viele MEHR fragt nach dem Unterschied: Rechne minus.“",
-    "watch": "Lass die Kinder die beiden Zahlen aufschreiben, mit denen sie rechnen, bevor sie antworten. So sieh, ob ein Fehler vom Ablesen kommt oder vom Rechnen."
+    "watch": "Lass die Kinder die beiden Zahlen aufschreiben, mit denen sie rechnen, bevor sie antworten. So siehst du, ob ein Fehler vom Ablesen kommt oder vom Rechnen."
    }
   },
   "2:line-plots": {
@@ -385,7 +385,7 @@
    "objective": "Die Kinder zählen die X über jeder Zahl eines X-Diagramms und schreiben auf, wie viele es sind.",
    "note": {
     "mistake": "Die Kinder verwechseln die zwei Arten von Zahlen: die Zahl unter einem Stapel (was gemessen wurde) und die Anzahl der X (wie oft). Auf die Frage „Wie viele sind 5 lang?“ antworten sie „5“.",
-    "words": "Sag: „Die Zahlen an der Linie sagen, WAS gemessen wurde. Die X sagen, WIE OFT.“ Frage: „Wie viele Stifte waren 5 Einheiten lang? Zähle die X über der 5.“ Dann: „Welche Länge kam am häufigsten vor?“",
+    "words": "Sag: „Das ist ein X-Diagramm: Für jeden gemessenen Stift steht ein X über seiner Länge. Die Zahlen an der Linie sagen, WAS gemessen wurde. Die X sagen, WIE OFT.“ Frage: „Wie viele Stifte waren 5 Einheiten lang? Zähle die X über der 5.“ Dann: „Welche Länge kam am häufigsten vor?“",
     "watch": "Stelle je eine Frage in beide Richtungen: „Wie viele X stehen über der 7?“ und „Über welcher Zahl stehen 3 X?“ Wer beide beantwortet, versteht das Diagramm. Danach misst die Klasse sechs Stifte und setzt für jeden ein X; ein Diagramm aus eigenen Messungen zu machen ist die andere Hälfte dieser Stunde."
    }
   },
@@ -403,7 +403,7 @@
    "objective": "Die Kinder zählen gleich große Gruppen, schreiben die Plusaufgabe mit lauter gleichen Zahlen und ergänzen die Malaufgabe dazu.",
    "note": {
     "mistake": "Die Kinder verwechseln die Anzahl der Gruppen mit der Anzahl in jeder Gruppe: 3 Gruppen mit je 4 werden als 3 + 4 geschrieben oder als 3 + 3 + 3 + 3. Oder sie zählen jedes Bild einzeln und beachten die Ringe um die Gruppen nicht.",
-    "words": "Stelle jedes Mal zwei Fragen: „Wie viele Gruppen? Wie viele in JEDER Gruppe?“ Sag: „3 Gruppen mit je 4. 4 + 4 + 4. Drei mal vier.“ Lies den Malpunkt am Anfang als „mal je“: „3 mal je 4 sind 12.“",
+    "words": "Stelle jedes Mal zwei Fragen: „Wie viele Gruppen? Wie viele in JEDER Gruppe?“ Sag: „3 Gruppen mit je 4. 4 + 4 + 4. Drei mal vier.“ Sprich die Malaufgabe am Anfang mit dem Bild dazu: „3 mal 4, das sind 3 Vierer: 12.“",
     "watch": "Prüfe, ob die Plusaufgabe so viele Zahlen hat, wie es Gruppen gibt. Lass ein Kind „2 Gruppen mit je 5“ zeichnen und dann „5 Gruppen mit je 2“: dasselbe Ergebnis, zwei verschiedene Bilder."
    }
   },
@@ -413,15 +413,15 @@
    "note": {
     "mistake": "Die Kinder wissen nicht, wie eine Reihe verläuft und wie eine Spalte. Sie zählen alle Punkte einzeln, oder sie zählen an zwei Rändern entlang und wollen den Eckpunkt nicht ein zweites Mal zählen; dann wird ein Feld mit 3 mal 5 Punkten zu „3 Reihen und 4 Spalten“.",
     "words": "Sag: „Reihen gehen von links nach rechts, wie die Stuhlreihen im Kino. Spalten gehen von oben nach unten.“ Frage: „Wie viele Reihen? Wie viele in jeder Reihe?“ Dann: „3 Reihen mit je 5: 5 + 5 + 5. 5, 10, 15.“",
-    "watch": "Lass ein Kind mit dem Finger eine Reihe entlang und eine Spalte hinunter fahren. Drehe das Blatt quer und frage, ob sich die Anzahl geändert hat; sie ist gleich geblieben, und das sollte laut gesagt werden."
+    "watch": "Lass ein Kind mit dem Finger eine Reihe entlangfahren und eine Spalte hinunterfahren. Drehe das Blatt quer und frage, ob sich die Anzahl geändert hat; sie ist gleich geblieben, und das sollte laut gesagt werden."
    }
   },
   "3:mult-equal-groups": {
    "title": "Malaufgaben zu Gruppen und großen Punktefeldern",
    "objective": "Die Kinder lesen ein Bild mit gleich großen Gruppen oder ein Punktefeld, ergänzen die Malaufgabe und bestimmen das Ergebnis.",
    "note": {
-    "mistake": "Die Kinder zählen jedes Bild einzeln und nutzen die Gruppen nie. In der Malaufgabe schreiben sie das Ergebnis an eine Stelle, an die ein Faktor gehört.",
-    "words": "Sag: „6 Gruppen mit je 4 sind 6 mal 4.“ Finde das Ergebnis aus einer Aufgabe, die das Kind weiß: „5 mal 4 sind 20, eine Gruppe mehr sind 24.“ Die Aufgabe mit 5 ist die Kernaufgabe, 6 mal 4 ihre Nachbaraufgabe.",
+    "mistake": "Die Kinder zählen jedes Bild einzeln und nutzen die Gruppen und Reihen nie; das Arbeitsblatt „Große Punktefelder“ lädt mit „Zähle alle Bilder“ sogar dazu ein. In der Malaufgabe schreiben sie das Ergebnis an eine Stelle, an die ein Faktor gehört.",
+    "words": "Sag: „6 Gruppen mit je 4 sind 6 mal 4.“ Leite das Ergebnis aus einer Aufgabe ab, die das Kind weiß: „5 mal 4 sind 20, eine Gruppe mehr sind 24.“ Die Aufgabe mit 5 ist die Kernaufgabe, 6 mal 4 ihre Nachbaraufgabe. Auf dem Arbeitsblatt „Große Punktefelder“ steht „Zähle alle Bilder“; sag dazu: „Zähle nicht einzeln. Wie viele Reihen sind es? Wie viele in jeder Reihe?“",
     "watch": "Frage, wie das Kind das Ergebnis gefunden hat. Einzeln zählen gibt eine richtige Antwort und keinen Fortschritt; ein Kind, das „fünf davon und noch eine Gruppe“ sagt, baut sich das Einmaleins auf."
    }
   },
@@ -438,7 +438,7 @@
    "title": "Tauschaufgaben beim Malnehmen",
    "objective": "Die Kinder sehen, dass ein gedrehtes Punktefeld dieselbe Anzahl zeigt, und schreiben beide Malaufgaben dazu auf.",
    "note": {
-    "mistake": "Die Kinder zählen beide Felder von vorn als zwei getrennte Aufgaben und merken nicht, dass die Ergebnisse gleich sind. Manche glauben, 3 · 7 und 7 · 3 seien zwei verschiedene Aufgaben, die man beide lernen muss.",
+    "mistake": "Die Kinder zählen beide Felder von vorn als zwei getrennte Aufgaben und merken nicht, dass die Ergebnisse gleich sind. Manche glauben, 3 · 7 und 7 · 3 hätten nichts miteinander zu tun und man müsse beide einzeln lernen.",
     "words": "Drehe ein Punktefeld aus Papier um eine Vierteldrehung und frage: „Habe ich Punkte dazugelegt? Habe ich welche weggenommen? Wie viele sind es also jetzt?“ Sag: „3 Reihen mit je 7 und 7 Reihen mit je 3 sind gleich viele. Wer die eine Aufgabe weiß, weiß auch ihre Tauschaufgabe.“",
     "watch": "Frage „Wie viel ist 7 · 3?“, gleich nachdem ein Kind 3 · 7 gerechnet hat. Wer wieder zu zählen beginnt, hat die Drehung noch nicht verstanden; drehe das Feld noch einmal."
    }
@@ -448,7 +448,7 @@
    "objective": "Die Kinder zählen in 3er- und 4er-Schritten und schreiben die fehlenden Zahlen in jede Zahlenreihe.",
    "note": {
     "mistake": "Beim Zählen in Dreier- und Viererschritten gibt es kein einfaches Muster an der Einerstelle, deshalb rechnen die Kinder mit den Fingern weiter und landen um 1 daneben. Ein Fehler zieht sich durch den Rest der Reihe.",
-    "words": "Zähle gemeinsam im Flüsterton: „1, 2“ flüstern, „3“ laut; „4, 5“ flüstern, „6“ laut. Frage: „Wie weit ist es von einer Zahl zur nächsten? Prüfe den Sprung.“ Verbinde die Vierer mit den Zweiern: „Die Viererreihe ist jede zweite Zahl der Zweierreihe.“",
+    "words": "Zähle gemeinsam mit Flüsterzahlen: „1, 2“ flüstern, „3“ laut; „4, 5“ flüstern, „6“ laut. Frage: „Wie weit ist es von einer Zahl zur nächsten? Prüfe den Sprung.“ Verbinde die Vierer mit den Zweiern: „Die Viererreihe ist jede zweite Zahl der Zweierreihe.“",
     "watch": "Die Kinder prüfen jede Reihe an der Größe ihrer Sprünge, bevor sie abgeben. Ein Kind, das jedes Mal mit den Fingern weiterrechnet, braucht viele kurze Runden, in denen die Reihe laut gesprochen wird, nicht noch mehr Seiten."
    }
   },
@@ -456,7 +456,7 @@
    "title": "Das 2er- und das 5er-Einmaleins",
    "objective": "Die Kinder schreiben die Ergebnisse der Zweierreihe und der Fünferreihe auf und üben gemischte Einmaleinsaufgaben.",
    "note": {
-    "mistake": "Die Kinder zählen für jede Aufgabe die Reihe von vorn auf und verlieren um die sechste oder siebte Zahl den Faden. Sie verwechseln Nachbarn: 6 · 5 wird mit 35 beantwortet.",
+    "mistake": "Die Kinder sagen für jede Aufgabe die Reihe von vorn auf und verlieren um die sechste oder siebte Zahl den Faden. Sie verwechseln Nachbaraufgaben: 6 · 5 wird mit 35 beantwortet.",
     "words": "Gehe von einer Aufgabe aus, die das Kind weiß: „Du weißt, 5 · 5 ist 25. Dann ist 6 · 5 ein Fünfer mehr: 30.“ Für die Zweierreihe hilft das Verdoppeln, für die Fünferreihe die Hälfte der Zehneraufgabe: „8 · 10 ist 80, also ist 8 · 5 die Hälfte davon, 40.“ Kernaufgaben sind 1 mal, 2 mal, 5 mal und 10 mal.",
     "watch": "Höre, wie ein Kind zu einem Ergebnis kommt: auswendig, über eine Nachbaraufgabe oder durch Aufsagen von vorn. Übe jeden Tag wenige Aufgaben; eine Seite, die mit Aufsagen der Reihe gefüllt wurde, hat nichts ins Gedächtnis gebracht."
    }
@@ -467,15 +467,15 @@
    "note": {
     "mistake": "Die Kinder legen in jede Kiste ein paar und hören auf, obwohl noch etwas im Haufen liegt, oder die Kisten sind am Ende ungleich voll. Sie verwechseln die zwei Fragen: Wie viele in jeder Kiste, und wie viele Gruppen?",
     "words": "Sag: „Eins in jede Kiste, dann noch eins in jede, bis der Haufen leer ist. Ist in allen Kisten gleich viel?“ Stelle die zwei Fragen getrennt: „Wie viele bekommt jede Kiste?“ (Verteilen) und „Wie viele gleich große Gruppen werden es?“ (Aufteilen).",
-    "watch": "Nimm vor der Seite Plättchen und Becher. Prüfe, dass nichts im Haufen bleibt und in jeder Kiste gleich viel liegt. Höre darauf, welche der beiden Fragen ein Kind gerade beantwortet."
+    "watch": "Arbeite vor dem Arbeitsblatt mit Plättchen und Bechern. Prüfe, dass nichts im Haufen bleibt und in jeder Kiste gleich viel liegt. Höre darauf, welche der beiden Fragen ein Kind gerade beantwortet."
    }
   },
   "3:division-sharing": {
-   "title": "Geteilt-Aufgaben: gerecht verteilen",
+   "title": "Geteiltaufgaben: gerecht verteilen",
    "objective": "Die Kinder verteilen eine Menge gerecht auf eine gegebene Zahl von Kisten und schreiben auf, wie viele in jede Kiste kommen.",
    "note": {
     "mistake": "Die Kinder schreiben die Zahl der Kisten oder die Größe des Haufens als Antwort. Ohne Plättchen raten sie, wie viele in jede Kiste kommen, und prüfen nicht, ob die Kisten den Haufen aufbrauchen.",
-    "words": "Sag: „12 verteilt an 3 ist eine Geteilt-Aufgabe: 12 : 3.“ Dann verteilen: „Eins für jede, noch eins, noch eins, bis nichts mehr da ist. Jede bekommt 4.“ Prüfe mit der Malaufgabe: „3 Kisten mit je 4 sind 12.“ Lies das Zeichen als „geteilt durch“.",
+    "words": "Sag: „12 verteilt auf 3 Kisten ist eine Geteiltaufgabe: 12 : 3.“ Dann verteilen: „Eins für jede, noch eins, noch eins, bis nichts mehr da ist. Jede bekommt 4.“ Prüfe mit der Malaufgabe: „3 Kisten mit je 4 sind 12.“ Lies das Zeichen als „geteilt durch“.",
     "watch": "Jedes Kind prüft ein Ergebnis mit der Malaufgabe. Wer sieht, dass 3 · 4 = 12 die Aufgabe 12 : 3 beantwortet, hat die Umkehraufgabe gefunden, die das Teilen leicht macht."
    }
   },
@@ -493,12 +493,12 @@
    "objective": "Die Kinder kreisen Punkte paarweise ein, schreiben eine Zahl als zwei gleiche Teile mit 0 oder 1 Rest und entscheiden an der Einerstelle, ob eine Zahl bis 100 gerade oder ungerade ist.",
    "note": {
     "mistake": "Die Kinder schauen auf die falsche Ziffer: 34 nennen sie ungerade wegen der 3. Sie verbinden „gerade“ nicht mit „zwei gleiche Teile“, deshalb ist die Regel mit der Einerstelle für sie ein Trick ohne Grund.",
-    "words": "Sag: „Gerade heißt: zwei gleiche Teile, und nichts bleibt übrig. 8 ist 4 + 4. Ungerade heißt: Eins bleibt übrig. 9 ist 4 + 4 + 1.“ Bei großen Zahlen: „Schau nur auf die Einer. Die Zehner lassen sich immer teilen.“ Frage: „Ist 30 gerade? Warum?“",
+    "words": "Sag: „Gerade heißt: zwei gleiche Teile, und nichts bleibt übrig. 8 ist 4 + 4. Ungerade heißt: Eins bleibt übrig. 9 ist 4 + 4 + 1.“ Bei großen Zahlen: „Schau nur auf die Einer. Jeder Zehner lässt sich in zwei gleiche Teile teilen.“ Frage: „Ist 30 gerade? Warum?“",
     "watch": "Prüfe mit 34, 43, 50 und 71. Ein Kind, das auf die Zehnerziffer schaut, soll sehen, dass jeder Zehner in 5 und 5 zerfällt; also entscheiden allein die Einer."
    }
   },
   "2:equal-shares-shapes": {
-   "title": "Halbe, Drittel und Viertel",
+   "title": "Hälften, Drittel und Viertel",
    "objective": "Die Kinder unterscheiden gleich große von ungleich großen Teilen und malen die Hälfte, ein Drittel oder ein Viertel einer Form an.",
    "note": {
     "mistake": "Die Kinder nennen jede Form, die in zwei Stücke geteilt ist, „halbiert“, auch wenn ein Stück größer ist. Sie meinen, gleiche Teile müssten gleich aussehen; ein Quadrat, das von Ecke zu Ecke geteilt ist, und eines, das gerade durchgeteilt ist, können dann nicht beide Hälften zeigen.",
@@ -516,11 +516,11 @@
    }
   },
   "2:2d-attributes": {
-   "title": "Formen nach Seiten sortieren",
+   "title": "Formen nach Ecken und Seiten sortieren",
    "objective": "Die Kinder zählen die Seiten ebener Formen und verbinden jede Form mit der Zahl ihrer Seiten.",
    "note": {
     "mistake": "Die Kinder erkennen die regelmäßigen Formen auf einen Blick und stolpern über eine unregelmäßige: Ein Fünfeck, das nicht ordentlich aussieht, ist für sie „keine Form“. Bei einer Form mit Einbuchtung lassen sie eine Seite in der Einbuchtung aus.",
-    "words": "Sag: „Eine Form heißt nach der Zahl ihrer Ecken und Seiten, nicht danach, wie sie aussieht.“ Nenne sie: „3 Seiten: Dreieck. 4 Seiten: Viereck. 5: Fünfeck. 6: Sechseck.“ Die Kinder markieren jede Seite, während sie zählen.",
+    "words": "Sag: „Eine Form heißt nach der Zahl ihrer Ecken, nicht danach, wie sie aussieht. Sie hat immer so viele Ecken wie Seiten.“ Nenne sie: „3 Seiten, 3 Ecken: Dreieck. 4: Viereck. 5: Fünfeck. 6: Sechseck.“ Die Kinder markieren jede Seite, während sie zählen.",
     "watch": "Prüfe die Formen mit einer Einbuchtung oder mit einer sehr kurzen Seite; dort wird falsch gezählt. Frage nach dem Namen einer schiefen Form mit vier Seiten und höre, ob „Viereck“ kommt."
    }
   },
@@ -528,8 +528,8 @@
    "title": "Körper um uns herum",
    "objective": "Die Kinder verbinden Kugel, Würfel, Zylinder, Kegel, Quader und Pyramide mit einem Gegenstand, der dieselbe Form hat.",
    "note": {
-    "mistake": "Die Kinder ordnen nach Größe oder Farbe zu oder nach einem einzigen Merkmal: Alles Spitze ist ein Kegel, also werden Pyramide und Kegel verwechselt. Eine liegende Dose erkennen sie nicht als Zylinder. Manche nennen einen Ball noch „Kreis“ und eine Schachtel „Viereck“: Der Körper bekommt den Namen seiner ebenen Fläche.",
-    "words": "Nenne jeden Körper mit einem Ding: „Eine Dose ist ein Zylinder. Ein Ball ist eine Kugel. Eine Eistüte ist ein Kegel. Ein Schuhkarton ist ein Quader.“ Frage, was zwei unterscheidet: „Der Kegel steht auf einem Kreis und ist an der Seite rund. Die Pyramide steht auf einer Fläche mit Ecken, und ihre anderen Flächen sind Dreiecke.“",
+    "mistake": "Die Kinder ordnen nach Größe oder Farbe zu oder nach einem einzigen Merkmal: Alles Spitze ist ein Kegel, also werden Pyramide und Kegel verwechselt. Eine liegende Dose erkennen sie nicht als Zylinder. Manche nennen einen Ball noch „Kreis“ und eine Schachtel „Viereck“: Der Körper bekommt den Namen einer ebenen Figur.",
+    "words": "Nenne jeden Körper mit einem Ding: „Eine Dose ist ein Zylinder. Ein Ball ist eine Kugel. Eine Eistüte ist ein Kegel. Ein Schuhkarton ist ein Quader.“ Frage, was zwei Körper unterscheidet: „Der Kegel steht auf einem Kreis und ist an der Seite rund. Die Pyramide steht auf einer Fläche mit Ecken, und ihre anderen Flächen sind Dreiecke.“",
     "watch": "Gehe im Klassenzimmer auf Körpersuche und lass die Kinder jeden Namen laut sagen. Prüfe Kegel und Pyramide und auch Würfel und Quader; das sind die Paare, die Kinder verwechseln."
    }
   },
@@ -537,8 +537,8 @@
    "title": "Flächen, Kanten und Ecken zählen",
    "objective": "Die Kinder zählen die ebenen Flächen, die Kanten und die Ecken von Körpern und schreiben die Zahlen auf.",
    "note": {
-    "mistake": "Die Kinder zählen nur, was sie auf der Zeichnung sehen: drei Flächen eines Würfels. Wenn sie um einen Körper herumgehen, verlieren sie den Überblick und zählen eine Kante doppelt, und sie sagen „Seite“ für eine Fläche und für eine Kante.",
-    "words": "Nimm drei Wörter und halte sie auseinander: „Eine Fläche ist eben und man kann die Hand darauflegen. Eine Kante ist dort, wo zwei Flächen zusammenstoßen. Eine Ecke ist dort, wo Kanten zusammenkommen.“ An einer echten Schachtel: „Lege die Hand auf eine Fläche. Fahre mit dem Finger eine Kante entlang. Tippe auf eine Ecke.“ Bei Dose und Kegel: „Ist dieser Teil eben oder gewölbt? Nur die ebenen Teile zählen wir hier.“",
+    "mistake": "Die Kinder zählen nur, was sie auf der Zeichnung sehen: drei Flächen eines Würfels. Wenn sie rund um einen Körper zählen, verlieren sie den Überblick und zählen eine Kante doppelt. Außerdem sagen sie „Seite“ für eine Fläche und für eine Kante.",
+    "words": "Führe drei Wörter ein und halte sie auseinander: „Auf eine ebene Fläche kann man die Hand flach legen. Eine Kante ist dort, wo zwei Flächen zusammenstoßen. Eine Ecke ist dort, wo mehrere Kanten zusammentreffen.“ An einer echten Schachtel: „Lege die Hand auf eine Fläche. Fahre mit dem Finger eine Kante entlang. Tippe auf eine Ecke.“ Bei Dose und Kegel: „Ist dieser Teil eben oder gewölbt? Auf dem Arbeitsblatt zählen wir nur die ebenen Flächen.“",
     "watch": "Gib jedem Paar einen echten Körper und Klebepunkte, um Gezähltes zu markieren. Frage nach den verdeckten Teilen einer Zeichnung: „Und hinten? Und unten?“"
    }
   },
@@ -548,7 +548,7 @@
    "note": {
     "mistake": "Die Kinder halten jede Linie, die eine Form in zwei gleich große Teile schneidet, für eine Spiegelachse. Die schräge Linie durch ein Rechteck ergibt zwei gleiche Hälften, die sich nicht aufeinanderfalten lassen, und die Kinder kreisen den Haken ein.",
     "words": "Sag: „Eine Spiegelachse ist eine Faltlinie. Falte an ihr: Liegen die beiden Seiten genau aufeinander?“ Schneide ein langes Rechteck aus Papier aus (kein Quadrat) und falte es von Ecke zu Ecke: eine Linie, die es in zwei gleiche Teile schneidet und trotzdem keine Spiegelachse ist.",
-    "watch": "Mache bei den ersten Aufgaben die Faltprobe mit Papier. Höre, was die Kinder bei schrägen Linien antworten; dort trennen sich gleich große Hälften und Spiegelhälften. Falte auch ein Quadrat von Ecke zu Ecke, damit nicht die Regel entsteht: „Schräge Linien sind nie Spiegelachsen.“"
+    "watch": "Mache bei den ersten Aufgaben die Faltprobe mit Papier. Höre, was die Kinder bei schrägen Linien antworten; dort zeigt sich, wer gleich große Hälften von spiegelgleichen Hälften unterscheidet. Falte auch ein Quadrat von Ecke zu Ecke, damit nicht die Regel entsteht: „Schräge Linien sind nie Spiegelachsen.“"
    }
   },
   "2:symmetry-complete": {

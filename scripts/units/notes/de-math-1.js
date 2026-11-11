@@ -29,7 +29,7 @@ module.exports = {
       title: 'Verliebte Zahlen: zusammen 10',
       objective: 'Die Kinder finden zu einer Zahl die Partnerzahl, mit der sie zusammen 10 ergibt, und kennen die Zahlenpaare der 10.',
       note: {
-        mistake: 'Die Kinder wissen 5 + 5 und 9 + 1, zählen aber bei den anderen Paaren von 1 an. Viele sehen nicht, dass 3 + 7 und 7 + 3 dasselbe Paar sind.',
+        mistake: 'Die Kinder wissen 5 + 5 und 9 + 1, zählen bei den anderen Paaren aber die leeren Felder einzeln ab oder zählen mit den Fingern bis 10 weiter. Viele sehen nicht, dass 3 + 7 und 7 + 3 dasselbe Zahlenpaar sind.',
         words: 'Frage: „Welche Zahl passt zu 6, damit es 10 sind?“ Nenne die beiden Zahlen „verliebte Zahlen“ oder „Partnerzahlen der 10“. Am Zehnerfeld: „Sechs Felder sind voll. Wie viele sind noch leer?“ Für 3 + 7 und 7 + 3 sag „Tauschaufgabe“.',
         watch: 'Wer liest die Antwort an den leeren Feldern ab, ohne die vollen noch einmal zu zählen? Diese Kinder gehen weiter zum Rechenlabyrinth; die anderen bleiben beim Zehnerfeld.',
       },
@@ -40,7 +40,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder zählen die Startzahl als ersten Hüpfer mit, deshalb landen sie bei 5 + 3 auf der 7. Beim Rückwärtszählen landen sie aus demselben Grund eine Zahl zu hoch.',
         words: 'Sag: „Lege den Finger auf die 5 und sage fünf. Jetzt hüpfe dreimal und zähle beim Landen: sechs, sieben, acht.“ Sag „vorwärts hüpfen“ für plus und „rückwärts hüpfen“ für minus.',
-        watch: 'Achte auf den ersten Hüpfer. Wer die Startzahl beim Loshüpfen mitspricht, landet eine Zahl zu kurz. Lass das Kind jeden Hüpfer als Bogen zeichnen und die Bögen zählen, nicht die Striche: drei Bögen für + 3.',
+        watch: 'Achte auf den ersten Hüpfer. Wer die Startzahl beim Loshüpfen mitspricht, landet eine Zahl zu kurz. Lass das Kind jeden Hüpfer als Bogen zeichnen und die Bögen zählen, nicht die Striche: drei Bögen für + 3. Das Hüpfen in Einerschritten ist nur eine Brücke: Wer sicher ist, macht aus drei kleinen Hüpfern einen großen Sprung („von der 5 drei weiter zur 8“).',
       },
     },
     '1:fact-families': {
@@ -49,7 +49,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder schreiben 3 + 7 = 10 und 7 + 3 = 10 leicht hin, dann aber 3 − 7 = 10 oder 7 − 10 = 3: Sie schieben die Zahlen herum und überlegen nicht, welche das Ganze ist.',
         words: 'Frage: „Welche Zahl ist das Ganze? Welche zwei sind die Teile?“ Dann: „Die Teile zusammen ergeben das Ganze. Das Ganze minus ein Teil ergibt den anderen Teil.“ Nenne 3 + 7 und 7 + 3 „Tauschaufgaben“ und 10 − 7 die „Umkehraufgabe“.',
-        watch: 'Prüfe, ob jede Minusaufgabe mit dem Ganzen beginnt. Wenn nicht, lege die drei Zahlen noch einmal als Zahlenhaus mit Plättchen, decken einen Teil ab und fragen, was übrig bleibt.',
+        watch: 'Prüfe, ob jede Minusaufgabe mit dem Ganzen beginnt. Wenn nicht, lege das Ganze mit Plättchen, decke einen Teil ab und frage, was übrig bleibt.',
       },
     },
     '1:missing-number-equations': {
@@ -67,14 +67,14 @@ module.exports = {
       note: {
         mistake: 'Die Kinder suchen die zwei Zahlen heraus und zählen sie zusammen, egal was die Geschichte erzählt, oder sie achten nur auf ein Wort wie „mehr“ und wählen danach das Rechenzeichen.',
         words: 'Frage: „Was passiert in der Geschichte? Kommt etwas dazu oder geht etwas weg?“ Lass das Kind die Geschichte nacherzählen, bevor eine Zahl geschrieben wird. Dann: „Schreibe die Aufgabe, die die Geschichte erzählt.“ Die Seite hat nur ein Kästchen für die Antwort; die Aufgabe schreiben die Kinder neben das Bild.',
-        watch: 'Höre beim Nacherzählen zu. Ein Kind, das die Geschichte mit Plättchen spielen kann und trotzdem das falsche Zeichen schreibt, braucht die Verbindung von der Handlung zum Zeichen, nicht noch mehr Zählen.',
+        watch: 'Lies die Geschichten vor, solange die Kinder noch nicht sicher lesen, und höre beim Nacherzählen zu. Ein Kind, das die Geschichte mit Plättchen spielen kann und trotzdem das falsche Zeichen schreibt, braucht die Verbindung von der Handlung zum Zeichen, nicht noch mehr Zählen.',
       },
     },
     '1:fluency-within-20': {
       title: 'Kopfrechnen bis 10',
       objective: 'Die Kinder rechnen plus und minus bis 10, ohne jedes Mal zu zählen: Sie nutzen Aufgaben, die sie auswendig wissen, und leiten andere davon ab.',
       note: {
-        mistake: 'Die Kinder zählen jede Aufgabe von 1 an, sogar 5 + 1 oder 4 + 4, weil Zählen bisher immer zum richtigen Ergebnis geführt hat. Wenn es schnell gehen soll, hören sie auf zu zählen und raten.',
+        mistake: 'Die Kinder zählen bei jeder Aufgabe alles von 1 an ab, sogar bei 5 + 1 oder 4 + 4, weil Zählen bisher immer zum richtigen Ergebnis geführt hat. Wenn es schnell gehen soll, hören sie auf zu zählen und raten.',
         words: 'Frage: „Welche Aufgaben weißt du einfach? Welche kannst du dir aus einer Aufgabe herleiten, die du weißt?“ Zum Beispiel: „Ich weiß 4 + 4, dann ist 4 + 5 eins mehr. Das ist die Nachbaraufgabe.“',
         watch: 'Notiere, bei welchen Aufgaben ein Kind noch zählt. Wer die meisten zählt, bekommt die leichtere Seite zum Üben; schreibe die Aufgaben in die Klassenliste, damit du weißt, worauf du zurückkommst. Diese Seite wird nicht auf Zeit gerechnet.',
       },
@@ -85,21 +85,21 @@ module.exports = {
       note: {
         mistake: 'Die Kinder meinen, Verdoppeln heißt 2 dazu: Das Doppelte von 6 wird 8. Beim Halbieren nehmen sie etwas weg und prüfen nicht, ob beide Teile gleich sind: Die Hälfte von 10 wird 4 und 6.',
         words: 'Sag: „Das Doppelte heißt: dasselbe noch einmal. Sechs und noch einmal sechs.“ Mit beiden Händen: „Zeige mir 4 an jeder Hand.“ Zur Hälfte: „Halbieren heißt: zwei GLEICHE Teile. Eins für dich, eins für mich, bis nichts mehr da ist. Sind beide Teile gleich?“',
-        watch: 'Wer weiß die Verdopplungen bis 5 + 5 auswendig, und wer zählt noch jedes Bild? Die Seite geht bis 7 + 7. Kinder, die zählen, legen jede Verdopplung mit zwei Händen oder in zwei Reihen im Zehnerfeld und sprechen dazu: „4 und 4 ist 8.“ Auf der Seite zum Halbieren müssen die beiden Zahlen eines Kindes gleich sein.',
+        watch: 'Wer weiß die Verdopplungen bis 5 + 5 auswendig, und wer zählt noch jedes Bild? Das Arbeitsblatt geht bis 7 + 7. Kinder, die zählen, zeigen die Verdopplungen bis 5 + 5 mit beiden Händen und legen die größeren mit Plättchen in zwei gleich langen Reihen im Zwanzigerfeld; dazu sprechen sie: „6 und 6 ist 12.“ Beim Halbieren müssen die beiden Zahlen, die ein Kind aufschreibt, gleich sein.',
       },
     },
     '1:odd-even-pairs': {
       title: 'Gerade und ungerade Zahlen',
       objective: 'Die Kinder zählen eine Menge in Paaren oder teilen sie abwechselnd an zwei Kinder aus und sagen, ob die Anzahl gerade oder ungerade ist.',
       note: {
-        mistake: 'Die Kinder entscheiden danach, wie die Zahl aussieht („11 ist gerade, weil sie zwei Einsen hat“), und lassen das Paaren weg. Beim Aufteilen vergessen sie, das übrige Bild aufzuschreiben, oder geben es einem der beiden Kinder.',
-        words: 'Frage: „Können zwei Kinder gerecht teilen? Bleibt eins übrig?“ Sag: „Gerade Zahlen gehen auf. Bei ungeraden Zahlen bleibt eins übrig.“ Verbinde es mit dem Verdoppeln: „8 ist 4 und 4. Jede gerade Zahl ist ein Doppeltes.“ Beim Einkreisen zählen die Kinder in Zweierschritten: „2, 4, 6 … und eins dazu sind 7.“',
+        mistake: 'Die Kinder entscheiden danach, wie die Zahl aussieht („11 ist gerade, weil sie zwei Einsen hat“), und lassen das Paaren weg. Beim Verteilen an zwei Kinder vergessen sie, das übrige Bild aufzuschreiben, oder geben es einem der beiden Kinder.',
+        words: 'Frage: „Können zwei Kinder gerecht teilen? Bleibt eins übrig?“ Sag: „Bei geraden Zahlen geht es auf. Bei ungeraden Zahlen bleibt eins übrig.“ Verbinde es mit dem Verdoppeln: „8 ist 4 und 4. Jede gerade Zahl ist das Doppelte einer Zahl.“ Beim Einkreisen zählen die Kinder in Zweierschritten: „2, 4, 6 … und eins dazu sind 7.“',
         watch: 'Achte darauf, wer die Regel an der Einerstelle entdeckt: Zahlen mit 0, 2, 4, 6 oder 8 am Ende sind gerade. Lass die Kinder die Regel an ihren eigenen Seiten finden, bevor du sie aussprichst.',
       },
     },
     '1:add-three-addends': {
       title: 'Drei Gruppen addieren',
-      objective: 'Die Kinder addieren drei Gruppen von Bildern und schreiben das Ergebnis auf; sie rechnen zuerst zwei Zahlen zusammen, die gut zueinander passen.',
+      objective: 'Die Kinder addieren drei Gruppen von Bildern und schreiben das Ergebnis auf; im Gespräch lernen sie, zuerst zwei Zahlen zusammenzurechnen, die gut zueinander passen.',
       note: {
         mistake: 'Die Kinder rechnen die ersten beiden Gruppen zusammen, schreiben diese Zahl auf und vergessen die dritte. Oder sie zählen jedes Bild von 1 an und nutzen nie eine Aufgabe, die sie wissen, etwa eine Verdopplung oder ein Paar, das 10 ergibt.',
         words: 'Sag: „Drei Gruppen. Rechne erst zwei zusammen, dann die dritte dazu.“ Frage: „Welche zwei passen gut zusammen? Siehst du ein Doppeltes? Siehst du verliebte Zahlen?“ Zeige, dass man wählen darf: „4 + 3 + 6. Ich rechne zuerst 4 und 6. Das sind 10. Und 3 dazu sind 13.“',
@@ -117,20 +117,20 @@ module.exports = {
     },
     '1:tens-and-ones': {
       title: 'Zehner und Einer',
-      objective: 'Die Kinder lesen eine zweistellige Zahl ab, die mit Zehnerstangen und Einerwürfeln gelegt ist, und wählen die Blöcke aus, die eine Zahl zeigen.',
+      objective: 'Die Kinder lesen eine zweistellige Zahl ab, die mit Zehnerstangen und Einerwürfeln gelegt ist, und kreisen das Material ein, das zu einer Zahl passt.',
       note: {
-        mistake: 'Die Kinder zählen jede Stange als 1, dann sind 3 Stangen und 4 Würfel 7. Oder sie schreiben die Ziffern so, wie man die Zahl spricht: Bei „vierunddreißig“ hören sie die Vier zuerst und schreiben 43. Dieser Zahlendreher ist im Deutschen der häufigste Fehler.',
+        mistake: 'Die Kinder zählen jede Stange als 1, dann sind 3 Stangen und 4 Würfel 7. Oder sie schreiben die Ziffern in der Reihenfolge, in der man die Zahl spricht: Bei „vierunddreißig“ hören sie die Vier zuerst und schreiben 43. Solche Zahlendreher gehören im Deutschen zu den häufigsten Fehlern bei zweistelligen Zahlen.',
         words: 'Zähle die Stangen in Zehnerschritten und die Würfel einzeln: „10, 20, 30 … 31, 32, 33, 34.“ Sag: „3 Zehner und 4 Einer. Wir sprechen vierunddreißig: die Einer zuerst. Aber wir schreiben die Zehner zuerst: 3, dann 4.“ Frage: „Was bedeutet die 3 in 34?“ (Drei Zehner, also dreißig; nicht drei.)',
-        watch: 'Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Einern; dort verzählen sich Kinder. Lass ein Kind, das Zahlen dreht, erst die Zehner schreiben, dann die Einer, und die Zahl danach laut lesen. Prüfe Zahlen wie 40: Wer für vier Stangen nur 4 schreibt, hat die Null vergessen, die den Platz der Einer hält.',
+        watch: 'Achte auf den Wechsel vom Zählen in Zehnern zum Zählen in Einern; dort verzählen sich Kinder. Lass ein Kind, das Zahlendreher schreibt, erst die Zehner schreiben, dann die Einer, und die Zahl danach laut lesen. Prüfe Zahlen wie 40: Wer für vier Stangen nur 4 schreibt, hat die Null vergessen, die den Platz der Einer hält.',
       },
     },
     '1:number-words': {
-      title: 'Zahlwörter: vierzehn oder vierzig?',
-      objective: 'Die Kinder lesen Zahlen und ordnen ihnen das passende Zahlwort zu, bis zwanzig und bei den Zehnerzahlen bis hundert.',
+      title: 'Zahlwörter bis zwanzig',
+      objective: 'Die Kinder lesen die Zahlen bis 20 und ordnen jeder Zahl das passende Zahlwort zu.',
       note: {
-        mistake: 'Die Kinder verwechseln die Wörter auf -zehn mit den Wörtern auf -zig: dreizehn und dreißig, vierzehn und vierzig. Elf und zwölf werden geraten, weil man in ihnen keine Zehn hört. Sechzehn und siebzehn lesen viele als „sechszehn“ und „siebenzehn“.',
-        words: 'Sprich die Endungen deutlich: „Vier-ZEHN ist eine Zehn und vier. Vier-ZIG sind vier Zehner.“ Frage: „Hört das Wort mit -zehn auf oder mit -zig?“ Die Kinder unterstreichen die Endung, bevor sie einkreisen. Besprich die besonderen Wörter gemeinsam: elf, zwölf, sechzehn, siebzehn, dreißig mit ß.',
-        watch: 'Höre zu, wenn ein Kind die Auswahl laut liest. Wer „vierzig“ für vierzehn liest, schaut nur auf den Wortanfang; decke den Anfang mit dem Finger ab und lies zuerst die Endung. Prüfe zwanzig und dreißig: Sie sehen nicht aus wie „zwei“ und „drei“.',
+        mistake: 'Die Kinder raten elf und zwölf, weil man in ihnen keine Zehn hört. Bei den Wörtern auf -zehn schauen sie nur auf den Anfang und verwechseln dreizehn und dreißig oder vierzehn und vierzig, sobald beide zur Auswahl stehen.',
+        words: 'Sprich die Endung deutlich: „Vier-ZEHN ist ein Zehner und vier Einer.“ Frage: „Welche Zahl steckt vorn im Wort? Was sagt das Ende?“ Die Kinder unterstreichen die Endung, bevor sie einkreisen. Besprich die besonderen Wörter gemeinsam: elf, zwölf, sechzehn (ohne s), siebzehn (ohne en), zwanzig.',
+        watch: 'Höre zu, wenn ein Kind die Auswahl laut liest. Wer bei vierzehn nur „vier“ liest, schaut auf den Wortanfang; decke den Anfang mit dem Finger ab und lies zuerst die Endung. Prüfe elf, zwölf und zwanzig: Sie lassen sich nicht aus kleinen Zahlwörtern zusammensetzen.',
       },
     },
     '1:compare-order-two-digit': {
@@ -144,10 +144,10 @@ module.exports = {
     },
     '1:number-of-the-day': {
       title: 'Zahl des Tages',
-      objective: 'Die Kinder zeigen eine Zahl auf viele Arten: mit Zehnern und Einern, im Zehnerfeld, als Strichliste, als Zahlwort und mit 10 mehr und 10 weniger.',
+      objective: 'Die Kinder zeigen eine Zahl von 11 bis 19 auf mehrere Arten: als Zehner und Einer, im Zehnerfeld und als Strichliste.',
       note: {
         mistake: 'Die Kinder füllen jedes Kästchen als eigene Aufgabe aus und merken nicht, wenn zwei Kästchen sich widersprechen: 15 bei Zehnern und Einern, aber 14 Striche. Eine Zahl zwischen 11 und 19 wird als 1 und 5 geschrieben, ohne dass das Kind weiß, dass die 1 ein Zehner ist.',
-        words: 'Frage nach der Seite: „Zeigen alle deine Kästchen dieselbe Zahl? Beweise es.“ Sag: „Fünfzehn ist ein Zehner und fünf Einer. Zeige mir den Zehner in deinen Zehnerfeldern: ein volles Feld. Zeige mir den Zehner in deiner Strichliste: zwei Fünferbündel.“',
+        words: 'Frage, wenn das Arbeitsblatt fertig ist: „Zeigen alle deine Kästchen dieselbe Zahl? Beweise es.“ Sag: „Fünfzehn ist ein Zehner und fünf Einer. Zeige mir den Zehner in deinen Zehnerfeldern: ein volles Feld. Zeige mir den Zehner in deiner Strichliste: zwei Fünferbündel.“',
         watch: 'Nutze die Seite als schnellen Blick darauf, was jedes Kind kann: Welches Kästchen bleibt leer oder kommt zuletzt? Dieses Kästchen zeigt dir, was das Kind als Nächstes lernen muss.',
       },
     },
@@ -156,7 +156,7 @@ module.exports = {
       objective: 'Die Kinder lesen ab, auf welche Zahl ein Pfeil am Zahlenstrahl bis 20 und bis 30 zeigt, und zählen dazu von der nächsten gedruckten Zahl aus weiter.',
       note: {
         mistake: 'Die Kinder zählen die Striche und beginnen bei der Null mit „eins“, dann ist jede Antwort um 1 zu groß. Stehen nur wenige Zahlen da, zählen sie für jeden Pfeil von 0 an und verzählen sich unterwegs.',
-        words: 'Sag: „Die Null ist der Anfang, nicht die Eins. Zähle die SPRÜNGE, nicht die Striche.“ Wenn nur wenige Zahlen dastehen: „Welche gedruckte Zahl ist dem Pfeil am nächsten? Fang dort an. Du darfst auch rückwärts zählen.“',
+        words: 'Sag: „Die Null ist der Anfang, nicht die Eins. Von Strich zu Strich ist es immer 1 mehr. Zähle die SPRÜNGE, nicht die Striche.“ Wenn nur wenige Zahlen dastehen: „Welche gedruckte Zahl ist dem Pfeil am nächsten? Fang dort an. Du darfst auch rückwärts zählen.“',
         watch: 'Wo beginnt ein Kind bei einem Pfeil auf der 18? Wer von der 20 zwei zurückzählt, nutzt den Zahlenstrahl; von 0 hochzählen geht auch, dauert aber lange. Eine Antwort, die um genau 1 danebenliegt, heißt: Das Kind hat Striche gezählt, nicht Sprünge. Zeichne die Sprünge als Bögen über den Strahl und zähle die Bögen.',
       },
     },
@@ -174,7 +174,7 @@ module.exports = {
       objective: 'Die Kinder schreiben zu einer zweistelligen Zahl die Zahl, die 1 mehr und 1 weniger ist, und die Zahl, die 10 mehr und 10 weniger ist.',
       note: {
         mistake: 'Für 10 mehr zählen die Kinder zehn Einer mit den Fingern weiter und liegen oft um 1 daneben. Bei 10 weniger ändern sie die falsche Ziffer. 1 mehr als 29 wird 210 geschrieben, weil das Kind „neunundzwanzig, zehnundzwanzig“ weiterzählt.',
-        words: 'Frage: „10 mehr als 34. Welche Ziffer ändert sich? Welche bleibt?“ Sag: „10 mehr ist ein ZEHNER mehr. Die Einer bleiben gleich.“ An der Hundertertafel prüfen die Kinder erst, wenn die Antwort geschrieben ist.',
+        words: 'Frage: „10 mehr als 34. Welche Ziffer ändert sich? Welche bleibt?“ Sag: „10 mehr ist ein ZEHNER mehr. Die Einer bleiben gleich.“ Nenne die Zahl, die 1 weniger ist, „Vorgänger“ und die Zahl, die 1 mehr ist, „Nachfolger“. An der Hundertertafel prüfen die Kinder erst, wenn die Antwort geschrieben ist.',
         watch: 'Wer zählt für 10 mehr noch in Einern? Prüfe die Zahlen am Zehnerübergang, etwa 1 mehr als 39 und 1 weniger als 40; sprich diese Zahlen gemeinsam, bevor geschrieben wird.',
       },
     },
@@ -202,7 +202,7 @@ module.exports = {
       note: {
         mistake: 'Die Kinder zeichnen beide Zeiger gleich lang, dann kann niemand die Uhr lesen. Bei halb setzen sie den Stundenzeiger genau auf die Zahl und nicht in die Mitte zwischen zwei Zahlen; bei „halb fünf“ zeigt er dann auf die 5.',
         words: 'Sag: „Beim LESEN fangen wir mit dem kurzen Zeiger an. Beim ZEICHNEN ist der lange leichter, also zuerst der lange: auf die 12 bei voll, auf die 6 bei halb. Dann der Stundenzeiger: KURZ.“ Zu halb fünf: „Der kurze Zeiger steht in der Mitte zwischen der 4 und der 5.“',
-        watch: 'Sieh auf die Länge der beiden Zeiger und darauf, wo der kurze Zeiger bei halb steht. Das Zeichnen zeigt, was das Lesen verdeckt: Ein Kind kann halb fünf aus einer Liste auswählen und trotzdem nicht wissen, wohin der Stundenzeiger gehört.',
+        watch: 'Achte auf die Länge der beiden Zeiger und darauf, wo der kurze Zeiger bei halb steht. Das Zeichnen zeigt, was das Lesen verdeckt: Ein Kind kann halb fünf aus einer Liste auswählen und trotzdem nicht wissen, wohin der Stundenzeiger gehört.',
       },
     },
     '1:days-months-seasons': {
@@ -211,20 +211,20 @@ module.exports = {
       note: {
         mistake: 'Die Kinder verwechseln gestern und morgen, und sie stocken, wenn heute Sonntag oder Montag ist, weil die Woche dort aufzuhören scheint. Bei den Monaten stimmt die Reihenfolge nach den ersten paar nicht mehr.',
         words: 'Sag: „Gestern ist der Tag vor heute. Morgen ist der Tag nach heute.“ Zeige, dass die Woche im Kreis geht: „Nach Sonntag kommt wieder Montag.“ Sprich die Monate in vier Dreiergruppen und frage: „In welchem Monat hast du Geburtstag? Welcher Monat kommt davor?“',
-        watch: 'Prüfe die Aufgaben, bei denen heute am Rand der Woche liegt: Vor Montag war Sonntag, nach Sonntag kommt Montag. Bei den Monaten: Wer muss jedes Mal bei Januar anfangen? Sprich die Monate am Kalender, bis die Reihenfolge von jedem Monat aus hält.',
+        watch: 'Prüfe die Aufgaben, bei denen heute am Rand der Woche liegt: Vor Montag war Sonntag, nach Sonntag kommt Montag. Bei den Monaten: Wer muss jedes Mal bei Januar anfangen? Sprich die Monate am Kalender, bis die Kinder von jedem Monat aus weitersagen können.',
       },
     },
     '1:ordinal-numbers': {
-      title: 'Ordnungszahlen: der Erste bis der Zehnte',
+      title: 'Ordnungszahlen: vom ersten bis zum zehnten Platz',
       objective: 'Die Kinder schreiben die Ordnungszahlen 1. bis 10. der Reihe nach und ordnen Wörter wie „dritte“ und „fünfte“ einem Platz in einer Reihe zu.',
       note: {
-        mistake: 'Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“ und suchen den Platz durch Abzählen der Bilder, nicht durch Lesen des Wortes.',
-        words: 'Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der Dritte.“ Lies die Wörter gemeinsam: „der erste, der zweite, der dritte, der vierte.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“',
+        mistake: 'Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“. Beim Verbinden zählen sie vom falschen Ende der Reihe aus und nicht von der Fahne.',
+        words: 'Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der dritte Platz.“ Lies die Wörter gemeinsam: „der erste Platz, der zweite Platz, der dritte Platz, der vierte Platz.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“',
         watch: 'Prüfe den Punkt hinter jeder Ordnungszahl und ob ein Kind von der Fahne aus zählt. Die Ordnungszahl-Wörter zu lesen ist eine Leseaufgabe; lies sie mit den Kindern, die das noch nicht können.',
       },
     },
     '1:coins': {
-      title: 'Münzen zählen',
+      title: 'Geldbeträge mit Münzen zählen',
       objective: 'Die Kinder kennen die Cent-Münzen und die Euro-Münzen, sagen, was jede wert ist, und zählen die Münzen in einem Geldbeutel, zuerst in Geldbeuteln mit nur einer Sorte.',
       note: {
         mistake: 'Die Kinder zählen die Münzen, nicht die Cent: Drei 10-Cent-Münzen sind „3“. Sie halten die 5-Cent-Münze für mehr wert als die 10-Cent-Münze, weil sie größer ist. Bei zwei Sorten zählen sie alles in Einerschritten.',
@@ -233,10 +233,10 @@ module.exports = {
       },
     },
     '1:shape-attributes': {
-      title: 'Was macht eine Form zu dieser Form?',
+      title: 'Dreieck, Rechteck, Quadrat: Woran erkenne ich die Form?',
       objective: 'Die Kinder entscheiden an Seiten und Ecken, ob eine Form wirklich ein Dreieck, ein Rechteck oder ein Quadrat ist, und schreiben die Namen der Formen.',
       note: {
-        mistake: 'Die Kinder lassen eine Form mit einer krummen Seite oder einer offenen Ecke als Dreieck gelten, weil sie „so aussieht“, und lehnen ein echtes Dreieck ab, das lang, schmal oder gedreht ist. Farbe und Größe halten sie für einen Teil dessen, was eine Form ist.',
+        mistake: 'Die Kinder lassen eine Form mit einer krummen Seite oder einer offenen Ecke als Dreieck gelten, weil sie „so aussieht“, und lehnen ein echtes Dreieck ab, das lang, schmal oder gedreht ist. Farbe und Größe halten sie für Merkmale, die zur Form gehören.',
         words: 'Frage: „Was MUSS ein Dreieck haben?“ (Drei gerade Seiten, drei Ecken, und es ist geschlossen.) „Ist es wichtig, ob es groß, rot oder gedreht ist?“ (Nein.) Die Kinder nennen den Grund: „Das ist kein Dreieck, weil diese Seite krumm ist.“',
         watch: 'Achte auf Begründungen, die Seiten und Ecken nennen. Ein Kind, das „zu spitz“ oder „steht auf dem Kopf“ sagt, geht noch nach dem Aussehen. Ein Quadrat ist auch ein Rechteck; lass diese Antwort gelten und sag, warum.',
       },
@@ -264,8 +264,8 @@ module.exports = {
       objective: 'Die Kinder zählen in einer gemischten Menge jede Sorte, tragen die Anzahlen in eine Tabelle ein und lesen ab, wie viele ein Bilddiagramm in jeder Reihe zeigt.',
       note: {
         mistake: 'Die Kinder tragen eine Anzahl in die falsche Zeile der Tabelle ein, weil sie nicht auf das Bild am Anfang der Zeile schauen. Die Seiten fragen nur nach Anzahlen; wenn du zusätzlich fragst „Wie viele mehr?“, nennen die Kinder die größere Zahl und nicht den Unterschied.',
-        words: 'Sag: „Jedes Bild im Diagramm steht für ein Ding.“ Stelle drei Arten von Fragen: „Wie viele Äpfel? Wovon gibt es am meisten? Wie viele Äpfel MEHR als Birnen?“ Für „wie viele mehr“ lege die beiden Reihen untereinander und zählen die, die überstehen.',
-        watch: 'Stelle jedem Kind eine Frage nach „wie viele mehr“; sie ist die schwierige. Achte darauf, wer zwei Reihen vergleicht, indem es sie nebeneinanderhält, und wer nur die größere Zahl abliest.',
+        words: 'Sag: „Jedes Bild im Diagramm steht für ein Ding.“ Stelle drei Arten von Fragen: „Wie viele Äpfel? Wovon gibt es am meisten? Wie viele Äpfel MEHR als Birnen?“ Für „wie viele mehr“ lege die beiden Reihen untereinander und zähle die Bilder, die überstehen.',
+        watch: 'Stelle jedem Kind eine Frage nach „wie viele mehr“; sie ist die schwierige. Achte darauf, wer zwei Reihen vergleicht, indem es sie untereinanderlegt, und wer nur die größere Zahl abliest.',
       },
     },
     '1:bar-graphs': {

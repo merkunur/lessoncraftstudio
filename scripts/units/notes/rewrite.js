@@ -17,7 +17,11 @@ const REPO = path.join(__dirname, '..', '..', '..');
 const patch = JSON.parse(fs.readFileSync(path.resolve(process.argv[2]), 'utf8'));
 const KEYS = ['title', 'objective', 'mistake', 'words', 'watch'];
 const q = (s) => "'" + String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'") + "'";
-const files = fs.readdirSync(__dirname).filter((x) => /^[a-z]{2}-[a-z]+-[a-z0-9]+\.js$/.test(x)).sort().map((f) => ({ f, file: path.join(__dirname, f), mod: require(path.join(__dirname, f)), dirty: false }));
+// The language of a corrections file is the start of its name (en-….review.json, de-….review.json): the same teaching
+// point has a note in every language, and a correction must reach the note of its own language only.
+const LOC = (/^([a-z]{2})-/.exec(path.basename(process.argv[2])) || [])[1];
+if (!LOC) { console.log('ERROR  the corrections file must be named <loc>-….json'); process.exit(1); }
+const files = fs.readdirSync(__dirname).filter((x) => /^[a-z]{2}-[a-z]+-[a-z0-9]+\.js$/.test(x) && x.startsWith(LOC + '-')).sort().map((f) => ({ f, file: path.join(__dirname, f), mod: require(path.join(__dirname, f)), dirty: false }));
 const pointsFile = (loc) => path.join(REPO, 'frontend', 'content', 'units', 'points', loc + '.json');
 const direct = {}; // loc → { json, dirty }
 let n = 0;
@@ -35,7 +39,7 @@ for (const [id, c] of Object.entries(patch)) {
   let target;
   if (home) { target = home.mod.points[id]; home.dirty = true; }
   else {
-    const loc = 'en';
+    const loc = LOC;
     direct[loc] = direct[loc] || { json: JSON.parse(fs.readFileSync(pointsFile(loc), 'utf8')), dirty: false };
     target = direct[loc].json.points[id];
     if (!target) { problems.push(id + ': no note in a note file or in points/' + loc + '.json'); continue; }

@@ -15,7 +15,7 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 | `sv` Sverige (Lgr22) | 8 | 296 | 281 | 21 | 4 |
 | `es` México (Plan de Estudio 2022) | 4 | 1383 | 197 | 76 | 33 |
 | `pt` Brasil (BNCC) | 7 | 580 | 210 | 84 | 12 |
-| `fr` France (programmes) | 6 | 710 | 219 | 55 | 32 |
+| `fr` France (programmes) | 6 | 710 | 228 | 51 | 27 |
 | `nl` Nederland (kerndoelen) | 4 | 75 | 249 | 52 | 5 |
 | `fi` Suomi (OPS 2014) | 4 | 154 | — | — | — |
 | `no` Norge (LK20) | 6 | 160 | — | — | — |
@@ -195,13 +195,13 @@ A teaching point counts as **taught** when at least one of its rows says `teache
 
 | Subject | Points | Taught | Near | None |
 |---|---:|---:|---:|---:|
-| math | 158 | 133 | 18 | 7 |
+| math | 158 | 137 | 18 | 3 |
 | literacy | 71 | 59 | 11 | 1 |
-| science | 35 | 13 | 18 | 4 |
-| social | 11 | 5 | 5 | 1 |
+| science | 35 | 15 | 16 | 4 |
+| social | 11 | 7 | 3 | 1 |
 | health | 8 | 3 | 2 | 3 |
 | arts | 3 | 1 | 0 | 2 |
-| thinking | 19 | 5 | 0 | 14 |
+| thinking | 19 | 6 | 0 | 13 |
 | sel | 1 | 0 | 1 | 0 |
 
 ## `nl` — Nederland (kerndoelen)

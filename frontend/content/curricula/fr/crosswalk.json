@@ -343,7 +343,18 @@
    "by": "authored"
   },
   "K:days-of-week": {
-   "none": "The days of the week are not in the mathematics programmes listed (in France they belong to exploring / questioning the world: time).",
+   "rows": [
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "K:tally-marks": {
@@ -857,11 +868,58 @@
    "by": "authored"
   },
   "1:days-months-seasons": {
-   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+   "rows": [
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H1.3",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+   "rows": [
+    {
+     "id": "HG.CP.H1.3",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.2",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:measure-length-units": {
@@ -890,6 +948,11 @@
      "id": "M.CE1.59",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "HG.CP.H2.7",
+     "rel": "teaches",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -1405,7 +1468,23 @@
    "by": "authored"
   },
   "2:calendar": {
-   "none": "Reading a calendar is not in the mathematics objectives listed (in France: questioning the world, time).",
+   "rows": [
+    {
+     "id": "HG.CP.H2.6",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "2:flat-or-solid": {
@@ -2380,6 +2459,11 @@
      "id": "F.CP.14",
      "rel": "prepares",
      "grade": "1"
+    },
+    {
+     "id": "HG.CP.H3.1",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -2783,6 +2867,11 @@
     },
     {
      "id": "F.CP.19",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H3.1",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3332,7 +3421,12 @@
   "K:seasons": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.3",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H2.2",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3342,7 +3436,12 @@
   "K:day-night": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.H1.2",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3514,12 +3613,12 @@
   "1:sun-earth-moon": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
      "rel": "prepares",
      "grade": "1"
     },
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.H1.2",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3574,7 +3673,7 @@
   "2:moon-phases": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
      "rel": "extends",
      "grade": "1"
     }
@@ -3584,8 +3683,8 @@
   "2:day-and-night": {
    "rows": [
     {
-     "id": "HG.CP.H1",
-     "rel": "extends",
+     "id": "HG.CP.H1.2",
+     "rel": "teaches",
      "grade": "1"
     }
    ],
@@ -3678,7 +3777,12 @@
   "K:birds-eye-view": {
    "rows": [
     {
-     "id": "HG.CP.G1",
+     "id": "HG.CP.G1.10",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.G1.2",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3691,6 +3795,11 @@
      "id": "ML.M5.1",
      "rel": "teaches",
      "grade": "M5"
+    },
+    {
+     "id": "HG.CP.H3.4",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -3722,12 +3831,12 @@
   "1:map-key": {
    "rows": [
     {
-     "id": "HG.CP.G1",
-     "rel": "prepares",
+     "id": "HG.CP.G1.2",
+     "rel": "teaches",
      "grade": "1"
     },
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G1.7",
      "rel": "prepares",
      "grade": "1"
     }
@@ -3737,14 +3846,14 @@
   "1:family-generations": {
    "rows": [
     {
-     "id": "HG.CP.H3",
-     "rel": "prepares",
+     "id": "HG.CP.H3.4",
+     "rel": "teaches",
      "grade": "1"
     },
     {
-     "id": "HG.CE1.H1",
+     "id": "HG.CP.H3.5",
      "rel": "prepares",
-     "grade": "2"
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -3752,14 +3861,14 @@
   "2:cardinal-directions": {
    "rows": [
     {
-     "id": "HG.CE1.G2",
-     "rel": "prepares",
-     "grade": "2"
-    },
-    {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G1.7",
      "rel": "extends",
      "grade": "1"
+    },
+    {
+     "id": "HG.CE1.G2.7",
+     "rel": "prepares",
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -3767,12 +3876,17 @@
   "2:continents": {
    "rows": [
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G2.5",
      "rel": "teaches",
      "grade": "1"
     },
     {
-     "id": "HG.CE1.G1",
+     "id": "HG.CE1.G1.4",
+     "rel": "prepares",
+     "grade": "2"
+    },
+    {
+     "id": "HG.CE1.G2.7",
      "rel": "prepares",
      "grade": "2"
     }
@@ -3787,9 +3901,9 @@
      "grade": "2"
     },
     {
-     "id": "HG.CE1.H1",
-     "rel": "prepares",
-     "grade": "2"
+     "id": "HG.CP.H3.4",
+     "rel": "extends",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -3797,7 +3911,12 @@
   "3:continents-oceans": {
    "rows": [
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G2.5",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HG.CP.G2.1",
      "rel": "teaches",
      "grade": "1"
     }
@@ -3963,7 +4082,18 @@
    "by": "authored"
   },
   "2:find-differences": {
-   "none": "Finding differences between pictures is not named by any objective in PART 2; the sentence writing belongs to French.",
+   "rows": [
+    {
+     "id": "F.CE1.28",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "F.CE1.29",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "2:logic-grid": {

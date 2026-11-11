@@ -316,9 +316,24 @@
    "review": "author-math"
   },
   "K:days-of-week": {
-   "none": "The days of the week are not in the mathematics programmes listed (in France they belong to exploring / questioning the world: time).",
-   "why": "PART 2 holds only clock objectives under « Le repérage dans le temps »; nothing names the days.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The point had no home. The new objective « Repérer, ordonner et nommer les jours de la semaine » is word for word what the sheets ask (days in order, fill the missing days); France writes it for the CP, one year after the worksheets' year. The sheets are a first step to « la semaine en jours » of HG.CP.H2.4.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [],
+    "none": "The days of the week are not in the mathematics programmes listed (in France they belong to exploring / questioning the world: time).",
+    "why": "PART 2 holds only clock objectives under « Le repérage dans le temps »; nothing names the days.",
+    "review": "author-math"
+   }
   },
   "K:tally-marks": {
    "rows": [
@@ -809,14 +824,64 @@
    "review": "author-math"
   },
   "1:days-months-seasons": {
-   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
-   "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The point had no home; the CP history themes now give it one. Days and their abbreviations: « Repérer, ordonner et nommer les jours de la semaine »; months in order, the month before/after: « l’année est divisée en mois »; months and seasons: « Nommer les saisons ». Yesterday/today/tomorrow uses the « marqueurs temporels (hier ... demain) » of HG.CP.H3.3 but does not place events on a calendar, so that row is only prepares.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [],
+    "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+    "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
+    "review": "author-math"
+   }
   },
   "1:days-months-seasons~season-wheel": {
-   "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
-   "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HG.CP.H1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Same skill as 1:days-months-seasons, so the same new CP rows (seasons named, the year in months, the days of the week, hier/demain as a step to HG.CP.H3.3). A wheel of the seasons is in addition the cyclic picture of time that « Découvrir différentes représentations du temps : linéaire et cyclique » asks for. The point had no home before.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [],
+    "none": "Days, months and seasons are not in the mathematics programme listed (in France: questioning the world, time).",
+    "why": "The CP « repérage dans le temps » objectives of PART 2 are about the clock only.",
+    "review": "author-math"
+   }
   },
   "1:measure-length-units": {
    "rows": [
@@ -841,10 +906,14 @@
     {
      "id": "M.CE1.59",
      "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.7",
+     "rel": "teaches"
     }
    ],
-   "why": "CE1 now has « Lire l’heure sur une horloge à aiguilles (lorsque l’heure est donnée en heures entières, en heures et demi-heure ou en heures et quarts d’heure) »: the half-hour sheets do that part, so the vague CE2 row (prepares) is replaced by this exact one. Whole hours stay with CP.",
-   "review": "second-reading",
+   "why": "The two mathematics rows stay (whole hours in CP, half hours in CE1). Added: « Observer et utiliser des outils de mesure du temps : ... pendule, montre et réveil (analogiques et numériques) » is the only objective that names the digital display, and the sheets match the analog clock to the digital one.",
+   "review": "second-reading-hg",
    "was": {
     "rows": [
      {
@@ -852,12 +921,12 @@
       "rel": "teaches"
      },
      {
-      "id": "M.CE2.57",
-      "rel": "prepares"
+      "id": "M.CE1.59",
+      "rel": "teaches"
      }
     ],
-    "why": "CP asks only for « une heure donnée en heures entières »; the hour sheets teach it. Half hours are past the CP wording and lead to « Lire l'heure sur une horloge à aiguilles », which PART 2 holds only in CE2.",
-    "review": "author-math"
+    "why": "CE1 now has « Lire l’heure sur une horloge à aiguilles (lorsque l’heure est donnée en heures entières, en heures et demi-heure ou en heures et quarts d’heure) »: the half-hour sheets do that part, so the vague CE2 row (prepares) is replaced by this exact one. Whole hours stay with CP.",
+    "review": "second-reading"
    }
   },
   "1:fluency-within-20": {
@@ -1407,9 +1476,28 @@
    }
   },
   "2:calendar": {
-   "none": "Reading a calendar is not in the mathematics objectives listed (in France: questioning the world, time).",
-   "why": "The only duration objectives of PART 2 (CE2) are between two clock times « dans une même journée ».",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "HG.CP.H2.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point had no home. Reading a month page is « Utiliser divers types de calendriers : ... calendrier »; one week later and the days between two dates use « le mois en semaines, la semaine en jours »; finding the weekday of a date is the first half of « Situer et planifier sur un calendrier des évènements » (the verb tenses of that objective are not worked). All three are CP objectives: France places the month calendar one year before the worksheets' year, and no CE1 objective takes it further.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [],
+    "none": "Reading a calendar is not in the mathematics objectives listed (in France: questioning the world, time).",
+    "why": "The only duration objectives of PART 2 (CE2) are between two clock times « dans une même journée ».",
+    "review": "author-math"
+   }
   },
   "2:flat-or-solid": {
    "rows": [
@@ -2514,19 +2602,27 @@
     {
      "id": "F.CP.14",
      "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.H3.1",
+     "rel": "prepares"
     }
    ],
-   "why": "« Comprendre des histoires où l’enchainement des actions est lié au destin de personnages » is about stories read by the teacher; putting story pictures in order practises the 'enchainement des actions' without a text, so it prepares it. Added as the grande section home beside the CP objective.",
-   "review": "second-reading",
+   "why": "The two rows of the first reading stay. Added: putting pictures in the order first, next, last is the idea of before and after ahead of its formal form, « Connaitre les notions d’antériorité, de simultanéité, de postériorité »; ordered picture sequences are the usual first exercise for this objective.",
+   "review": "second-reading-hg",
    "was": {
     "rows": [
+     {
+      "id": "ML.M5.25",
+      "rel": "prepares"
+     },
      {
       "id": "F.CP.14",
       "rel": "prepares"
      }
     ],
-    "why": "Ordering the pictures of a story shows its overall sense without text; it is a step before 'Dégager le sens global d'un texte entendu ou lu'.",
-    "review": "author-rest"
+    "why": "« Comprendre des histoires où l’enchainement des actions est lié au destin de personnages » is about stories read by the teacher; putting story pictures in order practises the 'enchainement des actions' without a text, so it prepares it. Added as the grande section home beside the CP objective.",
+    "review": "second-reading"
    }
   },
   "K:sound-position": {
@@ -3056,10 +3152,28 @@
     {
      "id": "F.CP.19",
      "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.H3.1",
+     "rel": "prepares"
     }
    ],
-   "why": "Ordering the sentences of a story and saying what happens next is 'Dégager le sens global d'un texte entendu ou lu de façon autonome'; a few sentences are less than the 'dizaine de lignes' of F.CP.19.",
-   "review": "author-rest"
+   "why": "The two French rows stay. Added as a further home: what happens next and ordering sentences to pictures work on before and after (« antériorité ... postériorité ») inside a story, a step toward situating real events in time; simultaneity is not worked, so prepares.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CP.14",
+      "rel": "teaches"
+     },
+     {
+      "id": "F.CP.19",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Ordering the sentences of a story and saying what happens next is 'Dégager le sens global d'un texte entendu ou lu de façon autonome'; a few sentences are less than the 'dizaine de lignes' of F.CP.19.",
+    "review": "author-rest"
+   }
   },
   "1:word-classes": {
    "rows": [
@@ -3628,22 +3742,50 @@
   "K:seasons": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H2.2",
      "rel": "prepares"
     }
    ],
-   "why": "The cycle of the seasons is one of 'Les manifestations naturelles du temps' (CP history, theme 1); PART 2 gives only the title, and the worksheets sit one year before.",
-   "review": "author-rest"
+   "why": "The row on the whole theme HG.CP.H1 is replaced by its objective « Nommer les saisons, donner leurs caractéristiques »: sorting pictures and clothes by season and following a tree through the year is exactly naming the seasons and their features (France writes it for the CP, a year after the worksheets' year). The seasons in order as a cycle are a first meeting with the cyclic picture of time (« représentations du temps : linéaire et cyclique »).",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "The cycle of the seasons is one of 'Les manifestations naturelles du temps' (CP history, theme 1); PART 2 gives only the title, and the worksheets sit one year before.",
+    "review": "author-rest"
+   }
   },
   "K:day-night": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.H1.2",
      "rel": "prepares"
     }
    ],
-   "why": "Day and night are the first of 'Les manifestations naturelles du temps' (CP); title only, and the worksheets sit in the grande section.",
-   "review": "author-rest"
+   "why": "The row on the whole theme HG.CP.H1 is replaced by its two objectives about day and night. « Observer des manifestations naturelles du temps » asks for observing the real sky and « Expliquer l’alternance du jour et de la nuit en manipulant un globe terrestre » asks for an explanation with a globe; sorting what belongs to the day sky and the night sky on paper is the step before both.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Day and night are the first of 'Les manifestations naturelles du temps' (CP); title only, and the worksheets sit in the grande section.",
+    "review": "author-rest"
+   }
   },
   "K:weather-temperature": {
    "rows": [
@@ -3807,16 +3949,30 @@
   "1:sun-earth-moon": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
      "rel": "prepares"
     },
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.H1.2",
      "rel": "prepares"
     }
    ],
-   "why": "The phases of the Moon in order are a natural rhythm of time ('Les manifestations naturelles du temps') and the Earth as a globe belongs with 'Des représentations du monde'; PART 2 gives titles only and holds no astronomy objective, so no more than 'prepares'.",
-   "review": "author-rest"
+   "why": "The two theme rows are replaced by worded objectives. The phases of the Moon in order are a natural sign of time passing (« Observer des manifestations naturelles du temps »), and the facts about Sun and Earth come before « Expliquer l’alternance du jour et de la nuit »; neither objective is done by the sheets, so both are prepares. The row on HG.CP.G2 is dropped: now that its objectives can be read, all eight are about continents, oceans, the planisphère and where people live, none about the Sun or the Moon.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H1",
+      "rel": "prepares"
+     },
+     {
+      "id": "HG.CP.G2",
+      "rel": "prepares"
+     }
+    ],
+    "why": "The phases of the Moon in order are a natural rhythm of time ('Les manifestations naturelles du temps') and the Earth as a globe belongs with 'Des représentations du monde'; PART 2 gives titles only and holds no astronomy objective, so no more than 'prepares'.",
+    "review": "author-rest"
+   }
   },
   "2:materials": {
    "rows": [
@@ -3863,22 +4019,42 @@
   "2:moon-phases": {
    "rows": [
     {
-     "id": "HG.CP.H1",
+     "id": "HG.CP.H1.1",
      "rel": "extends"
     }
    ],
-   "why": "The lunar cycle is one of 'Les manifestations naturelles du temps' (a CP theme, title only); naming each phase in CE1 goes further on that line. No astronomy objective is held in PART 2.",
-   "review": "author-rest"
+   "why": "The theme row becomes its objective « Observer des manifestations naturelles du temps »: naming the phases of the Moon goes beyond observing them, on the same line. No objective of the programme names the Moon, so this stays an extends.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H1",
+      "rel": "extends"
+     }
+    ],
+    "why": "The lunar cycle is one of 'Les manifestations naturelles du temps' (a CP theme, title only); naming each phase in CE1 goes further on that line. No astronomy objective is held in PART 2.",
+    "review": "author-rest"
+   }
   },
   "2:day-and-night": {
    "rows": [
     {
-     "id": "HG.CP.H1",
-     "rel": "extends"
+     "id": "HG.CP.H1.2",
+     "rel": "teaches"
     }
    ],
-   "why": "The CP theme 'Les manifestations naturelles du temps' has day and night as something observed; explaining them by the turning Earth goes beyond it. PART 2 holds no astronomy objective.",
-   "review": "author-rest"
+   "why": "The theme row (extends) becomes teaches on the objective that names this content: « Expliquer l’alternance du jour et de la nuit en manipulant un globe terrestre ». The sheets give the explanation itself (the Earth turns toward or away from the Sun); only the handling of a real globe is missing. France places it in the CP, one year before the worksheets' year.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H1",
+      "rel": "extends"
+     }
+    ],
+    "why": "The CP theme 'Les manifestations naturelles du temps' has day and night as something observed; explaining them by the turning Earth goes beyond it. PART 2 holds no astronomy objective.",
+    "review": "author-rest"
+   }
   },
   "2:habitats-adaptations": {
    "rows": [
@@ -3964,22 +4140,50 @@
   "K:birds-eye-view": {
    "rows": [
     {
-     "id": "HG.CP.G1",
+     "id": "HG.CP.G1.10",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CP.G1.2",
      "rel": "prepares"
     }
    ],
-   "why": "The view from above is the step before the plan of the classroom and the school in 'Autour de l'école' (CP geography, title only).",
-   "review": "author-rest"
+   "why": "The row on the whole theme HG.CP.G1 is replaced by the two objectives that name the skill: « Reconnaitre des lieux familiers représentés sous différents angles de vue » (the sheets do it with single objects, a step before places) and « Comprendre que l’espace se représente » (the view from above is the idea behind every plan).",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.G1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "The view from above is the step before the plan of the classroom and the school in 'Autour de l'école' (CP geography, title only).",
+    "review": "author-rest"
+   }
   },
   "K:family": {
    "rows": [
     {
      "id": "ML.M5.1",
      "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.H3.4",
+     "rel": "prepares"
     }
    ],
-   "why": "Family words placed on a tree are a word corpus: 'Comprendre, mémoriser, réemployer les mots des corpus enseignés'. No CP history theme is about the family.",
-   "review": "author-rest"
+   "why": "The vocabulary row stays. Added: family words placed on a family tree are the step before « Se repérer au travers des différentes générations à partir d’exemples d’arbres généalogiques » (CP).",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "ML.M5.1",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Family words placed on a tree are a word corpus: 'Comprendre, mémoriser, réemployer les mots des corpus enseignés'. No CP history theme is about the family.",
+    "review": "author-rest"
+   }
   },
   "K:transport-flying": {
    "rows": [
@@ -4009,58 +4213,118 @@
   "1:map-key": {
    "rows": [
     {
-     "id": "HG.CP.G1",
-     "rel": "prepares"
+     "id": "HG.CP.G1.2",
+     "rel": "teaches"
     },
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G1.7",
      "rel": "prepares"
     }
    ],
-   "why": "Reading a legend is a tool for the plans of 'Autour de l'école' and for the maps of 'Des représentations du monde'; PART 2 gives only the titles, so 'prepares'.",
-   "review": "author-rest"
+   "why": "The theme row HG.CP.G1 becomes its objectives: finding each symbol of the key on the map is « Comprendre que l’espace se représente » at work, and it is a step before « Se déplacer dans l’école en s’orientant et en utilisant un plan ». The row on HG.CP.G2 is dropped: its objectives are about the globe and the planisphère, and none names a key. No objective of the programme uses the word légende.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.G1",
+      "rel": "prepares"
+     },
+     {
+      "id": "HG.CP.G2",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Reading a legend is a tool for the plans of 'Autour de l'école' and for the maps of 'Des représentations du monde'; PART 2 gives only the titles, so 'prepares'.",
+    "review": "author-rest"
+   }
   },
   "1:family-generations": {
    "rows": [
     {
-     "id": "HG.CP.H3",
-     "rel": "prepares"
+     "id": "HG.CP.H3.4",
+     "rel": "teaches"
     },
     {
-     "id": "HG.CE1.H1",
+     "id": "HG.CP.H3.5",
      "rel": "prepares"
     }
    ],
-   "why": "Ordering generations from oldest to youngest is a first way of 'Situer des évènements dans le temps' (CP) and the frame of 'Du passé proche au passé lointain' (CE1); titles only, so 'prepares'.",
-   "review": "author-rest"
+   "why": "The theme row (prepares) becomes teaches on the objective that names the skill and the year: « Se repérer au travers des différentes générations à partir d’exemples d’arbres généalogiques ». Ordering the generations from oldest to youngest is a step toward « Compléter une frise chronologique ... voire générationnelle ». The CE1 theme row is dropped: its three objectives are about the near and far past on a time line, and the CP objective is the nearer home.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.H3",
+      "rel": "prepares"
+     },
+     {
+      "id": "HG.CE1.H1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Ordering generations from oldest to youngest is a first way of 'Situer des évènements dans le temps' (CP) and the frame of 'Du passé proche au passé lointain' (CE1); titles only, so 'prepares'.",
+    "review": "author-rest"
+   }
   },
   "2:cardinal-directions": {
    "rows": [
     {
-     "id": "HG.CE1.G2",
-     "rel": "prepares"
+     "id": "HG.CP.G1.7",
+     "rel": "extends"
     },
     {
-     "id": "HG.CP.G2",
-     "rel": "extends"
+     "id": "HG.CE1.G2.7",
+     "rel": "prepares"
     }
    ],
-   "why": "North, south, east and west on a map are a tool for 'Découvrir les lieux où vivent les êtres humains' (CE1) and go further than the CP work on 'Des représentations du monde'; no title names the directions.",
-   "review": "author-rest"
+   "why": "No objective names the four cardinal points, so the two theme rows are replaced by the nearest worded objectives: using directions on a map goes beyond « s’orientant et en utilisant un plan » (CP, in the school), and it prepares « Sur un planisphère, localiser et nommer » (CE1), where north and south are needed to place the climate zones. The CP theme on the globe and the planisphère (HG.CP.G2) has no objective about orientation and is dropped.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CE1.G2",
+      "rel": "prepares"
+     },
+     {
+      "id": "HG.CP.G2",
+      "rel": "extends"
+     }
+    ],
+    "why": "North, south, east and west on a map are a tool for 'Découvrir les lieux où vivent les êtres humains' (CE1) and go further than the CP work on 'Des représentations du monde'; no title names the directions.",
+    "review": "author-rest"
+   }
   },
   "2:continents": {
    "rows": [
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G2.5",
      "rel": "teaches"
     },
     {
-     "id": "HG.CE1.G1",
+     "id": "HG.CE1.G1.4",
+     "rel": "prepares"
+    },
+    {
+     "id": "HG.CE1.G2.7",
      "rel": "prepares"
     }
    ],
-   "why": "Naming and locating the continents on a world map is work on 'Des représentations du monde', which the programme places in CP; it is the frame needed for 'La Terre est peuplée' in CE1. Titles only.",
-   "review": "author-rest"
+   "why": "The theme row HG.CP.G2 becomes its objective « Reconnaitre et localiser les continents et les océans sur un planisphère » (the continents half). The CE1 theme row becomes the two CE1 objectives that reuse these landmarks on the planisphère (« Localiser les grands foyers de peuplement sur un planisphère »; « Sur un planisphère, localiser et nommer ... »). France places the continents themselves in the CP, one year before the worksheets' year.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.G2",
+      "rel": "teaches"
+     },
+     {
+      "id": "HG.CE1.G1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Naming and locating the continents on a world map is work on 'Des représentations du monde', which the programme places in CP; it is the frame needed for 'La Terre est peuplée' in CE1. Titles only.",
+    "review": "author-rest"
+   }
   },
   "2:family-relationships": {
    "rows": [
@@ -4069,22 +4333,50 @@
      "rel": "teaches"
     },
     {
-     "id": "HG.CE1.H1",
-     "rel": "prepares"
+     "id": "HG.CP.H3.4",
+     "rel": "extends"
     }
    ],
-   "why": "Finding 'tante' or 'cousin' from a riddle is a simple inference from a short text; the generations (grand-mère) are the family frame of 'Du passé proche au passé lointain' (title only).",
-   "review": "author-rest"
+   "why": "The reading row stays. The CE1 theme row (near and far past) is replaced: the only objective about the family is « Se repérer au travers des différentes générations à partir d’exemples d’arbres généalogiques » (CP), and working out aunt, cousin and grandmother from riddles, without the tree, goes beyond it on the same line.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "F.CE1.11",
+      "rel": "teaches"
+     },
+     {
+      "id": "HG.CE1.H1",
+      "rel": "prepares"
+     }
+    ],
+    "why": "Finding 'tante' or 'cousin' from a riddle is a simple inference from a short text; the generations (grand-mère) are the family frame of 'Du passé proche au passé lointain' (title only).",
+    "review": "author-rest"
+   }
   },
   "3:continents-oceans": {
    "rows": [
     {
-     "id": "HG.CP.G2",
+     "id": "HG.CP.G2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "HG.CP.G2.1",
      "rel": "teaches"
     }
    ],
-   "why": "Continents and oceans on a world map are 'Des représentations du monde', a CP theme (title only); the CE2 geography themes are all about France.",
-   "review": "author-rest"
+   "why": "The theme row becomes the objective with the same content, « Reconnaitre et localiser les continents et les océans sur un planisphère », and its companion « Identifier la différence entre continents et océans ». Both are CP objectives: the worksheets sit two years later than France places the skill, and the CE2 geography themes are about France only.",
+   "review": "second-reading-hg",
+   "was": {
+    "rows": [
+     {
+      "id": "HG.CP.G2",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Continents and oceans on a world map are 'Des représentations du monde', a CP theme (title only); the CE2 geography themes are all about France.",
+    "review": "author-rest"
+   }
   },
   "K:healthy-food": {
    "rows": [
@@ -4258,9 +4550,24 @@
    "review": "author-math"
   },
   "2:find-differences": {
-   "none": "Finding differences between pictures is not named by any objective in PART 2; the sentence writing belongs to French.",
-   "why": "Nothing in the mathematics wording asks for it.",
-   "review": "author-math"
+   "rows": [
+    {
+     "id": "F.CE1.28",
+     "rel": "teaches"
+    },
+    {
+     "id": "F.CE1.29",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The mathematics reviewer left this point without a counterpart and said the sentence writing belongs to French. The page asks for one sentence about each difference, each built on the same pattern: 'Rédiger une phrase simple à partir d'une phrase prototypique, en changeant un puis plusieurs mots' (CE1, dès les premières semaines); it prepares 'Écrire un texte court de une à trois phrases'. Finding the differences itself has no objective.",
+   "review": "own-audit",
+   "was": {
+    "rows": [],
+    "none": "Finding differences between pictures is not named by any objective in PART 2; the sentence writing belongs to French.",
+    "why": "Nothing in the mathematics wording asks for it.",
+    "review": "author-math"
+   }
   },
   "2:logic-grid": {
    "rows": [

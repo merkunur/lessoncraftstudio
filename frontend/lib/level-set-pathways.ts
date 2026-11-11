@@ -12,7 +12,7 @@
  */
 import sequence from '@/content/level-set-pathways/sequence.json';
 import { getAxisSlug } from '@/lib/taxonomy';
-import { localizeStrand } from '@/lib/seo/strand-names';
+import { strandLabel } from '@/lib/seo/strand-names';
 import type { Ladder } from '@/lib/level-sets';
 
 export interface PathwayStrandDef { strand: string; types: string[] }
@@ -71,7 +71,7 @@ export function pathwayFor(locale: string, ladders: Ladder[], subject: string, g
   const strands = PATHWAY_SEQUENCE[subject] || [];
   const mine = ladders.filter((l) => typePosition(l.type)?.subject === subject && pathwayGradeKey(l, locale) === grade).sort(comparePathway);
   return strands
-    .map((s) => ({ strand: s.strand, strandLabel: localizeStrand(s.strand, locale), ladders: mine.filter((l) => typePosition(l.type)?.strand === s.strand) }))
+    .map((s) => ({ strand: s.strand, strandLabel: strandLabel(s.strand, locale), ladders: mine.filter((l) => typePosition(l.type)?.strand === s.strand) }))
     .filter((s) => s.ladders.length > 0);
 }
 
@@ -112,7 +112,7 @@ export function pathwayNeighbours(locale: string, ladders: Ladder[], code: strin
       previous = prev.length ? prev[prev.length - 1] : null;
     }
   }
-  return { subject: pos.subject, strand: pos.strand, strandLabel: localizeStrand(pos.strand, locale), grade, previous, next };
+  return { subject: pos.subject, strand: pos.strand, strandLabel: strandLabel(pos.strand, locale), grade, previous, next };
 }
 
 /** Anchor id of a strand group on the sets index. */

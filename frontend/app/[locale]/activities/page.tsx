@@ -14,7 +14,7 @@ import Link from "next/link";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
 import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 import { getHreflangCode } from "@/lib/schema-generator";
-import { localizeStrand } from "@/lib/seo/strand-names";
+import { strandLabel } from "@/lib/seo/strand-names";
 import {
   parseActivityFilters,
   applyFilters,
@@ -508,7 +508,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
     .map((k) => ({
       paramKey: "skill" as const,
       value: k,
-      label: localizeStrand(skillKeyToStrand.get(k) || "", locale),
+      label: strandLabel(skillKeyToStrand.get(k) || "", locale),
       count: skillCounts.get(k) || 0,
       active: filters.skill === k,
     }));
@@ -541,7 +541,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
   if (filters.grade) chips.push({ label: gradeName(filters.grade), removeHref: removeHref("grade") });
   if (filters.skill)
     chips.push({
-      label: localizeStrand(skillKeyToStrand.get(filters.skill) || "", locale),
+      label: strandLabel(skillKeyToStrand.get(filters.skill) || "", locale),
       removeHref: removeHref("skill"),
     });
   const clearAllHref = (() => {
@@ -590,7 +590,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
               title: shortTitle(r.page_title[locale]),
             }))
             .sort((a, b) => a.title.localeCompare(b.title, locale));
-          return { key: sk, label: localizeStrand(rows[0].alignment.strand, locale), items };
+          return { key: sk, label: strandLabel(rows[0].alignment.strand, locale), items };
         });
       directory.push({ grade: g, gradeLabel: gradeName(g), strands });
     }
@@ -674,7 +674,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
                     title={shortTitle(row.page_title[locale])}
                     gradeLabel={gradeName(row.alignment.grade)}
                     code={displayCode(row.alignment)}
-                    strandLabel={localizeStrand(row.alignment.strand, locale)}
+                    strandLabel={strandLabel(row.alignment.strand, locale)}
                     category={strandKey(row.alignment.strand)}
                     tryItLabel={strings.tryItLink}
                     previewUrl={previewIds.has(row.id) ? `/mini-tools/previews/${row.id}.webp` : undefined}

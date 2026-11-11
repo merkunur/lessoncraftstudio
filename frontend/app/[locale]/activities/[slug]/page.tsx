@@ -264,7 +264,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'fix-it-corner.missing-part.1-oa-d-8': { de: 'Zahlen und Operationen', pt: 'Números', nl: 'Getallen' }, // missing-number in add/sub = KMK Leitidee „Zahlen und Operationen" (OA calque „algebraisches Denken" is Sek-I; mirrors chuffer/clunks). PT: OA auto-maps → "Álgebra" (DOMAIN ERROR). Achar o número ausente da equação (soma/parcela/minuendo/subtraendo faltando), o make-10 e o modo balança = cálculo por FATO BÁSICO / fato inverso / complemento aditivo (EF01MA06; apoio EF01MA07/08) = sentido numérico → unidade Números. O número ausente PARECE "elemento faltante" e a balança PARECE relação de igualdade (Álgebra), mas não é: EF01MA10 (Álgebra 1º) é elemento ausente de SEQUÊNCIA RECURSIVA, não termo de conta, e não há habilidade de Álgebra de 1º ano sobre igualdade/equivalência (surge do 3º/4º em diante). Grade 1º nativo, SEM GRADE_OVERRIDE (como de/fr/es); ancorar em fato básico evita a armadilha do "completar" de EF02MA06 (2º)
 };
 function effStrand(row: ActivityRow, locale: string): string {
-  return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || localizeStrand(row.alignment.strand, locale);
+  return (STRAND_OVERRIDE[row.id] && STRAND_OVERRIDE[row.id][locale]) || strandLabel(row.alignment.strand, locale);
 }
 import {
   resolveActivitySlug,
@@ -280,7 +280,7 @@ import ActivityShareButton from '@/components/activities/ActivityShareButton';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
-import { localizeStrand } from '@/lib/seo/strand-names';
+import { strandLabel } from '@/lib/seo/strand-names';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';

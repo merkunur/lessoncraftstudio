@@ -7,7 +7,7 @@ import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locale
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
-import { localizeStrand } from '@/lib/seo/strand-names';
+import { localizeStrand, strandLabel } from '@/lib/seo/strand-names';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import {
   StandardMetadata,
@@ -180,7 +180,7 @@ function jsonLdFor(
       '@type': 'AlignmentObject',
       alignmentType: 'educationalSubject',
       targetName: meta.code,
-      targetDescription: localizeStrand(meta.strand, locale),
+      targetDescription: strandLabel(meta.strand, locale),
       educationalFramework:
         FRAMEWORK_BY_LOCALE[locale] ||
         (meta.framework === 'CCSS' ? 'Common Core State Standards' : meta.framework),
@@ -215,7 +215,7 @@ export default async function StandardsPage({
   const pageTitle = t('pageTitle', { code: meta.code });
   const intro = t('intro', {
     code: meta.code,
-    strand: localizeStrand(meta.strand, params.locale),
+    strand: strandLabel(meta.strand, params.locale),
     grade: localizedGrade,
   });
 
@@ -252,7 +252,7 @@ export default async function StandardsPage({
           <div className="mt-4 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cream-50 text-teal-800 text-xs font-medium">
             <span>{localizedGrade}</span>
             <span className="text-teal-400">·</span>
-            <span>{localizeStrand(meta.strand, params.locale)}</span>
+            <span>{strandLabel(meta.strand, params.locale)}</span>
             <span className="text-teal-400">·</span>
             <span className="font-mono">{meta.code}</span>
           </div>
@@ -383,7 +383,7 @@ export default async function StandardsPage({
           locale={params.locale}
           variant="standards"
           code={meta.code}
-          strand={localizeStrand(meta.strand, params.locale)}
+          strand={strandLabel(meta.strand, params.locale)}
           grade={localizedGrade}
           pageUrl={canonicalUrl(localePath(params.locale, 'standards', codeUrlSegment(meta.code)))}
         />

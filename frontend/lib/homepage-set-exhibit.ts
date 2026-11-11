@@ -21,7 +21,7 @@ import { loadLadders } from '@/lib/level-sets-db';
 import { setHref, setsIndexPath, type Ladder, type Rung } from '@/lib/level-sets';
 import { featuredLadders, rungWord, type LevelSetsT } from '@/lib/level-sets-view';
 import { typePosition, pathwayGradeKey } from '@/lib/level-set-pathways';
-import { localizeStrand } from '@/lib/seo/strand-names';
+import { strandLabel } from '@/lib/seo/strand-names';
 import { getAxisName } from '@/lib/taxonomy';
 import { levelChip } from '@/lib/worksheets-catalog';
 import { deckAssets } from '@/lib/seo/landing-content';
@@ -76,7 +76,7 @@ function fromLadder(ladder: Ladder, locale: string, t: LevelSetsT): SetExhibit {
     title: ladder.title,
     typeLabel: getAxisName('exercise-type', ladder.type, locale) || ladder.type,
     gradeLabel: cap(ladder.level ? levelChip(ladder.level, locale) : getAxisName('educational-level', gradeKey, locale) || ''),
-    strandLabel: pos ? localizeStrand(pos.strand, locale) : '',
+    strandLabel: pos ? strandLabel(pos.strand, locale) : '',
     href: setHref(locale, ladder.type, ladder.code),
     indexHref: setsIndexPath(locale),
     sheetSrc: ladder.code === EXHIBIT_CODE ? sheetArt(locale) : null,
@@ -108,7 +108,7 @@ export function fallbackExhibit(locale: string, t: LevelSetsT): SetExhibit {
     title: 'Fact Family Houses: Four Facts from Three Numbers',
     typeLabel: getAxisName('exercise-type', 'fact-families', locale) || 'Fact families',
     gradeLabel: cap(getAxisName('educational-level', 'grade-1', locale) || 'Grade 1'),
-    strandLabel: localizeStrand('Operations & Algebraic Thinking', locale),
+    strandLabel: strandLabel('Operations & Algebraic Thinking', locale),
     href: setHref('en', 'fact-families', EXHIBIT_CODE),
     indexHref: setsIndexPath(locale),
     sheetSrc: sheetArt(locale),

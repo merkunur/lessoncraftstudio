@@ -7,7 +7,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
-import { localizeStrand } from '@/lib/seo/strand-names';
+import { strandLabel } from '@/lib/seo/strand-names';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { codeUrlSegment, listAllCodes } from '@/lib/standards';
 
@@ -115,7 +115,7 @@ export default async function StandardsIndexPage({
   const byGrade = new Map<string, Map<string, typeof codes>>();
   for (const c of codes) {
     if (!byGrade.has(c.grade)) byGrade.set(c.grade, new Map());
-    const strandKey = localizeStrand(c.strand, locale);
+    const strandKey = strandLabel(c.strand, locale);
     const strands = byGrade.get(c.grade)!;
     if (!strands.has(strandKey)) strands.set(strandKey, []);
     strands.get(strandKey)!.push(c);

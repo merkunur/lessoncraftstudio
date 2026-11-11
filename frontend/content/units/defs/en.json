@@ -1288,6 +1288,152 @@
      ]
     }
    ]
+  },
+  {
+   "id": "k-letters-and-handwriting",
+   "slug": "letters-and-handwriting-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Letters and Handwriting",
+   "metaTitle": "Letters and Handwriting: Kindergarten Unit Plan",
+   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil lines, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:pre-writing-strokes",
+     "types": [
+      "K-244",
+      "K-245"
+     ]
+    },
+    {
+     "point": "K:letter-identification",
+     "types": [
+      "K-229"
+     ]
+    },
+    {
+     "point": "K:letter-case",
+     "types": [
+      "K-222"
+     ]
+    },
+    {
+     "point": "K:letter-formation",
+     "types": [
+      "K-238",
+      "K-278"
+     ]
+    },
+    {
+     "point": "K:alphabet-order",
+     "types": [
+      "K-223",
+      "K-309"
+     ]
+    },
+    {
+     "point": "K:word-sentence-tracing",
+     "types": [
+      "K-289",
+      "K-239"
+     ]
+    },
+    {
+     "point": "K:all-about-me-personal",
+     "types": [
+      "K-323",
+      "K-342"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-first-words-to-read",
+   "slug": "first-words-to-read-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "First Words to Read",
+   "metaTitle": "First Words to Read: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, sh and ch, one and many, and a or an, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:word-picture-match",
+     "types": [
+      "K-225",
+      "K-347"
+     ]
+    },
+    {
+     "point": "K:sight-words-reading",
+     "types": [
+      "K-389",
+      "K-392"
+     ]
+    },
+    {
+     "point": "K:digraphs-k",
+     "types": [
+      "K-378"
+     ]
+    },
+    {
+     "point": "K:singular-plural",
+     "types": [
+      "K-302",
+      "K-287"
+     ]
+    },
+    {
+     "point": "K:articles",
+     "types": [
+      "K-288",
+      "K-306"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-sorting-words-telling-stories",
+   "slug": "sorting-words-and-telling-stories-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Sorting Words and Telling Stories",
+   "metaTitle": "Sorting Words and Telling Stories: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:category-sort",
+     "types": [
+      "K-042",
+      "K-235"
+     ]
+    },
+    {
+     "point": "K:category-odd-one-out",
+     "types": [
+      "K-043"
+     ]
+    },
+    {
+     "point": "K:opposites",
+     "types": [
+      "K-351"
+     ]
+    },
+    {
+     "point": "K:story-sequencing",
+     "types": [
+      "K-379",
+      "K-381"
+     ]
+    }
+   ]
   }
  ]
 }

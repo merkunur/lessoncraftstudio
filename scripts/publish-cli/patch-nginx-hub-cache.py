@@ -98,10 +98,11 @@ BLOCK = """    {marker}
     # is served from disk by an earlier location with its own max-age=3600. All of
     # these were verified byte-identical across anonymous fetches and read no
     # session/cookie server-side.
+    # 2026-11-11 (Daily Teaching System, Part 6): + curriculum (same kind of page).
     # 2026-11-11 (Daily Teaching System, Part 3): + units and sub-plans. Their pages are
     # the same for everyone; the Teacher-only files are links to /api/quota/dl, which is
     # not under this location.
-    location ~ "^/[a-z]{{2}}(?:/(?:topic|activities|tools|standards|worksheet-makers|units|sub-plans)(?:/.*)?|/worksheets)?$" {{
+    location ~ "^/[a-z]{{2}}(?:/(?:topic|activities|tools|standards|worksheet-makers|units|sub-plans|curriculum)(?:/.*)?|/worksheets)?$" {{
         limit_req zone=lcsperip burst=40 nodelay;
         # prefetch (`_rsc=`) bursts: their own per-IP zone (patch-nginx-browse-burst.py, install that first)
         limit_req zone=lcsburst burst=150 nodelay;

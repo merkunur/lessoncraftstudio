@@ -354,6 +354,10 @@ tail -3 /tmp/lcs-curricula.txt
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
+# HARD (Daily Teaching System, Part 6): the curriculum pages are what assemble.js writes from the curriculum registry
+# and the units; every lesson and worksheet a line names exists; no line quotes the wording of an objective; no page
+# is thin, says free or claims an approval. Committed files only; poison: --poison.
+node /opt/lessoncraftstudio/scripts/curriculum-pages/gates.js || { echo "ERROR: a curriculum page fails its gates — node scripts/curriculum-pages/gates.js (PLAN.md Part 6)"; exit 1; }
 # HARD (Part 4.5): the German teacher notes address the teacher with "du", as the German site does; a formal
 # "Sie" or "Ihre" left by a draft fails. Committed files only.
 node /opt/lessoncraftstudio/scripts/units/notes/de-address.js --check > /tmp/lcs-de-address.txt 2>&1 || { tail -8 /tmp/lcs-de-address.txt; echo "ERROR: a German teacher note addresses the teacher formally — node scripts/units/notes/de-address.js"; exit 1; }

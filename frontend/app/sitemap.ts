@@ -19,6 +19,7 @@ import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { listedUnits, unitSiblings } from '@/lib/units';
 import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
+import { listedCurriculumPages } from '@/lib/curriculum-pages';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -395,6 +396,23 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     } catch (err) {
       console.warn('[sitemap] sub plan URLs failed; skipping:', (err as Error).message);
+    }
+
+    // CURRICULUM PAGES (Daily Teaching System, Part 6): the hub and every LIVE page of a language, read from
+    // content/curriculum-pages/pages.<loc>.json through lib/curriculum-pages.ts (a pilot page is noindex and never
+    // listed). The hub declares hreflang between the languages whose hub is live; a page of a country's own
+    // framework has no counterpart in another language.
+    try {
+      const liveCurriculumHubs: string[] = [];
+      for (const locale of locales) if ((await listedCurriculumPages(locale)).live) liveCurriculumHubs.push(locale);
+      const curriculumHubAlternates = liveCurriculumHubs.length > 1 ? buildHreflangAlternates(liveCurriculumHubs, (l) => `${baseUrl}/${l}/curriculum`, baseUrl) : undefined;
+      for (const locale of liveCurriculumHubs) {
+        const listed = await listedCurriculumPages(locale);
+        routes.push({ url: `${baseUrl}/${locale}/curriculum`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.7, ...(curriculumHubAlternates ? { alternates: { languages: curriculumHubAlternates } } : {}) });
+        for (const page of listed.pages) routes.push({ url: `${baseUrl}/${locale}/curriculum/${page.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6 });
+      }
+    } catch (err) {
+      console.warn('[sitemap] curriculum URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

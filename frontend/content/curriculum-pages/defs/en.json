@@ -1,0 +1,173 @@
+{
+ "$comment": "The curriculum pages of this language: one framework, one grade, one subject each. WRITTEN by scripts/curriculum-pages/lists/build-en-defs.js (edit the lists there). Everything on a page is filled by scripts/curriculum-pages/assemble.js from the curriculum registry and the units. status 'pilot' = noindex, in no sitemap, linked from nowhere.",
+ "pages": [
+  {
+   "id": "ccss-math-k",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-math",
+   "grade": "K",
+   "subject": "math",
+   "slug": "common-core-kindergarten-math-standards",
+   "title": "Common Core Kindergarten Math Standards: Checklist with Lessons",
+   "metaTitle": "Common Core Kindergarten Math Standards: Checklist with Lessons",
+   "metaDescription": "Kindergarten math standards checklist: every Common Core code of the grade with the lessons, worksheets, and activities that teach it, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-math-g1",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-math",
+   "grade": "1",
+   "subject": "math",
+   "slug": "common-core-1st-grade-math-standards",
+   "title": "Common Core First Grade Math Standards: Checklist with Lessons",
+   "metaTitle": "Common Core 1st Grade Math Standards: Checklist with Lessons",
+   "metaDescription": "First Grade math standards checklist: every Common Core code of the grade with the lessons, worksheets, and activities that teach it, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-math-g2",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-math",
+   "grade": "2",
+   "subject": "math",
+   "slug": "common-core-2nd-grade-math-standards",
+   "title": "Common Core Second Grade Math Standards: Checklist with Lessons",
+   "metaTitle": "Common Core 2nd Grade Math Standards: Checklist with Lessons",
+   "metaDescription": "Second Grade math standards checklist: every Common Core code of the grade with the lessons, worksheets, and activities that teach it, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-math-g3",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-math",
+   "grade": "3",
+   "subject": "math",
+   "slug": "common-core-3rd-grade-math-standards",
+   "title": "Common Core Third Grade Math Standards: Checklist with Lessons",
+   "metaTitle": "Common Core 3rd Grade Math Standards: Checklist with Lessons",
+   "metaDescription": "Third Grade math standards checklist: every Common Core code of the grade with the lessons, worksheets, and activities that teach it, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-ela-k",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-ela",
+   "grade": "K",
+   "subject": "ela",
+   "slug": "common-core-kindergarten-ela-standards",
+   "title": "Common Core Kindergarten ELA Standards: Checklist with Lessons",
+   "metaTitle": "Common Core Kindergarten ELA Standards: Checklist with Lessons",
+   "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes with the lessons and worksheets that teach them, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-ela-g1",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-ela",
+   "grade": "1",
+   "subject": "ela",
+   "slug": "common-core-1st-grade-ela-standards",
+   "title": "Common Core First Grade ELA Standards: Checklist with Lessons",
+   "metaTitle": "Common Core 1st Grade ELA Standards: Checklist with Lessons",
+   "metaDescription": "First Grade ELA standards checklist: the Common Core reading, writing, and language codes with the lessons and worksheets that teach them, and the codes not covered yet."
+  },
+  {
+   "id": "ccss-ela-g2",
+   "status": "pilot",
+   "registry": "en",
+   "framework": "ccss-ela",
+   "grade": "2",
+   "subject": "ela",
+   "slug": "common-core-2nd-grade-ela-standards",
+   "title": "Common Core Second Grade ELA Standards: Checklist with Lessons",
+   "metaTitle": "Common Core 2nd Grade ELA Standards: Checklist with Lessons",
+   "metaDescription": "Second Grade ELA standards checklist: the Common Core reading, writing, and language codes with the lessons and worksheets that teach them, and the codes not covered yet."
+  },
+  {
+   "id": "teks-math-k",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-math",
+   "grade": "K",
+   "subject": "math",
+   "slug": "teks-kindergarten-math",
+   "title": "Kindergarten Math TEKS: Checklist with Lessons",
+   "metaTitle": "Kindergarten Math TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "Kindergarten math TEKS checklist for Texas: every student expectation of the grade with the lessons, worksheets, and activities that teach it, and the ones not covered yet."
+  },
+  {
+   "id": "teks-math-g1",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-math",
+   "grade": "1",
+   "subject": "math",
+   "slug": "teks-1st-grade-math",
+   "title": "First Grade Math TEKS: Checklist with Lessons",
+   "metaTitle": "1st Grade Math TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "First Grade math TEKS checklist for Texas: every student expectation of the grade with the lessons, worksheets, and activities that teach it, and the ones not covered yet."
+  },
+  {
+   "id": "teks-math-g2",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-math",
+   "grade": "2",
+   "subject": "math",
+   "slug": "teks-2nd-grade-math",
+   "title": "Second Grade Math TEKS: Checklist with Lessons",
+   "metaTitle": "2nd Grade Math TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "Second Grade math TEKS checklist for Texas: every student expectation of the grade with the lessons, worksheets, and activities that teach it, and the ones not covered yet."
+  },
+  {
+   "id": "teks-math-g3",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-math",
+   "grade": "3",
+   "subject": "math",
+   "slug": "teks-3rd-grade-math",
+   "title": "Third Grade Math TEKS: Checklist with Lessons",
+   "metaTitle": "3rd Grade Math TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "Third Grade math TEKS checklist for Texas: every student expectation of the grade with the lessons, worksheets, and activities that teach it, and the ones not covered yet."
+  },
+  {
+   "id": "teks-elar-k",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-elar",
+   "grade": "K",
+   "subject": "ela",
+   "slug": "teks-kindergarten-elar",
+   "title": "Kindergarten ELAR TEKS: Checklist with Lessons",
+   "metaTitle": "Kindergarten ELAR TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "Kindergarten ELAR TEKS checklist for Texas: the reading and language arts expectations with the lessons and worksheets that teach them, and the ones not covered yet."
+  },
+  {
+   "id": "teks-elar-g1",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-elar",
+   "grade": "1",
+   "subject": "ela",
+   "slug": "teks-1st-grade-elar",
+   "title": "First Grade ELAR TEKS: Checklist with Lessons",
+   "metaTitle": "1st Grade ELAR TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "First Grade ELAR TEKS checklist for Texas: the reading and language arts expectations with the lessons and worksheets that teach them, and the ones not covered yet."
+  },
+  {
+   "id": "teks-elar-g2",
+   "status": "pilot",
+   "registry": "en-tx",
+   "framework": "teks-elar",
+   "grade": "2",
+   "subject": "ela",
+   "slug": "teks-2nd-grade-elar",
+   "title": "Second Grade ELAR TEKS: Checklist with Lessons",
+   "metaTitle": "2nd Grade ELAR TEKS: Checklist with Lessons and Worksheets",
+   "metaDescription": "Second Grade ELAR TEKS checklist for Texas: the reading and language arts expectations with the lessons and worksheets that teach them, and the ones not covered yet."
+  }
+ ]
+}

@@ -6,6 +6,7 @@
  * and PDFs' own strings.
  *
  *   node scripts/units/dump-for-review.js --loc=en   → out/units/review-<loc>.md
+ *   node scripts/units/dump-for-review.js --loc=en --units=k-,g1- --name=k-1   → out/units/review-<loc>-k-1.md (those units only)
  */
 'use strict';
 const fs = require('fs');
@@ -16,8 +17,11 @@ const loc = arg('loc', 'en');
 const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { if (d !== undefined) return d; throw e; } };
 const C = path.join(REPO, 'frontend', 'content');
 const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.' + loc + '.json'));
-const units = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] }).units;
-const packs = readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
+// --units=<id prefix>[,<id prefix>…] writes only those units (and no sub packs, no page strings) to review-<loc>-<name>.md
+const ONLY = arg('units', null);
+const NAME = arg('name', null);
+const units = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { units: [] }).units.filter((u) => !ONLY || ONLY.split(',').some((x) => u.id.startsWith(x)));
+const packs = ONLY ? [] : readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
 const uiU = readJson(path.join(C, 'units', 'ui.' + loc + '.json'), {});
 const uiS = readJson(path.join(C, 'sub-plans', 'ui.' + loc + '.json'), {});
 let md = '# Units and sub packs, language `' + loc + '`: everything a teacher reads\n\n';
@@ -43,9 +47,9 @@ for (const p of packs) {
   }
 }
 const list = (title, ui) => { md += '\n## ' + title + '\n\n'; for (const [k, v] of Object.entries(ui)) md += '- `' + k + '`: ' + v + '\n'; };
-if (Object.keys(uiU).length) list('The unit page\'s and the teacher guide\'s own strings (`units/ui`)', uiU);
-if (Object.keys(uiS).length) list('The sub pack page\'s and the guest teacher pages\' own strings (`sub-plans/ui`)', uiS);
-const out = path.join(REPO, 'out', 'units', 'review-' + loc + '.md');
+if (!ONLY && Object.keys(uiU).length) list('The unit page\'s and the teacher guide\'s own strings (`units/ui`)', uiU);
+if (!ONLY && Object.keys(uiS).length) list('The sub pack page\'s and the guest teacher pages\' own strings (`sub-plans/ui`)', uiS);
+const out = path.join(REPO, 'out', 'units', 'review-' + loc + (ONLY ? '-' + (NAME || 'part') : '') + '.md');
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, md);
 console.log(path.relative(REPO, out) + ': ' + units.length + ' unit(s), ' + packs.length + ' pack(s), ' + Math.round(md.length / 1024) + ' KB');

@@ -25,7 +25,7 @@ const seen = new Map();
 for (const p of packs) {
   md += '\n## PACK `' + p.id + '` — ' + p.title + ' (grade ' + p.grade + ', ' + p.position + ' in the year, ' + p.minutes + ' minutes of seat work)\n\n- page title: ' + p.metaTitle + '\n- page description: ' + p.metaDescription + '\n';
   for (const b of p.blocks) {
-    const key = b.point + ' / ' + b.type;
+    const key = b.point + ' / ' + b.type + (b.level === 'hard' ? '+' : '');
     md += '\n### `' + p.id + ' / ' + b.key + '` (' + (ui['block_' + b.key] || b.key) + ', ' + b.minutes + ' min; script `' + key + '`)\n\n- worksheet "' + b.title + '" (pages: ' + ['core', b.easy ? 'easier' : '', b.hard ? 'early finishers' : ''].filter(Boolean).join(', ') + ') — its directions: ' + b.instruction + '\n';
     if (seen.has(key)) { md += '- script: the same as in `' + seen.get(key) + '`\n'; continue; }
     seen.set(key, p.id + ' / ' + b.key);

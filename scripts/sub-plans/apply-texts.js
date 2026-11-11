@@ -33,7 +33,8 @@ for (const f of fs.readdirSync(DIR).filter((x) => /^[a-z]{2}-[a-z0-9]+\.js$/.tes
     const base = KEYS.filter((k) => t[k]);
     if (base.length && base.length < 3) { err(f + ': ' + id + ' gives a part of a script (say, first and stuck go together)'); continue; }
     for (const [type, o] of Object.entries(t.byType || {})) {
-      if (!p.types.includes(type)) err(f + ': ' + id + ' has no worksheet type ' + type);
+      // '<type>+' is the script for the type's harder page where a pack hands that page to everyone
+      if (!p.types.includes(type.replace(/[+]$/, ''))) err(f + ': ' + id + ' has no worksheet type ' + type);
       if (!Object.keys(o).length || Object.keys(o).some((k) => !KEYS.includes(k) || !o[k])) err(f + ': ' + id + ' ' + type + ' holds something other than say, first, stuck');
     }
     if (!base.length && !Object.keys(t.byType || {}).length) { err(f + ': ' + id + ' is empty'); continue; }

@@ -1,0 +1,77 @@
+{
+  "2:number-line-not-from-zero / G2-305": {
+    "stuck": "Have the child put a finger on the nearest printed number and count the small marks one by one to the arrow, saying the numbers: \"50, 51, 52, 53.\" An answer such as 3 means the child wrote the number of steps and not the number on the line. An answer such as 13 means the child counted from the left end as if it were zero; point to the 40. For your own reference, on the page for everyone the arrows point to 53 and 57 on the first line, 42 and 48 on the second, and 41 and 54 on the third."
+  },
+  "2:verb-forms / G2-335": {
+    "first": "Do two on the board. Read the third sentence with the verb as it is printed: \"On Mondays Anna sing at the club.\" Ask, \"Does that sound right?\" Fix it: \"On Mondays Anna sings at the club.\" Then do the fifth sentence the same way: \"Tom jump at the pool yesterday\" becomes \"Tom jumped at the pool yesterday.\" Tell the children to look for words like today, every day, and yesterday.",
+    "stuck": "Have the child read the sentence aloud with the verb and listen. If the sentence has \"yesterday,\" the verb tells about the past (jumped). With one person and \"today\" or \"every day,\" the verb gets an s (runs, sings). For your own reference, on the page for everyone the answers are reads, runs, sings, wanders, jumped, and dances. In the first, second, and last sentences a form for the past (read, ran, danced) also makes a correct sentence; count it as right."
+  },
+  "2:odd-even / G2-218": {
+    "first": "Write 1, 3, 5, 7, 9 on the board and leave it there. Do the first row together: for each number, point to the last digit and ask, \"Is it on our list?\" Circle the number if it is. Show with 12 that the first digit does not matter: the 1 is on our list, but 12 ends in 2, so 12 is not odd. Only the last digit counts."
+  },
+  "2:question-words / G2-356": {
+    "first": "Do the first and the third on the board. Read the first sentence and point to the highlighted word: \"Mia finds four balls.\" Ask, \"Is Mia a person, a thing, a place, or a time?\" A person, so the question starts with Who: \"Who finds four balls?\" In the third sentence, \"in the kitchen\" is highlighted. That is a place, so the question starts with Where: \"Where is Zoe?\" Write both questions with a capital letter and a question mark.",
+    "stuck": "Ask what the highlighted words tell: a person (who), a thing or an animal (what), a place (where), a time (when), or a number (how many). Then help the child say the question aloud before writing it. For your own reference, good questions for the page for everyone are: Who finds four balls? Who eats at two o'clock? Where is Zoe? When does Anna sleep? How many kiwis does Leo see? What does Emma like? What does Ava draw? Where does Ben play? Another wording that asks for the highlighted words is right, too."
+  },
+  "2:digraphs / G2-372": {
+    "stuck": "Have the child put a finger under each word and look for an s with an h right after it. Read the sentence to a child who cannot read it; the task is to find the letters. An s alone or an h alone does not count. For your own reference, on the page for everyone the counts are 2 (fish, dish), 3 (shark, fish, splash), 1 (shade), and 2 (shore, shed)."
+  },
+  "2:column-method / G2-255": {
+    "stuck": "Have the child cover the tens column with a finger and add only the ones, then cover the ones and add the tens. Fingers or dots are fine for the small sums. For your own reference, on the page for everyone the answers are 35, 84, 67, 92, 89, and 89."
+  },
+  "2:column-method / G2-256": {
+    "stuck": "Have the child cover the tens column with a finger and subtract only the ones, then cover the ones and subtract the tens. Counting back on fingers is fine for the small differences. For your own reference, on the page for everyone the answers are 41, 32, 5, 23, 11, and 53."
+  },
+  "2:column-method / G2-258": {
+    "stuck": "Have the child cover two columns with a finger and add only the column that shows, from right to left. A zero in a column changes nothing: 6 plus 0 is 6. For your own reference, on the page for everyone the answers are 963, 959, 956, 877, 663, and 668."
+  },
+  "2:equal-groups-times / G2-210": {
+    "first": "Do the first one on the board. Ask, \"How many groups? How many birds in each group?\" Read the multiplication aloud as \"2 groups of 2.\" If the times sign is new to the class, tell the children that it means \"groups of.\" Count all the birds and write 4 in the box. Show that 2 + 2 gives the same answer."
+  },
+  "2:arrays / G2-212": {
+    "first": "Do the first one together. Read \"3 × 4\" aloud as \"3 rows of 4.\" If the times sign is new to the class, tell the children that on this page it means \"rows of.\" Look at each of the three arrays: count its rows, then count how many are in one row. Circle the array with 3 rows and 4 in each row. Count all the things in it to check: there are 12."
+  },
+  "2:share-and-group / G2-216": {
+    "first": "Do the first one on the board. Count the pile together: 12. Count the bins: 3. Share by drawing: cross out one animal and draw one dot in the first bin, then one for the second bin, then one for the third, and go around again until the pile is gone. Count the dots in one bin and write the answer after \"12 ÷ 3 =\". Read it as \"12 shared among 3 is 4.\" If the division sign is new to the class, tell the children that it means \"shared equally among.\""
+  },
+  "3:word-fields / G3-397": {
+    "first": "Read the ten words aloud together. Act out two of them: ask a volunteer to creep across the front of the room, and have everyone squint. Ask, \"Is creeping a way to go or a way to look?\" Write creep in the field for go. Tell the children to cross out each word at the top once it is written in a field.",
+    "stuck": "Read the word to the child and have the child try it in two sentences: \"I ___ across the room\" and \"I ___ at the picture.\" The sentence that makes sense tells the field. Observe and watch do not fit either sentence; for those two, try \"I ___ the birds,\" which is a way to look. For your own reference, on the page for everyone the words for go are creep, stroll, hurry, and walk; the words for look are squint, gaze, peek, glance, observe, and watch."
+  },
+  "3:planets / G3-394": {
+    "first": "Read the eight names in the bank aloud together. Ask what the children already know: Which planet do we live on? Which planet is closest to the Sun? Write the first name on the board: Mercury. The children fill in the planets they know first. If the classroom has a science book or a poster of the solar system, the children may use it. After about five minutes, write all eight names on the board in order so that every child can finish. A sentence helps the children remember the order: \"My Very Excellent Mother Just Served Us Nachos.\" Each word starts with the same letter as a planet."
+  },
+  "3:latin-square-sudoku / G3-348": {
+    "first": "Hold up the page and show a row, a column, and one of the boxes with a thick border. Find a row or a box together that has only one or two empty cells. Ask, \"Which animals are already here? Which ones are missing?\" If two are missing, look up and down the column of an empty cell to see which of the two is already there. Fill in one cell together. Tell the children that this puzzle takes time and that it is fine if they do not finish it today."
+  },
+  "3:arithmetic-patterns / G3-326": {
+    "stuck": "Have the child find two numbers that stand next to each other with no gap and count up from one to the other. Where there is one empty box between two numbers, the jump is two steps: in the second row, from 48 to 60 is 12, so one step is 6. The child checks by counting on along the whole row. For your own reference, every row on the page for everyone goes up by 6."
+  },
+  "2:read-and-answer / G2-272": {
+    "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. The story and the first question say \"break\"; tell the class that this means recess. Do the first question together: read it, find the sentence in the story that answers it, and circle the answer. The children do the other questions on their own."
+  },
+  "2:compare-two-animals / G2-342": {
+    "first": "Read both fact files aloud together. Do the first fact together: \"Animal group: the ladybug is an insect, and the eagle is a bird. Same or different?\" Circle different. Write a sentence for it on the board: \"Different: A ladybug is an insect, but an eagle is a bird.\" Tell the children to write whole sentences on the lines. The fact files use short words: \"air\" means that the animal flies, and \"meat\" means that it eats other animals (a ladybug eats tiny insects). If a child questions a fact, say that the job is to compare what the two files say."
+  },
+  "2:habitats-adaptations / G2-381": {
+    "first": "Collect ocean animals aloud and write their names on the board so that the children can copy the spelling: fish, shark, whale, crab, octopus, jellyfish, sea turtle. Ask for a plant that grows in the ocean: seaweed or kelp. Each child chooses three animals, draws them in the picture, and writes their names. Then every child writes two or three sentences about one of the animals on the back of the page."
+  },
+  "3:perimeter / G3-337": {
+    "stuck": "Have the child mark a starting corner and make a small mark on each edge as it is counted, so that no edge is skipped or counted twice. A child who counts the squares inside is finding the area; point to the outside edge. A square in a corner has two outside edges, and both count. For your own reference, on the page for everyone the perimeters are 20, 14, 20, and 22."
+  },
+  "2:add-sub-within-100-practice / G2-313": {
+    "stuck": "Put two fingers on the two bricks under the empty brick and have the child add those two numbers on scrap paper, tens and ones. A wrong brick lower down makes every brick above it wrong, so check the rows from the bottom up. For your own reference, on the page for everyone the top bricks of the four walls are 60, 70, 46, and 49."
+  },
+  "1:mazes / G1-424": {
+    "first": "Hold up the page and show the rabbit, the bucket, and the four carrots. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss a carrot. The printed directions say \"tick a circle\"; tell the children that means a check mark."
+  },
+  "2:pronouns / G2-355": {
+    "stuck": "Have the child put a finger under the name or names and ask whether it is one person or more than one, and a boy or a girl. Two names joined by \"and\" become \"They.\" The rest of the sentence is copied word for word. For your own reference, on the page for everyone the new sentences start with He, They, They, They, He, She, He, and She."
+  },
+  "2:time-5-min-quarter / G2-250": {
+    "stuck": "Ask, \"Which number has the short hand just passed?\" That is the hour, even when the short hand is close to the next number. Then have the child count by fives from the 12 to the long hand: 5, 10, 15. For your own reference, on the page for everyone the clocks show 11:15, 1:45, 2:45, and 8:45."
+  },
+  "2:skip-count-3-4 / G2-207": {
+    "stuck": "Have the child add three to the number before the gap with fingers: say the number, then count three more. To check, the next printed number must be three more than the number the child wrote. For your own reference, on the page for everyone the missing numbers are 48, 51, 54 in the first row; 21, 24, 27 in the second; 39, 42, 48 in the third; 36, 42, 45 in the fourth; and 33, 39, 45 in the fifth."
+  }
+}

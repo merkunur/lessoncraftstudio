@@ -39,4 +39,8 @@ function refused(point, packGrade, position, weeks) {
   return w.to > last ? 'its unit ends in week ' + w.to + ' of ' + w.of + ' of ' + w.plan + '; a pack for the ' + position + ' of the year reviews what was taught by week ' + last : null;
 }
 
-module.exports = { planWeeks, refused, SHARE };
+// a sub day can fall on any date, and not every child keeps every holiday: no pack hands out a page whose pictures
+// belong to one
+const HOLIDAY_PAGE = /(christmas|easter|halloween|thanksgiving|valentine|st-patrick|hanukkah|4th-of-july)/;
+module.exports = {
+  HOLIDAY_PAGE, planWeeks, refused, SHARE };

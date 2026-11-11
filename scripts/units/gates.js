@@ -19,7 +19,7 @@
  *   P5  tier truth no visible string says the material is free (the plan's name comes from the pricing catalogue)
  *   P6  strings    every language's ui file holds exactly the keys of the English one
  *   P8  review     a sub pack takes nothing the plans of its grade teach after the pack's time of year (start: the first
- *                  third of the plan weeks; middle: two thirds), and the packs of a grade share no page
+ *                  third of the plan weeks; middle: two thirds), the packs of a grade share no page, and no page belongs to a holiday
  */
 'use strict';
 const fs = require('fs');
@@ -37,7 +37,7 @@ const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[-
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
-const { planWeeks, refused } = require('../sub-plans/position.js');
+const { planWeeks, refused, HOLIDAY_PAGE } = require('../sub-plans/position.js');
 function load() {
   const all = readJson(path.join(C, 'teaching-graph', 'points.json')).points;
   const d = { points: new Set(all.map((p) => p.id)), pointById: new Map(all.map((p) => [p.id, p])), loc: {} };
@@ -140,6 +140,7 @@ function run(d) {
         if (no) fail('P8', w + ' block ' + b.key + ' (' + b.point + '): ' + no);
         for (const slug of [b.core, b.easy, b.hard].filter(Boolean)) {
           const k = p.grade + ' ' + slug;
+          if (HOLIDAY_PAGE.test(slug)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' belongs to a holiday');
           if (typeOf.has(k)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' is also in pack ' + typeOf.get(k) + ' of the same grade'); else typeOf.set(k, p.id);
         }
       }
@@ -187,6 +188,7 @@ const POISONS = [
   ['a year plan that claims a full year in its description', 'P7', (d) => { d.loc.en.plans[0].metaDescription = d.loc.en.plans[0].metaDescription.replace('(not a full year)', 'for a full year'); }],
   ['a year plan row that is not what its unit says', 'P7', (d) => { d.loc.en.plans[0].units[0].lessons[0] += ' again'; }],
   ['a pack that reviews what its grade teaches later in the year', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.grade === 'K' && x.position === 'early'); p.blocks[0].point = 'K:combine-groups'; }],
+  ['a holiday page in a pack', 'P8', (d) => { d.loc.en.packs[0].blocks[0].core = 'word-problems-easy-christmas-g1213'; }],
   ['a page in two packs of one grade', 'P8', (d) => { const ps = d.loc.en.packs.filter((x) => x.grade === 'K'); ps[1].blocks[0].core = ps[0].blocks[0].core; }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],

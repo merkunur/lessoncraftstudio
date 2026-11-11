@@ -1,0 +1,220 @@
+{
+ "2:column-method / G2-256": {
+  "say": "\"These subtraction problems are written one number under the other. Subtract one place at a time. Start on the right with the ones. Then subtract the tens.\"",
+  "first": "Write the first problem on the board the way it is printed: 69 minus 28. Subtract the ones, 9 minus 8, and write 1 under the ones. Subtract the tens, 6 minus 2, and write 4 under the tens. Read the whole answer aloud: 41. None of the problems on the page for everyone needs regrouping. In the third problem the answer has only one digit, so there is only one box.",
+  "stuck": "Have the child cover the tens column with a finger and subtract only the ones, then cover the ones and subtract the tens. Counting back on fingers is fine for the small differences."
+ },
+ "2:column-method / G2-258": {
+  "say": "\"These addition problems have three-digit numbers, written one number under the other. Add one place at a time. Start on the right with the ones. Then add the tens. Then add the hundreds.\"",
+  "first": "Write the first problem on the board the way it is printed: 122 plus 841. Add the ones and write 3 under the ones. Add the tens and write 6 under the tens. Add the hundreds and write 9 under the hundreds. Read the whole answer aloud: 963. None of the problems on the page for everyone needs regrouping.",
+  "stuck": "Have the child cover two columns with a finger and add only the column that shows, from right to left. A zero in a column changes nothing: 6 plus 0 is 6."
+ },
+ "2:read-and-answer / G2-270": {
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. The answer to the last question is in the last sentence of the story. For your own reference, on the page for everyone the answers are his boot, Rex the dog, and play in the puddles."
+ },
+ "2:read-and-answer / G2-271": {
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. For your own reference, on the page for everyone the answers are three, waters the seeds, and tomatoes."
+ },
+ "2:read-and-answer / G2-272": {
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. The story says the children cannot go out for \"break\"; tell the class that this means recess. Do the first question together: read it, find the sentence in the story that answers it, and circle the answer. The children do the other questions on their own.",
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. The last question asks how Sam feels; the last sentence of the story tells what he thinks. For your own reference, on the page for everyone the answers are it is raining, a tower, and happy about the day."
+ },
+ "2:read-and-answer / G2-273": {
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. For your own reference, on the page for everyone the answers are Grandpa's, so Grandpa cannot hear, and he claps the loudest."
+ },
+ "2:prefixes / G2-376": {
+  "say": "\"A prefix is a small part at the front of a word that changes its meaning. The key at the top shows three prefixes: re means again, pre means before, and mis means wrongly. Read what each new word means. Then write the right prefix in the empty piece in front of the word.\"",
+  "first": "Read the key at the top aloud together. Do the first one together: \"to fill an empty cup back up.\" Ask, \"Is that again, before, or wrongly?\" It is again, so the prefix is re. Write it in the empty piece and have the class read the new word aloud: refill.",
+  "stuck": "Read the meaning to the child and ask for the clue: \"one more time\" or \"back\" points to re, \"early,\" \"first,\" or \"ahead\" points to pre, and \"not right\" or \"lose\" points to mis. Then the child says the new word aloud. For your own reference, on the page for everyone the words are refill, preview, misplace, prepay, reread, miscount, preheat, and misspell."
+ },
+ "2:sentence-boundaries / G2-282": {
+  "say": "\"These sentences have lost their capital letters and their end marks, and some of them are questions. Write each sentence again on the lines, the right way. Choose the end mark: a period for a sentence that tells something, a question mark for a sentence that asks something.\"",
+  "first": "Write the first sentence on the board just as it is printed: \"can you find the pear\". Ask, \"What is wrong with it?\" Fix the capital letter at the start. Then ask, \"Does this sentence tell us something, or does it ask something?\" It asks, so it ends with a question mark. Remind the children that names and the word I get a capital letter, too.",
+  "stuck": "Have the child read the sentence aloud and listen: a question on this page starts with can, where, or did. Then the child puts a finger on the first word, on every name, and on the end of the sentence, and checks each place. For your own reference, on the page for everyone sentences 1, 2, and 4 are questions; sentences 3 and 5 end with a period."
+ },
+ "2:shopping-money / G2-292": {
+  "say": "\"At the top of the page is a shelf with five fruits and their prices. Each question shows three fruits that someone buys. Find the three prices on the shelf, add them, and write the total.\"",
+  "first": "Read the five prices on the shelf aloud together. Do the first question together: find the three fruits on the shelf and write their three prices in the work space. Add two of the prices first, then add the third. Write the total in the box in front of the cent sign.",
+  "stuck": "Have the child circle the three fruits on the shelf that the question shows and write the three prices one under the other. It helps to start with two prices that make an easy number, such as 40 and 10. Drawn dimes and nickels help a child who cannot add the numbers yet."
+ },
+ "2:odd-even / G2-352": {
+  "say": "\"Read the rule at the top of the page: even numbers end in 0, 2, 4, 6, or 8, and odd numbers end in 1, 3, 5, 7, or 9. For each number, look only at the ones box. Then make a check mark in the circle under odd or under even.\"",
+  "first": "Point to the letters T and O above the boxes: tens and ones. Do the first two numbers together: for 86, cover the tens box, read the ones box, and ask, \"Is 6 on the even list or on the odd list?\" Make the check mark under even. The printed directions say \"tick the circle\"; tell the children that means a check mark.",
+  "stuck": "Have the child cover the tens box with a finger and check the ones digit against the rule at the top. For your own reference, on the page for everyone the odd numbers are 65, 37, 55, 21, 53, and 99; the even numbers are 86, 42, 32, 14, 58, and 70."
+ },
+ "2:find-differences / G2-389": {
+  "say": "\"Here are two pictures that look almost the same. Picture 2 is different in 3 places. Circle each difference in picture 2. Then write one sentence about each difference on the lines. The words in the two strips under the pictures help you.\"",
+  "first": "Find one difference together and circle it in picture 2. Read the two strips aloud: the first strip names things in the picture, and the second strip tells how a thing can change. Build a sentence together and write it on the board, for example: \"In picture 2, the sun is smaller.\" Show that every line already starts with \"In picture 2,\" so the children only finish the sentence.",
+  "stuck": "Have the child compare one small part of the two pictures at a time, from top to bottom. For the sentence, ask, \"Which thing is it? What happened to it?\" The child picks one word from each strip and says the sentence aloud before writing it. For your own reference, on the page for everyone the differences are in the sun, the clouds, and the elephant."
+ },
+ "2:symmetry-complete / G2-268": {
+  "say": "\"Each picture on this page is only half done, and it lies on its side. The dashed line is a mirror. Color squares below the line so that the bottom half matches the top half exactly.\"",
+  "first": "Do the first column of the first picture together. Count how many squares are colored in that column, starting at the dashed line and counting up. Color the same number of squares below the line, starting at the line again and counting down. Tell the children to work column by column from the left.",
+  "stuck": "Have the child put a finger on the dashed line in one column and count the colored squares going up, then count the same number going down. A square that touches the line has its partner touching the line; a square far from the line has its partner just as far away."
+ },
+ "2:number-line-not-from-zero / G2-310": {
+  "say": "\"These number lines do not start at zero. They start at 60 and go to 100. Each arrow points to a number. Find out which number it is and write it in the box.\"",
+  "first": "Draw the first number line on the board. Read the printed numbers aloud: 60, 65, 70, and so on to 100. Ask, \"How much is one small step?\" (One.) Find the printed number closest to the first arrow and count on or back from it to the arrow.",
+  "stuck": "Have the child put a finger on the nearest printed number and count the small marks one by one to the arrow. An answer that is much too small means the child counted from the left end as if it were zero; point to the 60."
+ },
+ "2:cloze-context / G2-350": {
+  "say": "\"This page has three short stories with missing words. The three little pictures above each story show the words that are missing. Find each word in the word bank at the top and write it in the box where it makes sense.\"",
+  "first": "Read the word bank aloud together. Do the first story together: name its three pictures. Read the first sentence and say \"blank\" at the gap: \"The blank flies over the clouds.\" Ask which of the three pictures fits, and write the word in the box. Tell the children to cross out each word in the bank once they have used it, and to read each story again when its three boxes are full.",
+  "stuck": "Have the child name the three pictures of the story, then read each sentence aloud and try each of the three words in the gap. The spelling is copied from the word bank. For your own reference, on the page for everyone the words are airplane, rocket, and kite in the first story; duck, turtle, and dog in the second; owl, fox, and rabbit in the third."
+ },
+ "2:synonyms / G2-373": {
+  "say": "\"Synonyms are words that mean the same thing, or almost the same, like big and large. Each word on the left has a partner on the right that means the same. Draw a line from each word to its partner.\"",
+  "first": "Read the words in both columns aloud once, because some of them may be new to the children. Do the first one together: \"yummy.\" Read down the right column and ask which word means the same. Draw a line from yummy to delicious. Tell the children to start with the pairs they are sure about; the last ones get easier.",
+  "stuck": "Read the word to the child and have the child put it into a short sentence, such as \"The soup is yummy.\" Then the child tries the words on the right in the same sentence. For your own reference, on the page for everyone the pairs are yummy and delicious, tumble and fall, speak and talk, scared and frightened, happy and cheerful, weep and cry, hushed and quiet, cluttered and messy."
+ },
+ "2:verb-forms / G2-317": {
+  "say": "\"A verb changes its form. For something he or she does today, most verbs get an s: jumps. For something that happened yesterday, the verb changes again: jumped. Fill in the missing forms in the chart. Then finish the three sentences under it.\"",
+  "first": "Look at the chart together: the verb, its form for he or she today, and its form for yesterday. Do the row for \"dance\" together by saying two sentences: \"Today she dances. Yesterday she danced.\" Write \"dances\" in the empty box. Tell the children that some verbs do not add -ed for yesterday; they say the sentence aloud and listen for what sounds right.",
+  "stuck": "Have the child say two sentences aloud for the verb: \"Today he ___. Yesterday he ___.\" For your own reference, on the page for everyone the forms are dances and danced, reads and read, jumps and jumped, wanders and wandered, runs and ran, sings and sang; the three sentences take danced, sang, and reads."
+ },
+ "2:calendar / G2-297": {
+  "say": "\"This is a calendar page for one month. Some days have a little picture on them, like a sticker. The questions ask you to find dates, to go one week ahead, and to count the days from one sticker to another.\"",
+  "first": "Read the name of the month and the names of the days across the top together. Do the first question together: find the date, put a finger on it, and go straight up to the name of the day. Then show what one week later means: one row straight down, which is 7 days.",
+  "stuck": "For a day of the week, have the child find the date and move a finger straight up its column. To count the days from one sticker to another, the child starts on the day after the first sticker and counts every day up to and including the second sticker. For your own reference, on the page for everyone the answers are Friday, 4, the 9th, the 17th, and 21."
+ },
+ "2:plant-parts / G2-364": {
+  "say": "\"This is a science page about the parts of a plant. The plant in the picture has five tags with numbers. Next to it are five sentences. Each sentence tells what one part of the plant does. Find that part on the plant and write the number of its tag in the box.\"",
+  "first": "Point to each tag on the plant and name the parts together: the flower, a leaf, the stem, the seeds in their pod, and the roots. Do one sentence together: \"takes in water from the soil.\" Ask, \"Which part of the plant is down in the soil?\" The roots; write the number of their tag in the box.",
+  "stuck": "Read the sentence to the child and ask a question about it: \"Which part is flat and green and faces the sun? Which part do bees visit? Which part is like a straw that holds everything up?\" For your own reference, on the page for everyone the answers are, from top to bottom, 2 (seeds), 4 (leaf), 5 (roots), 1 (stem), and 3 (flower)."
+ },
+ "2:describe-a-picture / G2-300": {
+  "say": "\"Look at the picture of the fruit. You are going to write your own sentences about it. There are no sentence starters this time. The word bank under the picture gives you the names of the fruits.\"",
+  "first": "Look at the picture together and read the word bank aloud; some of the names, such as persimmon and nectarine, may be new. Collect ideas aloud: Which fruit is the biggest in the picture? What colors can you see? Which one would you like to taste? Write one sentence on the board as an example: \"The lime is bigger than the pineapple in this picture.\" Tell the children to write at least four sentences and to end each one with a period.",
+  "stuck": "Ask the child a question about the picture: \"Which fruit would you pick? What color is it? What could you make with it?\" Have the child say the sentence aloud before writing it. The names of the fruits are copied from the word bank. A child who finishes early turns the sentences into a short story on the back of the page."
+ },
+ "2:mystery-animal / G2-343": {
+  "say": "\"Now it is time to read. Each card has five clues about a mystery animal. Read all five clues. Then find the animal in the picture bank at the top, write its name on the line, and draw it in the box.\"",
+  "first": "Name the six animals in the picture bank together. Read the first card aloud. After each clue ask, \"Which animals can it still be?\" and let the children rule animals out: it has fur, so it is not the lizard, the ant, or the eagle; it cannot fly, so it is not the bat. Tell the children that one clue is never enough; all five clues have to fit.",
+  "stuck": "Have the child read one clue at a time and put a finger on every animal in the bank that fits it, lifting a finger each time a clue rules an animal out. A quick sketch in the box is enough. For your own reference, on the page for everyone the animals are the bear (the wolf does not eat plants), the ant, and the eagle."
+ },
+ "2:question-words / G2-357": {
+  "say": "\"Look at the four pictures at the top of the page. You are going to ask questions about them. Each line already starts with a question word: Who, What, Where, When, Why, How. Finish each question, and end it with a question mark.\"",
+  "first": "Name the four pictures together: a builder, a pear, a house, and a clock. Make up a question for the first line aloud and write it on the board with its question mark: \"Who builds the house?\" Ask two children for a question that starts with What. Tell the class that any question that fits one of the pictures and starts with the printed word is right, and that nobody has to answer the questions.",
+  "stuck": "Point to one picture and ask the child what they would like to know about it. Then help the child say it as a question that starts with the printed word, for example: \"Where does the builder work? When does the clock ring? Why is the pear red and yellow? How tall is the house?\""
+ },
+ "2:compare-two-animals / G2-342": {
+  "say": "\"Here are two fact files, one for a ladybug and one for an eagle. Each file gives four facts about its animal. Compare the facts one by one and circle same or different. Then write two things that are the same and two things that are different.\"",
+  "first": "Read both fact files aloud together. Do the first fact together: \"Animal group: the ladybug is an insect, and the eagle is a bird. Same or different?\" Circle different. Write a sentence for it on the board: \"Different: A ladybug is an insect, but an eagle is a bird.\" Tell the children to write whole sentences on the lines.",
+  "stuck": "Have the child put one finger on a fact in the ladybug's file and one finger on the same line in the eagle's file and read both aloud. For the sentences, give the child a frame: \"Both animals ___.\" and \"The ladybug ___, but the eagle ___.\" For your own reference, on the page for everyone the animal group and the body covering are different; where the animals live and what they eat are the same."
+ },
+ "2:pronouns / G2-354": {
+  "say": "\"Words like his, her, and their tell who something belongs to. Look at who owns the thing in each row. Read the sentence and circle the word that fits: his, her, or their.\"",
+  "first": "Do the first row together: \"This is Jack. This is … drum.\" Ask, \"Is Jack one boy, one girl, or more than one person?\" Circle his. Then do the first row that has two names: \"These are Lily and Emma. This is … dog.\" Two people own the dog, so the word is their.",
+  "stuck": "Have the child count the people in the little picture: one boy takes his, one girl takes her, and two people take their, whether they are boys or girls. For your own reference, on the page for everyone the answers are his, his, her, their, her, their, their, and her."
+ },
+ "2:root-words / G2-359": {
+  "say": "\"The ten words at the top come from two word families. Some are built from the root word play, and some are built from the root word help. Read each word and write it on a line of the wall that stands on its root word.\"",
+  "first": "Read the ten words aloud together. Do two words together: \"replay.\" Ask, \"Which small word is inside it, play or help?\" Write replay on a line above play. Then do \"helper\" the same way. Tell the children to cross out each word at the top once it is written on a wall.",
+  "stuck": "Have the child look for the letters of play or of help inside the word and underline them. For your own reference, on the page for everyone the play wall gets replay, playfully, playtime, player, and playful; the help wall gets helplessly, helper, helpfully, helpful, and helpless."
+ },
+ "2:habitats-adaptations / G2-381": {
+  "say": "\"A habitat is the place where an animal or a plant lives. The picture on this page shows the ocean. Draw three animals that live in the ocean. Write their names on the lines, write the name of one plant that grows there, and circle the word that fits the ocean: wet or dry.\"",
+  "first": "Collect ocean animals aloud and write their names on the board so that the children can copy the spelling: fish, shark, whale, crab, octopus, jellyfish, sea turtle. Ask for a plant that grows in the ocean: seaweed or kelp. Each child chooses three animals, draws them in the picture, and writes their names. A child who finishes early writes two sentences about one of the animals on the back of the page.",
+  "stuck": "Ask the child, \"Which animals have you seen at an aquarium, in a book, or in a movie about the sea?\" Any animal that lives in the ocean is right, and the drawing does not have to be neat. Point to the board for the spelling."
+ },
+ "2:add-sub-within-100-practice / G2-393": {
+  "say": "\"The truck has to bring a number to the crane. The truck starts with 46, and the crane needs 54. There are several roads. Every sign on a road changes the number: plus 1, minus 10, and so on. Find the road that ends on the crane's number.\"",
+  "first": "Hold up the page and show the truck with its number, the crane with its number, and one sign. Follow one road for two signs together and write the new number in the box of each sign: \"46 plus 1 is 47.\" Tell the children to choose one road, write the new number in every box along it, and try another road if the last number is not 54.",
+  "stuck": "Have the child write the new number in each sign's box before going on to the next sign. If a road ends on the wrong number, the child checks each step on that road first and then tries another road. Scrap paper is fine for the steps."
+ },
+ "3:rounding / G3-323": {
+  "say": "\"Rounding means finding the nearest round number. Each number line on this page goes from one hundred to the next. Look at the dot. Is it closer to the hundred on the left or to the hundred on the right? Circle the hundred it is closer to.\"",
+  "first": "Draw the first number line on the board with 800 at one end, 900 at the other, and the dot. Mark the halfway point and ask what number it is: 850. Ask, \"Is the dot before the halfway point or after it?\" It is before, so it is closer to 800. Circle 800.",
+  "stuck": "Have the child put a finger on the dot and count the small steps to each end of the line; the end with fewer steps is closer. Each small step is 10. For your own reference, on the page for everyone the answers are 800, 0, and 500."
+ },
+ "3:word-fields / G3-397": {
+  "say": "\"Some words belong together because they are about the same thing. The ten words at the top are all ways to go or ways to look. Write each word in the field where it belongs: the field for go or the field for look.\"",
+  "first": "Read the ten words aloud together. Act out two of them: have one child creep across the front of the room, and have everyone squint. Ask, \"Is creeping a way to go or a way to look?\" Write creep in the field for go. Tell the children to cross out each word at the top once it is written in a field.",
+  "stuck": "Read the word to the child and have the child try it in two sentences: \"I ___ across the room\" and \"I ___ at the picture.\" The sentence that makes sense tells the field. For your own reference, on the page for everyone the words for go are creep, stroll, hurry, and walk; the words for look are squint, gaze, peek, glance, observe, and watch."
+ },
+ "3:times-tables / G3-358": {
+  "say": "\"This is multiplication practice with facts from different times tables. Multiply, and write each product in the box. Do the facts you know by heart first. Then go back and figure out the others.\"",
+  "first": "Do the first two facts on the board. For 6 times 3, ask the children how they know the answer: by heart, by counting by threes six times, or by turning the fact around to 3 times 6. Accept every way that gives the right answer.",
+  "stuck": "Have the child turn the fact around if that is easier, count by the smaller number on fingers, or start from a fact the child knows: 5 times 7 is 35, and two more sevens make 49. For your own reference, on the page for everyone the products are 18, 42, 21, 27, 10, 6, 14, 40, 49, 16, 15, and 32."
+ },
+ "3:muldiv-word-problems / G3-371": {
+  "say": "\"These are multiplication word problems. Each story tells about equal groups, and the picture under the story shows them. Read the story, write the multiplication in the work space, and write the answer in the box.\"",
+  "first": "Read the first story aloud together. Ask, \"How many rows are there? How many swans are in each row?\" Write the multiplication on the board: 3 times 2 equals 6. Count the swans in the picture to check. Have the children write the answer as a sentence on the lines: \"There are 6 swans altogether.\"",
+  "stuck": "Ask the child to underline the two numbers in the story and to say what each number counts: the groups, or how many are in each group. The picture shows the groups, and counting them is fine as a check. For your own reference, on the page for everyone the answers are 6 swans and 16 zebras."
+ },
+ "3:muldiv-word-problems / G3-372": {
+  "say": "\"These are division word problems about sharing. Each story shares a number of things equally. Deal the things into the boxes, one at a time. Then write how many are in each box.\"",
+  "first": "Read the first story aloud together: 20 persimmons, 5 groups. Show dealing on the board: cross out one fruit and draw a dot in the first box, then one in the second box, and go around all five boxes again and again until the fruit is gone. Count the dots in one box. Write the division in the work space, 20 divided by 5 equals 4, write the answer in the box, and write an answer sentence on the lines.",
+  "stuck": "Have the child cross out each fruit as its dot is drawn and give every box one dot before any box gets a second one. A child who knows the multiplication fact may use it: 5 times what makes 20? For your own reference, on the page for everyone the answers are 4 persimmons in each group and 5 papayas in each row."
+ },
+ "3:planets / G3-394": {
+  "say": "\"This is a science page about the eight planets. They all travel around the Sun, each one at its own distance. Write the name of each planet on its line, starting with the planet closest to the Sun. Use every name in the bank one time.\"",
+  "first": "Read the eight names in the bank aloud together. Ask what the children already know: Which planet do we live on? Which planet is closest to the Sun? Write the first name on the board: Mercury. The children fill in the planets they know first. If the classroom has a science book or a poster of the solar system, the children may use it.",
+  "stuck": "Tell the child that Earth is the third planet from the Sun, and give the others two at a time if the child does not know them; nobody is expected to know the order by heart, and writing the names correctly is part of the task. For your own reference, the order is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+ },
+ "3:latin-square-sudoku / G3-348": {
+  "say": "\"This is a picture sudoku with six animals. Every row, every column, and every box with a thick border needs all six animals, each one exactly one time. Draw the missing animals in the empty cells. A quick sketch is enough.\"",
+  "first": "Hold up the page and show a row, a column, and one of the boxes with a thick border. Find a row or a box together that has only one or two empty cells. Ask, \"Which animals are already here? Which ones are missing?\" If two are missing, look up and down the column of an empty cell to see which of the two is already there. Fill in one cell together. Tell the children that this puzzle takes time; whoever does not finish may take the page home.",
+  "stuck": "Have the child choose the row, column, or box with the fewest empty cells and go through the six animals in the strip at the bottom one by one, pointing to each one that is already there. To check a finished row or column, the child runs a finger along it: no animal may be there twice."
+ },
+ "3:arithmetic-patterns / G3-326": {
+  "say": "\"Each row of numbers follows a rule: the numbers go up by the same amount every time. Find the rule of the row. Then write the missing numbers.\"",
+  "first": "Write the first row on the board the way it is printed. Find two numbers that stand side by side with no gap between them: 108 and 114. Ask, \"How far is it from 108 to 114?\" Six. Check the rule with 84 and 96: that is two steps of six. Fill in the missing numbers by adding six each time. Tell the children to find the rule of every row the same way.",
+  "stuck": "Have the child find two numbers that stand next to each other with no gap and count up from one to the other. Where there is a gap between two numbers, the jump is two steps. The child checks by counting on along the whole row. For your own reference, every row on the page for everyone goes up by 6."
+ },
+ "3:root-words-in-context / G3-399": {
+  "say": "\"The four words above each stone are a word family: they are all built from the root word on the stone. Each word fits into one of the four sentences below it. Read each sentence and write the word that fits in the gap. Use every word one time.\"",
+  "first": "Read the four words of the first family aloud together: enjoy, enjoyment, joyful, joyfully. Point to their root word, joy. Do the first sentence together by trying the words in the gap: \"The dog jumped enjoy when we came home? The dog jumped joyfully when we came home.\" Tell the children to cross out each word once they have used it.",
+  "stuck": "Read the sentence to the child once with each of the words that are left and ask which one sounds right. The child starts with the sentences they are sure about; the last word goes in the last gap. For your own reference, on the page for everyone the words are, in order, joyfully, enjoy, enjoyment, joyful, then sleeper, sleepy, sleepiness, sleepily."
+ },
+ "3:column-regrouping / G3-361": {
+  "say": "\"These are addition problems with three-digit numbers, written one number under the other. Add one place at a time, starting with the ones. When a place adds up to ten or more, regroup: write the ones digit of that sum and carry the 1 to the next place.\"",
+  "first": "Write the first problem on the board the way it is printed: 261 plus 285. Add the ones: 1 plus 5 is 6. Add the tens: 6 plus 8 is 14, so write 4 under the tens and carry the 1 into the small box above the hundreds. Add the hundreds: 2 plus 2 plus the carried 1 is 5. Read the whole answer aloud: 546. Point out that the small boxes above each problem are for the carried digits.",
+  "stuck": "Have the child cover all but one column and say its sum aloud. If the sum is ten or more, ask, \"Which digit stays here, and which digit is carried?\" The most common slip is to forget the carried 1; the child checks the small box before adding the next column. For your own reference, on the page for everyone the answers are 546, 521, 708, 909, 889, and 703."
+ },
+ "3:mult-div-relationship / G3-311": {
+  "say": "\"Multiplication and division belong together. One array gives a whole family of four facts: two multiplications and two divisions. Use each array to finish all four number sentences next to it.\"",
+  "first": "Draw the first array on the board: 2 rows of 5. Count the rows and count how many are in one row. Finish the two multiplications: 2 times 5 is 10, and 5 times 2 is 10. Then ask, \"Ten shapes in 2 equal rows: how many are in each row?\" Finish the two divisions: 10 divided by 2 is 5, and 10 divided by 5 is 2. Show that all four facts use the same three numbers.",
+  "stuck": "Have the child count the rows, the shapes in one row, and all the shapes, and write these three numbers next to the array. Every number sentence of the family uses only these three numbers. For a division, ask, \"How many groups of 5 can you see in the array?\" For your own reference, on the page for everyone the four arrays hold 10, 30, 15, and 12 shapes."
+ },
+ "3:magic-squares / G3-349": {
+  "say": "\"In a magic square, every row and every column adds up to the same number: the magic number. On this page the magic number is 15. Fill in the empty cells so that every row and every column adds up to 15.\"",
+  "first": "Draw the first square on the board. Find a row or a column with only one empty cell: the top row has 6 and 1. Ask, \"6 and 1 make 7. How many more do we need to get to 15?\" Write 8 in the empty cell. Tell the children to look for a row or a column with just one empty cell each time; every number they fill in opens up the next one.",
+  "stuck": "Have the child run a finger along a row or a column with one empty cell, add the two numbers that are there, and count up to 15. To check a finished square, the child adds every row and every column. For your own reference, on the page for everyone the rows of the first square are 6, 1, 8, then 7, 5, 3, then 2, 9, 4; the rows of the second square are 6, 7, 2, then 1, 5, 9, then 8, 3, 4."
+ },
+ "3:input-output / G3-328": {
+  "say": "\"Each number machine has a rule, printed at the top. A number goes in on the left, the machine uses its rule, and a new number comes out on the right. Fill in the missing numbers. Watch out: sometimes the number that went in is the one that is missing.\"",
+  "first": "Do the first machine together. Its rule is plus 7. Ask, \"14 goes in. What comes out?\" Write 21. Then do the row where the box on the left is empty: \"Something went in, the machine added 7, and 22 came out. What went in?\" Work backward: 22 minus 7 is 15. Check it by putting 15 through the machine.",
+  "stuck": "Ask the child, \"Is the missing number before the arrow or after it?\" After the arrow, the child uses the rule. Before the arrow, the child does the opposite and subtracts, then checks by putting the number through the machine. For your own reference, on the page for everyone the first machine gives 21, 24, 15, and 44; the second gives 37, 14, 36, and 4."
+ },
+ "3:person-words / G3-398": {
+  "say": "\"Many words for people are made from a verb and an ending. Someone who teaches is a teacher. Look at each person, read the word next to them, and write the word for the person who does it in the empty brick.\"",
+  "first": "Do the first two on the board. Ask, \"Someone who runs is a …?\" Write runner and point out the double n. Ask, \"Someone who takes photographs is a …?\" Write photographer. Tell the children that every person word on this page ends in -er.",
+  "stuck": "Have the child say the sentence aloud: \"Someone who ___ is a ___.\" For the spelling: a word that ends in e only adds an r, as in dance and dancer; run doubles its last letter. For your own reference, on the page for everyone the words are runner, photographer, dancer, gardener, teacher, baker, farmer, and singer."
+ },
+ "3:area-model / G3-313": {
+  "say": "\"Each rectangle on this page is made of squares. The number of squares is the area of the rectangle. Count the rows, and count how many squares are in one row. Then finish the multiplication to find how many squares there are in all.\"",
+  "first": "Draw the first rectangle on the board: 3 rows of 5 squares. Count the rows, then count the squares in one row. Say, \"3 rows of 5: 3 times 5 is 15.\" Count the squares one by one to check. Say the answer as a sentence: \"The area is 15 squares.\"",
+  "stuck": "Have the child run a finger down the left side to count the rows and along the top to count the squares in one row. A child who does not know the fact adds the rows, 5 plus 5 plus 5, or counts every square. For your own reference, on the page for everyone the answers are 15, 16, 20, and 27."
+ },
+ "3:water-cycle / G3-385": {
+  "say": "\"This is a science page about the water cycle: the way water travels from the sea up into the sky and back down again. The diagram has four numbers. Read the four words in the bank, and write each word on the line that has the same number as its place in the diagram.\"",
+  "first": "Follow the arrows in the diagram together, starting at the sea: the Sun warms the water and it rises into the air; high up it cools and forms a cloud; it falls as rain; it runs back to the sea. Read the four words aloud and say each one in plain words: evaporation means water rises into the air, condensation means it turns into the tiny drops of a cloud, precipitation means rain or snow falls, and collection means the water gathers in rivers, lakes, and the sea. Do number 1 together.",
+  "stuck": "Point to the number in the diagram and ask, \"What is the water doing here: going up, making a cloud, falling, or gathering?\" Then read the four words to the child again. For your own reference, on the page for everyone 1 is evaporation, 2 is condensation, 3 is precipitation, and 4 is collection."
+ },
+ "3:fraction-unit-build / G3-315": {
+  "say": "\"Each shape on this page is cut into equal parts, and some of the parts are shaded. Write the fraction that the shaded parts show. The bottom number tells how many equal parts the whole shape has. The top number tells how many of them are shaded.\"",
+  "first": "Draw the first shape on the board: a bar cut into four equal parts, with two of them shaded. Ask, \"How many equal parts does the bar have in all?\" Write 4 in the bottom box. Ask, \"How many parts are shaded?\" Write 2 in the top box. Read the fraction aloud: two fourths.",
+  "stuck": "Have the child count all the parts first, shaded or not, and write that number at the bottom; then the child counts only the shaded parts for the top. The most common slip is to count only the parts that are not shaded for the bottom number."
+ },
+ "3:perimeter / G3-337": {
+  "say": "\"The perimeter is the distance all the way around a shape, like a walk along its edge. Each rectangle on this page is made of squares. Count the edges of the small squares all the way around the outside of the rectangle. Write the perimeter in the box.\"",
+  "first": "Draw the first rectangle on the board. Mark a starting corner with a dot. Count the edges along the top, down the side, along the bottom, and back up to the dot, making a small mark on each edge as you count it. Write the total in the box. Then show the shortcut: count each of the four sides and add the four numbers.",
+  "stuck": "Have the child mark a starting corner and make a small mark on each edge as it is counted, so that no edge is skipped or counted twice. A child who counts the squares inside is finding the area; point to the outside edge. A square in a corner has two outside edges, and both count."
+ },
+ "3:life-cycles-compare / G3-393": {
+  "say": "\"This is a science page about two animals that change a great deal as they grow: the butterfly and the frog. Read each sentence. If it is true for the butterfly, put a check under the butterfly. If it is true for the frog, put a check under the frog. If it is true for both, check both.\"",
+  "first": "Ask the children how each animal grows, and write the two chains on the board: egg, caterpillar, chrysalis, butterfly; and egg, tadpole, young frog, frog. Do the first sentence together: \"The grown-up catches insects to eat.\" That is true for the frog only, so only the frog gets a check. Tell the children that some sentences are true for both animals.",
+  "stuck": "Read the sentence to the child and ask about each animal separately: \"Is that true for the butterfly? Is it true for the frog?\" Point to the two chains on the board. For your own reference, on the page for everyone the answers are, from top to bottom: frog, butterfly, both, frog, butterfly, frog, both, butterfly."
+ }
+}

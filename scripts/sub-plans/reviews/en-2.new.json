@@ -1,0 +1,235 @@
+{
+ "1:fluency-within-20 / G1-216": {
+  "say": "\"This is math you already know: adding with numbers up to 20. Do the ones you know first. Then go back to the others.\"",
+  "first": "Do the first two problems on the board. Ask how the children got their answers and accept every way that gives the right answer: counting on from the bigger number, making ten, or just knowing it.",
+  "stuck": "Have the child start at the bigger number and count on the smaller one with fingers: for 13 + 6, say \"13\" and count on six more. Drawing dots is fine, too, even though the page says to solve the problems in your head."
+ },
+ "1:read-and-follow / G1-252": {
+  "say": "\"Now it is time to read. This page has six sentences and six colors. Each sentence tells you how many pictures to color and which color to use. Read carefully, then color exactly what it says.\"",
+  "first": "Make sure every child has the six crayons or colored pencils named at the top of the page. Read the first sentence aloud together. Ask: \"Which pictures do we color? How many? Which color?\" Color them together. Then the children read the other sentences on their own.",
+  "stuck": "Have the child read the sentence aloud and underline the number word and the color word. Each box holds other pictures as well; only the ones the sentence names get colored, and only as many as it says."
+ },
+ "1:read-and-follow / G1-338": {
+  "say": "\"Now it is time to read. At the top is a row of animals. Each sentence tells you which animals to circle in that row. Read the sentence, circle exactly what it says, and check the little box when you are done.\"",
+  "first": "Name the animals in the row together. Read the first sentence aloud together. Ask: \"Which animals does it name? Is it one, or all of them?\" Circle them together and check the box.",
+  "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Remind the child that \"all\" means every one of that animal in the row, and that some animals are in the row more than once."
+ },
+ "1:mazes / G1-423": {
+  "say": "\"Four animals are flying kites and a balloon, and the strings are tangled. Follow each string from the animal up to its kite or balloon. Then write the animal's number in the box above it.\"",
+  "first": "Hold up the page and put your finger on animal number 1. Follow its string slowly with your finger, straight through each crossing, up to the top. Write a 1 in the box above that kite. The children do the other three.",
+  "stuck": "Have the child trace the string with a finger first and then with a colored pencil, one color for each animal. At a crossing the string goes straight on; it does not turn onto the other string."
+ },
+ "1:mazes / G1-424": {
+  "say": "\"The rabbit wants to get to the bucket and pick up every carrot on the way. There is one rule: the rabbit may not use the same path twice. Check a circle each time you pick up a carrot.\"",
+  "first": "Hold up the page and show the rabbit, the bucket, and the four carrots. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss a carrot.",
+  "stuck": "Have the child put a finger on each carrot first and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and tries the carrots in another order."
+ },
+ "1:story-sequencing / G1-401": {
+  "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
+  "first": "Do the first story together by talking, not drawing. Ask a child to say what the first picture shows and another child what the last picture shows. Ask: \"What must have happened in between?\" Take two or three ideas. Then each child draws the middle picture.",
+  "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
+ },
+ "1:cloze / G1-367": {
+  "say": "\"Each sentence has a gap, and under it are two words. Look at the picture and read the sentence. Circle the word that fits, and write it in the box.\"",
+  "first": "Do the first sentence together. Read it aloud and say \"blank\" at the gap. Read the two words under it. Try each one in the sentence and ask, \"Does that make sense? Does it match the picture?\" Circle the right word and write it in the box.",
+  "stuck": "Read the sentence with the child, one word at a time, and have the child say it once with each of the two words. The picture next to the sentence shows which one is meant."
+ },
+ "1:one-ten-more-less / G1-132": {
+  "say": "\"Look at the number in the middle. On the left, write the number that is 10 less. On the right, write the number that is 10 more.\"",
+  "first": "Do the first one on the board. Ask: \"Ten more than 36. Which digit changes, the tens or the ones?\" Show that only the tens digit changes: 26, 36, 46. Count by tens from another number together, for example 7, 17, 27, 37.",
+  "stuck": "If the classroom has a hundreds chart, have the child find the number on it: the number straight above is 10 less, and the number straight below is 10 more. Without a chart, have the child cover the ones digit and change the tens digit by one."
+ },
+ "2:word-classes / G2-285": {
+  "say": "\"A noun names a person, an animal, a place, or a thing. A verb is something you can do. An adjective tells what something is like. Read the nine words and write each one in the right bin.\"",
+  "first": "Read the nine words aloud together. Sort one of each kind on the board with a test sentence: \"I can see a ___\" for a noun, \"I can ___\" for a verb, and \"The dolphin is ___\" for an adjective. The nouns on this page have a little picture next to them. Cross out each word once it is in a bin.",
+  "stuck": "Read the word to the child and have the child try the three test sentences aloud. The one that sounds right tells the bin. For your own reference, on the page for everyone the nouns are dolphin, seagull, and giraffe; the verbs are swim, sit, and run; the adjectives are slow, purple, and red."
+ },
+ "2:sentence-boundaries / G2-274": {
+  "say": "\"These sentences have lost their capital letters and their end marks. Write each sentence again on the lines, the right way. A sentence starts with a capital letter. A name starts with a capital letter. The word I is always a capital. And every sentence needs an end mark.\"",
+  "first": "Write the first sentence on the board just as it is printed. Ask: \"What is wrong with it?\" Fix it together: a capital letter at the start, a capital letter for each name and for the word I, and a period at the end. The children write the corrected sentence on the lines.",
+  "stuck": "Have the child put a finger on the first word, then on every name, then on the end of the sentence, and ask at each place, \"Capital letter? End mark?\" The three small pictures above the first sentence show the three things to check."
+ },
+ "2:hundreds-chart-moves / G2-321": {
+  "say": "\"Each puzzle starts at a number and has three arrows. Every arrow changes the number: up is 10 less, down is 10 more, left is 1 less, and right is 1 more. Follow the arrows and write the number where you land.\"",
+  "first": "Point to the key at the top of the page and read it aloud together. Do the first puzzle on the board, one arrow at a time, and write the number after each arrow: for example, \"30, one less is 29, ten more is 39, one less is 38.\"",
+  "stuck": "Have the child write the new number above each arrow before going on to the next one. If the classroom has a hundreds chart, the child can put a finger on the starting number and move one square for each arrow."
+ },
+ "2:hundred-more-less / G2-226": {
+  "say": "\"Look at the number in the middle. On the left, write the number that is 100 less. On the right, write the number that is 100 more.\"",
+  "first": "Do the first one on the board. Ask: \"A hundred more. Which digit changes? Which two stay the same?\" Show that only the hundreds digit changes: 249, 349, 449. Count by hundreds from another number together.",
+  "stuck": "Have the child cover the tens and the ones with a finger and look only at the hundreds digit: one less for 100 less, one more for 100 more. The two covered digits are copied as they are."
+ },
+ "2:find-differences / G2-388": {
+  "say": "\"Here is a spot-the-difference puzzle with two pairs of pictures. In each pair, the picture on the right is different in 5 places. Circle each difference, and check a box under the pair for every one you find.\"",
+  "first": "Find one difference in the top pair together: ask a child to point to it and say what changed. Circle it in the picture on the right and check off one box. The printed directions say \"tick a box\"; tell the children that means a check mark.",
+  "stuck": "Have the child cover part of both pictures of a pair with a hand and compare one small part at a time, from top to bottom. Things can be missing, added, or changed."
+ },
+ "2:skip-count-5-10-100 / G2-314": {
+  "say": "\"This is a dot-to-dot, and you count by tens. Start at the orange dot at 10. Draw a line to 20, then to 30, and keep going to 100.\"",
+  "first": "Count by tens from 10 to 100 aloud together. Find the orange dot at 10 together. Ask, \"What comes after 10 when we count by tens?\" Draw the first line together. The row of numbers at the bottom of the page shows the order.",
+  "stuck": "Have the child say the number they are on and add ten; that is the dot to look for. The numbers in the row at the bottom can be crossed off one by one."
+ },
+ "2:skip-count-5-10-100 / G2-304": {
+  "say": "\"This is a dot-to-dot, and you count by fives. Start at the orange dot at 5. Draw a line to 10, then to 15, and keep going to 50.\"",
+  "first": "Count by fives from 5 to 50 aloud together. Find the orange dot at 5 together. Ask, \"What comes after 5 when we count by fives?\" Draw the first line together. The row of numbers at the bottom of the page shows the order.",
+  "stuck": "Have the child say the number they are on and add five; that is the dot to look for. The numbers in the row at the bottom can be crossed off one by one."
+ },
+ "2:skip-count-5-10-100 / G2-392": {
+  "say": "\"The balloon wants to float up to the rainbow. It can only go from cloud to cloud by counting by fives: 5, 10, 15, and so on, all the way to 100. Draw its way.\"",
+  "first": "Count by fives to 100 aloud together. Find the balloon and the cloud with the 5 together. Ask, \"Which cloud comes next?\" Draw the line to 10 together. Tell the children that some clouds are traps: a number can be on the page more than once, and only the one next to the path counts.",
+  "stuck": "Have the child say the number they are on and add five, then look only at the clouds that touch the path from where they are. If the path ends, the child goes back to the last cloud and looks for the same number somewhere else."
+ },
+ "2:plural-nouns / G2-349": {
+  "say": "\"Look at the pictures in each row. There is more than one. Write the word for more than one in the box, so that the sentence is complete.\"",
+  "first": "Do the first sentence together. Ask: \"What are these? One cow, three…?\" Write the word on the board and point to the s at the end. Read the whole sentence aloud. The children do the other sentences the same way.",
+  "stuck": "Ask the child to name one of the pictures, then say \"one ___, two ___\" aloud. A careful spelling that you can read is enough. For your own reference, on the page for everyone the pictures are cows, lions, hens, planes, penguins, monkeys, balls, and bats; other words that fit the picture, such as chickens or airplanes, are right as well."
+ },
+ "2:pronouns / G2-355": {
+  "say": "\"We do not say a name over and over. We use a short word in its place: he, she, or they. Read each sentence. Then write it again on the lines with he, she, or they in place of the name or names.\"",
+  "first": "Do the first sentence on the board: \"Ben rides a bike.\" Ask, \"Who is the sentence about? One boy, one girl, or more than one person?\" Write the new sentence: \"He rides a bike.\" Point out the capital letter at the start and the period at the end.",
+  "stuck": "Have the child put a finger under the name or names and ask whether it is one person or more than one, and a boy or a girl. Two names joined by \"and\" become \"They.\" The rest of the sentence is copied word for word."
+ },
+ "2:number-line-not-from-zero / G2-305": {
+  "say": "\"These number lines do not start at zero. They start at 40 and go to 60. Each arrow points to a number. Find out which number it is and write it in the box.\"",
+  "first": "Draw the first number line on the board. Read the printed numbers aloud: 40, 45, 50, 55, 60. Ask, \"How much is one small step?\" (One.) Find the printed number closest to the first arrow and count on or back from it to the arrow.",
+  "stuck": "Have the child put a finger on the nearest printed number and count the small marks one by one to the arrow. An answer such as 3 or 7 means the child counted from the left end as if it were zero; point to the 40."
+ },
+ "2:column-method / G2-255": {
+  "say": "\"These addition problems are written one number under the other. Add one place at a time. Start on the right with the ones. Then add the tens.\"",
+  "first": "Write the first problem on the board the way it is printed. Add the ones and write the answer under the ones. Add the tens and write the answer under the tens. Read the whole answer aloud. None of the problems on the page for everyone needs regrouping.",
+  "stuck": "Have the child cover the tens column with a finger and add only the ones, then cover the ones and add the tens. Fingers or dots are fine for the small sums."
+ },
+ "2:calendar / G2-296": {
+  "say": "\"This is a calendar page for one month. The questions under it ask you to find things on the calendar. Read each question and write the answer in the box.\"",
+  "first": "Read the name of the month and the names of the days across the top together. Do the first question together: find the date, put a finger on it, and go straight up to the name of the day. Write the answer. Read the other questions aloud once before the children start.",
+  "stuck": "For a question about a day of the week, have the child find the day's name at the top and move a finger straight down its column. For a question about a picture, the child looks for the little picture inside the calendar. For your own reference, on the page for everyone the answers are Thursday, 4, the 21st, and 31."
+ },
+ "2:digraphs / G2-372": {
+  "say": "\"The letters s and h together make one sound: sh, as in ship. Read each sentence. Circle every sh you find. Then count them and write the number in the box.\"",
+  "first": "Write \"sh\" on the board and have the class make the sound. Read the first sentence aloud together. Find each sh together, at the beginning, in the middle, or at the end of a word, and circle it. Count the circles and write the number in the box.",
+  "stuck": "Have the child put a finger under each word and look for an s with an h right after it. Read the sentence to a child who cannot read it; the task is to find the letters. An s alone or an h alone does not count."
+ },
+ "2:synonyms / G2-358": {
+  "say": "\"Synonyms are words that mean the same thing, or almost the same, like big and large. Read the big word on each card. Then circle the word under it that means the same.\"",
+  "first": "Do the first card together. Read the big word and the four words under it aloud. Try each one in a sentence: \"The room was quiet. The room was sleepy? The room was hushed?\" Circle the one that keeps the meaning. Read the words of the other cards aloud once, because some of them are new to second graders.",
+  "stuck": "Read the words of the card to the child and have the child put each one into the same short sentence. For your own reference, on the page for everyone the answers are quiet and hushed, shut and close, yell and shout, jump and leap, amazed and astonished, noisy and loud, peaceful and calm, grumpy and angry."
+ },
+ "2:question-words / G2-356": {
+  "say": "\"Each sentence on this page is an answer. Some of its words are highlighted. Write the question that asks for those words. Start with a question word: who, what, where, when, or how many.\"",
+  "first": "Do the first two on the board. Read the sentence and point to the highlighted words: \"Mia finds four balls.\" Ask, \"Is Mia a person, a thing, a place, or a time?\" A person, so the question starts with Who: \"Who finds four balls?\" Write it with a capital letter and a question mark.",
+  "stuck": "Ask what the highlighted words tell: a person (who), a thing (what), a place (where), a time (when), or a number (how many). Then help the child say the question aloud before writing it. For example: \"Zoe is in the kitchen\" becomes \"Where is Zoe?\" and \"Anna sleeps at three o'clock\" becomes \"When does Anna sleep?\""
+ },
+ "2:time-5-min-quarter / G2-250": {
+  "say": "\"Every clock on this page shows a quarter hour: something o'clock, quarter past, half past, or quarter to. Read each clock and circle the time that matches.\"",
+  "first": "Draw a clock on the board. Show where the long hand points for each quarter hour: on the 12 for :00, on the 3 for :15, on the 6 for :30, and on the 9 for :45. Do the first clock on the page together: read the short hand for the hour first, then the long hand for the minutes.",
+  "stuck": "Ask, \"Which number has the short hand just passed?\" That is the hour, even when the short hand is close to the next number. Then have the child count by fives from the 12 to the long hand: 5, 10, 15."
+ },
+ "2:shopping-money / G2-291": {
+  "say": "\"At the top of the page is a shelf with five toys and their prices. Each question tells you what someone buys. Find the prices on the shelf, add them, and write the total.\"",
+  "first": "Read the five prices on the shelf aloud together. Do the first question together: find the two things on the shelf, write their prices in the work space, and add them. Write the total in the box in front of the cent sign.",
+  "stuck": "Have the child circle the two things on the shelf that the question shows, then write the two prices one under the other and add the ones first. Coins or drawn dimes and pennies help a child who cannot add the numbers yet."
+ },
+ "2:grid-coordinates / G2-279": {
+  "say": "\"This grid hides a picture. Every square has a name made of a letter and a number, like B2. The lists at the bottom tell you which squares to color and in which color.\"",
+  "first": "Make sure every child has the crayons the lists name. Show how to find a square: put one finger on the letter at the top and one finger on the number at the side, and move them until they meet. Find the first square of the first list together and color it. Tell the children to cross out each code once its square is colored.",
+  "stuck": "Have the child say the code aloud, letter first, then find the letter's column and slide a finger down to the number's row. A square in the wrong place shows in the picture; the child can check its code again."
+ },
+ "2:grid-coordinates / G2-308": {
+  "say": "\"This grid already has a picture colored in. Every square has a name made of a letter and a number, like B2. Write the name of each colored square in the list for its color.\"",
+  "first": "Show how to name a square: go straight up from the square to its letter and straight to the side to its number, and write the letter first. Do the first colored square together and write its code in the first box of the list. Tell the children to put a small dot on each square once its code is written.",
+  "stuck": "Have the child put one finger on the square and move it straight up to read the letter, then straight to the left to read the number. The order of the codes in the list does not matter, as long as every colored square is there once."
+ },
+ "2:add-sub-within-100-practice / G2-313": {
+  "say": "\"This is a number wall. Each brick is the sum of the two bricks right under it. Start at the bottom and build every wall to the top. The numbers get bigger than twenty, so you may add on paper.\"",
+  "first": "Draw the first wall on the board. Point to two bricks that sit side by side in the bottom row and to the brick that rests on both of them. Add them and write the sum in that brick. Fill in the second row together, then let the children finish the wall.",
+  "stuck": "Put two fingers on the two bricks under the empty brick and have the child add those two numbers on scrap paper, tens and ones. A wrong brick lower down makes every brick above it wrong, so check the rows from the bottom up."
+ },
+ "2:compound-words / G2-330": {
+  "say": "\"A compound word is made of two smaller words, like sun and flower in sunflower. Each word on this page is printed letter by letter. Draw one line where the second word starts.\"",
+  "first": "Write \"bluebell\" on the board with spaces between the letters. Ask, \"Which two words do you hear?\" Draw a line between blue and bell. Have the children say both words. They do the other words the same way.",
+  "stuck": "Have the child say the whole word and clap once for each of the two small words, then cover the end of the word with a finger and move it until a real word shows. For your own reference, on the page for everyone the words are blue-bell, book-shelf, sand-castle, scare-crow, rain-bow, butter-cup, key-board, and earth-worm."
+ },
+ "2:verb-forms / G2-335": {
+  "say": "\"Each sentence has a gap, and the verb for the gap is in the little chip at the end. Write the verb in the form that fits the sentence. Sometimes it needs an s. Sometimes it happened yesterday and needs a different ending.\"",
+  "first": "Do the first two on the board. Read the sentence with the verb as it is printed: \"Lily read in the garden today.\" Ask, \"Does that sound right?\" Fix it: \"Lily reads in the garden today.\" Tell the children to look for words like today, every day, and yesterday.",
+  "stuck": "Have the child read the sentence aloud with the verb and listen. If the sentence has \"yesterday,\" the verb tells about the past (jumped). With one person and \"today\" or \"every day,\" the verb gets an s (runs, sings)."
+ },
+ "2:measure-with-ruler / G2-235": {
+  "say": "\"Each shape sits on a ruler and starts at 0. Read the ruler at the end of the shape and write how many units long the shape is.\"",
+  "first": "Do the first one together. Put a finger on the 0, where the shape starts, and slide it to the place where the shape ends. Read the number there and write it in the box. Say the answer with the unit: \"It is 3 units long.\"",
+  "stuck": "Have the child put a finger on the right end of the shape and move it straight down to the ruler. The number under the finger is the length. A child who counts the marks gets one too many; count the spaces between the marks instead."
+ },
+ "2:bar-graphs / G2-239": {
+  "say": "\"At the top is a tally chart: it shows how many of each thing were counted. Read each tally. Then color a bar in the graph for each one, as tall as its number.\"",
+  "first": "Draw a bundle of tally marks on the board and remind the class that a bundle with a mark across is five. Read the first tally together and write its number next to it. Find that picture under the graph and color its bar from the bottom up to the number.",
+  "stuck": "Have the child write the number next to each tally first: five for each bundle, then the single marks. For the bar, the child puts a finger on that number at the side of the graph and colors up to its line."
+ },
+ "2:skip-count-3-4 / G2-207": {
+  "say": "\"On this page we count by threes: 3, 6, 9, 12. Some numbers are missing. Count by threes and write each missing number. The rows do not start at 3.\"",
+  "first": "Count by threes to 30 aloud together. Do the first row on the board: read the numbers that are there and ask, \"How far is it from one number to the next?\" Add three to the last number before the gap and write the answer in.",
+  "stuck": "Have the child add three to the number before the gap with fingers: say the number, then count three more. To check, the next printed number must be three more than the number the child wrote."
+ },
+ "2:read-and-answer / G2-254": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. Then read each question and circle the best answer. The answers are in the story.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, find the sentence in the story that answers it, and circle the answer. The children do the other questions on their own.",
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. If the child cannot read the story alone, read it with them. For your own reference, on the page for everyone the answers are her grandpa, a rabbit, and in the evening."
+ },
+ "2:read-and-answer / G2-269": {
+  "stuck": "Read the question to the child and ask them to put a finger on the sentence in the story that tells the answer. If the child cannot read the story alone, read it with them. For your own reference, on the page for everyone the answers are yellow, in the park, and the wind is strong."
+ },
+ "2:root-words / G2-375": {
+  "say": "\"The three words on each card are a word family: they are all built from one small word, the root word. Circle the part that all three words share. Then write the root word in the empty stone.\"",
+  "first": "Look at the first card together; it is already done. Read the three words and the root word: cheerful, cheerfully, cheerily, cheer. Do the second card on the board: read the three words, circle the letters they share, and write the root word. Read the words of the other cards aloud once.",
+  "stuck": "Have the child cover the beginnings and the endings of the words with a finger until a small real word shows. The root word must be a word by itself. For your own reference, on the page for everyone the root words are cheer, use, play, act, power, joy, care, sleep, and rest."
+ },
+ "2:describe-a-picture / G2-299": {
+  "say": "\"Look at the picture. You are going to write three sentences about it. The beginning of each sentence is already on the line. The word bank under the picture gives you the names of the animals.\"",
+  "first": "Look at the picture together and read the word bank aloud. Say a sentence together for the first starter: \"I can see a fox and a panda.\" Write it on the board. Tell the children to finish each sentence with their own words and to end it with a period.",
+  "stuck": "Ask the child a question about the picture: \"Which animals can you see? What is the panda doing? Which one do you like, and why?\" Have the child say the sentence aloud before writing it. A child who finishes early writes one more sentence on the last lines."
+ },
+ "2:equal-groups-times / G2-210": {
+  "say": "\"The animals on this page stand in equal groups: every group has the same number. Count the groups. Count how many are in one group. Then finish the multiplication and write how many there are in all.\"",
+  "first": "Do the first one on the board. Ask, \"How many groups? How many birds in each group?\" Read the multiplication aloud as \"2 groups of 2.\" Count all the birds and write 4 in the box. Show that 2 + 2 gives the same answer.",
+  "stuck": "Have the child touch each group and say how many are in it, then add the groups: for 3 groups of 3, \"3 and 3 and 3.\" Counting every animal one by one is fine as a check. For your own reference, on the page for everyone the answers are 4, 9, 8, and 4."
+ },
+ "2:arrays / G2-212": {
+  "say": "\"An array is a set of things in rows, with the same number in every row. Each problem shows a multiplication and three arrays. Circle the array that matches the multiplication.\"",
+  "first": "Do the first one together. Read \"3 × 4\" aloud as \"3 rows of 4.\" Look at each of the three arrays: count its rows, then count how many are in one row. Circle the array with 3 rows and 4 in each row. Count all the things in it to check: there are 12.",
+  "stuck": "Have the child run a finger along each row of an array and count the rows first, then count the things in the top row. On this page the first number is the number of rows and the second number is how many are in each row."
+ },
+ "2:symmetry-line / G2-247": {
+  "say": "\"A mirror line cuts a picture into two halves that match exactly, like a picture and its reflection in a mirror. Look at the dashed line on each animal. If both sides match, circle the check. If they do not match, circle the cross.\"",
+  "first": "Do the first two together. Ask about the first animal, \"If we folded the picture on the dashed line, would one side land exactly on the other?\" Have a child point to parts that match on both sides. For the second animal, ask what is on one side and missing on the other.",
+  "stuck": "Have the child cover one side of the picture with a hand, look at the other side, and then switch. Ask, \"Is there a wing here? Is there one on the other side, too?\" For your own reference, on the page for everyone the bat and the sheep have a mirror line; the swan and the seagull do not."
+ },
+ "2:symmetry-complete / G2-266": {
+  "say": "\"Each picture on this page is only half done. The dashed line is a mirror. Color squares on the empty side so that both sides match exactly.\"",
+  "first": "Do the first row of the first picture together. Count how many squares are colored in that row, starting at the dashed line and counting away from it. Color the same number of squares on the other side, starting at the line again. Tell the children to work row by row from the top.",
+  "stuck": "Have the child put a finger on the dashed line in one row and count the colored squares away from the line, then count the same number on the other side. A square next to the line has its partner next to the line; a square far from the line has its partner just as far away."
+ },
+ "2:odd-even / G2-218": {
+  "say": "\"Even numbers can be split into two equal groups. Odd numbers always have one left over. You only need to look at the last digit. If a number ends in 1, 3, 5, 7, or 9, it is odd. Circle every odd number.\"",
+  "first": "Write 1, 3, 5, 7, 9 on the board and leave it there. Do the first row together: for each number, point to the last digit and ask, \"Is it on our list?\" Circle the number if it is. Show with 12 that a big first digit does not matter; only the last digit counts.",
+  "stuck": "Have the child cover every digit but the last one with a finger and check it against the list on the board. For your own reference, on the page for everyone the odd numbers are 63, 47, 93, 21, 37, 73, 87, and 43."
+ },
+ "2:synonyms~doing-stage / G2-374": {
+  "say": "\"Writers do not use the word said over and over. They pick a word that tells how something was said. Read each sentence. Choose the word from the bubble that fits best, and write it in the box.\"",
+  "first": "Read the six words in the bubble aloud together, and have the children say \"Wait for me!\" in a shout and then in a whisper. Do the first sentence together: try two or three of the words in the gap and ask which one fits someone running after a bus. Tell the children to cross out each word once they have used it; every word is used one time.",
+  "stuck": "Read the sentence to the child and ask how the person would say it: loudly, quietly, as a question? Then read the words that are left in the bubble. For your own reference, on the page for everyone the answers are shouted, whispered, asked, promised, explained, and answered."
+ },
+ "2:retell-with-starters / G2-378": {
+  "say": "\"The four pictures tell a story from beginning to end. Write what happens in each picture on its lines. The first word is already there: First, Next, Then, Finally. The word bank at the top gives you words you may need.\"",
+  "first": "Look at the four pictures together and have four children each tell what happens in one. Read the word bank aloud. Say a sentence for the first picture together and write it on the board: \"First, the boy gets his paint and his brush.\" Tell the children to write one or two sentences for each picture and to end each one with a period.",
+  "stuck": "Point to one picture and ask, \"What is the boy doing here? What is different from the picture before?\" Have the child say the sentence aloud, starting with the printed word, before writing it. A word that is spelled by its sounds is fine."
+ },
+ "2:equal-shares-shapes / G2-228": {
+  "say": "\"Each shape on this page is cut into two equal parts. Each part is one half. Color one half of each shape.\"",
+  "first": "Draw a circle on the board with a line down the middle. Ask, \"How many parts? Are they the same size?\" Color one part and say, \"I colored one half.\" Point to the fraction on the page and read it: \"one half: 1 of 2 equal parts.\"",
+  "stuck": "Have the child count the parts of the shape and then color exactly one of them, all the way to its edges. It does not matter which of the two parts is colored. A child who colors the whole shape counts the parts again with you."
+ },
+ "2:share-and-group / G2-216": {
+  "say": "\"Sharing fairly means everyone gets the same number. Each problem has a pile of animals and some bins. Share the pile equally into the bins. Then write how many each bin gets.\"",
+  "first": "Do the first one on the board. Count the pile together: 12. Count the bins: 3. Share by drawing: cross out one animal and draw one dot in the first bin, then one for the second bin, then one for the third, and go around again until the pile is gone. Count the dots in one bin and write the answer after \"12 ÷ 3 =\". Read it as \"12 shared among 3 is 4.\"",
+  "stuck": "Have the child cross out each animal as its dot is drawn, and give every bin one dot before any bin gets a second one. At the end every bin must have the same number of dots. For your own reference, on the page for everyone the answers are 4, 3, 5, and 4."
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "1:tens-and-ones / G1-120": {
+  "say": "\"Each picture shows a number built from tens and ones. The long rods are tens, and the small cubes are ones. Count the tens. Count the ones. Then write the number.\"",
+  "first": "Do the first one on the board. Draw the rods as lines and the cubes as dots. Count the rods by tens together: 10, 20, 30, and so on. Then count on by ones for the cubes. Write the number and point to its digits: the tens digit tells how many rods, and the ones digit tells how many cubes.",
+  "stuck": "Have the child touch each rod and count by tens, then touch each cube and keep counting by ones. A child who writes the digits in the wrong order says the number aloud first and then writes what they hear."
+ },
+ "1:fluency-within-20 / G1-217": {
+  "say": "\"This is math you already know: subtracting with numbers up to 20. Do the ones you know first. Then go back to the others.\"",
+  "first": "Do the first two problems on the board. Ask how the children got their answers and accept every way that gives the right answer: counting back, counting up from the smaller number, or just knowing it.",
+  "stuck": "Have the child count up from the smaller number to the bigger one on fingers: for 17 minus 9, say \"9\" and count up to 17. Drawing dots and crossing them out is fine, too. For your own reference, on the page for everyone the answers are 4, 12, 2, 8, 8, 8, 5, 2, 10, 5, 3, and 4."
+ },
+ "2:family-relationships / G2-362": {
+  "say": "\"Now it is time to read and think. Each sentence is a riddle about Tom's family. Read the riddle and work it out step by step. Then write the right family word from the box on the line. You will use each word more than one time.\"",
+  "first": "Read the four words in the box aloud together. Do the first riddle on the board in two steps: \"Tom's dad's mom. First: who is Tom's dad's mom to Tom's dad? His mother. Then: what do we call our dad's mother?\" Write grandma. Tell the children that some families use other names, such as Nana or Abuela; on this page they use the words in the box.",
+  "stuck": "Have the child cover the end of the riddle and say who the first two words are (\"Tom's mom\"), then add the last word (\"her brother\"). A quick sketch of three stick people helps. For your own reference, on the page for everyone the answers are grandma, uncle, grandma, aunt, grandpa, aunt, grandpa, and uncle."
+ },
+ "2:equal-groups-times / G2-209": {
+  "say": "\"The animals on this page stand in equal groups: every ring holds the same number. Count how many are in one ring. Then finish the addition and write how many there are in all.\"",
+  "first": "Do the first one on the board. Ask, \"How many rings? How many animals in each ring?\" Read the addition aloud: \"4 plus 4.\" Count all the animals to check and write 8 in the box. Say it one more way: \"2 groups of 4 make 8.\"",
+  "stuck": "Have the child touch each ring and say how many are in it, then add the numbers one after another: for four rings of 2, \"2, 4, 6, 8.\" Counting every animal one by one is fine as a check. For your own reference, on the page for everyone the answers are 8, 8, 8, and 6."
+ },
+ "2:equal-shares-shapes / G2-232": {
+  "say": "\"Equal parts are parts that are exactly the same size. Look at each shape. If it is cut into equal parts, circle it. If some parts are bigger than others, leave it alone.\"",
+  "first": "Draw two bars on the board: one cut into three parts of the same size, and one cut into a big part and two small parts. Ask, \"In which bar would everyone get a fair share?\" Circle that one. Do the first row of the page together the same way.",
+  "stuck": "Have the child put a finger on one part and ask, \"Is every other part just as big as this one?\" If one part is clearly bigger or smaller, the shape is not circled. For your own reference, on the page for everyone the shapes with equal parts are the third shape in row 1, the first and the third in row 2, the second and the third in row 3, and the third in row 4."
+ },
+ "2:shopping-money / G2-293": {
+  "say": "\"At the top of the page is a shelf with five toy animals and their prices. Each question tells you what someone buys and shows the coins they pay with. Count the coins. Then figure out how much money they get back. That money is called the change.\"",
+  "first": "Read the five prices on the shelf aloud together. Do the first question together: find the price of the animal Mia buys. Count her coins: two quarters are 50 cents. Ask, \"She pays 50 cents, and the toy costs less than that. How much does she get back?\" Count up from the price to 50, write the subtraction in the work space, and write the change in the box. The printed directions say \"work out the change\"; tell the children that means figure it out.",
+  "stuck": "Have the child write the price and count up to 50 by tens or fives, keeping track on fingers. Drawn dimes help: draw 50 cents as five dimes and cross out the price. For your own reference, on the page for everyone the answers are 10 cents and 20 cents."
+ },
+ "3:column-regrouping / G3-359": {
+  "say": "\"These are addition problems, written one number under the other. Add one place at a time, starting with the ones. When a place adds up to ten or more, regroup: write the ones digit of that sum and carry the 1 to the next place.\"",
+  "first": "Write the second problem on the board the way it is printed: 18 plus 55. Add the ones: 8 plus 5 is 13, so write 3 under the ones and carry the 1 into the small box above the tens. Add the tens: 1 plus 5 plus the carried 1 is 7. Read the whole answer aloud: 73. Tell the children that in some problems the tens add up to ten or more; then the answer has three digits.",
+  "stuck": "Have the child cover all but one column and say its sum aloud. If the sum is ten or more, ask, \"Which digit stays here, and which digit is carried?\" The child checks the small box before adding the next column. For your own reference, on the page for everyone the answers are 149, 73, 123, 134, 117, and 54."
+ },
+ "3:column-regrouping / G3-360": {
+  "say": "\"These are subtraction problems, written one number under the other. Subtract one place at a time, starting with the ones. When the top digit is too small, regroup: take one ten from the tens place and turn it into ten ones.\"",
+  "first": "Write the first problem on the board the way it is printed: 73 minus 17. Look at the ones: \"3 minus 7. Can we do that?\" No, so regroup: cross out the 7 tens and write 6, and turn the 3 ones into 13. Now 13 minus 7 is 6, and 6 tens minus 1 ten is 5 tens. Read the whole answer aloud: 56.",
+  "stuck": "Have the child ask at the ones place, \"Is the top digit big enough?\" If not, the child crosses out the tens digit, writes one less above it, and puts a small 1 in front of the ones digit. The most common slip is to subtract the smaller digit from the bigger one no matter which is on top. For your own reference, on the page for everyone the answers are 56, 37, 19, 36, 27, and 48."
+ },
+ "2:read-and-answer / G2-270+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to these questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, and ask which sentence in the story helps us decide. (The sentences are numbered.) Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child say the answer aloud first and start it with part of the question: \"Ben needs his boot because …\" For your own reference, on the page for everyone the answers are happy and rainy; for question 3, any answer that says Ben wants to go out and play in the puddles is right."
+ },
+ "2:read-and-answer / G2-254+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to these questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, and ask which sentences in the story help us decide. (The sentences are numbered.) Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child say the answer aloud first and start it with part of the question: \"Emma checks the garden because …\" For your own reference, on the page for everyone the answers are \"She takes good care of the plants\" and \"eat them\"; for question 3, any answer that says a rabbit ate two carrots is right."
+ },
+ "2:read-and-answer / G2-269+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to the first two questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, and ask which sentence in the story helps us decide. (The sentences are numbered.) Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child find the sentence about the boy and say the answer aloud before writing it. For your own reference, on the page for everyone the answers are \"happy and proud\" and \"a windy day\"; for question 3, the boy claps and says the kite looks like a little dragon."
+ },
+ "2:read-and-answer / G2-271+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to these questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, and ask which sentences in the story help us decide. (The sentences are numbered.) Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child say the answer aloud first and start it with part of the question: \"Owen takes a photo because …\" For your own reference, on the page for everyone the answers are \"the plants grow very tall\" and \"proud\"; for question 3, Owen wants to show the photo to his class."
+ },
+ "2:read-and-answer / G2-272+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to these questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. The story says the children cannot go out for \"break\" and that the teacher opens the game \"cupboard\"; tell the class that this means recess and a cabinet. Do the first question together: read it, and ask which sentences in the story help us decide. Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child say the answer aloud first and start it with part of the question: \"The teacher opens the game cupboard because …\" For your own reference, on the page for everyone the answers are \"they are having fun\" and \"that they were no fun\"; for question 3, any answer that says the children cannot go outside because of the rain is right."
+ },
+ "2:read-and-answer / G2-273+": {
+  "say": "\"Now it is time to read. Read the story carefully, all the way to the end. The answers to these questions are not written in the story in so many words: you have to think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\"",
+  "first": "Have the children read the story quietly to themselves, then read it aloud once to the class. Do the first question together: read it, and ask which sentence in the story helps us decide. (The sentences are numbered.) Circle the answer. The children do the second question and the written answer on their own.",
+  "stuck": "Read the question to the child and ask, \"Which sentence in the story gives you a clue?\" For the written answer, have the child say the answer aloud first and start it with part of the question: \"Ella wants to surprise Grandpa because …\" For your own reference, on the page for everyone the answers are \"a little nervous\" and \"Ella practiced all week\"; for question 3, any answer that says it is Grandpa's birthday, or that he is turning seventy, is right."
+ },
+ "2:hundreds-chart-moves / G2-322": {
+  "say": "\"Each puzzle has two numbers, and each number has an arrow. The key at the top tells what the arrows do: up is 10 less, down is 10 more, left is 1 less, and right is 1 more. Both arrows lead to the same number. Find that mystery number and write it in the box.\"",
+  "first": "Point to the key at the top of the page and read it aloud together. Do the first puzzle on the board: \"24, arrow down: 10 more is 34. 33, arrow to the right: 1 more is 34.\" Both arrows land on 34, so 34 is the mystery number. Tell the children to follow both arrows every time; the second arrow checks the first.",
+  "stuck": "Have the child say what the arrow does before using it, and follow only one arrow at first. Then the child follows the second arrow; if the two answers are not the same, one of them needs another look. For your own reference, on the page for everyone the mystery numbers are 34, 18, 51, 28, 63, 30, 50, and 26."
+ },
+ "2:habitats-adaptations / G2-380": {
+  "say": "\"This is a science page about how animals are built for the way they live. At the top are seven animals, each with a letter. Each sentence tells about one of them. Read the sentence, decide which animal it is, and write that animal's letter in the box. One animal is left over.\"",
+  "first": "Name the seven animals together and say their letters. Read the first sentence aloud together: \"Its wings are flippers: it swims fast but cannot fly.\" Ask, \"Which animal has wings and cannot fly?\" Write its letter in the box. Tell the children to cross out each animal once they have used it.",
+  "stuck": "Read the sentence to the child and ask for the body part it names: teeth, a trunk, a beak, a hump. Then the child looks for that body part in the pictures. For your own reference, on the page for everyone the letters are, from top to bottom, G (penguin), B (beaver), A (elephant), F (toucan), E (woodpecker), and C (camel); the monkey is left over."
+ },
+ "3:input-output / G3-328+": {
+  "say": "\"Each number machine has a rule, printed at the top. A number goes in on the left, the machine uses its rule, and a new number comes out on the right. One machine multiplies, and one subtracts. Fill in the missing numbers. Watch out: sometimes the number that went in is the one that is missing.\"",
+  "first": "Do the first machine together. Its rule is times 5. Ask, \"6 goes in. What comes out?\" Write 30. Then do the row where the box on the left is empty: \"Something went in, the machine multiplied it by 5, and 35 came out. What went in?\" Work backward: 35 divided by 5 is 7. Check it by putting 7 through the machine.",
+  "stuck": "Ask the child, \"Is the missing number before the arrow or after it?\" After the arrow, the child uses the rule. Before the arrow, the child does the opposite (divide for times, add for minus) and then checks by putting the number through the machine. For your own reference, on the page for everyone the first machine gives 30, 60, 7, 50, and 2; the second gives 18, 15, 7, 27, and 9."
+ },
+ "3:muldiv-word-problems / G3-372+": {
+  "say": "\"These are division word problems about sharing. Read each story. Decide how many things there are and how many equal groups they go into. Write the division, and write the answer in the box. The picture is there if you want to check.\"",
+  "first": "Read the first story aloud together: 30 stars in 5 equal rows. Ask, \"How many stars in all? How many rows?\" Write the division on the board: 30 divided by 5. Ask how the children can find the answer: by knowing that 5 times 6 is 30, or by dealing the stars into the five boxes. Write 6, and write an answer sentence on the lines: \"There are 6 stars in each row.\"",
+  "stuck": "Have the child underline the two numbers in the story and say what each one counts. Then ask for the multiplication fact: \"4 times what makes 24?\" A child who does not know the fact deals the things into the boxes with dots, one for each box in turn. For your own reference, on the page for everyone all three answers are 6."
+ },
+ "2:root-words / G2-359+": {
+  "say": "\"The twelve words at the top come from three word families. Each family is built from one root word: joy, thought, or worth. Read each word, find the root word inside it, and write the word on a line of the wall that stands on its root word.\"",
+  "first": "Read the twelve words aloud together. Do two words together: \"enjoyment.\" Ask, \"Which root word is inside it?\" Write it on a line above joy. Then do \"afterthought\" the same way. Tell the children to cross out each word at the top once it is written on a wall; each wall gets four words.",
+  "stuck": "Have the child look for the letters of joy, thought, or worth inside the word and underline them. For your own reference, on the page for everyone the joy wall gets joyless, enjoyment, joyous, and enjoyable; the thought wall gets thoughtless, thoughtful, afterthought, and thoughtfully; the worth wall gets worthwhile, worthlessness, worthlessly, and worthy."
+ },
+ "2:retell-with-starters / G2-378+": {
+  "say": "\"The four pictures tell a story from beginning to end. Write what happens in each picture on its lines. Use words that show the order, such as first, next, then, and finally. The box at the top gives you words you may need.\"",
+  "first": "Look at the four pictures together and have four children each tell what happens in one. Read the words in the box aloud. Write First, Next, Then, Finally on the board. Say a sentence for the first picture together and write it on the board: \"First, a whole banana lies on the plate.\" Tell the children to write two sentences for each picture and to end each one with a period.",
+  "stuck": "Point to one picture and ask, \"What is different from the picture before?\" Have the child say the sentence aloud, starting with one of the order words on the board, before writing it. A word that is spelled by its sounds is fine."
+ },
+ "3:rounding / G3-391": {
+  "say": "\"Rounding means finding the nearest round number. On this page you round each number two times: first to the nearest ten, then to the nearest hundred. The box at the top shows how: look at the digit to the right of the place you are rounding to. If it is 0, 1, 2, 3, or 4, round down. If it is 5, 6, 7, 8, or 9, round up.\"",
+  "first": "Read the example at the top together: 472 is about 470 to the nearest ten, and about 500 to the nearest hundred. Do the first number on the board. For the nearest ten, underline the tens digit of 159 and look at the ones digit: it is 9, so round up to 160. For the nearest hundred, underline the hundreds digit and look at the tens digit: it is 5, so round up to 200. Tell the children to start from the number on the page both times.",
+  "stuck": "Have the child say the two tens the number is between (150 and 160) and ask which one is closer; then the two hundreds (100 and 200). A 5 always rounds up. For your own reference, on the page for everyone the answers are 160 and 200; 490 and 500; 790 and 800; 310 and 300; 350 and 400; 540 and 500; 570 and 600; 560 and 600."
+ }
+}

@@ -66,6 +66,13 @@ module.exports = {
       say: '"Each sentence has a gap, and one of the pictures belongs in it. Read the sentence, find the picture that makes sense, and draw a line from the sentence to that picture."',
       first: 'Name all the pictures together. Read the first sentence aloud together and say "blank" at the gap. Try a picture word in the gap: "Does that make sense?" Draw the line together. Then the children read the other sentences on their own.',
       stuck: 'Read the sentence with the child, one word at a time, and say "blank" at the gap. Then say the sentence with each picture word in turn and ask which one makes sense.',
+      byType: {
+        'G1-367': {
+          say: '"Each sentence has a gap, and under it are two words. Look at the picture and read the sentence. Circle the word that fits, and write it in the box."',
+          first: 'Do the first sentence together. Read it aloud and say "blank" at the gap. Read the two words under it. Try each one in the sentence and ask, "Does that make sense? Does it match the picture?" Circle the right word and write it in the box.',
+          stuck: 'Read the sentence with the child, one word at a time, and have the child say it once with each of the two words. The picture next to the sentence shows which one is meant.',
+        },
+      },
     },
     '1:syllables-split': {
       say: '"Words have parts called syllables. Say each picture word and clap its parts. Then draw one scoop under the word for every syllable you hear."',
@@ -148,6 +155,16 @@ module.exports = {
           first: 'Hold up the page and show the tow truck and the green car. Trace one way with your finger and count the street pieces aloud. Ask, "Is there a shorter way?" Tell the children to try at least two ways with a finger and count each before they draw.',
           stuck: 'Have the child trace a way with a finger and count the pieces, then try another way and count again. The way with the smaller number is the one to draw.',
         },
+        'G1-423': {
+          say: '"Four animals are flying kites and a balloon, and the strings are tangled. Follow each string from the animal up to its kite or balloon. Then write the animal\'s number in the box above it."',
+          first: 'Hold up the page and put your finger on animal number 1. Follow its string slowly with your finger, straight through each crossing, up to the top. Write a 1 in the box above that kite. The children do the other three.',
+          stuck: 'Have the child trace the string with a finger first and then with a colored pencil, one color for each animal. At a crossing the string goes straight on; it does not turn onto the other string.',
+        },
+        'G1-424': {
+          say: '"The rabbit wants to get to the bucket and pick up every carrot on the way. There is one rule: the rabbit may not use the same path twice. Check a circle each time you pick up a carrot."',
+          first: 'Hold up the page and show the rabbit, the bucket, and the four carrots. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss a carrot. The printed directions say "tick a circle"; tell the children that means a check mark.',
+          stuck: 'Have the child put a finger on each carrot first and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and tries the carrots in another order.',
+        },
       },
     },
     '1:find-the-differences': {
@@ -176,6 +193,16 @@ module.exports = {
           first: 'Point to the flag and tell the children that the row of pictures starts there. Read the first sentence aloud together, pointing to each word. Ask, "Which picture? What do we do to it?" Do it together and check the box.',
           stuck: 'Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what to do before picking up the pencil.',
         },
+        'G1-252': {
+          say: '"Now it is time to read. This page has six sentences and six colors. Each sentence tells you how many pictures to color and which color to use. Read carefully, then color exactly what it says."',
+          first: 'Make sure every child has the six crayons or colored pencils named at the top of the page. Read the first sentence aloud together. Ask: "Which pictures do we color? How many? Which color?" Color them together. Then the children read the other sentences on their own.',
+          stuck: 'Have the child read the sentence aloud and underline the number word and the color word. Each box holds other pictures as well; only the ones the sentence names get colored, and only as many as it says.',
+        },
+        'G1-338': {
+          say: '"Now it is time to read. At the top is a row of animals. Each sentence tells you which animals to circle in that row. Read the sentence, circle exactly what it says, and check the little box when you are done."',
+          first: 'Name the animals in the row together. Read the first sentence aloud together. Ask: "Which animals does it name? Is it one, or all of them?" Circle them together and check the box.',
+          stuck: 'Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Remind the child that "all" means every one of that animal in the row, and that some animals are in the row more than once.',
+        },
       },
     },
     '1:unscramble-sentence': {
@@ -194,6 +221,11 @@ module.exports = {
           first: 'Do the first story together. Read the four sentences aloud. Ask, "Which one happens first? How do you know?" Write a 1 in its box, then find 2, 3, and 4. Read the story in order, and draw a line from each sentence to the picture that shows it.',
           stuck: 'Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next.',
         },
+        'G1-401': {
+          say: '"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle."',
+          first: 'Do the first story together by talking, not drawing. Ask a child to say what the first picture shows and another child what the last picture shows. Ask: "What must have happened in between?" Take two or three ideas. Then each child draws the middle picture.',
+          stuck: 'Ask the child: "What is here at the beginning? What is different at the end? What did someone do to make that happen?" Any drawing that leads from the first picture to the last is right; it does not have to be neat.',
+        },
       },
     },
     '1:word-problems': {
@@ -203,6 +235,30 @@ module.exports = {
           first: 'Read the first story aloud together, twice. Ask: "What happens in the story? Do we get more, or do some go away?" Find the answer together and write it in the box. Then the children read the other stories on their own. Walk around and read a story aloud to any child who needs it; this page is math practice, not a reading test.',
         },
       },
+    },
+    '1:fluency-within-20': {
+      byType: {
+        'G1-216': {
+          say: '"This is math you already know: adding with numbers up to 20. Do the ones you know first. Then go back to the others."',
+          first: 'Do the first two problems on the board. Ask how the children got their answers and accept every way that gives the right answer: counting on from the bigger number, making ten, or just knowing it.',
+          stuck: 'Have the child start at the bigger number and count on the smaller one with fingers: for 13 + 6, say "13" and count on six more. Drawing dots is fine, too, even though the page says to solve the problems in your head.',
+        },
+        'G1-217': {
+          say: '"This is math you already know: subtracting with numbers up to 20. Do the ones you know first. Then go back to the others."',
+          first: 'Do the first two problems on the board. Ask how the children got their answers and accept every way that gives the right answer: counting back, counting up from the smaller number, or just knowing it.',
+          stuck: 'Have the child count up from the smaller number to the bigger one on fingers: for 17 minus 9, say "9" and count up to 17. Drawing dots and crossing them out is fine, too. For your own reference, on the page for everyone the answers are 4, 12, 2, 8, 8, 8, 5, 2, 10, 5, 3, and 4.',
+        },
+      },
+    },
+    '1:one-ten-more-less': {
+      say: '"Look at the number in the middle. On the left, write the number that is 10 less. On the right, write the number that is 10 more."',
+      first: 'Do the first one on the board. Ask: "Ten more than 36. Which digit changes, the tens or the ones?" Show that only the tens digit changes: 26, 36, 46. Count by tens from another number together, for example 7, 17, 27, 37.',
+      stuck: 'If the classroom has a hundreds chart, have the child find the number on it: the number straight above is 10 less, and the number straight below is 10 more. Without a chart, have the child cover the ones digit and change the tens digit by one.',
+    },
+    '1:tens-and-ones': {
+      say: '"Each picture shows a number built from tens and ones. The long rods are tens, and the small cubes are ones. Count the tens. Count the ones. Then write the number."',
+      first: 'Do the first one on the board. Draw the rods as lines and the cubes as dots. Count the rods by tens together: 10, 20, 30, and so on. Then count on by ones for the cubes. Write the number and point to its digits: the tens digit tells how many rods, and the ones digit tells how many cubes.',
+      stuck: 'Have the child touch each rod and count by tens, then touch each cube and keep counting by ones. A child who writes the digits in the wrong order says the number aloud first and then writes what they hear. For your own reference, on the page for everyone the answers are 99, 63, 51, and 41.',
     },
   },
 };

@@ -1,0 +1,42 @@
+{
+  "1:tens-and-ones / G1-120": {
+    "stuck": "Have the child touch each rod and count by tens, then touch each cube and keep counting by ones. A child who writes the digits in the wrong order says the number aloud first and then writes what they hear. For your own reference, on the page for everyone the answers are 99, 63, 51, and 41."
+  },
+  "2:family-relationships / G2-362": {
+    "first": "Read the four words in the box aloud together. Do the first riddle on the board in two steps, drawing a stick person for each step: \"Tom's dad's mom. Start with Tom. Step one: Tom's dad. Step two: his dad's mom. What does Tom call his dad's mom?\" Write grandma. Keep every example about Tom's family, not about the children's own families. Tell the children that some families use other names, such as Nana or Abuela; on this page they use the words in the box."
+  },
+  "2:shopping-money / G2-293": {
+    "first": "Read the five prices on the shelf aloud together. Do the first question together: find the price of the animal Mia buys. Count her coins: two quarters are 50 cents. Ask, \"She pays 50 cents, and the toy costs less than that. How much does she get back?\" Count up from the price to 50, write the subtraction in the work space, and write the change in the box. The printed directions say \"work out the change\"; tell the children that means figure it out. The page has only two questions: a child who finishes picks another animal from the shelf and figures out the change from 50 cents on the back of the page.",
+    "stuck": "Have the child write the price and count up to 50 by tens or fives, keeping track on fingers. Drawn dimes help: draw 50 cents as five dimes and cross out the price. For your own reference, on the page for everyone Mia buys the fox for 40 cents and gets 10 cents back, and Leo buys the giraffe for 30 cents and gets 20 cents back. For the other animals, the change from 50 cents is 30 cents (the 20-cent animal), 15 cents (the 35-cent animal), and 5 cents (the 45-cent animal)."
+  },
+  "2:read-and-answer / G2-270+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\""
+  },
+  "2:read-and-answer / G2-254+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence.\""
+  },
+  "2:read-and-answer / G2-269+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence. When you finish, turn the page over and write three sentences that tell what happens next in the story.\""
+  },
+  "2:read-and-answer / G2-271+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence. When you finish, turn the page over and write three sentences that tell what happens next in the story.\""
+  },
+  "2:read-and-answer / G2-272+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence. When you finish, turn the page over and write three sentences that tell what happens next in the story.\""
+  },
+  "2:read-and-answer / G2-273+": {
+    "say": "\"Now it is time to read. Read the story carefully, all the way to the end. You will not find the answers to questions 1 and 2 word for word in the story: look for clues and think about what the story tells you. Circle the best answer to questions 1 and 2. Then write your answer to question 3 on the lines, in a whole sentence. When you finish, turn the page over and write three sentences that tell what happens next in the story.\""
+  },
+  "2:hundreds-chart-moves / G2-322": {
+    "first": "Point to the key at the top of the page and read it aloud together. The printed directions mention \"the chart\": that is a hundreds chart, where one square to the right is 1 more and one square down is 10 more. No chart is printed on the page, and none is needed. Do the first puzzle on the board: \"24, arrow down: 10 more is 34. 33, arrow to the right: 1 more is 34.\" Both arrows land on 34, so 34 is the mystery number. Tell the children to follow both arrows every time; the second arrow checks the first."
+  },
+  "3:muldiv-word-problems / G3-372+": {
+    "first": "Read the first story aloud together: 5 children share 30 pens. Ask, \"How many pens in all? How many children?\" Write the division on the board: 30 divided by 5. Ask how the children can find the answer: by knowing that 5 times 6 is 30, or by dealing the pens into the five boxes. Write 6 in the answer box, and write the whole division, with its answer, on the lines. Then say the answer together in a whole sentence: \"Each child gets 6 pens.\""
+  },
+  "3:rounding / G3-391": {
+    "first": "Read the example at the top together: 472 is about 470 to the nearest ten, and about 500 to the nearest hundred. The wavy equal sign means \"is about.\" Do the first number on the board. For the nearest ten, underline the tens digit of 159 and look at the ones digit: it is 9, so round up to 160. For the nearest hundred, underline the hundreds digit and look at the tens digit: it is 5, so round up to 200. Tell the children to start from the number on the page both times."
+  },
+  "2:retell-with-starters / G2-378+": {
+    "first": "Look at the four pictures together and ask four volunteers to tell what happens in one picture each. Read the words in the box aloud. This page has no sentence starters, even though its title says \"with Starters\"; the order words do that job. Write First, Next, Then, Finally on the board. Say a sentence for the first picture together and write it on the board: \"First, a whole banana stands on a plate.\" Tell the children to write two sentences for each picture and to end each one with a period. A child who finishes early writes one more sentence on the back of the page: who ate the banana?"
+  }
+}

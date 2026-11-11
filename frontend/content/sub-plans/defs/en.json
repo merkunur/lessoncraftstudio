@@ -714,6 +714,737 @@
      "type": "G1-415"
     }
    ]
+  },
+  {
+   "id": "g2-early-1",
+   "slug": "second-grade-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "2",
+   "position": "early",
+   "title": "Second Grade Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "Second Grade Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "1:read-and-follow",
+     "type": "G1-252"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:word-classes",
+     "type": "G2-285"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-274"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-321"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "1:tens-and-ones",
+     "type": "G1-120"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-314"
+    }
+   ]
+  },
+  {
+   "id": "g2-early-2",
+   "slug": "second-grade-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "2",
+   "position": "early",
+   "title": "Second Grade Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "Second Grade Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "1:cloze",
+     "type": "G1-367"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:plural-nouns",
+     "type": "G2-349"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:pronouns",
+     "type": "G2-355"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-305"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-217"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-423"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g2-middle-1",
+   "slug": "second-grade-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
+   "grade": "2",
+   "position": "middle",
+   "title": "Second Grade Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "Second Grade Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-296"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:mystery-animal",
+     "type": "G2-343"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "2:synonyms",
+     "type": "G2-358"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:question-words",
+     "type": "G2-356"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-255"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-291"
+    },
+    {
+     "key": "logic",
+     "minutes": 20,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-424"
+    }
+   ]
+  },
+  {
+   "id": "g2-middle-2",
+   "slug": "second-grade-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "2",
+   "position": "middle",
+   "title": "Second Grade Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "Second Grade Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:verb-forms",
+     "type": "G2-335"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "2:measure-with-ruler",
+     "type": "G2-235"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:bar-graphs",
+     "type": "G2-239"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:picture-sudoku",
+     "type": "G1-158"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-392"
+    }
+   ]
+  },
+  {
+   "id": "g2-late-1",
+   "slug": "second-grade-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "2",
+   "position": "late",
+   "title": "Second Grade Sub Plans: End of the Year, Day 1",
+   "metaTitle": "Second Grade Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-254"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:root-words",
+     "type": "G2-375"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-299"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "2:equal-groups-times",
+     "type": "G2-209"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "2:symmetry-line",
+     "type": "G2-247"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "2:symmetry-complete",
+     "type": "G2-266"
+    }
+   ]
+  },
+  {
+   "id": "g2-late-2",
+   "slug": "second-grade-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "2",
+   "position": "late",
+   "title": "Second Grade Sub Plans: End of the Year, Day 2",
+   "metaTitle": "Second Grade Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in second grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-269"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:synonyms~doing-stage",
+     "type": "G2-374"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "2:retell-with-starters",
+     "type": "G2-378"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "2:equal-shares-shapes",
+     "type": "G2-232"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "2:shopping-money",
+     "type": "G2-293"
+    },
+    {
+     "key": "logic",
+     "minutes": 20,
+     "point": "2:grid-coordinates",
+     "type": "G2-308"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-304"
+    }
+   ]
+  },
+  {
+   "id": "g3-early-1",
+   "slug": "third-grade-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "3",
+   "position": "early",
+   "title": "Third Grade Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "Third Grade Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:column-regrouping",
+     "type": "G3-359"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-270",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:prefixes",
+     "type": "G2-376"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-292"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-322"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "2:symmetry-complete",
+     "type": "G2-267"
+    }
+   ]
+  },
+  {
+   "id": "g3-early-2",
+   "slug": "third-grade-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "3",
+   "position": "early",
+   "title": "Third Grade Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "Third Grade Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-310"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "2:read-and-answer",
+     "type": "G2-254",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "2:synonyms",
+     "type": "G2-373"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "2:verb-forms",
+     "type": "G2-317"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-360"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:calendar",
+     "type": "G2-297"
+    },
+    {
+     "key": "science",
+     "minutes": 10,
+     "point": "2:plant-parts",
+     "type": "G2-364"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-302"
+    }
+   ]
+  },
+  {
+   "id": "g3-middle-1",
+   "slug": "third-grade-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
+   "grade": "3",
+   "position": "middle",
+   "title": "Third Grade Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "Third Grade Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:arrays",
+     "type": "G2-212"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-269",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:word-fields",
+     "type": "G3-397"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "2:describe-a-picture",
+     "type": "G2-300"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:times-tables",
+     "type": "G3-358"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-371"
+    },
+    {
+     "key": "science",
+     "minutes": 10,
+     "point": "2:habitats-adaptations",
+     "type": "G2-380"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "3:latin-square-sudoku",
+     "type": "G3-348"
+    }
+   ]
+  },
+  {
+   "id": "g3-middle-2",
+   "slug": "third-grade-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "3",
+   "position": "middle",
+   "title": "Third Grade Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "Third Grade Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-326"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-271",
+     "level": "hard",
+     "title": "Reading Comprehension: The Tallest Sunflower"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:root-words-in-context",
+     "type": "G3-399"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:question-words",
+     "type": "G2-357"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-361"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "3:mult-div-relationship",
+     "type": "G3-311"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "3:magic-squares",
+     "type": "G3-349"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "2:symmetry-complete",
+     "type": "G2-268"
+    }
+   ]
+  },
+  {
+   "id": "g3-late-1",
+   "slug": "third-grade-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "3",
+   "position": "late",
+   "title": "Third Grade Sub Plans: End of the Year, Day 1",
+   "metaTitle": "Third Grade Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:input-output",
+     "type": "G3-328",
+     "level": "hard"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-272",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "3:person-words",
+     "type": "G3-398"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "2:compare-two-animals",
+     "type": "G2-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "3:area-model",
+     "type": "G3-313"
+    },
+    {
+     "key": "problems",
+     "minutes": 10,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-372",
+     "level": "hard"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "3:water-cycle",
+     "type": "G3-385"
+    },
+    {
+     "key": "closing",
+     "minutes": 20,
+     "point": "2:grid-coordinates",
+     "type": "G2-303"
+    }
+   ]
+  },
+  {
+   "id": "g3-late-2",
+   "slug": "third-grade-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "3",
+   "position": "late",
+   "title": "Third Grade Sub Plans: End of the Year, Day 2",
+   "metaTitle": "Third Grade Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in third grade: 8 review blocks in reading, writing, math, and science, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "3:rounding",
+     "type": "G3-391"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-273",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:root-words",
+     "type": "G2-359",
+     "level": "hard"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:retell-with-starters",
+     "type": "G2-378",
+     "level": "hard"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "3:fraction-unit-build",
+     "type": "G3-315"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "3:perimeter",
+     "type": "G3-337"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "3:life-cycles-compare",
+     "type": "G3-393"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-393"
+    }
+   ]
   }
  ]
 }

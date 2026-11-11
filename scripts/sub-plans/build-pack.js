@@ -33,7 +33,9 @@ const lines = (n) => '<div class="lines">' + '<i></i>'.repeat(n) + '</div>';
 function html(pack) {
   const grade = messages.seo.educational_level[LEVEL_KEY[pack.grade]] || pack.grade;
   const day = pack.blocks.map((b, i) => '<tr><td class="n">' + (i + 1) + '</td><td><b>' + esc(ui['block_' + b.key]) + '</b></td><td>' + esc(b.title) + '</td><td class="m">' + esc(fill(ui.minutes, { n: b.minutes })) + '</td><td class="box"></td></tr>').join('');
-  const li = (keys) => '<ul>' + keys.map((k) => '<li>' + esc(ui[k]) + '</li>').join('') + '</ul>';
+  // grades 2 and 3 have their own wording where the text for the youngest does not fit (key + '_23')
+  const older = String(pack.grade) === '2' || String(pack.grade) === '3';
+  const li = (keys) => '<ul>' + keys.map((k) => '<li>' + esc((older && ui[k + '_23']) || ui[k]) + '</li>').join('') + '</ul>';
   const note = '<section class="sheet"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, ui.packWord].join(' · ')) + '</p><h1>' + esc(ui.pdfTitle) + '</h1><p class="hello">' + esc(ui.pdfHello) + '</p><p class="intro">' + esc(ui.pdfIntro) + '</p>'
     + '<div class="two"><div><h3>' + esc(ui.pdfBeforeTitle) + '</h3>' + li(['pdfBefore1', 'pdfBefore2', 'pdfBefore3', 'pdfBefore4', 'pdfBefore5']) + '</div><div><h3>' + esc(ui.pdfAnyTitle) + '</h3>' + li(['pdfAny1', 'pdfAny2', 'pdfAny3', 'pdfAny4']) + '</div></div>'
     + '<h2>' + esc(ui.dayTitle) + '</h2><table class="day"><thead><tr><th></th><th>' + esc(ui.dayColBlock) + '</th><th>' + esc(ui.dayColPage) + '</th><th class="m">' + esc(ui.dayColTime) + '</th><th></th></tr></thead><tbody>' + day + '</tbody></table></section>';

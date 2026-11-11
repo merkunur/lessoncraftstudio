@@ -26,7 +26,7 @@ const has = (k) => process.argv.includes('--' + k);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const MUST = ['reading', 'writing', 'math'];
 const BLOCKS = ['morning', 'reading', 'phonics', 'writing', 'math', 'numbers', 'problems', 'science', 'logic', 'drawing', 'closing'];
-const { planWeeks, refused } = require('./position.js');
+const { planWeeks, refused, HOLIDAY_PAGE } = require('./position.js');
 
 function assemble(loc, opt = {}) {
   const problems = [];
@@ -64,16 +64,22 @@ function assemble(loc, opt = {}) {
       if (!p.types.includes(b.type)) { bad(bw + ': type ' + b.type + ' does not belong to ' + b.point); continue; }
       // the point's script, with the sentences that are true of this worksheet type only
       const base = scripts[b.point];
-      const sc = base ? Object.assign({}, base, (base.byType || {})[b.type] || {}) : null;
+      // level 'hard': the type's harder page is the page for everyone (a grade above the type's own), the standard
+      // page is the easier one, and the block needs a script of its own for that page (byType key '<type>+')
+      const up = b.level === 'hard';
+      if (b.level && !up) { bad(bw + ': unknown level ' + b.level); continue; }
+      if (up && !(base && base.byType && base.byType[b.type + '+'])) { bad(bw + ': the harder page of ' + b.type + ' is the page for everyone and has no script of its own (' + b.type + '+)'); continue; }
+      const sc = base ? Object.assign({}, base, (base.byType || {})[b.type + (up ? '+' : '')] || {}) : null;
       if (!sc || !sc.say || !sc.first || !sc.stuck) { bad(bw + ': the point has no full script (say, first, stuck) in scripts/' + loc + '.json'); continue; }
       const pg = pages.get(b.type), s = strings[b.type];
       if (!pg || !pg.core.length || !s || !s.title || !s.instruction) { bad(bw + ': type ' + b.type + ' has no published core page, title or instruction in this language'); continue; }
       if (/\{[A-Za-z_]+\}/.test(s.printTitle || s.title)) { bad(bw + ': the title of type ' + b.type + ' carries a placeholder (' + (s.printTitle || s.title) + ')'); continue; }
-      const pick = (r) => { const x = pg[r].find((y) => !used.has(y.slug)); if (x) used.add(x.slug); return x ? x.slug : null; };
-      const core = pick('core');
+      const pick = (r) => { const x = pg[r].find((y) => !used.has(y.slug) && !HOLIDAY_PAGE.test(y.slug)); if (x) used.add(x.slug); return x ? x.slug : null; };
+      const core = pick(up ? 'hard' : 'core');
       if (!core) { bad(bw + ': every published page of type ' + b.type + ' is already in another pack of this grade'); continue; }
-      const block = { key: b.key, minutes: b.minutes, point: b.point, type: b.type, title: s.printTitle || s.title, instruction: s.instruction, core };
-      const hard = pick('hard'), easy = pick('easy');
+      const block = { key: b.key, minutes: b.minutes, point: b.point, type: b.type, title: b.title || s.printTitle || s.title, instruction: s.instruction, core };
+      if (up) block.level = 'hard';
+      const hard = up ? null : pick('hard'), easy = pick(up ? 'core' : 'easy');
       if (hard) block.hard = hard;
       if (easy) block.easy = easy;
       block.script = { say: sc.say, first: sc.first, stuck: sc.stuck };

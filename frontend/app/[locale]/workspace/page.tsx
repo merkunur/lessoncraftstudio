@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import WorkspaceClient from './WorkspaceClient';
+import { TEACHER_STRINGS } from '@/lib/class-results/teacher-strings';
 
 // Tool 2A — Workspace home. Subscriber landing surface per
 // docs/SUBSCRIPTION-SCOPE.md Pillar 3 Tool 2.
@@ -79,7 +80,11 @@ export default function WorkspacePage({ params }: { params: { locale: string } }
           "max-w-5xl or rows read as empty bars" concern is solved structurally
           by the rail, not by narrowing the page. */}
       <div className="mx-auto max-w-6xl">
-        <WorkspaceClient locale={params.locale} />
+        {/* class links and results (Daily Teaching System, Part 9): the link shows only while the server switch is on */}
+        <WorkspaceClient
+          locale={params.locale}
+          classesLabel={process.env.CLASS_RESULTS_ENABLED === '1' ? (TEACHER_STRINGS[params.locale] || TEACHER_STRINGS.en).title : null}
+        />
       </div>
     </div>
   );

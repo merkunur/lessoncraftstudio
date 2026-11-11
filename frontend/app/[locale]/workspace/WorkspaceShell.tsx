@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import WorkspaceTabs from './WorkspaceTabs';
 import { QuotaMeter, SectionIconDisc, CARD_FRAME } from './WorkspaceSection';
@@ -30,9 +31,12 @@ import RecentActivityPanel from './sections/RecentActivityPanel';
 export default function WorkspaceShell({
   locale,
   user,
+  classesLabel = null,
 }: {
   locale: string;
   user: AuthUser;
+  /** the Classes screen's name, or null while class links are switched off (page.tsx reads the server switch) */
+  classesLabel?: string | null;
 }) {
   const t = useTranslations('workspace');
   const [tab, setTab] = useState<WorkspaceTab>('overview');
@@ -105,6 +109,17 @@ export default function WorkspaceShell({
       {/* Tabs on the desk, governing the main column. */}
       <div className="mb-5 md:mb-6">
         <WorkspaceTabs tabs={tabs} active={activeTab} counts={counts} onChange={setTab} />
+        {/* Classes is its own page (it must stay reachable when a plan has ended), so it is a link, not a tab */}
+        {classesLabel && (
+          <p className="mt-3">
+            <Link
+              href={`/${locale}/workspace/classes`}
+              className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border-2 border-lcs-teal bg-[#FFFDF8] px-5 font-lcsBody text-sm font-bold text-lcs-teal transition-colors hover:bg-[#EEF6F2] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#DDD4C2]"
+            >
+              {classesLabel} <span aria-hidden="true">→</span>
+            </Link>
+          </p>
+        )}
       </div>
 
       {/* The card grid. Mobile: plan → materials → recent, via order-* — the

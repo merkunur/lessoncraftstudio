@@ -110,4 +110,7 @@ for pat in 'db_*.sql.gz' 'studio_*.tar.gz'; do
 done
 
 prune_dumps
+# Class results (Daily Teaching System, Part 9): a dump kept longer than 35 days holds no class data, so what a teacher
+# deleted is gone from every copy within five weeks (scripts/class-results/strip-class-data.js; counts only).
+node "$(dirname "$0")/../class-results/strip-class-data.js" "$BACKUP_DIR" || fail "class data could not be removed from the old database copies"
 say "=== done. copies on disk:"; ls -lh "$BACKUP_DIR"/decks_*.tar.gz | awk '{print "   " $5 "  " $9}'

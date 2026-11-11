@@ -96,7 +96,8 @@ function barHtml(b) {
 
 /**
  * @param {object} o { template (the shell html), base (the play tree URL prefix), lang, head (headFor()),
- *                     chrome: { css, header, footer } (html strings; '' = none), bar (barHtml() input) }
+ *                     chrome: { css, header, footer } (html strings; '' = none), bar (barHtml() input),
+ *                     classLoader (true = add CLASS_LOADER before </body>; the same bytes for every visitor) }
  */
 function renderPlayHtml(o) {
   const tpl = String(o.template || '');
@@ -109,8 +110,16 @@ function renderPlayHtml(o) {
     .replace('<!--LCS_PLAY_CHROME_CSS-->', chrome.css || '')
     .replace('<!--LCS_PLAY_HEADER-->', chrome.header || '')
     .replace('<!--LCS_PLAY_BAR-->', barHtml(o.bar))
-    .replace('<!--LCS_PLAY_FOOTER-->', chrome.footer || '');
+    .replace('<!--LCS_PLAY_FOOTER-->', chrome.footer || '')
+    .replace('</body>', () => (o.classLoader ? CLASS_LOADER + '\n</body>' : '</body>'));
 }
+
+/**
+ * Class links (Daily Teaching System, Part 9): a child who opens a maker worksheet from a teacher's class page
+ * arrives with an attempt token after '#'. This one line loads the class reporter THEN and only then; every other
+ * visitor requests nothing. The fragment never reaches the server, so the page's bytes and cache key do not change.
+ */
+const CLASS_LOADER = "<script>(function(){try{if(/[#&]lcs=[a-z2-9]{20}(?:&|$)/.test(location.hash)){var s=document.createElement('script');s.id='lcs-class-js';s.async=true;s.src='/worksheet-generators/js/lcs-class.js?v=1';document.head.appendChild(s);}}catch(e){}})();</script>";
 
 /** A kid-safe one-card page (a link that does not exist / was taken back). The caller sends it with 404 + noindex. */
 function miniPage(o) {
@@ -128,4 +137,4 @@ function playStrings(all, lang) {
   return out;
 }
 
-module.exports = { renderPlayHtml, headFor, headTags, barHtml, miniPage, playStrings, fill, MARKERS, LOCALES, CANONICAL_BASE, SITE };
+module.exports = { renderPlayHtml, CLASS_LOADER, headFor, headTags, barHtml, miniPage, playStrings, fill, MARKERS, LOCALES, CANONICAL_BASE, SITE };

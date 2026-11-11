@@ -19,7 +19,7 @@ import WorkspaceShell from './WorkspaceShell';
  * The <main> element, the Direction A ground, the container and the fonts all
  * live in page.tsx — next/font cannot be called from a 'use client' file.
  */
-export default function WorkspaceClient({ locale }: { locale: string }) {
+export default function WorkspaceClient({ locale, classesLabel = null }: { locale: string; classesLabel?: string | null }) {
   const t = useTranslations('workspace');
   const { user, loading: authLoading } = useAuth();
 
@@ -64,9 +64,17 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
             {t('gate.subscriberCta')}
           </Link>
         )}
+        {/* results already stored stay readable and removable without a plan (lib/class-results/store.ts) */}
+        {classesLabel && (
+          <p className="mt-6">
+            <Link href={`/${locale}/workspace/classes`} className="font-lcsBody font-semibold text-[#14322D] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral">
+              {classesLabel}
+            </Link>
+          </p>
+        )}
       </div>
     );
   }
 
-  return <WorkspaceShell locale={locale} user={user} />;
+  return <WorkspaceShell locale={locale} user={user} classesLabel={classesLabel} />;
 }

@@ -21,7 +21,10 @@ Written 2026-11-11 for the lawyer's check. Each statement names where it is enfo
 
 Surname · date of birth or age · gender · email address · photograph · home or school address · IP address · device or browser identification · location · what the child typed or drew (only right or wrong) · how long the child took · anything about a child who uses the site without a class link.
 
-- The reporting request carries **no cookie** and reads none (`credentials: 'omit'` in `scripts/class-results/web/lcs-class.js`).
+- The reporting request carries **no cookie** and reads none (`credentials: 'omit'` in `scripts/class-results/web/lcs-class.js`). The same holds for every request the class page makes.
+- A page that shows no marks (a maze, for example) reports only "Check was pressed" and, later, "finished": no number is invented. A worksheet a teacher made with several pages reports once, the sum of its pages.
+- The class page (`frontend/lib/class-results/child-page.ts`) loads nothing from another company: its fonts and pictures come from this site and it carries no analytics script. It is served with `Referrer-Policy: no-referrer`, so the class link is not passed on to the worksheet page as "where the visitor came from".
+- So that a child returns from a worksheet to their own list, the browser tab remembers which seat was tapped — on the device only (`sessionStorage`), for 20 minutes, and it is never sent anywhere.
 - The result is linked to a seat by a random one-time token that the class page puts in the worksheet's address after `#`. The part after `#` is not sent to any server by the browser and does not appear in server logs.
 - The web server keeps ordinary access logs (IP address, time, address requested) for security, as for every visitor to the site. Those logs are not linked to seats or results.
 
@@ -38,14 +41,14 @@ Only the teacher who owns the class, signed in to their account (`own()` in `sto
 - The teacher can delete one child's results, one child, one assignment or the whole class at any time. This works even after the paid plan has ended (`deleteSeat`, `deleteAssignment`, `deleteClass` do not require a subscription).
 - Switching a class to "numbers only" erases every stored name in it (`updateClass` → `clearSeatNames`).
 - Deleting a class removes its seats, assignments and results with it (database `ON DELETE CASCADE`).
-- Automatic: a class not used for 14 months is deleted; when a teacher's paid plan has ended, their classes are deleted 60 days later (`classExpired` in `store.ts`; run weekly by `scripts/class-results/retention.js` — **to be built in sub-part 9.4; this line is not yet true**).
+- Automatic: a class not used for 14 months (427 days) is deleted; when a teacher's paid plan has ended, their classes are deleted 60 days later. A plan ends: for a cancelled plan on the last day paid for; for a failed payment 14 days after the failure (the grace period in which the class link still works). Where no end date is on record, the 60 days count from the class's last use. The job also removes, after 7 days, attempts a child opened and never checked (they hold no result). Rule: `classExpired` in `store.ts`, run every day on the server by `scripts/class-results/retention.js --apply`; it logs counts only, never a name. Checked by `scripts/class-results/tests/retention.test.js`. **True in code since 2026-11-11; the daily schedule is installed with the dark deploy (see PART-9-DESIGN.md §7 for the state).**
 - Deleting the teacher's account deletes all of the above (cascade from `users`).
 
 ## Where the data is
 
 One database on one dedicated server rented by LessonCraftStudio from Hetzner Online GmbH. **The data centre's country is to be confirmed by the operator before this text is used** (Hetzner's dedicated servers are in Germany or Finland; the drafts say "in the European Union"). Cloudflare, Inc. delivers the site's pages and passes requests through to the server; class data is sent with a no-store instruction and is not kept by it.
 
-**Backups, stated as they are today:** the whole database is dumped daily; the server keeps 7 days of dumps; the operator's own computer keeps the newest 7 dumps and one dump per month with no end date. So a deleted class would today survive in a monthly dump. **Before launch (sub-part 9.4) the class tables are left out of every dump kept longer than 35 days**, so that deleted class data is gone from all backups within 35 days. The legal texts are written for that state; until it is built this line is not yet true.
+**Backups:** the whole database is dumped daily; the server keeps 7 days of dumps (and the dumps made before each deploy, also 7 days); the operator's own computer keeps the newest 7 dumps and one dump per month with no end date. Every week, when the computer fetches the new dumps, the rows of the four class tables are taken out of every dump older than 28 days (`scripts/class-results/strip-class-data.js`, called by `scripts/ops/pull-deck-backup.sh`; the rewritten file is read back in full before it replaces the original). 28 days plus the weekly run: **no copy older than 35 days holds class data**, so what was deleted — by the teacher or by the automatic rule — is gone from every backup within 35 days, as the legal texts say. True in code since 2026-11-11 (`scripts/class-results/tests/retention.test.js`); it takes effect with the first weekly run after the class tables exist.
 
 ## What the data is used for
 

@@ -392,7 +392,7 @@ function seatsFrom(body: { names?: unknown; count?: unknown }, mode: NamesMode, 
 
 export async function listClasses(db: ClassDb, me: Caller): Promise<Reply> {
   if (!me) return SIGNIN;
-  return json(200, { items: await db.listClasses(me.userId) });
+  return json(200, { items: await db.listClasses(me.userId), canEdit: me.usable });
 }
 
 export async function createClass(db: ClassDb, me: Caller, body: unknown, newCode: () => string): Promise<Reply> {
@@ -708,7 +708,7 @@ export async function startAttempt(db: ClassDb, body: unknown, newToken: () => s
   return json(200, m);
 }
 
-/** the marks a page sends: whole numbers in range, items 1/0 and as many as `total`; null when malformed */
+/** the marks a page sends: whole numbers in range, items 1/0 and as many as `total`; null when malformed or empty */
 export function cleanReport(b: { right?: unknown; total?: unknown; items?: unknown; finished?: unknown }): { right: number | null; total: number | null; items: number[] | null; finished: boolean } | null {
   const int = (x: unknown) => typeof x === 'number' && Number.isInteger(x) && x >= 0 && x <= MAX_ITEMS;
   let right: number | null = null, total: number | null = null, items: number[] | null = null;
@@ -722,7 +722,9 @@ export function cleanReport(b: { right?: unknown; total?: unknown; items?: unkno
     items = b.items as number[];
   }
   if (b.finished !== undefined && typeof b.finished !== 'boolean') return null;
-  if (total == null && b.finished !== true) return null; // a report says something: marks, or "finished"
+  // a report says something: marks, or whether the page is finished (a page with no marks to read reports its
+  // Check as { finished: false }: "played", no number)
+  if (total == null && typeof b.finished !== 'boolean') return null;
   return { right, total, items, finished: b.finished === true || (total != null && right === total) };
 }
 

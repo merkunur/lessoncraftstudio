@@ -41,7 +41,8 @@ const M = [
   // (".evil.example/…", "@evil.example/…") does not start with '/' and is refused by the next line anyway
   ['item marks need not add up', '    if ((b.items as number[]).reduce((s, x) => s + x, 0) !== right) return null;\n', '\n'],
   ['more right than asked is accepted', '(b.right as number) > (b.total as number)) return null;', 'false) return null;'],
-  ['an empty report is accepted', "  if (total == null && b.finished !== true) return null;", '  if (false) return null;'],
+  ['an empty report is accepted', "  if (total == null && typeof b.finished !== 'boolean') return null;", '  if (false) return null;'],
+  ['a played-not-finished page is refused', "  if (total == null && typeof b.finished !== 'boolean') return null;", '  if (total == null && b.finished !== true) return null;'],
   ['two children can share a picture', 'x.id !== s.id && x.icon === b.icon', 'false'],
   ['"delete results" removes the child', 'if (resultsOnly) await db.deleteAttemptsOfSeat(s.id); else await db.deleteSeat(s.id);', 'await db.deleteSeat(s.id);'],
   ['the seat cap is higher', 'if (firstNo - 1 + names.length > SEATS_PER_CLASS)', 'if (firstNo - 1 + names.length > SEATS_PER_CLASS + 1)'],

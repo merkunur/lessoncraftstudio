@@ -33,6 +33,7 @@ function versionDirFor(makersDir, recipe) {
  *   template    the play shell html; base = its URL prefix; origin = the site origin for absolute card URLs
  *   strings     play-strings.json (parsed); landings = makers-index landings(); chrome = { css, header, footer };
  *   uiStrings   frontend/messages/makers/<lang>.json (parsed; for the maker's name and the level word)
+ *   classLoader true = the page loads the class reporter when its address carries a class token (ssr.js CLASS_LOADER)
  */
 function linkPageHtml(o) {
   const { link } = o;
@@ -52,7 +53,7 @@ function linkPageHtml(o) {
   const landing = (o.landings[recipe.maker] && o.landings[recipe.maker][lang]) || { url: '/' + lang + '/tools', name: makerName };
   const words = ssr.playStrings(o.strings, lang);
   return ssr.renderPlayHtml({
-    template: o.template, base: o.base, lang, head, chrome: o.chrome,
+    template: o.template, base: o.base, lang, head, chrome: o.chrome, classLoader: !!o.classLoader,
     bar: { title: head.title, landingUrl: o.origin + landing.url, homeUrl: o.origin + '/' + lang + '/', makeYourOwn: words.makeYourOwn, madeWith: words.madeWith },
   });
 }

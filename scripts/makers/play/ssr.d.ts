@@ -20,7 +20,8 @@ export interface PlayBar {
   makeYourOwn: string;
   madeWith: string;
 }
-export function renderPlayHtml(o: { template: string; base: string; lang: string; head: PlayHead; chrome: PlayChrome; bar: PlayBar }): string;
+export function renderPlayHtml(o: { template: string; base: string; lang: string; head: PlayHead; chrome: PlayChrome; bar: PlayBar; classLoader?: boolean }): string;
+export const CLASS_LOADER: string;
 export function headFor(o: {
   linkId: string;
   lang: string;

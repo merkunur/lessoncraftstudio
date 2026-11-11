@@ -131,7 +131,7 @@ function playPage(req, res, linkId) {
   if (!a.chrome[lang]) a.chrome[lang] = chromeFor(lang);
   if (!a.ui[lang]) { try { a.ui[lang] = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'messages', 'makers', lang + '.json'), 'utf8')); } catch (e) { a.ui[lang] = {}; } }
   const origin = 'http://' + (req.headers.host || ('localhost:' + PORT));
-  const html = linkPageHtml({ link, makersDir: path.join(REPO, 'out', 'makers'), template: a.template, base: '/makers/play', origin, strings: a.strings, landings: a.landings, chrome: a.chrome[lang], uiStrings: a.ui[lang] });
+  const html = linkPageHtml({ link, makersDir: path.join(REPO, 'out', 'makers'), template: a.template, base: '/makers/play', origin, strings: a.strings, landings: a.landings, chrome: a.chrome[lang], uiStrings: a.ui[lang], classLoader: process.env.CLASS_RESULTS_ENABLED === '1' });
   res.writeHead(200, headers); res.end(html);
 }
 

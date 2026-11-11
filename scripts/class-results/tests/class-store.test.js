@@ -26,51 +26,8 @@ let fails = 0, n = 0;
 function ok(cond, name) { n++; if (!cond) { fails++; console.log('FAIL  ' + name); } }
 function eq(a, b, name) { const x = JSON.stringify(a), y = JSON.stringify(b); n++; if (x !== y) { fails++; console.log('FAIL  ' + name + '\n      got  ' + x + '\n      want ' + y); } }
 
-/** an in-memory ClassDb + a tiny catalogue */
-function memDb() {
-  let k = 0; const id = (p) => p + String(++k).padStart(9, '0');
-  const classes = new Map(), seats = new Map(), assignments = new Map(), attempts = new Map();
-  const usable = new Set(['sub', 'sub2']);
-  const decks = { 'en/count-k002': { title: 'Count the Animals', interactive: true }, 'en/trace-k100': { title: 'Trace the Lines', interactive: false } };
-  const ladders = { 'en/k002': { code: 'k002', title: 'Count and Write', levels: { easy: ['e1', 'e2'], core: ['c1', 'c2', 'c3'], hard: ['h1', 'h2'] } }, 'en/k100': { code: 'k100', title: 'Tracing', levels: { easy: [], core: [], hard: [] } }, 'en/k300': { code: 'k300', title: 'Two levels', levels: { easy: [], core: ['c1', 'c2'], hard: [] } } };
-  const makers = { abcdefghjkmn: { teacherId: 'sub', title: 'My number bonds' } };
-  const copy = (x) => (x ? JSON.parse(JSON.stringify(x)) : x);
-  const db = {
-    usable, classes, seats, assignments, attempts,
-    async listClasses(t) { return [...classes.values()].filter((c) => c.teacherId === t).map((c) => ({ id: c.id, name: c.name, code: c.code, namesMode: c.namesMode, locale: c.locale, seats: [...seats.values()].filter((s) => s.classId === c.id).length, assignments: [...assignments.values()].filter((a) => a.classId === c.id).length, lastUsedAt: c.lastUsedAt })); },
-    async countClasses(t) { return [...classes.values()].filter((c) => c.teacherId === t).length; },
-    async createClass(t, c) { const r = { id: id('c'), teacherId: t, ...c, lastUsedAt: new Date(0).toISOString(), createdAt: new Date(0).toISOString() }; classes.set(r.id, r); return copy(r); },
-    async getClass(i) { return copy(classes.get(i)) || null; },
-    async getClassByCode(code) { const c = [...classes.values()].find((x) => x.code === code); return c ? { cls: copy(c), teacherUsable: usable.has(c.teacherId) } : null; },
-    async updateClass(i, p) { Object.assign(classes.get(i), p); },
-    async touchClass(i, now) { classes.get(i).lastUsedAt = now.toISOString(); },
-    async deleteClass(i) { classes.delete(i); for (const s of [...seats.values()]) if (s.classId === i) await db.deleteSeat(s.id); for (const a of [...assignments.values()]) if (a.classId === i) await db.deleteAssignment(a.id); },
-    async listSeats(c) { return [...seats.values()].filter((s) => s.classId === c).sort((a, b) => a.seatNo - b.seatNo).map(copy); },
-    async getSeat(i) { return copy(seats.get(i)) || null; },
-    async createSeats(c, list) { for (const s of list) { const r = { id: id('s'), classId: c, ...s }; seats.set(r.id, r); } },
-    async updateSeat(i, p) { Object.assign(seats.get(i), p); },
-    async clearSeatNames(c) { for (const s of seats.values()) if (s.classId === c) s.displayName = null; },
-    async deleteSeat(i) { seats.delete(i); for (const a of [...attempts.values()]) if (a.seatId === i) attempts.delete(a.token); },
-    async deleteAttemptsOfSeat(i) { for (const a of [...attempts.values()]) if (a.seatId === i) attempts.delete(a.token); },
-    async listAssignments(c) { return [...assignments.values()].filter((a) => a.classId === c).sort((a, b) => a.position - b.position).map(copy); },
-    async getAssignment(i) { return copy(assignments.get(i)) || null; },
-    async createAssignment(c, a) { const r = { id: id('a'), classId: c, ...a, closedAt: null, createdAt: new Date(0).toISOString() }; assignments.set(r.id, r); return copy(r); },
-    async updateAssignment(i, p) { Object.assign(assignments.get(i), { closedAt: p.closedAt ? p.closedAt.toISOString() : null }); },
-    async deleteAssignment(i) { assignments.delete(i); for (const a of [...attempts.values()]) if (a.assignmentId === i) attempts.delete(a.token); },
-    async listAttemptsOfClass(c) { const ids = new Set([...assignments.values()].filter((a) => a.classId === c).map((a) => a.id)); return [...attempts.values()].filter((a) => ids.has(a.assignmentId)).map(copy); },
-    async listAttempts(a, s) { return [...attempts.values()].filter((x) => x.assignmentId === a && x.seatId === s).sort((x, y) => x.seq - y.seq).map(copy); },
-    async createAttempt(a) { const r = { id: id('t'), seq: k, ...a, right: null, total: null, items: null, checks: 0, finished: false, createdAt: db.now().toISOString(), reportedAt: null }; attempts.set(r.token, r); return copy(r); },
-    async getAttempt(t) { return copy(attempts.get(t)) || null; },
-    async saveReport(i, p) { const a = [...attempts.values()].find((x) => x.id === i); Object.assign(a, p, p.reportedAt ? { reportedAt: p.reportedAt.toISOString() } : {}); },
-    async resolveDeck(l, s) { const d = decks[l + '/' + s]; return d ? { slug: s, ...d } : null; },
-    async resolveLadder(l, c) { return copy(ladders[l + '/' + c]) || null; },
-    async resolveLanding(l, s) { return l === 'en' && s === 'count-the-animals' ? { slug: 'count-k002' } : null; },
-    async resolvePlayLink(i) { return i === 'a1b2c3d4e5' ? { locale: 'en', slug: 'count-k002' } : null; },
-    async resolveMakerLink(i, t) { const m = makers[i]; return m && m.teacherId === t ? { linkId: i, title: m.title } : null; },
-    now: () => new Date(T),
-  };
-  return db;
-}
+const { memDb: makeDb } = require('../mem-db.js');
+const memDb = () => makeDb({ now: () => new Date(T) });
 let T = Date.parse('2026-11-11T08:00:00Z');
 const now = () => new Date(T);
 const hours = (h) => { T += h * 3600 * 1000; };
@@ -148,6 +105,14 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
   r = await S.getClass(db, SUB, cid);
   eq(new Set(r.body.seats.map((s) => s.icon)).size, 40, 'forty seats, forty different pictures');
 
+  // the list says whose classes these are and what the caller may do
+  r = await S.listClasses(db, SUB);
+  eq([r.status, r.body.items.map((c) => c.id).includes(cid), r.body.canEdit], [200, true, true], 'a subscriber lists her classes and may edit');
+  r = await S.listClasses(db, SUB2);
+  eq([r.body.items.map((c) => c.id).includes(cid), r.body.canEdit], [false, true], "another teacher's list does not hold this class");
+  eq((await S.listClasses(db, FREE)).body.canEdit, false, 'an account without a usable plan is told it may not edit');
+  eq((await S.listClasses(db, null)).status, 401, 'signed out: no list');
+
   // assignments
   eq((await S.addAssignment(db, FREE, cid, { link: '/en/decks/count-k002/' }, now())).status, 403, 'a free account cannot assign');
   eq((await S.addAssignment(db, SUB, cid, { link: 'https://evil.example/x' }, now())).status, 400, 'a foreign address is refused');
@@ -199,12 +164,16 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
   let att = await db.getAttempt(tok1);
   eq([att.right, att.total, att.items, att.checks, att.finished], [3, 5, [1, 1, 1, 0, 0], 2, true], 'the FIRST Check is the result; the second only counts the press and marks the page finished');
 
-  // a finished-only page (no marks)
+  // a page with no marks: its Check is "played", its celebration "finished"; never a number
   r = await S.startAttempt(db, { code, seatId: tom, assignmentId: deckA }, newToken, now());
   const tok2 = r.body.url.split('#lcs=')[1];
+  eq((await S.report(db, { token: tok2, finished: 'yes' }, newToken, now())).status, 400, 'finished must be true or false');
+  eq((await S.report(db, { token: tok2, finished: false }, newToken, now())).status, 200, 'a page with no marks may report a Check that did not finish it');
+  att = await db.getAttempt(tok2);
+  eq([att.right, att.total, att.finished, !!att.reportedAt], [null, null, false, true], 'played, not finished: no marks are invented');
   eq((await S.report(db, { token: tok2, finished: true }, newToken, now())).status, 200, 'a page with no marks may report "finished"');
   att = await db.getAttempt(tok2);
-  eq([att.right, att.total, att.finished], [null, null, true], 'finished only: no marks are invented');
+  eq([att.right, att.total, att.finished, att.checks], [null, null, true, 2], 'finished only: no marks are invented');
 
   // ── the Level Set rule, sentence by sentence ──
   const play = async (seat, right, total) => {

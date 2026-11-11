@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { getLink, LINK_ID_RE } from '@/lib/makers/link-store';
 import * as ssr from '../../../../scripts/makers/play/ssr.js';
+import { classResultsEnabled } from '@/lib/class-results/http';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -103,6 +104,8 @@ export async function GET(_request: NextRequest, { params }: { params: { id: str
   const words = ssr.playStrings(strings, lang);
   const html = ssr.renderPlayHtml({
     template, base: tree.base, lang, head, chrome,
+    // class links (Part 9): one line that loads the class reporter only for a visit that carries a class token
+    classLoader: classResultsEnabled(),
     bar: { title: head.title, landingUrl: ORIGIN + landing.url, homeUrl: `${ORIGIN}/${lang}/`, makeYourOwn: words.makeYourOwn, madeWith: words.madeWith },
   });
   return new NextResponse(html, { status: 200, headers: HEADERS });

@@ -821,6 +821,1540 @@
      }
     }
    ]
+  },
+  {
+   "id": "k-position-size-patterns",
+   "slug": "position-words-size-and-patterns-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Position Words, Size, and Patterns",
+   "metaTitle": "Position Words, Size, and Patterns: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, comparing sizes, and repeating patterns, each with a teacher note and practice pages.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:position-words",
+     "title": "Position words",
+     "objective": "Children use the words on, under, beside, left, and right to say where something is, and circle the picture in the place that is named.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.A.1",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-064",
+       "title": "On, Under, Beside",
+       "core": "position-words-animals-k064"
+      },
+      {
+       "type": "K-065",
+       "title": "Left and Right",
+       "core": "position-words-animals-k065"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "parking-tower.place-by-relation.k-g-a-1",
+      "slug": "brambles-parking-tower",
+      "title": "Bramble's Parking Tower — Position Words: Above, Below, Between"
+     },
+     "exit": {
+      "slug": "position-words-shapes-k064",
+      "title": "On, Under, Beside"
+     },
+     "maker": {
+      "id": "position-words",
+      "name": "Position Words",
+      "slug": "position-words-worksheet-maker",
+      "template": "K-064"
+     },
+     "note": {
+      "mistake": "Children circle the picture they like best, not the one in the place that was named. Left and right are the hardest: many children find the correct side only while they face the same way as the teacher.",
+      "words": "Say the whole sentence each time: \"The cat is ON the box. The ball is UNDER the box.\" For left and right: \"Put your finger on the line. This side is the LEFT side.\" Have children say the position word back to you.",
+      "watch": "Watch who can also SAY where a picture is, not only circle it. A child who mixes up left and right but knows on, under, and beside needs more turns with the line page, not with the box page."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:scene-search",
+     "title": "Find every one like it",
+     "objective": "Children search a busy picture for every picture like the one in the box, and name the shape of everyday things as a circle or a rectangle.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "K.G.A.1",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-059",
+       "title": "Find and Circle",
+       "core": "counting-pictures-animals-k059"
+      },
+      {
+       "type": "K-371",
+       "title": "2D Shapes Around Us",
+       "core": "2d-shapes-k371",
+       "easy": "2d-shapes-easy-k371-4",
+       "hard": "2d-shapes-hard-k371-8",
+       "landing": "2d-shapes-around-us"
+      }
+     ],
+     "screen": {
+      "kind": "page",
+      "slug": "2d-shapes-k371-2",
+      "title": "2D Shapes Around Us"
+     },
+     "exit": {
+      "slug": "counting-pictures-shapes-k059",
+      "title": "Find and Circle"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-059"
+     },
+     "note": {
+      "mistake": "Children circle the first two or three they see and stop, or they circle a picture that is only the same color. On the shape page they name the thing (\"a clock\") and not its shape.",
+      "words": "Ask: \"Is it exactly like the one in the box? Did you find them all? How do you know?\" Teach a path for the eyes: \"Start at the top and go row by row, like reading.\" For shapes: \"A clock is a circle. A door is a rectangle.\"",
+      "watch": "Watch who searches in order and who jumps around the page. Children who jump around miss pictures; give them a strip of paper to slide down the page row by row."
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:compare-size-extremes",
+     "title": "Biggest, tallest, longest",
+     "objective": "Children compare the pictures in a row and circle the biggest, the tallest, or the longest one.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.MD.A.2",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-032",
+       "title": "Big and Small",
+       "core": "comparing-sizes-shapes-k032"
+      },
+      {
+       "type": "K-035",
+       "title": "Tall and Short",
+       "core": "comparing-sizes-fruits-k035"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.compare-length.k-md-2",
+      "slug": "comparing-length-taller-shorter-longer",
+      "title": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement"
+     },
+     "exit": {
+      "slug": "comparing-sizes-toys-k032",
+      "title": "Big and Small"
+     },
+     "maker": {
+      "id": "measurement",
+      "name": "Measurement & Size",
+      "slug": "measurement-worksheet-maker",
+      "template": "K-032"
+     },
+     "note": {
+      "mistake": "Children say \"big\" for everything: a tall thing and a long thing are both \"the big one.\" Some circle the picture that sits highest on the page and not the tallest one.",
+      "words": "Use a different word for each kind of size: \"tall\" goes up, \"long\" goes across. Ask: \"Which one is the TALLEST? Show me with your hand how tall.\" Ask for the opposite too: \"Which one is the shortest?\"",
+      "watch": "Watch who looks at every picture in the row before circling. A child who circles after looking at only two should touch each picture first and say its size word."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:order-by-size",
+     "title": "Put them in order by size",
+     "objective": "Children put three to five pictures in order from smallest to biggest and number them 1, 2, 3, and so on.",
+     "standards": [
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "1.MD.A.1",
+       "title": "Measurement and Data"
+      },
+      {
+       "rel": "extends",
+       "framework": "Common Core",
+       "code": "K.MD.A.2",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-033",
+       "title": "Small, Medium, Big",
+       "core": "comparing-sizes-animals-k033"
+      },
+      {
+       "type": "K-034",
+       "title": "Smallest to Biggest",
+       "core": "comparing-sizes-animals-k034"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "seriation.compare-length.1-md-a-1",
+      "slug": "compare-and-order-by-length",
+      "title": "The Faraway Shelf — Compare Lengths with a Cord"
+     },
+     "exit": {
+      "slug": "comparing-sizes-shapes-k033",
+      "title": "Small, Medium, Big"
+     },
+     "maker": {
+      "id": "measurement",
+      "name": "Measurement & Size",
+      "slug": "measurement-worksheet-maker",
+      "template": "K-033"
+     },
+     "note": {
+      "mistake": "With three pictures children find the smallest and the biggest and guess the middle one. With five they get the two ends and mix up the middle, or they number the pictures from left to right without looking at the sizes.",
+      "words": "Say: \"Find the smallest. That one is number 1. Now look at the ones that are left. Which is the smallest NOW?\" Use \"smaller than\" and \"bigger than\": \"The cup is bigger than the spoon and smaller than the pot.\"",
+      "watch": "Watch who starts over with \"the smallest of what is left\" each time. That child has a method and can do five pictures; a child who guesses should stay with three."
+     }
+    },
+    {
+     "n": 5,
+     "point": "K:patterns",
+     "title": "What comes next?",
+     "objective": "Children read a repeating pattern aloud, find the part that repeats, and circle what comes next.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "4.OA.C.5",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-046",
+       "title": "What Comes Next?",
+       "core": "patterns-animals-k046"
+      },
+      {
+       "type": "K-047",
+       "title": "ABC Patterns",
+       "core": "patterns-fruits-k047"
+      }
+     ],
+     "tool": {
+      "key": "pattern-bench",
+      "slug": "pattern-bench",
+      "name": "Pattern Bench"
+     },
+     "exit": {
+      "slug": "patterns-fruits-k046",
+      "title": "What Comes Next?"
+     },
+     "maker": {
+      "id": "patterns",
+      "name": "Patterns",
+      "slug": "pattern-worksheet-maker",
+      "template": "K-046"
+     },
+     "note": {
+      "mistake": "Children look only at the last picture and choose one that is different from it. That works for a two-part pattern and fails for a three-part one. Others copy the first picture of the row every time.",
+      "words": "Read the pattern aloud together and tap it: \"apple, pear, apple, pear, apple…\" Stop and let the class say the next one. Ask: \"Which part says itself again and again?\" Call it \"the part that repeats.\"",
+      "watch": "Watch who can say the pattern aloud with the page turned over. A child who chants it correctly but circles the wrong picture is not reading left to right; put a finger under each picture."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-counting-to-10",
+   "slug": "counting-to-10-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Counting to 10",
+   "metaTitle": "Counting to 10: Kindergarten Unit Plan",
+   "metaDescription": "A two-week Kindergarten math unit: 6 lessons on counting to 10, comparing groups, and writing numbers, each with a teacher note and practice pages.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:one-to-one",
+     "title": "One for each",
+     "objective": "Children give each object exactly one partner by drawing a line, and say whether there are enough.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "K.CC.B.4.a",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "K.CC.C.6",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-012",
+       "title": "One for Each",
+       "core": "counting-pictures-animals-k012"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.which-more.k-c-c-6",
+      "slug": "which-group-has-more",
+      "title": "Which Group Has More? — Kindergarten Counting"
+     },
+     "exit": {
+      "slug": "counting-pictures-shapes-k012",
+      "title": "One for Each"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-012"
+     },
+     "note": {
+      "mistake": "Children draw two lines to the same partner, or skip one that sits a little off to the side. When one is left without a partner, they draw a line to a picture that already has one so that nobody is left out.",
+      "words": "Say: \"One for you, one for you. Each one gets ONE partner.\" When something is left over: \"Is there one for each? Which group has one more?\" Use \"enough\" and \"not enough.\"",
+      "watch": "Watch the lines: one line from each picture and one line to each picture. A child who can tell you \"there are not enough\" without counting understands matching."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:compare-groups",
+     "title": "More, fewer, the same",
+     "objective": "Children compare two groups and tell which has more and which has fewer.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.C.6",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-008",
+       "title": "More or Less?",
+       "core": "comparing-groups-animals-k008"
+      },
+      {
+       "type": "K-009",
+       "title": "Which Has Fewer?",
+       "core": "comparing-groups-fruits-k009"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.which-more.k-c-c-6",
+      "slug": "which-group-has-more",
+      "title": "Which Group Has More? — Kindergarten Counting"
+     },
+     "exit": {
+      "slug": "comparing-groups-fruits-k008",
+      "title": "More or Less?"
+     },
+     "maker": {
+      "id": "compare-numbers",
+      "name": "Compare Numbers & Groups",
+      "slug": "comparing-numbers-worksheet-maker",
+      "template": "K-008"
+     },
+     "note": {
+      "mistake": "Children choose the group that takes up more room or has the bigger pictures, not the one with more in it. \"Fewer\" is a new word for most children; on that page they circle the bigger group again.",
+      "words": "Ask: \"Which group has MORE? How can we check?\" Check by matching one to one or by counting both. Say both sentences: \"Five is more than three. Three is fewer than five.\"",
+      "watch": "Watch what children do when the smaller group is spread out wide. A child who counts or matches before answering is ready; a child who answers at a glance and is wrong should line the two groups up."
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:count-how-many",
+     "title": "Count and write how many",
+     "objective": "Children count up to 10 pictures, say the last number as how many there are, and write that number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.3",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-006",
+       "title": "Count and Write",
+       "core": "counting-pictures-shapes-k006"
+      },
+      {
+       "type": "K-004",
+       "title": "Ten-Frame Count",
+       "core": "counting-frames-fruits-k004"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.how-many.0-10.animals",
+      "slug": "how-many-animals-0-to-10",
+      "title": "How Many Animals? Count 1 to 10 — Ten Frame Activity"
+     },
+     "exit": {
+      "slug": "counting-pictures-toys-k006",
+      "title": "Count and Write"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-006"
+     },
+     "note": {
+      "mistake": "Children say the numbers faster than they touch, so they count a picture twice or skip one. Asked \"How many?\" after counting, some start counting again and do not say the last number.",
+      "words": "Say: \"Touch one, say one number.\" After the count ask: \"So how many are there?\" and wait for one number, not a recount. On the ten frame: \"The top row is full. That is five. Six, seven.\"",
+      "watch": "Watch the finger and the voice together. Also look at the written numbers: a backward 3 or 7 is common in Kindergarten and is a handwriting matter, not a counting mistake."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:subitize",
+     "title": "How many? Look fast",
+     "objective": "Children look at a small group for a moment and say how many there are without counting one by one.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-018",
+       "title": "How Many? Quick!",
+       "core": "counting-frames-animals-k018"
+      },
+      {
+       "type": "K-017",
+       "title": "Quick Look!",
+       "core": "counting-frames-k017"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.how-many-group.k-c-c-b-5",
+      "slug": "how-many-are-there",
+      "title": "How Many Are There? — Kindergarten Counting"
+     },
+     "exit": {
+      "slug": "counting-frames-fruits-k018",
+      "title": "How Many? Quick!"
+     },
+     "maker": {
+      "id": "ten-frames",
+      "name": "Ten Frames and Tally Marks",
+      "slug": "ten-frame-and-tally-mark-worksheet-maker",
+      "template": "K-018"
+     },
+     "note": {
+      "mistake": "Children count every dot with a finger even for two or three. In five or six dots they do not see the smaller groups (a four and a two), so they have nothing to do but count.",
+      "words": "Show a group for two seconds, cover it, and ask: \"How many did you see? HOW did you see them?\" Accept \"I saw two and two.\" Say: \"You did not count. Your eyes knew.\"",
+      "watch": "Watch for moving lips and pointing fingers: those children are still counting by ones. Stay with one to four for them and use dice patterns, which look the same every time."
+     }
+    },
+    {
+     "n": 5,
+     "point": "K:count-out-n",
+     "title": "Make a group of that many",
+     "objective": "Children read a number and color or draw exactly that many, stopping when they reach the number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-011",
+       "title": "Count and Color",
+       "core": "counting-pictures-animals-k011"
+      },
+      {
+       "type": "K-005",
+       "title": "Fill the Frame",
+       "core": "counting-frames-k005"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.count-to-10.make-n.animals",
+      "slug": "count-to-10-with-animals",
+      "title": "Count to 10 with Animals — Ten Frame Activity"
+     },
+     "exit": {
+      "slug": "counting-pictures-fruits-k011",
+      "title": "Count and Color"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-011"
+     },
+     "note": {
+      "mistake": "Children color all the pictures in the row. They can count a group that is already there, but they do not stop when they reach the number they were given.",
+      "words": "Say: \"The number says 4. Color one, two, three, four. STOP. Is that four? Check.\" Have the child say the number before starting and again at the end: \"I need four. I have four.\"",
+      "watch": "Watch who stops alone at the number and who needs your \"stop.\" For the second kind of child, keep the number in sight: one finger on the numeral while the other hand colors."
+     }
+    },
+    {
+     "n": 6,
+     "point": "K:numeral-formation",
+     "title": "Write the numbers 0 to 9",
+     "objective": "Children trace and write the numbers 0 to 9, starting each one at the dot and following the arrows.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.3",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-237",
+       "title": "Trace the Numbers 0 to 9",
+       "core": "number-tracing-k237",
+       "easy": "number-tracing-easy-k237-24-0",
+       "hard": "number-tracing-hard-k237-46-0",
+       "landing": "number-tracing-0-9"
+      },
+      {
+       "type": "K-251",
+       "title": "Trace and Write the Numbers",
+       "core": "number-tracing-k251",
+       "easy": "number-tracing-easy-k251-2",
+       "hard": "number-tracing-hard-k251-3",
+       "landing": "trace-and-write-numbers-0-9"
+      }
+     ],
+     "tool": {
+      "key": "letter-studio",
+      "slug": "letter-studio",
+      "name": "Letter Studio"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+      "slug": "digby-number-trace",
+      "title": "Digby's Number Trace — Write Every Number 0 to 9"
+     },
+     "exit": {
+      "slug": "number-tracing-k237-2-0",
+      "title": "Trace the Numbers 0 to 9"
+     },
+     "maker": {
+      "id": "number-tracing",
+      "name": "Number Tracing",
+      "slug": "number-tracing-worksheet-maker",
+      "template": "K-237"
+     },
+     "note": {
+      "mistake": "Children start at the bottom and draw the number like a picture, so 5, 7, and 9 come out in pieces. Reversed 2, 3, 5, and 7 are common at this age and are not a sign of a problem.",
+      "words": "Give every number a short saying and use the same one all year, for example for 5: \"Down, around, then put on its hat.\" Ask: \"Where does it start? At the orange dot. Which way does the arrow go?\"",
+      "watch": "Watch the hand, not the finished page: a number that looks right can be written from the bottom up. Check the pencil grip while children trace, and correct one number at a time."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-shapes",
+   "slug": "shapes-all-around-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Shapes All Around",
+   "metaTitle": "Shapes All Around: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:shape-naming",
+     "title": "Name the shape",
+     "objective": "Children name circles, squares, triangles, and rectangles, also when a shape is turned, long, or thin.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.A.2",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-368",
+       "title": "2D Shapes",
+       "core": "2d-shapes-k368",
+       "easy": "2d-shapes-easy-k368-7",
+       "hard": "2d-shapes-hard-k368-12",
+       "landing": "2d-shapes-circle-the-name"
+      },
+      {
+       "type": "K-265",
+       "title": "Color by Shape Code",
+       "core": "color-by-number-k265",
+       "landing": "color-by-shape-code"
+      }
+     ],
+     "tool": {
+      "key": "shape-stretcher",
+      "slug": "shape-stretcher-turning-changes-nothing-leaning-does-grade-1",
+      "name": "The Shape Stretcher"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "pip-museum.curate-wing.k-g-a-2",
+      "slug": "professor-pips-museum",
+      "title": "Professor Pip's Museum — Name Shapes Any Way They Turn"
+     },
+     "exit": {
+      "slug": "2d-shapes-k368-2",
+      "title": "2D Shapes"
+     },
+     "maker": {
+      "id": "shapes-geometry",
+      "name": "Shapes & Geometry",
+      "slug": "shapes-and-geometry-worksheet-maker",
+      "template": "K-368"
+     },
+     "note": {
+      "mistake": "Children know a triangle only when it sits flat with the point on top. A triangle standing on its point is \"upside down\" or \"not a triangle,\" and a square on its corner becomes \"a diamond.\"",
+      "words": "Turn a shape in your hand and ask: \"Is it still a triangle? Why?\" Give the reason every time: \"It has three straight sides and three corners, so it is a triangle.\"",
+      "watch": "Listen to what children say about the long, thin triangle and the turned square. A child who counts the sides to decide is using the rule; a child who says \"it does not look like one\" is going by the picture."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:count-sides",
+     "title": "Count the sides",
+     "objective": "Children count the sides of a shape, write the number, and match shapes to their number of sides.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.B.4",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-075",
+       "title": "Count the Sides",
+       "core": "geometry-k075",
+       "easy": "geometry-easy-k075",
+       "hard": "geometry-hard-k075",
+       "landing": "geometry-kindergarten"
+      },
+      {
+       "type": "K-076",
+       "title": "Sort by Sides",
+       "core": "geometry-k076",
+       "easy": "geometry-easy-k076",
+       "hard": "geometry-hard-k076"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.count-sides.k-g-b-4",
+      "slug": "count-the-sides",
+      "title": "Count the Sides — Kindergarten Geometry"
+     },
+     "exit": {
+      "slug": "geometry-k075-2",
+      "title": "Count the Sides"
+     },
+     "maker": {
+      "id": "shapes-geometry",
+      "name": "Shapes & Geometry",
+      "slug": "shapes-and-geometry-worksheet-maker",
+      "template": "K-075"
+     },
+     "note": {
+      "mistake": "Children count around the shape and forget where they started, so one side is counted twice. Some count sides and corners together, and some say a circle has one side.",
+      "words": "Say: \"Put a mark on the side where you start. Trace each side with your finger and count. Stop at your mark.\" Ask: \"Is a side straight? Then how many straight sides does a circle have?\" (None.)",
+      "watch": "Watch who marks a starting side. Check the six-sided shapes first: that is where a double count shows."
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:compose-shapes",
+     "title": "Build shapes from pieces",
+     "objective": "Children put tangram pieces together to make a figure and show where the pieces meet inside a shape.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.B.6",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-353",
+       "title": "Tangram Puzzles: Cut Out the Pieces and Build Two Figures",
+       "core": "tangram-k353",
+       "landing": "tangram-cut-out-and-build"
+      },
+      {
+       "type": "K-358",
+       "title": "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces",
+       "core": "tangram-k358",
+       "landing": "tangram-draw-the-seam-lines"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "shapeforge.compose.1-g-a-2",
+      "slug": "mims-glow-workshop",
+      "title": "Mim's Glow Workshop — Compose Shapes from Pattern Blocks"
+     },
+     "maker": {
+      "id": "tangram",
+      "name": "Tangram",
+      "slug": "tangram-worksheet-maker",
+      "template": "K-353"
+     },
+     "note": {
+      "mistake": "Children lay a piece down the way it came off the page and give up when it does not fit. They do not think of turning it or flipping it over. On the drawing page they draw a line where no two pieces could meet.",
+      "words": "Say: \"Turn it. Flip it. Slide it.\" Name what happened: \"Two small triangles made a square.\" Ask: \"Which piece fills this corner? Which side of the piece is the long side?\"",
+      "watch": "Watch who turns a piece before asking for help. Scissors are part of this lesson: a child who cuts off a corner cannot make the pieces fit, so help with the cutting first."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:mirror-image",
+     "title": "Mirror pictures",
+     "objective": "Children look at a picture and choose the one that shows it the way a mirror would.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "4.G.A.3",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-063",
+       "title": "Mirror, Mirror",
+       "core": "visual-discrimination-animals-k063"
+      }
+     ],
+     "tool": {
+      "key": "folding-sheet",
+      "slug": "folding-sheet",
+      "name": "The Folding Sheet"
+     },
+     "exit": {
+      "slug": "visual-discrimination-toys-k063",
+      "title": "Mirror, Mirror"
+     },
+     "maker": {
+      "id": "same-different",
+      "name": "Same & Different",
+      "slug": "same-and-different-worksheet-maker",
+      "template": "K-063"
+     },
+     "note": {
+      "mistake": "Children circle the picture that is exactly the same, or the one that is upside down. They do not yet see that a mirror swaps left and right and keeps top and bottom.",
+      "words": "Hold a small mirror beside a picture and ask: \"The dog looks left. Which way does the dog in the mirror look?\" Say: \"In a mirror, left and right trade places. Up stays up.\"",
+      "watch": "Notice which wrong answer a child picks. The same picture means the child has not seen the swap; the upside-down picture means the child is turning, not flipping. Fold a paper to show the difference."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-counting-in-order-to-20",
+   "slug": "counting-in-order-to-20-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Counting in Order to 20",
+   "metaTitle": "Counting in Order to 20: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting in order to 20, forward and back, each with a teacher note, practice pages, and practice on screen.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:count-forward-missing",
+     "title": "Fill in the missing numbers",
+     "objective": "Children count along a number strip to 10 and to 20 and write the numbers that are missing.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.2",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-019",
+       "title": "Missing Numbers to 10",
+       "core": "number-charts-fruits-k019",
+       "easy": "number-charts-easy-tools-k019",
+       "hard": "number-charts-hard-dinosaurs-k019"
+      },
+      {
+       "type": "K-020",
+       "title": "Missing Numbers to 20",
+       "core": "number-charts-toys-k020",
+       "easy": "number-charts-easy-miscellaneous-k020",
+       "hard": "number-charts-hard-bakery-k020"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.next-number.k-cc-a-2",
+      "slug": "what-number-comes-next",
+      "title": "What Number Comes Next? — Kindergarten Counting"
+     },
+     "exit": {
+      "slug": "number-charts-vehicles-k019",
+      "title": "Missing Numbers to 10"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "K-019"
+     },
+     "note": {
+      "mistake": "Children can count from 1 but cannot say what comes after a number in the middle. To fill a gap after 7 they go back and whisper from 1. In the teens they say \"ten-one\" or skip 13 and 15.",
+      "words": "Ask: \"What comes right after 7? Say it without starting at 1.\" Count on together from different numbers: \"Start at 6. Seven, eight, nine.\" Say the teen numbers slowly and point: \"thir-teen, four-teen, fif-teen.\"",
+      "watch": "Watch who whispers from 1 for every gap. That child needs many short \"start at… and count on\" turns aloud before more pages. Check 11, 12, 13, and 15, the numbers that do not sound like what they are."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:dot-to-dot-sequence",
+     "title": "Join the dots in order",
+     "objective": "Children join numbered dots in counting order, from 1 to 10 and from 11 to 20, to finish a picture.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.1",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.2",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-294",
+       "title": "Dot-to-Dot 1 to 10",
+       "core": "dot-to-dot-k294",
+       "easy": "dot-to-dot-easy-k294-6",
+       "hard": "dot-to-dot-hard-k294-11",
+       "landing": "dot-to-dot-1-10"
+      },
+      {
+       "type": "K-295",
+       "title": "Dot-to-Dot 11 to 20",
+       "core": "dot-to-dot-k295",
+       "easy": "dot-to-dot-easy-k295-6",
+       "hard": "dot-to-dot-hard-k295-11",
+       "landing": "dot-to-dot-11-20"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "star-stitcher.connect-sequence.k-cc-a-2",
+      "slug": "count-the-stars-awake",
+      "title": "Count the Stars Awake — Counting On from a Number"
+     },
+     "exit": {
+      "slug": "dot-to-dot-k294-2",
+      "title": "Dot-to-Dot 1 to 10"
+     },
+     "maker": {
+      "id": "dot-to-dot",
+      "name": "Dot to Dot",
+      "slug": "dot-to-dot-worksheet-maker",
+      "template": "K-294"
+     },
+     "note": {
+      "mistake": "Children join a dot to the nearest dot, not to the next number. They read 12 as 21, or they lift the pencil, lose their place, and cannot find where they were.",
+      "words": "Say: \"Say the number you are on. What comes next? Find it BEFORE you draw.\" Keep one finger on the dot you are on and look for the next number with your eyes.",
+      "watch": "Watch the first three lines. A child who looks for the next number before moving the pencil will finish alone. If the picture comes out wrong, count aloud along the lines together to find where it left the order."
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:before-after-back",
+     "title": "Before, after, and counting back",
+     "objective": "Children write the number that comes before and the number that comes after, and count backward from 10.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.2",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-021",
+       "title": "Before and After",
+       "core": "number-charts-k021",
+       "easy": "number-charts-easy-k021-7",
+       "hard": "number-charts-hard-k021-10",
+       "landing": "number-charts-kindergarten"
+      },
+      {
+       "type": "K-023",
+       "title": "Blast Off! 10, 9, 8…",
+       "core": "number-charts-animals-k023",
+       "easy": "number-charts-easy-desserts-and-sweets-k023",
+       "hard": "number-charts-hard-vegetables-k023"
+      }
+     ],
+     "tool": {
+      "key": "number-line",
+      "slug": "number-line",
+      "name": "Number Line"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "number-charts-k021-3",
+      "title": "Before and After"
+     },
+     "exit": {
+      "slug": "number-charts-k021-2",
+      "title": "Before and After"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "K-021"
+     },
+     "note": {
+      "mistake": "\"After\" is easy because it is the next counting word. \"Before\" is hard: children write the number after again, or count up from 1 to find it. Counting back, they skip a number or jump from 10 to 8.",
+      "words": "On a number line: \"Put your finger on 6. The number BEFORE is one step back. The number AFTER is one step forward.\" Count down like a rocket: \"10, 9, 8…\" Say \"one less\" for before and \"one more\" for after.",
+      "watch": "Watch who finds the number before without counting up from 1. Children who cannot should use the number line for every item; take it away only when they stop looking at it."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:ordinal-position",
+     "title": "First, second, third",
+     "objective": "Children find the first, second, third, and later places in a line, counting from the end that is marked.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "K-030",
+       "title": "First, Second, Third…",
+       "core": "counting-pictures-fruits-k030"
+      },
+      {
+       "type": "K-320",
+       "title": "Ordinal Numbers: Find the Place",
+       "core": "ordinal-numbers-animals-k320",
+       "easy": "ordinal-numbers-easy-4th-of-july-k320",
+       "hard": "ordinal-numbers-hard-4th-of-july-k320-100",
+       "landing": "ordinal-numbers-find-the-place"
+      }
+     ],
+     "tool": {
+      "key": "the-queue",
+      "slug": "the-queue",
+      "name": "The Counting Line"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "ordinal-numbers-4th-of-july-k320-51",
+      "title": "Ordinal Numbers: Find the Place"
+     },
+     "exit": {
+      "slug": "counting-pictures-vehicles-k030",
+      "title": "First, Second, Third…"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-030"
+     },
+     "note": {
+      "mistake": "Children always count from the left, even when the arrow or the flag is on the right. Some mark that many pictures (three pictures for \"third\") and not the one picture in third place.",
+      "words": "Ask first: \"Where does the line start? Find the arrow.\" Then: \"First, second, third. The THIRD one is only this one.\" Line up five children and ask: \"Who is second? Now turn around. Who is second now?\"",
+      "watch": "Watch what happens when the start is on the right. A child who looks for the arrow before counting has the idea. Keep \"three\" and \"third\" apart: \"Three is how many. Third is which one.\""
+     }
+    },
+    {
+     "n": 5,
+     "point": "K:colour-by-number",
+     "title": "Color by number",
+     "objective": "Children read the number in each part of a picture and color the part with the color the key gives for that number.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "K.CC.A.3",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-393",
+       "title": "Color by Number",
+       "core": "color-by-number-easy-k393-11-savannatrex",
+       "easy": "color-by-number-easy-k393-10-forestrabbit",
+       "hard": "color-by-number-easy-k393-21-catgarden",
+       "screen": 1
+      },
+      {
+       "type": "K-266",
+       "title": "Color by Number",
+       "core": "color-by-number-k266",
+       "landing": "color-by-number-1-6"
+      }
+     ],
+     "screen": {
+      "kind": "page",
+      "slug": "color-by-number-easy-k393-11-savannatrex",
+      "title": "Color by Number"
+     },
+     "exit": {
+      "slug": "color-by-number-easy-k393-12-savannaostrich",
+      "title": "Color by Number"
+     },
+     "maker": {
+      "id": "color-by-number",
+      "name": "Color by Number & Code",
+      "slug": "color-by-number-worksheet-maker",
+      "template": "K-393"
+     },
+     "note": {
+      "mistake": "Children color by what the thing should look like (\"grass is green\") and not by the number. They mix up 6 and 9, or color a part next door because they did not look inside it for its number.",
+      "words": "Say: \"Find the number inside the part. Find that number in the key. What color does the key say?\" Do one color at a time: \"Find every 3 first. All the 3s are blue.\"",
+      "watch": "Watch who goes back to the key for each part. One color at a time keeps the key in mind and shows you quickly who cannot yet tell 6 from 9."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-sorting-tallies-days",
+   "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Sorting, Tallies, and the Days of the Week",
+   "metaTitle": "Sorting, Tallies, and the Days of the Week: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting each kind, tally marks, estimating, and the days of the week, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:classify-count-kinds",
+     "title": "Count each kind",
+     "objective": "Children look at a mixed group of pictures, count each kind separately, and write how many of each there are.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.MD.B.3",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-013",
+       "title": "Count Each Kind",
+       "core": "counting-pictures-animals-k013"
+      },
+      {
+       "type": "K-060",
+       "title": "I Spy…",
+       "core": "counting-pictures-animals-k060"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.sort-count.k-md-b-3",
+      "slug": "sort-and-count-by-category",
+      "title": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data"
+     },
+     "exit": {
+      "slug": "counting-pictures-fruits-k013",
+      "title": "Count Each Kind"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-013"
+     },
+     "note": {
+      "mistake": "Children count everything on the page as one group, or they count one kind and lose track because the pictures are mixed. A picture gets counted twice or not at all.",
+      "words": "Say: \"We are counting only the birds now. Is this a bird? Then mark it.\" Teach children to cross out or dot each picture as they count it. Ask afterward: \"Which kind has the most?\"",
+      "watch": "Watch who marks what has been counted. A child who marks and still gets a wrong number has a counting problem; a child who does not mark has a keeping-track problem."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:tally-marks",
+     "title": "Tally marks",
+     "objective": "Children show a count with tally marks, crossing the fifth mark over the first four, and read a tally back as a number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-014",
+       "title": "Make Your Tally",
+       "core": "tally-counting-fruits-k014"
+      },
+      {
+       "type": "K-015",
+       "title": "Read the Tally",
+       "core": "tally-counting-k015"
+      }
+     ],
+     "exit": {
+      "slug": "tally-counting-vehicles-k014",
+      "title": "Make Your Tally"
+     },
+     "maker": {
+      "id": "ten-frames",
+      "name": "Ten Frames and Tally Marks",
+      "slug": "ten-frame-and-tally-mark-worksheet-maker",
+      "template": "K-014"
+     },
+     "note": {
+      "mistake": "Children draw five upright marks and cross them with a sixth, so every bundle is worth six. Others never cross and draw one long row of single marks.",
+      "words": "Chant while drawing: \"One, two, three, four, and SHUT THE GATE.\" Say: \"The gate is number five. It is not an extra one.\" To read a tally, count on from the bundle: \"Five… six, seven.\"",
+      "watch": "Watch children draw: count the upright marks before the cross goes on. When they read a tally, listen for \"five\" said at once for a bundle and not \"one, two, three, four, five.\""
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:estimate",
+     "title": "Take a good guess",
+     "objective": "Children look at a group, choose the better guess for how many there are, and then check by counting.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-029",
+       "title": "Take a Good Guess!",
+       "core": "counting-pictures-animals-k029"
+      }
+     ],
+     "tool": {
+      "key": "estimation-jar",
+      "slug": "estimation-jar",
+      "name": "Estimation Jar"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "wondering-jar.estimate-jar.k-cc-b-5",
+      "slug": "the-wondering-jar",
+      "title": "The Wondering Jar — Guess, Then Count to Find Out"
+     },
+     "exit": {
+      "slug": "counting-pictures-fruits-k029",
+      "title": "Take a Good Guess!"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-029"
+     },
+     "note": {
+      "mistake": "Children count quietly before they guess, because they want to be right. Or they give a wild number (\"a hundred\") for eight things. Both show that a guess is not yet a thinking step for them.",
+      "words": "Say: \"A guess is not a count. Look, think, and tell me: closer to 5 or closer to 20?\" After the count: \"Was your guess close? It does not have to be the same.\" Praise close guesses, not only exact ones.",
+      "watch": "Watch who changes the circled guess after counting. Tell the class that a guess stays as it was; the count is a second answer. Notice who uses a group they know (\"that looks like a full ten frame\")."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:days-of-week",
+     "title": "The days of the week",
+     "objective": "Children say the seven days of the week in order and put the days in order on a page.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "K-321",
+       "title": "Days of the Week in Order",
+       "core": "days-and-months-k321",
+       "easy": "days-and-months-easy-k321-3",
+       "hard": "days-and-months-hard-k321-8",
+       "landing": "days-of-the-week-in-order"
+      },
+      {
+       "type": "K-337",
+       "title": "Missing Days: Write the Week in Order",
+       "core": "days-and-months-k337",
+       "easy": "days-and-months-easy-k337-3",
+       "hard": "days-and-months-hard-k337-8",
+       "landing": "missing-days-of-the-week"
+      }
+     ],
+     "tool": {
+      "key": "calendar-wall",
+      "slug": "calendar-wall",
+      "name": "Calendar Wall"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "days-and-months-k337-2",
+      "title": "Missing Days: Write the Week in Order"
+     },
+     "exit": {
+      "slug": "days-and-months-k321-2",
+      "title": "Days of the Week in Order"
+     },
+     "maker": {
+      "id": "calendar",
+      "name": "Calendar, Days & Months",
+      "slug": "calendar-worksheet-maker",
+      "template": "K-321"
+     },
+     "note": {
+      "mistake": "Children can sing the days in order but cannot start in the middle: asked what comes after Wednesday, they sing from the beginning. Tuesday and Thursday get mixed up because they start alike.",
+      "words": "Ask every morning: \"What day is it today? What day was yesterday? What day comes tomorrow?\" Point to the words while the class says them. For the two T days: \"TUES-day has the U. THURS-day has the H.\"",
+      "watch": "Watch who has to start the whole song for each answer. On the copying page, check that each word is copied letter by letter from the word bank; that page is reading and writing as much as math."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-putting-together-taking-apart",
+   "slug": "putting-together-and-taking-apart-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Putting Together and Taking Apart",
+   "metaTitle": "Putting Together and Taking Apart: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, and first addition and subtraction facts.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:combine-groups",
+     "title": "How many altogether?",
+     "objective": "Children put two groups together, count all of them, and write how many there are in all.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-028",
+       "title": "How Many Altogether?",
+       "core": "counting-pictures-animals-k028"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.show-the-operation.k-oa-a-1",
+      "slug": "show-the-operation",
+      "title": "Show the Operation — Add & Subtract on a Ten Frame"
+     },
+     "exit": {
+      "slug": "counting-pictures-shapes-k028",
+      "title": "How Many Altogether?"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-028"
+     },
+     "note": {
+      "mistake": "Children count the first group, then start again at 1 for the second group and write that second number. They count two groups; they do not yet join them.",
+      "words": "Say: \"Here are three. Here are two. Push them together. How many ALTOGETHER?\" Count across the gap without stopping: \"one, two, three… four, five.\" Use \"altogether\" and \"in all\" for the total.",
+      "watch": "Watch what happens at the gap between the groups. A child who keeps counting has joined them. A child who says the first number and counts on from it is already using a first-grade strategy; let it be."
+     }
+    },
+    {
+     "n": 2,
+     "point": "K:number-bonds-k",
+     "title": "Number bonds to 5 and to 10",
+     "objective": "Children break a number up to 10 into two parts and find the part that is missing in a number bond.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.3",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.4",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-273",
+       "title": "Number Bonds to 5",
+       "core": "number-bonds-k273",
+       "easy": "number-bonds-easy-k273-2",
+       "hard": "number-bonds-hard-k273-4",
+       "landing": "number-bonds-to-5"
+      },
+      {
+       "type": "K-274",
+       "title": "Number Bonds Within 10",
+       "core": "number-bonds-k274",
+       "easy": "number-bonds-easy-k274-7",
+       "hard": "number-bonds-hard-k274-12",
+       "landing": "number-bonds-within-10"
+      }
+     ],
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rekenrek",
+      "name": "Rekenrek"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "numberbond.make-ten.k-oa-a-4",
+      "slug": "make-ten-number-bond",
+      "title": "Make 10 — Number Bonds to Ten"
+     },
+     "maker": {
+      "id": "number-bonds",
+      "name": "Number Bonds & Fact Families",
+      "slug": "number-bond-and-fact-family-worksheet-maker",
+      "template": "K-273"
+     },
+     "note": {
+      "mistake": "Children add the two numbers they see. When the bond shows 5 on top and 2 below, they write 7 in the empty circle, because every number so far was something to add.",
+      "words": "Point and say: \"The top circle is the WHOLE. The two circles below are the PARTS.\" Ask: \"Five is the whole. Two is one part. What is the other part?\" Show it with five counters: \"Two here. How many are over there?\"",
+      "watch": "Look for answers bigger than the whole: that child added. Go back to counters and split one group in different ways before returning to the page."
+     }
+    },
+    {
+     "n": 3,
+     "point": "K:odd-even-pairing",
+     "title": "Odd or even?",
+     "objective": "Children pair up the pictures in a group and say that the number is even when every one has a partner and odd when one is left over.",
+     "standards": [
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.OA.C.3",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-016",
+       "title": "Odd or Even?",
+       "core": "counting-pictures-shapes-k016"
+      }
+     ],
+     "tool": {
+      "key": "pair-gate",
+      "slug": "pair-gate-odd-and-even-by-pairing-counters",
+      "name": "The Pair Gate"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.even-odd.2-oa-c-3",
+      "slug": "even-or-odd",
+      "title": "Even or Odd? — Number Sense for Grade 2"
+     },
+     "exit": {
+      "slug": "counting-pictures-toys-k016",
+      "title": "Odd or Even?"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-016"
+     },
+     "note": {
+      "mistake": "Children circle three pictures together or leave out a picture that is far away, and then the left-over one is not real. Some think \"odd\" means strange and \"even\" means the same on both sides.",
+      "words": "Say: \"Two by two. Does everyone have a partner?\" Then name it: \"No one is left over. Six is EVEN.\" \"One is left over. Seven is ODD.\" Line the class up in pairs to see it.",
+      "watch": "Check that every circle holds exactly two. This is an early look at a second-grade idea: the goal is careful pairing, not knowing by heart which numbers are odd."
+     }
+    },
+    {
+     "n": 4,
+     "point": "K:fact-fluency-colour-code",
+     "title": "Add and subtract to color",
+     "objective": "Children solve addition and subtraction facts and color each part of a picture with the color for its answer.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.5",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.OA.B.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-268",
+       "title": "Add and Subtract Coloring",
+       "core": "color-by-number-k268",
+       "landing": "add-and-subtract-color-by-code"
+      },
+      {
+       "type": "K-267",
+       "title": "Subtraction Color by Code",
+       "core": "color-by-number-k267",
+       "landing": "subtraction-color-by-code"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.quick-facts-to-5.k-oa-a-5",
+      "slug": "quick-facts-to-5",
+      "title": "Quick Facts to 5 — Add & Subtract Fluently"
+     },
+     "maker": {
+      "id": "color-by-number",
+      "name": "Color by Number & Code",
+      "slug": "color-by-number-worksheet-maker",
+      "template": "K-268"
+     },
+     "note": {
+      "mistake": "Children see two numbers and add, even when the sign is a minus. Or they solve the fact correctly and then color by the first number in the problem and not by the answer.",
+      "words": "Say: \"Circle the sign first. Is it plus or minus?\" Then: \"Write the answer small in the part. Now look in the code for THAT number.\" Let children use fingers or a ten frame; this page is practice, not a speed test.",
+      "watch": "Watch who writes the answers before coloring. The picture shows mistakes by itself: a part in the wrong color is a fact to check together."
+     }
+    },
+    {
+     "n": 5,
+     "point": "K:number-bonds-20",
+     "title": "Number bonds to 20",
+     "objective": "Children find the missing part or the whole in number bonds with numbers up to 20.",
+     "standards": [
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-275",
+       "title": "Number Bonds to 20",
+       "core": "number-bonds-k275",
+       "easy": "number-bonds-easy-k275-7",
+       "hard": "number-bonds-hard-k275-12",
+       "landing": "number-bonds-to-20"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "numberbond.find-the-total.1-oa-a-1",
+      "slug": "find-the-total-number-bond",
+      "title": "Find the Total — Add Two Parts Within 20"
+     },
+     "exit": {
+      "slug": "number-bonds-k275-2",
+      "title": "Number Bonds to 20"
+     },
+     "maker": {
+      "id": "number-bonds",
+      "name": "Number Bonds & Fact Families",
+      "slug": "number-bond-and-fact-family-worksheet-maker",
+      "template": "K-275"
+     },
+     "note": {
+      "mistake": "Children who know the bonds to 10 go back to counting by ones when the whole is 14 or 17. They do not see the ten inside the teen number, so 10 and 4 is a new problem to them.",
+      "words": "Say: \"Fourteen is ten and four.\" On two ten frames: \"One frame is full. How many more?\" Ask: \"If 4 and 3 make 7, what do 14 and 3 make?\" This reaches into first grade; keep counters on the table.",
+      "watch": "Watch who uses the ten. A child who counts from 1 for every bond should go back to the bonds within 10; this page comes too early for that child."
+     }
+    }
+   ]
   }
  ]
 }

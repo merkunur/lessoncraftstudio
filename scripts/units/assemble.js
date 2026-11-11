@@ -93,7 +93,10 @@ function assemble(loc, opt = {}) {
       for (const typeId of L.types || []) {
         if (!p.types.includes(typeId)) { bad(lw + ': type ' + typeId + ' does not belong to this teaching point'); continue; }
         const pg = pages.get(typeId);
-        const title = strings[typeId] && strings[typeId].title;
+        // a type made per picture or per letter carries a placeholder in its title ("Color by Number: {UNIT}"): the unit
+        // names the type, so a placeholder at the end is dropped; one in the middle of a title cannot be shown
+        const title = strings[typeId] && strings[typeId].title && strings[typeId].title.replace(/\s*:\s*\{[A-Za-z_]+\}\s*$/, '');
+        if (title && /\{[A-Za-z_]+\}/.test(title)) { bad(lw + ': the title of type ' + typeId + ' carries a placeholder (' + title + ')'); continue; }
         if (!pg || !pg.core.length || !title) { bad(lw + ': type ' + typeId + ' has no published core page or no title in this language'); continue; }
         const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
         const core = pick('core'), easy = pick('easy'), hard = pick('hard');

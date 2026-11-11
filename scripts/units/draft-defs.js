@@ -8,7 +8,8 @@
  *   node scripts/units/draft-defs.js --loc=en --list=frontend/content/units/lists/en-math.json            report only
  *   node scripts/units/draft-defs.js --loc=en --list=… --write                                            add the new units
  *
- * The list: { units: [{ id, title, grade, points: [<point id>…], metaTitle?, metaDescription? }] }.
+ * The list: { units: [{ id, title, grade, points: [<point id> | { point, types: [<type id>, …] }…], metaTitle?, metaDescription? }] }.
+ * --types also prints the worksheet types each lesson takes. --only=<id prefix> drafts only the units whose id starts so.
  * A lesson takes up to two worksheet types of its point: first those whose pages form a Level Set with all three
  * levels, then other Level Sets, then by number of pages; among equals, a type with a screen version first.
  * A point with no published page is refused (a lesson needs something to hand out).
@@ -25,6 +26,9 @@ const read = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const list = read(path.resolve(REPO, arg('list', 'frontend/content/units/lists/' + loc + '-math.json'))).units;
 const points = new Map(read(path.join(C, 'teaching-graph', 'points.json')).points.map((p) => [p.id, p]));
 const assets = read(path.join(C, 'teaching-graph', 'assets', loc + '.json'));
+const toolPoints = read(path.join(C, 'teaching-graph', 'tools.json')).tools;
+const toolContent = read(path.join(REPO, 'frontend', 'messages', 'tool-content', loc + '.json'));
+const ONLY = arg('only', null);
 const defsFile = path.join(C, 'units', 'defs', loc + '.json');
 const defs = read(defsFile);
 const have = new Set(defs.units.map((u) => u.id));
@@ -37,17 +41,29 @@ const score = (t) => { const a = assets.types[t]; const n = a.p.reduce((x, y) =>
 
 let problems = 0;
 const out = [];
+const gaps = [];
 for (const u of list) {
+  if (ONLY && !u.id.startsWith(ONLY)) continue;
   if (have.has(u.id)) { console.log('kept   ' + u.id + ' (already defined)'); continue; }
   const lessons = [];
-  for (const pid of u.points) {
+  for (const entry of u.points) {
+    // a list entry is a point id, or { point, types } where the unit chooses its pages by hand
+    const pid = typeof entry === 'string' ? entry : entry.point;
+    const chosen = typeof entry === 'string' ? null : entry.types;
     const p = points.get(pid);
     if (!p) { problems++; console.log('ERROR  ' + u.id + ': no teaching point ' + pid); continue; }
     if (p.grade !== String(u.grade)) console.log('note   ' + u.id + ': ' + pid + ' is a grade ' + p.grade + ' point in a grade ' + u.grade + ' unit');
     if (usedPoints.has(pid)) { problems++; console.log('ERROR  ' + u.id + ': ' + pid + ' is already a lesson of ' + usedPoints.get(pid)); continue; }
     usedPoints.set(pid, u.id);
-    const types = p.types.filter((t) => assets.types[t] && assets.types[t].p.some((n) => n > 0)).sort((a, b) => score(b) - score(a) || (a < b ? -1 : 1)).slice(0, 2);
+    const published = p.types.filter((t) => assets.types[t] && assets.types[t].p.some((n) => n > 0));
+    if (chosen) for (const t of chosen) if (!published.includes(t)) { problems++; console.log('ERROR  ' + u.id + ': ' + t + ' is not a published type of ' + pid); }
+    const types = chosen ? chosen.filter((t) => published.includes(t)) : published.sort((a, b) => score(b) - score(a) || (a < b ? -1 : 1)).slice(0, 2);
     if (!types.length) { problems++; console.log('ERROR  ' + u.id + ': ' + pid + ' has no published page in ' + loc); continue; }
+    // the unit gate asks for two real assets in a lesson (worksheet types, a tool, a live activity): a point with one
+    // type and neither a tool nor an activity is left out and reported, never padded
+    const hasTool = Object.keys(toolPoints).some((k) => (toolPoints[k].points || []).includes(pid) && toolContent[k] && toolContent[k].slug && toolContent[k].name);
+    const hasAct = (p.activities || []).some((a) => assets.activities[a]);
+    if (types.length + (hasTool ? 1 : 0) + (hasAct ? 1 : 0) < 2) { gaps.push(u.id + ': ' + pid + ' has one worksheet type and no tool or activity in ' + loc + ' (' + types.join(' ') + ')'); usedPoints.delete(pid); continue; }
     lessons.push({ point: pid, types });
   }
   const three = lessons.filter((l) => l.types.some((t) => assets.types[t].p.every((n) => n > 0))).length;
@@ -60,8 +76,10 @@ for (const u of list) {
     weeks, lessons,
   };
   out.push(def);
+  if (process.argv.includes('--types')) for (const l of lessons) console.log('         ' + l.point.padEnd(34) + l.types.join(' '));
   console.log('new    ' + u.id.padEnd(34) + lessons.length + ' lessons, ' + weeks + ' week(s); three levels in ' + three + ', on screen in ' + screen + '; title ' + def.metaTitle.length + ' ch, description ' + def.metaDescription.length + ' ch  /' + def.slug);
 }
+if (gaps.length) { console.log(''); console.log('UNIT GAPS (left out; a tool or an activity for the point would bring the lesson in):'); for (const g of gaps) console.log('  ' + g); }
 if (problems) { console.log(problems + ' problem(s); nothing written'); process.exit(1); }
 if (WRITE && out.length) {
   defs.units.push(...out);

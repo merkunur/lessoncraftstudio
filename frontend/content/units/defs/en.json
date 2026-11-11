@@ -12,14 +12,69 @@
    "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and practice on screen.",
    "weeks": 2,
    "lessons": [
-    { "point": "1:add-within-10-models", "types": ["G1-101", "G1-110"], "activity": null },
-    { "point": "1:subtract-cross-out", "types": ["G1-103", "G1-104"], "activity": "ten-frame.show-the-operation.k-oa-a-1" },
-    { "point": "1:make-10", "types": ["G1-106", "G1-427"], "tool": "ten-frame" },
-    { "point": "1:count-on-back-hops", "types": ["G1-116", "G1-117"], "tool": "number-line" },
-    { "point": "1:fact-families", "types": ["G1-219", "G1-221"] },
-    { "point": "1:missing-number-equations", "types": ["G1-218", "G1-115"], "tool": "number-balance" },
-    { "point": "1:word-problems", "types": ["G1-240", "G1-238"], "tool": "missing-question" },
-    { "point": "1:fluency-within-20", "types": ["G1-214"], "tool": "rekenrek", "activity": null }
+    {
+     "point": "1:add-within-10-models",
+     "types": [
+      "G1-101",
+      "G1-110"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:subtract-cross-out",
+     "types": [
+      "G1-103",
+      "G1-104"
+     ],
+     "activity": "ten-frame.show-the-operation.k-oa-a-1"
+    },
+    {
+     "point": "1:make-10",
+     "types": [
+      "G1-106",
+      "G1-427"
+     ],
+     "tool": "ten-frame"
+    },
+    {
+     "point": "1:count-on-back-hops",
+     "types": [
+      "G1-116",
+      "G1-117"
+     ],
+     "tool": "number-line"
+    },
+    {
+     "point": "1:fact-families",
+     "types": [
+      "G1-219",
+      "G1-221"
+     ]
+    },
+    {
+     "point": "1:missing-number-equations",
+     "types": [
+      "G1-218",
+      "G1-115"
+     ],
+     "tool": "number-balance"
+    },
+    {
+     "point": "1:word-problems",
+     "types": [
+      "G1-240",
+      "G1-238"
+     ],
+     "tool": "missing-question"
+    },
+    {
+     "point": "1:fluency-within-20",
+     "types": [
+      "G1-214"
+     ],
+     "tool": "rekenrek",
+     "activity": null
+    }
    ]
   },
   {
@@ -33,12 +88,327 @@
    "metaDescription": "A Kindergarten review unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words, with teacher notes, for children who know most letter sounds.",
    "weeks": 3,
    "lessons": [
-    { "point": "K:rhyme", "types": ["K-352", "K-232"] },
-    { "point": "K:count-syllables", "types": ["K-233", "K-234"], "tool": "syllable-splitter" },
-    { "point": "K:beginning-sounds", "types": ["K-228", "K-221"] },
-    { "point": "K:sound-position", "types": ["K-226", "K-227"] },
-    { "point": "K:segment-phonemes", "types": ["K-329", "K-318"], "tool": "sound-boxes", "activity": null },
-    { "point": "K:cvc-build", "types": ["K-231", "K-224"], "tool": "blending-board" }
+    {
+     "point": "K:rhyme",
+     "types": [
+      "K-352",
+      "K-232"
+     ]
+    },
+    {
+     "point": "K:count-syllables",
+     "types": [
+      "K-233",
+      "K-234"
+     ],
+     "tool": "syllable-splitter"
+    },
+    {
+     "point": "K:beginning-sounds",
+     "types": [
+      "K-228",
+      "K-221"
+     ]
+    },
+    {
+     "point": "K:sound-position",
+     "types": [
+      "K-226",
+      "K-227"
+     ]
+    },
+    {
+     "point": "K:segment-phonemes",
+     "types": [
+      "K-329",
+      "K-318"
+     ],
+     "tool": "sound-boxes",
+     "activity": null
+    },
+    {
+     "point": "K:cvc-build",
+     "types": [
+      "K-231",
+      "K-224"
+     ],
+     "tool": "blending-board"
+    }
+   ]
+  },
+  {
+   "id": "k-position-size-patterns",
+   "slug": "position-words-size-and-patterns-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Position Words, Size, and Patterns",
+   "metaTitle": "Position Words, Size, and Patterns: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, comparing sizes, and repeating patterns, each with a teacher note and practice pages.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:position-words",
+     "types": [
+      "K-064",
+      "K-065"
+     ]
+    },
+    {
+     "point": "K:scene-search",
+     "types": [
+      "K-059",
+      "K-371"
+     ]
+    },
+    {
+     "point": "K:compare-size-extremes",
+     "types": [
+      "K-032",
+      "K-035"
+     ]
+    },
+    {
+     "point": "K:order-by-size",
+     "types": [
+      "K-033",
+      "K-034"
+     ]
+    },
+    {
+     "point": "K:patterns",
+     "types": [
+      "K-046",
+      "K-047"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-counting-to-10",
+   "slug": "counting-to-10-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Counting to 10",
+   "metaTitle": "Counting to 10: Kindergarten Unit Plan",
+   "metaDescription": "A two-week Kindergarten math unit: 6 lessons on counting to 10, comparing groups, and writing numbers, each with a teacher note and practice pages.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:one-to-one",
+     "types": [
+      "K-012"
+     ]
+    },
+    {
+     "point": "K:compare-groups",
+     "types": [
+      "K-008",
+      "K-009"
+     ]
+    },
+    {
+     "point": "K:count-how-many",
+     "types": [
+      "K-006",
+      "K-004"
+     ]
+    },
+    {
+     "point": "K:subitize",
+     "types": [
+      "K-018",
+      "K-017"
+     ]
+    },
+    {
+     "point": "K:count-out-n",
+     "types": [
+      "K-011",
+      "K-005"
+     ]
+    },
+    {
+     "point": "K:numeral-formation",
+     "types": [
+      "K-237",
+      "K-251"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-shapes",
+   "slug": "shapes-all-around-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Shapes All Around",
+   "metaTitle": "Shapes All Around: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:shape-naming",
+     "types": [
+      "K-368",
+      "K-265"
+     ]
+    },
+    {
+     "point": "K:count-sides",
+     "types": [
+      "K-075",
+      "K-076"
+     ]
+    },
+    {
+     "point": "K:compose-shapes",
+     "types": [
+      "K-353",
+      "K-358"
+     ]
+    },
+    {
+     "point": "K:mirror-image",
+     "types": [
+      "K-063"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-counting-in-order-to-20",
+   "slug": "counting-in-order-to-20-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Counting in Order to 20",
+   "metaTitle": "Counting in Order to 20: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting in order to 20, forward and back, each with a teacher note, practice pages, and practice on screen.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:count-forward-missing",
+     "types": [
+      "K-019",
+      "K-020"
+     ]
+    },
+    {
+     "point": "K:dot-to-dot-sequence",
+     "types": [
+      "K-294",
+      "K-295"
+     ]
+    },
+    {
+     "point": "K:before-after-back",
+     "types": [
+      "K-021",
+      "K-023"
+     ]
+    },
+    {
+     "point": "K:ordinal-position",
+     "types": [
+      "K-030",
+      "K-320"
+     ]
+    },
+    {
+     "point": "K:colour-by-number",
+     "types": [
+      "K-393",
+      "K-266"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-sorting-tallies-days",
+   "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Sorting, Tallies, and the Days of the Week",
+   "metaTitle": "Sorting, Tallies, and the Days of the Week: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting each kind, tally marks, estimating, and the days of the week, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:classify-count-kinds",
+     "types": [
+      "K-013",
+      "K-060"
+     ]
+    },
+    {
+     "point": "K:tally-marks",
+     "types": [
+      "K-014",
+      "K-015"
+     ]
+    },
+    {
+     "point": "K:estimate",
+     "types": [
+      "K-029"
+     ]
+    },
+    {
+     "point": "K:days-of-week",
+     "types": [
+      "K-321",
+      "K-337"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-putting-together-taking-apart",
+   "slug": "putting-together-and-taking-apart-kindergarten-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "math",
+   "title": "Putting Together and Taking Apart",
+   "metaTitle": "Putting Together and Taking Apart: Kindergarten Unit Plan",
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, and first addition and subtraction facts.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "K:combine-groups",
+     "types": [
+      "K-028"
+     ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "types": [
+      "K-273",
+      "K-274"
+     ]
+    },
+    {
+     "point": "K:odd-even-pairing",
+     "types": [
+      "K-016"
+     ]
+    },
+    {
+     "point": "K:fact-fluency-colour-code",
+     "types": [
+      "K-268",
+      "K-267"
+     ]
+    },
+    {
+     "point": "K:number-bonds-20",
+     "types": [
+      "K-275"
+     ]
+    }
    ]
   }
  ]

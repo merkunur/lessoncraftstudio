@@ -1,57 +1,378 @@
 {
  "$comment": "The unit LIST of English math, Kindergarten to Grade 3 (Daily Teaching System, Part 4.1): which teaching points make a unit, in teaching order. Authored by hand from the content graph (scripts/units/dump-points.js); scripts/units/draft-defs.js fills each lesson's worksheet types and adds a new unit to defs/en.json, which is hand-kept from then on. A teaching point with no published page is not listed (16 of the 158 math points); they wait for their pages.",
  "units": [
-  { "id": "k-position-size-patterns", "grade": "K", "title": "Position Words, Size, and Patterns",
-    "points": ["K:position-words", "K:scene-search", "K:compare-size-extremes", "K:order-by-size", "K:patterns"] },
-  { "id": "k-counting-to-10", "grade": "K", "title": "Counting to 10",
-    "points": ["K:one-to-one", "K:compare-groups", "K:count-how-many", "K:subitize", "K:count-out-n", "K:numeral-formation"] },
-  { "id": "k-shapes", "grade": "K", "title": "Shapes All Around",
-    "points": ["K:shape-naming", "K:count-sides", "K:draw-shapes", "K:compose-shapes", "K:mirror-image"] },
-  { "id": "k-counting-in-order-to-20", "grade": "K", "title": "Counting in Order to 20",
-    "points": ["K:count-forward-missing", "K:dot-to-dot-sequence", "K:before-after-back", "K:ordinal-position", "K:colour-by-number"] },
-  { "id": "k-sorting-tallies-comparing", "grade": "K", "title": "Sorting, Tallies, and Comparing",
-    "points": ["K:classify-count-kinds", "K:tally-marks", "K:estimate", "K:heavy-light", "K:days-of-week"] },
-  { "id": "k-putting-together-taking-apart", "grade": "K", "title": "Putting Together and Taking Apart",
-    "points": ["K:combine-groups", "K:number-bonds-k", "K:odd-even-pairing", "K:fact-fluency-colour-code", "K:number-bonds-20"] },
-
-  { "id": "g1-add-subtract-within-10", "grade": "1", "title": "Addition and Subtraction Within 10", "points": [] },
-  { "id": "g1-addition-strategies-within-20", "grade": "1", "title": "Addition Strategies Within 20",
-    "points": ["1:doubles-halves", "1:odd-even-pairs", "1:add-three-addends", "1:number-walls"] },
-  { "id": "g1-tens-and-ones", "grade": "1", "title": "Tens and Ones",
-    "points": ["1:tens-and-ones", "1:number-words", "1:compare-order-two-digit", "1:number-of-the-day", "1:ordinal-numbers"] },
-  { "id": "g1-hundreds-chart-skip-counting", "grade": "1", "title": "The Hundreds Chart and Skip Counting",
-    "points": ["1:number-line-placement", "1:hundreds-chart", "1:one-ten-more-less", "1:skip-counting"] },
-  { "id": "g1-time-calendar-coins", "grade": "1", "title": "Time, Calendar, and Coins",
-    "points": ["1:time-read", "1:time-set-hands", "1:days-months-seasons", "1:coins"] },
-  { "id": "g1-shapes-measuring-graphs", "grade": "1", "title": "Shapes, Measuring, and Graphs",
-    "points": ["1:shape-attributes", "1:tangram-compose", "1:measure-length-units", "1:sort-three-groups", "1:picture-graphs-sort-count", "1:bar-graphs", "1:patterns-missing"] },
-
-  { "id": "g2-place-value-to-1000", "grade": "2", "title": "Place Value to 1,000",
-    "points": ["2:bundle-ten-ones", "2:read-build-3-digit", "2:expanded-form-digit-value", "2:compare-order-3-digit", "2:hundred-more-less", "2:skip-count-5-10-100", "2:hundreds-chart-moves", "2:round-to-ten"] },
-  { "id": "g2-add-subtract-within-1000", "grade": "2", "title": "Adding and Subtracting Within 1,000",
-    "points": ["2:add-sub-within-100-practice", "2:add-with-blocks", "2:subtract-with-blocks", "2:column-method", "2:odd-even", "2:number-line-not-from-zero"] },
-  { "id": "g2-measurement-time-money", "grade": "2", "title": "Measurement, Time, and Money",
-    "points": ["2:measure-with-ruler", "2:compare-lengths", "2:mass-grams", "2:read-jugs", "2:time-5-min-quarter", "2:calendar", "2:shopping-money"] },
-  { "id": "g2-graphs-and-grids", "grade": "2", "title": "Graphs and Grids",
-    "points": ["2:bar-graphs", "2:line-plots", "2:scaled-pictograph", "2:grid-coordinates"] },
-  { "id": "g2-equal-groups-equal-shares", "grade": "2", "title": "Equal Groups and Equal Shares",
-    "points": ["2:equal-groups-times", "2:arrays", "2:skip-count-3-4", "2:share-and-group", "2:equal-shares-shapes", "2:fraction-of-a-set"] },
-  { "id": "g2-shapes-solids-symmetry", "grade": "2", "title": "Shapes, Solids, and Symmetry",
-    "points": ["2:2d-attributes", "2:flat-or-solid", "2:solids-in-real-life", "2:3d-faces-edges-vertices", "2:symmetry-line", "2:symmetry-complete", "2:tangram-orientation"] },
-
-  { "id": "g3-rounding-adding-subtracting", "grade": "3", "title": "Rounding, Adding, and Subtracting Within 1,000",
-    "points": ["3:compare-4-digit", "3:rounding", "3:column-regrouping", "3:estimate-by-rounding", "3:magic-squares", "3:parity-of-sums", "3:arithmetic-patterns"] },
-  { "id": "g3-multiplication", "grade": "3", "title": "Multiplication",
-    "points": ["3:mult-equal-groups", "3:mult-number-line", "3:commutative", "3:times-tables", "3:input-output"] },
-  { "id": "g3-division", "grade": "3", "title": "Division",
-    "points": ["3:division-sharing", "3:division-repeated-subtraction", "3:mult-div-relationship", "3:muldiv-word-problems", "3:balance-equations", "3:division-remainder"] },
-  { "id": "g3-time-and-temperature", "grade": "3", "title": "Time and Temperature",
-    "points": ["3:time-to-minute", "3:add-subtract-time", "3:elapsed-duration", "3:time-12-24", "3:thermometer"] },
-  { "id": "g3-area-perimeter-volume", "grade": "3", "title": "Area, Perimeter, and Volume",
-    "points": ["3:area-model", "3:same-area", "3:perimeter", "3:same-perimeter", "3:volume-cubes"] },
-  { "id": "g3-fractions", "grade": "3", "title": "Fractions",
-    "points": ["3:partition-equal-areas", "3:fraction-unit-build", "3:whole-from-unit", "3:fraction-number-line", "3:compare-fractions", "3:equivalent-fractions", "3:fraction-of-set"] },
-  { "id": "g3-shapes-and-data", "grade": "3", "title": "Shapes and Data",
-    "points": ["3:right-angles", "3:classify-quadrilaterals", "3:symmetry", "3:scaled-graphs", "3:line-plot-halves"] }
+  {
+   "id": "k-position-size-patterns",
+   "grade": "K",
+   "title": "Position Words, Size, and Patterns",
+   "points": [
+    "K:position-words",
+    {
+     "point": "K:scene-search",
+     "types": [
+      "K-059",
+      "K-371"
+     ]
+    },
+    "K:compare-size-extremes",
+    "K:order-by-size",
+    "K:patterns"
+   ],
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, comparing sizes, and repeating patterns, each with a teacher note and practice pages."
+  },
+  {
+   "id": "k-counting-to-10",
+   "grade": "K",
+   "title": "Counting to 10",
+   "points": [
+    "K:one-to-one",
+    "K:compare-groups",
+    {
+     "point": "K:count-how-many",
+     "types": [
+      "K-006",
+      "K-004"
+     ]
+    },
+    "K:subitize",
+    "K:count-out-n",
+    {
+     "point": "K:numeral-formation",
+     "types": [
+      "K-237",
+      "K-251"
+     ]
+    }
+   ],
+   "metaDescription": "A two-week Kindergarten math unit: 6 lessons on counting to 10, comparing groups, and writing numbers, each with a teacher note and practice pages."
+  },
+  {
+   "id": "k-shapes",
+   "grade": "K",
+   "title": "Shapes All Around",
+   "points": [
+    {
+     "point": "K:shape-naming",
+     "types": [
+      "K-368",
+      "K-265"
+     ]
+    },
+    "K:count-sides",
+    "K:draw-shapes",
+    "K:compose-shapes",
+    "K:mirror-image"
+   ],
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note."
+  },
+  {
+   "id": "k-counting-in-order-to-20",
+   "grade": "K",
+   "title": "Counting in Order to 20",
+   "points": [
+    "K:count-forward-missing",
+    {
+     "point": "K:dot-to-dot-sequence",
+     "types": [
+      "K-294",
+      "K-295"
+     ]
+    },
+    {
+     "point": "K:before-after-back",
+     "types": [
+      "K-021",
+      "K-023"
+     ]
+    },
+    {
+     "point": "K:ordinal-position",
+     "types": [
+      "K-030",
+      "K-320"
+     ]
+    },
+    {
+     "point": "K:colour-by-number",
+     "types": [
+      "K-393",
+      "K-266"
+     ]
+    }
+   ],
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting in order to 20, forward and back, each with a teacher note, practice pages, and practice on screen."
+  },
+  {
+   "id": "k-sorting-tallies-days",
+   "grade": "K",
+   "title": "Sorting, Tallies, and the Days of the Week",
+   "points": [
+    "K:classify-count-kinds",
+    "K:tally-marks",
+    "K:estimate",
+    "K:heavy-light",
+    "K:days-of-week"
+   ],
+   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting each kind, tally marks, estimating, and the days of the week, each with a teacher note."
+  },
+  {
+   "id": "k-putting-together-taking-apart",
+   "grade": "K",
+   "title": "Putting Together and Taking Apart",
+   "points": [
+    "K:combine-groups",
+    {
+     "point": "K:number-bonds-k",
+     "types": [
+      "K-273",
+      "K-274"
+     ]
+    },
+    "K:odd-even-pairing",
+    {
+     "point": "K:fact-fluency-colour-code",
+     "types": [
+      "K-268",
+      "K-267"
+     ]
+    },
+    "K:number-bonds-20"
+   ],
+   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together, number bonds to 10, and first addition and subtraction facts."
+  },
+  {
+   "id": "g1-add-subtract-within-10",
+   "grade": "1",
+   "title": "Addition and Subtraction Within 10",
+   "points": []
+  },
+  {
+   "id": "g1-addition-strategies-within-20",
+   "grade": "1",
+   "title": "Addition Strategies Within 20",
+   "points": [
+    "1:doubles-halves",
+    "1:odd-even-pairs",
+    "1:add-three-addends",
+    "1:number-walls"
+   ]
+  },
+  {
+   "id": "g1-tens-and-ones",
+   "grade": "1",
+   "title": "Tens and Ones",
+   "points": [
+    "1:tens-and-ones",
+    "1:number-words",
+    "1:compare-order-two-digit",
+    "1:number-of-the-day",
+    "1:ordinal-numbers"
+   ]
+  },
+  {
+   "id": "g1-hundreds-chart-skip-counting",
+   "grade": "1",
+   "title": "The Hundreds Chart and Skip Counting",
+   "points": [
+    "1:number-line-placement",
+    "1:hundreds-chart",
+    "1:one-ten-more-less",
+    "1:skip-counting"
+   ]
+  },
+  {
+   "id": "g1-time-calendar-coins",
+   "grade": "1",
+   "title": "Time, Calendar, and Coins",
+   "points": [
+    "1:time-read",
+    "1:time-set-hands",
+    "1:days-months-seasons",
+    "1:coins"
+   ]
+  },
+  {
+   "id": "g1-shapes-measuring-graphs",
+   "grade": "1",
+   "title": "Shapes, Measuring, and Graphs",
+   "points": [
+    "1:shape-attributes",
+    "1:tangram-compose",
+    "1:measure-length-units",
+    "1:sort-three-groups",
+    "1:picture-graphs-sort-count",
+    "1:bar-graphs",
+    "1:patterns-missing"
+   ]
+  },
+  {
+   "id": "g2-place-value-to-1000",
+   "grade": "2",
+   "title": "Place Value to 1,000",
+   "points": [
+    "2:bundle-ten-ones",
+    "2:read-build-3-digit",
+    "2:expanded-form-digit-value",
+    "2:compare-order-3-digit",
+    "2:hundred-more-less",
+    "2:skip-count-5-10-100",
+    "2:hundreds-chart-moves",
+    "2:round-to-ten"
+   ]
+  },
+  {
+   "id": "g2-add-subtract-within-1000",
+   "grade": "2",
+   "title": "Adding and Subtracting Within 1,000",
+   "points": [
+    "2:add-sub-within-100-practice",
+    "2:add-with-blocks",
+    "2:subtract-with-blocks",
+    "2:column-method",
+    "2:odd-even",
+    "2:number-line-not-from-zero"
+   ]
+  },
+  {
+   "id": "g2-measurement-time-money",
+   "grade": "2",
+   "title": "Measurement, Time, and Money",
+   "points": [
+    "2:measure-with-ruler",
+    "2:compare-lengths",
+    "2:mass-grams",
+    "2:read-jugs",
+    "2:time-5-min-quarter",
+    "2:calendar",
+    "2:shopping-money"
+   ]
+  },
+  {
+   "id": "g2-graphs-and-grids",
+   "grade": "2",
+   "title": "Graphs and Grids",
+   "points": [
+    "2:bar-graphs",
+    "2:line-plots",
+    "2:scaled-pictograph",
+    "2:grid-coordinates"
+   ]
+  },
+  {
+   "id": "g2-equal-groups-equal-shares",
+   "grade": "2",
+   "title": "Equal Groups and Equal Shares",
+   "points": [
+    "2:equal-groups-times",
+    "2:arrays",
+    "2:skip-count-3-4",
+    "2:share-and-group",
+    "2:equal-shares-shapes",
+    "2:fraction-of-a-set"
+   ]
+  },
+  {
+   "id": "g2-shapes-solids-symmetry",
+   "grade": "2",
+   "title": "Shapes, Solids, and Symmetry",
+   "points": [
+    "2:2d-attributes",
+    "2:flat-or-solid",
+    "2:solids-in-real-life",
+    "2:3d-faces-edges-vertices",
+    "2:symmetry-line",
+    "2:symmetry-complete",
+    "2:tangram-orientation"
+   ]
+  },
+  {
+   "id": "g3-rounding-adding-subtracting",
+   "grade": "3",
+   "title": "Rounding, Adding, and Subtracting Within 1,000",
+   "points": [
+    "3:compare-4-digit",
+    "3:rounding",
+    "3:column-regrouping",
+    "3:estimate-by-rounding",
+    "3:magic-squares",
+    "3:parity-of-sums",
+    "3:arithmetic-patterns"
+   ]
+  },
+  {
+   "id": "g3-multiplication",
+   "grade": "3",
+   "title": "Multiplication",
+   "points": [
+    "3:mult-equal-groups",
+    "3:mult-number-line",
+    "3:commutative",
+    "3:times-tables",
+    "3:input-output"
+   ]
+  },
+  {
+   "id": "g3-division",
+   "grade": "3",
+   "title": "Division",
+   "points": [
+    "3:division-sharing",
+    "3:division-repeated-subtraction",
+    "3:mult-div-relationship",
+    "3:muldiv-word-problems",
+    "3:balance-equations",
+    "3:division-remainder"
+   ]
+  },
+  {
+   "id": "g3-time-and-temperature",
+   "grade": "3",
+   "title": "Time and Temperature",
+   "points": [
+    "3:time-to-minute",
+    "3:add-subtract-time",
+    "3:elapsed-duration",
+    "3:time-12-24",
+    "3:thermometer"
+   ]
+  },
+  {
+   "id": "g3-area-perimeter-volume",
+   "grade": "3",
+   "title": "Area, Perimeter, and Volume",
+   "points": [
+    "3:area-model",
+    "3:same-area",
+    "3:perimeter",
+    "3:same-perimeter",
+    "3:volume-cubes"
+   ]
+  },
+  {
+   "id": "g3-fractions",
+   "grade": "3",
+   "title": "Fractions",
+   "points": [
+    "3:partition-equal-areas",
+    "3:fraction-unit-build",
+    "3:whole-from-unit",
+    "3:fraction-number-line",
+    "3:compare-fractions",
+    "3:equivalent-fractions",
+    "3:fraction-of-set"
+   ]
+  },
+  {
+   "id": "g3-shapes-and-data",
+   "grade": "3",
+   "title": "Shapes and Data",
+   "points": [
+    "3:right-angles",
+    "3:classify-quadrilaterals",
+    "3:symmetry",
+    "3:scaled-graphs",
+    "3:line-plot-halves"
+   ]
+  }
  ]
 }

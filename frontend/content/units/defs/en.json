@@ -410,6 +410,237 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g1-addition-strategies-within-20",
+   "slug": "addition-strategies-within-20-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Addition Strategies Within 20",
+   "metaTitle": "Addition Strategies Within 20: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three numbers, and number walls, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:doubles-halves",
+     "types": [
+      "G1-287",
+      "G1-288"
+     ]
+    },
+    {
+     "point": "1:odd-even-pairs",
+     "types": [
+      "G1-370",
+      "G1-369"
+     ]
+    },
+    {
+     "point": "1:add-three-addends",
+     "types": [
+      "G1-112"
+     ]
+    },
+    {
+     "point": "1:number-walls",
+     "types": [
+      "G1-266",
+      "G1-268"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-tens-and-ones",
+   "slug": "tens-and-ones-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Tens and Ones",
+   "metaTitle": "Tens and Ones: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 5 lessons on tens and ones, number words, comparing two-digit numbers, and ordinal numbers, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:tens-and-ones",
+     "types": [
+      "G1-120",
+      "G1-121"
+     ]
+    },
+    {
+     "point": "1:number-words",
+     "types": [
+      "G1-223",
+      "G1-224"
+     ]
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "types": [
+      "G1-137",
+      "G1-135"
+     ]
+    },
+    {
+     "point": "1:number-of-the-day",
+     "types": [
+      "G1-243",
+      "G1-255"
+     ]
+    },
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-hundreds-chart-skip-counting",
+   "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "The Hundreds Chart and Skip Counting",
+   "metaTitle": "The Hundreds Chart and Skip Counting: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on the number line, the hundreds chart, 10 more and 10 less, and skip counting, with practice pages at three levels.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:number-line-placement",
+     "types": [
+      "G1-274",
+      "G1-275"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "types": [
+      "G1-129",
+      "G1-310"
+     ]
+    },
+    {
+     "point": "1:one-ten-more-less",
+     "types": [
+      "G1-131",
+      "G1-132"
+     ]
+    },
+    {
+     "point": "1:skip-counting",
+     "types": [
+      "G1-123",
+      "G1-124",
+      "G1-125"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-time-calendar-coins",
+   "slug": "time-calendar-and-coins-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Time, Calendar, and Coins",
+   "metaTitle": "Time, Calendar, and Coins: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on telling time to the hour and half hour, the calendar, and counting coins, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "point": "1:time-read",
+     "types": [
+      "G1-148",
+      "G1-149"
+     ]
+    },
+    {
+     "point": "1:time-set-hands",
+     "types": [
+      "G1-233",
+      "G1-234"
+     ]
+    },
+    {
+     "point": "1:days-months-seasons",
+     "types": [
+      "G1-319",
+      "G1-320"
+     ]
+    },
+    {
+     "point": "1:coins",
+     "types": [
+      "G1-228",
+      "G1-211"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-shapes-measuring-graphs",
+   "slug": "shapes-measuring-and-graphs-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Shapes, Measuring, and Graphs",
+   "metaTitle": "Shapes, Measuring, and Graphs: Grade 1 Unit Plan",
+   "metaDescription": "A two-week Grade 1 math unit: 7 lessons on shapes, measuring length, sorting, picture graphs, and bar graphs, each with a teacher note and practice pages.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:shape-attributes",
+     "types": [
+      "G1-381",
+      "G1-382"
+     ]
+    },
+    {
+     "point": "1:tangram-compose",
+     "types": [
+      "G1-354",
+      "G1-355"
+     ]
+    },
+    {
+     "point": "1:measure-length-units",
+     "types": [
+      "G1-139",
+      "G1-140"
+     ]
+    },
+    {
+     "point": "1:sort-three-groups",
+     "types": [
+      "G1-160"
+     ]
+    },
+    {
+     "point": "1:picture-graphs-sort-count",
+     "types": [
+      "G1-146",
+      "G1-141"
+     ]
+    },
+    {
+     "point": "1:bar-graphs",
+     "types": [
+      "G1-143",
+      "G1-147"
+     ]
+    },
+    {
+     "point": "1:patterns-missing",
+     "types": [
+      "G1-155"
+     ]
+    }
+   ]
   }
  ]
 }

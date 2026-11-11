@@ -2355,6 +2355,1402 @@
      }
     }
    ]
+  },
+  {
+   "id": "g1-addition-strategies-within-20",
+   "slug": "addition-strategies-within-20-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Addition Strategies Within 20",
+   "metaTitle": "Addition Strategies Within 20: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three numbers, and number walls, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:doubles-halves",
+     "title": "Doubles and halves",
+     "objective": "Children double a group of pictures and split an even group into two equal halves, writing the numbers.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-287",
+       "title": "Doubles to 14",
+       "core": "doubles-halves-fruits-g1287",
+       "easy": "doubles-halves-easy-dinosaurs-g1287",
+       "hard": "doubles-halves-hard-vegetables-g1287",
+       "landing": "doubles-to-14-with-pictures"
+      },
+      {
+       "type": "G1-288",
+       "title": "Halves to 12",
+       "core": "doubles-halves-animals-g1288",
+       "easy": "doubles-halves-easy-beach-g1288",
+       "hard": "doubles-halves-hard-post-office-g1288",
+       "landing": "halves-to-12-with-pictures"
+      }
+     ],
+     "tool": {
+      "key": "doubling-mirror",
+      "slug": "doubling-mirror-doubles-and-halves-with-counters",
+      "name": "The Doubling Mirror"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "doubles-halves-toys-g1287-3",
+      "title": "Doubles to 14"
+     },
+     "exit": {
+      "slug": "doubles-halves-vegetables-bw-2-g1287-2",
+      "title": "Doubles to 14"
+     },
+     "maker": {
+      "id": "doubles-halves",
+      "name": "Doubles & Halves",
+      "slug": "doubles-and-halves-worksheet-maker",
+      "template": "G1-287"
+     },
+     "note": {
+      "mistake": "Children think doubling means adding 2, so the double of 6 becomes 8. For half, they take some away and do not check that the two parts are the same; half of 10 becomes 4 and 6.",
+      "words": "Say: \"Double means the same again. Six and six more.\" Use two hands: \"Show me 4 on each hand.\" For half: \"Half means two EQUAL parts. One for you, one for me, until they are gone. Are the two parts the same?\"",
+      "watch": "Watch who knows the doubles up to 5 + 5 without counting; those facts carry a great deal of first-grade addition. On the halves page, look at the two parts a child writes: they must match."
+     }
+    },
+    {
+     "n": 2,
+     "point": "1:odd-even-pairs",
+     "title": "Odd and even numbers",
+     "objective": "Children count a group in pairs or share it between two friends, and say whether the number is odd or even.",
+     "standards": [
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.OA.C.3",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-370",
+       "title": "Odd or Even? Count the Pictures in Pairs",
+       "core": "odd-and-even-vehicles-g1370",
+       "easy": "odd-and-even-easy-breakfast-g1370",
+       "hard": "odd-and-even-hard-desserts-and-sweets-g1370",
+       "landing": "odd-or-even-count-pictures-in-pairs"
+      },
+      {
+       "type": "G1-369",
+       "title": "Can Two Friends Share Fairly?",
+       "core": "odd-and-even-zoo-animals-g1369",
+       "easy": "odd-and-even-easy-fruits-g1369",
+       "hard": "odd-and-even-hard-flowers-g1369",
+       "landing": "can-two-friends-share-fairly"
+      }
+     ],
+     "tool": {
+      "key": "pair-gate",
+      "slug": "pair-gate-odd-and-even-by-pairing-counters",
+      "name": "The Pair Gate"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.even-odd.2-oa-c-3",
+      "slug": "even-or-odd",
+      "title": "Even or Odd? — Number Sense for Grade 2"
+     },
+     "exit": {
+      "slug": "odd-and-even-fruits-g1370-2",
+      "title": "Odd or Even? Count the Pictures in Pairs"
+     },
+     "maker": {
+      "id": "odd-even",
+      "name": "Odd & Even",
+      "slug": "odd-and-even-numbers-worksheet-maker",
+      "template": "G1-370"
+     },
+     "note": {
+      "mistake": "Children decide by how the number looks (\"11 is even because it has two ones\") and skip the pairing. When sharing, they forget to write the one that is left, or they give it to one of the friends.",
+      "words": "Ask: \"Can two friends share them fairly? Is one left over?\" Say: \"Even numbers share fairly. Odd numbers leave one over.\" Have children count by twos as they circle: \"2, 4, 6… and one more makes 7.\"",
+      "watch": "Notice who begins to see the rule in the ones place: numbers that end in 0, 2, 4, 6, or 8 are even. Let children find that rule from their own pages before you say it."
+     }
+    },
+    {
+     "n": 3,
+     "point": "1:add-three-addends",
+     "title": "Add three groups",
+     "objective": "Children add three groups or three numbers and write the total.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-112",
+       "title": "Add Three Groups",
+       "core": "picture-arithmetic-animals-g1112"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "numberbond.add-three.1-oa-a-2",
+      "slug": "add-three-numbers",
+      "title": "Add Three Numbers — Three-Part Number Bond"
+     },
+     "exit": {
+      "slug": "picture-arithmetic-fruits-g1112",
+      "title": "Add Three Groups"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition & Subtraction",
+      "slug": "addition-and-subtraction-worksheet-generator",
+      "template": "G1-112"
+     },
+     "note": {
+      "mistake": "Children add the first two groups, write that number, and forget the third. Or they count every picture from 1 and never use a fact they know, such as a double or a pair that makes 10.",
+      "words": "Say: \"Three groups. Add two of them first, then add the third.\" Ask: \"Which two are easy to add first? Do you see a double? Do you see a ten?\" Show that the order does not change the total: \"4 + 6 + 3 is the same as 6 + 4 + 3.\"",
+      "watch": "Watch who looks for an easy pair before adding. Ask a child to tell you which two numbers were added first and why; the reason matters more than the speed."
+     }
+    },
+    {
+     "n": 4,
+     "point": "1:number-walls",
+     "title": "Number walls",
+     "objective": "Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.D.8",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-266",
+       "title": "Number Walls to 10",
+       "core": "number-walls-g1266",
+       "easy": "number-walls-easy-g1266-7",
+       "hard": "number-walls-hard-g1266-12",
+       "landing": "number-walls-to-10"
+      },
+      {
+       "type": "G1-268",
+       "title": "Number Walls: Find the Missing Brick",
+       "core": "number-walls-g1268",
+       "easy": "number-walls-easy-g1268-7",
+       "hard": "number-walls-hard-g1268-12",
+       "landing": "number-walls-missing-brick"
+      }
+     ],
+     "screen": {
+      "kind": "page",
+      "slug": "number-walls-g1266-3",
+      "title": "Number Walls to 10"
+     },
+     "exit": {
+      "slug": "number-walls-g1266-2",
+      "title": "Number Walls to 10"
+     },
+     "maker": {
+      "id": "logic-puzzles",
+      "name": "Logic Puzzles",
+      "slug": "logic-puzzle-worksheet-maker",
+      "template": "G1-266"
+     },
+     "note": {
+      "mistake": "Children add two bricks that sit side by side and write the sum next to them, not above them. When a bottom brick is missing, they add the two numbers they can see and do not ask what is missing.",
+      "words": "Point with two fingers under one brick: \"This brick sits on these two. It is their sum.\" For a missing brick: \"7 sits on 4 and what? Four and how many make seven?\" Say \"sum\" for the brick on top.",
+      "watch": "Look at the walls with a missing bottom brick. A child who writes 11 beside a 4 under a 7 has added again. Ask: \"Can a brick below be bigger than the brick on top of it?\""
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-tens-and-ones",
+   "slug": "tens-and-ones-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Tens and Ones",
+   "metaTitle": "Tens and Ones: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 5 lessons on tens and ones, number words, comparing two-digit numbers, and ordinal numbers, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:tens-and-ones",
+     "title": "Tens and ones",
+     "objective": "Children read a two-digit number shown with ten-rods and single cubes, and choose the blocks that show a number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.B.2",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "2.NBT.A.3",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-120",
+       "title": "Tens and Ones",
+       "core": "base-ten-g1120"
+      },
+      {
+       "type": "G1-121",
+       "title": "Build It Right",
+       "core": "base-ten-g1121"
+      }
+     ],
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "place-value.tens-and-ones.1-nbt-b-2",
+      "slug": "tens-and-ones",
+      "title": "Tens and Ones"
+     },
+     "maker": {
+      "id": "place-value",
+      "name": "Place Value & Rounding",
+      "slug": "place-value-worksheet-maker",
+      "template": "G1-120"
+     },
+     "note": {
+      "mistake": "Children count every rod as 1, so 3 rods and 4 cubes make 7. Or they write the digits in the order they counted them: 4 cubes and then 3 rods becomes 43.",
+      "words": "Count the rods by tens and the cubes by ones: \"10, 20, 30… 31, 32, 33, 34.\" Say: \"3 tens and 4 ones is thirty-four.\" Ask: \"What does the 3 in 34 mean?\" (Three tens, or thirty; not three.)",
+      "watch": "Watch the switch from counting by tens to counting by ones; that is where children slip. Check numbers like 40: a child who writes 4 for four rods has left out the zero that holds the ones place."
+     }
+    },
+    {
+     "n": 2,
+     "point": "1:number-words",
+     "title": "Number words",
+     "objective": "Children read numbers and match them to their words, to twenty and for the tens to one hundred.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "2.NBT.A.3",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-223",
+       "title": "Number Words to 20",
+       "core": "number-words-g1223",
+       "easy": "number-words-easy-g1223-7",
+       "hard": "number-words-hard-g1223-11",
+       "landing": "number-words-to-20"
+      },
+      {
+       "type": "G1-224",
+       "title": "Tens in Words: 10 to 100",
+       "core": "number-words-g1224",
+       "easy": "number-words-easy-g1224-7",
+       "hard": "number-words-hard-g1224-12",
+       "landing": "tens-in-words-to-100"
+      }
+     ],
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "number-words-g1223-3",
+      "title": "Number Words to 20"
+     },
+     "exit": {
+      "slug": "number-words-g1223-2",
+      "title": "Number Words to 20"
+     },
+     "maker": {
+      "id": "number-of-the-day",
+      "name": "Number of the Day & Number Words",
+      "slug": "number-of-the-day-worksheet-maker",
+      "template": "G1-223"
+     },
+     "note": {
+      "mistake": "Children mix up the teen words and the tens words: thirteen and thirty, fifteen and fifty. Eleven, twelve, and eight are guessed from the first letter.",
+      "words": "Say the endings clearly: \"thir-TEEN is a ten and three. thir-TY is three tens.\" Ask: \"Does it end in -teen or in -ty?\" Have children underline the ending before they circle. Spell the hard ones together: eight, eleven, twelve, forty.",
+      "watch": "Listen while a child reads the choices aloud. A child who reads \"fifty\" for fifteen is looking only at the start of the word. Remember that \"forty\" has no u; many children write \"fourty.\""
+     }
+    },
+    {
+     "n": 3,
+     "point": "1:compare-order-two-digit",
+     "title": "Compare and order two-digit numbers",
+     "objective": "Children compare two two-digit numbers with the signs for greater than and less than, and put three numbers in order.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.B.3",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-137",
+       "title": "Greater or Less?",
+       "core": "comparing-numbers-g1137"
+      },
+      {
+       "type": "G1-135",
+       "title": "Smallest First",
+       "core": "comparing-numbers-g1135"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.compare-two-digit.1-nbt-b-3",
+      "slug": "compare-two-digit-numbers",
+      "title": "Compare Two-Digit Numbers — Greater Than, Less Than, Equal"
+     },
+     "maker": {
+      "id": "compare-numbers",
+      "name": "Compare Numbers & Groups",
+      "slug": "comparing-numbers-worksheet-maker",
+      "template": "G1-137"
+     },
+     "note": {
+      "mistake": "Children compare the ones digits (\"29 is more than 41 because 9 is more than 1\") or add the digits. The signs are mixed up too: children know which number is greater and still circle the wrong sign.",
+      "words": "Say: \"Look at the tens first. More tens means a greater number. Only if the tens are the same, look at the ones.\" Read the sign as words: \"41 is greater than 29.\" The open side of the sign faces the greater number.",
+      "watch": "Keep two questions apart: does the child know which number is greater, and does the child know the sign? Have the child say the whole sentence aloud before circling."
+     }
+    },
+    {
+     "n": 4,
+     "point": "1:number-of-the-day",
+     "title": "Number of the day",
+     "objective": "Children show one number in many ways: as tens and ones, on ten frames, with tally marks, and with its number word.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.B.2",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.C.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-243",
+       "title": "Number of the Day",
+       "core": "number-of-the-day-g1243",
+       "easy": "number-of-the-day-easy-g1243-7",
+       "hard": "number-of-the-day-hard-g1243-12",
+       "landing": "number-of-the-day-1st-grade"
+      },
+      {
+       "type": "G1-255",
+       "title": "Number of the Day: Teen Numbers",
+       "core": "number-of-the-day-g1255",
+       "easy": "number-of-the-day-easy-g1255-7",
+       "hard": "number-of-the-day-hard-g1255-12",
+       "landing": "number-of-the-day-teen-numbers"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "place-value.tens-and-ones.1-nbt-b-2",
+      "slug": "tens-and-ones",
+      "title": "Tens and Ones"
+     },
+     "exit": {
+      "slug": "number-of-the-day-g1243-2",
+      "title": "Number of the Day"
+     },
+     "maker": {
+      "id": "number-of-the-day",
+      "name": "Number of the Day & Number Words",
+      "slug": "number-of-the-day-worksheet-maker",
+      "template": "G1-243"
+     },
+     "note": {
+      "mistake": "Children fill each box as a separate task and do not notice when two boxes disagree: 15 in tens and ones, but 14 tally marks. A teen number is written as 1 and 5 with no idea that the 1 is a ten.",
+      "words": "Ask after the page: \"Do all your boxes show the same number? Prove it.\" Say: \"Fifteen is one ten and five ones. Show me the ten in your ten frames. Show me the ten in your tally.\"",
+      "watch": "Use the page as a quick look at what each child can do: which box is left empty or done last? That box tells you what to teach that child next."
+     }
+    },
+    {
+     "n": 5,
+     "point": "1:ordinal-numbers",
+     "title": "Ordinal numbers to tenth",
+     "objective": "Children write the ordinal numbers 1st to 10th in order and match ordinal words such as third and fifth to a place in a line.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "G1-315",
+       "title": "Write the Missing Ordinal Numbers",
+       "core": "ordinal-numbers-zoo-animals-g1315",
+       "easy": "ordinal-numbers-easy-flowers-g1315",
+       "hard": "ordinal-numbers-hard-at-the-supermarket-g1315",
+       "landing": "write-the-missing-ordinal-numbers"
+      },
+      {
+       "type": "G1-316",
+       "title": "Ordinal Words: Draw a Line to the Picture",
+       "core": "ordinal-numbers-farm-animals-g1316",
+       "easy": "ordinal-numbers-easy-breakfast-g1316",
+       "hard": "ordinal-numbers-hard-summer-g1316",
+       "landing": "ordinal-words-draw-a-line-to-the-picture"
+      }
+     ],
+     "tool": {
+      "key": "the-queue",
+      "slug": "the-queue",
+      "name": "The Counting Line"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "ordinal-numbers-4th-of-july-g1315-3",
+      "title": "Write the Missing Ordinal Numbers"
+     },
+     "exit": {
+      "slug": "ordinal-numbers-desserts-and-sweets-g1315-2",
+      "title": "Write the Missing Ordinal Numbers"
+     },
+     "maker": {
+      "id": "ordinal-numbers",
+      "name": "Ordinal Numbers",
+      "slug": "ordinal-numbers-worksheet-maker",
+      "template": "G1-315"
+     },
+     "note": {
+      "mistake": "Children write 1th, 2th, 3th, or the plain number with no ending. They count from the left when the flag is on the right, and they cannot read the words \"fifth\" and \"eighth.\"",
+      "words": "Teach the endings as three exceptions and one rule: \"1st, 2nd, 3rd; all the others end in th.\" Read the words aloud together: \"first, second, third, fourth, fifth.\" Ask every time: \"Where is the flag? That is where we start.\"",
+      "watch": "Check the endings on 1st, 2nd, and 3rd, and whether a child starts from the flag. Reading the ordinal words is a reading task; read them with the children who cannot yet."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-hundreds-chart-skip-counting",
+   "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "The Hundreds Chart and Skip Counting",
+   "metaTitle": "The Hundreds Chart and Skip Counting: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on the number line, the hundreds chart, 10 more and 10 less, and skip counting, with practice pages at three levels.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:number-line-placement",
+     "title": "Find a number on the number line",
+     "objective": "Children read the number an arrow points to on a number line, counting on from the nearest printed number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.A.1",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.MD.B.6",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-274",
+       "title": "Where on the Number Line? 0 to 10",
+       "core": "number-lines-g1274",
+       "easy": "number-lines-easy-g1274-7",
+       "hard": "number-lines-hard-g1274-9",
+       "landing": "number-line-to-10"
+      },
+      {
+       "type": "G1-275",
+       "title": "Number Line to 20: Fewer Labels",
+       "core": "number-lines-g1275",
+       "easy": "number-lines-easy-g1275-7",
+       "hard": "number-lines-hard-g1275-12",
+       "landing": "number-line-to-20-fewer-labels"
+      }
+     ],
+     "tool": {
+      "key": "number-line",
+      "slug": "number-line",
+      "name": "Number Line"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "track-repair.count-to-120.1-nbt-a-1",
+      "slug": "whistle-valley-track-repair",
+      "title": "Whistle Valley — Number-Line Track Repair"
+     },
+     "exit": {
+      "slug": "number-lines-g1274-2",
+      "title": "Where on the Number Line? 0 to 10"
+     },
+     "maker": {
+      "id": "number-lines",
+      "name": "Number Lines",
+      "slug": "number-line-worksheet-maker",
+      "template": "G1-274"
+     },
+     "note": {
+      "mistake": "Children count the tick marks beginning with 1 at zero, so every answer is one too big. When only 0, 10, and 20 are printed, they count from 0 for every arrow and lose count on the way.",
+      "words": "Say: \"Zero is the start, not number one. Count the JUMPS, not the marks.\" When few numbers are printed: \"Which printed number is closest to the arrow? Start there. You can count back, too.\"",
+      "watch": "Watch where a child starts for an arrow at 18. Counting back two from 20 shows a child who uses the line; counting up from 0 works but is slow. Look for answers that are off by exactly one."
+     }
+    },
+    {
+     "n": 2,
+     "point": "1:hundreds-chart",
+     "title": "The hundreds chart",
+     "objective": "Children fill in missing numbers on a hundreds chart and use its pattern: one more to the right, ten more below.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.A.1",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.C.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-129",
+       "title": "The Hundreds Chart",
+       "core": "number-charts-animals-g1129",
+       "easy": "number-charts-easy-bakery-g1129",
+       "hard": "number-charts-hard-ocean-life-g1129"
+      },
+      {
+       "type": "G1-310",
+       "title": "Hundreds Chart Puzzle Pieces: Fill In the Numbers",
+       "core": "hundreds-chart-puzzles-g1310",
+       "easy": "hundreds-chart-puzzles-easy-g1310-7",
+       "hard": "hundreds-chart-puzzles-hard-g1310-12",
+       "landing": "hundreds-chart-puzzle-pieces"
+      }
+     ],
+     "tool": {
+      "key": "number-hotel",
+      "slug": "number-hotel-tens-and-ones-to-100",
+      "name": "The Number Hotel"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "number-charts-valentine-bw-2-g1129-2",
+      "title": "The Hundreds Chart"
+     },
+     "exit": {
+      "slug": "number-charts-fruits-g1129",
+      "title": "The Hundreds Chart"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "G1-129"
+     },
+     "note": {
+      "mistake": "Children fill a gap by counting from the start of the row, or from 1. On a puzzle piece they write the next counting number in the box below (35 under 34), because they do not see that going down a row adds ten.",
+      "words": "Run a finger down a column and read: \"4, 14, 24, 34. What stays the same? What changes?\" Say: \"Right is one more. Down is ten more. Left is one less. Up is ten less.\"",
+      "watch": "Look at the boxes below and above the printed number on a piece. A child who gets left and right and misses up and down needs the whole chart beside the page for a few more days."
+     }
+    },
+    {
+     "n": 3,
+     "point": "1:one-ten-more-less",
+     "title": "1 more, 1 less, 10 more, 10 less",
+     "objective": "Children write the number that is 1 more and 1 less, and the number that is 10 more and 10 less, than a two-digit number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.C.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-131",
+       "title": "1 More, 1 Less",
+       "core": "number-charts-g1131",
+       "easy": "number-charts-easy-g1131-7",
+       "hard": "number-charts-hard-g1131-10"
+      },
+      {
+       "type": "G1-132",
+       "title": "10 More, 10 Less",
+       "core": "number-charts-g1132",
+       "easy": "number-charts-easy-g1132-7",
+       "hard": "number-charts-hard-g1132-10"
+      }
+     ],
+     "tool": {
+      "key": "number-hotel",
+      "slug": "number-hotel-tens-and-ones-to-100",
+      "name": "The Number Hotel"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.ten-more-less.1-nbt-c-5",
+      "slug": "ten-more-ten-less",
+      "title": "Ten More, Ten Less — Mental Math With Two-Digit Numbers"
+     },
+     "exit": {
+      "slug": "number-charts-g1131-2",
+      "title": "1 More, 1 Less"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "G1-131"
+     },
+     "note": {
+      "mistake": "For 10 more, children count on ten ones with their fingers and are often off by one. For 10 less they change the wrong digit. One more than 29 is written 210, because the child says \"twenty-ten.\"",
+      "words": "Ask: \"Ten more than 34. Which digit changes? Which digit stays?\" Say: \"Ten more is one more TEN. The ones do not move.\" On the hundreds chart: \"Ten more is the box right below.\"",
+      "watch": "Watch who still counts by ones to find ten more. Check the numbers that cross a ten, such as 1 more than 39 and 1 less than 40; say those numbers aloud together before writing."
+     }
+    },
+    {
+     "n": 4,
+     "point": "1:skip-counting",
+     "title": "Count by tens, fives, and twos",
+     "objective": "Children skip count by 10, by 5, and by 2, and write the missing numbers in each counting row.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "K.CC.A.1",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.NBT.A.2",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-123",
+       "title": "Count by Tens",
+       "core": "number-charts-fruits-g1123",
+       "easy": "number-charts-easy-around-the-house-g1123",
+       "hard": "number-charts-hard-occupations-g1123"
+      },
+      {
+       "type": "G1-124",
+       "title": "Count by Fives",
+       "core": "number-charts-toys-g1124",
+       "easy": "number-charts-easy-vegetables-g1124",
+       "hard": "number-charts-hard-easter-g1124"
+      },
+      {
+       "type": "G1-125",
+       "title": "Count by Twos",
+       "core": "number-charts-shapes-g1125",
+       "easy": "number-charts-easy-music-g1125",
+       "hard": "number-charts-hard-beach-g1125"
+      }
+     ],
+     "tool": {
+      "key": "choral-counting",
+      "slug": "choral-counting",
+      "name": "Choral Counting"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "skipcount.fill.2-nbt-a-2",
+      "slug": "skip-counting-by-5-10-100",
+      "title": "Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s"
+     },
+     "exit": {
+      "slug": "number-charts-vehicles-g1123",
+      "title": "Count by Tens"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "G1-123"
+     },
+     "note": {
+      "mistake": "Children say the skip-counting chant correctly and then write the next counting number in the gap (10, 20, 21). Counting by twos, they slip onto the odd numbers after one mistake and do not notice.",
+      "words": "Count aloud as a class and stop on a number: \"…30, 40. What comes next? How much more is it?\" Ask about the pattern: \"Counting by fives, what do the numbers end in?\" (5 and 0.) \"Counting by tens?\" (Always 0.)",
+      "watch": "Notice who checks a row by its pattern (\"this cannot be right, it ends in 3\"). Start some rows in the middle, at 40 or at 15; a child who can only begin at the start has learned a song, not a count."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-time-calendar-coins",
+   "slug": "time-calendar-and-coins-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Time, Calendar, and Coins",
+   "metaTitle": "Time, Calendar, and Coins: Grade 1 Unit Plan",
+   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on telling time to the hour and half hour, the calendar, and counting coins, each with a teacher note.",
+   "weeks": 1,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:time-read",
+     "title": "Tell time to the hour and half hour",
+     "objective": "Children read a clock to the hour and to the half hour and choose the matching time.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.B.3",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-148",
+       "title": "On the Hour",
+       "core": "telling-time-g1148",
+       "easy": "telling-time-easy-g1148-2",
+       "hard": "telling-time-hard-g1148-7",
+       "landing": "telling-time-grade-1"
+      },
+      {
+       "type": "G1-149",
+       "title": "Half Past What?",
+       "core": "telling-time-g1149",
+       "easy": "telling-time-easy-g1149-2",
+       "hard": "telling-time-hard-g1149-7"
+      }
+     ],
+     "tool": {
+      "key": "learning-clock",
+      "slug": "learning-clock",
+      "name": "Learning Clock"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "clock-digital.read-hour.1-md-b-3",
+      "slug": "read-clock-to-the-hour",
+      "title": "Sprocket's Clock — Read the Clock to the Hour"
+     },
+     "exit": {
+      "slug": "telling-time-g1148-2",
+      "title": "On the Hour"
+     },
+     "maker": {
+      "id": "telling-time",
+      "name": "Telling Time",
+      "slug": "telling-time-worksheet-maker",
+      "template": "G1-148"
+     },
+     "note": {
+      "mistake": "Children mix up the two hands and read 6:00 as 12:30. At half past, the hour hand sits between two numbers and children name the one ahead, so half past 2 is read as 3:30.",
+      "words": "Say: \"The short hand tells the hour. Read it first.\" At half past: \"The short hand is on its way from 2 to 3. It has not reached 3, so the hour is still 2.\" Say it both ways: \"half past two\" and \"two thirty.\"",
+      "watch": "Ask where the hour hand points at half past and listen for \"between.\" A child who expects it on the 3 at 2:30 should move the hands of a real clock from 2:00 to 3:00 and watch the short hand travel."
+     }
+    },
+    {
+     "n": 2,
+     "point": "1:time-set-hands",
+     "title": "Draw the clock hands",
+     "objective": "Children read a time to the hour or the half hour and draw the hour hand and the minute hand on a clock.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.B.3",
+       "title": "Measurement and Data"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.MD.C.7",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-233",
+       "title": "Draw the Hands: O'Clock",
+       "core": "telling-time-g1233",
+       "easy": "telling-time-easy-g1233-6",
+       "landing": "draw-clock-hands-to-the-hour"
+      },
+      {
+       "type": "G1-234",
+       "title": "Draw the Hands: Half Past",
+       "core": "telling-time-g1234",
+       "easy": "telling-time-easy-g1234-7",
+       "landing": "draw-clock-hands-half-past"
+      }
+     ],
+     "tool": {
+      "key": "learning-clock",
+      "slug": "learning-clock",
+      "name": "Learning Clock"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "clock.set-clock.1-md-b-3",
+      "slug": "set-the-clock",
+      "title": "Set the Clock — Tell Time to the Hour & Half-Hour"
+     },
+     "exit": {
+      "slug": "telling-time-g1233-2",
+      "title": "Draw the Hands: O'Clock"
+     },
+     "maker": {
+      "id": "telling-time",
+      "name": "Telling Time",
+      "slug": "telling-time-worksheet-maker",
+      "template": "G1-233"
+     },
+     "note": {
+      "mistake": "Children draw both hands the same length, so nobody can read the clock. For half past they put the hour hand exactly on the number and not halfway to the next one.",
+      "words": "Say: \"Minute hand first: long, to the 12 for o'clock, to the 6 for half past. Then the hour hand: SHORT.\" For 4:30: \"The short hand goes halfway between the 4 and the 5.\"",
+      "watch": "Look at the lengths of the two hands and at where the short hand sits at half past. Drawing shows what reading hides: a child can pick 4:30 from a list and still not know where the hour hand belongs."
+     }
+    },
+    {
+     "n": 3,
+     "point": "1:days-months-seasons",
+     "title": "Yesterday, today, tomorrow, and the months",
+     "objective": "Children write the day that was yesterday and the day that will be tomorrow, and put the twelve months in order.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "G1-319",
+       "title": "Yesterday, Today, Tomorrow",
+       "core": "days-and-months-g1319",
+       "easy": "days-and-months-easy-g1319-2",
+       "hard": "days-and-months-hard-g1319-7",
+       "landing": "yesterday-today-tomorrow-worksheet"
+      },
+      {
+       "type": "G1-320",
+       "title": "Months of the Year in Order",
+       "core": "days-and-months-g1320",
+       "easy": "days-and-months-easy-g1320-3",
+       "hard": "days-and-months-hard-g1320-7",
+       "landing": "months-of-the-year-in-order"
+      }
+     ],
+     "tool": {
+      "key": "calendar-wall",
+      "slug": "calendar-wall",
+      "name": "Calendar Wall"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "days-and-months-g1320-2",
+      "title": "Months of the Year in Order"
+     },
+     "maker": {
+      "id": "calendar",
+      "name": "Calendar, Days & Months",
+      "slug": "calendar-worksheet-maker",
+      "template": "G1-319"
+     },
+     "note": {
+      "mistake": "Children mix up yesterday and tomorrow, and they are stuck when today is Saturday or Sunday because the week seems to end there. With the months, the order falls apart after the first few.",
+      "words": "Say: \"Yesterday is the day before today. Tomorrow is the day after.\" Show that the week goes around: \"After Saturday comes Sunday again.\" Say the months in four groups of three, and ask: \"Which month is your birthday in? Which month comes before it?\"",
+      "watch": "Check the items where today sits at the edge of the week. For the months, notice who has to start from January each time; say the months with the calendar every morning."
+     }
+    },
+    {
+     "n": 4,
+     "point": "1:coins",
+     "title": "Count coins",
+     "objective": "Children know what a penny, a nickel, a dime, and a quarter are worth and count the coins in a purse.",
+     "standards": [
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.MD.C.8",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-228",
+       "title": "Counting Coins: First Steps",
+       "core": "money-g1228",
+       "easy": "money-easy-g1228-7",
+       "hard": "money-hard-g1228-10",
+       "landing": "counting-coins-first-steps"
+      },
+      {
+       "type": "G1-211",
+       "title": "Counting Coins",
+       "core": "money-g1211",
+       "easy": "money-easy-g1211-7",
+       "hard": "money-hard-g1211-12",
+       "landing": "counting-coins"
+      }
+     ],
+     "tool": {
+      "key": "money-mat",
+      "slug": "money-mat",
+      "name": "Money Mat"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "coin-stall.money.2-md-c-8",
+      "slug": "pips-market-stall",
+      "title": "Pip's Market Stall — Counting Coins & Making Change"
+     },
+     "exit": {
+      "slug": "money-g1228-2",
+      "title": "Counting Coins: First Steps"
+     },
+     "maker": {
+      "id": "money",
+      "name": "Money",
+      "slug": "money-worksheet-maker",
+      "template": "G1-228"
+     },
+     "note": {
+      "mistake": "Children count the coins, not the cents: three dimes are \"3.\" They think the nickel is worth more than the dime because it is bigger. With two kinds of coins they count everything by ones.",
+      "words": "Hold up each coin: \"A dime is small and worth 10 cents. A nickel is bigger and worth only 5.\" Count with the value: \"10, 20, 30 cents.\" With two kinds: \"Start with the coins that are worth the most. 10, 20… 25, 30.\"",
+      "watch": "Watch the switch from counting by tens to counting by fives or ones inside one purse. Use real or plastic coins first; the coins on a page are hard to tell apart for children who have not handled money."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-shapes-measuring-graphs",
+   "slug": "shapes-measuring-and-graphs-grade-1-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "math",
+   "title": "Shapes, Measuring, and Graphs",
+   "metaTitle": "Shapes, Measuring, and Graphs: Grade 1 Unit Plan",
+   "metaDescription": "A two-week Grade 1 math unit: 7 lessons on shapes, measuring length, sorting, picture graphs, and bar graphs, each with a teacher note and practice pages.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:shape-attributes",
+     "title": "What makes a shape that shape?",
+     "objective": "Children decide by its sides and corners whether a shape really is a triangle, a rectangle, or a square, and write the names of shapes.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.G.A.1",
+       "title": "Geometry"
+      },
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "K.G.A.2",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-381",
+       "title": "2D Shapes: Real or Not?",
+       "core": "2d-shapes-g1381",
+       "easy": "2d-shapes-easy-g1381-7",
+       "hard": "2d-shapes-hard-g1381-12",
+       "landing": "2d-shapes-real-or-not"
+      },
+      {
+       "type": "G1-382",
+       "title": "2D Shapes: Write the Names",
+       "core": "2d-shapes-g1382",
+       "easy": "2d-shapes-easy-g1382-7",
+       "hard": "2d-shapes-hard-g1382-12",
+       "landing": "2d-shapes-write-the-names"
+      }
+     ],
+     "tool": {
+      "key": "wodb",
+      "slug": "which-one-doesnt-belong",
+      "name": "Which One Doesn’t Belong?"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "sort-bins.defining-attributes.1-g-a-1",
+      "slug": "defining-attributes-of-shapes",
+      "title": "Defining Attributes of Shapes — Is It Still a Triangle?"
+     },
+     "exit": {
+      "slug": "2d-shapes-g1381-2",
+      "title": "2D Shapes: Real or Not?"
+     },
+     "maker": {
+      "id": "shapes-geometry",
+      "name": "Shapes & Geometry",
+      "slug": "shapes-and-geometry-worksheet-maker",
+      "template": "G1-381"
+     },
+     "note": {
+      "mistake": "Children accept a shape with a curved side or an open corner as a triangle because it \"looks like one,\" and reject a real triangle that is long, thin, or turned. Color and size are taken as part of what a shape is.",
+      "words": "Ask: \"What MUST a triangle have?\" (Three straight sides, three corners, and it is closed.) \"Does it matter if it is big, red, or turned?\" (No.) Have children give the reason: \"It is not a triangle because this side is curved.\"",
+      "watch": "Listen for reasons that name sides and corners. A child who says \"it is too pointy\" or \"it is upside down\" is still going by looks. A square is also a rectangle; accept that answer and say why."
+     }
+    },
+    {
+     "n": 2,
+     "point": "1:tangram-compose",
+     "title": "Tangram puzzles",
+     "objective": "Children build a figure with the seven tangram pieces and find the piece that is missing from a figure.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.G.A.2",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-354",
+       "title": "Tangram Puzzles: Four Shadows to Build",
+       "core": "tangram-g1354",
+       "landing": "tangram-four-shadows-to-build"
+      },
+      {
+       "type": "G1-355",
+       "title": "Tangram Puzzles: Which Piece Is Missing?",
+       "core": "tangram-g1355",
+       "landing": "tangram-which-piece-is-missing"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "shapeforge.compose.1-g-a-2",
+      "slug": "mims-glow-workshop",
+      "title": "Mim's Glow Workshop — Compose Shapes from Pattern Blocks"
+     },
+     "maker": {
+      "id": "tangram",
+      "name": "Tangram",
+      "slug": "tangram-worksheet-maker",
+      "template": "G1-354"
+     },
+     "note": {
+      "mistake": "Children place the big pieces last and have no room left, or they leave a piece over and call the figure finished. For the missing piece they pick one with the right shape and the wrong size.",
+      "words": "Say: \"Start with the two big triangles. Where could they go?\" Ask: \"Did you use all seven? Is anything sticking out?\" For the missing piece: \"Right shape AND right size. Turn it in your head.\"",
+      "watch": "Notice who turns and flips a piece and who only slides it. Give a child who is stuck one piece placed for them, not the whole answer. Each child or pair needs a tangram set for this lesson."
+     }
+    },
+    {
+     "n": 3,
+     "point": "1:measure-length-units",
+     "title": "Measure with unit squares",
+     "objective": "Children measure the length of an object by counting the unit squares under it, and put three objects in order from shortest to longest.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.A.1",
+       "title": "Measurement and Data"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.A.2",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-139",
+       "title": "Cube by Cube",
+       "core": "measurement-animals-g1139",
+       "easy": "measurement-easy-fruits-g1139",
+       "hard": "measurement-hard-animals-g1139"
+      },
+      {
+       "type": "G1-140",
+       "title": "Short to Long",
+       "core": "measurement-fruits-g1140",
+       "easy": "measurement-easy-toys-g1140",
+       "hard": "measurement-hard-toys-g1140",
+       "landing": "measurement-grade-1"
+      }
+     ],
+     "tool": {
+      "key": "measurement-bench",
+      "slug": "measurement-bench",
+      "name": "Measurement Bench"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "lay-units.measure.1-md-a-2",
+      "slug": "inchies-garden-path",
+      "title": "Inchie's Garden Path — Measuring by Laying Units"
+     },
+     "exit": {
+      "slug": "measurement-shapes-g1139",
+      "title": "Cube by Cube"
+     },
+     "maker": {
+      "id": "measurement",
+      "name": "Measurement & Size",
+      "slug": "measurement-worksheet-maker",
+      "template": "G1-139"
+     },
+     "note": {
+      "mistake": "Children count every square in the row, also the ones the object does not reach, or they count the lines and not the squares. When ordering, they go by where an object ends on the page and not by how long it is.",
+      "words": "Say: \"Count only the squares under the object, from its start to its end.\" Say the unit every time: \"The pencil is 6 squares long.\" Ask: \"Which is longer? How many squares longer?\"",
+      "watch": "Listen for an answer with no unit (\"6\") and ask \"six what?\" Check an object that does not start at the edge of the row; that is where children count too many."
+     }
+    },
+    {
+     "n": 4,
+     "point": "1:sort-three-groups",
+     "title": "Sort into three groups",
+     "objective": "Children decide where each picture belongs and sort a set of pictures into three groups.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "K.MD.B.3",
+       "title": "Measurement and Data"
+      },
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "L.K.5.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-160",
+       "title": "Three Groups",
+       "core": "sorting-categories-shapes-g1160"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "mims-baskets.category-sort.l-k-5-a",
+      "slug": "mims-baskets",
+      "title": "Mim's Memory Baskets — Sort Things into Groups"
+     },
+     "exit": {
+      "slug": "sorting-categories-toys-g1160",
+      "title": "Three Groups"
+     },
+     "maker": {
+      "id": "sorting",
+      "name": "Sorting & Categories",
+      "slug": "sorting-and-categories-worksheet-maker",
+      "template": "G1-160"
+     },
+     "note": {
+      "mistake": "Children sort by something of their own (color, or what they like) and not by the three groups on the page. A picture that could go two ways stops them, or gets two lines.",
+      "words": "Read the three bins first: \"What goes in this one? What is the rule?\" Ask for the reason with each line: \"Why does the apple go there?\" Afterward: \"Which bin has the most? Which has the fewest?\"",
+      "watch": "Listen to the reasons more than you check the lines. A child who can say the rule for a bin is classifying; a child who matches by looks alone will be lost when the pictures change."
+     }
+    },
+    {
+     "n": 5,
+     "point": "1:picture-graphs-sort-count",
+     "title": "Sort, count, and read a picture graph",
+     "objective": "Children count each kind in a mixed set, write the totals in a table, and read how many a picture graph shows in each row.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.C.4",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-146",
+       "title": "Sort and Count",
+       "core": "graphing-data-animals-g1146",
+       "easy": "graphing-data-easy-kitchen-tools-g1146",
+       "hard": "graphing-data-hard-toys-g1146"
+      },
+      {
+       "type": "G1-141",
+       "title": "Read the Picture Graph",
+       "core": "graphing-data-fruits-g1141",
+       "easy": "graphing-data-easy-beach-g1141",
+       "hard": "graphing-data-hard-farm-animals-g1141"
+      }
+     ],
+     "tool": {
+      "key": "class-graph",
+      "slug": "class-graph",
+      "name": "Class Graph"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.sort-count.k-md-b-3",
+      "slug": "sort-and-count-by-category",
+      "title": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data"
+     },
+     "exit": {
+      "slug": "graphing-data-fruits-g1146",
+      "title": "Sort and Count"
+     },
+     "maker": {
+      "id": "graphs-data",
+      "name": "Graphs & Data",
+      "slug": "graph-and-data-worksheet-maker",
+      "template": "G1-146"
+     },
+     "note": {
+      "mistake": "Children write a total in the wrong row of the table because they do not check the picture at the start of the row. Asked \"how many more,\" they give the bigger number and not the difference.",
+      "words": "Say: \"Each picture in the graph stands for one thing.\" Ask three kinds of questions: \"How many apples? Which has the most? How many MORE apples than pears?\" For \"how many more,\" line up the two rows and count the extra ones.",
+      "watch": "Ask every child one \"how many more\" question; it is the hard one. See who compares two rows by matching them and who just reads off the larger number."
+     }
+    },
+    {
+     "n": 6,
+     "point": "1:bar-graphs",
+     "title": "Read and make a bar graph",
+     "objective": "Children read the number each bar shows and color a bar graph, one box for each one counted.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.C.4",
+       "title": "Measurement and Data"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "2.MD.D.10",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-143",
+       "title": "Read the Bar Graph",
+       "core": "graphing-data-shapes-g1143",
+       "easy": "graphing-data-easy-vegetables-g1143",
+       "hard": "graphing-data-hard-beach-g1143"
+      },
+      {
+       "type": "G1-147",
+       "title": "Count and Graph",
+       "core": "graphing-data-fruits-g1147",
+       "easy": "graphing-data-easy-desserts-and-sweets-g1147",
+       "hard": "graphing-data-hard-pets-g1147"
+      }
+     ],
+     "tool": {
+      "key": "class-graph",
+      "slug": "class-graph",
+      "name": "Class Graph"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "graph-it.bar-graph.2-md-d-10",
+      "slug": "pips-stacking-fence",
+      "title": "Pip's Stacking Fence — Build & Read a Bar Graph"
+     },
+     "exit": {
+      "slug": "graphing-data-toys-g1143",
+      "title": "Read the Bar Graph"
+     },
+     "maker": {
+      "id": "graphs-data",
+      "name": "Graphs & Data",
+      "slug": "graph-and-data-worksheet-maker",
+      "template": "G1-143"
+     },
+     "note": {
+      "mistake": "Children count the boxes of a bar from the top down or miss the bottom box, so the number is off by one. They do not follow the top of the bar across to the number on the side.",
+      "words": "Say: \"Put your finger on the top of the bar. Slide it across to the numbers. What number is it on?\" When coloring: \"Start at the bottom. One box for each one. Stop at the number.\"",
+      "watch": "See who uses the numbers on the side and who counts boxes one by one; both work, but the numbers on the side are the new idea. Check that colored bars start at the bottom and have no gaps."
+     }
+    },
+    {
+     "n": 7,
+     "point": "1:patterns-missing",
+     "title": "Two are missing",
+     "objective": "Children find the part that repeats in a pattern and fill in two missing pictures.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "4.OA.C.5",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-155",
+       "title": "Two Are Missing!",
+       "core": "patterns-animals-g1155"
+      }
+     ],
+     "tool": {
+      "key": "pattern-bench",
+      "slug": "pattern-bench",
+      "name": "Pattern Bench"
+     },
+     "exit": {
+      "slug": "patterns-fruits-g1155",
+      "title": "Two Are Missing!"
+     },
+     "maker": {
+      "id": "patterns",
+      "name": "Patterns",
+      "slug": "pattern-worksheet-maker",
+      "template": "G1-155"
+     },
+     "note": {
+      "mistake": "Children fill both empty boxes with the same picture, or look only at the picture right before each gap. A gap in the middle of the row is harder than one at the end.",
+      "words": "Read the row aloud and clap at each empty box: \"star, moon, star, (clap), star, moon.\" Ask: \"What is the part that repeats? Say it. Now what belongs in the gap?\" Check by reading the finished row aloud.",
+      "watch": "Notice who reads the whole row again after filling the gaps. That check catches most mistakes; teach it as the last step of every pattern."
+     }
+    }
+   ]
   }
  ]
 }

@@ -19,7 +19,7 @@ import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton'
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
-export default async function SubPlanPage({ locale, pack, ui }: { locale: string; pack: SubPack; ui: SubUi }) {
+export default async function SubPlanPage({ locale, pack, ui, others = [] }: { locale: string; pack: SubPack; ui: SubUi; others?: SubPack[] }) {
   const [tLevel, tTier, tBreadcrumb] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
@@ -52,13 +52,14 @@ export default async function SubPlanPage({ locale, pack, ui }: { locale: string
   };
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: tBreadcrumb('home'), path: localePath(locale) },
+    { name: ui.hubCrumb, path: localePath(locale, 'sub-plans') },
     { name: pack.title, path: localePath(locale, 'sub-plans', pack.slug) },
   ]);
 
   return (
     <main className={`un sp ${baloo2.variable} ${nunito.variable}`}>
       <div className="un-wrap">
-        <BreadcrumbTrail locale={locale} trail={[{ label: pack.title }]} />
+        <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: localePath(locale, 'sub-plans') }, { label: pack.title }]} />
         {pack.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}
 
         <header className="un-head">
@@ -136,6 +137,17 @@ export default async function SubPlanPage({ locale, pack, ui }: { locale: string
               ))}
             </ul>
           </section>
+        ) : null}
+
+        {/* the other days of the same grade, in the order of the year: a teacher who is out again takes the next one */}
+        {others.length ? (
+          <nav className="sp-more" aria-labelledby="sp-more-title">
+            <h2 id="sp-more-title" className="un-lessons-title">{fill(ui.moreTitle, { grade: gradeLabel })}</h2>
+            <ul>
+              {others.map((o) => <li key={o.id}><a href={`/${locale}/sub-plans/${o.slug}`}>{o.title}</a></li>)}
+            </ul>
+            <p><a href={`/${locale}/sub-plans`}>{ui.allPacks}</a></p>
+          </nav>
         ) : null}
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />

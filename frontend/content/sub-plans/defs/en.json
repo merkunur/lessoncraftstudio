@@ -1,21 +1,495 @@
 {
- "$comment": "The sub packs of this language: one school day of REVIEW for one grade. Which blocks, how long, which teaching point and worksheet type. Everything else is filled by scripts/sub-plans/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere. Times are seat-work times a first grader can hold (10 to 25 minutes); the day's read-aloud, movement and quiet reading come from the class information sheets, not from worksheets. The reading block needs a page with text to READ (a picture-only page is not a reading block).",
+ "$comment": "The sub packs of this language: one school day of REVIEW for one grade. Which blocks, how long, which teaching point and worksheet type. WRITTEN by scripts/sub-plans/lists/build-en-defs.js (edit the lists there). Everything else is filled by scripts/sub-plans/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere. Times are seat-work times a class of that grade can hold; the day's read-aloud, movement and quiet reading come from the class information sheets, not from worksheets.",
  "packs": [
   {
-   "id": "g1-day-of-review-midyear-1",
-   "slug": "first-grade-sub-plans-day-of-review",
-   "status": "pilot",
-   "grade": "1",
+   "id": "k-early-1",
+   "slug": "kindergarten-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
+   "position": "early",
+   "title": "Kindergarten Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-244"
+    },
+    {
+     "key": "reading",
+     "minutes": 10,
+     "point": "K:letter-identification",
+     "type": "K-229"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-032"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-046"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-039"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "k-early-2",
+   "slug": "kindergarten-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "early",
+   "title": "Kindergarten Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 20,
+     "point": "K:all-about-me-personal",
+     "type": "K-323"
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-245"
+    },
+    {
+     "key": "reading",
+     "minutes": 10,
+     "point": "K:letter-identification",
+     "type": "K-229"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-033"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-257"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-064"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-270"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-061"
+    }
+   ]
+  },
+  {
+   "id": "k-middle-1",
+   "slug": "kindergarten-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
    "position": "middle",
-   "title": "First Grade Sub Plans: A Day of Review",
-   "metaTitle": "First Grade Sub Plans: A Day of Review, Ready to Print",
-   "metaDescription": "Emergency sub plans for first grade: eight review blocks in reading, word work, writing, and math, with a guest teacher script, early-finisher pages, and class forms.",
+   "title": "Kindergarten Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-251"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:beginning-sounds",
+     "type": "K-221"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-232"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-278"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-006"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-019"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-047"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "K:colour-by-number",
+     "type": "K-266"
+    }
+   ]
+  },
+  {
+   "id": "k-middle-2",
+   "slug": "kindergarten-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "middle",
+   "title": "Kindergarten Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-294"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:sound-position",
+     "type": "K-226"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:count-syllables",
+     "type": "K-233"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-008"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:before-after-back",
+     "type": "K-021"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:shape-naming",
+     "type": "K-265"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-242"
+    }
+   ]
+  },
+  {
+   "id": "k-late-1",
+   "slug": "kindergarten-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
+   "position": "late",
+   "title": "Kindergarten Sub Plans: End of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:days-of-week",
+     "type": "K-321"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:cvc-build",
+     "type": "K-231"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:combine-groups",
+     "type": "K-028"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-274"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:classify-count-kinds",
+     "type": "K-060"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "K:seasons",
+     "type": "K-341"
+    }
+   ]
+  },
+  {
+   "id": "k-late-2",
+   "slug": "kindergarten-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "late",
+   "title": "Kindergarten Sub Plans: End of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-020"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:story-sequencing",
+     "type": "K-379"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:cvc-build",
+     "type": "K-224"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:tally-marks",
+     "type": "K-014"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "K:fact-fluency-colour-code",
+     "type": "K-268"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:category-odd-one-out",
+     "type": "K-043"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-332"
+    }
+   ]
+  },
+  {
+   "id": "g1-early-1",
+   "slug": "first-grade-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "title": "First Grade Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
    "blocks": [
     {
      "key": "morning",
      "minutes": 15,
-     "point": "1:alphabetical-order",
-     "type": "G1-245"
+     "point": "K:count-forward-missing",
+     "type": "K-020"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-343"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-258"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-110"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-213"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-421"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-335"
+    }
+   ]
+  },
+  {
+   "id": "g1-early-2",
+   "slug": "first-grade-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "title": "First Grade Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-276"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-330"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:subtract-cross-out",
+     "type": "G1-103"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-116"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-271"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-413"
+    }
+   ]
+  },
+  {
+   "id": "g1-middle-1",
+   "slug": "first-grade-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
+   "grade": "1",
+   "position": "middle",
+   "title": "First Grade Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:number-of-the-day",
+     "type": "G1-255"
     },
     {
      "key": "reading",
@@ -58,6 +532,186 @@
      "minutes": 10,
      "point": "1:find-the-differences",
      "type": "G1-412"
+    }
+   ]
+  },
+  {
+   "id": "g1-middle-2",
+   "slug": "first-grade-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "middle",
+   "title": "First Grade Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-124"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-368"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:syllables-split",
+     "type": "G1-305"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-259"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:number-walls",
+     "type": "G1-266"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:hundreds-chart",
+     "type": "G1-129"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:picture-sudoku",
+     "type": "G1-158"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:days-months-seasons~season-wheel",
+     "type": "G1-323"
+    }
+   ]
+  },
+  {
+   "id": "g1-late-1",
+   "slug": "first-grade-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "title": "First Grade Sub Plans: End of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:alphabetical-order",
+     "type": "G1-245"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-308"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:opposites",
+     "type": "G1-336"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "1:unscramble-sentence",
+     "type": "G1-302"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:time-read",
+     "type": "G1-149"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-241"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:picture-analogies",
+     "type": "G1-157"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-414"
+    }
+   ]
+  },
+  {
+   "id": "g1-late-2",
+   "slug": "first-grade-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "title": "First Grade Sub Plans: End of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:days-months-seasons",
+     "type": "G1-320"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-sequencing",
+     "type": "G1-402"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:pronouns",
+     "type": "G1-371"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:coins",
+     "type": "G1-228"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:bar-graphs",
+     "type": "G1-143"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-422"
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
     }
    ]
   }

@@ -37,17 +37,18 @@ function html(pack) {
   const note = '<section class="sheet"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, ui.packWord].join(' · ')) + '</p><h1>' + esc(ui.pdfTitle) + '</h1><p class="hello">' + esc(ui.pdfHello) + '</p><p class="intro">' + esc(ui.pdfIntro) + '</p>'
     + '<div class="two"><div><h3>' + esc(ui.pdfBeforeTitle) + '</h3>' + li(['pdfBefore1', 'pdfBefore2', 'pdfBefore3', 'pdfBefore4', 'pdfBefore5']) + '</div><div><h3>' + esc(ui.pdfAnyTitle) + '</h3>' + li(['pdfAny1', 'pdfAny2', 'pdfAny3', 'pdfAny4']) + '</div></div>'
     + '<h2>' + esc(ui.dayTitle) + '</h2><table class="day"><thead><tr><th></th><th>' + esc(ui.dayColBlock) + '</th><th>' + esc(ui.dayColPage) + '</th><th class="m">' + esc(ui.dayColTime) + '</th><th></th></tr></thead><tbody>' + day + '</tbody></table></section>';
-  const blocks = '<section class="flow"><h2 class="top">' + esc(ui.pdfScriptTitle) + '</h2>' + pack.blocks.map((b, i) => '<article class="block"><header><span class="n">' + (i + 1) + '</span><h3>' + esc(ui['block_' + b.key]) + '</h3><span class="m">' + esc(fill(ui.minutes, { n: b.minutes })) + '</span></header>'
-    + '<dl><dt>' + esc(ui.pdfHandOut) + '</dt><dd>' + esc(fill(b.hard || b.easy ? ui.pdfHandOutText : ui.pdfHandOutTextPlain, { title: b.title })) + '</dd>'
+  // first what to do with the class between the blocks (nothing on this list needs a copy or a screen), then the blocks
+  const blocks = '<section class="flow"><article class="block fill"><header><h3>' + esc(ui.pdfFillTitle) + '</h3></header>' + li(['pdfFill1', 'pdfFill2', 'pdfFill3', 'pdfFill4', 'pdfFill5']) + '</article><h2 class="top">' + esc(ui.pdfScriptTitle) + '</h2>' + pack.blocks.map((b, i) => '<article class="block"><header><span class="n">' + (i + 1) + '</span><h3>' + esc(ui['block_' + b.key]) + '</h3><span class="m">' + esc(fill(ui.minutes, { n: b.minutes })) + '</span></header>'
+    + '<dl><dt>' + esc(ui.pdfHandOut) + '</dt><dd>' + esc(fill(b.hard && b.easy ? ui.pdfHandOutText : b.easy ? ui.pdfHandOutTextEasy : b.hard ? ui.pdfHandOutTextHard : ui.pdfHandOutTextPlain, { title: b.title })) + '</dd>'
     + '<dt>' + esc(ui.pdfSay) + '</dt><dd class="say">' + (b.key === 'morning' ? esc(ui.pdfMorningSay) + ' ' : '') + esc(b.script.say) + '</dd>'
     + '<dt>' + esc(ui.pdfFirst) + '</dt><dd>' + esc(b.script.first) + (b.key === 'morning' ? ' ' + esc(ui.pdfMorningDo) : '') + '</dd>'
     + '<dt>' + esc(ui.pdfStuck) + '</dt><dd>' + esc(b.script.stuck) + '</dd>' + (b.key === 'closing' ? '<dt>' + esc(ui.pdfBellTitle) + '</dt><dd class="bell">' + esc(ui.pdfBell) + '</dd>' : '') + '</dl></article>').join('') + '</section>';
   const field = (k, n) => '<div class="field"><h3>' + esc(ui[k]) + '</h3>' + lines(n) + '</div>';
   const report = '<section class="sheet"><h1 class="small">' + esc(ui.pdfReportTitle) + '</h1><p class="intro">' + esc(ui.pdfReportLead) + '</p>' + field('pdfReportDone', 3) + field('pdfReportNot', 2) + field('pdfReportHelp', 4) + field('pdfReportGood', 2) + field('pdfReportAbsent', 2) + field('pdfReportNotes', 4) + field('pdfReportSign', 1) + '</section>';
   const sheet = (fields, lead) => '<section class="sheet"><h1 class="small">' + esc(ui.pdfClassTitle) + '</h1>' + (lead ? '<p class="intro">' + esc(ui.pdfClassLead) + '</p>' : '') + fields.map(([k, n]) => field(k, n)).join('') + '</section>';
-  const klass = sheet([['pdfClassTeacher', 1], ['pdfClassList', 1], ['pdfClassAttendance', 2], ['pdfClassSchedule', 6], ['pdfClassRoutines', 4], ['pdfClassBehavior', 4]], true)
+  const klass = sheet([['pdfClassTeacher', 1], ['pdfClassList', 1], ['pdfClassAttendance', 2], ['pdfClassSchedule', 5], ['pdfClassRoutines', 3], ['pdfClassBehavior', 4]], true)
     + sheet([['pdfClassEasier', 4], ['pdfClassPullouts', 4], ['pdfClassExtra', 4], ['pdfClassHelpers', 3], ['pdfClassNeeds', 4]])
-    + sheet([['pdfClassDismissal', 12], ['pdfClassEmergency', 6]]);
+    + sheet([['pdfClassDismissal', 10], ['pdfClassPickup', 3], ['pdfClassEmergency', 5]]);
   return '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(pack.title + ' — ' + ui.pdfFooter) + '</title>'
     + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
     + '<style>' + CSS + '</style></head><body>' + note + blocks + report + klass + '</body></html>';

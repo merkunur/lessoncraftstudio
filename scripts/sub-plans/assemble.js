@@ -25,7 +25,8 @@ const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k
 const has = (k) => process.argv.includes('--' + k);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const MUST = ['reading', 'writing', 'math'];
-const BLOCKS = ['morning', 'reading', 'phonics', 'writing', 'math', 'problems', 'logic', 'closing'];
+const BLOCKS = ['morning', 'reading', 'phonics', 'writing', 'math', 'numbers', 'problems', 'science', 'logic', 'drawing', 'closing'];
+const { planWeeks, refused } = require('./position.js');
 
 function assemble(loc, opt = {}) {
   const problems = [];
@@ -36,21 +37,30 @@ function assemble(loc, opt = {}) {
   const points = new Map(readJson(path.join(REPO, 'frontend', 'content', 'teaching-graph', 'points.json')).points.map((p) => [p.id, p]));
   const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.' + loc + '.json'));
   const pages = pagesOf(loc, opt.decksText);
+  // where in the year each point has been taught, by the plans of the language's units (position.js)
+  const unitsPath = path.join(REPO, 'frontend', 'content', 'units', 'units.' + loc + '.json');
+  const weeks = planWeeks(fs.existsSync(unitsPath) ? readJson(unitsPath) : {});
   const packs = [], seen = new Set();
+  // a page is handed out once per grade: a worksheet type that two packs of a grade both use gives the second pack
+  // its next published page (other letters, other numbers), never the same page again
+  const usedByGrade = new Map();
   for (const d of defs) {
     const where = loc + ' pack ' + d.id;
     if (seen.has(d.id) || seen.has('/' + d.slug)) bad(where + ': id or slug used twice');
     seen.add(d.id); seen.add('/' + d.slug);
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.slug || '')) bad(where + ': slug "' + d.slug + '" is not url-safe');
     for (const k of ['title', 'metaTitle', 'metaDescription', 'grade', 'position']) if (!d[k]) bad(where + ': no ' + k);
-    const used = new Set(), blocks = [];
+    if (!usedByGrade.has(String(d.grade))) usedByGrade.set(String(d.grade), new Set());
+    const used = usedByGrade.get(String(d.grade)), blocks = [];
     for (const b of d.blocks) {
       const bw = where + ' block ' + b.key;
       if (!BLOCKS.includes(b.key)) { bad(bw + ': unknown kind of block'); continue; }
       const p = points.get(b.point);
       if (!p) { bad(bw + ': no such teaching point ' + b.point); continue; }
-      // a day of review: nothing from a later grade than the pack's
-      if ('K123'.indexOf(p.grade) > 'K123'.indexOf(String(d.grade))) bad(bw + ': the teaching point is of grade ' + p.grade + ', later than the pack\'s grade');
+      // a day of review: nothing from a later grade than the pack's, and nothing the grade's plan teaches after the
+      // pack's time of year
+      const no = refused(p, d.grade, d.position, weeks);
+      if (no) bad(bw + ' (' + b.point + '): ' + no);
       if (!p.types.includes(b.type)) { bad(bw + ': type ' + b.type + ' does not belong to ' + b.point); continue; }
       // the point's script, with the sentences that are true of this worksheet type only
       const base = scripts[b.point];
@@ -58,8 +68,11 @@ function assemble(loc, opt = {}) {
       if (!sc || !sc.say || !sc.first || !sc.stuck) { bad(bw + ': the point has no full script (say, first, stuck) in scripts/' + loc + '.json'); continue; }
       const pg = pages.get(b.type), s = strings[b.type];
       if (!pg || !pg.core.length || !s || !s.title || !s.instruction) { bad(bw + ': type ' + b.type + ' has no published core page, title or instruction in this language'); continue; }
+      if (/\{[A-Za-z_]+\}/.test(s.printTitle || s.title)) { bad(bw + ': the title of type ' + b.type + ' carries a placeholder (' + (s.printTitle || s.title) + ')'); continue; }
       const pick = (r) => { const x = pg[r].find((y) => !used.has(y.slug)); if (x) used.add(x.slug); return x ? x.slug : null; };
-      const block = { key: b.key, minutes: b.minutes, point: b.point, type: b.type, title: s.printTitle || s.title, instruction: s.instruction, core: pick('core') };
+      const core = pick('core');
+      if (!core) { bad(bw + ': every published page of type ' + b.type + ' is already in another pack of this grade'); continue; }
+      const block = { key: b.key, minutes: b.minutes, point: b.point, type: b.type, title: s.printTitle || s.title, instruction: s.instruction, core };
       const hard = pick('hard'), easy = pick('easy');
       if (hard) block.hard = hard;
       if (easy) block.easy = easy;

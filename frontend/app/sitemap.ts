@@ -18,6 +18,7 @@ import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { listedUnits, unitSiblings } from '@/lib/units';
+import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -373,6 +374,27 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     } catch (err) {
       console.warn('[sitemap] unit URLs failed; skipping:', (err as Error).message);
+    }
+
+    // SUB PLANS (Daily Teaching System, Part 5): the hub and every LIVE pack of a language, read from
+    // content/sub-plans/packs.<loc>.json through lib/sub-plans.ts, the file the routes render from (a pilot pack is
+    // noindex and never listed). hreflang mirrors the routes: the hub between the languages whose hub is live, a
+    // pack between its live siblings.
+    try {
+      const liveSubHubs: string[] = [];
+      for (const locale of locales) if ((await listedSubPacks(locale)).live) liveSubHubs.push(locale);
+      const subHubAlternates = liveSubHubs.length > 1 ? buildHreflangAlternates(liveSubHubs, (l) => `${baseUrl}/${l}/sub-plans`, baseUrl) : undefined;
+      for (const locale of liveSubHubs) {
+        const listed = await listedSubPacks(locale);
+        routes.push({ url: `${baseUrl}/${locale}/sub-plans`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.7, ...(subHubAlternates ? { alternates: { languages: subHubAlternates } } : {}) });
+        for (const pack of listed.packs) {
+          const siblings = await subPackSiblings(pack.id, locales);
+          const languages = Object.keys(siblings).length > 1 ? buildHreflangAlternates(Object.keys(siblings), (l) => `${baseUrl}/${l}/sub-plans/${siblings[l]}`, baseUrl) : undefined;
+          routes.push({ url: `${baseUrl}/${locale}/sub-plans/${pack.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6, ...(languages ? { alternates: { languages } } : {}) });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] sub plan URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

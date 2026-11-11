@@ -6,7 +6,7 @@ import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
-import { getSubPack, getSubUi, subPackSiblings } from '@/lib/sub-plans';
+import { POSITION_ORDER, getSubPack, getSubUi, listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 import SubPlanPage from '@/components/sub-plans/SubPlanPage';
 
 /**
@@ -48,5 +48,10 @@ export default async function SubPlanRoute({ params }: { params: PageParams }) {
   setRequestLocale(locale);
   const [pack, ui] = await Promise.all([getSubPack(locale, slug), getSubUi(locale)]);
   if (!pack || !ui) notFound();
-  return <SubPlanPage locale={locale} pack={pack} ui={ui} />;
+  // the other days of the pack's grade that the hub lists, in the order of the year
+  const listed = await listedSubPacks(locale);
+  const others = listed.packs
+    .filter((p) => p.grade === pack.grade && p.id !== pack.id)
+    .sort((a, b) => POSITION_ORDER.indexOf(a.position) - POSITION_ORDER.indexOf(b.position));
+  return <SubPlanPage locale={locale} pack={pack} ui={ui} others={others} />;
 }

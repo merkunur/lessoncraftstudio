@@ -74,3 +74,17 @@ export function subPackPdfList(locale: string, pack: SubPack): string[] {
 }
 /** the Teacher-only file of a pack, as the gate knows it (lib/teacher-files.ts) */
 export const subPackScriptFile = (pack: SubPack) => `sub-plans/${pack.id}/guest-teacher-pages`;
+
+/** times of the year in the order of the year, for every list of packs */
+export const POSITION_ORDER = ['early', 'middle', 'late'] as const;
+
+/**
+ * What the hub of a language lists. Live packs when there are any; a language whose packs are all pilots shows its
+ * pilots on a noindex hub (that is how a new language is read before it is published); no packs = no hub (404).
+ */
+export async function listedSubPacks(locale: string): Promise<{ live: boolean; packs: SubPack[] }> {
+  const packs = await getSubPacks(locale);
+  const livePacks = packs.filter((p) => p.status === 'live');
+  if (livePacks.length) return { live: true, packs: livePacks };
+  return { live: false, packs };
+}

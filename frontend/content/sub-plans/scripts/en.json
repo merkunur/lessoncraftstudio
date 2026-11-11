@@ -20,13 +20,25 @@
      "say": "\"Now it is time to read. Each sentence on this page tells you what to color. Read the sentence, then color exactly what it says.\"",
      "first": "Make sure every child has crayons or colored pencils. Read the first sentence aloud together, pointing to each word. Ask: \"What does the sentence tell us to color? Which color?\" Color it together. Then the children read the other sentences on their own.",
      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what to color before picking up a crayon."
+    },
+    "G1-308": {
+     "say": "\"Now it is time to read. Each sentence tells you to do something to the row of pictures with your pencil. Read the sentence, do exactly what it says, and check the little box when you are done.\"",
+     "first": "Point to the flag and tell the children that the row of pictures starts there. Read the first sentence aloud together, pointing to each word. Ask, \"Which picture? What do we do to it?\" Do it together and check the box.",
+     "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what to do before picking up the pencil."
     }
    }
   },
   "1:story-sequencing": {
    "say": "\"Each row on this page is a little story told in pictures. The box with the question mark is the picture that is missing. You are going to decide which picture belongs there.\"",
    "first": "Do the first story together. Ask one child to tell what happens in the first picture, another child the second, and so on. Then ask: \"What would happen next?\" Look at the choices under the story, talk about which one fits, and circle that picture together.",
-   "stuck": "Ask the child to tell you the story aloud, picture by picture, starting with \"First.\" Then point to each choice and ask: \"Could this happen next?\""
+   "stuck": "Ask the child to tell you the story aloud, picture by picture, starting with \"First.\" Then point to each choice and ask: \"Could this happen next?\"",
+   "byType": {
+    "G1-402": {
+     "say": "\"Each story on this page is told in four sentences, but the sentences are out of order. Read them. Number them 1 to 4 in the order things happen. Then draw a line from each sentence to its picture.\"",
+     "first": "Do the first story together. Read the four sentences aloud. Ask, \"Which one happens first? How do you know?\" Write a 1 in its box, then find 2, 3, and 4. Read the story in order, and draw a line from each sentence to the picture that shows it.",
+     "stuck": "Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next."
+    }
+   }
   },
   "1:rhyming": {
    "say": "\"Rhyming words sound the same at the end, like cat and hat. On this page you look for the words that rhyme.\"",
@@ -37,13 +49,25 @@
      "say": "\"Rhyming words sound the same at the end, like cat and hat. On this page you find the picture that rhymes, then you write its word.\"",
      "first": "Name the pictures of the first row together, so that everyone uses the same words. Say the first word, then say it again with each choice after it. Ask which pair sounds the same at the end. Circle that picture together. Say its word slowly, ask the class for its sounds one at a time, and write the word on the board; the children write it on the line.",
      "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the endings sound the same, they rhyme. If the child does not know a picture's name, tell them. For spelling, have the child say the word slowly and write a letter for each sound; a careful try is enough, so do not spell the word for them."
+    },
+    "G1-343": {
+     "say": "\"Rhyming words sound the same at the end, like cat and hat. At the top of the page are small pictures. Say each one, find the big picture it rhymes with, and write its word on a line under that big picture.\"",
+     "first": "Name the big pictures and the small pictures together, so that everyone uses the same words. On the page for everyone the big pictures are clock, dog, and cat, and the small ones are bat, frog, sock, hat, rock, and log. Take the first small picture and say its word with each big picture in turn. Ask which pair sounds the same at the end. Write the word on the board under that big picture; the children write it on a line.",
+     "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the child does not know a picture's name, tell them. For spelling, have the child say the word slowly and write a letter for each sound; a careful try is enough."
     }
    }
   },
   "1:unscramble-sentence": {
    "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with an end mark: a period, a question mark, or an exclamation point.\"",
    "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
-   "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
+   "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used.",
+   "byType": {
+    "G1-302": {
+     "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. One word has the end mark after it, so it goes last. You have to find the word that goes first.\"",
+     "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Find the word with the end mark and say, \"This one is last.\" Ask, \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence with a capital letter at the start.",
+     "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used. Remind the child that the word I is always written as a capital letter."
+    }
+   }
   },
   "1:fluency-within-20": {
    "say": "\"This is math you already know: adding and taking away with numbers up to 10. Do the ones you know first. If you need your fingers for the others, that is fine.\"",
@@ -53,12 +77,25 @@
   "1:word-problems": {
    "say": "\"Each problem on this page is a short story with numbers. I will read each story aloud. Listen, look at the picture, and write the answer in the box.\"",
    "first": "Read the first story aloud twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then read each of the other stories aloud twice, and give the children time to answer before you read the next one.",
-   "stuck": "Read the story to the child again and ask them to tell it back in their own words. Let them touch and count the pictures, or draw dots."
+   "stuck": "Read the story to the child again and ask them to tell it back in their own words. Let them touch and count the pictures, or draw dots.",
+   "byType": {
+    "G1-241": {
+     "say": "\"Each problem on this page is a short story with numbers. Read the story, look at the picture, and write the answer in the box. We will do the first one together. If you cannot read a word, raise your hand and I will help you.\"",
+     "first": "Read the first story aloud together, twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then the children read the other stories on their own. Walk around and read a story aloud to any child who needs it; this page is math practice, not a reading test."
+    }
+   }
   },
   "1:mazes": {
    "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
    "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
-   "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
+   "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way.",
+   "byType": {
+    "G1-422": {
+     "say": "\"Many streets lead to the green car, but the tow truck wants the SHORTEST way. Find it, draw it, and write how many street pieces it takes.\"",
+     "first": "Hold up the page and show the tow truck and the green car. Trace one way with your finger and count the street pieces aloud. Ask, \"Is there a shorter way?\" Tell the children to try at least two ways with a finger and count each before they draw.",
+     "stuck": "Have the child trace a way with a finger and count the pieces, then try another way and count again. The way with the smaller number is the one to draw."
+    }
+   }
   },
   "1:find-the-differences": {
    "say": "\"Here is a spot-the-difference puzzle. The pictures look the same, but they are not. Find what is different and circle it.\"",
@@ -68,8 +105,398 @@
     "G1-412": {
      "say": "\"Here is a spot-the-difference puzzle. There are two pairs of pictures. The pictures in each pair look the same, but they are not. Find 4 differences in the left pair and 3 in the right pair, and circle each one.\"",
      "first": "Find one difference in the left pair together: ask a child to point to it and say what changed. Show how to circle it and check off one box, so that everyone can see how many are still left to find."
+    },
+    "G1-413": {
+     "say": "\"Here is a spot-the-difference puzzle. The bottom picture is not the same as the top one. Some things have changed, and some things may be gone. Circle every difference in the bottom picture, then write how many you found.\"",
+     "first": "Find one difference together: ask a child to point to it and say what changed. Circle it in the bottom picture. Do not tell the class how many differences there are; counting them is part of the puzzle.",
+     "stuck": "Have the child cover part of both pictures with a hand and compare one small part at a time, from top to bottom. Remind the child to look for things that are missing, too."
+    },
+    "G1-414": {
+     "say": "\"Here is a spot-the-difference puzzle. Three things in the bottom picture have changed. Circle them. Then read the words and check the ones that name the things that changed.\"",
+     "first": "Find one difference together and circle it in the bottom picture. Read the list of words aloud. Ask, \"Which word names the thing we just circled?\" Check its box together.",
+     "stuck": "Have the child compare one small part of the two pictures at a time, from top to bottom. Read the words to a child who cannot read them, and ask, \"Did this one change?\" for each."
+    },
+    "G1-415": {
+     "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
+     "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
+     "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
     }
    }
+  },
+  "1:spell-picture-words": {
+   "say": "\"Say the name of each picture. Find its word in the word bank. The first letter is already there; you write the rest of the word.\"",
+   "first": "Name all the pictures together, so that everyone uses the same word for each. Read the word bank aloud. Do the first picture together: say the word, find it in the word bank, and copy the rest of it after the first letter. Cross the word out in the word bank.",
+   "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them.",
+   "byType": {
+    "G1-259": {
+     "say": "\"Say the name of each picture. Every word you need is in the word bank at the top. Find the right word and write it next to its picture.\"",
+     "first": "Name all the pictures together, so that everyone uses the same word for each. Read the word bank aloud. Do the first picture together: say the word, listen for its first sound, find the word in the word bank, and copy it onto the lines. Cross the word out in the word bank.",
+     "stuck": "Have the child say the picture word and its first sound, then look in the word bank for a word that starts with that letter. Read the words in the word bank for a child who cannot read them, and have the child copy the word one letter at a time."
+    }
+   }
+  },
+  "1:add-within-10-models": {
+   "say": "\"Each domino has dots on two sides. Count the dots on both sides and write how many there are altogether. That number is called the sum.\"",
+   "first": "Draw the first domino on the board. Count the dots on the left side, then keep counting on the right side. Write the two numbers and the sum. Show the children how to start with the bigger side and count on from it.",
+   "stuck": "Have the child touch each dot while counting. If the child counts one side, starts over at one for the other side, and writes that second number, count across both sides with them once without stopping."
+  },
+  "1:word-families-syllable-reading": {
+   "say": "\"The box at the top has two word families. The words in the first row all end in -an. The words in the second row all end in -at. Read them out loud. Then say each picture word and circle the word under the picture that names it.\"",
+   "first": "Read the words at the top aloud together, row by row (the printed directions call this box the carpet), and ask what is the same in all the words of a row. Do the first picture together: name it, read the three words under it, and circle the one that names the picture.",
+   "stuck": "Have the child name the picture and say its first sound, then look for the word that begins with that letter. If two words begin the same way, have the child read both to the end."
+  },
+  "1:phoneme-boxes": {
+   "say": "\"Say the word for each picture slowly, like a turtle. Write one sound in each box, starting on the left. If the word has fewer sounds than boxes, leave the last boxes empty.\"",
+   "first": "Name all the pictures together. On the page for everyone they are panda, koala, bison, zebra, tiger, and seal. Do the first word on the board: draw the boxes, say the word slowly, and tap a box for each sound. Write the letter or letters for each sound in its box. Count the sounds together.",
+   "stuck": "Have the child say the word slowly and push a finger forward for each sound. Two letters that make one sound, such as sh, go in one box together. A child who fills every box, whether the word needs them all or not, is spelling letter by letter and not listening for sounds; say the word together again and tap one box for each sound."
+  },
+  "1:subtract-cross-out": {
+   "say": "\"In each box, some pictures are crossed out. They are gone. Count the pictures that are left and write that number.\"",
+   "first": "Do the first box together. Ask, \"How many were there at the start? How many are crossed out? How many are left?\" Count the ones that are left aloud and write the number. Say it as a subtraction: \"Six take away two is four.\"",
+   "stuck": "Have the child circle each picture that is not crossed out while counting it. If the child counts every picture, cover the crossed-out ones with a finger."
+  },
+  "1:count-on-back-hops": {
+   "say": "\"Each number line has a dot where you start, and little arcs that show the hops. Count the hops forward from the dot, and write the number where the last hop lands.\"",
+   "first": "Draw the first number line on the board. Put your finger on the starting dot and say its number. Follow the arcs one at a time and count on aloud: \"fifteen… sixteen, seventeen, eighteen.\" Write the number where the last arc lands. Point out that the line is numbered by twos: each small mark between two numbers is the number in between.",
+   "stuck": "Have the child put a finger on the dot, say its number, and move one mark for each arc while counting on. If the child cannot tell which number the dot is on, count the marks from the last printed number together."
+  },
+  "1:picture-sudoku": {
+   "say": "\"This is a picture puzzle. Each row across, each column down, and each small box needs all four pictures, one of each. Find out which picture is missing in each empty space, and draw it or write its first letter.\"",
+   "first": "Do one empty space together. Pick a row that has only one empty space and name the three pictures that are already in it. Ask, \"Which one is missing?\" Draw it in. Tell the children to always look for the row, column, or box that is almost full.",
+   "stuck": "Point to a row or column with only one empty space and have the child name the pictures in it. If none is that full, have the child check the row and the column of one empty space together to see which pictures are already used."
+  },
+  "1:number-of-the-day": {
+   "say": "\"Look at the big number on the page. It is the number of the day. Every box on the page asks something about that number. Fill in all the boxes.\"",
+   "first": "Read the number of the day aloud together. Go around the page and read the label of each box aloud, so that the children know what each one asks for. Fill in the tens and ones box together: \"How many tens are in this number? How many ones?\" The children do the other boxes on their own.",
+   "stuck": "Read the label of the box to the child again. Have the child build the number with ten fingers and some more, or draw a row of ten dots and the extra ones. A child who cannot finish every box should do the ones they know."
+  },
+  "1:skip-counting": {
+   "say": "\"On this page we count by fives: 5, 10, 15, 20. Some numbers are missing. Count by fives and write each missing number. Be careful: the rows do not all start at 5.\"",
+   "first": "Count by fives to 100 aloud together, twice. Do the first row on the board: read the first number, count on by fives, and clap at each empty box. Ask, \"What number comes here?\" Write it in.",
+   "stuck": "Have the child whisper the count by fives from the first number of the row. Numbers you say when you count by fives end in 5 or in 0; if the child's number ends in something else, count the row together."
+  },
+  "1:cloze": {
+   "say": "\"Each sentence has a gap, and one of the pictures belongs in it. Read the sentence, find the picture that makes sense, and draw a line from the sentence to that picture.\"",
+   "first": "Name all the pictures together. Read the first sentence aloud together and say \"blank\" at the gap. Try a picture word in the gap: \"Does that make sense?\" Draw the line together. Then the children read the other sentences on their own.",
+   "stuck": "Read the sentence with the child, one word at a time, and say \"blank\" at the gap. Then say the sentence with each picture word in turn and ask which one makes sense."
+  },
+  "1:syllables-split": {
+   "say": "\"Words have parts called syllables. Say each picture word and clap its parts. Then draw one scoop under the word for every syllable you hear.\"",
+   "first": "Name all the pictures together. Clap the first word together and count the claps. Show on the board how to draw a scoop, a little curved line, under each part of the word.",
+   "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. The number of drops is the number of scoops."
+  },
+  "1:number-walls": {
+   "say": "\"This is a number wall. Each brick is the sum of the two bricks right under it. Start at the bottom and build every wall to the top.\"",
+   "first": "Draw the first wall on the board. Point to two bricks that sit side by side in the bottom row and to the brick that rests on both of them: \"Three plus two is five. Five goes on top.\" Fill in that wall together.",
+   "stuck": "Put two fingers on the two bricks under the empty brick and have the child add those two numbers with fingers or dots. If the child writes the sum next to the bricks and not above them, point to the brick that touches both."
+  },
+  "1:hundreds-chart": {
+   "say": "\"This chart has the numbers from 1 to 100 in order, but some numbers are hiding. Write each missing number in its box.\"",
+   "first": "Read the first row of the chart aloud together. Find the first empty box together and ask, \"What number comes just before it? So what number goes here?\" Show that the number in the box above is ten less.",
+   "stuck": "Have the child look at the number just before the empty box and count one more. For an empty box at the start of a row, look at the number above it: it has the same last digit, and it is ten less."
+  },
+  "1:logic-picture-clues": {
+   "say": "\"These are detective puzzles. The picture clues tell you what each child has and does not have. A crossed-out picture means the child does NOT have it. A circled picture means the child has it.\"",
+   "first": "Do the first puzzle together on the board. Read the first clue: the name with a crossed-out picture means that child does NOT have that thing. Find the child's row and the picture's column in the grid and put an X in that box. A circled picture means the child has it: put a check mark in that box and an X in the other boxes of that row and that column. Go through the clues one by one. At the end, circle what each child has in the row of answers under the grid.",
+   "stuck": "Have the child take one clue at a time and make its mark in the grid before reading the next clue. When a row has only one box without an X, that box gets the check mark: it is what the child in the puzzle has."
+  },
+  "1:days-months-seasons~season-wheel": {
+   "say": "\"There are twelve months in a year and four seasons: winter, spring, summer, and fall. Each season has its own color in the key. Color the circle next to each month in the color of its season.\"",
+   "first": "Make sure every child has the crayons the key names. Read the color key aloud together. Read the names of the twelve months aloud and have the children point to each one. Do the first month together: \"January. Which season is it in? Which color is that?\" Color its circle. For your own reference: December, January, and February are winter; March, April, and May are spring; June, July, and August are summer; September, October, and November are fall.",
+   "stuck": "Read the month to the child and ask what the weather is like then, or what holiday or birthday comes in that month. Then find that season in the key."
+  },
+  "1:opposites": {
+   "say": "\"Opposites are words that are as different as they can be, like hot and cold, or up and down. Find the two words that are opposites and write each pair on a line, one word on each side of the arrow.\"",
+   "first": "Read all the words on the page aloud together. Take the first word and ask, \"What is the opposite?\" Find that word on the page and write the pair on the first line, one word on each side of the arrow. Cross out both words.",
+   "stuck": "Read a word to the child and act it out or use it in a sentence: \"The soup is hot. The ice is…?\" Have the child cross out each word once it is used, so that fewer words are left to choose from."
+  },
+  "1:time-read": {
+   "say": "\"Every clock on this page shows a time that is half past the hour. Read each clock and circle the time that matches.\"",
+   "first": "Draw a clock on the board that shows half past two. Say: \"The long hand points to the 6. That means half past. The short hand tells the hour. It has gone past the 2 and is halfway to the 3, so the time is half past two, or 2:30.\" Do the first clock on the page together.",
+   "stuck": "Ask, \"Which number has the short hand just passed?\" That number is the hour. A child who names the next number is looking at where the short hand is going, not at where it has been."
+  },
+  "1:picture-analogies": {
+   "say": "\"Look at the first two pictures and see what changed from the first to the second. Then look at the third picture: it changes in the same way. Circle the picture that shows it.\"",
+   "first": "Do the first row together. Point to the first two pictures and ask, \"What happened? Did it get bigger or smaller?\" Say it in a sentence: \"The big one turned into a small one.\" Then point to the third picture: \"So this one turns into…?\" Circle the answer among the three choices.",
+   "stuck": "Have the child say what changed in the first pair in their own words, then say the same about the third picture. Check each choice: it has to be the same fruit as the third picture, and changed in the same way."
+  },
+  "1:days-months-seasons": {
+   "say": "\"There are twelve months in a year. On this page they are mixed up. January already has a 1. Number the other months from 2 to 12 in the order of the year.\"",
+   "first": "Say the months of the year aloud together, twice. Read the month names on the page aloud and have the children point to each one. Ask, \"Which month comes after January?\" Find February together and write a 2 next to it.",
+   "stuck": "Say the months in order with the child from January and stop at each one so the child can find its word and number it. If the classroom has a calendar, the child may use it."
+  },
+  "1:word-classes": {
+   "say": "\"A noun names a person, an animal, a place, or a thing, like dog or school. A verb is something you can do, like run or sing. Read each word and write it in the right bin: noun or verb.\"",
+   "first": "Read the ten words aloud together. Take the first word and try two test sentences: \"I can see a ___\" for a noun, and \"I can ___\" for a verb. Decide together and write the word in its bin. Cross it out in the list.",
+   "stuck": "Read the word to the child and have the child try both test sentences aloud: \"I can see a jump. I can jump.\" The one that sounds right tells the bin. A word that can be both, such as \"paint,\" is right in either bin if the child can use it in a sentence."
+  },
+  "1:pronouns": {
+   "say": "\"We do not say a name over and over. We use a short word in its place: he, she, or they. Read the first sentence. Then write the word from the word bank that takes the place of the name in the second sentence.\"",
+   "first": "Read the word bank aloud together: She, They, He. Read the first pair of sentences aloud. Ask, \"Who is the sentence about? One boy, one girl, or more than one person?\" Choose the word together and write it in the second sentence. Read both sentences again.",
+   "stuck": "Read both sentences with the child and put a finger under the name or names. Ask whether it is one person or more than one, and a boy or a girl. Then try each word from the word bank in the gap and read the sentence aloud."
+  },
+  "1:coins": {
+   "say": "\"Each purse has coins in it. The number on a coin tells you how many cents it is worth. Count how much money is in the purse and write the amount in the box.\"",
+   "first": "Draw the three coins on the board: a 10 is a dime, a 5 is a nickel, and a 1 is a penny. Do the first purse together: start with the coin that is worth the most and count on: \"10… 15… 16 cents.\" Write the amount in the box in front of the cent sign.",
+   "stuck": "Have the child touch each coin, biggest number first, and say the running total. A child who counts the coins and not the cents (three coins are \"3\") should read the number on each coin aloud first. If the classroom has play coins, let the child lay them out."
+  },
+  "1:bar-graphs": {
+   "say": "\"A bar graph shows how many with bars. A taller bar means more. Read each bar and write its number.\"",
+   "first": "Hold up the page and point to the first bar. Put your finger on the top of the bar and slide it across to the numbers on the side. Read the number together and write it in the box.",
+   "stuck": "Have the child put a finger on the top of the bar and move it straight across to the numbers. The child may also count the boxes in the bar from the bottom up."
+  },
+  "K:pre-writing-strokes": {
+   "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
+   "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
+   "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+  },
+  "K:letter-identification": {
+   "say": "\"Look at the letter in the box. Your job is to find every letter in the row that is the same, and circle it.\"",
+   "first": "Do the first row together. Point to the letter in the box and say its name. Move your finger along the row and stop at each letter: \"Is this one the same? Look closely.\" Circle the ones that match. Tell the children that some letters look almost alike, so they have to look closely.",
+   "stuck": "Cover the row with a sheet of paper and uncover one letter at a time. Have the child hold a finger under the letter in the box and compare. If the child circles a letter that only looks similar, put the two side by side and ask what is different."
+  },
+  "K:letter-case": {
+   "say": "\"Every letter has two shapes, a capital letter and a small letter. Draw a line from each capital letter to the small letter that goes with it.\"",
+   "first": "Do the first one together. Point to the first capital letter and ask for its name. Then point to the small letters one at a time and ask, \"Does this one go with it?\" Draw the line together. Tell the children to do the ones they are sure of first.",
+   "stuck": "Point to the alphabet on the classroom wall, where each capital letter stands next to its small letter, and have the child find the letter there. If the room has no alphabet, tell the child the answer for that pair and move on; this is review, not a test."
+  },
+  "K:letter-formation": {
+   "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+   "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+   "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter.",
+   "byType": {
+    "K-257": {
+     "say": "\"Now we practice writing five special letters: a, e, i, o, and u. They are called vowels. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\""
+    },
+    "K-278": {
+     "say": "\"Now we practice writing small letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\""
+    }
+   }
+  },
+  "K:compare-size-extremes": {
+   "say": "\"In each row, some things are big and some are small. Look at all of them. Then circle the BIGGEST one.\"",
+   "first": "Do the first row together. Point to each picture and ask, \"Is this the biggest? Is there a bigger one?\" Circle the biggest one together. Remind the children to look at every picture in the row before they circle.",
+   "stuck": "Have the child point to two pictures at a time and say which of the two is bigger, keeping a finger on the winner, until the row is done. The picture under the finger at the end gets the circle."
+  },
+  "K:patterns": {
+   "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
+   "first": "Do the first row together. Point to each picture and have the class say its name like a chant: \"bird, koala, bird, koala…\" Stop at the box with the question mark and ask, \"What comes next?\" Circle it in the little row of choices underneath.",
+   "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name.",
+   "byType": {
+    "K-047": {
+     "first": "Do the first row together. Point to each picture and have the class say its name like a chant. Most patterns on this page have three parts that repeat, such as \"papaya, apple, pear, papaya, apple, pear.\" Stop at the box with the question mark and ask, \"What comes next?\" Circle it in the little row of choices underneath."
+    }
+   }
+  },
+  "K:same-different-visual": {
+   "say": "\"In each row, the animals are the same, but one is a different animal. Find the one that is different and circle it.\"",
+   "first": "Do the first row together. Point to the pictures one by one: \"Same… same… same… different!\" Ask a child to say what is different about it. Circle it together.",
+   "stuck": "Have the child point to the first picture and name the animal, then point to each of the others and ask, \"Is this the same animal?\" The one that gets a \"no\" is the one to circle."
+  },
+  "K:feelings": {
+   "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+   "first": "Look at the first picture together and ask what it shows (a bed, a present, a thunderstorm, and so on). Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+   "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right.",
+   "byType": {
+    "K-332": {
+     "say": "\"Each circle on this page needs a face. I will read the feeling word, and you draw a face that shows that feeling.\"",
+     "first": "Read the first feeling word aloud. Make the face yourself and have the children make it too. Ask, \"What does the mouth do? What do the eyebrows do?\" Then they draw the face in the empty circle. Read each of the other words aloud before the children draw.",
+     "stuck": "Read the word again and have the child make the face. Ask about the mouth first: does it go up, go down, or open? The drawing does not have to be good; two eyes and a mouth are enough."
+    },
+    "K-335": {
+     "say": "\"This page is about you. Circle the face that shows how you feel right now. Then draw your own face.\"",
+     "first": "Point to each face and read the feeling word under it. Tell the children that every feeling is okay and that they do not have to show their page to other children. Each child circles one face and then draws their own face in the big circle. Children who can write may finish the sentence that starts with \"because\" on the lines; the others may leave the lines empty.",
+     "stuck": "A child who cannot choose may circle two faces. If a child circles a sad or an angry face, do not ask why in front of the class. Later, when the two of you are alone, you may ask quietly, \"Do you want to tell me about it?\" and accept a no. Write the child's name on the \"How the day went\" form so that the teacher knows. If a child tells you something that makes you worry about their safety, tell the office before you leave."
+    }
+   }
+  },
+  "K:all-about-me-personal": {
+   "say": "\"This page is all about you. Write your name and how old you are. Draw yourself and your family. Then draw your favorite animal, your favorite food, and your favorite color.\"",
+   "first": "Show the page and read the words in each box aloud as you point to it: \"My name is,\" \"I am ___ years old,\" \"This is me,\" \"My family,\" and the three favorites. Write a name and an age on the board as an example. Children who cannot write their name yet may copy it from their name tag or desk label.",
+   "stuck": "For the name, point to the child's name tag and have the child copy it one letter at a time. For the drawings, ask a question: \"Who lives in your house? What do you like to play with?\" Any drawing is fine.",
+   "byType": {
+    "K-342": {
+     "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
+     "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
+     "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
+    },
+    "K-323": {
+     "first": "Show the page and read the words in each box aloud as you point to it: \"My name is,\" \"I am ___ years old,\" \"This is me,\" \"My family,\" and the three favorites. Write the numbers 4, 5, and 6 on the board and ask, \"Who is 5?\" so that the children can copy their age. Do not write a name on the board as an example; some children would copy it. Children who cannot write their name yet may copy it from their name tag or desk label.",
+     "stuck": "For the name, point to the child's name tag and have the child copy it one letter at a time. For the drawings, ask a question: \"Who lives with you? What animal do you like best?\" The child decides who is in their family; any drawing is fine."
+    }
+   }
+  },
+  "K:alphabet-order": {
+   "say": "\"This is a dot-to-dot with letters. Start at the letter a and draw a line to b, then to c, and keep going in ABC order until the picture is finished.\"",
+   "first": "Say or sing the alphabet together once, slowly. Find the dot with the letter a together and put a finger on it. Ask, \"What comes after a?\" Find b and draw the first line together. Tell the children to say the alphabet quietly as they go.",
+   "stuck": "Point to the row of letters at the bottom of the page: it shows the order. Have the child find the letter they are on in that row; the next letter in the row is the dot to look for. The letters on this page stop at t."
+  },
+  "K:order-by-size": {
+   "say": "\"Each box has three pictures: a small one, a medium one, and a big one. Write 1 on the smallest, 2 on the medium one, and 3 on the biggest.\"",
+   "first": "Write 1, 2, 3 on the board. Do the first box together. Ask, \"Which one is the smallest?\" It gets the 1. \"Which one is the biggest?\" It gets the 3. \"Which one is left?\" It gets the 2.",
+   "stuck": "Have the child point to the smallest and the biggest first; the one that is left is the medium one. A child who cannot write the numbers yet may copy them from the board."
+  },
+  "K:position-words": {
+   "say": "\"Look at where each animal is: on the box, under the box, or beside the box. In every picture, circle the animal that is ON the box.\"",
+   "first": "Put a book on a chair, then under it, then beside it, and have the class say the word each time. Then do the first picture on the page together: \"Which animal is ON the box?\" Circle it. Ask about the others, too: \"Which one is under the box? Which one is beside it?\"",
+   "stuck": "Have the child show the word with a hand and the desk: \"Put your hand ON the desk. Now UNDER the desk.\" Then go back to the picture and ask the child to point to the top of the box."
+  },
+  "K:mazes": {
+   "say": "\"Time for a maze. Start at the picture at the top and find the way to the bottom. Use your finger first, then your pencil.\"",
+   "first": "Hold up the page and show the start and the goal. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+   "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+  },
+  "K:spot-the-difference": {
+   "say": "\"These two pictures look the same, but a few things have changed. Find what is different in the picture on the right and circle it.\"",
+   "first": "Find one difference together: ask a child to point to it and say what changed. Circle it in the picture on the right. Tell the children to keep looking until they cannot find any more.",
+   "stuck": "Have the child pick one thing in the left picture, find the same thing in the right picture, and ask, \"Is it the same?\" Then go on to the next thing, from the top of the picture to the bottom."
+  },
+  "K:numeral-formation": {
+   "say": "\"Now we practice writing numbers. Trace each number. Then write it yourself in the empty space.\"",
+   "first": "Write the first number of the page big on the board and say where it starts and which way it goes. Have the children write it in the air with you. They trace the number on the page and then write their own.",
+   "stuck": "Show the child where the number starts and guide the first stroke with your finger on the page. A number written backward is common at this age; show the right way once and move on."
+  },
+  "K:beginning-sounds": {
+   "say": "\"Say the name of each picture and listen for the very first sound. Then write the letter for that sound.\"",
+   "first": "Name all the pictures on the page together, so that everyone uses the same word for each. On the page for everyone they are bus, hat, sun, pig, apple, dog, ball, and fish. Do the first one: say the word slowly and ask, \"What is the first sound?\" and then, \"Which letter makes that sound?\" Write the letter on the board; the children write it on the page.",
+   "stuck": "Say the word and stretch the first sound: \"mmm-oon.\" Have the child say it back. If the child knows the sound and not the letter, point to the letter on the classroom alphabet or write it for the child to copy."
+  },
+  "K:rhyme": {
+   "say": "\"Rhyming words sound the same at the end, like cat and hat. Draw a line from each picture on the left to the picture on the right that rhymes with it.\"",
+   "first": "Name all the pictures together, so that everyone uses the same words. Say the first picture on the left, then say it with each picture on the right: \"boat, frog… boat, goat.\" Ask which pair sounds the same at the end. Draw that line together. For your own reference, the pairs on the page for everyone are boat and goat, bed and sled, dog and frog, cat and hat, bee and tree.",
+   "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the endings sound the same, they rhyme. If the child does not know what a picture is called, tell them."
+  },
+  "K:count-how-many": {
+   "say": "\"Count the shapes in each box. Touch each one as you count. Then write the number.\"",
+   "first": "Count the first box aloud together, touching each shape on your page as the class counts. Ask, \"So how many are there?\" Write the number on the board. Then write the numbers 1 to 10 on the board and leave them there for children who need to copy them.",
+   "stuck": "Have the child cross out each shape while counting it, so that none is counted twice. If the child does not know how to write the number, point to it on the board."
+  },
+  "K:count-forward-missing": {
+   "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+   "first": "Write the numbers 1 to 10 on the board. Count the first strip aloud together, pointing to each box, and clap at the empty box: \"one, two, (clap), four.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+   "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board.",
+   "byType": {
+    "K-020": {
+     "first": "Write the numbers 1 to 20 on the board; the strips on this page go up to 20, and they do not all start at 1. Read the first strip aloud together, pointing to each box, and clap at each empty box: \"five, (clap), seven, eight.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way."
+    }
+   }
+  },
+  "K:colour-by-number": {
+   "say": "\"Each shape on this page has a number in it. The code at the top tells you which color goes with each number. Color every shape in the color of its number.\"",
+   "first": "Make sure every child has the crayons the code names. Read the code aloud together. Take the first number of the code, find one shape with that number in it, and color it together. Tell the children to do one color at a time.",
+   "stuck": "Have the child put a finger on the number inside the shape, then find the same number in the code. If a child does not have a color, another color is fine as long as they use the same one for that number every time."
+  },
+  "K:dot-to-dot-sequence": {
+   "say": "\"This is a dot-to-dot. Start at the orange dot, at number 1. Draw a line to 2, then to 3, and keep counting until you get to 10.\"",
+   "first": "Count from 1 to 10 aloud together. Find the orange dot together and put a finger on it. Ask, \"What comes after 1?\" Find 2 and draw the first line together.",
+   "stuck": "Have the child say the number they are on and count one more; that is the number to look for. Point to the part of the page where the next dot is. If a line went to the wrong dot, leave it and go on from the right one."
+  },
+  "K:sound-position": {
+   "say": "\"Say the name of each picture and listen for the LAST sound, the sound at the very end. Then write the letter for that sound.\"",
+   "first": "Name all the pictures together. On the page for everyone they are fox, sun, bus, book, bed, drum, pig, and cat. Do one together: say the word slowly and hold the last sound: \"bus-sss.\" Ask, \"What is the last sound? Which letter makes that sound?\" Write the letter on the board. Remind the children that this page asks for the end of the word, not the beginning.",
+   "stuck": "Say the word, stop before the last sound, and let the child finish it: \"bu…\" \"sss!\" A child who writes the first letter has listened to the beginning; say the word once more and tap the table at the last sound."
+  },
+  "K:count-syllables": {
+   "say": "\"Words have beats, like music. The beats are called syllables. Say the name of each picture, clap the beats, and write how many claps you made.\"",
+   "first": "Clap a few children's names together: \"Ma-ri-a, three claps.\" Name all the pictures on the page together. On the page for everyone they are airplane (2), ambulance (3), banana (3), dog (1), sun (1), cat (1), apron (2), and acorn (2). Clap the first picture's word together and write the number on the board.",
+   "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. If the child claps every sound, say the word together the way you would say it when talking."
+  },
+  "K:word-sentence-tracing": {
+   "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
+   "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
+   "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+  },
+  "K:compare-groups": {
+   "say": "\"In each box there are two groups. Count both groups. Then circle the group that has MORE.\"",
+   "first": "Do the first box together: count one group aloud, then the other. Ask, \"Which number is more?\" Circle that group. Tell the children that a group can look big and still have fewer things in it, so they have to count.",
+   "stuck": "Have the child draw a line from each thing in one group to one thing in the other group. The group with things left over has more."
+  },
+  "K:before-after-back": {
+   "say": "\"Each number has a neighbor before it and a neighbor after it. Write the number that comes just before and the number that comes just after.\"",
+   "first": "Write the numbers 1 to 20 in a row on the board and leave them there. Do the first one together: find the number on the board, point to the number before it and the number after it, and write them on the page.",
+   "stuck": "Walk to the board with the child and have the child put a finger on the number: one step to the left is the number before, one step to the right is the number after."
+  },
+  "K:shape-naming": {
+   "say": "\"Look at the code at the top. It tells you which color each shape gets. Color every shape in the picture in the color the code shows.\"",
+   "first": "Make sure every child has the crayons the code shows. Go through the code together: point to each shape, have the class name it, and say its color. Find one shape in the picture and color it together. Tell the children to do one kind of shape at a time.",
+   "stuck": "Have the child put a finger on the shape and look for the same shape in the code. A shape that is bigger, smaller, or turned is still the same shape."
+  },
+  "K:days-of-week": {
+   "say": "\"There are seven days in a week. On this page the days are mixed up. The first day already has a 1. Number the other days from 2 to 7, in the order they come.\"",
+   "first": "Say the days of the week together, starting with the day that is marked 1 on the page. Read all the day names on the page aloud and have the children point to each. Find the day that comes second together and write a 2 next to it.",
+   "stuck": "Say the days in order with the child, beginning with the day marked 1, and stop after each one so the child can find its word. Read the words for a child who cannot read them yet; the first letters help."
+  },
+  "K:word-picture-match": {
+   "say": "\"Read each word. Then draw a line from the word to its picture.\"",
+   "first": "Name all the pictures together. Do the first word on the board: point to each letter, say its sound, and blend the sounds into the word. Ask, \"Which picture is that?\" Draw the line together.",
+   "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
+  },
+  "K:cvc-build": {
+   "say": "\"Next to each picture are the letters of its word, but they are mixed up. Say the word, listen to its sounds, and write the letters in the right order.\"",
+   "first": "Name all the pictures together. Do the first word on the board: say the word slowly and ask, \"What is the first sound? The next sound? The last sound?\" Write a letter for each sound and read the word together.",
+   "stuck": "Have the child say the word slowly and hold up one finger for each sound. Ask which of the letters makes the first sound, and cross each letter out when it is used. Then have the child read the word they wrote.",
+   "byType": {
+    "K-224": {
+     "say": "\"Each word on this page has a gap in the middle: one letter is missing. Say the picture's name, listen for the sound in the middle, and write its letter.\"",
+     "first": "Name all the pictures together. On the page for everyone they are fig, dog, pig, leg, fox, hat, cat, and bus. Do the first word on the board: say the word slowly, point to each letter as you say its sound, and stop at the empty space. Ask, \"Which sound belongs here? Which letter makes it?\" Write it in and read the word together.",
+     "stuck": "Say the word slowly and stretch the sound in the middle: \"p-iii-g.\" The missing letter is always one of the vowels: a, e, i, o, or u. Write the five vowels on the board for the child to choose from."
+    },
+    "K-231": {
+     "first": "Name all the pictures together. On the page for everyone they are frog, fox, bus, sun, star, and ball. Do the first word on the board: say the word slowly and ask, \"What is the first sound? The next sound? The last sound?\" Write a letter for each sound and read the word together."
+    }
+   }
+  },
+  "K:combine-groups": {
+   "say": "\"In each box there are two groups. Count all the things in both groups together, and write how many there are in all.\"",
+   "first": "Do the first box together: count the first group aloud and keep counting through the second group without starting over. Ask, \"How many in all?\" Write the number on the board.",
+   "stuck": "Have the child touch each picture while counting and keep going from the first group into the second. If the child starts again at one for the second group, count with them once."
+  },
+  "K:number-bonds-k": {
+   "say": "\"A number bond shows a number and the two parts that make it. The whole is on top, and the two parts are below. One number is missing. Find it and write it in the dashed circle.\"",
+   "first": "Draw the first number bond on the board. Point to the top circle and say, \"This is the whole.\" Point to the two circles below: \"These are the two parts.\" Show it with fingers: \"The whole is 5. One part is 2. How many are in the other part?\" Write the answer in the dashed circle.",
+   "stuck": "Give the child counters, or have them draw dots: as many as the whole. Cover as many as the part that is shown and count what is left. If the whole is the number that is missing, count both parts together.",
+   "byType": {
+    "K-276": {
+     "say": "\"A number bond shows a number and the two parts that make it. On this page the two parts are there, and the whole is missing. Put the two parts together and write the whole in the dashed circle.\"",
+     "first": "Draw the first number bond on the board. Point to the two parts and ask, \"How many is that together?\" Count both parts with fingers and write the whole in the dashed circle.",
+     "stuck": "Have the child draw dots for each part under the number bond and count all the dots. That number is the whole."
+    }
+   }
+  },
+  "K:classify-count-kinds": {
+   "say": "\"This is an I Spy picture. Many different things are mixed together. Count each kind and write its number.\"",
+   "first": "Look at the first kind together: point to its little picture next to the answer box. Find every one of that kind in the big picture and cross each one out as the class counts aloud. Write the number in the box.",
+   "stuck": "Have the child do one kind at a time and put a small mark on each one as it is counted. If the count is off, count the marks together."
+  },
+  "K:seasons": {
+   "say": "\"A tree looks different in winter, spring, summer, and fall. Each box has a bare tree. Draw what belongs on the tree in that season.\"",
+   "first": "Make sure every child has crayons. Read the name of each season aloud and point to its box. Talk about each one for a moment: \"What does a tree look like in winter? What grows on it in spring? What does it have in summer? What happens to the leaves in fall?\" Then the children draw on the bare trees, one box at a time, and color them.",
+   "stuck": "Ask the child one question about the season: \"Is it warm or cold? Are there leaves on the tree?\" Any drawing that fits the season is right; where you live, winter may not mean snow."
+  },
+  "K:story-sequencing": {
+   "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
+   "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
+   "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
+  },
+  "K:family": {
+   "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+   "first": "Look at the family tree together. The girl with the star is Anna, and the words say who each person is to her. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+   "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about Anna's family.\""
+  },
+  "K:tally-marks": {
+   "say": "\"Tally marks are a quick way to count. Make one mark for each picture. The fifth mark goes across the other four, like a gate.\"",
+   "first": "Draw tally marks on the board while the class counts to five: four marks standing up, and the fifth one across them. Do the first box together: count the pictures and draw one mark for each.",
+   "stuck": "Have the child cross out one picture and draw one mark, then the next picture and the next mark. Count the marks together at the end. If the child draws five standing marks before the one across, show the group of five on the board again."
+  },
+  "K:fact-fluency-colour-code": {
+   "say": "\"Every shape on this page has a little math problem in it. Find the answer, look for that number in the code, and color the shape in that color.\"",
+   "first": "Make sure every child has the crayons the code names. Do one shape together: read the problem, find the answer with fingers, and write the answer small next to the problem. Find that number in the code and color the shape. Tell the children to check the sign first: plus or minus.",
+   "stuck": "Let the child use fingers or draw dots to find the answer. Have the child write the answer in the shape before looking at the code. If the answer is not in the code, the child should work the problem again."
+  },
+  "K:category-odd-one-out": {
+   "say": "\"In each row, the shapes are all the same but one. Find the one that does not belong and circle it.\"",
+   "first": "Do the first row together. Point to the shapes one by one and name them: \"star, star, star…\" Ask, \"Which one is not a star?\" Circle it and have a child say why it does not belong.",
+   "stuck": "Have the child point to the first shape and then to each of the others, asking, \"Is this the same shape?\" If the child chooses another one and can give a good reason, accept it."
   }
  }
 }

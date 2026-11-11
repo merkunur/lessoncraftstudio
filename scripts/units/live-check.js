@@ -29,6 +29,7 @@ const unitsFile = readJson(path.join(C, 'units', 'units.' + loc + '.json'), { un
 const units = unitsFile.units;
 const plans = unitsFile.plans || [];
 const uiU = readJson(path.join(C, 'units', 'ui.' + loc + '.json'), {});
+const uiS = readJson(path.join(C, 'sub-plans', 'ui.' + loc + '.json'), {});
 const packs = readJson(path.join(C, 'sub-plans', 'packs.' + loc + '.json'), { packs: [] }).packs;
 
 function req(p, method = 'GET', body = null) {
@@ -96,6 +97,25 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     } else check(/noindex/.test(hubRobots) && !listed.includes(hp + '<'), 'hub: a hub of pilots must be noindex and in no sitemap');
     const hubText = ((/<main[\s\S]*<\/main>/.exec(hub.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
     check(hubText.length > 500 && !/\bfree\b/i.test(hubText), 'hub: its content is missing or says free');
+  }
+  // the sub plans hub (Part 5): it lists every live pack; with no live pack it is noindex and in no sitemap
+  if (packs.length) {
+    const hp = '/' + loc + '/sub-plans';
+    const hub = await req(hp);
+    const livePacks = packs.filter((p) => p.status === 'live');
+    check(hub.status === 200, 'sub plans hub: page answers ' + hub.status);
+    check(((/<title>([^<]*)<\/title>/.exec(hub.body) || [])[1] || '').replace(/&amp;/g, '&') === uiS.hubMetaTitle, 'sub plans hub: its title is not the hub title');
+    check((hub.body.match(/<h1[\s>]/g) || []).length === 1, 'sub plans hub: ' + (hub.body.match(/<h1[\s>]/g) || []).length + ' h1');
+    check(hub.body.includes('<link rel="canonical" href="https://www.lessoncraftstudio.com' + hp + '"'), 'sub plans hub: canonical is not the page itself');
+    const robots = (/<meta name="robots" content="([^"]*)"/.exec(hub.body) || [])[1] || '';
+    if (livePacks.length) {
+      check(!/noindex/.test(robots), 'sub plans hub: live packs and a noindex hub');
+      check(listed.includes('https://www.lessoncraftstudio.com' + hp + '<'), 'sub plans hub: it is in no sitemap');
+      for (const p of livePacks) check(hub.body.includes('href="/' + loc + '/sub-plans/' + p.slug + '"'), 'sub plans hub: no link to the pack ' + p.id);
+      for (const p of packs.filter((x) => x.status !== 'live')) check(!hub.body.includes('/sub-plans/' + p.slug + '"'), 'sub plans hub: it links to the pilot ' + p.id);
+    } else check(/noindex/.test(robots) && !listed.includes(hp + '<'), 'sub plans hub: a hub of pilots must be noindex and in no sitemap');
+    const text = ((/<main[\s\S]*<\/main>/.exec(hub.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
+    check(text.length > 500 && !/\bfree\b/i.test(text), 'sub plans hub: its content is missing or says free');
   }
   // the "in a lesson plan" block: on one worksheet landing and one activity page of a live unit, and on no page of a pilot
   let land = null, act = null;

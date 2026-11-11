@@ -357,6 +357,9 @@ node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a
 # HARD (Part 4.5): the German teacher notes address the teacher with "du", as the German site does; a formal
 # "Sie" or "Ihre" left by a draft fails. Committed files only.
 node /opt/lessoncraftstudio/scripts/units/notes/de-address.js --check > /tmp/lcs-de-address.txt 2>&1 || { tail -8 /tmp/lcs-de-address.txt; echo "ERROR: a German teacher note addresses the teacher formally — node scripts/units/notes/de-address.js"; exit 1; }
+# HARD (Part 5): the guest teacher scripts the site holds are the merge of their text files (a correction made in
+# scripts/sub-plans/texts/ and not merged would be reviewed and never shown). Committed files only.
+node /opt/lessoncraftstudio/scripts/sub-plans/apply-texts.js --check > /tmp/lcs-sub-texts.txt 2>&1 || { tail -8 /tmp/lcs-sub-texts.txt; echo "ERROR: the guest teacher scripts are not the merge of their text files — node scripts/sub-plans/apply-texts.js"; exit 1; }
 # PC ONLY, before a deploy (it reads the deck catalog dump out/teaching-graph/decks.tsv, which the server does not have):
 #   node scripts/units/assemble.js --loc=<loc> --check   the committed units file is what the assembler writes today
 

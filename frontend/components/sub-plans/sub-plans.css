@@ -26,3 +26,9 @@
   .sp .sp-day-min { grid-column: 2; grid-row: 1; padding-top: 10px; }
   .sp-day td:not(.sp-day-min) { grid-column: 1 / -1; padding-left: 52px; padding-top: 0; }
 }
+
+/* the other days of the same grade, under the samples: each link is a tap target of its own */
+.sp-more { margin-top: 44px; }
+.sp-more ul { list-style: none; margin: 0; padding: 0; display: grid; column-gap: 28px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.sp-more li a, .sp-more p a { display: inline-block; padding: 12px 0; font-weight: 600; }
+.sp-more p { margin-top: 8px; }

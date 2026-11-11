@@ -3,30 +3,1071 @@
  "locale": "en",
  "packs": [
   {
-   "id": "g1-day-of-review-midyear-1",
-   "slug": "first-grade-sub-plans-day-of-review",
-   "status": "pilot",
+   "id": "k-early-1",
+   "slug": "kindergarten-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
+   "position": "early",
+   "title": "Kindergarten Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 75,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-244",
+     "title": "Straight Lines and Zigzags",
+     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
+     "core": "pre-writing-animals-k244",
+     "hard": "pre-writing-hard-bakery-k244",
+     "easy": "pre-writing-easy-miscellaneous-k244",
+     "script": {
+      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
+      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 10,
+     "point": "K:letter-identification",
+     "type": "K-229",
+     "title": "Find the Letter",
+     "instruction": "Circle every letter that matches the one in the box.",
+     "core": "letter-knowledge-k229",
+     "script": {
+      "say": "\"Look at the letter in the box. Your job is to find every letter in the row that is the same, and circle it.\"",
+      "first": "Do the first row together. Point to the letter in the box and say its name. Move your finger along the row and stop at each letter: \"Is this one the same? Look closely.\" Circle the ones that match. Tell the children that some letters look almost alike, so they have to look closely.",
+      "stuck": "Cover the row with a sheet of paper and uncover one letter at a time. Have the child hold a finger under the letter in the box and compare. If the child circles a letter that only looks similar, put the two side by side and ask what is different."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Capital Letters",
+     "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k238",
+     "hard": "letter-tracing-hard-k238-54-a",
+     "easy": "letter-tracing-easy-k238-28-a",
+     "script": {
+      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-032",
+     "title": "Big and Small",
+     "instruction": "Circle the BIGGEST one in each row.",
+     "core": "comparing-sizes-shapes-k032",
+     "script": {
+      "say": "\"In each row, some things are big and some are small. Look at all of them. Then circle the BIGGEST one.\"",
+      "first": "Do the first row together. Point to each picture and ask, \"Is this the biggest? Is there a bigger one?\" Circle the biggest one together. Remind the children to look at every picture in the row before they circle.",
+      "stuck": "Have the child point to two pictures at a time and say which of the two is bigger, keeping a finger on the winner, until the row is done. The picture under the finger at the end gets the circle."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-046",
+     "title": "What Comes Next?",
+     "instruction": "Look at the pattern. Circle what comes next.",
+     "core": "patterns-animals-k046",
+     "script": {
+      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
+      "first": "Do the first row together. Point to each picture and have the class say its name like a chant: \"bird, koala, bird, koala…\" Stop at the box with the question mark and ask, \"What comes next?\" Circle it in the little row of choices underneath.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-039",
+     "title": "Same and Different",
+     "instruction": "Look at each row. Circle the picture that is different.",
+     "core": "visual-discrimination-animals-k039",
+     "script": {
+      "say": "\"In each row, the animals are the same, but one is a different animal. Find the one that is different and circle it.\"",
+      "first": "Do the first row together. Point to the pictures one by one: \"Same… same… same… different!\" Ask a child to say what is different about it. Circle it together.",
+      "stuck": "Have the child point to the first picture and name the animal, then point to each of the others and ask, \"Is this the same animal?\" The one that gets a \"no\" is the one to circle."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331",
+     "hard": "feelings-hard-k331-13",
+     "easy": "feelings-easy-k331-7",
+     "script": {
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows (a bed, a present, a thunderstorm, and so on). Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-early-2",
+   "slug": "kindergarten-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "early",
+   "title": "Kindergarten Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 95,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 20,
+     "point": "K:all-about-me-personal",
+     "type": "K-323",
+     "title": "All About Me",
+     "instruction": "Write your name and your age, draw yourself and your family, then draw your three favorite things.",
+     "core": "all-about-me-k323",
+     "script": {
+      "say": "\"This page is all about you. Write your name and how old you are. Draw yourself and your family. Then draw your favorite animal, your favorite food, and your favorite color.\"",
+      "first": "Show the page and read the words in each box aloud as you point to it: \"My name is,\" \"I am ___ years old,\" \"This is me,\" \"My family,\" and the three favorites. Write the numbers 4, 5, and 6 on the board and ask, \"Who is 5?\" so that the children can copy their age. Do not write a name on the board as an example; some children would copy it. Children who cannot write their name yet may copy it from their name tag or desk label.",
+      "stuck": "For the name, point to the child's name tag and have the child copy it one letter at a time. For the drawings, ask a question: \"Who lives with you? What animal do you like best?\" The child decides who is in their family; any drawing is fine."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-245",
+     "title": "Wavy Lines and Curves",
+     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
+     "core": "pre-writing-fruits-k245",
+     "hard": "pre-writing-hard-vegetables-k245",
+     "easy": "pre-writing-easy-dinosaurs-k245",
+     "script": {
+      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
+      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 10,
+     "point": "K:letter-identification",
+     "type": "K-229",
+     "title": "Find the Letter",
+     "instruction": "Circle every letter that matches the one in the box.",
+     "core": "letter-knowledge-k229-2",
+     "script": {
+      "say": "\"Look at the letter in the box. Your job is to find every letter in the row that is the same, and circle it.\"",
+      "first": "Do the first row together. Point to the letter in the box and say its name. Move your finger along the row and stop at each letter: \"Is this one the same? Look closely.\" Circle the ones that match. Tell the children that some letters look almost alike, so they have to look closely.",
+      "stuck": "Cover the row with a sheet of paper and uncover one letter at a time. Have the child hold a finger under the letter in the box and compare. If the child circles a letter that only looks similar, put the two side by side and ask what is different."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-033",
+     "title": "Small, Medium, Big",
+     "instruction": "Number the pictures from 1 (smallest) to 3 (biggest).",
+     "core": "comparing-sizes-animals-k033",
+     "script": {
+      "say": "\"Each box has three pictures: a small one, a medium one, and a big one. Write 1 on the smallest, 2 on the medium one, and 3 on the biggest.\"",
+      "first": "Write 1, 2, 3 on the board. Do the first box together. Ask, \"Which one is the smallest?\" It gets the 1. \"Which one is the biggest?\" It gets the 3. \"Which one is left?\" It gets the 2.",
+      "stuck": "Have the child point to the smallest and the biggest first; the one that is left is the medium one. A child who cannot write the numbers yet may copy them from the board."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-257",
+     "title": "Trace the Vowels",
+     "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k257",
+     "hard": "letter-tracing-hard-k257-3",
+     "easy": "letter-tracing-easy-k257-2",
+     "script": {
+      "say": "\"Now we practice writing five special letters: a, e, i, o, and u. They are called vowels. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-064",
+     "title": "On, Under, Beside",
+     "instruction": "Circle the picture that is ON the box.",
+     "core": "position-words-animals-k064",
+     "script": {
+      "say": "\"Look at where each animal is: on the box, under the box, or beside the box. In every picture, circle the animal that is ON the box.\"",
+      "first": "Put a book on a chair, then under it, then beside it, and have the class say the word each time. Then do the first picture on the page together: \"Which animal is ON the box?\" Circle it. Ask about the others, too: \"Which one is under the box? Which one is beside it?\"",
+      "stuck": "Have the child show the word with a hand and the desk: \"Put your hand ON the desk. Now UNDER the desk.\" Then go back to the picture and ask the child to point to the top of the box."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-270",
+     "title": "Easy Maze",
+     "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom.",
+     "core": "mazes-fruits-k270",
+     "script": {
+      "say": "\"Time for a maze. Start at the picture at the top and find the way to the bottom. Use your finger first, then your pencil.\"",
+      "first": "Hold up the page and show the start and the goal. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-061",
+     "title": "Spot the Differences",
+     "instruction": "Compare the two pictures. Circle what changed on the right.",
+     "core": "visual-discrimination-fruits-k061",
+     "script": {
+      "say": "\"These two pictures look the same, but a few things have changed. Find what is different in the picture on the right and circle it.\"",
+      "first": "Find one difference together: ask a child to point to it and say what changed. Circle it in the picture on the right. Tell the children to keep looking until they cannot find any more.",
+      "stuck": "Have the child pick one thing in the left picture, find the same thing in the right picture, and ask, \"Is it the same?\" Then go on to the next thing, from the top of the picture to the bottom."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-middle-1",
+   "slug": "kindergarten-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
+   "position": "middle",
+   "title": "Kindergarten Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 95,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-251",
+     "title": "Trace and Write the Numbers",
+     "instruction": "Trace each number. Then write it yourself in the empty space.",
+     "core": "number-tracing-k251",
+     "hard": "number-tracing-hard-k251-3",
+     "easy": "number-tracing-easy-k251-2",
+     "script": {
+      "say": "\"Now we practice writing numbers. Trace each number. Then write it yourself in the empty space.\"",
+      "first": "Write the first number of the page big on the board and say where it starts and which way it goes. Have the children write it in the air with you. They trace the number on the page and then write their own.",
+      "stuck": "Show the child where the number starts and guide the first stroke with your finger on the page. A number written backward is common at this age; show the right way once and move on."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:beginning-sounds",
+     "type": "K-221",
+     "title": "Beginning Sounds",
+     "instruction": "Write the letter that each picture begins with.",
+     "core": "beginning-sounds-k221",
+     "script": {
+      "say": "\"Say the name of each picture and listen for the very first sound. Then write the letter for that sound.\"",
+      "first": "Name all the pictures on the page together, so that everyone uses the same word for each. On the page for everyone they are bus, hat, sun, pig, apple, dog, ball, and fish. Do the first one: say the word slowly and ask, \"What is the first sound?\" and then, \"Which letter makes that sound?\" Write the letter on the board; the children write it on the page.",
+      "stuck": "Say the word and stretch the first sound: \"mmm-oon.\" Have the child say it back. If the child knows the sound and not the letter, point to the letter on the classroom alphabet or write it for the child to copy."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-232",
+     "title": "Rhyming Pairs",
+     "instruction": "Draw a line between the two pictures that rhyme.",
+     "core": "phonological-awareness-k232",
+     "script": {
+      "say": "\"Rhyming words sound the same at the end, like cat and hat. Draw a line from each picture on the left to the picture on the right that rhymes with it.\"",
+      "first": "Name all the pictures together, so that everyone uses the same words. Say the first picture on the left, then say it with each picture on the right: \"boat, frog… boat, goat.\" Ask which pair sounds the same at the end. Draw that line together. For your own reference, the pairs on the page for everyone are boat and goat, bed and sled, dog and frog, cat and hat, bee and tree.",
+      "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the endings sound the same, they rhyme. If the child does not know what a picture is called, tell them."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-278",
+     "title": "Trace the Lowercase Letters",
+     "instruction": "Trace each small letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "core": "lowercase-letter-tracing-k278",
+     "script": {
+      "say": "\"Now we practice writing small letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-006",
+     "title": "Count and Write",
+     "instruction": "Count the pictures in each box. Write the number.",
+     "core": "counting-pictures-shapes-k006",
+     "script": {
+      "say": "\"Count the shapes in each box. Touch each one as you count. Then write the number.\"",
+      "first": "Count the first box aloud together, touching each shape on your page as the class counts. Ask, \"So how many are there?\" Write the number on the board. Then write the numbers 1 to 10 on the board and leave them there for children who need to copy them.",
+      "stuck": "Have the child cross out each shape while counting it, so that none is counted twice. If the child does not know how to write the number, point to it on the board."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-019",
+     "title": "Missing Numbers to 10",
+     "instruction": "Count along the strip. Write each missing number.",
+     "core": "number-charts-fruits-k019",
+     "hard": "number-charts-hard-dinosaurs-k019",
+     "easy": "number-charts-easy-tools-k019",
+     "script": {
+      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+      "first": "Write the numbers 1 to 10 on the board. Count the first strip aloud together, pointing to each box, and clap at the empty box: \"one, two, (clap), four.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-047",
+     "title": "ABC Patterns",
+     "instruction": "Look at the pattern. Circle what comes next.",
+     "core": "patterns-fruits-k047",
+     "script": {
+      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
+      "first": "Do the first row together. Point to each picture and have the class say its name like a chant. Most patterns on this page have three parts that repeat, such as \"papaya, apple, pear, papaya, apple, pear.\" Stop at the box with the question mark and ask, \"What comes next?\" Circle it in the little row of choices underneath.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "K:colour-by-number",
+     "type": "K-266",
+     "title": "Color by Number",
+     "instruction": "Look at the code. Color every shape to match its number.",
+     "core": "color-by-number-k266",
+     "script": {
+      "say": "\"Each shape on this page has a number in it. The code at the top tells you which color goes with each number. Color every shape in the color of its number.\"",
+      "first": "Make sure every child has the crayons the code names. Read the code aloud together. Take the first number of the code, find one shape with that number in it, and color it together. Tell the children to do one color at a time.",
+      "stuck": "Have the child put a finger on the number inside the shape, then find the same number in the code. If a child does not have a color, another color is fine as long as they use the same one for that number every time."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-middle-2",
+   "slug": "kindergarten-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "middle",
+   "title": "Kindergarten Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 95,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-294",
+     "title": "Dot-to-Dot 1 to 10",
+     "instruction": "Start at the orange dot. Join the dots from 1 to 10 to finish the picture.",
+     "core": "dot-to-dot-k294",
+     "hard": "dot-to-dot-hard-k294-11",
+     "easy": "dot-to-dot-easy-k294-6",
+     "script": {
+      "say": "\"This is a dot-to-dot. Start at the orange dot, at number 1. Draw a line to 2, then to 3, and keep counting until you get to 10.\"",
+      "first": "Count from 1 to 10 aloud together. Find the orange dot together and put a finger on it. Ask, \"What comes after 1?\" Find 2 and draw the first line together.",
+      "stuck": "Have the child say the number they are on and count one more; that is the number to look for. Point to the part of the page where the next dot is. If a line went to the wrong dot, leave it and go on from the right one."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:sound-position",
+     "type": "K-226",
+     "title": "Ending Sounds",
+     "instruction": "Write the letter that each picture ends with.",
+     "core": "phonological-awareness-k226",
+     "script": {
+      "say": "\"Say the name of each picture and listen for the LAST sound, the sound at the very end. Then write the letter for that sound.\"",
+      "first": "Name all the pictures together. On the page for everyone they are fox, sun, bus, book, bed, drum, pig, and cat. Do one together: say the word slowly and hold the last sound: \"bus-sss.\" Ask, \"What is the last sound? Which letter makes that sound?\" Write the letter on the board. Remind the children that this page asks for the end of the word, not the beginning.",
+      "stuck": "Say the word, stop before the last sound, and let the child finish it: \"bu…\" \"sss!\" A child who writes the first letter has listened to the beginning; say the word once more and tap the table at the last sound."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:count-syllables",
+     "type": "K-233",
+     "title": "Count the Syllables",
+     "instruction": "Write how many syllables you hear in each word.",
+     "core": "phonological-awareness-k233",
+     "script": {
+      "say": "\"Words have beats, like music. The beats are called syllables. Say the name of each picture, clap the beats, and write how many claps you made.\"",
+      "first": "Clap a few children's names together: \"Ma-ri-a, three claps.\" Name all the pictures on the page together. On the page for everyone they are airplane (2), ambulance (3), banana (3), dog (1), sun (1), cat (1), apron (2), and acorn (2). Clap the first picture's word together and write the number on the board.",
+      "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. If the child claps every sound, say the word together the way you would say it when talking."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239",
+     "title": "Sight Words: Read, Trace, Write",
+     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
+     "core": "sight-words-k239",
+     "hard": "sight-words-hard-k239-61",
+     "easy": "sight-words-easy-k239-27",
+     "script": {
+      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
+      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-008",
+     "title": "More or Less?",
+     "instruction": "Look at both groups. Circle the group that has MORE.",
+     "core": "comparing-groups-animals-k008",
+     "script": {
+      "say": "\"In each box there are two groups. Count both groups. Then circle the group that has MORE.\"",
+      "first": "Do the first box together: count one group aloud, then the other. Ask, \"Which number is more?\" Circle that group. Tell the children that a group can look big and still have fewer things in it, so they have to count.",
+      "stuck": "Have the child draw a line from each thing in one group to one thing in the other group. The group with things left over has more."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:before-after-back",
+     "type": "K-021",
+     "title": "Before and After",
+     "instruction": "Write the number that comes before and the one that comes after.",
+     "core": "number-charts-k021",
+     "hard": "number-charts-hard-k021-10",
+     "easy": "number-charts-easy-k021-7",
+     "script": {
+      "say": "\"Each number has a neighbor before it and a neighbor after it. Write the number that comes just before and the number that comes just after.\"",
+      "first": "Write the numbers 1 to 20 in a row on the board and leave them there. Do the first one together: find the number on the board, point to the number before it and the number after it, and write them on the page.",
+      "stuck": "Walk to the board with the child and have the child put a finger on the number: one step to the left is the number before, one step to the right is the number after."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:shape-naming",
+     "type": "K-265",
+     "title": "Color by Shape Code",
+     "instruction": "Look at the code. Then color every shape to match it.",
+     "core": "color-by-number-k265",
+     "script": {
+      "say": "\"Look at the code at the top. It tells you which color each shape gets. Color every shape in the picture in the color the code shows.\"",
+      "first": "Make sure every child has the crayons the code shows. Go through the code together: point to each shape, have the class name it, and say its color. Find one shape in the picture and color it together. Tell the children to do one kind of shape at a time.",
+      "stuck": "Have the child put a finger on the shape and look for the same shape in the code. A shape that is bigger, smaller, or turned is still the same shape."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-242",
+     "title": "Follow the Maze",
+     "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom.",
+     "core": "mazes-animals-k242",
+     "script": {
+      "say": "\"Time for a maze. Start at the picture at the top and find the way to the bottom. Use your finger first, then your pencil.\"",
+      "first": "Hold up the page and show the start and the goal. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-late-1",
+   "slug": "kindergarten-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "K",
+   "position": "late",
+   "title": "Kindergarten Sub Plans: End of the Year, Day 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 105,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:days-of-week",
+     "type": "K-321",
+     "title": "Days of the Week in Order",
+     "instruction": "The first day of the week is already marked 1. Number the other days 2 to 7 in the order they come.",
+     "core": "days-and-months-k321",
+     "hard": "days-and-months-hard-k321-8",
+     "easy": "days-and-months-easy-k321-3",
+     "script": {
+      "say": "\"There are seven days in a week. On this page the days are mixed up. The first day already has a 1. Number the other days from 2 to 7, in the order they come.\"",
+      "first": "Say the days of the week together, starting with the day that is marked 1 on the page. Read all the day names on the page aloud and have the children point to each. Find the day that comes second together and write a 2 next to it.",
+      "stuck": "Say the days in order with the child, beginning with the day marked 1, and stop after each one so the child can find its word. Read the words for a child who cannot read them yet; the first letters help."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225",
+     "title": "Match Word to Picture",
+     "instruction": "Draw a line from each word to the picture it names.",
+     "core": "picture-vocabulary-k225",
+     "script": {
+      "say": "\"Read each word. Then draw a line from the word to its picture.\"",
+      "first": "Name all the pictures together. Do the first word on the board: point to each letter, say its sound, and blend the sounds into the word. Ask, \"Which picture is that?\" Draw the line together.",
+      "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:cvc-build",
+     "type": "K-231",
+     "title": "Build the Word",
+     "instruction": "Use the letters to build the word for each picture.",
+     "core": "word-building-k231",
+     "script": {
+      "say": "\"Next to each picture are the letters of its word, but they are mixed up. Say the word, listen to its sounds, and write the letters in the right order.\"",
+      "first": "Name all the pictures together. On the page for everyone they are frog, fox, bus, sun, star, and ball. Do the first word on the board: say the word slowly and ask, \"What is the first sound? The next sound? The last sound?\" Write a letter for each sound and read the word together.",
+      "stuck": "Have the child say the word slowly and hold up one finger for each sound. Ask which of the letters makes the first sound, and cross each letter out when it is used. Then have the child read the word they wrote."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342",
+     "title": "My Favorite Things: Circle and Write",
+     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
+     "core": "all-about-me-k342",
+     "script": {
+      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
+      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
+      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:combine-groups",
+     "type": "K-028",
+     "title": "How Many Altogether?",
+     "instruction": "Count both groups together. Write how many in all.",
+     "core": "counting-pictures-animals-k028",
+     "script": {
+      "say": "\"In each box there are two groups. Count all the things in both groups together, and write how many there are in all.\"",
+      "first": "Do the first box together: count the first group aloud and keep counting through the second group without starting over. Ask, \"How many in all?\" Write the number on the board.",
+      "stuck": "Have the child touch each picture while counting and keep going from the first group into the second. If the child starts again at one for the second group, count with them once."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-274",
+     "title": "Number Bonds Within 10",
+     "instruction": "Look at each number bond. Write the missing number in the dashed circle.",
+     "core": "number-bonds-k274",
+     "hard": "number-bonds-hard-k274-12",
+     "easy": "number-bonds-easy-k274-7",
+     "script": {
+      "say": "\"A number bond shows a number and the two parts that make it. The whole is on top, and the two parts are below. One number is missing. Find it and write it in the dashed circle.\"",
+      "first": "Draw the first number bond on the board. Point to the top circle and say, \"This is the whole.\" Point to the two circles below: \"These are the two parts.\" Show it with fingers: \"The whole is 5. One part is 2. How many are in the other part?\" Write the answer in the dashed circle.",
+      "stuck": "Give the child counters, or have them draw dots: as many as the whole. Cover as many as the part that is shown and count what is left. If the whole is the number that is missing, count both parts together."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:classify-count-kinds",
+     "type": "K-060",
+     "title": "I Spy…",
+     "instruction": "Look closely! Count each kind and write the number.",
+     "core": "counting-pictures-animals-k060",
+     "script": {
+      "say": "\"This is an I Spy picture. Many different things are mixed together. Count each kind and write its number.\"",
+      "first": "Look at the first kind together: point to its little picture next to the answer box. Find every one of that kind in the big picture and cross each one out as the class counts aloud. Write the number in the box.",
+      "stuck": "Have the child do one kind at a time and put a small mark on each one as it is counted. If the count is off, count the marks together."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "K:seasons",
+     "type": "K-341",
+     "title": "Draw the Tree in Four Seasons",
+     "instruction": "Draw what the tree looks like in each of the four seasons.",
+     "core": "seasons-k341",
+     "script": {
+      "say": "\"A tree looks different in winter, spring, summer, and fall. Each box has a bare tree. Draw what belongs on the tree in that season.\"",
+      "first": "Make sure every child has crayons. Read the name of each season aloud and point to its box. Talk about each one for a moment: \"What does a tree look like in winter? What grows on it in spring? What does it have in summer? What happens to the leaves in fall?\" Then the children draw on the bare trees, one box at a time, and color them.",
+      "stuck": "Ask the child one question about the season: \"Is it warm or cold? Are there leaves on the tree?\" Any drawing that fits the season is right; where you live, winter may not mean snow."
+     }
+    }
+   ]
+  },
+  {
+   "id": "k-late-2",
+   "slug": "kindergarten-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "K",
+   "position": "late",
+   "title": "Kindergarten Sub Plans: End of the Year, Day 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "minutes": 100,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-020",
+     "title": "Missing Numbers to 20",
+     "instruction": "Count along the strip. Write each missing number.",
+     "core": "number-charts-toys-k020",
+     "hard": "number-charts-hard-bakery-k020",
+     "easy": "number-charts-easy-miscellaneous-k020",
+     "script": {
+      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+      "first": "Write the numbers 1 to 20 on the board; the strips on this page go up to 20, and they do not all start at 1. Read the first strip aloud together, pointing to each box, and clap at each empty box: \"five, (clap), seven, eight.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:story-sequencing",
+     "type": "K-379",
+     "title": "Story Sequencing: Number the Pictures",
+     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
+     "core": "story-sequencing-k379",
+     "hard": "story-sequencing-hard-k379-12",
+     "easy": "story-sequencing-easy-k379-7",
+     "script": {
+      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
+      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
+      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "K:cvc-build",
+     "type": "K-224",
+     "title": "Missing Sound",
+     "instruction": "Write the missing letter to finish each word.",
+     "core": "word-building-k224",
+     "script": {
+      "say": "\"Each word on this page has a gap in the middle: one letter is missing. Say the picture's name, listen for the sound in the middle, and write its letter.\"",
+      "first": "Name all the pictures together. On the page for everyone they are fig, dog, pig, leg, fox, hat, cat, and bus. Do the first word on the board: say the word slowly, point to each letter as you say its sound, and stop at the empty space. Ask, \"Which sound belongs here? Which letter makes it?\" Write it in and read the word together.",
+      "stuck": "Say the word slowly and stretch the sound in the middle: \"p-iii-g.\" The missing letter is always one of the vowels: a, e, i, o, or u. Write the five vowels on the board for the child to choose from."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375",
+     "title": "Family Words: Trace and Write",
+     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
+     "core": "family-k375",
+     "hard": "family-hard-k375-12",
+     "easy": "family-easy-k375-7",
+     "script": {
+      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+      "first": "Look at the family tree together. The girl with the star is Anna, and the words say who each person is to her. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about Anna's family.\""
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:tally-marks",
+     "type": "K-014",
+     "title": "Make Your Tally",
+     "instruction": "Count the pictures. Draw tally marks in the box.",
+     "core": "tally-counting-fruits-k014",
+     "script": {
+      "say": "\"Tally marks are a quick way to count. Make one mark for each picture. The fifth mark goes across the other four, like a gate.\"",
+      "first": "Draw tally marks on the board while the class counts to five: four marks standing up, and the fifth one across them. Do the first box together: count the pictures and draw one mark for each.",
+      "stuck": "Have the child cross out one picture and draw one mark, then the next picture and the next mark. Count the marks together at the end. If the child draws five standing marks before the one across, show the group of five on the board again."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "K:fact-fluency-colour-code",
+     "type": "K-268",
+     "title": "Add and Subtract Coloring",
+     "instruction": "Look at the code. Then color every shape to match it.",
+     "core": "color-by-number-k268",
+     "script": {
+      "say": "\"Every shape on this page has a little math problem in it. Find the answer, look for that number in the code, and color the shape in that color.\"",
+      "first": "Make sure every child has the crayons the code names. Do one shape together: read the problem, find the answer with fingers, and write the answer small next to the problem. Find that number in the code and color the shape. Tell the children to check the sign first: plus or minus.",
+      "stuck": "Let the child use fingers or draw dots to find the answer. Have the child write the answer in the shape before looking at the code. If the answer is not in the code, the child should work the problem again."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:category-odd-one-out",
+     "type": "K-043",
+     "title": "Which One Is Different?",
+     "instruction": "Look at each row. Circle the picture that does not belong.",
+     "core": "visual-discrimination-shapes-k043",
+     "script": {
+      "say": "\"In each row, the shapes are all the same but one. Find the one that does not belong and circle it.\"",
+      "first": "Do the first row together. Point to the shapes one by one and name them: \"star, star, star…\" Ask, \"Which one is not a star?\" Circle it and have a child say why it does not belong.",
+      "stuck": "Have the child point to the first shape and then to each of the others, asking, \"Is this the same shape?\" If the child chooses another one and can give a good reason, accept it."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-332",
+     "title": "Draw the Feeling Face",
+     "instruction": "Read the feeling word and draw a face that shows it in the empty circle.",
+     "core": "feelings-k332",
+     "easy": "feelings-easy-k332-2",
+     "script": {
+      "say": "\"Each circle on this page needs a face. I will read the feeling word, and you draw a face that shows that feeling.\"",
+      "first": "Read the first feeling word aloud. Make the face yourself and have the children make it too. Ask, \"What does the mouth do? What do the eyebrows do?\" Then they draw the face in the empty circle. Read each of the other words aloud before the children draw.",
+      "stuck": "Read the word again and have the child make the face. Ask about the mouth first: does it go up, go down, or open? The drawing does not have to be good; two eyes and a mouth are enough."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-early-1",
+   "slug": "first-grade-sub-plans-start-of-the-year-day-1",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "title": "First Grade Sub Plans: Start of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: Start of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "minutes": 135,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:count-forward-missing",
+     "type": "K-020",
+     "title": "Missing Numbers to 20",
+     "instruction": "Count along the strip. Write each missing number.",
+     "core": "number-charts-toys-k020",
+     "hard": "number-charts-hard-bakery-k020",
+     "easy": "number-charts-easy-miscellaneous-k020",
+     "script": {
+      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+      "first": "Write the numbers 1 to 20 on the board; the strips on this page go up to 20, and they do not all start at 1. Read the first strip aloud together, pointing to each box, and clap at each empty box: \"five, (clap), seven, eight.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225",
+     "title": "Match Word to Picture",
+     "instruction": "Draw a line from each word to the picture it names.",
+     "core": "picture-vocabulary-k225",
+     "script": {
+      "say": "\"Read each word. Then draw a line from the word to its picture.\"",
+      "first": "Name all the pictures together. Do the first word on the board: point to each letter, say its sound, and blend the sounds into the word. Ask, \"Which picture is that?\" Draw the line together.",
+      "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-343",
+     "title": "Sort the Rhymes",
+     "instruction": "Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture.",
+     "core": "rhyming-words-g1343",
+     "hard": "rhyming-words-hard-g1343-13-at",
+     "easy": "rhyming-words-easy-g1343-10-at",
+     "script": {
+      "say": "\"Rhyming words sound the same at the end, like cat and hat. At the top of the page are small pictures. Say each one, find the big picture it rhymes with, and write its word on a line under that big picture.\"",
+      "first": "Name the big pictures and the small pictures together, so that everyone uses the same words. On the page for everyone the big pictures are clock, dog, and cat, and the small ones are bat, frog, sock, hat, rock, and log. Take the first small picture and say its word with each big picture in turn. Ask which pair sounds the same at the end. Write the word on the board under that big picture; the children write it on a line.",
+      "stuck": "Say the two words one after the other and stretch the ending: \"c-AT, h-AT.\" If the child does not know a picture's name, tell them. For spelling, have the child say the word slowly and write a letter for each sound; a careful try is enough."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-258",
+     "title": "Write the Word: The First Letter Is Given",
+     "instruction": "Say the name of each picture. Find the word in the word bank and finish it after the first letter.",
+     "core": "write-the-word-animals-g1258",
+     "hard": "write-the-word-hard-bakery-g1258",
+     "easy": "write-the-word-easy-miscellaneous-g1258",
+     "script": {
+      "say": "\"Say the name of each picture. Find its word in the word bank. The first letter is already there; you write the rest of the word.\"",
+      "first": "Name all the pictures together, so that everyone uses the same word for each. Read the word bank aloud. Do the first picture together: say the word, find it in the word bank, and copy the rest of it after the first letter. Cross the word out in the word bank.",
+      "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-110",
+     "title": "Domino Math",
+     "instruction": "Count both sides of the domino. Write the sum.",
+     "core": "arrays-multiplication-g1110",
+     "hard": "arrays-multiplication-hard-g1110-12",
+     "easy": "arrays-multiplication-easy-g1110-7",
+     "script": {
+      "say": "\"Each domino has dots on two sides. Count the dots on both sides and write how many there are altogether. That number is called the sum.\"",
+      "first": "Draw the first domino on the board. Count the dots on the left side, then keep counting on the right side. Write the two numbers and the sum. Show the children how to start with the bigger side and count on from it.",
+      "stuck": "Have the child touch each dot while counting. If the child counts one side, starts over at one for the other side, and writes that second number, count across both sides with them once without stopping."
+     }
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-213",
+     "title": "Picture Word Problems",
+     "instruction": "Read each story. Use the pictures to help you. Write the answer in the box.",
+     "core": "word-problems-animals-g1213",
+     "hard": "word-problems-hard-toys-g1213",
+     "easy": "word-problems-easy-christmas-g1213",
+     "script": {
+      "say": "\"Each problem on this page is a short story with numbers. I will read each story aloud. Listen, look at the picture, and write the answer in the box.\"",
+      "first": "Read the first story aloud twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then read each of the other stories aloud twice, and give the children time to answer before you read the next one.",
+      "stuck": "Read the story to the child again and ask them to tell it back in their own words. Let them touch and count the pictures, or draw dots."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Ant Reach Its Raspberry",
+     "instruction": "Help the ant go down and up through the tunnels to the raspberry. Draw a line along the way.",
+     "core": "maze-puzzles-g1421",
+     "hard": "maze-puzzles-hard-g1421-8",
+     "easy": "maze-puzzles-easy-g1421-2",
+     "script": {
+      "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
+      "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-335",
+     "title": "How Do I Feel Today?",
+     "instruction": "Circle the face that shows how you feel today, then draw your own face.",
+     "core": "feelings-k335",
+     "script": {
+      "say": "\"This page is about you. Circle the face that shows how you feel right now. Then draw your own face.\"",
+      "first": "Point to each face and read the feeling word under it. Tell the children that every feeling is okay and that they do not have to show their page to other children. Each child circles one face and then draws their own face in the big circle. Children who can write may finish the sentence that starts with \"because\" on the lines; the others may leave the lines empty.",
+      "stuck": "A child who cannot choose may circle two faces. If a child circles a sad or an angry face, do not ask why in front of the class. Later, when the two of you are alone, you may ask quietly, \"Do you want to tell me about it?\" and accept a no. Write the child's name on the \"How the day went\" form so that the teacher knows. If a child tells you something that makes you worry about their safety, tell the office before you leave."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-early-2",
+   "slug": "first-grade-sub-plans-start-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "early",
+   "title": "First Grade Sub Plans: Start of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: Start of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the start of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "minutes": 140,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-276",
+     "title": "Find the Whole: Number Bonds",
+     "instruction": "Look at each number bond. Write the missing number in the dashed circle.",
+     "core": "number-bonds-k276",
+     "hard": "number-bonds-hard-k276-12",
+     "easy": "number-bonds-easy-k276-7",
+     "script": {
+      "say": "\"A number bond shows a number and the two parts that make it. On this page the two parts are there, and the whole is missing. Put the two parts together and write the whole in the dashed circle.\"",
+      "first": "Draw the first number bond on the board. Point to the two parts and ask, \"How many is that together?\" Count both parts with fingers and write the whole in the dashed circle.",
+      "stuck": "Have the child draw dots for each part under the number bond and count all the dots. That number is the whole."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-330",
+     "title": "Word Families: Read and Circle",
+     "instruction": "Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it.",
+     "core": "syllable-reading-g1330",
+     "hard": "syllable-reading-hard-g1330-10-ock",
+     "easy": "syllable-reading-easy-g1330-5",
+     "script": {
+      "say": "\"The box at the top has two word families. The words in the first row all end in -an. The words in the second row all end in -at. Read them out loud. Then say each picture word and circle the word under the picture that names it.\"",
+      "first": "Read the words at the top aloud together, row by row (the printed directions call this box the carpet), and ask what is the same in all the words of a row. Do the first picture together: name it, read the three words under it, and circle the one that names the picture.",
+      "stuck": "Have the child name the picture and say its first sound, then look for the word that begins with that letter. If two words begin the same way, have the child read both to the end."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312",
+     "title": "Sound Strip: How Many Sounds?",
+     "instruction": "Say the word slowly. Write one sound in each box, starting from the left. Leave the boxes you do not need empty.",
+     "core": "sound-boxes-zoo-animals-g1312",
+     "hard": "sound-boxes-hard-forest-creatures-g1312",
+     "easy": "sound-boxes-easy-around-the-house-g1312",
+     "script": {
+      "say": "\"Say the word for each picture slowly, like a turtle. Write one sound in each box, starting on the left. If the word has fewer sounds than boxes, leave the last boxes empty.\"",
+      "first": "Name all the pictures together. On the page for everyone they are panda, koala, bison, zebra, tiger, and seal. Do the first word on the board: draw the boxes, say the word slowly, and tap a box for each sound. Write the letter or letters for each sound in its box. Count the sounds together.",
+      "stuck": "Have the child say the word slowly and push a finger forward for each sound. Two letters that make one sound, such as sh, go in one box together. A child who fills every box, whether the word needs them all or not, is spelling letter by letter and not listening for sounds; say the word together again and tap one box for each sound."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239",
+     "title": "Sight Words: Read, Trace, Write",
+     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
+     "core": "sight-words-k239",
+     "hard": "sight-words-hard-k239-61",
+     "easy": "sight-words-easy-k239-27",
+     "script": {
+      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
+      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:subtract-cross-out",
+     "type": "G1-103",
+     "title": "Cross Out and Subtract",
+     "instruction": "Some pictures are crossed out. Write how many are left.",
+     "core": "picture-arithmetic-animals-g1103",
+     "script": {
+      "say": "\"In each box, some pictures are crossed out. They are gone. Count the pictures that are left and write that number.\"",
+      "first": "Do the first box together. Ask, \"How many were there at the start? How many are crossed out? How many are left?\" Count the ones that are left aloud and write the number. Say it as a subtraction: \"Six take away two is four.\"",
+      "stuck": "Have the child circle each picture that is not crossed out while counting it. If the child counts every picture, cover the crossed-out ones with a finger."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-116",
+     "title": "Count On!",
+     "instruction": "Start at the dot. Hop forward and write where you land.",
+     "core": "number-lines-g1116",
+     "hard": "number-lines-hard-g1116-12",
+     "easy": "number-lines-easy-g1116-7",
+     "script": {
+      "say": "\"Each number line has a dot where you start, and little arcs that show the hops. Count the hops forward from the dot, and write the number where the last hop lands.\"",
+      "first": "Draw the first number line on the board. Put your finger on the starting dot and say its number. Follow the arcs one at a time and count on aloud: \"fifteen… sixteen, seventeen, eighteen.\" Write the number where the last arc lands. Point out that the line is numbered by twos: each small mark between two numbers is the number in between.",
+      "stuck": "Have the child put a finger on the dot, say its number, and move one mark for each arc while counting on. If the child cannot tell which number the dot is on, count the marks from the last printed number together."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-271",
+     "title": "Hard Maze",
+     "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom.",
+     "core": "mazes-vehicles-k271",
+     "script": {
+      "say": "\"Time for a maze. Start at the picture at the top and find the way to the bottom. Use your finger first, then your pencil.\"",
+      "first": "Hold up the page and show the start and the goal. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-413",
+     "title": "How Many Differences?",
+     "instruction": "Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box.",
+     "core": "find-the-differences-g1413",
+     "hard": "find-the-differences-hard-g1413-19",
+     "easy": "find-the-differences-easy-g1413-2",
+     "script": {
+      "say": "\"Here is a spot-the-difference puzzle. The bottom picture is not the same as the top one. Some things have changed, and some things may be gone. Circle every difference in the bottom picture, then write how many you found.\"",
+      "first": "Find one difference together: ask a child to point to it and say what changed. Circle it in the bottom picture. Do not tell the class how many differences there are; counting them is part of the puzzle.",
+      "stuck": "Have the child cover part of both pictures with a hand and compare one small part at a time, from top to bottom. Remind the child to look for things that are missing, too."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-middle-1",
+   "slug": "first-grade-sub-plans-middle-of-the-year-day-1",
+   "status": "live",
    "grade": "1",
    "position": "middle",
-   "title": "First Grade Sub Plans: A Day of Review",
-   "metaTitle": "First Grade Sub Plans: A Day of Review, Ready to Print",
-   "metaDescription": "Emergency sub plans for first grade: eight review blocks in reading, word work, writing, and math, with a guest teacher script, early-finisher pages, and class forms.",
+   "title": "First Grade Sub Plans: Middle of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: Middle of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
    "minutes": 145,
    "blocks": [
     {
      "key": "morning",
      "minutes": 15,
-     "point": "1:alphabetical-order",
-     "type": "G1-245",
-     "title": "ABC Order",
-     "instruction": "Use the alphabet strip. Number the picture words 1 to 6 in alphabetical order, then write them in order on the lines.",
-     "core": "alphabetical-order-animals-g1245",
-     "hard": "alphabetical-order-hard-desserts-and-sweets-g1245",
-     "easy": "alphabetical-order-easy-tools-g1245",
+     "point": "1:number-of-the-day",
+     "type": "G1-255",
+     "title": "Number of the Day: Teen Numbers",
+     "instruction": "Look at the big number. Fill in every box on the page for that number.",
+     "core": "number-of-the-day-g1255",
+     "hard": "number-of-the-day-hard-g1255-12",
+     "easy": "number-of-the-day-easy-g1255-7",
      "script": {
-      "say": "\"We are going to put words in ABC order, the order of the alphabet.\"",
-      "first": "Point to the alphabet strip at the top of the page. Read the six picture words aloud with the class. Ask: \"Which of these words starts with the letter that comes first in the alphabet?\" Write a 1 next to it together. Tell the children to number the other words 2 to 6 and then write all six words in order on the lines.",
-      "stuck": "Have the child put a finger on the alphabet strip and slide along it, stopping at the first letter that starts one of the words. That word is next. Cross out each word once it has a number."
+      "say": "\"Look at the big number on the page. It is the number of the day. Every box on the page asks something about that number. Fill in all the boxes.\"",
+      "first": "Read the number of the day aloud together. Go around the page and read the label of each box aloud, so that the children know what each one asks for. Fill in the tens and ones box together: \"How many tens are in this number? How many ones?\" The children do the other boxes on their own.",
+      "stuck": "Read the label of the box to the child again. Have the child build the number with ten fingers and some more, or draw a row of ten dots and the extra ones. A child who cannot finish every box should do the ones they know."
      }
     },
     {
@@ -139,6 +1180,423 @@
       "say": "\"Here is a spot-the-difference puzzle. There are two pairs of pictures. The pictures in each pair look the same, but they are not. Find 4 differences in the left pair and 3 in the right pair, and circle each one.\"",
       "first": "Find one difference in the left pair together: ask a child to point to it and say what changed. Show how to circle it and check off one box, so that everyone can see how many are still left to find.",
       "stuck": "Have the child cover part of both pictures of a pair with a hand and compare one small part at a time, from top to bottom."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-middle-2",
+   "slug": "first-grade-sub-plans-middle-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "middle",
+   "title": "First Grade Sub Plans: Middle of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: Middle of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the middle of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "minutes": 135,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-124",
+     "title": "Count by Fives",
+     "instruction": "Skip count by 5. Write each missing number.",
+     "core": "number-charts-toys-g1124",
+     "hard": "number-charts-hard-easter-g1124",
+     "easy": "number-charts-easy-vegetables-g1124",
+     "script": {
+      "say": "\"On this page we count by fives: 5, 10, 15, 20. Some numbers are missing. Count by fives and write each missing number. Be careful: the rows do not all start at 5.\"",
+      "first": "Count by fives to 100 aloud together, twice. Do the first row on the board: read the first number, count on by fives, and clap at each empty box. Ask, \"What number comes here?\" Write it in.",
+      "stuck": "Have the child whisper the count by fives from the first number of the row. Numbers you say when you count by fives end in 5 or in 0; if the child's number ends in something else, count the row together."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-368",
+     "title": "Match the Sentence to the Picture",
+     "instruction": "Read each sentence. Which picture fills the gap? Draw a line from the sentence to that picture.",
+     "core": "cloze-g1368",
+     "hard": "cloze-hard-g1368-10",
+     "easy": "cloze-easy-g1368-6",
+     "script": {
+      "say": "\"Each sentence has a gap, and one of the pictures belongs in it. Read the sentence, find the picture that makes sense, and draw a line from the sentence to that picture.\"",
+      "first": "Name all the pictures together. Read the first sentence aloud together and say \"blank\" at the gap. Try a picture word in the gap: \"Does that make sense?\" Draw the line together. Then the children read the other sentences on their own.",
+      "stuck": "Read the sentence with the child, one word at a time, and say \"blank\" at the gap. Then say the sentence with each picture word in turn and ask which one makes sense."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:syllables-split",
+     "type": "G1-305",
+     "title": "Syllable Division",
+     "instruction": "Say each picture word and clap its parts. Draw one scoop under every syllable you hear.",
+     "core": "syllable-split-animals-g1305",
+     "hard": "syllable-split-hard-at-the-supermarket-g1305",
+     "easy": "syllable-split-easy-winter-g1305",
+     "script": {
+      "say": "\"Words have parts called syllables. Say each picture word and clap its parts. Then draw one scoop under the word for every syllable you hear.\"",
+      "first": "Name all the pictures together. Clap the first word together and count the claps. Show on the board how to draw a scoop, a little curved line, under each part of the word.",
+      "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. The number of drops is the number of scoops."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-259",
+     "title": "Write the Word: Word Bank, No First Letter",
+     "instruction": "Every word is in the bank. Write the right one by each picture.",
+     "core": "write-the-word-vehicles-g1259",
+     "hard": "write-the-word-hard-weather-g1259",
+     "easy": "write-the-word-easy-desserts-and-sweets-g1259",
+     "script": {
+      "say": "\"Say the name of each picture. Every word you need is in the word bank at the top. Find the right word and write it next to its picture.\"",
+      "first": "Name all the pictures together, so that everyone uses the same word for each. Read the word bank aloud. Do the first picture together: say the word, listen for its first sound, find the word in the word bank, and copy it onto the lines. Cross the word out in the word bank.",
+      "stuck": "Have the child say the picture word and its first sound, then look in the word bank for a word that starts with that letter. Read the words in the word bank for a child who cannot read them, and have the child copy the word one letter at a time."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:number-walls",
+     "type": "G1-266",
+     "title": "Number Walls to 10",
+     "instruction": "Each brick is the sum of the two bricks under it. Build every wall to the top.",
+     "core": "number-walls-g1266",
+     "hard": "number-walls-hard-g1266-12",
+     "easy": "number-walls-easy-g1266-7",
+     "script": {
+      "say": "\"This is a number wall. Each brick is the sum of the two bricks right under it. Start at the bottom and build every wall to the top.\"",
+      "first": "Draw the first wall on the board. Point to two bricks that sit side by side in the bottom row and to the brick that rests on both of them: \"Three plus two is five. Five goes on top.\" Fill in that wall together.",
+      "stuck": "Put two fingers on the two bricks under the empty brick and have the child add those two numbers with fingers or dots. If the child writes the sum next to the bricks and not above them, point to the brick that touches both."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:hundreds-chart",
+     "type": "G1-129",
+     "title": "The Hundreds Chart",
+     "instruction": "Some numbers are hiding. Write each missing number in its box.",
+     "core": "number-charts-animals-g1129",
+     "hard": "number-charts-hard-ocean-life-g1129",
+     "easy": "number-charts-easy-bakery-g1129",
+     "script": {
+      "say": "\"This chart has the numbers from 1 to 100 in order, but some numbers are hiding. Write each missing number in its box.\"",
+      "first": "Read the first row of the chart aloud together. Find the first empty box together and ask, \"What number comes just before it? So what number goes here?\" Show that the number in the box above is ten less.",
+      "stuck": "Have the child look at the number just before the empty box and count one more. For an empty box at the start of a row, look at the number above it: it has the same last digit, and it is ten less."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:picture-sudoku",
+     "type": "G1-158",
+     "title": "Picture Sudoku",
+     "instruction": "Every row, column, and box needs all four pictures — draw or write what goes in each empty cell.",
+     "core": "visual-logic-toys-g1158",
+     "script": {
+      "say": "\"This is a picture puzzle. Each row across, each column down, and each small box needs all four pictures, one of each. Find out which picture is missing in each empty space, and draw it or write its first letter.\"",
+      "first": "Do one empty space together. Pick a row that has only one empty space and name the three pictures that are already in it. Ask, \"Which one is missing?\" Draw it in. Tell the children to always look for the row, column, or box that is almost full.",
+      "stuck": "Point to a row or column with only one empty space and have the child name the pictures in it. If none is that full, have the child check the row and the column of one empty space together to see which pictures are already used."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:days-months-seasons~season-wheel",
+     "type": "G1-323",
+     "title": "Months and Seasons: Color the Season",
+     "instruction": "Color the circle next to each month in the color of its season.",
+     "core": "seasons-g1323",
+     "script": {
+      "say": "\"There are twelve months in a year and four seasons: winter, spring, summer, and fall. Each season has its own color in the key. Color the circle next to each month in the color of its season.\"",
+      "first": "Make sure every child has the crayons the key names. Read the color key aloud together. Read the names of the twelve months aloud and have the children point to each one. Do the first month together: \"January. Which season is it in? Which color is that?\" Color its circle. For your own reference: December, January, and February are winter; March, April, and May are spring; June, July, and August are summer; September, October, and November are fall.",
+      "stuck": "Read the month to the child and ask what the weather is like then, or what holiday or birthday comes in that month. Then find that season in the key."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-late-1",
+   "slug": "first-grade-sub-plans-end-of-the-year-day-1",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "title": "First Grade Sub Plans: End of the Year, Day 1",
+   "metaTitle": "First Grade Emergency Sub Plans: End of the Year, Day 1",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "minutes": 150,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:alphabetical-order",
+     "type": "G1-245",
+     "title": "ABC Order",
+     "instruction": "Use the alphabet strip. Number the picture words 1 to 6 in alphabetical order, then write them in order on the lines.",
+     "core": "alphabetical-order-animals-g1245",
+     "hard": "alphabetical-order-hard-desserts-and-sweets-g1245",
+     "easy": "alphabetical-order-easy-tools-g1245",
+     "script": {
+      "say": "\"We are going to put words in ABC order, the order of the alphabet.\"",
+      "first": "Point to the alphabet strip at the top of the page. Read the six picture words aloud with the class. Ask: \"Which of these words starts with the letter that comes first in the alphabet?\" Write a 1 next to it together. Tell the children to number the other words 2 to 6 and then write all six words in order on the lines.",
+      "stuck": "Have the child put a finger on the alphabet strip and slide along it, stopping at the first letter that starts one of the words. That word is next. Cross out each word once it has a number."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-308",
+     "title": "Read and Do: Follow the Instructions",
+     "instruction": "Look at the row of pictures and start at the flag. Read each sentence and do exactly what it says with your pencil. Then check the little box.",
+     "core": "read-and-do-animals-g1308",
+     "hard": "read-and-do-hard-forest-creatures-g1308",
+     "easy": "read-and-do-easy-toys-g1308",
+     "script": {
+      "say": "\"Now it is time to read. Each sentence tells you to do something to the row of pictures with your pencil. Read the sentence, do exactly what it says, and check the little box when you are done.\"",
+      "first": "Point to the flag and tell the children that the row of pictures starts there. Read the first sentence aloud together, pointing to each word. Ask, \"Which picture? What do we do to it?\" Do it together and check the box.",
+      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what to do before picking up the pencil."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:opposites",
+     "type": "G1-336",
+     "title": "Pair Up the Opposites",
+     "instruction": "Find the two words that are opposites. Write each pair on a line, one word on each side of the arrow.",
+     "core": "opposites-g1336",
+     "hard": "opposites-hard-g1336-12",
+     "easy": "opposites-easy-g1336-7",
+     "script": {
+      "say": "\"Opposites are words that are as different as they can be, like hot and cold, or up and down. Find the two words that are opposites and write each pair on a line, one word on each side of the arrow.\"",
+      "first": "Read all the words on the page aloud together. Take the first word and ask, \"What is the opposite?\" Find that word on the page and write the pair on the first line, one word on each side of the arrow. Cross out both words.",
+      "stuck": "Read a word to the child and act it out or use it in a sentence: \"The soup is hot. The ice is…?\" Have the child cross out each word once it is used, so that fewer words are left to choose from."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "1:unscramble-sentence",
+     "type": "G1-302",
+     "title": "Unscramble the Sentence: Find the Beginning",
+     "instruction": "Find the first word: one tile shows the end mark.",
+     "core": "sentence-building-fruits-g1302",
+     "hard": "sentence-building-hard-ocean-life-g1302",
+     "easy": "sentence-building-easy-around-the-house-g1302",
+     "script": {
+      "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. One word has the end mark after it, so it goes last. You have to find the word that goes first.\"",
+      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Find the word with the end mark and say, \"This one is last.\" Ask, \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence with a capital letter at the start.",
+      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used. Remind the child that the word I is always written as a capital letter."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:time-read",
+     "type": "G1-149",
+     "title": "Half Past What?",
+     "instruction": "Read each clock. Circle the matching time.",
+     "core": "telling-time-g1149",
+     "hard": "telling-time-hard-g1149-7",
+     "easy": "telling-time-easy-g1149-2",
+     "script": {
+      "say": "\"Every clock on this page shows a time that is half past the hour. Read each clock and circle the time that matches.\"",
+      "first": "Draw a clock on the board that shows half past two. Say: \"The long hand points to the 6. That means half past. The short hand tells the hour. It has gone past the 2 and is halfway to the 3, so the time is half past two, or 2:30.\" Do the first clock on the page together.",
+      "stuck": "Ask, \"Which number has the short hand just passed?\" That number is the hour. A child who names the next number is looking at where the short hand is going, not at where it has been."
+     }
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-241",
+     "title": "Word Problem Practice",
+     "instruction": "Read each story. Use the pictures to help you. Write the answer in the box.",
+     "core": "word-problems-fruits-g1241",
+     "hard": "word-problems-hard-kitchen-tools-g1241",
+     "easy": "word-problems-easy-accessories-g1241",
+     "script": {
+      "say": "\"Each problem on this page is a short story with numbers. Read the story, look at the picture, and write the answer in the box. We will do the first one together. If you cannot read a word, raise your hand and I will help you.\"",
+      "first": "Read the first story aloud together, twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then the children read the other stories on their own. Walk around and read a story aloud to any child who needs it; this page is math practice, not a reading test.",
+      "stuck": "Read the story to the child again and ask them to tell it back in their own words. Let them touch and count the pictures, or draw dots."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:picture-analogies",
+     "type": "G1-157",
+     "title": "Picture Puzzles",
+     "instruction": "Look at the first pair. Circle what completes the second pair the same way.",
+     "core": "visual-logic-fruits-g1157",
+     "script": {
+      "say": "\"Look at the first two pictures and see what changed from the first to the second. Then look at the third picture: it changes in the same way. Circle the picture that shows it.\"",
+      "first": "Do the first row together. Point to the first two pictures and ask, \"What happened? Did it get bigger or smaller?\" Say it in a sentence: \"The big one turned into a small one.\" Then point to the third picture: \"So this one turns into…?\" Circle the answer among the three choices.",
+      "stuck": "Have the child say what changed in the first pair in their own words, then say the same about the third picture. Check each choice: it has to be the same fruit as the third picture, and changed in the same way."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-414",
+     "title": "What Changed? Tick the Words",
+     "instruction": "Circle the 3 differences in the bottom picture, then tick the words of the things that changed.",
+     "core": "find-the-differences-g1414",
+     "hard": "find-the-differences-hard-g1414-16",
+     "easy": "find-the-differences-easy-g1414-2",
+     "script": {
+      "say": "\"Here is a spot-the-difference puzzle. Three things in the bottom picture have changed. Circle them. Then read the words and check the ones that name the things that changed.\"",
+      "first": "Find one difference together and circle it in the bottom picture. Read the list of words aloud. Ask, \"Which word names the thing we just circled?\" Check its box together.",
+      "stuck": "Have the child compare one small part of the two pictures at a time, from top to bottom. Read the words to a child who cannot read them, and ask, \"Did this one change?\" for each."
+     }
+    }
+   ]
+  },
+  {
+   "id": "g1-late-2",
+   "slug": "first-grade-sub-plans-end-of-the-year-day-2",
+   "status": "live",
+   "grade": "1",
+   "position": "late",
+   "title": "First Grade Sub Plans: End of the Year, Day 2",
+   "metaTitle": "First Grade Emergency Sub Plans: End of the Year, Day 2",
+   "metaDescription": "No-prep emergency sub plans for the end of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "minutes": 140,
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:days-months-seasons",
+     "type": "G1-320",
+     "title": "Months of the Year in Order",
+     "instruction": "January is already marked 1. Number the other months 2 to 12 in the order of the year.",
+     "core": "days-and-months-g1320",
+     "hard": "days-and-months-hard-g1320-7",
+     "easy": "days-and-months-easy-g1320-3",
+     "script": {
+      "say": "\"There are twelve months in a year. On this page they are mixed up. January already has a 1. Number the other months from 2 to 12 in the order of the year.\"",
+      "first": "Say the months of the year aloud together, twice. Read the month names on the page aloud and have the children point to each one. Ask, \"Which month comes after January?\" Find February together and write a 2 next to it.",
+      "stuck": "Say the months in order with the child from January and stop at each one so the child can find its word and number it. If the classroom has a calendar, the child may use it."
+     }
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-sequencing",
+     "type": "G1-402",
+     "title": "Story Sequencing Sentences: Match the Pictures",
+     "instruction": "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture.",
+     "core": "story-sequencing-g1402",
+     "hard": "story-sequencing-hard-g1402-12",
+     "easy": "story-sequencing-easy-g1402-7",
+     "script": {
+      "say": "\"Each story on this page is told in four sentences, but the sentences are out of order. Read them. Number them 1 to 4 in the order things happen. Then draw a line from each sentence to its picture.\"",
+      "first": "Do the first story together. Read the four sentences aloud. Ask, \"Which one happens first? How do you know?\" Write a 1 in its box, then find 2, 3, and 4. Read the story in order, and draw a line from each sentence to the picture that shows it.",
+      "stuck": "Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next."
+     }
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293",
+     "title": "Nouns and Verbs: Two Bins",
+     "instruction": "Ten words and two bins. Is each word a noun or a verb?",
+     "core": "word-classes-toys-g1293",
+     "hard": "word-classes-hard-easter-g1293",
+     "easy": "word-classes-easy-vegetables-g1293",
+     "script": {
+      "say": "\"A noun names a person, an animal, a place, or a thing, like dog or school. A verb is something you can do, like run or sing. Read each word and write it in the right bin: noun or verb.\"",
+      "first": "Read the ten words aloud together. Take the first word and try two test sentences: \"I can see a ___\" for a noun, and \"I can ___\" for a verb. Decide together and write the word in its bin. Cross it out in the list.",
+      "stuck": "Read the word to the child and have the child try both test sentences aloud: \"I can see a jump. I can jump.\" The one that sounds right tells the bin. A word that can be both, such as \"paint,\" is right in either bin if the child can use it in a sentence."
+     }
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:pronouns",
+     "type": "G1-371",
+     "title": "Replace the Name with a Pronoun",
+     "instruction": "Read the sentence. Write the word from the bank that replaces the name in the second sentence.",
+     "core": "pronouns-g1371",
+     "hard": "pronouns-hard-g1371-12",
+     "easy": "pronouns-easy-g1371-7",
+     "script": {
+      "say": "\"We do not say a name over and over. We use a short word in its place: he, she, or they. Read the first sentence. Then write the word from the word bank that takes the place of the name in the second sentence.\"",
+      "first": "Read the word bank aloud together: She, They, He. Read the first pair of sentences aloud. Ask, \"Who is the sentence about? One boy, one girl, or more than one person?\" Choose the word together and write it in the second sentence. Read both sentences again.",
+      "stuck": "Read both sentences with the child and put a finger under the name or names. Ask whether it is one person or more than one, and a boy or a girl. Then try each word from the word bank in the gap and read the sentence aloud."
+     }
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:coins",
+     "type": "G1-228",
+     "title": "Counting Coins: First Steps",
+     "instruction": "Count the coins in each purse. Write the total amount in the box.",
+     "core": "money-g1228",
+     "hard": "money-hard-g1228-10",
+     "easy": "money-easy-g1228-7",
+     "script": {
+      "say": "\"Each purse has coins in it. The number on a coin tells you how many cents it is worth. Count how much money is in the purse and write the amount in the box.\"",
+      "first": "Draw the three coins on the board: a 10 is a dime, a 5 is a nickel, and a 1 is a penny. Do the first purse together: start with the coin that is worth the most and count on: \"10… 15… 16 cents.\" Write the amount in the box in front of the cent sign.",
+      "stuck": "Have the child touch each coin, biggest number first, and say the running total. A child who counts the coins and not the cents (three coins are \"3\") should read the number on each coin aloud first. If the classroom has play coins, let the child lay them out."
+     }
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:bar-graphs",
+     "type": "G1-143",
+     "title": "Read the Bar Graph",
+     "instruction": "Read each bar. Write its number.",
+     "core": "graphing-data-shapes-g1143",
+     "hard": "graphing-data-hard-beach-g1143",
+     "easy": "graphing-data-easy-vegetables-g1143",
+     "script": {
+      "say": "\"A bar graph shows how many with bars. A taller bar means more. Read each bar and write its number.\"",
+      "first": "Hold up the page and point to the first bar. Put your finger on the top of the bar and slide it across to the numbers on the side. Read the number together and write it in the box.",
+      "stuck": "Have the child put a finger on the top of the bar and move it straight across to the numbers. The child may also count the boxes in the bar from the bottom up."
+     }
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-422",
+     "title": "The Shortest Way to the Green Car",
+     "instruction": "Many streets lead to the green car. Draw the shortest way for the tow truck and write how many street pieces it takes.",
+     "core": "maze-puzzles-g1422",
+     "hard": "maze-puzzles-hard-g1422-8",
+     "easy": "maze-puzzles-easy-g1422-2",
+     "script": {
+      "say": "\"Many streets lead to the green car, but the tow truck wants the SHORTEST way. Find it, draw it, and write how many street pieces it takes.\"",
+      "first": "Hold up the page and show the tow truck and the green car. Trace one way with your finger and count the street pieces aloud. Ask, \"Is there a shorter way?\" Tell the children to try at least two ways with a finger and count each before they draw.",
+      "stuck": "Have the child trace a way with a finger and count the pieces, then try another way and count again. The way with the smaller number is the one to draw."
+     }
+    },
+    {
+     "key": "closing",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-415",
+     "title": "Mirror Pictures: Fold and Check",
+     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check.",
+     "core": "find-the-differences-g1415",
+     "hard": "find-the-differences-hard-g1415-20",
+     "easy": "find-the-differences-easy-g1415-2",
+     "script": {
+      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
+      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
+      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
      }
     }
    ]

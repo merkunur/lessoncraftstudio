@@ -1,0 +1,44 @@
+{
+  "K:letter-case / K-222": {
+    "first": "Do the first one together. Point to the first capital letter and ask for its name. Then point to the small letters one at a time and ask, \"Does this one go with it?\" Draw the line together. Tell the children to do the ones they are sure of first."
+  },
+  "K:all-about-me-personal / K-323": {
+    "first": "Show the page and read the words in each box aloud as you point to it: \"My name is,\" \"I am ___ years old,\" \"This is me,\" \"My family,\" and the three favorites. Write the numbers 4, 5, and 6 on the board and ask, \"Who is 5?\" so that the children can copy their age. Do not write a name on the board as an example; some children would copy it. Children who cannot write their name yet may copy it from their name tag or desk label.",
+    "stuck": "For the name, point to the child's name tag and have the child copy it one letter at a time. For the drawings, ask a question: \"Who lives with you? What animal do you like best?\" The child decides who is in their family; any drawing is fine."
+  },
+  "K:count-how-many / K-006": {
+    "first": "Count the first box aloud together, touching each shape on your page as the class counts. Ask, \"So how many are there?\" Write the number on the board. Then write the numbers 1 to 10 on the board and leave them there for children who need to copy them."
+  },
+  "K:word-sentence-tracing / K-239": {
+    "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it."
+  },
+  "K:before-after-back / K-021": {
+    "stuck": "Walk to the board with the child and have the child put a finger on the number: one step to the left is the number before, one step to the right is the number after."
+  },
+  "K:seasons / K-341": {
+    "first": "Make sure every child has crayons. Read the name of each season aloud and point to its box. Talk about each one for a moment: \"What does a tree look like in winter? What grows on it in spring? What does it have in summer? What happens to the leaves in fall?\" Then the children draw on the bare trees, one box at a time, and color them."
+  },
+  "K:family / K-375": {
+    "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about Anna's family.\""
+  },
+  "K:feelings / K-335": {
+    "first": "Point to each face and read the feeling word under it. Tell the children that every feeling is okay and that they do not have to show their page to other children. Each child circles one face and then draws their own face in the big circle. Children who can write may finish the sentence that starts with \"because\" on the lines; the others may leave the lines empty.",
+    "stuck": "A child who cannot choose may circle two faces. If a child circles a sad or an angry face, do not ask why in front of the class. Later, when the two of you are alone, you may ask quietly, \"Do you want to tell me about it?\" and accept a no. Write the child's name on the \"How the day went\" form so that the teacher knows. If a child tells you something that makes you worry about their safety, tell the office before you leave."
+  },
+  "1:word-families-syllable-reading / G1-330": {
+    "first": "Read the words at the top aloud together, row by row (the printed directions call this box the carpet), and ask what is the same in all the words of a row. Do the first picture together: name it, read the three words under it, and circle the one that names the picture."
+  },
+  "1:phoneme-boxes / G1-312": {
+    "stuck": "Have the child say the word slowly and push a finger forward for each sound. Two letters that make one sound, such as sh, go in one box together. A child who fills every box, whether the word needs them all or not, is spelling letter by letter and not listening for sounds; say the word together again and tap one box for each sound."
+  },
+  "1:logic-picture-clues / G1-349": {
+    "stuck": "Have the child take one clue at a time and make its mark in the grid before reading the next clue. When a row has only one box without an X, that box gets the check mark: it is what the child in the puzzle has."
+  },
+  "1:days-months-seasons~season-wheel / G1-323": {
+    "first": "Make sure every child has the crayons the key names. Read the color key aloud together. Read the names of the twelve months aloud and have the children point to each one. Do the first month together: \"January. Which season is it in? Which color is that?\" Color its circle. For your own reference: December, January, and February are winter; March, April, and May are spring; June, July, and August are summer; September, October, and November are fall."
+  },
+  "1:word-problems / G1-241": {
+    "say": "\"Each problem on this page is a short story with numbers. Read the story, look at the picture, and write the answer in the box. We will do the first one together. If you cannot read a word, raise your hand and I will help you.\"",
+    "first": "Read the first story aloud together, twice. Ask: \"What happens in the story? Do we get more, or do some go away?\" Find the answer together and write it in the box. Then the children read the other stories on their own. Walk around and read a story aloud to any child who needs it; this page is math practice, not a reading test."
+  }
+}

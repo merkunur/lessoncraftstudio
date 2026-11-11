@@ -18,6 +18,8 @@
  *                  say (in quotation marks), how to start together and what to do when a child is stuck
  *   P5  tier truth no visible string says the material is free (the plan's name comes from the pricing catalogue)
  *   P6  strings    every language's ui file holds exactly the keys of the English one
+ *   P8  review     a sub pack takes nothing the plans of its grade teach after the pack's time of year (start: the first
+ *                  third of the plan weeks; middle: two thirds), and the packs of a grade share no page
  */
 'use strict';
 const fs = require('fs');
@@ -35,8 +37,10 @@ const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[-
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
+const { planWeeks, refused } = require('../sub-plans/position.js');
 function load() {
-  const d = { points: new Set(readJson(path.join(C, 'teaching-graph', 'points.json')).points.map((p) => p.id)), loc: {} };
+  const all = readJson(path.join(C, 'teaching-graph', 'points.json')).points;
+  const d = { points: new Set(all.map((p) => p.id)), pointById: new Map(all.map((p) => [p.id, p])), loc: {} };
   for (const l of LOCALES) {
     const units = readJson(path.join(C, 'units', 'units.' + l + '.json'));
     const packs = readJson(path.join(C, 'sub-plans', 'packs.' + l + '.json'));
@@ -124,9 +128,21 @@ function run(d) {
       if (p.weeks !== week) fail('P7', w + ': ' + p.weeks + ' weeks, its units add up to ' + week);
       for (const u of L.units) if (u.grade === p.grade && u.subject === p.subject && !p.units.some((r) => r.id === u.id)) fail('P7', w + ': the unit ' + u.id + ' of this grade and subject is missing');
     }
-    // sub packs
+    // sub packs: a day of review takes nothing the plans of its grade teach after the pack's time of year (P8), and a
+    // grade's packs share no page (a teacher who is out twice gets a second day, not the same pages)
+    const weeks = planWeeks({ units: L.units, plans: L.plans });
+    const typeOf = new Map();
     for (const p of L.packs) {
       const w = l + ' pack ' + p.id;
+      for (const b of p.blocks) {
+        const pt = d.pointById.get(b.point);
+        const no = pt ? refused(pt, p.grade, p.position, weeks) : null;
+        if (no) fail('P8', w + ' block ' + b.key + ' (' + b.point + '): ' + no);
+        for (const slug of [b.core, b.easy, b.hard].filter(Boolean)) {
+          const k = p.grade + ' ' + slug;
+          if (typeOf.has(k)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' is also in pack ' + typeOf.get(k) + ' of the same grade'); else typeOf.set(k, p.id);
+        }
+      }
       if (p.blocks.length < 5) fail('P4', w + ': ' + p.blocks.length + ' blocks (at least 5)');
       for (const m of ['reading', 'writing', 'math']) if (!p.blocks.some((b) => b.key === m)) fail('P4', w + ': no ' + m + ' block');
       for (const b of p.blocks) {
@@ -170,6 +186,8 @@ const POISONS = [
   ['a year plan that claims the whole year', 'P7', (d) => { d.loc.en.plans[0].metaTitle = 'Kindergarten Math Curriculum Map for the Whole Year'; }],
   ['a year plan that claims a full year in its description', 'P7', (d) => { d.loc.en.plans[0].metaDescription = d.loc.en.plans[0].metaDescription.replace('(not a full year)', 'for a full year'); }],
   ['a year plan row that is not what its unit says', 'P7', (d) => { d.loc.en.plans[0].units[0].lessons[0] += ' again'; }],
+  ['a pack that reviews what its grade teaches later in the year', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.grade === 'K' && x.position === 'early'); p.blocks[0].point = 'K:combine-groups'; }],
+  ['a page in two packs of one grade', 'P8', (d) => { const ps = d.loc.en.packs.filter((x) => x.grade === 'K'); ps[1].blocks[0].core = ps[0].blocks[0].core; }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],
   ['a string that says free', 'P5', (d) => { d.loc.en.uiU.teacherLead = 'Download the whole unit free.'; }],

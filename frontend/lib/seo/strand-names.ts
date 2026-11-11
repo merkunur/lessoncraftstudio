@@ -28,6 +28,8 @@
  * Base-Ten → "Sentido numérico"; it → "Numeri"; pt → "Números") — §17.4.3.
  */
 
+import { STRAND_LABEL_CORRECTIONS } from './strand-label-corrections';
+
 export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   /* ── the worksheet→activity coverage plan (2026-10-17): strands outside Common Core (lib/frameworks.ts). Native-checked per locale at the first build that uses each. ── */
   'Health & Safety': {
@@ -401,39 +403,9 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
 };
 
 /**
- * Names the curriculum registry proved wrong (Daily Teaching System, Part 2, 2026-11-11). For each registry a
- * teacher-reviewer of that country read the official text (frontend/content/curricula/<loc>/framework.json) beside
- * the names above and changed a name only where a heading of the official text proves another one; the reason of
- * each change is in docs/daily-teaching-system/curricula/REVIEW-NOTES.<loc>.md.
- *
- * The OLD name stays in STRAND_NAMES on purpose: the meta descriptions of indexed pages (/standards/<code>) are
- * built from it, and an indexed page's title and description must not change (PLAN.md §5 rule 1). Everything a
- * visitor SEES (chips, headings, facet names) and the JSON-LD use `strandLabel()`, which reads this table first.
- * When a page's metadata is ever rewritten for another reason, move the name up into STRAND_NAMES and delete it here.
+ * What a visitor is shown for a strand: the name the curriculum registry proved right where it corrected one
+ * (strand-label-corrections.ts, a file of its own on purpose), else `localizeStrand`.
  */
-export const STRAND_LABEL_CORRECTIONS: Record<string, Partial<Record<string, string>>> = {
-  'Science': {
-    es: 'Saberes y Pensamiento Científico', // the campo formativo that holds all natural-science content (Plan de Estudio 2022); the old name was the 2011 plan's subject
-    nl: 'Natuur en techniek', // the kerndoelen on plants, animals, the body, materials and weather stand under this heading; the leergebied's name alone does not tell science from social studies
-  },
-  'Social Studies': {
-    es: 'Ética, Naturaleza y Sociedades', // the campo's official spelling
-    fr: 'Histoire-géographie', // the cycle 2 programme of 2026 that replaces « Questionner l'espace et le temps »; the old name left out the history half
-  },
-  'Reading: Foundational Skills': {
-    es: 'Convenciones de la escritura', // contenido « Uso de convenciones de la escritura »; « Comprensión lectora » means understanding texts, not decoding
-  },
-  'Measurement & Data': {
-    nl: 'Meten en data', // the kerndoelen Rekenen en wiskunde of 2026 say « data », not « gegevens »
-    da: 'Måling og statistik', // Fælles Mål says « statistik »: the competence areas are « Geometri og måling » and « Statistik og sandsynlighed »
-    it: 'Relazioni, dati e previsioni', // the nucleo of the Indicazioni nazionali under which both measuring and data stand
-  },
-  'Number & Operations—Fractions': {
-    nl: 'Breuken', // the kerndoelen of 2026 keep « breuken » apart from « verhoudingen » (procenten, schaal)
-  },
-};
-
-/** What a visitor is shown for a strand: the corrected name where the registry proved one, else `localizeStrand`. */
 export function strandLabel(strand: string, locale: string): string {
   const fixed = STRAND_LABEL_CORRECTIONS[strand];
   return (fixed && fixed[locale]) || localizeStrand(strand, locale);
